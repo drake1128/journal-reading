@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>side_branch_loss_prevention_marp – Journal Reading — Dr. Drake Hsieh</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e2d335519fda3bc7c134d94e5e0c7dbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "沒有結果",
+    "search-matching-documents-text": "符合的文件",
+    "search-copy-link-title": "複製搜尋連結",
+    "search-hide-matches-text": "隱藏其他符合的結果",
+    "search-more-match-text": "更多符合結果",
+    "search-more-matches-text": "更多符合結果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "送出",
+    "search-label": "搜尋"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Journal Reading — Dr.&nbsp;Drake Hsieh</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜尋"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="切換導航列" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../handouts/04-valvular-disease/mainz-2024/quarto/zh/index.html"> 
+<span class="menu-text">Mainz 2024</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">本頁目錄</h2>
+   
+  <ul>
+  <li><a href="#preventing-side-branch-loss" id="toc-preventing-side-branch-loss" class="nav-link active" data-scroll-target="#preventing-side-branch-loss"><span class="header-section-number">1</span> Preventing Side Branch Loss</a></li>
+  <li><a href="#預防-bifurcation-pci-中的分支血管丟失" id="toc-預防-bifurcation-pci-中的分支血管丟失" class="nav-link" data-scroll-target="#預防-bifurcation-pci-中的分支血管丟失"><span class="header-section-number">2</span> 預防 Bifurcation PCI 中的分支血管丟失</a></li>
+  <li><a href="#大綱" id="toc-大綱" class="nav-link" data-scroll-target="#大綱"><span class="header-section-number">3</span> 大綱</a></li>
+  <li><a href="#第一部分問題的嚴重性" id="toc-第一部分問題的嚴重性" class="nav-link" data-scroll-target="#第一部分問題的嚴重性"><span class="header-section-number">4</span> 第一部分：問題的嚴重性</a></li>
+  <li><a href="#為什麼要討論-side-branch-loss" id="toc-為什麼要討論-side-branch-loss" class="nav-link" data-scroll-target="#為什麼要討論-side-branch-loss"><span class="header-section-number">5</span> 為什麼要討論 Side Branch Loss？</a></li>
+  <li><a href="#sbo-的臨床後果" id="toc-sbo-的臨床後果" class="nav-link" data-scroll-target="#sbo-的臨床後果"><span class="header-section-number">6</span> SBO 的臨床後果</a></li>
+  <li><a href="#第二部分預測與評估" id="toc-第二部分預測與評估" class="nav-link" data-scroll-target="#第二部分預測與評估"><span class="header-section-number">7</span> 第二部分：預測與評估</a></li>
+  <li><a href="#sbo-的獨立預測因子" id="toc-sbo-的獨立預測因子" class="nav-link" data-scroll-target="#sbo-的獨立預測因子"><span class="header-section-number">8</span> SBO 的獨立預測因子</a></li>
+  <li><a href="#octivus-的額外預測價值" id="toc-octivus-的額外預測價值" class="nav-link" data-scroll-target="#octivus-的額外預測價值"><span class="header-section-number">9</span> OCT/IVUS 的額外預測價值</a>
+  <ul class="collapse">
+  <li><a href="#oct-orbid-study" id="toc-oct-orbid-study" class="nav-link" data-scroll-target="#oct-orbid-study"><span class="header-section-number">9.1</span> OCT (ORBID Study)</a></li>
+  <li><a href="#ivus" id="toc-ivus" class="nav-link" data-scroll-target="#ivus"><span class="header-section-number">9.2</span> IVUS</a></li>
+  </ul></li>
+  <li><a href="#v-resolve-score術前快速評估總分-0-43" id="toc-v-resolve-score術前快速評估總分-0-43" class="nav-link" data-scroll-target="#v-resolve-score術前快速評估總分-0-43"><span class="header-section-number">10</span> V-RESOLVE Score：術前快速評估（總分 0-43）</a></li>
+  <li><a href="#第三部分side-branch-保護策略" id="toc-第三部分side-branch-保護策略" class="nav-link" data-scroll-target="#第三部分side-branch-保護策略"><span class="header-section-number">11</span> 第三部分：Side Branch 保護策略</a></li>
+  <li><a href="#三個層級的-sb-保護" id="toc-三個層級的-sb-保護" class="nav-link" data-scroll-target="#三個層級的-sb-保護"><span class="header-section-number">12</span> 三個層級的 SB 保護</a></li>
+  <li><a href="#jailed-wire-technique-jwt" id="toc-jailed-wire-technique-jwt" class="nav-link" data-scroll-target="#jailed-wire-technique-jwt"><span class="header-section-number">13</span> Jailed Wire Technique (JWT)</a>
+  <ul class="collapse">
+  <li><a href="#操作方式" id="toc-操作方式" class="nav-link" data-scroll-target="#操作方式"><span class="header-section-number">13.1</span> 操作方式</a></li>
+  <li><a href="#功能" id="toc-功能" class="nav-link" data-scroll-target="#功能"><span class="header-section-number">13.2</span> 功能</a></li>
+  <li><a href="#限制" id="toc-限制" class="nav-link" data-scroll-target="#限制"><span class="header-section-number">13.3</span> 限制</a></li>
+  </ul></li>
+  <li><a href="#jailed-balloon-technique-jbt" id="toc-jailed-balloon-technique-jbt" class="nav-link" data-scroll-target="#jailed-balloon-technique-jbt"><span class="header-section-number">14</span> Jailed Balloon Technique (JBT)</a>
+  <ul class="collapse">
+  <li><a href="#操作方式-1" id="toc-操作方式-1" class="nav-link" data-scroll-target="#操作方式-1"><span class="header-section-number">14.1</span> 操作方式</a></li>
+  <li><a href="#功能-1" id="toc-功能-1" class="nav-link" data-scroll-target="#功能-1"><span class="header-section-number">14.2</span> 功能</a></li>
+  <li><a href="#結果-cit-resolve-trial" id="toc-結果-cit-resolve-trial" class="nav-link" data-scroll-target="#結果-cit-resolve-trial"><span class="header-section-number">14.3</span> 結果 (CIT-RESOLVE Trial)</a></li>
+  </ul></li>
+  <li><a href="#cit-resolve-trialjbt-vs.-jwt" id="toc-cit-resolve-trialjbt-vs.-jwt" class="nav-link" data-scroll-target="#cit-resolve-trialjbt-vs.-jwt"><span class="header-section-number">15</span> CIT-RESOLVE Trial：JBT vs.&nbsp;JWT</a></li>
+  <li><a href="#第四部分provisional-stenting-流程" id="toc-第四部分provisional-stenting-流程" class="nav-link" data-scroll-target="#第四部分provisional-stenting-流程"><span class="header-section-number">16</span> 第四部分：Provisional Stenting 流程</a></li>
+  <li><a href="#step-by-step-provisional-stenting" id="toc-step-by-step-provisional-stenting" class="nav-link" data-scroll-target="#step-by-step-provisional-stenting"><span class="header-section-number">17</span> Step-by-Step Provisional Stenting</a></li>
+  <li><a href="#potbifurcation-pci-成功的關鍵" id="toc-potbifurcation-pci-成功的關鍵" class="nav-link" data-scroll-target="#potbifurcation-pci-成功的關鍵"><span class="header-section-number">18</span> POT：Bifurcation PCI 成功的關鍵</a>
+  <ul class="collapse">
+  <li><a href="#什麼是-pot" id="toc-什麼是-pot" class="nav-link" data-scroll-target="#什麼是-pot"><span class="header-section-number">18.1</span> 什麼是 POT？</a></li>
+  <li><a href="#為什麼重要" id="toc-為什麼重要" class="nav-link" data-scroll-target="#為什麼重要"><span class="header-section-number">18.2</span> 為什麼重要？</a></li>
+  </ul></li>
+  <li><a href="#第五部分錯誤防範" id="toc-第五部分錯誤防範" class="nav-link" data-scroll-target="#第五部分錯誤防範"><span class="header-section-number">19</span> 第五部分：錯誤防範</a></li>
+  <li><a href="#常見致命錯誤" id="toc-常見致命錯誤" class="nav-link" data-scroll-target="#常見致命錯誤"><span class="header-section-number">20</span> 常見致命錯誤</a></li>
+  <li><a href="#高風險情境-checklist" id="toc-高風險情境-checklist" class="nav-link" data-scroll-target="#高風險情境-checklist"><span class="header-section-number">21</span> 高風險情境 Checklist</a></li>
+  <li><a href="#sb-rewiringguidewire-選擇第一線" id="toc-sb-rewiringguidewire-選擇第一線" class="nav-link" data-scroll-target="#sb-rewiringguidewire-選擇第一線"><span class="header-section-number">22</span> SB Rewiring：Guidewire 選擇（第一線）</a>
+  <ul class="collapse">
+  <li><a href="#hydrophilic-polymer-jacketed-wire" id="toc-hydrophilic-polymer-jacketed-wire" class="nav-link" data-scroll-target="#hydrophilic-polymer-jacketed-wire"><span class="header-section-number">22.1</span> Hydrophilic Polymer-Jacketed Wire</a></li>
+  </ul></li>
+  <li><a href="#sb-rewiringcto-wire最後手段" id="toc-sb-rewiringcto-wire最後手段" class="nav-link" data-scroll-target="#sb-rewiringcto-wire最後手段"><span class="header-section-number">23</span> SB Rewiring：CTO Wire（最後手段）</a>
+  <ul class="collapse">
+  <li><a href="#cto-wire-的使用需極度謹慎" id="toc-cto-wire-的使用需極度謹慎" class="nav-link" data-scroll-target="#cto-wire-的使用需極度謹慎"><span class="header-section-number">23.1</span> ⚠️ CTO Wire 的使用需極度謹慎</a></li>
+  </ul></li>
+  <li><a href="#wire-升級流程與搶救策略" id="toc-wire-升級流程與搶救策略" class="nav-link" data-scroll-target="#wire-升級流程與搶救策略"><span class="header-section-number">24</span> Wire 升級流程與搶救策略</a></li>
+  <li><a href="#take-home-messages" id="toc-take-home-messages" class="nav-link" data-scroll-target="#take-home-messages"><span class="header-section-number">25</span> Take-Home Messages</a></li>
+  <li><a href="#參考文獻" id="toc-參考文獻" class="nav-link" data-scroll-target="#參考文獻"><span class="header-section-number">26</span> 參考文獻</a></li>
+  <li><a href="#教學資源" id="toc-教學資源" class="nav-link" data-scroll-target="#教學資源"><span class="header-section-number">27</span> 教學資源</a></li>
+  <li><a href="#謝謝聆聽" id="toc-謝謝聆聽" class="nav-link" data-scroll-target="#謝謝聆聽"><span class="header-section-number">28</span> 謝謝聆聽</a>
+  <ul class="collapse">
+  <li><a href="#q-a" id="toc-q-a" class="nav-link" data-scroll-target="#q-a"><span class="header-section-number">28.1</span> Q &amp; A</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<!-- _class: lead -->
+<section id="preventing-side-branch-loss" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Preventing Side Branch Loss</h1>
+</section>
+<section id="預防-bifurcation-pci-中的分支血管丟失" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 預防 Bifurcation PCI 中的分支血管丟失</h1>
+<p><strong>謝慕揚 MD, PhD, FESC</strong> 資料來源：EBC 15th-17th Consensus Documents | 2026-03-13 <a href="https://doi.org/10.4244/EIJ-D-23-00124">17th EBC Consensus — EuroIntervention 2023</a></p>
+<hr>
+</section>
+<section id="大綱" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 大綱</h1>
+<ol type="1">
+<li>為什麼要討論這個主題</li>
+<li>Side Branch Occlusion 的預測因子與 V-RESOLVE Score</li>
+<li>SB 保護策略：Jailed Wire vs.&nbsp;Jailed Balloon</li>
+<li>Provisional Stenting 步驟式流程</li>
+<li>搶救策略與錯誤防範</li>
+<li>Take-Home Messages</li>
+</ol>
+<hr>
+<!-- _class: divider -->
+</section>
+<section id="第一部分問題的嚴重性" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> 第一部分：問題的嚴重性</h1>
+<hr>
+</section>
+<section id="為什麼要討論-side-branch-loss" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> 為什麼要討論 Side Branch Loss？</h1>
+<ul>
+<li>Side branch loss 是 bifurcation PCI 中<strong>最常見且可預防</strong>的嚴重併發症</li>
+<li>LAD-Diagonal bifurcation 是最常遇到的 bifurcation location</li>
+<li>Bifurcation lesions 佔所有 PCI 的 <strong>15-20%</strong></li>
+<li>Side branch occlusion (SBO) 發生率：<strong>5-20%</strong></li>
+<li>正確的 wire management 和保護策略是介入醫師的<strong>核心能力</strong></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>SBO = Periprocedural MI = 影響病人預後</strong></p>
+</blockquote>
+<hr>
+</section>
+<section id="sbo-的臨床後果" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> SBO 的臨床後果</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>結果</th>
+<th>SBO 組</th>
+<th>非 SBO 組</th>
+<th>P 值</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Procedural success</td>
+<td>82.9%</td>
+<td>94.7%</td>
+<td>0.007</td>
+</tr>
+<tr class="even">
+<td>Periprocedural MI</td>
+<td>14.6%</td>
+<td>3.5%</td>
+<td>0.003</td>
+</tr>
+<tr class="odd">
+<td>In-hospital MACE</td>
+<td>17.1%</td>
+<td>5.3%</td>
+<td>0.007</td>
+</tr>
+<tr class="even">
+<td>Unplanned two-stent</td>
+<td>24.8%</td>
+<td>6.0%</td>
+<td>&lt; 0.001</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>：丟失一條有意義的 diagonal branch = 造成 periprocedural MI</p>
+</blockquote>
+<hr>
+<!-- _class: divider -->
+</section>
+<section id="第二部分預測與評估" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> 第二部分：預測與評估</h1>
+<hr>
+</section>
+<section id="sbo-的獨立預測因子" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> SBO 的獨立預測因子</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>預測因子</th>
+<th>OR</th>
+<th>P 值</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>MV/SB diameter ratio ↑</strong></td>
+<td>7.71</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td><strong>Bifurcation angle ↑</strong></td>
+<td>1.03/degree</td>
+<td>&lt; 0.01</td>
+</tr>
+<tr class="odd">
+<td><strong>SB diameter stenosis ≥ 50%</strong></td>
+<td>2.34</td>
+<td>&lt; 0.001</td>
+</tr>
+<tr class="even">
+<td><strong>Proximal MV stenosis ≥ 50%</strong></td>
+<td>2.34</td>
+<td>&lt; 0.001</td>
+</tr>
+<tr class="odd">
+<td><strong>SB TIMI flow &lt; 3</strong></td>
+<td>3.59</td>
+<td>&lt; 0.01</td>
+</tr>
+<tr class="even">
+<td><strong>Plaque ipsilateral to SB</strong></td>
+<td>Significant</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>：True bifurcation + 高角度 + SB ostial disease = 最高風險組合</p>
+</blockquote>
+<hr>
+</section>
+<section id="octivus-的額外預測價值" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> OCT/IVUS 的額外預測價值</h1>
+<section id="oct-orbid-study" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="oct-orbid-study"><span class="header-section-number">9.1</span> OCT (ORBID Study)</h2>
+<ul>
+<li><strong>Lipid-rich plaque</strong>：SBO 組 100% vs.&nbsp;64%</li>
+<li><strong>Lipid plaque contralateral to SB</strong>：OR 8.14</li>
+<li><strong>Spotty calcification</strong>：SBO 組 60% vs.&nbsp;0%</li>
+</ul>
+</section>
+<section id="ivus" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="ivus"><span class="header-section-number">9.2</span> IVUS</h2>
+<ul>
+<li><strong>MV plaque thickness at SB junction</strong></li>
+<li><strong>SB diameter ratio (media-to-media / intima-to-intima)</strong></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>：Intravascular imaging 可以幫助預判 SBO 風險，但 V-RESOLVE score 不需要 imaging 即可評估</p>
+</blockquote>
+<hr>
+<!-- _class: small-text -->
+</section>
+</section>
+<section id="v-resolve-score術前快速評估總分-0-43" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> V-RESOLVE Score：術前快速評估（總分 0-43）</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 35%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>項目</th>
+<th>參數</th>
+<th>分類與計分</th>
+<th>最高分</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Plaque distribution</td>
+<td>Opposite=0; <strong>Ipsilateral=2</strong></td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>MV TIMI flow (pre-stenting)</td>
+<td>TIMI 3=0; <strong>≤2=5</strong></td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Bifurcation core DS</td>
+<td>&lt;50%=0; 50-70%=4; <strong>&gt;70%=8</strong></td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Bifurcation angle</td>
+<td>&lt;70°=0; 70-90°=4; <strong>&gt;90°=6</strong></td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><strong>MV/SB diameter ratio</strong></td>
+<td>&lt;1.15=0; 1.15-1.5=6; <strong>&gt;1.5=12</strong></td>
+<td><strong>12</strong></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>SB DS (pre-stenting)</td>
+<td>&lt;50%=0; 50-70%=4; <strong>&gt;70%=10</strong></td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>分數</th>
+<th>風險</th>
+<th>SBO 率</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0-3</td>
+<td>低</td>
+<td>1.5%</td>
+</tr>
+<tr class="even">
+<td>4-7</td>
+<td>中低</td>
+<td>4.8%</td>
+</tr>
+<tr class="odd">
+<td>8-11</td>
+<td>中高</td>
+<td>7.2%</td>
+</tr>
+<tr class="even">
+<td><strong>≥12</strong></td>
+<td><strong>高</strong></td>
+<td><strong>16.7%</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>≥12 分 → 必須使用 Jailed Balloon Technique</strong></p>
+<hr>
+<!-- _class: divider -->
+</section>
+<section id="第三部分side-branch-保護策略" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> 第三部分：Side Branch 保護策略</h1>
+<hr>
+</section>
+<section id="三個層級的-sb-保護" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> 三個層級的 SB 保護</h1>
+<pre class="text"><code>Level 1: Jailed Wire Technique (JWT)
+    └── SB 內放一條 guidewire → 標記 + 維持 access
+
+Level 2: Jailed Balloon Technique (JBT)
+    └── SB 內放未充氣 balloon → 阻擋 plaque shift + 可充氣搶救
+
+Level 3: Upfront Two-Stent Strategy
+    └── DK Crush / Culotte / TAP → 真正大 SB + 嚴重 ostial disease</code></pre>
+<blockquote class="blockquote">
+<p><strong>原則</strong>：根據 V-RESOLVE score 選擇策略層級</p>
+</blockquote>
+<hr>
+</section>
+<section id="jailed-wire-technique-jwt" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Jailed Wire Technique (JWT)</h1>
+<section id="操作方式" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="操作方式"><span class="header-section-number">13.1</span> 操作方式</h2>
+<ul>
+<li>SB 放入 workhorse guidewire</li>
+<li>MV stent 部署 → wire 被 jailed 在 stent struts 下</li>
+</ul>
+</section>
+<section id="功能" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="功能"><span class="header-section-number">13.2</span> 功能</h2>
+<ul>
+<li>維持 SB access「路標」</li>
+<li>輕微改變 SB takeoff angle</li>
+<li>標記 SB ostium 位置</li>
+</ul>
+</section>
+<section id="限制" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="限制"><span class="header-section-number">13.3</span> 限制</h2>
+<ul>
+<li>Wire 佔空間小 → <strong>無法阻擋 plaque/carina shift</strong></li>
+<li>SBO rate 仍約 <strong>19.9%</strong> (in high-risk lesions)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="jailed-balloon-technique-jbt" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> Jailed Balloon Technique (JBT)</h1>
+<section id="操作方式-1" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="操作方式-1"><span class="header-section-number">14.1</span> 操作方式</h2>
+<ul>
+<li>SB 放入 semi-compliant balloon（<strong>直徑 = MV stent / 2，且 ≤ SB 直徑</strong>）</li>
+<li>Balloon 未充氣，MV stent 部署時被 jailed</li>
+</ul>
+</section>
+<section id="功能-1" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="功能-1"><span class="header-section-number">14.2</span> 功能</h2>
+<ul>
+<li><strong>佔據 SB ostium 空間</strong> → 阻擋 plaque + carina shift</li>
+<li>SB flow 正常 → 未充氣撤出</li>
+<li>SB flow 受損 → <strong>原地充氣搶救</strong></li>
+</ul>
+</section>
+<section id="結果-cit-resolve-trial" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="結果-cit-resolve-trial"><span class="header-section-number">14.3</span> 結果 (CIT-RESOLVE Trial)</h2>
+<ul>
+<li>SBO rate：JWT <strong>19.9%</strong> vs.&nbsp;JBT <strong>9.1%</strong> (P = 0.02)</li>
+<li>Periprocedural MI：JWT 14.9% vs.&nbsp;JBT 7% (P = 0.03)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="cit-resolve-trialjbt-vs.-jwt" class="level1" data-number="15">
+<h1 data-number="15"><span class="header-section-number">15</span> CIT-RESOLVE Trial：JBT vs.&nbsp;JWT</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>結果</th>
+<th>JBT (n=143)</th>
+<th>JWT (n=141)</th>
+<th>P 值</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>SB occlusion</strong></td>
+<td><strong>9.1%</strong></td>
+<td><strong>19.9%</strong></td>
+<td><strong>0.02</strong></td>
+</tr>
+<tr class="even">
+<td>Periprocedural MI</td>
+<td>7%</td>
+<td>14.9%</td>
+<td>0.03</td>
+</tr>
+<tr class="odd">
+<td>1-yr cardiac death</td>
+<td>0.7%</td>
+<td>0.7%</td>
+<td>1.0</td>
+</tr>
+<tr class="even">
+<td>1-yr MACE</td>
+<td>8.4%</td>
+<td>10.6%</td>
+<td>0.52</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>：高風險病灶 (V-RESOLVE ≥ 12) 應使用 JBT，可將 SBO 率降低一半</p>
+</blockquote>
+<hr>
+<!-- _class: divider -->
+</section>
+<section id="第四部分provisional-stenting-流程" class="level1" data-number="16">
+<h1 data-number="16"><span class="header-section-number">16</span> 第四部分：Provisional Stenting 流程</h1>
+<hr>
+</section>
+<section id="step-by-step-provisional-stenting" class="level1" data-number="17">
+<h1 data-number="17"><span class="header-section-number">17</span> Step-by-Step Provisional Stenting</h1>
+<pre class="text"><code>Step 1: Wire Both Branches
+    ├── Wire MV → Wire SB
+    └── ⚠️ 永遠先確保 SB wire 在位
+
+Step 2: Pre-dilation (if needed)
+    └── 觀察 SB flow 變化
+
+Step 3: Deploy MV Stent
+    └── Jailed wire 或 jailed balloon 在 SB
+
+Step 4: POT (Proximal Optimization Technique) ← 關鍵！
+    └── NC balloon sized to proximal MV reference
+
+Step 5: Evaluate SB Flow
+    ├── TIMI 3 → 觀察
+    └── Compromised → Rewire + KBI
+
+Step 6: Re-POT
+    └── KBI 後必須做 re-POT</code></pre>
+<hr>
+</section>
+<section id="potbifurcation-pci-成功的關鍵" class="level1" data-number="18">
+<h1 data-number="18"><span class="header-section-number">18</span> POT：Bifurcation PCI 成功的關鍵</h1>
+<section id="什麼是-pot" class="level2" data-number="18.1">
+<h2 data-number="18.1" class="anchored" data-anchor-id="什麼是-pot"><span class="header-section-number">18.1</span> 什麼是 POT？</h2>
+<ul>
+<li><strong>Proximal Optimization Technique</strong></li>
+<li>NC balloon 尺寸 = proximal MV reference diameter</li>
+<li>充氣位置：stent 近端到 carina 之間</li>
+</ul>
+</section>
+<section id="為什麼重要" class="level2" data-number="18.2">
+<h2 data-number="18.2" class="anchored" data-anchor-id="為什麼重要"><span class="header-section-number">18.2</span> 為什麼重要？</h2>
+<ul>
+<li>確保 proximal stent 完全 apposed</li>
+<li><strong>打開 SB 對側的 stent struts</strong> → 利於 rewire</li>
+<li>預防 proximal stent malapposition</li>
+<li>改善 SB access</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>：每次 MV stenting 後都必須做 POT — 這是最容易被忽略但最重要的步驟</p>
+</blockquote>
+<hr>
+<!-- _class: divider -->
+</section>
+</section>
+<section id="第五部分錯誤防範" class="level1" data-number="19">
+<h1 data-number="19"><span class="header-section-number">19</span> 第五部分：錯誤防範</h1>
+<hr>
+</section>
+<section id="常見致命錯誤" class="level1" data-number="20">
+<h1 data-number="20"><span class="header-section-number">20</span> 常見致命錯誤</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>錯誤</th>
+<th>後果</th>
+<th>預防</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>未 wire SB 就 stent MV</td>
+<td>SB 完全喪失 access</td>
+<td><strong>永遠先 wire 兩條血管</strong></td>
+</tr>
+<tr class="even">
+<td><strong>拔掉 SB 唯一的 wire</strong></td>
+<td><strong>無法 rewire = SB 永久丟失</strong></td>
+<td><strong>確認不需要前永遠保持 wire</strong></td>
+</tr>
+<tr class="odd">
+<td>未做 POT</td>
+<td>SB access 困難</td>
+<td><strong>每次 MV stenting 後都做 POT</strong></td>
+</tr>
+<tr class="even">
+<td>忽略 SB ostial disease</td>
+<td>高風險 SBO</td>
+<td><strong>V-RESOLVE 評估</strong></td>
+</tr>
+<tr class="odd">
+<td>KBI 後未做 re-POT</td>
+<td>Proximal distortion</td>
+<td><strong>KBI 後一定 re-POT</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="高風險情境-checklist" class="level1" data-number="21">
+<h1 data-number="21"><span class="header-section-number">21</span> 高風險情境 Checklist</h1>
+<ul>
+<li>True bifurcation lesion (Medina x,x,1)？</li>
+<li>Bifurcation angle &gt; 70°？</li>
+<li>SB diameter ≥ 2.0 mm？</li>
+<li>SB ostial stenosis ≥ 50%？</li>
+<li>MV/SB diameter ratio &gt; 1.5？</li>
+<li>Plaque ipsilateral to SB？</li>
+<li><strong>V-RESOLVE score ≥ 12？</strong></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>≥ 3 項 → 使用 Jailed Balloon Technique 或考慮 Upfront Two-Stent Strategy</strong></p>
+</blockquote>
+<hr>
+</section>
+<section id="sb-rewiringguidewire-選擇第一線" class="level1" data-number="22">
+<h1 data-number="22"><span class="header-section-number">22</span> SB Rewiring：Guidewire 選擇（第一線）</h1>
+<section id="hydrophilic-polymer-jacketed-wire" class="level2" data-number="22.1">
+<h2 data-number="22.1" class="anchored" data-anchor-id="hydrophilic-polymer-jacketed-wire"><span class="header-section-number">22.1</span> Hydrophilic Polymer-Jacketed Wire</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 37%">
+<col style="width: 18%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wire</th>
+<th>Tip Load</th>
+<th>Tip</th>
+<th>特性</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fielder FC</strong></td>
+<td><strong>0.8 gf</strong></td>
+<td>0.014”</td>
+<td><strong>首選</strong>。滑順、torque 佳</td>
+</tr>
+<tr class="even">
+<td><strong>Fielder XT-A</strong></td>
+<td><strong>1.0 gf</strong></td>
+<td>0.010”/0.014” tapered</td>
+<td>FC 失敗後升級。Tapered tip 增加穿透力</td>
+</tr>
+<tr class="odd">
+<td><strong>SION Black</strong></td>
+<td><strong>0.8 gf</strong></td>
+<td>0.014” polymer</td>
+<td>Torque 極佳、低摩擦。操控手感不同</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>：Fielder FC 首選 → 失敗換 Fielder XT-A → 再換 SION Black</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="sb-rewiringcto-wire最後手段" class="level1" data-number="23">
+<h1 data-number="23"><span class="header-section-number">23</span> SB Rewiring：CTO Wire（最後手段）</h1>
+<section id="cto-wire-的使用需極度謹慎" class="level2" data-number="23.1">
+<h2 data-number="23.1" class="anchored" data-anchor-id="cto-wire-的使用需極度謹慎"><span class="header-section-number">23.1</span> ⚠️ CTO Wire 的使用需極度謹慎</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Wire</th>
+<th>Tip Load</th>
+<th>Tip</th>
+<th>建議</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>UB3</strong></td>
+<td><strong>3.0 gf</strong></td>
+<td>0.014”</td>
+<td>CTO wire 首選</td>
+</tr>
+<tr class="even">
+<td><strong>Gaia 1st</strong></td>
+<td><strong>1.7 gf</strong></td>
+<td>0.010”/0.014” tapered</td>
+<td>較安全的選項</td>
+</tr>
+<tr class="odd">
+<td><strong>Gaia 2nd</strong></td>
+<td><strong>3.5 gf</strong></td>
+<td>0.011”/0.014” tapered</td>
+<td>必要時使用</td>
+</tr>
+<tr class="even">
+<td><del>Gaia 3rd</del></td>
+<td><del>4.5 gf</del></td>
+<td><del>0.012”/0.014”</del></td>
+<td><strong>不建議使用</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>：CTO wire tip load 是 Fielder FC 的 2-5 倍，極易造成 <strong>SB dissection</strong>。一旦 dissection，搶救非常困難。<strong>絕對不用 Gaia 3rd (4.5 gf)</strong>。</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="wire-升級流程與搶救策略" class="level1" data-number="24">
+<h1 data-number="24"><span class="header-section-number">24</span> Wire 升級流程與搶救策略</h1>
+<pre class="text"><code>Wire 升級策略：
+  Fielder FC (0.8 gf) → Fielder XT-A (1.0 gf) → SION Black (0.8 gf)
+      |── 全部失敗
+      v
+  ⚠️ CTO Wire: UB3 (3.0) / Gaia 1st (1.7) / Gaia 2nd (3.5)
+      └── ❌ 不用 Gaia 3rd (4.5 gf)
+
+搶救流程：
+  Step 1: POT (打開 strut access)
+  Step 2: Rewire (Fielder FC → XT-A → SION Black)
+  Step 3: Micro-catheter 輔助 (FineCross, Twin-Pass Torque)
+  Step 4: CTO Wire — 最後手段，注意 dissection 風險</code></pre>
+<blockquote class="blockquote">
+<p><strong>預防永遠勝於搶救。不可拔掉 SB 中唯一的 wire。</strong></p>
+</blockquote>
+<hr>
+</section>
+<section id="take-home-messages" class="level1" data-number="25">
+<h1 data-number="25"><span class="header-section-number">25</span> Take-Home Messages</h1>
+<ol type="1">
+<li><strong>永遠 wire 兩條血管</strong> — MV 和 SB 都要有 wire</li>
+<li><strong>永遠不要拔掉 SB 唯一的 wire</strong> — 除非確認 SB flow 正常且不再需要 access</li>
+<li><strong>術前用 V-RESOLVE score 評估風險</strong> — ≥ 12 分用 jailed balloon</li>
+<li><strong>每次 MV stenting 後都做 POT</strong> — 這是 bifurcation PCI 成功的關鍵</li>
+<li><strong>KBI 後必須 re-POT</strong> — 矯正 proximal stent distortion</li>
+<li><strong>Jailed Balloon &gt; Jailed Wire</strong> — 高風險病灶 SBO 從 20% 降到 9%</li>
+</ol>
+<hr>
+<!-- _class: small-text -->
+</section>
+<section id="參考文獻" class="level1" data-number="26">
+<h1 data-number="26"><span class="header-section-number">26</span> 參考文獻</h1>
+<ol type="1">
+<li>Pan M, et al.&nbsp;17th EBC consensus – SB preservation techniques. <a href="https://doi.org/10.4244/EIJ-D-23-00124"><em>EuroIntervention</em>. 2023;19(1):26-36.</a></li>
+<li>Burzotta F, et al.&nbsp;15th EBC consensus. <a href="https://doi.org/10.4244/EIJ-D-20-00169"><em>EuroIntervention</em>. 2021;16(16):1307-1317.</a></li>
+<li>Albiero R, et al.&nbsp;16th EBC consensus – provisional stenting. <a href="https://doi.org/10.4244/EIJ-D-22-00165"><em>EuroIntervention</em>. 2022;18(5):e362-e376.</a></li>
+<li>Zhang D, et al.&nbsp;Predictors of SB occlusion. <a href="https://doi.org/10.4103/0366-6999.157654"><em>Chin Med J</em>. 2015;128(11):1471-8.</a></li>
+<li>Zhang D, et al.&nbsp;JBT vs JWT: CIT-RESOLVE. <a href="https://doi.org/10.3389/fcvm.2022.814873"><em>Front Cardiovasc Med</em>. 2022;9:814873.</a></li>
+<li>Kini AS, et al.&nbsp;OCT predictors (ORBID). <a href="https://doi.org/10.1002/ccd.26524"><em>Catheter Cardiovasc Interv</em>. 2017;89(2):259-268.</a></li>
+<li>Wu X, et al.&nbsp;LAD bifurcation SBO &amp; V-RESOLVE. <a href="https://doi.org/10.3389/fcvm.2025.1648244"><em>Front Cardiovasc Med</em>. 2025;12:1648244.</a></li>
+</ol>
+<hr>
+</section>
+<section id="教學資源" class="level1" data-number="27">
+<h1 data-number="27"><span class="header-section-number">27</span> 教學資源</h1>
+<ul>
+<li><strong>Dr.&nbsp;Emmanouil Brilakis</strong> YouTube: <span class="citation" data-cites="manosbrilakis">@manosbrilakis</span> — Complex PCI 教學</li>
+<li><strong>Medtronic Academy</strong> — <a href="https://www.medtronicacademy.com/en-us/content/bifurcation-pci">Bifurcation PCI</a></li>
+<li><strong>European Bifurcation Club</strong> — <a href="https://bifurc.eu">bifurc.eu</a></li>
+<li><strong>IntechOpen</strong> — <a href="https://www.intechopen.com/chapters/1215749">Step-by-step Bifurcation PCI</a></li>
+</ul>
+<hr>
+<!-- _class: lead -->
+</section>
+<section id="謝謝聆聽" class="level1" data-number="28">
+<h1 data-number="28"><span class="header-section-number">28</span> 謝謝聆聽</h1>
+<section id="q-a" class="level2" data-number="28.1">
+<h2 data-number="28.1" class="anchored" data-anchor-id="q-a"><span class="header-section-number">28.1</span> Q &amp; A</h2>
+<p><strong>謝慕揚 MD, PhD, FESC</strong></p>
+<p><em>記住：永遠不要拔掉 Side Branch 的 Wire！</em></p>
+<p><em>本文件僅供醫療專業人員教學參考</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已複製");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已複製");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/drake1128\.github\.io\/journal-reading\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
