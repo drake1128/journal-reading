@@ -1,0 +1,473 @@
+\documentclass[12pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{European Heart Journal 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{Stellate Ganglion Block for Electrical Storm}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{European Heart Journal}}\\[0.5cm]
+{\Large\textbf{Electrical Storm Treatment by Percutaneous Stellate Ganglion Block: the STAR Study}}\\[0.3cm]
+{\large 經皮星狀神經節阻斷術治療電風暴：STAR 研究}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1093/eurheartj/ehae021}{Eur Heart J. 2024;45(10):823--833. DOI: 10.1093/eurheartj/ehae021}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+\section{研究背景}
+%============================================================
+
+Electrical storm (ES) 定義為 24 小時內發生 \textbf{三次以上} ventricular tachycardia (VT) 或 ventricular fibrillation (VF)，是一種具有高死亡率的臨床急症。
+
+\subsection{臨床困境}
+
+\begin{itemize}
+    \item 約 \textbf{5\%} 的 primary prevention ICD 患者及 \textbf{25\%} 的 secondary prevention ICD 患者會發生 ES
+    \item 傳統治療選擇有限：antiarrhythmic drugs (AADs)、sedation/intubation、catheter ablation
+    \item 許多治療無法快速生效或並非每家醫院都能提供
+    \item 對於 refractory ES，臨床上存在極大的 unmet need
+\end{itemize}
+
+\subsection{交感神經與心律不整的關聯}
+
+\begin{itemize}
+    \item 1970 年代 Schwartz 等人即證實交感神經活化會降低 VF threshold 並縮短 ventricular refractoriness
+    \item ES 會形成\textbf{惡性循環}：每次心律不整發作 $\rightarrow$ cardiac output 下降 $\rightarrow$ baroreflex 活化 $\rightarrow$ 交感神經更加活化 $\rightarrow$ norepinephrine 大量釋放 $\rightarrow$ 更易誘發心律不整
+    \item Percutaneous stellate ganglion block (PSGB) 可有效\textbf{阻斷此惡性循環}
+\end{itemize}
+
+\subsection{既有證據之不足}
+
+先前文獻僅有個案報告及小型病例系列（最大僅 30 例），且各研究在技術方法、時間分析框架、及分析方式上皆不一致。因此，亟需一項前瞻性多中心研究來確認 PSGB 的療效與安全性。
+
+%============================================================
+\section{研究方法}
+%============================================================
+
+\subsection{研究設計}
+
+\begin{itemize}
+    \item \textbf{研究名稱}：STAR study (STellate ganglion block for Arrhythmic stoRm)
+    \item \textbf{研究類型}：多中心前瞻性觀察研究（含回顧性部分）
+    \item \textbf{研究期間}：2017 年 7 月至 2023 年 6 月
+    \item \textbf{參與中心}：19 個中心（義大利為主）
+    \item \textbf{註冊}：ClinicalTrials.gov NCT05720936
+    \item \textbf{報告規範}：遵循 STROBE guideline
+\end{itemize}
+
+\subsection{定義}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{名詞} & \textbf{定義} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{名詞} & \textbf{定義} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+Electrical storm & 24 小時內 $\geq$ 3 次 sustained VT 或 VF 發作 \\
+\midrule
+Refractory ES & 經靜脈 AADs 治療後仍有心律不整復發，或因不良反應需停用 AADs \\
+\midrule
+Arrhythmic event & 需 antitachycardia pacing (ATP) 或 DC shock（內部或外部）治療之 sustained VT/VF 發作 \\
+\midrule
+High-volume centre & 研究期間收案 $\geq$ 20 例之中心 \\
+\bottomrule
+\end{longtable}
+
+\subsection{研究終點}
+
+\begin{longtable}{p{3.5cm}p{10.5cm}}
+\toprule
+\textbf{終點} & \textbf{定義} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{終點} & \textbf{定義} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Primary outcome} & PSGB 後 12 小時之 treated arrhythmic events 較 PSGB 前 12 小時減少 $\geq$ 50\% \\
+\midrule
+Secondary 2.1 & PSGB 前後 12 小時 ATP/DC shock 次數比較 \\
+\midrule
+Secondary 2.2 & 12 小時內之併發症（安全性） \\
+\midrule
+Secondary 2.3 & 有無出現 anisocoria 之療效比較 \\
+\midrule
+Secondary 2.4 & Anatomical approach vs. ultrasound-guided approach 之療效比較 \\
+\midrule
+Secondary 2.5 & Bolus only vs. bolus + continuous infusion 之療效比較 \\
+\midrule
+Secondary 2.6 & High-volume vs. low-volume centres 之療效比較 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{PSGB 操作技術}
+%============================================================
+
+\subsection{兩種操作方式}
+
+\begin{longtable}{p{3cm}p{5cm}p{5.5cm}}
+\toprule
+\textbf{項目} & \textbf{Anterior Anatomical Approach} & \textbf{Lateral Ultrasound-Guided Approach} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{項目} & \textbf{Anterior Anatomical} & \textbf{Lateral US-Guided} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+定位標記 & Chassaignac's tubercle (C6 transverse process) & 超音波辨識 longus colli muscle、carotid artery、thyroid gland \\
+\midrule
+進針方式 & 前方氣管旁路徑\newline (paratracheal approach) & 側方路徑，即時影像引導 \\
+\midrule
+佔比 & 57.6\% (106/184) & 42.4\% (78/184) \\
+\midrule
+適用情境 & 操作快速，適合緊急狀況（如 cardiac arrest） & 需超音波設備，適合可配合之患者 \\
+\bottomrule
+\end{longtable}
+
+\subsection{麻醉藥物選擇}
+
+\begin{itemize}
+    \item \textbf{Bolus}（82.6\%）：常用 lidocaine + ropivacaine (34.2\%)、lidocaine 單獨 (28.8\%)、lidocaine + bupivacaine (23.9\%)
+    \item \textbf{Bolus + continuous infusion}（17.4\%）：lidocaine (65.6\%) 或 ropivacaine (34.4\%)
+    \item 注射側別：\textbf{左側} 98.4\%，右側僅 1.6\%
+\end{itemize}
+
+\subsection{操作者訓練}
+
+所有操作者均需完成 STAR training course：
+\begin{enumerate}
+    \item 4 小時理論課程 + 4 小時實作訓練
+    \item 學習兩種操作方式
+    \item 於至少 2 名健康志願者身上練習辨識定位標記
+    \item 使用特製 3D printed dummy neck 進行模擬操作
+    \item 通過結業測驗方可成為 STAR provider
+\end{enumerate}
+
+%============================================================
+\section{研究結果}
+%============================================================
+
+\subsection{基線特徵}
+
+\keyfinding{
+\textbf{研究規模}：19 個中心、131 位患者、184 次 PSGB\\[0.2cm]
+\textbf{Patient profile}：中位年齡 68 歲、男性 83.2\%、平均 LVEF 25.0 $\pm$ 12.3\%\\[0.2cm]
+\textbf{高危族群}：20.6\% cardiogenic shock、5.3\% septic shock、8.4\% refractory cardiac arrest
+}
+
+\vspace{0.3cm}
+
+\begin{longtable}{p{6cm}p{4cm}}
+\toprule
+\textbf{特徵} & \textbf{數據 (n=131)} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{特徵} & \textbf{數據 (n=131)} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+年齡（中位數） & 68 (57--76) 歲 \\
+男性 & 109 (83.2\%) \\
+LVEF（平均） & 25.0 $\pm$ 12.3\% \\
+\midrule
+\multicolumn{2}{l}{\textbf{ES 致病診斷}} \\
+STEMI & 23 (17.6\%) \\
+NSTEMI & 14 (10.7\%) \\
+Chronic coronary artery disease & 37 (28.2\%) \\
+Dilated cardiomyopathy & 29 (22.1\%) \\
+Arrhythmogenic cardiomyopathy & 4 (3.1\%) \\
+Myocarditis & 4 (3.1\%) \\
+\midrule
+\multicolumn{2}{l}{\textbf{臨床狀態}} \\
+Refractory cardiac arrest & 11 (8.4\%) \\
+Cardiogenic shock & 27 (20.6\%) \\
+Septic shock & 7 (5.3\%) \\
+\midrule
+\multicolumn{2}{l}{\textbf{入院時口服用藥}} \\
+Beta-blockers & 82 (62.6\%) \\
+Amiodarone & 46 (35\%) \\
+Mexiletine & 21 (16\%) \\
+Sotalol & 6 (5\%) \\
+\midrule
+\textbf{In-hospital mortality} & \textbf{36 (27.5\%)} \\
+\bottomrule
+\end{longtable}
+
+\subsection{Primary Outcome}
+
+\note{
+\textbf{92\% 的患者達到 primary outcome}（PSGB 後 12 小時之 treated arrhythmic events 減少 $\geq$ 50\%）\\[0.2cm]
+\textbf{中位數減少幅度 100\%}（IQR 93--100\%）\\[0.2cm]
+\textbf{PSGB 後第 1 小時即有顯著效果}：3/4 患者無心律不整復發
+}
+
+\vspace{0.3cm}
+
+\begin{itemize}
+    \item \textbf{Per-patient analysis}：PSGB 後 12 小時的 ATP/shock 次數顯著低於 PSGB 前 12 小時 [中位數 0 (IQR 0--1) vs. 7 (IQR 4--14), $P < 0.001$]
+    \item \textbf{Per-procedure analysis}：PSGB 後 1 小時的 treated arrhythmic episodes 顯著低於前 1 小時 [0 (IQR 0--0) vs. 2 (IQR 0--6), $P < 0.001$]
+    \item 第一次、第二次及後續 PSGB 的療效相當且均達統計顯著
+\end{itemize}
+
+\subsection{安全性}
+
+\begin{longtable}{p{4cm}p{3cm}p{6.5cm}}
+\toprule
+\textbf{併發症類型} & \textbf{發生率} & \textbf{說明} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{併發症類型} & \textbf{發生率} & \textbf{說明} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Major complication} & 1 (0.5\%) & Respiratory depression（可能為 LAST），以 lipid emulsion 治療後恢復 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Minor complications}} \\
+Bradycardia & 1 (0.5\%) & \\
+Hypotension & 1 (0.5\%) & \\
+\midrule
+\multicolumn{3}{l}{\textbf{Side effects（自限性）}} \\
+Temporary brachial plexus paralysis & 3 (1.6\%) & \\
+Hoarseness & 2 (1.1\%) & \\
+Dysphonia & 1 (0.5\%) & \\
+Neck pain & 1 (0.5\%) & \\
+Vomiting & 1 (0.5\%) & \\
+\bottomrule
+\end{longtable}
+
+\subsection{次要分析結果}
+
+\begin{longtable}{p{5cm}p{4cm}p{4.5cm}}
+\toprule
+\textbf{比較項目} & \textbf{結果} & \textbf{P 值} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{比較項目} & \textbf{結果} & \textbf{P 值} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+Anisocoria (+) vs. ($-$) & 療效相當\newline $-$2.5 vs. $-$2.5 & $P = 0.4$ \\
+\midrule
+Anatomical vs. US-guided & 兩者皆顯著有效\newline $-$3.5 vs. $-$1.0 & $P < 0.01$ (anatomical 組基線較嚴重) \\
+\midrule
+Bolus vs. Bolus + infusion & 療效相當\newline $-$2.5 vs. $-$2.0 & $P = 0.6$ \\
+\midrule
+High-volume vs. Low-volume centres & 療效相當\newline $-$2.5 vs. $-$2.0 & $P = 0.2$ \\
+\bottomrule
+\end{longtable}
+
+\begin{itemize}
+    \item \textbf{Anisocoria 非必要指標}：有無出現瞳孔不等大，PSGB 療效相同
+    \item \textbf{Anatomical approach 的「較佳效果」}需謹慎解讀：該組患者基線狀況更嚴重（VF 更多、cycle length 更短、cardiac arrest 比例更高），代表有更大的 room for improvement
+    \item \textbf{Continuous infusion}：心律不整復發的時間顯著延長 [360 (IQR 153--1351) min vs. 105 (IQR 5--420) min, $P = 0.019$]
+    \item \textbf{Low-volume centres 同樣有效}：簡單的訓練即可讓操作者安全有效地執行 PSGB
+\end{itemize}
+
+%============================================================
+\section{PSGB 之臨床定位}
+%============================================================
+
+\subsection{與現行治療之比較}
+
+\begin{longtable}{p{3.5cm}p{3.5cm}p{3cm}p{3cm}}
+\toprule
+\textbf{治療} & \textbf{優點} & \textbf{缺點} & \textbf{可及性} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{治療} & \textbf{優點} & \textbf{缺點} & \textbf{可及性} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+IV Amiodarone & 最常用\newline 經驗豐富 & 起效慢\newline 低血壓 & 高 \\
+\midrule
+IV Lidocaine & 起效快 & 需持續輸注\newline CNS toxicity & 高 \\
+\midrule
+Deep sedation / Intubation & 降低交感活化 & 需 ICU\newline 插管風險 & 中等 \\
+\midrule
+Catheter ablation & 根治性\newline 長期效果 & 需電生理團隊\newline 設備要求高 & 低 \\
+\midrule
+\textbf{PSGB} & \textbf{快速有效}\newline \textbf{安全性極高}\newline \textbf{可學習性強} & 效果暫時性\newline 需訓練 & \textbf{中高}\newline （訓練後可推廣） \\
+\bottomrule
+\end{longtable}
+
+\subsection{PSGB 在 ES 處理流程中的角色}
+
+\begin{importantbox}
+\textbf{PSGB 的臨床定位}
+
+\begin{enumerate}
+    \item PSGB 應被視為 refractory ES 的\textbf{第二線治療}，用於 IV AADs 無效或不耐受時
+    \item 目前 ESC guidelines 僅給予較低推薦等級；本研究結果支持\textbf{擴大適應症}
+    \item PSGB 可作為\textbf{橋接治療} (bridge therapy)：穩定患者以進行後續 catheter ablation
+    \item 80\% 的 PSGB 是在\textbf{清醒}患者上執行，顯示可避免部分插管需求
+    \item 即使在 intubation + general anaesthesia 下，仍有 20\% 需要 PSGB，代表鎮靜本身未必足夠
+\end{enumerate}
+\end{importantbox}
+
+%============================================================
+\section{討論與臨床意義}
+%============================================================
+
+\subsection{重要發現}
+
+\begin{enumerate}
+    \item \textcolor{emergency_blue}{\textbf{高度有效}}：92\% 的患者達到 primary outcome，中位數心律不整減少 100\%
+    \item \textcolor{emergency_blue}{\textbf{起效極快}}：PSGB 後第 1 小時即有 3/4 患者無心律不整復發
+    \item \textcolor{emergency_blue}{\textbf{安全性極佳}}：184 次操作中僅 1 次 (0.5\%) major complication
+    \item \textcolor{emergency_blue}{\textbf{技術可推廣}}：兩種操作方式均有效，low-volume centres 與 high-volume centres 療效相當
+    \item \textcolor{emergency_blue}{\textbf{Anisocoria 非療效指標}}：有無出現 Horner syndrome 不影響療效
+    \item \textcolor{emergency_blue}{\textbf{Continuous infusion 可延長效果}}：復發時間從中位 105 分鐘延長至 360 分鐘
+\end{enumerate}
+
+\subsection{自主神經調節機轉}
+
+\begin{tcolorbox}[
+    colback=emergency_red!5!white,
+    colframe=emergency_red,
+    title=\textbf{PSGB 阻斷惡性循環的機轉},
+    fonttitle=\bfseries
+]
+\begin{enumerate}
+    \item \textbf{VT/VF 發作} $\rightarrow$ cardiac output $\downarrow$ $\rightarrow$ blood pressure $\downarrow$
+    \item \textbf{Baroreflex 活化} $\rightarrow$ 交感神經大量活化 $\rightarrow$ norepinephrine 釋放 $\uparrow$
+    \item \textbf{Spinal cardiac sympathetic afferent reflexes} $\rightarrow$ stellate ganglion 持續活化
+    \item \textbf{PSGB 介入} $\rightarrow$ 阻斷交感傳出 $\rightarrow$ 打斷惡性循環 $\rightarrow$ 恢復穩定心律
+    \item 穩定心律可能持續\textbf{超過麻醉藥效時間}
+\end{enumerate}
+\end{tcolorbox}
+
+%============================================================
+\section{研究限制}
+%============================================================
+
+\begin{enumerate}
+    \item \textbf{缺乏對照組}：觀察性研究設計，無法確立因果關係，尚需 RCT 驗證
+    \item \textbf{PSGB 時機由操作者自行決定}：16 例患者在 PSGB 前 12 小時無事件發生
+    \item \textbf{麻醉藥物種類不一}：各中心依當地習慣使用不同局部麻醉劑
+    \item \textbf{缺乏 ICD programming 資訊}：ATP/shock 次數受裝置設定影響
+    \item \textbf{無 event adjudication committee}：資料由各中心 local investigators 收集
+    \item \textbf{ATP 與 shock 合併計算}：無法區分治療類型的差異分析
+    \item \textbf{無長期追蹤}：僅評估住院期間療效，缺乏出院後資料
+\end{enumerate}
+
+%============================================================
+\section{結論}
+%============================================================
+
+\begin{enumerate}
+    \item \textcolor{emergency_red}{\textbf{PSGB 高度有效且安全}}：作為 refractory ES 的治療，92\% 達到主要終點，僅 0.5\% major complication
+    \item \textcolor{emergency_red}{\textbf{操作方式彈性大}}：anatomical 或 ultrasound-guided 皆有效，可依臨床情境選擇
+    \item \textcolor{emergency_red}{\textbf{技術可快速推廣}}：經簡短訓練後即可安全執行，low-volume centres 同樣有效
+    \item \textcolor{emergency_red}{\textbf{應擴大臨床適應症}}：研究結果支持在現行 guidelines 基礎上擴大 PSGB 的使用範圍
+    \item \textcolor{emergency_red}{\textbf{未來需 RCT 驗證}}：需要前瞻性隨機對照試驗提供最高等級的證據
+\end{enumerate}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Savastano S, Baldi E, Compagnoni S, et al. Electrical storm treatment by percutaneous stellate ganglion block: the STAR study. \href{https://doi.org/10.1093/eurheartj/ehae021}{\textit{Eur Heart J}. 2024;45(10):823--833.}
+
+    \item Malik V, Shivkumar K. Stellate ganglion blockade for the management of ventricular arrhythmia storm (Editorial). \href{https://doi.org/10.1093/eurheartj/ehae083}{\textit{Eur Heart J}. 2024;45(10):834--836.}
+
+    \item Fudim M, Boortz-Marx R, Ganesh A, et al. Stellate ganglion blockade for the treatment of refractory ventricular arrhythmias: a systematic review and meta-analysis. \href{https://doi.org/10.1111/jce.13324}{\textit{J Cardiovasc Electrophysiol}. 2017;28:1460--1467.}
+
+    \item Dusi V, Angelini F, Gravinese C, et al. Electrical storm management in structural heart disease. \href{https://doi.org/10.1093/eurheartjsupp/suad048}{\textit{Eur Heart J Suppl}. 2023;25:C242--C248.}
+
+    \item Baldi E, Conte G, Zeppenfeld K, et al. Contemporary management of ventricular electrical storm in Europe: results of a European Heart Rhythm Association Survey. \href{https://doi.org/10.1093/europace/euac151}{\textit{Europace}. 2023;25:1277--1283.}
+
+    \item Schwartz PJ, Verrier RL, Lown B. Effect of stellectomy and vagotomy on ventricular refractoriness in dogs. \href{https://doi.org/10.1161/01.RES.40.6.536}{\textit{Circ Res}. 1977;40:536.}
+
+    \item Tian Y, Wittwer ED, Kapa S, et al. Effective use of percutaneous stellate ganglion blockade in patients with electrical storm. \href{https://doi.org/10.1161/CIRCEP.118.007118}{\textit{Circ Arrhythm Electrophysiol}. 2019;12:e007118.}
+
+    \item Savastano S, Dusi V, Baldi E, et al. Anatomical-based percutaneous left stellate ganglion block in patients with drug-refractory electrical storm and structural heart disease. \href{https://doi.org/10.1093/europace/euaa319}{\textit{Europace}. 2021;23:581--586.}
+\end{enumerate}
+
+%============================================================
+\section{縮寫對照表}
+%============================================================
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+AAD & Antiarrhythmic Drug (抗心律不整藥物) \\
+ATP & Antitachycardia Pacing (抗心搏過速起搏) \\
+DC shock & Direct Current Shock (直流電擊) \\
+DOAC & Direct Oral Anticoagulant (直接口服抗凝劑) \\
+ECMO & Extracorporeal Membrane Oxygenation (體外膜氧合) \\
+ES & Electrical Storm (電風暴) \\
+IABP & Intra-Aortic Balloon Pump (主動脈氣球幫浦) \\
+ICD & Implantable Cardioverter Defibrillator (植入式去顫器) \\
+LAST & Local Anaesthetic Systemic Toxicity (局部麻醉劑全身毒性) \\
+LVEF & Left Ventricular Ejection Fraction (左心室射出分率) \\
+PSGB & Percutaneous Stellate Ganglion Block (經皮星狀神經節阻斷術) \\
+STAR & STellate ganglion block for Arrhythmic stoRm \\
+VF & Ventricular Fibrillation (心室顫動) \\
+VT & Ventricular Tachycardia (心室心搏過速) \\
+\bottomrule
+\end{longtable}
+
+\end{document}

@@ -1,0 +1,14 @@
+---
+title: "Transcatheter Valve Intervention"
+subtitle: "Mainz 2024 Fellowship Training Report"
+author: "Dr. Drake Mu-Yang Hsieh, MD, PhD"
+date: 2024-12-24
+lang: en
+---
+
+## Table of Contents
+
+1. [TEER](ch1-teer.qmd) — Transcatheter Edge-to-Edge Repair (Mitral & Tricuspid)
+2. [TAVI in AS](ch2-tavi-as.qmd) — Transcatheter Aortic Valve Implantation for Aortic Stenosis
+3. [TAVI in AR](ch3-tavi-ar.qmd) — Transcatheter Aortic Valve Implantation for Aortic Regurgitation
+4. [Acknowledgements](ch4-acknowledgements.qmd)

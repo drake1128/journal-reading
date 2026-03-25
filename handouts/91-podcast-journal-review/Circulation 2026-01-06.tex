@@ -1,0 +1,300 @@
+\documentclass[12pt,a4paper]{article}
+
+% Drake_preamble.tex - LaTeX Preamble Template
+% 作者: 謝慕揚, MD, PhD, FESC
+
+% Including essential packages for Chinese typesetting
+\usepackage{xeCJK}
+\usepackage{fontspec}
+% Configuring Chinese font with Noto Serif CJK TC, fallback to SimSun
+\IfFontExistsTF{Noto Serif CJK TC}{
+  \setCJKmainfont{Noto Serif CJK TC}
+  \setCJKsansfont{Noto Serif CJK TC}
+  \setCJKmonofont{Noto Serif CJK TC}
+}{\setCJKmainfont{SimSun}
+  \setCJKsansfont{SimSun}
+  \setCJKmonofont{SimSun}
+}
+
+% Including other necessary packages
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{datetime2}
+\usepackage{hyperref}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+% Defining colors
+\definecolor{emergency_red}{RGB}{186,24,27}
+\definecolor{emergency_blue}{RGB}{0,114,188}
+\definecolor{emergency_gray}{RGB}{120,120,120}
+\definecolor{highlight_yellow}{RGB}{255,250,205}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=emergency_blue,
+    citecolor=emergency_blue,
+    urlcolor=emergency_blue,
+    pdfborder={0 0 0}
+}
+
+% Defining page geometry
+\geometry{
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2cm,
+  right=2cm,
+  headheight=25pt
+}
+
+% Adjusting topmargin to compensate for increased headheight
+\addtolength{\topmargin}{-10pt}
+
+% Setting title formats
+\titleformat{\section}[block]{\Large\bfseries\color{emergency_red}}{\thesection}{10pt}{}
+\titleformat{\subsection}[block]{\large\bfseries\color{emergency_blue}}{\thesubsection}{8pt}{}
+\titleformat{\subsubsection}[block]{\normalsize\bfseries\color{emergency_gray}}{\thesubsubsection}{6pt}{}
+
+% Defining custom environment for important notes
+\newmdenv[
+    linecolor=emergency_red,
+    backgroundcolor=highlight_yellow,
+    linewidth=2pt,
+    topline=true,
+    bottomline=true,
+    leftline=true,
+    rightline=true,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    innerleftmargin=10pt,
+    innerrightmargin=10pt
+]{importantbox}
+
+% Defining note command with tcolorbox
+\newcommand{\note}[1]{
+    \par
+    \noindent
+    \begin{tcolorbox}[
+        colback=emergency_blue!5!white,
+        colframe=emergency_blue,
+        title=\textbf{重點提醒},
+        fonttitle=\bfseries,
+        boxrule=0.5pt,
+        arc=3pt,
+        left=6pt,
+        right=6pt,
+        top=6pt,
+        bottom=6pt
+    ]
+    #1
+    \end{tcolorbox}
+}
+
+% Key findings box
+\newcommand{\keyfinding}[1]{
+    \par
+    \noindent
+    \begin{tcolorbox}[
+        colback=yellow!10!white,
+        colframe=orange!75!black,
+        title=\textbf{核心發現摘要},
+        fonttitle=\bfseries,
+        boxrule=0.5pt,
+        arc=3pt
+    ]
+    #1
+    \end{tcolorbox}
+}
+
+% Defining custom date format
+\newcommand{\mydate}{\the\year-\the\month-\the\day}
+
+\begin{document}
+
+%% Title Page
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Circulation on the Run Podcast}}\\[0.5cm]
+{\Large\textbf{STORM-PE Trial: Mechanical Thrombectomy vs Anticoagulation for Intermediate-High Risk Pulmonary Embolism}}\\[0.3cm]
+{\large STORM-PE 試驗：中高風險肺栓塞的機械取栓術與抗凝治療比較}\\[0.5cm]
+{\normalsize Circulation. 2026 January 6 Issue Podcast}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+\keyfinding{
+\begin{itemize}[leftmargin=*]
+    \item STORM-PE 是首個比較機械取栓術 (mechanical thrombectomy) 加抗凝治療與單獨抗凝治療用於中高風險肺栓塞 (intermediate-high risk PE) 的隨機對照試驗
+    \item 主要終點：48小時內 RV/LV ratio 變化——介入組減少 0.52，對照組僅減少 0.25，達統計顯著優越性
+    \item 介入組在血栓負荷 (modified Miller score)、心率穩定、氧氣需求及 NEWS-2 評分方面均優於對照組
+    \item 此試驗為肺栓塞血管內治療提供首個 Level 1 evidence
+\end{itemize}
+}
+
+\section{研究背景}
+
+\subsection{肺栓塞的風險分層}
+
+急性肺栓塞 (acute pulmonary embolism, PE) 依據血流動力學狀態與右心功能分為：
+\begin{itemize}
+    \item \textbf{High-risk (massive) PE}：血流動力學不穩定，需立即介入
+    \item \textbf{Intermediate-high risk PE}：血流動力學穩定，但有右心室功能障礙 (RV dysfunction) 及心肌標記物升高
+    \item \textbf{Intermediate-low risk PE}：僅有 RV dysfunction 或標記物升高其一
+    \item \textbf{Low-risk PE}：無 RV dysfunction 且標記物正常
+\end{itemize}
+
+\subsection{過去研究}
+
+\begin{itemize}
+    \item \textbf{ULTIMA Trial (2014)}：首個評估血管內治療用於中風險 PE 的隨機試驗，比較超音波輔助溶栓 (ultrasound-accelerated thrombolysis) 與單獨抗凝
+    \item ULTIMA 試驗以 24 小時 RV/LV ratio 為主要終點，結果為陽性
+    \item 此後已有 7 種 FDA 核准的血管內治療裝置問世，但缺乏機械取栓術的 RCT 證據
+\end{itemize}
+
+\section{STORM-PE 試驗設計}
+
+\subsection{研究目的}
+評估電腦輔助真空取栓術 (computer-assisted vacuum thrombectomy) 加抗凝治療相較於單獨抗凝治療，對中高風險 PE 患者的療效。
+
+\subsection{納入條件}
+\begin{itemize}
+    \item 急性症狀發作 $<$ 14 天
+    \item CT 顯示 RV/LV ratio 升高
+    \item 心肌標記物升高：troponin 或 high-sensitivity troponin 及/或 pro-BNP
+    \item 符合 ESC Guidelines 定義的 intermediate-high risk PE
+\end{itemize}
+
+\subsection{試驗設計}
+\begin{itemize}
+    \item 多中心國際性隨機對照試驗，共 22 個研究中心
+    \item 隨機分配至抗凝治療組或抗凝治療 + 血管內治療組
+    \item Site-level randomization 以確保性別、種族及抗凝方案的平衡
+    \item 影像學終點由獨立盲化核心實驗室評估
+\end{itemize}
+
+\subsection{主要終點}
+\begin{itemize}
+    \item 48 小時 CT pulmonary angiography 評估的 RV/LV ratio 變化
+    \item 假設：介入組較對照組額外減少 RV/LV ratio 0.25
+    \item 統計效力：90\%，需隨機化 100 名患者
+\end{itemize}
+
+\section{研究結果}
+
+\subsection{患者篩選與納入}
+\begin{itemize}
+    \item 篩選超過 760 名患者
+    \item 成功隨機化 100 名患者
+    \item 兩組基線特徵、性別、種族及抗凝方案均well-matched
+\end{itemize}
+
+\subsection{主要終點結果}
+
+\begin{longtable}{p{6cm}p{4cm}p{4cm}}
+\toprule
+\textbf{指標} & \textbf{介入組} & \textbf{對照組} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{指標} & \textbf{介入組} & \textbf{對照組} \\
+\midrule
+\endhead
+RV/LV ratio 減少幅度 & 0.52 & 0.25 \\
+\bottomrule
+\end{longtable}
+
+\textbf{結果達統計顯著優越性 (statistically superior)}，血管內治療組明顯優於單獨抗凝組。
+
+\subsection{次要終點}
+
+\begin{itemize}
+    \item \textbf{Refined Modified Miller Score}：反映肺動脈血栓負荷，介入組顯著降低
+    \item \textbf{心率穩定}：介入組更快達到心率正常化
+    \item \textbf{氧氣需求}：介入組更多患者可維持 room air 而不需補充氧氣
+    \item \textbf{NEWS-2 Score}：介入組顯著降低，顯示心血管穩定化
+\end{itemize}
+
+\note{
+NEWS-2 (National Early Warning Score 2) 是用於預測即將發生心血管崩潰的評分系統，已在其他心血管及急診醫學試驗中使用。介入組 NEWS-2 評分的顯著降低，支持早期右心功能穩定化的效益。
+}
+
+\section{臨床意義}
+
+\subsection{試驗貢獻}
+\begin{enumerate}
+    \item 首個比較機械取栓術與單獨抗凝治療用於中高風險 PE 的隨機對照試驗
+    \item 證明在此患者群中，血管內治療角色的存在——可達到早期心血管穩定化及右心功能穩定
+    \item 填補了此領域「RCT 沙漠」的空白
+\end{enumerate}
+
+\subsection{未來試驗展望}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{試驗名稱} & \textbf{特點} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{試驗名稱} & \textbf{特點} \\
+\midrule
+\endhead
+超音波輔助溶栓 RCT & 評估 cardiovascular collapse 等硬終點 \\
+\midrule
+PE-TRACT Trial (NHLBI sponsored) & 多中心試驗，評估所有核准的血管內治療 vs 抗凝，以 12-24 個月功能性終點評估 CTEPH/CTEF 發生率 \\
+\midrule
+Large-bore aspiration system RCT & 使用 win ratio 評估 CV deterioration、PE-related mortality、major bleeding、recurrent PE \\
+\bottomrule
+\end{longtable}
+
+\section{本期其他重要研究摘要}
+
+\subsection{TEAM/CAVIAR Trial：心臟移植後 PCSK9 抑制劑}
+
+\begin{itemize}
+    \item \textbf{背景}：心臟移植後心臟同種異體血管病變 (cardiac allograft vasculopathy, CAV) 是重要死因，dyslipidemia 為主要促進因素
+    \item \textbf{設計}：心臟移植後隨機至 alirocumab 或 placebo 組，所有人均服用 rosuvastatin
+    \item \textbf{終點}：以 IVUS 評估一年內冠狀動脈斑塊體積變化
+    \item \textbf{結果}：Alirocumab 顯著降低 LDL-C，但未減少冠狀動脈斑塊進展或改變 FFR/CFR
+    \item \textbf{結論}：在基線 LDL-C 已低的移植患者中，加入 PCSK9 抑制劑降低 LDL 不一定轉化為斑塊進展的減少
+\end{itemize}
+
+\subsection{心肺適能代謝體學研究}
+
+\begin{itemize}
+    \item 使用代謝體學分析運動測試參與者
+    \item 發現 \textbf{N-palmatoyl glutamine} 與較高 VO2 max 強烈相關
+    \item 此代謝物在耐力訓練後增加，且較高濃度與較低全因死亡率相關
+    \item 為「適能」這一概念提供生物學基礎
+\end{itemize}
+
+\subsection{AI 輔助單導程心電圖 QT 監測}
+
+\begin{itemize}
+    \item 針對服用 class III antiarrhythmic (dofetilide, sotalol) 的門診病人
+    \item 假設：深度學習系統可從單導程向量重建空間資訊以量化 QTc
+    \item 結果：達到指引級測量準確度，可進行持續 QTc 監測
+    \item 臨床意義的 QTc 延長與嚴重心室心律不整風險增加 4 倍相關
+\end{itemize}
+
+\section{參考文獻}
+
+\begin{enumerate}
+    \item Lookstein R, et al. Randomized Controlled Trial of Mechanical Thrombectomy With Anticoagulation Versus Anticoagulation Alone for Acute Intermediate-High Risk Pulmonary Embolism: Primary Outcomes From the STORM-PE Trial. \textit{Circulation}. 2026.
+    \item Kucher N, et al. Randomized, controlled trial of ultrasound-assisted catheter-directed thrombolysis for acute intermediate-risk pulmonary embolism. \href{https://doi.org/10.1161/CIRCULATIONAHA.113.005544}{\textit{Circulation}. 2014;129:479-486.}
+    \item Konstantinides SV, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society. \href{https://doi.org/10.1093/eurheartj/ehz405}{\textit{Eur Heart J}. 2020;41:543-603.}
+\end{enumerate}
+
+\end{document}

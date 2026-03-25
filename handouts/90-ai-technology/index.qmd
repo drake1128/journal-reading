@@ -1,0 +1,13 @@
+---
+title: "AI 科技 — AI & Technology"
+---
+
+## 教學講義 Handouts
+
+- [AI數位科技應用於醫學教育 教學講義.md](AI數位科技應用於醫學教育 教學講義.md)
+
+## LaTeX Files
+
+- Anthropic AI for Science 2026-01-16.tex
+- NEJM AI ChatGPT Grading 2025 教學講義.tex
+- NEJM_AI_MedAgentBench_2025.tex

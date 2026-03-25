@@ -1,0 +1,18 @@
+---
+title: "缺血性心臟病 — Ischemic Heart Disease"
+---
+
+## 教學講義 Handouts
+
+- [FFR During STEMI and NSTEMI 教學講義.md](FFR During STEMI and NSTEMI 教學講義.md)
+- [FRAME-AMI vs FLOWER-MI 教學講義.md](FRAME-AMI vs FLOWER-MI 教學講義.md)
+- [MI Definition Great Debate 心肌梗塞定義之爭議 教學講義.md](MI Definition Great Debate 心肌梗塞定義之爭議 教學講義.md)
+- [NEJM CAD Genetics Review 2026 教學講義.md](NEJM CAD Genetics Review 2026 教學講義.md)
+- [iMODERN Trial — STEMI 多支血管病變的非罪犯病灶 PCI 時機 教學講義.md](iMODERN Trial — STEMI 多支血管病變的非罪犯病灶 PCI 時機 教學講義.md)
+
+## LaTeX Files
+
+- Eur Heart J 2026-01-21.tex
+- JIC Mother-Child Catheter LM Dissection 2018.tex
+- NEJM CAD Genetics Review 2026 教學講義.tex
+- STEMI_missed_diagnosis_case_study.tex

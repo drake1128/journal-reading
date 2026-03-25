@@ -1,0 +1,278 @@
+\documentclass[12pt,a4paper]{article}
+\input{Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Circulation 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{AI-ECG 表型選擇性研究}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% TITLE PAGE
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Circulation}}\\[0.5cm]
+{\Large\textbf{Phenotypic Selectivity of Artificial Intelligence–Enhanced Electrocardiography in Cardiovascular Diagnosis and Risk Prediction}}\\[0.3cm]
+{\large 人工智慧增強心電圖在心血管診斷與風險預測中的表型選擇性}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1161/CIRCULATIONAHA.125.076279}{Circulation. 2025;152:1282-1294. DOI: 10.1161/CIRCULATIONAHA.125.076279}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+\section{研究背景}
+%============================================================
+
+\subsection{AI-ECG 的發展現況}
+
+\begin{itemize}
+    \item 人工智慧增強心電圖 (AI-enhanced ECG, AI-ECG) 模型已廣泛應用於偵測多種心血管疾病
+    \item 目前已有多個經過驗證的 AI-ECG 模型用於偵測：
+    \begin{itemize}
+        \item Left ventricular systolic dysfunction (LVSD)：左心室收縮功能障礙
+        \item Aortic stenosis (AS)：主動脈瓣狹窄
+        \item Mitral regurgitation (MR)：二尖瓣逆流
+        \item Left ventricular hypertrophy (LVH)：左心室肥厚
+    \end{itemize}
+    \item 美國 FDA 已核准用於偵測 LVSD 和 hypertrophic cardiomyopathy 的 AI-ECG 演算法
+\end{itemize}
+
+\subsection{研究問題}
+
+\note{
+\textbf{核心問題}：AI-ECG 模型是否為特定疾病的分類器 (condition-specific classifiers)，還是更廣泛的心血管風險標記物 (broader cardiovascular risk markers)？
+}
+
+%============================================================
+\section{研究方法}
+%============================================================
+
+\subsection{研究族群}
+
+研究納入來自 4 個不同群體的 233,689 位個案：
+
+\begin{longtable}{p{4cm}p{3cm}p{3cm}p{4cm}}
+\toprule
+\textbf{群體} & \textbf{人數} & \textbf{平均年齡} & \textbf{特徵} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{群體} & \textbf{人數} & \textbf{平均年齡} & \textbf{特徵} \\
+\midrule
+\endhead
+Yale New Haven Hospital (YNHH) & 116,540 & 55.5±19.1 歲 & 大型三級醫學中心 \\
+\midrule
+Community hospitals & 63,790 & 61.1±19.5 歲 & 4 家社區醫院 \\
+\midrule
+Outpatient clinics & 11,005 & 61.4±15.0 歲 & 門診醫療網絡 \\
+\midrule
+UK Biobank & 42,354 & 64.1±7.8 歲 & 前瞻性世代研究 \\
+\bottomrule
+\end{longtable}
+
+\subsection{AI-ECG 模型}
+
+\begin{enumerate}
+    \item \textbf{5 個心血管疾病模型}：
+    \begin{itemize}
+        \item LVSD 模型：偵測 LVEF <40\%
+        \item AS 模型：偵測主動脈瓣狹窄
+        \item MR 模型：偵測二尖瓣逆流
+        \item LVH 模型：偵測嚴重左心室肥厚 (IVSd >15 mm + 中重度舒張功能障礙)
+        \item SHD 模型：偵測複合結構性心臟病 (PRESENT-SHD)
+    \end{itemize}
+    \item \textbf{1 個對照模型}：生物性別分類模型
+    \item \textbf{實驗性負對照模型}：偵測非心血管疾病 (病毒性呼吸道感染、交通事故、頭痛等)
+\end{enumerate}
+
+\subsection{模型架構}
+
+\begin{itemize}
+    \item 基於 EfficientNet-B3 架構的卷積神經網路 (CNN)
+    \item 模型輸入：300×300 像素的標準 12 導程心電圖影像
+    \item 超過 1000 萬個可訓練參數
+    \item 使用自監督對比學習框架 (self-supervised contrastive learning) 進行預訓練
+\end{itemize}
+
+%============================================================
+\section{主要發現}
+%============================================================
+
+\keyfinding{
+\begin{enumerate}
+    \item AI-ECG 模型雖然被設計用於偵測特定心血管疾病，但實際上能偵測並預測廣泛的心血管疾病，選擇性有限
+    \item 不同疾病標籤訓練的模型之間，表型關聯模式高度相關 (r = 0.67-0.96)
+    \item 複合結構性心臟病模型 (SHD model) 展現比單一疾病模型更強、更廣泛的關聯性
+    \item 這些發現支持將 AI-ECG 作為廣泛心血管生物標記物，而非特定疾病診斷工具
+\end{enumerate}
+}
+
+\subsection{橫斷面分析結果}
+
+\subsubsection{心血管表型過度代表性}
+
+\begin{itemize}
+    \item 所有 5 個 CVD 模型與心血管表型的關聯性顯著高於其他表型類別
+    \item Odds ratios 範圍：2.16 (SHD 模型) 至 4.41 (AS 模型)，P<10$^{-6}$
+    \item 生物性別模型則未顯示心血管特異性模式，而是與泌尿生殖系統表型相關
+\end{itemize}
+
+\subsubsection{非目標表型關聯 (Off-target associations)}
+
+LVSD 模型在 YNHH 族群的關聯性分析：
+
+\begin{longtable}{p{6cm}p{4cm}p{4cm}}
+\toprule
+\textbf{表型} & \textbf{OR (95\% CI)} & \textbf{是否為目標} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{表型} & \textbf{OR (95\% CI)} & \textbf{是否為目標} \\
+\midrule
+\endhead
+Primary/intrinsic cardiomyopathies & 3.58 (3.47-3.70) & 非目標 \\
+\midrule
+Chronic ischemic heart disease & 2.93 (2.82-3.05) & 非目標 \\
+\midrule
+Heart failure (目標表型) & 2.91 (2.84-2.98) & \textcolor{emergency_red}{目標} \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{重要發現}：LVSD 模型與非目標表型 (cardiomyopathies、ischemic heart disease) 的關聯性甚至強於其目標表型 (heart failure)。此模式在所有 AI-ECG 模型中均一致觀察到。
+}
+
+\subsection{模型間表型關聯模式的相關性}
+
+\begin{itemize}
+    \item LVSD、MR、LVH、AS、SHD 模型之間的 Pearson 相關係數：0.67-0.96
+    \item 生物性別模型與心血管疾病模型的相關性較低：r = 0.45-0.48
+    \item 此高度相關性在擴展至所有心血管表型的分析中持續存在
+\end{itemize}
+
+\subsection{前瞻性分析：新發心血管疾病預測}
+
+\subsubsection{追蹤資料}
+
+\begin{itemize}
+    \item 風險族群：97,659 人 (排除基線已有目標表型者)
+    \item 中位追蹤時間：4.3 年 (IQR: 2.5-5.0)
+    \item 複合心血管不良事件發生率：5.3\% (5,177 人)
+\end{itemize}
+
+\subsubsection{LVSD 模型的預測能力}
+
+\begin{longtable}{p{5cm}p{4cm}p{5cm}}
+\toprule
+\textbf{結果} & \textbf{HR (95\% CI)} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{結果} & \textbf{HR (95\% CI)} & \textbf{說明} \\
+\midrule
+\endhead
+New-onset heart failure & 2.09 (2.01-2.17) & 目標表型，最強關聯 \\
+\midrule
+New-onset LVH & 1.69 (1.63-1.75) & 非目標表型 \\
+\midrule
+New-onset MR & 1.67 (1.56-1.79) & 非目標表型 \\
+\midrule
+Composite SHD & 1.67 (1.63-1.72) & 複合結果 \\
+\midrule
+New-onset AS & 1.35 (1.28-1.42) & 非目標表型 \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{關鍵發現}：Heart failure 在所有模型的前瞻性分析中，均一致成為排名最高的表型。這表明 AI-ECG 模型可能偵測到與心衰竭發展相關的廣泛心血管病理特徵。
+}
+
+%============================================================
+\section{臨床意義}
+%============================================================
+
+\subsection{對 AI-ECG 臨床應用的啟示}
+
+\begin{importantbox}
+\textbf{Clinical Perspective - 核心要點}
+
+\textbf{What Is New?}
+\begin{itemize}
+    \item 在超過 230,000 人的多群體研究中，5 個 AI-ECG 模型雖設計用於偵測特定心血管疾病，但實際上能偵測並預測廣泛的心血管疾病
+    \item 這些模型的表型關聯模式高度重疊，對目標疾病的選擇性有限
+    \item 複合 SHD 模型展現更強的心血管疾病偵測與預測能力
+\end{itemize}
+
+\textbf{What Are the Clinical Implications?}
+\begin{itemize}
+    \item AI-ECG 應作為廣泛心血管生物標記物使用，而非特定疾病的二元診斷工具
+    \item AI-ECG 陽性結果應促使進行超越目標疾病的全面心血管評估
+    \item 開發者應優先開發複合疾病模型，或確認並報告模型的選擇性
+\end{itemize}
+\end{importantbox}
+
+\subsection{對未來發展的建議}
+
+\begin{enumerate}
+    \item \textbf{臨床實務}：
+    \begin{itemize}
+        \item AI-ECG 異常風險評估應促使全面心血管評估，包括心臟超音波檢查
+        \item 即使無明顯心臟病，高分數仍獨立預測未來心血管事件
+        \item 可將持續性風險輸出整合至臨床工作流程，引導早期預防策略
+    \end{itemize}
+
+    \item \textbf{模型開發}：
+    \begin{itemize}
+        \item 未來 AI-ECG 開發應聚焦於偵測明確定義的複合心血管結果
+        \item 可針對關鍵亞表型間的區分進行特定開發
+    \end{itemize}
+
+    \item \textbf{法規與給付}：
+    \begin{itemize}
+        \item 目前評估框架仍錨定於疾病特異性二元分類
+        \item 應評估是否將 AI-ECG 評估轉向使用單一模型作為廣泛心血管風險分類器
+    \end{itemize}
+\end{enumerate}
+
+%============================================================
+\section{研究限制}
+%============================================================
+
+\begin{enumerate}
+    \item 表型分類依賴 ICD-10 診斷碼，可能有誤分類
+    \item 臨床群體可能有 ECG 檢查的適應症偏差
+    \item 所有模型基於相同架構並在相同族群訓練，外推至其他模型需謹慎
+    \item 觀察性研究，需前瞻性驗證複合 AI-ECG 模型
+\end{enumerate}
+
+%============================================================
+\section{結論}
+%============================================================
+
+\begin{importantbox}
+儘管 AI-ECG 模型被開發用於偵測特定心血管疾病，但實際上以相似的傾向偵測現有疾病並預測未來多種心血管疾病的發展。這建議 AI-ECG 應作為更廣泛的心血管生物標記物臨床使用，而非特定疾病的二元診斷工具。
+\end{importantbox}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Croon PM, Dhingra LS, Biswas D, Oikonomou EK, Khera R. Phenotypic Selectivity of Artificial Intelligence–Enhanced Electrocardiography in Cardiovascular Diagnosis and Risk Prediction. \href{https://doi.org/10.1161/CIRCULATIONAHA.125.076279}{\textit{Circulation}. 2025;152:1282-1294.}
+
+    \item Attia ZI, Kapa S, Lopez-Jimenez F, et al. Screening for cardiac contractile dysfunction using an artificial intelligence-enabled electrocardiogram. \href{https://doi.org/10.1038/s41591-018-0240-2}{\textit{Nat Med}. 2019;25:70-74.}
+
+    \item Sangha V, Nargesi AA, Dhingra LS, et al. Detection of left ventricular systolic dysfunction from electrocardiographic images. \href{https://doi.org/10.1161/CIRCULATIONAHA.122.062646}{\textit{Circulation}. 2023;148:765-777.}
+
+    \item Dhingra LS, Aminorroaya A, Sangha V, et al. Ensemble deep learning algorithm for structural heart disease screening using electrocardiographic images. \href{https://doi.org/10.1016/j.jacc.2025.01.030}{\textit{J Am Coll Cardiol}. 2025;85:1302-1313.}
+
+    \item Siontis KC, Noseworthy PA, Attia ZI, Friedman PA. Artificial intelligence-enhanced electrocardiography in cardiovascular disease management. \href{https://doi.org/10.1038/s41569-020-00503-2}{\textit{Nat Rev Cardiol}. 2021;18:465-478.}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,21 @@
+---
+title: "Podcast 期刊回顧 — Journal Podcast Reviews"
+---
+
+## 教學講義 Handouts
+
+- [Circulation on the Run 2026-02-10 期刊回顧 教學講義.md](Circulation on the Run 2026-02-10 期刊回顧 教學講義.md)
+- [Circulation on the Run 2026-02-24 期刊回顧 教學講義.md](Circulation on the Run 2026-02-24 期刊回顧 教學講義.md)
+- [Circulation on the Run 2026年3月10日 教學講義.md](Circulation on the Run 2026年3月10日 教學講義.md)
+- [European Heart Journal Issue at a Glance 2026-02-21 教學講義.md](European Heart Journal Issue at a Glance 2026-02-21 教學講義.md)
+- [Hypertension_Research_Vol49_Issue3_March2026_期刊回顧 教學講義.md](Hypertension_Research_Vol49_Issue3_March2026_期刊回顧 教學講義.md)
+- [JACC This Week 2026年3月 教學講義.md](JACC This Week 2026年3月 教學講義.md)
+
+## LaTeX Files
+
+- Circulation 2026-01-06.tex
+- Circulation 2026-01-13.tex
+- Eur Heart J 2026-01-07.tex
+- Eur Heart J 2026-01-14.tex
+- JACC Behind the Science 2026-01-06.tex
+- JACC Medicare COVID-19 Cardiovascular Outcomes 2026 教學講義.tex

@@ -1,0 +1,332 @@
+\documentclass[12pt,a4paper]{article}
+\input{Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Intensive Care Medicine 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{Metabolic Acidosis Buffering}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Intensive Care Medicine}}\\[0.3cm]
+{\Large\textbf{Understanding the Disease}}\\[0.5cm]
+{\Large\textbf{Understanding Buffering of Metabolic Acidosis in Critical Illness}}\\[0.3cm]
+{\large 了解重症病人代謝性酸中毒的緩衝作用}\\[0.5cm]
+{\normalsize Intensive Care Med 2024;50:1925-1928. DOI: 10.1007/s00134-024-07656-5}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\keyfinding{
+\textbf{核心訊息：}相同程度的 metabolic acidosis（$\Delta$SBE）在不同病人可能導致兩倍或一半的 acidaemia（$\Delta$pH），取決於 extracellular fluid 的 buffer power（$\beta$）。
+
+\textbf{實用重點：}
+\begin{itemize}
+    \item \textbf{Buffer power 公式：}$\beta$ = 2.3$\cdot$[HCO$_3^-$] + 1.43$\cdot$[Hb]/3 + 0.17$\cdot$[Alb]
+    \item \textbf{正常值：}$\beta$ $\approx$ 70 mMol/L（約 80\% 來自 bicarbonate）
+    \item \textbf{臨床意涵：}低 $\beta$ 病人應考慮 balanced solutions、RBC transfusion 或 sodium bicarbonate
+\end{itemize}
+}
+
+\tableofcontents
+\newpage
+
+%==============================================================
+\section{文獻概述}
+%==============================================================
+
+本篇為 Intensive Care Medicine 的「Understanding the Disease」系列文章，由英國 Guy's and St Thomas' Hospital 的 Giosa 等人撰寫，解釋 buffer power 的概念及其在重症病人的臨床相關性。
+
+\subsection{作者資訊}
+\textbf{通訊作者：}Lorenzo Giosa, MD\\
+\textbf{機構：}Department of Critical Care Medicine, Guy's and St Thomas' NHS Foundation Trust, St Thomas' Hospital, London, UK
+
+%==============================================================
+\section{背景知識}
+%==============================================================
+
+\subsection{Metabolic Acidosis 定義}
+
+\begin{itemize}
+    \item 定義為 extracellular fluid (ECF) 的 base excess 下降，或 standard base excess (SBE) 下降
+    \item 在重症病人常見，可由以下原因引起：
+    \begin{itemize}
+        \item Sepsis
+        \item Acute kidney injury (AKI)
+        \item Normal saline 輸液
+    \end{itemize}
+\end{itemize}
+
+\subsection{代償機制}
+
+\begin{itemize}
+    \item \textbf{呼吸代償：}需數小時才能完全建立
+    \item \textbf{腎臟代償：}需數天才能完全建立
+    \item \textbf{急性期：}pH 變化主要取決於身體緩衝酸負荷的內在能力
+\end{itemize}
+
+%==============================================================
+\section{Buffer Power（緩衝能力）}
+%==============================================================
+
+\subsection{定義}
+
+\note{
+\textbf{Buffer Power ($\beta$) 定義：}
+$$\beta = \frac{\Delta SBE}{\Delta pH}$$
+
+意義：需要多少 non-volatile acid 才能使 pH 改變 1 個單位
+}
+
+\subsection{緩衝系統組成}
+
+急性 metabolic acidosis 的緩衝主要發生在 extracellular fluid（plasma、red blood cells、interstitial fluid）。
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{緩衝類型} & \textbf{組成成分} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{緩衝類型} & \textbf{組成成分} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Carbonic Buffer} & Bicarbonate (HCO$_3^-$) \\
+\midrule
+\textbf{Non-Carbonic Buffers} &
+• Hemoglobin (Hb)\newline
+• Albumin (Alb)\newline
+• Inorganic phosphate (Pi)\newline
+• 2,3-bisphosphoglycerate (2,3-DPG) \\
+\bottomrule
+\end{longtable}
+
+\subsection{Buffer Power 計算公式}
+
+\note{
+\textbf{ECF Buffer Power 公式：}
+$$\beta_{mMol/L} = 2.3 \cdot [HCO_3^-]_{mMol/L} + 1.43 \cdot \frac{[Hb]_{g/dL}}{3} + 0.17 \cdot [Alb]_{g/L}$$
+
+\textbf{正常值（HCO$_3^-$ = 24 mMol/L, Hb = 15 g/dL, Alb = 45 g/L）：}
+\begin{itemize}
+    \item $\beta$ $\approx$ 70 mMol/L
+    \item 約 80\% 來自 bicarbonate
+\end{itemize}
+
+\textbf{臨床意義：}需要約 70 mMol non-volatile acid 加入 1 L ECF 才能使 pH 下降 1 個單位（在 PCO$_2$ 不變的情況下）
+}
+
+%==============================================================
+\section{臨床案例模擬}
+%==============================================================
+
+三位不同背景的病人發展相同的急性狀況（pneumonia 後發生 metabolic acidosis）：
+
+\subsection{基線 Buffer Power 比較}
+
+\begin{longtable}{p{2.5cm}p{2cm}p{2cm}p{2cm}p{2.5cm}p{2.5cm}}
+\toprule
+\textbf{病人} & \textbf{HCO$_3^-$} & \textbf{Hb} & \textbf{Alb} & \textbf{基線 $\beta$} & \textbf{特點} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{病人} & \textbf{HCO$_3^-$} & \textbf{Hb} & \textbf{Alb} & \textbf{基線 $\beta$} & \textbf{特點} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{COPD} & 32.4 & 17 g/dL & 45 g/L & $\sim$90 & 高 $\beta$ \\
+\midrule
+\textbf{CKD} & 18.9 & 10 g/dL & 30 g/L & $\sim$53 & 低 $\beta$ \\
+\midrule
+\textbf{AML} & 24.3 & 6 g/dL & 20 g/L & $\sim$62 & 中等 $\beta$ \\
+\bottomrule
+\end{longtable}
+
+\subsection{Pneumonia 對 Buffer Power 的影響}
+
+\begin{longtable}{p{3cm}p{4cm}p{3.5cm}p{3.5cm}}
+\toprule
+\textbf{病人} & \textbf{對 Pneumonia 的反應} & \textbf{HCO$_3^-$ 變化} & \textbf{$\beta$ 變化} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{病人} & \textbf{對 Pneumonia 的反應} & \textbf{HCO$_3^-$ 變化} & \textbf{$\beta$ 變化} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{COPD} & Hypercapnia 惡化\newline Respiratory acidosis & 上升至 34.4 & 上升至 $\sim$95 \\
+\midrule
+\textbf{CKD} & Hyperventilation\newline Respiratory alkalosis & 下降至 18.2 & 下降至 $\sim$51 \\
+\midrule
+\textbf{AML} & Hyperventilation\newline Respiratory alkalosis & 下降至 23.8 & 下降至 $\sim$60 \\
+\bottomrule
+\end{longtable}
+
+\subsection{相同 Metabolic Acidosis 的不同結果}
+
+\note{
+\textbf{關鍵發現：}所有病人發展相同程度的 acute metabolic acidosis（$\Delta$SBE $\approx$ -12 mMol/L），但由於 buffer power 不同，pH 下降幅度差異顯著：
+
+\begin{longtable}{p{3cm}p{3cm}p{3cm}p{4.5cm}}
+\toprule
+\textbf{病人} & \textbf{$\beta$} & \textbf{$\Delta$pH} & \textbf{最終 pH} \\
+\midrule
+\endfirsthead
+
+\bottomrule
+\endfoot
+
+\textbf{COPD} & $\sim$95 & -0.15 & 7.10 \\
+\textbf{CKD} & $\sim$51 & \textbf{-0.30} & 7.10 \\
+\textbf{AML} & $\sim$60 & -0.25 & 7.20 \\
+\bottomrule
+\end{longtable}
+
+\textbf{結論：}CKD 病人的 pH 下降是 COPD 病人的兩倍（0.30 vs 0.15）！
+}
+
+%==============================================================
+\section{臨床意涵}
+%==============================================================
+
+\subsection{理解 Buffer Power 的重要性}
+
+\begin{itemize}
+    \item 有助於預測 metabolic acidosis 病人可能需要的支持程度
+    \item 有助於個人化管理策略
+\end{itemize}
+
+\subsection{低 Buffer Power 病人的處置建議}
+
+\begin{longtable}{p{4.5cm}p{9.5cm}}
+\toprule
+\textbf{介入措施} & \textbf{說明} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{介入措施} & \textbf{說明} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Fluid Choice} & 優先選擇 balanced solutions（而非 normal saline）\\
+\midrule
+\textbf{RBC Transfusion} & 增加 hemoglobin 可增加 non-carbonic buffer power \\
+\midrule
+\textbf{Sodium Bicarbonate} & 直接增加 carbonic buffer capacity \\
+\bottomrule
+\end{longtable}
+
+\subsection{Albumin Infusion 的效果}
+
+\begin{itemize}
+    \item 增加 non-carbonic buffer power
+    \item 但同時因增加 plasma 的 fixed negative charges 而減少 bicarbonate
+    \item \textbf{淨效果：}對 $\beta$ 的影響可能可忽略
+\end{itemize}
+
+\subsection{Permissive Hypercapnia 的潛在價值}
+
+\begin{itemize}
+    \item 延長的 permissive hypercapnia 可增加 HCO$_3^-$
+    \item 在 ICU 中，metabolic acidosis 風險高且 non-carbonic $\beta$ 常因 anemia 及 hypoalbuminemia 而下降
+    \item Hypercapnia 可能提供額外的緩衝保護
+\end{itemize}
+
+%==============================================================
+\section{高風險病人特徵}
+%==============================================================
+
+\note{
+\textbf{低 Buffer Power 高風險病人：}
+\begin{itemize}
+    \item 低 HCO$_3^-$（如 CKD、chronic metabolic acidosis）
+    \item 低 Hemoglobin（如 anemia、血液系統疾病）
+    \item 低 Albumin（如 營養不良、肝病、nephrotic syndrome）
+\end{itemize}
+
+這些病人對 acute metabolic acidosis 的耐受性較差，相同程度的酸負荷會導致更嚴重的 acidaemia。
+}
+
+%==============================================================
+\section{Take-Home Message}
+%==============================================================
+
+\begin{enumerate}
+    \item \textcolor{red}{\textbf{Buffer Power 變異大：}}重症病人的 metabolic acidosis 緩衝能力變異極大
+    \item \textcolor{red}{\textbf{相同 $\Delta$SBE，不同 $\Delta$pH：}}相同程度的 acidosis 可導致兩倍或一半的 acidaemia，取決於 ECF 的 buffer power
+    \item \textcolor{red}{\textbf{關鍵決定因子：}}HCO$_3^-$、Hemoglobin、Albumin 是主要決定 buffer power 的因素
+    \item \textcolor{red}{\textbf{個人化管理：}}了解病人的 buffer power 可幫助預測疾病軌跡並個人化治療
+\end{enumerate}
+
+%==============================================================
+\section{縮寫對照表}
+%==============================================================
+
+\begin{longtable}{p{3cm}p{11cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+$\beta$ & Buffer Power (緩衝能力) \\
+SBE & Standard Base Excess (標準鹼剩餘) \\
+ECF & Extracellular Fluid (細胞外液) \\
+Hb & Hemoglobin (血紅素) \\
+Alb & Albumin (白蛋白) \\
+Pi & Inorganic Phosphate (無機磷酸鹽) \\
+2,3-DPG & 2,3-Bisphosphoglycerate \\
+COPD & Chronic Obstructive Pulmonary Disease \\
+CKD & Chronic Kidney Disease \\
+AML & Acute Myeloid Leukemia \\
+AKI & Acute Kidney Injury \\
+RBC & Red Blood Cell \\
+PCO$_2$ & Partial Pressure of Carbon Dioxide \\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{參考文獻}
+%==============================================================
+
+\begin{enumerate}
+    \item Giosa L, Camporota L, Langer T. Understanding buffering of metabolic acidosis in critical illness. \href{https://doi.org/10.1007/s00134-024-07656-5}{\textit{Intensive Care Med}. 2024;50:1925-1928.}
+
+    \item Berend K. Diagnostic use of base excess in acid-base disorders. \href{https://doi.org/10.1056/NEJMra1711860}{\textit{N Engl J Med}. 2018;378:1419-1428.}
+
+    \item Kraut JA, Madias NE. Metabolic acidosis: pathophysiology, diagnosis and management. \href{https://doi.org/10.1038/nrneph.2010.33}{\textit{Nat Rev Nephrol}. 2010;6:274-285.}
+
+    \item Siggaard-Andersen O. The acid-base status of the blood. Williams \& Wilkins Company, Baltimore; 1974.
+
+    \item Langer T, Brusatori S, Carlesso E, et al. Low noncarbonic buffer power amplifies acute respiratory acid-base disorders in patients with sepsis: an in vitro study. \href{https://doi.org/10.1152/japplphysiol.00787.2020}{\textit{J Appl Physiol}. 2021;131:464-473.}
+\end{enumerate}
+
+\end{document}

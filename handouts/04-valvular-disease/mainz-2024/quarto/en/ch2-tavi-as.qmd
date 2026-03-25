@@ -1,0 +1,264 @@
+---
+title: "TAVI in AS"
+lang: en
+---
+
+## Patient selection for TAVI in AS
+
+TAVI in AS 適應症：
+
+1. 患者有症狀性的重度主動脈狹窄（symptomatic AS）
+2. 患者的手術風險為極高、高度或中度
+
+其中重要指標為: 病患有重度主動脈狹窄（AS），且有症狀和/或左心室（LV）收縮功能異常（即 LVEF < 50%）。
+
+
+重度主動脈狹窄的標準：
+high gradient AS 定義為經CW (continuous wave)測量的平均跨瓣壓力梯度 (trans-valvular mean pressure gradient) ≥ 40 mmHg 或主動脈射流速度 (trans-valvular peak velocity) $\geq$ 4 m/s.
+
+
+### MDCT and fluoroscopy-guidance
+
+
+## Pre-TAVI evaluation by MDCT
+
+MDCT具有預測下面併發症的能力[@Soon2017; @Adamo2019]:
+
+![使用多層電腦斷層掃描（MDCT）進行多平面和三維重建測量主動脈瓣環。Aortic annular plane 由虛擬基底平面（粗黃色線）定義，連接每個主動脈瓣葉的hinge points（紅色 X，標記左冠狀瓣和右冠狀瓣）。在橫向軸位圖像（右上圖）中的測量顯示瓣環面積為 4.51 cm$^2$，周長 (perimeter)為 77.4 mm。Sagittal oblique圖像（右下圖）可用於測量瓣環平面與右冠狀動脈開口之間的垂直距離 (coronary height)，此處為 14.6 mm. 縮寫：AO 為主動脈，LA 為左心房，LV 為左心室，LVOT 為左心室流出道，RA 為右心房，RV 為右心室。[@Soon2017]](../images/tavi/fig%20TAVI%20MDCT.png)
+
+- para-valvular leak
+- coronary acute closure
+- aortic annular rupture
+- AV block leading to PPM implantation
+- vasscular complications
+
+### Acute coronary occlusion after TAVI
+
+儘管發生率較低，但擴張後的經導管心臟瓣膜（THV）將原生主動脈瓣葉推向冠狀動脈開口，導致左主冠狀動脈阻塞的風險，可通過識別以下幾個因素進行預測：左主冠狀動脈高度垂直 (coronary height) 小於 12 mm, sinus of Valsalva (SoV) 平均直徑小於 30 mm, annular area < 3.9 cm²，以及主動脈竇管交界 (sino-tubular junction, STJ) 處直徑小於 27 mm.[@Soon2017]
+
+簡而言之，若 coronary height $\geq$ 12 mm, SoV and STJ $\geq$ 28 mm, coronary occlusion 的風險便不至於增加。
+
+### Aortic annular rupture risk evaluation
+
+術前對主動脈根部的評估還可以識別出具有潛在致命性主動脈瓣環損傷風險的患者。在迄今為止最大規模的研究中，經過性別、瓣環面積、主動脈瓣面積（AVA）和跨瓣平均壓力梯度匹配的患者中，若在術前規劃的MDCT中發現左心室流出道（LVOT）/環下區域有較高量的鈣化（Agatston鈣化得分 181.2 ± 211 對比 22.5 ± 37.6；P < 0.001），則顯示其主動脈根部破裂（包括封閉性和非封閉性破裂）風險顯著增加。這一風險與瓣環面積、周長、不對稱性、LVOT面積和Valsalva竇的尺寸無關，並且如果伴隨有明顯（超過20%面積）的過度尺寸放置時，此風險會進一步增加。[@Soon2017]
+
+![嚴重的環下區域及左心室流出道（LVOT）鈣化。多層電腦斷層掃描（MDCT）的橫向軸位與斜矢狀影像顯示，接受經導管主動脈瓣置換（TAVI）評估的患者在環下區域和LVOT有中度至重度鈣化。上排：左冠狀動脈瓣下方的環下區域及LVOT有中度鈣化。下排：左冠狀動脈瓣下方的環下區域及LVOT有重度鈣化，並延伸至右冠狀動脈瓣區域。中度及/或重度鈣化的存在（箭頭所示）可能導致與其他條件相同的患者相比，主動脈根部破裂的風險增加。縮寫：AO 為主動脈，LA 為左心房，LV 為左心室，RA 為右心房，RV 為右心室。[@Soon2017]](../images/tavi/fig%20TAVI%20LVOT%20calcification.png)
+
+### LVOT calcium grading
+
+LVOT calcium grading definitions.
+
+| **分類** | **定義** |
+|---|---|
+| 無（None） | 無鈣化 |
+| 輕度（Mild） | 出現 1 個鈣化結節，且任一方向延伸 < 5 毫米，覆蓋左心室流出道（LVOT）周邊 < 10%。 |
+| 中度（Moderate） | 出現 2 個鈣化結節，或 1 個鈣化結節任一方向延伸 > 5 毫米，或覆蓋 LVOT 周邊 > 10%。 |
+| 重度（Severe） | 出現多個鈣化結節，或單個焦點的鈣化結節延伸 > 10 毫米，或覆蓋 LVOT 周邊 > 20%。 |
+
+: LVOT calcium grading definitions
+
+![LVOT calcification was analyzed in 416 patients from the SOLVE-TAVI trial, which randomized patients to TAVI with either BEV or SEV and either general anesthesia or conscious sedation. There was no significant difference in the incidence of a composite endpoint of all-cause mortality, stroke, moderate or severe paravalvular regurgitation, permanent pacemaker implantation and annulus rupture. There was no interaction between prosthesis type and LVOT calcification. BEV: balloon-expandable valve; Ca: calcification; LVOT: left ventricular outflow tract; SEV: self-expanding valve; TAVI: transcatheter aortic valve implantation. [@Farhan2022]](../images/tavi/fig%20TAVI%20LVOT%20calcification.png)
+
+
+
+## How to enter LV efficiently?
+
+在執行TAVI時，最基本的工夫就是要能夠通過狹窄的主動脈瓣，進入到LV cavity. Dr. Elias Hanna在YouTube上推出了非常詳細的影片，值得大家參考。我是在Mainz進修時，與Dr. Kabir認識，他跟我推薦我才知道網路上有這麼詳細的教學資料。
+
+![網路上search keywords: [Elias Hanna](https://www.youtube.com/watch?v=P0czcxqgfOo) Left Ventricular catheterization. [**點擊這裡可以連至YouTube**](https://www.youtube.com/watch?v=P0czcxqgfOo)](../images/teer/fig%20Elias%20Hanna%20teaching.png)
+
+
+## THV implantation technique
+
+![高位植入 (high implantation) 經導管心臟瓣膜（THV）可顯著減少 TAVI（經導管主動脈瓣置換術）後的傳導異常。然而，TAVI 後的電腦斷層掃描顯示，TAVI 後未來可能會面臨不利的冠狀動脈通路風險，以及在 TAVI 疊加 TAVI 時發生竇房分離的風險。[@Ochiai2023]](../images/tavi/fig%20TAVI%20implantation%20tech.png)
+
+
+## Step-by-Step of TAVI
+
+在選擇合適的患者和瓣膜後，手術分為五個連續的步驟：血管通路、穿越瓣膜、氣囊主動脈瓣成形術（BAV）、瓣膜植入和通路閉合。
+
+
+| **步驟** | **說明** |
+|---|---|
+| 1 | 使用 3D CT 和超音波確認經導管心臟瓣膜（THV）大小。 |
+| 2 | 確認 THV 的置入側，即右或左股動脈。 |
+| 3 | 確認血管通路。 |
+| 4 | 放置並確認經靜脈的右心室起搏導管。 |
+| 5 | 套管插入（sheath insertion）。 |
+| 6 | 在非冠狀動脈瓣葉處置入診斷用豬尾導管。 |
+| 7 | 建立共面視角（co-planar view）。 |
+| 8 | 穿越原生瓣膜。 |
+| 9 | 測量血流動力學。 |
+| 10 | 進行 THV 定位。 |
+| 11 | 部分部署（for Self-expanding THV: 在部署 2/3 時評估位置）。 |
+| 12 | 完全部署 THV。 |
+| 13 | 通過血流動力學、超音波和動脈造影評估 THV 部署後的效果。 |
+| 14 | 移除設備和套管。 |
+| 15 | 血管閉合。 |
+
+: TAVI手術流程
+
+TAVI時，還需考慮麻醉方式的選擇（局部麻醉加鎮靜劑或全身麻醉）以及在右心室放置臨時起搏導線。在Mainz大多數的TAVI手術使用清醒鎮靜 (conscious sedation)進行，但對全身麻醉的使用也較為靈活。進行全身麻醉的情況下，患者通常會在離開手術室前拔除氣管插管。
+
+對全身麻醉的使用也較為靈活: Mainz的導管室裡，都是single plane Philips導管機。因為是單一球管，所以在病患頭側的空間很大，常規就是麻醉科工作的區域，再加上有透明的鉛屏風防護，所以進行導管瓣膜性心臟病治療時，從頭到尾都有一名麻醉科醫師在病患頭端待命，可以隨時進行插管或藥物給予。
+
+以下為步驟順序。
+
+### Sizing issue
+
+治療前，要使用3D CT確認經導管心臟瓣膜（THV）的大小該如何選擇。
+
+THV (transcatheter human valve) 瓣膜尺寸的選擇至關重要，3D成像是關鍵，而3D CTA是最常用的方式。
+CT annular diameter 的測量是基於 perimeter (周長)衍生的直徑。
+如果直徑介於兩種瓣膜尺寸之間，且竇部 (sinus of Valsalva SOV) 寬度足夠，則考慮選擇較大的瓣膜尺寸。
+
+| **Parameter** | **Clinical relevance** |
+|---|---|
+| **Annular diameters** | Annular diameter at systole 為主要參數，以此決定THV的大小。保守起見，都用 minimal annular diameter選是最安全的。另一個是依照 average annular diameter來選擇合適的人工瓣膜大小。 |
+| **LVOT** | 要特別看有沒有LVOT鈣化。這個與 LVOT or annulus rupture有關。 |
+| **SoV, sinus of Valsalva** | SoV diameter都應該要超過28 mm. |
+| **Coronary height** | 這個直接與冠狀動脈 ostium 閉鎖有關。Coronary artery ostium height: 只的是由NCC往coronary artery ostium inner border的距離。coronary height should > 10 mm, best should > 12 mm. |
+
+: Sizing issues for TAVI
+
+
+### Access
+
+Operator 必須熟練掌握外周血管電腦斷層血管造影（CTA）的影像判讀，以評估所需的外周動脈的大小和品質，以確保順利取得血管通路.
+所有血管通路，都是在血管超音波的引導下進行血管穿刺.
+首先穿刺 RFA, 先將 6 Fr 10 cm sheath 置入後, 用 ProStyle 先植入一組縫合線後，再將 6 Fr sheath 換成 9 Fr sheath.
+另外以 Rt radial artery 為第二條通路 (專門用來將 5-6 Fr pig-tail 置放在 aortic root).
+
+接著靜脈注射 heparin，以達到 ACT> 250秒。保持J型導線作為動脈的進入通路。J型導線隨後更換為較硬的Amplatz Super Stiff（Boston Scientific）導線。瓣膜的傳送套管 introducer sheath 則經此硬導線在透視下導入，以確保順利穿過動脈腔。一旦大套管固定到位後，會檢查核對清單，以確保所有重要步驟已完成，並確保團隊協調和準備好部署瓣膜。
+
+
+接著，通過6 Fr 10公分的 RRA (Rt radial artery) 通路置入5-6 Fr pig-tail，並將其放置於 non-coronary cusp (非冠狀瓣葉的基底部)。
+
+接著進行一系列主動脈造影，通常在 rapid RV-pacing (快速右心室起搏)的情況下，使用稀釋對比劑來確保充分的影像顯示，在從CTA確定的植入角度下，驗證三個瓣葉的線性對齊（co-planar view）。
+
+### Valve Crossing and Balloon Aortic Valvuloplasty
+
+在 Mainz 都是用 6-Fr AL1導管沿著 150公分、0.035英寸的J型導線穿過瓣膜傳送套管，並更換為 straight-tip wire 以穿過瓣膜。通常這個動作都是在透視的左前斜位（LAO）投影下進行 valve crossing, 因為這樣可以在嘗試穿過狹窄的主動脈瓣時，及早發現導線意外進入左主冠狀動脈。
+
+如果無法成功穿越，則將導管更換為 AR1 或 JR4 導管。
+
+成功穿越後，將 straight-tip 導線更換為300公分長的J型導線，然後移除 AL1 導管，並更換為 6 Fr pig-tail catheter。接著，將兩個導管連接到壓力計，並測量左心室和主動脈的收縮壓和舒張壓。
+
+這個時候，都會關注左心室和主動脈的收縮峰值之間的間隔差距（peak-to-peak systolic separation），這是瓣膜狹窄的重要指標，但也應關注左心室和主動脈的舒張末期壓差 (diastolic bloos pressure difference)，這項測量對於評估瓣膜植入後的瓣周漏 (paravalvular leak) 極為重要。
+
+接著，通過彎曲豬尾導管將預成形的硬導線（如Safari2/Boston Scientific, Confida Brecker/Medtronic, Lunderquist/Cook Medical）放置於左心室內，並將導線的 transition point 保持在心尖上方，避免接觸心室壁。
+
+在瓣膜植入期間，嚴密透視監測左心室內的導線位置。
+
+在進行氣囊主動脈瓣成形術（BAV）之前，應在透視（每秒30幀的高解析度電影模式）下檢查 loaded 的 THV delivery system, 以確保其正確裝載。
+
+將系統保持在沖洗口指向側面的方向，檢視葉片是否正確嵌入囊袋內，並向任一方向旋轉幾度，直到能同時看到兩側葉片。植入前的BAV通常在快速右心室起搏的情況下進行，氣囊尺寸基於主動脈瓣環的最小直徑選擇。
+
+### Valve Implantation
+
+將瓣膜傳送系統裝載到導線上，進入身體時，要使沖洗口朝上。在透視引導下，將系統沿著導線推進到主動脈瓣annulus. 通常，系統在推進過程中會自動適應 (adjust)到病人的anatomy. 然而，在推進過程中必須隨時監測系統的capsule和 cone, 以確保整個 system 安全通過解剖部位。在解剖結構彎曲較大或鈣化嚴重的情況下，系統在轉彎時可能會在cone和capsule之間產生間隙。此時切勿強行推進系統，以免對患者造成損傷；而是更換為更硬的導線（如Lunderquist/Cook）來協助系統順利轉彎。
+
+當瓣膜傳送系統達到合適的植入位置（目標植入深度為: 3-5 mm）時，應獲得 co-planar 共面影像投影，系統應自然在主動脈瓣環內自我對齊，並與主動脈弓頂部 (aortic arch)保持接觸，以獲得最大穩定性。
+
+### Self-expandable THV
+
+透過緩慢的逆時針旋轉推進器來部署生物瓣膜的前1/3，旋轉時按照箭頭標記的方向，以短小的增量進行。約兩圈後，套囊的反應會達到1:1。部署過程中全程在透視下監測瓣膜位置，並根據需要進行位置調整，直到與瓣環接觸為止。套囊具有展開功能，可以在部署過程中使瓣膜自我對齊。對於有主動脈閉鎖不全、高血壓或大瓣環的患者，在部署過程中可考慮使用控制性起搏（90-130次/分鐘）。
+
+如果操作者對瓣膜在瓣環接觸的定位滿意，則繼續部署瓣膜，直到接近「無法回收點」之前。操作者必須在血壓下降時意識到需要快速完成部署，因為隨著瓣膜展開，主動脈瓣結構暫時被阻塞，導致心輸出量暫時消失。系統中設有一種觸覺指示器（「顫動帶」），用於提示套囊接近「無法回收點」。
+
+操作者必須持續旋轉部署旋鈕，直到血壓恢復，但需確保不超過「無法回收點」。當血壓恢復且部署達到約80%時，應調整影像投影，以消除瓣膜流入處的視差，並透過血管造影和超音波檢查確認瓣膜位置。如果植入團隊對瓣膜的位置和性能感到滿意，則在完全部署前釋放系統的張力，以減少瓣膜移動的可能性。此過程包括將導線稍微回收、輕微向前推送傳送系統，並緩慢轉動部署旋鈕，使葉片逐一分離。在透視下確認框架葉片分離，並確保錐頭居中後，方可將設備取出。
+
+### balloon-expandable THV
+
+在Mainz的balloon-expandable THV使用大宗是Sapien 3/Ultra. 置放時採取的策略都是high implantation technique. [@Ochiai2023] 置放會採取高位置放，目地是降低傳導問題的發生，並減少永久性節律器置放的需求。
+
+### Retrieval
+
+在將瓣膜傳送系統撤回至降主動脈之前，需確認導管尖端與生物瓣膜的流入部分同軸。系統在降主動脈中被鎖定，透過啟動部署旋鈕的觸發器並將灰色手柄收回至藍色部署旋鈕（「灰對藍」）的位置。系統經由硬導線取出，同時保持導線位置於左心室腔中，並重新放置彎曲豬尾導管於左心室內。接著進行同步壓力描記，重點觀察左心室與主動脈壓力描記的舒張期間隔。最後，將彎曲豬尾導管拉回後進行最終血管造影，以評估瓣膜位置和瓣周漏情況。此外，還可以進行經胸或經食道超音波檢查，以在手術結束前再次確認瓣膜位置。
+
+### Vascular closure
+
+接著，大套管經由J型導線移除，佈署ProStyle縫合裝置，並注射魚精蛋白中和肝素。ProStyle使用後，再追加6 Fr or 8 Fr的AngioSeal以完成止血。
+
+如果達到滿意的止血效果 (ProStyle x1 + AngioSeal x1之後)，便可移除導線；若未能達到，則可使用額外的ProGlide或Angio-Seal（Terumo Interventional Systems, Terumo Medical Corporation, Somerset, NJ）血管閉合裝置。通常會透過替代通路進行周邊血管造影，以確保大套管進入處的血管完整性。替代通路的閉合也使用ProGlide或Angio-Seal血管閉合裝置完成。
+
+### Transcatheter Human Valves
+
+THV = Transcatheter Human Valves.
+
+
+## Procedure arrangements
+
+### Tips and tricks
+
+1. 直接從Rt radial artery (RRA) 穿刺，並經 RRA置放pig-tail在ascending aorta (AsAo), 在手術最後再重新將 RRA pig-tail擺放到 descending abdominal aorta, 就可以完成 RFA 的穿刺部位血管攝影，一氣呵成。
+
+### Treatment protocol
+
+| **項目** | **內容** |
+|---|---|
+| **導引鞘 (sheaths)** | 6 Fr sheats x2 (第一支先進 Rt CFA, 第二支去 Rt radial artery). 9 Fr 則是接在6 Fr後去 Rt CFA. TPM sheath: Rt CFV則要再擺一支 TPM sheath. |
+| **導管 (catheters)** | Pig-tail catheters, 6 Fr x2; AL1 catheter, 6 Fr |
+| **導絲 (wires)** | J-tip wire; Safair XS; Terumo GlideWire straight tip |
+| **急救與麻醉設備** | 麻醉機一台，直接擺在病人頭端。Dl shock 電擊器一台。 |
+| **超音波** | Philips EPIC 一台，配備 linear probe, sector probe各一。直接擺在病患頭端。 |
+| **人工瓣膜 (trancathter human valve, THV)** | Evolute Fx+; Sapien 3 |
+
+: Device list for TAVI
+
+
+## Low-flow and low-gradient severe AS
+
+Use dimentionless index進行測量: $\frac{VTI_{LVOT}}{VTI_{Ao}}$, 若是 $\frac{VTI_{LVOT}}{VTI_{Ao}} < 0.25$ 那就該考慮病人的診斷是否有可能為: low-pressure, low-gradient severe AS.
+
+### MDCT and aortic valve calcium score
+
+雖然Doppler echocardiography是評估主動脈狹窄 (AS)嚴重程度的首選方法，但在部分無法獲得確定性結果的患者中，使用多層電腦斷層掃描（MDCT）衍生的主動脈瓣鈣化 (aortic valve calcium, AVC) 得分可以作為有效的替代工具。這是基於鈣質在主動脈狹窄的發病及進展過程中的基本作用，且其評估不依賴血流相關的指標。
+
+AVC 通過 MDCT 掃描取得的影像進行測量，使用modified Agatston 方法，鈣化的定義為密度超過 130 Hounsfield 單位的連續四個像素。在 AS 的解剖嚴重程度方面，AVC 評估具有良好的相關性，可用來反映血流動力學的嚴重程度。
+
+在傳統的低流量、低梯度 AS 中，區分真性重度與假性重度可以使用負荷劑量超音波（DSE），若患者具有顯著的血流儲備。然而，若無此儲備情況，較高的 AVC 得分可能有助於識別真性重度 AS。在paradoxial low-flow, low-gradient (矛盾性低流量、低梯度) AS 或normal-flow, low gradient (正常流量、低梯度) AS 患者中，若 DSE 不適用或無法提供確定性結果，高 AVC 得分亦可能協助診斷重度 AS。
+
+重度 AS 的 AVC 評分標準為：男性大於 2000 Agatston 單位，女性大於 1200 Agatston 單位。
+
+簡而言之，若是超音波診斷 severe AS碰到困難，可以依據 AVC score來作進一步評估判斷。
+
+
+## Choice between different THV in TAVI procedures
+
+幾個重點，是我在Mainz這三個月與heart team一起討論時學到的。
+
+1. Durability: 應考慮病人的年紀，若是已經80-90歲的病患，在THV的選擇上較不用考慮durability, 以procedure安全為主要考量。但是對於60多歲的病患，因為考慮未來還有20年以上的survival, 就會考慮durability較佳的THV. 例如: 在2024-11的資料看來: durability for Sapine 3 is better then Evolute. 所以2024-11-12 Case 22治療時選的就是Sapien 3 (病患年紀 62歲, Dx: bisucpid AS).
+2. 嚴重的環下鈣化 (LVOT calcificatoin) 以及因此帶來的環破裂 (annular rupture) 風險可能促使選擇使用self-expandable THV.
+3. 而較短的膜性中隔 (short membranous septum) 則可能增加AV block的風險，因此植入者可能會選擇較短的balloon-expandable THV，以減少壓迫His bundle的可能性
+4. 為了減少發生AV block的風險，對於membranous septum很短的病人，考慮不要用self-expandable THV, 以免要再進行post-dilate導致AV block.
+
+
+## Post-TAVI imaging follow-up
+
+在TAVI術後，影像上的追蹤會使用MDCT以及echo. [@Soon2017]
+
+超音波對於追蹤很重要，要看的有下面的重點:
+(1) 評估瓣膜支架的 2D 影像，以及瓣膜葉片的形態和活動性；
+(2) 測量瓣膜跨植入物的壓力梯度、瓣膜有效開口面積（EOA）及都卜勒速度指數（DVI）；
+(3) 評估主動脈逆流的位置（瓣周性或中心性）及其嚴重程度；以及
+(4) 評估左心室的大小和收縮功能，並計算收縮期肺動脈壓。
+
+
+
+![使用MDCT進行TAVI術後追蹤，主要是觀察各項THV結構。](../images/tavi/fig%20TAVI%20MDCT.png)
+
+| **項目** | **內容** |
+|---|---|
+| **MDCT after TAVI** | THV的結構完整性 (integrity); 位置 (position); 貼合度 (apposition); 圓度 (circularity); 擴展情況 (expansion); 瓣周漏 (para-valvular leak); 併發症 (complications): 血栓 (thrombosis) 和贅生物 (pannus formation) |
+| **Echocardiography after TAVI** | 評估瓣膜支架的 2D 影像，以及瓣膜葉片的形態和活動性; 測量瓣膜跨植入物的壓力梯度、瓣膜有效開口面積（EOA）及都卜勒速度指數; 評估主動脈逆流的位置（瓣周性或中心性）及其嚴重程度; 評估左心室的大小和收縮功能，並計算收縮期肺動脈壓 |
+| **THV stenosis** | THV stenosis is most often associated with thickening and reduced mobility of the leaflets due to thrombosis, fibrosis, and/or calcification |
+| **THV leaflet thickening** | Valve leaflet thickening is generally defined as a valve leaflet with thickness $\geq$ 2 mm. |
+| **THV thrombosis** | 術後經導管心臟瓣膜葉片增厚在多排電腦斷層掃描（MDCT）中被識別出來。橫軸（左）和斜矢狀面（右）的多排電腦斷層影像顯示在經導管心臟瓣膜葉片上出現局部低密度區域（黃色箭頭），此情況發生於植入後 5 個月，一名 90 歲患者中觀察到此現象。AO，主動脈；LA，左心房；LV，左心室；RA，右心房；RV，右心室。 |
+| **Standard method of THV velocity measurement** | 標準測量方式在 balloon-expandable THV 與 self-expandable THV不同，經導管主動脈瓣膜面積的測量：(A) 在球囊擴張型經導管心臟瓣膜（THV）中，左心室流出道（LVOT）的直徑（雙黃箭）和速度（黃色圓圈）測量於支架頂端的下方邊緣（紅色虛線）。(B) 在寄生胸長軸放大視圖中測量直徑。在自膨式 THV 中，若 THV 的著陸區位於 LVOT 的較低位置時，直徑和速度可以在支架內進行測量。 |
+
+: TAVI術後心臟超音波追蹤重點
+
+![THV thrombosis](../images/tavi/fig%20TAVI%20THV%20thrombosis.png)
+
+![Standard method of THV velocity measurement](../images/tavi/fig%20TAVI%20echo%20LVOT.png)

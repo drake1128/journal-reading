@@ -1,0 +1,62 @@
+---
+title: "Journal Reading"
+subtitle: "Cardiology Teaching Materials & Literature Reviews"
+author: "謝慕揚 MD, PhD, FESC (Drake Hsieh)"
+date: last-modified
+---
+
+## 關於本站
+
+本站收錄新竹臺大分院心血管中心的教學講義、文獻回顧，以及出國進修報告。
+
+## 目錄
+
+### Cardiology 心臟科
+
+| # | 主題 | Topic |
+|---|------|-------|
+| 01 | [缺血性心臟病](handouts/01-ischemic-heart-disease/index.qmd) | Ischemic Heart Disease |
+| 02 | [心衰竭](handouts/02-heart-failure/index.qmd) | Heart Failure |
+| 03 | [心律不整](handouts/03-arrhythmia/index.qmd) | Arrhythmia |
+| 04 | [瓣膜疾病](handouts/04-valvular-disease/index.qmd) | Valvular Disease |
+| 05 | [心臟影像](handouts/05-cardiac-imaging/index.qmd) | Cardiac Imaging |
+| 06 | [介入心臟學](handouts/06-interventional-cardiology/index.qmd) | Interventional Cardiology |
+| 07 | [周邊血管](handouts/07-peripheral-vascular/index.qmd) | Peripheral Vascular |
+
+### Specialized 專科
+
+| # | 主題 | Topic |
+|---|------|-------|
+| 08 | [基因醫學](handouts/08-genetic-medicine/index.qmd) | Genetic Medicine |
+| 09 | [高血壓](handouts/09-hypertension/index.qmd) | Hypertension |
+
+### Critical Care 重症醫學
+
+| # | 主題 | Topic |
+|---|------|-------|
+| 10 | [ICU 一般照護](handouts/10-icu-general/index.qmd) | ICU General Care |
+| 11 | [ICU 呼吸系統](handouts/11-icu-respiratory/index.qmd) | ICU Respiratory |
+| 12 | [ICU 血液動力學](handouts/12-icu-hemodynamics/index.qmd) | ICU Hemodynamics |
+| 13 | [ICU 腎臟](handouts/13-icu-renal/index.qmd) | ICU Renal |
+
+### Pulmonology 胸腔
+
+| # | 主題 | Topic |
+|---|------|-------|
+| 20 | [肺栓塞](handouts/20-pulmonary-embolism/index.qmd) | Pulmonary Embolism |
+| 21 | [肺高壓](handouts/21-pulmonary-hypertension/index.qmd) | Pulmonary Hypertension |
+| 22 | [COPD/氣喘](handouts/22-copd-asthma/index.qmd) | COPD & Asthma |
+
+### Other 其他
+
+| # | 主題 | Topic |
+|---|------|-------|
+| 90 | [AI 科技](handouts/90-ai-technology/index.qmd) | AI & Technology |
+| 91 | [Podcast 期刊回顧](handouts/91-podcast-journal-review/index.qmd) | Journal Podcast Reviews |
+| 99 | [其他](handouts/99-misc/index.qmd) | Miscellaneous |
+
+---
+
+### Special Reports 特別報告
+
+- [Mainz 2024 出國進修報告 — TAVI & TEER](handouts/04-valvular-disease/mainz-2024/quarto/zh/index.qmd)

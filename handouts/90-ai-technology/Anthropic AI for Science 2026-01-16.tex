@@ -1,0 +1,424 @@
+\documentclass[12pt,a4paper]{article}
+
+% ============================================================
+% Anthropic Case Study: How Scientists Are Using Claude
+% 整理：謝慕揚醫師 MD, PhD, FESC
+% ============================================================
+
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Anthropic Case Study 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{AI for Scientific Research}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Anthropic Case Study}}\\[0.5cm]
+{\Large\textbf{How Scientists Are Using Claude to Accelerate Research and Discovery}}\\[0.3cm]
+{\large 科學家如何運用 Claude 加速研究與發現}\\[0.5cm]
+{\normalsize \href{https://www.anthropic.com/news/accelerating-scientific-research}{Anthropic Blog. 2026-01-16.}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+% Key Findings Box
+%============================================================
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=orange!75!black,title=\textbf{核心重點摘要}]
+\textbf{主要訊息：}Claude 已從基礎的文獻回顧與程式撰寫工具，進化為能參與研究全流程的 AI 協作夥伴，包括實驗設計、數據分析與假說生成。
+
+\textbf{效率提升：}
+\begin{itemize}[nosep]
+    \item Genome-wide association study (GWAS) 分析：數月 → 20 分鐘
+    \item 穿戴式裝置數據分析（450 檔案）：3 週 → 35 分鐘
+    \item CRISPR knockout 實驗解讀：數百小時人工作業 → 自動化完成
+\end{itemize}
+\end{tcolorbox}
+
+\tableofcontents
+\newpage
+
+%============================================================
+\section{背景介紹}
+%============================================================
+
+\subsection{Claude for Life Sciences}
+
+Anthropic 於 2025 年 10 月推出 \textbf{Claude for Life Sciences}，這是一套專為科學研究設計的連接器與技能套件。最新的 \textbf{Opus 4.5} 模型在以下領域展現顯著進步：
+
+\begin{itemize}
+    \item Figure interpretation（圖表解讀）
+    \item Computational biology（計算生物學）
+    \item Protein understanding benchmarks（蛋白質理解基準測試）
+\end{itemize}
+
+\subsection{AI for Science Program}
+
+Anthropic 透過 \textbf{AI for Science program} 提供免費 API credits 給全球從事高影響力科學研究的學者。這些研究團隊開發的系統已超越傳統的文獻回顧或程式輔助功能。
+
+\begin{tcolorbox}[
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{Claude 作為研究協作者的三大角色},
+    fonttitle=\bfseries
+]
+\begin{enumerate}
+    \item \textbf{實驗規劃：}協助判斷應執行哪些實驗，提高成本效益
+    \item \textbf{時間壓縮：}將原本需要數月的專案壓縮至數小時內完成
+    \item \textbf{模式識別：}在大規模數據集中發現人類可能遺漏的 patterns
+\end{enumerate}
+\end{tcolorbox}
+
+%============================================================
+\section{案例一：Biomni（Stanford University）}
+%============================================================
+
+\subsection{系統概述}
+
+\textbf{Biomni} 是由 Stanford University 開發的通用型生物醫學 AI agent 平台，整合數百種工具、軟體套件與資料庫於單一系統中。
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{特性} & \textbf{說明} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{特性} & \textbf{說明} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+核心架構 & Claude-powered agent 可在系統中自動導航 \\
+\midrule
+輸入方式 & 研究者以 plain English 提出需求 \\
+\midrule
+自動化功能 & 自動選擇適當資源、形成假說、設計實驗 protocol、執行分析 \\
+\midrule
+覆蓋範圍 & 超過 25 個生物學子領域 \\
+\bottomrule
+\end{longtable}
+
+\subsection{GWAS 分析案例}
+
+\textbf{Genome-wide association study (GWAS)} 是尋找與特定性狀或疾病相關之遺傳變異的研究方法。傳統 GWAS 分析流程繁瑣：
+
+\begin{itemize}
+    \item Genomic data 格式混亂，需大量 data cleaning
+    \item 需控制 confounding factors 並處理 missing data
+    \item 識別 hits 後需進一步確認相關基因、細胞類型、生物途徑
+    \item 每個步驟涉及不同工具與檔案格式
+\end{itemize}
+
+\begin{tcolorbox}[colback=highlight_yellow,colframe=emergency_red,title=\textbf{效率比較}]
+\textbf{傳統方法：}單一 GWAS 分析需時數月\\
+\textbf{Biomni：}僅需 \textbf{20 分鐘}完成
+\end{tcolorbox}
+
+\subsection{驗證案例}
+
+Biomni 團隊透過多項案例驗證系統準確性：
+
+\begin{longtable}{p{3.5cm}p{5cm}p{5cm}}
+\toprule
+\textbf{案例類型} & \textbf{任務內容} & \textbf{結果} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{案例類型} & \textbf{任務內容} & \textbf{結果} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+Molecular cloning experiment & 設計 cloning protocol & Blind evaluation 顯示品質與 5 年經驗 postdoc 相當 \\
+\midrule
+Wearable data analysis & 分析 30 人、450 檔案（glucose monitoring、體溫、活動量） & 35 分鐘完成（人工估計需 3 週） \\
+\midrule
+Single-cell RNA analysis & 分析 336,000 個 human embryonic cells & 確認已知 regulatory relationships 並發現新的 transcription factors \\
+\bottomrule
+\end{longtable}
+
+\subsection{Expert Skill Encoding}
+
+當 Biomni 的預設方法不足以應對特定領域時，專家可將其方法論編碼為 \textbf{skill}：
+
+\begin{itemize}
+    \item 與 \textbf{Undiagnosed Diseases Network} 合作診斷罕見疾病時
+    \item 發現 Claude 的預設診斷方法與臨床醫師差異甚大
+    \item 透過訪談專家、記錄診斷流程、教導 Claude
+    \item 導入 tacit knowledge 後，agent 表現大幅改善
+\end{itemize}
+
+%============================================================
+\section{案例二：Cheeseman Lab（MIT/Whitehead Institute）}
+%============================================================
+
+\subsection{研究背景}
+
+\textbf{Iain Cheeseman} 實驗室運用 CRISPR 技術進行大規模 gene knockout 實驗：
+
+\begin{itemize}
+    \item 在數千萬個人類細胞中 knockout 數千個不同基因
+    \item 拍攝每個細胞觀察變化
+    \item 功能相似的基因被 knockout 後會產生相似的表型
+    \item 實驗室開發了名為 \textbf{Brieflow} 的 pipeline 自動分群基因
+\end{itemize}
+
+\subsection{瓶頸：數據解讀}
+
+雖然基因分群可自動化，但 \textbf{解讀這些分群的生物學意義}仍需人工：
+
+\begin{itemize}
+    \item 需逐一查閱科學文獻確認基因功能
+    \item 單一 screen 可產生數百個 clusters
+    \item 大多數 clusters 因人力不足而從未被深入研究
+    \item Dr. Cheeseman 雖能記住約 5,000 個基因功能，分析仍需數百小時
+\end{itemize}
+
+\subsection{MozzareLLM 系統}
+
+PhD student \textbf{Matteo Di Bernardo} 與 Cheeseman 合作，將其專家方法編碼為 Claude-powered 系統 \textbf{MozzareLLM}：
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{功能} & \textbf{說明} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{功能} & \textbf{說明} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+生物程序識別 & 辨識基因 cluster 可能共享的 biological process \\
+\midrule
+基因分類 & 標記哪些基因已被充分研究、哪些研究較少 \\
+\midrule
+優先排序 & 建議哪些基因值得進一步研究 \\
+\midrule
+信心程度評估 & 提供 confidence levels 協助決定是否投入更多資源 \\
+\bottomrule
+\end{longtable}
+
+\begin{tcolorbox}[
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{Cheeseman 的評價},
+    fonttitle=\bfseries
+]
+\textit{``Every time I go through I'm like, I didn't notice that one! And in each case, these are discoveries that we can understand and verify.''}
+
+每次審視結果時，我都會發現：「這個我沒注意到！」而且每一個案例都是我們能理解並驗證的發現。
+\end{tcolorbox}
+
+\subsection{模型比較}
+
+Di Bernardo 測試了多個 AI 模型，Claude 表現最佳：
+\begin{itemize}
+    \item 在某案例中，Claude 正確識別出一條 \textbf{RNA modification pathway}
+    \item 其他模型將此訊號誤判為 random noise
+\end{itemize}
+
+\subsection{未來願景}
+
+團隊計畫將 Claude-annotated datasets 公開，讓其他領域專家能追蹤他們無暇研究的 clusters：
+\begin{itemize}
+    \item Mitochondrial biologist 可深入研究 mitochondrial clusters
+    \item 其他實驗室可採用 MozzareLLM 分析自己的 CRISPR 實驗
+    \item 有望加速多年來功能未被釐清之基因的研究
+\end{itemize}
+
+%============================================================
+\section{案例三：Lundberg Lab（Stanford University）}
+%============================================================
+
+\subsection{不同的瓶頸}
+
+與 Cheeseman Lab 不同，\textbf{Lundberg Lab} 的瓶頸在研究流程更早期：
+
+\begin{longtable}{p{4cm}p{5cm}p{5cm}}
+\toprule
+\textbf{比較項目} & \textbf{Cheeseman Lab} & \textbf{Lundberg Lab} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{比較項目} & \textbf{Cheeseman Lab} & \textbf{Lundberg Lab} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+實驗類型 & Optical pooled screening & Focused screens \\
+\midrule
+規模 & 同時 knockout 數千基因 & 針對性選擇數百基因 \\
+\midrule
+主要瓶頸 & 數據解讀 & 決定研究哪些基因 \\
+\midrule
+成本考量 & 可大規模篩選 & 單一 screen 成本 >\$20,000 \\
+\bottomrule
+\end{longtable}
+
+\subsection{傳統基因選擇方法}
+
+傳統方法依賴人工判斷：
+\begin{itemize}
+    \item 研究生與 postdocs 圍著 Google spreadsheet 討論
+    \item 逐一加入候選基因並附上簡短理由或文獻連結
+    \item 受限於文獻記載內容與研究者記憶
+    \item 本質上是 educated guessing game
+\end{itemize}
+
+\subsection{AI 驅動的新方法}
+
+Lundberg Lab 運用 Claude 翻轉傳統思維：
+
+\begin{tcolorbox}[colback=highlight_yellow,colframe=emergency_red]
+\textbf{傳統問題：}「根據已發表的研究，我們能做出什麼猜測？」
+
+\textbf{新問題：}「根據分子特性，\textit{應該}研究什麼？」
+\end{tcolorbox}
+
+\subsection{分子關係圖譜}
+
+團隊建立了細胞內所有已知分子的關係圖譜：
+\begin{itemize}
+    \item 涵蓋 proteins、RNA、DNA
+    \item 記錄哪些蛋白質會結合
+    \item 記錄哪些基因編碼哪些產物
+    \item 記錄哪些分子結構相似
+\end{itemize}
+
+Claude 可在此圖譜中導航，根據 biological properties 和 relationships 識別候選基因。
+
+\subsection{驗證實驗設計}
+
+為驗證此方法，團隊選擇研究 \textbf{primary cilia}（初級纖毛）：
+
+\begin{itemize}
+    \item 細胞上的天線狀突起，功能了解有限
+    \item 與多種 developmental 和 neurological disorders 相關
+    \item 選擇此主題因為研究較少，Claude 不太可能已「知道」答案
+\end{itemize}
+
+\textbf{驗證流程：}
+\begin{enumerate}
+    \item 人類專家使用傳統 spreadsheet 方法預測基因
+    \item Claude 使用分子關係圖譜生成預測
+    \item 執行 whole genome screen 建立 ground truth
+    \item 比較兩種方法的準確率
+\end{enumerate}
+
+若成功，此方法可望成為 focused perturbation screening 的標準第一步。
+
+%============================================================
+\section{總結與展望}
+%============================================================
+
+\subsection{關鍵洞察}
+
+\begin{enumerate}
+    \item \textcolor{emergency_red}{\textbf{能力持續進化：}}每次模型更新都帶來顯著改進。兩年前 AI 僅能撰寫程式碼或摘要文獻，現在已能複製論文所描述的實際研究工作。
+
+    \item \textcolor{emergency_red}{\textbf{消除瓶頸：}}AI 正在消除需要深度知識且過去無法規模化的任務瓶頸。
+
+    \item \textcolor{emergency_red}{\textbf{啟用新方法：}}AI 使研究者能採用過去不可能實現的研究方法。
+\end{enumerate}
+
+\subsection{系統特性比較}
+
+\begin{longtable}{p{3cm}p{3.5cm}p{3.5cm}p{3.5cm}}
+\toprule
+\textbf{特性} & \textbf{Biomni} & \textbf{MozzareLLM} & \textbf{Lundberg System} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{特性} & \textbf{Biomni} & \textbf{MozzareLLM} & \textbf{Lundberg System} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+機構 & Stanford & MIT/Whitehead & Stanford \\
+\midrule
+定位 & 通用型 & 專用型 & 專用型 \\
+\midrule
+解決瓶頸 & 工具碎片化 & CRISPR 數據解讀 & 基因選擇 \\
+\midrule
+核心功能 & 整合數百種工具與資料庫 & 自動化基因 cluster 解讀 & AI 驅動假說生成 \\
+\bottomrule
+\end{longtable}
+
+\begin{tcolorbox}[
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{結語},
+    fonttitle=\bfseries
+]
+這些系統都尚未完美，但它們展示了科學家如何在短短數年內將 AI 從基礎工具轉變為能加速甚至取代許多研究流程的協作夥伴，並指向新穎的科學洞見與發現。
+\end{tcolorbox}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Anthropic. How scientists are using Claude to accelerate research and discovery. \href{https://www.anthropic.com/news/accelerating-scientific-research}{Anthropic Blog. 2026-01-16.}
+
+    \item Anthropic. Claude for Life Sciences. \href{https://www.anthropic.com/solutions/life-sciences}{Anthropic Solutions.}
+
+    \item Anthropic. AI for Science Program. \href{https://www.anthropic.com/ai-for-science}{Anthropic Programs.}
+\end{enumerate}
+
+%============================================================
+\section{縮寫對照表}
+%============================================================
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+AI & Artificial Intelligence（人工智慧） \\
+API & Application Programming Interface（應用程式介面） \\
+CRISPR & Clustered Regularly Interspaced Short Palindromic Repeats \\
+GWAS & Genome-Wide Association Study（全基因組關聯研究） \\
+LLM & Large Language Model（大型語言模型） \\
+RNA & Ribonucleic Acid（核糖核酸） \\
+DNA & Deoxyribonucleic Acid（去氧核糖核酸） \\
+\bottomrule
+\end{longtable}
+
+\end{document}

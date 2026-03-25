@@ -1,0 +1,344 @@
+\documentclass[12pt,a4paper]{article}
+\input{Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Intensive Care Medicine 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{AKI \& RRT Timing}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Intensive Care Medicine}}\\[0.5cm]
+{\Large\textbf{Acute Kidney Injury: When and How to Start Renal Replacement Therapy}}\\[0.3cm]
+{\large 急性腎損傷：何時及如何開始腎臟替代療法}\\[0.5cm]
+{\normalsize Intensive Care Med 2025;51:1172-1175. DOI: 10.1007/s00134-025-07933-x}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\keyfinding{
+\textbf{核心訊息：}對於 KDIGO stage 2-3 AKI 但無 life-threatening complications 的病人，delayed RRT strategy 可使高達 50\% 病人避免透析，且不影響存活率。
+
+\textbf{臨床建議：}
+\begin{itemize}
+    \item 無緊急適應症時，採取 watchful waiting 策略
+    \item 但對於 persistent AKI（oliguria 或 BUN >112 mg/dL），不應延遲超過 Stage 3 AKI 發生後 72 小時
+    \item CRRT 建議劑量 20-25 mL/kg/h，優先使用 regional citrate anticoagulation
+\end{itemize}
+}
+
+\tableofcontents
+\newpage
+
+%==============================================================
+\section{文獻概述}
+%==============================================================
+
+本篇為 Intensive Care Medicine「What's New in Intensive Care」系列文章，由法國 Nimes 大學醫院 Barbar 等人撰寫，綜合最新研究證據，針對 ICU 病人 AKI 的 RRT 啟動時機與方式提供實用建議。
+
+\subsection{作者資訊}
+\textbf{通訊作者：}Saber Davide Barbar, MD\\
+\textbf{機構：}Division of Anesthesia Critical Care, Pain and Emergency Medicine, Nimes University Hospital, France
+
+%==============================================================
+\section{背景}
+%==============================================================
+
+\begin{itemize}
+    \item AKI 影響高達 \textbf{50\%} 的 ICU 病人
+    \item 與較高的死亡率及 progressive kidney disease 風險相關
+    \item RRT 啟動時機及方式仍有爭議
+\end{itemize}
+
+%==============================================================
+\section{何時開始 RRT}
+%==============================================================
+
+\subsection{無 Life-threatening Complications 的 AKI}
+
+\note{
+\textbf{關鍵證據：}多個 RCT（AKIKI, IDEAL-ICU, STARRT-AKI, ELAIN）的核心訊息：
+
+在無 life-threatening complication 的情況下，即使 KDIGO stage 2-3 AKI，early RRT 並不能改善存活率。
+}
+
+\subsubsection{Delayed Strategy 的優勢}
+
+\begin{itemize}
+    \item 高達 \textbf{50\%} 的病人可避免 RRT（因腎功能自發性改善）
+    \item 各研究中 delayed arm 的病人，RRT 啟動時間為 enrollment 後 \textbf{31-57 小時}
+\end{itemize}
+
+\subsubsection{Early RRT 的潛在危害}
+
+\begin{itemize}
+    \item 在無 oligo-anuria 的病人，early RRT 可能導致 \textbf{excess mortality}
+    \item 可能增加 \textbf{long-term dialysis dependence} 風險，特別是有 pre-existing CKD 的病人
+    \item 機轉：RRT-associated hemodynamic instability 可能損害腎臟修復及內源性腎功能恢復
+\end{itemize}
+
+\subsubsection{AKIKI-2 Trial 的重要發現}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{比較} & \textbf{結果} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{比較} & \textbf{結果} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+Delayed vs More Delayed & "More delayed" strategy 並未帶來更多 RRT-free days \\
+\midrule
+死亡率 & "More delayed" 有較高死亡率的趨勢 \\
+\midrule
+Comatose 病人 & More delayed RRT 啟動與較低的 coma to awakening 轉換機率相關 \\
+\bottomrule
+\end{longtable}
+
+\subsection{Life-threatening Complications：緊急 RRT 適應症}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{緊急適應症} & \textbf{處理建議} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{緊急適應症} & \textbf{處理建議} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Severe Hyperkalemia} &
+K+ 5.5-6.5 mmol/L + ECG changes + refractory to medical treatment\newline
+可先嘗試 diuretics（若有 volume overload）或 novel potassium binders \\
+\midrule
+
+\textbf{Metabolic Acidosis} &
+pH ≤7.20 + KDIGO stage 2-3 AKI\newline
+先給 sodium bicarbonate（250 mL of 4.2\%）\newline
+\textbf{若 pH 仍 <7.20，不應延遲 RRT} \\
+\midrule
+
+\textbf{Fluid Overload} &
+最難客觀定義的適應症\newline
+Physical exam、fluid balance data、chest X-ray、oxygenation status 整合判斷\newline
+可輔以 bedside ultrasound 及 bioimpedance \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{Fluid Overload 定義建議：}
+\begin{itemize}
+    \item Worsening pulmonary oedema
+    \item PaO2/FiO2 <200 mmHg
+    \item Fluid balance >10\% of body weight
+    \item 對 diuretics 無反應
+\end{itemize}
+}
+
+%==============================================================
+\section{如何開始 RRT}
+%==============================================================
+
+\subsection{RRT Modality 選擇：CRRT vs IHD}
+
+\begin{longtable}{p{3cm}p{5.5cm}p{5.5cm}}
+\toprule
+\textbf{項目} & \textbf{CRRT} & \textbf{IHD} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{項目} & \textbf{CRRT} & \textbf{IHD} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+適用對象 & 使用 inotropes/vasopressors\newline Significant volume overload & Less severe disease\newline SOFA score <10 \\
+\midrule
+存活率 & 大型 RCT 未顯示差異 & 大型 RCT 未顯示差異 \\
+\midrule
+腎臟預後 & STARRT-AKI 次級分析：\newline 較低 90-day RRT dependence & AKIKI/IDEAL-ICU 次級分析：\newline SOFA <10 時有較好 60-day survival \\
+\bottomrule
+\end{longtable}
+
+\subsection{CRRT 處方建議}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{參數} & \textbf{建議} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{參數} & \textbf{建議} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Small molecule clearance} & 20-25 mL/kg/h（標準劑量）\newline 較低劑量是否同樣有效仍待研究 \\
+\midrule
+
+\textbf{Anticoagulation} & \textbf{Regional citrate > Heparin}\newline 較長 filter life、較低出血風險 \\
+\midrule
+
+\textbf{Hemofiltration vs Hemodialysis} & 尚無定論\newline Hemofiltration 透過 convection 移除較大分子\newline Hemodialysis 依賴 diffusive clearance \\
+\midrule
+
+\textbf{Ultrafiltration rate} & 仍有爭議\newline 積極移水可較快達到 euvolemia，但代價是 hemodynamic instability \\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{實用決策流程}
+%==============================================================
+
+\begin{center}
+\fbox{\parbox{0.9\textwidth}{
+\textbf{AKI KDIGO ≥2 in ICU ± MOF}
+
+$\downarrow$
+
+\textbf{Step 1：評估是否有 Life-threatening / Emergency criteria for RRT}
+
+\begin{itemize}
+    \item Hyperkalemia >6.5 + ECG signs + refractory to medical treatment
+    \item Metabolic acidosis (pH ≤7.15) unresponsive to 100 mL of 4.2\% bicarb
+    \item Fluid overload* + refractory to diuretics
+\end{itemize}
+
+$\downarrow$ Yes → \textbf{Immediate RRT}
+
+$\downarrow$ No → \textbf{Dynamic reassessment every 8h}
+
+$\downarrow$
+
+\textbf{Step 2：若無緊急適應症，等待但不超過 72 小時}
+
+若持續 AKI（oliguria 或 BUN >112 mg/dL）→ \textbf{Delayed RRT after maximum 72h}
+
+\vspace{0.3cm}
+\small *Fluid overload: Worsening pulmonary oedema, PaO2/FiO2 <200 mmHg, or fluid balance >10\% body weight
+}}
+\end{center}
+
+%==============================================================
+\section{重要臨床試驗摘要}
+%==============================================================
+
+\begin{longtable}{p{3cm}p{4cm}p{7cm}}
+\toprule
+\textbf{Trial} & \textbf{比較} & \textbf{主要發現} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Trial} & \textbf{比較} & \textbf{主要發現} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+AKIKI (2016) & Early vs Delayed RRT & Delayed 可避免 49\% RRT，存活率無差異 \\
+\midrule
+IDEAL-ICU (2018) & Early vs Delayed RRT in sepsis & 無存活差異，early futility stop \\
+\midrule
+STARRT-AKI (2020) & Accelerated vs Standard & 無存活差異，accelerated 有更多 dialysis dependence \\
+\midrule
+ELAIN (2016) & Early vs Delayed & 唯一顯示 early 優勢的試驗，但多數病人有 volume overload \\
+\midrule
+AKIKI-2 (2021) & Delayed vs More delayed & More delayed 無額外好處，可能有害 \\
+\midrule
+BICAR-ICU (2018) & Sodium bicarbonate for metabolic acidosis & AKI + pH ≤7.20：bicarb 可降低死亡率及 RRT 需求 \\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{結論與建議}
+%==============================================================
+
+\subsection{When to Initiate RRT}
+
+\begin{enumerate}
+    \item \textcolor{red}{\textbf{無緊急適應症}}：採取 watchful waiting + RRT deferral 策略
+    \item \textcolor{red}{\textbf{存活率}}：RRT 啟動時機可能與存活率無關，但 delayed 可讓部分病人避免 RRT
+    \item \textcolor{red}{\textbf{不應過度延遲}}：Unresolving AKI（persistent oliguria 或 BUN >112 mg/dL）不應等待超過 Stage 3 AKI 發生後 72 小時
+\end{enumerate}
+
+\subsection{How to Initiate RRT}
+
+\begin{enumerate}
+    \item \textcolor{blue}{\textbf{Modality 選擇}}：根據血流動力學狀態決定
+    \begin{itemize}
+        \item 使用 inotropes/vasopressors 或嚴重 volume overload → CRRT
+        \item Less severe disease (SOFA <10) → IHD 可能是安全替代
+    \end{itemize}
+    \item \textcolor{blue}{\textbf{CRRT 劑量}}：20-25 mL/kg/h
+    \item \textcolor{blue}{\textbf{Anticoagulation}}：Regional citrate 優於 heparin
+\end{enumerate}
+
+%==============================================================
+\section{縮寫對照表}
+%==============================================================
+
+\begin{longtable}{p{3cm}p{11cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+AKI & Acute Kidney Injury (急性腎損傷) \\
+RRT & Renal Replacement Therapy (腎臟替代療法) \\
+KDIGO & Kidney Disease: Improving Global Outcomes \\
+CRRT & Continuous Renal Replacement Therapy (連續性腎臟替代療法) \\
+IHD & Intermittent Hemodialysis (間歇性血液透析) \\
+CKD & Chronic Kidney Disease (慢性腎臟病) \\
+BUN & Blood Urea Nitrogen (血中尿素氮) \\
+SOFA & Sequential Organ Failure Assessment \\
+MOF & Multiorgan Failure (多重器官衰竭) \\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{參考文獻}
+%==============================================================
+
+\begin{enumerate}
+    \item Barbar SD, Wald R, Quenot JP. Acute kidney injury: when and how to start renal replacement therapy. \href{https://doi.org/10.1007/s00134-025-07933-x}{\textit{Intensive Care Med}. 2025;51:1172-1175.}
+
+    \item Gaudry S, Hajage D, Schortgen F, et al. Initiation strategies for renal-replacement therapy in the intensive care unit (AKIKI). \href{https://doi.org/10.1056/NEJMoa1603017}{\textit{N Engl J Med}. 2016;375:122-133.}
+
+    \item Barbar SD, Clere-Jehl R, Bourredjem A, et al. Timing of renal-replacement therapy in patients with acute kidney injury and sepsis (IDEAL-ICU). \href{https://doi.org/10.1056/NEJMoa1803213}{\textit{N Engl J Med}. 2018;379:1431-1442.}
+
+    \item STARRT-AKI Investigators. Timing of initiation of renal-replacement therapy in acute kidney injury. \href{https://doi.org/10.1056/NEJMoa1914579}{\textit{N Engl J Med}. 2020;383:240-251.}
+
+    \item Jaber S, Paugam C, Futier E, et al. Sodium bicarbonate therapy for patients with severe metabolic acidaemia in the intensive care unit (BICAR-ICU). \href{https://doi.org/10.1016/S0140-6736(18)31080-8}{\textit{Lancet}. 2018;392:31-40.}
+\end{enumerate}
+
+\end{document}

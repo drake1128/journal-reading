@@ -1,0 +1,385 @@
+\documentclass[12pt,a4paper]{article}
+\input{Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Intensive Care Medicine 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{Broad-Spectrum Antibiotics}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Intensive Care Medicine Editorial}}\\[0.5cm]
+{\Large\textbf{When Should I Start Broad-Spectrum Antibiotics?}}\\[0.3cm]
+{\large 何時應該開始使用廣效抗生素？}\\[0.5cm]
+{\normalsize Intensive Care Med 2024;50:1908-1911. DOI: 10.1007/s00134-024-07654-7}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\keyfinding{
+\textbf{核心訊息：}Early targeted therapy 基於培養及/或分子檢測結果，可能是最佳的廣效抗生素使用策略。不必要的廣效抗生素與較差預後相關。
+
+\textbf{臨床建議：}
+\begin{itemize}
+    \item \textbf{MDRO 風險評估：}根據地理、臨床、微生物風險因子分層
+    \item \textbf{快速診斷工具：}利用分子檢測輔助決策，注意 NPV 及 PPV
+    \item \textbf{De-escalation：}臨床改善及培養結果出來後，應在 24-72 小時內進行抗生素合理化及降階
+\end{itemize}
+}
+
+\tableofcontents
+\newpage
+
+%==============================================================
+\section{文獻概述}
+%==============================================================
+
+本篇為 Intensive Care Medicine 的 Editorial，由法國 Bichat Hospital 的 Timsit 等人撰寫，討論重症病人廣效抗生素使用時機的決策考量。
+
+\subsection{作者資訊}
+\textbf{通訊作者：}Jean-François Timsit, MD\\
+\textbf{機構：}Medical and Infectious Diseases ICU (MI2), AP-HP, Bichat Hospital, Paris, France; Université Paris-Cité, IAME, INSERM, Paris, France
+
+%==============================================================
+\section{背景}
+%==============================================================
+
+\subsection{廣效抗生素的定位}
+
+\begin{itemize}
+    \item 常被視為治療嚴重或危及生命感染的「magic bullets」
+    \item 目的：在培養結果出來前，涵蓋 Gram-positive、Gram-negative 及 resistant pathogens
+    \item 在缺乏快速診斷工具的環境中被視為救命藥物
+\end{itemize}
+
+\subsection{ICU 中的使用問題}
+
+\begin{itemize}
+    \item 緊急治療重症病人的需求常導致 \textbf{overuse}
+    \item Inadequate therapy 的延遲與較高 morbidity 及 mortality 相關
+    \item 但不加選擇地使用廣效抗生素顯著促進了 \textbf{antimicrobial resistance (AMR)} 的發展
+\end{itemize}
+
+%==============================================================
+\section{廣效抗生素的潛在益處}
+%==============================================================
+
+\note{
+\textbf{使用廣效抗生素的適當情境：}
+\begin{itemize}
+    \item Sepsis 及嚴重感染（如 ventilated hospital-acquired pneumonia, vHAP）
+    \item 高 MDRO 風險且有 shock（容錯空間較小）
+    \item 快速 de-escalation 配合培養結果可減少 antibiotic selection pressure
+\end{itemize}
+}
+
+\subsection{需使用廣效抗生素進行 Targeted Therapy 的情況}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{感染/病原體} & \textbf{建議抗生素} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{感染/病原體} & \textbf{建議抗生素} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+3rd-generation cephalosporin-resistant Enterobacterales bacteremia & Meropenem \\
+\midrule
+Carbapenem-resistant Enterobacterales severe infections & Ceftazidime-avibactam\newline Meropenem-vaborbactam \\
+\midrule
+Carbapenem-resistant \textit{Pseudomonas aeruginosa} vHAP & Ceftolozane-tazobactam \\
+\midrule
+Community-acquired CNS infections & Ceftriaxone（優於 amoxicillin）\\
+\midrule
+Nosocomial CNS infections & Meropenem（優於 piperacillin-tazobactam）\\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{廣效抗生素的負面影響}
+%==============================================================
+
+\subsection{AMR 以外的危害}
+
+\begin{itemize}
+    \item 增加照護成本
+    \item 藥物毒性
+    \item \textit{Clostridioides difficile} colitis
+    \item Acute kidney injury
+\end{itemize}
+
+\subsection{Webb et al. 研究：Community-Acquired Pneumonia}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{項目} & \textbf{發現} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{項目} & \textbf{發現} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{研究對象} & 1,995 位 community-acquired pneumonia 病人 \\
+\midrule
+\textbf{廣效抗生素使用率} & 39.7\% \\
+\midrule
+\textbf{MDRO 感染率} & 僅 3\% \\
+\midrule
+\textbf{結果} & 廣效抗生素與 \textbf{increased mortality} 相關\newline
+17.5\% 死亡者有 antibiotic-associated adverse events \\
+\bottomrule
+\end{longtable}
+
+\subsection{Rhee et al. 研究：Community-Acquired Sepsis}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{項目} & \textbf{發現} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{項目} & \textbf{發現} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{研究對象} & 15,183 位有細菌學記錄的 community-acquired sepsis 成人 \\
+\midrule
+\textbf{Appropriate antibiotics} & 81.6\% \\
+\midrule
+\textbf{MDRO 感染比例} & <30\% \\
+\midrule
+\textbf{不必要的廣效抗生素} & 67.8\%（涵蓋 MRSA、VRE、ceftriaxone-resistant GNB，但均未分離出）\\
+\midrule
+\textbf{Hospital death OR} & \textbf{1.27 (1.06-1.4)} 相較於 appropriate broad-spectrum \\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{MDRO 風險因子評估}
+%==============================================================
+
+\subsection{風險分層}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{風險類型} & \textbf{風險因子} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{風險類型} & \textbf{風險因子} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{地理風險} &
+• MDR endemic 地區（+）\newline
+• 近期至 MDR endemic region 旅行（+）\newline
+• 近期在 MDR endemic region 醫療暴露（++）\\
+\midrule
+\textbf{臨床風險} &
+• 過去 6 個月住院 >2 天（+）\newline
+• 目前住院 >5 天（++）\newline
+• 抗生素暴露（+）\newline
+• >1 種抗生素暴露（++）\newline
+• Invasive devices（++）\newline
+• Dependency ADL（+）\\
+\midrule
+\textbf{微生物風險} & 曾被 MDR pathogen colonization/infection（++）\\
+\midrule
+\textbf{不良預後風險} &
+• Septic shock, ARDS（+）\newline
+• Neutropenia（+）\newline
+• Other immunosuppression（+）\\
+\bottomrule
+\end{longtable}
+
+\subsection{風險分層與抗生素選擇}
+
+\note{
+\textbf{決策原則：}
+\begin{itemize}
+    \item \textbf{0 MDR risk factors → Low MDR risk：}Narrow spectrum，針對 core pathogens
+    \item \textbf{1 MDR risk factor → Intermediate MDR risk：}考慮 MDR pathogen coverage，利用 early diagnostics NPV
+    \item \textbf{≥2 MDR risk factors → High MDR risk：}Broad spectrum，針對 core pathogens 及 MDR pathogens，利用 NPV 及 PPV
+\end{itemize}
+}
+
+%==============================================================
+\section{快速診斷工具的角色}
+%==============================================================
+
+\subsection{應用時機}
+
+\begin{itemize}
+    \item 風險因子評估後（preanalytical phase）
+    \item 在適當檢體上進行快速診斷可以：
+    \begin{itemize}
+        \item 精準化 targeted therapy
+        \item 避免不必要的廣效抗生素
+    \end{itemize}
+    \item 可在數小時內獲得結果：urinary、respiratory、digestive、neurologic infections
+\end{itemize}
+
+\subsection{Pretest Probability 與檢測結果解讀}
+
+\begin{longtable}{p{4cm}p{5cm}p{5cm}}
+\toprule
+\textbf{Pretest Probability} & \textbf{陰性結果} & \textbf{陽性結果} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Pretest Probability} & \textbf{陰性結果} & \textbf{陽性結果} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Low} & Very high NPV → 可排除 MDRO & PPV 可能不足以接受為真陽性 \\
+\midrule
+\textbf{High} & NPV 可能不足以排除 MDRO & 應涵蓋 MDRO \\
+\midrule
+\textbf{有 Shock 或快速惡化} & NPV 可能不足以使用 narrow spectrum & 應涵蓋 MDRO \\
+\bottomrule
+\end{longtable}
+
+\subsection{Multiplex PCR 的限制}
+
+\begin{itemize}
+    \item 範例：在 ICU 嚴重肺炎中，若 OXA-48 Enterobacterales 風險為 0.2\%
+    \item Multiplex PCR 不會漏診，但會在 \textbf{37.5\% 的案例中過度診斷}
+    \item Syndromic mPCR panels 的多重目標應謹慎解讀 pretest probabilities
+\end{itemize}
+
+%==============================================================
+\section{抗生素 De-Escalation}
+%==============================================================
+
+\note{
+\textbf{De-Escalation 時機：}
+\begin{itemize}
+    \item 臨床狀態改善
+    \item 治療前採集的培養結果出來
+    \item 應在 \textbf{24-72 小時內}進行 antimicrobial rationalization 及 de-escalation
+\end{itemize}
+}
+
+%==============================================================
+\section{決策考量因素}
+%==============================================================
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{考量因素} & \textbf{說明} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{考量因素} & \textbf{說明} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{Guidelines} & 熟悉國家及機構指引 \\
+\midrule
+\textbf{Infection Source} & 根據感染來源識別常見病原體 \\
+\midrule
+\textbf{Prior MDRO Carriage} & 過去的 MDRO colonization 或感染史 \\
+\midrule
+\textbf{Prior Antimicrobial Exposure} & 先前的抗生素使用史 \\
+\midrule
+\textbf{Local Epidemiology} & 了解國家、醫院、ICU 的 MDRO epidemiology 及 resistance patterns \\
+\midrule
+\textbf{Clinical Severity} & 根據病人臨床嚴重程度個人化決策 \\
+\midrule
+\textbf{Cost-Benefit Ratio} & 評估每種策略的預估 cost-benefit ratio \\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{Take-Home Message}
+%==============================================================
+
+\begin{enumerate}
+    \item \textcolor{red}{\textbf{最佳策略：}}Early targeted therapy 基於培養及/或分子檢測結果，可能是最佳的廣效抗生素使用策略
+    \item \textcolor{red}{\textbf{風險評估：}}徹底了解 guidelines、根據感染來源識別常見病原體、評估 MDRO carriage 及 antimicrobial exposure 史、了解 local epidemiology
+    \item \textcolor{red}{\textbf{快速診斷：}}利用微生物實驗室及快速診斷工具，可減少經驗性廣效抗生素使用或允許快速 de-escalation
+    \item \textcolor{red}{\textbf{Stewardship Team：}}建議由 multidisciplinary antibiotic stewardship team 協助此過程
+\end{enumerate}
+
+%==============================================================
+\section{縮寫對照表}
+%==============================================================
+
+\begin{longtable}{p{3cm}p{11cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+AMR & Antimicrobial Resistance (抗微生物藥物抗藥性) \\
+MDRO & Multidrug-Resistant Organism (多重抗藥性病原體) \\
+vHAP & Ventilated Hospital-Acquired Pneumonia \\
+MRSA & Methicillin-Resistant \textit{Staphylococcus aureus} \\
+VRE & Vancomycin-Resistant Enterococci \\
+GNB & Gram-Negative Bacteria \\
+CNS & Central Nervous System \\
+NPV & Negative Predictive Value \\
+PPV & Positive Predictive Value \\
+mPCR & Multiplex Polymerase Chain Reaction \\
+ADL & Activities of Daily Living \\
+ARDS & Acute Respiratory Distress Syndrome \\
+ESBL & Extended-Spectrum Beta-Lactamase \\
+\bottomrule
+\end{longtable}
+
+%==============================================================
+\section{參考文獻}
+%==============================================================
+
+\begin{enumerate}
+    \item Timsit JF, Depuydt P, Kanj SS. When should I start broad-spectrum antibiotics? \href{https://doi.org/10.1007/s00134-024-07654-7}{\textit{Intensive Care Med}. 2024;50:1908-1911.}
+
+    \item Rhee C, Kadri SS, Dekker JP, et al. Prevalence of antibiotic-resistant pathogens in culture-proven sepsis and outcomes associated with inadequate and broad-spectrum empiric antibiotic use. \href{https://doi.org/10.1001/jamanetworkopen.2020.2899}{\textit{JAMA Netw Open}. 2020;3:e202899.}
+
+    \item Webb BJ, Sorensen J, Jephson A, et al. Broad-spectrum antibiotic use and poor outcomes in community-onset pneumonia: a cohort study. \href{https://doi.org/10.1183/13993003.00057-2019}{\textit{Eur Respir J}. 2019;54:1900057.}
+
+    \item Timsit JF, Bassetti M, Cremer O, et al. Rationalizing antimicrobial therapy in the ICU: a narrative review. \href{https://doi.org/10.1007/s00134-018-5382-9}{\textit{Intensive Care Med}. 2019;45:172-189.}
+
+    \item Zakhour J, Haddad SF, Kerbage A, et al. Diagnostic stewardship in infectious diseases: a continuum of antimicrobial stewardship in the fight against antimicrobial resistance. \href{https://doi.org/10.1016/j.ijantimicag.2023.106816}{\textit{Int J Antimicrob Agents}. 2023;62:106816.}
+\end{enumerate}
+
+\end{document}

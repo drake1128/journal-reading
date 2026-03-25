@@ -1,0 +1,363 @@
+% Advanced Materials Carotid Artery Chip 3D Printing 2026 教學講義
+% 基於 Drake_preamble.tex 模板
+
+\documentclass[12pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% 自訂頁首
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Advanced Materials 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{Patient-Specific Carotid Artery-on-Chip}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% 標題頁
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Advanced Materials}}\\[0.5cm]
+{\Large\textbf{Rapid Glass-Substrate Digital Light 3D Printing Enables Anatomically Accurate Stroke Patient-Specific Carotid Artery-on-Chips for Personalized Thrombosis Investigation}}\\[0.3cm]
+{\large 快速玻璃基板數位光處理 3D 列印技術：建立解剖精確的中風病患專屬頸動脈晶片用於個人化血栓研究}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1002/adma.202508890}{Adv. Mater. 2026;38:e08890. DOI: 10.1002/adma.202508890}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\tableofcontents
+\newpage
+
+%============================================================
+\section{研究背景與動機}
+%============================================================
+
+\subsection{臨床問題：為何「低風險」狹窄患者仍會中風？}
+
+\begin{itemize}
+    \item 目前臨床指引以頸動脈狹窄程度作為中風風險評估主要依據
+    \item 狹窄 $<70\%$ 被歸類為「低風險」，通常不建議介入治療
+    \item \textbf{臨床困境}：部分「低風險」患者仍發生缺血性中風
+    \item 顯示單純測量狹窄程度無法完整預測血栓風險
+\end{itemize}
+
+\keyfinding{
+\textbf{Virchow's Triad (血栓形成三要素)}：
+\begin{enumerate}
+    \item 血流改變 (Altered blood flow)
+    \item 內皮損傷 (Endothelial damage)
+    \item 血液高凝狀態 (Hypercoagulability)
+\end{enumerate}
+現有 CTA 影像僅能提供解剖學快照，無法動態評估這三要素的交互作用。
+}
+
+\subsection{現有技術限制}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{技術限制} & \textbf{說明} \\
+\midrule
+\endhead
+傳統微流體設計 & 使用簡化的管道幾何形狀，無法捕捉病患血管的複雜解剖特徵 \\
+\midrule
+自動 3D 重建 & 常無法準確呈現潰瘍 (ulceration) 或複雜狹窄等關鍵細節 \\
+\midrule
+傳統 3D 列印 & 最小列印特徵 $\geq 100\ \mu m$，製造時間長 ($>10$ 小時) \\
+\midrule
+體外血栓模型 & 缺乏病患專屬的解剖結構與血流動力學環境 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{技術創新：超快速微製造平台}
+%============================================================
+
+\subsection{核心技術：Glass-Substrate DLP 3D Printing}
+
+\begin{itemize}
+    \item \textbf{DLP (Digital Light Processing)}：數位光處理立體光刻技術
+    \item 使用 BMF S240 高精度 3D 印表機
+    \item 創新改良：以處理過的玻璃載玻片作為列印基材
+\end{itemize}
+
+\note{
+\textbf{製造效率大幅提升}：
+\begin{itemize}
+    \item 製造時間：從 $>10$ 小時縮短至 $<2$ 小時
+    \item 成功率：約 100\%
+    \item 層厚度：5 $\mu m$ (遠優於傳統 100 $\mu m$)
+\end{itemize}
+}
+
+\subsection{玻璃載玻片表面處理流程}
+
+\begin{enumerate}
+    \item 異丙醇超音波震盪清洗 5 分鐘
+    \item 壓縮空氣吹乾後，Milli-Q 水超音波震盪 5 分鐘
+    \item 浸泡於 Toluene + TMSPM (90/10 w/w) 溶液 2 小時
+    \item 純乙醇沖洗後，氮氣吹乾
+\end{enumerate}
+
+\subsection{製造流程概述}
+
+\begin{center}
+\fbox{\parbox{14cm}{
+\centering
+\textbf{病患專屬頸動脈晶片製造流程}\\[0.3cm]
+\textcolor{emergency_blue}{CTA 影像擷取} $\rightarrow$
+\textcolor{emergency_blue}{3D 重建與優化} $\rightarrow$
+\textcolor{orange}{縮小至微流體尺度}\\[0.2cm]
+$\downarrow$\\[0.2cm]
+\textcolor{emergency_red}{DLP 3D 列印模具} $\rightarrow$
+\textcolor{emergency_red}{PDMS 翻模} $\rightarrow$
+\textcolor{emergency_red}{機械夾具組裝}\\[0.2cm]
+$\downarrow$\\[0.2cm]
+\textbf{內皮化} $\rightarrow$ \textbf{血液灌流實驗} $\rightarrow$ \textbf{即時血栓觀察}
+}}
+\end{center}
+
+\subsection{機械夾具系統創新}
+
+\begin{itemize}
+    \item 上半部：Formlabs Rigid 4k 樹脂
+    \item 下半部：Formlabs Rigid 10k 樹脂
+    \item 雙材料設計可防止操作與實驗過程中的滲漏與分離
+    \item 組裝後以 80\% ethanol 滅菌
+\end{itemize}
+
+%============================================================
+\section{病患資料與臨床特徵}
+%============================================================
+
+\begin{longtable}{p{2.5cm}p{2cm}p{4cm}p{5.5cm}}
+\toprule
+\textbf{病患編號} & \textbf{年齡} & \textbf{臨床表現} & \textbf{CTA 發現} \\
+\midrule
+\endhead
+Patient \#1-H & 67 歲 & 急性左側大腦半球中風\newline(TIA 後 2 個月) & 左側 C1 段纖維鈣化斑塊\newline約 70\% 狹窄 \\
+\midrule
+Patient \#2-G & 71 歲 & 右側大腦半球症狀\newline(顏面不對稱、吞嚥困難等) & 右側 C1 段約 10\% 狹窄\newline無鈣化或潰瘍 \\
+\midrule
+Patient \#3-B & 78 歲 & 急性右側大腦半球中風 & 右側 C1 段纖維鈣化斑塊\newline伴潰瘍，約 40\% 狹窄 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{計算流體力學 (CFD) 驗證}
+%============================================================
+
+\subsection{血流動力學縮放原理}
+
+\begin{itemize}
+    \item 將 CTA 血管縮小至 CCA 管徑 200--300 $\mu m$
+    \item 人類頸動脈 Reynolds number $\approx 200$，屬層流 (laminar flow)
+    \item 允許安全縮小至微流體尺度而不顯著改變整體流動模式
+\end{itemize}
+
+\note{
+\textbf{關鍵參數：Wall Shear Rate (壁面剪切率)}
+\begin{itemize}
+    \item 健康頸動脈：$\approx 400\ s^{-1}$
+    \item 病理狀態 (狹窄區)：$>1000\ s^{-1}$
+    \item CFD 分析確認微流體尺度與 CTA 尺度的剪切率無統計學顯著差異 ($p > 0.05$)
+\end{itemize}
+}
+
+\subsection{各病患最佳流速設定}
+
+\begin{longtable}{p{4cm}p{4cm}p{6cm}}
+\toprule
+\textbf{病患} & \textbf{最佳流速} & \textbf{對應生理條件} \\
+\midrule
+\endhead
+Patient \#1-H & 127 $\mu L/min$ & 模擬體內血流動力學 \\
+\midrule
+Patient \#2-G, \#3-B & 51 $\mu L/min$ & 配合不同血管幾何結構 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{內皮化與生物功能化}
+%============================================================
+
+\subsection{內皮細胞培養流程}
+
+\begin{enumerate}
+    \item 晶片以 80\% ethanol 滅菌
+    \item Fibronectin 100 $\mu g/mL$ 包覆 1 小時 (37°C)
+    \item 注入 HUVEC 懸浮液 ($5 \times 10^6$ cells/mL)
+    \item 翻轉培養技術：15--20 分鐘後翻轉晶片，確保管腔全面內皮化
+    \item 隔夜培養形成 confluent 單層
+\end{enumerate}
+
+\subsection{發炎刺激模型}
+
+\begin{itemize}
+    \item TNF-$\alpha$ 20 ng/mL 刺激 4 小時
+    \item 結果：
+    \begin{itemize}
+        \item ICAM-1 表現增加 \textbf{59.9 倍}
+        \item E-selectin 表現增加 \textbf{36.0 倍}
+    \end{itemize}
+    \item 驗證模型具有生理相關性，可研究血管發炎與血栓關係
+\end{itemize}
+
+%============================================================
+\section{血栓實驗結果}
+%============================================================
+
+\subsection{全面性血栓 (Global Thrombosis) 模型}
+
+\begin{itemize}
+    \item 使用 citrated 人血加入 10 mM CaCl$_2$ 重新鈣化
+    \item 37°C 下以 $\gamma_0 = 830\ s^{-1}$ 灌流 10 分鐘
+    \item 觀察時間依賴性的血小板與 fibrin 沉積
+    \item 血栓主要形成於頸動脈分叉處
+\end{itemize}
+
+\keyfinding{
+\textbf{Fibrin 沉積量與狹窄程度的關係}：
+\begin{center}
+\#1-H diseased (70\% 狹窄) $>$ \#2-G (10\% 狹窄) $>$ \#1-H healthy (0\% 狹窄)
+\end{center}
+證實晶片能準確反映狹窄-血栓關係。
+}
+
+\subsection{抗血栓藥物測試}
+
+\begin{longtable}{p{3cm}p{3.5cm}p{7.5cm}}
+\toprule
+\textbf{藥物類別} & \textbf{藥物名稱} & \textbf{效果} \\
+\midrule
+\endhead
+\multirow{3}{*}{抗凝血劑} & Clexane (5 U/mL) & \textbf{最有效}：同時減少血小板聚集與 fibrin 形成 \\
+& Rivaroxaban (500 nM) & 主要抑制 fibrin 形成 \\
+& Apixaban (500 nM) & 主要抑制 fibrin 形成 \\
+\midrule
+\multirow{5}{*}{抗血小板藥物} & Tirofiban (330 ng/mL) & 有效阻斷血小板聚集與 fibrin \\
+& PGE1 (1 $\mu g$/mL) & 有效阻斷血小板聚集與 fibrin \\
+& PGI2 (1 $\mu g$/mL) & 有效阻斷血小板聚集與 fibrin \\
+& Indomethacin (10 $\mu M$) & 中度減少血小板聚集 \\
+& MRS2179 (100 $\mu M$) & 中度減少血小板聚集 \\
+\bottomrule
+\end{longtable}
+
+\subsection{局部血栓 (Localized Thrombosis) 模型}
+
+\subsubsection{雷射消融誘導內皮損傷}
+
+\begin{itemize}
+    \item 使用 RAPP UGA-42 Caliburn 雷射消融模組
+    \item 波長 355 nm，輸出功率 70\%
+    \item 根據病患 CTA/DSA 影像定位潰瘍部位
+    \item 控制損傷範圍：約 5--7 個內皮細胞脫落
+    \item 模擬斑塊破裂 (plaque rupture) 後的血栓形成
+\end{itemize}
+
+\subsubsection{剪切力依賴的血小板轉位}
+
+\note{
+\textbf{關鍵發現}：
+\begin{itemize}
+    \item 高剪切區 ($>1000\ s^{-1}$) 的血小板轉位 (translocation) 事件
+    \item 比低剪切區 ($<1000\ s^{-1}$) 高出 \textbf{7--10 倍}
+    \item 中位數：高剪切區 $\approx 9$ 次 vs 低剪切區 $\approx 1$ 次
+    \item 這解釋了血栓栓塞 (thromboembolism) 的機制
+\end{itemize}
+}
+
+%============================================================
+\section{掃描電子顯微鏡 (SEM) 分析}
+%============================================================
+
+\begin{itemize}
+    \item 確認晶片內形成的血栓具有體內血栓的關鍵結構特徵
+    \item 觀察到 \textbf{Polyhedrocytes}：多面體紅血球
+    \begin{itemize}
+        \item 在血栓結構內被壓縮的紅血球
+        \item 是成熟血栓的特徵性表現
+    \end{itemize}
+    \item 可見血小板與 fibrin 形成的複雜網絡結構
+\end{itemize}
+
+%============================================================
+\section{臨床意義與應用}
+%============================================================
+
+\subsection{解答臨床困惑}
+
+\begin{itemize}
+    \item 為何部分「低風險」狹窄患者仍發生中風？
+    \item 本研究顯示：即使狹窄程度低於介入治療閾值
+    \begin{itemize}
+        \item 局部血流動力學異常區域可能具有顯著血栓風險
+        \item 內皮損傷部位在高剪切力環境下易形成不穩定血栓
+        \item 血栓轉位導致栓塞性中風
+    \end{itemize}
+\end{itemize}
+
+\subsection{潛在臨床應用}
+
+\begin{enumerate}
+    \item \textbf{個人化血栓風險評估}：根據病患專屬血管幾何建立晶片
+    \item \textbf{抗血栓藥物篩選}：測試不同藥物對個別患者的效果
+    \item \textbf{術前規劃}：評估介入治療的必要性
+    \item \textbf{血管裝置開發}：測試支架等裝置的血栓生成風險
+\end{enumerate}
+
+%============================================================
+\section{研究限制}
+%============================================================
+
+\begin{itemize}
+    \item 目前僅針對頸動脈，可能無法代表其他血管床的血栓過程
+    \item 模型僅包含內皮細胞與血小板，尚未納入：
+    \begin{itemize}
+        \item 平滑肌細胞 (Smooth muscle cells)
+        \item 白血球 (Leukocytes)
+        \item 其他血管壁組成
+    \end{itemize}
+    \item 無法同時保留 Reynolds number、Womersley number 與 wall shear rate
+    \item 脈動流與慣性力效應在微尺度無法完全捕捉
+    \item 流速條件基於文獻平均值，可進一步整合病患專屬流速測量
+\end{itemize}
+
+%============================================================
+\section{結論}
+%============================================================
+
+\begin{importantbox}
+\textbf{本研究重要貢獻}：
+\begin{enumerate}
+    \item 開發超快速 ($<2$ 小時) 病患專屬頸動脈晶片製造平台
+    \item 成功保留 CTA 影像中的複雜解剖特徵 (狹窄、分叉、潰瘍)
+    \item CFD 驗證微流體與體內血流動力學相似性
+    \item 建立全面性與局部性血栓模型
+    \item 證實剪切力依賴的血小板轉位機制
+    \item 提供個人化抗血栓藥物測試平台
+\end{enumerate}
+\end{importantbox}
+
+\vspace{0.5cm}
+\begin{center}
+\textit{此平台為研究工具與臨床決策輔助，而非獨立診斷或治療規劃工具。}
+\end{center}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Zhao YC, Wang Z, Nasser A, et al. Rapid Glass-Substrate Digital Light 3D Printing Enables Anatomically Accurate Stroke Patient-Specific Carotid Artery-on-Chips for Personalized Thrombosis Investigation. \href{https://doi.org/10.1002/adma.202508890}{\textit{Adv. Mater.} 2026;38:e08890.}
+
+    \item Saba L, Saam T, Jäger HR, et al. Carotid artery wall imaging: perspective and guidelines from the ASNR vessel wall imaging study group and expert consensus recommendations of the American Society of Neuroradiology. \href{https://doi.org/10.1016/S1474-4422(19)30036-9}{\textit{Lancet Neurol.} 2019;18:559-573.}
+
+    \item Jackson SP, Nesbitt WS, Westein E. Dynamics of platelet thrombus formation. \href{https://doi.org/10.1111/j.1538-7836.2009.03401.x}{\textit{J Thromb Haemost.} 2009;7 Suppl 1:17-20.}
+
+    \item Chen Y, Ju LA. Biomechanical thrombosis: the dark side of force and dawn of mechano-medicine. \href{https://doi.org/10.1136/svn-2020-000302}{\textit{Stroke Vasc Neurol.} 2020;5:185-197.}
+
+    \item Zhao YC, Zhang Y, Jiang F, et al. Piezo1 mechanosensing in red blood cells and its implications for mechano-sensitive thrombosis. \href{https://doi.org/10.1002/adhm.202201830}{\textit{Adv. Healthcare Mater.} 2023;12:2201830.}
+\end{enumerate}
+
+\end{document}

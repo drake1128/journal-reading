@@ -1,0 +1,334 @@
+% ECG Reading Guide for Nurses - 護理心電圖判讀教學海報
+% 作者: 謝慕揚, MD, PhD, FESC
+% 資料來源: The Visual Nurse (@thevisualnurse)
+\documentclass[12pt,a4paper]{article}
+\input{Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{心電圖判讀教學}}
+\fancyhead[R]{\textcolor{emergency_blue}{ECG Reading Guide}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+% Title Page
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{護理心電圖判讀教學指南}}\\[0.3cm]
+{\Large\textbf{How to Read an ECG - Single Lead Telemetry}}\\[0.5cm]
+{\large 病房護理人員快速參考手冊}\\[0.3cm]
+{\normalsize 資料來源：The Visual Nurse (@thevisualnurse)}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{importantbox}
+\textbf{心電圖判讀八步驟口訣：R-P-Q-STaT}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{R} $\times 2$：Rate (心率) \& Rhythm (節律)
+    \item \textbf{P} $\times 2$：P waves (P波) \& PR interval (PR間期)
+    \item \textbf{Q} $\times 2$：QRS complex (QRS波群) \& QT interval (QT間期)
+    \item \textbf{STaT}：ST segment (ST段) \& T waves (T波)
+\end{itemize}
+\end{importantbox}
+
+%============================================================
+\section{第一部分：心電圖基礎概念 (ECG Basics)}
+%============================================================
+
+\begin{center}
+\includegraphics[width=\textwidth]{2026-01-11/ECG_01_Overview.png}
+\end{center}
+
+\subsection{心臟週期 (Cardiac Cycle)}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{階段} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{階段} & \textbf{說明} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+心房去極化\newline (Atrial depolarization) & 產生 P 波，代表心房收縮前的電位變化 \\
+\midrule
+心室去極化\newline (Ventricular depolarization) & 產生 QRS 波群，代表心室收縮前的電位變化 \\
+\midrule
+心室再極化\newline (Ventricular repolarization) & 產生 T 波，代表心室恢復極化狀態 \\
+\bottomrule
+\end{longtable}
+
+\subsection{心臟傳導系統 (Cardiac Conduction System)}
+
+\begin{longtable}{p{1cm}p{4cm}p{9cm}}
+\toprule
+\textbf{順序} & \textbf{結構} & \textbf{功能} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{順序} & \textbf{結構} & \textbf{功能} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+1 & SA node\newline (竇房結) & 心臟的天然節律器，固有頻率 60-100 bpm \\
+\midrule
+2 & AV node\newline (房室結) & 延遲傳導，讓心房完成收縮後心室再收縮\newline 固有頻率 40-60 bpm \\
+\midrule
+3 & Bundle of His\newline (希氏束) & 傳導電位至心室 \\
+\midrule
+4 & Bundle branches\newline (束支) & 左右束支分別傳導至左右心室 \\
+\midrule
+5 & Purkinje fibers\newline (乏乾乏氏纖維) & 快速傳導至心室肌細胞\newline 固有頻率 20-40 bpm \\
+\bottomrule
+\end{longtable}
+
+\subsection{正常數值記憶口訣}
+
+\note{
+\begin{center}
+\textbf{0.12 to 0.20 (PR interval)} + \textbf{$<$0.12 (QRS)} = \textbf{$<$0.44 (QT interval)}
+\end{center}
+所有數值單位皆為「秒」(seconds)
+}
+
+\subsection{正常竇性心律特徵 (Normal Sinus Rhythm)}
+\begin{itemize}[leftmargin=*]
+    \item 每個 QRS 前有一個直立的 P 波 (One upright P wave per QRS)
+    \item 所有 P 波外觀相似 (All P waves similar in appearance)
+    \item PR interval 介於 0.12-0.20 秒
+    \item 心率介於 60-100 bpm
+\end{itemize}
+
+\newpage
+%============================================================
+\section{第二部分：心率與節律分析 (Rate \& Rhythm Analysis)}
+%============================================================
+
+\begin{center}
+\includegraphics[width=\textwidth]{2026-01-11/ECG_02_Rate_Rhythm_Pwaves.png}
+\end{center}
+
+\subsection{步驟 1：心率計算 (Heart Rate Calculation)}
+
+\subsubsection{方法一：六秒法 (6-Second Method)}
+\begin{itemize}[leftmargin=*]
+    \item 數 6 秒內（30 大格）的 R 波數量
+    \item R 波數量 $\times$ 10 = 每分鐘心率 (HR in BPM)
+    \item \textbf{適用於}：不規則心律
+\end{itemize}
+
+\subsubsection{方法二：小格法 (Small Box Method)}
+\begin{itemize}[leftmargin=*]
+    \item 數兩個 R 波之間的小格數（每小格 = 0.04 秒）
+    \item 1500 $\div$ 小格數 = 每分鐘心率
+    \item \textbf{適用於}：規則心律
+\end{itemize}
+
+\subsubsection{方法三：大格法 (Big Box Method)}
+\begin{itemize}[leftmargin=*]
+    \item 找一個落在粗線上的 R 波
+    \item 從該 R 波開始，數下一個 R 波經過幾條粗線
+    \item 口訣：\textbf{300, 150, 100, 75, 60, 50}
+    \item \textbf{適用於}：規則心律，快速估算
+\end{itemize}
+
+\subsection{步驟 2：節律規則性 (Rhythm Regularity)}
+
+\keyfinding{
+問自己：「P 波和 QRS 波群是否規律地排列？」\\
+(Do the P waves and QRS complexes march out routinely?)
+}
+
+\begin{longtable}{p{6.5cm}p{7cm}}
+\toprule
+\textbf{規則心室反應}\newline (Regular ventricular response) & \textbf{不規則心室反應}\newline (Irregular ventricular response) \\
+\midrule
+\endfirsthead
+R-R 間距相等 & R-R 間距不等 \\
+可見於：Sinus rhythm, SVT, VT & 可見於：AF, MAT, Sinus arrhythmia \\
+\bottomrule
+\end{longtable}
+
+\subsection{步驟 3：P 波分析 (P Wave Analysis)}
+
+\begin{longtable}{p{4cm}p{4.5cm}p{5cm}}
+\toprule
+\textbf{類型} & \textbf{特徵} & \textbf{臨床意義} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{類型} & \textbf{特徵} & \textbf{臨床意義} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Sinus rhythm\newline (竇性心律) & P 波直立且外觀相似\newline (Upright \& similar) & 正常傳導 \\
+\midrule
+Wandering atrial pacemaker\newline (游走性心房節律器) & P 波外觀交替變化\newline (Alternating appearance) & 心房內多個起搏點 \\
+\midrule
+Atrial fibrillation\newline (心房顫動) & 無明顯 P 波\newline (None present) & 心房不規則顫動，\newline 需注意中風風險 \\
+\bottomrule
+\end{longtable}
+
+\newpage
+%============================================================
+\section{第三部分：間期與波段分析 (Intervals \& Segments)}
+%============================================================
+
+\begin{center}
+\includegraphics[width=\textwidth]{2026-01-11/ECG_03_PR_QRS_QT_ST_Twaves.png}
+\end{center}
+
+\subsection{步驟 4：PR Interval (PR 間期)}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{數值} & \textbf{臨床意義} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+正常：0.12-0.20 秒 & 正常房室傳導 \\
+\midrule
+$<$0.12 秒\newline + 倒置 P 波 & 可能為 Junctional rhythm (交界性心律)\newline 電位由房室結逆向傳導 \\
+\midrule
+$>$0.20 秒 & 可能為 AV block (房室傳導阻滯)\newline 或 AV delay (房室傳導延遲) \\
+\bottomrule
+\end{longtable}
+
+\subsection{步驟 5：QRS Complex (QRS 波群)}
+
+\begin{longtable}{p{5cm}p{8.5cm}}
+\toprule
+\textbf{QRS 寬度} & \textbf{臨床意義} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+Narrow (窄) $<$0.12 秒 & 電位起源於心室以上 (Supraventricular origin)\newline 正常傳導路徑 \\
+\midrule
+Wide (寬) $>$0.12 秒 & 電位可能起源於心室 (Ventricular origin)\newline 或傳導異常 (Bundle branch block) \\
+\bottomrule
+\end{longtable}
+
+\subsection{步驟 6：QT Interval (QT 間期)}
+
+\note{
+\textbf{正常值}：$<$0.44 秒，或小於 R-R interval 的一半\\
+\textbf{測量方法}：從 QRS 起始到 T 波結束\\
+\textbf{臨床重要性}：QT 延長會增加 Torsades de Pointes (TdP) 風險
+}
+
+\subsection{步驟 7：ST Segment (ST 段)}
+
+評估 ST 段相對於等電位基線 (isoelectric baseline) 的偏移：
+
+\begin{longtable}{p{4cm}p{5cm}p{4.5cm}}
+\toprule
+\textbf{變化} & \textbf{定義} & \textbf{可能原因} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+ST elevation\newline (ST 上升) & ST 段高於基線 & \textcolor{emergency_red}{\textbf{STEMI}}、Pericarditis、\newline Early repolarization \\
+\midrule
+ST depression\newline (ST 下降) & ST 段低於基線 & Ischemia、NSTEMI、\newline Digoxin effect \\
+\bottomrule
+\end{longtable}
+
+\subsection{步驟 8：T Wave (T 波)}
+
+\begin{longtable}{p{3cm}p{5cm}p{5.5cm}}
+\toprule
+\textbf{型態} & \textbf{外觀} & \textbf{可能原因} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+Normal (正常) & 直立、圓滑 & 正常再極化 \\
+\midrule
+Peaked (尖峰) & 高聳、尖銳 & \textcolor{emergency_red}{Hyperkalemia (高血鉀)} \\
+\midrule
+Inverted (倒置) & 向下 & Ischemia、MI、\newline Ventricular hypertrophy \\
+\midrule
+Biphasic (雙相) & 先上後下或先下後上 & Ischemia、Hypokalemia \\
+\bottomrule
+\end{longtable}
+
+\newpage
+%============================================================
+\section{第四部分：心率參考值與練習單 (Reference \& Practice)}
+%============================================================
+
+\begin{center}
+\includegraphics[width=\textwidth]{2026-01-11/ECG_04_Practice_Worksheet.png}
+\end{center}
+
+\subsection{各類心律固有頻率 (Intrinsic Rates)}
+
+\begin{longtable}{p{4cm}p{3cm}p{3cm}p{3cm}}
+\toprule
+\textbf{起源} & \textbf{Bradycardia} & \textbf{Intrinsic Rate} & \textbf{Tachycardia} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+\textbf{Sinus}\newline (竇房結) & $<$60 bpm & 60-100 bpm & $>$100 bpm \\
+\midrule
+\textbf{Junctional}\newline (交界性) & $<$40 bpm & 40-60 bpm & $>$100 bpm \\
+\midrule
+\textbf{Ventricular}\newline (心室) & -- & 20-40 bpm & 50-100 bpm (accelerated)\newline $>$100 bpm (VT) \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{SVT (Supraventricular tachycardia)}：依據發作機轉分類，心率通常 $>$150 bpm
+}
+
+\subsection{心律判讀練習清單}
+
+每次判讀心電圖時，請依序回答以下問題：
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Atrial Rate (心房率)}：\_\_\_\_\_\_ bpm \quad \textbf{Ventricular Rate (心室率)}：\_\_\_\_\_\_ bpm
+    \item \textbf{Rhythm}：Atrial - Regular / Irregular \quad Ventricular - Regular / Irregular
+    \item \textbf{P Waves}：Present? \_\_\_\_ \quad Appearance? \_\_\_\_\_\_
+    \item \textbf{PR Interval}：\_\_\_\_\_\_ 秒 （正常 0.12-0.20 秒）
+    \item \textbf{QRS}：\_\_\_\_\_\_ 秒 （正常 $<$0.12 秒）
+    \item \textbf{QT Interval}：\_\_\_\_\_\_ 秒 （正常 $<$0.44 秒或 $<$1/2 R-R）
+    \item \textbf{ST Segment}：Okay / Elevated / Depressed
+    \item \textbf{T Waves}：Normal / Peaked / Inverted / Biphasic
+\end{enumerate}
+
+\begin{center}
+\fbox{\textbf{Rhythm Interpretation (心律判讀結論)}：\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}
+\end{center}
+
+\vspace{1cm}
+
+\begin{importantbox}
+\textbf{緊急處置提醒}
+\begin{itemize}[leftmargin=*]
+    \item \textcolor{emergency_red}{\textbf{VF/Pulseless VT}}：立即 CPR + Defibrillation
+    \item \textcolor{emergency_red}{\textbf{Asystole/PEA}}：立即 CPR + Epinephrine
+    \item \textcolor{emergency_red}{\textbf{Unstable tachycardia}}：Synchronized cardioversion
+    \item \textcolor{emergency_red}{\textbf{Symptomatic bradycardia}}：Atropine / Transcutaneous pacing
+    \item \textcolor{emergency_red}{\textbf{STEMI}}：立即通知醫師，準備緊急心導管
+\end{itemize}
+\end{importantbox}
+
+\vfill
+\begin{center}
+\textcolor{emergency_gray}{\small 本教材僅供教學參考，臨床判斷請依據完整病史與醫師指示}\\
+\textcolor{emergency_gray}{\small 原始圖片來源：The Visual Nurse (@thevisualnurse) - www.thevisualnurse.com}
+\end{center}
+
+\end{document}

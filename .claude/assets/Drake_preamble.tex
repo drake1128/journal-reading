@@ -1,0 +1,132 @@
+% Drake_preamble.tex - LaTeX Preamble Template
+% 作者: 謝慕揚, MD, PhD, FESC
+% 
+% 使用說明:
+% 1. 表格請使用 longtable，不要有垂直分隔線 |
+% 2. 表格內換行使用 \newline，不要使用 \\
+% 3. 藥物名稱、檢驗、檢查請維持英文
+% 4. Reference 格式請使用 \href 加上驗證過的 DOI
+
+% Including essential packages for Chinese typesetting
+\usepackage{xeCJK}
+\usepackage{fontspec}
+% Configuring Chinese font with Noto Serif CJK TC, fallback to SimSun
+\IfFontExistsTF{Noto Serif CJK TC}{
+  \setCJKmainfont{Noto Serif CJK TC}
+  \setCJKsansfont{Noto Serif CJK TC}
+  \setCJKmonofont{Noto Serif CJK TC}
+}{\setCJKmainfont{SimSun}
+  \setCJKsansfont{SimSun}
+  \setCJKmonofont{SimSun}
+}
+
+% Including other necessary packages
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{datetime2}
+\usepackage{hyperref}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=emergency_blue,
+    citecolor=emergency_blue,
+    urlcolor=emergency_blue,
+    pdfborder={0 0 0}
+}
+
+% Defining page geometry
+\geometry{
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2cm,
+  right=2cm,
+  headheight=25pt
+}
+
+% Adjusting topmargin to compensate for increased headheight
+\addtolength{\topmargin}{-10pt}
+
+% Defining colors
+\definecolor{emergency_red}{RGB}{186,24,27}
+\definecolor{emergency_blue}{RGB}{0,114,188}
+\definecolor{emergency_gray}{RGB}{120,120,120}
+\definecolor{highlight_yellow}{RGB}{255,250,205}
+
+% Setting title formats
+\titleformat{\section}[block]{\Large\bfseries\color{emergency_red}}{\thesection}{10pt}{}
+\titleformat{\subsection}[block]{\large\bfseries\color{emergency_blue}}{\thesubsection}{8pt}{}
+\titleformat{\subsubsection}[block]{\normalsize\bfseries\color{emergency_gray}}{\thesubsubsection}{6pt}{}
+
+% Defining custom environment for important notes
+\newmdenv[
+    linecolor=emergency_red,
+    backgroundcolor=highlight_yellow,
+    linewidth=2pt,
+    topline=true,
+    bottomline=true,
+    leftline=true,
+    rightline=true,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    innerleftmargin=10pt,
+    innerrightmargin=10pt
+]{importantbox}
+
+% Defining note command with tcolorbox
+\newcommand{\note}[1]{
+    \par
+    \noindent
+    \begin{tcolorbox}[
+        colback=emergency_blue!5!white,
+        colframe=emergency_blue,
+        title=\textbf{重點提醒},
+        fonttitle=\bfseries,
+        boxrule=0.5pt,
+        arc=3pt,
+        left=6pt,
+        right=6pt,
+        top=6pt,
+        bottom=6pt
+    ]
+    #1
+    \end{tcolorbox}
+}
+
+% Key findings box
+\newcommand{\keyfinding}[1]{
+    \par
+    \noindent
+    \begin{tcolorbox}[
+        colback=yellow!10!white,
+        colframe=orange!75!black,
+        title=\textbf{核心發現摘要},
+        fonttitle=\bfseries,
+        boxrule=0.5pt,
+        arc=3pt
+    ]
+    #1
+    \end{tcolorbox}
+}
+
+% Defining custom date format for ISO 8601
+\DTMnewdatestyle{iso}{
+  \renewcommand{\DTMdisplaydate}[4]{\number##1-\number##2-\number##3}
+  \renewcommand{\DTMDisplaydate}[4]{\number##1-\number##2-\number##3}
+}
+\DTMsetdatestyle{iso}
+\newcommand{\mydate}{\DTMtoday}

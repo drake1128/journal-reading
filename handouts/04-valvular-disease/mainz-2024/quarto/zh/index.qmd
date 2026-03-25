@@ -1,0 +1,15 @@
+---
+title: "經導管心臟瓣膜治療技術"
+subtitle: "新竹臺大分院心血管中心 出國進修計畫成果報告"
+author: "謝慕揚醫師, Drake, Mu-Yang Hsieh, MD, PhD"
+date: 2024-12-24
+lang: zh-TW
+---
+
+## 目錄
+
+1. [出國進修計畫成果報告書](ch1-report.qmd) — 目的、過程、心得、建議
+2. [附錄 — TEER](ch2-teer.qmd) — 二尖瓣與三尖瓣經導管緣對緣修復
+3. [附錄 — TAVI in AS](ch3-tavi-as.qmd) — 經導管主動脈瓣膜植入術（主動脈狹窄）
+4. [附錄 — TAVI in AR](ch4-tavi-ar.qmd) — 經導管主動脈瓣膜植入術（主動脈逆流）
+5. [致謝](ch5-acknowledgements.qmd)

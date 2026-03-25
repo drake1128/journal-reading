@@ -1,0 +1,359 @@
+\documentclass[12pt,a4paper]{article}
+
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{NEJM AI 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{AI in Medical Education}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{NEJM AI}}\\[0.3cm]
+{\Large\textcolor{emergency_blue}{Case Study}}\\[0.5cm]
+{\Large\textbf{Assessment of Short-Answer Questions by ChatGPT in a Medical School Course}}\\[0.3cm]
+{\large 使用 ChatGPT 評量醫學院課程簡答題}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1056/AIcs2500239}{NEJM AI 2026;3(2). DOI: 10.1056/AIcs2500239}}\\[0.3cm]
+{\normalsize 作者：Kuling G, Pullman S, Vasilev D, et al. (Harvard Medical School)}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+\section{研究背景 (Background)}
+%============================================================
+
+\subsection{教育學原理}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{頻繁的低風險測驗 (Frequent low-stakes testing)} 是促進學習的有力工具
+    \item \textbf{簡答題 (Short-answer questions)} 能促進批判性思考 (critical thinking)
+    \item 然而，簡答題在形成性評量 (formative testing) 中\textbf{使用不足}
+    \item 原因：需要\textbf{耗時的人工評分}
+\end{itemize}
+
+\subsection{研究目的}
+
+\begin{importantbox}
+\textbf{主要目標：}比較 AI (GPT-4o) 與人類評分者對醫學生開放式簡答題的評分一致性。
+
+\textbf{核心問題：}AI 能否減輕簡答題評分的負擔，同時維持評分品質？
+\end{importantbox}
+
+%============================================================
+\section{研究方法 (Methods)}
+%============================================================
+
+\subsection{研究設計}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{項目} & \textbf{說明} \\
+\midrule
+\endfirsthead
+研究類型 & Retrospective case study \\
+\midrule
+AI 模型 & GPT-4o (Generative Pretrained Transformer 4o) \\
+\midrule
+研究對象 & 169 位 Harvard Medical School 一年級醫學生 \\
+\midrule
+課程 & 2023-2024 學年 Foundations course \\
+\midrule
+人類評分者 & 10 位受過訓練的評分者 \\
+\bottomrule
+\end{longtable}
+
+\subsection{評分標準}
+
+學生答案依據兩個獨立標準進行評分：
+
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Factual accuracy（事實正確性）}：答案內容是否正確
+    \item \textbf{Completeness（完整性）}：答案是否涵蓋所有重要面向
+\end{enumerate}
+
+\subsection{資料集設計}
+
+\begin{longtable}{p{4cm}p{5cm}p{5cm}}
+\toprule
+\textbf{資料集} & \textbf{Multi-grader Set} & \textbf{Single-grader Set} \\
+\midrule
+\endfirsthead
+樣本數 & n = 822 responses & n = 8,964 responses \\
+\midrule
+評分方式 & 10 位人類評分者獨立評分\textbf{相同}答案 & 每個答案由\textbf{一位}人類評分者評分 \\
+\midrule
+用途 & Prompt 優化與教學原則校準 & 模擬真實世界條件進行模型評估 \\
+\bottomrule
+\end{longtable}
+
+\subsection{Prompt Engineering 策略}
+
+\note{
+GPT prompts 經過\textbf{反覆優化 (iteratively refined)}，以達成：
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Semantic fairness（語意公平性）}：避免因用詞不同而影響評分
+    \item \textbf{Pedagogical alignment（教學原則一致性）}：符合教育學評量標準
+    \item \textbf{Linguistic flexibility（語言彈性）}：容許學生不同的表達方式
+\end{itemize}
+}
+
+\subsection{統計分析}
+
+\textbf{Quadratic-weighted Cohen's Kappa：}
+\begin{itemize}[leftmargin=2em]
+    \item 用於衡量 AI 與人類評分的一致性程度
+    \item 考慮評分差異的大小（差異越大，懲罰越重）
+    \item Kappa 值解讀：
+    \begin{itemize}
+        \item < 0.20：Poor agreement
+        \item 0.21-0.40：Fair agreement
+        \item 0.41-0.60：Moderate agreement
+        \item 0.61-0.80：Substantial agreement
+        \item 0.81-1.00：Almost perfect agreement
+    \end{itemize}
+\end{itemize}
+
+%============================================================
+\section{研究結果 (Results)}
+%============================================================
+
+\subsection{Multi-grader Dataset 結果}
+
+\begin{center}
+\begin{tabular}{p{5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{評分標準} & \textbf{Quadratic-weighted Kappa} & \textbf{一致性程度} \\
+\midrule
+Factual accuracy & $0.443 \pm 0.127$ & Moderate \\
+\midrule
+Completeness & $0.429 \pm 0.145$ & Moderate \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\keyfinding{
+\textbf{重要發現：}94\% 的 GPT 生成的 factual accuracy 評分落在人類評分者評分範圍內。
+
+這表示 GPT 的評分變異性與人類評分者之間的變異性相當。
+}
+
+\subsection{Single-grader Dataset 結果}
+
+\begin{center}
+\begin{tabular}{p{5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{評分標準} & \textbf{Adjusted Kappa}$^*$ & \textbf{一致性程度} \\
+\midrule
+Factual accuracy & 0.741 & Substantial \\
+\midrule
+Completeness & 0.655 & Substantial \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+{\small $^*$Adjusted for rater variability using an attenuation factor}
+
+\begin{importantbox}
+\textbf{臨床意義：}超過 \textbf{85\%} 的 GPT 評分與人類評分者的分數差距在 \textbf{1 分以內}。
+
+在實際應用情境中，GPT-4o 與人類評分者達到 \textbf{substantial agreement}。
+\end{importantbox}
+
+\subsection{結果視覺化比較}
+
+\begin{center}
+\begin{tabular}{p{4cm}p{4cm}p{4cm}}
+\toprule
+ & \textbf{Factual Accuracy} & \textbf{Completeness} \\
+\midrule
+Multi-grader Kappa & 0.443 (Moderate) & 0.429 (Moderate) \\
+\midrule
+Single-grader Kappa & 0.741 (Substantial) & 0.655 (Substantial) \\
+\midrule
+GPT 分數在人類範圍內 & 94\% & -- \\
+\midrule
+GPT 與人類差距 $\leq$1 分 & >85\% & >85\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%============================================================
+\section{討論 (Discussion)}
+%============================================================
+
+\subsection{為何 Single-grader Kappa 較高？}
+
+\begin{itemize}[leftmargin=2em]
+    \item Multi-grader dataset 反映了\textbf{人類評分者之間的變異性}
+    \item 即使是受過訓練的人類評分者，對同一答案的評分也存在差異
+    \item Single-grader dataset 使用 \textbf{attenuation factor} 校正評分者變異性
+    \item 校正後的 kappa 值更能反映 GPT 與「理想人類評分」的一致性
+\end{itemize}
+
+\subsection{Prompt Engineering 的重要性}
+
+本研究強調了 \textbf{iterative prompt engineering} 的關鍵角色：
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{原則} & \textbf{實踐方式} \\
+\midrule
+\endfirsthead
+Pedagogical principles & 將教育學評量原則融入 prompt 設計 \\
+\midrule
+Semantic fairness & 確保不同用詞但意義相同的答案獲得相同評分 \\
+\midrule
+Linguistic flexibility & 容許學生使用不同的專業術語或表達方式 \\
+\midrule
+Iterative refinement & 根據 multi-grader dataset 的回饋不斷優化 prompt \\
+\bottomrule
+\end{longtable}
+
+\subsection{研究限制}
+
+\begin{itemize}[leftmargin=2em]
+    \item 單一機構研究（Harvard Medical School）
+    \item 僅評估一門基礎課程
+    \item 未評估長篇申論題或臨床推理題
+    \item AI 評分的長期教育效果尚待研究
+\end{itemize}
+
+%============================================================
+\section{臨床與教育應用}
+%============================================================
+
+\subsection{潛在應用場景}
+
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{形成性評量 (Formative Assessment)}
+    \begin{itemize}
+        \item 提供即時回饋給學生
+        \item 增加低風險測驗的頻率
+        \item 減輕教師評分負擔
+    \end{itemize}
+
+    \item \textbf{大規模開放式線上課程 (MOOCs)}
+    \begin{itemize}
+        \item 使簡答題在大規模教育中變得可行
+        \item 提供個人化學習回饋
+    \end{itemize}
+
+    \item \textbf{自我評量工具}
+    \begin{itemize}
+        \item 學生可使用 AI 進行自我練習
+        \item 獲得即時的正確性與完整性回饋
+    \end{itemize}
+\end{enumerate}
+
+\subsection{實施建議}
+
+\note{
+\textbf{使用 AI 評分系統的建議：}
+\begin{enumerate}[leftmargin=2em]
+    \item 進行機構特定的 prompt 優化與驗證
+    \item 建立人類監督機制（特別是高風險評量）
+    \item 定期校準 AI 與人類評分的一致性
+    \item 向學生說明 AI 評分的角色與限制
+    \item 保留人類複審的管道
+\end{enumerate}
+}
+
+%============================================================
+\section{Key Points 重點整理}
+%============================================================
+
+\begin{importantbox}
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{研究目的：}評估 GPT-4o 評分醫學生簡答題與人類評分者的一致性
+
+    \item \textbf{評分標準：}Factual accuracy（事實正確性）與 Completeness（完整性）
+
+    \item \textbf{主要發現：}
+    \begin{itemize}
+        \item Multi-grader dataset：Kappa 約 0.43-0.44（moderate agreement）
+        \item Single-grader dataset：Kappa 0.66-0.74（substantial agreement）
+        \item 94\% GPT 評分落在人類評分範圍內
+        \item >85\% GPT 評分與人類差距 $\leq$1 分
+    \end{itemize}
+
+    \item \textbf{成功關鍵：}Iterative prompt engineering 結合教學原則與語言彈性
+
+    \item \textbf{應用價值：}AI 評分系統有潛力減輕簡答題評分負擔，使此類題型更廣泛應用於醫學教育
+
+    \item \textbf{注意事項：}目前達到 moderate-to-substantial agreement，高風險評量仍需人類監督
+\end{enumerate}
+\end{importantbox}
+
+%============================================================
+\section{延伸思考}
+%============================================================
+
+\subsection{AI 在醫學教育的未來角色}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{個人化學習路徑：}根據學生答題表現，AI 可識別知識缺口並推薦學習資源
+    \item \textbf{即時回饋系統：}學生可在練習時獲得立即的評分與解釋
+    \item \textbf{教師時間重新分配：}減少機械性評分工作，讓教師專注於高價值教學互動
+    \item \textbf{評量多樣化：}使過去因評分困難而避免的題型重新成為選項
+\end{itemize}
+
+\subsection{倫理考量}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{透明度：}學生是否應被告知其答案由 AI 評分？
+    \item \textbf{公平性：}AI 評分是否對特定背景學生存在偏見？
+    \item \textbf{隱私：}學生答案資料如何被處理與保護？
+    \item \textbf{問責：}當 AI 評分有誤時，誰負責？
+\end{itemize}
+
+%============================================================
+\section{Cohen's Kappa 補充說明}
+%============================================================
+
+\subsection{什麼是 Cohen's Kappa？}
+
+Cohen's Kappa ($\kappa$) 是衡量兩位評分者一致性的統計指標，校正了隨機一致的機率。
+
+\textbf{公式：}
+$$\kappa = \frac{P_o - P_e}{1 - P_e}$$
+
+其中：
+\begin{itemize}[leftmargin=2em]
+    \item $P_o$ = 觀察到的一致比例 (observed agreement)
+    \item $P_e$ = 隨機預期的一致比例 (expected agreement by chance)
+\end{itemize}
+
+\subsection{Quadratic-weighted Kappa}
+
+\begin{itemize}[leftmargin=2em]
+    \item 適用於有順序性的評分量表（如 1-5 分）
+    \item 評分差距越大，懲罰越重（二次方權重）
+    \item 比 linear-weighted kappa 對大差距更敏感
+    \item 適合評估「差多少」比「對不對」更重要的情境
+\end{itemize}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Kuling G, Pullman S, Vasilev D, et al. Assessment of Short-Answer Questions by ChatGPT in a Medical School Course. \href{https://doi.org/10.1056/AIcs2500239}{\textit{NEJM AI}. 2026;3(2).}
+
+    \item Roediger HL, Karpicke JD. Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention. \textit{Psychol Sci}. 2006;17(3):249-255.
+
+    \item McHugh ML. Interrater Reliability: The Kappa Statistic. \textit{Biochem Med (Zagreb)}. 2012;22(3):276-282.
+
+    \item Kung TH, Cheatham M, Medenilla A, et al. Performance of ChatGPT on USMLE: Potential for AI-Assisted Medical Education Using Large Language Models. \textit{PLOS Digit Health}. 2023;2(2):e0000198.
+\end{enumerate}
+
+\end{document}

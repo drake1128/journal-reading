@@ -1,0 +1,14 @@
+---
+title: "心律不整 — Arrhythmia"
+---
+
+## 教學講義 Handouts
+
+- [CLOSURE-AF 心房顫動左心耳封堵術 教學講義.md](CLOSURE-AF 心房顫動左心耳封堵術 教學講義.md)
+
+## LaTeX Files
+
+- EHJ STAR Study PSGB Electrical Storm 2024 教學講義.tex
+- European Heart Journal BEAT PAROX-AF PFA vs RFA 2025 Afib EP.tex
+- JACC EQUAL Trial Smartwatch AF 2026 教學講義.tex
+- NEJM OCEAN Trial AF Ablation Anticoagulation 2026.tex

@@ -1,0 +1,184 @@
+% European Heart Journal HNMT Heart Failure 2026 教學講義
+% Histamine N-methyltransferase 與心衰竭
+\documentclass[12pt,a4paper]{article}
+\input{../../.claude/assets/Drake_preamble.tex}
+\usetikzlibrary{positioning}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{European Heart Journal 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{HNMT 與心衰竭}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{European Heart Journal}}\\[0.5cm]
+{\Large\textbf{Histamine N-methyltransferase Upregulation,\\Cardiac Hypertrophy, and Heart Failure}}\\[0.3cm]
+{\large Histamine N-methyltransferase 上調、心臟肥大與心衰竭}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1093/eurheartj/ehaf1065}{Eur Heart J 2026. DOI: 10.1093/eurheartj/ehaf1065}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+\keyfinding{
+\textbf{核心發現：}
+\begin{itemize}[noitemsep]
+    \item HNMT（Histamine N-methyltransferase）在心衰竭患者心臟組織中表現上升
+    \item HNMT 透過 SAM/EZH2/FZD2/CaMKII 軸促進心臟肥大與心衰竭
+    \item Amodiaquine（HNMT 抑制劑）具有治療心衰竭的潛力
+    \item 尿液 N-methylhistamine 可作為非侵入性心衰竭生物標記
+\end{itemize}
+}
+
+%============================================================
+\section{研究背景}
+%============================================================
+
+\begin{itemize}
+    \item Histamine 訊號傳遞在心衰竭中扮演重要角色
+    \item \textbf{HNMT}（Histamine N-methyltransferase）是心臟中清除 histamine 的主要酵素
+    \item HNMT 在心衰竭中的角色尚未明確
+    \item 本研究探討 HNMT 介導的代謝-表觀遺傳交互作用在心衰竭中的機轉
+\end{itemize}
+
+%============================================================
+\section{研究方法}
+%============================================================
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{方法} & \textbf{內容} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+動物模型 & • 心肌細胞特異性 Hnmt 基因剔除小鼠\newline • Hnmt 過度表現小鼠 \\
+\midrule
+心衰竭誘導 & Transverse aortic constriction（TAC）\\
+\midrule
+分子分析 & • RNA sequencing\newline • 標靶代謝體學 \\
+\midrule
+臨床驗證 & 53 位心衰竭患者 vs 55 位對照組\newline 測量尿液 N-methylhistamine 濃度 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{主要發現}
+%============================================================
+
+\subsection{HNMT 在心衰竭中上調}
+
+\begin{itemize}
+    \item 心衰竭患者心臟組織：HNMT 表現 $\uparrow$
+    \item TAC 手術小鼠心臟：HNMT 表現 $\uparrow$
+    \item Phenylephrine 處理的新生小鼠心肌細胞：HNMT 表現 $\uparrow$
+    \item 心衰竭患者尿液 N-methylhistamine $\uparrow$，且與心衰竭嚴重度正相關
+\end{itemize}
+
+\subsection{HNMT 基因操作的效果}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{操作} & \textbf{結果} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+心肌細胞特異性 Hnmt 剔除 & 減輕 TAC 或 Angiotensin II 誘導的心臟肥大與心衰竭 \\
+\midrule
+Hnmt 過度表現 & 損害心臟功能 \\
+\midrule
+Amodiaquine（HNMT 抑制劑） & 改善 TAC 誘導的心臟功能障礙 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{分子機轉}
+%============================================================
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=0.6cm,
+    box/.style={rectangle, draw=emergency_blue, fill=emergency_blue!10,
+                text width=3.5cm, minimum height=0.8cm, align=center,
+                rounded corners, font=\small},
+    arrow/.style={->, thick, >=stealth}
+]
+    \node[box, fill=emergency_red!20, draw=emergency_red] (hnmt) {HNMT $\uparrow$};
+    \node[box, below=of hnmt] (sam) {SAM $\downarrow$};
+    \node[box, below=of sam] (ezh2) {EZH2 功能受損};
+    \node[box, below=of ezh2] (h3k27) {H3K27me3 $\downarrow$\\（Fzd2 啟動子）};
+    \node[box, below=of h3k27] (fzd2) {FZD2 $\uparrow$};
+    \node[box, below=of fzd2] (wnt) {WNT/Ca\textsuperscript{2+}/CaMKII\\pathway 活化};
+    \node[box, below=of wnt, fill=emergency_red!20, draw=emergency_red] (hf) {心臟肥大 / 心衰竭};
+
+    \draw[arrow] (hnmt) -- (sam);
+    \draw[arrow] (sam) -- (ezh2);
+    \draw[arrow] (ezh2) -- (h3k27);
+    \draw[arrow] (h3k27) -- (fzd2);
+    \draw[arrow] (fzd2) -- (wnt);
+    \draw[arrow] (wnt) -- (hf);
+\end{tikzpicture}
+\end{center}
+
+\subsection{機轉說明}
+
+\begin{enumerate}
+    \item \textbf{HNMT 上調}：心衰竭時 HNMT 表現增加
+    \item \textbf{SAM 減少}：HNMT 消耗 S-adenosylmethionine（SAM）作為甲基供體
+    \item \textbf{EZH2 功能受損}：SAM 是 EZH2（enhancer of zeste homologue 2）的輔因子
+    \item \textbf{H3K27me3 降低}：EZH2 功能下降導致 Fzd2 啟動子的 H3K27me3 修飾減少
+    \item \textbf{FZD2 上調}：表觀遺傳抑制解除，FZD2（Frizzled-2）表現上升
+    \item \textbf{CaMKII 活化}：FZD2 活化 WNT/calcium/CaMKII 訊號路徑
+    \item \textbf{心衰竭}：CaMKII 過度活化促進病理性心臟肥大與心衰竭
+\end{enumerate}
+
+%============================================================
+\section{臨床意義}
+%============================================================
+
+\begin{importantbox}
+\textbf{治療標靶：}
+\begin{itemize}[noitemsep]
+    \item \textbf{Amodiaquine}：已知的 HNMT 抑制劑，原為抗瘧疾藥物
+    \item 動物實驗顯示可改善 TAC 誘導的心臟功能障礙
+    \item 可能成為心衰竭的新治療策略
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{生物標記：}
+\begin{itemize}[noitemsep]
+    \item 尿液 N-methylhistamine 可作為非侵入性心衰竭生物標記
+    \item 濃度與心衰竭嚴重度正相關
+    \item 優點：非侵入性、易於收集
+\end{itemize}
+\end{importantbox}
+
+%============================================================
+\section{結論}
+%============================================================
+
+\begin{enumerate}
+    \item HNMT 透過 SAM/FZD2/CaMKII 軸加劇病理性心臟肥大與心衰竭
+    \item Amodiaquine（HNMT 抑制劑）展現治療心衰竭的潛力
+    \item 尿液 N-methylhistamine 可作為非侵入性心衰竭生物標記
+\end{enumerate}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Zhang J, et al. Histamine N-methyltransferase upregulation, cardiac hypertrophy, and heart failure. \href{https://doi.org/10.1093/eurheartj/ehaf1065}{\textit{Eur Heart J}. 2026. DOI: 10.1093/eurheartj/ehaf1065}
+\end{enumerate}
+
+\end{document}

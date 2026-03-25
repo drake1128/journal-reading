@@ -1,0 +1,285 @@
+% !TEX program = xelatex
+\documentclass[aspectratio=169,12pt]{beamer}
+
+% ===== Beamer Theme =====
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% ===== Chinese Font Support =====
+\usepackage{xeCJK}
+\setCJKmainfont{Microsoft JhengHei}
+\setCJKsansfont{Microsoft JhengHei}
+\setCJKmonofont{Microsoft JhengHei}
+
+% ===== Packages =====
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{fontawesome5}
+
+% ===== Colors =====
+\definecolor{ntuhblue}{RGB}{0,51,102}
+\definecolor{ntuhred}{RGB}{153,0,0}
+\definecolor{ethicsgreen}{RGB}{0,102,51}
+\definecolor{warningorange}{RGB}{204,102,0}
+
+\setbeamercolor{title}{fg=ntuhblue}
+\setbeamercolor{frametitle}{fg=ntuhblue}
+\setbeamercolor{structure}{fg=ntuhblue}
+\setbeamercolor{block title}{bg=ntuhblue,fg=white}
+\setbeamercolor{block body}{bg=ntuhblue!10}
+\setbeamercolor{alerted text}{fg=ntuhred}
+
+% ===== Beamer Settings =====
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+\setbeamerfont{frametitle}{size=\large}
+
+% ===== Title Info =====
+\title[醫法倫討論]{醫學倫理法律討論會}
+\subtitle{主持人評論 Chair's Commentary}
+\author{謝慕揚 MD, PhD, FESC}
+\institute{國立臺灣大學醫學院附設醫院新竹臺大分院}
+\date{2026年1月16日}
+
+\begin{document}
+
+% ===== Title Slide =====
+\begin{frame}
+\titlepage
+\end{frame}
+
+% ===== Slide 2: Case Recap =====
+\begin{frame}{個案回顧 Case Recap}
+\textbf{79歲男性 — 關鍵時間線}
+
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\textcolor{ntuhred}{\textbf{急性期}}
+\begin{itemize}
+    \item 10/10: STEMI + cardiogenic shock
+    \item 緊急PCI（\alert{兩位醫師同意}）
+    \item 無身分、無健保、無家屬
+\end{itemize}
+
+\vspace{0.3cm}
+\textcolor{ethicsgreen}{\textbf{ICU病程}}
+\begin{itemize}
+    \item 10/14: TB PCR (+) → HERZ
+    \item 10/17: IABP removal
+    \item 10/29: Extubation 成功
+\end{itemize}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\textcolor{warningorange}{\textbf{倫理挑戰}}
+\begin{itemize}
+    \item 10/21: 社工失聯家屬
+    \item 10/27: 哥哥回電後拒接
+    \item 11/05: \alert{申訴醫療倫理委員會}
+\end{itemize}
+
+\vspace{0.3cm}
+\textcolor{ntuhblue}{\textbf{結果}}
+\begin{itemize}
+    \item 11/11: 出院 (MBD)
+    \item 總費用: \textbf{\$1,208,467}
+    \item 全數由社福資源補助
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+% ===== Slide 3: Four Ethical Dilemmas =====
+\begin{frame}{四大倫理困境 Four Ethical Dilemmas}
+
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{block}{1. 自主權 Autonomy}
+緊急同意權 — 誰能代為決定？\\
+\small{病人昏迷、家屬缺位時的醫療決策權}
+\end{block}
+
+\vspace{0.3cm}
+
+\begin{block}{2. 行善 Beneficence}
+積極治療 vs. 可能的無效醫療\\
+\small{病史不明時，治療強度如何拿捏？}
+\end{block}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\begin{block}{3. 不傷害 Non-maleficence}
+Time-Limited Trial 何時該停止？\\
+\small{避免過度醫療造成的痛苦}
+\end{block}
+
+\vspace{0.3cm}
+
+\begin{block}{4. 公平正義 Justice}
+無健保病人的資源分配\\
+\small{\$120萬 — 對其他納稅人公平嗎？}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.5cm}
+\centering
+\textit{「無知之幕」(Veil of Ignorance) — 若你不知道自己會是誰...}
+\end{frame}
+
+% ===== Slide 4: Commentary - Consent & DNR =====
+\begin{frame}{評論：緊急同意與DNR}
+
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\textcolor{ethicsgreen}{\faCheck\ \textbf{本案處置合理}}
+\begin{itemize}
+    \item \textbf{醫療法第60條}：危急病人不得拖延
+    \item 兩位醫師共同決定
+    \item 事後倫理委員會審查
+    \item 保留完整書面紀錄
+    \item 結果：病人成功脫離險境
+\end{itemize}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\textcolor{warningorange}{\faExclamationTriangle\ \textbf{值得深思的灰色地帶}}
+\begin{itemize}
+    \item 「\alert{失聯}」$\neq$「\alert{無親屬}」
+    \item 安寧條例第7條第3項適用時機
+    \item 「實質無代理人」認定標準
+    \item 違反第7條：罰鍰6-30萬或停業
+\end{itemize}
+
+\vspace{0.3cm}
+\textcolor{ntuhblue}{\small{\textbf{ATS/AGS建議}：盡職搜索 + 書面佐證 + 最大利益標準}}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+% ===== Slide 5: Commentary - TLT & Resources =====
+\begin{frame}{評論：限時嘗試治療與資源分配}
+
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\textcolor{ethicsgreen}{\textbf{Time-Limited Trial 成功案例}}
+\begin{itemize}
+    \item 初期病史不明 → 先積極治療
+    \item 設定明確觀察期限與目標
+    \item 動態評估，團隊共識
+    \item \textbf{病情改善} → 驗證TLT價值
+\end{itemize}
+
+\vspace{0.3cm}
+\textcolor{ntuhred}{\textbf{若持續惡化？}}
+\begin{itemize}
+    \item 無法「有意義互動」
+    \item 不再升級 (No escalation)
+    \item 考慮撤除維生裝置
+\end{itemize}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\textcolor{ntuhblue}{\textbf{資源分配的現實}}
+
+\begin{itemize}
+    \item \textbf{行善原則}：提供必要治療
+    \item \textbf{公平正義}：健保標準為參考
+    \item 提供「基本」而非「最好」？
+\end{itemize}
+
+\vspace{0.3cm}
+\textcolor{ethicsgreen}{\textbf{本案：多方資源成功介入}}
+\begin{itemize}
+    \item 台大社福基金：\$40萬
+    \item TB補助計畫：\$44萬
+    \item 社會局老人保護：\$36萬
+\end{itemize}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+% ===== Slide 6: Discussion Questions 1-3 =====
+\begin{frame}{討論問題 Discussion Questions (1/2)}
+
+\begin{alertblock}{Q1: 緊急同意機制}
+「兩位醫師共同決定」進行緊急手術是否足夠？\\
+是否需要建立更明確的\textbf{院內規範}或\textbf{事後審查機制}？
+\end{alertblock}
+
+\vspace{0.3cm}
+
+\begin{alertblock}{Q2: 代理人缺位認定}
+家屬「拒接電話」與「完全無親屬」在倫理與法律上有何不同？\\
+\textbf{多久}或\textbf{何種情況}可認定為「實質無代理人」？
+\end{alertblock}
+
+\vspace{0.3cm}
+
+\begin{alertblock}{Q3: TLT決策點}
+本案採用限時嘗試治療，若病人在ICU期間\textbf{持續惡化}，\\
+何時應該停止升級治療？判斷標準為何？
+\end{alertblock}
+
+\end{frame}
+
+% ===== Slide 7: Discussion Questions 4-5 =====
+\begin{frame}{討論問題 Discussion Questions (2/2)}
+
+\begin{alertblock}{Q4: 資源正義}
+面對無健保、可能產生\textbf{巨額呆帳}的病人，\\
+醫療團隊應提供「基本」還是「最好」的醫療？\\
+如何平衡\textbf{行善原則}與\textbf{公平正義}？
+\end{alertblock}
+
+\vspace{0.5cm}
+
+\begin{alertblock}{Q5: 系統改善}
+本案最終透過多方社福資源解決費用問題。\\
+作為醫療體系，我們可以建立什麼\textbf{機制}來更早期識別並處理\\
+類似「\textbf{無身分、無健保、無家屬}」的三無個案？
+\end{alertblock}
+
+\vspace{0.5cm}
+\centering
+\textcolor{ntuhblue}{\large{\textit{歡迎各位先進分享看法}}}
+
+\end{frame}
+
+% ===== Slide 8: Take-home Points =====
+\begin{frame}{結語 Take-home Points}
+
+\begin{enumerate}
+    \item \textbf{緊急情況}：生命優先，但需\alert{完整紀錄}與\alert{事後審查}
+
+    \vspace{0.3cm}
+
+    \item \textbf{代理人缺位}：盡職搜索 + 書面佐證 + 倫理委員會介入
+
+    \vspace{0.3cm}
+
+    \item \textbf{TLT原則}：設定期限、動態評估、團隊共識
+
+    \vspace{0.3cm}
+
+    \item \textbf{資源分配}：健保標準為基準，善用社福資源
+
+    \vspace{0.3cm}
+
+    \item \textbf{預防勝於治療}：建立早期識別機制
+\end{enumerate}
+
+\vspace{0.5cm}
+\centering
+\begin{block}{}
+\centering
+\textbf{感謝PGY1同學們的精彩報告}\\
+\small{陳弘益、張家斌、陳品卉、林鎧伊、黃瀚毅}
+\end{block}
+
+\end{frame}
+
+\end{document}

@@ -1,0 +1,612 @@
+\documentclass[12pt,a4paper]{article}
+
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{EuroIntervention 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{Intravascular Imaging}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{EuroIntervention State-of-the-Art Reviews}}\\[0.5cm]
+{\Large\textbf{Intravascular Imaging in Coronary Artery Disease:}}\\[0.2cm]
+{\Large\textbf{OCT-Guided PCI and Plaque Characterization}}\\[0.3cm]
+{\large 血管內造影在冠狀動脈疾病的應用：OCT 導引介入與斑塊特徵分析}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.4244/EIJ-D-23-00912}{EuroIntervention 2024;20:e1202-e1216} \& \href{https://doi.org/10.4244/EIJ-D-24-00387}{EuroIntervention 2025;21:e778-e795}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+\tableofcontents
+
+\newpage
+
+%============================================================
+\section{前言}
+%============================================================
+
+本講義整合兩篇 EuroIntervention 重要文獻，探討血管內造影 (intravascular imaging) 在冠狀動脈疾病的臨床應用：
+
+\begin{enumerate}
+    \item \textbf{Almajid 等人 (2024)}：OCT 導引經皮冠狀動脈介入治療的完整指引
+    \item \textbf{García-García 等人 (2025)}：冠狀動脈粥樣硬化斑塊造影的最新進展
+\end{enumerate}
+
+\note{血管內造影已從研究工具發展為臨床 PCI 的重要輔助技術。OCT 與 IVUS 各有其優勢，選擇應根據臨床情境、病灶特性與操作者經驗。}
+
+%============================================================
+\section{血管內造影技術概述}
+%============================================================
+
+\subsection{主要造影技術比較}
+
+\begin{longtable}{p{3cm}p{5.5cm}p{5.5cm}}
+\toprule
+\textbf{特性} & \textbf{IVUS} & \textbf{OCT} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{特性} & \textbf{IVUS} & \textbf{OCT} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+物理原理 & 超音波 (ultrasound)\newline 20-60 MHz & 近紅外光 (near-infrared light)\newline 1.3 $\mu$m 波長 \\
+
+軸向解析度 & 100-200 $\mu$m & 10-20 $\mu$m \\
+
+穿透深度 & 4-8 mm & 1-3 mm \\
+
+是否需清血 & 否 & 是（需 contrast flush） \\
+
+管腔邊界識別 & 較困難於鈣化病灶 & 優異 \\
+
+脂質斑塊辨識 & 中等 & 優異（可測量 fibrous cap） \\
+
+鈣化評估 & 可測量深度與角度 & 僅能測量表面弧度 \\
+
+支架評估 & 良好 & 優異（可見 strut 細節） \\
+
+臨床試驗證據 & ADAPT-DES, ULTIMATE & OCTOBER, ILUMIEN IV, OCTIVUS \\
+
+\end{longtable}
+
+\subsection{其他造影技術}
+
+\begin{itemize}
+    \item \textbf{NIRS (Near-Infrared Spectroscopy)}：偵測脂質核心斑塊 (lipid core plaque)，產生 chemogram，計算 maxLCBI$_{4mm}$ (4 mm 區段最大脂質核心負荷指數)
+    \item \textbf{CCTA (Coronary CT Angiography)}：非侵入性評估，可識別 low-attenuation plaque (LAP)、positive remodeling、spotty calcification、napkin-ring sign
+    \item \textbf{IVUS-NIRS 整合探頭}：同時提供結構與組成資訊
+\end{itemize}
+
+%============================================================
+\section{OCT 導引 PCI：技術要點}
+%============================================================
+
+\subsection{OCT 導引 PCI 的標準化流程}
+
+\keyfinding{OCT 導引 PCI 的三階段流程：\\
+\textbf{Pre-PCI}：評估病灶特性、參考血管直徑、病灶長度\\
+\textbf{Post-PCI}：評估支架膨脹、貼壁、邊緣夾層\\
+\textbf{Optimization}：根據 OCT 發現進行後續處理}
+
+\subsubsection{Pre-PCI 評估}
+
+\begin{enumerate}
+    \item \textbf{病灶特性分析}：
+    \begin{itemize}
+        \item 識別罪犯病灶 (culprit lesion)：斑塊破裂 (plaque rupture)、斑塊侵蝕 (plaque erosion)、鈣化結節 (calcified nodule)
+        \item 評估鈣化程度：弧度 (arc) > 180°、長度 > 5 mm、厚度 > 0.5 mm 提示需要特殊處理
+        \item 識別脂質斑塊與薄帽纖維粥樣斑塊 (TCFA, thin-cap fibroatheroma)
+    \end{itemize}
+
+    \item \textbf{支架尺寸選擇}：
+    \begin{itemize}
+        \item 參考血管直徑：取近端與遠端參考段的平均 lumen diameter
+        \item 病灶長度測量：確保支架完整覆蓋病灶
+        \item 避免 geographical miss（未完整覆蓋）
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Post-PCI 評估標準}
+
+\begin{longtable}{p{3.5cm}p{4cm}p{6.5cm}}
+\toprule
+\textbf{評估項目} & \textbf{定義/標準} & \textbf{臨床意義} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{評估項目} & \textbf{定義/標準} & \textbf{臨床意義} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+支架膨脹\newline (Stent expansion) & MSA/Reference lumen area\newline 目標 > 80\% & 膨脹不良是 stent thrombosis 與 ISR 的主要原因 \\
+
+最小支架面積\newline (MSA) & 左主幹 > 8.0 mm²\newline 近端 LAD > 6.0 mm²\newline 其他 > 4.5-5.0 mm² & 與長期預後直接相關 \\
+
+支架貼壁\newline (Apposition) & Strut 與血管壁距離\newline < strut 厚度 + polymer & Malapposition > 0.4 mm 需處理 \\
+
+邊緣夾層\newline (Edge dissection) & Flap 長度、深度、\newline 累及層次 & 深層夾層（累及 media 或 adventitia）需處理 \\
+
+組織脫垂\newline (Tissue protrusion) & 突入 lumen 的組織 & 不規則脫垂與 peri-procedural MI 相關 \\
+
+支架邊緣斑塊\newline (Edge plaque) & 邊緣 5 mm 內的\newline lipid-rich plaque & 增加 late stent failure 風險 \\
+
+\end{longtable}
+
+\subsection{OCT 導引 PCI 的臨床試驗證據}
+
+\begin{longtable}{p{3cm}p{2.5cm}p{4cm}p{4.5cm}}
+\toprule
+\textbf{試驗} & \textbf{年份} & \textbf{比較} & \textbf{主要結果} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{試驗} & \textbf{年份} & \textbf{比較} & \textbf{主要結果} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+ILUMIEN III & 2016 & OCT vs IVUS vs Angio & MSA：OCT = IVUS > Angio \\
+
+DOCTORS & 2016 & OCT vs Angio\newline (NSTE-ACS) & OCT 組 FFR 較高 (0.94 vs 0.92) \\
+
+OPINION & 2017 & OCT vs IVUS & TVF 無顯著差異 \\
+
+OCTOBER & 2023 & OCT vs Angio\newline (複雜 PCI) & 2 年 MACE：5.2\% vs 7.7\%\newline HR 0.66, p=0.035 \\
+
+ILUMIEN IV & 2023 & OCT vs Angio\newline (高風險 PCI) & 2 年 TLF：7.4\% vs 8.2\%\newline HR 0.90, p=0.45 \\
+
+OCTIVUS & 2023 & OCT vs IVUS & 1 年 TVF：2.5\% vs 3.1\%\newline 達非劣性 \\
+
+RENOVATE-\newline COMPLEX-PCI & 2023 & IVI vs Angio\newline (複雜病灶) & 3 年 TVF：7.7\% vs 12.3\%\newline HR 0.64, p<0.001 \\
+
+\end{longtable}
+
+\note{OCTOBER 試驗首次證明 OCT 導引 PCI 在複雜病灶可改善臨床預後。RENOVATE-COMPLEX-PCI 則顯示血管內造影（IVUS 或 OCT）在複雜 PCI 優於單純血管攝影。}
+
+%============================================================
+\section{特殊病灶的 OCT 應用}
+%============================================================
+
+\subsection{左主幹病灶 (Left Main Disease)}
+
+\begin{itemize}
+    \item \textbf{Pre-PCI}：評估開口位置、分叉角度、斑塊分布
+    \item \textbf{支架選擇}：
+    \begin{itemize}
+        \item 遠端 LM 直徑決定支架大小
+        \item MSA 目標 > 8.0 mm²（遠端）、> 9.0 mm²（中段）
+    \end{itemize}
+    \item \textbf{分叉處理}：確認 carina 位置、side branch ostium 覆蓋
+\end{itemize}
+
+\subsection{分叉病灶 (Bifurcation Lesions)}
+
+\begin{itemize}
+    \item 識別斑塊分布：main vessel vs side branch
+    \item Carina shift 評估
+    \item Side branch ostium 狹窄評估
+    \item 確認 POT (proximal optimization technique) 效果
+\end{itemize}
+
+\subsection{嚴重鈣化病灶 (Calcified Lesions)}
+
+OCT 對鈣化病灶的評估優勢：
+\begin{enumerate}
+    \item 精確測量鈣化弧度 (calcium arc)
+    \item 識別 nodular vs sheet-like calcium
+    \item 評估鈣化厚度（表面）
+    \item 指導斑塊修飾策略選擇
+\end{enumerate}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{鈣化特徵} & \textbf{建議處理策略} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{鈣化特徵} & \textbf{建議處理策略} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{2}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+弧度 < 180°，厚度薄 & 高壓球囊可能足夠 \\
+
+弧度 180-270° 或厚度 > 0.5 mm & 考慮 scoring/cutting balloon 或 RA \\
+
+弧度 > 270° 或結節狀 & 強烈建議 RA, OA, 或 IVL \\
+
+表面結節 (nodular) & IVL 可能優於 RA \\
+
+深層厚鈣化 & RA + IVL 組合治療 \\
+
+\end{longtable}
+
+\note{OCT 無法穿透鈣化評估深度，但可精確測量表面弧度。嚴重鈣化（弧度 > 270°, 長度 > 5 mm）建議積極斑塊修飾。}
+
+\subsection{支架內再狹窄 (In-Stent Restenosis, ISR)}
+
+OCT 在 ISR 的獨特價值：
+
+\begin{enumerate}
+    \item \textbf{機轉辨識}：
+    \begin{itemize}
+        \item Neointimal hyperplasia：均質高信號組織
+        \item Neoatherosclerosis：新生脂質斑塊，可見 TCFA
+        \item Mechanical issues：膨脹不良、malapposition
+    \end{itemize}
+
+    \item \textbf{治療決策}：
+    \begin{itemize}
+        \item 均質 neointima → Drug-coated balloon 或 DES
+        \item Neoatherosclerosis → 考慮 DES，注意 lipid landing
+        \item 膨脹不良 → 高壓後擴張或鈣化修飾
+    \end{itemize}
+\end{enumerate}
+
+%============================================================
+\section{冠狀動脈斑塊造影與特徵分析}
+%============================================================
+
+\subsection{斑塊組成的影像特徵}
+
+\subsubsection{CCTA 特徵}
+
+\begin{longtable}{p{4cm}p{4cm}p{6cm}}
+\toprule
+\textbf{特徵} & \textbf{定義} & \textbf{臨床意義} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{特徵} & \textbf{定義} & \textbf{臨床意義} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+Low-attenuation plaque (LAP) & < 30 HU & 代表脂質核心或壞死核心 \\
+
+Positive remodeling & RI > 1.1 & 代償性擴張，高風險特徵 \\
+
+Spotty calcification & < 3 mm 鈣化點 & 斑塊不穩定標誌 \\
+
+Napkin-ring sign & 低密度核心\newline 外圍高密度環 & 對應 TCFA，高風險 \\
+
+\end{longtable}
+
+\subsubsection{IVUS 特徵}
+
+\begin{itemize}
+    \item \textbf{Soft plaque}：低回音，代表脂質或纖維組織
+    \item \textbf{Fibrous plaque}：中等回音，均質
+    \item \textbf{Calcified plaque}：高回音伴聲影 (acoustic shadow)
+    \item \textbf{Mixed plaque}：多種成分混合
+    \item \textbf{Attenuated plaque}：信號衰減，常代表脂質核心
+\end{itemize}
+
+\subsubsection{OCT 特徵}
+
+\begin{longtable}{p{4cm}p{5cm}p{5cm}}
+\toprule
+\textbf{組織類型} & \textbf{OCT 表現} & \textbf{臨床意義} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{組織類型} & \textbf{OCT 表現} & \textbf{臨床意義} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+Fibrous tissue & 均質高信號 & 穩定組織 \\
+
+Lipid pool & 信號衰減區域\newline 邊界模糊 & 斑塊不穩定成分 \\
+
+Fibrous cap & 覆蓋脂質池的\newline 高信號薄層 & < 65 $\mu$m 定義為 thin-cap \\
+
+Calcium & 低信號\newline 邊界銳利 & OCT 可精確測量弧度 \\
+
+Macrophage & 高信號亮點\newline 伴隨信號衰減 & 發炎標誌 \\
+
+Cholesterol crystal & 線性高反射 & 斑塊不穩定標誌 \\
+
+Neovascularization & 小型低信號結構 & intraplaque hemorrhage 風險 \\
+
+\end{longtable}
+
+\subsection{高風險斑塊 (Vulnerable Plaque) 特徵}
+
+\subsubsection{提出的影像學分類系統 (L1-L2-L3)}
+
+García-García 等人提出基於影像的斑塊分類系統：
+
+\begin{longtable}{p{2cm}p{5cm}p{7cm}}
+\toprule
+\textbf{分類} & \textbf{定義} & \textbf{臨床應用} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{分類} & \textbf{定義} & \textbf{臨床應用} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+L1 & Plaque burden > 70\%\newline (無論組成) & 識別高體積斑塊\newline 事件風險增加 \\
+
+L2 & Lipid-rich plaque\newline NIRS: maxLCBI$_{4mm}$ > 400\newline OCT: lipid arc > 180° & 脂質為主斑塊\newline 較高破裂風險 \\
+
+L3 & MLA < 4.0 mm²\newline (嚴重狹窄) & 血流動力學顯著\newline 可能需介入 \\
+
+\end{longtable}
+
+\subsubsection{薄帽纖維粥樣斑塊 (TCFA)}
+
+\textbf{定義}：具有以下特徵的斑塊
+\begin{itemize}
+    \item Fibrous cap thickness < 65 $\mu$m（OCT 測量）
+    \item 脂質弧度 > 90°（通常 > 180°）
+    \item 大脂質核心
+\end{itemize}
+
+\textbf{臨床意義}：
+\begin{itemize}
+    \item 對應病理學上的高風險斑塊
+    \item CLIMA 研究：TCFA 合併 MLA < 3.5 mm² 預測 cardiac death/MI
+    \item 可能是藥物治療強化的標的
+\end{itemize}
+
+\subsection{急性冠心症的斑塊機轉}
+
+\begin{longtable}{p{3cm}p{5cm}p{6cm}}
+\toprule
+\textbf{機轉} & \textbf{影像特徵} & \textbf{流行病學} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{機轉} & \textbf{影像特徵} & \textbf{流行病學} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+Plaque rupture & Fibrous cap 中斷\newline 暴露脂質核心\newline 伴血栓 & ACS 約 55-65\%\newline 較常見於老年、男性\newline 多重心血管危險因子 \\
+
+Plaque erosion & 內皮侵蝕\newline 表面血栓\newline Fibrous cap 完整 & ACS 約 25-30\%\newline 較常見於年輕女性\newline 吸菸者 \\
+
+Calcified nodule & 突出的鈣化結節\newline 伴表面血栓 & ACS 約 5-10\%\newline 嚴重鈣化血管\newline 糖尿病、腎病變 \\
+
+\end{longtable}
+
+\note{斑塊侵蝕 (plaque erosion) 可能對保守治療反應較好。部分研究探討 erosion 在 NSTE-ACS 是否可避免支架置放，但仍需更多證據。}
+
+%============================================================
+\section{斑塊進展與消退的影像追蹤}
+%============================================================
+
+\subsection{藥物對斑塊的影響}
+
+\subsubsection{Statin 試驗}
+
+\begin{longtable}{p{3cm}p{3cm}p{4cm}p{4cm}}
+\toprule
+\textbf{試驗} & \textbf{藥物} & \textbf{影像工具} & \textbf{結果} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{試驗} & \textbf{藥物} & \textbf{影像工具} & \textbf{結果} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+ASTEROID & Rosuvastatin 40mg & IVUS & PAV 減少 0.98\% \\
+
+SATURN & Rosuvastatin vs\newline Atorvastatin & IVUS & 兩組皆斑塊消退 \\
+
+YELLOW & Rosuvastatin & NIRS & maxLCBI 顯著降低 \\
+
+EASY-FIT & Atorvastatin 20mg & OCT & Fibrous cap 增厚 \\
+
+HUYGENS & Evolocumab +\newline Statin & OCT & Fibrous cap 增厚\newline 脂質弧度減少 \\
+
+\end{longtable}
+
+\subsubsection{PCSK9 抑制劑試驗}
+
+\begin{itemize}
+    \item \textbf{GLAGOV}：Evolocumab + statin 降低 PAV（IVUS）
+    \item \textbf{HUYGENS}：Evolocumab 增加 fibrous cap 厚度、減少脂質弧度（OCT）
+    \item \textbf{PACMAN-AMI}：Alirocumab 在 ACS 後促進斑塊穩定化（IVUS/NIRS/OCT）
+\end{itemize}
+
+\subsection{預防性 PCI 的證據}
+
+\subsubsection{PROSPECT 系列}
+
+\begin{itemize}
+    \item \textbf{PROSPECT}（2011）：非罪犯病灶的自然病史研究，IVUS 特徵預測事件
+    \item \textbf{PROSPECT II}（2021）：IVUS + NIRS 識別高風險斑塊
+    \item \textbf{PROSPECT ABSORB}：高風險非罪犯斑塊置放 BVS 的安全性
+\end{itemize}
+
+\subsubsection{PREVENT 試驗}
+
+\begin{itemize}
+    \item 對高風險非罪犯斑塊進行預防性 PCI
+    \item 主要終點：Composite MACE
+    \item 結果：PCI 組較低事件率（需要更多長期追蹤）
+\end{itemize}
+
+\note{對高風險非罪犯斑塊的處理仍有爭議。目前指引建議優先強化藥物治療，預防性 PCI 僅在特定高風險情況考慮。}
+
+%============================================================
+\section{臨床決策整合}
+%============================================================
+
+\subsection{何時使用血管內造影？}
+
+\begin{longtable}{p{6cm}p{8cm}}
+\toprule
+\textbf{臨床情境} & \textbf{建議} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{臨床情境} & \textbf{建議} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{2}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+左主幹 PCI & 強烈建議（Class IIa）\newline IVUS 或 OCT \\
+
+長病灶 / 多支架 & 建議\newline 確保完整覆蓋與良好膨脹 \\
+
+分叉病灶 & 建議\newline 評估 carina、SB ostium \\
+
+支架內再狹窄 & 強烈建議\newline 識別機轉指導治療 \\
+
+鈣化病灶 & 建議 OCT\newline 評估弧度指導斑塊修飾 \\
+
+支架血栓 & 強烈建議\newline 識別原因（malapposition、夾層等） \\
+
+STEMI / ACS（選擇性） & 可考慮\newline 識別罪犯機轉、排除 erosion \\
+
+\end{longtable}
+
+\subsection{OCT vs IVUS 選擇}
+
+\begin{longtable}{p{6cm}p{4cm}p{4cm}}
+\toprule
+\textbf{情境} & \textbf{優先選擇} & \textbf{原因} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{情境} & \textbf{優先選擇} & \textbf{原因} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{續下頁}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+
+左主幹開口 & IVUS & 不需 flush，管腔大 \\
+
+嚴重腎功能不全 & IVUS & 避免 contrast \\
+
+需評估鈣化深度 & IVUS & 穿透深度較佳 \\
+
+支架貼壁與夾層 & OCT & 解析度優異 \\
+
+識別斑塊組成 & OCT & 可測量 fibrous cap \\
+
+ISR 機轉分析 & OCT & 辨識 neoatherosclerosis \\
+
+大血管（> 5 mm） & IVUS 或 OCT & 各有優劣 \\
+
+\end{longtable}
+
+%============================================================
+\section{重點摘要}
+%============================================================
+
+\keyfinding{
+\textbf{OCT 導引 PCI 的核心概念}：
+\begin{enumerate}
+    \item OCTOBER 試驗首次證明 OCT 導引在複雜 PCI 改善臨床預後
+    \item 標準化流程：Pre-PCI 評估 → 支架置放 → Post-PCI 優化
+    \item MSA 是最重要的預後預測因子
+    \item 深層邊緣夾層、顯著 malapposition 需要處理
+\end{enumerate}
+}
+
+\keyfinding{
+\textbf{斑塊造影的臨床應用}：
+\begin{enumerate}
+    \item 多模式造影可全面評估斑塊體積、組成、功能意義
+    \item TCFA（fibrous cap < 65 $\mu$m + lipid arc > 90°）是高風險斑塊標誌
+    \item Statin 與 PCSK9 抑制劑可促進斑塊穩定化（增厚 fibrous cap、減少脂質）
+    \item 對高風險非罪犯斑塊的處理策略仍在演進中
+\end{enumerate}
+}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Almajid F, Gerbaud E, Musik M, et al. Optical coherence tomography to guide percutaneous coronary intervention. \href{https://doi.org/10.4244/EIJ-D-23-00912}{\textit{EuroIntervention}. 2024;20:e1202-e1216.}
+
+    \item García-García HM, Kogame T, Onuma Y, et al. Advances in coronary imaging of atherosclerotic plaques. \href{https://doi.org/10.4244/EIJ-D-24-00387}{\textit{EuroIntervention}. 2025;21:e778-e795.}
+
+    \item Koskinas KC, Nakamura M, Räber L, et al. Current use of intracoronary imaging. Part 1: recent advances in IVUS and OCT. \href{https://doi.org/10.4244/EIJ-D-21-00225}{\textit{EuroIntervention}. 2021;17:e672-e681.}
+
+    \item Räber L, Mintz GS, Koskinas KC, et al. Clinical use of intracoronary imaging. Part 1: guidance and optimization of coronary interventions. \href{https://doi.org/10.1093/eurheartj/ehy285}{\textit{Eur Heart J}. 2018;39:3281-3300.}
+
+    \item Meneveau N, Souteyrand G, Motreff P, et al. Optical coherence tomography to optimize results of percutaneous coronary intervention in patients with non-ST-elevation acute coronary syndrome: The DOCTORS randomized trial. \href{https://doi.org/10.1161/CIRCULATIONAHA.116.024393}{\textit{Circulation}. 2016;134:906-917.}
+
+    \item Ali ZA, Maehara A, Généreux P, et al. Optical coherence tomography compared with intravascular ultrasound and with angiography to guide coronary stent implantation (ILUMIEN III). \href{https://doi.org/10.1016/S0140-6736(16)31922-5}{\textit{Lancet}. 2016;388:2618-2628.}
+
+    \item Holm NR, Andreasen LN, Neghabat O, et al. OCT or angiography guidance for PCI in complex bifurcation lesions (OCTOBER). \href{https://doi.org/10.1056/NEJMoa2307770}{\textit{N Engl J Med}. 2023;389:1477-1487.}
+
+    \item Ali ZA, Landmesser U, Maehara A, et al. Optical coherence tomography-guided versus angiography-guided PCI (ILUMIEN IV). \href{https://doi.org/10.1016/S0140-6736(23)02266-6}{\textit{Lancet}. 2023;402:1753-1763.}
+
+    \item Kang DY, Ahn JM, Yun SC, et al. Optical coherence tomography-guided or intravascular ultrasound-guided percutaneous coronary intervention: the OCTIVUS randomized clinical trial. \href{https://doi.org/10.1161/CIRCULATIONAHA.122.062534}{\textit{Circulation}. 2023;148:1195-1206.}
+
+    \item Lee JM, Choi KH, Song YB, et al. Intravascular imaging-guided or angiography-guided complex PCI (RENOVATE-COMPLEX-PCI). \href{https://doi.org/10.1056/NEJMoa2216607}{\textit{N Engl J Med}. 2023;388:1668-1679.}
+
+    \item Prati F, Romagnoli E, Gatto L, et al. Relationship between coronary plaque morphology of the left anterior descending artery and 12 months clinical outcome: the CLIMA study. \href{https://doi.org/10.1093/eurheartj/ehz693}{\textit{Eur Heart J}. 2020;41:383-391.}
+
+    \item Nicholls SJ, Puri R, Anderson T, et al. Effect of evolocumab on progression of coronary disease in statin-treated patients: the GLAGOV randomized clinical trial. \href{https://doi.org/10.1001/jama.2016.16951}{\textit{JAMA}. 2016;316:2373-2384.}
+
+    \item Räber L, Ueki Y, Otsuka T, et al. Effect of alirocumab added to high-intensity statin therapy on coronary atherosclerosis in patients with acute myocardial infarction: the PACMAN-AMI randomized clinical trial. \href{https://doi.org/10.1001/jama.2022.5218}{\textit{JAMA}. 2022;327:1771-1781.}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,498 @@
+% Nature COVID-19 RBC Microangiopathy 2025 教學講義
+% 缺血性內皮細胞 necroptosis 誘導紅血球溶血與 COVID-19 血管病變
+\documentclass[12pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Nature 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{COVID-19 RBC Microangiopathy}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Nature}}\\[0.5cm]
+{\Large\textbf{Ischaemic Endothelial Necroptosis Induces Haemolysis and COVID-19 Angiopathy}}\\[0.3cm]
+{\large 缺血性內皮細胞壞死性凋亡誘導紅血球溶血與 COVID-19 血管病變}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1038/s41586-025-09076-x}{Nature 2025. DOI: 10.1038/s41586-025-09076-x}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+\section{研究背景}
+%============================================================
+
+\subsection{COVID-19 微血管病變的重要性}
+
+COVID-19 的 microangiopathy（微血管病變）是 SARS-CoV-2 感染的重要併發症：
+\begin{itemize}
+    \item 造成急性及慢性併發症（long COVID syndrome）
+    \item 毛細血管功能下降 60--90\%
+    \item 傳統認為是由 \textbf{fibrin}（纖維蛋白）和 \textbf{platelet}（血小板）微血栓造成
+    \item 但 anticoagulant therapy（抗凝血治療）效果有限
+\end{itemize}
+
+\subsection{傳統觀點的問題}
+
+過去認為 COVID-19 微血管阻塞主要是由於：
+\begin{itemize}
+    \item Endotheliopathy（內皮病變）
+    \item 血管收縮
+    \item Microthrombus formation（微血栓形成）
+    \item COVID-19-associated coagulopathy
+\end{itemize}
+
+\note{本研究挑戰了傳統觀點，發現 COVID-19 微血管阻塞的主要原因並非 fibrin 和 platelet 沉積，而是一種全新的 \textbf{RBC haemolysis}（紅血球溶血）機制。}
+
+%============================================================
+\section{核心發現摘要}
+%============================================================
+
+\keyfinding{
+\begin{enumerate}
+    \item \textbf{廣泛的內皮細胞死亡}：COVID-19 器官微血管中存在大量 EC death
+    \item \textbf{非傳統機制}：EC death 與 fibrin 或 platelet 沉積無關，而是與 RBC haemolysis 相關
+    \item \textbf{缺血再灌注損傷}：此 RBC microangiopathy 與 ischaemia-reperfusion injury 相關
+    \item \textbf{跨疾病相關性}：同樣機制見於 MI、腸道缺血、stroke、septic shock、cardiogenic shock
+    \item \textbf{分子機制}：Ischaemia 誘導 \textbf{MLKL-dependent EC necroptosis} 和 \textbf{complement-dependent RBC haemolysis}
+    \item \textbf{新型止血機制}：溶血的 RBC membranes 形成 ``endo-seal''，獨立於 platelet 和 fibrin
+    \item \textbf{治療標靶}：EC Mlkl 基因剔除可減少 RBC haemolysis 和缺血性器官損傷
+\end{enumerate}
+}
+
+%============================================================
+\section{研究方法}
+%============================================================
+
+\subsection{多模態影像分析}
+
+研究團隊開發了定量、多重、多模態影像方法：
+\begin{itemize}
+    \item 分析超過 1,000 條血管（動脈、靜脈、毛細血管）
+    \item 來自 COVID-19 死亡患者的肺、心、腎、肝
+    \item 使用 immunofluorescence (IF)、H\&E、scanning electron microscopy (SEM)
+    \item Correlative light and electron microscopy (CLEM) 分析
+\end{itemize}
+
+\subsection{動物模型}
+
+\begin{itemize}
+    \item K18-hACE2 小鼠 + SARS-CoV-2 Delta 株感染
+    \item LAD artery ligation（心臟缺血模型）
+    \item Superior mesenteric artery ligation（腸道 IR 模型）
+    \item 缺血性 stroke 模型
+    \item Heart transplant 模型
+\end{itemize}
+
+\subsection{基因剔除小鼠}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{小鼠品系} & \textbf{用途} \\
+\midrule
+\endhead
+Mlkl$^{-/-}$ & 全身性 MLKL 缺失，確認 necroptosis 在 RBC haemolysis 的角色 \\
+Mlkl$^{EC-/-}$ & 內皮細胞特異性 MLKL 缺失，確認 EC necroptosis 的角色 \\
+Mlkl$^{RBC-/-}$ & 紅血球特異性 MLKL 缺失，排除 RBC necroptosis 的角色 \\
+C9$^{-/-}$ & Complement C9 缺失，確認 membrane attack complex 在 RBC haemolysis 的角色 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{詳細結果}
+%============================================================
+
+\subsection{COVID-19 器官中的內皮細胞死亡}
+
+\subsubsection{內皮細胞損傷的證據}
+
+在 COVID-19 死亡患者器官中發現：
+\begin{itemize}
+    \item 廣泛的 VE-cadherin 流失
+    \item PECAM-1 表面標記消失
+    \item Glycocalyx（糖萼）破壞
+    \item EC 核型態改變：pyknosis（核濃縮）、karyorrhexis（核碎裂）、karyolysis（核溶解）
+    \item EC detachment（10--50\% 血管）
+\end{itemize}
+
+\subsubsection{EC 死亡與組織損傷的相關性}
+
+\begin{importantbox}
+\textbf{關鍵發現}：EC death 的程度與 tissue injury 的嚴重度呈正相關。輕度組織損傷時 EC death 較少，重度組織損傷時 EC death 明顯增加（p $<$ 0.0001）。
+\end{importantbox}
+
+\subsection{RBC Haemolysis 在 COVID-19 血管中}
+
+\subsubsection{RBC 衍生的無定形物質}
+
+在 EC death 部位發現廣泛沉積的 amorphous, proteinaceous acellular material：
+\begin{itemize}
+    \item 心臟微血管：30\%
+    \item 腎臟微血管：29\%
+    \item 肝臟微血管：27\%
+    \item 肺臟微血管：5\%（較少）
+\end{itemize}
+
+\subsubsection{CD235（Glycophorin A）染色特徵}
+
+\begin{longtable}{p{4cm}p{5cm}p{5cm}}
+\toprule
+\textbf{特徵} & \textbf{完整 RBC (CD235$^{low}$)} & \textbf{溶血 RBC (CD235$^{high}$)} \\
+\midrule
+\endhead
+CD235 螢光強度 & 低 & 高（約 5 倍增加） \\
+形態 & 正常雙凹圓盤狀 & 不規則、碎片化 \\
+Haemoglobin & 保留 & 流失（Hb$^{-}$） \\
+沉積位置 & 血管腔內 & 血管壁及 RBC 之間 \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{非 DIC 相關}
+
+\begin{itemize}
+    \item 典型的 disseminated intravascular coagulation (DIC) 組織學特徵（如腎臟毛細血管 fibrin）在 COVID-19 屍檢組織中罕見
+    \item 患者無 DIC 的血液學改變
+    \item RBC haemolysis 與 EC death 有強烈空間相關性
+\end{itemize}
+
+\note{這表明 COVID-19 microangiopathy 與 COVID-19-associated coagulopathy 無關，而是與發生在 EC death 部位的 RBC haemolytic process 相關。}
+
+\subsection{器官缺血誘導 RBC Haemolysis}
+
+\subsubsection{非 COVID-19 缺血性器官的發現}
+
+研究團隊檢查了非 COVID-19 患者的缺血性器官：
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{器官/疾病} & \textbf{發現} \\
+\midrule
+\endhead
+Acute myocardial infarction (AMI) & 廣泛的 RBC haemolysis 和 EC death，RBC membrane 沉積於血管壁和 RBC 之間，造成微血管阻塞 \\
+Ischaemic gut & 同樣模式的 RBC haemolysis 和 EC death \\
+Ischaemic stroke & 同樣模式 \\
+Cardiogenic shock & 多器官 RBC haemolysis 和 EC death \\
+Septic shock & 多器官 RBC haemolysis 和 EC death \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{小鼠模型的發現}
+
+\textbf{COVID-19 小鼠模型 vs 缺血模型}：
+\begin{itemize}
+    \item SARS-CoV-2 感染健康年輕小鼠 5 天：主要在心臟微血管有 RBC haemolysis
+    \item 肺和腦有明顯損傷，但無 RBC haemolysis
+    \item 結論：病毒感染本身和相關器官損傷不足以誘導 RBC haemolysis
+\end{itemize}
+
+\textbf{心臟缺血模型}：
+\begin{itemize}
+    \item LAD ligation（ischaemia-reperfusion, IR）：廣泛 RBC haemolysis
+    \item Permanent ligation (PL)：同樣有 RBC haemolysis
+    \item 結論：\textbf{Ischaemia 本身足以誘導 RBC haemolysis}
+\end{itemize}
+
+\subsection{兩種不同的 EC 死亡途徑}
+
+研究發現兩種空間上不同的 EC 死亡模式，各自調控不同的微血管阻塞機制：
+
+\begin{longtable}{p{3.5cm}p{5.5cm}p{5cm}}
+\toprule
+\textbf{特徵} & \textbf{Necroptosis (PS$^{low}$)} & \textbf{Apoptosis (PS$^{high}$)} \\
+\midrule
+\endhead
+位置 & Villus 尖端（apical region） & Villus 下部（lower body） \\
+Annexin V 結合 & 弱（PS$^{low}$） & 強（PS$^{high}$） \\
+PI/RedDot2 通透性 & 陽性（細胞膜破壞） & 陰性 \\
+TUNEL & 陰性 & 陽性 \\
+Hoechst 染色 & 減少（核溶解） & 增強/濃縮 \\
+Caspase-3 & 陰性 & 陽性（cleaved caspase-3） \\
+p-MLKL/p-RIPK3 & 陽性 & 陰性 \\
+導致的阻塞 & \textbf{RBC haemolysis} & \textbf{Platelet + Fibrin} \\
+佔 PS$^+$ EC 比例 & 約 70\% & 約 30\% \\
+\bottomrule
+\end{longtable}
+
+\begin{importantbox}
+\textbf{關鍵概念}：
+\begin{itemize}
+    \item \textbf{Necroptotic EC} $\rightarrow$ RBC haemolysis $\rightarrow$ RBC-dependent 微血管阻塞（佔 $>$ 65\%）
+    \item \textbf{Apoptotic EC} $\rightarrow$ Platelet + Fibrin 沉積 $\rightarrow$ 傳統微血栓
+\end{itemize}
+這兩種機制在空間上不重疊！
+\end{importantbox}
+
+\subsection{EC Necroptosis 和 Complement 介導 Haemolysis}
+
+\subsubsection{MLKL 的角色}
+
+MLKL (Mixed Lineage Kinase Domain-Like pseudokinase) 是 necroptosis 途徑的終端媒介：
+
+\begin{itemize}
+    \item \textbf{Mlkl$^{-/-}$ 小鼠}：RBC haemolysis 明顯減少
+    \item \textbf{Mlkl$^{EC-/-}$ 小鼠}：RBC haemolysis 減少（但比全身 KO 少）
+    \item \textbf{Mlkl$^{RBC-/-}$ 小鼠}：RBC haemolysis 正常
+\end{itemize}
+
+\note{這證明 \textbf{EC necroptosis}（而非 RBC necroptosis）是促進 RBC haemolysis 的主要機制。}
+
+\subsubsection{Complement 的角色}
+
+垂死的 EC 促進 complement cascade 活化：
+\begin{itemize}
+    \item C9$^{-/-}$ 小鼠（無法形成 membrane attack complex, MAC, C5b-9）：RBC haemolysis 明顯減少
+    \item IF 確認 C5b-9 沉積在溶血 RBC 表面，但不在完整 RBC 上
+    \item 人類 COVID-19 和缺血性器官中也觀察到類似的 C9 沉積
+\end{itemize}
+
+\subsection{溶血 RBC 形成止血栓塞（Endo-seal）}
+
+\subsubsection{Endo-seal 的形成過程}
+
+Intravital microscopy 觀察到的動態過程：
+\begin{enumerate}
+    \item RBC 黏附到垂死 EC 表面（PS$^+$）
+    \item 黏附的 RBC 在血流拖曳力下變形伸長
+    \item RBC membrane 碎裂
+    \item Membrane fragments 沉積在血管壁
+    \item 沉積的 fragments 作為後續 RBC 的 docking sites
+    \item 重複循環 $\rightarrow$ 多層 RBC membrane 堆積
+    \item 形成連續的 endovascular sealant（``endo-seal''，厚度 5--10 $\mu$m）
+\end{enumerate}
+
+\subsubsection{Endo-seal 的止血功能}
+
+\begin{itemize}
+    \item RBC haemolysis 程度與 interstitial bleeding 呈\textbf{負相關}（R = -0.6577, p $<$ 0.0001）
+    \item 有 endo-seal 的區域：無出血
+    \item 缺乏 endo-seal 的區域：可見 RBC extravasation（出血）
+\end{itemize}
+
+\textbf{基因剔除證據}：
+\begin{itemize}
+    \item Mlkl$^{-/-}$、Mlkl$^{EC-/-}$、C9$^{-/-}$ 小鼠：haemolysis 減少 $\rightarrow$ 微血管出血增加
+    \item 此止血機制不受 platelet depletion、potent platelet inhibitors 或 high-dose anticoagulation 影響
+\end{itemize}
+
+\begin{importantbox}
+\textbf{重大發現}：Endo-seal 是一種全新的止血機制：
+\begin{itemize}
+    \item 獨立於 platelet 和 fibrin
+    \item 可在低流速（$<$ 25 s$^{-1}$）和酸性環境（pH 6.0--7.0）下運作
+    \item 這是傳統 platelet 和 coagulation 反應受抑制的環境
+\end{itemize}
+\end{importantbox}
+
+\subsection{溶血 RBC 促進 RBC 聚集和阻塞}
+
+\subsubsection{Homotypic RBC Aggregation}
+
+溶血 RBC membranes 具有黏附特性：
+\begin{itemize}
+    \item 在完整 RBC 之間形成 adhesive bridges
+    \item RBC aggregation 發生在極低 shear rate（$<$ 25 s$^{-1}$）
+    \item 不需要 platelet、neutrophil 或 plasma proteins
+    \item 這是 RBC membrane 的內在特性
+\end{itemize}
+
+\subsubsection{In Vitro 驗證}
+
+\begin{itemize}
+    \item 將全血灌注到 necrotic HMEC-1（human microvascular EC）表面
+    \item 足以誘導 RBC aggregation
+    \item Aggregates 通過受損 RBC membranes 錨定到 HMEC-1
+    \item C9 沉積在 necrotic HMEC-1 上
+    \item 抑制 complement 活化（Cp40）可防止 RBC aggregation
+\end{itemize}
+
+\subsubsection{微血管阻塞的兩種機制}
+
+\begin{longtable}{p{4cm}p{5cm}p{5cm}}
+\toprule
+\textbf{參數} & \textbf{RBC Microangiopathy} & \textbf{Platelet-Fibrin Microthrombi} \\
+\midrule
+\endhead
+Shear rate & $<$ 25 s$^{-1}$ & $>$ 50 s$^{-1}$ \\
+觸發條件 & Ischaemia, acidosis & Reperfusion \\
+EC 死亡類型 & Necroptosis & Apoptosis \\
+主要成分 & 溶血 RBC membranes & Platelet + Fibrin \\
+需要 complement & 是（C5b-9/MAC） & 否 \\
+位置 & Villus tip & Villus base \\
+\bottomrule
+\end{longtable}
+
+\subsection{Mlkl$^{EC-/-}$ 小鼠的器官保護}
+
+\begin{itemize}
+    \item EC-specific Mlkl deletion 顯著減少 gut IR tissue injury
+    \item 減少溶血 RBC 促進的 RBC aggregates
+    \item 改善 FITC-dextran 灌注
+    \item Laser speckle contrast imaging 顯示組織灌流改善
+\end{itemize}
+
+\note{這表明 \textbf{EC necroptosis 和相關的 RBC haemolysis 是微血管阻塞和局部組織損傷的關鍵因素}，為治療提供了新標靶。}
+
+%============================================================
+\section{機制總結}
+%============================================================
+
+\subsection{RBC Microangiopathy 的病理生理機制}
+
+\begin{enumerate}
+    \item \textbf{Ischaemia} $\rightarrow$ 組織缺氧 + 代謝性酸中毒（pH 6.0--7.0）
+    \item \textbf{EC injury} $\rightarrow$ MLKL phosphorylation $\rightarrow$ \textbf{EC necroptosis}
+    \item \textbf{Dying EC} $\rightarrow$ 暴露 phosphatidylserine (PS) $\rightarrow$ Complement 活化
+    \item \textbf{C5b-9 (MAC) formation} $\rightarrow$ RBC membrane damage $\rightarrow$ \textbf{Haemolysis}
+    \item \textbf{Haemolysed RBC membranes}:
+    \begin{itemize}
+        \item 沉積在 EC 表面 $\rightarrow$ 形成 \textbf{endo-seal}（止血）
+        \item 在 RBC 之間形成 adhesive bridges $\rightarrow$ \textbf{RBC aggregation}（阻塞）
+    \end{itemize}
+    \item \textbf{過度反應} $\rightarrow$ 微血管阻塞 $\rightarrow$ 組織缺血加劇
+\end{enumerate}
+
+\subsection{為何傳統抗凝血治療效果有限？}
+
+\begin{itemize}
+    \item 傳統治療針對 platelet 和 fibrin
+    \item 但 COVID-19 微血管阻塞主要由 \textbf{RBC haemolysis} 造成
+    \item RBC microangiopathy 在低 shear rate 和 acidosis 條件下發生
+    \item 這些條件下 platelet function 和 coagulation 反應本就受抑制
+    \item 因此抗 platelet 和 anticoagulant 無法有效改善此類阻塞
+\end{itemize}
+
+%============================================================
+\section{臨床意義}
+%============================================================
+
+\subsection{疾病相關性}
+
+此 RBC haemostatic/microangiopathy 機制與多種疾病相關：
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{疾病} & \textbf{相關性} \\
+\midrule
+\endhead
+COVID-19（急性） & 多器官微血管 RBC haemolysis 和阻塞 \\
+Long COVID & 持續的 capillary dysfunction、循環 haem 升高與 terminal complement complex 形成相關 \\
+Acute myocardial infarction & 缺血區域的 RBC haemolysis 和 no-reflow phenomenon \\
+Ischaemic stroke & 腦微血管 RBC haemolysis \\
+Septic shock & 多器官微血管 RBC microangiopathy \\
+Cardiogenic shock & 多器官微血管 RBC microangiopathy \\
+Acute coronary syndromes & Microvascular dysfunction \\
+\bottomrule
+\end{longtable}
+
+\subsection{潛在治療策略}
+
+\begin{itemize}
+    \item \textbf{Necroptosis 抑制劑}：減少 EC necroptosis
+    \item \textbf{Complement 抑制}：防止 RBC haemolysis
+    \item \textbf{Haemopexin}：中和過量游離 haem
+    \item \textbf{聯合治療}：可能更有效
+\end{itemize}
+
+\note{
+\textbf{治療考量}：
+\begin{itemize}
+    \item 抑制 necroptosis 可能增加微血管出血風險（因 endo-seal 減少）
+    \item 類似於抗 platelet/anticoagulant 的出血風險
+    \item 需要仔細評估 benefit-risk ratio
+\end{itemize}
+}
+
+%============================================================
+\section{研究局限與未來方向}
+%============================================================
+
+\subsection{研究局限}
+
+\begin{itemize}
+    \item 主要基於屍檢組織和動物模型
+    \item 人體內的動態過程難以直接觀察
+    \item 治療效果需要臨床試驗驗證
+\end{itemize}
+
+\subsection{未來研究方向}
+
+\begin{itemize}
+    \item 開發針對 RBC microangiopathy 的特異性治療
+    \item 評估聯合抑制 necroptosis + complement 的效果和安全性
+    \item 研究 long COVID 中此機制的持續性
+    \item 探索其他缺血再灌注疾病中的應用
+\end{itemize}
+
+%============================================================
+\section{名詞解釋}
+%============================================================
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{名詞} & \textbf{解釋} \\
+\midrule
+\endhead
+Necroptosis & 一種可調控的細胞壞死形式，由 RIPK1-RIPK3-MLKL 途徑介導 \\
+Apoptosis & 程序性細胞凋亡，由 caspase 介導，不引起發炎 \\
+MLKL & Mixed Lineage Kinase Domain-Like pseudokinase，necroptosis 的終端執行者 \\
+RIPK1/RIPK3 & Receptor-Interacting Protein Kinase 1/3，necroptosis 途徑的上游激酶 \\
+Phosphatidylserine (PS) & 正常位於細胞膜內層的磷脂，細胞死亡時外翻暴露 \\
+Annexin V & 結合 PS 的蛋白，用於檢測細胞死亡 \\
+C5b-9 (MAC) & Membrane Attack Complex，complement 終末產物，在細胞膜上形成孔洞 \\
+Glycophorin A (CD235) & RBC 表面的主要唾液酸糖蛋白 \\
+VE-cadherin & Vascular endothelial cadherin，EC 間的黏附分子 \\
+Endo-seal & 由溶血 RBC membrane 形成的內血管止血栓塞 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{重點摘要}
+%============================================================
+
+\begin{importantbox}
+\textbf{Take-Home Messages}：
+\begin{enumerate}
+    \item COVID-19 微血管阻塞的主要原因是 \textbf{RBC haemolysis}，而非傳統認為的 platelet-fibrin microthrombi
+    \item 機制：\textbf{Ischaemia} $\rightarrow$ \textbf{EC necroptosis (MLKL)} $\rightarrow$ \textbf{Complement activation (C5b-9)} $\rightarrow$ \textbf{RBC haemolysis}
+    \item 溶血 RBC membrane 具有雙重功能：
+    \begin{itemize}
+        \item \textbf{Endo-seal}：防止微血管出血（有益）
+        \item \textbf{RBC aggregation}：造成微血管阻塞（有害）
+    \end{itemize}
+    \item 這是一種\textbf{全新的止血機制}，獨立於 platelet 和 fibrin，可在低流速和酸性環境下運作
+    \item 此機制不僅見於 COVID-19，也見於 \textbf{MI、stroke、sepsis、cardiogenic shock} 等缺血再灌注相關疾病
+    \item 治療標靶：\textbf{Necroptosis 抑制} + \textbf{Complement 抑制} + \textbf{Haemopexin}
+    \item 這解釋了為何傳統 anticoagulant/antiplatelet 治療對 COVID-19 微血管功能障礙效果有限
+\end{enumerate}
+\end{importantbox}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Wu MCL, Italiano E, Jarvis-Child R, et al. Ischaemic endothelial necroptosis induces haemolysis and COVID-19 angiopathy. \href{https://doi.org/10.1038/s41586-025-09076-x}{\textit{Nature}. 2025. DOI: 10.1038/s41586-025-09076-x}
+
+    \item Flaumenhaft R, Enjyoji K, Schmaier AA. Vasculopathy in COVID-19. \href{https://doi.org/10.1182/blood.2021014181}{\textit{Blood}. 2022;140:222-235.}
+
+    \item Conway EM, et al. Understanding COVID-19-associated coagulopathy. \href{https://doi.org/10.1038/s41577-022-00762-9}{\textit{Nat Rev Immunol}. 2022;22:639-649.}
+
+    \item Ackermann M, et al. Pulmonary vascular endothelialitis, thrombosis, and angiogenesis in COVID-19. \href{https://doi.org/10.1056/NEJMoa2015432}{\textit{N Engl J Med}. 2020;383:120-128.}
+
+    \item Pasparakis M, Vandenabeele P. Necroptosis and its role in inflammation. \href{https://doi.org/10.1038/nature14191}{\textit{Nature}. 2015;517:311-320.}
+
+    \item Afzali B, Noris M, Lambrecht BN, Kemper C. The state of complement in COVID-19. \href{https://doi.org/10.1038/s41577-021-00665-1}{\textit{Nat Rev Immunol}. 2022;22:77-84.}
+
+    \item Cervia-Hasler C, et al. Persistent complement dysregulation with signs of thromboinflammation in active long Covid. \href{https://doi.org/10.1126/science.adg7942}{\textit{Science}. 2024;383:eadg7942.}
+\end{enumerate}
+
+\end{document}

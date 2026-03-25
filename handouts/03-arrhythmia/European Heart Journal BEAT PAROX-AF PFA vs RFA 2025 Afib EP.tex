@@ -1,0 +1,397 @@
+% European Heart Journal BEAT PAROX-AF Trial 教學講義
+% 脈衝場消融術 vs 射頻消融術治療陣發性心房顫動
+\documentclass[12pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{European Heart Journal 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{BEAT PAROX-AF Trial}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{European Heart Journal}}\\[0.5cm]
+{\Large\textbf{Pulsed Field vs Radiofrequency Ablation for Paroxysmal Atrial Fibrillation: The BEAT PAROX-AF Trial}}\\[0.3cm]
+{\large 脈衝場消融術 vs 射頻消融術治療陣發性心房顫動：BEAT PAROX-AF 試驗}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1093/eurheartj/ehaf1115}{Eur Heart J 2025. DOI: 10.1093/eurheartj/ehaf1115}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+\keyfinding{
+\textbf{核心發現：}
+\begin{itemize}[noitemsep]
+    \item 單次手術成功率：PFA 77.2\% vs RFA 77.6\%（無顯著差異）
+    \item PFA 手術時間較短（59 vs 98 分鐘）、左心房停留時間較短（39 vs 77 分鐘）
+    \item PFA 透視時間較長（12 vs 7 分鐘）
+    \item PFA 嚴重不良事件較少（3.4\% vs 7.6\%）
+    \item RFA 組有 2 例 PV stenosis > 70\%，12 例 > 50\%；PFA 組無 PV stenosis
+\end{itemize}
+}
+
+%============================================================
+\section{研究背景}
+%============================================================
+
+\subsection{心房顫動消融術的演進}
+
+\begin{itemize}
+    \item 心房顫動（AF）是最常見的持續性心律不整，成人盛行率 2-4\%
+    \item 1997-98 年發現肺靜脈可觸發 AF，肺靜脈隔離（PVI）成為治療核心
+    \item 傳統能量來源：射頻消融（RFA）、冷凍球囊（Cryoballoon）
+    \item \textbf{脈衝場消融（PFA）}：新型非熱能技術，利用不可逆電穿孔
+\end{itemize}
+
+\subsection{PFA 的特點}
+
+\begin{itemize}
+    \item 使用微秒級高電壓脈衝造成不可逆電穿孔（irreversible electroporation）
+    \item \textbf{組織選擇性}：對心肌細胞選擇性高，可能減少週邊組織傷害
+    \item 理論上可降低食道、膈神經、肺靜脈狹窄等熱能相關併發症
+    \item 先前研究顯示 3 個月重新 mapping 時 PVI 持久性高
+\end{itemize}
+
+%============================================================
+\section{研究設計}
+%============================================================
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{項目} & \textbf{內容} \\
+\midrule
+\endfirsthead
+\midrule
+\textbf{項目} & \textbf{內容} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+試驗名稱 & BEAT PAROX-AF \\
+\midrule
+設計 & 歐洲多中心、開放標籤、隨機對照、優越性試驗 \\
+\midrule
+中心數 & 9 個高量中心（法國、捷克、德國、奧地利、比利時）\\
+\midrule
+納入條件 & • 18-80 歲\newline • 有症狀、藥物抗性陣發性 AF\newline • Class I 或 IIa AF 消融適應症\newline • 口服抗凝劑 > 3 週 \\
+\midrule
+排除條件 & • 持續性 AF\newline • 續發性 AF（電解質、甲狀腺、酒精）\newline • 左心房前後徑 $\geq$ 5.5 cm\newline • 先前心房消融（CTI flutter 除外）\newline • PV 異常、狹窄或 stent \\
+\midrule
+隨機分配 & 1:1，依中心分層 \\
+\midrule
+盲法 & 開放標籤（因介入本質無法盲化）\newline 獨立 CEC 評估終點 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{介入方式}
+%============================================================
+
+\subsection{PFA 組：FARAPULSE 系統}
+
+\begin{itemize}
+    \item 設備：FARAPULSE™ Ablation System（Boston Scientific）
+    \item 導管：Pentaspline 消融導管（31 mm 或 35 mm）
+    \item 能量：2000V 高電壓脈衝
+    \item 方式：每條肺靜脈至少 8 次能量傳遞，使用 basket 和 flower 兩種配置
+    \item 終點：入口和/或出口阻斷確認 PVI
+    \item \textbf{不使用 mapping 系統}
+\end{itemize}
+
+\subsection{RFA 組：CLOSE Protocol}
+
+\begin{itemize}
+    \item 設備：CARTO® 3 System（Biosense Webster）
+    \item 導管：Contact force-sensing catheter（SmartTouch® 或 SmartTouch® Surround Flow）
+    \item 能量：35-45 W
+    \item 目標：
+    \begin{itemize}
+        \item 後壁 Ablation Index：300-400
+        \item 前壁 Ablation Index：$\geq$ 500
+        \item 病灶間距：$\leq$ 6 mm
+    \end{itemize}
+    \item 終點：入口和/或出口阻斷確認 PVI
+\end{itemize}
+
+%============================================================
+\section{追蹤與監測}
+%============================================================
+
+\begin{itemize}
+    \item \textbf{追蹤期}：12 個月
+    \item \textbf{訪視}：1 個月電話、2/6/12 個月門診
+    \item \textbf{心律監測}：
+    \begin{itemize}
+        \item 常規 12-lead ECG 和 24 小時 Holter
+        \item 每週 Kardia™ 單導程 ECG 傳輸
+        \item 有症狀時額外記錄
+    \end{itemize}
+    \item \textbf{影像}：2 個月 CT 或 MRI 評估 PV 狹窄
+    \item \textbf{Blanking period}：2 個月
+\end{itemize}
+
+%============================================================
+\section{主要終點與定義}
+%============================================================
+
+\textbf{主要療效終點}：12 個月單次手術臨床成功率
+
+成功定義（依據 2017 HRS 共識）：
+\begin{enumerate}
+    \item 成功完成 AF 消融
+    \item Blanking period 後無 $\geq$ 30 秒心房心律不整復發
+    \item Blanking period 後未恢復 Class I/III 抗心律不整藥物
+    \item Blanking period 後未接受心臟整流
+    \item 任何時間未接受再次消融（典型 flutter 除外）
+\end{enumerate}
+
+%============================================================
+\section{研究結果}
+%============================================================
+
+\subsection{患者特徵}
+
+\begin{longtable}{p{5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{特徵} & \textbf{PFA (n=145)} & \textbf{RFA (n=144)} \\
+\midrule
+\endfirsthead
+\midrule
+\textbf{特徵} & \textbf{PFA (n=145)} & \textbf{RFA (n=144)} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+年齡（中位數） & 65.0 歲 & 62.5 歲 \\
+\midrule
+男性 & 57.2\% & 59.0\% \\
+\midrule
+BMI (mean) & 27.2 kg/m² & 27.5 kg/m² \\
+\midrule
+高血壓 & 51.7\% & 52.1\% \\
+\midrule
+冠狀動脈疾病 & 8.3\% & 14.6\% \\
+\midrule
+糖尿病 & 10.3\% & 9.7\% \\
+\midrule
+AF 病程（中位數） & 12.5 個月 & 12.6 個月 \\
+\midrule
+Class I/III AAD 使用 & 65.5\% & 59.0\% \\
+\midrule
+CHA₂DS₂-VASc (mean) & 1.8 & 1.7 \\
+\midrule
+左心房直徑 (mean) & 40.9 mm & 40.3 mm \\
+\midrule
+LVEF (mean) & 61.0\% & 61.3\% \\
+\bottomrule
+\end{longtable}
+
+\subsection{手術特徵}
+
+\begin{longtable}{p{5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{項目} & \textbf{PFA} & \textbf{RFA} \\
+\midrule
+\endfirsthead
+\midrule
+\textbf{項目} & \textbf{PFA} & \textbf{RFA} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+總手術時間 & 59 $\pm$ 22 分鐘 & 98 $\pm$ 33 分鐘 \\
+\midrule
+左心房停留時間 & 39 $\pm$ 16 分鐘 & 77 $\pm$ 28 分鐘 \\
+\midrule
+透視時間 & 12 $\pm$ 6 分鐘 & 7 $\pm$ 6 分鐘 \\
+\midrule
+PVI 成功率 & 100\% & 100\% \\
+\midrule
+CTI ablation 併行 & 4.1\% & 9.7\% \\
+\bottomrule
+\end{longtable}
+
+\note{PFA 手術時間較短約 40 分鐘，左心房停留時間較短約 38 分鐘，但透視時間較長約 5 分鐘。}
+
+\subsection{主要終點結果}
+
+\begin{center}
+\begin{tikzpicture}
+    % PFA bar
+    \fill[emergency_blue!70] (0,0) rectangle (3.86,1);
+    \node at (1.93,0.5) {\textcolor{white}{\textbf{PFA 77.2\%}}};
+
+    % RFA bar
+    \fill[emergency_red!70] (5,0) rectangle (8.88,1);
+    \node at (6.94,0.5) {\textcolor{white}{\textbf{RFA 77.6\%}}};
+
+    % Labels
+    \node at (1.93,-0.4) {112/145};
+    \node at (6.94,-0.4) {111/143};
+
+    % Title
+    \node at (4.5,1.8) {\textbf{12 個月單次手術成功率}};
+    \node at (4.5,1.3) {調整後差異：0.9\% (95\% CI: -8.2\% to 10.1\%; P = .84)};
+\end{tikzpicture}
+\end{center}
+
+\textbf{治療失敗原因分析：}
+
+\begin{longtable}{p{7cm}p{3cm}p{3cm}}
+\toprule
+\textbf{失敗原因} & \textbf{PFA} & \textbf{RFA} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+初始手術失敗 & 0 (0\%) & 0 (0\%) \\
+\midrule
+心房心律不整復發 & 27 (18.6\%) & 23 (16.0\%) \\
+\midrule
+恢復 AAD & 9 (6.2\%) & 12 (8.4\%) \\
+\midrule
+再次消融 & 13 (9.0\%) & 9 (6.3\%) \\
+\midrule
+心臟整流 & 1 (0.7\%) & 1 (0.7\%) \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{安全性結果}
+%============================================================
+
+\subsection{嚴重不良事件（SAE）}
+
+\begin{longtable}{p{7cm}p{3cm}p{3cm}}
+\toprule
+\textbf{事件} & \textbf{PFA (n=145)} & \textbf{RFA (n=144)} \\
+\midrule
+\endfirsthead
+\midrule
+\textbf{事件} & \textbf{PFA (n=145)} & \textbf{RFA (n=144)} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+死亡 & 0 (0\%) & 0 (0\%) \\
+\midrule
+中風 & 0 (0\%) & 0 (0\%) \\
+\midrule
+持續性膈神經麻痺 & 0 (0\%) & 0 (0\%) \\
+\midrule
+心肌梗塞 & 0 (0\%) & 0 (0\%) \\
+\midrule
+暫時性腦缺血 & 1 (0.7\%) & 0 (0\%) \\
+\midrule
+心包填塞/穿孔 & 0 (0\%) & 2 (1.4\%) \\
+\midrule
+心包炎 & 1 (0.7\%) & 1 (0.7\%) \\
+\midrule
+血管併發症 & 1 (0.7\%) & 4 (2.8\%) \\
+\midrule
+\textbf{PV 狹窄 $\geq$ 70\%} & \textbf{0 (0\%)} & \textbf{2 (1.4\%)} \\
+\midrule
+食道瘻管 & 0 (0\%) & 0 (0\%) \\
+\midrule
+\textbf{複合安全終點} & \textbf{5 (3.4\%)} & \textbf{11 (7.6\%)} \\
+\bottomrule
+\end{longtable}
+
+\begin{importantbox}
+\textbf{PV 狹窄分析（探索性終點）：}
+\begin{itemize}[noitemsep]
+    \item PV 狹窄 $\geq$ 70\%：PFA 0\% vs RFA 1.9\%（2/106 例）
+    \item PV 狹窄 $\geq$ 50\%：PFA 0\% vs RFA 11.3\%（12/106 例）
+    \item 差異：-11.2\%（95\% CI: -16.7\% to -5.6\%）
+    \item RFA 組 PV 直徑平均減少比 PFA 組多 17.5\%
+\end{itemize}
+\end{importantbox}
+
+%============================================================
+\section{與其他試驗比較}
+%============================================================
+
+\begin{longtable}{p{3.5cm}p{3cm}p{3cm}p{4cm}}
+\toprule
+\textbf{試驗} & \textbf{比較} & \textbf{成功率} & \textbf{特點} \\
+\midrule
+\endfirsthead
+\midrule
+\textbf{試驗} & \textbf{比較} & \textbf{成功率} & \textbf{特點} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+BEAT PAROX-AF & PFA vs RFA (CLOSE) & 77\% vs 78\% & 標準化 RFA 對照 \\
+\midrule
+ADVENT & PFA vs Thermal (混合) & 73.3\% vs 71.3\% & 混合熱能對照 \\
+\midrule
+SINGLE SHOT CHAMPION & PFA vs Cryoballoon & 優於冷凍 & 使用植入式監測器 \\
+\midrule
+FIRE AND ICE & RFA vs Cryoballoon & < 70\% & 早期試驗 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{研究限制}
+%============================================================
+
+\begin{enumerate}
+    \item \textbf{患者選擇}：高度篩選的族群，可能不代表一般臨床實務
+    \item \textbf{設備限制}：僅使用 Pentaspline PFA 導管，結果可能不適用於其他 PFA 系統
+    \item \textbf{中心因素}：高量有經驗中心，RFA 結果可能優於低量中心
+    \item \textbf{監測方式}：未使用植入式心律監測器，可能低估復發率
+    \item \textbf{追蹤時間}：僅 12 個月，長期結果未知
+    \item \textbf{未評估}：溶血或腎衰竭（試驗設計於 2020 年）
+\end{enumerate}
+
+%============================================================
+\section{臨床意義與結論}
+%============================================================
+
+\begin{importantbox}
+\textbf{BEAT PAROX-AF 試驗結論：}
+\begin{enumerate}[noitemsep]
+    \item PFA 與優化的 RFA（CLOSE protocol）在陣發性 AF 治療上療效相當
+    \item 兩組 12 個月單次手術成功率皆超過 77\%
+    \item PFA 優勢：
+    \begin{itemize}[noitemsep]
+        \item 手術時間較短（約 40 分鐘）
+        \item 左心房停留時間較短（約 50\%）
+        \item 較少嚴重不良事件
+        \item \textbf{無 PV 狹窄}
+    \end{itemize}
+    \item PFA 劣勢：透視時間較長（約 5 分鐘）
+    \item 無死亡、中風或食道瘻管發生
+\end{enumerate}
+\end{importantbox}
+
+\note{PFA 在有經驗中心是安全有效的 AF 消融選項，對 PV 的保護效果可能優於傳統熱能消融。}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Jais P, Neuzil P, Scherr D, et al. Pulsed field vs radiofrequency ablation for paroxysmal atrial fibrillation: the BEAT PAROX-AF trial. \href{https://doi.org/10.1093/eurheartj/ehaf1115}{\textit{Eur Heart J}. 2025. DOI: 10.1093/eurheartj/ehaf1115}
+
+    \item Reddy VY, et al. Pulsed field or conventional thermal ablation for paroxysmal atrial fibrillation. \href{https://doi.org/10.1056/NEJMoa2307291}{\textit{N Engl J Med}. 2023;389:1660-71.}
+
+    \item Kuck KH, et al. Cryoballoon or radiofrequency ablation for paroxysmal atrial fibrillation. \href{https://doi.org/10.1056/NEJMoa1602014}{\textit{N Engl J Med}. 2016;374:2235-45.}
+
+    \item Reichlin T, et al. Pulsed field or cryoballoon ablation for paroxysmal atrial fibrillation. \href{https://doi.org/10.1056/NEJMoa2502280}{\textit{N Engl J Med}. 2025;392:1497-507.}
+
+    \item Phlips T, et al. Improving procedural and one-year outcome after contact force-guided pulmonary vein isolation: the role of interlesion distance, ablation index, and contact force variability in the 'CLOSE'-protocol. \href{https://doi.org/10.1093/europace/eux376}{\textit{Europace}. 2018;20:f419-27.}
+
+    \item Ekanem E, et al. Safety of pulsed field ablation in more than 17,000 patients with atrial fibrillation in the MANIFEST-17K study. \href{https://doi.org/10.1038/s41591-024-03114-3}{\textit{Nat Med}. 2024;30:2020-9.}
+\end{enumerate}
+
+\end{document}

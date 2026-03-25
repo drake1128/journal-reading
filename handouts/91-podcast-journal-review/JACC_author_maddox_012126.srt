@@ -1,0 +1,488 @@
+1
+00:00:00,000 --> 00:00:07,980
+Hello everybody! Thanks for joining us on another Jack author interview. My name is
+
+2
+00:00:07,980 --> 00:00:14,380
+Mitoaaki Salano, Executive Associate Editor Jack and we are honored to be joined by
+
+3
+00:00:14,380 --> 00:00:20,179
+Dr. Karen Joy Maddox from Washington University School of Medicine St. Louis.
+
+4
+00:00:20,179 --> 00:00:29,260
+And today we will have Karen kind of explain about the research original
+
+5
+00:00:29,260 --> 00:00:33,340
+article that has been pulled to Jack. The title of the article is
+
+6
+00:00:33,340 --> 00:00:39,200
+Hospitalizations and Mortality Among Medicare Beneficiaries at Cardiovascular
+
+7
+00:00:39,200 --> 00:00:45,820
+Risk Disruptions and Recovery from the COVID-19 Pandemic. And with that I
+
+8
+00:00:45,820 --> 00:00:50,939
+would like to have Karen describe Dr. Article. Thank you for joining us, Karen.
+
+9
+00:00:50,939 --> 00:00:54,820
+First thank you so much for having me. It's an honor to get to chat with you
+
+10
+00:00:54,820 --> 00:00:59,619
+about this and I also want to go ahead and thank all of my co-authors, particularly
+
+11
+00:00:59,619 --> 00:01:03,820
+Rishi Waderra and Arji Waken who really played a huge role in bringing this
+
+12
+00:01:03,820 --> 00:01:08,500
+forward. So to thank all the co-authors as well for making this happen. This is a
+
+13
+00:01:08,500 --> 00:01:12,299
+labor of love to get it all to the finish line. So I'm thrilled to get to talk
+
+14
+00:01:12,299 --> 00:01:17,260
+about it a little bit today. So our main question for this paper was trying to
+
+15
+00:01:17,260 --> 00:01:22,859
+understand what happened sort of not in the peak moments of the pandemic but
+
+16
+00:01:22,859 --> 00:01:28,659
+really in sort of the couple of years that followed. So 2021 and 2022 as business
+
+17
+00:01:28,659 --> 00:01:32,780
+kind of got back to normal but we knew that there were still these lingering
+
+18
+00:01:32,780 --> 00:01:37,500
+effects of the pandemic particularly on beneficiaries with cardiovascular
+
+19
+00:01:37,500 --> 00:01:41,980
+risk factors or disease. So big picture the goal was essentially to do an
+
+20
+00:01:41,980 --> 00:01:47,219
+epidemiologic look at the Medicare population and understand among folks with
+
+21
+00:01:47,219 --> 00:01:52,539
+cardiovascular risk factors or cardiovascular disease what happened in those
+
+22
+00:01:52,540 --> 00:01:57,020
+couple of years after the peak pandemic in terms of utilization and patient
+
+23
+00:01:57,020 --> 00:02:02,380
+outcomes. Thank you. I mean some porridge to understand what happened in the
+
+24
+00:02:02,380 --> 00:02:07,260
+later phase of the pandemic. We kind of know what occurred during the first
+
+25
+00:02:07,260 --> 00:02:11,379
+year of the pandemic or the two years into the pandemic but we don't really have
+
+26
+00:02:11,379 --> 00:02:17,700
+too many reports on the later phase. So can you talk about the key findings and
+
+27
+00:02:17,699 --> 00:02:23,659
+key takeaways from this paper? Sure. So we had we had about 50 million folks in
+
+28
+00:02:23,659 --> 00:02:29,019
+both the pre-pandemic so 2018-19 and sort of the late pandemic the 2021-22
+
+29
+00:02:29,019 --> 00:02:34,620
+time frame. So the totality of Medicare beneficiaries fee-for-service and
+
+30
+00:02:34,620 --> 00:02:40,939
+Medicare Advantage and from the pre-pandemic to late pandemic the populations
+
+31
+00:02:40,939 --> 00:02:46,060
+were relatively similar except for a big shift toward Medicare Advantage. But
+
+32
+00:02:46,060 --> 00:02:49,099
+what we found was that utilization and outcomes were actually quite a bit
+
+33
+00:02:49,099 --> 00:02:54,780
+different in that two year period again post that sort of the peak 2020. So
+
+34
+00:02:54,780 --> 00:02:59,740
+hospital visits were eight or nine percent lower overall. So if you look at the
+
+35
+00:02:59,740 --> 00:03:03,780
+hospital curve we're sort of going along at a certain utilization huge drop in
+
+36
+00:03:03,780 --> 00:03:09,219
+COVID which we've seen documented before and then a recovery but not back up to
+
+37
+00:03:09,219 --> 00:03:15,259
+the same level as before in terms of hospital utilization. We saw outpatient
+
+38
+00:03:15,259 --> 00:03:19,299
+visits actually recover back above and part of that was driven by telehealth
+
+39
+00:03:19,299 --> 00:03:24,459
+right. So we had this new sort of modality for people to access KRCC outpatient
+
+40
+00:03:24,459 --> 00:03:31,019
+visits bumping along drop and then go up and up above their baseline post not post
+
+41
+00:03:31,019 --> 00:03:38,620
+COVID post peak COVID. But I think the most concerning thing was we saw also a
+
+42
+00:03:38,620 --> 00:03:44,259
+pretty sustained increase in mortality. So similarly mortality on a certain trend
+
+43
+00:03:44,259 --> 00:03:52,019
+big spike during COVID and then continued spikes along with COVID waves such
+
+44
+00:03:52,019 --> 00:03:56,979
+that the overall mortality among Medicare beneficiaries with cardiovascular
+
+45
+00:03:56,979 --> 00:04:02,939
+risk factors or disease in that period was about 20 percent higher in sort of a
+
+46
+00:04:02,939 --> 00:04:06,899
+relative scale depending a little bit on which group you're looking at. So you
+
+47
+00:04:06,899 --> 00:04:12,899
+know real differences in both utilization and outcomes in that sort of near
+
+48
+00:04:12,900 --> 00:04:17,180
+post pandemic late pandemic whatever we're going to call that period in that
+
+49
+00:04:17,180 --> 00:04:23,980
+in that time. Thank you Karen and you spoke about a certain populations about
+
+50
+00:04:23,980 --> 00:04:30,340
+holding much more vulnerability towards mortality hospitalizations. What did
+
+51
+00:04:30,340 --> 00:04:35,259
+you find from your these subgroups that you looked into or from the the
+
+52
+00:04:35,259 --> 00:04:40,379
+Medicare data set? So for the hospital visit rates we found that the decreases
+
+53
+00:04:40,420 --> 00:04:44,100
+were greatest in rural and socially vulnerable areas based on social
+
+54
+00:04:44,100 --> 00:04:49,180
+vulnerable social vulnerability index a little bit less so in Medicare
+
+55
+00:04:49,180 --> 00:04:54,019
+advantage. For the outpatient visits we saw that increased most in the urban
+
+56
+00:04:54,019 --> 00:04:58,459
+areas is pretty similar by social vulnerability and up most among Medicare
+
+57
+00:04:58,459 --> 00:05:03,180
+advantage. But then to focus on the mortality again we really saw that the
+
+58
+00:05:03,180 --> 00:05:08,219
+biggest increase in mortality was among socially vulnerable individuals or
+
+59
+00:05:08,220 --> 00:05:12,780
+people living in socially vulnerable areas and among Medicare advantage compared
+
+60
+00:05:12,780 --> 00:05:16,580
+to fee for service beneficiaries. We did not find a big difference in terms of
+
+61
+00:05:16,580 --> 00:05:21,900
+the mortality increase for rural versus urban. So we looked at that as well but
+
+62
+00:05:21,900 --> 00:05:25,860
+really the for mortality the social vulnerability and Medicare advantage were
+
+63
+00:05:25,860 --> 00:05:30,820
+two of the big two of the big differences. Thank you Karen so I think the
+
+64
+00:05:30,820 --> 00:05:35,940
+listeners are wondering you know why we see this trend and you know we can't
+
+65
+00:05:35,939 --> 00:05:41,339
+really exactly tell why we don't see the reasons behind the the Medicare data
+
+66
+00:05:41,339 --> 00:05:47,219
+itself we do have to in some aspects do have to persuade but what do you think
+
+67
+00:05:47,219 --> 00:05:51,740
+really happened or the discussion over the over the pandemic or the late phase
+
+68
+00:05:51,740 --> 00:05:56,300
+of the pandemic. Yeah and you can imagine we had the same question when we saw
+
+69
+00:05:56,300 --> 00:06:01,259
+the the numbers what on earth is happening here and why do we see it so
+
+70
+00:06:01,259 --> 00:06:06,060
+consistently and persistently. I think there's probably I've sort of bucketed
+
+71
+00:06:06,060 --> 00:06:10,779
+in my head at least into sort of three different areas and I think each one is
+
+72
+00:06:10,779 --> 00:06:16,019
+probably contributing I think one that we have only circumstantial evidence for
+
+73
+00:06:16,019 --> 00:06:19,339
+but you know this is why lots of different types of researchers exist is the
+
+74
+00:06:19,339 --> 00:06:24,860
+biological there's also perhaps a behavioral and then there's potentially a
+
+75
+00:06:24,860 --> 00:06:30,579
+systems bucket so to sort of go and order you know biologically we know that
+
+76
+00:06:30,579 --> 00:06:34,500
+COVID was quite dangerous right COVID itself was quite dangerous and the
+
+77
+00:06:34,500 --> 00:06:38,579
+aftermath of COVID was quite dangerous there's a study that came out in
+
+78
+00:06:38,579 --> 00:06:41,779
+Nature Communications quite recently looking at Swedish populations and
+
+79
+00:06:41,779 --> 00:06:46,180
+showing that the increased risk of death all caused mortality or cardiovascular
+
+80
+00:06:46,180 --> 00:06:50,860
+death was higher more than a year out and anyone who had previously had COVID so
+
+81
+00:06:50,860 --> 00:06:57,060
+there's a huge tale of COVID itself that we don't totally understand presumably
+
+82
+00:06:57,060 --> 00:07:01,180
+something related to inflammation you know every winter I mean I just
+
+83
+00:07:01,180 --> 00:07:07,699
+rounded for three weeks and we saw flu and COVID and para metanummo whatever
+
+84
+00:07:07,699 --> 00:07:12,660
+virus is out there right really triggering heart failure and ischemic stroke and
+
+85
+00:07:12,660 --> 00:07:17,699
+acute am I so there's got to be something biological to sort of how the virus
+
+86
+00:07:17,699 --> 00:07:25,500
+drove things either acute viruses or the sort of tale of the of the effect not
+
+87
+00:07:25,500 --> 00:07:29,819
+my scientific area I know people are working on this so I will just say that I
+
+88
+00:07:29,819 --> 00:07:33,699
+think there's something to that though again as you said we don't know exactly
+
+89
+00:07:33,699 --> 00:07:38,060
+you know the behavioral piece I think is important too we know there was care
+
+90
+00:07:38,060 --> 00:07:43,339
+avoidance during COVID and that seemed to persist particularly among women
+
+91
+00:07:43,339 --> 00:07:47,540
+among people from some racial and ethnic minority groups that may have suffered
+
+92
+00:07:47,540 --> 00:07:50,980
+from worse access in the first place we don't know whether that translates
+
+93
+00:07:50,980 --> 00:07:54,980
+into this data set because we can't ask people those questions but I think there's
+
+94
+00:07:54,980 --> 00:07:58,620
+always a lingering concern that some of the behaviors around care seeking may be
+
+95
+00:07:58,620 --> 00:08:02,100
+a little bit different access to care may be a little bit different with
+
+96
+00:08:02,100 --> 00:08:07,780
+backlogs for procedures prevention things like that and then the systems pieces
+
+97
+00:08:07,780 --> 00:08:12,100
+of you know words were hospitals strained is there something different about
+
+98
+00:08:12,100 --> 00:08:17,780
+care delivery or about the health care system it's hard to know there's another
+
+99
+00:08:17,780 --> 00:08:21,060
+paper that just came out and Jam and her medicine about skilled nursing
+
+100
+00:08:21,060 --> 00:08:25,860
+facility supply showing that it was quite decreased so if you have staffing
+
+101
+00:08:25,860 --> 00:08:29,100
+problems and skilled nursing facilities and people are you know staying in
+
+102
+00:08:29,100 --> 00:08:32,340
+the hospital too long what does that do for functional status for mortality
+
+103
+00:08:32,340 --> 00:08:37,059
+there were just so many things changing at once I don't think we can say that
+
+104
+00:08:37,059 --> 00:08:40,860
+there's any one sort of you know element that was driving the rest but I do
+
+105
+00:08:40,860 --> 00:08:44,419
+think it's worth understanding in each of those three buckets what happened to
+
+106
+00:08:44,419 --> 00:08:48,500
+the degree we can this is you know this is not the last time that we're going to
+
+107
+00:08:48,500 --> 00:08:51,539
+face some sort of a challenge to the health care system and so I think
+
+108
+00:08:51,539 --> 00:08:56,299
+understanding what might underlie those is really important thank you Karen I
+
+109
+00:08:56,299 --> 00:09:00,580
+mean I totally agree I mean looking at these patterns or temple trends across
+
+110
+00:09:00,580 --> 00:09:06,340
+the pandemic it's really not about you know just what happened it's also about
+
+111
+00:09:06,340 --> 00:09:12,580
+preparing for the next emergency and I hope it doesn't happen but I mean
+
+112
+00:09:12,580 --> 00:09:18,420
+sometimes it may happen and so understanding where our health care system is
+
+113
+00:09:18,420 --> 00:09:24,340
+really vulnerable and where it falls short how we can strengthen those
+
+114
+00:09:24,340 --> 00:09:31,500
+weak points probably is going to be the you know the very the takeaway and you know
+
+115
+00:09:31,500 --> 00:09:37,300
+we would have to be prepared for that and I think you know that's that's what
+
+116
+00:09:37,300 --> 00:09:41,820
+it really truly illustrates in your article and I really encourage our
+
+117
+00:09:41,820 --> 00:09:46,620
+listeners to go take the beautiful figures and of course the article itself
+
+118
+00:09:46,620 --> 00:09:54,180
+it's full of the content over the last the four five years and then you know
+
+119
+00:09:54,180 --> 00:09:59,180
+it's it's really to understand where we fall short in cardiovascular health and
+
+120
+00:09:59,180 --> 00:10:06,460
+who's going to be the most vulnerable population in the US well thank you for
+
+121
+00:10:06,460 --> 00:10:13,139
+joining us Karen and thank you all listeners for listening until next time
+
+122
+00:10:13,139 --> 00:10:17,620
+take care thank you
+

@@ -1,0 +1,519 @@
+\documentclass[12pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{腦中風預防教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{飲食與天然物質}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{腦中風預防：飲食模式與天然活性物質}}\\[0.5cm]
+{\Large\textbf{Dietary Approaches and Natural Products for Stroke Prevention}}\\[0.3cm]
+{\large 文獻整合回顧}\\[0.5cm]
+{\normalsize 整理自 Frontiers in Pharmacology, Stroke, Scientific Reports 三篇研究論文}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\tableofcontents
+\newpage
+
+%============================================================
+\section{前言與概述}
+%============================================================
+
+腦中風 (stroke) 為全球第二大死因，亦是導致長期失能的主要原因。預防策略除了控制傳統危險因子外，飲食介入與天然活性物質的神經保護作用，近年來受到越來越多關注。
+
+本講義整合三篇重要文獻：
+\begin{enumerate}
+    \item 天然產物對腦缺血的神經保護作用回顧 (Frontiers in Pharmacology, 2021)
+    \item 飲食模式在中風預防的角色 (Stroke, 2017)
+    \item 初榨橄欖油中 nitro-oleic acid 的心血管保護機轉 (Scientific Reports, 2014)
+\end{enumerate}
+
+\keyfinding{
+\textbf{核心概念：}
+\begin{itemize}
+    \item 地中海飲食 (Mediterranean diet) 與 DASH 飲食可降低中風風險約 10-20\%
+    \item 天然產物透過抗氧化、抗發炎、抗凋亡等多重機轉提供神經保護
+    \item 初榨橄欖油中的 nitro-oleic acid 可抑制動脈粥狀硬化相關標記物
+\end{itemize}
+}
+
+%============================================================
+\section{腦缺血的病理生理機轉}
+%============================================================
+
+\subsection{缺血性級聯反應 (Ischemic Cascade)}
+
+腦缺血後數分鐘內即啟動一系列病理變化：
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{病理機轉} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{病理機轉} & \textbf{說明} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+能量衰竭 (Energy failure) & ATP 耗竭導致 Na\textsuperscript{+}/K\textsuperscript{+}-ATPase 失能，細胞內 Na\textsuperscript{+} 與 Ca\textsuperscript{2+} 堆積 \\
+\midrule
+興奮性毒性 (Excitotoxicity) & Glutamate 過度釋放，NMDA 受體過度活化導致 Ca\textsuperscript{2+} 內流 \\
+\midrule
+氧化壓力 (Oxidative stress) & ROS (reactive oxygen species) 大量產生，包括 superoxide、hydroxyl radical、peroxynitrite \\
+\midrule
+發炎反應 (Inflammation) & Microglia 活化、pro-inflammatory cytokines (TNF-$\alpha$, IL-1$\beta$, IL-6) 釋放 \\
+\midrule
+細胞凋亡 (Apoptosis) & Caspase 級聯活化、Bcl-2/Bax 比例改變 \\
+\midrule
+自噬失調 (Autophagy dysregulation) & LC3-II、Beclin-1 表現異常 \\
+\midrule
+血腦屏障破壞 (BBB disruption) & Tight junction proteins 降解、Matrix metalloproteinases (MMPs) 活化 \\
+\bottomrule
+\end{longtable}
+
+\note{
+神經保護策略需針對多重病理機轉，單一標靶治療往往效果有限。天然產物的多效性 (pleiotropic effects) 可能提供更全面的保護。
+}
+
+%============================================================
+\section{飲食模式與中風風險}
+%============================================================
+
+\subsection{地中海飲食 (Mediterranean Diet)}
+
+地中海飲食特色：
+\begin{itemize}
+    \item 大量蔬菜、水果、全穀類、豆類
+    \item 以橄欖油為主要油脂來源
+    \item 適量魚類、家禽
+    \item 適量紅酒（隨餐）
+    \item 限制紅肉、加工肉品、甜食
+\end{itemize}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{研究/統計} & \textbf{發現} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{研究/統計} & \textbf{發現} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+PREDIMED 試驗 & 補充初榨橄欖油組：中風風險降低約 33\% (HR 0.67; 95\% CI 0.46-0.98)\newline 補充堅果組：風險降低但未達統計顯著 \\
+\midrule
+Meta-analysis (11 studies) & 每增加 2 分地中海飲食得分，總中風風險降低 5\% (HR 0.95; 95\% CI 0.92-0.99) \\
+\bottomrule
+\end{longtable}
+
+\subsection{DASH 飲食 (Dietary Approaches to Stop Hypertension)}
+
+DASH 飲食特色：
+\begin{itemize}
+    \item 強調蔬果、全穀類、低脂乳品
+    \item 限制鈉攝取（<2,300 mg/day，理想 <1,500 mg/day）
+    \item 限制飽和脂肪、膽固醇
+    \item 富含鉀、鈣、鎂
+\end{itemize}
+
+研究顯示高 DASH 飲食遵從度者，缺血性中風風險降低約 10\%。
+
+\subsection{特定食物與中風風險}
+
+\begin{longtable}{p{3.5cm}p{10.5cm}}
+\toprule
+\textbf{食物} & \textbf{與中風風險關係} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{食物} & \textbf{與中風風險關係} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+蔬菜水果 & 每天多攝取 200g 蔬果，中風風險降低約 10-16\%\newline 柑橘類水果尤其具保護效果 (flavanones) \\
+\midrule
+全穀類 & 高攝取量與中風風險呈負相關 \\
+\midrule
+橄欖油 & 高攝取量（vs 低攝取）：中風風險降低約 40\% \\
+\midrule
+魚類 & 每週 2-4 份魚類攝取可降低缺血性中風風險\newline Omega-3 脂肪酸的抗發炎作用 \\
+\midrule
+紅肉/加工肉品 & 高攝取量與中風風險增加相關 \\
+\midrule
+含糖飲料 & 高攝取量與中風風險增加相關 \\
+\bottomrule
+\end{longtable}
+
+\subsection{微量營養素}
+
+\begin{longtable}{p{3cm}p{11cm}}
+\toprule
+\textbf{營養素} & \textbf{與中風風險關係} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{營養素} & \textbf{與中風風險關係} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+鉀 (Potassium) & 高攝取量與中風風險降低相關 (約 20\% 風險降低)\newline 建議攝取量：3,500-4,700 mg/day \\
+\midrule
+鈉 (Sodium) & 高攝取量與中風風險增加相關\newline 建議限制：<2,300 mg/day \\
+\midrule
+鈣 (Calcium) & 飲食中鈣攝取與中風風險呈負相關\newline 補充劑的效果則較不確定 \\
+\midrule
+鎂 (Magnesium) & 每增加 100 mg/day，總中風風險降低約 8\% \\
+\midrule
+維生素 D & 低血清 25(OH)D 濃度與中風風險增加相關\newline 補充劑的保護效果尚待證實 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{天然產物的神經保護作用}
+%============================================================
+
+\subsection{類黃酮類 (Flavonoids)}
+
+\subsubsection{Baicalin (黃芩苷)}
+
+來源：黃芩 (\textit{Scutellaria baicalensis})
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{作用機轉} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{作用機轉} & \textbf{說明} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+抗氧化 & 清除自由基、增加 SOD、GSH-Px 活性 \\
+\midrule
+抗發炎 & 抑制 NF-$\kappa$B 活化、減少 TNF-$\alpha$、IL-1$\beta$、IL-6 釋放 \\
+\midrule
+抗凋亡 & 上調 Bcl-2、下調 Bax 及 caspase-3 表現 \\
+\midrule
+調節自噬 & 活化 AMPK-mTOR-ULK1 pathway \\
+\midrule
+保護血腦屏障 & 維持 tight junction proteins (ZO-1, occludin, claudin-5) \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{Scutellarin (燈盞乙素)}
+
+來源：燈盞細辛 (\textit{Erigeron breviscapus})
+
+主要作用：
+\begin{itemize}
+    \item 抗氧化：增加 Nrf2/HO-1 pathway 活性
+    \item 抗發炎：抑制 NLRP3 inflammasome 活化
+    \item 改善微循環：抑制血小板聚集
+\end{itemize}
+
+\subsubsection{Quercetin (槲皮素)}
+
+來源：洋蔥、蘋果、綠茶
+
+主要作用：
+\begin{itemize}
+    \item 強效抗氧化劑
+    \item 抑制 lipoxygenase 和 phospholipase A2
+    \item 調節 PI3K/Akt pathway
+\end{itemize}
+
+\subsection{生物鹼類 (Alkaloids)}
+
+\subsubsection{Berberine (黃連素)}
+
+來源：黃連、黃柏
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{作用機轉} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{作用機轉} & \textbf{說明} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+抗氧化 & 減少 ROS 產生、增加抗氧化酵素活性 \\
+\midrule
+抗發炎 & 抑制 NF-$\kappa$B、MAPK pathway \\
+\midrule
+調節代謝 & 活化 AMPK、改善胰島素敏感度 \\
+\midrule
+調節自噬 & 調控 mTOR/Beclin-1 pathway \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{Ligustrazine (川芎嗪/Tetramethylpyrazine)}
+
+來源：川芎 (\textit{Ligusticum chuanxiong})
+
+主要作用：
+\begin{itemize}
+    \item 改善腦血流
+    \item 抑制血小板聚集
+    \item 保護血腦屏障
+    \item 抑制 Ca\textsuperscript{2+} 過載
+\end{itemize}
+
+\subsection{多酚類 (Polyphenols)}
+
+\subsubsection{Curcumin (薑黃素)}
+
+來源：薑黃 (\textit{Curcuma longa})
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{作用機轉} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{作用機轉} & \textbf{說明} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+抗氧化 & 直接清除自由基、活化 Nrf2/ARE pathway \\
+\midrule
+抗發炎 & 抑制 NF-$\kappa$B、COX-2、iNOS \\
+\midrule
+神經保護 & 增加 BDNF 表現、促進神經可塑性 \\
+\midrule
+調節細胞死亡 & 抑制凋亡、調節自噬 \\
+\bottomrule
+\end{longtable}
+
+\note{
+Curcumin 生體可用率 (bioavailability) 低是其臨床應用的主要限制。Piperine (胡椒鹼) 可增加其吸收達 2000\%。
+}
+
+\subsubsection{Resveratrol (白藜蘆醇)}
+
+來源：葡萄皮、紅酒、花生
+
+主要作用：
+\begin{itemize}
+    \item 活化 SIRT1 (沉默訊息調節因子)
+    \item 抗氧化、抗發炎
+    \item 改善粒線體功能
+    \item 促進血管新生 (angiogenesis)
+\end{itemize}
+
+\subsection{皂苷類 (Saponins)}
+
+\subsubsection{Ginsenosides (人參皂苷)}
+
+來源：人參 (\textit{Panax ginseng})
+
+主要活性成分包括 Rg1、Rb1、Rd 等。
+
+主要作用：
+\begin{itemize}
+    \item 抗氧化、抗發炎
+    \item 調節 NO 合成
+    \item 抑制興奮性毒性
+    \item 促進神經再生
+\end{itemize}
+
+\subsubsection{Astragaloside IV (黃耆甲苷)}
+
+來源：黃耆 (\textit{Astragalus membranaceus})
+
+主要作用：
+\begin{itemize}
+    \item 保護血腦屏障完整性
+    \item 抗凋亡：調節 Bcl-2/Bax 比例
+    \item 抗發炎：抑制 NF-$\kappa$B 活化
+\end{itemize}
+
+\subsection{萜類 (Terpenoids)}
+
+\subsubsection{Ginkgolide B (銀杏內酯 B)}
+
+來源：銀杏 (\textit{Ginkgo biloba})
+
+主要作用：
+\begin{itemize}
+    \item 特異性 PAF (platelet-activating factor) 拮抗劑
+    \item 改善腦血流
+    \item 抗氧化
+\end{itemize}
+
+\subsubsection{Borneol (冰片)}
+
+來源：龍腦香 (\textit{Dryobalanops aromatica})
+
+主要作用：
+\begin{itemize}
+    \item 增加血腦屏障通透性，促進其他藥物腦部分布
+    \item 抗發炎
+    \item 鎮痛作用
+\end{itemize}
+
+%============================================================
+\section{Nitro-oleic Acid 與心血管保護}
+%============================================================
+
+\subsection{初榨橄欖油的特殊成分}
+
+初榨橄欖油 (extra virgin olive oil, EVOO) 除了含有 oleic acid (油酸，約 70\%) 及多酚類外，尚含有 nitro-fatty acids (硝基脂肪酸)。
+
+Nitro-oleic acid (OA-NO\textsubscript{2}) 是其中研究最多的化合物，具有獨特的生物活性。
+
+\subsection{Lp-PLA2 與動脈粥狀硬化}
+
+Lipoprotein-associated phospholipase A\textsubscript{2} (Lp-PLA\textsubscript{2}) 是一個新興的心血管風險標記物：
+
+\begin{itemize}
+    \item 主要由 macrophages 產生
+    \item 水解 oxidized LDL 中的 oxidized phospholipids
+    \item 產生 lysophosphatidylcholine (LPC) 與 oxidized fatty acids，促進發炎
+    \item 在動脈粥狀硬化斑塊中高度表現
+    \item 高 Lp-PLA\textsubscript{2} 活性與心血管事件風險增加相關
+\end{itemize}
+
+\subsection{OA-NO\textsubscript{2} 的作用機轉}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{作用} & \textbf{機轉說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{作用} & \textbf{機轉說明} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+降低 Lp-PLA\textsubscript{2} 表現 & OA-NO\textsubscript{2} 顯著降低人類 THP-1 巨噬細胞中 Lp-PLA\textsubscript{2} 的 mRNA 及蛋白質表現 \\
+\midrule
+抑制 p42/p44 MAPK & OA-NO\textsubscript{2} 抑制 p42/p44 MAPK 磷酸化，此為降低 Lp-PLA\textsubscript{2} 的關鍵途徑 \\
+\midrule
+抑制 NF-$\kappa$B 活化 & OA-NO\textsubscript{2} 抑制 NF-$\kappa$B 的活化，減少發炎基因轉錄 \\
+\midrule
+非 NO 依賴性 & 此效應不是透過 NO 釋放達成（carboxy-PTIO 無法阻斷） \\
+\midrule
+非 PPAR$\gamma$ 依賴性 & 此效應不是透過 PPAR$\gamma$ 活化達成（GW9662 無法阻斷） \\
+\bottomrule
+\end{longtable}
+
+\note{
+OA-NO\textsubscript{2} 透過獨特的 p42/p44 MAPK 與 NF-$\kappa$B 抑制途徑降低 Lp-PLA\textsubscript{2} 表現，提供了初榨橄欖油心血管保護作用的分子機轉解釋。
+}
+
+%============================================================
+\section{臨床意涵與建議}
+%============================================================
+
+\subsection{飲食建議}
+
+\begin{importantbox}
+\textbf{中風一級預防飲食建議：}
+\begin{enumerate}
+    \item 採用地中海飲食或 DASH 飲食模式
+    \item 每日蔬果攝取 $\geq$ 400-500g
+    \item 以初榨橄欖油取代其他油脂
+    \item 每週魚類 $\geq$ 2 份（富含 omega-3）
+    \item 限制鈉攝取 <2,300 mg/day
+    \item 攝取足夠鉀 (3,500-4,700 mg/day) 與鎂
+    \item 限制紅肉、加工肉品、含糖飲料
+\end{enumerate}
+\end{importantbox}
+
+\subsection{天然物質的潛在角色}
+
+\begin{longtable}{p{3.5cm}p{10.5cm}}
+\toprule
+\textbf{化合物} & \textbf{臨床應用現況} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{化合物} & \textbf{臨床應用現況} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+銀杏製劑 & 多國已核准用於認知功能改善、周邊血管疾病\newline 部分證據支持用於急性缺血性中風 \\
+\midrule
+川芎嗪 (Ligustrazine) & 中國大陸廣泛用於缺血性腦血管疾病\newline 靜脈注射劑型 \\
+\midrule
+燈盞乙素 (Breviscapine) & 中國核准用於缺血性中風及冠心病 \\
+\midrule
+Curcumin & 多項臨床試驗進行中\newline 作為輔助治療的證據逐漸累積 \\
+\midrule
+Resveratrol & 主要作為保健食品\newline 臨床證據仍有限 \\
+\bottomrule
+\end{longtable}
+
+\subsection{研究限制與未來方向}
+
+\begin{enumerate}
+    \item \textbf{轉譯研究挑戰}：動物實驗結果轉化至人體的成功率仍低
+    \item \textbf{生體可用率}：許多天然物質口服生體可用率低
+    \item \textbf{標準化問題}：天然產物品質差異大
+    \item \textbf{藥物交互作用}：需注意與其他藥物的潛在交互作用
+    \item \textbf{最佳劑量}：大多數化合物的最佳治療劑量尚未確定
+\end{enumerate}
+
+%============================================================
+\section{重點摘要}
+%============================================================
+
+\keyfinding{
+\textbf{本講義重點：}
+\begin{enumerate}
+    \item 地中海飲食與 DASH 飲食已有強力證據支持其中風預防效果
+    \item 初榨橄欖油是地中海飲食的核心，其 nitro-oleic acid 成分可透過抑制 p42/p44 MAPK 及 NF-$\kappa$B 降低 Lp-PLA\textsubscript{2} 表現
+    \item 多種天然產物（flavonoids、alkaloids、polyphenols、saponins、terpenoids）在動物模型中展現神經保護效果
+    \item 這些天然產物透過多重機轉發揮作用：抗氧化、抗發炎、抗凋亡、調節自噬、保護血腦屏障
+    \item 飲食介入是安全、可行的中風一級預防策略
+\end{enumerate}
+}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Liu Z, Li R, Jiang H, et al. Neuroprotective Effect of Natural Products for Cerebral Ischemia: A Review. \href{https://doi.org/10.3389/fphar.2021.607412}{\textit{Front Pharmacol}. 2021;12:607412.}
+
+    \item Larsson SC. Dietary Approaches for Stroke Prevention. \href{https://doi.org/10.1161/STROKEAHA.117.017383}{\textit{Stroke}. 2017;48(10):2905-2911.}
+
+    \item Coles B, Bloodsworth A, Clark SR, et al. Nitrolinoleic Acid: An Endogenous Peroxisome Proliferator-Activated Receptor $\gamma$ Ligand. \href{https://doi.org/10.1073/pnas.162238599}{\textit{Proc Natl Acad Sci USA}. 2002;99(24):15675-15680.}
+
+    \item Martínez-González MA, Dominguez LJ, Delgado-Rodríguez M. Olive oil consumption and risk of CHD and/or stroke: a meta-analysis of case-control, cohort and intervention studies. \href{https://doi.org/10.1017/S0007114514000713}{\textit{Br J Nutr}. 2014;112(2):248-259.}
+
+    \item Estruch R, Ros E, Salas-Salvadó J, et al. Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts. \href{https://doi.org/10.1056/NEJMoa1800389}{\textit{N Engl J Med}. 2018;378(25):e34.}
+\end{enumerate}
+
+\end{document}

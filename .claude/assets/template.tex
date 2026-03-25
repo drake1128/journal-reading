@@ -1,0 +1,300 @@
+\documentclass[12pt,a4paper]{article}
+
+% ============================================================
+% Drake Journal Reading LaTeX Template
+% 作者: 謝慕揚醫師 MD, PhD, FESC
+% 
+% 使用說明:
+% 1. 表格使用 longtable，不要有垂直分隔線 |
+% 2. 表格內換行使用 \newline，不要使用 \\
+% 3. 藥物名稱、檢驗、檢查請維持英文
+% 4. Reference 格式請使用 \href 加上驗證過的 DOI
+% 5. 使用 XeLaTeX 編譯
+% ============================================================
+
+% Chinese font setup
+\usepackage{xeCJK}
+\usepackage{fontspec}
+\IfFontExistsTF{Noto Serif CJK TC}{
+  \setCJKmainfont{Noto Serif CJK TC}
+  \setCJKsansfont{Noto Serif CJK TC}
+  \setCJKmonofont{Noto Serif CJK TC}
+}{\setCJKmainfont{SimSun}
+  \setCJKsansfont{SimSun}
+  \setCJKmonofont{SimSun}
+}
+
+% Essential packages
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+
+% Color definitions
+\definecolor{emergency_red}{RGB}{186,24,27}
+\definecolor{emergency_blue}{RGB}{0,114,188}
+\definecolor{emergency_gray}{RGB}{120,120,120}
+\definecolor{highlight_yellow}{RGB}{255,250,205}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=emergency_blue,
+    citecolor=emergency_blue,
+    urlcolor=emergency_blue,
+    pdfborder={0 0 0}
+}
+
+% Title formats
+\titleformat{\section}{\Large\bfseries\color{emergency_red}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{emergency_blue}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{emergency_gray}}{\thesubsubsection}{1em}{}
+
+% Header/Footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{文件標題}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ============================================================
+% 文件資訊 - 請修改以下內容
+% ============================================================
+
+\title{\textbf{English Title Here\\
+中文標題在此}}
+\author{謝慕揚醫師 MD, PhD, FESC\\
+資料來源：Journal Name (Year)}
+\date{整理日期：2025年XX月XX日}
+
+\begin{document}
+
+\maketitle
+
+% Key findings box
+\begin{tcolorbox}[colback=yellow!10!white,colframe=orange!75!black,title=核心發現摘要]
+\textbf{重大發現：}在此描述本文最重要的發現...
+
+\textbf{臨床意義：}對臨床實務的影響...
+\end{tcolorbox}
+
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{研究概述}
+% ============================================================
+
+本研究為一項前瞻性多中心觀察研究，比較...（研究簡介）
+
+% ============================================================
+\section{研究資訊}
+% ============================================================
+
+\subsection{基本資料}
+
+\textbf{標題：}研究標題\\
+\textbf{作者：}First Author, Second Author, et al.\\
+\textbf{機構：}研究機構名稱\\
+\textbf{期刊：}Journal Name (Year)\\
+\textbf{DOI：}\href{https://doi.org/10.xxxx/xxxxx}{10.xxxx/xxxxx}\\
+\textbf{研究註冊：}ClinicalTrials.gov NCT00000000
+
+\subsection{研究背景與目標}
+
+\begin{itemize}
+    \item 背景說明一
+    \item 背景說明二
+    \item \textbf{研究目標：}本研究旨在...
+\end{itemize}
+
+% ============================================================
+\section{研究方法}
+% ============================================================
+
+\subsection{研究設計}
+
+\begin{itemize}
+    \item \textbf{研究類型：}前瞻性多中心觀察研究
+    \item \textbf{研究期間：}2020-2024年
+    \item \textbf{追蹤期間：}中位數 X 年
+    \item \textbf{分析方法：}傾向性評分匹配
+\end{itemize}
+
+\subsection{納入與排除條件}
+
+\begin{longtable}{p{3cm}p{11cm}}
+\toprule
+\textbf{類型} & \textbf{標準} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{類型} & \textbf{標準} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{納入條件} & 
+• 年齡 20-85 歲\newline
+• 條件二\newline
+• 條件三 \\
+\midrule
+\textbf{排除條件} & 
+• 排除條件一\newline
+• 排除條件二\newline
+• 排除條件三 \\
+\bottomrule
+\end{longtable}
+
+% ============================================================
+\section{主要結果}
+% ============================================================
+
+\subsection{基線特徵}
+
+\begin{longtable}{lcc}
+\caption{基線患者特徵} \\
+\toprule
+\textbf{特徵} & \textbf{治療組 (n=XXX)} & \textbf{對照組 (n=XXX)} \\
+\midrule
+\endfirsthead
+
+\multicolumn{3}{c}{\textbf{表格續接}} \\
+\toprule
+\textbf{特徵} & \textbf{治療組} & \textbf{對照組} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+年齡 (歲) & 65.2±10.3 & 64.8±9.8 \\
+男性 & 142 (71\%) & 138 (69\%) \\
+BMI (kg/m²) & 26.5±4.2 & 26.8±4.5 \\
+\midrule
+\multicolumn{3}{l}{\textbf{病史}} \\
+糖尿病 & 68 (34\%) & 72 (36\%) \\
+高血壓 & 156 (78\%) & 148 (74\%) \\
+\bottomrule
+\end{longtable}
+
+\subsection{主要終點結果}
+
+\begin{longtable}{p{5cm}ccc}
+\caption{Cox比例風險迴歸分析} \\
+\toprule
+\textbf{終點} & \textbf{HR} & \textbf{95\% CI} & \textbf{P值} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{終點} & \textbf{HR} & \textbf{95\% CI} & \textbf{P值} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{主要複合終點} & 0.72 & 0.52-0.99 & 0.018 \\
+心血管死亡 & 0.17 & 0.07-0.40 & <0.001 \\
+全因死亡 & 0.66 & 0.47-0.93 & 0.015 \\
+\bottomrule
+\end{longtable}
+
+% ============================================================
+\section{討論與臨床意義}
+% ============================================================
+
+\subsection{重要發現}
+
+\begin{enumerate}
+    \item \textcolor{blue}{\textbf{發現一：}}描述第一個重要發現...
+    \item \textcolor{blue}{\textbf{發現二：}}描述第二個重要發現...
+    \item \textcolor{blue}{\textbf{發現三：}}描述第三個重要發現...
+\end{enumerate}
+
+\subsection{臨床實務建議}
+
+\begin{tcolorbox}[
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{重點提醒},
+    fonttitle=\bfseries
+]
+根據本研究結果，臨床建議如下：
+\begin{enumerate}
+    \item 建議一
+    \item 建議二
+    \item 建議三
+\end{enumerate}
+\end{tcolorbox}
+
+% ============================================================
+\section{研究限制}
+% ============================================================
+
+\begin{enumerate}
+    \item \textbf{限制一：}描述限制...
+    \item \textbf{限制二：}描述限制...
+    \item \textbf{限制三：}描述限制...
+\end{enumerate}
+
+% ============================================================
+\section{結論}
+% ============================================================
+
+\begin{enumerate}
+    \item \textcolor{red}{\textbf{結論一：}}主要結論描述...
+    \item \textcolor{red}{\textbf{結論二：}}次要結論描述...
+\end{enumerate}
+
+\vspace{1cm}
+\textbf{關鍵詞：}關鍵詞一、關鍵詞二、關鍵詞三
+
+% ============================================================
+\section{參考文獻}
+% ============================================================
+
+\begin{enumerate}
+    \item Author1 Initials, Author2 Initials, Author3 Initials, et al. Article Title. \href{https://doi.org/10.xxxx/xxxxx}{\textit{Journal Name}. Year;Volume(Issue):Pages.}
+    
+    \item Second Reference Author et al. Second Article Title. \href{https://doi.org/10.xxxx/xxxxx}{\textit{Journal Name}. Year;Volume:Pages.}
+\end{enumerate}
+
+% ============================================================
+\section{縮寫對照表}
+% ============================================================
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+HR & Hazard Ratio (風險比) \\
+CI & Confidence Interval (信賴區間) \\
+LVEF & Left Ventricular Ejection Fraction (左室射血分數) \\
+\bottomrule
+\end{longtable}
+
+\end{document}
