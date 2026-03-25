@@ -1,0 +1,30 @@
+---
+title: "經導管心臟瓣膜治療技術"
+subtitle: "Transcatheter Valve Intervention — Mainz 2024 Fellowship Report"
+author: "謝慕揚醫師 Dr. Drake Mu-Yang Hsieh, MD, PhD"
+date: 2024-12-24
+lang: zh-TW
+---
+
+## 關於本報告 About This Report
+
+本報告為新竹臺大分院心血管中心謝慕揚醫師於 2024 年 11-12 月赴德國美茵茲大學醫院 (Johannes Gutenberg University Mainz) 心臟瓣膜中心進修之成果報告。
+
+This report documents the fellowship training of Dr. Drake Hsieh at the Heart Valve Center, University Medicine Mainz, Germany (November–December 2024).
+
+### 進修內容 Training Content
+
+- **M-TEER**: 二尖瓣經導管緣對緣修復 (Mitral Valve Transcatheter Edge-to-Edge Repair)
+- **T-TEER**: 三尖瓣經導管緣對緣修復 (Tricuspid Valve Transcatheter Edge-to-Edge Repair)
+- **TAVI/TAVR**: 經導管主動脈瓣膜植入/置換術 (Transcatheter Aortic Valve Implantation/Replacement)
+
+共參與 **125 例**經導管瓣膜手術：M-TEER 33 例、T-TEER 18 例、TAVI 74 例。
+
+### 語言版本 Language Versions
+
+- [中文版 Chinese Version](zh/index.qmd)
+- [English Version](en/index.qmd)
+
+---
+
+新竹臺大分院心血管中心 | National Taiwan University Hospital Hsinchu Branch, Cardiovascular Center

@@ -1,0 +1,432 @@
+\documentclass[12pt,a4paper]{article}
+
+% Drake_preamble.tex - LaTeX Preamble Template
+% 作者: 謝慕揚, MD, PhD, FESC
+
+% Including essential packages for Chinese typesetting
+\usepackage{xeCJK}
+\usepackage{fontspec}
+% Configuring Chinese font with Noto Serif CJK TC, fallback to SimSun
+\IfFontExistsTF{Noto Serif CJK TC}{
+  \setCJKmainfont{Noto Serif CJK TC}
+  \setCJKsansfont{Noto Serif CJK TC}
+  \setCJKmonofont{Noto Serif CJK TC}
+}{\setCJKmainfont{SimSun}
+  \setCJKsansfont{SimSun}
+  \setCJKmonofont{SimSun}
+}
+
+% Including other necessary packages
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{datetime2}
+\usepackage{hyperref}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+% Defining colors
+\definecolor{emergency_red}{RGB}{186,24,27}
+\definecolor{emergency_blue}{RGB}{0,114,188}
+\definecolor{emergency_gray}{RGB}{120,120,120}
+\definecolor{highlight_yellow}{RGB}{255,250,205}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=emergency_blue,
+    citecolor=emergency_blue,
+    urlcolor=emergency_blue,
+    pdfborder={0 0 0}
+}
+
+% Defining page geometry
+\geometry{
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2cm,
+  right=2cm,
+  headheight=25pt
+}
+
+% Adjusting topmargin to compensate for increased headheight
+\addtolength{\topmargin}{-10pt}
+
+% Setting title formats
+\titleformat{\section}[block]{\Large\bfseries\color{emergency_red}}{\thesection}{10pt}{}
+\titleformat{\subsection}[block]{\large\bfseries\color{emergency_blue}}{\thesubsection}{8pt}{}
+\titleformat{\subsubsection}[block]{\normalsize\bfseries\color{emergency_gray}}{\thesubsubsection}{6pt}{}
+
+% Defining custom environment for important notes
+\newmdenv[
+    linecolor=emergency_red,
+    backgroundcolor=highlight_yellow,
+    linewidth=2pt,
+    topline=true,
+    bottomline=true,
+    leftline=true,
+    rightline=true,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    innerleftmargin=10pt,
+    innerrightmargin=10pt
+]{importantbox}
+
+% Defining note command with tcolorbox
+\newcommand{\note}[1]{
+    \par
+    \noindent
+    \begin{tcolorbox}[
+        colback=emergency_blue!5!white,
+        colframe=emergency_blue,
+        title=\textbf{重點提醒},
+        fonttitle=\bfseries,
+        boxrule=0.5pt,
+        arc=3pt,
+        left=6pt,
+        right=6pt,
+        top=6pt,
+        bottom=6pt
+    ]
+    #1
+    \end{tcolorbox}
+}
+
+% Key findings box
+\newcommand{\keyfinding}[1]{
+    \par
+    \noindent
+    \begin{tcolorbox}[
+        colback=yellow!10!white,
+        colframe=orange!75!black,
+        title=\textbf{核心發現摘要},
+        fonttitle=\bfseries,
+        boxrule=0.5pt,
+        arc=3pt
+    ]
+    #1
+    \end{tcolorbox}
+}
+
+% Defining custom date format
+\newcommand{\mydate}{\the\year-\the\month-\the\day}
+
+\begin{document}
+
+%% Title Page
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{European Heart Journal Issue @ a Glance}}\\[0.5cm]
+{\Large\textbf{Focus on Arrhythmias: Cardiac Endogenous Transmitter Systems, Atrial Fibrillation, and Short QT and Brugada Syndromes}}\\[0.3cm]
+{\large 心律不整專題：心臟內源性傳遞系統、心房顫動、短QT症候群與Brugada症候群}\\[0.5cm]
+{\normalsize Eur Heart J. 2026;47:139-144}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+\keyfinding{
+\begin{itemize}[leftmargin=*]
+    \item 運動員異常心電圖：ESC EAPC 發布共識聲明，指導臨床判斷不確定意義的 ECG 異常
+    \item 新發心房顫動管理：AF-SCREEN 合作提出積極管理策略，包括共病管理、生活型態介入及早期節律控制
+    \item 短 QT 症候群基因治療：KCNH2 抑制-替換基因治療在轉基因兔模型成功矯正 QTc
+    \item 心房心肌病變 (AtCM) 標記物與預後：15.7\% 個體至少有一個 AtCM 標記物，與 AF、HF、中風相關
+    \item WITHDRAW-AF Trial：AF 節律控制後 LVEF 恢復的患者，撤除心衰藥物 6 個月內 90\% 維持 LVEF $\geq$50\%
+    \item Brugada 症候群 S-ICD：前瞻性研究顯示皮下 ICD 安全有效
+\end{itemize}
+}
+
+\section{運動員異常心電圖共識聲明}
+
+\subsection{背景}
+
+運動員常展現電學、結構及功能性變化，可能與心臟病理重疊。過去二十年來，對於何者可視為運動員正常、何者需進一步檢查已有重大進展。然而，某些 ECG 發現的臨床意義仍不明確——雖不常見且可能暗示潛在心臟疾病，但在健康運動員中也可能出現且無其他病理發現。
+
+\subsection{共識聲明重點}
+
+由 Finocchiaro 等人（University of London）發表於 ESC EAPC 的共識聲明：
+\begin{itemize}
+    \item 提供臨床決策指導：處理無症狀運動員中不確定意義的 ECG 異常
+    \item 運動資格評估：幫助判斷是否適合繼續競技運動
+    \item 補充現有指引：針對初步評估無支持性病理發現的 ECG 異常提供管理建議
+\end{itemize}
+
+\section{新發心房顫動：挑戰與機會}
+
+\subsection{概述}
+
+由 Svennberg 等人（Karolinska University Hospital）發表的 State of the Art Review，討論新發 AF 的診斷機會與早期診斷促進的管理路徑。
+
+\subsection{新發 AF 的特點}
+\begin{itemize}
+    \item AF 初發時通常為低負荷 (low burden)
+    \item 心血管共病可能不存在或處於早期階段
+    \item 傳統指引著重抗凝血栓預防，對節律控制採保守態度
+\end{itemize}
+
+\subsection{AF-SCREEN 合作建議}
+
+積極管理新發 AF 可能有益：
+\begin{itemize}
+    \item \textbf{共病與生活型態管理}：預防 AF 及相關心血管疾病的出現或進展
+    \item \textbf{主動節律控制 $\pm$ 抗凝}：預防 AF 相關的發病率與死亡率，包括中風與心衰
+    \item \textbf{平衡考量}：達成有利結果 vs 介入的併發症及潛在不良反應
+\end{itemize}
+
+\note{
+需要更多數據指導新發 AF 的最佳管理，並考慮 AF 負荷。長期研究使用大型國家數據庫連結電子病歷與節律監測裝置提供絕佳機會。
+}
+
+\section{心臟內源性傳遞系統 (Cardiac Endogenous Transmitter Systems)}
+
+\subsection{背景}
+
+內源性傳遞系統 (ETS) 是促進神經元間或神經元與效應細胞間信號傳遞的分子網路。傳統上認為心臟缺乏自身的 ETS，但近期研究已在心肌細胞與心臟起搏細胞中發現數個此類系統。
+
+\subsection{Xie 等人研究重點（同濟大學）}
+
+State of the Art Review 聚焦於心臟中的：
+\begin{itemize}
+    \item \textbf{Glutamatergic system}（麩胺酸系統）
+    \item \textbf{Cholinergic system}（膽鹼能系統）
+    \item \textbf{GABAergic system}（GABA 能系統）
+\end{itemize}
+
+提供這些系統的分子組成、電生理功能、致心律不整意義及治療潛力的全面分析。
+
+\subsection{臨床意義}
+
+提出以傳遞物質為基礎的心臟生物電調節模型，並突顯以 ETS 為標的預防及治療心律不整的創新策略。
+
+\section{短 QT 症候群基因治療}
+
+\subsection{Type 1 Short QT Syndrome (SQT1)}
+
+SQT1 是一種由 KCNH2 功能獲得性變異引起的遺傳性離子通道病變，導致：
+\begin{itemize}
+    \item 心臟再極化縮短與 QT 間期縮短
+    \item 易發生心室心律不整與猝死
+\end{itemize}
+
+\subsection{Nimani 等人研究（University of Bern）}
+
+Fast Track Congress 論文評估 KCNH2-specific suppression-and-replacement (KCNH2-SupRep) 基因治療在轉基因 SQT1 兔模型的療效。
+
+\subsubsection{方法}
+\begin{itemize}
+    \item KCNH2-SupRep：結合 KCNH2-shRNA 與其對應的 shRNA-immune KCNH2-cDNA 於 AAV9 載體
+    \item 直接注入主動脈根部 ($1 \times 10^{10}$ vg/kg)
+    \item 在體內以 ECG、離體以 optical mapping、細胞層級以 patch-clamp、calcium imaging 及 qPCR 評估療效
+\end{itemize}
+
+\subsubsection{結果}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{評估層級} & \textbf{結果} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{評估層級} & \textbf{結果} \\
+\midrule
+\endhead
+In vivo & QTc 正常化，不影響再極化異質性 \\
+\midrule
+Ex vivo & APD90 矯正，解決未治療 SQT1 心臟中增加的 apicobasal APD90 異質性 \\
+\midrule
+In silico & 減少 re-entry 形成 \\
+\midrule
+細胞層級 & APD90 延長接近野生型；IKr 在約 50\% 心室肌細胞中正常化；突變 KCNH2 轉錄本抑制 50-60\% \\
+\bottomrule
+\end{longtable}
+
+\note{
+這是首次在中型動物模型中證明 SQT1 基因治療療效的概念驗證研究。短 QT 症候群長期被認為除有限藥物選擇外無法治療，現已進入基因治療時代。Suppression-and-replacement 治療作為變異無關的方法，對功能獲得性與功能喪失性離子通道病變都有前景。
+}
+
+\section{心房顫動相關心房重塑的性別差異}
+
+\subsection{研究背景}
+
+\begin{itemize}
+    \item AF 在女性發生通常比男性晚約十年
+    \item 年齡調整後 AF 盛行率女性較低
+    \item 但女性的發病率與死亡率較高
+\end{itemize}
+
+\subsection{Nakashima 等人研究（Saga University, Japan）}
+
+Clinical Research 論文旨在透過整合高密度雙心房電壓標測與右心房切片，釐清非瓣膜性患者心房結構重塑的性別差異。
+
+\subsubsection{方法與結果}
+\begin{itemize}
+    \item 282 名接受 AF 消融術並進行右心房切片與高密度電壓標測的患者
+    \item 58 名無 AF 接受 SVT 消融術的患者作為對照
+    \item 評估切片部位電壓 (Vbiopsy)、整體左心房電壓 (VGLA) 及組織病理學參數
+\end{itemize}
+
+\subsubsection{主要發現}
+\begin{itemize}
+    \item 有 AF 的女性 Vbiopsy 與 VGLA 顯著低於男性 ($P < .001$)
+    \item 無 AF 患者中觀察到類似差異
+    \item 但組織病理學參數（纖維化、細胞間隙、肌纖維喪失、肌核密度、心肌細胞直徑）\textbf{無顯著性別差異}
+\end{itemize}
+
+\textbf{結論}：女性電壓較低可能是由於固有較小的心房質量，而非組織學差異。
+
+\section{心房心肌病變：標記物與預後}
+
+\subsection{Vad 等人研究（University Medical Center Groningen）}
+
+Clinical Research 論文檢驗心房心肌病變 (AtCM) 的潛在標記物與風險因子，以及與新發 AF、心衰 (HF) 及中風的關聯。
+
+\subsection{AtCM 標記物}
+\begin{itemize}
+    \item 左心房擴大 (left atrial dilation)
+    \item 左心房機械功能障礙
+    \item P 波延長
+    \item 異常 P 波終末力 (P-wave terminal force)
+\end{itemize}
+
+\subsection{主要結果}
+
+\begin{longtable}{p{6cm}p{8cm}}
+\toprule
+\textbf{發現} & \textbf{數據} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{發現} & \textbf{數據} \\
+\midrule
+\endhead
+$\geq$1 個 AtCM 標記物的盛行率 & 15.7\% \\
+\midrule
+$\geq$2 個 AtCM 標記物的盛行率 & 2.3\% \\
+\midrule
+1 個 AtCM 標記物的 AF HR & 1.88 ($P < .001$) \\
+\midrule
+$\geq$2 個 AtCM 標記物的 AF HR & 4.59 ($P < .001$) \\
+\midrule
+$\geq$2 個標記物的 HF HR & 3.08 ($P < .001$) \\
+\midrule
+$\geq$2 個標記物的中風 HR & 3.07 ($P < .001$) \\
+\midrule
+加入 AtCM 標記物的 NRI & 13.7\% \\
+\bottomrule
+\end{longtable}
+
+\textbf{結論}：AtCM 標記物與 AF、HF 及中風相關，支持 AtCM 是這三種結果的共同基質。
+
+\section{WITHDRAW-AF Trial}
+
+\subsection{研究背景}
+
+心房顫動介導的心肌病變 (AFCM) 是左室收縮功能障礙的重要可逆原因。目前臨床實務在 LVEF 正常化後仍無限期使用心衰藥物治療，但在節律控制外是否必要仍不確定。
+
+\subsection{Segan 等人研究（Baker Heart and Diabetes Institute, Melbourne）}
+
+多中心隨機試驗評估 AFCM 患者在建立節律控制且 LVEF 正常化後，短期撤除指引導向藥物治療 (GDMT) 的效果。
+
+\subsection{設計}
+\begin{itemize}
+    \item 隨機 (1:1) 至早期撤藥 (Group A) 或持續治療 6 個月後延遲撤藥 (Group B)
+    \item Crossover 設計
+    \item 主要終點：6 個月時 CMR LVEF 維持 $\geq$50\%
+    \item 總追蹤期：12 個月
+\end{itemize}
+
+\subsection{結果}
+
+\begin{itemize}
+    \item 60 名患者，平均年齡 60 歲
+    \item 97\% 以導管消融達成節律控制
+    \item \textbf{主要終點}：
+    \begin{itemize}
+        \item 撤藥組 (Group A)：90\% 在 6 個月時維持 LVEF $\geq$50\%
+        \item 持續治療組 (Group B)：100\% 維持 LVEF $\geq$50\%
+        \item OR 1.18, $P = .47$（無顯著差異）
+    \end{itemize}
+    \item CMR LVEF、心超特徵、NT-proBNP、功能狀態、生活品質及 AF 負荷在兩組間相似
+\end{itemize}
+
+\note{
+雖然大多數患者安全停藥，但 8\% 出現復發性 LV 功能障礙，10\% 出現新的心肌纖維化。這些發現強調謹慎選擇患者、密切監測，以及在個體化 GDMT 持續時間決策時保持謹慎的重要性。
+}
+
+\section{Brugada 症候群皮下 ICD}
+
+\subsection{Gourraud 等人研究（Nantes University）}
+
+前瞻性多中心研究評估皮下植入式心臟去顫器 (S-ICD) 在 Brugada 症候群 (BrS) 患者中的療效與安全性。
+
+\subsection{結果}
+
+\begin{longtable}{p{6cm}p{8cm}}
+\toprule
+\textbf{指標} & \textbf{結果} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{指標} & \textbf{結果} \\
+\midrule
+\endhead
+納入患者 & 130 名 BrS 患者，17 個歐洲中心 \\
+\midrule
+平均追蹤期 & 33 個月 \\
+\midrule
+死亡 & 2 名 (1.5\%)，無心律不整死亡 \\
+\midrule
+裝置移除 & 8 名 (6\%)：不當電擊 (2\%)、感染 (2\%)、疼痛 (1\%)、電子系統故障 (1\%) \\
+\midrule
+適當電擊 & 10 名 (8\%)，共 18 次電擊，所有事件首次電擊成功 \\
+\midrule
+不當電擊 & 19 名 (14\%)，共 31 次不當電擊 \\
+\midrule
+不當電擊原因 & T 波過度感應 (39\%)、肌肉或外部偽像 (29\%) \\
+\midrule
+年度適當電擊率 & 2.9\%/年 \\
+\midrule
+年度不當電擊率 & 5.26\%/年 \\
+\bottomrule
+\end{longtable}
+
+\textbf{結論}：S-ICD 在 BrS 患者中是安全有效的治療，無心律不整死亡、併發症少、不當電擊率相對低。對於不需心室起搏的 BrS 患者，S-ICD 可考慮作為 ICD 植入的首選。
+
+\section{AF 負荷非侵入性監測低估真實負荷}
+
+\subsection{CIRCA-DOSE Trial 次級分析}
+
+Aguilar 等人（University of Montreal）發表的 Rapid Communications 評估導管消融後 AF 負荷的監測。
+
+\subsection{主要發現}
+\begin{itemize}
+    \item 非侵入性 AF 負荷需每年 $>$21 天監測才能接近 ICM 數值
+    \item 非侵入性監測敏感度差，許多患者真實 AF 負荷被大幅低估
+    \item \textbf{重要}：間歇性監測顯示「AF 不存在」不能排除臨床上有意義的 AF 負荷
+\end{itemize}
+
+\section{參考文獻}
+
+\begin{enumerate}
+    \item Finocchiaro G, et al. Abnormal electrocardiogram findings in athletes. \textit{Eur Heart J}. 2026;47:152-69.
+    \item Svennberg E, et al. Recent-onset atrial fibrillation: challenges and opportunities. \textit{Eur Heart J}. 2026;47:170-87.
+    \item Xie D, et al. Cardiac endogenous transmitter system: molecular features, functions, and clinical implications. \textit{Eur Heart J}. 2026;47:188-98.
+    \item Nimani S, et al. AAV9-mediated KCNH2 suppression–replacement gene therapy in a transgenic rabbit model of type 1 short QT syndrome. \textit{Eur Heart J}. 2026;47:199-213.
+    \item Nakashima K, et al. Sex differences in atrial fibrillation-related atrial remodelling assessed by electroanatomic mapping and biopsy. \textit{Eur Heart J}. 2026;47:217-31.
+    \item Vad OB, et al. Atrial cardiomyopathy: markers and outcomes. \textit{Eur Heart J}. 2026;47:235-46.
+    \item Segan L, et al. Withdrawal of heart failure therapy after atrial fibrillation rhythm control with ejection fraction normalization: the WITHDRAW-AF trial. \textit{Eur Heart J}. 2026;47:250-62.
+    \item Gourraud JB, et al. Subcutaneous implantable cardiac defibrillator in Brugada syndrome: a prospective multicentre study. \textit{Eur Heart J}. 2026;47:269-71.
+    \item Aguilar M, et al. Atrial fibrillation burden is underestimated by non-invasive monitoring: the CIRCA-DOSE trial. \textit{Eur Heart J}. 2026;47:266-8.
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,17 @@
+---
+title: "瓣膜疾病 — Valvular Disease"
+---
+
+## 教學講義 Handouts
+
+- [European Heart Journal 瓣膜心臟病專題 2026年3月 教學講義.md](European Heart Journal 瓣膜心臟病專題 2026年3月 教學講義.md)
+- [TEER_Biweekly_Review_2026-03-03 教學講義.md](TEER_Biweekly_Review_2026-03-03 教學講義.md)
+- [TEER_Biweekly_Review_2026-03-03_v2 教學講義.md](TEER_Biweekly_Review_2026-03-03_v2 教學講義.md)
+- [TEER_Biweekly_Review_2026-03-25 教學講義.md](TEER_Biweekly_Review_2026-03-25 教學講義.md)
+
+## LaTeX Files
+
+- European Heart Journal Top 10 VHD 2025.tex
+- NEJM Clinical Decisions TAVR vs SAVR 2026.tex
+- PCRonline Top 10 Tricuspid Intervention 2025.tex
+- SDM_PDA_TAVR_vs_SAVR_主動脈瓣膜狹窄治療決策.tex

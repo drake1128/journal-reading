@@ -1,0 +1,35 @@
+# Generated output (can be rebuilt)
+_site/
+*_files/
+*.pptx
+*.log
+*.aux
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Original papers (copyright + large)
+*_original.pdf
+
+# Media files (too large)
+*.mp3
+*.mp4
+*.mov
+
+# Archives
+*.zip
+*.dmg
+*.iso
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+
+/.quarto/
+**/*.quarto_ipynb
+_site/

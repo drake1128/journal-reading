@@ -1,0 +1,520 @@
+\documentclass[12pt,a4paper]{article}
+
+% ============================================================
+% NEJM OCEAN Trial: Antithrombotic Therapy after AF Ablation
+% 整理：謝慕揚 MD, PhD, FESC
+% ============================================================
+
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{NEJM 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{OCEAN Trial: AF Ablation 後抗凝治療}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{The New England Journal of Medicine}}\\[0.5cm]
+{\Large\textbf{Antithrombotic Therapy after Successful Catheter Ablation for Atrial Fibrillation}}\\[0.3cm]
+{\large 心房顫動電燒術成功後之抗血栓治療：OCEAN 試驗}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1056/NEJMoa2509688}{N Engl J Med 2026;394:323-32. DOI: 10.1056/NEJMoa2509688}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+% Key Findings Box
+%============================================================
+
+\keyfinding{
+\textbf{重大發現：}
+\begin{itemize}[leftmargin=*,nosep]
+    \item 成功 AF ablation 後 $\geq$1 年且無復發的中度中風風險患者，rivaroxaban 相較於 aspirin \textbf{未能顯著降低}中風、全身性栓塞或隱匿性栓塞性中風的複合終點
+    \item 兩組年化中風率均極低：rivaroxaban 0.31\%/年 vs aspirin 0.66\%/年
+    \item 96\% 患者在 3 年追蹤期間 MRI 未發現新腦梗塞
+    \item 重大出血率相似，但 rivaroxaban 的輕微出血及臨床相關非重大出血較高
+\end{itemize}
+
+\textbf{臨床意義：}成功 AF ablation 後，中度中風風險患者的中風率極低，是否繼續抗凝治療需個別化評估，考量出血風險。
+}
+
+\tableofcontents
+\newpage
+
+%============================================================
+\section{研究概述}
+%============================================================
+
+OCEAN (Optimal Anticoagulation for Enhanced-Risk Patients Post-Catheter Ablation for Atrial Fibrillation) 試驗是一項國際性、開放標籤、隨機、評估者盲化之臨床試驗，旨在評估成功 AF ablation 後至少 1 年且有中風風險因子的患者，rivaroxaban 相較於 aspirin 能否更有效預防中風、全身性栓塞及隱匿性腦梗塞。
+
+\subsection{研究資訊}
+
+\begin{itemize}
+    \item \textbf{標題：}Antithrombotic Therapy after Successful Catheter Ablation for Atrial Fibrillation
+    \item \textbf{作者：}Verma A, Birnie DH, Jiang C, et al. (OCEAN Investigators)
+    \item \textbf{期刊：}N Engl J Med 2026;394:323-32
+    \item \textbf{DOI：}\href{https://doi.org/10.1056/NEJMoa2509688}{10.1056/NEJMoa2509688}
+    \item \textbf{研究註冊：}ClinicalTrials.gov NCT02168829
+    \item \textbf{經費來源：}Bayer, Abbott, Biotronik, Canadian Institutes of Health Research 等
+\end{itemize}
+
+\subsection{研究背景}
+
+\begin{itemize}
+    \item Catheter ablation 可有效降低 AF 負荷，但現行指引建議：AF ablation 後應根據患者中風風險因子（而非手術成功與否）持續抗凝治療
+    \item 既有證據來自小型非隨機研究，無法明確回答成功 ablation 後是否可安全停用抗凝
+    \item 低 AF 負荷與較低中風風險相關，但成功 ablation 是否能降低中風風險至可停止抗凝的程度仍不明
+\end{itemize}
+
+%============================================================
+\section{研究方法}
+%============================================================
+
+\subsection{研究設計}
+
+\begin{itemize}
+    \item \textbf{研究類型：}國際性、開放標籤、隨機、評估者盲化試驗
+    \item \textbf{參與中心：}6 國 56 個研究中心
+    \item \textbf{追蹤期間：}3 年
+    \item \textbf{評估者盲化：}臨床終點由盲化委員會判定；MRI 由盲化核心實驗室判讀
+\end{itemize}
+
+\subsection{納入與排除條件}
+
+\begin{longtable}{p{3cm}p{11cm}}
+\toprule
+\textbf{類型} & \textbf{標準} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{類型} & \textbf{標準} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\textbf{納入條件} &
+• 非瓣膜性 AF 接受 catheter ablation 後至少 1 年\newline
+• \textbf{成功定義：}無臨床心房心律不整且無 >30 秒的心房心律不整（至少 2 次 24 小時 Holter 確認）\newline
+• CHA$_2$DS$_2$-VASc $\geq$1（女性或血管疾病為風險因子者需 $\geq$2）\newline
+• 入組前 2 個月再接受 48 小時 Holter 確認無復發 \\
+\midrule
+
+\textbf{排除條件} &
+• Creatinine clearance <30 ml/min\newline
+• 抗凝或抗血小板禁忌症\newline
+• MRI 禁忌症\newline
+• 瓣膜性 AF（風濕性二尖瓣疾病或機械瓣膜）\newline
+• 1 年內失能性中風或 14 天內任何中風\newline
+• 高凝狀態或已知顱內血管異常\newline
+• 年齡 >85 歲 \\
+\bottomrule
+\end{longtable}
+
+\subsection{介入措施}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{組別} & \textbf{治療內容} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{組別} & \textbf{治療內容} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\textbf{Rivaroxaban 組} &
+• Rivaroxaban 15 mg 每日一次\newline
+• 若無法耐受，可改用其他 DOAC \\
+\midrule
+
+\textbf{Aspirin 組} &
+• Aspirin 70-120 mg 每日一次（依當地供應）\newline
+• 若無法耐受，可不使用抗血小板藥物 \\
+\bottomrule
+\end{longtable}
+
+\textbf{特殊情況處理：}
+\begin{itemize}
+    \item 若追蹤期間因 AF 復發需再次 ablation，則退出試驗
+    \item 心臟整流、冠狀動脈介入、手術等特殊情況有詳細暫時調整方案
+\end{itemize}
+
+\subsection{研究終點}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{終點} & \textbf{定義} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{終點} & \textbf{定義} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\textbf{主要療效終點} &
+中風、全身性栓塞、或新發隱匿性栓塞性中風（MRI 上 $\geq$15 mm 新梗塞）之複合終點 \\
+\midrule
+
+\textbf{主要安全終點} &
+致命性出血或重大出血（ISTH 定義） \\
+\midrule
+
+\textbf{次要終點} &
+• 主要終點各別成分\newline
+• 中風或全身性栓塞複合\newline
+• 重大、輕微及臨床相關非重大出血\newline
+• 顱內出血\newline
+• TIA\newline
+• <15 mm 新腦梗塞\newline
+• 全因死亡 \\
+\bottomrule
+\end{longtable}
+
+\subsection{影像學評估}
+
+\begin{itemize}
+    \item 所有患者於入組時及 3 年時接受頭部 MRI
+    \item 前 658 名患者另於 1 年時接受 MRI（後因 COVID-19 疫情取消）
+    \item 影像核心實驗室：University of Calgary（盲化判讀）
+\end{itemize}
+
+%============================================================
+\section{研究結果}
+%============================================================
+
+\subsection{患者特徵}
+
+\begin{longtable}{p{6cm}cc}
+\toprule
+\textbf{特徵} & \textbf{Rivaroxaban (n=641)} & \textbf{Aspirin (n=643)} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{特徵} & \textbf{Rivaroxaban} & \textbf{Aspirin} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+年齡（歲） & 66.3 ± 7.1 & 66.3 ± 7.6 \\
+男性 & 458 (71.5\%) & 459 (71.4\%) \\
+\midrule
+\textbf{AF 類型} & & \\
+陣發性 AF & 431 (67.2\%) & 421 (65.5\%) \\
+持續性 AF & 204 (31.8\%) & 212 (33.0\%) \\
+\midrule
+最後一次 ablation 後時間（中位數） & 16.4 個月 & 16.5 個月 \\
+Ablation 次數 = 1 & 484 (75.5\%) & 504 (78.4\%) \\
+\midrule
+\textbf{合併症} & & \\
+高血壓 & 442 (69.0\%) & 434 (67.5\%) \\
+糖尿病 & 96 (15.0\%) & 77 (12.0\%) \\
+既往中風（缺血性） & 7 (1.1\%) & 17 (2.6\%) \\
+TIA & 18 (2.8\%) & 25 (3.9\%) \\
+冠心病 & 74 (11.5\%) & 68 (10.6\%) \\
+\midrule
+\textbf{CHA$_2$DS$_2$-VASc 分數} & & \\
+平均值 & 2.2 ± 1.1 & 2.2 ± 1.1 \\
+1 分 & 194 (30.3\%) & 196 (30.5\%) \\
+2 分 & 241 (37.6\%) & 243 (37.8\%) \\
+$\geq$3 分 & 206 (32.1\%) & 204 (31.8\%) \\
+\midrule
+HAS-BLED 分數 & 1.4 ± 0.9 & 1.3 ± 0.8 \\
+LVEF (\%) & 61.8 ± 7.1 & 61.5 ± 7.3 \\
+\bottomrule
+\end{longtable}
+
+\subsection{追蹤情況}
+
+\begin{itemize}
+    \item 中位追蹤時間：36.0 個月
+    \item 完成最終訪視：rivaroxaban 563 人，aspirin 571 人
+    \item 因 AF 復發再次 ablation 退出：71 人
+    \item 排除退出後，\textbf{97.4\%} 完成 3 年頭部 MRI
+    \item 死亡：rivaroxaban 10 人，aspirin 7 人
+    \item 失訪：每組各 4 人
+\end{itemize}
+
+\subsection{主要療效終點}
+
+\begin{longtable}{p{5cm}ccc}
+\toprule
+\textbf{終點} & \textbf{Rivaroxaban (n=641)} & \textbf{Aspirin (n=643)} & \textbf{相對風險 (95\% CI)} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{終點} & \textbf{Rivaroxaban} & \textbf{Aspirin} & \textbf{RR (95\% CI)} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\textbf{主要複合終點} & 5 (0.8\%) & 9 (1.4\%) & 0.56 (0.19-1.65) \\
+年化事件率 (/100 人年) & 0.31 & 0.66 & P = 0.28 \\
+絕對風險差（3 年） & \multicolumn{3}{c}{−0.6\% (95\% CI: −1.8 to 0.5)} \\
+\midrule
+\textbf{各別成分} & & & \\
+全部中風 & 5 (0.8\%) & 7 (1.1\%) & 0.72 (0.23-2.25) \\
+全身性栓塞 & 0 & 0 & -- \\
+新發隱匿性腦梗塞 ($\geq$15mm) & 0 & 2 (0.3\%) & -- \\
+\midrule
+中風或全身性栓塞 & 5 (0.8\%) & 7 (1.1\%) & 0.72 (0.23-2.25) \\
+TIA & 1 (0.2\%) & 5 (0.8\%) & 0.20 (0.02-1.71) \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{關鍵發現：}
+\begin{itemize}
+    \item 主要終點未達統計顯著差異（P = 0.28）
+    \item 兩組中風率均遠低於預期（預估 1.6\%/年，實際約 0.3-0.7\%/年）
+    \item 類似於無 AF 病史、CHA$_2$DS$_2$-VASc 2 分患者的中風率
+\end{itemize}
+}
+
+\subsection{新發腦梗塞（MRI 評估）}
+
+\begin{longtable}{p{6cm}ccc}
+\toprule
+\textbf{MRI 發現} & \textbf{Rivaroxaban} & \textbf{Aspirin} & \textbf{RR (95\% CI)} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{MRI 發現} & \textbf{Rivaroxaban} & \textbf{Aspirin} & \textbf{RR (95\% CI)} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+新梗塞 $\geq$15 mm & 0/568 (0\%) & 2/590 (0.3\%) & -- \\
+新梗塞 <15 mm & 22/568 (3.9\%) & 26/590 (4.4\%) & 0.89 (0.51-1.55) \\
+\textbf{無新腦梗塞} & \textbf{96\%} & \textbf{96\%} & -- \\
+\bottomrule
+\end{longtable}
+
+\subsection{安全性終點}
+
+\begin{longtable}{p{6cm}ccc}
+\toprule
+\textbf{終點} & \textbf{Rivaroxaban (n=641)} & \textbf{Aspirin (n=643)} & \textbf{HR (95\% CI)} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{終點} & \textbf{Rivaroxaban} & \textbf{Aspirin} & \textbf{HR (95\% CI)} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\textbf{主要安全終點}\newline（致命或重大出血） & 10 (1.6\%) & 4 (0.6\%) & 2.51 (0.79-7.95) \\
+\midrule
+致命性出血 & 0 & 0 & -- \\
+重大出血 & 10 (1.6\%) & 4 (0.6\%) & 2.51 (0.79-7.95) \\
+\quad 顱內出血 & 5 (0.8\%) & 1 (0.2\%) & 5.02 (0.59-42.81) \\
+\quad 消化道出血 & 3 (0.5\%) & 2 (0.3\%) & 1.50 (0.25-8.97) \\
+\quad 其他重大出血 & 2 (0.3\%) & 1 (0.2\%) & 2.01 (0.18-22.07) \\
+\midrule
+輕微出血 & 74 (11.5\%) & 20 (3.1\%) & 3.71 (2.29-6.01) \\
+臨床相關非重大出血 & 35 (5.5\%) & 10 (1.6\%) & 3.51 (1.75-7.03) \\
+重大或輕微出血複合 & 83 (12.9\%) & 23 (3.6\%) & 3.62 (2.31-5.67) \\
+\midrule
+全因死亡 & 10 (1.6\%) & 7 (1.1\%) & 1.43 (0.55-3.74) \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{討論}
+%============================================================
+
+\subsection{主要發現解讀}
+
+\begin{enumerate}
+    \item \textcolor{blue}{\textbf{中風率極低：}}年化中風率 0.31-0.66\%，遠低於預期的 3.5\%/年（含隱匿性中風）
+
+    \item \textcolor{blue}{\textbf{可能原因：}}
+    \begin{itemize}
+        \item 成功 ablation 可能將 AF 負荷降至非栓塞性原因主導中風的程度
+        \item 接受 ablation 患者可能有選擇偏差，實際中風風險低於風險分數預測
+        \item 本試驗納入很少既往中風病史患者
+    \end{itemize}
+
+    \item \textcolor{blue}{\textbf{出血風險：}}重大出血率相似，但輕微及臨床相關非重大出血以 rivaroxaban 較高
+
+    \item \textcolor{blue}{\textbf{MRI 確認低事件率：}}96\% 患者 3 年無新腦梗塞，提供事件率低的客觀證據
+\end{enumerate}
+
+\subsection{與其他試驗比較}
+
+\begin{longtable}{p{3cm}p{3cm}p{3cm}p{5cm}}
+\toprule
+\textbf{試驗} & \textbf{族群} & \textbf{年化中風率} & \textbf{主要發現} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{試驗} & \textbf{族群} & \textbf{年化中風率} & \textbf{主要發現} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\textbf{OCEAN}\newline（本研究） & AF ablation 後成功\newline CHA$_2$DS$_2$-VASc 2.2 & 約 0.3-0.7\% & Rivaroxaban 未優於 aspirin \\
+\midrule
+
+\textbf{ALONE-AF} & AF ablation 後成功\newline CHA$_2$DS$_2$-VASc 2（中位數） & 約 0.4\% & 類似低中風率 \\
+\midrule
+
+\textbf{OPTION} & AF ablation 後\newline 左心耳封堵 vs 抗凝\newline CHA$_2$DS$_2$-VASc 3.5 & 約 0.6\% & 左心耳封堵非劣於持續抗凝 \\
+\midrule
+
+\textbf{AVERROES}\newline（未接受 ablation） & 臨床 AF\newline 類似中風風險 & 抗凝 1.6\%\newline Aspirin 3.7\% & 抗凝明顯優於 aspirin \\
+\midrule
+
+\textbf{ARTESiA}\newline（亞臨床 AF） & 亞臨床 AF & 抗凝 0.85\%\newline Aspirin 0.97\% & 低中風率族群 \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{重要觀察：}三項 AF ablation 後抗血栓研究 (OCEAN, ALONE-AF, OPTION) 探討四種策略：左心耳封堵、持續抗凝、aspirin、無治療。所有策略的年化中風率均 <1\%，此為一般開始抗凝的閾值。
+}
+
+%============================================================
+\section{研究限制}
+%============================================================
+
+\begin{enumerate}
+    \item \textbf{對照組選擇：}使用 aspirin 而非安慰劑。但假設 aspirin 對中風無效，主要終點結果應相似
+
+    \item \textbf{Rivaroxaban 劑量：}使用 15 mg 而非 20 mg，但事件率極低，高劑量不太可能產生不同結果
+
+    \item \textbf{心律監測：}未強制使用長期心律監測，無症狀 AF 復發率不明
+
+    \item \textbf{族群選擇：}
+    \begin{itemize}
+        \item 中度中風風險（CHA$_2$DS$_2$-VASc 2.2）
+        \item 很少既往中風病史患者
+        \item 心臟功能大多正常
+        \item 對高中風風險患者不直接適用
+    \end{itemize}
+
+    \item \textbf{早期終止：}Data safety monitoring board 因主要終點不太可能達成而建議停止收案
+\end{enumerate}
+
+%============================================================
+\section{臨床實務建議}
+%============================================================
+
+\begin{tcolorbox}[
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{臨床建議},
+    fonttitle=\bfseries
+]
+\begin{enumerate}
+    \item \textbf{成功 AF ablation 後中度中風風險患者：}
+    \begin{itemize}
+        \item 中風率極低（約 0.3-0.7\%/年）
+        \item Aspirin 或抗凝均可考慮
+        \item 應個別化評估，考量出血風險
+    \end{itemize}
+
+    \item \textbf{抗凝治療的額外考量：}
+    \begin{itemize}
+        \item 臨床相關非重大出血風險增加（HR 3.51）
+        \item 輕微出血風險增加（HR 3.71）
+        \item 需與患者充分溝通
+    \end{itemize}
+
+    \item \textbf{仍需依現行指引考量的族群：}
+    \begin{itemize}
+        \item 高中風風險（CHA$_2$DS$_2$-VASc $\geq$4）
+        \item 既往中風或 TIA 病史
+        \item 本試驗結果不直接適用
+    \end{itemize}
+
+    \item \textbf{共享決策：}
+    \begin{itemize}
+        \item 向患者說明成功 ablation 後中風風險可能很低
+        \item 討論持續抗凝的出血風險
+        \item 尊重患者偏好
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
+
+%============================================================
+\section{結論}
+%============================================================
+
+\begin{enumerate}
+    \item \textcolor{red}{\textbf{主要結論：}}在成功 AF ablation 至少 1 年後且有中風風險因子的患者中，rivaroxaban 相較於 aspirin \textbf{未能顯著降低}中風、全身性栓塞或新發隱匿性腦梗塞的複合終點
+
+    \item \textcolor{red}{\textbf{事件率觀察：}}兩組中風率均遠低於預期（年化 <1\%），與無 AF 病史的類似風險分數族群相當
+
+    \item \textcolor{red}{\textbf{安全性：}}重大出血率相似，但 rivaroxaban 的輕微及臨床相關非重大出血較高
+
+    \item \textcolor{red}{\textbf{實務意義：}}成功 AF ablation 後中度中風風險患者，aspirin 或持續抗凝均為可接受選擇，應個別化評估
+\end{enumerate}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Verma A, Birnie DH, Jiang C, et al. Antithrombotic Therapy after Successful Catheter Ablation for Atrial Fibrillation. \href{https://doi.org/10.1056/NEJMoa2509688}{\textit{N Engl J Med}. 2026;394:323-32.}
+
+    \item Tzeis S, Gerstenfeld EP, Kalman J, et al. 2024 European Heart Rhythm Association/Heart Rhythm Society/Asia Pacific Heart Rhythm Society/Latin American Heart Rhythm Society expert consensus statement on catheter and surgical ablation of atrial fibrillation. \href{https://doi.org/10.1093/europace/euae043}{\textit{Europace}. 2024;26:euae043.}
+
+    \item Healey JS, Lopes RD, Granger CB, et al. Apixaban for stroke prevention in subclinical atrial fibrillation. \href{https://doi.org/10.1056/NEJMoa2310234}{\textit{N Engl J Med}. 2024;390:107-17.}
+
+    \item Kim D, Shim J, Choi E-K, et al. Long-term anticoagulation discontinuation after catheter ablation for atrial fibrillation: the ALONE-AF randomized clinical trial. \href{https://doi.org/10.1001/jama.2025.0001}{\textit{JAMA}. 2025;334:1246-54.}
+
+    \item Wazni OM, Saliba WI, Nair DG, et al. Left atrial appendage closure after ablation for atrial fibrillation. \href{https://doi.org/10.1056/NEJMoa2500001}{\textit{N Engl J Med}. 2025;392:1277-87.}
+
+    \item Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS guideline for the diagnosis and management of atrial fibrillation. \href{https://doi.org/10.1161/CIR.0000000000001193}{\textit{Circulation}. 2024;149(1):e1-e156.}
+\end{enumerate}
+
+%============================================================
+\section{縮寫對照表}
+%============================================================
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+AF & Atrial Fibrillation (心房顫動) \\
+CHA$_2$DS$_2$-VASc & 中風風險評估分數 \\
+CI & Confidence Interval (信賴區間) \\
+DOAC & Direct Oral Anticoagulant (直接口服抗凝劑) \\
+HAS-BLED & 出血風險評估分數 \\
+HR & Hazard Ratio (風險比) \\
+ISTH & International Society on Thrombosis and Haemostasis \\
+LVEF & Left Ventricular Ejection Fraction (左室射出分率) \\
+MRI & Magnetic Resonance Imaging (磁振造影) \\
+RR & Relative Risk (相對風險) \\
+TIA & Transient Ischemic Attack (暫時性腦缺血發作) \\
+\bottomrule
+\end{longtable}
+
+\end{document}

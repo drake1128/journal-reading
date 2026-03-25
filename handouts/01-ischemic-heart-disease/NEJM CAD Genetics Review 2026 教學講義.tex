@@ -1,0 +1,599 @@
+\documentclass[12pt,a4paper]{article}
+
+% ============================================================
+% NEJM Review Article: The Inherited Basis of Coronary Artery Disease
+% Schunkert H, Natarajan P, Samani NJ
+% N Engl J Med 2026;394:576-87
+% ============================================================
+
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{NEJM Review 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{冠狀動脈疾病的遺傳基礎}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+% ============================================================
+% Title Page
+% ============================================================
+
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{New England Journal of Medicine}}\\[0.3cm]
+{\large\textcolor{emergency_gray}{Review Article}}\\[0.5cm]
+{\Large\textbf{The Inherited Basis of Coronary Artery Disease}}\\[0.3cm]
+{\large 冠狀動脈疾病的遺傳基礎}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1056/NEJMra2405153}{N Engl J Med 2026;394:576-87. DOI: 10.1056/NEJMra2405153}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+% ============================================================
+% Key Findings Box
+% ============================================================
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=orange!75!black,title=核心發現摘要]
+\textbf{單基因疾病 (Monogenic)：}家族性高膽固醇血症 (Familial Hypercholesterolemia, FH) 約影響 1/250 人口，主要涉及 \textit{LDLR}、\textit{APOB}、\textit{PCSK9} 基因變異。
+
+\textbf{多基因風險 (Polygenic)：}大規模全基因組關聯研究 (GWAS) 已識別 346 個與冠狀動脈疾病顯著相關的基因座 (loci)。
+
+\textbf{多基因風險評分 (PRS)：}PRS 最高 5\% 的人群，冠狀動脈疾病風險是平均值的 3-5 倍，且可獨立於家族史預測風險。
+
+\textbf{臨床意義：}高 PRS 患者從降脂治療獲得的絕對與相對風險下降皆較大；生活方式改變可大幅抵消高遺傳風險。
+\end{tcolorbox}
+
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{研究概述}
+% ============================================================
+
+冠狀動脈疾病 (Coronary Artery Disease, CAD) 是行為、環境、遺傳與隨機因素交互作用的結果。吸菸、高血壓、高血脂與糖尿病是公認的可調控危險因子。約有 50\% 的男性與 33\% 的女性在一生中會發展冠狀動脈疾病。
+
+超過一世紀前，Osler 觀察到心絞痛 (angina pectoris) 常有家族聚集現象，推測遺傳因素可能導致冠狀動脈疾病。約 30 年前，雙胞胎研究顯示致死性冠狀動脈疾病的遺傳力 (heritability) 高達 50\%。
+
+自 2007 年起，大規模基因分型與定序研究已識別數百個與冠狀動脈疾病易感性相關的遺傳變異。部分相關基因的蛋白質產物已成為有效的治療標靶，其他基因則指向目前尚未探索的疾病機轉。
+
+% ============================================================
+\section{單基因型冠狀動脈疾病 (Monogenic Forms)}
+% ============================================================
+
+\subsection{家族性高膽固醇血症 (Familial Hypercholesterolemia)}
+
+家族性高膽固醇血症是典型的單基因分子遺傳性冠狀動脈疾病，為不完全顯性遺傳。1938 年由 Müller 首次描述，約 70 年間為唯一經證實的冠狀動脈疾病遺傳病因。
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{特徵} & \textbf{說明} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{特徵} & \textbf{說明} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{盛行率} &
+異合子 (Heterozygous)：約 1/250 (4/1000)\newline
+同合子 (Homozygous)：約 1/200,000 \\
+\midrule
+\textbf{相關基因} &
+\textit{LDLR}：LDL 受體功能減損\newline
+\textit{APOB}：Apolipoprotein B 功能改變\newline
+\textit{PCSK9}：Proprotein convertase subtilisin/kexin type 9 功能增強 \\
+\midrule
+\textbf{臨床表現} &
+嚴重升高的 LDL cholesterol：\newline
+• 成人 >190 mg/dL (4.9 mmol/L)\newline
+• 兒童 >150 mg/dL (3.9 mmol/L)\newline
+合併早發性冠狀動脈疾病家族史、xanthelasma 或 tendon xanthomas \\
+\midrule
+\textbf{疾病風險} &
+異合子 FH 患者於 45 歲前約 20\% 已有動脈粥狀硬化\newline
+即使 LDL cholesterol 水平相似，有 FH 變異者風險仍為無變異者的 2-3 倍 \\
+\midrule
+\textbf{變異盛行率} &
+一般人群：約 0.4\%\newline
+LDL cholesterol >190 mg/dL 者：約 3.5\%\newline
+臨床判定「極可能」或「確定」FH 者：分別 5\% 與 24\% \\
+\bottomrule
+\end{longtable}
+
+\subsection{其他罕見單基因型}
+
+\begin{longtable}{p{3.5cm}p{3cm}p{7cm}}
+\toprule
+\textbf{疾病} & \textbf{相關基因} & \textbf{特徵} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{疾病} & \textbf{相關基因} & \textbf{特徵} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+體染色體隱性高膽固醇血症 & \textit{LDLRAP1} & 罕見，早發性 CAD \\
+\midrule
+Sitosterolemia & \textit{ABCG5}, \textit{ABCG8} & 植物固醇吸收增加 \\
+\midrule
+Pseudoxanthoma elasticum & \textit{ABCC6} & 血管鈣化與早發性 CAD \\
+\midrule
+一氧化氮訊號路徑缺陷 & \textit{GUCY1A1}, \textit{PDE5A} & 血壓升高與 CAD 風險增加 \\
+\midrule
+三酸甘油酯調控異常 & \textit{APOA5} & 早發性 MI \\
+\midrule
+膽固醇運輸異常 & \textit{SCARB1} & 嚴重早發性 CAD \\
+\bottomrule
+\end{longtable}
+
+% ============================================================
+\section{多基因對冠狀動脈疾病的貢獻 (Polygenic Contribution)}
+% ============================================================
+
+\subsection{全基因組關聯研究 (GWAS)}
+
+與單基因變異如 \textit{LDLR} 可嚴重損害個人健康不同，具有小效應量的常見風險對偶基因在人群層面更為重要。1950 年代 Platt 與 Pickering 曾爭論高血壓是單基因或多基因遺傳。後續數學模型顯示，多個小效應量的常見風險對偶基因導致的高血壓病例比罕見強效應變異更多。
+
+\begin{itemize}
+    \item \textbf{方法學：}Genotyping arrays 平行評估數十萬個 SNPs，結合統計學推算的非基因分型 SNPs
+    \item \textbf{顯著性閾值：}考量多重檢定，P 值 < 5×10$^{-8}$ 為全基因組顯著
+    \item \textbf{最新研究規模：}超過 180,000 名 CAD 患者，總計超過 100 萬人
+    \item \textbf{發現：}346 個全基因組顯著的風險區域 (loci)
+\end{itemize}
+
+\subsection{風險基因座的功能分類}
+
+本文 Figure 1 呈現已識別的 346 個基因座中，部分因果基因與已知風險因子的關聯：
+
+\begin{longtable}{p{4cm}p{2cm}p{7.5cm}}
+\toprule
+\textbf{風險因子/特徵} & \textbf{基因座數} & \textbf{代表性基因} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{風險因子/特徵} & \textbf{基因座數} & \textbf{代表性基因} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+血壓 (Blood Pressure) & 135 & \textit{ADAMTS7}, \textit{ATP2B1}, \textit{EDNRA}, \textit{NOS3}, \textit{PHACTR1} \\
+\midrule
+發炎 (Inflammation) & 126 & \textit{IL6R}, \textit{CXCR4}, \textit{SMAD3}, \textit{ZC3HC1} \\
+\midrule
+脂質代謝 (Lipid Metabolism) & 117 & \textit{LDLR}, \textit{PCSK9}, \textit{APOB}, \textit{LPA}, \textit{CETP} \\
+\midrule
+凝血 (Coagulation) & 109 & \textit{BCAR1}, \textit{FGD6}, \textit{SMAD3} \\
+\midrule
+糖尿病 (Diabetes) & 68 & \textit{TCF7L2}, \textit{HNF1A}, \textit{IRS1} \\
+\midrule
+肥胖 (Obesity) & 67 & \textit{FTO}, \textit{MC4R}, \textit{BDNF} \\
+\midrule
+性別差異 (Sex Differences) & 21 & \textit{COL4A1}, \textit{EDNRA}, \textit{SORT1} \\
+\midrule
+老化 (Aging) & 16 & \textit{APOE}, \textit{LDLR}, \textit{LPA} \\
+\midrule
+機轉未明 & 76 & 尚待研究發現 \\
+\bottomrule
+\end{longtable}
+
+\subsection{基因表達組織分佈}
+
+CAD 風險基因在多種組織與器官中表達（Figure 2），顯示疾病的多系統性：
+
+\begin{itemize}
+    \item \textbf{肝臟與肝細胞：}\textit{APOB}, \textit{LDLR}, \textit{PCSK9}, \textit{LPA}, \textit{HMGCR}, \textit{SORT1}
+    \item \textbf{血管壁（平滑肌細胞）：}\textit{ADAMTS7}, \textit{TCF21}, \textit{GUCY1A1}, \textit{PDE5A}
+    \item \textbf{血管壁（內皮細胞）：}\textit{NOS3}, \textit{JCAD}, \textit{PECAM1}, \textit{PROCR}
+    \item \textbf{免疫細胞（巨噬細胞、T細胞）：}\textit{IL6R}, \textit{LIPA}, \textit{PHACTR1}, \textit{TRIB1}
+    \item \textbf{血小板：}\textit{GUCY1A1}, \textit{SH2B3}
+    \item \textbf{腎臟：}\textit{PDE1A}, \textit{SLC5A3}
+    \item \textbf{大腦（神經內分泌）：}\textit{BDNF}, \textit{FTO}, \textit{MC4R}
+\end{itemize}
+
+% ============================================================
+\section{心血管風險預測 (Cardiovascular Risk Prediction)}
+% ============================================================
+
+\subsection{臨床風險評估的限制}
+
+傳統臨床風險評分整合多種臨床因素，用於識別需要預防治療的高風險者。然而：
+
+\begin{itemize}
+    \item 風險估計強烈受年齡影響，降低了識別年輕高風險者的機會
+    \item 儘管家族史是公認的重要危險因子，但因無法提供足夠的額外鑑別力，未被納入現行臨床風險評分
+\end{itemize}
+
+\subsection{多基因風險評分 (Polygenic Risk Score, PRS)}
+
+單一 CAD 風險對偶基因的小效應量無法用於個人預測，但聚合於 PRS 可提供風險分層。
+
+\begin{tcolorbox}[
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{PRS 的核心概念},
+    fonttitle=\bfseries
+]
+\begin{enumerate}
+    \item 每個人隨機遺傳數百個 CAD 風險對偶基因
+    \item 人群中 PRS 呈高斯分佈 (Gaussian distribution)
+    \item 由於各風險對偶基因獨立遺傳並具乘法效應，高 PRS 端風險呈指數增加
+    \item 現行 PRS 納入所有具資訊性的遺傳變異（包括未達全基因組顯著者）以預測完整遺傳傾向
+\end{enumerate}
+\end{tcolorbox}
+
+\subsection{PRS 分層與相對風險}
+
+根據 U.K. Biobank 資料（Figure 3B）：
+
+\begin{longtable}{p{5cm}cc}
+\toprule
+\textbf{PRS 百分位} & \textbf{Hazard Ratio} & \textbf{風險描述} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{PRS 百分位} & \textbf{Hazard Ratio} & \textbf{風險描述} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+< 45th percentile & -- & 低於平均風險 \\
+\midrule
+45th - 55th percentile & 1.00 & 參考組（平均風險） \\
+\midrule
+>55th - 65th percentile & 1.21 & 輕度升高 \\
+\midrule
+>65th - 75th percentile & 1.40 & 中度升高 \\
+\midrule
+>75th - 85th percentile & 1.76 & 明顯升高 \\
+\midrule
+>85th - 95th percentile & 2.35 & 高風險 \\
+\midrule
+>95th - 97.5th percentile & 3.11 & 極高風險 \\
+\midrule
+>97.5th - 100th percentile & 4.64 & 最高風險 \\
+\bottomrule
+\end{longtable}
+
+\subsection{結合臨床與多基因風險評估}
+
+PRS 在已完成基線臨床風險評估時最具資訊價值：
+
+\begin{itemize}
+    \item \textbf{計算方式：}PRS 的相對風險可用於乘以臨床風險評分的絕對風險
+    \item \textbf{限制：}若臨床風險很低，PRS 的影響也相對有限
+    \item \textbf{U.K. Biobank 數據：}45-70 歲族群中，使用 PRS 篩檢約每 5,750 人可預防 1 例 CAD 事件
+    \item \textbf{中等臨床風險族群：}10 年 MI 或中風風險 5-10\% 者，PRS 可將 10\% 的人重新分類為高風險（風險加倍），每 340 人篩檢可預防 1 例事件（約 7\% 的所有事件）
+\end{itemize}
+
+\subsection{可能受益於 PRS 評估的三類人群}
+
+\begin{longtable}{p{3.5cm}p{10cm}}
+\toprule
+\textbf{族群} & \textbf{PRS 的價值} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{族群} & \textbf{PRS 的價值} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textbf{中等臨床風險的中老年人} &
+• SCORE2 評估 10 年風險 5-10\% 者\newline
+• PRS 可協助判斷是否需要進一步檢查（如 coronary calcium screening）或啟動降脂治療 \\
+\midrule
+\textbf{年輕成人} &
+• 傳統臨床風險評分對年輕人校正不佳，僅能識別約 25\% 將發生重大心血管事件者\newline
+• 40 歲無傳統風險因子的男性，最高 PRS 五分位者在 70 歲前 CAD 風險為 30-40\%，最低五分位者僅 10\%\newline
+• 多基因風險的相對貢獻在年輕時（傳統風險因子盛行率較低時）更大 \\
+\midrule
+\textbf{早發性 CAD 患者} &
+• 高 PRS 可能貢獻於疾病表現，有助釐清病因\newline
+• 高 PRS 可預測復發事件，但預測力較初級預防情境弱\newline
+• 臨床可行性較不明確，但在治療決策模稜兩可時，高 PRS 可支持加強治療 \\
+\bottomrule
+\end{longtable}
+
+\subsection{PRS 的限制}
+
+\begin{enumerate}
+    \item \textbf{族群適用性：}基礎數據主要來自歐洲血統人群，跨族群預測準確度不一致（正在新的多族群 GWAS 中改善）
+    \item \textbf{標準化不足：}尚無單一共識的 PRS，也無統一的報告標準
+    \item \textbf{指南尚未納入：}目前指南尚未正式納入 CAD PRS
+    \item \textbf{研究與實施缺口：}
+    \begin{itemize}
+        \item PRS 對臨床決策的影響
+        \item 成本效益分析
+        \item 校正至特定醫療系統人群
+    \end{itemize}
+    \item \textbf{公平取得：}在保險統一給付前，自費成本可能限制公平取得
+\end{enumerate}
+
+% ============================================================
+\section{高遺傳風險患者的治療}
+% ============================================================
+
+\subsection{家族性高膽固醇血症的治療}
+
+\begin{tcolorbox}[
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{FH 治療指引重點},
+    fonttitle=\bfseries
+]
+\textbf{成人 FH 患者：}
+\begin{itemize}
+    \item 臨床試驗顯示 FH 患者從強效降脂治療獲益（以絕對值計）較其他高風險族群更大
+    \item 即使在成年早期，也建議啟動降脂治療進行初級預防
+    \item LDL cholesterol 目標 < 70 mg/dL (1.8 mmol/L)
+\end{itemize}
+
+\textbf{兒童 FH 患者（歐洲指南）：}
+\begin{itemize}
+    \item 有 FH 致病變異且持續臨床顯著高膽固醇血症者，可啟動 statin 治療
+    \item LDL cholesterol 目標 < 135 mg/dL (3.5 mmol/L)
+\end{itemize}
+
+\textbf{同合子 FH：}
+\begin{itemize}
+    \item 危及生命的疾病，冠狀動脈疾病常於兒童期發生
+    \item 嚴重升高的 LDL cholesterol 需在專業中心接受強化治療
+\end{itemize}
+\end{tcolorbox}
+
+\subsection{高多基因風險的處置}
+
+與主要透過單一風險因子作用的單基因疾病（如 FH）不同，CAD PRS 代表多種因果風險因子與未知風險路徑的異質混合。然而，多基因風險同樣可被大幅修正。
+
+\textbf{生活方式介入：}觀察性研究顯示健康生活方式可大幅抵消高 PRS：
+\begin{itemize}
+    \item ARIC、WGHS、MDCS 研究：生活方式改善在高 PRS 族群達到最大風險下降（-7.86 百分點 vs 低 PRS 的 -4.64 百分點）
+\end{itemize}
+
+\textbf{降脂治療：}多項初級與次級預防隨機試驗的事後分析一致顯示，高 PRS 患者從 statin 或 PCSK9 抑制劑治療獲得更大的絕對與相對風險下降。
+
+\subsection{降脂治療效益依 PRS 分層}
+
+根據多項臨床試驗資料（Figure 5）：
+
+\begin{longtable}{p{3cm}p{2.5cm}p{2.5cm}p{2.5cm}p{2.5cm}}
+\toprule
+\textbf{研究} & \textbf{藥物} & \textbf{情境} & \textbf{低 PRS} & \textbf{高 PRS} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{研究} & \textbf{藥物} & \textbf{情境} & \textbf{低 PRS} & \textbf{高 PRS} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+WOSCOPS & Pravastatin & 初級預防 & $-$2.80\% & $-$7.90\% \\
+\midrule
+ASCOT & Atorvastatin & 初級預防 & $-$1.06\% & $-$3.98\% \\
+\midrule
+JUPITER & Rosuvastatin & 初級預防 & $-$0.36\% & $-$0.94\% \\
+\midrule
+CARE & Pravastatin & 次級預防 & $-$1.95\% & $-$6.03\% \\
+\midrule
+ODYSSEY & Alirocumab & 次級預防 & $-$1.50\% & $-$6.00\% \\
+\midrule
+FOURIER & Evolocumab & 次級預防 & $-$1.40\% & $-$4.00\% \\
+\bottomrule
+\end{longtable}
+
+\note{
+上表數值為風險變化百分點。高 PRS 患者無論在初級或次級預防情境，從降脂治療獲得的絕對風險下降皆約為低 PRS 患者的 2-3 倍。這支持 LDL cholesterol 降低是高 PRS 者降低 CAD 風險的特別有效策略。
+}
+
+% ============================================================
+\section{從遺傳架構轉譯至新治療策略}
+% ============================================================
+
+利用 CAD 的遺傳架構推進治療學是極具吸引力的策略。由於對偶基因分配是隨機且終生不變的，風險對偶基因指向因果機制，允許治療標靶的優先排序。確實，具有人類遺傳學支持的研究中藥物比缺乏遺傳支持者更可能獲得監管核准。
+
+\subsection{已驗證的遺傳學導向治療}
+
+\begin{longtable}{p{3cm}p{3.5cm}p{7cm}}
+\toprule
+\textbf{基因/路徑} & \textbf{衍生藥物} & \textbf{機轉} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{基因/路徑} & \textbf{衍生藥物} & \textbf{機轉} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textit{LDLR} 變異（FH） & Statins & 上調肝臟 LDL 受體表達 \\
+\midrule
+\textit{PCSK9} 失功能變異 & PCSK9 抑制劑\newline (Evolocumab, Alirocumab) & 觀察到罕見破壞性 \textit{PCSK9} 變異可降低 LDL-C 與 CAD 風險，促成藥物開發 \\
+\midrule
+\textit{NPC1L1} 變異 & Ezetimibe & 變異與 CAD 相關，驗證其藥理抑制可降低 LDL-C 與 CAD 事件 \\
+\midrule
+\textit{ACLY} 變異 & Bempedoic acid & Mendelian randomization 研究支持其作為治療標靶 \\
+\bottomrule
+\end{longtable}
+
+\subsection{開發中的新治療標靶}
+
+\begin{longtable}{p{3cm}p{4cm}p{6.5cm}}
+\toprule
+\textbf{基因/路徑} & \textbf{開發中藥物} & \textbf{現況} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{基因/路徑} & \textbf{開發中藥物} & \textbf{現況} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+\textit{LPA} (Lipoprotein(a)) & Apolipoprotein(a) 轉錄或功能阻斷劑 & GWAS 最早且關聯最強的基因座之一；Lp(a) 為高度遺傳、類 LDL 的巨分子，是潛在新的可調控風險因子；目前正進行心血管結局試驗 \\
+\midrule
+\textit{ANGPTL3} & ANGPTL3 抑制劑 & 遺傳學顯示可增加 TG 與 CAD 風險 \\
+\midrule
+\textit{ANGPTL4} & ANGPTL4 抑制劑 & 遺傳學顯示可增加 TG 與 CAD 風險 \\
+\midrule
+\textit{APOC3} & APOC3 抑制劑 & 失功能變異降低 TG 與 CAD 風險 \\
+\midrule
+\textit{NOS3}, \textit{GUCY1A1}, \textit{PDE5} & PDE5 抑制劑（已上市用於其他適應症） & 影響一氧化氮訊號；觀察性研究顯示 PDE5 抑制劑與 CAD 事件率下降相關，但缺乏後續試驗數據 \\
+\midrule
+\textit{SVEP1} & 研究中 & 氨基酸變異增加功能，增加血管平滑肌細胞發炎與 CAD 風險 \\
+\midrule
+\textit{ADAMTS7} & 抗體或疫苗（實驗階段） & 實驗研究顯示阻斷具治療潛力 \\
+\midrule
+NLRP3 inflammasome & 已有臨床試驗驗證 & 遺傳分析優先篩選出 NLRP3 inflammasome 的因果特徵 \\
+\bottomrule
+\end{longtable}
+
+\subsection{Mendelian Randomization 的應用}
+
+Mendelian randomization 使用僅與特定暴露相關的遺傳變異作為工具變數 (instrumental variables)，有助區分因果生物標記與混淆生物標記。
+
+\textbf{已驗證為因果風險因子：}
+\begin{itemize}
+    \item 升高的 LDL cholesterol
+    \item 升高的 Triglyceride
+    \item 高血壓
+    \item 肥胖
+    \item 升高的 Lipoprotein(a)
+    \item 第二型糖尿病
+\end{itemize}
+
+\textbf{已去優先化（非因果）的生物標記：}
+\begin{itemize}
+    \item 低 HDL cholesterol
+    \item 低 Vitamin D
+    \item 高 C-reactive protein (CRP)
+    \item 高 Uric acid
+\end{itemize}
+
+\textbf{其他 Mendelian randomization 發現：}
+\begin{itemize}
+    \item 身高較矮與 CAD 風險增加的關聯為因果性
+    \item 習慣性飲酒可能增加 CAD 風險
+\end{itemize}
+
+% ============================================================
+\section{Key Points 重點整理}
+% ============================================================
+
+\begin{enumerate}
+    \item \textcolor{emergency_red}{\textbf{罕見變異與治療標靶：}}罕見失功能變異以大效應直接指出特定基因為治療標靶，為藥物開發提供強力的人類遺傳學驗證。
+
+    \item \textcolor{emergency_red}{\textbf{常見變異的貢獻：}}GWAS 顯示常見遺傳變異佔 CAD 遺傳風險的相當比例。
+
+    \item \textcolor{emergency_red}{\textbf{多器官多組織效應：}}與 CAD 風險相關的變異在多種器官與組織中產生效應，許多透過已知的 CAD 核心路徑介導風險，但部分機轉仍不明。
+
+    \item \textcolor{emergency_red}{\textbf{Mendelian randomization：}}遺傳關聯數據透過 Mendelian randomization 實現因果推論，提供區分因果風險因子與相關風險標記的框架。
+
+    \item \textcolor{emergency_red}{\textbf{PRS 整合遺傳效應：}}PRS 將常見變異的累積效應整合為單一的遺傳 CAD 風險測量，在人群中呈連續分佈，高端顯著富集事件。
+
+    \item \textcolor{emergency_red}{\textbf{PRS 獨立於傳統因子：}}PRS 提供的資訊大致獨立於傳統臨床風險因子（包括家族史），可改善初發與復發 CAD 的風險分層。
+
+    \item \textcolor{emergency_red}{\textbf{遺傳風險可修正：}}雖然遺傳風險對偶基因於受孕時固定，其臨床後果是可修正的。證據顯示生活方式介入與降脂治療可減輕高 PRS 者的風險，尤其是早期應用時。
+
+    \item \textcolor{emergency_red}{\textbf{臨床應用尚無共識：}}CAD PRS 的臨床應用尚無共識，跨人群穩健性、增量價值、成本效益與實施策略仍待解決。
+\end{enumerate}
+
+% ============================================================
+\section{結論}
+% ============================================================
+
+更大規模的 GWAS 與定序研究將在全球人群中提供更精確的 DNA 變異、因果基因與下游機轉資訊，也有助進一步改善與標準化 CAD PRS。
+
+自 2007 年以來，GWAS 的大量遺傳發現持續改變我們對 CAD 發展的認知：每個人都帶有數百個影響廣泛疾病機轉的常見遺傳變異；攜帶越多，CAD 風險越高。許多已建立的治療已在這些數據上獲得驗證，數個遺傳驅動的疾病路徑目前正被探索其治療潛力。
+
+關於 CAD 的完整遺傳資訊——無論是 FH 變異或聚合為 PRS——持續為更早期的風險預測、預防與治療開創新機會。
+
+% ============================================================
+\section{參考文獻}
+% ============================================================
+
+\begin{enumerate}
+    \item Schunkert H, Natarajan P, Samani NJ. The Inherited Basis of Coronary Artery Disease. \href{https://doi.org/10.1056/NEJMra2405153}{\textit{N Engl J Med}. 2026;394:576-87.}
+
+    \item Lloyd-Jones DM, Larson MG, Beiser A, Levy D. Lifetime risk of developing coronary heart disease. \href{https://doi.org/10.1016/S0140-6736(99)80005-8}{\textit{Lancet}. 1999;353:89-92.}
+
+    \item Marenberg ME, Risch N, Berkman LF, et al. Genetic susceptibility to death from coronary heart disease in a study of twins. \href{https://doi.org/10.1056/NEJM199404143301503}{\textit{N Engl J Med}. 1994;330:1041-6.}
+
+    \item Aragam KG, Jiang T, Goel A, et al. Discovery and systematic characterization of risk variants and genes for coronary artery disease in over a million participants. \href{https://doi.org/10.1038/s41588-022-01233-6}{\textit{Nat Genet}. 2022;54:1803-15.}
+
+    \item Mach F, Baigent C, Catapano AL, et al. 2019 ESC/EAS guidelines for the management of dyslipidaemias. \href{https://doi.org/10.1093/eurheartj/ehz455}{\textit{Eur Heart J}. 2020;41:111-88.}
+
+    \item Khera AV, Emdin CA, Drake I, et al. Genetic risk, adherence to a healthy lifestyle, and coronary disease. \href{https://doi.org/10.1056/NEJMoa1605086}{\textit{N Engl J Med}. 2016;375:2349-58.}
+
+    \item Patel AP, Wang M, Ruan Y, et al. A multi-ancestry polygenic risk score improves risk prediction for coronary artery disease. \href{https://doi.org/10.1038/s41591-023-02429-x}{\textit{Nat Med}. 2023;29:1793-803.}
+
+    \item Abifadel M, Varret M, Rabès JP, et al. Mutations in PCSK9 cause autosomal dominant hypercholesterolemia. \href{https://doi.org/10.1038/ng1161}{\textit{Nat Genet}. 2003;34:154-6.}
+
+    \item Ference BA, Ray KK, Catapano AL, et al. Mendelian randomization study of ACLY and cardiovascular disease. \href{https://doi.org/10.1056/NEJMoa1806747}{\textit{N Engl J Med}. 2019;380:1033-42.}
+
+    \item Nissen SE, Lincoff AM, Brennan D, et al. Bempedoic acid and cardiovascular outcomes in statin-intolerant patients. \href{https://doi.org/10.1056/NEJMoa2215024}{\textit{N Engl J Med}. 2023;388:1353-64.}
+\end{enumerate}
+
+% ============================================================
+\section{縮寫對照表}
+% ============================================================
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{縮寫} & \textbf{全名} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+CAD & Coronary Artery Disease (冠狀動脈疾病) \\
+FH & Familial Hypercholesterolemia (家族性高膽固醇血症) \\
+GWAS & Genome-Wide Association Study (全基因組關聯研究) \\
+PRS & Polygenic Risk Score (多基因風險評分) \\
+SNP & Single-Nucleotide Polymorphism (單核苷酸多態性) \\
+LDL & Low-Density Lipoprotein (低密度脂蛋白) \\
+HDL & High-Density Lipoprotein (高密度脂蛋白) \\
+Lp(a) & Lipoprotein(a) (脂蛋白(a)) \\
+PCSK9 & Proprotein Convertase Subtilisin/Kexin Type 9 \\
+HR & Hazard Ratio (風險比) \\
+CI & Confidence Interval (信賴區間) \\
+MI & Myocardial Infarction (心肌梗塞) \\
+TG & Triglyceride (三酸甘油酯) \\
+\bottomrule
+\end{longtable}
+
+\end{document}

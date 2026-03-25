@@ -1,0 +1,21 @@
+---
+title: "其他 — Miscellaneous"
+---
+
+## 教學講義 Handouts
+
+- [DB-OTO 基因治療先天性耳聾 教學講義.md](DB-OTO 基因治療先天性耳聾 教學講義.md)
+- [Military_Service_Dongyin_2005.md](Military_Service_Dongyin_2005.md)
+- [NEJM Clinical Problem-Solving The Eyes Have It — 肉毒桿菌中毒 教學講義.md](NEJM Clinical Problem-Solving The Eyes Have It — 肉毒桿菌中毒 教學講義.md)
+- [dietary-intervention-literature-review.md](dietary-intervention-literature-review.md)
+
+## LaTeX Files
+
+- Dan Koe How to Fix Your Life 2026 教學講義.tex
+- Dan Koe How to Fix Your Life 2026 通用版.tex
+- Dietary Natural Approaches Stroke Prevention 2025 教學講義.tex
+- Military_Service_Dongyin_2005.tex
+- NEJM Case 1-2025.tex
+- NEJM Case 4-2026 HIV PJP 教學講義.tex
+- Nature News EAST Fusion 2026 科普講義.tex
+- 醫法倫_討論_謝慕揚.tex

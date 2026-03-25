@@ -1,0 +1,156 @@
+1
+00:00:00,000 --> 00:00:15,000
+Hello everyone, my name is Shao Xieao. I'm a professor of health services research and male clinic in the scientific director for pragmatic trials and evaluation.
+
+2
+00:00:15,000 --> 00:00:28,000
+I'm also an associate editor at Jack. So today we are honored to have our author, Dr. Stenin here. Dr. Stenin, can you introduce yourself?
+
+3
+00:00:29,000 --> 00:00:40,000
+Of course. Thank you for having me as well. So my name is Nicole von Stein. I am a PhD candidate at the Amsterdam University Medical Center and also with the cardiology centers of the Netherlands.
+
+4
+00:00:40,000 --> 00:00:51,000
+And apart from that resident cardiology, and I am the leading author of the equal trial that I am really happy to talk about today.
+
+5
+00:00:52,000 --> 00:00:59,000
+Thank you. Can you give us an overview of the findings of this paper?
+
+6
+00:00:59,000 --> 00:01:11,000
+Of course. So what we were really looking at is it's a randomized controlled trial with high risk patients for HIV-freebulation, also HIV-freebulation-related stroke.
+
+7
+00:01:11,000 --> 00:01:25,000
+And what we did is we gave 220 patients a smartwatch for six months and the other half of the patients did not wear a smartwatch and we found a full fourfold increase in AF diagnosis.
+
+8
+00:01:25,000 --> 00:01:38,000
+So nuance at AF in the intervention group wearing the smartwatch compared to the control group. And we also saw that they were diagnosed earlier than the patients in the control group.
+
+9
+00:01:38,000 --> 00:01:48,000
+So what does the study mean for our patients and our clinicians, do they should do something differently or?
+
+10
+00:01:48,000 --> 00:01:56,000
+What was mainly I think new about our project because these smartwatches have been detecting AF-freebulation for about a few years now.
+
+11
+00:01:56,000 --> 00:02:14,000
+We integrated it into a clinical workflow and I think that works very well. So we were able to detect AF-freebulation within 24 hours because all of the ECGs that are sent in by the patients when they experienced symptoms of anything or they received an irregular notification.
+
+12
+00:02:14,000 --> 00:02:32,000
+So irregular rhythm notification by the device. That's when they recorded an ECG and within 24 hours the E-health team were able to look at these ECGs and to see if AF-freebulation occurred.
+
+13
+00:02:32,000 --> 00:02:54,000
+This workflow worked very well. So in the Netherlands this may be quite easy to do because it's already working. And I would suggest that this would be a really good way to to monitor patients above 65 who are at high risk of both at your regulation and AF-related strong.
+
+14
+00:02:54,000 --> 00:03:09,000
+However, these workflows are the easiest way to work with this. So if there are countries that don't have this integrated yet, of course, they're I think now after this study, it would be really good to implement it.
+
+15
+00:03:09,000 --> 00:03:20,000
+But without this workflow, I think that would make it quite difficult to detect because then anybody with a consumer wearable can actually record their ECG, which is really good.
+
+16
+00:03:20,000 --> 00:03:25,000
+But you have to be able to monitor it or have somebody look at these ECGs.
+
+17
+00:03:25,000 --> 00:03:34,000
+That makes sense. So what do you think is the next step for this line of research either for your group or for the community?
+
+18
+00:03:34,000 --> 00:03:49,000
+There is a really big trial going on. It's called the Regal trial, who also monitor patients that are I think also high risk of AF-freebulation and with a smartwatch.
+
+19
+00:03:49,000 --> 00:03:59,000
+But they are looking at a hard clinical end point. So also that stroke risk, I think cognitive decline.
+
+20
+00:03:59,000 --> 00:04:18,000
+So we do need that study to be published to know if all these patients that we now think we have to treat. If that is screen detected AF is always an indication for a to go regulation in patients with a high chance fast score.
+
+21
+00:04:18,000 --> 00:04:29,000
+But I think also what our group is doing is looking at other arrhythmias. So AF-freebulation is of course the most common one, the most important one in terms of stroke risk.
+
+22
+00:04:29,000 --> 00:04:44,000
+But other arrhythmias, such as high grade AV blocks, so conduction disorders, or other intermittent arrhythmias that are difficult to detect.
+
+23
+00:04:44,000 --> 00:04:53,000
+We can also monitor these and we can also see these with the smartwatches. But which ones we are also trying to find out with our other study.
+
+24
+00:04:53,000 --> 00:05:12,000
+One question I'm curious about that might be different for the US and Netherlands. Because in the US we do or male clinic, does kind of have a similar workflow, but that's often within the contacts or the infrastructure.
+
+25
+00:05:12,000 --> 00:05:24,000
+Male has the infrastructure. But how do your cardiologists or the LA House get reimburs for monitoring these began?
+
+26
+00:05:24,000 --> 00:05:38,000
+Because within the research study we are doing the service for free, even we have the infrastructure when we scale to all patients above 65. It could be a large population.
+
+27
+00:05:38,000 --> 00:05:44,000
+So how do you guys get reimburs for this service?
+
+28
+00:05:44,000 --> 00:05:55,000
+So heartwacht is the program that the cardiology centers of Netherlands already used. So that was using a handheld mobile ECG device, which is like a medical device.
+
+29
+00:05:55,000 --> 00:06:05,000
+So that connection and that reimbursement was already there before we started this study. So we were able to integrate the Apple Watch into this system.
+
+30
+00:06:05,000 --> 00:06:12,000
+And then it's quite easy to have it reimburs. Of course for the study it wasn't yet because we still had to prove that it worked.
+
+31
+00:06:12,000 --> 00:06:21,000
+But now I'm sure that it will be reimburs because it's the same systems. It's the same team working to review all the ECGs.
+
+32
+00:06:21,000 --> 00:06:27,000
+It's quite easy but probably the process to get it reimbursed in the beginning when I wasn't there.
+
+33
+00:06:27,000 --> 00:06:30,000
+It was probably a longer process.
+
+34
+00:06:30,000 --> 00:06:34,000
+Yeah. Thank you, Dr. Stain.
+
+35
+00:06:34,000 --> 00:06:47,000
+For conducting this very important study I think you will probably more and more become the standard of care in the future for every country.
+
+36
+00:06:47,000 --> 00:06:49,000
+Or I hope so.
+
+37
+00:06:49,000 --> 00:07:02,000
+I hope so too. I think the Netherlands is just a very, very small country within a lot of people. But in the states I can imagine this distance you have to cross until you reach your physician are quite long.
+
+38
+00:07:02,000 --> 00:07:11,000
+So if a remote monitoring option like this is possible in the future in countries that are that big, that would be really great.
+
+39
+00:07:11,000 --> 00:07:14,000
+Thank you so much.
+

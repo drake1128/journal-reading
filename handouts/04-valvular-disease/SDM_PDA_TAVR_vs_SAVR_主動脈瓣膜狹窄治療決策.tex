@@ -1,0 +1,677 @@
+\documentclass[12pt,a4paper]{article}
+
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom settings for PDA booklet
+\geometry{
+  top=2cm,
+  bottom=2cm,
+  left=2cm,
+  right=2cm
+}
+
+% Remove header for cleaner patient-facing document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\textcolor{emergency_gray}{\small 第 \thepage\ 頁}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Custom colors for PDA
+\definecolor{pda_green}{RGB}{34,139,34}
+\definecolor{pda_orange}{RGB}{255,140,0}
+\definecolor{pda_purple}{RGB}{128,0,128}
+\definecolor{light_blue}{RGB}{230,242,255}
+\definecolor{light_green}{RGB}{230,255,230}
+\definecolor{light_orange}{RGB}{255,245,230}
+\definecolor{light_purple}{RGB}{245,230,255}
+
+% Patient-friendly box styles
+\newtcolorbox{infobox}[1][]{
+    colback=light_blue,
+    colframe=emergency_blue,
+    title=\textbf{#1},
+    fonttitle=\large\bfseries,
+    boxrule=1.5pt,
+    arc=8pt,
+    left=10pt,
+    right=10pt,
+    top=8pt,
+    bottom=8pt
+}
+
+\newtcolorbox{questionbox}{
+    colback=light_purple,
+    colframe=pda_purple,
+    boxrule=1.5pt,
+    arc=8pt,
+    left=10pt,
+    right=10pt,
+    top=8pt,
+    bottom=8pt
+}
+
+\newtcolorbox{checklistbox}[1][]{
+    colback=white,
+    colframe=emergency_gray,
+    title=\textbf{#1},
+    fonttitle=\normalsize\bfseries,
+    boxrule=1pt,
+    arc=5pt,
+    left=8pt,
+    right=8pt,
+    top=6pt,
+    bottom=6pt
+}
+
+\begin{document}
+
+%============================================================
+% Cover Page
+%============================================================
+\begin{center}
+\vspace*{1cm}
+
+{\fontsize{28}{34}\selectfont\bfseries\textcolor{emergency_red}{醫病共享決策}}\\[0.3cm]
+{\fontsize{20}{24}\selectfont\textcolor{emergency_blue}{Shared Decision Making}}\\[1.5cm]
+
+\begin{tikzpicture}
+    \draw[emergency_red, line width=3pt] (0,0) -- (12,0);
+\end{tikzpicture}
+
+\vspace{1cm}
+
+{\fontsize{24}{30}\selectfont\bfseries 主動脈瓣膜嚴重狹窄}\\[0.5cm]
+{\fontsize{20}{24}\selectfont\textcolor{emergency_blue}{治療方式選擇}}\\[0.3cm]
+{\large\textcolor{emergency_gray}{經導管瓣膜置換術 (TAVR) vs 外科瓣膜置換術 (SAVR)}}\\[2cm]
+
+\begin{tikzpicture}
+    \node[draw=emergency_blue, line width=2pt, rounded corners=15pt,
+          fill=light_blue, minimum width=10cm, minimum height=3cm, align=center] {
+        {\Large\bfseries 病患決策輔助工具}\\[0.3cm]
+        {\large Patient Decision Aid (PDA)}
+    };
+\end{tikzpicture}
+
+\vspace{2cm}
+
+{\large 本手冊將幫助您：}\\[0.3cm]
+\begin{minipage}{0.7\textwidth}
+\begin{itemize}[leftmargin=*, itemsep=8pt]
+    \item[\textcolor{emergency_blue}{\textbullet}] 了解您的疾病狀況
+    \item[\textcolor{emergency_blue}{\textbullet}] 認識兩種治療方式的差異
+    \item[\textcolor{emergency_blue}{\textbullet}] 思考什麼對您最重要
+    \item[\textcolor{emergency_blue}{\textbullet}] 與醫療團隊一起做出最適合您的決定
+\end{itemize}
+\end{minipage}
+
+\vfill
+
+{\normalsize 製作單位：新竹臺大分院心臟血管中心}\\[0.2cm]
+{\small 整理：謝慕揚 MD, PhD, FESC}\\[0.2cm]
+{\small 日期：\mydate}
+
+\end{center}
+
+\newpage
+
+%============================================================
+% Section 1: Understanding Your Condition
+%============================================================
+\section*{\textcolor{emergency_red}{\Large 一、認識您的疾病}}
+\addcontentsline{toc}{section}{一、認識您的疾病}
+
+\begin{infobox}[什麼是主動脈瓣膜狹窄？]
+主動脈瓣膜位於心臟與主動脈之間，就像一扇「門」，讓血液從心臟流向全身。
+
+當這扇「門」因為老化、�ite化而變得狹窄、打不開時，心臟必須更用力才能把血液送出去，這就是\textbf{「主動脈瓣膜狹窄」}。
+\end{infobox}
+
+\vspace{0.5cm}
+
+\subsection*{\textcolor{emergency_blue}{嚴重狹窄會有什麼影響？}}
+
+\begin{center}
+\begin{tikzpicture}
+    % Normal valve
+    \node[draw=pda_green, line width=2pt, rounded corners=10pt, fill=light_green,
+          minimum width=4cm, minimum height=2.5cm, align=center] at (0,0) {
+        \textbf{正常瓣膜}\\[0.2cm]
+        門開得大\\血液順暢流出
+    };
+
+    % Arrow
+    \draw[->, line width=2pt, emergency_gray] (2.5,0) -- (4.5,0);
+
+    % Stenotic valve
+    \node[draw=emergency_red, line width=2pt, rounded corners=10pt, fill=red!10,
+          minimum width=4cm, minimum height=2.5cm, align=center] at (7,0) {
+        \textbf{狹窄瓣膜}\\[0.2cm]
+        門打不開\\心臟很費力
+    };
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5cm}
+
+\subsection*{\textcolor{emergency_blue}{常見症狀}}
+
+\begin{minipage}[t]{0.48\textwidth}
+\begin{checklistbox}[您是否有這些症狀？]
+\begin{itemize}[leftmargin=*, itemsep=5pt]
+    \item[$\square$] 走路或爬樓梯會喘
+    \item[$\square$] 容易疲倦
+    \item[$\square$] 胸口悶痛
+    \item[$\square$] 頭暈或曾經昏倒
+    \item[$\square$] 腳踝水腫
+\end{itemize}
+\end{checklistbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\begin{tcolorbox}[colback=red!5, colframe=emergency_red, arc=8pt]
+\textbf{\textcolor{emergency_red}{重要提醒}}\\[0.3cm]
+即使目前沒有明顯症狀，如果心臟超音波顯示\textbf{心臟功能已經下降}，醫師也可能建議治療，以避免心臟進一步受損。
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{0.8cm}
+
+\subsection*{\textcolor{emergency_blue}{為什麼需要治療？}}
+
+\begin{center}
+\begin{tcolorbox}[colback=yellow!10, colframe=pda_orange, width=0.9\textwidth, arc=8pt]
+\begin{center}
+{\large\bfseries 嚴重主動脈瓣膜狹窄若不治療...}\\[0.5cm]
+\end{center}
+\begin{itemize}[leftmargin=2cm, itemsep=8pt]
+    \item 心臟會越來越疲勞，功能持續下降
+    \item 症狀會越來越嚴重，影響日常生活
+    \item 可能發生心臟衰竭、猝死等嚴重併發症
+    \item \textbf{目前沒有藥物可以「治好」瓣膜狹窄}
+\end{itemize}
+\end{tcolorbox}
+\end{center}
+
+\newpage
+
+%============================================================
+% Section 2: Treatment Options
+%============================================================
+\section*{\textcolor{emergency_red}{\Large 二、治療方式介紹}}
+\addcontentsline{toc}{section}{二、治療方式介紹}
+
+\begin{center}
+{\large 目前有\textbf{兩種}主要的治療方式可以選擇：}
+\end{center}
+
+\vspace{0.5cm}
+
+%--- TAVR ---
+\begin{tcolorbox}[
+    colback=blue!5,
+    colframe=emergency_blue,
+    title={\Large\bfseries 選項 A：經導管主動脈瓣膜置換術 (TAVR)},
+    fonttitle=\bfseries\color{white},
+    coltitle=white,
+    colbacktitle=emergency_blue,
+    arc=10pt,
+    boxrule=2pt
+]
+
+\textbf{\large 什麼是 TAVR？}\\[0.3cm]
+醫師從您的\textbf{大腿血管}（鼠蹊部）放入一根細管（導管），將新的人工瓣膜送到心臟，撐開並取代原本狹窄的瓣膜。
+
+\vspace{0.5cm}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{\textcolor{pda_green}{優點：}}
+\begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item 不需要開胸手術
+    \item 不需要體外循環（心肺機）
+    \item 傷口小（約 0.5-1 公分）
+    \item 恢復較快（通常 3-5 天可出院）
+    \item 疼痛較少
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{\textcolor{emergency_red}{需要考慮的事：}}
+\begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item 人工瓣膜的長期耐用度資料較少（目前約 7-10 年數據）
+    \item 可能需要裝置永久心律調節器的機率較高
+    \item 血管太小或太彎曲可能無法進行
+\end{itemize}
+\end{minipage}
+
+\end{tcolorbox}
+
+\vspace{0.8cm}
+
+%--- SAVR ---
+\begin{tcolorbox}[
+    colback=green!5,
+    colframe=pda_green,
+    title={\Large\bfseries 選項 B：外科主動脈瓣膜置換術 (SAVR)},
+    fonttitle=\bfseries\color{white},
+    coltitle=white,
+    colbacktitle=pda_green,
+    arc=10pt,
+    boxrule=2pt
+]
+
+\textbf{\large 什麼是 SAVR？}\\[0.3cm]
+心臟外科醫師會在您的胸口做一個切口，打開胸骨，在心臟停止跳動的狀態下（使用心肺機），將舊的瓣膜切除，縫上新的人工瓣膜。
+
+\vspace{0.5cm}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{\textcolor{pda_green}{優點：}}
+\begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item 長期耐用度已被證實（15-20 年）
+    \item 可以同時處理其他心臟問題（如冠狀動脈繞道）
+    \item 可以做瓣膜環擴大手術
+    \item 未來如果瓣膜退化，還可以選擇 TAVR
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{\textcolor{emergency_red}{需要考慮的事：}}
+\begin{itemize}[leftmargin=*, itemsep=3pt]
+    \item 需要全身麻醉、開胸手術
+    \item 傷口較大（約 15-20 公分）
+    \item 恢復時間較長（住院約 7-10 天）
+    \item 術後疼痛較明顯
+    \item 需要 2-3 個月才能完全恢復
+\end{itemize}
+\end{minipage}
+
+\end{tcolorbox}
+
+\newpage
+
+%============================================================
+% Section 3: Comparison Table
+%============================================================
+\section*{\textcolor{emergency_red}{\Large 三、兩種治療方式比較}}
+\addcontentsline{toc}{section}{三、兩種治療方式比較}
+
+\begin{center}
+{\large 以下表格幫助您比較兩種治療方式的差異：}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{center}
+\begin{longtable}{p{4cm}p{5.5cm}p{5.5cm}}
+\toprule
+\rowcolor{emergency_blue!20}
+\textbf{比較項目} & \textbf{TAVR（經導管）} & \textbf{SAVR（開心手術）} \\
+\midrule
+\endfirsthead
+\toprule
+\rowcolor{emergency_blue!20}
+\textbf{比較項目} & \textbf{TAVR（經導管）} & \textbf{SAVR（開心手術）} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\rowcolor{light_blue}
+\textbf{手術方式} & 從大腿血管放入導管 & 開胸手術 \\
+\midrule
+
+\textbf{麻醉方式} & 局部麻醉或輕度鎮靜（部分需全身麻醉） & 全身麻醉 \\
+\midrule
+
+\rowcolor{light_blue}
+\textbf{傷口大小} & 約 0.5-1 公分（鼠蹊部） & 約 15-20 公分（胸口） \\
+\midrule
+
+\textbf{手術時間} & 約 1-2 小時 & 約 3-4 小時 \\
+\midrule
+
+\rowcolor{light_blue}
+\textbf{住院天數} & 約 3-5 天 & 約 7-10 天 \\
+\midrule
+
+\textbf{恢復時間} & 約 2-4 週 & 約 2-3 個月 \\
+\midrule
+
+\rowcolor{light_blue}
+\textbf{術後疼痛} & 較輕微 & 較明顯 \\
+\midrule
+
+\textbf{5-7 年存活率} & \multicolumn{2}{c}{\textbf{兩者相似}} \\
+\midrule
+
+\rowcolor{light_blue}
+\textbf{瓣膜耐用度} & 目前數據約 7-10 年\newline （長期資料仍在累積中） & 已證實可達 15-20 年 \\
+\midrule
+
+\textbf{需要裝心律調節器} & 較高（約 10-20\%） & 較低（約 3-5\%） \\
+\midrule
+
+\rowcolor{light_blue}
+\textbf{瓣膜血栓風險} & 稍高 & 較低 \\
+\midrule
+
+\textbf{未來再次治療} & TAVR-in-TAVR 較困難 & 可選擇 TAVR-in-SAVR \\
+
+\bottomrule
+\end{longtable}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[colback=yellow!10, colframe=pda_orange, arc=8pt]
+\textbf{\textcolor{pda_orange}{重要說明：}}\\[0.3cm]
+以上數據來自大型臨床研究（PARTNER 3、Evolut Low Risk、RHEIA 等試驗）。每位病患的情況不同，實際風險與預後請與您的醫療團隊討論。
+\end{tcolorbox}
+
+\newpage
+
+%============================================================
+% Section 4: What Matters to You
+%============================================================
+\section*{\textcolor{emergency_red}{\Large 四、什麼對您最重要？}}
+\addcontentsline{toc}{section}{四、什麼對您最重要？}
+
+\begin{center}
+{\large 請花一點時間思考，以下哪些因素對您來說比較重要？}\\[0.3cm]
+{\normalsize 這將幫助您與醫療團隊一起做出最適合您的決定。}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[colback=white, colframe=emergency_blue, arc=10pt, boxrule=2pt]
+
+\begin{center}
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{p{0.5cm}p{6cm}cp{6cm}p{0.5cm}}
+
+& \textbf{\textcolor{emergency_blue}{比較傾向 TAVR}} & & \textbf{\textcolor{pda_green}{比較傾向 SAVR}} & \\[0.3cm]
+
+\hline\\
+
+$\square$ & 我希望傷口小、恢復快 & \textbf{vs} & 我可以接受較大的傷口和較長的恢復期 & $\square$ \\
+
+\hline\\
+
+$\square$ & 我希望盡快回到日常生活 & \textbf{vs} & 我願意花較長時間恢復，換取較確定的長期效果 & $\square$ \\
+
+\hline\\
+
+$\square$ & 我擔心開胸手術的風險 & \textbf{vs} & 我比較擔心瓣膜的長期耐用度 & $\square$ \\
+
+\hline\\
+
+$\square$ & 我的年紀較大，預期壽命可能不超過 10-15 年 & \textbf{vs} & 我相對年輕，希望瓣膜能用越久越好 & $\square$ \\
+
+\hline\\
+
+$\square$ & 我有其他疾病，不適合接受大手術 & \textbf{vs} & 我身體狀況良好，可以承受開心手術 & $\square$ \\
+
+\hline\\
+
+$\square$ & 我不想經歷胸骨癒合的過程 & \textbf{vs} & 我希望保留未來更多的治療選項 & $\square$ \\
+
+\end{tabular}
+\end{center}
+
+\end{tcolorbox}
+
+\vspace{0.8cm}
+
+\begin{questionbox}
+\begin{center}
+{\Large\bfseries\textcolor{pda_purple}{我目前的想法是...}}\\[0.5cm]
+\end{center}
+
+$\square$ 我比較傾向選擇 \textbf{TAVR}（經導管手術）
+
+$\square$ 我比較傾向選擇 \textbf{SAVR}（開心手術）
+
+$\square$ 我還沒有決定，需要更多資訊
+
+$\square$ 我想聽聽醫療團隊的建議
+
+\vspace{0.5cm}
+
+\textbf{我最在意的事情是：}\\[0.3cm]
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+\rule{\textwidth}{0.5pt}
+
+\end{questionbox}
+
+\newpage
+
+%============================================================
+% Section 5: Questions to Ask Your Doctor
+%============================================================
+\section*{\textcolor{emergency_red}{\Large 五、您可以問醫師的問題}}
+\addcontentsline{toc}{section}{五、您可以問醫師的問題}
+
+\begin{center}
+{\large 在與醫療團隊討論時，您可以提出以下問題：}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{checklistbox}[關於我的病情]
+\begin{enumerate}[leftmargin=*, itemsep=8pt]
+    \item[$\square$] 我的主動脈瓣膜狹窄有多嚴重？
+    \item[$\square$] 我的心臟功能目前如何？
+    \item[$\square$] 如果不治療，可能會發生什麼事？
+    \item[$\square$] 我的手術風險評估結果是什麼？（STS 分數）
+\end{enumerate}
+\end{checklistbox}
+
+\vspace{0.5cm}
+
+\begin{checklistbox}[關於治療選擇]
+\begin{enumerate}[leftmargin=*, itemsep=8pt]
+    \item[$\square$] 以我的情況，您建議哪種治療方式？為什麼？
+    \item[$\square$] 我的血管適合做 TAVR 嗎？
+    \item[$\square$] 我有沒有其他心臟問題需要同時處理？
+    \item[$\square$] 兩種手術在貴院的成功率和併發症發生率分別是多少？
+    \item[$\square$] 誰會幫我執行手術？有多少經驗？
+\end{enumerate}
+\end{checklistbox}
+
+\vspace{0.5cm}
+
+\begin{checklistbox}[關於術後]
+\begin{enumerate}[leftmargin=*, itemsep=8pt]
+    \item[$\square$] 手術後我需要住院多久？
+    \item[$\square$] 什麼時候可以恢復正常活動？
+    \item[$\square$] 我需要長期服用哪些藥物？
+    \item[$\square$] 瓣膜預計可以使用多久？
+    \item[$\square$] 如果將來瓣膜出問題，有什麼補救方式？
+\end{enumerate}
+\end{checklistbox}
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[colback=light_purple, colframe=pda_purple, arc=8pt]
+\begin{center}
+{\large\bfseries\textcolor{pda_purple}{我還想問的問題：}}\\[0.5cm]
+\end{center}
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+\rule{\textwidth}{0.5pt}
+\end{tcolorbox}
+
+\newpage
+
+%============================================================
+% Section 6: Making Your Decision
+%============================================================
+\section*{\textcolor{emergency_red}{\Large 六、做出您的決定}}
+\addcontentsline{toc}{section}{六、做出您的決定}
+
+\begin{center}
+\begin{tikzpicture}
+    \node[draw=emergency_blue, line width=2pt, rounded corners=15pt,
+          fill=light_blue, minimum width=14cm, minimum height=2.5cm, align=center] {
+        {\Large\bfseries 醫病共享決策的精神}\\[0.3cm]
+        {\normalsize 沒有「最好」的選擇，只有「最適合您」的選擇}\\
+        {\normalsize 醫療團隊提供專業建議，但最終決定權在您手中}
+    };
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.8cm}
+
+\subsection*{\textcolor{emergency_blue}{決策三步驟}}
+
+\begin{center}
+\begin{tikzpicture}[node distance=0.5cm]
+    % Step 1
+    \node[draw=emergency_blue, line width=2pt, rounded corners=10pt,
+          fill=light_blue, minimum width=4cm, minimum height=2cm, align=center] (step1) at (0,0) {
+        \textbf{\large 步驟 1}\\[0.2cm]
+        了解資訊
+    };
+
+    % Arrow 1
+    \draw[->, line width=3pt, emergency_gray] (2.5,0) -- (4,0);
+
+    % Step 2
+    \node[draw=pda_orange, line width=2pt, rounded corners=10pt,
+          fill=light_orange, minimum width=4cm, minimum height=2cm, align=center] (step2) at (6.5,0) {
+        \textbf{\large 步驟 2}\\[0.2cm]
+        思考價值觀
+    };
+
+    % Arrow 2
+    \draw[->, line width=3pt, emergency_gray] (9,0) -- (10.5,0);
+
+    % Step 3
+    \node[draw=pda_green, line width=2pt, rounded corners=10pt,
+          fill=light_green, minimum width=4cm, minimum height=2cm, align=center] (step3) at (13,0) {
+        \textbf{\large 步驟 3}\\[0.2cm]
+        共同決定
+    };
+\end{tikzpicture}
+\end{center}
+
+\vspace{1cm}
+
+\subsection*{\textcolor{emergency_blue}{我的決定}}
+
+\begin{tcolorbox}[colback=white, colframe=emergency_red, arc=10pt, boxrule=2pt]
+
+\begin{center}
+{\Large\bfseries 經過充分了解與思考後，我決定選擇：}\\[0.8cm]
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+    % TAVR option
+    \node[draw=emergency_blue, line width=2pt, rounded corners=10pt,
+          minimum width=5cm, minimum height=1.5cm, align=center] at (0,0) {
+        $\bigcirc$ \textbf{TAVR}（經導管手術）
+    };
+
+    % SAVR option
+    \node[draw=pda_green, line width=2pt, rounded corners=10pt,
+          minimum width=5cm, minimum height=1.5cm, align=center] at (8,0) {
+        $\bigcirc$ \textbf{SAVR}（開心手術）
+    };
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.8cm}
+
+\textbf{我做這個決定的原因：}\\[0.3cm]
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+\rule{\textwidth}{0.5pt}
+
+\vspace{0.5cm}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{病患/家屬簽名：}\\[0.8cm]
+\rule{5cm}{0.5pt}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{日期：}\\[0.8cm]
+\rule{5cm}{0.5pt}
+\end{minipage}
+
+\end{tcolorbox}
+
+\newpage
+
+%============================================================
+% Section 7: Summary
+%============================================================
+\section*{\textcolor{emergency_red}{\Large 七、重點整理}}
+\addcontentsline{toc}{section}{七、重點整理}
+
+\begin{tcolorbox}[colback=yellow!5, colframe=pda_orange, arc=10pt, boxrule=2pt,
+    title={\Large\bfseries\color{white} 您需要記住的重點}, colbacktitle=pda_orange]
+
+\begin{enumerate}[leftmargin=*, itemsep=12pt, label=\textcolor{emergency_red}{\arabic*.}]
+
+    \item \textbf{嚴重主動脈瓣膜狹窄需要治療}\\
+    藥物無法治癒瓣膜狹窄，只有換瓣膜才能根本解決問題。
+
+    \item \textbf{兩種治療方式各有優缺點}
+    \begin{itemize}[leftmargin=*]
+        \item \textbf{TAVR}：微創、恢復快，但長期耐用度資料較少
+        \item \textbf{SAVR}：開胸手術、恢復較慢，但長期耐用度已證實
+    \end{itemize}
+
+    \item \textbf{中期（5-7 年）結果兩者相似}\\
+    大型臨床試驗顯示，兩種治療在中期的存活率和主要併發症相當。
+
+    \item \textbf{選擇取決於您的個人情況}
+    \begin{itemize}[leftmargin=*]
+        \item 年齡與預期壽命
+        \item 身體狀況與手術風險
+        \item 血管與心臟的解剖構造
+        \item 您的價值觀與偏好
+    \end{itemize}
+
+    \item \textbf{由心臟團隊評估，與您共同決定}\\
+    我們的心臟內科、心臟外科、影像科醫師會一起討論，給您最適合的建議。
+
+\end{enumerate}
+
+\end{tcolorbox}
+
+\vspace{1cm}
+
+\begin{center}
+\begin{tcolorbox}[colback=emergency_blue!10, colframe=emergency_blue, arc=15pt, boxrule=2pt,
+    width=0.9\textwidth]
+\begin{center}
+{\Large\bfseries\textcolor{emergency_blue}{如有任何問題，請隨時與我們聯繫}}\\[0.5cm]
+{\large 新竹臺大分院 心臟血管中心}\\[0.3cm]
+我們將竭誠為您服務
+\end{center}
+\end{tcolorbox}
+\end{center}
+
+\vspace{1cm}
+
+%============================================================
+% References
+%============================================================
+\section*{\textcolor{emergency_gray}{\normalsize 參考資料}}
+
+{\small
+本手冊內容參考以下醫學文獻：
+\begin{enumerate}[leftmargin=*]
+    \item \href{https://doi.org/10.1056/NEJMclde2416168}{NEJM Clinical Decisions: Transcatheter or Surgical Aortic-Valve Replacement in Asymptomatic Severe Aortic Stenosis. N Engl J Med 2026;394:195-198.}
+    \item 2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease.
+    \item PARTNER 3 Trial (7-year follow-up)
+    \item RHEIA Trial (Women with Aortic Stenosis)
+\end{enumerate}
+}
+
+\end{document}

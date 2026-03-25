@@ -1,0 +1,330 @@
+\documentclass[11pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{Nature News 科普講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{中國核融合反應爐突破電漿密度極限}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Nature News}}\\[0.5cm]
+{\Large\textbf{Chinese Nuclear Fusion Reactor Pushes Plasma Past Crucial Limit: What Happens Next}}\\[0.3cm]
+{\large 中國核融合反應爐突破電漿密度極限：下一步是什麼？}\\[0.5cm]
+{\normalsize Nature News, 09 January 2026. DOI: 10.1038/d41586-026-00063-4}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+\keyfinding{
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+    \item 中國 EAST「人造太陽」成功將電漿密度推升至超越 Greenwald 極限 \textbf{30\%-65\%}
+    \item 透過高功率微波加熱與中性氣體注入兩項創新技術達成突破
+    \item 此發現可能應用於 ITER（國際熱核實驗反應爐），加速核融合商業化進程
+    \item 研究成果發表於 \textit{Science Advances}（2026 年 1 月 1 日）
+\end{itemize}
+}
+
+\section{什麼是核融合？(What is Nuclear Fusion?)}
+
+\textbf{核融合 (Nuclear Fusion)} 是太陽產生能量的方式，也是人類追求乾淨能源的終極目標：
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+    \item 輕原子（如 hydrogen 氫）在極高溫、極高壓下結合成較重的原子（如 helium 氦）
+    \item 這個過程會釋放巨大能量（根據愛因斯坦 $E=mc^2$）
+    \item 科學家希望在地球上複製這個過程，產生乾淨、近乎無限的能源
+    \item 與核分裂 (nuclear fission) 不同，核融合不會產生長期放射性廢料
+\end{itemize}
+
+\note{
+中國的 EAST 反應爐被稱為「\textbf{人造太陽}」，因為它試圖在地球上重現太陽核心的核融合反應。
+}
+
+\section{托卡馬克裝置 (Tokamak)}
+
+\subsection{基本原理}
+
+\textbf{托卡馬克 (Tokamak)} 是目前最有潛力的核融合反應爐設計，名稱來自俄語縮寫：
+
+\begin{longtable}{p{3.5cm}p{10.5cm}}
+\toprule
+\textbf{特徵} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+形狀 & 甜甜圈形（環形, torus）的真空腔室 \\
+\midrule
+約束方式 & 利用強大磁場將電漿約束在腔室內，避免接觸壁面 \\
+\midrule
+加熱方式 & 多種加熱方法將電漿加熱至數億度 \\
+\midrule
+目的 & 維持足夠高的溫度、密度與時間以產生核融合反應 \\
+\bottomrule
+\end{longtable}
+
+\subsection{什麼是電漿？(Plasma)}
+
+\textbf{電漿 (Plasma)} 是物質的第四態：
+
+\begin{center}
+\begin{tikzpicture}[node distance=2.5cm, auto]
+    \node[draw, rounded corners, fill=blue!20, minimum width=2cm, minimum height=1cm] (solid) {固態 Solid};
+    \node[draw, rounded corners, fill=blue!10, minimum width=2cm, minimum height=1cm, right of=solid] (liquid) {液態 Liquid};
+    \node[draw, rounded corners, fill=orange!20, minimum width=2cm, minimum height=1cm, right of=liquid] (gas) {氣態 Gas};
+    \node[draw, rounded corners, fill=red!30, minimum width=2cm, minimum height=1cm, right of=gas] (plasma) {電漿 Plasma};
+
+    \draw[->, thick] (solid) -- (liquid) node[midway, above, font=\scriptsize] {加熱};
+    \draw[->, thick] (liquid) -- (gas) node[midway, above, font=\scriptsize] {加熱};
+    \draw[->, thick] (gas) -- (plasma) node[midway, above, font=\scriptsize] {加熱};
+\end{tikzpicture}
+\end{center}
+
+當氣體被加熱到極高溫度時，原子會分離成離子 (ions) 和電子 (electrons)，形成電漿。核融合反應必須在電漿狀態下進行。
+
+\section{Greenwald 極限：數十年的障礙}
+
+\subsection{定義與問題}
+
+\textbf{Greenwald 極限 (Greenwald Limit)} 是核融合研究數十年來的重大障礙：
+
+\begin{longtable}{p{3cm}p{11cm}}
+\toprule
+\textbf{項目} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+定義 & 電漿密度的理論上限閾值 \\
+\midrule
+發現者 & Martin Greenwald（MIT 物理學家） \\
+\midrule
+問題 & 當電漿密度超過此極限時，會變得不穩定並崩潰 (disruption) \\
+\midrule
+影響 & 限制了托卡馬克裝置的功率輸出，阻礙核融合商業化 \\
+\bottomrule
+\end{longtable}
+
+\subsection{核融合效率的三大要素}
+
+要產生有效的核融合反應，必須同時達成三個條件：
+
+\begin{importantbox}
+\textbf{Lawson 準則 (Lawson Criterion) 的三大要素：}
+\begin{enumerate}[leftmargin=*,itemsep=3pt]
+    \item \textbf{高密度 (High Density)}：電漿中必須有足夠多的粒子
+    \item \textbf{高溫度 (High Temperature)}：通常需要超過 1 億度（比太陽核心還熱）
+    \item \textbf{長能量約束時間 (Long Energy Confinement Time)}：能量必須在電漿中維持夠久
+\end{enumerate}
+
+\textbf{問題}：至今沒有任何裝置能同時達成這三個條件，因為高溫度 + 高密度會使電漿變得不穩定。
+\end{importantbox}
+
+\section{中國團隊如何突破？}
+
+\subsection{研究背景}
+
+\begin{longtable}{p{3.5cm}p{10.5cm}}
+\toprule
+\textbf{項目} & \textbf{內容} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+研究機構 & 中國科學院合肥物質科學研究院 \\
+\midrule
+裝置名稱 & EAST（Experimental Advanced Superconducting Tokamak）\newline 先進超導托卡馬克實驗裝置 \\
+\midrule
+理論基礎 & 2021 年 Dominique Escande 等人提出：透過調整條件使電漿與反應爐內壁達到穩定、相互增強的狀態，可突破 Greenwald 極限 \\
+\midrule
+發表期刊 & \textit{Science Advances}（2026 年 1 月 1 日） \\
+\bottomrule
+\end{longtable}
+
+\subsection{兩項關鍵創新技術}
+
+\subsubsection{技術一：高功率微波加熱}
+
+\begin{longtable}{p{5cm}p{4cm}p{4.5cm}}
+\toprule
+\textbf{比較項目} & \textbf{傳統方法} & \textbf{新方法} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+加熱效率 & 較低 & 更有效率 \\
+\midrule
+內壁金屬剝落 & 較多金屬原子混入電漿 & 顯著減少 \\
+\midrule
+雜質含量 & 較多 → 不穩定 & 較少 → 更穩定 \\
+\midrule
+輻射損失 & 較高 & 較低 \\
+\bottomrule
+\end{longtable}
+
+\textbf{原理}：高功率微波能更有效地加熱初始燃料，減少金屬原子從托卡馬克內壁剝落並混入電漿。較少的雜質意味著較少的輻射損失，幫助電漿在密度增加時仍保持穩定。
+
+\subsubsection{技術二：中性氣體注入}
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+    \item 注入大量中性氣體 (neutral gas) 進入腔室
+    \item 為電漿提供更多燃料，使其能達到更高密度
+    \item 同時冷卻靠近壁面的區域
+    \item 進一步減少雜質產生
+\end{itemize}
+
+\subsection{研究成果}
+
+\begin{importantbox}
+\textbf{突破性成果}：\\[0.3cm]
+電漿密度比 EAST 正常運作時高出 \textbf{30\% 至 65\%}，成功突破 Greenwald 極限！
+\end{importantbox}
+
+\section{為什麼這項突破很重要？}
+
+\subsection{經濟效益}
+
+Cornell 大學核能工程師 David Hammer 指出：
+
+\begin{quote}
+\textit{「研究人員證明了托卡馬克的功率可以提升，而不需要花費數十億美元開發更強大的磁鐵來約束電漿並提高其密度。這對於製造經濟上可行的托卡馬克核融合反應爐非常重要。」}
+\end{quote}
+
+\subsection{對 ITER 的潛在影響}
+
+\textbf{ITER}（International Thermonuclear Experimental Reactor，國際熱核實驗反應爐）：
+
+\begin{longtable}{p{3.5cm}p{10.5cm}}
+\toprule
+\textbf{項目} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+位置 & 法國南部 Saint-Paul-lez-Durance \\
+\midrule
+性質 & 全球合作建造的最大核融合反應爐 \\
+\midrule
+原計劃 & 2020 年開始實驗 \\
+\midrule
+延遲原因 & COVID-19 疫情、製造問題、安全疑慮 \\
+\midrule
+潛在應用 & 中國團隊計劃向 ITER 提案，在那裡重複此實驗 \\
+\bottomrule
+\end{longtable}
+
+\section{下一步是什麼？}
+
+\subsection{技術路線圖}
+
+\begin{center}
+\begin{tikzpicture}[
+    block/.style={rectangle, draw, fill=blue!20, text width=5cm, text centered, rounded corners, minimum height=1cm},
+    arrow/.style={->, thick, >=stealth}]
+
+    \node[block, fill=green!30] (current) at (0,0) {目前成就：突破 Greenwald 密度極限};
+    \node[block] (next1) at (0,-1.8) {結合高密度運作與先進穩定控制技術};
+    \node[block] (next2) at (0,-3.6) {達成自持燃燒電漿 (Self-sustaining burning plasma)};
+    \node[block, fill=orange!30] (goal) at (0,-5.4) {商業化核融合發電};
+
+    \draw[arrow] (current) -- (next1);
+    \draw[arrow] (next1) -- (next2);
+    \draw[arrow] (next2) -- (goal);
+\end{tikzpicture}
+\end{center}
+
+\subsection{待解決的挑戰}
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+    \item 同時維持高密度、高溫度與長能量約束時間
+    \item 發展先進穩定控制技術
+    \item 在其他托卡馬克裝置（如 ITER）驗證此方法的可重複性
+    \item 從實驗室規模擴展到商業規模
+\end{itemize}
+
+\section{簡單類比：煮湯的比喻}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{核融合要素} & \textbf{煮湯類比} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+高密度 & 鍋裡要有足夠多的食材 \\
+\midrule
+高溫度 & 火要夠大 \\
+\midrule
+長約束時間 & 要持續加熱夠久，讓食材煮熟 \\
+\midrule
+Greenwald 極限 & 以前認為食材放太多，湯會溢出來 \\
+\midrule
+中國的突破 & 找到方法讓鍋子裝更多食材而不溢出（減少雜質 = 減少泡沫） \\
+\bottomrule
+\end{longtable}
+
+\section{專家評論}
+
+\begin{quote}
+\textit{「這些結果非常有前景，應該在其他托卡馬克裝置上進行探索。」}\\
+— \textbf{Jeronimo Olaya}，法國原子能與替代能源委員會核融合電漿物理學家
+\end{quote}
+
+\section{研究資訊摘要}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{項目} & \textbf{內容} \\
+\midrule
+\endfirsthead
+\bottomrule
+\endfoot
+研究機構 & 中國科學院合肥物質科學研究院 \\
+\midrule
+裝置名稱 & EAST（先進超導托卡馬克實驗裝置） \\
+\midrule
+裝置位置 & 中國安徽省合肥市 \\
+\midrule
+發表期刊 & \textit{Science Advances} \\
+\midrule
+發表日期 & 2026 年 1 月 1 日 \\
+\midrule
+主要發現 & 電漿密度突破 Greenwald 極限 30\%-65\% \\
+\midrule
+共同作者 & Dominique Escande（法國艾克斯-馬賽大學）\newline Ping Zhu 朱平（華中科技大學） \\
+\bottomrule
+\end{longtable}
+
+\section{結語}
+
+\begin{importantbox}
+\textbf{這項突破的意義}：
+
+這項突破代表核融合研究的重要里程碑。雖然距離商業化核融合發電仍有一段路要走，但此發現證明了長期被認為不可逾越的物理限制（Greenwald 極限）其實可以透過巧妙的工程方法克服。
+
+核融合若能商業化，將為人類提供：
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+    \item 乾淨能源（無碳排放）
+    \item 近乎無限的能源供應（燃料來自海水中的氫同位素）
+    \item 不產生長期放射性廢料
+    \item 無核熔毀風險
+\end{itemize}
+
+這為人類追求乾淨能源的未來帶來新希望。
+\end{importantbox}
+
+\section{參考文獻}
+
+\begin{enumerate}[leftmargin=*,itemsep=3pt]
+    \item Liu J, et al. \textit{Sci. Adv.} \textbf{12}, eadz3040 (2026).
+    \item Escande DF, Sattin F, Zanca P. \textit{Nucl. Fusion} \textbf{62}, 026001 (2022).
+    \item Basu M. Chinese nuclear fusion reactor pushes plasma past crucial limit: what happens next. \href{https://doi.org/10.1038/d41586-026-00063-4}{\textit{Nature News}. 09 January 2026.}
+\end{enumerate}
+
+\end{document}

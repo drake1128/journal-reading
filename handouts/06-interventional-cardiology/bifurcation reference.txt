@@ -1,0 +1,2479 @@
+﻿@article{RN1842,
+   author = {Alexopoulos, D. and Xanthopoulou, I. and Storey, R. F. and Bliden, K. P. and Tantry, U. S. and Angiolillo, D. J. and Gurbel, P. A.},
+   title = {Platelet reactivity during ticagrelor maintenance therapy: a patient-level data meta-analysis},
+   journal = {Am Heart J},
+   volume = {168},
+   number = {4},
+   pages = {530-6},
+   note = {Alexopoulos, Dimitrios
+Xanthopoulou, Ioanna
+Storey, Robert F
+Bliden, Kevin P
+Tantry, Udaya S
+Angiolillo, Dominick J
+Gurbel, Paul A
+eng
+Meta-Analysis
+Review
+2014/09/30 06:00
+Am Heart J. 2014 Oct;168(4):530-6. doi: 10.1016/j.ahj.2014.06.026. Epub 2014 Jul 11.},
+   abstract = {BACKGROUND: Factors associated with platelet reactivity (PR) during ticagrelor maintenance dose (MD) are not well defined. We aimed to examine factors that influence levels of PR during chronic ticagrelor therapy. METHODS: We performed individual participant data meta-analysis of 445 patients from 8 studies who had PR assessment with the VerifyNow P2Y12 assay (Accumetrics, Inc, San Diego, CA) while on ticagrelor 90 mg twice a day MD for at least 14 days. RESULTS: Distribution of PR during ticagrelor MD was highly skewed toward lower values. No case of high PR (>/=230 P2Y12 reaction units [PRU]) was observed. Age and body mass index (BMI) positively affected PR, with every increase in decade and 5 units of BMI resulting in 7.9% and 4.1% increase in PR, respectively. Current smoking status negatively affected PR with 13.7% decrease in PR in current smokers, compared with nonsmokers. Low PR (LPR) was defined as the lowest quartile of PR values (<10 PRU). In multivariate analysis, diabetes mellitus and age >70 years were independently associated with lower probability for LPR with a relative risk (95% CIs) of 0.570 (0.361-0.899) and 0.554 (0.325-0.944), P = .016 and P = .030, respectively. CONCLUSIONS: Age, BMI, and current smoking status affect PR during ticagrelor MD. Diabetes mellitus and age >70 years were found to be associated with lower probability for LPR. Further research is required to assess the clinical implications of these findings in ticagrelor-treated patients.},
+   keywords = {Acute Coronary Syndrome/blood/*drug therapy
+Adenosine/*analogs & derivatives/therapeutic use
+Blood Platelets/*drug effects
+Humans
+Platelet Activation/*drug effects
+Platelet Function Tests
+Purinergic P2Y Receptor Antagonists/therapeutic use
+Treatment Outcome},
+   ISSN = {1097-6744 (Electronic)
+0002-8703 (Linking)},
+   DOI = {10.1016/j.ahj.2014.06.026},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/25262263
+http://ac.els-cdn.com/S0002870314004128/1-s2.0-S0002870314004128-main.pdf?_tid=c1a14e66-3458-11e6-a7ef-00000aab0f01&acdnat=1466146829_7aa5fb28e289ce9d887cdddb14e52117
+https://www.ahjonline.com/article/S0002-8703(14)00412-8/fulltext
+https://www.sciencedirect.com/science/article/pii/S0002870314004128?via%3Dihub},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN451,
+   author = {Behan, M. W. and Holm, N. R. and Curzen, N. P. and Erglis, A. and Stables, R. H. and de Belder, A. J. and Niemela, M. and Cooter, N. and Chew, D. P. and Steigen, T. K. and Oldroyd, K. G. and Jensen, J. S. and Lassen, J. F. and Thuesen, L. and Hildick-Smith, D.},
+   title = {Simple or complex stenting for bifurcation coronary lesions: a patient-level pooled-analysis of the Nordic Bifurcation Study and the British Bifurcation Coronary Study},
+   journal = {Circ Cardiovasc Interv},
+   volume = {4},
+   number = {1},
+   pages = {57-64},
+   note = {Behan, Miles W
+Holm, Niels R
+Curzen, Nicholas P
+Erglis, Andrejs
+Stables, Rodney H
+de Belder, Adam J
+Niemela, Matti
+Cooter, Nina
+Chew, Derek P
+Steigen, Terje K
+Oldroyd, Keith G
+Jensen, Jan S
+Lassen, Jens Flensted
+Thuesen, Leif
+Hildick-Smith, David
+eng
+Meta-Analysis
+Randomized Controlled Trial
+2011/01/06 06:00
+Circ Cardiovasc Interv. 2011 Feb 1;4(1):57-64. doi: 10.1161/CIRCINTERVENTIONS.110.958512. Epub 2011 Jan 4.},
+   abstract = {BACKGROUND: Controversy persists regarding the correct strategy for bifurcation lesions. Therefore, we combined the patient-level data from 2 large trials with similar methodology: the NORDIC Bifurcation Study (NORDIC I) and the British Bifurcation Coronary Study (BBC ONE). METHODS AND RESULTS: Both randomized trials compared simple (provisional T-stenting) versus complex techniques, using drug-eluting stents. In the simple group (n=457), 129 patients had final kissing balloon dilatation in addition to main vessel stenting, and 16 had T-stenting. In the complex group (n=456), 272 underwent crush, 118 culotte, and 59 T-stenting techniques. A composite end point at 9 months of all-cause death, myocardial infarction, and target vessel revascularization occurred in 10.1% of the simple versus 17.3% of the complex group (hazard ratio 1.84 [95% confidence interval 1.28 to 2.66], P=0.001). Procedure duration, contrast, and x-ray dose favored the simple approach. Subgroup analysis revealed similar composite end point results for true bifurcations (n=657, simple 9.2% versus complex 17.3%; hazard ratio 1.90 [95% confidence interval 1.22 to 2.94], P=0.004), wide-angled bifurcations >60 to 70 degrees (n=217, simple 9.6% versus complex 15.7%; hazard ratio 1.67 [ 95% confidence interval 0.78 to 3.62], P=0.186), large (>/=2.75 mm) diameter side branches (n=281, simple 10.4% versus complex 20.7%; hazard ratio 2.42 [ 95% confidence interval 1.22 to 4.80], P=0.011), longer length (>5 mm) ostial side branch lesions (n=464, simple 12.1% versus complex 19.1%; hazard ratio 1.71 [95% confidence interval 1.05 to 2.77], P=0.029), or equivalent sized vessels (side branch <0.25 mm smaller than main vessel) (n=108, simple 12.0% versus complex 15.5%; hazard ratio 1.35 [95% confidence interval 0.48 to 3.70], P=0.57). CONCLUSIONS: For bifurcation lesions, a provisional single-stent approach is superior to systematic dual stenting techniques in terms of safety and efficacy. A complex approach does not appear to be beneficial in more anatomically complicated lesions.},
+   keywords = {Aged
+*Angioplasty, Balloon, Coronary
+Coronary Disease/*therapy
+*Drug-Eluting Stents
+Female
+Humans
+Male
+Middle Aged
+Treatment Outcome},
+   ISSN = {1941-7632 (Electronic)
+1941-7640 (Linking)},
+   DOI = {10.1161/CIRCINTERVENTIONS.110.958512},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/21205942
+http://circinterventions.ahajournals.org/content/4/1/57.full.pdf
+http://circinterventions.ahajournals.org/content/circcvint/4/1/57.full.pdf},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3244,
+   author = {Chen, S. L. and Chen, J. P. and Mintz, G. and Xu, B. and Kan, J. and Ye, F. and Zhang, J. and Sun, X. and Xu, Y. and Jiang, Q. and Zhang, A. and Stone, G. W.},
+   title = {Comparison between the NERS (New Risk Stratification) score and the SYNTAX (Synergy between Percutaneous Coronary Intervention with Taxus and Cardiac Surgery) score in outcome prediction for unprotected left main stenting},
+   journal = {JACC Cardiovasc Interv},
+   volume = {3},
+   number = {6},
+   pages = {632-41},
+   note = {Chen, Shao-Liang
+Chen, Jack P
+Mintz, Gary
+Xu, Bo
+Kan, Jing
+Ye, Fei
+Zhang, Junjie
+Sun, Xuewen
+Xu, Yawei
+Jiang, Qing
+Zhang, Aiping
+Stone, Gregg W
+eng
+Comparative Study
+Multicenter Study
+2010/07/16 06:00
+JACC Cardiovasc Interv. 2010 Jun;3(6):632-41. doi: 10.1016/j.jcin.2010.04.006.},
+   abstract = {OBJECTIVES: This study aimed to compare the NERS (New Risk Stratification) and SYNTAX (Synergy between Percutaneous Coronary Intervention with Taxus and Cardiac Surgery) scores for prognostication after stenting of unprotected left main stenosis in a "real-world" setting. BACKGROUND: In contrast to existing systems, the NERS score encompasses clinical, procedural, and angiographic characteristics. METHODS: The NERS score was derived from 260 patients with unprotected left main stenosis who underwent percutaneous coronary intervention and tested in 337 patients in a consecutive left main registry (66.55 +/- 10.49 years, 78.9% men) undergoing percutaneous coronary intervention in a prospective, multicenter trial. Six-month clinical and angiographic follow-up was obtained in 100% and 88.9% of patients, respectively. The primary end point was major adverse cardiac events (MACE), encompassing myocardial infarction, all-cause death, and target vessel revascularization. Receiver-operator characteristic (ROC) curve was generated for the comparison of NERS versus SYNTAX scores. RESULTS: The NERS score consisted of 54 variables (17 clinical, 4 procedural, and 33 angiographic). A NERS score > or =25 demonstrated a sensitivity and specificity of 92.0% and 74.1% (MACE as state variable), respectively, significantly higher than SYNTAX intermediate risk (20.5% and 25.4%) or SYNTAX higher risk (70.5% and 35.2%, p for all <0.001). At follow-up, myocardial infarction, cardiac death, and target vessel revascularization occurred in 3.0%, 5.6%, and 13.1% of patients, respectively, for a composite MACE of 26.0%. A NERS score > or =25 (hazard ratio: 1.13; 95% confidence interval [CI]: 1.11 to 1.16; p < 0.001) was the only independent predictor of cumulative MACE and stent thrombosis at follow-up (odds ratio: 31.04; 95% CI: 19.36 to 67.07; p < 0.001). CONCLUSIONS: The NERS score was more predictive of MACE than the SYNTAX score was. Further study is needed to address their relative roles in assessment for appropriateness of coronary artery bypass graft versus percutaneous coronary intervention for unprotected left main coronary artery stenosis.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/adverse effects/*instrumentation/mortality
+Cardiovascular Agents/*administration & dosage
+Chi-Square Distribution
+China
+Coronary Angiography
+*Coronary Artery Bypass/adverse effects/mortality
+Coronary Stenosis/diagnostic imaging/mortality/surgery/*therapy
+*Drug-Eluting Stents
+Female
+*Health Status Indicators
+Humans
+Kaplan-Meier Estimate
+Male
+Middle Aged
+Myocardial Infarction/etiology
+Odds Ratio
+Paclitaxel/*administration & dosage
+Predictive Value of Tests
+Proportional Hazards Models
+Prospective Studies
+Prosthesis Design
+ROC Curve
+Registries
+Risk Assessment
+Risk Factors
+Thrombosis/etiology
+Time Factors
+Treatment Outcome},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2010.04.006},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20630456},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3246,
+   author = {Chen, S. L. and Han, Y. L. and Zhang, Y. J. and Ye, F. and Liu, H. W. and Zhang, J. J. and Xu, B. and Jiang, T. M. and Zhou, Y. J. and Lv, S. Z.},
+   title = {The anatomic- and clinical-based NERS (new risk stratification) score II to predict clinical outcomes after stenting unprotected left main coronary artery disease: results from a multicenter, prospective, registry study},
+   journal = {JACC Cardiovasc Interv},
+   volume = {6},
+   number = {12},
+   pages = {1233-41},
+   note = {Chen, Shao-Liang
+Han, Ya-Ling
+Zhang, Yao-Jun
+Ye, Fei
+Liu, Hai-Wei
+Zhang, Jun-Jie
+Xu, Bo
+Jiang, Tie-Min
+Zhou, Yu-Jie
+Lv, Shu-Zheng
+eng
+Multicenter Study
+2013/11/19 06:00
+JACC Cardiovasc Interv. 2013 Dec;6(12):1233-41. doi: 10.1016/j.jcin.2013.08.006. Epub 2013 Nov 13.},
+   abstract = {OBJECTIVES: The present study aimed to establish a risk score using a simple calculation with an enhanced predictive value for major adverse cardiac events (MACE) in patients with unprotected left main coronary artery (UPLMCA) disease after the implantation of a drug-eluting stent (DES). BACKGROUND: The anatomic-, clinical-, and procedure-based NERS (New Risk Stratification) score was superior to the SYNTAX (Synergy Between Percutaneous Coronary Intervention With TAXUS and Cardiac Surgery) score in predicting MACE after stenting UPLMCA. The complexity of the calculation was its major limitation. METHODS: The NERS score II was derived from our previous 2 studies and externally compared with the NERS and SYNTAX scores in 1,463 patients with UPLMCA disease who underwent implantation of a DES in a prospective, multicenter registry trial. The primary endpoint was MACE at 1 year after the index procedure, including myocardial infarction, cardiac death, and target vessel revascularization. RESULTS: The NERS score II system consisted of 16 (7 clinical and 9 angiographic) variables. A NERS score II >/=19 demonstrated enhanced MACE sensitivity and specificity of 84.0% and 76.0% (MACE as the state variable), respectively, which were similar to the NERS score but significantly higher compared with the SYNTAX score. A NERS score II >/=19 was the only independent predictor of cumulative MACE (hazard ratio: 3.27; 95% confidence interval [CI]: 1.86 to 5.23; p </= 0.001) and stent thrombosis (odds ratio: 22.15; 95% CI: 12.47 to 57.92; p </= 0.001) at follow-up. CONCLUSIONS: The NERS score II, similar to the conventional NERS score, is more predictive of MACE than the SYNTAX score in UPLMCA patients after implantation of a DES.},
+   keywords = {Aged
+Chi-Square Distribution
+China
+Coronary Angiography
+Coronary Artery Disease/diagnostic imaging/mortality/*therapy
+*Decision Support Techniques
+*Drug-Eluting Stents
+Female
+Humans
+Kaplan-Meier Estimate
+Male
+Middle Aged
+Multivariate Analysis
+Myocardial Infarction/etiology/mortality
+Odds Ratio
+Patient Selection
+Percutaneous Coronary Intervention/adverse effects/*instrumentation/mortality
+Predictive Value of Tests
+Proportional Hazards Models
+Prospective Studies
+Registries
+Risk Assessment
+Risk Factors
+Time Factors
+Treatment Outcome
+Auc
+Cabg
+Ci
+Cto
+Des
+Ivus
+Lm
+Mace
+Mi
+NERS score
+Pci
+Roc
+St
+SYNTAX score
+Tvr
+Uplmca
+Vd
+area under the curve
+chronic total occlusion
+confidence interval
+coronary artery bypass graft surgery
+drug-eluting stent(s)
+eGFR
+estimated glomerular filtration rate
+intravascular ultrasound
+left main coronary artery
+major adverse cardiac event(s)
+myocardial infarction
+percutaneous coronary intervention
+prediction
+receiver-operating characteristic
+stent thrombosis
+target vessel revascularization
+unprotected left main coronary artery
+unprotected left main coronary artery disease
+vessel disease},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2013.08.006},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24239199},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN1014,
+   author = {Chen, S. L. and Mintz, G. and Kan, J. and Zhang, J. J. and Hu, Z. Y. and Ye, F. and Tian, N. L. and Zhang, J. X. and Xu, T. and Liu, Z. Z.},
+   title = {Serial intravascular ultrasound analysis comparing double kissing and classical crush stenting for coronary bifurcation lesions},
+   journal = {Catheter Cardiovasc Interv},
+   volume = {78},
+   number = {5},
+   pages = {729-36},
+   note = {Chen, Shao-Liang
+Mintz, Gary
+Kan, Jing
+Zhang, Jun-Jie
+Hu, Zuo-Ying
+Ye, Fei
+Tian, Nai-Liang
+Zhang, Jun-Xia
+Xu, Tian
+Liu, Zhi-Zhong
+eng
+Comparative Study
+2011/05/04 06:00
+Catheter Cardiovasc Interv. 2011 Nov 1;78(5):729-36. doi: 10.1002/ccd.23110.},
+   abstract = {BACKGROUND: Compared with the classical crush, double kissing (DK) crush improved outcomes in patients with coronary bifurcation lesions. However, there is no serial intravascular ultrasound (IVUS) comparisons between these two techniques. OBJECTIVES: This study aimed to analyze the mechanisms of the two crush stenting techniques using serial IVUS imaging. METHODS: A total of 54 patients with IVUS images at baseline, post-stenting and eight-month follow-up were classified into classical (n = 16) and DK (n = 38) groups. All patients underwent final kissing balloon inflation (FKBI). Unsatisfactory kissing (KUS) was defined as the presence of wrist or >20% stenosis during FKBI at the side branch (SB) ostium. The vessels at bifurcation lesions were divided into the proximal main vessel (MV) stent, the crushed segment, the distal MV stent, the SB ostium and the SB stent body. RESULTS: KUS and incomplete crushing were commonly observed in the classical group (62.5%, 81.3%), compared with DK group (18.0%, 39.5%, P < 0.001 and P = 0.004). The post-stenting stent symmetry in the classical group was 71.85 +/- 7.69% relative to 85.93 +/- 6.09% in DK group (P = 0.022), resulting in significant differences in neointimal hyperplasia (NIH, 1.60 +/- 0.21 mm(2) vs. 0.85 +/- 0.23 mm(2) , P = 0.005), late lumen loss (1.31 +/- 0.81 mm(2) vs. 0.55 +/- 0.70 mm(2) , P = 0.013), and minimal lumen area (MLA, 3.57 +/- 1.52 mm(2) vs. 4.52 +/- 1.40 mm(2,) P = 0.042) at the SB ostium between two groups. KUS was positively correlated with the incomplete crush and was the only predictor of in-stent-restenosis (ISR) at the SB ostium. CONCLUSION: DK crush was associated with improved quality of the FKBI and larger MLA. KUS predicted the occurrence of ISR.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/adverse effects/instrumentation/*methods
+Chi-Square Distribution
+Coronary Angiography
+Coronary Artery Disease/radiography/*therapy/ultrasonography
+Coronary Restenosis/etiology/prevention & control/*ultrasonography
+Female
+Humans
+Logistic Models
+Male
+Middle Aged
+Predictive Value of Tests
+Risk Assessment
+Risk Factors
+Stents
+Time Factors
+Treatment Outcome
+*Ultrasonography, Interventional},
+   ISSN = {1522-726X (Electronic)
+1522-1946 (Linking)},
+   DOI = {10.1002/ccd.23110},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/21538789
+http://onlinelibrary.wiley.com/doi/10.1002/ccd.23110/abstract
+https://onlinelibrary.wiley.com/doi/abs/10.1002/ccd.23110
+https://onlinelibrary.wiley.com/doi/pdf/10.1002/ccd.23110},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN1015,
+   author = {Chen, S. L. and Santoso, T. and Zhang, J. J. and Ye, F. and Xu, Y. W. and Fu, Q. and Kan, J. and Paiboon, C. and Zhou, Y. and Ding, S. Q. and Kwan, T. W.},
+   title = {A randomized clinical study comparing double kissing crush with provisional stenting for treatment of coronary bifurcation lesions: results from the DKCRUSH-II (Double Kissing Crush versus Provisional Stenting Technique for Treatment of Coronary Bifurcation Lesions) trial},
+   journal = {J Am Coll Cardiol},
+   volume = {57},
+   number = {8},
+   pages = {914-20},
+   note = {Chen, Shao-Liang
+Santoso, Teguh
+Zhang, Jun-Jie
+Ye, Fei
+Xu, Ya-Wei
+Fu, Qiang
+Kan, Jing
+Paiboon, Chitprapai
+Zhou, Yong
+Ding, Shi-Qing
+Kwan, Tak W
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2011/02/19 06:00
+J Am Coll Cardiol. 2011 Feb 22;57(8):914-20. doi: 10.1016/j.jacc.2010.10.023.},
+   abstract = {OBJECTIVES: The present study aimed to investigate the difference in major adverse cardiac events (MACE) at 12 months in patients with coronary bifurcation lesions after double kissing double crush (DK crush) or provisional stenting (PS) techniques. BACKGROUND: Provisional side branch (SB) stenting is preferable to DK crush because it has been associated with fewer complications. It is unknown which strategy would provide the best results. METHODS: From April 2007 to June 2009, 370 unselected patients with coronary bifurcation lesions from 7 Asian centers were randomly assigned to either the DK or the PS group. Additional SB stenting in PS was required if final results were suboptimal. The primary end point was the occurrence of MACE at 12 months, including cardiac death, myocardial infarction, or target vessel revascularization (TVR). Secondary end point was the angiographic restenosis at 8 months. RESULTS: There were 3 procedural occlusions of SB in the PS group. At 8 months, angiographic restenosis rates in the main vessel and SB were significantly different between the DK (3.8% and 4.9%) and the PS groups (9.7% and 22.2%, p = 0.036 and p < 0.001, respectively). Additional SB stenting in the PS group was required in 28.6% of lesions. TVR was 6.5% in the DK group, occurring significantly less often than in the PS group (14.6%, p = 0.017). There were nonsignificant differences in MACE and definite stent thrombosis between the DK (10.3% and 2.2%) and PS groups (17.3%, and 0.5%, p = 0.070 and p = 0.372, respectively). CONCLUSIONS: DK crush was associated with a significant reduction of TLR and TVR in this unselected patient population. However, there was no significant difference in MACE between DK and the PS groups. (Randomized Study on DK Crush Technique Versus Provisional Stenting Technique for Coronary Artery Bifurcation Lesions; ChicTR-TRC-00000015).},
+   keywords = {Age Factors
+Aged
+Angioplasty, Balloon, Coronary/*methods/mortality
+China
+Coronary Angiography/methods
+Coronary Restenosis/*mortality/radiography/therapy
+Coronary Stenosis/*mortality/radiography/*therapy
+*Drug-Eluting Stents
+Female
+Follow-Up Studies
+Hospital Mortality/trends
+Humans
+Male
+Middle Aged
+Prospective Studies
+Prosthesis Failure
+Risk Assessment
+Severity of Illness Index
+Sex Factors
+Sirolimus/pharmacology
+Survival Analysis
+Time Factors
+Treatment Outcome},
+   ISSN = {1558-3597 (Electronic)
+0735-1097 (Linking)},
+   DOI = {10.1016/j.jacc.2010.10.023},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/21329837
+http://ac.els-cdn.com/S0735109710048163/1-s2.0-S0735109710048163-main.pdf?_tid=4b7f4cee-3b60-11e4-b606-00000aacb361&acdnat=1410624729_068a004fcc96b7eb7d4b9c0dd908cfb7
+https://www.sciencedirect.com/science/article/pii/S0735109710048163?via%3Dihub},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3075,
+   author = {Chen, S. L. and Sheiban, I. and Xu, B. and Jepson, N. and Paiboon, C. and Zhang, J. J. and Ye, F. and Sansoto, T. and Kwan, T. W. and Lee, M. and Han, Y. L. and Lv, S. Z. and Wen, S. Y. and Zhang, Q. and Wang, H. C. and Jiang, T. M. and Wang, Y. and Chen, L. L. and Tian, N. L. and Cao, F. and Qiu, C. G. and Zhang, Y. J. and Leon, M. B.},
+   title = {Impact of the complexity of bifurcation lesions treated with drug-eluting stents: the DEFINITION study (Definitions and impact of complEx biFurcation lesIons on clinical outcomes after percutaNeous coronary IntervenTIOn using drug-eluting steNts)},
+   journal = {JACC Cardiovasc Interv},
+   volume = {7},
+   number = {11},
+   pages = {1266-76},
+   note = {Chen, Shao-Liang
+Sheiban, Imad
+Xu, Bo
+Jepson, Nigel
+Paiboon, Chitprapai
+Zhang, Jun-Jie
+Ye, Fei
+Sansoto, Teugh
+Kwan, Tak W
+Lee, Michael
+Han, Ya-Ling
+Lv, Shu-Zheng
+Wen, Shang-Yu
+Zhang, Qi
+Wang, Hai-Chang
+Jiang, Tie-Ming
+Wang, Yan
+Chen, Liang-Long
+Tian, Nai-Liang
+Cao, Feng
+Qiu, Chun-Guang
+Zhang, Yao-Jun
+Leon, Martin B
+eng
+Comparative Study
+Multicenter Study
+Research Support, Non-U.S. Gov't
+2014/10/20 06:00
+JACC Cardiovasc Interv. 2014 Nov;7(11):1266-76. doi: 10.1016/j.jcin.2014.04.026. Epub 2014 Oct 15.},
+   abstract = {OBJECTIVES: The present study established criteria to differentiate simple from complex bifurcation lesions and compared 1-year outcomes stratified by lesion complexity after provisional stenting (PS) and 2-stent techniques using drug-eluting stents. BACKGROUND: Currently, no criterion can distinguish between simple and complex coronary bifurcation lesions. Comparisons of PS and 2-stent strategies stratified by lesion complexity have also not been reported previously. METHODS: Criteria of bifurcation complexity in 1,500 patients were externally tested in another 3,660 true bifurcation lesions after placement of drug-eluting stents. The primary endpoint was the occurrence of a major adverse cardiac event (MACE) at 12 months. The secondary endpoint was the rate of stent thrombosis (ST). RESULTS: Complex (n = 1,108) bifurcation lesions were associated with a higher 1-year rate of MACE (16.8%) compared with simple (n = 2,552) bifurcation lesions (8.9%) (p < 0.001). The in-hospital ST and 1-year target lesion revascularization rates after 2-stent techniques in the simple group (1.0% and 5.6%, respectively) were significantly different from those after PS (0.2% [p = 0.007] and 3.2% [p = 0.009], respectively); however, 1-year MACE rates were not significantly different between the 2 groups. For complex bifurcation lesions, 2-stent techniques had lower rates of 1-year cardiac death (2.8%) and in-hospital MACE (5.0%) compared with PS (5.3%, p = 0.047; 8.4%, p = 0.031). CONCLUSIONS: Complex bifurcation lesions had higher rates of 1-year MACE and ST. The 2-stent and PS techniques were overall equivalent in 1-year MACE. However, 2-stent techniques for complex lesions elicited a lower rate of cardiac death and in-hospital MACE but higher rates of in-hospital ST and revascularization at 1 year for simple lesions.},
+   keywords = {Aged
+Coronary Artery Disease/diagnosis/mortality/*therapy
+Coronary Thrombosis/etiology/mortality
+*Drug-Eluting Stents
+Female
+Hospital Mortality
+Humans
+Kaplan-Meier Estimate
+Male
+Middle Aged
+Myocardial Infarction/etiology/mortality
+Percutaneous Coronary Intervention/adverse effects/*instrumentation/mortality
+Proportional Hazards Models
+Prospective Studies
+Prosthesis Design
+Risk Factors
+Severity of Illness Index
+Time Factors
+Treatment Outcome
+coronary bifurcation lesion
+drug-eluting stent
+lesion complexity
+major adverse cardiac event
+stent thrombosis},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2014.04.026},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25326748
+https://ac.els-cdn.com/S1936879814012357/1-s2.0-S1936879814012357-main.pdf?_tid=ea228743-188d-4cad-9cad-b7bf55a916ac&acdnat=1532153199_ef3dd8e77789141bc54fe7706e54d9f8
+https://www.sciencedirect.com/science/article/pii/S1936879814012357?via%3Dihub},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN1024,
+   author = {Chen, S. L. and Xu, B. and Han, Y. L. and Sheiban, I. and Zhang, J. J. and Ye, F. and Kwan, T. W. and Paiboon, C. and Zhou, Y. J. and Lv, S. Z. and Dangas, G. D. and Xu, Y. W. and Wen, S. Y. and Hong, L. and Zhang, R. Y. and Wang, H. C. and Jiang, T. M. and Wang, Y. and Chen, F. and Yuan, Z. Y. and Li, W. M. and Leon, M. B.},
+   title = {Comparison of double kissing crush versus Culotte stenting for unprotected distal left main bifurcation lesions: results from a multicenter, randomized, prospective DKCRUSH-III study},
+   journal = {J Am Coll Cardiol},
+   volume = {61},
+   number = {14},
+   pages = {1482-8},
+   note = {Chen, Shao-Liang
+Xu, Bo
+Han, Ya-Ling
+Sheiban, Imad
+Zhang, Jun-Jie
+Ye, Fei
+Kwan, Tak W
+Paiboon, Chitprapai
+Zhou, Yu-Jie
+Lv, Shu-Zheng
+Dangas, George D
+Xu, Ya-Wei
+Wen, Shang-Yu
+Hong, Lang
+Zhang, Rui-Yan
+Wang, Hai-Chang
+Jiang, Tie-Ming
+Wang, Yan
+Chen, Fang
+Yuan, Zu-Yi
+Li, Wei-Min
+Leon, Martin B
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2013/03/16 06:00
+J Am Coll Cardiol. 2013 Apr 9;61(14):1482-8. doi: 10.1016/j.jacc.2013.01.023. Epub 2013 Mar 10.},
+   abstract = {OBJECTIVES: The study aimed to investigate the difference in major adverse cardiac event (MACE) at 1-year after double kissing (DK) crush versus Culotte stenting for unprotected left main coronary artery (UPLMCA) distal bifurcation lesions. BACKGROUND: DK crush and Culotte stenting were reported to be effective for treatment of coronary bifurcation lesions. However, their comparative performance in UPLMCA bifurcation lesions is not known. METHODS: A total of 419 patients with UPLMCA bifurcation lesions were randomly assigned to DK (n = 210) or Culotte (n = 209) treatment. The primary endpoint was the occurrence of a MACE at 1 year, including cardiac death, myocardial infarction, and target vessel revascularization (TVR). In-stent restenosis (ISR) at 8 months was secondary endpoint, and stent thrombosis (ST) served as a safety endpoint. Patients were stratified by SYNTAX (Synergy between Percutaneous Coronary Intervention with Taxus and Cardiac Surgery) and NERS (New Risk Stratification) scores. RESULTS: Patients in the Culotte group had significant higher 1-year MACE rate (16.3%), mainly driven by increased TVR (11.0%), compared with the DK group (6.2% and 4.3%, respectively; all p < 0.05). ISR rate in side branch was 12.6% in the Culotte group and 6.8% in the DK group (p = 0.037). Definite ST rate was 1.0% in the Culotte group and 0% in the DK group (p = 0.248). Among patients with bifurcation angle >/=70 degrees , NERS score >/=20, and SYNTAX score >/=23, the 1-year MACE rate in the DK group (3.8%, 9.2%, and 7.1%, respectively) was significantly different to those in the Culotte group(16.5%, 20.4%, and 18.9%, respectively; all p < 0.05). CONCLUSIONS: Culotte stenting for UPLMCA bifurcation lesions was associated with significantly increased MACEs, mainly due to the increased TVR. (Double Kissing [DK] Crush Versus Culotte Stenting for the Treatment of Unprotected Distal Left Main Bifurcation Lesions: DKCRUSH-III, a Multicenter Randomized Study Comparing Double-Stent Techniques; ChiCTR-TRC-00000151).},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/*adverse effects/*methods
+Chi-Square Distribution
+Coronary Angiography/methods
+Coronary Restenosis/physiopathology/*radiography
+Coronary Stenosis/mortality/radiography/*therapy
+Drug-Eluting Stents
+Follow-Up Studies
+Humans
+Kaplan-Meier Estimate
+Middle Aged
+Proportional Hazards Models
+Prospective Studies
+Risk Assessment
+Severity of Illness Index
+*Stents
+Survival Rate
+Time Factors
+Treatment Outcome},
+   ISSN = {1558-3597 (Electronic)
+0735-1097 (Linking)},
+   DOI = {10.1016/j.jacc.2013.01.023},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23490040
+http://ac.els-cdn.com/S0735109713003859/1-s2.0-S0735109713003859-main.pdf?_tid=1760cbac-3ba8-11e4-a725-00000aacb362&acdnat=1410655566_2a7990a241bfde578b490ca8e24a26cd},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3066,
+   author = {Chen, S. L. and Xu, B. and Han, Y. L. and Sheiban, I. and Zhang, J. J. and Ye, F. and Kwan, T. W. and Paiboon, C. and Zhou, Y. J. and Lv, S. Z. and Dangas, G. D. and Xu, Y. W. and Wen, S. Y. and Hong, L. and Zhang, R. Y. and Wang, H. C. and Jiang, T. M. and Wang, Y. and Sansoto, T. and Chen, F. and Yuan, Z. Y. and Li, W. M. and Leon, M. B.},
+   title = {Clinical Outcome After DK Crush Versus Culotte Stenting of Distal Left Main Bifurcation Lesions: The 3-Year Follow-Up Results of the DKCRUSH-III Study},
+   journal = {JACC Cardiovasc Interv},
+   volume = {8},
+   number = {10},
+   pages = {1335-42},
+   note = {Chen, Shao-Liang
+Xu, Bo
+Han, Ya-Ling
+Sheiban, Imad
+Zhang, Jun-Jie
+Ye, Fei
+Kwan, Tak W
+Paiboon, Chitprapai
+Zhou, Yu-Jie
+Lv, Shu-Zheng
+Dangas, George D
+Xu, Ya-Wei
+Wen, Shang-Yu
+Hong, Lang
+Zhang, Rui-Yan
+Wang, Hai-Chang
+Jiang, Tie-Ming
+Wang, Yan
+Sansoto, Teguh
+Chen, Fang
+Yuan, Zu-Yi
+Li, Wei-Min
+Leon, Martin B
+eng
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2015/09/01 06:00
+JACC Cardiovasc Interv. 2015 Aug 24;8(10):1335-42. doi: 10.1016/j.jcin.2015.05.017.},
+   abstract = {OBJECTIVES: The present study aimed to investigate the difference in major adverse cardiac events (MACE) at 3 years after double-kissing (DK) crush versus culotte stenting for unprotected left main distal bifurcation lesions (LMDBLs). BACKGROUND: The multicenter and randomized DKCRUSH-III (Comparison of double kissing crush versus culotte stenting for unprotected distal left main bifurcation lesions: results from a multicenter, randomized, prospective study) showed that DK crush stenting was associated with fewer MACE at 1-year follow-up in patients with LMDBLs compared with culotte stenting. Here, we report the 3-year clinical outcome of the DKCRUSH-III study. METHODS: A total of 419 patients with LMDBLs who were randomly assigned to either the DK crush or culotte group in the DKCRUSH-III study were followed for 3 year. The primary endpoint was the occurrence of a MACE at 3 years. Stent thrombosis (ST) was the safety endpoint. Patients were classified by simple and complex LMDBLs according to the DEFINITION (Definition and Impact of Complex Bifurcation Lesions on Clinical Outcomes After Percutaneous Coronary Intervention Using Drug-Eluting Stents) study criteria. RESULTS: At 3 years, MACE occurred in 49 patients the culotte group and in 17 patients in the DK crush group (cumulative event rates of 23.7% and 8.2%, respectively; p < 0.001), mainly driven by increased myocardial infarction (8.2% vs. 3.4%, respectively; p = 0.037) and target-vessel revascularization (18.8% vs. 5.8%, respectively; p < 0.001) between groups. Definite ST rate was 3.4% in the culotte group and 0% in the DK crush group (p = 0.007). Complex LMDBLs were associated with a higher rate of MACE (35.3%) at 3 years compared with a rate of 8.1% in patients with simple LMDBLs (p < 0.001), with an extremely higher rate in the culotte group (51.5% vs. 15.1%, p < 0.001). CONCLUSIONS: Culotte stenting for LMDBLs was associated with significantly increased rates of MACE and ST. (Double Kissing [DK] Crush Versus Culotte Stenting for the Treatment of Unprotected Distal Left Main Bifurcation Lesions: DKCRUSH-III, a Multicenter Randomized Study Comparing Double-Stent Techniques; ChiCTR-TRC-11001877).},
+   keywords = {Aged
+Asia
+Coronary Artery Disease/diagnosis/mortality/*therapy
+Female
+Humans
+Kaplan-Meier Estimate
+Male
+Middle Aged
+Myocardial Infarction/etiology/mortality
+Percutaneous Coronary Intervention/adverse
+effects/*instrumentation/*methods/mortality
+Prospective Studies
+Risk Factors
+*Stents
+Thrombosis/etiology/mortality
+Time Factors
+Treatment Outcome
+culotte stenting
+double-kissing crush
+major adverse cardiac event(s)
+stent thrombosis
+unprotected left main distal bifurcation lesions},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2015.05.017},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26315736
+https://ac.els-cdn.com/S1936879815008201/1-s2.0-S1936879815008201-main.pdf?_tid=2b1588af-3a87-42c8-8e61-61ba4dc99219&acdnat=1532152999_487e16aab055bb3bea1ee629e9a1411d
+https://www.sciencedirect.com/science/article/pii/S1936879815008201?via%3Dihub},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3074,
+   author = {Chen, S. L. and Ye, F. and Zhang, J. J. and Xu, T. and Tian, N. L. and Liu, Z. Z. and Lin, S. and Shan, S. J. and Ge, Z. and You, W. and Liu, Y. Q. and Qian, X. S. and Li, F. and Yang, S. and Kwan, T. W. and Xu, B. and Stone, G. W.},
+   title = {Randomized Comparison of FFR-Guided and Angiography-Guided Provisional Stenting of True Coronary Bifurcation Lesions: The DKCRUSH-VI Trial (Double Kissing Crush Versus Provisional Stenting Technique for Treatment of Coronary Bifurcation Lesions VI)},
+   journal = {JACC Cardiovasc Interv},
+   volume = {8},
+   number = {4},
+   pages = {536-46},
+   note = {Chen, Shao-Liang
+Ye, Fei
+Zhang, Jun-Jie
+Xu, Tian
+Tian, Nai-Liang
+Liu, Zhi-Zhong
+Lin, Song
+Shan, Shou-Jie
+Ge, Zhen
+You, Wei
+Liu, Yue-Qiang
+Qian, Xue-Song
+Li, Feng
+Yang, Song
+Kwan, Tak W
+Xu, Bo
+Stone, Gregg W
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2015/03/31 06:00
+JACC Cardiovasc Interv. 2015 Apr 20;8(4):536-46. doi: 10.1016/j.jcin.2014.12.221. Epub 2015 Mar 26.},
+   abstract = {OBJECTIVES: This study sought to compare the outcomes of fractional flow reserve (FFR)-guided and angiography (Angio)-guided provisional side-branch (SB) stenting for true coronary bifurcation lesions. BACKGROUND: Angio-guided provisional SB stenting after stenting of the main vessel provides favorable outcomes for the majority of coronary bifurcation lesions. Whether an FFR-guided provisional stenting approach is superior has not been studied. METHODS: A total of 320 patients with single Medina 1,1,1 and 0,1,1 coronary bifurcation lesions undergoing stenting with a provisional SB approach were randomly assigned 1:1 to Angio-guided and FFR-guided groups. SB stenting was performed for Thrombolysis In Myocardial Infarction flow grade<3, ostial SB stenosis>70%, or greater than type A dissection after main vessel stenting in the Angio-guided group and for SB-FFR<0.80 in the FFR-guided group. The primary endpoint was the 1-year composite rate of major adverse cardiac events (cardiac death, myocardial infarction, and clinically driven target vessel revascularization). RESULTS: Comparing the Angio-guided and FFR-guided groups, treatment of the SB (balloon or stenting) was performed in 63.1% and 56.3% of lesions respectively (p=0.07); stenting of the SB was attempted in 38.1% and 25.9%, respectively (p=0.01); and, when attempted, stenting was successful in 83.6% and 73.3% of SBs, respectively (p=0.01). The 1-year composite major adverse cardiac event rate was 18.1% in both groups (hazard ratio: 0.91, 95% confidence interval: 0.48 to 1.88; p=1.00). The 1-year target vessel revascularization and stent thrombosis rates were 6.9% and 5.6% (p=0.82) and 1.3% and 0.6% (p=0.56) in the Angio-guided and FFR-guided groups, respectively. CONCLUSIONS: In this multicenter, randomized trial, angiographic and FFR guidance of provisional SB stenting of true coronary bifurcation lesions provided similar 1-year clinical outcomes. (Randomized Study on DK Crush Technique Versus Provisional Stenting Technique for Coronary Artery Bifurcation Lesions; ChiCTR-TRC-07000015).},
+   keywords = {Age Factors
+Aged
+Angioplasty, Balloon, Coronary/*methods/mortality
+Coronary Angiography/*methods
+Coronary Restenosis/diagnostic imaging/mortality
+Coronary Stenosis/diagnostic imaging/*mortality/*therapy
+Coronary Vessels/diagnostic imaging
+*Drug-Eluting Stents
+Female
+Follow-Up Studies
+*Fractional Flow Reserve, Myocardial
+Humans
+Kaplan-Meier Estimate
+Male
+Middle Aged
+Proportional Hazards Models
+Risk Assessment
+Severity of Illness Index
+Sex Factors
+Statistics, Nonparametric
+Survival Rate
+Time Factors
+Treatment Outcome
+coronary bifurcation lesions
+fractional flow reserve
+major adverse cardiac events
+revascularization
+stent thrombosis},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2014.12.221},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25819187
+https://ac.els-cdn.com/S1936879815001077/1-s2.0-S1936879815001077-main.pdf?_tid=9dc5f199-ead1-485a-9b18-d4164a11606f&acdnat=1532153185_1d05092d7b2559dd53d3b06b84dcd1b6
+https://www.sciencedirect.com/science/article/pii/S1936879815001077?via%3Dihub},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN1101,
+   author = {Chen, S. L. and Ye, F. and Zhang, J. J. and Zhu, Z. S. and Lin, S. and Shan, S. J. and Liu, Z. Z. and Liu, Y. and Duan, B. X. and Ge, J. B.},
+   title = {[DK crush technique: modified treatment of bifurcation lesions in coronary artery]},
+   journal = {Chin Med J (Engl)},
+   volume = {118},
+   number = {20},
+   pages = {1746-50},
+   note = {Chen, Shao-Liang
+Ye, Fei
+Zhang, Jun-Jie
+Zhu, Zhong-Sheng
+Lin, Song
+Shan, Shou-Jie
+Liu, Zhi-Zhong
+Liu, Yan
+Duan, Bao-Xiang
+Ge, Jun-Bo
+eng
+China
+2005/11/30 09:00
+Chin Med J (Engl). 2005 Oct 20;118(20):1746-50.},
+   keywords = {Adult
+Aged
+Angioplasty, Balloon, Coronary/*methods
+Blood Vessel Prosthesis Implantation/*methods
+Coronary Stenosis/*therapy
+Female
+Humans
+Male
+Middle Aged
+*Stents
+Ultrasonography, Interventional},
+   ISSN = {0366-6999 (Print)
+0366-6999 (Linking)},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/16313763},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN3072,
+   author = {Chen, S. L. and Zhang, J. J. and Han, Y. and Kan, J. and Chen, L. and Qiu, C. and Jiang, T. and Tao, L. and Zeng, H. and Li, L. and Xia, Y. and Gao, C. and Santoso, T. and Paiboon, C. and Wang, Y. and Kwan, T. W. and Ye, F. and Tian, N. and Liu, Z. and Lin, S. and Lu, C. and Wen, S. and Hong, L. and Zhang, Q. and Sheiban, I. and Xu, Y. and Wang, L. and Rab, T. S. and Li, Z. and Cheng, G. and Cui, L. and Leon, M. B. and Stone, G. W.},
+   title = {Double Kissing Crush Versus Provisional Stenting for Left Main Distal Bifurcation Lesions: DKCRUSH-V Randomized Trial},
+   journal = {J Am Coll Cardiol},
+   volume = {70},
+   number = {21},
+   pages = {2605-2617},
+   note = {Chen, Shao-Liang
+Zhang, Jue-Jie
+Han, Yaling
+Kan, Jing
+Chen, Lianglong
+Qiu, Chunguang
+Jiang, Tiemin
+Tao, Ling
+Zeng, Hesong
+Li, Li
+Xia, Yong
+Gao, Chuanyu
+Santoso, Teguh
+Paiboon, Chootopol
+Wang, Yan
+Kwan, Tak W
+Ye, Fei
+Tian, Nailiang
+Liu, Zhizhong
+Lin, Song
+Lu, Chengzhi
+Wen, Shangyu
+Hong, Lang
+Zhang, Qi
+Sheiban, Imad
+Xu, Yawei
+Wang, Lefeng
+Rab, Tanveer S
+Li, Zhanquan
+Cheng, Guanchang
+Cui, Lianqun
+Leon, Martin B
+Stone, Gregg W
+eng
+Multicenter Study
+Randomized Controlled Trial
+2017/11/04 06:00
+J Am Coll Cardiol. 2017 Nov 28;70(21):2605-2617. doi: 10.1016/j.jacc.2017.09.1066. Epub 2017 Oct 30.},
+   abstract = {BACKGROUND: Provisional stenting (PS) is the most common technique used to treat distal left main (LM) bifurcation lesions in patients with unprotected LM coronary artery disease undergoing percutaneous coronary intervention. The double kissing (DK) crush planned 2-stent technique has been shown to improve clinical outcomes in non-LM bifurcations compared with PS, and in LM bifurcations compared with culotte stenting, but has never been compared with PS in LM bifurcation lesions. OBJECTIVES: The authors sought to determine whether a planned DK crush 2-stent technique is superior to PS for patients with true distal LM bifurcation lesions. METHODS: The authors randomized 482 patients from 26 centers in 5 countries with true distal LM bifurcation lesions (Medina 1,1,1 or 0,1,1) to PS (n = 242) or DK crush stenting (n = 240). The primary endpoint was the 1-year composite rate of target lesion failure (TLF): cardiac death, target vessel myocardial infarction, or clinically driven target lesion revascularization. Routine 13-month angiographic follow-up was scheduled after ascertainment of the primary endpoint. RESULTS: TLF within 1 year occurred in 26 patients (10.7%) assigned to PS, and in 12 patients (5.0%) assigned to DK crush (hazard ratio: 0.42; 95% confidence interval: 0.21 to 0.85; p = 0.02). Compared with PS, DK crush also resulted in lower rates of target vessel myocardial infarction I (2.9% vs. 0.4%; p = 0.03) and definite or probable stent thrombosis (3.3% vs. 0.4%; p = 0.02). Clinically driven target lesion revascularization (7.9% vs. 3.8%; p = 0.06) and angiographic restenosis within the LM complex (14.6% vs. 7.1%; p = 0.10) also tended to be less frequent with DK crush compared with PS. There was no significant difference in cardiac death between the groups. CONCLUSIONS: In the present multicenter randomized trial, percutaneous coronary intervention of true distal LM bifurcation lesions using a planned DK crush 2-stent strategy resulted in a lower rate of TLF at 1 year than a PS strategy. (Double Kissing and Double Crush Versus Provisional T Stenting Technique for the Treatment of Unprotected Distal Left Main True Bifurcation Lesions: A Randomized, International, Multi-Center Clinical Trial [DKCRUSH-V]; ChiCTR-TRC-11001213).},
+   keywords = {Aged
+Angiography
+Angioplasty, Balloon, Coronary/methods
+Coronary Artery Disease/*surgery
+Coronary Restenosis/surgery
+Coronary Stenosis/surgery
+Drug-Eluting Stents
+Female
+Follow-Up Studies
+Humans
+Male
+Middle Aged
+Myocardial Infarction/surgery
+Myocardial Revascularization
+Percutaneous Coronary Intervention/*methods
+*Stents
+Thrombosis
+Treatment Outcome
+double kissing crush
+left main bifurcation lesions
+prognosis
+provisional stenting},
+   ISSN = {1558-3597 (Electronic)
+0735-1097 (Linking)},
+   DOI = {10.1016/j.jacc.2017.09.1066},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29096915
+https://www.sciencedirect.com/science/article/pii/S0735109717408990?via%3Dihub},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN3070,
+   author = {Chen, S. L. and Zhang, J. J. and Ye, F. and Chen, Y. D. and Patel, T. and Kawajiri, K. and Lee, M. and Kwan, T. W. and Mintz, G. and Tan, H. C.},
+   title = {Study comparing the double kissing (DK) crush with classical crush for the treatment of coronary bifurcation lesions: the DKCRUSH-1 Bifurcation Study with drug-eluting stents},
+   journal = {Eur J Clin Invest},
+   volume = {38},
+   number = {6},
+   pages = {361-71},
+   note = {Chen, S L
+Zhang, J J
+Ye, F
+Chen, Y D
+Patel, T
+Kawajiri, K
+Lee, M
+Kwan, T W
+Mintz, G
+Tan, H C
+eng
+Comparative Study
+Randomized Controlled Trial
+England
+2008/05/21 09:00
+Eur J Clin Invest. 2008 Jun;38(6):361-71. doi: 10.1111/j.1365-2362.2008.01949.x.},
+   abstract = {BACKGROUND: Classical crush has a lower rate of final kissing balloon inflation (FKBI) immediately after percutaneous coronary intervention (PCI). The double kissing (DK) crush technique has the potential to increase the FKBI rate, and no prospective studies on the comparison of classical with DK crush techniques have been reported. MATERIALS AND METHODS: Three hundred and eleven patients with true bifurcation lesions were randomly divided into classical (n = 156) and DK crush (n = 155) groups. Clinical and angiographic details at follow-up at 8 months were indexed. The primary end point was major adverse cardiac events (MACE) including myocardial infarction, cardiac death and target lesion revascularization (TLR) at 8 months. RESULTS: FKBI was 76% in the classical crush group and 100% in the DK group (P < 0.001). The incidence of stent thrombosis was 3.2% in the classical crush group (5.1% in without- and 1.7% in with-FKBI) and 1.3% in the DK crush group. Cumulative 8 month MACE was 24.4% in the classical crush group and 11.4% in the DK crush group (P = 0.02). The TLR-free survival rate was 75.4% in the classical crush group and 89.5% in the DK crush group (P = 0.002). CONCLUSIONS: DK crush technique has the potential of increasing FKBI rate and reducing stent thrombosis, with a further reduction of TLR and cumulative MACE rate at 8 months.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/*methods
+Anti-Bacterial Agents/therapeutic use
+Coronary Vessel Anomalies/drug therapy/mortality/*therapy
+*Drug-Eluting Stents
+Female
+Follow-Up Studies
+Humans
+Male
+Middle Aged
+Paclitaxel/therapeutic use
+Proportional Hazards Models
+Prospective Studies
+Prosthesis Implantation/*methods
+Recurrence
+Sirolimus/therapeutic use
+Survival Analysis
+Treatment Outcome},
+   ISSN = {1365-2362 (Electronic)
+0014-2972 (Linking)},
+   DOI = {10.1111/j.1365-2362.2008.01949.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18489398},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN1023,
+   author = {Colombo, A. and Bramucci, E. and Sacca, S. and Violini, R. and Lettieri, C. and Zanini, R. and Sheiban, I. and Paloscia, L. and Grube, E. and Schofer, J. and Bolognese, L. and Orlandi, M. and Niccoli, G. and Latib, A. and Airoldi, F.},
+   title = {Randomized study of the crush technique versus provisional side-branch stenting in true coronary bifurcations: the CACTUS (Coronary Bifurcations: Application of the Crushing Technique Using Sirolimus-Eluting Stents) Study},
+   journal = {Circulation},
+   volume = {119},
+   number = {1},
+   pages = {71-8},
+   note = {Colombo, Antonio
+Bramucci, Ezio
+Sacca, Salvatore
+Violini, Roberto
+Lettieri, Corrado
+Zanini, Roberto
+Sheiban, Imad
+Paloscia, Leonardo
+Grube, Eberhard
+Schofer, Joachim
+Bolognese, Leonardo
+Orlandi, Mario
+Niccoli, Giampaolo
+Latib, Azeem
+Airoldi, Flavio
+eng
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2008/12/24 09:00
+Circulation. 2009 Jan 6;119(1):71-8. doi: 10.1161/CIRCULATIONAHA.108.808402. Epub 2008 Dec 22.},
+   abstract = {BACKGROUND: Sirolimus-eluting stents have been reported to be effective in the treatment of coronary bifurcations. Still, it has not been fully clarified which strategy would provide the best results with true bifurcation lesions. METHODS AND RESULTS: The CACTUS trial (Coronary bifurcations: Application of the Crushing Technique Using Sirolimus-eluting stents) is a prospective, randomized, multicenter study comparing 2 different techniques of stenting, with mandatory final kissing-balloon inflation, in true bifurcations: (1) elective "crush" stenting and (2) stenting of only the main branch, with provisional side-branch T-stenting. From August 2004 to June 2007, 350 patients were enrolled in 12 European centers. The primary angiographic end point was the in-segment restenosis rate, and the primary clinical end point was the occurrence of major adverse cardiac events (cardiac death, myocardial infarction, or target-vessel revascularization) at 6 months. At 6 months, angiographic restenosis rates were not different between the crush group (4.6% and 13.2% in the main branch and side branch, respectively) and the provisional stenting group (6.7% and 14.7% in the main branch and side branch, respectively; P=NS). Additional stenting on the side branch in the provisional stenting group was required in 31% of lesions. Rates of major adverse cardiac events were also similar in the 2 groups (15.8% in the crush group versus 15% in the provisional stenting group, P=NS). CONCLUSIONS: In most bifurcations with a significant stenosis in both branches, a provisional strategy of stenting the main branch only is effective, with the need to implant a second stent on the side branch occurring in approximately one third of cases. The implantation of 2 stents does not appear to be associated with a higher incidence of adverse events at 6 months.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/*methods
+Coronary Angiography
+Coronary Artery Disease/radiography/*therapy
+Coronary Restenosis/*prevention & control
+Coronary Vessels
+*Drug-Eluting Stents
+Female
+Follow-Up Studies
+Humans
+Immunosuppressive Agents/administration & dosage
+Male
+Middle Aged
+Sirolimus/administration & dosage
+Treatment Outcome},
+   ISSN = {1524-4539 (Electronic)
+0009-7322 (Linking)},
+   DOI = {10.1161/CIRCULATIONAHA.108.808402},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/19103990
+http://circ.ahajournals.org/content/119/1/71.full.pdf
+http://circ.ahajournals.org/content/circulationaha/119/1/71.full.pdf},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN1012,
+   author = {Colombo, F. and Biondi-Zoccai, G. and Infantino, V. and Omede, P. and Moretti, C. and Sciuto, F. and Siliquini, R. and Chiado, S. and Trevi, G. P. and Sheiban, I.},
+   title = {A long-term comparison of drug-eluting versus bare metal stents for the percutaneous treatment of coronary bifurcation lesions},
+   journal = {Acta Cardiol},
+   volume = {64},
+   number = {5},
+   pages = {583-8},
+   note = {Colombo, Francesco
+Biondi-Zoccai, Giuseppe
+Infantino, Vincenzo
+Omede, Pierluigi
+Moretti, Claudio
+Sciuto, Filippo
+Siliquini, Roberta
+Chiado, Simone
+Trevi, Gian Paolo
+Sheiban, Imad
+eng
+Comparative Study
+Belgium
+2010/01/12 06:00
+Acta Cardiol. 2009 Oct;64(5):583-8.},
+   abstract = {BACKGROUND: After the first exciting results on drug-eluting stents (DES), many concerns have been raised on their potential risk for late stent thrombosis. Whereas DES appear beneficial at early and mid-term for coronary bifurcation lesions, no data are available on their long-term safety in this setting in comparison to bare metal stents (BMS). We thus aimed to appraise the long-term (> 2 years) outcomes of patients with bifurcation lesions treated with DES vs. BMS. METHODS: We abstracted baseline, procedural and follow-up data on all patients with bifurcation coronary lesions (both branches with reference vessel diameter > 2.0 mm) treated with stent implantation at our centre. The primary end-point was the long-term (> 2 years) rate of major adverse cardiac events (MACE, i.e. cardiac death, myocardial infarction, coronary artery bypass grafting and target vessel revascularization). RESULTS: A total of 315 patients and 334 lesions were included, 84.4% treated with DES, and 15.6% treated with BMS. The side branch was stented in 108 cases, according to a provisional T in 76 (22.7%), crushing in 15 (4.5%),V in 14 (4.2%), and culottes in 1 (0.3%). In-hospital MACE occurred in 4 (1.5%) patients of the DES group and 2 (4.1%) of the BMS group (P = 0.22). After 35.8 +/- 12.9 months, MACE were 72 (27.1%) vs. 24 (49%), respectively (P = 0.002), with cardiac death in 7 (2.6%) patients vs. 3 (6.1%, P = 0.20), myocardial infarction in 12 (4.5%) vs. 6 (12.2%, P = 0.42), coronary artery bypass grafting in 5 (1.9%) vs. 1 (2%, P = 0.93), target lesion revascularization in 30 (11.3%) vs. 13 (26.5%, P = 0.0042), and target vessel revascularization in 48 (18%) vs. 13 (26.5%, P = 0.16). Definite stent thrombosis occurred in 2 (0.75%) patients in the DES group vs. 1 (2%, P = 0.93) in the BMS group, whereas probable stent thrombosis was adjudicated in 5 (1.9%) vs. 2 (4%, P = 0.93). CONCLUSION: This cohort study, reporting for the first time on the long-term outlook of patients treated with DES vs. BMS for coronary bifurcation lesions, supports the overall safety and efficacy of DES in comparison to BMS. Specifically, even after several years of follow-up, repeat revascularizations appeared significantly lower with DES, and stent thromboses occurred with equivalent frequency in both DES and BMS groups.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/*instrumentation
+Coronary Angiography
+Coronary Stenosis/radiography/*surgery
+*Drug-Eluting Stents
+Female
+Follow-Up Studies
+Humans
+Male
+Retrospective Studies
+Stents
+Time Factors
+Treatment Outcome},
+   ISSN = {0001-5385 (Print)
+0001-5385 (Linking)},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/20058502},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN452,
+   author = {Erglis, A. and Kumsars, I. and Niemela, M. and Kervinen, K. and Maeng, M. and Lassen, J. F. and Gunnes, P. and Stavnes, S. and Jensen, J. S. and Galloe, A. and Narbute, I. and Sondore, D. and Makikallio, T. and Ylitalo, K. and Christiansen, E. H. and Ravkilde, J. and Steigen, T. K. and Mannsverk, J. and Thayssen, P. and Hansen, K. N. and Syvanne, M. and Helqvist, S. and Kjell, N. and Wiseth, R. and Aaroe, J. and Puhakka, M. and Thuesen, L. and Nordic, P. C. I. Study Group},
+   title = {Randomized comparison of coronary bifurcation stenting with the crush versus the culotte technique using sirolimus eluting stents: the Nordic stent technique study},
+   journal = {Circ Cardiovasc Interv},
+   volume = {2},
+   number = {1},
+   pages = {27-34},
+   note = {Erglis, Andrejs
+Kumsars, Indulis
+Niemela, Matti
+Kervinen, Kari
+Maeng, Michael
+Lassen, Jens F
+Gunnes, Pal
+Stavnes, Sindre
+Jensen, Jan S
+Galloe, Anders
+Narbute, Inga
+Sondore, Dace
+Makikallio, Timo
+Ylitalo, Kari
+Christiansen, Evald H
+Ravkilde, Jan
+Steigen, Terje K
+Mannsverk, Jan
+Thayssen, Per
+Hansen, Knud Norregaard
+Syvanne, Mikko
+Helqvist, Steffen
+Kjell, Nikus
+Wiseth, Rune
+Aaroe, Jens
+Puhakka, Mikko
+Thuesen, Leif
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2009/12/25 06:00
+Circ Cardiovasc Interv. 2009 Feb;2(1):27-34. doi: 10.1161/CIRCINTERVENTIONS.108.804658. Epub 2009 Feb 10.},
+   abstract = {BACKGROUND: In a number of coronary bifurcation lesions, both the main vessel and the side branch need stent coverage. Using sirolimus eluting stents, we compared 2 dedicated bifurcation stent techniques, the crush and the culotte techniques in a randomized trial with separate clinical and angiographic end-points. METHODS AND RESULTS: A total of 424 patients with a bifurcation lesion were randomized to crush (n=209) and culotte (n=215) stenting. The primary end point was major adverse cardiac events; cardiac death, myocardial infarction, target vessel revascularization, or stent thrombosis after 6 months. At 6 months there were no significant differences in major adverse cardiac event rates between the groups; crush 4.3%, culotte 3.7% (P=0.87). Procedure and fluoroscopy times and contrast volumes were similar in the 2 groups. The rates of procedure-related increase in biomarkers of myocardial injury were 15.5% in crush versus 8.8% in culotte group (P=0.08). A total of 324 patients had a quantitative coronary assessment at the index procedure and after 8 months. The angiographic end-points of in-segment and in-stent restenosis of main vessel and/or side branch after 8 months were found in 12.1% versus 6.6% (P=0.10) and in 10.5% versus 4.5% (P=0.046) in the crush and culotte groups, respectively. CONCLUSIONS: Both the crush and the culotte bifurcation stenting techniques were associated with similar and excellent clinical and angiographic results. Angiographically, there was a trend toward less in-segment restenosis and significantly reduced in-stent restenosis following culotte stenting.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/adverse effects/*instrumentation/mortality
+Biological Markers/blood
+Cardiovascular Agents/*administration & dosage
+Coronary Angiography
+Coronary Artery Disease/mortality/radiography/*therapy
+Coronary Restenosis/etiology/mortality/*prevention & control/radiography
+Denmark/epidemiology
+*Drug-Eluting Stents
+Female
+Finland/epidemiology
+Humans
+Kaplan-Meier Estimate
+Latvia/epidemiology
+Male
+Middle Aged
+Myocardial Infarction/etiology
+Norway/epidemiology
+Prosthesis Design
+Sirolimus/*administration & dosage
+Thrombosis/etiology
+Time Factors
+Treatment Outcome},
+   ISSN = {1941-7632 (Electronic)
+1941-7640 (Linking)},
+   DOI = {10.1161/CIRCINTERVENTIONS.108.804658},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/20031690
+http://circinterventions.ahajournals.org/content/2/1/27.full.pdf
+http://circinterventions.ahajournals.org/content/circcvint/2/1/27.full.pdf},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN2090,
+   author = {Ferenc, M. and Gick, M. and Comberg, T. and Rothe, J. and Valina, C. and Toma, A. and Loffelhardt, N. and Hochholzer, W. and Riede, F. and Kienzle, R. P. and Achtari, A. and Neumann, F. J.},
+   title = {Culotte stenting vs. TAP stenting for treatment of de-novo coronary bifurcation lesions with the need for side-branch stenting: the Bifurcations Bad Krozingen (BBK) II angiographic trial},
+   journal = {Eur Heart J},
+   note = {Ferenc, Miroslaw
+Gick, Michael
+Comberg, Thomas
+Rothe, Jurgen
+Valina, Christian
+Toma, Aurel
+Loffelhardt, Nikolaus
+Hochholzer, Willibald
+Riede, Florian
+Kienzle, Rolf-Peter
+Achtari, Amar
+Neumann, Franz-Josef
+ENG
+England
+2016/09/01 06:00
+Eur Heart J. 2016 Aug 30. pii: ehw345.},
+   abstract = {AIMS: In percutaneous coronary intervention for de-novo coronary bifurcation lesions, the optimal technique for provisional side-branch stenting is still a matter of debate. We tested whether in this setting culotte stenting reduces the incidence of restenosis as compared with T-and-protrusion (TAP) stenting. METHODS AND RESULTS: This trial included 300 patients with a coronary bifurcation lesion requiring a side-branch stent. Patients were randomly assigned to culotte stenting or TAP stenting using drug-eluting stents in a 1:1 fashion. Primary endpoint was maximal per cent diameter stenosis of the bifurcation lesion at 9-month angiographic follow-up. As clinical endpoints we assessed target lesion re-intervention (TLR) and target lesion failure (composite of cardiac death, target vessel myocardial infarction, and TLR).Angiographic follow-up was available in 91% of the patients. After culotte stenting, the maximum per cent diameter stenosis in the treated bifurcation lesion was 21 +/- 20% as compared with 27 +/- 25% after TAP stenting (P = 0.038). The respective corresponding binary restenosis rates were 6.5 and 17% (P = 0.006). The 1-year incidence of TLR was 6.0% after culotte stenting vs. 12.0% after T-stenting (P = 0.069). Target lesion failure occurred in 6.7% of the culotte group and in 12.0% of the TAP group (P = 0.11). Only one patient of the culotte group incurred a definite stent thrombosis during 1-year follow-up. CONCLUSIONS: Compared with the TAP stenting, culotte stenting was associated with a significantly lower incidence of angiographic restenosis.},
+   keywords = {Bifurcations
+Coronary disease
+Culotte stenting
+Drug-eluting stents
+Restenosis
+TAP stenting},
+   ISSN = {1522-9645 (Electronic)
+0195-668X (Linking)},
+   DOI = {10.1093/eurheartj/ehw345},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/27578807
+https://watermark.silverchair.com/ehw345.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAbIwggGuBgkqhkiG9w0BBwagggGfMIIBmwIBADCCAZQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMYXkEREbm_6wzUB3SAgEQgIIBZdkPF4wKhowqTz_tMjsZQostnv3QKwOh_eJH6gpvTE_P3J-p2Wh2vRMV_rtDxCikaRZdVOaEAD_JXEEDue-arnCuM6l_5kz8vZltxXa3bdl73_hfE1u7ZwcoZjCugbw6xnDH9d6D02Px_09DyZUuJRYvKCTHqK99glLveOIu3RTZkweYFF35zv8WHTtKzMcWbXypuTn88PQfzrYSjEyWgScHSwq_0pp_2SPoZKZASn7mu_nUp_-oZnUv5FuEApSkQExtTh1A0imNprjJ39ooumkwpt6Zw-EVyt-D4K17ZWD7gA4FGS355Ls2OABFbtD8BNlgTznspfAvdHkDYeuJYygOYAHuw4mlBbIJH3_HYJghZTl_RMxUqLdHctGnALuqEQwr0JkP0mmFc0OYSRYLthoeYfxS1oiRTFGuqcBodzAzc4kz_x8hyQDa6h2sDP7t6H4tkPhJgmHZUaJIT3x3S1bp9PLbnA},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN4398,
+   author = {Foin, N. and Sen, S. and Allegria, E. and Petraco, R. and Nijjer, S. and Francis, D. P. and Di Mario, C. and Davies, J. E.},
+   title = {Maximal expansion capacity with current DES platforms: a critical factor for stent selection in the treatment of left main bifurcations?},
+   journal = {EuroIntervention},
+   volume = {8},
+   number = {11},
+   pages = {1315-25},
+   note = {Foin, Nicolas
+Sen, Sayan
+Allegria, Eduardo
+Petraco, Ricardo
+Nijjer, Sukh
+Francis, Darrel P
+Di Mario, Carlo
+Davies, Justin E
+eng
+PG/11/53/28991/British Heart Foundation/United Kingdom
+G1100443/Medical Research Council/United Kingdom
+G1000357/Medical Research Council/United Kingdom
+FS/10/38/28268/British Heart Foundation/United Kingdom
+FS/11/46/28861/British Heart Foundation/United Kingdom
+Research Support, Non-U.S. Gov't
+France
+EuroIntervention. 2013 Mar;8(11):1315-25. doi: 10.4244/EIJV8I11A200.},
+   abstract = {AIMS: Left main stenting is increasingly performed and often involves deployment of a single stent across vessels with marked disparity in diameters. Knowing stent expansion capacity is critical to ensure adequate strut apposition after post-dilatation of the stent has been performed. Coronary stents are usually manufactured in only two or three different model designs with each design having a different maximal expansion capacity. Information about the different workhorse designs and their maximal achievable diameter is not commonly provided by manufacturers but, in the absence of this critically important information, stents implanted in segments with major changes in vessel diameter have the potential to become grossly overstretched and to remain incompletely apposed. METHODS AND RESULTS: We examined the differences in workhorse designs of six commercially available drug-eluting stents (DES): the PROMUS Element, Taxus Liberte, XIENCE Prime, Resolute Integrity, BioMatrix Flex and Cypher Select stents. Using micro-computed tomography, we tested oversizing capabilities above nominal pressures for the different workhorse designs of the six DES using 4.0, 5.0 and 6.0 mm post-dilatation balloons inflated to 14 atmospheres. MLD could be increased significantly in all stents, only restricted by workhorse design limitations. Minimal inner lumen diameter (MLD) achieved after two successive 6.0 mm post-dilatations of the largest design (4.0 mm stent) was 5.7 mm for the Element, 5.6 mm for the XIENCE Prime, 6.0 mm for the Taxus, 5.4 mm for the Resolute Integrity, 5.9 mm for the BioMatrix and 5.8 mm for the Cypher stent. Significant deformations were observed during stent oversizing with large changes in terms of cell opening and crowns expansion. These are affected by design structure and reveal important differences among all stents tested. Such extensive deformations may alter the functional ability of an individual stent to scaffold a lesion and prevent restenosis. CONCLUSIONS: Stent selection based on stent model design may be critical, particularly for treatment of large artery and left main bifurcations where overexpansion is normally required to optimise results and ensure full expansion of the stent.},
+   keywords = {Angioplasty, Balloon, Coronary/adverse effects/*instrumentation
+Coronary Angiography
+Coronary Stenosis/diagnostic imaging/pathology/*therapy
+*Drug-Eluting Stents
+Equipment Failure Analysis
+Humans
+Male
+Materials Testing
+Middle Aged
+Patient Selection
+Predictive Value of Tests
+Pressure
+Prosthesis Design
+*Prosthesis Failure
+Severity of Illness Index
+Tomography, Optical Coherence
+Treatment Outcome
+X-Ray Microtomography},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJV8I11A200},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23086760},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN2968,
+   author = {Hahn, J. Y. and Chun, W. J. and Kim, J. H. and Song, Y. B. and Oh, J. H. and Koo, B. K. and Rha, S. W. and Yu, C. W. and Park, J. S. and Jeong, J. O. and Choi, S. H. and Choi, J. H. and Jeong, M. H. and Yoon, J. H. and Jang, Y. and Tahk, S. J. and Kim, H. S. and Gwon, H. C.},
+   title = {Predictors and outcomes of side branch occlusion after main vessel stenting in coronary bifurcation lesions: results from the COBIS II Registry (COronary BIfurcation Stenting)},
+   journal = {J Am Coll Cardiol},
+   volume = {62},
+   number = {18},
+   pages = {1654-1659},
+   note = {Hahn, Joo-Yong
+Chun, Woo Jung
+Kim, Ji-Hwan
+Song, Young Bin
+Oh, Ju Hyeon
+Koo, Bon-Kwon
+Rha, Seung Woon
+Yu, Cheol Woong
+Park, Jong-Sun
+Jeong, Jin-Ok
+Choi, Seung-Hyuk
+Choi, Jin-Ho
+Jeong, Myung-Ho
+Yoon, Jung Han
+Jang, Yangsoo
+Tahk, Seung-Jea
+Kim, Hyo-Soo
+Gwon, Hyeon-Cheol
+eng
+Multicenter Study
+2013/08/21 06:00
+J Am Coll Cardiol. 2013 Oct 29;62(18):1654-1659. doi: 10.1016/j.jacc.2013.07.041. Epub 2013 Aug 14.},
+   abstract = {OBJECTIVES: This study sought to investigate the predictors and outcomes of side branch (SB) occlusion after main vessel (MV) stenting in coronary bifurcation lesions. BACKGROUND: SB occlusion is a serious complication that occurs during percutaneous coronary intervention (PCI) for bifurcation lesions. METHODS: Consecutive patients undergoing PCI using drug-eluting stents for bifurcation lesions with SB >/=2.3 mm were enrolled. We selected patients treated with the 1-stent technique or MV stenting first strategy. SB occlusion after MV stenting was defined as Thrombolysis in Myocardial Infarction flow grade <3. RESULTS: SB occlusion occurred in 187 (8.4%) of 2,227 bifurcation lesions. In multivariate analysis, independent predictors of SB occlusion were pre-procedural percent diameter stenosis of the SB >/=50% (odds ratio [OR]: 2.34; 95% confidence interval [CI]: 1.59 to 3.43; p < 0.001) and the proximal MV >/=50% (OR: 2.34; 95% CI: 1.57 to 3.50; p < 0.001), SB lesion length (OR: 1.03; 95% CI: 1.003 to 1.06; p = 0.03), and acute coronary syndrome (OR: 1.53; 95% CI: 1.06 to 2.19; p = 0.02). Of 187 occluded SBs, flow was restored spontaneously in 26 (13.9%) and by SB intervention in 103 (55.1%) but not in 58 (31.0%). Jailed wire in the SB was associated with flow recovery (74.8% vs. 57.8%, p = 0.02). Cardiac death or myocardial infarction occurred more frequently in patients with SB occlusion than in those without SB occlusion (adjusted hazard ratio: 2.34; 95% CI: 1.15 to 4.77; p = 0.02). CONCLUSIONS: Angiographic findings of SB, proximal MV stenosis, and clinical presentation are predictive of SB occlusion after MV stenting. Occlusion of sizable SB is associated with adverse clinical outcomes..},
+   keywords = {Acute Coronary Syndrome
+Aged
+Angioplasty, Balloon, Coronary/methods
+Coronary Angiography
+Coronary Circulation
+Coronary Occlusion/*diagnostic imaging/therapy
+Coronary Stenosis/diagnostic imaging/*therapy
+*Drug-Eluting Stents
+Female
+Humans
+Male
+Middle Aged
+Multivariate Analysis
+Myocardial Infarction/epidemiology
+Registries
+Des
+Ivus
+Mace
+Mi
+Mv
+Pci
+Sb
+Timi
+Tlr
+Thrombolysis In Myocardial Infarction
+angioplasty
+bifurcation lesion
+drug-eluting stent(s)
+intravascular ultrasound
+main vessel
+major adverse cardiac event(s)
+myocardial infarction
+percutaneous coronary intervention
+side branch
+target lesion revascularization},
+   ISSN = {1558-3597 (Electronic)
+0735-1097 (Linking)},
+   DOI = {10.1016/j.jacc.2013.07.041},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23954335
+https://www.sciencedirect.com/science/article/pii/S0735109713029483?via%3Dihub},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN1011,
+   author = {Hildick-Smith, D. and de Belder, A. J. and Cooter, N. and Curzen, N. P. and Clayton, T. C. and Oldroyd, K. G. and Bennett, L. and Holmberg, S. and Cotton, J. M. and Glennon, P. E. and Thomas, M. R. and Maccarthy, P. A. and Baumbach, A. and Mulvihill, N. T. and Henderson, R. A. and Redwood, S. R. and Starkey, I. R. and Stables, R. H.},
+   title = {Randomized trial of simple versus complex drug-eluting stenting for bifurcation lesions: the British Bifurcation Coronary Study: old, new, and evolving strategies},
+   journal = {Circulation},
+   volume = {121},
+   number = {10},
+   pages = {1235-43},
+   note = {Hildick-Smith, David
+de Belder, Adam J
+Cooter, Nina
+Curzen, Nicholas P
+Clayton, Tim C
+Oldroyd, Keith G
+Bennett, Lorraine
+Holmberg, Steve
+Cotton, James M
+Glennon, Peter E
+Thomas, Martyn R
+Maccarthy, Philip A
+Baumbach, Andreas
+Mulvihill, Niall T
+Henderson, Robert A
+Redwood, Simon R
+Starkey, Ian R
+Stables, Rodney H
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2010/03/03 06:00
+Circulation. 2010 Mar 16;121(10):1235-43. doi: 10.1161/CIRCULATIONAHA.109.888297. Epub 2010 Mar 1.},
+   abstract = {BACKGROUND: The optimal strategy for treating coronary bifurcation lesions remains a subject of debate. With bare-metal stents, single-stent approaches appear to be superior to systematic 2-stent strategies. Drug-eluting stents, however, have low rates of restenosis and might offer improved outcomes with complex stenting techniques. METHODS AND RESULTS: Patients with significant coronary bifurcation lesions were randomized to either a simple or complex stenting strategy with drug-eluting stents. In the simple strategy, the main vessel was stented, followed by optional kissing balloon dilatation/T-stent. In the complex strategy, both vessels were systematically stented (culotte or crush techniques) with mandatory kissing balloon dilatation. Five hundred patients 64+/-10 years old were randomized; 77% were male. Eighty-two percent of lesions were true bifurcations (>50% narrowing in both vessels). In the simple group (n=250), 66 patients (26%) had kissing balloons in addition to main-vessel stenting, and 7 (3%) had T stenting. In the complex group (n=250), 89% of culotte (n=75) and 72% of crush (n=169) cases were completed successfully with final kissing balloon inflations. The primary end point (a composite at 9 months of death, myocardial infarction, and target-vessel failure) occurred in 8.0% of the simple group versus 15.2% of the complex group (hazard ratio 2.02, 95% confidence interval 1.17 to 3.47, P=0.009). Myocardial infarction occurred in 3.6% versus 11.2%, respectively (P=0.001), and in-hospital major adverse cardiovascular events occurred in 2.0% versus 8.0% (P=0.002), respectively. Procedure duration and x-ray dose favored the simple approach. CONCLUSIONS: When coronary bifurcation lesions are treated, a systematic 2-stent technique results in higher rates of in-hospital and 9-month major adverse cardiovascular events. This difference is largely driven by periprocedural myocardial infarction. Procedure duration is longer, and x-ray dose is higher. The provisional technique should remain the preferred strategy in the majority of cases. Clinical Trial Registration Information- URL: http://www.clinicaltrials.gov. Unique identifier: NCT 00351260.},
+   keywords = {Adult
+Aged
+*Angioplasty, Balloon, Coronary
+Coronary Angiography
+Coronary Artery Disease/*therapy
+*Drug-Eluting Stents
+Female
+Humans
+Male
+Middle Aged
+Prospective Studies},
+   ISSN = {1524-4539 (Electronic)
+0009-7322 (Linking)},
+   DOI = {10.1161/CIRCULATIONAHA.109.888297},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/20194880
+http://circ.ahajournals.org/content/121/10/1235.full.pdf
+http://circ.ahajournals.org/content/circulationaha/121/10/1235.full.pdf},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN1010,
+   author = {Hildick-Smith, D. and Lassen, J. F. and Albiero, R. and Lefevre, T. and Darremont, O. and Pan, M. and Ferenc, M. and Stankovic, G. and Louvard, Y. and European Bifurcation, Club},
+   title = {Consensus from the 5th European Bifurcation Club meeting},
+   journal = {EuroIntervention},
+   volume = {6},
+   number = {1},
+   pages = {34-8},
+   note = {Hildick-Smith, David
+Lassen, Jens Flensted
+Albiero, Remo
+Lefevre, Thierry
+Darremont, Olivier
+Pan, Manuel
+Ferenc, Miroslaw
+Stankovic, Goran
+Louvard, Yves
+eng
+Consensus Development Conference
+Practice Guideline
+France
+2010/06/15 06:00
+EuroIntervention. 2010 May;6(1):34-8. doi: 10.4244/.},
+   keywords = {Angioplasty, Balloon, Coronary/adverse effects/*instrumentation
+Coronary Artery Disease/*therapy
+Evidence-Based Medicine
+Humans
+*Stents
+Treatment Outcome},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/20542795},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN1009,
+   author = {Hildick-Smith, D. and Lassen, J. F. and Koo, B. K.},
+   title = {One or two stents for coronary bifurcation lesions?},
+   journal = {EuroIntervention},
+   volume = {6 Suppl J},
+   pages = {J61-4},
+   note = {Hildick-Smith, David
+Lassen, Jens Flensted
+Koo, Bon-Kwon
+eng
+Review
+France
+2011/10/05 06:00
+EuroIntervention. 2010 Dec;6 Suppl J:J61-4. doi: 10.4244/.},
+   keywords = {Angioplasty, Balloon, Coronary/adverse effects/*instrumentation
+Coronary Artery Disease/diagnosis/*therapy
+Drug-Eluting Stents
+Humans
+Metals
+Patient Selection
+Practice Guidelines as Topic
+Prosthesis Design
+*Stents
+Treatment Outcome},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/21930492},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3022,
+   author = {Iannaccone, M. and Colangelo, S. and Di Mario, C. and Garbo, R.},
+   title = {"Double wire rotational atherectomy technique" in heavily calcified coronary bifurcation},
+   journal = {EuroIntervention},
+   note = {Iannaccone, Mario
+Colangelo, Salvatore
+Di Mario, Carlo
+Garbo, Roberto
+eng
+France
+2018/02/14 06:00
+EuroIntervention. 2018 Feb 13. pii: EIJ-D-18-00001. doi: 10.4244/EIJ-D-18-00001.},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJ-D-18-00001},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29437038},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN453,
+   author = {Jensen, J. S. and Galloe, A. and Lassen, J. F. and Erglis, A. and Kumsars, I. and Steigen, T. K. and Wiseth, R. and Narbute, I. and Gunnes, P. and Mannsverk, J. and Meyerdierks, O. and Rotevatn, S. and Niemela, M. and Kervinen, K. and Nikus, K. and Vikman, S. and Ravkilde, J. and James, S. and Aaroe, J. and Ylitalo, A. and Helqvist, S. and Sjogren, I. and Thayssen, P. and Virtanen, K. and Puhakka, M. and Airaksinen, J. and Thuesen, L. and Nordic-Baltic, P. C. I. Study Group},
+   title = {Safety in simple versus complex stenting of coronary artery bifurcation lesions. The nordic bifurcation study 14-month follow-up results},
+   journal = {EuroIntervention},
+   volume = {4},
+   number = {2},
+   pages = {229-33},
+   note = {Jensen, Jan S
+Galloe, Anders
+Lassen, Jens F
+Erglis, Andrejs
+Kumsars, Indulis
+Steigen, Terje K
+Wiseth, Rune
+Narbute, Inga
+Gunnes, Pal
+Mannsverk, Jan
+Meyerdierks, Oliver
+Rotevatn, Svein
+Niemela, Matti
+Kervinen, Kari
+Nikus, Kjell
+Vikman, Saila
+Ravkilde, Jan
+James, Stefan
+Aaroe, Jens
+Ylitalo, Antti
+Helqvist, Steffen
+Sjogren, Iwar
+Thayssen, Per
+Virtanen, Kari
+Puhakka, Mikko
+Airaksinen, Juhani
+Thuesen, Leif
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+France
+2008/12/30 09:00
+EuroIntervention. 2008 Aug;4(2):229-33.},
+   abstract = {AIMS: The risk of stent thrombosis has been reported to increase with percutaneous coronary intervention (PCI) complexity. The present study reports the pre-specified secondary endpoint of a 14-month stent thrombosis and major adverse cardiac events in patients stented with a simple versus a complex bifurcation technique using sirolimus eluting stents (SES). METHODS AND RESULTS: A total of 413 patients with a coronary bifurcation lesion were randomised to a simple treatment strategy; stenting of main vessel and optional stenting of side branch (MV group), or to a complex stenting strategy; stenting of both main vessel and side branch (MV+SB group). Mortality data were available in all patients and 14-month clinical follow-up data in 395 (96%) of the patients. After 14 months, the rates of definite, probable and possible stent thrombosis (ARC criteria) were 1.0% vs. 0.5%, 1.0% vs. 0% and 0.5% vs. 0% (ns) in the MV and in the MV+SB groups, respectively. Rates of MACE were 9.5% in the MV group and 8.2% in the MV+SB group (ns). Total death was seen in 2.4% vs. 1.0% and non-PCI related myocardial infarction in 2.0% vs. 1.0% in the MV and the MV+SB groups, respectively. CONCLUSIONS: After 14 months, two months after recommended cessation of dual antiplatelet therapy, the rates of stent thrombosis and major adverse cardiac events were low and independent of treatment complexity in patients treated with SES for coronary artery bifurcation lesions.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/*methods
+Coronary Artery Disease/*pathology/*therapy
+Coronary Vessels/*pathology
+*Drug-Eluting Stents
+Female
+Follow-Up Studies
+Humans
+Immunosuppressive Agents/administration & dosage
+Male
+Middle Aged
+Platelet Aggregation Inhibitors/therapeutic use
+Sirolimus/administration & dosage
+Thrombosis/prevention & control
+Treatment Outcome},
+   ISSN = {1774-024X (Print)
+1774-024X (Linking)},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/19110788},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3242,
+   author = {Kan, J. and Ge, Z. and Zhang, J. J. and Liu, Z. Z. and Tian, N. L. and Ye, F. and Li, S. J. and Qian, X. S. and Yang, S. and Chen, M. X. and Rab, T. and Chen, S. L.},
+   title = {Incidence and Clinical Outcomes of Stent Fractures on the Basis of 6,555 Patients and 16,482 Drug-Eluting Stents From 4 Centers},
+   journal = {JACC Cardiovasc Interv},
+   volume = {9},
+   number = {11},
+   pages = {1115-23},
+   note = {Kan, Jing
+Ge, Zhen
+Zhang, Jun-Jie
+Liu, Zhi-Zhong
+Tian, Nai-Liang
+Ye, Fei
+Li, Sui-Ji
+Qian, Xue-Song
+Yang, Song
+Chen, Meng-Xuan
+Rab, Tanveer
+Chen, Shao-Liang
+eng
+Multicenter Study
+2016/03/25 06:00
+JACC Cardiovasc Interv. 2016 Jun 13;9(11):1115-23. doi: 10.1016/j.jcin.2016.02.025. Epub 2016 Mar 18.},
+   abstract = {OBJECTIVES: The present study aimed to analyze the incidence of SF and its correlation with clinical events after DES implantation and the outcome of re-intervention for symptomatic in-stent restenosis (ISR) induced by stent fracture (SF). BACKGROUND: SF is associated with a high rate of clinical events after the implantation of drug-eluting stents (DES). However, the chronological rate of SF and the effect of SF on clinical outcomes from a large patient population remain underreported. METHODS: A total of 6,555 patients with 16482 DES in 10751 diseased vessels and surveillance angiography between November 2003 and January 2014 were prospectively studied. The primary endpoints included the incidence of SF, in-stent restenosis (ISR), target lesion revascularization (TLR), and definite stent thrombosis (ST) at the end of follow-up before and after propensity score matching. Clinical outcomes after TLR were also followed up. RESULTS: The SF rate was detected in 803 (12.3%) patients, 3,630 (22.0%) stents, and 1,852 (17.2%) diseased vessels. SF increased over time. SF was associated with higher unadjusted rates of ISR (42.1%), TLR (24.8%, n = 379), and definite ST (4.6%) compared with stents without fracture (10.7%, 6.6%, and 1.03%, all p < 0.001), and the differences remained significant after propensity score matching (all p < 0.05). There was no significant difference in any-cause or cardiac mortality between patients with and without SF. After 1,523 days of follow-up since the first surveillance angiography, repeat ISR was detected in 90 of 379 (23.8%) stents after reintervention, and 6 (7.5%) stents required repeat TLR. CONCLUSIONS: SF is more frequently observed after DES implantation. TLR was required in almost one-fourth of fractured stents. Increased events in the SF group did not translate into a difference in mortality compared with the non-SF group. Reintervention was associated with acceptable clinical results.},
+   keywords = {Aged
+China/epidemiology
+Coronary Angiography
+Coronary Restenosis/diagnostic imaging/*epidemiology/mortality/therapy
+Coronary Thrombosis/diagnostic imaging/*epidemiology/mortality/therapy
+Female
+Humans
+Incidence
+Kaplan-Meier Estimate
+Male
+Middle Aged
+Percutaneous Coronary Intervention/adverse effects/*instrumentation/mortality
+Prevalence
+*Prosthesis Failure
+Registries
+Retreatment
+Risk Factors
+*Stents
+Time Factors
+Treatment Outcome
+*drug-eluting stent(s)
+*restenosis
+*stent fracture
+*stent thrombosis
+*target lesion revascularization},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2016.02.025},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27009464
+https://www.sciencedirect.com/science/article/pii/S1936879816002818?via%3Dihub},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN2966,
+   author = {Kassab, G. S. and Finet, G.},
+   title = {Anatomy and function relation in the coronary tree: from bifurcations to myocardial flow and mass},
+   journal = {EuroIntervention},
+   volume = {11 Suppl V},
+   pages = {V13-7},
+   note = {Kassab, Ghassan S
+Finet, Gerard
+eng
+Review
+France
+2015/05/20 06:00
+EuroIntervention. 2015;11 Suppl V:V13-7. doi: 10.4244/EIJV11SVA3.},
+   abstract = {The study of the structure-function relation of coronary bifurcations is necessary not only to understand the design of the vasculature but also to use this understanding to restore structure and hence function. The objective of this review is to provide quantitative relations between bifurcation anatomy or geometry, flow distribution in the bifurcation and degree of perfused myocardial mass in order to establish practical rules to guide optimal treatment of bifurcations including side branches (SB). We use the scaling law between flow and diameter, conservation of mass and the scaling law between myocardial mass and diameter to provide geometric relations between the segment diameters of a bifurcation, flow fraction distribution in the SB, and the percentage of myocardial mass perfused by the SB. We demonstrate that the assessment of the functional significance of an SB for intervention should not only be based on the diameter of the SB but also on the diameter of the mother vessel as well as the diameter of the proximal main artery, as these dictate the flow fraction distribution and perfused myocardial mass, respectively. The geometric and flow rules for a bifurcation are extended to a trifurcation to ensure optimal therapy scaling rules for any branching pattern.},
+   keywords = {Coronary Circulation/*physiology
+Coronary Vessels/*anatomy & histology/physiology
+Humans
+*Myocardium},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJV11SVA3},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25983147},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN1017,
+   author = {Kervinen, K. and Niemela, M. and Romppanen, H. and Erglis, A. and Kumsars, I. and Maeng, M. and Holm, N. R. and Lassen, J. F. and Gunnes, P. and Stavnes, S. and Jensen, J. S. and Galloe, A. and Narbute, I. and Sondore, D. and Christiansen, E. H. and Ravkilde, J. and Steigen, T. K. and Mannsverk, J. and Thayssen, P. and Hansen, K. N. and Helqvist, S. and Vikman, S. and Wiseth, R. and Aaroe, J. and Jokelainen, J. and Thuesen, L. and Nordic, P. C. I. Study Group},
+   title = {Clinical outcome after crush versus culotte stenting of coronary artery bifurcation lesions: the Nordic Stent Technique Study 36-month follow-up results},
+   journal = {JACC Cardiovasc Interv},
+   volume = {6},
+   number = {11},
+   pages = {1160-5},
+   note = {Kervinen, Kari
+Niemela, Matti
+Romppanen, Hannu
+Erglis, Andrejs
+Kumsars, Indulis
+Maeng, Michael
+Holm, Niels R
+Lassen, Jens F
+Gunnes, Pal
+Stavnes, Sindre
+Jensen, Jan S
+Galloe, Anders
+Narbute, Inga
+Sondore, Dace
+Christiansen, Evald H
+Ravkilde, Jan
+Steigen, Terje K
+Mannsverk, Jan
+Thayssen, Per
+Hansen, Knud Norregaard
+Helqvist, Steffen
+Vikman, Saila
+Wiseth, Rune
+Aaroe, Jens
+Jokelainen, Jari
+Thuesen, Leif
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2013/11/23 06:00
+JACC Cardiovasc Interv. 2013 Nov;6(11):1160-5. doi: 10.1016/j.jcin.2013.06.009.},
+   abstract = {OBJECTIVES: The aim of the study was to compare long-term follow-up results of crush versus culotte stent techniques in coronary bifurcation lesions. BACKGROUND: The randomized Nordic Stent Technique Study showed similar 6-month clinical and 8-month angiographic results with the crush and culotte stent techniques of de novo coronary artery bifurcation lesions using sirolimus-eluting stents. Here, we report the 36-month efficacy and safety of the Nordic Stent Technique Study. METHODS: A total of 424 patients with a bifurcation lesion were randomized to stenting of both main vessel and side branch with the crush or the culotte technique and followed for 36 months. Major adverse cardiac events-the composite of cardiac death, myocardial infarction, stent thrombosis, or target vessel revascularization-were the primary endpoint. RESULTS: Follow-up was complete for all patients. At 36 months, the rates of the primary endpoint were 20.6% versus 16.7% (p = 0.32), index lesion restenosis 11.5% versus 6.5% (p = 0.09), and definite stent thrombosis 1.4% versus 4.7% (p = 0.09) in the crush and the culotte groups, respectively. CONCLUSIONS: At 36-month follow-up, the clinical outcomes were similar for patients with coronary bifurcation lesions treated with the culotte or the crush stent technique. (Nordic Bifurcation Study. How to Use Drug Eluting Stents [DES] in Bifurcation Lesions? NCT00376571).},
+   keywords = {Aged
+Cardiovascular Agents/*administration & dosage
+Coronary Angiography
+Coronary Artery Disease/diagnosis/mortality/*therapy
+Coronary Restenosis/etiology
+Coronary Thrombosis/etiology
+*Drug-Eluting Stents
+Female
+Finland
+Humans
+Latvia
+Male
+Middle Aged
+Percutaneous Coronary Intervention/adverse
+effects/*instrumentation/*methods/mortality
+Prosthesis Design
+Risk Factors
+Scandinavia
+Sirolimus/*administration & dosage
+Time Factors
+Treatment Outcome},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2013.06.009},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/24262616
+http://www.sciencedirect.com/science/article/pii/S1936879813013502
+https://www.sciencedirect.com/science/article/pii/S1936879813013502?via%3Dihub},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN153,
+   author = {Koo, B. K. and Kang, H. J. and Youn, T. J. and Chae, I. H. and Choi, D. J. and Kim, H. S. and Sohn, D. W. and Oh, B. H. and Lee, M. M. and Park, Y. B. and Choi, Y. S. and Tahk, S. J.},
+   title = {Physiologic assessment of jailed side branch lesions using fractional flow reserve},
+   journal = {J Am Coll Cardiol},
+   volume = {46},
+   number = {4},
+   pages = {633-7},
+   note = {Koo, Bon-Kwon
+Kang, Hyun-Jai
+Youn, Tae-Jin
+Chae, In-Ho
+Choi, Dong-Joo
+Kim, Hyo-Soo
+Sohn, Dae-Won
+Oh, Byung-Hee
+Lee, Myoung-Mook
+Park, Young-Bae
+Choi, Yun-Shik
+Tahk, Seung-Jae
+eng
+J Am Coll Cardiol. 2005 Aug 16;46(4):633-7.},
+   abstract = {OBJECTIVES: This study was performed to evaluate the feasibility of the physiologic assessment of jailed side branches using fractional flow reserve (FFR) and to compare the measured FFR with the stenosis severity assessed by quantitative coronary angiography (QCA). BACKGROUND: It is not well-known which side branches should be treated after stent implantation at main branches and how to assess the functional significance of these lesions. METHODS: Ninety-seven jailed side branch lesions (vessel size > 2.0 mm, percent stenosis > 50% by visual estimation) after stent implantation at main branches were consecutively enrolled. The FFR was measured using a pressure wire at 5 mm distal and proximal to the ostial lesion of the jailed side branch. RESULTS: The FFR measurement was successful in 94 lesions. Mean FFRs were 0.94 +/- 0.04 and 0.85 +/- 0.11 at the main branches and jailed side branches, respectively. There was a negative correlation between the percent stenosis and FFR (r = -0.41, p < 0.001). However, no lesion with < 75% stenosis had FFR < 0.75. Among 73 lesions with > or = 75% stenosis, only 20 lesions were functionally significant. CONCLUSIONS: The FFR measurement in jailed side branch lesions is both safe and feasible. Quantitative coronary angiography is unreliable in the assessment of the functional severity of jailed side branch lesions, and measurement of FFR suggests that most of these lesions do not have functional significance.},
+   keywords = {Blood Flow Velocity/*physiology
+Coronary Angiography/*instrumentation
+Coronary Circulation/*physiology
+Coronary Stenosis/*physiopathology/radiography
+Feasibility Studies
+Female
+Humans
+Male
+Middle Aged
+Risk Assessment
+Stents},
+   ISSN = {0735-1097 (Print)
+0735-1097 (Linking)},
+   DOI = {10.1016/j.jacc.2005.04.054},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/16098427
+http://ac.els-cdn.com/S0735109705011757/1-s2.0-S0735109705011757-main.pdf?_tid=8768af0c-7eb9-11e3-94d0-00000aab0f01&acdnat=1389882285_525367fccbd125e26fb869cca0c15afd
+https://www.sciencedirect.com/science/article/pii/S0735109705011757?via%3Dihub},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN2972,
+   author = {Lassen, J. F. and Burzotta, F. and Banning, A. P. and Lefevre, T. and Darremont, O. and Hildick-Smith, D. and Chieffo, A. and Pan, M. and Holm, N. R. and Louvard, Y. and Stankovic, G.},
+   title = {Percutaneous coronary intervention for the left main stem and other bifurcation lesions: 12th consensus document from the European Bifurcation Club},
+   journal = {EuroIntervention},
+   volume = {13},
+   number = {13},
+   pages = {1540-1553},
+   note = {Lassen, Jens Flensted
+Burzotta, Francesco
+Banning, Adrian P
+Lefevre, Thierry
+Darremont, Olivier
+Hildick-Smith, David
+Chieffo, Alaide
+Pan, Manuel
+Holm, Niels Ramsing
+Louvard, Yves
+Stankovic, Goran
+eng
+France
+2017/10/25 06:00
+EuroIntervention. 2018 Jan 20;13(13):1540-1553. doi: 10.4244/EIJ-D-17-00622.},
+   abstract = {The European Bifurcation Club (EBC) was initiated in 2004 to support a continuous overview of the field of coronary artery bifurcation interventions and aims to facilitate a scientific discussion and an exchange of ideas on the management of bifurcation disease. The EBC hosts an annual, two-day compact meeting, dedicated to bifurcations, which brings together physicians, pathologists, engineers, biologists, physicists, mathematicians, epidemiologists and statisticians for detailed discussions. Every meeting is finalised with a consensus statement that reflects the unique opportunity of combining the opinion of interventional cardiologists with the opinion of a large variety of other scientists on bifurcation management. A series of consensus sessions dedicated to specific topics, to strengthen the consensus debates and focus the discussions, was introduced at this year's meeting. The sessions comprise an intensive overview of the present literature, a pro and con debate and a voting system, to guide the consensus-building process. The present document represents the summary of the up-to-date EBC consensus and recommendations from the 12th annual EBC meeting in 2016 in Rotterdam.},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJ-D-17-00622},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29061550
+https://repositoriosalud.es/rest/api/core/bitstreams/3927175b-ebc7-4637-bc4a-5c694e184896/content},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN1018,
+   author = {Maeng, M. and Holm, N. R. and Erglis, A. and Kumsars, I. and Niemela, M. and Kervinen, K. and Jensen, J. S. and Galloe, A. and Steigen, T. K. and Wiseth, R. and Narbute, I. and Gunnes, P. and Mannsverk, J. and Meyerdierks, O. and Rotevatn, S. and Nikus, K. and Vikman, S. and Ravkilde, J. and James, S. and Aaroe, J. and Ylitalo, A. and Helqvist, S. and Sjogren, I. and Thayssen, P. and Virtanen, K. and Puhakka, M. and Airaksinen, J. and Christiansen, E. H. and Lassen, J. F. and Thuesen, L. and Nordic-Baltic Percutaneous Coronary Intervention Study, Group},
+   title = {Long-term results after simple versus complex stenting of coronary artery bifurcation lesions: Nordic Bifurcation Study 5-year follow-up results},
+   journal = {J Am Coll Cardiol},
+   volume = {62},
+   number = {1},
+   pages = {30-4},
+   note = {Maeng, Michael
+Holm, Niels R
+Erglis, Andrejs
+Kumsars, Indulis
+Niemela, Matti
+Kervinen, Kari
+Jensen, Jan S
+Galloe, Anders
+Steigen, Terje K
+Wiseth, Rune
+Narbute, Inga
+Gunnes, Pal
+Mannsverk, Jan
+Meyerdierks, Oliver
+Rotevatn, Svein
+Nikus, Kjell
+Vikman, Saila
+Ravkilde, Jan
+James, Stefan
+Aaroe, Jens
+Ylitalo, Antti
+Helqvist, Steffen
+Sjogren, Iwar
+Thayssen, Per
+Virtanen, Kari
+Puhakka, Mikko
+Airaksinen, Juhani
+Christiansen, Evald H
+Lassen, Jens F
+Thuesen, Leif
+eng
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2013/05/07 06:00
+J Am Coll Cardiol. 2013 Jul 2;62(1):30-4. doi: 10.1016/j.jacc.2013.04.015. Epub 2013 May 1.},
+   abstract = {OBJECTIVES: This study sought to report the 5-year follow-up results of the Nordic Bifurcation Study. BACKGROUND: Randomized clinical trials with short-term follow-up have indicated that coronary bifurcation lesions may be optimally treated using the optional side branch stenting strategy. METHODS: A total of 413 patients with a coronary bifurcation lesion were randomly assigned to a simple stenting strategy of main vessel (MV) and optional stenting of side branch (SB) or to a complex stenting strategy, namely, stenting of both MV and SB. RESULTS: Five-year clinical follow-up data were available for 404 (98%) patients. The combined safety and efficacy endpoint of cardiac death, non-procedure-related myocardial infarction, and target vessel revascularization were seen in 15.8% in the optional SB stenting group as compared to 21.8% in the MV and SB stenting group (p = 0.15). All-cause death was seen in 5.9% versus 10.4% (p = 0.16) and non-procedure-related myocardial infarction in 4% versus 7.9% (p = 0.09) in the optional SB stenting group versus the MV and SB stenting group, respectively. The rates of target vessel revascularization were 13.4% versus 18.3% (p = 0.14) and the rates of definite stent thrombosis were 3% versus 1.5% (p = 0.31) in the optional SB stenting group versus the MV and SB stenting group, respectively. CONCLUSIONS: At 5-year follow-up in the Nordic Bifurcation Study, the clinical outcomes after simple optional side branch stenting remained at least equal to the more complex strategy of planned stenting of both the main vessel and the side branch.},
+   keywords = {Aged
+Coronary Artery Disease/diagnosis/*epidemiology/*surgery
+Coronary Restenosis/diagnosis/epidemiology/prevention & control
+Denmark/epidemiology
+*Drug-Eluting Stents
+Female
+Finland/epidemiology
+Follow-Up Studies
+Humans
+Latvia/epidemiology
+Male
+Middle Aged
+Norway/epidemiology
+Percutaneous Coronary Intervention/instrumentation/methods/*trends
+Sweden/epidemiology
+Time Factors
+Treatment Outcome},
+   ISSN = {1558-3597 (Electronic)
+0735-1097 (Linking)},
+   DOI = {10.1016/j.jacc.2013.04.015},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23644088
+http://ac.els-cdn.com/S0735109713017397/1-s2.0-S0735109713017397-main.pdf?_tid=38c06dc2-3b60-11e4-8174-00000aacb362&acdnat=1410624698_56cbff2490b1c56d32953900e2467634
+https://www.sciencedirect.com/science/article/pii/S0735109713017397?via%3Dihub},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN2973,
+   author = {Milasinovic, D. and Wijns, W. and Ntsekhe, M. and Hellig, F. and Mohamed, A. and Stankovic, G.},
+   title = {Step-by-step manual for planning and performing bifurcation PCI: a resource-tailored approach},
+   journal = {EuroIntervention},
+   volume = {13},
+   number = {15},
+   pages = {e1804-e1811},
+   note = {Milasinovic, Dejan
+Wijns, William
+Ntsekhe, Mpiko
+Hellig, Farrel
+Mohamed, Awad
+Stankovic, Goran
+eng
+France
+2017/11/28 06:00
+EuroIntervention. 2018 Feb 2;13(15):e1804-e1811. doi: 10.4244/EIJ-D-17-00580.},
+   abstract = {As bifurcation PCI can often be resource-demanding due to the use of multiple guidewires, balloons and stents, different technical options are sometimes being explored, in different local settings, to meet the need of optimally treating a patient with a bifurcation lesion, while being confronted with limited material resources. Therefore, it seems important to keep a proper balance between what is recognised as the contemporary state of the art, and what is known to be potentially harmful and to be discouraged. Ultimately, the resource-tailored approach to bifurcation PCI may be characterised by the notion of minimum technical requirements for each step of a successful procedure. Hence, this paper describes the logical sequence of steps when performing bifurcation PCI with provisional SB stenting, starting with basic anatomy assessment and ending with the optimisation of MB stenting and the evaluation of the potential need to stent the SB, suggesting, for each step, the minimum technical requirement for a successful intervention.},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJ-D-17-00580},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29175768},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN3296,
+   author = {Murasato, Y. and Hikichi, Y. and Horiuchi, M.},
+   title = {Examination of stent deformation and gap formation after complex stenting of left main coronary artery bifurcations using microfocus computed tomography},
+   journal = {J Interv Cardiol},
+   volume = {22},
+   number = {2},
+   pages = {135-44},
+   note = {Murasato, Yoshinobu
+Hikichi, Yutaka
+Horiuchi, Masataka
+eng
+Evaluation Studies
+2009/04/22 09:00
+J Interv Cardiol. 2009 Apr;22(2):135-44. doi: 10.1111/j.1540-8183.2009.00436.x.},
+   abstract = {BACKGROUND: Fluoroscopy and intravascular ultrasound (IVUS) lack sufficient resolution for assessing the results of complex stenting in true bifurcation lesions. OBJECTIVES: After diverse bifurcation stenting at the left main coronary artery (LM) bifurcation model, the results were examined using microfocus computed tomography (MFCT). METHODS: The strut distribution of three kinds of stents deployed on a straight vessel segment was investigated. Classical crush, double kissing (DK)-double crush, and culotte stenting were performed on a three-dimensional (3D) LM model. The results were assessed using cross-sectional, longitudinal, and 3D reconstruction views of MFCT. RESULTS: Nonuniform strut distribution was observed in a corrugated stent design deployed on a straight vessel segment. Following classical crush stenting, a relatively large gap at the nonmyocardial site was observed in the corrugated stents. When the guidewire recrossed outside the ostium of the crushed side branch stent, kissing balloon inflation caused further crushing of the stent at the more distal segment. The dilated strut rose up from the main vessel bed after the first kissing balloon inflation in DK crush stenting; the advantage of DK would be cancelled after main vessel stenting due to recrushing the raised strut. The culotte stenting with closed-cell stents showed the restriction of the expansion at the branch ostium when it was dilated with a 3.5-mm balloon. The culotte stenting with open-cell-based stents showed a good stent apposition except for a tiny gap and small metallic carina at the distal bifurcation. CONCLUSION: MFCT analysis in the 3D phantom model is useful to assess the structural deformation of the stents and gap on vessel wall coverage after complex stenting at the LM bifurcation.},
+   keywords = {Angioplasty, Balloon, Coronary/*methods
+Blood Vessel Prosthesis Implantation/*methods
+Coronary Stenosis/diagnostic imaging/*therapy
+Coronary Vessels
+Humans
+Imaging, Three-Dimensional
+Radiographic Image Interpretation, Computer-Assisted/*methods
+*Stents
+Tomography, X-Ray Computed},
+   ISSN = {1540-8183 (Electronic)
+0896-4327 (Linking)},
+   DOI = {10.1111/j.1540-8183.2009.00436.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19379472
+https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-8183.2009.00436.x
+https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-8183.2009.00436.x},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN2976,
+   author = {Niemela, M. and Kervinen, K. and Erglis, A. and Holm, N. R. and Maeng, M. and Christiansen, E. H. and Kumsars, I. and Jegere, S. and Dombrovskis, A. and Gunnes, P. and Stavnes, S. and Steigen, T. K. and Trovik, T. and Eskola, M. and Vikman, S. and Romppanen, H. and Makikallio, T. and Hansen, K. N. and Thayssen, P. and Aberge, L. and Jensen, L. O. and Hervold, A. and Airaksinen, J. and Pietila, M. and Frobert, O. and Kellerth, T. and Ravkilde, J. and Aaroe, J. and Jensen, J. S. and Helqvist, S. and Sjogren, I. and James, S. and Miettinen, H. and Lassen, J. F. and Thuesen, L. and Nordic-Baltic, P. C. I. Study Group},
+   title = {Randomized comparison of final kissing balloon dilatation versus no final kissing balloon dilatation in patients with coronary bifurcation lesions treated with main vessel stenting: the Nordic-Baltic Bifurcation Study III},
+   journal = {Circulation},
+   volume = {123},
+   number = {1},
+   pages = {79-86},
+   note = {Niemela, Matti
+Kervinen, Kari
+Erglis, Andrejs
+Holm, Niels R
+Maeng, Michael
+Christiansen, Evald H
+Kumsars, Indulis
+Jegere, Sanda
+Dombrovskis, Andis
+Gunnes, Pal
+Stavnes, Sindre
+Steigen, Terje K
+Trovik, Thor
+Eskola, Markku
+Vikman, Saila
+Romppanen, Hannu
+Makikallio, Timo
+Hansen, Knud N
+Thayssen, Per
+Aberge, Lars
+Jensen, Lisette O
+Hervold, Anders
+Airaksinen, Juhani
+Pietila, Mikko
+Frobert, Ole
+Kellerth, Thomas
+Ravkilde, Jan
+Aaroe, Jens
+Jensen, Jan S
+Helqvist, Steffen
+Sjogren, Iwar
+James, Stefan
+Miettinen, Heikki
+Lassen, Jens F
+Thuesen, Leif
+eng
+Clinical Trial, Phase III
+Comparative Study
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2010/12/22 06:00
+Circulation. 2011 Jan 4;123(1):79-86. doi: 10.1161/CIRCULATIONAHA.110.966879. Epub 2010 Dec 20.},
+   abstract = {BACKGROUND: It is unknown whether the preferred 1-stent bifurcation stenting approach with stenting of the main vessel (MV) and optional side branch stenting using drug-eluting stents should be finalized by a kissing balloon dilatation (FKBD). Therefore, we compared strategies of MV stenting with and without FKBD. METHODS AND RESULTS: We randomized 477 patients with a bifurcation lesion to FKBD (n=238) or no FKBD (n=239) after MV stenting. The primary end point was major adverse cardiac events: cardiac death, non-procedure-related index lesion myocardial infarction, target lesion revascularization, or stent thrombosis within 6 months. The 6-month major adverse cardiac event rates were 2.1% and 2.5% (P=1.00) in the FKBD and no-FKBD groups, respectively. Procedure and fluoroscopy times were longer and more contrast media was needed in the FKBD group than in the no-FKBD group. Three hundred twenty-six patients had a quantitative coronary assessment. At 8 months, the rate of binary (re)stenosis in the entire bifurcation lesion (MV and side branch) was 11.0% versus 17.3% (P=0.11), in the MV was 3.1% versus 2.5% (P=0.68), and in the side branch was 7.9% versus 15.4% (P=0.039) in the FKBD versus no-FKBD groups, respectively. In patients with true bifurcation lesions, the side branch restenosis rate was 7.6% versus 20.0% (P=0.024) in the FKBD and no-FKBD groups, respectively. CONCLUSIONS: MV stenting strategies with and without FKBD were associated with similar clinical outcomes. FKBD reduced angiographic side branch (re)stenosis, especially in patients with true bifurcation lesions. The simple no-FKBD procedures resulted in reduced use of contrast media and shorter procedure and fluoroscopy times. Long-term data on stent thrombosis are needed. Clinical Trial Registration- URL: http://clinicaltrials.gov. Unique identifier: NCT00914199.},
+   keywords = {Aged
+*Angioplasty, Balloon, Coronary/methods
+Coronary Artery Disease/epidemiology/*pathology/*therapy
+Denmark/epidemiology
+*Drug-Eluting Stents
+Female
+Finland/epidemiology
+Follow-Up Studies
+Humans
+Latvia/epidemiology
+Male
+Middle Aged
+Norway/epidemiology
+Sweden/epidemiology},
+   ISSN = {1524-4539 (Electronic)
+0009-7322 (Linking)},
+   DOI = {10.1161/CIRCULATIONAHA.110.966879},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21173348
+http://circ.ahajournals.org/content/circulationaha/123/1/79.full.pdf},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN4443,
+   author = {Okamura, T. and Nagoshi, R. and Fujimura, T. and Murasato, Y. and Yamawaki, M. and Ono, S. and Serikawa, T. and Hikichi, Y. and Norita, H. and Nakao, F. and Sakamoto, T. and Shinke, T. and Shite, J.},
+   title = {Impact of guidewire recrossing point into stent jailed side branch for optimal kissing balloon dilatation: core lab 3D optical coherence tomography analysis},
+   journal = {EuroIntervention},
+   volume = {13},
+   number = {15},
+   pages = {e1785-e1793},
+   note = {Okamura, Takayuki
+Nagoshi, Ryoji
+Fujimura, Tatsuhiro
+Murasato, Yoshinobu
+Yamawaki, Masahiro
+Ono, Shiro
+Serikawa, Takeshi
+Hikichi, Yutaka
+Norita, Hiroaki
+Nakao, Fumiaki
+Sakamoto, Tomohiro
+Shinke, Toshiro
+Shite, Junya
+eng
+Multicenter Study
+Observational Study
+France
+EuroIntervention. 2018 Feb 2;13(15):e1785-e1793. doi: 10.4244/EIJ-D-17-00591.},
+   abstract = {AIMS: We aimed to investigate the influence of the guidewire recrossing point on the incidence of incomplete stent apposition (ISA) after kissing balloon dilatation (KBD), and also clinical and angiographic outcome at nine months in a prospective multicentre registry. METHODS AND RESULTS: One hundred and five patients underwent single crossover stenting across the side branch (SB) and subsequent KBD. The jailing configuration of the SB orifice and the guidewire recrossing position were assessed by off-line 3D-OCT in the core lab. We defined the cases that achieved both link-free carina configuration and distal recrossing as the LFD group (54 cases), and the other cases as the non-LFD group (51 cases). ISA in the LFD group was significantly smaller than that in the non-LFD group (6.7+/-5.9% vs. 17.0+/-10.5%, p<0.0001). The distal recrossing rate was 83%. Proximal recrossing increased ISA compared with distal recrossing, particularly in parallel bifurcations (17.1+/-10.1% vs. 6.3+/-6.0%, p<0.0001). At follow-up, though event rates did not differ, SB restenosis in the non-LFD group tended to be higher than in the LFD group (20.5% vs. 8.3%, p=0.1254). CONCLUSIONS: The guidewire recrossing point and the location of a stent link at the SB orifice had an influence on the ISA. KBD with optimal conditions under 3D-OCT guidance may reduce SB restenosis.},
+   keywords = {Adult
+Aged
+Aged, 80 and over
+Angioplasty, Balloon, Coronary/adverse effects/*instrumentation
+*Cardiac Catheters
+Coronary Angiography
+Coronary Artery Disease/diagnostic imaging/*surgery
+Coronary Restenosis/diagnostic imaging/etiology
+Female
+Humans
+Image Interpretation, Computer-Assisted/*methods
+Imaging, Three-Dimensional/*methods
+Japan
+Male
+Middle Aged
+Predictive Value of Tests
+Prospective Studies
+*Stents
+Time Factors
+Tomography, Optical Coherence/*methods
+Treatment Outcome},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJ-D-17-00591},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29131806},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN1008,
+   author = {Palmerini, T. and Sangiorgi, D. and Marzocchi, A. and Tamburino, C. and Sheiban, I. and Margheri, M. and Vecchi, G. and Sangiorgi, G. and Ruffini, M. and Bartorelli, A. L. and Briguori, C. and Vignali, L. and Di Pede, F. and Ramondo, A. and Inglese, L. and De Carlo, M. and Bolognese, L. and Benassi, A. and Palmieri, C. and Filippone, V. and Barlocco, F. and Lauria, G. and De Servi, S.},
+   title = {Ostial and midshaft lesions vs. bifurcation lesions in 1111 patients with unprotected left main coronary artery stenosis treated with drug-eluting stents: results of the survey from the Italian Society of Invasive Cardiology},
+   journal = {Eur Heart J},
+   volume = {30},
+   number = {17},
+   pages = {2087-94},
+   note = {Palmerini, Tullio
+Sangiorgi, Diego
+Marzocchi, Antonio
+Tamburino, Corrado
+Sheiban, Imad
+Margheri, Massimo
+Vecchi, Giuseppe
+Sangiorgi, Giuseppe
+Ruffini, Michele
+Bartorelli, Antonio L
+Briguori, Carlo
+Vignali, Luigi
+Di Pede, Francesco
+Ramondo, Angelo
+Inglese, Luigi
+De Carlo, Marco
+Bolognese, Leonardo
+Benassi, Alberto
+Palmieri, Cataldo
+Filippone, Vincenzo
+Barlocco, Fabio
+Lauria, Giulia
+De Servi, Stefano
+eng
+Comparative Study
+Multicenter Study
+England
+2009/06/11 09:00
+Eur Heart J. 2009 Sep;30(17):2087-94. doi: 10.1093/eurheartj/ehp223. Epub 2009 Jun 9.},
+   abstract = {AIMS: In this study, we compared the cumulative risk of major adverse cardiac events (MACE) of patients with distal unprotected left main coronary artery (ULMCA) stenosis with those of patients with ostial and midshaft lesions treated with drug-eluting stent (DES). METHODS AND RESULTS: The survey promoted by the Italian Society of Invasive Cardiology on ULMCA stenosis was an observational study involving 19 high-volume Italian centres. We enrolled 1111 patients with ULMCA stenosis treated with DES. Major adverse cardiac events were defined as death, myocardial infarction, and target lesion revascularization. Three hundred and thirty-four patients had ostial or midshaft lesions (group 1) and 777 bifurcations (group 2). The adjusted hazards ratio of the risk of 2 year MACE of patients in group 2 vs. patients in group 1 was 1.50 (P = 0.024). However, we observed that there was a significant difference between patients with bifurcations treated with two stents and those in group 1 (P = 0.001), but not between patients with bifurcations treated with one stent and those in group 1 (P = 0.38). CONCLUSION: Patients with bifurcations have a worse outcome than patients with ostial and midshaft lesions. However, the technique used to treat bifurcations has a significant impact on clinical outcomes.},
+   keywords = {Adult
+Aged
+Aged, 80 and over
+Coronary Stenosis/mortality/pathology/*therapy
+Death, Sudden, Cardiac/etiology
+*Drug-Eluting Stents
+Epidemiologic Methods
+Female
+Humans
+Italy
+Male
+Middle Aged
+Myocardial Infarction/etiology
+Myocardial Revascularization/mortality
+Treatment Outcome},
+   ISSN = {1522-9645 (Electronic)
+0195-668X (Linking)},
+   DOI = {10.1093/eurheartj/ehp223},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/19508996
+http://eurheartj.oxfordjournals.org/content/30/17/2087.full.pdf
+https://watermark.silverchair.com/ehp223.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAbEwggGtBgkqhkiG9w0BBwagggGeMIIBmgIBADCCAZMGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMRgD2mwxZsVIrTv5FAgEQgIIBZEejhFCNtORTS9ShrYqVJCoto8w7SVGCPUWk2fag3WFztuOKbk1bshHRHEXFWE35CbpA_y52HUPxUC60PGOqvHneV7gzORyPsbFZ0WPGGdsg8Bohj7Bz3ZHso0TnAS8ruUneAxzoyYp0D1pke_DQw5obU6_OUDDf95MI5s00wNqWeLEv6_UX9bEn5Ml7Yv4cnXEYBy5wYAhnqjJJS0LAF9TENxQlulpDkEFVGfv-y9tOyt-OVBhD21dmuQlnPNikBbK3v-HNJW3ux3FroLR4aM7GtXX9N2t8aOfy0rB6F1a9zSpyy8hE87M6Ok50IBap-b7YZKC4tf-H7SWxF4vPyyZuYbytSO1Gi6-yeuwxiB62_jZypH62gpwqeOEp7zwoeJMcLMWXt5p0rI_6dEIGin5GlLWomHQGOz4awp3p526WKM0HYD9T8LMsDZco7hgvF8MpYgPkK6-o6dzoFy_R-j0B1jSM},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN2971,
+   author = {Pan, M. and Medina, A. and Romero, M. and Ojeda, S. and Martin, P. and Suarez de Lezo, J. and Segura, J. and Mazuelos, F. and Novoa, J. and Suarez de Lezo, J.},
+   title = {Assessment of side branch predilation before a provisional T-stent strategy for bifurcation lesions. A randomized trial},
+   journal = {Am Heart J},
+   volume = {168},
+   number = {3},
+   pages = {374-80},
+   note = {Pan, Manuel
+Medina, Alfonso
+Romero, Miguel
+Ojeda, Soledad
+Martin, Pedro
+Suarez de Lezo, Javier
+Segura, Jose
+Mazuelos, Francisco
+Novoa, Jose
+Suarez de Lezo, Jose
+eng
+Multicenter Study
+Randomized Controlled Trial
+2014/09/01 06:00
+Am Heart J. 2014 Sep;168(3):374-80. doi: 10.1016/j.ahj.2014.05.014. Epub 2014 Jun 6.},
+   abstract = {BACKGROUND: A simple approach is the predominant strategy for the percutaneous coronary intervention of bifurcation lesions. Performing side branch (SB) predilation in this context is currently a matter of controversy. In this study, we assess the efficacy of SB predilatation before a provisional T-stent strategy for bifurcation lesions. METHODS: Between February 2009 and November 2012, 372 patients with true bifurcation lesions were randomized to either predilation of the SB (n = 187) or no predilatation (n = 185) before main branch (MB) stent implantation and a subsequent SB provisional stent strategy. RESULTS: There were no significant differences between the patient groups regarding the baseline characteristics. After MB stent implantation, the TIMI flow of the SB was higher in the patients with SB predilation: TIMI flow 0 to 1; 2 (1%) versus 18 (10%), P < .001; and TIMI flow III; 179 (96%) versus 152 (82%), P < .001. Side branch stenting rates were 4% versus 3%, P = not significant. In addition, 60 patients (32%) from the SB predilation group presented SB residual stenosis by visual inspection <50%, and TIMI flow >/=III did not require any additional treatment. The failure rate of SB rewiring, the time of rewiring, the number of wires used, and the incidence of major events were similar in both groups of patients. CONCLUSIONS: Predilation of the SB resulted in improved TIMI flow after MB stenting and less indication to subsequently treat the SB. If rewiring of the SB is required, predilation did not hinder this maneuver.},
+   keywords = {Aged
+Coronary Disease/*therapy
+*Dilatation
+Female
+Humans
+Male
+Middle Aged
+Prospective Studies
+Regional Blood Flow
+Single-Blind Method
+*Stents},
+   ISSN = {1097-6744 (Electronic)
+0002-8703 (Linking)},
+   DOI = {10.1016/j.ahj.2014.05.014},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25173550
+https://www.ahjonline.com/article/S0002-8703(14)00341-X/fulltext
+https://www.sciencedirect.com/science/article/pii/S000287031400341X?via%3Dihub},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN2970,
+   author = {Pan, M. and Ojeda, S. and Villanueva, E. and Chavarria, J. and Romero, M. and Suarez de Lezo, J. and Mazuelos, F. and Segura, J. and Carrasco, F. and Hidalgo, F. and Lopez Aguilera, J. and Rodriguez, S. and Puente, M. and Suarez de Lezo, J.},
+   title = {Structural Damage of Jailed Guidewire During the Treatment of Coronary Bifurcation Lesions: A Microscopic Randomized Trial},
+   journal = {JACC Cardiovasc Interv},
+   volume = {9},
+   number = {18},
+   pages = {1917-24},
+   note = {Pan, Manuel
+Ojeda, Soledad
+Villanueva, Elena
+Chavarria, Jorge
+Romero, Miguel
+Suarez de Lezo, Javier
+Mazuelos, Francisco
+Segura, Jose
+Carrasco, Francisco
+Hidalgo, Francisco
+Lopez Aguilera, Jose
+Rodriguez, Sara
+Puente, Miguel
+Suarez de Lezo, Jose
+eng
+Comparative Study
+Randomized Controlled Trial
+2016/09/24 06:00
+JACC Cardiovasc Interv. 2016 Sep 26;9(18):1917-24. doi: 10.1016/j.jcin.2016.06.030.},
+   abstract = {OBJECTIVES: The study sought to compare the safety (resistance to damage) and efficacy (ability to cross the side branch) of polymer-coated and non-polymer-coated guidewires in the jailed wire technique used during the percutaneous treatment of bifurcation lesions. BACKGROUND: The jailed wire technique is a useful strategy in the treatment of bifurcation lesions by provisional stenting. However, these wires can be damaged or even be broken during their removal. METHODS: We performed a randomized study in patients with bifurcation lesions treated by provisional stenting. The jailed wire technique was mandatory, and the types of guidewires, polymer-coated (n = 115) and non-polymer-coated (n = 120), were randomized. After the procedures, the wires were evaluated by stereoscopic microscopy. The induced damage in the wires was classified as follows: no damage, mild, moderate, or severe. RESULTS: The clinical characteristics were similar between patients treated with polymer-coated or non-polymer-coated wires. Polymer-coated wires were significantly (p < 0.001) more resistant to retrieval damage (only 2 wires showed mild damage) than were non-polymer-coated wires. However, 63 (55%) of the non-polymer-coated wires were damaged; 37 (32%), 24 (21%), and 2 (2%) had mild, moderate, and severe damage, respectively. Additionally, the jailed length of the wire was a factor contributing to the degree of wire damage. The time of side branch wiring was shorter in the polymer-coated wire group (19 +/- 40 s vs. 42 +/- 72 s; p < 0.05). CONCLUSIONS: Jailed wires during interventional procedures of bifurcation lesions commonly showed microscopic damage. Polymer-coated wires were more resistant to retrieval damage and were more efficient in crossing the side branch ostium than non-polymer-coated wires. (Jailed Wire Technique in the Treatment of Coronary Bifurcations Lesions With Stent: Stereoscopic Microscopy Study; NCT02516891).},
+   keywords = {Aged
+*Cardiac Catheters
+*Coated Materials, Biocompatible
+Coronary Angiography
+Coronary Artery Disease/diagnostic imaging/*therapy
+Equipment Design
+*Equipment Failure
+Female
+Humans
+Male
+Microscopy/*methods
+Middle Aged
+Percutaneous Coronary Intervention/adverse effects/*instrumentation
+Polymers/*chemistry
+Prospective Studies
+Single-Blind Method
+Spain
+Stents
+Treatment Outcome
+bifurcation lesions
+jailed wire technique
+provisional stenting},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2016.06.030},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27659568
+https://www.sciencedirect.com/science/article/pii/S1936879816309529?via%3Dihub
+https://repositoriosalud.es/rest/api/core/bitstreams/042f588e-b02c-43e9-8b34-67bf2b14244e/content},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3073,
+   author = {Rab, T. and Sheiban, I. and Louvard, Y. and Sawaya, F. J. and Zhang, J. J. and Chen, S. L.},
+   title = {Current Interventions for the Left Main Bifurcation},
+   journal = {JACC Cardiovasc Interv},
+   volume = {10},
+   number = {9},
+   pages = {849-865},
+   note = {Rab, Tanveer
+Sheiban, Imad
+Louvard, Yves
+Sawaya, Fadi J
+Zhang, Jun Jie
+Chen, Shao Liang
+eng
+Review
+2017/05/06 06:00
+JACC Cardiovasc Interv. 2017 May 8;10(9):849-865. doi: 10.1016/j.jcin.2017.02.037.},
+   abstract = {Contemporary clinical trials, registries, and meta-analyses, supported by recent results from the EXCEL (Everolimus-Eluting Stents or Bypass Surgery for Left Main Coronary Artery Disease) and NOBLE (Percutaneous Coronary Angioplasty Versus Coronary Artery Bypass Grafting in Treatment of Unprotected Left Main Stenosis) trials, have established percutaneous coronary intervention of left main coronary stenosis as a safe alternative to coronary artery bypass grafting in patients with low and intermediate SYNTAX (Synergy Between Percutaneous Coronary Intervention With Taxus and Cardiac Surgery) scores. As left main percutaneous coronary intervention gains acceptance, it is imperative to increase awareness for patient selection, risk scoring, intracoronary imaging, vessel preparation, and choice of stenting techniques that will optimize procedural and patient outcomes.},
+   keywords = {Coronary Angiography
+*Coronary Artery Bypass/adverse effects/mortality
+Coronary Artery Disease/diagnostic imaging/mortality/*therapy
+Drug-Eluting Stents
+Humans
+Patient Selection
+*Percutaneous Coronary Intervention/adverse effects/instrumentation/mortality
+Risk Factors
+Treatment Outcome
+bifurcation
+left main
+stenting techniques},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2017.02.037},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28473107
+https://ac.els-cdn.com/S1936879817304466/1-s2.0-S1936879817304466-main.pdf?_tid=1645a1f5-03a7-4940-af84-9f5c0084e00b&acdnat=1532153153_e860ae689828ddd9c5aa31c398c96583
+https://www.sciencedirect.com/science/article/pii/S1936879817304466?via%3Dihub},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN1102,
+   author = {Sgueglia, G. A. and Chevalier, B.},
+   title = {Kissing balloon inflation in percutaneous coronary interventions},
+   journal = {JACC Cardiovasc Interv},
+   volume = {5},
+   number = {8},
+   pages = {803-11},
+   note = {Sgueglia, Gregory A
+Chevalier, Bernard
+eng
+2012/08/25 06:00
+JACC Cardiovasc Interv. 2012 Aug;5(8):803-11. doi: 10.1016/j.jcin.2012.06.005.},
+   abstract = {Bifurcation lesions are the most frequently approached complex coronary lesions in everyday interventional practice. Bifurcations complexity relies essentially on their very specific anatomy that is imperfectly handled by current coronary devices and, despite dedicated techniques and drug-eluting stents, percutaneous coronary interventions directed toward the treatment of bifurcations are technically demanding and require proper execution. Kissing balloon (KB) inflation was the first specific bifurcation technique to have been developed for percutaneous bifurcation interventions and continues to currently play an important role. Indeed, KB has been proposed to optimize stent apposition, improve side branch access while correcting stent deformation or distortion. Over the years, the KB technique has been deeply investigated by many different methods, from bench testing and computer simulations to in vivo intravascular imaging and clinical studies, producing a large amount of data pointing out the benefits and limitations of the technique. We sought to provide here a comprehensive overview of all those aspects.},
+   keywords = {Angioplasty, Balloon, Coronary/instrumentation/*methods
+Coronary Artery Disease/*therapy
+Humans
+Percutaneous Coronary Intervention/methods
+Stents},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2012.06.005},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/22917451
+https://www.sciencedirect.com/science/article/pii/S1936879812005572?via%3Dihub},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN1013,
+   author = {Sheiban, I. and Infantino, V. A. and Colombo, F. and Bollati, M. and Omede, P. and Moretti, C. and Sciuto, F. and Siliquini, R. and Chiado, S. and Trevi, G. P. and Biondi-Zoccai, G.},
+   title = {Very long-term results comparing a simple versus a complex stenting strategy in the treatment of coronary bifurcation lesions},
+   journal = {Catheter Cardiovasc Interv},
+   volume = {74},
+   number = {2},
+   pages = {313-20},
+   note = {Sheiban, Imad
+Infantino, Vincenzo Andrea
+Colombo, Francesco
+Bollati, Mario
+Omede, Pierluigi
+Moretti, Claudio
+Sciuto, Filippo
+Siliquini, Roberta
+Chiado, Simone
+Trevi, Gian Paolo
+Biondi-Zoccai, Giuseppe
+eng
+Comparative Study
+2009/06/06 09:00
+Catheter Cardiovasc Interv. 2009 Aug 1;74(2):313-20. doi: 10.1002/ccd.22023.},
+   abstract = {BACKGROUND: The optimal stenting strategy for coronary bifurcation lesions has not yet been defined, especially given the lack of very long-term data (>24 months). We compared our long-term results of a simple vs complex stenting strategy in patients with bifurcation lesions. METHODS: We retrospectively selected subjects undergoing percutaneous coronary intervention (PCI) with stenting in a bifurcation lesion between June 2002 and December 2005, comparing those treated with a simple technique vs those treated with a complex one. The primary end-point was the rate of major adverse cardiac events (MACE) at >24 months of follow-up. RESULTS: A total of 326 patients were included, 64.7% treated with a simple technique (Group A) and 35.3% with a complex strategy (Group B). Drug-eluting stents were used in 82.0% and 73.0%, respectively (P = 0.059), final kissing balloon in 47.9% and 53.0% (P = 0.37), and procedural success obtained in 99.5% and 99.1% (P = 0.66). After a median of 34 months, MACE occurred in 52 (26.5%) in Group A and in 32 (31.4%) in Group B (P = 0.37), cardiac death in six (3.1%) vs four (3.9%, P = 0.70), myocardial infarction in 13 (6.6%) vs 6 (5.9%, P = 0.80), target vessel revascularization in 36 (18.4%) vs 29 (28.4%, P = 0.04), and bypass in five (2.6%) vs two (2%, P = 0.74). Definite stent thrombosis was adjudicated in two (1%) vs one (0.9%, P = 0.98). CONCLUSIONS: This study, comparing simple and complex stenting strategies for the treatment of coronary bifurcation lesions, shows that both techniques are associated with favorable clinical results and low adverse events rates at long-term follow-up.},
+   keywords = {Aged
+Angioplasty, Balloon, Coronary/adverse effects/*instrumentation/mortality
+Coronary Angiography
+Coronary Artery Disease/mortality/radiography/*therapy
+Drug-Eluting Stents
+Female
+Humans
+Kaplan-Meier Estimate
+Male
+Middle Aged
+Myocardial Infarction/etiology/mortality
+Proportional Hazards Models
+Prosthesis Design
+Retrospective Studies
+Risk Assessment
+Risk Factors
+*Stents
+Thrombosis/etiology/mortality
+Time Factors
+Treatment Outcome},
+   ISSN = {1522-726X (Electronic)
+1522-1946 (Linking)},
+   DOI = {10.1002/ccd.22023},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/19496110
+http://onlinelibrary.wiley.com/doi/10.1002/ccd.22023/abstract
+https://onlinelibrary.wiley.com/doi/abs/10.1002/ccd.22023},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN1016,
+   author = {Song, Y. B. and Hahn, J. Y. and Song, P. S. and Yang, J. H. and Choi, J. H. and Choi, S. H. and Lee, S. H. and Gwon, H. C.},
+   title = {Randomized comparison of conservative versus aggressive strategy for provisional side branch intervention in coronary bifurcation lesions: results from the SMART-STRATEGY (Smart Angioplasty Research Team-Optimal Strategy for Side Branch Intervention in Coronary Bifurcation Lesions) randomized trial},
+   journal = {JACC Cardiovasc Interv},
+   volume = {5},
+   number = {11},
+   pages = {1133-40},
+   note = {Song, Young Bin
+Hahn, Joo-Yong
+Song, Pil-Sang
+Yang, Jeong Hoon
+Choi, Jin-Ho
+Choi, Seung-Hyuk
+Lee, Sang Hoon
+Gwon, Hyeon-Cheol
+eng
+Comparative Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2012/11/24 06:00
+JACC Cardiovasc Interv. 2012 Nov;5(11):1133-40. doi: 10.1016/j.jcin.2012.07.010.},
+   abstract = {OBJECTIVES: The authors sought to compare conservative and aggressive strategies for provisional side branch (SB) intervention in coronary bifurcation lesions. BACKGROUND: The optimal provisional approach for coronary bifurcation lesions has not been established. METHODS: In this prospective randomized trial, 258 patients with a coronary bifurcation lesion treated with drug-eluting stents were randomized to a conservative (n = 128) or aggressive (n = 130) SB intervention strategy. The criteria for SB intervention after main vessel stenting differed between the conservative and aggressive groups; Thrombolysis In Myocardial Infarction flow grade <3 versus diameter stenosis >75% for non-left main bifurcations and diameter stenosis >75% versus diameter stenosis >50% for left main bifurcations. The primary endpoint was target vessel failure (cardiac death, myocardial infarction, or target vessel revascularization) at 12 months. RESULTS: Left main bifurcation lesions were noted in 114 patients (44%) and true bifurcation lesions in 171 patients (66%). SB ballooning after main vessel stenting and SB stenting after SB ballooning were performed less frequently in the conservative group than in the aggressive group (25.8% vs. 68.5%, p < 0.001; and 7.0% vs. 30.0%, p < 0.001, respectively). The conservative strategy was associated with a lower incidence of procedure-related myocardial necrosis compared with the aggressive strategy (5.5% vs. 17.7%, p = 0.002). At 12 months, the incidence of target vessel failure was similar in both groups (9.4% in the conservative group vs. 9.2% in the aggressive group, p = 0.97). CONCLUSIONS: Compared with the aggressive strategy, the conservative strategy for provisional SB intervention was associated with similar long-term clinical outcomes and a lower incidence of procedure-related myocardial necrosis. (Optimal Strategy for Side Branch Stenting in Coronary Bifurcation Lesions [SMART-STRATEGY]; NCT00794014).},
+   keywords = {Angioplasty, Balloon, Coronary/*methods
+Coronary Artery Disease/*therapy
+Female
+Humans
+Male
+Middle Aged
+Prospective Studies},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2012.07.010},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23174637
+http://ac.els-cdn.com/S1936879812008679/1-s2.0-S1936879812008679-main.pdf?_tid=4783278c-3b60-11e4-b12e-00000aacb360&acdnat=1410624723_3bd3e806e8848f9b133d418a6897dfdc
+https://www.sciencedirect.com/science/article/pii/S1936879812008679?via%3Dihub},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN454,
+   author = {Steigen, T. K. and Maeng, M. and Wiseth, R. and Erglis, A. and Kumsars, I. and Narbute, I. and Gunnes, P. and Mannsverk, J. and Meyerdierks, O. and Rotevatn, S. and Niemela, M. and Kervinen, K. and Jensen, J. S. and Galloe, A. and Nikus, K. and Vikman, S. and Ravkilde, J. and James, S. and Aaroe, J. and Ylitalo, A. and Helqvist, S. and Sjogren, I. and Thayssen, P. and Virtanen, K. and Puhakka, M. and Airaksinen, J. and Lassen, J. F. and Thuesen, L. and Nordic, P. C. I. Study Group},
+   title = {Randomized study on simple versus complex stenting of coronary artery bifurcation lesions: the Nordic bifurcation study},
+   journal = {Circulation},
+   volume = {114},
+   number = {18},
+   pages = {1955-61},
+   note = {Steigen, Terje K
+Maeng, Michael
+Wiseth, Rune
+Erglis, Andrejs
+Kumsars, Indulis
+Narbute, Inga
+Gunnes, Pal
+Mannsverk, Jan
+Meyerdierks, Oliver
+Rotevatn, Svein
+Niemela, Matti
+Kervinen, Kari
+Jensen, Jan S
+Galloe, Anders
+Nikus, Kjell
+Vikman, Saila
+Ravkilde, Jan
+James, Stefan
+Aaroe, Jens
+Ylitalo, Antti
+Helqvist, Steffen
+Sjogren, Iwar
+Thayssen, Per
+Virtanen, Kari
+Puhakka, Mikko
+Airaksinen, Juhani
+Lassen, Jens F
+Thuesen, Leif
+eng
+Multicenter Study
+Randomized Controlled Trial
+Research Support, Non-U.S. Gov't
+2006/10/25 09:00
+Circulation. 2006 Oct 31;114(18):1955-61. Epub 2006 Oct 23.},
+   abstract = {BACKGROUND: The optimal stenting strategy in coronary artery bifurcation lesions is unknown. In the present study, a strategy of stenting both the main vessel and the side branch (MV+SB) was compared with a strategy of stenting the main vessel only, with optional stenting of the side branch (MV), with sirolimus-eluting stents. METHODS AND RESULTS: A total of 413 patients with a bifurcation lesion were randomized. The primary end point was a major adverse cardiac event: cardiac death, myocardial infarction, target-vessel revascularization, or stent thrombosis after 6 months. At 6 months, there were no significant differences in rates of major adverse cardiac events between the groups (MV+SB 3.4%, MV 2.9%; P=NS). In the MV+SB group, there were significantly longer procedure and fluoroscopy times, higher contrast volumes, and higher rates of procedure-related increases in biomarkers of myocardial injury. A total of 307 patients had a quantitative coronary assessment at the index procedure and after 8 months. The combined angiographic end point of diameter stenosis >50% of main vessel and occlusion of the side branch after 8 months was found in 5.3% in the MV group and 5.1% in the MV+SB group (P=NS). CONCLUSIONS: Independent of stenting strategy, excellent clinical and angiographic results were obtained with percutaneous treatment of de novo coronary artery bifurcation lesions with sirolimus-eluting stents. The simple stenting strategy used in the MV group was associated with reduced procedure and fluoroscopy times and lower rates of procedure-related biomarker elevation. Therefore, this strategy can be recommended as the routine bifurcation stenting technique.},
+   keywords = {Coronary Angiography
+Coronary Stenosis/epidemiology/radiography/*surgery
+Female
+Follow-Up Studies
+Humans
+Male
+Middle Aged
+Sirolimus/administration & dosage/therapeutic use
+*Stents
+Treatment Outcome},
+   ISSN = {1524-4539 (Electronic)
+0009-7322 (Linking)},
+   DOI = {10.1161/CIRCULATIONAHA.106.664920},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/17060387
+http://circ.ahajournals.org/content/114/18/1955.full.pdf
+http://circ.ahajournals.org/content/circulationaha/114/18/1955.full.pdf},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN3012,
+   author = {Walsh, S. J. and Hanratty, C. G. and Watkins, S. and Oldroyd, K. G. and Mulvihill, N. T. and Hensey, M. and Chase, A. and Smith, D. and Cruden, N. and Spratt, J. C. and Mylotte, D. and Johnson, T. and Hill, J. and Hussein, H. M. and Bogaerts, K. and Morice, M. C. and Foley, D. P.},
+   title = {Culotte stenting for coronary bifurcation lesions with 2nd and 3rd generation everolimus-eluting stents: the CELTIC Bifurcation Study},
+   journal = {EuroIntervention},
+   volume = {14},
+   number = {3},
+   pages = {318-324},
+   note = {Walsh, Simon J
+Hanratty, Colm G
+Watkins, Stuart
+Oldroyd, Keith G
+Mulvihill, Niall T
+Hensey, Mark
+Chase, Alex
+Smith, Dave
+Cruden, Nick
+Spratt, James C
+Mylotte, Darren
+Johnson, Tom
+Hill, Jonathan
+Hussein, Hafiz M
+Bogaerts, Kris
+Morice, Marie-Claude
+Foley, David P
+eng
+France
+2018/05/25 06:00
+EuroIntervention. 2018 Jun 8;14(3):318-324. doi: 10.4244/EIJ-D-18-00346.},
+   abstract = {AIMS: The aim of this study was to provide contemporary outcome data for patients with de novo coronary disease and Medina 1,1,1 lesions who were treated with a culotte two-stent technique, and to compare the performance of two modern-generation drug-eluting stent (DES) platforms, the 3-connector XIENCE and the 2-connector SYNERGY. METHODS AND RESULTS: Patients with Medina 1,1,1 bifurcation lesions who had disease that was amenable to culotte stenting were randomised 1:1 to treatment with XIENCE or SYNERGY DES. A total of 170 patients were included. Technical success and final kissing balloon inflation occurred in >96% of cases. Major adverse cardiovascular or cerebrovascular events (MACCE: a composite of death, myocardial infarction [MI], cerebrovascular accident [CVA] and target vessel revascularisation [TVR]) occurred in 5.9% of patients by nine months. The primary endpoint was a composite of death, MI, CVA, target vessel failure (TVF), stent thrombosis and binary angiographic restenosis. At nine months, the primary endpoint occurred in 19% of XIENCE patients and 16% of SYNERGY patients (p=0.003 for non-inferiority for platform performance). CONCLUSIONS: MACCE rates for culotte stenting using contemporary everolimus-eluting DES are low at nine months. The XIENCE and SYNERGY stents demonstrated comparable performance for the primary endpoint.},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJ-D-18-00346},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/29792404},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN154,
+   author = {Wijns, W. and Verheye, S. and Manoharan, G. and Werner, G. S. and Grube, E. and De Bruyne, B. and Koolen, J. and Hamm, C. W. and Medina, A. and Bech, J. W. and De Feyter, P. J. and investigators, Convertible},
+   title = {Angiographic, intravascular ultrasound, and fractional flow reserve evaluation of direct stenting vs. conventional stenting using BeStent2 in a multicentre randomized trial},
+   journal = {Eur Heart J},
+   volume = {26},
+   number = {18},
+   pages = {1852-9},
+   note = {Wijns, William
+Verheye, Stefan
+Manoharan, Ganesh
+Werner, Gerald S
+Grube, Eberhard
+De Bruyne, Bernard
+Koolen, Jacques
+Hamm, Christian W
+Medina, Alfonso
+Bech, Jan Willem
+De Feyter, Pim J
+eng
+England
+Eur Heart J. 2005 Sep;26(18):1852-9. Epub 2005 May 11.},
+   abstract = {AIMS: Direct stenting (DS) may not be as safe and effective as conventional stenting. The objective was to demonstrate equivalence of post-procedural mean luminal diameter (MLD) by angiography after BeStent2 placement between DS and pre-dilatation (PD) strategy. METHODS AND RESULTS: Two hundred and two patients with a single de novo lesion (diameter >/=3.0 mm and length </=13 mm) were randomized to DS (n=101) vs. PD. Stent deployment was guided by on-line quantitative coronary angiography (QCA). A second randomization assigned half of the patients to intravascular ultrasound (IVUS) and fractional flow reserve (FFR) assessment. QCA was repeated at 6 months. Baseline characteristics were similar. Crossover to PD was necessary in seven DS patients. Stent deployment was successful in 97% (DS) and 98% (PD). The post-procedural MLD was 2.79+/-0.45 mm (DS) and 2.76+/-0.40 mm (PD). The null-hypothesis of non-equivalence could be rejected (95% one-sided; P=0.0003). The minimum stent area (IVUS) was 7.89+/-1.75 mm(2) (DS) and 8.07+/-2.37 mm(2) (PD; P=0.69), with an FFR of 0.92+/-0.07 and 0.92+/-0.05, respectively (P=0.97). Major adverse cardiac event rates at 6 months were 9% (DS) and 11% (PD; P=0.93). Target lesion re-angioplasty was 6% (DS) and 5% (PD; P=0.77). The in-stent restenosis rate by QCA was 7.4% (DS) and 6.8% (PD; P=0.87). CONCLUSION: DS with BeStent2 is equivalent to PD. Both strategies resulted in a low angiographic restenosis rate.},
+   keywords = {Angioplasty, Balloon, Coronary/methods
+Blood Flow Velocity
+Coronary Angiography
+Coronary Circulation
+Coronary Restenosis/etiology
+Coronary Stenosis/pathology/radiography/*therapy
+Female
+Humans
+Male
+Middle Aged
+Prospective Studies
+Single-Blind Method
+*Stents
+Ultrasonography, Interventional},
+   ISSN = {0195-668X (Print)
+0195-668X (Linking)},
+   DOI = {10.1093/eurheartj/ehi286},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/15888499
+http://eurheartj.oxfordjournals.org/content/26/18/1852.full.pdf
+https://watermark.silverchair.com/ehi286.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAbEwggGtBgkqhkiG9w0BBwagggGeMIIBmgIBADCCAZMGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM00Ai5d_IOdoEWJ3AAgEQgIIBZMlDX8TLueBlSfxQPOFtDHQwaE6WvMc1GSB03ZXpRsKikmACNztTzGDCGXlZXqaEzb9Hq_uWdVoI-fIlxPoJcKAOGMGHxMnKxun5Q5MCl2rDyd9Q7nR6xQctFAk_JgHKjyxVtXGE8iCWR67M5Z2F8oNdrC-XsAwQ6hZbvsng4J4_re31PMjvMqSr-EzQvnCWci5MqALqEIrSmga9_v9Li444jaJMFgY8yaz4X4zUSvoDDb51fxHj7vzzKsdvJ2VxOhb0CIfaL-buZvqR6NuO6JBZZmDqHzzZBzXGSXp7zcfSOcalnCIe4Nj3PtVBVnZscPGxdhcm3q9a0o5WHYcPM79-CJPVDWcJDkoK7RhSw53UI0JbIBo2oDAUN7tNB7QtVpMwBFJ3NJ9HORqGMF-rUmUpAkUeImG6Sk5StqYwxYZDOnjz_2NK48stehK5KdnBcSf4SMvZl-d8m9YkKUOQSGvmtaAQ},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN3067,
+   author = {Zhang, J. J. and Chen, S. L.},
+   title = {Classic crush and DK crush stenting techniques},
+   journal = {EuroIntervention},
+   volume = {11 Suppl V},
+   pages = {V102-5},
+   note = {Zhang, Jun-Jie
+Chen, Shao-Liang
+eng
+Video-Audio Media
+France
+2015/05/20 06:00
+EuroIntervention. 2015;11 Suppl V:V102-5. doi: 10.4244/EIJV11SVA23.},
+   abstract = {Clinical data have supported the advantages of the double kissing (DK) crush technique, which consists of stenting the side branch (SB), balloon crush, first kissing, stenting the main vessel (MV) and final kissing balloon inflation, for complex coronary bifurcation lesions compared to other stenting techniques. Careful rewiring from the proximal cell of the MV stent to make sure the wire is in the true lumen of the SB stent is key to acquiring optimal angiographic results. Balloon anchoring from the MV, alternative inflation and each kissing inflation using large enough non-compliant balloons at high pressure, and the proximal optimisation technique are mandatory to improve both angiographic and clinical outcomes. Stratification of a given bifurcation lesion is recommended before decision making.},
+   keywords = {Coronary Artery Disease/*surgery
+Humans
+Percutaneous Coronary Intervention/instrumentation/*methods
+*Stents},
+   ISSN = {1969-6213 (Electronic)
+1774-024X (Linking)},
+   DOI = {10.4244/EIJV11SVA23},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25983140},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN1022,
+   author = {Zimarino, M. and Affinito, V.},
+   title = {The prognosis of periprocedural myocardial infarction after percutaneous coronary interventions},
+   journal = {Cardiovasc Revasc Med},
+   volume = {14},
+   number = {1},
+   pages = {32-6},
+   note = {Zimarino, Marco
+Affinito, Vincenzo
+eng
+Review
+2012/11/21 06:00
+Cardiovasc Revasc Med. 2013 Jan-Feb;14(1):32-6. doi: 10.1016/j.carrev.2012.10.006. Epub 2012 Nov 17.},
+   abstract = {An increase of biomarkers of myocardial necrosis is observed frequently after percutaneous coronary interventions (PCI) even when the procedure seems angiographically successful and otherwise uncomplicated. The recently updated Universal Definition of Myocardial infarction (MI) arbitrarily defined periprocedural MI (type 4a) by elevation of cardiac troponin (cTn) values >5 x the upper reference limit (URL) in patients with normal baseline values or a rise of cTn values >20% if the baseline values are elevated, together with either angina or new ECG changes or angiographic loss of patency of a coronary artery or a side branch or persistent slow or no-flow or embolization, or imaging demonstration of new loss of viable myocardium. Most frequent causes of such event are side-branch closure and/or plaque microembolization. The present review is focused on the prognostic implication of periprocedural necrosis. The risk related to a PCI-induced MI is significantly lower as compared to a spontaneous event where a similar increase of biomarkers is detected. Moreover, although an association between CK-MB elevations and adverse prognosis after PCI has been documented, existing data do not support the statement that an isolated elevation of troponins after PCI is associated with an adverse prognosis after PCI; increased troponin levels before PCI seem far more predictive of future events than a peri-procedural itself. Caution should be paid in the interpretation of clinical trials using type 4a MI as a primary endpoint. Nevertheless, patients with periprocedural myocardial damage should be treated as a higher-risk cohort, carefully monitored and receive an intensified secondary prevention program.},
+   keywords = {Biological Markers/blood
+Creatine Kinase, MB Form/blood
+Humans
+Myocardial Infarction/blood/*etiology/pathology
+Myocardium/metabolism/pathology
+Necrosis
+Percutaneous Coronary Intervention/*adverse effects/instrumentation
+Predictive Value of Tests
+Prognosis
+Risk Assessment
+Risk Factors
+Stents
+Troponin/blood
+Up-Regulation},
+   ISSN = {1878-0938 (Electronic)
+1878-0938 (Linking)},
+   DOI = {10.1016/j.carrev.2012.10.006},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23164601
+http://www.cardiorevascmed.com/article/S1553-8389(12)00257-6/abstract
+https://www.sciencedirect.com/science/article/pii/S1553838912002576?via%3Dihub},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN1021,
+   author = {Zimarino, M. and Barnabei, L. and Madonna, R. and Palmieri, G. and Radico, F. and Tatasciore, A. and Bellisarii, F. I. and Perrucci, G. M. and Corazzini, A. and De Caterina, R.},
+   title = {A comparison of the diagnostic performance of the ST/HR hysteresis with cardiopulmonary stress testing parameters in detecting exercise-induced myocardial ischemia},
+   journal = {Int J Cardiol},
+   volume = {168},
+   number = {2},
+   pages = {1274-9},
+   note = {Zimarino, Marco
+Barnabei, Luca
+Madonna, Rosalinda
+Palmieri, Giuseppe
+Radico, Francesco
+Tatasciore, Alfonso
+Bellisarii, Francesco Iachini
+Perrucci, Gianni Mauro
+Corazzini, Alessandro
+De Caterina, Raffaele
+eng
+Comparative Study
+Netherlands
+2012/12/25 06:00
+Int J Cardiol. 2013 Sep 30;168(2):1274-9. doi: 10.1016/j.ijcard.2012.12.007. Epub 2012 Dec 21.},
+   abstract = {BACKGROUND: Because ST segment depression has limited diagnostic performance at exercise electrocardiography (ECG), ST segment depression/heart rate (ST/HR) hysteresis and cardiopulmonary exercise test (CPET)-derived parameters have been proposed as alternatives to diagnose exercise-induced myocardial ischemia. We compared the diagnostic performance of such parameters. METHODS: We studied 56 subjects (45 men, 11 women, age 59.7 +/- 13.6 years) referred for suspected exercise-induced myocardial ischemia with an equivocal ECG exercise test. All subjects serially underwent CPET and a myocardial single-photon emission computerized tomography (SPECT) perfusion imaging (as the gold standard for ischemia). Maximum ST depression at peak exercise (ST-max), the ST/HR hysteresis, DeltaVO2/DeltaWR b-b1 slope, DeltaVO2/DeltaWR (aa1-bb1), VO2/HR flattening duration and other CPET parameters were derived in all subjects. RESULTS: On the basis of SPECT, 23 subjects (41%) were considered ischemic and 33 subjects (59%) non-ischemic. ST/HR hysteresis was higher (0.026 mV; 95% CI: 0.003 to 0.049 vs -0.016 mV; 95% CI: -0.031 to -0.001 mV) and ST-max was lower (-0.105 mV; 95% CI: -0.158 to -0.052 vs 0.032 mV; 95% CI: -0.001 to -0.066 mV) in ischemic vs non-ischemic subjects (P=0.004 and P=0.001, respectively). Among CPET parameters, DeltaVO2/DeltaWR b-b(1) slope was lower (9.4 +/- 3.8) and DeltaVO2/DeltaWR (aa(1)-bb(1)) was higher (2.1 +/- 2.6) in ischemic vs non-ischemic subjects (11.4 +/- 2.3, P=0.005, and 1.1 +/- 1.5, P=0.001, respectively). The ST/HR hysteresis had the highest area under the curve value, better (P<0.05) than any other parameters tested, thus showing the highest overall diagnostic performance. CONCLUSION: The ST/HR hysteresis is superior to CPET-derived parameters for detecting exercise-induced myocardial ischemia in patients with equivocal ECG exercise test results.},
+   keywords = {Aged
+Cardiac-Gated Single-Photon Emission Computer-Assisted
+Tomography/methods/*standards
+Electrocardiography/methods/*standards
+Exercise Test/methods/*standards
+Female
+Heart Rate/*physiology
+Humans
+Male
+Middle Aged
+Myocardial Ischemia/*physiopathology/*radionuclide imaging},
+   ISSN = {1874-1754 (Electronic)
+0167-5273 (Linking)},
+   DOI = {10.1016/j.ijcard.2012.12.007},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23260751
+http://www.internationaljournalofcardiology.com/article/S0167-5273(12)01635-X/abstract
+https://www.internationaljournalofcardiology.com/article/S0167-5273(12)01635-X/fulltext
+https://www.sciencedirect.com/science/article/pii/S016752731201635X?via%3Dihub},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN1019,
+   author = {Zimarino, M. and Corazzini, A. and Ricci, F. and Di Nicola, M. and De Caterina, R.},
+   title = {Late thrombosis after double versus single drug-eluting stent in the treatment of coronary bifurcations: a meta-analysis of randomized and observational Studies},
+   journal = {JACC Cardiovasc Interv},
+   volume = {6},
+   number = {7},
+   pages = {687-95},
+   note = {Zimarino, Marco
+Corazzini, Alessandro
+Ricci, Fabrizio
+Di Nicola, Marta
+De Caterina, Raffaele
+eng
+Meta-Analysis
+Review
+2013/06/19 06:00
+JACC Cardiovasc Interv. 2013 Jul;6(7):687-95. doi: 10.1016/j.jcin.2013.03.012. Epub 2013 Jun 14.},
+   abstract = {OBJECTIVES: This study sought to hypothesize that the higher risk of myocardial infarction (MI) documented after a routine double drug-eluting stent (DES) strategy (DDS) compared with a single DES strategy (SDS) with provisional stenting in percutaneous coronary interventions (PCI) of bifurcation lesions is driven by an increased rate of DES thrombosis. BACKGROUND: The results of currently available randomized, controlled trials (RCTs) were inconclusive in the choice between SDS and DDS. Meta-analyses have shown an increased risk of MI in the DDS group, without identifying the underlying mechanism(s). METHODS: We performed a meta-analysis of 12 major (>100 patients) studies of bifurcation DES PCI: 5 RCTs and 7 nonrandomized observational studies, for a total of 6,961 patients. Random-effects models were used to calculate summary risk ratios (RRs). As a primary endpoint, we assessed the RRs and 95% confidence intervals (CIs) of definite DES thrombosis; death, MI, and target vessel revascularization (TVR) were evaluated as secondary endpoints. RESULTS: Compared with SDS, DDS had an increased risk of DES thrombosis (RR: 2.31; 95% CI: 1.33 to 4.03) and MI (RR: 1.86; 95% CI: 1.34 to 2.60). Mortality (RR: 1.18; 95% CI: 0.85 to 1.65) and TVR (RR: 1.02; 95% CI: 0.80 to 1.30) were similar. The RRs of MI and DES thrombosis were associated (p = 0.040). CONCLUSIONS: In PCI of coronary bifurcations, SDS should be the preferred approach, as DDS is associated with an increased risk of MI, likely driven by DES thrombosis.},
+   keywords = {Chi-Square Distribution
+Coronary Artery Disease/mortality/*therapy
+Coronary Thrombosis/*etiology/mortality
+*Drug-Eluting Stents
+Evidence-Based Medicine
+Humans
+Linear Models
+Myocardial Infarction/etiology
+Observational Study as Topic
+Odds Ratio
+Percutaneous Coronary Intervention/*adverse effects/*instrumentation/mortality
+Prosthesis Design
+Randomized Controlled Trials as Topic
+Risk Factors
+Time Factors
+Treatment Outcome},
+   ISSN = {1876-7605 (Electronic)
+1936-8798 (Linking)},
+   DOI = {10.1016/j.jcin.2013.03.012},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23769650
+http://ac.els-cdn.com/S193687981300808X/1-s2.0-S193687981300808X-main.pdf?_tid=2ace0d46-3b60-11e4-810a-00000aab0f26&acdnat=1410624674_97e88e71d5cf8420b112f75c44dcdd1a
+https://www.sciencedirect.com/science/article/pii/S193687981300808X?via%3Dihub},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN1020,
+   author = {Zimarino, M. and Curzen, N. and Cicchitti, V. and De Caterina, R.},
+   title = {The adequacy of myocardial revascularization in patients with multivessel coronary artery disease},
+   journal = {Int J Cardiol},
+   volume = {168},
+   number = {3},
+   pages = {1748-57},
+   note = {Zimarino, Marco
+Curzen, Nick
+Cicchitti, Vincenzo
+De Caterina, Raffaele
+eng
+Review
+Netherlands
+2013/06/08 06:00
+Int J Cardiol. 2013 Oct 3;168(3):1748-57. doi: 10.1016/j.ijcard.2013.05.004. Epub 2013 Jun 3.},
+   abstract = {In patients with multi-vessel coronary artery disease (MVCAD) myocardial revascularization may be accomplished either on all diseased lesions--complete myocardial revascularization--or on selectively targeted coronary segments by percutaneous coronary intervention (PCI) or coronary artery bypass grafting (CABG). Complete revascularization has a potential long-term prognostic benefit, but is more complex and may increase in-hospital events when compared with incomplete revascularization. No conclusive agreement has been yet reached on the "optimal" extent of revascularization, and guidelines have only recently mentioned the adequacy of revascularization in the decision whether to submit a patient to CABG or PCI. In the absence of any trial specifically designed to assess the relative benefit of either strategy, the present review explores current concepts about the completeness of revascularization, the growing evidence on the relevance of lesion and myocardial functional evaluation, and analyzes currently available data in relation to different clinical settings, including acute coronary syndromes, diabetes, chronic kidney disease and impaired left ventricular function. Considerations on the adequacy of revascularization should guide the choice among PCI and CABG in patients with MVCAD during the decision-making process, taking into account the clinical presentation, the extent and relevance of ischemia and the presence of other comorbidities.},
+   keywords = {Coronary Artery Disease/diagnosis/*surgery
+*Decision Making
+Diagnostic Imaging
+Humans
+Myocardial Revascularization/*methods
+Prognosis
+Severity of Illness Index},
+   ISSN = {1874-1754 (Electronic)
+0167-5273 (Linking)},
+   DOI = {10.1016/j.ijcard.2013.05.004},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23742927
+http://www.internationaljournalofcardiology.com/article/S0167-5273(13)00913-3/abstract
+https://www.internationaljournalofcardiology.com/article/S0167-5273(13)00913-3/fulltext
+https://www.sciencedirect.com/science/article/pii/S0167527313009133?via%3Dihub},
+   year = {2013},
+   type = {Journal Article}
+}
+

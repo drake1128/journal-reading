@@ -1,0 +1,16 @@
+---
+title: "ICU 一般照護 — ICU General Care"
+---
+
+## 教學講義 Handouts
+
+- [Esmolol 在重症加護的應用 教學講義.md](Esmolol 在重症加護的應用 教學講義.md)
+- [Etomidate vs Ketamine 插管誘導用藥比較 教學講義.md](Etomidate vs Ketamine 插管誘導用藥比較 教學講義.md)
+
+## LaTeX Files
+
+- CHEST Implementation Science Practice Variability 2026 教學講義.tex
+- ICM Broad-Spectrum Antibiotics 2024 教學講義.tex
+- ICM Clinical Governance 2024 教學講義.tex
+- ICM Metabolic Acidosis Buffering 2024 教學講義.tex
+- ICM Stress Ulcer Prevention 2024 教學講義.tex

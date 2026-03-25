@@ -1,0 +1,208 @@
+\documentclass[12pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{JACC 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{COVID-19 與心血管預後}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{Journal of the American College of Cardiology}}\\[0.5cm]
+{\Large\textbf{Hospitalizations and Mortality Among Medicare Beneficiaries at Cardiovascular Risk: Disruptions and Recovery from the COVID-19 Pandemic}}\\[0.3cm]
+{\large 心血管風險 Medicare 受益人之住院率與死亡率：COVID-19 疫情的衝擊與恢復}\\[0.5cm]
+{\normalsize \href{https://www.jacc.org}{JACC 2026}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+\section{研究背景}
+%============================================================
+
+COVID-19 疫情對心血管照護造成重大衝擊。2020 年疫情高峰期間，急性心血管疾病住院率大幅下降的現象已有文獻記載。然而，疫情「後期」（2021-2022 年）的醫療利用與病患預後變化，尚缺乏系統性的研究。
+
+\subsection{研究目的}
+分析疫情後期（2021-2022 年）Medicare 受益人中，具心血管風險因子或心血管疾病者的：
+\begin{itemize}
+    \item 醫療利用模式（住院、門診）
+    \item 病患預後（死亡率）
+\end{itemize}
+
+%============================================================
+\section{研究方法}
+%============================================================
+
+\begin{itemize}
+    \item \textbf{研究設計}：流行病學回顧性世代研究
+    \item \textbf{資料來源}：Medicare 資料庫（Fee-for-Service 與 Medicare Advantage）
+    \item \textbf{研究族群}：約 5,000 萬名 Medicare 受益人
+    \item \textbf{比較時期}：
+    \begin{itemize}
+        \item 疫情前：2018-2019 年
+        \item 疫情後期：2021-2022 年
+    \end{itemize}
+    \item \textbf{納入條件}：具心血管風險因子或心血管疾病
+\end{itemize}
+
+%============================================================
+\section{主要發現}
+%============================================================
+
+\keyfinding{
+\begin{itemize}
+    \item 住院率較疫情前下降 \textbf{8-9\%}（未完全恢復）
+    \item 門診就醫率恢復並超越基線（受 telehealth 推升）
+    \item 死亡率持續升高約 \textbf{20\%}（相對增加）
+\end{itemize}
+}
+
+\subsection{醫療利用趨勢}
+
+\begin{longtable}{p{3.5cm}p{10.5cm}}
+\toprule
+\textbf{指標} & \textbf{變化趨勢} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{指標} & \textbf{變化趨勢} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+住院率 & 疫情前穩定 → 2020 年驟降 → 恢復但未達疫情前水準\newline （較疫情前低 8-9\%） \\
+\midrule
+門診就醫率 & 疫情前穩定 → 2020 年驟降 → 恢復並超越基線\newline （Telehealth 的興起為主因） \\
+\midrule
+死亡率 & 疫情前穩定趨勢 → 2020 年急升 → 持續波動升高\newline （隨 COVID-19 波次起伏，整體較疫情前高約 20\%） \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{次族群分析}
+%============================================================
+
+\subsection{住院率下降最明顯的族群}
+\begin{itemize}
+    \item 鄉村地區（rural areas）
+    \item 社會脆弱度高的地區（high Social Vulnerability Index, SVI）
+    \item Medicare Advantage 受益人（下降幅度較 Fee-for-Service 小）
+\end{itemize}
+
+\subsection{門診就醫率上升最明顯的族群}
+\begin{itemize}
+    \item 都市地區（urban areas）
+    \item Medicare Advantage 受益人
+\end{itemize}
+
+\subsection{死亡率上升最明顯的族群}
+
+\begin{importantbox}
+\textbf{高風險族群}
+\begin{itemize}
+    \item 社會脆弱度高的族群（high Social Vulnerability Index）
+    \item Medicare Advantage 受益人（較 Fee-for-Service 更明顯）
+\end{itemize}
+
+\textbf{注意}：鄉村 vs 都市地區的死亡率增幅\textbf{無顯著差異}
+\end{importantbox}
+
+%============================================================
+\section{可能機轉探討}
+%============================================================
+
+作者提出三大可能機轉：
+
+\subsection{1. 生物學因素（Biological）}
+\begin{itemize}
+    \item COVID-19 感染本身的急性危害
+    \item COVID-19 感染後的長期影響（long COVID）
+    \item 瑞典研究顯示：COVID-19 感染者在一年後仍有較高的全因死亡率與心血管死亡風險
+    \item 呼吸道病毒（流感、COVID-19、副流感病毒等）可觸發心衰竭、缺血性中風、急性心肌梗塞
+\end{itemize}
+
+\subsection{2. 行為因素（Behavioral）}
+\begin{itemize}
+    \item 疫情期間的就醫迴避行為（care avoidance）持續存在
+    \item 影響較大的族群：
+    \begin{itemize}
+        \item 女性
+        \item 部分種族/族裔少數群體（原本就醫可近性較差）
+    \end{itemize}
+    \item 處置積壓（backlogs for procedures）
+    \item 預防保健延遲
+\end{itemize}
+
+\subsection{3. 醫療系統因素（Systems）}
+\begin{itemize}
+    \item 醫院人力吃緊（hospital strain）
+    \item 照護模式改變
+    \item 技術性護理機構（Skilled Nursing Facility, SNF）供給減少
+    \begin{itemize}
+        \item 人力短缺問題
+        \item 患者住院天數延長
+        \item 可能影響功能狀態與死亡率
+    \end{itemize}
+\end{itemize}
+
+%============================================================
+\section{臨床與公衛意涵}
+%============================================================
+
+\note{
+\textbf{為下一次公衛緊急事件做準備}
+
+本研究揭示了心血管照護系統的脆弱點：
+\begin{itemize}
+    \item 社會脆弱族群受影響最大
+    \item 醫療利用與死亡率的解離（住院減少但死亡增加）
+    \item 需強化醫療系統韌性（resilience）
+\end{itemize}
+}
+
+\subsection{值得關注的議題}
+\begin{enumerate}
+    \item 醫療利用下降是否反映「適當減少不必要住院」或「必要照護的延誤」？
+    \item 死亡率持續升高的驅動因素為何？
+    \item 如何縮小社會脆弱族群的健康差距？
+    \item Medicare Advantage 與 Fee-for-Service 的預後差異原因？
+\end{enumerate}
+
+%============================================================
+\section{重點摘要}
+%============================================================
+
+\begin{enumerate}
+    \item \textbf{住院率}：疫情後期仍較疫情前低 8-9\%，未完全恢復
+    \item \textbf{門診就醫}：恢復並超越基線，Telehealth 為主要推手
+    \item \textbf{死亡率}：持續較疫情前高約 20\%，令人憂心
+    \item \textbf{高風險族群}：社會脆弱度高者、Medicare Advantage 受益人
+    \item \textbf{多重機轉}：生物學、行為、系統因素交互作用
+    \item \textbf{公衛啟示}：需強化醫療系統韌性，為未來緊急事件做準備
+\end{enumerate}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Maddox KJ, Wadhera R, Waken A, et al. Hospitalizations and Mortality Among Medicare Beneficiaries at Cardiovascular Risk: Disruptions and Recovery from the COVID-19 Pandemic. \textit{J Am Coll Cardiol}. 2026.
+
+    \item Wadhera R, Shen C, Gondi S, et al. Cardiovascular Deaths During the COVID-19 Pandemic in the United States. \href{https://doi.org/10.1016/j.jacc.2020.10.055}{\textit{J Am Coll Cardiol}. 2021;77(2):159-169.}
+
+    \item Solomon MD, McNulty EJ, Rana JS, et al. The Covid-19 Pandemic and the Incidence of Acute Myocardial Infarction. \href{https://doi.org/10.1056/NEJMc2015630}{\textit{N Engl J Med}. 2020;383:691-693.}
+
+    \item Wadhera R, Dhruva S, Bikdeli B, et al. Cardiovascular Statistics in the United States, 2026: JACC Stats. \href{https://doi.org/10.1016/j.jacc.2025.12.027}{\textit{J Am Coll Cardiol}. 2026.}
+\end{enumerate}
+
+\end{document}

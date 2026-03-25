@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "經導管心臟瓣膜治療技術 — Transcatheter Valve Intervention"
+  description: "Mainz 2024 Fellowship Training Report by Dr. Drake Hsieh"
+  navbar:
+    left:
+      - text: "首頁 Home"
+        href: index.qmd
+      - text: "中文版"
+        href: zh/index.qmd
+      - text: "English"
+        href: en/index.qmd
+    right:
+      - icon: github
+        text: "Source"
+  sidebar:
+    - title: "中文版"
+      style: docked
+      contents:
+        - zh/index.qmd
+        - zh/ch1-report.qmd
+        - zh/ch2-teer.qmd
+        - zh/ch3-tavi-as.qmd
+        - zh/ch4-tavi-ar.qmd
+        - zh/ch5-acknowledgements.qmd
+    - title: "English"
+      style: docked
+      contents:
+        - en/index.qmd
+        - en/ch1-teer.qmd
+        - en/ch2-tavi-as.qmd
+        - en/ch3-tavi-ar.qmd
+        - en/ch4-acknowledgements.qmd
+
+format:
+  html:
+    theme: default
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    css: styles.css
+    lang: zh-TW
+
+bibliography: ../Reference.bib
+
+execute:
+  freeze: true

@@ -1,0 +1,585 @@
+\documentclass[12pt,a4paper]{article}
+
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{NEJM Clinical Practice 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{Peripheral Artery Disease}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{New England Journal of Medicine}}\\[0.3cm]
+{\Large\textcolor{emergency_blue}{Clinical Practice}}\\[0.5cm]
+{\Large\textbf{Peripheral Artery Disease in the Legs}}\\[0.3cm]
+{\large 下肢周邊動脈疾病}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1056/NEJMcp2501200}{N Engl J Med 2026;394:486-96. DOI: 10.1056/NEJMcp2501200}}\\[0.3cm]
+{\normalsize 作者：Mary M. McDermott, MD (Northwestern University)}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\vspace{0.5cm}
+
+%============================================================
+\section{案例導讀 (Clinical Vignette)}
+%============================================================
+
+一位 62 歲女性，有 type 2 diabetes、hypertension 及吸菸史，主訴行走時出現下肢症狀。她描述行走時臀部及小腿疼痛，休息 10 分鐘內可緩解。因症狀限制，步行超過一至兩個街區即感困難。
+
+\textbf{理學檢查：}
+\begin{itemize}[leftmargin=2em]
+    \item 血壓 150/70 mmHg，心率 82 bpm
+    \item 無 femoral bruits
+    \item Calf muscles atrophy
+    \item Dorsalis pedis 及 posterior tibial pulses 雙側均為 grade 1+ (正常為 3+)
+    \item \textbf{Ankle-brachial index (ABI)：右側 0.56，左側 0.64}
+\end{itemize}
+
+\note{此案例為典型的 peripheral artery disease (PAD) 合併 claudication，且 ABI 顯示中度至重度疾病。本文將探討如何診斷、治療行走障礙，以及預防心血管事件。}
+
+%============================================================
+\section{流行病學 (Epidemiology)}
+%============================================================
+
+\subsection{盛行率}
+
+\begin{itemize}[leftmargin=2em]
+    \item 全球約影響 \textbf{2.36 億人}
+    \item 美國約 \textbf{1,250 萬人} ($\geq$40 歲)
+    \item 65 歲以上：10-15\%
+    \item 80 歲以上：15-20\%
+    \item 美國 Black 族群盛行率約為 non-Hispanic White 的 \textbf{2 倍}
+\end{itemize}
+
+\subsection{危險因子 (Risk Factors)}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{危險因子} & \textbf{說明} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{危險因子} & \textbf{說明} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+年齡 & 年齡越大風險越高 \\
+\midrule
+吸菸 (Cigarette smoking) & 最重要的可改變危險因子 \\
+\midrule
+糖尿病 (Diabetes mellitus) & PAD 合併 DM 者有更嚴重的行走障礙、更高的死亡率、截肢率，且 below-the-knee atherosclerosis 更常見 \\
+\midrule
+血脂異常 (Dyslipidemia) & 包括 elevated lipoprotein(a) \\
+\midrule
+高血壓 (Hypertension) & 加速動脈粥狀硬化 \\
+\midrule
+久坐生活型態 & 缺乏運動 \\
+\bottomrule
+\end{longtable}
+
+\subsection{不良預後 (Adverse Outcomes)}
+
+\begin{importantbox}
+\textbf{心血管事件風險}
+\begin{itemize}[leftmargin=2em]
+    \item PAD 患者心血管事件及死亡率為無 PAD 者的 \textbf{2-3 倍}
+    \item 10 年心血管死亡率：
+    \begin{itemize}
+        \item 男性：PAD 18.7\% vs. 無 PAD 4.4\%
+        \item 女性：PAD 12.6\% vs. 無 PAD 4.1\%
+    \end{itemize}
+    \item 症狀性 PAD (ABI <0.80 或曾接受 revascularization) 患者，30 個月追蹤期間有 \textbf{10.7\%} 發生 MI、ischemic stroke 或心血管死亡
+\end{itemize}
+\end{importantbox}
+
+\textbf{Major adverse limb events (MALE):}
+\begin{itemize}[leftmargin=2em]
+    \item 定義：severe leg ischemia 導致 revascularization 或 amputation
+    \item 發生率：1.8-2.7 年追蹤期間約 12.9-15.2\%
+    \item 接受 leg revascularization 後更常見
+\end{itemize}
+
+%============================================================
+\section{臨床表現與診斷 (Clinical Presentation \& Diagnosis)}
+%============================================================
+
+\subsection{症狀表現}
+
+\keyfinding{
+\textbf{重要發現：}高達 68-90\% 的 PAD 患者\textbf{沒有典型 claudication 症狀}或完全無症狀！
+\begin{itemize}[leftmargin=2em]
+    \item 典型 claudication (classic)：僅約 10-32\%
+    \item 非典型症狀 (atypical)：如髖部疼痛、下背痛
+    \item 無症狀 (asymptomatic)：約 58.5\%（德國研究）
+\end{itemize}
+許多患者會減少行走活動或速度以避免缺血症狀，這可能導致\textbf{診斷不足}。
+}
+
+\textbf{Classic intermittent claudication 特徵：}
+\begin{itemize}[leftmargin=2em]
+    \item 運動時小腿疼痛
+    \item 休息時不會發生
+    \item 休息 10 分鐘內可緩解
+    \item 行走距離越長症狀越嚴重
+\end{itemize}
+
+\subsection{理學檢查}
+
+脈搏觸診對診斷 PAD 的準確度有限：
+
+\begin{longtable}{p{5cm}p{3cm}p{3cm}}
+\toprule
+\textbf{檢查項目} & \textbf{Sensitivity} & \textbf{Specificity} \\
+\midrule
+\endfirsthead
+Absent dorsalis pedis pulse & 50\% & 73\% \\
+\midrule
+Absent posterior tibial pulse & 71\% & 91\% \\
+\bottomrule
+\end{longtable}
+
+\subsection{Ankle-Brachial Index (ABI)}
+
+\textbf{定義：}踝部 systolic pressure (posterior tibial 或 dorsalis pedis) 與 brachial artery systolic pressure 的比值，使用 Doppler ultrasonography 測量。
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{ABI 數值} & \textbf{意義} \\
+\midrule
+\endfirsthead
+>1.00 - 1.40 & 正常 \\
+\midrule
+<0.90 & 診斷 PAD (>50\% angiographic stenosis)\newline Sensitivity 69-79\%, Specificity 83-99\% \\
+\midrule
+0.70 - <0.90 & 輕度 PAD (mild) \\
+\midrule
+0.50 - <0.70 & 中度 PAD (moderate) \\
+\midrule
+<0.50 & 重度 PAD (severe) \\
+\midrule
+$\geq$1.40 & 疑似 medial calcification (不可壓縮動脈)\newline 常見於 diabetes 或 CKD 患者 \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{Toe-brachial index (TBI)：}當 ABI $\geq$1.40 或症狀明顯但 ABI 正常時，可使用 TBI。因趾動脈較不易發生 medial calcification。\textbf{TBI $\leq$0.70} 表示 PAD。
+}
+
+\subsection{行走能力與疾病嚴重度}
+
+\begin{longtable}{p{4cm}p{6cm}p{4cm}}
+\toprule
+\textbf{ABI} & \textbf{疾病嚴重度} & \textbf{無法完成 6 分鐘步行測試\newline 需中途休息比例} \\
+\midrule
+\endfirsthead
+1.10 - 1.40 & 正常 & 3.3\% \\
+\midrule
+0.70 - <0.90 & 輕度 (mild) & 18.1\% \\
+\midrule
+0.50 - <0.70 & 中度 (moderate) & 31.6\% \\
+\midrule
+<0.50 & 重度 (severe) & 52.0\% \\
+\bottomrule
+\end{longtable}
+
+PAD 患者的行走能力會隨時間下降：
+\begin{itemize}[leftmargin=2em]
+    \item 6 個月：6-minute walk distance 平均減少 10.2 m
+    \item 18 個月：6-minute walk distance 平均減少 34 m
+\end{itemize}
+
+%============================================================
+\section{治療：改善行走障礙}
+%============================================================
+
+\subsection{治療效果比較圖}
+
+\begin{center}
+\begin{tabular}{p{6cm}p{4cm}p{4cm}}
+\toprule
+\textbf{治療方式} & \textbf{Maximal treadmill\newline walking distance 增加} & \textbf{6-minute walk\newline distance 增加} \\
+\midrule
+Cilostazol & +40 m & -- \\
+\midrule
+Semaglutide & +39.9 m & -- \\
+\midrule
+Liraglutide & -- & +25 m \\
+\midrule
+Home-based walking exercise & +53.7 m & +55.6 m \\
+\midrule
+Femoropopliteal endovascular & +69 m & -- \\
+\midrule
+Supervised treadmill exercise & +186 m & +31.8 m \\
+\midrule
+Aortoiliac endovascular & +202 m & -- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{藥物治療}
+
+\subsubsection{Cilostazol (Phosphodiesterase 3 inhibitor)}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{適應症：}PAD 導致的 claudication 及行走障礙
+    \item \textbf{劑量：}起始 50 mg BID，可調整至 100 mg BID
+    \item \textbf{效果：}Maximal treadmill walking distance 增加約 40 m（vs. placebo）
+    \item \textbf{副作用：}Headache, palpitations, diarrhea
+    \item \textbf{禁忌症：}\textcolor{emergency_red}{\textbf{任何程度的 heart failure}}（其他 PDE3 inhibitors 會增加 HF 患者死亡率）
+    \item \textbf{建議：}若 12 週後行走能力無改善，應停藥
+\end{itemize}
+
+\subsubsection{GLP-1 Receptor Agonists}
+
+\textbf{Semaglutide (STRIDE trial):}
+\begin{itemize}[leftmargin=2em]
+    \item 792 位 PAD + T2DM 患者
+    \item 治療 52 週
+    \item Maximal treadmill walking distance ratio: 1.13 (95\% CI 1.06-1.21, P<0.001)
+    \item 絕對增加約 39.9 m
+\end{itemize}
+
+\textbf{Liraglutide:}
+\begin{itemize}[leftmargin=2em]
+    \item 55 位 PAD + T2DM 患者（open-label）
+    \item 6 個月後 6-minute walk distance 增加 25 m (P<0.001)
+\end{itemize}
+
+\subsection{運動治療 (Exercise Therapy)}
+
+\begin{importantbox}
+\textbf{AHA/ACC Guidelines 建議：}Supervised walking exercise 及 structured home-based walking exercise 均為\textbf{第一線治療}。
+\end{importantbox}
+
+\subsubsection{Supervised Walking Exercise}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{項目} & \textbf{說明} \\
+\midrule
+\endfirsthead
+定義 & 在醫療機構由 nurse 或 exercise physiologist 監督下進行 treadmill walking \\
+\midrule
+頻率 & 每週 3 次 \\
+\midrule
+目標 & 每次運動誘發最大缺血性腿部症狀，逐步增加至每次 50 分鐘 \\
+\midrule
+效果 & Maximal treadmill walking distance +180 m\newline 6-minute walk distance +31.8 m \\
+\midrule
+保險給付 & Medicare 給付 36 次/12 週（症狀性 PAD）\newline 可涵蓋 walking、cycling、resistance training \\
+\midrule
+注意事項 & 約 6 週後開始有明顯效果\newline 停止運動後效果消失 \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{Structured Home-based Walking Exercise}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{項目} & \textbf{說明} \\
+\midrule
+\endfirsthead
+定義 & 在家中或居家附近進行非監督式步行運動，但有 coach 透過電話或定期面談追蹤 \\
+\midrule
+頻率 & 每週 3-5 次，每次 30-50 分鐘 \\
+\midrule
+強度 & \textcolor{emergency_red}{\textbf{必須誘發缺血性腿部症狀 (high intensity)}} \newline 低強度運動無顯著效果 \\
+\midrule
+效果 & Maximal treadmill walking distance +53.7 m\newline 6-minute walk distance +55.6 m \\
+\midrule
+行為介入 & 設定運動目標\newline 管理運動時缺血性疼痛的策略\newline 監測進度\newline 建立 self-efficacy \\
+\midrule
+保險給付 & Medicare 不給付 \\
+\midrule
+優點 & 方便、可近性高 \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{LITE trial 重要發現：}High-intensity home-based exercise (誘發缺血症狀) 使 6-minute walk distance 增加 49.6 m (P<0.001)，而 low-intensity exercise (不誘發症狀) 僅增加 8.7 m，與對照組無顯著差異 (P=0.44)。
+}
+
+\subsection{血管重建術 (Revascularization)}
+
+\begin{importantbox}
+\textbf{適應症：}僅限於接受運動治療後仍有\textbf{持續性、影響生活品質的缺血性腿部症狀}之患者。
+\end{importantbox}
+
+\subsubsection{手術方式}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Surgical revascularization:} Endarterectomy 或 bypass surgery
+    \item \textbf{Endovascular revascularization:}
+    \begin{itemize}
+        \item Uncoated 或 drug-coated balloon angioplasty
+        \item Bare-metal 或 drug-eluting stents
+        \item Atherectomy 或 lithotripsy（處理嚴重鈣化病灶）
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{效果比較}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Aortoiliac endovascular:} 效果最佳且最持久，與 supervised exercise 相當
+    \item \textbf{Femoropopliteal endovascular:} 效果較差
+    \item \textbf{Infrapopliteal arteries:} 對 claudication 患者效果不明確
+\end{itemize}
+
+\textbf{CLEVER trial (Aortoiliac PAD):}
+\begin{itemize}[leftmargin=2em]
+    \item Maximal treadmill walking time：supervised exercise = endovascular revascularization
+    \item Patient-reported outcomes (Walking Impairment Questionnaire)：\newline Endovascular > Supervised exercise (score change 43.8 vs. 25.1, P=0.03)
+\end{itemize}
+
+\subsubsection{Endovascular vs. Open Bypass Surgery}
+
+\begin{longtable}{p{5cm}p{4cm}p{4cm}}
+\toprule
+\textbf{項目} & \textbf{Endovascular} & \textbf{Open Bypass} \\
+\midrule
+\endfirsthead
+Repeat revascularization (1 年) & 12\% & 5\% \\
+\midrule
+Repeat revascularization (3 年) & 19\% & 8\% \\
+\midrule
+30 天 procedure-related complications & 8.8\% & 30.7\% \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{心血管事件預防}
+%============================================================
+
+\subsection{Cholesterol-lowering Therapy}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{建議：}High-intensity statin (atorvastatin 或 rosuvastatin)，使用可耐受的最高劑量
+    \item \textbf{目標：}LDL-C 降低至少 50\%（ESC 建議 <55 mg/dL）
+    \item \textbf{證據：}Heart Protection Study - Simvastatin 40 mg vs. placebo
+    \begin{itemize}
+        \item 全因死亡：12.9\% vs. 14.7\% (P<0.001)
+        \item 冠心病死亡：5.7\% vs. 6.9\% (P<0.001)
+    \end{itemize}
+    \item \textbf{加強治療：}高風險患者可加用 PCSK9 inhibitor 或 ezetimibe，可進一步減少 CV events 及 MALE
+\end{itemize}
+
+\subsection{Antiplatelet and Antithrombotic Therapy}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{治療選項} & \textbf{說明} \\
+\midrule
+\endfirsthead
+Single antiplatelet & Aspirin 81-325 mg/day 或 Clopidogrel 75 mg/day \\
+\midrule
+Dual pathway inhibition & \textbf{Rivaroxaban 2.5 mg BID + Aspirin 100 mg/day} \\
+\bottomrule
+\end{longtable}
+
+\textbf{COMPASS trial (PAD or carotid artery disease, n=7,470):}
+
+\begin{center}
+\begin{tabular}{p{5cm}p{3cm}p{3cm}p{2cm}}
+\toprule
+\textbf{Outcome} & \textbf{Rivaroxaban + ASA} & \textbf{ASA alone} & \textbf{P value} \\
+\midrule
+Cardiovascular events & 5\% & 7\% & 0.005 \\
+Major adverse limb events & 1\% & 2\% & 0.004 \\
+Major bleeding & 3\% & 2\% & -- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{VOYAGER PAD trial (post-revascularization, n=6,564):}
+\begin{itemize}[leftmargin=2em]
+    \item Rivaroxaban 2.5 mg BID + ASA vs. ASA alone
+    \item 3 年 composite outcome (CV death, MI, stroke, ALI, major amputation)：17.3\% vs. 19.9\% (P=0.009)
+    \item Major bleeding 較高
+\end{itemize}
+
+\subsection{Blood Pressure Treatment}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{目標：}<130/80 mmHg
+    \item \textbf{證據：}SPRINT trial - 高風險患者降至 <120 mmHg vs. <140 mmHg
+    \begin{itemize}
+        \item CV events：1.77\%/year vs. 2.40\%/year
+    \end{itemize}
+\end{itemize}
+
+\subsection{GLP-1 Receptor Agonists (CV Prevention)}
+
+\textbf{SELECT trial (CV disease + BMI $\geq$27, no DM, n=17,604):}
+\begin{itemize}[leftmargin=2em]
+    \item 8.7\% 有症狀性 PAD
+    \item Semaglutide vs. placebo
+    \item CV events：6.5\% vs. 8.0\% (P<0.001)，追蹤 39.8 個月
+\end{itemize}
+
+\textbf{SOUL trial (T2DM + ASCVD or CKD, n=9,650):}
+\begin{itemize}[leftmargin=2em]
+    \item 15.7\% 有 PAD
+    \item Oral semaglutide 14 mg vs. placebo
+    \item CV events：12.0\% vs. 13.8\% (P=0.006)，追蹤 47.5 個月
+\end{itemize}
+
+\subsection{SGLT2 Inhibitors (糖尿病患者)}
+
+\begin{longtable}{p{3cm}p{5cm}p{6cm}}
+\toprule
+\textbf{Trial} & \textbf{藥物/族群} & \textbf{結果} \\
+\midrule
+\endfirsthead
+EMPA-REG & Empagliflozin\newline T2DM 高 CV 風險\newline 21\% 有 PAD & CV events: 10.5\% vs. 12.1\% (P=0.04)\newline 無截肢風險增加 \\
+\midrule
+CANVAS & Canagliflozin\newline T2DM 高 CV 風險\newline 21\% 有 PVD & CV events 減少 (P=0.02)\newline \textcolor{emergency_red}{截肢風險增加 (6.3 vs. 3.4/1000 pt-yr)} \\
+\midrule
+CREDENCE & Canagliflozin\newline T2DM + CKD\newline 23.8\% 有 PVD & 截肢風險無顯著增加 (12.3 vs. 11.2/1000 pt-yr) \\
+\bottomrule
+\end{longtable}
+
+\note{
+\textbf{臨床建議：}對 PAD + T2DM 患者，\textbf{empagliflozin 或 dapagliflozin} 可能是較安全的選擇，因未觀察到截肢風險增加。
+}
+
+\subsection{Smoking Cessation}
+
+\begin{itemize}[leftmargin=2em]
+    \item 使用行為介入 + 藥物 (varenicline, bupropion, 或 nicotine replacement)
+    \item \textbf{證據：}PAD 患者接受 leg angiography 後 1 年
+    \begin{itemize}
+        \item 戒菸者 vs. 持續吸菸者
+        \item 全因死亡：14\% vs. 31\%
+        \item Amputation-free survival：81\% vs. 60\%
+    \end{itemize}
+\end{itemize}
+
+%============================================================
+\section{治療摘要與指引建議}
+%============================================================
+
+\subsection{AHA/ACC 2024 Guidelines 建議}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{目標} & \textbf{建議} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{目標} & \textbf{建議} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+預防心血管事件 & Intensive cholesterol-lowering (statin)\newline BP <130/80 mmHg\newline Single antiplatelet 或 low-dose rivaroxaban + aspirin \\
+\midrule
+預防 MALE & Intensive cholesterol-lowering\newline Low-dose rivaroxaban + aspirin \\
+\midrule
+改善行走障礙 & Supervised walking exercise (first-line)\newline Structured home-based walking exercise (first-line)\newline Cilostazol (心衰竭禁用)\newline Revascularization (運動治療無效時) \\
+\bottomrule
+\end{longtable}
+
+\subsection{ESC 2024 Guidelines 差異}
+
+\begin{itemize}[leftmargin=2em]
+    \item LDL-C 目標：<55 mg/dL（較 AHA/ACC 更嚴格）
+    \item Home-based exercise：視為「reasonable」但非第一線治療
+\end{itemize}
+
+%============================================================
+\section{Key Points 重點整理}
+%============================================================
+
+\begin{importantbox}
+\begin{enumerate}[leftmargin=2em]
+    \item 高達 90\% 的 PAD 患者\textbf{沒有典型 claudication}，約 60\% 無症狀
+
+    \item \textbf{ABI <0.90} 診斷 PAD 的準確度為 72-89\%
+
+    \item \textbf{10 年心血管死亡率}：PAD 患者顯著高於無 PAD 者
+    \begin{itemize}
+        \item 男性：18.7\% vs. 4.4\%
+        \item 女性：12.6\% vs. 4.1\%
+    \end{itemize}
+
+    \item \textbf{6 分鐘步行測試}需中途休息比例：
+    \begin{itemize}
+        \item 無 PAD：3.3\%
+        \item 輕度 PAD：18.1\%
+        \item 重度 PAD：52.0\%
+    \end{itemize}
+
+    \item \textbf{心血管預防}：Statin + 抗血小板/抗凝血 + 血壓控制 + GLP-1 RA + SGLT2i (DM)
+
+    \item \textbf{行走障礙治療}：
+    \begin{itemize}
+        \item 運動治療為第一線 (supervised 或 home-based)
+        \item Cilostazol、semaglutide 效果有限
+        \item Revascularization 僅用於運動治療無效者
+    \end{itemize}
+\end{enumerate}
+\end{importantbox}
+
+%============================================================
+\section{案例處理建議}
+%============================================================
+
+對於本文開頭的 62 歲女性案例，作者建議：
+
+\textbf{改善行走障礙：}
+\begin{enumerate}[leftmargin=2em]
+    \item 若能配合每週三次就診且有保險給付 → \textbf{Supervised exercise 12 週}
+    \item 若無法配合 supervised exercise → \textbf{Structured home-based walking exercise}
+    \item \textbf{Cilostazol 或 semaglutide} 可作為輔助治療
+    \item 若以上治療仍無法改善症狀 → 考慮 \textbf{revascularization}
+\end{enumerate}
+
+\textbf{預防心血管事件：}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Atorvastatin 或 rosuvastatin}：可耐受的最高劑量
+    \item \textbf{血壓控制}：<130/80 mmHg
+    \item \textbf{抗血栓治療}：Rivaroxaban 2.5 mg BID + low-dose aspirin，或 clopidogrel alone
+    \item 考慮 \textbf{SGLT2 inhibitor + semaglutide}（減少心血管事件）
+\end{itemize}
+
+%============================================================
+\section{未解問題 (Areas of Uncertainty)}
+%============================================================
+
+\begin{enumerate}[leftmargin=2em]
+    \item 各種治療（運動、藥物、revascularization）的\textbf{最佳組合與時機}尚待確立
+    \item \textbf{抗發炎藥物}（如 canakinumab）對行走能力的效果需進一步研究
+    \item \textbf{促進骨骼肌生長藥物}（如 bimagrumab）的效果待研究
+    \item \textbf{Colchicine} 等抗發炎藥物預防 PAD 患者心血管事件的效果尚不明確
+\end{enumerate}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item McDermott MM. Peripheral Artery Disease in the Legs. \href{https://doi.org/10.1056/NEJMcp2501200}{\textit{N Engl J Med}. 2026;394:486-96.}
+
+    \item Gornik HL, Aronow HD, Goodney PP, et al. 2024 ACC/AHA/AACVPR/APMA/ABC/SCAI/SVM/SVN/SVS/SIR/VESS Guideline for the Management of Lower Extremity Peripheral Artery Disease. \href{https://doi.org/10.1161/CIR.0000000000001251}{\textit{Circulation}. 2024;149:e1313-e1410.}
+
+    \item Mazzolai L, Teixido-Tura G, Lanzi S, et al. 2024 ESC Guidelines for the Management of Peripheral Arterial and Aortic Diseases. \href{https://doi.org/10.1093/eurheartj/ehae179}{\textit{Eur Heart J}. 2024;45:3538-700.}
+
+    \item Bonaca MP, Catarig A-M, Houlind K, et al. Semaglutide and Walking Capacity in People with Symptomatic Peripheral Artery Disease and Type 2 Diabetes (STRIDE). \href{https://doi.org/10.1016/S0140-6736(25)00565-9}{\textit{Lancet}. 2025;405:1580-93.}
+
+    \item Anand SS, Bosch J, Eikelboom JW, et al. Rivaroxaban with or without Aspirin in Patients with Stable Peripheral or Carotid Artery Disease (COMPASS). \href{https://doi.org/10.1016/S0140-6736(17)32409-1}{\textit{Lancet}. 2018;391:219-29.}
+
+    \item Bonaca MP, Bauersachs RM, Anand SS, et al. Rivaroxaban in Peripheral Artery Disease after Revascularization (VOYAGER PAD). \href{https://doi.org/10.1056/NEJMoa1910459}{\textit{N Engl J Med}. 2020;382:1994-2004.}
+
+    \item McDermott MM, Spring B, Tian L, et al. Effect of Low-Intensity vs High-Intensity Home-Based Walking Exercise on Walk Distance in Patients with Peripheral Artery Disease (LITE). \href{https://doi.org/10.1001/jama.2021.2536}{\textit{JAMA}. 2021;325:1266-76.}
+\end{enumerate}
+
+\end{document}

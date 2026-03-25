@@ -1,0 +1,16 @@
+---
+title: "致謝"
+lang: zh-TW
+---
+
+不到兩個月的時間，參與觀察了共125例經導管瓣膜手術，其中每一例均成功。中間很感謝Mainz Heart Valve Center: Dr. Ralph Stephan von Bardeleben, Dr. Ruf Tobias, Dr. Theresa, Dr. Julian等醫師的指導。也感謝一起受訓的 Dr. Kabir (from India) and Dr. Julian (from Colombia)的一起討論，過程收獲都在滿滿的筆記與這份報告中。希望可以將經驗與技術帶回台灣，並提升在地醫療與研究水平。
+
+我個人也非常享受可以一直作畫筆記的時光 (@fig-mainz-notes)。
+
+![在Mainz Hybrid OR內持續作畫筆記的內容概觀。](../images/general/fig%20Mainz%20notes.png){#fig-mainz-notes}
+
+本報告之citation盡力求完整，並標示清楚quotation/citation/reference. 文件內網路上的影片均有標示。因為病患隱私，所有重要手術均以繪圖方式記錄，若對筆記繪圖有興趣，可以來信 H11135@hch.gov.tw.
+
+考量檔案內容圖片極多，文件以overleaf製作 (Latex). 文件Latex格式以 Tufte-Book template完成。檔案內容，對於複雜的英文翻譯，以ChatGPT用以下prompt進行: "請幫我翻成繁體中文"，之後再以人工方式確認翻譯內容是否正確。文件中的表格以Latex package: longtable製作，採用ChatGPT輔助加速Latex語法產生 (以下面prompt進行: 請幫我將此表格轉換為latex longtable語法)。
+
+對於文件內容有疑問或指教，歡迎來信: H11135@hch.gov.tw.

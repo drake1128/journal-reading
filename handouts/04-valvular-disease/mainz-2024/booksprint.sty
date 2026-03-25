@@ -1,0 +1,57 @@
+% SILENCE THE WARNINGS!
+\usepackage{silence}
+\WarningFilter{latex}{Marginpar on page}
+\WarningFilter{bibentry}{You have used \nobibliography*}
+
+%\geometry{showframe}% for debugging purposes -- displays the margins
+
+% Set input encoding to allow e.g. accents
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+% The following package makes prettier tables.
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+\usepackage{units}
+\usepackage{todonotes}
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+% Small sections of multiple columns
+\usepackage{multicol}
+
+% Provides paragraphs of dummy text
+\usepackage{lipsum}
+
+\usepackage[framemethod=TikZ]{mdframed}
+
+% These commands are used to pretty-print LaTeX commands
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+
+\newcommand{\logos}{%
+\begin{marginfigure}
+\vskip -1.2in
+\includegraphics{images/general/fig_ntuh_logo.jpg}
+\end{marginfigure}
+%\begin{marginfigure}
+%\vskip -0.2in
+%\includegraphics{images/general/fig_logo_cv_center.png}
+%\end{marginfigure}
+}

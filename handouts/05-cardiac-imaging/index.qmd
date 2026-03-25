@@ -1,0 +1,14 @@
+---
+title: "心臟影像 — Cardiac Imaging"
+---
+
+## 教學講義 Handouts
+
+
+
+## LaTeX Files
+
+- Cardiac_MRI_LGE_Patterns_心臟磁振造影判讀.tex
+- Circulation AI-ECG Phenotypic Selectivity 2025 教學講義.tex
+- ECG_Reading_Guide_護理心電圖判讀指南.tex
+- EuroIntervention Intravascular Imaging 2024-2025 教學講義.tex

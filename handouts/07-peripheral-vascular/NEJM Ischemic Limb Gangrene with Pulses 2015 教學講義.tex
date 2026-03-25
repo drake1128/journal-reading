@@ -1,0 +1,488 @@
+% NEJM Ischemic Limb Gangrene with Pulses 2015 教學講義
+% 整理：謝慕揚, MD, PhD, FESC
+
+\documentclass[12pt,a4paper]{article}
+\input{.claude/assets/Drake_preamble.tex}
+
+% Custom header for this document
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{emergency_red}{NEJM Review 教學講義}}
+\fancyhead[R]{\textcolor{emergency_blue}{Ischemic Limb Gangrene with Pulses}}
+\fancyfoot[C]{\textcolor{emergency_gray}{\thepage}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{emergency_red}\leaders\hrule height \headrulewidth\hfill}}
+
+\begin{document}
+
+%============================================================
+% Title Page
+%============================================================
+\begin{center}
+{\LARGE\bfseries\textcolor{emergency_red}{New England Journal of Medicine}}\\[0.5cm]
+{\Large\textbf{Ischemic Limb Gangrene with Pulses}}\\[0.3cm]
+{\large 脈搏存在的缺血性肢體壞疽}\\[0.5cm]
+{\normalsize \href{https://doi.org/10.1056/NEJMra1316259}{N Engl J Med 2015;373:642-55. DOI: 10.1056/NEJMra1316259}}\\[0.3cm]
+{\normalsize 整理：謝慕揚 MD, PhD, FESC \quad 日期：\mydate}
+\end{center}
+
+\tableofcontents
+\newpage
+
+%============================================================
+\section{前言 (Introduction)}
+%============================================================
+
+\begin{importantbox}
+\textbf{核心概念：}缺血性肢體壞疽並非只來自動脈血栓或栓塞導致的脈搏消失。微血管血栓形成 (microthrombosis) 也可造成肢體壞疽，此時動脈脈搏仍可觸及或以 Doppler 偵測到。
+\end{importantbox}
+
+本篇綜論聚焦於因 \textbf{disseminated intravascular coagulation (DIC)} 及 \textbf{天然抗凝血機制失效 (natural anticoagulant failure)} 所導致的微血管血栓形成及肢體壞疽。
+
+%============================================================
+\section{微血管血栓相關的肢體缺血症候群}
+%============================================================
+
+\subsection{兩大症候群比較}
+
+\begin{longtable}{p{4cm}p{5.5cm}p{5.5cm}}
+\toprule
+\textbf{特徵} & \textbf{Venous Limb Gangrene\newline (靜脈性肢體壞疽)} & \textbf{Symmetric Peripheral Gangrene\newline (對稱性周邊壞疽)} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{特徵} & \textbf{Venous Limb Gangrene} & \textbf{Symmetric Peripheral Gangrene} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+潛在 DIC 病因 & HIT、轉移性腺癌、\newline Antiphospholipid syndrome & Septic shock（如 meningococcemia）、\newline Cardiogenic shock \\
+\midrule
+同側肢體 DVT & 是 & 通常無 \\
+\midrule
+受影響肢體數 & 通常 1 肢（有 DVT 的肢體） & 通常 2 或 4 肢（對稱性） \\
+\midrule
+Warfarin 相關 & 常見 & 通常無 \\
+\midrule
+先天性高凝血狀態 & 通常無 & 通常無 \\
+\midrule
+Thrombocytopenia & 是 & 是 \\
+\midrule
+Peak INR & 通常 $>$4.0（尤其與 coumarin 相關） & 通常 $>$2.0 \\
+\midrule
+Fibrin D-dimer & 顯著升高 & 顯著升高 \\
+\midrule
+TAT complexes & 顯著升高 & 顯著升高 \\
+\midrule
+Protein C $<$10\% & 是（尤其與 coumarin 相關） & 是 \\
+\midrule
+急性肝功能障礙 & 通常無 & 常見 \\
+\bottomrule
+\end{longtable}
+
+\subsection{Venous Limb Gangrene（靜脈性肢體壞疽）}
+
+\begin{itemize}
+    \item 定義：合併 deep-vein thrombosis 的肢體發生末梢缺血壞死 (acral ischemic necrosis)
+    \item 可逆性前驅狀態：\textbf{Phlegmasia cerulea dolens}（痛性青腫）
+    \begin{itemize}
+        \item 特徵：腫脹 (swollen)、青紫 (blue/ischemic)、疼痛 (painful) 的肢體
+    \end{itemize}
+    \item 通常只影響一側肢體
+\end{itemize}
+
+\subsection{Symmetric Peripheral Gangrene（對稱性周邊壞疽）}
+
+\begin{itemize}
+    \item 通常影響 2-4 肢，呈對稱性
+    \item 下肢比上肢更常受影響；約 1/3 患者手指或手部也受累
+    \item 若合併明顯的非末梢皮膚壞死，稱為 \textbf{Purpura fulminans}
+    \item 患者通常病情危急，伴隨 cardiogenic 或 septic shock
+\end{itemize}
+
+%============================================================
+\section{DIC 與天然抗凝血機制失效}
+%============================================================
+
+\subsection{DIC 的病理生理}
+
+DIC 特徵包括：
+\begin{enumerate}
+    \item 全身性止血活化（病理性 thrombin 生成）
+    \item Fibrinolysis 受損
+    \item 血管內 fibrin 形成與沉積
+    \item 微血管血栓性阻塞的可能性
+\end{enumerate}
+
+\note{
+\textbf{促發因子：}
+\begin{itemize}
+    \item Tissue factor（內皮細胞與單核球表現）
+    \item 增強的 leukocyte-endothelial interactions
+    \item 促發炎細胞激素（TNF-$\alpha$、IL-1$\beta$、IL-6）
+    \item Cytokine 介導的內皮 thrombomodulin 下調
+    \item 細菌內毒素、休克、酸血症、組織損傷
+    \item 血小板或腫瘤來源的 procoagulant microparticles
+\end{itemize}
+}
+
+\subsection{Protein C 天然抗凝血系統}
+
+\begin{itemize}
+    \item Thrombin 與內皮細胞 thrombomodulin 結合後，將 protein C 轉化為 activated protein C (APC)
+    \item APC 降解 factor Va 和 factor VIIIa，下調 thrombin 生成
+    \item 對微血管中的 thrombin 生成調控至關重要
+\end{itemize}
+
+\subsection{Antithrombin 系統}
+
+\begin{itemize}
+    \item Thrombin 與 antithrombin 形成共價連結的 thrombin-antithrombin (TAT) complexes 而失活
+    \item 此過程由內皮 heparan sulfate 或循環中的藥理性 heparin 催化
+\end{itemize}
+
+\keyfinding{
+\textbf{Warfarin 與肝功能障礙的風險：}
+\begin{itemize}
+    \item Warfarin 抑制 vitamin K 依賴性蛋白質合成，包括 protein C
+    \item 肝功能障礙影響 protein C 和 antithrombin 的合成
+    \item 這解釋了為何使用 warfarin 及肝功能異常是微血管血栓形成的危險因子
+\end{itemize}
+}
+
+%============================================================
+\section{Venous Limb Gangrene 各型}
+%============================================================
+
+\subsection{Cancer-Associated Venous Limb Gangrene}
+
+\begin{itemize}
+    \item 至少 50\% 的 venous gangrene 患者有潛在癌症
+    \item 特徵性臨床表現：
+    \begin{enumerate}
+        \item 看似原發性 DVT 患者
+        \item 完成 heparin-warfarin overlap 後不久出現 phlegmasia 或 venous limb gangrene
+        \item Heparin 治療期間血小板上升
+        \item 停用 heparin 後血小板快速下降
+        \item INR 急遽升至超治療範圍（通常 $>$4.0）時，肢體缺血壞死進展
+    \end{enumerate}
+    \item 通常為轉移性腺癌
+    \item HIT 抗體陰性；重啟 heparin 後血小板會上升
+\end{itemize}
+
+\begin{importantbox}
+\textbf{關鍵機轉：}Warfarin 無法抑制癌症相關的高凝血狀態，同時又透過耗竭 protein C 活性（常降至正常值 $<$10\%）而使患者易發生微血管血栓。
+\end{importantbox}
+
+\subsection{HIT-Associated Venous Limb Gangrene}
+
+\begin{itemize}
+    \item HIT 患者的血小板下降通常在 heparin 暴露後 5-10 天開始
+    \item 可在 heparin 使用中開始（typical onset）或停用後才開始/惡化（delayed onset）
+    \item 約 5\% 的 HIT 患者發生缺血性肢體損傷
+    \begin{itemize}
+        \item 動脈阻塞（platelet-rich ``white clot''）
+        \item Venous limb gangrene
+    \end{itemize}
+    \item 大多數發生 venous gangrene 的 HIT 患者與 warfarin 治療相關
+    \item 特徵：supratherapeutic INR、TAT/protein C 比值顯著升高
+\end{itemize}
+
+\subsection{Supratherapeutic INR 的意義}
+
+\begin{itemize}
+    \item INR 與 factor VII 水平呈密切相關
+    \item Factor VII 與 protein C 有強烈的共線性關係
+    \item 兩者皆有短半衰期（factor VII: 5 小時；protein C: 9 小時）
+    \item 兩者皆有低（nanomolar）血漿濃度
+    \item Supratherapeutic INR 是 protein C 嚴重降低（$<$10\%）的替代指標
+    \item 諷刺的是：儘管 INR 很高，thrombin 生成仍持續且微血管血栓仍發生
+\end{itemize}
+
+\subsection{Venous Limb Gangrene vs. Warfarin-Induced Skin Necrosis}
+
+\begin{longtable}{p{5cm}p{5cm}p{5cm}}
+\toprule
+\textbf{特徵} & \textbf{Venous Limb Gangrene} & \textbf{Warfarin-Induced Skin Necrosis} \\
+\midrule
+\endfirsthead
+壞死位置 & 末梢皮膚及深層組織（含骨骼） & 非末梢位置（乳房、腹部、大腿、小腿）皮膚或皮下組織 \\
+\midrule
+發生時間 & Warfarin 開始後 2-6 天 & Warfarin 開始後 2-6 天 \\
+\midrule
+先天性 protein C 異常 & 通常無 & 常見（protein C 缺乏、factor V Leiden） \\
+\bottomrule
+\end{longtable}
+
+\subsection{Venous Limb Gangrene 的預防與治療}
+
+\subsubsection{預防}
+
+\begin{enumerate}
+    \item 在急性 DVT 合併 thrombocytopenia 或 coagulopathy 時避免使用 warfarin
+    \item 若已使用 warfarin，應及時以 vitamin K 逆轉
+    \item HIT 急性（thrombocytopenic）期避免 warfarin
+    \item 癌症相關 DVT：LMWH 優於 warfarin
+    \item 癌症或 HIT 等高凝血狀態患者應避免使用 IVC filter
+\end{enumerate}
+
+\subsubsection{治療原則}
+
+\begin{enumerate}
+    \item \textbf{Vitamin K 給予}（針對 warfarin 相關的 INR 延長）
+    \begin{itemize}
+        \item 至少 10 mg 緩慢靜脈注射
+        \item 若 INR 持續或復發，12-24 小時後重複 5-10 mg
+    \end{itemize}
+    \item \textbf{治療劑量抗凝血}
+\end{enumerate}
+
+\note{
+\textbf{APTT Confounding 問題：}
+\begin{itemize}
+    \item 當患者基礎 APTT 已延長時，使用標準 APTT 調整劑量表會導致系統性給予不足的抗凝血劑量
+    \item 解決方案：
+    \begin{itemize}
+        \item 使用 LMWH
+        \item UFH 以 anti-factor Xa 監測
+        \item 使用不需 APTT 監測的抗凝血劑（danaparoid、fondaparinux）
+    \end{itemize}
+\end{itemize}
+}
+
+%============================================================
+\section{Symmetric Peripheral Gangrene 與 Purpura Fulminans}
+%============================================================
+
+\subsection{定義與特徵}
+
+\begin{itemize}
+    \item \textbf{Symmetric Peripheral Gangrene}：主要為末梢壞死
+    \begin{itemize}
+        \item 影響遠端肢體（足部比手指/手部更常見且更嚴重）
+        \item 有時也影響鼻、唇、耳、頭皮、生殖器
+    \end{itemize}
+    \item \textbf{Purpura Fulminans}：有廣泛、多中心、非末梢皮膚壞死
+    \begin{itemize}
+        \item 通常也有末梢肢體壞死
+    \end{itemize}
+    \item 最常見潛在疾病：septicemia、cardiac failure
+    \item 通常伴隨代謝性（lactic）acidosis
+\end{itemize}
+
+\subsection{臨床表現}
+
+\begin{enumerate}
+    \item 發燒、低血壓、點狀出血疹演變為更廣泛的紫斑
+    \item 缺血性肢體損傷早期徵兆：
+    \begin{itemize}
+        \item 明顯冰冷、蒼白、遠端肢體疼痛
+        \item 水疱（常為出血性）表示組織壞死
+        \item 無法因按壓而褪色的末梢發紺
+    \end{itemize}
+    \item 皮膚異常常有清楚分界且呈對稱性
+    \item 顏色變化：灰色、藍色、紫色 $\rightarrow$ 黑色
+    \item 下肢通常先於上肢受影響
+    \item 約 1/4 患者需四肢截肢
+    \item 死亡率超過 50\%
+\end{enumerate}
+
+\subsection{病理特徵}
+
+\begin{itemize}
+    \item 皮膚微血管血栓形成，侵犯小靜脈和微血管
+    \item 水腫的內皮細胞、微血管擴張、紅血球外滲
+    \item 多器官衰竭常見（呼吸、腎臟、肝臟）
+    \item 屍檢可見微血栓於：腎臟（皮質壞死）、肺、肝、脾、腎上腺、心、腦、胰臟、腸胃道
+\end{itemize}
+
+\subsection{相關微生物}
+
+\begin{longtable}{p{4cm}p{11cm}}
+\toprule
+\textbf{族群} & \textbf{常見病原} \\
+\midrule
+\endfirsthead
+幼童與青少年 & \textit{Neisseria meningitidis}（meningococcus） \\
+\midrule
+成人 & \textit{Streptococcus pneumoniae}（pneumococcus） \\
+\midrule
+脾臟切除/功能性無脾 & 莢膜細菌（meningococcus、\textit{H. influenzae}、pneumococcus） \\
+\midrule
+其他革蘭氏陽性菌 & \textit{Strep. pyogenes}、Staphylococcus species \\
+\midrule
+其他革蘭氏陰性菌 & \textit{Escherichia coli} \\
+\midrule
+其他 & Rickettsia、malaria、disseminated TB、\newline 病毒（rubeola、varicella）、\newline \textit{Capnocytophaga}（狗咬傷或人類唾液相關） \\
+\bottomrule
+\end{longtable}
+
+\subsection{Meningococcemia}
+
+\begin{itemize}
+    \item 細菌內毒素（lipopolysaccharide）以劑量依賴方式活化：
+    \begin{itemize}
+        \item 止血級聯（procoagulant 和 anticoagulant）
+        \item Fibrinolysis
+        \item 補體、kinin、cytokine 網絡
+    \end{itemize}
+    \item Tissue factor-bearing microparticles 參與 DIC 致病機轉
+    \item Protein C 活性嚴重降低與皮膚病變範圍及死亡率增加相關
+    \item Factor V Leiden 患者：死亡率無增加，但 purpura fulminans 相關組織壞死風險增加 3 倍（7\% $\rightarrow$ 21\%）
+\end{itemize}
+
+\subsection{Acute Ischemic Hepatitis（Shock Liver）}
+
+\begin{importantbox}
+\textbf{重要發現：}約 90\% 發生末梢缺血壞死的重症 DIC 患者有先前的 shock liver。缺血性肢體壞死通常在肝酵素初次升高後 2-5 天開始。
+\end{importantbox}
+
+\begin{itemize}
+    \item 此時間框架類似 warfarin-induced skin necrosis（warfarin 開始後 2-6 天）
+    \item 可能反映肝功能障礙或 warfarin 治療導致 protein C 合成受損，達到臨界低值所需的時間
+\end{itemize}
+
+\subsection{鑑別診斷}
+
+非 DIC 相關的 symmetric peripheral gangrene：
+\begin{multicols}{2}
+\begin{itemize}
+    \item Frostbite（凍傷）
+    \item Ergotism（麥角中毒）
+    \item Raynaud's phenomenon
+    \item Calciphylaxis
+    \item Postoperative TTP
+    \item Myeloproliferative/lymphoproliferative disorders
+    \item Vasculitis
+    \item Adult-onset Still's disease
+    \item Antiphospholipid syndrome
+    \item Ulcerative colitis
+\end{itemize}
+\end{multicols}
+
+%============================================================
+\section{治療考量}
+%============================================================
+
+\subsection{治療原則}
+
+由於 venous limb gangrene 和 symmetric peripheral gangrene 僅見於少數（$<$1\%）DIC 患者，治療主要基於理論考量和案例觀察：
+
+\begin{enumerate}
+    \item \textbf{藥物性中斷 thrombin 生成}（如 heparin 抗凝血）
+    \item \textbf{凝血因子補充}
+    \begin{itemize}
+        \item 補充天然抗凝血因子（protein C、antithrombin）
+        \item 可使用 FFP 或特定因子濃縮物
+    \end{itemize}
+    \item \textbf{減少肢體灌流不足的危險因子}
+    \begin{itemize}
+        \item 矯正低血壓
+        \item 減少或避免 vasopressors
+    \end{itemize}
+\end{enumerate}
+
+\subsection{抗凝血劑選擇}
+
+\note{
+\textbf{為何偏好 Heparin：}
+\begin{itemize}
+    \item 可直接監測抗凝血效果（測量 anti-factor Xa）
+    \item 避免基礎 APTT 升高時的系統性給藥不足
+    \item 肝腎衰竭時 heparin 清除率維持正常
+    \item 具有獨立於抗凝血作用的抗發炎特性
+    \item 有預防性和治療性劑量方案可選擇
+\end{itemize}
+}
+
+\textbf{Heparin 的限制：}
+\begin{itemize}
+    \item 需要 antithrombin 作為輔因子
+    \item 消耗性凝血病變患者（尤其合併肝功能障礙）antithrombin 可能降低
+\end{itemize}
+
+\subsection{其他治療}
+
+\begin{itemize}
+    \item \textbf{Recombinant activated protein C}：雖理論上有吸引力，但大型隨機試驗未顯示 septic shock 存活率改善，已下市
+    \item \textbf{High-dose antithrombin concentrates}：嚴重 sepsis 試驗未改善死亡率
+    \begin{itemize}
+        \item 但在合併 DIC 且未接受 heparin 的 antithrombin 治療亞組，死亡率似乎較低
+    \end{itemize}
+    \item \textbf{Recombinant human soluble thrombomodulin}：目前實驗性治療方向
+\end{itemize}
+
+\subsection{外科考量}
+
+\begin{longtable}{p{4cm}p{11cm}}
+\toprule
+\textbf{處置} & \textbf{考量} \\
+\midrule
+\endfirsthead
+Fasciotomy & 可減少因組織水腫造成的 compartment syndrome\newline 缺點：破壞皮膚屏障、通常需中斷或延後抗凝血治療 \\
+\midrule
+早期截肢 & 應盡量避免，因難以區分存活與壞死組織\newline 等待自發性脫落 (autoamputation) 有時可減少最終組織損失 \\
+\midrule
+多專科團隊 & 整形外科/傷口照護、內科/感染科、足踝科\newline 在燒傷中心照護可能有幫助 \\
+\bottomrule
+\end{longtable}
+
+%============================================================
+\section{特殊情況}
+%============================================================
+
+\subsection{Neonatal Purpura Fulminans}
+
+\begin{itemize}
+    \item 可由先天性 protein C 或 protein S 缺乏引起
+    \item 可能需終身 FFP 或 protein C 濃縮物治療
+    \item 肝臟移植可能是選項
+\end{itemize}
+
+\subsection{Idiopathic 與 Postviral Purpura Fulminans}
+
+\begin{itemize}
+    \item 無已知誘發因子發生
+    \item 或在不複雜的 varicella 感染後數週發生
+    \item 後者可能與暫時性抑制 protein S 的自體抗體有關
+\end{itemize}
+
+%============================================================
+\section{重點摘要}
+%============================================================
+
+\begin{importantbox}
+\textbf{Take-Home Messages：}
+\begin{enumerate}
+    \item 缺血性肢體壞疽可在脈搏存在下發生，由微血管血栓形成造成
+    \item 兩大症候群：Venous limb gangrene（合併 DVT）和 Symmetric peripheral gangrene（通常無 DVT）
+    \item 共同病理生理：DIC 合併天然抗凝血機制（protein C、antithrombin）失效
+    \item Warfarin 相關的 venous limb gangrene 特徵為 supratherapeutic INR（$>$4.0），反映 protein C 嚴重缺乏
+    \item Shock liver 是 symmetric peripheral gangrene/purpura fulminans 的重要前驅因素
+    \item 治療：避免/逆轉 warfarin、積極抗凝血（避免 APTT confounding）、支持療法
+    \item 預後不佳：死亡率 $>$50\%，約 1/4 患者需四肢截肢
+\end{enumerate}
+\end{importantbox}
+
+%============================================================
+\section{參考文獻}
+%============================================================
+
+\begin{enumerate}
+    \item Warkentin TE. Ischemic Limb Gangrene with Pulses. \href{https://doi.org/10.1056/NEJMra1316259}{\textit{N Engl J Med}. 2015;373:642-55.}
+
+    \item Warkentin TE, Cook RJ, Sarode R, et al. Warfarin-induced venous limb ischemia/gangrene complicating cancer: a novel and clinically distinct syndrome. \href{https://doi.org/10.1182/blood-2015-01-622563}{\textit{Blood}. 2015;126:486-93.}
+
+    \item Warkentin TE, Elavathil LJ, Hayward CPM, et al. The pathogenesis of venous limb gangrene associated with heparin-induced thrombocytopenia. \href{https://doi.org/10.7326/0003-4819-127-9-199711010-00005}{\textit{Ann Intern Med}. 1997;127:804-12.}
+
+    \item Levi M, Ten Cate H. Disseminated intravascular coagulation. \href{https://doi.org/10.1056/NEJM199908193410807}{\textit{N Engl J Med}. 1999;341:586-92.}
+
+    \item Esmon CT. The protein C pathway. \href{https://doi.org/10.1378/chest.124.3_suppl.26S}{\textit{Chest}. 2003;124(Suppl):26S-32S.}
+
+    \item Warkentin TE, Greinacher A, Koster A, Lincoff AM. Treatment and prevention of heparin-induced thrombocytopenia. \href{https://doi.org/10.1378/chest.08-0677}{\textit{Chest}. 2008;133(6 Suppl):340S-380S.}
+
+    \item Lee AY, Levine MN, Baker RI, et al. Low-molecular-weight heparin versus a coumarin for the prevention of recurrent venous thromboembolism in patients with cancer. \href{https://doi.org/10.1056/NEJMoa025313}{\textit{N Engl J Med}. 2003;349:146-53.}
+\end{enumerate}
+
+\end{document}

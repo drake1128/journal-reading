@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Journal Reading — Dr. Drake Hsieh"
+  description: "Cardiology Teaching Materials & Literature Reviews"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Mainz 2024"
+        href: handouts/04-valvular-disease/mainz-2024/quarto/zh/index.qmd
+    right:
+      - icon: github
+        href: https://github.com
+        text: GitHub
+  sidebar:
+    - title: "Teaching Handouts"
+      style: docked
+      contents:
+        - index.qmd
+        - section: "Cardiology"
+          contents:
+            - handouts/01-ischemic-heart-disease/index.qmd
+            - handouts/02-heart-failure/index.qmd
+            - handouts/03-arrhythmia/index.qmd
+            - handouts/04-valvular-disease/index.qmd
+            - handouts/05-cardiac-imaging/index.qmd
+            - handouts/06-interventional-cardiology/index.qmd
+            - handouts/07-peripheral-vascular/index.qmd
+        - section: "Specialized"
+          contents:
+            - handouts/08-genetic-medicine/index.qmd
+            - handouts/09-hypertension/index.qmd
+        - section: "Critical Care"
+          contents:
+            - handouts/10-icu-general/index.qmd
+            - handouts/11-icu-respiratory/index.qmd
+            - handouts/12-icu-hemodynamics/index.qmd
+            - handouts/13-icu-renal/index.qmd
+        - section: "Pulmonology"
+          contents:
+            - handouts/20-pulmonary-embolism/index.qmd
+            - handouts/21-pulmonary-hypertension/index.qmd
+            - handouts/22-copd-asthma/index.qmd
+        - section: "Other"
+          contents:
+            - handouts/90-ai-technology/index.qmd
+            - handouts/91-podcast-journal-review/index.qmd
+            - handouts/99-misc/index.qmd
+
+format:
+  html:
+    theme: default
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    lang: zh-TW

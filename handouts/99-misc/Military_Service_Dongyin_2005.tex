@@ -1,0 +1,1390 @@
+% Military_Service_Dongyin_2005.tex
+% 東引島軍醫官回憶錄 (2004-2005)
+% 作者: 謝慕揚, MD, PhD, FESC
+% 編譯方式: xelatex Military_Service_Dongyin_2005.tex
+
+\documentclass[12pt,a4paper]{article}
+
+% Including essential packages for Chinese typesetting
+\usepackage{xeCJK}
+\usepackage{fontspec}
+% Configuring Chinese font with Noto Serif CJK TC, fallback to SimSun
+\IfFontExistsTF{Noto Serif CJK TC}{
+  \setCJKmainfont{Noto Serif CJK TC}
+  \setCJKsansfont{Noto Serif CJK TC}
+  \setCJKmonofont{Noto Serif CJK TC}
+}{\setCJKmainfont{SimSun}
+  \setCJKsansfont{SimSun}
+  \setCJKmonofont{SimSun}
+}
+
+% Including other necessary packages
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{datetime2}
+\usepackage{hyperref}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+% Defining colors
+\definecolor{emergency_red}{RGB}{186,24,27}
+\definecolor{emergency_blue}{RGB}{0,114,188}
+\definecolor{emergency_gray}{RGB}{120,120,120}
+\definecolor{highlight_yellow}{RGB}{255,250,205}
+\definecolor{quote_bg}{RGB}{245,245,245}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=emergency_blue,
+    citecolor=emergency_blue,
+    urlcolor=emergency_blue,
+    pdfborder={0 0 0}
+}
+
+% Defining page geometry
+\geometry{
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2.5cm,
+  right=2.5cm,
+  headheight=25pt
+}
+
+% Adjusting topmargin to compensate for increased headheight
+\addtolength{\topmargin}{-10pt}
+
+% Setting title formats
+\titleformat{\section}[block]{\Large\bfseries\color{emergency_red}}{\thesection}{10pt}{}
+\titleformat{\subsection}[block]{\large\bfseries\color{emergency_blue}}{\thesubsection}{8pt}{}
+\titleformat{\subsubsection}[block]{\normalsize\bfseries\color{emergency_gray}}{\thesubsubsection}{6pt}{}
+
+% Defining custom environment for quotes
+\newenvironment{myquote}{%
+    \begin{tcolorbox}[
+        colback=quote_bg,
+        colframe=emergency_gray,
+        boxrule=0pt,
+        leftrule=3pt,
+        arc=0pt,
+        left=10pt,
+        right=10pt,
+        top=8pt,
+        bottom=8pt
+    ]
+    \itshape
+}{%
+    \end{tcolorbox}
+}
+
+% Defining note command with tcolorbox
+\newcommand{\note}[1]{
+    \par
+    \noindent
+    \begin{tcolorbox}[
+        colback=emergency_blue!5!white,
+        colframe=emergency_blue,
+        title=\textbf{重點提醒},
+        fonttitle=\bfseries,
+        boxrule=0.5pt,
+        arc=3pt,
+        left=6pt,
+        right=6pt,
+        top=6pt,
+        bottom=6pt
+    ]
+    #1
+    \end{tcolorbox}
+}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{emergency_gray}東引島軍醫官回憶錄}
+\fancyhead[R]{\small\color{emergency_gray}謝慕揚, MD, PhD, FESC}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Title page setup
+\title{
+    \vspace{-1cm}
+    {\Huge\bfseries\color{emergency_red} 東引島軍醫官回憶錄}\\[0.5cm]
+    {\Large\color{emergency_blue} (2004-2005)}\\[1cm]
+    {\large 馬祖東引島野戰醫院服役紀實}
+}
+\author{
+    \textbf{謝慕揚, MD, PhD, FESC}\\[0.3cm]
+    {\normalsize 慈濟大學醫學系 86 級}\\[0.2cm]
+    {\small 整理自 2004-2005 年 Gmail 通信紀錄及 BBS 文章}\\
+    {\small 發表於慈濟大學醫學系86級班板 MED86@perl.tcu.edu.tw}
+}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\vfill
+
+\begin{center}
+\begin{tcolorbox}[
+    colback=highlight_yellow,
+    colframe=emergency_red,
+    width=0.8\textwidth,
+    arc=5pt,
+    boxrule=1pt
+]
+\centering
+\large\bfseries
+「千山萬水我獨行，但從不孤單。」
+\end{tcolorbox}
+\end{center}
+
+\vfill
+
+\newpage
+
+\tableofcontents
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{作者簡介}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}[leftmargin=2cm]
+    \item \textbf{姓名：} 謝慕揚
+    \item \textbf{學歷：} 慈濟大學醫學系（2004年6月畢業）
+    \item \textbf{服役地點：} 馬祖東引島野戰醫院
+    \item \textbf{服役時間：} 2004年11月～2005年
+    \item \textbf{職務：} 軍醫官
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{抽籤與分發}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{千山萬水 (4/78) — 2004年11月13日}
+
+這週最重要的事情來了——就是抽籤。
+
+我這輩子連這次算起來抽過兩次很重要的籤。第一次是在國小升國中的時候，新竹的實驗國中滿多人想進去，所以國小只能有一部份人能直升。那一把我沒抽中，我記得那一次我真的很難過。
+
+這次一抽就中馬祖東引醫院。我在台上聯到時還愣了半秒鐘，才開始覆頌我要去的地方。
+
+其實說也奇怪，我在台下就有直覺是外島，雖然沒有舉手簽切結書自願去外島，可是就是會有強烈的感覺告訴我：「你會抽外島」。不過讓我驚訝的是：怎麼是這麼遠的外島？因為我們這一梯沒有東沙南沙的籤，所以這一支是手力所及最遠的。
+
+稍晚打電話跟我媽講，我媽還很高興跟我哈拉了半天，說外島很好呀。快掛電話時她又再問了一次：「慕揚你別跟我騙了，趕快講實話，別騙媽媽了，到底抽到哪裡呀？」
+
+\begin{myquote}
+之前在花蓮是隔千山，現在在東引是隔萬水。當兵要注意安全，在離島要更小心。
+\end{myquote}
+
+\subsection{給學弟們：關於醫官的抽籤 — 2005年8月17日}
+
+抽籤的那一天，我不信邪，沒有擦綠油精，沒有在手掌上畫台灣。現在想想，再重抽一次，我一定全部照辦。滿場在手上塗綠油精的人，不是空軍、就是爽籤。
+
+除非你想去澎湖，否則請慎重地考慮：是否要自願外島？如果澎湖的籤數少於自願外島的人數，那就再慎重地考慮一次，放棄自願外島。\textbf{外島真的很不好。}
+
+如果運氣真的很差，失去了去澎湖的機會，那就盡全力自願金門，千萬別來馬祖。馬祖很可憐的。去金門搭船要在高雄搭，去馬祖的船則在基隆搭。所以除非你住北部，不然去馬祖半點好處都沒有。
+
+我的這座島，軍官不島休、返台假只有十四天，而且不放路程假。
+
+在本島當醫官，命較好，放假正常，轉診單開起來，不像外島般困難，自己 handle 不了的弟兄，隨時轉診單一開，便可以得到較佳的照顧。不像較偏遠的地方，常常弟兄們養「病」養得很「離奇」了，才過來找你，讓你看了就想昏倒。
+
+\begin{myquote}
+\textbf{平安是福。}
+\end{myquote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{軍旅生活點滴}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{軍旅生涯 (2/78) — 2004年10月30日}
+
+頭髮一剪短，智商就減半。事情多又雜，但是正經事卻不多，多是思想教育。突然很想看書，我一天半看完了一部小說《乃文西密碼》(Da Vinci Code)，然後又開始無聊了。
+
+\begin{myquote}
+當兵絕對是還未當兵和正在當兵的男人最不想面對的事，能不當就不當，能逃掉就逃掉，卻也是服役完之後男人最美好的回憶，最珍惜的就是這段回憶。我在想人的一生中還能有哪件事這麼矛盾？
+\end{myquote}
+
+\subsection{船因風浪停駛 (5/78) — 2004年11月20日}
+
+結訓了，想都想不到這麼快，能跟自己的同學一起結訓感覺真好。這週上了幾堂有意思的課，請了疾病管制局的人馬，從簡介、感染管制、SARS、malaria、流病無所不包，感覺好像我們是要去病毒最前線作戰似的。
+
+聽他們講過去在 SARS 的戰場、撲滅瘧疾的戰場上，那些沒人知曉的英勇事蹟的時候，我還真的滿著迷的。
+
+\begin{myquote}
+我懶得聽人說教，可是很喜歡聽人說故事。
+\end{myquote}
+
+\subsection{冬夜飲酒 (9/78) — 2004年12月19日}
+
+來到這座島，我知道了讀慈濟的其它好處是什麼...
+
+有一天院長和學長們帶我們去島上最好的一間餐廳吃合菜，算是歡迎我們的加入。他們拿出來了好小的小酒杯，倒掉一整罐本地最有名的陳年高梁。
+
+我喝小一口就快噴出來了，嘴唇全麻掉...
+
+一群人一個一個地敬酒，弄得好不熱鬧，可是我真的喝不下去，真的受不了。喉嚨都要燒掉了。
+
+\begin{myquote}
+「ㄟ 不好意思，慈濟畢業的不太能喝酒」\\
+「ㄟ 我們校規以前校內是禁煙酒的」
+\end{myquote}
+
+嘿... 總算逃過一劫... 只好以茶以果汁代酒了。我頂多喝喝啤酒就快不行了，一口氣就進階到高梁當然會垮掉...
+
+\subsection{Dog Business (8/78) — 2004年12月12日}
+
+這座島上有不少狗，很多是軍犬，當然也有很多是民犬，幾乎沒有野狗，因為只要是狗都會被阿兵哥們收養。
+
+有位醫官同事跟我說，他來島上看的第一個病患跟開的第一份藥，就是自己，因為他被狗狗咬到...
+
+有天下午一個阿兵哥跑進來診間：「醫官，能不能開這個藥給我？」我跟他攤攤手：「寄生蟲很少見了耶，我們這裡沒有這種藥。」搞了半天，是他們連上的狗得了絛蟲病。原來他是唸獸醫的，從此以後我看到他就叫他「獸醫官」。
+
+聽老醫官說，之前還有狗狗被車子撞到開放性骨折，連夜他們為牠拍了 x 光，做了簡單的 suture，之後每天給狗狗打 oxacillin，劑量就給獸醫官算。狗狗後來就好了能跑了。
+
+更猛的是還曾經有隻狗被車子撞到 lumbar spine fracture，變成 paraplegia 兩條後腿都不能動了。他們照了片子發現脊椎骨破得離譜，不需要 training 也能認出那是 compression fracture。不過那條狗後來扒著兩條前腿自動失蹤，過了半年後又四隻腳活蹦亂跳地跑了回來。這個比較扯...
+
+\begin{myquote}
+狗狗的心電圖不曉得要怎麼看齁？下次再問問獸醫官狗要 on line 打點滴的話要打哪條血管...
+\end{myquote}
+
+\subsection{軍犬死亡證明 Dog Business(2) (13/78) — 2005年1月18日}
+
+前幾天來了兩個兵，一來也沒說要掛號，衝著我說的第一句話就讓我傻眼：
+
+「醫官，我們要找你開死亡證明。」
+
+哇塞！我快昏倒了...
+
+「ㄟ... 是我們家大狼狗的死亡證明。」
+
+這個嘛，我恐怕不會開耶...
+
+「我們連長怕你不會開，要我印了之前另一個醫官開的來給你看。」
+
+於是我就乖乖坐下來開始寫我這輩子開立的第一份死亡證明了...
+
+我看著表格上的一格格開始問：「軍犬編號？」「暱名？服役年資？」「毛色？」「身高？」「特徵？」「患犬發病經過？」
+
+然後飼主就開始報告：「早上還滿有活力的，可是快九點的時候就漸漸看起來沒力，先是坐著，然後臥著最後呼吸越來越慢，然後一口氣就沒了。」這隻老狗已經十二歲了，真的是太老了。
+
+他們跟我說要是軍犬懷孕的話，飼主會被抓去關禁閉！「軍犬要是處女才兇得起來，懷過小狗之後就兇不起來了。」
+
+\begin{myquote}
+想一想，我這輩子開的第一份死亡診斷... 這麼嚴重的一件事，我居然是為一隻大狼狗寫上「該患犬於民國九十○年... 氣絕身亡〈以下空白〉」。不管怎麼樣，我還是慎重地蓋上了我的章...
+\end{myquote}
+
+\subsection{Gollum 的精神分析 (10/78) — 2004年12月21日}
+
+BMJ 這週有篇文章，喜歡 The Lord of The Rings 和精神科的人可能會有興趣看一看。
+
+談的是裡面史麥戈─咕嚕的精神分析。他得的精神病是哪一種？診斷為何？中間還有一大段是 differential diagnosis。最前面還有 Gandalf the wizard 給的 present illness... 文末還有 Mental State Examination...
+
+\textbf{Reference:} Taking a leaf out of an old book: A precious case from Middle Earth. BMJ 2004;329:1435-1436 (18 December). 投稿人是英國某醫學院一群醫學生。
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{坑道裡的醫療}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{坑道裡的X-ray (6/78) — 2004年11月26日}
+
+混亂了一陣子之後，我開始看門診。
+
+我跟著醫務兵領著病患離開診間，走入山邊的坑道口，裡面蜿蜿蜒蜒，拐個彎我們踏入 X-ray 攝影室——陰陰涼涼加上超重的霉味。
+
+我從來沒有想到可以在這麼偏遠的離島，有這樣子一間可以照片子的房間，而且它就在坑道的裡面。更沒有想到，我有機會操作 X 光機...
+
+\subsubsection{自己裝片}
+
+\begin{myquote}
+「醫官醫官，快把燈關掉，不然片子就曝光了」
+\end{myquote}
+
+然後就眼前一黑，在坑道裡也滿方便的。接下來七手八腳把大鐵櫃打開，摸黑把底片找出來，放進片盒裡。我才發現我好怕黑...
+
+\subsubsection{自己洗片}
+
+\begin{myquote}
+「醫官，你知道之前我們自動洗片機壞掉時有多慘嗎？要自己泡顯影劑、定影劑... 顯影劑十五秒，清水洗，再定影劑十五秒... 再水洗...」
+\end{myquote}
+
+不過看著坑道宏偉的建築，看著那一台老舊的 X 光機和洗片機，我覺得以前的人真是偉大！
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{重大臨床案例}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{案例一：張力性氣胸 Tension Pneumothorax (9/78) — 2004年12月14日}
+
+\textbf{\large\color{emergency_red} Get me a chopper...}
+
+\vspace{0.3cm}
+
+今天凌晨三點半被同事挖下床。他值班值到三點來了個急性胸痛的病人，合併喘、右邊 breath sound 聽不到、加胸口劇痛。
+
+那個阿兵哥說睡到一半突然痛醒，痛到彎了腰才能走路。聽一聽右邊都沒聲音了... 趕快摸摸兩手的 pulse 和 trachea，摸摸看看氣管有沒有偏掉... pulse 還在就量量 bp，還好還沒掉...
+
+馬上去照的胸部 X 光剛好洗好... 看了就知道啦：\textbf{tension pneumothorax}，>50\% 的右肺都塌掉了再加上 trachea 偏到左邊...
+
+\subsubsection{緊急處置}
+
+\begin{itemize}
+    \item 所有的醫官都叫起床了，連院長副院長都過來看了
+    \item 有的人打電話聯絡三總，有的聯絡直升機
+    \item 一群醫官決定緊急插 chest tube（胸管）
+\end{itemize}
+
+當他的指尖一探進 pleural cavity 時，聽到噗嘶強勁氣流從肋膜腔裡放氣的聲音，大家都鬆了一口氣。
+
+只是到後來都沒人會綁 chest tube，試了一下綁不出來。「慕揚你綁過，給你來綁好了...」於是換我上場... 以前臨床解剖教我們的綁法大概是太炫了吧... 他們沒看過，看完後讚嘆連連，直說要學起來...
+
+\subsubsection{直升機後送}
+
+我站在直升機場遠遠盯著遠方的小光點越來越近，風超大超刺骨，接著直升機篤篤篤的引擎聲越來越響。看著救護直升機在你面前起降真的很讓人感動... 我看得全身血脈賁張。
+
+\begin{myquote}
+「Get me a chopper! It's emergency!」
+\end{myquote}
+
+站在超大的螺旋槳下方、頂著隆隆的聲響，把病人推進機腹裡又是另外一種感覺... 覺得過去所學真有用，醫學今天晚上「真的」拉了一條命回來。
+
+直升機飛一趟十八萬新台幣，人命不能用錢來衡量... 國家真的很偉大...
+
+\subsubsection{反思}
+
+想起王安石的《遊褒禪山記》：
+
+\begin{myquote}
+「夫夷以近，則遊者眾；險以遠，則至者少。而世之奇偉瑰怪非常之觀，常在於險遠，而人之所罕至焉。」
+\end{myquote}
+
+今天我在外島，算是險遠了吧？所以才有這些「奇偉瑰怪」之經歷？
+
+\subsection{案例二：風濕性心臟病合併急性肺水腫 (16/78) — 2005年2月8日}
+
+\textbf{\large\color{emergency_blue} Decompensating RHD with Acute Pulmonary Edema}
+
+\vspace{0.3cm}
+
+\textbf{2005/2/5, 13:52 — 我送著我第一個空中後送的病人抵達台北松山機場}
+
+收容中心住著一個等停役的一兵，他在一個多月前因為在我們這邊治療腳上的 cellulitis，因為咳血與過去小時候的 pulmonary TB 的 history，加上 chest x-ray 有 bronchiectasis 的變化，被送回去 screening for TB，結果意外診斷出了\textbf{風濕性心臟病}（rheumatic heart disease）。
+
+最近這一週，他的醫官返台休假去了，而他得了感冒越來越嚴重。上週四的中午，我巡病房的時候，他跟我聊到他睡覺時都很咳，說撐了七天晚上都睡不著覺。一聽不對勁，我中午就跑去看看他怎麼睡...
+
+結果是明顯的\textbf{端坐呼吸（orthopnea）}。他坐在床上，背靠著寢室的牆壁，一躺下來就咳到不行。馬上就去推氧氣製造機過來先給他吸。聽一聽胸部，murmur 還是一樣明顯，但是多出了 basilar rales。量一量 SpO$_2$，只有到 92\%。
+
+\subsubsection{後送過程}
+
+週五晚上我們看到快十一點才看完。他跟我說他給該員打了一針退燒針之後，該員看起來好多了。不過，我想還是順便過去病房看看他怎麼樣好了...
+
+伙同護理站的醫務士打著手電筒一進門，便看到他把床搖得高高的，整個人幾乎坐直靠在床背上，面上掛著 oxygen mask 卻還是一臉快窒息的表情。黑暗中迎著手電筒驚惶的那張臉，讓我心頭一凜...
+
+隔天週六為了趕船，一整個早上電話聯絡。在船上兩個小時的時間，我就跟他坐在船上的咖啡廳，面對面相望。在船上的咖啡廳就幫他打了一支 lasix...
+
+\subsubsection{ABG 結果}
+
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+\textbf{項目} & \textbf{數值} \\
+\midrule
+pH & 7.48 \\
+O$_2$ & 65 mmHg \\
+CO$_2$ & 40 mmHg \\
+HCO$_3$ & 28.6 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+看到 O$_2$ 65 mmHg 及 SpO$_2$ 90\%→88\%，我鬆了口氣：還好有堅持後送... 並立刻聯絡空中後送，醫療委員會在第一時間核準了我們的升空請求...
+
+\subsubsection{直升機升空}
+
+我心跳一百二，從來沒坐過直升機，真是超緊張... 關上機門十秒內我們就升空了... 貼著海平面上空一百公尺的高度疾速趕回台灣。看著海面的波紋，再看看眼前的病人，我覺得一切都像是作夢...
+
+五十二分鐘之後，週六下午快兩點，我們降落在台北松山機場... 當直升機飛進淡水河口時，沿著淡水河往盆地的中心前進時，我看著地上的捷運軌道，以及遠方的101大樓，突然覺得心頭一陣發燙，不禁激動了起來...
+
+\subsubsection{在三總急診室}
+
+當最後一切都在三總的急診室裡安頓妥當之後，我的病人躺得高高的，吸著 5L/min 的 O$_2$ mask，病床又大又舒服... 他終於對著我露出微笑...
+
+\begin{myquote}
+「X的！醫官被你害慘了！你以後沒事不要找我，去看看白板上你的醫官是誰再找行不行？」
+
+「醫官，實在是很謝謝你啦！真的...」
+\end{myquote}
+
+我們開始嬉皮笑臉...
+
+隔天週日早上他掃了 echo，大概是驚見太嚴重了，馬上就被送下 ICU 行 intensive monitoring。三總的醫師怕他熬不過去，預訂幫他開心換 valves...
+
+下午他的女朋友打進了我的手機，哭著跟我說三總的醫師認為情況不樂觀，可能開刀失敗的機會很高，可是再不開又不行...
+
+\begin{myquote}
+我跟他說我今晚會為他禱告，那也是我現在剩下能做的事... 她哭得更兇更厲害直說謝...
+\end{myquote}
+
+\subsubsection{感想}
+
+以前在醫院裡跑來跑去，從來沒有想過要把一個病人平平安安地送進醫院裡有多辛苦有多困難。那一天我全看到了。
+
+\begin{myquote}
+生命真的無價，即便在離島也是一樣。
+\end{myquote}
+
+\subsection{案例三：消化性潰瘍穿孔 Perforated Peptic Ulcer (23/78) — 2005年3月24日}
+
+我今天「親手」診斷了一個消化性潰瘍穿孔的病人。
+
+昨天晚上是我值班，早上七點時來了一個急診。21 歲年輕人說胸口痛，在早上五點多時從床上痛醒，痛得彎下了腰，痛到不能躺下來躺在床上。
+
+摸了肚子才發現其實是肚子在痛：guarding, severe tenderness, rebounding tenderness，摸完了再聽肚子：\textbf{silent abdomen}。
+
+我「親手」把他帶去坑道裡的 X-ray machine 旁邊。他實在是痛到不行，所以我跑到急診室外邊跟一百公尺外的衛兵大吼：「衛兵！弄一張輪椅過來！」不到一分鐘，輪椅就嚕嚕嚕過來了...
+
+再「親手」把片子洗了出來：要摸黑在洗片室裡，先把片子在一大桶半身高的顯影液裡泡十五秒，再用清水浸個一兩次，再泡進定影液裡十五秒。我左手右手一邊一張，覺得我像是礦工又像是化學兵...
+
+不到一分鐘我衝出洗片室，雙手把片子舉高，對著坑道裡發白的日光燈一比——
+
+\begin{center}
+\textbf{\Large\color{emergency_red} 哇塞！超明顯的 bilateral subdiaphragmatic free air！}
+\end{center}
+
+兩邊橫隔膜下積氣真的是超級典型的，肯定是胃還是腸破了個洞跑不掉（hollow organ perforation）。
+
+\begin{tcolorbox}[
+    colback=emergency_blue!10!white,
+    colframe=emergency_blue,
+    title=\textbf{Diagnosis},
+    fonttitle=\bfseries
+]
+Acute abdomen with bilateral subdiaphragmatic free air r/o perforated peptic ulcer
+\end{tcolorbox}
+
+五分鐘內所有的醫官都趕到急診了。上 line、寫病例、聯絡空中緊急後送，一切井然有序地進行。
+
+四十分鐘後他們在台北降落。沒多久進了手術房，\textbf{OP finding 是 duodenum 1st portion anterior wall perforation}。
+
+\begin{myquote}
+以前在醫院裡看別人診斷的 PPU，都沒有用自己手上親自洗的片子得到診斷的那一刻來得刺激。一張黑漆漆的片子在你眼前浮現出另一種影像，真是太神奇了...
+\end{myquote}
+
+\subsection{案例四：小腦梗塞 Cerebellar Infarction (24/78) — 2005年4月1日}
+
+上個禮拜碰到 PPU 再隔一天的下午，來了一個急診的老榮民，82 歲了，是被山下的民眾送上山來的，一來就狂吐。
+
+聽送來的民眾說他平常身體很好，整天往山上跑，很喜歡種菜，最近有點小感冒所以比較虛，一個人住，突然不舒服，所以打電話求救。
+
+\subsubsection{初步檢查}
+
+老伯伯除了狂吐之外手腳活動都正常，heart rate 快且不規則，rate: $\sim$110/min。人也沒發燒，抽了血發現有 dehydration，Hematocrit 高到 55\%。
+
+住院後仔細檢查 neurological status，伯伯神智很清楚，GCS 15 分滿分都可以 by order 配合，pupils 兩邊都很好，手腳雙邊都很有力很聽話，也沒有 Babinski sign。
+
+\subsubsection{病程轉變}
+
+就在他住院第五天的下午，我出完任務回到醫院裡想瞧瞧他今天人怎麼樣，結果就怪怪了。人變得有點 drowsy，GCS: E4V3M5，不能 by order 了... 腳變得不是很有力，同時呼吸變得淺快...
+
+我開始緊張了。Vital signs: 35.2°C, HR 120/min, RR 30/min, BP 120/70 mmHg。WBC 飆到 18000/uL，同時 granulocyte 到 92\%。再摸摸脖子開始硬起來了：Brudzinski sign (+)。
+
+\begin{tcolorbox}[
+    colback=emergency_blue!10!white,
+    colframe=emergency_blue,
+    title=\textbf{Impression},
+    fonttitle=\bfseries
+]
+Acute altered mental status with SIRS r/o meningitis
+\end{tcolorbox}
+
+\subsubsection{緊急空中後送}
+
+我準備好包包裡的蛙鏡，想說假如落海了我要想辦法游回台灣... 這次是我第二次空中後送了，不過目的地是台北榮總...
+
+一路上天候不佳，直升機真的顛簸得很，我都快吐了。在呼呼大風之中，我看到了淡水河口的燈光，心裡面真的是覺得得救了！
+
+週二的午夜 23:20，搖搖晃晃地我們就降落在台北榮總的頂樓停機坪上。一群醫護人員衝了出來迎接我們，我有被營救的感覺。一分鐘後我們從頂樓由電梯直入急診，講上窮碧落下黃泉不會太誇張...
+
+\subsubsection{診斷揭曉}
+
+急診有自己的 CT，就在診間外面十步之內。馬上 CT 做出來：
+
+\begin{tcolorbox}[
+    colback=emergency_red!10!white,
+    colframe=emergency_red,
+    title=\textbf{Diagnosis},
+    fonttitle=\bfseries
+]
+Massive left cerebellar infarction associated with hydrocephalus, r/o impending brainstem compression
+\end{tcolorbox}
+
+在週三的凌晨 03:00 他就打了個 Burr hole with extraventricular drainage and ICP monitoring。
+
+VS 說這個要是再遲些壓扁 brainstem 就掛了。我心裡苦笑：我當然知道... 不過他倒是滿能體會離島的苦處：「碰上這個沒有 CT 你們當然沒有辦法。」
+
+\begin{myquote}
+這次真的是 miss... 有把握不是 cerebral infarction，但是想不到碰到的會是 cerebellar infarction。沒有 CT，PE 又弱真的好恐怖...
+\end{myquote}
+
+\subsection{案例五：到院前死亡 Dead on Arrival (25/78) — 2005年4月9日}
+
+最近大概是天氣回暖，但是溫差變化仍大，島上的老人家很多人感冒了。繼前一位榮民伯伯中風之後，島上最近有一位老婆婆也走了。
+
+那天早上開完會，我們晃晃回到診間，才晃回去就接到一通電話，說山下的老人家「跌倒了」要送上來。救護車駕駛早就已經爬上車位了，招招手我跳上車，不到半分鐘就駛出營門。
+
+\subsubsection{急救過程}
+
+一進急診室就看到家屬在掩面哭泣。同事全部都在了，一個在擠 ambu，一個在找 IV，另一個正要聯絡空中後送。
+
+一個同事對我叫：E1V1M1，兩邊 pupils 都放大... 再轉頭看看 monitor：bp 量不到，SpO$_2$ 60\%，心跳正在掉。
+
+趕快準備 on endo，同時叫人幫忙抽 atropine dilute 準備從 endo 給藥。不到三十秒就 asystole 了，同事連忙跳上去直接 CPR 了...
+
+\textbf{這支 endo 我放得好險}，婆婆滿嘴都是口水，suction 也有限... 橋了快四十秒，總算是放上了... 搞得我滿頭大汗... endo 放好之後 SpO$_2$ 跟著就從 65\% 上升到 98\%...
+
+然後就是全套 ACLS：asystole/PEA 的流程了。Epinephrine, atropine, external cardiac massage, sodium bicarbonate 等全用上了...
+
+\begin{center}
+\textbf{\Large\color{emergency_blue} 大約給藥後不到二十分鐘，婆婆就 gain pulse 了！}
+\end{center}
+
+急診室裡的電話從頭到尾沒停過，一直響一直響。急診室外則停滿了車，山下的人全衝上山來關切了。
+
+\subsubsection{意外的訪客}
+
+到了下午，婆婆的大兒子從台灣搭飛機再轉直升機也回來了。結果我再一次傻眼：
+
+\textbf{孫越也來了！} 我們全部的醫官都嚇了一跳... 他直接走到急診推床邊，握著婆婆的手，領著大家祝禱，希望婆婆在天國平安。然後抬起頭來對我們說：「辛苦了！」
+
+原來孫越當天剛好應島上教堂的邀請來佈道，邀請人剛好是婆婆的女兒...
+
+\subsubsection{最終診斷}
+
+\begin{tcolorbox}[
+    colback=emergency_gray!10!white,
+    colframe=emergency_gray,
+    title=\textbf{Diagnosis},
+    fonttitle=\bfseries
+]
+Dead on arrival s/p CPR associated with bilateral intracranial hemorrhage
+\end{tcolorbox}
+
+\begin{myquote}
+畢業後第一支 endo 是在這座島上放的... 想不到會碰到孫越...
+\end{myquote}
+
+\subsection{案例六：魚刺螫傷 Fish Sting (50/78) — 2005年9月28日}
+
+這個週日下午我們在醫院門口乘涼，難得的一天下午沒什麼事... 沒多久，遠遠就有兩個人乘著機車，從山下衝上來，還叫得很大聲：「醫官！急診...」
+
+原來兩個都是兩棲蛙人。其中一個人抓著他自己的左手臂大叫痛！他們蛙人有時候都會潛到海裡捕魚，算是給晚餐加菜。今天捕了一條「臭肚」，準備要料理牠的時候，被牠的魚刺扎了兩次。
+
+\subsubsection{檢查所見}
+
+病人的左手拇指上，的確有一個小小的穿刺傷，有一點點發黑。除此之外，病人的左上肢有明顯的 allodynia，左手已經沒有辦法用力握住我的手指頭了... 整個痛的範圍在二十分鐘內，從左手指，一直蔓延到左胸大肌都在痛...
+
+\subsubsection{緊急處置}
+
+我撥了一通電話到北榮的毒物中心，毒物中心的人都「非常」專業。然後我衝進診間裡開始翻書：American Academy of Emergency Physician 出的 Textbook of Emergency Medicine。
+
+\begin{tcolorbox}[
+    colback=highlight_yellow,
+    colframe=emergency_blue,
+    title=\textbf{FISH STING 處置},
+    fonttitle=\bfseries
+]
+\begin{enumerate}
+    \item 泡熱水：non-scalding hot water bath
+    \item Local anesthesia for pain control
+    \item Tetanus toxoid prophylaxis
+    \item Local debridement
+    \item Prophylactic oral antibiotics
+\end{enumerate}
+\end{tcolorbox}
+
+於是同事叫了個醫務兵火速去拿電湯匙，準備熱水。另一邊我們開始給他打 \textbf{wrist block}（打 wrist block 是之前來這裡支援的一位骨科大夫教的）。
+
+三針打完之後，病人的手掌就失去了感覺，可是 motor function 卻不受影響。
+
+打完 wrist block 之後，病人就「爽」了，整個人都安靜了下來：「醫官，我好爽喔！好舒服喔！」之前還在床上扭來扭去像泥鰍一樣、叫痛的人，現在已經躺平了...
+
+剛好水也燒熱了，我們就把他的手泡在熱水裡... 才泡下去，他就更爽了... 整個人都笑了...
+
+書上寫著 vertebral marine venoms 多為 heat-labile，泡熱水可以解毒。
+
+\subsubsection{後記}
+
+隔天，我去兩棲連去支援他們做體能測驗。病人遠遠地看到我就跟我打招呼，手只剩下被魚刺扎的地方和我打麻醉的地方會痛，除此之外，一切都安好。
+
+當天下午，我在兩棲連的伙房看到了一條剛用魚槍打上來的「臭肚」。我好奇，所以就把魚洗了洗，然後把牠拿起來，\textbf{用背鰭上的刺把我左手食指的皮給挑了一個小洞...}
+
+然後我就開始等... 不到二十秒，我的左手食指遠端指節就「完全」麻掉了！是麻再加上細小的針刺的感覺。真的是很神奇。
+
+\subsection{案例七：燙傷 Scald Burn (8/78) — 2004年12月11日}
+
+我今天又有個病人出院。他一個月前在餐廳裡打飯的時候，不小心踢翻了湯鍋，滾燙的湯就灌進了他的球鞋裡。在他把湯從鞋裡倒出來之前，好像又在地板上慘叫了一陣子。總之是深二度 3\% 的 burn injury。
+
+之前照顧他的醫官返台休假，所以就換我接手...
+
+以前學的越來越覺得有用了...
+
+交班下來的是：燙傷的地方，石臘紗布不要取下來，讓它自己掉，用優碘淋，一天淋兩次... 不過我換到第二天就實在是受不了了。石臘紗布擺在傷口上已經兩週多了，網孔都變綠了... 每次淋完優碘，病人就痛到全身冷汗慘叫連連。
+
+反上落到我手上，就照我的意思換吧。於是就拿剪刀把髒掉的石臘紗布全部剪下來，接著全部改成無菌濕紗換 wet dressing Q8H。
+
+然後就看著傷口神速似的在眼前隨著每八個小時一次的換藥，越來越乾淨，granulation tissue 越長越漂亮，幾天之內就長了快 30\% 的面積。
+
+幾個禮拜下來，每天幫他換，換到今天讓他出院了，我的心裡面只有兩個字：\textbf{神奇！生命真是太神奇了！}
+
+他跟我說退伍後想去開計程車，難怪一直問我傷好了還能不能踩離合器？
+
+\begin{myquote}
+見實習要賣力，看起來再簡單容易的，最好都是反覆操作到熟練。像換藥這樣子簡單的事，也是有點學問的。
+\end{myquote}
+
+\subsection{案例八：足底筋膜炎 Plantar Fasciitis (10/78) — 2004年12月25日}
+
+有些時候真的很難去判斷病人講的到底是真還是假？尤其是他若是有強烈的動機裝病的時候，那又更難分了...
+
+前幾天有個阿兵哥來看我的診，他抱怨雙腳痛已經有快一個月了。怎麼看腳都不像是扭傷，也沒有腫，也沒有發紅，也沒有瘀血。他也說沒有扭到腳過，但是腳底板和腳的內側就是痛得要死。
+
+每次都痛到要來拿「休單」——就是醫官蓋章簽名該員阿兵哥就可以不用出操或是不用跑步的證明單張。
+
+腳明明看起來就是一副沒事的樣子，偏偏他又痛得離譜... 也沒什麼人相信他...
+
+我按了按他的腳底板內側，他居然痛得叫了出來...
+
+我想了一下就開始問：「一天當中什麼時候最痛？」「外側痛不痛？」「你家裡有沒有人也有類似的毛病？」
+
+最後的 impression 是\textbf{足底筋膜炎 (plantar fasciitis)}。最後問到的是：他早上下床的第一步最痛，外側不太會痛，他媽媽也有類似的毛病...
+
+他好像一副快哭出來的樣子，好像第一次有人相信他。
+
+\begin{myquote}
+剛開始最怕的是 malpractice，怕誤診了延誤了病人的病情，那是就 physical 的層面而言。而有的時候 malpractice，就 mental 的層面，是傷透病人的心。
+\end{myquote}
+
+\textbf{Reference:} Buchbinder R. Plantar Fasciitis. N Engl J Med 2004; 350:2159-2166.
+
+\subsection{案例九：急性副睪炎 Acute Epididymitis (11/78) — 2005年1月2日}
+
+「什麼？你說你哪裡痛？」我聽了都愣住了，還以為自己搞錯。「沒錯啦！就是「下面」痛啦！」
+
+雖然說急診室很空曠，我還是給他推了扇圍簾過來讓他脫下褲子檢查。乖乖...整個「袋袋」的左上側都腫起來了...
+
+總之問到的是已經痛兩天了，又痛又腫到兩隻腳都不能併了，他受不了才過來。而且尿尿的時候尿道口還會痛...
+
+\begin{tcolorbox}[
+    colback=emergency_blue!10!white,
+    colframe=emergency_blue,
+    title=\textbf{Impression},
+    fonttitle=\bfseries
+]
+Acute epididymitis, left side
+\end{tcolorbox}
+
+\subsubsection{Differential Diagnosis of acute scrotal pain}
+
+\begin{itemize}
+    \item testicular torsion
+    \item acute epididymitis
+    \item varicocele
+\end{itemize}
+
+為了這個病人我還撥了電話給阿哲，找他求教一下 testicular torsion \& epididymitis 如何分別。結果他還順便教了我一招怎麼樣在第一時間把扭轉的蛋蛋「轉」回來 reduction 的技巧。
+
+三個禮拜之後，這個病人又出現在我的診間裡了，他拿著手上三總的診斷證明，說要給我貼在病歷裡面以為證明用，免得人家以後說他愛裝病...
+
+\begin{myquote}
+還好蛋蛋沒事... 其實想想以前都在學 acute abdomen，怎麼都沒唸到過 acute scrotum?
+\end{myquote}
+
+\textbf{Reference:} Diagnosis and treatment of the acute scrotum. Am Fam Physician. 1999 Feb 15;59(4):817-24.
+
+\subsection{案例十：眼瞼撕裂傷 Eyelid Laceration (12/78) — 2005年1月17日}
+
+一個班長有點懊惱地帶著他的兵來看診。醫務兵跑來叫我的時候跟我說：「有阿兵哥的眼睛好像被鐵絲戳到了！」嚇得我用跑的趕到急診...
+
+結果是他天氣冷想鑽鐵絲網的狗洞，一不小心沒看準，左眼的上眼瞼被戳破掀翻了起來。血是止了，因為天氣實在是太冷了。倒是眼瞼在仔細沖洗之後，發現有個大約一公分的裂傷。
+
+我說：「還好還好〈不是戳到眼睛〉。」我還笑得出來... 醫務兵臉都綠了...
+
+翻一翻我們最細的線是到 5-0，再把管器械的兵找來。然後是無菌地鋪消毒巾，再清潔消毒一次傷口，接下來就開始抽局部麻醉藥...
+
+針頭直直對著那個大兵的眼睛戳過去...「要打麻醉，你現在開始都不要動，眼睛閉起來就可以了。」我轉頭一看，旁邊剛剛圍觀的人全部跑光了... 醫務兵：「醫官...你先慢慢忙...我去藥局幫忙...」
+
+我對了半天，儘量把裂開的上眼瞼給對齊... 突然想起來我們以前上的臨床解剖也縫過眼睛啊！只是那時候好像是縫眼角膜... 用的是 10-0 的線，比頭髮還細。
+
+縫了三針就好了。仔細看看對齊後的 laceration wound，我不禁得意了起來... 跟作雙眼皮差不多說。
+
+\begin{myquote}
+那一天我真的是縫得心情超好的，難以言喻。
+\end{myquote}
+
+\subsection{案例十一：嵌甲 Ingrown Nail (14/78) — 2005年1月23日}
+
+在這座島上，平均兩個禮拜可以遇到一個腳指甲長進肉 (Nail ingrowth) 裡的病人。
+
+幾個禮拜以前的晚上，一個阿兵哥被帶進急診。他一臉不相信治得好的樣子：「醫官，這我已經拔了兩次了，還要拔嗎？會好嗎？」
+
+我一聽愣住了，拔了兩次了？原來他在台灣本島的新兵單位就犯了兩次，兩次都是同一隻大腳指的指甲出問題，而兩次都是以整片拔掉收場。
+
+不過我不喜歡拔掉，我比較喜歡剪掉一小塊出問題的那一側就好，整片拔掉血淋淋的太恐怖了。
+
+\subsubsection{處置步驟}
+
+整把尖剪先水平地橫插進指甲縫裡，插到底，再把剪刀鋒轉正為垂直，然後用力一剪，喀擦一聲把指甲有問題的那一側延指頭的長軸剪斷。接下來再用器械把有問題的指甲夾緊，然後用力一扯... \textbf{實在是太爽了，而且重點是病人都沒感覺。}
+
+不過這個病人之前拔過兩次沒有好，有可能是 nail matrix 沒有清乾淨。所以又把剪刀探進 nail fold 下面找找，果然還有剩一截 nail matrix 及一部份的 nail plate 沒剪下來。再一夾一扯，果然又是一塊在做祟。
+
+過了三個禮拜了，那個阿兵哥再也沒有回來過。不知道是不是好了？
+
+\begin{myquote}
+順便上網回去看看以前做的標的組織學圖譜，記得的沒有錯，01, MH0804, nail, 1x 那張圖是指甲的縱切面顯微照片圖。nail matrix 其實滿深的，不進去探一探是找不到的。想不到那麼久以前做的網頁，現在居然派得上用場。
+\end{myquote}
+
+\subsection{案例十二：急性葡萄膜炎 Acute Uveitis (15/78) — 2005年1月31日}
+
+前幾天我診斷了一個 uveitis... 今天下午看門診忙到一半，醫務兵接了一通電話指名要找我。原來是昨天轉診到另一座島的阿兵哥打來的，現下他已經到了台灣三總了。
+
+我一聽是他很緊張，趕快問他三總的診斷是什麼？結果是\textbf{急性虹彩炎 acute iridocyclitis}！我幾乎是要跳起來了一般興奮...
+
+\subsubsection{病程}
+
+幾天前的下午，這個二兵因為左邊眼睛突然開始畏光且疼痛來看了我們的門診。同事看了覺得像是結膜炎，開了藥給他。結果他隔了兩個晚上又來到我們的門診，因為眼睛越來越紅，而且疼痛越來越嚴重，最糟的是視力變差了... 左眼猛流眼淚，紅腫得很厲害。
+
+\subsubsection{檢查}
+
+\begin{itemize}
+    \item Visual acuity: 右眼 0.8，左眼 0.4（原本應為 1.0）
+    \item 角膜旁邊已經紅了一圈，典型的 ciliary injection
+    \item 兩邊瞳孔不等大，左邊比較小
+    \item 瞳孔對光反應：左側 sluggish，右邊 prompt
+\end{itemize}
+
+\subsubsection{Differential Diagnosis of Red eye}
+
+\begin{itemize}
+    \item conjunctivitis
+    \item acute glaucoma
+    \item corneal abrasion
+    \item acute uveitis
+\end{itemize}
+
+隔天一大早馬上跟三總眼科行遠距會診，會診醫師在會診單上打著: acute uveitis cannot be ruled out... 於是他開始點 rinderon-A 1gtt OS Q2H, atropine 1gtt OS STAT。妙的是他點了 atropine 之後果然就不太痛了...
+
+最後協調的結果剛好直升機有機位，於是就用直升機把他送到最近的一座島去看眼科。
+
+知道確診之後，心情總算是輕鬆了不少。三總幫他散瞳檢查了快一個小時，決定要更密集地用上 steroids: 一小時點一次。
+
+\begin{myquote}
+那兩天我每天都用 penlight \& fundoscope 研究了半天他的眼睛... 外島的無力感就在這裡。做夢還夢到他在島上變成完全看不見了才坐到船回台灣，嚇都嚇死了...
+\end{myquote}
+
+\subsection{案例十三：凍瘡 Chilblain (17/78) — 2005年2月12日}
+
+返台至今快一週了，我「凍到」的耳朵也好了一大半...
+
+其實是大約十幾天前，島上氣溫先有回升一陣子，再突然降到五度到六度左右。我的右耳有一天中午就慢慢開始癢起來了。它一開始癢我就在想：「啊～ 慘啦～ 凍到啦！」
+
+過了幾天我出現在另外一座島上的醫院時，還被那邊的護士小姐笑：「哎呀！你長豬耳朵啦！」的確我的耳垂腫得超大，大概有另外一邊的兩倍大，而且表皮明顯又紅又脹。
+
+\subsubsection{凍傷的分類}
+
+\begin{itemize}
+    \item \textbf{Chilblain (erythema pernio):} 指的是 blood vessel 因 temperature $\downarrow$ 而造成的發炎，組織裡並沒有水分子結冰的情形發生。通常發生於溫度尚未降至零度的氣候，受傷的肢端末稍會紅腫發癢發炎，但是不會有 sensory deficit，也不至於到明顯的組織壞死。通常三週內會好。
+
+    \item \textbf{Frostbite:} 指的是組織內發生了結冰的情形，後果當然頗嚴重。
+\end{itemize}
+
+\begin{myquote}
+真凍傷假凍傷？可憐不少長官因為它被處份了... 明明氣溫沒有掉到零度以下，就算加上 windchill effect，氣溫有五六度也實在是很難真的 frostbite...
+\end{myquote}
+
+\subsection{案例十四：風濕性心臟病後續追蹤 RHD s/p MVR \& AVR (18/78) — 2005年2月20日}
+
+返台兩週了，又要回到島上了。昨天上午突然接到一通電話，是兩個禮拜前後送回來的兵打給我的。
+
+在我後送他回三總的隔天早上，他一做完 cardiac echography 就直接被送下 ICU 並準備馬上要動刀換掉瓣膜。隔了兩天他被推進刀房裡開了 \textbf{MVR + AVR}。中間一直住在 ICU 裡面，一直到昨天轉普通病房。
+
+一轉進普通病房他就打來了...
+
+我想起之前在病房裡見習的時候，有一回被言丞學長叫住，被他拉到一個 RHD s/p OP 的病人前面聽心音。他很興奮跟我說不用聽診器也聽得到，我湊在病人胸前，隔了五公分都聽得到那 mechanical valves 的心音～
+
+\begin{myquote}
+這個兵現在應該也是這樣子啦。我以後如果變 surgeon，要記這個兵一筆～
+\end{myquote}
+
+\subsection{案例十五：轉化症 Conversion Disorder (19/78) — 2005年2月28日}
+
+大約在兩三個禮拜前，我返台前約一個禮拜的某天晚上，碰到了一個 psychiatric disorder。
+
+那天晚上的門診真的是快翻掉，因為那天中午剛好有一批新兵坐船來到這座島上，晚上就一股惱的來了快三十個新兵...
+
+還是院長扶他進來的哩！一看就知道事情有點大... 他跟我使了個眼色就出去了。接下來換成我傻眼...
+
+這個剛到島的兵就坐在診間的椅子上，\textbf{一直啜泣... 一直啜泣... 一直啜泣...}
+
+我問他的所有問題他都充耳不聞，全身硬得很，我把他的手抬起來，他的手就僵在半空中不動，頭低低地就看著自己的腳趾。最後只能幫他做點基本的 physical exam，什麼事都問不出來...
+
+\textbf{Total unresponsive to external stimuli}
+
+我想了一下，於是讓他當晚就住進我們的病房裡，診斷就先 r/o catatonia。
+
+忙了半天到了午夜了，我才去看他，他躺在床上一樣全身僵硬，猛哭～～～
+
+我跟藥劑士要了一支 diazepam (valium)，拿了 tourniquet 就在床邊幫他 IV push 了一針。過了三十秒\textbf{他居然開始講話了}... 表情也出來了。旁邊陪他的士官也嚇了一跳...
+
+他的第一句話是：「\textbf{我好怕死在這個島上。}」
+
+隔天早上幫他用電視遠距會診，照會了三總的精神科。他們下的診斷是 \textbf{轉化症 conversion disorder with catatonia}。
+
+\begin{myquote}
+以前實習的時候，我最混的就是精神科，真的是罩門！不過頭一次碰到從頭到尾都不理你的病人，真的滿稀奇的說...
+\end{myquote}
+
+\subsection{案例十六：僵直性脊椎炎後續 Ankylosing Spondylitis (19/78) — 2005年2月28日}
+
+幾個禮拜前被我送回去診斷是 acute uveitis 的病人回來了。不過是另外一位醫官幫他看診。最近有天晚上他跟我提起了他... 我聽完只想搥心肝...
+
+他回到台灣後，的確是確定診斷為急性葡萄膜炎，但是進一步驗了 HLA-B27 後發現是 positive...
+
+總之結果是他有 \textbf{ankylosing spondylitis}...
+
+這次 acute uveitis 是抓出來了沒錯，但是也算是 AS 的第一次發病 associative with acute uveitis。
+
+我開始有點難過，畢竟要是我有多問幾個問題：你背會不會痛呀？或是多幫他照一張 lumbar spine 的 x-ray plain film，然後診斷變成了 ankylosing spondylitis with acute uveitis attack as initial presentation，送回去不就更神氣？
+
+\begin{myquote}
+罷了罷了，那時候很心急只有在想 Behcet disease，沒有想到 ankylosing spondylitis... 還是學到了寶貴的一課。他現在賺到了，正在等停役...
+\end{myquote}
+
+\subsection{案例十七：妥協的醫療 Compromised Medicine (20/78) — 2005年3月3日}
+
+最近醫院大概是因為電路的關係，有幾個晚上猛跳電。看診看到一半突然一片黑。
+
+忽然想到，假如有一天沒有電了，島上全部斷電，那我們要怎麼看病？
+
+\textbf{Practicing medicine without electricity...}
+
+大概就真的只能完全靠 physical exam 了吧？心電圖, X光機, CBC/DC, 離心機全部都不動了～ 天啊！我光想就皮皮挫!
+
+我找到一篇 BMJ 1995 的文章，講的是 Doctor on a mountaineering expedition。文章是一個醫生分享他參加攀爬 Everest 峰的心得。他寫著：「對於一支冒險隊伍而言，醫生是受歡迎的成員之一。」「但是實際上醫療裝備及物資準備上的參考和建議卻很少見。」
+
+這篇文章有趣就在於他很「大方」地列出了所有他帶去打硬仗用到的藥品和裝備...會被他帶去爬山的藥品和裝備，應該是救命的最底線了吧？
+
+\begin{myquote}
+有人可以說：「醫療就是要最高水準，怎麼可以妥協？」那就先來準備準備自己手邊的裝備吧！
+\end{myquote}
+
+\textbf{Reference:} A'Court CH, Stables RH, Travis S. Doctor on a mountaineering expedition. BMJ. 1995 May 13;310(6989):1248-52.
+
+\subsection{案例十八：肺栓塞 Pulmonary Infarction (21/78) — 2005年3月10日}
+
+過年前約一月底的時候，某天晚上來了一位長官，主訴說是胸痛。
+
+\subsubsection{病史}
+
+他先看了門診，說胸口左側突然在吃完晚飯之後痛了起來，加上有點咳嗽。同事幫他安排的胸部 x-ray 先排除氣胸。
+
+後來發現胸痛跟呼吸有點關係... pleuritic chest pain。心電圖也沒有心肌缺血的樣子。
+
+我拿了溫度計幫他一量，有發燒... 38 Celsius degree。血氧濃度量一下發現吸了氧氣之後只有到 95\%。摸摸 pulse 有快，呼吸數也變得淺快。
+
+最後一聽才發現他有 murmur，在 left second intercostal space 有 low-pitched diastolic murmur，聽起來像是 \textbf{pulmonary regurgitation}... 滿明顯的...
+
+\subsubsection{診斷推理}
+
+門診看完了，一群醫官看了他的驗血發現白血球也有高也有 left shift... 討論覺得最可能是 pneumonia，先當 pneumonia 治療...
+
+隔天早上我看了片子越看越胡疑。是有塊明顯的白色陰影沒錯，但是 patchy infiltration 的位置就在 subpleural region，位置上很 peripheral，而且就是楔形的形狀，\textbf{wedge shaped}...
+
+我想了很久，最後才說我覺得可能不簡單是有 pneumonia，可能是 \textbf{pulmonary embolism}...
+
+\subsubsection{CXR findings}
+
+\begin{itemize}
+    \item Hampton's hump (+)
+    \item Westermark sign (不明顯)
+\end{itemize}
+
+主治的醫官回去 bedside 再看看病人，過沒有多久跑來跟我們說病患剛剛開始有咳血 hemoptysis 的現象！
+
+\textbf{Sudden onset pleuritic chest pain, hemoptysis, dyspnea} 三個加起來，最重要的是 CXR 有很 typical 的發現。當天我們就幫他辦上船回台灣做檢查...
+
+\subsubsection{確診}
+
+前幾天我又想起了這件事，他回台灣住院完了，早就該回到島上了吧？今天下午一切答案揭曉！
+
+這個長官今天有來門診看診！而且據他說，三總在他一月底住院了三天之後，幫他安排了在血管裡打藥再照片子的檢查（angio），總之最後確定診斷，\textbf{的確是有 pulmonary infarction}！
+
+\begin{myquote}
+Hampton's hump \& Westermark sign 這兩個 CXR 的 findings，我印象很深，是以前見習時跟企鵝某天下午在醫院圖書館裡亂翻雜誌看到的... 隔了幾年居然在這座島上能學以致用，爽翻了！
+\end{myquote}
+
+\subsection{案例十九：過敏性休克 Anaphylaxis (22/78) — 2005年3月22日}
+
+前兩個禮拜有天晚上夜診快開始前，我們突然接到一通急診電話，是某個單位的連長有嘔吐無力的症狀。
+
+我下車衝進了他們的餐廳裡，就看到一個人躺在餐廳的長板桌上，完全沒力站起來，同時一直在喘。叫了叫他還有反應，脈搏還摸得到。半分鐘內把他抓上長背板，旁邊圍上的阿兵哥們抬著他就跳上我們的救護車了。
+
+隨行的班長說連長本來吃飯好好的，突然說人不舒服，接下來就開始狂吐了。
+
+\subsubsection{在急診室}
+
+進了急診，病人感覺好像更喘了，同時說喉嚨很緊吸不到氣。再問他吐的時候身上哪裡還有不舒服？他說跨下在他吃了幾口飯之後開始變得很癢，讓他很想去抓，沒多久就開始狂吐再加上呼吸困難了。
+
+我掀開他的上衣跟褲子，軀幹都紅起來了。再瞄一眼 \textbf{saturation: 82\%}。EKG: NSR at rate 110/min。
+
+一時之間覺得根本不是單純 hyperventilation。再看了之前就診的病例，就在兩個月以前他來看過食物過敏，那天門診的醫官給了 vena 之後他就好多了。
+
+剛好 IV 另一位醫官打上了，馬上 order push \textbf{epinephrine 0.5 mg IV push ST}，flush 之後再追加 \textbf{vena 1 amp IV push ST}。
+
+\subsubsection{藥物反應}
+
+我們也在短短幾分鐘內見識到藥物的作用。血壓一開始飆到 210/110 mmHg，然後五分鐘之後又慢慢降回 135/85 mmHg。他的 Saturation 也回升到 96\%。人看起來比較不喘了。
+
+再隔兩分鐘問問他，他居然說喉嚨完全不緊了，已經鬆開來了！
+
+在場的幾個醫官都覺得好神奇！對於 epinephrine 和 vena 造成的 dramatic change，真是讓我很驚奇...
+
+\begin{tcolorbox}[
+    colback=emergency_blue!10!white,
+    colframe=emergency_blue,
+    title=\textbf{Diagnosis},
+    fonttitle=\bfseries
+]
+Anaphylaxis to unknown food allergen
+\end{tcolorbox}
+
+\begin{myquote}
+有驚無險嗎？我那天晚上真是驚了一下....
+\end{myquote}
+
+\subsection{案例二十：急性腸胃炎（幼犬版）Acute Gastroenteritis (26/78) — 2005年4月14日}
+
+前幾天下午看診看到一半，兩個阿兵哥抱著紙箱跑來門診這邊說要看病。我問病人是那一個？結果他們往紙箱一比：\textbf{是隻小公狗...}
+
+聽他們說這隻小狗，不吃不喝、狂拉肚子合併狂嘔吐，已經有兩天了... 島上的獸醫已經退伍了，所以他們無處可去，就把狗給帶來了...
+
+\textbf{A 6-month-old male puppy with acute vomiting and diarrhea for 2 days}
+
+小狗狗看起來很虛弱。想說小狗得了 AGE 不吃不喝鐵定會掛點，心一橫就決定幫牠打點滴了...
+
+用 24 Gauge 的軟針握在手上找了半天，一開始完全沒有頭緒，動物的體毛又濃又密，完全不知道要從哪裡下手找 veins...
+
+先盲目地摸動脈，try 了一針當然是失敗... 他們說之前的獸醫都是打在狗的前腳... 我抓起小狗的前腳一看，都是毛！最後拿出 penlight 對著小狗的皮照了半天，總算看到一條細細的血管...
+
+\textbf{就這樣子試到了第七針，我幾乎是要放棄了！總算是打上了...}
+
+連續兩天 try 了有十五針的結果就是，我隱隱約約看得出狗毛下的血管了。小狗的皮超嫩，比人的還好入針，可是血管卻是超級容易破。
+
+過了 24 小時，小狗的點滴又被踢掉了，可是這次牠生殖器附近的膿皰全都消失了，腳也很有力... 也開始吃得下東西了。
+
+再過了 24 小時，他們說小狗已經可以跑跑跳跳，吃也吃得不錯了。
+
+\begin{tcolorbox}[
+    colback=emergency_blue!10!white,
+    colframe=emergency_blue,
+    title=\textbf{Diagnosis},
+    fonttitle=\bfseries
+]
+Acute gastroenteritis with unknown skin infection
+\end{tcolorbox}
+
+\begin{myquote}
+心情真好... 如我們的醫務兵所說，野戰醫院要變成野獸醫院了... 還有一個結論：就是解剖學真的是很重要，沒學過狗的解剖就是會找不到狗的血管。
+\end{myquote}
+
+\subsection{案例二十一：急性闘尾炎 Acute Appendicitis (27/78) — 2005年4月24日}
+
+這禮拜再之前的兩個禮拜算是多事之「春」，兩個禮拜內總共後送了五個病人。
+
+一個阿兵哥晚上跑來門診，說他肚子痛了一整天。看診的醫官摸了摸肚子之後，就把我們全部人都叫過去了。
+
+\subsubsection{病史與檢查}
+
+\begin{itemize}
+    \item 早上的時候他痛在肚臍附近
+    \item 到下午的時候已經痛到想吐加沒胃口吃飯了
+    \item 疼痛點也移到了右下腹
+    \item 有明顯的 \textbf{McBurney point tenderness}
+    \item Rebounding tenderness 也很明顯
+    \item Bowel sounds 變得有點 hypoactive
+    \item Psoas \& Obturator signs: both negative
+    \item 白血球飆到 \textbf{18000/uL}
+\end{itemize}
+
+總之感覺一切都很 typical 的當時，我們的阿兵哥聽了我們說疑似闘尾炎之後，居然很 "atypical" 地哭了出來...
+
+我的同事還把他自己的衣服掀開來安慰他：「我也開過闘尾炎，疤就在這，沒啥好怕的。」
+
+\begin{tcolorbox}[
+    colback=emergency_blue!10!white,
+    colframe=emergency_blue,
+    title=\textbf{Diagnosis},
+    fonttitle=\bfseries
+]
+Acute abdomen r/o acute appendicitis
+\end{tcolorbox}
+
+我們聯絡了列島中最大的一座島上的醫院，那座醫院是列島中唯一有麻醉科跟開刀房的醫院... 於是兩個小時之後病人跟另外兩位醫官一起降落在另外一座島上了。半夜兩點\textbf{開出來一條紅紅腫腫的闘尾}...
+
+\begin{myquote}
+碰到這些事情之後，能夠沒誤診而 malpractice，真的是偷笑有餘了...
+\end{myquote}
+
+\subsection{案例二十二：痛風性關節炎 Gouty Arthritis (28/78) — 2005年5月7日}
+
+之前有一天下午，一個七十多歲的老伯伯拖著他的右手肘來看病。
+
+他的右手肘在他十多歲的時候因為骨折的關係，從此右手肘變成 malunion 整個硬掉不能彎曲。來看診是因為整個右手肘紅腫疼痛了好多天，痛到不能睡覺於是前來看診。
+
+山下的居民「其實應該」都不相信山上醫官們的本事，所以他上山來是給他的女兒帶著，一來他女兒就指名要找國軍醫院前來支援的大夫看診～～～
+
+我在之後也看了看他的手肘，整個紅腫，另外在他的右手腕上看到了一顆明顯的\textbf{痛風石 tophus}。抽了血中的尿酸化驗 uric acid 高到 \textbf{9.6}...
+
+於是就住院打點滴用 IV pain control 加吃 \textbf{colchicine 0.6 mg TID}。
+
+過了一天，明顯地紅腫都消了，痛也變得比較不痛了...
+
+\begin{tcolorbox}[
+    colback=emergency_blue!10!white,
+    colframe=emergency_blue,
+    title=\textbf{Diagnosis},
+    fonttitle=\bfseries
+]
+Acute gouty arthritis of right elbow joint
+\end{tcolorbox}
+
+\subsubsection{後記}
+
+這個老伯伯其實人很可愛。來到了島上這幾個月，我發現島上的老人家都是寶貝，都好憨厚，看到了醫官有時會急急忙忙敬禮～～ 常常把我們弄得更加慌張～
+
+接下來幾天我跟他及他七十幾歲的太太講起笑話來了。沒過多久問起他是不是有壓力，他臉色就稍顯難過地道出了原委...
+
+原來他家裡還有一個老母... 已經有九十六歲了！臥病在床已經有兩年了，可是最近兩個多禮拜狀況越來越差，讓他們連日連夜的照顧...
+
+\begin{myquote}
+難怪他會累到犯痛風～～～
+\end{myquote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{與李明亮校長的通信}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{致李明亮校長 — 2005年8月2日}
+
+李校長好：
+
+我是慕揚，好久沒有見到老師了，不知道老師近來好不好，還有沒有與師母一同拉琴？
+
+我離去年 (June, 2004) 畢業至今已滿一年了，現在正在馬祖的東引島上當醫官。東引島大約四平方公里大，是個小小但是很漂亮的火山島，其實是台灣領土的最北疆。我在這裡的一間軍醫院工作，平時可以眺望得很遠。大概久久（三個月）才放一次假，跟以前在外島當兵比起來，算是很好了！
+
+我記得以前大二的時候，聽校長您提過，您以前當兵的時候有碰過營長的小孩 febrile convulsion，結果推一針 Valium 就沒事了的故事，那時候大二年紀小，根本聽不懂 Valium 是什麼，連 febrile convulsion 也沒看過。現在畢業了，被「流放」到外島當醫官，才真的體會到校長您那時候講的事情，其實是很讓人振奮而且有趣的事。
+
+現在時代變了，國軍的精實案也使得兵力減少不少，不過我在這個島上還是碰到了很多有意思的事情，也才發覺以前在學校及醫院裡，學得的每一件事都很重要，以前所付出的每一分努力都有意義；也常常覺得自己學得不夠，做得還不夠好。
+
+\subsubsection{島上的臨床經歷}
+
+\begin{itemize}
+    \item 我在這座島上，有一次為了一個 death on arrival 的七旬老婦，放了畢業後的第一支 endotracheal tube，一插就中，後來被我們 CPR 恢復了 vital signs。雖然老人家最後還是往生了，可是 gain pulsation 的那一刻真的是讓人很振奮。
+
+    \item 畢業後的第一支胸管 (chest tube) 也是在這座島上放的，病患是個阿兵哥，突然胸痛併發氣喘起來，那時候照的 CXR PA film 看到大面積的 pneumothorax，結果照完回到急診，他的氣管就 deviation 了，我們放好了胸管之後，才讓他穩定下來，那一刻也是很興奮。
+
+    \item 陸續又碰到過 cerebellar infarction with coma, subarachnoid hemorrhage, open fracture of left tibia \& fibula 的病人，處理起來常常也讓我冷汗直流，直呼吃不消。其它像 perforated peptic ulcer, acute appendicitis 也碰過了好幾次。
+
+    \item 眼科的問題也常遇上：acute uveitis, acute glaucoma attack。眼科就比較困難了，因為我手邊只有一組 fundoscope \& penlight，沒有眼壓計，也沒有 slit lamp microscope。那次 glaucoma 就是單用手 manual test of globe tension 診斷的，真的算是很驚險（差點誤診）。
+
+    \item 小兒科的問題也常碰到，偶爾山下的小朋友拉肚子、感冒、croup 都會上來尋求治療。有幾次也碰到了 hernia，都是在我們這邊直接 manual reduction。
+
+    \item 在這裡，也常常開些小刀，paronychia, carbuncle, perianal abscess 等都自己想辦法處理。
+\end{itemize}
+
+\subsubsection{學習與成長}
+
+我還在煩惱到底要走內科還是外科？記得校長很久以前跟我們說過有空，要去讀一讀 New England Journal of Medicine，去仔細讀其中 Case Records of Massachusetts General Hospital 的文章，以學習病歷寫作。\textbf{我現在在外島也訂了 NEJM，有空閒聊就拿出來讀。覺得以前書讀得太少了，也抱了一本 Harrison 用功。}
+
+很多事情，也都是到了外島之後，才有了全新的認識。到了這裡，我才知道國家的衛生醫療有多照顧外島的民眾。舉緊急空中後送為例，衛生局有跟民間航空公司簽約，後送一次要花費約 \$180,000，而民眾只需負擔約 5\%（\$9,200）的費用。
+
+學的真的很多，也很少。很多，是因為成功的解決病患的問題時，會回頭感激過去老師們教得很多。很少，是因為面對病患的複雜問題時，對自己所知甚少感到生氣，氣自己過去不夠努力。
+
+講了這麼多，只是想好好感謝校長過去的付出，讓我真的打心底慶幸自己是慈大醫科的一員。
+
+\vspace{0.5cm}
+\begin{flushright}
+恭祝平安健康\\[0.3cm]
+學生謝慕揚 敬上\\
+2005/8/2
+\end{flushright}
+
+\subsection{李明亮校長回信 — 2005年8月4日}
+
+Dear Mu-Yang:
+
+So nice to hear from you. I forwarded your letter to Mrs. Lee and she was indeed very delighted.
+
+Your letter reminded me of my military service some forty years ago. I joined infantry, served in Ku-Kuan area. I was the only physician in the area and had to do all sort of things you described. \textbf{Retrospectively, I think it was a really good experience. I never regret it.}
+
+When you will retire from the service and what you plan to do afterward? Be sure to stop by to see us when you are back in Taipei.
+
+\vspace{0.5cm}
+\begin{flushright}
+Best wishes,\\
+Ming-liang Lee
+\end{flushright}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{哈里遜共筆計畫 (One for All)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{計畫緣起}
+
+在外島服役期間，我發起了「One for All」哈里遜共筆計畫，為 89 級、90 級學弟妹組織共同閱讀與筆記分享活動。
+
+\subsection{致學弟妹的信 — 2005年8月28日}
+
+快開學了吧？有一陣子沒有給你寫信了。要開始見習囉！我們以前見習的時候，都只曉得要讀臨床課同學們寫的共筆，而沒有認真、有系統地花時間去研讀 major textbook。
+
+雖然不是說讀書就一定有用，但是長時間有系統的累積 knowledge，卻應該是 competent physician 應該認真看待的事。
+
+我覺得綜觀本校訓練出來的學生，很會做事、很會想，但是：
+\begin{enumerate}
+    \item 書卻是讀得太少！
+    \item 很少人在帶、很少人在教、很少有深度的討論、很少有 basic research 溶入臨床討論的機會。
+\end{enumerate}
+
+本校訓練出來的學生（我們班的吳哲熊、郭雨萱），只要好好努力，絕對不輸外校的人。
+
+\begin{myquote}
+當兵與其是浪費時間，也該花些時間盡自己的心力在諸位的身上。這應該算是某種程度的伴讀吧？希望你能夠發現 Harrison 裡面有些東西是有用的、有趣的，並進而建立自己的閱讀習慣。
+\end{myquote}
+
+\subsection{醫學生能力發展架構 — 2005年6月2日}
+
+畢業前一個醫學生如果仔細分析他所習得的知識和技能的話，大概可以這樣子分：
+
+\subsubsection{Diagnosis（診斷）}
+
+\begin{itemize}
+    \item \textbf{Communication}
+    \begin{itemize}
+        \item Chart/notes writing（寫病歷表達的能力）
+        \item Oral presentation skills（口頭報告的能力）
+    \end{itemize}
+
+    \item \textbf{Clinical skills}
+    \begin{itemize}
+        \item Physical exam reliability（PE 的熟練與可靠度）
+    \end{itemize}
+
+    \item \textbf{Knowledge}
+    \begin{itemize}
+        \item Differential diagnosis formulation（產生鑑別診斷的能力）
+        \item Textbooks（教科書：代表最起碼的知識）
+        \item Journals（期刊：代表最新的發現）
+        \item PubMed（搜尋文獻查答案的能力）
+    \end{itemize}
+
+    \item \textbf{Interpretation skills}
+    \begin{itemize}
+        \item Chest X-ray plain film reading
+        \item Plain abdomen film reading
+        \item Electrocardiography reading
+    \end{itemize}
+
+    \item \textbf{Laboratory examination}
+    \begin{itemize}
+        \item Microscope skills
+        \item Sputum smear / Blood smear
+        \item Transfusion medicine
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Treatment（治療）}
+
+\begin{itemize}
+    \item ACLS management knowledge \& skills
+    \item Basic inpatient management (IV line, ABG, Foley, endo, chest tube)
+    \item Minor surgery
+    \item Trauma
+    \item Clinical pharmacology
+    \item Communication \& sympathy
+\end{itemize}
+
+\begin{myquote}
+簡單來說，clerks 學如何診斷，interns 學如何治療。
+\end{myquote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{遠距醫療與視訊會診}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+在東引島服役期間，透過三軍總醫院的遠距視訊會診系統，進行多次精神科及其他專科的遠距會診。
+
+\subsection{會診紀錄}
+
+\begin{longtable}{p{2.5cm}p{3cm}p{3cm}p{5cm}}
+\toprule
+\textbf{日期} & \textbf{科別} & \textbf{病患} & \textbf{備註} \\
+\midrule
+\endhead
+2005/2/22 & 精神科 & 周文彬 & 視訊會診 \\
+2005/5/27 & 精神科 & 張世芳 & 視訊會診 \\
+2005/6/21 & 精神科 & 張啟聖 & 視訊會診 \\
+2005/7/4 & 胸腔內科 & — & 看報告、問是否需針吸穿刺檢查 \\
+2005/7/7 & — & 陳彥良 & 會診單 \\
+2005/8/2 & 精神科 & — & 遠距會診 \\
+2005/8/29 & 精神科 & — & 會診 \\
+2005/10/1 & 精神科 & 賈麒正 & 視訊會診 \\
+2005/10/5 & 精神科 & — & 會診 \\
+2005/10/19 & 精神科 & 黃啟傑 & 遠距會診 \\
+2005/10/24 & 精神科 & — & 會診 \\
+2005/11/15 & 精神科 & — & 野醫精神科遠距會診 \\
+\bottomrule
+\end{longtable}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{軍醫詞彙表}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Military Dictionary of Drake}
+
+\subsubsection{軍階 (Commission) — 陸軍 (Army)}
+
+\begin{longtable}{p{4cm}p{6cm}}
+\toprule
+\textbf{中文} & \textbf{英文} \\
+\midrule
+\endhead
+元帥 & General of the Army \\
+上將 & General \\
+中將 & Lieutenant-General \\
+少將 & Major General \\
+准將 & Brigadier General \\
+上校 & Colonel \\
+中校 & Lieutenant Colonel \\
+少校 & Major \\
+上尉 & Captain \\
+中尉 & Lieutenant \\
+少尉 & Second Lieutenant \\
+士官長 & Master Sergeant \\
+上士 & Sergeant \\
+中士 & Staff Sergeant \\
+下士 & Corporal \\
+一等兵 & Private 1st Class \\
+二等兵 & Private \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{編制}
+
+\begin{longtable}{p{4cm}p{6cm}}
+\toprule
+\textbf{中文} & \textbf{英文} \\
+\midrule
+\endhead
+師 & Division \\
+旅 & Brigade \\
+混成旅 & Mixed Brigade \\
+營 & Battalion \\
+連 & Company \\
+排 & Platoon \\
+班 & Squad \\
+\bottomrule
+\end{longtable}
+
+\subsubsection{軍種}
+
+\begin{itemize}
+    \item 陸軍 Army
+    \item 海軍 Navy
+    \item 空軍 Air Force
+    \item 聯勤 Combined Service Force
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{附錄：臨床案例總表}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{空中後送案例}
+
+\begin{longtable}{p{2cm}p{4.5cm}p{3cm}p{4cm}}
+\toprule
+\textbf{日期} & \textbf{診斷} & \textbf{後送目的地} & \textbf{備註} \\
+\midrule
+\endhead
+2004/12 & Tension pneumothorax & 三軍總醫院 & 第一支胸管 \\
+2005/2/5 & Decompensating RHD with APE & 三軍總醫院 & 第一次空中後送 \\
+2005/3/24 & Perforated peptic ulcer & 台北 & 十二指腸穿孔 \\
+2005/4 & Cerebellar infarction & 台北榮總 & 第二次空中後送 \\
+2005/4 & DOA with bilateral ICH & 三軍總醫院 & 第一支 endo \\
+\bottomrule
+\end{longtable}
+
+\subsection{其他重要案例}
+
+\begin{longtable}{p{5cm}p{8cm}}
+\toprule
+\textbf{案例類型} & \textbf{處置} \\
+\midrule
+\endhead
+Acute uveitis & Fundoscope 診斷 \\
+Acute glaucoma attack & Manual test of globe tension \\
+Fish sting (臭肚) & Wrist block + 熱水浸泡 \\
+Cellulitis & 抗生素治療 \\
+Scald burn & 燒燙傷處置 \\
+Eyelid laceration & 縫合 \\
+Ingrown nail & 處置 \\
+Paronychia & 小手術 \\
+Carbuncle & 小手術 \\
+Perianal abscess & 小手術 \\
+Shoulder dislocation & 復位 \\
+Hernia (小兒) & Manual reduction \\
+\bottomrule
+\end{longtable}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{結語}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{myquote}
+畢業後，能夠在外島服務，並且實地 practice 以前所學，並看到病人好起來出院的感覺真的很好！我真的很慶幸我從慈濟畢業訓練，學的不敢講很多，但是卻都一樣樣用上了。也覺得有機會貢獻所學，不像在本島的醫官都在處理行政事務，運氣真的還不錯。
+\end{myquote}
+
+這段軍旅歲月，在資源有限、與世隔絕的環境中，經歷了高強度的臨床實務，每一次的緊急處置都是對過去所學的考驗。從張力性氣胸的凌晨搶救，到小腦梗塞的跨海後送，從消化性潰瘍穿孔的親手診斷，到魚刺螫傷的教科書式處置——這些經歷印證了在醫學院所學的每一件事，在孤島上獨自面對真實臨床挑戰時，都派上了用場。
+
+同時，也利用這段時間指導學弟妹研讀 Harrison，期望能將所學傳承下去。
+
+\vspace{1cm}
+
+\begin{center}
+\begin{tcolorbox}[
+    colback=highlight_yellow,
+    colframe=emergency_red,
+    width=0.8\textwidth,
+    arc=5pt,
+    boxrule=1pt
+]
+\centering
+\Large\bfseries
+千山萬水我獨行，但從不孤單。
+\end{tcolorbox}
+\end{center}
+
+\end{document}

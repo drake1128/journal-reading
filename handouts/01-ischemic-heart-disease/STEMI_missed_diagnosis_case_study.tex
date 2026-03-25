@@ -1,0 +1,580 @@
+% STEMI 漏診案例分析教學講義
+% 作者: 謝慕揚, MD, PhD, FESC
+% 日期: 2026-01-06
+
+\documentclass[12pt,a4paper]{article}
+
+% Including essential packages for Chinese typesetting
+\usepackage{xeCJK}
+\usepackage{fontspec}
+% Configuring Chinese font with Noto Serif CJK TC, fallback to SimSun
+\IfFontExistsTF{Noto Serif CJK TC}{
+  \setCJKmainfont{Noto Serif CJK TC}
+  \setCJKsansfont{Noto Serif CJK TC}
+  \setCJKmonofont{Noto Serif CJK TC}
+}{\setCJKmainfont{SimSun}
+  \setCJKsansfont{SimSun}
+  \setCJKmonofont{SimSun}
+}
+
+% Including other necessary packages
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{datetime2}
+\usepackage{hyperref}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+% Defining colors
+\definecolor{emergency_red}{RGB}{186,24,27}
+\definecolor{emergency_blue}{RGB}{0,114,188}
+\definecolor{emergency_gray}{RGB}{120,120,120}
+\definecolor{highlight_yellow}{RGB}{255,250,205}
+\definecolor{alert_orange}{RGB}{255,140,0}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=emergency_blue,
+    citecolor=emergency_blue,
+    urlcolor=emergency_blue,
+    pdfborder={0 0 0}
+}
+
+% Defining page geometry
+\geometry{
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2cm,
+  right=2cm,
+  headheight=25pt
+}
+
+% Adjusting topmargin to compensate for increased headheight
+\addtolength{\topmargin}{-10pt}
+
+% Setting title formats
+\titleformat{\section}[block]{\Large\bfseries\color{emergency_red}}{\thesection}{10pt}{}
+\titleformat{\subsection}[block]{\large\bfseries\color{emergency_blue}}{\thesubsection}{8pt}{}
+\titleformat{\subsubsection}[block]{\normalsize\bfseries\color{emergency_gray}}{\thesubsubsection}{6pt}{}
+
+% Defining custom environment for important notes
+\newmdenv[
+    linecolor=emergency_red,
+    backgroundcolor=highlight_yellow,
+    linewidth=2pt,
+    topline=true,
+    bottomline=true,
+    leftline=true,
+    rightline=true,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    innerleftmargin=10pt,
+    innerrightmargin=10pt
+]{importantbox}
+
+% Alert box for critical warnings
+\newtcolorbox{alertbox}{
+    colback=red!10!white,
+    colframe=emergency_red,
+    title=\textbf{嚴重警示},
+    fonttitle=\bfseries\color{white},
+    coltitle=white,
+    colbacktitle=emergency_red,
+    boxrule=1.5pt,
+    arc=3pt,
+    left=6pt,
+    right=6pt,
+    top=6pt,
+    bottom=6pt
+}
+
+% Key point box
+\newtcolorbox{keypoint}{
+    colback=emergency_blue!5!white,
+    colframe=emergency_blue,
+    title=\textbf{重點提醒},
+    fonttitle=\bfseries,
+    boxrule=0.5pt,
+    arc=3pt,
+    left=6pt,
+    right=6pt,
+    top=6pt,
+    bottom=6pt
+}
+
+% Learning point box
+\newtcolorbox{learningbox}{
+    colback=green!5!white,
+    colframe=green!50!black,
+    title=\textbf{學習要點},
+    fonttitle=\bfseries,
+    boxrule=0.5pt,
+    arc=3pt,
+    left=6pt,
+    right=6pt,
+    top=6pt,
+    bottom=6pt
+}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{emergency_gray}急診 STEMI 漏診案例分析}
+\fancyhead[R]{\small\color{emergency_gray}謝慕揚醫師}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+
+{\Huge\bfseries\color{emergency_red} 急診 STEMI 漏診案例分析}
+
+\vspace{0.5cm}
+
+{\LARGE\color{emergency_blue} 忽略心電圖電腦判讀警示的慘痛教訓}
+
+\vspace{2cm}
+
+{\Large 院內教學講義}
+
+\vspace{1cm}
+
+{\large 謝慕揚醫師 MD, PhD, FESC}
+
+\vspace{0.5cm}
+
+{\large 2026 年 1 月}
+
+\vspace{2cm}
+
+\begin{alertbox}
+\centering
+\textbf{本案例為真實醫療爭議案件}\\
+已去識別化處理，僅供教學使用
+\end{alertbox}
+
+\vfill
+
+{\small 新竹臺大分院 心臟血管中心}
+
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------
+\section{案例背景}
+%----------------------------------------------------------
+
+\subsection{病患基本資料}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{項目} & \textbf{內容} \\
+\midrule
+\endhead
+年齡/性別 & 52 歲男性 \\
+到院時間 & 2021/06/27 11:27 \\
+到院方式 & 自行步入 (Walk-in) \\
+主訴 (Chief complaint) & 胸痛 30 分鐘 \\
+疼痛性質 & 悶痛 (Pressure-like chest pain) \\
+疼痛評分 & 8/10 分 \\
+持續時間 & 持續性疼痛 (Continuous) \\
+過去病史 & 無特殊 (Nil) \\
+檢傷分級 (Triage) & 第 2 級 \\
+\bottomrule
+\end{longtable}
+
+\subsection{到院生命徵象}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{生命徵象} & \textbf{數值} \\
+\midrule
+\endhead
+體溫 (BT) & 35.7°C \\
+心跳 (PR) & 76/min \\
+呼吸 (RR) & 20/min \\
+血壓 (BP) & 137/99 mmHg \\
+血氧飽和度 (SpO2) & 100\% \\
+\bottomrule
+\end{longtable}
+
+\begin{keypoint}
+病患呈現\textbf{典型 STEMI 臨床表現}：
+\begin{itemize}[noitemsep]
+\item 中年男性
+\item 持續性胸悶痛 $>$ 30 分鐘
+\item 疼痛評分高 (8/10)
+\item 生命徵象穩定但有輕微高血壓
+\end{itemize}
+\end{keypoint}
+
+\newpage
+%----------------------------------------------------------
+\section{時序事件分析}
+%----------------------------------------------------------
+
+\subsection{關鍵時間軸}
+
+\begin{longtable}{p{2.5cm}p{11.5cm}}
+\toprule
+\textbf{時間} & \textbf{事件} \\
+\midrule
+\endhead
+11:27 & 病患步入急診，主訴胸痛 30 分鐘，檢傷分級 2 級 \\
+\midrule
+\rowcolor{red!20}
+\textbf{11:31:49} & \textbf{第一份 ECG：電腦判讀顯示}\newline
+\colorbox{yellow}{\textbf{``Normal sinus rhythm, STE over inferior leads, suspected AMI''}} \\
+\midrule
+11:33 & 醫囑：抽血檢驗 (CBC, BMP, Troponin-T, D-dimer, Blood gas 等) \\
+\midrule
+11:34 & 醫囑：Complete EKG at 11:40 \\
+\midrule
+11:35 & 給予 Nitrostat Sublingual 0.6 mg \\
+\midrule
+11:38 & Chest X-ray (AP view) \\
+\midrule
+11:44:41 & 第二份 ECG：電腦判讀顯示 ``Sinus bradycardia, Abnormal ECG'' \\
+\midrule
+11:45 & 轉入觀察床位 A03 \\
+\midrule
+11:57 & 再給予 Nitrostat Sublingual 1\# \\
+\midrule
+12:22 & 醫囑：f/u TropT, EKG 14:30 (預約 2 小時後追蹤！) \\
+\midrule
+\rowcolor{red!20}
+\textbf{14:13:24} & \textbf{第三份 ECG：電腦判讀再次顯示}\newline
+\colorbox{yellow}{\textbf{``Sinus bradycardia, STE over inferior leads, suspected AMI''}} \\
+\midrule
+15:22:10 & 第四份 ECG：``資料品質不良...LVH with QRS widening'' \\
+\bottomrule
+\end{longtable}
+
+\begin{alertbox}
+\textbf{致命的疏忽：}電腦判讀\textbf{兩次}明確警示 ``\textbf{STE over inferior leads, suspected AMI}''，但醫療團隊\textbf{完全忽略}此警示訊息，未啟動心導管室！
+\end{alertbox}
+
+\newpage
+\subsection{實驗室檢查結果}
+
+\begin{longtable}{p{3cm}p{3cm}p{3cm}p{4cm}}
+\toprule
+\textbf{檢驗項目} & \textbf{11:39} & \textbf{14:17} & \textbf{正常值/判讀} \\
+\midrule
+\endhead
+Troponin-T (ng/L) & 11.16 & \textcolor{red}{\textbf{56.43}} & $<$ 14 ng/L\newline\textcolor{red}{上升 5 倍！} \\
+\midrule
+tCO2 (mmol/L) & 23.8 & -- & 22-29 \\
+\midrule
+O2 Sat (\%) & 57.9 & -- & (靜脈血) \\
+\midrule
+D-dimer (mg/L) & 0.27 & -- & $<$ 0.5 \\
+\midrule
+Glucose (mg/dL) & 156 & -- & $<$ 100 (fasting)\newline壓力性高血糖 \\
+\midrule
+eGFR (mL/min) & 63.9 & -- & $>$ 90 \\
+\bottomrule
+\end{longtable}
+
+\begin{keypoint}
+\textbf{Troponin-T 動態變化：}
+\begin{itemize}[noitemsep]
+\item 初始值 11.16 ng/L（接近正常上限 14 ng/L）
+\item 3 小時後追蹤值 56.43 ng/L（\textcolor{red}{\textbf{上升 5 倍}}）
+\item 符合急性心肌梗塞的 Troponin 動態上升 ($>$ 20\% delta change)
+\end{itemize}
+\end{keypoint}
+
+\newpage
+%----------------------------------------------------------
+\section{心電圖判讀分析}
+%----------------------------------------------------------
+
+\subsection{第一份 ECG (11:31:49) - 關鍵漏診時刻}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{項目} & \textbf{內容} \\
+\midrule
+\endhead
+心率 (Heart rate) & 67 BPM \\
+PR interval & 156 ms \\
+QRS duration & 84 ms \\
+電腦判讀 & \colorbox{yellow}{\textbf{Normal sinus rhythm}}\newline\colorbox{red!30}{\textbf{STE over inferior leads, suspected AMI}} \\
+確認醫師 & OOO醫師 \\
+\bottomrule
+\end{longtable}
+
+\subsection{Inferior STEMI 的 ECG 特徵}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{導程} & \textbf{預期變化} \\
+\midrule
+\endhead
+\textbf{II, III, aVF} & \textcolor{red}{\textbf{ST elevation}} $\geq$ 1 mm\newline（本案例電腦判讀已偵測到） \\
+\midrule
+\textbf{I, aVL} & Reciprocal ST depression（對應性壓低） \\
+\midrule
+\textbf{V1-V3} & 可能有 ST depression（若合併 posterior wall involvement） \\
+\midrule
+\textbf{V4R} & 右心室梗塞時會有 ST elevation\newline\textcolor{emergency_blue}{（Inferior MI 應加做右側導程！）} \\
+\bottomrule
+\end{longtable}
+
+\begin{alertbox}
+\textbf{電腦判讀系統明確警示 ``suspected AMI''！}
+
+這不是模糊的警示，而是\textbf{明確指出疑似急性心肌梗塞}。任何醫師看到此警示都應該：
+\begin{enumerate}[noitemsep]
+\item 立即親自判讀心電圖確認
+\item 若有疑慮，立即會診心臟科
+\item 考慮啟動心導管室
+\end{enumerate}
+\end{alertbox}
+
+\newpage
+%----------------------------------------------------------
+\section{問題分析：為何會漏診？}
+%----------------------------------------------------------
+
+\subsection{系統性問題}
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{警示疲勞 (Alert fatigue)}
+\begin{itemize}[noitemsep]
+\item 電腦判讀系統經常有偽陽性
+\item 醫師習慣性忽略電腦警示
+\item 缺乏對高風險警示的優先處理機制
+\end{itemize}
+
+\item \textbf{認知偏誤 (Cognitive bias)}
+\begin{itemize}[noitemsep]
+\item 病患生命徵象穩定 → 低估嚴重度
+\item 初始 Troponin 接近正常 → 排除 MI 的錯誤假設
+\item 未考慮 Troponin 在 STEMI 早期可能正常
+\end{itemize}
+
+\item \textbf{流程問題}
+\begin{itemize}[noitemsep]
+\item ECG 確認醫師與主治醫師可能不同人
+\item 缺乏強制性的警示回覆機制
+\item 追蹤 ECG 排程過久（預約 2 小時後）
+\end{itemize}
+\end{enumerate}
+
+\subsection{個人因素}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{問題} & \textbf{說明} \\
+\midrule
+\endhead
+未仔細閱讀電腦判讀 & 只看心律，忽略 ``suspected AMI'' 警示 \\
+\midrule
+未親自判讀 ECG 波形 & 過度依賴電腦判讀或直接跳過 \\
+\midrule
+缺乏臨床警覺性 & 典型胸痛 + ECG 警示仍未聯想到 STEMI \\
+\midrule
+團隊溝通不足 & ECG 確認醫師與主治醫師間缺乏溝通 \\
+\bottomrule
+\end{longtable}
+
+\newpage
+%----------------------------------------------------------
+\section{STEMI 診斷與處置指引}
+%----------------------------------------------------------
+
+\subsection{STEMI 診斷標準}
+
+根據 2023 ESC Guidelines for Acute Coronary Syndromes：
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{ST Elevation 標準} & \textbf{定義} \\
+\midrule
+\endhead
+V2-V3 導程 & 男性 $\geq$ 40 歲：$\geq$ 2 mm\newline男性 $<$ 40 歲：$\geq$ 2.5 mm\newline女性：$\geq$ 1.5 mm \\
+\midrule
+其他導程 & $\geq$ 1 mm（至少連續兩個相鄰導程） \\
+\midrule
+Posterior MI & V1-V3 ST depression $\geq$ 0.5 mm \\
+\bottomrule
+\end{longtable}
+
+\subsection{Door-to-Balloon Time 目標}
+
+\begin{importantbox}
+\textbf{時間就是心肌！(Time is Muscle)}
+
+\begin{itemize}[noitemsep]
+\item \textbf{Door-to-ECG time：} $\leq$ \textbf{10 分鐘}
+\item \textbf{Door-to-Balloon time：} $\leq$ \textbf{90 分鐘}（若具備 primary PCI 能力）
+\item \textbf{Door-to-Needle time：} $\leq$ \textbf{30 分鐘}（若選擇 fibrinolysis）
+\end{itemize}
+\end{importantbox}
+
+\subsection{本案例時間分析}
+
+\begin{longtable}{p{5cm}p{9cm}}
+\toprule
+\textbf{指標} & \textbf{本案例表現} \\
+\midrule
+\endhead
+Door-to-ECG & 約 5 分鐘 \textcolor{green!50!black}{\checkmark} 符合標準 \\
+\midrule
+ECG 判讀至心導管啟動 & \textcolor{red}{\textbf{未啟動}} $\times$ \\
+\midrule
+總延誤時間 & $>$ 4 小時（至第四份 ECG 仍未處理） \\
+\bottomrule
+\end{longtable}
+
+\newpage
+%----------------------------------------------------------
+\section{改善建議}
+%----------------------------------------------------------
+
+\subsection{立即可執行措施}
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{強制閱讀電腦警示}
+\begin{itemize}[noitemsep]
+\item ECG 出現 ``suspected AMI'' 或 ``STEMI'' 時，系統強制跳出視窗
+\item 醫師必須點選確認並選擇處置方向
+\end{itemize}
+
+\item \textbf{建立 STEMI 快速通道}
+\begin{itemize}[noitemsep]
+\item ECG 判讀為 STEMI → 自動通知心臟科值班醫師
+\item 啟動心導管室不需等待主治醫師同意
+\end{itemize}
+
+\item \textbf{雙重確認機制}
+\begin{itemize}[noitemsep]
+\item 胸痛病患的 ECG 必須由兩位醫師確認
+\item 至少一位需為急診主治醫師層級
+\end{itemize}
+\end{enumerate}
+
+\subsection{教育訓練建議}
+
+\begin{learningbox}
+\textbf{每位急診醫師必須：}
+\begin{enumerate}[noitemsep]
+\item 熟悉 STEMI 的 ECG 診斷標準
+\item 了解電腦判讀的限制與價值
+\item \textbf{絕不忽略 ``suspected AMI'' 警示}
+\item 建立「寧可過度處理，不可漏診」的心態
+\item 定期參加 ECG 判讀訓練
+\end{enumerate}
+\end{learningbox}
+
+\newpage
+%----------------------------------------------------------
+\section{Take Home Messages}
+%----------------------------------------------------------
+
+\begin{alertbox}
+\textbf{永遠不要忽略心電圖機的警示訊息！}
+
+電腦判讀雖有偽陽性，但當警示為\textbf{「suspected AMI」}時：
+\begin{enumerate}[noitemsep]
+\item \textbf{必須}親自仔細判讀 ECG 波形
+\item \textbf{必須}結合臨床症狀綜合判斷
+\item \textbf{有疑慮時}立即會診心臟科
+\item \textbf{絕不可}直接忽略或等待追蹤
+\end{enumerate}
+\end{alertbox}
+
+\vspace{1cm}
+
+\begin{keypoint}
+\textbf{STEMI 漏診的法律風險：}
+\begin{itemize}[noitemsep]
+\item 明顯的診斷延誤可能構成醫療疏失
+\item 電腦警示紀錄會成為法律證據
+\item 「我沒看到」不是有效的辯護理由
+\item 病患預後不良將面臨高額賠償
+\end{itemize}
+\end{keypoint}
+
+\vspace{1cm}
+
+\begin{learningbox}
+\textbf{記住這個案例：}
+
+一位 52 歲男性，典型胸痛症狀，心電圖機\textbf{兩次}警示 ``STE over inferior leads, suspected AMI''，Troponin 3 小時內上升 5 倍...
+
+\textbf{但醫療團隊選擇忽略警示。}
+
+這是可以避免的悲劇。
+\end{learningbox}
+
+\newpage
+%----------------------------------------------------------
+\section{附錄：Inferior STEMI 快速判讀口訣}
+%----------------------------------------------------------
+
+\subsection{看 ECG 的 30 秒檢查清單}
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{先看電腦判讀} → 有無 ``AMI'', ``STEMI'', ``ischemia'' 等關鍵字
+\item \textbf{看 II, III, aVF} → 有無 ST elevation
+\item \textbf{看 I, aVL} → 有無 reciprocal ST depression
+\item \textbf{結合臨床} → 胸痛 + ST elevation = 啟動心導管！
+\end{enumerate}
+
+\subsection{Inferior MI 的血管分布}
+
+\begin{longtable}{p{4cm}p{10cm}}
+\toprule
+\textbf{梗塞血管} & \textbf{判斷線索} \\
+\midrule
+\endhead
+RCA (Right Coronary Artery) & ST elevation III $>$ II\newline常合併右心室梗塞 (V4R elevation)\newline較常見 (約 80\%) \\
+\midrule
+LCx (Left Circumflex) & ST elevation II $>$ III\newline可能合併 lateral wall (I, aVL, V5-V6 elevation)\newline較少見 (約 20\%) \\
+\bottomrule
+\end{longtable}
+
+\vspace{2cm}
+
+\begin{center}
+\Large\bfseries\color{emergency_red}
+時間就是心肌\\
+Time is Muscle\\
+\vspace{0.5cm}
+\normalsize\color{black}
+每延誤 30 分鐘，死亡率增加 7.5\%
+\end{center}
+
+\vfill
+
+\begin{center}
+\small
+本教材由 謝慕揚醫師 MD, PhD, FESC 製作\\
+僅供院內教學使用，請勿外流
+\end{center}
+
+\end{document}

@@ -1,0 +1,13 @@
+---
+title: "心衰竭 — Heart Failure"
+---
+
+## 教學講義 Handouts
+
+- [Entresto_Seminar_2026.md](Entresto_Seminar_2026.md)
+- [HCM vs Fabry vs ATTR Amyloidosis 鑑別診斷 教學講義.md](HCM vs Fabry vs ATTR Amyloidosis 鑑別診斷 教學講義.md)
+
+## LaTeX Files
+
+- Eur Heart J HNMT Heart Failure 2026.tex
+- NEJM Physiologic Pacing Heart Failure 2026.tex
