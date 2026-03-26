@@ -8,7 +8,6 @@ toc: true
 toc-depth: 3
 number-sections: true
 link-external-newwindow: true
-    code-fold: true
 ---
 
 ::: {.callout-note}
