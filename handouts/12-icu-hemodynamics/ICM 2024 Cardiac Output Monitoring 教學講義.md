@@ -1,0 +1,207 @@
+# ICM 教學講義
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-01-19**
+
+---
+
+Cardiac Output Monitoring
+Intensive Care Medicine
+Monitoring Cardiac Output
+心輸出量監測：Toolbox Article
+Intensive Care Med (2024) 50:1912-1915. DOI: 10.1007/s00134-024-07566-6
+整理：謝慕揚MD, PhD, FESC
+日期：2026-01-19
+1 前言
+Cardiac output (CO) 監測是重症患者血流動力學評估的核心。CO 整合了heart rate、preload、
+afterload 及左右心室功能，反映心臟的泵血能力，並決定組織氧氣輸送。臨床評估無法準確估計CO
+值或其變化，因此應作為血流動力學評估的觸發點而非替代品。 核心發現摘要
+• CO 監測適應症：初始輸液復甦及小劑量升壓劑後仍無反應的循環衰竭患者
+• Echocardiography 提供完整心臟評估，但無法作為唯一連續監測工具
+• 選擇監測工具需考量侵入性及患者狀況
+• CO 變化需超過least significant change 才具臨床意義
+2 CO 測量方法
+2.1 Echocardiography
+原理：從left ventricular outflow tract (LVOT) 直徑及time-averaged velocity of flow (VTILVOT) 計
+算CO。 項目
+內容
+優點
+非侵入性
+快速設置
+準確可靠
+完整血流動力學評估（morphology、pressures、volumes、sys-
+tolic/diastolic function）
+可評估fluid responsiveness
+缺點
+間歇性測量
+需技術熟練
+耗時（難以每日重複超過兩次）
+影像品質有時無法測量所有指標
+注意事項
+對LVOT 直徑及VTILVOT 測量誤差敏感
+為減少觀察者間變異，常使用VTILVOT（反映stroke volume）
+而非直接測量CO
+
+
+ICM 教學講義
+Cardiac Output Monitoring
+2.2 Pulse-Derived CO
+原理：動脈脈波受stroke volume、aortic elastance 及vascular tone 影響。專用演算法分析動脈波形
+以估計stroke volume。 2.2.1 Non-Calibrated / Internally Calibrated Devices
+• 使用複雜演算法估計arterial tone
+• 可分析標準radial catheter 或非侵入性finger-cuff 裝置
+• 可在各種血流動力學條件下估計CO
+• 限制：血管張力急性變化時不可靠
+• 僅提供CO 及stroke volume variation (SVV)
+2.2.2 Externally Calibrated Devices（Transpulmonary Thermodilution）
+• 更準確估計CO
+• 提供完整血流動力學評估：cardiac preload、lung water and permeability、cardiac contractility
+• 校正時機：超過1 小時未校正或血管張力改變後需重新校正
+• 需專用動脈導管
+2.3 Right-Sided Thermodilution（Pulmonary Artery Catheter, PAC）
+原理：標準化注射冷鹽水，根據溫度變化計算CO。 類型
+特點
+傳統PAC
+間歇性bolus thermodilution
+準確可靠
+改良型（heating fila-
+ment）
+半連續自動測量
+因2-3 分鐘平均化延遲，無法偵測急性CO 變化
+新一代（pulse
+wave
+analysis）
+Real-time CO 測量
+以bolus thermodilution 校正
+需更多驗證
+PAC 提供的額外資訊：
+• Pulmonary artery pressures
+• Pulmonary artery occluded pressure (PAOP)（左心房壓替代指標）
+• Right atrial pressure
+• Mixed-venous O2 saturation (SvO2)
+3 各種技術比較
+
+
+ICM 教學講義
+Cardiac Output Monitoring
+技術
+主要優點
+主要缺點
+Echocardiography
+非侵入性
+完整心臟評估
+間歇性
+需技術熟練
+Bioimpedance
+非侵入性
+連續
+重症患者不可靠
+Bioreactance
+非侵入性
+連續
+重症患者CO 測量不準確
+Esophageal Doppler
+微創
+連續
+需頻繁重新定位
+非鎮靜患者不適
+End-tidal CO2
+連續
+便宜
+僅追蹤變化，不估計絕對值
+需侵入性控制呼吸
+Non-calibrated PWA
+連續
+可評估fluid responsiveness
+CO 測量不精確
+血管張力變化時不可靠
+Internally
+calibrated
+PWA
+CO 測量精確
+連續
+急性血管張力變化時不可靠
+Externally
+calibrated
+PWA
+可靠
+額外血流動力學變數
+血管張力變化後需重新校正
+需專用動脈導管
+Right-sided thermodilu-
+tion
+可靠
+完整血流動力學評估
+RV 功能評估
+侵入性
+可能為間歇性
+SVV/PLR 不適用於fluid re-
+sponsiveness 預測
+4 如何選擇監測技術
+4.1 選擇原則
+1. 考量侵入性
+2. 考量患者狀況及額外變數的價值
+3. Echocardiography 可提供完整心臟評估，但難以每日重複超過兩次，不適合作為複雜病例的唯
+一監測工具
+4.2 適應症建議
+臨床情境
+建議監測工具
+Right heart / RV dysfunction
+Pulmonary artery catheter
+可測量pulmonary artery pressures
+Cardiogenic
+shock
++
+VA-
+ECMO
+Pulmonary artery catheter
+評估左心腔loading conditions
+連續SvO2 監測
+Sepsis（尤其合併ARDS）
+Transpulmonary thermodilution
+可評估lung water and permeability
+圍術期（預期顯著preload 變
+化）
+Non-calibrated pulse wave analysis
+即使非侵入性也可使用
+
+
+ICM 教學講義
+Cardiac Output Monitoring
+5 如何解讀CO 測量
+5.1 CO 測量的臨床價值
+1. 診斷shock 類型：Distributive vs. others
+2. 觸發治療：需整合其他變數評估CO 適當性
+• 臨床評估
+• SvO2
+• Veno-arterial PCO2 difference
+• Capillary refill time
+• Lactate
+3. 評估治療效果：監測血流動力學介入或自發生理變化的影響
+重點提醒
+在septic shock 中，microcirculation 障礙可能使CO 變化與組織氧合變化「脫鉤」(dissociate)，
+需特別注意。 5.2 Least Significant Change
+CO 變化必須超過測量誤差才具臨床意義。此閾值稱為least significant change，定義為可靠區分
+於誤差的最小變化量。 測量方法
+Least Significant Change
+Pulse-derived CO
+1-2%
+Pulse-derived CO 的高精確度使其適合評估小幅CO 變化，如preload responsiveness tests（mini-
+fluid challenge、end-expiratory occlusion test）。 6 Key Points
+1. CO 監測適用於初始復甦後仍持續循環衰竭的患者
+2. Echocardiography 可提供完整心臟評估，但為間歇性，不適合作為複雜病例的唯一監測
+3. Non-calibrated pulse wave analysis 在血管張力急性變化時不可靠
+4. Transpulmonary thermodilution 校正的裝置更準確，並提供額外血流動力學變數
+5. PAC 適用於RV dysfunction 或cardiogenic shock with VA-ECMO
+6. Transpulmonary thermodilution 適用於sepsis 尤其合併ARDS
+7. CO 變化需超過least significant change（pulse-derived CO 為1-2%）才具臨床意義
+8. CO 適當性需整合臨床評估、SvO2、lactate 等多項指標判斷
+
+
+ICM 教學講義
+Cardiac Output Monitoring
+7 參考文獻
+1. De Backer D, Hajjar L, Monnet X. Monitoring cardiac output. Intensive Care Med. 2024;50:1912-
+1915. 2. De Backer D, Vieillard-Baron A. Clinical examination: a trigger but not a substitute for hemo-
+dynamic evaluation. Intensive Care Med. 2019;45(2):269-271. 3. Teboul JL, Saugel B, Cecconi M, et al. Less invasive hemodynamic monitoring in critically ill
+patients. Intensive Care Med. 2016;42(9):1350-1359. 4. Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-1734. 5. Kouz K, Scheeren TWL, de Backer D, Saugel B. Pulse wave analysis to estimate cardiac output. Anesthesiology. 2021;134:119-126.

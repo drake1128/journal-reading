@@ -1,0 +1,554 @@
+---
+title: "Fractional Flow Reserve (FFR)"
+subtitle: "book FFR Eng"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-26
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+Comprehensive Lecture Notes
+Compiled from Key Clinical Trials and Evidence
+Mu-Yang Hsieh, MD, PhD, FESC
+November 29, 2025
+Contents
+Theoretical Foundation
+1.1
+FFR Definition and Principles
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.1.1
+Basic Definition
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.1.2
+Theoretical Derivation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.1.3
+Clinical Significance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Technical Aspects
+2.1
+Measurement Technique
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.1.1
+Equipment Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.1.2
+Measurement Protocol . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2
+Non-Hyperemic Indices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2.1
+iFR (Instantaneous Wave-free Ratio) . . . . . . . . . . . . . . . . . . . . . . . . . . . Wheatstone Bridge Principle
+3.1
+Application to Pressure Measurement
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.1
+Basic Bridge Structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.2
+Application in FFR Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2
+Technical Considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . FAME 1 & FAME 2 Trials
+4.1
+FAME 1 (2009) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2
+FAME 2 (2012-2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Complete Revascularization in ACS
+5.1
+Landmark Trials in STEMI with Multivessel Disease . . . . . . . . . . . . . . . . . . . . . . 5.2
+Timing of Complete Revascularization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.3
+Cardiogenic Shock Special Considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.4
+FFR-guided vs Angiography-guided Complete Revascularization . . . . . . . . . . . . . . . . 5.5
+Meta-Analyses and Systematic Reviews . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Clinical Practice Guidelines Summary
+6.1
+Current Guideline Recommendations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2
+FFR/iFR Usage Recommendations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Controversies and Future Directions
+7.1
+Current Controversies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.2
+Future Research Directions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Conclusions
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Theoretical Foundation
+1.1
+FFR Definition and Principles
+Fractional Flow Reserve (FFR) is a physiological index used to assess the hemodynamic significance of coronary
+artery stenosis. 1.1.1
+Basic Definition
+FFR = Pd
+Pa
+(1)
+Where:
+• Pd = Distal coronary pressure (pressure distal to stenosis)
+• Pa = Aortic pressure (proximal pressure)
+1.1.2
+Theoretical Derivation
+FFR represents the ratio of maximum achievable blood flow in the presence of stenosis to the theoretical max-
+imum flow without stenosis in the myocardial territory supplied by that coronary artery. According to Poiseuille’s law, blood flow is proportional to the pressure gradient:
+Q = ∆P
+R
+(2)
+Under maximal hyperemia (induced by adenosine):
+FFR = Qmax,stenosis
+Qmax,normal
+= (Pd −Pv)/Rmyo
+(Pa −Pv)/Rmyo
+≈Pd
+Pa
+(3)
+When Pv (central venous pressure) is much smaller than Pa and Pd, this simplifies to FFR = Pd/Pa. 1.1.3
+Clinical Significance
+Table 1: Clinical Interpretation of FFR Values
+FFR Value
+Clinical Significance
+FFR > 0.80
+No hemodynamic significance, PCI not recommended
+FFR ≤0.80
+Hemodynamically significant, PCI recommended
+FFR < 0.75
+Definite ischemia, strong recommendation for intervention
+0.75 < FFR <
+0.80
+Gray zone, requires clinical judgment
+FFR < 0.50
+Severe ischemia, high-risk lesion
+Technical Aspects
+2.1
+Measurement Technique
+2.1.1
+Equipment Requirements
+• Pressure wire
+• Hyperemic agents: Adenosine (140-180 µg/kg/min IV) or IC bolus (40-80 µg)
+• Pressure measurement system
+• Angiography equipment
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+2.1.2
+Measurement Protocol
+Table 2: Standard FFR Measurement Procedure
+Step
+Operational Details
+Calibration: Zero the pressure wire and measurement system
+Equalization: Confirm Pd = Pa at guide catheter position
+Wire advancement: Advance pressure wire distal to lesion
+Induce hyperemia: Administer adenosine for maximal hyperemia
+Record pressure: Record Pd and Pa during hyperemia
+Calculate FFR: Automatic or manual calculation of FFR = Pd/Pa
+Pullback verification: Withdraw wire to guide catheter to check for drift
+2.2
+Non-Hyperemic Indices
+2.2.1
+iFR (Instantaneous Wave-free Ratio)
+iFR is measured during a specific period of the cardiac cycle (wave-free period) without hyperemic agents:
+• Measurement timing: Mid-diastole (approximately 25% of cardiac cycle)
+• Cutoff: iFR ≤0.89 considered significant
+• Advantages: No adenosine required, shorter procedure time, fewer side effects
+• Correlation with FFR: Approximately 80-85% concordance
+Wheatstone Bridge Principle
+3.1
+Application to Pressure Measurement
+Pressure wire systems utilize the Wheatstone Bridge principle to convert mechanical pressure into electrical
+signals. 3.1.1
+Basic Bridge Structure
+The bridge consists of four resistors, with at least one being a pressure-sensitive resistor (piezoresistive sensor):
+Vout = Vin
+(
+R3
+R3 + R4
+−
+R2
+R1 + R2
+)
+(4)
+When pressure changes, the resistance of the pressure-sensitive element changes, causing a voltage output
+variation that allows pressure measurement. 3.1.2
+Application in FFR Systems
+Table 3: Wheatstone Bridge Components in FFR Systems
+Component
+Function
+Pressure sensor
+Located at wire tip, contains piezoresistive elements
+Signal conversion
+Converts pressure changes to voltage changes
+Amplifier
+Amplifies minute voltage signals
+Calibration system
+Eliminates temperature, drift, and other interference
+Digital conversion
+Converts analog signals to digital pressure readings
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+3.2
+Technical Considerations
+• Drift: Prolonged measurements may cause signal drift; calibration before and after is essential
+• Temperature compensation: Body temperature variations can affect resistance values
+• Sensitivity: Modern pressure wires can detect pressure changes within ±2 mmHg
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+FAME 1 & FAME 2 Trials
+4.1
+FAME 1 (2009)
+Table 4: FAME 1 Trial Detailed Information
+Category
+Details
+Full Name
+Fractional Flow Reserve versus Angiography for Multivessel
+Evaluation
+Publication Year
+2009
+Journal
+New England Journal of Medicine
+Study Design
+Multicenter RCT
+Sample Size
+1,005 patients
+Inclusion Criteria
+Multivessel coronary artery disease suitable for PCI
+Exclusion Criteria
+STEMI <5 days, history of CABG
+Intervention
+FFR arm: Treat only lesions with FFR ≤0.80
+Angio arm: Treat all lesions with diameter stenosis ≥50%
+Primary Endpoint
+1-year MACE (death, MI, repeat revascularization)
+Primary Results
+FFR arm MACE: 13.2% vs Angio arm 18.3% (P=0.02)
+HR: 0.72 (95% CI: 0.54-0.96)
+Secondary Results
+FFR arm used fewer stents (1.9 vs 2.7, P<0.001)
+Similar procedure time
+Similar contrast volume
+5-Year Follow-up
+MACE: 28% (FFR) vs 31% (Angio), P=0.31
+FFR arm significantly better in first 2 years, similar from 2-5
+years
+4.2
+FAME 2 (2012-2018)
+Table 5: FAME 2 Trial Comprehensive Analysis
+Category
+Details
+Full Name
+Fractional Flow Reserve-Guided PCI versus Medical Therapy in
+Stable Coronary Disease
+Publication Year
+2012 (initial), 2018 (5-year)
+Journal
+New England Journal of Medicine
+Study Design
+Multicenter RCT
+Sample Size
+1,220 patients with FFR ≤0.80
+Inclusion Criteria
+Stable CAD with at least one stenosis and FFR ≤0.80
+Randomization
+PCI + OMT arm: 888 patients
+OMT only arm: 332 patients
+Registry (FFR >0.80): 166 patients
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Table 5 – continued
+Category
+Details
+Primary Endpoint
+(2-year)
+Death, MI, or urgent revascularization
+PCI + OMT: 4.3% vs OMT only: 12.7%
+HR: 0.32 (95% CI: 0.19-0.53), P<0.001
+Components
+Death: 0.9% vs 1.5% (P=0.49)
+MI: 3.4% vs 3.4% (P=0.98)
+Urgent revascularization: 1.6% vs 11.1% (P<0.001)
+5-Year Results
+Primary endpoint: 13.9% vs 27.0%
+HR: 0.46 (95% CI: 0.34-0.63), P<0.001
+Death or MI: 8.1% vs 12.0%
+HR: 0.66 (95% CI: 0.43-1.00), P=0.05
+Registry Patients
+FFR >0.80 with medical therapy only
+5-year event rate: 9.0%
+Lower than both randomized arms
+Key Message
+FFR-guided PCI significantly reduces urgent revascularization
+Trend toward reduced death/MI at 5 years
+Validates FFR ≤0.80 as intervention threshold
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Complete Revascularization in ACS
+5.1
+Landmark Trials in STEMI with Multivessel Disease
+Table 6: Major Complete Revascularization Trials in STEMI
+Trial
+Journal/Year
+N
+Primary Findings
+PRAMI
+NEJM 2013
+Preventive PCI reduced composite
+endpoint
+HR 0.35 (0.21-0.58), P<0.001
+First to show benefit
+CvLPRIT
+JACC 2015
+Complete revasc reduced MACE
+HR 0.45 (0.24-0.84), P=0.009
+Confirmed PRAMI findings
+COMPLETE
+NEJM 2019
+4,041
+Largest trial
+Primary EP: CV death/MI
+HR 0.74 (0.60-0.91), P=0.004
+CV death/MI: 7.8% vs 10.5% at 3
+years
+Guideline-changing evidence
+MULTISTARS AMI
+NEJM 2023
+Immediate vs Staged complete revasc
+Primary EP: 8.5% vs 7.3%
+HR 1.15 (0.73-1.82)
+Non-inferiority proven
+FULL REVASC
+NEJM 2024
+1,542
+FFR-guided complete vs Culprit-only
+4.8-year follow-up
+Primary EP: 19.0% vs 20.4%
+HR 0.93 (0.74-1.16), P=0.51
+Neutral result
+FIRE
+NEJM 2023
+1,445
+Physiology-guided complete vs
+Culprit-only (≥75 years)
+CV death/MI/revasc: 23.3% vs 30.0%
+HR 0.73 (0.58-0.90), P=0.004
+Benefit in elderly
+5.2
+Timing of Complete Revascularization
+Table 7: Immediate vs Staged Complete Revascularization
+Trial
+Journal/Year
+N
+Key Findings
+COMPLETE Timing
+NEJM 2019
+4,041
+In-hospital staged vs Post-discharge
+staged
+Similar outcomes, both superior to
+culprit-only
+MULTISTARS AMI
+NEJM 2023
+Immediate vs Staged (19-45 days)
+Non-inferiority proven
+Staged approach acceptable
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Table 7 – continued
+Trial
+Journal/Year
+N
+Key Findings
+SMILE
+JACC 2016
+Single-stage vs Multi-stage
+(in-hospital)
+Single-stage superior
+HR 0.55 (0.36-0.83), P=0.004
+5.3
+Cardiogenic Shock Special Considerations
+Table 8: Revascularization Strategy in STEMI with Cardiogenic
+Shock
+Trial
+Journal/Year
+N
+Primary Results and Clinical
+Implications
+CULPRIT-
+SHOCK
+NEJM 2017
+30 days:
+Death/RRT: 45.9% (culprit-only) vs
+55.4% (MV-PCI)
+RR 0.83 (0.71-0.96), P=0.01
+Mortality: 43.3% vs 51.6%, P=0.03
+1 year:
+Mortality: 50.0% vs 56.9% (P=0.07)
+HF rehospitalization: 4.5% vs 0.9%
+(P=0.01)
+Landmark trial: Changed guideline
+recommendations
+Culprit-only preferred in cardiogenic
+shock
+Consider staged revascularization
+5.4
+FFR-guided vs Angiography-guided Complete Revascularization
+Table 9: Comparison of FFR and Angiography-Guided Complete
+Revascularization
+Trial
+Journal/Year
+N
+Main Results
+DANAMI-3
+PRIMULTI
+Lancet 2015
+FFR-guided reduced PCI need
+Approximately 50% lesions FFR>0.80
+MACE improved
+COMPARE-ACUTE
+NEJM 2017
+FFR-guided immediate complete
+Primary EP: HR 0.35 (P<0.001)
+Supports FFR-guided strategy
+FLOWER-MI
+NEJM 2021
+1,171
+FFR non-superior to angio
+Primary EP: 5.5% vs 4.2%
+HR 1.32 (0.78-2.23), P=0.31
+Stent use: 1.01 vs 1.50
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Table 9 – continued
+Trial
+Journal/Year
+N
+Main Results
+FRAME-AMI
+European Heart
+J
+FFR-guided superior to angio
+FULL REVASC
+NEJM 2024
+1,542
+FFR-guided vs culprit-only
+4.8-year follow-up: neutral result
+HR 0.93 (0.74-1.16), P=0.51
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+5.5
+Meta-Analyses and Systematic Reviews
+Table 10: Important Meta-Analyses of Multivessel PCI in ACS
+Meta-analysis
+Journal/Year
+Main Conclusions
+Elgendy et al. JACC Cardiovasc
+Interv 2017
+8 RCTs, 7,030 patients included
+Complete revasc significantly reduced CV
+death and MI
+OR 0.74 (0.61-0.89)
+Pavasini et al. Eur Heart J 2020
+9 RCTs included
+Complete revasc reduced CV death
+HR 0.72 (0.58-0.89)
+Biscaglia et al. PLOS ONE 2024
+8 RCTs, 4,433 patients
+FFR vs angio-guided analysis
+MACE: RR 0.69 (0.52-0.90)
+ACS subgroup: RR 0.77 (0.51-1.17)
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Clinical Practice Guidelines Summary
+6.1
+Current Guideline Recommendations
+Table 11: 2024 ACS Multivessel Disease Management Guidelines
+Clinical Scenario
+Recommendations
+STEMI + MVD (no
+shock)
+Class I: Complete revascularization recommended
+Can be immediate or staged (in-hospital or post-discharge)
+Consider FFR/iFR guidance for non-culprit lesions
+STEMI + MVD + Shock
+Class I: Culprit-only PCI
+Class IIa: Consider staged revascularization
+Based on CULPRIT-SHOCK trial
+NSTEMI + MVD
+Class IIa: Complete revascularization
+Staged approach more common than immediate
+Can use FFR/iFR to assess non-culprit lesions
+Elderly Patients (≥75
+years)
+Based on FIRE trial
+Physiology-guided complete revasc beneficial
+Assess surgical risk and benefit
+Presence of CTO
+STEMI stable patients: Immediate CTO PCI not recommended
+Cardiogenic shock: CTO should not be treated immediately
+Consider subsequent staged intervention
+6.2
+FFR/iFR Usage Recommendations
+Table 12: Application of Physiologic Assessment in ACS
+Scenario
+Recommendations and Evidence Level
+Stable CAD multivessel disease
+Class I, Level A
+FFR ≤0.80 recommend PCI
+FFR > 0.80 can safely defer
+STEMI non-culprit lesions
+Class IIa, Level B
+Can use FFR/iFR for assessment
+Helps decide immediate or staged PCI
+NSTEMI non-culprit lesions
+Class IIa, Level B
+FFR/iFR helps reduce unnecessary PCI
+Safe and effective compared to angio-guided
+Timing of measurement (ACS)
+Index procedure or staged (days later) both acceptable
+Studies show FFR/iFR values stable
+iFR may be more suitable in acute phase (no adenosine
+needed)
+Not recommended
+Culprit lesion (clearly needs immediate PCI)
+Cardiogenic shock (CULPRIT-SHOCK)
+STEMI with left main disease
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Controversies and Future Directions
+7.1
+Current Controversies
+Table 13: Controversial Issues in FFR and Complete Revascular-
+ization
+Controversy
+Discussion
+FLOWER-MI neutral results
+FFR-guided failed to prove superiority over angio-guided
+Possible reasons: Modern angio assessment already accurate,
+low event rate, trial design
+Does not mean FFR is useless; both methods acceptable
+Timing of complete revasc
+Immediate vs staged still debated
+MULTISTARS AMI showed non-inferiority
+Immediate may increase contrast volume, procedural
+complexity
+Staged requires rehospitalization, increases healthcare costs
+FFR accuracy in ACS
+Microvascular dysfunction may affect accuracy
+Most studies show good reliability
+iFR may be alternative option
+FAME 2 soft endpoint issue
+Main benefit from reduced urgent revascularization
+No significant difference in death/MI (trend at 5 years)
+Non-blinded design may introduce bias
+Cost-effectiveness
+FFR equipment cost vs reduced unnecessary PCI
+Long-term follow-up shows cost-effective
+Requires additional training and equipment
+7.2
+Future Research Directions
+• Integration of imaging and physiology: Combined IVUS/OCT + FFR assessment
+• Novel physiologic indices: dPR, RFR, virtual FFR (computed FFR)
+• Artificial intelligence applications: AI-assisted FFR interpretation, outcome prediction
+• Special populations: Optimal strategies for diabetes, chronic kidney disease, very elderly patients
+• Long-term outcomes: >5-year follow-up of complete revascularization effects
+• Precision medicine: Gene and biomarker-guided personalized treatment
+
+
+Fractional Flow Reserve (FFR) Lecture Notes
+Conclusions
+FFR represents a major advancement in percutaneous coronary intervention, providing an objective physiolog-
+ical assessment standard. Key conclusions include:
+1. Stable CAD: FFR-guided PCI superior to pure angiography-guided approach (FAME 1 & 2)
+2. STEMI with multivessel disease: Complete revascularization superior to culprit-only (COMPLETE and
+others)
+3. FFR in ACS: Safe to use for non-culprit lesion assessment
+4. Cardiogenic shock: Culprit-only is preferred strategy (CULPRIT-SHOCK)
+5. Timing choice: Both immediate and staged complete revascularization are acceptable
+6. Elderly patients: Physiology-guided approach still beneficial (FIRE)
+The application of FFR and iFR should be integrated with clinical judgment, imaging assessment, and patient
+characteristics to achieve optimal personalized treatment strategies.

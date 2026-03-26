@@ -1,0 +1,668 @@
+# 心血管中心教學文件
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-12-06**
+
+---
+
+急性肺栓塞導管導向治療
+完整操作流程指引
+Catheter-Directed Therapy for Acute Pulmonary Embolism:
+A Comprehensive Procedural Guide
+教學目標
+• 掌握急性PE 風險分層與治療決策
+• 熟悉CDT 術前評估與準備流程
+• 了解肺動脈導管置入技術要點
+• 學習低劑量溶栓藥物輸注協議
+• 認識術後監測與併發症處理
+文件版本
+第1.0 版
+發佈日期:2025-12-06
+內科部心臟內科
+謝慕揚Mu-Yang Hsieh, MD, PhD, FESC
+參考文獻:
+Engelberger & Kucher (Circulation 2011)
+Stanford Submassive PE Protocol (Kuo WT et al.)
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+Contents
+前言與臨床背景
+1.1
+本文件適用範圍. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.2
+開始自2015 年的故事. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 風險分層與治療決策
+2.1
+急性PE 風險分類
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2
+RV Dysfunction 評估標準. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . CDT 術前準備與評估
+3.1
+術前評估清單. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2
+溶栓治療禁忌症. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3
+設備準備清單. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . CDT 手術步驟詳解
+4.1
+Step 1: 血管通路建立(Vascular Access) . . . . . . . . . . . . . . . . . . . . . . 4.2
+Step 2: 抗凝血劑給予(Anticoagulation) . . . . . . . . . . . . . . . . . . . . . . 4.3
+Step 3: 右心導管術與血流動力學評估(Right Heart Catheterization)
+. . . . . . 4.4
+Step 4: 肺動脈血管攝影(Pulmonary Angiography) . . . . . . . . . . . . . . . . 4.5
+Step 5: 穿越血栓與輸注導管置入(Catheter Placement)
+. . . . . . . . . . . . . 4.6
+Step 6: 機械治療技術(適用於Massive PE) . . . . . . . . . . . . . . . . . . . . 4.7
+Step 7: 溶栓藥物輸注(Catheter-Directed Thrombolysis) . . . . . . . . . . . . . 術後監測與追蹤
+5.1
+輸注期間監測. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2
+治療終點與停止標準. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.3
+導管與鞘管移除. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.4
+恢復抗凝血治療. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.5
+長期追蹤
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 併發症與處理
+6.1
+主要併發症. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 臨床成效數據
+考題
+8.1
+考題詳解
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 結語
+10 參考文獻
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+1 前言與臨床背景
+急性肺栓塞(Pulmonary Embolism, PE) 是心血管急症中死亡率極高的疾病之一。根據國際
+肺栓塞登錄研究(ICOPER),massive PE 的短期死亡率高達52.4%, 而submassive PE 亦有
+14.7% 的死亡率。導管導向治療(Catheter-Directed Therapy, CDT) 作為系統性溶栓與外科
+栓塞切除術之間的治療選項, 近年來受到越來越多的關注。 1.1 本文件適用範圍
+本文件整合Engelberger 與Kucher 發表於Circulation (2011) 的技術指引, 以及Stanford 大
+學William Kuo 教授團隊制定的Submassive PE Protocol, 提供完整的CDT 操作流程參考。 適應症摘要
+High-Risk (Massive) PE: 持續性低血壓(SBP ≤90 mmHg 超過15 分鐘)、需要升
+壓劑、心因性休克或需要CPR。CDT 可作為系統性溶栓的替代或輔助療法。 Intermediate-High Risk (Submassive) PE: 血流動力學穩定但合併右心室功能
+障礙(RV dysfunction) 及/或心臟biomarkers 升高, 且有臨床惡化跡象(如lactate 升高、
+器官低灌注)。 1.2 開始自2015 年的故事
+2015 年我因為一個院內研究，有機會到美國介入放射學會大會(Society of Interventional
+Radiology, SIR) 領獎，那個研究是吳志成教授指導我在新竹台大進行，獲選為SIR Editor’s
+Choice 成為大會年度論文。我自己買了機票，坐飛機到了美國Atlanta, 當然不會放過這個學
+習的機會，於是自己刷卡買了除了頒獎日外其它天的學會入場券。 現場有極多的研究與海報，我在四天內，看了dialysis access intervention, 找到了Dr. Trerotola 與他合照，參加了stroke endovascular therapy 的會議，也在現場找到了我從fellow
+就喜歡了解的題目: 肺栓塞。我看到了Stanford University 的Catheter-Directed Thromboly-
+sis protocol 的海報，於是特別找了講廳，在現場聽了Dr. William Kuo 的演講，介紹CDT
+在肺栓塞治療史丹福大學的經驗。 在心臟科工作久了，在CCU 一直持續值班，偶爾就會碰到重症的肺栓塞，所以心裡積了
+很多疑問，在現場，我像是瘋了一樣，一直作筆記，因為Dr. Kuo 報告的成果太好了，讓我
+深深覺得一定要將這個技術帶回台灣新竹。 回台後，我遍讀文獻，決定再寫個信跟Dr. William Kuo 討教，他在24 小時內就回覆了
+我，還把Stanford Protocol 與我分享(Figure 1.2)。從此我們新竹就有了標準作法，我也從
+2015 執行肺栓塞緊急導管一直到今天。 2 風險分層與治療決策
+2.1 急性PE 風險分類
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+Figure 1: 2015 年謝慕揚醫師與Stanford University Dr. William Kuo 的通信。經Dr. Kuo 同
+意後轉載。
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+風險類別
+定義特徵
+治療建議
+Table 1: 急性PE 風險分層與建議處置
+風險類別
+定義特徵
+治療建議
+Low-Risk PE
+血流動力學穩定
+無RV dysfunction
+Biomarkers 正常
+Anticoagulation alone
+預後極佳(<1% mortality)
+Intermediate-Low
+Risk
+PE
+血流動力學穩定
+RV dysfunction (+) 或
+Biomarker (+) (僅其一)
+Anticoagulation
+密切監測
+必要時升級治療
+Intermediate-High Risk
+PE
+血流動力學穩定
+RV dysfunction (+) 且
+Biomarker (+)
+有器官低灌注跡象
+考慮治療升級:
+CDT (Grade IIb C)
+Systemic fibrinolysis
+Surgical embolectomy
+High-Risk PE
+(Massive PE)
+SBP ≤90 mmHg 持續>15
+分鐘
+需要升壓劑
+心因性休克
+需要CPR
+首選:
+Systemic
+fibrinolysis
+(Grade IIa B)
+替代: CDT (Grade IIa C)
+或: Surgical embolectomy
+2.2 RV Dysfunction 評估標準
+右心室功能障礙是判斷PE 嚴重度的關鍵指標, 可透過以下方式評估:
+評估方式
+異常標準
+CT Pulmonary Angiography
+RV/LV diameter ratio ≥0.9 (axial view)
+Echocardiography
+RV dilation, hypokinesis, McConnell’s sign, D-shaped
+septum, TAPSE < 16 mm
+Cardiac Biomarkers
+Troponin I/T elevation, BNP/NT-proBNP elevation
+其他指標
+Lactate elevation, liver enzymes elevation (organ hypop-
+erfusion signs)
+3 CDT 術前準備與評估
+3.1 術前評估清單
+CDT 術前評估檢查清單
+□
+影像學審查: 審查CT Pulmonary Angiography 確認PE 位置、範圍與解
+剖結構
+□
+DVT 評估: 下肢venous ultrasonography 評估深靜脈血栓範圍
+□
+ECG 審查: 評估心律、傳導阻滯(特別注意LBBB 或RBBB)
+□
+實驗室檢查: CBC, PT/INR, aPTT, fibrinogen, Cr, BUN, electrolytes
+□
+排除禁忌症: 確認無溶栓禁忌症(見下表)
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+□
+知情同意: 向病患/家屬說明風險與替代方案並取得同意
+□
+團隊準備: 確認心導管室設備與人員就緒
+3.2 溶栓治療禁忌症
+絕對禁忌症
+相對禁忌症
+任何先前intracranial hemorrhage (ICH)
+近期(≤10 天) 大手術、深層器官活檢
+已知結構性腦血管疾病(如AVM)
+近期(≤10 天) 產科分娩
+已知惡性顱內腫瘤
+過去6 個月內major bleeding
+3 個月內ischemic stroke
+近期gastrointestinal bleeding
+活動性出血或出血傾向
+嚴重未控制高血壓(SBP > 200 或
+DBP > 110 mmHg)
+—
+創傷性CPR、非壓迫性血管穿刺
+—
+妊娠或產後1 週內
+重點提醒
+特殊考量:
+• Pulmonary hypertension 或LBBB 患者: 術中心律不整風險增加, 應準備external
+pacing pads 或transvenous pacing catheter
+• 腎功能不全患者: 若術前CT 足夠清晰, 可考慮推遲或減少血管攝影造影劑用量
+• 已接受LMWH 的患者: 若在12 小時內使用過治療劑量LMWH, 術中可能不需要額
+外heparin
+3.3 設備準備清單
+設備類別
+建議品項
+血管通路
+Micropuncture kit (21G needle)
+7-Fr 或8-Fr vascular sheath (長度足夠達Main PA)
+導管
+Pigtail catheter (5-Fr 或6-Fr)
+Multipurpose catheter
+Multi-sidehole infusion catheter (如UniFuse, Cragg-
+McNamara)
+EKOS EndoWave System (若使用ultrasound-assisted
+CDT)
+導線
+0.035” hydrophilic guidewire (如Terumo Glidewire)
+0.035” exchange-length stiff wire (如Rosen wire, Am-
+platz wire)
+藥物
+Alteplase (tPA)
+Unfractionated heparin
+造影劑(非離子型)
+監測設備
+Pressure transducer
+Pulse oximeter
+Continuous ECG monitoring
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+4 CDT 手術步驟詳解
+本節依據Engelberger & Kucher (2011) 的標準化流程, 結合Stanford Protocol 進行詳細說
+明。 4.1 Step 1: 血管通路建立(Vascular Access)
+項目
+操作要點
+穿刺位置
+首選:Common femoral vein (CFV)
+替代:Internal jugular vein (IJV)
+若需雙導管治療, 可使用雙側CFV 或CFV + IJV 組合
+穿刺技術
+使用ultrasound guidance 進行穿刺(強烈建議)
+採用micropuncture technique 減少出血風險
+Sheath 選擇
+至少一側使用7-Fr 或8-Fr sheath (以利壓力測量)
+Sheath 長度需足夠達main pulmonary trunk
+若第二側為單純藥物輸注, 可使用較小口徑
+重點提醒
+技術要點: 使用ultrasound-guided micropuncture 穿刺可顯著降低穿刺相關出血風險, 特
+別是在接受溶栓治療的患者中更為重要。 4.2 Step 2: 抗凝血劑給予(Anticoagulation)
+項目
+劑量與注意事項
+Initial Bolus
+Unfractionated heparin 80 units/kg IV bolus
+已預治療患者
+若已接受heparin bolus 或infusion, 根據ACT 調整
+目標ACT: 250-350 seconds
+LMWH 使用者
+若12 小時內使用過治療劑量LMWH, 可能不需要額外
+procedural heparin, 特別是計畫進行CDT 的患者
+4.3 Step 3: 右心導管術與血流動力學評估(Right Heart Catheteriza-
+tion)
+項目
+操作要點與正常值
+導管選擇
+Pigtail catheter 或Multipurpose catheter
+配合0.035” hydrophilic guidewire
+導管路徑
+IVC →Right Atrium (RA) →Right Ventricle (RV) →
+Main Pulmonary Artery (MPA)
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+壓力測量點
+RA: Mean RAP 正常值0-8 mmHg
+RV: RVSP/RVEDP, 正常值25/0-8 mmHg
+PA:
+PAP
+systolic/diastolic/mean,
+正常值
+25/10/15
+mmHg
+心輸出量
+自Main PA 抽取mixed venous blood sample 計算cardiac
+output (Fick method)
+記錄systemic arterial SpO2
+ECG 監測
+連續監測ECG, 導管通過RV 時易誘發ventricular ar-
+rhythmia
+若發生VT, 通常抽回導管後可自行終止
+高風險血管攝影警示
+當出現以下情況時, 肺動脈血管攝影的風險顯著增加, 死亡率可能高達3%:
+• Systolic PAP > 55 mmHg
+• RAP 或RVEDP > 20 mmHg
+建議調整: 使用較低注射速率、減少注射量, 並使用非離子型造影劑。 4.4 Step 4: 肺動脈血管攝影(Pulmonary Angiography)
+項目
+技術參數與要點
+導管位置
+將pigtail catheter 尖端置於血栓近端的main right 或left
+PA
+確認壓力波形無damping (non-damped pressure tracing)
+造影劑注射
+Submassive PE: 總量不超過20 cc, 速率不超過10 cc/s
+Massive PE: 依血流動力學狀態調整, 可能需更低參數
+攝影角度
+Left PA: LAO 20◦
+Right PA: RAO 20◦
+DSA 設定
+Frame rate: 6 frames/second
+患者配合breath hold 數秒
+結果判讀
+確認血栓位置與範圍
+與術前CT 影像對照
+識別最大栓塞分支(通常為descending branches)
+4.5 Step 5: 穿越血栓與輸注導管置入(Catheter Placement)
+步驟
+操作要點
+導線穿越
+使用angle-tipped 0.035” hydrophilic guidewire (如Terumo
+Glidewire with torque device)
+配合diagnostic catheter 小心穿越血栓
+確認位置
+手動注射1-2 mL 造影劑確認導線已成功穿越栓塞
+確認導管尖端位於safe position (通常為large lower lobe
+segmental branch)
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+導線交換
+可將hydrophilic wire 交換為0.035” stiff wire (如Rosen
+wire 或Amplatz wire) 以提供更好穩定性
+輸注導管置入
+移除診斷導管, 保留導線
+沿導線置入multi-sidehole infusion catheter
+常用導管:UniFuse (Angiodynamics), Cragg-McNamara,
+EKOS EndoWave
+治療區長度
+通常為10-30 cm
+治療區應從最遠端可安全置入處延伸至main pulmonary
+trunk
+側孔可延伸入sheath 以利藥物分布至其他栓塞分支
+導管尖端位置
+通常置於interlobar artery
+確保側孔涵蓋主要栓塞區域
+重點提醒
+雙導管置入: 若雙側肺動脈均有significant obstructive thrombus, 建議置入雙側infusion
+catheters。若僅單側明顯栓塞, 單導管治療可接受, 但側孔應延伸至main pulmonary trunk
+以利藥物分布。 4.6 Step 6: 機械治療技術(適用於Massive PE)
+對於blood pressure 已不穩定的massive PE 患者, 可能需要先進行機械式血栓處理以快速減
+輕RV 負荷。 技術類型
+操作說明與注意事項
+Pigtail Fragmentation
+最常用技術
+使用pigtail catheter 在血栓內旋轉, 將大血栓碎
+裂為小片段
+小碎片移動至更遠端分支, 降低中央阻力
+Suction Thrombectomy
+使用large-bore catheter 直接抽吸血栓
+可配合fragmentation 使用
+治療目標
+Massive PE 的目標是快速緩解RV strain
+不以完全清除血栓為目的
+成功定義: 降級至intermediate-risk PE 即可
+4.7 Step 7: 溶栓藥物輸注(Catheter-Directed Thrombolysis)
+項目
+Stanford Protocol 建議
+藥物選擇
+Alteplase (tPA, Genentech)
+輸注劑量
+雙導管: 每側0.5 mg/hour (總計1.0 mg/hour)
+單導管: 1.0 mg/hour
+最大總輸注速率不超過1.0 mg/hour
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+藥物稀釋
+tPA 以normal saline 稀釋至0.1 mg/mL
+(即1 mg tPA / 10 mL saline)
+tPA 在室溫下稀釋至0.01 mg/mL 濃度仍可維持24 小時
+活性
+輸注時間
+通常12-24 小時
+總劑量約20-24 mg
+Heparin 調整
+停止全劑量heparin
+改為subtherapeutic dose: 300-500 units/hour
+(或400 units/hour 經peripheral IV)
+目標aPTT < 60 seconds
+目的: 預防peri-sheath clot formation
+導管固定
+以sterile dressing 固定infusion catheters 與sheaths
+最終fluoroscopy 確認導管位置正確
+轉送
+轉送至ICU 或monitored bed 觀察
+重點提醒
+EKOS Ultrasound-Enhanced Thrombolysis 範例(Engelberger 2011):
+• 雙側EKOS EndoWave catheters
+• 每側3 mg bolus, 接續10 mg continuous infusion over 15 hours
+• 總劑量26 mg tPA
+• 超音波能量可加速tPA 滲透入血栓
+5 術後監測與追蹤
+5.1 輸注期間監測
+監測項目
+頻率與注意事項
+生命徵象
+Continuous monitoring: ECG, BP, SpO2
+記錄hemodynamic changes
+神經學檢查
+每2-4 小時執行
+目的: 早期偵測intracranial hemorrhage
+任何神經學變化應立即停止tPA 並安排頭部CT
+穿刺部位
+定期檢查是否有bleeding 或hematoma
+病患需bed rest, 穿刺側腿伸直
+Fibrinogen
+定期監測(每6-8 小時)
+若fibrinogen < 100-150 mg/dL, 考慮減量/停止tPA
+必要時輸注FFP 或cryoprecipitate
+PAP 監測
+可透過larger sheath 隨時transducer 測量main PAP
+記錄pressure changes 作為治療效果指標
+5.2 治療終點與停止標準
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+停止標準類型
+具體指標
+臨床改善
+PAP 降低
+呼吸困難減輕
+Heart rate 降低
+Blood pressure 改善
+Oxygen saturation 改善
+影像學改善
+追蹤pulmonary angiography 顯示血流改善
+(對submassive PE,bedside assessment 可能足夠)
+RV 功能改善
+Echocardiography 顯示RV function recovery
+RV size reduction
+Resolution of septal flattening
+安全考量
+Fibrinogen 降至< 100 mg/dL
+發生significant bleeding
+任何neurological deterioration
+5.3 導管與鞘管移除
+移除流程步驟
+停止tPA infusion
+使用無菌技術, 先移除infusion catheters
+再移除vascular sheaths
+於穿刺部位進行direct manual compression 至少5 分鐘或直到hemostasis
+(Engelberger 建議: 手動壓迫30-45 分鐘)
+敷料覆蓋並監測出血情形
+5.4 恢復抗凝血治療
+重要時間點
+Hemostasis 達成後15 分鐘, 應恢復full therapeutic anticoagulation。 延遲恢復抗凝可能增加再栓塞風險。 5.5 長期追蹤
+追蹤項目
+時間點與內容
+心臟超音波
+48 小時內: 確認severe RV strain resolution
+1-3 個月後: 確認RV function 長期穩定性
+抗凝治療
+門診追蹤確保adequate anticoagulation
+通常需要至少3 個月, 依病因可能需終身治療
+IVC Filter
+若置入temporary IVC filter, 應安排取出
+取出時機依臨床狀況決定
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+症狀評估
+識別long-term complications:
+持續性dyspnea、exercise intolerance
+考慮chronic thromboembolic pulmonary hypertension
+(CTEPH) 可能性
+6 併發症與處理
+6.1 主要併發症
+併發症
+發生率
+處理原則
+Major Bleeding
+CDT: ∼2-5%
+(vs systemic: 20%)
+立即停止tPA
+輸血、FFP、cryoprecipitate
+評估出血部位並處理
+Intracranial Hemorrhage
+CDT: <1%
+(vs systemic: 3-5%)
+立即停止所有抗凝/溶栓
+緊急頭部CT
+Neurosurgery 會診
+Pulmonary Artery Perfora-
+tion
+Rare
+立即停止導管操作
+評估hemodynamic stability
+必要時surgical intervention
+Cardiac Arrhythmia
+During
+RV
+catheter
+passage
+通常為self-limited VT
+抽回導管即可終止
+Sustained VT 需電擊整流
+Access Site Complications
+Hematoma,
+pseudoa-
+neurysm, AV fistula
+壓迫止血
+Ultrasound 評估
+必要時surgical repair
+7 臨床成效數據
+結果指標
+文獻數據
+Clinical Success Rate
+約86.5% (Kuo et al. 2009 meta-analysis)
+Major Bleeding
+CDT 相較系統性溶栓顯著降低
+(約2-5% vs 約20%)
+Intracranial
+Hemor-
+rhage
+< 1% with CDT
+Hemodynamic Improve-
+ment
+Mean PAP 降低、Cardiac output 增加
+(Engelberger 案例: PAP 從39 降至27 mmHg,
+CO 從3.1 增至4.7 L/min)
+8 考題
+以下為針對本教材的自我評量題目。
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+1. 關於急性PE 的風險分層, 下列何者為intermediate-high risk PE 的定義特徵?
+a) 血流動力學不穩定且需要升壓劑
+b) 血流動力學穩定但合併RV dysfunction 與biomarker elevation
+c) 僅有RV dysfunction 但biomarker 正常
+d) 血壓正常且無任何右心功能異常
+2. 根據Engelberger protocol, 進行右心導管術時heparin bolus 的建議劑量為?
+a) 50 units/kg
+b) 80 units/kg
+c) 100 units/kg
+d) 120 units/kg
+3. 當systolic PAP 超過多少mmHg 時, 進行pulmonary angiography 的風險顯著增加?
+a) 35 mmHg
+b) 45 mmHg
+c) 55 mmHg
+d) 65 mmHg
+4. 根據Stanford Protocol, 雙導管CDT 時每側tPA 的輸注速率建議為?
+a) 0.25 mg/hour
+b) 0.5 mg/hour
+c) 1.0 mg/hour
+d) 2.0 mg/hour
+5. CDT 期間啟動tPA 輸注後,heparin 應如何調整?
+a) 維持原治療劑量不變
+b) 增加至1.5 倍劑量
+c) 改為subtherapeutic dose (約300-500 units/hour)
+d) 完全停止所有heparin
+6. 下列何者不是CDT 後echocardiography 的建議追蹤時間點?
+a) 完成CDT 後48 小時內
+b) 1 個月後
+c) 3 個月後
+d) 12 個月後
+7. Massive PE 進行機械式血栓處理時, 治療的主要目標為何?
+a) 完全清除所有血栓
+b) 快速緩解RV strain, 降級至intermediate-risk
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+c) 恢復正常PAP 至小於25 mmHg
+d) 達成100% 血管再通
+8. 以下何者是CDT 的絕對禁忌症?
+a) 近期10 天內大手術
+b) 3 個月內ischemic stroke
+c) 嚴重高血壓(SBP > 200 mmHg)
+d) 近期gastrointestinal bleeding
+9. 輸注tPA 期間,fibrinogen 降至多少mg/dL 以下時應考慮減量或停止?
+a) 200 mg/dL
+b) 150 mg/dL
+c) 100 mg/dL
+d) 50 mg/dL
+10. 移除sheath 後達成hemostasis 多久後應恢復full therapeutic anticoagulation?
+a) 立即
+b) 15 分鐘後
+c) 2 小時後
+d) 24 小時後
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+8.1 考題詳解
+1. 正確答案: b) 血流動力學穩定但合併RV dysfunction 與biomarker elevation
+詳解: Intermediate-high risk PE 定義為血流動力學穩定(SBP > 90 mmHg), 但同時具備
+RV dysfunction (echocardiography 或CT 顯示) 以及cardiac biomarkers 升高(troponin
+或BNP)。這類患者有較高的臨床惡化風險, 應考慮治療升級如CDT。選項a 描述的
+是high-risk (massive) PE; 選項c 為intermediate-low risk; 選項d 為low-risk PE。 2. 正確答案: b) 80 units/kg
+詳解: 根據Engelberger & Kucher 的標準化流程, 建議給予unfractionated heparin 80
+units/kg IV bolus。若患者已接受heparin 預治療, 則根據activated clotting time (ACT)
+調整, 目標ACT 為250-350 seconds。 3. 正確答案: c) 55 mmHg
+詳解: 文獻報告指出, 當systolic PAP 超過55 mmHg 或RVEDP 超過20 mmHg 時, 使
+用large-volume power injection 進行肺動脈血管攝影的死亡率可高達3%。此時建議使
+用較低注射速率與較小造影劑量, 並選用非離子型造影劑。 4. 正確答案: b) 0.5 mg/hour
+詳解: Stanford Protocol 建議使用雙導管時, 每側tPA 輸注速率為0.5 mg/hour, 總計
+1.0 mg/hour。若僅使用單導管, 則可提高至1.0 mg/hour。總輸注速率不應超過1.0
+mg/hour, 以降低出血風險。 5. 正確答案: c) 改為subtherapeutic dose (約300-500 units/hour)
+詳解: 啟動tPA 輸注後, 應停止full-dose heparin anticoagulation, 改為subtherapeutic
+dose (約300-500 units/hour 或400 units/hour), 目標aPTT < 60 seconds。此劑量的目
+的是預防peri-sheath clot formation, 同時降低出血風險。 6. 正確答案: d) 12 個月後
+詳解: Stanford Protocol 建議在CDT 完成後48 小時內進行echocardiography 確認
+severe RV strain resolution, 並於1-3 個月後再次追蹤以確認RV function 的長期穩定
+性。12 個月後的追蹤並非標準建議時間點, 但可依臨床需要安排。 7. 正確答案: b) 快速緩解RV strain, 降級至intermediate-risk
+詳解: 對於massive PE 進行機械式血栓處理(如pigtail fragmentation 或rheolytic
+thrombectomy), 主要目標是快速減輕危及生命的RV strain, 而非追求完全血栓清除。 成功的定義是將患者從high-risk 降級至intermediate-risk PE, 使其能夠接受後續的抗
+凝治療。 8. 正確答案: b) 3 個月內ischemic stroke
+詳解: 3 個月內ischemic stroke 是溶栓治療的絕對禁忌症, 因為出血轉化的風險極高。 其他選項(近期大手術、嚴重高血壓、GI bleeding) 雖然也增加出血風險, 但屬於相對
+禁忌症, 需權衡利弊後決定。 9. 正確答案: c) 100 mg/dL
+詳解: tPA 輸注期間應監測fibrinogen 水平。當fibrinogen 降至100-150 mg/dL 以下時,
+操作者應考慮減少或停止tPA 輸注, 並視需要輸注FFP 或cryoprecipitate 以補充凝血
+因子。嚴重低纖維蛋白原血症會增加出血風險。
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+10. 正確答案: b) 15 分鐘後
+詳解: 根據Stanford Protocol, 在確認穿刺部位達成hemostasis 後15 分鐘, 應恢復full
+therapeutic anticoagulation。延遲恢復抗凝可能增加再栓塞風險。這個時間點既確保局
+部止血穩定, 又避免過度延遲系統性抗凝。 9 結語
+導管導向治療為急性肺栓塞提供了一個介於抗凝治療與系統性溶栓/外科手術之間的重要選
+項。相較於系統性溶栓,CDT 可在栓塞部位直接給予較低劑量的溶栓藥物, 有效降低出血併發
+症風險同時達到血栓溶解效果。 關鍵學習要點:
+1. 正確的風險分層是治療決策的基礎
+2. CDT 最適合intermediate-high risk PE 或有溶栓禁忌的massive PE
+3. 術前評估與排除禁忌症至關重要
+4. 低劑量tPA 輸注(不超過1.0 mg/hour) 配合subtherapeutic heparin 是安全有效的策略
+5. 術後密切監測與適時追蹤echocardiography 確保治療成效
+謹記: 成功的CDT 需要完整的術前準備、
+精確的導管技術、以及周密的術後監測。 多專科團隊合作是處理複雜PE 的關鍵。 10 參考文獻
+1. Engelberger RP, Kucher N. Catheter-Based Reperfusion Treatment of Pulmonary Em-
+bolism. Circulation. 2011;124(19):2139-2144. doi:10.1161/CIRCULATIONAHA.111.023689
+2. Kuo WT, Gould MK, Louie JD, Rosenberg JK, Sze DY, Hofmann LV. Catheter-directed
+therapy for the treatment of massive pulmonary embolism: systematic review and meta-
+analysis of modern techniques. J Vasc Interv Radiol. 2009;20(11):1431-1440. 3. Stanford Submassive PE CDT Protocol. Stanford University Interventional Radiology. 2014. 4. Jaff MR, McMurtry MS, Archer SL, et al. Management of massive and submassive
+pulmonary embolism, iliofemoral deep vein thrombosis, and chronic thromboembolic
+pulmonary hypertension: a scientific statement from the American Heart Association. Circulation. 2011;123:1788-1830. 5. Goldhaber SZ, Visani L, De Rosa M. Acute pulmonary embolism: clinical outcomes in the
+International Cooperative Pulmonary Embolism Registry (ICOPER). Lancet. 1999;353:1386-
+1389. 6. Piazza G, Goldhaber SZ. Management of submassive pulmonary embolism. Circulation. 2010;122:1124-1129.
+
+
+心血管中心教學文件
+急性肺栓塞導管治療
+本教材整合Engelberger & Kucher (Circulation 2011) 與Stanford Submassive PE Protocol
+編輯: 謝慕揚Mu-Yang Hsieh, MD, PhD, FESC
+僅供教學使用, 請勿用於商業用途

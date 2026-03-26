@@ -1,0 +1,150 @@
+# J Invasive Cardiol 教學講義
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-01-17**
+
+---
+
+母子導管併發症與OCT
+Journal of Invasive Cardiology - Clinical
+Images
+Mother-and-Child Catheter-Induced Retrograde
+Dissection of the Left Main Coronary Artery During
+Optical Coherence Tomography Examination
+母子導管於光學同調斷層掃描檢查中引起左主幹冠狀動脈逆行性剝離
+J Invasive Cardiol. 2018;30(7):E57-E58. 整理：謝慕揚MD, PhD, FESC
+日期：2026-01-17
+1 病例報告
+1.1 病人基本資料
+• 54 歲男性
+• 診斷：Non-ST elevation myocardial infarction (NSTEMI)
+1.2 冠狀動脈攝影發現
+冠狀動脈攝影顯示雙血管疾病(two-vessel disease)：
+血管
+病灶
+Left
+anterior
+descending
+(LAD)
+Mid LAD 嚴重狹窄
+Left circumflex (LCX)
+Proximal 及distal LCX 嚴重狹窄
+2 介入治療過程
+2.1 初始介入策略
+• 選擇先處理LCX 病灶
+• 在optical coherence tomography (OCT) 影像導引下進行經皮冠狀動脈介入術(PCI)
+• 植入3 × 40 mm drug-eluting stent (DES) 於LCX
+2.2 支架植入併發症
+
+
+J Invasive Cardiol 教學講義
+母子導管併發症與OCT
+問題1：支架位置偏移
+由於病人呼吸動作影響，支架著陸位置比預期更近端(more proximally than intended)。 OCT 顯示近端支架嚴重貼壁不良(gross malapposition)。 2.3 使用Mother-and-Child 導管系統
+2.3.1 使用原因
+為了使4 mm non-compliant balloon 能順利通過貼壁不良的支架進行後擴張：
+• 將6 Fr GuideLiner「child」支撐導管插入現有「mother」6 Fr guiding catheter
+• 目的：提供額外的同軸支撐力(coaxial back-up support)
+2.3.2 OCT 影像問題
+支架後擴張後的OCT 影像品質不佳，原因：
+• 顯影劑優先流入較大的LAD 血管
+• 解決方案：將GuideLiner 軟尖端推進至proximal LCX 以進行選擇性顯影劑注射
+重點提醒
+OCT 對比劑注射慣例：該單位常規使用極短暫的手動注射10-12 mL 顯影劑進行OCT
+影像擷取。 3 嚴重併發症：醫源性冠狀動脈剝離
+災難性併發症
+OCT 影像擷取後的血管攝影顯示：
+Hydraulic spiral dissection（水力螺旋剝離）
+• 起始於proximal LCX
+• 逆行性延伸至proximal LAD
+• 進一步延伸至distal left main (LM) stem
+3.1 發生機轉分析
+1. GuideLiner 的軟尖端未與迂曲的LCX 血管同軸
+2. 導管尖端可能抵住血管壁或斑塊
+3. 儘管注射顯影劑前無壓力衰減(pressure damping) 警訊
+4. 短暫且有力的手動顯影劑注射產生的局部水力壓力(focal hydraulic pressure)
+5. 在脆弱斑塊處造成裂縫並沿損傷點追蹤，導致冠狀動脈剝離
+
+
+J Invasive Cardiol 教學講義
+母子導管併發症與OCT
+4 併發症處理
+4.1 緊急處置步驟
+步驟
+處置內容
+立即在LCX 剝離處充氣4.0 mm semi-compliant (SC) balloon，維持1
+分鐘
+球囊阻塞LCX 時進行血管攝影，確認LAD 通暢且無顯影劑滲漏
+(contrast staining)
+從LM 至LCX 植入4 × 24 mm DES，與初始LCX 支架重疊
+最終血管攝影結果滿意
+4.2 病人結果
+• 整個手術過程中病人維持穩定
+• 成功救治醫源性左主幹剝離
+5 Mother-and-Child 導管系統介紹
+5.1 GuideLiner 支撐導管
+特性
+說明
+製造商
+Vascular Solutions
+設計
+「Child」導管通過標準「mother」guiding catheter 輸
+送
+功能
+允許對目標血管進行深度插管(deep intubation)
+5.2 臨床應用
+1. 增強支撐力：提供同軸支撐以利支架輸送
+2. 困難病灶處理：
+• 嚴重鈣化病灶
+• 迂曲血管
+3. 選擇性顯影劑注射：改善OCT 等腔內影像品質
+
+
+J Invasive Cardiol 教學講義
+母子導管併發症與OCT
+6 教學重點
+6.1 OCT 影像擷取時的風險因素
+使用GuideLiner 進行OCT 時的注意事項
+1. 導管位置：
+• GuideLiner 尖端必須與血管同軸
+• 在迂曲血管中尤需特別注意
+2. 壓力監測限制：
+• 無壓力衰減不代表導管位置安全
+• 導管可能仍抵住血管壁或斑塊
+3. 顯影劑注射風險：
+• 短暫有力的手動注射可產生高局部水力壓力
+• 可在脆弱斑塊處造成裂縫並引發剝離
+6.2 預防醫源性剝離的策略
+1. 在迂曲血管中定位GuideLiner 需格外小心
+2. 確保導管尖端與血管同軸
+3. 考慮使用較緩和的顯影劑注射方式
+4. 注射前仔細評估導管位置
+5. 若影像品質不佳，考慮替代策略而非強行深度插管
+6.3 Catheter-induced coronary dissection 的處理原則
+處理策略
+說明
+立即球囊充氣
+在剝離處充氣球囊以壓迫剝離瓣膜，阻止剝離延伸
+評估血流
+確認剝離未影響其他重要血管的血流
+支架植入
+從正常血管段至剝離區域植入支架以封閉剝離
+持續監測
+確保血流動力學穩定及最終結果滿意
+
+
+J Invasive Cardiol 教學講義
+母子導管併發症與OCT
+7 結論
+重點提醒
+Take-home Message
+Mother-and-child 導管系統在迂曲血管中進行OCT 影像擷取時，需特別注意GuideLiner
+的定位，以避免醫源性冠狀動脈剝離。即使無壓力衰減警訊，導管尖端的非同軸位置加上
+有力的顯影劑注射，仍可在脆弱斑塊處造成剝離。 8 參考文獻
+1. Chi WK, Yan BP, Chan CY. Mother-and-Child Catheter-Induced Retrograde Dissection
+of the Left Main Coronary Artery During Optical Coherence Tomography Examination. J Invasive Cardiol. 2018;30(7):E57-E58. 2. Parise H, Maehara A, Stone GW, et al. Meta-analysis of randomized studies comparing
+intravascular ultrasound versus angiographic guidance of percutaneous coronary inter-
+vention in pre-drug-eluting stent era. Am J Cardiol. 2011;107:374-382. 3. Ali ZA, Maehara A, Genereux P, et al. Optical coherence tomography compared with in-
+travascular ultrasound and with angiography to guide coronary stent implantation (ILU-
+MIEN III: OPTIMIZE PCI): a randomised controlled trial. Lancet. 2016;388:2618-2628. 4. Vo MN, Mintz GS, McPherson JA. GuideLiner catheter facilitated percutaneous coronary
+intervention. J Invasive Cardiol. 2013;25:E191-E197.

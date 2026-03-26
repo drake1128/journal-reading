@@ -20,53 +20,82 @@ website:
       style: docked
       contents:
         - index.qmd
-        - section: "Cardiology"
+        - section: "缺血性心臟病 IHD"
           contents:
             - handouts/01-ischemic-heart-disease/index.qmd
+            - auto: handouts/01-ischemic-heart-disease/*/index.qmd
+        - section: "心衰竭 Heart Failure"
+          contents:
             - handouts/02-heart-failure/index.qmd
-            - section: "心律不整 Arrhythmia"
-              contents:
-                - handouts/03-arrhythmia/index.qmd
-                - handouts/03-arrhythmia/ecg-challenge-alternating-rbbb/index.qmd
+            - auto: handouts/02-heart-failure/*/index.qmd
+        - section: "心律不整 Arrhythmia"
+          contents:
+            - handouts/03-arrhythmia/index.qmd
+            - auto: handouts/03-arrhythmia/*/index.qmd
+        - section: "瓣膜疾病 Valvular"
+          contents:
             - handouts/04-valvular-disease/index.qmd
+            - auto: handouts/04-valvular-disease/*/index.qmd
+        - section: "心臟影像 Imaging"
+          contents:
             - handouts/05-cardiac-imaging/index.qmd
-            - section: "介入心臟學 Interventional Cardiology"
-              contents:
-                - handouts/06-interventional-cardiology/index.qmd
-                - handouts/06-interventional-cardiology/manual-pci-case202/index.qmd
-                - handouts/06-interventional-cardiology/jacc-ny-cardiac-registries/index.qmd
-                - handouts/06-interventional-cardiology/eurointervention-dcb-bifurcation/index.qmd
-            - section: "周邊血管 Peripheral Vascular"
-              contents:
-                - handouts/07-peripheral-vascular/index.qmd
-                - handouts/07-peripheral-vascular/carotid-stenting-review/index.qmd
-        - section: "Specialized"
+            - auto: handouts/05-cardiac-imaging/*/index.qmd
+        - section: "介入心臟學 Interventional"
+          contents:
+            - handouts/06-interventional-cardiology/index.qmd
+            - auto: handouts/06-interventional-cardiology/*/index.qmd
+        - section: "周邊血管 Peripheral Vascular"
+          contents:
+            - handouts/07-peripheral-vascular/index.qmd
+            - auto: handouts/07-peripheral-vascular/*/index.qmd
+        - section: "遺傳醫學 Genetics"
           contents:
             - handouts/08-genetic-medicine/index.qmd
+            - auto: handouts/08-genetic-medicine/*/index.qmd
+        - section: "高血壓 Hypertension"
+          contents:
             - handouts/09-hypertension/index.qmd
-        - section: "Critical Care"
+            - auto: handouts/09-hypertension/*/index.qmd
+        - section: "ICU 一般照護"
           contents:
             - handouts/10-icu-general/index.qmd
+            - auto: handouts/10-icu-general/*/index.qmd
+        - section: "ICU 呼吸系統"
+          contents:
             - handouts/11-icu-respiratory/index.qmd
-            - section: "ICU 血液動力學"
-              contents:
-                - handouts/12-icu-hemodynamics/index.qmd
-                - handouts/12-icu-hemodynamics/ccu-iabp-prague/index.qmd
+            - auto: handouts/11-icu-respiratory/*/index.qmd
+        - section: "ICU 血液動力學"
+          contents:
+            - handouts/12-icu-hemodynamics/index.qmd
+            - auto: handouts/12-icu-hemodynamics/*/index.qmd
+        - section: "ICU 腎臟"
+          contents:
             - handouts/13-icu-renal/index.qmd
-        - section: "Pulmonology"
+            - auto: handouts/13-icu-renal/*/index.qmd
+        - section: "肺栓塞 PE"
           contents:
             - handouts/20-pulmonary-embolism/index.qmd
+            - auto: handouts/20-pulmonary-embolism/*/index.qmd
+        - section: "肺高壓 PH"
+          contents:
             - handouts/21-pulmonary-hypertension/index.qmd
+            - auto: handouts/21-pulmonary-hypertension/*/index.qmd
+        - section: "COPD & 氣喘"
+          contents:
             - handouts/22-copd-asthma/index.qmd
-        - section: "Other"
+            - auto: handouts/22-copd-asthma/*/index.qmd
+        - section: "AI & 科技"
           contents:
             - handouts/90-ai-technology/index.qmd
-            - section: "Podcast 期刊回顧"
-              contents:
-                - handouts/91-podcast-journal-review/index.qmd
-                - handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-11/index.qmd
-                - handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-25/index.qmd
+            - auto: handouts/90-ai-technology/*/index.qmd
+        - section: "Podcast 期刊回顧"
+          contents:
+            - handouts/91-podcast-journal-review/index.qmd
+            - auto: handouts/91-podcast-journal-review/*/index.qmd
+        - section: "其他 Misc"
+          contents:
             - handouts/99-misc/index.qmd
+            - auto: handouts/99-misc/*/index.qmd
 
 format:
   html:

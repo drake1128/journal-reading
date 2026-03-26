@@ -1,0 +1,227 @@
+---
+title: "NEJM AI 教學講義"
+subtitle: "NEJM AI ChatGPT Grading 2025"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-01-30
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+AI in Medical Education
+NEJM AI
+Case Study
+Assessment of Short-Answer Questions by ChatGPT in
+a Medical School Course
+使用ChatGPT 評量醫學院課程簡答題
+NEJM AI 2026;3(2). DOI: 10.1056/AIcs2500239
+作者：Kuling G, Pullman S, Vasilev D, et al. (Harvard Medical School)
+整理：謝慕揚MD, PhD, FESC
+日期：2026-01-30
+1 研究背景(Background)
+1.1 教育學原理
+• 頻繁的低風險測驗(Frequent low-stakes testing) 是促進學習的有力工具
+• 簡答題(Short-answer questions) 能促進批判性思考(critical thinking)
+• 然而，簡答題在形成性評量(formative testing) 中使用不足
+• 原因：需要耗時的人工評分
+1.2 研究目的
+主要目標：比較AI (GPT-4o) 與人類評分者對醫學生開放式簡答題的評分一致性。 核心問題：AI 能否減輕簡答題評分的負擔，同時維持評分品質？
+2 研究方法(Methods)
+2.1 研究設計
+項目
+說明
+研究類型
+Retrospective case study
+AI 模型
+GPT-4o (Generative Pretrained Transformer 4o)
+研究對象
+169 位Harvard Medical School 一年級醫學生
+課程
+2023-2024 學年Foundations course
+人類評分者
+10 位受過訓練的評分者
+
+
+NEJM AI 教學講義
+AI in Medical Education
+2.2 評分標準
+學生答案依據兩個獨立標準進行評分：
+1. Factual accuracy（事實正確性）：答案內容是否正確
+2. Completeness（完整性）：答案是否涵蓋所有重要面向
+2.3 資料集設計
+資料集
+Multi-grader Set
+Single-grader Set
+樣本數
+n = 822 responses
+n = 8,964 responses
+評分方式
+10 位人類評分者獨立評分
+相同答案
+每個答案由一位人類評分
+者評分
+用途
+Prompt 優化與教學原則校
+準
+模擬真實世界條件進行模
+型評估
+2.4 Prompt Engineering 策略
+重點提醒
+GPT prompts 經過反覆優化(iteratively refined)，以達成：
+• Semantic fairness（語意公平性）：避免因用詞不同而影響評分
+• Pedagogical alignment（教學原則一致性）：符合教育學評量標準
+• Linguistic flexibility（語言彈性）：容許學生不同的表達方式
+2.5 統計分析
+Quadratic-weighted Cohen’s Kappa：
+• 用於衡量AI 與人類評分的一致性程度
+• 考慮評分差異的大小（差異越大，懲罰越重）
+• Kappa 值解讀：
+– < 0.20：Poor agreement
+– 0.21-0.40：Fair agreement
+– 0.41-0.60：Moderate agreement
+– 0.61-0.80：Substantial agreement
+– 0.81-1.00：Almost perfect agreement
+
+
+NEJM AI 教學講義
+AI in Medical Education
+3 研究結果(Results)
+3.1 Multi-grader Dataset 結果
+評分標準
+Quadratic-
+weighted Kappa
+一致性程度
+Factual accuracy
+0.443 ± 0.127
+Moderate
+Completeness
+0.429 ± 0.145
+Moderate
+核心發現摘要
+重要發現：94% 的GPT 生成的factual accuracy 評分落在人類評分者評分範圍內。 這表示GPT 的評分變異性與人類評分者之間的變異性相當。 3.2 Single-grader Dataset 結果
+評分標準
+Adjusted Kappa∗
+一致性程度
+Factual accuracy
+0.741
+Substantial
+Completeness
+0.655
+Substantial
+∗Adjusted for rater variability using an attenuation factor
+臨床意義：超過85% 的GPT 評分與人類評分者的分數差距在1 分以內。 在實際應用情境中，GPT-4o 與人類評分者達到substantial agreement。 3.3 結果視覺化比較
+Factual Accuracy
+Completeness
+Multi-grader Kappa
+0.443 (Moderate)
+0.429 (Moderate)
+Single-grader Kappa
+0.741 (Substantial)
+0.655 (Substantial)
+GPT 分數在人類範圍
+內
+94%
+–
+GPT 與人類差距≤1
+分
+>85%
+>85%
+4 討論(Discussion)
+4.1 為何Single-grader Kappa 較高？
+• Multi-grader dataset 反映了人類評分者之間的變異性
+• 即使是受過訓練的人類評分者，對同一答案的評分也存在差異
+
+
+NEJM AI 教學講義
+AI in Medical Education
+• Single-grader dataset 使用attenuation factor 校正評分者變異性
+• 校正後的kappa 值更能反映GPT 與「理想人類評分」的一致性
+4.2 Prompt Engineering 的重要性
+本研究強調了iterative prompt engineering 的關鍵角色：
+原則
+實踐方式
+Pedagogical principles
+將教育學評量原則融入prompt 設計
+Semantic fairness
+確保不同用詞但意義相同的答案獲得相同評分
+Linguistic flexibility
+容許學生使用不同的專業術語或表達方式
+Iterative refinement
+根據multi-grader dataset 的回饋不斷優化prompt
+4.3 研究限制
+• 單一機構研究（Harvard Medical School）
+• 僅評估一門基礎課程
+• 未評估長篇申論題或臨床推理題
+• AI 評分的長期教育效果尚待研究
+5 臨床與教育應用
+5.1 潛在應用場景
+1. 形成性評量(Formative Assessment)
+• 提供即時回饋給學生
+• 增加低風險測驗的頻率
+• 減輕教師評分負擔
+2. 大規模開放式線上課程(MOOCs)
+• 使簡答題在大規模教育中變得可行
+• 提供個人化學習回饋
+3. 自我評量工具
+• 學生可使用AI 進行自我練習
+• 獲得即時的正確性與完整性回饋
+
+
+NEJM AI 教學講義
+AI in Medical Education
+5.2 實施建議
+重點提醒
+使用AI 評分系統的建議：
+1. 進行機構特定的prompt 優化與驗證
+2. 建立人類監督機制（特別是高風險評量）
+3. 定期校準AI 與人類評分的一致性
+4. 向學生說明AI 評分的角色與限制
+5. 保留人類複審的管道
+6 Key Points 重點整理
+1. 研究目的：評估GPT-4o 評分醫學生簡答題與人類評分者的一致性
+2. 評分標準：Factual accuracy（事實正確性）與Completeness（完整性）
+3. 主要發現：
+• Multi-grader dataset：Kappa 約0.43-0.44（moderate agreement）
+• Single-grader dataset：Kappa 0.66-0.74（substantial agreement）
+• 94% GPT 評分落在人類評分範圍內
+• >85% GPT 評分與人類差距≤1 分
+4. 成功關鍵：Iterative prompt engineering 結合教學原則與語言彈性
+5. 應用價值：AI 評分系統有潛力減輕簡答題評分負擔，使此類題型更廣泛應用於醫學
+教育
+6. 注意事項：目前達到moderate-to-substantial agreement，高風險評量仍需人類監督
+7 延伸思考
+7.1 AI 在醫學教育的未來角色
+• 個人化學習路徑：根據學生答題表現，AI 可識別知識缺口並推薦學習資源
+• 即時回饋系統：學生可在練習時獲得立即的評分與解釋
+• 教師時間重新分配：減少機械性評分工作，讓教師專注於高價值教學互動
+• 評量多樣化：使過去因評分困難而避免的題型重新成為選項
+
+
+NEJM AI 教學講義
+AI in Medical Education
+7.2 倫理考量
+• 透明度：學生是否應被告知其答案由AI 評分？
+• 公平性：AI 評分是否對特定背景學生存在偏見？
+• 隱私：學生答案資料如何被處理與保護？
+• 問責：當AI 評分有誤時，誰負責？
+8 Cohen’s Kappa 補充說明
+8.1 什麼是Cohen’s Kappa？
+Cohen’s Kappa (κ) 是衡量兩位評分者一致性的統計指標，校正了隨機一致的機率。 公式：
+κ = Po −Pe
+1 −Pe
+其中：
+• Po = 觀察到的一致比例(observed agreement)
+• Pe = 隨機預期的一致比例(expected agreement by chance)
+8.2 Quadratic-weighted Kappa
+• 適用於有順序性的評分量表（如1-5 分）
+• 評分差距越大，懲罰越重（二次方權重）
+• 比linear-weighted kappa 對大差距更敏感
+• 適合評估「差多少」比「對不對」更重要的情境
+9 參考文獻
+1. Kuling G, Pullman S, Vasilev D, et al. Assessment of Short-Answer Questions by Chat-
+GPT in a Medical School Course. NEJM AI. 2026;3(2). 2. Roediger HL, Karpicke JD. Test-Enhanced Learning: Taking Memory Tests Improves
+Long-Term Retention. Psychol Sci. 2006;17(3):249-255. 3. McHugh ML. Interrater Reliability: The Kappa Statistic. Biochem Med (Zagreb). 2012;22(3):276-
+282. 4. Kung TH, Cheatham M, Medenilla A, et al. Performance of ChatGPT on USMLE:
+Potential for AI-Assisted Medical Education Using Large Language Models. PLOS Digit
+Health. 2023;2(2):e0000198.

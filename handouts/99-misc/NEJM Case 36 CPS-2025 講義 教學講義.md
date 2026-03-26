@@ -1,0 +1,781 @@
+# 教學部教學文件
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-12-31**
+
+---
+
+Case 36-2025
+31 歲女性發燒、鼻竇炎與多系統肉芽腫病變
+Case 36-2025
+Closing the Gap: A 31-Year-Old Woman with Fever, Sinusitis,
+and Multisystem Granulomatous Disease
+目標對象
+教學部醫師及住院醫師、PGY 學員
+學習重點
+1. 低球蛋白血症的鑑別診斷
+2. 常見變異型免疫缺乏症(CVID) 的診斷與治療
+3. 肉芽腫性疾病的系統性思考
+文件版本
+第1.0 版
+發布日期:2025-12-31
+內科部心臟內科謝慕揚Mu-Yang Hsieh, MD, PhD, FESC
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+Contents
+自學方案
+縮寫對照表
+病例概述
+3.1
+臨床表現
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2
+病史時序
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3
+個人與社會史. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 鑑別診斷架構
+4.1
+初步臨床推理. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2
+鑑別診斷分類. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 實驗室檢查
+5.1
+血液學檢查. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2
+免疫球蛋白檢測. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.3
+細胞激素檢測. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 影像學檢查
+6.1
+電腦斷層掃描發現
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2
+PET-CT 發現. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 病理學檢查
+7.1
+淋巴結切片. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.2
+上消化道內視鏡切片. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . CVID 診斷標準
+8.1
+診斷要件
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.2
+疫苗反應測試. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.3
+B 細胞亞群分析
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . CVID 疾病特徵
+9.1
+流行病學
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.2
+臨床表現分類. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.3
+CVID vs Sarcoidosis 鑑別. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 治療
+10.1 治療方案
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.2 本病例治療反應. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 英文醫學寫作重點
+11.1 NEJM 病例報告常用句型. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11.2 重要醫學詞彙. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11.3 完整病例呈現模板
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 考題
+12.1 考題詳解
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+13 結語
+14 參考文獻
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+1 自學方案
+本文件為搭配《New England Journal of Medicine》病例報告《Case 36-2025: Closing the Gap》
+而製作, 請先取得該文章後, 搭配本文件自學。已有基礎的同事, 請直接跳至考題處進行自我
+測驗。 2 縮寫對照表
+縮寫
+英文全稱
+中文
+CVID
+Common Variable Immunodefi-
+ciency
+常見變異型免疫缺乏症
+IVIG
+Intravenous Immune Globulin
+靜脈注射免疫球蛋白
+ITP
+Immune Thrombocytopenia
+免疫性血小板減少症
+AIHA
+Autoimmune Hemolytic Anemia
+自體免疫溶血性貧血
+IgG/IgA/IgM
+Immunoglobulin G/A/M
+免疫球蛋白G/A/M
+HIV
+Human Immunodeficiency Virus
+人類免疫缺乏病毒
+HCV
+Hepatitis C Virus
+C 型肝炎病毒
+EBV
+Epstein-Barr Virus
+EB 病毒
+CMV
+Cytomegalovirus
+巨細胞病毒
+SLE
+Systemic Lupus Erythematosus
+全身性紅斑狼瘡
+ANCA
+Antineutrophil Cytoplasmic An-
+tibody
+抗嗜中性白血球細胞質抗體
+BAL
+Bronchoalveolar Lavage
+支氣管肺泡灌洗
+PET-CT
+Positron Emission Tomography-
+Computed Tomography
+正子電腦斷層掃描
+FDG
+18F-Fluorodeoxyglucose
+氟化去氧葡萄糖
+IGRA
+Interferon-Gamma Release Assay
+干擾素-￿釋放試驗
+PCR
+Polymerase Chain Reaction
+聚合酶連鎖反應
+WBC
+White Blood Cell
+白血球
+ANC
+Absolute Neutrophil Count
+絕對嗜中性球數
+MCV
+Mean Corpuscular Volume
+平均紅血球容積
+IL
+Interleukin
+介白素
+IFN-￿
+Interferon-gamma
+干擾素-￿
+sIL-2R
+Soluble Interleukin-2 Receptor
+可溶性介白素-2 受體
+TNF-￿
+Tumor Necrosis Factor-alpha
+腫瘤壞死因子-￿
+AAAAI
+American Academy of Allergy,
+Asthma, and Immunology
+美國過敏氣喘免疫學會
+ICON
+International
+Consensus
+Docu-
+ment
+國際共識文件
+3 病例概述
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+3.1 臨床表現
+一位31 歲女性因十天來的發燒(fever)、鼻竇壓力感(sinus pressure)、咳嗽(cough)、噁心
+(nausea) 及嘔吐(vomiting) 至急診就診。其丈夫與一歲的小孩(就讀日托中心) 也有類似症
+狀。 English Writing 英文寫作指導
+病例報告開場句型:
+“A [age]-year-old [gender] presented to the emergency department with a [duration] history
+of [symptoms].”
+例句: “A 31-year-old woman presented to the emergency department in October with a
+10-day history of fever, sinus pressure, cough, nausea, and vomiting.”
+3.2 病史時序
+時間點
+重要事件與發現
+過去5 個月
+反覆發作的呼吸道感染
+- Night sweats 夜間盜汗
+- Fatigue 疲倦
+- Unintentional weight loss 4.5 kg (10 lb) 非預期性體重減輕
+- 三次咳嗽、鼻塞、鼻竇壓力感、噁心嘔吐發作
+- 曾被診斷為上呼吸道感染, 以decongestants 及cough suppres-
+sants 治療後改善
+14 歲時
+免疫性血小板減少症病史
+- Immune thrombocytopenia (ITP)
+- 接受intravenous immune globulin (IVIG) 治療
+- 之後未再復發
+就診前1 週
+旅行與暴露史
+- 前往Chicago
+- 在petting zoo 與牛羊有直接接觸
+- 無其他近期旅行史
+就診當日
+急診評估
+- 高燒39.5°C (103.1°F)
+- 心跳過速122 bpm
+- 前額及上頜竇觸診壓痛
+- 頸部淋巴結腫大約2 cm
+- 肝腫大(肋緣下5 cm) 及脾臟可觸及
+3.3 個人與社會史
+項目
+內容
+出生地/居住地
+出生於Florida, 大部分時間居住於Baltimore
+職業
+Oﬀice worker
+菸酒史
+無吸菸史, 每週約2 個酒精性飲料
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+藥物使用
+無處方藥物, 無非法藥物使用
+寵物
+兩隻狗、一隻貓
+暴露史
+無已知咬傷、抓傷、蜱蟲叮咬或嚙齒類暴露
+性史
+已婚, 除丈夫外無其他性伴侶
+4 鑑別診斷架構
+4.1 初步臨床推理
+關鍵問題: 一位年輕女性出現反覆上呼吸道感染、體質性症狀(盜汗、疲倦、體重減輕)、
+淋巴結腫大及肝脾腫大, 應考慮哪些診斷?
+English Writing 英文寫作指導
+描述體質性症狀的表達:
+“Constitutional symptoms” 指全身性症狀, 包括:
+• Fever 發燒
+• Night sweats 夜間盜汗
+• Weight loss 體重減輕
+• Fatigue 疲倦
+• Malaise 全身不適
+例句: “The patient’s constitutional symptoms and recurrent illnesses arouse concern for an
+insidious process.”
+4.2 鑑別診斷分類
+診斷類別
+疾病
+支持/反對證據
+感染性疾病
+Histoplasmosis
+(+) 居住/旅遊於流行區
+(-) 血清學及抗原檢測陰性
+Q fever (Coxiella burnetii)
+(+) 牲畜暴露史
+(-) 上呼吸道症狀不典型
+(-) 血清學陰性
+Brucellosis
+(+) 牲畜暴露史
+(-) 上呼吸道/腸胃道症狀不典型
+EBV/CMV mononucleosis
+(+) 淋巴結腫大、肝脾腫大
+(-) PCR 陰性
+HIV acute infection
+(+) 可模仿mononucleosis
+(-) 無風險因子, 檢測陰性
+Tuberculosis
+(-) IGRA 陰性, 無風險因子
+自體免疫疾病
+Systemic lupus erythemato-
+sus
+(+) 可致肝炎、淋巴細胞減少
+(-) 低球蛋白不符合
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+診斷類別
+疾病
+支持/反對證據
+ANCA-associated vasculitis
+(+) 可致鼻竇炎、全身症狀
+(-) 低球蛋白不符合
+惡性腫瘤
+Lymphoma
+(+) 淋巴結腫大、肝脾腫大、B
+症狀
+(-) 切片無惡性細胞
+原發性免疫缺乏
+Common Variable Immun-
+odeficiency (CVID)
+(+) 低球蛋白血症
+(+) 反覆感染史
+(+) ITP 病史
+(+) 非乾酪性肉芽腫
+Autoimmune lymphoprolif-
+erative syndrome
+(+) 淋巴增生
+(-) 基因檢測陰性
+肉芽腫性疾病
+Sarcoidosis
+(+) 非乾酪性肉芽腫、肺結節
+(-) 低球蛋白血症不符合
+(-) 反覆感染不符合
+Clinical Pearl 臨床要點
+Gamma Gap 的臨床意義:
+Gamma gap = Total protein - Albumin
+• Gamma gap < 1.8 g/dL →提示hypogammaglobulinemia (低球蛋白血症)
+• Gamma gap > 4 g/dL →提示hypergammaglobulinemia (高球蛋白血症)
+本病例: Total protein 5.5 g/dL - Albumin 4.0 g/dL = 1.5 g/dL →提示低球蛋白血症!
+5 實驗室檢查
+5.1 血液學檢查
+檢驗項目
+數值
+參考範圍
+WBC
+2,200/mm³
+–
+Neutrophils
+62%
+(ANC
+1,380/mm³)
+–
+Lymphocytes
+23%
+–
+Monocytes
+13%
+–
+Eosinophils
+0.4%
+–
+Hemoglobin
+10.7 g/dL
+–
+MCV
+71.7 fL
+–
+Platelet
+88,000/mm³
+–
+Absolute reticulocyte count
+16,700/mm³
+24,100–87,700
+Immature platelet fraction
+8.2%
+0.1–6.3
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+重點提醒
+Pancytopenia 的鑑別診斷思考:
+1. 周邊破壞(Peripheral destruction): 脾臟滯留、自體免疫溶血
+2. 骨髓抑制(Myelosuppression): 感染、藥物、營養缺乏
+3. 骨髓浸潤(Bone marrow infiltration): 惡性腫瘤、肉芽腫
+本病例: 輕度pancytopenia + splenomegaly →最可能為脾臟滯留
+5.2 免疫球蛋白檢測
+檢驗項目
+數值
+參考範圍
+IgG
+336 mg/dL
+610–1,616
+IgA
+17 mg/dL
+61–348
+IgM
+28 mg/dL
+35–242
+English Writing 英文寫作指導
+描述實驗室異常的表達:
+“Serum immunoglobulin levels were decreased, with an IgG level of 336 mg per deciliter
+(reference range, 610 to 1616).”
+注意: NEJM 格式中, 單位與數值之間要有空格, 使用“per” 而非斜線
+5.3 細胞激素檢測
+檢驗項目
+數值
+參考值
+IL-18
+6,332 pg/mL
+<477
+CXCL9
+32,051 pg/mL
+<647
+IFN-￿
+26.1 pg/mL
+<4.2
+Soluble IL-2 receptor
+11,186.9 pg/mL
+175.3–858.2
+IL-10
+34.8 pg/mL
+<2.8
+IL-6
+7.7 pg/mL
+<2.0
+IL-13
+2.5 pg/mL
+<2.3
+Clinical Pearl 臨床要點
+細胞激素異常的意義:
+IL-18、CXCL9、IFN-￿、sIL-2R 及IL-10 的顯著升高表明T helper cell-mediated in-
+flammation。這些發現支持CVID 患者常見的系統性免疫活化狀態。 6 影像學檢查
+6.1 電腦斷層掃描發現
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+部位
+發現
+鼻竇
+Bilateral frontal and maxillary sinusitis 雙側額竇及上頜竇
+炎
+肺部
+Numerous scattered irregular pulmonary nodules of vary-
+ing sizes with lower lung predominance 下肺為主的多發性
+不規則肺結節
+肝臟
+Hepatomegaly (20 cm, reference <13 cm)
+Several subcentimeter hyperdense liver nodules
+脾臟
+Splenomegaly (20.5 cm, reference <13 cm)
+淋巴結
+Diffuse intrathoracic and intraabdominal lymphadenopa-
+thy (many nodes >2 cm)
+6.2 PET-CT 發現
+Positron-emission tomography-computed tomography 顯示廣泛的高代謝淋巴結腫大(bulky,
+intensely 18F-fluorodeoxyglucose-avid lymphadenopathy), 分布於:
+• Cervical chains 頸部淋巴鏈
+• Mediastinum 縱隔腔
+• Abdomen 腹部
+• Pelvis 骨盆
+• Periaortic and retroperitoneal chains 主動脈旁及後腹膜淋巴鏈
+• Inguinal chains 鼠蹊部淋巴鏈
+7 病理學檢查
+7.1 淋巴結切片
+Excisional cervical lymph-node biopsy 顯示:
+• Nonnecrotizing granulomas 非乾酪性肉芽腫
+• 無惡性細胞
+• Effaced lymph-node architecture 淋巴結結構破壞
+• Granulomas 由epithelioid histiocytes 組成
+• 特殊染色: 細菌、黴菌、分枝桿菌均陰性
+7.2 上消化道內視鏡切片
+Esophagogastroduodenoscopy 發現:
+• Edematous duodenal mucosa 十二指腸黏膜水腫
+• 食道及胃切片: Nonnecrotizing granulomas
+English Writing 英文寫作指導
+描述病理發現的表達:
+“Excisional cervical lymph-node biopsy identified nonnecrotizing granulomas without malig-
+nant cells.”
+“Special stains were negative for bacterial, mycobacterial, and fungal organisms.”
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+8 CVID 診斷標準
+8.1 診斷要件
+CVID 診斷標準(ICON Consensus Document 2016):
+1. 血清IgG 降低且IgA 或IgM 其中之一降低
+2. 排除其他hypogammaglobulinemia 的次發性原因
+3. 對疫苗接種的抗體反應不足
+8.2 疫苗反應測試
+項目
+結果
+接種疫苗
+20-valent pneumococcal conjugate vaccine
+檢測時間
+接種後4 週
+結果
+Serotype 57: 0.4 ￿g/mL
+其餘19 個血清型: <0.3 ￿g/mL (undetectable)
+判讀標準
+AAAAI 建議: >1.3 ￿g/mL for ≥50% of tested anti-
+gens 為正常反應
+結論
+異常—確診CVID
+8.3 B 細胞亞群分析
+項目
+數值
+參考範圍
+Total CD19+ B cells
+4.6% (abs: 19)
+6.3–20.0% (abs: 96–515)
+CD19+/CD27+
+memory
+B
+cells
+4%
+14–44%
+Clinical Pearl 臨床要點
+CVID 的B 細胞異常:
+嚴重的CD19+ B 細胞減少及CD27+ memory B cells 的相對缺乏是CVID 的特徵性發
+現。這些異常反映了B 細胞分化和成熟的障礙。 9 CVID 疾病特徵
+9.1 流行病學
+• 最常見的有症狀原發性免疫缺乏症
+• 發生率約1/20,000
+• 男女比例相等
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+• 大多數診斷於20–40 歲
+• 平均診斷延遲: 6–7 年
+9.2 臨床表現分類
+併發症類型
+臨床表現
+感染性
+Recurrent sinopulmonary infections
+Enteric infections (常為encapsulated bacteria)
+自體免疫性
+Immune thrombocytopenia (如本病例)
+Autoimmune hemolytic anemia
+發炎性
+Nonnecrotizing granulomatous inflammation
+Noninfectious pulmonary disease
+Noninfectious gastrointestinal disease
+淋巴增生性
+Benign lymphoproliferation
+惡性腫瘤
+Lymphoma (尤其是晚期併發症)
+重點提醒
+CVID 併發症的時間軸:
+• 早期: 感染性併發症
+• 任何時期: 自體免疫併發症
+• 晚期: 惡性腫瘤(尤其是淋巴瘤)
+只有約三分之一的CVID 患者僅有感染表現, 其餘會發展出一種或多種自體免疫、發炎或
+惡性併發症。 9.3 CVID vs Sarcoidosis 鑑別
+特徵
+CVID
+Sarcoidosis
+免疫球蛋白
+Hypogammaglobulinemia
+常見
+Hypergammaglobu-
+linemia
+反覆感染
+常見
+不常見
+肉芽腫特徵
+Less well-formed
+Less fibrotic
+More lymphoid-rich
+Well-formed
+More fibrotic
+免疫學異常
+有
+無
+10 治療
+10.1 治療方案
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+治療
+內容與目的
+IVIG
+Intravenous immune globulin
+治療基石, 已被證實可減少感染
+觀察性資料顯示可改善存活率
+Glucocorticoids
+Prednisone 20 mg daily
+用於自體免疫或肉芽腫性發炎
+66–86% 患者單用glucocorticoids 可達緩解
+免疫調節劑
+適用於嚴重或持續性發炎:
+- Rituximab
+- Azathioprine
+- TNF-￿inhibitors
+案例系列顯示>90% 反應率
+10.2 本病例治療反應
+治療後臨床反應:
+• 1 週內: 發燒、噁心、嘔吐、咳嗽、倦怠消退
+• 1 個月內: Pancytopenia 及肝功能異常恢復正常, 病患回復工作
+• 18 個月追蹤: 肝脾腫大及淋巴結腫大持續改善
+• 所有待檢培養均為陰性
+11 英文醫學寫作重點
+11.1 NEJM 病例報告常用句型
+段落類型
+句型範例
+開場
+“A [age]-year-old [gender] presented to [location] with a [du-
+ration] history of [symptoms].”
+背景描述
+“In the preceding [time] period, the patient had had [symp-
+toms].”
+“Unlike her family members, she had had [different symp-
+toms].”
+臨床推理
+“[Finding] arouses concern for [diagnosis].”
+“Important considerations include [diagnosis 1], [diagnosis 2],
+and [diagnosis 3].”
+“[Finding] is consistent with [diagnosis].”
+鑑別診斷排除
+“[Test] was negative, decreasing the likelihood of [diagnosis].”
+“[Finding] is uncharacteristic of [diagnosis].”
+確診
+“This finding, combined with [other finding], is diagnostic of
+[diagnosis].”
+“The diagnosis of [disease] involves [criteria].”
+治療反應
+“Treatment with [medication] was initiated. [Symptoms] re-
+solved within [time].”
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+“During [duration] of follow-up, [outcome].”
+11.2 重要醫學詞彙
+英文
+中文
+用法說明
+Constitutional symptoms
+體質性症狀
+指全身性症狀如發燒、
+盜汗、體重減輕
+Arouse concern for
+引起對... 的關注
+用於提出鑑別診斷
+Insidious process
+潛伏性病程
+指慢性、逐漸發展的疾
+病
+Unremarkable
+無特殊發現
+用於描述正常或無異常
+的檢查結果
+Hypogammaglobulinemia
+低免疫球蛋白血症
+免疫球蛋白降低
+Nonnecrotizing granuloma
+非乾酪性肉芽腫
+無中央壞死的肉芽腫
+Effaced architecture
+結構消失
+指組織正常結構被破壞
+Abate
+減輕、消退
+用於描述症狀改善
+11.3 完整病例呈現模板
+完整病例呈現模板
+Opening: A [age]-year-old [gender] was admitted to [hospital] because of [chief complaint]. Background: The patient had been in [his/her] usual state of health until [time] before the
+current admission, when [initial symptoms] developed. In the preceding [time], [he/she] had had
+[additional symptoms]. Review of systems: The patient reported no [negative symptoms]. Medical history included
+[relevant history]. Physical examination: On examination, the temperature was [value]°C, the heart rate [value]
+beats per minute, the blood pressure [value] mm Hg. [Key findings]. Laboratory data: The [test] was [value] ([reference range]). [Other significant results]. Imaging: [Imaging modality] showed [findings]. [Specific measurements]. Diagnosis: The diagnosis of [disease] was established based on [criteria].
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+12 考題
+以下為針對本病例的單選選擇題, 旨在檢驗對關鍵診斷與管理的理解。 1. 患者的Gamma gap 為何? 此數值提示什麼診斷方向?
+a) 4.0 g/dL; hypergammaglobulinemia
+b) 1.5 g/dL; hypogammaglobulinemia
+c) 2.5 g/dL; 正常
+d) 5.5 g/dL; paraproteinemia
+2. 下列何者不是建立CVID 診斷的必要條件?
+a) 血清IgG 降低
+b) IgA 或IgM 其中之一降低
+c) 基因檢測確認致病變異
+d) 對疫苗接種的抗體反應不足
+3. 患者14 歲時的immune thrombocytopenia 病史, 對本病例的診斷有何意義?
+a) 與目前疾病無關
+b) 提示可能有原發性或繼發性免疫異常
+c) 排除CVID 的可能性
+d) 確診為autoimmune lymphoproliferative syndrome
+4. 下列何者最能區分CVID 與Sarcoidosis 的肉芽腫性發炎?
+a) 肉芽腫的大小
+b) 肉芽腫的分布位置
+c) 免疫球蛋白水平(CVID 低、Sarcoidosis 常高)
+d) 肺部受影響與否
+5. 心包液細胞學檢查對於CVID 併發症的診斷敏感度約為?
+a) 約95%
+b) 約80%
+c) 約60%
+d) 不適用於CVID(本題陷阱)
+6. 關於CVID 的流行病學, 下列何者正確?
+a) 發生率約1/2,000
+b) 女性明顯多於男性
+c) 大多數診斷於20–40 歲之間
+d) 通常在症狀出現後1 年內診斷
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+7. 正常的疫苗抗體反應標準為何?
+a) >0.3 ￿g/mL for ≥25% of tested antigens
+b) >1.3 ￿g/mL for ≥50% of tested antigens
+c) >2.0 ￿g/mL for ≥75% of tested antigens
+d) >0.5 ￿g/mL for ≥100% of tested antigens
+8. 下列何者不是CVID 的常見併發症?
+a) Immune thrombocytopenia
+b) Autoimmune hemolytic anemia
+c) Granulomatous inflammation
+d) Hyperthyroidism
+9. CVID 的治療基石為何?
+a) Glucocorticoids alone
+b) Rituximab
+c) Intravenous immune globulin (IVIG)
+d) Bone marrow transplantation
+10. 當CVID 患者有嚴重或持續性肉芽腫性發炎, 對glucocorticoids 反應不佳時, 下列何者
+不是建議的替代治療?
+a) Rituximab
+b) Azathioprine
+c) TNF-￿inhibitors
+d) Cyclophosphamide
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+12.1 考題詳解
+1. 正確答案: b) 1.5 g/dL; hypogammaglobulinemia
+詳解: Gamma gap 計算為Total protein - Albumin = 5.5 - 4.0 = 1.5 g/dL。當Gamma
+gap <1.8 g/dL 時, 提示hypogammaglobulinemia。這是一個簡單但非常重要的篩檢工
+具, 可從常規生化檢查中發現低免疫球蛋白血症的線索。 2. 正確答案: c) 基因檢測確認致病變異
+詳解: 根據ICON Consensus Document 2016,CVID 診斷需要:(1) IgG 降低且IgA 或
+IgM 其中之一降低;(2) 排除次發性原因;(3) 對疫苗反應不足。基因檢測雖可幫助確認,
+但大多數CVID 病例無法找到單一基因異常, 因此不是診斷的必要條件。本病例的基因
+檢測也是陰性的。 3. 正確答案: b) 提示可能有原發性或繼發性免疫異常
+詳解: ITP 是CVID 的已知併發症之一。ITP 的已知誘因包括感染(HIV、HCV)、
+淋巴瘤、自體免疫疾病(如SLE)、藥物及免疫缺乏症候群(如CVID、autoimmune
+lymphoproliferative syndrome)。因此,ITP 病史應提醒臨床醫師考慮潛在的免疫異常。 4. 正確答案: c) 免疫球蛋白水平(CVID 低、Sarcoidosis 常高)
+詳解: CVID 的特徵是hypogammaglobulinemia, 而Sarcoidosis 常伴隨hypergammaglob-
+ulinemia。此外,CVID 患者常有反覆感染, 但Sarcoidosis 通常沒有。組織學上,CVID 的
+肉芽腫通常較不成熟、較少纖維化、富含淋巴細胞。 5. 正確答案: d) 不適用於CVID(本題陷阱)
+詳解: 這是一道陷阱題。文章中提到心包液細胞學對原發性心臟淋巴瘤的敏感度約
+60%, 但這與CVID 無直接關係。本病例沒有心包積液, 因此心包液檢查不適用。此題
+旨在提醒學員注意題目的適用性。 6. 正確答案: c) 大多數診斷於20–40 歲之間
+詳解: CVID 的流行病學特徵包括: 發生率約1/20,000(非1/2,000); 男女比例相等(非女
+性多); 大多數診斷於20–40 歲; 平均診斷延遲6–7 年(非1 年內診斷)。 7. 正確答案: b) >1.3 ￿g/mL for ≥50% of tested antigens
+詳解: 根據American Academy of Allergy, Asthma, and Immunology (AAAAI) 的建議,
+正常的肺炎球菌疫苗抗體反應定義為:>1.3 ￿g/mL for at least 50% of tested antigens。 本病例患者只有1/20 個血清型達到0.4 ￿g/mL, 明顯不足。 8. 正確答案: d) Hyperthyroidism
+詳解: CVID 的常見併發症包括: 感染(鼻竇肺部、腸道)、ITP、AIHA、非乾酪性肉芽
+腫性發炎、非感染性肺部及腸胃道疾病、良性淋巴增生及惡性腫瘤(尤其是淋巴瘤)。 Hyperthyroidism 不是CVID 的典型併發症。 9. 正確答案: c) Intravenous immune globulin (IVIG)
+詳解: IVIG 是CVID 治療的基石, 已在臨床試驗中被證實可減少感染; 觀察性資料顯示
+其使用與改善存活率相關。Glucocorticoids 用於自體免疫或肉芽腫性併發症, 但不是所
+有患者都需要。骨髓移植僅用於極少數嚴重病例。
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+10. 正確答案: d) Cyclophosphamide
+詳解: 對於glucocorticoids 反應不佳的嚴重或持續性肉芽腫性發炎, 文章提到的替代治
+療包括rituximab、azathioprine 及TNF-￿inhibitors, 案例系列顯示>90% 的反應率。 Cyclophosphamide 雖然是免疫抑制劑, 但文章中未提及其用於CVID 肉芽腫性疾病的
+治療。 13 結語
+本病例展示了CVID 的診斷挑戰與臨床複雜性。從反覆的上呼吸道感染, 到體質性症狀, 再到
+廣泛的肉芽腫性發炎, 每一個臨床線索都為最終診斷提供了重要資訊。關鍵的診斷線索是低
+Gamma gap 指向hypogammaglobulinemia, 進而引導免疫球蛋白定量檢測。 關鍵學習要點:
+1. Gamma gap 是篩檢hypogammaglobulinemia 的簡單工具
+2. CVID 應列入多系統肉芽腫性疾病的鑑別診斷
+3. ITP 病史應提醒考慮潛在的免疫缺乏
+4. CVID 與Sarcoidosis 可通過免疫球蛋白水平區分
+5. IVIG 是CVID 治療的基石
+儘管CVID 是最常見的有症狀原發性免疫缺乏症, 但平均診斷延遲仍達6–7 年。提高臨床
+警覺、早期識別和適當的多專科團隊管理對於改善患者預後至關重要。 謹記: 在反覆感染合併體質性症狀的患者中,
+計算Gamma gap 是發現隱藏性免疫缺乏的簡單第一步。 “When the gamma gap is less than 1.8 g per deciliter,
+hypogammaglobulinemia is inferred.”
+
+
+教學部教學文件
+病例分析: 常見變異型免疫缺乏症
+14 參考文獻
+1. Cunningham-Rundles C, Casanova J-L, Boisson B. Genetics and clinical phenotypes in
+common variable immunodeficiency. Front Genet 2024;14:1272912. 2. Remiker A, Bolling K, Verbsky J. Common variable immunodeficiency. Med Clin North
+Am 2024;108:107-21. 3. Chapel H, Lucas M, Lee M, et al. Common variable immunodeficiency disorders: division
+into distinct clinical phenotypes. Blood 2008;112:277-86. 4. Resnick ES, Moshier EL, Godbold JH, Cunningham-Rundles C. Morbidity and mortality
+in common variable immune deficiency over 4 decades. Blood 2012;119:1650-7. 5. Janssen LMA, van der Flier M, de Vries E. Lessons learned from the clinical presentation
+of common variable immunodeficiency disorders: a systematic review and meta-analysis. Front Immunol 2021;12:620709. 6. Paquin-Proulx D, Sandberg JK. Persistent immune activation in CVID and the role of
+IVIg in its suppression. Front Immunol 2014;5:637. 7. Fasano MB, Sullivan KE, Sarpong SB, et al. Sarcoidosis and common variable immunode-
+ficiency: report of 8 cases and review of the literature. Medicine (Baltimore) 1996;75:251-
+61. 8. van Stigt AC, von der Thüsen JH, Mustafa DAM, et al. Granulomas in common variable
+immunodeficiency display different histopathological features compared to other granu-
+lomatous diseases. J Clin Immunol 2024;45:22. 9. Bonilla FA, Barlan I, Chapel H, et al. International Consensus Document (ICON): com-
+mon variable immunodeficiency disorders. J Allergy Clin Immunol Pract 2016;4:38-59. 10. Rösel AL, Scheibenbogen C, Schliesser U, et al. Classification of common variable im-
+munodeficiencies using flow cytometry and a memory B-cell functionality assay. J Allergy
+Clin Immunol 2015;135:198-208. 11. Wehr C, Kivioja T, Schmitt C, et al. The EUROclass trial: defining subgroups in common
+variable immunodeficiency. Blood 2008;111:77-85. 12. Peng XP, Caballero-Oteyza A, Grimbacher B. Common variable immunodeficiency: more
+pathways than roads to Rome. Annu Rev Pathol 2023;18:283-310. 13. Jolles S, Borrell R, Zouwail S, et al. Calculated globulin (CG) as a screening test for
+antibody deficiency. Clin Exp Immunol 2014;177:671-8. 14. van Stigt AC, Dik WA, Kamphuis LSJ, et al. What works when treating granulo-
+matous disease in genetically undefined CVID? A systematic review. Front Immunol
+2020;11:606389. 15. Fevang B. Treatment of inflammatory complications in common variable immunodefi-
+ciency (CVID): current concepts and future perspectives. Expert Rev Clin Immunol
+2023;19:627-38.

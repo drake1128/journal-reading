@@ -1,0 +1,1407 @@
+# The new engl and jour nal of medicine
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-26**
+
+---
+
+n engl j med 373;7  nejm.org  August 13, 2015
+Review Article
+T
+here is a common misconception that ischemic limb necrosis 
+results only from thrombosis or thromboembolism involving limb arteries, 
+with loss of arterial pulses. Yet ischemic limb gangrene can also result from 
+thrombosis involving the microcirculation, including small venules. In this situa-
+tion, arterial pulses are palpable or identifiable with the use of Doppler signals. 
+This review focuses on limb gangrene caused by microthrombosis that results 
+from disseminated intravascular coagulation and the loss of natural anticoagulant 
+mechanisms. Syndromes of Microthrombosis-Associated  
+Limb Ischemia
+There are two distinct syndromes of microthrombosis-associated ischemic limb 
+injury (Table 1). Venous limb gangrene can complicate thrombocytopenic disor-
+ders that are strongly associated with deep-vein thrombosis (e.g., cancer-associat-
+ed disseminated intravascular coagulation1 and heparin-induced thrombocytope-
+nia2). In these conditions, microthrombosis occurs in the same limb with acute 
+large-vein thrombosis, resulting in acral (distal-extremity) ischemic necrosis. 
+Usually, only one limb is affected. The potentially reversible, prodromal state of 
+limb-threatening ischemia is phlegmasia cerulea dolens, indicating the respective 
+features of a swollen, blue (ischemic), and painful limb (Fig. 1A). In contrast, two and sometimes all four limbs are affected in symmetric pe-
+ripheral gangrene, also featuring acral limb ischemic necrosis but usually without 
+deep-vein thrombosis3,4 (Fig. 1B). The limb necrosis is often strikingly symmetric; 
+lower limbs are most often affected, with additional involvement of fingers or 
+hands in approximately one third of patients. When there is additional or pre-
+dominant nonacral tissue necrosis, the term purpura fulminans is applicable. Patients 
+are usually critically ill, with cardiogenic or septic shock. In 1904, Barraud5 discussed 
+limb gangrene as a complication of acute infection, a complication that continues to 
+occur today. The two syndromes have common pathophysiological features of micro-
+thrombosis associated with a disturbed procoagulant–anticoagulant balance (Fig. 1C). Disseminated Intravascular Coagulation and Natural Anticoagulant Failure
+Disseminated intravascular coagulation is characterized by systemic activation of 
+hemostasis (pathologic thrombin generation), impaired fibrinolysis, and intravas-
+cular formation and deposition of fibrin, with a potential for thrombotic occlusion 
+of the microvasculature.6 Depending on the inciting disorder, mediators include 
+tissue factor expressed on endothelium and monocytes, enhanced leukocyte–endo-
+thelial interactions, proinflammatory cytokines (e.g., tumor necrosis factor α, 
+interleukin-1β, and interleukin-6),7 and cytokine-mediated endothelial down-regu-
+lation of thrombomodulin.8 Triggering or potentiating factors include the presence 
+of bacterial endotoxin, shock, acidemia, tissue injury, and platelet- or tumor-derived 
+procoagulant microparticles.9,10
+From the Departments of Pathology and 
+Molecular Medicine and Medicine, Mi-
+chael G. DeGroote School of Medicine, 
+McMaster University, Hamilton, ON, 
+Canada. Address reprint requests to Dr. 
+Warkentin at the Hamilton Regional Lab-
+oratory Medicine Program, Hamilton 
+General Hospital, Rm. 1-270B, 237 Bar-
+ton St. E., Hamilton, ON L8L 2X2, Cana-
+da, or at ­twarken@​­mcmaster​.­ca. N Engl J Med 2015;373:642-55. DOI: 10.1056/NEJMra1316259
+Copyright © 2015 Massachusetts Medical Society. Dan L. Longo, M.D., Editor
+Ischemic Limb Gangrene with Pulses
+Theodore E. Warkentin, M.D.​
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+ischemic limb gangrene with pulses
+Venous limb gangrene and symmetric periph-
+eral gangrene (with or without purpura fulmi-
+nans) are cutaneous manifestations of dissemi-
+nated intravascular coagulation that are modified 
+and aggravated by interacting clinical factors such 
+as warfarin therapy, deep-vein thrombosis, hypo-
+tension, and vasopressor therapy.1-4 Associated 
+failure of the natural anticoagulant systems, both 
+the protein C system (crucial for down-regulating 
+thrombin generation in the microvasculature11) 
+and the antithrombin system (catalyzed by circu-
+lating pharmacologic heparin and endogenous 
+endothelial-bound heparan sulfate), helps to ex-
+plain why risk factors for microthrombosis in-
+clude the use of warfarin (a vitamin K antagonist) 
+and hepatic dysfunction or failure, since the liver 
+synthesizes protein C (a vitamin K–dependent an-
+ticoagulant) and antithrombin (Fig. 1C). Venous Limb Gangrene
+Venous limb gangrene indicates acral ischemic 
+necrosis in a limb with deep-vein thrombosis. 
+Early investigators described virtually complete 
+occlusion of the proximal venous limb vascula-
+ture, including collateral vessels, often in patients 
+in the postpartum or postoperative period or in 
+those with cancer. Limb ischemic necrosis was 
+explained by sufficiently increased venous and 
+interstitial pressures that collapsed small arteries 
+or arterioles when closing pressure was exceed-
+ed.12,13 However, in recent years, patients with 
+venous gangrene have often been reported with 
+underlying acquired hypercoagulability states, such 
+as cancer-associated consumptive coagulopathy,1,14 
+heparin-induced thrombocytopenia,2,15 and the 
+antiphospholipid syndrome,16,17 with associated 
+macrovascular and microvascular thrombosis 
+that is frequently exacerbated by protein C deple-
+tion associated with the administration of war-
+farin or other coumarin derivatives.1,2,14-16 The 
+characteristic laboratory picture includes throm-
+bocytopenia and an international normalized 
+ratio (INR) that typically exceeds 4.0; a suprath-
+erapeutic INR is a proxy for a severely reduced 
+protein C level.1,2,14
+Cancer-Associated Venous Limb Gangrene
+At least 50% of patients with venous gangrene 
+have underlying cancer,13 together with dissemi-
+nated intravascular coagulation. In a recent se-
+ries,1 a characteristic clinical picture was described 
+in which patients with apparent idiopathic deep-
+vein thrombosis were found to have phlegmasia 
+or venous limb gangrene soon after completing 
+Variable
+Venous Limb Gangrene*
+Symmetric Peripheral Gangrene†
+Underlying disseminated intra- 
+vascular coagulation
+Heparin-induced thrombocytopenia, metastatic 
+adenocarcinoma, antiphospholipid syndrome
+Septic shock (e.g., meningococcemia),  
+cardiogenic shock
+Deep-vein thrombosis in ischemic limb‡
+Yes
+Usually not
+Number of limbs affected
+Usually 1 limb with deep-vein thrombosis
+Usually 2 or 4 limbs (symmetric)
+Warfarin implicated
+Often
+Usually not
+Congenital hypercoagulability state
+Usually not
+Usually not
+Thrombocytopenia
+Yes
+Yes
+Peak international normalized ratio
+Typically >4.0, especially if associated with  
+coumarin§
+Typically >2.0
+Fibrin-specific marker (fibrin  
+d-dimer, fibrin monomer)
+Greatly elevated
+Greatly elevated
+Thrombin–antithrombin complexes
+Greatly elevated
+Greatly elevated
+Protein C <10%
+Yes, especially if associated with coumarin
+Yes
+Acute liver dysfunction or failure
+Usually not
+May be common
+*	The prodromal state of venous limb gangrene is called phlegmasia cerulea dolens, indicating the features of a swollen, blue, and painful 
+limb. †	Symmetric peripheral gangrene can present with or without purpura fulminans (nonacral skin necrosis). ‡	Iliofemoral deep-vein thrombosis (i.e., thrombosis of the iliac vein or common femoral vein) can also be associated with phlegmasia cerulea 
+dolens in the absence of disseminated intravascular coagulation. Risk factors include hypercoagulable disorders (e.g., cancer), a postopera-
+tive or post-traumatic state, pregnancy or postpartum state, vena cava filter insertion, and the May–Thurner syndrome (an anatomical vari-
+ant in which the right common iliac artery overlies the left common iliac vein and compresses it against the lumbar spine). §	Coumarin derivatives include oral vitamin K antagonists, such as warfarin, acenocoumarol, and phenprocoumon. Table 1. Two Syndromes of Ischemic Limb Gangrene with Pulses. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7 nejm.org August 13, 2015
+The new engl and jour nal of medicine
+A  Phlegmasia Cerulea Dolens (Prodrome), Venous Limb Gangrene
+C  Regulatory Pathways Responding to Pathologic Thrombin Generation
+B  Symmetric Peripheral Gangrene, Purpura Fulminans 
+Central venous catheter
+Deep-vein 
+thrombosis
+Deep-vein 
+thrombosis
+Increased production of
+tissue factor, procoagulant 
+microparticles, and cytokines 
+Regulation by Protein C Natural Anticoagulant System
+Direct Inactivation by Formation of 
+Thrombin–Antithrombin Complex
+Protein C
+Activated 
+protein C
+Degradation 
+of factors Va 
+and VIIIa
+Thrombin 
+overproduction 
+Pathologic
+ thrombin 
+generation
+Positive 
+feedback 
+loop 
+Factor Va and 
+factor VIIIa 
+Fibrin
+Platelet
+Thrombin
+Thrombin
+Thrombomodulin
+Complex
+Antithrombin
+Heparan sulfate
+ENDOTHELIAL CELL
+CAPILLARY
+ENDOTHELIAL CELL
+CLOT
+RED CELL
+Factor V and 
+factor VIII
+Detectable pulses
+on palpation or 
+Doppler signal
+Protein C deficiency 
+caused by use of vitamin K 
+antagonist (e.g., warfarin)
+Protein C and antithrombin 
+deficiency caused by acute 
+ischemic hepatitis (“shock liver”)
+Protein C and antithrombin 
+deficiency caused by increased 
+consumption (disseminated 
+intravascular coagulation)
+Nonacral skin necrosis
+(purpura fulminans) 
+Nonacral 
+skin necrosis
+(purpura 
+fulminans) 
+Symmetric peripheral 
+gangrene (acral skin 
+necrosis) with reduced 
+circulation to extremities 
+associated with
+hypotension or use 
+of vasopressors 
+Disseminated Intravascular Coagulation Disorders 
+with Deep-Vein Thrombosis
+Disseminated Intravascular Coagulation Disorders 
+Usually without Deep-Vein Thrombosis
+Acral skin necrosis 
+(in limb with 
+deep-vein thrombosis)
+Septic shock
+Cardiogenic shock
+Heparin-induced thrombocytopenia
+Adenocarcinoma
+Antiphospholipid syndrome
+Heparin-induced thrombocytopenia
+Adenocarcinoma
+Antiphospholipid syndrome
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+ischemic limb gangrene with pulses
+the heparin phase of heparin–warfarin overlap 
+(Fig. 2A). The patients had a rising platelet count 
+during the initial phase of heparin treatment (with 
+either unfractionated or low-molecular-weight for-
+mulations), consistent with heparin control of 
+cancer-associated hypercoagulability,18 with a rapid 
+decrease in the platelet count after heparin was 
+stopped. Progression to ischemic limb necrosis 
+occurred in association with an abrupt increase in 
+the INR to supratherapeutic levels (usually, >4.0). 
+Unlike patients with heparin-induced thrombo-
+cytopenia, patients with this syndrome test nega-
+tive for heparin-dependent, platelet-activating anti-
+bodies, and the platelet count increases if heparin 
+is restarted.1 Metastatic cancer, usually adenocar-
+cinoma, is characteristic. Laboratory studies support a model of pro-
+foundly disturbed procoagulant–anticoagulant bal-
+ance in patients with cancer in whom venous 
+gangrene develops during warfarin anticoagula-
+tion. Uncontrolled thrombin generation is shown 
+by greatly elevated thrombin–antithrombin com-
+plexes (a marker of in vivo thrombin generation) 
+together with greatly reduced levels of protein C 
+activity — in other words, the ratio of thrombin–
+antithrombin complex to protein C is elevated as 
+compared with that in controls.1,14 In essence, 
+warfarin does not inhibit cancer-associated hyper-
+coagulability while at the same time it predisposes 
+the patient to microthrombosis by depleting pro-
+tein C activity (often to <10% of normal levels). Venous Limb Gangrene and Heparin-Induced 
+Thrombocytopenia
+In patients with heparin-induced thrombocyto-
+penia, the decrease in the platelet count usually 
+begins 5 to 10 days after the immunizing expo-
+sure to heparin, often caused by the intraoperative 
+use of heparin (e.g., in cardiac or vascular sur-
+gery) or during the early postoperative period 
+(for thromboprophylaxis) (Fig. 2B).19 Sometimes, 
+thrombocytopenia begins while the patient is 
+still receiving heparin (called typical onset), al-
+though often the decrease in the platelet count 
+begins — or worsens — after heparin is discon-
+tinued (called delayed onset).20 Ischemic limb 
+injury develops in up to 5% of patients with hepa-
+rin-induced thrombocytopenia,21 either because 
+of arterial occlusion by a platelet-rich thrombus 
+(a so-called white clot) or because of venous 
+limb gangrene. Warfarin therapy is implicated in the majority 
+of patients with heparin-induced thrombocytope-
+nia in whom venous limb gangrene develops. 
+Again, a characteristic feature is a supratherapeutic 
+INR.2,15 In such patients, a markedly elevated ratio 
+of thrombin–antithrombin complex to protein C2 
+supports a model of profoundly disturbed proco-
+agulant–anticoagulant balance. In the minority of 
+patients with heparin-induced thrombocytopenia 
+in whom venous gangrene develops in the absence 
+of warfarin administration, unusually severe 
+thrombocytopenia (platelet count, <20,000 per cu-
+bic millimeter) and laboratory evidence of decom-
+pensated disseminated intravascular coagulation 
+(e.g., elevated INR, hypofibrinogenemia, and cir-
+culating nucleated red cells) is found.22
+Figure 1 (facing page). Clinical Profile of Venous Limb 
+Gangrene and Symmetric Peripheral Gangrene. Both venous limb gangrene (Panel A) and symmetric pe-
+ripheral gangrene (Panel B) feature ischemic limb gan-
+grene with pulses, underlying microvascular thrombosis, 
+and a high frequency of disseminated intravascular coagu-
+lation with the failure of one or both natural anticoagulant 
+systems (protein C and antithrombin) (Panel C). Venous 
+limb gangrene is characterized by acral necrosis in a distal 
+limb with deep-vein thrombosis. A reversible prodrome of 
+this condition is phlegmasia cerulea dolens. Underlying 
+disorders include heparin-induced thrombocytopenia, 
+cancer (especially metastatic adenocarcinoma), and the 
+antiphospholipid syndrome (especially the catastrophic 
+antiphospholipid syndrome). Upper-limb venous throm-
+bosis and limb ischemic necrosis may be associated with 
+the use of a central venous catheter. Symmetric peripheral 
+gangrene typically occurs in critically ill patients with car-
+diogenic or septic shock who have hypotension and are re-
+ceiving vasopressor therapy, with acral limb necrosis that 
+usually occurs in the absence of deep-vein thrombosis. 
+When there is additional or predominant nonacral skin ne-
+crosis, the condition is called purpura fulminans. Patho-
+logic thrombin generation, which can be triggered or exac-
+erbated by tissue factor, procoagulant microparticles, and 
+proinflammatory or prothrombotic cytokines (among oth-
+er factors), requires regulatory control (Panel C). This con-
+trol occurs through two major systems. In the protein C 
+natural anticoagulant system, thrombin that is bound to 
+endothelial thrombomodulin converts protein C to activat-
+ed protein C, which degrades activated factors V and VIII 
+(Va and VIIIa, respectively), thereby down-regulating 
+thrombin generation. In the antithrombin system, throm-
+bin is inactivated by the formation of covalently linked 
+thrombin–antithrombin complexes, a process that is cata-
+lyzed by endothelial heparan sulfate (a proteoglycan that 
+binds to a variety of protein ligands and regulates a wide 
+variety of biologic activities) or circulating pharmacologic 
+heparin. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7 nejm.org August 13, 2015
+The new engl and jour nal of medicine
+ Supratherapeutic INR
+Analysis of the vitamin K–dependent coagula-
+tion factors that influence the INR — factors II 
+(prothrombin), VII, and X — explains the basis for 
+the supratherapeutic INR that is characteristic of 
+warfarin-associated venous limb gangrene.1,2,14
+The elevated INR correlates closely with reduced 
+factor VII levels, with factor VII showing a strong 
+Warfarin
+Symmetric peripheral gangrene
+with or without purpura fulminans
+Heparin (UFH or LMWH)
+Heparin
+DVT
+Venous limb gangrene in
+same limb with DVT 
+Acute ischemic hepatitis (“shock liver”) 
+ßHypotension or use of vasopressors
+(cardiogenic or septic shock)
+à
+Supratherapeutic INR
+HIT antibody–
+negative
+HIT antibody–
+positive
+Rising platelet count
+with heparin
+Rising platelet count
+after surgery
+Early coagulopathy and
+thrombocytopenia (DIC)
+Late thrombocytopenia
+Late thrombocytopenia
+Rising platelet
+count with 
+heparin restart 
+Decrease in platelet
+count after stopping heparin
+Decrease in
+platelet count
+Warfarin
+DVT
+Surgery
+(early decrease in platelet count)
+Supratherapeutic INR
+HIT antibody–negative
+(or weakly positive)
+Heparin (UFH or LMWH)
+Venous limb gangrene in
+same limb with DVT 
+Platelet Count (per mm3)
+INR
+350,000
+300,000
+250,000
+150,000
+100,000
+50,000
+200,000
+Days
+B HIT-Associated Venous Limb Gangrene
+A Cancer-Associated Venous Limb Gangrene
+C Symmetric Peripheral Gangrene and Purpura Fulminans
+Platelet Count (per mm3)
+INR
+350,000
+300,000
+250,000
+150,000
+100,000
+50,000
+200,000
+Days
+Platelet Count (per mm3)
+INR
+350,000
+300,000
+250,000
+150,000
+100,000
+50,000
+200,000
+Days
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+ischemic limb gangrene with pulses
+colinear relationship with protein C. In essence, 
+the supratherapeutic INR is a surrogate marker 
+for severely reduced protein C (<10% activity lev-
+els) caused by a parallel severe reduction in the 
+factor VII level. This close correlation between 
+procoagulant factor VII and anticoagulant pro-
+tein C is interesting, given that both factors have 
+short half-lives (5 hours and 9 hours, respectively) 
+and low (nanomolar) plasma concentrations (10 nM 
+and 65 nM, respectively), values much lower than 
+those of the major procoagulant factor, prothrom-
+bin (60 hours and 1400 nM, respectively).23 These 
+characteristics help to explain the unique suscep-
+tibility to depletion of factor VII and protein C 
+in consumptive coagulopathic states with com-
+promised factor synthesis associated with the 
+use of warfarin. Ironically, despite the high INR, 
+thrombin generation persists and microthrom-
+bosis occurs.1,2,14
+Venous Limb Gangrene vs. Warfarin-Induced 
+Skin Necrosis
+Warfarin-associated venous limb gangrene differs 
+from classic warfarin-induced skin necrosis in that 
+for the latter disorder, necrosis is usually localized 
+to skin or subdermal tissues, predominantly in 
+nonacral locations (e.g., breast, abdomen, thigh, 
+and calf),24,25 whereas venous gangrene affects 
+acral skin and underlying tissues (e.g., bone).1,2,14,15 
+In the two disorders, the onset of tissue necrosis 
+begins approximately 2 to 6 days after the ini-
+tiation of warfarin therapy.24,25 This characteris-
+tic delay probably reflects the time needed for a 
+critical reduction in protein C levels. Congenital 
+abnormalities in the protein C anticoagulant sys-
+tem (e.g., protein C deficiency and factor V Leiden) 
+are often implicated in patients with classic war-
+farin-induced necrosis but are usually not found 
+in patients with venous limb gangrene. These ob-
+servations suggest that the profound consumptive 
+coagulopathy associated with heparin-induced 
+thrombocytopenia or cancer, combined with deep-
+vein thrombosis, are sufficient to cause the condi-
+tions for warfarin-induced microthrombosis that 
+is manifested as venous gangrene without the ad-
+ditional need for an underlying heritable defect. Prevention and Treatment of Venous Limb 
+Gangrene
+Venous limb gangrene can be prevented if war-
+farin therapy is avoided (or reversed in a timely 
+manner with vitamin K) in a patient with acute 
+deep-vein thrombosis in whom the presence of 
+associated thrombocytopenia or coagulopathy in-
+dicates a potential diagnosis of cancer-associated 
+coagulopathy or heparin-induced thrombocyto-
+penia.1,2 Consensus conference guidelines recom-
+mend the avoidance of warfarin during the acute 
+(thrombocytopenic) phase of heparin-induced 
+thrombocytopenia.21,26 Furthermore, low-molec-
+ular-weight heparin is superior to warfarin in 
+patients with cancer-associated deep-vein throm-
+bosis.27 Also, the use of inferior vena cava filters 
+should be avoided in patients with hypercoagu-
+lable states, such as cancer or heparin-induced 
+thrombocytopenia, since their use can predispose 
+the patient to venous gangrene.28
+In a patient who is recognized to have phleg-
+masia or venous limb gangrene, treatment is 
+based on two principles. The first — for a patient 
+with a prolonged INR that is caused by treatment 
+with a vitamin K antagonist — is the administra-
+tion of vitamin K (at least 10 mg by slow intra-
+Figure 2 (facing page). Changes in Platelet Count  
+and INR in Three Clinical Scenarios Associated  
+with Ischemic Limb Gangrene with Pulses. Panel A shows the characteristic clinical picture and 
+associated changes in platelet counts and internation-
+al normalized ratios (INRs) in patients with cancer 
+(which is diagnosed in at least 50% of patients with 
+venous gangrene) and disseminated intravascular co-
+agulation. Venous limb gangrene develops in the limb 
+affected by deep-vein thrombosis (DVT) soon after 
+the completion of the heparin phase of heparin–warfa-
+rin overlap following a rising platelet count during the 
+initial phase of heparin treatment (with either unfrac-
+tionated heparin [UFH] or low-molecular-weight hepa-
+rin [LMWH]) and a rapid decrease in the platelet 
+count after heparin is stopped. Progression to isch-
+emic limb necrosis occurs in association with an 
+abrupt increase in the INR to supratherapeutic levels. 
+Patients with this syndrome test negative for heparin-
+dependent, platelet-activating antibodies. Panel B 
+shows a scenario for patients with heparin-induced 
+thrombocytopenia (HIT) who receive heparin during 
+cardiac surgery with routine heparin–warfarin overlap 
+(e.g., mechanical valve replacement). Patients with 
+HIT test positive for platelet-activating antibodies. An 
+alternative scenario would be later initiation of warfa-
+rin at the time that DVT occurs or during argatroban–
+warfarin overlap for the treatment of heparin-induced 
+thrombocytopenia. Panel C shows the characteristic 
+interval of a few days between the onset of acute isch-
+emic hepatitis (“shock liver”) and the development of 
+ischemic limb injury in a critically ill patient with car-
+diogenic or septic shock. This syndrome is evidence of 
+the role of impaired hepatic synthesis of protein C and 
+antithrombin in exacerbating a disturbed procoagu-
+lant–anticoagulant balance during disseminated intra-
+vascular coagulation (DIC). The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+The new engl and jour nal of medicine
+venous infusion, with 5 to 10 mg repeated 12 to 
+24 hours later if the prolongation in the INR 
+persists or recurs). The second is therapeutic-
+dose anticoagulation. These measures can be 
+limb-saving in a patient with phlegmasia.2,29
+However, the use of anticoagulation in a patient 
+with an underlying coagulopathy is inherently 
+problematic if an agent that is monitored by the 
+activated partial thromboplastin time (APTT) is 
+used. This is because the systematic administra-
+tion of an inappropriately reduced dose of anti-
+coagulant therapy, called APTT confounding, 
+can result when a standard APTT-adjusted treat-
+ment nomogram is applied to a patient whose 
+baseline (pretreatment) APTT is already elevated.30 
+Such an effect can occur if unfractionated hepa-
+rin is used to treat cancer-associated hyperco-
+agulability or if argatroban is given for thrombosis 
+complicating severe heparin-induced thrombo-
+cytopenia with associated disseminated intravas-
+cular coagulation.30,31 Warfarin also prolongs the 
+APTT, further contributing to less effective ad-
+ministration of heparin or argatroban.30,32 This 
+problem can be avoided by the use of low-molec-
+ular-weight heparin or monitoring of unfraction-
+ated heparin by measuring levels of anti–factor 
+Xa (for treating cancer-associated hypercoagula-
+bility) or the use of an anticoagulant that does 
+not require APTT monitoring (e.g., danaparoid or 
+fondaparinux for treating heparin-induced throm-
+bocytopenia).30
+Adjunctive surgical considerations include fas-
+ciotomies (to reduce compartment pressures, if 
+elevated)33 and thrombectomy,34 but prolonged 
+wound healing, risk of infection, and a delay in or 
+interruption of anticoagulation are drawbacks. 
+Local pharmacomechanical thrombolysis is an-
+other option,35 but the choice of the most effec-
+tive agent, dose, and adjunctive anticoagulation 
+is uncertain, and risks in patients with thrombo-
+cytopenia are increased. Symmetric Peripher al Gangrene 
+and Purpur a Fulminans
+Symmetric peripheral gangrene and purpura ful-
+minans are two syndromes typically associated 
+with thrombocytopenia and coagulopathy in pa-
+tients who are critically ill (Fig.  2C). Symmetric 
+peripheral gangrene indicates predominantly acral 
+necrosis, which affects the distal limbs (with more 
+frequent and extensive involvement of the feet than 
+the fingers or hands) but sometimes also the nose, 
+lips, ears, scalp, and genitalia.3,4 The term purpura 
+fulminans is used when there is extensive, multi-
+centric, nonacral skin necrosis, although patients 
+usually have acral limb necrosis as well. Septicemia 
+and cardiac failure are the most common underly-
+ing disorders, and patients usually have metabolic 
+(lactic) acidosis.22,36 Although underlying infection 
+may suggest septic embolization, the presence of 
+pulses and findings on histopathological analyses 
+show the role of microthrombosis associated with 
+disseminated intravascular coagulation.37 Most pa-
+tients with symmetric peripheral gangrene have 
+shock, but this complication can occasionally also 
+occur in a normotensive patient with a severe sys-
+temic inflammatory state and in the absence of 
+overt disseminated intravascular coagulation 
+(Fig. 3A through 3F). Septic shock that is caused by meningococce-
+mia is a well-recognized underlying disorder with 
+considerable evidence for failure of the protein C 
+natural-anticoagulant pathway. More recently, 
+acute ischemic hepatitis (“shock liver”) has been 
+identified as a potential risk factor for symmetric 
+peripheral gangrene or purpura fulminans.22,30
+Clinical Picture
+Patients with septicemia-associated disseminated 
+intravascular coagulation that is complicated by 
+dermal manifestations usually present with fever, 
+hypotension, and a petechial rash that evolves to 
+more extensive confluent nonacral and acral pur-
+puric areas of evolving ischemic necrosis. Early 
+signs of ischemic limb injury include marked 
+coldness, pallor, and distal limb pain. Bullae (of-
+ten hemorrhagic) indicate tissue necrosis, as does 
+nonblanching acral cyanosis. The dermal abnor-
+malities are often sharply demarcated and strik-
+ingly symmetric, with initial gray, blue, or purple 
+discoloration that progresses to black as the skin 
+tissues die. Autoamputation of digital tips can 
+occur, although more extensive necrosis usually 
+requires surgical débridement, with or without 
+amputation. Limb ischemic necrosis typically in-
+volves lower limbs before upper limbs; approxi-
+mately one quarter of patients require four-limb 
+amputations.38 Mortality exceeds 50%. Pathological Features
+The histopathological features of symmetric 
+peripheral gangrene and purpura fulminans are 
+dermal microthrombosis involving venules and 
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7 nejm.org August 13, 2015
+ischemic limb gangrene with pulses
+Figure 3. Symmetric Peripheral Gangrene. In a 62-year-old man with severe, uncontrolled ulcerative colitis that was resistant to infliximab therapy, an acute 
+ onset of swollen, discolored, and painful feet was followed 2 days later by pain and cyanosis in the fingers, with 
+ progression to ischemic necrosis of both forefeet (Panels A and C) and hands (Panels B and D) over the next several 
+days. No evidence of bacterial endocarditis or macrovascular aortic disease was found. Laboratory evidence of in-
+flammation included elevated C-reactive protein levels, along with hyperfibrinogenemia, hyperferritinemia, throm-
+bocytosis, and anemia of inflammation. Testing for autoimmune markers and antiphospholipid antibodies was 
+ negative. Laboratory studies performed at the time of admission did not strongly support a diagnosis of decom-
+pensated disseminated intravascular coagulation, with the following values: platelet count, 472,000 per cubic milli-
+meter; international normalized ratio (INR), 1.1; activated partial thromboplastin time, 39 seconds; fibrinogen, 650 mg 
+per deciliter (reference range, 160 to 420); and fibrin d-dimer, 1390 μg per milliliter of fibrinogen equivalent units 
+(reference value, <500). Skin biopsy of the left hallux showed multiple fibrin thrombi within small vessels, as seen 
+on hematoxylin and eosin staining (Panel E, with arrows indicating the vessel–lumen interface) and Martius scarlet 
+blue staining, in which fibrin is colored red (Panel F). The patient’s proinflammatory process improved after treat-
+ment with high-dose glucocorticoids and unfractionated heparin. (Courtesy of Dr. Ahmed Barefah, Department of 
+Medicine [Panels A through D], and Dr. Linda Kocovski, Department of Pathology [Panels E and F], both at McMaster 
+University.)
+A
+B
+D
+C
+F
+E
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7 nejm.org August 13, 2015
+The new engl and jour nal of medicine
+Platelet count (mm3)
+150,000 
+100,000 
+50,000 
+ 
+Platelet count nadir, 17,000/mm3
+Progressive ischemic necrosis 
+INR 
+Fibrinogen (mg/dl) 
+3.0 
+2.5 
+1.0 
+2.0 
+1.5 
+Frozen plasma (4 units)  
+Platelet transfusion
+ 
+0.50 
+0.25 
+0.75 
+APTT (sec)  
+Anti–factor Xa (U/ml) 
+ 
+Start of heparin 
+Elevated APTT values
+before starting heparin
+(risk of “APTT confounding”) 
+ 
+ 
+Value Relative to Normal
+(log10 scale) 
+Day
+Day
+Day
+Day
+Anticoagulant 
+Antithrombin 
+Protein C 
+Fibrin D-dimer 
+Procoagulant
+ 
+Thrombin–antithrombin complexes
+10-2
+10-1
+Protein C nadir
+(<0.01 U/ml) 
+Protein C
+concentrates  
+Antithrombin concentrates
+Normal 
+Normal 
+Fibrin monomer 
+0.09 U/ml (near onset
+of ischemic necrosis)
+Anti–factor Xa
+therapeutic range
+(0.35–0.70 U/ml)
+E
+A
+C
+F
+D
+B
+G
+H
+Shock liver (peak ALT, 2280)
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+ischemic limb gangrene with pulses
+capillaries.39 Edematous endothelial cells, capillary 
+dilatation, and red-cell extravasation contribute 
+to the petechial appearance of early lesions, 
+which over time can coalesce into confluent areas 
+of ischemic necrosis with associated hemor-
+rhagic bullae. Although nonacral necrosis typi-
+cally is localized to dermal and subdermal tissues, 
+when extensive acral necrosis develops, underlying 
+tissues, including bone, can become involved; 
+bone scans can be used to judge the extent of 
+tissue injury.40
+Concomitant multiple organ failure (e.g., respi-
+ratory, renal, and hepatic) is common. Postmortem 
+studies can show microthrombi in kidneys (corti-
+cal necrosis), lungs, liver, spleen, adrenal glands, 
+heart, brain, pancreas, and gastrointestinal 
+tract.41,42 When bilateral adrenal hemorrhage oc-
+curs in children (most often, associated with 
+meningococcemia), the term Waterhouse–Frid-
+erichsen syndrome applies, with evidence of fi-
+brin microthrombi within adrenal sinusoids.43
+Implicated Microorganisms
+Purpura fulminans in young children and ado-
+lescents is usually associated with meningococ-
+cemia (caused by Neisseria meningitidis), whereas 
+in adults Streptococcus pneumoniae (pneumococcus) 
+is most often implicated.3,4,38,44 Encapsulated bac-
+teria (meningococcus, Haemophilus influenzae, or 
+pneumococcus) are usually found when purpura 
+fulminans occurs in a patient who has under-
+gone splenectomy or who has functional asple-
+nia.45 Numerous other bacteria, both gram-posi-
+tive (e.g., Strep. pyogenes and staphylococcus species) 
+and gram-negative (e.g., Escherichia coli), have been 
+implicated, as well as rickettsia,46 malaria,47 dis-
+seminated tuberculosis,48 and viral infections 
+(e.g., rubeola49 and varicella3). Infection with cap-
+nocytophaga species associated with a dog bite or 
+human saliva has a high risk of purpura fulmi-
+nans.50
+Meningococcemia
+Meningococcemia represents the quintessential 
+disease in which bacterial endotoxin (lipopoly-
+saccharide), in a dose-dependent fashion, activates 
+the hemostatic cascades (both procoagulant and 
+anticoagulant), fibrinolysis, and complement, 
+kinin, and cytokine networks.51 Tissue factor–
+bearing microparticles contribute to the patho-
+genesis of disseminated intravascular coagula-
+tion.52 Severely reduced protein C activity is 
+Figure 4 (facing page). Clinical and Laboratory Picture 
+of Purpura Fulminans. Shown are photographs and laboratory results for a 
+23-year-old woman with endocarditis caused by Staphylo-
+coccus aureus that resulted in combined septic and car-
+diogenic shock. The patient’s condition was complicated 
+by acute ischemic hepatitis (“shock liver”) along with re-
+spiratory and renal failure. The patient had both acral 
+and nonacral necrosis affecting the left and right hands 
+(Panels A and B) and the right and left feet (Panels C and 
+D). Severe thrombocytopenia and an acute elevation in 
+the alanine aminotransferase (ALT) level indicate that 
+disseminated intravascular coagulation and shock liver 
+had developed (Panel E). Approximately 2 days later, ac-
+ral and nonacral ischemic necrosis (purpura fulminans) 
+developed. Coagulation changes that were consistent 
+with decompensated disseminated intravascular coagula-
+tion included an increase in the international normalized 
+ratio (INR) and a decrease in fibrinogen (nadir, 110 mg 
+per deciliter; reference range, 160 to 420) (Panel F). 
+Computed tomography of the brain showed cerebral sep-
+tic emboli, so the use of heparin was initially deemed to 
+be contraindicated. However, because of progressive 
+limb ischemic necrosis, heparin was started in low doses 
+on day 3, with monitoring of anti–factor Xa (target level, 
+0.35 to 0.70 U per milliliter) and gradual dose increases, 
+which resulted in a therapeutic anti–factor Xa level ap-
+proximately 2 days later (Panel G). The elevated activated 
+partial thromboplastin time (APTT) of 51 seconds (refer-
+ence range, 22 to 35) at baseline indicated the risk of 
+“APTT confounding” if anticoagulant monitoring had 
+been performed by means of an APTT nomogram. In-
+deed, supratherapeutic APTT levels were shown on day 
+5, when therapeutic anti–factor Xa levels were noted.  
+A laboratory profile of profoundly disturbed procoagu-
+lant–anticoagulant balance was indicated by markedly el-
+evated thrombin–antithrombin complexes and levels of 
+fibrin d-dimer and fibrin monomer (approximately 20 to 
+70 times the upper limit of the normal range), with a se-
+vere antithrombin deficiency (nadir, 0.32 U per milliliter; 
+reference range, 0.77 to 1.25), values that improved after 
+the administration of antithrombin concentrates (Panel 
+H). The patient also had severely reduced protein C activ-
+ity levels, which initially measured 0.20 U per milliliter 
+(reference range, 0.70 to 1.80) and then fell to 0.09 U per 
+milliliter at the time of the onset of ischemic necrosis 
+and reached profoundly depressed levels (0.01 U per mil-
+liliter) during progressive ischemic necrosis, before levels 
+began to rise after the administration of protein C con-
+centrates. Other laboratory abnormalities included lactic 
+acidosis (peak lactate, 15.0 mmol per liter on day 1; refer-
+ence range, 0.5 to 2.2) and elevated conjugated bilirubin 
+(peak, 3.0 mg per deciliter on day 3; reference value,  
+<0.5 [51 μmol per liter; reference value, <9]). Despite the 
+achievement of a target therapeutic heparin level (0.54 U 
+per milliliter), partial platelet count recovery (to 141,000 
+per cubic millimeter), and only a mildly prolonged INR 
+(1.4), the patient died from an intracerebral hemorrhage 
+on day 9. (Photographs courtesy of Dr. Craig D. Ain-
+sworth, Department of Medicine, McMaster University.)
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+The new engl and jour nal of medicine
+associated with an increased extent of skin le-
+sions and rate of death in children with menin-
+gococcemia.53 A case–control study showed that 
+patients with meningococcemia who also had 
+factor V Leiden — a mutation that impairs factor 
+V proteolysis by activated protein C — had a rate 
+of death that was similar to that of controls but 
+had a tripling (from 7% to 21%) in the risk of tis-
+sue necrosis associated with purpura fulminans.54
+Acute Ischemic Hepatitis
+Recently, the prodrome of acute ischemic hepa-
+titis (shock liver) has been reported in patients 
+without meningococcemia who have acute dis-
+seminated intravascular coagulation along with 
+symmetric peripheral gangrene or purpura ful-
+minans.22,30,55 Figure 4 illustrates a representative 
+case in which a 23-year-old woman was treated 
+for cardiogenic and septic shock associated with 
+Staphylococcus aureus endocarditis with severe aor-
+tic regurgitation. Combined acral and nonacral 
+skin necrosis (i.e., purpura fulminans) devel-
+oped (Fig. 4A through 4D). Before the onset of 
+ischemic limb necrosis, the patient was found to 
+have acute ischemic hepatitis (peak alanine ami-
+notransferase level, 2280 U per liter; reference 
+level, <28) and acute, severe thrombocytopenia 
+(Fig. 4E). Disseminated intravascular coagulation 
+was shown by an elevated INR (peak, 3.0), hypo-
+fibrinogenemia (fibrinogen nadir, 110 mg per 
+deciliter [reference range, 160 to 420]) (Fig. 4F), 
+elevated APTT (Fig. 4G), and greatly elevated fi-
+brin-specific markers (Fig. 4H). At the onset of 
+necrosis, the protein C activity level was mark-
+edly reduced (0.09 units per milliliter [reference 
+range, 0.70 to 1.80]) (Fig. 4H). Within 2 days, 
+protein C levels were severely reduced (0.01 units 
+per milliliter), and irreversible tissue necrosis was 
+evident. Marked thrombin generation and fibrin 
+formation continued, as shown by greatly elevat-
+ed thrombin–antithrombin complexes and fibrin 
+d-dimer levels, respectively (Fig. 4H). Treatment 
+with unfractionated heparin to a therapeutic level 
+(according to anti–factor Xa levels) was accompa-
+nied by APTT levels of more than 150 seconds 
+(illustrating that a subtherapeutic heparin dose 
+would have resulted if an APTT-based nomogram 
+had been used). Preceding shock liver is a common finding that 
+is observed in approximately 90% of critically ill 
+patients with disseminated intravascular coagu-
+lation in whom acral ischemic necrosis devel-
+ops.22,30 Furthermore, the onset of ischemic limb 
+necrosis usually begins 2 to 5 days after the initial 
+elevation in liver enzymes. This time frame evokes 
+the scenario of warfarin-induced skin necrosis, in 
+which there is a similar time frame of skin ne-
+crosis after the initiation of warfarin therapy.24,25 
+This characteristic time period presumably re-
+flects the time that is required for the develop-
+ment of critically low levels of protein C when its 
+synthesis is impaired by acute liver dysfunction 
+or warfarin therapy. Further systematic studies 
+evaluating the role of preceding shock liver in 
+the pathogenesis of ischemic limb injury are war-
+ranted. Some case reports have implicated hypoten-
+sion requiring vasopressor therapy (e.g., with 
+dopamine,56 noradrenaline,57 or phenylephrine58) 
+in the pathogenesis of symmetric peripheral gan-
+grene. In parallel with the role of deep-vein throm-
+bosis in predisposing the patient to warfarin-asso-
+ciated microthrombosis in the same limb with 
+large-vein thrombosis, it seems plausible that hy-
+potension and vasopressor therapy, by reducing 
+blood flow into the distal extremities, could pre-
+dispose the patient with disseminated intravas-
+cular coagulation to acral microthrombosis. Differential Diagnosis
+Sometimes, symmetric peripheral gangrene can 
+occur in the absence of definite disseminated 
+intravascular coagulation.59,60 Representative dis-
+orders include frostbite, ergotism,61 vasospasm 
+(idiopathic or scleroderma-associated Raynaud’s 
+phenomenon),60 calciphylaxis,62 postoperative 
+thrombotic thrombocytopenic purpura,63 my-
+eloproliferative or lymphoproliferative disorders 
+(including monoclonal gammopathies), vasculi-
+tis,64 certain rheumatologic or immunologic dis-
+orders (e.g., adult-onset Still’s disease65 and the 
+antiphospholipid syndrome66), and uncontrolled 
+proinflammatory disorders such as ulcerative coli-
+tis (Fig. 3).67
+Treatment
+Venous limb gangrene and symmetric peripheral 
+gangrene are observed in a small minority (<1%) 
+of patients with disseminated intravascular coagu-
+lation, so treatment considerations are based 
+primarily on theoretical considerations and case-
+based observations, rather than on results of 
+clinical trials. Theoretical considerations include 
+pharmacologic interruption of thrombin genera-
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+ischemic limb gangrene with pulses
+tion (e.g., heparin anticoagulation), coagulation-
+factor replacement aimed at correcting depletion 
+of natural anticoagulants such as protein C and 
+antithrombin (given either as frozen plasma or 
+specific factor concentrates), and efforts to mini-
+mize risk factors for decreased limb perfusion 
+(e.g., correction of hypotension and reduction or 
+avoidance of vasopressors). However, since isch-
+emic limb injury that is associated with profound-
+ly disturbed procoagulant–anticoagulant balance 
+can occur quickly when the “perfect storm” 
+conditions are met, initiating anticoagulation 
+even at the first signs of ischemic limb injury may 
+already be too late. Some experts advise early 
+protein C replacement therapy in patients with 
+severe meningococcemia.68,69 However, in order 
+to become activated, protein C requires the pres-
+ence of thrombomodulin on the surface of endo-
+thelial cells (Fig. 1C). Since injured endothelial 
+cells down-regulate and shed thrombomodulin, 
+current experimental approaches include the in-
+fusion of recombinant human soluble thrombo-
+modulin.70
+In choosing an anticoagulant, many practi-
+tioners favor heparin,30,71 since its anticoagulant 
+effect can be monitored directly (by measuring 
+anti–factor Xa levels), thus avoiding the potential 
+for systematic underadministration in a patient 
+with an elevated APTT at baseline (Fig. 4G). Also, 
+heparin clearance remains normal even with liver 
+and renal failure, and heparin has antiinflam-
+matory properties independent of its role as an 
+anticoagulant.72 Moreover, drug regimens that 
+involve prophylactic and therapeutic doses are 
+available, depending on the clinical situation. 
+However, heparin requires its cofactor, antithrom-
+bin, and antithrombin levels can be reduced in 
+patients with consumptive coagulopathies, partic-
+ularly with concomitant liver dysfunction. A recent meta-analysis suggested that the use 
+of heparin (as compared with placebo or usual 
+care) in patients with sepsis, septic shock, and 
+infection-associated disseminated intravascular 
+coagulation may be associated with a relative 
+decrease of 12% in the rate of death.72 Whether 
+there is any potential benefit for the use of hepa-
+rin in the prevention of microthrombosis and 
+ischemic limb injury is unknown. Recombinant 
+activated protein C, although theoretically at-
+tractive, was withdrawn from the market after a 
+large, randomized trial did not show improved 
+survival in septic shock.73 High-dose antithrom-
+bin concentrates did not improve mortality in a 
+trial involving patients with severe sepsis,74 al-
+though the rate of death appeared to be lower in 
+the antithrombin-treated subgroup with dissemi-
+nated intravascular coagulation who did not re-
+ceive heparin.75
+Surgical Considerations
+Some surgeons advocate the use of fasciotomy in 
+patients in whom compartment syndromes re-
+lated to tissue edema can compromise flow into 
+a limb.38,45 However, fasciotomy disrupts the 
+skin barrier and usually results in the interrup-
+tion or postponement of anticoagulant therapy 
+and so is not without risk. Early amputation 
+should be avoided, whenever possible, since it 
+can be difficult to distinguish viable tissue from 
+nonviable tissue. Indeed, patience to the point of 
+autoamputation in some cases can minimize ul-
+timate tissue losses. A multidisciplinary team that 
+involves plastic surgery or wound care, medicine 
+or infectious diseases, and podiatry, with man-
+agement in a burn unit, can be helpful. Neonatal Purpura Fulminans
+Although purpura fulminans is most commonly 
+associated with bacterial infection, in neonates 
+it can be caused by a congenital deficiency in 
+protein C or protein S. Such disorders may re-
+quire lifelong treatment with frozen plasma or 
+protein C concentrates or possibly liver trans-
+plantation.76
+Idiopathic and Postviral Purpura Fulminans
+Idiopathic purpura fulminans is a rare disorder 
+characterized by onset without any known trig-
+ger (Fig. S1 in the Supplementary Appendix, 
+available with the full text of this article at 
+NEJM.org) or that occurs a few weeks after an 
+otherwise unremarkable varicella infection. In 
+the latter disorder, transient autoantibodies that 
+inhibit protein S have been implicated.77
+Conclusions
+The concept that venous limb gangrene and sym-
+metric peripheral gangrene are usually associated 
+with microvascular thrombosis with underlying 
+disseminated intravascular coagulation provides 
+a framework for a rational approach to diagnos-
+ing and treating these diverse and potentially 
+devastating disorders. Prevention and treatment 
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+The new engl and jour nal of medicine
+of venous gangrene requires correction of abnor-
+malities associated with the use of vitamin K an-
+tagonists and aggressive anticoagulation, whereas 
+treatment of symmetric peripheral gangrene (with 
+or without purpura fulminans) theoretically in-
+volves heparin-based anticoagulation and the sub-
+stitution of natural anticoagulants. Dr. Warkentin reports receiving fees for serving on an advi-
+sory board from Instrumentation Laboratory, consulting fees 
+from W.L. Gore, lecture fees from Instrumentation Laboratory 
+and Pfizer Canada, and fees for providing expert testimony in 
+cases regarding thrombocytopenia, coagulopathy, or ischemic 
+limb losses. He also reports that his institution has received fees 
+from W.L. Gore to provide laboratory testing for a randomized, 
+controlled trial of heparin-coated versus non–heparin-coated 
+hemodialysis grafts. No other potential conflict of interest rel-
+evant to this article was reported. Disclosure forms provided by the author are available with the 
+full text of this article at NEJM.org. I thank Erin M. Warkentin, M.Sc.B.M.C., for preparation of an 
+earlier version of Figure 1. References
+1.	 Warkentin TE, Cook RJ, Sarode R, 
+Sloane DA, Crowther MA. Warfarin-induced 
+venous limb ischemia/gangrene complicat-
+ing cancer: a novel and clinically distinct 
+syndrome. Blood 2015;​126:​486-93. 2.	 Warkentin TE, Elavathil LJ, Hayward 
+CPM, Johnston MA, Russett JI, Kelton JG. 
+The pathogenesis of venous limb gangrene 
+associated with heparin-induced throm-
+bocytopenia. Ann Intern Med 1997;​127:​
+804-12. 3.	 Molos MA, Hall JC. Symmetrical pe-
+ripheral gangrene and disseminated in-
+travascular coagulation. Arch Dermatol 
+1985;​121:​1057-61. 4.	 Ghosh SK, Bandyopadhyay D, Ghosh 
+A. Symmetrical peripheral gangrene: a 
+prospective study of 14 consecutive cases 
+in a tertiary-care hospital in eastern In-
+dia. J Eur Acad Dermatol Venereol 2010;​
+24:​214-8. 5.	 Barraud S. Über Extremitätengangrän 
+im jugendlichen Alter nach Infektionsk-
+rankheiten. Dtsch Z Chir 1904;​74:​237-97. 6.	 Levi M, Ten Cate H. Disseminated in-
+travascular coagulation. N Engl J Med 
+1999;​341:​586-92. 7.	 Gando S. Microvascular thrombosis 
+and multiple organ dysfunction syndrome. 
+Crit Care Med 2010;​38:​Suppl:​S35-S42. 8.	 Levi M, Van Der Poll T. Thrombomod-
+ulin in sepsis. Minerva Anestesiol 2013;​
+79:​294-8. 9.	 Warkentin TE, Hayward CPM, Bosh-
+kov LK, et al. Sera from patients with 
+heparin-induced thrombocytopenia gen-
+erate platelet-derived microparticles with 
+procoagulant activity: an explanation for 
+the thrombotic complications of heparin-
+induced thrombocytopenia. Blood 1994;​
+84:​3691-9. 10.	 Geddings JE, Mackman N. Tumor-
+derived tissue factor-positive microparti-
+cles and venous thrombosis in cancer pa-
+tients. Blood 2013;​122:​1873-80. 11.	 Esmon CT. The protein C pathway. 
+Chest 2003;​124:​Suppl:​26S-32S. 12.	Haimovici H. The ischemic forms of 
+venous thrombosis. 1. Phlegmasia cerulea 
+dolens. 2. Venous gangrene. J Cardiovasc 
+Surg (Torino) 1965;​5:​Suppl:​164-73. 13.	 Perkins JMT, Magee TR, Galland RB. 
+Phlegmasia caerulea dolens and venous 
+gangrene. Br J Surg 1996;​83:​19-23. 14.	 Warkentin TE. Venous limb gangrene 
+during warfarin treatment of cancer-asso-
+ciated deep venous thrombosis. Ann In-
+tern Med 2001;​135:​589-93. 15.	 Srinivasan AF, Rice L, Bartholomew 
+JR, et al. Warfarin-induced skin necrosis 
+and venous limb gangrene in the setting 
+of heparin-induced thrombocytopenia. 
+Arch Intern Med 2004;​164:​66-70. 16.	 Grim Hostetler S, Sopkovich J, Dean 
+S, Zirwas M. Warfarin-induced venous 
+limb gangrene. J Clin Aesthet Dermatol 
+2012;​5:​38-42. 17.	 Padjas A, Brzezinska-Kolarz B, Undas 
+A, Musial J. Phlegmasia cerulea dolens as 
+a complication of deep vein thrombosis in 
+a man with primary antiphospholipid 
+syndrome. Blood Coagul Fibrinolysis 
+2005;​16:​567-9. 18.	Bell WR, Starksen NF, Tong S, Porter-
+field JK. Trousseau’s syndrome: devastat-
+ing coagulopathy in the absence of hepa-
+rin. Am J Med 1985;​79:​423-30. 19.	 Warkentin TE, Kelton JG. Temporal 
+aspects of heparin-induced thrombocyto-
+penia. N Engl J Med 2001;​344:​1286-92. 20.	Warkentin TE. Agents for the treat-
+ment of heparin-induced thrombocytope-
+nia. Hematol Oncol Clin North Am 2010;​
+24:​755-75. 21.	Warkentin TE, Greinacher A, Koster 
+A, Lincoff AM. Treatment and prevention 
+of heparin-induced thrombocytopenia: 
+American College of Chest Physicians ev-
+idence-based clinical practice guidelines 
+(8th edition). Chest 2008;​133:​6 Suppl:​
+340S-380S. 22.	Warkentin 
+TE. 
+Heparin-induced 
+thrombocytopenia in critically ill pa-
+tients. Semin Thromb Hemost 2015;​41:​
+49-60. 23.	Vadivel K, Schmidt AE, Marder VJ, 
+Krishnaswamy S, Bajaj SP. Structure and 
+function of vitamin K-dependent coagu-
+lant and anticoagulant proteins. In:​ 
+Marder VJ, Aird WC, Bennett JS, Schul-
+man S, White GC, eds. Hemostasis and 
+thrombosis: basic principles and clinical 
+practice. 6th ed. Philadelphia:​ Lippincott 
+Williams & Wilkins, 2013:​208-32. 24.	Cole MS, Minifee PK, Wolma FJ. Cou-
+marin necrosis — a review of the litera-
+ture. Surgery 1988;​103:​271-7. 25.	Warkentin TE. Coumarin-induced 
+skin necrosis and venous limb gangrene. 
+In:​ Marder VJ, Aird WC, Bennett JS, Schul-
+man S, White GC, eds. Hemostasis and 
+thrombosis: basic principles and clinical 
+practice. 6th ed. Philadelphia:​ Lippincott 
+Williams & Wilkins, 2013:​1308-17. 26.	Linkins LA, Dans AL, Moores LK, et 
+al. Treatment and prevention of heparin-
+induced thrombocytopenia: antithrom-
+botic therapy and prevention of thrombo-
+sis, 9th ed: American College of Chest 
+Physicians evidence-based clinical prac-
+tice guidelines. Chest 2012;​141:​Suppl 2:​
+e495S-e530S. 27.	 Lee AY, Levine MN, Baker RI, et al. 
+Low-molecular-weight heparin versus a 
+coumarin for the prevention of recurrent 
+venous thromboembolism in patients 
+with cancer. N Engl J Med 2003;​349:​146-
+53. 28.	Rice L. A clinician’s perspective on 
+heparin-induced thrombocytopenia: par-
+adoxes, myths, and continuing challeng-
+es. In:​ Warkentin TE, Greinacher A, eds. 
+Heparin-induced thrombocytopenia. 5th 
+ed. Boca Raton, FL:​ CRC Press, 2013:​608-
+17. 29.	 Weaver FA, Meacham PW, Adkins RB, 
+Dean RH. Phlegmasia cerulea dolens: 
+therapeutic considerations. South Med J 
+1988;​81:​306-12. 30.	Warkentin TE. Anticoagulant failure 
+in coagulopathic patients: PTT confound-
+ing and other pitfalls. Expert Opin Drug 
+Saf 2014;​13:​25-43. 31.	 Greinacher A. Heparin-induced throm-
+bocytopenia. N Engl J Med 2015;​373:​252-
+61. 32.	Smythe MA, Warkentin TE, Stephens 
+JL, Zakalik D, Mattson JC. Venous limb 
+gangrene during overlapping therapy 
+with warfarin and a direct thrombin in-
+hibitor for immune heparin-induced 
+thrombocytopenia. Am J Hematol 2002;​
+71:​50-2. 33.	 Qvarfordt P, Eklöf B, Ohlin P. Intra-
+muscular pressure in the lower leg in 
+deep vein thrombosis and phlegmasia ce-
+rulae dolens. Ann Surg 1983;​197:​450-3. 34.	Meissner MH. Rationale and indica-
+tions for aggressive early thrombus re-
+moval. Phlebology 2012;​27:​Suppl 1:​78-84. 35.	 Erdoes LS, Ezell JB, Myers SI, Hogan 
+MB, LeSar CJ, Sprouse LR II. Pharmaco­
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 373;7  nejm.org  August 13, 2015
+ischemic limb gangrene with pulses
+mechanical thrombolysis for phlegmasia 
+cerulea dolens. Am Surg 2011;​77:​1606-12. 36.	Knight TT Jr, Gordon SV, Canady J, 
+Rush DS, Browder W. Symmetrical pe-
+ripheral gangrene: a new presentation of 
+an old disease. Am Surg 2000;​66:​196-9. 37.	 Reinstein L, Govindan S. Extremity 
+amputation: disseminated intravascular 
+coagulation syndrome. Arch Phys Med 
+Rehabil 1980;​61:​97-102. 38.	Warner PM, Kagan RJ, Yakuboff KP, 
+et al. Current management of purpura 
+fulminans: a multicenter study. J Burn 
+Care Rehabil 2003;​24:​119-26. 39.	 Robboy SJ, Mihm MC, Colman RW, 
+Minna JD. The skin in disseminated intra-
+vascular coagulation: prospective analysis 
+of thirty-six cases. Br J Dermatol 1973;​88:​
+221-9. 40.	Hamdy RC, Babyn PS, Krajbich JI. Use 
+of bone scan in management of patients 
+with peripheral gangrene due to fulmi-
+nant meningococcemia. J Pediatr Orthop 
+1993;​13:​447-51. 41.	 Watanabe T, Imamura T, Nakagaki K, 
+Tanaka K. Disseminated intravascular co-
+agulation in autopsy cases: its incidence 
+and 
+clinicopathologic 
+significance. 
+Pathol Res Pract 1979;​165:​311-22. 42.	Shimamura K, Oka K, Nakazawa M, 
+Kojima M. Distribution patterns of micro-
+thrombi in disseminated intravascular 
+coagulation. Arch Pathol Lab Med 1983;​
+107:​543-7. 43.	 Fox B. Disseminated intravascular co-
+agulation and the Waterhouse-Friderich-
+sen syndrome. Arch Dis Child 1971;​46:​
+680-5. 44.	Betrosian AP, Berlet T, Agarwal B. 
+Purpura fulminans in sepsis. Am J Med 
+Sci 2006;​332:​339-45. 45.	 Childers BJ, Cobanov B. Acute infec-
+tious purpura fulminans: a 15-year retro-
+spective review of 28 consecutive cases. 
+Am Surg 2003;​69:​86-90. 46.	Kirkland KB, Marcom PK, Sexton DJ, 
+Dumler JS, Walker DH. Rocky Mountain 
+spotted fever complicated by gangrene: 
+report of six cases and review. Clin Infect 
+Dis 1993;​16:​629-34. 47.	 Kato Y, Ohnishi K, Sawada Y, Suenaga 
+M. Purpura fulminans: an unusual mani-
+festation of severe falciparum malaria. 
+Trans R Soc Trop Med Hyg 2007;​101:​1045-
+7. 48.	Chen CF, Wang JL, Wei YF. Symmetri-
+cal peripheral gangrene, an uncommon 
+complication of tuberculosis. QJM 2012;​
+105:​279-80. 49.	 Wynne JM, Williams GL, Ellman BA. 
+Gangrene of the extremities in measles. S 
+Afr Med J 1977;​52:​117-21. 50.	Christiansen CB, Berg RM, Plovsing 
+RR, Møller K. Two cases of infectious 
+purpura fulminans and septic shock 
+caused by Capnocytophaga canimorsus trans-
+mitted from dogs. Scand J Infect Dis 
+2012;​44:​635-9. 51.	 Brandtzaeg P, Sandset PM, Joø GB, 
+Ovstebø R, Abildgaard U, Kierulf P. The 
+quantitative association of plasma endo-
+toxin, antithrombin, protein C, extrinsic 
+pathway inhibitor and fibrinopeptide A in 
+systemic meningococcal disease. Thromb 
+Res 1989;​55:​459-70. 52.	Hellum M, Øvstebø R, Brusletto BS, 
+Berg JP, Brandtzaeg P, Henriksson CE. 
+Microparticle-associated tissue factor ac-
+tivity correlates with plasma levels of bac-
+terial lipopolysaccharides in meningococ-
+cal septic shock. Thromb Res 2014;​133:​
+507-14. 53.	 Fijnvandraat K, Derkx B, Peters M, et 
+al. Coagulation activation and tissue ne-
+crosis in meningococcal septic shock: se-
+verely reduced protein C levels predict a 
+high mortality. Thromb Haemost 1995;​
+73:​15-20. 54.	Kondaveeti S, Hibberd ML, Booy R, 
+Nadel S, Levin M. Effect of the Factor V 
+Leiden mutation on the severity of menin-
+gococcal disease. Pediatr Infect Dis J 
+1999;​18:​893-6. 55.	 Siegal DM, Cook RJ, Warkentin TE. 
+Acute hepatic necrosis and ischemic limb 
+necrosis. N Engl J Med 2012;​367:​879-81. 56.	Colak T, Erdogan O, Yerebakan O, 
+Arici C, Gurkan A. Symmetrical periph-
+eral gangrene and dopamine. Ulus Trav-
+ma Acil Cerrahi Derg 2003;​9:​222-4. 57.	 Hayes MA, Yau EHS, Hinds CJ, Wat-
+son JD. Symmetrical peripheral gangrene: 
+association with noradrenaline adminis-
+tration. Intensive Care Med 1992;​18:​433-
+6. 58.	Kalajian AH, Turpen KB, Donovan 
+KO, Malone JC, Callen JP. Phenylephrine-
+induced microvascular occlusion syn-
+drome in a patient with a heterozygous 
+factor V Leiden mutation. Arch Dermatol 
+2007;​143:​1314-7. 59.	 Sharma BD, Kabra SR, Gupta B. Sym-
+metrical peripheral gangrene. Trop Doct 
+2004;​34:​2-4. 60.	Hotchkiss R, Marks T. Management 
+of acute and chronic vascular conditions 
+of the hand. Curr Rev Musculoskelet Med 
+2014;​747-52. 61.	Wollina U, Hansel G, Gruner M, 
+Schönlebe J, Heinig B, Köstler E. Painful 
+ANA-positive scleroderma-like disease 
+with acral ulcerations: a case of chronic 
+gangrenous ergotism. Int J Low Extrem 
+Wounds 2007;​6:​148-52. 62.	Hammadah M, Chaturvedi S, Jue J, et 
+al. Acral gangrene as a presentation of 
+non-uremic calciphylaxis. Avicenna J Med 
+2013;​3:​109-11. 63.	Chang JC, Ikhlaque N. Peripheral dig-
+it ischemic syndrome can be a manifesta-
+tion of postoperative thrombotic throm-
+bocytopenic purpura. Ther Apher Dial 
+2004;​8:​413-8. 64.	Sharif M, Hameed S, Akin I, Natara-
+jan U. HIV diagnosis in a patient present-
+ing with vasculitis. Int J STD AIDS 2015. 65.	Ames PRJ, Walker E, Aw D, Marshall 
+D, de Villiers F, Staber M. Multi-organ 
+failure in adult onset Still’s disease: a sep-
+tic disguise. Clin Rheumatol 2009;​28:​
+Suppl 1:​S3-S6. 66.	Grob JJ, Bonerandi JJ. Thrombotic 
+skin disease as a marker of the anticar-
+diolipin syndrome: livedo vasculitis and 
+distal gangrene associated with abnormal 
+serum antiphospholipid activity. J Am 
+Acad Dermatol 1989;​20:​1063-9. 67.	 Bhoola PH, Shtofmakher G, Bahri A, 
+Patel AA, Barlizo SR, Trepal M. Pedal gan-
+grenous changes in the digits of an ado-
+lescent with ulcerative colitis: a case re-
+port. J Foot Ankle Surg 2014. 68.	Smith OP, White B. Infectious purpu-
+ra fulminans: diagnosis and treatment. 
+Br J Haematol 1999;​104:​202-7. 69.	 Piccin A, O’Marcaigh A, McMahon C, 
+et al. Non-activated plasma-derived PC 
+improves amputation rate of children un-
+dergoing sepsis. Thromb Res 2014;​134:​
+63-7. 70.	 Vincent JL, Ramesh MK, Ernest D, et 
+al. A randomized, double-blind, placebo-
+controlled, phase 2b study to evaluate the 
+safety and efficacy of recombinant hu-
+man soluble thrombomodulin, ART-123, 
+in patients with sepsis and suspected dis-
+seminated intravascular coagulation. Crit 
+Care Med 2013;​41:​2069-79. 71.	 Wada H, Thachil J, Di Nisio M, et al. 
+Guidance for diagnosis and treatment of 
+disseminated intravascular coagulation 
+from harmonization of the recommenda-
+tions from three guidelines. J Thromb 
+Haemost 2013;​11:​761-7. 72.	Zarychanski R, Abou-Setta AM, Kanji 
+S, et al. The efficacy and safety of heparin 
+in patients with sepsis: a systematic re-
+view and metaanalysis. Crit Care Med 
+2015;​43:​511-8. 73.	Ranieri VM, Thompson BT, Barie PS, 
+et al. Drotrecogin alfa (activated) in adults 
+with septic shock. N Engl J Med 2012;​366:​
+2055-64. 74.	 Warren BL, Eid A, Singer P, et al. Car-
+ing for the critically ill patient: high-dose 
+antithrombin III in severe sepsis: a ran-
+domized controlled trial. JAMA 2001;​286:​
+1869-78. 75.	 Kienast J, Juers M, Wiedermann CJ, et 
+al. Treatment effects of high-dose anti-
+thrombin without concomitant heparin in 
+patients with severe sepsis with or with-
+out disseminated intravascular coagula-
+tion. J Thromb Haemost 2006;​4:​90-7. 76.	 Price VE, Ledingham DL, Krümpel A, 
+Chan AK. Diagnosis and management of 
+neonatal purpura fulminans. Semin Fetal 
+Neonatal Med 2011;​16:​318-22. 77.	 Josephson C, Nuss R, Jacobson L, et 
+al. The varicella-autoantibody syndrome. 
+Pediatr Res 2001;​50:​345-52. Copyright © 2015 Massachusetts Medical Society. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 31, 2026. 
+ Copyright © 2015 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
