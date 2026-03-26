@@ -1,0 +1,1901 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="謝慕揚 MD, PhD, FESC">
+
+<title>NEJM Case Record 教學講義 – Journal Reading — Dr.&nbsp;Drake Hsieh</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-e2d335519fda3bc7c134d94e5e0c7dbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "沒有結果",
+    "search-matching-documents-text": "符合的文件",
+    "search-copy-link-title": "複製搜尋連結",
+    "search-hide-matches-text": "隱藏其他符合的結果",
+    "search-more-match-text": "更多符合結果",
+    "search-more-matches-text": "更多符合結果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "送出",
+    "search-label": "搜尋"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Journal Reading — Dr.&nbsp;Drake Hsieh</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜尋"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="切換導航列" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../handouts/04-valvular-disease/mainz-2024/quarto/zh/index.html"> 
+<span class="menu-text">Mainz 2024</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="切換側邊欄導航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/99-misc/index.html">其他 Misc</a></li><li class="breadcrumb-item"><a href="../../../handouts/99-misc/nejm-case-3-2026/index.html">NEJM Case Record 教學講義</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="切換側邊欄導航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Journal Reading</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">缺血性心臟病 IHD</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/01-ischemic-heart-disease/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">缺血性心臟病 — Ischemic Heart Disease</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心血管中心教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/01-ischemic-heart-disease/acs-book-early-diagnosis-of-ami/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心血管中心教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/01-ischemic-heart-disease/book-ffr-eng/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fractional Flow Reserve (FFR)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/01-ischemic-heart-disease/ffr_實證與血運重建策略/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">index.html</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/01-ischemic-heart-disease/stemi_missed_diagnosis_case_study/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">急診STEMI 漏診案例分析</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">心衰竭 Heart Failure</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/02-heart-failure/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心衰竭 — Heart Failure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">心律不整 Arrhythmia</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心律不整 — Arrhythmia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/antithrombotic-therapy-after-successful-catheter-ablation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">n engl j med 394;4  nejm.org  January 22, 2026</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/circulation-ai-ecg-phenotypic-selectivity-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/ecg-challenge-alternating-rbbb/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECG Challenge: Measure Twice, Cut Once — 交替性右束支傳導阻斷</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/ecg-reading-guide-for-nurses-護理心電圖判讀指南/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心電圖判讀教學</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/ecg_interpretation_myocardial_infarction_a_clinical_guide/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">index.html</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/ecg_reading_guide_護理心電圖判讀指南/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心電圖判讀教學</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/european-heart-journal-beat-parox-af-pfa-vs-rfa-2025-afib-ep/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/lecture-ecg-master-class/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The COMPLETE 12-Lead ECG Masterclass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/nejm-ai-ecg-learning/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">基於自我監督學習的ECG Foundation Transformer 模型</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/nejm-ocean-trial-af-ablation-anticoagulation-2026-ep/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/nejm-physiologic-pacing-heart-failure-2026-ep/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/03-arrhythmia/physiologic-pacing-in-heart-failure/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">n engl j med 394;4  nejm.org  January 22, 2026</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">瓣膜疾病 Valvular</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">瓣膜疾病 — Valvular Disease</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/cath-hemodynamics-aortic-stenosis-as-tavr-hanna/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">主動脈瓣狹窄血流動力學評估</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/eurointervention-m-teer-mitraclip-review/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Transcatheter Edge-to-Edge Repair in</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/european-heart-journal-top-10-vhd-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/lecture-mitral-ptmv/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mitral Stenosis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/lecture-mitral-ptmv-inoue-balloon-tutorial/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inoue Balloon Catheter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/lecture-mitral-teer/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心血管中心教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/nejm-clinical-decisions-tavr-vs-savr-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Clinical Decisions 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/sdm_pda_tavr_vs_savr_主動脈瓣膜狹窄治療決策/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">醫病共享決策</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/tavr-ct-evaluation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心臟血管中心教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/04-valvular-disease/teer-pcronline-top-10-tricuspid-intervention-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PCRonline 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">心臟影像 Imaging</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/05-cardiac-imaging/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心臟影像 — Cardiac Imaging</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-心臟磁振造影判讀/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心臟磁振造影教學</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/05-cardiac-imaging/cardiac_mri_lge_patterns_心臟磁振造影判讀/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心臟磁振造影教學</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/05-cardiac-imaging/exam-cv-calculations-echo-cath/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心血管中心考題</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/05-cardiac-imaging/exam-echo-as/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心血管中心教育訓練</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/05-cardiac-imaging/lecture-echo-book-0-focus-eng/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cardiovascular Center Teaching Document</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">介入心臟學 Interventional</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">介入心臟學 — Interventional Cardiology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/book-61-cag-a-set-up/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">冠狀動脈造影操作</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/book-62-cag-b-interpretation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">冠狀動脈造影解讀</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/cath-pci-aorto-ostial-lesoins/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">主動脈開口部位血管攝影與支架置放</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/cath-pci-wiring/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PCI 導絲穿越技術</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/catheterization-risks-and-complications/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">index.html</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/eurointervention-dcb-bifurcation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">藥物塗層球囊用於冠狀動脈分叉病變</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/gmail---persistent-sciatic-artery-rt-side/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Drake Hsieh <drake1128@gmail.com></drake1128@gmail.com></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/guidewire_science_art_and_clinical_wisdom/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">index.html</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/jacc-cvi-2025-coronary-revascularization-icmp/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">缺血性左心室功能障礙之血管重建策略</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/jacc-ny-cardiac-registries/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">紐約州心臟登錄系統：歷史、貢獻與未來啟示</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/jic-mother-child-catheter-lm-dissection-2018/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">J Invasive Cardiol 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/lecture-cath-cardiac-arrest-in-cath-room/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">導管室心跳停止處理指引</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/manual-pci-case202/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Manual of PCI — Case 202: Thrombus Troubles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/oct-abbott-ultreon-20-software-操作手冊/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Abbott CONFIDENTIAL</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/people-in-cv-patrick-serruys/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation. 2016;134:97–100. DOI: 10.1161/CIRCULATIONAHA.116.023681</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/06-interventional-cardiology/persistent-sciatic-artery-paod/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">周邊血管介入教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">周邊血管 Peripheral Vascular</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">周邊血管 — Peripheral Vascular</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/advanced-materials-carotid-artery-chip-3d-printing-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Advanced Materials 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/carotid-stenting-review/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">頸動脈支架（CAS）完整文獻回顧</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/exam-echo-abi-and-paod-vascular-duplex/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">血管超音波室實習生考試</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/nejm-ischemic-limb-gangrene-with-pulses-2015/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The new engl and jour nal of medicine</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/nejm-pad-review-mcdermott-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Clinical Practice 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/nhmrc-carotid-web-rbc-thrombosis-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research Grant 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/07-peripheral-vascular/paod-nejm-review-mcdermott-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Clinical Practice 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">遺傳醫學 Genetics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/08-genetic-medicine/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">基因醫學 — Genetic Medicine</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+ <span class="menu-text">高血壓 Hypertension</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/09-hypertension/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">高血壓 — Hypertension</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/09-hypertension/cobra-bps-居家血壓用藥調整流程/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">居家血壓管理衛教指引</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+ <span class="menu-text">ICU 一般照護</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ICU 一般照護 — ICU General Care</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/critical-care-2026-icuaw-rehabilitation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Critical Care 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/icm-ai-in-icu/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">加護病房人工智慧部署：</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/icm-broad-spectrum-antibiotics-2024/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/icm-clinical-governance-2024/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/icm-metabolic-acidosis-buffering-2024/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/icm-standards-atrial-fibrillation-echo/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心房顫動之超音波導引治療策略</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/icm-stress-ulcer-prevention-2024/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/lecture-ccu-hematoma/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">緊急病安警示文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/lecture-ccu-pulmonary-edema/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/10-icu-general/lecture-ccu-r-and-np-orientation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">新竹台大分院</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
+ <span class="menu-text">ICU 呼吸系統</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/11-icu-respiratory/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ICU 呼吸系統 — ICU Respiratory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/11-icu-respiratory/icm-diaphragm-ultrasound-2024/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+ <span class="menu-text">ICU 血液動力學</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/12-icu-hemodynamics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ICU 血液動力學 — ICU Hemodynamics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/12-icu-hemodynamics/cardiogenic-shock-school-esc-心因性休克教學講義/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ESC Cardiogenic Shock School 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/12-icu-hemodynamics/ccu-iabp-prague/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">主動脈內氣球幫浦 (IABP)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/12-icu-hemodynamics/icm-2024-cardiac-output-monitoring/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ICM 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/12-icu-hemodynamics/icm-va-ecmo-echo-checklist-2024/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true">
+ <span class="menu-text">ICU 腎臟</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/13-icu-renal/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ICU 腎臟 — ICU Renal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/13-icu-renal/icm-aki-rrt-timing-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+ <span class="menu-text">肺栓塞 PE</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/20-pulmonary-embolism/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">肺栓塞 — Pulmonary Embolism</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/20-pulmonary-embolism/circulation-storm-pe-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/20-pulmonary-embolism/lecture-acute-pe-cdt/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心血管中心教學文件</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
+ <span class="menu-text">肺高壓 PH</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/21-pulmonary-hypertension/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">肺高壓 — Pulmonary Hypertension</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/21-pulmonary-hypertension/checklist-pulmonary-hypertension/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">肺動脈高壓診斷查核表</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/21-pulmonary-hypertension/chest-2026-ild-ph/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CHEST 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true">
+ <span class="menu-text">COPD &amp; 氣喘</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/22-copd-asthma/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">COPD 與氣喘 — COPD &amp; Asthma</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/22-copd-asthma/ajrccm-airflow-3-copd-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AJRCCM 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
+ <span class="menu-text">AI &amp; 科技</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AI 科技 — AI &amp; Technology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Anthropic Case Study 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/claude_code_tutorial/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Claude Code Tutorial</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/claude_code_tutorial_zh/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Claude Code 完整教學手冊</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/major-ai-conference-flooded-with-peer-reviews-written-fully-/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 November 2025</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/nature-2025-ai-peer-review/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">人工智慧氾濫學術同行評審系統</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/nejm-ai-chatgpt-grading-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM AI 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/90-ai-technology/nejm_ai_medagentbench_2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM AI 教學講義</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true">
+ <span class="menu-text">Podcast 期刊回顧</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Podcast 期刊回顧 — Journal Podcast Reviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-02/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation on the Run: December 2025</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-16/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation on the Run Podcast 精華整理</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-23/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation on the Run Podcast 文獻整理</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/circulation-2026-01-06/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation on the Run Podcast</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/circulation-2026-01-13/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation on the Run 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-11/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Circulation on the Run 2025-11-11 期刊導讀</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-25/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心房顫動風險評分與中風預防</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/ehj-star-study-psgb-electrical-storm-2024/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2025-11-21/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2025-12-14/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Focus on the Many Facets of Atrial Fibrillation:</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2025-12-23/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal Issue @ A Glance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2026-01-07/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal Issue @ a Glance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2026-01-14/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2026-01-21/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-hnmt-heart-failure-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-top-10-vhd-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European Heart Journal 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eurointervention-2025-12-01-calcified-nodules/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">經皮冠狀動脈介入術中鈣化結節的識別與治療</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eurointervention-2025-12-23/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EuroIntervention Snapshot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eurointervention-2026-01-05/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EuroIntervention 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/eurointervention-intravascular-imaging-2024-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EuroIntervention 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/jacc-2025-11-25/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JACC This Week</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/jacc-2025-12-02/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Global, Regional, and National Burden of</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/jacc-2025-12-02-podcast/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Audio file</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/91-podcast-journal-review/jacc-2025-12-22/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JACC Behind the Science Podcast</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
+ <span class="menu-text">其他 Misc</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="切換區段">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">其他 — Miscellaneous</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/acls-team-work/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心臟科急救訓練教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Diagnosing Pulmonary Tumor Thrombotic</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/book-cardiovascular-care-for-neurologists/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">神經重症病人的心血管照護</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/chest-implementation-science-practice-variability-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CHEST 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/communication_生死告別_真實溝通/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">index.html</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/dan-koe-how-to-fix-your-life-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dan Koe 個人成長講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/dan-koe-how-to-fix-your-life-2026-通用版/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">人生重啟指南</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/dietary-natural-approaches-stroke-prevention-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">腦中風預防教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/eurointervention-calcified-nodules-ali/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">State-of-the-Art</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/eurointervention-emb-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EuroIntervention Expert Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/jacc-behind-the-science-2026-01-06/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JACC Behind the Science Podcast</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/jacc-equal-trial-smartwatch-af-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JACC 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/jacc-medicare-covid-19-cardiovascular-outcomes-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JACC 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/journal-pa-pressure-monitor-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cordella Pulmonary Artery Sensor System</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/lecture-lab-troponin/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">心血管中心教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/medical_journals/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">重症醫學與心臟科期刊列表</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nature-covid-19-rbc-microangiopathy-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nature 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nature-news-east-fusion-2026-科普講義/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nature News 科普講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-1-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-15-2025-id/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-18-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-2-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-24-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-25-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-27-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-3-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-3-2026/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-30-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-31-cps-2025-id/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-32-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-34-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-35-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-36-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-36-cps-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-4-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-5-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-6-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-7-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-case-8-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM Case Record 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-crest-2-2026/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEJM 教學講義</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejm-rifampin-tb-meningitis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">結核性腦膜炎高劑量口服Rifampin 治療試驗</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/nejmcps2508044/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">n engl j med 394;10  nejm.org  March 5, 2026</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/people-in-cv-peter-sleight/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Professor Peter Sleight (1929–2020):</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/pisces_fish_oil_hemodialysis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fish-Oil Supplementation and Cardiovascular</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/reading-teaching-nejm-bedside-encounter/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Strategies to Reinvigorate the Bedside</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/reading-teaching-nejm-critical-pedagogy-and/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/reading-teaching-nejm-diagnostic-equity-2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教學部教學文件</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/reading-teaching-nejm-educational-strategies-to-prepare-trai/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">臨床不確定性的教學策略</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/reading-teaching-nejm-ethics-the-consultant/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Consultant: 醫師為親友提供醫療諮詢的倫理議題</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/rybrevant_vte_prevention/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rybrevant (Amivantamab) 治療期間</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/simpsons_paradox/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">辛普森悖論(Simpson’s Paradox)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/醫法倫/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">醫學倫理法律討論會</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../handouts/99-misc/醫法倫_討論_謝慕揚/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">醫學倫理法律討論會</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/99-misc/index.html">其他 Misc</a></li><li class="breadcrumb-item"><a href="../../../handouts/99-misc/nejm-case-3-2026/index.html">NEJM Case Record 教學講義</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">NEJM Case Record 教學講義</h1>
+<p class="subtitle lead">NEJM Case 3-2026</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">作者</div>
+    <div class="quarto-title-meta-contents">
+             <p>謝慕揚 MD, PhD, FESC </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">發佈於</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026年3月26日</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Lyme Neuroborreliosis Case 3-2026: A 58-Year-Old Woman with Diplopia and Fever 病例3-2026：一位58 歲女性，主訴複視與發燒 N Engl J Med 2026;394:383-91 DOI: 10.1056/NEJMcpc2412529 January 22, 2026 1 病例概述 1.1 臨床表現 一位58 歲女性因diplopia(複視) 及fever(發燒) 至Massachusetts General Hospital 就診。病 人於三週前曾接受腰椎手術。 1.2 病史時序 時間點 重要事件與發現 3 週前 腰椎手術 - 於另一醫院接受 lumbar hemilaminectomy, facetectomy, foraminotomy - 左側herniated disk excision 及nerve root decompression - 術前3 天有chills 及body aches(關鍵線索！) 術後第1 天 背痛加劇 - Back pain substantially increased - 開立oxycodone 術後第3 天 新症狀出現 - 持續背痛 - 左腿疼痛伴活動受限 - 開立prednisone(類固醇可能加重感染) 術後第4 天 再次入院(另一醫院) - MRI: 術後變化及16 mm epidural fluid collection at L5 level - 左腿X 光及超音波正常, 無DVT - 給予IV dexamethasone 及多種止痛藥物 7 天前 皮疹出現 - 腿部疼痛持續 - 新發erythematous rash: 腿、胸、臀、背、臉頰 - 病人描述為「蕁麻疹→腫塊」 - 在家測量體溫39.1°C - 停用所有藥物(除gabapentin), 開始diphenhydramine 及ibupro- fen 1 天前 基層醫師評估 - 處方oral doxycycline(推測為皮膚感染)</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 時間點 重要事件與發現 就診當日 急診就診 - Fever 復發 - 右眼瞼腫脹、眼動時疼痛 - Horizontal diplopia(水平複視) 出現 1.3 重要病史 類別 內容 Past Medical His- tory - Lumbar spondylosis and disk protrusion with radiculopathy - Type 2 diabetes mellitus - Hypertension - Hyperlipidemia - Coronary artery disease - Colonic polyps - Obstructive sleep apnea - Asthma - Allergic rhinitis - Eczema - Anxiety - Periodic limb movement disorder Medications - Gabapentin - Aspirin - Rosuvastatin - Losartan - Hydrochlorothiazide - Sertraline - Clonazepam PRN Allergies - Amoxicillin →lip swelling - Lisinopril →cough Vaccinations SARS-CoV-2 vaccinated Social History - 從事教育工作 - 居住於Massachusetts 東部沿海郊區 - 經常在林區遛狗(tick exposure!) - 近期曾赴歐洲旅行 - 偶爾飲酒, 不吸菸 Family History - 父親、母親、兄弟: hyperlipidemia, coronary artery disease - 父親: diabetes, diverticulosis - 外祖母: breast cancer 1.4 理學檢查</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 項目 發現 Vital Signs - Temperature: 36.1°C - Heart rate: 80 bpm - Blood pressure: 125/80 mmHg - SpO2: 97% on room air - BMI: 34.4 Ophthalmologic Exam 關鍵發現: - Right esotropia(右眼內斜視),abduction 時惡化 - Slight ptosis(輕微眼瞼下垂) - Right pupil slightly smaller than left(瞳孔不等大) - No conjunctival erythema - No scleral icterus Neurologic Exam - Cranial nerve abnormalities as above - Other cranial nerve function: Normal - Strength, sensation, reflexes, coordination: Normal - Chronic numbness in left foot toes(術前既有) Surgical Site - Well-approximated incision - Clean, no drainage or fluctuance Skin - Confluent erythematous macules(約5 cm) - Location: Right lower leg, buttocks - No palpable purpura Other - No palpable lymphadenopathy - Remainder of exam normal 1.5 實驗室檢查 關鍵實驗室發現 • Hemoglobin: 10.6 g/dL (↓, ref: 12.0-16.0) • Hematocrit: 31.8% (↓, ref: 36.0-46.0) • White-cell count: 6,530/￿L (normal) • Platelet count: 200,000/￿L (normal) • ESR: 95 mm/hr (↑↑, ref: 0-30) • CRP: 117.8 mg/L (↑↑, ref: 0.0-8.0) • Electrolytes, glucose, renal function: Normal • LFTs (AST, ALT, ALP): Normal • Creatine kinase: Normal</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis Test 檢驗項目 Result 結果 Reference 參考值 Clinical Significance 臨床意義 Hemoglobin 10.6 g/dL 12.0-16.0 Mild anemia 輕度貧血 Hematocrit 31.8% 36.0-46.0 Correlates with anemia 與貧血一致 ESR 95 mm/hr 0-30 Marked elevation 顯著升高, 提示感染/發炎 CRP 117.8 mg/L 0.0-8.0 Marked elevation 急性發炎反應 SARS-CoV-2 Negative — 排除COVID-19 Influenza A/B Negative — 排除流感 HIV 1/2 Negative — 排除HIV 感染 Hepatitis C Ab Negative — 排除C 型肝炎 Urinalysis Normal — 排除UTI 重點提醒 發炎指標的意義 此病人ESR 及CRP 顯著升高(ESR 95, CRP 117.8), 但WBC 正常。這種pattern 在下 列情況常見: • 細菌感染(特別是深部感染或螺旋體感染) • 自體免疫疾病 • 惡性腫瘤 重要: Lyme disease 典型表現為ESR/CRP 升高但WBC 正常或輕度升高。 2 影像學發現 2.1 Chest Radiograph • Normal 2.2 CT Angiography of Head and Neck • No intracranial vascular abnormality 2.3 MRI of the Head (with contrast) 關鍵影像發現 • No infarct or mass • Enhancement along cranial nerves III, V, VI, and VII on the RIGHT side</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 這是單側多發性cranial nerve enhancement, 是本病例診斷的關鍵發現！ 3 鑑別診斷 3.1 臨床推理架構 重點提醒 Dr.&nbsp;Sheila L. Arvikar 的診斷思路 面對這位58 歲女性, 診斷推理聚焦於: 1. Fever + Rash + Elevated inflammatory markers —非特異性 2. Multiple cranial nerve enhancement on MRI —關鍵線索！ 3. Recent spinal surgery + Glucocorticoid use —可能加重感染 4. Geographic exposure —Massachusetts 東部,Lyme disease 高流行區 3.2 Cranial Nerve Enhancement 的鑑別診斷 Differential Di- agnosis 鑑別診斷 Supporting Evi- dence 支持證據 Against 不支持證據 Suggested Workup 建議檢查 自體免疫/發炎性疾病(Autoimmune/Inflammatory) Sarcoidosis 類肉瘤病 - 可影響CNS(5-10%) - 可致cranial neu- ropathy(37%) - Chest X-ray 正常 - 無 leptomeningeal enhancement - Cranial nerve II, VII, VIII 較常見 Chest CT ACE level Biopsy ANCA- associated vas- culitis ANCA 相關血管炎 - 可影響 cranial nerves - 特別是CN II, VI, VII - 無腎功能異常 - Urinalysis 正常 - 無鼻竇症狀 - 無pachymeningitis ANCA Urinalysis Sinus CT IgG4-related dis- ease IgG4 相關疾病 - 可影響多器官 - 可致pachymeningi- tis - 有fever(排除條件!) - 無 meningeal en- hancement - 無orbital abnormal- ities IgG4 level Biopsy Behçet’s disease 貝塞特氏症 - 可致cranial nerve palsies - 無oral/genital ulcers Clinical criteria 續下頁…</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis Differential Di- agnosis 鑑別診斷 Supporting Evi- dence 支持證據 Against 不支持證據 Suggested Workup 建議檢查 SLE 全身性紅斑狼瘡 - 罕見可致CN III palsy - 無慢性cytopenia - 無 photosensitive rash - 無 inflammatory joint pain ANA, anti-dsDNA Complement levels Sjögren’s syn- drome 乾燥症 - 可致trigeminal neu- ropathy - 無sicca symptoms SSA/SSB antibod- ies 神經系統疾病(Primary Neurologic) Multiple sclero- sis 多發性硬化症 - 可影響 cranial nerves - 無brainstem lesions - 無prominent white matter lesions CSF OCB VEP Miller Fisher syndrome Miller Fisher 症候 群 - GBS variant - 可影響多條cranial nerves - 無weakness - 無ataxia - 無areflexia Anti-GQ1b Ab NCS/EMG 惡性腫瘤(Cancer) Neurolymphomatosis 神經淋巴瘤病 - 可致multiple CN en- hancement - 通常為bilateral - 無 leptomeningeal enhancement - 無parenchymal le- sions CSF cytology PET scan Perineural spread of tu- mor - 可沿cranial nerves 擴散 - 無原發腫瘤證據 PET scan Biopsy 感染(Infection) HSV infection 單純疱疹病毒 - 手術壓力可導致vi- ral reactivation - 可致sacral radiculi- tis - Rash 非vesicular - 無encephalitis 證據 HSV PCR VZV infection 帶狀疱疹病毒 - 與Bell’s palsy, Ram- say Hunt syndrome 相 關 - Rash 非dermatomal - 非vesicular VZV PCR Neurosyphilis 神經梅毒 - 可影響multiple cra- nial nerves - 通常伴meningitis RPR/VDRL FTA-ABS Tuberculosis 結核病 - 可致cranial neu- ropathy - 無TB risk factors - 無clinical meningitis QuantiFERON CSF AFB 續下頁…</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis Differential Di- agnosis 鑑別診斷 Supporting Evi- dence 支持證據 Against 不支持證據 Suggested Workup 建議檢查 Lyme disease 萊姆病 - Massachusetts 東部 (高流行區) - 經常在林區遛狗 - Multiple erythema migrans - Fever, radicular pain - Cranial neuropa- thy(43%) - 七月就診 (peak season) - 未recall tick bite - 無initial EM rash(但 20% 可無) Lyme serology CSF antibody in- dex Borrelia miyamotoi 宮本氏疏螺旋體 - 可致fever 及cranial nerve abnormalities - 美國病例通常無 rash PCR Dr.&nbsp;Arvikar 的診斷推論 多重因素強烈提示Lyme neuroborreliosis: 1. Geographic exposure: Massachusetts 東部沿海郊區,Lyme disease 高流行區 2. Tick exposure: 經常在林區遛狗 3. Multiple erythema migrans: 描述為多發性紅斑(legs, chest, buttocks, back, cheeks) 4. Clinical triad: Fever + Radiculitis + Cranial neuropathy →Bannwarth’s syndrome 5. Timing: 七月就診(Lyme disease 神經症狀的peak month) 6. Premonitory symptoms: 術前3 天的chills 及body aches 可能是early Lyme disease 最佳診斷檢查: Serologic testing for antibodies against Borrelia burgdorferi 4 醫學英文寫作解析</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis Original Sentence 原文例句 Grammar Structure 文法結構 Chinese Translation 中文翻譯 Writing Technique 寫作技巧 “Owing to the back pain, which did not abate after oxycodone treatment, prednisone was prescribed.” Owing to + noun clause (因果關係) 由於背痛在 oxycodone 治療後未 緩解, 因此處方了 prednisone。 使用“owing to” 表因果 比“because of” 更正式 “The radiographic finding of enhancement along multiple cranial nerves is a key feature around which a differential diagnosis can be constructed.” Around which… (介系詞+ 關代) 多條顱神經增強的影 像發現是可據以建構 鑑別診斷的關鍵特徵。 學術寫作中常用 介系詞置於關代 前 “The absence of concurrent leptomeningeal enhancement decreases the likelihood of neurosarcoidosis.” The absence of A decreases the likelihood of B 缺乏同時出現的軟腦 膜增強降低了神經類 肉瘤病的可能性。 排除診斷的標準 表達方式 “Multiple aspects of this case suggest Lyme disease.” Multiple aspects suggest… (主詞+suggest) 本病例的多個面向提 示萊姆病。 “suggest” 用於 提出診斷假設 “Although the month of presentation was not included in the case history provided, I inquired specifically and learned that the patient presented in July.” Although…, I inquired and learned that… 雖然提供的病史中未 包含就診月份, 但我 特別詢問後得知病人 是在七月就診。 展現主動收集關 鍵資訊的臨床思 維 “The stress associated with surgery could lead to viral reactivation.” The N associated with N could lead to… 與手術相關的壓力可 能導致病毒再活化。 表達病理機轉的 假設性陳述 5 討論 5.1 Lyme Disease 概述 Lyme Disease 基本知識 病原體: Borrelia burgdorferi(螺旋體) 傳播媒介: Ixodes scapularis(黑腳蜱/鹿蜱) 流行地區: 美國東北部、中西部上區、太平洋沿岸 高峰期: 5-7 月(nymphal tick 活動期) 5.2 Lyme Disease 的臨床分期</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis Stage Timing Clinical Manifestations Stage 1 Localized infec- tion Days to weeks after tick bite - Erythema migrans (EM): 80% 病人出現 - Flulike symptoms: fatigue, myalgia, headache - 20% 病人僅有flulike symptoms(診斷困難) Stage 2 Early dissemi- nated Days to weeks after onset - Multiple EM lesions(dissemination marker) - Neuroborreliosis: lymphocytic meningi- tis, cranial neuritis, radiculopathy - Carditis: AV block - Intermittent joint pain Stage 3 Persistent infec- tion Months later - Lyme arthritis: 大關節(特別是膝關節) - Late neurologic manifestations 5.3 Lyme Neuroborreliosis Lyme Neuroborreliosis 的Classic Triad 1. Lymphocytic meningitis(淋巴球性腦膜炎) 2. Cranial neuropathy(顱神經病變) —最常見CN VII, 其次CN III 3. Painful radiculitis(疼痛性神經根炎) 約15% 的Lyme disease 病人會發生neurologic involvement, 其中43% 有cranial nerve involvement。</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 5.4 Bannwarth’s Syndrome Bannwarth’s Syndrome 一種Lyme neuroborreliosis 的subset, 在歐洲比美國更常見。 Classic Triad: 1. Severe painful radiculopathy(hallmark of the syndrome) 2. CSF lymphocytic pleocytosis 3. Cranial neuritis(可能multiple) 歐洲vs 美國: • 歐洲: 主要由B. garinii 引起,radiculopathy 更prominent • 美國: B. burgdorferi 引起,meningeal involvement with severe headache 更常 見,facial palsy 常見但radiculopathy 較少 此病人的presentation(radiculopathy followed by cranial neuritis) 符合Bannwarth’s syn- drome。 5.5 Glucocorticoids 對Lyme Disease 的影響 重點提醒 重要臨床考量 此病人在術後第3 天開始接受prednisone, 隨後又接受dexamethasone。根據動物研究: • Glucocorticoids 會impair 對螺旋體的免疫反應 • 導致更高的microbial burden • 造成更嚴重的疾病表現 這可能解釋了此病人relatively severe presentation。 6 診斷檢驗 6.1 Lyme Disease 的血清學診斷 Method Description Standard Two- Tiered Testing (STTT) Step 1: EIA 測量IgM 和IgG 對B. burgdorferi 的反應 Step 2: Equivocal 或positive 時, 進行Western blot 確認 注意: Positive IgM alone 僅在感染第一個月內有意義; 之後 應有IgG 反應</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis Modified Two- Tiered Testing (MTTT) 使用兩種不同的EIA(測量不同B. burgdorferi 抗原) 優點: 在early infection 時sensitivity 較高 缺點: 提供的information 較少,complex cases 可能需要 STTT CSF Testing - 需同時收集serum 和CSF - 計算CSF-serum antibody index - 必須校正IgG 的passive transfer across blood-brain barrier 6.2 本病例的診斷結果 Serologic Results 使用Modified two-tiered approach: Result: Positive IgM and IgG responses to B. burgdorferi 這是acute Lyme neuroborreliosis 的典型pattern。 7 Coinfection 的重要性 Tick-borne Coinfection 2-10% 的acute Lyme disease 病例存在coinfection。Ixodes scapularis 蜱叮咬可傳播: • Babesia microti(Babesiosis) • Anaplasma phagocytophilum(Anaplasmosis) • Borrelia miyamotoi • Powassan virus 何時懷疑coinfection? • 持續fever(此病人的關鍵線索!) • Cytopenias • Abnormal liver enzymes • 對治療反應不佳 本病例的Coinfection PCR for Babesia microti: POSITIVE 雖然parasite count 低, 但考量病人曾接受glucocorticoid 治療(動物研究顯示glucocor- ticoids 對babesiosis 具permissive effect), 仍建議治療以促進parasite clearance。</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 8 最終診斷 Lyme Neuroborreliosis with Coinfection of Babesia microti 萊姆神經包柔氏螺旋體病 合併微小乏漿蟲感染 9 治療計畫 9.1 Pharmacological Treatment 藥物治療 Drug (Generic Name) Dose 劑量 Route 途徑 Frequency 頻率 Indication/Mechanism 適應症/機轉 Initial Empiric Treatment (急診) Acyclovir Standard IV — 經驗性治療(排除 HSV/VZV) Empiric for possible viral etiology Doxycycline Standard PO — 經驗性治療tick-borne infection Covers Lyme, Ehrlichia, Anaplasma Definitive Treatment for Lyme Neuroborreliosis Ceftriaxone 2 g IV Once 初始治療(1 dose) First-line for Lyme neuroborreliosis Doxycycline 100 mg PO BID 20 days total IDSA/AAN/ACR guideline 建議14-21 天 可用於meningitis, cranial neuropathy, radiculoneuropathy Treatment for Babesiosis (if needed) Atovaquone 750 mg PO BID 與azithromycin 合用 For mild-moderate babesiosis Azithromycin 500-1000 mg PO QD 與atovaquone 合用 Duration: 7-10 days</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 重點提醒 IDSA/AAN/ACR 2020 Guidelines for Lyme Neuroborreliosis Recommended regimens (14-21 days): • IV Ceftriaxone • IV Penicillin • Oral Doxycycline —研究顯示對European Lyme neuroborreliosis,oral doxycycline non-inferior to IV ceftriaxone 美國的knowledge gaps: • Oral antibiotic therapy 是否always adequate? • 長期後遺症(postinfectious pain, neurocognitive symptoms, fatigue) 的定義與機制 10 預後與衛教 Recovery from Lyme Neuroborreliosis Recovery 期程: • 可能需要prolonged period of time • 神經症狀可能持續一年或更久 • 大多數promptly diagnosed and treated 的病例預後良好, 可恢復至baseline func- tion Patient counseling 重點: • 設定合理期望(recovery may be slow) • 定期追蹤 • 注意可能的posttreatment Lyme disease syndrome</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 11 學習重點(Key Takeaways) 重點提醒 1. Lyme Neuroborreliosis 的臨床表現 • Classic triad: lymphocytic meningitis + cranial neuropathy + painful radiculitis • Cranial nerve VII 最常受影響, 其次CN III • MRI 可見multiple cranial nerve enhancement • 美國東北部在夏季就診的cranial neuropathy, 務必考慮Lyme disease 重點提醒 2. Bannwarth’s Syndrome • Lyme neuroborreliosis 的一種表現 • Triad: severe painful radiculopathy + CSF pleocytosis + cranial neuritis • 歐洲較常見, 但美國也有報告 • Radicular pain 是hallmark of the syndrome 重點提醒 3. 診斷方法 • Standard or modified two-tiered serologic testing • Positive IgM alone 僅在第一個月有意義 • CSF testing 需計算CSF-serum antibody index • Western blot 可提供additional information 重點提醒 4. Coinfection 的重要性 • 2-10% 的Lyme disease 有coinfection • 持續fever 是重要線索 • I. scapularis 可傳播: Babesia, Anaplasma, B. miyamotoi, Powassan virus • 對治療反應不佳時要考慮coinfection</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 重點提醒 5. Glucocorticoids 的影響 • 可impair 對螺旋體及coinfecting agents 的免疫反應 • 導致higher microbial burden 及more severe disease • 可能加重babesiosis(對glucocorticoids 具permissive effect) • 術後腰痛惡化時, 不要輕易使用steroids 而忽略感染可能 12 自我測驗(Self-Assessment Quiz) 12.1 題目(Questions) Question 1. A 45-year-old man from Connecticut presents in July with 2 weeks of severe headache, right facial weakness, and shooting pain down his left leg. MRI shows enhancement of cranial nerves III and VII on the right. What is the most likely diagnosis? 一位45 歲男性, 來自Connecticut, 於七月就診, 主訴2 週的嚴重頭痛、右側顏面無力、左 腿放射性疼痛。MRI 顯示右側第三及第七顱神經增強。最可能的診斷為何? (A) Neurosarcoidosis (B) Bell’s palsy (C) Lyme neuroborreliosis (D) Multiple sclerosis (E) ANCA-associated vasculitis Question 2. Which of the following is the most common cranial nerve involved in Lyme neuroborreliosis? 下列何者是Lyme neuroborreliosis 最常受影響的顱神經? (A) Cranial nerve II (optic) (B) Cranial nerve III (oculomotor) (C) Cranial nerve V (trigeminal) (D) Cranial nerve VII (facial) (E) Cranial nerve VIII (vestibulocochlear) Question 3. A patient with confirmed Lyme disease continues to have fever despite 5 days of doxycycline treatment. What should be the next consideration? 一位confirmed Lyme disease 病人在接受5 天doxycycline 治療後仍持續發燒。下一步應 考慮什麼?</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis (A) Switch to IV ceftriaxone (B) Add metronidazole (C) Evaluate for coinfection (Babesia, Anaplasma) (D) Increase doxycycline dose (E) Add corticosteroids Question 4. Bannwarth’s syndrome is characterized by all of the following EXCEPT: Bannwarth’s syndrome 的特徵包括下列所有, 除了: (A) Painful radiculopathy (B) CSF lymphocytic pleocytosis (C) Cranial neuritis (D) Bilateral lower extremity weakness (E) Association with Lyme disease Question 5. Regarding serologic testing for Lyme disease, which statement is correct? 關於Lyme disease 的血清學檢測, 下列敘述何者正確? (A) A positive IgM alone is suﬀicient for diagnosis at any stage (B) The modified two-tiered approach uses Western blot as the second step (C) Positive IgM alone is only meaningful within the first month of infection (D) CSF antibody testing does not require concurrent serum testing (E) IgG response typically appears before IgM response Question 6. A patient recently diagnosed with Lyme disease reports receiving prednisone for 2 weeks before diagnosis. What is the clinical implication? 一位最近診斷為Lyme disease 的病人報告在診斷前已接受prednisone 治療2 週。其臨床 意義為何? (A) Prednisone has no effect on Lyme disease course (B) Prednisone may have accelerated spirochete clearance (C) Prednisone may have impaired immune response and increased disease severity (D) Prednisone provides benefit for Lyme neuroborreliosis (E) Prednisone should be continued with antibiotics</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis Question 7. Which of the following organisms can be transmitted by the same tick (Ixodes scapularis) that transmits Lyme disease? 下列何種病原體可由傳播Lyme disease 的同一種蜱(Ixodes scapularis) 傳播? (A) Rickettsia rickettsii (B) Babesia microti (C) Coxiella burnetii (D) Francisella tularensis (E) Yersinia pestis Question 8. According to IDSA guidelines, which of the following is an appropriate treat- ment regimen for Lyme neuroborreliosis? 根據IDSA 指引, 下列何者是Lyme neuroborreliosis 的適當治療方案? (A) Oral amoxicillin for 21 days (B) IV vancomycin for 14 days (C) Oral doxycycline for 14-21 days (D) IM penicillin G benzathine weekly for 3 weeks (E) Oral azithromycin for 5 days Question 9. A 55-year-old woman presents with unilateral cranial nerve enhancement on MRI. Which finding would most strongly suggest neurosarcoidosis rather than Lyme neurobor- reliosis? 一位55 歲女性影像顯示單側顱神經增強。下列何種發現最強烈提示neurosarcoidosis 而 非Lyme neuroborreliosis? (A) Presentation in summer months (B) Concurrent leptomeningeal enhancement (C) History of erythema migrans (D) Residence in endemic area (E) Elevated ESR and CRP Question 10. What percentage of patients with Lyme disease have neurologic involvement? Lyme disease 病人中, 有多少比例會發生神經系統侵犯? (A) 5% (B) 15% (C) 30% (D) 50% (E) 75%</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 12.2 答案與解析(Answers and Explanations) Question 1. Answer: (C) Explanation: The combination of geographic location (Connecticut, endemic for Lyme disease), timing (July, peak month for Lyme neuroborreliosis), and clinical triad of headache, cranial neuropathy (facial weakness), and radicular pain is classic for Lyme neuroborreliosis. Multiple cranial nerve enhancement on MRI supports this diagnosis. 解析：地理位置(Connecticut 為Lyme disease 流行區)、就診時間(七月為Lyme neu- roborreliosis 的高峰月份)、以及頭痛、顱神經病變(顏面無力) 和神經根痛的臨床三聯症, 都 是Lyme neuroborreliosis 的經典表現。MRI 上多條顱神經增強支持此診斷。 Question 2. Answer: (D) Explanation: Cranial nerve VII (facial nerve) is the most commonly affected cranial nerve in Lyme neuroborreliosis, followed by cranial nerve III. Facial palsy (often bilateral) is the most common manifestation of Lyme neuroborreliosis in the United States. 解析：第七顱神經(顏面神經) 是Lyme neuroborreliosis 最常受影響的顱神經, 其次是第三 顱神經。顏面神經麻痺(常為雙側) 是美國Lyme neuroborreliosis 最常見的表現。 Question 3. Answer: (C) Explanation: Persistent fever despite appropriate antibiotic treatment for Lyme disease is an important clue for coinfection. Ixodes scapularis ticks can transmit multiple pathogens including Babesia microti and Anaplasma phagocytophilum. The case presented in the article specifically highlights this point. 解析：儘管接受適當抗生素治療但仍持續發燒, 是coinfection 的重要線索。Ixodes scapularis 蜱可傳播多種病原體, 包括Babesia microti 和Anaplasma phagocytophilum。本文中的病例特 別強調了這一點。 Question 4. Answer: (D) Explanation: Bannwarth’s syndrome is characterized by the triad of painful radiculopa- thy (hallmark), CSF lymphocytic pleocytosis, and cranial neuritis. Bilateral lower extremity weakness is NOT a characteristic feature. This syndrome is a subset of Lyme neuroborreliosis, more common in Europe than the United States. 解析：Bannwarth’s syndrome 的特徵為三聯症：疼痛性神經根病變(hallmark)、CSF 淋 巴球增多、顱神經炎。雙側下肢無力並非其特徵。此症候群是Lyme neuroborreliosis 的一種 subset, 在歐洲比美國更常見。 Question 5. Answer: (C) Explanation: A positive IgM response alone should only be used to support the diagnosis of Lyme disease during the first month of infection. After that time, patients usually have an IgG response, which is more specific than an IgM response. CSF testing requires concurrent serum samples to calculate the CSF-serum antibody index. 解析：單獨的IgM 陽性反應僅應在感染後第一個月內用於支持Lyme disease 的診斷。之 後, 病人通常會出現IgG 反應, 其特異性高於IgM 反應。CSF 檢測需要同時收集血清樣本以 計算CSF-serum antibody index。 Question 6. Answer: (C) Explanation: Based on animal studies, glucocorticoids impair immune responses to the spirochete and to coinfecting agents, leading to greater microbial burden and more severe</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis disease. This is specifically mentioned in the case as a potential contributor to the patient’s relatively severe presentation. 解析：根據動物研究,glucocorticoids 會損害對螺旋體和共同感染病原體的免疫反應, 導致 更高的微生物負荷和更嚴重的疾病。本病例特別提到這可能是病人表現相對嚴重的原因之一。 Question 7. Answer: (B) Explanation: Ixodes scapularis can transmit multiple pathogens including Borrelia burgdor- feri (Lyme disease), Babesia microti, Anaplasma phagocytophilum, Borrelia miyamotoi, and Powassan virus. Rickettsia rickettsii (Rocky Mountain spotted fever) is transmitted by differ- ent tick species. 解析：Ixodes scapularis 可傳播多種病原體, 包括Borrelia burgdorferi(Lyme disease)、 Babesia microti、Anaplasma phagocytophilum、Borrelia miyamotoi 和Powassan virus。Rick- ettsia rickettsii(Rocky Mountain spotted fever) 則由不同種類的蜱傳播。 Question 8. Answer: (C) Explanation: According to IDSA/AAN/ACR 2020 guidelines, appropriate treatment reg- imens for Lyme meningitis, cranial neuropathy, or radiculoneuropathy include IV ceftriaxone, IV penicillin, or oral doxycycline for 14-21 days. Studies have shown oral doxycycline is non- inferior to IV ceftriaxone for European Lyme neuroborreliosis. 解析：根據IDSA/AAN/ACR 2020 指引,Lyme meningitis、cranial neuropathy 或radicu- loneuropathy 的適當治療方案包括IV ceftriaxone、IV penicillin 或oral doxycycline, 療程14-21 天。研究顯示oral doxycycline 對歐洲Lyme neuroborreliosis 的療效不劣於IV ceftriaxone。 Question 9. Answer: (B) Explanation: Concurrent leptomeningeal enhancement is more suggestive of neurosar- coidosis. The original article states: “The absence of concurrent leptomeningeal enhancement also decreases the likelihood of neurosarcoidosis.” Lyme neuroborreliosis typically shows cranial nerve enhancement without prominent leptomeningeal involvement. 解析：同時出現的軟腦膜增強更提示neurosarcoidosis。原文指出：「缺乏同時出現的軟腦 膜增強也降低了neurosarcoidosis 的可能性。」Lyme neuroborreliosis 通常顯示顱神經增強但 無明顯軟腦膜侵犯。 Question 10. Answer: (B) Explanation: According to the article, neurologic involvement occurs in approximately 15% of cases of Lyme disease. Of these patients with Lyme neuroborreliosis, approximately 43% have cranial nerve involvement. 解析：根據本文, 約15% 的Lyme disease 病例會發生神經系統侵犯。在這些Lyme neuroborreliosis 病人中, 約43% 有顱神經侵犯。 13 總結 本病例的關鍵學習要點 1. 地理與季節因素的重要性: 美國東北部夏季就診的cranial neuropathy, 務必考慮 Lyme disease</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 2. Multiple cranial nerve enhancement: 是Lyme neuroborreliosis 的characteristic MRI finding 3. Bannwarth’s syndrome: Radicular pain + CSF pleocytosis + Cranial neuritis, 在 美國也可見 4. Glucocorticoids 的負面影響: 可加重Lyme disease 及coinfection 的嚴重度 5. Coinfection consideration: 持續fever 是重要線索,I. scapularis 可傳播多種病原 體 6. Serologic diagnosis: Modified two-tiered testing 較敏感, 但complex cases 可能需 要standard approach 臨床Pearl “Multiple aspects of this case suggest Lyme disease… The patient presented in July, the peak month of onset of neurologic manifestations of Lyme disease.” —Dr.&nbsp;Sheila L. Arvikar 14 附錄: Lyme Disease 快速參考 項目 內容 病原體 Borrelia burgdorferi —Spirochete(螺旋體) 傳播媒介 Ixodes scapularis(東部)、I. pacificus(西部) 流行地區 美國東北部、中西部上區、太平洋沿岸 高峰期 5-7 月(nymphal tick 活動期) Clinical Stages Stage 1 (Localized): Erythema migrans, flulike symptoms Stage 2 (Early disseminated): Multiple EM, neuroborre- liosis, carditis Stage 3 (Persistent): Arthritis, late neurologic manifesta- tions Neuroborreliosis Triad - Lymphocytic meningitis - Cranial neuropathy (CN VII &gt; CN III) - Painful radiculitis Bannwarth’s Syn- drome - Severe painful radiculopathy (hallmark) - CSF lymphocytic pleocytosis - Cranial neuritis - 歐洲較常見, 美國也有報告</p>
+<p>NEJM Case Record 教學講義 Lyme Neuroborreliosis 項目 內容 診斷 - Two-tiered serologic testing (standard or modified) - CSF antibody index (for CNS involvement) - Western blot for complex cases 治療(Neuroborre- liosis) - IV Ceftriaxone, OR - IV Penicillin, OR - Oral Doxycycline 100 mg BID - Duration: 14-21 days Coinfections to Consider - Babesia microti - Anaplasma phagocytophilum - Borrelia miyamotoi - Powassan virus Prognosis - Generally favorable with prompt treatment - Recovery may take prolonged time (up to 1 year) - Most return to baseline function 本講義整理自NEJM Case Records of the Massachusetts General Hospital Case 3-2026, N Engl J Med 2026;394:383-91 編輯: 謝慕揚Mu-Yang Hsieh, MD, PhD, FESC 僅供教學使用, 請勿用於商業用途</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已複製");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已複製");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/drake1128\.github\.io\/journal-reading\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

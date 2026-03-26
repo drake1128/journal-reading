@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>jacc-cvi-2025-coronary-revascularization-icmp-教學講義 – Journal Reading — Dr. Drake Hsieh</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e2d335519fda3bc7c134d94e5e0c7dbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "沒有結果",
+    "search-matching-documents-text": "符合的文件",
+    "search-copy-link-title": "複製搜尋連結",
+    "search-hide-matches-text": "隱藏其他符合的結果",
+    "search-more-match-text": "更多符合結果",
+    "search-more-matches-text": "更多符合結果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "送出",
+    "search-label": "搜尋"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Journal Reading — Dr.&nbsp;Drake Hsieh</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜尋"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="切換導航列" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../handouts/04-valvular-disease/mainz-2024/quarto/zh/index.html"> 
+<span class="menu-text">Mainz 2024</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">本頁目錄</h2>
+   
+  <ul>
+  <li><a href="#缺血性左心室功能障礙之血管重建策略" id="toc-缺血性左心室功能障礙之血管重建策略" class="nav-link active" data-scroll-target="#缺血性左心室功能障礙之血管重建策略"><span class="header-section-number">1</span> 缺血性左心室功能障礙之血管重建策略</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="缺血性左心室功能障礙之血管重建策略" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 缺血性左心室功能障礙之血管重建策略</h1>
+<p><strong>整理：謝慕揚 MD, PhD, FESC</strong> <strong>日期：2026-03-26</strong></p>
+<hr>
+<p>Revascularization in Ischemic Left Ventricular Dysfunction: 病理生理學導向、實證醫學為基礎之綜論 謝慕揚醫師MD, PhD, FESC 資料來源：Ryan M et al.&nbsp;JACC Cardiovasc Interv. 2025;18(24):2977-2994 整理日期：2025 年 核心摘要 背景：缺血性左心室功能障礙（iLVD）是心臟衰竭伴射血分數降低（HFrEF）最常 見的病因，其預後較非缺血性心肌病變更差。冠狀動脈血管重建曾被視為iLVD 患者的常規治療，但近年隨機試驗結果對此治療策略提出質疑。 主要發現：STICH 試驗顯示CABG 在10 年追蹤後可改善存活率，而REVIVED- BCIS2 試驗則顯示PCI 對穩定型iLVD 患者無法改善預後。缺血或活性心肌測試 無法預測血管重建的療效。 臨床意義：應依據患者臨床表現、症狀負擔、共病症及解剖複雜度，個別化評 估血管重建的風險與效益。未來CHIP-BCIS3 及PROTECT IV 試驗將提供高風險 PCI 中機械循環輔助的重要證據。 Contents 流行病學與臨床背景 1.1 疾病負擔. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.2 心血管死亡與年齡的關係. . . . . . . . . . . . . . . . . . . . . . . . . . . . 病理生理學 2.1 心肌功能障礙的三種機制. . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2 因果性冠狀動脈疾病vs 旁觀者疾病. . . . . . . . . . . . . . . . . . . . . . 血管重建之隨機試驗證據 3.1 STICH 試驗. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2 REVIVED-BCIS2 試驗. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3 STICH 與REVIVED-BCIS2 之比較 . . . . . . . . . . . . . . . . . . . . . . 3.4 個體患者數據分析. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 功能性檢查的角色 4.1 活性及缺血檢查的臨床證據 . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+<p>缺血性左心室功能障礙之血管重建策略 共享決策與心臟團隊 5.1 共享決策原則 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2 藥物治療優化 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iLVD 之藥物與裝置治療 6.1 藥物治療. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2 心臟植入式電子裝置 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 血管重建策略選擇 7.1 何時考慮外科血管重建（CABG）優於PCI . . . . . . . . . . . . . . . . . . 7.2 外科風險評估 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iLVD 患者之PCI 規劃與執行 8.1 術前規劃要點 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.2 非技術性因素 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.3 右心導管檢查 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 機械循環輔助（MCS） 9.1 MCS 裝置選擇. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.2 MCS 之隨機試驗. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.3 MCS 策略與植入時機. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 證據缺口與未來方向 10.1 現存爭議. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.2 進行中及計畫中的試驗. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 結論與臨床建議 12 參考文獻</p>
+<p>缺血性左心室功能障礙之血管重建策略 流行病學與臨床背景 1.1 疾病負擔 缺血性心臟病是心臟衰竭伴射血分數降低（HFrEF）最常見的病因。相較於非缺血性心 肌病變，缺血性病因在短期、中期及長期追蹤均呈現較差的預後。 Table 1: iLVD 之流行病學特徵 項目 內容 冠狀動脈疾病盛行率 心臟衰竭患者中約40-60% 具有冠狀動脈疾病 接受冠狀動脈攝影比例 僅10-20% 的心臟衰竭患者接受冠狀動脈攝影檢 查 PCI 患者之LV 功能評估 少於一半的PCI 患者術前有正式LV 功能評估 LV 功能障礙之盛行率 接受PCI 患者中約30% 有輕度以上LV 功能障礙 約10% 有嚴重LVEF 降低 預後影響 嚴重iLVD 患者PCI 後早期死亡風險為正常者的 2-5 倍 1.2 心血管死亡與年齡的關係 心血管死亡的風險會因年齡而有所調整： • 年輕患者：主要死因為心血管相關 • 年長患者：非心血管原因死亡佔較大比例 • 臨床意義：隨著患者年齡增加，透過心血管介入改善全因死亡率的能力相對降低 病理生理學 2.1 心肌功能障礙的三種機制 iLVD 的心肌功能障礙涵蓋三種主要機制，其發展取決於缺血的深度、持續時間及頻 率： Table 2: iLVD 之病理生理學機制 機制 特徵 臨床意義 Stunning （頓抑） 灌流-收縮配對暫時性 解偶聯 缺血及反應性充血後 心肌功能暫時降低 除非再次發生缺血否 則可完全恢復 代表缺血連續性光譜的一端 短暫性、可逆性功能障礙</p>
+<p>缺血性左心室功能障礙之血管重建策略 機制 特徵 臨床意義 Hibernation （冬眠） 灌流-收縮配對持續性 解偶聯 心肌功能在正常灌流 下長期下調 被認為是保護細胞存 活的適應性過程 除非移除缺血基質否則功能持續障礙 恢復可能性取決於組織病理變化程度 及冬眠持續時間 Infarction （梗塞） 缺血驅動的心肌細胞 壞死 從心內膜向心外膜呈 波前進展 心律不整發生及負向重塑的關鍵驅動 因素 大多數iLVD 患者有影像學證據的既 往心肌梗塞 重要觀念 Stunning、hibernation 及infarction 經常在同一患者的心室心肌中共存，這可能是 急性冠狀動脈症候群（ACS）與慢性冠狀動脈症候群（CCS）對血管重建反應不同 的原因。 2.2 因果性冠狀動脈疾病vs 旁觀者疾病 區分iLVD 與「旁觀者」疾病往往具有挑戰性： • 目前困境：無國際共識定義或統一診斷標準 • 機率性方法：冠狀動脈疾病範圍越廣、嚴重度越高，表示缺血性病因的可能性越大 • BCIS-JS 評分：≥6 分（表示至少proximal LAD 或多血管疾病）對LVEF&lt;35% 患者具 有高特異性 • 建議做法：將iLVD 視為從「主要缺血性」到「主要心肌病變性」的連續光譜，而非 傳統的二分法 血管重建之隨機試驗證據 3.1 STICH 試驗 Table 3: STICH 試驗設計與結果 項目 內容 試驗設計 前瞻性、國際多中心、開放標籤隨機對照試驗 研究目的 評估CABG 能否降低接受藥物治療之iLVD 患者的全 因死亡風險 收錄標準 冠狀動脈疾病適合CABG 治療 LVEF &lt;35%</p>
+<p>缺血性左心室功能障礙之血管重建策略 項目 內容 排除標準 嚴重心絞痛（CCS Class 3-4） 左主幹病變 近期心肌梗塞被認為是LV 功能障礙的重要原因 樣本數 1,212 位患者以1:1 隨機分配至CABG 或藥物治療 患者特徵 中位年齡60 歲 40% 糖尿病 12% 女性 主要終點 全因死亡 次要終點 心血管死亡 全因死亡或心衰竭住院複合終點 CABG 早期風險 9% 患者在術後30 天內死亡或仍住院 4.7 年結果 CABG vs 藥物治療死亡率相似（36% vs 41%） 9.8 年 結 果 （STICHES） CABG 組死亡率顯著較低（59% vs 66%; P = 0.02） HR: 0.84 (95% CI: 0.73-0.97) 預期壽命增益 CABG 歸因之預期壽命增加18 個月 亞組分析 療效似乎僅限於較年輕患者 年齡&gt;60 歲者無治療效果 心絞痛有無或糖尿病狀態與CABG 效益無交互作用 3.2 REVIVED-BCIS2 試驗 Table 4: REVIVED-BCIS2 試驗設計與結果 項目 內容 試驗設計 前瞻性、多中心、開放標籤隨機對照試驗 研究目的 評估PCI 能否降低接受藥物治療之iLVD 患者的全因死 亡或心衰竭住院複合終點 收錄標準 廣泛冠狀動脈疾病（BCIS-JS ≥6） LVEF ≤35% 心肌活性證據 樣本數 700 位患者以1:1 隨機分配至PCI 加藥物治療或單獨藥 物治療 追蹤期 中位數3.4 年 主要終點結果 兩組相同（PCI 組37% vs 藥物治療組38%） HR: 0.99 (95% CI: 0.78-1.27) 次要終點 心血管死亡：兩組無差異 6 或12 個月LVEF：兩組無差異 生活品質 PCI 患者在6 個月時報告較佳生活品質 此差異在2 年內消失 3.3 STICH 與REVIVED-BCIS2 之比較</p>
+<p>缺血性左心室功能障礙之血管重建策略 Table 5: STICH 與REVIVED-BCIS2 試驗比較 項目 STICH (N=1,212) REVIVED-BCIS2 (N=700) 收錄標準 LVEF ≤35% 適合CABG 之冠狀動脈疾病 LVEF ≤35% 廣泛冠狀動脈疾病（BCIS-JS ≥6） ≥4 個可PCI 治療之活性心肌 節段 排除標準 近期MI 為LVSD 主因 心因性休克 &gt;1 次既往CABG 需介入之主動脈瓣疾病 4 週內MI 急性失代償性心衰竭 持續性心室心律不整 需立即介入之瓣膜疾病 招募時期 2002-2007 年 22 國99 中心 2013-2020 年 英國40 中心 年齡（歲） 60 ± 9 70 ± 9 男性 88% 88% LVEF (%) 27 ± 6 27 ± 7 NYHA Class 3/4 37% 25% RAAS 抑制劑 92% 90% Beta-blocker 85% 91% MRA 46% 50% ICD 2% 21% 主要終點 全因死亡 5 年HR: 0.86 (0.72-1.04) 9.8 年HR: 0.84 (0.73-0.97) 全因死亡或心衰竭住院 3.4 年HR: 0.99 (0.78-1.27) 亞組分析 缺血或活性均與治療效果無關 聯 較年輕、疾病較廣泛、LVSD 較嚴重者獲益最大 缺血或活性均與治療效果無關 聯 3.4 個體患者數據分析 近期進行的STICH 與REVIVED-BCIS2 合併個體患者數據分析顯示： • REVIVED-BCIS2 中接受現代藥物治療的患者，全因死亡率及心衰竭住院率顯著低於 STICH 患者 • 此發現適用於是否接受CABG 的兩組患者 • 意義：藥物及裝置治療的顯著進步可能是STICH 與REVIVED-BCIS2 結果差異的原 因之一 功能性檢查的角色 4.1 活性及缺血檢查的臨床證據</p>
+<p>缺血性左心室功能障礙之血管重建策略 Table 6: 活性與缺血檢查之臨床試驗證據 試驗 設計 結果 PARR-2 430 位iLVD 患者隨機分配 至PET 引導管理vs 標準照 護 1 年主要終點（心臟死亡、MI、 心血管住院）無差異 STICH 活性子 研究 601 位患者接受活性檢查 （stress echo 或SPECT） 活性與死亡風險無交互作用 校正基線變數後，二分法活性狀 態無法預測全因死亡 REVIVED- BCIS2 活性子研 究 610 位參與者以CMR 或 stress echo 評估活性 活性範圍、PCI 治療與主要終點 風險無交互作用 不良事件風險與不可逆損傷心肌 （疤痕）範圍相關，而非功能障礙 但可能恢復（活性）心肌範圍 現行證據結論 現有證據不支持使用活性或缺血檢查來決定iLVD 及穩定型CAD 患者是否應接受 血管重建以改善預後。 然而，對於有明確適應症（如限制性心絞痛）而計畫血管重建的患者，進階影像 可能有助於規劃介入策略。 共享決策與心臟團隊 5.1 共享決策原則 • 患者應獲得支持，並有足夠時間和資源做出適合自己的決定 • 部分患者（尤其年長或虛弱者）可能更重視維持生活品質而非延長壽命或再介入風險 • 考慮高風險PCI 時，討論範圍通常超出手術風險與效益，延伸至更廣泛的照護層面 • 患者拒絕建議治療的權利必須受到尊重並記錄 • 對於拒絕或不適合高風險介入的患者，應維持同等的審慎態度 5.2 藥物治療優化 • 藥物治療應在心衰竭團隊照護下細心優化 • 當疾病調控治療選項有限、預後較短或症狀無法控制時，應考慮緩和醫療專科介入 iLVD 之藥物與裝置治療</p>
+<p>缺血性左心室功能障礙之血管重建策略 6.1 藥物治療 指引導向藥物治療（GDMT） 無論血管重建決策如何，心衰竭的指引導向藥物與裝置治療是iLVD 管理的基石。 近期統合分析估計，與安慰劑相比，「四大支柱」GDMT 治療可帶來的預期壽命 增益： • 50 歲：約8 年 • 70 歲：約5 年 GDMT 四大支柱： 1. RAAS 抑制劑（優先ARNi） 2. Beta-blocker 3. MRA（Mineralocorticoid receptor antagonist） 4. SGLT2 抑制劑 其他藥物考量： • Statin：雖然iLVD 患者使用statin 的證據有限，現行CCS 指引建議所有CAD 患者使 用降脂治療 • Aspirin：未接受血管重建之iLVD 患者使用aspirin 的證據基礎薄弱，且有顧慮aspirin 可能透過prostaglandin 抑制降低ACE 抑制劑效果 6.2 心臟植入式電子裝置 Table 7: iLVD 患者之裝置治療考量 裝置類型 臨床考量 ICD REVIVED-BCIS2 心律不整分析顯示：全因死亡或 aborted sudden death 高達40%，且不受PCI 與單純藥 物治療的影響 可能解釋：在嚴重iLVD 患者中，疤痕比缺血在心室心 律不整發生中扮演更重要角色 結論：現有證據不支持延遲穩定型iLVD 患者的CIED 植入至血管重建後 CRT 對於LV 收縮功能障礙合併QRS 延長的患者，無論心 衰竭病因為何，仍建議CRT 治療 血管重建策略選擇 7.1 何時考慮外科血管重建（CABG）優於PCI</p>
+<p>缺血性左心室功能障礙之血管重建策略 Table 8: 國際指引對iLVD 血管重建之建議 指引 建議內容 ESC/EACTS 2024 CCS 指引 CABG：對於外科適合之CCS 患者合併多血管疾病及LVEF ≤35%，建議CABG 優於單獨藥物治療以改善長期存活 （Class I, LoE B） PCI：對於特定CCS 患者合併功能顯著多血管疾病及LVEF ≤35% 且外科高風險或無法手術者，可考慮PCI 作為CABG 替代方案 （Class IIb, LoE B） AHA/ACC 2023 CCD 指引 CABG：對於CCD 患者合併顯著左主幹病變或多血管疾病 伴嚴重LV 功能障礙（LVEF ≤35%），建議CABG 加上藥物 治療優於單獨藥物治療以改善存活 （Class I, LoE B） PCI：對於適合血管重建但不適合手術的CCD 患者，選擇 PCI 優於CABG 以改善症狀並減少MACE 是合理的 （Class IIa, LoE B） ESC 2021 心衰竭指引 CABG 應被考慮為適合手術患者的首選血管重建策略，特別 是糖尿病患者及多血管疾病患者 （Class IIa, LoE B） PCI 可考慮作為CABG 的替代方案，基於心臟團隊評估冠狀 動脈解剖、共病症及手術風險 （Class IIb, LoE C） AHA/ACC/HFSA 2022 心衰竭指引 CABG：對於特定心衰竭患者合併射血分數降低（EF ≤35%） 及適合之冠狀動脈解剖，外科血管重建加GDMT 優於單獨 治療，可改善症狀、心血管住院及長期全因死亡率 （Class I, LoE B） PCI：無特定建議 7.2 外科風險評估 • 經驗證的風險評分有助於外科風險評估，但通常低估iLVD 患者的死亡率 • STS 及EuroSCORE II 評分在STICH 中可準確預測短期死亡率 • 當估計院內死亡風險&gt;5% 時，校準通常不理想 iLVD 患者之PCI 規劃與執行 8.1 術前規劃要點</p>
+<p>缺血性左心室功能障礙之血管重建策略 Table 9: iLVD 患者PCI 之術前規劃 步驟 內容 目標病變選擇 審視冠狀動脈解剖及心肌影像 評估治療每個狹窄的相對風險與效益 最佳目標：供應完全活性且缺血心肌的簡單病變 較不吸引：供應最小活性或缺血區域的複雜病變 完整性目標設定 確定最低可接受及理想可達成的心肌血管重建完整度 決定最佳策略為單次或分階段手術 血流動力學風險評估 評估缺血及頓抑的可能範圍、持續時間及深度 考慮急性血管閉塞發生時的風險 臨床因素評估 失代償性心衰竭伴肺或全身充血 心輸出量降低、低血壓 肺高壓 近期MI 或加護病房住院 既往因血流動力學不穩或肺水腫導致PCI 失敗 右心室功能障礙 顯著瓣膜疾病 8.2 非技術性因素 Table 10: 高風險PCI 成功之非技術性因素 階段 要點 術前優化 多專科評估 優化體液狀態/GDMT 共享決策 手術規劃 評估血管通路 制定緊急計畫及進階治療候選資格 定義預期血管重建完整度 術中 血流動力學監測 考慮雙操作者 適應性策略 術後 預留心臟加護病房床位 團隊事後討論 臨床治理/稽核 8.3 右心導管檢查 右心導管檢查提供心臟功能的即時深入資訊： • 心臟指數及LV 充盈壓：了解心室儲備能力及血流動力學不穩定的潛在性 • 右心功能及肺血管阻力：更完整了解手術風險 • 術中持續監測：提供血流動力學惡化的早期警示</p>
+<p>缺血性左心室功能障礙之血管重建策略 • MCS 使用時：提供指導支持脫離的架構 機械循環輔助（MCS） 9.1 MCS 裝置選擇 Table 11: 高風險PCI 之MCS 裝置比較 裝置 特性 臨床應用 IABP 最低通路管徑 有效增強冠狀動脈血 流 對心輸出量影響微乎 其微 BCIS-1 試驗（301 位患者，LVEF ≤30%）：預防性IABP 無法減少主要 不良心血管事件 長期追蹤顯示5 年全因死亡率較低（非 預先設定，僅為假說產生） 建議：主要作為緊急裝置使用（如冠 狀動脈剝離導致血流減少），而非需要 更強支持維持全身血流動力學的情境 pLVAD （如Impella） 對冠狀動脈灌流影響 不確定 顯著增強心輸出量 需要大管徑動脈通路 （最大15.5F） PROTECT II 試驗因預期無效提前終止 452 位患者隨機分配：30 天主要終點 （死亡至再血管重建複合）無組間差異 目前進行中：CHIP-BCIS3 及PRO- TECT IV 試驗 VA-ECMO 最高血管及出血併發 症發生率 提供大量血流及氧合 加壓血液逆行注入動 脈系統會增加脆弱左 心室的後負荷 可能導致肺水腫、血液淤滯及血栓形 成 建議：最好保留用於緊急情況如深度 心因性休克或心跳停止 9.2 MCS 之隨機試驗 Table 12: 高風險PCI 中MCS 之隨機試驗 試驗 收錄標準 研究組別 主要終點 BCIS-1 2005-2009 LVEF ≤30% BCIS-JS ≥8 N=301 預防性IABP vs 無計 畫IABP 1:1 隨機 院內MAE 複合（至28 天）：死亡、MI、中 風/TIA、再血管重建 結果：無差異（15.2% vs 16.0%）</p>
+<p>缺血性左心室功能障礙之血管重建策略 試驗 收錄標準 研究組別 主要終點 PROTECT II 2007-2010 LVEF ≤35% 合 併 unprotected 左主幹或LVEF ≤30% 合併最後 通暢血管/3 血管 疾病 N=452（計 畫 600） 預防性Impella 2.5 vs 預防性IABP 1:1 隨機 30 天MAE 複合 結果：無差異（30.1% vs 40.1%） CHIP-BCIS3 2021-2024 LVEF ≤35%（或 ≤45% 若嚴重 MR） BCIS-JS ≥8 計畫複雜PCI N=300 預防性pLVAD vs 無計 畫MCS 1:1 隨機 分層複合（win ratio）：死 亡、中風、自發MI、CV 住院、圍術期MI ≥12 個月 預計2026 年報告 PROTECT IV 2021-2025 LVEF &lt;40%（若 CCS/NSTEMI） ≤30%（若恢復期 STEMI） 計畫複雜PCI N=1,252 Impella（2.5 或CP）vs SOC（± 預防性IABP） 1:1 隨機 複合終點：全因死亡、 中風、MI、非計畫再血 管重建、durable LVAD 植入或心臟移植或CV 住院 ≥12 個月 預計2027 年報告 9.3 MCS 策略與植入時機 預防性使用MCS 的兩個主要目標： 1. 保護左心室免受累積性缺血或急性血管閉塞等突發損傷所致的缺血性頓抑 2. 維持全身血流動力學及末端器官灌流 緊急（Bailout）使用： • 目的是改善缺血並從失代償狀態恢復全身灌流 • 觀察性數據一致顯示接受緊急MCS 的患者死亡率高於預防性MCS • 但此數據受MCS 在血流動力學惡化後才部署的混淆影響 MCS 決策建議 在前瞻性選擇標準出現之前，合理的做法是基於以下因素決定是否使用預防性 MCS： • 風險心肌範圍 • 手術中預期缺血時間 • 血流動力學儲備能力 • 與出血及血管損傷風險的平衡</p>
+<p>缺血性左心室功能障礙之血管重建策略 證據缺口與未來方向 10.1 現存爭議 Table 13: iLVD 血管重建之證據缺口 議題 說明 診斷標準缺乏共識 無國際統一的iLVD 診斷標準 混合病因的影響 混合缺血/非缺血病因是否影響血管重建效果尚不 清楚 「旁觀者」冠狀動脈疾病是否真正影響疾病軌跡和 症狀 指引整合挑戰 美國與歐洲指引建議存在差異 如何處理STICH 中CABG 效益的細微差別 REVIVED-BCIS2 是否足以提供穩定患者PCI 的 Class III 建議 HFpEF 血管重建 約一半HFpEF 患者有顯著CAD 無血管重建安全性或效果的隨機證據 REPRIEVED 試驗正在進行中 術後缺血負擔 血管重建後缺血負擔變化的數據有限 尤其是相對於活性心肌體積的資料不足 10.2 進行中及計畫中的試驗 Table 14: iLVD 相關之進行中臨床試驗 試驗名稱 設計與目標 CHIP-BCIS3 300 位英國患者 比較預防性pLVAD vs 無預防性MCS 複雜PCI 合併高心肌風險及iLVD 預計2026 年報告 PROTECT IV 1,252 位國際患者 比較預防性Impella CP vs 對照組 複雜PCI 合併iLVD 預計2027 年報告 STICH3 國際試驗聯盟（9 個隨機試驗） 比較CABG vs PCI 於有血管重建適應症之iLVD 患者 總樣本數&gt;2,500 人 預計2030 年後報告 RESTORE-PCI （韓國） 900 位缺血性LV 收縮功能障礙患者 比較PCI（強制冠脈內影像及生理評估）vs 單獨藥物治療 主要終點：2 年MACE</p>
+<p>缺血性左心室功能障礙之血管重建策略 試驗名稱 設計與目標 IMPROVE-ICMP （韓國） 158 位iLVD 患者 比較PCI vs 保守治療 主要終點：6 個月CMR 之LVEF 差異 MASS-4 (HF) （巴西） 600 位LV 功能障礙、CAD 及缺血患者 比較保守治療vs CABG 單一中心試驗 REPRIEVED HFpEF 合併CAD 患者 比較PCI vs 假手術 主要終點：生活品質 結論與臨床建議 核心結論 1. 穩定型iLVD：現有隨機證據不支持常規經皮血管重建可在最佳藥物治療基 礎上帶來預後效益（無近期MI 者） 2. CABG 效益：STICHES 試驗支持CABG 加藥物治療優於單獨藥物治療改善 全因死亡率，但效益似乎限於較年輕患者 3. 血管重建適應症：近期MI 或最佳藥物治療後仍有限制性心絞痛的iLVD 患 者有明確血管重建適應症 4. 功能性檢查：活性或缺血檢查目前無法用於選擇預後性血管重建的患者 5. MCS：CHIP-BCIS3 及PROTECT IV 將提供pLVAD 預防性使用的關鍵證據 6. CABG vs PCI：STICH3 聯盟將解答有血管重建適應症的iLVD 患者應選擇 CABG 或PCI 參考文獻 1. Ryan M, Truesdell AG, Murphy GJ, et al.&nbsp;Revascularization in Ischemic Left Ventricular Dysfunction: A Pathophysiology-Guided, Evidence-Based Approach. JACC Cardiovasc Interv. 2025;18(24):2977-2994. 2. Velazquez EJ, Lee KL, Deja MA, et al.&nbsp;Coronary-artery bypass surgery in patients with left ventricular dysfunction. N Engl J Med. 2011;364(17):1607-1616. 3. Velazquez EJ, Lee KL, Jones RH, et al.&nbsp;Coronary-artery bypass surgery in patients with ischemic cardiomyopathy. N Engl J Med. 2016;374(16):1511-1520. 4. Perera D, Clayton T, O’Kane PD, et al.&nbsp;Percutaneous revascularization for ischemic left ventricular dysfunction. N Engl J Med. 2022;387(15):1351-1360. 5. Bonow RO, Maurer G, Lee KL, et al.&nbsp;Myocardial viability and survival in ischemic left ventricular dysfunction. N Engl J Med. 2011;364(17):1617-1625.</p>
+<p>缺血性左心室功能障礙之血管重建策略 6. Panza JA, Ellis AM, Al-Khalidi HR, et al.&nbsp;Myocardial viability and long-term outcomes in ischemic cardiomyopathy. N Engl J Med. 2019;381(8):739-748. 7. Perera D, Ryan M, Morgan HP, et al.&nbsp;Viability and outcomes with revascularization or med- ical therapy in ischemic ventricular dysfunction: a prespecified secondary analysis of the REVIVED-BCIS2 trial. JAMA Cardiol. 2023;8(12):1154-1161. 8. Perera D, Stables R, Thomas M, et al.&nbsp;Elective intra-aortic balloon counterpulsation dur- ing high-risk percutaneous coronary intervention: a randomized controlled trial. JAMA. 2010;304(8):867-874. 9. O’Neill WW, Kleiman NS, Moses J, et al.&nbsp;A prospective, randomized clinical trial of hemo- dynamic support with Impella 2.5 versus intra-aortic balloon pump in patients undergo- ing high-risk percutaneous coronary intervention: the PROTECT II study. Circulation. 2012;126(14):1717-1727. 10. Ryan M, Ezad SM, Webb I, et al.&nbsp;Percutaneous left ventricular unloading during high-risk coronary intervention: rationale and design of the CHIP-BCIS3 randomized controlled trial. Circ Cardiovasc Interv. 2024;17(1):e013367. 11. Mangner N, Sharma SK, O’Connor C, et al.&nbsp;Mechanical circulatory support in high-risk elec- tive PCI: rationale and design of the PROTECT IV trial. EuroIntervention. 2025;21(21):e1244- e1258. 12. Vrints C, Andreotti F, Koskinas KC, et al.&nbsp;2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-3537. 13. McDonagh TA, Metra M, Adamo M, et al.&nbsp;2021 ESC Guidelines for the diagnosis and treat- ment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599-3726. 14. Heidenreich PA, Bozkurt B, Aguilar D, et al.&nbsp;2022 AHA/ACC/HFSA Guideline for the Man- agement of Heart Failure. J Am Coll Cardiol. 2022;79(17):e263-e421. 15. Lawton JS, Tamis-Holland JE, Bangalore S, et al.&nbsp;2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization. J Am Coll Cardiol. 2022;79(2):e21-e129. 關鍵詞：缺血性左心室功能障礙、冠狀動脈疾病、心臟衰竭、高風險PCI、機械循環輔 助、血管重建</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已複製");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已複製");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/drake1128\.github\.io\/journal-reading\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

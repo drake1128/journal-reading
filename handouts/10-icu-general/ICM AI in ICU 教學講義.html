@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>icm-ai-in-icu-教學講義 – Journal Reading — Dr. Drake Hsieh</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e2d335519fda3bc7c134d94e5e0c7dbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "沒有結果",
+    "search-matching-documents-text": "符合的文件",
+    "search-copy-link-title": "複製搜尋連結",
+    "search-hide-matches-text": "隱藏其他符合的結果",
+    "search-more-match-text": "更多符合結果",
+    "search-more-matches-text": "更多符合結果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "送出",
+    "search-label": "搜尋"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Journal Reading — Dr.&nbsp;Drake Hsieh</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜尋"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="切換導航列" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../handouts/04-valvular-disease/mainz-2024/quarto/zh/index.html"> 
+<span class="menu-text">Mainz 2024</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">本頁目錄</h2>
+   
+  <ul>
+  <li><a href="#加護病房人工智慧部署" id="toc-加護病房人工智慧部署" class="nav-link active" data-scroll-target="#加護病房人工智慧部署"><span class="header-section-number">1</span> 加護病房人工智慧部署：</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="加護病房人工智慧部署" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 加護病房人工智慧部署：</h1>
+<p><strong>整理：謝慕揚 MD, PhD, FESC</strong> <strong>日期：2026-03-26</strong></p>
+<hr>
+<p>從成功與失敗中學習 Deploying AI in the ICU: Learning from Successes and Failures 謝慕揚醫師MD, PhD, FESC 資料來源：Komorowski M, Cecconi M. Intensive Care Med. 2025 整理日期：2025 年12 月 核心摘要 重點訊息：人工智慧（AI）已深入日常生活，並將成為醫療照護的核心組成，包 括加護病房（ICU）。然而，儘管已發表大量AI 模型，真正進入臨床常規使用的 仍屬少數。本文綜合分析真實世界的成功與失敗案例，並提出實用的檢核清單， 以支持安全有效的ICU AI 部署。 關鍵概念：AI 部署不僅是技術問題，更是社會技術挑戰（socio-technical chal- lenge）。在電腦中訓練模型與將人機系統嵌入真實臨床環境的限制、變異性和文 化中，是根本不同的兩件事。 Contents 研究資訊 背景：從預測性到可行動AI 2.1 AI 在重症醫學的發展趨勢. . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2 部署的挑戰. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 成功案例分析 3.1 已證實效益的AI 工具. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2 成功的共同特徵. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 失敗案例與教訓 4.1 造成傷害的案例. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2 關鍵教訓 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . AI 部署失敗的根本原因分析 5.1 錯誤的使用案例（Wrong Use Case）. . . . . . . . . . . . . . . . . . . . . 5.2 數據挑戰（Data Challenges）. . . . . . . . . . . . . . . . . . . . . . . . . 5.3 成本障礙（Cost Barriers） . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+<p>加護病房人工智慧部署 5.4 安全與驗證挑戰（Safety and Validation Challenges）. . . . . . . . . . . . 5.5 工作流程整合挑戰（Workflow Integration Challenges）. . . . . . . . . . . 5.6 倫理與法律責任問題（Ethical and Liability Concerns） . . . . . . . . . . 臨床AI 實施檢核清單 6.1 1. 策略規劃（Strategic Planning）. . . . . . . . . . . . . . . . . . . . . . 6.2 2. 設計與工作流程整合（Design and Workflow Integration） . . . . . . . 6.3 3. 數據、驗證與安全（Data, Validation and Safety）. . . . . . . . . . . . 6.4 4. 採用與治理（Adoption and Governance） . . . . . . . . . . . . . . . . 結論與建議 7.1 核心結論 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.2 研究設計建議. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.3 部署後要求. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 詞彙表 附錄：原文出處</p>
+<p>加護病房人工智慧部署 研究資訊 項目 內容 文章類型 Editorial（社論） 標題 Deploying AI in the ICU: Learning from Successes and Failures 作者 Matthieu Komorowski, Maurizio Cecconi 機構 Imperial College London, UK Humanitas University &amp; IRCCS Humanitas Research Hospital, Milan, Italy 期刊 Intensive Care Medicine 年份 2025 卷期頁碼 51:2410–2413 DOI 10.1007/s00134-025-08131-5 收稿日期 2025 年5 月10 日 接受日期 2025 年9 月17 日 發表日期 2025 年9 月29 日 背景：從預測性到可行動AI 2.1 AI 在重症醫學的發展趨勢 人工智慧正經歷從預測性AI（predictive AI）到可行動AI（actionable AI）的重要轉 變。傳統AI 僅預測風險，而可行動AI 不僅預測風險，更能引導或建議治療選擇。 AI 發展階段 預測性AI（Predictive AI）： • 預測疾病風險 • 預測死亡率 • 預測併發症發生 可行動AI（Actionable AI）： • 引導治療決策 • 建議藥物調整 • 提供即時警示與行動建議 2.2 部署的挑戰 儘管已發表大量AI 模型，真正進入臨床常規使用的仍屬少數。部署AI 於ICU 不僅是 技術練習，更是社會技術挑戰。在電腦中訓練模型（in silico）與將人機系統（Human-AI</p>
+<p>加護病房人工智慧部署 system）嵌入真實臨床環境，是根本不同的任務。 成功案例分析 3.1 已證實效益的AI 工具 應用領域 工具/系統 臨床效益 急性神經科 Viz.ai 中風偵測平台 自動標記CT 血管攝影疑似大血管 阻塞並即時警示中風團隊，顯著縮 短血管再通時間 心臟科 AI 增強ECG 判讀 加速心導管室啟動，用於細微心肌 梗塞病例 加護病房 早期sepsis 偵測演算 法 改善指引遵從度，部分案例降低死 亡率 急診醫學 AI 檢傷分類系統 改善病患流程，縮短等候時間 臨床文件 環境AI 文件系統 （Ambient AI docu- mentation） Kaiser Permanente 部署後產生數百 萬份筆記，減少行政負擔，改善醫 師與病患體驗 3.2 成功的共同特徵 1. 針對工作流程瓶頸：解決臨床實際痛點 2. 低摩擦整合：融入現有工作流程 3. 可行動輸出：產生可執行的建議或警示 4. 輔助而非取代：補充而非替代臨床判斷 5. 嚴謹評估：包括RCT 比較AI 輔助與標準照護 失敗案例與教訓 4.1 造成傷害的案例 案例 問題與教訓 英國AKI 警示試驗 某些環境中的警示與較高14 天死亡率相關，可能因非 預期的工作流程改變、過度診斷或過度治療所致 放射科AI 輔助 AI 輔助可改善部分使用者的診斷準確度，但對其他使 用者反而降低準確度</p>
+<p>加護病房人工智慧部署 4.2 關鍵教訓 重要警示 AI 必須設計為增強（augment）而非覆蓋（override）臨床專業。介面應能適應不 同使用者的技能水準。 AI 部署失敗的根本原因分析 5.1 錯誤的使用案例（Wrong Use Case） 許多AI 模型與臨床需求對齊不佳： • 死亡率預測缺乏可行動時間軸 • 低精確度（positive predictive value）的sepsis 模型導致警報疲勞 • 開發過程中缺乏臨床醫師參與 解決方案：臨床醫師可識別高價值、可行的目標，如簡化文件、自動化重複監測、 優化藥物滴定。多學科合作至關重要。 5.2 數據挑戰（Data Challenges） 挑戰類型 說明 數據異質性 ICU AI 需要來自監測器、輸液幫浦、實驗室、EHR 的 即時、多模態、高頻數據 數據格式不一 異質數據格式限制可攜性與泛化性 記錄不完整 缺失數據影響模型準確度 延遲問題 數據傳輸延遲影響即時決策 與放射科對比 放射科通常使用乾淨、結構化的影像輸入，ICU 數據 複雜度更高 5.3 成本障礙（Cost Barriers） • 高效能ICU AI 需要即時高規格運算基礎設施 • 需要專門維護團隊 • 數位成熟度不均 • 報銷模式/投資報酬率（ROI）不明確 • 可能加劇數位健康不平等</p>
+<p>加護病房人工智慧部署 5.4 安全與驗證挑戰（Safety and Validation Challenges） AI 風險類型 • 效能退化：模型在不同環境表現下降 • 直接病患傷害：錯誤建議導致不良結果 • 高風險應用：如vasopressor 控制、呼吸器設定 • 強化學習風險：即時學習在臨床環境不安全 • 生成式模型風險：如大型語言模型的幻覺（hallucination）與有限可解釋性 迫切需求：建立共識的驗證框架，包括離線策略評估（off-policy evaluation）、模擬 測試、安全基準等，可在前瞻性使用前應用。 5.5 工作流程整合挑戰（Workflow Integration Challenges） • 設計不良的介面增加認知負擔 • 干擾既有工作流程 • 問題有時僅在真實使用中才浮現 • 即使高效能模型也可能因整合不佳而被棄用 • 自動化偏見（automation bias）：盲目接受AI 輸出的風險 5.6 倫理與法律責任問題（Ethical and Liability Concerns） 議題 說明 監管框架不確定 高風險AI 的監管框架仍不明確 責任歸屬 發生傷害時，責任歸屬（臨床醫師、開發者、機構）常 不清楚 效能基準未定 AI 應達到平均臨床醫師表現、專家共識、還是優於特 定次群體？ 信任問題 缺乏明確標準導致AI 可能同時被低估信任和過度期待 效率悖論 若臨床醫師保有完全責任，可能需重新驗證每個AI 輸 出，抵消效率收益 臨床AI 實施檢核清單 檢核清單說明 此檢核清單為實用、多利害關係人指南，用於設計和部署安全、有用、可擴展的 急性照護AI 系統。主要作為早期規劃工具，框定ICU AI 專案的關鍵考量。應 與更詳細的監管、技術和營運框架並用，特別是部署後期階段。</p>
+<p>加護病房人工智慧部署 6.1 1. 策略規劃（Strategic Planning） 引導問題：我們是否用正確的方法解決正確的問題？ 檢核項目 清楚定義臨床問題及為何AI 是適當解決方案 選擇高影響、較低風險的使用案例作為務實切入點（非普遍規則；高風險專 案若有足夠保障措施也可適用） 設定可測量、以病患為中心或以流程為基礎的成果及KPI 以監測影響（如治 療時間、假警報率、30 天死亡率、臨床醫師採用率） 規劃完整產品生命週期：設計、部署、模型更新、安全、上市後評估，範圍 與專案成熟度相稱 組建多學科團隊：臨床醫師、工程師、人因專家、病患、監管人員、商業主 管 規劃擴展：商業模式、ROI、資源需求、長期支持 6.2 2. 設計與工作流程整合（Design and Workflow Integration） 引導問題：AI 工具能否自然融入臨床實務？ 檢核項目 與臨床醫師共同設計：直覺介面，支持而非覆蓋專業判斷 確保無縫融入現有工作流程（如與EHR 整合） 輸出應為可行動或決策支持性質（如警示、警告），特別是在臨床醫師保留 最終責任的情境 啟用手動覆蓋並記錄例外情況（fail-safes） 6.3 3. 數據、驗證與安全（Data, Validation and Safety） 引導問題：模型在真實世界是否安全、公平、穩健？ 檢核項目 遵循既定軟體和數據標準（如HL7、FHIR）以確保可攜性 從非干擾性測試開始（如shadow mode）；盡可能規劃隨機臨床試驗 遵循良好機器學習原則（GMLP），包括外部驗證、偏見評估和次群體效能 差異評估 6.4 4. 採用與治理（Adoption and Governance） 引導問題：如何確保採用、信任和問責？ 檢核項目 提供訓練並解釋工具的目的和功能 識別超級使用者；建立持續反饋迴路</p>
+<p>加護病房人工智慧部署 檢核項目 迭代直到臨床醫師信任並依賴該工具 及早定義法律、倫理和監管角色（如知情同意、問責、治理路徑） 規劃部署後監測和治理（大多數醫療器材法規要求） 結論與建議 7.1 核心結論 1. 從成功與失敗中學習：成功的AI 採用需要分析成功與失敗案例 2. AUC 不足以評估臨床準備度：Area under the curve 對早期開發有用，但對臨床準 備度評估不足 3. 人因與安全工程驅動採用：採用必須由人因、安全工程和真實世界驗證驅動 4. 無縫工作流程整合：AI 工具應設計為無縫工作流程整合，連結明確人類行動 5. 漸進式驗證：逐步驗證以避免已知和未預見風險 7.2 研究設計建議 評估方法 理想方法： • RCT 測試以病患為中心的結果改善 替代設計（亦可提供嚴謹證據）： • 實用試驗（pragmatic trials） • 前瞻性觀察研究 • 具反饋機制的階段性推出 7.3 部署後要求 部署後監測、治理和迭代優化至關重要，且在許多司法管轄區是監管要求，以確保持 續的安全、效能和信任。 詞彙表 術語 定義 Actionable AI 可行動AI，不僅預測風險，更能引導或建議治療選擇</p>
+<p>加護病房人工智慧部署 術語 定義 AUC Area Under the Curve，曲線下面積，用於評估模型區 辨能力 Automation bias 自動化偏見，盲目接受AI 輸出的傾向 EHR Electronic Health Records，電子健康紀錄 FHIR Fast Healthcare Interoperability Resources，快速醫療 互操作性資源標準 GMLP Good Machine Learning Principles，良好機器學習原則 Hallucination 幻覺，生成式AI 產生看似合理但錯誤的資訊 HL7 Health Level Seven，健康資訊交換標準 KPI Key Performance Indicator，關鍵績效指標 Off-policy evaluation 離線策略評估，使用歷史數據評估新策略效能 ROI Return on Investment，投資報酬率 Shadow mode 影子模式，AI 在背景運行但不影響臨床決策的測試方 式 Socio-technical chal- lenge 社會技術挑戰，同時涉及技術和社會/組織因素的複雜 問題 附錄：原文出處 完整引用： Komorowski M, Cecconi M. Deploying AI in the ICU: learning from successes and failures. Intensive Care Med. 2025;51:2410-2413. doi:10.1007/s00134-025-08131-5 致謝聲明： 原文作者聲明：ChatGPT（版本4o）用於文章早期草稿階段，提供內容建議和文 字潤飾。</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已複製");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已複製");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/drake1128\.github\.io\/journal-reading\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
