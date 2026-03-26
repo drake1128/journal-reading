@@ -1,0 +1,614 @@
+---
+title: "主動脈內氣球幫浦 (IABP)"
+subtitle: "設置、操作與疑難排解完整指引 — 改編自 Prague ICU 教學影片"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-11-09
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+## 教學目標 {#sec-objectives .unnumbered}
+
+- 了解 IABP 的適應症與禁忌症
+- 掌握 CS300 主機的完整設置流程
+- 熟悉操作模式選擇與參數調整
+- 學習 timing 調整技巧與疑難排解
+- 認識常見問題與處理方式
+
+**協同編輯**：林炆輝 放射師 RT
+**輔助工具**：yt-dlp, OpenAI-Whisper, Claude.ai
+
+## 前言 {#sec-intro}
+
+主動脈內氣球幫浦 (Intra-Aortic Balloon Pump, IABP) 是心臟機械支持的重要工具，透過反搏原理改善心臟灌注。本講義將詳細說明 IABP 的設置、操作與疑難排解，確保加護病房同仁能安全且有效地使用此設備。
+
+請使用本講義一起閱讀：**Intra-aortic balloon pump troubleshooting — Prague ICU**
+
+### 這一系列教學文件的由來 {#sec-intro-origin}
+
+本講義改編自 Prague ICU 的優質教學影片，透過 AI 輔助工具 (yt-dlp、OpenAI-Whisper 與 Claude.ai) 將影片內容轉化為結構化的中文教學資料，期望能幫助加護病房同仁更有系統地學習 IABP 的操作與管理。
+
+## 影片時間對照表 {#sec-video-timeline}
+
+本表格標示影片中各主題出現的時間點，方便學生對照講義章節與影片內容。
+
+### CS300 主機設置 {#sec-timeline-cs300}
+
+: CS300 主機設置影片時間對照 {#tbl-timeline-cs300}
+
+| 影片時間 | 主題內容 | 對應講義章節 |
+|----------|----------|-------------|
+| 00:00 - 00:22 | 開場介紹與示範說明 | @sec-intro |
+| 00:22 - 00:50 | 主機側邊口袋內的三條電纜 | @sec-cs300-accessories |
+| 00:50 - 01:05 | 外部訊號電纜 (ECG 與壓力) | @sec-cs300-accessories |
+| 01:05 - 01:23 | 內部 ECG 電纜連接方式 | @sec-cable-connection |
+| 01:23 - 01:33 | 內部壓力電纜 (罕見使用) | @sec-cable-connection |
+| 01:33 - 01:54 | 外部訊號電纜連接病人監視器 | @sec-cable-connection |
+| 01:54 - 02:12 | 外部觸發源在螢幕上顯示 | @sec-screen |
+
+### 氣球導管選擇 {#sec-timeline-balloon}
+
+: 氣球導管選擇影片時間對照 {#tbl-timeline-balloon}
+
+| 影片時間 | 主題內容 | 對應講義章節 |
+|----------|----------|-------------|
+| 02:01 - 02:27 | 7Fr 40mL 氣球 (162-183cm) | @sec-balloon-selection |
+| 02:13 - 02:27 | 光纖電纜功能說明 | @sec-balloon-selection |
+| 02:27 - 02:42 | 8Fr 50mL 氣球 (>183cm) | @sec-balloon-selection |
+
+### 導管連接與螢幕顯示 {#sec-timeline-connection}
+
+: 導管連接與螢幕顯示影片時間對照 {#tbl-timeline-connection}
+
+| 影片時間 | 主題內容 | 對應講義章節 |
+|----------|----------|-------------|
+| 02:42 - 03:09 | 連接氦氣氣球幫浦電纜至主機 | @sec-catheter-connection |
+| 03:09 - 03:21 | ECG 觸發與舒張期水平線 | @sec-screen-ecg |
+| 03:21 - 03:36 | 動脈壓波形與 dicrotic notch | @sec-screen-abp |
+
+### 操作模式選擇 {#sec-timeline-mode}
+
+: 操作模式選擇影片時間對照 {#tbl-timeline-mode}
+
+| 影片時間 | 主題內容 | 對應講義章節 |
+|----------|----------|-------------|
+| 03:36 - 03:55 | Auto 操作模式說明 | @sec-mode-overview |
+| 03:55 - 04:11 | Semi-Auto 操作模式與 ECG 觸發 | @sec-mode-overview |
+| 04:00 - 04:11 | Atrial pacer 觸發模式 | @sec-trigger-source |
+| 04:11 - 04:25 | Internal 固定頻率 80 次/分 | @sec-trigger-source |
+| 04:25 - 04:31 | Manual 模式 (僅小兒科使用) | @sec-mode-overview |
+
+### Weaning 撤離策略 {#sec-timeline-weaning}
+
+: Weaning 撤離策略影片時間對照 {#tbl-timeline-weaning}
+
+| 影片時間 | 主題內容 | 對應講義章節 |
+|----------|----------|-------------|
+| 04:32 - 04:53 | 降低頻率至 1:2 或 1:3 | @sec-weaning-steps |
+| 04:53 - 05:02 | Augmentation 不可低於 50% | @sec-weaning-steps |
+
+### Timing 調整與啟動 {#sec-timeline-timing}
+
+: Timing 調整與啟動影片時間對照 {#tbl-timeline-timing}
+
+| 影片時間 | 主題內容 | 對應講義章節 |
+|----------|----------|-------------|
+| 05:02 - 05:08 | Auto 模式僅能調整 deflation | @sec-timing-auto |
+| 05:08 - 05:15 | Semi-Auto 可調整 inflation 與 deflation | @sec-timing-semiauto |
+| 05:15 - 05:29 | 按下 START 按鈕與氣球壓力波形 | @sec-start-button |
+| 05:29 - 05:47 | 光纖動脈壓波形的舒張期增強 | @sec-start-button |
+| 05:36 - 05:47 | Assisted vs Unassisted 壓力比較 | @sec-screen-abp |
+| 05:47 - 06:13 | 1:2 頻率模式觀察 | @sec-weaning-1to2 |
+| 06:13 - 06:29 | Augmented pressure 數值 (114mmHg) | @sec-weaning-1to2 |
+
+### 波形判讀與 Timing 錯誤 {#sec-timeline-waveform}
+
+: 波形判讀與 Timing 錯誤影片時間對照 {#tbl-timeline-waveform}
+
+| 影片時間 | 主題內容 | 對應講義章節 |
+|----------|----------|-------------|
+| 06:22 - 06:29 | 正常 augmentation 波形模式 | @sec-normal-waveform |
+| 06:29 - 06:48 | 導管扭結的異常波形 | @sec-kink-waveform |
+| 06:49 - 07:06 | Early inflation 充氣過早 | @sec-early-inflation |
+| 06:57 - 07:06 | Early inflation 的生理影響 | @sec-early-inflation |
+| 07:06 - 07:19 | Late inflation 充氣過晚 | @sec-late-inflation |
+| 07:19 - 07:41 | Early deflation 放氣過早 | @sec-early-deflation |
+| 07:32 - 07:41 | Early deflation 的波形特徵 | @sec-early-deflation |
+| 07:41 - 07:55 | Late deflation 放氣過晚 | @sec-late-deflation |
+| 07:50 - 07:55 | Late deflation 的嚴重生理影響 | @sec-late-deflation |
+| 07:55 - 08:04 | 結語與 Prague ICU 致謝 | — |
+
+::: {.callout-tip}
+## 使用建議
+
+- 建議先完整觀看影片一次，對整體流程有概念
+- 閱讀講義時，可對照此表格找到相應的影片片段重複觀看
+- Timing 錯誤部分 (06:49-07:55) 建議反覆觀看，確實掌握四種錯誤的辨識
+:::
+
+::: {.callout-important}
+## 必看片段
+
+- **04:53-05:02**：Augmentation 不可低於 50% 的安全原則
+- **06:29-06:48**：導管扭結的波形辨識
+- **06:49-07:55**：四種 timing 錯誤的完整說明
+- **07:41-07:55**：Late deflation 最危險的原因
+:::
+
+## IABP 概述 {#sec-overview}
+
+### 定義與工作原理 {#sec-definition}
+
+IABP 是一種經導管置入主動脈的氣球裝置，透過精確的時間控制：
+
+- **舒張期充氣 (Inflation)**：增加主動脈舒張壓，改善冠狀動脈灌注
+- **收縮期放氣 (Deflation)**：降低左心室後負荷 (afterload)，減少心肌耗氧量
+
+### 臨床適應症 {#sec-indications}
+
+: IABP 臨床適應症 {#tbl-indications}
+
+| 適應症 | 說明 |
+|--------|------|
+| 心因性休克 (Cardiogenic shock) | 急性心肌梗塞合併血流動力學不穩定 |
+| 高風險 PCI | 左主幹病變或多支血管病變之介入治療 |
+| Refractory angina（難治性心絞痛） | 藥物治療無效的急性冠狀症候群 |
+| 機械併發症 | AMI 後心室中隔缺損 (VSD) 或二尖瓣逆流 (MR) |
+| 心臟手術支持 | 心肺 bypass 前後的血流動力學支持 |
+
+### 絕對禁忌症 {#sec-contraindications}
+
+以下情況**絕對不可**使用 IABP：
+
+1. **主動脈瓣閉鎖不全 (Aortic Regurgitation)**：會加重逆流
+2. **主動脈剝離 (Aortic Dissection)**：可能擴大剝離範圍
+3. **主動脈瘤 (Aortic Aneurysm)**：氣球可能造成主動脈破裂
+4. **開放性動脈導管 (Patent Ductus Arteriosus)**：影響血流分布
+
+## CS300 主機設置 {#sec-cs300}
+
+CS300 主機是 IABP 操作的核心設備，本節將詳細說明所有配件的功能與連接方式。
+
+### 主機與配件 {#sec-cs300-accessories}
+
+#### 主機側邊口袋內的三條電纜 {#sec-three-cables}
+
+: CS300 主機三條電纜 {#tbl-cables}
+
+| 電纜名稱 | 功能說明 |
+|----------|----------|
+| 外部訊號電纜 | 用於連接病人監視器，接收外部 ECG 與動脈壓訊號 |
+| 內部壓力電纜 | 連接壓力 transducer，用於傳統壓力觸發（較少使用） |
+| 內部 ECG 電纜 | 直接連接病人，提供 ECG 訊號給主機 |
+
+### 電纜連接步驟 {#sec-cable-connection}
+
+**1. 內部 ECG 電纜**
+
+- 將電纜插入主機的 ECG port
+- 將 ECG 導線貼片貼於病人身上
+- 確認主機螢幕顯示清晰的 ECG 波形
+
+**2. 內部壓力電纜（罕見使用）**
+
+- 連接壓力電纜到壓力 transducer
+- 僅在使用傳統壓力觸發模式時需要
+
+**3. 外部訊號電纜**
+
+- 將電纜連接至病人監視器
+- 主機螢幕會顯示來自監視器的 ECG 與動脈壓波形
+- 可作為主要或備用的觸發訊號來源
+
+### 氣球導管選擇 {#sec-balloon-selection}
+
+: 氣球導管尺寸選擇 {#tbl-balloon-size}
+
+| 尺寸 | 容量 | 適用身高 | 特殊說明 |
+|------|------|----------|----------|
+| 7 French | 40 mL | 162–183 cm | 標準成人使用 |
+| 8 French | 50 mL | >183 cm | 高個子病人使用 |
+
+::: {.callout-note}
+## 光纖電纜 (Fiber Optic Cable) 的重要性
+
+氣球導管尖端配備光纖電纜，能以光速傳遞高精確度的動脈壓訊號。這是目前最準確的壓力監測方式，相較於傳統壓力 transducer 有以下優勢：
+
+- 訊號傳遞速度快
+- 波形保真度高
+- 不受電磁干擾
+- 即時反映主動脈內壓力變化
+:::
+
+### 導管連接步驟 {#sec-catheter-connection}
+
+1. **連接氦氣氣球幫浦電纜至主機**
+   - 確認連接埠清潔無異物
+   - 聽到「喀嗒」聲確認鎖定
+2. **連接導管 lumen**
+   - 可連接至 flush 系統
+   - 或連接至壓力 transducer 以監測中央壓力
+
+## 螢幕顯示解讀 {#sec-screen}
+
+### 上方 ECG 波形 {#sec-screen-ecg}
+
+- 顯示心電圖訊號
+- 水平線標示舒張期（氣球充氣期間）
+- 用於判定充氣與放氣的 timing
+
+### 下方動脈壓波形 {#sec-screen-abp}
+
+- 來自光纖電纜的高精確度動脈壓
+- 水平線起始於主動脈瓣關閉點 (dicrotic notch)
+- 可觀察到舒張期增強效果 (diastolic augmentation)
+
+::: {.callout-tip}
+## 波形判讀重點
+
+- **Unassisted diastolic pressure**：未輔助時的舒張壓
+- **Assisted diastolic pressure**：輔助後的舒張壓（應更低）
+- **Augmented pressure**：氣球充氣產生的增強壓力
+- 理想狀態：augmented pressure 應明顯高於 unassisted systolic pressure
+:::
+
+## 操作模式選擇 {#sec-mode}
+
+### 三種操作模式總覽 {#sec-mode-overview}
+
+: 三種操作模式比較 {#tbl-modes}
+
+| 模式 | 特性與使用時機 |
+|------|---------------|
+| **Auto** | 主機自動選擇最佳導線與觸發來源；操作者無法手動選擇觸發來源；**最常使用的模式**；僅能微調 deflation timing |
+| **Semi-Auto** | 操作者可選擇導線與觸發來源；可同時調整 inflation 與 deflation timing；適合有經驗的操作者；用於特殊情況（如心律不整） |
+| **Manual** | 僅用於小兒科；成人加護病房不使用此模式 |
+
+### 觸發來源 (Trigger Source) 選擇 {#sec-trigger-source}
+
+在 Semi-Auto 模式下，可選擇以下觸發來源：
+
+: 觸發來源選擇 {#tbl-trigger}
+
+| 觸發來源 | 說明與適用情況 |
+|----------|---------------|
+| **ECG** | 最優先選擇；以 R 波作為觸發點；適用於大多數病人 |
+| **Atrial Pacer** | 罕見使用；當 pacing spike 大於 R 波時使用；避免錯誤觸發 |
+| **Internal** | 固定頻率 80 次/分的非同步模式；僅用於無心臟機械活動時（例如心肺 bypass 期間或 asystole） |
+
+::: {.callout-warning}
+## 觸發來源選擇原則
+
+1. 優先使用 ECG 觸發 (R 波)
+2. 心律不整時考慮壓力觸發
+3. Internal 模式僅限特殊情況
+4. **絕不在有心臟機械活動時使用 Internal 模式**
+:::
+
+## 開始 IABP 治療 {#sec-start}
+
+### 啟動前檢查 {#sec-pre-check}
+
+1. 確認所有電纜連接正確
+2. 螢幕顯示清晰的 ECG 與動脈壓波形
+3. 氦氣供應充足
+4. 導管位置正確（透視或 X 光確認）
+
+### 按下 START 按鈕 {#sec-start-button}
+
+按下 START 後，立即可觀察到：
+
+- 氣球壓力波形出現在螢幕上
+- 光纖動脈壓波形顯示舒張期增強
+- 數值顯示：
+  - Assisted diastolic pressure 應低於 unassisted
+  - Augmented pressure 應明顯升高
+
+### 初始設定建議 {#sec-initial-settings}
+
+- **頻率**：通常從 1:1 開始（每次心跳都輔助）
+- **模式**：Auto 或 Semi-Auto
+- **觸發**：ECG (R 波)
+- **Augmentation**：100%
+
+## Weaning（撤離）策略 {#sec-weaning}
+
+### 撤離時機判斷 {#sec-weaning-criteria}
+
+當病人血流動力學穩定後，可開始逐步撤離 IABP：
+
+- 不再需要強心劑支持
+- 心輸出量 (cardiac output) 改善
+- 組織灌流充足（尿量、乳酸值正常）
+- 無心律不整
+
+### 撤離步驟 {#sec-weaning-steps}
+
+: Weaning 撤離步驟 {#tbl-weaning-steps}
+
+| 步驟 | 說明 |
+|------|------|
+| **降低頻率** | 從 1:1 改為 1:2（每兩次心跳輔助一次）；觀察病人反應；可進一步降至 1:3 |
+| **降低 Augmentation** | 從 100% 逐步降低；**切勿降至 50% 以下**；低於 50% 會增加血栓形成風險 |
+
+::: {.callout-important}
+## Augmentation 絕不可低於 50%
+
+- 氣球充氣不完全 → 血流停滯 → 血栓形成風險大增 → 可能造成血管栓塞
+- **正確做法**：維持至少 50% 的 augmentation，改以降低頻率來 weaning
+:::
+
+### 1:2 模式觀察重點 {#sec-weaning-1to2}
+
+當設定為 1:2 時：
+
+- 螢幕會交替顯示輔助與未輔助的心跳
+- 可比較兩者的血壓差異
+- Unassisted beats 的收縮壓與舒張壓應接近 baseline
+- Assisted beats 的 augmented pressure 可達 114 mmHg（參考案例值）
+
+## Timing 調整 {#sec-timing}
+
+### Auto 模式的 Deflation 微調 {#sec-timing-auto}
+
+在 Auto 模式下：
+
+- 僅能調整 deflation timing
+- Inflation timing 由主機自動控制
+- 透過螢幕上的 timing 調整鈕進行微調
+
+### Semi-Auto 模式的完整調整 {#sec-timing-semiauto}
+
+Semi-Auto 模式允許同時調整：
+
+- **Inflation timing**
+- **Deflation timing**
+
+## 常見 Timing 錯誤 {#sec-timing-errors}
+
+### Early Inflation（充氣過早） {#sec-early-inflation}
+
+**特徵：**
+
+- 氣球在主動脈瓣關閉前就開始充氣
+- 充氣點在 dicrotic notch 之前
+- 舒張期增強波形侵入收縮期
+
+::: {.callout-warning}
+## 嚴重的血流動力學後果
+
+- 增加左心室後負荷
+- 妨礙心室射血
+- 增加心肌耗氧量
+- 可能造成主動脈瓣提早關閉
+- 降低每搏輸出量 (stroke volume)
+:::
+
+**處理：**
+
+1. 立即調整 inflation timing
+2. 延後充氣時間點
+3. 確保充氣發生在 dicrotic notch 之後
+
+### Late Inflation（充氣過晚） {#sec-late-inflation}
+
+**特徵：**
+
+- 氣球在主動脈瓣關閉明顯之後才充氣
+- 充氣點遠離 dicrotic notch
+- 舒張期增強效果減弱
+
+**生理影響：**
+
+- 喪失最佳的冠狀動脈灌注增強時機
+- 舒張期增強幅度不足
+- IABP 效益降低
+
+**處理：**
+
+1. 調整 inflation timing
+2. 提前充氣時間點
+3. 確保充氣發生在 dicrotic notch 處
+
+### Early Deflation（放氣過早） {#sec-early-deflation}
+
+**特徵：**
+
+- 氣球在舒張期中段就放氣
+- 放氣後可見動脈壓急劇下降
+- 舒張期增強效果縮短
+
+**生理影響：**
+
+- 舒張期輔助時間不足
+- 冠狀動脈灌注改善有限
+- 降低 IABP 的整體效益
+- 可能造成舒張壓過低
+
+**處理：**
+
+1. 調整 deflation timing
+2. 延後放氣時間點
+3. 確保維持足夠的舒張期增強時間
+
+### Late Deflation（放氣過晚） {#sec-late-deflation}
+
+**特徵：**
+
+- 氣球在下一次收縮期開始後才放氣
+- 放氣延遲至二尖瓣開啟之後
+- 影響心室充填
+
+::: {.callout-caution}
+## 最危險的 timing 錯誤
+
+- 嚴重增加左心室後負荷
+- 阻礙心室射血
+- 增加心肌耗氧量
+- 降低心輸出量
+- 可能引起血流動力學惡化
+:::
+
+**處理：**
+
+1. 立即調整 deflation timing
+2. 提前放氣時間點
+3. 確保在下一次 R 波之前完成放氣
+
+## 氣球壓力波形判讀 {#sec-balloon-waveform}
+
+### 正常波形特徵 {#sec-normal-waveform}
+
+::: {.callout-note}
+## 正常氣球壓力波形應該呈現
+
+- 清晰的充氣上升相
+- 穩定的平台期
+- 快速的放氣下降相
+- 波形飽滿，無明顯失真
+:::
+
+### 異常波形：導管扭結 {#sec-kink-waveform}
+
+如果導管扭結 (kinked)，氣球壓力波形會出現：
+
+- 波形變圓鈍
+- 失去清晰的輪廓 (loss of plateau)
+- 充氣與放氣速度變慢
+- 壓力上升幅度降低
+
+**發現扭結波形的處理：**
+
+1. 立即檢查導管路徑
+2. 調整病人姿勢
+3. 必要時重新定位導管
+4. 切勿強行使用扭結的導管
+5. 考慮更換導管
+
+## 疑難排解 {#sec-troubleshooting}
+
+### 常見問題一覽表 {#sec-common-problems}
+
+: 常見問題與處理方式 {#tbl-troubleshooting}
+
+| 問題 | 可能原因 | 處理方式 |
+|------|----------|----------|
+| ECG 訊號不清 | 導線鬆脫、貼片不良、電極乾燥 | 檢查連接、更換貼片、清潔皮膚 |
+| 觸發不穩定 | 心律不整、R 波太小、電磁干擾 | 改用壓力觸發、調整導線選擇、使用外部 ECG |
+| 氣球壓力異常 | 導管扭結、氦氣不足、導管阻塞 | 調整導管、更換氦氣罐、檢查管路 |
+| Augmentation 不佳 | Timing 錯誤、導管位置不當、氣球過小 | 調整 timing、X 光確認位置、考慮換大號 |
+
+### 緊急情況處理 {#sec-emergency}
+
+: 緊急情況處理流程 {#tbl-emergency}
+
+| 緊急狀況 | 立即處理 |
+|----------|----------|
+| **氣球破裂** | 1. 立即停止 IABP → 2. 通知醫師 → 3. 準備移除導管 → 4. 監測栓塞徵象 → 5. 記錄事件時間與狀況 |
+| **肢體缺血** | 1. 評估肢體脈搏 → 2. 通知醫師 → 3. 考慮降低頻率 → 4. 必要時移除 IABP → 5. 準備血管評估 |
+| **心跳停止** | 1. 切換至 Internal 模式 → 2. 固定頻率 80 次/分 → 3. 開始 CPR → 4. 按 ACLS 流程處理 |
+
+## 日常照護與監測 {#sec-daily-care}
+
+### 每小時檢查項目 {#sec-hourly-check}
+
+**IABP 監測檢查表：**
+
+- [ ] ECG 波形清晰，無干擾
+- [ ] 動脈壓波形正常，有舒張期增強
+- [ ] 氣球壓力波形正常，無扭結跡象
+- [ ] Timing 正確（無 early/late inflation/deflation）
+- [ ] 數值合理（augmented pressure > systolic pressure）
+- [ ] 氦氣壓力充足
+- [ ] 無警報訊號
+- [ ] 導管固定良好，無移位
+- [ ] 穿刺部位乾燥，無滲血
+- [ ] 患側肢體脈搏存在，溫暖
+- [ ] 無神經學症狀（麻木、刺痛）
+- [ ] 尿量充足
+
+### 每班交接重點 {#sec-shift-handoff}
+
+- 目前設定（模式、頻率、augmentation）
+- Timing 調整歷程
+- 血流動力學變化
+- 併發症監測結果
+- Weaning 計畫
+- 特殊注意事項
+
+## 併發症認識與預防 {#sec-complications}
+
+### 主要併發症 {#sec-major-complications}
+
+: IABP 主要併發症 {#tbl-complications}
+
+| 併發症 | 發生率 | 預防與處理 |
+|--------|--------|-----------|
+| 肢體缺血 (Limb ischemia) | 2–5% | 定時評估肢體脈搏、選擇合適鞘管尺寸、及早發現及早處理 |
+| 穿刺點出血 | 5–10% | 維持適當 ACT、固定導管、觀察滲血 |
+| 氣球破裂 | <0.5% | 定期檢查壓力波形、避免過度充氣、注意導管扭結 |
+| 感染 | 1–2% | 無菌操作、縮短留置時間、監測感染徵象 |
+| 血栓形成 | 1–3% | 維持 augmentation ≥50%、抗凝治療、避免長時間低頻率 |
+
+## 教學重點總結 {#sec-summary}
+
+### 核心操作原則 {#sec-core-principles}
+
+::: {.callout-tip}
+## 記住這五個核心原則
+
+1. **正確連接**：確保所有電纜與導管連接正確
+2. **精準 timing**：充氣在 dicrotic notch，放氣在下次 R 波前
+3. **安全 weaning**：augmentation 不低於 50%，逐步降低頻率
+4. **警覺監測**：每小時檢查波形與肢體狀況
+5. **即時處理**：發現異常立即調整或通知醫師
+:::
+
+### 常見錯誤與避免 {#sec-common-mistakes}
+
+: 常見錯誤與正確做法 {#tbl-mistakes}
+
+| 常見錯誤 | 正確做法 |
+|----------|----------|
+| Augmentation 降至 50% 以下 | 維持 ≥50%，改降低頻率 |
+| 忽略波形變化 | 每小時仔細檢查波形 |
+| Timing 錯誤未修正 | 發現立即調整 |
+| 肢體評估不確實 | 每 2 小時完整評估 |
+| 氣球破裂延遲處理 | 發現立即停機通知醫師 |
+
+## 學習評估 {#sec-assessment}
+
+### 自我檢測題 {#sec-quiz}
+
+1. CS300 主機側邊口袋內有哪三條電纜？各有何功能？
+2. 7Fr 與 8Fr 氣球的適用身高範圍各是多少？
+3. Auto 與 Semi-Auto 模式的主要差異為何？
+4. 什麼情況下使用 Internal 觸發模式？
+5. Early inflation 的生理影響有哪些？
+6. Late deflation 為何是最危險的 timing 錯誤？
+7. Weaning 時 augmentation 可降至多低？為什麼？
+8. 如何從波形判斷導管扭結？
+9. 肢體缺血的發生率與監測頻率為何？
+10. 氣球破裂的緊急處理步驟為何？
+
+### 參考答案 {#sec-answers}
+
+1. **外部訊號電纜**：連接監視器，接收 ECG 與壓力；**內部壓力電纜**：連接壓力 transducer（少用）；**內部 ECG 電纜**：直接連接病人 ECG
+2. 7Fr 40mL：162–183cm；8Fr 50mL：>183cm
+3. Auto：主機自動選擇，僅能調 deflation；Semi-Auto：手動選擇，可調 inflation 與 deflation
+4. 僅用於無心臟機械活動時，如心肺 bypass 或 asystole
+5. 增加後負荷、妨礙射血、增加耗氧、降低每搏輸出量
+6. 因為在收縮期開始後才放氣，嚴重阻礙射血，增加後負荷最多
+7. 不可低於 50%，因會導致血流停滯與血栓形成
+8. 波形變圓鈍，失去 plateau，充放氣速度變慢
+9. 發生率 2–5%，每 2 小時評估脈搏、顏色、溫度
+10. 立即停止 IABP → 通知醫師 → 準備移除導管 → 監測栓塞 → 記錄
+
+---
+
+*本講義改編自 Prague ICU 教學影片 — Intra-aortic balloon pump troubleshooting*
+*編輯：謝慕揚 MD, PhD, FESC；林炆輝 放射師 RT*
+*Assisted by yt-dlp, OpenAI-Whisper, and Claude.ai*
+*僅供教學使用，請勿用於商業用途*
