@@ -1,0 +1,1077 @@
+# n engl j med 394;4  nejm.org  January 22, 2026
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-26**
+
+---
+
+established in 1812	
+January 22, 2026	
+vol. 394 
+no. 4
+The new england  
+journal of medicine
+Author affiliations are listed at the end of 
+the article. Atul Verma can be contacted at 
+­atul​.­verma@​­mcgill​.­ca or at McGill Univer-
+sity Health Centre, D.13.173, 1650 Cedar 
+Ave., Montreal, QC H3G 1A4, Canada. David 
+H. Birnie can be contacted at ­dbirnie@​
+­ottawaheart​.­ca or at the University of Otta-
+wa Heart Institute, 40 Ruskin St., Ottawa, 
+ON K1Y 4W7, Canada. *A complete list of the OCEAN investiga-
+tors is provided in the Supplementary Ap-
+pendix, available at NEJM.org. Atul Verma and David H. Birnie contributed 
+equally to this article. This article was published on November 8, 
+2025, at NEJM.org. N Engl J Med 2026;394:323-32. DOI: 10.1056/NEJMoa2509688
+Copyright © 2025 Massachusetts Medical Society. BACKGROUND
+Whether successful catheter ablation for atrial fibrillation eliminates the need for 
+long-term oral anticoagulant therapy is unknown. METHODS
+We conducted an international, open-label, randomized, blinded-outcome-assessment 
+trial involving 1284 patients who had undergone successful catheter ablation for 
+atrial fibrillation at least 1 year earlier and had a CHA2DS2-VASc score (scores range 
+from 0 to 9, with higher scores indicating a higher risk of stroke) of 1 or more (or 
+≥2 for women or for patients in whom vascular disease was a risk factor). Patients 
+were randomly assigned to receive either aspirin (at a dose of 70 to 120 mg daily, 
+depending on availability in the local jurisdiction) or rivaroxaban (at a dose of 15 mg) 
+and followed for 3 years. Magnetic resonance imaging (MRI) of the head was per-
+formed after enrollment and at 3 years. The primary outcome was a composite of 
+stroke, systemic embolism, or new covert embolic stroke (defined by ≥1 new infarct 
+measuring ≥15 mm on MRI) at 3 years. RESULTS
+A total of 641 patients were assigned to the rivaroxaban group and 643 to the aspirin 
+group. A primary-outcome event occurred in 5 patients (0.31 events per 100 patient-
+years) in the rivaroxaban group and in 9 patients (0.66 events per 100 patient-years) in 
+the aspirin group (relative risk, 0.56; 95% confidence interval [CI], 0.19 to 1.65; abso-
+lute risk difference at 3 years, −0.6 percentage points; 95% CI, −1.8 to 0.5; P = 0.28). 
+New cerebral infarcts measuring less than 15 mm occurred in 22 of 568 patients 
+(3.9%) in the rivaroxaban group and in 26 of 590 patients (4.4%) in the aspirin group 
+(relative risk, 0.89; 95% CI, 0.51 to 1.55). Fatal or major bleeding (the composite 
+primary safety outcome) had occurred in 10 patients (1.6%) with rivaroxaban and 
+in 4 patients (0.6%) with aspirin (hazard ratio, 2.51; 95% CI, 0.79 to 7.95) at 3 years. CONCLUSIONS
+Among patients who had had successful catheter ablation for atrial fibrillation at 
+least 1 year earlier and had risk factors for stroke, treatment with rivaroxaban did 
+not result in a significantly lower incidence of a composite of stroke, systemic 
+embolism, or new covert embolic stroke than treatment with aspirin. (Funded by 
+Bayer and others; OCEAN ClinicalTrials.gov number, NCT02168829.)
+abstr act
+Antithrombotic Therapy after Successful Catheter Ablation  
+for Atrial Fibrillation
+Atul Verma, M.D.,1 David H. Birnie, M.D.,2 Chenyang Jiang, M.D., Ph.D.,3 Hein Heidbüchel, M.D.,4 
+Gerhard Hindricks, M.D.,5 Paulus Kirchhof, M.D., D.Sc.,6,7 Jeff S. Healey, M.D.,8 Yunhe Wang, M.D.,3 
+Nikolaos Dagres, M.D.,5 Marc W. Deyell, M.D.,9 Prashanthan Sanders, M.B., B.S., Ph.D.,10 
+Rajeev K. Pathak, M.B., B.S., Ph.D.,11 Pieter Koopman, M.D.,12 Dieter Nuyens, M.D.,13 Paul Novak, M.D.,14 Guy Amit, M.D.,8 
+Charles Dussault, M.D.,15 Bhavanesh Makanjee, M.D.,16 F. Russell Quinn, M.D.,17 Umjeet Jolly, M.D.,18 Leon Iden, M.D.,19 
+Malte Kuniss, M.D.,20 Mukul Sharma, M.D.,8 Andrew Ha, M.D.,21 Vidal Essebag, M.D., Ph.D.,1 Jean Champagne, M.D.,22 
+Michael D. Hill, M.D.,23 Eric E. Smith, M.D., M.P.H.,23 and George A. Wells, Ph.D.,2 for the OCEAN Investigators*​
+CME
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+The new engl and jour nal of medicine
+C
+atheter ablation is an established 
+therapy for the treatment of atrial fibril-
+lation and is superior to medical therapy 
+in reducing the recurrence and burden of atrial 
+fibrillation.1 A low burden of atrial fibrillation has 
+been associated with a decreased risk of stroke,2-4 
+but it is unclear whether successful catheter ab-
+lation reduces the risk of stroke enough that the 
+risk–benefit ratio does not support the need for 
+oral anticoagulant therapy. Consequently, current 
+guidelines state that anticoagulation should be 
+continued indefinitely after atrial fibrillation abla-
+tion on the basis of the patient’s stroke risk profile 
+and not the apparent success of the procedure.1,5 
+These recommendations are based on evidence 
+from small, nonrandomized studies.6-14
+The risks and benefits of ongoing anticoagu-
+lation after successful atrial fibrillation ablation 
+remain unclear. The purpose of this trial was to 
+evaluate whether ongoing anticoagulation with 
+rivaroxaban would be superior to aspirin for the 
+prevention of stroke, systemic embolism, and 
+covert embolic stroke in patients with risk factors 
+for stroke who had undergone successful catheter 
+ablation for atrial fibrillation. Methods
+Design and Oversight
+The Optimal Anticoagulation for Enhanced Risk 
+Patients Post-Catheter Ablation for Atrial Fibril-
+lation (OCEAN) trial was an investigator-initiated, 
+prospective, open-label, randomized, blinded-
+outcome-assessment trial that was conducted at 
+56 sites in 6 countries. A list of participating sites 
+and committees is provided in the Supplemen-
+tary Appendix, available with the full text of this 
+article at NEJM.org. The trial design has been reported previ-
+ously,15,16 and the trial protocol is available at 
+NEJM.org. The protocol was approved by the ethics 
+committee at each site and by any required na-
+tional authorities. An independent data and safety 
+monitoring board monitored the trial conduct, 
+data management, and patient safety. All the pa-
+tients provided written informed consent. The trial was managed by the University of 
+Ottawa Heart Institute (UOHI) Cardiovascular Re-
+search Methods Centre under the supervision of 
+the first two authors and the last author, who 
+vouch for the completeness and accuracy of the 
+data and for the fidelity of the trial to the protocol. 
+An interim analysis was initially planned after 
+all the patients had undergone magnetic reso-
+nance imaging (MRI) of the head at 1 year, but 
+the requirement for this imaging study was ulti-
+mately removed because of the coronavirus dis-
+ease 2019 pandemic; therefore, the interim analy-
+sis was removed from the protocol in July 2021. 
+All statistical analyses were performed by UOHI 
+statisticians. The first two authors drafted the 
+manuscript, and all the authors made the deci-
+sion to submit the article for publication and 
+provided review and revisions. Funding was pro-
+vided by Bayer, Abbott, Biotronik, the Canadian 
+Institutes of Health Research, the UOHI Acceler-
+ate funding program, the Canadian Stroke Preven-
+tion Intervention Network, the Brain-Heart In-
+terconnectome Canada First Research Excellence 
+Fund, and the Rosenfeld Heart Foundation. None 
+of the funders were involved in the data analysis 
+or the preparation of the manuscript. Patients
+Eligible patients had undergone successful cath-
+eter ablation for nonvalvular atrial fibrillation at 
+least 1 year before enrollment. A successful abla-
+tion procedure was defined by no clinical evidence 
+of any atrial arrhythmia and no atrial arrhythmia 
+lasting longer than 30 seconds on at least one 
+24-hour Holter monitor study between 2 and 6 
+months after the ablation procedure and on at 
+least one 24-hour Holter monitor study at any time 
+after 6 months after the ablation procedure. In ac-
+cordance with the protocol, patients also under-
+went additional 48-hour Holter monitoring dur-
+ing the 2 months before enrollment. Patients had 
+to have a CHA2DS2-VASc score of 1 or more or a 
+score of 2 or more for women and for patients 
+in whom vascular disease was a risk factor (scores 
+range from 0 to 9, with higher scores indicating 
+a higher risk of stroke).17
+Patients were excluded if they had a creati-
+nine clearance of less than 30 ml per minute, if 
+they had a contraindication to anticoagulant or 
+antiplatelet therapy, if they had a contraindication 
+to MRI, if they had valvular atrial fibrillation 
+(associated with rheumatic mitral-valve disease 
+or mechanical valve replacement), if they had had 
+a disabling stroke within the past year or any 
+stroke within 14 days before enrollment, if they 
+had a hypercoagulability disorder or a known in-
+tracranial vascular anomaly, or if they were older 
+than 85 years of age. A Quick Take 
+is available at 
+NEJM.org
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+Antithrombotic Therapy after Catheter Ablation
+Interventions
+Patients were randomly assigned in a 1:1 ratio to 
+receive either aspirin at a dose of 70 to 120 mg 
+daily (depending on availability in the local juris-
+diction) or rivaroxaban at a dose of 15 mg dai-
+ly.15,16 Aspirin was chosen because, although it 
+may provide minimal benefit for a reduction in 
+the risk of stroke in patients with atrial fibrilla-
+tion who have a very low risk of stroke,17 it may 
+provide greater benefit in patients with a higher 
+stroke risk.18 Rivaroxaban at a dose of 15 mg has 
+pharmacokinetic properties that are similar to 
+those of the 20-mg dose but with a lower bleeding 
+risk, and the 15-mg dose has been evaluated in 
+other trials.19-23
+Randomization was performed by means of a 
+Web-based system with the use of blocks of vary-
+ing sizes and was stratified according to trial site. 
+For patients who were unable to take aspirin owing 
+to adverse effects, no antiplatelet agent was given; 
+for patients who were unable to take rivaroxaban 
+because of adverse effects, an alternative direct oral 
+anticoagulant was allowed. For cases in which 
+patients underwent cardioversion, acute coronary 
+intervention, or an interventional or surgical pro-
+cedure, the strategy for the temporary addition, 
+switching, or interruption of anticoagulant or 
+antiplatelet therapy was detailed in the trial pro-
+tocol and is also provided in the Supplementary 
+Appendix. By design, patients who underwent re-
+peat ablation procedures for atrial fibrillation dur-
+ing the 3-year follow-up period were withdrawn 
+from the trial. All the patients underwent MRI of the head at 
+baseline, and surviving patients underwent a sec-
+ond MRI at the 3-year follow-up visit to detect co-
+vert embolic stroke. The first 658 enrolled patients 
+also underwent MRI at 1 year until the protocol 
+was modified. The methods and techniques for 
+performing MRI of the head are provided in the 
+Supplementary Appendix. The imaging core lab-
+oratory was at the University of Calgary. Patients had in-person follow-up visits at 6 
+months, 12 months, and then annually through 
+3 years. However, during the pandemic, telephone 
+follow-up was allowed. Cardiac testing or moni-
+toring was performed as clinically indicated. Outcomes
+The primary outcome was a composite of stroke, 
+systemic embolism, or new covert embolic stroke 
+detected by MRI of the head at 3 years. Covert 
+embolic stroke was defined by at least one new 
+cerebral infarct measuring at least 15 mm that 
+was detected between the baseline MRI and the 
+MRI at 3 years.24 The primary safety outcome, a 
+composite of fatal bleeding or major bleeding, 
+was defined in accordance with the International 
+Society on Thrombosis and Haemostasis.25 Data 
+for all clinical outcomes were adjudicated by a 
+committee whose members were unaware of the 
+treatment assignments. All MRI scans of the head 
+were independently reviewed by two core labora-
+tory readers who were unaware of the treatment 
+assignments. Discrepancies were resolved by con-
+sensus. Key secondary outcomes were the individual 
+components of the primary efficacy outcome; the 
+composite of stroke or systemic embolism; major, 
+minor, and clinically relevant nonmajor bleed-
+ing; intracranial hemorrhage; transient ischemic 
+attack; new cerebral infarcts measuring less than 
+15 mm; and death from any cause. A full list of 
+the secondary outcomes is provided in Table S1 
+in the Supplementary Appendix. Statistical Analysis
+We calculated a sample size of 1572 patients. 
+This number was based on a risk of stroke and 
+systemic embolism of 1.6% per year and a risk 
+of covert embolic stroke of 1.9% per year, result-
+ing in a combined risk of a primary-outcome event 
+of 3.5% per year. Patients who underwent repeat 
+ablation for atrial fibrillation during follow-up 
+were withdrawn from the trial; the percentage of 
+patients who were expected to be withdrawn for 
+this reason was assumed to be 1.25% per year. We 
+assumed a 2% loss to follow-up over the course of 
+3 years. Crossovers were defined as patients who 
+switched from their assigned treatment to the 
+other treatment for more than 3 months. Patients 
+who temporarily switched to the other therapy 
+in accordance with the trial protocol because of 
+undergoing cardioversion, coronary intervention, 
+or an invasive procedure were not considered to 
+be crossovers. Given the current guidelines fa-
+voring anticoagulation, we assumed that the in-
+cidence of crossovers would be 3.75% in the as-
+pirin group and 1.5% in the rivaroxaban group 
+over the course of 3 years. On the basis of these 
+assumptions, the trial had 80% power to detect a 
+relative reduction of 40% in the risk of a primary-
+outcome event in the rivaroxaban group with a 
+two-sided alpha level of 0.05. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+The new engl and jour nal of medicine
+An interim analysis was initially planned but 
+later removed from the protocol when the re-
+quirement for MRI at 1 year was removed. There-
+fore, there were no formal rules for stopping the 
+trial for efficacy or futility beyond the judgment 
+of the data and safety monitoring board. The primary efficacy and safety outcomes 
+were analyzed in the intention-to-treat popula-
+tion, which was defined as all the patients who 
+had undergone randomization. The primary ef-
+ficacy outcome was analyzed with the use of a 
+chi-square test and reported with a relative risk 
+and an absolute risk difference with 95% confi-
+dence intervals. A logistic-regression model that 
+included key variables was used to assess the 
+consistency of the treatment effect. The primary 
+safety outcome was assessed in a time-to-event 
+analysis with the use of the Kaplan–Meier method 
+with a hazard ratio and 95% confidence inter-
+val. A nonparametric log-rank test was used to 
+compare the primary safety outcome in the two 
+groups. Dichotomous secondary outcomes were ana-
+lyzed in the intention-to-treat population with 
+the same methods that were used for the primary 
+efficacy outcome. Time-to-event secondary out-
+comes, such as stroke or systemic embolism and 
+the bleeding outcomes, were analyzed by means 
+of the Kaplan–Meier method with a nonparametric 
+log-rank test. A Cox proportional-hazards model 
+was used to assess the consistency of the treat-
+ment effect. In the event that death was a compet-
+ing risk, the Fine–Gray subdistribution hazard 
+model was used to compare cumulative incidence 
+curves. The treatment effect on the primary out-
+come was also compared in prespecified sub-
+groups. For the secondary outcomes, the widths 
+of the confidence intervals have not been adjusted 
+for multiplicity, so the intervals should not be 
+used to infer definitive treatment effects. Analyses of the primary and secondary out-
+comes were repeated for the per-protocol popula-
+tion, which was defined as patients who received 
+the intended treatment, did not have any major 
+protocol violations, and were not lost to follow-
+up. Categorical data are presented as numbers 
+and percentages. Continuous data are presented 
+as means with standard deviations or as medians 
+with interquartile ranges. All the analyses were 
+conducted with the use of SAS software, version 
+9.4 (SAS Institute). Additional details regarding 
+the statistical methods are provided in the statis-
+tical analysis plan (available with the protocol). Results
+Patients
+On May 19, 2022, the data and safety monitoring 
+board recommended stopping enrollment in the 
+trial because of a high likelihood that completion 
+of the trial would not show a benefit of rivaroxa­
+ban for the primary outcome; an increased risk of 
+nonmajor bleeding was also noted. All the pa-
+tients who had already provided written informed 
+consent were allowed to undergo randomization, 
+and follow-up of all the patients who had under-
+gone randomization was permitted while they 
+continued to receive their assigned treatment, with 
+ongoing oversight by the data and safety monitor-
+ing board. Investigators were not made aware of 
+any interim trial results. Between March 30, 2016, and July 25, 2022, a 
+total of 1284 patients underwent randomization, 
+and all were included in the intention-to-treat 
+analysis (Fig. 1). Because of unacceptable adverse 
+effects from the assigned trial medication, 34 pa-
+tients received an alternative direct oral anticoagu-
+lant instead of rivaroxaban and 7 patients received 
+no antiplatelet therapy instead of aspirin, as al-
+lowed by the trial protocol. Death occurred in 
+10 patients in the rivaroxaban group and in 7 pa-
+tients in the aspirin group. Only 4 patients in 
+each group were lost to follow-up. In accordance 
+with the protocol, a total of 71 patients were with-
+drawn from the trial owing to repeat ablation for 
+atrial fibrillation during the follow-up period. 
+Excluding withdrawals from the trial, 1104 of 
+1134 patients (97.4%) underwent MRI of the head 
+at 3 years. The median duration of follow-up was 
+36.0 months (interquartile range, 35.5 to 36.9). The characteristics of the patients at baseline 
+are shown in Table 1 and Table S2, and the rep-
+resentativeness of the trial population is shown 
+in Table S3. Patients were enrolled a median of 
+16.4 months (interquartile range, 13.5 to 25.2) af-
+ter their last ablation procedure. The mean (±SD) 
+age of the patients was 66.3±7.3 years, and 28.6% 
+were women. The mean CHA2DS2-VASc score was 
+2.2±1.1, and 31.9% of the patients had a score of 
+3 or higher. Primary Efficacy Outcome
+A primary-outcome event occurred in 5 patients 
+(0.8%) in the rivaroxaban group and in 9 patients 
+(1.4%) in the aspirin group (relative risk, 0.56; 
+95% confidence interval [CI], 0.19 to 1.65; abso-
+lute risk difference at 3 years, −0.6 percentage 
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+Antithrombotic Therapy after Catheter Ablation
+points; 95% CI, −1.8 to 0.5; P = 0.28) (Table  2), 
+corresponding to an annualized rate of 0.31 events 
+per 100 patient-years with rivaroxaban and 0.66 
+events per 100 patient-years with aspirin. The 
+results of a sensitivity analysis of the primary 
+outcome with adjustment for key variables ap-
+peared to be similar to those of the unadjusted 
+analysis (Table S4). The number of patients that 
+would need to be treated to prevent one primary-
+outcome event or one individual component of 
+the primary outcome is shown in Table S5. The 
+results of analyses of the primary efficacy out-
+come in prespecified subgroups seemed to be 
+consistent with those of the main analysis (Fig. 
+S1 and Table S6). Secondary Efficacy Outcomes
+The incidence of the individual components of 
+the primary efficacy outcome is shown in Table 2. 
+Stroke or systemic embolism occurred in 0.8% of 
+the patients in the rivaroxaban group and in 1.1% 
+of those in the aspirin group (relative risk, 0.72; 
+95% CI, 0.23 to 2.25) (Fig. 2). The incidence of 
+new covert embolic stroke also was not substan-
+tially different in the two groups, occurring in no 
+patients in the rivaroxaban group and in 0.3% of 
+those in the aspirin group. New cerebral infarcts 
+measuring less than 15 mm occurred in 22 of 
+568 patients (3.9%) in the rivaroxaban group 
+and in 26 of 590 patients (4.4%) in the aspirin 
+group (relative risk, 0.89; 95% CI, 0.51 to 1.55) 
+(Table S7). Safety Outcomes
+Fatal or major bleeding (the primary safety out-
+come) occurred in 10 patients (1.6%) in the riva-
+roxaban group and in 4 patients (0.6%) in the 
+aspirin group (hazard ratio, 2.51; 95% CI, 0.79 
+to 7.95) (Table 3 and Fig. S2). The incidence of the 
+individual components of the safety outcome, 
+specifically fatal bleeding and major bleeding, 
+did not appear to be substantially different in 
+the two groups (Table 3). Clinically relevant non-
+major bleeding occurred in 5.5% of the patients 
+in the rivaroxaban group, as compared with 1.6% 
+of those in the aspirin group (hazard ratio, 3.51; 
+95% CI, 1.75 to 7.03) (Fig. S3). The incidence of 
+minor bleeding was also higher in the rivaroxa-
+ban group. The numbers of patients that would 
+need to be treated to result in harm are shown 
+in Table S8. Summaries of all major adverse 
+events that occurred during the trial are provid-
+ed in Tables S9 and S10. Per-Protocol Analyses
+Analyses of the primary efficacy and safety out-
+comes were performed in the per-protocol popu-
+lation. The results did not appear to differ mark-
+edly from those of the analyses performed in the 
+intention-to-treat population (Tables S11 and S12). Discussion
+Among patients who had undergone ablation for 
+atrial fibrillation at least 1 year before enroll-
+ment and did not have recurrent atrial tachyar-
+rhythmia, treatment with rivaroxaban did not 
+lead to a significantly lower incidence of stroke, 
+systemic embolism, or new covert embolic stroke 
+(the primary composite outcome) than treatment 
+with aspirin. The incidence of stroke or new 
+covert embolic stroke in both groups was much 
+lower than anticipated. Overall, 96% of the pa-
+tients in both groups had no evidence of new 
+cerebral infarcts on MRI at 3 years. The inci-
+dence of fatal bleeding and major bleeding was 
+Figure 1. Randomization and Follow-up. 1284 Patients underwent randomization
+1 Did not receive
+intervention
+40 Discontinued intervention
+35 Had repeat ablation
+5 Had other reason
+2 Were noncompliant
+3 Were withdrawn by investigator
+10 Died
+4 Were lost to follow-up
+24 Withdrew
+39 Discontinued intervention
+36 Had repeat ablation
+3 Were noncompliant
+7 Died
+4 Were lost to follow-up
+21 Withdrew
+641 Were assigned to receive
+rivaroxaban
+643 Were assigned to receive
+aspirin
+563 Completed final visit
+571 Completed final visit
+641 Were included in main analyses
+of primary and secondary outcomes
+643 Were included in main analyses
+of primary and secondary outcomes
+641 Received assigned intervention
+642 Received assigned intervention
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+The new engl and jour nal of medicine
+Table 1. Demographic and Clinical Characteristics of the Patients at Baseline.*
+Characteristic
+Rivaroxaban 
+(N = 641)
+Aspirin 
+(N = 643)
+Demographics
+Age — yr
+66.3±7.1
+66.3±7.6
+Male sex — no. (%)
+458 (71.5)
+459 (71.4)
+Atrial fibrillation history
+Median time since first atrial fibrillation ablation (IQR) — mo
+19.3 (13.9–35.7)
+19.3 (14.2–31.3)
+Median time since most recent atrial fibrillation ablation (IQR) — mo
+16.4 (13.4–25.2)
+16.5 (13.6–25.2)
+Total no. of ablations for atrial fibrillation or atrial tachyarrhythmia — no. (%)
+484 (75.5)
+504 (78.4)
+133 (20.7)
+105 (16.3)
+≥3
+24 (3.7)
+34 (5.3)
+Type of atrial fibrillation — no. (%)
+Paroxysmal
+431 (67.2)
+421 (65.5)
+Persistent
+204 (31.8)
+212 (33.0)
+Long-standing persistent
+6 (0.9)
+10 (1.6)
+Total HAS-BLED score†
+1.4±0.9
+1.3±0.8
+Coexisting conditions
+Hypertension — (%)
+442 (69.0)
+434 (67.5)
+Diabetes — (%)
+96 (15.0)
+77 (12.0)
+Stroke — (%)
+Ischemic
+7 (1.1)
+17 (2.6)
+Hemorrhagic
+2 (0.3)
+Uncertain
+3 (0.5)
+6 (0.9)
+Transient ischemic attack — (%)
+18 (2.8)
+25 (3.9)
+Coronary artery disease — (%)
+74 (11.5)
+68 (10.6)
+Ischemic cardiomyopathy — (%)
+9 (1.4)
+6 (0.9)
+Nonischemic cardiomyopathy — (%)
+15 (2.3)
+20 (3.1)
+Peripheral vascular disease — (%)
+9 (1.4)
+9 (1.4)
+Clinically significant carotid artery disease — (%)
+2 (0.3)
+4 (0.6)
+CHA2DS2-VASc score‡
+Mean
+2.2±1.1
+2.2±1.1
+Distribution — no. (%)
+194 (30.3)
+196 (30.5)
+241 (37.6)
+243 (37.8)
+138 (21.5)
+127 (19.8)
+≥4
+68 (10.6)
+77 (12.0)
+Echocardiography§
+Ejection fraction — %
+61.8±7.1
+61.5±7.3
+Left ventricular function — no. (%)
+Normal
+476 (99.2)
+453 (97.8)
+Abnormal
+4 (0.8)
+10 (2.2)
+Mild impairment
+4 (0.8)
+6 (1.3)
+Moderate impairment
+3 (0.6)
+Severe impairment
+1 (0.2)
+Left atrial diameter — mm¶
+40.7±16.0
+40.4±19.2
+*	Plus–minus values are means ±SD. Baseline data were collected at the time of randomization. Percentages may not 
+total 100 because of rounding. IQR denotes interquartile range. †	HAS-BLED scores reflect the risk of major bleeding. Scores range from 0 to 9, with higher scores indicating a higher 
+risk of major bleeding. ‡	Scores range from 0 to 9, with higher scores indicating a higher risk of stroke. For women and for patients in whom 
+vascular disease was a risk factor, a score of 2 or higher was required for inclusion in the trial. §	A total of 161 patients in the rivaroxaban group and 180 patients in the aspirin group had missing data. ¶	The normal diameter is less than 40 mm. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+Antithrombotic Therapy after Catheter Ablation
+similar in the two groups, whereas the incidence 
+of minor and clinically relevant nonmajor bleeding 
+was higher with rivaroxaban than with aspirin. Current guidelines recommend continuing anti-
+coagulant therapy indefinitely in patients with risk 
+factors for stroke after ablation regardless of the 
+success of the procedure.1,5 This is because abla-
+tion may reduce the burden of atrial fibrillation 
+but does not eliminate it1,26; even brief durations 
+of atrial fibrillation may increase the risk of 
+stroke,2 and stroke risk among patients with 
+atrial fibrillation is assessed on the basis of risk 
+factors and not the duration of atrial fibrillation.17 
+Among the patients with risk factors for stroke 
+after successful ablation for atrial fibrillation 
+in our trial, strokes were rare, and we could not 
+detect a benefit of continuing anticoagulation. The rates of a primary-outcome event were 
+much lower than anticipated, with an annualized 
+rate of a composite of stroke, systemic embolism, 
+or new covert embolic stroke detected by head 
+MRI at 3 years of 0.31 events per 100 patient-
+years in the rivaroxaban group and 0.66 events 
+per 100 patient-years in the aspirin group. In con-
+trast, in a trial involving patients with clinical 
+atrial fibrillation who had not undergone abla-
+tion but had a stroke risk similar to that seen in 
+our trial population, annualized rates of stroke 
+of 1.6% for anticoagulant therapy and 3.7% for 
+aspirin were observed.27 Furthermore, in a popu-
+lation of patients with subclinical atrial fibrilla-
+tion, the annualized rate of stroke was 0.85% with 
+anticoagulant therapy and 0.97% with aspirin.28 
+The annualized rate of stroke in our trial is simi-
+lar to that of patients with a CHA2DS2-VASc risk 
+score of 2 and no history of atrial fibrillation.29
+One explanation for the low stroke risk is that 
+it is plausible that catheter ablation reduces the 
+Table 2. Primary and Secondary Efficacy Outcomes.*
+Outcome
+Rivaroxaban 
+(N = 641)
+Aspirin 
+(N = 643)
+Relative Risk 
+(95% CI)
+Absolute Risk 
+Difference 
+(95% CI)†
+Primary composite outcome: stroke, systemic  
+embolism, or new covert embolic stroke
+No. of patients (%)
+5 (0.8)
+9 (1.4)
+0.56 (0.19 to 1.65)
+−0.6 (−1.8 to 0.5)‡
+Annualized rate — events per 100 patient-yr
+0.31
+0.66
+—
+—
+Components of primary outcome
+All stroke
+No. of patients (%)
+5 (0.8)
+7 (1.1)
+0.72 (0.23 to 2.25)
+−0.3 (−1.4 to 0.7)
+Annualized rate — events per 100 patient-yr
+0.31
+0.58
+—
+—
+Systemic embolism
+No. of patients (%)
+—
+—
+Annualized rate — events per 100 patient-yr
+—
+—
+New covert embolic stroke
+No. of patients (%)
+2 (0.3)
+−0.3 (−0.7 to 0.1)
+Annualized rate — events per 100 patient-yr
+0.08
+—
+—
+Other secondary outcomes
+All stroke or systemic embolism
+No. of patients (%)
+5 (0.8)
+7 (1.1)
+0.72 (0.23 to 2.25)
+−0.3 (−1.4 to 0.7)
+Annualized rate — events per 100 patient-yr
+0.29
+0.58
+—
+—
+Transient ischemic attack
+No. of patients (%)
+1 (0.2)
+5 (0.8)
+0.20 (0.02 to 1.71)
+−0.6 (−1.4 to 0.1)
+Annualized rate — events per 100 patient-yr
+0.05
+0.26
+—
+—
+*	The widths of the confidence intervals for the components of the primary outcome and secondary outcomes have not been adjusted for 
+multiplicity and should not be used to infer a treatment effect. †	Differences are expressed as percentage points. ‡	P = 0.28. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+The new engl and jour nal of medicine
+burden of atrial fibrillation to the point where 
+the risk of stroke is similar to that in a population 
+of patients without atrial fibrillation in whom 
+stroke is predominantly caused by nonembolic 
+events. It is also possible that, because of selec-
+tion bias, patients who undergo atrial fibrillation 
+ablation are at lower risk of stroke than their 
+risk score would suggest. For example, our trial 
+included few patients with a history of stroke. 
+Given such low event rates, a sample size of more 
+than 11,000 patients would have been needed to 
+detect a relative reduction of 40% in the risk of 
+stroke in the rivaroxaban group. We included the use of head MRI to ensure 
+that subtle embolic cerebral events were not 
+missed. The fact that 96% of the patients in our 
+trial had no evidence of new infarcts over the 
+course of 3 years provides confidence in the low 
+event rate observed in this trial. Covert embolic 
+stroke was included as part of the primary com-
+posite outcome because it is associated with an 
+increased risk of clinical stroke, cognitive decline, 
+and death,30,31 and it has been used as an out-
+come in previous clinical trials.32-34 The ratio of 
+covert embolic stroke to clinical stroke has been 
+reported to be 1:1 to 3:1 among anticoagulant-
+treated and untreated patients,32,34 so inclusion of 
+new covert embolic stroke in our primary out-
+come reduced our calculated sample size. How-
+ever, the rates of new covert embolic stroke were 
+so low in our trial population that we still could 
+not detect any benefit for anticoagulation. The incidence of major bleeding and fatal bleed-
+ing was also low and did not appear to be mark-
+edly different in the two groups. As expected, 
+clinically relevant nonmajor bleeding and minor 
+bleeding were more common with anticoagula-
+tion. For patients with atrial fibrillation after suc-
+cessful ablation who have a risk of stroke that is 
+similar to that of the patients in this trial, con-
+tinuation of either aspirin or anticoagulation may 
+be reasonable, but patients should be aware that 
+anticoagulation carries an increased risk of clini-
+cally relevant bleeding. Our findings are similar to those of the 
+ALONE-AF (Anticoagulation One Year after Ab-
+lation of Atrial Fibrillation in Patients with Atrial 
+Fibrillation) trial — another trial that involved 
+patients who had undergone ablation; the annual-
+ized rate of stroke among patients with a median 
+CHA2DS2-VASc score of 2 was approximately 
+0.4%.35 Key differences between the ALONE-AF 
+trial and our trial are that our trial included more 
+randomly assigned patients, the duration of follow-
+up was longer in our trial, and all the patients 
+in our trial underwent MRI of the head. In the 
+Table 3. Safety Outcomes.*
+Outcome
+Rivaroxaban 
+(N = 641)
+Aspirin 
+(N = 643)
+Hazard Ratio 
+(95% CI)
+no. of patients (%)
+Primary composite safety outcome: fatal bleeding  
+or major bleeding
+10 (1.6)
+4 (0.6)
+2.51 (0.79–7.95)
+Secondary safety outcomes
+Fatal bleeding
+—
+Major bleeding
+10 (1.6)
+4 (0.6)
+2.51 (0.79–7.95)
+Intracranial bleeding
+5 (0.8)
+1 (0.2)
+5.02 (0.59–42.81)
+Gastrointestinal bleeding
+3 (0.5)
+2 (0.3)
+1.50 (0.25–8.97)
+Other major bleeding
+2 (0.3)
+1 (0.2)
+2.01 (0.18–22.07)
+Minor bleeding
+74 (11.5)
+20 (3.1)
+3.71 (2.29–6.01)
+Clinically relevant nonmajor bleeding
+35 (5.5)
+10 (1.6)
+3.51 (1.75–7.03)
+Composite of major bleeding or minor bleeding
+83 (12.9)
+23 (3.6)
+3.62 (2.31–5.67)
+Death from any cause
+10 (1.6)
+7 (1.1)
+1.43 (0.55–3.74)
+*	The widths of the confidence intervals for the primary and secondary safety outcomes have not been adjusted for multi-
+plicity and should not be used to infer a treatment effect. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+Antithrombotic Therapy after Catheter Ablation
+OPTION (Comparison of Anticoagulation with Left 
+Atrial Appendage Closure after Atrial Fibrillation 
+Ablation) trial, occlusion of the left atrial append-
+age after atrial fibrillation ablation and discon-
+tinuation of anticoagulation was noninferior to the 
+use of continued anticoagulation for stroke and 
+major bleeding36 (annualized event rate of approxi-
+mately 0.6 in both groups). However, among pa-
+tients who were enrolled in the OPTION trial, the 
+mean CHA2DS2-VASc score was 3.5, whereas 32% 
+of the patients in our trial had a CHA2DS2-VASc 
+score of 3 or higher. Together, these three trials (ALONE-AF, 
+OPTION, and our trial) examined four approaches 
+to antithrombotic management after ablation for 
+atrial fibrillation: appendage occlusion, continued 
+anticoagulation, treatment with aspirin, and no 
+treatment. Which of the strategies is best after 
+ablation for atrial fibrillation is unclear, but all 
+the approaches were associated with an annualized 
+rate of stroke of less than 1%, which is commonly 
+regarded as the threshold for anticoagulation.1
+Our trial has limitations. A placebo could have 
+been chosen over aspirin as a comparator. How-
+ever, if we assume that aspirin had no benefit 
+with respect to stroke, the results of the primary 
+outcome would have been similar with placebo. 
+The incidence of events was so low that the use 
+of a 20-mg dose of rivaroxaban would have been 
+unlikely to yield a result that differed from that 
+seen with the 15-mg dose. The trial did not man-
+date any extended monitoring of atrial fibrillation 
+before enrollment or during follow-up, so the 
+precise incidence of recurrence of asymptomatic 
+atrial fibrillation is unknown. However, the trial 
+was meant to be practical, and the approach for 
+monitoring resembled clinical practice worldwide, 
+which allowed broad application of the results. 
+Finally, our trial included patients with a moder-
+ate risk of stroke and minimal cardiac disease, 
+so for patients with a very high stroke risk, the 
+findings of our trial are not directly relevant. Among patients who had risk factors for stroke 
+and had undergone successful catheter ablation 
+for atrial fibrillation at least 1 year earlier, treat-
+ment with rivaroxaban did not result in a signifi-
+cantly lower incidence of a composite of stroke, 
+systemic embolism, or new covert embolic stroke 
+than treatment with aspirin. The incidence of ma-
+jor bleeding appeared to be similar in the two 
+groups, although the incidence of minor bleeding 
+and clinically relevant nonmajor bleeding was 
+higher with rivaroxaban than with aspirin. Supported by Bayer, Abbott, Biotronik, the Canadian In-
+stitutes of Health Research, the University of Ottawa Heart 
+Institute Accelerate funding program, the Canadian Stroke Pre-
+vention Intervention Network, the Brain-Heart Interconnectome 
+Canada First Research Excellence Fund, and the Rosenfeld Heart 
+Foundation. Disclosure forms provided by the authors are available with 
+the full text of this article at NEJM.org. A data sharing statement provided by the authors is available 
+with the full text of this article at NEJM.org. We thank Sonya Jancar (lead coordinator of the trial) and our 
+statistical support team, Li Chen and My Linh Tran, for all their 
+efforts during the trial; and the Atrial Fibrillation Network for 
+their assistance with the trial in Europe. Author Information
+1 McGill University Health Centre, McGill University, Montreal; 
+2 University of Ottawa Heart Institute, Ottawa; 3 Sir Run Run 
+Shaw Hospital, Zhejiang University School of Medicine, Zheji-
+ang, China; 4 University Hospital Antwerp, Antwerp, Belgium; 
+5 Deutches Herzzentrum der Charité, Universitätsmedizin Ber-
+lin, member of Freie Universität Berlin and Humboldt Univer-
+sität zu Berlin, Berlin; 6 Universitätsklinikum Hamburg-Eppen-
+dorf, Hamburg, Germany; 7 Birmingham University, Hamburg, 
+Germany; 8 Hamilton Health Sciences, McMaster University, 
+Hamilton, ON, Canada; 9 St. Paul’s Hospital, University of Brit-
+ish Columbia, Vancouver, Canada; 10 Centre for Heart Rhythm 
+Disorders, Royal Adelaide Hospital, University of Adelaide, Ad-
+elaide, SA, Australia; 11 Canberra Heart Rhythm Centre, Can-
+berra, ACT, Australia; 12 Hartcentrum Hasselt, Vilvoorde, Bel-
+gium; 13 Ziekenhuis Oost-Limburg, Genk, Belgium; 14 Royal 
+Jubilee Hospital, Victoria, BC, Canada; 15 Centre Hospitalier 
+Universitaire de Sherbrooke, University of Sherbrooke, Sher-
+brooke, QC, Canada; 16 Scarborough Health Network, Scarbor-
+Figure 2. Cumulative Incidence of Stroke or Systemic Embolism. The inset shows the same data on an expanded y axis. Cumulative Incidence (%)
+Follow-up (mo)
+Aspirin
+Rivaroxaban
+No. at Risk
+Aspirin
+Rivaroxaban
+Relative risk, 0.72 (95% CI, 0.23–2.25)
+The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+n engl j med 394;4  nejm.org  January 22, 2026
+Antithrombotic Therapy after Catheter Ablation
+ough, ON, Canada; 17 Libin Cardiovascular Institute, University 
+of Calgary, Calgary, AB, Canada; 18 St. Mary’s General Hospital, 
+Kitchener, ON, Canada; 19 Segeberger Kliniken, Bad Segeberg, 
+Germany; 20 Kerckhoff-Klinik, Justus Liebig University, Giessen, 
+Germany; 21 University Health Network, University of Toronto, 
+Toronto; 22 Institut Universitaire de Cardiologie et de Pneumol-
+ogie de Quebéc, University of Laval, Quebec, QC, Canada; 
+23 Department of Clinical Neurosciences and Hotchkiss Brain 
+Institute, Calgary Stroke Program, Cumming School of Medi-
+cine, University of Calgary, Calgary, AB, Canada. References
+1.	 Tzeis S, Gerstenfeld EP, Kalman J, et 
+al. 2024 European Heart Rhythm Associa-
+tion/Heart Rhythm Society/Asia Pacific 
+Heart Rhythm Society/Latin American 
+Heart Rhythm Society expert consensus 
+statement on catheter and surgical abla-
+tion of atrial fibrillation. Europace 2024;​
+26:​euae043. 2.	 Healey JS, Lopes RD, Granger CB, et al. 
+Apixaban for stroke prevention in subclini-
+cal atrial fibrillation. N Engl J Med 2024;​
+390:​107-17. 3.	 Kirchhof P, Toennis T, Goette A, et al. 
+Anticoagulation with edoxaban in patients 
+with atrial high-rate episodes. N Engl J Med 
+2023;​389:​1167-79. 4.	 Svendsen JH, Diederichsen SZ, Højberg 
+S, et al. Implantable loop recorder detec-
+tion of atrial fibrillation to prevent stroke 
+(the LOOP study): a randomised controlled 
+trial. Lancet 2021;​398:​1507-16. 5.	 Joglar JA, Chung MK, Armbruster AL, 
+et al. 2023 ACC/AHA/ACCP/HRS guideline 
+for the diagnosis and management of atrial 
+fibrillation: a report of the American Col-
+lege of Cardiology/American Heart Associ-
+ation Joint Committee on Clinical Practice 
+Guidelines. Circulation 2024;​149(1):​e1-e156. 6.	 Freeman JV, Shrader P, Pieper KS, et 
+al. Outcomes and anticoagulation use af-
+ter catheter ablation for atrial fibrillation. 
+Circ Arrhythm Electrophysiol 2019;​12(12):​
+e007612. 7.	 Gaita F, Sardi D, Battaglia A, et al. In-
+cidence of cerebral thromboembolic events 
+during long-term follow-up in patients 
+treated with transcatheter ablation for atrial 
+fibrillation. Europace 2014;​16:​980-6. 8.	 Hermida A, Zaitouni M, Diouf M, et al. 
+Long-term incidence and predictive factors 
+of thromboembolic events after a cryobal-
+loon ablation for atrial fibrillation. Int J 
+Cardiol 2020;​321:​99-103. 9.	 Iwawaki T, Yanagisawa S, Inden Y, et al. 
+Discontinuation of oral anticoagulation 
+after successful atrial fibrillation ablation. 
+JAMA Netw Open 2025;​8(3):​e251320. 10.	 Kanaoka K, Nishida T, Iwanaga Y, et al. 
+Oral anticoagulation after atrial fibrillation 
+catheter ablation: benefits and risks. Eur 
+Heart J 2024;​45:​522-34. 11.	 Kochhäuser S, Alipour P, Haig-Carter 
+T, et al. Risk of stroke and recurrence after 
+AF ablation in patients with an initial event-
+free period of 12 months. J Cardiovasc Elec-
+trophysiol 2017;​28:​273-9. 12.	 Maduray K, Moneruzzaman M, Chan-
+gwe GJ, Zhong J. Benefits and risks associ-
+ated with long-term oral anticoagulation 
+after successful atrial fibrillation catheter 
+ablation: systematic review and meta-
+analysis. Clin Appl Thromb Hemost 2022;​
+28:​10760296221118480. 13.	 Själander S, Holmqvist F, Smith JG, et 
+al. Assessment of use vs discontinuation of 
+oral anticoagulation after pulmonary vein 
+isolation in patients with atrial fibrillation. 
+JAMA Cardiol 2017;​2:​146-52. 14.	 Yang W-Y, Du X, Jiang C, et al. The 
+safety of discontinuation of oral anticoagu-
+lation therapy after apparently successful 
+atrial fibrillation ablation: a report from the 
+Chinese Atrial Fibrillation Registry study. 
+Europace 2020;​22:​90-9. 15.	 Verma A, Ha ACT, Kirchhof P, et al. The 
+Optimal Anti-Coagulation for Enhanced-
+Risk Patients Post-Catheter Ablation for 
+Atrial Fibrillation (OCEAN) trial. Am Heart 
+J 2018;​197:​124-32. 16.	 Verma A, Wells G, Ha ACT, et al. OCEAN 
+trial update. Am Heart J 2022;​248:​169. 17.	 Kirchhof P, Benussi S, Kotecha D, et al. 
+2016 ESC guidelines for the management of 
+atrial fibrillation developed in collaboration 
+with EACTS. Eur Heart J 2016;​37:​2893-962. 18.	 Hart RG, Pearce LA, Aguilar MI. Meta-
+analysis: antithrombotic therapy to prevent 
+stroke in patients who have nonvalvular 
+atrial fibrillation. Ann Intern Med 2007;​146:​
+857-67. 19.	 Yasuda S, Kaikita K, Akao M, et al. An-
+tithrombotic therapy for atrial fibrillation 
+with stable coronary disease. N Engl J Med 
+2019;​381:​1103-13. 20.	 Gibson CM, Mehran R, Bode C, et al. 
+Prevention of bleeding in patients with 
+atrial fibrillation undergoing PCI. N Engl 
+J Med 2016;​375:​2423-34. 21.	 Hart RG, Sharma M, Mundl H, et al. 
+Rivaroxaban for stroke prevention after 
+embolic stroke of undetermined source. 
+N Engl J Med 2018;​378:​2191-201. 22.	 Rivard L, Khairy P, Talajic M, et al. 
+Blinded Randomized Trial of Anticoagu-
+lation to Prevent Ischemic Stroke and Neu-
+rocognitive Impairment in Atrial Fibril-
+lation (BRAIN-AF): methods and design. 
+Can J Cardiol 2019;​35:​1069-77. 23.	 Hori M, Matsumoto M, Tanahashi N, 
+et al. Rivaroxaban vs. warfarin in Japanese 
+patients with atrial fibrillation — the J-
+ROCKET AF study. Circ J 2012;​76:​2104-11. 24.	 Smith EE, Saposnik G, Biessels GJ, et 
+al. Prevention of stroke in patients with si-
+lent cerebrovascular disease: a scientific 
+statement for healthcare professionals 
+from the American Heart Association/
+American Stroke Association. Stroke 2017;​
+48(2):​e44-e71. 25.	 Schulman S, Kearon C, Subcommittee 
+on Control of Anticoagulation of the Sci-
+entific and Standardization Committee of 
+the International Society on Thrombosis 
+and Haemostasis. Definition of major 
+bleeding in clinical investigations of anti-
+hemostatic medicinal products in non-
+surgical patients. J Thromb Haemost 2005;​
+3:​692-4. 26.	 Sanchez-Somonte P, Kittichamroen N, 
+Gao-Kang J, et al. Incremental efficacy for 
+repeat ablation procedures for catheter ab-
+lation of atrial fibrillation: 5-year follow-
+up. JACC Adv 2024;​3:​101200. 27.	 Connolly SJ, Eikelboom J, Joyner C, et 
+al. Apixaban in patients with atrial fibrilla-
+tion. N Engl J Med 2011;​364:​806-17. 28.	 Lopes RD, Granger CB, Wojdyla DM, 
+et al. Apixaban vs aspirin according to 
+CHA2DS2-VASc score in subclinical atrial fi-
+brillation: insights from ARTESiA. J Am 
+Coll Cardiol 2024;​84:​354-64. 29.	 Kaplan RM, Koehler J, Ziegler PD, 
+Sarkar S, Zweibel S, Passman RS. Stroke 
+risk as a function of atrial fibrillation dura-
+tion and CHA2DS2-VASc score. Circulation 
+2019;​140:​1639-46. 30.	 Kim DY, Han S-G, Jeong H-G, et al. Co-
+vert brain infarction as a risk factor for 
+stroke recurrence in patients with atrial 
+fibrillation. Stroke 2023;​54:​87-95. 31.	 NeuroVISION Investigators. Periopera-
+tive covert stroke in patients undergoing non-
+cardiac surgery (NeuroVISION): a prospec-
+tive cohort study. Lancet 2019;​394:​1022-9. 32.	 Sharma M, Smith EE, Pearce LA, et al. 
+Rivaroxaban versus aspirin for prevention 
+of covert brain infarcts in patients with 
+embolic stroke of undetermined source: 
+NAVIGATE ESUS MRI substudy. Int J Stroke 
+2022;​17:​799-805. 33.	 Lansberg MG, Wintermark M, Chen 
+H, et al. Apixaban to prevent covert in-
+farcts after cryptogenic stroke in patients 
+with atrial cardiopathy: a secondary analy-
+sis of the ARCADIA randomized clinical 
+trial. JAMA Neurol 2025;​82:​220-7. 34.	 O’Donnell MJ, Eikelboom JW, Yusuf S, 
+et al. Effect of apixaban on brain infarction 
+and microbleeds: AVERROES-MRI assess-
+ment study. Am Heart J 2016;​178:​145-50. 35.	 Kim D, Shim J, Choi E-K, et al. Long-
+term anticoagulation discontinuation after 
+catheter ablation for atrial fibrillation: the 
+ALONE-AF randomized clinical trial. JAMA 
+2025;​334:​1246-54. 36.	 Wazni OM, Saliba WI, Nair DG, et al. 
+Left atrial appendage closure after ablation 
+for atrial fibrillation. N Engl J Med 2025;​
+392:​1277-87. Copyright © 2025 Massachusetts Medical Society. The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society. Downloaded from nejm.org at National Taiwan University on January 22, 2026. 
+ Copyright © 2026 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.

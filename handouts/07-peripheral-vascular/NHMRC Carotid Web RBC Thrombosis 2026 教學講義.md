@@ -1,0 +1,231 @@
+# Research Grant 教學講義
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-01-30**
+
+---
+
+Carotid Web & RBC Thrombosis
+Australia NHMRC Ideas Grant
+Research Proposal (2026-2030)
+Beyond White Clots: Decoding RBC Mechanosensing in
+Carotid Web Thrombosis
+超越白色血栓：解碼紅血球在頸動脈蹼血栓形成中的機械感應機制
+整理：謝慕揚MD, PhD, FESC
+日期：2026-01-30
+1 研究背景與臨床問題
+1.1 傳統血栓形成觀念
+• 動脈血栓(Arterial thrombosis)：傳統認為主要由platelet-rich “white clots” 驅動
+• 靜脈血栓(Venous thrombosis)：主要由RBC-rich “red clots” 組成
+• 目前動脈血栓預防策略以antiplatelet therapy 為主
+1.2 Carotid Web (頸動脈蹼) 的臨床挑戰
+Carotid Web (CaW) 定義：
+• 頸動脈球部(carotid bulb) 後壁的薄膜狀突起
+• 屬於fibromuscular dysplasia 的一種變異型
+• 造成血流動力學異常，形成recirculation zone
+• 與年輕患者cryptogenic stroke 高度相關
+臨床困境：
+• CaW 患者即使接受標準antiplatelet therapy，復發性中風率仍然偏高
+• 傳統antiplatelet 藥物無法有效預防此類血栓
+• 提示這類血栓形成機制可能與一般動脈血栓不同
+
+
+Research Grant 教學講義
+Carotid Web & RBC Thrombosis
+2 核心假說(Central Hypothesis)
+核心發現摘要
+研究假說：在Carotid Web 等複雜血管幾何結構中，陡峭的剪切力梯度(steep shear
+gradients) 會活化紅血球上的mechanosensitive ion channel PIEZO1。 PIEZO1 活化後觸發膜蛋白Band 3 和Glycophorin A (GPA) 的群聚(clustering)，
+將紅血球轉變為具有黏附性的pro-thrombotic cells，主動參與血栓形成。 2.1 機制示意圖
+Carotid Web →Steep Shear Gradients →PIEZO1 Activation
+↓
+Band 3/GPA Clustering →Pro-thrombotic RBCs →RBC-rich “Red Clot”
+機制流程：
+頸動脈蹼(CaW)
+血流動力學異常
+−−−−−−−−→陡峭剪切力梯度
+機械刺激
+−−−−→PIEZO1 活化
+↓Ca2+ influx
+Band 3/GPA 群聚→促血栓紅血球→紅色血栓形成
+3 關鍵分子機制
+3.1 PIEZO1 Mechanosensitive Ion Channel
+特性
+說明
+基因
+PIEZO1 (2010 年發現)
+功能
+Mechanosensitive cation channel，感應機械力並轉換為
+電化學訊號
+在RBC 的角色
+調節細胞體積、感應剪切力、維持細胞變形能力
+活化刺激
+Membrane stretch, shear stress, compression
+下游效應
+Ca2+ influx →細胞骨架重組→膜蛋白重新分布
+臨床相關性
+PIEZO1 gain-of-function 突變與hereditary xerocytosis
+相關
+3.2 Band 3 與Glycophorin A (GPA)
+特性
+Band 3
+Glycophorin A (GPA)
+別名
+Anion
+exchanger
+(AE1),
+SLC4A1
+CD235a
+
+
+Research Grant 教學講義
+Carotid Web & RBC Thrombosis
+功能
+Cl−/HCO−
+3 exchanger
+連接細胞膜與細胞骨架
+主要唾液酸醣蛋白
+決定MN 血型
+在血栓中的角色
+與platelet 及fibrin(ogen) 交
+互作用
+介導
+RBC-RBC
+及
+RBC-
+platelet 黏附
+Clustering 效應
+增加黏附位點暴露
+促進RBC 聚集
+增強細胞間交互作用
+重點提醒
+PIEZO1-Band 3/GPA Axis：當PIEZO1 被機械力活化後，引發Ca2+ 內流，促使Band
+3 和GPA 在細胞膜上重新分布並群聚。這種群聚增加了RBC 表面的黏附位點，使原本
+「旁觀者」角色的紅血球轉變為主動參與血栓形成的促凝細胞。 4 研究計畫架構(Five Specific Aims)
+4.1 Aim 1: Patient-specific Vessel-on-a-Chip 平台
+• 技術：利用患者CT angiography 數據重建個人化「vessel-on-a-chip」
+• 目的：複製生理血流動力學條件
+• 應用：評估CaW 患者的血栓形成風險
+• 創新：結合3D 列印與微流體技術
+4.2 Aim 2 & 3: 生物力學機制研究
+方法
+說明
+Microfluidics
+模擬不同剪切力條件下的RBC 行為
+Biomembrane
+Force
+Probe
+(BFP)
+定量測量單一RBC 與platelet 之間的黏附力
+PIEZO1-
+knockout mice
+驗證PIEZO1 在血栓形成中的必要性
+研究問題
+機械應力與壓縮力如何透過PIEZO1-Band 3/GPA 軸驅動
+RBC-platelet 交互作用？
+4.3 Aim 4: 新型抑制劑開發
+藥物開發目標：
+• 開發針對PIEZO1 的選擇性抑制劑
+• 開發針對Band 3 黏附功能的阻斷劑
+
+
+Research Grant 教學講義
+Carotid Web & RBC Thrombosis
+• 關鍵要求：阻斷促血栓交互作用，但不影響正常止血功能
+4.4 Aim 5: 個人化藥物篩選平台
+• 使用patient-specific chip 平台測試新型化合物
+• 與標準抗血栓藥物進行比較
+• 使用臨床樣本進行驗證
+• 目標：預測個別患者的治療效果，實現精準醫療
+5 研究創新與臨床意義
+5.1 突破傳統觀念
+傳統觀念
+本研究提出
+動脈血栓= Platelet-rich white
+clot
+特定條件下形成RBC-rich red clot
+RBC 在血栓中是被動旁觀者
+RBC 可主動參與血栓形成
+Antiplatelet therapy 足以預防動
+脈血栓
+需要RBC-targeted therapy
+血栓預防策略一體適用
+需要個人化風險評估
+5.2 預期臨床影響
+1. 新治療標的：PIEZO1 和Band 3 成為抗血栓治療的新標的
+2. 更安全的抗凝策略：針對RBC 的治療可能比傳統抗凝血劑更安全
+3. 個人化醫療：Vessel-on-a-chip 平台可預測個別患者的血栓風險與藥物反應
+4. 降低復發率：為CaW 患者提供更有效的中風預防策略
+6 Carotid Web 臨床補充
+6.1 流行病學
+• 盛行率：一般人群約1-2%
+• 在年輕cryptogenic stroke 患者中可高達9-37%
+• 好發於：年輕女性、非裔美國人
+• 平均中風年齡：約46-52 歲
+
+
+Research Grant 教學講義
+Carotid Web & RBC Thrombosis
+6.2 影像診斷
+檢查方式
+特徵
+CTA (CT Angiogra-
+phy)
+Axial view：carotid bulb 後壁薄膜狀突起
+Sagittal view：「shelf-like」或「septum-like」結構
+DSA (Digital Subtrac-
+tion Angiography)
+Lateral view：典型「web」外觀
+可見造影劑滯留(contrast stasis)
+Duplex Ultrasound
+可見內膜不規則，但敏感度較低
+6.3 目前治療選項
+治療
+優點
+缺點
+Antiplatelet therapy
+非侵入性
+容易使用
+復發率高(約30%)
+可能無法針對RBC-rich
+clot
+Anticoagulation
+可能對red clot 更有效
+出血風險
+缺乏RCT 證據
+Carotid stenting
+消除異常血流動力學
+預防復發
+侵入性
+需長期DAPT
+Carotid
+endarterec-
+tomy
+根本解決結構異常
+手術風險
+可能過度治療
+7 Key Points 重點整理
+1. Carotid Web (CaW) 是年輕患者cryptogenic stroke 的重要病因，標準antiplatelet
+therapy 預防效果不佳
+2. 核心假說：CaW 的複雜血流動力學產生陡峭剪切力梯度，活化RBC 上的PIEZO1
+機械感應通道
+3. 分子機制：PIEZO1 活化→Band 3/GPA clustering →RBC 轉變為pro-thrombotic
+cell →RBC-rich “red clot” 形成
+4. 研究目標：
+• 建立patient-specific vessel-on-a-chip 平台
+• 驗證PIEZO1-Band 3/GPA axis 機制
+• 開發RBC-targeted 抗血栓藥物
+• 實現個人化血栓風險評估與治療
+
+
+Research Grant 教學講義
+Carotid Web & RBC Thrombosis
+5. 臨床意義：挑戰「動脈血栓= 白色血栓」的傳統觀念，為CaW 等高風險患者開發
+更有效、更安全的中風預防策略
+8 延伸閱讀
+1. Choi PM, Singh D, Trivedi A, et al. Carotid Webs and Recurrent Ischemic Strokes in the
+Era of CT Angiography. AJNR Am J Neuroradiol. 2015;36(11):2134-9. 2. Coutinho JM, Derkatch S, Potber AJ, et al. Carotid artery web and ischemic stroke: A
+case-control study. Neurology. 2017;88(1):65-69. 3. Coste B, Mathur J, Schmidt M, et al. Piezo1 and Piezo2 are essential components of
+distinct mechanically activated cation channels. Science. 2010;330(6000):55-60. 4. Cahalan SM, Lukacs V, Ranade SS, et al. Piezo1 links mechanical forces to red blood
+cell volume. eLife. 2015;4:e07370. 5. Byrnes JR, Bhatt A, Daly ME, et al. Red blood cells in thrombosis. Blood. 2018;130(16):1795-
+1799.
