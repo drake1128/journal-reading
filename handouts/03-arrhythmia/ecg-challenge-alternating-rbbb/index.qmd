@@ -1,0 +1,137 @@
+---
+title: "ECG Challenge: Measure Twice, Cut Once — 交替性右束支傳導阻斷"
+subtitle: "Alternating RBBB: Supernormal Conduction vs Recovery of Refractoriness"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-26
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+reference-location: margin
+original-source: "[*Circulation*. 2025;152:1515–1517.](https://doi.org/10.1161/CIRCULATIONAHA.125.077490)"
+---
+
+## 病例摘要 {#sec-case}
+
+### 病患資料
+
+- **年齡/性別**：94 歲女性
+- **過去病史**：hypertension、chronic kidney disease (CKD)、hyperlipidemia
+- **就診原因**：mechanical ground-level fall 後至急診就醫
+- **心電圖**：急診時常規 12-lead ECG
+
+原文連結：[*Circulation*. 2025;152:1515–1517.](https://doi.org/10.1161/CIRCULATIONAHA.125.077490)
+
+::: {.callout-important}
+## 核心發現
+
+本例交替性 RBBB 並非 supernormal conduction (SNC)，而是因 R-R interval 的毫秒級變異導致 right bundle branch 在較長間隔後恢復傳導能力 (recovery of refractoriness)。交替性 bundle branch block 無論成因為何，均代表 advanced conduction system disease，可能進展為 complete AV block。
+:::
+
+## ECG 發現 {#sec-ecg}
+
+### 初始 ECG (Figure 1) 判讀
+
+12-lead ECG 顯示：
+
+1. **Normal sinus rhythm**，心率約 85 bpm
+2. **First-degree AV block**（PR interval 延長）
+3. **Left anterior fascicular block (LAFB)**
+4. **Right bundle branch block (RBBB)**：最初數拍呈現典型 RBBB 形態
+5. **交替性 QRS 變化**：隨後出現 RBBB 與正常窄 QRS 交替的型態 (beat-to-beat alternation)
+
+### 關鍵觀察：R-R Interval 變異 (Figure 2)
+
+詳細量測 V1 lead 的 R-R interval 後發現：
+
+| 特徵 | QRS 形態 |
+|------|----------|
+| R-R interval **> 700 ms**（較前一拍延長） | **正常窄 QRS** — right bundle branch 有足夠時間恢復 |
+| R-R interval **< 700 ms**（較前一拍縮短） | **RBBB morphology** — right bundle branch 仍處於 refractory period |
+
+::: {.callout-tip}
+## 教學重點
+
+700 ms 為本例的關鍵閾值 (threshold)。R-R interval 超過 700 ms 時，right bundle branch 得以恢復傳導，QRS 恢復正常。
+:::
+
+### 特殊情況：連續兩拍窄 QRS
+
+- Interval 6 與 interval 7 出現連續兩拍正常窄 QRS
+- 儘管 interval 7 較 interval 6 短，但仍 > 700 ms
+- 因為前一拍已是窄 QRS（right bundle branch 已傳導），right bundle branch 恢復更快，故仍能正常傳導
+
+### 追蹤 ECG (Figure 3) 驗證
+
+後續 ECG 進一步支持 recovery of refractoriness 的診斷：
+
+- 正常窄 QRS 只出現在 **R-R interval 顯著延長**之後
+- 從未在非預期的短 R-R interval 出現窄 QRS
+- 此表現與 SNC 不符（SNC 應在固定間隔下出現意外的正常傳導）
+
+## 鑑別診斷：Supernormal Conduction vs Recovery of Refractoriness {#sec-ddx}
+
+### Supernormal Conduction (SNC)
+
+SNC 是一種罕見的電生理現象 (rare electrophysiological phenomenon)：
+
+- **定義**：disease 或 partially refractory 的 bundle branch 在 repolarization 晚期的一個短暫窗口內，傳導效能反而優於預期
+- **時間點**：發生於 action potential phase 3 晚期，接近 phase 4 之前
+- **機轉**：
+  - Voltage-gated sodium channels 開始從 inactivation 恢復
+  - 若 supraventricular impulse 恰好在 full repolarization 之前到達
+  - Membrane potential 已足夠接近 threshold，允許 sodium channels 部分 reactivation
+  - 結果是 paradoxically improved conduction through the affected bundle branch
+- **特徵**：atrial impulses 間隔固定，在固定週期下本不應傳導的拍次意外地以正常 QRS 傳導
+
+### Recovery of Refractoriness（本例之診斷）
+
+- **定義**：因 R-R interval 的微小變異，right bundle branch 在較長間隔後有足夠時間脫離 refractory period 而恢復傳導
+- **機轉**：
+  - 較長 R-R interval (> 700 ms) → right bundle branch 恢復 → 正常窄 QRS
+  - 較短 R-R interval (< 700 ms) → right bundle branch 仍 refractory → RBBB morphology
+  - 因間隔恰好每隔一拍交替長短，形成 alternating RBBB pattern
+
+### 兩者鑑別要點
+
+| 特徵 | Supernormal Conduction (SNC) | Recovery of Refractoriness |
+|------|------------------------------|---------------------------|
+| **Atrial rate** | 固定 (constant interval) | 有微小變異 |
+| **正常 QRS 出現時機** | 在固定間隔下「意外」傳導 | 在較長間隔後「預期」傳導 |
+| **R-R interval 與 QRS 的關係** | 無明顯相關 | 明確相關：長間隔 → 窄 QRS |
+| **追蹤 ECG** | 窄 QRS 可出現在短間隔 | 窄 QRS 僅出現在長間隔後 |
+
+::: {.callout-note}
+## Measure Twice, Cut Once!
+
+鑑別 SNC 與 recovery of refractoriness 的關鍵在於精確量測 R-R interval 的毫秒級差異，觀察窄 QRS 是否僅出現在較長的 R-R interval 之後。
+:::
+
+## 臨床意義 {#sec-significance}
+
+### 交替性 Bundle Branch Block 的重要性
+
+1. **進階傳導系統疾病的指標**：交替性 bundle branch block 無論成因 (SNC 或 pause-dependent recovery of refractoriness)，均反映嚴重的 conduction system disease
+2. **突然惡化風險**：可能突然進展為 high-grade AV block 或 complete AV block
+3. **Pacemaker 評估**：依據 2018 ACC/AHA/HRS Bradycardia and Cardiac Conduction Delay Guideline，此類患者需評估 permanent pacemaker 植入適應症
+
+### 本例摘要
+
+- 94 歲女性，baseline 即有 first-degree AV block + LAFB + RBBB（三束支均有 conduction delay）
+- 交替性 RBBB 由 R-R interval 的微小變異所致
+- 700 ms 為 right bundle branch 恢復傳導的臨界閾值
+- 追蹤 ECG 確認窄 QRS 僅出現在長 R-R interval 後，排除 SNC
+
+::: {.callout-warning}
+## 臨床警示
+
+交替性 bundle branch block 不論成因，均代表 advanced conduction system disease，臨床上應積極評估是否需要 pacemaker 植入。
+:::
+
+## 參考文獻 {#sec-references}
+
+1. Carbone V, Tedesco MA. Bundle branch block on alternate beats: by what mechanism? [*J Electrocardiol*. 2002;35:147–152.](https://doi.org/10.1054/jelc.2002.32337)
+
+2. Carbone V, Carerj S, Calabro MP. Bundle branch block on alternate beats during atrial fibrillation. [*J Electrocardiol*. 2004;37:67–72.](https://doi.org/10.1016/j.jelectrocard.2003.11.002)
+
+3. Kusumoto FM, Schoenfeld MH, Barrett C, Edgerton JR, Ellenbogen KA, Gold MR, Goldschlager NF, Hamilton RM, Joglar JA, Kim RJ, et al. 2018 ACC/AHA/HRS guideline on the evaluation and management of patients with bradycardia and cardiac conduction delay. [*J Am Coll Cardiol*. 2019;74:e51–e156.](https://doi.org/10.1016/j.jacc.2018.10.044)

@@ -1,0 +1,346 @@
+---
+title: "藥物塗層球囊用於冠狀動脈分叉病變"
+subtitle: "Drug-Coated Balloons for Coronary Bifurcation Lesions — Expert Review"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-26
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+reference-location: margin
+citation-location: margin
+bibliography: references.bib
+link-external-newwindow: true
+format:
+  html:
+    code-fold: true
+---
+
+::: {.callout-note}
+## 原文出處
+Fezzi S, Scheller B, Rissanen TT, et al. Drug-coated balloons for coronary bifurcation lesions. [*EuroIntervention*. 2025;21:e1177-e1197.](https://doi.org/10.4244/EIJ-D-25-00201)
+:::
+
+## 核心發現摘要 {#sec-summary}
+
+::: {.callout-important}
+## 重大發現
+DCB 用於冠狀動脈分叉病變 (coronary bifurcation lesion, CBL) 的 side branch (SB) 治療，相較 plain old balloon angioplasty (POBA) 可顯著降低 late lumen loss (LLL)、binary restenosis 及 MACE。最大規模 RCT --- DCB-BIF trial (n=784) 顯示 12 個月 MACE 自 12.5% 降至 7.2% (HR 0.56, 95% CI: 0.35--0.88; p=0.013)。
+:::
+
+::: {.callout-tip}
+## 臨床意義
+DCB 可在 provisional stenting 策略中有效保護 SB，減少 stent burden，縮短 DAPT，特別適用於 small vessel、high bleeding risk (HBR) 患者及 true bifurcation lesions。Hybrid/blended strategy (MV DES + SB DCB) 已在觀察性研究及 RCT 中展現優異結果。
+:::
+
+## DCB 技術概覽 {#sec-dcb-tech}
+
+### 藥物與塗層技術
+
+DCB 主要依據抗增生藥物 (antiproliferative drug) 分為兩大類：
+
+| 特性 | Paclitaxel (PTX) DCB | -Limus (Sirolimus) DCB |
+|------|---------------------|----------------------|
+| **代表產品** | SeQuent Please (B. Braun), Pantera Lux (Biotronik) | MagicTouch (Concept Medical) |
+| **機轉** | 微管穩定劑，抑制細胞分裂 | mTOR pathway 抑制 |
+| **血管重塑** | ~60% positive remodelling (de novo) | ~30% positive remodelling |
+| **LLL 比較** | 較低 (LLL --0.11 mm) | 與 PTX 相當或略差 |
+| **TLF** | OR 1.01 (0.75--1.35) | 無顯著差異 |
+
+: DCB 藥物平台比較 {#tbl-dcb-drugs}
+
+- 新一代 DCB 改善了 navigability，在 CBL 中對 SB rewiring through MV struts 較為有利
+- Jailed SB 中因 stent struts 限制，positive remodelling 效果可能受抑制
+
+### DCB 四大核心優勢
+
+1. **均勻藥物傳遞** --- 高濃度快速釋放，血管壁維持數週
+2. **無永久植入物** --- 減少 neoatherosclerosis、late thrombosis（無 metallic neocarina）
+3. **保留血管幾何** --- 不 jail SB，維持 physiological vasomotion
+4. **DAPT de-escalation** --- 可縮短時間及降低 P2Y12 強度
+
+## DCB 用於分叉病變的優勢與原理 {#sec-rationale}
+
+### 分叉病變治療的挑戰
+
+- CBL 約占所有 PCI 的 20%，procedural success rate 較低
+- New-generation DES 仍面臨每年 ~2--3%/stent 的 device-related complications
+- 需要 prolonged DAPT，對 elderly 及 HBR 患者風險增加
+
+### European Bifurcation Club (EBC) 建議
+
+- **Provisional stepwise approach** 為 default strategy
+- **KISS 原則** (Keep It Simple and Safe)：限制 stent 數量
+- EBC 將 DCB 視為重要選項，特別是 Medina 0,0,1
+
+### DCB 在分叉中的特殊優勢
+
+1. 相較 POBA，提高 provisional strategy 成功率
+2. 尊重 original carina anatomy，減少 two-stent approach 需求
+3. 允許 late lumen enlargement
+4. 在 small vessel (diameter ≤2.75 mm) 已反覆證明 non-inferior to DES
+
+## Side Branch DCB 治療策略 {#sec-sb-strategy}
+
+### 策略一：DCB-Only (Leave Nothing Behind)
+
+| Medina 分類 | 策略 | 說明 |
+|-------------|------|------|
+| **0,0,1** | SB-only DCB | MV 不處理；DCB 延伸入 MV 2 mm |
+| **1,1,0 / 0,1,0 / 1,0,0** | DCB across SB (MV only) | DCB 跨 SB 處理 MV |
+| **1,1,1 / 1,0,1 / 0,1,1** | Sequential DCB | 先 SB 再 MV；避免 kissing DCB |
+
+: DCB-only 策略依 Medina 分類 {#tbl-dcb-only}
+
+::: {.callout-warning}
+## 避免 Kissing DCB Inflation
+1. 增加 proximal MV dissection/perforation 風險（無 stent 保護）
+2. 血液中停留時間長，藥物流失
+3. 兩顆球囊在 proximal segment 無法均勻覆蓋血管壁
+:::
+
+### 策略二：SB DCB Before Provisional DES
+
+**操作順序**：
+
+1. MV + SB lesion preparation (1:1 balloon/vessel ratio)
+2. **SB DCB inflation** (0.8--1:1 ratio, 30--60 s)
+3. MV DES implantation (sized to dMV diameter)
+4. **POT** (mandatory)
+5. If SB compromise → Distal SB rewiring → KBI or POT-side-POT
+6. **Final POT**
+
+**優點**：DCB 先處理 SB，確保藥物完整傳遞不受 stent struts 干擾。
+
+### 策略三：SB DCB After Provisional DES
+
+**操作順序**：
+
+1. MV lesion preparation → MV DES implantation
+2. **POT** → Distal SB rewiring → SB dilatation
+3. **SB DCB inflation** (0.8--1:1 ratio)
+4. Optional KBI + **Mandatory final POT**
+
+**疑慮**：DCB 與 stent struts 交互作用可能導致 drug loss；scoring/cutting balloon 在 jailed SB 中 deliverability 受限。
+
+::: {.callout-note}
+DCB 時機選擇（stent 前或後）仍有爭議，目前缺乏 robust evidence，建議基於術者經驗及病灶特性決定。
+:::
+
+## Hybrid / Blended Strategy {#sec-hybrid}
+
+### 核心概念
+
+- **MV**：DES implantation
+- **SB**：DCB treatment（取代 POBA 或 second stent）
+- 減少 overall stent burden，避免 polymer/strut crushing
+
+### Left Main Bifurcation 的 Blended Strategy
+
+Pan et al propensity-matched study (n=597) 結果：
+
+| 指標 | DES + DCB | DES-only | P 值 |
+|------|-----------|----------|------|
+| 2Y TLR | 2.91% | 9.42% | 0.007 |
+| 2Y TLF | 9.60% | 17.14% | 0.026 |
+| 2Y Stent thrombosis | 0.00% | 2.89% | 0.030 |
+
+: Left main blended strategy outcomes {#tbl-lm-blended}
+
+## 臨床試驗證據整理 {#sec-evidence}
+
+### Meta-Analysis 證據
+
+| 指標 | DCB vs POBA |
+|------|-------------|
+| Late lumen loss | DCB 顯著較低 |
+| Diameter stenosis | DCB 顯著較低 |
+| Binary restenosis | DCB 顯著較低 |
+| 9M MACE | OR 0.21 (0.05--0.84; p=0.03) |
+| 12M MACE | OR 0.45 (0.22--0.90; p=0.02) |
+
+: Meta-analysis: DCB vs POBA for SB treatment {#tbl-meta}
+
+### 主要 RCT 及 Registry 結果
+
+#### DCB-Only Strategy
+
+| 研究 | n | SB LLL | 主要結果 |
+|------|---|--------|---------|
+| Schulz 2014 | 39 | --- | 4M restenosis: MV 6.7%, SB 3.3% |
+| Bruch 2016 | 127 | --- | 9M TLR 4.6%; MACE 6.2% |
+| Ke 2023 | 60 | --0.02 vs 0.11 (p=0.005) | MV LLL 0.05 vs 0.25 (p=0.013) |
+
+: DCB-only strategy studies {#tbl-dcb-only-studies}
+
+#### SB DCB Before DES
+
+| 研究 | n | SB LLL | 主要結果 |
+|------|---|--------|---------|
+| DEBSIDE 2015 | 52 | --0.04 ± 0.34 | 6M SB restenosis 0% |
+| BIOLUX-I 2015 | 35 | 0.10 ± 0.43 | 12M composite 2.9% |
+
+: SB DCB before DES studies {#tbl-before-des}
+
+#### SB DCB After DES (Provisional Strategy)
+
+| 研究 | n | SB LLL (DCB vs POBA) | MACE |
+|------|---|---------------------|------|
+| Herrador 2013 | 100 | 0.09 vs 0.40 (p=0.01) | 11% vs 24% |
+| SARPEDON 2015 | 64 | 0.13 vs 0.51 (p=0.045) | --- |
+| PEPCAD-BIF 2016 | 64 | 0.13 vs 0.51 (p=0.045) | --- |
+| BEYOND 2020 | 222 | DS: 28.7% vs 40% (p=0.001) | 0.9% vs 3.7% |
+| **DCB-BIF 2025** | **784** | --- | **7.2% vs 12.5% (p=0.013)** |
+
+: SB DCB after DES studies {#tbl-after-des}
+
+### DCB-BIF Trial 深入分析 {#sec-dcb-bif}
+
+::: {.callout-important}
+## DCB-BIF Trial (n=784)
+- 最大規模 RCT：true non-complex bifurcation lesions, provisional stenting
+- **12M MACE**: 7.2% vs 12.5% (HR 0.56, 95% CI: 0.35--0.88; p=0.013)
+- 主要歸因於 myocardial infarction 減少
+- Procedural success、TLR、stent thrombosis 無顯著差異
+:::
+
+**批判性解讀**：
+
+- POBA arm 中較多 MI 多為早期 periprocedural events
+- DCB 組獲益可能部分來自 longer balloon inflation（減少 acute recoil 及 dissection）
+
+### 進行中的臨床試驗
+
+| 試驗 | 設計 | n | 主要比較 | 追蹤 |
+|------|------|---|---------|------|
+| STENT-FREE | RCT | 80 | DCB vs balloon (true CBL) | 12M |
+| BEYOND-II | RCT | 220 | DIOR vs BINGO PTX | 12M |
+| PRO-DAVID | RCT | 800 | Standard vs DCB provisional | 36M |
+| Hybrid DEB | RCT | --- | DEB hybrid vs two-stent | 12M |
+| PROMISE-BIF | RCT | 234 | Sirolimus vs paclitaxel DCB | 24M |
+| Kissing-DCB | RCT | 1,000 | DCB vs DES (true CBL) | 12M |
+
+: 進行中的 DCB bifurcation 臨床試驗 {#tbl-ongoing}
+
+## 操作技術要點 {#sec-technique}
+
+### Lesion Preparation
+
+**SB wire protection** (EBC 建議)：
+
+- Reference vessel diameter ≥2.0 mm
+- 灌注面積 >10% myocardium
+- SB length ≥73 mm
+
+**Predilatation**：
+
+- Semi-compliant 或 NC balloon，balloon-to-artery ratio **1:1**
+- Expansion failure → high-pressure NC / cutting / scoring balloon
+- Severe calcification → rotational atherectomy / intravascular lithotripsy
+- Medina 0,0,1 → scoring/cutting balloon 優先
+
+### DCB Sizing and Inflation
+
+| 參數 | 建議 |
+|------|------|
+| Balloon-to-vessel ratio | 0.8--1:1 |
+| Inflation time | ≥30--60 秒 |
+| Inflation pressure | 6--10 atm |
+| DCB 延伸 | SB DCB 延伸 2 mm 入 MV |
+
+: DCB sizing 與 inflation 參數 {#tbl-sizing}
+
+### 可接受的殘餘狹窄
+
+- Visual estimation: **<30%**
+- QCA: **<40%**
+- Non-flow-limiting dissection 可接受 (TIMI ≥3, 無 ECG changes/angina)
+
+### POT / KBI
+
+- **POT**：MV DES implantation 後 **mandatory**
+- **KBI**：SB compromise 或 LM bifurcation 時使用；最終必須 **final re-POT**
+
+## 特殊情境 {#sec-special}
+
+### Acute Coronary Syndrome (ACS)
+
+- DCB-only strategy 在適當 lesion preparation 後可行且安全
+- Bifurcation 場景中 SB 專屬數據有限
+- Thrombus burden 可能影響 drug delivery
+
+### Diabetes Mellitus
+
+- DCB 的 stent-sparing nature 及 small vessel 表現理論上有利
+- 缺乏 bifurcation PCI 中 diabetic patients 的專屬 RCT
+
+### High Bleeding Risk (HBR)
+
+- DCB 策略特別適合：stent-free revascularisation + DAPT de-escalation
+- REC-CAGEFREE II trial 支持 DCB 後 abbreviated antiplatelet regimens 的安全性
+- 在 bifurcation 場景的適用性仍需進一步驗證
+
+### Left Main Disease
+
+- DCB-only for LM：小型研究可行，數據不足
+- Blended strategy (DES MV + DCB SB) 有良好結果
+- 建議使用 intracoronary imaging 引導
+
+## Intracoronary Imaging 與 Physiology {#sec-imaging}
+
+### Intracoronary Imaging
+
+- ESC guideline：complex DES-based PCI 使用 ICI (Class I, LOE A)
+- **OCT**：偵測 dissection、thrombus、incomplete lesion preparation
+- **IVUS**：測量 vessel wall、plaque burden
+
+**ULTIMATE III Trial** 結果：
+
+| 指標 | IVUS-guided | Angiography-guided | P 值 |
+|------|-------------|-------------------|------|
+| 7M LLL | --0.10 ± 0.34 mm | 0.03 ± 0.52 mm | 0.025 |
+
+: ULTIMATE III: IVUS vs Angio-guided DCB PCI {#tbl-ultimate}
+
+::: {.callout-tip}
+Medial dissection 在 DCB-only PCI 後可能有助於更好的 outcomes --- 促進 vascular remodelling 及 better drug transfer。
+:::
+
+### Coronary Physiology
+
+- **FFR / iFR**：評估 jailed SB 是否 hemodynamically significant
+  - 許多 angiographically significant stenoses 在 physiology 下無 significance
+  - 可減少不必要的 SB intervention
+- **Pd/Pa ratio**：cutoff 0.90 可能指示 optimal lesion preparation
+- 目前無 prospective trial 評估 physiology-guided DCB treatment
+
+## 目前指引建議與未來方向 {#sec-guidelines}
+
+### 目前狀態
+
+- DCB 用於 de novo lesions **尚未納入** ESC/AHA guidelines
+- International DCB Consensus Group 及 EBC 已認可其潛在角色
+- DCB Academic Research Consortium 已建立標準化定義
+
+### 現有證據的限制
+
+1. RCT 樣本量偏小
+2. 研究設計異質性高
+3. 部分研究使用 BMS 作為 comparator
+4. POT 及 KBI 使用不一致
+5. 不同 DCB 及 DES 產品
+
+### 關鍵結論
+
+::: {.callout-important}
+## Take-Home Messages
+1. DCB for SB treatment 在 provisional stenting 中是**合理且有證據支持**的選項
+2. **PCB + BMS 已過時**，不應取代 new-generation DES
+3. **DCB + DES blended strategy** 在 registries 中展現良好結果
+4. **DCB-only** 對 Medina 0,X,X 可行且安全
+5. 仍需更多大型 standardised RCT
+:::
+
+---
+
+*本文件僅供醫療專業人員教學參考，臨床決策請結合個案情況。*

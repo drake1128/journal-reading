@@ -1,0 +1,129 @@
+# Manual of PCI — Case 202: Thrombus Troubles / 血栓處理的挑戰
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-11-08**
+**主講者：Nik Willie Fort & Manus Brilakis**
+**原文連結：[YouTube — Case 202: Manual of PCI - Thrombus Troubles](https://www.youtube.com/watch?v=5nUQ-6KT3XQ)**
+
+---
+
+## 目錄
+
+- [1. 病例摘要](#1-病例摘要)
+- [2. 血管攝影發現與處置流程](#2-血管攝影發現與處置流程)
+- [3. 重要學習重點](#3-重要學習重點)
+- [4. 臨床建議](#4-臨床建議)
+  - [4.1 處理 STEMI 合併血栓的標準流程](#41-處理-stemi-合併血栓的標準流程)
+  - [4.2 特殊情境考量](#42-特殊情境考量)
+- [5. 結論](#5-結論)
+- [參考文獻](#參考文獻)
+
+---
+
+## 1. 病例摘要
+
+本病例展示了急性冠狀動脈症候群 (Acute Coronary Syndrome) 患者處理血栓的挑戰。患者表現為下壁 ST 段上升型心肌梗塞 (Inferior ST-Elevation Myocardial Infarction)，但前一天不幸發生胃腸道出血 (GI bleed)。
+
+> **重點提醒**：本病例的特殊性在於患者同時具有 STEMI 與近期 GI bleed，在抗血小板治療上需要特別謹慎。
+
+---
+
+## 2. 血管攝影發現與處置流程
+
+| 處置階段 | 影像發現與處理 |
+|----------|--------------|
+| **初始評估** | 左冠狀動脈：多角度攝影未顯示明顯狹窄。右冠狀動脈 (RCA)：遠端完全阻塞 (occluded distally)；注射結束時可見 contrast staining，可能為血栓滯留對比劑的結果；未見側枝循環至 posterior descending artery (PDA) 或 posterolateral branch。 |
+| **第一步驟：氣球導管處理** | **處置**：置入導絲 (guide wire)；使用 2.0 × 15 mm 氣球導管進行 angioplasty。**結果**：恢復順向血流 (antegrade flow)；遠端 RCA 有明顯病灶；少量血流進入小的 PDA；部分血流進入右側 posterolateral branch。 |
+| **後續處理：再次擴張** | **處置**：重新置入導絲至 posterolateral branch（較大分支）；進行更多氣球擴張。**問題**：病灶未完全預備好；仍有血流但不理想，特別是進入 PDA 的血流仍不夠；出現 no-reflow 現象；可能有遠端血栓栓塞至 PDA 與 posterolateral branch。 |
+| **處理 No-reflow：氣球治療** | **處置**：重新置入導絲至 PDA；進行氣球 angioplasty。**結果**：血流仍不理想；患者持續 no-reflow 狀態。 |
+| **血管擴張劑治療** | **藥物選擇**：血管擴張劑 — adenosine, nicardipine, verapamil, nitroprusside；抗血小板藥物 — cangrelor 或 glycoprotein IIb/IIIa inhibitors。**本案處置**：由於近期 GI bleed，謹慎使用抗血小板藥物，決定給予血管擴張劑。**給藥方式**：透過 Penumbra aspiration catheter 給藥；冠狀動脈內 (intracoronary) 給予 nicardipine；約 500 mcg adenosine，分三次緩慢給藥。注意 adenosine 用於右冠狀動脈可能造成心搏過緩，但患者狀況穩定。**結果**：PDA 與右側 posterolateral branch 血流改善；仍有部分分支缺失，例如 posterolateral branch 的一個上支仍阻塞。 |
+| **支架置放** | **處置**：遠端 RCA 仍有明顯狹窄；置放 3.0 × 22 mm drug-eluting stent (DES)。**併發症**：支架置放可能推擠或擠壓血栓；遠端 RCA 看起來尚可，但原本有血栓；儘管先前已做 Penumbra thrombectomy，仍有血栓遷移至右側 posterolateral branch；出現之前未見的 filling defect。 |
+| **支架優化後血栓處理** | **觀察**：優化支架後，血栓現在移至 PDA。**處置**：使用 Penumbra 進行 aspiration thrombectomy；將導管推進至 PDA 內部；在置放支架前，Penumbra catheter 無法通過進入 PDA；標準化遠端 RCA 後，能夠順利將 aspiration catheter 送入 PDA；進行多次抽吸 (multiple passes)。**結果**：雖然未見明顯血栓經由 Penumbra 系統取出，但 PDA 狀況明顯改善。 |
+| **Posterolateral 血栓處理** | **問題**：血栓又遷移至右側 posterolateral branch。**技術限制**：使用 6 French guide catheter；guide 內空間不足以同時容納 buddy wire 與 Penumbra catheter。**解決方案**：使用同一條導絲置入 posterolateral branch；將 Penumbra catheter 推進進行 aspiration thrombectomy。**結果**：成功解決該處血栓；遠端 RCA 結果良好；PDA 結果良好；posterolateral branch 有部分血流；但 posterolateral branch 的上支 (superior branch) 仍血流不佳。 |
+| **最後處置：Superior branch** | **考量**：下支 (inferior branch) 有血流，可能已足夠；但考慮若能改善上支血流可能長期有益；特別是因為不願給予積極的抗血小板治療。**處置**：置入導絲至 superior branch（不太困難）；進行 aspiration thrombectomy；該分支原本就有部分血流通過。**結果**：仍為 no-reflow；對比劑未完美流動，但至少有部分進入該分支；決定停止進一步處置；患者胸部不適症狀緩解。 |
+
+---
+
+## 3. 重要學習重點
+
+### 血栓處理的挑戰
+
+1. **急性冠狀動脈症候群與 STEMI 的血栓管理具有挑戰性**
+   - 處理方式多樣化
+   - 需要根據臨床情況調整策略
+
+2. **初始處理通常選擇**：
+   - 氣球導管 angioplasty
+   - Aspiration thrombectomy
+
+3. **No-reflow 的治療策略**：
+   - 血管擴張劑：adenosine, nicardipine, verapamil, nitroprusside 等
+   - 抗血小板藥物：cangrelor 或 glycoprotein IIb/IIIa inhibitors
+   - 可透過 microcatheter 給予冠狀動脈內注射
+
+4. **Penumbra aspiration catheter 的特性**：
+   - 具有抽吸功能
+   - 也可作為 dual-lumen microcatheter 使用
+   - 可用於給藥
+
+5. **支架置放時機的考量**：
+   - 在本案例中，初始時 Penumbra catheter 因病灶過緊無法通過
+   - 置放支架後能夠進行 aspiration thrombectomy
+   - 但支架置放可能擠壓血栓造成遠端栓塞
+
+6. **Guide catheter 尺寸的重要性**：
+   - 6 French guide 無法同時容納 buddy wire 與 Penumbra catheter
+   - 需要策略性地使用同一條導絲進行多處處理
+
+7. **治療目標的現實考量**：
+   - 盡可能恢復主要分支的血流
+   - 結果可能不完美
+   - 有時需要接受次優的結果
+
+8. **本案例的特殊限制**：
+   - 患者有 GI bleed 病史
+   - 若無出血禁忌症，術後會給予 cangrelor 或 glycoprotein IIb/IIIa inhibitor
+   - 有助於血栓溶解與恢復順向血流
+
+---
+
+## 4. 臨床建議
+
+### 4.1 處理 STEMI 合併血栓的標準流程
+
+| 步驟 | 處置內容 |
+|------|---------|
+| **Step 1：初始血流恢復** | Balloon angioplasty 或 aspiration thrombectomy |
+| **Step 2：評估血流狀況** | 觀察是否有 no-reflow；評估遠端分支灌流 |
+| **Step 3：處理 No-reflow** | **血管擴張劑給藥**（首選，若有出血風險）：adenosine 50–200 mcg (RCA，注意可能 bradycardia)；nicardipine 100–200 mcg；verapamil 100–500 mcg；nitroprusside。**抗血小板藥物**（若無禁忌症）：cangrelor IV；glycoprotein IIb/IIIa inhibitors (eptifibatide, tirofiban, abciximab) |
+| **Step 4：支架置放** | 評估病灶準備程度；選擇適當的支架尺寸；注意可能的血栓擠壓效應 |
+| **Step 5：支架後處理** | 支架優化 (optimization)；處理遠端栓塞（如有發生）；必要時針對各分支進行 aspiration thrombectomy |
+| **Step 6：最終評估** | 確認主要分支血流；評估殘餘血栓；權衡進一步處置的風險效益 |
+
+### 4.2 特殊情境考量
+
+| 臨床情境 | 處理原則 |
+|----------|---------|
+| **合併出血風險** | 優先使用血管擴張劑；謹慎評估抗血小板藥物使用；考慮輸血閾值；密切監測出血徵象 |
+| **Guide catheter 尺寸限制** | 預先規劃導絲策略；考慮是否需要更大的 guide；評估 single wire vs buddy wire 技術；注意 aspiration catheter 的相容性 |
+| **大量血栓負荷** | 考慮延遲支架置放；充分的 thrombectomy；分階段處理策略；必要時考慮 glycoprotein IIb/IIIa inhibitor |
+| **多分支受影響** | 優先處理主要分支；評估每個分支的重要性；權衡處理時間與效益；接受可能的次優結果 |
+
+---
+
+## 5. 結論
+
+本病例充分展示了在複雜 STEMI 伴隨大量血栓時的處理挑戰。關鍵在於：
+
+- 靈活運用多種技術 (balloon angioplasty, aspiration thrombectomy, 血管擴張劑)
+- 根據患者的出血風險調整抗血小板策略
+- 認識支架置放可能產生的血栓擠壓效應
+- 必要時接受次優但可接受的結果
+- 了解設備限制（如 guide catheter 尺寸）並預先規劃
+
+---
+
+## 參考文獻
+
+1. Brilakis ES. Manual of Percutaneous Coronary Interventions: A Step-by-Step Approach. [*Academic Press*. 2021.](https://doi.org/10.1016/C2020-0-00234-4)
+2. Case 202: Thrombus Troubles — Manual of PCI. [YouTube](https://www.youtube.com/watch?v=5nUQ-6KT3XQ)

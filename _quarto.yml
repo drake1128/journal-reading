@@ -24,10 +24,18 @@ website:
           contents:
             - handouts/01-ischemic-heart-disease/index.qmd
             - handouts/02-heart-failure/index.qmd
-            - handouts/03-arrhythmia/index.qmd
+            - section: "心律不整 Arrhythmia"
+              contents:
+                - handouts/03-arrhythmia/index.qmd
+                - handouts/03-arrhythmia/ecg-challenge-alternating-rbbb/index.qmd
             - handouts/04-valvular-disease/index.qmd
             - handouts/05-cardiac-imaging/index.qmd
-            - handouts/06-interventional-cardiology/index.qmd
+            - section: "介入心臟學 Interventional Cardiology"
+              contents:
+                - handouts/06-interventional-cardiology/index.qmd
+                - handouts/06-interventional-cardiology/manual-pci-case202/index.qmd
+                - handouts/06-interventional-cardiology/jacc-ny-cardiac-registries/index.qmd
+                - handouts/06-interventional-cardiology/eurointervention-dcb-bifurcation/index.qmd
             - section: "周邊血管 Peripheral Vascular"
               contents:
                 - handouts/07-peripheral-vascular/index.qmd
@@ -40,7 +48,10 @@ website:
           contents:
             - handouts/10-icu-general/index.qmd
             - handouts/11-icu-respiratory/index.qmd
-            - handouts/12-icu-hemodynamics/index.qmd
+            - section: "ICU 血液動力學"
+              contents:
+                - handouts/12-icu-hemodynamics/index.qmd
+                - handouts/12-icu-hemodynamics/ccu-iabp-prague/index.qmd
             - handouts/13-icu-renal/index.qmd
         - section: "Pulmonology"
           contents:
@@ -50,7 +61,11 @@ website:
         - section: "Other"
           contents:
             - handouts/90-ai-technology/index.qmd
-            - handouts/91-podcast-journal-review/index.qmd
+            - section: "Podcast 期刊回顧"
+              contents:
+                - handouts/91-podcast-journal-review/index.qmd
+                - handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-11/index.qmd
+                - handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-25/index.qmd
             - handouts/99-misc/index.qmd
 
 format:
