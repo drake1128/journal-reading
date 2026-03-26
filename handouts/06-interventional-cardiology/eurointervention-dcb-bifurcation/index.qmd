@@ -7,12 +7,7 @@ lang: zh-TW
 toc: true
 toc-depth: 3
 number-sections: true
-reference-location: margin
-citation-location: margin
-bibliography: references.bib
 link-external-newwindow: true
-format:
-  html:
     code-fold: true
 ---
 
