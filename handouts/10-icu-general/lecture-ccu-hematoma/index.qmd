@@ -1,5 +1,5 @@
 ---
-title: "￿ 緊急病安警示文件"
+title: " 緊急病安警示文件"
 subtitle: "lecture CCU hematoma"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2025-12-25
@@ -90,7 +90,7 @@ Compartment syndrome (筋膜室症候群) . . . . . . . . . . . . . . . . . . . 
 心血管中心教學文件
 經橈動脈血腫管理
 1 緊急安全警示
-￿ 緊急安全警示
+ 緊急安全警示
 立即生效的安全規範:
 • 使用Brilinta (ticagrelor) + aspirin 的病患, 絕對禁止在brachial artery 建立arterial
 line
@@ -345,7 +345,7 @@ Figure 4: 筋膜切開術是為了拯救手部的功能, 若再延遲, 可以導
 
 心血管中心教學文件
 經橈動脈血腫管理
-￿ 緊急安全警示
+ 緊急安全警示
 處理原則:
 1. 懷疑即處理- 不要等待確診
 2. 立即通知上級- 主治醫師、心血管外科
@@ -366,7 +366,7 @@ line。在過去MMCU 報告過, 即便最初是real-time ultrasound guided-punct
 • 絕對禁忌, 無例外!
 7 標準作業程序
 7.1 術前準備檢核
-￿檢核清單
+檢核清單
 必須完成項目:
 詳細詢問用藥史(特別是Brilinta, Plavix, aspirin)
 檢查凝血功能(PT, aPTT, platelet count)
