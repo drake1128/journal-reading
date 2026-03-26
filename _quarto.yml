@@ -28,8 +28,10 @@ website:
             - handouts/04-valvular-disease/index.qmd
             - handouts/05-cardiac-imaging/index.qmd
             - handouts/06-interventional-cardiology/index.qmd
-            - handouts/07-peripheral-vascular/index.qmd
-            - handouts/07-peripheral-vascular/carotid-stenting-review/index.qmd
+            - section: "周邊血管 Peripheral Vascular"
+              contents:
+                - handouts/07-peripheral-vascular/index.qmd
+                - handouts/07-peripheral-vascular/carotid-stenting-review/index.qmd
         - section: "Specialized"
           contents:
             - handouts/08-genetic-medicine/index.qmd
