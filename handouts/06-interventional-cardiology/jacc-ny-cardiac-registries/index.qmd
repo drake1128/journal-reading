@@ -7,7 +7,6 @@ lang: zh-TW
 toc: true
 toc-depth: 3
 number-sections: true
-bibliography: false
 ---
 
 ::: {.callout-note}
