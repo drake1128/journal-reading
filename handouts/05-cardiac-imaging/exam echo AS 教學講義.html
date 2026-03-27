@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -122,7 +151,56 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">本頁目錄</h2>
    
   <ul>
-  <li><a href="#心血管中心教育訓練" id="toc-心血管中心教育訓練" class="nav-link active" data-scroll-target="#心血管中心教育訓練"><span class="header-section-number">1</span> 心血管中心教育訓練</a></li>
+  <li><a href="#主動脈瓣狹窄-aortic-stenosis-超音波診斷與評估考卷" id="toc-主動脈瓣狹窄-aortic-stenosis-超音波診斷與評估考卷" class="nav-link active" data-scroll-target="#主動脈瓣狹窄-aortic-stenosis-超音波診斷與評估考卷"><span class="header-section-number">1</span> 主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</a>
+  <ul class="collapse">
+  <li><a href="#說明" id="toc-說明" class="nav-link" data-scroll-target="#說明"><span class="header-section-number">1.1</span> 說明</a></li>
+  <li><a href="#考題" id="toc-考題" class="nav-link" data-scroll-target="#考題"><span class="header-section-number">1.2</span> 考題</a>
+  <ul class="collapse">
+  <li><a href="#在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度" id="toc-在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度" class="nav-link" data-scroll-target="#在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度"><span class="header-section-number">1.2.1</span> 1. 在評估主動脈瓣狹窄嚴重程度時，下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度？</a></li>
+  <li><a href="#在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄" id="toc-在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄" class="nav-link" data-scroll-target="#在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄"><span class="header-section-number">1.2.2</span> 2. 在連續多普勒 (CW Doppler) 測量主動脈瓣流速時，下列何種顏色的譜圖應該被記錄？</a></li>
+  <li><a href="#根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少" id="toc-根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少" class="nav-link" data-scroll-target="#根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少"><span class="header-section-number">1.2.3</span> 3. 根據美國超音波心臟醫學會 (ASE) 指南，重度主動脈瓣狹窄的最大流速為多少？</a></li>
+  <li><a href="#測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式" id="toc-測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式" class="nav-link" data-scroll-target="#測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式"><span class="header-section-number">1.2.4</span> 4. 測量主動脈瓣狹窄的最大流速 (Vmax) 時，應使用哪種多普勒方式？</a></li>
+  <li><a href="#使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何" id="toc-使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何" class="nav-link" data-scroll-target="#使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何"><span class="header-section-number">1.2.5</span> 5. 使用 CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度為何？</a></li>
+  <li><a href="#在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何" id="toc-在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何" class="nav-link" data-scroll-target="#在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何"><span class="header-section-number">1.2.6</span> 6. 在重度主動脈瓣狹窄病患，使用心尖窗口時常見的多普勒信號特徵為何？</a></li>
+  <li><a href="#計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數" id="toc-計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數" class="nav-link" data-scroll-target="#計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數"><span class="header-section-number">1.2.7</span> 7. 計算主動脈瓣有效口面積 (AVA) 使用連續性方程式 (continuity equation) 時，需要測量哪三項參數？</a></li>
+  <li><a href="#測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個" id="toc-測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個" class="nav-link" data-scroll-target="#測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個"><span class="header-section-number">1.2.8</span> 8. 測量主動脈瓣狹窄時，若從多個窗口測得不同流速值，應採用哪一個？</a></li>
+  <li><a href="#對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響" id="toc-對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響" class="nav-link" data-scroll-target="#對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響"><span class="header-section-number">1.2.9</span> 9. 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，對最大流速的測量會產生什麼影響？</a></li>
+  <li><a href="#以下哪一項會導致實際主動脈瓣狹窄程度被低估" id="toc-以下哪一項會導致實際主動脈瓣狹窄程度被低估" class="nav-link" data-scroll-target="#以下哪一項會導致實際主動脈瓣狹窄程度被低估"><span class="header-section-number">1.2.10</span> 10. 以下哪一項會導致實際主動脈瓣狹窄程度被低估？</a></li>
+  <li><a href="#若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭" id="toc-若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭" class="nav-link" data-scroll-target="#若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭"><span class="header-section-number">1.2.11</span> 11. 若要從胸骨上窩窗口 (Suprasternal notch) 測量主動脈瓣狹窄的流速，應如何調整探頭？</a></li>
+  <li><a href="#在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是" id="toc-在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是" class="nav-link" data-scroll-target="#在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是"><span class="header-section-number">1.2.12</span> 12. 在嚴重低流量低梯度主動脈瓣狹窄 (Low-flow, low-gradient AS) 的病人，最適合的評估方法是？</a></li>
+  <li><a href="#從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置" id="toc-從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置" class="nav-link" data-scroll-target="#從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置"><span class="header-section-number">1.2.13</span> 13. 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應如何放置？</a></li>
+  <li><a href="#超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵" id="toc-超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵" class="nav-link" data-scroll-target="#超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵"><span class="header-section-number">1.2.14</span> 14. 超音波心動圖中，下列哪一項不是重度主動脈瓣狹窄的特徵？</a></li>
+  <li><a href="#在測量主動脈瓣流速時以下哪一種因素會使測量值被低估" id="toc-在測量主動脈瓣流速時以下哪一種因素會使測量值被低估" class="nav-link" data-scroll-target="#在測量主動脈瓣流速時以下哪一種因素會使測量值被低估"><span class="header-section-number">1.2.15</span> 15. 在測量主動脈瓣流速時，以下哪一種因素會使測量值被低估？</a></li>
+  <li><a href="#使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale" id="toc-使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale" class="nav-link" data-scroll-target="#使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale"><span class="header-section-number">1.2.16</span> 16. 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號 (aliasing)，需要設定多少的速度範圍 (velocity scale)？</a></li>
+  <li><a href="#使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估" id="toc-使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估" class="nav-link" data-scroll-target="#使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估"><span class="header-section-number">1.2.17</span> 17. 使用 CW 多普勒測量主動脈瓣流速時，下列哪種情況容易導致流速被低估？</a></li>
+  <li><a href="#在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作" id="toc-在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作" class="nav-link" data-scroll-target="#在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作"><span class="header-section-number">1.2.18</span> 18. 在心尖窗口測量主動脈瓣流速時，為提高準確度，可採取以下哪種操作？</a></li>
+  <li><a href="#計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處" id="toc-計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處" class="nav-link" data-scroll-target="#計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處"><span class="header-section-number">1.2.19</span> 19. 計算主動脈瓣面積時，左心室流出道直徑 (LVOT diameter) 的測量位置應在何處？</a></li>
+  <li><a href="#超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式" id="toc-超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式" class="nav-link" data-scroll-target="#超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式"><span class="header-section-number">1.2.20</span> 20. 超音波測量中，根據 Bernoulli 方程 (Bernoulli equation) 計算壓力梯度，以下哪種情況必須使用完整的 Bernoulli 方程而非簡化公式？</a></li>
+  </ul></li>
+  <li><a href="#答案與詳解" id="toc-答案與詳解" class="nav-link" data-scroll-target="#答案與詳解"><span class="header-section-number">1.3</span> 答案與詳解</a>
+  <ul class="collapse">
+  <li><a href="#答案b-心尖五腔窗口-apical-5-chamber-view" id="toc-答案b-心尖五腔窗口-apical-5-chamber-view" class="nav-link" data-scroll-target="#答案b-心尖五腔窗口-apical-5-chamber-view"><span class="header-section-number">1.3.1</span> 1. 答案：B — 心尖五腔窗口 (Apical 5-chamber view)</a></li>
+  <li><a href="#答案c-藍色遠離探頭方向" id="toc-答案c-藍色遠離探頭方向" class="nav-link" data-scroll-target="#答案c-藍色遠離探頭方向"><span class="header-section-number">1.3.2</span> 2. 答案：C — 藍色（遠離探頭方向）</a></li>
+  <li><a href="#答案c-4.0-ms" id="toc-答案c-4.0-ms" class="nav-link" data-scroll-target="#答案c-4.0-ms"><span class="header-section-number">1.3.3</span> 3. 答案：C — &gt;4.0 m/s</a></li>
+  <li><a href="#答案b-連續多普勒-continuous-wave-doppler" id="toc-答案b-連續多普勒-continuous-wave-doppler" class="nav-link" data-scroll-target="#答案b-連續多普勒-continuous-wave-doppler"><span class="header-section-number">1.3.4</span> 4. 答案：B — 連續多普勒 (Continuous-wave Doppler)</a></li>
+  <li><a href="#答案a-與血流方向平行-0-度" id="toc-答案a-與血流方向平行-0-度" class="nav-link" data-scroll-target="#答案a-與血流方向平行-0-度"><span class="header-section-number">1.3.5</span> 5. 答案：A — 與血流方向平行 (0 度)</a></li>
+  <li><a href="#答案b-高密度高速度信號" id="toc-答案b-高密度高速度信號" class="nav-link" data-scroll-target="#答案b-高密度高速度信號"><span class="header-section-number">1.3.6</span> 6. 答案：B — 高密度、高速度信號</a></li>
+  <li><a href="#答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分" id="toc-答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分" class="nav-link" data-scroll-target="#答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分"><span class="header-section-number">1.3.7</span> 7. 答案：C — 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</a></li>
+  <li><a href="#答案d-取最高測量值" id="toc-答案d-取最高測量值" class="nav-link" data-scroll-target="#答案d-取最高測量值"><span class="header-section-number">1.3.8</span> 8. 答案：D — 取最高測量值</a></li>
+  <li><a href="#答案a-不會有影響" id="toc-答案a-不會有影響" class="nav-link" data-scroll-target="#答案a-不會有影響"><span class="header-section-number">1.3.9</span> 9. 答案：A — 不會有影響</a></li>
+  <li><a href="#答案a-探頭與血流方向不平行" id="toc-答案a-探頭與血流方向不平行" class="nav-link" data-scroll-target="#答案a-探頭與血流方向不平行"><span class="header-section-number">1.3.10</span> 10. 答案：A — 探頭與血流方向不平行</a></li>
+  <li><a href="#答案d-探頭方向指向左肩" id="toc-答案d-探頭方向指向左肩" class="nav-link" data-scroll-target="#答案d-探頭方向指向左肩"><span class="header-section-number">1.3.11</span> 11. 答案：D — 探頭方向指向左肩</a></li>
+  <li><a href="#答案b-使用杜布他敏-dobutamine-壓力測試" id="toc-答案b-使用杜布他敏-dobutamine-壓力測試" class="nav-link" data-scroll-target="#答案b-使用杜布他敏-dobutamine-壓力測試"><span class="header-section-number">1.3.12</span> 12. 答案：B — 使用杜布他敏 (Dobutamine) 壓力測試</a></li>
+  <li><a href="#答案c-穿過左心室心尖和主動脈瓣" id="toc-答案c-穿過左心室心尖和主動脈瓣" class="nav-link" data-scroll-target="#答案c-穿過左心室心尖和主動脈瓣"><span class="header-section-number">1.3.13</span> 13. 答案：C — 穿過左心室心尖和主動脈瓣</a></li>
+  <li><a href="#答案d-主動脈瓣葉開口增加" id="toc-答案d-主動脈瓣葉開口增加" class="nav-link" data-scroll-target="#答案d-主動脈瓣葉開口增加"><span class="header-section-number">1.3.14</span> 14. 答案：D — 主動脈瓣葉開口增加</a></li>
+  <li><a href="#答案d-測量時病人吸氣末期" id="toc-答案d-測量時病人吸氣末期" class="nav-link" data-scroll-target="#答案d-測量時病人吸氣末期"><span class="header-section-number">1.3.15</span> 15. 答案：D — 測量時病人吸氣末期</a></li>
+  <li><a href="#答案c-5-6-ms" id="toc-答案c-5-6-ms" class="nav-link" data-scroll-target="#答案c-5-6-ms"><span class="header-section-number">1.3.16</span> 16. 答案：C — 5-6 m/s</a></li>
+  <li><a href="#答案b-探頭與血流方向夾角增大" id="toc-答案b-探頭與血流方向夾角增大" class="nav-link" data-scroll-target="#答案b-探頭與血流方向夾角增大"><span class="header-section-number">1.3.17</span> 17. 答案：B — 探頭與血流方向夾角增大</a></li>
+  <li><a href="#答案a-病人左側臥位並舉起左手" id="toc-答案a-病人左側臥位並舉起左手" class="nav-link" data-scroll-target="#答案a-病人左側臥位並舉起左手"><span class="header-section-number">1.3.18</span> 18. 答案：A — 病人左側臥位並舉起左手</a></li>
+  <li><a href="#答案c-主動脈瓣下-0.5-1.0-cm-處" id="toc-答案c-主動脈瓣下-0.5-1.0-cm-處" class="nav-link" data-scroll-target="#答案c-主動脈瓣下-0.5-1.0-cm-處"><span class="header-section-number">1.3.19</span> 19. 答案：C — 主動脈瓣下 0.5-1.0 cm 處</a></li>
+  <li><a href="#答案c-左心室流出道流速高於-1.5-ms-時" id="toc-答案c-左心室流出道流速高於-1.5-ms-時" class="nav-link" data-scroll-target="#答案c-左心室流出道流速高於-1.5-ms-時"><span class="header-section-number">1.3.20</span> 20. 答案：C — 左心室流出道流速高於 1.5 m/s 時</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -132,19 +210,319 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="心血管中心教育訓練" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 心血管中心教育訓練</h1>
+<section id="主動脈瓣狹窄-aortic-stenosis-超音波診斷與評估考卷" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</h1>
 <p><strong>整理：謝慕揚 MD, PhD, FESC</strong> <strong>日期：2026-03-26</strong></p>
 <hr>
-<p>主動脈瓣狹窄(AS) 考卷 心血管中心教育訓練考卷 主動脈瓣狹窄(Aortic Stenosis) 超音波診斷與評估 日期： 姓名： 說明 本考卷共20 題，每題皆為單選題，請選出一個最適當的答案。考題涵蓋主動脈瓣狹窄的超 音波診斷評估、測量技巧、診斷標準、血流動力學等方面，特別著重於如何正確測量取得最 大流速。 主動脈瓣狹窄(AS) 考題 1. 在評估主動脈瓣狹窄嚴重程度時，下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯 度？ A. 心尖四腔窗口(Apical 4-chamber view) B. 心尖五腔窗口(Apical 5-chamber view) C. 胸骨右緣窗口(Right parasternal view) D. 胸骨旁長軸窗口(Parasternal long-axis view) 2. 在連續多普勒(CW Doppler) 測量主動脈瓣流速時，下列何種顏色的譜圖應該被記錄？ A. 譜圖顏色無關緊要 B. 紅色(向探頭方向) C. 藍色(遠離探頭方向) D. 綠色(與探頭垂直方向) 3. 根據美國超音波心臟醫學會(ASE) 指南，重度主動脈瓣狹窄的最大流速為多少？ A. &gt;2.5 m/s B. &gt;3.0 m/s C. &gt;4.0 m/s D. &gt;5.0 m/s 4. 測量主動脈瓣狹窄的最大流速(Vmax) 時，應使用哪種多普勒方式？ A. 脈衝多普勒(Pulsed-wave Doppler) B. 連續多普勒(Continuous-wave Doppler) 第1 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 C. 組織多普勒(Tissue Doppler) D. 彩色多普勒(Color Doppler) 5. 使用CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度為何？ A. 與血流方向平行(0 度) B. 與血流方向成30 度角 C. 與血流方向成45 度角 D. 與血流方向成60 度角 6. 在重度主動脈瓣狹窄病患，使用心尖窗口時常見的多普勒信號特徵為何？ A. 低密度、低速度信號 B. 高密度、高速度信號 C. 低密度、高速度信號 D. 高密度、低速度信號 7. 計算主動脈瓣有效口面積(AVA) 使用連續性方程式(continuity equation) 時，需要測 量哪三項參數？ A. 主動脈瓣環直徑、主動脈瓣最大流速、左心室流出道最大流速 B. 主動脈瓣環直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分 C. 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分 D. 左心室流出道直徑、主動脈瓣最大流速、左心室流出道最大流速 8. 測量主動脈瓣狹窄時，若從多個窗口測得不同流速值，應採用哪一個？ A. 取所有測量值的平均 B. 取最低測量值 C. 取心尖窗口測得的值 D. 取最高測量值 9. 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，對最大流速的測量會產生什麼影響？ A. 不會有影響 B. 使測量的流速偏高 C. 使測量的流速偏低 D. 無法測量準確的流速 10. 以下哪一項會導致實際主動脈瓣狹窄程度被低估？ A. 探頭與血流方向不平行 B. 左心室功能減退 C. 主動脈瓣呈雙葉瓣(bicuspid valve) D. 存在嚴重貧血 11. 若要從胸骨上窩窗口(Suprasternal notch) 測量主動脈瓣狹窄的流速，應如何調整探 第2 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 頭？ A. 探頭方向指向右肩 B. 探頭方向朝向肚臍 C. 探頭方向朝向左髖關節 D. 探頭方向指向左肩 12. 在嚴重低流量低梯度主動脈瓣狹窄(Low-flow, low-gradient AS) 的病人，最適合的評 估方法是？ A. 單純計算瓣膜面積 B. 使用杜布他敏(Dobutamine) 壓力測試 C. 僅測量最大流速 D. 計算心臟輸出量 13. 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應如何放置？ A. 穿過二尖瓣和主動脈瓣 B. 穿過二尖瓣和三尖瓣 C. 穿過左心室心尖和主動脈瓣 D. 穿過右心室心尖和肺動脈瓣 14. 超音波心動圖中，下列哪一項不是重度主動脈瓣狹窄的特徵？ A. 主動脈瓣最大流速&gt; 4 m/s B. 平均壓力梯度&gt; 40 mmHg C. 瓣膜面積&lt; 1.0 cm² D. 主動脈瓣葉開口增加 15. 在測量主動脈瓣流速時，以下哪一種因素會使測量值被低估？ A. 病人肥胖 B. 主動脈瓣鈣化嚴重 C. 測量時病人呼氣末期 D. 測量時病人吸氣末期 16. 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號(aliasing)，需要設定多 少的速度範圍(velocity scale)？ A. 1-2 m/s B. 3-4 m/s C. 5-6 m/s D. 7-8 m/s 17. 使用CW 多普勒測量主動脈瓣流速時，下列哪種情況容易導致流速被低估？ A. 增加多普勒增益(Doppler gain) 第3 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 B. 探頭與血流方向夾角增大 C. 使用高頻探頭 D. 使用多個超音波窗口 18. 在心尖窗口測量主動脈瓣流速時，為提高準確度，可採取以下哪種操作？ A. 病人左側臥位並舉起左手 B. 病人平躺並屏住呼吸 C. 使用回波增強劑 D. 減小超音波增益設定 19. 計算主動脈瓣面積時，左心室流出道直徑(LVOT diameter) 的測量位置應在何處？ A. 主動脈瓣葉尖端處 B. 主動脈瓣環處 C. 主動脈瓣下0.5-1.0 cm 處 D. 主動脈根部(sinus of Valsalva) 處 20. 超音波測量中，根據Bernoulli 方程(Bernoulli equation) 計算壓力梯度，以下哪種情 況必須使用完整的Bernoulli 方程而非簡化公式？ A. 主動脈瓣接近完全關閉時 B. 主動脈瓣最大流速超過5 m/s 時 C. 左心室流出道流速高於1.5 m/s 時 D. 存在亞瓣膜狹窄(subvalvular stenosis) 時 — 考卷結束— 第4 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 主動脈瓣狹窄(AS) 考卷 答案與詳解 主動脈瓣狹窄(AS) 考題答案 1. B (心尖五腔窗口(Apical 5-chamber view)) 詳解: 心尖五腔窗口是評估主動脈瓣狹窄最常用的超音波窗口，因為此窗口可同時顯示 左心室、左心室流出道及主動脈瓣，且超音波探頭與主動脈瓣血流方向較為平行，有 利於獲得最大的跨瓣壓力梯度。雖然胸骨右緣窗口有時也能獲得較好的角度，但在多 數病人中較難取得。 2. C (藍色(遠離探頭方向)) 詳解: 在連續多普勒測量主動脈瓣流速時，從心尖窗口測量的主動脈瓣收縮期血流是遠 離探頭的方向，因此在多普勒譜圖上顯示為藍色。正確識別血流方向對於區分主動脈 瓣順行血流和主動脈瓣逆流很重要，尤其是當兩者同時存在時。 3. C (&gt;4.0 m/s) 詳解: 根據美國超音波心臟醫學會(ASE) 與歐洲心臟病學會(ESC) 指南，重度主動脈 瓣狹窄的診斷標準為：最大流速&gt;4.0 m/s、平均壓力梯度&gt;40 mmHg、瓣膜面積&lt;1.0 cm² 或瓣膜面積指數&lt;0.6 cm²/m²。最大流速是最容易測量且重複性良好的參數。 4. B (連續多普勒(Continuous-wave Doppler)) 詳解: 測量主動脈瓣狹窄的最大流速(Vmax) 時，應使用連續多普勒(CW Doppler)。 因為主動脈瓣狹窄的血流速度通常超過2 m/s，甚至可達5-6 m/s，而脈衝多普勒(PW Doppler) 因採樣深度限制，無法準確測量超過奈奎斯特極限(通常為2 m/s 左右) 的高 流速。連續多普勒沒有這種限制，可測量任何速度範圍的血流。 5. A (與血流方向平行(0 度)) 詳解: 使用CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度是與血流方向平行 (0 度)。根據多普勒效應原理，測量的流速與血流實際速度和夾角余弦值的乘積成正比 (V 測量=V 實際×cosθ)。當夾角為0 度時，cosθ=1，測得的流速最接近實際流速。隨 著夾角增大，測得的流速會被低估。 6. B (高密度、高速度信號) 詳解: 在重度主動脈瓣狹窄病患，使用心尖窗口的CW 多普勒檢查時，多普勒信號通常 表現為高密度、高速度信號。高密度反映了大量紅血球同時經過狹窄的瓣膜口徑，高 速度則是由於狹窄通道造成的血流加速。完整的多普勒包絡線清晰可見，頂峰呈尖狀， 表現出典型的” 刀刃” 形態。 7. C (左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分) 詳解: 計算主動脈瓣有效口面積(AVA) 使用連續性方程式(continuity equation) 時，需 要測量以下三項參數：左心室流出道直徑(LVOT diameter)、左心室流出道流速時間積 分(LVOT VTI) 和主動脈瓣流速時間積分(AV VTI)。公式為：AVA = (LVOT 面積× LVOT VTI) ÷ AV VTI，其中LVOT 面積= π × (LVOT 直徑/2)²。這基於流量守恆原理，即通過 瓣膜前後的血流量相等。 第5 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 8. D (取最高測量值) 詳解: 測量主動脈瓣狹窄時，若從多個窗口(如心尖窗口、胸骨右緣、胸骨上窩等) 測得 不同流速值，應採用最高測量值。這是因為多普勒測量受角度影響，只有當超音波束 與血流平行時才能測得最大值。不同窗口中，哪個能與血流最接近平行往往難以預測， 因此最佳實踐是使用多個窗口測量，並採用最高值作為最接近實際血流速度的估計。 9. A (不會有影響) 詳解: 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，通常不會直接影響收縮期主動 脈瓣順行血流最大流速的測量。這是因為主動脈瓣狹窄的順行血流發生在收縮期，而 主動脈瓣逆流發生在舒張期，兩者在時間上分離。但需注意的是，嚴重的主動脈瓣逆 流可能通過影響左心室前負荷和後負荷，間接改變心輸出量，進而影響血流動力學參 數，特別是平均壓力梯度。 10. A (探頭與血流方向不平行) 詳解: 探頭與血流方向不平行是導致實際主動脈瓣狹窄程度被低估的主要因素。根據多 普勒效應，測量的流速與實際流速和夾角余弦值的乘積成正比(V 測量=V 實際×cosθ)。 當探頭與血流不平行時(θ&gt;0°)，cosθ&lt;1，導致測得的流速小於實際流速。例如，30° 角 度錯誤會導致流速被低估約13 11. D (探頭方向指向左肩) 詳解: 從胸骨上窩窗口(Suprasternal notch) 測量主動脈瓣狹窄的流速時，應將探頭方 向指向左肩。這樣可使探頭與升主動脈和主動脈瓣的血流方向盡可能平行，有助於獲 得準確的流速測量。胸骨上窩窗口是獲取主動脈瓣流速的重要補充窗口，尤其當心尖 窗口和胸骨旁窗口的影像不理想時。 12. B (使用杜布他敏(Dobutamine) 壓力測試) 詳解: 在嚴重低流量低梯度主動脈瓣狹窄(Low-flow, low-gradient AS) 的病人中，最 適合的評估方法是使用杜布他敏(Dobutamine) 壓力測試。這類病人由於左心室功能不 全，心輸出量降低，即使存在嚴重瓣膜狹窄，測得的壓力梯度也可能不高。杜布他敏 可增加心肌收縮力和心輸出量，在測試中可觀察流速和壓力梯度的變化情況：如果流 量增加而壓力梯度顯著升高、瓣膜面積仍然小，則確認為真正的嚴重AS；如果流量增 加的同時瓣膜面積也顯著增加(&gt;1.0 cm²)，則為假性嚴重AS。 13. C (穿過左心室心尖和主動脈瓣) 詳解: 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應穿過左心室心尖和主動脈 瓣。這樣的放置方式可以使超音波束與左心室流出道和主動脈瓣的血流方向盡可能平 行，獲得最準確的流速測量。取樣線應避免穿過二尖瓣，以免混淆主動脈瓣信號與二 尖瓣逆流信號。 14. D (主動脈瓣葉開口增加) 詳解: 主動脈瓣葉開口增加不是重度主動脈瓣狹窄的特徵，實際上重度主動脈瓣狹窄時 瓣葉開口受限。重度主動脈瓣狹窄的超音波特徵包括：主動脈瓣最大流速&gt;4 m/s、平 均壓力梯度&gt;40 mmHg、瓣膜面積&lt;1.0 cm²、瓣葉增厚、鈣化、活動度降低、開口受 限等。在二維超音波中，可以看到主動脈瓣收縮期開口明顯減少，呈” 圓點狀” 開口。 15. D (測量時病人吸氣末期) 詳解: 在測量主動脈瓣流速時，如果在病人吸氣末期測量，會使測量值被低估。這是 因為吸氣會增加靜脈回流、右心輸出量，但暫時減少左心輸出量(由於肺血管床容量增 加)。相反，呼氣時左心輸出量增加。為了獲得準確測量，建議在呼氣末期或讓病人短 暫屏住呼吸時進行測量，或者取多個心動週期的平均值。肥胖、瓣膜嚴重鈣化會使獲 取信號更困難，但不一定系統性低估流速。 16. C (5-6 m/s) 詳解: 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號(aliasing)，需要 第6 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 設定足夠高的速度範圍(velocity scale)，通常為5-6 m/s。重度主動脈瓣狹窄的血流速 度通常在4-6 m/s 範圍內，如果速度範圍設置過低，高速信號將無法完整顯示，影響測 量準確性。雖然連續多普勒不存在與脈衝多普勒相同的奈奎斯特限制，但適當設置速 度範圍有助於信號的最佳顯示。 17. B (探頭與血流方向夾角增大) 詳解: 使用CW 多普勒測量主動脈瓣流速時，探頭與血流方向夾角增大會導致流速被 明顯低估。根據多普勒方程，測得的流速等於實際流速乘以探頭與血流方向夾角的餘 弦值(V 測量=V 實際×cosθ)。當夾角為0° 時，cosθ=1，測量最準確；當夾角增大時， cosθ&lt;1，流速被低估。例如，60° 的夾角意味著測量值僅為實際值的50 18. A (病人左側臥位並舉起左手) 詳解: 在心尖窗口測量主動脈瓣流速時，讓病人左側臥位並舉起左手可以提高測量準確 度。左側臥位使心臟更接近胸壁，減少超音波穿透的組織厚度；舉起左手可進一步移 動肋骨，擴大肋間隙，提供更好的聲窗。這種姿勢有助於使探頭與主動脈瓣血流方向 更加平行，減少角度誤差。屏住呼吸短時間可以幫助穩定圖像，但一般建議在呼氣末 期測量；回波增強劑主要用於改善二維圖像，對多普勒信號幫助有限。 19. C (主動脈瓣下0.5-1.0 cm 處) 詳解: 計算主動脈瓣面積時，左心室流出道直徑(LVOT diameter) 的標準測量位置應在 主動脈瓣下0.5-1.0 cm 處。這一位置是連續性方程使用的標準測量點，可在胸骨旁長 軸窗口的收縮中期測量，測量線與血管走向垂直，從內膜到內膜。測量應避免太靠近 瓣膜(會受瓣環鈣化影響) 或太深入左心室(流出道變得不規則)。測量LVOT 直徑是計 算瓣膜面積的關鍵步驟，1mm 的測量誤差可導致AVA 計算有約10 20. C (左心室流出道流速高於1.5 m/s 時) 詳解: 根據Bernoulli 方程(Bernoulli equation) 計算壓力梯度時，當左心室流出道流 速高於1.5 m/s 時，必須使用完整的Bernoulli 方程而非簡化公式。簡化的Bernoulli 公式為ΔP=4V²，其中V 是主動脈瓣最大流速。這個簡化公式假設左心室流出道流速可 忽略不計。然而，當左心室流出道流速超過1.5 m/s 時(如在高心輸出狀態、主動脈瓣 下狹窄或小口徑左心室流出道)，必須使用完整公式：ΔP=4(V²₂-V²₁)，其中V₂ 是主動 脈瓣最大流速，V₁ 是左心室流出道流速。忽略高LVOT 流速會導致壓力梯度被高估。 第7 頁 心血管中心2025 年</p>
+<section id="說明" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="說明"><span class="header-section-number">1.1</span> 說明</h2>
+<p>本考卷共 20 題，每題皆為單選題，請選出一個最適當的答案。考題涵蓋主動脈瓣狹窄的超音波診斷評估、測量技巧、診斷標準、血流動力學等方面，特別著重於如何正確測量取得最大流速。</p>
+<hr>
+</section>
+<section id="考題" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="考題"><span class="header-section-number">1.2</span> 考題</h2>
+<section id="在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度"><span class="header-section-number">1.2.1</span> 1. 在評估主動脈瓣狹窄嚴重程度時，下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度？</h3>
+<ul>
+<li>A. 心尖四腔窗口 (Apical 4-chamber view)</li>
+<li>B. 心尖五腔窗口 (Apical 5-chamber view)</li>
+<li>C. 胸骨右緣窗口 (Right parasternal view)</li>
+<li>D. 胸骨旁長軸窗口 (Parasternal long-axis view)</li>
+</ul>
+</section>
+<section id="在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄"><span class="header-section-number">1.2.2</span> 2. 在連續多普勒 (CW Doppler) 測量主動脈瓣流速時，下列何種顏色的譜圖應該被記錄？</h3>
+<ul>
+<li>A. 譜圖顏色無關緊要</li>
+<li>B. 紅色（向探頭方向）</li>
+<li>C. 藍色（遠離探頭方向）</li>
+<li>D. 綠色（與探頭垂直方向）</li>
+</ul>
+</section>
+<section id="根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少"><span class="header-section-number">1.2.3</span> 3. 根據美國超音波心臟醫學會 (ASE) 指南，重度主動脈瓣狹窄的最大流速為多少？</h3>
+<ul>
+<li>A. &gt;2.5 m/s</li>
+<li>B. &gt;3.0 m/s</li>
+<li>C. &gt;4.0 m/s</li>
+<li>D. &gt;5.0 m/s</li>
+</ul>
+</section>
+<section id="測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式" class="level3" data-number="1.2.4">
+<h3 data-number="1.2.4" class="anchored" data-anchor-id="測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式"><span class="header-section-number">1.2.4</span> 4. 測量主動脈瓣狹窄的最大流速 (Vmax) 時，應使用哪種多普勒方式？</h3>
+<ul>
+<li>A. 脈衝多普勒 (Pulsed-wave Doppler)</li>
+<li>B. 連續多普勒 (Continuous-wave Doppler)</li>
+<li>C. 組織多普勒 (Tissue Doppler)</li>
+<li>D. 彩色多普勒 (Color Doppler)</li>
+</ul>
+</section>
+<section id="使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何" class="level3" data-number="1.2.5">
+<h3 data-number="1.2.5" class="anchored" data-anchor-id="使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何"><span class="header-section-number">1.2.5</span> 5. 使用 CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度為何？</h3>
+<ul>
+<li>A. 與血流方向平行 (0 度)</li>
+<li>B. 與血流方向成 30 度角</li>
+<li>C. 與血流方向成 45 度角</li>
+<li>D. 與血流方向成 60 度角</li>
+</ul>
+</section>
+<section id="在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何" class="level3" data-number="1.2.6">
+<h3 data-number="1.2.6" class="anchored" data-anchor-id="在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何"><span class="header-section-number">1.2.6</span> 6. 在重度主動脈瓣狹窄病患，使用心尖窗口時常見的多普勒信號特徵為何？</h3>
+<ul>
+<li>A. 低密度、低速度信號</li>
+<li>B. 高密度、高速度信號</li>
+<li>C. 低密度、高速度信號</li>
+<li>D. 高密度、低速度信號</li>
+</ul>
+</section>
+<section id="計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數" class="level3" data-number="1.2.7">
+<h3 data-number="1.2.7" class="anchored" data-anchor-id="計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數"><span class="header-section-number">1.2.7</span> 7. 計算主動脈瓣有效口面積 (AVA) 使用連續性方程式 (continuity equation) 時，需要測量哪三項參數？</h3>
+<ul>
+<li>A. 主動脈瓣環直徑、主動脈瓣最大流速、左心室流出道最大流速</li>
+<li>B. 主動脈瓣環直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</li>
+<li>C. 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</li>
+<li>D. 左心室流出道直徑、主動脈瓣最大流速、左心室流出道最大流速</li>
+</ul>
+</section>
+<section id="測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個" class="level3" data-number="1.2.8">
+<h3 data-number="1.2.8" class="anchored" data-anchor-id="測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個"><span class="header-section-number">1.2.8</span> 8. 測量主動脈瓣狹窄時，若從多個窗口測得不同流速值，應採用哪一個？</h3>
+<ul>
+<li>A. 取所有測量值的平均</li>
+<li>B. 取最低測量值</li>
+<li>C. 取心尖窗口測得的值</li>
+<li>D. 取最高測量值</li>
+</ul>
+</section>
+<section id="對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響" class="level3" data-number="1.2.9">
+<h3 data-number="1.2.9" class="anchored" data-anchor-id="對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響"><span class="header-section-number">1.2.9</span> 9. 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，對最大流速的測量會產生什麼影響？</h3>
+<ul>
+<li>A. 不會有影響</li>
+<li>B. 使測量的流速偏高</li>
+<li>C. 使測量的流速偏低</li>
+<li>D. 無法測量準確的流速</li>
+</ul>
+</section>
+<section id="以下哪一項會導致實際主動脈瓣狹窄程度被低估" class="level3" data-number="1.2.10">
+<h3 data-number="1.2.10" class="anchored" data-anchor-id="以下哪一項會導致實際主動脈瓣狹窄程度被低估"><span class="header-section-number">1.2.10</span> 10. 以下哪一項會導致實際主動脈瓣狹窄程度被低估？</h3>
+<ul>
+<li>A. 探頭與血流方向不平行</li>
+<li>B. 左心室功能減退</li>
+<li>C. 主動脈瓣呈雙葉瓣 (bicuspid valve)</li>
+<li>D. 存在嚴重貧血</li>
+</ul>
+</section>
+<section id="若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭" class="level3" data-number="1.2.11">
+<h3 data-number="1.2.11" class="anchored" data-anchor-id="若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭"><span class="header-section-number">1.2.11</span> 11. 若要從胸骨上窩窗口 (Suprasternal notch) 測量主動脈瓣狹窄的流速，應如何調整探頭？</h3>
+<ul>
+<li>A. 探頭方向指向右肩</li>
+<li>B. 探頭方向朝向肚臍</li>
+<li>C. 探頭方向朝向左髖關節</li>
+<li>D. 探頭方向指向左肩</li>
+</ul>
+</section>
+<section id="在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是" class="level3" data-number="1.2.12">
+<h3 data-number="1.2.12" class="anchored" data-anchor-id="在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是"><span class="header-section-number">1.2.12</span> 12. 在嚴重低流量低梯度主動脈瓣狹窄 (Low-flow, low-gradient AS) 的病人，最適合的評估方法是？</h3>
+<ul>
+<li>A. 單純計算瓣膜面積</li>
+<li>B. 使用杜布他敏 (Dobutamine) 壓力測試</li>
+<li>C. 僅測量最大流速</li>
+<li>D. 計算心臟輸出量</li>
+</ul>
+</section>
+<section id="從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置" class="level3" data-number="1.2.13">
+<h3 data-number="1.2.13" class="anchored" data-anchor-id="從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置"><span class="header-section-number">1.2.13</span> 13. 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應如何放置？</h3>
+<ul>
+<li>A. 穿過二尖瓣和主動脈瓣</li>
+<li>B. 穿過二尖瓣和三尖瓣</li>
+<li>C. 穿過左心室心尖和主動脈瓣</li>
+<li>D. 穿過右心室心尖和肺動脈瓣</li>
+</ul>
+</section>
+<section id="超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵" class="level3" data-number="1.2.14">
+<h3 data-number="1.2.14" class="anchored" data-anchor-id="超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵"><span class="header-section-number">1.2.14</span> 14. 超音波心動圖中，下列哪一項不是重度主動脈瓣狹窄的特徵？</h3>
+<ul>
+<li>A. 主動脈瓣最大流速 &gt; 4 m/s</li>
+<li>B. 平均壓力梯度 &gt; 40 mmHg</li>
+<li>C. 瓣膜面積 &lt; 1.0 cm²</li>
+<li>D. 主動脈瓣葉開口增加</li>
+</ul>
+</section>
+<section id="在測量主動脈瓣流速時以下哪一種因素會使測量值被低估" class="level3" data-number="1.2.15">
+<h3 data-number="1.2.15" class="anchored" data-anchor-id="在測量主動脈瓣流速時以下哪一種因素會使測量值被低估"><span class="header-section-number">1.2.15</span> 15. 在測量主動脈瓣流速時，以下哪一種因素會使測量值被低估？</h3>
+<ul>
+<li>A. 病人肥胖</li>
+<li>B. 主動脈瓣鈣化嚴重</li>
+<li>C. 測量時病人呼氣末期</li>
+<li>D. 測量時病人吸氣末期</li>
+</ul>
+</section>
+<section id="使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale" class="level3" data-number="1.2.16">
+<h3 data-number="1.2.16" class="anchored" data-anchor-id="使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale"><span class="header-section-number">1.2.16</span> 16. 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號 (aliasing)，需要設定多少的速度範圍 (velocity scale)？</h3>
+<ul>
+<li>A. 1-2 m/s</li>
+<li>B. 3-4 m/s</li>
+<li>C. 5-6 m/s</li>
+<li>D. 7-8 m/s</li>
+</ul>
+</section>
+<section id="使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估" class="level3" data-number="1.2.17">
+<h3 data-number="1.2.17" class="anchored" data-anchor-id="使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估"><span class="header-section-number">1.2.17</span> 17. 使用 CW 多普勒測量主動脈瓣流速時，下列哪種情況容易導致流速被低估？</h3>
+<ul>
+<li>A. 增加多普勒增益 (Doppler gain)</li>
+<li>B. 探頭與血流方向夾角增大</li>
+<li>C. 使用高頻探頭</li>
+<li>D. 使用多個超音波窗口</li>
+</ul>
+</section>
+<section id="在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作" class="level3" data-number="1.2.18">
+<h3 data-number="1.2.18" class="anchored" data-anchor-id="在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作"><span class="header-section-number">1.2.18</span> 18. 在心尖窗口測量主動脈瓣流速時，為提高準確度，可採取以下哪種操作？</h3>
+<ul>
+<li>A. 病人左側臥位並舉起左手</li>
+<li>B. 病人平躺並屏住呼吸</li>
+<li>C. 使用回波增強劑</li>
+<li>D. 減小超音波增益設定</li>
+</ul>
+</section>
+<section id="計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處" class="level3" data-number="1.2.19">
+<h3 data-number="1.2.19" class="anchored" data-anchor-id="計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處"><span class="header-section-number">1.2.19</span> 19. 計算主動脈瓣面積時，左心室流出道直徑 (LVOT diameter) 的測量位置應在何處？</h3>
+<ul>
+<li>A. 主動脈瓣葉尖端處</li>
+<li>B. 主動脈瓣環處</li>
+<li>C. 主動脈瓣下 0.5-1.0 cm 處</li>
+<li>D. 主動脈根部 (sinus of Valsalva) 處</li>
+</ul>
+</section>
+<section id="超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式" class="level3" data-number="1.2.20">
+<h3 data-number="1.2.20" class="anchored" data-anchor-id="超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式"><span class="header-section-number">1.2.20</span> 20. 超音波測量中，根據 Bernoulli 方程 (Bernoulli equation) 計算壓力梯度，以下哪種情況必須使用完整的 Bernoulli 方程而非簡化公式？</h3>
+<ul>
+<li>A. 主動脈瓣接近完全關閉時</li>
+<li>B. 主動脈瓣最大流速超過 5 m/s 時</li>
+<li>C. 左心室流出道流速高於 1.5 m/s 時</li>
+<li>D. 存在亞瓣膜狹窄 (subvalvular stenosis) 時</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="答案與詳解" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="答案與詳解"><span class="header-section-number">1.3</span> 答案與詳解</h2>
+<section id="答案b-心尖五腔窗口-apical-5-chamber-view" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="答案b-心尖五腔窗口-apical-5-chamber-view"><span class="header-section-number">1.3.1</span> 1. 答案：B — 心尖五腔窗口 (Apical 5-chamber view)</h3>
+<p>心尖五腔窗口是評估主動脈瓣狹窄最常用的超音波窗口，因為此窗口可同時顯示左心室、左心室流出道及主動脈瓣，且超音波探頭與主動脈瓣血流方向較為平行，有利於獲得最大的跨瓣壓力梯度。雖然胸骨右緣窗口有時也能獲得較好的角度，但在多數病人中較難取得。</p>
+</section>
+<section id="答案c-藍色遠離探頭方向" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="答案c-藍色遠離探頭方向"><span class="header-section-number">1.3.2</span> 2. 答案：C — 藍色（遠離探頭方向）</h3>
+<p>在連續多普勒測量主動脈瓣流速時，從心尖窗口測量的主動脈瓣收縮期血流是遠離探頭的方向，因此在多普勒譜圖上顯示為藍色。正確識別血流方向對於區分主動脈瓣順行血流和主動脈瓣逆流很重要，尤其是當兩者同時存在時。</p>
+</section>
+<section id="答案c-4.0-ms" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="答案c-4.0-ms"><span class="header-section-number">1.3.3</span> 3. 答案：C — &gt;4.0 m/s</h3>
+<p>根據 ASE 與 ESC 指南，重度主動脈瓣狹窄的診斷標準為：</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>參數</th>
+<th>重度 AS 標準</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>最大流速 (Vmax)</td>
+<td>&gt;4.0 m/s</td>
+</tr>
+<tr class="even">
+<td>平均壓力梯度 (Mean PG)</td>
+<td>&gt;40 mmHg</td>
+</tr>
+<tr class="odd">
+<td>瓣膜面積 (AVA)</td>
+<td>&lt;1.0 cm²</td>
+</tr>
+<tr class="even">
+<td>瓣膜面積指數 (AVAi)</td>
+<td>&lt;0.6 cm²/m²</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="答案b-連續多普勒-continuous-wave-doppler" class="level3" data-number="1.3.4">
+<h3 data-number="1.3.4" class="anchored" data-anchor-id="答案b-連續多普勒-continuous-wave-doppler"><span class="header-section-number">1.3.4</span> 4. 答案：B — 連續多普勒 (Continuous-wave Doppler)</h3>
+<p>主動脈瓣狹窄的血流速度通常超過 2 m/s，甚至可達 5-6 m/s，而脈衝多普勒 (PW Doppler) 因採樣深度限制，無法準確測量超過 Nyquist limit（通常約 2 m/s）的高流速。連續多普勒沒有這種限制，可測量任何速度範圍的血流。</p>
+</section>
+<section id="答案a-與血流方向平行-0-度" class="level3" data-number="1.3.5">
+<h3 data-number="1.3.5" class="anchored" data-anchor-id="答案a-與血流方向平行-0-度"><span class="header-section-number">1.3.5</span> 5. 答案：A — 與血流方向平行 (0 度)</h3>
+<p>根據 Doppler 效應原理：V_測量 = V_實際 × cos θ。當夾角為 0 度時，cos θ = 1，測得的流速最接近實際流速。隨著夾角增大，測得的流速會被低估。</p>
+</section>
+<section id="答案b-高密度高速度信號" class="level3" data-number="1.3.6">
+<h3 data-number="1.3.6" class="anchored" data-anchor-id="答案b-高密度高速度信號"><span class="header-section-number">1.3.6</span> 6. 答案：B — 高密度、高速度信號</h3>
+<p>高密度反映大量紅血球同時經過狹窄的瓣膜口徑，高速度則是由於狹窄通道造成的血流加速。完整的多普勒包絡線清晰可見，頂峰呈尖狀，表現出典型的「刀刃」形態。</p>
+</section>
+<section id="答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分" class="level3" data-number="1.3.7">
+<h3 data-number="1.3.7" class="anchored" data-anchor-id="答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分"><span class="header-section-number">1.3.7</span> 7. 答案：C — 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</h3>
+<p>連續性方程式：AVA = (LVOT 面積 × LVOT VTI) ÷ AV VTI，其中 LVOT 面積 = π × (LVOT 直徑/2)²。這基於流量守恆原理，即通過瓣膜前後的血流量相等。</p>
+</section>
+<section id="答案d-取最高測量值" class="level3" data-number="1.3.8">
+<h3 data-number="1.3.8" class="anchored" data-anchor-id="答案d-取最高測量值"><span class="header-section-number">1.3.8</span> 8. 答案：D — 取最高測量值</h3>
+<p>多普勒測量受角度影響，只有當超音波束與血流平行時才能測得最大值。不同窗口中，哪個能與血流最接近平行往往難以預測，因此最佳實踐是使用多個窗口測量，並採用最高值作為最接近實際血流速度的估計。</p>
+</section>
+<section id="答案a-不會有影響" class="level3" data-number="1.3.9">
+<h3 data-number="1.3.9" class="anchored" data-anchor-id="答案a-不會有影響"><span class="header-section-number">1.3.9</span> 9. 答案：A — 不會有影響</h3>
+<p>主動脈瓣狹窄的順行血流發生在收縮期，主動脈瓣逆流發生在舒張期，兩者在時間上分離。但需注意嚴重逆流可能透過影響前負荷和後負荷，間接改變血流動力學參數。</p>
+</section>
+<section id="答案a-探頭與血流方向不平行" class="level3" data-number="1.3.10">
+<h3 data-number="1.3.10" class="anchored" data-anchor-id="答案a-探頭與血流方向不平行"><span class="header-section-number">1.3.10</span> 10. 答案：A — 探頭與血流方向不平行</h3>
+<p>V_測量 = V_實際 × cos θ。當 θ &gt; 0° 時，cos θ &lt; 1，導致測得的流速小於實際流速。例如，30° 角度錯誤會導致流速被低估約 13%。</p>
+</section>
+<section id="答案d-探頭方向指向左肩" class="level3" data-number="1.3.11">
+<h3 data-number="1.3.11" class="anchored" data-anchor-id="答案d-探頭方向指向左肩"><span class="header-section-number">1.3.11</span> 11. 答案：D — 探頭方向指向左肩</h3>
+<p>從胸骨上窩窗口測量時，將探頭方向指向左肩可使探頭與升主動脈和主動脈瓣的血流方向盡可能平行。此窗口是獲取主動脈瓣流速的重要補充窗口。</p>
+</section>
+<section id="答案b-使用杜布他敏-dobutamine-壓力測試" class="level3" data-number="1.3.12">
+<h3 data-number="1.3.12" class="anchored" data-anchor-id="答案b-使用杜布他敏-dobutamine-壓力測試"><span class="header-section-number">1.3.12</span> 12. 答案：B — 使用杜布他敏 (Dobutamine) 壓力測試</h3>
+<p>在 low-flow, low-gradient AS 的病人中，杜布他敏可增加心肌收縮力和心輸出量：</p>
+<ul>
+<li>若流量增加而壓力梯度顯著升高、瓣膜面積仍然小 → <strong>真正的嚴重 AS</strong></li>
+<li>若流量增加的同時瓣膜面積也顯著增加 (&gt;1.0 cm²) → <strong>假性嚴重 AS</strong></li>
+</ul>
+</section>
+<section id="答案c-穿過左心室心尖和主動脈瓣" class="level3" data-number="1.3.13">
+<h3 data-number="1.3.13" class="anchored" data-anchor-id="答案c-穿過左心室心尖和主動脈瓣"><span class="header-section-number">1.3.13</span> 13. 答案：C — 穿過左心室心尖和主動脈瓣</h3>
+<p>使超音波束與左心室流出道和主動脈瓣的血流方向盡可能平行，獲得最準確的流速測量。取樣線應避免穿過二尖瓣，以免混淆主動脈瓣信號與二尖瓣逆流信號。</p>
+</section>
+<section id="答案d-主動脈瓣葉開口增加" class="level3" data-number="1.3.14">
+<h3 data-number="1.3.14" class="anchored" data-anchor-id="答案d-主動脈瓣葉開口增加"><span class="header-section-number">1.3.14</span> 14. 答案：D — 主動脈瓣葉開口增加</h3>
+<p>重度主動脈瓣狹窄時瓣葉開口受限（非增加）。在二維超音波中，可以看到主動脈瓣收縮期開口明顯減少，呈「圓點狀」開口。</p>
+</section>
+<section id="答案d-測量時病人吸氣末期" class="level3" data-number="1.3.15">
+<h3 data-number="1.3.15" class="anchored" data-anchor-id="答案d-測量時病人吸氣末期"><span class="header-section-number">1.3.15</span> 15. 答案：D — 測量時病人吸氣末期</h3>
+<p>吸氣會增加靜脈回流、右心輸出量，但暫時減少左心輸出量（因肺血管床容量增加）。建議在呼氣末期或讓病人短暫屏住呼吸時進行測量，或取多個心動週期的平均值。</p>
+</section>
+<section id="答案c-5-6-ms" class="level3" data-number="1.3.16">
+<h3 data-number="1.3.16" class="anchored" data-anchor-id="答案c-5-6-ms"><span class="header-section-number">1.3.16</span> 16. 答案：C — 5-6 m/s</h3>
+<p>重度主動脈瓣狹窄的血流速度通常在 4-6 m/s 範圍內。雖然連續多普勒不存在與脈衝多普勒相同的 Nyquist 限制，但適當設置速度範圍有助於信號的最佳顯示。</p>
+</section>
+<section id="答案b-探頭與血流方向夾角增大" class="level3" data-number="1.3.17">
+<h3 data-number="1.3.17" class="anchored" data-anchor-id="答案b-探頭與血流方向夾角增大"><span class="header-section-number">1.3.17</span> 17. 答案：B — 探頭與血流方向夾角增大</h3>
+<p>V_測量 = V_實際 × cos θ。當夾角增大時，cos θ &lt; 1，流速被低估。例如，60° 的夾角意味著測量值僅為實際值的 50%。</p>
+</section>
+<section id="答案a-病人左側臥位並舉起左手" class="level3" data-number="1.3.18">
+<h3 data-number="1.3.18" class="anchored" data-anchor-id="答案a-病人左側臥位並舉起左手"><span class="header-section-number">1.3.18</span> 18. 答案：A — 病人左側臥位並舉起左手</h3>
+<p>左側臥位使心臟更接近胸壁，減少超音波穿透的組織厚度；舉起左手可進一步移動肋骨，擴大肋間隙，提供更好的聲窗。這種姿勢有助於使探頭與主動脈瓣血流方向更加平行。</p>
+</section>
+<section id="答案c-主動脈瓣下-0.5-1.0-cm-處" class="level3" data-number="1.3.19">
+<h3 data-number="1.3.19" class="anchored" data-anchor-id="答案c-主動脈瓣下-0.5-1.0-cm-處"><span class="header-section-number">1.3.19</span> 19. 答案：C — 主動脈瓣下 0.5-1.0 cm 處</h3>
+<p>此位置是連續性方程的標準測量點，可在胸骨旁長軸窗口的收縮中期測量，從內膜到內膜。</p>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>: 測量 LVOT 直徑是計算瓣膜面積的關鍵步驟，1 mm 的測量誤差可導致 AVA 計算約 10% 的誤差。</p>
+</blockquote>
+</section>
+<section id="答案c-左心室流出道流速高於-1.5-ms-時" class="level3" data-number="1.3.20">
+<h3 data-number="1.3.20" class="anchored" data-anchor-id="答案c-左心室流出道流速高於-1.5-ms-時"><span class="header-section-number">1.3.20</span> 20. 答案：C — 左心室流出道流速高於 1.5 m/s 時</h3>
+<p>簡化 Bernoulli 公式 ΔP = 4V² 假設 LVOT 流速可忽略不計。當 LVOT 流速超過 1.5 m/s 時（如高心輸出狀態、主動脈瓣下狹窄），必須使用完整公式：</p>
+<p><span class="math display">\[\Delta P = 4(V_2^2 - V_1^2)\]</span></p>
+<p>其中 V₂ 是主動脈瓣最大流速，V₁ 是 LVOT 流速。忽略高 LVOT 流速會導致壓力梯度被高估。</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

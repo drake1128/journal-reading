@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -122,7 +157,84 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">本頁目錄</h2>
    
   <ul>
-  <li><a href="#claude-code-tutorial" id="toc-claude-code-tutorial" class="nav-link active" data-scroll-target="#claude-code-tutorial"><span class="header-section-number">1</span> Claude Code Tutorial</a></li>
+  <li><a href="#claude-code-tutorial-best-practices-and-tips-for-ai-powered-coding" id="toc-claude-code-tutorial-best-practices-and-tips-for-ai-powered-coding" class="nav-link active" data-scroll-target="#claude-code-tutorial-best-practices-and-tips-for-ai-powered-coding"><span class="header-section-number">1</span> Claude Code Tutorial: Best Practices and Tips for AI-Powered Coding</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><span class="header-section-number">1.1</span> Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">1.2</span> 1. Introduction</a>
+  <ul class="collapse">
+  <li><a href="#why-claude-code" id="toc-why-claude-code" class="nav-link" data-scroll-target="#why-claude-code"><span class="header-section-number">1.2.1</span> 1.1 Why Claude Code?</a></li>
+  </ul></li>
+  <li><a href="#installation-and-setup" id="toc-installation-and-setup" class="nav-link" data-scroll-target="#installation-and-setup"><span class="header-section-number">1.3</span> 2. Installation and Setup</a>
+  <ul class="collapse">
+  <li><a href="#vs-code-extension" id="toc-vs-code-extension" class="nav-link" data-scroll-target="#vs-code-extension"><span class="header-section-number">1.3.1</span> 2.1 VS Code Extension</a></li>
+  <li><a href="#automatic-context" id="toc-automatic-context" class="nav-link" data-scroll-target="#automatic-context"><span class="header-section-number">1.3.2</span> 2.2 Automatic Context</a></li>
+  </ul></li>
+  <li><a href="#terminal-interface-basics" id="toc-terminal-interface-basics" class="nav-link" data-scroll-target="#terminal-interface-basics"><span class="header-section-number">1.4</span> 3. Terminal Interface Basics</a>
+  <ul class="collapse">
+  <li><a href="#essential-keyboard-shortcuts" id="toc-essential-keyboard-shortcuts" class="nav-link" data-scroll-target="#essential-keyboard-shortcuts"><span class="header-section-number">1.4.1</span> 3.1 Essential Keyboard Shortcuts</a></li>
+  <li><a href="#file-and-image-handling" id="toc-file-and-image-handling" class="nav-link" data-scroll-target="#file-and-image-handling"><span class="header-section-number">1.4.2</span> 3.2 File and Image Handling</a></li>
+  </ul></li>
+  <li><a href="#model-selection" id="toc-model-selection" class="nav-link" data-scroll-target="#model-selection"><span class="header-section-number">1.5</span> 4. Model Selection</a>
+  <ul class="collapse">
+  <li><a href="#available-models" id="toc-available-models" class="nav-link" data-scroll-target="#available-models"><span class="header-section-number">1.5.1</span> 4.1 Available Models</a></li>
+  <li><a href="#switching-models" id="toc-switching-models" class="nav-link" data-scroll-target="#switching-models"><span class="header-section-number">1.5.2</span> 4.2 Switching Models</a></li>
+  <li><a href="#model-comparison" id="toc-model-comparison" class="nav-link" data-scroll-target="#model-comparison"><span class="header-section-number">1.5.3</span> 4.3 Model Comparison</a></li>
+  </ul></li>
+  <li><a href="#essential-slash-commands" id="toc-essential-slash-commands" class="nav-link" data-scroll-target="#essential-slash-commands"><span class="header-section-number">1.6</span> 5. Essential Slash Commands</a>
+  <ul class="collapse">
+  <li><a href="#the-clear-command" id="toc-the-clear-command" class="nav-link" data-scroll-target="#the-clear-command"><span class="header-section-number">1.6.1</span> 5.1 The /clear Command</a></li>
+  <li><a href="#common-slash-commands" id="toc-common-slash-commands" class="nav-link" data-scroll-target="#common-slash-commands"><span class="header-section-number">1.6.2</span> 5.2 Common Slash Commands</a></li>
+  </ul></li>
+  <li><a href="#permission-management" id="toc-permission-management" class="nav-link" data-scroll-target="#permission-management"><span class="header-section-number">1.7</span> 6. Permission Management</a>
+  <ul class="collapse">
+  <li><a href="#the-permission-problem" id="toc-the-permission-problem" class="nav-link" data-scroll-target="#the-permission-problem"><span class="header-section-number">1.7.1</span> 6.1 The Permission Problem</a></li>
+  <li><a href="#dangerously-skip-permissions-mode" id="toc-dangerously-skip-permissions-mode" class="nav-link" data-scroll-target="#dangerously-skip-permissions-mode"><span class="header-section-number">1.7.2</span> 6.2 Dangerously Skip Permissions Mode</a></li>
+  <li><a href="#recommended-workflow" id="toc-recommended-workflow" class="nav-link" data-scroll-target="#recommended-workflow"><span class="header-section-number">1.7.3</span> 6.3 Recommended Workflow</a></li>
+  </ul></li>
+  <li><a href="#github-integration" id="toc-github-integration" class="nav-link" data-scroll-target="#github-integration"><span class="header-section-number">1.8</span> 7. GitHub Integration</a>
+  <ul class="collapse">
+  <li><a href="#installing-the-github-app" id="toc-installing-the-github-app" class="nav-link" data-scroll-target="#installing-the-github-app"><span class="header-section-number">1.8.1</span> 7.1 Installing the GitHub App</a></li>
+  <li><a href="#configuring-code-reviews" id="toc-configuring-code-reviews" class="nav-link" data-scroll-target="#configuring-code-reviews"><span class="header-section-number">1.8.2</span> 7.2 Configuring Code Reviews</a></li>
+  <li><a href="#benefits-of-ai-code-review" id="toc-benefits-of-ai-code-review" class="nav-link" data-scroll-target="#benefits-of-ai-code-review"><span class="header-section-number">1.8.3</span> 7.3 Benefits of AI Code Review</a></li>
+  </ul></li>
+  <li><a href="#message-queuing" id="toc-message-queuing" class="nav-link" data-scroll-target="#message-queuing"><span class="header-section-number">1.9</span> 8. Message Queuing</a>
+  <ul class="collapse">
+  <li><a href="#how-queuing-works" id="toc-how-queuing-works" class="nav-link" data-scroll-target="#how-queuing-works"><span class="header-section-number">1.9.1</span> 8.1 How Queuing Works</a></li>
+  <li><a href="#example-workflow" id="toc-example-workflow" class="nav-link" data-scroll-target="#example-workflow"><span class="header-section-number">1.9.2</span> 8.2 Example Workflow</a></li>
+  <li><a href="#benefits-over-traditional-workflow" id="toc-benefits-over-traditional-workflow" class="nav-link" data-scroll-target="#benefits-over-traditional-workflow"><span class="header-section-number">1.9.3</span> 8.3 Benefits Over Traditional Workflow</a></li>
+  </ul></li>
+  <li><a href="#custom-configuration" id="toc-custom-configuration" class="nav-link" data-scroll-target="#custom-configuration"><span class="header-section-number">1.10</span> 9. Custom Configuration</a>
+  <ul class="collapse">
+  <li><a href="#the-claude.md-file" id="toc-the-claude.md-file" class="nav-link" data-scroll-target="#the-claude.md-file"><span class="header-section-number">1.10.1</span> 9.1 The CLAUDE.md File</a></li>
+  <li><a href="#custom-hooks" id="toc-custom-hooks" class="nav-link" data-scroll-target="#custom-hooks"><span class="header-section-number">1.10.2</span> 9.2 Custom Hooks</a></li>
+  <li><a href="#custom-slash-commands" id="toc-custom-slash-commands" class="nav-link" data-scroll-target="#custom-slash-commands"><span class="header-section-number">1.10.3</span> 9.3 Custom Slash Commands</a></li>
+  <li><a href="#memory-management" id="toc-memory-management" class="nav-link" data-scroll-target="#memory-management"><span class="header-section-number">1.10.4</span> 9.4 Memory Management</a></li>
+  </ul></li>
+  <li><a href="#pricing-and-plans" id="toc-pricing-and-plans" class="nav-link" data-scroll-target="#pricing-and-plans"><span class="header-section-number">1.11</span> 10. Pricing and Plans</a>
+  <ul class="collapse">
+  <li><a href="#subscription-tiers" id="toc-subscription-tiers" class="nav-link" data-scroll-target="#subscription-tiers"><span class="header-section-number">1.11.1</span> 10.1 Subscription Tiers</a></li>
+  <li><a href="#why-direct-pricing-works" id="toc-why-direct-pricing-works" class="nav-link" data-scroll-target="#why-direct-pricing-works"><span class="header-section-number">1.11.2</span> 10.2 Why Direct Pricing Works</a></li>
+  </ul></li>
+  <li><a href="#why-claude-code-excels" id="toc-why-claude-code-excels" class="nav-link" data-scroll-target="#why-claude-code-excels"><span class="header-section-number">1.12</span> 11. Why Claude Code Excels</a>
+  <ul class="collapse">
+  <li><a href="#technical-advantages" id="toc-technical-advantages" class="nav-link" data-scroll-target="#technical-advantages"><span class="header-section-number">1.12.1</span> 11.1 Technical Advantages</a></li>
+  <li><a href="#real-world-performance" id="toc-real-world-performance" class="nav-link" data-scroll-target="#real-world-performance"><span class="header-section-number">1.12.2</span> 11.2 Real-World Performance</a></li>
+  </ul></li>
+  <li><a href="#visual-interface-alternative" id="toc-visual-interface-alternative" class="nav-link" data-scroll-target="#visual-interface-alternative"><span class="header-section-number">1.13</span> 12. Visual Interface Alternative</a>
+  <ul class="collapse">
+  <li><a href="#fusion-by-builder.io" id="toc-fusion-by-builder.io" class="nav-link" data-scroll-target="#fusion-by-builder.io"><span class="header-section-number">1.13.1</span> 12.1 Fusion by Builder.io</a></li>
+  <li><a href="#use-cases" id="toc-use-cases" class="nav-link" data-scroll-target="#use-cases"><span class="header-section-number">1.13.2</span> 12.2 Use Cases</a></li>
+  </ul></li>
+  <li><a href="#best-practices-summary" id="toc-best-practices-summary" class="nav-link" data-scroll-target="#best-practices-summary"><span class="header-section-number">1.14</span> 13. Best Practices Summary</a>
+  <ul class="collapse">
+  <li><a href="#daily-workflow-checklist" id="toc-daily-workflow-checklist" class="nav-link" data-scroll-target="#daily-workflow-checklist"><span class="header-section-number">1.14.1</span> 13.1 Daily Workflow Checklist</a></li>
+  <li><a href="#productivity-tips" id="toc-productivity-tips" class="nav-link" data-scroll-target="#productivity-tips"><span class="header-section-number">1.14.2</span> 13.2 Productivity Tips</a></li>
+  <li><a href="#common-pitfalls-to-avoid" id="toc-common-pitfalls-to-avoid" class="nav-link" data-scroll-target="#common-pitfalls-to-avoid"><span class="header-section-number">1.14.3</span> 13.3 Common Pitfalls to Avoid</a></li>
+  </ul></li>
+  <li><a href="#quick-reference-card" id="toc-quick-reference-card" class="nav-link" data-scroll-target="#quick-reference-card"><span class="header-section-number">1.15</span> 14. Quick Reference Card</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">1.16</span> 15. Conclusion</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">1.17</span> Additional Resources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -132,24 +244,541 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="claude-code-tutorial" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Claude Code Tutorial</h1>
-<p><strong>整理：謝慕揚 MD, PhD, FESC</strong> <strong>日期：2026-03-26</strong></p>
+<section id="claude-code-tutorial-best-practices-and-tips-for-ai-powered-coding" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Claude Code Tutorial: Best Practices and Tips for AI-Powered Coding</h1>
+<p><strong>整理：謝慕揚 MD, PhD, FESC</strong> <strong>日期：2026-03-26</strong> <strong>原文連結：Based on <a href="https://www.builder.io/">Builder.io Video Tutorial</a> (January 28, 2026)</strong></p>
 <hr>
-<p>Best Practices and Tips for AI-Powered Coding Based on Builder.io Video Tutorial January 28, 2026 Abstract This tutorial provides a comprehensive guide to using Claude Code, Anthropic’s offi- cial CLI tool for AI-assisted coding. Based on real-world experience from developers who have switched from other AI coding tools, this guide covers installation, configuration, best practices, and advanced features to maximize your productivity with Claude Code. Contents Introduction 1.1 Why Claude Code? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Installation and Setup 2.1 VS Code Extension . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2 Automatic Context . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Terminal Interface Basics 3.1 Essential Keyboard Shortcuts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2 File and Image Handling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.1 Dragging Files . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.2 Pasting Images . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Model Selection 4.1 Available Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2 Switching Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.3 Model Comparison . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Essential Slash Commands 5.1 The /clear Command . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2 Common Slash Commands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Permission Management 6.1 The Permission Problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2 Dangerously Skip Permissions Mode . . . . . . . . . . . . . . . . . . . . . . . . . 6.3 Recommended Workflow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . GitHub Integration 7.1 Installing the GitHub App . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.2 Configuring Code Reviews . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.3 Benefits of AI Code Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
-<p>Claude Code Tutorial Contents Message Queuing 8.1 How Queuing Works . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.2 Example Workflow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.3 Benefits Over Traditional Workflow . . . . . . . . . . . . . . . . . . . . . . . . . . Custom Configuration 9.1 The CLAUDE.md File . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.2 Custom Hooks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.3 Custom Slash Commands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.3.1 Command File Structure . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.4 Memory Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 Pricing and Plans 10.1 Subscription Tiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.2 Value Proposition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.3 Why Direct Pricing Works . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 Why Claude Code Excels 11.1 Technical Advantages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11.2 Real-World Performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11.3 Compared to Other Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 Visual Interface Alternative 12.1 Fusion by Builder.io . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12.2 Use Cases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Best Practices Summary 13.1 Daily Workflow Checklist . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13.2 Productivity Tips . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13.3 Common Pitfalls to Avoid . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 Quick Reference Card 15 Conclusion Additional Resources</p>
-<p>Claude Code Tutorial Terminal Interface Basics Introduction Claude Code is a terminal-based AI coding assistant developed by Anthropic. Unlike other AI coding tools that support multiple models, Claude Code is built specifically for Claude models, allowing for deep integration and optimization between the tool and the underlying AI. Info Claude Code works directly with Anthropic’s models, eliminating the middleman and providing maximum performance at competitive pricing. 1.1 Why Claude Code? Key advantages of Claude Code include: • Large File Handling: Reliably updates files with 18,000+ lines of code • Complex Codebase Navigation: Excellent at searching patterns and understanding re- lationships • Consistency: Rarely gets stuck compared to other AI coding tools • Direct Integration: Built by the same team that creates the underlying models • Cost Efficiency: No middleman markup on API costs Installation and Setup 2.1 VS Code Extension Claude Code has an official extension that works with: • Visual Studio Code • Cursor • Windsurf • Other VS Code forks Tip The extension makes it easy to launch Claude Code directly in your IDE. You can have multiple Claude Code panes open simultaneously to work on different parts of your code- base in parallel. 2.2 Automatic Context When you have a file open in your editor, Claude Code automatically pulls it into the context. This seamless integration reduces the friction of manually specifying which files to work with. Terminal Interface Basics Claude Code uses a terminal UI, which may seem unfamiliar at first but offers powerful func- tionality once mastered.</p>
-<p>Claude Code Tutorial Model Selection 3.1 Essential Keyboard Shortcuts Shortcut Action Escape Stop Claude’s current operation Escape (twice) View list of previous messages Up Arrow Navigate to past chats (including prior sessions) Shift + Enter Add new lines in your message Ctrl + V Paste images from clipboard Shift + Drag Drag files into the terminal Ctrl + C (twice) Exit Claude Code (careful!) Table 1: Essential Claude Code Keyboard Shortcuts Warning Do not use Ctrl + C to stop Claude’s work—this will exit the application. Use Escape instead. 3.2 File and Image Handling 3.2.1 Dragging Files In VS Code/Cursor, dragging a file normally opens it in a new tab. To reference a file in Claude Code: 1. Hold Shift 2. Drag the file into the Claude Code terminal 3. The file will be referenced in your conversation 3.2.2 Pasting Images Standard Cmd + V (Mac) does not paste images. Instead: Use Ctrl + V to paste images from clipboard Model Selection 4.1 Available Models Claude Code supports multiple Claude models: • Opus: The most capable model, recommended for complex tasks • Sonnet: More cost-efficient, good for general tasks 4.2 Switching Models Use the /model command to switch between models: /model opus /model sonnet</p>
-<p>Claude Code Tutorial Permission Management Tip The default behavior uses Opus until you reach 50% of your usage limits, then switches to Sonnet. For most users, this automatic switching is recommended. 4.3 Model Comparison Aspect Opus Sonnet Capability Highest Very Good Speed Fast Fast Cost Higher More Efficient Use Case Complex tasks General tasks Table 2: Claude Model Comparison Essential Slash Commands Claude Code provides numerous slash commands for various operations. 5.1 The /clear Command /clear Tip Clear every time you start something new! You don’t need old chat history con- suming tokens, and avoiding compaction (which runs additional LLM calls to summarize history) saves time. 5.2 Common Slash Commands Command Description /clear Clear conversation history /model Switch between AI models /help Show available commands /terminal-setup Configure terminal settings Table 3: Common Slash Commands Permission Management 6.1 The Permission Problem By default, Claude Code asks for permission to: • Edit files • Run bash commands</p>
-<p>Claude Code Tutorial GitHub Integration • Execute lint/build commands This can be frustrating when you return to find Claude waiting for permission. 6.2 Dangerously Skip Permissions Mode To bypass permission prompts: claude –dangerously -skip -permissions Warning This mode (similar to Cursor’s “YOLO mode”) carries a minor risk of running unexpected commands. However, in practice, destructive agent behavior is extremely rare. Use at your own discretion. 6.3 Recommended Workflow 1. Open Claude Code terminal 2. Press Ctrl + C to stop default launch 3. Run: claude –dangerously-skip-permissions 4. Continue with your work uninterrupted GitHub Integration 7.1 Installing the GitHub App Claude Code can integrate with GitHub to automatically review pull requests. /install -github -app 7.2 Configuring Code Reviews After installation, Claude creates a claude-code-review.yaml file. The default configuration can be verbose, so customize it: # claude -code -review.yaml # Focus on what matters most instructions: | Look for bugs and security issues. Only report on bugs and potential vulnerabilities . Be concise. Tip AI code reviews can catch bugs that humans miss because they apply consistent effort to every line of code, while humans may skim through familiar patterns.</p>
-<p>Claude Code Tutorial Message Queuing 7.3 Benefits of AI Code Review • Catches real bugs that humans might miss • Consistent review quality regardless of PR volume • Identifies security vulnerabilities • Reduces nitpicking on style issues (when configured properly) Message Queuing One of Claude Code’s most powerful features is the ability to queue messages. 8.1 How Queuing Works 1. Send your first message 2. While Claude is working, type additional messages 3. Messages are queued and processed in order 4. Claude intelligently determines when to process queued items 8.2 Example Workflow You: Add comments to the utility functions [Claude starts working …] You: Also add comments to the main JSX chunks [Message queued] You: And add comments to the computed values [Message queued] [Claude processes all tasks sequentially] Tip Claude is smart about queuing—if it needs feedback from you, it won’t automatically process queued messages. Check in periodically to see if input is needed. 8.3 Benefits Over Traditional Workflow • No need for a separate notepad to track pending tasks • Agent doesn’t sit idle waiting for your next prompt • More efficient use of time—queue tasks and check back later</p>
-<p>Claude Code Tutorial Custom Configuration Custom Configuration 9.1 The CLAUDE.md File Create a CLAUDE.md file in your project root to provide Claude with: • Project overview • Key commands (build, lint, test) • Project-specific conventions # CLAUDE.md ## Project Overview This is a React application using TypeScript. ## Key Commands - Build: ‘npm run build ‘ - Lint: ‘npm run lint ‘ - Test: ‘npm run test ‘ ## Conventions - Use functional components - Use Tailwind CSS for styling Tip CLAUDE.md files can be hierarchical. Place one at the project level and additional ones in nested directories. Claude prioritizes the most specific (deepest nested) file when relevant. 9.2 Custom Hooks Hooks allow you to run commands automatically at specific points: # Before edits are accepted - Run Prettier on the specific file # After edits - Run type checking on modified files 9.3 Custom Slash Commands Create custom commands by adding markdown files to .claude/commands/: .claude/ commands/ test.md -&gt; /test builder/ plugin.md -&gt; /builder plugin 9.3.1 Command File Structure</p>
-<p>Claude Code Tutorial Pricing and Plans # .claude/commands/test.md Write unit tests for the following file: $ARGUMENTS Follow our testing conventions: - Use Jest - Include edge cases - Mock external dependencies Usage: /test src/utils/helpers.ts 9.4 Memory Management Add memories using the # symbol: #always use Mobx components for new stuff Memory types: • Global User Memory: Preferences applied everywhere • Local Project Memory: Project-specific memories (git-ignored) • CLAUDE.md: Shared project documentation Pricing and Plans 10.1 Subscription Tiers Claude Code supports standard Anthropic pricing plans: • Standard: Basic access with usage limits • Max: Enhanced limits and Opus access ($100/month) 10.2 Value Proposition Info Consider the cost of human engineering time. Even at competitive global rates, AI as- sistance at $100/month provides extraordinary value compared to the cost per hour of human engineering work. 10.3 Why Direct Pricing Works • No middleman markup • Direct from model creators • Anthropic can offer maximum model access • Sustainable pricing model</p>
-<p>Claude Code Tutorial Visual Interface Alternative Why Claude Code Excels 11.1 Technical Advantages 1. Single Model Focus: Only needs to support Claude models 2. Deep Integration: Tool and model optimized together 3. Continuous Improvement: Model improvements directly benefit Claude Code 4. Expert Knowledge: Built by the team that knows the model best 11.2 Real-World Performance • Handles 18,000+ line files without issues • Excellent pattern recognition across large codebases • Understands relationships between components, state, and files • Rarely gets stuck or requires babysitting 11.3 Compared to Other Tools Other AI coding tools: • Must support multiple models (added complexity) • Have additional teams and layers • Don’t control the core AI models • Must make their own margin on top of API costs Visual Interface Alternative For users who prefer a graphical interface, Builder.io offers a visual alternative. 12.1 Fusion by Builder.io Access at: fusion.builder.io Features: • Visual chat interface • Live preview of changes • Design mode with Figma-style editing • Pull request creation from the browser • Same underlying agent mechanics as Claude Code</p>
-<p>Claude Code Tutorial Conclusion 12.2 Use Cases • Team members creating prototypes • Visual editing of UI components • Bridging design and code workflows • Browser-based development Best Practices Summary 13.1 Daily Workflow Checklist 1. Use /clear when starting new tasks 2. Consider using –dangerously-skip-permissions for uninterrupted work 3. Queue multiple related tasks 4. Leverage Opus for complex tasks, Sonnet for simpler ones 5. Configure CLAUDE.md for project-specific context 13.2 Productivity Tips Tip • Run multiple Claude Code panes for parallel work on different files • Use the up arrow to access previous sessions • Configure GitHub integration for automated PR reviews • Create custom slash commands for repetitive tasks • Use message queuing to batch tasks and check back later 13.3 Common Pitfalls to Avoid Warning • Don’t use Ctrl + C to stop work (use Escape) • Don’t keep extensive chat history (use /clear) • Don’t forget to check queued tasks periodically • Don’t use Cmd + V for images (use Ctrl + V) Quick Reference Card Conclusion Claude Code represents a significant advancement in AI-assisted coding tools. By combining deep model integration, powerful terminal-based workflows, and thoughtful features like message queuing, it enables developers to work more efficiently than ever before.</p>
-<p>Claude Code Tutorial Conclusion Task Command/Action Clear history /clear Change model /model opus or /model sonnet Skip permissions claude –dangerously-skip-permissions Stop Claude Escape Exit application Ctrl + C (twice) Previous messages Escape (twice) Past chats Up Arrow New line in message Shift + Enter Paste image Ctrl + V Drag file in Shift + Drag Add memory #your memory here Custom command /command-name arguments Table 4: Quick Reference Card The key to success with Claude Code is: 1. Understanding the terminal interface quirks 2. Configuring your environment properly 3. Leveraging advanced features like queuing and custom commands 4. Using the right model for each task Whether you prefer the terminal interface or a visual alternative, the underlying Claude technology provides reliable, capable AI assistance for even the most complex coding tasks. Happy coding with Claude! Additional Resources • Builder.io Blog: Full list of Claude Code tips • Fusion Visual Interface: fusion.builder.io • Claude Code Documentation: docs.anthropic.com • GitHub: Report issues and feedback</p>
+<section id="abstract" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="abstract"><span class="header-section-number">1.1</span> Abstract</h2>
+<p>This tutorial provides a comprehensive guide to using Claude Code, Anthropic’s official CLI tool for AI-assisted coding. Based on real-world experience from developers who have switched from other AI coding tools, this guide covers installation, configuration, best practices, and advanced features to maximize your productivity with Claude Code.</p>
+<hr>
+</section>
+<section id="introduction" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1.2</span> 1. Introduction</h2>
+<p>Claude Code is a terminal-based AI coding assistant developed by Anthropic. Unlike other AI coding tools that support multiple models, Claude Code is built specifically for Claude models, allowing for deep integration and optimization between the tool and the underlying AI.</p>
+<blockquote class="blockquote">
+<p><strong>Info</strong>: Claude Code works directly with Anthropic’s models, eliminating the middleman and providing maximum performance at competitive pricing.</p>
+</blockquote>
+<section id="why-claude-code" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="why-claude-code"><span class="header-section-number">1.2.1</span> 1.1 Why Claude Code?</h3>
+<p>Key advantages of Claude Code include:</p>
+<ul>
+<li><strong>Large File Handling</strong>: Reliably updates files with 18,000+ lines of code</li>
+<li><strong>Complex Codebase Navigation</strong>: Excellent at searching patterns and understanding relationships</li>
+<li><strong>Consistency</strong>: Rarely gets stuck compared to other AI coding tools</li>
+<li><strong>Direct Integration</strong>: Built by the same team that creates the underlying models</li>
+<li><strong>Cost Efficiency</strong>: No middleman markup on API costs</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="installation-and-setup" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="installation-and-setup"><span class="header-section-number">1.3</span> 2. Installation and Setup</h2>
+<section id="vs-code-extension" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="vs-code-extension"><span class="header-section-number">1.3.1</span> 2.1 VS Code Extension</h3>
+<p>Claude Code has an official extension that works with:</p>
+<ul>
+<li>Visual Studio Code</li>
+<li>Cursor</li>
+<li>Windsurf</li>
+<li>Other VS Code forks</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Tip</strong>: The extension makes it easy to launch Claude Code directly in your IDE. You can have multiple Claude Code panes open simultaneously to work on different parts of your codebase in parallel.</p>
+</blockquote>
+</section>
+<section id="automatic-context" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="automatic-context"><span class="header-section-number">1.3.2</span> 2.2 Automatic Context</h3>
+<p>When you have a file open in your editor, Claude Code automatically pulls it into the context. This seamless integration reduces the friction of manually specifying which files to work with.</p>
+<hr>
+</section>
+</section>
+<section id="terminal-interface-basics" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="terminal-interface-basics"><span class="header-section-number">1.4</span> 3. Terminal Interface Basics</h2>
+<section id="essential-keyboard-shortcuts" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="essential-keyboard-shortcuts"><span class="header-section-number">1.4.1</span> 3.1 Essential Keyboard Shortcuts</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Escape</td>
+<td>Stop Claude’s current operation</td>
+</tr>
+<tr class="even">
+<td>Escape (twice)</td>
+<td>View list of previous messages</td>
+</tr>
+<tr class="odd">
+<td>Up Arrow</td>
+<td>Navigate to past chats (including prior sessions)</td>
+</tr>
+<tr class="even">
+<td>Shift + Enter</td>
+<td>Add new lines in your message</td>
+</tr>
+<tr class="odd">
+<td>Ctrl + V</td>
+<td>Paste images from clipboard</td>
+</tr>
+<tr class="even">
+<td>Shift + Drag</td>
+<td>Drag files into the terminal</td>
+</tr>
+<tr class="odd">
+<td>Ctrl + C (twice)</td>
+<td>Exit Claude Code (careful!)</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Warning</strong>: Do not use Ctrl + C to stop Claude’s work – this will exit the application. Use Escape instead.</p>
+</blockquote>
+</section>
+<section id="file-and-image-handling" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="file-and-image-handling"><span class="header-section-number">1.4.2</span> 3.2 File and Image Handling</h3>
+<p><strong>Dragging Files</strong> (in VS Code/Cursor): 1. Hold Shift 2. Drag the file into the Claude Code terminal 3. The file will be referenced in your conversation</p>
+<p><strong>Pasting Images</strong>: Use Ctrl + V to paste images from clipboard (standard Cmd + V on Mac does not work for images).</p>
+<hr>
+</section>
+</section>
+<section id="model-selection" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="model-selection"><span class="header-section-number">1.5</span> 4. Model Selection</h2>
+<section id="available-models" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="available-models"><span class="header-section-number">1.5.1</span> 4.1 Available Models</h3>
+<p>Claude Code supports multiple Claude models:</p>
+<ul>
+<li><strong>Opus</strong>: The most capable model, recommended for complex tasks</li>
+<li><strong>Sonnet</strong>: More cost-efficient, good for general tasks</li>
+</ul>
+</section>
+<section id="switching-models" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="switching-models"><span class="header-section-number">1.5.2</span> 4.2 Switching Models</h3>
+<p>Use the <code>/model</code> command to switch between models:</p>
+<pre class="text"><code>/model opus
+/model sonnet</code></pre>
+<blockquote class="blockquote">
+<p><strong>Tip</strong>: The default behavior uses Opus until you reach 50% of your usage limits, then switches to Sonnet. For most users, this automatic switching is recommended.</p>
+</blockquote>
+</section>
+<section id="model-comparison" class="level3" data-number="1.5.3">
+<h3 data-number="1.5.3" class="anchored" data-anchor-id="model-comparison"><span class="header-section-number">1.5.3</span> 4.3 Model Comparison</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th>Opus</th>
+<th>Sonnet</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Capability</td>
+<td>Highest</td>
+<td>Very Good</td>
+</tr>
+<tr class="even">
+<td>Speed</td>
+<td>Fast</td>
+<td>Fast</td>
+</tr>
+<tr class="odd">
+<td>Cost</td>
+<td>Higher</td>
+<td>More Efficient</td>
+</tr>
+<tr class="even">
+<td>Use Case</td>
+<td>Complex tasks</td>
+<td>General tasks</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="essential-slash-commands" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="essential-slash-commands"><span class="header-section-number">1.6</span> 5. Essential Slash Commands</h2>
+<section id="the-clear-command" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="the-clear-command"><span class="header-section-number">1.6.1</span> 5.1 The /clear Command</h3>
+<blockquote class="blockquote">
+<p><strong>Tip</strong>: Clear every time you start something new! You don’t need old chat history consuming tokens, and avoiding compaction (which runs additional LLM calls to summarize history) saves time.</p>
+</blockquote>
+</section>
+<section id="common-slash-commands" class="level3" data-number="1.6.2">
+<h3 data-number="1.6.2" class="anchored" data-anchor-id="common-slash-commands"><span class="header-section-number">1.6.2</span> 5.2 Common Slash Commands</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>/clear</code></td>
+<td>Clear conversation history</td>
+</tr>
+<tr class="even">
+<td><code>/model</code></td>
+<td>Switch between AI models</td>
+</tr>
+<tr class="odd">
+<td><code>/help</code></td>
+<td>Show available commands</td>
+</tr>
+<tr class="even">
+<td><code>/terminal-setup</code></td>
+<td>Configure terminal settings</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="permission-management" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="permission-management"><span class="header-section-number">1.7</span> 6. Permission Management</h2>
+<section id="the-permission-problem" class="level3" data-number="1.7.1">
+<h3 data-number="1.7.1" class="anchored" data-anchor-id="the-permission-problem"><span class="header-section-number">1.7.1</span> 6.1 The Permission Problem</h3>
+<p>By default, Claude Code asks for permission to:</p>
+<ul>
+<li>Edit files</li>
+<li>Run bash commands</li>
+<li>Execute lint/build commands</li>
+</ul>
+<p>This can be frustrating when you return to find Claude waiting for permission.</p>
+</section>
+<section id="dangerously-skip-permissions-mode" class="level3" data-number="1.7.2">
+<h3 data-number="1.7.2" class="anchored" data-anchor-id="dangerously-skip-permissions-mode"><span class="header-section-number">1.7.2</span> 6.2 Dangerously Skip Permissions Mode</h3>
+<p>To bypass permission prompts:</p>
+<pre class="text"><code>claude --dangerously-skip-permissions</code></pre>
+<blockquote class="blockquote">
+<p><strong>Warning</strong>: This mode (similar to Cursor’s “YOLO mode”) carries a minor risk of running unexpected commands. However, in practice, destructive agent behavior is extremely rare. Use at your own discretion.</p>
+</blockquote>
+</section>
+<section id="recommended-workflow" class="level3" data-number="1.7.3">
+<h3 data-number="1.7.3" class="anchored" data-anchor-id="recommended-workflow"><span class="header-section-number">1.7.3</span> 6.3 Recommended Workflow</h3>
+<ol type="1">
+<li>Open Claude Code terminal</li>
+<li>Press Ctrl + C to stop default launch</li>
+<li>Run: <code>claude --dangerously-skip-permissions</code></li>
+<li>Continue with your work uninterrupted</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="github-integration" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="github-integration"><span class="header-section-number">1.8</span> 7. GitHub Integration</h2>
+<section id="installing-the-github-app" class="level3" data-number="1.8.1">
+<h3 data-number="1.8.1" class="anchored" data-anchor-id="installing-the-github-app"><span class="header-section-number">1.8.1</span> 7.1 Installing the GitHub App</h3>
+<p>Claude Code can integrate with GitHub to automatically review pull requests:</p>
+<pre class="text"><code>/install-github-app</code></pre>
+</section>
+<section id="configuring-code-reviews" class="level3" data-number="1.8.2">
+<h3 data-number="1.8.2" class="anchored" data-anchor-id="configuring-code-reviews"><span class="header-section-number">1.8.2</span> 7.2 Configuring Code Reviews</h3>
+<p>After installation, Claude creates a <code>claude-code-review.yaml</code> file. Customize it to focus on what matters most:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># claude-code-review.yaml</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">instructions</span><span class="kw">: </span><span class="ch">|</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  Look for bugs and security issues.</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  Only report on bugs and potential vulnerabilities.</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  Be concise.</span></code></pre></div><button title="複製到剪貼簿" class="code-copy-button"><i class="bi"></i></button></div>
+<blockquote class="blockquote">
+<p><strong>Tip</strong>: AI code reviews can catch bugs that humans miss because they apply consistent effort to every line of code, while humans may skim through familiar patterns.</p>
+</blockquote>
+</section>
+<section id="benefits-of-ai-code-review" class="level3" data-number="1.8.3">
+<h3 data-number="1.8.3" class="anchored" data-anchor-id="benefits-of-ai-code-review"><span class="header-section-number">1.8.3</span> 7.3 Benefits of AI Code Review</h3>
+<ul>
+<li>Catches real bugs that humans might miss</li>
+<li>Consistent review quality regardless of PR volume</li>
+<li>Identifies security vulnerabilities</li>
+<li>Reduces nitpicking on style issues (when configured properly)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="message-queuing" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="message-queuing"><span class="header-section-number">1.9</span> 8. Message Queuing</h2>
+<p>One of Claude Code’s most powerful features is the ability to queue messages.</p>
+<section id="how-queuing-works" class="level3" data-number="1.9.1">
+<h3 data-number="1.9.1" class="anchored" data-anchor-id="how-queuing-works"><span class="header-section-number">1.9.1</span> 8.1 How Queuing Works</h3>
+<ol type="1">
+<li>Send your first message</li>
+<li>While Claude is working, type additional messages</li>
+<li>Messages are queued and processed in order</li>
+<li>Claude intelligently determines when to process queued items</li>
+</ol>
+</section>
+<section id="example-workflow" class="level3" data-number="1.9.2">
+<h3 data-number="1.9.2" class="anchored" data-anchor-id="example-workflow"><span class="header-section-number">1.9.2</span> 8.2 Example Workflow</h3>
+<pre class="text"><code>You: Add comments to the utility functions
+[Claude starts working...]
+You: Also add comments to the main JSX chunks
+[Message queued]
+You: And add comments to the computed values
+[Message queued]
+[Claude processes all tasks sequentially]</code></pre>
+<blockquote class="blockquote">
+<p><strong>Tip</strong>: Claude is smart about queuing – if it needs feedback from you, it won’t automatically process queued messages. Check in periodically to see if input is needed.</p>
+</blockquote>
+</section>
+<section id="benefits-over-traditional-workflow" class="level3" data-number="1.9.3">
+<h3 data-number="1.9.3" class="anchored" data-anchor-id="benefits-over-traditional-workflow"><span class="header-section-number">1.9.3</span> 8.3 Benefits Over Traditional Workflow</h3>
+<ul>
+<li>No need for a separate notepad to track pending tasks</li>
+<li>Agent doesn’t sit idle waiting for your next prompt</li>
+<li>More efficient use of time – queue tasks and check back later</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="custom-configuration" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="custom-configuration"><span class="header-section-number">1.10</span> 9. Custom Configuration</h2>
+<section id="the-claude.md-file" class="level3" data-number="1.10.1">
+<h3 data-number="1.10.1" class="anchored" data-anchor-id="the-claude.md-file"><span class="header-section-number">1.10.1</span> 9.1 The CLAUDE.md File</h3>
+<p>Create a <code>CLAUDE.md</code> file in your project root to provide Claude with:</p>
+<ul>
+<li>Project overview</li>
+<li>Key commands (build, lint, test)</li>
+<li>Project-specific conventions</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># CLAUDE.md</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">## Project Overview</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>This is a React application using TypeScript.</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">## Key Commands</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Build: <span class="in">`npm run build`</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Lint: <span class="in">`npm run lint`</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Test: <span class="in">`npm run test`</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conventions</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use functional components</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use Tailwind CSS for styling</span></code></pre></div><button title="複製到剪貼簿" class="code-copy-button"><i class="bi"></i></button></div>
+<blockquote class="blockquote">
+<p><strong>Tip</strong>: CLAUDE.md files can be hierarchical. Place one at the project level and additional ones in nested directories. Claude prioritizes the most specific (deepest nested) file when relevant.</p>
+</blockquote>
+</section>
+<section id="custom-hooks" class="level3" data-number="1.10.2">
+<h3 data-number="1.10.2" class="anchored" data-anchor-id="custom-hooks"><span class="header-section-number">1.10.2</span> 9.2 Custom Hooks</h3>
+<p>Hooks allow you to run commands automatically at specific points:</p>
+<ul>
+<li><strong>Before edits are accepted</strong>: Run Prettier on the specific file</li>
+<li><strong>After edits</strong>: Run type checking on modified files</li>
+</ul>
+</section>
+<section id="custom-slash-commands" class="level3" data-number="1.10.3">
+<h3 data-number="1.10.3" class="anchored" data-anchor-id="custom-slash-commands"><span class="header-section-number">1.10.3</span> 9.3 Custom Slash Commands</h3>
+<p>Create custom commands by adding markdown files to <code>.claude/commands/</code>:</p>
+<pre class="text"><code>.claude/commands/test.md       -&gt; /test
+.claude/commands/builder/plugin.md -&gt; /builder plugin</code></pre>
+<p><strong>Command File Structure Example</strong> (<code>.claude/commands/test.md</code>):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="an">Write unit tests for the following file:</span><span class="co"> $ARGUMENTS</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="an">Follow our testing conventions:</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use Jest</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Include edge cases</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Mock external dependencies</span></code></pre></div><button title="複製到剪貼簿" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Usage: <code>/test src/utils/helpers.ts</code></p>
+</section>
+<section id="memory-management" class="level3" data-number="1.10.4">
+<h3 data-number="1.10.4" class="anchored" data-anchor-id="memory-management"><span class="header-section-number">1.10.4</span> 9.4 Memory Management</h3>
+<p>Add memories using the <code>#</code> symbol:</p>
+<pre class="text"><code>#always use Mobx components for new stuff</code></pre>
+<p><strong>Memory types</strong>:</p>
+<ul>
+<li><strong>Global User Memory</strong>: Preferences applied everywhere</li>
+<li><strong>Local Project Memory</strong>: Project-specific memories (git-ignored)</li>
+<li><strong>CLAUDE.md</strong>: Shared project documentation</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="pricing-and-plans" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="pricing-and-plans"><span class="header-section-number">1.11</span> 10. Pricing and Plans</h2>
+<section id="subscription-tiers" class="level3" data-number="1.11.1">
+<h3 data-number="1.11.1" class="anchored" data-anchor-id="subscription-tiers"><span class="header-section-number">1.11.1</span> 10.1 Subscription Tiers</h3>
+<ul>
+<li><strong>Standard</strong>: Basic access with usage limits</li>
+<li><strong>Max</strong>: Enhanced limits and Opus access ($100/month)</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Info</strong>: Consider the cost of human engineering time. Even at competitive global rates, AI assistance at $100/month provides extraordinary value compared to the cost per hour of human engineering work.</p>
+</blockquote>
+</section>
+<section id="why-direct-pricing-works" class="level3" data-number="1.11.2">
+<h3 data-number="1.11.2" class="anchored" data-anchor-id="why-direct-pricing-works"><span class="header-section-number">1.11.2</span> 10.2 Why Direct Pricing Works</h3>
+<ul>
+<li>No middleman markup</li>
+<li>Direct from model creators</li>
+<li>Anthropic can offer maximum model access</li>
+<li>Sustainable pricing model</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="why-claude-code-excels" class="level2" data-number="1.12">
+<h2 data-number="1.12" class="anchored" data-anchor-id="why-claude-code-excels"><span class="header-section-number">1.12</span> 11. Why Claude Code Excels</h2>
+<section id="technical-advantages" class="level3" data-number="1.12.1">
+<h3 data-number="1.12.1" class="anchored" data-anchor-id="technical-advantages"><span class="header-section-number">1.12.1</span> 11.1 Technical Advantages</h3>
+<ol type="1">
+<li><strong>Single Model Focus</strong>: Only needs to support Claude models</li>
+<li><strong>Deep Integration</strong>: Tool and model optimized together</li>
+<li><strong>Continuous Improvement</strong>: Model improvements directly benefit Claude Code</li>
+<li><strong>Expert Knowledge</strong>: Built by the team that knows the model best</li>
+</ol>
+</section>
+<section id="real-world-performance" class="level3" data-number="1.12.2">
+<h3 data-number="1.12.2" class="anchored" data-anchor-id="real-world-performance"><span class="header-section-number">1.12.2</span> 11.2 Real-World Performance</h3>
+<ul>
+<li>Handles 18,000+ line files without issues</li>
+<li>Excellent pattern recognition across large codebases</li>
+<li>Understands relationships between components, state, and files</li>
+<li>Rarely gets stuck or requires babysitting</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="visual-interface-alternative" class="level2" data-number="1.13">
+<h2 data-number="1.13" class="anchored" data-anchor-id="visual-interface-alternative"><span class="header-section-number">1.13</span> 12. Visual Interface Alternative</h2>
+<section id="fusion-by-builder.io" class="level3" data-number="1.13.1">
+<h3 data-number="1.13.1" class="anchored" data-anchor-id="fusion-by-builder.io"><span class="header-section-number">1.13.1</span> 12.1 Fusion by Builder.io</h3>
+<p>Access at: <a href="https://fusion.builder.io">fusion.builder.io</a></p>
+<p>Features:</p>
+<ul>
+<li>Visual chat interface</li>
+<li>Live preview of changes</li>
+<li>Design mode with Figma-style editing</li>
+<li>Pull request creation from the browser</li>
+<li>Same underlying agent mechanics as Claude Code</li>
+</ul>
+</section>
+<section id="use-cases" class="level3" data-number="1.13.2">
+<h3 data-number="1.13.2" class="anchored" data-anchor-id="use-cases"><span class="header-section-number">1.13.2</span> 12.2 Use Cases</h3>
+<ul>
+<li>Team members creating prototypes</li>
+<li>Visual editing of UI components</li>
+<li>Bridging design and code workflows</li>
+<li>Browser-based development</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="best-practices-summary" class="level2" data-number="1.14">
+<h2 data-number="1.14" class="anchored" data-anchor-id="best-practices-summary"><span class="header-section-number">1.14</span> 13. Best Practices Summary</h2>
+<section id="daily-workflow-checklist" class="level3" data-number="1.14.1">
+<h3 data-number="1.14.1" class="anchored" data-anchor-id="daily-workflow-checklist"><span class="header-section-number">1.14.1</span> 13.1 Daily Workflow Checklist</h3>
+<ol type="1">
+<li>Use <code>/clear</code> when starting new tasks</li>
+<li>Consider using <code>--dangerously-skip-permissions</code> for uninterrupted work</li>
+<li>Queue multiple related tasks</li>
+<li>Leverage Opus for complex tasks, Sonnet for simpler ones</li>
+<li>Configure CLAUDE.md for project-specific context</li>
+</ol>
+</section>
+<section id="productivity-tips" class="level3" data-number="1.14.2">
+<h3 data-number="1.14.2" class="anchored" data-anchor-id="productivity-tips"><span class="header-section-number">1.14.2</span> 13.2 Productivity Tips</h3>
+<ul>
+<li>Run multiple Claude Code panes for parallel work on different files</li>
+<li>Use the up arrow to access previous sessions</li>
+<li>Configure GitHub integration for automated PR reviews</li>
+<li>Create custom slash commands for repetitive tasks</li>
+<li>Use message queuing to batch tasks and check back later</li>
+</ul>
+</section>
+<section id="common-pitfalls-to-avoid" class="level3" data-number="1.14.3">
+<h3 data-number="1.14.3" class="anchored" data-anchor-id="common-pitfalls-to-avoid"><span class="header-section-number">1.14.3</span> 13.3 Common Pitfalls to Avoid</h3>
+<blockquote class="blockquote">
+<p><strong>Warning</strong>: - Don’t use Ctrl + C to stop work (use Escape) - Don’t keep extensive chat history (use /clear) - Don’t forget to check queued tasks periodically - Don’t use Cmd + V for images (use Ctrl + V)</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="quick-reference-card" class="level2" data-number="1.15">
+<h2 data-number="1.15" class="anchored" data-anchor-id="quick-reference-card"><span class="header-section-number">1.15</span> 14. Quick Reference Card</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Command/Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clear history</td>
+<td><code>/clear</code></td>
+</tr>
+<tr class="even">
+<td>Change model</td>
+<td><code>/model opus</code> or <code>/model sonnet</code></td>
+</tr>
+<tr class="odd">
+<td>Skip permissions</td>
+<td><code>claude --dangerously-skip-permissions</code></td>
+</tr>
+<tr class="even">
+<td>Stop Claude</td>
+<td>Escape</td>
+</tr>
+<tr class="odd">
+<td>Exit application</td>
+<td>Ctrl + C (twice)</td>
+</tr>
+<tr class="even">
+<td>Previous messages</td>
+<td>Escape (twice)</td>
+</tr>
+<tr class="odd">
+<td>Past chats</td>
+<td>Up Arrow</td>
+</tr>
+<tr class="even">
+<td>New line in message</td>
+<td>Shift + Enter</td>
+</tr>
+<tr class="odd">
+<td>Paste image</td>
+<td>Ctrl + V</td>
+</tr>
+<tr class="even">
+<td>Drag file in</td>
+<td>Shift + Drag</td>
+</tr>
+<tr class="odd">
+<td>Add memory</td>
+<td><code>#your memory here</code></td>
+</tr>
+<tr class="even">
+<td>Custom command</td>
+<td><code>/command-name arguments</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="conclusion" class="level2" data-number="1.16">
+<h2 data-number="1.16" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">1.16</span> 15. Conclusion</h2>
+<p>Claude Code represents a significant advancement in AI-assisted coding tools. By combining deep model integration, powerful terminal-based workflows, and thoughtful features like message queuing, it enables developers to work more efficiently than ever before.</p>
+<p>The key to success with Claude Code is:</p>
+<ol type="1">
+<li>Understanding the terminal interface quirks</li>
+<li>Configuring your environment properly</li>
+<li>Leveraging advanced features like queuing and custom commands</li>
+<li>Using the right model for each task</li>
+</ol>
+<hr>
+</section>
+<section id="additional-resources" class="level2" data-number="1.17">
+<h2 data-number="1.17" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">1.17</span> Additional Resources</h2>
+<ul>
+<li>Builder.io Blog: Full list of Claude Code tips</li>
+<li>Fusion Visual Interface: <a href="https://fusion.builder.io">fusion.builder.io</a></li>
+<li>Claude Code Documentation: <a href="https://docs.anthropic.com">docs.anthropic.com</a></li>
+<li>GitHub: Report issues and feedback</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
