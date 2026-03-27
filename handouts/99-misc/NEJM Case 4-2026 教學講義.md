@@ -1,19 +1,13 @@
-# NEJM Case Record 教學講義
+# Case 4-2026: 80 歲女性咳嗽與低血氧症 — HIV/AIDS with PJP
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-03-26**
 
 ---
 
-HIV/AIDS with PJP
-Case 4-2026: An 80-Year-Old Woman with
-Cough and Hypoxemia
-病例4-2026：一位80 歲女性，主訴咳嗽與低血氧症
-N Engl J Med 2026;394:498-507
-DOI: 10.1056/NEJMcpc2513543
-January 29, 2026
-1 病例概述
-1.1 臨床表現
+**原文連結：[N Engl J Med — Case 4-2026](https://doi.org/10.1056/NEJMcpc2513543)**
+## 1. 病例概述
+### 1.1 臨床表現
 一位80 歲女性因cough(咳嗽) 及hypoxemia(低血氧症) 至Massachusetts General Hospital 就
 診。病人於八週前開始出現productive cough(有痰咳嗽)，伴隨fatigue(疲倦)、poor appetite(食
 慾不振) 及weight loss(體重減輕)。 1.2 病史時序
@@ -45,11 +39,7 @@ Urgent Care 就診
 - SpO2 83% on room air(嚴重低血氧！)
 - 需4 L/min O2 via nasal cannula 維持SpO2 93%
 - 發現diffuse ground-glass opacities on CT
-1.3 重要病史
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
+### 1.3 重要病史
 類別
 內容
 Past Medical His-
@@ -88,7 +78,7 @@ Family History
 2. 性活動史：2 年前仍有性活動
 3. Herpes zoster：雖常見於老年人，但也可能是immunodeficiency 的徵兆
 4. Squamous-cell carcinoma of unknown primary：可能與免疫功能低下相關
-1.4 理學檢查
+### 1.4 理學檢查
 項目
 發現
 Vital Signs
@@ -97,10 +87,6 @@ Vital Signs
 - Heart rate: 93 bpm
 - Respiratory rate: 16 breaths/min
 - SpO2: 83% on room air →93% on 4 L/min O2
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 General
 - Coughing but able to speak in complete sentences
 - No respiratory distress
@@ -118,7 +104,7 @@ Extremities
 - No edema
 Other
 - Remainder of examination normal
-1.5 實驗室檢查
+### 1.5 實驗室檢查
 關鍵實驗室發現
 • CRP: 52.7 mg/L (↑, ref: <8.0) —發炎反應
 • ESR: 58 mm/hr (↑, ref: 0-29) —發炎反應
@@ -170,11 +156,6 @@ Platelet count
 150,000-450,000
 Normal
 正常
-續下頁...
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 Test
 檢驗項目
 Result
@@ -202,7 +183,6 @@ Normal —不支持典型細菌
 正常
 Blood Gas 血液氣體分析
 pH (venous)
-7.48
 7.30-7.40
 Respiratory alkalosis
 呼吸性鹼中毒
@@ -252,18 +232,14 @@ M. pneumoniae
 Negative
 —
 排除黴漿菌肺炎
-重點提醒
+> **重點提醒**
 Procalcitonin 的臨床意義
 Procalcitonin 是診斷細菌感染的重要biomarker：
 • 典型細菌感染時升高
 • 其他感染性或發炎性疾病時通常不升高
 • 本病例procalcitonin 正常但CRP/ESR 升高，提示非典型感染（如真菌、病毒、分
 枝桿菌）或發炎性疾病
-2 影像學發現
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
+## 2. 影像學發現
 2.1 Chest Radiograph (入院時)
 • Hazy perihilar opacities with indistinct pulmonary vasculature
 • Linear opacities at lung bases (most likely subsegmental atelectasis)
@@ -281,19 +257,15 @@ HIV/AIDS with PJP
 • No lymphadenopathy
 這種central, apical-predominant ground-glass opacities 的pattern 高度提
 示Pneumocystis jirovecii pneumonia (PJP)！
-3 鑑別診斷
+## 3. 鑑別診斷
 3.1 臨床推理架構
-重點提醒
+> **重點提醒**
 Dr. Shreya Shrestha 的診斷思路
 面對這位80 歲女性的subacute respiratory syndrome，診斷推理聚焦於：
 1. 症狀進展時程：8 週的subacute course —不符合典型細菌性肺炎
 2. Procalcitonin 正常：不支持典型細菌感染
 3. CT findings：Central ground-glass opacities with apical predominance
 4. Risk factors：旅遊史、性活動史、recent herpes zoster
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 3.2 鑑別診斷分析
 Differential
 Di-
@@ -413,11 +385,6 @@ ual disease
 dation on CT
 PET scan
 Biopsy
-續下頁...
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 Differential
 Di-
 agnosis
@@ -522,12 +489,8 @@ Dr. Shrestha 的診斷推論
 2. Travel history：East Africa (Kenya, Rwanda, Tanzania) —HIV 高流行區
 3. Sexual history：2 年前仍有性活動—可能的HIV transmission route
 4. Clinical timeline：Subacute course + CT findings →高度符合PJP
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 最可能的診斷：HIV-AIDS complicated by Pneumocystis jirovecii pneumonia
-4 診斷檢驗結果
+## 4. 診斷檢驗結果
 4.1 HIV Testing
 HIV Diagnostic Results
 HIV-1/HIV-2 Antigen-Antibody Combination Immunoassay: REACTIVE
@@ -569,17 +532,13 @@ Interpretation:
 • 對isolated pulmonary infection with low fungal burden 可能為negative
 • 此病人為pulmonary cryptococcosis
 Lumbar Puncture: 排除cryptococcal meningitis
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
-5 最終診斷
+## 5. 最終診斷
 Advanced HIV-1 Infection (AIDS)
 with Pneumocystis jirovecii Pneumonia
 and Cryptococcus neoformans Pneumonia
 晚期人類免疫缺陷病毒第一型感染（愛滋病）
 合併肺囊蟲肺炎及隱球菌肺炎
-6 醫學英文寫作解析
+## 6. 醫學英文寫作解析
 Original Sentence
 原文例句
 Grammar
@@ -654,11 +613,6 @@ gerund object
 診斷思維的轉折
 強調完整病史的
 重要性
-續下頁...
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 Original Sentence
 原文例句
 Grammar
@@ -706,7 +660,7 @@ clause 提供額外
 連結症狀與
 underlying
 condition
-7 討論
+## 7. 討論
 7.1 HIV/AIDS in Older Adults
 老年人HIV 感染的重要性
 流行病學(2021 年美國數據):
@@ -720,10 +674,6 @@ Screening barriers in older adults:
 • 臨床醫師對老年人性活動的assumptions
 Key message: 當存在風險因子時，不論年齡都應進行HIV 篩檢！
 7.2 Pneumocystis jirovecii Pneumonia (PJP)
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 項目
 內容
 病原體
@@ -782,10 +732,6 @@ First-line treatment:
 • Strongly preferred over alternatives due to superior eﬀicacy
 • Duration: typically 21 days
 • Monitor: potassium levels, kidney function
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 Adjunctive Glucocorticoid Therapy:
 • Indicated for moderate-to-severe PJP:
 – PaO2 <70 mmHg on room air, OR
@@ -793,7 +739,7 @@ Adjunctive Glucocorticoid Therapy:
 • Purpose: attenuate inflammatory response to dying organisms
 • Start within 72 hours of antimicrobial therapy
 7.5 Cryptococcal Infection 的處理
-重點提醒
+> **重點提醒**
 本病例的Cryptococcal Infection
 • BAL culture positive for C. neoformans
 • Serum cryptococcal antigen negative (×2)
@@ -804,10 +750,6 @@ Treatment consideration:
 • Duration: total 6 months
 Important: Multiple concurrent opportunistic infections are common when CD4 count is
 severely low.
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 7.6 Antiretroviral Therapy (ART) Timing
 ART Initiation Timing
 General principle: Early ART leads to:
@@ -859,11 +801,6 @@ protocol
 First-line for PJP
 Inhibits folate synthesis
 抑制葉酸合成
-續下頁...
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 Drug
 (Generic
 Name)
@@ -917,10 +854,6 @@ PJP prophylaxis (continue
 until CD4 >200 × 3
 months)
 肺囊蟲預防
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 9 病人預後
 Clinical Outcome
 Treatment Response:
@@ -938,48 +871,40 @@ Current Status:
 • Focus shifted to HIV-informed health maintenance
 • Patient is dating, knowing that “U = U: undetectable = untransmissible”
 10 學習重點(Key Takeaways)
-重點提醒
+> **重點提醒**
 1. HIV Screening in Older Adults
 • 41% 的HIV 感染者年齡￿55 歲
 • 34% 的老年人在診斷HIV 時已是AIDS
 • Risk factors 存在時，不論年齡都應篩檢HIV
 • 使用“5 Ps” 評估性健康：Partners, Practices, Protection, Past STIs, Pregnancy
 intention
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
-重點提醒
+> **重點提醒**
 2. Pneumocystis jirovecii Pneumonia 的臨床特徵
 • Subacute course (days to weeks)
 • Cough, dyspnea, fever, weight loss
 • CD4 count 通常￿200/￿L
 • CT: Bilateral ground-glass opacities, central distribution, apical predominance
 • Procalcitonin 通常正常（非典型細菌感染）
-重點提醒
+> **重點提醒**
 3. PJP 的診斷
 • P. jirovecii 是fungus，不會在routine media 上生長
 • DFA (direct fluorescent antibody) 是standard approach
 • Induced sputum sensitivity: 67-99% in HIV patients
 • BAL sensitivity: 90-99% in HIV patients
 • 1,3-￿-D-glucan 是useful adjunct test
-重點提醒
+> **重點提醒**
 4. PJP 治療原則
 • First-line: High-dose TMP-SMX
 • Duration: 21 days for HIV patients
 • Adjunctive steroids: 用於moderate-to-severe PJP (PaO2 <70 mmHg or A-a gradient
 ￿35 mmHg)
 • After treatment: prophylaxis until CD4 >200 for 3 months
-重點提醒
+> **重點提醒**
 5. Multiple Opportunistic Infections
 • Severely immunocompromised patients 可有多種concurrent infections
 • 本病例：PJP + pulmonary cryptococcosis
 • 考慮additional workup when response to treatment is incomplete
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
-重點提醒
+> **重點提醒**
 6. ART Initiation Timing
 • Generally: Early ART improves outcomes
 • Exception: Cryptococcal meningitis —delay ART
@@ -1011,10 +936,6 @@ test on induced sputum. The serum 1,3-￿-D-glucan level is >500 pg/mL. What is 
 appropriate next step?
 一位懷疑PJP 的病人誘導痰液直接免疫螢光抗體檢測為陰性。血清1,3-￿-D-glucan >500
 pg/mL。下一步最適當的處置為何？
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 (A) Repeat induced sputum testing
 (B) Start empiric treatment and observe
 (C) Perform bronchoalveolar lavage for DFA testing
@@ -1045,10 +966,6 @@ culture but negative serum cryptococcal antigen. Which of the following explains
 be negative in isolated pulmonary infection with low fungal burden
 (D) The patient has protective immunity against cryptococcus
 (E) Antigen testing should be repeated multiple times
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 Question 7. Regarding HIV screening in older adults, which statement is correct?
 關於老年人的HIV 篩檢，下列敘述何者正確？
 (A) HIV screening is not recommended for adults over 65 years
@@ -1082,10 +999,6 @@ zoster. He has a history of travel to sub-Saharan Africa and was sexually active
 (C) Only tuberculosis testing
 (D) Hepatitis B and C testing only
 (E) Repeat chest X-ray in 6 weeks
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 11.2 答案與解析(Answers and Explanations)
 Question 1. Answer: (C)
 Explanation: The subacute course (8 weeks), bilateral ground-glass opacities with central
@@ -1116,10 +1029,6 @@ mmHg 或肺泡-動脈梯度￿35 mmHg。它有助於減緩對dying organisms 的
 Explanation: Cryptococcal antigen testing is most sensitive for disseminated or CNS
 disease. It may be negative in cases of isolated pulmonary infection when the fungal burden is
 low. This explains the discordance between positive culture and negative antigen test.
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 解析：隱球菌抗原檢測對播散性或CNS 疾病最敏感。在真菌負荷較低的isolated 肺部感
 染病例中可能為陰性。這解釋了培養陽性但抗原檢測陰性的差異。 Question 7. Answer: (B)
 Explanation: In 2021, 41% of persons living with HIV in the United States were 55 years of
@@ -1149,10 +1058,6 @@ HIV 流行地區（撒哈拉以南非洲）和近期性活動，應進行HIV 檢
 懷疑HIV
 3. PJP 的CT Pattern: Bilateral ground-glass opacities, central distribution, apical
 predominance
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 4. Procalcitonin 的診斷價值: 正常時不支持典型細菌感染，應考慮其他病原體
 5. PJP Diagnosis Cascade: Induced sputum DFA →BAL DFA (if negative); 1,3-￿-
 D-glucan is useful adjunct
@@ -1198,10 +1103,6 @@ Treatment
 Prophylaxis
 - TMP-SMX (preferred)
 - Continue until CD4 >200 for ￿3 months
-
-
-NEJM Case Record 教學講義
-HIV/AIDS with PJP
 項目
 內容
 Opportunistic

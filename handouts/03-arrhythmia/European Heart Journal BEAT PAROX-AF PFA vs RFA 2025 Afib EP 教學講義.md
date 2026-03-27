@@ -1,306 +1,222 @@
-# European Heart Journal 教學講義
+# BEAT PAROX-AF 試驗：脈衝場消融術 vs 射頻消融術治療陣發性心房顫動
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-01-25**
+**原文連結：[European Heart Journal — Pulsed Field vs Radiofrequency Ablation for Paroxysmal Atrial Fibrillation: The BEAT PAROX-AF Trial](https://doi.org/10.1093/eurheartj/ehaf1115)**
 
 ---
 
-BEAT PAROX-AF Trial
-European Heart Journal
-Pulsed Field vs Radiofrequency Ablation for Paroxysmal
-Atrial Fibrillation: The BEAT PAROX-AF Trial
-脈衝場消融術vs 射頻消融術治療陣發性心房顫動：BEAT PAROX-AF 試驗
-Eur Heart J 2025. DOI: 10.1093/eurheartj/ehaf1115
-整理：謝慕揚MD, PhD, FESC
-日期：2026-01-25
-核心發現摘要
-核心發現：
-• 單次手術成功率：PFA 77.2% vs RFA 77.6%（無顯著差異）
-• PFA 手術時間較短（59 vs 98 分鐘）、左心房停留時間較短（39 vs 77 分鐘）
-• PFA 透視時間較長（12 vs 7 分鐘）
-• PFA 嚴重不良事件較少（3.4% vs 7.6%）
-• RFA 組有2 例PV stenosis > 70%，12 例> 50%；PFA 組無PV stenosis
-1 研究背景
-1.1 心房顫動消融術的演進
-• 心房顫動（AF）是最常見的持續性心律不整，成人盛行率2-4%
-• 1997-98 年發現肺靜脈可觸發AF，肺靜脈隔離（PVI）成為治療核心
-• 傳統能量來源：射頻消融（RFA）、冷凍球囊（Cryoballoon）
-• 脈衝場消融（PFA）：新型非熱能技術，利用不可逆電穿孔
-1.2 PFA 的特點
-• 使用微秒級高電壓脈衝造成不可逆電穿孔（irreversible electroporation）
-• 組織選擇性：對心肌細胞選擇性高，可能減少週邊組織傷害
-• 理論上可降低食道、膈神經、肺靜脈狹窄等熱能相關併發症
-• 先前研究顯示3 個月重新mapping 時PVI 持久性高
-2 研究設計
+## 核心發現摘要
 
+> - **單次手術成功率**：PFA 77.2% vs RFA 77.6%（無顯著差異）
+> - PFA 手術時間較短（59 vs 98 分鐘）、左心房停留時間較短（39 vs 77 分鐘）
+> - PFA 透視時間較長（12 vs 7 分鐘）
+> - PFA 嚴重不良事件較少（3.4% vs 7.6%）
+> - RFA 組有 2 例 PV stenosis >70%、12 例 >50%；PFA 組無 PV stenosis
 
-European Heart Journal 教學講義
-BEAT PAROX-AF Trial
-項目
-內容
-試驗名稱
-BEAT PAROX-AF
-設計
-歐洲多中心、開放標籤、隨機對照、優越性試驗
-中心數
-9 個高量中心（法國、捷克、德國、奧地利、比利時）
-納入條件
-• 18-80 歲
-• 有症狀、藥物抗性陣發性AF
-• Class I 或IIa AF 消融適應症
-• 口服抗凝劑> 3 週
-排除條件
-• 持續性AF
-• 續發性AF（電解質、甲狀腺、酒精）
-• 左心房前後徑≥5.5 cm
-• 先前心房消融（CTI flutter 除外）
-• PV 異常、狹窄或stent
-隨機分配
-1:1，依中心分層
-盲法
-開放標籤（因介入本質無法盲化）
-獨立CEC 評估終點
-3 介入方式
-3.1 PFA 組：FARAPULSE 系統
-• 設備：FARAPULSE™Ablation System（Boston Scientific）
-• 導管：Pentaspline 消融導管（31 mm 或35 mm）
-• 能量：2000V 高電壓脈衝
-• 方式：每條肺靜脈至少8 次能量傳遞，使用basket 和flower 兩種配置
-• 終點：入口和/或出口阻斷確認PVI
-• 不使用mapping 系統
-3.2 RFA 組：CLOSE Protocol
-• 設備：CARTO® 3 System（Biosense Webster）
-• 導管：Contact force-sensing catheter（SmartTouch® 或SmartTouch® Surround Flow）
-• 能量：35-45 W
-• 目標：
-– 後壁Ablation Index：300-400
-– 前壁Ablation Index：≥500
-– 病灶間距：≤6 mm
+---
 
+## 1. 研究背景
 
-European Heart Journal 教學講義
-BEAT PAROX-AF Trial
-• 終點：入口和/或出口阻斷確認PVI
-4 追蹤與監測
-• 追蹤期：12 個月
-• 訪視：1 個月電話、2/6/12 個月門診
-• 心律監測：
-– 常規12-lead ECG 和24 小時Holter
-– 每週Kardia™單導程ECG 傳輸
-– 有症狀時額外記錄
-• 影像：2 個月CT 或MRI 評估PV 狹窄
-• Blanking period：2 個月
-5 主要終點與定義
-主要療效終點：12 個月單次手術臨床成功率
-成功定義（依據2017 HRS 共識）：
-1. 成功完成AF 消融
-2. Blanking period 後無≥30 秒心房心律不整復發
-3. Blanking period 後未恢復Class I/III 抗心律不整藥物
+### 1.1 心房顫動消融術的演進
+
+- 心房顫動 (AF) 是最常見的持續性心律不整，成人盛行率 2-4%
+- 1997-98 年發現肺靜脈可觸發 AF，肺靜脈隔離 (PVI) 成為治療核心
+- 傳統能量來源：射頻消融 (RFA)、冷凍球囊 (Cryoballoon)
+- 脈衝場消融 (PFA)：新型非熱能技術，利用不可逆電穿孔
+
+### 1.2 PFA 的特點
+
+- 使用微秒級高電壓脈衝造成不可逆電穿孔 (irreversible electroporation)
+- 組織選擇性：對心肌細胞選擇性高，可能減少週邊組織傷害
+- 理論上可降低食道、膈神經、肺靜脈狹窄等熱能相關併發症
+- 先前研究顯示 3 個月重新 mapping 時 PVI 持久性高
+
+---
+
+## 2. 研究設計
+
+| 項目 | 內容 |
+|------|------|
+| 試驗名稱 | BEAT PAROX-AF |
+| 設計 | 歐洲多中心、開放標籤、隨機對照、優越性試驗 |
+| 中心數 | 9 個高量中心（法國、捷克、德國、奧地利、比利時） |
+| 納入條件 | 18-80 歲、有症狀藥物抗性陣發性 AF、Class I 或 IIa 消融適應症、口服抗凝劑 >3 週 |
+| 排除條件 | 持續性 AF、續發性 AF（電解質、甲狀腺、酒精）、左心房前後徑 ≥5.5 cm、先前心房消融（CTI flutter 除外）、PV 異常/狹窄/stent |
+| 隨機分配 | 1:1，依中心分層 |
+| 盲法 | 開放標籤（因介入本質無法盲化），獨立 CEC 評估終點 |
+
+---
+
+## 3. 介入方式
+
+### 3.1 PFA 組：FARAPULSE 系統
+
+- **設備**：FARAPULSE Ablation System (Boston Scientific)
+- **導管**：Pentaspline 消融導管（31 mm 或 35 mm）
+- **能量**：2000V 高電壓脈衝
+- **方式**：每條肺靜脈至少 8 次能量傳遞，使用 basket 和 flower 兩種配置
+- **終點**：入口和/或出口阻斷確認 PVI
+- 不使用 mapping 系統
+
+### 3.2 RFA 組：CLOSE Protocol
+
+- **設備**：CARTO 3 System (Biosense Webster)
+- **導管**：Contact force-sensing catheter (SmartTouch / SmartTouch Surround Flow)
+- **能量**：35-45 W
+- **目標**：
+  - 後壁 Ablation Index：300-400
+  - 前壁 Ablation Index：≥500
+  - 病灶間距：≤6 mm
+- **終點**：入口和/或出口阻斷確認 PVI
+
+---
+
+## 4. 追蹤與監測
+
+- 追蹤期：12 個月
+- 訪視：1 個月電話、2/6/12 個月門診
+- 心律監測：
+  - 常規 12-lead ECG 和 24 小時 Holter
+  - 每週 Kardia 單導程 ECG 傳輸
+  - 有症狀時額外記錄
+- 影像：2 個月 CT 或 MRI 評估 PV 狹窄
+- Blanking period：2 個月
+
+---
+
+## 5. 主要終點與定義
+
+**主要療效終點**：12 個月單次手術臨床成功率
+
+成功定義（依據 2017 HRS 共識）：
+
+1. 成功完成 AF 消融
+2. Blanking period 後無 ≥30 秒心房心律不整復發
+3. Blanking period 後未恢復 Class I/III 抗心律不整藥物
 4. Blanking period 後未接受心臟整流
-5. 任何時間未接受再次消融（典型flutter 除外）
-6 研究結果
-6.1 患者特徵
-特徵
-PFA (n=145)
-RFA (n=144)
-年齡（中位數）
-65.0 歲
-62.5 歲
-男性
-57.2%
-59.0%
-BMI (mean)
-27.2 kg/m²
-27.5 kg/m²
-高血壓
-51.7%
-52.1%
-冠狀動脈疾病
-8.3%
-14.6%
-糖尿病
-10.3%
-9.7%
+5. 任何時間未接受再次消融（典型 flutter 除外）
 
+---
 
-European Heart Journal 教學講義
-BEAT PAROX-AF Trial
-特徵
-PFA (n=145)
-RFA (n=144)
-AF 病程（中位數）
-12.5 個月
-12.6 個月
-Class I/III AAD 使用
-65.5%
-59.0%
-CHA￿DS￿-VASc (mean)
-1.8
-1.7
-左心房直徑(mean)
-40.9 mm
-40.3 mm
-LVEF (mean)
-61.0%
-61.3%
-6.2 手術特徵
-項目
-PFA
-RFA
-總手術時間
-59 ± 22 分鐘
-98 ± 33 分鐘
-左心房停留時間
-39 ± 16 分鐘
-77 ± 28 分鐘
-透視時間
-12 ± 6 分鐘
-7 ± 6 分鐘
-PVI 成功率
-100%
-100%
-CTI ablation 併行
-4.1%
-9.7%
-重點提醒
-PFA 手術時間較短約40 分鐘，左心房停留時間較短約38 分鐘，但透視時間較長約5 分
-鐘。 6.3 主要終點結果
-PFA 77.2%
-RFA 77.6%
-112/145
-111/143
-12 個月單次手術成功率
-調整後差異：0.9% (95% CI: -8.2% to 10.1%; P = .84)
-治療失敗原因分析：
-失敗原因
-PFA
-RFA
-初始手術失敗
-0 (0%)
-0 (0%)
-心房心律不整復發
-27 (18.6%)
-23 (16.0%)
-恢復AAD
-9 (6.2%)
-12 (8.4%)
-再次消融
-13 (9.0%)
-9 (6.3%)
-心臟整流
-1 (0.7%)
-1 (0.7%)
+## 6. 研究結果
 
+### 6.1 患者特徵
 
-European Heart Journal 教學講義
-BEAT PAROX-AF Trial
-7 安全性結果
-7.1 嚴重不良事件（SAE）
-事件
-PFA (n=145)
-RFA (n=144)
-死亡
-0 (0%)
-0 (0%)
-中風
-0 (0%)
-0 (0%)
-持續性膈神經麻痺
-0 (0%)
-0 (0%)
-心肌梗塞
-0 (0%)
-0 (0%)
-暫時性腦缺血
-1 (0.7%)
-0 (0%)
-心包填塞/穿孔
-0 (0%)
-2 (1.4%)
-心包炎
-1 (0.7%)
-1 (0.7%)
-血管併發症
-1 (0.7%)
-4 (2.8%)
-PV 狹窄≥70%
-0 (0%)
-2 (1.4%)
-食道瘻管
-0 (0%)
-0 (0%)
-複合安全終點
-5 (3.4%)
-11 (7.6%)
-PV 狹窄分析（探索性終點）：
-• PV 狹窄≥70%：PFA 0% vs RFA 1.9%（2/106 例）
-• PV 狹窄≥50%：PFA 0% vs RFA 11.3%（12/106 例）
-• 差異：-11.2%（95% CI: -16.7% to -5.6%）
-• RFA 組PV 直徑平均減少比PFA 組多17.5%
-8 與其他試驗比較
-試驗
-比較
-成功率
-特點
-BEAT PAROX-AF
-PFA
-vs
-RFA
-(CLOSE)
-77% vs 78%
-標準化RFA 對照
-ADVENT
-PFA vs Thermal
-(混合)
-73.3% vs 71.3%
-混合熱能對照
-SINGLE
-SHOT
-CHAMPION
-PFA vs Cryobal-
-loon
-優於冷凍
-使用植入式監測器
-FIRE AND ICE
-RFA vs Cryobal-
-loon
-< 70%
-早期試驗
+| 特徵 | PFA (n=145) | RFA (n=144) |
+|------|-------------|-------------|
+| 年齡（中位數） | 65.0 歲 | 62.5 歲 |
+| 男性 | 57.2% | 59.0% |
+| BMI (mean) | 27.2 kg/m² | 27.5 kg/m² |
+| 高血壓 | 51.7% | 52.1% |
+| 冠狀動脈疾病 | 8.3% | 14.6% |
+| 糖尿病 | 10.3% | 9.7% |
+| AF 病程（中位數） | 12.5 個月 | 12.6 個月 |
+| Class I/III AAD 使用 | 65.5% | 59.0% |
+| CHA₂DS₂-VASc (mean) | 1.8 | 1.7 |
+| 左心房直徑 (mean) | 40.9 mm | 40.3 mm |
+| LVEF (mean) | 61.0% | 61.3% |
 
+### 6.2 手術特徵
 
-European Heart Journal 教學講義
-BEAT PAROX-AF Trial
-9 研究限制
-1. 患者選擇：高度篩選的族群，可能不代表一般臨床實務
-2. 設備限制：僅使用Pentaspline PFA 導管，結果可能不適用於其他PFA 系統
-3. 中心因素：高量有經驗中心，RFA 結果可能優於低量中心
-4. 監測方式：未使用植入式心律監測器，可能低估復發率
-5. 追蹤時間：僅12 個月，長期結果未知
-6. 未評估：溶血或腎衰竭（試驗設計於2020 年）
-10 臨床意義與結論
-BEAT PAROX-AF 試驗結論：
-1. PFA 與優化的RFA（CLOSE protocol）在陣發性AF 治療上療效相當
-2. 兩組12 個月單次手術成功率皆超過77%
-3. PFA 優勢：
-• 手術時間較短（約40 分鐘）
-• 左心房停留時間較短（約50%）
-• 較少嚴重不良事件
-• 無PV 狹窄
-4. PFA 劣勢：透視時間較長（約5 分鐘）
+| 項目 | PFA | RFA |
+|------|-----|-----|
+| 總手術時間 | 59 ± 22 分鐘 | 98 ± 33 分鐘 |
+| 左心房停留時間 | 39 ± 16 分鐘 | 77 ± 28 分鐘 |
+| 透視時間 | 12 ± 6 分鐘 | 7 ± 6 分鐘 |
+| PVI 成功率 | 100% | 100% |
+| CTI ablation 併行 | 4.1% | 9.7% |
+
+> **Pearl**：PFA 手術時間較短約 40 分鐘，左心房停留時間較短約 38 分鐘，但透視時間較長約 5 分鐘。
+
+### 6.3 主要終點結果
+
+- **PFA**：77.2% (112/145)
+- **RFA**：77.6% (111/143)
+- 調整後差異：0.9% (95% CI: -8.2% to 10.1%; P = 0.84)
+
+**治療失敗原因分析**：
+
+| 失敗原因 | PFA | RFA |
+|----------|-----|-----|
+| 初始手術失敗 | 0 (0%) | 0 (0%) |
+| 心房心律不整復發 | 27 (18.6%) | 23 (16.0%) |
+| 恢復 AAD | 9 (6.2%) | 12 (8.4%) |
+| 再次消融 | 13 (9.0%) | 9 (6.3%) |
+| 心臟整流 | 1 (0.7%) | 1 (0.7%) |
+
+---
+
+## 7. 安全性結果
+
+### 7.1 嚴重不良事件 (SAE)
+
+| 事件 | PFA (n=145) | RFA (n=144) |
+|------|-------------|-------------|
+| 死亡 | 0 (0%) | 0 (0%) |
+| 中風 | 0 (0%) | 0 (0%) |
+| 持續性膈神經麻痺 | 0 (0%) | 0 (0%) |
+| 心肌梗塞 | 0 (0%) | 0 (0%) |
+| 暫時性腦缺血 | 1 (0.7%) | 0 (0%) |
+| 心包填塞/穿孔 | 0 (0%) | 2 (1.4%) |
+| 心包炎 | 1 (0.7%) | 1 (0.7%) |
+| 血管併發症 | 1 (0.7%) | 4 (2.8%) |
+| PV 狹窄 ≥70% | 0 (0%) | 2 (1.4%) |
+| 食道瘻管 | 0 (0%) | 0 (0%) |
+| **複合安全終點** | **5 (3.4%)** | **11 (7.6%)** |
+
+**PV 狹窄分析（探索性終點）**：
+
+- PV 狹窄 ≥70%：PFA 0% vs RFA 1.9% (2/106)
+- PV 狹窄 ≥50%：PFA 0% vs RFA 11.3% (12/106)
+- 差異：-11.2% (95% CI: -16.7% to -5.6%)
+- RFA 組 PV 直徑平均減少比 PFA 組多 17.5%
+
+---
+
+## 8. 與其他試驗比較
+
+| 試驗 | 比較 | 成功率 | 特點 |
+|------|------|--------|------|
+| BEAT PAROX-AF | PFA vs RFA (CLOSE) | 77% vs 78% | 標準化 RFA 對照 |
+| ADVENT | PFA vs Thermal (混合) | 73.3% vs 71.3% | 混合熱能對照 |
+| SINGLE SHOT CHAMPION | PFA vs Cryoballoon | 優於冷凍 | 使用植入式監測器 |
+| FIRE AND ICE | RFA vs Cryoballoon | <70% | 早期試驗 |
+
+---
+
+## 9. 研究限制
+
+1. **患者選擇**：高度篩選的族群，可能不代表一般臨床實務
+2. **設備限制**：僅使用 Pentaspline PFA 導管，結果可能不適用於其他 PFA 系統
+3. **中心因素**：高量有經驗中心，RFA 結果可能優於低量中心
+4. **監測方式**：未使用植入式心律監測器，可能低估復發率
+5. **追蹤時間**：僅 12 個月，長期結果未知
+6. **未評估**：溶血或腎衰竭（試驗設計於 2020 年）
+
+---
+
+## 10. 臨床意義與結論
+
+> **Pearl**：PFA 在有經驗中心是安全有效的 AF 消融選項，對 PV 的保護效果可能優於傳統熱能消融。
+
+1. PFA 與優化的 RFA (CLOSE protocol) 在陣發性 AF 治療上**療效相當**
+2. 兩組 12 個月單次手術成功率皆超過 77%
+3. **PFA 優勢**：
+   - 手術時間較短（約 40 分鐘）
+   - 左心房停留時間較短（約 50%）
+   - 較少嚴重不良事件
+   - 無 PV 狹窄
+4. **PFA 劣勢**：透視時間較長（約 5 分鐘）
 5. 無死亡、中風或食道瘻管發生
-重點提醒
-PFA 在有經驗中心是安全有效的AF 消融選項，對PV 的保護效果可能優於傳統熱能消
-融。 11 參考文獻
-1. Jais P, Neuzil P, Scherr D, et al. Pulsed field vs radiofrequency ablation for paroxysmal
-atrial fibrillation: the BEAT PAROX-AF trial. Eur Heart J. 2025. DOI: 10.1093/eur-
-heartj/ehaf1115
-2. Reddy VY, et al. Pulsed field or conventional thermal ablation for paroxysmal atrial
-fibrillation. N Engl J Med. 2023;389:1660-71. 3. Kuck KH, et al. Cryoballoon or radiofrequency ablation for paroxysmal atrial fibrillation. N Engl J Med. 2016;374:2235-45. 4. Reichlin T, et al. Pulsed field or cryoballoon ablation for paroxysmal atrial fibrillation. N Engl J Med. 2025;392:1497-507.
 
+---
 
-European Heart Journal 教學講義
-BEAT PAROX-AF Trial
-5. Phlips T, et al. Improving procedural and one-year outcome after contact force-guided
-pulmonary vein isolation: the role of interlesion distance, ablation index, and contact
-force variability in the ’CLOSE’-protocol. Europace. 2018;20:f419-27. 6. Ekanem E, et al. Safety of pulsed field ablation in more than 17,000 patients with atrial
-fibrillation in the MANIFEST-17K study. Nat Med. 2024;30:2020-9.
+## 參考文獻
+
+1. Jais P, Neuzil P, Scherr D, et al. Pulsed field vs radiofrequency ablation for paroxysmal atrial fibrillation: the BEAT PAROX-AF trial. [*Eur Heart J*. 2025.](https://doi.org/10.1093/eurheartj/ehaf1115)
+2. Reddy VY, et al. Pulsed field or conventional thermal ablation for paroxysmal atrial fibrillation. [*N Engl J Med*. 2023;389:1660-71.](https://doi.org/10.1056/NEJMoa2307291)
+3. Kuck KH, et al. Cryoballoon or radiofrequency ablation for paroxysmal atrial fibrillation. [*N Engl J Med*. 2016;374:2235-45.](https://doi.org/10.1056/NEJMoa1602014)
+4. Reichlin T, et al. Pulsed field or cryoballoon ablation for paroxysmal atrial fibrillation. [*N Engl J Med*. 2025;392:1497-507.](https://doi.org/10.1056/NEJMoa2409456)
+5. Phlips T, et al. Improving procedural and one-year outcome after contact force-guided pulmonary vein isolation: the role of interlesion distance, ablation index, and contact force variability in the 'CLOSE'-protocol. [*Europace*. 2018;20:f419-27.](https://doi.org/10.1093/europace/euy015)
+6. Ekanem E, et al. Safety of pulsed field ablation in more than 17,000 patients with atrial fibrillation in the MANIFEST-17K study. [*Nat Med*. 2024;30:2020-9.](https://doi.org/10.1038/s41591-024-03005-5)

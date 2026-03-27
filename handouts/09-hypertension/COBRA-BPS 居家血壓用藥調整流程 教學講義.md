@@ -1,235 +1,202 @@
-# 居家血壓管理衛教指引
+# COBRA-BPS 居家血壓管理與用藥調整流程
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-01-24**
+**原文連結：[N Engl J Med — A Community-Based Intervention for Managing Hypertension in Rural South Asia](https://doi.org/10.1056/NEJMoa1911965)**
 
 ---
 
-COBRA-BPS Study
-NEJM COBRA-BPS Study
-A Community-Based Intervention for Managing
-Hypertension in Rural South Asia
-南亞農村社區高血壓管理介入研究
-N Engl J Med 2020;382:717-26. DOI: 10.1056/NEJMoa1911965
-整理：謝慕揚MD, PhD, FESC
-日期：2026-01-24
-核心發現摘要
-COBRA-BPS 核心發現：由訓練過的社區健康工作者(Community Health Workers,
-CHWs) 進行家訪式血壓監測與用藥指導，可使高血壓病患收縮壓額外降低5.2 mmHg
-（95% CI: 3.2-7.1）。此模式強調居家血壓監測搭配標準化用藥調整流程。 1 居家血壓監測標準
-1.1 血壓目標值
-病患族群
-診間血壓目標
-居家血壓目標
-一般成人（<80 歲）
-<140/90 mmHg
-<135/85 mmHg
-老年人（≥80 歲）
-<150/90 mmHg
-<145/85 mmHg
-糖尿病患者
-<140/80 mmHg
-<135/75 mmHg
-重點提醒
-重要提醒：居家血壓閾值比診間血壓低5 mmHg！若使用診間標準（140/90）判斷居家血
-壓會導致治療不足。 1.2 居家血壓量測方法
-1. 量測頻率：每月第一週，每天早晚各量測2 次
-2. 量測時機：
-• 早上：起床後1 小時內，吃藥前、吃早餐前
-• 晚上：睡前
-3. 量測姿勢：坐姿休息5 分鐘後，非慣用手臂
-4. 紀錄方式：記錄每週平均值（共28 次量測）
+## 目錄
 
+- [1. 居家血壓監測標準](#1-居家血壓監測標準)
+- [2. 血壓太高：加藥流程 (Step-Up Algorithm)](#2-血壓太高加藥流程-step-up-algorithm)
+- [3. 血壓太低：減藥流程 (Step-Down Algorithm)](#3-血壓太低減藥流程-step-down-algorithm)
+- [4. 低血壓警示症狀](#4-低血壓警示症狀)
+- [5. 給病患的簡易版說明](#5-給病患的簡易版說明)
+- [參考文獻](#參考文獻)
 
-居家血壓管理衛教指引
-COBRA-BPS Study
-1.3 COBRA-BPS 用藥選擇原則
-根據COBRA-BPS Supplementary Appendix 建議，起始藥物選擇取決於共病狀態：
-病患特徵
-建議起始藥物
-無糖尿病、無蛋白尿
-C（Amlodipine）：CCB 作為首選
-有糖尿病（DM）或蛋白尿
-A（ACEI/ARB）：優先使用腎臟保護藥物
-重點提醒
-藥物代號說明：
-• A = ACEI（Enalapril）或ARB（Losartan）
-• C = CCB（Amlodipine）
-• D = Diuretic（HCTZ）
-劑量分為半量（HD）與全量（FD），若血壓控制不佳，應先將目前藥物從半量加至全
-量，再考慮加藥。 1.4 COBRA-BPS 標準藥物劑量
-藥物類別
-藥物名稱
-半量（HD）
-全量（FD）
-ARB
-Losartan
-50 mg
-100 mg
-ACEI
-Enalapril
-10 mg
-20 mg
-CCB
-Amlodipine
-5 mg
-10 mg
-利尿劑
-HCTZ
-12.5 mg
-25 mg
-2 血壓太高：加藥流程（Step-Up Algorithm）
-何時需要加藥？
-當居家血壓平均值≥135/85 mmHg（或診間≥140/90 mmHg），且已排除量測誤差，應
-考慮調整藥物。每次調藥後6-8 週評估效果。 緊急轉診：收縮壓≥180 mmHg 或舒張壓≥120 mmHg →立即轉介專科評估。
+---
 
+> **核心發現**: COBRA-BPS 核心發現：由訓練過的社區健康工作者 (Community Health Workers, CHWs) 進行家訪式血壓監測與用藥指導，可使高血壓病患收縮壓額外降低 5.2 mmHg（95% CI: 3.2-7.1）。此模式強調居家血壓監測搭配標準化用藥調整流程。
 
-居家血壓管理衛教指引
-COBRA-BPS Study
-居家血壓
-≥135/85 mmHg
-有糖尿病
-或蛋白尿？
-Step 1a: ACEI/ARB
-Losartan 50 mg
-Step 1b: CCB
-Amlodipine 5 mg
-藥物未達全量？先加至全量
-6-8 週後
-血壓達標？
-Step 2: A+C
+---
+
+## 1. 居家血壓監測標準
+
+### 1.1 血壓目標值
+
+| 病患族群 | 診間血壓目標 | 居家血壓目標 |
+|----------|-------------|-------------|
+| 一般成人（<80 歲） | <140/90 mmHg | <135/85 mmHg |
+| 老年人（≥80 歲） | <150/90 mmHg | <145/85 mmHg |
+| 糖尿病患者 | <140/80 mmHg | <135/75 mmHg |
+
+> **Pearl**: 居家血壓閾值比診間血壓低 5 mmHg！若使用診間標準（140/90）判斷居家血壓會導致治療不足。
+
+### 1.2 居家血壓量測方法
+
+1. **量測頻率**：每月第一週，每天早晚各量測 2 次
+2. **量測時機**：
+   - 早上：起床後 1 小時內，吃藥前、吃早餐前
+   - 晚上：睡前
+3. **量測姿勢**：坐姿休息 5 分鐘後，非慣用手臂
+4. **紀錄方式**：記錄每週平均值（共 28 次量測）
+
+### 1.3 COBRA-BPS 用藥選擇原則
+
+根據 COBRA-BPS Supplementary Appendix 建議，起始藥物選擇取決於共病狀態：
+
+| 病患特徵 | 建議起始藥物 |
+|----------|-------------|
+| 無糖尿病、無蛋白尿 | C（Amlodipine）：CCB 作為首選 |
+| 有糖尿病（DM）或蛋白尿 | A（ACEI/ARB）：優先使用腎臟保護藥物 |
+
+> **Pearl**: 藥物代號說明：
+> - **A** = ACEI（Enalapril）或 ARB（Losartan）
+> - **C** = CCB（Amlodipine）
+> - **D** = Diuretic（HCTZ）
+>
+> 劑量分為半量（HD）與全量（FD），若血壓控制不佳，應先將目前藥物從半量加至全量，再考慮加藥。
+
+### 1.4 COBRA-BPS 標準藥物劑量
+
+| 藥物類別 | 藥物名稱 | 半量 (HD) | 全量 (FD) |
+|----------|---------|-----------|-----------|
+| ARB | Losartan | 50 mg | 100 mg |
+| ACEI | Enalapril | 10 mg | 20 mg |
+| CCB | Amlodipine | 5 mg | 10 mg |
+| 利尿劑 | HCTZ | 12.5 mg | 25 mg |
+
+---
+
+## 2. 血壓太高：加藥流程 (Step-Up Algorithm)
+
+**何時需要加藥？**
+
+當居家血壓平均值 ≥135/85 mmHg（或診間 ≥140/90 mmHg），且已排除量測誤差，應考慮調整藥物。每次調藥後 6-8 週評估效果。
+
+> **Pearl**: 緊急轉診：收縮壓 ≥180 mmHg 或舒張壓 ≥120 mmHg → 立即轉介專科評估。
+
+### 加藥流程圖
+
+```text
+居家血壓 ≥135/85 mmHg
+        |
+  有糖尿病或蛋白尿？
+   /            \
+  是              否
+  |               |
+Step 1a:        Step 1b:
+ACEI/ARB        CCB
+Losartan 50mg   Amlodipine 5mg
+  |               |
+  藥物未達全量？先加至全量
+        |
+   6-8 週後評估
+   血壓達標？ ──是──→ 維持目前藥物
+        |
+       否
+        |
+Step 2: A + C
 Losartan + Amlodipine
-6-8 週後
-血壓達標？
-Step 3: A+C+D
-加HCTZ 12.5-25 mg
-6-8 週後
-血壓達標？
-達標！維持目前藥物
+        |
+   6-8 週後評估
+   血壓達標？ ──是──→ 維持目前藥物
+        |
+       否
+        |
+Step 3: A + C + D
+加 HCTZ 12.5-25 mg
+        |
+   6-8 週後評估
+   血壓達標？ ──是──→ 維持目前藥物
+        |
+       否
+        |
 Step 4: 轉介專科
 頑固性高血壓評估
-是
-否
-否
-是
-否
-否
+```
 
+### 2.1 加藥流程說明
 
-居家血壓管理衛教指引
-COBRA-BPS Study
-2.1 加藥流程說明
-步驟
-藥物選擇
-說明
-Step 1
-依共病選擇起始藥：
-有DM/蛋白尿：A 優
-先
-無共病：C 優先
-A=Losartan 50 mg 或Enalapril 10 mg
-C=Amlodipine 5 mg
-先從半量開始，6-8 週後可加至全量
-Step 2
-A + C 組合
-Losartan 50-100 mg + Amlodipine 5-10
-mg
-ARB 可減少Amlodipine 腳踝水腫。若
-ACEI 咳嗽可改ARB
-Step 3
-A + C + D
-加HCTZ 12.5-25 mg
-需注意低血鉀風險，建議追蹤電解質
-Step 4
-專科轉介
-若三藥組合仍未達標，需評估次發性
-高血壓、服藥順從性、白袍效應等
-3 血壓太低：減藥流程（Step-Down Algorithm）
-何時需要減藥？
-當居家收縮壓持續<110-120 mmHg，或出現低血壓症狀（頭暈、疲倦、姿勢性低血壓），
-應考慮減藥。
+| 步驟 | 藥物選擇 | 說明 |
+|------|---------|------|
+| Step 1 | 依共病選擇起始藥：有 DM/蛋白尿 → A 優先；無共病 → C 優先 | A = Losartan 50 mg 或 Enalapril 10 mg；C = Amlodipine 5 mg。先從半量開始，6-8 週後可加至全量 |
+| Step 2 | A + C 組合：Losartan 50-100 mg + Amlodipine 5-10 mg | ARB 可減少 Amlodipine 腳踝水腫。若 ACEI 咳嗽可改 ARB |
+| Step 3 | A + C + D：加 HCTZ 12.5-25 mg | 需注意低血鉀風險，建議追蹤電解質 |
+| Step 4 | 專科轉介 | 若三藥組合仍未達標，需評估次發性高血壓、服藥順從性、白袍效應等 |
 
+---
 
-居家血壓管理衛教指引
-COBRA-BPS Study
-居家收縮壓
-<110 mmHg
-或有低血壓症狀
-先確認：
-是否脫水？感染？出血？
-藥物是否正確服用？
-有可矯正
-原因？
-處理原因後
-觀察血壓變化
-減藥優先順序：
-1. 先減利尿劑（HCTZ）
-2. 再減ARB/ACEI（A）
-3. 最後減CCB（C）
-減藥方式：
-每次減一種藥物劑量
-或停一種藥物
-1-2 週後追蹤血
-壓，必要時再調整
-是
-否
-3.1 減藥流程說明
-優先順序
-減藥選擇
-說明
-第一優先
-減利尿劑（D）
-HCTZ 25→12.5 mg 或停藥
-第二優先
-減ARB/ACEI（A）
-Losartan 100→50 mg 或停藥
-Enalapril 20→10 mg 或停藥
+## 3. 血壓太低：減藥流程 (Step-Down Algorithm)
 
+**何時需要減藥？**
 
-居家血壓管理衛教指引
-COBRA-BPS Study
-優先順序
-減藥選擇
-說明
-第三優先
-減CCB（C）
-Amlodipine 10→5 mg
-重點提醒
-減藥注意事項：
-• 每次只調整一種藥物，觀察1-2 週
-• 若血壓回升至目標範圍即可維持
-• 若血壓仍太低，可繼續減下一種藥
-• 避免突然全部停藥，可能造成反彈性高血壓
-4 低血壓警示症狀
+當居家收縮壓持續 <110-120 mmHg，或出現低血壓症狀（頭暈、疲倦、姿勢性低血壓），應考慮減藥。
+
+### 減藥前先確認
+
+- 是否脫水？感染？出血？
+- 藥物是否正確服用？
+- 有可矯正原因 → 處理原因後觀察血壓變化
+
+### 3.1 減藥優先順序
+
+| 優先順序 | 減藥選擇 | 說明 |
+|---------|---------|------|
+| 第一優先 | 減利尿劑（D） | HCTZ 25 → 12.5 mg 或停藥 |
+| 第二優先 | 減 ARB/ACEI（A） | Losartan 100 → 50 mg 或停藥；Enalapril 20 → 10 mg 或停藥 |
+| 第三優先 | 減 CCB（C） | Amlodipine 10 → 5 mg |
+
+> **Pearl**: 減藥注意事項：
+> - 每次只調整一種藥物，觀察 1-2 週
+> - 若血壓回升至目標範圍即可維持
+> - 若血壓仍太低，可繼續減下一種藥
+> - 避免突然全部停藥，可能造成反彈性高血壓
+
+---
+
+## 4. 低血壓警示症狀
+
 提醒病患若出現以下症狀，應量測血壓並聯繫醫療團隊：
-• 頭暈、頭重腳輕
-• 視力模糊
-• 起身時眼前發黑
-• 疲倦無力
-• 噁心
-• 注意力不集中
-• 跌倒
-• 昏厥
 
+- 頭暈、頭重腳輕
+- 視力模糊
+- 起身時眼前發黑
+- 疲倦無力
+- 噁心
+- 注意力不集中
+- 跌倒
+- 昏厥
 
-居家血壓管理衛教指引
-COBRA-BPS Study
-5 給病患的簡易版說明
-居家血壓自我管理小卡
-【血壓太高時】居家血壓≥135/85 mmHg
+---
+
+## 5. 給病患的簡易版說明
+
+### 居家血壓自我管理小卡
+
+**【血壓太高時】居家血壓 ≥135/85 mmHg**
+
 1. 先確認量測方式正確、休息夠、沒喝咖啡
 2. 連續量測一週確認
 3. 聯繫醫療團隊討論是否需要加藥
-【血壓太低時】居家收縮壓<110 mmHg 或有頭暈
+
+**【血壓太低時】居家收縮壓 <110 mmHg 或有頭暈**
+
 1. 先確認有無脫水、腹瀉、發燒
 2. 暫時不要吃下一餐的血壓藥
 3. 立即聯繫醫療團隊討論是否需要減藥
-【緊急情況】以下情況請立即就醫：
-• 收縮壓>180 或舒張壓>120 mmHg 合併頭痛、胸痛、視力變化
-• 反覆昏厥、意識改變
-6 參考文獻
-1. Jafar TH, Gandhi M, de Silva HA, et al. A Community-Based Intervention for Managing
-Hypertension in Rural South Asia. N Engl J Med. 2020;382:717-726. 2. Jafar TH, Gandhi M, de Silva HA, et al. COBRA-BPS Study Supplementary Appendix. Section S5: Antihypertensive treatment algorithm. N Engl J Med. 2020 (Supplementary
-Material). 3. McManus RJ, Mant J, Franssen M, et al. Eﬀicacy of self-monitored blood pressure, with
-or without telemonitoring, for titration of antihypertensive medication (TASMINH4). Lancet. 2018;391:949-959. 4. Jaffe MG, Lee GA, Young JD, et al. Improved Blood Pressure Control Associated With
-a Large-Scale Hypertension Program. JAMA. 2013;310:699-705.
+
+**【緊急情況】以下情況請立即就醫：**
+
+- 收縮壓 >180 或舒張壓 >120 mmHg 合併頭痛、胸痛、視力變化
+- 反覆昏厥、意識改變
+
+---
+
+## 參考文獻
+
+1. Jafar TH, Gandhi M, de Silva HA, et al. A Community-Based Intervention for Managing Hypertension in Rural South Asia. [*N Engl J Med*. 2020;382:717-726.](https://doi.org/10.1056/NEJMoa1911965)
+2. Jafar TH, Gandhi M, de Silva HA, et al. COBRA-BPS Study Supplementary Appendix. Section S5: Antihypertensive treatment algorithm. [*N Engl J Med*. 2020 (Supplementary Material).](https://doi.org/10.1056/NEJMoa1911965)
+3. McManus RJ, Mant J, Franssen M, et al. Efficacy of self-monitored blood pressure, with or without telemonitoring, for titration of antihypertensive medication (TASMINH4). [*Lancet*. 2018;391:949-959.](https://doi.org/10.1016/S0140-6736(18)30309-X)
+4. Jaffe MG, Lee GA, Young JD, et al. Improved Blood Pressure Control Associated With a Large-Scale Hypertension Program. [*JAMA*. 2013;310:699-705.](https://doi.org/10.1001/jama.2013.108769)

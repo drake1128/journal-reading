@@ -1,133 +1,59 @@
-# Audio file
+# JACC This Week Podcast Transcript — 2025 年 12 月 2 日
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2025-12-02**
+**原文連結：[JACC — Global Burden of Cardiovascular Disease 1990-2023](https://doi.org/10.1016/j.jacc.2025.08.015)**
 
 ---
 
-20251202 JACC This Week.mp3 
-Transcript 
-Welcome to JACC. This week I'm Harlan Krumholz editor and chief of JACC. And I'm here to 
-talk to you about the December 2nd, 2025 issue. This is one of those spotlight issues and 
-the anchor article in this issue is the global, regional and national burden of cardiovascular 
-disease and risk factors in 204 countries and territories 1990 to 2023. This is an effort led 
-by Greg Roth at the University of Washington and IME. What's IME? It's the Institute for 
-Health Metrics and Evaluation, a group run by Chris Murray. This group brings together 
-statistics from all over the world to provide a perspective about where we are and where 
-we're going. They develop timely, relevant and scientifically valid evidence that illuminates 
-the state of health well, everywhere. You may have seen their work in leading journals. 
-We're pleased to have this partnership with them so that we can from time to time provide 
-a global perspective on cardiovascular health. They have an initiative called Global burden 
-of disease and the global burden Disease 2023 study is a multinational collaborative study 
-that quantifies the burden due to 375 diseases. Including CVD burden and identifies drivers 
-of change. In this report, they are providing estimates of global, national and subnational 
-CVD burden, including 18 sub diseases and 12 associated modifiable risk. Factors they 
-analyzed the change in CVD burden from 1990 to 2023 and identified drivers of change, 
-including population growth, aging and risk factor exposure. Why should people be 
-interested in this? Well, I will tell you that JACC, our mission is to advance global 
-cardiovascular health. I mean, that's what we care about. Deeply. We're publishing papers 
-so that we can strengthen the research community, strength in the clinical community, 
-strength in the patient community. Involve policymakers and ensure that we're making 
-progress towards our ultimate goal, which is to eliminate cardiovascular disease. To get 
-there, we need measures to understand where are we, where are the areas that we should 
-be targeting, where are we making progress, where aren't we making progress? That's what 
-a report like this is about. It's also to put cardiovascular disease in perspective. Visa vis 
-other causes of death and disability. It's frustrating sometimes to hear cardiovascular be 
-subordinated as if it's not the most important cause of death and disability in the world it is. 
-And it means we have work to do. In this report, we found that again, cardiovascular was a 
-leading cause of disability adjusted life years and deaths. Not everyone would be familiar 
-with what disability adjusted life years are. They are measure of the total burden of disease. 
-It's calculated as the sum of the years loss due to premature death in the years lived with 
+## Podcast 資訊
 
+- **節目**：JACC This Week
+- **日期**：2025 年 12 月 2 日
+- **主持人**：Harlan Krumholz, MD, SM, FACC (Editor-in-Chief, JACC)
+- **主題**：Global, Regional, and National Burden of Cardiovascular Diseases and Risk Factors in 204 Countries and Territories, 1990-2023（GBD 2023 聚焦特刊）
 
-disability. Sometimes I hear people say, well, you've gotta die of something and and cardiac 
-disease is mostly the disease of the elderly. Well, it is true. The cardiovascular disease risk 
-rises with age and that many older people have cardiovascular disease. Many older people 
-die of cardiovascular disease. But when you put it in context of disability adjusted life 
-years, it really puts in prime. Focus. Premature death and disabilities associated with the 
-condition such that it imposes a burden. That's why we like to use metrics like years of life 
-lost because it really puts into bright relief the burden of a particular condition like 
-cardiovascular disease. As of 2023, there were 437 million. Cardiovascular disease, 
-disability associated life years globally of 1.4 fold increase from the number in 1990. What 
-were the leading cardiovascular causes of these disability adjusted life years in 2023? Well, 
-ischemic heart disease, intracerebral hemorrhage, ischemic stroke and hypertensive heart 
-disease. Those are the leading causes. Another insight from the report was that AIDS, 
-standardized cardiovascular disability, adjusted life year rates were highest. In low and low 
-to middle income countries, these lower middle income socio demographic index settings. 
-And they were lowest in high socio demographic index settings, but they were high 
-everywhere. Let's just say that, but they were highest in the countries that had low and low 
-middle sociodemographics the number of cardiovascular deaths increased globally from 
-about 13 million in 1990 to 19 million in 2023. The number of prevalent cases people living 
-with cardiovascular disease more than doubled since 1990. Are you ready for this #311 
-million prevalent cases in 1990? Now, 626 million in 2023 globally. Here's another striking 
-finding from the report. How much of this is preventable? I'm going to pause a second how 
-much of this is preventable? This is really the key stat to me. A total of 80% of 
-cardiovascular burden is attributable to modifiable risk factors. That's $347 million in 2023. 
-So now I got another question for you of those modifiable risk factors, which ones are most 
-responsible for the CVD burden? I'll pause for another second. Which ones are most 
-important? Well, you might have gotten the first one right. High systolic blood pressure. 
-That's number one. But they're more. Dietary risk, high LDL and air pollution. These are the 
-modified risk factors response for most attributable CVD burden in 2020. Three, OK, here's 
-another question which modifiable risk factors have increased the most since 1990 are 
-growing and emerging as some of the most important ones for the future. This one might be 
-obvious to you. Increases in body mass index increases in fasting, blood glucose, plasma 
-glucose. And increases in low physical activity are all leading to higher burden and I think 
-all those are interconnected. I mean more screen time, people more sedentary obesity 
-rates rising and diabetes rates rising. Where have we had success? Well, tobacco usage 
-reductions in tobacco uses have mitigated some of the. Increases on the other side of 
-things like obesity. And then another. Thing this report does is is really put into perspective 
-that some. Of the global. Burden some of that global a lot of the global global burden. In 
-addition, what's that? That's not explained by the modifiable risk factors. Is population 
+---
 
+## 主要內容摘要
 
-growth and population aging. Those are also major factors and you have to take them into 
-account. Look, that's that's good news. I mean, population growth, fine aging is because 
-we're more successful. People are living longer, but it is adding to the total global burden of 
-cardiovascular disease. This is an amazing article. It's clear. It's sophisticated. It covers the 
-wide range of cardiovascular. These it has a global perspective. You should take a look at 
-the figures. They're compelling. Some of the maps really are striking. There's a 16 fold 
-difference between the countries with the lowest and the highest cardiovascular disease. 
-Dally rates. They show very well the contributions of metabolic risk, behavioral risk. 
-Environmental and occupational risk just to summarize, here are some of their take homes. 
-Cardiovascular disease was a leading cause of disease burden worldwide in 20. 23 
-increasing metabolic risk is driving up the burden low, low, middle and middle SDI regions 
-had the greatest aid. Standardized rates of dallies due to cardiovascular disease in most 
-cardiovascular burden is preventable by reducing modifiable risk factors, again 80%. Of the 
-cardiovascular disease disability adjusted life years are attributable to modifiable risk 
-factors. This thing is really a Tour de force. So what did we do? Well, we actually built an 
-entire issue around. We have a portfolio of commentaries from some of the leading people 
-from around the world within international lens with global burden of disease methods 
-perspective with forward-looking strategies and with just various viewpoints that peel off 
-different aspects of this and and really talk about how we going to make progress. Why are 
-we in this? What and what's it going to take for us to really leverage the fact that the 
-cardiovascular disease is in the end highly preventable the point of these spotlight issues is 
-to take an anchor article, a real classic contribution with a lot of substance and 
-contextualize it, allow people to internalize the key. Messages understand it. See it from 
-different directions and to engage leading experts to stimulate us to think differently. My 
-editors page was tied to the global burden of disease. Not just a mirror, but a compass. This 
-is aligned with the talk I gave at the UN. We actually presented this at the UN Special 
-Session in October 2025. We had a packed room and vibrant conversation about how we 
-were going. To make progress. Greg Roth gave it terrific presentation of the piece and 
-Valentin, Fuster and I gave commentary. Here's one of the lines from my editorial the global 
-burdens use is sometimes viewed as a mirror, a detailed reflection of where. They are, but 
-it's real. Power is as a compass, pointing us to where we must act. Amir describes a 
-compass, directs also made another point in this editors page. I said in global health and 
-cardiology were often drawn to the ceiling. How can we extend the number of years that 
-people live in? What new drugs or devices might transform care? But GBD reminds us that 
-the greatest opportunity is not at the ceiling, but at the floor. Raising the floor means 
-ensuring that every country, every health system in every Community can deliver a 
-minimum level of proven. Life saving cardiovascular prevention and treatment. Today, that 
-floor is too low. I went on to say. Raising the floor means defining and meeting a global 
+本期為 JACC Spotlight Issue，以 Gregory A. Roth（華盛頓大學）與 IHME (Institute for Health Metrics and Evaluation) 合作的 GBD 2023 心血管疾病報告為主軸，並搭配 19 篇來自全球專家的評論文章。
 
+### 核心數據
 
-minimum standard of care so no one dies for lack of what we already know what to do. I 
-hope you enjoyed this issue. Both the anchor article, all the terrific commentaries and you 
-get a chance to reflect on what you can. Do. To help us truly advance global cardiovascular 
-health beyond our day-to-day, we all ought to be thinking what would it? Take. For us to 
-truly make this disease go away. You've been listening to JACC this week. I'm Harlan 
-Krumholz editor in chief of JACC. I hope you've enjoyed this. I hope you enjoy the issue. As 
-always, stay curious. 
- 
- 
- 
- 
+> **Pearl 1**：心血管疾病仍是全球死亡和失能的首要原因。2023 年全球有 4.37 億 DALYs，較 1990 年增加 1.4 倍。CVD 死亡人數從 1990 年約 1300 萬增至 2023 年 1900 萬。盛行病例從 3.11 億倍增至 6.26 億。
+
+### 主要心血管疾病類型（2023 年 DALYs 排名）
+
+1. Ischemic heart disease
+2. Intracerebral hemorrhage
+3. Ischemic stroke
+4. Hypertensive heart disease
+
+### 可預防性
+
+> **Pearl 2**：80% 的心血管疾病負擔可歸因於可調控危險因子（3.47 億 DALYs）。最重要的可調控危險因子依序為：(1) 高收縮壓、(2) 飲食風險、(3) 高 LDL 膽固醇、(4) 空氣污染。
+
+### 危險因子趨勢（1990–2023）
+
+- **正在惡化**：高 BMI（可歸因 CVD DALYs 增加 114%）、高空腹血糖（增加 76%）、低體能活動
+- **有所改善**：菸草使用減少，部分抵消其他危險因子的增加
+
+### 地區差異
+
+- CVD DALY 率最高與最低國家之間相差 **16 倍**
+- 年齡標準化 CVD DALY 率在低收入和中低收入 SDI 地區最高
+
+---
+
+## 主編評論重點
+
+Krumholz 主編評論文章標題：「不只是鏡子，更是指南針」(Not Just a Mirror, but a Compass)
+
+> **Pearl 3**：「在全球健康和心臟病學領域，我們常被『天花板』所吸引——如何延長人們的壽命？什麼新藥或設備可能改變照護？但 GBD 提醒我們，最大的機會不在天花板，而在『地板』。提升地板意味著確保每個國家、每個醫療系統、每個社區都能提供最低限度的、經證實的、可挽救生命的心血管預防和治療。」
+
+---
+
+## 完整 Podcast Transcript
+
+Welcome to JACC. This week I'm Harlan Krumholz editor and chief of JACC. And I'm here to talk to you about the December 2nd, 2025 issue. This is one of those spotlight issues and the anchor article in this issue is the global, regional and national burden of cardiovascular disease and risk factors in 204 countries and territories 1990 to 2023. This is an effort led by Greg Roth at the University of Washington and IME. What's IME? It's the Institute for Health Metrics and Evaluation, a group run by Chris Murray. This group brings together statistics from all over the world to provide a perspective about where we are and where we're going. They develop timely, relevant and scientifically valid evidence that illuminates the state of health well, everywhere. You may have seen their work in leading journals. We're pleased to have this partnership with them so that we can from time to time provide a global perspective on cardiovascular health. They have an initiative called Global burden of disease and the global burden Disease 2023 study is a multinational collaborative study that quantifies the burden due to 375 diseases. Including CVD burden and identifies drivers of change. In this report, they are providing estimates of global, national and subnational CVD burden, including 18 sub diseases and 12 associated modifiable risk. Factors they analyzed the change in CVD burden from 1990 to 2023 and identified drivers of change, including population growth, aging and risk factor exposure. Why should people be interested in this? Well, I will tell you that JACC, our mission is to advance global cardiovascular health. I mean, that's what we care about. Deeply. We're publishing papers so that we can strengthen the research community, strength in the clinical community, strength in the patient community. Involve policymakers and ensure that we're making progress towards our ultimate goal, which is to eliminate cardiovascular disease. To get there, we need measures to understand where are we, where are the areas that we should be targeting, where are we making progress, where aren't we making progress? That's what a report like this is about. It's also to put cardiovascular disease in perspective. Visa vis other causes of death and disability. It's frustrating sometimes to hear cardiovascular be subordinated as if it's not the most important cause of death and disability in the world it is. And it means we have work to do. In this report, we found that again, cardiovascular was a leading cause of disability adjusted life years and deaths. Not everyone would be familiar with what disability adjusted life years are. They are measure of the total burden of disease. It's calculated as the sum of the years loss due to premature death in the years lived with disability. Sometimes I hear people say, well, you've gotta die of something and and cardiac disease is mostly the disease of the elderly. Well, it is true. The cardiovascular disease risk rises with age and that many older people have cardiovascular disease. Many older people die of cardiovascular disease. But when you put it in context of disability adjusted life years, it really puts in prime. Focus. Premature death and disabilities associated with the condition such that it imposes a burden. That's why we like to use metrics like years of life lost because it really puts into bright relief the burden of a particular condition like cardiovascular disease. As of 2023, there were 437 million. Cardiovascular disease, disability associated life years globally of 1.4 fold increase from the number in 1990. What were the leading cardiovascular causes of these disability adjusted life years in 2023? Well, ischemic heart disease, intracerebral hemorrhage, ischemic stroke and hypertensive heart disease. Those are the leading causes. Another insight from the report was that AIDS, standardized cardiovascular disability, adjusted life year rates were highest. In low and low to middle income countries, these lower middle income socio demographic index settings. And they were lowest in high socio demographic index settings, but they were high everywhere. Let's just say that, but they were highest in the countries that had low and low middle sociodemographics the number of cardiovascular deaths increased globally from about 13 million in 1990 to 19 million in 2023. The number of prevalent cases people living with cardiovascular disease more than doubled since 1990. Are you ready for this #311 million prevalent cases in 1990? Now, 626 million in 2023 globally. Here's another striking finding from the report. How much of this is preventable? I'm going to pause a second how much of this is preventable? This is really the key stat to me. A total of 80% of cardiovascular burden is attributable to modifiable risk factors. That's $347 million in 2023. So now I got another question for you of those modifiable risk factors, which ones are most responsible for the CVD burden? I'll pause for another second. Which ones are most important? Well, you might have gotten the first one right. High systolic blood pressure. That's number one. But they're more. Dietary risk, high LDL and air pollution. These are the modified risk factors response for most attributable CVD burden in 2020. Three, OK, here's another question which modifiable risk factors have increased the most since 1990 are growing and emerging as some of the most important ones for the future. This one might be obvious to you. Increases in body mass index increases in fasting, blood glucose, plasma glucose. And increases in low physical activity are all leading to higher burden and I think all those are interconnected. I mean more screen time, people more sedentary obesity rates rising and diabetes rates rising. Where have we had success? Well, tobacco usage reductions in tobacco uses have mitigated some of the. Increases on the other side of things like obesity. And then another. Thing this report does is is really put into perspective that some. Of the global. Burden some of that global a lot of the global global burden. In addition, what's that? That's not explained by the modifiable risk factors. Is population growth and population aging. Those are also major factors and you have to take them into account. Look, that's that's good news. I mean, population growth, fine aging is because we're more successful. People are living longer, but it is adding to the total global burden of cardiovascular disease. This is an amazing article. It's clear. It's sophisticated. It covers the wide range of cardiovascular. These it has a global perspective. You should take a look at the figures. They're compelling. Some of the maps really are striking. There's a 16 fold difference between the countries with the lowest and the highest cardiovascular disease. Dally rates. They show very well the contributions of metabolic risk, behavioral risk. Environmental and occupational risk just to summarize, here are some of their take homes. Cardiovascular disease was a leading cause of disease burden worldwide in 2023 increasing metabolic risk is driving up the burden low, low, middle and middle SDI regions had the greatest aid. Standardized rates of dallies due to cardiovascular disease in most cardiovascular burden is preventable by reducing modifiable risk factors, again 80%. Of the cardiovascular disease disability adjusted life years are attributable to modifiable risk factors. This thing is really a Tour de force. So what did we do? Well, we actually built an entire issue around. We have a portfolio of commentaries from some of the leading people from around the world within international lens with global burden of disease methods perspective with forward-looking strategies and with just various viewpoints that peel off different aspects of this and and really talk about how we going to make progress. Why are we in this? What and what's it going to take for us to really leverage the fact that the cardiovascular disease is in the end highly preventable the point of these spotlight issues is to take an anchor article, a real classic contribution with a lot of substance and contextualize it, allow people to internalize the key. Messages understand it. See it from different directions and to engage leading experts to stimulate us to think differently. My editors page was tied to the global burden of disease. Not just a mirror, but a compass. This is aligned with the talk I gave at the UN. We actually presented this at the UN Special Session in October 2025. We had a packed room and vibrant conversation about how we were going. To make progress. Greg Roth gave it terrific presentation of the piece and Valentin, Fuster and I gave commentary. Here's one of the lines from my editorial the global burdens use is sometimes viewed as a mirror, a detailed reflection of where. They are, but it's real. Power is as a compass, pointing us to where we must act. Amir describes a compass, directs also made another point in this editors page. I said in global health and cardiology were often drawn to the ceiling. How can we extend the number of years that people live in? What new drugs or devices might transform care? But GBD reminds us that the greatest opportunity is not at the ceiling, but at the floor. Raising the floor means ensuring that every country, every health system in every Community can deliver a minimum level of proven. Life saving cardiovascular prevention and treatment. Today, that floor is too low. I went on to say. Raising the floor means defining and meeting a global minimum standard of care so no one dies for lack of what we already know what to do. I hope you enjoyed this issue. Both the anchor article, all the terrific commentaries and you get a chance to reflect on what you can. Do. To help us truly advance global cardiovascular health beyond our day-to-day, we all ought to be thinking what would it? Take. For us to truly make this disease go away. You've been listening to JACC this week. I'm Harlan Krumholz editor in chief of JACC. I hope you've enjoyed this. I hope you enjoy the issue. As always, stay curious.

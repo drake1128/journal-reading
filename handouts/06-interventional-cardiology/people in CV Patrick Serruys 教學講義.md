@@ -1,288 +1,212 @@
-# Circulation. 2016;134:97–100. DOI: 10.1161/CIRCULATIONAHA.116.023681
+# 經皮冠狀動脈介入治療的誕生與演進：與 Patrick Serruys 醫師的對話
 
 **整理：謝慕揚 MD, PhD, FESC**
-**日期：2026-03-26**
+**日期：2025-11-29**
+**原文連結：[Circulation — The Birth, and Evolution, of Percutaneous Coronary Interventions: A Conversation With Patrick Serruys, MD, PhD](https://doi.org/10.1161/CIRCULATIONAHA.116.023681)**
 
 ---
 
-July 12, 2016
-FRAME OF REFERENCE
-Dr Rutherford asks: When you first heard that Andreas Grüentzig 
-had successfully performed a transluminal coronary dilation 
-in September 1977, what were your thoughts? Did it seem a 
-sustainable therapy at the time?
-Dr Serruys replies: In 1975 at a meeting in Frankfurt, a key opinion leader at 
-that time, Professor Paul Lichtlen, Chief of Cardiology at Hannover, was describing 
-during a keynote lecture a significant coronary lesion with a thin fibrous cap and 
-a large atheromatous core; today, we call this a vulnerable plaque. He mentioned 
-somewhat sarcastically that Dr Andreas Grüentzig had developed a procedure he 
-believed could dilate that type of lesion. There was of course a lot of skepticism 
-whether the procedure could be performed without major distal embolization. I went 
-to see Andreas Grüentzig and to look at his poster. He had tied a ligature with catgut 
-around the coronary artery of a dog, and he was using his balloon to open this artifi-
-cial narrowing. Honestly, I could not foresee the future of this therapeutic approach. 
-At that time, the Department of Cardiology in Zürich (where Grüentzig worked) was 
-headed by 2 cardiologists, Hans Peter Krayenbühl and Wilhelm Rutishauser. Kray-
-enbühl was not in favor of attempting the procedure, but Rutishauser was more 
-enthusiastic about it. The famous Chief of Cardiovascular Surgery, Dr Åke Senning, 
-told the Board of the hospital that he would help Andreas and be present in the car-
-diac catheterization laboratory to back up a potential catastrophe. The story is that 
-when Andreas deflated the balloon and the gradient disappeared, Senning left the 
-laboratory, without even looking at the angiogram, convinced the result was good. In 1978, Grüentzig reported successful dilation of an 85% left anterior descend-
-ing coronary stenosis by PTCA in a 38-year-old man with severe angina and the 
-The Birth, and Evolution, of Percutaneous Coronary 
-Interventions
-A Conversation With Patrick Serruys, MD, PhD
-Patrick W. Serruys,  
-MD, PhD
-© 2016 American Heart 
-Association, Inc. Paths to Discovery
-Content Editor: John D. Rutherford, MB ChB
-Professor Patrick W. Serruys, MD, PhD, has been a Senior 
-Interventional Cardiologist since 1977, Chief of Interventional 
-Research since 1988, and Chief of Interventional Cardiology at the 
-Thorax Center of Erasmus Medical Center, Rotterdam, Emeritus, 
-since April 1, 2014. He was the first Chair of Interventional 
-Cardiology created by the Royal Netherlands Academy of Arts and 
-Sciences (KNAW). Currently, he is Professor of Cardiology in the 
-Cardiovascular Science Division of the National Heart and Lung 
-Institute (NHLI) of Imperial College London. Dr Serruys received his 
-MD in 1972 from the Catholic University of Louvain, Belgium, and 
-his PhD in 1986 from the Erasmus Medical Center in Rotterdam, 
-The Netherlands. Inquiries related to this profile, or the 
-“Paths to Discovery” series, may 
-be directed to the Editorial Office at 
-circ@circulationjournal.org. Downloaded from http://ahajournals.org by on November 28, 2025
+## 目錄
 
+1. [人物簡介](#1-人物簡介)
+2. [PTCA 的誕生：1977 年的突破](#2-ptca-的誕生1977-年的突破)
+3. [PTCA 進入主流醫療](#3-ptca-進入主流醫療)
+4. [急性血管閉塞與血栓形成](#4-急性血管閉塞與血栓形成)
+5. [急性心肌梗塞治療的革命](#5-急性心肌梗塞治療的革命)
+6. [冠狀動脈支架的演進](#6-冠狀動脈支架的演進)
+7. [藥物洗脫支架的發展](#7-藥物洗脫支架的發展)
+8. [生物可降解支架的演進](#8-生物可降解支架的演進)
+9. [參考文獻](#9-參考文獻)
 
-Serruys and Rutherford
-July 12, 2016
-Circulation. 2016;134:97–100. DOI: 10.1161/CIRCULATIONAHA.116.023681
-results of angioplasty in 5 additional patients. This was 
-a critical moment in the history of cardiovascular medi-
-cine. He subsequently published his astounding work in 
-a case series of 50 patients in 1979 showing that PTCA 
-successfully reduced coronary stenoses in 32 of the 50 
-patients from 84% to 34%, the diameter narrowing with 
-reduction in the gradient across the lesion from 58 to 19 
-mm Hg. Furthermore, 29 patients showed improvement 
-in functional class during follow-up. He noted that single-
-vessel disease was most suitable for the procedure and 
-estimated that only 10% to 15% patients who would 
-normally go forward for coronary bypass surgery would 
-have suitable lesions.1 It did not seem to be a sustain-
-able therapy at that time. There was no movable, steer-
-able guide wire, but just a piece of metal at the tip of the 
-balloon. The procedure was mainly guided by a pressure 
-gradient, and there was a restenosis rate of 33%. At a 
-meeting in London in the early 1980s, before the intro-
-duction of the movable, steerable guide wire, there was 
-a debate trying to answer the question, “Is PTCA going 
-to survive or is this therapy going to disappear?”
-How did Grüentzig’s procedure move into the 
-mainstream?
-Cardiologists in Europe and the United States had start-
-ed performing the procedure and acceptance developed 
-after the NHLBI PTCA Registry documented the results 
-and complications in 631 patients from 34 centers in 
-Europe and the United States in 1982. In accordance 
-with Grüentzig’s initial opinion, 80% of these patients had 
-single-vessel disease and 59% were successfully dilat-
-ed. More importantly, the procedure had been success-
-ful with multiple operators, in a broad range of patients 
-with relatively primitive equipment. A very important de-
-velopment was the introduction by John Simpson of the 
-steerable, movable, guide wire in 1982 that allowed the 
-operator to maintain access across the lesion and to ap-
-proach stenosis in distal sites or in branch vessels with 
-abrupt angulations. Acute vessel closure after vessel dissection 
-and thrombosis became a major focus in 
-this era. What were the major issues and 
-efforts to resolve them?
-With coronary dissections, the so-called perfusion balloon 
-was a major advance. We could keep inflating the balloon 
-for a long time without creating ischemia thanks to holes 
-proximal to the inflated balloon, allowing blood to bypass 
-the inflated balloon through the central lumen of the cath-
-eter shaft. This was an invention of a German cardiologist 
-called Hans Rupprecht, and it was really of great help in the 
-laboratory when we ran into trouble with vessel dissection. The next bailout approach was the stent: a double-
-edged sword. Yes, we could scaffold the dissection flap 
-instantaneously and take care of the recoil, but the price 
-to pay was subacute thrombosis of the stents in the fol-
-lowing hours and days. The treatment of AMI took a dramatic turn in 
-1979. Could you describe those events?
-Peter Rentrop published a case report in 1979 describ-
-ing the effects of both intracoronary nitroglycerin and 
-subsequent intracoronary streptokinase in 5 patients 
-with AMI in West Germany. This suggested that coronary 
-reperfusion using lytic therapy was possible. We started 
-using streptokinase and described sequential intracoro-
-nary streptokinase followed by balloon angioplasty in 
-unstable angina with evolving MI. We gave streptokinase 
-intravenously before the patient reached the cardiac 
-catheterization laboratory and, then, in the presence of 
-partial lysis, we performed balloon angioplasty. Marc 
-Verstraete and his colleagues at the University of Leuven 
-led early, important work demonstrating that tPA given 
-intravenously was more effective than streptokinase giv-
-en intravenously at achieving coronary patency in AMI. 
-The results of combining tPA and immediate PTCA did 
-not prove beneficial, and we later understood that the 
-tPA was activating platelets and creating an unfavorable 
-milieu for successful PTCA. As a consequence, at the 
-Thorax Center in Rotterdam, we almost completely aban-
-doned the use of primary PTCA in AMI. Some of our trainees, including Felix Zijlstra, moved 
-to a remote part of Holland (Zwolle) and started to 
-implement— and promote— primary angioplasty of AMI 
-(without thrombolysis) and, in 1983, Geoffrey Hartz-
-ler and colleagues described the successful use of 
-percutaneous balloon angioplasty in 43 patients, with 
-and without prior thrombolytic therapy, to treat AMI. A 
-decade later, Cindy Grines and Bill O’Neill in the United 
-States demonstrated that immediate PTCA for AMI 
-resulted in lower hospital mortality and 6-month adverse 
-event rates than tPA without the risk of intracranial 
-hemorrhage.2
-How did coronary stents evolve?
-To overcome neointimal proliferation of endothelial cells 
-leading to restenosis, Ulrich Sigwart and Jaques Puel 
-deployed a self-expanding surgical-grade stainless-steel 
-alloy that was implanted in 19 patients in 1986. In gen-
-eral, these patients had presented with coronary artery 
-restenosis after angioplasty. The strut mesh was per-
-ceived as an antirestenotic treatment. Nine months after 
-stent deployment, no further restenosis was found in the 
-stented regions.3 In 1991, the deployment of a stent as 
-an adjunct to PTCA in AMI was described. Downloaded from http://ahajournals.org by on November 28, 2025
+---
 
+## 1. 人物簡介
 
-PCI: A Conversation With Patrick Serruys, MD, PhD
-Circulation. 2016;134:97–100. DOI: 10.1161/CIRCULATIONAHA.116.023681
-July 12, 2016
-FRAME OF REFERENCE
-What were the early downsides of stenting?
-The presence of exposed metal struts were a nidus for 
-platelet aggregation and thrombosis and, during the 
-very early use of stents, this led to early occlusions 
-with significant morbidity. One contributing factor was 
-inadequate anticoagulation after the procedure. Initially, 
-aspirin, heparin, and warfarin were used extensively with 
-resulting high rates of bleeding, vascular complications, 
-and prolonged hospitalizations. Dual-antiplatelet therapy 
-next evolved with aspirin and the thienopyridine drugs 
-that irreversibly inhibit ADP/P2Y12 receptors on plate-
-lets. Stents were therefore scaffolding the balloon-dilat-
-ed artery, sealing dissection flaps, and preventing late 
-recoil. Initial stents were bulky and technically difficult 
-to use and, although they reduced the restenosis rate 
-in comparison with balloon angioplasty alone, in-stent 
-restenosis occurred. What were some of the advances that 
-addressed these stent complications?
-We applied a covalent-binding Cameda coating to Palmaz 
-Schatz stents to facilitate coating them with heparin. 
-The Cameda coating was developed in Sweden, where 
-physicians had developed a heart–lung machine to help 
-patients who had a crush syndrome of the thorax, but 
-could not receive anticoagulation. In the BENESTENT II 
-clinical trial, using heparin-coated Palmaz-Schatz stents, 
-we had only 1 documented stent thrombosis in 413 pa-
-tients. Unfortunately, other companies tried to copy-cat 
-the concept of the heparin-coated stents but, instead of 
-covalent binding with the Carmeda coating, they painted 
-the strut of the stent with benzoyl heparin and this re-
-sulted in a high rate of stent thrombosis. So, the heparin-
-coated stent was discredited. To try and minimize platelet activation, thrombosis, 
-inflammation, and vascular smooth muscle cell prolifera-
-tion after stent deployment, the evolution of drug-eluting 
-stents began. Incorporating the antiproliferative drugs 
-sirolimus and paclitaxel within a polymer, for gradual re-
-lease, and coating the bare metal stents reduced in-stent 
-restenosis and the need for revascularization. Recently, 
-a meta-analysis of 11 randomized trials comparing these 
-coatings showed that everolimus stents were associated 
-with less stent thrombosis and less need for revascular-
-ization.4
-Can you describe the evolution of 
-biodegradable scaffolds?
-In 2000, Drs Keiji Igaki and Hideo Tamai came to Rot-
-terdam to test a polylactide bioresorbable stent that was 
-a completely bioreabsorbable scaffold (without drug elu-
-tion) in humans. We deployed 7 of these balloon-expand-
-able stents. However, because of the unique thermal 
-properties of the stent, we had to heat the contrast to 
-60°C in the delivery balloon to deploy the stent with final 
-self-expansion at 37°C ≈30 minutes later. Some of the 
-stents dislodged on the balloon, and the lack of a drug 
-coating was a disincentive for us to continue working with 
-them. Nevertheless, in 50 patients followed for 10 years 
-after deployment of the Igaki-Tamai device, only 1 devel-
-oped a very late stent thrombosis. Approximately 5 years later, we tested the first drug-
-eluting (everolimus), fully bioreabsorbable scaffold in the 
-ABSORB A trial. These stents, resorbed by 2 to 3 years, 
-had sustained a low major adverse cardiovascular event 
-rate of 3.4% without stent thrombosis. The second gener-
-ation of this device has enhanced radial strength, mechani-
-cal integrity, and drug release kinetics that slow down its 
-degradation. After 2 years, follow-up of this latter device, 
-it has been found that neointimal tissue covers almost the 
-whole circumference of the vessel wall and, in contrast 
-to metallic stents, does not compromise luminal dimen-
-sions.5 Up to 5 years after deployment, this bioresorbable 
-vascular scaffold does seem to be associated with a sig-
-nificant decrease in major cardiac events. I believe we are 
-moving in the right direction with this technology, which will 
-eventually be highly successful and embraced. Thank you for the opportunity to have this conversation. Disclosures
-None. FOOTNOTES
-Circulation is available at http://circ.ahajournals.org. References
-	 1.	 Grüntzig AR, Senning A, Siegenthaler WE. Nonoperative dilatation 
-of coronary-artery stenosis: percutaneous transluminal coronary 
-angioplasty. N Engl J Med. 1979;301:61–68. doi: 10.1056/
-NEJM197907123010201. 	 2.	 Grines CL, Browne KF, Marco J, Rothbaum D, Stone GW, O’Keefe 
-J, Overlie P, Donohue B, Chelliah N, Timmis GC. A comparison 
-of immediate angioplasty with thrombolytic therapy for acute 
-Abbreviations Used in This Article
-ABSORB-A	
-ABSORB Clinical Investigation, Cohort A 
-Everolimus Eluting Coronary Stent System 
-Clinical Investigation
-BENESTENT II	
-Belgian-Netherlands STENT Study II
-AMI	
-	
-acute myocardial infarction
-MI	
-	
-myocardial infarction
-NHLBI	
-	
-National Heart, Lung, and Blood Institute
-PTCA	
-	
-percutaneous transluminal coronary angioplasty
-tPA	
-	
-tissue-type plasminogen activator
-Downloaded from http://ahajournals.org by on November 28, 2025
+**Patrick W. Serruys, MD, PhD**
 
+- 自 1977 年起擔任資深介入心臟科醫師（Senior Interventional Cardiologist）
+- 1988 年起擔任介入研究主任（Chief of Interventional Research）
+- 至 2014 年 4 月 1 日前擔任鹿特丹 Erasmus 醫學中心 Thorax 中心介入心臟科主任（Chief of Interventional Cardiology, Emeritus）
+- 荷蘭皇家藝術與科學院（KNAW）所創設的首位介入心臟科學講座教授
+- 現任倫敦帝國學院國家心肺研究所（NHLI）心血管科學部門心臟科教授
+- 1972 年獲比利時魯汶天主教大學 MD 學位；1986 年獲鹿特丹 Erasmus 醫學中心 PhD 學位
 
-Serruys and Rutherford
-July 12, 2016
-Circulation. 2016;134:97–100. DOI: 10.1161/CIRCULATIONAHA.116.023681
-myocardial infarction. The Primary Angioplasty in Myocardial In-
-farction Study Group. N Engl J Med. 1993;328:673–679. doi: 
-10.1056/NEJM199303113281001. 	 3.	 Sigwart U, Puel J, Mirkovitch V, Joffre F, Kappenberger L. Intravas-
-cular stents to prevent occlusion and restenosis after transluminal 
-angioplasty. N Engl J Med. 1987;316:701–706. doi: 10.1056/
-NEJM198703193161201. 	 4.	 Park KW, Kang SH, Velders MA, Shin DH, Hahn S, Lim WH, Yang 
-HM, Lee HY, Van Boven AJ, Hofma SH, Kang HJ, Koo BK, Oh BH, 
-Park YB, Kandzari DE, Kim HS. Safety and efficacy of everolimus- 
-versus sirolimus-eluting stents: a systematic review and meta-
-analysis of 11 randomized trials. Am Heart J. 2013;165:241–
-250.e4. doi: 10.1016/j.ahj.2012.08.007. 	 5.	 Bourantas CV, Farooq V, Zhang Y, Muramatsu T, Gogas BD, Thuesen 
-L, McClean D, Chevalier B, Windecker S, Koolen J, Ormiston J, Whit-
-bourn R, Dorange C, Rapoza R, Onuma Y, Garcia-Garcia HM, Serruys 
-PW. Circumferential distribution of the neointima at six-month and 
-two-year follow-up after a bioresorbable vascular scaffold implanta-
-tion: a substudy of the ABSORB Cohort B Clinical Trial. EuroInter-
-vention. 2015;10:1299–1306. doi: 10.4244/EIJY14M04_11. Downloaded from http://ahajournals.org by on November 28, 2025
+---
+
+## 2. PTCA 的誕生：1977 年的突破
+
+### 2.1 歷史性的第一刻
+
+**Rutherford 醫師問**：當您第一次聽到 Andreas Grüentzig 在 1977 年 9 月成功執行經皮冠狀動脈擴張術時，有什麼想法？
+
+**Serruys 醫師回應**：
+
+1975 年在法蘭克福的一場會議上，漢諾威心臟科主任 Paul Lichtlen 教授在演講中描述了一個具有薄纖維帽和大粥狀核心的冠狀動脈病變（今稱 vulnerable plaque）。他略帶諷刺地提到 Andreas Grüentzig 開發了一種他認為可以擴張這類病變的術式，當時存在很大的懷疑。
+
+蘇黎世心臟科由兩位心臟科醫師領導：
+- **Hans Peter Krayenbühl**：不贊成嘗試
+- **Wilhelm Rutishauser**：對此較為熱情
+
+心血管外科主任 **Åke Senning** 醫師承諾在心導管室待命。據說當 Andreas 放氣球囊後壓力梯度消失時，Senning 甚至沒有看血管攝影就離開了實驗室，確信結果很好。
+
+### 2.2 Grüentzig 的早期成果
+
+| 項目 | 內容 |
+|------|------|
+| 首例成功（1978） | 38 歲男性，嚴重心絞痛，成功擴張 LAD 85% 狹窄 |
+| 早期病例系列（1979） | 50 例患者 |
+| 成功率 | 32/50（64%），狹窄從 84% 降至 34% |
+| 壓力梯度改善 | 從 58 mmHg 降至 19 mmHg |
+| 功能改善 | 29 位患者追蹤期間功能分級改善 |
+| 適應症 | 單一血管疾病最適合，僅約 10–15% bypass 候選人有合適病灶 |
+| 再狹窄率 | 33% |
+
+### 2.3 早期的技術限制
+
+- 無可操控導絲：只有球囊尖端的一段金屬
+- 依賴壓力梯度引導手術
+- 高再狹窄率（33%）
+- 適用範圍有限
+
+> 1980 年代早期倫敦的一次會議上曾辯論：「PTCA 會存活下來還是會消失？」
+
+---
+
+## 3. PTCA 進入主流醫療
+
+### 3.1 NHLBI PTCA 登錄研究（1982）
+
+| 項目 | 結果 |
+|------|------|
+| 研究中心數 | 34 個（歐洲和美國） |
+| 患者數 | 631 位 |
+| 單一血管疾病比例 | 80% |
+| 成功率 | 59% |
+
+> **Pearl**：重要意義——多位操作者都能成功執行、廣泛的患者群體、使用相對原始的設備，證實了術式的可行性。
+
+### 3.2 可操控導絲的革命性發展（1982）
+
+**John Simpson** 引入可操控、可移動的導絲，使操作者能夠：
+
+1. 在病灶處維持通路
+2. 接近遠端部位的狹窄
+3. 處理分支血管中有急性轉角的狹窄
+
+---
+
+## 4. 急性血管閉塞與血栓形成
+
+### 4.1 灌注球囊的發明
+
+- **發明者**：德國心臟科醫師 Hans Rupprecht
+- **原理**：球囊近端有孔洞，允許血液繞過充氣的球囊，通過導管中央腔室，可長時間保持球囊充氣而不造成缺血
+
+### 4.2 支架：雙面刃的解決方案
+
+| 優點 | 缺點 |
+|------|------|
+| 即時支撐剝離的內膜瓣 | 裸露的金屬支架是血小板聚集和血栓形成的場所 |
+| 處理血管回縮（recoil） | 亞急性血栓形成（subacute thrombosis） |
+| 立即恢復血流 | 顯著的發病率 |
+
+---
+
+## 5. 急性心肌梗塞治療的革命
+
+### 5.1 血栓溶解治療的開端
+
+| 年份/事件 | 內容 |
+|-----------|------|
+| 1979 | Peter Rentrop 發表病例報告：5 位 AMI 患者使用冠狀動脈內 nitroglycerin 和 streptokinase，顯示溶栓再灌注可行 |
+| 鹿特丹經驗 | 靜脈注射 streptokinase 後，在部分溶解情況下執行 balloon angioplasty |
+| tPA 的發展 | Marc Verstraete 及魯汶大學同事證明 IV tPA 比 IV streptokinase 更有效 |
+| 合併治療問題 | tPA + 立即 PTCA 未證明有益；tPA 會活化 platelets，為 PTCA 創造不利環境 |
+| 策略改變 | 鹿特丹 Thorax 中心幾乎完全放棄 AMI 的 primary PTCA |
+
+### 5.2 初級冠狀動脈成形術的復興
+
+- **1983 年**：Geoffrey Hartzler 在 43 位患者成功使用 percutaneous balloon angioplasty 治療 AMI
+- **荷蘭 Zwolle 經驗**：Felix Zijlstra 等人開始實施並推廣 AMI 的 primary angioplasty（不使用溶栓）
+- **1990 年代突破**：Cindy Grines 和 Bill O'Neill 證明立即 PTCA 較 tPA 有更低的住院死亡率、更低的 6 個月不良事件率、且無顱內出血風險
+
+---
+
+## 6. 冠狀動脈支架的演進
+
+### 6.1 支架的誕生（1986）
+
+- **Ulrich Sigwart** 和 **Jacques Puel** 在 19 位患者植入自膨式不銹鋼合金支架
+- 9 個月追蹤：支架部署區域未發現進一步再狹窄
+- 1991 年：描述了在 AMI 中作為 PTCA 輔助的支架部署
+
+### 6.2 早期支架的問題
+
+**血栓形成**：
+- 裸露金屬支柱是血小板聚集和血栓形成的場所
+- 早期使用阿司匹林、肝素和 warfarin → 高出血率、血管併發症、延長住院
+
+**解決方案——雙重抗血小板治療**：
+- Aspirin + thienopyridine（不可逆抑制 ADP/P2Y12 受體）
+- 顯著降低支架血栓併發症
+
+### 6.3 肝素塗層支架
+
+| 項目 | 內容 |
+|------|------|
+| Carmeda 塗層技術 | 共價結合（covalent binding）肝素於 Palmaz-Schatz 支架 |
+| BENESTENT II 試驗 | 413 位患者中僅 1 例有記錄的 stent thrombosis |
+| 仿製品問題 | 其他公司用苯甲酰肝素（benzoyl heparin）塗漆支架支柱，導致高支架血栓率 → 肝素塗層支架被質疑 |
+
+---
+
+## 7. 藥物洗脫支架的發展
+
+- 將抗增生藥物（sirolimus、paclitaxel）併入聚合物中，逐漸釋放，塗層在裸金屬支架上
+- 降低支架內再狹窄（in-stent restenosis）及再次血管重建需求
+- 11 個隨機試驗的統合分析顯示 everolimus-eluting stents 較少 stent thrombosis 及再次血管重建
+
+---
+
+## 8. 生物可降解支架的演進
+
+### 8.1 第一代：Igaki-Tamai 支架（2000）
+
+- **Keiji Igaki** 和 **Hideo Tamai** 在鹿特丹測試 polylactide bioresorbable stent（完全可吸收，無藥物洗脫）
+- 需將對比劑加熱至 60°C 部署，37°C 下約 30 分鐘後自我擴張
+- 50 位患者追蹤 10 年：僅 1 例極晚期 stent thrombosis
+
+### 8.2 ABSORB A 試驗（約 2005）
+
+- 第一個藥物洗脫（everolimus）、完全 bioresorbable scaffold
+- 2–3 年內吸收
+- 持續低 MACE 率（3.4%），無 stent thrombosis
+
+### 8.3 第二代生物可吸收血管支架
+
+- 增強徑向強度、機械完整性，改善藥物釋放動力學
+- 2 年追蹤：新生內膜幾乎覆蓋整個血管壁周長，且不損害管腔尺寸
+- 5 年追蹤：與主要心臟事件顯著減少相關
+
+> **Serruys 醫師**：「我相信我們正朝著正確的方向前進，這項技術最終將非常成功並被廣泛接受。」
+
+---
+
+## 9. 參考文獻
+
+1. Grüntzig AR, Senning A, Siegenthaler WE. Nonoperative dilatation of coronary-artery stenosis: percutaneous transluminal coronary angioplasty. [*N Engl J Med*. 1979;301:61-68.](https://doi.org/10.1056/NEJM197907123010201)
+2. Grines CL, Browne KF, Marco J, et al. A comparison of immediate angioplasty with thrombolytic therapy for acute myocardial infarction. The Primary Angioplasty in Myocardial Infarction Study Group. [*N Engl J Med*. 1993;328:673-679.](https://doi.org/10.1056/NEJM199303113281001)
+3. Sigwart U, Puel J, Mirkovitch V, Joffre F, Kappenberger L. Intravascular stents to prevent occlusion and restenosis after transluminal angioplasty. [*N Engl J Med*. 1987;316:701-706.](https://doi.org/10.1056/NEJM198703193161201)
+4. Park KW, Kang SH, Velders MA, et al. Safety and efficacy of everolimus- versus sirolimus-eluting stents: a systematic review and meta-analysis of 11 randomized trials. [*Am Heart J*. 2013;165:241-250.e4.](https://doi.org/10.1016/j.ahj.2012.08.007)
+5. Bourantas CV, Farooq V, Zhang Y, et al. Circumferential distribution of the neointima at six-month and two-year follow-up after a bioresorbable vascular scaffold implantation: a substudy of the ABSORB Cohort B Clinical Trial. [*EuroIntervention*. 2015;10:1299-1306.](https://doi.org/10.4244/EIJY14M04_11)
+
+### 縮寫對照表
+
+| 縮寫 | 全名 |
+|------|------|
+| PTCA | Percutaneous Transluminal Coronary Angioplasty（經皮冠狀動脈成形術） |
+| AMI | Acute Myocardial Infarction（急性心肌梗塞） |
+| tPA | tissue-type Plasminogen Activator（組織型纖維蛋白溶酶原活化劑） |
+| NHLBI | National Heart, Lung, and Blood Institute |
+| BENESTENT | Belgian-Netherlands STENT Study |
+| ABSORB-A | ABSORB Clinical Investigation, Cohort A Everolimus Eluting Coronary Stent System |

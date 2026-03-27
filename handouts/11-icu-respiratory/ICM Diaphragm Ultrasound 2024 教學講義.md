@@ -1,255 +1,194 @@
-# Intensive Care Medicine 教學講義
+# How I Perform Diaphragmatic Ultrasound in the Intensive Care Unit / 如何在加護病房執行橫膈膜超音波
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-01-11**
+**原文連結：[Intensive Care Med — How I perform diaphragmatic ultrasound in the intensive care unit](https://doi.org/10.1007/s00134-024-07688-x)**
 
 ---
 
-Diaphragm Ultrasound
-Intensive Care Medicine Editorial
-How I Perform Diaphragmatic Ultrasound in the
-Intensive Care Unit
-如何在加護病房執行橫膈膜超音波
-Intensive Care Med 2024;50:2175-2178. DOI: 10.1007/s00134-024-07688-x
-整理：謝慕揚MD, PhD, FESC
-日期：2026-01-11
-核心發現摘要
-核心訊息：Diaphragm ultrasound 是非侵入性床邊工具，特別適用於diﬀicult-to-wean
-病人的診斷評估。 實用重點：
-• Subcostal approach：測量diaphragm excursion (DE)，DE <10-15 mm 提示
-dysfunction
-• Intercostal approach：測量thickness 及thickening fraction (DTF)，DTFmax
-<20% 提示weakness
-• 評估時需移除或減少呼吸器支持，建議至少40 次訓練才能獨立操作
-Contents
-文獻概述
-1.1
-作者資訊
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 背景知識
-2.1
-橫膈膜解剖與生理
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2
-Critical Illness-Associated Diaphragm Weakness . . . . . . . . . . . . . . . . . . 操作技術
-3.1
-Subcostal Approach
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2
-Intercostal Approach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 正常值與診斷閾值
-4.1
-健康人正常值（坐姿、tidal breathing、end-expiration）. . . . . . . . . . . . . 4.2
-診斷閾值
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 臨床應用
-5.1
-主要適應症. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2
-目前的限制. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.3
-Diﬀicult-to-Wean 病人的處置建議. . . . . . . . . . . . . . . . . . . . . . . . . . 技術注意事項
-6.1
-測量品質控制. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2
-訓練建議
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+## 核心發現摘要
 
+> **核心訊息**：Diaphragm ultrasound 是非侵入性床邊工具，特別適用於 difficult-to-wean 病人的診斷評估。
 
-Intensive Care Medicine 教學講義
-Diaphragm Ultrasound
-未來發展
-Take-Home Message
-縮寫對照表
-10 參考文獻
+**實用重點：**
+- Subcostal approach：測量 diaphragm excursion (DE)，DE < 10–15 mm 提示 dysfunction
+- Intercostal approach：測量 thickness 及 thickening fraction (DTF)，DTFmax < 20% 提示 weakness
+- 評估時需移除或減少呼吸器支持，建議至少 40 次訓練才能獨立操作
 
+---
 
-Intensive Care Medicine 教學講義
-Diaphragm Ultrasound
-1 文獻概述
-本篇為Intensive Care Medicine 的Editorial，由比利時KU Leuven 的Hermans 教授等人撰
-寫，分享diaphragm ultrasound 在ICU 的實務經驗與臨床應用。 1.1 作者資訊
-通訊作者：Greet Hermans, MD
-機構：Department of General Internal Medicine, Medical Intensive Care Unit, University Hos-
-pitals Leuven, Belgium
-2 背景知識
-2.1 橫膈膜解剖與生理
-• 結構：薄、圓頂狀肌肉，包含costal part、crural part 及不收縮的central tendon
-• 收縮機制：肌纖維活化時，橫膈膜在zone of apposition 縮短並增厚，使dome 向下移動
-• 功能定義：產生收縮並生成壓力的能力，具有相當大的儲備能力
-2.2 Critical Illness-Associated Diaphragm Weakness
-• 在重症病人中常見，甚至在ICU 早期即可發生
-• 危險因子：Disuse（長期機械通氣）及inflammation
-• 臨床影響：可能導致weaning 困難並惡化預後
-• 約20-30% 的機械通氣病人屬於diﬀicult-to-wean
-3 操作技術
-重點提醒
-通用原則：
-• 病人採semi-recumbent position（30-45°）
-• 右側評估通常較容易且足夠，除非懷疑單側功能異常
-• 評估時應無或僅有最少呼吸器支持（無法區分主動vs 被動位移）
-• 確保有足夠respiratory drive（如P0.1 ￿2 cmH2O）
-3.1 Subcostal Approach
+## 1 文獻概述
 
+本篇為 Intensive Care Medicine 的 Editorial，由比利時 KU Leuven 的 Hermans 教授等人撰寫，分享 diaphragm ultrasound 在 ICU 的實務經驗與臨床應用。
 
-Intensive Care Medicine 教學講義
-Diaphragm Ultrasound
-項目
-內容
-Probe
-Low frequency 2-5 MHz（abdominal 或cardiac trans-
-ducer）
-位置
-Mid-clavicular line 下方subcostally
-向頭側傾斜，垂直於dome
-影像特徵
-B-mode：橫膈膜呈bright line 覆蓋liver 或spleen
-吸氣時向probe 移動
-測量方法
-M-mode 測量tidal breathing 時的displacement
-M-line 需垂直於橫膈膜移動方向
-測量參數
-Diaphragm Excursion (DE)：吸氣時的位移距離
-影像最佳化
-調整depth 以最佳捕捉excursion
-調整gain 以最佳化對比
-調整sweep speed 使至少3 個呼吸週期在1 frame 內
-3.2 Intercostal Approach
-項目
-內容
-Probe
-High frequency 7-12 MHz（linear transducer）
-位置
-Antero- 或mid-axillary line
-第8-11 肋間隙，垂直於胸壁
-位於zone of apposition，盡量與肋間隙平行
-影像特徵
-三層結構：
-• Non-echogenic muscular layer（中間）
-• Echogenic pleural lining（上方）
-• Echogenic peritoneal lining（下方）
-• 中央可見fibrous layer 呈bright line
-測量方法
-B-mode 或M-mode 測量thickness
-Calipers 置於pleural 及peritoneal lining 內緣（不含在
-內）
-測量參數
-DTee：End-expiration thickness
-DTpi：Peak-inspiration thickness
-DTF = ((DTpi-DTee)/DTee) × 100
-4 正常值與診斷閾值
-4.1 健康人正常值（坐姿、tidal breathing、end-expiration）
+### 1.1 作者資訊
 
+- 通訊作者：Greet Hermans, MD
+- 機構：Department of General Internal Medicine, Medical Intensive Care Unit, University Hospitals Leuven, Belgium
 
-Intensive Care Medicine 教學講義
-Diaphragm Ultrasound
-參數
-右側男性
-右側女性
-左側
-DE
-2.0±0.5 cm
-1.9±0.5 cm
-男2.2±0.6 cm女1.9±0.5 cm
-Thickness
-2.1±0.4 mm
-1.9±0.4 mm
-男2.0±0.4 mm女1.7±0.3 mm
-DTF
-32±15%
-35±16%
-男30±14%女33±15%
-4.2 診斷閾值
-參數
-診斷意義
-DE <10-15 mm
-Tidal breathing 時→Diaphragm dysfunction
-Paradoxical movement
-吸氣時向上移動→Diaphragm paralysis
-DTFmax <20%
-Diaphragm dysfunction
-DTF <25-33%
-Predicts weaning failure
-DTF <20%
-Predicts NIV failure
-5 臨床應用
-5.1 主要適應症
-1. Diﬀicult-to-wean 病人的診斷評估
-• SBT 或extubation failure 的診斷workup
-• 識別或排除diaphragm dysfunction 作為可能原因
-• 屬於multimodal diagnostic approach 的一部分
-2. Neuromuscular disease 導致的不明原因呼吸衰竭
-• 導致ICU 入住的呼吸衰竭
-• 確認diaphragm weakness
-3. Traumatic phrenic nerve injury
-• 確認單側或雙側創傷性膈神經損傷
+---
 
+## 2 背景知識
 
-Intensive Care Medicine 教學講義
-Diaphragm Ultrasound
-5.2 目前的限制
-重點提醒
-尚不建議用於以下決策：
-• 決定是否執行SBT 或extubation
-• NIV 病人的intubation 決策
-• 最佳化inspiratory effort（「diaphragm protective ventilation」）
-原因：研究異質性大、多為觀察性、cutoff 值不一致、DTF 與diaphragm function 相關性
-不佳
-5.3 Diﬀicult-to-Wean 病人的處置建議
-若diaphragm ultrasound 診斷diaphragm weakness：
-1. 減少respiratory load
-• 處理fluid overload
-• 處理atelectasis
-• 引流pleural effusion
-• 處理dynamic hyperinflation
-2. 若排除diaphragm weakness
-• 評估heart failure
-• 評估psychological factors
-• 排除其他weaning failure 原因
-6 技術注意事項
-6.1 測量品質控制
-• 至少取得3 次測量，差異應<10%
-• DTF 測量需確認DTpi 和DTee 來自同一呼吸週期
-• B-mode 提供較好的空間定位，M-mode 提供較準確的呼吸週期時序
-6.2 訓練建議
-• 建議至少40 次訓練檢查才能獨立操作
-• DT、DTF 及右側橫膈膜excursion 的測量，在有經驗的操作者手中具有良好的可重複
-性及再現性
+### 2.1 橫膈膜解剖與生理
 
+- 結構：薄、圓頂狀肌肉，包含 costal part、crural part 及不收縮的 central tendon
+- 收縮機制：肌纖維活化時，橫膈膜在 zone of apposition 縮短並增厚，使 dome 向下移動
+- 功能定義：產生收縮並生成壓力的能力，具有相當大的儲備能力
 
-Intensive Care Medicine 教學講義
-Diaphragm Ultrasound
-7 未來發展
-1. Asynchrony detection：偵測機械通氣時的不同步，常被waveform monitoring 遺漏
-2. Operator-independent continuous monitoring：新型裝置可連續監測橫膈膜
-3. Novel ultrasound parameters：
-• Strain 及stiffness（from speckle tracking）
-• Shear-wave elastography
-• 可能成為更可靠的diaphragm function 指標
-8 Take-Home Message
-1. 主要價值：非侵入性床邊工具，用於diﬀicult-to-wean 病人診斷或排除diaphragm dys-
-function
-2. 首選方法：Subcostal approach 測量DE，DE <10-15 mm 提示dysfunction
-3. 其他應用：識別neuromuscular disease 導致的呼吸衰竭、診斷traumatic phrenic nerve
-injury
-4. 注意限制：目前不建議用於SBT/extubation 或intubation 決策
-9 縮寫對照表
-縮寫
-全名
-DE
-Diaphragm Excursion (橫膈膜位移)
-DTee
-Diaphragm Thickness at End-Expiration
-DTpi
-Diaphragm Thickness at Peak-Inspiration
-DTF
-Diaphragm Thickening Fraction (橫膈膜增厚分數)
-SBT
-Spontaneous Breathing Trial (自發呼吸試驗)
-NIV
-Non-Invasive Ventilation (非侵入性通氣)
-P0.1
-Airway Occlusion Pressure at 0.1 second
-10 參考文獻
-1. Hermans G, Demoule A, Heunks L. How I perform diaphragmatic ultrasound in the
-intensive care unit. Intensive Care Med. 2024;50:2175-2178. 2. Haaksma ME, Smit JM, Boussuges A, et al. EXpert consensus On Diaphragm Ultra-
-Sonography in the critically ill (EXODUS). Crit Care. 2022;26:99. 3. Tuinman PR, Jonkman AH, Dres M, et al. Respiratory muscle ultrasonography: method-
-ology, basic and advanced principles and clinical applications in ICU and ED patients. Intensive Care Med. 2020;46:594-605.
+### 2.2 Critical Illness-Associated Diaphragm Weakness
 
+- 在重症病人中常見，甚至在 ICU 早期即可發生
+- 危險因子：Disuse（長期機械通氣）及 inflammation
+- 臨床影響：可能導致 weaning 困難並惡化預後
+- 約 20–30% 的機械通氣病人屬於 difficult-to-wean
 
-Intensive Care Medicine 教學講義
-Diaphragm Ultrasound
-4. Dres M, Goligher EC, Heunks LMA, Brochard LJ. Critical illness-associated diaphragm
-weakness. Intensive Care Med. 2017;43:1441-1452.
+---
+
+## 3 操作技術
+
+> **通用原則：**
+> - 病人採 semi-recumbent position（30–45°）
+> - 右側評估通常較容易且足夠，除非懷疑單側功能異常
+> - 評估時應無或僅有最少呼吸器支持（無法區分主動 vs 被動位移）
+> - 確保有足夠 respiratory drive（如 P0.1 ≥ 2 cmH₂O）
+
+### 3.1 Subcostal Approach
+
+| 項目 | 內容 |
+|------|------|
+| Probe | Low frequency 2–5 MHz（abdominal 或 cardiac transducer） |
+| 位置 | Mid-clavicular line 下方 subcostally；向頭側傾斜，垂直於 dome |
+| 影像特徵 | B-mode：橫膈膜呈 bright line 覆蓋 liver 或 spleen；吸氣時向 probe 移動 |
+| 測量方法 | M-mode 測量 tidal breathing 時的 displacement；M-line 需垂直於橫膈膜移動方向 |
+| 測量參數 | Diaphragm Excursion (DE)：吸氣時的位移距離 |
+| 影像最佳化 | 調整 depth 以最佳捕捉 excursion；調整 gain 以最佳化對比；調整 sweep speed 使至少 3 個呼吸週期在 1 frame 內 |
+
+### 3.2 Intercostal Approach
+
+| 項目 | 內容 |
+|------|------|
+| Probe | High frequency 7–12 MHz（linear transducer） |
+| 位置 | Antero- 或 mid-axillary line；第 8–11 肋間隙，垂直於胸壁；位於 zone of apposition，盡量與肋間隙平行 |
+| 影像特徵 | 三層結構：Non-echogenic muscular layer（中間）、Echogenic pleural lining（上方）、Echogenic peritoneal lining（下方）；中央可見 fibrous layer 呈 bright line |
+| 測量方法 | B-mode 或 M-mode 測量 thickness；Calipers 置於 pleural 及 peritoneal lining 內緣（不含在內） |
+| 測量參數 | DTee：End-expiration thickness；DTpi：Peak-inspiration thickness；DTF = ((DTpi − DTee) / DTee) × 100 |
+
+---
+
+## 4 正常值與診斷閾值
+
+### 4.1 健康人正常值（坐姿、tidal breathing、end-expiration）
+
+| 參數 | 右側男性 | 右側女性 | 左側 |
+|------|---------|---------|------|
+| DE | 2.0 ± 0.5 cm | 1.9 ± 0.5 cm | 男 2.2 ± 0.6 cm / 女 1.9 ± 0.5 cm |
+| Thickness | 2.1 ± 0.4 mm | 1.9 ± 0.4 mm | 男 2.0 ± 0.4 mm / 女 1.7 ± 0.3 mm |
+| DTF | 32 ± 15% | 35 ± 16% | 男 30 ± 14% / 女 33 ± 15% |
+
+### 4.2 診斷閾值
+
+| 參數 | 診斷意義 |
+|------|----------|
+| DE < 10–15 mm | Tidal breathing 時 → Diaphragm dysfunction |
+| Paradoxical movement | 吸氣時向上移動 → Diaphragm paralysis |
+| DTFmax < 20% | Diaphragm dysfunction |
+| DTF < 25–33% | Predicts weaning failure |
+| DTF < 20% | Predicts NIV failure |
+
+---
+
+## 5 臨床應用
+
+### 5.1 主要適應症
+
+1. **Difficult-to-wean 病人的診斷評估**
+   - SBT 或 extubation failure 的診斷 workup
+   - 識別或排除 diaphragm dysfunction 作為可能原因
+   - 屬於 multimodal diagnostic approach 的一部分
+2. **Neuromuscular disease 導致的不明原因呼吸衰竭**
+   - 導致 ICU 入住的呼吸衰竭
+   - 確認 diaphragm weakness
+3. **Traumatic phrenic nerve injury**
+   - 確認單側或雙側創傷性膈神經損傷
+
+### 5.2 目前的限制
+
+> **尚不建議用於以下決策：**
+> - 決定是否執行 SBT 或 extubation
+> - NIV 病人的 intubation 決策
+> - 最佳化 inspiratory effort（「diaphragm protective ventilation」）
+>
+> 原因：研究異質性大、多為觀察性、cutoff 值不一致、DTF 與 diaphragm function 相關性不佳
+
+### 5.3 Difficult-to-Wean 病人的處置建議
+
+若 diaphragm ultrasound 診斷 diaphragm weakness：
+1. 減少 respiratory load
+   - 處理 fluid overload
+   - 處理 atelectasis
+   - 引流 pleural effusion
+   - 處理 dynamic hyperinflation
+
+若排除 diaphragm weakness：
+1. 評估 heart failure
+2. 評估 psychological factors
+3. 排除其他 weaning failure 原因
+
+---
+
+## 6 技術注意事項
+
+### 6.1 測量品質控制
+
+- 至少取得 3 次測量，差異應 < 10%
+- DTF 測量需確認 DTpi 和 DTee 來自同一呼吸週期
+- B-mode 提供較好的空間定位，M-mode 提供較準確的呼吸週期時序
+
+### 6.2 訓練建議
+
+- 建議至少 40 次訓練檢查才能獨立操作
+- DT、DTF 及右側橫膈膜 excursion 的測量，在有經驗的操作者手中具有良好的可重複性及再現性
+
+---
+
+## 7 未來發展
+
+1. **Asynchrony detection**：偵測機械通氣時的不同步，常被 waveform monitoring 遺漏
+2. **Operator-independent continuous monitoring**：新型裝置可連續監測橫膈膜
+3. **Novel ultrasound parameters**：
+   - Strain 及 stiffness（from speckle tracking）
+   - Shear-wave elastography
+   - 可能成為更可靠的 diaphragm function 指標
+
+---
+
+## 8 Take-Home Message
+
+1. **主要價值**：非侵入性床邊工具，用於 difficult-to-wean 病人診斷或排除 diaphragm dysfunction
+2. **首選方法**：Subcostal approach 測量 DE，DE < 10–15 mm 提示 dysfunction
+3. **其他應用**：識別 neuromuscular disease 導致的呼吸衰竭、診斷 traumatic phrenic nerve injury
+4. **注意限制**：目前不建議用於 SBT/extubation 或 intubation 決策
+
+---
+
+## 9 縮寫對照表
+
+| 縮寫 | 全名 |
+|------|------|
+| DE | Diaphragm Excursion (橫膈膜位移) |
+| DTee | Diaphragm Thickness at End-Expiration |
+| DTpi | Diaphragm Thickness at Peak-Inspiration |
+| DTF | Diaphragm Thickening Fraction (橫膈膜增厚分數) |
+| SBT | Spontaneous Breathing Trial (自發呼吸試驗) |
+| NIV | Non-Invasive Ventilation (非侵入性通氣) |
+| P0.1 | Airway Occlusion Pressure at 0.1 second |
+
+---
+
+## 10 參考文獻
+
+1. Hermans G, Demoule A, Heunks L. How I perform diaphragmatic ultrasound in the intensive care unit. [*Intensive Care Med*. 2024;50:2175-2178.](https://doi.org/10.1007/s00134-024-07688-x)
+2. Haaksma ME, Smit JM, Boussuges A, et al. EXpert consensus On Diaphragm UltraSonography in the critically ill (EXODUS). [*Crit Care*. 2022;26:99.](https://doi.org/10.1186/s13054-022-03975-5)
+3. Tuinman PR, Jonkman AH, Dres M, et al. Respiratory muscle ultrasonography: methodology, basic and advanced principles and clinical applications in ICU and ED patients. [*Intensive Care Med*. 2020;46:594-605.](https://doi.org/10.1007/s00134-019-05892-8)
+4. Dres M, Goligher EC, Heunks LMA, Brochard LJ. Critical illness-associated diaphragm weakness. [*Intensive Care Med*. 2017;43:1441-1452.](https://doi.org/10.1007/s00134-017-4928-4)

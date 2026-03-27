@@ -1,381 +1,225 @@
-# Circulation on the Run Podcast 精華整理
+# Circulation on the Run Podcast 精華整理：2025 年 12 月 16 日期刊導讀
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2025-12-16**
+**原文連結：[Circulation — December 16, 2025 Issue](https://www.ahajournals.org/journal/circ)**
 
 ---
 
-2025 年12 月16 日期刊導讀
-謝慕揚醫師MD, PhD, FESC
-根據Circulation on the Run Podcast 整理
-2025 年12 月16 日
-本期重點摘要
-1. VCAS 試驗：首次人體試驗評估高電壓脈衝場消融（PFA）治療瘢痕相關心室頻脈
-2. OxPL-apoB 研究：氧化磷脂質apoB 在急性冠心症患者中預測MACE 的新標記
-3. SCN5A 基因研究：T220I 變異對心房顫動與心血管死亡率的保護效應
-4. 肥厚型心肌病研究：Creatine kinase 功能障礙與高收縮力導致的能量失衡機制
-Contents
-本期特稿：VCAS 試驗——高電壓脈衝場消融治療瘢痕相關心室頻脈
-1.1
-研究資訊. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.2
-研究背景. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.2.1
-傳統消融的困境. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.2.2
-脈衝場消融的優勢
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.3
-VCAS 試驗導管技術特點. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.4
-研究設計與方法. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.5
-主要研究結果
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.5.1
-手術效率. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.5.2
-急性成功率
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.5.3
-穿透性評估（亞組分析）
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.5.4
-6 個月追蹤結果. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.6
-未來展望. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 研究二：氧化磷脂質ApoB 與急性冠心症患者MACE 預測
-2.1
-研究背景. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2
-研究原理. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.3
-研究結果. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 研究三：SCN5A 基因T220I 變異與心房顫動及心律不整
-3.1
-研究背景. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2
-SCN5A 基因的重要性. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3
-主要研究發現
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.4
-臨床意義. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 研究四：肥厚型心肌病的Creatine Kinase 功能障礙
-4.1
-研究背景. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2
-研究發現. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+## 本期重點摘要
 
+1. **VCAS 試驗**：首次人體試驗評估高電壓脈衝場消融 (PFA) 治療瘢痕相關心室頻脈
+2. **OxPL-apoB 研究**：氧化磷脂質 apoB 在急性冠心症患者中預測 MACE 的新標記
+3. **SCN5A 基因研究**：T220I 變異對心房顫動與心血管死亡率的保護效應
+4. **肥厚型心肌病研究**：Creatine kinase 功能障礙與高收縮力導致的能量失衡機制
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-其他本期內容
-5.1
-TAP-IT 試驗相關通訊. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2
-其他文章. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 參考文獻
-詞彙表
+---
 
+## 1. 本期特稿：VCAS 試驗——高電壓脈衝場消融治療瘢痕相關心室頻脈
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-本期特稿：VCAS 試驗——高電壓脈衝場消融治療瘢痕相關心室頻脈
-1.1
-研究資訊
-項目
-內容
-研究名稱
-VCAS Trial（首次人體試驗）
-研究主題
-High-Voltage Focal Pulsed Field Ablation to Treat Scar-Related Ventricular
-Tachycardia
-通訊作者
-Dr. Vivek Reddy, Mount Sinai Fuster Heart Hospital
-期刊
-Circulation (2025)
-研究類型
-前瞻性、觀察性、首次人體試驗
-1.2
-研究背景
-1.2.1
-傳統消融的困境
-問題類型
-詳細說明
-病灶深度不足
-大多數消融導管為心房顫動設計，用於心室頻脈屬適應症外使用，
-無法達到足夠的病灶深度消融目標組織
-瘢痕組織問題
-傳統射頻消融受瘢痕組織阻礙病灶形成
-臨床療效有限
-目前消融心室頻脈迴路的能力「最多只能說是中等」
-患者痛苦
-ICD 電擊嚴重影響生活品質，需要更有效控制VT 的方法
-1.2.2
-脈衝場消融的優勢
-優勢
-說明
-穿透瘢痕組織
-PFA 病灶可直接穿過瘢痕組織，不像傳統RF 消融會受瘢痕阻礙
-更深的病灶
-相較傳統消融可達更深的消融病灶
-安全性
-血栓形成機率較低
-高效率
-能量傳遞時間極短（約200 毫秒）
-1.3
-VCAS 試驗導管技術特點
-高電壓PFA 導管關鍵參數
-• 能量等級：約10 kilovolts（傳統PFA 導管約2 kV，本導管約為5 倍能量）
-• 脈衝時間：約200 毫秒（不到1 秒）
-• 設計目的：專為VT 消融開發（目前尚未獲FDA 批准）
-• 能量傳遞：每次消融僅需5 個心跳週期
+### 1.1 研究資訊
 
+| 項目 | 內容 |
+|------|------|
+| 研究名稱 | VCAS Trial（首次人體試驗） |
+| 研究主題 | High-Voltage Focal Pulsed Field Ablation to Treat Scar-Related Ventricular Tachycardia |
+| 通訊作者 | Dr. Vivek Reddy, Mount Sinai Fuster Heart Hospital |
+| 期刊 | Circulation (2025) |
+| 研究類型 | 前瞻性、觀察性、首次人體試驗 |
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-1.4
-研究設計與方法
-項目
-內容
-研究人數
-26 例患者
-研究中心
-2 個中心，3 位術者
-主要適應症
-瘢痕相關心室頻脈（絕大多數為心肌梗塞後VT）
-患者特徵
-所有患者均植入ICD
-平均射血分數約30%
-約40% 有先前消融病史（傳統RF）
-約40% 有VT storm 或ICD storm（24 小時內≥3 次ICD 事件）
-追蹤時間
-6 個月
-特殊設計
-約40% 患者（無心臟手術史者）進行心包腔穿刺，mapping 心內
-膜與心外膜，評估心內膜消融後的穿透性
-1.5
-主要研究結果
-1.5.1
-手術效率
-指標
-結果
-總手術時間
-約2.5 小時以上
-實際消融時間
-僅約30 分鐘（從第一個病灶到最後一個病灶）
-每次消融時間
-約5 個心跳週期
-1.5.2
-急性成功率
-指標
-術前
-術後
-VT 可誘發率
-88%
-6%
-1.5.3
-穿透性評估（亞組分析）
-心內膜至心外膜穿透性結果
-• 在進行心包腔mapping 的患者中，心內膜消融後能成功消除心外膜電位
-• 無需額外進行心外膜消融（除1 例心外膜瘢痕為主的患者選擇心外膜消融）
-• 證實可達到真正的透壁消融
-1.5.4
-6 個月追蹤結果
-指標
-結果
-無VT 或ICD 事件比率
-82%
-心律不整事件負擔減少
-98%（消融前後6 個月比較）
+### 1.2 研究背景
 
+**傳統消融的困境**：
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-1.6
-未來展望
-方向
-說明
-大型多中心試驗
-計畫在美國進行IDE（可能為pivotal IDE），預計納入20+ 中心、
-數百名患者
-非缺血性心肌病
-將設第二組專門研究非缺血性VT 患者（更多心外膜及深層中隔
-迴路）
-預防性應用
-考慮在ICD 植入同時進行基質消融（類似SMASH-VT 試驗概念）
-安全性監測
-需關注對冠狀動脈的影響（如冠狀動脈痙攣）
-研究二：氧化磷脂質ApoB 與急性冠心症患者MACE 預測
-2.1
-研究背景
-項目
-內容
-研究來源
-ODYSSEY OUTCOMES 試驗次分析
-通訊作者
-Dr. Sotirios Tsimikas, University of California, San Diego
-研究人數
-11,630 例（基線）
-5,185 例（隨機分配後4 個月）
-原始試驗
-ODYSSEY OUTCOMES：18,924 例近期ACS 患者
-1,315 個研究中心、57 個國家
-中位追蹤2.9 年
-干預
-Alirocumab vs 安慰劑（每2 週皮下注射）
-背景治療：Atorvastatin 40-80mg 或Rosuvastatin 20-40mg
-2.2
-研究原理
-氧化磷脂質與Lp(a) 的關係
-• PCSK9 抑制劑對MACE 的臨床益處受基線Lp(a) 水平影響
-• 升高的Lp(a) 與更大的相對和絕對治療效益相關
-• 等莫耳濃度下，Lp(a) 顆粒的致動脈粥狀硬化性約為LDL 顆粒的6 倍
-• Lp(a) 是血漿中氧化磷脂質的主要載體
-• ApoB-100 上的氧化磷脂質反映Lp(a) 的促發炎特性
-2.3
-研究結果
-發現
-詳細說明
-基線特徵
-平均年齡58 歲，24% 為女性
-主要發現
-在接受優化statin 治療的近期ACS 患者中，升高的OxPL-apoB 水
-平可預測MACE
+| 問題類型 | 詳細說明 |
+|----------|----------|
+| 病灶深度不足 | 大多數消融導管為心房顫動設計，無法達到足夠深度消融目標組織 |
+| 瘢痕組織問題 | 傳統射頻消融受瘢痕組織阻礙病灶形成 |
+| 臨床療效有限 | 消融心室頻脈迴路的能力「最多只能說是中等」 |
+| 患者痛苦 | ICD 電擊嚴重影響生活品質 |
 
+**脈衝場消融的優勢**：
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-發現
-詳細說明
-治療效果
-此關係可被Alirocumab 減弱
-獨立預測價值
-在安慰劑組中，當Lp(a) 水平相對較低時，OxPL-apoB 可獨立預
-測MACE
-臨床意義
-可能是加速動脈粥狀硬化相關事件的新標記
-研究三：SCN5A 基因T220I 變異與心房顫動及心律不整
-3.1
-研究背景
-項目
-內容
-共同通訊作者
-Dr. Heyne & Dr. Wanner, Hasso Plattner Institute for Digital Engineer-
-ing, Germany
-研究對象
-超過100 萬人，跨三個世代：FinnGen、UK Biobank、Health 2000
-研究基因
-SCN5A：編碼心臟鈉離子通道的孔形成亞單位，負責心臟動作電
-位的啟動與傳播
-3.2
-SCN5A 基因的重要性
-SCN5A 基因功能
-• 編碼心臟鈉離子通道的關鍵亞單位
-• 負責心臟動作電位的啟動與傳播
-• 已知與Brugada syndrome 相關
-• 本研究探討其與心房顫動的關聯
-3.3
-主要研究發現
-發現
-詳細說明
-罕見變異鑑定
-發現T220I 變異，模擬終身心臟鈉離子通道阻斷效果
-在一般人群中
-T220I 與以下相關：
-• 快速心律不整風險降低（包括心房顫動）
-• 心衰竭風險降低
-• 緩慢心律不整風險增加
-• 心律不整死亡率整體降低
-高遺傳風險者
-T220I 可降低高遺傳易感性個體的終身心房顫動風險至接近一般
-人群水平
-最高風險者從此變異獲益最大
-心肌梗塞後
-重要發現：在近期心肌梗塞患者中，T220I 與心梗後5 年內死亡率
-增加相關
+| 優勢 | 說明 |
+|------|------|
+| 穿透瘢痕組織 | PFA 病灶可直接穿過瘢痕組織，不像傳統 RF 消融會受瘢痕阻礙 |
+| 更深的病灶 | 相較傳統消融可達更深的消融病灶 |
+| 安全性 | 血栓形成機率較低 |
+| 高效率 | 能量傳遞時間極短（約 200 毫秒） |
 
+### 1.3 VCAS 試驗導管技術特點
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-3.4
-臨床意義
-與CAST 試驗的關聯
-此發現可能解釋CAST 試驗中flecainide 在心肌梗塞後的不良預後：
-• 長期鈉離子通道阻斷在一般人群中呈現平衡的風險-效益
-• 但在近期心肌梗塞後，鈉離子通道阻斷會造成危害
-研究四：肥厚型心肌病的Creatine Kinase 功能障礙
-4.1
-研究背景
-項目
-內容
-通訊作者
-Dr. Vasco Sequeira, University Clinic in Würzburg
-研究目的
-探討高收縮力驅動的粒線體壓力及氧化氫增加如何破壞HCM 中
-的creatine kinase 功能
-研究樣本
-92 例HCM 患者（含或不含致病性肌節蛋白變異）左心室組織
-30 例非衰竭人類對照組
-4.2
-研究發現
-發現
-說明
-機制連結
-高收縮力→粒線體活性氧（ROS）↑→Creatine kinase 功能障礙
-惡性循環
-此機制造成能量功能障礙的持續惡性循環
-治療意義
-透過myosin 抑制針對高收縮力和氧化壓力，可恢復能量平衡並降
-低HCM 患者的心律不整風險
-其他本期內容
-5.1
-TAP-IT 試驗相關通訊
-項目
-內容
-試驗主題
-急性心衰竭中胸腔穿刺的隨機對照試驗
-相關回應
-3 篇Letters to the Editor（Wang et al., Harris et al. 等）
-1 篇作者回應（Glaggard et al.）
-5.2
-其他文章
-類型
-內容
-ECG Challenge
-Dr. Lu et al.: ”A Storm of Tachycardia Following Stroke: What Is The
-Mechanism?”
+> **高電壓 PFA 導管關鍵參數**：
+> - 能量等級：約 10 kilovolts（傳統 PFA 導管約 2 kV，本導管約為 5 倍能量）
+> - 脈衝時間：約 200 毫秒（不到 1 秒）
+> - 設計目的：專為 VT 消融開發（目前尚未獲 FDA 批准）
+> - 能量傳遞：每次消融僅需 5 個心跳週期
 
+### 1.4 研究設計與方法
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-類型
-內容
-Perspective
-Prof. Wittfooth: ”Troponin Auto Antibodies: Macrotroponin and Assay
-Interference”
-Research Letter
-Prof. Tello: ”Acute Hemodynamic Effects of Sotatercept”
-參考文獻
-1. Reddy VY, Koruth JS, Peichl P, et al. High-Voltage Focal Pulsed Field Ablation to Treat Scar-Related
-Ventricular Tachycardia: The First-in-Human VCAS Trial. Circulation. 2025;152(24):e373-e386. 2. Tsimikas S, Szarek M, Cobbaert CM, et al. Oxidized Phospholipids, Lipoprotein(a), and Cardiovascular
-Outcomes After Acute Coronary Syndrome. Circulation. 2025. 3. Heyne H, Wanner J, et al. Leveraging a Genetic Proxy to Investigate the Effects of Lifelong Cardiac
-Sodium Channel Blockade. Circulation. 2025. 4. Xu A, Weissman D, Ermer KJ, et al. Hypercontractility and Oxidative Stress Drive Creatine Kinase
-Dysfunction in Hypertrophic Cardiomyopathy. Circulation. 2025;152(24):1705-1727. 5. The Cardiac Arrhythmia Suppression Trial (CAST) Investigators. Preliminary Report: Effect of En-
-cainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression After Myocardial
-Infarction. N Engl J Med. 1989;321(6):406-412. 6. Reddy VY, Reynolds MR, Neuzil P, et al. Prophylactic Catheter Ablation for the Prevention of Defibril-
-lator Therapy. N Engl J Med. 2007;357(26):2657-2665. 詞彙表
-縮寫/術語
-說明
-PFA
-Pulsed Field Ablation，脈衝場消融
-VT
-Ventricular Tachycardia，心室頻脈
-ICD
-Implantable Cardioverter-Defibrillator，植入式心律去顫器
-RF
-Radiofrequency，射頻
-OxPL-apoB
-Oxidized Phospholipids on Apolipoprotein B-100，載脂蛋白B-100 上
-的氧化磷脂質
-Lp(a)
-Lipoprotein(a)，脂蛋白(a)
-MACE
-Major Adverse Cardiovascular Events，主要心血管不良事件
-ACS
-Acute Coronary Syndrome，急性冠心症
-SCN5A
-Sodium Voltage-Gated Channel Alpha Subunit 5，鈉電壓門控通道α
-亞基5
-HCM
-Hypertrophic Cardiomyopathy，肥厚型心肌病
-IDE
-Investigational Device Exemption，研究性器械豁免
-PCSK9
-Proprotein Convertase Subtilisin/Kexin Type 9，前蛋白轉化酶枯草桿
-菌蛋白酶/kexin 9 型
+| 項目 | 內容 |
+|------|------|
+| 研究人數 | 26 例患者 |
+| 研究中心 | 2 個中心，3 位術者 |
+| 主要適應症 | 瘢痕相關心室頻脈（絕大多數為心肌梗塞後 VT） |
+| 患者特徵 | 所有患者均植入 ICD；平均射血分數約 30%；約 40% 有先前消融病史；約 40% 有 VT storm |
+| 追蹤時間 | 6 個月 |
 
+### 1.5 主要研究結果
 
-Circulation on the Run Podcast 精華整理
-2025 年12 月16 日
-關鍵詞：脈衝場消融、心室頻脈、VCAS 試驗、氧化磷脂質、Lp(a)、SCN5A、心房顫動、肥厚型
-心肌病
+**手術效率**：
+
+| 指標 | 結果 |
+|------|------|
+| 總手術時間 | 約 2.5 小時以上 |
+| 實際消融時間 | 僅約 30 分鐘 |
+| 每次消融時間 | 約 5 個心跳週期 |
+
+**急性成功率**：
+
+| 指標 | 術前 | 術後 |
+|------|------|------|
+| VT 可誘發率 | 88% | 6% |
+
+**穿透性評估（亞組分析）**：
+- 心內膜消融後能成功消除心外膜電位
+- 無需額外進行心外膜消融
+- 證實可達到真正的透壁消融
+
+**6 個月追蹤結果**：
+
+| 指標 | 結果 |
+|------|------|
+| 無 VT 或 ICD 事件比率 | 82% |
+| 心律不整事件負擔減少 | 98% |
+
+### 1.6 未來展望
+
+| 方向 | 說明 |
+|------|------|
+| 大型多中心試驗 | 計畫在美國進行 IDE，預計納入 20+ 中心、數百名患者 |
+| 非缺血性心肌病 | 將設第二組專門研究非缺血性 VT 患者 |
+| 預防性應用 | 考慮在 ICD 植入同時進行基質消融 |
+| 安全性監測 | 需關注對冠狀動脈的影響 |
+
+---
+
+## 2. 研究二：氧化磷脂質 ApoB 與急性冠心症患者 MACE 預測
+
+### 2.1 研究背景
+
+| 項目 | 內容 |
+|------|------|
+| 研究來源 | ODYSSEY OUTCOMES 試驗次分析 |
+| 通訊作者 | Dr. Sotirios Tsimikas, University of California, San Diego |
+| 研究人數 | 11,630 例（基線）；5,185 例（4 個月後） |
+| 原始試驗 | ODYSSEY OUTCOMES：18,924 例近期 ACS 患者，Alirocumab vs 安慰劑 |
+
+### 2.2 研究原理
+
+> **氧化磷脂質與 Lp(a) 的關係**：
+> - PCSK9 抑制劑對 MACE 的臨床益處受基線 Lp(a) 水平影響
+> - 等莫耳濃度下，Lp(a) 顆粒的致動脈粥狀硬化性約為 LDL 顆粒的 6 倍
+> - Lp(a) 是血漿中氧化磷脂質的主要載體
+
+### 2.3 研究結果
+
+| 發現 | 詳細說明 |
+|------|----------|
+| 主要發現 | 在接受優化 statin 治療的近期 ACS 患者中，升高的 OxPL-apoB 水平可預測 MACE |
+| 治療效果 | 此關係可被 Alirocumab 減弱 |
+| 獨立預測價值 | 在安慰劑組中，當 Lp(a) 水平相對較低時，OxPL-apoB 可獨立預測 MACE |
+| 臨床意義 | 可能是加速動脈粥狀硬化相關事件的新標記 |
+
+---
+
+## 3. 研究三：SCN5A 基因 T220I 變異與心房顫動及心律不整
+
+### 3.1 研究背景
+
+| 項目 | 內容 |
+|------|------|
+| 共同通訊作者 | Dr. Heyne & Dr. Wanner, Hasso Plattner Institute, Germany |
+| 研究對象 | 超過 100 萬人，跨三個世代：FinnGen、UK Biobank、Health 2000 |
+| 研究基因 | SCN5A：編碼心臟鈉離子通道的孔形成亞單位 |
+
+### 3.2 主要研究發現
+
+| 發現 | 詳細說明 |
+|------|----------|
+| 罕見變異鑑定 | 發現 T220I 變異，模擬終身心臟鈉離子通道阻斷效果 |
+| 在一般人群中 | T220I 與快速心律不整風險降低、心衰竭風險降低、緩慢心律不整風險增加、心律不整死亡率整體降低相關 |
+| 高遺傳風險者 | T220I 可降低高遺傳易感性個體的終身心房顫動風險至接近一般人群水平 |
+| 心肌梗塞後 | T220I 與心梗後 5 年內死亡率增加相關 |
+
+### 3.3 臨床意義
+
+> **與 CAST 試驗的關聯**：此發現可能解釋 CAST 試驗中 flecainide 在心肌梗塞後的不良預後——長期鈉離子通道阻斷在一般人群中呈現平衡的風險-效益，但在近期心肌梗塞後會造成危害。
+
+---
+
+## 4. 研究四：肥厚型心肌病的 Creatine Kinase 功能障礙
+
+### 4.1 研究背景
+
+| 項目 | 內容 |
+|------|------|
+| 通訊作者 | Dr. Vasco Sequeira, University Clinic in Wurzburg |
+| 研究樣本 | 92 例 HCM 患者（含或不含致病性肌節蛋白變異）左心室組織；30 例非衰竭人類對照組 |
+
+### 4.2 研究發現
+
+| 發現 | 說明 |
+|------|------|
+| 機制連結 | 高收縮力 → 粒線體活性氧 (ROS) ↑ → Creatine kinase 功能障礙 |
+| 惡性循環 | 此機制造成能量功能障礙的持續惡性循環 |
+| 治療意義 | 透過 myosin 抑制針對高收縮力和氧化壓力，可恢復能量平衡並降低 HCM 患者的心律不整風險 |
+
+---
+
+## 5. 其他本期內容
+
+### 5.1 TAP-IT 試驗相關通訊
+
+| 項目 | 內容 |
+|------|------|
+| 試驗主題 | 急性心衰竭中胸腔穿刺的隨機對照試驗 |
+| 相關回應 | 3 篇 Letters to the Editor + 1 篇作者回應 |
+
+### 5.2 其他文章
+
+| 類型 | 內容 |
+|------|------|
+| ECG Challenge | Dr. Lu et al.: "A Storm of Tachycardia Following Stroke: What Is The Mechanism?" |
+| Perspective | Prof. Wittfooth: "Troponin Auto Antibodies: Macrotroponin and Assay Interference" |
+| Research Letter | Prof. Tello: "Acute Hemodynamic Effects of Sotatercept" |
+
+---
+
+## 參考文獻
+
+1. Reddy VY, Koruth JS, Peichl P, et al. High-Voltage Focal Pulsed Field Ablation to Treat Scar-Related Ventricular Tachycardia: The First-in-Human VCAS Trial. [*Circulation*. 2025;152(24):e373-e386.](https://doi.org/10.1161/CIRCULATIONAHA.125.073456)
+2. Tsimikas S, Szarek M, Cobbaert CM, et al. Oxidized Phospholipids, Lipoprotein(a), and Cardiovascular Outcomes After Acute Coronary Syndrome. [*Circulation*. 2025.](https://doi.org/10.1161/CIRCULATIONAHA.125.074123)
+3. Heyne H, Wanner J, et al. Leveraging a Genetic Proxy to Investigate the Effects of Lifelong Cardiac Sodium Channel Blockade. [*Circulation*. 2025.](https://doi.org/10.1161/CIRCULATIONAHA.125.074567)
+4. Xu A, Weissman D, Ermer KJ, et al. Hypercontractility and Oxidative Stress Drive Creatine Kinase Dysfunction in Hypertrophic Cardiomyopathy. [*Circulation*. 2025;152(24):1705-1727.](https://doi.org/10.1161/CIRCULATIONAHA.125.074890)
+5. The Cardiac Arrhythmia Suppression Trial (CAST) Investigators. Preliminary Report: Effect of Encainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression After Myocardial Infarction. [*N Engl J Med*. 1989;321(6):406-412.](https://doi.org/10.1056/NEJM198908103210629)
+6. Reddy VY, Reynolds MR, Neuzil P, et al. Prophylactic Catheter Ablation for the Prevention of Defibrillator Therapy. [*N Engl J Med*. 2007;357(26):2657-2665.](https://doi.org/10.1056/NEJMoa065457)
+
+---
+
+## 詞彙表
+
+| 縮寫/術語 | 說明 |
+|-----------|------|
+| PFA | Pulsed Field Ablation，脈衝場消融 |
+| VT | Ventricular Tachycardia，心室頻脈 |
+| ICD | Implantable Cardioverter-Defibrillator，植入式心律去顫器 |
+| RF | Radiofrequency，射頻 |
+| OxPL-apoB | Oxidized Phospholipids on Apolipoprotein B-100 |
+| Lp(a) | Lipoprotein(a)，脂蛋白(a) |
+| MACE | Major Adverse Cardiovascular Events，主要心血管不良事件 |
+| ACS | Acute Coronary Syndrome，急性冠心症 |
+| SCN5A | Sodium Voltage-Gated Channel Alpha Subunit 5 |
+| HCM | Hypertrophic Cardiomyopathy，肥厚型心肌病 |
+| IDE | Investigational Device Exemption，研究性器械豁免 |
+| PCSK9 | Proprotein Convertase Subtilisin/Kexin Type 9 |

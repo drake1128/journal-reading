@@ -1,198 +1,199 @@
-# JACC Behind the Science Podcast
+# Loss of Y Chromosome and Major Cardiovascular Events in Older Men
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-01-10**
+**原文連結：[JACC — Behind the Science: LOY and CV Events](https://doi.org/10.1016/j.jacc.2025.11.019)**
 
 ---
 
-Loss of Y Chromosome and Major Cardiovascular
-Events in Older Men
-Y 染色體缺失與老年男性重大心血管事件：ASPREE 試驗分析
-JACC. 2026 January Behind the Science Podcast
-整理：謝慕揚MD, PhD, FESC
-日期：2026-1-10
-核心發現摘要
-• Loss of Y chromosome (LOY) 是指循環leukocytes 完全失去Y 染色體，這在70 歲
-以上男性中相當常見（20-40%）
-• 在ASPREE 試驗中，baseline 時的LOY 可前瞻性預測未來myocardial infarction
-(MI) 風險
-• 關鍵發現：LOY 與MI 顯著相關，但與ischemic stroke 無關——可能反映不同的病
-理機制
-• Dose-response 效應：>23% cells 有LOY 者，non-fatal MI 的HR = 1.68（95% CI
-1.16-2.45）
-• LOY 與CHIP (clonal hematopoiesis of indeterminate potential) 呈反向相關，可能是
-competing processes
-1 研究背景
-1.1 什麼是Loss of Y Chromosome (LOY)?
-• 定義：循環leukocytes（白血球）完全失去整條Y 染色體的現象
-• 發生率：70 歲以上男性中，20-40% 會出現此現象
-• 程度：受影響的leukocytes 比例可從10% 到50% 不等
-• 發現者：約10-15 年前由瑞典Uppsala 大學的Lars Forsberg 教授發現
-1.2 LOY 與疾病的關聯
-過去研究顯示LOY 與多種疾病相關：
-• 癌症：血液癌症及實體腫瘤
-• 神經退化：Alzheimer’s disease
-• 眼科疾病：Macular degeneration（黃斑部病變）
-• 心血管疾病：但過去研究多為已有CV disease 或CKD 的患者
+## 核心發現摘要
 
+> - Loss of Y chromosome (LOY) 是指循環 leukocytes 完全失去 Y 染色體，這在 70 歲以上男性中相當常見（20–40%）
+> - 在 ASPREE 試驗中，baseline 時的 LOY 可前瞻性預測未來 myocardial infarction (MI) 風險
+> - 關鍵發現：LOY 與 MI 顯著相關，但與 ischemic stroke 無關 — 可能反映不同的病理機制
+> - Dose-response 效應：>23% cells 有 LOY 者，non-fatal MI 的 HR = 1.68（95% CI 1.16–2.45）
+> - LOY 與 CHIP (clonal hematopoiesis of indeterminate potential) 呈反向相關，可能是 competing processes
 
-重點提醒
-本研究的新貢獻：首次在「健康」的老年男性中，前瞻性地證明LOY 可預測未來心血管
-事件風險。 2 ASPREE 試驗簡介
-2.1 試驗設計
-項目
-內容
-試驗名稱
-ASPREE (ASPirin in Reducing Events in the Elderly)
-設計
-大型隨機對照試驗
-介入
-Low-dose aspirin vs placebo
-Primary endpoint
-Disability-free survival
-參與者
-19,000 人（澳洲及美國）
-年齡
-≥65 歲（少數族裔）或≥70 歲（多數）
-平均年齡約74 歲
-關鍵特點
-所有參與者在enrollment 時無心血管疾病病史
-由GP 進行臨床評估確認
-Biobank
-約75% 參與者提供baseline 血液樣本
-2.2 為何ASPREE 適合研究LOY?
-1. Primary prevention setting：參與者在baseline 時無CV disease
-2. 老年族群：平均74 歲，正是LOY 開始顯著增加的年齡
-3. 大規模biobank：可進行基因分析及biomarker 測量
-4. 臨床adjudicated endpoints：心血管事件經專家確認
-3 主要研究發現
-3.1 LOY 與心血管事件
-• LOY 與MACE（major adverse cardiovascular events）及其組成部分相關
-• 關鍵發現：LOY 主要與myocardial infarction 相關，但與ischemic stroke 無關
-3.2 Dose-Response 效應
-研究將LOY 程度分為三類：
+---
 
+## 1. 研究背景
 
-LOY 程度
-定義
-說明
-低度或無LOY
-<5% cells 失去Y 染色體
-可能為noise/artifact
-中度LOY
-5-22% cells 失去Y 染色體
-介於signal 與noise 之間
-高度LOY (Substan-
-tial)
->23% cells 失去Y 染色體
-明確的pathological signal
-3.3 主要結果
-• Non-fatal MI（高度LOY vs 低度LOY）：
-– Fully adjusted HR = 1.68（95% CI 1.16-2.45）
-– 調整CHIP 後HR = 1.56（仍顯著）
-– 排除CHIP 患者後HR = 1.9（信號增強）
-• Ischemic stroke：95% CI 跨越1（無顯著相關）
-• MACE：95% CI 跨越1（無顯著相關）
-重點提醒
-為何LOY 與MI 相關但與stroke 無關？可能的解釋：
-• MI 主要來自plaque rupture 後的局部inflammation
-• Stroke 多為來自大動脈或心臟的emboli（如atrial fibrillation）
-• 類似的exposure-outcome 差異也見於：Lipoprotein(a)、LDL、CETP gene——均與
-MI 相關但與stroke 無關
-4 外部驗證：UK Biobank
-4.1 驗證結果
-• 在UK Biobank 中複製了LOY 與MI/MACE 的關聯
-• 效應量較小（可能原因見下）
-• Stroke 在UK Biobank 中同樣無顯著關聯
-4.2 ASPREE vs UK Biobank 差異
-項目
-ASPREE
-UK Biobank
-年齡
-平均74 歲
-平均57 歲
-LOY 盛行率
-較高（老年族群）
-較低（LOY 在65+ 才開始
-顯著）
+### 1.1 什麼是 Loss of Y Chromosome (LOY)?
 
+- **定義：** 循環 leukocytes（白血球）完全失去整條 Y 染色體的現象
+- **發生率：** 70 歲以上男性中，20–40% 會出現此現象
+- **程度：** 受影響的 leukocytes 比例可從 10% 到 50% 不等
+- **發現者：** 約 10–15 年前由瑞典 Uppsala 大學的 Lars Forsberg 教授發現
 
-項目
-ASPREE
-UK Biobank
-CV disease 排除
-臨床評估確認
-ICD-10 codes（較不精確）
-Endpoint 確認
-臨床adjudication
-ICD-10 codes
-Selection bias
-較小
-較大（9M 邀請信→500K
-參與）
-5 LOY 與CHIP 的關係
-5.1 CHIP 簡介
-CHIP (Clonal Hematopoiesis of Indeterminate Potential)：
-• 造血幹細胞獲得體細胞突變並clonal expansion
-• 也是age-related 現象
-• 與心血管疾病風險增加相關
-5.2 LOY 與CHIP 的關係
-• 原始假設：LOY + CHIP = 「Double whammy」，風險更高
-• 實際發現：LOY 與CHIP 呈反向相關（inversely correlated）
-– 有LOY 者較不易有CHIP
-– 有CHIP 者較不易有LOY
-• 推論：LOY 與CHIP 可能是獨立或competing processes
-• 可能發生在不同的blood cell subsets
-6 LOY 測量方法
-6.1 Microarray 方法（Gold Standard）
-1. 計算所有non-sex chromosomes 的SNP microarray intensity 平均值
-2. 計算Y chromosome 所有probes 的intensity 平均值
-3. 比較兩者的比值（ratio）估計LOY
-4. 轉換為「失去Y 染色體的細胞百分比」
-6.2 訊號與雜訊
-• 低端測量有signal-to-noise 問題
-• 部分數據可能出現「正值」（看似有更多Y 染色體）——這是artifact
-• >23% LOY 可確定為真實的pathological signal
+### 1.2 LOY 與疾病的關聯
 
+過去研究顯示 LOY 與多種疾病相關：
 
-6.3 Whole Genome Sequencing 驗證
-• 在約1,200-1,500 名男性亞群中進行
-• 透過Y chromosome 的sequencing depth 估計LOY
-• 與microarray 結果高度相關（r = 0.98）
-• Microarray 在低端可能比sequencing 更有雜訊
-7 可能的機制
-7.1 動物實驗證據
-Sano 等人（約2 年前）的研究顯示：
-• LOY 在動物模型中導致fibrosis
-• 心肌是最受影響的肌肉組織
-• 可能機制：MI 後remodeling
-7.2 推測的機制
-• Pro-fibrotic signaling：TGF-β（transforming growth factor beta）
-• Macrophage 功能：LOY macrophages 可能促進fibrosis
-• Y 染色體上的基因：可能影響blood pressure 及cholesterol（已知MI 風險因子）
-8 臨床意義與未來方向
-8.1 目前限制
-• LOY 檢測目前尚未在臨床實驗室常規提供
-• 仍是「emerging risk factor」
-• 是否為causative 或byproduct 仍需更多研究
-8.2 未來研究方向
-1. 風險預測：將LOY 納入現有心血管風險評分（如SCORE-OP）
-2. 治療介入：是否可預防或逆轉LOY？
-3. 機制研究：LOY 是否發生在特定cell subsets？
-4. 其他族群驗證：不同人種、不同年齡層
+- **癌症：** 血液癌症及實體腫瘤
+- **神經退化：** Alzheimer's disease
+- **眼科疾病：** Macular degeneration（黃斑部病變）
+- **心血管疾病：** 但過去研究多為已有 CV disease 或 CKD 的患者
 
+> **Pearl：** 本研究的新貢獻：首次在「健康」的老年男性中，前瞻性地證明 LOY 可預測未來心血管事件風險。
 
-重點提醒
-重要觀點：LOY 可能是「age-related genomic changes in blood」的一部分，這類變化在心
-血管疾病風險評估中越來越重要。本研究也特別感謝ASPREE 試驗PI John McNeil 教
-授建立的biobank 基礎建設。 9 結論
-1. LOY 是老年男性中常見的age-related 現象（70 歲以上20-40%）
-2. 在健康老年男性中，LOY 可前瞻性預測MI 風險
-3. LOY 與MI 的關聯獨立於傳統心血管風險因子及CHIP
-4. LOY 與stroke 無關，可能反映MI 與stroke 不同的病理機制
-5. 未來需要更多研究確定LOY 的臨床應用價值
-10 參考資料
-1. Lacaze P, Manierato A, et al. Loss of Y Chromosome and Major Cardiovascular Events
-in a Prospective Study of Older Men. J Am Coll Cardiol. 2026. 2. Sano S, et al. Hematopoietic loss of Y chromosome leads to cardiac fibrosis and heart
-failure mortality. Science. 2022;377:292-297. 3. Forsberg LA. Loss of chromosome Y (LOY) in blood cells is associated with increased
-risk for disease and mortality in aging men. Hum Genet. 2017;136:657-663.
+---
+
+## 2. ASPREE 試驗簡介
+
+### 2.1 試驗設計
+
+| 項目 | 內容 |
+|------|------|
+| 試驗名稱 | ASPREE (ASPirin in Reducing Events in the Elderly) |
+| 設計 | 大型隨機對照試驗 |
+| 介入 | Low-dose aspirin vs placebo |
+| Primary endpoint | Disability-free survival |
+| 參與者 | 19,000 人（澳洲及美國） |
+| 年齡 | ≥65 歲（少數族裔）或 ≥70 歲（多數），平均約 74 歲 |
+| 關鍵特點 | 所有參與者在 enrollment 時無心血管疾病病史 |
+| Biobank | 約 75% 參與者提供 baseline 血液樣本 |
+
+### 2.2 為何 ASPREE 適合研究 LOY?
+
+1. **Primary prevention setting：** 參與者在 baseline 時無 CV disease
+2. **老年族群：** 平均 74 歲，正是 LOY 開始顯著增加的年齡
+3. **大規模 biobank：** 可進行基因分析及 biomarker 測量
+4. **臨床 adjudicated endpoints：** 心血管事件經專家確認
+
+---
+
+## 3. 主要研究發現
+
+### 3.1 LOY 與心血管事件
+
+- LOY 與 MACE（major adverse cardiovascular events）及其組成部分相關
+- **關鍵發現：** LOY 主要與 myocardial infarction 相關，但與 ischemic stroke 無關
+
+### 3.2 Dose-Response 效應
+
+| LOY 程度 | 定義 | 說明 |
+|----------|------|------|
+| 低度或無 LOY | <5% cells 失去 Y 染色體 | 可能為 noise/artifact |
+| 中度 LOY | 5–22% cells 失去 Y 染色體 | 介於 signal 與 noise 之間 |
+| 高度 LOY (Substantial) | >23% cells 失去 Y 染色體 | 明確的 pathological signal |
+
+### 3.3 主要結果
+
+- **Non-fatal MI（高度 LOY vs 低度 LOY）：**
+  - Fully adjusted HR = 1.68（95% CI 1.16–2.45）
+  - 調整 CHIP 後 HR = 1.56（仍顯著）
+  - 排除 CHIP 患者後 HR = 1.9（信號增強）
+- **Ischemic stroke：** 95% CI 跨越 1（無顯著相關）
+- **MACE：** 95% CI 跨越 1（無顯著相關）
+
+> **Pearl：為何 LOY 與 MI 相關但與 stroke 無關？** 可能的解釋：MI 主要來自 plaque rupture 後的局部 inflammation；Stroke 多為來自大動脈或心臟的 emboli（如 atrial fibrillation）。類似的 exposure-outcome 差異也見於：Lipoprotein(a)、LDL、CETP gene — 均與 MI 相關但與 stroke 無關。
+
+---
+
+## 4. 外部驗證：UK Biobank
+
+### 4.1 驗證結果
+
+- 在 UK Biobank 中複製了 LOY 與 MI/MACE 的關聯
+- 效應量較小（可能原因見下）
+- Stroke 在 UK Biobank 中同樣無顯著關聯
+
+### 4.2 ASPREE vs UK Biobank 差異
+
+| 項目 | ASPREE | UK Biobank |
+|------|--------|------------|
+| 年齡 | 平均 74 歲 | 平均 57 歲 |
+| LOY 盛行率 | 較高（老年族群） | 較低（LOY 在 65+ 才開始顯著） |
+| CV disease 排除 | 臨床評估確認 | ICD-10 codes（較不精確） |
+| Endpoint 確認 | 臨床 adjudication | ICD-10 codes |
+| Selection bias | 較小 | 較大（9M 邀請信 → 500K 參與） |
+
+---
+
+## 5. LOY 與 CHIP 的關係
+
+### 5.1 CHIP 簡介
+
+CHIP (Clonal Hematopoiesis of Indeterminate Potential)：造血幹細胞獲得體細胞突變並 clonal expansion，也是 age-related 現象，與心血管疾病風險增加相關。
+
+### 5.2 LOY 與 CHIP 的關係
+
+- **原始假設：** LOY + CHIP = "Double whammy"，風險更高
+- **實際發現：** LOY 與 CHIP 呈反向相關（inversely correlated）
+  - 有 LOY 者較不易有 CHIP
+  - 有 CHIP 者較不易有 LOY
+- **推論：** LOY 與 CHIP 可能是獨立或 competing processes，可能發生在不同的 blood cell subsets
+
+---
+
+## 6. LOY 測量方法
+
+### 6.1 Microarray 方法（Gold Standard）
+
+1. 計算所有 non-sex chromosomes 的 SNP microarray intensity 平均值
+2. 計算 Y chromosome 所有 probes 的 intensity 平均值
+3. 比較兩者的比值（ratio）估計 LOY
+4. 轉換為「失去 Y 染色體的細胞百分比」
+
+### 6.2 訊號與雜訊
+
+- 低端測量有 signal-to-noise 問題
+- 部分數據可能出現「正值」（看似有更多 Y 染色體）— 這是 artifact
+- >23% LOY 可確定為真實的 pathological signal
+
+### 6.3 Whole Genome Sequencing 驗證
+
+- 在約 1,200–1,500 名男性亞群中進行
+- 透過 Y chromosome 的 sequencing depth 估計 LOY
+- 與 microarray 結果高度相關（r = 0.98）
+
+---
+
+## 7. 可能的機制
+
+### 7.1 動物實驗證據
+
+Sano 等人（約 2 年前）的研究顯示：LOY 在動物模型中導致 fibrosis，心肌是最受影響的肌肉組織，可能機制為 MI 後 remodeling。
+
+### 7.2 推測的機制
+
+- **Pro-fibrotic signaling：** TGF-β（transforming growth factor beta）
+- **Macrophage 功能：** LOY macrophages 可能促進 fibrosis
+- **Y 染色體上的基因：** 可能影響 blood pressure 及 cholesterol
+
+---
+
+## 8. 臨床意義與未來方向
+
+### 8.1 目前限制
+
+- LOY 檢測目前尚未在臨床實驗室常規提供
+- 仍是 "emerging risk factor"
+- 是否為 causative 或 byproduct 仍需更多研究
+
+### 8.2 未來研究方向
+
+1. **風險預測：** 將 LOY 納入現有心血管風險評分（如 SCORE-OP）
+2. **治療介入：** 是否可預防或逆轉 LOY？
+3. **機制研究：** LOY 是否發生在特定 cell subsets？
+4. **其他族群驗證：** 不同人種、不同年齡層
+
+> **Pearl：** LOY 可能是 "age-related genomic changes in blood" 的一部分，這類變化在心血管疾病風險評估中越來越重要。
+
+---
+
+## 9. 結論
+
+1. LOY 是老年男性中常見的 age-related 現象（70 歲以上 20–40%）
+2. 在健康老年男性中，LOY 可前瞻性預測 MI 風險
+3. LOY 與 MI 的關聯獨立於傳統心血管風險因子及 CHIP
+4. LOY 與 stroke 無關，可能反映 MI 與 stroke 不同的病理機制
+5. 未來需要更多研究確定 LOY 的臨床應用價值
+
+---
+
+## 10. 參考資料
+
+1. Lacaze P, Manierato A, et al. Loss of Y Chromosome and Major Cardiovascular Events in a Prospective Study of Older Men. [*J Am Coll Cardiol*. 2026.](https://doi.org/10.1016/j.jacc.2025.11.019)
+2. Sano S, et al. Hematopoietic loss of Y chromosome leads to cardiac fibrosis and heart failure mortality. [*Science*. 2022;377:292-297.](https://doi.org/10.1126/science.abn3100)
+3. Forsberg LA. Loss of chromosome Y (LOY) in blood cells is associated with increased risk for disease and mortality in aging men. [*Hum Genet*. 2017;136:657-663.](https://doi.org/10.1007/s00439-017-1799-2)
