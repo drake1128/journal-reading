@@ -481,8 +481,7 @@ Anesthesia
 慕揚review文獻, 認為light sedation 比 全麻 要較低的住院天數與併發症
 中國醫藥學院與彰基 全麻 --> 做完要一段時間才能做神經學評估
 
----
-Procedure:
+## Procedure
 Heparin: NO Bolus
 彰基: Heprain 1500U in 500cc saline irrigation, 比較少
 慕揚: Heparin 5000U in 1000cc saline irrigation (依照水牛城經驗)
