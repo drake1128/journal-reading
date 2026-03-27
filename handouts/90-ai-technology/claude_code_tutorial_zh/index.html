@@ -8,7 +8,7 @@
 
 <meta name="author" content="謝慕揚 MD, PhD, FESC">
 
-<title>Claude Code 完整教學手冊 – Journal Reading — Dr.&nbsp;Drake Hsieh</title>
+<title>Claude Code 完整教學手冊：AI 輔助程式開發的最佳實踐與技巧 – Journal Reading — Dr.&nbsp;Drake Hsieh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -118,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="切換側邊欄導航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/index.html">AI &amp; 科技</a></li><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/claude_code_tutorial_zh/index.html">Claude Code 完整教學手冊</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/index.html">AI &amp; 科技</a></li><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/claude_code_tutorial_zh/index.html">Claude Code 完整教學手冊：AI 輔助程式開發的最佳實踐與技巧</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="切換側邊欄導航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -154,31 +189,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學講義</span></a>
+ <span class="menu-text">DC Shock 電擊治療與心律反轉術指南</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/acs-book-early-diagnosis-of-ami/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">急性心肌梗塞早期診斷與心電圖判讀</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/book-ffr-eng/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fractional Flow Reserve (FFR)</span></a>
+ <span class="menu-text">Fractional Flow Reserve (FFR): Comprehensive Lecture Notes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/ffr_實證與血運重建策略/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">FFR 實證與血運重建策略</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/stemi_missed_diagnosis_case_study/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">急診STEMI 漏診案例分析</span></a>
+ <span class="menu-text">急診 STEMI 漏診案例分析：忽略心電圖電腦判讀警示的慘痛教訓</span></a>
   </div>
 </li>
       </ul>
@@ -218,13 +253,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/antithrombotic-therapy-after-successful-catheter-ablation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n engl j med 394;4  nejm.org  January 22, 2026</span></a>
+ <span class="menu-text">OCEAN Trial: Antithrombotic Therapy after Successful Catheter Ablation for Atrial Fibrillation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/circulation-ai-ecg-phenotypic-selectivity-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation 教學講義</span></a>
+ <span class="menu-text">AI-ECG 表型選擇性研究：人工智慧增強心電圖在心血管診斷與風險預測中的表型選擇性</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -236,55 +271,55 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/ecg-reading-guide-for-nurses-護理心電圖判讀指南/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心電圖判讀教學</span></a>
+ <span class="menu-text">護理心電圖判讀教學指南 / ECG Reading Guide for Nurses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/ecg_interpretation_myocardial_infarction_a_clinical_guide/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">心肌梗塞心電圖判讀臨床指南 / ECG Interpretation in Myocardial Infarction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/ecg_reading_guide_護理心電圖判讀指南/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心電圖判讀教學</span></a>
+ <span class="menu-text">護理心電圖判讀教學指南 / ECG Reading Guide for Nurses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/european-heart-journal-beat-parox-af-pfa-vs-rfa-2025-afib-ep/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">BEAT PAROX-AF 試驗：脈衝場消融術 vs 射頻消融術治療陣發性心房顫動</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/lecture-ecg-master-class/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The COMPLETE 12-Lead ECG Masterclass</span></a>
+ <span class="menu-text">The COMPLETE 12-Lead ECG Masterclass — 12 導程心電圖完整教學課程</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/nejm-ai-ecg-learning/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">基於自我監督學習的ECG Foundation Transformer 模型</span></a>
+ <span class="menu-text">基於自我監督學習的 ECG Foundation Transformer 模型用於心臟與冠狀動脈功能評估</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/nejm-ocean-trial-af-ablation-anticoagulation-2026-ep/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM 教學講義</span></a>
+ <span class="menu-text">OCEAN 試驗：心房顫動電燒術成功後之抗血栓治療</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/nejm-physiologic-pacing-heart-failure-2026-ep/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM 教學講義</span></a>
+ <span class="menu-text">心臟衰竭之生理性心律調節治療 / Physiologic Pacing in Heart Failure</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/physiologic-pacing-in-heart-failure/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n engl j med 394;4  nejm.org  January 22, 2026</span></a>
+ <span class="menu-text">Physiologic Pacing in Heart Failure — 心衰竭之生理性心臟節律治療</span></a>
   </div>
 </li>
       </ul>
@@ -307,61 +342,61 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/cath-hemodynamics-aortic-stenosis-as-tavr-hanna/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">主動脈瓣狹窄血流動力學評估</span></a>
+ <span class="menu-text">主動脈瓣狹窄血流動力學評估 — 心導管技術要點 / Hemodynamic Assessment of Aortic Stenosis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/eurointervention-m-teer-mitraclip-review/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Transcatheter Edge-to-Edge Repair in</span></a>
+ <span class="menu-text">續發性二尖瓣逆流之經導管緣對緣修復術 — State-of-the-Art Review</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/european-heart-journal-top-10-vhd-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">2025 年心血管醫學年度回顧：瓣膜性心臟病十大論文</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/lecture-mitral-ptmv/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mitral Stenosis</span></a>
+ <span class="menu-text">二尖瓣狹窄結構性心臟病介入治療 — 經皮穿刺二尖瓣球囊擴張術 (PTMC) / Structural Heart Disease Intervention: Mitral Stenosis &amp; PTMC</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/lecture-mitral-ptmv-inoue-balloon-tutorial/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Inoue Balloon Catheter</span></a>
+ <span class="menu-text">經皮穿刺二尖瓣球囊成形術 (PTMC) — Inoue Balloon Catheter 教學講義</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/lecture-mitral-teer/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">經導管二尖瓣緣對緣修補術 — MitraClip 完整文獻回顧與臨床應用指引 / Transcatheter Mitral Edge-to-Edge Repair (TEER)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/nejm-clinical-decisions-tavr-vs-savr-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Clinical Decisions 教學講義</span></a>
+ <span class="menu-text">TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄 — NEJM Clinical Decisions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/sdm_pda_tavr_vs_savr_主動脈瓣膜狹窄治療決策/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">醫病共享決策</span></a>
+ <span class="menu-text">醫病共享決策：主動脈瓣膜嚴重狹窄治療方式選擇</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/tavr-ct-evaluation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟血管中心教學文件</span></a>
+ <span class="menu-text">Pre-TAVR CT Evaluation — 經導管主動脈瓣膜置換術前電腦斷層評估</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/teer-pcronline-top-10-tricuspid-intervention-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PCRonline 教學講義</span></a>
+ <span class="menu-text">2025 年三尖瓣介入治療十大重要文獻回顧 / The Top Ten Impactful Papers from 2025 on Tricuspid Intervention</span></a>
   </div>
 </li>
       </ul>
@@ -384,31 +419,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-心臟磁振造影判讀/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟磁振造影教學</span></a>
+ <span class="menu-text">Cardiac MRI — LGE Patterns 心臟磁振造影 LGE 判讀教學 / Late Gadolinium Enhancement Pattern Interpretation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/cardiac_mri_lge_patterns_心臟磁振造影判讀/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟磁振造影教學</span></a>
+ <span class="menu-text">Cardiac MRI — LGE Patterns 心臟磁振造影 LGE 判讀教學 / Late Gadolinium Enhancement Pattern Interpretation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/exam-cv-calculations-echo-cath/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心考題</span></a>
+ <span class="menu-text">心血管中心考題：心臟科計算題</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/exam-echo-as/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教育訓練</span></a>
+ <span class="menu-text">主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/lecture-echo-book-0-focus-eng/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cardiovascular Center Teaching Document</span></a>
+ <span class="menu-text">Focused Cardiac Ultrasonography for Left Ventricular Systolic Function Assessment</span></a>
   </div>
 </li>
       </ul>
@@ -431,31 +466,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/book-61-cag-a-set-up/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">冠狀動脈造影操作</span></a>
+ <span class="menu-text">冠狀動脈造影操作：完整步驟與實務指南</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/book-62-cag-b-interpretation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">冠狀動脈造影解讀</span></a>
+ <span class="menu-text">冠狀動脈造影解讀：教學講義與評估檢查表</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/cath-pci-aorto-ostial-lesoins/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">主動脈開口部位血管攝影與支架置放</span></a>
+ <span class="menu-text">主動脈開口部位血管攝影與支架置放：技巧與案例說明</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/cath-pci-wiring/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PCI 導絲穿越技術</span></a>
+ <span class="menu-text">PCI 導絲穿越技術 — Guidewire Crossing Techniques</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/catheterization-risks-and-complications/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">Catheterization Risks and Complications</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -467,13 +502,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/gmail---persistent-sciatic-artery-rt-side/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Drake Hsieh <drake1128@gmail.com></drake1128@gmail.com></span></a>
+ <span class="menu-text">Persistent Sciatic Artery (PSA) — 病例討論</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/guidewire_science_art_and_clinical_wisdom/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">Guidewire: Science, Art, and Clinical Wisdom</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -491,7 +526,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/jic-mother-child-catheter-lm-dissection-2018/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">J Invasive Cardiol 教學講義</span></a>
+ <span class="menu-text">Mother-and-Child 導管於 OCT 檢查中引起左主幹逆行性剝離</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -509,19 +544,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/oct-abbott-ultreon-20-software-操作手冊/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Abbott CONFIDENTIAL</span></a>
+ <span class="menu-text">Abbott Ultreon 2.0 Software 操作手冊</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/people-in-cv-patrick-serruys/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation. 2016;134:97–100. DOI: 10.1161/CIRCULATIONAHA.116.023681</span></a>
+ <span class="menu-text">經皮冠狀動脈介入治療的誕生與演進——詳細講義</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/persistent-sciatic-artery-paod/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">周邊血管介入教學講義</span></a>
+ <span class="menu-text">Persistent Sciatic Artery：罕見血管變異的診斷與處置</span></a>
   </div>
 </li>
       </ul>
@@ -544,7 +579,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/advanced-materials-carotid-artery-chip-3d-printing-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Advanced Materials 教學講義</span></a>
+ <span class="menu-text">快速玻璃基板數位光處理 3D 列印技術：病患專屬頸動脈晶片用於個人化血栓研究</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -556,31 +591,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/exam-echo-abi-and-paod-vascular-duplex/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">血管超音波室實習生考試</span></a>
+ <span class="menu-text">血管超音波室實習生考試 — ABI、下肢動脈與靜脈血管超音波</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/nejm-ischemic-limb-gangrene-with-pulses-2015/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The new engl and jour nal of medicine</span></a>
+ <span class="menu-text">有脈搏的缺血性肢體壞疽 (Ischemic Limb Gangrene with Pulses)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/nejm-pad-review-mcdermott-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Clinical Practice 教學講義</span></a>
+ <span class="menu-text">下肢周邊動脈疾病</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/nhmrc-carotid-web-rbc-thrombosis-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Grant 教學講義</span></a>
+ <span class="menu-text">超越白色血栓：解碼紅血球在頸動脈蹼血栓形成中的機械感應機制</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/paod-nejm-review-mcdermott-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Clinical Practice 教學講義</span></a>
+ <span class="menu-text">Peripheral Artery Disease in the Legs — NEJM Clinical Practice Review</span></a>
   </div>
 </li>
       </ul>
@@ -620,7 +655,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/09-hypertension/cobra-bps-居家血壓用藥調整流程/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">居家血壓管理衛教指引</span></a>
+ <span class="menu-text">COBRA-BPS 居家血壓管理與用藥調整流程</span></a>
   </div>
 </li>
       </ul>
@@ -643,61 +678,61 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/critical-care-2026-icuaw-rehabilitation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Critical Care 教學講義</span></a>
+ <span class="menu-text">懸吊式下肢復健裝置對 ICU 獲得性衰弱患者下肢功能之療效</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-ai-in-icu/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">加護病房人工智慧部署：</span></a>
+ <span class="menu-text">加護病房人工智慧部署：從成功與失敗中學習</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-broad-spectrum-antibiotics-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">When Should I Start Broad-Spectrum Antibiotics? — 何時應該開始使用廣效抗生素？</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-clinical-governance-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Clinical Governance in Intensive Care Medicine — 加護病房的臨床治理</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-metabolic-acidosis-buffering-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Understanding Buffering of Metabolic Acidosis in Critical Illness / 了解重症病人代謝性酸中毒的緩衝作用</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-standards-atrial-fibrillation-echo/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心房顫動之超音波導引治療策略</span></a>
+ <span class="menu-text">Echocardiography-Guided Management of Atrial Fibrillation / 心房顫動之超音波導引治療策略</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-stress-ulcer-prevention-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Preventing Stress Ulcer Bleeding / 預防壓力性潰瘍出血</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/lecture-ccu-hematoma/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">緊急病安警示文件</span></a>
+ <span class="menu-text">經橈動脈介入術後血腫管理完整教學講義 / Comprehensive Guide for Transradial Access Hematoma Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/lecture-ccu-pulmonary-edema/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">肺水腫臨床與放射學特徵分析 / Clinical and Radiologic Features of Pulmonary Edema</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/lecture-ccu-r-and-np-orientation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">新竹台大分院</span></a>
+ <span class="menu-text">CCU 工作手冊 / Coronary Care Unit Orientation Manual</span></a>
   </div>
 </li>
       </ul>
@@ -720,7 +755,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/11-icu-respiratory/icm-diaphragm-ultrasound-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">How I Perform Diaphragmatic Ultrasound in the Intensive Care Unit / 如何在加護病房執行橫膈膜超音波</span></a>
   </div>
 </li>
       </ul>
@@ -743,7 +778,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/12-icu-hemodynamics/cardiogenic-shock-school-esc-心因性休克教學講義/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ESC Cardiogenic Shock School 教學講義</span></a>
+ <span class="menu-text">ESC Cardiogenic Shock School：心因性休克完整處置教學</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -755,13 +790,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/12-icu-hemodynamics/icm-2024-cardiac-output-monitoring/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICM 教學講義</span></a>
+ <span class="menu-text">Cardiac Output Monitoring：心輸出量監測</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/12-icu-hemodynamics/icm-va-ecmo-echo-checklist-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">VA-ECMO 病人的心臟超音波檢查清單</span></a>
   </div>
 </li>
       </ul>
@@ -784,7 +819,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/13-icu-renal/icm-aki-rrt-timing-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Acute Kidney Injury：何時及如何開始腎臟替代療法</span></a>
   </div>
 </li>
       </ul>
@@ -807,13 +842,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/20-pulmonary-embolism/circulation-storm-pe-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation 教學講義</span></a>
+ <span class="menu-text">STORM-PE：機械血栓抽吸術治療急性中高風險肺栓塞</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/20-pulmonary-embolism/lecture-acute-pe-cdt/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">急性肺栓塞導管導向治療：完整操作流程指引</span></a>
   </div>
 </li>
       </ul>
@@ -836,13 +871,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/21-pulmonary-hypertension/checklist-pulmonary-hypertension/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">肺動脈高壓診斷查核表</span></a>
+ <span class="menu-text">肺動脈高壓診斷查核表 (Pulmonary Hypertension Diagnostic Checklist)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/21-pulmonary-hypertension/chest-2026-ild-ph/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CHEST 教學講義</span></a>
+ <span class="menu-text">ILD-PH 診斷與治療：間質性肺病相關肺高壓</span></a>
   </div>
 </li>
       </ul>
@@ -865,7 +900,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/22-copd-asthma/ajrccm-airflow-3-copd-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">AJRCCM 教學講義</span></a>
+ <span class="menu-text">AIRFLOW-3：COPD 病人標靶肺去神經術之隨機假對照試驗</span></a>
   </div>
 </li>
       </ul>
@@ -888,43 +923,43 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Anthropic Case Study 教學講義</span></a>
+ <span class="menu-text">AI for Scientific Research: Anthropic Case Study — 科學家如何運用 Claude 加速研究與發現</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/claude_code_tutorial/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Claude Code Tutorial</span></a>
+ <span class="menu-text">Claude Code Tutorial: Best Practices and Tips for AI-Powered Coding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/claude_code_tutorial_zh/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Claude Code 完整教學手冊</span></a>
+ <span class="menu-text">Claude Code 完整教學手冊：AI 輔助程式開發的最佳實踐與技巧</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/major-ai-conference-flooded-with-peer-reviews-written-fully-/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">27 November 2025</span></a>
+ <span class="menu-text">Major AI Conference Flooded with Peer Reviews Written Fully by AI / 主要 AI 研討會發現 21% 評審完全由 AI 生成</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/nature-2025-ai-peer-review/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">人工智慧氾濫學術同行評審系統</span></a>
+ <span class="menu-text">人工智慧氾濫學術同行評審系統 / AI-Generated Peer Review Crisis at ICLR 2026</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/nejm-ai-chatgpt-grading-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM AI 教學講義</span></a>
+ <span class="menu-text">Assessment of Short-Answer Questions by ChatGPT in a Medical School Course / 使用 ChatGPT 評量醫學院課程簡答題</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/nejm_ai_medagentbench_2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM AI 教學講義</span></a>
+ <span class="menu-text">MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents / 評估醫療大型語言模型代理的虛擬電子病歷環境</span></a>
   </div>
 </li>
       </ul>
@@ -947,31 +982,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-02/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run: December 2025</span></a>
+ <span class="menu-text">Circulation on the Run: 2025 年 12 月號期刊重點整理</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-16/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run Podcast 精華整理</span></a>
+ <span class="menu-text">Circulation on the Run Podcast 精華整理：2025 年 12 月 16 日期刊導讀</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-23/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run Podcast 文獻整理</span></a>
+ <span class="menu-text">Circulation on the Run Podcast 文獻整理：2025 年 12 月 23 日期刊摘要</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2026-01-06/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run Podcast</span></a>
+ <span class="menu-text">Circulation on the Run Podcast：2026 年 1 月 6 日期刊重點 — STORM-PE 試驗</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2026-01-13/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run 教學講義</span></a>
+ <span class="menu-text">Circulation on the Run 教學講義：2026 年 1 月 13 日期刊重點</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -989,7 +1024,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/ehj-star-study-psgb-electrical-storm-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">經皮星狀神經節阻斷術治療電風暴：STAR 研究</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1001,7 +1036,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2025-12-14/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Focus on the Many Facets of Atrial Fibrillation:</span></a>
+ <span class="menu-text">心房顫動多面向研究：從預測到治療</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1031,7 +1066,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-hnmt-heart-failure-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">Histamine N-methyltransferase 上調、心臟肥大與心衰竭</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1079,7 +1114,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/jacc-2025-12-02-podcast/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Audio file</span></a>
+ <span class="menu-text">JACC This Week Podcast Transcript — 2025 年 12 月 2 日</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1108,91 +1143,91 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/acls-team-work/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟科急救訓練教學文件</span></a>
+ <span class="menu-text">心臟科急救訓練教學文件：A.C.L.S. Teamwork Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Diagnosing Pulmonary Tumor Thrombotic</span></a>
+ <span class="menu-text">Diagnosing Pulmonary Tumor Thrombotic Microangiopathy Using Pulmonary Microvascular Cytology</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/book-cardiovascular-care-for-neurologists/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">神經重症病人的心血管照護</span></a>
+ <span class="menu-text">神經重症病人的心血管照護 — Cardiovascular Issues in Neuro-critically Ill Patients</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/chest-implementation-science-practice-variability-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CHEST 教學講義</span></a>
+ <span class="menu-text">Implementation Science in Critical Care: Quantifying Practice Variability</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/communication_生死告別_真實溝通/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">生死告別：真實溝通</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/dan-koe-how-to-fix-your-life-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dan Koe 個人成長講義</span></a>
+ <span class="menu-text">How to Fix Your Entire Life in 1 Day — 行為改變與身份認同</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/dan-koe-how-to-fix-your-life-2026-通用版/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">人生重啟指南</span></a>
+ <span class="menu-text">人生重啟指南：如何在一天內重新定位你的人生（通用版）</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/dietary-natural-approaches-stroke-prevention-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">腦中風預防教學講義</span></a>
+ <span class="menu-text">腦中風預防：飲食模式與天然活性物質</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/eurointervention-calcified-nodules-ali/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">State-of-the-Art</span></a>
+ <span class="menu-text">Identification and Treatment of Calcified Nodules in Percutaneous Coronary Intervention</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/eurointervention-emb-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">EuroIntervention Expert Review</span></a>
+ <span class="menu-text">Endomyocardial Biopsy: A Practical Guide for Interventional Cardiologists</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/jacc-behind-the-science-2026-01-06/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">JACC Behind the Science Podcast</span></a>
+ <span class="menu-text">Loss of Y Chromosome and Major Cardiovascular Events in Older Men</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/jacc-equal-trial-smartwatch-af-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">JACC 教學講義</span></a>
+ <span class="menu-text">Enhanced Detection and Prompt Diagnosis of Atrial Fibrillation Using Apple Watch: The EQUAL Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/jacc-medicare-covid-19-cardiovascular-outcomes-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">JACC 教學講義</span></a>
+ <span class="menu-text">Hospitalizations and Mortality Among Medicare Beneficiaries at Cardiovascular Risk: COVID-19 Pandemic Impact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/journal-pa-pressure-monitor-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cordella Pulmonary Artery Sensor System</span></a>
+ <span class="menu-text">Cordella 肺動脈壓力感測器系統：遠端心衰竭管理之臨床證據回顧</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/lecture-lab-troponin/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">心肌旋轉蛋白升高解讀教學講義</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1204,55 +1239,55 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nature-covid-19-rbc-microangiopathy-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nature 教學講義</span></a>
+ <span class="menu-text">COVID-19 紅血球微血管病變：缺血性內皮細胞壞死性凋亡誘導溶血與血管病變</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nature-news-east-fusion-2026-科普講義/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nature News 科普講義</span></a>
+ <span class="menu-text">中國核融合反應爐突破電漿密度極限</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-1-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">NEJM Case 1-2026: A 50-Year-Old Woman with Fever and Abdominal Pain</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-15-2025-id/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 15-2025：52 歲男性發燒、噁心與呼吸衰竭</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-18-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 18-2025：63 歲女性運動時呼吸困難 — Erdheim-Chester Disease</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-2-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 2-2026：63 歲男性肺結節、肝臟腫塊與視力喪失 — 高毒力克雷伯氏肺炎桿菌</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-24-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 24-2025：32 歲女性疲勞及肌肉疼痛 — 萊姆心臟炎 (Lyme Carditis)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-25-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 25-2025：93 歲女性呼吸困難與疲勞 — 主動脈狹窄與 Heyde 症候群</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-27-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 27-2025：53 歲男性栓塞性中風與左心室心尖瘤 — Chagas 病</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1264,133 +1299,133 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-3-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 3-2026：58 歲女性複視與發燒 — Lyme Neuroborreliosis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-30-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 30-2025：82 歲女性腹脹、水腫與肋膜積液 — AL 類澱粉沉積症</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-31-cps-2025-id/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 31-2025：83 歲男性全身搔癢與多器官異常 — 繼發性梅毒合併神經梅毒</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-32-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 32-2025：79 歲男性呼吸困難、水腫與起搏器導線移位 — 原發性心臟淋巴瘤</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-34-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 34-2025：57 歲女性視覺障礙與右側肢體抖動 — 瀰漫性軟腦膜黑色素瘤病</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-35-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 35-2025：5 歲男童發燒合併皮疹 — IgA 血管炎</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-36-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 36-2025: 55 歲女性呼吸困難、疲勞與消化道出血</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-36-cps-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 36-2025：31 歲女性發燒、鼻竇炎與多系統肉芽腫 — 常見變異型免疫缺乏症 (CVID)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-4-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 4-2026: 80 歲女性咳嗽與低血氧症 — HIV/AIDS with PJP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-5-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 5-2026: 18 歲女性頭痛與高血壓 — Reninoma</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-6-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 6-2026: 91 歲男性呼吸困難、體重減輕及嗜酸性球增多 — EGPA</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-7-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 7-2026: 91 歲男性左膝疼痛 — M. bovis BCG Periprosthetic Joint Infection</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-8-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 8-2026: 57 歲女性胸痛、呼吸困難及暈厥 — Fungal Endocarditis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-crest-2-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM 教學講義</span></a>
+ <span class="menu-text">CREST-2: Medical Management and Revascularization for Asymptomatic Carotid Stenosis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-rifampin-tb-meningitis/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">結核性腦膜炎高劑量口服Rifampin 治療試驗</span></a>
+ <span class="menu-text">結核性腦膜炎高劑量口服 Rifampin 治療試驗 (HARVEST Trial)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejmcps2508044/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n engl j med 394;10  nejm.org  March 5, 2026</span></a>
+ <span class="menu-text">NEJM Clinical Problem-Solving: The Eyes Have It — 食源性肉毒桿菌中毒</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/people-in-cv-peter-sleight/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Professor Peter Sleight (1929–2020):</span></a>
+ <span class="menu-text">Professor Peter Sleight (1929–2020): A Pioneer in Cardiovascular Medicine</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/pisces_fish_oil_hemodialysis/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fish-Oil Supplementation and Cardiovascular</span></a>
+ <span class="menu-text">PISCES 試驗：魚油補充劑與血液透析患者心血管事件</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-bedside-encounter/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Strategies to Reinvigorate the Bedside</span></a>
+ <span class="menu-text">重振床邊臨床診察的策略 (Strategies to Reinvigorate the Bedside Clinical Encounter)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-critical-pedagogy-and/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">巴西批判教育學與醫學教育：連結教育法</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-diagnostic-equity-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">診斷公平性醫學教育：推進診斷卓越</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-educational-strategies-to-prepare-trai/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">臨床不確定性的教學策略</span></a>
+ <span class="menu-text">臨床不確定性的教學策略 (Educational Strategies to Prepare Trainees for Clinical Uncertainty)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1402,25 +1437,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/rybrevant_vte_prevention/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rybrevant (Amivantamab) 治療期間</span></a>
+ <span class="menu-text">Rybrevant (Amivantamab) 治療期間靜脈血栓栓塞 (VTE) 預防指引</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/simpsons_paradox/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">辛普森悖論(Simpson’s Paradox)</span></a>
+ <span class="menu-text">辛普森悖論 (Simpson’s Paradox)：為什麼整體存活率無法反映真正的醫療照護品質</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/醫法倫/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">醫學倫理法律討論會</span></a>
+ <span class="menu-text">醫學倫理法律討論會：79 歲無身分無健保 STEMI 個案</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/醫法倫_討論_謝慕揚/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">醫學倫理法律討論會</span></a>
+ <span class="menu-text">醫學倫理法律討論會：主持人評論 (Chair’s Commentary)</span></a>
   </div>
 </li>
       </ul>
@@ -1430,16 +1465,97 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">本頁目錄</h2>
+   
+  <ul>
+  <li><a href="#簡介" id="toc-簡介" class="nav-link active" data-scroll-target="#簡介"><span class="header-section-number">1</span> 簡介</a></li>
+  <li><a href="#簡介-1" id="toc-簡介-1" class="nav-link" data-scroll-target="#簡介-1"><span class="header-section-number">2</span> 1. 簡介</a>
+  <ul class="collapse">
+  <li><a href="#為什麼選擇-claude-code" id="toc-為什麼選擇-claude-code" class="nav-link" data-scroll-target="#為什麼選擇-claude-code"><span class="header-section-number">2.1</span> 1.1 為什麼選擇 Claude Code？</a></li>
+  </ul></li>
+  <li><a href="#安裝與設定" id="toc-安裝與設定" class="nav-link" data-scroll-target="#安裝與設定"><span class="header-section-number">3</span> 2. 安裝與設定</a>
+  <ul class="collapse">
+  <li><a href="#vs-code-擴充套件" id="toc-vs-code-擴充套件" class="nav-link" data-scroll-target="#vs-code-擴充套件"><span class="header-section-number">3.1</span> 2.1 VS Code 擴充套件</a></li>
+  <li><a href="#自動載入檔案內容" id="toc-自動載入檔案內容" class="nav-link" data-scroll-target="#自動載入檔案內容"><span class="header-section-number">3.2</span> 2.2 自動載入檔案內容</a></li>
+  </ul></li>
+  <li><a href="#終端機介面基礎" id="toc-終端機介面基礎" class="nav-link" data-scroll-target="#終端機介面基礎"><span class="header-section-number">4</span> 3. 終端機介面基礎</a>
+  <ul class="collapse">
+  <li><a href="#必備快捷鍵" id="toc-必備快捷鍵" class="nav-link" data-scroll-target="#必備快捷鍵"><span class="header-section-number">4.1</span> 3.1 必備快捷鍵</a></li>
+  <li><a href="#檔案與圖片處理" id="toc-檔案與圖片處理" class="nav-link" data-scroll-target="#檔案與圖片處理"><span class="header-section-number">4.2</span> 3.2 檔案與圖片處理</a></li>
+  </ul></li>
+  <li><a href="#模型選擇" id="toc-模型選擇" class="nav-link" data-scroll-target="#模型選擇"><span class="header-section-number">5</span> 4. 模型選擇</a>
+  <ul class="collapse">
+  <li><a href="#可用模型" id="toc-可用模型" class="nav-link" data-scroll-target="#可用模型"><span class="header-section-number">5.1</span> 4.1 可用模型</a></li>
+  <li><a href="#切換模型" id="toc-切換模型" class="nav-link" data-scroll-target="#切換模型"><span class="header-section-number">5.2</span> 4.2 切換模型</a></li>
+  <li><a href="#模型比較" id="toc-模型比較" class="nav-link" data-scroll-target="#模型比較"><span class="header-section-number">5.3</span> 4.3 模型比較</a></li>
+  </ul></li>
+  <li><a href="#必備斜線指令" id="toc-必備斜線指令" class="nav-link" data-scroll-target="#必備斜線指令"><span class="header-section-number">6</span> 5. 必備斜線指令</a>
+  <ul class="collapse">
+  <li><a href="#clear-指令" id="toc-clear-指令" class="nav-link" data-scroll-target="#clear-指令"><span class="header-section-number">6.1</span> 5.1 /clear 指令</a></li>
+  <li><a href="#常用斜線指令" id="toc-常用斜線指令" class="nav-link" data-scroll-target="#常用斜線指令"><span class="header-section-number">6.2</span> 5.2 常用斜線指令</a></li>
+  </ul></li>
+  <li><a href="#權限管理" id="toc-權限管理" class="nav-link" data-scroll-target="#權限管理"><span class="header-section-number">7</span> 6. 權限管理</a>
+  <ul class="collapse">
+  <li><a href="#權限問題" id="toc-權限問題" class="nav-link" data-scroll-target="#權限問題"><span class="header-section-number">7.1</span> 6.1 權限問題</a></li>
+  <li><a href="#跳過權限確認模式" id="toc-跳過權限確認模式" class="nav-link" data-scroll-target="#跳過權限確認模式"><span class="header-section-number">7.2</span> 6.2 跳過權限確認模式</a></li>
+  <li><a href="#建議工作流程" id="toc-建議工作流程" class="nav-link" data-scroll-target="#建議工作流程"><span class="header-section-number">7.3</span> 6.3 建議工作流程</a></li>
+  </ul></li>
+  <li><a href="#github-整合" id="toc-github-整合" class="nav-link" data-scroll-target="#github-整合"><span class="header-section-number">8</span> 7. GitHub 整合</a>
+  <ul class="collapse">
+  <li><a href="#安裝-github-應用程式" id="toc-安裝-github-應用程式" class="nav-link" data-scroll-target="#安裝-github-應用程式"><span class="header-section-number">8.1</span> 7.1 安裝 GitHub 應用程式</a></li>
+  <li><a href="#設定程式碼審查" id="toc-設定程式碼審查" class="nav-link" data-scroll-target="#設定程式碼審查"><span class="header-section-number">8.2</span> 7.2 設定程式碼審查</a></li>
+  <li><a href="#ai-程式碼審查的優點" id="toc-ai-程式碼審查的優點" class="nav-link" data-scroll-target="#ai-程式碼審查的優點"><span class="header-section-number">8.3</span> 7.3 AI 程式碼審查的優點</a></li>
+  </ul></li>
+  <li><a href="#訊息佇列" id="toc-訊息佇列" class="nav-link" data-scroll-target="#訊息佇列"><span class="header-section-number">9</span> 8. 訊息佇列</a>
+  <ul class="collapse">
+  <li><a href="#佇列運作方式" id="toc-佇列運作方式" class="nav-link" data-scroll-target="#佇列運作方式"><span class="header-section-number">9.1</span> 8.1 佇列運作方式</a></li>
+  <li><a href="#工作流程範例" id="toc-工作流程範例" class="nav-link" data-scroll-target="#工作流程範例"><span class="header-section-number">9.2</span> 8.2 工作流程範例</a></li>
+  <li><a href="#相較於傳統工作流程的優點" id="toc-相較於傳統工作流程的優點" class="nav-link" data-scroll-target="#相較於傳統工作流程的優點"><span class="header-section-number">9.3</span> 8.3 相較於傳統工作流程的優點</a></li>
+  </ul></li>
+  <li><a href="#自訂設定" id="toc-自訂設定" class="nav-link" data-scroll-target="#自訂設定"><span class="header-section-number">10</span> 9. 自訂設定</a>
+  <ul class="collapse">
+  <li><a href="#claude.md-檔案" id="toc-claude.md-檔案" class="nav-link" data-scroll-target="#claude.md-檔案"><span class="header-section-number">10.1</span> 9.1 CLAUDE.md 檔案</a></li>
+  <li><a href="#自訂-hooks" id="toc-自訂-hooks" class="nav-link" data-scroll-target="#自訂-hooks"><span class="header-section-number">10.2</span> 9.2 自訂 Hooks</a></li>
+  <li><a href="#自訂斜線指令" id="toc-自訂斜線指令" class="nav-link" data-scroll-target="#自訂斜線指令"><span class="header-section-number">10.3</span> 9.3 自訂斜線指令</a></li>
+  <li><a href="#記憶管理" id="toc-記憶管理" class="nav-link" data-scroll-target="#記憶管理"><span class="header-section-number">10.4</span> 9.4 記憶管理</a></li>
+  </ul></li>
+  <li><a href="#定價與方案" id="toc-定價與方案" class="nav-link" data-scroll-target="#定價與方案"><span class="header-section-number">11</span> 10. 定價與方案</a>
+  <ul class="collapse">
+  <li><a href="#訂閱層級" id="toc-訂閱層級" class="nav-link" data-scroll-target="#訂閱層級"><span class="header-section-number">11.1</span> 10.1 訂閱層級</a></li>
+  <li><a href="#直接定價的優勢" id="toc-直接定價的優勢" class="nav-link" data-scroll-target="#直接定價的優勢"><span class="header-section-number">11.2</span> 10.2 直接定價的優勢</a></li>
+  </ul></li>
+  <li><a href="#claude-code-的優勢" id="toc-claude-code-的優勢" class="nav-link" data-scroll-target="#claude-code-的優勢"><span class="header-section-number">12</span> 11. Claude Code 的優勢</a>
+  <ul class="collapse">
+  <li><a href="#技術優勢" id="toc-技術優勢" class="nav-link" data-scroll-target="#技術優勢"><span class="header-section-number">12.1</span> 11.1 技術優勢</a></li>
+  <li><a href="#實際效能表現" id="toc-實際效能表現" class="nav-link" data-scroll-target="#實際效能表現"><span class="header-section-number">12.2</span> 11.2 實際效能表現</a></li>
+  <li><a href="#與其他工具的比較" id="toc-與其他工具的比較" class="nav-link" data-scroll-target="#與其他工具的比較"><span class="header-section-number">12.3</span> 11.3 與其他工具的比較</a></li>
+  </ul></li>
+  <li><a href="#視覺化介面替代方案" id="toc-視覺化介面替代方案" class="nav-link" data-scroll-target="#視覺化介面替代方案"><span class="header-section-number">13</span> 12. 視覺化介面替代方案</a>
+  <ul class="collapse">
+  <li><a href="#builder.io-的-fusion" id="toc-builder.io-的-fusion" class="nav-link" data-scroll-target="#builder.io-的-fusion"><span class="header-section-number">13.1</span> 12.1 Builder.io 的 Fusion</a></li>
+  <li><a href="#適用情境" id="toc-適用情境" class="nav-link" data-scroll-target="#適用情境"><span class="header-section-number">13.2</span> 12.2 適用情境</a></li>
+  </ul></li>
+  <li><a href="#最佳實踐總結" id="toc-最佳實踐總結" class="nav-link" data-scroll-target="#最佳實踐總結"><span class="header-section-number">14</span> 13. 最佳實踐總結</a>
+  <ul class="collapse">
+  <li><a href="#日常工作檢查清單" id="toc-日常工作檢查清單" class="nav-link" data-scroll-target="#日常工作檢查清單"><span class="header-section-number">14.1</span> 13.1 日常工作檢查清單</a></li>
+  <li><a href="#生產力技巧" id="toc-生產力技巧" class="nav-link" data-scroll-target="#生產力技巧"><span class="header-section-number">14.2</span> 13.2 生產力技巧</a></li>
+  <li><a href="#常見錯誤避免" id="toc-常見錯誤避免" class="nav-link" data-scroll-target="#常見錯誤避免"><span class="header-section-number">14.3</span> 13.3 常見錯誤避免</a></li>
+  </ul></li>
+  <li><a href="#快速參考卡" id="toc-快速參考卡" class="nav-link" data-scroll-target="#快速參考卡"><span class="header-section-number">15</span> 14. 快速參考卡</a></li>
+  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論"><span class="header-section-number">16</span> 15. 結論</a></li>
+  <li><a href="#其他資源" id="toc-其他資源" class="nav-link" data-scroll-target="#其他資源"><span class="header-section-number">17</span> 其他資源</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/index.html">AI &amp; 科技</a></li><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/claude_code_tutorial_zh/index.html">Claude Code 完整教學手冊</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/index.html">AI &amp; 科技</a></li><li class="breadcrumb-item"><a href="../../../handouts/90-ai-technology/claude_code_tutorial_zh/index.html">Claude Code 完整教學手冊：AI 輔助程式開發的最佳實踐與技巧</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Claude Code 完整教學手冊</h1>
-<p class="subtitle lead">claude code tutorial zh</p>
+<h1 class="title">Claude Code 完整教學手冊：AI 輔助程式開發的最佳實踐與技巧</h1>
+<p class="subtitle lead">Claude Code 完整教學手冊：AI 輔助程式開發的最佳實踐與技巧</p>
 </div>
 
 
@@ -1468,20 +1584,552 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>AI 輔助程式開發的最佳實踐與技巧 基於Builder.io 影片教學整理 January 28, 2026 Abstract 本教學手冊提供Claude Code 的完整使用指南。Claude Code 是Anthropic 官方推出的 CLI 工具，專為AI 輔助程式開發而設計。本手冊涵蓋安裝設定、基本操作、進階功能及最 佳實踐，協助開發者充分發揮Claude Code 的強大功能，大幅提升開發效率。 Contents 簡介 1.1 為什麼選擇Claude Code？ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 安裝與設定 2.1 VS Code 擴充套件. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2 自動載入檔案內容 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 終端機介面基礎 3.1 必備快捷鍵. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2 檔案與圖片處理. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.1 拖曳檔案 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.2 貼上圖片 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 模型選擇 4.1 可用模型 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2 切換模型 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.3 模型比較 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 必備斜線指令 5.1 /clear 指令 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2 常用斜線指令. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 權限管理 6.1 權限問題 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2 跳過權限確認模式 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.3 建議工作流程. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . GitHub 整合 7.1 安裝GitHub 應用程式. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.2 設定程式碼審查. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.3 AI 程式碼審查的優點 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
-<p>Claude Code 教學手冊 Contents 訊息佇列 8.1 佇列運作方式. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.2 工作流程範例. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.3 相較於傳統工作流程的優點. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 自訂設定 9.1 CLAUDE.md 檔案. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.2 自訂Hooks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.3 自訂斜線指令. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.3.1 指令檔案結構. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.4 記憶管理 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 定價與方案 10.1 訂閱層級 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.2 價值主張 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.3 直接定價的優勢. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 Claude Code 的優勢 11.1 技術優勢 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11.2 實際效能表現. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11.3 與其他工具的比較 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 視覺化介面替代方案 12.1 Builder.io 的Fusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12.2 適用情境 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 最佳實踐總結 13.1 日常工作檢查清單 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13.2 生產力技巧. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13.3 常見錯誤避免. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 快速參考卡 15 結論 其他資源</p>
-<p>Claude Code 教學手冊 終端機介面基礎 簡介 Claude Code 是Anthropic 開發的終端機介面AI 程式助手。與其他支援多種模型的AI 程式工 具不同，Claude Code 專為Claude 模型設計，實現工具與底層AI 的深度整合與最佳化。 資訊 Claude Code 直接與Anthropic 的模型配合運作，省去中間環節，以具競爭力的價格提 供最佳效能。 1.1 為什麼選擇Claude Code？ Claude Code 的主要優勢包括： • 大型檔案處理：可靠地更新超過18,000 行程式碼的檔案 • 複雜程式庫導覽：擅長搜尋模式並理解各元件之間的關係 • 穩定性：相較其他AI 程式工具，極少發生卡住的情況 • 直接整合：由開發底層模型的同一團隊打造 • 成本效益：無中間商加價，直接享有API 成本優惠 安裝與設定 2.1 VS Code 擴充套件 Claude Code 官方擴充套件支援以下編輯器： • Visual Studio Code • Cursor • Windsurf • 其他VS Code 分支版本 提示 此擴充套件讓您能直接在IDE 中啟動Claude Code。您可以同時開啟多個Claude Code 視窗，平行處理程式庫的不同部分。 2.2 自動載入檔案內容 當您在編輯器中開啟檔案時，Claude Code 會自動將其載入對話內容中。這種無縫整合減少了 手動指定檔案的麻煩。 終端機介面基礎 Claude Code 採用終端機使用者介面，初次使用可能需要適應，但熟悉後將能發揮強大功能。</p>
-<p>Claude Code 教學手冊 模型選擇 快捷鍵 功能 Escape 停止Claude 目前的操作 Escape（按兩次） 檢視歷史訊息列表 上方向鍵 瀏覽過去的對話（包含先前的工作階段） Shift + Enter 在訊息中換行 Ctrl + V 從剪貼簿貼上圖片 Shift + 拖曳 將檔案拖曳至終端機 Ctrl + C（按兩次）退出Claude Code（請小心使用！） Table 1: Claude Code 必備快捷鍵 3.1 必備快捷鍵 警告 請勿使用Ctrl + C 停止Claude 的工作——這會直接關閉程式。請改用Escape 鍵。 3.2 檔案與圖片處理 3.2.1 拖曳檔案 在VS Code/Cursor 中，直接拖曳檔案會在新分頁開啟。若要在Claude Code 中引用檔案： 1. 按住Shift 鍵 2. 將檔案拖曳至Claude Code 終端機 3. 檔案將被引用至您的對話中 3.2.2 貼上圖片 標準的Cmd + V（Mac）無法貼上圖片。請改用： 使用Ctrl + V 從剪貼簿貼上圖片 模型選擇 4.1 可用模型 Claude Code 支援多種Claude 模型： • Opus：功能最強大的模型，建議用於複雜任務 • Sonnet：更具成本效益，適合一般任務 4.2 切換模型 使用/model 指令切換模型： /model opus /model sonnet</p>
-<p>Claude Code 教學手冊 權限管理 提示 預設行為是使用Opus 直到達到使用量上限的50%，然後切換至Sonnet。對大多數使用 者而言，建議使用此自動切換機制。 4.3 模型比較 項目 Opus Sonnet 能力 最高 非常好 速度 快 快 成本 較高 更經濟 適用情境 複雜任務 一般任務 Table 2: Claude 模型比較 必備斜線指令 Claude Code 提供多種斜線指令執行各項操作。 5.1 /clear 指令 /clear 提示 每次開始新任務時都要清除對話！您不需要讓舊的對話記錄消耗token，避免壓縮（會額 外執行LLM 呼叫來摘要對話記錄）也能節省時間。 5.2 常用斜線指令 指令 說明 /clear 清除對話記錄 /model 切換AI 模型 /help 顯示可用指令 /terminal-setup 設定終端機 Table 3: 常用斜線指令 權限管理 6.1 權限問題 預設情況下，Claude Code 會詢問以下權限： • 編輯檔案 • 執行bash 指令</p>
-<p>Claude Code 教學手冊 GitHub 整合 • 執行lint/build 指令 當您離開後返回，發現Claude 正在等待權限確認時，這可能會令人困擾。 6.2 跳過權限確認模式 若要略過權限提示： claude –dangerously -skip-permissions 警告 此模式（類似Cursor 的「YOLO 模式」）存在執行非預期指令的輕微風險。然而實際上， 破壞性的agent 行為極為罕見。請自行評估是否使用。 6.3 建議工作流程 1. 開啟Claude Code 終端機 2. 按Ctrl + C 停止預設啟動 3. 執行：claude –dangerously-skip-permissions 4. 開始不受中斷的工作 GitHub 整合 7.1 安裝GitHub 應用程式 Claude Code 可與GitHub 整合，自動審查Pull Request。 /install -github-app 7.2 設定程式碼審查 安裝後，Claude 會建立claude-code-review.yaml 檔案。預設設定可能過於冗長，建議自 訂： # claude -code-review.yaml # 專注於最重要的事項 instructions: | 尋找錯誤和安全問題。 僅回報錯誤和潛在漏洞。 保持簡潔。 提示 AI 程式碼審查能發現人類可能遺漏的錯誤，因為它會對每一行程式碼投入一致的注意 力，而人類可能會略過熟悉的模式。</p>
-<p>Claude Code 教學手冊 訊息佇列 7.3 AI 程式碼審查的優點 • 發現人類可能遺漏的真正錯誤 • 無論PR 數量多寡，審查品質始終一致 • 識別安全漏洞 • 減少對程式風格的挑剔（正確設定後） 訊息佇列 Claude Code 最強大的功能之一是訊息佇列。 8.1 佇列運作方式 1. 送出您的第一則訊息 2. 當Claude 正在處理時，輸入更多訊息 3. 訊息會被排入佇列並依序處理 4. Claude 會智慧判斷何時處理佇列中的項目 8.2 工作流程範例 您：為工具函式加入註解 [Claude 開始處理…] 您：也為主要的JSX 區塊加入註解 [訊息已排入佇列] 您：以及為計算值加入註解 [訊息已排入佇列] [Claude 依序處理所有任務] 提示 Claude 對佇列的處理很聰明——如果需要您的回饋，它不會自動處理佇列中的訊息。請 定期檢查是否需要您的輸入。 8.3 相較於傳統工作流程的優點 • 不需要另開記事本追蹤待辦任務 • Agent 不會閒置等待您的下一個提示 • 更有效率地利用時間——排入任務後稍後再回來查看</p>
-<p>Claude Code 教學手冊 自訂設定 自訂設定 9.1 CLAUDE.md 檔案 在專案根目錄建立CLAUDE.md 檔案，為Claude 提供： • 專案概述 • 關鍵指令（build、lint、test） • 專案特定的慣例 # CLAUDE.md ## 專案概述 這是一個使用TypeScript 的React 應用程式。 ## 關鍵指令 - 建置：<code>npm run build</code> - 程式碼檢查：<code>npm run lint</code> - 測試：<code>npm run test</code> ## 慣例 - 使用函式元件 - 使用Tailwind CSS 進行樣式設計 提示 CLAUDE.md 檔案可以是階層式的。在專案層級放置一個，並在巢狀目錄中放置額外的檔 案。Claude 會在相關時優先使用最具體（最深層巢狀）的檔案。 9.2 自訂Hooks Hooks 讓您能在特定時間點自動執行指令： # 編輯被接受前 - 對特定檔案執行Prettier # 編輯後 - 對修改的檔案執行類型檢查 9.3 自訂斜線指令 透過在.claude/commands/ 新增markdown 檔案來建立自訂指令： .claude/ commands/ test.md -&gt; /test builder/ plugin.md -&gt; /builder plugin 9.3.1 指令檔案結構</p>
-<p>Claude Code 教學手冊 定價與方案 # .claude/commands/test.md 為以下檔案撰寫單元測試：$ARGUMENTS 遵循我們的測試慣例： - 使用Jest - 包含邊界情況 - 模擬外部依賴 使用方式： /test src/utils/helpers.ts 9.4 記憶管理 使用# 符號新增記憶： #新功能一律使用Mobx 元件 記憶類型： • 全域使用者記憶：適用於所有地方的偏好設定 • 本地專案記憶：專案特定的記憶（會被git 忽略） • CLAUDE.md：共享的專案文件 定價與方案 10.1 訂閱層級 Claude Code 支援標準的Anthropic 定價方案： • 標準版：基本存取權限與使用量限制 • Max 版：增強的使用量限制與Opus 存取權（每月$100 美元） 10.2 價值主張 資訊 請考量人類工程師的時間成本。即使是全球最具競爭力的費率，每月$100 美元的AI 輔 助相較於人類工程師的每小時成本，仍提供了極高的價值。 10.3 直接定價的優勢 • 無中間商加價 • 直接來自模型開發者 • Anthropic 能提供最大程度的模型存取權 • 可持續的定價模式</p>
-<p>Claude Code 教學手冊 視覺化介面替代方案 Claude Code 的優勢 11.1 技術優勢 1. 專注單一模型：只需支援Claude 模型 2. 深度整合：工具與模型一同最佳化 3. 持續改進：模型改進直接嘉惠Claude Code 4. 專家知識：由最了解模型的團隊打造 11.2 實際效能表現 • 處理超過18,000 行的檔案毫無問題 • 在大型程式庫中具有優秀的模式識別能力 • 理解元件、狀態與檔案之間的關係 • 極少卡住或需要人工介入 11.3 與其他工具的比較 其他AI 程式工具： • 必須支援多種模型（增加複雜度） • 有額外的團隊和層級 • 無法控制核心AI 模型 • 必須在API 成本上加收自己的利潤 視覺化介面替代方案 對於偏好圖形介面的使用者，Builder.io 提供視覺化的替代方案。 12.1 Builder.io 的Fusion 存取網址：fusion.builder.io 功能特色： • 視覺化聊天介面 • 即時預覽變更 • 類似Figma 的設計模式編輯 • 從瀏覽器建立Pull Request • 與Claude Code 相同的底層agent 機制</p>
-<p>Claude Code 教學手冊 結論 12.2 適用情境 • 團隊成員建立原型 • 視覺化編輯UI 元件 • 連結設計與程式碼工作流程 • 基於瀏覽器的開發 最佳實踐總結 13.1 日常工作檢查清單 1. 開始新任務時使用/clear 2. 考慮使用–dangerously-skip-permissions 以獲得不中斷的工作體驗 3. 將多個相關任務排入佇列 4. 複雜任務使用Opus，簡單任務使用Sonnet 5. 設定CLAUDE.md 以提供專案特定的內容 13.2 生產力技巧 提示 • 開啟多個Claude Code 視窗平行處理不同檔案 • 使用上方向鍵存取先前的工作階段 • 設定GitHub 整合以獲得自動化PR 審查 • 為重複性任務建立自訂斜線指令 • 使用訊息佇列批次處理任務，稍後再回來查看 13.3 常見錯誤避免 警告 • 不要使用Ctrl + C 停止工作（請用Escape） • 不要保留冗長的對話記錄（請用/clear） • 不要忘記定期檢查佇列中的任務 • 不要用Cmd + V 貼上圖片（請用Ctrl + V） 快速參考卡 結論 Claude Code 代表了AI 輔助程式工具的重大進步。透過結合深度模型整合、強大的終端機工 作流程，以及訊息佇列等貼心功能，它讓開發者能夠以前所未有的效率工作。 成功使用Claude Code 的關鍵在於：</p>
-<p>Claude Code 教學手冊 結論 任務 指令/操作 清除記錄 /clear 切換模型 /model opus 或/model sonnet 跳過權限 claude –dangerously-skip-permissions 停止Claude Escape 退出程式 Ctrl + C（按兩次） 查看歷史訊息 Escape（按兩次） 瀏覽過去對話 上方向鍵 訊息換行 Shift + Enter 貼上圖片 Ctrl + V 拖曳檔案 Shift + 拖曳 新增記憶 # 您的記憶內容 自訂指令 /指令名稱參數 Table 4: 快速參考卡 1. 熟悉終端機介面的特性 2. 正確設定您的環境 3. 善用佇列和自訂指令等進階功能 4. 根據任務選擇適當的模型 無論您偏好終端機介面或視覺化替代方案，底層的Claude 技術都能為最複雜的程式任務提 供可靠、強大的AI 輔助。 祝您使用Claude 編程愉快！ 其他資源 • Builder.io 部落格：完整的Claude Code 技巧列表 • Fusion 視覺化介面：fusion.builder.io • Claude Code 文件：docs.anthropic.com • GitHub：回報問題與提供回饋</p>
+<section id="簡介" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="簡介"><span class="header-section-number">1</span> 簡介</h2>
+<p>本教學手冊提供 Claude Code 的完整使用指南。Claude Code 是 Anthropic 官方推出的 CLI 工具，專為 AI 輔助程式開發而設計。本手冊涵蓋安裝設定、基本操作、進階功能及最佳實踐，協助開發者充分發揮 Claude Code 的強大功能，大幅提升開發效率。</p>
+<hr>
+</section>
+<section id="簡介-1" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="簡介-1"><span class="header-section-number">2</span> 1. 簡介</h2>
+<p>Claude Code 是 Anthropic 開發的終端機介面 AI 程式助手。與其他支援多種模型的 AI 程式工具不同，Claude Code 專為 Claude 模型設計，實現工具與底層 AI 的深度整合與最佳化。</p>
+<blockquote class="blockquote">
+<p><strong>資訊</strong>：Claude Code 直接與 Anthropic 的模型配合運作，省去中間環節，以具競爭力的價格提供最佳效能。</p>
+</blockquote>
+<section id="為什麼選擇-claude-code" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="為什麼選擇-claude-code"><span class="header-section-number">2.1</span> 1.1 為什麼選擇 Claude Code？</h3>
+<p>Claude Code 的主要優勢包括：</p>
+<ul>
+<li><strong>大型檔案處理</strong>：可靠地更新超過 18,000 行程式碼的檔案</li>
+<li><strong>複雜程式庫導覽</strong>：擅長搜尋模式並理解各元件之間的關係</li>
+<li><strong>穩定性</strong>：相較其他 AI 程式工具，極少發生卡住的情況</li>
+<li><strong>直接整合</strong>：由開發底層模型的同一團隊打造</li>
+<li><strong>成本效益</strong>：無中間商加價，直接享有 API 成本優惠</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="安裝與設定" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="安裝與設定"><span class="header-section-number">3</span> 2. 安裝與設定</h2>
+<section id="vs-code-擴充套件" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="vs-code-擴充套件"><span class="header-section-number">3.1</span> 2.1 VS Code 擴充套件</h3>
+<p>Claude Code 官方擴充套件支援以下編輯器：</p>
+<ul>
+<li>Visual Studio Code</li>
+<li>Cursor</li>
+<li>Windsurf</li>
+<li>其他 VS Code 分支版本</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>提示</strong>：此擴充套件讓您能直接在 IDE 中啟動 Claude Code。您可以同時開啟多個 Claude Code 視窗，平行處理程式庫的不同部分。</p>
+</blockquote>
+</section>
+<section id="自動載入檔案內容" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="自動載入檔案內容"><span class="header-section-number">3.2</span> 2.2 自動載入檔案內容</h3>
+<p>當您在編輯器中開啟檔案時，Claude Code 會自動將其載入對話內容中。這種無縫整合減少了手動指定檔案的麻煩。</p>
+<hr>
+</section>
+</section>
+<section id="終端機介面基礎" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="終端機介面基礎"><span class="header-section-number">4</span> 3. 終端機介面基礎</h2>
+<section id="必備快捷鍵" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="必備快捷鍵"><span class="header-section-number">4.1</span> 3.1 必備快捷鍵</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>快捷鍵</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Escape</td>
+<td>停止 Claude 目前的操作</td>
+</tr>
+<tr class="even">
+<td>Escape（按兩次）</td>
+<td>檢視歷史訊息列表</td>
+</tr>
+<tr class="odd">
+<td>上方向鍵</td>
+<td>瀏覽過去的對話（包含先前的工作階段）</td>
+</tr>
+<tr class="even">
+<td>Shift + Enter</td>
+<td>在訊息中換行</td>
+</tr>
+<tr class="odd">
+<td>Ctrl + V</td>
+<td>從剪貼簿貼上圖片</td>
+</tr>
+<tr class="even">
+<td>Shift + 拖曳</td>
+<td>將檔案拖曳至終端機</td>
+</tr>
+<tr class="odd">
+<td>Ctrl + C（按兩次）</td>
+<td>退出 Claude Code（請小心使用！）</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>警告</strong>：請勿使用 Ctrl + C 停止 Claude 的工作——這會直接關閉程式。請改用 Escape 鍵。</p>
+</blockquote>
+</section>
+<section id="檔案與圖片處理" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="檔案與圖片處理"><span class="header-section-number">4.2</span> 3.2 檔案與圖片處理</h3>
+<p><strong>拖曳檔案</strong>（在 VS Code/Cursor 中）：</p>
+<ol type="1">
+<li>按住 Shift 鍵</li>
+<li>將檔案拖曳至 Claude Code 終端機</li>
+<li>檔案將被引用至您的對話中</li>
+</ol>
+<p><strong>貼上圖片</strong>：使用 Ctrl + V 從剪貼簿貼上圖片（標準的 Cmd + V 在 Mac 上無法貼上圖片）。</p>
+<hr>
+</section>
+</section>
+<section id="模型選擇" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="模型選擇"><span class="header-section-number">5</span> 4. 模型選擇</h2>
+<section id="可用模型" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="可用模型"><span class="header-section-number">5.1</span> 4.1 可用模型</h3>
+<p>Claude Code 支援多種 Claude 模型：</p>
+<ul>
+<li><strong>Opus</strong>：功能最強大的模型，建議用於複雜任務</li>
+<li><strong>Sonnet</strong>：更具成本效益，適合一般任務</li>
+</ul>
+</section>
+<section id="切換模型" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="切換模型"><span class="header-section-number">5.2</span> 4.2 切換模型</h3>
+<p>使用 <code>/model</code> 指令切換模型：</p>
+<pre class="text"><code>/model opus
+/model sonnet</code></pre>
+<blockquote class="blockquote">
+<p><strong>提示</strong>：預設行為是使用 Opus 直到達到使用量上限的 50%，然後切換至 Sonnet。對大多數使用者而言，建議使用此自動切換機制。</p>
+</blockquote>
+</section>
+<section id="模型比較" class="level3" data-number="5.3">
+<h3 data-number="5.3" class="anchored" data-anchor-id="模型比較"><span class="header-section-number">5.3</span> 4.3 模型比較</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>項目</th>
+<th>Opus</th>
+<th>Sonnet</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>能力</td>
+<td>最高</td>
+<td>非常好</td>
+</tr>
+<tr class="even">
+<td>速度</td>
+<td>快</td>
+<td>快</td>
+</tr>
+<tr class="odd">
+<td>成本</td>
+<td>較高</td>
+<td>更經濟</td>
+</tr>
+<tr class="even">
+<td>適用情境</td>
+<td>複雜任務</td>
+<td>一般任務</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="必備斜線指令" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="必備斜線指令"><span class="header-section-number">6</span> 5. 必備斜線指令</h2>
+<section id="clear-指令" class="level3" data-number="6.1">
+<h3 data-number="6.1" class="anchored" data-anchor-id="clear-指令"><span class="header-section-number">6.1</span> 5.1 /clear 指令</h3>
+<blockquote class="blockquote">
+<p><strong>提示</strong>：每次開始新任務時都要清除對話！您不需要讓舊的對話記錄消耗 token，避免壓縮（會額外執行 LLM 呼叫來摘要對話記錄）也能節省時間。</p>
+</blockquote>
+</section>
+<section id="常用斜線指令" class="level3" data-number="6.2">
+<h3 data-number="6.2" class="anchored" data-anchor-id="常用斜線指令"><span class="header-section-number">6.2</span> 5.2 常用斜線指令</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>指令</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>/clear</code></td>
+<td>清除對話記錄</td>
+</tr>
+<tr class="even">
+<td><code>/model</code></td>
+<td>切換 AI 模型</td>
+</tr>
+<tr class="odd">
+<td><code>/help</code></td>
+<td>顯示可用指令</td>
+</tr>
+<tr class="even">
+<td><code>/terminal-setup</code></td>
+<td>設定終端機</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="權限管理" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="權限管理"><span class="header-section-number">7</span> 6. 權限管理</h2>
+<section id="權限問題" class="level3" data-number="7.1">
+<h3 data-number="7.1" class="anchored" data-anchor-id="權限問題"><span class="header-section-number">7.1</span> 6.1 權限問題</h3>
+<p>預設情況下，Claude Code 會詢問以下權限：</p>
+<ul>
+<li>編輯檔案</li>
+<li>執行 bash 指令</li>
+<li>執行 lint/build 指令</li>
+</ul>
+<p>當您離開後返回，發現 Claude 正在等待權限確認時，這可能會令人困擾。</p>
+</section>
+<section id="跳過權限確認模式" class="level3" data-number="7.2">
+<h3 data-number="7.2" class="anchored" data-anchor-id="跳過權限確認模式"><span class="header-section-number">7.2</span> 6.2 跳過權限確認模式</h3>
+<p>若要略過權限提示：</p>
+<pre class="text"><code>claude --dangerously-skip-permissions</code></pre>
+<blockquote class="blockquote">
+<p><strong>警告</strong>：此模式（類似 Cursor 的「YOLO 模式」）存在執行非預期指令的輕微風險。然而實際上，破壞性的 agent 行為極為罕見。請自行評估是否使用。</p>
+</blockquote>
+</section>
+<section id="建議工作流程" class="level3" data-number="7.3">
+<h3 data-number="7.3" class="anchored" data-anchor-id="建議工作流程"><span class="header-section-number">7.3</span> 6.3 建議工作流程</h3>
+<ol type="1">
+<li>開啟 Claude Code 終端機</li>
+<li>按 Ctrl + C 停止預設啟動</li>
+<li>執行：<code>claude --dangerously-skip-permissions</code></li>
+<li>開始不受中斷的工作</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="github-整合" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="github-整合"><span class="header-section-number">8</span> 7. GitHub 整合</h2>
+<section id="安裝-github-應用程式" class="level3" data-number="8.1">
+<h3 data-number="8.1" class="anchored" data-anchor-id="安裝-github-應用程式"><span class="header-section-number">8.1</span> 7.1 安裝 GitHub 應用程式</h3>
+<p>Claude Code 可與 GitHub 整合，自動審查 Pull Request：</p>
+<pre class="text"><code>/install-github-app</code></pre>
+</section>
+<section id="設定程式碼審查" class="level3" data-number="8.2">
+<h3 data-number="8.2" class="anchored" data-anchor-id="設定程式碼審查"><span class="header-section-number">8.2</span> 7.2 設定程式碼審查</h3>
+<p>安裝後，Claude 會建立 <code>claude-code-review.yaml</code> 檔案。建議自訂：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># claude-code-review.yaml</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">instructions</span><span class="kw">: </span><span class="ch">|</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  尋找錯誤和安全問題。</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  僅回報錯誤和潛在漏洞。</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  保持簡潔。</span></code></pre></div><button title="複製到剪貼簿" class="code-copy-button"><i class="bi"></i></button></div>
+<blockquote class="blockquote">
+<p><strong>提示</strong>：AI 程式碼審查能發現人類可能遺漏的錯誤，因為它會對每一行程式碼投入一致的注意力，而人類可能會略過熟悉的模式。</p>
+</blockquote>
+</section>
+<section id="ai-程式碼審查的優點" class="level3" data-number="8.3">
+<h3 data-number="8.3" class="anchored" data-anchor-id="ai-程式碼審查的優點"><span class="header-section-number">8.3</span> 7.3 AI 程式碼審查的優點</h3>
+<ul>
+<li>發現人類可能遺漏的真正錯誤</li>
+<li>無論 PR 數量多寡，審查品質始終一致</li>
+<li>識別安全漏洞</li>
+<li>減少對程式風格的挑剔（正確設定後）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="訊息佇列" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="訊息佇列"><span class="header-section-number">9</span> 8. 訊息佇列</h2>
+<p>Claude Code 最強大的功能之一是訊息佇列。</p>
+<section id="佇列運作方式" class="level3" data-number="9.1">
+<h3 data-number="9.1" class="anchored" data-anchor-id="佇列運作方式"><span class="header-section-number">9.1</span> 8.1 佇列運作方式</h3>
+<ol type="1">
+<li>送出您的第一則訊息</li>
+<li>當 Claude 正在處理時，輸入更多訊息</li>
+<li>訊息會被排入佇列並依序處理</li>
+<li>Claude 會智慧判斷何時處理佇列中的項目</li>
+</ol>
+</section>
+<section id="工作流程範例" class="level3" data-number="9.2">
+<h3 data-number="9.2" class="anchored" data-anchor-id="工作流程範例"><span class="header-section-number">9.2</span> 8.2 工作流程範例</h3>
+<pre class="text"><code>您：為工具函式加入註解
+[Claude 開始處理...]
+您：也為主要的 JSX 區塊加入註解
+[訊息已排入佇列]
+您：以及為計算值加入註解
+[訊息已排入佇列]
+[Claude 依序處理所有任務]</code></pre>
+<blockquote class="blockquote">
+<p><strong>提示</strong>：Claude 對佇列的處理很聰明——如果需要您的回饋，它不會自動處理佇列中的訊息。請定期檢查是否需要您的輸入。</p>
+</blockquote>
+</section>
+<section id="相較於傳統工作流程的優點" class="level3" data-number="9.3">
+<h3 data-number="9.3" class="anchored" data-anchor-id="相較於傳統工作流程的優點"><span class="header-section-number">9.3</span> 8.3 相較於傳統工作流程的優點</h3>
+<ul>
+<li>不需要另開記事本追蹤待辦任務</li>
+<li>Agent 不會閒置等待您的下一個提示</li>
+<li>更有效率地利用時間——排入任務後稍後再回來查看</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="自訂設定" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="自訂設定"><span class="header-section-number">10</span> 9. 自訂設定</h2>
+<section id="claude.md-檔案" class="level3" data-number="10.1">
+<h3 data-number="10.1" class="anchored" data-anchor-id="claude.md-檔案"><span class="header-section-number">10.1</span> 9.1 CLAUDE.md 檔案</h3>
+<p>在專案根目錄建立 CLAUDE.md 檔案，為 Claude 提供：</p>
+<ul>
+<li>專案概述</li>
+<li>關鍵指令（build、lint、test）</li>
+<li>專案特定的慣例</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># CLAUDE.md</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">## 專案概述</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>這是一個使用 TypeScript 的 React 應用程式。</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">## 關鍵指令</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>建置：<span class="in">`npm run build`</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>程式碼檢查：<span class="in">`npm run lint`</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>測試：<span class="in">`npm run test`</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## 慣例</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>使用函式元件</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>使用 Tailwind CSS 進行樣式設計</span></code></pre></div><button title="複製到剪貼簿" class="code-copy-button"><i class="bi"></i></button></div>
+<blockquote class="blockquote">
+<p><strong>提示</strong>：CLAUDE.md 檔案可以是階層式的。在專案層級放置一個，並在巢狀目錄中放置額外的檔案。Claude 會在相關時優先使用最具體（最深層巢狀）的檔案。</p>
+</blockquote>
+</section>
+<section id="自訂-hooks" class="level3" data-number="10.2">
+<h3 data-number="10.2" class="anchored" data-anchor-id="自訂-hooks"><span class="header-section-number">10.2</span> 9.2 自訂 Hooks</h3>
+<p>Hooks 讓您能在特定時間點自動執行指令：</p>
+<ul>
+<li><strong>編輯被接受前</strong>：對特定檔案執行 Prettier</li>
+<li><strong>編輯後</strong>：對修改的檔案執行類型檢查</li>
+</ul>
+</section>
+<section id="自訂斜線指令" class="level3" data-number="10.3">
+<h3 data-number="10.3" class="anchored" data-anchor-id="自訂斜線指令"><span class="header-section-number">10.3</span> 9.3 自訂斜線指令</h3>
+<p>透過在 <code>.claude/commands/</code> 新增 markdown 檔案來建立自訂指令：</p>
+<pre class="text"><code>.claude/commands/test.md        -&gt; /test
+.claude/commands/builder/plugin.md -&gt; /builder plugin</code></pre>
+<p><strong>指令檔案結構範例</strong>（<code>.claude/commands/test.md</code>）：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>為以下檔案撰寫單元測試：$ARGUMENTS</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>遵循我們的測試慣例：</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>使用 Jest</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>包含邊界情況</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>模擬外部依賴</span></code></pre></div><button title="複製到剪貼簿" class="code-copy-button"><i class="bi"></i></button></div>
+<p>使用方式：<code>/test src/utils/helpers.ts</code></p>
+</section>
+<section id="記憶管理" class="level3" data-number="10.4">
+<h3 data-number="10.4" class="anchored" data-anchor-id="記憶管理"><span class="header-section-number">10.4</span> 9.4 記憶管理</h3>
+<p>使用 <code>#</code> 符號新增記憶：</p>
+<pre class="text"><code>#新功能一律使用 Mobx 元件</code></pre>
+<p><strong>記憶類型</strong>：</p>
+<ul>
+<li><strong>全域使用者記憶</strong>：適用於所有地方的偏好設定</li>
+<li><strong>本地專案記憶</strong>：專案特定的記憶（會被 git 忽略）</li>
+<li><strong>CLAUDE.md</strong>：共享的專案文件</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="定價與方案" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="定價與方案"><span class="header-section-number">11</span> 10. 定價與方案</h2>
+<section id="訂閱層級" class="level3" data-number="11.1">
+<h3 data-number="11.1" class="anchored" data-anchor-id="訂閱層級"><span class="header-section-number">11.1</span> 10.1 訂閱層級</h3>
+<ul>
+<li><strong>標準版</strong>：基本存取權限與使用量限制</li>
+<li><strong>Max 版</strong>：增強的使用量限制與 Opus 存取權（每月 $100 美元）</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>資訊</strong>：請考量人類工程師的時間成本。即使是全球最具競爭力的費率，每月 $100 美元的 AI 輔助相較於人類工程師的每小時成本，仍提供了極高的價值。</p>
+</blockquote>
+</section>
+<section id="直接定價的優勢" class="level3" data-number="11.2">
+<h3 data-number="11.2" class="anchored" data-anchor-id="直接定價的優勢"><span class="header-section-number">11.2</span> 10.2 直接定價的優勢</h3>
+<ul>
+<li>無中間商加價</li>
+<li>直接來自模型開發者</li>
+<li>Anthropic 能提供最大程度的模型存取權</li>
+<li>可持續的定價模式</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="claude-code-的優勢" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="claude-code-的優勢"><span class="header-section-number">12</span> 11. Claude Code 的優勢</h2>
+<section id="技術優勢" class="level3" data-number="12.1">
+<h3 data-number="12.1" class="anchored" data-anchor-id="技術優勢"><span class="header-section-number">12.1</span> 11.1 技術優勢</h3>
+<ol type="1">
+<li><strong>專注單一模型</strong>：只需支援 Claude 模型</li>
+<li><strong>深度整合</strong>：工具與模型一同最佳化</li>
+<li><strong>持續改進</strong>：模型改進直接嘉惠 Claude Code</li>
+<li><strong>專家知識</strong>：由最了解模型的團隊打造</li>
+</ol>
+</section>
+<section id="實際效能表現" class="level3" data-number="12.2">
+<h3 data-number="12.2" class="anchored" data-anchor-id="實際效能表現"><span class="header-section-number">12.2</span> 11.2 實際效能表現</h3>
+<ul>
+<li>處理超過 18,000 行的檔案毫無問題</li>
+<li>在大型程式庫中具有優秀的模式識別能力</li>
+<li>理解元件、狀態與檔案之間的關係</li>
+<li>極少卡住或需要人工介入</li>
+</ul>
+</section>
+<section id="與其他工具的比較" class="level3" data-number="12.3">
+<h3 data-number="12.3" class="anchored" data-anchor-id="與其他工具的比較"><span class="header-section-number">12.3</span> 11.3 與其他工具的比較</h3>
+<p>其他 AI 程式工具：</p>
+<ul>
+<li>必須支援多種模型（增加複雜度）</li>
+<li>有額外的團隊和層級</li>
+<li>無法控制核心 AI 模型</li>
+<li>必須在 API 成本上加收自己的利潤</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="視覺化介面替代方案" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="視覺化介面替代方案"><span class="header-section-number">13</span> 12. 視覺化介面替代方案</h2>
+<section id="builder.io-的-fusion" class="level3" data-number="13.1">
+<h3 data-number="13.1" class="anchored" data-anchor-id="builder.io-的-fusion"><span class="header-section-number">13.1</span> 12.1 Builder.io 的 Fusion</h3>
+<p>存取網址：<a href="https://fusion.builder.io">fusion.builder.io</a></p>
+<p>功能特色：</p>
+<ul>
+<li>視覺化聊天介面</li>
+<li>即時預覽變更</li>
+<li>類似 Figma 的設計模式編輯</li>
+<li>從瀏覽器建立 Pull Request</li>
+<li>與 Claude Code 相同的底層 agent 機制</li>
+</ul>
+</section>
+<section id="適用情境" class="level3" data-number="13.2">
+<h3 data-number="13.2" class="anchored" data-anchor-id="適用情境"><span class="header-section-number">13.2</span> 12.2 適用情境</h3>
+<ul>
+<li>團隊成員建立原型</li>
+<li>視覺化編輯 UI 元件</li>
+<li>連結設計與程式碼工作流程</li>
+<li>基於瀏覽器的開發</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="最佳實踐總結" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="最佳實踐總結"><span class="header-section-number">14</span> 13. 最佳實踐總結</h2>
+<section id="日常工作檢查清單" class="level3" data-number="14.1">
+<h3 data-number="14.1" class="anchored" data-anchor-id="日常工作檢查清單"><span class="header-section-number">14.1</span> 13.1 日常工作檢查清單</h3>
+<ol type="1">
+<li>開始新任務時使用 <code>/clear</code></li>
+<li>考慮使用 <code>--dangerously-skip-permissions</code> 以獲得不中斷的工作體驗</li>
+<li>將多個相關任務排入佇列</li>
+<li>複雜任務使用 Opus，簡單任務使用 Sonnet</li>
+<li>設定 CLAUDE.md 以提供專案特定的內容</li>
+</ol>
+</section>
+<section id="生產力技巧" class="level3" data-number="14.2">
+<h3 data-number="14.2" class="anchored" data-anchor-id="生產力技巧"><span class="header-section-number">14.2</span> 13.2 生產力技巧</h3>
+<ul>
+<li>開啟多個 Claude Code 視窗平行處理不同檔案</li>
+<li>使用上方向鍵存取先前的工作階段</li>
+<li>設定 GitHub 整合以獲得自動化 PR 審查</li>
+<li>為重複性任務建立自訂斜線指令</li>
+<li>使用訊息佇列批次處理任務，稍後再回來查看</li>
+</ul>
+</section>
+<section id="常見錯誤避免" class="level3" data-number="14.3">
+<h3 data-number="14.3" class="anchored" data-anchor-id="常見錯誤避免"><span class="header-section-number">14.3</span> 13.3 常見錯誤避免</h3>
+<blockquote class="blockquote">
+<p><strong>警告</strong>： - 不要使用 Ctrl + C 停止工作（請用 Escape） - 不要保留冗長的對話記錄（請用 /clear） - 不要忘記定期檢查佇列中的任務 - 不要用 Cmd + V 貼上圖片（請用 Ctrl + V）</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="快速參考卡" class="level2" data-number="15">
+<h2 data-number="15" class="anchored" data-anchor-id="快速參考卡"><span class="header-section-number">15</span> 14. 快速參考卡</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>任務</th>
+<th>指令/操作</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>清除記錄</td>
+<td><code>/clear</code></td>
+</tr>
+<tr class="even">
+<td>切換模型</td>
+<td><code>/model opus</code> 或 <code>/model sonnet</code></td>
+</tr>
+<tr class="odd">
+<td>跳過權限</td>
+<td><code>claude --dangerously-skip-permissions</code></td>
+</tr>
+<tr class="even">
+<td>停止 Claude</td>
+<td>Escape</td>
+</tr>
+<tr class="odd">
+<td>退出程式</td>
+<td>Ctrl + C（按兩次）</td>
+</tr>
+<tr class="even">
+<td>查看歷史訊息</td>
+<td>Escape（按兩次）</td>
+</tr>
+<tr class="odd">
+<td>瀏覽過去對話</td>
+<td>上方向鍵</td>
+</tr>
+<tr class="even">
+<td>訊息換行</td>
+<td>Shift + Enter</td>
+</tr>
+<tr class="odd">
+<td>貼上圖片</td>
+<td>Ctrl + V</td>
+</tr>
+<tr class="even">
+<td>拖曳檔案</td>
+<td>Shift + 拖曳</td>
+</tr>
+<tr class="odd">
+<td>新增記憶</td>
+<td><code># 您的記憶內容</code></td>
+</tr>
+<tr class="even">
+<td>自訂指令</td>
+<td><code>/指令名稱 參數</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="結論" class="level2" data-number="16">
+<h2 data-number="16" class="anchored" data-anchor-id="結論"><span class="header-section-number">16</span> 15. 結論</h2>
+<p>Claude Code 代表了 AI 輔助程式工具的重大進步。透過結合深度模型整合、強大的終端機工作流程，以及訊息佇列等貼心功能，它讓開發者能夠以前所未有的效率工作。</p>
+<p>成功使用 Claude Code 的關鍵在於：</p>
+<ol type="1">
+<li>熟悉終端機介面的特性</li>
+<li>正確設定您的環境</li>
+<li>善用佇列和自訂指令等進階功能</li>
+<li>根據任務選擇適當的模型</li>
+</ol>
+<hr>
+</section>
+<section id="其他資源" class="level2" data-number="17">
+<h2 data-number="17" class="anchored" data-anchor-id="其他資源"><span class="header-section-number">17</span> 其他資源</h2>
+<ul>
+<li>Builder.io 部落格：完整的 Claude Code 技巧列表</li>
+<li>Fusion 視覺化介面：<a href="https://fusion.builder.io">fusion.builder.io</a></li>
+<li>Claude Code 文件：<a href="https://docs.anthropic.com">docs.anthropic.com</a></li>
+<li>GitHub：回報問題與提供回饋</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

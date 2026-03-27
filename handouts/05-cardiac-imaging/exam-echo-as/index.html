@@ -8,7 +8,7 @@
 
 <meta name="author" content="謝慕揚 MD, PhD, FESC">
 
-<title>心血管中心教育訓練 – Journal Reading — Dr.&nbsp;Drake Hsieh</title>
+<title>主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷 – Journal Reading — Dr.&nbsp;Drake Hsieh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -118,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="切換側邊欄導航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/index.html">心臟影像 Imaging</a></li><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/exam-echo-as/index.html">心血管中心教育訓練</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/index.html">心臟影像 Imaging</a></li><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/exam-echo-as/index.html">主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="切換側邊欄導航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -154,31 +183,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學講義</span></a>
+ <span class="menu-text">DC Shock 電擊治療與心律反轉術指南</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/acs-book-early-diagnosis-of-ami/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">急性心肌梗塞早期診斷與心電圖判讀</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/book-ffr-eng/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fractional Flow Reserve (FFR)</span></a>
+ <span class="menu-text">Fractional Flow Reserve (FFR): Comprehensive Lecture Notes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/ffr_實證與血運重建策略/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">FFR 實證與血運重建策略</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/01-ischemic-heart-disease/stemi_missed_diagnosis_case_study/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">急診STEMI 漏診案例分析</span></a>
+ <span class="menu-text">急診 STEMI 漏診案例分析：忽略心電圖電腦判讀警示的慘痛教訓</span></a>
   </div>
 </li>
       </ul>
@@ -218,13 +247,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/antithrombotic-therapy-after-successful-catheter-ablation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n engl j med 394;4  nejm.org  January 22, 2026</span></a>
+ <span class="menu-text">OCEAN Trial: Antithrombotic Therapy after Successful Catheter Ablation for Atrial Fibrillation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/circulation-ai-ecg-phenotypic-selectivity-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation 教學講義</span></a>
+ <span class="menu-text">AI-ECG 表型選擇性研究：人工智慧增強心電圖在心血管診斷與風險預測中的表型選擇性</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -236,55 +265,55 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/ecg-reading-guide-for-nurses-護理心電圖判讀指南/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心電圖判讀教學</span></a>
+ <span class="menu-text">護理心電圖判讀教學指南 / ECG Reading Guide for Nurses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/ecg_interpretation_myocardial_infarction_a_clinical_guide/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">心肌梗塞心電圖判讀臨床指南 / ECG Interpretation in Myocardial Infarction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/ecg_reading_guide_護理心電圖判讀指南/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心電圖判讀教學</span></a>
+ <span class="menu-text">護理心電圖判讀教學指南 / ECG Reading Guide for Nurses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/european-heart-journal-beat-parox-af-pfa-vs-rfa-2025-afib-ep/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">BEAT PAROX-AF 試驗：脈衝場消融術 vs 射頻消融術治療陣發性心房顫動</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/lecture-ecg-master-class/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The COMPLETE 12-Lead ECG Masterclass</span></a>
+ <span class="menu-text">The COMPLETE 12-Lead ECG Masterclass — 12 導程心電圖完整教學課程</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/nejm-ai-ecg-learning/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">基於自我監督學習的ECG Foundation Transformer 模型</span></a>
+ <span class="menu-text">基於自我監督學習的 ECG Foundation Transformer 模型用於心臟與冠狀動脈功能評估</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/nejm-ocean-trial-af-ablation-anticoagulation-2026-ep/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM 教學講義</span></a>
+ <span class="menu-text">OCEAN 試驗：心房顫動電燒術成功後之抗血栓治療</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/nejm-physiologic-pacing-heart-failure-2026-ep/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM 教學講義</span></a>
+ <span class="menu-text">心臟衰竭之生理性心律調節治療 / Physiologic Pacing in Heart Failure</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/03-arrhythmia/physiologic-pacing-in-heart-failure/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n engl j med 394;4  nejm.org  January 22, 2026</span></a>
+ <span class="menu-text">Physiologic Pacing in Heart Failure — 心衰竭之生理性心臟節律治療</span></a>
   </div>
 </li>
       </ul>
@@ -307,61 +336,61 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/cath-hemodynamics-aortic-stenosis-as-tavr-hanna/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">主動脈瓣狹窄血流動力學評估</span></a>
+ <span class="menu-text">主動脈瓣狹窄血流動力學評估 — 心導管技術要點 / Hemodynamic Assessment of Aortic Stenosis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/eurointervention-m-teer-mitraclip-review/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Transcatheter Edge-to-Edge Repair in</span></a>
+ <span class="menu-text">續發性二尖瓣逆流之經導管緣對緣修復術 — State-of-the-Art Review</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/european-heart-journal-top-10-vhd-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">2025 年心血管醫學年度回顧：瓣膜性心臟病十大論文</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/lecture-mitral-ptmv/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mitral Stenosis</span></a>
+ <span class="menu-text">二尖瓣狹窄結構性心臟病介入治療 — 經皮穿刺二尖瓣球囊擴張術 (PTMC) / Structural Heart Disease Intervention: Mitral Stenosis &amp; PTMC</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/lecture-mitral-ptmv-inoue-balloon-tutorial/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Inoue Balloon Catheter</span></a>
+ <span class="menu-text">經皮穿刺二尖瓣球囊成形術 (PTMC) — Inoue Balloon Catheter 教學講義</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/lecture-mitral-teer/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">經導管二尖瓣緣對緣修補術 — MitraClip 完整文獻回顧與臨床應用指引 / Transcatheter Mitral Edge-to-Edge Repair (TEER)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/nejm-clinical-decisions-tavr-vs-savr-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Clinical Decisions 教學講義</span></a>
+ <span class="menu-text">TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄 — NEJM Clinical Decisions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/sdm_pda_tavr_vs_savr_主動脈瓣膜狹窄治療決策/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">醫病共享決策</span></a>
+ <span class="menu-text">醫病共享決策：主動脈瓣膜嚴重狹窄治療方式選擇</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/tavr-ct-evaluation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟血管中心教學文件</span></a>
+ <span class="menu-text">Pre-TAVR CT Evaluation — 經導管主動脈瓣膜置換術前電腦斷層評估</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/04-valvular-disease/teer-pcronline-top-10-tricuspid-intervention-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PCRonline 教學講義</span></a>
+ <span class="menu-text">2025 年三尖瓣介入治療十大重要文獻回顧 / The Top Ten Impactful Papers from 2025 on Tricuspid Intervention</span></a>
   </div>
 </li>
       </ul>
@@ -384,31 +413,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-心臟磁振造影判讀/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟磁振造影教學</span></a>
+ <span class="menu-text">Cardiac MRI — LGE Patterns 心臟磁振造影 LGE 判讀教學 / Late Gadolinium Enhancement Pattern Interpretation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/cardiac_mri_lge_patterns_心臟磁振造影判讀/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟磁振造影教學</span></a>
+ <span class="menu-text">Cardiac MRI — LGE Patterns 心臟磁振造影 LGE 判讀教學 / Late Gadolinium Enhancement Pattern Interpretation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/exam-cv-calculations-echo-cath/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心考題</span></a>
+ <span class="menu-text">心血管中心考題：心臟科計算題</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/exam-echo-as/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">心血管中心教育訓練</span></a>
+ <span class="menu-text">主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/05-cardiac-imaging/lecture-echo-book-0-focus-eng/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cardiovascular Center Teaching Document</span></a>
+ <span class="menu-text">Focused Cardiac Ultrasonography for Left Ventricular Systolic Function Assessment</span></a>
   </div>
 </li>
       </ul>
@@ -431,31 +460,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/book-61-cag-a-set-up/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">冠狀動脈造影操作</span></a>
+ <span class="menu-text">冠狀動脈造影操作：完整步驟與實務指南</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/book-62-cag-b-interpretation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">冠狀動脈造影解讀</span></a>
+ <span class="menu-text">冠狀動脈造影解讀：教學講義與評估檢查表</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/cath-pci-aorto-ostial-lesoins/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">主動脈開口部位血管攝影與支架置放</span></a>
+ <span class="menu-text">主動脈開口部位血管攝影與支架置放：技巧與案例說明</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/cath-pci-wiring/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PCI 導絲穿越技術</span></a>
+ <span class="menu-text">PCI 導絲穿越技術 — Guidewire Crossing Techniques</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/catheterization-risks-and-complications/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">Catheterization Risks and Complications</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -467,13 +496,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/gmail---persistent-sciatic-artery-rt-side/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Drake Hsieh <drake1128@gmail.com></drake1128@gmail.com></span></a>
+ <span class="menu-text">Persistent Sciatic Artery (PSA) — 病例討論</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/guidewire_science_art_and_clinical_wisdom/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">Guidewire: Science, Art, and Clinical Wisdom</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -491,7 +520,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/jic-mother-child-catheter-lm-dissection-2018/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">J Invasive Cardiol 教學講義</span></a>
+ <span class="menu-text">Mother-and-Child 導管於 OCT 檢查中引起左主幹逆行性剝離</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -509,19 +538,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/oct-abbott-ultreon-20-software-操作手冊/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Abbott CONFIDENTIAL</span></a>
+ <span class="menu-text">Abbott Ultreon 2.0 Software 操作手冊</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/people-in-cv-patrick-serruys/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation. 2016;134:97–100. DOI: 10.1161/CIRCULATIONAHA.116.023681</span></a>
+ <span class="menu-text">經皮冠狀動脈介入治療的誕生與演進——詳細講義</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/06-interventional-cardiology/persistent-sciatic-artery-paod/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">周邊血管介入教學講義</span></a>
+ <span class="menu-text">Persistent Sciatic Artery：罕見血管變異的診斷與處置</span></a>
   </div>
 </li>
       </ul>
@@ -544,7 +573,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/advanced-materials-carotid-artery-chip-3d-printing-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Advanced Materials 教學講義</span></a>
+ <span class="menu-text">快速玻璃基板數位光處理 3D 列印技術：病患專屬頸動脈晶片用於個人化血栓研究</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -556,31 +585,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/exam-echo-abi-and-paod-vascular-duplex/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">血管超音波室實習生考試</span></a>
+ <span class="menu-text">血管超音波室實習生考試 — ABI、下肢動脈與靜脈血管超音波</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/nejm-ischemic-limb-gangrene-with-pulses-2015/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The new engl and jour nal of medicine</span></a>
+ <span class="menu-text">有脈搏的缺血性肢體壞疽 (Ischemic Limb Gangrene with Pulses)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/nejm-pad-review-mcdermott-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Clinical Practice 教學講義</span></a>
+ <span class="menu-text">下肢周邊動脈疾病</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/nhmrc-carotid-web-rbc-thrombosis-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Grant 教學講義</span></a>
+ <span class="menu-text">超越白色血栓：解碼紅血球在頸動脈蹼血栓形成中的機械感應機制</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/07-peripheral-vascular/paod-nejm-review-mcdermott-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Clinical Practice 教學講義</span></a>
+ <span class="menu-text">Peripheral Artery Disease in the Legs — NEJM Clinical Practice Review</span></a>
   </div>
 </li>
       </ul>
@@ -620,7 +649,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/09-hypertension/cobra-bps-居家血壓用藥調整流程/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">居家血壓管理衛教指引</span></a>
+ <span class="menu-text">COBRA-BPS 居家血壓管理與用藥調整流程</span></a>
   </div>
 </li>
       </ul>
@@ -643,61 +672,61 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/critical-care-2026-icuaw-rehabilitation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Critical Care 教學講義</span></a>
+ <span class="menu-text">懸吊式下肢復健裝置對 ICU 獲得性衰弱患者下肢功能之療效</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-ai-in-icu/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">加護病房人工智慧部署：</span></a>
+ <span class="menu-text">加護病房人工智慧部署：從成功與失敗中學習</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-broad-spectrum-antibiotics-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">When Should I Start Broad-Spectrum Antibiotics? — 何時應該開始使用廣效抗生素？</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-clinical-governance-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Clinical Governance in Intensive Care Medicine — 加護病房的臨床治理</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-metabolic-acidosis-buffering-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Understanding Buffering of Metabolic Acidosis in Critical Illness / 了解重症病人代謝性酸中毒的緩衝作用</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-standards-atrial-fibrillation-echo/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心房顫動之超音波導引治療策略</span></a>
+ <span class="menu-text">Echocardiography-Guided Management of Atrial Fibrillation / 心房顫動之超音波導引治療策略</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/icm-stress-ulcer-prevention-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Preventing Stress Ulcer Bleeding / 預防壓力性潰瘍出血</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/lecture-ccu-hematoma/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">緊急病安警示文件</span></a>
+ <span class="menu-text">經橈動脈介入術後血腫管理完整教學講義 / Comprehensive Guide for Transradial Access Hematoma Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/lecture-ccu-pulmonary-edema/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">肺水腫臨床與放射學特徵分析 / Clinical and Radiologic Features of Pulmonary Edema</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/10-icu-general/lecture-ccu-r-and-np-orientation/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">新竹台大分院</span></a>
+ <span class="menu-text">CCU 工作手冊 / Coronary Care Unit Orientation Manual</span></a>
   </div>
 </li>
       </ul>
@@ -720,7 +749,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/11-icu-respiratory/icm-diaphragm-ultrasound-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">How I Perform Diaphragmatic Ultrasound in the Intensive Care Unit / 如何在加護病房執行橫膈膜超音波</span></a>
   </div>
 </li>
       </ul>
@@ -743,7 +772,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/12-icu-hemodynamics/cardiogenic-shock-school-esc-心因性休克教學講義/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ESC Cardiogenic Shock School 教學講義</span></a>
+ <span class="menu-text">ESC Cardiogenic Shock School：心因性休克完整處置教學</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -755,13 +784,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/12-icu-hemodynamics/icm-2024-cardiac-output-monitoring/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ICM 教學講義</span></a>
+ <span class="menu-text">Cardiac Output Monitoring：心輸出量監測</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/12-icu-hemodynamics/icm-va-ecmo-echo-checklist-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">VA-ECMO 病人的心臟超音波檢查清單</span></a>
   </div>
 </li>
       </ul>
@@ -784,7 +813,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/13-icu-renal/icm-aki-rrt-timing-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Intensive Care Medicine 教學講義</span></a>
+ <span class="menu-text">Acute Kidney Injury：何時及如何開始腎臟替代療法</span></a>
   </div>
 </li>
       </ul>
@@ -807,13 +836,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/20-pulmonary-embolism/circulation-storm-pe-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation 教學講義</span></a>
+ <span class="menu-text">STORM-PE：機械血栓抽吸術治療急性中高風險肺栓塞</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/20-pulmonary-embolism/lecture-acute-pe-cdt/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">急性肺栓塞導管導向治療：完整操作流程指引</span></a>
   </div>
 </li>
       </ul>
@@ -836,13 +865,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/21-pulmonary-hypertension/checklist-pulmonary-hypertension/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">肺動脈高壓診斷查核表</span></a>
+ <span class="menu-text">肺動脈高壓診斷查核表 (Pulmonary Hypertension Diagnostic Checklist)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/21-pulmonary-hypertension/chest-2026-ild-ph/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CHEST 教學講義</span></a>
+ <span class="menu-text">ILD-PH 診斷與治療：間質性肺病相關肺高壓</span></a>
   </div>
 </li>
       </ul>
@@ -865,7 +894,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/22-copd-asthma/ajrccm-airflow-3-copd-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">AJRCCM 教學講義</span></a>
+ <span class="menu-text">AIRFLOW-3：COPD 病人標靶肺去神經術之隨機假對照試驗</span></a>
   </div>
 </li>
       </ul>
@@ -888,43 +917,43 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Anthropic Case Study 教學講義</span></a>
+ <span class="menu-text">AI for Scientific Research: Anthropic Case Study — 科學家如何運用 Claude 加速研究與發現</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/claude_code_tutorial/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Claude Code Tutorial</span></a>
+ <span class="menu-text">Claude Code Tutorial: Best Practices and Tips for AI-Powered Coding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/claude_code_tutorial_zh/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Claude Code 完整教學手冊</span></a>
+ <span class="menu-text">Claude Code 完整教學手冊：AI 輔助程式開發的最佳實踐與技巧</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/major-ai-conference-flooded-with-peer-reviews-written-fully-/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">27 November 2025</span></a>
+ <span class="menu-text">Major AI Conference Flooded with Peer Reviews Written Fully by AI / 主要 AI 研討會發現 21% 評審完全由 AI 生成</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/nature-2025-ai-peer-review/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">人工智慧氾濫學術同行評審系統</span></a>
+ <span class="menu-text">人工智慧氾濫學術同行評審系統 / AI-Generated Peer Review Crisis at ICLR 2026</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/nejm-ai-chatgpt-grading-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM AI 教學講義</span></a>
+ <span class="menu-text">Assessment of Short-Answer Questions by ChatGPT in a Medical School Course / 使用 ChatGPT 評量醫學院課程簡答題</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/90-ai-technology/nejm_ai_medagentbench_2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM AI 教學講義</span></a>
+ <span class="menu-text">MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents / 評估醫療大型語言模型代理的虛擬電子病歷環境</span></a>
   </div>
 </li>
       </ul>
@@ -947,31 +976,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-02/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run: December 2025</span></a>
+ <span class="menu-text">Circulation on the Run: 2025 年 12 月號期刊重點整理</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-16/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run Podcast 精華整理</span></a>
+ <span class="menu-text">Circulation on the Run Podcast 精華整理：2025 年 12 月 16 日期刊導讀</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2025-12-23/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run Podcast 文獻整理</span></a>
+ <span class="menu-text">Circulation on the Run Podcast 文獻整理：2025 年 12 月 23 日期刊摘要</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2026-01-06/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run Podcast</span></a>
+ <span class="menu-text">Circulation on the Run Podcast：2026 年 1 月 6 日期刊重點 — STORM-PE 試驗</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/circulation-2026-01-13/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulation on the Run 教學講義</span></a>
+ <span class="menu-text">Circulation on the Run 教學講義：2026 年 1 月 13 日期刊重點</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -989,7 +1018,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/ehj-star-study-psgb-electrical-storm-2024/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">經皮星狀神經節阻斷術治療電風暴：STAR 研究</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1001,7 +1030,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-2025-12-14/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Focus on the Many Facets of Atrial Fibrillation:</span></a>
+ <span class="menu-text">心房顫動多面向研究：從預測到治療</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1031,7 +1060,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/eur-heart-j-hnmt-heart-failure-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">European Heart Journal 教學講義</span></a>
+ <span class="menu-text">Histamine N-methyltransferase 上調、心臟肥大與心衰竭</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1079,7 +1108,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/91-podcast-journal-review/jacc-2025-12-02-podcast/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Audio file</span></a>
+ <span class="menu-text">JACC This Week Podcast Transcript — 2025 年 12 月 2 日</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1108,91 +1137,91 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/acls-team-work/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心臟科急救訓練教學文件</span></a>
+ <span class="menu-text">心臟科急救訓練教學文件：A.C.L.S. Teamwork Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Diagnosing Pulmonary Tumor Thrombotic</span></a>
+ <span class="menu-text">Diagnosing Pulmonary Tumor Thrombotic Microangiopathy Using Pulmonary Microvascular Cytology</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/book-cardiovascular-care-for-neurologists/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">神經重症病人的心血管照護</span></a>
+ <span class="menu-text">神經重症病人的心血管照護 — Cardiovascular Issues in Neuro-critically Ill Patients</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/chest-implementation-science-practice-variability-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CHEST 教學講義</span></a>
+ <span class="menu-text">Implementation Science in Critical Care: Quantifying Practice Variability</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/communication_生死告別_真實溝通/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">index.html</span></a>
+ <span class="menu-text">生死告別：真實溝通</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/dan-koe-how-to-fix-your-life-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dan Koe 個人成長講義</span></a>
+ <span class="menu-text">How to Fix Your Entire Life in 1 Day — 行為改變與身份認同</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/dan-koe-how-to-fix-your-life-2026-通用版/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">人生重啟指南</span></a>
+ <span class="menu-text">人生重啟指南：如何在一天內重新定位你的人生（通用版）</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/dietary-natural-approaches-stroke-prevention-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">腦中風預防教學講義</span></a>
+ <span class="menu-text">腦中風預防：飲食模式與天然活性物質</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/eurointervention-calcified-nodules-ali/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">State-of-the-Art</span></a>
+ <span class="menu-text">Identification and Treatment of Calcified Nodules in Percutaneous Coronary Intervention</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/eurointervention-emb-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">EuroIntervention Expert Review</span></a>
+ <span class="menu-text">Endomyocardial Biopsy: A Practical Guide for Interventional Cardiologists</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/jacc-behind-the-science-2026-01-06/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">JACC Behind the Science Podcast</span></a>
+ <span class="menu-text">Loss of Y Chromosome and Major Cardiovascular Events in Older Men</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/jacc-equal-trial-smartwatch-af-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">JACC 教學講義</span></a>
+ <span class="menu-text">Enhanced Detection and Prompt Diagnosis of Atrial Fibrillation Using Apple Watch: The EQUAL Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/jacc-medicare-covid-19-cardiovascular-outcomes-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">JACC 教學講義</span></a>
+ <span class="menu-text">Hospitalizations and Mortality Among Medicare Beneficiaries at Cardiovascular Risk: COVID-19 Pandemic Impact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/journal-pa-pressure-monitor-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cordella Pulmonary Artery Sensor System</span></a>
+ <span class="menu-text">Cordella 肺動脈壓力感測器系統：遠端心衰竭管理之臨床證據回顧</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/lecture-lab-troponin/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">心血管中心教學文件</span></a>
+ <span class="menu-text">心肌旋轉蛋白升高解讀教學講義</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1204,55 +1233,55 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nature-covid-19-rbc-microangiopathy-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nature 教學講義</span></a>
+ <span class="menu-text">COVID-19 紅血球微血管病變：缺血性內皮細胞壞死性凋亡誘導溶血與血管病變</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nature-news-east-fusion-2026-科普講義/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nature News 科普講義</span></a>
+ <span class="menu-text">中國核融合反應爐突破電漿密度極限</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-1-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">NEJM Case 1-2026: A 50-Year-Old Woman with Fever and Abdominal Pain</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-15-2025-id/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 15-2025：52 歲男性發燒、噁心與呼吸衰竭</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-18-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 18-2025：63 歲女性運動時呼吸困難 — Erdheim-Chester Disease</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-2-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 2-2026：63 歲男性肺結節、肝臟腫塊與視力喪失 — 高毒力克雷伯氏肺炎桿菌</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-24-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 24-2025：32 歲女性疲勞及肌肉疼痛 — 萊姆心臟炎 (Lyme Carditis)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-25-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 25-2025：93 歲女性呼吸困難與疲勞 — 主動脈狹窄與 Heyde 症候群</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-27-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 27-2025：53 歲男性栓塞性中風與左心室心尖瘤 — Chagas 病</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1264,133 +1293,133 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-3-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 3-2026：58 歲女性複視與發燒 — Lyme Neuroborreliosis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-30-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 30-2025：82 歲女性腹脹、水腫與肋膜積液 — AL 類澱粉沉積症</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-31-cps-2025-id/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 31-2025：83 歲男性全身搔癢與多器官異常 — 繼發性梅毒合併神經梅毒</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-32-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 32-2025：79 歲男性呼吸困難、水腫與起搏器導線移位 — 原發性心臟淋巴瘤</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-34-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 34-2025：57 歲女性視覺障礙與右側肢體抖動 — 瀰漫性軟腦膜黑色素瘤病</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-35-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 35-2025：5 歲男童發燒合併皮疹 — IgA 血管炎</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-36-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 36-2025: 55 歲女性呼吸困難、疲勞與消化道出血</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-36-cps-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">Case 36-2025：31 歲女性發燒、鼻竇炎與多系統肉芽腫 — 常見變異型免疫缺乏症 (CVID)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-4-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 4-2026: 80 歲女性咳嗽與低血氧症 — HIV/AIDS with PJP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-5-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 5-2026: 18 歲女性頭痛與高血壓 — Reninoma</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-6-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 6-2026: 91 歲男性呼吸困難、體重減輕及嗜酸性球增多 — EGPA</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-7-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 7-2026: 91 歲男性左膝疼痛 — M. bovis BCG Periprosthetic Joint Infection</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-case-8-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM Case Record 教學講義</span></a>
+ <span class="menu-text">Case 8-2026: 57 歲女性胸痛、呼吸困難及暈厥 — Fungal Endocarditis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-crest-2-2026/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NEJM 教學講義</span></a>
+ <span class="menu-text">CREST-2: Medical Management and Revascularization for Asymptomatic Carotid Stenosis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejm-rifampin-tb-meningitis/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">結核性腦膜炎高劑量口服Rifampin 治療試驗</span></a>
+ <span class="menu-text">結核性腦膜炎高劑量口服 Rifampin 治療試驗 (HARVEST Trial)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/nejmcps2508044/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">n engl j med 394;10  nejm.org  March 5, 2026</span></a>
+ <span class="menu-text">NEJM Clinical Problem-Solving: The Eyes Have It — 食源性肉毒桿菌中毒</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/people-in-cv-peter-sleight/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Professor Peter Sleight (1929–2020):</span></a>
+ <span class="menu-text">Professor Peter Sleight (1929–2020): A Pioneer in Cardiovascular Medicine</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/pisces_fish_oil_hemodialysis/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fish-Oil Supplementation and Cardiovascular</span></a>
+ <span class="menu-text">PISCES 試驗：魚油補充劑與血液透析患者心血管事件</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-bedside-encounter/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Strategies to Reinvigorate the Bedside</span></a>
+ <span class="menu-text">重振床邊臨床診察的策略 (Strategies to Reinvigorate the Bedside Clinical Encounter)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-critical-pedagogy-and/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">巴西批判教育學與醫學教育：連結教育法</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-diagnostic-equity-2025/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">教學部教學文件</span></a>
+ <span class="menu-text">診斷公平性醫學教育：推進診斷卓越</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/reading-teaching-nejm-educational-strategies-to-prepare-trai/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">臨床不確定性的教學策略</span></a>
+ <span class="menu-text">臨床不確定性的教學策略 (Educational Strategies to Prepare Trainees for Clinical Uncertainty)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1402,25 +1431,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/rybrevant_vte_prevention/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Rybrevant (Amivantamab) 治療期間</span></a>
+ <span class="menu-text">Rybrevant (Amivantamab) 治療期間靜脈血栓栓塞 (VTE) 預防指引</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/simpsons_paradox/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">辛普森悖論(Simpson’s Paradox)</span></a>
+ <span class="menu-text">辛普森悖論 (Simpson’s Paradox)：為什麼整體存活率無法反映真正的醫療照護品質</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/醫法倫/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">醫學倫理法律討論會</span></a>
+ <span class="menu-text">醫學倫理法律討論會：79 歲無身分無健保 STEMI 個案</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../handouts/99-misc/醫法倫_討論_謝慕揚/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">醫學倫理法律討論會</span></a>
+ <span class="menu-text">醫學倫理法律討論會：主持人評論 (Chair’s Commentary)</span></a>
   </div>
 </li>
       </ul>
@@ -1430,16 +1459,68 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">本頁目錄</h2>
+   
+  <ul>
+  <li><a href="#說明" id="toc-說明" class="nav-link active" data-scroll-target="#說明"><span class="header-section-number">1</span> 說明</a></li>
+  <li><a href="#考題" id="toc-考題" class="nav-link" data-scroll-target="#考題"><span class="header-section-number">2</span> 考題</a>
+  <ul class="collapse">
+  <li><a href="#在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度" id="toc-在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度" class="nav-link" data-scroll-target="#在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度"><span class="header-section-number">2.1</span> 1. 在評估主動脈瓣狹窄嚴重程度時，下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度？</a></li>
+  <li><a href="#在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄" id="toc-在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄" class="nav-link" data-scroll-target="#在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄"><span class="header-section-number">2.2</span> 2. 在連續多普勒 (CW Doppler) 測量主動脈瓣流速時，下列何種顏色的譜圖應該被記錄？</a></li>
+  <li><a href="#根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少" id="toc-根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少" class="nav-link" data-scroll-target="#根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少"><span class="header-section-number">2.3</span> 3. 根據美國超音波心臟醫學會 (ASE) 指南，重度主動脈瓣狹窄的最大流速為多少？</a></li>
+  <li><a href="#測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式" id="toc-測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式" class="nav-link" data-scroll-target="#測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式"><span class="header-section-number">2.4</span> 4. 測量主動脈瓣狹窄的最大流速 (Vmax) 時，應使用哪種多普勒方式？</a></li>
+  <li><a href="#使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何" id="toc-使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何" class="nav-link" data-scroll-target="#使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何"><span class="header-section-number">2.5</span> 5. 使用 CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度為何？</a></li>
+  <li><a href="#在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何" id="toc-在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何" class="nav-link" data-scroll-target="#在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何"><span class="header-section-number">2.6</span> 6. 在重度主動脈瓣狹窄病患，使用心尖窗口時常見的多普勒信號特徵為何？</a></li>
+  <li><a href="#計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數" id="toc-計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數" class="nav-link" data-scroll-target="#計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數"><span class="header-section-number">2.7</span> 7. 計算主動脈瓣有效口面積 (AVA) 使用連續性方程式 (continuity equation) 時，需要測量哪三項參數？</a></li>
+  <li><a href="#測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個" id="toc-測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個" class="nav-link" data-scroll-target="#測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個"><span class="header-section-number">2.8</span> 8. 測量主動脈瓣狹窄時，若從多個窗口測得不同流速值，應採用哪一個？</a></li>
+  <li><a href="#對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響" id="toc-對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響" class="nav-link" data-scroll-target="#對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響"><span class="header-section-number">2.9</span> 9. 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，對最大流速的測量會產生什麼影響？</a></li>
+  <li><a href="#以下哪一項會導致實際主動脈瓣狹窄程度被低估" id="toc-以下哪一項會導致實際主動脈瓣狹窄程度被低估" class="nav-link" data-scroll-target="#以下哪一項會導致實際主動脈瓣狹窄程度被低估"><span class="header-section-number">2.10</span> 10. 以下哪一項會導致實際主動脈瓣狹窄程度被低估？</a></li>
+  <li><a href="#若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭" id="toc-若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭" class="nav-link" data-scroll-target="#若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭"><span class="header-section-number">2.11</span> 11. 若要從胸骨上窩窗口 (Suprasternal notch) 測量主動脈瓣狹窄的流速，應如何調整探頭？</a></li>
+  <li><a href="#在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是" id="toc-在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是" class="nav-link" data-scroll-target="#在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是"><span class="header-section-number">2.12</span> 12. 在嚴重低流量低梯度主動脈瓣狹窄 (Low-flow, low-gradient AS) 的病人，最適合的評估方法是？</a></li>
+  <li><a href="#從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置" id="toc-從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置" class="nav-link" data-scroll-target="#從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置"><span class="header-section-number">2.13</span> 13. 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應如何放置？</a></li>
+  <li><a href="#超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵" id="toc-超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵" class="nav-link" data-scroll-target="#超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵"><span class="header-section-number">2.14</span> 14. 超音波心動圖中，下列哪一項不是重度主動脈瓣狹窄的特徵？</a></li>
+  <li><a href="#在測量主動脈瓣流速時以下哪一種因素會使測量值被低估" id="toc-在測量主動脈瓣流速時以下哪一種因素會使測量值被低估" class="nav-link" data-scroll-target="#在測量主動脈瓣流速時以下哪一種因素會使測量值被低估"><span class="header-section-number">2.15</span> 15. 在測量主動脈瓣流速時，以下哪一種因素會使測量值被低估？</a></li>
+  <li><a href="#使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale" id="toc-使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale" class="nav-link" data-scroll-target="#使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale"><span class="header-section-number">2.16</span> 16. 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號 (aliasing)，需要設定多少的速度範圍 (velocity scale)？</a></li>
+  <li><a href="#使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估" id="toc-使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估" class="nav-link" data-scroll-target="#使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估"><span class="header-section-number">2.17</span> 17. 使用 CW 多普勒測量主動脈瓣流速時，下列哪種情況容易導致流速被低估？</a></li>
+  <li><a href="#在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作" id="toc-在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作" class="nav-link" data-scroll-target="#在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作"><span class="header-section-number">2.18</span> 18. 在心尖窗口測量主動脈瓣流速時，為提高準確度，可採取以下哪種操作？</a></li>
+  <li><a href="#計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處" id="toc-計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處" class="nav-link" data-scroll-target="#計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處"><span class="header-section-number">2.19</span> 19. 計算主動脈瓣面積時，左心室流出道直徑 (LVOT diameter) 的測量位置應在何處？</a></li>
+  <li><a href="#超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式" id="toc-超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式" class="nav-link" data-scroll-target="#超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式"><span class="header-section-number">2.20</span> 20. 超音波測量中，根據 Bernoulli 方程 (Bernoulli equation) 計算壓力梯度，以下哪種情況必須使用完整的 Bernoulli 方程而非簡化公式？</a></li>
+  </ul></li>
+  <li><a href="#答案與詳解" id="toc-答案與詳解" class="nav-link" data-scroll-target="#答案與詳解"><span class="header-section-number">3</span> 答案與詳解</a>
+  <ul class="collapse">
+  <li><a href="#答案b-心尖五腔窗口-apical-5-chamber-view" id="toc-答案b-心尖五腔窗口-apical-5-chamber-view" class="nav-link" data-scroll-target="#答案b-心尖五腔窗口-apical-5-chamber-view"><span class="header-section-number">3.1</span> 1. 答案：B — 心尖五腔窗口 (Apical 5-chamber view)</a></li>
+  <li><a href="#答案c-藍色遠離探頭方向" id="toc-答案c-藍色遠離探頭方向" class="nav-link" data-scroll-target="#答案c-藍色遠離探頭方向"><span class="header-section-number">3.2</span> 2. 答案：C — 藍色（遠離探頭方向）</a></li>
+  <li><a href="#答案c-4.0-ms" id="toc-答案c-4.0-ms" class="nav-link" data-scroll-target="#答案c-4.0-ms"><span class="header-section-number">3.3</span> 3. 答案：C — &gt;4.0 m/s</a></li>
+  <li><a href="#答案b-連續多普勒-continuous-wave-doppler" id="toc-答案b-連續多普勒-continuous-wave-doppler" class="nav-link" data-scroll-target="#答案b-連續多普勒-continuous-wave-doppler"><span class="header-section-number">3.4</span> 4. 答案：B — 連續多普勒 (Continuous-wave Doppler)</a></li>
+  <li><a href="#答案a-與血流方向平行-0-度" id="toc-答案a-與血流方向平行-0-度" class="nav-link" data-scroll-target="#答案a-與血流方向平行-0-度"><span class="header-section-number">3.5</span> 5. 答案：A — 與血流方向平行 (0 度)</a></li>
+  <li><a href="#答案b-高密度高速度信號" id="toc-答案b-高密度高速度信號" class="nav-link" data-scroll-target="#答案b-高密度高速度信號"><span class="header-section-number">3.6</span> 6. 答案：B — 高密度、高速度信號</a></li>
+  <li><a href="#答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分" id="toc-答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分" class="nav-link" data-scroll-target="#答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分"><span class="header-section-number">3.7</span> 7. 答案：C — 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</a></li>
+  <li><a href="#答案d-取最高測量值" id="toc-答案d-取最高測量值" class="nav-link" data-scroll-target="#答案d-取最高測量值"><span class="header-section-number">3.8</span> 8. 答案：D — 取最高測量值</a></li>
+  <li><a href="#答案a-不會有影響" id="toc-答案a-不會有影響" class="nav-link" data-scroll-target="#答案a-不會有影響"><span class="header-section-number">3.9</span> 9. 答案：A — 不會有影響</a></li>
+  <li><a href="#答案a-探頭與血流方向不平行" id="toc-答案a-探頭與血流方向不平行" class="nav-link" data-scroll-target="#答案a-探頭與血流方向不平行"><span class="header-section-number">3.10</span> 10. 答案：A — 探頭與血流方向不平行</a></li>
+  <li><a href="#答案d-探頭方向指向左肩" id="toc-答案d-探頭方向指向左肩" class="nav-link" data-scroll-target="#答案d-探頭方向指向左肩"><span class="header-section-number">3.11</span> 11. 答案：D — 探頭方向指向左肩</a></li>
+  <li><a href="#答案b-使用杜布他敏-dobutamine-壓力測試" id="toc-答案b-使用杜布他敏-dobutamine-壓力測試" class="nav-link" data-scroll-target="#答案b-使用杜布他敏-dobutamine-壓力測試"><span class="header-section-number">3.12</span> 12. 答案：B — 使用杜布他敏 (Dobutamine) 壓力測試</a></li>
+  <li><a href="#答案c-穿過左心室心尖和主動脈瓣" id="toc-答案c-穿過左心室心尖和主動脈瓣" class="nav-link" data-scroll-target="#答案c-穿過左心室心尖和主動脈瓣"><span class="header-section-number">3.13</span> 13. 答案：C — 穿過左心室心尖和主動脈瓣</a></li>
+  <li><a href="#答案d-主動脈瓣葉開口增加" id="toc-答案d-主動脈瓣葉開口增加" class="nav-link" data-scroll-target="#答案d-主動脈瓣葉開口增加"><span class="header-section-number">3.14</span> 14. 答案：D — 主動脈瓣葉開口增加</a></li>
+  <li><a href="#答案d-測量時病人吸氣末期" id="toc-答案d-測量時病人吸氣末期" class="nav-link" data-scroll-target="#答案d-測量時病人吸氣末期"><span class="header-section-number">3.15</span> 15. 答案：D — 測量時病人吸氣末期</a></li>
+  <li><a href="#答案c-5-6-ms" id="toc-答案c-5-6-ms" class="nav-link" data-scroll-target="#答案c-5-6-ms"><span class="header-section-number">3.16</span> 16. 答案：C — 5-6 m/s</a></li>
+  <li><a href="#答案b-探頭與血流方向夾角增大" id="toc-答案b-探頭與血流方向夾角增大" class="nav-link" data-scroll-target="#答案b-探頭與血流方向夾角增大"><span class="header-section-number">3.17</span> 17. 答案：B — 探頭與血流方向夾角增大</a></li>
+  <li><a href="#答案a-病人左側臥位並舉起左手" id="toc-答案a-病人左側臥位並舉起左手" class="nav-link" data-scroll-target="#答案a-病人左側臥位並舉起左手"><span class="header-section-number">3.18</span> 18. 答案：A — 病人左側臥位並舉起左手</a></li>
+  <li><a href="#答案c-主動脈瓣下-0.5-1.0-cm-處" id="toc-答案c-主動脈瓣下-0.5-1.0-cm-處" class="nav-link" data-scroll-target="#答案c-主動脈瓣下-0.5-1.0-cm-處"><span class="header-section-number">3.19</span> 19. 答案：C — 主動脈瓣下 0.5-1.0 cm 處</a></li>
+  <li><a href="#答案c-左心室流出道流速高於-1.5-ms-時" id="toc-答案c-左心室流出道流速高於-1.5-ms-時" class="nav-link" data-scroll-target="#答案c-左心室流出道流速高於-1.5-ms-時"><span class="header-section-number">3.20</span> 20. 答案：C — 左心室流出道流速高於 1.5 m/s 時</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/index.html">心臟影像 Imaging</a></li><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/exam-echo-as/index.html">心血管中心教育訓練</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/index.html">心臟影像 Imaging</a></li><li class="breadcrumb-item"><a href="../../../handouts/05-cardiac-imaging/exam-echo-as/index.html">主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">心血管中心教育訓練</h1>
-<p class="subtitle lead">exam echo AS</p>
+<h1 class="title">主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</h1>
+<p class="subtitle lead">主動脈瓣狹窄 (Aortic Stenosis) 超音波診斷與評估考卷</p>
 </div>
 
 
@@ -1468,15 +1549,315 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>主動脈瓣狹窄(AS) 考卷 心血管中心教育訓練考卷 主動脈瓣狹窄(Aortic Stenosis) 超音波診斷與評估 日期： 姓名： 說明 本考卷共20 題，每題皆為單選題，請選出一個最適當的答案。考題涵蓋主動脈瓣狹窄的超 音波診斷評估、測量技巧、診斷標準、血流動力學等方面，特別著重於如何正確測量取得最 大流速。 主動脈瓣狹窄(AS) 考題 1. 在評估主動脈瓣狹窄嚴重程度時，下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯 度？ A. 心尖四腔窗口(Apical 4-chamber view) B. 心尖五腔窗口(Apical 5-chamber view) C. 胸骨右緣窗口(Right parasternal view) D. 胸骨旁長軸窗口(Parasternal long-axis view) 2. 在連續多普勒(CW Doppler) 測量主動脈瓣流速時，下列何種顏色的譜圖應該被記錄？ A. 譜圖顏色無關緊要 B. 紅色(向探頭方向) C. 藍色(遠離探頭方向) D. 綠色(與探頭垂直方向) 3. 根據美國超音波心臟醫學會(ASE) 指南，重度主動脈瓣狹窄的最大流速為多少？ A. &gt;2.5 m/s B. &gt;3.0 m/s C. &gt;4.0 m/s D. &gt;5.0 m/s 4. 測量主動脈瓣狹窄的最大流速(Vmax) 時，應使用哪種多普勒方式？ A. 脈衝多普勒(Pulsed-wave Doppler) B. 連續多普勒(Continuous-wave Doppler) 第1 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 C. 組織多普勒(Tissue Doppler) D. 彩色多普勒(Color Doppler) 5. 使用CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度為何？ A. 與血流方向平行(0 度) B. 與血流方向成30 度角 C. 與血流方向成45 度角 D. 與血流方向成60 度角 6. 在重度主動脈瓣狹窄病患，使用心尖窗口時常見的多普勒信號特徵為何？ A. 低密度、低速度信號 B. 高密度、高速度信號 C. 低密度、高速度信號 D. 高密度、低速度信號 7. 計算主動脈瓣有效口面積(AVA) 使用連續性方程式(continuity equation) 時，需要測 量哪三項參數？ A. 主動脈瓣環直徑、主動脈瓣最大流速、左心室流出道最大流速 B. 主動脈瓣環直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分 C. 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分 D. 左心室流出道直徑、主動脈瓣最大流速、左心室流出道最大流速 8. 測量主動脈瓣狹窄時，若從多個窗口測得不同流速值，應採用哪一個？ A. 取所有測量值的平均 B. 取最低測量值 C. 取心尖窗口測得的值 D. 取最高測量值 9. 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，對最大流速的測量會產生什麼影響？ A. 不會有影響 B. 使測量的流速偏高 C. 使測量的流速偏低 D. 無法測量準確的流速 10. 以下哪一項會導致實際主動脈瓣狹窄程度被低估？ A. 探頭與血流方向不平行 B. 左心室功能減退 C. 主動脈瓣呈雙葉瓣(bicuspid valve) D. 存在嚴重貧血 11. 若要從胸骨上窩窗口(Suprasternal notch) 測量主動脈瓣狹窄的流速，應如何調整探 第2 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 頭？ A. 探頭方向指向右肩 B. 探頭方向朝向肚臍 C. 探頭方向朝向左髖關節 D. 探頭方向指向左肩 12. 在嚴重低流量低梯度主動脈瓣狹窄(Low-flow, low-gradient AS) 的病人，最適合的評 估方法是？ A. 單純計算瓣膜面積 B. 使用杜布他敏(Dobutamine) 壓力測試 C. 僅測量最大流速 D. 計算心臟輸出量 13. 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應如何放置？ A. 穿過二尖瓣和主動脈瓣 B. 穿過二尖瓣和三尖瓣 C. 穿過左心室心尖和主動脈瓣 D. 穿過右心室心尖和肺動脈瓣 14. 超音波心動圖中，下列哪一項不是重度主動脈瓣狹窄的特徵？ A. 主動脈瓣最大流速&gt; 4 m/s B. 平均壓力梯度&gt; 40 mmHg C. 瓣膜面積&lt; 1.0 cm² D. 主動脈瓣葉開口增加 15. 在測量主動脈瓣流速時，以下哪一種因素會使測量值被低估？ A. 病人肥胖 B. 主動脈瓣鈣化嚴重 C. 測量時病人呼氣末期 D. 測量時病人吸氣末期 16. 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號(aliasing)，需要設定多 少的速度範圍(velocity scale)？ A. 1-2 m/s B. 3-4 m/s C. 5-6 m/s D. 7-8 m/s 17. 使用CW 多普勒測量主動脈瓣流速時，下列哪種情況容易導致流速被低估？ A. 增加多普勒增益(Doppler gain) 第3 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 B. 探頭與血流方向夾角增大 C. 使用高頻探頭 D. 使用多個超音波窗口 18. 在心尖窗口測量主動脈瓣流速時，為提高準確度，可採取以下哪種操作？ A. 病人左側臥位並舉起左手 B. 病人平躺並屏住呼吸 C. 使用回波增強劑 D. 減小超音波增益設定 19. 計算主動脈瓣面積時，左心室流出道直徑(LVOT diameter) 的測量位置應在何處？ A. 主動脈瓣葉尖端處 B. 主動脈瓣環處 C. 主動脈瓣下0.5-1.0 cm 處 D. 主動脈根部(sinus of Valsalva) 處 20. 超音波測量中，根據Bernoulli 方程(Bernoulli equation) 計算壓力梯度，以下哪種情 況必須使用完整的Bernoulli 方程而非簡化公式？ A. 主動脈瓣接近完全關閉時 B. 主動脈瓣最大流速超過5 m/s 時 C. 左心室流出道流速高於1.5 m/s 時 D. 存在亞瓣膜狹窄(subvalvular stenosis) 時 — 考卷結束— 第4 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 主動脈瓣狹窄(AS) 考卷 答案與詳解 主動脈瓣狹窄(AS) 考題答案 1. B (心尖五腔窗口(Apical 5-chamber view)) 詳解: 心尖五腔窗口是評估主動脈瓣狹窄最常用的超音波窗口，因為此窗口可同時顯示 左心室、左心室流出道及主動脈瓣，且超音波探頭與主動脈瓣血流方向較為平行，有 利於獲得最大的跨瓣壓力梯度。雖然胸骨右緣窗口有時也能獲得較好的角度，但在多 數病人中較難取得。 2. C (藍色(遠離探頭方向)) 詳解: 在連續多普勒測量主動脈瓣流速時，從心尖窗口測量的主動脈瓣收縮期血流是遠 離探頭的方向，因此在多普勒譜圖上顯示為藍色。正確識別血流方向對於區分主動脈 瓣順行血流和主動脈瓣逆流很重要，尤其是當兩者同時存在時。 3. C (&gt;4.0 m/s) 詳解: 根據美國超音波心臟醫學會(ASE) 與歐洲心臟病學會(ESC) 指南，重度主動脈 瓣狹窄的診斷標準為：最大流速&gt;4.0 m/s、平均壓力梯度&gt;40 mmHg、瓣膜面積&lt;1.0 cm² 或瓣膜面積指數&lt;0.6 cm²/m²。最大流速是最容易測量且重複性良好的參數。 4. B (連續多普勒(Continuous-wave Doppler)) 詳解: 測量主動脈瓣狹窄的最大流速(Vmax) 時，應使用連續多普勒(CW Doppler)。 因為主動脈瓣狹窄的血流速度通常超過2 m/s，甚至可達5-6 m/s，而脈衝多普勒(PW Doppler) 因採樣深度限制，無法準確測量超過奈奎斯特極限(通常為2 m/s 左右) 的高 流速。連續多普勒沒有這種限制，可測量任何速度範圍的血流。 5. A (與血流方向平行(0 度)) 詳解: 使用CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度是與血流方向平行 (0 度)。根據多普勒效應原理，測量的流速與血流實際速度和夾角余弦值的乘積成正比 (V 測量=V 實際×cosθ)。當夾角為0 度時，cosθ=1，測得的流速最接近實際流速。隨 著夾角增大，測得的流速會被低估。 6. B (高密度、高速度信號) 詳解: 在重度主動脈瓣狹窄病患，使用心尖窗口的CW 多普勒檢查時，多普勒信號通常 表現為高密度、高速度信號。高密度反映了大量紅血球同時經過狹窄的瓣膜口徑，高 速度則是由於狹窄通道造成的血流加速。完整的多普勒包絡線清晰可見，頂峰呈尖狀， 表現出典型的” 刀刃” 形態。 7. C (左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分) 詳解: 計算主動脈瓣有效口面積(AVA) 使用連續性方程式(continuity equation) 時，需 要測量以下三項參數：左心室流出道直徑(LVOT diameter)、左心室流出道流速時間積 分(LVOT VTI) 和主動脈瓣流速時間積分(AV VTI)。公式為：AVA = (LVOT 面積× LVOT VTI) ÷ AV VTI，其中LVOT 面積= π × (LVOT 直徑/2)²。這基於流量守恆原理，即通過 瓣膜前後的血流量相等。 第5 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 8. D (取最高測量值) 詳解: 測量主動脈瓣狹窄時，若從多個窗口(如心尖窗口、胸骨右緣、胸骨上窩等) 測得 不同流速值，應採用最高測量值。這是因為多普勒測量受角度影響，只有當超音波束 與血流平行時才能測得最大值。不同窗口中，哪個能與血流最接近平行往往難以預測， 因此最佳實踐是使用多個窗口測量，並採用最高值作為最接近實際血流速度的估計。 9. A (不會有影響) 詳解: 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，通常不會直接影響收縮期主動 脈瓣順行血流最大流速的測量。這是因為主動脈瓣狹窄的順行血流發生在收縮期，而 主動脈瓣逆流發生在舒張期，兩者在時間上分離。但需注意的是，嚴重的主動脈瓣逆 流可能通過影響左心室前負荷和後負荷，間接改變心輸出量，進而影響血流動力學參 數，特別是平均壓力梯度。 10. A (探頭與血流方向不平行) 詳解: 探頭與血流方向不平行是導致實際主動脈瓣狹窄程度被低估的主要因素。根據多 普勒效應，測量的流速與實際流速和夾角余弦值的乘積成正比(V 測量=V 實際×cosθ)。 當探頭與血流不平行時(θ&gt;0°)，cosθ&lt;1，導致測得的流速小於實際流速。例如，30° 角 度錯誤會導致流速被低估約13 11. D (探頭方向指向左肩) 詳解: 從胸骨上窩窗口(Suprasternal notch) 測量主動脈瓣狹窄的流速時，應將探頭方 向指向左肩。這樣可使探頭與升主動脈和主動脈瓣的血流方向盡可能平行，有助於獲 得準確的流速測量。胸骨上窩窗口是獲取主動脈瓣流速的重要補充窗口，尤其當心尖 窗口和胸骨旁窗口的影像不理想時。 12. B (使用杜布他敏(Dobutamine) 壓力測試) 詳解: 在嚴重低流量低梯度主動脈瓣狹窄(Low-flow, low-gradient AS) 的病人中，最 適合的評估方法是使用杜布他敏(Dobutamine) 壓力測試。這類病人由於左心室功能不 全，心輸出量降低，即使存在嚴重瓣膜狹窄，測得的壓力梯度也可能不高。杜布他敏 可增加心肌收縮力和心輸出量，在測試中可觀察流速和壓力梯度的變化情況：如果流 量增加而壓力梯度顯著升高、瓣膜面積仍然小，則確認為真正的嚴重AS；如果流量增 加的同時瓣膜面積也顯著增加(&gt;1.0 cm²)，則為假性嚴重AS。 13. C (穿過左心室心尖和主動脈瓣) 詳解: 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應穿過左心室心尖和主動脈 瓣。這樣的放置方式可以使超音波束與左心室流出道和主動脈瓣的血流方向盡可能平 行，獲得最準確的流速測量。取樣線應避免穿過二尖瓣，以免混淆主動脈瓣信號與二 尖瓣逆流信號。 14. D (主動脈瓣葉開口增加) 詳解: 主動脈瓣葉開口增加不是重度主動脈瓣狹窄的特徵，實際上重度主動脈瓣狹窄時 瓣葉開口受限。重度主動脈瓣狹窄的超音波特徵包括：主動脈瓣最大流速&gt;4 m/s、平 均壓力梯度&gt;40 mmHg、瓣膜面積&lt;1.0 cm²、瓣葉增厚、鈣化、活動度降低、開口受 限等。在二維超音波中，可以看到主動脈瓣收縮期開口明顯減少，呈” 圓點狀” 開口。 15. D (測量時病人吸氣末期) 詳解: 在測量主動脈瓣流速時，如果在病人吸氣末期測量，會使測量值被低估。這是 因為吸氣會增加靜脈回流、右心輸出量，但暫時減少左心輸出量(由於肺血管床容量增 加)。相反，呼氣時左心輸出量增加。為了獲得準確測量，建議在呼氣末期或讓病人短 暫屏住呼吸時進行測量，或者取多個心動週期的平均值。肥胖、瓣膜嚴重鈣化會使獲 取信號更困難，但不一定系統性低估流速。 16. C (5-6 m/s) 詳解: 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號(aliasing)，需要 第6 頁 心血管中心2025 年</p>
-<p>心血管中心教育訓練 主動脈瓣狹窄(AS) 考卷 設定足夠高的速度範圍(velocity scale)，通常為5-6 m/s。重度主動脈瓣狹窄的血流速 度通常在4-6 m/s 範圍內，如果速度範圍設置過低，高速信號將無法完整顯示，影響測 量準確性。雖然連續多普勒不存在與脈衝多普勒相同的奈奎斯特限制，但適當設置速 度範圍有助於信號的最佳顯示。 17. B (探頭與血流方向夾角增大) 詳解: 使用CW 多普勒測量主動脈瓣流速時，探頭與血流方向夾角增大會導致流速被 明顯低估。根據多普勒方程，測得的流速等於實際流速乘以探頭與血流方向夾角的餘 弦值(V 測量=V 實際×cosθ)。當夾角為0° 時，cosθ=1，測量最準確；當夾角增大時， cosθ&lt;1，流速被低估。例如，60° 的夾角意味著測量值僅為實際值的50 18. A (病人左側臥位並舉起左手) 詳解: 在心尖窗口測量主動脈瓣流速時，讓病人左側臥位並舉起左手可以提高測量準確 度。左側臥位使心臟更接近胸壁，減少超音波穿透的組織厚度；舉起左手可進一步移 動肋骨，擴大肋間隙，提供更好的聲窗。這種姿勢有助於使探頭與主動脈瓣血流方向 更加平行，減少角度誤差。屏住呼吸短時間可以幫助穩定圖像，但一般建議在呼氣末 期測量；回波增強劑主要用於改善二維圖像，對多普勒信號幫助有限。 19. C (主動脈瓣下0.5-1.0 cm 處) 詳解: 計算主動脈瓣面積時，左心室流出道直徑(LVOT diameter) 的標準測量位置應在 主動脈瓣下0.5-1.0 cm 處。這一位置是連續性方程使用的標準測量點，可在胸骨旁長 軸窗口的收縮中期測量，測量線與血管走向垂直，從內膜到內膜。測量應避免太靠近 瓣膜(會受瓣環鈣化影響) 或太深入左心室(流出道變得不規則)。測量LVOT 直徑是計 算瓣膜面積的關鍵步驟，1mm 的測量誤差可導致AVA 計算有約10 20. C (左心室流出道流速高於1.5 m/s 時) 詳解: 根據Bernoulli 方程(Bernoulli equation) 計算壓力梯度時，當左心室流出道流 速高於1.5 m/s 時，必須使用完整的Bernoulli 方程而非簡化公式。簡化的Bernoulli 公式為ΔP=4V²，其中V 是主動脈瓣最大流速。這個簡化公式假設左心室流出道流速可 忽略不計。然而，當左心室流出道流速超過1.5 m/s 時(如在高心輸出狀態、主動脈瓣 下狹窄或小口徑左心室流出道)，必須使用完整公式：ΔP=4(V²₂-V²₁)，其中V₂ 是主動 脈瓣最大流速，V₁ 是左心室流出道流速。忽略高LVOT 流速會導致壓力梯度被高估。 第7 頁 心血管中心2025 年</p>
+<section id="說明" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="說明"><span class="header-section-number">1</span> 說明</h2>
+<p>本考卷共 20 題，每題皆為單選題，請選出一個最適當的答案。考題涵蓋主動脈瓣狹窄的超音波診斷評估、測量技巧、診斷標準、血流動力學等方面，特別著重於如何正確測量取得最大流速。</p>
+<hr>
+</section>
+<section id="考題" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="考題"><span class="header-section-number">2</span> 考題</h2>
+<section id="在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="在評估主動脈瓣狹窄嚴重程度時下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度"><span class="header-section-number">2.1</span> 1. 在評估主動脈瓣狹窄嚴重程度時，下列哪一種超音波窗口最容易獲得最大跨瓣壓力梯度？</h3>
+<ul>
+<li>A. 心尖四腔窗口 (Apical 4-chamber view)</li>
+<li>B. 心尖五腔窗口 (Apical 5-chamber view)</li>
+<li>C. 胸骨右緣窗口 (Right parasternal view)</li>
+<li>D. 胸骨旁長軸窗口 (Parasternal long-axis view)</li>
+</ul>
+</section>
+<section id="在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="在連續多普勒-cw-doppler-測量主動脈瓣流速時下列何種顏色的譜圖應該被記錄"><span class="header-section-number">2.2</span> 2. 在連續多普勒 (CW Doppler) 測量主動脈瓣流速時，下列何種顏色的譜圖應該被記錄？</h3>
+<ul>
+<li>A. 譜圖顏色無關緊要</li>
+<li>B. 紅色（向探頭方向）</li>
+<li>C. 藍色（遠離探頭方向）</li>
+<li>D. 綠色（與探頭垂直方向）</li>
+</ul>
+</section>
+<section id="根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="根據美國超音波心臟醫學會-ase-指南重度主動脈瓣狹窄的最大流速為多少"><span class="header-section-number">2.3</span> 3. 根據美國超音波心臟醫學會 (ASE) 指南，重度主動脈瓣狹窄的最大流速為多少？</h3>
+<ul>
+<li>A. &gt;2.5 m/s</li>
+<li>B. &gt;3.0 m/s</li>
+<li>C. &gt;4.0 m/s</li>
+<li>D. &gt;5.0 m/s</li>
+</ul>
+</section>
+<section id="測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="測量主動脈瓣狹窄的最大流速-vmax-時應使用哪種多普勒方式"><span class="header-section-number">2.4</span> 4. 測量主動脈瓣狹窄的最大流速 (Vmax) 時，應使用哪種多普勒方式？</h3>
+<ul>
+<li>A. 脈衝多普勒 (Pulsed-wave Doppler)</li>
+<li>B. 連續多普勒 (Continuous-wave Doppler)</li>
+<li>C. 組織多普勒 (Tissue Doppler)</li>
+<li>D. 彩色多普勒 (Color Doppler)</li>
+</ul>
+</section>
+<section id="使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="使用-cw-多普勒測量主動脈瓣狹窄流速時最理想的取樣角度為何"><span class="header-section-number">2.5</span> 5. 使用 CW 多普勒測量主動脈瓣狹窄流速時，最理想的取樣角度為何？</h3>
+<ul>
+<li>A. 與血流方向平行 (0 度)</li>
+<li>B. 與血流方向成 30 度角</li>
+<li>C. 與血流方向成 45 度角</li>
+<li>D. 與血流方向成 60 度角</li>
+</ul>
+</section>
+<section id="在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何" class="level3" data-number="2.6">
+<h3 data-number="2.6" class="anchored" data-anchor-id="在重度主動脈瓣狹窄病患使用心尖窗口時常見的多普勒信號特徵為何"><span class="header-section-number">2.6</span> 6. 在重度主動脈瓣狹窄病患，使用心尖窗口時常見的多普勒信號特徵為何？</h3>
+<ul>
+<li>A. 低密度、低速度信號</li>
+<li>B. 高密度、高速度信號</li>
+<li>C. 低密度、高速度信號</li>
+<li>D. 高密度、低速度信號</li>
+</ul>
+</section>
+<section id="計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數" class="level3" data-number="2.7">
+<h3 data-number="2.7" class="anchored" data-anchor-id="計算主動脈瓣有效口面積-ava-使用連續性方程式-continuity-equation-時需要測量哪三項參數"><span class="header-section-number">2.7</span> 7. 計算主動脈瓣有效口面積 (AVA) 使用連續性方程式 (continuity equation) 時，需要測量哪三項參數？</h3>
+<ul>
+<li>A. 主動脈瓣環直徑、主動脈瓣最大流速、左心室流出道最大流速</li>
+<li>B. 主動脈瓣環直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</li>
+<li>C. 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</li>
+<li>D. 左心室流出道直徑、主動脈瓣最大流速、左心室流出道最大流速</li>
+</ul>
+</section>
+<section id="測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個" class="level3" data-number="2.8">
+<h3 data-number="2.8" class="anchored" data-anchor-id="測量主動脈瓣狹窄時若從多個窗口測得不同流速值應採用哪一個"><span class="header-section-number">2.8</span> 8. 測量主動脈瓣狹窄時，若從多個窗口測得不同流速值，應採用哪一個？</h3>
+<ul>
+<li>A. 取所有測量值的平均</li>
+<li>B. 取最低測量值</li>
+<li>C. 取心尖窗口測得的值</li>
+<li>D. 取最高測量值</li>
+</ul>
+</section>
+<section id="對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響" class="level3" data-number="2.9">
+<h3 data-number="2.9" class="anchored" data-anchor-id="對於主動脈瓣狹窄的病人若存在主動脈瓣逆流對最大流速的測量會產生什麼影響"><span class="header-section-number">2.9</span> 9. 對於主動脈瓣狹窄的病人，若存在主動脈瓣逆流，對最大流速的測量會產生什麼影響？</h3>
+<ul>
+<li>A. 不會有影響</li>
+<li>B. 使測量的流速偏高</li>
+<li>C. 使測量的流速偏低</li>
+<li>D. 無法測量準確的流速</li>
+</ul>
+</section>
+<section id="以下哪一項會導致實際主動脈瓣狹窄程度被低估" class="level3" data-number="2.10">
+<h3 data-number="2.10" class="anchored" data-anchor-id="以下哪一項會導致實際主動脈瓣狹窄程度被低估"><span class="header-section-number">2.10</span> 10. 以下哪一項會導致實際主動脈瓣狹窄程度被低估？</h3>
+<ul>
+<li>A. 探頭與血流方向不平行</li>
+<li>B. 左心室功能減退</li>
+<li>C. 主動脈瓣呈雙葉瓣 (bicuspid valve)</li>
+<li>D. 存在嚴重貧血</li>
+</ul>
+</section>
+<section id="若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭" class="level3" data-number="2.11">
+<h3 data-number="2.11" class="anchored" data-anchor-id="若要從胸骨上窩窗口-suprasternal-notch-測量主動脈瓣狹窄的流速應如何調整探頭"><span class="header-section-number">2.11</span> 11. 若要從胸骨上窩窗口 (Suprasternal notch) 測量主動脈瓣狹窄的流速，應如何調整探頭？</h3>
+<ul>
+<li>A. 探頭方向指向右肩</li>
+<li>B. 探頭方向朝向肚臍</li>
+<li>C. 探頭方向朝向左髖關節</li>
+<li>D. 探頭方向指向左肩</li>
+</ul>
+</section>
+<section id="在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是" class="level3" data-number="2.12">
+<h3 data-number="2.12" class="anchored" data-anchor-id="在嚴重低流量低梯度主動脈瓣狹窄-low-flow-low-gradient-as-的病人最適合的評估方法是"><span class="header-section-number">2.12</span> 12. 在嚴重低流量低梯度主動脈瓣狹窄 (Low-flow, low-gradient AS) 的病人，最適合的評估方法是？</h3>
+<ul>
+<li>A. 單純計算瓣膜面積</li>
+<li>B. 使用杜布他敏 (Dobutamine) 壓力測試</li>
+<li>C. 僅測量最大流速</li>
+<li>D. 計算心臟輸出量</li>
+</ul>
+</section>
+<section id="從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置" class="level3" data-number="2.13">
+<h3 data-number="2.13" class="anchored" data-anchor-id="從心尖窗口測量主動脈瓣流速時cw-多普勒取樣線應如何放置"><span class="header-section-number">2.13</span> 13. 從心尖窗口測量主動脈瓣流速時，CW 多普勒取樣線應如何放置？</h3>
+<ul>
+<li>A. 穿過二尖瓣和主動脈瓣</li>
+<li>B. 穿過二尖瓣和三尖瓣</li>
+<li>C. 穿過左心室心尖和主動脈瓣</li>
+<li>D. 穿過右心室心尖和肺動脈瓣</li>
+</ul>
+</section>
+<section id="超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵" class="level3" data-number="2.14">
+<h3 data-number="2.14" class="anchored" data-anchor-id="超音波心動圖中下列哪一項不是重度主動脈瓣狹窄的特徵"><span class="header-section-number">2.14</span> 14. 超音波心動圖中，下列哪一項不是重度主動脈瓣狹窄的特徵？</h3>
+<ul>
+<li>A. 主動脈瓣最大流速 &gt; 4 m/s</li>
+<li>B. 平均壓力梯度 &gt; 40 mmHg</li>
+<li>C. 瓣膜面積 &lt; 1.0 cm²</li>
+<li>D. 主動脈瓣葉開口增加</li>
+</ul>
+</section>
+<section id="在測量主動脈瓣流速時以下哪一種因素會使測量值被低估" class="level3" data-number="2.15">
+<h3 data-number="2.15" class="anchored" data-anchor-id="在測量主動脈瓣流速時以下哪一種因素會使測量值被低估"><span class="header-section-number">2.15</span> 15. 在測量主動脈瓣流速時，以下哪一種因素會使測量值被低估？</h3>
+<ul>
+<li>A. 病人肥胖</li>
+<li>B. 主動脈瓣鈣化嚴重</li>
+<li>C. 測量時病人呼氣末期</li>
+<li>D. 測量時病人吸氣末期</li>
+</ul>
+</section>
+<section id="使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale" class="level3" data-number="2.16">
+<h3 data-number="2.16" class="anchored" data-anchor-id="使用連續多普勒測量高速主動脈瓣流時為了避免混淆性信號-aliasing需要設定多少的速度範圍-velocity-scale"><span class="header-section-number">2.16</span> 16. 使用連續多普勒測量高速主動脈瓣流時，為了避免混淆性信號 (aliasing)，需要設定多少的速度範圍 (velocity scale)？</h3>
+<ul>
+<li>A. 1-2 m/s</li>
+<li>B. 3-4 m/s</li>
+<li>C. 5-6 m/s</li>
+<li>D. 7-8 m/s</li>
+</ul>
+</section>
+<section id="使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估" class="level3" data-number="2.17">
+<h3 data-number="2.17" class="anchored" data-anchor-id="使用-cw-多普勒測量主動脈瓣流速時下列哪種情況容易導致流速被低估"><span class="header-section-number">2.17</span> 17. 使用 CW 多普勒測量主動脈瓣流速時，下列哪種情況容易導致流速被低估？</h3>
+<ul>
+<li>A. 增加多普勒增益 (Doppler gain)</li>
+<li>B. 探頭與血流方向夾角增大</li>
+<li>C. 使用高頻探頭</li>
+<li>D. 使用多個超音波窗口</li>
+</ul>
+</section>
+<section id="在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作" class="level3" data-number="2.18">
+<h3 data-number="2.18" class="anchored" data-anchor-id="在心尖窗口測量主動脈瓣流速時為提高準確度可採取以下哪種操作"><span class="header-section-number">2.18</span> 18. 在心尖窗口測量主動脈瓣流速時，為提高準確度，可採取以下哪種操作？</h3>
+<ul>
+<li>A. 病人左側臥位並舉起左手</li>
+<li>B. 病人平躺並屏住呼吸</li>
+<li>C. 使用回波增強劑</li>
+<li>D. 減小超音波增益設定</li>
+</ul>
+</section>
+<section id="計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處" class="level3" data-number="2.19">
+<h3 data-number="2.19" class="anchored" data-anchor-id="計算主動脈瓣面積時左心室流出道直徑-lvot-diameter-的測量位置應在何處"><span class="header-section-number">2.19</span> 19. 計算主動脈瓣面積時，左心室流出道直徑 (LVOT diameter) 的測量位置應在何處？</h3>
+<ul>
+<li>A. 主動脈瓣葉尖端處</li>
+<li>B. 主動脈瓣環處</li>
+<li>C. 主動脈瓣下 0.5-1.0 cm 處</li>
+<li>D. 主動脈根部 (sinus of Valsalva) 處</li>
+</ul>
+</section>
+<section id="超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式" class="level3" data-number="2.20">
+<h3 data-number="2.20" class="anchored" data-anchor-id="超音波測量中根據-bernoulli-方程-bernoulli-equation-計算壓力梯度以下哪種情況必須使用完整的-bernoulli-方程而非簡化公式"><span class="header-section-number">2.20</span> 20. 超音波測量中，根據 Bernoulli 方程 (Bernoulli equation) 計算壓力梯度，以下哪種情況必須使用完整的 Bernoulli 方程而非簡化公式？</h3>
+<ul>
+<li>A. 主動脈瓣接近完全關閉時</li>
+<li>B. 主動脈瓣最大流速超過 5 m/s 時</li>
+<li>C. 左心室流出道流速高於 1.5 m/s 時</li>
+<li>D. 存在亞瓣膜狹窄 (subvalvular stenosis) 時</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="答案與詳解" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="答案與詳解"><span class="header-section-number">3</span> 答案與詳解</h2>
+<section id="答案b-心尖五腔窗口-apical-5-chamber-view" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="答案b-心尖五腔窗口-apical-5-chamber-view"><span class="header-section-number">3.1</span> 1. 答案：B — 心尖五腔窗口 (Apical 5-chamber view)</h3>
+<p>心尖五腔窗口是評估主動脈瓣狹窄最常用的超音波窗口，因為此窗口可同時顯示左心室、左心室流出道及主動脈瓣，且超音波探頭與主動脈瓣血流方向較為平行，有利於獲得最大的跨瓣壓力梯度。雖然胸骨右緣窗口有時也能獲得較好的角度，但在多數病人中較難取得。</p>
+</section>
+<section id="答案c-藍色遠離探頭方向" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="答案c-藍色遠離探頭方向"><span class="header-section-number">3.2</span> 2. 答案：C — 藍色（遠離探頭方向）</h3>
+<p>在連續多普勒測量主動脈瓣流速時，從心尖窗口測量的主動脈瓣收縮期血流是遠離探頭的方向，因此在多普勒譜圖上顯示為藍色。正確識別血流方向對於區分主動脈瓣順行血流和主動脈瓣逆流很重要，尤其是當兩者同時存在時。</p>
+</section>
+<section id="答案c-4.0-ms" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="答案c-4.0-ms"><span class="header-section-number">3.3</span> 3. 答案：C — &gt;4.0 m/s</h3>
+<p>根據 ASE 與 ESC 指南，重度主動脈瓣狹窄的診斷標準為：</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>參數</th>
+<th>重度 AS 標準</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>最大流速 (Vmax)</td>
+<td>&gt;4.0 m/s</td>
+</tr>
+<tr class="even">
+<td>平均壓力梯度 (Mean PG)</td>
+<td>&gt;40 mmHg</td>
+</tr>
+<tr class="odd">
+<td>瓣膜面積 (AVA)</td>
+<td>&lt;1.0 cm²</td>
+</tr>
+<tr class="even">
+<td>瓣膜面積指數 (AVAi)</td>
+<td>&lt;0.6 cm²/m²</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="答案b-連續多普勒-continuous-wave-doppler" class="level3" data-number="3.4">
+<h3 data-number="3.4" class="anchored" data-anchor-id="答案b-連續多普勒-continuous-wave-doppler"><span class="header-section-number">3.4</span> 4. 答案：B — 連續多普勒 (Continuous-wave Doppler)</h3>
+<p>主動脈瓣狹窄的血流速度通常超過 2 m/s，甚至可達 5-6 m/s，而脈衝多普勒 (PW Doppler) 因採樣深度限制，無法準確測量超過 Nyquist limit（通常約 2 m/s）的高流速。連續多普勒沒有這種限制，可測量任何速度範圍的血流。</p>
+</section>
+<section id="答案a-與血流方向平行-0-度" class="level3" data-number="3.5">
+<h3 data-number="3.5" class="anchored" data-anchor-id="答案a-與血流方向平行-0-度"><span class="header-section-number">3.5</span> 5. 答案：A — 與血流方向平行 (0 度)</h3>
+<p>根據 Doppler 效應原理：V_測量 = V_實際 × cos θ。當夾角為 0 度時，cos θ = 1，測得的流速最接近實際流速。隨著夾角增大，測得的流速會被低估。</p>
+</section>
+<section id="答案b-高密度高速度信號" class="level3" data-number="3.6">
+<h3 data-number="3.6" class="anchored" data-anchor-id="答案b-高密度高速度信號"><span class="header-section-number">3.6</span> 6. 答案：B — 高密度、高速度信號</h3>
+<p>高密度反映大量紅血球同時經過狹窄的瓣膜口徑，高速度則是由於狹窄通道造成的血流加速。完整的多普勒包絡線清晰可見，頂峰呈尖狀，表現出典型的「刀刃」形態。</p>
+</section>
+<section id="答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分" class="level3" data-number="3.7">
+<h3 data-number="3.7" class="anchored" data-anchor-id="答案c-左心室流出道直徑左心室流出道流速時間積分主動脈瓣流速時間積分"><span class="header-section-number">3.7</span> 7. 答案：C — 左心室流出道直徑、左心室流出道流速時間積分、主動脈瓣流速時間積分</h3>
+<p>連續性方程式：AVA = (LVOT 面積 × LVOT VTI) ÷ AV VTI，其中 LVOT 面積 = π × (LVOT 直徑/2)²。這基於流量守恆原理，即通過瓣膜前後的血流量相等。</p>
+</section>
+<section id="答案d-取最高測量值" class="level3" data-number="3.8">
+<h3 data-number="3.8" class="anchored" data-anchor-id="答案d-取最高測量值"><span class="header-section-number">3.8</span> 8. 答案：D — 取最高測量值</h3>
+<p>多普勒測量受角度影響，只有當超音波束與血流平行時才能測得最大值。不同窗口中，哪個能與血流最接近平行往往難以預測，因此最佳實踐是使用多個窗口測量，並採用最高值作為最接近實際血流速度的估計。</p>
+</section>
+<section id="答案a-不會有影響" class="level3" data-number="3.9">
+<h3 data-number="3.9" class="anchored" data-anchor-id="答案a-不會有影響"><span class="header-section-number">3.9</span> 9. 答案：A — 不會有影響</h3>
+<p>主動脈瓣狹窄的順行血流發生在收縮期，主動脈瓣逆流發生在舒張期，兩者在時間上分離。但需注意嚴重逆流可能透過影響前負荷和後負荷，間接改變血流動力學參數。</p>
+</section>
+<section id="答案a-探頭與血流方向不平行" class="level3" data-number="3.10">
+<h3 data-number="3.10" class="anchored" data-anchor-id="答案a-探頭與血流方向不平行"><span class="header-section-number">3.10</span> 10. 答案：A — 探頭與血流方向不平行</h3>
+<p>V_測量 = V_實際 × cos θ。當 θ &gt; 0° 時，cos θ &lt; 1，導致測得的流速小於實際流速。例如，30° 角度錯誤會導致流速被低估約 13%。</p>
+</section>
+<section id="答案d-探頭方向指向左肩" class="level3" data-number="3.11">
+<h3 data-number="3.11" class="anchored" data-anchor-id="答案d-探頭方向指向左肩"><span class="header-section-number">3.11</span> 11. 答案：D — 探頭方向指向左肩</h3>
+<p>從胸骨上窩窗口測量時，將探頭方向指向左肩可使探頭與升主動脈和主動脈瓣的血流方向盡可能平行。此窗口是獲取主動脈瓣流速的重要補充窗口。</p>
+</section>
+<section id="答案b-使用杜布他敏-dobutamine-壓力測試" class="level3" data-number="3.12">
+<h3 data-number="3.12" class="anchored" data-anchor-id="答案b-使用杜布他敏-dobutamine-壓力測試"><span class="header-section-number">3.12</span> 12. 答案：B — 使用杜布他敏 (Dobutamine) 壓力測試</h3>
+<p>在 low-flow, low-gradient AS 的病人中，杜布他敏可增加心肌收縮力和心輸出量：</p>
+<ul>
+<li>若流量增加而壓力梯度顯著升高、瓣膜面積仍然小 → <strong>真正的嚴重 AS</strong></li>
+<li>若流量增加的同時瓣膜面積也顯著增加 (&gt;1.0 cm²) → <strong>假性嚴重 AS</strong></li>
+</ul>
+</section>
+<section id="答案c-穿過左心室心尖和主動脈瓣" class="level3" data-number="3.13">
+<h3 data-number="3.13" class="anchored" data-anchor-id="答案c-穿過左心室心尖和主動脈瓣"><span class="header-section-number">3.13</span> 13. 答案：C — 穿過左心室心尖和主動脈瓣</h3>
+<p>使超音波束與左心室流出道和主動脈瓣的血流方向盡可能平行，獲得最準確的流速測量。取樣線應避免穿過二尖瓣，以免混淆主動脈瓣信號與二尖瓣逆流信號。</p>
+</section>
+<section id="答案d-主動脈瓣葉開口增加" class="level3" data-number="3.14">
+<h3 data-number="3.14" class="anchored" data-anchor-id="答案d-主動脈瓣葉開口增加"><span class="header-section-number">3.14</span> 14. 答案：D — 主動脈瓣葉開口增加</h3>
+<p>重度主動脈瓣狹窄時瓣葉開口受限（非增加）。在二維超音波中，可以看到主動脈瓣收縮期開口明顯減少，呈「圓點狀」開口。</p>
+</section>
+<section id="答案d-測量時病人吸氣末期" class="level3" data-number="3.15">
+<h3 data-number="3.15" class="anchored" data-anchor-id="答案d-測量時病人吸氣末期"><span class="header-section-number">3.15</span> 15. 答案：D — 測量時病人吸氣末期</h3>
+<p>吸氣會增加靜脈回流、右心輸出量，但暫時減少左心輸出量（因肺血管床容量增加）。建議在呼氣末期或讓病人短暫屏住呼吸時進行測量，或取多個心動週期的平均值。</p>
+</section>
+<section id="答案c-5-6-ms" class="level3" data-number="3.16">
+<h3 data-number="3.16" class="anchored" data-anchor-id="答案c-5-6-ms"><span class="header-section-number">3.16</span> 16. 答案：C — 5-6 m/s</h3>
+<p>重度主動脈瓣狹窄的血流速度通常在 4-6 m/s 範圍內。雖然連續多普勒不存在與脈衝多普勒相同的 Nyquist 限制，但適當設置速度範圍有助於信號的最佳顯示。</p>
+</section>
+<section id="答案b-探頭與血流方向夾角增大" class="level3" data-number="3.17">
+<h3 data-number="3.17" class="anchored" data-anchor-id="答案b-探頭與血流方向夾角增大"><span class="header-section-number">3.17</span> 17. 答案：B — 探頭與血流方向夾角增大</h3>
+<p>V_測量 = V_實際 × cos θ。當夾角增大時，cos θ &lt; 1，流速被低估。例如，60° 的夾角意味著測量值僅為實際值的 50%。</p>
+</section>
+<section id="答案a-病人左側臥位並舉起左手" class="level3" data-number="3.18">
+<h3 data-number="3.18" class="anchored" data-anchor-id="答案a-病人左側臥位並舉起左手"><span class="header-section-number">3.18</span> 18. 答案：A — 病人左側臥位並舉起左手</h3>
+<p>左側臥位使心臟更接近胸壁，減少超音波穿透的組織厚度；舉起左手可進一步移動肋骨，擴大肋間隙，提供更好的聲窗。這種姿勢有助於使探頭與主動脈瓣血流方向更加平行。</p>
+</section>
+<section id="答案c-主動脈瓣下-0.5-1.0-cm-處" class="level3" data-number="3.19">
+<h3 data-number="3.19" class="anchored" data-anchor-id="答案c-主動脈瓣下-0.5-1.0-cm-處"><span class="header-section-number">3.19</span> 19. 答案：C — 主動脈瓣下 0.5-1.0 cm 處</h3>
+<p>此位置是連續性方程的標準測量點，可在胸骨旁長軸窗口的收縮中期測量，從內膜到內膜。</p>
+<blockquote class="blockquote">
+<p><strong>Pearl</strong>: 測量 LVOT 直徑是計算瓣膜面積的關鍵步驟，1 mm 的測量誤差可導致 AVA 計算約 10% 的誤差。</p>
+</blockquote>
+</section>
+<section id="答案c-左心室流出道流速高於-1.5-ms-時" class="level3" data-number="3.20">
+<h3 data-number="3.20" class="anchored" data-anchor-id="答案c-左心室流出道流速高於-1.5-ms-時"><span class="header-section-number">3.20</span> 20. 答案：C — 左心室流出道流速高於 1.5 m/s 時</h3>
+<p>簡化 Bernoulli 公式 ΔP = 4V² 假設 LVOT 流速可忽略不計。當 LVOT 流速超過 1.5 m/s 時（如高心輸出狀態、主動脈瓣下狹窄），必須使用完整公式：</p>
+<p><span class="math display">\[\Delta P = 4(V_2^2 - V_1^2)\]</span></p>
+<p>其中 V₂ 是主動脈瓣最大流速，V₁ 是 LVOT 流速。忽略高 LVOT 流速會導致壓力梯度被高估。</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
