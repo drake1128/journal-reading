@@ -505,3 +505,4 @@ format:
     toc-depth: 3
     number-sections: true
     lang: zh-TW
+    embed-resources: true
