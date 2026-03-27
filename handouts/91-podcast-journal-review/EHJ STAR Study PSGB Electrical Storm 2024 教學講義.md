@@ -1,384 +1,254 @@
-# European Heart Journal 教學講義
+# 經皮星狀神經節阻斷術治療電風暴：STAR 研究
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-02-27**
+**原文連結：[Eur Heart J — Electrical Storm Treatment by Percutaneous Stellate Ganglion Block: the STAR Study](https://doi.org/10.1093/eurheartj/ehae021)**
 
 ---
 
-Stellate Ganglion Block for Electrical Storm
-European Heart Journal
-Electrical Storm Treatment by Percutaneous Stellate
-Ganglion Block: the STAR Study
-經皮星狀神經節阻斷術治療電風暴：STAR 研究
-Eur Heart J. 2024;45(10):823–833. DOI: 10.1093/eurheartj/ehae021
-整理：謝慕揚MD, PhD, FESC
-日期：2026-02-27
-1 研究背景
-Electrical storm (ES) 定義為24 小時內發生三次以上ventricular tachycardia (VT) 或ven-
-tricular fibrillation (VF)，是一種具有高死亡率的臨床急症。 1.1 臨床困境
-• 約5% 的primary prevention ICD 患者及25% 的secondary prevention ICD 患者會發
-生ES
-• 傳統治療選擇有限：antiarrhythmic drugs (AADs)、sedation/intubation、catheter ablation
-• 許多治療無法快速生效或並非每家醫院都能提供
-• 對於refractory ES，臨床上存在極大的unmet need
-1.2 交感神經與心律不整的關聯
-• 1970 年代Schwartz 等人即證實交感神經活化會降低VF threshold 並縮短ventricular
-refractoriness
-• ES 會形成惡性循環：每次心律不整發作→cardiac output 下降→baroreflex 活化→
-交感神經更加活化→norepinephrine 大量釋放→更易誘發心律不整
-• Percutaneous stellate ganglion block (PSGB) 可有效阻斷此惡性循環
-1.3 既有證據之不足
-先前文獻僅有個案報告及小型病例系列（最大僅30 例），且各研究在技術方法、時間分析框
-架、及分析方式上皆不一致。因此，亟需一項前瞻性多中心研究來確認PSGB 的療效與安全
-性。
+## 1 研究背景
 
+Electrical storm (ES) 定義為 24 小時內發生三次以上 ventricular tachycardia (VT) 或 ventricular fibrillation (VF)，是一種具有高死亡率的臨床急症。
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-2 研究方法
-2.1 研究設計
-• 研究名稱：STAR study (STellate ganglion block for Arrhythmic stoRm)
-• 研究類型：多中心前瞻性觀察研究（含回顧性部分）
-• 研究期間：2017 年7 月至2023 年6 月
-• 參與中心：19 個中心（義大利為主）
-• 註冊：ClinicalTrials.gov NCT05720936
-• 報告規範：遵循STROBE guideline
-2.2 定義
-名詞
-定義
-Electrical storm
-24 小時內≥3 次sustained VT 或VF 發作
-Refractory ES
-經靜脈AADs 治療後仍有心律不整復發，或因不良反
-應需停用AADs
-Arrhythmic event
-需antitachycardia pacing (ATP) 或DC shock（內部或
-外部）治療之sustained VT/VF 發作
-High-volume centre
-研究期間收案≥20 例之中心
-2.3 研究終點
-終點
-定義
-Primary
-out-
-come
-PSGB 後12 小時之treated arrhythmic events 較PSGB
-前12 小時減少≥50%
-Secondary 2.1
-PSGB 前後12 小時ATP/DC shock 次數比較
-Secondary 2.2
-12 小時內之併發症（安全性）
-Secondary 2.3
-有無出現anisocoria 之療效比較
-Secondary 2.4
-Anatomical approach vs. ultrasound-guided approach 之
-療效比較
-Secondary 2.5
-Bolus only vs. bolus + continuous infusion 之療效比較
-Secondary 2.6
-High-volume vs. low-volume centres 之療效比較
+### 1.1 臨床困境
 
+- 約 5% 的 primary prevention ICD 患者及 25% 的 secondary prevention ICD 患者會發生 ES
+- 傳統治療選擇有限：antiarrhythmic drugs (AADs)、sedation/intubation、catheter ablation
+- 許多治療無法快速生效或並非每家醫院都能提供
+- 對於 refractory ES，臨床上存在極大的 unmet need
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-3 PSGB 操作技術
-3.1 兩種操作方式
-項目
-Anterior
-Anatomical
-Approach
-Lateral
-Ultrasound-
-Guided Approach
-定位標記
-Chassaignac’s tubercle (C6
-transverse process)
-超音波辨識
-longus
-colli
-muscle、carotid artery、thyroid
-gland
-進針方式
-前方氣管旁路徑
-(paratracheal approach)
-側方路徑，即時影像引導
-佔比
-57.6% (106/184)
-42.4% (78/184)
-適用情境
-操作快速，適合緊急狀況
-（如cardiac arrest）
-需超音波設備，適合可配合之
-患者
-3.2 麻醉藥物選擇
-• Bolus（82.6%）：常用lidocaine + ropivacaine (34.2%)、lidocaine 單獨(28.8%)、lidocaine
-+ bupivacaine (23.9%)
-• Bolus + continuous infusion（17.4%）：lidocaine (65.6%) 或ropivacaine (34.4%)
-• 注射側別：左側98.4%，右側僅1.6%
-3.3 操作者訓練
-所有操作者均需完成STAR training course：
-1. 4 小時理論課程+ 4 小時實作訓練
+### 1.2 交感神經與心律不整的關聯
+
+- 1970 年代 Schwartz 等人即證實交感神經活化會降低 VF threshold 並縮短 ventricular refractoriness
+- ES 會形成惡性循環：每次心律不整發作 → cardiac output 下降 → baroreflex 活化 → 交感神經更加活化 → norepinephrine 大量釋放 → 更易誘發心律不整
+- Percutaneous stellate ganglion block (PSGB) 可有效阻斷此惡性循環
+
+### 1.3 既有證據之不足
+
+先前文獻僅有個案報告及小型病例系列（最大僅 30 例），且各研究在技術方法、時間分析框架、及分析方式上皆不一致。因此，亟需一項前瞻性多中心研究來確認 PSGB 的療效與安全性。
+
+---
+
+## 2 研究方法
+
+### 2.1 研究設計
+
+- **研究名稱**：STAR study (STellate ganglion block for Arrhythmic stoRm)
+- **研究類型**：多中心前瞻性觀察研究（含回顧性部分）
+- **研究期間**：2017 年 7 月至 2023 年 6 月
+- **參與中心**：19 個中心（義大利為主）
+- **註冊**：ClinicalTrials.gov NCT05720936
+- **報告規範**：遵循 STROBE guideline
+
+### 2.2 定義
+
+| 名詞 | 定義 |
+|------|------|
+| Electrical storm | 24 小時內 ≥3 次 sustained VT 或 VF 發作 |
+| Refractory ES | 經靜脈 AADs 治療後仍有心律不整復發，或因不良反應需停用 AADs |
+| Arrhythmic event | 需 antitachycardia pacing (ATP) 或 DC shock（內部或外部）治療之 sustained VT/VF 發作 |
+| High-volume centre | 研究期間收案 ≥20 例之中心 |
+
+### 2.3 研究終點
+
+| 終點 | 定義 |
+|------|------|
+| Primary outcome | PSGB 後 12 小時之 treated arrhythmic events 較 PSGB 前 12 小時減少 ≥50% |
+| Secondary 2.1 | PSGB 前後 12 小時 ATP/DC shock 次數比較 |
+| Secondary 2.2 | 12 小時內之併發症（安全性） |
+| Secondary 2.3 | 有無出現 anisocoria 之療效比較 |
+| Secondary 2.4 | Anatomical approach vs. ultrasound-guided approach 之療效比較 |
+| Secondary 2.5 | Bolus only vs. bolus + continuous infusion 之療效比較 |
+| Secondary 2.6 | High-volume vs. low-volume centres 之療效比較 |
+
+---
+
+## 3 PSGB 操作技術
+
+### 3.1 兩種操作方式
+
+| 項目 | Anterior Anatomical Approach | Lateral Ultrasound-Guided Approach |
+|------|------|------|
+| 定位標記 | Chassaignac's tubercle (C6 transverse process) | 超音波辨識 longus colli muscle、carotid artery、thyroid gland |
+| 進針方式 | 前方氣管旁路徑 (paratracheal approach) | 側方路徑，即時影像引導 |
+| 佔比 | 57.6% (106/184) | 42.4% (78/184) |
+| 適用情境 | 操作快速，適合緊急狀況（如 cardiac arrest） | 需超音波設備，適合可配合之患者 |
+
+### 3.2 麻醉藥物選擇
+
+- **Bolus（82.6%）**：常用 lidocaine + ropivacaine (34.2%)、lidocaine 單獨 (28.8%)、lidocaine + bupivacaine (23.9%)
+- **Bolus + continuous infusion（17.4%）**：lidocaine (65.6%) 或 ropivacaine (34.4%)
+- **注射側別**：左側 98.4%，右側僅 1.6%
+
+### 3.3 操作者訓練
+
+所有操作者均需完成 STAR training course：
+
+1. 4 小時理論課程 + 4 小時實作訓練
 2. 學習兩種操作方式
-3. 於至少2 名健康志願者身上練習辨識定位標記
-4. 使用特製3D printed dummy neck 進行模擬操作
-5. 通過結業測驗方可成為STAR provider
-4 研究結果
+3. 於至少 2 名健康志願者身上練習辨識定位標記
+4. 使用特製 3D printed dummy neck 進行模擬操作
+5. 通過結業測驗方可成為 STAR provider
 
+---
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-4.1 基線特徵
-核心發現摘要
-研究規模：19 個中心、131 位患者、184 次PSGB
-Patient profile：中位年齡68 歲、男性83.2%、平均LVEF 25.0 ± 12.3%
-高危族群：20.6% cardiogenic shock、5.3% septic shock、8.4% refractory cardiac arrest
-特徵
-數據(n=131)
-年齡（中位數）
-68 (57–76) 歲
-男性
-109 (83.2%)
-LVEF（平均）
-25.0 ± 12.3%
-ES 致病診斷
-STEMI
-23 (17.6%)
-NSTEMI
-14 (10.7%)
-Chronic coronary artery disease
-37 (28.2%)
-Dilated cardiomyopathy
-29 (22.1%)
-Arrhythmogenic cardiomyopathy
-4 (3.1%)
-Myocarditis
-4 (3.1%)
-臨床狀態
-Refractory cardiac arrest
-11 (8.4%)
-Cardiogenic shock
-27 (20.6%)
-Septic shock
-7 (5.3%)
-入院時口服用藥
-Beta-blockers
-82 (62.6%)
-Amiodarone
-46 (35%)
-Mexiletine
-21 (16%)
-Sotalol
-6 (5%)
-In-hospital mortality
-36 (27.5%)
-4.2 Primary Outcome
-重點提醒
-92% 的患者達到primary outcome（PSGB 後12 小時之treated arrhythmic events 減
-少≥50%）
-中位數減少幅度100%（IQR 93–100%）
-PSGB 後第1 小時即有顯著效果：3/4 患者無心律不整復發
-• Per-patient analysis：PSGB 後12 小時的ATP/shock 次數顯著低於PSGB 前12 小
-時[中位數0 (IQR 0–1) vs. 7 (IQR 4–14), P < 0.001]
+## 4 研究結果
 
+### 4.1 基線特徵
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-• Per-procedure analysis：PSGB 後1 小時的treated arrhythmic episodes 顯著低於前
-1 小時[0 (IQR 0–0) vs. 2 (IQR 0–6), P < 0.001]
-• 第一次、第二次及後續PSGB 的療效相當且均達統計顯著
-4.3 安全性
-併發症類型
-發生率
-說明
-Major
-complica-
-tion
-1 (0.5%)
-Respiratory
-depression（可能為
-LAST），以lipid emulsion 治療後
-恢復
-Minor complications
-Bradycardia
-1 (0.5%)
-Hypotension
-1 (0.5%)
-Side effects（自限性）
-Temporary
-brachial
-plexus paralysis
-3 (1.6%)
-Hoarseness
-2 (1.1%)
-Dysphonia
-1 (0.5%)
-Neck pain
-1 (0.5%)
-Vomiting
-1 (0.5%)
-4.4 次要分析結果
-比較項目
-結果
-P 值
-Anisocoria (+) vs. (−)
-療效相當
-−2.5 vs. −2.5
-P = 0.4
-Anatomical vs. US-guided
-兩者皆顯著有效
-−3.5 vs. −1.0
-P < 0.01 (anatomical 組
-基線較嚴重)
-Bolus vs. Bolus + infusion
-療效相當
-−2.5 vs. −2.0
-P = 0.6
-High-volume
-vs. Low-
-volume centres
-療效相當
-−2.5 vs. −2.0
-P = 0.2
-• Anisocoria 非必要指標：有無出現瞳孔不等大，PSGB 療效相同
-• Anatomical approach 的「較佳效果」需謹慎解讀：該組患者基線狀況更嚴重（VF 更
-多、cycle length 更短、cardiac arrest 比例更高），代表有更大的room for improvement
-• Continuous infusion：心律不整復發的時間顯著延長[360 (IQR 153–1351) min vs. 105
-(IQR 5–420) min, P = 0.019]
-• Low-volume centres 同樣有效：簡單的訓練即可讓操作者安全有效地執行PSGB
+> **核心發現**：研究規模 19 個中心、131 位患者、184 次 PSGB。Patient profile：中位年齡 68 歲、男性 83.2%、平均 LVEF 25.0 ± 12.3%。高危族群：20.6% cardiogenic shock、5.3% septic shock、8.4% refractory cardiac arrest。
 
+| 特徵 | 數據 (n=131) |
+|------|------|
+| 年齡（中位數） | 68 (57–76) 歲 |
+| 男性 | 109 (83.2%) |
+| LVEF（平均） | 25.0 ± 12.3% |
+| **ES 致病診斷** | |
+| STEMI | 23 (17.6%) |
+| NSTEMI | 14 (10.7%) |
+| Chronic coronary artery disease | 37 (28.2%) |
+| Dilated cardiomyopathy | 29 (22.1%) |
+| Arrhythmogenic cardiomyopathy | 4 (3.1%) |
+| Myocarditis | 4 (3.1%) |
+| **臨床狀態** | |
+| Refractory cardiac arrest | 11 (8.4%) |
+| Cardiogenic shock | 27 (20.6%) |
+| Septic shock | 7 (5.3%) |
+| **入院時口服用藥** | |
+| Beta-blockers | 82 (62.6%) |
+| Amiodarone | 46 (35%) |
+| Mexiletine | 21 (16%) |
+| Sotalol | 6 (5%) |
+| In-hospital mortality | 36 (27.5%) |
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-5 PSGB 之臨床定位
-5.1 與現行治療之比較
-治療
-優點
-缺點
-可及性
-IV Amiodarone
-最常用
-經驗豐富
-起效慢
-低血壓
-高
-IV Lidocaine
-起效快
-需持續輸注
-CNS toxicity
-高
-Deep sedation / In-
-tubation
-降低交感活化
-需ICU
-插管風險
-中等
-Catheter ablation
-根治性
-長期效果
-需電生理團隊
-設備要求高
-低
-PSGB
-快速有效
-安全性極高
-可學習性強
-效果暫時性
-需訓練
-中高
-（訓練後可推廣）
-5.2 PSGB 在ES 處理流程中的角色
-PSGB 的臨床定位
-1. PSGB 應被視為refractory ES 的第二線治療，用於IV AADs 無效或不耐受時
-2. 目前ESC guidelines 僅給予較低推薦等級；本研究結果支持擴大適應症
-3. PSGB 可作為橋接治療(bridge therapy)：穩定患者以進行後續catheter ablation
-4. 80% 的PSGB 是在清醒患者上執行，顯示可避免部分插管需求
-5. 即使在intubation + general anaesthesia 下，仍有20% 需要PSGB，代表鎮靜本身
-未必足夠
-6 討論與臨床意義
-6.1 重要發現
-1. 高度有效：92% 的患者達到primary outcome，中位數心律不整減少100%
-2. 起效極快：PSGB 後第1 小時即有3/4 患者無心律不整復發
-3. 安全性極佳：184 次操作中僅1 次(0.5%) major complication
-4. 技術可推廣：兩種操作方式均有效，low-volume centres 與high-volume centres 療效相
-當
+### 4.2 Primary Outcome
 
+> **Pearl 1**：92% 的患者達到 primary outcome（PSGB 後 12 小時之 treated arrhythmic events 減少 ≥50%），中位數減少幅度 100%（IQR 93–100%）。PSGB 後第 1 小時即有顯著效果：3/4 患者無心律不整復發。
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-5. Anisocoria 非療效指標：有無出現Horner syndrome 不影響療效
-6. Continuous infusion 可延長效果：復發時間從中位105 分鐘延長至360 分鐘
-6.2 自主神經調節機轉
-PSGB 阻斷惡性循環的機轉
-1. VT/VF 發作→cardiac output ↓→blood pressure ↓
-2. Baroreflex 活化→交感神經大量活化→norepinephrine 釋放↑
-3. Spinal cardiac sympathetic afferent reflexes →stellate ganglion 持續活化
-4. PSGB 介入→阻斷交感傳出→打斷惡性循環→恢復穩定心律
-5. 穩定心律可能持續超過麻醉藥效時間
-7 研究限制
-1. 缺乏對照組：觀察性研究設計，無法確立因果關係，尚需RCT 驗證
-2. PSGB 時機由操作者自行決定：16 例患者在PSGB 前12 小時無事件發生
+- Per-patient analysis：PSGB 後 12 小時的 ATP/shock 次數顯著低於 PSGB 前 12 小時 [中位數 0 (IQR 0–1) vs. 7 (IQR 4–14), P < 0.001]
+- Per-procedure analysis：PSGB 後 1 小時的 treated arrhythmic episodes 顯著低於前 1 小時 [0 (IQR 0–0) vs. 2 (IQR 0–6), P < 0.001]
+- 第一次、第二次及後續 PSGB 的療效相當且均達統計顯著
+
+### 4.3 安全性
+
+| 併發症類型 | 發生率 | 說明 |
+|------|------|------|
+| Major complication | 1 (0.5%) | Respiratory depression（可能為 LAST），以 lipid emulsion 治療後恢復 |
+| **Minor complications** | | |
+| Bradycardia | 1 (0.5%) | |
+| Hypotension | 1 (0.5%) | |
+| **Side effects（自限性）** | | |
+| Temporary brachial plexus paralysis | 3 (1.6%) | |
+| Hoarseness | 2 (1.1%) | |
+| Dysphonia | 1 (0.5%) | |
+| Neck pain | 1 (0.5%) | |
+| Vomiting | 1 (0.5%) | |
+
+### 4.4 次要分析結果
+
+| 比較項目 | 結果 | P 值 |
+|------|------|------|
+| Anisocoria (+) vs. (−) | 療效相當，−2.5 vs. −2.5 | P = 0.4 |
+| Anatomical vs. US-guided | 兩者皆顯著有效，−3.5 vs. −1.0 | P < 0.01 (anatomical 組基線較嚴重) |
+| Bolus vs. Bolus + infusion | 療效相當，−2.5 vs. −2.0 | P = 0.6 |
+| High-volume vs. Low-volume centres | 療效相當，−2.5 vs. −2.0 | P = 0.2 |
+
+- **Anisocoria 非必要指標**：有無出現瞳孔不等大，PSGB 療效相同
+- **Anatomical approach 的「較佳效果」需謹慎解讀**：該組患者基線狀況更嚴重（VF 更多、cycle length 更短、cardiac arrest 比例更高），代表有更大的 room for improvement
+- **Continuous infusion**：心律不整復發的時間顯著延長 [360 (IQR 153–1351) min vs. 105 (IQR 5–420) min, P = 0.019]
+- **Low-volume centres 同樣有效**：簡單的訓練即可讓操作者安全有效地執行 PSGB
+
+---
+
+## 5 PSGB 之臨床定位
+
+### 5.1 與現行治療之比較
+
+| 治療 | 優點 | 缺點 | 可及性 |
+|------|------|------|------|
+| IV Amiodarone | 最常用、經驗豐富 | 起效慢、低血壓 | 高 |
+| IV Lidocaine | 起效快 | 需持續輸注、CNS toxicity | 高 |
+| Deep sedation / Intubation | 降低交感活化 | 需 ICU、插管風險 | 中等 |
+| Catheter ablation | 根治性、長期效果 | 需電生理團隊、設備要求高 | 低 |
+| PSGB | 快速有效、安全性極高、可學習性強 | 效果暫時性、需訓練 | 中高（訓練後可推廣） |
+
+### 5.2 PSGB 在 ES 處理流程中的角色
+
+> **Pearl 2**：PSGB 應被視為 refractory ES 的第二線治療，用於 IV AADs 無效或不耐受時。目前 ESC guidelines 僅給予較低推薦等級；本研究結果支持擴大適應症。
+
+1. PSGB 可作為橋接治療 (bridge therapy)：穩定患者以進行後續 catheter ablation
+2. 80% 的 PSGB 是在清醒患者上執行，顯示可避免部分插管需求
+3. 即使在 intubation + general anaesthesia 下，仍有 20% 需要 PSGB，代表鎮靜本身未必足夠
+
+---
+
+## 6 討論與臨床意義
+
+### 6.1 重要發現
+
+1. **高度有效**：92% 的患者達到 primary outcome，中位數心律不整減少 100%
+2. **起效極快**：PSGB 後第 1 小時即有 3/4 患者無心律不整復發
+3. **安全性極佳**：184 次操作中僅 1 次 (0.5%) major complication
+4. **技術可推廣**：兩種操作方式均有效，low-volume centres 與 high-volume centres 療效相當
+5. **Anisocoria 非療效指標**：有無出現 Horner syndrome 不影響療效
+6. **Continuous infusion 可延長效果**：復發時間從中位 105 分鐘延長至 360 分鐘
+
+### 6.2 自主神經調節機轉
+
+> **Pearl 3**：PSGB 阻斷惡性循環的機轉——VT/VF 發作 → cardiac output ↓ → blood pressure ↓ → baroreflex 活化 → 交感神經大量活化 → norepinephrine 釋放 ↑ → PSGB 介入 → 阻斷交感傳出 → 打斷惡性循環 → 恢復穩定心律。穩定心律可能持續超過麻醉藥效時間。
+
+---
+
+## 7 研究限制
+
+1. 缺乏對照組：觀察性研究設計，無法確立因果關係，尚需 RCT 驗證
+2. PSGB 時機由操作者自行決定：16 例患者在 PSGB 前 12 小時無事件發生
 3. 麻醉藥物種類不一：各中心依當地習慣使用不同局部麻醉劑
-4. 缺乏ICD programming 資訊：ATP/shock 次數受裝置設定影響
-5. 無event adjudication committee：資料由各中心local investigators 收集
-6. ATP 與shock 合併計算：無法區分治療類型的差異分析
+4. 缺乏 ICD programming 資訊：ATP/shock 次數受裝置設定影響
+5. 無 event adjudication committee：資料由各中心 local investigators 收集
+6. ATP 與 shock 合併計算：無法區分治療類型的差異分析
 7. 無長期追蹤：僅評估住院期間療效，缺乏出院後資料
-8 結論
-1. PSGB 高度有效且安全：作為refractory ES 的治療，92% 達到主要終點，僅0.5% major
-complication
-2. 操作方式彈性大：anatomical 或ultrasound-guided 皆有效，可依臨床情境選擇
-3. 技術可快速推廣：經簡短訓練後即可安全執行，low-volume centres 同樣有效
-4. 應擴大臨床適應症：研究結果支持在現行guidelines 基礎上擴大PSGB 的使用範圍
-5. 未來需RCT 驗證：需要前瞻性隨機對照試驗提供最高等級的證據
 
+---
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-9 參考文獻
-1. Savastano S, Baldi E, Compagnoni S, et al. Electrical storm treatment by percutaneous
-stellate ganglion block: the STAR study. Eur Heart J. 2024;45(10):823–833. 2. Malik V, Shivkumar K. Stellate ganglion blockade for the management of ventricular
-arrhythmia storm (Editorial). Eur Heart J. 2024;45(10):834–836. 3. Fudim M, Boortz-Marx R, Ganesh A, et al. Stellate ganglion blockade for the treatment of
-refractory ventricular arrhythmias: a systematic review and meta-analysis. J Cardiovasc
-Electrophysiol. 2017;28:1460–1467. 4. Dusi V, Angelini F, Gravinese C, et al. Electrical storm management in structural heart
-disease. Eur Heart J Suppl. 2023;25:C242–C248. 5. Baldi E, Conte G, Zeppenfeld K, et al. Contemporary management of ventricular electri-
-cal storm in Europe: results of a European Heart Rhythm Association Survey. Europace. 2023;25:1277–1283. 6. Schwartz PJ, Verrier RL, Lown B. Effect of stellectomy and vagotomy on ventricular
-refractoriness in dogs. Circ Res. 1977;40:536. 7. Tian Y, Wittwer ED, Kapa S, et al. Effective use of percutaneous stellate ganglion block-
-ade in patients with electrical storm. Circ Arrhythm Electrophysiol. 2019;12:e007118. 8. Savastano S, Dusi V, Baldi E, et al. Anatomical-based percutaneous left stellate gan-
-glion block in patients with drug-refractory electrical storm and structural heart disease. Europace. 2021;23:581–586. 10 縮寫對照表
-縮寫
-全名
-AAD
-Antiarrhythmic Drug (抗心律不整藥物)
-ATP
-Antitachycardia Pacing (抗心搏過速起搏)
-DC shock
-Direct Current Shock (直流電擊)
-DOAC
-Direct Oral Anticoagulant (直接口服抗凝劑)
-ECMO
-Extracorporeal Membrane Oxygenation (體外膜氧合)
-ES
-Electrical Storm (電風暴)
-IABP
-Intra-Aortic Balloon Pump (主動脈氣球幫浦)
-ICD
-Implantable Cardioverter Defibrillator (植入式去顫器)
-LAST
-Local Anaesthetic Systemic Toxicity (局部麻醉劑全身
-毒性)
-LVEF
-Left Ventricular Ejection Fraction (左心室射出分率)
-PSGB
-Percutaneous Stellate Ganglion Block (經皮星狀神經節
-阻斷術)
-STAR
-STellate ganglion block for Arrhythmic stoRm
-VF
-Ventricular Fibrillation (心室顫動)
+## 8 結論
 
+1. **PSGB 高度有效且安全**：作為 refractory ES 的治療，92% 達到主要終點，僅 0.5% major complication
+2. **操作方式彈性大**：anatomical 或 ultrasound-guided 皆有效，可依臨床情境選擇
+3. **技術可快速推廣**：經簡短訓練後即可安全執行，low-volume centres 同樣有效
+4. **應擴大臨床適應症**：研究結果支持在現行 guidelines 基礎上擴大 PSGB 的使用範圍
+5. **未來需 RCT 驗證**：需要前瞻性隨機對照試驗提供最高等級的證據
 
-European Heart Journal 教學講義
-Stellate Ganglion Block for Electrical Storm
-縮寫
-全名
-VT
-Ventricular Tachycardia (心室心搏過速)
+---
+
+## 9 縮寫對照表
+
+| 縮寫 | 全名 |
+|------|------|
+| AAD | Antiarrhythmic Drug (抗心律不整藥物) |
+| ATP | Antitachycardia Pacing (抗心搏過速起搏) |
+| DC shock | Direct Current Shock (直流電擊) |
+| DOAC | Direct Oral Anticoagulant (直接口服抗凝劑) |
+| ECMO | Extracorporeal Membrane Oxygenation (體外膜氧合) |
+| ES | Electrical Storm (電風暴) |
+| IABP | Intra-Aortic Balloon Pump (主動脈氣球幫浦) |
+| ICD | Implantable Cardioverter Defibrillator (植入式去顫器) |
+| LAST | Local Anaesthetic Systemic Toxicity (局部麻醉劑全身毒性) |
+| LVEF | Left Ventricular Ejection Fraction (左心室射出分率) |
+| PSGB | Percutaneous Stellate Ganglion Block (經皮星狀神經節阻斷術) |
+| STAR | STellate ganglion block for Arrhythmic stoRm |
+| VF | Ventricular Fibrillation (心室顫動) |
+| VT | Ventricular Tachycardia (心室心搏過速) |
+
+---
+
+## 參考文獻
+
+1. Savastano S, Baldi E, Compagnoni S, et al. Electrical storm treatment by percutaneous stellate ganglion block: the STAR study. [*Eur Heart J*. 2024;45(10):823–833.](https://doi.org/10.1093/eurheartj/ehae021)
+2. Malik V, Shivkumar K. Stellate ganglion blockade for the management of ventricular arrhythmia storm (Editorial). [*Eur Heart J*. 2024;45(10):834–836.](https://doi.org/10.1093/eurheartj/ehae052)
+3. Fudim M, Boortz-Marx R, Ganesh A, et al. Stellate ganglion blockade for the treatment of refractory ventricular arrhythmias: a systematic review and meta-analysis. [*J Cardiovasc Electrophysiol*. 2017;28:1460–1467.](https://doi.org/10.1111/jce.13324)
+4. Dusi V, Angelini F, Gravinese C, et al. Electrical storm management in structural heart disease. [*Eur Heart J Suppl*. 2023;25:C242–C248.](https://doi.org/10.1093/eurheartj/suad106)
+5. Baldi E, Conte G, Zeppenfeld K, et al. Contemporary management of ventricular electrical storm in Europe: results of a European Heart Rhythm Association Survey. [*Europace*. 2023;25:1277–1283.](https://doi.org/10.1093/europace/euad042)
+6. Schwartz PJ, Verrier RL, Lown B. Effect of stellectomy and vagotomy on ventricular refractoriness in dogs. [*Circ Res*. 1977;40:536.](https://doi.org/10.1161/01.RES.40.6.536)
+7. Tian Y, Wittwer ED, Kapa S, et al. Effective use of percutaneous stellate ganglion blockade in patients with electrical storm. [*Circ Arrhythm Electrophysiol*. 2019;12:e007118.](https://doi.org/10.1161/CIRCEP.118.007118)
+8. Savastano S, Dusi V, Baldi E, et al. Anatomical-based percutaneous left stellate ganglion block in patients with drug-refractory electrical storm and structural heart disease. [*Europace*. 2021;23:581–586.](https://doi.org/10.1093/europace/euaa300)

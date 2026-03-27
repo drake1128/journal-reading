@@ -1,19 +1,13 @@
-# NEJM Case Record 教學講義
+# Case 7-2026: 91 歲男性左膝疼痛 — M. bovis BCG Periprosthetic Joint Infection
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-03-26**
 
 ---
 
-Periprosthetic Joint Infection with M. bovis BCG
-Case 7-2026: A 91-Year-Old Man with Left
-Knee Pain
-病例7-2026：一位91 歲男性，主訴左膝疼痛
-N Engl J Med 2026;394:907-16
-DOI: 10.1056/NEJMcpc2513545
-February 26, 2026
-1 病例呈現(Case Presentation)
-1.1 Chief Complaint 主訴
+**原文連結：[N Engl J Med — Case 7-2026](https://doi.org/10.1056/NEJMcpc2513545)**
+## 1. 病例呈現 (Case Presentation)
+### 1.1 Chief Complaint 主訴
 A 91-year-old man was evaluated in the orthopedic surgery clinic of this hospital because of
 left knee pain. 一位91 歲男性因左膝疼痛至Massachusetts General Hospital 骨科門診就診。 1.2 History of Present Illness 現病史
 Key Timeline 關鍵時間線：
@@ -30,10 +24,6 @@ wheelchair. 就診前6 個月：左膝疼痛出現；靜態痛、負重時加劇
 radiograph showed cortical erosions, osteolysis, osseous fragmentation at lateral dis-
 tal femoral metadiaphysis. α-defensin positive; bacterial cultures no growth after 2
 and 14 days.
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 就診前3 週：於他院評估。中等量積液；X 光示外側股骨遠端幹骺端皮質侵蝕、骨
 質溶解、骨碎片。α-defensin 陽性；細菌培養陰性。 • Day 0 (Current presentation): Referred to MGH orthopedic surgery clinic for
 further evaluation. 就診當日：轉介至MGH 骨科門診進一步評估。 重點提醒
@@ -73,11 +63,6 @@ Medications
 - Tamsulosin
 - Torsemide
 - Valsartan
-續下頁...
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Category
 類別
 Details
@@ -92,7 +77,7 @@ Family History
 Diabetes (mother); coronary artery disease (brother)
 Allergies
 ACE inhibitors (angioedema of tongue and lips)
-1.4 Physical Examination 身體檢查
+### 1.4 Physical Examination 身體檢查
 On examination:
 • Blood pressure: 148/78 mm Hg
 • Pulse: 71 beats per minute
@@ -104,7 +89,7 @@ bruising at medial aspect (prior aspiration site)
 • Legs: Pitting edema, diffusely dry skin, no skin breakdown or ulcers
 • Chronic right foot drop
 • Overall strength and sensation otherwise normal
-1.5 Laboratory Data 實驗室數據
+### 1.5 Laboratory Data 實驗室數據
 Test
 檢驗項目
 Result
@@ -135,11 +120,6 @@ count
 Elevated (suggestive of
 PJI)
 升高（提示PJI）
-續下頁...
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Test
 檢驗項目
 Result
@@ -202,7 +182,7 @@ PJI Diagnostic Criteria 人工關節周圍感染的診斷標準
 • 此病人兩次synovial fluid 均符合（6,190/µL, 68% neutrophils；5,657/µL, 79% neu-
 trophils）
 • α-Defensin positive 進一步支持PJI 診斷
-1.6 Imaging Studies 影像學檢查
+### 1.6 Imaging Studies 影像學檢查
 1.6.1 Radiograph of Left Knee 左膝X 光
 • TKA components in place; no hardware complications
 • Cortical erosions, osteolysis, and osseous fragmentation at lateral distal femoral metadi-
@@ -211,10 +191,6 @@ aphysis
 1.6.2 CT of Left Knee（無顯影劑）
 • Normal alignment of TKA components; no hardware complications
 • Solid, masslike soft-tissue lesion (4.9 × 3.0 cm) at lateral distal femoral metadiaphysis
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 • Underlying cortical remodeling, erosion, and osteolysis
 • Adjacent superficial, lobulated fluid collection
 1.6.3 MRI of Left Knee（無顯影劑）
@@ -225,7 +201,7 @@ joint space
 • Large joint effusion with extensive synovitis
 • Baker’s cyst
 • Heterogeneous red marrow in distal femur
-2 醫學英文寫作解析(Medical English Writing Analysis)
+## 2. 醫學英文寫作解析 (Medical English Writing Analysis)
 Original Sentence
 原文例句
 Grammar
@@ -294,11 +270,6 @@ Parallel
 structure for
 multiple
 explanations
-續下頁...
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Original Sentence
 原文例句
 Grammar
@@ -373,8 +344,8 @@ clause
 acknowledges
 limitation then
 focuses
-3 鑑別診斷(Differential Diagnosis)
-重點提醒
+## 3. 鑑別診斷 (Differential Diagnosis)
+> **重點提醒**
 Dr. Sandra B. Nelson 的診斷思路
 面對此91 歲男性TKA 後20 年出現的左膝疼痛，聚焦三大核心特徵：
 1. 漸進性發作，TKA 後多年（indolent onset, years after successful arthroplasty）
@@ -382,10 +353,6 @@ Dr. Sandra B. Nelson 的診斷思路
 with joint）
 3. 廣泛性滑膜炎及嗜中性球為主的滑液（extensive synovitis with neutrophil-
 predominant leukocytosis）
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Differential
 Diagnosis
 鑑別診斷
@@ -488,11 +455,6 @@ atypical for
 polyethylene wear
 CT
 Metal ion levels
-續下頁...
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Differential
 Diagnosis
 鑑別診斷
@@ -569,11 +531,7 @@ Clinical Pearl 臨床要點：培養陰性的PJI——想到分枝桿菌
 • 分枝桿菌無法在常規細菌培養基中生長，需要特殊的mycobacterial culture media
 • 當面對培養陰性的PJI + indolent course + mass formation 時，需考慮mycobacterial
 infection
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
-4 討論(Discussion)
+## 4. 討論 (Discussion)
 4.1 Periprosthetic Joint Infection (PJI) 人工關節周圍感染
 PJI complicates 2–3% of arthroplasty procedures and may be acute or chronic, occurring at
 any time after surgery. 人工關節周圍感染影響2–3% 的關節置換術，可為急性或慢性，在術後任何時間發生。 Mechanism
@@ -628,10 +586,6 @@ sues →local immune response against cancer
 性，可形成發炎性腫塊）
 • Osteoarticular complications: PJI typically occurs months to years after BCG admin-
 istration
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 4.3 Diagnostic Testing 診斷檢查
 Test
 檢查
@@ -685,7 +639,7 @@ pyrazinamide resistant
 Intrinsic pyrazinamide
 resistance = hallmark of M. bovis
 固有pyrazinamide 抗性= M. bovis 特徵
-重點提醒
+> **重點提醒**
 Key Diagnostic Insight: M. bovis vs. M. tuberculosis
 M. bovis（包括BCG 株）具有固有的pyrazinamide 抗性（pncA 基因突變）。這是區分
 M. bovis 與M. tuberculosis 的重要特徵。治療時不可使用pyrazinamide。在分子層面上，
@@ -695,11 +649,7 @@ with Mycobacterium bovis Bacille
 Calmette–Guérin
 人工關節周圍感染
 病原體：牛分枝桿菌卡介苗株（BCG）
-6 治療計畫(Treatment Plan)
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
+## 6. 治療計畫 (Treatment Plan)
 6.1 Surgical Treatment 手術治療
 One-Stage vs. Two-Stage Revision 一期vs. 二期翻修
 選擇一期翻修（one-stage revision）的考量：
@@ -748,11 +698,6 @@ Frequency
 Indication/Mechanism
 適應症/機轉
 Empirical（術後經驗性治療）
-續下頁...
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Drug
 (Generic
 Name)
@@ -816,17 +761,13 @@ isoniazid-induced
 peripheral neuropathy
 預防isoniazid 引起的周邊
 神經病變
-重點提醒
+> **重點提醒**
 Critical Point 關鍵要點: M. bovis（包括BCG）具有固有pyrazinamide 抗性，因此治
 療方案不包含pyrazinamide。此外，此病人基礎尿酸偏高，pyrazinamide 可誘發痛風發
 作，是另一個避免使用的原因。Rifampin 與多種藥物有交互作用，需調整病人的長期用
 藥。 6.3 Treatment Course and Outcome 治療經過及結果
 • Treatment with rifampin, isoniazid, ethambutol, and pyridoxine started
 • 3 weeks later: generalized rash →all antimycobacterial therapy discontinued; rash re-
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 solved
 • Re-introduction one agent per week: isoniazid tolerated; ethambutol caused pruritic ur-
 ticarial rash →permanently discontinued
@@ -836,8 +777,8 @@ declined further treatment
 • 6 months after surgery: Healed well, no evidence of infection relapse or pain; continues
 to live independently
 • 6 個月後：傷口癒合良好，無感染復發或疼痛跡象；持續獨立生活
-7 學習重點(Key Takeaways)
-重點提醒
+## 7. 學習重點 (Key Takeaways)
+> **重點提醒**
 1. PJI Diagnosis: Culture-Negative Does Not Mean Infection-Free
 • Synovial fluid culture sensitivity for PJI is only 65–78%
 • Negative cultures may be due to fastidious organisms (e.g., mycobacteria), biofilm,
@@ -846,7 +787,7 @@ prior antibiotics, or organism location in tissue rather than fluid
 tures are negative
 • 培養陰性不等於無感染；α-defensin 和滑液細胞分析是培養陰性時的重要輔助診斷
 工具
-重點提醒
+> **重點提醒**
 2. BCG Therapy Can Cause Late-Onset Osteoarticular Infection
 • Intravesical BCG for bladder cancer can lead to active mycobacterial replication and
 dissemination
@@ -856,11 +797,7 @@ later
 • A history of BCG therapy + sepsis should raise suspicion for mycobacterial PJI,
 especially with indolent presentation
 • BCG 治療後的敗血症病史應提高對分枝桿菌PJI 的懷疑
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
-重點提醒
+> **重點提醒**
 3. M. bovis Has Intrinsic Pyrazinamide Resistance
 • M. bovis (including BCG) carries a characteristic pncA gene mutation (e.g., H57D)
 • This confers intrinsic pyrazinamide resistance — pyrazinamide must NOT be included
@@ -868,7 +805,7 @@ in the regimen
 • Species-level identification within the M. tuberculosis complex is essential for appro-
 priate treatment
 • M. bovis 具有固有pyrazinamide 抗性，治療方案不可包含pyrazinamide
-重點提醒
+> **重點提醒**
 4. One-Stage vs. Two-Stage Revision for PJI
 • Two-stage revision is the traditional standard but requires prolonged immobilization
 and repeat surgery
@@ -877,7 +814,7 @@ patients with poor soft-tissue healing potential
 • Decision should balance infection control with patient-centered factors (functional
 status, comorbidities, quality of life)
 • 一期翻修適用於高齡體弱、亞急性感染、軟組織癒合能力差的病人
-重點提醒
+> **重點提醒**
 5. Patient-Centered Care in Complex Infectious Disease Management
 • This patient ultimately declined antimycobacterial therapy due to side effects and
 monitoring burden
@@ -886,15 +823,11 @@ monitoring burden
 • Antimicrobial stewardship must balance infection control with patient autonomy and
 quality of life
 • 抗微生物治療需平衡感染控制與病人自主權及生活品質
-8 自我測驗(Self-Assessment Quiz)
-8.1 題目(Questions)
+## 8. 自我測驗 (Self-Assessment Quiz)
+### 8.1 題目 (Questions)
 Question 1. A 91-year-old man with a 20-year-old total knee arthroplasty presents with 6
 months of progressive knee pain. Synovial fluid shows 6,190 nucleated cells/µL with 68% neu-
 trophils, positive α-defensin, and negative bacterial cultures. Which diagnosis is most consistent
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 with these findings?
 一位91 歲男性，20 年前接受全膝關節置換術，出現6 個月漸進性膝痛。滑液分析：核細
 胞6,190/µL，68% 嗜中性球，α-defensin 陽性，細菌培養陰性。下列何者最符合？
@@ -924,10 +857,6 @@ Question 4. This patient received intravesical BCG for bladder cancer 5 years ea
 此病人5 年前因膀胱癌接受膀胱內BCG 治療。BCG 是哪種微生物的減毒株？
 (A) Mycobacterium tuberculosis
 (B) Mycobacterium bovis
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 (C) Mycobacterium avium
 (D) Mycobacterium kansasii
 (E) Mycobacterium leprae
@@ -955,10 +884,6 @@ Question 7. Which molecular diagnostic method was used to confirm the isolate as
 (C) Multiplex PCR targeting four genomic regions that vary among species within the M. tuberculosis complex
 (D) 16S rRNA gene sequencing
 (E) Whole-genome sequencing
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Question 8. The surgeon chose a one-stage revision rather than a two-stage approach. Which of the following was NOT a reason for this decision?
 外科醫師選擇一期翻修而非二期。下列何者不是此決定的原因？
 (A) The patient was elderly and frail with chronic foot drop
@@ -987,11 +912,7 @@ ment provided suﬀicient local infection control
 (C) The BCG organism spontaneously lost virulence
 (D) The patient’s immune system was suppressed by medications
 (E) The infection had spread to other joints
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
-8.2 答案與解析(Answers and Explanations)
+### 8.2 答案與解析 (Answers and Explanations)
 Question 1. Answer: (C)
 Explanation: The combination of elevated synovial fluid nucleated-cell count (≥3,000/µL),
 neutrophil predominance (≥75% on second aspiration), and positive α-defensin is highly spe-
@@ -1021,10 +942,6 @@ Explanation: Direct inoculation is unlikely given the 20-year interval since art
 after the 10th cycle of intravesical BCG therapy, with subsequent latency and reactivation in
 the periprosthetic joint. 解析：距TKA 已20 年排除直接接種；潰瘍在小腿遠端排除鄰近擴散。最可能是第10 次
 BCG 治療後的敗血症導致血行性播種，隨後在人工關節周圍潛伏並再活化。
-
-
-NEJM Case Record 教學講義
-Periprosthetic Joint Infection with M. bovis BCG
 Question 7. Answer: (C)
 Explanation: A nucleic acid test designed for species discrimination was used, which
 amplifies four genomic regions whose presence varies among species within the M. tuberculosis

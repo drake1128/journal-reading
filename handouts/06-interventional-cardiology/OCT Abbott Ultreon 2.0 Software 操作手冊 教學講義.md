@@ -1,2032 +1,384 @@
-# Abbott CONFIDENTIAL
+# Abbott Ultreon 2.0 Software 操作手冊
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-03-26**
 
+> **注意**：本文件整理自 Abbott 內部教育訓練資料 (MAT-2303456 v1.0)，僅供教學使用。Ultreon 2.0 Software 相關法規核准狀態請參閱 Abbott 官方資料。
+
 ---
 
-This document is for INTERNAL USE only.  
-Do not use for product promotion or discussion with 
-health care professionals. Do not forward this  
-message or distribute further. Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-Page 1 of 67
-
-
-IN-SERVICE
-Ultreon™
-2.0 Software
-CORONARY
-Page 2 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-1. Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. 2. Ali, Z. A., et al. (2016). Optical coherence tomography compared with intravascular ultrasound and with angiography to guide coronary stent implantation (ILUMIEN III: 
-OPTIMIZE PCI): a randomised controlled trial. The Lancet, 388(10060), 2618–2628. https://doi.org/10.1016/s0140-6736(16)31922-5. 3. Prati, F., et al. (2015). Clinical Impact of OCT Findings During PCI. Jacc-cardiovascular Imaging, 8(11), 1297–1305. https://doi.org/10.1016/ 
-j.jcmg.2015.08.013. 4. Rauch, J., et al. (2021). TCT-276 A Standardized Optical Coherence Tomography Workflow Improves Procedural Efficiency and Safety During Percutaneous Coronary Intervention: Insights From the LightLab Initiative. Journal of the American College 
-of Cardiology, 78(19), B113. https://doi.org/10.1016/j.jacc.2021.09.1129. 5. Lee, J. M., et al. (2023). Intravascular Imaging–Guided or Angiography-Guided Complex PCI. The New England Journal of Medicine. https://doi.org/10.1056/nejmoa2216607. INTRODUCING ULTREON™ 2.0 SOFTWARE 
-Powered by AI, Ultreon™ 2.0 Software instantly provides you with actionable OCT and 
-angiographic insights, enabling PCI procedural efficiencies and optimal outcomes1-5 ​
-Actionable insights powered by AI.  
-See Simply, Act Decisively.1 
-•	 AI-enabled Calcium detection offers insights to 
-determine vessel prep strategy
-•	 AI-enabled EEL measurements provide reference 
-for optimal stent sizing
-•	 Side-by-side zoomable view for live angio feed and  
-co-registered screen aids precise stent delivery 
-and deployment
-•	 Two interface layout options tailor to user’s 
-workflow preference 
-•	 Optimized 3D view enables modern and 
-immersive visualization
-Page 3 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE  
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. TABLE OF CONTENTS
-•	System setup
-•	 Add a new patient
-•	 Add a new physician and customize preferences
-•	 Procedural setup
-•	Using TSC buttonology
-•	OCT image acquisition
-•	Choosing the best mode
-•	Pre-PCI
-•	Deployment
-•	Post-PCI
-•	Post case functions 
-•	 Compare pullbacks
-•	 Export
-•	Physiology
-Page 4 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE  
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-SETTING UP  
-THE SYSTEM
-Ultreon™
-2.0 Software
-Page 5 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. SYSTEM POWER UP AND LOGIN
-User login credentials 
-•	 User credentials are set up for each user at the time of 
-initial system placement 
-System information 
-•	 System overview information can be used when 
-contacting service and support
-Page 6 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. ROOM SELECTION
-Connect and choose the desired room 
-prior to the procedure 
-Bluetooth TSC Connection Status
-Angio Co-registration Available
-Wi-Box™ Available
-Page 7 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. HOME SCREEN
-Users have the option to:
-•	 Review existing case
-•	 Review existing OCT cases
-•	 Review existing physiology cases
-•	 Begin a new case
-•	 Begin an OCT case
-•	 Begin a physiology case
-Once room is selected, users will be prompted to the home screen
-Page 8 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. BEGIN A NEW CASE: ADD A NEW PATIENT
-To begin a new case for a new patient,  
-add the patient to the database
-•	 Enter patient information and click Add
-•	 Matching data will be shown in orange as the data 
-fields are filled in. If the patient already exists in 
-the system, you can select them from the list
-•	 Configured DICOM modality worklist will appear 
-in the list as patient information is searched
-To successfully add a patient, you  
-must enter at a minimum:
-•	 Patient ID
-•	 First letter of first name
-•	 First letter of last name
-Page 9 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. REVIEW AN EXISTING CASE 
-To review an existing case, click Review existing case 
-on the home screen; click on the magnifying glass 
-and type in any relevant patient data 
-•	 Multiple search options including searching  
-by comments
-•	 Comments added to database can be searched for 
-using the magnifying glass icon
-•	 If search criteria matches in the database,  
-an orange comment icon will be listed next  
-to associated patient’s name 
-•	 Comments can be edited in this section
-Page 10 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. BEGIN A NEW CASE: SELECT AN EXISTING PHYSICIAN
-Select an existing physician profile or add a 
-new physician
-•	 Physician already setup in the system can 
-be found in the list
-Page 11 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. BEGIN A NEW CASE: ADD A NEW PHYSICIAN
-To add a new physician, fill out the information 
-required on the screen 
-•	 First name
-•	 Last name
-•	 Click Save & Customize to enter physician 
-preferences
-Page 12 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. PHYSICIAN PREFERENCES
-OCT Settings 
-1  Workflow Mode selection  
-(see Choosing the Best Mode) 
-for comparison between the 
-two modes and how to select 
-the best option
-2  Pullback settings
-•	 You can change the settings 
-for a specific case during a 
-new OCT pullback
-3  Case settings
-•	 You can change calcium 
-threshold, expansion 
-calculation, expansion 
-threshold and apposition 
-threshold when you are 
-viewing the pullbacks 
-4  Physiology settings
-Page 13 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-USING THE TABLESIDE 
-CONTROLLER (TSC)
-Ultreon™
-2.0 Software
-Page 14 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. TABLESIDE CONTROLLER
-Twist to scroll/sweep/zoom/
-rotate cut planes 
-Joystick
-Jumps to areas of interest; mouse 
-cursor control on select screens
-Menu
-Opens the Main Menu and displays Content Menu (3D)
-Augmentation
-Displays or hides the software augmentations; 
-toggles between the Lumen Profile and raw 
-L-mode data
-Distal marker
-Moves the distal reference marker to the current frame
-Note: Can hold the P or D and twist joystick to view  
-2D OCT image as you relocate reference markers
-Escape
-Disengages from a panel; go back to last screen; 
-closes a currently opened Context Menu
-Co-registration
-Toggles the display of the Angio Panel 
-(Guided Mode or 3D View)
-Toggles the display of the Live Angio (Flexible Mode)
-Proximal marker
-Moves the proximal reference marker 
-to the current frame
-A-button
-Select or engages an active user interface element; 
-opens the Context Menu of a panel
-Page 15 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-OCT ACQUISITION
-Ultreon™
-2.0 Software
-Page 16 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. STARTING A CASE
-After patient and physician are selected,  
-users can:
-•	 Start a new OCT pullback 
-•	 Start a new Physiology case (only enabled if a 
-Wi-box is configured for the selected room) 
-Page 17 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. SET-UP: SELECT VESSEL AND LOCATION
-After selecting Start OCT, users are prompted to 
-the setup screen to make selections for the below
-1  Procedure type
-2  Pullback type: 75 mm or 54 mm
-3  Trigger type: manual or automatic
-4  Flush medium
-5  Vessel
-7  Location
-OCT imaging catheter can be connected on this 
-screen and connection status will be reflected
-Page 18 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. SET-UP: PURGE AND CONNECT CATHETER
-Purge catheter and connect to the DOC following the 
-steps below
-1  Take the catheter out from the packaging, wipe 
-down the catheter with heparinized saline to 
-activate the coating
-2  Fill the 3 cc medallion syringe with 100% contrast 
-and connect it to the catheter side arm
-3  Purge the imaging catheter side arm with contrast 
-until at least 3 drops exit the distal tip of the 
-imaging catheter
-4  Remove catheter cap, insert into DOC and rotate 
-¼ turn (clockwise)
-The system will continue to the next screen once the 
-above steps are complete
-Note: This screen will be skipped if catheter 
-connection is previously completed
-Page 19 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. SET-UP: PURGE AND CONNECT CATHETER
-No manual action is needed when this screen is shown
-1  Allow system to identify the catheter version
-2  Allow system to confirm OCT image
-3  System will indicate that it is ready
-ADVANCE IMAGING CATHETER,  
-PUFF AND PURGE
-Navigate the OCT catheter to the desired location in the vessel and get ready for a pullback
-1  Follow steps to position the catheter
-2  Once in desired area, click Live View on the screen or from the DOC, the system will 
-display the live feed from the catheter camera
-3  Give a puff of contrast through the guide catheter and observe the angio or 2D cross 
-section to ensure good guide catheter engagement
-4  Purge blood from the imaging catheter by injecting contrast through the small 3 cc 
-syringe. Check the Live View for blood clearance. Live View field of view can be adjusted  
-to 3 levels by clicking that panel
-5  Once good clearance is achieved, click Enable Pullback
-Page 20 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. 1  Automatic calibration 
-2  Press and hold cine pedal
-3  Inject contrast with steady pressure
-PULLBACK: ACQUISITION
-Five steps summarize the acquisition sequence for an OCT pullback in Ultreon™ 2.0 Software. User 
-engagement is required for steps 2 & 3
-Page 21 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. PULLBACK: AUTOMATIC TRIGGER
-4  Pullback initiated
-5  Release cine
-Step 4 is when an automatic trigger setting allows the system to automatically trigger the pullback upon 
-detected blood clearance by injected contrast. User engagement is required for Step 5
-Page 22 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. PULLBACK: MANUAL TRIGGER
-Manual Pullback Trigger gives users greater control 
-over the optimal timing for triggering a pullback with 
-step-by-step instructions on screen
-1  Automatic calibration 
- 2  Press and hold cine pedal
-3  Inject contrast and click Trigger pullback  
-when Live View shows vessel clear of blood
- 4  Pullback initiated
-5  Release cine
-Note: Pullback steps can also be completed from  
-the DOC
-Page 23 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. IMAGE QUALITY ASSESSMENT
-The image quality assessment screen gives users an opportunity to 
-pre-check the quality of the pullback and decide if a redo is needed. 
-The software provides a few tools to help assess the pullback
-Red Frames 
-•	 Red frames in the longitudinal view indicate low confidence  
-in lumen detection for a specific frame
-•	 Users should investigate all red frames before proceeding  
-with the use of the data
-Exclusion Zone (Non-computation Zone)
-•	 Users can manually adjust the proximal and distal exclusion zones 
-to limit subsequent analysis to regions of high quality image  
-(i.e. exclude guides or blood swirl)
-•	 Restricting computations to regions of high image quality 
-improves data processing accuracy
-•	 Exclusion zones can be can be edited during case review
-Users can click on Redo Pullback if they decide to improve image 
-quality. Users are returned to pullback setup steps 
-If users want to proceed to analyze the current pullback,  
-click Accept to go to next steps
-Exclusion Zone
-Red Frame
-Lumen Contour on a Red Frame
-Exclusion Zone
-Page 24 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. 1  Confirm angio frame
-2  Place proximal control point
-3  Place distal control point
-CO-REGISTRATION
-Users can follow the on-screen instructions to complete the co-registration steps
-Ultreon™ 2.0 Software gives users the ability to choose the optimal angio frame in the heart cycle for easy co-registration
-Page 25 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. CO-REGISTRATION (continued)
-Users can follow the on-screen instructions to complete the co-registration steps
-4  Confirm trace
-5  Confirm co-registration
-Once Proximal and Distal points are 
-placed, users can do any of the following:
-A  Confirm – this takes users to step 5
-B  Edit – add a 3rd point to correct the 
-tracing
-C  Redo – select Proximal and Distal 
-points again
-D  Skip – skip co-registration and 
-continue to the OCT analysis screens
-Confirm vessel tracing is within the 
-intended vessel throughout the entire 
-heart cycle
-Once confirmed (or skipped), you are 
-ready to go to image analysis screens 
-to take a look at the pullback
-A
-B
-C
-D
-Page 26 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-CHOOSING THE
-BEST MODE
-Ultreon™
-2.0 Software
-Page 27 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. GUIDED MODE VS. FLEXIBLE MODE
-Guided Mode
-This is the same workflow and interface layout as the 
-Ultreon™ 1.0 Software. Guided Mode allows users to 
-step through the PCI procedure through Morphology, 
-Sizing, Deployment and Review screens, allowing users 
-to focus on one aspect of the analysis at a time 
-Ultreon™ 2.0 Software offers two modes for image analysis, tailoring to different physicians’ preferences
-Page 28 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. GUIDED MODE VS. FLEXIBLE MODE (continued)
-Flexible Mode
-Flexible Mode presents users with a unified view 
-of the angio and OCT data, rich with AI detection 
-features, measurements and customized views for a 
-self-directed approach. The new Flexible Workflow 
-Mode is a physician profile preference that includes 
-2 tabs: Plan for pre-PCI treatment planning needs 
-and Review for post-PCI treatment optimization 
-*See next slide for functionality comparison between the two modes. 
-Ultreon™ 2.0 Software offers two modes for image analysis, tailoring to different physicians’ preferences
-Page 29 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. Workflow Functions
-Flexible Mode
-Guided Mode
-Guidance
-None
-Navigation tabs take user through MLD 
-MAX workflow
-Navigation Tabs
-2 tabs for Plan and Review
-4 tabs for Morphology, Sizing, Deployment, 
-and Review
-Navigation to 3D Mode
-Yes
-Yes
-Ability to Switch Workflow Mode
-Yes
-Yes
-Measurements in Lumen Profile / L-Mode
-Yes
-No
-Rotation of 2D OCT Cross-Sectional Image
-Yes
-No
-Percent Area and Diameter Stenosis
-Yes
-No
-Min. and Max. Lumen Diameter
-Yes
-No
-FLEXIBLE MODE VS. GUIDED MODE
-Page 30 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. SWITCHING WHILE YOU’RE IN THE CASE
-Users can always easily switch between Guided and Flexible Modes during a case by clicking on the  
-Main Menu dropdown
-Page 31 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-PLAN THE PCI
-PROCEDURE
-Ultreon™
-2.0 Software
-Page 32 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. Morphology
-Length
-Diameter
-Feature
-AI-enabled calcium detection:  
-•	 Length (the ability to make a 
-longitudinal measurement for 
-calcified lesion)
-•	 Arc
-•	 Maximum Thickness
-•	 Automated MLA identification and 
-calculation 
-•	 Ability to make longitudinal 
-measurements
-•	 EEL representation on lumen profile
-•	 AI-enabled EEL detection and 
-diameter calculation (displayed at both 
-proximal and distal reference markers)
-•	 Automated lumen diameter  
-calculation
-Benefit
-Decide on the vessel prep strategy 
-through
-•	 Quick morphology assessment 
-•	 Severity of calcium
-Assess potential landing zones
-•	 EEL presence shows relatively  
-healthy tissues
-•	 Move proximal and distal reference 
-markers to plan your treatment 
-strategy
-Choose the most appropriate stent 
-diameter to achieve bigger luminal  
-gain through
-•	 AI detected EEL and calculated 
-diameters
-•	 Manual 2D cross-sectional 
-measurements 
-•	 Automated lumen diameter 
-measurements
-PRE-PCI ACTIONABLE INSIGHTS: MLD
-Ultreon™ 2.0 Software empowers physicians to assess lesion morphology, optimal landing zones and EEL 
-diameter to decide the best vessel prep strategy, stent size and location
-Page 33 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. FLEXIBLE MODE AT A GLANCE
-Plan tab is designed to present 
-primary information needed 
-to help determine treatment 
-strategy after a pre-PCI  
-OCT pullback
-Review tab is designed to 
-present primary information 
-needed to help review and 
-determine optimization 
-strategy after a post-PCI  
-OCT pullback
-1  Plan/Review
-•	 Toggle between Plan and 
-Review
-2  Buttons on top right screen
-Select other recordings 
-(within same case)
-Augmentation on/off
-New pullback
-Main Menu
-Page 34 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. AUGMENTATION ON AND OFF
-Ultreon™ 2.0 Software presents automatic detection of calcium and EEL
-If you prefer to see the raw 
-OCT image, you can click on 
-the eye icon to turn off the  
-AI augmentation
-EEL measurement
-Angio co-registered calcium 
-detection over user set threshold
-White maximum calcium thickness 
-indicator on this frame
-Orange calcium arc on 
-this frame
-EEL  
-present
-Page 35 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. FLEXIBLE MODE: ACR PANEL
-Angio Co-registration (ACR) panel 
-integrates insights from OCT data to 
-angiography to reduce the mental exercise 
-required for physicians
-Right click on the mouse or A-click with the 
-Tableside Controller (TSC) joystick to open 
-the Context Menu
-ACR controls
-•	 Zoom and Pan
-•	 Annotations on/off
-Page 36 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. FLEXIBLE MODE: CROSS-SECTION CONTEXT MENU
-The cross-section panel provides 
-automated measurements for a 
-specific frame
-1  Right click on mouse or A-click on 
-TSC to activate the cross-sectional 
-Context Menu
-•	 Annotations on/off
-•	 Zoom and Pan
-•	 Measure
-•	 3D View
-•	 Edit lumen contour
-•	 Rotate cross-section
-2  OCT Analysis Panel
-•	 Open up by clicking on the 
-arrow or right bump on the TSC 
-joystick when engaged in the 
-cross-sectional panel
-Frame #
-F:197
-Lumen Area
-LA
-EEL Diameter
-E
-Lumen 
-Diameter 
-L
-Page 37 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. FLEXIBLE MODE: OCT ANALYSIS PANEL
-The OCT Analysis Panel provides users additional data
-Users can open/close the menu by clicking on the right arrow
-Sizing
-•	 Proximal/Distal EEL Diameter
-•	 Proximal/Distal Lumen Diameter
-•	 Length of lesion
-•	 % Diameter Stenosis
-•	 % Area Stenosis
-Manual Measurements
-•	 Delete
-•	 Hide/Unhide
-Calcium
-•	 Total angle
-•	 Max thickness
-•	 Ca arc display threshold
-Lumen
-•	 Min diameter
-•	 Max diameter
-•	 Mean diameter
-Page 38 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. EDIT LUMEN CONTOUR
-Follow the steps below to edit the lumen contour 
-when necessary
-1  Click in the cross-sectional panel to bring up the 
-Context Menu
-2  Click on Edit Lumen icon
-3  Move the dots from your mouse or using the 
-TSC (twist to navigate between contour control 
-points and pan to revise position)
-4  Accept and save
-Page 39 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. ROTATE THE CROSS-SECTIONAL FRAME
-If needed, rotate the cross-sectional image to align side branch to appropriate take-off angle for easier visualization
-1  Click in the cross-section screen to bring up the Context Menu
-2  Click on Rotate Image icon to activate 
-3  Drag (or twist the TSC) to adjust
-4  Accept and save
-Page 40 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. FLEXIBLE MODE: LUMEN PROFILE CONTROLS
-1  Right click on the mouse or A-click on the TSC to 
-activate the lumen profile controls
-•	 Play OCT recording
-•	 Measure length (mm)
-•	 Bookmark frame
-•	 3D view
-•	 Edit exclusion zones
-Note: Holding the P or D button  
-on TSC while twisting will allow  
-user to move the proximal and  
-distal reference markers while  
-viewing 2D OCT
-Lumen Area
-LA
-Minimum 
-Lumen Area
-MLA
-EEL 
-Diameter
-E
-Lumen 
-Diameter
-L
-Calcium 
-(orange) in 
-lumen profile
-Lumen Profile is the graphic representation of the lumen area within the pullback
-Page 41 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. MAKE AND DELETE MEASUREMENTS
-Users can easily make, hide and delete 
-both longitudinal and cross-sectional 
-measurements
-•	 To make a measurement, open the 
-Context Menu in the desired panel, then 
-click on Measure icon
-•	 Use the right arrow on the cross-
-sectional panel to open the OCT Analysis 
-Panel. You can view, hide or delete all 
-measurements on the current frame
-•	 Cross-sectional measurements only show 
-up when the current frame indicator is on a 
-frame with measurement and have (A) and 
-(B) notations assigned to them, whereas 
-longitudinal measurements are visible 
-regardless of current frame
-Page 42 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. EDIT EXCLUSION ZONE
-You can edit the exclusion zone while 
-reviewing the pullback
-1  Click in the lumen profile panel to bring 
-up the Context Menu
-2  Click on Edit Exclusion Zone icon
-3  Move proximal and distal markers by 
-dragging on the mouse, or twist on the 
-TSC joystick and pressing P/D button. 
-Holding the P or D button on  
-TSC while twisting will allow user  
-to move exclusion marker while  
-viewing 2D OCT
-4  Accept and save
-Page 43 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. AUGMENTATION OFF VS. HIDE ALL OVERLAYS
-In each panel, there is a function to hide 
-all overlays
-There is a difference between hiding all 
-overlays and turning augmentation off
-Quick tip for turning back on the 
-overlays:
-Toggle back on via the Context Menu 
-within the chosen panel OR select the 
-eye-ball button a couple times to turn 
-all augmentations off then on – it will 
-restore all augmentations and overlays  
-on again. Augmentation Off
-Hide All Overlays
-Function
-Turns off AI and  
-lumen profile
-Provides unobstructed  
-raw image
-Area of Application
-All panels
-For a given panel
-Proximal and Distal 
-Markers
-Still present
-Will be hidden
-Manual Measurements
-Still present
-Will be hidden
-Page 44 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-DELIVERY AND 
-DEPLOYMENT
-Ultreon™
-2.0 Software
-Page 45 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. Click on zoom to magnify and pan both panels 
-to the desired view for precise treatment
-FLEXIBLE MODE: LIVE ANGIO SYNC
-Once planning is complete, you can click on the left 
-arrow next to the Angio Co-registration panel to 
-activate Live Angio Sync
-This side-by-side screen allows users to see live angio 
-feed and the Angio Co-registration view at the same 
-time to guide precise treatment. If you need to see 
-details, click on the zoom icon to magnify both up  
-to 600%
-Page 46 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. GUIDED MODE: LIVE ANGIO SYNC
-This feature is available in Guided Mode under the Deployment tab. Users can use the Zoom feature on this 
-screen in Guided Mode
-Page 47 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-POST-PCI REVIEW
-Ultreon™
-2.0 Software
-Page 48 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. Medial dissection
-Apposition
-Expansion
-Feature
-High resolution image of OCT
-•	 Automated malapposition detection
-•	 Adjustable threshold for 
-comprehensive assessment
-•	 Automated expansion detection on 
-both Lumen Profile and Angio  
-Co-registration
-•	 Adjustable threshold for 
-comprehensive assessment
-Benefit
-Decide if additional stents are needed 
-based on the severity of the dissection
-Decide if additional balloon is needed 
-to ensure stent is well apposed
-Decide if additional balloon is needed 
-to ensure optimal expansion
-POST-PCI ACTIONABLE INSIGHTS: MAX
-Ultreon™ 2.0 Software empowers physicians to assess the stent delivery and deployment after PCI to decide if 
-additional optimization is required
-Page 49 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. FLEXIBLE MODE: REVIEW AT A GLANCE
-ACR controls
-•	 Zoom and Pan
-•	 Annotations on/off
-OCT Analysis Panel
-Select arrow to open 
-cards for optimization, 
-measurements,  
-and thresholds
-Cross section controls
-•	 Annotations on/off
-•	 Zoom and Pan
-•	 Measure
-•	 3D View
-•	 Edit lumen contour
-•	 Rotate cross-section
-Lumen panel controls
-•	 Play
-•	 Measure
-•	 Bookmark
-•	 3D view
-•	 Exclusion zones
-Tapered expansion (orange) 
-and apposition (yellow) in 
-lumen profile
-Minimum expansion 
-percentage in the 
-stented region
-Page 50 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. FLEXIBLE MODE: CHECKING MEDIAL DISSECTION
-To check for medial dissection, users can 
-1  Click the eye button to turn off the 
-augmentation 
-2  Drag the cut plane in the cross-section 
-to rotate the longitudinal view
-3  Observe if any medial dissection is 
-present and actionable
-Page 51 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. Malapposition above the set 
-threshold is shown in yellow
-Thresholds
-•	 Apposition threshold 
-controls
-FLEXIBLE MODE: CHECKING APPOSITION
-Malapposition detected 
-over the user set 
-threshold is represented 
-in the lumen profile 
-panel in yellow
-Page 52 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. Expansion under the set 
-threshold is shown in orange
-Expansion under the set 
-threshold is shown in orange
-Minimum expansion within 
-the stented region
-Current frame expansion 
-calculation under the set 
-threshold is shown in orange
-Thresholds
-•	 Expansion threshold 
-controls
-FLEXIBLE MODE: CHECKING EXPANSION (TAPERED MODE)
-Expansion detected under 
-the user set threshold is 
-represented across the 
-three panels in orange
-Page 53 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. 3D BIFURCATION VIEW
-3D functionality optimized for Bifurcation 
-analysis with ease of navigation using Context 
-Menu to select:
-1  Tilt mode
-2  Ostium view (default)
-3  Display Content Menu  
-(stents, guidewires, lumen etc.)
-4  Bookmark
-5  Carina view
-6  Closed/open view of vessel 
-7  Screen capture
-8  Exit 3D mode 
-Display Content Menu
-Select to view the following:
-•	 Tissue
-•	 Lumen
-•	 Guide wire(s)
-•	 Stents
-•	 Frame indicator
-•	 Cross section
-•	 Angiography
-•	 Lumen profile
-Page 54 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. 3D BIFURCATION VIEW (continued)
-Users will be able to look at a representative stent rendering in 360 degrees in the 3D mode
-1  Click on the main 3D mode screen to bring up the Context Menu
-2  Display Content menu from the Context Menu (or on the TSC, hit the menu button)
-3  Select desired elements to show on the screen. To see only the stent, unselect all other options
-4  From Context Menu, select Close to see the full view of the rendered stent
-Note: Sections of stent not rendered are likely result of insufficient data, including guidewire shadow
-Page 55 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-POST CASE FUNCTIONS
-Ultreon™
-2.0 Software
-Page 56 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. COMPARE PULLBACKS
-Ultreon™ 2.0 Software provides users with a 
-visually appealing way to compare different 
-pullbacks within the same case
-•	 Any two pullbacks within the same case can be 
-compared side-by-side
-•	 Pullbacks without a stent detected will show 
-the MLA
-•	 Pullbacks with a stent detected will show the 
-MSA and expansion %
-•	 Dynamic lumen area value is displayed at the 
-top of the current cursor
-Page 57 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. EXPORT
-Procedure data can be exported in several 
-different formats:
-•	 OCT Imaging
-•	 OCT file format (.oct)
-•	 Standard video format (.mp4)
-•	 Standard image format (.png)
-•	 Physiology
-•	 Standard image format (.png)
-Page 58 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. DATA EXPORT
-You can choose the destination for  
-the export:
-•	 DVD
-•	 USB
-•	 Network
-•	 DICOM Server
-Page 59 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. If you have any questions on how to use a 
-feature in the software, you can conveniently 
-access the electronic IFU link by clicking into 
-the settings menu
-1  Click the Main menu on the top right of  
-any screen 
-2  Click on System settings
-3  Click on System info
-4  Click on View IFU
-5  Scan the QR code and search for  
-Ultreon™ 2.0 Software 
-6  Start reading it on your mobile device
-ACCESSING eIFU
-Page 60 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. EDITING PATIENT INFORMATION
-Ultreon™ 2.0 Software gives users the ability  
-to edit patient information by following the 
-steps below 
-1  Click the Main menu on the top right from  
-any screen
-2  Click on System settings from within menu
-3  Click on Patient data
-4  Click on Patient info
-5  Select the desired patient name and click  
-on Edit
-6  Edit and click on Update to save
-Page 61 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-PHYSIOLOGY
-Ultreon™
-2.0 Software
-Page 62 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not 
-available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. HOME SCREEN
-For a selected case, users have the option to: 
-•	 Start physiology 
-•	 Switch to physiology by selecting the appropriate 
-option from the 
- menu  
-Click on Start Physiology to proceed  
-to the next screen
-Last, First
-Test 789, MD
-Page 63 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. PHYSIOLOGY WORKFLOW
-Steps:
-1  Prepare the AO transducer
-2  Flush the PressureWire™ X Guidewire
-3  Pair the transmitter
-4  Position the PressureWire™ X Guidewire  
-Post equalization, click on RFR or FFR  
-at the top of the screen to proceed
-Note: RFR is the default setting, users can select 
-FFR or RFR as the preferred physiology index 
-from the Physician preference settings
-Page 64 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. PHYSIOLOGY WORKFLOW
-Fractional Flow Reserve (FFR) mode offers  
-two options:
-1  Taking Pd/Pa snapshot 
-•	 Click Snapshot
-2  FFR Recording 
-•	 Advance the PressureWire™ X Guidewire 
-distal to the target lesion
-•	 Flush vessel with saline prior to recording
-•	 Use standard catheter laboratory techniques  
-to induce maximum hyperemia
-•	 Click Record to start recording
-Page 65 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software Instructions for Use (IFU). Refer to IFU for additional information. PHYSIOLOGY WORKFLOW
-Resting Full-cycle Ratio (RFR) mode offers  
-two options: 
-1  Taking RFR snapshot 
-•	 Click Snapshot
-2  Performing an RFR Pullback 
-•	 Advance the PressureWire™ X Guidewire  
-distal to the target lesion
-•	 Select Start pullback to start recording 
-•	 To place a marker, select Marker
-•	 Slowly pullback the wire at a consistent speed
-•	 Click Stop to end the pullback recording
-Page 66 of 67
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-SYSTEM
-SETUP
-USING THE 
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
-
-
-Ultreon™ 2.0 Software is pending CE mark and FDA clearance and is not available for sale in any market. 
-Illustrations are artist’s representations only and should not be considered as engineering drawings or photographs.  
-Photos on file at Abbott. Note: No actual patient data or protected health information (PHI). Abbott CONFIDENTIAL. Internal use only. Not to be reproduced, distributed or excerpted.  
-™ Indicates a trademark of the Abbott Group of Companies. www.cardiovascular.abbott 
-©2023 Abbott. All rights reserved. MAT-2303456 v1.0
-Page 67 of 67
-SYSTEM
-SETUP
-USING THE  
-TSC
-ACQUISITION
-CHOOSING
-THE BEST
-MODE
-PRE-PCI
-DEPLOYMENT
-POST-PCI
-POST CASE
-FUNCTIONS
-PHYSIOLOGY
+## 目錄
+
+- [簡介：Ultreon 2.0 Software](#簡介ultreon-20-software)
+- [1. System Setup（系統設定）](#1-system-setup系統設定)
+- [2. Using the Tableside Controller (TSC)](#2-using-the-tableside-controller-tsc)
+- [3. OCT Acquisition（OCT 影像擷取）](#3-oct-acquisition-oct-影像擷取)
+- [4. Choosing the Best Mode（選擇最佳模式）](#4-choosing-the-best-mode選擇最佳模式)
+- [5. Pre-PCI（PCI 前規劃）](#5-pre-pcipci-前規劃)
+- [6. Deployment（支架輸送與釋放）](#6-deployment支架輸送與釋放)
+- [7. Post-PCI Review（PCI 後評估）](#7-post-pci-reviewpci-後評估)
+- [8. Post Case Functions（術後功能）](#8-post-case-functions術後功能)
+- [9. Physiology（生理學評估）](#9-physiology生理學評估)
+- [參考文獻](#參考文獻)
+
+---
+
+## 簡介：Ultreon 2.0 Software
+
+Powered by AI, Ultreon 2.0 Software 即時提供可操作的 OCT 和血管攝影洞見，提升 PCI 手術效率與最佳化結果。
+
+**核心功能**：
+
+- **AI-enabled Calcium detection**：提供洞見以決定 vessel prep 策略
+- **AI-enabled EEL measurements**：提供最佳支架尺寸的參考
+- **Side-by-side zoomable view**：即時血管攝影 feed 與 co-registered screen 並列顯示，協助精確支架輸送與釋放
+- **Two interface layout options**：依使用者工作流程偏好客製化
+- **Optimized 3D view**：現代化沉浸式視覺化
+
+---
+
+## 1. System Setup（系統設定）
+
+### 1.1 System Power Up and Login
+
+- User credentials 於系統初始安裝時設定
+- System overview information 可於聯繫 service and support 時使用
+
+### 1.2 Room Selection
+
+在手術前連接並選擇所需房間：
+
+- Bluetooth TSC Connection Status
+- Angio Co-registration Available
+- Wi-Box Available
+
+### 1.3 Home Screen
+
+選擇房間後，進入主畫面。使用者可以：
+
+- Review existing case（OCT 或 physiology）
+- Begin a new case（OCT 或 physiology）
+
+### 1.4 Add a New Patient
+
+建立新病例時，最少需要輸入：
+
+- Patient ID
+- First letter of first name
+- First letter of last name
+
+已設定的 DICOM modality worklist 會在輸入病患資訊時自動顯示匹配結果。
+
+### 1.5 Review an Existing Case
+
+- 點選 Review existing case，使用搜尋功能
+- Multiple search options including searching by comments
+- Comments 可在此區段編輯
+
+### 1.6 Select or Add Physician
+
+- 從清單中選擇已存在的醫師
+- 或新增醫師並填寫 First name、Last name，點選 Save & Customize
+
+### 1.7 Physician Preferences
+
+| 設定類別 | 說明 |
+|----------|------|
+| 1. Workflow Mode | 選擇 Guided Mode 或 Flexible Mode |
+| 2. Pullback settings | 可針對特定 case 在新 OCT pullback 時變更 |
+| 3. Case settings | 可變更 calcium threshold、expansion calculation、expansion threshold、apposition threshold |
+| 4. Physiology settings | 生理學相關設定 |
+
+---
+
+## 2. Using the Tableside Controller (TSC)
+
+### TSC 按鍵功能
+
+| 按鍵 | 功能 |
+|------|------|
+| Twist (旋轉) | Scroll / Sweep / Zoom / Rotate cut planes |
+| Joystick | 跳至 areas of interest；滑鼠游標控制 |
+| Menu | 開啟 Main Menu 和 Content Menu (3D) |
+| Augmentation | 顯示/隱藏 software augmentations；切換 Lumen Profile 和 raw L-mode data |
+| Distal marker (D) | 將 distal reference marker 移至當前 frame |
+| Proximal marker (P) | 將 proximal reference marker 移至當前 frame |
+| Escape | 脫離 panel；返回上一畫面；關閉 Context Menu |
+| Co-registration | 切換 Angio Panel 顯示（Guided Mode / 3D View / Live Angio） |
+| A-button | 選取/啟動 UI 元素；開啟 Context Menu |
+
+> **Pearl**: 按住 P 或 D 按鍵同時旋轉 joystick，可在移動 reference markers 時同步查看 2D OCT 影像。
+
+---
+
+## 3. OCT Acquisition（OCT 影像擷取）
+
+### 3.1 Starting a Case
+
+選擇病患和醫師後，可以：
+
+- Start a new OCT pullback
+- Start a new Physiology case（需配置 Wi-box）
+
+### 3.2 Setup: Select Vessel and Location
+
+選擇以下項目：
+
+1. Procedure type
+2. Pullback type: 75 mm or 54 mm
+3. Trigger type: manual or automatic
+4. Flush medium
+5. Vessel
+6. Location
+
+### 3.3 Purge and Connect Catheter
+
+1. 從包裝取出 catheter，以 heparinized saline 擦拭以活化 coating
+2. 以 100% contrast 填充 3 cc medallion syringe，連接至 catheter side arm
+3. Purge imaging catheter side arm 直到至少 3 滴從 distal tip 流出
+4. 移除 catheter cap，插入 DOC 並順時針旋轉 1/4 圈
+
+### 3.4 Advance Imaging Catheter, Puff and Purge
+
+1. 將 OCT catheter 導航至目標血管位置
+2. 點選 Live View 觀看即時影像
+3. 通過 guide catheter 注入少量 contrast (puff)，確認良好的 guide catheter engagement
+4. 通過 3 cc syringe 注入 contrast 清除血液 (purge)，在 Live View 確認 blood clearance
+5. 達到良好 clearance 後，點選 Enable Pullback
+
+### 3.5 Pullback: Acquisition (Automatic Trigger)
+
+1. Automatic calibration
+2. Press and hold cine pedal
+3. Inject contrast with steady pressure
+4. Pullback initiated（系統偵測到血液清除後自動觸發）
+5. Release cine
+
+### 3.6 Pullback: Manual Trigger
+
+手動觸發給予使用者更大的控制權：
+
+1. Automatic calibration
+2. Press and hold cine pedal
+3. Inject contrast，當 Live View 顯示血管清除血液時點選 Trigger pullback
+4. Pullback initiated
+5. Release cine
+
+### 3.7 Image Quality Assessment
+
+影像品質評估畫面提供預檢機會：
+
+- **Red Frames**：Longitudinal view 中紅色 frame 表示 lumen detection 信心低，應於繼續前調查所有紅色 frame
+- **Exclusion Zone (Non-computation Zone)**：可手動調整 proximal 和 distal exclusion zones，將分析限制在高品質影像區域（排除 guides 或 blood swirl）
+
+可選擇 Redo Pullback 或 Accept 繼續。
+
+### 3.8 Co-Registration
+
+依畫面指示完成 co-registration 步驟：
+
+1. Confirm angio frame
+2. Place proximal control point
+3. Place distal control point
+4. Confirm trace（可選：Confirm / Edit / Redo / Skip）
+5. Confirm co-registration
+
+> **Pearl**: Ultreon 2.0 允許使用者選擇心動週期中最佳的 angio frame 以利 co-registration。確認 vessel tracing 在整個心動週期中都位於目標血管內。
+
+---
+
+## 4. Choosing the Best Mode（選擇最佳模式）
+
+### 4.1 Guided Mode vs. Flexible Mode
+
+| 功能 | Flexible Mode | Guided Mode |
+|------|---------------|-------------|
+| Guidance | 無 | Navigation tabs 引導 MLD MAX workflow |
+| Navigation Tabs | 2 tabs: Plan / Review | 4 tabs: Morphology / Sizing / Deployment / Review |
+| Navigation to 3D Mode | Yes | Yes |
+| Switch Workflow Mode | Yes | Yes |
+| Measurements in Lumen Profile / L-Mode | Yes | No |
+| Rotation of 2D OCT Cross-Sectional Image | Yes | No |
+| Percent Area and Diameter Stenosis | Yes | No |
+| Min. and Max. Lumen Diameter | Yes | No |
+
+**Guided Mode**：與 Ultreon 1.0 Software 相同的工作流程和介面，透過 Morphology、Sizing、Deployment 和 Review 畫面逐步引導，讓使用者一次專注一個分析面向。
+
+**Flexible Mode**：統一呈現 angio 和 OCT 數據，豐富的 AI 偵測功能、測量和客製化視圖，適合自主導向操作。包含 Plan tab（pre-PCI）和 Review tab（post-PCI）。
+
+> **Pearl**: 使用者可隨時透過 Main Menu dropdown 在 Guided 和 Flexible Modes 間切換。
+
+---
+
+## 5. Pre-PCI（PCI 前規劃）
+
+### 5.1 Pre-PCI Actionable Insights: MLD
+
+Ultreon 2.0 協助醫師評估 lesion morphology、最佳 landing zones 和 EEL diameter：
+
+| 面向 | Feature | Benefit |
+|------|---------|---------|
+| **Morphology** | AI-enabled calcium detection（Length、Arc、Maximum Thickness）、Automated MLA identification | 快速形態學評估，判斷鈣化嚴重度，決定 vessel prep 策略 |
+| **Length** | 縱向測量功能、EEL representation on lumen profile | 評估潛在 landing zones，EEL 存在表示相對健康組織 |
+| **Diameter** | AI-enabled EEL detection and diameter calculation、Automated lumen diameter | 選擇最適當支架直徑以達最大 luminal gain |
+
+### 5.2 Flexible Mode: Key Panels
+
+- **ACR Panel (Angio Co-registration)**：整合 OCT 數據至血管攝影，減少醫師的心理轉換負擔
+- **Cross-Section Context Menu**：提供 Annotations、Zoom/Pan、Measure、3D View、Edit lumen contour、Rotate cross-section
+- **OCT Analysis Panel**：提供 Sizing（EEL Diameter、Lumen Diameter、Length、% Stenosis）、Manual Measurements、Calcium（Total angle、Max thickness）、Lumen（Min/Max/Mean diameter）
+
+### 5.3 Augmentation On and Off
+
+- AI augmentation 可透過眼睛圖示開關
+- 顯示內容：EEL measurement、Angio co-registered calcium detection（超過設定閥值）、White maximum calcium thickness indicator、Orange calcium arc
+
+### 5.4 Lumen Profile Controls
+
+- Play OCT recording
+- Measure length (mm)
+- Bookmark frame
+- 3D view
+- Edit exclusion zones
+
+> **Pearl**: Lumen Profile 是 pullback 內 lumen area 的圖形表示。按住 TSC 上的 P 或 D 按鍵同時旋轉可在查看 2D OCT 時移動 reference markers。
+
+### 5.5 Additional Functions
+
+- **Edit Lumen Contour**：必要時手動調整 lumen contour
+- **Rotate Cross-Sectional Frame**：旋轉影像以對齊 side branch 的正確角度
+- **Make and Delete Measurements**：可在 longitudinal 和 cross-sectional 做測量，透過 OCT Analysis Panel 管理
+
+### 5.6 Augmentation Off vs. Hide All Overlays
+
+| 項目 | Augmentation Off | Hide All Overlays |
+|------|------------------|-------------------|
+| Function | 關閉 AI 和 lumen profile | 提供未遮蔽的原始影像 |
+| Area of Application | All panels | 針對特定 panel |
+| Proximal/Distal Markers | Still present | Will be hidden |
+| Manual Measurements | Still present | Will be hidden |
+
+---
+
+## 6. Deployment（支架輸送與釋放）
+
+### 6.1 Flexible Mode: Live Angio Sync
+
+規劃完成後，啟動 Live Angio Sync：
+
+- Side-by-side screen 同時顯示 live angio feed 和 Angio Co-registration view
+- 可放大至 600% 以查看細節
+- 引導精確治療
+
+### 6.2 Guided Mode: Live Angio Sync
+
+在 Guided Mode 的 Deployment tab 中可使用相同功能，支援 Zoom 功能。
+
+---
+
+## 7. Post-PCI Review（PCI 後評估）
+
+### 7.1 Post-PCI Actionable Insights: MAX
+
+| 面向 | Feature | Benefit |
+|------|---------|---------|
+| **Medial dissection** | 高解析度 OCT 影像 | 根據 dissection 嚴重程度決定是否需要額外支架 |
+| **Apposition** | Automated malapposition detection、Adjustable threshold | 決定是否需要額外 balloon 確保支架良好貼壁 |
+| **Expansion** | Automated expansion detection（Lumen Profile 和 ACR）、Adjustable threshold | 決定是否需要額外 balloon 確保最佳擴張 |
+
+### 7.2 Flexible Mode: Review
+
+- **Checking Medial Dissection**：關閉 augmentation，拖曳 cross-section cut plane 旋轉 longitudinal view，觀察是否有可處理的 medial dissection
+- **Checking Apposition**：Malapposition 超過設定閥值以黃色顯示（cross-section 和 lumen profile）
+- **Checking Expansion (Tapered Mode)**：Expansion 低於設定閥值以橘色顯示，同時在三個 panels 呈現
+
+### 7.3 3D Bifurcation View
+
+3D 功能已針對 Bifurcation analysis 最佳化：
+
+- Tilt mode
+- Ostium view (default)
+- Display Content Menu（Tissue、Lumen、Guide wires、Stents、Frame indicator、Cross section、Angiography、Lumen profile）
+- Carina view
+- Closed/open view of vessel
+- Screen capture
+
+> **Pearl**: 可在 3D mode 中以 360 度查看 stent rendering。未渲染的支架區段可能是由於數據不足（包括 guidewire shadow）。
+
+---
+
+## 8. Post Case Functions（術後功能）
+
+### 8.1 Compare Pullbacks
+
+- 同一 case 內任兩個 pullbacks 可 side-by-side 比較
+- 無支架的 pullback 顯示 MLA
+- 有支架的 pullback 顯示 MSA 和 expansion %
+- 動態 lumen area value 顯示於游標頂部
+
+### 8.2 Export
+
+資料可匯出為：
+
+- **OCT Imaging**：.oct / .mp4 / .png
+- **Physiology**：.png
+
+匯出目的地：DVD / USB / Network / DICOM Server
+
+### 8.3 Accessing eIFU
+
+透過 Main Menu → System settings → System info → View IFU → 掃描 QR code 搜尋 Ultreon 2.0 Software，可在行動裝置閱讀電子 IFU。
+
+### 8.4 Editing Patient Information
+
+Main Menu → System settings → Patient data → Patient info → 選擇病患 → Edit → Update to save
+
+---
+
+## 9. Physiology（生理學評估）
+
+### 9.1 Physiology Workflow
+
+準備步驟：
+
+1. Prepare the AO transducer
+2. Flush the PressureWire X Guidewire
+3. Pair the transmitter
+4. Position the PressureWire X Guidewire
+
+Post equalization 後，選擇 RFR 或 FFR 繼續。
+
+> **Pearl**: RFR 為預設設定，使用者可從 Physician preference settings 選擇 FFR 或 RFR 作為偏好的 physiology index。
+
+### 9.2 FFR (Fractional Flow Reserve) Mode
+
+兩種選項：
+
+1. **Taking Pd/Pa snapshot**：點選 Snapshot
+2. **FFR Recording**：
+   - 將 PressureWire X Guidewire 推進至目標病灶遠端
+   - 以 saline flush 血管
+   - 使用標準導管室技術誘導 maximum hyperemia
+   - 點選 Record 開始記錄
+
+### 9.3 RFR (Resting Full-cycle Ratio) Mode
+
+兩種選項：
+
+1. **Taking RFR snapshot**：點選 Snapshot
+2. **Performing an RFR Pullback**：
+   - 將 PressureWire X Guidewire 推進至目標病灶遠端
+   - 點選 Start pullback 開始記錄
+   - 需要時點選 Marker 放置標記
+   - 以一致速度緩慢回拉導線
+   - 點選 Stop 結束記錄
+
+---
+
+## 參考文獻
+
+1. Ultreon 2.0 Software Instructions for Use (IFU).
+2. Ali ZA, et al. Optical coherence tomography compared with intravascular ultrasound and with angiography to guide coronary stent implantation (ILUMIEN III: OPTIMIZE PCI): a randomised controlled trial. [*Lancet*. 2016;388(10060):2618-2628.](https://doi.org/10.1016/s0140-6736(16)31922-5)
+3. Prati F, et al. Clinical Impact of OCT Findings During PCI. [*JACC Cardiovasc Imaging*. 2015;8(11):1297-1305.](https://doi.org/10.1016/j.jcmg.2015.08.013)
+4. Rauch J, et al. TCT-276 A Standardized Optical Coherence Tomography Workflow Improves Procedural Efficiency and Safety During Percutaneous Coronary Intervention: Insights From the LightLab Initiative. [*J Am Coll Cardiol*. 2021;78(19):B113.](https://doi.org/10.1016/j.jacc.2021.09.1129)
+5. Lee JM, et al. Intravascular Imaging-Guided or Angiography-Guided Complex PCI. [*N Engl J Med*. 2023.](https://doi.org/10.1056/nejmoa2216607)

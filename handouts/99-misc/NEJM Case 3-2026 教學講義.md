@@ -1,24 +1,24 @@
-# NEJM Case Record 教學講義
+# Case 3-2026：58 歲女性複視與發燒 — Lyme Neuroborreliosis
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-03-26**
+**原文連結：[NEJM](https://doi.org/10.1056/NEJMcpc2412529)**
 
 ---
 
-Lyme Neuroborreliosis
-Case 3-2026: A 58-Year-Old Woman with
-Diplopia and Fever
-病例3-2026：一位58 歲女性，主訴複視與發燒
-N Engl J Med 2026;394:383-91
-DOI: 10.1056/NEJMcpc2412529
-January 22, 2026
-1 病例概述
-1.1 臨床表現
+
+## 1. 病例概述
+
+
+### 1.1 臨床表現
+
 一位58 歲女性因diplopia(複視) 及fever(發燒) 至Massachusetts General Hospital 就診。病
 人於三週前曾接受腰椎手術。 1.2 病史時序
 時間點
 重要事件與發現
+
 3 週前
+
 腰椎手術
 -
 於另一醫院接受
@@ -42,7 +42,9 @@ foraminotomy
 - MRI: 術後變化及16 mm epidural fluid collection at L5 level
 - 左腿X 光及超音波正常, 無DVT
 - 給予IV dexamethasone 及多種止痛藥物
+
 7 天前
+
 皮疹出現
 - 腿部疼痛持續
 - 新發erythematous rash: 腿、胸、臀、背、臉頰
@@ -50,13 +52,13 @@ foraminotomy
 - 在家測量體溫39.1°C
 - 停用所有藥物(除gabapentin), 開始diphenhydramine 及ibupro-
 fen
+
 1 天前
+
 基層醫師評估
 - 處方oral doxycycline(推測為皮膚感染)
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 時間點
 重要事件與發現
 就診當日
@@ -64,7 +66,9 @@ Lyme Neuroborreliosis
 - Fever 復發
 - 右眼瞼腫脹、眼動時疼痛
 - Horizontal diplopia(水平複視) 出現
-1.3 重要病史
+
+### 1.3 重要病史
+
 類別
 內容
 Past Medical His-
@@ -104,11 +108,10 @@ Family History
 - 父親、母親、兄弟: hyperlipidemia, coronary artery disease
 - 父親: diabetes, diverticulosis
 - 外祖母: breast cancer
-1.4 理學檢查
+
+### 1.4 理學檢查
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 項目
 發現
 Vital Signs
@@ -140,21 +143,21 @@ Skin
 Other
 - No palpable lymphadenopathy
 - Remainder of exam normal
-1.5 實驗室檢查
+
+### 1.5 實驗室檢查
+
 關鍵實驗室發現
-• Hemoglobin: 10.6 g/dL (↓, ref: 12.0-16.0)
-• Hematocrit: 31.8% (↓, ref: 36.0-46.0)
-• White-cell count: 6,530/￿L (normal)
-• Platelet count: 200,000/￿L (normal)
-• ESR: 95 mm/hr (↑↑, ref: 0-30)
-• CRP: 117.8 mg/L (↑↑, ref: 0.0-8.0)
-• Electrolytes, glucose, renal function: Normal
-• LFTs (AST, ALT, ALP): Normal
-• Creatine kinase: Normal
+- Hemoglobin: 10.6 g/dL (↓, ref: 12.0-16.0)
+- Hematocrit: 31.8% (↓, ref: 36.0-46.0)
+- White-cell count: 6,530/￿L (normal)
+- Platelet count: 200,000/￿L (normal)
+- ESR: 95 mm/hr (↑↑, ref: 0-30)
+- CRP: 117.8 mg/L (↑↑, ref: 0.0-8.0)
+- Electrolytes, glucose, renal function: Normal
+- LFTs (AST, ALT, ALP): Normal
+- Creatine kinase: Normal
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 Test
 檢驗項目
 Result
@@ -164,7 +167,9 @@ Reference
 Clinical Significance
 臨床意義
 Hemoglobin
-10.6 g/dL
+
+### 10.6 g/dL
+
 12.0-16.0
 Mild anemia
 輕度貧血
@@ -174,12 +179,16 @@ Hematocrit
 Correlates with anemia
 與貧血一致
 ESR
-95 mm/hr
+
+## 95. mm/hr
+
 0-30
 Marked elevation
 顯著升高, 提示感染/發炎
 CRP
-117.8 mg/L
+
+### 117.8 mg/L
+
 0.0-8.0
 Marked elevation
 急性發炎反應
@@ -203,37 +212,51 @@ Urinalysis
 Normal
 —
 排除UTI
-重點提醒
-發炎指標的意義
-此病人ESR 及CRP 顯著升高(ESR 95, CRP 117.8), 但WBC 正常。這種pattern 在下
-列情況常見:
-• 細菌感染(特別是深部感染或螺旋體感染)
-• 自體免疫疾病
-• 惡性腫瘤
-重要: Lyme disease 典型表現為ESR/CRP 升高但WBC 正常或輕度升高。 2 影像學發現
-2.1 Chest Radiograph
-• Normal
-2.2 CT Angiography of Head and Neck
-• No intracranial vascular abnormality
-2.3 MRI of the Head (with contrast)
+
+> **重點提醒**
+> 發炎指標的意義
+> 此病人ESR 及CRP 顯著升高(ESR 95, CRP 117.8), 但WBC 正常。這種pattern 在下
+> 列情況常見:
+> • 細菌感染(特別是深部感染或螺旋體感染)
+> • 自體免疫疾病
+> • 惡性腫瘤
+> 重要: Lyme disease 典型表現為ESR/CRP 升高但WBC 正常或輕度升高。 2 影像學發現
+
+
+### 2.1 Chest Radiograph
+
+- Normal
+
+### 2.2 CT Angiography of Head and Neck
+
+- No intracranial vascular abnormality
+
+### 2.3 MRI of the Head (with contrast)
+
 關鍵影像發現
-• No infarct or mass
-• Enhancement along cranial nerves III, V, VI, and VII on the RIGHT side
+- No infarct or mass
+- Enhancement along cranial nerves III, V, VI, and VII on the RIGHT side
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 這是單側多發性cranial nerve enhancement, 是本病例診斷的關鍵發現！
-3 鑑別診斷
-3.1 臨床推理架構
-重點提醒
-Dr. Sheila L. Arvikar 的診斷思路
-面對這位58 歲女性, 診斷推理聚焦於:
-1. Fever + Rash + Elevated inflammatory markers —非特異性
-2. Multiple cranial nerve enhancement on MRI —關鍵線索！
-3. Recent spinal surgery + Glucocorticoid use —可能加重感染
-4. Geographic exposure —Massachusetts 東部,Lyme disease 高流行區
-3.2 Cranial Nerve Enhancement 的鑑別診斷
+
+## 3. 鑑別診斷
+
+
+### 3.1 臨床推理架構
+
+
+> **重點提醒**
+> Dr. Sheila L. Arvikar 的診斷思路
+> 面對這位58 歲女性, 診斷推理聚焦於:
+> 1. Fever + Rash + Elevated inflammatory markers —非特異性
+> 2. Multiple cranial nerve enhancement on MRI —關鍵線索！
+> 3. Recent spinal surgery + Glucocorticoid use —可能加重感染
+> 4. Geographic exposure —Massachusetts 東部,Lyme disease 高流行區
+
+
+### 3.2 Cranial Nerve Enhancement 的鑑別診斷
+
 Differential
 Di-
 agnosis
@@ -303,11 +326,8 @@ Behçet’s disease
 palsies
 - 無oral/genital ulcers
 Clinical criteria
-續下頁...
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 Differential
 Di-
 agnosis
@@ -429,11 +449,8 @@ ropathy
 - 無clinical meningitis
 QuantiFERON
 CSF AFB
-續下頁...
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 Differential
 Di-
 agnosis
@@ -488,11 +505,10 @@ cheeks)
 6. Premonitory symptoms: 術前3 天的chills 及body aches 可能是early Lyme
 disease
 最佳診斷檢查: Serologic testing for antibodies against Borrelia burgdorferi
-4 醫學英文寫作解析
+
+## 4. 醫學英文寫作解析
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 Original Sentence
 原文例句
 Grammar
@@ -573,18 +589,21 @@ N could lead
 to... 與手術相關的壓力可
 能導致病毒再活化。 表達病理機轉的
 假設性陳述
-5 討論
-5.1 Lyme Disease 概述
+
+## 5. 討論
+
+
+### 5.1 Lyme Disease 概述
+
 Lyme Disease 基本知識
 病原體: Borrelia burgdorferi(螺旋體)
 傳播媒介: Ixodes scapularis(黑腳蜱/鹿蜱)
 流行地區: 美國東北部、中西部上區、太平洋沿岸
 高峰期: 5-7 月(nymphal tick 活動期)
-5.2 Lyme Disease 的臨床分期
+
+### 5.2 Lyme Disease 的臨床分期
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 Stage
 Timing
 Clinical Manifestations
@@ -618,7 +637,9 @@ tion
 Months later
 - Lyme arthritis: 大關節(特別是膝關節)
 - Late neurologic manifestations
-5.3 Lyme Neuroborreliosis
+
+### 5.3 Lyme Neuroborreliosis
+
 Lyme Neuroborreliosis 的Classic Triad
 1. Lymphocytic meningitis(淋巴球性腦膜炎)
 2. Cranial neuropathy(顱神經病變) —最常見CN VII, 其次CN III
@@ -627,29 +648,32 @@ Lyme Neuroborreliosis 的Classic Triad
 involvement。
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
-5.4 Bannwarth’s Syndrome
+### 5.4 Bannwarth’s Syndrome
+
 Bannwarth’s Syndrome
 一種Lyme neuroborreliosis 的subset, 在歐洲比美國更常見。 Classic Triad:
 1. Severe painful radiculopathy(hallmark of the syndrome)
 2. CSF lymphocytic pleocytosis
 3. Cranial neuritis(可能multiple)
 歐洲vs 美國:
-• 歐洲: 主要由B. garinii 引起,radiculopathy 更prominent
-• 美國:
+- 歐洲: 主要由B. garinii 引起,radiculopathy 更prominent
+- 美國:
 B. burgdorferi 引起,meningeal involvement with severe headache 更常
 見,facial palsy 常見但radiculopathy 較少
 此病人的presentation(radiculopathy followed by cranial neuritis) 符合Bannwarth’s syn-
 drome。 5.5 Glucocorticoids 對Lyme Disease 的影響
-重點提醒
-重要臨床考量
-此病人在術後第3 天開始接受prednisone, 隨後又接受dexamethasone。根據動物研究:
-• Glucocorticoids 會impair 對螺旋體的免疫反應
-• 導致更高的microbial burden
-• 造成更嚴重的疾病表現
-這可能解釋了此病人relatively severe presentation。 6 診斷檢驗
-6.1 Lyme Disease 的血清學診斷
+
+> **重點提醒**
+> 重要臨床考量
+> 此病人在術後第3 天開始接受prednisone, 隨後又接受dexamethasone。根據動物研究:
+> • Glucocorticoids 會impair 對螺旋體的免疫反應
+> • 導致更高的microbial burden
+> • 造成更嚴重的疾病表現
+> 這可能解釋了此病人relatively severe presentation。 6 診斷檢驗
+
+
+### 6.1 Lyme Disease 的血清學診斷
+
 Method
 Description
 Standard
@@ -663,8 +687,6 @@ Step 2: Equivocal 或positive 時, 進行Western blot 確認
 應有IgG 反應
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 Modified
 Two-
 Tiered
@@ -679,37 +701,42 @@ CSF Testing
 - 需同時收集serum 和CSF
 - 計算CSF-serum antibody index
 - 必須校正IgG 的passive transfer across blood-brain barrier
-6.2 本病例的診斷結果
+
+### 6.2 本病例的診斷結果
+
 Serologic Results
 使用Modified two-tiered approach:
 Result: Positive IgM and IgG responses to B. burgdorferi
 這是acute Lyme neuroborreliosis 的典型pattern。 7 Coinfection 的重要性
 Tick-borne Coinfection
 2-10% 的acute Lyme disease 病例存在coinfection。Ixodes scapularis 蜱叮咬可傳播:
-• Babesia microti(Babesiosis)
-• Anaplasma phagocytophilum(Anaplasmosis)
-• Borrelia miyamotoi
-• Powassan virus
+- Babesia microti(Babesiosis)
+- Anaplasma phagocytophilum(Anaplasmosis)
+- Borrelia miyamotoi
+- Powassan virus
 何時懷疑coinfection?
-• 持續fever(此病人的關鍵線索!)
-• Cytopenias
-• Abnormal liver enzymes
-• 對治療反應不佳
+- 持續fever(此病人的關鍵線索!)
+- Cytopenias
+- Abnormal liver enzymes
+- 對治療反應不佳
 本病例的Coinfection
 PCR for Babesia microti: POSITIVE
 雖然parasite count 低, 但考量病人曾接受glucocorticoid 治療(動物研究顯示glucocor-
 ticoids 對babesiosis 具permissive effect), 仍建議治療以促進parasite clearance。
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
-8 最終診斷
+## 8. 最終診斷
+
 Lyme Neuroborreliosis
 with Coinfection of Babesia microti
 萊姆神經包柔氏螺旋體病
 合併微小乏漿蟲感染
-9 治療計畫
-9.1 Pharmacological Treatment 藥物治療
+
+## 9. 治療計畫
+
+
+### 9.1 Pharmacological Treatment 藥物治療
+
 Drug
 (Generic
 Name)
@@ -740,7 +767,9 @@ Covers Lyme, Ehrlichia,
 Anaplasma
 Definitive Treatment for Lyme Neuroborreliosis
 Ceftriaxone
-2 g
+
+## 2. g
+
 IV
 Once
 初始治療(1 dose)
@@ -750,7 +779,9 @@ Doxycycline
 100 mg
 PO
 BID
-20 days total
+
+## 20. days total
+
 IDSA/AAN/ACR guideline
 建議14-21 天
 可用於meningitis, cranial
@@ -773,70 +804,80 @@ QD
 Duration: 7-10 days
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
-重點提醒
-IDSA/AAN/ACR 2020 Guidelines for Lyme Neuroborreliosis
-Recommended regimens (14-21 days):
-• IV Ceftriaxone
-• IV Penicillin
-• Oral Doxycycline —研究顯示對European Lyme neuroborreliosis,oral doxycycline
-non-inferior to IV ceftriaxone
-美國的knowledge gaps:
-• Oral antibiotic therapy 是否always adequate?
-• 長期後遺症(postinfectious pain, neurocognitive symptoms, fatigue) 的定義與機制
-10 預後與衛教
+> **重點提醒**
+> IDSA/AAN/ACR 2020 Guidelines for Lyme Neuroborreliosis
+> Recommended regimens (14-21 days):
+> • IV Ceftriaxone
+> • IV Penicillin
+> • Oral Doxycycline —研究顯示對European Lyme neuroborreliosis,oral doxycycline
+> non-inferior to IV ceftriaxone
+> 美國的knowledge gaps:
+> • Oral antibiotic therapy 是否always adequate?
+> • 長期後遺症(postinfectious pain, neurocognitive symptoms, fatigue) 的定義與機制
+
+
+## 10. 預後與衛教
+
 Recovery from Lyme Neuroborreliosis
 Recovery 期程:
-• 可能需要prolonged period of time
-• 神經症狀可能持續一年或更久
-• 大多數promptly diagnosed and treated 的病例預後良好, 可恢復至baseline func-
+- 可能需要prolonged period of time
+- 神經症狀可能持續一年或更久
+- 大多數promptly diagnosed and treated 的病例預後良好, 可恢復至baseline func-
 tion
 Patient counseling 重點:
-• 設定合理期望(recovery may be slow)
-• 定期追蹤
-• 注意可能的posttreatment Lyme disease syndrome
+- 設定合理期望(recovery may be slow)
+- 定期追蹤
+- 注意可能的posttreatment Lyme disease syndrome
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
-11 學習重點(Key Takeaways)
-重點提醒
-1. Lyme Neuroborreliosis 的臨床表現
-• Classic triad: lymphocytic meningitis + cranial neuropathy + painful radiculitis
-• Cranial nerve VII 最常受影響, 其次CN III
-• MRI 可見multiple cranial nerve enhancement
-• 美國東北部在夏季就診的cranial neuropathy, 務必考慮Lyme disease
-重點提醒
-2. Bannwarth’s Syndrome
-• Lyme neuroborreliosis 的一種表現
-• Triad: severe painful radiculopathy + CSF pleocytosis + cranial neuritis
-• 歐洲較常見, 但美國也有報告
-• Radicular pain 是hallmark of the syndrome
-重點提醒
-3. 診斷方法
-• Standard or modified two-tiered serologic testing
-• Positive IgM alone 僅在第一個月有意義
-• CSF testing 需計算CSF-serum antibody index
-• Western blot 可提供additional information
-重點提醒
-4. Coinfection 的重要性
-• 2-10% 的Lyme disease 有coinfection
-• 持續fever 是重要線索
-• I. scapularis 可傳播: Babesia, Anaplasma, B. miyamotoi, Powassan virus
-• 對治療反應不佳時要考慮coinfection
+## 11. 學習重點(Key Takeaways)
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
-重點提醒
-5. Glucocorticoids 的影響
-• 可impair 對螺旋體及coinfecting agents 的免疫反應
-• 導致higher microbial burden 及more severe disease
-• 可能加重babesiosis(對glucocorticoids 具permissive effect)
-• 術後腰痛惡化時, 不要輕易使用steroids 而忽略感染可能
-12 自我測驗(Self-Assessment Quiz)
-12.1 題目(Questions)
+> **重點提醒**
+> 1. Lyme Neuroborreliosis 的臨床表現
+> • Classic triad: lymphocytic meningitis + cranial neuropathy + painful radiculitis
+> • Cranial nerve VII 最常受影響, 其次CN III
+> • MRI 可見multiple cranial nerve enhancement
+> • 美國東北部在夏季就診的cranial neuropathy, 務必考慮Lyme disease
+
+
+> **重點提醒**
+> 2. Bannwarth’s Syndrome
+> • Lyme neuroborreliosis 的一種表現
+> • Triad: severe painful radiculopathy + CSF pleocytosis + cranial neuritis
+> • 歐洲較常見, 但美國也有報告
+> • Radicular pain 是hallmark of the syndrome
+
+
+> **重點提醒**
+> 3. 診斷方法
+> • Standard or modified two-tiered serologic testing
+> • Positive IgM alone 僅在第一個月有意義
+> • CSF testing 需計算CSF-serum antibody index
+> • Western blot 可提供additional information
+
+
+> **重點提醒**
+> 4. Coinfection 的重要性
+> • 2-10% 的Lyme disease 有coinfection
+> • 持續fever 是重要線索
+> • I. scapularis 可傳播: Babesia, Anaplasma, B. miyamotoi, Powassan virus
+> • 對治療反應不佳時要考慮coinfection
+
+
+> **重點提醒**
+> 5. Glucocorticoids 的影響
+> • 可impair 對螺旋體及coinfecting agents 的免疫反應
+> • 導致higher microbial burden 及more severe disease
+> • 可能加重babesiosis(對glucocorticoids 具permissive effect)
+> • 術後腰痛惡化時, 不要輕易使用steroids 而忽略感染可能
+
+
+## 12. 自我測驗(Self-Assessment Quiz)
+
+
+### 12.1 題目(Questions)
+
 Question 1. A 45-year-old man from Connecticut presents in July with 2 weeks of severe
 headache, right facial weakness, and shooting pain down his left leg. MRI shows enhancement
 of cranial nerves III and VII on the right. What is the most likely diagnosis?
@@ -861,8 +902,6 @@ of doxycycline treatment. What should be the next consideration?
 考慮什麼?
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 (A) Switch to IV ceftriaxone
 (B) Add metronidazole
 (C) Evaluate for coinfection (Babesia, Anaplasma)
@@ -893,8 +932,6 @@ for 2 weeks before diagnosis. What is the clinical implication?
 (E) Prednisone should be continued with antibiotics
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 Question 7. Which of the following organisms can be transmitted by the same tick (Ixodes
 scapularis) that transmits Lyme disease?
 下列何種病原體可由傳播Lyme disease 的同一種蜱(Ixodes scapularis) 傳播?
@@ -930,9 +967,8 @@ Lyme disease 病人中, 有多少比例會發生神經系統侵犯?
 (E) 75%
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
-12.2 答案與解析(Answers and Explanations)
+### 12.2 答案與解析(Answers and Explanations)
+
 Question 1. Answer: (C)
 Explanation: The combination of geographic location (Connecticut, endemic for Lyme
 disease), timing (July, peak month for Lyme neuroborreliosis), and clinical triad of headache,
@@ -965,8 +1001,6 @@ Explanation: Based on animal studies, glucocorticoids impair immune responses to
 spirochete and to coinfecting agents, leading to greater microbial burden and more severe
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 disease. This is specifically mentioned in the case as a potential contributor to the patient’s
 relatively severe presentation. 解析：根據動物研究,glucocorticoids 會損害對螺旋體和共同感染病原體的免疫反應, 導致
 更高的微生物負荷和更嚴重的疾病。本病例特別提到這可能是病人表現相對嚴重的原因之一。 Question 7. Answer: (B)
@@ -997,8 +1031,6 @@ neuroborreliosis 病人中, 約43% 有顱神經侵犯。 13 總結
 Lyme disease
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 2. Multiple cranial nerve enhancement: 是Lyme neuroborreliosis 的characteristic
 MRI finding
 3. Bannwarth’s syndrome: Radicular pain + CSF pleocytosis + Cranial neuritis, 在
@@ -1012,7 +1044,9 @@ MRI finding
 “Multiple aspects of this case suggest Lyme disease... The patient presented in July, the
 peak month of onset of neurologic manifestations of Lyme disease.”
 —Dr. Sheila L. Arvikar
-14 附錄: Lyme Disease 快速參考
+
+## 14. 附錄: Lyme Disease 快速參考
+
 項目
 內容
 病原體
@@ -1043,8 +1077,6 @@ drome
 - 歐洲較常見, 美國也有報告
 
 
-NEJM Case Record 教學講義
-Lyme Neuroborreliosis
 項目
 內容
 診斷

@@ -1,398 +1,285 @@
-# NEJM Clinical Decisions 教學講義
+# TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄 — NEJM Clinical Decisions
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-01-22**
+**原文連結：[NEJM — Transcatheter or Surgical Aortic-Valve Replacement in Asymptomatic Severe Aortic Stenosis](https://doi.org/10.1056/NEJMclde2416168)**
 
 ---
 
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-NEJM Clinical Decisions
-Transcatheter or Surgical Aortic-Valve Replacement in
-Asymptomatic Severe Aortic Stenosis
-無症狀嚴重主動脈瓣狹窄：經導管或外科主動脈瓣置換術
-N Engl J Med 2026;394:195-198. DOI: 10.1056/NEJMclde2416168
-整理：謝慕揚MD, PhD, FESC
-日期：2026-01-22
-Contents
-前言
-病例介紹(Case Vignette)
-2.1
-基本資料
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2
-身體檢查
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.3
-心臟超音波(Transthoracic Echocardiography) . . . . . . . . . . . . . . . . . . . 2.4
-進一步檢查. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 治療決策的關鍵問題
-3.1
-為何需要介入治療？. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 選項一：建議TAVR
-4.1
-支持TAVR 的證據. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.1.1
-關鍵臨床試驗. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.1.2
-TAVR 的優勢. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2
-何時應選擇SAVR 而非TAVR？. . . . . . . . . . . . . . . . . . . . . . . . . . 4.3
-TAVR 論點總結
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 選項二：建議SAVR
-5.1
-支持SAVR 的核心論點：長期耐久性
-. . . . . . . . . . . . . . . . . . . . . . . 5.1.1
-病患預期壽命考量. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.1.2
-PARTNER 3 七年追蹤結果. . . . . . . . . . . . . . . . . . . . . . . . . 5.1.3
-瓣膜耐久性比較
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2
-技術考量
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.3
-Patient-Prosthesis Mismatch (PPM) 的考量. . . . . . . . . . . . . . . . . . . . 5.4
-TAVR 失敗後的處理. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.5
-SAVR 論點總結. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 各國指引比較
-臨床決策建議
-7.1
-本病例的特點. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.2
-Heart Team 討論重點
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 重點摘要
+## 目錄
 
+1. [前言](#1-前言)
+2. [病例介紹](#2-病例介紹case-vignette)
+3. [治療決策的關鍵問題](#3-治療決策的關鍵問題)
+4. [選項一：建議 TAVR](#4-選項一建議-tavr)
+5. [選項二：建議 SAVR](#5-選項二建議-savr)
+6. [各國指引比較](#6-各國指引比較)
+7. [臨床決策建議](#7-臨床決策建議)
+8. [重點摘要](#8-重點摘要)
+9. [名詞解釋](#9-名詞解釋)
+10. [參考文獻](#10-參考文獻)
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-名詞解釋
-10 參考文獻
+---
 
+## 1. 前言
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-1 前言
-本文為NEJM 的「Clinical Decisions」互動式教學文章，針對一位72 歲無症狀嚴重主動脈瓣
-狹窄(aortic stenosis, AS) 合併左心室功能低下的女性病患，由兩組專家分別論述支持TAVR
-或SAVR 的理由，供讀者參與討論並形成臨床決策。 重點提醒
-本文重點：
-• 無症狀嚴重AS 但LVEF < 50% 為瓣膜置換的Class I 適應症
-• 低手術風險病患中，TAVR 與SAVR 的中期預後相似
-• TAVR 長期（>10 年）耐久性數據仍不明
-• 決策需由Heart Team 評估，並與病患共同決定
-2 病例介紹(Case Vignette)
-2.1 基本資料
-項目
-內容
-年齡/性別
-72 歲女性
-就診原因
-例行檢查發現心雜音，轉介評估
-病史
-高血壓（使用ramipril 2.5 mg QD）
-無糖尿病、無肺部疾病
-生活習慣
-不抽菸、不喝酒
-BMI 28
-退休教師，每週步行2-3 英里，三次
-症狀
-無症狀：無胸痛、無運動性呼吸困難、無疲倦、無暈厥
-病史
-2.2 身體檢查
-生命徵象
-數值
-心率
-75 bpm，規則
-血壓
-120/75 mmHg
-呼吸速率
-16 次/分
-氧飽和度
-98%（室內空氣）
-心音
-Systolic ejection murmur：右上胸骨旁最響亮，傳
-導至頸動脈
+本文為 NEJM 的「Clinical Decisions」互動式教學文章，針對一位 72 歲無症狀嚴重主動脈瓣狹窄 (aortic stenosis, AS) 合併左心室功能低下的女性病患，由兩組專家分別論述支持 TAVR 或 SAVR 的理由，供讀者參與討論並形成臨床決策。
 
+> **Pearl**：本文重點：
+> - 無症狀嚴重 AS 但 LVEF < 50% 為瓣膜置換的 Class I 適應症
+> - 低手術風險病患中，TAVR 與 SAVR 的中期預後相似
+> - TAVR 長期（>10 年）耐久性數據仍不明
+> - 決策需由 Heart Team 評估，並與病患共同決定
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-肺音
-清晰
-週邊水腫
-無
-2.3 心臟超音波(Transthoracic Echocardiography)
-參數
-數值
-判讀
-Mean pressure gradient
-42 mmHg
-≥40 mmHg = 嚴重
-Aortic valve area (AVA)
-0.9 cm²
-≤1.0 cm² = 嚴重
-LVEF
-44%
-低於正常
-核心發現摘要
-診斷：High-gradient severe aortic stenosis
-• Mean gradient ≥40 mmHg + AVA ≤1.0 cm²
-• 無論LVEF 或flow 狀態如何，皆可判定為嚴重AS
-2.4 進一步檢查
-• 運動負荷測試(Stress test)：陰性（無心肌缺血），確認無運動誘發症狀
-• 手術風險評估：
-– STS-PROM (Society of Thoracic Surgeons Predicted Risk of Mortality)：低
-– EuroSCORE II (European System for Cardiac Operative Risk Evaluation II)：低
-3 治療決策的關鍵問題
-核心問題：對於這位低手術風險的無症狀嚴重AS 病患，應建議TAVR 還是SAVR？
-3.1 為何需要介入治療？
-根據2025 ESC/EACTS Guidelines：
-適應症
-說明
-建議等級
-LVEF < 50%
-排除其他原因造成的LV dysfunction
-Class I B
-LVEF < 55%
-可考慮早期介入
-Class IIa B
-本病患LVEF 44%，符合Class I B 適應症，即使無症狀也建議介入治療。
+---
 
+## 2. 病例介紹（Case Vignette）
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-4 選項一：建議TAVR
-論述者：Hélène Eltchaninoff, M.D. (法國Rouen 大學醫院心臟科)
-4.1 支持TAVR 的證據
-4.1.1 關鍵臨床試驗
-試驗名稱
-研究設計
-主要結果
-EARLY TAVR
-多中心RCT
-無症狀嚴重AS
-負荷測試陰性
-TAVR vs 臨床監測
-支持早期TAVR
-（注意：未比較
-TAVR
-vs
-SAVR）
-PARTNER 3
-低風險有症狀AS
-5 年追蹤
-TAVR non-inferior to SAVR
-Evolut Low Risk
-低風險有症狀AS
-自膨式瓣膜
-TAVR non-inferior to SAVR
-RHEIA
-女性專屬RCT
-平均年齡72 歲
-有症狀AS
-TAVR superior to SAVR
-1 年複合終點
-（死亡、中風、再住院）
-重點提醒
-RHEIA 試驗的重要性：
-• 女性在PARTNER 3 和Evolut Low Risk 中僅佔< 40%
-• RHEIA 專門針對女性，顯示balloon-expandable TAVR 優於SAVR
-• 差異主要來自TAVR 組再住院率降低
-4.1.2 TAVR 的優勢
-• 微創手術：無需開胸、無需體外循環
-• 恢復更快：住院時間短，可迅速恢復日常活動
-• 適合活動型病患：本病患每週規律運動，快速恢復對她很重要
-4.2 何時應選擇SAVR 而非TAVR？
-• Transfemoral TAVR 的禁忌症
-• 解剖結構增加TAVR 風險：
-– Low coronary artery take-off（冠狀動脈開口距annulus 過近）
-– Shallow sinuses of Valsalva
+### 2.1 基本資料
 
+| 項目 | 內容 |
+|------|------|
+| 年齡/性別 | 72 歲女性 |
+| 就診原因 | 例行檢查發現心雜音，轉介評估 |
+| 病史 | 高血壓（使用 ramipril 2.5 mg QD）；無糖尿病、無肺部疾病 |
+| 生活習慣 | 不抽菸、不喝酒；BMI 28；退休教師，每週步行 2-3 英里，三次 |
+| 症狀 | 無症狀：無胸痛、無運動性呼吸困難、無疲倦、無暈厥 |
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-• 需要合併手術：
-– 主動脈瘤
-– 嚴重鈣化的bicuspid valve
-– 複雜冠狀動脈疾病
-4.3 TAVR 論點總結
-支持TAVR 的理由
-1. 低風險病患中，中期結果TAVR ≈SAVR
-2. 女性病患有RHEIA 試驗支持TAVR 優於SAVR
+### 2.2 身體檢查
+
+| 生命徵象 | 數值 |
+|----------|------|
+| 心率 | 75 bpm，規則 |
+| 血壓 | 120/75 mmHg |
+| 呼吸速率 | 16 次/分 |
+| 氧飽和度 | 98%（室內空氣） |
+| 心音 | Systolic ejection murmur：右上胸骨旁最響亮，傳導至頸動脈 |
+| 肺音 | 清晰 |
+| 週邊水腫 | 無 |
+
+### 2.3 心臟超音波（Transthoracic Echocardiography）
+
+| 參數 | 數值 | 判讀 |
+|------|------|------|
+| Mean pressure gradient | 42 mmHg | ≥40 mmHg = 嚴重 |
+| Aortic valve area (AVA) | 0.9 cm² | ≤1.0 cm² = 嚴重 |
+| LVEF | 44% | 低於正常 |
+
+> **診斷**：High-gradient severe aortic stenosis
+> - Mean gradient ≥40 mmHg + AVA ≤1.0 cm²
+> - 無論 LVEF 或 flow 狀態如何，皆可判定為嚴重 AS
+
+### 2.4 進一步檢查
+
+- **運動負荷測試（Stress test）**：陰性（無心肌缺血），確認無運動誘發症狀
+- **手術風險評估**：
+  - STS-PROM：低
+  - EuroSCORE II：低
+
+---
+
+## 3. 治療決策的關鍵問題
+
+**核心問題**：對於這位低手術風險的無症狀嚴重 AS 病患，應建議 TAVR 還是 SAVR？
+
+### 3.1 為何需要介入治療？
+
+根據 2025 ESC/EACTS Guidelines：
+
+| 適應症 | 說明 | 建議等級 |
+|--------|------|----------|
+| LVEF < 50% | 排除其他原因造成的 LV dysfunction | Class I B |
+| LVEF < 55% | 可考慮早期介入 | Class IIa B |
+
+本病患 LVEF 44%，符合 Class I B 適應症，即使無症狀也建議介入治療。
+
+---
+
+## 4. 選項一：建議 TAVR
+
+**論述者**：Hélène Eltchaninoff, M.D.（法國 Rouen 大學醫院心臟科）
+
+### 4.1 支持 TAVR 的證據
+
+#### 4.1.1 關鍵臨床試驗
+
+| 試驗名稱 | 研究設計 | 主要結果 |
+|----------|----------|----------|
+| EARLY TAVR | 多中心 RCT；無症狀嚴重 AS，負荷測試陰性；TAVR vs 臨床監測 | 支持早期 TAVR（注意：未比較 TAVR vs SAVR） |
+| PARTNER 3 | 低風險有症狀 AS，5 年追蹤 | TAVR non-inferior to SAVR |
+| Evolut Low Risk | 低風險有症狀 AS，自膨式瓣膜 | TAVR non-inferior to SAVR |
+| RHEIA | 女性專屬 RCT，平均年齡 72 歲，有症狀 AS | TAVR superior to SAVR（1 年複合終點：死亡、中風、再住院） |
+
+> **Pearl — RHEIA 試驗的重要性**：
+> - 女性在 PARTNER 3 和 Evolut Low Risk 中僅佔 < 40%
+> - RHEIA 專門針對女性，顯示 balloon-expandable TAVR 優於 SAVR
+> - 差異主要來自 TAVR 組再住院率降低
+
+#### 4.1.2 TAVR 的優勢
+
+- **微創手術**：無需開胸、無需體外循環
+- **恢復更快**：住院時間短，可迅速恢復日常活動
+- **適合活動型病患**：本病患每週規律運動，快速恢復對她很重要
+
+### 4.2 何時應選擇 SAVR 而非 TAVR？
+
+- Transfemoral TAVR 的禁忌症
+- 解剖結構增加 TAVR 風險：
+  - Low coronary artery take-off（冠狀動脈開口距 annulus 過近）
+  - Shallow sinuses of Valsalva
+- 需要合併手術：
+  - 主動脈瘤
+  - 嚴重鈣化的 bicuspid valve
+  - 複雜冠狀動脈疾病
+
+### 4.3 TAVR 論點總結
+
+1. 低風險病患中，中期結果 TAVR ≈ SAVR
+2. 女性病患有 RHEIA 試驗支持 TAVR 優於 SAVR
 3. 微創、恢復快、住院時間短
 4. 符合活動型病患的生活型態需求
-5. 重要前提：需與病患充分溝通（shared decision making）
-5 選項二：建議SAVR
-論述者：Elaine E. Tseng, M.D. (UCSF) 與Vinod H. Thourani, M.D. (Piedmont Heart Institute)
-5.1 支持SAVR 的核心論點：長期耐久性
-5.1.1 病患預期壽命考量
-• 美國72 歲女性預期額外壽命：15 年
-• 相同STS-PROM 分數病患，isolated SAVR 後8 年存活率：85-91%
-• 因此需考慮終身管理(lifetime management)
-5.1.2 PARTNER 3 七年追蹤結果
-結果指標
-TAVR
-SAVR
-複合終點
-（死亡、中風、再住院）
-7 年時相似（1 年時TAVR 較優的優勢消失）
-3 年後死亡率
-持續較高
-較低
-Death or disabling stroke
-HR 1.31
-(95% CI 0.96-1.78)
-參考組
-Clinically significant valve
-thrombosis
-HR 5.70
-(95% CI 1.29-25.25)
-參考組
+5. **重要前提**：需與病患充分溝通（shared decision making）
 
+---
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-重點提醒
-TAVR 長期問題的可能原因：
-• TAVR leaflet crimping（植入前瓣葉壓縮）
-• 主動脈根部缺乏washout jets，導致血栓形成
-5.1.3 瓣膜耐久性比較
-項目
-TAVR
-SAVR
-10 年以上數據
-目前未知
-已有長期數據
-工程模擬預測耐久性
-約8 年
-–
-≥70 歲病患
-15-20 年追蹤
-–
-Freedom from SVD ≥
-98%
-5.2 技術考量
-• Transfemoral access 可行性
-• Aortic annulus 和aortic root 大小
-• Bicuspid vs tricuspid aortic stenosis
-• Coronary ostial heights
-• 鈣化程度
-5.3 Patient-Prosthesis Mismatch (PPM) 的考量
-• 病患BMI 28，需注意PPM 風險
-• PPM 會降低術後存活率
-• Small annulus 現在可做TAVR，但未來TAVR-in-TAVR 可能有困難
-5.4 TAVR 失敗後的處理
-• Surgical TAVR explantation 死亡率：12-15%
-• SAVR 可保留未來TAVR-in-SAVR 的選項
+## 5. 選項二：建議 SAVR
 
+**論述者**：Elaine E. Tseng, M.D.（UCSF）與 Vinod H. Thourani, M.D.（Piedmont Heart Institute）
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-5.5 SAVR 論點總結
-支持SAVR 的理由
-1. 中期結果相似，但SAVR 長期耐久性已證實
-2. TAVR 超過10 年的數據仍不明
-3. 工程模擬預測TAVR 耐久性僅約8 年
-4. SAVR 15-20 年freedom from SVD ≥98%
-5. 可進行minimally invasive SAVR + annular enlargement
-6. 保留未來TAVR-in-SAVR 的選項
-7. PARTNER 3 和Evolut 試驗中SAVR 組約1/5 做了concomitant procedures，可能
-影響短期死亡率比較
-6 各國指引比較
-指引
-建議
-適用條件
-2025
-ESC/EACTS
-≥70 歲+ tricuspid AS + 適
-合解剖：TAVR
-其他bioprosthesis 候選人：
-Heart Team 決定
-2020
-ACC/AHA
-65-80 歲：
-Transfemoral TAVR 為SAVR
-的valid alternative
-需平衡預期壽命與瓣膜耐久性
-Shared decision making
-重點提醒
-指引不一致的原因：缺乏TAVR 在低風險、較年輕族群超過10 年的追蹤數據。 7 臨床決策建議
-7.1 本病例的特點
-特點
-有利TAVR
-有利SAVR
-72 歲女性
-RHEIA 試驗支持
-預期壽命15 年，需考慮耐
-久性
-活動型生活
-快速恢復
-–
-低手術風險
-兩者皆可
-SAVR 風險可接受
-LVEF 44%
-微創減少負擔
-需確認非缺血性原因
+### 5.1 支持 SAVR 的核心論點：長期耐久性
 
+#### 5.1.1 病患預期壽命考量
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-BMI 28
-–
-PPM 風險，SAVR 可做an-
-nular enlargement
-7.2 Heart Team 討論重點
-1. 解剖評估：CT 評估annulus、coronary heights、vascular access
-2. Bicuspid vs Tricuspid：文中未提及，需確認
-3. 病患意願：充分說明兩種選項的利弊
-4. 終身管理策略：TAVR-first vs SAVR-first approach
-8 重點摘要
-Take-home Messages:
-1. 無症狀嚴重AS + LVEF < 50% = Class I 瓣膜置換適應症
-2. 低風險病患中，TAVR 與SAVR 中期（5-7 年）預後相似
-3. TAVR 優勢：微創、恢復快、女性有RHEIA 支持
-4. SAVR 優勢：長期耐久性已證實（15-20 年）、可做annular enlargement、保留未來選
-項
-5. TAVR 超過10 年的數據仍不明，工程模擬預測約8 年
-6. 決策需由Heart Team 評估，並進行Shared Decision Making
-7. 考量因素：年齡、預期壽命、解剖結構、病患意願、終身管理策略
-9 名詞解釋
-英文術語
-說明
-TAVR
-Transcatheter aortic-valve replacement（經導管主動
-脈瓣置換術）
-SAVR
-Surgical aortic-valve replacement（外科主動脈瓣置
-換術）
-AS
-Aortic stenosis（主動脈瓣狹窄）
-LVEF
-Left ventricular ejection fraction（左心室射出分率）
-AVA
-Aortic valve area（主動脈瓣面積）
-STS-PROM
-Society of Thoracic Surgeons Predicted Risk of Mor-
-tality
+- 美國 72 歲女性預期額外壽命：15 年
+- 相同 STS-PROM 分數病患，isolated SAVR 後 8 年存活率：85-91%
+- 因此需考慮終身管理（lifetime management）
 
+#### 5.1.2 PARTNER 3 七年追蹤結果
 
-NEJM Clinical Decisions 教學講義
-TAVR vs SAVR：無症狀嚴重主動脈瓣狹窄
-英文術語
-說明
-EuroSCORE II
-European System for Cardiac Operative Risk Evalu-
-ation II
-SVD
-Structural valve degeneration（瓣膜結構性退化）
-PPM
-Patient-prosthesis mismatch（病患-瓣膜不匹配）
-Heart Team
-由心臟內科、心臟外科、影像科等組成的多專科團
-隊
-TAVR-in-TAVR
-在原有TAVR 瓣膜內再植入新的TAVR 瓣膜
-TAVR-in-SAVR
-在原有SAVR 瓣膜內植入TAVR 瓣膜
-10 參考文獻
-1. Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS guidelines for the management of
-valvular heart disease. Eur Heart J 2025;46:4635-736. 2. Généreux P, Schwartz A, Oldemeyer JB, et al. Transcatheter aortic-valve replacement
-for asymptomatic severe aortic stenosis. N Engl J Med 2025;392:217-27. 3. Mack MJ, Leon MB, Thourani VH, et al. Transcatheter aortic-valve replacement in
-low-risk patients at five years. N Engl J Med 2023;389:1949-60. 4. Popma JJ, Deeb GM, Yakubov SJ, et al. Transcatheter aortic-valve replacement with a
-self-expanding valve in low-risk patients. N Engl J Med 2019;380:1706-15. 5. Tchetche D, Pibarot P, Bax JJ, et al. Transcatheter vs. surgical aortic valve replacement
-in women: the RHEIA trial. Eur Heart J 2025;46:2079-88. 6. Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA guideline for the manage-
-ment of patients with valvular heart disease. J Am Coll Cardiol 2021;77(4):e25-e197. 7. Leon MB, Mack MJ, Pibarot P, et al. Transcatheter or surgical aortic-valve replacement
-in low-risk patients at 7 years. N Engl J Med. DOI: 10.1056/NEJMoa2509766. 8. Forrest JK, Yakubov SJ, Deeb GM, et al. 5-Year outcomes after transcatheter or surgical
-aortic valve replacement in low-risk patients with aortic stenosis. J Am Coll Cardiol
-2025;85:1523-32. 9. Thourani VH, Habib R, Szeto WY, et al. Survival after surgical aortic valve replacement
-in low-risk patients: a contemporary trial benchmark. Ann Thorac Surg 2024;117:106-12. 10. Bourguignon T, Bouquiaux-Stablo A-L, Candolfi P, et al. Very long-term outcomes of the
-Carpentier-Edwards Perimount valve in aortic position. Ann Thorac Surg 2015;99:831-7. 11. Martin C, Sun W. Comparison of transcatheter aortic valve and surgical bioprosthetic
-valve durability: a fatigue simulation study. J Biomech 2015;48:3026-34.
+| 結果指標 | TAVR | SAVR |
+|----------|------|------|
+| 複合終點（死亡、中風、再住院） | 7 年時相似（1 年時 TAVR 較優的優勢消失） | — |
+| 3 年後死亡率 | 持續較高 | 較低 |
+| Death or disabling stroke | HR 1.31 (95% CI 0.96-1.78) | 參考組 |
+| Clinically significant valve thrombosis | HR 5.70 (95% CI 1.29-25.25) | 參考組 |
+
+> **Pearl — TAVR 長期問題的可能原因**：
+> - TAVR leaflet crimping（植入前瓣葉壓縮）
+> - 主動脈根部缺乏 washout jets，導致血栓形成
+
+#### 5.1.3 瓣膜耐久性比較
+
+| 項目 | TAVR | SAVR |
+|------|------|------|
+| 10 年以上數據 | 目前未知 | 已有長期數據 |
+| 工程模擬預測耐久性 | 約 8 年 | — |
+| ≥70 歲病患 15-20 年追蹤 | — | Freedom from SVD ≥98% |
+
+### 5.2 技術考量
+
+- Transfemoral access 可行性
+- Aortic annulus 和 aortic root 大小
+- Bicuspid vs tricuspid aortic stenosis
+- Coronary ostial heights
+- 鈣化程度
+
+### 5.3 Patient-Prosthesis Mismatch (PPM) 的考量
+
+- 病患 BMI 28，需注意 PPM 風險
+- PPM 會降低術後存活率
+- Small annulus 現在可做 TAVR，但未來 TAVR-in-TAVR 可能有困難
+
+### 5.4 TAVR 失敗後的處理
+
+- Surgical TAVR explantation 死亡率：12-15%
+- SAVR 可保留未來 TAVR-in-SAVR 的選項
+
+### 5.5 SAVR 論點總結
+
+1. 中期結果相似，但 SAVR 長期耐久性已證實
+2. TAVR 超過 10 年的數據仍不明
+3. 工程模擬預測 TAVR 耐久性僅約 8 年
+4. SAVR 15-20 年 freedom from SVD ≥98%
+5. 可進行 minimally invasive SAVR + annular enlargement
+6. 保留未來 TAVR-in-SAVR 的選項
+7. PARTNER 3 和 Evolut 試驗中 SAVR 組約 1/5 做了 concomitant procedures，可能影響短期死亡率比較
+
+---
+
+## 6. 各國指引比較
+
+| 指引 | 建議 | 適用條件 |
+|------|------|----------|
+| 2025 ESC/EACTS | ≥70 歲 + tricuspid AS + 適合解剖：TAVR | 其他 bioprosthesis 候選人：Heart Team 決定 |
+| 2020 ACC/AHA | 65-80 歲：Transfemoral TAVR 為 SAVR 的 valid alternative | 需平衡預期壽命與瓣膜耐久性；Shared decision making |
+
+> **Pearl**：指引不一致的原因：缺乏 TAVR 在低風險、較年輕族群超過 10 年的追蹤數據。
+
+---
+
+## 7. 臨床決策建議
+
+### 7.1 本病例的特點
+
+| 特點 | 有利 TAVR | 有利 SAVR |
+|------|-----------|-----------|
+| 72 歲女性 | RHEIA 試驗支持 | 預期壽命 15 年，需考慮耐久性 |
+| 活動型生活 | 快速恢復 | — |
+| 低手術風險 | 兩者皆可 | SAVR 風險可接受 |
+| LVEF 44% | 微創減少負擔 | 需確認非缺血性原因 |
+| BMI 28 | — | PPM 風險，SAVR 可做 annular enlargement |
+
+### 7.2 Heart Team 討論重點
+
+1. **解剖評估**：CT 評估 annulus、coronary heights、vascular access
+2. **Bicuspid vs Tricuspid**：文中未提及，需確認
+3. **病患意願**：充分說明兩種選項的利弊
+4. **終身管理策略**：TAVR-first vs SAVR-first approach
+
+---
+
+## 8. 重點摘要
+
+> **Take-home Messages**:
+> 1. 無症狀嚴重 AS + LVEF < 50% = Class I 瓣膜置換適應症
+> 2. 低風險病患中，TAVR 與 SAVR 中期（5-7 年）預後相似
+> 3. TAVR 優勢：微創、恢復快、女性有 RHEIA 支持
+> 4. SAVR 優勢：長期耐久性已證實（15-20 年）、可做 annular enlargement、保留未來選項
+> 5. TAVR 超過 10 年的數據仍不明，工程模擬預測約 8 年
+> 6. 決策需由 Heart Team 評估，並進行 Shared Decision Making
+> 7. 考量因素：年齡、預期壽命、解剖結構、病患意願、終身管理策略
+
+---
+
+## 9. 名詞解釋
+
+| 英文術語 | 說明 |
+|----------|------|
+| TAVR | Transcatheter aortic-valve replacement（經導管主動脈瓣置換術） |
+| SAVR | Surgical aortic-valve replacement（外科主動脈瓣置換術） |
+| AS | Aortic stenosis（主動脈瓣狹窄） |
+| LVEF | Left ventricular ejection fraction（左心室射出分率） |
+| AVA | Aortic valve area（主動脈瓣面積） |
+| STS-PROM | Society of Thoracic Surgeons Predicted Risk of Mortality |
+| EuroSCORE II | European System for Cardiac Operative Risk Evaluation II |
+| SVD | Structural valve degeneration（瓣膜結構性退化） |
+| PPM | Patient-prosthesis mismatch（病患-瓣膜不匹配） |
+| Heart Team | 由心臟內科、心臟外科、影像科等組成的多專科團隊 |
+| TAVR-in-TAVR | 在原有 TAVR 瓣膜內再植入新的 TAVR 瓣膜 |
+| TAVR-in-SAVR | 在原有 SAVR 瓣膜內植入 TAVR 瓣膜 |
+
+---
+
+## 10. 參考文獻
+
+1. Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS guidelines for the management of valvular heart disease. [*Eur Heart J*. 2025;46:4635-736.](https://doi.org/10.1093/eurheartj/ehae714)
+2. Généreux P, Schwartz A, Oldemeyer JB, et al. Transcatheter aortic-valve replacement for asymptomatic severe aortic stenosis. [*N Engl J Med*. 2025;392:217-27.](https://doi.org/10.1056/NEJMoa2411753)
+3. Mack MJ, Leon MB, Thourani VH, et al. Transcatheter aortic-valve replacement in low-risk patients at five years. [*N Engl J Med*. 2023;389:1949-60.](https://doi.org/10.1056/NEJMoa2307420)
+4. Popma JJ, Deeb GM, Yakubov SJ, et al. Transcatheter aortic-valve replacement with a self-expanding valve in low-risk patients. [*N Engl J Med*. 2019;380:1706-15.](https://doi.org/10.1056/NEJMoa1816885)
+5. Tchetche D, Pibarot P, Bax JJ, et al. Transcatheter vs. surgical aortic valve replacement in women: the RHEIA trial. [*Eur Heart J*. 2025;46:2079-88.](https://doi.org/10.1093/eurheartj/ehaf137)
+6. Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA guideline for the management of patients with valvular heart disease. [*J Am Coll Cardiol*. 2021;77(4):e25-e197.](https://doi.org/10.1016/j.jacc.2020.11.018)
+7. Leon MB, Mack MJ, Pibarot P, et al. Transcatheter or surgical aortic-valve replacement in low-risk patients at 7 years. [*N Engl J Med*.](https://doi.org/10.1056/NEJMoa2509766)
+8. Forrest JK, Yakubov SJ, Deeb GM, et al. 5-Year outcomes after transcatheter or surgical aortic valve replacement in low-risk patients with aortic stenosis. [*J Am Coll Cardiol*. 2025;85:1523-32.](https://doi.org/10.1016/j.jacc.2025.01.035)
+9. Thourani VH, Habib R, Szeto WY, et al. Survival after surgical aortic valve replacement in low-risk patients: a contemporary trial benchmark. [*Ann Thorac Surg*. 2024;117:106-12.](https://doi.org/10.1016/j.athoracsur.2023.09.023)
+10. Bourguignon T, Bouquiaux-Stablo A-L, Candolfi P, et al. Very long-term outcomes of the Carpentier-Edwards Perimount valve in aortic position. [*Ann Thorac Surg*. 2015;99:831-7.](https://doi.org/10.1016/j.athoracsur.2014.09.030)
+11. Martin C, Sun W. Comparison of transcatheter aortic valve and surgical bioprosthetic valve durability: a fatigue simulation study. [*J Biomech*. 2015;48:3026-34.](https://doi.org/10.1016/j.jbiomech.2015.07.031)

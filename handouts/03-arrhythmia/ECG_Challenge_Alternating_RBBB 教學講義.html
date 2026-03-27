@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ecg_challenge_alternating_rbbb-教學講義 – Journal Reading — Dr. Drake Hsieh</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e2d335519fda3bc7c134d94e5e0c7dbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "沒有結果",
+    "search-matching-documents-text": "符合的文件",
+    "search-copy-link-title": "複製搜尋連結",
+    "search-hide-matches-text": "隱藏其他符合的結果",
+    "search-more-match-text": "更多符合結果",
+    "search-more-matches-text": "更多符合結果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "送出",
+    "search-label": "搜尋"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Journal Reading — Dr.&nbsp;Drake Hsieh</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜尋"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="切換導航列" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../handouts/04-valvular-disease/mainz-2024/quarto/zh/index.html"> 
+<span class="menu-text">Mainz 2024</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">本頁目錄</h2>
+   
+  <ul>
+  <li><a href="#ecg-challenge-measure-twice-cut-once-交替性右束支傳導阻斷" id="toc-ecg-challenge-measure-twice-cut-once-交替性右束支傳導阻斷" class="nav-link active" data-scroll-target="#ecg-challenge-measure-twice-cut-once-交替性右束支傳導阻斷"><span class="header-section-number">1</span> ECG Challenge: Measure Twice, Cut Once — 交替性右束支傳導阻斷</a>
+  <ul class="collapse">
+  <li><a href="#目錄" id="toc-目錄" class="nav-link" data-scroll-target="#目錄"><span class="header-section-number">1.1</span> 目錄</a></li>
+  <li><a href="#核心發現摘要" id="toc-核心發現摘要" class="nav-link" data-scroll-target="#核心發現摘要"><span class="header-section-number">1.2</span> 核心發現摘要</a></li>
+  <li><a href="#病例摘要" id="toc-病例摘要" class="nav-link" data-scroll-target="#病例摘要"><span class="header-section-number">1.3</span> 1. 病例摘要</a>
+  <ul class="collapse">
+  <li><a href="#病患資料" id="toc-病患資料" class="nav-link" data-scroll-target="#病患資料"><span class="header-section-number">1.3.1</span> 病患資料</a></li>
+  </ul></li>
+  <li><a href="#ecg-發現" id="toc-ecg-發現" class="nav-link" data-scroll-target="#ecg-發現"><span class="header-section-number">1.4</span> 2. ECG 發現</a>
+  <ul class="collapse">
+  <li><a href="#初始-ecg-figure-1-判讀" id="toc-初始-ecg-figure-1-判讀" class="nav-link" data-scroll-target="#初始-ecg-figure-1-判讀"><span class="header-section-number">1.4.1</span> 初始 ECG (Figure 1) 判讀</a></li>
+  <li><a href="#關鍵觀察r-r-interval-變異-figure-2" id="toc-關鍵觀察r-r-interval-變異-figure-2" class="nav-link" data-scroll-target="#關鍵觀察r-r-interval-變異-figure-2"><span class="header-section-number">1.4.2</span> 關鍵觀察：R-R Interval 變異 (Figure 2)</a></li>
+  <li><a href="#特殊情況連續兩拍窄-qrs" id="toc-特殊情況連續兩拍窄-qrs" class="nav-link" data-scroll-target="#特殊情況連續兩拍窄-qrs"><span class="header-section-number">1.4.3</span> 特殊情況：連續兩拍窄 QRS</a></li>
+  <li><a href="#追蹤-ecg-figure-3-驗證" id="toc-追蹤-ecg-figure-3-驗證" class="nav-link" data-scroll-target="#追蹤-ecg-figure-3-驗證"><span class="header-section-number">1.4.4</span> 追蹤 ECG (Figure 3) 驗證</a></li>
+  </ul></li>
+  <li><a href="#鑑別診斷supernormal-conduction-vs-recovery-of-refractoriness" id="toc-鑑別診斷supernormal-conduction-vs-recovery-of-refractoriness" class="nav-link" data-scroll-target="#鑑別診斷supernormal-conduction-vs-recovery-of-refractoriness"><span class="header-section-number">1.5</span> 3. 鑑別診斷：Supernormal Conduction vs Recovery of Refractoriness</a>
+  <ul class="collapse">
+  <li><a href="#supernormal-conduction-snc" id="toc-supernormal-conduction-snc" class="nav-link" data-scroll-target="#supernormal-conduction-snc"><span class="header-section-number">1.5.1</span> Supernormal Conduction (SNC)</a></li>
+  <li><a href="#recovery-of-refractoriness本例之診斷" id="toc-recovery-of-refractoriness本例之診斷" class="nav-link" data-scroll-target="#recovery-of-refractoriness本例之診斷"><span class="header-section-number">1.5.2</span> Recovery of Refractoriness（本例之診斷）</a></li>
+  <li><a href="#兩者鑑別要點" id="toc-兩者鑑別要點" class="nav-link" data-scroll-target="#兩者鑑別要點"><span class="header-section-number">1.5.3</span> 兩者鑑別要點</a></li>
+  </ul></li>
+  <li><a href="#臨床意義" id="toc-臨床意義" class="nav-link" data-scroll-target="#臨床意義"><span class="header-section-number">1.6</span> 4. 臨床意義</a>
+  <ul class="collapse">
+  <li><a href="#交替性-bundle-branch-block-的重要性" id="toc-交替性-bundle-branch-block-的重要性" class="nav-link" data-scroll-target="#交替性-bundle-branch-block-的重要性"><span class="header-section-number">1.6.1</span> 交替性 Bundle Branch Block 的重要性</a></li>
+  <li><a href="#臨床教學重點" id="toc-臨床教學重點" class="nav-link" data-scroll-target="#臨床教學重點"><span class="header-section-number">1.6.2</span> 臨床教學重點</a></li>
+  <li><a href="#本例摘要" id="toc-本例摘要" class="nav-link" data-scroll-target="#本例摘要"><span class="header-section-number">1.6.3</span> 本例摘要</a></li>
+  </ul></li>
+  <li><a href="#參考文獻" id="toc-參考文獻" class="nav-link" data-scroll-target="#參考文獻"><span class="header-section-number">1.7</span> 參考文獻</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="ecg-challenge-measure-twice-cut-once-交替性右束支傳導阻斷" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> ECG Challenge: Measure Twice, Cut Once — 交替性右束支傳導阻斷</h1>
+<p><strong>整理：謝慕揚 MD, PhD, FESC</strong> <strong>日期：2026-03-26</strong> <strong>原文連結：<a href="https://doi.org/10.1161/CIRCULATIONAHA.125.077490"><em>Circulation</em>. 2025;152:1515–1517.</a></strong></p>
+<hr>
+<section id="目錄" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="目錄"><span class="header-section-number">1.1</span> 目錄</h2>
+<ol type="1">
+<li><a href="#1-病例摘要">病例摘要</a></li>
+<li><a href="#2-ecg-發現">ECG 發現</a></li>
+<li><a href="#3-鑑別診斷supernormal-conduction-vs-recovery-of-refractoriness">鑑別診斷：Supernormal Conduction vs Recovery of Refractoriness</a></li>
+<li><a href="#4-臨床意義">臨床意義</a></li>
+<li><a href="#參考文獻">參考文獻</a></li>
+</ol>
+<hr>
+</section>
+<section id="核心發現摘要" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="核心發現摘要"><span class="header-section-number">1.2</span> 核心發現摘要</h2>
+<blockquote class="blockquote">
+<p><strong>重大發現</strong>：本例 94 歲病患的交替性 RBBB 並非 supernormal conduction (SNC)，而是因 R-R interval 的毫秒級變異導致 right bundle branch 在較長間隔後恢復傳導能力 (recovery of refractoriness)。</p>
+<p><strong>臨床意義</strong>：交替性 bundle branch block 無論成因為何，均代表進階傳導系統疾病 (advanced conduction system disease)，可能突然進展為 high-grade 或 complete AV block，需密切監測並評估 pacemaker 植入之適應症。</p>
+</blockquote>
+<hr>
+</section>
+<section id="病例摘要" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="病例摘要"><span class="header-section-number">1.3</span> 1. 病例摘要</h2>
+<section id="病患資料" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="病患資料"><span class="header-section-number">1.3.1</span> 病患資料</h3>
+<ul>
+<li><strong>年齡/性別</strong>：94 歲女性</li>
+<li><strong>過去病史</strong>：hypertension、chronic kidney disease (CKD)、hyperlipidemia</li>
+<li><strong>就診原因</strong>：mechanical ground-level fall 後至急診就醫</li>
+<li><strong>心電圖</strong>：急診時常規 12-lead ECG</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="ecg-發現" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="ecg-發現"><span class="header-section-number">1.4</span> 2. ECG 發現</h2>
+<section id="初始-ecg-figure-1-判讀" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="初始-ecg-figure-1-判讀"><span class="header-section-number">1.4.1</span> 初始 ECG (Figure 1) 判讀</h3>
+<p>12-lead ECG 顯示：</p>
+<ol type="1">
+<li><strong>Normal sinus rhythm</strong>，心率約 85 bpm</li>
+<li><strong>First-degree AV block</strong>（PR interval 延長）</li>
+<li><strong>Left anterior fascicular block (LAFB)</strong></li>
+<li><strong>Right bundle branch block (RBBB)</strong>：最初數拍呈現典型 RBBB 形態</li>
+<li><strong>交替性 QRS 變化</strong>：隨後出現 RBBB 與正常窄 QRS 交替的型態 (beat-to-beat alternation)</li>
+</ol>
+</section>
+<section id="關鍵觀察r-r-interval-變異-figure-2" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="關鍵觀察r-r-interval-變異-figure-2"><span class="header-section-number">1.4.2</span> 關鍵觀察：R-R Interval 變異 (Figure 2)</h3>
+<p>詳細量測 V1 lead 的 R-R interval 後發現：</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 62%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>特徵</th>
+<th>QRS 形態</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R-R interval <strong>&gt; 700 ms</strong>（較前一拍延長）</td>
+<td><strong>正常窄 QRS</strong> — right bundle branch 有足夠時間恢復</td>
+</tr>
+<tr class="even">
+<td>R-R interval <strong>&lt; 700 ms</strong>（較前一拍縮短）</td>
+<td><strong>RBBB morphology</strong> — right bundle branch 仍處於 refractory period</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Pearl 1</strong>: 700 ms 為本例的關鍵閾值 (threshold)。R-R interval 超過 700 ms 時，right bundle branch 得以恢復傳導，QRS 恢復正常。</p>
+</blockquote>
+</section>
+<section id="特殊情況連續兩拍窄-qrs" class="level3" data-number="1.4.3">
+<h3 data-number="1.4.3" class="anchored" data-anchor-id="特殊情況連續兩拍窄-qrs"><span class="header-section-number">1.4.3</span> 特殊情況：連續兩拍窄 QRS</h3>
+<ul>
+<li>Interval 6 與 interval 7 出現連續兩拍正常窄 QRS</li>
+<li>儘管 interval 7 較 interval 6 短，但仍 &gt; 700 ms</li>
+<li>因為前一拍已是窄 QRS（right bundle branch 已傳導），right bundle branch 恢復更快，故仍能正常傳導</li>
+</ul>
+</section>
+<section id="追蹤-ecg-figure-3-驗證" class="level3" data-number="1.4.4">
+<h3 data-number="1.4.4" class="anchored" data-anchor-id="追蹤-ecg-figure-3-驗證"><span class="header-section-number">1.4.4</span> 追蹤 ECG (Figure 3) 驗證</h3>
+<p>後續 ECG 進一步支持 recovery of refractoriness 的診斷：</p>
+<ul>
+<li>正常窄 QRS 只出現在 <strong>R-R interval 顯著延長</strong>之後</li>
+<li>從未在非預期的短 R-R interval 出現窄 QRS</li>
+<li>此表現與 SNC 不符（SNC 應在固定間隔下出現意外的正常傳導）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="鑑別診斷supernormal-conduction-vs-recovery-of-refractoriness" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="鑑別診斷supernormal-conduction-vs-recovery-of-refractoriness"><span class="header-section-number">1.5</span> 3. 鑑別診斷：Supernormal Conduction vs Recovery of Refractoriness</h2>
+<section id="supernormal-conduction-snc" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="supernormal-conduction-snc"><span class="header-section-number">1.5.1</span> Supernormal Conduction (SNC)</h3>
+<p>SNC 是一種罕見的電生理現象 (rare electrophysiological phenomenon)：</p>
+<ul>
+<li><strong>定義</strong>：disease 或 partially refractory 的 bundle branch 在 repolarization 晚期的一個短暫窗口內，傳導效能反而優於預期</li>
+<li><strong>時間點</strong>：發生於 action potential phase 3 晚期，接近 phase 4 之前</li>
+<li><strong>機轉</strong>：
+<ul>
+<li>Voltage-gated sodium channels 開始從 inactivation 恢復</li>
+<li>若 supraventricular impulse 恰好在 full repolarization 之前到達</li>
+<li>Membrane potential 已足夠接近 threshold，允許 sodium channels 部分 reactivation</li>
+<li>結果是 paradoxically improved conduction through the affected bundle branch</li>
+</ul></li>
+<li><strong>特徵</strong>：atrial impulses 間隔固定，在固定週期下本不應傳導的拍次意外地以正常 QRS 傳導</li>
+</ul>
+</section>
+<section id="recovery-of-refractoriness本例之診斷" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="recovery-of-refractoriness本例之診斷"><span class="header-section-number">1.5.2</span> Recovery of Refractoriness（本例之診斷）</h3>
+<ul>
+<li><strong>定義</strong>：因 R-R interval 的微小變異，right bundle branch 在較長間隔後有足夠時間脫離 refractory period 而恢復傳導</li>
+<li><strong>機轉</strong>：
+<ul>
+<li>較長 R-R interval (&gt; 700 ms) → right bundle branch 恢復 → 正常窄 QRS</li>
+<li>較短 R-R interval (&lt; 700 ms) → right bundle branch 仍 refractory → RBBB morphology</li>
+<li>因間隔恰好每隔一拍交替長短，形成 alternating RBBB pattern</li>
+</ul></li>
+</ul>
+</section>
+<section id="兩者鑑別要點" class="level3" data-number="1.5.3">
+<h3 data-number="1.5.3" class="anchored" data-anchor-id="兩者鑑別要點"><span class="header-section-number">1.5.3</span> 兩者鑑別要點</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 47%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>特徵</th>
+<th>Supernormal Conduction (SNC)</th>
+<th>Recovery of Refractoriness</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Atrial rate</strong></td>
+<td>固定 (constant interval)</td>
+<td>有微小變異</td>
+</tr>
+<tr class="even">
+<td><strong>正常 QRS 出現時機</strong></td>
+<td>在固定間隔下「意外」傳導</td>
+<td>在較長間隔後「預期」傳導</td>
+</tr>
+<tr class="odd">
+<td><strong>R-R interval 與 QRS 的關係</strong></td>
+<td>無明顯相關</td>
+<td>明確相關：長間隔 → 窄 QRS</td>
+</tr>
+<tr class="even">
+<td><strong>追蹤 ECG</strong></td>
+<td>窄 QRS 可出現在短間隔</td>
+<td>窄 QRS 僅出現在長間隔後</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Pearl 2</strong>: 鑑別 SNC 與 recovery of refractoriness 的關鍵在於精確量測 R-R interval 的毫秒級差異，觀察窄 QRS 是否僅出現在較長的 R-R interval 之後。正如文章標題所言：“Measure Twice, Cut Once!”</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="臨床意義" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="臨床意義"><span class="header-section-number">1.6</span> 4. 臨床意義</h2>
+<section id="交替性-bundle-branch-block-的重要性" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="交替性-bundle-branch-block-的重要性"><span class="header-section-number">1.6.1</span> 交替性 Bundle Branch Block 的重要性</h3>
+<ol type="1">
+<li><strong>進階傳導系統疾病的指標</strong>：交替性 bundle branch block 無論成因 (SNC 或 pause-dependent recovery of refractoriness)，均反映嚴重的 conduction system disease</li>
+<li><strong>突然惡化風險</strong>：可能突然進展為 high-grade AV block 或 complete AV block</li>
+<li><strong>Pacemaker 評估</strong>：依據 2018 ACC/AHA/HRS Bradycardia and Cardiac Conduction Delay Guideline，此類患者需評估 permanent pacemaker 植入適應症</li>
+</ol>
+</section>
+<section id="臨床教學重點" class="level3" data-number="1.6.2">
+<h3 data-number="1.6.2" class="anchored" data-anchor-id="臨床教學重點"><span class="header-section-number">1.6.2</span> 臨床教學重點</h3>
+<blockquote class="blockquote">
+<p><strong>Pearl 3</strong>: 遇到交替性 RBBB 時，務必精確量測每一個 R-R interval（以毫秒為單位），觀察是否存在 subtle rate variability，以正確區分 SNC 與 recovery of refractoriness。</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Pearl 4</strong>: 交替性 bundle branch block 不論成因，均代表 advanced conduction system disease，臨床上應積極評估是否需要 pacemaker 植入。</p>
+</blockquote>
+</section>
+<section id="本例摘要" class="level3" data-number="1.6.3">
+<h3 data-number="1.6.3" class="anchored" data-anchor-id="本例摘要"><span class="header-section-number">1.6.3</span> 本例摘要</h3>
+<ul>
+<li>94 歲女性，baseline 即有 first-degree AV block + LAFB + RBBB（三束支均有 conduction delay）</li>
+<li>交替性 RBBB 由 R-R interval 的微小變異所致</li>
+<li>700 ms 為 right bundle branch 恢復傳導的臨界閾值</li>
+<li>追蹤 ECG 確認窄 QRS 僅出現在長 R-R interval 後，排除 SNC</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="參考文獻" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="參考文獻"><span class="header-section-number">1.7</span> 參考文獻</h2>
+<ol type="1">
+<li><p>Carbone V, Tedesco MA. Bundle branch block on alternate beats: by what mechanism? <a href="https://doi.org/10.1054/jelc.2002.32337"><em>J Electrocardiol</em>. 2002;35:147–152.</a></p></li>
+<li><p>Carbone V, Carerj S, Calabro MP. Bundle branch block on alternate beats during atrial fibrillation. <a href="https://doi.org/10.1016/j.jelectrocard.2003.11.002"><em>J Electrocardiol</em>. 2004;37:67–72.</a></p></li>
+<li><p>Kusumoto FM, Schoenfeld MH, Barrett C, Edgerton JR, Ellenbogen KA, Gold MR, Goldschlager NF, Hamilton RM, Joglar JA, Kim RJ, et al.&nbsp;2018 ACC/AHA/HRS guideline on the evaluation and management of patients with bradycardia and cardiac conduction delay. <a href="https://doi.org/10.1016/j.jacc.2018.10.044"><em>J Am Coll Cardiol</em>. 2019;74:e51–e156.</a></p></li>
+</ol>
+<hr>
+<p><em>本文件僅供醫療專業人員教學參考，臨床決策請結合個案情況。</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已複製");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已複製");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
