@@ -1,0 +1,1351 @@
+---
+title: "CCU cath IABP Elias Hanna"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+empty
+
+
+importantbox
+**教學目標**
+
+- 深入理解IABP的血流動力學機制
+- 掌握波形解讀與timing調整技巧
+- 學習完整的troubleshooting策略
+- 熟悉置入、移除與更換技術
+- 了解weaning標準與臨床應用
+
+
+importantbox
+
+\tableofcontents
+
+---
+
+
+## 前言
+
+
+主動脈內氣球幫浦(Intra-Aortic Balloon Pump, IABP)是心臟機械支持的重要工具。本講義改編自Elias Hanna醫師的詳細教學影片,內容涵蓋IABP的生理機制、血流動力學效應、波形解讀、疑難排解以及進階技術要點。
+
+請使用本講義一起閱讀: [Balloon pump: hemodynamics, troubleshooting, technical tips - Elias Hanna](https://www.youtube.com/watch?v=ULgjuhBgP9U)
+
+
+### 這份教學文件的由來
+
+
+Elias Hanna醫師是University of Texas Health Science Center的心血管介入專家,其教學影片以深入淺出、系統化著稱。本講義透過AI輔助工具將其約73分鐘的教學影片轉化為結構化的中文教學資料,期望能幫助加護病房同仁更系統地學習IABP的操作與管理。
+
+
+## 影片時間對照表
+
+
+本表格標示影片中各主題出現的時間點,方便學生對照講義章節與影片內容。
+
+
+| p{6cm}p{5.5cm}}   **影片時間** | **主題內容** | **對應講義章節** |
+| --- | --- | --- |
+| **基本原理與生理效應** |  |  |
+| 00:00 - 00:51 | IABP基本原理與位置 | 第3.1節 IABP工作原理 |
+| 00:51 - 02:00 | 充氣與放氣時機 | 第3.1節 |
+| 02:00 - 03:51 | IABP生理效應總覽 | 第3.2節 生理效應 |
+| 03:51 - 05:13 | 冠狀動脈血流效應 | 第3.2.3節 冠狀動脈血流 |
+| **臨床應用** |  |  |
+| 05:13 - 07:23 | 心衰竭vs.心肌梗塞休克 | 第4.1節 不同類型休克 |
+| 07:23 - 09:06 | 臨床適應症 | 第4.2節 適應症 |
+| 09:06 - 10:05 | 複雜PCI支持 | 第4.3節 PCI支持 |
+| **導管構造與連接** |  |  |
+| 10:05 - 13:23 | 導管構造與lumens | 第5.1節 導管構造 |
+| 13:23 - 14:59 | 連接與監測設定 | 第5.2節 連接設定 |
+| **波形解讀** |  |  |
+| 14:59 - 16:07 | Console螢幕與波形 | 第6.1節 螢幕顯示 |
+| 16:07 - 18:30 | 主動脈壓力波形解讀 | 第6.2節 壓力波形 |
+| 18:30 - 20:30 | Assisted vs Unassisted | 第6.3節 1:2模式比較 |
+| 20:30 - 22:29 | 壓力參數定義 | 第6.4節 壓力參數 |
+| 22:29 - 23:09 | 血壓監測目標 | 第6.5節 監測目標 |
+| **觸發與Timing** |  |  |
+| 23:09 - 24:45 | ECG與壓力觸發 | 第7.1節 觸發機制 |
+| 24:45 - 27:20 | 心律不整時的觸發 | 第7.2節 心律不整 |
+| **Augmentation不佳** |  |  |
+| 27:20 - 31:17 | Augmentation不佳原因 | 第8.1節 原因分析 |
+| 31:17 - 32:41 | 病人因素 | 第8.2節 病人因素 |
+| **導管相關問題** |  |  |
+| 32:41 - 35:10 | Leak漏氣問題 | 第9.1節 漏氣 |
+| 35:10 - 37:59 | Kink扭結問題 | 第9.2節 扭結 |
+| 37:59 - 40:09 | Poor inflation/deflation | 第9.3節 充放氣異常 |
+| 40:09 - 42:32 | Timing錯誤 | 第9.4節 Timing問題 |
+| 42:32 - 46:23 | Troubleshooting案例 | 第9.5節 案例分析 |
+| 46:23 - 48:29 | 動脈監測功能異常 | 第9.6節 監測問題 |
+| **置入技術** |  |  |
+| 48:29 - 51:58 | 經股動脈置入 | 第10.1節 股動脈途徑 |
+| 51:58 - 56:12 | 導管置入步驟 | 第10.2節 置入步驟 |
+| 56:12 - 59:59 | 位置確認 | 第10.3節 位置確認 |
+| 59:59 - 01:00:59 | Sheathless技術 | 第10.4節 無鞘技術 |
+| **Weaning與移除** |  |  |
+| 01:00:59 - 01:03:31 | Weaning標準 | 第11.1節 Weaning標準 |
+| 01:03:31 - 01:05:29 | Weaning步驟 | 第11.2節 Weaning步驟 |
+| 01:05:29 - 01:07:28 | 移除技術 | 第11.3節 移除技術 |
+| **進階技術** |  |  |
+| 01:07:28 - 01:10:11 | 更換IABP或轉Impella | 第12.1節 導管更換 |
+| 01:10:11 - 01:13:43 | Closure device應用 | 第12.2節 血管封堵 |
+
+
+**使用建議**
+
+
+- 建議先完整觀看影片一次,對整體內容有概念
+- 閱讀講義時,可對照此表格找到相應的影片片段重複觀看
+- 特別注意標示為emergency_blue!15{藍底的主題分隔,這些是重要的大章節
+- Troubleshooting部分(32:41-48:29)建議反覆觀看,確實掌握問題辨識
+
+
+}
+
+
+## IABP基本原理
+
+
+### IABP工作原理
+
+
+IABP是一個氣球導管,通常經由股動脈置入,位於降主動脈,在左鎖骨下動脈下方、腎動脈上方。
+
+
+- **舒張期充氣**:在舒張期開始時充氣
+- **收縮期放氣**:在收縮期開始時(等容收縮期)放氣
+
+
+importantbox
+****放氣是最重要的作用****
+
+放氣產生真空效應,降低左心室的壓力後負荷。這是IABP最重要的血流動力學效應。
+
+衰竭的左心室對後負荷極度敏感,降低壓力後負荷可以:
+
+- 增加左心室射出容積
+- 減少心肌耗氧量
+- 改善心輸出量
+
+
+importantbox
+
+
+### 生理效應
+
+
+#### 心輸出量增加
+
+
+| p{9cm}}   **參數** | **改善幅度** |  |
+| --- | --- | --- |
+| 心輸出量 | 平均增加20 |  |
+| 絕對增加量 | 0.5-1.0 L/min |  |
+| LVEDP | 降低20 |  |
+| 楔壓(Wedge pressure) | 降低20 |  |
+
+
+**重要數值**
+
+這些數值必須記住,經常出現在考試中:
+
+- 心輸出量增加約20
+- 絕對增加0.5-1 L/min
+- LVEDP與wedge pressure降低20
+
+
+#### 影響效果的因素
+
+
+效果會因以下情況而異:
+
+
+| p{9.5cm}}   **情況** | **對IABP效果的影響** |  |
+| --- | --- | --- |
+| 嚴重二尖瓣逆流 | 心輸出量可能增加更多 |  |
+| 極度衰竭的心室   (CPI<0.33) | 效果可能不佳,因為心室缺乏stroke volume reserve |  |
+| 嚴重血管擴張 | 無法有效augmentation,IABP效果差 |  |
+| 血管收縮狀態 | Augmentation效果較好 |  |
+
+
+importantbox
+****Cardiac Power Index (CPI)****
+
+當左心室cardiac power index小於0.33時,心室可能無法產生足夠的stroke volume來填補主動脈中IABP放氣造成的真空,因此效果受限。
+
+CPI公式: 
+$$CPI = \text{MAP \times CO}{451}$$
+
+其中MAP為平均動脈壓(mmHg),CO為心輸出量(L/min)。
+importantbox
+
+
+#### 冠狀動脈血流
+
+
+IABP對冠狀動脈血流的效應有重要的限制條件:
+
+
+1. **舒張期充氣**:增加主動脈舒張期壓力
+2. **降低LVEDP**:改善冠狀動脈灌注壓力梯度
+3. **灌注梯度**:舒張期主動脈壓 - LVEDP
+
+
+importantbox
+****重要限制****
+
+IABP在以下情況**可以**增加冠狀動脈血流:
+
+- 休克與低血流狀態
+- **無阻塞性**冠狀動脈疾病
+- PCI後已打通血管
+
+
+IABP**無法**增加流經顯著狹窄病變的冠狀動脈血流:
+
+- Kern等人在1990年代使用pressure wire與Doppler velocity wire研究
+- 證實IABP無法改善經過狹窄的壓力與流速
+- Impella在未阻塞動脈中改善冠狀動脈血流的效果優於IABP
+- Impella可能能增加經過狹窄的血流(需更多研究)
+
+
+importantbox
+
+
+### 減少心肌耗氧
+
+
+降低後負荷是IABP改善心肌缺血的主要機制:
+
+
+- 類似給予nitroglycerin或calcium channel blockers
+- 類似給予beta-blocker的效果
+- 但優點是**不會降低血壓**,反而改善血壓
+
+
+**臨床應用範例**
+
+重度左主幹或三條血管病變合併持續缺血但無休克的病人:
+
+- 轉診急診CABG手術
+- 置入緊急IABP支持
+- IABP雖無法增加經過狹窄的血流
+- 但透過降低心肌耗氧量改善缺血
+- 允許心臟以較少氧氣維持較好功能
+
+
+## 臨床適應症與應用
+
+
+### 不同類型休克的反應
+
+
+#### 心衰竭休克vs.心肌梗塞休克
+
+
+IABP在不同類型的心因性休克中效果不同:
+
+
+| p{5cm}p{5cm}}   **比較項目** | **心衰竭休克** | **心肌梗塞休克** |
+| --- | --- | --- |
+| IABP反應 | 反應較好 | 反應較差 |
+| PA楔壓改善 | 顯著改善 | 改善有限 |
+| Cardiac power | 明顯增加 | 增加有限 |
+| 死亡率改善 | 可能有益 | 無明顯益處 |
+
+
+#### 心衰竭休克反應較佳的原因
+
+
+1. **後負荷敏感性更高**      - 慢性心衰竭的左心室更擴張 - 壁應力(wall stress)更大 - 後負荷更高
+2. **血管收縮更明顯**      - 慢性心衰竭時血管收縮 - 血管腔室較小 - Augmentation效果更好
+3. **功能性二尖瓣逆流**      - 心衰竭常合併中度或重度MR - MR對IABP反應極佳
+4. **組織適應性**      - 慢性心衰竭組織已適應低氧供應 - 急性MI休克組織尚未適應 - 急性MI需要更高的心輸出量達到相同組織氧合
+5. **竇性心搏過速**      - 急性MI休克常有竇性心搏過速 - 竇性心搏過速明顯妨礙IABP的augmentation能力
+
+
+importantbox
+****IABP-SHOCK II試驗****
+
+在歐洲指引中,常規使用IABP於心肌梗塞合併心因性休克為Class III(不建議),基於IABP-SHOCK II試驗結果。
+
+然而,IABP仍有其角色:
+
+- 適用於對中等劑量inotrope無反應的休克(Stage D)
+- 早期Stage D休克
+- **不**適用於對中等劑量inotrope有反應的Stage C休克
+- 心衰竭休克反應較佳,可更積極使用
+
+
+importantbox
+
+
+### 主要適應症
+
+
+| p{9cm}}   **適應症** | **說明** |  |
+| --- | --- | --- |
+| 心因性休克Stage D | 對中等劑量inotrope無反應的早期Stage D休克 |  |
+| 重度左主幹或多條血管病變 | 持續缺血但無休克,等待CABG |  |
+| 複雜PCI支持 | 高風險PCI時的預防性支持 |  |
+| AMI機械性併發症 | 心室中隔缺損或乳頭肌斷裂 |  |
+| 難治性心絞痛 | 藥物無法控制的缺血 |  |
+
+
+### 複雜PCI支持
+
+
+IABP在複雜PCI中的作用機制:
+
+
+1. **改善缺血耐受性**      - 減少心肌耗氧量 - 幫助左心室耐受氣球擴張時的缺血 - 幫助耐受支架操作時的缺血
+2. **加速缺血恢復**      - 打開阻塞後快速恢復 - 快速恢復血流動力學
+
+
+**Protected PCI概念**
+
+在高風險PCI(如左主幹病變、最後存活血管)時使用IABP或Impella進行"protected PCI":
+
+- 預防性置入機械循環支持
+- 萬一發生急性血管閉塞有支持
+- 減少缺血時的血流動力學惡化
+- 允許術者有更多時間處理併發症
+
+
+## 導管構造與連接
+
+
+### 導管構造
+
+
+#### 傳統雙lumen設計
+
+
+| p{10cm}}   **Lumen** | **功能** |  |
+| --- | --- | --- |
+| 氦氣lumen | - 連接氣球 - 允許氣球充氣與放氣 - 充入氦氣(helium) |  |
+| 動脈中心lumen | - 連接導管尖端 - 監測主動脈波形 - 監測augmentation效果 - 用於導管置入時導絲通過 - 接受0.025 inch導絲(非0.035 inch) - 也可使用0.018 inch導絲 |  |
+
+
+importantbox
+****動脈lumen的問題****
+
+動脈lumen非常細小,容易凝血:
+
+- 凝血後無法監測動脈波形
+- 可能需要更換IABP
+- 或使用次佳的橈動脈line連接console監測
+
+
+這是為什麼現代IABP增加第三個lumen的原因。
+importantbox
+
+
+#### 現代三lumen設計
+
+
+現代IABP增加第三個lumen:
+
+
+| p{10cm}}   **Lumen** | **優點** |  |
+| --- | --- | --- |
+| 光纖lumen | - 連接導管尖端 - 使用光纖血流描記技術 - 監測主動脈波形 - 更可靠、更持久 - 不會凝血 |  |
+
+
+**光纖line的使用**
+
+
+- 優先使用光纖line監測主動脈波形
+- 動脈lumen仍可使用,但可選擇不用
+- 建議將動脈lumen連接到:     itemize
+- Transducer
+- Heparin saline持續沖洗(數mL/hr)
+- 保持lumen通暢,防止尖端血栓
+
+
+    \item 動脈lumen可選擇性連接到console
+    \item 即使連接,console會優先使用光纖數據
+    \item 若光纖失效,才會使用動脈lumen數據
+\end{itemize
+}
+
+
+### 連接設定
+
+
+#### 完整連接步驟
+
+
+1. **光纖line**      - 連接到console的光纖port - 這是主要的壓力監測來源
+2. **動脈lumen**      - 可連接到transducer - 連接到heparin saline持續沖洗 - 選擇性連接到console的arterial port - 即使不連接到console也應保持沖洗
+3. **氦氣line**      - 連接到console的氦氣port - 檢查氦氣罐是否充足
+4. **橈動脈line的替代使用**      - 若光纖與動脈lumen都失效 - 可使用橈動脈line連接console - 橈動脈line → transducer → special cable → console arterial port - 這是次佳方案,但可用
+
+
+#### Console各port位置
+
+
+- **前方主要ports**:     itemize
+- ECG port(綠色)
+- 光纖port
+- 動脈line port(選擇性使用)
+
+
+    
+    \item **後方ports**:
+    
+- 氦氣連接port
+
+
+    
+    \item **側面**:
+    
+- 氦氣罐位置
+
+
+itemize
+
+
+## 波形解讀
+
+
+### Console螢幕顯示
+
+
+Console螢幕顯示三個主要波形:
+
+
+| p{11cm}}   **波形** | **說明** |  |
+| --- | --- | --- |
+| ECG波形 | - 透過綠色port連接 - Console自動選擇顯示最清楚的QRS與T波的導程 - 用於觸發IABP |  |
+| 主動脈壓力波形(紅色) | - 來自光纖line或動脈lumen - 顯示augmentation效果 - 用於timing調整 |  |
+| 氦氣波形(藍色) | - 顯示氣球充氣與放氣 - 用於troubleshooting - 辨識導管問題(leak, kink) |  |
+
+
+### 主動脈壓力波形
+
+
+#### Augmentation前的波形
+
+
+未開始augmentation前的正常主動脈波形:
+
+
+- 收縮期上升
+- Dicrotic notch(主動脈瓣關閉點)
+- 舒張期下降
+
+
+#### Augmentation後的波形變化
+
+
+開始IABP後,波形產生重要變化:
+
+
+1. **Inflation時機**      - 在dicrotic notch處充氣 - Dicrotic notch應該被抹除,看不到 - 對應於T波結束
+2. **Augmented pressure**      - 舒張期增強的壓力峰值 - 應該是波形中最高的壓力
+3. **Deflation時機**      - 在等容收縮期開始時放氣 - 對應於R波峰值 - 產生"吸力"效應
+4. **Assisted pressures**      - Assisted end-diastolic pressure - Assisted systolic pressure - 這兩個壓力都應該**低於**augmentation前的壓力
+
+
+importantbox
+****關鍵概念****
+
+IABP造成的壓力變化:
+
+- Augmented pressure > Unassisted systolic pressure
+- Assisted systolic < Unassisted systolic
+- Assisted end-diastolic < Unassisted end-diastolic
+- Assisted end-diastolic通常比Unassisted低10-15 mmHg
+
+
+這反映了IABP降低後負荷的主要作用。
+importantbox
+
+
+### 1:2模式的重要性
+
+
+#### 為何需要1:2模式
+
+
+在1:1模式下,很難比較assisted與unassisted壓力。使用1:2模式可以:
+
+
+- 每兩個心跳augmentation一次
+- 清楚看到有augmentation與無augmentation的心跳
+- 比較兩者的壓力差異
+- 確認augmentation是否適當
+
+
+#### Assisted vs. Unassisted定義
+
+
+這是容易混淆的概念,經常在考試中出現:
+
+
+| p{10cm}}   **壓力類型** | **定義** |  |
+| --- | --- | --- |
+| Unassisted pressures | - **Augmentation之前**的收縮壓與舒張壓 - 在1:2模式中是沒有augmentation的那個心跳 |  |
+| Assisted pressures | - **Augmentation之後**的收縮壓與舒張壓 - 在1:2模式中是有augmentation的那個心跳之後 - **注意**:不是augmentation之前的那個心跳 |  |
+
+
+importantbox
+****常見錯誤****
+
+很多人會以為augmentation發生的那個心跳的收縮壓就是assisted systolic pressure。
+
+**錯誤**:Augmentation上方的收縮壓是unassisted
+
+**正確**:Augmentation**之後**下一個心跳的收縮壓才是assisted
+
+在1:1模式中,每個心跳都是assisted。在1:2模式中,要正確辨識哪個是assisted、哪個是unassisted。
+importantbox
+
+
+### 壓力參數
+
+
+#### 應監測的壓力
+
+
+由於augmentation改變了壓力型態,不能再使用傳統的收縮壓:
+
+
+| p{9cm}}   **參數** | **目標值** |  |
+| --- | --- | --- |
+| 平均動脈壓(MAP) | > 65 mmHg |  |
+| Augmented pressure | > 90-100 mmHg |  |
+
+
+importantbox
+****重要提醒****
+
+**不要**使用以下方式監測血壓:
+
+- 純動脈line的平均壓(不準確)
+- 血壓計測量的平均壓(只是收縮壓與舒張壓的平均)
+
+
+**應該**使用:
+
+- Console顯示的平均壓
+- Augmented pressure
+
+
+這些才能正確反映IABP支持下的真實血流動力學狀態。
+importantbox
+
+
+### 驗證Augmentation是否適當
+
+
+使用1:2模式驗證:
+
+
+1. 看不到dicrotic notch
+2. Assisted end-diastolic < Unassisted end-diastolic (低10-15 mmHg)
+3. Assisted systolic < Unassisted systolic
+4. Augmented pressure > Unassisted systolic
+
+
+## 觸發機制與Timing
+
+
+### 觸發機制
+
+
+IABP使用ECG來觸發充氣與放氣:
+
+
+| p{10cm}}   **動作** | **ECG觸發點** |  |
+| --- | --- | --- |
+| Inflation(充氣) | T波結束時 |  |
+| Deflation(放氣) | R波峰值(等容收縮期) |  |
+
+
+#### 替代觸發方式
+
+
+當ECG觸發不理想時,可使用壓力觸發:
+
+
+- 觀察dicrotic notch位置充氣
+- 在動脈壓上升前放氣
+- 通常console會自動調整
+
+
+### 心律不整時的觸發
+
+
+#### 心房顫動
+
+
+- R-R interval不規則
+- Console使用"moving average"
+- 根據過去幾個心跳的平均來預測
+- Console會自動調整
+
+
+#### 心室節律器
+
+
+- Pacing spike可能干擾R波偵測
+- 如果pacing spike高度 > R波
+- 可能誤觸發
+- 解決方式:     itemize
+- 切換ECG導程
+- 使用壓力觸發
+- 降低ECG gain
+
+
+itemize
+
+
+#### 頻繁的PVCs
+
+
+- PVC後的心跳通常stroke volume較低
+- Console可能在PVC後略過一次augmentation
+- 或根據壓力波形自動調整
+
+
+**現代Console的智慧功能**
+
+現代IABP console非常智能:
+
+- 自動選擇最佳ECG導程
+- 自動調整timing
+- 自動處理心律不整
+- 自動根據壓力波形微調
+
+
+大部分情況下不需要手動調整,但必須理解基本原理以進行troubleshooting。
+
+
+## Augmentation不佳的原因
+
+
+### Augmentation不佳的綜合分析
+
+
+當發現舒張期augmentation不足時,需系統性分析原因:
+
+
+| p{9cm}}   **原因類別** | **具體因素** |  |
+| --- | --- | --- |
+| **1. 導管因素** | Leak, Kink, 位置不當 |  |
+| **2. 病人因素** | 心搏過速,低血壓,血管擴張,心室功能極差 |  |
+| **3. Timing問題** | Early/late inflation, Early/late deflation |  |
+| **4. 設定問題** | Augmentation未設定maximum |  |
+
+
+### 病人因素
+
+
+#### 竇性心搏過速
+
+
+importantbox
+****心搏過速是最重要的限制因素****
+
+當心率過快時:
+
+- 舒張期時間縮短
+- Augmentation時間不足
+- 效果顯著降低
+
+
+處理方式:
+
+- 使用beta-blocker降低心率(若血流動力學允許)
+- 或考慮升級為Impella等更強力的支持
+
+
+importantbox
+
+
+#### 極低血壓
+
+
+| p{8cm}}   **血壓狀況** | **對Augmentation的影響** |  |
+| --- | --- | --- |
+| Mean BP < 40 mmHg | Augmentation顯著受限 |  |
+| 極低stroke volume | - 心室無法產生足夠容積填補真空 - IABP效果差 |  |
+| 血管嚴重擴張   (如敗血性休克) | - 血管腔室太大 - 50 mL氦氣無法有效augmentation - 無法降低後負荷 - IABP完全無效 |  |
+
+
+#### 極度衰竭的心室
+
+
+- Cardiac Power Index < 0.33
+- 缺乏stroke volume reserve
+- 無法產生額外stroke volume填補IABP造成的真空
+- Augmentation效果不佳
+
+
+#### 血管擴張vs.血管收縮
+
+
+| p{9cm}}   **血管狀態** | **IABP效果** |  |
+| --- | --- | --- |
+| 血管收縮 | - 血管腔室小 - Augmentation效果好 - 慢性心衰竭典型表現 |  |
+| 血管擴張 | - 血管腔室大 - Augmentation效果差 - 敗血性休克 - 或左心室功能恢復時 |  |
+
+
+**臨床意義**
+
+當你看到augmentation逐漸減弱,但病人血壓反而上升、pulse pressure變寬時:
+
+- 可能是左心室功能恢復
+- 血管擴張,不再收縮
+- 這是**好現象**
+- 可以考慮開始weaning
+
+
+## 導管相關問題
+
+
+### 兩大類導管問題
+
+
+導管問題會同時造成氦氣波形與主動脈波形異常:
+
+
+1. **Leak**(漏氣)
+2. **Kink**(扭結、打折)
+
+
+importantbox
+****辨識重點****
+
+當你看到:
+
+- 氦氣波形(藍色)變形
+- 主動脈波形augmentation不佳
+
+
+首先想到導管問題(leak或kink)。
+
+如果**只有**氦氣波形異常,主動脈波形正常,幾乎確定是導管問題。
+importantbox
+
+
+### Leak漏氣
+
+
+#### Leak的表現
+
+
+- 充氣不良
+- 氦氣波形逐漸下降
+- 每個心跳充氣量越來越少
+
+
+#### Leak的原因
+
+
+| p{10cm}}   **原因** | **處理** |  |
+| --- | --- | --- |
+| **1. 氣球破裂**   (最嚴重) | - 會看到血液出現在氦氣管路 - **緊急情況** - 必須立即移除(<30分鐘) - 否則氣球會凝血,難以取出 - 可能需要外科切開取出 |  |
+| **2. 連接不良**   (較常見) | - 氦氣管路與導管連接不緊 - 氦氣管路與console連接不緊 - 氦氣罐空了 - 與護理師一起檢查所有連接 |  |
+
+
+importantbox
+****氣球破裂的處理****
+
+立即行動:
+
+1. 檢查氦氣管路是否有血液
+2. 立即通知主治醫師
+3. 準備移除導管
+4. **必須在30分鐘內移除**
+5. 記錄事件時間與狀況
+
+
+延遲處理的後果:
+
+- 氣球內血液凝固
+- 無法經股動脈取出
+- 需要外科切開移除
+- 增加併發症風險
+
+
+importantbox
+
+
+### Kink扭結
+
+
+#### Kink的表現
+
+
+根據嚴重程度,kink可造成兩種表現:
+
+
+| p{9cm}}   **嚴重度** | **表現** |  |
+| --- | --- | --- |
+| 嚴重kink | - 充氣不良 - 逐漸惡化 - 類似leak表現 |  |
+| 輕度kink | - 充氣尚可 - 但放氣不良 - 導管在放氣時塌陷 - 氦氣波形放氣相變形 |  |
+
+
+#### Kink的原因
+
+
+| p{9cm}}   **位置** | **原因與處理** |  |
+| --- | --- | --- |
+| **體外kink**   (最常見) | - 鼠蹊部打折 - 病人坐起時最常見 - **經股動脈IABP必須平躺** - 檢查整條導管外觀 - 調整病人姿勢 |  |
+| **體內kink** | - 經過鈣化主動脈或髂動脈 - 導管移位至髂動脈 - 獲得腹部與胸部X光 - 必要時重新定位 |  |
+| **導管在sheath內** | - 導管尚未完全退出sheath - 在sheath內無法完全擴張 - 檢查導管標記位置 - 獲得X光確認 |  |
+
+
+### Kink波形特徵
+
+
+- 氦氣波形從清晰變為圓鈍
+- 失去清晰的plateau(平台期)
+- 充氣或放氣速度變慢
+- 充氣幅度降低
+
+
+### Poor inflation/deflation的處理
+
+
+1. **檢查有無血液**      - 檢查氦氣管路 - 確認無氣球破裂
+2. **檢查連接**      - 與護理師一起檢查所有連接 - 確認氦氣罐充足
+3. **重新定位病人**      - 保持患側肢體伸直 - 床頭降至0-30度
+4. **獲得X光**      - 胸部X光 - 腹部X光 - 確認導管位置
+5. **嘗試手動充放氣**      - 確認無氣球破裂 - 使用50 mL針筒 - 手動充放氣 - 有時可改善未完全展開的氣球
+
+
+## Timing問題
+
+
+Timing問題是augmentation不佳的另一重要原因。現代console通常會自動調整,但必須了解原理。
+
+
+### Timing問題總覽
+
+
+| p{5cm}p{5cm}}   **Timing錯誤** | **特徵** | **後果** |
+| --- | --- | --- |
+| Early inflation | 在dicrotic notch前充氣 | - 增加後負荷 - 妨礙射血 - 增加耗氧 |
+| Late inflation | 遠離dicrotic notch充氣 | - 冠狀動脈灌注改善不足 - Augmentation次佳 |
+| Early deflation | 舒張期中段就放氣 | - 舒張期支持不足 - 可能逆行頸動脈血流 |
+| Late deflation | 收縮期開始後才放氣 | - **最危險** - 增加後負荷 - 妨礙射血 - 增加耗氧 |
+
+
+### 檢查Timing
+
+
+使用1:2模式檢查timing:
+
+
+1. 切換到1:2模式
+2. 觀察有augmentation與無augmentation的心跳
+3. 檢查:      - Dicrotic notch是否被抹除 - Assisted diastolic < Unassisted diastolic - Assisted systolic < Unassisted systolic
+
+
+### 案例分析:Augmentation變化
+
+
+importantbox
+****Troubleshooting案例****
+
+**情境**:波形從圖1變化到圖2
+
+**圖1特徵**:
+
+- 窄的pulse pressure(衰竭心臟)
+- 良好的augmentation
+- Augmented pressure明顯高於systolic
+
+
+**圖2特徵**:
+
+- 寬的pulse pressure
+- 差的augmentation
+- Augmented pressure < Assisted systolic
+
+
+**可能原因**:
+
+1. Balloon kink? - 不太可能,因為氦氣波形未提供
+2. Balloon rupture? - 不太可能,同樣原因
+3. Timing問題? - 可能,但通常不會這麼劇烈
+4. ****左心室功能恢復**** - **最可能**
+
+
+**解釋**:
+
+- 圖1:衰竭心室,窄pulse pressure,血管收縮
+- 圖2:心室恢復,寬pulse pressure,血管擴張
+- 血管擴張(大腔室)導致augmentation效果變差
+- 這是**好現象**,表示可以考慮weaning
+
+
+importantbox
+
+
+### 設定問題
+
+
+檢查augmentation設定:
+
+
+- Console有augmentation調整鈕
+- 正常應設定在maximum
+- 若病人需要IABP,不應降低augmentation
+- 只在weaning時才降低
+- 簡單原因:有人調整了設定
+
+
+## 導管置入技術
+
+
+### 經股動脈置入
+
+
+#### 標準置入步驟
+
+
+1. **血管穿刺**      - Micropuncture技術 - 獲得動脈access - 放入micropuncture sheath
+2. **導絲交換**      - 經micropuncture sheath放入0.035 inch導絲 - 若需要,使用0.035 inch stiff wire(如Amplatz) - 放入8 French sheath
+3. **準備IABP導管**      - IABP套件附帶特殊8 Fr sheath - 這個sheath較軟,容易kink - 建議先放入標準8 Fr sheath - 再換成IABP專用sheath
+4. **導管準備**      - 使用負壓吸引氦氣lumen - 用針筒抽吸,確保氣球完全塌陷 - **不要**將氣球浸入水中 - **不要**擦拭氣球表面 - 保持乾燥可防止氣球展開
+5. **導管置入**      - 經動脈lumen放入0.025 inch導絲 - 導絲深入降主動脈 - 導管over the wire推進 - 用乾燥的手,每次推進1 inch - 將手指放在氣球後1 inch處推進
+6. **位置確認**      - 透視下確認位置 - 尖端在carina上方約2 cm - 低於左鎖骨下動脈 - 理想應高於腎動脈(L2)
+7. **連接與啟動**      - 連接氦氣extension tubing - 連接光纖line - 連接動脈lumen(至少接壓力袋) - 啟動console
+
+
+### Sheathless技術
+
+
+若選擇sheathless置入:
+
+
+1. Micropuncture access
+2. 經micropuncture sheath放入0.025 inch導絲
+3. 經0.025 inch導絲放入特殊tapered dilator
+4. 推進dilator
+5. 經dilator推進IABP導管
+6. Sheathless進入
+
+
+**Sheathless的優點**
+
+
+- 減少血管損傷
+- 較小的穿刺孔
+- 減少出血併發症
+- 特別適合小血管病人
+
+
+### 位置確認
+
+
+#### 理想位置
+
+
+- **上方邊界**:低於左鎖骨下動脈
+- **定位標記**:carina上方約2 cm
+- **下方邊界**:理想應高於腎動脈(L2)
+
+
+#### X光判讀
+
+
+| p{10cm}}   **標記** | **判讀** |  |
+| --- | --- | --- |
+| Carina | - 氣管分叉 - 導管尖端應在此上方約2 cm |  |
+| 主動脈弓 | 導管尖端應在此下方 |  |
+| 最下方肋骨 | - 下方是L1 - 再下方是L2(腎動脈高度) - 氣球遠端理想應高於L2 |  |
+| 導管標記 | - 近端標記 - 遠端標記 - 確認都在體內 |  |
+
+
+importantbox
+****位置考量****
+
+**高度與體型**:
+
+- 40 mL氣球(7 Fr):162-183 cm
+- 50 mL氣球(8 Fr):>183 cm
+- 矮小病人(<162 cm):50 mL氣球可能低於腎動脈
+- 這是可接受的,但要注意
+
+
+**位置移動**:
+
+- 導管越往下移動,augmentation越差
+- 絕不能移至髂動脈
+- 定期X光追蹤位置
+
+
+importantbox
+
+
+## Weaning與移除
+
+
+### 何時考慮Weaning
+
+
+IABP或其他機械循環支持有兩個主要用途:
+
+
+1. **Bridge to definitive therapy**      - PCI - CABG - 更進階的MCS(如Impella, ECMO) - Implantable LVAD - 心臟移植
+2. **Bridge to recovery**      - 急性心肌梗塞後 - 複雜PCI後 - CABG後 - 預期數天內恢復
+
+
+### Weaning標準
+
+
+**四個必要條件**都必須達成:
+
+
+| p{13cm}}   **IABP Weaning標準檢查表** |  |  |
+| --- | --- | --- |
+| **條件一:低劑量inotrope或不需要** |  |  |
+| $\square$ | Dopamine ≤ 5 mcg/kg/min 或 Dobutamine ≤ 5 mcg/kg/min |  |
+| $\square$ | 或完全不需要inotrope |  |
+| **條件二:氧合改善** |  |  |
+| $\square$ | FiO2 < 40 |  |
+| $\square$ | PEEP ≤ 10 cmH2O |  |
+| $\square$ | 或已拔管 |  |
+| **條件三:組織灌注正常化** |  |  |
+| $\square$ | 乳酸 < 2 mmol/L |  |
+| $\square$ | 尿量充足 |  |
+| $\square$ | 腎功能改善或穩定 |  |
+| **條件四:血流動力學正常化** |  |  |
+| $\square$ | MAP > 65 mmHg |  |
+| $\square$ | 或SBP > 90 mmHg |  |
+| $\square$ | Aortic pulsatility > 30 mmHg(包括assisted壓力) |  |
+| $\square$ | Swan-Ganz參數(若有):  - CI > 2.2 L/min/m² - SvO2 > 55 - Cardiac power output > 0.6 W |  |
+| $\square$ | Wedge pressure輕度異常或正常 |  |
+| $\square$ | Echo參數(選擇性):  - LV與RV size縮小 - LVOT VTI改善(代表心輸出量) |  |
+
+
+**拔管時機**
+
+關於拔管與移除IABP的順序有兩派意見:
+
+**先拔管再移除IABP**:
+
+- 拔管時前後負荷會顯著上升
+- 有IABP支持較安全
+
+
+**先移除IABP再拔管**:
+
+- Weaning IABP時仍有插管支持
+- 減少呼吸功耗
+- 更好的氧氣供應
+
+
+兩種方式都可行,應個別化決定。
+
+
+### Weaning步驟
+
+
+#### 標準weaning方法
+
+
+在全支持(1:1, maximum augmentation)下達成四個條件後:
+
+
+1. **1:2模式 × 2小時**      - 切換至1:2模式 - 觀察2小時 - 確認四個條件持續達成
+2. **1:3模式 × 2小時**      - 若1:2模式穩定 - 切換至1:3模式 - 再觀察2小時 - 確認四個條件持續達成
+3. **準備移除**      - 1:3模式穩定2小時後 - 四個條件持續達成 - 可移除IABP
+
+
+#### 替代weaning方法
+
+
+使用augmentation volume weaning:
+
+
+- 維持1:1模式
+- 降低augmentation volume
+- 每2小時降低20
+- 直到< 50
+- 在< 50
+
+
+importantbox
+****重要提醒****
+
+
+- 多數時候使用頻率weaning(1:1→1:2→1:3)
+- Augmentation volume不常用於weaning
+- **絕不**在長時間低頻率(1:2或1:3)下維持低augmentation
+- 這會增加血栓形成風險
+
+
+importantbox
+
+
+### 移除技術
+
+
+#### 標準移除步驟
+
+
+1. **準備**      - Weaning成功,1:3模式穩定 - 停止heparin - 等待ACT < 160或PT/PTT接近正常
+2. **切換回1:1**      - 在停止heparin、等待ACT下降期間 - 切換回1:1模式 - 減少導管血栓風險 - **不要**在等待時維持1:3
+3. **Standby模式**      - ACT < 160時 - 按下standby按鈕(黃色) - Console會自動抽吸氦氣 - 不需要手動用針筒抽吸(但可以)
+4. **關機**      - Standby完成後 - 關閉console
+5. **移除導管**      - 氣球已充氣展開數天 - **無法**單獨拉出導管經過sheath - 必須一起拉出導管與sheath - 拉至sheath位置 - 一起移除 - 立即手動加壓
+6. **加壓止血**      - 至少加壓30分鐘 - 可能需要更久 - 依據ACT與出血情況調整
+
+
+## 進階技術
+
+
+### 導管更換
+
+
+#### 何時需要更換
+
+
+- 導管leak(非氣球破裂)
+- 導管kink無法修正
+- 動脈lumen凝血(在有光纖前的時代)
+- 需要升級為Impella
+- 長期使用需要換成axillary IABP
+
+
+#### 更換IABP for IABP或Impella
+
+
+1. **放入導絲**      - 經動脈lumen放入長導絲 - 使用0.025 inch Amplatz wire(300 cm) - 或0.018 inch V-18 wire(300 cm) - 深入主動脈
+2. **嘗試經sheath取出**      - 若導管剛置入數小時內 - 按standby抽吸氦氣 - 嘗試經sheath拉出導管 - 導絲支撐下拉出
+3. **成功經sheath取出**      - 保留sheath - 保留導絲在主動脈 - 可直接放入新IABP - 或放入0.035 inch支撐導絲後再放新器材
+4. **無法經sheath取出**      - 一起移除導管與sheath - 保留導絲(0.025或0.018 inch) - 一人拉出,一人加壓 - 導絲仍在主動脈
+5. **經小導絲放入大sheath**      - 經0.025 inch導絲放入4 Fr dilator - 取出0.025 inch導絲 - 經4 Fr dilator放入0.035 inch Amplatz wire - 經0.035 inch導絲放入8 Fr sheath - 或放入Impella的dilator與sheath
+6. **放入新器材**      - 放入新IABP - 或放入Impella
+
+
+importantbox
+****導絲尺寸重要性****
+
+IABP只能使用:
+
+- 0.025 inch導絲
+- 0.018 inch導絲
+- **不能**使用標準的0.035 inch導絲
+
+
+這就是為什麼更換程序需要:
+
+- 先用小導絲取出IABP
+- 放入4 Fr dilator
+- 換成0.035 inch導絲
+- 再放入大sheath
+
+
+importantbox
+
+
+### Closure Device應用
+
+
+#### 何時可使用Closure Device
+
+
+- 主要用於短時間IABP
+- 特別是用於複雜PCI支持的IABP
+- 術後不需要等ACT下降就可移除
+- ICU不需要專人移除導管
+
+
+#### Closure Device步驟
+
+
+**情況一:導管可經sheath取出**
+
+
+1. Standby模式抽吸氦氣
+2. 經動脈lumen放入0.025 inch Amplatz wire
+3. 嘗試拉出導管經過8 Fr sheath
+4. 若成功:      - 保留8 Fr sheath - 使用8 Fr Angio-Seal - 或使用8 Fr Perclose ProGlide - 建議使用Perclose(有導絲救援選項)
+
+
+**情況二:導管無法經sheath取出**
+
+
+1. 放入長0.025或0.018 inch stiff wire
+2. 一起移除導管與sheath
+3. 保留導絲
+4. 一人移除,一人加壓
+5. 經導絲放入4 Fr dilator
+6. 換成0.035 inch導絲
+7. 放入新8 Fr sheath
+8. 觀察是否達到止血      - 動脈可能因氣球造成較大損傷 - 但通常會收縮在8 Fr sheath周圍 - 可能需要輕微加壓
+9. 若達到止血:      - 使用Perclose ProGlide較佳(可留導絲) - 或使用Angio-Seal
+
+
+#### 使用Angio-Seal的注意事項
+
+
+若使用Angio-Seal:
+
+- 無導絲救援選項
+- 建議放入兩條導絲:     itemize
+- 一條用於部署Angio-Seal
+- 一條留作備用
+- 若Angio-Seal失敗,仍有導絲可用
+- 可部署第二個device或放回sheath
+
+
+itemize
+
+
+## 學習評估
+
+
+### 自我檢測題
+
+
+1. IABP增加心輸出量約多少百分比?絕對增加量是多少?
+2. 說明為何心衰竭休克對IABP的反應優於心肌梗塞休克。
+3. IABP在何種情況下**可以**增加冠狀動脈血流?何種情況**不能**?
+4. 現代IABP導管有哪三個lumens?各有何功能?
+5. 在1:2模式下,如何定義assisted與unassisted systolic pressure?
+6. IABP應使用何種壓力參數監測?目標值為何?
+7. 說明導管leak與kink的差異,以及各自的氦氣波形表現。
+8. 氣球破裂時有何表現?必須在多久內移除?
+9. 股動脈IABP病人為何必須平躺?
+10. 說明四種timing錯誤,哪一種最危險?為什麼?
+11. Weaning IABP的四個必要條件是什麼?
+12. 為何augmentation volume不應降至50
+13. 移除IABP前為何要切換回1:1模式?
+14. IABP導管可使用哪些尺寸的導絲?為何不能使用標準導絲?
+15. 更換IABP為Impella時,如何處理導絲尺寸問題?
+
+
+### 參考答案
+
+
+1. - 平均增加20 - 絕對增加0.5-1.0 L/min - LVEDP與wedge pressure降低20
+2. 心衰竭休克反應較佳的原因:      - 後負荷敏感性更高(心室更擴張,wall stress更大) - 血管收縮更明顯(小腔室,augmentation更好) - 常合併功能性MR(對IABP反應佳) - 組織已適應低氧供應 - 較少竇性心搏過速
+3. **可以**增加冠狀動脈血流:      - 休克與低血流狀態 - 無阻塞性冠狀動脈 - PCI後已打通的血管       **不能**增加血流:      - 經過顯著狹窄的冠狀動脈 - 需要先做PCI打通
+4. 三個lumens:      - 氦氣lumen:充氣與放氣 - 動脈lumen:監測壓力(易凝血) - 光纖lumen:監測壓力(更可靠)
+5. - Unassisted:augmentation**之前**的壓力 - Assisted:augmentation**之後**下一個心跳的壓力 - 常見錯誤:以為augmentation上方的是assisted(實際是unassisted)
+6. - 平均動脈壓(MAP)> 65 mmHg - Augmented pressure > 90-100 mmHg - 不使用純動脈line或血壓計的平均壓
+7. **Leak**:      - 充氣逐漸變差 - 氦氣波形逐漸下降 - 原因:氣球破裂或連接鬆脫       **Kink**:      - 可造成充氣或放氣異常 - 氦氣波形變圓鈍,失去plateau - 原因:體內或體外打折
+8. - 氦氣管路出現血液 - 必須在30分鐘內移除 - 否則氣球內血液凝固,難以取出 - 可能需要外科切開
+9. - 坐起會造成鼠蹊部kink - Kink是最常見的導管問題原因 - 必須維持平躺 - 若需長期使用,考慮axillary途徑
+10. - Early inflation:增加後負荷,妨礙射血 - Late inflation:augmentation次佳 - Early deflation:支持不足,可能逆行血流 - Late deflation:**最危險**,在收縮期仍充氣,嚴重增加後負荷
+11. 四個條件:     enumerate
+12. 低劑量或不需要inotrope
+13. 氧合改善(FiO2<40
+14. 組織灌注正常化(乳酸<2,尿量足,腎功能改善)
+15. 血流動力學正常化(MAP>65, pulsatility>30, CI>2.2等)
+
+
+    
+    \item 
+    
+- 低於50
+- 增加血栓形成風險
+- 應維持至少50
+- 改用降低頻率來weaning
+
+
+    
+    \item 
+    
+- 停止heparin後,等待ACT下降
+- 在等待期間,維持1:3會增加血栓風險
+- 切換回1:1減少導管血栓
+- ACT<160時才移除
+
+
+    
+    \item 
+    
+- 可使用0.025 inch導絲
+- 可使用0.018 inch導絲
+- 不能使用標準0.035 inch導絲
+- 因為動脈lumen直徑限制
+
+
+    
+    \item 
+    
+- 用0.025或0.018 inch導絲取出IABP
+- 經小導絲放入4 Fr dilator
+- 取出小導絲
+- 經4 Fr dilator放入0.035 inch導絲
+- 經0.035 inch導絲放入Impella sheath
+
+
+enumerate
+
+
+## 總結與要點
+
+
+### 核心概念
+
+
+importantbox
+****記住這十個核心概念****
+
+
+1. IABP最重要的作用是**降低後負荷**(透過放氣造成真空)
+2. 心輸出量平均增加20
+3. 心衰竭休克反應優於心肌梗塞休克
+4. IABP無法增加經過狹窄的冠狀動脈血流
+5. 光纖line優於動脈lumen用於監測
+6. 使用MAP與augmented pressure監測,不用systolic pressure
+7. Assisted pressure是augmentation**之後**的壓力
+8. 導管問題(leak/kink)會同時影響氦氣與壓力波形
+9. 氣球破裂必須30分鐘內移除
+10. Weaning需達成四個條件,augmentation不可低於50
+
+
+importantbox
+
+
+### Troubleshooting流程
+
+
+當augmentation不佳時的系統性檢查:
+
+
+1. **檢查氦氣波形**      - 若異常→導管問題(leak或kink) - 檢查連接、血液、位置
+2. **檢查病人因素**      - 心率過快? - 血壓極低? - 血管擴張?(可能是恢復的好現象)
+3. **檢查Timing**      - 使用1:2模式評估 - 看到dicrotic notch?→late inflation - Assisted壓力未降低?→late deflation或early inflation
+4. **檢查設定**      - Augmentation是否在maximum?
+
+
+### 給新進同仁的建議
+
+
+**學習重點**
+
+
+1. **理解生理機制**:知道為何要這樣做,不只是照做
+2. **熟悉波形**:能快速辨識正常與異常波形
+3. **系統性思考**:遇到問題時有條理地分析
+4. **及時處理**:特別是氣球破裂等緊急狀況
+5. **團隊合作**:與護理師密切配合檢查導管與連接
+6. **持續學習**:IABP是基本技能,但要精通需要經驗累積
+
+
+\vfill
+\hrule
+
+*本講義改編自 Elias Hanna 醫師教學影片*
+*Balloon pump: hemodynamics, troubleshooting, technical tips*
+*University of Texas Health Science Center*
+[0.3cm]
+編輯:謝慕揚, MD, PhD, FESC
+*僅供教學使用,請勿用於商業用途*

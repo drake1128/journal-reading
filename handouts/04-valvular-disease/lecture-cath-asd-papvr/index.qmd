@@ -1,0 +1,1163 @@
+---
+title: "lecture cath ASD PAPVR"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+abstract
+心房中隔缺損（ASD）合併部分肺靜脈異常回流（PAPVR）是一個重要但容易被誤診的先天性心臟病組合。本講義探討為何 ASD 合併 PAPVR 時不能單純關閉 ASD，以及正確的診斷與治療策略。透過臨床案例分析，強調術前完整影像評估的重要性。
+abstract
+
+\tableofcontents
+
+---
+
+
+## 臨床案例引言
+
+
+clinicalbox[真實臨床案例]
+**病例摘要：**
+
+一位 Sinus Venosus ASD 合併 PAPVR 的病人
+
+**術前評估：**
+
+- 心房間隔（IAS）很薄
+- 血流（flow）很明顯
+- 初步判斷：Secundum type ASD（fossa ovalis 位置有缺損）
+
+
+**術中發現：**
+
+- 經食道超音波（TEE）檢查
+- 發現 fossa ovalis 處實際上沒有缺損
+- 最終診斷：Sinus Venosus ASD + PAPVR
+
+
+**臨床啟示：**
+
+這個案例凸顯了 Sinus Venosus ASD 容易被誤診為 Secundum ASD，以及術中 TEE 確認診斷的重要性。更重要的是，這兩種類型的 ASD 治療策略完全不同。
+clinicalbox
+
+
+## 核心問題：為何不能單純關閉 ASD？
+
+
+### 問題本質
+
+
+importantbox[關鍵概念]
+當 ASD 合併 PAPVR 時，****絕對不能****單純關閉 ASD！
+
+**原因：**會導致異常回流的肺靜脈血流完全無法回到左心房，造成：
+
+- 右心急性容積負荷過重
+- 肺高壓惡化
+- 體循環血流量減少
+- 可能發生急性右心衰竭
+
+
+importantbox
+
+
+### 解剖學基礎
+
+
+#### 正常肺靜脈解剖
+
+
+clinicalbox[正常解剖]
+**正常情況：**
+
+- 左上肺靜脈 → 左心房
+- 左下肺靜脈 → 左心房
+- 右上肺靜脈 → 左心房
+- 右下肺靜脈 → 左心房
+
+
+**血流路徑：**
+肺臟（氧合）→ 肺靜脈 → 左心房 → 左心室 → 主動脈 → 體循環
+
+clinicalbox
+
+
+#### PAPVR 的異常解剖
+
+
+warningbox[PAPVR 異常解剖]
+**部分肺靜脈異常回流（PAPVR）：**
+
+一條或多條肺靜脈****未****連接到左心房，而是連接到：
+
+- 上腔靜脈（SVC）- 最常見
+- 右心房（RA）
+- 下腔靜脈（IVC）
+- 冠狀竇（Coronary sinus）
+
+
+**最常見組合：**
+
+- Sinus Venosus ASD + 右上肺靜脈（RUPV）異常回流至 SVC/RA
+- 發生率：Sinus Venosus ASD 中 80-90
+
+
+warningbox
+
+
+### 血流動力學分析
+
+
+#### ASD + PAPVR 存在時的血流
+
+
+clinicalbox[有 ASD 時的「補救」血流路徑]
+**Step 1: 異常肺靜脈回流**
+右上肺靜脈（含氧血）→ 上腔靜脈/右心房
+
+
+**Step 2: ASD 的「補救」作用**
+右心房（部分含氧血）→ ****經由 ASD**** → 左心房
+
+
+**Step 3: 維持部分正常循環**
+左心房 → 左心室 → 主動脈 → 體循環
+
+
+**血流動力學特點：**
+
+- 異常回流的含氧血：部分經 ASD 回到左心房
+- 右心房壓力：稍微升高但可耐受
+- 左右心房間：有 shunt 但維持循環
+- 體循環：雖然效率降低，但仍有足夠血流
+
+
+****關鍵：**** ASD 在此扮演「補救通道」的角色！
+clinicalbox
+
+
+#### 關閉 ASD 後的災難性後果
+
+
+warningbox[關閉 ASD 的嚴重後果]
+**Step 1: 異常血流完全進入右心**
+右上肺靜脈（含氧血）→ 上腔靜脈/右心房 → ****無法經 ASD 到左心房****
+
+
+**Step 2: 右心急性負荷過重**
+
+- 所有異常回流的血液完全進入右心系統
+- 右心房容積急遽增加
+- 右心室前負荷突然上升
+
+
+**Step 3: 肺循環惡化**
+
+- 肺動脈血流量突然增加
+- 肺動脈壓力上升
+- 可能發生肺高壓危象
+
+
+**Step 4: 體循環不足**
+
+- 含氧血無法有效回到左心房
+- 左心室充填不足
+- 心輸出量下降
+- 組織灌流不足
+
+
+****臨床表現：****
+
+- 急性右心衰竭
+- 低血壓
+- 組織缺氧
+- 可能需要緊急手術
+- 預後極差
+
+
+warningbox
+
+
+---
+
+
+## ASD 的分類與特點
+
+
+### ASD 的解剖分類
+
+
+心房中隔缺損的四種主要類型
+
+| p{3cm}p{3cm}p{3.5cm}p{4.5cm}}  **類型** | **位置** | **發生率** | **特點** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Secundum ASD** | Fossa ovalis | 70 | 最常見，可用 device 關閉 |  |  |
+| **Sinus Venosus ASD** | SVC 或 IVC 開口附近 | 10-15 | **80-90 |  |  |
+|  |  |  | **不能用 device** |  |  |
+| **Primum ASD** | 房室間隔下方 | 15-20 | 屬於房室中隔缺損 |  |  |
+|  |  |  | 常合併二尖瓣異常 |  |  |
+| **Coronary Sinus ASD** | 冠狀竇 | <1 | 非常罕見 |  |  |
+|  |  |  | 常合併左上腔靜脈 |  |  |
+
+
+### Secundum ASD vs. Sinus Venosus ASD
+
+
+兩種最常見 ASD 的比較
+| p{3cm}p{5cm}p{5cm}}  **項目** | **Secundum ASD** | **Sinus Venosus ASD** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **位置** | Fossa ovalis（卵圓窩） | 上腔靜脈或下腔靜脈開口附近 |  |  |  |
+| **發生率** | 70 | 10-15 |  |  |  |
+| **PAPVR 合併率** | 罕見（<10 | **常見（80-90 |  |  |  |
+| **最常合併的 PAPVR** | 無特定 | 右上肺靜脈 → SVC/RA |  |  |  |
+| **心房間隔特徵** | 間隔薄 | 間隔可能看起來薄 |  |  |  |
+|  | 有明確的缺損 | 缺損在上方或下方 |  |  |  |
+| **Fossa ovalis** | 有缺損 | **完整（無缺損）** |  |  |  |
+| **TTE 診斷** | 容易診斷 | 可能被誤診 |  |  |  |
+| **TEE 的角色** | 確認大小和邊緣 | **必須，常改變診斷** |  |  |  |
+| **治療方式** | Device 關閉（首選） | **開心手術（唯一選擇）** |  |  |  |
+|  | 或手術 |  |  |  |  |
+| **手術複雜度** | 簡單 patch 修補 | 複雜（需 baffling） |  |  |  |
+| **是否可用 device** | 可以 | 絕對不可 |  |  |  |
+| **術前影像評估** | TTE ± TEE | TEE + CT/MRI |  |  |  |
+
+
+### 為何容易誤診？
+
+
+warningbox[Sinus Venosus ASD 的診斷陷阱]
+**容易被誤診為 Secundum ASD 的原因：**
+
+
+1. **心房間隔看起來很薄**    - Sinus venosus ASD 位於上方或下方 - TTE 從標準切面看，中央的 fossa ovalis 區域可能看起來很薄 - 容易誤以為薄的地方有缺損
+2. **Color Doppler 顯示明顯血流**    - 右向左或左向右的 shunt 很明顯 - 血流訊號強 - 但血流來源可能不是 fossa ovalis
+3. **PAPVR 不容易被發現**    - TTE 不容易追蹤所有肺靜脈 - 右上肺靜脈進入 SVC 的角度特殊 - 需要特別的切面和高度懷疑
+4. **Secundum ASD 太常見**    - 醫師習慣性思考 - 沒有想到其他類型的可能性 - 低估了 TEE 的必要性
+
+
+****案例教訓：****
+
+如同開頭的案例，術前判斷為 Secundum type，主要基於：
+
+- IAS 很薄
+- Flow 很明顯
+- 覺得 fossa ovalis 的位置有洞
+
+
+但術中 TEE 才發現：
+
+- Fossa ovalis 實際上完整
+- 缺損在上方（sinus venosus）
+- 合併 PAPVR
+
+
+這完全改變了手術策略！
+warningbox
+
+
+---
+
+
+## 正確的治療策略
+
+
+### 治療原則
+
+
+keypointbox[ASD + PAPVR 的治療原則]
+**三個治療目標必須同時達成：**
+
+
+1. ****重新導引異常肺靜脈**** → 讓所有肺靜脈血流回左心房
+2. ****關閉 ASD**** → 消除心房間的異常分流
+3. ****維持腔靜脈通暢**** → 確保正常靜脈回流
+
+
+**手術方法：Baffling Procedure**
+
+使用 patch（心包膜或人工材料）在右心房內建立通道，將異常回流的肺靜脈導引到左心房側。
+keypointbox
+
+
+### 手術技術
+
+
+#### 上腔靜脈型 Sinus Venosus ASD
+
+
+clinicalbox[手術方式選擇]
+**方式一：單一 Patch 修補（最常用）**
+
+**步驟：**
+
+1. 體外循環下，經右心房切開
+2. 確認 ASD 位置和 PAPVR（通常是 RUPV → SVC）
+3. 使用大塊 patch（心包膜或 Gore-Tex）
+4. Patch 縫合位置：    - 上緣：在 SVC 和肺靜脈開口**後方** - 下緣：沿著 ASD 邊緣 - 將肺靜脈開口和 ASD 一起「圍」到左心房側
+5. 確保：    - SVC 血流通暢進入右心房 - 異常肺靜脈血流進入左心房 - ASD 完全關閉
+
+
+**優點：**
+
+- 技術相對簡單
+- 只需一個 patch
+- SVC 不需重建
+
+
+**缺點：**
+
+- 可能造成 SVC 輕度狹窄
+- 需仔細縫合避免肺靜脈阻塞
+
+
+clinicalbox
+
+clinicalbox[Warden Procedure]
+**方式二：Warden Procedure**
+
+**適應症：**
+
+- 上腔靜脈型 sinus venosus ASD
+- RUPV 回流到 SVC
+- 擔心單純 patch 可能造成 SVC 狹窄
+
+
+**步驟：**
+
+1. 在右心房上方將 SVC 橫切
+2. 將 SVC 近端（含 RUPV 開口）與右心房耳縫合
+3. 這樣 RUPV 的血流就進入右心房
+4. 使用 patch 將這部分右心房與左心房隔開
+5. 遠端 SVC 用 tube graft 或心包膜重建
+6. 新的 SVC 繞過修補區域，連接回右心房
+
+
+**優點：**
+
+- 完全避免 SVC 狹窄
+- 肺靜脈血流自然進入左心房
+- 長期通暢率好
+
+
+**缺點：**
+
+- 技術較複雜
+- 需要 SVC 重建
+- 手術時間較長
+
+
+clinicalbox
+
+
+#### 下腔靜脈型 Sinus Venosus ASD
+
+
+clinicalbox[IVC 型的特殊考量]
+**解剖特點：**
+
+- ASD 位於 IVC 開口附近
+- 常合併右下肺靜脈（RLPV）異常回流到 IVC 或 RA
+- 較少見（約佔 sinus venosus ASD 的 10-20
+
+
+**手術策略：**
+
+1. 經右心房切開，充分暴露 IVC 區域
+2. 使用 patch 將：    - ASD 關閉 - 異常肺靜脈開口導引到左心房
+3. 特別注意：避免 IVC 阻塞
+4. 必要時可能需要擴大 IVC 開口
+
+
+**技術難點：**
+
+- IVC 區域空間較小
+- 需避免傷到 eustachian valve
+- 注意 coronary sinus 位置
+
+
+clinicalbox
+
+
+### 手術風險與併發症
+
+
+warningbox[潛在手術併發症]
+**早期併發症：**
+
+1. **上腔靜脈阻塞或狹窄**    - 發生率：2-5 - 表現：上肢水腫、頭頸部靜脈曲張 - 預防：仔細的 patch 縫合技術 - 處理：再次手術或經皮擴張
+2. **肺靜脈阻塞**    - 嚴重併發症（發生率 <2 - 表現：肺水腫、肺高壓 - 預防：術中 TEE 確認通暢 - 處理：緊急再次手術
+3. **Patch 裂開或殘餘分流**    - 發生率：<5 - 通常為小量分流，可接受 - 大量分流需再次手術
+4. **竇房結功能異常**    - 發生率：5-10 - 原因：手術區域接近竇房結 - 多數可自行恢復 - 少數需永久性心律調節器（<2
+
+
+**晚期併發症：**
+
+1. **心律不整**    - 心房顫動或撲動 - 發生率：10-20 - 處理：抗心律不整藥物或電燒
+2. **右心功能異常**    - 術前已有肺高壓者風險較高 - 通常會逐漸改善
+
+
+warningbox
+
+
+### 手術預後
+
+
+keypointbox[手術結果與預後]
+**手術成功率：**
+
+- 手術死亡率：<1-2
+- 修補成功率：>95
+- 併發症發生率：<10
+
+
+**長期預後：**
+
+- 10 年存活率：>95
+- 生活品質：正常
+- 運動耐受力：正常或接近正常
+- 需定期追蹤（每 1-2 年）
+
+
+**預後影響因子：**
+
+- **手術年齡**：越早越好（<40 歲預後較佳）
+- **術前肺動脈壓**：肺高壓嚴重者預後較差
+- **併發症**：SVC 阻塞或肺靜脈阻塞影響預後
+- **殘餘分流**：大量殘餘分流需再次手術
+
+
+keypointbox
+
+
+---
+
+
+## 診斷策略
+
+
+### 術前影像評估
+
+
+keypointbox[完整的術前評估流程]
+**第一線：經胸超音波（TTE）**
+
+**評估項目：**
+
+1. **ASD 篩檢**    - Subcostal view：最佳評估 ASD 的切面 - Apical 4-chamber view - Color Doppler：評估 shunt 方向和量
+2. **肺靜脈評估**（**關鍵但困難**）    - 追蹤所有四條肺靜脈 - 確認連接到左心房 - Suprasternal view：追蹤 RUPV
+3. **心臟功能評估**    - 右心室大小和功能 - 肺動脈壓估計 - 左心室功能
+4. **其他評估**    - 是否有其他先天性心臟病 - 瓣膜功能 - 心包膜積水
+
+
+**TTE 的限制：**
+
+- 難以清楚顯示所有肺靜脈
+- Sinus venosus ASD 可能被遺漏
+- 肺靜脈連接位置不易確認
+- **不足以排除 PAPVR**
+
+
+keypointbox
+
+clinicalbox[經食道超音波（TEE）的角色]
+**TEE 的優勢：**
+
+1. **更清楚的解剖細節**    - 心房間隔的完整評估 - 可區分不同類型的 ASD - 確認 fossa ovalis 是否有缺損
+2. **肺靜脈評估**    - 可追蹤所有肺靜脈 - 確認連接位置 - 評估是否有異常回流
+3. **上下腔靜脈評估**    - 評估 SVC 和 IVC - 確認是否有肺靜脈異常連接
+
+
+**TEE 的時機：**
+
+- ****術前****：懷疑 sinus venosus ASD 或 PAPVR
+- ****術中****：所有 ASD 手術的標準流程
+- ****術後****：確認修補結果
+
+
+**重要切面：**
+
+- Mid-esophageal views：評估心房間隔
+- Bicaval view：最重要！可同時看到 SVC、IVC 和心房間隔
+- Upper esophageal view：評估 RUPV 和 SVC 連接
+
+
+clinicalbox
+
+clinicalbox[心臟電腦斷層（Cardiac CT）]
+**CT 的優勢：**
+
+1. **完整的 3D 解剖**    - 清楚顯示所有肺靜脈 - 確認連接位置和走向 - 評估與腔靜脈的關係
+2. **手術規劃**    - 3D 重建協助手術規劃 - 測量 ASD 大小和位置 - 評估周圍結構
+3. **排除其他異常**    - 冠狀動脈異常 - 其他血管異常 - 肺部病變
+
+
+**建議使用時機：**
+
+- TEE 無法清楚評估肺靜脈時
+- 複雜的 PAPVR（多條肺靜脈異常）
+- 手術前的完整評估
+- 年紀較大的成人病人
+
+
+**注意事項：**
+
+- 需使用顯影劑
+- 有輻射暴露（兒童需考慮）
+- 需配合心電圖門控
+
+
+clinicalbox
+
+clinicalbox[心臟磁振造影（Cardiac MRI）]
+**MRI 的優勢：**
+
+1. **無輻射**    - 適合兒童和年輕病人 - 可重複檢查追蹤
+2. **功能評估**    - 精確的心室容積和功能 - Qp/Qs 比值計算 - 血流定量分析
+3. **解剖評估**    - 清楚的肺靜脈顯影 - 多平面成像 - 3D 重建
+
+
+**適應症：**
+
+- 兒童或年輕病人
+- 需要精確的功能評估
+- CT 顯影劑過敏
+- 複雜先天性心臟病
+
+
+**限制：**
+
+- 檢查時間較長
+- 費用較高
+- 需要病人配合（幽閉恐懼症）
+- 部分心律調節器不適用
+
+
+clinicalbox
+
+
+### 診斷流程建議
+
+
+keypointbox[建議的診斷流程]
+**Step 1: TTE 篩檢**
+
+- 所有懷疑 ASD 的病人
+- 評估 ASD 類型、大小、血流動力學
+- **特別注意**：肺靜脈評估
+
+
+$\downarrow$
+
+**Step 2: 懷疑 Sinus Venosus ASD 或 PAPVR**
+
+**警訊：**
+
+- ASD 位置偏上方或下方
+- 無法清楚看到 fossa ovalis 缺損
+- 肺靜脈追蹤不完整
+- 右心擴大程度與 shunt 量不成比例
+
+
+$\downarrow$
+
+**Step 3: 進階影像**
+
+**選擇：**
+
+- **TEE**：首選（特別是準備手術的病人）
+- **Cardiac CT**：無法做 TEE 或需要更詳細解剖資訊
+- **Cardiac MRI**：兒童或需要功能評估
+
+
+$\downarrow$
+
+**Step 4: 術中 TEE（必須）**
+
+- 所有 ASD 手術都應該做
+- 確認術前診斷
+- 評估修補結果
+- 排除併發症
+
+
+keypointbox
+
+
+### 高度懷疑指標
+
+
+warningbox[何時高度懷疑 Sinus Venosus ASD + PAPVR？]
+**臨床線索：**
+
+
+1. **影像學線索**    - TTE 顯示 ASD，但位置「不太對」 - Fossa ovalis 看起來完整 - 無法清楚追蹤右上肺靜脈 - SVC 看起來「腫脹」
+2. **血流動力學不符**    - 右心擴大，但 ASD 看起來不大 - Qp/Qs 比值高，但找不到足夠大的 ASD - 右心室容積負荷與 shunt 量不成比例
+3. **其他線索**    - 年齡較大才發現（PAPVR 症狀較輕） - 有輕度肺高壓 - 右心房異常擴大
+
+
+****記住：****
+
+
+- 當 TTE 診斷為「Secundum ASD」時
+- 如果有任何不尋常的發現
+- 都應該考慮進階影像
+- **寧可多做一次 TEE，也不要錯過 PAPVR！**
+
+
+warningbox
+
+
+---
+
+
+## Device 關閉的考量
+
+
+### 何時可以使用 Device？
+
+
+keypointbox[Device 關閉的適應症]
+**適合 Device 關閉的條件（必須全部符合）：**
+
+
+1. ****診斷明確為 Secundum ASD****    - 缺損位於 fossa ovalis - 有足夠的邊緣（rim）支撐 device - 無其他類型的 ASD 成分
+2. ****確認無 PAPVR****    - TEE 或 CT/MRI 確認所有肺靜脈正常連接 - 無異常靜脈回流
+3. ****解剖條件合適****    - ASD 大小適中（通常 <35-38 mm） - 所有邊緣至少 5 mm（主動脈側可 ≥5 mm） - 無 aneurysmal septum - 總心房間隔長度足夠
+4. ****無其他需手術的心臟問題****    - 無嚴重瓣膜疾病 - 無需同時進行冠狀動脈繞道手術 - 無其他結構性問題
+
+
+**Device 關閉的優點：**
+
+- 微創，不需開心
+- 恢復快
+- 住院天數短（1-2 天）
+- 成功率高（>95
+- 併發症少
+
+
+keypointbox
+
+
+### 絕對禁忌症
+
+
+warningbox[❌ Device 關閉的絕對禁忌症]
+**以下情況絕對不能使用 Device：**
+
+
+1. ****Sinus Venosus ASD****    - 位置不在 fossa ovalis - 缺乏足夠的邊緣支撐 - 常合併 PAPVR
+2. ****合併 PAPVR****    - 即使是 Secundum ASD - 關閉 ASD 會阻斷異常肺靜脈的「補救通道」 - 會導致災難性後果
+3. ****Primum ASD****    - 屬於房室中隔缺損 - 需要完整的手術修補
+4. ****邊緣不足****    - 任一邊緣 < 5 mm（主動脈側除外） - Device 無法穩定固定 - 高風險脫落或侵蝕
+5. ****合併需手術治療的疾病****    - 嚴重瓣膜疾病需手術 - 需同時 CABG - 其他結構性心臟病需開心手術
+
+
+warningbox
+
+
+### 如果誤用 Device 的後果
+
+
+warningbox[在 Sinus Venosus ASD + PAPVR 誤用 Device]
+**案例情境：**
+
+誤將 Sinus Venosus ASD + PAPVR 診斷為 Secundum ASD，使用 device 關閉
+
+
+**可能的災難性結果：**
+
+
+1. **立即或早期併發症**    - Device 可能無法穩定固定（因位置和邊緣問題） - Device 脫落風險高 - 可能誤關到 SVC 或肺靜脈開口
+2. **血流動力學惡化**（如前述）    - 異常肺靜脈血流無法回到左心房 - 急性右心衰竭 - 肺高壓危象 - 血壓下降、心輸出量降低
+3. **緊急處置**    - 可能需要緊急開心手術 - 移除 device - 進行正確的 baffling procedure - 手術風險大幅增加 - 預後明顯較差
+
+
+****預防的關鍵：****
+
+
+- 術前仔細評估
+- 不要只依賴 TTE
+- 懷疑時一定要做 TEE 或 CT/MRI
+- 導管室中如果發現解剖不對，停止 procedure
+
+
+warningbox
+
+
+---
+
+
+## 臨床決策流程
+
+
+keypointbox[ASD 診斷與治療流程圖]
+
+**發現心房中隔缺損**
+
+$\downarrow$
+
+**詳細 TTE 評估**
+
+- ASD 位置、大小
+- 所有肺靜脈追蹤
+- 血流動力學評估
+
+
+$\downarrow$
+
+0.85\textwidth{
+**是否為 Secundum ASD？**
+
+**判斷標準：**
+itemize
+  \item  缺損位於 fossa ovalis 中央
+  \item  可清楚看到缺損邊緣
+  \item  所有肺靜脈回到左心房
+  \item  SVC/IVC 看起來正常
+itemize
+}
+
+
+$\downarrow$   $\downarrow$
+
+**是**   **否或不確定**
+
+$\downarrow$   $\downarrow$
+
+**評估 Device 關閉可行性**   **進階影像評估**
+
+
+- ASD 大小   TEE（首選）
+- 邊緣是否足夠   Cardiac CT
+- 是否有其他心臟問題   Cardiac MRI
+
+
+$\downarrow$   $\downarrow$
+
+**適合 Device？**   **確認診斷**
+
+$\downarrow$   $\downarrow$   $\downarrow$
+
+**是**   **否**
+
+$\downarrow$   $\downarrow$
+
+\parbox{0.35\textwidth{
+**Device 關閉**
+
+- 微創
+- 恢復快
+- 住院 1-2 天
+
+
+}}  
+\parbox{0.45\textwidth{
+**開心手術**
+
+**適應症：**
+
+- Sinus venosus ASD
+- 合併 PAPVR
+- Primum ASD
+- Device 條件不適合
+- 需同時處理其他問題
+
+
+**手術類型：**
+
+- Secundum：簡單 patch
+- Sinus venosus + PAPVR：Baffling
+- Primum：完整修補
+
+
+}}
+
+$\downarrow$
+
+**術後追蹤**
+
+- Device：追蹤 device 位置、殘餘分流
+- 手術：評估修補結果、SVC/肺靜脈通暢
+- 定期 echo 追蹤
+- 評估肺動脈壓、心臟功能
+
+
+keypointbox
+
+
+---
+
+
+## 重點總結
+
+
+importantbox[核心概念]
+**為什麼 ASD + PAPVR 不能關閉 ASD？**
+
+****因為 ASD 是異常肺靜脈血流的「救命通道」！****
+
+
+**關鍵邏輯：**
+
+
+1. PAPVR → 肺靜脈血流進入右心房/上腔靜脈
+2. ASD 存在 → 部分血液可經 ASD 回到左心房
+3. 關閉 ASD → 所有異常血流困在右心系統
+4. 結果 → 右心衰竭 + 肺高壓 + 體循環不足
+
+
+****正確的做法：****
+
+
+- 開心手術
+- 使用 patch 重新導引肺靜脈到左心房
+- 同時關閉 ASD
+- 維持腔靜脈通暢
+
+
+importantbox
+
+keypointbox[臨床要點]
+**診斷：**
+
+1. Sinus venosus ASD 容易被誤診為 Secundum ASD
+2. 80-90
+3. TTE 不足以排除 PAPVR
+4. 術前必須做 TEE 或 CT/MRI
+5. 術中 TEE 是標準流程
+
+
+**治療：**
+
+1. Secundum ASD（無 PAPVR）→ Device 或手術
+2. Sinus venosus ASD + PAPVR → 必須手術
+3. 手術必須同時：    - 重新導引異常肺靜脈 - 關閉 ASD - 維持腔靜脈通暢
+
+
+**預後：**
+
+1. 正確手術治療預後良好
+2. 手術成功率 >95
+3. 長期存活率 >95
+4. 誤診或誤治療後果嚴重
+
+
+keypointbox
+
+warningbox[❌ 絕對要避免的錯誤]
+
+1. **誤診**    - 將 Sinus venosus ASD 誤認為 Secundum ASD - 術前未完整評估肺靜脈 - 只依賴 TTE 就決定治療方式
+2. **誤治療**    - 在 PAPVR 存在時使用 device 關閉 ASD - 手術時只關閉 ASD，未處理 PAPVR - 術中未用 TEE 確認診斷
+3. **術後追蹤不足**    - 未評估 SVC 是否通暢 - 未確認肺靜脈血流 - 未追蹤殘餘分流
+
+
+warningbox
+
+
+---
+
+
+## 案例回顧與學習
+
+
+### 回到開頭的案例
+
+
+clinicalbox[案例分析]
+**病例：**Sinus Venosus ASD + PAPVR
+
+
+**術前判斷（錯誤）：**
+
+- 診斷：Secundum type ASD
+- 理由：   itemize
+- IAS 很薄
+- Flow 很明顯
+- 覺得 fossa ovalis 的位置有洞
+
+
+itemize
+
+
+**術中發現（正確）：**
+
+- TEE 檢查發現 fossa ovalis 沒有洞
+- 缺損在上方（sinus venosus type）
+- 追蹤到 PAPVR（右上肺靜脈異常回流）
+
+
+**為什麼會誤判？**
+
+1. **TTE 的限制**    - 從常用切面看，IAS 中央很薄 - Color Doppler 顯示明顯血流 - 直覺認為薄的地方就是缺損 - 但實際缺損在上方（sinus venosus）
+2. **肺靜脈評估不完整**    - TTE 難以追蹤所有肺靜脈 - 沒有特別去看 RUPV 連接 - 沒有評估 SVC 區域
+3. **認知偏誤**    - Secundum ASD 太常見（70 - 習慣性思考 - 沒有想到其他可能性
+
+
+**幸運的是：**
+
+- 術中有做 TEE
+- 及時發現正確診斷
+- 改變手術策略
+- 進行正確的 baffling procedure
+
+
+****如果沒有術中 TEE 會發生什麼？****
+
+- 可能只做簡單的 ASD patch 修補
+- PAPVR 未被處理
+- 術後右心衰竭
+- 肺高壓惡化
+- 可能需要再次手術
+- 預後差
+
+
+clinicalbox
+
+
+### 學到的教訓
+
+
+keypointbox[從這個案例學到什麼？]
+
+1. **永遠不要過度自信**    - 即使看起來很明確的 ASD - 仍然要考慮其他可能性 - 特別注意「不尋常」的地方
+2. **術前評估要完整**    - 不要只依賴 TTE - 懷疑時一定要做 TEE 或 CT/MRI - 所有肺靜脈都要確認
+3. **術中 TEE 是必須的**    - 不只是「確認」診斷 - 可能會「改變」診斷 - 影響手術策略 - 確保手術結果
+4. **保持警覺心**    - Sinus venosus ASD 並不罕見（10-15 - PAPVR 合併率很高（80-90 - 誤診會造成嚴重後果
+5. **團隊溝通很重要**    - 影像科醫師、心臟內科、心臟外科 - 術前討論病例 - 術中發現立即溝通 - 調整手術計畫
+
+
+keypointbox
+
+
+---
+
+
+## 臨床檢查清單
+
+
+### 術前評估 Checklist
+
+
+keypointbox[ASD 術前評估檢查清單]
+**❑ 經胸超音波（TTE）**
+
+- ❑ ASD 位置明確定位
+- ❑ ASD 大小測量（多個切面）
+- ❑ 評估所有邊緣（至少 5 個：上、下、前、後、主動脈側）
+- ❑ 追蹤所有四條肺靜脈
+- ❑ 確認肺靜脈連接到左心房
+- ❑ 評估 SVC 和 IVC
+- ❑ Qp/Qs 估計
+- ❑ 肺動脈壓估計
+- ❑ 右心大小和功能
+- ❑ 左心功能
+- ❑ 瓣膜功能評估
+- ❑ 排除其他先天性心臟病
+
+
+**❑ 是否需要進階影像？**
+
+****以下任一項為「是」→ 需要 TEE 或 CT/MRI：****
+
+- ❑ ASD 位置偏上方或下方
+- ❑ 無法清楚看到 fossa ovalis 缺損
+- ❑ 無法確認所有肺靜脈
+- ❑ SVC 看起來異常或擴張
+- ❑ 右心擴大程度與 shunt 不成比例
+- ❑ 計畫使用 device 關閉
+- ❑ 任何不確定的地方
+
+
+**❑ 經食道超音波（TEE）**（如果需要）
+
+- ❑ 所有 TTE 項目再確認
+- ❑ Bicaval view 評估 SVC/IVC 與心房間隔
+- ❑ 確認 ASD 類型
+- ❑ 詳細肺靜脈評估
+- ❑ 排除 PAPVR
+- ❑ 評估 device 關閉可行性（如適用）
+
+
+**❑ CT 或 MRI**（如果需要）
+
+- ❑ 完整肺靜脈解剖
+- ❑ 3D 重建
+- ❑ 手術規劃
+- ❑ Qp/Qs 精確計算（MRI）
+
+
+**❑ 其他評估**
+
+- ❑ 心電圖
+- ❑ 胸部 X 光
+- ❑ 心導管（如需要）
+- ❑ 運動測試（如適用）
+
+
+keypointbox
+
+
+### 術中確認 Checklist
+
+
+keypointbox[術中確認清單]
+**❑ 術前（導管室或手術室）**
+
+- ❑ 再次確認術前診斷
+- ❑ 與團隊討論手術計畫
+- ❑ 準備替代方案（如發現與術前診斷不同）
+
+
+**❑ 術中 TEE（開始前）**
+
+- ❑ 確認 ASD 位置和大小
+- ❑ 確認 ASD 類型
+- ❑ 再次評估肺靜脈
+- ❑ 評估心臟功能
+
+
+**❑ 直視確認（開心手術）**
+
+- ❑ 直接看到 ASD
+- ❑ 確認是否為 sinus venosus type
+- ❑ 探查肺靜脈開口
+- ❑ 確認是否有 PAPVR
+- ❑ 評估周圍結構
+
+
+**❑ 修補後 TEE**
+
+- ❑ 無殘餘分流（或僅極少量）
+- ❑ Patch 位置正確
+- ❑ SVC/IVC 通暢（如為 sinus venosus ASD）
+- ❑ 所有肺靜脈血流通暢（如有 PAPVR）
+- ❑ 無瓣膜功能異常
+- ❑ 心臟功能良好
+- ❑ 無心包膜積液
+
+
+**❑ Device 置放後（如適用）**
+
+- ❑ Device 位置正確
+- ❑ Device 穩定（不搖擺）
+- ❑ 無殘餘分流（或僅極少量）
+- ❑ 無干擾到 SVC/IVC
+- ❑ 無干擾到肺靜脈
+- ❑ 無干擾到瓣膜
+- ❑ 無心包膜積液
+
+
+keypointbox
+
+
+### 術後追蹤 Checklist
+
+
+keypointbox[術後追蹤清單]
+**❑ 住院期間**
+
+- ❑ 每日身體檢查
+- ❑ 監測生命徵象
+- ❑ 心電圖（評估心律）
+- ❑ 胸部 X 光
+- ❑ 出院前 TTE
+
+
+**❑ 1 個月追蹤**
+
+- ❑ 症狀評估
+- ❑ 身體檢查
+- ❑ TTE：   itemize
+- Patch/device 位置
+- 殘餘分流
+- 心臟功能
+- 肺動脈壓
+
+
+  \item ❑ 如為 sinus venosus + PAPVR：
+  
+- SVC 是否通暢
+- 肺靜脈血流評估
+
+
+itemize
+
+
+**❑ 6 個月追蹤**
+
+- ❑ 同 1 個月追蹤項目
+- ❑ 運動耐受力評估
+- ❑ 如有問題：考慮 TEE 或 CT
+
+
+**❑ 1 年及之後**
+
+- ❑ 每年追蹤（至少前 3-5 年）
+- ❑ 之後可延長為每 2 年
+- ❑ 終身追蹤心律不整風險
+
+
+**❑ 警訊症狀（需立即評估）**
+
+- ❑ 呼吸困難惡化
+- ❑ 新發心律不整
+- ❑ 胸痛
+- ❑ 暈厥
+- ❑ 上肢水腫（可能 SVC 阻塞）
+- ❑ 運動耐受力明顯下降
+
+
+keypointbox
+
+
+---
+
+
+## 參考文獻與延伸閱讀
+
+
+1. Webb G, Gatzoulis MA. Atrial septal defects in the adult: recent progress and overview. *Circulation*. 2006;114(15):1645-1653.
+2. Karimi M, Mirzaaghayan MR, Yazdanifard P. Sinus venosus atrial septal defect and anomalous pulmonary venous connection: The necessity of intraoperative transesophageal echocardiography. *Echocardiography*. 2008;25(7):776-779.
+3. Shaffer KM, Mullins CE, Grifka RG, et al. Intracardiac shunting in children with partial anomalous pulmonary venous connection: a prospective study. *J Am Coll Cardiol*. 2002;39(8):1356-1362.
+4. Said SM, Burkhart HM, Schaff HV, et al. Single-patch, 2-patch, and caval division techniques for repair of partial anomalous pulmonary venous connections: does it matter? *J Thorac Cardiovasc Surg*. 2012;143(4):896-903.
+5. Alsoufi B, Cai S, Van Arsdell GS, et al. Outcomes after surgical treatment of children with partial anomalous pulmonary venous connection. *Ann Thorac Surg*. 2007;84(6):2020-2026.
+6. Gustafson RA, Warden HE, Murray GF. Partial anomalous pulmonary venous connection to the superior vena cava. *Ann Thorac Surg*. 1995;60(6 Suppl):S614-S617.
+7. Attenhofer Jost CH, Connolly HM, Danielson GK, et al. Sinus venosus atrial septal defect: long-term postoperative outcome for 115 patients. *Circulation*. 2005;112(13):1953-1958.
+8. Hijazi ZM, Wang Z, Cao Q, et al. Transcatheter closure of atrial septal defects and patent foramen ovale under intracardiac echocardiographic guidance: feasibility and comparison with transesophageal echocardiography. *Catheter Cardiovasc Interv*. 2001;52(2):194-199.
+9. Feltes TF, Bacha E, Beekman RH 3rd, et al. Indications for cardiac catheterization and intervention in pediatric cardiac disease: a scientific statement from the American Heart Association. *Circulation*. 2011;123(22):2607-2652.
+10. Baumgartner H, De Backer J, Babu-Narayan SV, et al. 2020 ESC Guidelines for the management of adult congenital heart disease. *Eur Heart J*. 2021;42(6):563-645.
+
+
+---
+
+
+## 致謝與聲明
+
+
+**致謝：**
+
+感謝國立台灣大學醫院新竹分院心臟內科與心臟外科團隊的臨床經驗分享。本講義整理自真實臨床案例與文獻回顧，希望能幫助更多醫療人員認識這個重要但容易被誤診的疾病組合。
+
+
+**聲明：**
+
+本講義僅供醫療專業人員教育參考使用。臨床決策應基於個別病人的完整評估，並遵循最新的臨床指引。如有任何疑問，建議諮詢心臟專科醫師。
+
+
+**版本資訊：**
+
+- 版本：1.0
+- 更新日期：\today
+- 整理者：Drake
+- 機構：國立台灣大學醫院新竹分院 心臟內科
+
+
+*「仔細的術前評估，勝過術後的補救。」*
+
+
+*「永遠不要低估 TEE 在先天性心臟病中的重要性。」*

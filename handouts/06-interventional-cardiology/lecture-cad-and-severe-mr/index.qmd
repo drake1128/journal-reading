@@ -1,0 +1,253 @@
+---
+title: "lecture CAD and severe MR"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+****冠狀動脈疾病合併嚴重二尖瓣逆流之治療策略文獻回顧****  
+ 
+Treatment Strategies for Significant CAD with Severe Mitral Regurgitation:   
+ PCI Alone vs. CABG plus Mitral Valve Surgery
+
+整理：謝慕揚, MD, PhD, FESC   
+ 
+國立台灣大學醫院新竹分院心臟血管中心
+
+\mydate
+
+\maketitle
+
+
+## 臨床問題 (Clinical Question)
+
+
+針對同時具有 **left main (LM) 或 three-vessel disease (3VD) 冠狀動脈疾病**與**嚴重二尖瓣逆流 (severe mitral regurgitation)** 的病人，比較以下兩種治療策略的臨床結果：
+
+
+- **策略 A**: PCI alone
+- **策略 B**: CABG plus mitral valve surgery (repair or replacement)
+
+
+## 關鍵發現 (Key Findings)
+
+
+importantbox
+**重要結論：**
+
+1. **目前缺乏直接比較 PCI alone vs. CABG + MV surgery 的隨機對照試驗**
+2. 最佳證據來自大型觀察性研究，顯示 **CABG alone** 有最佳長期存活率
+3. **CABG + MV surgery 並未顯著優於 CABG alone**
+4. **PCI 的效果不如 CABG**（無論有無 MV surgery）
+
+
+importantbox
+
+
+## 主要研究整理 (Summary of Major Studies)
+
+
+### 大型觀察性研究 (Large Observational Studies)
+
+
+| p{3.5cm}>{\arraybackslash}p{4cm}>{\arraybackslash}p{7.5cm}} PCI vs. CABG (±MV surgery) 於缺血性二尖瓣逆流病人之比較研究 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **研究** | **收案條件與分組** | **主要結果** |  |  |  |
+| **Castleberry et al. 2014**    *Circulation*    (最大規模研究) | **N = 4,989**    CAD + moderate-severe IMR    (1990-2009)        分組：    - Medical (36  - PCI (26  - CABG alone (33  - CABG+MVS (5 | **追蹤中位數：5.37 年**        與 Medical 治療相比之 adjusted HR：    - PCI: 0.83 (17  - ****CABG alone: 0.56 (44  - CABG+MVS: 0.60 (40      **重要發現：**    **CABG alone 有最高 10 年存活率，優於 CABG+MVS** |  |  |  |
+| **Trichon et al. 2003**    *Circulation*    (早期大型研究) | **N = 2,757**    IMR (≥2+ MR) + significant CAD    (1986-2001)        分組：    - Medical (n=1,305)    - PCI (n=537)    - CABG (n=687)    - CABG+MV surgery (n=228) | **追蹤中位數：3.2 年**        與 Medical 治療相比之 adjusted HR：    - PCI: 0.69 (31  - CABG: 0.58 (42  - CABG+MVS: 0.58 (42      **重要發現：**    **CABG+MVS vs. CABG alone: 無存活差異 (p=0.258)** |  |  |  |
+| **其他觀察性研究    Meta-analysis**    Benedetto et al. 2009 | **N = 2,479**    9 個觀察性研究    IMR 病人 | ****MVS 加入 CABG 對長期死亡率無優勢****    RR 1.02 (95      MVS 可降低 residual MR，但未改善 NYHA class |  |  |  |
+
+
+### 隨機對照試驗 (Randomized Controlled Trials)
+
+
+以下 RCTs 主要比較 **CABG alone vs. CABG + MVR**，針對 moderate IMR 病人。目前**缺乏**直接比較 PCI alone vs. CABG+MVS 的 RCT。
+
+
+| p{3.5cm}>{\arraybackslash}p{4cm}>{\arraybackslash}p{7.5cm}} CABG alone vs. CABG + Mitral Valve Repair 之隨機對照試驗 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **研究** | **收案條件** | **主要結果** |  |  |  |
+| **CTSN Trial**    (Cardiothoracic Surgical    Trials Network)        NEJM 2014 (1-year)    NEJM 2016 (2-year) | **N = 301**    Moderate IMR    EF > 30      隨機分配：    - CABG alone (n=151)    - CABG + MVR (n=150) | **Primary endpoint: LVESVI at 1 year**        **1 年結果：**    - LVESVI: 無顯著差異    - 死亡率: 7.3  - Residual MR ≥2+: 31.0  - CABG+MVR 有**更多神經併發症** (p=0.03)        **2 年結果：**    - 死亡率: 10.6  - LVESVI、功能狀態：無差異    - Residual MR 仍較低 (32.3 |  |  |  |
+| **RIME Trial**    (Randomized Ischemic    Mitral Evaluation)        Circulation 2013 | **N = 73**    Moderate IMR    EF > 30      隨機分配：    - CABG alone (n=39)    - CABG + MVR (n=34)        **試驗提早終止** | **Primary endpoint: Peak VO$_2$ at 1 year**        **CABG+MVR 組有顯著改善：**    - Peak VO$_2$: +3.3 vs. +0.8 mL/kg/min (p<0.001)    - LVESVI: 較好的 reverse remodeling    - MR volume: 顯著降低    - BNP: 顯著降低        **死亡率：**30 天及 1 年無顯著差異 |  |  |  |
+| **STICH Trial**    (Subgroup analysis)        JACC 2010 | **N = 1,212**    CAD + LVEF ≤35      Moderate-severe MR:    n = 220 (18      其中 49 人接受    CABG + MVRep | **Moderate-severe MR 病人：**        - CABG alone: 29 deaths (53    HR vs. MED: 1.20 (0.77-1.87)        - ****CABG + MVRep: 21 deaths (43    HR vs. MED: 0.69 (0.42-1.13)      HR vs. CABG alone: 0.58 (0.34-0.99)        **觀察性資料顯示 MVRep 可能有益，但需 RCT 證實** |  |  |  |
+
+
+### 新治療方式：TMVr (TEER) + PCI
+
+
+| p{3.5cm}>{\arraybackslash}p{4cm}>{\arraybackslash}p{7.5cm}} 經導管二尖瓣修復術 (TMVr/TEER) 合併 PCI 之研究 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **研究** | **收案條件** | **主要結果** |  |  |  |
+| **NIS Database Analysis**    Frontiers Cardiovasc Med    2022 | **N = 1,360**    (2016-2018)        Severe IMR 病人：    - SMVr + CABG    - TMVr + PCI (staged) | **In-hospital outcomes:**        TMVr+PCI 組：    - **較高 in-hospital mortality**    - **較高 resource use**    - **較少 perioperative complications**        **結論：**TMVr+PCI 仍在發展中，需更多長期追蹤資料 |  |  |  |
+| **PCI + MIVS**    (Minimally Invasive    Mitral Valve Surgery)        Mount Sinai Study    2009-2014 | **N = 24**    Two-vessel CAD +    moderate-severe IMR        - PCI + MIVS (n=9)    - CABG + MVS (n=15) | **Staged PCI + MIVS 可行：**        - 較短 CPB time (111 vs. 167 min, p=0.01)    - 較短 cross-clamp time (79 vs. 129 min, p=0.003)    - 較少輸血 (2 vs. 3 units, p=0.05)        30-day mortality、1-year survival：無差異        **Hybrid approach 可作為高風險病人的選擇** |  |  |  |
+
+
+## 臨床意涵與建議 (Clinical Implications)
+
+
+### 證據等級與指引建議
+
+
+importantbox
+**Current Guidelines (2024 ESC/AHA):**
+
+
+- **Severe IMR (3-4+) + CAD 需 CABG**     itemize
+- CABG + MV surgery (repair or replacement): ****Class I****
+- 基於專家共識，但證據等級為 **Level C**
+
+
+    
+    \item **Moderate IMR (2+) + CAD**
+    
+- CABG alone vs. CABG + MVR: ****仍有爭議****
+- 考慮個別化決策：viable myocardium、papillary muscle synchrony、LV function
+
+
+    
+    \item **PCI 角色**
+    
+- 適用於不適合手術或高風險病人
+- 可考慮 staged approach: PCI + minimally invasive MV surgery
+- 或 TMVr (TEER) + PCI
+
+
+itemize
+importantbox
+
+
+### 為何 CABG alone 可能優於 CABG + MVS？
+
+
+1. **Reverse remodeling 效應**      - 約 40 - Viable myocardium 及 papillary muscle synchrony 是關鍵
+2. **手術風險增加**      - CABG + MVS: 更長 CPB time、aortic cross-clamp time - 增加神經併發症風險 (stroke, delirium) - 增加 supraventricular arrhythmia
+3. **MVR 的高復發率**      - Moderate-severe recurrent MR at 1 year: 32.6 - 功能性 MR 的 underlying mechanism (LV remodeling) 未完全矯正
+
+
+### 臨床決策建議
+
+
+> **Step 1: 評估 CAD 嚴重度**
+> itemize
+>     \item LM or 3VD → 優先考慮 CABG
+>     \item Syntax score、frailty、surgical risk
+> itemize
+> **Step 2: 評估 MR 嚴重度與機轉**
+> itemize
+>     \item Severe (3-4+) → CABG + MV surgery
+>     \item Moderate (2+) → 需進一步評估：
+>     itemize
+>         \item Tethering distance、EROA、vena contracta
+>         \item Viable myocardium (stress echo, cardiac MRI)
+>         \item Papillary muscle synchrony
+>     itemize
+> itemize
+> **Step 3: 個別化治療選擇**
+> itemize
+>     \item **Low surgical risk + severe MR** → CABG + MVR/MVRep
+>     \item **Moderate MR + viable myocardium** → CABG alone (密切追蹤)
+>     \item **High surgical risk** → 考慮 PCI + TMVr 或 staged approach
+>     \item **Prohibitive risk** → Medical therapy + 可能的 TMVr
+> itemize
+
+
+## 研究限制與未來方向 (Limitations and Future Directions)
+
+
+### 目前證據的限制
+
+
+1. **缺乏直接比較的 RCT**      - 無 PCI alone vs. CABG + MVS 的隨機試驗 - 現有 RCTs 主要針對 moderate IMR - Sample size 普遍較小
+2. **觀察性研究的偏差**      - Selection bias (手術病人通常較年輕、較健康) - Treatment allocation bias - Propensity matching 無法完全消除混淆因子
+3. **追蹤時間與終點**      - 多數研究追蹤 1-5 年，缺乏 10 年以上長期資料 - Primary endpoints 不一致 (mortality vs. LVESVI vs. functional status) - Quality of life、heart failure readmission 等軟終點資料不足
+4. **異質性**      - MR 嚴重度定義不一 - IMR 機轉多樣 (tethering vs. annular dilatation) - 手術技術差異 (ring size, repair technique)
+
+
+### 未來研究需求
+
+
+- **Large-scale RCT**     itemize
+- PCI (with optimal medical therapy) vs. CABG + MVS
+- TMVr + PCI vs. surgical approach
+- Powered for mortality as primary endpoint
+
+
+    
+    \item **Precision medicine approach**
+    
+- Identify predictors of MR improvement after revascularization alone
+- Biomarkers for patient selection
+- Advanced imaging (3D echo, cardiac MRI) for risk stratification
+
+
+    
+    \item **Long-term outcomes**
+    
+- 10-year survival and quality of life
+- Durability of MV repair
+- Freedom from reintervention
+
+
+    
+    \item **Health economics**
+    
+- Cost-effectiveness analysis
+- Resource utilization
+- Hospital length of stay and readmission rates
+
+
+itemize
+
+
+## 結論 (Conclusions)
+
+
+importantbox
+**Take-home Messages:**
+
+
+1. 對於 **LM/3VD + severe MR** 的病人，**目前缺乏 PCI alone vs. CABG + MVS 的直接比較研究**
+2. 最佳觀察性證據顯示 **CABG alone 有最佳長期存活率**，甚至優於 CABG + MVS
+3. **CABG + MVS** 可有效降低 residual MR，但**未轉化為存活優勢**，且增加手術併發症
+4. **Moderate IMR** 的治療策略應**個別化**：考慮 viable myocardium、papillary muscle synchrony、手術風險
+5. **PCI + TMVr** 或 staged approaches 可作為高風險病人的替代選擇，但需更多長期資料
+6. **未來需要大規模 RCT** 來釐清最佳治療策略，並發展 precision medicine approach 用於病人選擇
+
+
+importantbox
+
+
+---
+
+
+## 參考文獻 (References)
+
+
+1. Castleberry AW, Williams JB, Daneshmand MA, et al. [Surgical revascularization is associated with maximal survival in patients with ischemic mitral regurgitation: a 20-year experience.](https://pubmed.ncbi.nlm.nih.gov/24744275/) *Circulation*. 2014;129(24):2547-2556.
+2. Trichon BH, Glower DD, Shaw LK, et al. [Survival after coronary revascularization, with and without mitral valve surgery, in patients with ischemic mitral regurgitation.](https://pubmed.ncbi.nlm.nih.gov/12970217/) *Circulation*. 2003;108 Suppl 1:II103-110.
+3. Acker MA, Parides MK, Perrault LP, et al. [Mitral-valve repair versus replacement for severe ischemic mitral regurgitation.](https://www.nejm.org/doi/full/10.1056/NEJMoa1410490) *N Engl J Med*. 2014;370(1):23-32.
+4. Goldstein D, Moskowitz AJ, Gelijns AC, et al. [Two-year outcomes of surgical treatment of moderate ischemic mitral regurgitation.](https://www.nejm.org/doi/full/10.1056/NEJMoa1602003) *N Engl J Med*. 2016;374(20):1932-1941.
+5. Chan KM, Punjabi PP, Flather M, et al. [Coronary artery bypass surgery with or without mitral valve annuloplasty in moderate functional ischemic mitral regurgitation: final results of the randomized ischemic mitral evaluation (RIME) trial.](https://www.ahajournals.org/doi/10.1161/circulationaha.112.143818) *Circulation*. 2012;126(21):2502-2510.
+6. Michler RE, Smith PK, Parides MK, et al. [Two-year outcomes of surgical treatment of severe ischemic mitral regurgitation.](https://www.nejm.org/doi/full/10.1056/NEJMoa1312808) *N Engl J Med*. 2016;374(4):344-353.
+7. Mihaljevic T, Lam BK, Rajeswaran J, et al. [Influence of mitral regurgitation repair on survival in the surgical treatment for ischemic heart failure trial.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3776601/) *Circulation*. 2010;122(22):2330-2336.
+8. Benedetto U, Melina G, Roscitano A, et al. [Does combined mitral valve surgery improve survival when compared to revascularization alone in patients with ischemic mitral regurgitation? A meta-analysis on 2479 patients.](https://pubmed.ncbi.nlm.nih.gov/19377377/) *J Cardiovasc Med (Hagerstown)*. 2009;10(2):109-114.
+9. Salmasi MY, Acharya M, Humayun N, et al. [Should the mitral valve be repaired for moderate ischemic mitral regurgitation at the time of revascularization surgery?](https://onlinelibrary.wiley.com/doi/10.1111/jocs.13722) *J Card Surg*. 2018;33(7):374-384.
+10. Kainuma S, Taniguchi K, Daimon T, et al. [Outcomes of transcatheter edge-to-edge mitral valve repair with percutaneous coronary intervention vs. surgical mitral valve repair with coronary artery bypass grafting.](https://www.frontiersin.org/articles/10.3389/fcvm.2022.953875/full) *Front Cardiovasc Med*. 2022;9:953875.
+11. Hamadeh A, Aldea GS, Balan P, et al. [Staged percutaneous coronary intervention followed by minimally invasive mitral valve surgery versus combined coronary artery bypass graft and mitral valve surgery for two-vessel coronary artery disease and moderate to severe ischemic mitral regurgitation.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5505937/) *J Thorac Dis*. 2017;9(5):1423-1431.
+12. Wang TKM, Buttar R, Grimm RA, et al. [Trend, predictors, and outcomes of combined mitral valve replacement and coronary artery bypass graft in patients with concomitant mitral valve and coronary artery disease: a National Inpatient Sample database analysis.](https://academic.oup.com/ehjopen/article/2/1/oeac002/6506570) *Eur Heart J Open*. 2022;2(1):oeac002.
+13. Fattouch K, Guccione F, Sampognaro R, et al. [Coronary revascularization alone or with mitral valve repair: outcomes in patients with moderate ischemic mitral regurgitation.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763474/) *Tex Heart Inst J*. 2009;36(5):416-425.
+14. Penicka M, Linkova H, Lang O, et al. Predictors of improvement of unrepaired moderate ischemic mitral regurgitation in patients undergoing elective isolated coronary artery bypass graft surgery. *Circulation*. 2009;120(15):1474-1481.
+15. Aklog L, Filsoufi F, Flores KQ, et al. Does coronary artery bypass grafting alone correct moderate ischemic mitral regurgitation? *Circulation*. 2001;104(12 Suppl 1):I68-75.
+
+
+**0.8\textwidth**{0.5pt}
+
+
+**整理者：**謝慕揚, MD, PhD, FESC   
+
+**單位：**國立台灣大學醫院新竹分院心臟血管中心   
+
+**日期：**\mydate

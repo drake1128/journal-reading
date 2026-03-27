@@ -1,0 +1,913 @@
+---
+title: "echo_book_8_coronary"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+titlepage
+    
+    {****心血管中心教學文件****
+}
+    
+    {\bfseries 冠狀動脈疾病教學講義
+}
+    
+    {***Coronary Artery Disease Assessment***
+}
+    
+    
+    
+> {**目標對象**
+> }
+>     心血管中心檢查技術員
+>     {**文件版本**
+> }
+>     第1.0版
+>     發布日期：\mydate
+
+
+    \vfill
+    
+    {心血管中心醫師 謝慕揚 Mu-Yang Hsieh, MD, PhD, FESC
+}
+    
+    
+titlepage
+
+
+---
+
+\tableofcontents
+
+---
+
+
+## 自學方案
+
+本講義為搭配網路課程文件：Chapter 08 - Coronary Artery Disease.pdf 而製作，請先與心超室取得該文件後，再搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 冠狀動脈疾病基礎
+
+
+### 概述
+
+冠狀動脈疾病(CAD)是心血管超音波檢查中最重要的適應症之一。透過超音波評估，我們可以檢測心肌梗塞後的壁運動異常、評估左心室功能，以及識別各種急性和慢性併發症。
+
+
+冠狀動脈疾病的超音波評估主要著重於節段性壁運動分析和左心室功能評估。
+
+
+### 左心室節段劃分
+
+左心室採用16節段模式劃分：
+
+- **基底部**：6個節段
+- **中段**：6個節段
+- **心尖部**：4個節段
+
+
+### 冠狀動脈供血區域
+
+
+- **左前降支(LAD)**：前壁、前間隔
+- **右冠狀動脈(RCA)**：下壁、後間隔
+- **左迴旋支(LCx)**：側壁、後壁
+
+
+冠狀動脈優勢型會影響後壁和下壁的供血模式。右優勢型時，RCA供應後壁與下壁；左優勢型時，LCx供應後壁與下壁。
+
+
+## 壁運動異常評估
+
+
+### 壁運動異常分級
+
+
+- **正常運動(Normokinesia)**：正常收縮和增厚
+- **運動亢進(Hyperkinesia)**：增強的收縮
+- **運動減弱(Hypokinesia)**：減弱的收縮和增厚
+- **運動消失(Akinesia)**：無收縮和增厚
+- **運動異常(Dyskinesia)**：矛盾運動
+
+
+### 評估要點
+
+
+- 心肌增厚程度和壁運動
+- 鉸鍊點(Hinge points)
+- 心室幾何形狀
+- 回音強度和疤痕組織
+
+
+importantbox
+**重要提醒：** 獲得最佳影像品質是評估節段性壁運動異常的關鍵。必要時使用左心室對比劑改善心內膜邊界顯示。
+importantbox
+
+
+### 缺血性心肌的病理生理變化
+
+
+- **正常心肌**：正常厚度和運動
+- **運動誘發缺血**：運動時出現壁運動異常
+- **急性缺血**：壁運動減弱，厚度保持
+- **壞死**：壁運動消失，壁變薄
+- **冬眠心肌**：慢性缺血，厚度保持
+- **頓抑心肌**：再灌流後功能恢復
+
+
+缺血、冬眠和頓抑心肌都以運動減弱/消失和厚度保持為特徵。
+
+
+## 心肌梗塞模式識別
+
+
+### 前壁梗塞模式
+
+
+- **心尖上梗塞**：LAD遠端，小範圍心尖上動脈瘤，低重塑風險
+- **遠端間隔梗塞**：LAD遠端到中段，低重塑風險
+- **近端LAD型梗塞**：LAD近端或左主幹，高重塑風險，預後差
+
+
+### 下壁梗塞模式
+
+
+- **小範圍基底下壁梗塞**：RCA，難以判讀區域，低重塑風險
+- **下壁梗塞**：RCA，低到中等重塑風險
+- **下後壁梗塞**：RCA（優勢型）或LCx（大血管、近端），中等重塑風險
+
+
+### 側壁和後側壁梗塞
+
+
+- **後側壁梗塞**：LCx或RCA，中等重塑風險
+- **下後側壁梗塞**：優勢RCA或LCx（大血管、近端），高重塑風險
+- **側壁梗塞**：LCx或LAD對角支，難以判讀，低重塑風險
+
+
+下壁/後壁/後側壁梗塞有較高的限制性二尖瓣逆流風險（後葉牽拉）。
+
+
+## 動脈瘤評估
+
+
+### 動脈瘤定義和特徵
+
+動脈瘤定義為舒張期所有心肌層的異常擴張，具有以下特徵：
+
+- 高血栓風險
+- 增加心衰風險
+- 心尖動脈瘤最好在二腔心和非典型切面觀察（避免縮短）
+- 動脈瘤內可見慢血流現象
+
+
+### 心肌組織分類
+
+根據急性冠狀動脈症候群後的心肌組織變化：
+
+- **穿壁性疤痕**：運動消失、運動異常、動脈瘤、變薄、高回音
+- **心內膜下疤痕**：運動減弱，厚度正常或輕度變薄
+- **穿壁性疤痕+存活心肌**：運動消失+周圍節段運動減弱
+- **存活心肌**：運動減弱或消失，厚度保持
+
+
+importantbox
+**重要提醒：** 慢性動脈瘤無破裂風險。再灌流後心肌梗塞患者要注意水腫（心肌增厚、高回音）。
+importantbox
+
+
+## 併發症評估
+
+
+### 急性和亞急性併發症
+
+
+- **心因性休克**
+- **血栓形成**（急性期）
+- **心肌破裂**：死亡率95
+- **右心室梗塞**：30-50
+- **乳頭肌破裂**：發生率1
+- **缺血性心室中隔缺損**：發生率0.5-1
+
+
+### 慢性併發症
+
+
+- **重塑**：慢性心衰
+- **右心衰**
+- **血栓形成**（晚期）
+- **二尖瓣逆流**
+
+
+### 缺血性心室中隔缺損
+
+
+- 最常見破裂部位：遠端前間隔（前壁梗塞），其次是基底下間隔（下壁梗塞）
+- 超音波特徵：     itemize[nosep]
+- 左心室容量超載
+- 間隔破裂/分離
+- 彩色都卜勒顯示湍流
+- 連續波都卜勒速度取決於缺損大小和左右心室壓力關係
+- 肺動脈瓣流速增加
+- 急性肺高壓
+
+
+itemize
+
+
+基底部VSD噴射在彩色都卜勒上可能難以與三尖瓣逆流區分。缺血性VSD很少是間隔的單純破洞，而是間隔分離的結果。
+
+
+### 乳頭肌破裂
+
+
+- 後內側乳頭肌破裂比前外側更常見（前外側有雙重血供）
+- 超音波特徵：     itemize[nosep]
+- 嚴重二尖瓣逆流
+- 飄動的乳頭肌
+- 左心室容量超載（擴張和高動力功能）
+- 低速二尖瓣逆流訊號
+- 三角形二尖瓣逆流頻譜（休克和左心室左心房壓力均衡）
+- 肺高壓和肺靜脈擴張
+
+
+itemize
+
+
+經胸超音波評估可能困難（心跳過速、肺水腫、大逆流孔和低流速導致無明顯逆流噴射），需進行經食道檢查。
+
+
+### 右心室梗塞
+
+在每位下壁心肌梗塞患者中都要檢查節段性和整體右心室功能。
+
+- 超音波特徵：     itemize[nosep]
+- 右心室擴張
+- 下壁壁運動異常
+- 整體/節段性右心室功能減退
+- 三尖瓣逆流（常見）
+- 下腔靜脈擴張
+
+
+itemize
+
+
+### 附壁血栓
+
+
+- 梗塞組織的血栓形成傾向和梗塞區域低流速狀態
+- 大範圍前壁梗塞更常見，通常在心尖（動脈瘤）
+- 全身栓塞率2
+- 超音波評估：     itemize[nosep]
+- 多切面可見
+- 評估活動度估計栓塞風險
+- 評估回音強度（新鮮/陳舊血栓）
+- 測量大小監測治療效果
+
+
+itemize
+
+
+血栓可能難以與明顯的心尖小梁區分。使用左心室對比劑。將焦點區域移至心尖（近場）增加敏感性。
+
+
+## 考題
+
+
+以下為針對「冠狀動脈疾病」章節的十五道選擇題，旨在檢驗對關鍵概念的理解。
+
+
+1. 左心室16節段模式中，心尖部包含幾個節段？     enumerate[label=\alph*)]
+2. 4個節段
+3. 6個節段
+4. 8個節段
+5. 10個節段
+
+
+    \item 左前降支主要供應以下哪些區域？
+    
+1. 前壁和前間隔
+2. 下壁和後間隔
+3. 側壁和後壁
+4. 前壁和側壁
+
+
+    \item 以下哪項不是壁運動異常的分級？
+    
+1. 運動消失(Akinesia)
+2. 運動減弱(Hypokinesia)
+3. 運動異常(Dyskinesia)
+4. 運動延遲(Delayed kinesia)
+
+
+    \item 缺血、冬眠和頓抑心肌的共同特徵是：
+    
+1. 壁厚度保持且運動減弱/消失
+2. 壁變薄且運動消失
+3. 壁增厚且運動亢進
+4. 正常壁厚度和運動
+
+
+    \item 近端LAD型梗塞的特徵包括：
+    
+1. 低重塑風險，預後佳
+2. 高重塑風險，預後差
+3. 中等重塑風險
+4. 無重塑風險
+
+
+    \item 下壁/後壁/後側壁梗塞有較高風險發生：
+    
+1. 主動脈瓣狹窄
+2. 限制性二尖瓣逆流
+3. 三尖瓣逆流
+4. 肺動脈瓣狹窄
+
+
+    \item 動脈瘤的定義是：
+    
+1. 收縮期心肌層異常擴張
+2. 舒張期心肌層異常擴張
+3. 收縮期和舒張期心肌層異常擴張
+4. 僅心內膜層異常擴張
+
+
+    \item 心肌破裂的死亡率約為：
+    
+1. 50
+2. 70
+3. 95
+4. 30
+
+
+    \item 缺血性心室中隔缺損最常見的破裂部位是：
+    
+1. 基底前間隔
+2. 遠端前間隔
+3. 中段間隔
+4. 心尖間隔
+
+
+    \item 乳頭肌破裂中，哪一個乳頭肌破裂更常見？
+    
+1. 前外側乳頭肌
+2. 後內側乳頭肌
+3. 兩者相等
+4. 取决於梗塞位置
+
+
+    \item 右心室梗塞最常伴隨以下哪種心肌梗塞？
+    
+1. 前壁梗塞
+2. 下壁梗塞
+3. 側壁梗塞
+4. 後壁梗塞
+
+
+    \item 附壁血栓最常見於：
+    
+1. 大範圍前壁梗塞
+2. 小範圍下壁梗塞
+3. 側壁梗塞
+4. 後壁梗塞
+
+
+    \item 慢性動脈瘤的特點是：
+    
+1. 有破裂風險
+2. 無破裂風險
+3. 高破裂風險
+4. 中等破裂風險
+
+
+    \item 評估壁運動異常最重要的因素是：
+    
+1. 患者配合度
+2. 影像品質
+3. 檢查時間
+4. 使用的探頭頻率
+
+
+    \item 左心室重塑的促進因素不包括：
+    
+1. 大範圍梗塞
+2. 二尖瓣逆流
+3. 後負荷增加
+4. 心率減慢
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：a) 4個節段**      **詳解：** 16節段模式中，心尖部包含4個節段，基底部和中段各包含6個節段。
+2. **正確答案：a) 前壁和前間隔**      **詳解：** 左前降支主要供應前壁和前間隔區域。RCA供應下壁和後間隔，LCx供應側壁和後壁。
+3. **正確答案：d) 運動延遲(Delayed kinesia)**      **詳解：** 壁運動異常分級包括正常、運動亢進、運動減弱、運動消失和運動異常五個等級，沒有"運動延遲"這個分級。
+4. **正確答案：a) 壁厚度保持且運動減弱/消失**      **詳解：** 缺血、冬眠和頓抑心肌都以運動減弱或消失並且壁厚度保持為特徵，這與壁變薄的壞死心肌不同。
+5. **正確答案：b) 高重塑風險，預後差**      **詳解：** 近端LAD型梗塞（LAD第一間隔支前或左主幹）總是伴隨重塑，預後差。左主幹梗塞患者很少存活。
+6. **正確答案：b) 限制性二尖瓣逆流**      **詳解：** 下壁/後壁/後側壁梗塞有較高的限制性二尖瓣逆流風險，因為後葉牽拉。
+7. **正確答案：b) 舒張期心肌層異常擴張**      **詳解：** 動脈瘤定義為舒張期所有心肌層的異常擴張。
+8. **正確答案：c) 95      **詳解：** 心肌破裂的死亡率高達95
+9. **正確答案：b) 遠端前間隔**      **詳解：** 缺血性VSD最常見破裂部位是遠端前間隔（前壁梗塞），其次是基底下間隔（下壁梗塞）。
+10. **正確答案：b) 後內側乳頭肌**      **詳解：** 後內側乳頭肌破裂比前外側更常見，因為前外側乳頭肌有雙重血供。
+11. **正確答案：b) 下壁梗塞**      **詳解：** 右心室梗塞見於30-50
+12. **正確答案：a) 大範圍前壁梗塞**      **詳解：** 附壁血栓在大範圍前壁心肌梗塞中更常見，通常位於心尖（動脈瘤）。
+13. **正確答案：b) 無破裂風險**      **詳解：** 慢性動脈瘤無破裂風險，與急性期不同。
+14. **正確答案：b) 影像品質**      **詳解：** 獲得最佳影像品質是評估節段性壁運動異常最重要的因素。
+15. **正確答案：d) 心率減慢**      **詳解：** 左心室重塑的促進因素包括大範圍梗塞（前壁>下壁）、二尖瓣逆流和後負荷增加（高血壓、AS），心率減慢不是促進因素。
+
+
+## 圖說翻譯
+
+
+以下為Chapter 08 - Coronary Artery Disease中重要術語的中英對照表，方便同事閱讀原版講義。
+
+
+### 節段劃分相關術語
+
+
+longtable[c]{|p{4cm}|p{4cm}|p{6cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Segmental Approach & 節段性方法 & 左心室節段劃分評估法   
+
+\hline
+16-Segment Model & 16節段模式 & 標準左心室節段劃分   
+
+\hline
+17-Segment Model (supra-apical cap) & 17節段模式（心尖上帽） & 包含心尖上節段的擴展模式   
+
+\hline
+Bull's Eye Representation & 靶心圖表示法 & 左心室節段的環形圖示   
+
+\hline
+Apex & 心尖部 & 左心室最尖端部分   
+
+\hline
+Mid ventricle & 中段心室 & 左心室中間部分   
+
+\hline
+Base & 基底部 & 左心室基底部分   
+
+\hline
+Apical four-chamber view & 心尖四腔心切面 & 標準超音波切面   
+
+\hline
+
+longtable
+
+
+### 節段命名術語
+
+
+longtable[c]{|p{2cm}|p{4cm}|p{4cm}|}
+\hline
+**英文縮寫** & **英文全名** & **中文對照**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文縮寫** & **英文全名** & **中文對照**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+IS & Inferoseptal & 下間隔   
+
+\hline
+AS & Anteroseptal & 前間隔   
+
+\hline
+A & Anterior & 前壁   
+
+\hline
+AL & Anterolateral & 前側壁   
+
+\hline
+IL & Inferolateral & 下側壁   
+
+\hline
+P & Posterior & 後壁   
+
+\hline
+I & Inferior & 下壁   
+
+\hline
+S & Septal & 間隔   
+
+\hline
+L & Lateral & 側壁   
+
+\hline
+
+longtable
+
+
+### 冠狀動脈術語
+
+
+longtable[c]{|p{4.5cm}|p{3cm}|p{6.5cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Left anterior descending (LAD) & 左前降支 & 主要供應前壁和前間隔   
+
+\hline
+Right coronary artery (RCA) & 右冠狀動脈 & 主要供應下壁和後間隔   
+
+\hline
+Circumflex artery (Cx) & 左迴旋支 & 主要供應側壁和後壁   
+
+\hline
+Left dominant perfusion & 左優勢灌注 & LCx供應後壁和部分下壁   
+
+\hline
+Right dominant perfusion & 右優勢灌注 & RCA供應後壁和下壁   
+
+\hline
+
+longtable
+
+
+### 壁運動異常術語
+
+
+longtable[c]{|p{4.5cm}|p{3cm}|p{6.5cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Wall Motion Abnormalities & 壁運動異常 & 心肌收縮功能異常   
+
+\hline
+Hyperkinesia & 運動亢進 & 增強的心肌收縮   
+
+\hline
+Normokinesia & 正常運動 & 正常心肌收縮   
+
+\hline
+Hypokinesia & 運動減弱 & 減弱的心肌收縮   
+
+\hline
+Akinesia & 運動消失 & 無心肌收縮   
+
+\hline
+Dyskinesia & 運動異常 & 矛盾性心肌運動   
+
+\hline
+Lack of wall/myocardial thickening & 缺乏壁/心肌增厚 & 收縮期心肌未增厚   
+
+\hline
+Hinge points & 鉸鍊點 & 正常和異常心肌交界處   
+
+\hline
+Ventricular geometry & 心室幾何 & 心室形狀和結構   
+
+\hline
+Echogenicity/scar & 回音強度/疤痕 & 心肌組織密度變化   
+
+\hline
+
+longtable
+
+
+### 缺血相關術語
+
+
+longtable[c]{|p{4.5cm}|p{3cm}|p{6.5cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Exercise-induced ischemia & 運動誘發缺血 & 運動時出現的心肌缺血   
+
+\hline
+Ischemia & 缺血 & 心肌血流不足   
+
+\hline
+Necrosis & 壞死 & 心肌細胞死亡   
+
+\hline
+Hibernation & 冬眠心肌 & 慢性缺血但存活的心肌   
+
+\hline
+Stunning & 頓抑心肌 & 再灌流後暫時功能減退   
+
+\hline
+Remodeling & 重塑 & 心室結構和功能改變   
+
+\hline
+
+longtable
+
+
+### 梗塞模式術語
+
+
+longtable[c]{|p{5.5cm}|p{3.5cm}|p{5cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Supra-Apical Infarction & 心尖上梗塞 & LAD遠端梗塞   
+
+\hline
+Distal Septum Infarction & 遠端間隔梗塞 & 間隔遠端部分梗塞   
+
+\hline
+Proximal LAD Type Infarction & 近端LAD型梗塞 & LAD近端或左主幹梗塞   
+
+\hline
+Small Basal Inferior Infarction & 小範圍基底下壁梗塞 & 基底部下壁小梗塞   
+
+\hline
+Inferior Infarction & 下壁梗塞 & 下壁心肌梗塞   
+
+\hline
+Infero-Posterior Infarction & 下後壁梗塞 & 下壁和後壁梗塞   
+
+\hline
+Posterolateral Infarction & 後側壁梗塞 & 後壁和側壁梗塞   
+
+\hline
+Infero-Posterior-Lateral Infarction & 下後側壁梗塞 & 下壁、後壁和側壁梗塞   
+
+\hline
+Lateral Infarction & 側壁梗塞 & 側壁心肌梗塞   
+
+\hline
+
+longtable
+
+
+### 動脈瘤相關術語
+
+
+longtable[c]{|p{6cm}|p{4cm}|p{4cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Aneurysm & 動脈瘤 & 舒張期心肌異常擴張   
+
+\hline
+Abnormal widening of all myocardial layers during diastole & 舒張期所有心肌層異常擴張 & 動脈瘤的定義   
+
+\hline
+High risk of thrombi & 高血栓風險 & 動脈瘤內易形成血栓   
+
+\hline
+Increased risk of heart failure & 增加心衰風險 & 動脈瘤影響心功能   
+
+\hline
+Slow flow phenomenon & 慢血流現象 & 動脈瘤內血流緩慢   
+
+\hline
+Foreshortening & 縮短現象 & 影像學偽影   
+
+\hline
+
+longtable
+
+
+### 併發症相關術語
+
+
+longtable[c]{|p{5cm}|p{3.5cm}|p{5.5cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Complications & 併發症 & 心肌梗塞後續問題   
+
+\hline
+Cardiogenic shock & 心因性休克 & 心臟泵血功能嚴重衰竭   
+
+\hline
+Thrombus formation & 血栓形成 & 血液凝固形成血塊   
+
+\hline
+Myocardial rupture & 心肌破裂 & 心肌壁破裂   
+
+\hline
+Right ventricular infarction & 右心室梗塞 & 右心室心肌梗塞   
+
+\hline
+Papillary muscle rupture & 乳頭肌破裂 & 二尖瓣乳頭肌斷裂   
+
+\hline
+Ischemic ventricular septal defect & 缺血性心室中隔缺損 & 梗塞導致的中隔破裂   
+
+\hline
+Pseudoaneurysm & 假性動脈瘤 & 心肌破裂被心包包裹   
+
+\hline
+
+longtable
+
+
+### 檢查技術術語
+
+
+longtable[c]{|p{5.5cm}|p{3.5cm}|p{5cm}|}
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endfirsthead
+
+3{c}
+{{\bfseries \tablename \thetable -- 續前頁}}   
+
+\hline
+**英文術語** & **中文對照** & **說明**   
+
+\hline
+\endhead
+
+\hline 3{|r|}{{續下頁}}   
+ \hline
+\endfoot
+
+\hline
+\endlastfoot
+
+LV contrast study & 左心室對比研究 & 增強顯影技術   
+
+\hline
+Endocardial border detection & 心內膜邊界檢測 & 影像增強目的   
+
+\hline
+Best possible image quality & 最佳影像品質 & 檢查要求   
+
+\hline
+Reference segment & 參考節段 & 比較標準   
+
+\hline
+Problem Zones & 問題區域 & 難以成像區域   
+
+\hline
+Regions Difficult to Image/Interpret & 難以成像/判讀區域 & 技術限制   
+
+\hline
+Move transducer more laterally & 探頭向外側移動 & 技術調整   
+
+\hline
+Use two-chamber view & 使用二腔心切面 & 切面選擇   
+
+\hline
+Rotate four-chamber view clockwise & 四腔心切面順時針旋轉 & 操作技巧   
+
+\hline
+
+longtable

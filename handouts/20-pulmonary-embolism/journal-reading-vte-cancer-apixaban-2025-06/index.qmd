@@ -1,0 +1,259 @@
+---
+title: "journal reading VTE Cancer Apixaban 2025-06"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+titlepage
+    
+    {****心血管中心教學文件****
+}
+    
+    {\bfseries 癌症相關靜脈血栓栓塞症管理講義
+}
+    
+    {***Management of Cancer-Associated Venous Thromboembolism***
+}
+    
+    
+    
+> {**目標對象**
+> }
+>     心血管中心醫療人員及導管室技術員
+>     {**文件版本**
+> }
+>     第1.0版
+>     發布日期：\mydate
+
+
+    \vfill
+    
+    {心血管中心醫師  
+ 謝慕揚 Mu-Yang Hsieh, MD, PhD, FESC
+}
+    
+    
+titlepage
+
+
+---
+
+\tableofcontents
+
+---
+
+
+## 自學方案
+
+本講義為心血管中心醫療人員及導管室技術員設計，旨在介紹癌症相關靜脈血栓栓塞症（VTE）的管理，特別聚焦於 API-CAT 及 CARAVAGGIO 研究中apixaban的應用。請參考以下文獻進行深入學習：
+
+- Mahé 等人 (2025), [*Extended Reduced-Dose Apixaban for Cancer-Associated Venous Thromboembolism](https://www.nejm.org/doi/full/10.1056/NEJMoa2416112)*.
+- Agnelli 等人 (2020), [*Apixaban for the Treatment of Venous Thromboembolism Associated with Cancer](https://www.nejm.org/doi/full/10.1056/NEJMoa1915103)*.
+
+
+已有基礎的同事可直接跳至考題處進行自我測驗。
+
+
+## 癌症相關靜脈血栓栓塞症管理基礎
+
+
+### 概述
+
+癌症相關靜脈血栓栓塞症（VTE）是癌症患者常見的併發症，與非癌症患者相比，癌症患者 VTE 風險高出 4-7 倍，且復發性 VTE 及抗凝治療期間出血風險顯著增加 agnelli2020. API-CAT 及 CARAVAGGIO 研究分別探討了apixaban在癌症相關 VTE 長期治療及初始治療中的療效與安全性。
+
+
+癌症相關 VTE 管理需平衡抗凝療效與出血風險，選擇適當劑量及治療時程至關重要。
+
+
+### 癌症與 VTE 的關聯
+
+
+- **風險增加**：癌症患者 VTE 風險高達 4-7 倍，約 20
+- **預後較差**：癌症相關 VTE 患者復發性 VTE 風險高 3 倍，出血風險高 2 倍，死亡風險高 3 倍以上 agnelli2020.
+- **風險因素**：包括患者相關因素（如既往 VTE 史）、治療相關因素（如化療、住院）及腫瘤相關因素（如胰腺癌、轉移性癌症）agnelli2020.
+
+
+importantbox
+**重要提醒：** 術前需評估患者的癌症類型、分期及治療狀態，以制定個體化抗凝策略。
+importantbox
+
+
+### 傳統抗凝治療的挑戰
+
+
+- **低分子量肝素（LMWH）**：如達肝素（Dalteparin），相較於維生素 K 拮抗劑（VKA）可降低復發性 VTE 風險（RR 0.60, 95
+- **LMWH 局限性**：需皮下注射，長期使用依從性差，僅 43
+- **VKA 局限性**：需頻繁監測 INR，且藥物交互作用多，管理複雜 agnelli2020.
+
+
+## apixaban在癌症相關 VTE 中的應用
+
+
+### CARAVAGGIO 研究：初始治療
+
+
+- **研究設計**：一項多中心、隨機、開放標籤試驗，比較apixaban（10 mg BID 7 天，隨後 5 mg BID）與達肝素（200 IU/kg 每日一次 1 個月，隨後 150 IU/kg 每日一次）在癌症相關 VTE 治療中的療效，治療 6 個月 agnelli2020.
+- \textbf主要結果}：     itemize
+- apixaban對復發性 VTE 的非劣效性（HR 0.63, 95
+- 主要出血率相似（apixaban 3.8
+- 無增加胃腸道（GI）或非 GI 出血風險。
+
+
+    \item **意義**：apixaban是唯一顯示與達肝素相似主要出血率的直接口服抗凝劑（DOAC），適用於包括 GI 癌症的患者 agnelli2020.
+itemize
+
+
+### API-CAT 研究：延長治療
+
+
+- **研究設計**：一項多中心、隨機、雙盲試驗，比較apixaban 2.5 mg BID 與 5 mg BID 在完成至少 6 個月抗凝治療的活動性癌症患者中的療效，隨訪 12 個月 mahe2025.
+- \textbf主要結果}：     itemize
+- 2.5 mg BID 對復發性 VTE 的非劣效性（2.1
+- 2.5 mg BID 顯著降低臨床相關出血（12.1
+- 主要出血率降低（2.9
+- 全因死亡率相似（17.7
+
+
+    \item **意義**：低劑量apixaban（2.5 mg BID）在延長治療中可有效預防復發性 VTE，同時降低出血風險 mahe2025.
+itemize
+
+importantbox
+**重要提醒：** apixaban 2.5 mg BID 是延長治療的首選劑量，特別適用於高出血風險的癌症患者。
+importantbox
+
+
+### 臨床應用與指南推薦
+
+
+- **初始治療**：apixaban 5 mg BID（前 7 天 10 mg BID）適用於大多數癌症相關 VTE 患者，特別是 GI 癌症患者 agnelli2020.
+- **延長治療**：對於完成 6 個月抗凝治療的患者，推薦apixaban 2.5 mg BID 至少 12 個月，或直至癌症治癒或無活動性癌症 mahe2025.
+- **指南推薦**：ASCO (2019)、NCCN (2020) 等指南建議對於活動性癌症患者，抗凝治療應延長至無限期或癌症治癒 agnelli2020.
+
+
+---
+
+
+## 考題
+
+
+以下為針對「癌症相關靜脈血栓栓塞症管理」章節的十道選擇題，旨在檢驗對關鍵概念的理解。
+
+
+1. 癌症患者 VTE 風險相較於非癌症患者高出多少倍？     enumerate[label=\alph*)]
+2. 1-2 倍
+3. 4-7 倍
+4. 10-12 倍
+5. 15-20 倍
+
+
+    \item CARAVAGGIO 研究中，apixaban相較於達肝素的主要優勢是：
+    
+1. 降低主要出血率
+2. 非劣效於復發性 VTE 且無增加 GI 出血
+3. 縮短治療時程
+4. 降低全因死亡率
+
+
+    \item API-CAT 研究中，apixaban 2.5 mg BID 相較於 5 mg BID 的主要結果是：
+    
+1. 降低復發性 VTE 發生率
+2. 降低臨床相關出血率
+3. 降低全因死亡率
+4. 增加主要出血率
+
+
+    \item 何種情況下推薦使用apixaban 2.5 mg BID？
+    
+1. 初始 VTE 治療
+2. 完成 6 個月抗凝治療後的延長治療
+3. 急性肺栓塞
+4. 非癌症相關 VTE
+
+
+    \item CARAVAGGIO 研究中，apixaban的劑量方案是：
+    
+1. 2.5 mg BID 持續 6 個月
+2. 10 mg BID 7 天，隨後 5 mg BID 6 個月
+3. 5 mg BID 持續 12 個月
+4. 10 mg BID 持續 12 個月
+
+
+    \item 根據指南，癌症相關 VTE 的抗凝治療應持續多久？
+    
+1. 3 個月
+2. 6 個月
+3. 12 個月
+4. 無限期或直至癌症治癒
+
+
+    \item 傳統抗凝治療中，LMWH 相較於 VKA 的優勢是：
+    
+1. 降低主要出血風險
+2. 降低復發性 VTE 風險
+3. 無需監測 INR
+4. 口服給藥
+
+
+    \item API-CAT 研究中，2.5 mg BID 組的復發性 VTE 發生率為：
+    
+1. 2.1
+2. 2.8
+3. 12.1
+4. 15.6
+
+
+    \item 何種癌症類型與 VTE 風險最高？
+    
+1. 乳腺癌
+2. 前列腺癌
+3. 胰腺癌
+4. 皮膚癌
+
+
+    \item CARAVAGGIO 研究顯示，apixaban在哪一類患者中尤其適用？
+    
+1. 非癌症患者
+2. 胃腸道癌症患者
+3. 低出血風險患者
+4. 無活動性癌症患者
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：b) 4-7 倍**      **詳解：** 根據 CARAVAGGIO 研究，癌症患者 VTE 風險相較於非癌症患者高出 4-7 倍 agnelli2020。其他選項不正確。
+2. **正確答案：b) 非劣效於復發性 VTE 且無增加 GI 出血**      **詳解：** CARAVAGGIO 研究顯示apixaban對復發性 VTE 非劣效（HR 0.63, 95
+3. **正確答案：b) 降低臨床相關出血率**      **詳解：** API-CAT 研究顯示apixaban 2.5 mg BID 顯著降低臨床相關出血率（12.1
+4. **正確答案：b) 完成 6 個月抗凝治療後的延長治療**      **詳解：** API-CAT 研究推薦apixaban 2.5 mg BID 用於完成 6 個月抗凝治療後的延長治療 mahe2025。其他選項不適用。
+5. **正確答案：b) 10 mg BID 7 天，隨後 5 mg BID 6 個月**      **詳解：** CARAVAGGIO 研究中，apixaban劑量為 10 mg BID 7 天，隨後 5 mg BID 持續 6 個月 agnelli2020。其他選項不正確。
+6. **正確答案：d) 無限期或直至癌症治癒**      **詳解：** ASCO (2019) 及 NCCN (2020) 指南建議活動性癌症患者的抗凝治療應延長至無限期或癌症治癒 agnelli2020。其他選項時間過短。
+7. **正確答案：b) 降低復發性 VTE 風險**      **詳解：** LMWH 相較於 VKA 可顯著降低復發性 VTE 風險（RR 0.60, 95
+8. **正確答案：a) 2.1      **詳解：** API-CAT 研究中，apixaban 2.5 mg BID 組的復發性 VTE 發生率為 2.1
+9. **正確答案：c) 胰腺癌**      **詳解：** 胰腺癌與 VTE 風險最高，根據 CARAVAGGIO 研究數據 agnelli2020。其他癌症類型風險較低。
+10. **正確答案：b) 胃腸道癌症患者**      **詳解：** CARAVAGGIO 研究顯示apixaban在 GI 癌症患者中無增加出血風險，因而尤其適用 agnelli2020。其他選項不正確。
+
+
+---
+
+
+## 參考文獻
+
+thebibliography{9}
+
+mahe2025
+Mahé, I., Carrier, M., Mayeur, D., et al. (2025). Extended Reduced-Dose Apixaban for Cancer-Associated Venous Thromboembolism. *New England Journal of Medicine*, 392, 1363–1373.
+
+agnelli2020
+Agnelli, G., Becattini, C., Meyer, G., et al. (2020). Apixaban for the Treatment of Venous Thromboembolism Associated with Cancer. *New England Journal of Medicine*, 382, 1599–1607.
+
+thebibliography

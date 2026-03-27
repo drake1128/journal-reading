@@ -1,0 +1,591 @@
+---
+title: "coronary CTO double blind stick and swap"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **Double-Blind Stick-and-Swap 技術**是一種用於冠狀動脈慢性完全閉塞(CTO)介入治療中的進階再進入技術,特別適用於內膜下血腫壓迫遠端真腔導致標準技術失敗的困難病例。
+
+
+## ADR技術背景
+
+
+### 慢性完全閉塞介入治療的挑戰
+
+
+冠狀動脈慢性完全閉塞 (Chronic Total Occlusion, CTO) 的經皮冠狀動脈介入治療是心導管手術中最具挑戰性的術式之一。根據美國心臟病學會(ACC)國家心血管資料庫登錄資料顯示,CTO PCI 僅佔穩定型冠狀動脈疾病 PCI 總量的 3.8
+
+
+### 順向剝離再進入策略 (Antegrade Dissection and Reentry, ADR)
+
+
+| p{11cm}} ADR 策略的基本概念與應用 |  |  |
+| --- | --- | --- |
+| **項目** | **說明** |  |
+| **項目** | **說明** |  |
+| **定義** | minipage[t]{11cm} 刻意利用內膜下空間(subintimal space)穿過 CTO 病變,再重新進入遠端真腔的技術策略 |  |
+| **使用時機** | minipage[t]{11cm} - 順向導線升級技術(antegrade wire escalation)失敗時    - 病變長度>20mm    - 近端冠狀動脈帽(proximal cap)不明確    - 約28 |  |
+| **主要器械** | minipage[t]{11cm} - Stingray LP 系統(Boston Scientific)    - ReCross 雙腔微導管(Biotronik)    - Triumph 微導管(即將上市) |  |
+| **成功率** | minipage[t]{11cm} 使用專用再進入器械的 ADR 技術成功率較高,且可達到可預測的再進入效果 |  |
+
+
+## Stick-and-Swap 技術原理
+
+
+### 基本 Stick-and-Swap 技術
+
+
+| p{11cm}} 標準 Stick-and-Swap 技術步驟 |  |  |
+| --- | --- | --- |
+| **步驟** | **操作內容** |  |
+| **步驟** | **操作內容** |  |
+| **1. 定位** | minipage[t]{11cm} 將 Stingray 氣球推進至內膜下空間,位於閉塞段遠端的適當位置 |  |
+| **2. 氣球充氣** | minipage[t]{11cm} 充氣後兩個小型平行氣球可增強位置穩定性,並引導導線方向 |  |
+| **3. Stick(穿刺)** | minipage[t]{11cm} 使用高尖端負載導線(如 Stingray wire, Confianza Pro 12g)通過朝向真腔的出口穿刺,建立從假腔到真腔的局部通道 |  |
+| **4. Swap(交換)** | minipage[t]{11cm} 穿刺進入真腔後,將硬質穿刺導線交換為較柔軟且更易操控的聚合物包覆導線(如 Pilot 200, Abbott Vascular),以便進一步推進至遠端血管 |  |
+| **替代方式** | minipage[t]{11cm} **Stick-and-Drive:** 直接用穿刺導線推進至遠端血管,不進行導線交換 |  |
+
+
+### Stingray 系統構造
+
+
+| p{11cm}} Stingray LP 系統組成與特性 |  |  |
+| --- | --- | --- |
+| **組件** | **特性** |  |
+| **組件** | **特性** |  |
+| **Stingray 氣球** | minipage[t]{11cm} - 扁平型 1mm 氣球    - 具有三個出口通道,連接至共同腔室    - 遠端口用於推進氣球至定位    - 另外兩個出口(一近端、一遠端)呈 180° 相對    - 充氣後自動定向,使一個出口朝向真腔,另一個朝向外膜 |  |
+| **Stingray 導線** | minipage[t]{11cm} - 硬質、有角度的導線    - 遠端錐度 0.0035 英吋    - 通過朝向真腔的出口推進 |  |
+| **導引導管需求** | minipage[t]{11cm} - 6-F 導引導管相容    - 使用 over-the-wire 技術    - 必須使用 300cm 導線進行捕捉或遞送 |  |
+
+
+## Double-Blind Stick-and-Swap 技術
+
+
+### 技術定義與適應症
+
+
+> **"Double-Blind" 的含義:**
+> 在標準 stick-and-swap 技術中,操作者通常依靠影像引導選擇正確的 Stingray 出口進行穿刺。然而,當內膜下血腫嚴重壓迫遠端真腔時,即使嘗試減壓內膜下血腫,遠端血管仍可能無法在血管攝影中顯影。
+> 在這種「盲目」情況下,**雙向盲目穿刺(bidirectional blind puncture)**的策略應運而生:
+> itemize
+> \item 同時使用 Stingray 氣球的**兩個出口**進行穿刺嘗試
+> \item 不依賴影像引導選擇特定出口
+> \item 增加成功再進入真腔的機會
+> itemize
+
+
+### 技術步驟詳解
+
+
+| p{12cm}} Double-Blind Stick-and-Swap 詳細操作步驟 |  |  |
+| --- | --- | --- |
+| **步驟** | **詳細說明** |  |
+| **步驟** | **詳細說明** |  |
+| **1. 前置準備** | minipage[t]{12cm} - 確認導線已進入內膜下空間    - 嘗試標準技術(如對側注射、最佳角度攝影)仍無法顯影遠端血管    - 考慮使用 STRAW 技術(Subintimal TRAnscatheter Withdrawal)抽吸血腫減壓,但效果不佳 |  |
+| **2. 氣球定位** | minipage[t]{12cm} - 將 Stingray 氣球推進至內膜下空間    - 位置應在 CTO 遠端冠狀動脈帽附近    - 充氣固定氣球位置 |  |
+| **3. 雙向穿刺** | minipage[t]{12cm} **使用 Stingray 導線進行:**    - 通過**近端出口**進行盲目穿刺    - 通過**遠端出口**進行盲目穿刺    - 每個出口可進行多次穿刺嘗試    - 目標是建立從內膜下空間到真腔的通道 |  |
+| **4. 導線交換** | minipage[t]{12cm} **當穿刺成功後:**    - 將 Stingray 硬質導線交換為 Pilot 200 導線(或其他聚合物包覆的中等尖端負載導線)    - 使用交換後的導線進行旋轉和推進    - 類似 Seldinger 技術的操作方式    - 反覆嘗試將導線推進至遠端血管 |  |
+| **5. 確認位置** | minipage[t]{12cm} - 對側注射確認導線位於真腔    - 若導線仍在假腔或內膜下空間,重複步驟 3-4 |  |
+| **6. 完成介入** | minipage[t]{12cm} - 確認導線位置正確後進行順向 PCI    - 植入支架完成血管重建 |  |
+
+
+### 困難再進入的故障排除策略
+
+
+| p{11cm}} ADR 再進入失敗的處理策略 |  |  |
+| --- | --- | --- |
+| **策略** | **說明** |  |
+| **策略** | **說明** |  |
+| **多次穿刺** | minipage[t]{11cm} 若導線無法再進入血管,可使用硬質穿刺導線通過兩個出口進行多次穿刺嘗試 |  |
+| **導線交換** | minipage[t]{11cm} 進行數次穿刺後,可選擇交換為聚合物包覆導線(double-blind stick-and-swap 技術),通過相同的 Stingray 出口,反覆旋轉和推進導線朝向遠端血管 |  |
+| **Bobsledding** | minipage[t]{11cm} - 將 Stingray 氣球洩氣    - 推進或回縮至冠狀動脈的不同位置    - 重新充氣後再次嘗試穿刺    - 可改變出口相對於血管鈣化或纖維化的方向,促進再進入 |  |
+| **STRAW 技術** | minipage[t]{11cm} Subintimal TRAnscatheter Withdrawal:    抽吸內膜下血腫以減壓遠端真腔壓迫 |  |
+
+
+---
+
+
+## 使用 ReCross 雙腔微導管的 Stick-and-Swap
+
+
+### ReCross 系統特性
+
+
+| p{11cm}} ReCross 與 Stingray 系統的比較 |  |  |
+| --- | --- | --- |
+| **特性** | **說明** |  |
+| **特性** | **說明** |  |
+| **ReCross 結構** | minipage[t]{11cm} - 雙腔微導管(IMDS, Biotronik)    - 兩個 over-the-wire (OTW) 腔室    - 近端出口距離尖端 12mm    - 遠端出口距離尖端 8mm    - 兩個出口呈相對位置 |  |
+| **與其他雙腔微導管差異** | minipage[t]{11cm} - 其他雙腔微導管:一個 monorail 腔 + 一個 OTW 腔    - ReCross:兩個 OTW 腔,可同時使用兩條不同導線 |  |
+| **成本優勢** | minipage[t]{11cm} - 較 Stingray 系統成本更低    - 在許多地區更容易取得    - 對於資源有限的醫療環境特別有利 |  |
+| **技術優勢** | minipage[t]{11cm} - 通過 ReCross 雙腔微導管進行 CTO 導線操作可產生較小的內膜外血腫    - 使 ADR 程序更容易執行 |  |
+
+
+### ReCross 的 Double-Blind Stick-and-Swap 操作
+
+
+| p{12cm}} 使用 ReCross 微導管的操作技巧 |  |  |
+| --- | --- | --- |
+| **步驟** | **操作說明** |  |
+| **步驟** | **操作說明** |  |
+| **系統準備** | minipage[t]{12cm} - 沖洗兩個腔室    - 從藍色出口移除定型針(stylet)以便沖洗    - 推進系統進入體內前必須重新放回定型針 |  |
+| **導線選擇** | minipage[t]{12cm} - Astato XS 20 導線(Asahi Intecc Medical)    - 或其他適合的硬質導線 |  |
+| **雙向穿刺** | minipage[t]{12cm} - 將導線同時推進通過 ReCross 微導管的**兩個出口**    - 進行盲目穿刺嘗試 |  |
+| **導線交換** | minipage[t]{12cm} - 穿刺成功後交換為 Pilot 200 導線(Abbott Vascular)    - 成功進入遠端真腔 |  |
+| **位置確認** | minipage[t]{12cm} - 逆向注射確認導線位於真腔    - 確認後進行順向 PCI 及支架植入 |  |
+
+
+## 臨床案例與應用
+
+
+### 適用情境
+
+
+> **主要適用情況:**
+> enumerate
+> \item 內膜下穿過後遠端血管無法顯影
+> \item 嘗試減壓內膜下血腫後仍無法顯影
+> \item 內膜下血腫嚴重壓迫遠端真腔
+> \item 標準再進入技術失敗
+> \item 無法依靠影像引導選擇正確的穿刺方向
+> enumerate
+> **其他應用:**
+> itemize
+> \item 急性血管閉塞合併剝離
+> \item 導線位置丟失的緊急情況
+> \item 複雜 CTO 病變的救援策略
+> itemize
+
+
+### 文獻報告的成功案例
+
+
+| p{12cm}} Double-Blind Stick-and-Swap 技術臨床案例摘要 |  |  |
+| --- | --- | --- |
+| **案例類型** | **關鍵發現** |  |
+| **案例類型** | **關鍵發現** |  |
+| **Christopoulos等人 2015** | minipage[t]{12cm} - 報告 3 例 CTO 病例    - 內膜下穿過後遠端血管無法顯影    - 嘗試減壓血腫仍失敗    - 使用 double-blind stick-and-swap 成功達成遠端真腔再進入    - 所有病例均成功完成 PCI |  |
+| **ReCross 系統 案例 2025** | minipage[t]{12cm} - 63 歲男性,心室顫動導致院外心跳停止    - 右冠狀動脈近端 CTO    - 順向再通嘗試失敗    - 植入自動去顫器後 2 個月因心絞痛再次入院    - 使用 ReCross 微導管進行 double-blind stick-and-swap    - 成功進入真腔並植入 3 支藥物釋放支架    - 術後 3 個月追蹤無缺血或心律不整併發症 |  |
+| **急性血管閉塞 應用** | minipage[t]{12cm} - 報告 2 例急性血管閉塞合併導線位置丟失    - 使用 Stingray LP 系統成功將導線推進至遠端真腔    - 成功再通閉塞血管 |  |
+
+
+## 技術優勢與限制
+
+
+### 技術優勢
+
+
+1. ****提高成功率:**** 在標準技術失敗的困難病例中提供額外的解決方案
+2. ****不依賴影像:**** 即使遠端血管無法顯影仍可嘗試再進入
+3. ****多次嘗試機會:**** 雙向穿刺增加成功機會
+4. ****可預測性:**** 使用專用器械提供較可控的再進入過程
+5. ****救援策略:**** 可作為其他技術失敗後的備用方案
+
+
+### 技術限制與併發症
+
+
+| p{11cm}} Double-Blind Stick-and-Swap 技術的限制 |  |  |
+| --- | --- | --- |
+| **項目** | **說明** |  |
+| **項目** | **說明** |  |
+| **學習曲線** | minipage[t]{11cm} - 需要豐富的 CTO 介入治療經驗    - 需熟悉 ADR 技術和相關器械    - 建議在有經驗的術者指導下學習 |  |
+| **器械可用性** | minipage[t]{11cm} - Stingray 系統在某些地區成本較高    - 並非所有醫療機構都有相關器械    - ReCross 系統可作為較經濟的替代方案 |  |
+| **併發症風險** | minipage[t]{11cm} **根據 MAUDE 登錄資料:**    - 氣球破裂(45  - 導線無法通過導管(15.7  - 導管軸斷裂(15.7  - 嚴重臨床後果罕見(96  - 冠狀動脈穿孔及心包填塞(個案報告)    - 需要緊急心臟手術(個案報告) |  |
+| **成功率變異** | minipage[t]{11cm} - 成功率取決於病變複雜度    - 嚴重鈣化或纖維化可能降低成功率    - 內膜下血腫大小影響結果 |  |
+
+
+## 與其他 CTO 技術的整合
+
+
+### hybrid algorithm中的定位
+
+
+| p{11cm}} Double-Blind Stick-and-Swap 在 CTO hybrid algorithm中的角色 |  |  |
+| --- | --- | --- |
+| **策略層級** | **說明** |  |
+| **策略層級** | **說明** |  |
+| **第一線策略** | minipage[t]{11cm} **順向導線升級(Antegrade Wire Escalation):**    - 近端冠狀動脈帽清楚    - 閉塞長度<20mm    - 遠端血管品質良好 |  |
+| **第二線策略** | minipage[t]{11cm} **標準 ADR 技術:**    - 順向導線升級失敗    - 使用 Stingray 或 ReCross 進行標準再進入 |  |
+| **救援策略** | minipage[t]{11cm} **Double-Blind Stick-and-Swap:**    - 標準 ADR 再進入失敗    - 遠端血管無法顯影    - 內膜下血腫壓迫嚴重    - STRAW 技術效果不佳 |  |
+| **其他選擇** | minipage[t]{11cm} **逆向技術:**    - 所有順向技術失敗時考慮    - 需要適合的介入性側枝循環 |  |
+
+
+### 輔助技術與影像引導
+
+
+| p{11cm}} Double-Blind Stick-and-Swap 的輔助技術 |  |  |
+| --- | --- | --- |
+| **技術** | **應用** |  |
+| **技術** | **應用** |  |
+| **對側注射** | minipage[t]{11cm} - 顯示遠端血管解剖    - 提供路徑圖    - 確認導線位置(真腔 vs. 假腔) |  |
+| **心臟電腦斷層** | minipage[t]{11cm} - 術前評估 CTO 解剖    - 確定最佳穿刺位置    - 評估鈣化分布    - CT 評分可預測 ADR 成功率 |  |
+| **血管內超音波** | minipage[t]{11cm} - 確認導線位置    - 評估真腔大小    - 指引支架植入 |  |
+| **微導管技術** | minipage[t]{11cm} **Corsair 旋轉微導管:**    - 使用 bougie 技術擴張通道    - 協助 Stingray 氣球推進至所需位置    - 若微導管無法通過,可先用小氣球(1.0-1.5mm)擴張 |  |
+
+
+## 臨床實務建議
+
+
+### 術前準備
+
+
+1. **詳細評估:** 仔細檢視冠狀動脈攝影,評估病變複雜度
+2. **雙側注射:** 幾乎所有 CTO PCI 應使用雙側注射
+3. **影像輔助:** 考慮術前心臟電腦斷層評估
+4. **器械準備:** 確認 Stingray 或 ReCross 系統可用
+5. **支撐導線:** 準備 300cm 支撐導線(如 Miracle 12g)
+
+
+### 操作要點
+
+
+> **成功的關鍵因素:**
+> enumerate
+> \item **良好的遠端顯影:** 盡可能優化影像品質
+> \item **最小化血腫:** 控制內膜下剝離範圍
+> \item **適當的器械準備:** 確保所有腔室正確沖洗
+> \item **正確的技術:** 遵循標準操作步驟
+> \item **耐心與彈性:** 必要時多次嘗試或調整策略
+> enumerate
+> **避免常見錯誤:**
+> itemize
+> \item 過度推進造成內膜下血腫擴大
+> \item 氣球位置不理想就進行穿刺
+> \item 放棄太早,未嘗試多次穿刺或調整位置
+> \item 未確認導線位置就進行支架植入
+> itemize
+
+
+### 併發症預防與處理
+
+
+| p{11cm}} Double-Blind Stick-and-Swap 併發症管理 |  |  |
+| --- | --- | --- |
+| **併發症** | **預防與處理** |  |
+| **併發症** | **預防與處理** |  |
+| **冠狀動脈穿孔** | minipage[t]{11cm} **預防:**    - 避免過度用力穿刺    - 選擇適當的導線尖端負載    **處理:**    - 立即停止操作    - 氣球充氣封堵    - 必要時使用塗層支架    - 準備心包穿刺器械 |  |
+| **器械故障** | minipage[t]{11cm} **氣球破裂:**    - 最常見的故障模式(45  - 通常不造成臨床後果    - 準備備用氣球    **導管軸斷裂:**    - 避免過度彎曲或扭轉    - 仔細操作,監測阻力 |  |
+| **內膜下血腫擴大** | minipage[t]{11cm} - 控制剝離長度    - 考慮 STRAW 技術減壓    - 必要時改用逆向技術 |  |
+| **再進入失敗** | minipage[t]{11cm} - 嘗試 bobsledding 調整位置    - 多次穿刺增加成功機會    - 考慮改用 ReCross 系統    - 評估是否轉為逆向技術或分段處理 |  |
+
+
+## 未來發展與研究方向
+
+
+### 新型器械發展
+
+
+1. **Triumph 微導管:** 新型器械即將上市,預期提供更好的性能
+2. **改良的雙腔系統:** 優化腔室設計,提高操作性
+3. **更先進的導線技術:** 改善穿刺能力與可操控性
+
+
+### 影像技術整合
+
+
+- 術中血管內超音波引導
+- 光學同調斷層掃描(OCT)應用
+- 術前 CT 與術中影像融合
+- 人工智慧輔助路徑規劃
+
+
+### 訓練與教育
+
+
+- 模擬器訓練系統開發
+- 標準化操作流程建立
+- 區域性 CTO 專家中心培育
+- 遠距指導與協作平台
+
+
+## 結論
+
+
+### 核心訊息
+
+
+> enumerate
+> \item **Double-Blind Stick-and-Swap 是 CTO 介入治療的重要救援技術**
+> 當標準 ADR 技術失敗,特別是遠端血管因內膜下血腫壓迫而無法顯影時,此技術提供額外的成功機會。
+> \item **技術核心:雙向盲目穿刺**
+> 通過 Stingray 氣球或 ReCross 微導管的兩個出口同時進行穿刺嘗試,不依賴影像引導,增加再進入真腔的機會。
+> \item **需要豐富經驗與適當訓練**
+> 此技術屬於進階技巧,需要在有經驗的 CTO 術者指導下學習,並熟悉相關器械的使用。
+> \item **併發症風險可接受**
+> 雖然器械故障(如氣球破裂)相對常見,但嚴重臨床後果罕見,96
+> \item **混合策略的重要組成**
+> 在當代 CTO hybrid algorithm中,double-blind stick-and-swap 作為救援策略,與其他技術相輔相成,共同提高整體成功率。
+> enumerate
+
+
+### 臨床應用建議
+
+
+1. 在進行複雜 CTO PCI 時,應準備 ADR 相關器械作為備用
+2. 當標準技術遇到困難時,及早考慮使用 double-blind stick-and-swap
+3. 重視術前影像評估,特別是心臟電腦斷層的應用
+4. 保持策略彈性,必要時及時轉換技術方法
+5. 累積經驗,建立機構內的 CTO 專業團隊
+
+
+## 參考文獻
+
+
+1. Christopoulos G, Kotsia AP, Brilakis ES. The double-blind stick-and-swap technique for true lumen reentry after subintimal crossing of coronary chronic total occlusions. [*J Invasive Cardiol](https://pubmed.ncbi.nlm.nih.gov/26332885/). 2015;27(9):E199-E202.*
+2. Tiwana J, Kane JA, Azzalini L. A step-by-step approach to antegrade dissection and reentry. [*Cardiac Interventions Today](https://citoday.com/articles/2023-july-aug/a-step-by-step-approach-to-antegrade-dissection-and-reentry). 2023 July/Aug.*
+3. Wilson WM, Walsh SJ, Hanratty CG, et al. "Stick and Swap" technique through the ReCross dual-lumen microcatheter. [*JACC Case Rep](https://doi.org/10.1016/j.jaccas.2025.103371). 2025;103371.*
+4. Brilakis ES, Grantham JA, Rinfret S, et al. A percutaneous treatment algorithm for crossing coronary chronic total occlusions. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2012.02.006). 2012;5(4):367-379.*
+5. Tajti P, Karmpaliotis D, Alaswad K, et al. The hybrid approach to chronic total occlusion percutaneous coronary intervention: update from the PROGRESS CTO Registry. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2018.02.036). 2018;11(14):1325-1335.*
+6. Karacsonyi J, Kostantinis S, Simsek B, et al. Use of the limited antegrade subintimal tracking technique in chronic total occlusion percutaneous coronary intervention. *Catheter Cardiovasc Interv*. 2021.
+7. Whitlow PL, Lombardi WL, Araya M, et al. Initial experience with a dedicated coronary re-entry device for revascularization of chronic total occlusions. [*Catheter Cardiovasc Interv](https://doi.org/10.1002/ccd.23481). 2012;80(5):807-813.*
+8. Smith EJ, Di Mario C, Spratt JC, et al. Subintimal TRAnscatheter Withdrawal (STRAW) of hematomas compressing the distal true lumen: a novel technique to facilitate distal reentry during recanalization of chronic total occlusion (CTO). *J Invasive Cardiol*. 2015;27(1):E1-E4.
+9. Vo MN, Brilakis ES, Pershad A, Grantham JA. Modified subintimal transcatheter withdrawal: a novel technique for hematoma decompression to facilitate distal reentry during coronary chronic total occlusion recanalization. [*Catheter Cardiovasc Interv](https://doi.org/10.1002/ccd.24803). 2013;82(3):408-415.*
+10. Shaukat A, Mooney M, Burke MN, Brilakis ES. Use of chronic total occlusion percutaneous coronary intervention techniques for treating acute vessel closure. [*Catheter Cardiovasc Interv](https://doi.org/10.1002/ccd.27868). 2018;92(7):1265-1268.*
+11. Wilson W, Spratt JC. Recanalisation of coronary chronic total occlusions. [*EuroIntervention](https://eurointervention.pcronline.com/article/recanalisation-of-coronary-chronic-total-occlusions). 2024;20(11):e664-e683.*
+12. Brilakis ES, Mashayekhi K, Tsuchikane E, et al. Guiding principles for chronic total occlusion percutaneous coronary intervention. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA.118.031264). 2019;140(5):420-433.*
+13. Opolski MP, Achenbach S. CT angiography for revascularization of CTO: crossing the borders of diagnosis and treatment. [*JACC Cardiovasc Imaging](https://doi.org/10.1016/j.jcmg.2015.04.005). 2015;8(7):846-858.*
+14. Saito S, Tanaka S, Hiroe Y, et al. Japanese multicenter registry evaluating the antegrade dissection reentry with cardiac computerized tomography for chronic coronary total occlusion. [*Cardiovasc Interv Ther](https://doi.org/10.1007/s12928-021-00762-x). 2021;36(3):339-347.*
+15. Brilakis ES. *Manual of Coronary Chronic Total Occlusion Interventions: A Step-by-Step Approach*. 2nd ed. Elsevier; 2018.
+
+
+**關鍵詞:** 慢性完全閉塞、CTO、順向剝離再進入、ADR、Double-Blind Stick-and-Swap、Stingray、ReCross、經皮冠狀動脈介入治療
+
+
+## Bobsledding 技術在 CTO ADR 中的應用
+
+
+### 技術命名由來
+
+
+> **名稱來源:**
+> Bobsledding(雪橇滑行)是一種冬季奧林匹克運動,雪橇在蜿蜒曲折的冰道上高速滑行,駕駛員需要不斷調整雪橇位置以應對不同彎道。
+> 在 CTO 介入治療中,這個術語生動地形容了 **Stingray 氣球在冠狀動脈內膜下空間的動態調整過程**:
+> itemize
+> \item 就像雪橇在賽道上來回調整位置
+> \item Stingray 氣球在血管內前進、後退、旋轉
+> \item 目的是找到最佳的穿刺角度和位置
+> \item 最終成功再進入遠端真腔
+> itemize
+
+
+### Bobsledding 技術定義
+
+
+| p{11cm}} Bobsledding 技術的核心概念 |  |  |
+| --- | --- | --- |
+| **項目** | **說明** |  |
+| **項目** | **說明** |  |
+| **定義** | minipage[t]{11cm} 在 ADR 過程中,當初次穿刺嘗試失敗時,將 Stingray 氣球**洩氣**,然後**推進或回縮**至冠狀動脈的不同位置,**重新充氣**後再次嘗試穿刺的技術 |  |
+| **英文術語** | minipage[t]{11cm} - Bobsledding    - Stingray repositioning    - Dynamic balloon positioning |  |
+| **技術目的** | minipage[t]{11cm} - 改變 Stingray 出口相對於血管鈣化或纖維化的方向    - 尋找更有利的穿刺位置    - 優化出口與真腔的相對位置    - 增加再進入成功率 |  |
+| **使用時機** | minipage[t]{11cm} - 初次穿刺失敗    - 導線無法進入遠端真腔    - 出口方向不理想(面對鈣化或纖維化組織)    - 需要調整穿刺角度時 |  |
+
+
+### Bobsledding 操作步驟
+
+
+| p{12cm}} Bobsledding 技術詳細步驟 |  |  |
+| --- | --- | --- |
+| **步驟** | **操作說明** |  |
+| **步驟** | **操作說明** |  |
+| **1. 評估失敗 原因** | minipage[t]{12cm} **判斷為何初次穿刺未能成功:**    - 出口方向不佳,面向外膜而非真腔    - 穿刺位置的血管壁過厚(鈣化或纖維化)    - Stingray 氣球與真腔距離過遠(>0.5mm)    - 內膜下空間過大,難以定向    - 遠端分叉血管影響穿刺 |  |
+| **2. 洩氣準備** | minipage[t]{12cm} **小心將 Stingray 氣球洩氣:**    - 緩慢釋放壓力,避免氣球損傷    - 保持導線位置穩定    - 確認氣球完全洩氣後再移動    - 注意監測血流動力學變化 |  |
+| **3. 重新定位** | minipage[t]{12cm} **動態調整氣球位置:**    **前進(Advance):**    - 將氣球向遠端推進 5-10mm    - 適用於當前位置過於靠近近端冠狀動脈帽    - 尋找更靠近理想再進入區(reentry zone)的位置    **後退(Retract):**    - 將氣球向近端回縮 5-10mm    - 適用於當前位置血管壁過厚或鈣化嚴重    - 避開不利的解剖結構(如分叉)    **旋轉調整:**    - 輕微旋轉導引導管或 Stingray 系統    - 改變氣球在血管內的角度    - 優化出口相對於真腔的方向 |  |
+| **4. 影像確認** | minipage[t]{12cm} **使用多角度影像評估新位置:**    - 對側注射顯示遠端血管解剖    - 選擇最佳攝影角度    - 評估氣球相對於真腔的位置    - 確認無分支血管阻擋    - 評估血管鈣化分布 |  |
+| **5. 重新充氣** | minipage[t]{12cm} **在新位置充氣固定:**    - 標準充氣壓力 4 atm    - 不要過度充氣(避免氣球破裂)    - 確認氣球穩定在理想位置    - 兩個平行氣球應完全充氣以提供穩定性 |  |
+| **6. 再次穿刺** | minipage[t]{12cm} **使用適當技術嘗試穿刺:**    - 標準 stick-and-swap 技術    - 必要時使用 double-blind stick-and-swap    - 通過兩個出口嘗試穿刺    - 評估每次穿刺的反饋(阻力、觸感) |  |
+| **7. 重複循環** | minipage[t]{12cm} **必要時重複 bobsledding 過程:**    - 若仍未成功,可再次調整位置    - 每次移動 5-10mm    - 通常可嘗試 2-4 次 bobsledding    - 記錄每個位置的穿刺結果    - 避免過度操作導致血腫擴大 |  |
+
+
+### Bobsledding 的影像引導
+
+
+| p{11cm}} 優化 Bobsledding 效果的影像技術 |  |  |
+| --- | --- | --- |
+| **影像技術** | **應用重點** |  |
+| **影像技術** | **應用重點** |  |
+| **雙側注射** | minipage[t]{11cm} - 同時顯示近端和遠端血管解剖    - 提供完整的路徑圖(roadmap)    - 評估內膜下空間大小    - 確認 Stingray 氣球相對真腔的位置 |  |
+| **多角度攝影** | minipage[t]{11cm} - 至少使用 2-3 個不同角度    - RAO(右前斜)和 LAO(左前斜)投影    - Cranial(頭位)和 Caudal(足位)角度    - 選擇最能顯示 Stingray 出口方向的角度 |  |
+| **標記帶定位** | minipage[t]{11cm} **Stingray 氣球的兩個顯影標記帶:**    - 近端標記:指示近端出口位置    - 遠端標記:指示遠端出口位置    - 標記間距離約 3mm    - 用於精確追蹤氣球移動距離 |  |
+| **術前 CT 規劃** | minipage[t]{11cm} **心臟電腦斷層的價值:**    - 預先確定最佳再進入區(reentry zone)    - 評估鈣化分布和位置    - 規劃 bobsledding 的目標位置    - CT 評分可預測成功率    **理想再進入區特徵:**      - 血管較大      - 無鈣化或輕度鈣化      - 無近端分叉      - 與真腔距離<0.5mm |  |
+| **血管內影像** | minipage[t]{11cm} **IVUS(血管內超音波)輔助:**    - 確認導線是否在真腔    - 評估內膜下空間大小    - 測量 Stingray 與真腔的距離    - 指引最佳穿刺位置 |  |
+
+
+### Bobsledding 與其他技術的組合
+
+
+| p{11cm}} Bobsledding 的協同技術應用 |  |  |
+| --- | --- | --- |
+| **組合技術** | **策略說明** |  |
+| **組合技術** | **策略說明** |  |
+| **Bobsledding + STRAW** | minipage[t]{11cm} **組合應用策略:**    - 先使用 STRAW 技術抽吸內膜下血腫    - 減少血腫對真腔的壓迫    - 然後進行 bobsledding 調整位置    - 在血腫較小的情況下更容易成功    **STRAW 技術要點:**      - Subintimal TRAnscatheter Withdrawal      - 通過 Stingray 氣球抽吸血腫      - 需要 8F 導引導管以容納抽吸導管 |  |
+| **Bobsledding + Double-Blind Stick-and-Swap** | minipage[t]{11cm} **最大化成功機會:**    - 每次 bobsledding 後使用雙向穿刺    - 不依賴影像引導選擇出口    - 系統性嘗試所有可能的穿刺方向    - 適用於遠端血管無法顯影的情況 |  |
+| **Bobsledding + Bougie 技術** | minipage[t]{11cm} **促進 Stingray 推進:**    - 使用旋轉微導管(如 Corsair)擴張通道    - 按照亞太 CTO 俱樂部(APCTO)建議    - 避免不必要的打結導線(knuckle wire)    - 直接將 Stingray 氣球送至目標位置    **Bougie 步驟:**      1. 旋轉微導管跟隨導線前進      2. 擴張內膜下通道      3. 若微導管無法通過,先用 1.0-1.5mm 小氣球擴張      4. 然後推進 Stingray 氣球 |  |
+| **Buddy Stingray 技術** | minipage[t]{11cm} **多階段 bobsledding:**    - 使用多個 Stingray 氣球逐步調整    - 第一個氣球:調整導線至較接近真腔位置    - Bobsledding 移動至更遠端    - 第二個氣球:在新位置進行最終穿刺    **適應症:**      - 病變扭曲且有角度      - 第一次位置與真腔距離過遠      - 需要逐步接近理想再進入區    **限制:**      - 增加手術成本(使用兩個氣球)      - 需要小心維持兩個導管系統      - 手術時間較長 |  |
+
+
+### 解剖因素對 Bobsledding 的影響
+
+
+| p{11cm}} 影響 Bobsledding 成功率的解剖因素 |  |  |
+| --- | --- | --- |
+| **解剖特徵** | **對 Bobsledding 的影響** |  |
+| **解剖特徵** | **對 Bobsledding 的影響** |  |
+| **再進入區大小** | minipage[t]{11cm} **有利條件:**    - 再進入區長度 >20mm    - 有較大的調整空間    - 可多次嘗試不同位置    **不利條件:**    - 短再進入區(<10mm)    - Bobsledding 調整空間有限    - 需要精確定位 |  |
+| **鈣化分布** | minipage[t]{11cm} **鈣化位置影響策略:**    - **心肌側鈣化:**有利於再進入(CT score +1)      - Bobsledding 應定位使出口朝向心肌側    - **外膜側鈣化:**不利於再進入(CT score +2)      - 需要 bobsledding 避開鈣化區域    - **環形鈣化:**最困難(CT score +3)      - Bobsledding 效果有限      - 考慮其他策略 |  |
+| **血管扭曲度** | minipage[t]{11cm} **扭曲血管的挑戰:**    - Stingray 氣球難以穿過彎曲    - Bobsledding 時容易打折或扭結    - 需要更強的支撐導線(如 Miracle 12g)    **應對策略:**    - 使用 bougie 技術預先擴張通道    - 選擇較直的血管段進行再進入    - 考慮逆向技術作為替代 |  |
+| **血管直徑** | minipage[t]{11cm} **理想血管大小:**    - 直徑 2.5-4.0mm 最適合    - Stingray 氣球可良好貼附血管壁    **小血管(<2.0mm):**    - 氣球相對過大,操作困難    - Bobsledding 效果受限    **大血管(>4.0mm):**    - 氣球無法完全貼附血管壁    - 定向性較差    - 需要更多次 bobsledding 調整 |  |
+| **遠端分叉** | minipage[t]{11cm} **分叉的影響:**    - 遠端冠狀動脈帽有分叉:不利再進入    - 穿刺可能誤入分支    - 真腔開口被分叉遮擋    **Bobsledding 策略:**    - 避開分叉位置    - 選擇分叉前或分叉後的再進入區    - 考慮 double Stingray 技術處理分叉病變 |  |
+| **導線與真腔 距離** | minipage[t]{11cm} **距離評估:**    - <0.5mm:有利於成功再進入    - 0.5-1.0mm:需要精確穿刺    - >1.0mm:成功率顯著下降    **Bobsledding 目標:**    - 透過位置調整縮短與真腔距離    - 尋找導線更接近真腔的位置    - 結合 IVUS 評估距離 |  |
+
+
+### Bobsledding 的臨床考量
+
+
+| p{11cm}} Bobsledding 技術的實務考量 |  |  |
+| --- | --- | --- |
+| **考量因素** | **說明與建議** |  |
+| **考量因素** | **說明與建議** |  |
+| **手術時間** | minipage[t]{11cm} **時間管理:**    - 每次 bobsledding 循環約需 5-10 分鐘    - 包括洩氣、重新定位、充氣、穿刺嘗試    - 通常可接受 2-4 次 bobsledding    - 總計增加 20-40 分鐘手術時間    **效率考量:**    - 避免過度 bobsledding 導致疲勞    - 記錄每次位置和結果    - 及時評估是否應轉換策略 |  |
+| **輻射暴露** | minipage[t]{11cm} **輻射防護:**    - Bobsledding 增加透視時間    - 每次定位需要多角度確認    - 使用間歇式透視而非連續透視    - 優化攝影角度減少重複曝光    - 考慮使用記錄參考影像(last image hold)    **劑量控制:**    - 監測累積輻射劑量    - 設定劑量警戒值    - 平衡影像品質與輻射安全 |  |
+| **對比劑用量** | minipage[t]{11cm} **對比劑管理:**    - 每次 bobsledding 需要對側注射確認    - 累積對比劑用量增加    - 注意腎功能不全患者    **減量策略:**    - 使用低滲或等滲對比劑    - 優化注射速度和劑量    - 充分水化預防對比劑腎病    - 必要時考慮暫停以代謝對比劑 |  |
+| **器械耐用性** | minipage[t]{11cm} **氣球磨損風險:**    - 反覆充氣/洩氣可能導致氣球疲勞    - 在鈣化血管中移動增加損傷風險    - 監測氣球充氣壓力變化    - 準備備用 Stingray 系統    **預防措施:**    - 洩氣時緩慢釋放壓力    - 移動時避免過度用力    - 充氣時不超過建議壓力(4 atm) |  |
+| **血腫擴大風險** | minipage[t]{11cm} **潛在風險:**    - 反覆氣球充氣可能擴大內膜下空間    - 多次穿刺增加出血    - 血腫擴大壓迫真腔    **監測與處理:**    - 注意遠端血管顯影變化    - 血腫擴大時考慮 STRAW 技術    - 評估是否應停止 bobsledding    - 必要時轉換為逆向技術 |  |
+| **患者耐受性** | minipage[t]{11cm} **臨床監測:**    - 長時間手術增加患者不適    - 監測血流動力學穩定性    - 注意心絞痛或缺血徵象    **麻醉管理:**    - 確保足夠鎮靜    - 適時補充鎮痛藥物    - 必要時諮詢麻醉科協助 |  |
+
+
+### Bobsledding 成功與失敗的預測因子
+
+
+| p{5cm}p{6cm}} Bobsledding 技術成功率的相關因素 |  |  |
+| --- | --- | --- |
+| **因素** | **有利於成功** | **預示失敗** |
+| **因素** | **有利於成功** | **預示失敗** |
+| **病變特徵** | minipage[t]{5cm} - 再進入區長度>20mm    - 輕度或無鈣化    - 血管相對較直    - 無遠端分叉 | minipage[t]{6cm} - 短再進入區(<10mm)    - 嚴重環形鈣化    - 血管扭曲或成角    - 遠端冠狀動脈帽有分叉 |
+| **導線位置** | minipage[t]{5cm} - 與真腔距離<0.5mm    - 內膜下空間小    - 無顯著血腫 | minipage[t]{6cm} - 與真腔距離>1.0mm    - 廣泛內膜下剝離    - 大量血腫壓迫 |
+| **影像品質** | minipage[t]{5cm} - 遠端血管清晰顯影    - 良好的對側灌注    - 多角度確認位置 | minipage[t]{6cm} - 遠端血管顯影不清    - 對側灌注不良    - 僅單一角度影像 |
+| **術者經驗** | minipage[t]{5cm} - 豐富的 CTO 經驗    - 熟悉 ADR 技術    - 良好的觸覺反饋 | minipage[t]{6cm} - 有限的 CTO 經驗    - 不熟悉器械操作    - 缺乏故障排除能力 |
+| **器械因素** | minipage[t]{5cm} - 氣球功能正常    - 充足的支撐導線    - 適當的導引導管 | minipage[t]{6cm} - 氣球破裂或損壞    - 支撐導線不足    - 導引導管支撐不良 |
+
+
+### Bobsledding 失敗後的策略
+
+
+> **階梯式救援策略:**
+> enumerate
+> \item **第一階段:優化當前技術**
+> itemize
+> \item 嘗試更多次 bobsledding(最多 4-5 次)
+> \item 結合 STRAW 技術減壓血腫
+> \item 使用 double-blind stick-and-swap
+> \item 更換更有經驗的術者
+> itemize
+> \item **第二階段:改變再進入策略**
+> itemize
+> \item 嘗試 ReCross 雙腔微導管
+> \item 考慮導線為基礎的 LAST 技術
+> \item 評估平行導線(parallel wire)可行性
+> itemize
+> \item **第三階段:轉換主要策略**
+> itemize
+> \item 改用逆向技術(retrograde approach)
+> \item 評估介入性側枝循環是否適合
+> \item 考慮 CART 或 reverse CART 技術
+> itemize
+> \item **第四階段:分段處理或延遲**
+> itemize
+> \item 投資性手術(investment procedure)
+> \item 植入支架至可達範圍
+> \item 延遲 3-6 個月後再次嘗試
+> \item 評估外科冠狀動脈繞道手術(CABG)適應症
+> itemize
+> enumerate
+> **決策時機:**
+> itemize
+> \item 手術時間>3 小時
+> \item 對比劑用量超過安全限制
+> \item 輻射劑量達到警戒值
+> \item 患者出現缺血或血流動力學不穩定
+> \item 多次嘗試無進展
+> itemize
+
+
+### Bobsledding 的學習曲線
+
+
+| p{11cm}} 掌握 Bobsledding 技術的學習階段 |  |  |
+| --- | --- | --- |
+| **學習階段** | **特徵與建議** |  |
+| **學習階段** | **特徵與建議** |  |
+| **初學階段 (0-20例)** | minipage[t]{11cm} **學習重點:**    - 熟悉 Stingray 系統基本操作    - 掌握氣球充氣/洩氣技巧    - 學習辨識適當的穿刺時機    **建議:**    - 在有經驗術者監督下操作    - 選擇相對簡單的病例    - 避免扭曲血管或嚴重鈣化    - 記錄每次 bobsledding 的結果 |  |
+| **進階階段 (20-50例)** | minipage[t]{11cm} **能力發展:**    - 獨立判斷何時需要 bobsledding    - 根據影像決定最佳移動方向    - 整合多種輔助技術(STRAW等)    **挑戰:**    - 處理更複雜的解剖結構    - 應對血腫擴大等併發症    - 提高手術效率,減少時間 |  |
+| **專家階段 (>50例)** | minipage[t]{11cm} **精進技能:**    - 精確預測最佳 bobsledding 位置    - 靈活組合多種進階技術    - 處理最困難的失敗病例    **角色:**    - 指導年輕醫師學習    - 發展機構內 CTO 計畫    - 參與區域或國家級教學 |  |
+| **持續教育** | minipage[t]{11cm} **保持技能:**    - 定期參加 CTO 專業研討會    - 觀摩線上直播示教手術    - 閱讀最新文獻和技術更新    - 參與多中心登錄研究    - 與國際 CTO 俱樂部交流 |  |
+
+
+### Bobsledding 的臨床證據
+
+
+| p{11cm}} Bobsledding 技術的循證醫學支持 |  |  |
+| --- | --- | --- |
+| **研究類型** | **主要發現** |  |
+| **研究類型** | **主要發現** |  |
+| **登錄研究** | minipage[t]{11cm} **PROGRESS CTO Registry:**    - Hybrid 演算法中 ADR 使用率 20-34  - 器械為基礎的再進入成功率較高    - Bobsledding 作為常規故障排除技術    **APCTO Registry:**    - 亞太地區 CTO 術者經驗總結    - 推薦 bougie 技術配合 bobsledding    - 強調避免不必要的打結導線 |  |
+| **比較研究** | minipage[t]{11cm} **器械 vs. 導線為基礎的再進入:**    - 器械為基礎(Stingray)更可預測    - 手術時間相似或略短    - 中長期結果無顯著差異    - Bobsledding 可提高初次失敗病例的成功率 |  |
+| **技術創新報告** | minipage[t]{11cm} **Buddy Stingray and Stick:**    - 案例報告顯示多階段 bobsledding 可行    - 適用於扭曲血管和困難再進入    - 需要較低的操作技巧門檻    - 增加手術成本但提高成功率 |  |
+| **併發症分析** | minipage[t]{11cm} **MAUDE 登錄資料:**    - 氣球破裂是最常見故障(45  - 反覆充氣/洩氣可能增加破裂風險    - 96  - 嚴重併發症(穿孔、心包填塞)罕見 |  |
+| **學習曲線研究** | minipage[t]{11cm} - 需要 20-30 例建立基本技能    - 術者年度 CTO 量與成功率正相關    - 高容量中心成功率更高    - 團隊方法優於單一術者 |  |
+
+
+### 臨床實務建議總結
+
+
+> **何時使用 Bobsledding:**
+> itemize
+> \item 初次 Stingray 穿刺失敗
+> \item 出口方向面對鈣化或纖維化
+> \item 穿刺位置不理想
+> \item 導線無法進入遠端真腔
+> itemize
+> **如何優化效果:**
+> enumerate
+> \item 使用術前 CT 規劃目標位置
+> \item 多角度影像評估每個位置
+> \item 結合 STRAW 技術減少血腫
+> \item 考慮 double-blind stick-and-swap
+> \item 記錄每次嘗試的結果
+> enumerate
+> **何時停止 Bobsledding:**
+> itemize
+> \item 嘗試 3-4 個不同位置仍失敗
+> \item 血腫持續擴大
+> \item 氣球破裂或器械故障
+> \item 手術時間或輻射劑量過高
+> \item 患者出現缺血或血流動力學不穩定
+> itemize
+> **成功的關鍵:**
+> itemize
+> \item 術前影像評估充分
+> \item 器械操作熟練
+> \item 影像引導精確
+> \item 耐心與系統性方法
+> \item 適時整合其他技術
+> \item 知道何時轉換策略
+> itemize
+
+
+### 未來發展方向
+
+
+1. **器械改良:**  - 更小型化的 Stingray 系統(適用於小血管) - 增強的標記系統(更精確的位置追蹤) - 改良的氣球材質(增加耐用性) - 整合壓力感測器(即時反饋穿刺力度)
+2. **影像技術整合:**  - 即時 IVUS 或 OCT 引導 bobsledding - 術前 CT 與術中影像融合 - 人工智慧預測最佳位置 - 3D 重建輔助路徑規劃
+3. **標準化與教學:**  - 建立 bobsledding 標準操作流程 - 開發模擬器訓練系統 - 製作線上教學影片庫 - 推廣區域性 proctorship 計畫
+4. **循證研究:**  - 多中心前瞻性登錄研究 - 評估最佳 bobsledding 次數 - 比較不同器械的效果 - 長期臨床結果追蹤

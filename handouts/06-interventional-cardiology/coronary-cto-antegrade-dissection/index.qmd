@@ -1,0 +1,547 @@
+---
+title: "coronary CTO antegrade dissection"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{\bfseriesemergency_red 順行性剝離及再進入技術}
+[0.3cm]
+    {emergency_blue Antegrade Dissection and Re-entry (ADR)}
+[0.5cm]
+    {\bfseries 慢性完全閉塞病變介入治療進階技術}
+[1cm]
+    
+    tcolorbox[colback=emergency_blue!5!white,colframe=emergency_blue,width=0.8\textwidth]
+        
+        **主講者：** Emmanouil S. Brilakis, MD, PhD
+Minneapolis Heart Institute
+[0.3cm]
+        **整理者：** 謝慕揚, MD, PhD, FESC
+國立臺灣大學醫學院附設醫院新竹生醫園區分院
+心血管中心主任
+[0.3cm]
+        **日期：** \mydate
+    tcolorbox
+
+
+\tableofcontents
+
+---
+
+
+## 課程簡介 (Introduction)
+
+
+本教學講義根據 Emmanouil S. Brilakis 醫師的教學影片整理而成，內容涵蓋慢性完全閉塞病變 (Chronic Total Occlusion, CTO) 介入治療中的順行性剝離及再進入技術 (Antegrade Dissection and Re-entry, ADR)。這些技術對於處理複雜的 CTO 病變至關重要。
+
+本講義詳細說明 ADR 的基本概念、各種技術變化、臨床應用以及疑難排解策略。相關內容也收錄於 Manual of CTO Interventions 第二版第五章。
+
+
+        **影片來源**為
+        [YouTube: Antegrade Dissection and Re-entry - Step by Step](https://www.youtube.com/watch?v=2c4hzgFDIiM), 請參閱線上影片，搭配此分講義閱讀。
+
+
+    
+ADR 技術是 CTO 介入治療的重要組成部分，約有25
+
+
+## 基本術語與概念 (Terminology and Concepts)
+
+
+### ADR 的組成部分
+
+
+順行性剝離及再進入技術由兩個主要部分組成：
+
+
+1. **剝離 (Dissection)**：在血管的次內膜層 (subintimal space) 創造通道      - 順行方向：可使用 knuckle wire 或 Crossboss catheter - 逆行方向：僅使用 knuckle wire
+2. **再進入 (Re-entry)**：從次內膜層重新進入遠端真腔 (distal true lumen)      - 順行方向：多種技術可用，目前以 Stingray 系統為主 - 逆行方向：主要使用 reverse CART 技術
+
+
+### 再進入技術的演進
+
+
+| p{11cm}  **技術名稱** | **技術說明** |  |
+| --- | --- | --- |
+| STAR   (Subintimal Tracking And Re-entry) | 最早的技術，使用 knuckled wire 前進直到自發性再進入遠端真腔 |  |
+| Contrast-guided STAR   (Carlino technique) | STAR 技術的改良版，注射少量對比劑（0.5-1 cc）以引導再進入 |  |
+| Mini-STAR | 基於導線的再進入技術，目前較少使用 |  |
+| LAST   (Limited Antegrade Subintimal Tracking) | 另一種導線基礎的再進入技術，目前較少使用 |  |
+| Stingray system | **目前最常用的技術**，提供精確的再進入點，可最小化剝離長度 |  |
+
+
+## Crossboss Catheter 技術
+
+
+### 適應症選擇
+
+
+根據 Hybrid Algorithm，順行性路徑的選擇標準：
+
+importantbox
+**順行性路徑選擇條件：**
+
+- 清楚的近端帽 (clear proximal cap)
+- 良好的遠端目標 (good distal target)
+
+
+**技術選擇：**
+
+- 病變長度 < 20 mm：使用導線升級技術 (wire escalation)
+- 病變長度 ≥ 20 mm：使用 ADR 技術
+
+
+importantbox
+
+
+### Crossboss 的特殊優勢
+
+
+Crossboss catheter 在支架內再狹窄 (in-stent restenosis, ISR) 病變中特別有用：
+
+
+- 支架作為屏障，幫助 Crossboss 保持在真腔內
+- 降低穿出血管的風險
+- 提高成功率
+
+
+### 操作步驟
+
+
+| }  **步驟** | **操作說明** |  |  |
+| --- | --- | --- | --- |
+| 1 | 使用 workhorse guide wire 前進至近端帽 |  |  |
+| 2 | 將 Crossboss catheter 經由導線推進 |  |  |
+| 3 | 將導線退回至 Crossboss catheter 內部   **重點：**Crossboss 是唯一**不經由導線**推進的裝置 |  |  |
+| 4 | 在距離 Y 接頭約 2-3 指寬處固定 torque device   **目的：**如果 Crossboss 突然跳動前進，torque device 可以作為止動器，防止裝置前進過遠造成穿孔 |  |  |
+| 5 | 快速旋轉裝置（順時針或逆時針皆可）   **特性：**Crossboss 可能會以「量子方式」運動——數秒內不動，然後突然跳動到各個位置 |  |  |
+| 6 | 判斷 Crossboss catheter 的位置 |  |  |
+
+
+### Crossboss 位置判讀與處理
+
+
+| p{10cm}}  **可能位置** | **處理策略** |  |
+| --- | --- | --- |
+| 停留在近端帽後方 | **原因：**近端帽鈣化或嚴重硬化   **解決方案：**   - 增加 guide catheter 支撐力   - 使用硬導線穿刺近端帽   - 改用導線升級技術 |  |
+| 進入側枝 | **解決方案：**   - 使用 knuckle wire 重新導引方向   - 使用硬導線重新導引進入閉塞處   - 需要使用正交投影角度（如 RCA 使用 LAO 和 RAO） |  |
+| 停留在閉塞內部 | **解決方案：**   - 推進 knuckled guide wire   - 改用導線升級技術 |  |
+| 進入遠端帽後的次內膜層 | **這是預期結果**   **下一步：**執行再進入程序，通常使用 Stingray 系統 |  |
+| 直接進入遠端真腔 | **理想情況**（約佔 1/3 案例，來自 FAST-CTOs 研究）   **下一步：**繼續進行標準 PCI 程序 |  |
+
+
+使用任何順行性剝離再進入技術時，**必須斷開注射針筒與 manifold 的連接**，以避免意外將對比劑注射到次內膜層，可能導致剝離範圍擴大。
+
+
+## Knuckle Wire 技術
+
+
+### Knuckle Wire 的形成與應用
+
+
+Knuckle wire 是在次內膜層推進的重要技術：
+
+
+- 將導線彎曲成圈狀（knuckle）
+- 以鈍性方式在次內膜層推進
+- 相對安全，穿孔風險較低
+- 可用於順行或逆行路徑
+
+
+### Knuckle Wire 的使用時機
+
+
+1. Crossboss 無法穿透近端帽時
+2. Crossboss 進入側枝需要重新導引時
+3. Crossboss 停留在閉塞內部時
+4. 作為獨立的剝離技術
+
+
+## Stingray 系統再進入技術
+
+
+### Stingray 系統組成
+
+
+Stingray 系統是目前最常用的受控再進入技術，包含：
+
+
+- Stingray balloon：特殊設計的扁平氣球
+- 兩個側向出口（exit ports）：位於氣球兩側
+- Stingray guide wire：專用的硬導線
+
+
+### Stingray 定位原則
+
+
+importantbox
+**正確定位的黃金法則：**
+
+Stingray balloon 應該定位在：
+
+- 能看到遠端真腔對比劑顯影的位置
+- 遠端參考血管直徑的 1.5 倍處
+- 通常距離閉塞遠端約 5-10 mm
+
+
+**目標：**最小化次內膜剝離的長度
+importantbox
+
+
+### Stick-and-Swap 技術
+
+
+這是目前最常用的 Stingray 再進入技術：
+
+
+| }  **步驟** | **操作說明** |  |  |
+| --- | --- | --- | --- |
+| 1 | 將 Stingray balloon 充氣至 2 atm   使氣球扁平化，形成兩個側向出口 |  |  |
+| 2 | 選擇面向遠端真腔的出口   通常使用正交投影來判斷 |  |  |
+| 3 | 推進 Stingray guide wire 穿刺   目標：從次內膜層進入真腔 |  |  |
+| 4 | **如果失敗**：將導線退回，旋轉 Stingray balloon 180度，從另一側出口嘗試 |  |  |
+| 5 | 成功穿刺後，移除 Stingray balloon |  |  |
+| 6 | 更換為 polymer-jacketed wire（通常是 Pilot 200）   推進至遠端，避免造成剝離或其他併發症 |  |  |
+
+
+### Double-Blind Stick-and-Swap 技術
+
+
+這是 Stick-and-Swap 的變化版本：
+
+
+- 從 Stingray balloon 兩側同時推進導線
+- 持續嘗試直到選中真腔
+- 適用於真腔位置不確定時
+
+
+### 併發症處理：次內膜血腫
+
+
+**問題：**再進入時可能造成次內膜血腫，壓迫遠端真腔，使再進入更困難。
+
+**解決方案：STRAW 技術**
+
+- STRAW = Subintimal Transcatheter Withdrawal
+- 使用氣球抽吸血腫，減壓
+- 使血管重新擴張，提供更好的再進入目標
+
+
+## Non-Stingray 再進入技術
+
+
+### Carlino 技術（改良微量對比劑注射法）
+
+
+這是一種不使用 Stingray 的再進入技術：
+
+
+| }  **步驟** | **操作說明** |  |  |
+| --- | --- | --- | --- |
+| 1 | 將 microcatheter 推進至次內膜層 |  |  |
+| 2 | 注射少量對比劑（0.5-1 cc）   對比劑會在次內膜層擴散 |  |  |
+| 3 | 推進導線至對比劑創造的空間 |  |  |
+| 4 | 使用 Stingray balloon 或繼續推進導線再進入遠端真腔 |  |  |
+
+
+**優點：**
+
+- 可以軟化遠端帽
+- 增加導線穿越的成功率
+- 適用於 Stingray 無法穿刺的情況
+
+
+### STAR 技術（次內膜追蹤及自發性再進入）
+
+
+這是由 Antonio Colombo 醫師描述的經典技術：
+
+**原理：**
+
+- 使用 knuckled wire 在次內膜層持續前進
+- 導線自發性地重新進入遠端真腔
+- 不需要特殊再進入裝置
+
+
+**適用情況：**
+
+- Stingray 無法成功再進入時
+- 作為救援策略
+- 可能需要較長的剝離長度
+
+
+**注意事項：**
+
+- 較高的再狹窄風險（與廣泛次內膜剝離相關）
+- 應該謹慎使用
+- 必要時可以考慮「投資」策略：等待數月後再次介入
+
+
+STAR 技術雖然可能造成較長的剝離長度和較高的再狹窄風險，但在某些情況下，它可以作為「投資」策略——先恢復順行血流，等待 3-6 個月後再次介入會更容易成功。
+
+
+## 臨床案例分析
+
+
+### 案例一：Crossboss 進入側枝的處理
+
+
+**病例背景：**RCA CTO
+
+**問題：**
+
+- Crossboss catheter 進入 acute marginal branch
+- 未能進入 distal RCA 和 posterolateral vessel
+
+
+**解決方案：**
+
+1. 使用 knuckled guide wire 重新導引
+2. 成功將 Crossboss 導向 right posterolateral branch
+3. 完成程序
+
+
+### 案例二：STAR 技術的「投資」策略
+
+
+**病例背景：**RCA CTO
+
+**初次介入：**
+
+- 達到次內膜層穿越
+- Stingray 嘗試再進入但失敗
+- 導線持續停留在次內膜層
+- 形成 knuckle 並進行多次氣球擴張
+- 恢復部分順行血流
+- 遠端導線位置不在真腔內
+- **決定：不置放支架**
+
+
+**3個月後再次介入：**
+
+- 良好的順行血流至 distal RCA
+- 這是「投資」技術的效果
+- 輕鬆推進 workhorse guide wire 至遠端真腔
+- 成功置放支架
+
+
+**教訓：**有時候分階段策略比一次完成更好。
+
+
+### 案例三：非 CTO 介入的 ADR 應用
+
+
+**病例背景：**RCA PCI 併發症
+
+**問題：**
+
+- 導線引起的剝離
+- 急性血管閉塞
+- 導線無法在真腔內前進
+
+
+**解決方案：**
+
+1. 導線次內膜前進
+2. 使用 Stingray 系統再進入遠端真腔
+3. 成功置放支架
+4. 恢復順行血流
+
+
+**重點：**ADR 技術不僅適用於 CTO，在處理 PCI 併發症時也非常有用。
+
+
+## J-CTO Score 與技術選擇
+
+
+### J-CTO Score 與成功策略的關係
+
+
+根據 PROGRESS-CTO 登記研究（超過 3,000 例）的數據：
+
+
+| **J-CTO Score** | **導線升級技術** | **逆行技術** | **ADR 技術** |
+| --- | --- | --- | --- |
+| 0-1 (簡單) | 高比例 | 低比例 | 低比例 |
+| 2-3 (中度) | 中等比例 | 中等比例 | 中等比例 |
+| 4-5 (困難) | 低比例 | 高比例 | 高比例 |
+
+
+importantbox
+**整體成功策略分布（PROGRESS-CTO）：**
+
+- 約 50
+- 約 25
+- 約 25
+
+
+**結論：**對於複雜 CTO 病變，熟練掌握 ADR 和逆行技術至關重要。
+importantbox
+
+
+## 再狹窄風險考量
+
+
+### 剝離長度與再狹窄的關係
+
+
+根據研究數據：
+
+
+| p{10cm}}  **技術類型** | **再狹窄風險** |  |
+| --- | --- | --- |
+| 廣泛次內膜剝離   (Extensive subintimal tracking)   例如：STAR 技術 | **較高的再狹窄風險**   與長距離的次內膜剝離相關 |  |
+| 限制性再進入技術   (Limited re-entry)   例如：Stingray 系統 | **相對較低的再狹窄風險**   即使在更複雜的病例中使用   精確的再進入點最小化剝離長度 |  |
+
+
+### 降低再狹窄風險的策略
+
+
+1. **優先使用 Stingray 系統**      - 提供精確的再進入點 - 最小化次內膜剝離長度
+2. **適當的 Stingray 定位**      - 在能看到遠端真腔顯影的最近位置 - 約在遠端參考血管直徑的 1.5 倍處
+3. **STAR 技術的謹慎使用**      - 僅作為救援策略 - 考慮分階段介入（投資策略）
+4. **完整的支架覆蓋**      - 確保次內膜剝離區域完全覆蓋 - 使用 IVUS 或 OCT 指引可能有幫助
+
+
+## 疑難排解策略 (Troubleshooting)
+
+
+### Crossboss 相關問題
+
+
+| p{10cm}}  **問題** | **解決策略** |  |
+| --- | --- | --- |
+| 無法穿透近端帽 | 1. 增加 guide catheter 支撐力（GuideLiner, guide catheter extension）    2. 使用硬導線穿刺近端帽    3. 改用導線升級技術    4. 考慮近端帽修飾（proximal cap modification） |  |
+| 反覆進入側枝 | 1. 使用 knuckle wire 導引    2. 使用硬導線重新導向    3. 多角度投影（LAO + RAO）    4. 考慮使用雙導線技術固定側枝 |  |
+| 停留在閉塞內部 | 1. 推進 knuckled wire    2. 改用導線升級技術    3. 考慮小球囊預擴張    4. 評估是否需要改用逆行路徑 |  |
+| Crossboss 跳動不可預測 | 1. 確保 torque device 正確定位（2-3 指寬）    2. 準備隨時判斷位置    3. 斷開注射系統防止意外注射    4. 緩慢、穩定的旋轉動作 |  |
+
+
+### Stingray 相關問題
+
+
+| p{10cm}}  **問題** | **解決策略** |  |
+| --- | --- | --- |
+| 無法判斷真腔位置 | 1. 改變投影角度（尋找正交視圖）    2. 使用 Double-Blind Stick-and-Swap    3. 注射對比劑至遠端真腔（如果可能）    4. 使用 IVUS 輔助定位 |  |
+| 無法穿刺進入真腔 | 1. 旋轉 180 度嘗試另一側    2. 調整 Stingray balloon 位置（更近或更遠）    3. 使用 Carlino 技術軟化遠端帽    4. 考慮改用 STAR 技術 |  |
+| 次內膜血腫形成 | 1. 使用 STRAW 技術    2. 等待數分鐘讓血腫穩定    3. 調整 Stingray 位置    4. 考慮使用較小的 Stingray balloon |  |
+| 導線反覆脫出真腔 | 1. 立即更換 polymer-jacketed wire (Pilot 200)    2. 使用更柔軟的導線尖端    3. 小心緩慢推進    4. 考慮使用 microcatheter 支持 |  |
+
+
+### 一般 ADR 疑難排解
+
+
+| p{10cm}}  **問題** | **解決策略** |  |
+| --- | --- | --- |
+| 次內膜剝離擴大 | 1. **立即斷開注射系統**    2. 避免大力推進裝置    3. 評估穿孔風險    4. 考慮終止程序 |  |
+| 遠端真腔不清楚 | 1. 逆行造影（如果有側枝循環）    2. 改變投影角度    3. 使用較高濃度對比劑    4. 考慮改用逆行路徑 |  |
+| 程序時間過長 | 1. 評估改用逆行路徑    2. 考慮分階段策略    3. 團隊討論決策    4. 注意對比劑和輻射劑量 |  |
+| 對比劑腎病變風險 | 1. 嚴格限制對比劑用量    2. 充分水化    3. 考慮分階段策略    4. 使用 IVUS 減少造影次數 |  |
+
+
+## 重要安全提醒
+
+
+importantbox
+**ADR 技術的關鍵安全原則：**
+
+
+1. **防止意外注射**      - 開始次內膜剝離前必須斷開注射針筒 - 避免對比劑注射擴大剝離範圍
+2. **控制 Crossboss 跳動**      - Torque device 必須正確定位（2-3 指寬） - 防止突然前進造成穿孔
+3. **最小化剝離長度**      - 優先使用 Stingray 系統 - 在最接近遠端真腔處再進入 - 降低再狹窄風險
+4. **導線選擇**      - 次內膜前進：knuckled wire - 真腔內推進：polymer-jacketed wire (Pilot 200) - 避免硬導線在真腔內前進
+5. **輻射和對比劑管理**      - 合理規劃程序時間 - 嚴格控制對比劑用量 - 必要時考慮分階段策略
+
+
+importantbox
+
+
+## 結論與要點總結
+
+
+### ADR 技術的重要性
+
+
+- ADR 是 CTO-PCI 成功的關鍵技術之一
+- 約 25
+- 對於複雜病變（高 J-CTO score）特別重要
+- 也可應用於非 CTO 的急性併發症處理
+
+
+### 系統化方法的重要性
+
+
+就像所有 CTO 技術一樣，ADR 需要系統化的逐步方法：
+
+- 仔細的病例選擇和規劃
+- 熟悉各種技術變化
+- 準備好疑難排解策略
+- 團隊合作和經驗累積
+
+
+### 核心要點
+
+
+1. **剝離技術**      - Crossboss catheter：適合 ISR 和較硬的病變 - Knuckle wire：更靈活，風險較低
+2. **再進入技術**      - Stingray 系統是目前主流 - Stick-and-Swap 和 Double-Blind Stick-and-Swap 是標準技術 - STRAW 技術用於處理血腫併發症
+3. **替代技術**      - Carlino 技術：對比劑輔助再進入 - STAR 技術：作為救援策略，但要注意再狹窄風險 - 投資策略：分階段介入有時更為有效
+4. **安全考量**      - 防止意外注射到次內膜層 - 控制裝置移動防止穿孔 - 最小化剝離長度 - 適當的導線選擇
+
+
+### 持續學習與改進
+
+
+ADR 技術持續演進，操作者應該：
+
+
+- 參加專業培訓課程
+- 觀摩經驗豐富的操作者
+- 逐步累積經驗從簡單到複雜病例
+- 定期回顧案例和學習最新文獻
+- 參與多專科團隊討論
+
+
+## 參考資源
+
+
+### 主要參考文獻
+
+
+- Manual of CTO Interventions, 2nd Edition, Chapter 5
+- PROGRESS-CTO Registry publications
+- FAST-CTOs study results
+- J-CTO score validation studies
+
+
+### 線上資源
+
+
+- 原始教學影片：<https://www.youtube.com/watch?v=2c4hzgFDIiM>
+- Minneapolis Heart Institute CTO Program
+- 相關 YouTube 教學系列
+
+
+### 建議延伸學習
+
+
+1. Retrograde CTO-PCI 技術
+2. CART 和 Reverse CART 技術
+3. 影像學指引的 CTO-PCI
+4. CTO-PCI 併發症的處理
+
+
+tcolorbox[colback=emergency_blue!5!white,colframe=emergency_blue,width=0.9\textwidth]
+
+**致謝**
+[0.3cm]
+本講義根據 Emmanouil S. Brilakis, MD, PhD 的教學影片整理而成
+感謝 Minneapolis Heart Institute 提供優質的教學資源
+[0.3cm]
+整理者：謝慕揚, MD, PhD, FESC
+國立臺灣大學醫學院附設醫院新竹生醫園區分院
+心血管中心
+tcolorbox

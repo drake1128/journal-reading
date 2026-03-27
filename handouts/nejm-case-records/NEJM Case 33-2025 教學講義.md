@@ -1,0 +1,1504 @@
+# https://www.nejm.org/doi/full/10.1056/NEJMcpc2412523
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+
+{**[Case 33-2025: A 27-Year-Old Man with Abnormal Behaviors, Confusion, and Seizure](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412523)**
+[0.5cm]
+{**病例 33-2025：甲狀腺毒症伴精神症狀**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2412523](https://doi.org/10.1056/NEJMcpc2412523)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 33-2025: A 27-Year-Old Man with Abnormal Behaviors, Confusion, and Seizure》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412523)而製作,請先取得該文獻後,搭配本文件自學。已有基礎的同事,請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名27歲男性因異常行為和意識混亂入院至Massachusetts General Hospital醫療服務部門。
+
+
+### 病史時序
+
+
+| p{12cm}}  **時間點** | **重要事件與發現** |  |
+| --- | --- | --- |
+| **2個月前** | **症狀開始**    - 家人和門診心理健康照護者注意到異常行為    - 偏執妄想和意識混亂逐漸增加    - 患者自行停用治療第一型雙相情感障礙(bipolar I disorder)的藥物    - 反覆打電話給母親,報告受迫害    - 說話內容無意義、隱晦難懂    - 每次通話後不久即無法回憶對話內容 |  |
+| **入院當日** | **急性症狀惡化**    - 試圖入睡時變得躁動    - 要求消除外面蟋蟀的噪音    - 伴侶將其帶至急診室評估 |  |
+| **急診評估** | **初步檢查**    - 心率:116次/分鐘    - 其他生命徵象正常    - 精神狀態檢查:無妄想或對內在刺激的反應    - 思考過程混亂、離題(tangential)    - 定向力和注意力受損    - 短期和長期記憶受限    **初步處理:**    - 靜脈輸注lactated Ringer's solution    - 開始口服lorazepam    - 轉入急性精神科病房    - 開始使用risperidone |  |
+| **住院第2天晚上** | **癲癇發作**    - 出現強直陣攣性癲癇發作(tonic-clonic seizure)    - 醫護人員目擊    - 靜脈注射midazolam治療    - 抽搐緩解    - 轉入醫療服務部門 |  |
+| **轉入醫療部門** | **症狀回顧**    - 患者嗜睡、鎮靜    - 否認頭痛或無力    - **否認:**體重減輕、心悸、排便改變、視力改變、震顫、噁心、過往癲癇活動 |  |
+
+
+### 入院時評估
+
+
+#### 症狀回顧
+
+
+**呼吸系統:**
+
+- 持續呼吸困難(在病史中未特別強調)
+- **否認:**端坐呼吸、陣發性夜間呼吸困難、咯血、咳嗽
+
+
+**心血管系統:**
+
+- **否認:**胸痛、心悸、頭暈、頭昏、暈厥
+
+
+**全身症狀:**
+
+- **否認:**體重變化、厭食、吞嚥困難、吞嚥疼痛、聲音改變、眼部症狀
+
+
+**其他系統:**
+
+- **否認:**新發皮疹、腸胃道症狀、神經系統症狀(除已述及者)
+
+
+#### 過去病史與社會史
+
+
+**精神科病史:**
+
+- 第一型雙相情感障礙(bipolar I disorder)
+- 注意力不足過動症(ADHD)
+- 過去多次因躁症和自傷行為住院
+
+
+**醫療史:**
+
+- 遠期甲狀腺機能亢進症病史
+- 曾使用非選擇性beta-blockers治療
+- 未使用抗甲狀腺藥物治療
+- 無已知藥物過敏史
+
+
+**用藥史:**
+
+- 目前未服用任何藥物
+- 過去曾開立處方:lithium carbonate、propranolol、bupropion、clonazepam、buspirone、gabapentin
+
+
+**社會史:**
+
+- 職業:失業
+- 居住地:麻薩諸塞州郊區,與伴侶同住
+- 飲酒史:每日飲酒
+- 藥物使用:經常使用大麻,不使用興奮劑或其他娛樂性藥物
+
+
+**家族史:**
+
+- 父親患有第一型雙相情感障礙
+
+
+#### 理學檢查
+
+
+| p{10cm}}  **檢查項目** | **發現** |  |
+| --- | --- | --- |
+| **生命徵象** | 體溫:36.1°C    血壓:144/70 mmHg    心率:129次/分鐘    呼吸速率:16次/分鐘    血氧飽和度:99 |  |
+| **一般外觀** | 顯得不安但無盜汗 |  |
+| **眼部** | 無瞳孔散大(mydriasis)、眼肌麻痺(ophthalmoparesis)或眼球突出(proptosis) |  |
+| **頭頸部** | 甲狀腺可觸及,無結節或腫大 |  |
+| **心臟聽診** | 僅顯示心動過速,無雜音 |  |
+| **神經學檢查** | 步態不穩    **正常:**無運動無力、顱神經不對稱、旋前漂移(pronator drift)、測距不良(dysmetria)或震顫 |  |
+
+
+#### 實驗室檢查
+
+
+| p{4cm} p{3cm}}  **檢驗項目** | **參考範圍(成人)** | **入院時數值** |
+| --- | --- | --- |
+| **血液學檢查** |  |  |
+| Hemoglobin (g/dL) | 13.5-17.5 | 15.1 |
+| Hematocrit ( | 41.0-53.0 | 47.0 |
+| White-cell count (per μL) | 4,500-11,000 | **12,600** |
+| Neutrophils (per μL) | 1,800-7,700 | 11,080 |
+| Lymphocytes (per μL) | 1,000-4,800 | 980 |
+| Monocytes (per μL) | 200-1,200 | 420 |
+| Platelet count (per μL) | 150,000-400,000 | 363,000 |
+| **電解質** |  |  |
+| Sodium (mmol/L) | 135-145 | 143 |
+| Potassium (mmol/L) | 3.4-5.0 | 4.0 |
+| Chloride (mmol/L) | 98-108 | 105 |
+| Carbon dioxide (mmol/L) | 23-32 | 23 |
+| **腎功能** |  |  |
+| Urea nitrogen (mg/dL) | 8-25 | 14 |
+| Creatinine (mg/dL) | 0.60-1.50 | 0.87 |
+| **肝功能** |  |  |
+| ALT (U/L) | 10-40 | 13 |
+| AST (U/L) | 10-55 | 16 |
+| Alkaline phosphatase (U/L) | 45-115 | 132 |
+| Total bilirubin (mg/dL) | 0-1 | 0.5 |
+| **其他** |  |  |
+| Glucose (mg/dL) | 70-110 | 148 |
+| Albumin (g/dL) | 3.3-5.0 | 4.8 |
+| Globulin (g/dL) | 1.9-4.1 | 3.8 |
+| **尿液檢查** |  |  |
+| Ketones | Negative | **2+** |
+| Protein | Negative | **1+** |
+| **腦脊髓液檢查** |  |  |
+| Total protein (mg/dL) | 5-55 | 24 |
+| Glucose (mg/dL) | 50-75 | 85 |
+| Nucleated-cell count (per μL) | 0-5 | 1 |
+| **毒物篩檢** |  |  |
+| 3{p{13cm}}{Benzodiazepines:陽性    Blood alcohol:未檢測到} |  |  |
+| **感染篩檢** |  |  |
+| 3{p{13cm}}{HIV-1和HIV-2:陰性    Syphilis:陰性} |  |  |
+| **維生素** |  |  |
+| 3{p{13cm}}{Vitamin B12:正常    Folic acid:正常} |  |  |
+| **Lithium** |  |  |
+| Serum lithium | 0.6-1.2 mmol/L | <檢測下限 |
+
+
+**實驗室檢查重點:**
+
+- 白血球輕度升高(12,600 per μL)伴中性球增多
+- 酮尿症(ketonuria)和輕度蛋白尿
+- 血糖輕度升高(148 mg/dL)
+- Lithium血中濃度低於檢測下限(患者自述已停藥)
+- 腦脊髓液檢查基本正常
+
+
+#### 心電圖與腦電圖
+
+
+**心電圖(ECG):**
+
+- 竇性心動過速
+- 無ST段或T波異常
+
+
+**腦電圖(EEG):**
+
+- 無癲癇樣放電
+- 顯示廣泛性beta頻率優勢(generalized overriding beta frequencies)
+
+
+### 初步影像學檢查
+
+
+#### 頭部電腦斷層(CT)
+
+
+**掃描條件:**未施打靜脈顯影劑
+
+**發現:**
+
+- 無急性出血證據
+- 無領域性梗塞(territorial infarction)
+- 無佔位效應(mass effect)或中線移位
+- 腦室系統和腦池空間對患者年齡正常
+- 無腦積水或異常腦外液體積聚
+- 無鈣化、骨骼異常或實質高密度
+
+
+#### 頭部磁振造影(MRI)
+
+
+**掃描條件:**施打靜脈顯影劑
+
+**掃描目的:**
+進一步檢查細微實質異常、血管問題和脫髓鞘疾病
+
+**影像品質限制:**
+運動偽影影響整體診斷品質
+
+**發現:**
+
+- 無急性或慢性梗塞證據
+- 無靜脈竇血栓
+- 無顱內腫塊
+- 無與腫瘤、感染或炎症一致的異常增強
+- 擴散加權影像(DWI)無受限擴散
+- 敏感性加權序列(SWI)無微出血或異常訊號
+- 無提示活動性脫髓鞘的異常增強或白質訊號
+
+
+#### 腰椎穿刺
+
+
+**適應症:**新發癲癇發作的評估
+
+**發現:**
+
+- 腦脊髓液清澈
+- 開口壓力正常
+- 蛋白質和葡萄糖水平正常
+- 總有核細胞計數:1/μL(參考範圍0-5)
+
+
+## 鑑別診斷
+
+
+### 診斷思路架構
+
+
+這位27歲男性患有第一型雙相情感障礙、甲狀腺機能亢進症病史和每日飲酒史,出現2個月的意識混亂、異常行為、偏執妄想、無意義言語和短期記憶缺損。急診理學檢查顯示思考混亂離題、定向力和注意力受損、短期和長期記憶受限,以及心動過速。住院第2天出現由急診人員目擊的強直陣攣性癲癇發作。
+
+初步實驗室評估、腦電圖、影像學檢查和腦脊髓液分析結果基本正常,除酮尿症和輕度蛋白尿外。理學檢查顯示心動過速,住院第2天出現高血壓。病史中其他需考慮的特點包括曾接受lithium治療,以及甲狀腺疾病僅接受非選擇性beta-blockers治療而未使用抗甲狀腺藥物。
+
+**核心診斷問題:**
+
+1. 這位患者是否正在經歷躁症發作?
+2. 這位患者是否正在戒酒?
+3. 這位患者是否有甲狀腺毒症?
+
+
+### 鑑別診斷分析
+
+
+#### 第一型雙相情感障礙
+
+
+**DSM-5診斷標準:**
+
+根據《精神疾病診斷與統計手冊》第五版(DSM-5),伴精神病特徵的躁症發作患者必須表現出以下至少三種症狀(如果患者情緒僅為易怒則需四種),導致明顯功能障礙:
+
+- 分心(distractibility)
+- 衝動(impulsivity)
+- 誇大(grandiosity)
+- 思緒奔逸(flight of ideas)
+- 活動增加或躁動
+- 睡眠需求減少
+- 多話(talkativeness)
+
+
+**重要注意:**這些現象不能歸因於物質使用或其他醫療狀況。
+
+**支持證據:**
+
+- 2個月的症狀史,符合躁症特徵
+- 異常行為
+- 從基線顯著功能改變
+- 無意義言語(可能反映思緒奔逸)
+- 精神病住院史
+- 症狀在停藥後出現,有時間相關性
+
+
+**反對證據:**
+
+- **意識混亂**不能用雙相情感障礙的躁症發作解釋
+- **注意力受損**不是躁症的典型表現
+- **短期和長期記憶缺損**不符合躁症
+- **癲癇發作**雙相情感障礙不會導致癲癇
+- **酮尿症**不能用雙相情感障礙解釋
+
+
+**結論:**雖然躁症發作可能是部分原因,但不能完全解釋臨床表現,應考慮醫學原因。
+
+
+#### 酒精戒斷症候群
+
+
+**臨床特徵:**
+
+酒精戒斷症候群發生在持續、大量和每日飲酒的患者,通常在最後一次飲酒後6-12小時內開始。患者常表現為:
+
+- 焦慮
+- 腸胃道症狀
+- 自主神經症狀:盜汗、心動過速、震顫、高血壓
+
+
+**複雜性酒精戒斷特徵:**
+
+- 癲癇發作
+- 知覺障礙
+- 躁動
+- 意識混亂
+- 定向力障礙
+- 發熱
+
+
+**支持證據:**
+
+- 每日飲酒史
+- 到院時心率升高,給予lorazepam
+- 入院後48小時內發生全身性強直陣攣性癲癇(酒精戒斷癲癇的高峰期)
+- 相對GABA缺乏導致的癲癇
+- 出現譫妄和自主神經失調徵象
+
+
+**反對證據:**
+
+- **無震顫或盜汗**
+- **缺乏典型實驗室異常**:     itemize[nosep]
+- AST:ALT比值未達2:1(酒精性肝炎典型表現)
+- MCV未升高(無紅血球生成異常)
+- 血小板計數正常(無骨髓抑制)
+
+
+    \item **酮尿症**雖可能與飢餓和酒精相關酮酸血症一致,但不能解釋全貌
+    \item **癲癇前2個月的亞急性行為改變和精神病特徵**不能用複雜性酒精戒斷解釋
+itemize
+
+**結論:**酒精戒斷不太可能是主要診斷。
+
+
+#### 甲狀腺毒症
+
+
+**支持證據:**
+
+患者有甲狀腺機能亢進病史,除非選擇性beta-blockers外未接受抗甲狀腺藥物治療。多項特徵符合甲狀腺毒症:
+
+- 病程持續時間(2個月亞急性進展)
+- 躁症樣症狀和認知障礙
+- 持續竇性心動過速
+- 癲癇發作(罕見表現)
+- 酮尿症(可能與甲狀腺失調相關,尤其是甲狀腺機能亢進)
+- 診斷評估基本未發現異常(MRI、EEG、CSF分析均正常)
+
+
+**最常見原因:**
+
+- Graves' disease(葛瑞夫茲氏病)
+- Lithium相關甲狀腺疾病(需特別考慮,因患者有lithium暴露史)
+
+
+### 甲狀腺毒症的進一步分析
+
+
+#### Graves' Disease
+
+
+**病理生理:**
+
+Graves' disease是一種自體免疫疾病,導致抗體介導的甲狀腺活化,引起甲狀腺毒症。
+
+**神經精神症狀:**
+
+- 焦慮、憂鬱
+- 易怒、情緒不穩
+- 認知功能障礙:記憶和專注力問題
+
+
+**嚴重表現(罕見):**
+
+- 精神病
+- 譫妄
+- 癲癇發作
+- 通常見於嚴重甲狀腺毒症
+
+
+**理學檢查典型發現:**
+
+- 甲狀腺腫(goiter)
+- 眼部表現:眼球突出(proptosis)、複視(diplopia)
+
+
+**本病例符合特徵:**
+
+- 亞急性神經精神症狀
+- 認知功能障礙
+- 躁症樣症狀
+- 精神病
+
+
+**本病例不符合特徵:**
+
+- **缺乏相關理學檢查發現**
+- **精神病和譫妄通常見於晚期疾病,本例不太可能**
+- **儘管診斷為甲狀腺機能亢進,但未接受methimazole或propylthiouracil等標準抗甲狀腺藥物治療**
+
+
+**思考要點:**
+
+對於僅使用beta-blockers單藥治療即可有效控制症狀的甲狀腺機能亢進亞型,應考慮**甲狀腺炎(thyroiditis)**。
+
+給定患者的lithium暴露史,應特別探討**藥物誘發性甲狀腺炎**。
+
+
+#### Lithium誘發性甲狀腺炎
+
+
+**病理生理:**
+
+Lithium誘發性甲狀腺炎通常表現為無痛性甲狀腺炎,具有三相病程:
+
+**第一階段:甲狀腺毒症期**
+
+- 甲狀腺組織發炎
+- 釋放預先形成的甲狀腺激素
+- 導致一過性甲狀腺機能亢進
+- 持續數週至數月
+
+
+**症狀與徵象:**
+
+- 可能無症狀或相對輕微
+- 體重減輕
+- 心動過速
+- 不耐熱
+- 震顫
+- 甲狀腺激素水平升高
+
+
+**神經精神症狀:**
+甲狀腺炎甲狀腺毒症期的神經精神症狀與其他甲狀腺機能亢進原因相似:
+
+- 情緒症狀
+- 認知改變
+- 睡眠障礙
+- 躁症樣症狀
+- 譫妄
+- 不安
+- 罕見:精神病或癲癇發作
+
+
+**第二階段:甲狀腺機能低下期**
+
+- 腺體耗竭激素或受損後出現
+- 臨床上更明顯
+
+
+**第三階段:恢復期**
+
+- 甲狀腺功能通常在12個月內恢復正常
+
+
+**重要臨床特點:**
+
+importantbox
+**延遲性破壞性甲狀腺炎**
+
+雖然lithium誘發性甲狀腺炎通常在lithium治療期間發生,但**延遲性破壞性甲狀腺炎**可能在停藥後數週甚至數月發生。
+
+**機制:**
+
+- Lithium在接受治療期間在甲狀腺中累積和濃縮
+- 儲存在甲狀腺組織中的lithium在停藥後繼續發揮其損傷效應
+
+
+importantbox
+
+**本病例符合特徵:**
+
+- 病程持續時間
+- 躁症樣症狀和認知障礙
+- 持續竇性心動過速
+- 癲癇發作(罕見)
+- 酮尿症(可能與甲狀腺失調相關)
+- 診斷評估未發現異常(MRI、EEG、CSF正常)
+
+
+### 診斷策略
+
+
+**甲狀腺功能檢查:**
+
+- Thyrotropin(TSH)
+- Free thyroxine(T4)
+- Free triiodothyronine(T3)
+
+
+**確認甲狀腺毒症後:**
+
+測量甲狀腺抗體以區分自體免疫性甲狀腺疾病和藥物誘發性甲狀腺炎:
+
+- Thyroid-stimulating immunoglobulin(TSI)
+- Thyrotropin-binding inhibitory immunoglobulin(TBII)
+
+
+**影像學檢查:**
+
+甲狀腺閃爍掃描併測量放射性碘攝取(radioactive iodine uptake)可進一步確定甲狀腺機能亢進的原因:
+
+- 區分瀰漫性活躍腺體(Graves' disease)
+- 自主性甲狀腺結節(toxic nodule)
+
+
+## 臨床診斷
+
+
+### 精神科團隊臨床印象
+
+
+**初始鑑別診斷考慮:**
+
+**1. 第一型雙相情感障礙**
+
+- 考慮原因:患者有此診斷史
+- 不支持發現:     itemize[nosep]
+- 言語無壓力性(nonpressured speech)
+- 雖思考混亂但無思緒奔逸
+
+
+itemize
+
+**2. 思考障礙**
+
+- 考慮原因:     itemize[nosep]
+- 近期出現偏執妄想
+- 可能有思考中斷(thought blocking)
+
+
+    \item 不支持發現:
+    
+- 直接詢問時否認幻覺
+
+
+itemize
+
+**3. 戒斷症候群**
+
+- 考慮原因:     itemize[nosep]
+- 酒精和benzodiazepine使用史
+- 心動過速和高血壓
+
+
+    \item 不支持發現:
+    
+- 理學檢查無盜汗或震顫
+
+
+itemize
+
+**4. 譫妄(Delirium)**
+
+- 考慮原因:     itemize[nosep]
+- 無法回答定向力或注意力相關問題
+
+
+    \item 不支持發現:
+    
+- 無起伏變化(waxing and waning)
+- 無分心現象
+- 無刺激束縛行為(stimulus-bound behavior)
+
+
+itemize
+
+**5. Bupropion過量**
+
+- 考慮原因:     itemize[nosep]
+- 患者曾接受此藥物處方
+- Bupropion可能有興奮劑效應並導致癲癇發作
+
+
+    \item 不支持發現:
+    
+- 症狀在住院期間持續,使此解釋不太可能
+
+
+itemize
+
+**結論:**
+
+患者的表現不尋常,因為不完全符合上述任何診斷類別。他並非明顯躁症,但連續評估結果一致,這對典型譫妄來說不尋常。雖然這次發作確實可能代表其潛在情緒障礙的失代償,但**甲狀腺機能亢進病史是潛在的重要線索**,因此執行了甲狀腺功能檢查。
+
+
+### 甲狀腺功能檢查結果
+
+
+| p{4cm} p{3cm}}  **檢驗項目** | **參考範圍** | **患者數值** |
+| --- | --- | --- |
+| Thyrotropin (mIU/L) | 0.40-5.00 | **<0.01** |
+| Total thyroxine (μg/dL) | 4.5-10.9 | **21.2** |
+| Free thyroxine (ng/dL) | 0.9-1.8 | **3.7** |
+| Free thyroxine (pmol/L) | 12-23 | **48** |
+
+
+importantbox
+**檢查結果解讀:**
+
+****符合甲狀腺毒症診斷****
+
+- Thyrotropin嚴重抑制(<0.01 mIU/L)
+- Total thyroxine顯著升高(21.2 μg/dL)
+- Free thyroxine顯著升高(3.7 ng/dL或48 pmol/L)
+importantbox
+
+
+### 精神科最終診斷
+
+
+**診斷:**因另一醫療狀況引起的精神病性障礙(Psychotic Disorder Due to Another Medical Condition)
+
+**DSM-5診斷標準:**
+
+1. 突出的妄想或幻覺
+2. 實驗室證據確認行為障礙是另一醫療狀況的直接後果
+3. 行為障礙不能用其他精神疾病更好地解釋
+4. 不僅發生於譫妄期間
+5. 導致顯著痛苦或功能障礙
+
+
+**本病例符合所有標準:**
+
+- 明顯的精神病症狀(妄想、意識混亂)
+- 實驗室確認甲狀腺毒症
+- 不能用單純精神疾病解釋
+- 非單純譫妄
+- 造成重大功能障礙
+
+
+## 內分泌科管理
+
+
+### 甲狀腺毒症的原因鑑別
+
+
+TSH低下伴甲狀腺毒症可通過以下機制發生:
+
+**1. 自主性甲狀腺激素產生**
+
+- 自主性甲狀腺結節(autonomous thyroid nodule)
+- Graves' disease
+
+
+**2. 預先形成激素釋放**
+
+- 破壞性甲狀腺炎
+
+
+**3. 外源性激素給予**
+
+- 過量levothyroxine
+
+
+### 鑑別診斷檢查
+
+
+#### T3:T4比值
+
+
+Graves' disease與以下特點相關:
+
+- 甲狀腺內三碘甲狀腺素(T3)分泌增加
+- T4轉換為T3增加
+
+
+**診斷意義:**
+
+- T3:T4比值>20提示Graves' disease
+- T3以ng/dL測量,T4以μg/dL測量
+
+
+#### 甲狀腺抗體
+
+
+**檢測抗體:**
+
+- Thyroid-stimulating immunoglobulin(TSI)
+- Thyrotropin-binding inhibitory immunoglobulin(TBII)
+
+
+**診斷意義:**
+
+- 升高表示Graves' disease
+- 陰性支持藥物誘發性甲狀腺炎
+
+
+#### 甲狀腺閃爍掃描
+
+
+**放射性碘攝取測量:**
+
+可識別主動產生甲狀腺激素的位置
+
+**當TSH無法檢測時:**
+
+**高攝取:**
+
+- 局部攝取:自主性甲狀腺結節
+- 整個腺體攝取:Graves' disease
+
+
+**無攝取:**
+
+- 破壞性甲狀腺炎導致的預先形成激素釋放
+- 外源性甲狀腺激素給予
+
+
+### 本病例檢查結果
+
+
+#### 甲狀腺超音波
+
+
+**發現:**
+
+- 無結節、囊腫或局灶性腫塊
+- 甲狀腺實質回音均勻
+- 大小正常
+- 無結構異常
+- 彩色或能量都卜勒影像無血流增加
+
+
+#### 甲狀腺閃爍掃描
+
+
+**使用碘-123進行檢查:**
+
+**發現:**
+
+- 瀰漫性和均勻抑制
+- 攝取率:1.2
+
+
+**解釋:**
+在臨床甲狀腺機能亢進的情況下,均勻性降低的攝取符合:
+
+- 激素釋放導致的甲狀腺激素過量
+- 外源性激素使用
+
+
+**對比典型發現:**
+
+- Graves' disease:均勻性增加的碘-123攝取
+- 自主性甲狀腺結節:局灶性升高攝取,其餘甲狀腺被均勻抑制
+
+
+#### 甲狀腺抗體和T3:T4比值
+
+
+| p{8cm}}  **檢驗項目** | **結果與意義** |  |
+| --- | --- | --- |
+| T3:T4 ratio | 9.9 (<20,不支持Graves' disease) |  |
+| Thyroid-stimulating immunoglobulin | 陰性(排除Graves' disease) |  |
+| Thyrotropin-binding inhibitory immunoglobulin | 陰性(排除Graves' disease) |  |
+| 碘-123攝取 | 無法檢測(排除Graves' disease和毒性結節) |  |
+
+
+### 診斷結論
+
+
+**所有發現符合:**
+
+- 過量外源性甲狀腺激素
+- 或預先形成激素的釋放
+
+
+**最可能診斷:**
+
+雖然患者病史可能不可靠,但我們沒有明確證據顯示外源性甲狀腺激素給予,且患者有過往自限性甲狀腺機能亢進病史。綜合考慮,這些發現最符合**亞急性無痛性甲狀腺炎(subacute painless thyroiditis)**的診斷。
+
+
+### Lithium與甲狀腺毒症的關係
+
+
+**典型lithium相關甲狀腺疾病:**
+
+- 甲狀腺腫(goiter)
+- 甲狀腺機能低下症(高風險)
+
+
+**甲狀腺機能亢進:**
+
+- 在lithium暴露患者中更常發生
+- 特別是無痛性亞急性甲狀腺炎
+
+
+**不確定因素:**
+
+- 停止lithium治療後,甲狀腺機能亢進的風險是否隨時間降低尚不清楚
+- 潛在機制仍然未知
+
+
+**結論:**
+雖然此患者的無痛性亞急性甲狀腺炎可能與lithium使用有關,但這並不確定。
+
+
+### 治療計劃
+
+
+#### 症狀控制
+
+
+**Beta-blockers:**
+
+- 建議患者繼續使用
+- 根據心率允許範圍增加劑量
+- 目的:控制甲狀腺機能亢進引起的症狀
+
+
+#### 無需抗甲狀腺藥物
+
+
+**無痛性亞急性甲狀腺炎的自然病程:**
+
+- 甲狀腺機能亢進預期在預先形成的甲狀腺激素耗竭後緩解
+
+
+**抗甲狀腺藥物(methimazole和propylthiouracil)作用機制:**
+
+- 干擾TSH介導的甲狀腺激素產生
+
+
+**為何不使用:**
+
+- 預先形成的甲狀腺激素驅動症狀
+- 無痛性甲狀腺炎中額外甲狀腺激素的產生已被抑制
+- 因此這些藥物在治療中沒有作用 importantbox   #### 追蹤計劃   **預期病程:**  循環激素耗竭後,可能出現暫時性甲狀腺機能低下,原因: itemize[nosep]
+- TSH抑制的延遲恢復
+- 受損甲狀腺組織無法產生足夠激素
+
+
+**治療策略:**
+
+- 當亞急性無痛性甲狀腺炎患者出現甲狀腺機能低下時,開始levothyroxine治療
+- 6個月後停止levothyroxine
+- 評估患者是否恢復正常甲狀腺功能
+
+
+## 追蹤與結局
+
+
+### 住院期間進展
+
+
+**時間:**轉入醫療服務部門後5天
+
+**改善:**
+
+- 精神狀態改善
+- 行為改善
+- 無進一步癲癇活動
+
+
+### 出院計劃
+
+
+**建議追蹤:**
+
+- 門診內分泌科密切追蹤
+- 門診精神科追蹤
+
+
+**追蹤目的:**
+
+- 長期監測甲狀腺功能檢查結果
+- 評估即將發生的甲狀腺機能低下
+- 治療潛在情緒障礙
+
+
+### 長期結局
+
+
+**不幸地,患者出院後失去追蹤。**
+
+
+## 最終診斷
+
+
+importantbox
+**最終診斷:**
+# 亞急性無痛性甲狀腺炎
+
+**亞急性無痛性甲狀腺炎**  
+
+**(Subacute Painless Thyroiditis)**  
+
+
+可能與先前lithium暴露相關
+
+importantbox
+
+
+## 病例討論重點
+
+
+### 診斷挑戰
+
+
+1. **症狀重疊性**      - 精神症狀可能歸因於已知精神疾病 - 甲狀腺毒症的神經精神表現可能被忽視 - 需要高度警覺性考慮醫學原因
+2. **不典型表現**      - 癲癇發作是甲狀腺毒症的罕見表現 - 缺乏典型甲狀腺機能亢進的身體徵象 - 症狀嚴重程度與甲狀腺功能異常的程度不成比例
+3. **診斷線索**      - 甲狀腺機能亢進病史但僅用beta-blockers治療 - Lithium暴露史 - 持續心動過速 - 酮尿症(非特異性但提示代謝紊亂)
+
+
+### 臨床教訓
+
+
+importantbox
+**重要臨床啟示:**
+
+1. **新發精神症狀需排除醫學原因:**即使患者有已知精神疾病,新發或改變的症狀仍需考慮器質性原因
+2. **Lithium相關甲狀腺疾病的延遲效應:**lithium的甲狀腺毒性可能在停藥後數週至數月出現
+3. **無痛性甲狀腺炎的三相病程:**需要適當的長期追蹤以監測和治療可能的甲狀腺機能低下階段
+4. **多學科協作的重要性:**精神科、內分泌科和內科的密切合作對於複雜病例的診斷和管理至關重要
+5. **抗甲狀腺藥物使用的時機:**破壞性甲狀腺炎不需要抗甲狀腺藥物,僅需症狀控制
+
+
+importantbox
+
+
+## 鑑別診斷總結圖
+
+
+tikzpicture[
+    level 1/.style={sibling distance=4cm, level distance=2cm},
+    level 2/.style={sibling distance=3cm, level distance=2cm},
+    box/.style={rectangle, draw=emergency_blue, fill=emergency_blue!10, thick, minimum width=3cm, minimum height=0.8cm, text width=2.8cm, align=center},
+    redbox/.style={rectangle, draw=emergency_red, fill=emergency_red!20, thick, minimum width=3cm, minimum height=0.8cm, text width=2.8cm, align=center}
+]
+\node[box] {27歲男性  
+異常行為  
+意識混亂  
+癲癇發作}
+    child {node[box] {精神疾病}
+        child {node[box, text width=2.5cm, font=] {雙相情感  
+障礙}}
+        child {node[box, text width=2.5cm, font=] {思考  
+障礙}}
+    }
+    child {node[box] {戒斷症候群}
+        child {node[box, text width=2.5cm, font=] {酒精  
+戒斷}}
+        child {node[box, text width=2.5cm, font=] {Benzo  
+戒斷}}
+    }
+    child {node[redbox] {甲狀腺毒症}
+        child {node[box, text width=2.5cm, font=] {Graves'  
+disease}}
+        child {node[redbox, text width=2.5cm, font=] {Lithium誘發  
+甲狀腺炎}}
+    };
+tikzpicture
+本病例鑑別診斷思路圖(紅框為最終診斷)
+
+
+---
+
+
+## 醫學英文寫作要點：精神神經症狀與鑑別診斷
+
+
+### 病例摘要：NEJM Case 33-2025
+
+
+importantbox
+**病例核心**
+
+27歲男性，雙極性情感疾患病史，因異常行為、混亂與癲癇發作入院。關鍵發現包括：
+
+- 精神症狀：妄想、隱晦言語、定向力障礙、短期記憶缺損
+- 神經症狀：廣泛性強直陣攣癲癇發作
+- 實驗室：TSH <0.01 mIU/L, Free T4 3.7 ng/dL, 酮尿
+- 最終診斷：Subacute painless thyroiditis (鋰劑相關)
+
+
+importantbox
+
+
+### 精神症狀的英文描述
+
+
+#### 主訴(Chief Complaint)的標準表達
+
+
+> **標準格式：**
+> itemize[nosep]
+>     \item *A [age]-year-old [gender] was admitted because of [primary symptoms].*
+>     \item *The patient presented with [duration] of [symptoms].*
+> itemize
+> **本病例範例：**
+> quote
+> *A 27-year-old man was admitted to the medical service of this hospital because of abnormal behaviors and confusion.*
+> quote
+
+
+#### 精神狀態檢查(Mental Status Examination)的描述
+
+
+| p{5cm}p{5cm}}   **評估項目** | **英文描述詞彙** | **本病例使用** |
+| --- | --- | --- |
+| **外觀與行為**    (Appearance and Behavior) | agitated    restless    diaphoretic    disheveled | *"appeared restless but not diaphoretic"* |
+| **言語**    (Speech) | pressured    tangential    nonsensical    cryptic    disorganized | *"nonsensical, cryptic statements"*    *"disorganized and tangential thought process"* |
+| **思考過程**    (Thought Process) | disorganized    tangential    flight of ideas    thought blocking    circumstantial | *"disorganized and tangential thought process"*    *"concern for thought blocking"* |
+| **思考內容**    (Thought Content) | delusions    paranoia    persecutory beliefs    grandiosity | *"reported being persecuted"*    *"paranoia"*    *"no evidence of delusions"* |
+| **知覺**    (Perception) | hallucinations    response to internal stimuli    auditory/visual hallucinations | *"no evidence of...response to internal stimuli"*    *"asking for the noise generated by the crickets outside to be silenced"* |
+| **認知功能**    (Cognition) | impaired orientation    impaired attention    limited recall    confusion    disorientation | *"impaired orientation and attention"*    *"limited short- and long-term recall"*    *"confusion"* |
+| **記憶**    (Memory) | anterograde amnesia    retrograde amnesia    no recollection    memory deficits | *"The patient had no recollection of their conversation shortly after each phone call"*    *"short-term memory deficits"* |
+
+
+#### 精神症狀時序描述
+
+
+> **標準模板：**
+> itemize[nosep]
+>     \item *[Time period] before the current presentation, [symptoms] developed.*
+>     \item *The patient had been in his usual state of health until [time], when...*
+>     \item *Over the course of [duration], [progression of symptoms].*
+> itemize
+> **本病例範例：**
+> quote
+> *"The patient had been in his usual state of health until **2 months before** the current presentation, when his family and outpatient mental health providers noticed abnormal behaviors and an increasing amount of paranoia and confusion."*
+> quote
+> **關鍵時間詞彙：**
+> itemize[nosep]
+>     \item Subacute onset (數週)
+>     \item Acute onset (數天)
+>     \item Chronic course (數月至數年)
+>     \item Progressive worsening
+>     \item Fluctuating symptoms
+>     \item Waxing and waning
+> itemize
+
+
+#### 癲癇發作的描述
+
+
+> **本病例：**
+> quote
+> *"On the evening of the second hospital day, the patient had a **tonic–clonic seizure** that was **witnessed by hospital staff members**."*
+> quote
+> **癲癇發作類型標準用語：**
+> itemize[nosep]
+>     \item **Generalized tonic-clonic seizure**: 廣泛性強直陣攣發作
+>     \item **Absence seizure**: 失神發作
+>     \item **Focal seizure with impaired awareness**: 局部意識障礙型發作
+>     \item **Myoclonic seizure**: 肌陣攣發作
+>     \item **Status epilepticus**: 癲癇重積狀態
+> itemize
+> **發作描述要素：**
+> itemize[nosep]
+>     \item Duration: *lasting approximately [time]*
+>     \item Witness: *witnessed by [who]*
+>     \item Post-ictal state: *The patient was somnolent and sedated*
+>     \item Treatment response: *The convulsions resolved after...*
+> itemize
+
+
+### 鑑別診斷的英文寫作架構
+
+
+#### 引言段落標準格式
+
+
+> **標準開場模板：**
+> enumerate[nosep]
+>     \item 重述病例核心
+>     \item 列出主要檢查發現
+>     \item 提出需回答的核心問題
+> enumerate
+> **本病例範例：**
+> quote
+> *"This 27-year-old man with bipolar I disorder, a history of hyperthyroidism, and daily alcohol use presented with a 2-month history of confusion, abnormal behavior, paranoia, nonsensical speech, and short-term memory deficits..."*
+> *"To develop a differential diagnosis, I will ask three central questions: First, is this patient having a manic episode? Second, is this patient withdrawing from alcohol? Third, does this patient have thyrotoxicosis?"*
+> quote
+
+
+#### 個別診斷討論結構
+
+
+| p{10cm}}   **段落結構** | **英文寫作要點與範例** |  |
+| --- | --- | --- |
+| **1. 診斷名稱** | 使用正式醫學名稱    *"Bipolar I Disorder"*    *"Alcohol Withdrawal Syndrome"*    *"Thyrotoxicosis"* |  |
+| **2. 診斷標準** | 引用權威標準    *"According to the criteria from the Diagnostic and Statistical Manual of Mental Disorders, fifth edition (DSM-5)..."*    *"Diagnostic criteria include..."* |  |
+| **3. 支持證據**    (Supporting Evidence) | **常用起始詞：**    - *This patient's presentation is consistent with...*    - *Several features support this diagnosis, including...*    - *The findings of...are compatible with...*    **本病例範例：**    *"This patient has a 2-month history of symptoms consistent with mania, including abnormal behaviors, a noticeable change in functioning from baseline, and nonsensical speech, which could reflect flight of ideas."* |  |
+| **4. 反對證據**    (Contradicting Evidence) | **轉折詞使用：**    - *However,...*    - *In contrast,...*    - *Notably absent were...*    - *This diagnosis would not explain...*    **本病例範例：**    *"However, the findings of confusion, impaired attention, short- and long-term recall deficits, seizure, and ketonuria would not be explained by a manic episode related to bipolar I disorder."* |  |
+| **5. 可能性評估** | **表達確定性程度：**    - *...is certainly a possible diagnosis*    - *...is unlikely given...*    - *...cannot be excluded*    - *...remains at the top of my differential diagnosis*    **本病例範例：**    *"Although this is possible, complicated alcohol withdrawal would not explain the subacute change in behavior and the 2-month history of psychotic features that preceded the seizure."* |  |
+
+
+#### 三個診斷的完整比較
+
+
+**診斷1：Bipolar I Disorder**
+
+**支持：**
+
+- Previous diagnosis and multiple hospitalizations
+- Temporal correlation with medication discontinuation
+- Abnormal behaviors, paranoia, nonsensical speech
+- DSM-5 criteria partially met
+
+
+**反對：**
+
+- **Confusion and impaired attention not typical**
+- **Seizure unexplained**
+- **Ketonuria not explained**
+- Speech was "nonpressured" and "no flight of ideas"
+
+
+**英文表達範例：**
+\begin{quote
+*"Given his history of psychiatric hospitalizations, and a temporal correlation of symptoms that started after he had discontinued his medications, an affective decompensation of his underlying bipolar I disorder is certainly a possible diagnosis. **However**, the findings of confusion, impaired attention, short- and long-term recall deficits, seizure, and ketonuria would not be explained by a manic episode related to bipolar I disorder."*
+quote
+}
+
+
+**診斷2：Alcohol Withdrawal**
+
+**支持：**
+
+- History of daily alcohol use
+- Tachycardia
+- Seizure within 48 hours (critical time window)
+- Symptoms of delirium and dysautonomia
+
+
+**反對：**
+
+- **No tremor or diaphoresis**
+- **Absent laboratory markers** (AST:ALT ratio, MCV, thrombocytopenia)
+- **Subacute 2-month history not typical**
+
+
+**英文表達範例：**
+\begin{quote
+*"This patient certainly had signs of delirium and dysautonomia but had no tremor or diaphoresis. **In addition, notably absent were** the characteristic laboratory signs that are commonly associated with consistent, heavy, and daily consumption of alcohol."*
+quote
+}
+
+
+**診斷3：Thyrotoxicosis (最可能)**
+
+**支持：**
+
+- **History of hyperthyroidism**
+- **Duration of illness (subacute)**
+- **Maniform symptoms and cognitive impairment**
+- **Persistent sinus tachycardia**
+- **Seizure (rare but reported)**
+- **Ketonuria (associated with hyperthyroidism)**
+- **Normal MRI, EEG, and CSF (as expected)**
+- **Previous lithium exposure**
+
+
+**英文表達範例：**
+\begin{quote
+*"Multiple features of this patient's case are consistent with a diagnosis of thyrotoxicosis, including the duration of his illness, the presence of maniform symptoms and cognitive impairment, persistent sinus tachycardia, and seizure (a rare finding). **Furthermore**, the remainder of his diagnostic evaluation was largely unrevealing, including normal findings on MRI of the head, EEG, and CSF analysis — all of which would be expected in a patient with hyperthyroidism."*
+quote
+}
+
+
+### 支持與反對證據的表達方式
+
+
+#### 表達支持證據的句型
+
+
+| p{7cm}}   **英文句型** | **中文含義** |  |
+| --- | --- | --- |
+| *Multiple features...are consistent with...* | 多項特徵符合... |  |
+| *The findings support a diagnosis of...* | 這些發現支持...診斷 |  |
+| *This presentation is suggestive of...* | 此表現提示... |  |
+| *...is certainly a possible diagnosis* | ...確實是可能診斷 |  |
+| *The temporal correlation suggests...* | 時間相關性提示... |  |
+| *...warrants consideration* | ...值得考慮 |  |
+| *Given [factors], [diagnosis] should be considered* | 考慮到[因素]，應考慮[診斷] |  |
+
+
+#### 表達反對證據的句型
+
+
+| p{7cm}}   **英文句型** | **中文含義** |  |
+| --- | --- | --- |
+| *However, [findings] argue against this diagnosis* | 然而，[發現]反對此診斷 |  |
+| *...would not be explained by...* | ...無法被...解釋 |  |
+| *Notably absent were...* | 明顯缺少... |  |
+| *In contrast to...* | 與...相反 |  |
+| *This diagnosis is unlikely given...* | 考慮到...，此診斷不太可能 |  |
+| *...makes this an unlikely explanation* | ...使這成為不太可能的解釋 |  |
+| *The absence of...suggests...* | ...的缺失提示... |  |
+| *These findings are inconsistent with...* | 這些發現與...不一致 |  |
+
+
+### 結論段落寫作
+
+
+> **標準結構：**
+> enumerate[nosep]
+>     \item 回顧主要鑑別診斷
+>     \item 說明最可能診斷及理由
+>     \item 建議下一步診斷性檢查
+> enumerate
+> **本病例範例：**
+> quote
+> *"In taking a step back to think about the diagnostic possibilities — bipolar I disorder, complicated alcohol withdrawal, and hyperthyroidism — **it seems that** a hyperthyroid state **could best explain** this patient's presentation, with lithium-induced thyroiditis and Graves' disease being at the top of my differential diagnosis."*
+> quote
+> **常用結論句型：**
+> itemize[nosep]
+>     \item *Taking all these factors into consideration...*
+>     \item *The most likely diagnosis is...*
+>     \item *Based on the above analysis...*
+>     \item *In summary, [diagnosis] best explains...*
+>     \item *Further workup should include...*
+> itemize
+
+
+### 診斷流程圖的文字描述
+
+
+#### 甲狀腺功能亢進鑑別診斷流程
+
+
+本病例提供了一個出色的診斷流程敘述範例：
+
+
+> *"Thyrotoxicosis with a low level of thyrotropin can occur through **autonomous thyroid hormone production**, **release of preformed hormone**, or **exogenous hormone administration**."*
+> **邏輯展開：**
+> enumerate[nosep]
+>     \item 列出機制：*"These possibilities can be distinguished from one another with a straightforward workup..."*
+>     \item 說明檢查：*"Graves' disease is associated with both increased secretion of intrathyroidal triiodothyronine and increased conversion of thyroxine to triiodothyronine..."*
+>     \item 判讀標準：*"...therefore, a triiodothyronine:thyroxine ratio of greater than 20...is suggestive of Graves' disease."*
+> enumerate
+
+
+#### 檢查結果整合表達
+
+
+| p{9cm}}   **檢查項目** | **結果描述英文範例** |  |
+| --- | --- | --- |
+| T3:T4 ratio | *"This patient had a triiodothyronine:thyroxine ratio of 9.9"*    *"A ratio of greater than 20...is suggestive of Graves' disease"* |  |
+| Thyroid antibodies | *"Negative tests for thyroid-stimulating immunoglobulin and thyroid-binding inhibitory immunoglobulin"*    *"Elevated levels of antibodies...indicate Graves' disease"* |  |
+| Radioiodine uptake | *"Undetectable uptake of iodine-123 on thyroid scintigraphy"*    *"Thyroid scintigraphy with iodine-123 showed diffuse and uniform suppression, with 1.2  *"The uniformly decreased uptake is consistent with..."* |  |
+| 綜合判讀 | *"All findings consistent with either excess exogenous thyroid hormone or release of preformed thyroid hormone owing to a destructive thyroiditis"*    *"Taken together, these findings are most consistent with a diagnosis of subacute painless thyroiditis"* |  |
+
+
+### 常見錯誤與正確用法
+
+
+#### 時態使用
+
+
+| p{8cm}}   **錯誤** | **正確** |  |
+| --- | --- | --- |
+| **Patient **is having** seizure when admitted** | Patient **had** a seizure on the second hospital day |  |
+| **The diagnosis **was being** considered** | The diagnosis **was considered**    或    We **are considering** the diagnosis (現在時討論) |  |
+| **Results **are showing** thyrotoxicosis** | Results **showed** thyrotoxicosis (過去時描述檢查)    或    Thyrotoxicosis **is characterized by**...(現在時討論一般原則) |  |
+
+
+#### 因果關係表達
+
+
+> **較弱的因果關係：**
+> itemize[nosep]
+>     \item *...is associated with...*
+>     \item *...is correlated with...*
+>     \item *...may be related to...*
+> itemize
+> **中等因果關係：**
+> itemize[nosep]
+>     \item *...suggests that...*
+>     \item *...is likely due to...*
+>     \item *...can result from...*
+> itemize
+> **強因果關係：**
+> itemize[nosep]
+>     \item *...is caused by...*
+>     \item *...results from...*
+>     \item *...is the direct consequence of...*
+> itemize
+> **本病例範例：**
+> quote
+> *"Diagnostic criteria include prominent delusions or hallucinations and laboratory evidence confirming that the behavioral disturbance **is the direct consequence of** another medical condition."*
+> quote
+
+
+### 實戰練習
+
+
+#### 練習1：症狀描述
+
+
+**中文病歷：**
+quote
+病患為35歲女性，主訴為持續兩週的情緒低落、失眠、食慾減退及注意力不集中。病患表示經常哭泣，對平日喜歡的活動失去興趣，曾有輕生念頭但否認有計畫。
+quote
+
+**英文改寫練習：**
+
+1. 寫出opening statement
+2. 描述症狀的時序發展
+3. 列出mental status examination重點發現
+4. 描述安全性評估(suicide risk assessment)
+
+
+**參考答案：**
+
+> *A 35-year-old woman was evaluated for a 2-week history of depressed mood, insomnia, decreased appetite, and impaired concentration. The patient reported frequent tearfulness and anhedonia, with loss of interest in activities she previously enjoyed. She endorsed passive suicidal ideation but denied having a specific plan or intent to harm herself.*
+> **Mental status examination:**  
+> *The patient appeared well-groomed but had a sad affect and poor eye contact. Her speech was slow with decreased volume. Thought process was linear but with psychomotor retardation. She denied hallucinations or delusions. Concentration and attention were impaired, as evidenced by difficulty with serial sevens. Safety assessment revealed passive suicidal thoughts without active plan or intent.*
+
+
+#### 練習2：鑑別診斷寫作
+
+
+**案例：**
+quote
+65歲男性，因近三個月記憶力減退、定向力障礙及行為改變就診。家屬表示病患經常忘記近期事件，有時在熟悉環境中迷路，個性變得易怒。理學檢查發現輕微震顫。需鑑別：(1)阿茲海默症 (2)血管性失智 (3)常壓性水腦症 (4)甲狀腺功能低下
+quote
+
+**寫作要求：**
+
+1. 每個診斷寫一段，包含支持與反對證據
+2. 使用本文教授的句型
+3. 最後寫出結論段落，說明最可能診斷
+
+
+**0.8\linewidth**{0.5pt}
+
+
+**關鍵學習重點：**
+
+1. 精神症狀描述需客觀、具體、可量化
+2. 使用標準化的mental status examination架構
+3. 鑑別診斷寫作遵循「支持-反對-結論」邏輯
+4. 善用轉折詞(however, in contrast, notably)強化論述
+5. 避免過度武斷，適當表達不確定性
+6. 時態使用：病史用過去式，討論用現在式
+
+
+---
+
+
+## 考題
+
+
+以下為針對本病例的單選選擇題,旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 患者的lithium暴露史最主要與下列何種甲狀腺疾病相關?     enumerate[label=\alph*)]
+2. 甲狀腺癌
+3. 甲狀腺腫和甲狀腺機能低下
+4. 甲狀腺結節
+5. 葛瑞夫茲氏病
+
+
+    \item 在無痛性亞急性甲狀腺炎中,T3:T4比值通常:
+    
+1. >20
+2. <20
+3. =20
+4. 無法測量
+
+
+    \item 下列哪項檢查結果最能區分Graves' disease和破壞性甲狀腺炎?
+    
+1. TSH水平
+2. Free T4水平
+3. 放射性碘攝取掃描
+4. 超音波
+
+
+    \item 患者在甲狀腺毒症期最不應該接受下列哪種治療?
+    
+1. Beta-blockers
+2. Methimazole
+3. Propranolol
+4. 支持性治療
+
+
+    \item 亞急性無痛性甲狀腺炎的三相病程中,第二階段的特徵是:
+    
+1. 甲狀腺毒症
+2. 甲狀腺機能低下
+3. 恢復正常
+4. 甲狀腺腫大
+
+
+    \item 根據DSM-5,診斷「因另一醫療狀況引起的精神病性障礙」需要下列何者?
+    
+1. 僅有妄想症狀
+2. 實驗室證據確認行為障礙是醫療狀況的直接後果
+3. 僅發生於譫妄期間
+4. 不需要造成功能障礙
+
+
+    \item 患者檢驗發現酮尿症,最可能的解釋是:
+    
+1. 糖尿病酮酸血症
+2. 與甲狀腺失調和病情持續相關的非特異性發現
+3. 酒精相關酮酸血症(必然)
+4. 腎臟疾病
+
+
+    \item 本病例中,下列哪項發現最強烈提示甲狀腺毒症而非單純精神疾病?
+    
+1. 意識混亂
+2. 持續心動過速
+3. 異常行為
+4. 短期記憶缺損
+
+
+    \item Lithium誘發性甲狀腺炎可能在停藥後多久出現?
+    
+1. 僅在治療期間
+2. 停藥後立即
+3. 停藥後數週至數月
+4. 停藥後數年
+
+
+    \item 對於亞急性無痛性甲狀腺炎患者,levothyroxine治療的時機是:
+    
+1. 診斷時立即開始
+2. 當出現甲狀腺機能低下時
+3. 永不需要
+4. 甲狀腺毒症期間
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案:b) 甲狀腺腫和甲狀腺機能低下**      **詳解:**Lithium暴露最典型地賦予甲狀腺腫和甲狀腺機能低下的高風險。然而,甲狀腺機能亢進,特別是無痛性亞急性甲狀腺炎,在有lithium暴露的患者中也更常發生。Lithium不是甲狀腺癌或結節的已知風險因素,也不是葛瑞夫茲氏病的主要原因。了解lithium對甲狀腺的影響對於監測接受此藥物治療的患者至關重要。
+2. **正確答案:b) <20**      **詳解:**在破壞性甲狀腺炎(包括無痛性亞急性甲狀腺炎)中,T3:T4比值通常<20。這是因為預先形成的激素釋放(包括T3和T4)的比例接近甲狀腺中儲存的比例。相反,Graves' disease與甲狀腺內T3分泌增加和T4轉換為T3增加相關,導致T3:T4比值>20。本病例患者的T3:T4比值為9.9,支持破壞性甲狀腺炎而非Graves' disease。這個比值是區分甲狀腺毒症不同原因的有用工具。
+3. **正確答案:c) 放射性碘攝取掃描**      **詳解:**放射性碘攝取掃描是區分Graves' disease和破壞性甲狀腺炎的最關鍵檢查。在Graves' disease中,甲狀腺持續主動產生激素,因此放射性碘攝取**增加**並瀰漫分布。在破壞性甲狀腺炎中,預先形成的激素釋放抑制了TSH,因此甲狀腺激素產生被抑制,放射性碘攝取**極低或無法檢測**。雖然TSH和free T4水平都會異常,但它們在兩種情況下的模式相似(TSH抑制,T4升高),因此無法區分。超音波可能有幫助,但不如放射性碘攝取掃描具有決定性。本病例患者的碘-123攝取僅1.2
+4. **正確答案:b) Methimazole**      **詳解:**在無痛性亞急性甲狀腺炎的甲狀腺毒症期,**不應使用**methimazole或propylthiouracil等抗甲狀腺藥物。這些藥物的作用機制是干擾TSH介導的甲狀腺激素產生。然而,在破壞性甲狀腺炎中,甲狀腺毒症是由預先形成的激素釋放引起的,而新激素的產生已經因TSH抑制而停止。因此,抗甲狀腺藥物沒有作用。正確的治療包括beta-blockers(如propranolol)用於症狀控制,以及支持性治療。這是甲狀腺毒症管理中的一個關鍵概念,避免不必要的藥物治療及其潛在副作用。
+5. **正確答案:b) 甲狀腺機能低下**      **詳解:**亞急性無痛性甲狀腺炎的典型三相病程為:(1)**甲狀腺毒症期**:甲狀腺組織發炎並釋放預先形成的激素,導致一過性甲狀腺機能亢進,持續數週至數月;(2)**甲狀腺機能低下期**:一旦腺體激素耗竭或受損,出現更明顯的臨床症狀;(3)**恢復期**:甲狀腺功能通常在12個月內恢復正常。並非所有患者都會經歷所有三個階段,有些可能僅有甲狀腺毒症期或甲狀腺機能低下期。了解這個病程對於適當的患者諮詢和追蹤計劃至關重要。患者需要被告知可能出現甲狀腺機能低下,並需要適當的監測和可能的levothyroxine治療。
+6. **正確答案:b) 實驗室證據確認行為障礙是醫療狀況的直接後果**      **詳解:**根據DSM-5,診斷「因另一醫療狀況引起的精神病性障礙」需要滿足以下標準:(1)突出的妄想或幻覺;(2)**實驗室證據確認行為障礙是另一醫療狀況的直接後果**;(3)行為障礙不能用其他精神疾病更好地解釋;(4)不僅發生於譫妄期間;(5)導致顯著痛苦或功能障礙。本病例患者滿足所有這些標準:有明顯的精神病症狀,實驗室確認甲狀腺毒症,症狀不能用單純精神疾病解釋,非單純譫妄,並造成重大功能障礙。這個診斷強調了在評估精神症狀時進行全面醫學評估的重要性,即使患者有已知的精神疾病史。
+7. **正確答案:b) 與甲狀腺失調和病情持續相關的非特異性發現**      **詳解:**本病例中的酮尿症是一個**非特異性發現**,可能與多種因素相關。甲狀腺失調,特別是甲狀腺機能亢進,已被報導與酮尿症相關,雖然機制不完全清楚。此外,患者病程持續2個月,飲食攝入可能不確定,這也可能導致飢餓性酮症。雖然酮尿症可能與酒精相關酮酸血症一致,但患者沒有酒精性肝炎的典型實驗室表現(如AST:ALT比值2:1、MCV升高、血小板減少)。糖尿病酮酸血症不太可能,因為患者的葡萄糖僅輕度升高(148 mg/dL)且無代謝性酸中毒的證據。腎臟疾病也不太可能,因為腎功能正常。重要的是,酮尿症本身雖非特異性,但提示需要考慮代謝紊亂,並支持需要全面醫學評估。
+8. **正確答案:b) 持續心動過速**      **詳解:**在本病例中,**持續心動過速**是最強烈提示器質性(醫學)原因而非單純精神疾病的發現。雖然意識混亂、異常行為和短期記憶缺損都可能見於嚴重精神疾病,但持續的竇性心動過速(患者心率129次/分鐘),特別是在休息狀態下,更提示潛在的醫學問題如甲狀腺毒症、感染或其他器質性原因。此外,患者在住院第二天還發展出高血壓,進一步支持自主神經系統過度活躍的器質性原因。精神科醫師和內科醫師在評估精神症狀時應始終注意這些「紅旗」身體徵象,它們可能是潛在醫學問題的線索。本病例也突出了即使患者有已知精神疾病史,持續的生命徵象異常仍需要醫學評估。
+9. **正確答案:c) 停藥後數週至數月**      **詳解:**這是lithium相關甲狀腺疾病的一個重要且常被忽視的特點:**延遲性破壞性甲狀腺炎可能在停止lithium治療後數週甚至數月發生**。機制是因為lithium在治療期間在甲狀腺中累積和濃縮,儲存在甲狀腺組織中的lithium在停藥後繼續發揮其損傷效應。這意味著即使患者已經停止lithium治療,仍需要監測甲狀腺功能。本病例患者的lithium血中濃度低於檢測下限,證實他已經停藥,但甲狀腺炎仍然發生,符合延遲性lithium誘發性甲狀腺炎的診斷。這對臨床實踐有重要意義:停止lithium治療後,仍需要繼續監測甲狀腺功能至少數月。目前尚不清楚甲狀腺毒症的風險是否隨停藥後時間而降低。
+10. **正確答案:b) 當出現甲狀腺機能低下時**      **詳解:**在亞急性無痛性甲狀腺炎中,levothyroxine治療的時機是**當患者進入甲狀腺機能低下階段時**。在甲狀腺毒症期不需要也不應該使用levothyroxine。甲狀腺毒症期應使用beta-blockers控制症狀,而不是抗甲狀腺藥物或levothyroxine。循環激素耗竭後,暫時性甲狀腺機能低下可能發生,原因可能是TSH抑制的延遲恢復或受損甲狀腺組織無法產生足夠激素。當甲狀腺機能低下發生時,開始levothyroxine治療是合適的。然而,這種甲狀腺機能低下通常是暫時性的,因此建議在6個月後停止levothyroxine,並評估患者是否恢復正常甲狀腺功能。這種「治療試驗停止」的方法避免了不必要的終身甲狀腺激素替代治療。本病例患者出院時被建議密切追蹤以監測和治療可能的即將發生的甲狀腺機能低下,但不幸地失去追蹤。
+
+
+**0.8\linewidth**{0.5pt}
+
+
+## 結語
+
+
+本病例展示了甲狀腺毒症的診斷挑戰和臨床複雜性,特別是當它表現為嚴重的神經精神症狀時。從自行停藥後出現的異常行為和意識混亂,到癲癇發作的戲劇性呈現,每一個臨床線索都為最終診斷提供了重要資訊。
+
+**關鍵學習要點:**
+
+1. **新發精神症狀需全面醫學評估:**即使患者有已知精神疾病,新發或改變的症狀仍需考慮器質性原因
+2. **持續生命徵象異常的意義:**持續心動過速等身體徵象可能是潛在醫學問題的重要線索
+3. **Lithium的延遲效應:**lithium相關甲狀腺毒性可能在停藥後數週至數月出現
+4. **鑑別診斷的系統性方法:**使用T3:T4比值、甲狀腺抗體和放射性碘攝取掃描系統性區分甲狀腺毒症的原因
+5. **治療的特異性:**破壞性甲狀腺炎不需要抗甲狀腺藥物,僅需症狀控制和監測
+6. **長期追蹤的重要性:**亞急性無痛性甲狀腺炎的三相病程需要適當的長期追蹤
+
+
+儘管現代診斷工具和多學科協作,本病例患者在出院後失去追蹤,提醒我們在複雜醫學問題管理中,患者依從性和持續照護的挑戰。這個案例強調了在急性住院期間建立清晰追蹤計劃和患者教育的重要性。
+
+
+tcolorbox[colback=emergency_blue!5!white,colframe=emergency_red,width=0.9\textwidth,arc=5pt,boxrule=1pt]
+
+**謹記:**在評估精神症狀時,
+持續的生命徵象異常和既往內分泌疾病史
+應該提示進行全面的醫學評估。
+甲狀腺毒症可能以嚴重的神經精神症狀呈現,
+早期識別和適當管理至關重要。
+tcolorbox
+
+
+\hrule
+
+*本講義改編自 Massachusetts General Hospital 病例報告*
+*Case Records of the Massachusetts General Hospital*
+*Case 33-2025: A 27-Year-Old Man with Abnormal Behaviors, Confusion, and Seizure*
+[0.3cm]
+編輯:謝慕揚, MD, PhD, FESC
+*僅供教學使用,請勿用於商業用途*

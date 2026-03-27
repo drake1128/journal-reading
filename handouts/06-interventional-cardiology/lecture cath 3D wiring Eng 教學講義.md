@@ -1,0 +1,345 @@
+# lecture cath 3D wiring Eng
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+\maketitle
+
+\tableofcontents
+
+---
+
+
+## Preface
+
+Time flies - it has been 14 years since I came to Hsinchu. My last attendance at CCT (Complex Cardiovascular Therapeutics, Kobe, Japan) was in 2015. This year, I attended many sessions at the conference, and my perspectives and insights have changed dramatically from those years ago. The concept of 3D wiring has been around for many years. Before the conference, I heard from Dr. Chen-Wei about how powerful 3D wiring is. I had also read all of Dr. Okamura's articles in mid-2025 and even attempted it myself in the catheterization lab, combining it with parallel wiring. However, witnessing Japanese pioneers discussing this concept - which integrates both theory and technique - in person was truly inspiring. I have compiled the collected materials below for reference by our colleagues. I also purchased an illustrated book that I have placed in the catheterization lab for everyone to take home and read. I hope we can all progress together.
+
+
+## CTO 3D Wiring Literature Review
+
+
+### Overview of Core Technical Development Literature
+
+
+| p{0.42\textwidth} p{0.42\textwidth}} Core Technical Development Literature for CTO 3D Wiring |
+| --- |
+| ****Year**** |
+| 2016 |
+| 2019 |
+| 2020 |
+| 2020 |
+| 2021 |
+| 2024 |
+| 2024 |
+| 2025 |
+
+
+---
+
+
+### Guidewire Technology and Equipment Literature
+
+
+| p{0.42\textwidth} p{0.42\textwidth}} Overview of CTO Guidewire Technology Literature |
+| --- |
+| ****Year**** |
+| 2016 |
+| 2024 |
+
+
+---
+
+
+### Conference Abstracts and Book Chapters
+
+
+| p{0.42\textwidth} p{0.38\textwidth}} Conference Abstracts and Book Chapters |
+| --- |
+| ****Type/Year**** |
+| ESC 2018 Abstract |
+| ESC 2019 Abstract |
+| Book Chapter 2023 |
+| Book Chapter 2023 |
+| Case Video 2022 |
+
+
+### Recommended Fluoroscopic Angles
+
+
+| p{0.35\textwidth} p{0.30\textwidth}} Recommended Fluoroscopic Angles for Different Coronary Artery Locations |
+| --- |
+| ****Coronary Location**** |
+| Mid-RCA |
+| Mid-distal LAD |
+| Distal RCA |
+| Proximal-mid LAD |
+| LCx |
+
+
+## Key Concepts of 3D Wiring
+
+
+### Basic Principles
+
+
+| p{0.65\textwidth}} Fundamental Concepts of 3D Wiring |
+| --- |
+| ****Concept**** |
+| Mental 3D Image |
+| Guidewire Shaft Control |
+| Orthogonal Views |
+| Tip-Shaft Relationship |
+
+
+### Operational Steps
+
+
+| p{0.75\textwidth}} Standard 3D Wiring Operational Process |
+| --- |
+| ****Step**** |
+| Step 1 |
+| Step 2 |
+| Step 3 |
+| Step 4 |
+| Step 5 |
+| Step 6 |
+| Step 7 |
+| Step 8 |
+
+
+### 64-Combination System
+
+
+| } Simplified 64-Combination 3D Wiring System |
+| --- |
+| ****System Description**** |
+| **Basic Concept:** |
+| Guidewire shaft position: 8 possible positions (anterior, posterior, left, right, and four intermediate directions) |
+| Guidewire tip position: 8 possible positions (same as above) |
+| Total combinations: 8×8=64 |
+| **Rotation Rule:** |
+| Through two orthogonal views, determine current tip-shaft combination |
+| Refer to the table to find required rotation direction (clockwise CW or counterclockwise CCW) |
+| Usually requires 90-180 degree rotation |
+| **Advantages:** |
+| • Simple and easy to learn |
+| • Complete table reference |
+| • Reduces reliance on mental spatial imagination |
+| • Applicable to all CTO lesions |
+
+
+### Tip Detection Method
+
+
+| p{0.65\textwidth}} IVUS-based Tip Detection Technology |
+| --- |
+| ****Aspect**** |
+| Equipment |
+| Principle |
+| Advantages |
+|  |
+|  |
+|  |
+| Application |
+|  |
+|  |
+| Limitations |
+|  |
+|  |
+
+
+### Rotation Overlap Method
+
+
+| p{0.65\textwidth}} Rotation Overlap Method without Orthogonal Projection |
+| --- |
+| ****Aspect**** |
+| Core Principle |
+| Rotation Overlap Rule |
+|  |
+|  |
+| Advantages |
+|  |
+|  |
+|  |
+| 4-Step Process |
+|  |
+|  |
+|  |
+
+
+## Advanced Technology
+
+
+### TD-ADR Technology
+
+
+| p{0.65\textwidth}} Tip Detection-Antegrade Dissection and Re-entry |
+| --- |
+| ****Aspect**** |
+| Definition |
+| Key Equipment |
+| Technical Advantages |
+|  |
+|  |
+|  |
+| Comparison with Traditional ADR |
+|  |
+|  |
+|  |
+| Clinical Significance |
+
+
+### Application of Different Guidewires
+
+
+| p{0.25\textwidth} p{0.45\textwidth}} Selection and Application of Common CTO Guidewires |
+| --- |
+| ****Guidewire Type**** |
+| Soft Guidewires |
+| (e.g., Fielder XT) |
+|  |
+|  |
+|  |
+| Medium Guidewires |
+| (e.g., Gaia series) |
+|  |
+|  |
+|  |
+| Stiff Guidewires |
+| (e.g., Confianza Pro) |
+|  |
+|  |
+|  |
+| Tapered Guidewires |
+| (e.g., Gaia series) |
+|  |
+|  |
+|  |
+| Puncture Guidewires |
+| (e.g., CP12ST) |
+|  |
+|  |
+|  |
+
+
+## Learning Resources
+
+
+### Recommended Reading Sequence
+
+
+| p{0.12\textwidth} p{0.66\textwidth}} Staged Learning Path for 3D Wiring |
+| --- |
+| ****Stage**** |
+| Stage 1 |
+|  |
+| Stage 2 |
+|  |
+| Stage 3 |
+|  |
+| Stage 4 |
+|  |
+| Stage 5 |
+|  |
+| Stage 6 |
+|  |
+
+
+---
+
+
+### Technical Evolution Timeline
+
+
+| p{0.25\textwidth} p{0.53\textwidth}} CTO 3D Wiring Technical Development Timeline |
+| --- |
+| ****Period**** |
+| 2016-2019 |
+|  |
+|  |
+|  |
+| 2020-2021 |
+|  |
+|  |
+|  |
+| 2021-2024 |
+|  |
+|  |
+|  |
+| 2024-2025 |
+|  |
+|  |
+|  |
+
+
+### Important Online Resources
+
+
+| p{0.65\textwidth}} CTO 3D Wiring Online Learning Resources |
+| --- |
+| ****Resource Name**** |
+| CTO |
+|  |
+|  |
+|  |
+|  |
+| Ultimaster Video Library |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+
+
+### Future Development Directions
+
+
+| p{0.65\textwidth}} Future Development Prospects for CTO 3D Wiring |
+| --- |
+| ****Development Area**** |
+| Learning Curve Simplification |
+|  |
+|  |
+|  |
+| Artificial Intelligence Assistance |
+|  |
+|  |
+|  |
+| Multimodal Imaging Integration |
+|  |
+|  |
+|  |
+| Technical Application Expansion |
+|  |
+|  |
+|  |
+| Standardization and Promotion |
+|  |
+|  |
+|  |
+
+
+## Conclusion
+
+
+3D wiring technique, beginning with Okamura et al's laboratory research in 2016, has developed over nearly 10 years to become an indispensable important technique in CTO PCI. From the initial angiography-based method, to IVUS-assisted tip detection method, to the latest rotation overlap method and TD-ADR technique, each stage represents a major technical breakthrough.
+
+This literature review systematically organizes relevant important literature and presents technical details in tabular format for quick reference and learning by clinical physicians. It is recommended that learners follow the suggested reading sequence, progressing gradually from introduction to expert level, and make good use of online teaching resources for practical learning.
+
+
+### Author Contribution Statement
+
+
+This literature review was compiled by Dr. Mu-Yang Hsieh using past literature materials, personal EndNote, with assistance from Claude.ai, based on Dr. Atsunori Okamura's presentation at the Complex Cardiovascular Therapeutics 2025 conference and related important literature. It aims to provide systematic reference materials for CTO 3D wiring technique for catheterization laboratory colleagues and clinical physicians for learning purposes.
+
+
+Compilation Date: October 26, 2025
+
+
+\textwidth{0.4pt}
+
+*This literature review will be continuously updated. If new important literature is published, please notify the author for supplementation (drake1128@gmail.com).*

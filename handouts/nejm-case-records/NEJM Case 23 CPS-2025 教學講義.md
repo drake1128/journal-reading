@@ -1,0 +1,531 @@
+# Case 23CPS-2025: Case Study
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+
+{**Case 23CPS-2025: Case Study**}
+[0.5cm]
+{**病例 23CPS-2025：76歲女性患者漸進性肌無力及呼吸衰竭**}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》Clinical Problem-Solving[《Gasping for Strength》](https://www.nejm.org/doi/full/10.1056/NEJMcps2501278)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名76歲女性患者，有重度吸菸史、血脂異常、高血壓及糖尿病病史，因呼吸困難至當地醫院求診，由家屬陪同。患者在過去2週出現漸進性呼吸急促，無發燒、寒顫或咳嗽，感到虛弱疲倦，食慾下降。經家庭醫師評估後轉診急診科，記錄到在室內空氣下血氧飽和度為80
+
+
+考慮到患者的危險因子及表現，應考慮心臟或肺部病因。重度吸菸史提示慢性阻塞性肺疾病導致呼吸衰竭的可能性。吸菸相關癌症可能造成機械性壓迫、肺功能喪失或胸腔積液。
+
+
+### 病史發展
+
+患者家屬報告，在呼吸窘迫發生之前，患者在過去6個月中出現漸進性肌肉無力。腰椎磁振造影僅顯示輕度腰椎狹窄，無神經或脊髓壓迫。骨科評估未發現能解釋症狀的異常。患者曾轉介物理治療，但效果有限。
+
+約3個月前，患者曾因症狀性低血鈉住院。評估確認為抗利尿激素分泌異常症候群(SIADH)，歸因於用於治療焦慮的選擇性血清素再攝取抑制劑(SSRI)使用；SIADH以限水及停用SSRI處理。
+
+
+先前的漸進性肌肉無力引起對神經疾病作為呼吸衰竭原因的關注。可能的疾病包括神經病變、脊髓病變、運動神經元疾病、肌病變、重症肌無力症候群或毒性/代謝性障礙。
+
+
+## 身體檢查與檢驗結果
+
+
+### 身體檢查發現
+
+
+- 呼吸頻率：22次/分鐘
+- 血氧飽和度：85
+- 血壓：正常範圍
+- 神經系統：雙眼輕微眼瞼下垂，無複視或眼肌麻痺
+- 雙眼眼輪匝肌力量減弱
+- 頸部屈肌及伸肌無力
+- 上肢近端肌肉無力伴輕度遠端無力
+- 下肢嚴重近端及遠端肌肉無力
+- 輕觸覺感覺完整
+- 全身反射消失
+
+
+### 實驗室檢查
+
+
+- 常規實驗室檢查：包括肌酸激酶，皆正常
+- 胸部X光：小量胸腔積液
+- 腦脊液分析：無細胞，蛋白質及葡萄糖正常，細胞學檢查無癌症證據
+- 神經傳導檢查：上下肢低振幅或無複合肌肉動作電位
+- 重複神經刺激：結果不明確
+- 艾德洛芬試驗：眼部症狀輕度改善
+
+
+眼瞼下垂和肌肉無力的存在以及感覺異常的缺失是縮小鑑別診斷的關鍵因素。重症肌無力症以波動性無力為特徵，但反射消失在重症肌無力患者中不常見。
+
+
+## 轉院後評估
+
+
+### 進一步檢查
+
+患者轉至神經重症加護病房，氣管仍插管但未鎮靜。水腫消退後進行神經傳導及單纖維肌電圖檢查：
+
+
+- 低振幅複合肌肉動作電位
+- 低頻重複神經刺激呈遞減反應
+- 高頻重複神經刺激呈遞增反應
+- 單纖維肌電圖顯示增加的震顫(jitter)及阻滯
+
+
+### 自體抗體檢測
+
+
+- 各種肌炎相關自體抗體：陰性
+- Anti-乙醯膽鹼受體抗體：陰性
+- Anti-肌肉特異性激酶抗體：陰性
+- Anti-電壓閘控鈣離子通道(VGCC)抗體：陰性
+- **Anti-SOX1抗體：強陽性**
+
+
+## 影像學檢查
+
+
+### 全身電腦斷層掃描
+
+初始全身CT顯示左下肺葉廣泛實質化伴部分塌陷，無明確癌症證據。
+
+
+### 正子斷層掃描
+
+全身PET-CT顯示氣管分叉旁2.4 cm × 3.7 cm圓形病灶的18F-氟脫氧葡萄糖攝取，最符合腫大淋巴結。
+
+
+Anti-SOX1抗體與某些癌症相關，特別是小細胞肺癌，並與Lambert-Eaton肌無力症候群有關。需要進一步診斷性檢查，包括肌電圖確認診斷及PET-CT評估潛在原發性肺癌。
+
+
+## 組織病理學檢查
+
+
+### 支氣管鏡檢查
+
+內視鏡超音波引導的經支氣管針吸活檢證實小細胞肺癌(SCLC)的存在。免疫組織化學染色顯示：
+
+- 腫瘤細胞嗜鉻顆粒蛋白陽性
+- 突觸素陽性
+- 增殖指數90
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+本病例為一名老年女性患者，表現為漸進性近端肌肉無力，初始懷疑為重症肌無力。然而，經過進一步包括血清學及電生理檢查的檢查，最終診斷為Lambert-Eaton肌無力症候群。
+
+
+### 重症肌無力 vs Lambert-Eaton肌無力症候群
+
+
+#### 重症肌無力
+
+
+- **支持理由**：眼瞼下垂、波動性無力、呼吸肌受累
+- **排除理由**：     itemize[nosep]
+- 反射消失（重症肌無力中不常見）
+- 對常見治療反應不佳
+- 對艾德洛芬反應最小
+- 特徵性電生理發現不符
+
+
+itemize
+
+
+#### Lambert-Eaton肌無力症候群
+
+
+- **支持理由**：     itemize[nosep]
+- 漸進性近端肌肉無力（特別是下肢）
+- 反射消失
+- 高頻重複神經刺激遞增反應
+- Anti-SOX1抗體陽性
+- 相關小細胞肺癌
+- 重度吸菸史
+
+
+itemize
+
+
+Lambert-Eaton肌無力症候群約有一半病例為副腫瘤性，最常與小細胞肺癌相關。Anti-SOX1抗體與肺癌密切相關，並與副腫瘤性Lambert-Eaton肌無力症候群強烈關聯。
+
+
+## 診斷與治療
+
+
+### 最終診斷
+
+
+1. **主要診斷**：副腫瘤性Lambert-Eaton肌無力症候群，伴隨小細胞肺癌
+2. **次要診斷**：呼吸衰竭，需機械通氣
+
+
+### 治療策略
+
+
+#### 症狀治療
+
+
+- **Amifampridine（鉀離子通道阻斷劑）**：增強乙醯膽鹼釋放
+- **免疫治療**：靜脈methylprednisolone，後續prednisolone減量
+- **支持治療**：機械通氣，氣管造口術
+
+
+#### 腫瘤治療
+
+
+- **化學治療**：etoposide及carboplatin
+- **腫瘤科評估**：制定完整治療計畫
+
+
+對於副腫瘤性Lambert-Eaton肌無力症候群，治療潛在癌症是治療的主軸。Amifampridine是症狀治療的首選藥物。
+
+
+## 預後與追蹤
+
+
+### 短期預後
+
+診斷後3個月，患者下肢持續癱瘓但上肢力量改善。從同步間歇強制通氣(SIMV)模式轉為持續正壓呼吸，最終能夠使用霧化器呼吸並以語音閥溝通。
+
+
+### 長期追蹤
+
+治療開始4個月後的PET-CT顯示惡性病灶大小縮小。患者轉至復健中心，出院後4個月追蹤時，已恢復部分力量及獨立性。
+
+
+## 圖說翻譯
+
+
+| |p{7cm}}          **English Original** | **繁體中文翻譯** |  |
+| --- | --- | --- |
+| **Figure 1. Results of Electrophysiological Testing.** |  |  |
+| Panel A shows the results of repetitive nerve stimulation, a test in which repetitive electrical stimulation is transmitted through the nerve and the neuromuscular junction to activate the muscle. | **圖1. 電生理檢查結果**      圖A顯示重複神經刺激結果，此檢查透過神經及神經肌肉接合處傳遞重複電刺激以激活肌肉。 |  |
+| An incremental response is produced owing to improved neuromuscular transmission with increased stimulation frequency, a finding that is characteristic of the Lambert–Eaton myasthenic syndrome. | 由於刺激頻率增加改善神經肌肉傳遞而產生遞增反應，此發現為Lambert-Eaton肌無力症候群的特徵。 |  |
+| **Figure 2. Whole-Body PET-CT and CT Findings.** |  |  |
+| A coronal positron-emission tomographic–computed tomographic (PET-CT) image shows distinct fluorodeoxyglucose uptake in a round lesion adjacent to the tracheal carina. | **圖2. 全身PET-CT及CT發現**      冠狀面正子斷層掃描顯示氣管分叉旁圓形病灶明顯的氟脫氧葡萄糖攝取。 |  |
+| **Figure 3. Lung-Biopsy Specimen.** |  |  |
+| Hematoxylin and eosin staining highlights the general tissue architecture. Synaptophysin staining shows neuroendocrine differentiation that is characteristic of small-cell lung cancer. | **圖3. 肺部活檢標本**      蘇木精-伊紅染色突顯一般組織結構。突觸素染色顯示小細胞肺癌特徵性的神經內分泌分化。 |  |
+
+
+---
+
+
+## 考題
+
+
+以下為針對本病例的十道選擇題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者最重要的危險因子是：     enumerate[label=\alph*)]
+2. 高齡及女性
+3. 重度吸菸史
+4. 糖尿病及高血壓
+5. 先前SIADH病史
+
+
+    \item 重症肌無力與Lambert-Eaton肌無力症候群最重要的鑑別點是：
+    
+1. 眼瞼下垂的存在
+2. 反射的存在或缺失
+3. 肌肉無力的分布
+4. 呼吸肌的受累
+
+
+    \item Lambert-Eaton肌無力症候群的特徵性電生理發現是：
+    
+1. 高頻刺激遞減反應
+2. 高頻刺激遞增反應
+3. 正常神經傳導速度
+4. 肌電圖正常
+
+
+    \item Anti-SOX1抗體最常與下列哪種癌症相關？
+    
+1. 乳癌
+2. 小細胞肺癌
+3. 卵巢癌
+4. 胸腺瘤
+
+
+    \item Lambert-Eaton肌無力症候群的首選症狀治療藥物是：
+    
+1. Pyridostigmine
+2. Amifampridine
+3. Prednisolone
+4. IVIG
+
+
+    \item 副腫瘤性Lambert-Eaton肌無力症候群的主要治療策略是：
+    
+1. 長期免疫抑制治療
+2. 症狀控制藥物
+3. 治療潛在癌症
+4. 物理復健
+
+
+    \item 本病例中最終確診的關鍵檢查是：
+    
+1. 全身CT
+2. PET-CT及組織切片
+3. 神經傳導檢查
+4. Anti-VGCC抗體
+
+
+    \item 下列哪項不是Lambert-Eaton肌無力症候群的典型特徵？
+    
+1. 漸進性近端肌肉無力
+2. 反射消失
+3. 運動後症狀改善
+4. 明顯的感覺神經異常
+
+
+    \item 當Anti-VGCC抗體陰性時，診斷Lambert-Eaton肌無力症候群最重要的依據是：
+    
+1. Anti-SOX1抗體陽性
+2. 臨床表現及電生理發現的組合
+3. 相關腫瘤的存在
+4. 對amifampridine的反應
+
+
+    \item 副腫瘤性神經症候群患者化療決策的重要考量是：
+    
+1. 年齡限制
+2. Karnofsky表現狀態可能反映神經功能而非腫瘤負擔
+3. 只考慮腫瘤分期
+4. 避免免疫抑制治療
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：b) 重度吸菸史**      **詳解：** 重度吸菸史是小細胞肺癌的主要危險因子，而小細胞肺癌是副腫瘤性Lambert-Eaton肌無力症候群最常見的相關癌症。
+2. **正確答案：b) 反射的存在或缺失**      **詳解：** Lambert-Eaton肌無力症候群患者反射通常消失或減弱，而重症肌無力患者反射通常正常。
+3. **正確答案：b) 高頻刺激遞增反應**      **詳解：** 高頻重複神經刺激顯示遞增反應是Lambert-Eaton肌無力症候群的特徵性發現，反映前突觸神經肌肉接合處的異常。
+4. **正確答案：b) 小細胞肺癌**      **詳解：** Anti-SOX1抗體強烈與小細胞肺癌相關，並且是副腫瘤性Lambert-Eaton肌無力症候群的標記。
+5. **正確答案：b) Amifampridine**      **詳解：** Amifampridine藉由阻斷前突觸鉀離子通道來增強乙醯膽鹼釋放，是Lambert-Eaton肌無力症候群的首選症狀治療藥物。
+6. **正確答案：c) 治療潛在癌症**      **詳解：** 對於副腫瘤性Lambert-Eaton肌無力症候群，治療潛在癌症是主要治療策略，常能改善神經症狀。
+7. **正確答案：b) PET-CT及組織切片**      **詳解：** PET-CT發現了可疑病灶，而組織切片確認了小細胞肺癌診斷，這是確診副腫瘤性症候群的關鍵。
+8. **正確答案：d) 明顯的感覺神經異常**      **詳解：** Lambert-Eaton肌無力症候群主要影響運動功能，感覺神經通常不受影響。
+9. **正確答案：b) 臨床表現及電生理發現的組合**      **詳解：** 即使抗體陰性，臨床表現（近端無力、反射消失）及特徵性電生理發現的組合仍可診斷Lambert-Eaton肌無力症候群。
+10. **正確答案：b) Karnofsky表現狀態可能反映神經功能而非腫瘤負擔**      **詳解：** 在副腫瘤性症候群中，低Karnofsky評分常反映神經功能障礙而非腫瘤負擔，化療可能顯著改善功能狀態。
+
+
+## 重要知識點總結
+
+
+### Lambert-Eaton肌無力症候群特點
+
+
+- **發生率**：每百萬人口0.48例
+- **病理機轉**：前突觸神經肌肉接合處自體免疫疾病
+- **主要症狀**：漸進性近端肌肉無力（常始於下肢）
+- **自主神經症狀**：口乾、姿勢性低血壓
+- **特殊現象**：晨間「暖身」現象，短暫運動後症狀輕度改善
+
+
+### 副腫瘤性關聯
+
+
+- **發生比例**：約50
+- **最常見癌症**：小細胞肺癌（96
+- **其他相關癌症**：乳癌、卵巢癌、胸腺癌
+- **預後**：校正腫瘤分期後，副腫瘤性患者存活期較長
+
+
+### 診斷檢查
+
+
+- **電生理**：低頻刺激遞減、高頻刺激遞增（敏感度90
+- **抗體檢測**：Anti-VGCC（85
+- **影像學**：CT初步篩查，PET-CT提高癌症偵測率（39
+- **組織確診**：支氣管鏡活檢確認小細胞肺癌
+
+
+### 治療原則
+
+
+- **症狀治療**：     itemize[nosep]
+- Amifampridine（首選）：阻斷鉀離子通道，增強乙醯膽鹼釋放
+- 長期免疫抑制：prednisolone + azathioprine（症狀持續時）
+
+
+    \item **腫瘤治療**：
+    
+- 副腫瘤性病例的治療主軸
+- 化療方案：etoposide + carboplatin
+- 即使Karnofsky評分低，化療仍可能改善功能狀態
+
+
+itemize
+
+
+### 鑑別診斷要點
+
+
+- **vs 重症肌無力**：     itemize[nosep]
+- Lambert-Eaton：反射消失、高頻刺激遞增、運動後改善
+- 重症肌無力：反射正常、高頻刺激遞減、運動後惡化
+
+
+    \item **vs 其他肌病**：
+    
+- 肌酸激酶正常排除肌炎
+- 特徵性電生理發現確認神經肌肉接合處疾病
+
+
+itemize
+
+importantbox
+**臨床要點：**
+
+- 老年重度吸菸者出現漸進性肌無力需考慮Lambert-Eaton肌無力症候群
+- 反射消失是與重症肌無力重要的鑑別點
+- Anti-SOX1抗體陽性強烈提示小細胞肺癌相關副腫瘤性症候群
+- 即使Anti-VGCC抗體陰性，臨床及電生理發現仍可確診
+- 副腫瘤性病例的治療重點是積極治療潜在癌症
+- 多專科合作（神經科、胸腔科、腫瘤科）對複雜病例至關重要
+
+
+importantbox
+
+
+## 英文醫學寫作指導
+
+
+本節提供針對神經肌肉疾病病例報告的英文寫作指導，旨在幫助學生以專業、精確的語言撰寫臨床記錄。此指導參考《New England Journal of Medicine》Clinical Problem-Solving的風格，針對肌無力症候群的描述提供具體寫作步驟及例句。
+
+
+### 寫作原則
+
+
+1. **精確性**：使用準確的醫學術語描述神經學發現
+2. **時序性**：清楚描述症狀發展的時間軸
+3. **系統性**：按照邏輯順序呈現檢查發現
+4. **鑑別性**：強調有助於鑑別診斷的關鍵發現
+5. **證據性**：將臨床發現與檢查結果連結
+
+
+### 神經學檢查描述範例
+
+
+#### 肌力評估
+
+quote
+Neurologic examination revealed mild bilateral ptosis without diplopia or ophthalmoplegia. There was decreased strength in the orbicularis oculi bilaterally. Neck flexors and extensors were weak. The patient demonstrated proximal muscle weakness in the arms with milder distal weakness, and severe proximal and distal muscle weakness in the legs. Deep tendon reflexes were absent throughout.
+（神經學檢查顯示雙側輕度眼瞼下垂，無複視或眼肌麻痺。雙側眼輪匝肌力量減弱。頸部屈肌及伸肌無力。患者上肢表現為近端肌肉無力伴較輕微的遠端無力，下肢嚴重近端及遠端肌肉無力。深腱反射全部消失。）
+quote
+
+
+#### 電生理檢查描述
+
+quote
+Nerve-conduction studies revealed low-amplitude compound muscle action potentials in both arms and legs. Repetitive nerve stimulation demonstrated a decremental response at low frequencies and an incremental response at high frequencies. Single-fiber electromyography showed increased jitter and blocking, findings consistent with defective neuromuscular transmission.
+（神經傳導檢查顯示上下肢低振幅複合肌肉動作電位。重複神經刺激在低頻時顯示遞減反應，高頻時顯示遞增反應。單纖維肌電圖顯示增加的震顫及阻滯，發現符合神經肌肉傳遞缺陷。）
+quote
+
+
+### 診斷推理描述
+
+quote
+The combination of proximal muscle weakness, areflexia, and characteristic electromyographic findings, together with the presence of anti-SOX1 antibodies and confirmed small-cell lung cancer, established the diagnosis of definitive paraneoplastic Lambert-Eaton myasthenic syndrome according to established diagnostic criteria.
+（近端肌肉無力、反射消失和特徵性肌電圖發現的組合，加上anti-SOX1抗體陽性和確診的小細胞肺癌，根據既定診斷標準確立了明確副腫瘤性Lambert-Eaton肌無力症候群的診斷。）
+quote
+
+
+### 常用專業術語對照
+
+
+| |p{8cm}}          **English Term** | **中文術語** |  |
+| --- | --- | --- |
+| Proximal muscle weakness | 近端肌肉無力 |  |
+| Areflexia | 反射消失 |  |
+| Incremental response | 遞增反應 |  |
+| Decremental response | 遞減反應 |  |
+| Compound muscle action potential | 複合肌肉動作電位 |  |
+| Single-fiber electromyography | 單纖維肌電圖 |  |
+| Neuromuscular junction | 神經肌肉接合處 |  |
+| Paraneoplastic syndrome | 副腫瘤性症候群 |  |
+| Voltage-gated calcium channel | 電壓閘控鈣離子通道 |  |
+| Presynaptic dysfunction | 前突觸功能異常 |  |
+
+
+## 案例學習重點
+
+
+### 診斷線索整合
+
+本案例展示了複雜神經肌肉疾病診斷中整合多種線索的重要性：
+
+
+1. **臨床表現**：漸進性近端肌無力 + 反射消失
+2. **危險因子**：重度吸菸史（提示肺癌風險）
+3. **電生理**：特徵性高頻刺激遞增反應
+4. **血清學**：Anti-SOX1抗體陽性（強烈提示SCLC）
+5. **影像學**：PET-CT發現可疑病灶
+6. **組織學**：確診小細胞肺癌
+
+
+### 診斷挑戰
+
+
+- **初始CT正常**：需要更敏感的PET-CT檢查
+- **Anti-VGCC抗體陰性**：約15
+- **症狀與重症肌無力重疊**：需要仔細的電生理鑑別
+- **小腫瘤**：早期SCLC可能不易察覺
+
+
+### 治療決策考量
+
+
+- **症狀控制 vs 根本治療**：需要同時進行
+- **化療適應症**：即使功能狀態差也可考慮
+- **復健重要性**：長期功能恢復的關鍵
+- **多專科合作**：神經科、胸腔科、腫瘤科協作
+
+
+## 延伸閱讀建議
+
+
+### 核心文獻
+
+
+1. Titulaer MJ, Lang B, Verschuuren JJ. Lambert-Eaton myasthenic syndrome: from clinical characteristics to therapeutic strategies. *Lancet Neurol* 2011;10:1098-107.
+2. Graus F, Vogrig A, Muñiz-Castrillo S, et al. Updated diagnostic criteria for paraneoplastic neurologic syndromes. *Neurol Neuroimmunol Neuroinflamm* 2021;8(4):e1014.
+3. Oh SJ, Shcherbakova N, Kostera-Pruszczyk A, et al. Amifampridine phosphate (Firdapse) is effective and safe in a phase 3 clinical trial in LEMS. *Muscle Nerve* 2016;53:717-25.
+
+
+### 進階主題
+
+
+- 其他副腫瘤性神經症候群
+- 神經肌肉接合處疾病的分子機轉
+- 免疫治療在神經免疫疾病中的應用
+- 小細胞肺癌的最新治療進展
+
+
+importantbox
+**學習總結：**
+本案例強調了臨床推理在複雜神經疾病診斷中的重要性。從初始的呼吸衰竭表現，透過詳細的病史詢問發現先前的肌無力，再經由系統性的檢查排除其他可能性，最終確診罕見的副腫瘤性Lambert-Eaton肌無力症候群。這個過程展現了現代醫學診斷的複雜性以及多專科合作的必要性。
+importantbox

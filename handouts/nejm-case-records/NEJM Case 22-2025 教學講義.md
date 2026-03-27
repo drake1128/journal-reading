@@ -1,0 +1,441 @@
+# https://www.nejm.org/doi/full/10.1056/NEJMcpc2412531?query=featured_secondary_home
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+
+{**[Case 22-2025: A 19-Year-Old Woman with Seizure-like Episodes, Headache, and Altered Mental Status](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412531?query=featured_secondary_home)**
+[0.5cm]
+{**病例 22-2025：19歲女性患者發作性類似癲癇、頭痛及精神狀態改變**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2412531?query=featured_secondary_home](https://doi.org/10.1056/NEJMcpc2412531?query=featured_secondary_home)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 22-2025: A 19-Year-Old Woman with Seizure-like Episodes, Headache, and Altered Mental Status》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412531?query=featured_secondary_home)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名19歲女性患者因發作性類似癲癇事件、頭痛及精神狀態改變入院。患者最初在另一醫院因全身抖動及意識混亂求診，血清乳酸升高但其他檢驗正常。EEG無異常。出院後症狀持續，包括右側手臂麻木、抖動及恐慌感。患者返回急診，呈現語言障礙、行為改變及躁動。過去病史包括焦慮、憂鬱及過敏症。患者無藥物濫用史，家族史包括祖母有精神分裂症。
+
+在轉至本醫院期間，患者出現躁動、語言混亂、妄想及偶爾的僵直行為。治療包括苯二氮平類藥物以控制躁動。患者有時以手機打字溝通，但偶爾出現面部抽搐。
+
+
+年輕女性出現急性精神症狀及類似癲癇事件，需考慮自身免疫性腦炎，如anti-NMDA受體腦炎，特別是伴隨卵巢畸胎瘤。
+
+
+行為改變包括躁動、妄想及僵直，可能提示catatonia，需與精神疾病鑑別。
+
+
+## 身體檢查與檢驗結果
+
+
+### 身體檢查發現
+
+
+- 體溫正常，心跳正常，血壓正常
+- 神經系統：偶爾面部抽搐，語言延遲或失語，偶爾僵直或對抗行為
+- 其他：無頸靜脈怒張，無水腫，心臟及肺部檢查正常
+
+
+### 實驗室檢查
+
+
+- 白血球計數：正常範圍
+- 血清乳酸：輕度升高
+- CSF分析：白血球19/μL（98
+- 病毒檢測：HSV PCR陰性
+- 自身抗體：anti-NMDA受體抗體陽性（CSF）
+
+
+### 病理檢查
+
+腹腔鏡下左側輸卵管卵巢切除術顯示惡性混合生殖細胞瘤，包括未成熟畸胎瘤成分。組織顯示神經組織、皮膚及上皮結構。
+
+
+CSF淋巴球增多提示腦炎，anti-NMDA抗體陽性確認診斷。卵巢腫瘤需病理確認畸胎瘤成分。
+
+
+## 影像學檢查
+
+
+### 腹部及骨盆影像學
+
+
+- **骨盆超音波**：17 cm異質性腫塊，混合回音（圖1A）
+- **腹部CT**：左側卵巢多囊性腫塊，伴有脂肪及鈣化（圖1B）
+
+
+### 其他影像
+
+
+- **頭部MRI**：正常，無腫塊或出血
+
+
+骨盆影像顯示典型畸胎瘤特徵，包括脂肪及鈣化，需手術確認及移除以治療相關腦炎。
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+本病例為一名年輕女性患者，表現為急性類似癲癇事件、頭痛、精神狀態改變及行為症狀，包括catatonia及精神病徵象。鑑別診斷需考慮患者的年齡、性別及症狀進展，結合臨床、影像學及CSF檢查，優先考慮自身免疫性腦炎、感染及精神疾病。以下詳細分析各診斷的推理過程。
+
+
+### 感染性疾病
+
+
+#### 病毒性腦炎
+
+
+- **HSV腦炎**     itemize[nosep]
+- **推理依據**：急性發作類似癲癇及行為改變與HSV腦炎相符。CSF淋巴球增多支持病毒感染。
+- **排除理由**：HSV PCR陰性，頭部MRI正常，排除HSV腦炎。
+
+
+itemize
+
+
+感染性腦炎需CSF PCR及培養排除。anti-NMDA抗體陽性指向自身免疫病因。
+
+
+#### 自身免疫性腦炎
+
+
+- **anti-NMDA受體腦炎**     itemize[nosep]
+- **推理依據**：年輕女性、類似癲癇、catatonia、精神症狀及卵巢畸胎瘤高度相符。CSF anti-NMDA抗體陽性確認診斷。
+- **支持理由**：腫瘤移除及免疫治療後改善支持此診斷。
+
+
+itemize
+
+
+### 精神疾病
+
+
+- **精神分裂症**     itemize[nosep]
+- **推理依據**：妄想及行為改變可能提示，但急性發作及神經症狀不符合典型進展。
+- **排除理由**：CSF異常及抗體陽性排除純精神疾病。
+
+
+itemize
+
+
+精神症狀需排除有機病因，如腦炎。家族史增加精神疾病風險，但抗體證據更強。
+
+
+### 其他可能性
+
+
+- **癲癇症**     itemize[nosep]
+- **推理依據**：類似癲癇事件，但EEG正常及進展性症狀不支持。
+- **排除理由**：無EEG相關性，抗癲癇藥無效。
+
+
+itemize
+
+importantbox
+**臨床要點：**
+
+- 年輕女性急性精神症狀需考慮anti-NMDA腦炎，特別伴隨腫瘤。
+- CSF抗體檢測是關鍵。
+- 惡性腫瘤需手術移除。
+- 多專科合作（神經科、婦科、病理科）至關重要。
+
+
+importantbox
+
+
+## 診斷與治療
+
+
+### 最終診斷
+
+
+1. **主要診斷**：anti-NMDA受體腦炎，相關惡性混合生殖細胞瘤（未成熟畸胎瘤）
+2. **次要診斷**：焦慮及憂鬱惡化
+
+
+### 治療策略
+
+
+#### 抗腫瘤及免疫治療
+
+
+- **手術**：左側輸卵管卵巢切除術移除腫瘤
+- **免疫治療**：靜脈免疫球蛋白、methylprednisolone、rituximab
+
+
+#### 支持治療
+
+
+- benzodiazepine (苯二氮平)類藥物：控制躁動及catatonia
+- 抗病毒治療：初始經驗性使用acyclovir，後停用
+
+
+#### 病理結果
+
+腫瘤顯示混合生殖細胞成分，包括神經組織，支持paraneoplastic腦炎。
+
+
+anti-NMDA腦炎需腫瘤移除及免疫抑制治療，療程6-12個月。
+
+
+## 預後與追蹤
+
+
+### 短期預後
+
+手術及免疫治療後，症狀改善，患者恢復正常活動。
+
+
+### 長期追蹤
+
+需持續監測復發風險，每3-6個月追蹤影像學及抗體滴度。優化精神健康管理以降低復發。
+
+
+## 圖說翻譯
+
+
+| |p{7cm}}          **English Original** | **繁體中文翻譯** |  |
+| --- | --- | --- |
+| **Figure 1. Imaging Studies of the Abdomen and Pelvis.** |  |  |
+| A transabdominal ultrasound image of the pelvis (Panel A) shows a 17 cm heterogeneous mass with mixed echoes (arrows). | **圖1. 腹部及骨盆影像學檢查**      骨盆經腹部超音波影像（圖A）顯示17 cm異質性腫塊，伴混合回音（箭頭）。 |  |
+| **Figure 2. Left Salpingo-Oophorectomy Specimen.** |  |  |
+| A photograph of the left ovarian mass shows a tan-white and glistening nodular external surface (Panel A). | **圖2. 左側輸卵管卵巢切除標本**      左側卵巢腫塊照片顯示黃白色光滑結節狀表面（圖A）。 |  |
+
+
+---
+
+
+## 考題
+
+
+以下為針對本病例的十道選擇題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者的主要危險因子是：     enumerate[label=\alph*)]
+2. 高齡
+3. 年輕女性及卵巢腫瘤
+4. 吸菸史
+5. 高血壓
+
+
+    \item 影像學檢查中最具診斷價值的發現是：
+    
+1. 卵巢異質性腫塊
+2. 頭部MRI正常
+3. 肺部異常
+4. 腹部CT正常
+
+
+    \item CSF檢查結果最符合下列哪種診斷？
+    
+1. 細菌性腦膜炎
+2. anti-NMDA腦炎
+3. 真菌感染
+4. 隱球菌病
+
+
+    \item anti-NMDA腦炎的特徵性發現是：
+    
+1. CSF抗體陽性及腫瘤
+2. 革蘭氏陽性桿菌
+3. 酵母菌
+4. 孢子結構
+
+
+    \item 年輕女性精神症狀的首要鑑別診斷包括：
+    
+1. 精神分裂症
+2. anti-NMDA腦炎
+3. HSV腦炎
+4. 以上皆是
+
+
+    \item 本病例最終確診的病因是：
+    
+1. 病毒感染
+2. 惡性混合生殖細胞瘤及anti-NMDA腦炎
+3. 綠膿桿菌
+4. 隱球菌
+
+
+    \item anti-NMDA腦炎的首選治療是：
+    
+1. 單一抗生素
+2. 腫瘤移除及免疫治療
+3. 抗結核藥物
+4. 抗真菌藥物
+
+
+    \item 畸胎瘤相關腦炎的治療挑戰在於：
+    
+1. 藥物過敏
+2. 及時診斷及腫瘤移除
+3. 無有效治療
+4. 治療時間短
+
+
+    \item 自身免疫腦炎的併發症不包括：
+    
+1. 精神症狀
+2. 類似癲癇事件
+3. 高血糖
+4. catatonia
+
+
+    \item 年輕患者腦炎管理中需特別注意：
+    
+1. 篩查腫瘤
+2. 增加抗生素劑量
+3. 避免免疫治療
+4. 單一藥物治療
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：b) 年輕女性及卵巢腫瘤**      **詳解：** 年輕女性及卵巢畸胎瘤是anti-NMDA腦炎的主要危險因子。
+2. **正確答案：a) 卵巢異質性腫塊**      **詳解：** 骨盆影像顯示異質性腫塊，指向畸胎瘤，支持paraneoplastic症候群。
+3. **正確答案：b) anti-NMDA腦炎**      **詳解：** CSF淋巴球增多及抗體陽性符合anti-NMDA腦炎。
+4. **正確答案：a) CSF抗體陽性及腫瘤**      **詳解：** anti-NMDA腦炎特徵為CSF抗體及相關腫瘤。
+5. **正確答案：d) 以上皆是**      **詳解：** 年輕女性精神症狀需考慮anti-NMDA腦炎、HSV及精神分裂症。
+6. **正確答案：b) 惡性混合生殖細胞瘤及anti-NMDA腦炎**      **詳解：** 病理及抗體確認腫瘤相關腦炎。
+7. **正確答案：b) 腫瘤移除及免疫治療**      **詳解：** 需手術移除腫瘤並免疫抑制治療。
+8. **正確答案：b) 及時診斷及腫瘤移除**      **詳解：** 挑戰在於快速識別腫瘤並手術。
+9. **正確答案：c) 高血糖**      **詳解：** 自身免疫腦炎併發症包括精神及神經症狀，但無直接高血糖關聯。
+10. **正確答案：a) 篩查腫瘤**      **詳解：** 年輕患者腦炎需篩查潛在腫瘤，優化免疫治療。
+
+
+## 英文寫作指導
+
+
+本節提供針對醫學報告中描述患者異常行為的英文寫作指導，旨在幫助學生以專業、客觀且精確的語言撰寫臨床記錄。此指導參考《New England Journal of Medicine》病例報告（如 Case 22-2025）的風格，針對年輕女性患者出現類似癲癇、頭痛及精神狀態改變的案例，提供具體寫作步驟及例句。
+
+
+### 寫作原則
+
+
+1. **客觀性**：使用中性語言描述行為，避免主觀判斷或揣測患者意圖。
+2. **具體性**：詳細描述行為的性質、頻率、持續時間及背景。
+3. **臨床相關性**：將行為與診斷推論連結，確保描述對鑑別診斷有意義。
+4. **清晰結構**：使用邏輯清晰、簡潔的語言，便於其他醫療專業人員理解。
+5. **避免污名化語言**：避免使用帶有污名化的詞彙，如「瘋狂」或「怪異」，而應採用臨床術語。
+
+
+撰寫異常行為時，應聚焦於客觀觀察並避免情感性語言，以維持醫學報告的專業性。
+
+
+### 寫作步驟
+
+
+1. **介紹背景**：      - 簡要說明觀察行為的時間、地點及臨床情境（如住院、急診或門診）。 - *例句*：During the patient’s admission to the emergency department, she exhibited abnormal behaviors that prompted further neurological evaluation.（患者於急診住院期間，表現出異常行為，促使進行進一步神經學評估。）
+2. **詳細描述行為**：      - 具體說明行為的性質（如躁動、言語混亂、重複動作）、頻率（間歇或持續）、持續時間（數秒或數小時）及觸發因素。 - *例句*：The patient displayed intermittent episodes of agitation, characterized by attempting to leave the hospital room and speaking in nonsensical phrases in both English and her native language. These episodes lasted approximately 5-10 minutes and occurred multiple times daily, often triggered by interactions with hospital staff.（患者表現出間歇性躁動，特徵為試圖離開病房並以英語及母語說出無意義短語。這些發作持續約5-10分鐘，每日多次，常由與醫護人員互動觸發。）
+3. **記錄患者互動與反應**：      - 描述患者在發作期間與他人的互動，如反應性、眼神接觸或對干預的抵抗。 - *例句*：During these episodes, the patient did not maintain eye contact, was unresponsive to verbal commands, and occasionally communicated by typing messages on her mobile phone.（在這些發作期間，患者無眼神接觸，對口頭指令無反應，偶爾通過手機打字溝通。）
+4. **關聯臨床發現**：      - 將行為與其他臨床觀察（如神經徵象、生命體徵或實驗室結果）連結，提供全面描述。 - *例句*：These behaviors were associated with intermittent facial twitching and delayed speech, with cerebrospinal fluid analysis revealing lymphocytic pleocytosis, suggesting a possible autoimmune etiology.（這些行為伴隨間歇性面部抽搐及言語延遲，腦脊液分析顯示淋巴球增多，提示可能的自身免疫病因。）
+5. **強調診斷意義**：      - 簡述行為如何支持鑑別診斷，參考可能的病因（如神經、精神或副腫瘤性疾病）。 - *例句*：These behaviors, combined with seizure-like activity and altered mental status, raised suspicion for anti-NMDA receptor encephalitis, particularly given the presence of a 17 cm ovarian mass on pelvic ultrasound.（這些行為結合類似癲癇活動及精神狀態改變，提示anti-NMDA受體腦炎的可能性，特別是在骨盆超音波發現17厘米卵巢腫塊的情況下。）
+6. **使用專業術語**：      - 採用標準臨床術語，如「agitation」（躁動）、「catatonia」（緊張症）、「disorganized speech」（言語混亂）或「delusional thoughts」（妄想），以符合臨床規範。 - 避免模糊詞彙如「strange」或「odd」，除非有具體描述支持。
+
+
+使用標準化術語可提高報告的可信度，並便於跨學科溝通。避免使用「怪異」等模糊詞彙。
+
+
+### 完整範例
+
+以下為基於 Case 22-2025 的異常行為描述範例：
+quote
+During the patient’s hospitalization on day 2, she exhibited episodes of agitation characterized by attempting to run out of the hospital room and speaking in a mix of nonsensical and partial sentences in both English and her native language. These episodes occurred 3-4 times daily, each lasting 5-10 minutes, and were accompanied by a lack of eye contact and resistance to staff instructions. The patient occasionally communicated via typing on her mobile phone. These behaviors were associated with intermittent facial twitching and delayed speech. Electroencephalography (EEG) was normal, and cerebrospinal fluid analysis revealed 19 white cells per microliter, predominantly lymphocytes, suggesting a possible autoimmune encephalitis, such as anti-NMDA receptor encephalitis, particularly given the finding of a 17 cm ovarian mass on pelvic ultrasound.（患者住院第二天表現出躁動發作，特徵為試圖跑出病房並以英語及母語說出無意義及不完整句子。這些發作每日發生3-4次，每次持續5-10分鐘，伴隨無眼神接觸及對醫護指令的抵抗。患者偶爾通過手機打字溝通。這些行為伴隨間歇性面部抽搐及言語延遲。腦電圖（EEG）正常，腦脊液分析顯示每微升19個白血球，主要為淋巴球，提示可能的自身免疫腦炎，如anti-NMDA受體腦炎，特別是在骨盆超音波發現17厘米卵巢腫塊的情況下。）
+quote
+
+
+### 常見錯誤與避免方法
+
+
+- **過度概括**：避免模糊描述，如「患者行為怪異」。應具體說明，如「重複無目的動作」。
+- **主觀判斷**：避免使用帶個人評判的詞彙，如「不適當」或「異常」，除非有臨床背景支持。
+- **忽略背景**：務必包含行為發生的情境與時間，提供完整資訊。
+- **忽略診斷關聯**：確保描述與潛在診斷相關，避免無關細節。
+
+
+### 改進建議
+
+
+- **練習觀察**：閱讀病例報告（如 NEJM Case 22-2025），模仿其描述結構。
+- **使用模板**：建立行為描述的心理或書面模板，包括背景、行為細節、互動及臨床關聯。
+- **尋求反饋**：與同儕或導師分享草稿，精進清晰度與專業性。
+- **參考標準**：參考 DSM-5 或 ICD-11 的診斷標準，精確描述精神或神經症狀。
+
+
+importantbox
+**臨床要點：**
+
+- 異常行為描述需客觀、具體且與診斷相關。
+- 使用標準化術語增強報告可信度。
+- 結合臨床發現（如 EEG、CSF 結果）強化診斷依據。
+- 避免污名化語言，維持專業性與尊重。
+
+
+importantbox
+
+
+## 重要知識點總結
+
+
+### 自身免疫腦炎特點
+
+
+- **高風險因子**：年輕女性、腫瘤
+- **常見類型**：anti-NMDA、anti-LGI1
+- **診斷挑戰**：需CSF抗體及腫瘤篩查
+
+
+### anti-NMDA腦炎
+
+
+- **病理機轉**：抗體攻擊NMDA受體，相關畸胎瘤
+- **診斷**：CSF抗體、影像學腫瘤
+- **治療**：腫瘤移除、IVIG、類固醇、rituximab
+
+
+### 畸胎瘤
+
+
+- **特徵**：異質性腫塊，含神經組織
+- **診斷**：影像學及病理
+- **治療**：手術切除
+
+
+### 腦炎的診斷與治療
+
+
+- **預防**：及時篩查腫瘤
+- **監測**：定期抗體及影像學
+- **治療**：免疫抑制及支持療法
+
+
+importantbox
+**臨床要點：**
+
+- 年輕女性精神症狀需優先考慮自身免疫腦炎
+- anti-NMDA腦炎診斷依賴CSF抗體，需與感染鑑別
+- 腫瘤移除是治療關鍵，避免延遲
+- 多專科合作（神經科、婦科、病理科）對複雜病例至關重要
+
+
+importantbox

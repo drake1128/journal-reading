@@ -1,0 +1,121 @@
+# cath PCI Case 202 thrombus problem Eng
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+**Manual of Percutaneous Coronary Interventions**  
+
+**Case 202: Thrombus Troubles**
+Presented by: Nik Willie Fort & Emmanouil Brilakis, MD, PhD  
+
+Compiled by: Mu-Yang Hsieh, MD, PhD, FESC  
+
+with assistance by Claude.ai
+November 8, 2025
+
+\maketitle
+
+
+## Case Summary
+
+
+This case demonstrates the challenges of managing thrombus in patients with acute coronary syndrome (ACS). The patient presented with inferior ST-elevation myocardial infarction (STEMI), but unfortunately also experienced gastrointestinal (GI) bleeding the day prior.
+Please refer to the YouTube video: [Case 202: Manual of PCI - Thrombus troubles](https://www.youtube.com/watch?v=5nUQ-6KT3XQ) by Dr. Emmanouil Brilakis.
+
+
+The uniqueness of this case lies in the patient's concurrent presentation of STEMI and recent GI bleeding, requiring particular caution in antiplatelet therapy management.
+
+
+## Angiographic Findings and Procedural Steps
+
+
+| p{0.25\textwidth} >{\arraybackslash}p{0.65\textwidth}} Coronary Intervention Procedural Steps and Results |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **emergency_red**{Procedural Stage} | **emergency_red**{Imaging Findings and Management} |  |  |  |  |
+| ****Initial Assessment**** | **Left Coronary Artery:** Multiple views showed no significant stenosis    **Right Coronary Artery (RCA):**     - Occluded distally    - Contrast staining visible at end of injection, likely representing thrombus retaining contrast    - No collaterals to posterior descending artery (PDA) or posterolateral branch |  |  |  |  |
+| ****Step 1:    Balloon Treatment**** | **Intervention:**     - Guide wire inserted    - Balloon angioplasty performed with 2.0 × 15 mm balloon    **Results:**     - Restoration of antegrade flow    - Significant disease in distal RCA    - Small amount of flow into small PDA    - Partial flow into right posterolateral branch |  |  |  |  |
+| ****Further Treatment:    Additional Dilation**** | **Intervention:**     - Rewired into posterolateral branch (larger branch)    - Additional balloon inflations performed    **Problems:**     - Lesion not completely prepared    - Flow present but suboptimal, particularly into PDA    - No-reflow phenomenon developed    - Probable distal thrombus embolization to both PDA and posterolateral branch |  |  |  |  |
+| ****Managing No-reflow:    Balloon Therapy**** | **Intervention:**     - Rewired into PDA    - Balloon angioplasty performed    **Results:**     - Flow still suboptimal    - Patient continued to have no-reflow |  |  |  |  |
+| ****Vasodilator Therapy**** | **Medication Options:**     *Vasodilators:* Adenosine, nicardipine, verapamil, nitroprusside    *Antiplatelet Agents:* Cangrelor or glycoprotein IIb/IIIa inhibitors    **Management in This Case:**     Due to recent GI bleeding, cautious approach with antiplatelet agents; decision to use vasodilators    **Administration Method:**     - Medications given through Penumbra aspiration catheter    - Intracoronary nicardipine administered    - Approximately 500 mcg adenosine given in three slow doses    *Note:* Adenosine in RCA may cause bradycardia, but patient remained stable    **Results:**     - Improved flow to PDA and right posterolateral branch    - Some branches still missing, e.g., one superior branch of posterolateral branch remains occluded |  |  |  |  |
+| ****Stent Placement**** | **Intervention:**     - Significant stenosis remained in distal RCA    - Placed 3.0 × 22 mm drug-eluting stent (DES)    **Complications:**     - Stent placement may push or squeeze thrombus    - Distal RCA appeared acceptable, but thrombus was present    - Despite prior Penumbra thrombectomy, thrombus migrated to right posterolateral branch    - New filling defect appeared that was not present before |  |  |  |  |
+| ****Post-Stent Optimization    Thrombus Management**** | **Observation:**     - After stent optimization, thrombus now migrated to PDA    **Intervention:**     - Performed aspiration thrombectomy with Penumbra    - Advanced catheter into PDA    - Prior to stenting, Penumbra catheter could not cross into PDA    - After stenting distal RCA, successfully delivered aspiration catheter into PDA    - Multiple passes performed    **Results:**     - Although no visible thrombus retrieved through Penumbra system    - PDA condition significantly improved |  |  |  |  |
+| ****Posterolateral    Thrombus Management**** | **Problem:**     - Thrombus again migrated to right posterolateral branch    **Technical Limitations:**     - 6 French guide catheter in use    - Insufficient space inside guide for both buddy wire and Penumbra catheter    **Solution:**     - Used same wire inserted into posterolateral branch    - Advanced Penumbra catheter to perform aspiration thrombectomy    **Results:**     - Successfully resolved thrombus at this location    - Good distal RCA result    - Good PDA result    - Partial flow in posterolateral branch    - Superior branch of posterolateral branch still had poor flow |  |  |  |  |
+| ****Final Intervention:    Superior Branch**** | **Considerations:**     - Inferior branch had flow, possibly adequate    - However, considered that improving superior branch flow might be beneficial long-term    - Especially since unwilling to give aggressive antiplatelet therapy    **Intervention:**     - Wired into superior branch (not too difficult)    - Performed aspiration thrombectomy    - Branch already had some flow through it    **Results:**     - Still no-reflow    - Contrast not flowing perfectly, but at least some entrance into branch    - Decision made to stop further intervention    - Patient's chest discomfort resolved |  |  |  |  |
+
+
+## Key Learning Points
+
+
+importantbox
+
+### Challenges in Thrombus Management
+
+
+1. **Thrombus management in acute coronary syndromes and STEMI is challenging**  - Multiple management approaches available - Need to adjust strategy based on clinical situation
+2. **Initial management typically involves:**  - Balloon angioplasty - Aspiration thrombectomy
+3. **Treatment strategies for no-reflow:**  - *Vasodilators:* Adenosine, nicardipine, verapamil, nitroprusside, etc. - *Antiplatelet agents:* Cangrelor or glycoprotein IIb/IIIa inhibitors - Can be administered via intracoronary injection through microcatheter
+4. **Characteristics of Penumbra aspiration catheter:**  - Provides aspiration capability - Can also function as dual-lumen microcatheter - Can be used for medication delivery
+5. **Considerations for stent placement timing:**  - In this case, Penumbra catheter could not initially pass due to tight lesion - After stent placement, could perform aspiration thrombectomy - However, stent placement may squeeze thrombus causing distal embolization
+6. **Importance of guide catheter size:**  - 6 French guide cannot accommodate both buddy wire and Penumbra catheter - Need strategic use of same wire for multiple interventions
+7. **Realistic treatment goals:**  - Restore flow to major branches as much as possible - Results may not be perfect - Sometimes need to accept suboptimal results
+8. **Specific limitations in this case:**  - Patient had history of GI bleeding - Without bleeding contraindications, would have given Cangrelor or glycoprotein IIb/IIIa inhibitor post-procedure - Would help with thrombus resolution and restoration of antegrade flow
+
+
+importantbox
+
+
+## Clinical Recommendations
+
+
+### Standard Algorithm for Managing STEMI with Thrombus
+
+
+| p{0.12\textwidth} >{\arraybackslash}p{0.78\textwidth}} Standardized Thrombus Management Algorithm |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Step** | **Intervention Content** |  |  |  |  |
+| ****Step 1**** | **Initial Flow Restoration**    - Balloon angioplasty OR    - Aspiration thrombectomy |  |  |  |  |
+| ****Step 2**** | **Assess Flow Status**    - Observe for no-reflow    - Assess distal branch perfusion |  |  |  |  |
+| ****Step 3**** | **Manage No-reflow**    *Vasodilator administration (first choice if bleeding risk):*    - Adenosine: 50-200 mcg (RCA), note possible bradycardia    - Nicardipine: 100-200 mcg    - Verapamil: 100-500 mcg    - Nitroprusside    *Antiplatelet agents (if no contraindications):*    - Cangrelor IV    - Glycoprotein IIb/IIIa inhibitors (eptifibatide, tirofiban, abciximab) |  |  |  |  |
+| ****Step 4**** | **Stent Placement**    - Assess lesion preparation adequacy    - Select appropriate stent size    - Be aware of potential thrombus-squeezing effect |  |  |  |  |
+| ****Step 5**** | **Post-Stent Management**    - Stent optimization    - Manage distal embolization (if occurred)    - Perform aspiration thrombectomy in branches as needed |  |  |  |  |
+| ****Step 6**** | **Final Assessment**    - Confirm major branch flow    - Assess residual thrombus    - Weigh risks and benefits of further intervention |  |  |  |  |
+
+
+### Special Clinical Situations
+
+
+| p{0.3\textwidth} >{\arraybackslash}p{0.6\textwidth}} Management Principles for Special Clinical Scenarios |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Clinical Scenario** | **Management Principles** |  |  |  |  |
+| ****Concurrent Bleeding Risk**** | - Prioritize use of vasodilators    - Carefully evaluate antiplatelet agent use    - Consider transfusion threshold    - Closely monitor for bleeding signs |  |  |  |  |
+| ****Guide Catheter    Size Limitations**** | - Plan wire strategy in advance    - Consider if larger guide needed    - Evaluate single wire vs buddy wire technique    - Note aspiration catheter compatibility |  |  |  |  |
+| ****Heavy Thrombus Burden**** | - Consider delayed stent placement    - Adequate thrombectomy    - Staged intervention strategy    - Consider glycoprotein IIb/IIIa inhibitor if necessary |  |  |  |  |
+| ****Multiple Branches Affected**** | - Prioritize major branches    - Assess importance of each branch    - Balance intervention time with benefit    - Accept potentially suboptimal results |  |  |  |  |
+
+
+## Conclusion
+
+
+This case fully demonstrates the challenges of managing complex STEMI with heavy thrombus burden. Key points include:
+
+
+- Flexible use of multiple techniques (balloon angioplasty, aspiration thrombectomy, vasodilators)
+- Adjust antiplatelet strategy based on patient's bleeding risk
+- Recognize potential thrombus-squeezing effect of stent placement
+- Accept suboptimal but acceptable results when necessary
+- Understand equipment limitations (such as guide catheter size) and plan ahead
+
+
+**Video Link:** <https://www.youtube.com/watch?v=5nUQ-6KT3XQ>
+
+
+\hrule
+
+
+*This document is compiled from the Manual of Percutaneous Coronary Interventions educational video*
+
+*Compiled by: Mu-Yang Hsieh, MD, PhD, FESC*
+
+*Date: November 8, 2025*

@@ -1,0 +1,350 @@
+# cath slide 2025-06A LAD CTO
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+\titlepage
+
+frame{Case Overview}
+
+- **Patient:** 83-year-old male
+- **ID:** H740458
+- **Admission Date:** October 11, 2024
+- **Indication:** Stable CAD with LAD CTO
+- **Previous Procedure:** Primary PCI to RCA (September 7, 2024)
+- **Current Complaint:** Intermittent chest tightness after discharge
+
+
+frame
+
+frame{Medical History}
+block{Underlying Diseases}
+
+- Atrial fibrillation, persistent (CHA₂DS₂-VASc: 5, HAS-BLED: 1)
+- Hypertension
+- Benign prostatic hyperplasia
+- Retinal artery/vein occlusion
+
+
+block
+
+block{Previous STEMI Event (Sept 7, 2024)}
+
+- Anterior STEMI with inferior involvement
+- Troponin-T: 81.65 ng/L
+- Successful primary PCI to RCA with DES × 2
+
+
+block
+frame
+
+frame{Current Coronary Anatomy}
+block{Previous Angiographic Findings (Sept 7, 2024)}
+
+- ****LAD:**** Proximal total occlusion (CTO)
+- ****D1:**** 70
+- ****LCX:**** Patent
+- ****RCA:**** Previously treated     itemize
+- Proximal: 99
+- Middle: 70
+- Distal: 80
+
+
+    \item **SYNTAX Score:** 36.5 → 28 (current)
+itemize
+block
+frame
+
+frame{Recent Angiographic Assessment (Oct 11, 2024)}
+block{Current Findings}
+
+- **LM:** Patent
+- ****LAD:**** Mid CTO with collaterals from:     itemize
+- RCA-RV branches
+- Septal branches
+
+
+    \item **D1:** 60
+    \item **LCX:** Patent
+    \item **RCA:** Proximal 30
+    \item **Current SYNTAX Score:** 28
+itemize
+block
+frame
+
+frame{Previous CTO Attempt (Oct 11, 2024)}
+alertblock{Failed CTO PCI}
+
+- **Target:** LAD CTO
+- **Access:** Bilateral femoral approach
+- **Antegrade Approach:** Failed due to severe calcification
+- **Retrograde Approach:** Failed     itemize
+- Via PDA-septal: Failed
+- Via RV branch: Failed
+
+
+    \item **Reason for Failure:** Dense calcification and failed retrograde access
+itemize
+alertblock
+frame
+
+frame{Current Medications}
+block{Cardiac Medications}
+
+- **Antiplatelet:** Plavix 75mg QD
+- **Anticoagulant:** Lixiana 30mg QD (for AF)
+- **Beta-blocker:** Concor 1.25mg QD
+- **ARB:** Diovan 40mg QD
+- **Statin:** Lipitor 40mg HS
+- **PPI:** Takepron 30mg QD AC
+
+
+block
+frame
+
+frame{Laboratory Results (Current)}
+
+
+| lcc@}  **Parameter** | **Value** |
+| --- | --- |
+| Creatinine | 0.86 mg/dL |
+| eGFR | 90.3 mL/min/1.73m² |
+| Troponin-T | 64.82 ng/L |
+| CK-MB | 2.29 ng/mL |
+| Total Cholesterol | 89 mg/dL |
+| LDL-C | 44 mg/dL |
+| HDL-C | 33 mg/dL |
+
+
+frame
+
+frame{CTO Characteristics}
+block{LAD CTO Features}
+
+- **Location:** Mid LAD
+- **Length:** Not specified (likely >20mm)
+- **Calcification:** Dense calcification (major limitation)
+- **Collaterals:** Present from RCA-RV and septal branches
+- **Previous Attempts:** 1 (failed on Oct 11, 2024)
+- **J-CTO Score Components:**     itemize
+- Calcification: Present (+1)
+- Previous failed attempt: Yes (+1)
+- Estimated score: ≥2 (intermediate-high complexity)
+
+
+itemize
+block
+frame
+
+frame{Risk Assessment}
+block{High-Risk Features}
+
+- ****Age:**** 83 years old
+- ****Dense calcification**** in CTO segment
+- ****Previous failed attempt****
+- ****Anticoagulation**** (Lixiana for AF)
+- ****Bilateral femoral access**** required
+
+
+block
+
+block{Favorable Features}
+
+- ****Good renal function**** (eGFR: 90.3)
+- ****Stable hemodynamics****
+- ****Visible collaterals****
+- ****Previous successful PCI**** to RCA
+
+
+block
+frame
+
+frame{Procedural Strategy}
+block{Approach Options}
+
+1. **Antegrade Escalation:**      - Start with polymer-jacketed guidewires - Consider rotational atherectomy for calcification - Use microcatheter support
+2. **Retrograde Approach:**      - Via septal collaterals (if suitable) - Via epicardial collaterals from RCA
+3. **Hybrid Approach:** Combination of above
+
+
+block
+frame
+
+frame{Equipment Preparation}
+block{Essential Equipment}
+
+- **Guiding Catheters:** 7-8Fr EBU 3.5, 7-8Fr JR4
+- **Guidewires:** GAIA series, Conquest Pro, Miracle series
+- **Microcatheters:** Finecross, Corsair Pro
+- **Support Catheters:** GuideLiner, Guidezilla
+- **Atherectomy:** Rotablator (standby)
+- **Balloons:** NC balloons 2.0-3.5mm
+- **Stents:** DES 2.5-3.5mm × 15-38mm
+
+
+block
+frame
+
+frame{Anticoagulation Plan}
+block{Periprocedural Management}
+
+- **Lixiana:** Hold for 24-48 hours preprocedure
+- **Heparin:** Target ACT >300 seconds
+- **Dual Antiplatelet:** Continue Plavix, add Aspirin loading if needed
+- **Post-procedure:** Resume Lixiana after hemostasis
+
+
+block
+
+alertblock{Bleeding Risk}
+
+- HAS-BLED Score: 1 (low risk)
+- Age >65: +1 point
+- Consider vascular closure device
+
+
+alertblock
+frame
+
+frame{Potential Complications}
+alertblock{Procedure-Specific Risks}
+
+- **Perforation:** Risk with aggressive wiring in calcified CTO
+- **Dissection:** Donor vessel injury during retrograde approach
+- **Contrast-induced nephropathy:** Monitor volume (current eGFR: 90.3)
+- **Bleeding:** Dual anticoagulation, bilateral access
+- **Radiation exposure:** Complex procedure, longer fluoroscopy time
+- **Equipment entrapment:** In calcified segments
+
+
+alertblock
+frame
+
+frame{Backup Plans}
+block{If CTO PCI Fails Again}
+
+1. **Medical Management:**      - Optimize anti-anginal therapy - Consider ranolazine, nicorandil - Cardiac rehabilitation
+2. **Surgical Referral:**      - CABG consultation (CVS surgeon Dr. Tsai) - LAD-LIMA bypass
+3. **Alternative Interventions:**      - External counterpulsation - Consider repeat attempt with different strategy
+
+
+block
+frame
+
+frame{Success Criteria}
+block{Primary Endpoints}
+
+- **Angiographic Success:** TIMI 3 flow in LAD
+- **Procedural Success:** <30
+- **Clinical Success:** No in-hospital MACE
+
+
+block
+
+block{Secondary Endpoints}
+
+- Symptom improvement
+- No procedural complications
+- Successful vessel closure
+- Preserved renal function
+
+
+block
+frame
+
+frame{Post-Procedure Monitoring}
+block{Immediate Post-Procedure}
+
+- **ECG:** Immediate and at 6-12 hours
+- **Echo:** Rule out pericardial effusion
+- **Laboratory:** Troponin, CK-MB, creatinine
+- **Vascular Access:** Monitor for bleeding/hematoma
+
+
+block
+
+block{CCU Monitoring}
+
+- Hemodynamic stability
+- Chest pain assessment
+- Neurological status
+- Urine output monitoring
+
+
+block
+frame
+
+frame{Team Roles}
+block{Catheterization Team}
+
+- **Primary Operator:** Lead interventional cardiologist
+- **Assistant:** Support with equipment, imaging
+- **Scrub Nurse:** Equipment preparation and handling
+- **Circulating Nurse:** Medication, monitoring
+- **Technologist:** Imaging optimization
+- **Anesthesia:** If conscious sedation needed
+
+
+block
+
+alertblock{Emergency Support}
+
+- Cardiac surgery team on standby
+- Pericardiocentesis kit available
+- Emergency medications prepared
+
+
+alertblock
+frame
+
+frame{Key Decision Points}
+
+1. **Wire Selection:** Based on calcification severity
+2. **Antegrade vs Retrograde:** Assess collateral suitability
+3. **Atherectomy Use:** If severe calcification prevents balloon crossing
+4. **Procedure Termination:** Safety considerations vs benefit
+5. **Stent Strategy:** Length and overlap planning
+
+
+alertblock{Stop Criteria}
+
+- Contrast volume >3× eGFR
+- Fluoroscopy time >60 minutes
+- Hemodynamic instability
+- Major perforation
+
+
+alertblock
+frame
+
+frame{Summary}
+block{Case Summary}
+
+- 83-year-old male with LAD CTO
+- Previous failed CTO PCI due to dense calcification
+- High anatomical complexity, intermediate clinical risk
+- Requires aggressive antegrade approach ± rotational atherectomy
+- Backup surgical option available
+
+
+block
+
+alertblock{Key Messages}
+
+- ****High complexity case**** - prepare for extended procedure
+- ****Safety first**** - be ready to abort if necessary
+- ****Team communication**** essential for success
+
+
+alertblock
+frame
+
+frame
+
+Questions & Discussion
+
+
+Good luck with the procedure!
+frame

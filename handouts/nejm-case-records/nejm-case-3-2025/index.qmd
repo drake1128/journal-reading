@@ -1,0 +1,460 @@
+---
+title: "NEJM Case 3-2025"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{\bfseries**Case Records of the Massachusetts General Hospital**}
+[0.5cm]
+{\bfseries Case 3-2025: A 54-Year-Old Man with Exertional Dyspnea and Chest Pain}
+[0.3cm]
+{54歲男性，運動性呼吸困難與胸痛}
+[0.5cm]
+{N Engl J Med 2025;392:383-94 | January 23, 2025}
+[0.3cm]
+{*謝慕揚, MD, PhD, FESC 整理*}
+[0.3cm]
+{\mydate}
+
+
+## 病例呈現 (Case Presentation)
+
+
+### 主訴與現病史 (Chief Complaint and HPI)
+
+
+A 54-year-old male athlete was evaluated in the cardiovascular performance program clinic because of **progressive exertional dyspnea and chest pain**.
+
+一位54歲男性運動員因**漸進性運動性呼吸困難與胸痛**至心血管功能門診就診。
+
+The patient had been in his usual state of health, including engaging in regular vigorous exercise, until **17 months before** the current presentation, when intermittent nonradiating chest pressure and dyspnea on exertion developed. He felt unable to "get a full breath" during high-intensity aerobic exercise.
+
+病患原本健康狀態良好，有規律激烈運動習慣，直到就診前17個月開始出現間歇性、無放射性的胸悶及運動性呼吸困難。他在高強度有氧運動時感覺無法「深吸一口氣」。
+
+**Timeline of Symptoms (症狀時間軸):**
+
+- 5 years before presentation: Episode of dull left-sided chest pain lasting 2 days after airline travel; troponin normal, ECG showed sinus bradycardia, coronary CTA showed CAD-RADS 0, calcium score 0
+- 17 months before: Onset of intermittent chest pressure and dyspnea on exertion
+- 16 months before: PCP evaluation --- new grade 2/6 midsystolic murmur, ECG showed new rightward axis, reduced R-wave progression, new inferolateral T-wave inversions
+- 16 months before (10 days later): Stress echocardiography --- T-wave inversions at rest, hyperdynamic LV with mild MR, 2mm ST depressions with exercise
+- 14 months before: Cardiology evaluation --- cardiac MRI showing concentric LV wall thickening up to 18mm, late gadolinium enhancement 3
+- Current presentation: Cardiovascular performance program for CPET
+
+
+### 過去病史與社會史 (Past Medical and Social History)
+
+
+- Arthritis
+- Bilateral rotator cuff repairs（雙側旋轉肌袖修補手術）
+- Bilateral meniscectomies（雙側半月板切除術）
+- Colonic polyps（大腸息肉）
+- Medications: Aspirin only
+- Occupation: Executive（企業主管）
+- Social: Lives in suburban New England with family; social alcohol use; remote intranasal cocaine use; never smoked
+- Not vaccinated against SARS-CoV-2
+
+
+### 家族史 (Family History)
+
+
+- Father: Premature coronary artery disease and heart failure
+- Mother: Hypertension, atrial fibrillation, and heart failure
+- Multiple relatives: Dyslipidemia
+
+
+### 身體檢查 (Physical Examination)
+
+
+| p{5cm} >{\arraybackslash}p{10cm}}  **Examination** | **Findings** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Heart rate | 81 beats per minute |  |  |  |  |
+| Blood pressure | 116/70 mm Hg |  |  |  |  |
+| Jugular venous pressure | **13 cm H$_2$O**（升高）    **Kussmaul's sign present**（庫斯莫爾徵陽性） |  |  |  |  |
+| Skin | Small angiomas (<4 mm) on truncal skin（軀幹小血管瘤） |  |  |  |  |
+| Other | Normal |  |  |  |  |
+
+
+**Kussmaul's Sign（庫斯莫爾徵）**：吸氣時頸靜脈壓不降反升的現象。正常情況下，吸氣時胸內壓下降會增加靜脈回流，使頸靜脈壓下降。Kussmaul's sign 代表右心室無法容納增加的靜脈回流，見於：
+
+- Right ventricular infarction（右心室梗塞）
+- Constrictive pericarditis（縮窄性心包炎）
+- **Restrictive cardiomyopathy（限制性心肌病變）**
+
+
+### 檢驗數據 (Laboratory Data)
+
+
+| p{5.5cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{4cm}}  **Laboratory Test** | **Result** | **Reference Range** | **臨床意義** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Sodium | 140 mmol/L | 136--145 | 正常 |  |  |
+| Potassium | 4.5 mmol/L | 3.6--5.1 | 正常 |  |  |
+| Chloride | 103 mmol/L | 98--107 | 正常 |  |  |
+| Carbon dioxide | 28 mmol/L | 22--32 | 正常 |  |  |
+| Urea nitrogen | 25 mg/dL | 6--20 | **輕度升高**    可能腎功能受損 |  |  |
+| Creatinine | 1.10 mg/dL | 0.60--1.30 | 正常 |  |  |
+| Calcium | **10.6 mg/dL** | 8.9--10.3 | **輕度升高**    需注意高血�ite症 |  |  |
+| ALT | 55 U/L | 10--55 | 正常上限 |  |  |
+| AST | **53 U/L** | 10--40 | **輕度升高** |  |  |
+| Alkaline phosphatase | 84 U/L | 45--115 | 正常 |  |  |
+| Total bilirubin | 0.7 mg/dL | 0.0--1.0 | 正常 |  |  |
+| **High-sensitivity Troponin T** | **91 ng/L** | 0--9 | **顯著升高（10倍）**    心肌損傷指標 |  |  |
+| **NT-proBNP** | **2099 pg/mL** | <900 | **顯著升高**    心衰竭/心肌病變指標 |  |  |
+
+
+importantbox
+**Key Laboratory Findings（關鍵檢驗發現）**：
+
+High-sensitivity Troponin T 及 NT-proBNP 顯著升高，提示心肌損傷及心臟壁張力增加，強烈支持心肌病變診斷。在無明顯缺血證據下，需考慮浸潤性心肌病變（infiltrative cardiomyopathy）。
+importantbox
+
+
+### 影像學檢查 (Imaging Studies)
+
+
+#### Electrocardiogram (ECG)
+
+
+- Sinus rhythm
+- Rightward axis（右軸偏移）
+- Diffuse T-wave inversions（瀰漫性T波倒置）
+- Diminished R-wave amplitudes in V1, V2, I, aVL（R波振幅下降）
+- **Low voltage despite LV wall thickening**（心室壁增厚但QRS電壓下降）
+
+
+**ECG Clue（心電圖線索）**：左心室壁增厚通常伴隨QRS電壓增高，但此病患QRS電壓反而較五年前下降。這種「壁厚但電壓低」的矛盾現象（pseudo-hypertrophy pattern），高度提示浸潤性心肌病變，特別是 amyloidosis。
+
+
+#### Cardiac MRI
+
+
+- Concentric LV wall thickening up to 18 mm（同心性左心室壁增厚）
+- Lack of tapering of wall thickness from base to apex（壁厚從基底到心尖無漸減）
+- Focal late gadolinium enhancement (LGE) 3
+- Mildly elongated anterior mitral leaflet（前瓣葉輕度延長）
+- T1 mapping: **1182 msec** (reference: 938--1094) --- markedly elevated
+
+
+#### Cardiopulmonary Exercise Testing (CPET)
+
+
+- Peak work output: 213 watts (100
+- **Peak VO$_2$: 19.7 mL/kg/min (59
+- Ventilatory threshold: 83
+- Impaired oxygen pulse augmentation（氧脈衝增強受損）--- surrogate for stroke volume augmentation
+- Normal spirometry and oxygenation
+
+
+**CPET Interpretation**：正常的最大功率輸出但嚴重降低的峰值攝氧量，在肺功能正常的情況下，指向**心血管限制（cardiovascular limitation）**。氧脈衝增強受損提示運動時心搏量無法適當增加，符合限制性生理學（restrictive physiology）。
+
+
+## 醫學英文寫作解析 (Medical English Writing Analysis)
+
+
+| p{4.5cm} >{\arraybackslash}p{2.8cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3.7cm}}  **原文例句** | **文法結構** | **中文翻譯** | **寫作技巧** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| A 54-year-old male athlete was evaluated in the cardiovascular performance program clinic because of progressive exertional dyspnea and chest pain. | Passive voice + because of + noun phrase | 一位54歲男性運動員因漸進性運動性呼吸困難及胸痛至心血管功能門診接受評估。 | 開場句使用被動語態    強調病患而非醫師    because of 接名詞片語 |  |  |
+| The patient had been in his usual state of health until 17 months before the current presentation, when intermittent chest pressure developed. | Past perfect + until + time clause + when | 病患原本維持平常健康狀態，直到就診前17個月開始出現間歇性胸悶。 | Past perfect 表示「更早之前」    清楚標示症狀起始點 |  |  |
+| He felt unable to "get a full breath" during high-intensity aerobic exercise. | Subject + felt + adjective + infinitive phrase | 他在高強度有氧運動時感覺無法「深吸一口氣」。 | 引用病患原話（quotation）    增加臨床真實感 |  |  |
+| On examination, the jugular venous pressure was 13 cm of water, and Kussmaul's sign was present. | On examination + passive construction | 理學檢查發現頸靜脈壓為13公分水柱，且庫斯莫爾徵陽性。 | On examination 為標準PE描述起始    簡潔呈現陽性發現 |  |  |
+| These findings were suggestive but not diagnostic of hypertrophic cardiomyopathy. | Subject + be + suggestive but not diagnostic of | 這些發現提示但不足以確診肥厚性心肌病變。 | 表達診斷不確定性的標準句型    留有鑑別診斷空間 |  |  |
+| Kussmaul's sign is either the absence of a decrease or a paradoxical increase in jugular venous pressure during inspiration. | Subject + be + either A or B + prepositional phrase | 庫斯莫爾徵是指吸氣時頸靜脈壓不降或反常上升的現象。 | Either...or 結構用於定義    清楚說明兩種可能表現 |  |  |
+| Although a genetically acquired hypertrophic cardiomyopathy cannot be definitively ruled out, the time course of this patient's progressive symptoms would be unexpected. | Although clause + main clause with conditional mood | 雖然無法完全排除遺傳性肥厚性心肌病變，但此病患症狀進展的時程並非典型表現。 | Although 讓步子句    would be 表達推測/懷疑 |  |  |
+| I suspect that this patient has a progressive symptomatic restrictive cardiomyopathy, most likely due to cardiac amyloidosis. | Subject + suspect + that clause + most likely due to | 我懷疑此病患有漸進性症狀性限制性心肌病變，最可能原因為心臟類澱粉沉積症。 | 表達臨床推斷的標準句型    most likely due to 表因果關係 |  |  |
+
+
+## 鑑別診斷 (Differential Diagnosis)
+
+
+### 臨床推理過程 (Clinical Reasoning)
+
+
+此病患的核心問題是：一位原本高度活躍的運動員，在17個月內出現漸進性運動耐受力下降，伴隨：
+
+- 左心室壁增厚（17--18 mm）
+- ECG 電壓下降（與壁厚不成比例）
+- Kussmaul's sign（限制性生理學）
+- 顯著升高的 troponin 及 NT-proBNP
+- CPET 顯示心血管限制
+
+
+| p{3.2cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3.8cm}}  **鑑別診斷** | **支持證據** | **不支持證據** | **建議檢查** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Differential Dx** | **Supporting** | **Against** | **Workup** |  |  |
+| **Hypertrophic cardiomyopathy**    肥厚性心肌病變 | $\bullet$ LV wall thickening    $\bullet$ Elongated anterior mitral leaflet    $\bullet$ Late gadolinium enhancement | $\bullet$ Concentric (not asymmetric)    $\bullet$ 56-gene panel negative    $\bullet$ Children screening negative    $\bullet$ Rapid 17-month progression    $\bullet$ Low voltage on ECG | Family screening    Repeat genetic testing    Serial imaging |  |  |
+| **Athlete's heart**    運動員心臟 | $\bullet$ Lifelong vigorous exercise    $\bullet$ Preserved LV function | $\bullet$ Wall thickness 17--18 mm (typical athlete: 13--15 mm)    $\bullet$ No LV dilatation    $\bullet$ Symptoms with deconditioning    $\bullet$ Late gadolinium enhancement | Detraining protocol    Serial imaging |  |  |
+| **Cardiac amyloidosis**    心臟類澱粉沉積症 | $\bullet$ Concentric LV thickening    $\bullet$ Low voltage-wall thickness mismatch    $\bullet$ Kussmaul's sign    $\bullet$ Bilateral rotator cuff tears    $\bullet$ Elevated T1 mapping    $\bullet$ Biatrial enlargement    $\bullet$ Elevated troponin  | NT-proBNP    $\bullet$ Hoarseness | $\bullet$ Relatively young age    $\bullet$ No peripheral neuropathy    $\bullet$ No carpal tunnel syndrome | **Serum free light chains**    **SPEP with immunofixation**    Fat pad biopsy    Technetium pyrophosphate scan |  |
+| **Cardiac sarcoidosis**    心臟結節病 | $\bullet$ Late gadolinium enhancement    $\bullet$ Hoarseness (laryngeal involvement)    $\bullet$ Arrhythmias on Holter | $\bullet$ No pulmonary involvement    $\bullet$ No lymphadenopathy mentioned    $\bullet$ Pattern of LGE atypical | PET scan    Chest CT    Bronchoscopy with BAL    Tissue biopsy |  |  |
+| **Fabry disease**    乙型乙醯己糖胺酶缺乏症 | $\bullet$ LV wall thickening    $\bullet$ Small angiomas on skin | $\bullet$ Male patient (X-linked, typically more severe and earlier onset)    $\bullet$ No acroparesthesias    $\bullet$ No corneal changes    $\bullet$ Rapid progression atypical | Alpha-galactosidase A activity    Genetic testing    Ophthalmologic exam |  |  |
+| **Hydroxychloroquine cardiomyopathy**    羥氯奎寧心肌病變 | $\bullet$ Symptoms during COVID-19 pandemic | $\bullet$ No history of hydroxychloroquine use mentioned    $\bullet$ No autoimmune disease history | Detailed medication history |  |  |
+| **Storage diseases**    儲積症    (Gaucher, Glycogen storage) | $\bullet$ LV wall thickening    $\bullet$ Restrictive physiology | $\bullet$ No hepatosplenomegaly    $\bullet$ Late age of onset    $\bullet$ No other systemic features | Enzyme assays    Genetic testing |  |  |
+
+
+importantbox
+**Key Diagnostic Clues for Cardiac Amyloidosis（心臟類澱粉沉積症關鍵線索）**：
+
+1. **Low voltage-wall thickness mismatch**：心室壁增厚但ECG電壓不增反減
+2. **Bilateral rotator cuff tears**：雙側旋轉肌袖撕裂是 amyloid 沉積於韌帶的表現
+3. **Hoarseness**：聲帶浸潤（幾乎僅見於 AL amyloidosis，非 ATTR）
+4. **Elevated T1 mapping on cardiac MRI**：顯示心肌細胞外間質擴張
+5. **Kussmaul's sign**：限制性生理學的典型表現
+
+
+importantbox
+
+
+## 進一步檢查結果 (Additional Workup Results)
+
+
+### 血清蛋白電泳與游離輕鏈 (SPEP and Serum Free Light Chains)
+
+
+| p{5.5cm} >{\arraybackslash}p{3.5cm} >{\arraybackslash}p{3.5cm} >{\arraybackslash}p{2.5cm}}  **Test** | **Result** | **Reference Range** | **Interpretation** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Serum IgG | 715 mg/dL | 700--1600 | Normal |  |  |
+| Serum IgA | **29 mg/dL** | 66--436 | **Low** |  |  |
+| Serum IgM | **13 mg/dL** | 43--279 | **Low** |  |  |
+| Serum immunofixation | **Monoclonal kappa** | Negative | **Abnormal** |  |  |
+| Free lambda light chain | **3.1 mg/L** | 5.7--26.3 | **Low** |  |  |
+| **Free kappa light chain** | **3653.9 mg/L** | 3.3--19.4 | **極度升高** |  |  |
+| **Kappa:Lambda ratio** | **1178.68** | 0.30--1.70 | **極度異常** |  |  |
+
+
+**Interpretation**：Free kappa light chain 極度升高（約正常上限的190倍），kappa:lambda ratio 達1178，高度提示**漿細胞惡性增生（plasma cell dyscrasia）**產生 monoclonal kappa light chain，造成 **AL (light-chain) amyloidosis**。
+
+
+### 骨髓切片 (Bone Marrow Biopsy)
+
+
+- Slightly hypercellular marrow for age
+- Atypical plasma cells with hyperchromatic nuclei: **40
+- CD138 and MUM1 immunostaining confirmed plasma cell infiltration
+- In situ hybridization: **monotypic kappa expression**
+- FISH: **t(11;14) translocation** (cyclin D1:IgH fusion) --- common in AL amyloidosis
+- Congo red staining of bone marrow core: **No amyloid deposition**
+
+
+### 脂肪墊切片 (Fat Pad Biopsy)
+
+
+- H&E staining: Eccentric thickening of vessel walls by pink, waxy substance
+- **Congo red staining**:     itemize
+- Standard light microscopy: Salmon-pink color
+- Polarized light: **Apple-green birefringence** --- diagnostic of amyloid
+
+
+    \item **Immunofluorescence**: Positive for **kappa light chains**
+    \item Negative for: Lambda, transthyretin, serum amyloid A, $\beta_2$-microglobulin, apolipoprotein A1, fibrinogen, IgG/IgA/IgM heavy chains
+itemize
+
+
+## 最終診斷 (Final Diagnosis)
+
+
+0.9\textwidth{
+
+\bfseries
+**AL (Light-Chain) Amyloidosis**
+[0.3cm]
+**輕鏈型類澱粉沉積症**
+[0.3cm]
+with cardiac involvement (cardiac amyloidosis)
+伴隨心臟侵犯（心臟類澱粉沉積症）
+[0.2cm]
+Secondary to plasma cell dyscrasia with t(11;14)
+續發於漿細胞惡性增生，帶有 t(11;14) 染色體轉位
+}
+
+
+## 討論 (Discussion)
+
+
+### Amyloidosis 概論
+
+
+Amyloidosis 是一群由異常蛋白質以 $\beta$-sheet 結構沉積於組織的疾病。依據沉積蛋白質來源可分為：
+
+
+| p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm}}  **Type** | **Protein Source** | **Associated Conditions** | **Cardiac Involvement** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **AL amyloidosis** | Immunoglobulin light chains (kappa or lambda) | Plasma cell dyscrasia    Multiple myeloma    Waldenstr\"om's | Common, aggressive |  |  |
+| **ATTR-wt** (wild-type) | Transthyretin (normal protein) | Age-related (>70 years)    Predominantly male | Common, slowly progressive |  |  |
+| **ATTR-v** (variant) | Transthyretin (mutant protein) | Hereditary    Ethnic predisposition | Variable depending on mutation |  |  |
+| **AA amyloidosis** | Serum amyloid A | Chronic inflammation    (RA, IBD, FMF) | Rare |  |  |
+
+
+### AL Amyloidosis 心臟表現
+
+
+心臟是 AL amyloidosis 最常侵犯且預後最差的器官。典型表現包括：
+
+
+- **Restrictive cardiomyopathy**：心室壁增厚但順應性下降，舒張功能受損
+- **Heart failure with preserved EF (HFpEF)**：早期射出分率正常
+- **Atrial involvement**：心房肌肉浸潤導致「stiff atrium syndrome」，即使在竇性節律下也缺乏有效心房收縮
+- **Conduction abnormalities**：傳導系統浸潤可導致房室阻滯
+- **Arrhythmias**：心房顫動風險增加，且心房內血栓風險高（即使在竇性節律）
+
+
+### Echocardiographic Features of Cardiac Amyloidosis
+
+
+- Biventricular wall thickening（雙心室壁增厚）
+- Biatrial enlargement（雙心房擴大）
+- **Speckle-tracking strain with "apical sparing" pattern**：心尖部收縮相對保留，基底部收縮明顯受損
+- Granular sparkling appearance of myocardium（心肌閃爍樣外觀）
+- Thickened valves（瓣膜增厚）
+- Pericardial effusion（心包積液）
+- Diminutive A wave on transmitral Doppler（二尖瓣流入A波減小）
+
+
+**Apical Sparing Pattern**：此病患 global longitudinal strain 為 $-10.1
+
+
+### 為何 HCM 被排除？
+
+
+| p{7cm} >{\arraybackslash}p{8cm}}  **Hypertrophic Cardiomyopathy** | **This Patient** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Asymmetric septal hypertrophy（典型） | **Concentric** wall thickening |  |  |  |  |
+| High voltage on ECG | **Low/decreasing voltage** |  |  |  |  |
+| Positive genetic testing (40--60 | **56-gene panel negative** |  |  |  |  |
+| Family history of HCM/SCD | Family history of heart failure (non-specific) |  |  |  |  |
+| Gradual progression over years | **Rapid 17-month progression** |  |  |  |  |
+| RV involvement rare | **RV wall thickening present** |  |  |  |  |
+
+
+## 治療計畫 (Treatment Plan)
+
+
+### 藥物治療 (Medications)
+
+
+| p{3cm} >{\arraybackslash}p{2cm} >{\arraybackslash}p{1.5cm} >{\arraybackslash}p{2cm} >{\arraybackslash}p{5.5cm}}  **Drug (Generic)** | **Dose** | **Route** | **Freq** | **適應症/機轉** |  |
+| --- | --- | --- | --- | --- | --- |
+| ***Heart Failure Management*** |  |  |  |  |  |
+| Furosemide | Variable | PO/IV | PRN | Loop diuretic    體液過載利尿治療 |  |
+| Spironolactone | 25 mg | PO | QD | MRA    利尿及神經荷爾蒙調節 |  |
+| ***Anticoagulation*** |  |  |  |  |  |
+| Apixaban | Standard | PO | BID | DOAC    心房功能不良血栓預防   （即使竇性節律也需要） |  |
+| ***Antiarrhythmic (for subsequent AF)*** |  |  |  |  |  |
+| Amiodarone | Variable | PO | QD | Class III antiarrhythmic    AF 心律控制    準備電燒整流 |  |
+| ***Chemotherapy: Daratumumab + CyBorD (ANDROMEDA regimen)*** |  |  |  |  |  |
+| Daratumumab | 16 mg/kg | IV | Weekly$\rightarrow$Q2W | Anti-CD38 monoclonal antibody    標靶漿細胞 |  |
+| Cyclophosphamide | 300 mg/m$^2$ | PO | Weekly | Alkylating agent    抑制漿細胞增生 |  |
+| Bortezomib | 1.3 mg/m$^2$ | SC | Weekly | Proteasome inhibitor    抑制蛋白酶體，誘導漿細胞凋亡 |  |
+| Dexamethasone | 20--40 mg | PO | Weekly | Corticosteroid    抗漿細胞及抗發炎 |  |
+
+
+### 治療原理 (Treatment Rationale)
+
+
+#### Heart Failure in Cardiac Amyloidosis
+
+
+- **Diuretics**：為主要治療，需謹慎平衡前負荷
+- **Beta-blockers and ACE-inhibitors**：傳統心衰竭藥物在 cardiac amyloidosis 效果有限且可能有害（低血壓風險）
+- **Digoxin**：禁忌，因 amyloid fibrils 會結合 digoxin 增加毒性風險
+- **Calcium channel blockers**：禁忌，會與 amyloid fibrils 結合導致嚴重負性肌力作用
+
+
+#### Anticoagulation
+
+
+Cardiac amyloidosis 患者即使在竇性節律下也有高血栓風險，因為：
+
+- Atrial infiltration 導致心房收縮功能喪失（mechanical standstill）
+- 左心耳血流淤滯
+- 建議所有心房受累患者接受抗凝治療
+
+
+#### Chemotherapy: ANDROMEDA Trial
+
+
+ANDROMEDA trial (NEJM 2021) 比較 Daratumumab + CyBorD vs CyBorD alone：
+
+- Hematologic complete response: 53.3
+- Survival free from major organ deterioration favored daratumumab (HR 0.58)
+- 排除條件：NT-proBNP >8500 pg/mL, SBP <90 mmHg, NYHA IIIb/IV
+
+
+importantbox
+**Treatment Goals in AL Amyloidosis**：
+
+1. **Hematologic response**：Reduce free light chain production
+2. **Organ response**：Prevent further deposition, allow organ recovery
+3. **Supportive care**：Manage heart failure, prevent thromboembolism
+
+
+目標是達到 **very good partial response (VGPR)** 或 **complete response (CR)**：dFLC <40 mg/L 或 negative immunofixation。
+importantbox
+
+
+## 病程與預後 (Follow-up and Outcome)
+
+
+- 病患開始接受 Daratumumab + CyBorD 化療
+- 後續發生 atrial fibrillation，開始 amiodarone 準備電燒整流
+- 持續利尿劑治療及次最大運動
+- **Outcome**：於第三與第四次化療週期之間，病患在夜間於家中發生心跳驟停（cardiac arrest），無法復甦
+
+
+**Prognosis of Cardiac AL Amyloidosis**：心臟侵犯是 AL amyloidosis 預後最差的指標。未治療的中位存活期僅 6 個月。即使接受治療，嚴重心臟侵犯的患者仍常死於：
+
+- Progressive heart failure
+- Sudden cardiac death（最常見，常與電解質紊亂或 PEA 相關）
+- Arrhythmias
+
+
+Prophylactic ICD 在此族群效果不佳，因為猝死常為 PEA 而非 VT/VF。
+
+
+## 學習重點 (Key Takeaways)
+
+
+1. **Clinical Pearl 1: Low voltage-wall thickness mismatch**          心室壁增厚但 ECG 電壓下降是 cardiac amyloidosis 的關鍵線索，應與 HCM（電壓通常增高）區分。
+2. **Clinical Pearl 2: Kussmaul's sign indicates restrictive physiology**          庫斯莫爾徵是限制性心肌病變的重要理學檢查發現，提示右心室順應性下降。
+3. **Clinical Pearl 3: Bilateral rotator cuff tears as amyloid clue**          雙側旋轉肌袖撕裂是 amyloid 沉積於韌帶組織的表現，尤其見於 ATTR amyloidosis，但 AL amyloidosis 也可見。
+4. **Clinical Pearl 4: Hoarseness suggests AL (not ATTR) amyloidosis**          聲帶浸潤導致聲音沙啞幾乎僅見於 AL amyloidosis，是鑑別 AL vs ATTR 的重要線索。
+5. **Clinical Pearl 5: Complete workup for AL amyloidosis**          檢查應包括：SPEP **with immunofixation**（單純 SPEP 可能正常）、serum free light chains、urine immunofixation。SPEP alone 可漏診約 50
+6. **Clinical Pearl 6: Anticoagulation even in sinus rhythm**          Cardiac amyloidosis 患者因心房浸潤導致功能性心房停滯，即使維持竇性節律也需要抗凝治療。
+7. **Clinical Pearl 7: Avoid certain medications**          Digoxin 和 calcium channel blockers 在 cardiac amyloidosis 為禁忌，因會與 amyloid fibrils 結合增加毒性或負性肌力作用。
+
+
+importantbox
+**Red Flags for Cardiac Amyloidosis（心臟類澱粉沉積症危險信號）**：
+
+當遇到「左心室壁增厚」的病患時，以下特徵應高度懷疑 amyloidosis 而非 HCM：
+
+1. ECG 低電壓或電壓下降（與壁厚不成比例）
+2. 快速進展的症狀（months rather than years）
+3. Kussmaul's sign 或其他限制性生理學表現
+4. 雙側腕隧道症候群或旋轉肌袖撕裂病史
+5. 不明原因的周邊神經病變
+6. Echocardiography 上的 apical sparing pattern
+7. Cardiac MRI 上的廣泛 late gadolinium enhancement 及 elevated T1
+
+
+importantbox
+
+
+## 參考文獻 (References)
+
+
+1. Dudzinski DM, Pellikka PA. Systemic light chain amyloidosis. [*N Engl J Med](https://www.nejm.org/doi/10.1056/NEJMc2409196?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub
+2. Pellikka PA, Dudzinski DM, Lubitz SA, et al. Case Records of the Massachusetts General Hospital (Case 10-2022). [*N Engl J Med](https://www.nejm.org/doi/10.1056/NEJMcpc2201230?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub
+3. Muchtar E, Blauwet LA, Gertz MA. Restrictive cardiomyopathy: genetics, pathogenesis, clinical manifestations, diagnosis, and therapy. [*Circ Res](https://doi.org/10.1161/CIRCRESAHA.117.310982). 2017;121:819-37.*
+4. Garcia Y, Collins AB, Stone JR. Abdominal fat pad excisional biopsy for the diagnosis and typing of systemic amyloidosis. [*Hum Pathol](https://www.sciencedirect.com/science/article/pii/S0046817717304070?via
+5. Kastritis E, Palladini G, Minnema MC, et al. Daratumumab-based treatment for immunoglobulin light-chain amyloidosis. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2028631). 2021;385:46-58.*
+6. Falk RH. Cardiac amyloidosis: a treatable disease, often overlooked. [*Circulation](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.110.010447?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub
+
+
+\vfill
+**0.8\textwidth**{0.5pt}
+[0.3cm]
+*謝慕揚, MD, PhD, FESC*
+*國立臺灣大學醫學院附設醫院新竹臺大分院*
+*心血管中心*

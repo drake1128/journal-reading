@@ -1,0 +1,345 @@
+# lecture Mitral TMVR Sapien M3
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-04-14**
+
+---
+
+\maketitle
+
+
+    
+    [Image]
+
+
+> **歷史意義：**SAPIEN M3 系統於2025年4月獲得CE認證，成為全球首個經股靜脈穿刺途徑的經導管二尖瓣置換系統。此病例報告展示了該系統在臨床實務中的首次商業化應用，為不適合修復手術（TEER）或外科手術的嚴重二尖瓣逆流患者提供了新的治療選擇。
+> **病例特點：**本例為一位反覆心衰住院的老年女性，因複雜的functional MR（心房性為主）合併多發性解剖異常，不適合進行TEER修復，故選擇SAPIEN M3置換術。術後達到二尖瓣逆流完全消除、無明顯pressure gradient、無paravalvular leak，患者術後四天出院。
+
+
+\tableofcontents
+
+---
+
+
+## 視頻時間軸導覽
+
+
+以下為視頻內容的時間標記，點擊時間可直接跳轉至YouTube對應段落：
+
+
+**視頻連結：**[https://youtu.be/zbgr\_YC\_Bfw](https://youtu.be/zbgr_YC_Bfw)
+
+
+| p{11cm}} 視頻時間軸與內容摘要 |  |  |
+| --- | --- | --- |
+| **時間標記** | **內容主題** |  |
+| **表格續接** |  |  |
+| **時間標記** | **內容主題** |  |
+| [00:00](https://youtu.be/zbgr_YC_Bfw?t=0) -- [00:35](https://youtu.be/zbgr_YC_Bfw?t=35) | 引言：並非所有患者都適合修復手術，SAPIEN M3系統獲CE認證介紹 |  |
+| [00:35](https://youtu.be/zbgr_YC_Bfw?t=35) -- [01:17](https://youtu.be/zbgr_YC_Bfw?t=77) | 病例介紹：老年女性，反覆心衰住院，生活品質受嚴重影響 |  |
+| [01:17](https://youtu.be/zbgr_YC_Bfw?t=77) -- [02:27](https://youtu.be/zbgr_YC_Bfw?t=147) | 心臟超音波解剖分析：Functional MR、pseudo-prolapse、leaflet indentation |  |
+| [02:27](https://youtu.be/zbgr_YC_Bfw?t=147) -- [02:45](https://youtu.be/zbgr_YC_Bfw?t=165) | 為何此病例不適合TEER：MR jet橫跨整個commissure、多段病變 |  |
+| [02:45](https://youtu.be/zbgr_YC_Bfw?t=165) -- [03:50](https://youtu.be/zbgr_YC_Bfw?t=230) | Imaging specialist（Dr. Marta Sitges）評估意見：修復手術為挑戰性病例 |  |
+| [03:50](https://youtu.be/zbgr_YC_Bfw?t=230) -- [04:48](https://youtu.be/zbgr_YC_Bfw?t=288) | Leaflet穿孔風險評估與LVOT阻塞風險討論 |  |
+| [04:48](https://youtu.be/zbgr_YC_Bfw?t=288) -- [05:35](https://youtu.be/zbgr_YC_Bfw?t=335) | SAPIEN M3系統組成介紹：Docking station與M3 valve |  |
+| [05:35](https://youtu.be/zbgr_YC_Bfw?t=335) -- [06:10](https://youtu.be/zbgr_YC_Bfw?t=370) | Docking station結構：心室端turns與心房端PVL guard |  |
+| [06:10](https://youtu.be/zbgr_YC_Bfw?t=370) -- [06:45](https://youtu.be/zbgr_YC_Bfw?t=405) | M3 Valve設計特點：全框架覆蓋 |  |
+| [06:45](https://youtu.be/zbgr_YC_Bfw?t=405) -- [07:00](https://youtu.be/zbgr_YC_Bfw?t=420) | CT規劃重要性：Annulus尺寸與neo-LVOT計算（>450 mm²） |  |
+| [07:00](https://youtu.be/zbgr_YC_Bfw?t=420) -- [07:52](https://youtu.be/zbgr_YC_Bfw?t=472) | 手術步驟一：LV造影標記annular plane |  |
+| [07:52](https://youtu.be/zbgr_YC_Bfw?t=472) -- [08:02](https://youtu.be/zbgr_YC_Bfw?t=482) | 手術步驟二：導管導引至medial commissure並進入左心室 |  |
+| [08:02](https://youtu.be/zbgr_YC_Bfw?t=482) -- [08:16](https://youtu.be/zbgr_YC_Bfw?t=496) | 手術步驟三：Docking station展開，達到至少3個functional turns |  |
+| [08:16](https://youtu.be/zbgr_YC_Bfw?t=496) -- [08:44](https://youtu.be/zbgr_YC_Bfw?t=524) | 手術步驟四：釋放docking station心房端組件 |  |
+| [08:44](https://youtu.be/zbgr_YC_Bfw?t=524) -- [09:05](https://youtu.be/zbgr_YC_Bfw?t=545) | 手術步驟五：經同一鞘管置入M3 valve |  |
+| [09:05](https://youtu.be/zbgr_YC_Bfw?t=545) -- [09:39](https://youtu.be/zbgr_YC_Bfw?t=579) | 球囊擴張與post-dilation步驟 |  |
+| [09:39](https://youtu.be/zbgr_YC_Bfw?t=579) -- [10:04](https://youtu.be/zbgr_YC_Bfw?t=604) | 術後影像評估：無MR殘留、無PVL、無gradient |  |
+| [10:04](https://youtu.be/zbgr_YC_Bfw?t=604) -- [10:43](https://youtu.be/zbgr_YC_Bfw?t=643) | 術後恢復：LVEF改善至40 |  |
+| [10:43](https://youtu.be/zbgr_YC_Bfw?t=643) -- [11:15](https://youtu.be/zbgr_YC_Bfw?t=675) | 總結：安全有效完成TMVR，達到所有預期目標 |  |
+
+
+## 病例背景介紹
+
+
+### 患者基本資料
+
+
+| p{10cm}}  **項目** | **描述** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **項目** | **描述** |  |
+| 年齡與性別 | 老年女性 |  |
+| 主訴 | 嚴重二尖瓣逆流導致反覆心衰住院 |  |
+| 功能狀態 | 日常生活仍相當活躍，但症狀明顯限制活動能力 |  |
+| 住院史 | 反覆因心衰住院，病情不穩定 |  |
+| 治療期望 | 強烈希望改善症狀，不願再反覆住院 |  |
+| 術前LVEF | 保留（preserved） |  |
+
+
+### 心臟超音波評估
+
+
+本病例的二尖瓣逆流屬於複雜的functional MR，具有以下特徵：
+
+
+| p{10cm}} 心臟超音波解剖特徵分析 |  |  |
+| --- | --- | --- |
+| **解剖特徵** | **臨床意義** |  |
+| **表格續接** |  |  |
+| **解剖特徵** | **臨床意義** |  |
+| Functional MR | 以心房性（atrial component）為主，合併心室性成分 |  |
+| Annulus dilatation | 心房擴大導致瓣環擴張，為functional MR的主因 |  |
+| Leaflet tethering | 瓣葉拴繫，posterior leaflet活動受限 |  |
+| Pseudo-prolapse | 假性脫垂表現 |  |
+| Leaflet indentation | 瓣葉凹陷，見於多個segments |  |
+| MR jet範圍 | 橫跨整個commissure（entire commissure） |  |
+| LV function | 左心室功能保留 |  |
+
+
+### 為何不適合TEER修復
+
+
+根據Prof. Lurz與imaging specialist Dr. Marta Sitges的分析，此病例不適合進行transcatheter edge-to-edge repair（TEER）的原因包括：
+
+
+1. **MR jet橫跨整個commissure**：逆流範圍過大，難以用單純夾合達到理想效果
+2. **Functional MR預後難以預測**：心房性functional MR的TEER術後結果變異性大
+3. **多段病變**：Pseudo-prolapse與indentation同時存在於多個segments
+4. **大面積逆流孔**：Large regurgitant orifice
+5. **Posterior leaflet活動受限**：嚴重的leaflet restriction
+
+
+**Imaging specialist評估重點（Dr. Marta Sitges）：**
+
+- 此病例並非「impossible」進行TEER，但屬於「challenging case」
+- 由於large regurgitant orifice與posterior leaflet restriction，修復效果難以預測
+- 有時夾合反而可能增加indentation的程度
+- LVOT阻塞風險評估：本例不構成問題
+- Leaflet撕裂風險：因瓣葉厚度尚可，風險相對較低
+
+
+## SAPIEN M3系統介紹
+
+
+### 系統組成
+
+
+SAPIEN M3系統採用兩階段植入程序，由兩個主要組件構成：
+
+
+| p{10cm}} SAPIEN M3系統組件說明 |  |  |
+| --- | --- | --- |
+| **組件** | **功能描述** |  |
+| **表格續接** |  |  |
+| **組件** | **功能描述** |  |
+| **Docking Station** | 第一階段植入的錨定裝置，提供valve的landing zone |  |
+| 心室端（Ventricular component） | 具有多個turns結構，纏繞於二尖瓣chordae周圍    產生向內的拉力（inward force），將chordae聚攏    使papillary muscles靠近 |  |
+| 心房端（Atrial component） | 防止docking station滑落至心室    配備PVL guard（paravalvular leak防護結構） |  |
+| **SAPIEN M3 Valve** | 第二階段植入的置換瓣膜    設計源自SAPIEN 3平台，但整個stent frame均有覆蓋    以balloon-mounted方式置入docking station內 |  |
+
+
+### 植入途徑與特點
+
+
+| p{10cm}} SAPIEN M3技術特點 |  |  |
+| --- | --- | --- |
+| **特點** | **說明** |  |
+| **表格續接** |  |  |
+| **特點** | **說明** |  |
+| 入路途徑 | 經股靜脈（transfemoral）、經中隔穿刺（transseptal） |  |
+| 導管系統 | 29F外徑可操控鞘管（steerable guide sheath） |  |
+| 植入策略 | 兩階段：先docking station，後valve |  |
+| 瓣膜定位 | 約1/3植入docking station內，2/3位於較高位置    （因docking station略低於二尖瓣annulus） |  |
+| 全球首創 | 2025年4月獲CE認證，為全球首個經股靜脈途徑的TMVR系統 |  |
+
+
+## 術前CT規劃
+
+
+### CT評估要點
+
+
+| p{10cm}} CT規劃關鍵測量項目 |  |  |
+| --- | --- | --- |
+| **測量項目** | **臨床意義與標準** |  |
+| **表格續接** |  |  |
+| **測量項目** | **臨床意義與標準** |  |
+| Annulus尺寸 | 必須在特定範圍內以確保瓣膜適配 |  |
+| Neo-LVOT面積 | 預測LVOT阻塞風險的關鍵指標    本例計算結果：>450 mm²，無LVOT阻塞風險 |  |
+| Aorto-mitral angle | 評估植入角度 |  |
+| 左心室幾何 | 評估是否適合docking station deployment |  |
+
+
+**LVOT阻塞風險評估：**
+Neo-LVOT面積>450 mm²通常認為無明顯LVOT阻塞風險。本病例CT規劃顯示neo-LVOT面積充足，確認可安全進行TMVR。
+
+
+## 手術步驟詳解
+
+
+### 第一階段：Docking Station植入
+
+
+| p{12.5cm}} Docking Station植入步驟 |  |  |
+| --- | --- | --- |
+| **步驟** | **操作內容與技術要點** |  |
+| **表格續接** |  |  |
+| **步驟** | **操作內容與技術要點** |  |
+| 步驟1 | **LV造影標記annular plane**    在左心室注射對比劑，於fluoroscopy下標記二尖瓣annular plane位置 |  |
+| 步驟2 | **導管定位至medial commissure**    在fluoroscopy與echocardiography雙重引導下，將系統導向medial commissure    在medial commissure位置穿越進入左心室 |  |
+| 步驟3 | **Docking station展開**    在fluoroscopy多角度監控下，逐步將docking station從鞘管推出    隨時評估是否接觸任何解剖結構，必要時微調位置    同時以echo與fluoroscopy控制展開過程 |  |
+| 步驟4 | **達到足夠functional turns**    至少需達到3個functional turns纏繞於二尖瓣chordae周圍    此時心室端組件完成部署 |  |
+| 步驟5 | **釋放心房端組件**    進一步退鞘釋放docking station的心房端組件    包含PVL guard結構 |  |
+
+
+### 第二階段：M3 Valve植入
+
+
+| p{12.5cm}} M3 Valve植入步驟 |  |  |
+| --- | --- | --- |
+| **步驟** | **操作內容與技術要點** |  |
+| **表格續接** |  |  |
+| **步驟** | **操作內容與技術要點** |  |
+| 步驟1 | **瓣膜導入**    使用同一經中隔鞘管，將balloon-mounted M3 valve送入左心房 |  |
+| 步驟2 | **瓣膜定位**    將M3 valve精確定位於docking station內 |  |
+| 步驟3 | **球囊擴張植入**    以balloon inflation方式展開瓣膜    類似valve-in-valve植入或TAVR程序 |  |
+| 步驟4 | **Post-dilation**    建議在初次擴張後立即進行post-dilation    使用同一delivery system的balloon再次擴張    確保瓣膜牢固植入docking station並減少paravalvular leak |  |
+
+
+### 手術特點與技巧
+
+
+- **雙重影像引導**：本手術與一般TEER不同，更依賴fluoroscopy的輔助，需要echo與fluoroscopy共同引導
+- **Medial commissure進入**：從medial commissure位置進入左心室是理想的docking station展開位置
+- **多角度fluoroscopy監控**：Docking station展開時需使用多個投影角度評估
+- **至少3個functional turns**：確保docking station穩定錨定於chordae結構
+- **立即post-dilation**：建議作為標準步驟以確保最佳結果
+
+
+## 術後評估與結果
+
+
+### 即時影像評估
+
+
+| p{10cm}} 術後心臟超音波評估結果 |  |  |
+| --- | --- | --- |
+| **評估項目** | **結果** |  |
+| **表格續接** |  |  |
+| **評估項目** | **結果** |  |
+| 殘餘MR | 無（complete abolishment of MR） |  |
+| Paravalvular leak | 無明顯paravalvular leak |  |
+| Transvalvular gradient | 無明顯壓差（no gradient） |  |
+| 瓣膜位置穩定性 | 穩定（perfectly stable in position） |  |
+| 左心室功能 | 術後即時略低，但快速恢復    出院時LVEF已改善至40 |  |
+
+
+### Fluoroscopy瓣膜定位
+
+
+術後fluoroscopy顯示M3 valve的位置特徵：
+
+- 約1/3的瓣膜植入docking station內
+- 約2/3位於較高位置
+- 此定位符合預期，因docking station略低於原生二尖瓣annulus位置
+
+
+### 臨床結果
+
+
+| p{10cm}} 臨床預後 |  |  |
+| --- | --- | --- |
+| **項目** | **結果** |  |
+| **表格續接** |  |  |
+| **項目** | **結果** |  |
+| 住院天數 | 術後4天出院 |  |
+| 出院時LVEF | 40 |  |
+| 症狀改善 | 臨床症狀明顯改善 |  |
+| 患者滿意度 | 患者對結果感到滿意 |  |
+
+
+## 討論與總結
+
+
+### 病例總結
+
+
+此為SAPIEN M3系統獲得CE認證後的首例商業化臨床應用，展示了以下要點：
+
+
+1. **適應症選擇**：對於不適合TEER修復或外科手術的嚴重MR患者，TMVR提供了新的治療選擇
+2. **解剖評估**：仔細的CT規劃與neo-LVOT評估對於確保手術安全至關重要
+3. **手術安全性**：在符合解剖條件的情況下，可安全完成手術
+4. **手術時間**：即使在早期經驗階段，手術時間亦在合理範圍內
+5. **臨床效果**：達到MR完全消除、無PVL、無gradient的理想結果
+6. **急性臨床改善**：患者術後迅速改善，4天即可出院
+
+
+### SAPIEN M3的適應症定位
+
+
+> **適用對象：**
+> itemize
+>     \item 症狀性中重度至重度二尖瓣逆流（moderate-to-severe or severe MR）
+>     \item 經多專科團隊評估不適合外科手術
+>     \item 不適合或預期TEER效果不佳的患者
+>     \item CT評估顯示解剖條件符合要求（annulus尺寸、neo-LVOT面積等）
+> itemize
+> **2025年CE認證適應症：**  
+> 適用於症狀性中重度至重度二尖瓣逆流患者，經評估不適合手術或經導管edge-to-edge修復治療者。
+
+
+### 未來展望
+
+
+- ENCIRCLE pivotal trial的一年結果已於2025年10月TCT發表，同步刊登於Lancet
+- 試驗達到所有主要與次要終點，顯示95.7
+- SAPIEN M3於2025年12月獲得FDA核准，成為美國首個經中隔途徑的TMVR系統
+- 歐洲Post-Market Clinical Follow-up Study將持續追蹤患者至5年
+
+
+## 參考文獻
+
+
+### 主要研究論文
+
+
+1. Guerrero ME, Daniels DV, Makkar RR, et al. Percutaneous transcatheter valve replacement in individuals with mitral regurgitation unsuitable for surgery or transcatheter edge-to-edge repair: a prospective, multicountry, single-arm trial. [*Lancet](https://doi.org/10.1016/S0140-6736(25)02073-2). 2025;406(10519):2541-2550.*
+2. Tang GHL, Zaid S, Hahn RT. Transfemoral TMVR: turning promise into practice. [*Lancet](https://doi.org/10.1016/S0140-6736(25)02168-3). 2025;406(10519):2489-2491.*
+
+
+### 相關背景文獻與資源
+
+
+1. Edwards Lifesciences Corporation. Edwards SAPIEN M3 Receives CE Mark, Becoming World's First Transfemoral Transcatheter Mitral Valve Replacement System. Press Release, April 14, 2025. [Edwards Lifesciences Newsroom.](https://www.edwards.com/newsroom/news/2025-04-14-edwards-sapien-m3-receives-ce-mark--becoming-world)
+2. Edwards Lifesciences Corporation. FDA Approves Edwards Lifesciences' SAPIEN M3 Mitral Valve Replacement System as First Transseptal Transcatheter Therapy. Press Release, December 23, 2025. [Edwards Lifesciences Newsroom.](https://www.edwards.com/newsroom/news/2025-12-23-fda-approves-edwards-lifesciences--sapien-m3-mitra)
+3. ClinicalTrials.gov. ENCIRCLE: SapiEN M3 System TransCatheter MItral Valve ReplaCement Via TransseptaL AccEss. NCT04153292. [ClinicalTrials.gov Registry.](https://clinicaltrials.gov/study/NCT04153292)
+
+
+## 詞彙表
+
+
+| p{9cm}}  **術語** | **定義與說明** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **術語** | **定義與說明** |  |
+| TMVR | Transcatheter Mitral Valve Replacement，經導管二尖瓣置換術 |  |
+| TEER | Transcatheter Edge-to-Edge Repair，經導管緣對緣修復術，如MitraClip/PASCAL |  |
+| Functional MR | 功能性二尖瓣逆流，因心房或心室擴大導致瓣環擴張所致 |  |
+| Atrial functional MR | 以心房擴張為主因的functional MR |  |
+| Pseudo-prolapse | 假性脫垂，因functional MR造成的相對性瓣葉位移 |  |
+| Leaflet indentation | 瓣葉凹陷 |  |
+| Leaflet tethering | 瓣葉拴繫，因腱索或乳頭肌牽拉導致瓣葉活動受限 |  |
+| Docking station | 錨定座，SAPIEN M3系統第一階段植入的landing zone裝置 |  |
+| Functional turns | 功能性圈數，docking station纏繞chordae的有效圈數 |  |
+| PVL guard | Paravalvular leak防護結構，位於docking station心房端 |  |
+| Neo-LVOT | 瓣膜植入後預測的新左心室流出道面積 |  |
+| Transseptal approach | 經中隔穿刺途徑，穿越心房中隔進入左心房 |  |
+| Transfemoral approach | 經股靜脈途徑 |  |
+| Post-dilation | 瓣膜植入後的再次球囊擴張 |  |
+| Commissure | 瓣葉交界處 |  |
+| Annulus | 瓣環 |  |
+| Chordae tendineae | 腱索 |  |
+
+
+**10cm**{0.5pt}
+[0.5cm]
+**關鍵詞：**SAPIEN M3、經導管二尖瓣置換術、TMVR、functional MR、TEER、EuroPCR 2025

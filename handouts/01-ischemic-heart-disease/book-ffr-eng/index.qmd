@@ -1,248 +1,328 @@
 ---
-title: "Fractional Flow Reserve (FFR): Comprehensive Lecture Notes"
-subtitle: "Fractional Flow Reserve (FFR): Comprehensive Lecture Notes"
+title: "book FFR Eng"
 author: "謝慕揚 MD, PhD, FESC"
-date: 2026-03-26
+date: 2026-03-27
 lang: zh-TW
 toc: true
 toc-depth: 3
 number-sections: true
 ---
 
-## 1. Theoretical Foundation
+\maketitle
+\tableofcontents
 
-### 1.1 FFR Definition and Principles
+---
+
+
+## Theoretical Foundation
+
+
+### FFR Definition and Principles
+
 
 Fractional Flow Reserve (FFR) is a physiological index used to assess the hemodynamic significance of coronary artery stenosis.
 
-#### 1.1.1 Basic Definition
 
-```text
-FFR = Pd / Pa
-```
+#### Basic Definition
+
+
+equation
+FFR = P_d{P_a}
+equation
 
 Where:
-- **Pd** = Distal coronary pressure (pressure distal to stenosis)
-- **Pa** = Aortic pressure (proximal pressure)
 
-#### 1.1.2 Theoretical Derivation
+- $P_d$ = Distal coronary pressure (pressure distal to stenosis)
+- $P_a$ = Aortic pressure (proximal pressure)
+
+
+#### Theoretical Derivation
+
 
 FFR represents the ratio of maximum achievable blood flow in the presence of stenosis to the theoretical maximum flow without stenosis in the myocardial territory supplied by that coronary artery.
 
-According to Poiseuille's law, blood flow is proportional to the pressure gradient: Q = ΔP / R
+According to Poiseuille's law, blood flow is proportional to the pressure gradient:
+
+equation
+Q = \Delta P{R}
+equation
 
 Under maximal hyperemia (induced by adenosine):
 
-```text
-FFR = Qmax,stenosis / Qmax,normal = (Pd - Pv) / (Pa - Pv) ≈ Pd / Pa
-```
+equation
+FFR = Q_{max,stenosis}{Q_{max,normal}} = (P_d - P_v)/R_{myo}{(P_a - P_v)/R_{myo}} \approx P_d{P_a}
+equation
 
-When Pv (central venous pressure) is much smaller than Pa and Pd, this simplifies to **FFR = Pd/Pa**.
+When $P_v$ (central venous pressure) is much smaller than $P_a$ and $P_d$, this simplifies to $FFR = P_d/P_a$.
 
-#### 1.1.3 Clinical Significance
 
-| FFR Value | Clinical Significance |
-|-----------|----------------------|
-| FFR > 0.80 | No hemodynamic significance, PCI not recommended |
-| FFR ≤ 0.80 | Hemodynamically significant, PCI recommended |
-| FFR < 0.75 | Definite ischemia, strong recommendation for intervention |
-| 0.75 < FFR < 0.80 | Gray zone, requires clinical judgment |
-| FFR < 0.50 | Severe ischemia, high-risk lesion |
+#### Clinical Significance
 
----
 
-## 2. Technical Aspects
+| L{11cm}} Clinical Interpretation of FFR Values |  |
+| --- | --- |
+| **FFR Value** | **Clinical Significance** |
+| $FFR > 0.80$ | No hemodynamic significance, PCI not recommended |
+| $FFR \leq 0.80$ | Hemodynamically significant, PCI recommended |
+| $FFR < 0.75$ | Definite ischemia, strong recommendation for intervention |
+| $0.75 < FFR < 0.80$ | Gray zone, requires clinical judgment |
+| $FFR < 0.50$ | Severe ischemia, high-risk lesion |
 
-### 2.1 Measurement Technique
 
-#### 2.1.1 Equipment Requirements
+## Technical Aspects
+
+
+### Measurement Technique
+
+
+#### Equipment Requirements
+
 
 - Pressure wire
-- Hyperemic agents: Adenosine (140-180 µg/kg/min IV) or IC bolus (40-80 µg)
+- Hyperemic agents: Adenosine (140-180 $\mu$g/kg/min IV) or IC bolus (40-80 $\mu$g)
 - Pressure measurement system
 - Angiography equipment
 
-#### 2.1.2 Measurement Protocol
 
-| Step | Operational Details |
-|------|-------------------|
-| Calibration | Zero the pressure wire and measurement system |
-| Equalization | Confirm Pd = Pa at guide catheter position |
-| Wire advancement | Advance pressure wire distal to lesion |
-| Induce hyperemia | Administer adenosine for maximal hyperemia |
-| Record pressure | Record Pd and Pa during hyperemia |
-| Calculate FFR | Automatic or manual calculation of FFR = Pd/Pa |
-| Pullback verification | Withdraw wire to guide catheter to check for drift |
+#### Measurement Protocol
 
-### 2.2 Non-Hyperemic Indices
 
-#### 2.2.1 iFR (Instantaneous Wave-free Ratio)
+| L{12cm}} Standard FFR Measurement Procedure |  |
+| --- | --- |
+| **Step** | **Operational Details** |
+| 1 | **Calibration:** Zero the pressure wire and measurement system |
+| 2 | **Equalization:** Confirm $P_d = P_a$ at guide catheter position |
+| 3 | **Wire advancement:** Advance pressure wire distal to lesion |
+| 4 | **Induce hyperemia:** Administer adenosine for maximal hyperemia |
+| 5 | **Record pressure:** Record $P_d$ and $P_a$ during hyperemia |
+| 6 | **Calculate FFR:** Automatic or manual calculation of $FFR = P_d/P_a$ |
+| 7 | **Pullback verification:** Withdraw wire to guide catheter to check for drift |
+
+
+### Non-Hyperemic Indices
+
+
+#### iFR (Instantaneous Wave-free Ratio)
+
 
 iFR is measured during a specific period of the cardiac cycle (wave-free period) without hyperemic agents:
 
-- **Measurement timing:** Mid-diastole (approximately 25% of cardiac cycle)
-- **Cutoff:** iFR ≤ 0.89 considered significant
-- **Advantages:** No adenosine required, shorter procedure time, fewer side effects
-- **Correlation with FFR:** Approximately 80-85% concordance
 
----
+- Measurement timing: Mid-diastole (approximately 25
+- Cutoff: $iFR \leq 0.89$ considered significant
+- Advantages: No adenosine required, shorter procedure time, fewer side effects
+- Correlation with FFR: Approximately 80-85
 
-## 3. Wheatstone Bridge Principle
 
-### 3.1 Application to Pressure Measurement
+## Wheatstone Bridge Principle
+
+
+### Application to Pressure Measurement
+
 
 Pressure wire systems utilize the Wheatstone Bridge principle to convert mechanical pressure into electrical signals.
 
-#### 3.1.1 Basic Bridge Structure
+
+#### Basic Bridge Structure
+
 
 The bridge consists of four resistors, with at least one being a pressure-sensitive resistor (piezoresistive sensor):
 
-```text
-Vout = Vin × (R3/(R3+R4) - R2/(R1+R2))
-```
+equation
+V_{out} = V_{in} \left(R_3{R_3 + R_4} - R_2{R_1 + R_2}\right)
+equation
 
 When pressure changes, the resistance of the pressure-sensitive element changes, causing a voltage output variation that allows pressure measurement.
 
-#### 3.1.2 Application in FFR Systems
 
-| Component | Function |
-|-----------|----------|
+#### Application in FFR Systems
+
+
+| L{10cm}} Wheatstone Bridge Components in FFR Systems |  |
+| --- | --- |
+| **Component** | **Function** |
 | Pressure sensor | Located at wire tip, contains piezoresistive elements |
 | Signal conversion | Converts pressure changes to voltage changes |
 | Amplifier | Amplifies minute voltage signals |
 | Calibration system | Eliminates temperature, drift, and other interference |
 | Digital conversion | Converts analog signals to digital pressure readings |
 
-### 3.2 Technical Considerations
+
+### Technical Considerations
+
 
 - **Drift:** Prolonged measurements may cause signal drift; calibration before and after is essential
 - **Temperature compensation:** Body temperature variations can affect resistance values
 - **Sensitivity:** Modern pressure wires can detect pressure changes within ±2 mmHg
 
+
 ---
 
-## 4. FAME 1 & FAME 2 Trials
 
-### 4.1 FAME 1 (2009)
+## FAME 1 & FAME 2 Trials
 
-| Category | Details |
-|----------|---------|
+
+### FAME 1 (2009)
+
+
+| L{10cm}} FAME 1 Trial Detailed Information |  |
+| --- | --- |
+| **Category** | **Details** |
 | Full Name | Fractional Flow Reserve versus Angiography for Multivessel Evaluation |
 | Publication Year | 2009 |
-| Journal | *New England Journal of Medicine* |
+| Journal | [New England Journal of Medicine](https://doi.org/10.1056/NEJMoa0807611) |
 | Study Design | Multicenter RCT |
 | Sample Size | 1,005 patients |
 | Inclusion Criteria | Multivessel coronary artery disease suitable for PCI |
 | Exclusion Criteria | STEMI <5 days, history of CABG |
-| Intervention | FFR arm: Treat only lesions with FFR ≤0.80; Angio arm: Treat all lesions with diameter stenosis ≥50% |
+| Intervention | **FFR arm:** Treat only lesions with FFR $\leq 0.80$     **Angio arm:** Treat all lesions with diameter stenosis $\geq 50 |
 | Primary Endpoint | 1-year MACE (death, MI, repeat revascularization) |
-| **Primary Results** | **FFR arm MACE: 13.2% vs Angio arm 18.3% (P=0.02); HR: 0.72 (95% CI: 0.54-0.96)** |
-| Secondary Results | FFR arm used fewer stents (1.9 vs 2.7, P<0.001); Similar procedure time; Similar contrast volume |
-| 5-Year Follow-up | MACE: 28% (FFR) vs 31% (Angio), P=0.31; FFR arm significantly better in first 2 years, similar from 2-5 years |
+| Primary Results | FFR arm MACE: 13.2  HR: 0.72 (95 |
+| Secondary Results | FFR arm used fewer stents (1.9 vs 2.7, P<0.001)     Similar procedure time     Similar contrast volume |
+| 5-Year Follow-up | MACE: 28  FFR arm significantly better in first 2 years, similar from 2-5 years |
 
-### 4.2 FAME 2 (2012-2018)
 
-| Category | Details |
-|----------|---------|
+### FAME 2 (2012-2018)
+
+
+| L{10cm}} FAME 2 Trial Comprehensive Analysis |  |
+| --- | --- |
+| **Category** | **Details** |
 | Full Name | Fractional Flow Reserve-Guided PCI versus Medical Therapy in Stable Coronary Disease |
 | Publication Year | 2012 (initial), 2018 (5-year) |
-| Journal | *New England Journal of Medicine* |
+| Journal | [New England Journal of Medicine](https://doi.org/10.1056/NEJMoa1205361) |
 | Study Design | Multicenter RCT |
-| Sample Size | 1,220 patients with FFR ≤0.80 |
-| Inclusion Criteria | Stable CAD with at least one stenosis and FFR ≤0.80 |
-| Randomization | PCI + OMT arm: 888 patients; OMT only arm: 332 patients; Registry (FFR >0.80): 166 patients |
-| Primary Endpoint (2-year) | Death, MI, or urgent revascularization: PCI + OMT 4.3% vs OMT only 12.7%; HR: 0.32 (95% CI: 0.19-0.53), P<0.001 |
-| Components | Death: 0.9% vs 1.5% (P=0.49); MI: 3.4% vs 3.4% (P=0.98); Urgent revascularization: 1.6% vs 11.1% (P<0.001) |
-| **5-Year Results** | **Primary endpoint: 13.9% vs 27.0%; HR: 0.46 (95% CI: 0.34-0.63), P<0.001; Death or MI: 8.1% vs 12.0%; HR: 0.66 (95% CI: 0.43-1.00), P=0.05** |
-| Registry Patients | FFR >0.80 with medical therapy only; 5-year event rate: 9.0%; Lower than both randomized arms |
-| Key Message | FFR-guided PCI significantly reduces urgent revascularization; Trend toward reduced death/MI at 5 years; Validates FFR ≤0.80 as intervention threshold |
+| Sample Size | 1,220 patients with FFR $\leq 0.80$ |
+| Inclusion Criteria | Stable CAD with at least one stenosis and FFR $\leq 0.80$ |
+| Randomization | **PCI + OMT arm:** 888 patients     **OMT only arm:** 332 patients     **Registry (FFR >0.80):** 166 patients |
+| Primary Endpoint (2-year) | Death, MI, or urgent revascularization     PCI + OMT: 4.3  HR: 0.32 (95 |
+| Components | **Death:** 0.9  **MI:** 3.4  **Urgent revascularization:** 1.6 |
+| 5-Year Results | **Primary endpoint:** 13.9  HR: 0.46 (95  **Death or MI:** 8.1  HR: 0.66 (95 |
+| Registry Patients | FFR >0.80 with medical therapy only     5-year event rate: 9.0  Lower than both randomized arms |
+| Key Message | FFR-guided PCI significantly reduces urgent revascularization     Trend toward reduced death/MI at 5 years     Validates FFR $\leq 0.80$ as intervention threshold |
+
 
 ---
 
-## 5. Complete Revascularization in ACS
 
-### 5.1 Landmark Trials in STEMI with Multivessel Disease
+## Complete Revascularization in ACS
 
-| Trial | Journal/Year | N | Primary Findings |
-|-------|-------------|---|-----------------|
-| PRAMI | *NEJM* 2013 | — | Preventive PCI reduced composite endpoint; HR 0.35 (0.21-0.58), P<0.001; First to show benefit |
-| CvLPRIT | *JACC* 2015 | — | Complete revasc reduced MACE; HR 0.45 (0.24-0.84), P=0.009; Confirmed PRAMI findings |
-| **COMPLETE** | ***NEJM* 2019** | **4,041** | **Largest trial; Primary EP: CV death/MI; HR 0.74 (0.60-0.91), P=0.004; CV death/MI: 7.8% vs 10.5% at 3 years; Guideline-changing evidence** |
-| MULTISTARS AMI | *NEJM* 2023 | — | Immediate vs Staged complete revasc; Primary EP: 8.5% vs 7.3%; HR 1.15 (0.73-1.82); Non-inferiority proven |
-| FULL REVASC | *NEJM* 2024 | 1,542 | FFR-guided complete vs Culprit-only; 4.8-year follow-up; Primary EP: 19.0% vs 20.4%; HR 0.93 (0.74-1.16), P=0.51; Neutral result |
-| FIRE | *NEJM* 2023 | 1,445 | Physiology-guided complete vs Culprit-only (≥75 years); CV death/MI/revasc: 23.3% vs 30.0%; HR 0.73 (0.58-0.90), P=0.004; Benefit in elderly |
 
-### 5.2 Timing of Complete Revascularization
+### Landmark Trials in STEMI with Multivessel Disease
 
-| Trial | Journal/Year | N | Key Findings |
-|-------|-------------|---|-------------|
-| COMPLETE Timing | *NEJM* 2019 | 4,041 | In-hospital staged vs Post-discharge staged; Similar outcomes, both superior to culprit-only |
-| MULTISTARS AMI | *NEJM* 2023 | — | Immediate vs Staged (19-45 days); Non-inferiority proven; Staged approach acceptable |
-| SMILE | *JACC* 2016 | — | Single-stage vs Multi-stage (in-hospital); Single-stage superior; HR 0.55 (0.36-0.83), P=0.004 |
 
-### 5.3 Cardiogenic Shock Special Considerations
+| L{2.5cm}L{2cm}L{6cm}} Major Complete Revascularization Trials in STEMI |  |
+| --- | --- |
+| **Trial** | **Journal/Year** |
+| PRAMI | [NEJM 2013](https://www.nejm.org/doi/full/10.1056/NEJMoa1305520) |
+| CvLPRIT | [JACC 2015](https://www.sciencedirect.com/science/article/pii/S0735109715000819?via |
+| COMPLETE | [NEJM 2019](https://doi.org/10.1056/NEJMoa1907775) |
+| MULTISTARS AMI | [NEJM 2023](https://doi.org/10.1056/NEJMoa2307823) |
+| FULL REVASC | https://www.nejm.org/doi/10.1056/NEJMoa2314149?url_ver=Z39.88-2003 |
+| FIRE | [NEJM 2023](https://doi.org/10.1056/NEJMoa2300468) |
 
-| Trial | Journal/Year | N | Primary Results and Clinical Implications |
-|-------|-------------|---|------------------------------------------|
-| **CULPRIT-SHOCK** | ***NEJM* 2017** | — | **30 days:** Death/RRT: 45.9% (culprit-only) vs 55.4% (MV-PCI); RR 0.83 (0.71-0.96), P=0.01; Mortality: 43.3% vs 51.6%, P=0.03. **1 year:** Mortality: 50.0% vs 56.9% (P=0.07); HF rehospitalization: 4.5% vs 0.9% (P=0.01). **Landmark trial:** Changed guideline recommendations; Culprit-only preferred in cardiogenic shock; Consider staged revascularization |
 
-### 5.4 FFR-guided vs Angiography-guided Complete Revascularization
+### Timing of Complete Revascularization
 
-| Trial | Journal/Year | N | Main Results |
-|-------|-------------|---|-------------|
-| DANAMI-3 PRIMULTI | *Lancet* 2015 | — | FFR-guided reduced PCI need; Approximately 50% lesions FFR >0.80; MACE improved |
-| COMPARE-ACUTE | *NEJM* 2017 | — | FFR-guided immediate complete; Primary EP: HR 0.35 (P<0.001); Supports FFR-guided strategy |
-| FLOWER-MI | *NEJM* 2021 | 1,171 | FFR non-superior to angio; Primary EP: 5.5% vs 4.2%; HR 1.32 (0.78-2.23), P=0.31; Stent use: 1.01 vs 1.50 |
-| FRAME-AMI | *European Heart J* | — | FFR-guided superior to angio |
-| FULL REVASC | *NEJM* 2024 | 1,542 | FFR-guided vs culprit-only; 4.8-year follow-up: neutral result; HR 0.93 (0.74-1.16), P=0.51 |
 
-### 5.5 Meta-Analyses and Systematic Reviews
+| L{2.5cmL{2cm}L{6cm}} Immediate vs Staged Complete Revascularization |  |
+| --- | --- |
+| **Trial** | **Journal/Year** |
+| COMPLETE Timing | [NEJM 2019](https://doi.org/10.1056/NEJMoa1907775) |
+| MULTISTARS AMI | [NEJM 2023](https://doi.org/10.1056/NEJMoa2307823) |
+| SMILE | [JACC 2016](https://www.sciencedirect.com/science/article/pii/S0735109715074902?via |
 
-| Meta-analysis | Journal/Year | Main Conclusions |
-|--------------|-------------|-----------------|
-| Elgendy et al. | *JACC Cardiovasc Interv* 2017 | 8 RCTs, 7,030 patients; Complete revasc significantly reduced CV death and MI; OR 0.74 (0.61-0.89) |
-| Pavasini et al. | *Eur Heart J* 2020 | 9 RCTs; Complete revasc reduced CV death; HR 0.72 (0.58-0.89) |
-| Biscaglia et al. | *PLOS ONE* 2024 | 8 RCTs, 4,433 patients; FFR vs angio-guided analysis; MACE: RR 0.69 (0.52-0.90); ACS subgroup: RR 0.77 (0.51-1.17) |
 
----
+### Cardiogenic Shock Special Considerations
 
-## 6. Clinical Practice Guidelines Summary
 
-### 6.1 Current Guideline Recommendations
+| L{2.5cm}L{2cm}L{6.5cm}} Revascularization Strategy in STEMI with Cardiogenic Shock |  |
+| --- | --- |
+| **Trial** | **Journal/Year** |
+| CULPRIT-SHOCK | [NEJM 2017](https://doi.org/10.1056/NEJMoa1710261) |
 
-| Clinical Scenario | Recommendations |
-|------------------|----------------|
-| STEMI + MVD (no shock) | **Class I:** Complete revascularization recommended; Can be immediate or staged (in-hospital or post-discharge); Consider FFR/iFR guidance for non-culprit lesions |
-| STEMI + MVD + Shock | **Class I:** Culprit-only PCI; **Class IIa:** Consider staged revascularization; Based on CULPRIT-SHOCK trial |
-| NSTEMI + MVD | **Class IIa:** Complete revascularization; Staged approach more common than immediate; Can use FFR/iFR to assess non-culprit lesions |
-| Elderly Patients (≥75 years) | Based on FIRE trial; Physiology-guided complete revasc beneficial; Assess surgical risk and benefit |
-| Presence of CTO | STEMI stable patients: Immediate CTO PCI not recommended; Cardiogenic shock: CTO should not be treated immediately; Consider subsequent staged intervention |
 
-### 6.2 FFR/iFR Usage Recommendations
+### FFR-guided vs Angiography-guided Complete Revascularization
 
-| Scenario | Recommendations and Evidence Level |
-|----------|-----------------------------------|
-| Stable CAD multivessel disease | **Class I, Level A:** FFR ≤0.80 recommend PCI; FFR >0.80 can safely defer |
-| STEMI non-culprit lesions | **Class IIa, Level B:** Can use FFR/iFR for assessment; Helps decide immediate or staged PCI |
-| NSTEMI non-culprit lesions | **Class IIa, Level B:** FFR/iFR helps reduce unnecessary PCI; Safe and effective compared to angio-guided |
-| Timing of measurement (ACS) | Index procedure or staged (days later) both acceptable; iFR may be more suitable in acute phase (no adenosine needed) |
-| **Not recommended** | Culprit lesion (clearly needs immediate PCI); Cardiogenic shock (CULPRIT-SHOCK); STEMI with left main disease |
+
+| L{2.5cm}L{2cm}L{6cm}} Comparison of FFR and Angiography-Guided Complete Revascularization |  |
+| --- | --- |
+| **Trial** | **Journal/Year** |
+| DANAMI-3 PRIMULTI | [Lancet 2015](https://www.sciencedirect.com/science/article/pii/S0140673615606481?via |
+| COMPARE-ACUTE | [NEJM 2017](https://www.nejm.org/doi/full/10.1056/NEJMoa1701067) |
+| FLOWER-MI | [NEJM 2021](https://doi.org/10.1056/NEJMoa2104650) |
+| FRAME-AMI | [European Heart J](https://academic.oup.com/eurheartj/article/44/6/473/6948120?login=true) |
+| FULL REVASC | https://www.nejm.org/doi/10.1056/NEJMoa2314149?url_ver=Z39.88-2003 |
+
 
 ---
 
-## 7. Controversies and Future Directions
 
-### 7.1 Current Controversies
+### Meta-Analyses and Systematic Reviews
 
-| Controversy | Discussion |
-|------------|-----------|
-| FLOWER-MI neutral results | FFR-guided failed to prove superiority over angio-guided; Possible reasons: modern angio assessment already accurate, low event rate, trial design; Does not mean FFR is useless; both methods acceptable |
-| Timing of complete revasc | Immediate vs staged still debated; MULTISTARS AMI showed non-inferiority; Immediate may increase contrast volume, procedural complexity; Staged requires rehospitalization |
-| FFR accuracy in ACS | Microvascular dysfunction may affect accuracy; Most studies show good reliability; iFR may be alternative option |
-| FAME 2 soft endpoint issue | Main benefit from reduced urgent revascularization; No significant difference in death/MI (trend at 5 years); Non-blinded design may introduce bias |
-| Cost-effectiveness | FFR equipment cost vs reduced unnecessary PCI; Long-term follow-up shows cost-effective; Requires additional training and equipment |
 
-### 7.2 Future Research Directions
+| L{3cmL{7cm}} Important Meta-Analyses of Multivessel PCI in ACS |  |
+| --- | --- |
+| **Meta-analysis** | **Journal/Year** |
+| Elgendy et al. | [JACC Cardiovasc Interv 2017](https://www.sciencedirect.com/science/article/pii/S1936879816321902) |
+| Pavasini et al. | [Eur Heart J 2020](https://academic.oup.com/eurheartj/article/41/42/4103/5692630?login=true) |
+| Biscaglia et al. | [PLOS ONE 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC12510650/) |
+|  | JACC 2024 |
+
+
+---
+
+
+## Clinical Practice Guidelines Summary
+
+
+### Current Guideline Recommendations
+
+
+| L{10cm}} 2024 ACS Multivessel Disease Management Guidelines |  |
+| --- | --- |
+| **Clinical Scenario** | **Recommendations** |
+| STEMI + MVD (no shock) | **Class I:** Complete revascularization recommended     Can be immediate or staged (in-hospital or post-discharge)     Consider FFR/iFR guidance for non-culprit lesions |
+| STEMI + MVD + Shock | **Class I:** Culprit-only PCI     **Class IIa:** Consider staged revascularization     Based on CULPRIT-SHOCK trial |
+| NSTEMI + MVD | **Class IIa:** Complete revascularization     Staged approach more common than immediate     Can use FFR/iFR to assess non-culprit lesions |
+| Elderly Patients (≥75 years) | Based on FIRE trial     Physiology-guided complete revasc beneficial     Assess surgical risk and benefit |
+| Presence of CTO | STEMI stable patients: Immediate CTO PCI not recommended     Cardiogenic shock: CTO should not be treated immediately     Consider subsequent staged intervention |
+
+
+### FFR/iFR Usage Recommendations
+
+
+| L{9cm}} Application of Physiologic Assessment in ACS |  |
+| --- | --- |
+| **Scenario** | **Recommendations and Evidence Level** |
+| Stable CAD multivessel disease | **Class I, Level A**     FFR $\leq 0.80$ recommend PCI     FFR $>0.80$ can safely defer |
+| STEMI non-culprit lesions | **Class IIa, Level B**     Can use FFR/iFR for assessment     Helps decide immediate or staged PCI |
+| NSTEMI non-culprit lesions | **Class IIa, Level B**     FFR/iFR helps reduce unnecessary PCI     Safe and effective compared to angio-guided |
+| Timing of measurement (ACS) | Index procedure or staged (days later) both acceptable     Studies show FFR/iFR values stable     iFR may be more suitable in acute phase (no adenosine needed) |
+| Not recommended | Culprit lesion (clearly needs immediate PCI)     Cardiogenic shock (CULPRIT-SHOCK)     STEMI with left main disease |
+
+
+---
+
+
+## Controversies and Future Directions
+
+
+### Current Controversies
+
+
+| L{9.5cm}} Controversial Issues in FFR and Complete Revascularization |  |
+| --- | --- |
+| **Controversy** | **Discussion** |
+| FLOWER-MI neutral results | FFR-guided failed to prove superiority over angio-guided     Possible reasons: Modern angio assessment already accurate, low event rate, trial design     Does not mean FFR is useless; both methods acceptable |
+| Timing of complete revasc | Immediate vs staged still debated     MULTISTARS AMI showed non-inferiority     Immediate may increase contrast volume, procedural complexity     Staged requires rehospitalization, increases healthcare costs |
+| FFR accuracy in ACS | Microvascular dysfunction may affect accuracy     Most studies show good reliability     iFR may be alternative option |
+| FAME 2 soft endpoint issue | Main benefit from reduced urgent revascularization     No significant difference in death/MI (trend at 5 years)     Non-blinded design may introduce bias |
+| Cost-effectiveness | FFR equipment cost vs reduced unnecessary PCI     Long-term follow-up shows cost-effective     Requires additional training and equipment |
+
+
+### Future Research Directions
+
 
 - **Integration of imaging and physiology:** Combined IVUS/OCT + FFR assessment
 - **Novel physiologic indices:** dPR, RFR, virtual FFR (computed FFR)
@@ -251,11 +331,47 @@ When pressure changes, the resistance of the pressure-sensitive element changes,
 - **Long-term outcomes:** >5-year follow-up of complete revascularization effects
 - **Precision medicine:** Gene and biomarker-guided personalized treatment
 
+
 ---
 
-## 8. Conclusions
+
+## Key References
+
+
+### Landmark Trials
+
+
+1. 
+2. Tonino PAL, De Bruyne B, Pijls NHJ, et al. Fractional flow reserve versus angiography for guiding percutaneous coronary intervention. [*N Engl J Med](https://doi.org/10.1056/NEJMoa0807611). 2009;360(3):213-224.*
+3. De Bruyne B, Pijls NHJ, Kalesan B, et al. Fractional flow reserve-guided PCI versus medical therapy in stable coronary disease. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1205361). 2012;367(11):991-1001.*
+4. Xaplanteris P, Fournier S, Pijls NHJ, et al. Five-year outcomes with PCI guided by fractional flow reserve. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1803538). 2018;379(3):250-259.*
+5. Mehta SR, Wood DA, Storey RF, et al. Complete revascularization with multivessel PCI for myocardial infarction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1907775). 2019;381(15):1411-1421.*
+6. Smits PC, Abdel-Wahab M, Neumann FJ, et al. Fractional flow reserve-guided multivessel angioplasty in myocardial infarction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1611769). 2017;376(13):1234-1244.*
+7. Puymirat E, Cayla G, Simon T, et al. Multivessel PCI guided by FFR or angiography for myocardial infarction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2104650). 2021;385(4):297-308.*
+8. Thiele H, Akin I, Sandri M, et al. PCI strategies in patients with acute myocardial infarction and cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1710261). 2017;377(25):2419-2432.*
+9. Biscaglia S, Guiducci V, Escaned J, et al. Complete or culprit-only PCI in older patients with myocardial infarction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2300468). 2023;389(10):889-898.*
+10. Bohm F, Pernow J, Lindahl B, et al. FFR-guided complete or culprit-only PCI in patients with myocardial infarction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2400627). 2024;390(16):1481-1492.*
+11. Politi L, Sgura F, Rossi R, et al. Timing of complete revascularization with multivessel PCI for myocardial infarction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2307823). 2023;389(15):1368-1379.*
+12. Wald DS, Morris JK, Wald NJ, et al. Randomized trial of preventive angioplasty in acute myocardial infarction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1305210). 2013;369(12):1115-1123.*
+13. Gershlick AH, Khan JN, Kelly DJ, et al. Randomized trial of complete versus lesion-only revascularization in patients undergoing primary percutaneous coronary intervention for STEMI and multivessel disease. [*Lancet](https://doi.org/10.1016/S0140-6736(15)60686-8). 2015;386(9991):281-290.*
+
+
+### Important Reviews and Guidelines
+
+
+1. 
+2. Neumann FJ, Sousa-Uva M, Ahlsson A, et al. 2018 ESC/EACTS guidelines on myocardial revascularization. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehy394). 2019;40(2):87-165.*
+3. Lawton JS, Tamis-Holland JE, Bangalore S, et al. 2021 ACC/AHA/SCAI guideline for coronary artery revascularization. [*Circulation](https://doi.org/10.1161/CIR.0000000000001038). 2022;145(3):e18-e114.*
+4. Collet JP, Thiele H, Barbato E, et al. 2020 ESC guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaa575). 2021;42(14):1289-1367.*
+5. Elgendy IY, Mahmoud AN, Kumbhani DJ, et al. Complete or culprit-only revascularization for patients with multivessel coronary artery disease undergoing percutaneous coronary intervention: a pairwise and network meta-analysis of randomized trials. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2019.11.010). 2020;13(12):1413-1423.*
+6. Pavasini R, Biscaglia S, Barbato E, et al. Complete revascularization reduces cardiovascular death in patients with ST-segment elevation myocardial infarction and multivessel disease. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaa509). 2020;41(42):4103-4110.*
+
+
+## Conclusions
+
 
 FFR represents a major advancement in percutaneous coronary intervention, providing an objective physiological assessment standard. Key conclusions include:
+
 
 1. **Stable CAD:** FFR-guided PCI superior to pure angiography-guided approach (FAME 1 & 2)
 2. **STEMI with multivessel disease:** Complete revascularization superior to culprit-only (COMPLETE and others)
@@ -264,4 +380,5 @@ FFR represents a major advancement in percutaneous coronary intervention, provid
 5. **Timing choice:** Both immediate and staged complete revascularization are acceptable
 6. **Elderly patients:** Physiology-guided approach still beneficial (FIRE)
 
-> The application of FFR and iFR should be integrated with clinical judgment, imaging assessment, and patient characteristics to achieve optimal personalized treatment strategies.
+
+The application of FFR and iFR should be integrated with clinical judgment, imaging assessment, and patient characteristics to achieve optimal personalized treatment strategies.

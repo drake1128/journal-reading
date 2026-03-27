@@ -1,0 +1,478 @@
+---
+title: "Case 5-2025: A 30-Year-Old Woman with Headache and Dysesthesia"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**Case 5-2025: A 30-Year-Old Woman with Headache and Dysesthesia**}
+[0.5cm]
+{**病例 5-2025：一位30歲女性，主訴頭痛與感覺異常**}
+[0.3cm]
+{N Engl J Med 2025;392:699-709   DOI: 10.1056/NEJMcpc2412514}
+[0.3cm]
+{February 13, 2025}
+
+
+## 病例呈現 (Case Presentation)
+
+
+### Chief Complaint 主訴
+
+A 30-year-old woman was admitted to this hospital because of **headache and dysesthesia**.
+
+一位30歲女性因**頭痛與感覺異常**入院。
+
+
+### History of Present Illness 現病史
+
+
+The patient had been in her usual state of good health until 8 days before the current presentation, when a **burning sensation** developed in the feet. During the next 2 days, the burning sensation progressed to involve the legs and worsened with light touch (**allodynia**). Treatment with ibuprofen did not alleviate her symptoms. She had concurrent fatigue, which she attributed to jet lag after returning from a 3-week trip that had included travel in **Thailand, Japan, and Hawaii**.
+
+病人在入院前8天身體狀況良好，之後雙腳出現**燒灼感**。接下來2天內，燒灼感進展至雙腿，且輕觸即加劇（**異常疼痛**）。服用ibuprofen未能緩解症狀。她同時有疲倦感，她認為是從**泰國、日本和夏威夷**三週旅行回來後的時差所致。
+
+importantbox
+**Key Timeline 關鍵時間線：**
+
+- Day -8: Burning sensation in feet 雙腳燒灼感
+- Day -6 to -5: Progression to legs with allodynia 進展至雙腿伴異常疼痛
+- Day -5: First ED visit - eosinophil count 870/μL 第一次急診就診
+- Day -3: Dysesthesia to trunk and arms, headache onset 感覺異常擴及軀幹與手臂，頭痛開始
+- Day -2: Fever 38.3°C at home 在家測得發燒
+- Day -1: Second ED visit - eosinophil count 1050/μL 第二次急診就診
+- Day 0: Confusion, admission to MGH 意識混亂，入院MGH
+
+
+importantbox
+
+
+### Travel and Dietary History 旅遊與飲食史
+
+
+| p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm}}  **Location    地點** | **Duration    時間** | **Activities    活動** | **Diet    飲食** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Bangkok, Thailand    泰國曼谷 | First week    第一週 | City touring    城市觀光 | Various street foods but no raw food    各式街頭小吃但無生食 |  |  |
+| Tokyo, Japan    日本東京 | 5 days    5天 | Mostly in hotel    大部分時間在飯店 | Several meals of sushi    數餐壽司 |  |  |
+| Hawaii    夏威夷 | Last 10 days    最後10天 | Swam in ocean several times    多次在海中游泳 | Frequently ate salad and sushi    經常吃沙拉和壽司 |  |  |
+
+
+### Physical Examination 身體檢查
+
+
+On examination at this hospital:
+
+- Temperature: 37.3°C
+- Blood pressure: 131/96 mm Hg
+- Pulse: 62 beats per minute
+- Respiratory rate: 24 breaths per minute
+- Oxygen saturation: 93
+- BMI: 26.3
+- Mental status: Alert but **not oriented**, restless, did not answer questions consistently or follow commands
+- Neck: Supple with normal motion (no meningismus)
+- Skin: No rash
+
+
+### Laboratory Data 實驗室數據
+
+
+| p{4cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{5cm}}  **Test    檢驗項目** | **Result    結果** | **Reference    參考值** | **Clinical Significance    臨床意義** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Complete Blood Count 全血球計數** |  |  |  |  |  |
+| White-cell count | 15,500/μL | 3,900--11,000 | Leukocytosis    白血球增多 |  |  |
+| Neutrophils | 13,480/μL | 1,800--7,700 | Neutrophilia    嗜中性球增多 |  |  |
+| Eosinophils | 10/μL | 0--900 | Paradoxically low (previously elevated)    反常偏低（先前曾升高） |  |  |
+| Lymphocytes | 1,100/μL | 1,000--4,800 | Low-normal    正常低值 |  |  |
+| Platelet count | 471,000/μL | 130,000--400,000 | Thrombocytosis    血小板增多 |  |  |
+| **CSF Analysis 腦脊髓液分析** |  |  |  |  |  |
+| Opening pressure | 25 cm H₂O | 10--25 | Upper limit of normal    正常上限 |  |  |
+| WBC count | 694/μL | 0--5 | **Marked pleocytosis**    **明顯細胞增多** |  |  |
+| CSF differential | 81  9  **8  2 | -- | **CSF eosinophilia** (≈56/μL)    **腦脊髓液嗜酸性球增多** |  |  |
+| Glucose | 36 mg/dL | 40--70 | Low    偏低 |  |  |
+| Protein | 101 mg/dL | 15--45 | **Elevated**    **升高** |  |  |
+
+
+CSF eosinophilia is defined as ≥10 eosinophils/μL or eosinophils comprising >10
+ 腦脊髓液嗜酸性球增多定義為≥10個嗜酸性球/μL或嗜酸性球佔腦脊髓液白血球>10
+
+
+### Imaging Studies 影像學檢查
+
+CT head showed no acute intracranial abnormalities.
+
+頭部電腦斷層未見急性顱內異常。
+
+
+## 醫學英文寫作解析 (Medical English Writing Analysis)
+
+
+| p{5cm >{\arraybackslash}p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3cm}}  **Original Sentence    原文例句** | **Grammar Structure    文法結構** | **Chinese Translation    中文翻譯** | **Writing Technique    寫作技巧** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| "The patient had been in her usual state of good health until 8 days before the current presentation, when a burning sensation developed." | Past perfect + temporal clause with "until...when" | 病人在入院前8天身體狀況良好，之後雙腳出現燒灼感。 | Use of "had been...until" establishes baseline health before illness onset    使用過去完成式建立發病前的健康基準 |  |  |
+| "The symptoms were exacerbated by light touch, a condition known as allodynia." | Passive voice + appositive definition | 症狀因輕觸而加劇，此狀況稱為異常疼痛。 | Appositive provides immediate definition of medical term    同位語立即解釋醫學術語 |  |  |
+| "If we frame the problem representation in this case as..." | Conditional clause for clinical reasoning | 若我們將此病例的問題呈現框架為... | Academic hedging to introduce differential diagnosis approach    學術緩和語引入鑑別診斷思維 |  |  |
+| "The lack of detection on smears was not unexpected, given the low sensitivity and specificity." | Double negative + participial phrase | 抹片未檢出並不意外，考量到此傳統方法的低敏感度和特異度。 | Litotes (double negative) for emphasis; "given" introduces reasoning    雙重否定加強語氣；「考量到」引入推理 |  |  |
+| "A presumptive diagnosis of CNS angiostrongyliasis can be made in a patient with eosinophilic meningitis who has traveled..." | Modal passive + relative clause | 對於有嗜酸性球性腦膜炎且曾前往...的病人，可做出中樞神經系統廣東住血線蟲感染的推定診斷。 | "can be made" indicates diagnostic criteria are met    「可做出」表示符合診斷標準 |  |  |
+
+
+## 鑑別診斷 (Differential Diagnosis)
+
+
+| p{3.5cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3.5cm}}  **Differential Diagnosis    鑑別診斷** | **Supporting Evidence    支持證據** | **Against    不支持證據** | **Suggested Workup    建議檢查** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Angiostrongyliasis**    (Angiostrongylus cantonensis)    **廣東住血線蟲感染** | Travel to Hawaii (endemic area)    Salad consumption (contamination risk)    Migratory dysesthesia    Peripheral then CSF eosinophilia    Headache, confusion    1-2 week incubation fits timeline | None significant    無明顯不支持證據 | CSF NAAT for A. cantonensis    Serology (ELISA)    Next-generation sequencing    腦脊髓液核酸檢測 |  |  |
+| Gnathostomiasis    (Gnathostoma spinigerum)    顎口線蟲病 | Travel to Southeast Asia and Japan    Sushi consumption    曾前往東南亞及日本    曾吃壽司 | No excruciating migratory radicular pain    No migratory cutaneous swelling    無劇烈遊走性神經根痛    無遊走性皮膚腫脹 | Serology    CT/MRI for migratory lesions |  |  |
+| Guillain-Barré Syndrome    乙乓氏症候群 | Subacute sensory symptoms    Rare association with eosinophilia    亞急性感覺症狀 | Normal examination initially (intact reflexes)    No motor involvement    CSF shows inflammation, not albuminocytologic dissociation    初始檢查正常    無運動症狀 | Nerve conduction studies    EMG    神經傳導檢查 |  |  |
+| EGPA    (Eosinophilic Granulomatosis with Polyangiitis)    嗜酸性肉芽腫性多血管炎 | Peripheral eosinophilia    Sensory abnormalities mimicking GBS    周邊嗜酸性球增多    感覺異常類似GBS | No purpuric lesions    No pansinusitis    No asthma history    無紫斑    無全鼻竇炎    無氣喘病史 | ANCA testing    Biopsy    Chest imaging |  |  |
+| Drug-induced Aseptic Meningitis    (Ibuprofen)    藥物誘發無菌性腦膜炎 | Ibuprofen use at symptom onset    Ibuprofen commonly implicated    症狀開始時使用ibuprofen | Latency typically <24 hours    Usually neutrophilic predominance (72  Eosinophils rare    No autoimmune disease    潛伏期通常<24小時    通常嗜中性球為主 | Drug rechallenge (not recommended)    Exclusion of other causes |  |  |
+| Strongyloidiasis    (Strongyloides stercoralis)    糞小桿線蟲感染 | Contact with contaminated water possible in Bangkok/Tokyo    可能在曼谷/東京接觸污染水源 | No cutaneous manifestations (larva currens)    No pulmonary symptoms    無皮膚表現    無肺部症狀 | Stool examination    Serology    糞便檢查    血清學 |  |  |
+| Sparganosis    (Spirometra species)    裂頭絛蟲感染 | Endemic to Japan    Fever, fatigue, headache, paresthesia present    日本流行    有發燒、疲倦、頭痛、感覺異常 | No reported ingestion of raw snakes, frogs, pork, or freshwater fish    無食用生蛇、蛙、豬肉或淡水魚病史 | MRI brain    Serology |  |  |
+| Paragonimiasis    (Paragonimus westermani)    肺吸蟲病 | Endemic to Asia    Crab sushi possible    亞洲流行    可能吃過蟹肉壽司 | No GI symptoms    No cough/hemoptysis    No migratory swelling    無腸胃道症狀    無咳嗽/咳血 | Sputum examination    Serology    Chest imaging |  |  |
+| Cryptococcosis    隱球菌感染 | Can cause eosinophilic meningitis    Global distribution    可導致嗜酸性球性腦膜炎 | No HIV infection    No characteristic neuroimaging findings    No immunocompromised state    無HIV感染    無特徵性影像發現 | CSF cryptococcal antigen    India ink stain    Fungal culture |  |  |
+| Coccidioidomycosis    球黴菌病 | Can cause eosinophilic meningitis    可導致嗜酸性球性腦膜炎 | No travel to endemic areas (southwestern US, Mexico, South America)    未前往流行區 | Serology    CSF antibodies |  |  |
+
+
+importantbox
+**Clinical Pearl 臨床要點：** The most common cause of eosinophilic meningitis worldwide is *Angiostrongylus cantonensis* infection. When evaluating a patient with eosinophilic meningitis, always obtain a detailed **travel history** and **dietary history**, particularly regarding consumption of raw or undercooked foods.  
+
+全球嗜酸性球性腦膜炎最常見的病因是廣東住血線蟲感染。評估嗜酸性球性腦膜炎病人時，務必詳細詢問**旅遊史**和**飲食史**，特別是生食或未煮熟食物的攝取。
+importantbox
+
+
+## 討論 (Discussion)
+
+
+### Pathophysiology 病理生理學
+
+
+*Angiostrongylus cantonensis* is a nematode (roundworm) whose definitive host is the rat. The life cycle involves:
+
+廣東住血線蟲是一種線蟲（圓蟲），其終宿主為老鼠。生命週期包括：
+
+
+1. **In rats 在老鼠體內**: Adult worms live in pulmonary arteries → lay eggs → eggs hatch into L1 larvae in lungs → coughed up, swallowed → excreted in feces
+2. **In snails/slugs 在蝸牛/蛞蝓體內**: L1 larvae ingested → develop to L3 (infective stage) larvae
+3. **Human infection 人類感染**: Accidental ingestion of:      - Raw/undercooked infected snails or slugs 生的或未煮熟的受感染蝸牛或蛞蝓 - Contaminated vegetables/fruits (containing snails, slugs, or their slime) 受污染的蔬果 - Infected paratenic hosts (land crabs, freshwater prawns, frogs) 受感染的運輸宿主
+
+
+In humans, L3 larvae migrate to the CNS but **cannot complete their life cycle**. They may develop to L4/L5 stages but do not migrate to the lungs or produce eggs. The disease is self-limiting but can cause significant morbidity.  
+ 在人體內，L3幼蟲會遷移至中樞神經系統但**無法完成生命週期**。它們可能發育至L4/L5階段但不會遷移至肺部或產卵。此疾病具自限性但可能造成顯著病態。
+
+
+### Clinical Manifestations 臨床表現
+
+
+The neurologic manifestations result from larval migration:
+
+- **Peripheral nerve involvement**: Migratory sensory abnormalities (dysesthesia, paresthesia, allodynia) - often not dermatomal
+- **Spinal cord involvement**: Bowel/bladder dysfunction
+- **CNS involvement**: Headache, meningismus, confusion, encephalopathy, seizure, cranial neuropathy, ocular involvement
+
+
+神經系統表現源於幼蟲遷移：
+
+- **周邊神經受累**：遊走性感覺異常（感覺異常、麻木刺痛、異常疼痛）- 通常非皮節分布
+- **脊髓受累**：排便/排尿功能障礙
+- **中樞神經系統受累**：頭痛、腦膜刺激徵、意識混亂、腦病變、癲癇、顱神經病變、眼部受累
+
+
+### Diagnostic Approach 診斷方法
+
+
+1. **Presumptive diagnosis** can be made with:      - Eosinophilic meningitis (≥10 eosinophils/μL or >10 - Travel/residence in endemic area - Characteristic symptoms and signs
+2. **Definitive diagnosis** requires:      - Identification of larvae in CSF (rare) - **NAAT (nucleic acid amplification testing)** - sensitivity >90 - ELISA serology - Next-generation sequencing
+
+
+importantbox
+**Diagnostic Challenge 診斷挑戰**: Microscopic examination of peripheral blood and CSF smears has **low sensitivity and specificity** for detecting A. cantonensis. NAAT is the preferred confirmatory test but is only available at specialized laboratories.  
+
+周邊血液和腦脊髓液抹片的顯微鏡檢查對於檢測廣東住血線蟲的**敏感度和特異度均低**。核酸擴增檢測是首選的確認檢查，但僅在專門實驗室可進行。
+importantbox
+
+
+## 最終診斷 (Final Diagnosis)
+
+
+# Eosinophilic Meningitis due to *Angiostrongylus cantonensis
+
+0.9\textwidth{
+
+**Eosinophilic Meningitis due to *Angiostrongylus cantonensis** Infection*
+[0.3cm]
+**廣東住血線蟲感染引起的嗜酸性球性腦膜炎**
+*
+
+
+## 治療計畫 (Treatment Plan)
+
+
+### Pharmacological Treatment 藥物治療
+
+
+| p{3cm} >{\arraybackslash}p{2cm} >{\arraybackslash}p{2cm} >{\arraybackslash}p{2cm} >{\arraybackslash}p{5cm}}  **Drug    (Generic Name)** | **Dose    劑量** | **Route    途徑** | **Frequency    頻率** | **Indication/Mechanism    適應症/機轉** |  |
+| --- | --- | --- | --- | --- | --- |
+| Prednisone | High dose | PO | Daily × 14 days | **Primary treatment**    Suppresses inflammatory response to dying parasites    Rapidly resolves symptoms    **主要治療**    抑制對死亡寄生蟲的發炎反應 |  |
+| Albendazole | Standard | PO | BID × 14 days | **Anthelmintic**    Crosses blood-brain barrier    Achieves therapeutic CSF levels    Must use WITH glucocorticoids    **驅蟲藥**    可穿透血腦屏障 |  |
+| Gabapentin | Titrated | PO | TID | Neuropathic pain (dysesthesia)    神經病變性疼痛 |  |
+| Amitriptyline | Low dose | PO | QHS | Neuropathic pain (dysesthesia)    神經病變性疼痛 |  |
+
+
+**Critical Point 關鍵要點**: Anthelmintic therapy (albendazole) should **NEVER** be used without concurrent glucocorticoid treatment. Killing parasites can trigger severe inflammatory response.  
+ 驅蟲藥（albendazole）**絕不可**在沒有同時使用糖皮質激素的情況下使用。殺死寄生蟲可能引發嚴重發炎反應。
+
+
+### Supportive Care 支持性治療
+
+
+- Serial lumbar puncture may be helpful for patients with persistently elevated intracranial pressure or ongoing headaches (not needed in this patient)
+- 對於持續顱內壓升高或持續頭痛的病人，連續腰椎穿刺可能有幫助（本病人不需要）
+
+
+### Treatment Outcome 治療結果
+
+Headache and dysesthesia abated with directed therapy. The patient was discharged on hospital day 6.
+
+經過針對性治療後，頭痛和感覺異常緩解。病人於住院第6天出院。
+
+
+## 學習重點 (Key Takeaways)
+
+
+**1. Recognition of Eosinophilic Meningitis 辨識嗜酸性球性腦膜炎**
+
+- Definition: ≥10 eosinophils/μL CSF OR >10
+- Most common infectious cause: *Angiostrongylus cantonensis*
+- Always consider parasitic infection in returning travelers
+
+
+**2. Travel and Dietary History is Critical 旅遊和飲食史至關重要**
+
+- A. cantonensis is endemic to Hawaii, Southeast Asia, Pacific Islands
+- Infection through contaminated vegetables/salads, raw snails/slugs, or paratenic hosts
+- Incubation period: 1-2 weeks
+
+
+**3. Clinical Clues 臨床線索**
+
+- Migratory sensory symptoms (not dermatomal) + headache + peripheral eosinophilia
+- Peripheral eosinophilia may precede CSF eosinophilia
+- Confusion/encephalopathy indicates CNS involvement
+
+
+**4. Diagnostic Testing 診斷檢測**
+
+- Microscopic examination has low sensitivity
+- NAAT (PCR) is highly sensitive and specific (>90
+- Available only at specialized labs (e.g., Hawaii State Lab, NIH)
+
+
+**5. Treatment Principles 治療原則**
+
+- **Glucocorticoids are first-line** - reduce inflammation
+- Albendazole may be added but ONLY with concurrent steroids
+- Symptomatic treatment for neuropathic pain
+- Disease is generally self-limiting
+
+
+## 自我測驗 (Self-Assessment Quiz)
+
+
+### 題目 (Questions)
+
+
+**Question 1.** A 30-year-old woman presents with progressive burning sensation in her feet and legs that worsens with light touch. She recently returned from a trip to Hawaii. Which of the following symptoms would most strongly suggest eosinophilic meningitis requiring lumbar puncture?
+
+一位30歲女性因雙腳和雙腿漸進性燒灼感就診，輕觸即加劇。她最近剛從夏威夷旅行回來。下列何種症狀最強烈提示需要進行腰椎穿刺的嗜酸性球性腦膜炎？
+
+
+1. Fatigue attributed to jet lag
+2. Nausea and decreased appetite
+3. New onset headache with fever
+4. Mild anion-gap metabolic acidosis
+5. Peripheral eosinophilia alone
+
+
+**Question 2.** Which of the following CSF findings defines eosinophilic meningitis?
+
+下列何種腦脊髓液發現定義嗜酸性球性腦膜炎？
+
+
+1. Eosinophils comprising >5
+2. At least 5 eosinophils per microliter of CSF
+3. At least 10 eosinophils per microliter OR eosinophils >10
+4. Peripheral eosinophilia with any CSF pleocytosis
+5. CSF protein >100 mg/dL with eosinophils present
+
+
+**Question 3.** A patient with suspected *Angiostrongylus cantonensis* infection has CSF sent for microscopic examination, which shows no parasites. What is the most appropriate interpretation?
+
+疑似廣東住血線蟲感染的病人，腦脊髓液顯微鏡檢查未見寄生蟲。最適當的解讀為何？
+
+
+1. Angiostrongyliasis has been ruled out
+2. The sample should be repeated with larger volume
+3. This finding is expected given the low sensitivity of microscopy
+4. The patient likely has a different parasitic infection
+5. Serology is not needed if microscopy is negative
+
+
+**Question 4.** Which of the following is the most common cause of eosinophilic meningitis worldwide?
+
+下列何者是全球嗜酸性球性腦膜炎最常見的病因？
+
+
+1. *Gnathostoma spinigerum*
+2. *Angiostrongylus cantonensis*
+3. *Strongyloides stercoralis*
+4. *Cryptococcus neoformans*
+5. Ibuprofen-induced aseptic meningitis
+
+
+**Question 5.** A tourist returning from Hawaii develops migratory paresthesias followed by headache and confusion. She reports eating fresh salad daily during her trip. What is the most likely route of infection with *A. cantonensis*?
+
+一位從夏威夷回來的遊客出現遊走性感覺異常，接著頭痛和意識混亂。她表示旅行期間每天吃新鮮沙拉。廣東住血線蟲最可能的感染途徑為何？
+
+
+1. Direct skin penetration while swimming
+2. Inhalation of aerosolized larvae
+3. Ingestion of vegetables contaminated by infected snails or their slime
+4. Mosquito bite transmission
+5. Person-to-person transmission
+
+
+**Question 6.** Which of the following clinical features would make *Gnathostoma spinigerum* infection MORE likely than *A. cantonensis* infection in a patient with eosinophilic meningitis?
+
+對於嗜酸性球性腦膜炎病人，下列何種臨床特徵使顎口線蟲感染比廣東住血線蟲感染更可能？
+
+
+1. Travel to Hawaii
+2. Consumption of raw salad
+3. Excruciating migratory radicular pain with cutaneous swelling
+4. Headache with meningismus
+5. CSF eosinophilia >10
+
+
+**Question 7.** A 28-year-old man is diagnosed with eosinophilic meningitis due to *A. cantonensis*. His physician plans to start treatment. Which of the following treatment approaches is most appropriate?
+
+一位28歲男性被診斷為廣東住血線蟲引起的嗜酸性球性腦膜炎。醫師計劃開始治療。下列何種治療方式最適當？
+
+
+1. Albendazole alone for 14 days
+2. Prednisone alone for 14 days
+3. Albendazole plus prednisone for 14 days
+4. Ivermectin plus dexamethasone
+5. No treatment; observation only as disease is self-limiting
+
+
+**Question 8.** Why is it critical NOT to use anthelmintic therapy alone (without glucocorticoids) in *A. cantonensis* meningitis?
+
+為何在廣東住血線蟲腦膜炎中，絕對不能單獨使用驅蟲藥（不併用糖皮質激素）？
+
+
+1. Anthelmintics are ineffective without steroids
+2. Killing parasites can trigger severe inflammatory response
+3. Steroids enhance anthelmintic penetration into CSF
+4. Anthelmintics cause immunosuppression requiring steroid coverage
+5. Parasites develop resistance without concurrent steroid use
+
+
+**Question 9.** Which diagnostic test has the highest sensitivity for confirming *A. cantonensis* infection?
+
+下列何種診斷檢查對於確認廣東住血線蟲感染具有最高敏感度？
+
+
+1. Microscopic examination of CSF for larvae
+2. Peripheral blood eosinophil count
+3. NAAT (nucleic acid amplification testing) of CSF
+4. CT scan of the brain
+5. Stool examination for ova and parasites
+
+
+**Question 10.** In the life cycle of *A. cantonensis*, what happens when the parasite infects humans?
+
+在廣東住血線蟲的生命週期中，當寄生蟲感染人類時會發生什麼？
+
+
+1. Larvae mature to adults in the lungs and produce eggs
+2. Larvae die immediately upon entering the human body
+3. Larvae migrate to the CNS but cannot complete their life cycle
+4. Larvae establish permanent residence in the gastrointestinal tract
+5. Adult worms are found in human pulmonary arteries
+
+
+---
+
+
+### 答案與解析 (Answers and Explanations)
+
+
+**Question 1. Answer: (C)**
+
+**Explanation**: New onset headache with fever in a patient with progressive sensory symptoms and recent travel to an endemic area strongly suggests CNS involvement and should prompt lumbar puncture. The combination of sensory changes, headache, and fever raises concern for meningitis or encephalitis.
+
+**解析**：在有漸進性感覺症狀且最近前往流行區旅行的病人中，新發生的頭痛伴發燒強烈提示中樞神經系統受累，應進行腰椎穿刺。感覺改變、頭痛和發燒的組合引起腦膜炎或腦炎的擔憂。
+
+
+**Question 2. Answer: (C)**
+
+**Explanation**: Eosinophilic meningitis is defined by the presence of at least 10 eosinophils per microliter of CSF OR eosinophils accounting for more than 10
+
+**解析**：嗜酸性球性腦膜炎定義為腦脊髓液中至少有10個嗜酸性球/μL，或嗜酸性球佔腦脊髓液白血球超過10
+
+
+**Question 3. Answer: (C)**
+
+**Explanation**: Microscopic examination of CSF has low sensitivity and specificity for detecting *A. cantonensis*. A negative result does not rule out infection. NAAT should be performed for definitive diagnosis.
+
+**解析**：腦脊髓液顯微鏡檢查對於檢測廣東住血線蟲的敏感度和特異度均低。陰性結果不能排除感染。應進行核酸擴增檢測以確定診斷。
+
+
+**Question 4. Answer: (B)**
+
+**Explanation**: *Angiostrongylus cantonensis* is the most common cause of eosinophilic meningitis worldwide. It is endemic to tropical and subtropical regions including Southeast Asia, Pacific Islands (Hawaii), and has expanding distribution.
+
+**解析**：廣東住血線蟲是全球嗜酸性球性腦膜炎最常見的病因。它流行於熱帶和亞熱帶地區，包括東南亞、太平洋島嶼（夏威夷），且分布範圍正在擴大。
+
+
+**Question 5. Answer: (C)**
+
+**Explanation**: Infection with *A. cantonensis* is acquired through ingestion of contaminated food, including vegetables or fruits contaminated by infected snails, slugs, or their slime. The patient's daily salad consumption in Hawaii is the likely source.
+
+**解析**：廣東住血線蟲感染是通過攝入受污染的食物獲得，包括被受感染的蝸牛、蛞蝓或其黏液污染的蔬菜或水果。病人在夏威夷每天吃沙拉是可能的感染來源。
+
+
+**Question 6. Answer: (C)**
+
+**Explanation**: Gnathostomiasis is characterized by excruciating migratory radicular pain and migratory cutaneous swelling, which are not typical of angiostrongyliasis. Both can cause eosinophilic meningitis, but the clinical presentations differ.
+
+**解析**：顎口線蟲病的特徵是劇烈的遊走性神經根痛和遊走性皮膚腫脹，這些不是廣東住血線蟲感染的典型表現。兩者都可引起嗜酸性球性腦膜炎，但臨床表現不同。
+
+
+**Question 7. Answer: (C)**
+
+**Explanation**: The recommended treatment is glucocorticoids (prednisone) with or without albendazole. Many experts recommend using albendazole in conjunction with glucocorticoids. Option (A) is incorrect because anthelmintics should never be used without concurrent steroids.
+
+**解析**：建議的治療是糖皮質激素（prednisone）併用或不併用albendazole。許多專家建議將albendazole與糖皮質激素合併使用。選項(A)不正確，因為驅蟲藥絕不應在沒有同時使用類固醇的情況下使用。
+
+
+**Question 8. Answer: (B)**
+
+**Explanation**: Killing parasites with anthelmintic therapy can trigger a severe inflammatory response as the immune system reacts to dying parasites. Concurrent glucocorticoid therapy suppresses this inflammatory reaction.
+
+**解析**：使用驅蟲藥殺死寄生蟲會引發嚴重的發炎反應，因為免疫系統對死亡的寄生蟲產生反應。同時使用糖皮質激素治療可抑制這種發炎反應。
+
+
+**Question 9. Answer: (C)**
+
+**Explanation**: NAAT (nucleic acid amplification testing) has the highest sensitivity (>90
+
+**解析**：核酸擴增檢測（NAAT）對於檢測腦脊髓液中的廣東住血線蟲DNA具有最高敏感度（>90
+
+
+**Question 10. Answer: (C)**
+
+**Explanation**: In humans (accidental hosts), *A. cantonensis* larvae migrate to the CNS where they can develop to L4 and L5 stages, but they cannot complete their life cycle. They do not migrate to the lungs or produce eggs. The disease is therefore self-limiting.
+
+**解析**：在人類（偶然宿主）體內，廣東住血線蟲幼蟲遷移至中樞神經系統，可發育至L4和L5階段，但無法完成其生命週期。它們不會遷移至肺部或產卵。因此該疾病具有自限性。

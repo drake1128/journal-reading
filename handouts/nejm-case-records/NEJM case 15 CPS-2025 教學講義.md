@@ -1,0 +1,287 @@
+# Case 15CPS-2025: Case Study
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+
+{**Case 15CPS-2025: Case Study**}
+[0.5cm]
+{**病例 15CPS-2025：胸痛**}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Clinical Problem Solving-2025: A 62-Year-Old Woman with Chest Pain and Antiphospholipid Syndrome》](https://www.nejm.org/doi/full/10.1056/NEJMcps2409294)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名62歲女性因左側胸痛1天至急診就診，疼痛放射至肩膀及背部，伴隨呼吸急促（shortness of breath）、盜汗（diaphoresis）及頭暈（lightheadedness）。患者無吸菸、飲酒或藥物濫用史，無高血壓、高血脂、糖尿病或靜脈血栓栓塞病史，近期無手術或長期臥床。過去病史包括非輸血依賴型α-地中海貧血（hemoglobin H disease）併發後天性血色病（acquired hemochromatosis）、血小板減少症（thrombocytopenia，歸因於先前使用deferiprone，但停藥數月後仍輕度持續）、邊緣性脾腫大（borderline splenomegaly）、偏頭痛（migraines）、暈眩及季節性過敏。10年前完成潛伏性結核病（latent tuberculosis）治療。常用藥物包括amitriptyline、venlafaxine、sumatriptan、omeprazole等。患者自越南移民至美國新英格蘭地區11年，現為退休護理師，家族史顯示母親、哥哥及一名姐姐有心肌梗塞（myocardial infarction）。
+
+
+### 初步檢查
+
+急診檢查顯示體溫36.8°C，血壓129/71 mm Hg，心率87次/分，環境空氣下氧飽和度98
+
+
+患者胸痛需立即考慮心肌缺血、肺栓塞或主動脈剝離等致命病因。ST segment升高及心電圖異常符合急性冠狀動脈症候群（acute coronary syndrome），特別是ST段升高型心肌梗塞（STEMI）。
+
+
+什麼是奔馬律音？
+總和奔馬律（summation gallop）是一種心臟聽診時聽到的異常心音，當心率加快時，第三心音（S3）與第四心音（S4）因時間間隔縮短而融合，形成單一、響亮的額外心音。聲音類似「ta-lub-dub」或「lub-dub-ta」，節律類似馬蹄奔跑。
+
+**形成機制: **
+總和奔馬律通常發生於心動過速（心率>100次/分）患者，因舒張期縮短，S3（舒張早期，與心室快速充填相關）與S4（舒張晚期，與心房收縮及心室僵硬相關）重疊。這種融合心音反映心室充填受限及心臟順應性下降，常見於心臟衰竭（心力衰竭）或心肌病變。
+
+**相關疾病: **
+
+- 急性心臟衰竭：尤其左心室功能不全，伴容量過負荷 (volume overload)。
+- 心肌梗塞：心室順應性下降導致S3與S4同時存在。
+- 高血壓性心臟病：左心室肥厚引起S4，合併心衰時出現S3。
+- 心肌病：如肥厚型或擴張型心肌病。
+
+
+### 住院病程
+
+患者診斷為STEMI，立即給予阿司匹林（aspirin）、肝素（heparin）及高劑量statin藥物。緊急冠狀動脈造影 (emergent coronary angiography)顯示左前降支（left anterior descending artery）100
+
+第3天經食道超音波（TEE）發現二尖瓣前葉0.7 cm × 1.1 cm及後葉0.5 cm × 0.3 cm 贅生物（vegetations），伴輕度二尖瓣逆流，無左心耳血栓。血栓病理分析顯示纖維蛋白血栓，無真菌或細菌。血培養及bartonella、brucella、coxiella血清檢測陰性，排除感染性心內膜炎。
+
+抗磷脂抗體檢測顯示 lupus anticoagulant (狼瘡抗凝因子)陽性，anti-cardiolipin antibody (抗心磷脂抗體) IgG>112 IU/mL、IgM 21 IU/mL，抗β2-糖蛋白I抗體IgG>112 IU/mL、IgM 30 IU/mL，抗核抗體（ANA）1:80（speckled pattern），但anti-dsDNA、anti-Smith及anti-RNP antibodies陰性。住院期間血小板計數92,000-125,000/μL，電腦斷層顯示邊緣性脾腫大，無腫瘤或淋巴結病。診斷為非細菌性血栓性心內膜炎（nonbacterial thrombotic endocarditis, NBTE）併抗磷脂症候群（APS）。開始抗凝血劑（warfarin，目標INR 2.0-3.0），出院3個月後重複抗體檢測仍陽性，確認APS診斷。
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+採用「拼圖啟發法」（jigsaw heuristics）進行診斷推理，分為四階段：
+
+- **拆箱（Unboxing）**：列出臨床問題，包括胸痛、troponin升高、心電圖異常、血小板減少、贅生物。
+- **邊角（Corners and Edges）**：識別時間軸：急性胸痛1天，快速進展至STEMI。
+- **地標（Landmarks）**：聚焦關鍵症候群，如冠狀動脈栓塞、非細菌性血栓性心內膜炎 (non-bacterial thrombotic endocarditis)。
+- **橋接（Bridging）**：整合症候群，尋找統一診斷。
+
+
+### 急性冠狀動脈症候群
+
+胸痛、ST segment升高提示急性冠狀動脈症候群，通常由動脈粥樣硬化斑塊破裂引起。但患者無吸菸、高血壓或糖尿病，LDL正常，HDL偏低（28 mg/dL），冠狀動脈造影顯示正常血管，排除典型動脈粥樣硬化。
+
+
+### 非動脈粥樣硬化性心肌梗塞
+
+冠狀動脈正常提示非動脈粥樣硬化性心肌梗塞（MINOCA），可能原因包括自發性冠狀動脈剝離、冠狀動脈栓塞或非梗阻性心肌梗塞。TEE發現二尖瓣贅生物，高度懷疑冠狀動脈栓塞來自NBTE。
+
+
+### 感染性心內膜炎
+
+Vegetation (贅生物)提示感染性心內膜炎，可能病原包括鏈球菌、葡萄球菌或HACEK菌。但血培養陰性，無發燒、盜汗或牙科操作史，排除感染性心內膜炎。
+
+
+### 抗磷脂症候群
+
+狼瘡抗凝因子及抗磷脂抗體陽性，結合動脈血栓、贅生物及血小板減少，符合APS診斷。ANA弱陽性（1:80）不提示系統性紅斑狼瘡（SLE），因無皮疹、關節炎或腎損傷，且anti-dsDNA等抗體陰性，診斷為原發性APS。
+
+importantbox
+**重要提醒：** 無傳統心血管危險因子的STEMI患者，冠狀動脈造影正常時，需考慮NBTE及APS，進行抗磷脂抗體檢測及TEE檢查。
+importantbox
+
+
+### 統一診斷
+
+胸痛、冠狀動脈栓塞、二尖瓣贅生物及抗磷脂抗體陽性，結合血小板減少及無SLE徵象，診斷為APS相關NBTE導致STEMI。
+
+
+## 診斷檢查
+
+
+### 血清及分子檢測
+
+抗磷脂抗體檢測（狼瘡抗凝因子、抗心磷脂抗體、抗β2-糖蛋白I抗體）陽性，3個月後重複檢測仍陽性，符合APS診斷標準。ANA 1:80（speckled）為非特異性，抗dsDNA、抗Smith及抗RNP陰性，排除SLE。血培養及感染性病原血清檢測陰性，排除感染性心內膜炎。
+
+
+| p{6cm}} 抗磷脂抗體檢測中英對照表 |  |  |
+| --- | --- | --- |
+| **繁體中文名稱** | **英文翻譯** |  |
+| \caption[]{抗磷脂抗體檢測中英對照表（續）} |  |  |
+| **繁體中文名稱** | **英文翻譯** |  |
+| 狼瘡抗凝因子 | Lupus anticoagulant |  |
+| 抗心磷脂抗體 | Anticardiolipin antibodies |  |
+| 抗β2-糖蛋白I抗體 | Anti-β2-glycoprotein I antibodies |  |
+
+
+### 診斷方法
+
+APS診斷依據2023年美國風濕病學會及歐洲風濕病聯盟標準，需滿足臨床（動脈血栓、贅生物、血小板減少）及實驗室（抗磷脂抗體持續陽性）標準。酶聯免疫吸附試驗（ELISA）為標準檢測方法，需間隔12週重複確認。
+
+
+## 感染症管理
+
+
+### 流行病學特徵
+
+APS為系統性自體免疫疾病，盛行率約50/100,000，表現為動脈或靜脈血栓、妊娠併發症或贅生物。原發性APS無其他自體免疫病，次發性APS常見於SLE。本病例為原發性APS。
+
+
+### 臨床特徵
+
+APS可導致冠狀動脈血栓、NBTE或微血管病變。NBTE（又稱Libman-Sacks心內膜炎）為無菌贅生物，常見於二尖瓣，易栓塞。其他相關疾病包括癌症、SLE或敗血症。
+
+
+### 治療策略
+
+APS相關動脈血栓患者推薦使用warfarin（目標INR 2.0-3.0），避免直接口服抗凝劑（如rivaroxaban），因後者 (NOAC) 復發NBTE風險較高。低劑量阿司匹林可用於無症狀抗磷脂抗體攜帶者，需個別化評估。
+
+
+## 住院病程
+
+
+### 病情進展
+
+患者入院後接受血栓抽吸術，恢復冠狀動脈血流，未置放支架。TEE確認NBTE，抗磷脂抗體檢測確診APS。住院期間血小板持續偏低，無其他血栓事件。華法林治療穩定病情，無復發性胸痛。
+
+
+### 結局
+
+患者住院期間無併發症，出院後3個月抗體檢測仍陽性，確認APS診斷。持續華法林治療，定期追蹤心臟功能及抗體滴度，無復發性血栓事件。
+
+
+## 後續追蹤
+
+建議患者定期監測INR及抗磷脂抗體，追蹤心臟功能及血小板計數。避免誘發血栓因素（如長時間不動），與風濕免疫科及心臟內科合作，確保長期管理。
+
+
+## 最終診斷
+
+抗磷脂症候群（antiphospholipid syndrome）相關非細菌性血栓性心內膜炎（nonbacterial thrombotic endocarditis）導致ST段升高型心肌梗塞（STEMI）。
+
+
+## 圖表說明
+
+以下為本病例報告中圖表的英文原文及繁體中文翻譯，以表格形式呈現，供參考。
+
+
+| p{2cm}>{\arraybackslash}p{6cm}>{\arraybackslash}p{6cm}} 圖表說明中英對照表 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **圖表編號** | **英文說明** | **繁體中文翻譯** |  |  |  |
+| \caption[]{圖表說明中英對照表（續）} |  |  |  |  |  |
+| **圖表編號** | **英文說明** | **繁體中文翻譯** |  |  |  |
+| **圖1** | An electrocardiogram showed 1- to 2-mm ST-segment elevations in leads V2, V3, and V4, with T-wave inversions in leads V3 through V4. | 心電圖顯示V2、V3及V4導聯1-2 mm ST段升高，V3至V4導聯T波倒轉。 |  |  |  |
+| **圖2** | Coronary angiograms show complete (100 | 冠狀動脈造影顯示左前降支完全（100 |  |  |  |
+| **圖3** | Transesophageal echocardiography revealed a vegetation on the anterior leaflet of the mitral valve that measured 0.7 cm by 1.1 cm and a vegetation on the posterior leaflet of the mitral valve that measured 0.5 cm by 0.3 cm, with associated mild mitral regurgitation. | 經食道超音波顯示二尖瓣前葉0.7 cm × 1.1 cm及後葉0.5 cm × 0.3 cm贅生物，伴輕度二尖瓣逆流。 |  |  |  |
+| **圖4** | Hematoxylin and eosin staining shows a fibrin clot (Panel A). At higher magnification (Panel B), scattered neutrophils and red cells are seen within the clot. | 蘇木精-伊紅染色顯示纖維蛋白血栓（圖A）。高倍放大（圖B）顯示血栓內散在的中性粒細胞及紅血球。 |  |  |  |
+
+
+---
+
+
+## 考題
+
+
+以下為針對本病例的十道選擇題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者的主要臨床表現不包括：     enumerate[label=\alph*)]
+2. 胸痛 (chest pain)
+3. 呼吸急促 (shortness of breath)
+4. 發燒 (fever)
+5. 頭暈 (lightheadedness)
+
+
+    \item 患者心電圖顯示的關鍵異常是：
+    
+1. V2-V4導聯ST段升高 (ST-segment elevation in V2-V4)
+2. 心房顫動 (atrial fibrillation)
+3. 完全性右束支傳導阻滯 (complete right bundle branch block)
+4. 低電壓波形 (low voltage waveform)
+
+
+    \item 以下哪項特徵最不支持動脈粥樣硬化性STEMI診斷？
+    
+1. 冠狀動脈造影正常 (normal coronary arteries)
+2. troponin升高 (elevated troponin)
+3. ST段升高 (ST-segment elevation)
+4. 家族心肌梗塞史 (family history of myocardial infarction)
+
+
+    \item 非細菌性血栓性心內膜炎的典型併發症包括：
+    
+1. 冠狀動脈栓塞 (coronary embolism)
+2. 腦膜炎 (meningitis)
+3. 肝衰竭 (liver failure)
+4. 骨髓抑制 (bone marrow suppression)
+
+
+    \item 患者STEMI的最可能病因是：
+    
+1. 動脈粥樣硬化斑塊破裂 (atherosclerotic plaque rupture)
+2. 非細菌性血栓性心內膜炎栓塞 (nonbacterial thrombotic endocarditis embolism)
+3. 自發性冠狀動脈剝離 (spontaneous coronary artery dissection)
+4. Sumatriptan誘發血管痙攣 (sumatriptan-induced vasospasm)
+
+
+    \item APS的主要診斷方法是：
+    
+1. 胸部CT
+2. 抗磷脂抗體檢測 (antiphospholipid antibody testing)
+3. 血培養
+4. 心臟核磁共振
+
+
+    \item APS相關動脈血栓的治療措施不包括：
+    
+1. 華法林 (warfarin)
+2. 低劑量阿司匹林 (low-dose aspirin)
+3. 直接口服抗凝劑 (direct oral anticoagulants)
+4. 肝素 (heparin)
+
+
+    \item 患者血小板減少的最可能原因是：
+    
+1. 骨髓增生異常症候群 (myelodysplastic syndrome)
+2. 抗磷脂症候群 (antiphospholipid syndrome)
+3. 感染性心內膜炎 (infective endocarditis)
+4. 肝硬化 (cirrhosis)
+
+
+    \item 患者二尖瓣贅生物的最可能來源是：
+    
+1. 感染性心內膜炎 (infective endocarditis)
+2. 非細菌性血栓性心內膜炎 (nonbacterial thrombotic endocarditis)
+3. 系統性紅斑狼瘡 (systemic lupus erythematosus)
+4. 癌症 (cancer)
+
+
+    \item 本病例最終診斷是：
+    
+1. 感染性心內膜炎 (infective endocarditis)
+2. 動脈粥樣硬化性STEMI (atherosclerotic STEMI)
+3. APS相關NBTE (APS-associated NBTE)
+4. 自發性冠狀動脈剝離 (spontaneous coronary artery dissection)
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：c) 發燒 (fever)**      **詳解：** 患者表現為胸痛、呼吸急促、盜汗及頭暈，無發燒，與感染性心內膜炎不同，提示非感染性病因。
+2. **正確答案：a) V2-V4導聯ST段升高 (ST-segment elevation in V2-V4)**      **詳解：** 心電圖顯示V2-V4導聯1-2 mm ST段升高及T波倒轉，符合STEMI。無心房顫動、右束支傳導阻滯或低電壓波形。
+3. **正確答案：a) 冠狀動脈造影正常 (normal coronary arteries)**      **詳解：** 冠狀動脈造影正常排除動脈粥樣硬化性STEMI。トロポニン升高、ST段升高及家族史為非特異性表現。
+4. **正確答案：a) 冠狀動脈栓塞 (coronary embolism)**      **詳解：** NBTE導致無菌贅生物，易栓塞至冠狀動脈，引起STEMI。腦膜炎、肝衰竭或骨髓抑制非典型併發症。
+5. **正確答案：b) 非細菌性血栓性心內膜炎栓塞 (nonbacterial thrombotic endocarditis embolism)**      **詳解：** 冠狀動脈造影顯示正常血管，TEE發現二尖瓣贅生物，提示NBTE栓塞。動脈粥樣硬化、剝離及sumatriptan誘發痙攣不符合臨床表現。
+6. **正確答案：b) 抗磷脂抗體檢測 (antiphospholipid antibody testing)**      **詳解：** APS診斷依賴抗磷脂抗體（狼瘡抗凝因子、抗心磷脂抗體、抗β2-糖蛋白I抗體）檢測。CT、血培養及核磁共振用於輔助診斷。
+7. **正確答案：c) 直接口服抗凝劑 (direct oral anticoagulants)**      **詳解：** APS動脈血栓治療以華法林為主，低劑量阿司匹林可用於預防，肝素用於急性期。直接口服抗凝劑復發風險較高。
+8. **正確答案：b) 抗磷脂症候群 (antiphospholipid syndrome)**      **詳解：** 血小板減少由APS引起，與抗磷脂抗體相關。骨髓增生異常、感染性心內膜炎及肝硬化不符合臨床表現。
+9. **正確答案：b) 非細菌性血栓性心內膜炎 (nonbacterial thrombotic endocarditis)**      **詳解：** 贅生物由APS相關NBTE引起，血培養陰性排除感染性心內膜炎。SLE及癌症無支持證據。
+10. **正確答案：c) APS相關NBTE (APS-associated NBTE)**      **詳解：** 最終診斷為APS相關NBTE導致STEMI，由抗磷脂抗體檢測及TEE確診。其他選項與臨床及實驗室結果不符。

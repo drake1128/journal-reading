@@ -1,0 +1,1779 @@
+# News Letter TET 2025-10-18
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-10-18**
+
+---
+
+titlepage
+    
+    
+
+    {Taiwan Endovascular Therapy
+}
+
+        
+    {\bfseries News Letter of TET
+}
+    {\bfseries 2025-10-18
+}
+    
+    
+        
+        [Image]
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    {台北中山雅樂軒酒店
+}
+    {記錄: 謝慕揚醫師 (新竹台大分院心臟內科)
+}
+    
+    \vfill
+    
+    
+}
+    
+titlepage
+
+
+\tableofcontents
+
+
+---
+
+
+## 會議資訊
+
+
+### 會議基本資料
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 會議名稱 | Taiwan Endovascular Treatment Club (TET) |  |  |  |  |
+| 日期 | 2024年10月18日 (Saturday) |  |  |  |  |
+| 時間 | 14:00-18:00 |  |  |  |  |
+| 地點 | 台北中山雅樂軒酒店    台北市中山區雙城街10491號 |  |  |  |  |
+| 記錄者 | 謝慕揚醫師, MD, PhD, FESC    新竹臺大醫院心血管中心 |  |  |  |  |
+
+
+### 主持人
+
+
+| p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{7cm}}  **姓名** | **醫院** | **科別** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 黃玄禮醫師 | 台北慈濟醫院 | 心臟內科 |  |  |  |
+| 陳俊吉醫師 | 林口長庚醫院 | 心臟內科 |  |  |  |
+| 李任光醫師 | 臺大醫院 | 心臟內科 |  |  |  |
+|  | 新竹臺大醫院 | 心臟血管內科 |  |  |  |
+
+
+### 討論專家
+
+
+| p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{7cm}}  **姓名** | **醫院** | **科別** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 李信賦醫師 | 新北市立土城醫院 | 心臟內科 |  |  |  |
+| 黃懷緒醫師 | 振興醫院 | 心臟血管外科 |  |  |  |
+| 吳毅暉醫師 | 臺大醫院 | 心臟外科 |  |  |  |
+| 張嘉修醫師 | 國泰醫院 | 心臟內科 |  |  |  |
+| 張偉俊醫師 | 豐原醫院 | 心臟內科 |  |  |  |
+| 林姝含醫師 | 新光醫院 | 心臟內科 |  |  |  |
+| 蔡劭謙醫師 | 聯新國際醫院 | 心臟內科 |  |  |  |
+| 鄭璿醫師 | 臺大醫院 | 心臟外科 |  |  |  |
+| 蔡明龍醫師 | 土城長庚 | 心臟內科 |  |  |  |
+| 王詩榮醫師 | 敏勝綜合醫院 | 心臟內科 |  |  |  |
+
+
+---
+
+
+## 會議議程
+
+
+### 下午場次 (14:00-15:45)
+
+
+| p{2.5cm} >{\arraybackslash}p{6.5cm} >{\arraybackslash}p{5cm}}  **時間** | **主題** | **主持人/講者** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 14:00-14:30 | Reception | All |  |  |  |
+| 14:30-14:35 | Opening | 黃玄禮/陳俊吉/李任光醫師 |  |  |  |
+| 14:35-14:55 | Update DEB data in PAD (SWEDEPAD 1 | 2) | 李任光醫師 |  |  |
+| 14:55-15:00 | Discussion | All |  |  |  |
+| 15:00-15:15 | Debate: limus or (paclitaxel) | 蔡明龍醫師 |  |  |  |
+| 15:15-15:30 | Debate: (limus) or paclitaxel | 鄭璿醫師 |  |  |  |
+| 15:30-15:45 | CLI-C update | 謝慕揚醫師 |  |  |  |
+
+
+### Case Sharing (Complication) (16:00-18:00)
+
+
+| p{2.5cm} >{\arraybackslash}p{6.5cm} >{\arraybackslash}p{5cm}}  **時間** | **主題** | **主持人/講者** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 16:00-16:15 | #1: BTK CTO Treated by OSCAR | 張偉俊醫師 |  |  |  |
+| 16:15-16:25 | Discussion | All |  |  |  |
+| 16:25-16:40 | #2: A case of CFA rotatripsy | 林姝含醫師 |  |  |  |
+| 16:40-16:50 | Discussion | All |  |  |  |
+| 16:50-17:05 | #3: BTK CTO with balloon uncrossable lesion | 蔡劭謙醫師 |  |  |  |
+| 17:05-17:15 | Discussion | All |  |  |  |
+| 17:15-17:30 | Treating iliac lesion via radial approach | 王詩榮醫師 |  |  |  |
+| 17:30-17:40 | Discussion | All |  |  |  |
+| 17:40-18:00 | Closing | 黃玄禮/陳俊吉/李任光醫師 |  |  |  |
+
+
+---
+
+
+## Knowledge and Debate
+
+
+本次會議重點:  
+
+1. 更新 Drug-Eluting Balloon (DEB) 在 PAD 治療的最新數據  
+
+2. 討論 limus 與 paclitaxel DEB 的臨床應用  
+
+3. 分享 CLI-C 最新進展  
+
+4. 病例討論: Below-The-Knee (BTK) CTO 處置  
+
+5. Radial approach 於 iliac lesion 治療的應用
+
+
+### Update DEB data in PAD (李任光醫師)
+
+
+#### SWEDEPAD 1 & 2 研究
+
+
+本場次由台大醫院李任光醫師介紹最新的 DEB 在 PAD 治療的數據更新。
+
+
+### Evidence: Limus vs Paclitaxel DEB (鄭璿醫師)
+
+
+#### 生物學機轉優勢
+
+
+Sirolimus 相較於 Paclitaxel 在生物學機轉上具有以下優勢:
+
+
+| |p{0.3\textwidth}|p{0.3\textwidth}|} Sirolimus 與 Paclitaxel 的生物學特性比較 |
+| --- |
+| **特性** |
+| 平滑肌細胞增生抑制 |
+| 平滑肌細胞遷移抑制 |
+| 內皮細胞增生抑制 |
+| 免疫抑制特性 |
+| 促凋亡效應 |
+| 治療範圍 |
+| 血管壁分布 |
+| 再狹窄型態 |
+| 晚期支架內管腔喪失影響 |
+| 作用機轉 |
+
+
+**重點摘要:**
+
+- Sirolimus 在抑制平滑肌細胞遷移方面更有效
+- Sirolimus 具有抗發炎特性
+- Sirolimus 為 cytostatic 而非 cytotoxic
+
+
+參考文獻: Wessely et al. JACC 2006;47(4):708-14
+
+
+#### 冠狀動脈循環的臨床證據
+
+
+| |p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.2\textwidth}|} 冠狀動脈循環中 Sirolimus 與 Paclitaxel 的療效比較 |
+| --- |
+| **終點指標** |
+| 血管攝影再狹窄 |
+| 標靶病灶再血管化 |
+| 支架血栓形成 |
+
+
+**結論:** 在冠狀動脈循環中,Sirolimus 塗層支架的療效優於 Paclitaxel (N = 3669)
+
+參考文獻: Kastrati et al JAMA. 2005;294(7):819-825
+
+
+#### 淺股動脈 (SFA) 的臨床證據
+
+
+單臂試驗結果
+
+
+| |p{0.12\textwidth}|p{0.08\textwidth}|p{0.1\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|} Sirolimus 塗層球囊在 SFA 的單臂試驗 |
+| --- |
+| **PI** |
+| Thomas Zeller |
+| Edward Choke |
+| Osamu Iida |
+| Michael Lichtenberg |
+| Andrew Holden |
+
+
+XTOSI 試驗結果 (2021)
+
+
+| |p{0.25\textwidth}|p{0.25\textwidth}|} XTOSI 試驗 - MagicTouch PTA 在股膕動脈的結果 (N=20) |
+| --- |
+| **指標** |
+| 主要通暢率 |
+| 免於 CD-TLR |
+| 免於截肢存活 |
+| 全因死亡率 |
+| 肢體挽救成功率 |
+
+
+參考文獻: Choke E, et al. J Endovasc Ther. 2022 Oct;29(5):780-789
+
+6 個月主要通暢率比較
+
+
+| |p{0.25\textwidth}|p{0.25\textwidth}|} 不同藥物塗層球囊在股膕動脈的 6 個月主要通暢率比較 |
+| --- |
+| **試驗/藥物** |
+| XTOSI (Sirolimus) |
+| RANGER SFA (Paclitaxel) |
+| LEVANT 2 (Paclitaxel) |
+
+
+*註: 不同研究間的比較僅供參考*
+
+SELUTION SFA Japan 試驗 - 12 個月結果
+
+**研究特性:**
+
+- 收案人數: N = 134
+- 平均病灶長度: 127 ± 60 mm
+- 嚴重鈣化: 27
+- 涉及膕動脈: 48
+- 慢性完全閉塞: 17
+- 糖尿病患者: 60.3
+
+
+**12 個月結果:**
+
+- 主要通暢率: 87.9
+- 免於臨床驅動 TLR: 97.0
+- 重大不良事件率: 6.7
+
+
+參考文獻: Iida O, et al. JACC Cardiovasc Interv. 2024;7(13):1547-1556
+
+SELUTION SFA Japan 試驗 - 24 個月長期追蹤
+
+發表於 Japan Endovascular Treatment Conference (JET) 2024:
+
+
+- 24 個月主要通暢率: 83.0
+- 24 個月免於 CD-TLR: 94.5
+- 研究人口包含高比例複雜病患:   itemize
+- 糖尿病患者 60.3
+- 平均病灶長度 127 mm
+- 完全閉塞 17.2
+- 膕動脈參與 47.8
+
+
+\item 結論: SELUTION SLR™ DEB 的療效可持續至 24 個月,在複雜病患群體中可匹敵已驗證的 paclitaxel DCB 表現
+itemize
+
+SUCCESS PTA 登錄研究
+
+**研究設計:**
+
+- 前瞻性觀察性登錄研究
+- 評估 SELUTION SLR™ 在 723 位病患
+- 橫跨歐洲、亞洲和南美洲 27 個中心
+- 反映真實世界臨床實踐
+- 74.2
+
+
+| |p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|} SUCCESS PTA 研究基線特性 |
+| --- |
+| **特性** |
+| 人數 |
+| 年齡 (歲) |
+| 男性 |
+| 糖尿病 |
+| Rutherford 分類 4 |
+| Rutherford 分類 5 |
+| Rutherford 分類 6 |
+
+
+| |p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|} SUCCESS PTA 研究病灶特性 |
+| --- |
+| **特性** |
+| 參考血管直徑 (mm) |
+| 病灶長度 (mm) |
+| 完全閉塞 |
+| 鈣化等級 3 |
+| 鈣化等級 4 |
+| 暫時性支架置放 |
+| 最終殘餘狹窄 ( |
+
+
+**12 個月臨床結果:**
+
+
+| |p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|} SUCCESS PTA 12 個月臨床結果 |
+| --- |
+| **臨床結果** |
+| 死亡 |
+| 重大心臟事件 |
+| CD-TLR |
+| 血栓形成 |
+| 標靶肢體截肢 |
+| MALE* |
+
+
+**免於 CD-TLR 的 Kaplan-Meier 曲線分析 (365 天):**
+
+- 全體: 91.1
+- 跛行組: 91.3
+- CLTI 組: 90.3
+
+
+發表於: Charing Cross Symposium 2025
+
+SUCCESS PTA 與其他登錄研究的 12 個月比較
+
+
+| |p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|} 不同登錄研究的 12 個月免於 CD-TLR 比較 |
+| --- |
+| **研究** |
+| SUCCESS PTA |
+| IN.PACT Global Registry |
+| Ranger Registry |
+| Biolux PIII Registry |
+
+
+隨機對照試驗
+
+
+| |p{0.1\textwidth}|p{0.1\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.1\textwidth}|p{0.15\textwidth}|} Sirolimus 塗層球囊在 SFA 的進行中隨機對照試驗 |
+| --- |
+| **試驗** |
+| SIRONA |
+| MAGICAL SFA IDE |
+| FUTURE SFA |
+| SELUTION4SFA |
+
+
+SIRONA 隨機對照試驗結果 (2024)
+
+**研究設計:**
+
+- 頭對頭比較 sirolimus 與 paclitaxel 塗層球囊
+- 股膕動脈血管成形術
+- 隨機對照試驗
+
+
+**主要結果:**
+
+
+| |p{0.25\textwidth}|p{0.3\textwidth}|} SIRONA 試驗 12 個月結果 |
+| --- |
+| **指標** |
+| **主要療效終點 - 主要通暢率** |
+| Sirolimus DCB |
+| Paclitaxel DCB |
+| 差異 |
+| **複合安全性結果** |
+| Sirolimus DCB |
+| Paclitaxel DCB |
+| 組間差異 |
+| **12 個月免於 cdTLR** |
+| Sirolimus DCB |
+| Paclitaxel DCB |
+| **功能性結果改善** |
+| Sirolimus DCB |
+| Paclitaxel DCB |
+| 組間差異 (95 |
+
+
+**結論:**
+
+- Sirolimus-DCB 在 12 個月主要通暢率方面非劣於 paclitaxel-DCB (73.8
+- 複合安全性結果相當 (9.4
+- 功能性結果改善 ≥ 1 個 Rutherford 分級: Sirolimus DCB 88.9
+
+
+發表於: Transcatheter Cardiovascular Therapeutics® (TCT®) conference 2024
+
+參考文獻: Teichgräber et al. Trials 2021;22:665
+
+
+#### SWEDEPAD 研究 - Paclitaxel 的負面消息
+
+
+2025 年 8 月 31 日發表的 SWEDEPAD 1 和 2 研究顯示 Paclitaxel 塗層球囊的負面結果:
+
+**SWEDEPAD 1 (CLTI, N = 2355) 和 SWEDEPAD 2 (跛行, N = 1155):**
+
+
+1. 在 CLTI 患者中未能降低肢體截肢率
+2. 未能改善跛行患者的疾病特定生活品質
+3. 在 CLTI 中減少首年標靶血管再介入,但在跛行患者中無此效果
+4. **在跛行患者中增加 5 年死亡率**
+
+
+**SWEDEPAD 2 (跛行) 結論:**
+
+"In patients with Rutherford stage 1–3 peripheral artery disease undergoing infrainguinal endovascular revascularisation, paclitaxel-coated devices did not improve disease-specific quality of life at 1 year compared with uncoated devices. All-cause mortality was not different over the total follow-up time, but significantly higher over 5 years. These findings do not support routine use of paclitaxel-coated devices in this patient population."
+
+**研究建議:**
+
+"Devices incorporating antiproliferative agents other than paclitaxel warrant further investigation in PAD."
+
+參考文獻: ACC News Story, Aug 31, 2025
+
+
+#### 膝下動脈 (BTK) 的臨床證據
+
+
+Paclitaxel 在 BTK 的負面證據
+
+**INPACT DEEP RCT (2014) - Paclitaxel vs POBA in BTK:**
+
+
+| |p{0.25\textwidth}|p{0.25\textwidth}|} INPACT DEEP 試驗 12 個月療效終點 |
+| --- |
+| **終點指標** |
+| 晚期管腔喪失 (mm) |
+| 二元再狹窄 |
+| 閉塞率 |
+| 縱向再狹窄 |
+| 臨床驅動 TLR (AFS 受試者) |
+| 臨床驅動 TLR (全 ITT 受試者) |
+
+
+**重要發現:**
+
+- PCB 與 POBA 之間在療效終點上**無顯著差異**
+- 12 個月截肢率在 PCB 組反而**較高**: PCB n=20 (8.8
+- 導致 Medtronic 召回 In.Pact Amphirion DEB (2013年12月3日)
+
+
+Sirolimus 在 BTK 的現況
+
+目前對於新型 sirolimus 塗層球囊技術在 BTK 的了解:
+
+- 早期數據
+- 小型單臂登錄研究
+- 結果有前景(優於 POBA)
+- 尚無隨機對照試驗數據
+
+
+XTOSI 試驗 - BTK 結果 (2021)
+
+MagicTouch sirolimus 塗層球囊的關鍵結果:
+
+
+| |p{0.25\textwidth}|p{0.25\textwidth}|} XTOSI 試驗膝下動脈結果 (N=30) |
+| --- |
+| **指標** |
+| 主要通暢率 |
+| 免於 CD-TLR |
+| 免於截肢存活 |
+| 全因死亡率 |
+| 肢體挽救成功率 |
+
+
+**關鍵結果摘要:**
+
+- 有前景的 6 個月主要通暢率: 74
+- 低再介入需求: 12 個月免於 TLR 86
+- 優異的 12 個月肢體挽救成功率: 92
+
+
+膝下動脈 6 個月主要通暢率比較
+
+
+| |p{0.4\textwidth}|} 不同藥物塗層球囊在膝下動脈的 6 個月主要通暢率比較 |
+| --- |
+| **試驗/藥物** |
+| XTOSI (Sirolimus) |
+| SINGAPACLI (Paclitaxel) |
+
+
+*註: 不同研究間的比較僅供參考*
+
+HOPE 登錄研究 - BTK 亞組 3 年結果
+
+**研究設計:**
+
+- 倫理委員會核准: CIRB Ref: 2019/2637
+- 前瞻性登錄研究,收錄所有下肢血管成形術(2018年8月至2021年10月)
+- 單中心: 新加坡盛港綜合醫院
+- MagicTouch Sirolimus 塗層球囊 vs POBA
+
+
+**納入標準:**
+
+1. CLTI 患者 Rutherford 4 至 6
+2. 原發病灶
+
+
+**排除標準:**
+
+1. 接受 paclitaxel 裝置、血栓溶解或動脈粥樣硬化切除裝置
+
+
+**BTK 亞組:**
+
+- POBA = 185 人
+- SCB (MagicTouch) = 133 人
+
+
+**3 年臨床結果:**
+
+
+| |p{0.25\textwidth}|p{0.25\textwidth}|} HOPE Registry BTK 亞組 3 年結果比較 |
+| --- |
+| **結果指標** |
+| **1. 標靶病灶再血管化** |
+| 3 年免於 TLR |
+| HR (95 |
+| P 值 |
+| 重要發現 |
+| **2. 重大截肢** |
+| 3 年免於重大截肢 |
+| HR (95 |
+| P 值 |
+| **3. 存活率** |
+| 3 年存活率 |
+| HR (95 |
+| P 值 |
+| **4. 免於截肢存活** |
+| 3 年 AFS |
+| HR (95 |
+| P 值 |
+
+
+**重要結論:**
+
+- 在 3 年時,Sirolimus 塗層球囊與**較低的 BTK 再介入率相關** (p=0.033)
+- 重大截肢在 POBA 與 Sirolimus 塗層球囊之間無顯著差異 (p=0.32)
+- Sirolimus 塗層球囊與**較佳存活率相關** (p=0.049)
+- Sirolimus 塗層球囊與**較佳免於截肢存活率相關** (p=0.014)
+
+
+| |p{0.15\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|p{0.12\textwidth}|p{0.15\textwidth}|p{0.1\textwidth}|p{0.12\textwidth}|} |
+| --- |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+
+
+#### 血管社群對 Sirolimus 的接受度
+
+
+| |p{0.6\textwidth}|} 國際會議投票調查結果 |
+| --- |
+| **會議/年份** |
+| CX 2021 |
+| CX 2023 |
+
+
+#### Paclitaxel 的副作用 - 慢血流現象
+
+
+**研究發現:**
+
+根據 Shirai S et al. (Heart Vessels. 2021 Dec;36(12):1818-1824) 的研究:
+
+
+- Paclitaxel 塗層球囊血管成形術後慢血流現象的發生率為 **8
+- 研究收錄 88 個股膕動脈病灶接受 DCB 治療
+- 觀察到 7 例(8.0
+
+
+#### 目前角色與未來展望
+
+
+淺股動脈 (SFA)
+
+
+- SCB 在 1 年主要通暢率方面與 PCB 一樣有效 (SIRONA 試驗)
+- SIRONA 試驗 2 年數據將於 2025 年 10 月 TCT 會議發表
+- SWEDEPAD 2 研究顯示 PCB 在跛行患者增加 5 年死亡率
+
+
+膝下動脈 (BTK)
+
+
+- PCB 無效,POBA 仍為黃金標準
+- SCB 的單臂研究數據有前景
+- 等待隨機對照試驗數據確認 SCB 是否優於 POBA
+
+
+#### 總結
+
+
+1. **生物學優勢:** Sirolimus 相較於 Paclitaxel 具有更好的平滑肌細胞遷移抑制能力、抗發炎特性,且為 cytostatic 而非 cytotoxic
+2. **SFA 應用:**  - SIRONA RCT 證實 SCB 非劣於 PCB - 長期追蹤顯示療效可持續至 24 個月 - SUCCESS PTA 登錄研究顯示在真實世界複雜病患中的良好表現 - SWEDEPAD 2 警示 PCB 在跛行患者可能增加長期死亡率
+3. **BTK 應用:**  - INPACT DEEP 證實 PCB 在 BTK 無效且可能有害 - 早期單臂研究(XTOSI)顯示 SCB 有前景 - HOPE Registry 3 年數據顯示 SCB 改善 TLR、存活率和 AFS - 多項大型 RCT 進行中(SIRPAD, FUTURE BTK, MAGICAL BTK 等)
+4. **安全性考量:**  - PCB 有 8 - SCB 安全性良好
+5. **臨床接受度:** 血管介入社群逐漸認同 sirolimus 的優勢(CX 會議投票 54-56
+
+
+### Debate: Limus vs Paclitaxel DEB
+
+
+#### 立場一: Limus DEB (鄭璿醫師)
+
+
+台大醫院鄭璿醫師分享使用 limus-based DEB的資料。
+
+
+#### 立場二: Paclitaxel DEB (蔡明龍醫師)
+
+
+土城長庚蔡明龍醫師分享使用 paclitaxel-based DEB的資料。
+
+
+## CLIC 2025 會議心得
+
+
+| p{0.65\textwidth}} CLIC 2025 會議基本資訊 |
+| --- |
+| **項目** |
+| 會議全名 |
+| 時間 |
+| 地點 |
+| 報告人 |
+| 主辦單位 |
+| 創辦年份 |
+| 會議特色 |
+
+
+### 參訪行程與學習重點
+
+
+| p{0.8\textwidth}} CLIC 2025 參訪行程 |
+| --- |
+| **日期** |
+| 2025-03-31 |
+|  |
+|  |
+|  |
+| 2025-04-01 |
+|  |
+|  |
+|  |
+| 2025-04-02 |
+|  |
+|  |
+|  |
+
+
+### Dr. Marco的導絲控制技術(Wire Control Technique)
+
+
+| p{0.65\textwidth}} 導絲控制技術要點 |
+| --- |
+| **技術類型** |
+| Looping技術 |
+|  |
+|  |
+| Berenstein Catheter應用 |
+|  |
+|  |
+| CART與Reverse CART |
+|  |
+|  |
+| 驚豔的絕招 |
+|  |
+|  |
+|  |
+
+
+figure
+    
+    [Image]
+    當兩個方向導絲無法會合時, 兩邊都換成小號 snare，使用穿刺鋼針在透視下同時刺進兩個 snare 套環，逐步完成 wire externalization。
+
+
+### 區域麻醉(Regional Anesthesia)在糖尿病足手術的應用
+
+
+| p{0.65\textwidth}} 周邊神經阻斷術(Peripheral Nerve Block)優勢與應用 |
+| --- |
+| **類別** |
+| 選擇PNB (peripheral nerve block)的原因 |
+|  |
+|  |
+|  |
+| 常用Nerve Block選項 |
+|  |
+|  |
+|  |
+| 臨床證據 |
+|  |
+|  |
+|  |
+| CLIC會議中的應用 |
+|  |
+|  |
+|  |
+| 特殊注意事項 |
+|  |
+|  |
+
+
+### Ketofol配製與使用
+
+
+| p{0.65\textwidth}} Ketofol在膝上血管重建術中的應用 |
+| --- |
+| **項目** |
+| Ketofol配方 |
+| (Above the Knee) |
+| Ketofol優勢 |
+|  |
+|  |
+|  |
+| Below the Knee使用時機 |
+|  |
+| 注意事項 |
+|  |
+|  |
+
+
+### Below-the-Ankle Puncture:三個Zone的分類
+
+
+    
+    [Image]
+
+
+| p{0.35\textwidth}p{0.4\textwidth}} BTA血管穿刺難度分級 |
+| --- |
+| **Zone** |
+| Zone 1 |
+|  |
+|  |
+| Zone 2 |
+|  |
+| Zone 3 |
+|  |
+|  |
+
+
+### Telescoping Needle Technique
+
+
+| p{0.7\textwidth}} 套筒式穿刺針技術 |
+| --- |
+| **項目** |
+| 技術原理 |
+|  |
+|  |
+| 適用時機 |
+|  |
+|  |
+|  |
+
+
+### Retrograde Puncture進階技巧
+
+
+| p{0.65\textwidth}} 逆行穿刺技術要點 |
+| --- |
+| **技術類型** |
+| Dr. Bruno在Hybrid OR的操作 |
+|  |
+|  |
+|  |
+| Medial Plantar Artery Puncture |
+|  |
+|  |
+| Trans-plantar Retrograde Access |
+|  |
+| Anterolateral Popliteal Puncture |
+|  |
+|  |
+| Direct Puncture of Occluded Artery |
+|  |
+
+
+### Retrograde Access的止血策略
+
+
+| p{0.3\textwidth}p{0.35\textwidth}} 逆行穿刺止血方法比較 |
+| --- |
+| **方法** |
+| Balloon Inflation |
+|  |
+|  |
+| Balloon + TBP |
+|  |
+| External Manual Compression |
+|  |
+| Closure Device Deployment |
+
+
+### Pedal Loop Tracking技術
+
+
+| p{0.65\textwidth}} 從PTA到Dorsalis Pedis Artery的策略 |
+| --- |
+| **項目** |
+| 目標 |
+|  |
+|  |
+|  |
+| 起始導絲 |
+|  |
+|  |
+| 進階導絲 |
+|  |
+|  |
+| Support Catheter |
+|  |
+|  |
+|  |
+
+
+### Scoring Balloon使用技巧
+
+
+| p{0.65\textwidth}} 刻痕球囊使用原則 |
+| --- |
+| **項目** |
+| Scoring Balloon優勢 |
+|  |
+|  |
+| Inflate slowly |
+| Use larger balloon with low pressure |
+|  |
+|  |
+| Progressive dilation |
+|  |
+|  |
+
+
+### 血管評估:IVUS的應用
+
+
+| p{0.6\textwidth}} IVUS在BTK血管評估中的應用 |
+| --- |
+| **項目** |
+| BTK Vessel Size by IVUS |
+|  |
+| Tibio-peroneal trunk (TPT) |
+| Anterior tibial artery (ATA) |
+| Dorsalis pedis artery (DPA) |
+| Posterior tibial artery (PTA) |
+| Peroneal artery (PA) |
+| IVUS指引下的器材選擇 |
+|  |
+|  |
+|  |
+
+
+### STRIDE Trial的臨床意義
+
+
+| p{0.65\textwidth}} Semaglutide在周邊動脈疾病的應用 |
+| --- |
+| **項目** |
+| Marc Bonaca, MD的評論 |
+| Joshua Beckman, MD的評論 |
+| STRIDE為何如此重要 |
+|  |
+| Semaglutide達成的療效 |
+|  |
+|  |
+| 作用機制 |
+|  |
+|  |
+
+
+### 如何在臨床應用STRIDE結果
+
+
+| p{0.65\textwidth}} Semaglutide臨床應用建議 |
+| --- |
+| **項目** |
+| 治療優先順序建議 |
+|  |
+|  |
+|  |
+| 未來研究方向 |
+|  |
+|  |
+|  |
+|  |
+| 健保給付考量 |
+|  |
+
+
+### CLIC 2025重點技術總結
+
+
+| p{0.7\textwidth}} 會議核心技術要點(1/2) |
+| --- |
+| **技術類別** |
+| 麻醉技術進展 |
+|  |
+|  |
+|  |
+| Below-the-Ankle Puncture |
+|  |
+|  |
+|  |
+| Retrograde Access策略 |
+|  |
+|  |
+
+
+| p{0.7\textwidth}} 會議核心技術要點(2/2) |
+| --- |
+| **技術類別** |
+| 導絲控制技術 |
+|  |
+|  |
+|  |
+| 器材選擇與使用 |
+|  |
+|  |
+| 評估系統 |
+|  |
+|  |
+
+
+### 個人學習心得與反思
+
+
+| p{0.7\textwidth}} CLIC 2025學習心得 |
+| --- |
+| **項目** |
+| 會議特色 |
+|  |
+|  |
+|  |
+| 最深刻的技術印象 |
+|  |
+|  |
+|  |
+| 可以帶回台灣的技術 |
+|  |
+|  |
+|  |
+
+
+### 參考文獻
+
+
+| p{0.7\textwidth}} 主要參考文獻 |
+| --- |
+| **主題** |
+| STRIDE Trial |
+| Below-the-Ankle Puncture |
+| Medial Plantar Artery Puncture |
+| Anterolateral Popliteal Access |
+| Regional Anesthesia |
+| Profunda Femoral Artery Puncture |
+| Direct Puncture of Occluded Artery |
+| Single Primary Retrograde Access |
+| BTK Endovascular Revascularization |
+| Critical Limb Ischemia Review |
+| CLIC Courses資訊 |
+|  |
+
+
+### CLI-C Update (謝慕揚醫師)
+
+
+---
+
+
+### Case Sharing: BTK CTO Treated by OSCAR (張偉俊醫師)
+
+
+## Case presentation and discussion
+
+
+### BTK Calcified CTO Treated by Piercing Technique and 4F Oscar (張偉俊醫師)
+
+
+豐原醫院張偉俊醫師分享了一例使用 Piercing Technique 配合 4F Oscar multifunctional catheter 成功處理 balloon uncrossable BTK calcified CTO 的病例。
+
+
+#### 病例資訊
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 年齡/性別 | 74 歲男性 |  |  |  |  |
+| 過去病史 | ESRD (End-Stage Renal Disease) |  |  |  |  |
+| 過去介入治療 | Right SFA calcified CTO s/p POBA 一週前 |  |  |  |  |
+| 臨床表現 | 右足傷口未癒合 |  |  |  |  |
+| Guiding sheath | 5F Fortress long sheath |  |  |  |  |
+| Access approach | Ipsilateral antegrade approach |  |  |  |  |
+
+
+    
+    [Image]
+    右足傷口未癒合
+
+
+#### 介入治療策略與技術
+
+
+張醫師採用了創新的組合技術來處理這個極具挑戰性的病例。
+
+治療流程
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **步驟** | **處置內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Ipsilateral antegrade approach with 5F Fortress long sheath |  |  |  |  |
+| 2 | Antegrade wire attempt: 使用 Astato 820 guidewire 嘗試通過病灶 |  |  |  |  |
+| 3 | Wire 無法順利通過嚴重鈣化的 BTK CTO |  |  |  |  |
+| 4 | 採用 retrograde wire as landmarking (逆行導線作為定位標記) |  |  |  |  |
+| 5 | 使用 OSCAR dilator 提供良好的支撐 (good support) |  |  |  |  |
+| 6 | Piercing Technique: 21G → 18G needle 直接穿刺鈣化斑塊 |  |  |  |  |
+| 7 | 利用 4F Oscar multifunctional catheter 調整 balloon catheter 長度 (2.0mm-18cm) |  |  |  |  |
+| 8 | Balloon angioplasty 成功打開病灶 |  |  |  |  |
+| 9 | Covered stent (Graft stent) 置放 |  |  |  |  |
+| 10 | Final angiography 顯示良好的血流恢復 |  |  |  |  |
+
+
+    
+    [Image]
+    BTK lesion very calcified, with poor visualization. 
+
+
+#### 關鍵技術說明
+
+
+Piercing Technique 應用
+
+張醫師展示了 Piercing Technique 的階段性應用:
+
+
+| p{14cm}}  **Piercing Technique 步驟** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 步驟 1: 使用逆行導線 (retrograde wire) 作為定位標記 (landmarking) |  |  |  |  |  |
+| 步驟 2: 先使用較細的 21G needle 嘗試穿刺鈣化斑塊 |  |  |  |  |  |
+| 步驟 3: 若 21G needle 成功，再升級為 18G needle 擴大穿刺通道 |  |  |  |  |  |
+| 步驟 4: 透過穿刺通道將導線送入遠端 true lumen |  |  |  |  |  |
+| 步驟 5: 使用 balloon 進行擴張 |  |  |  |  |  |
+
+
+    
+    [Image]
+    PIERCE
+
+
+4F Oscar Multifunctional Catheter 特點
+
+Oscar 是一種創新的多功能周邊血管導管，具有以下特點:
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **特點** | **說明** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 設計理念 | One Solution: Cross. Adjust. Restore. |  |  |  |  |
+| Cross 功能 | 協助通過困難病灶，提供良好的導線支撐 |  |  |  |  |
+| Adjust 功能 | 可調整 balloon catheter 長度 (2.0mm-18cm)    避免 balloon 過長造成操作困難 |  |  |  |  |
+| Restore 功能 | 協助恢復血流，可作為 dilator 使用 |  |  |  |  |
+| OSCAR dilator | 提供極佳的支撐力 (good support)    有助於後續器材的輸送 |  |  |  |  |
+| 低輪廓特性 | 4F 系統，穿刺部位較小 |  |  |  |  |
+
+
+#### 技術優勢與臨床意義
+
+
+Retrograde Wire as Landmarking 的重要性
+
+
+| p{14cm}}  **Landmarking 的臨床價值** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 提供遠端血管的精確定位，確保穿刺方向正確 |  |  |  |  |  |
+| 在嚴重鈣化病灶中，有助於辨識 true lumen 的位置 |  |  |  |  |  |
+| 降低穿刺時誤入 subintimal space 或造成血管破裂的風險 |  |  |  |  |  |
+| 提供即時的視覺參考，增加穿刺成功率 |  |  |  |  |  |
+| 特別適用於 balloon uncrossable 且無法使用傳統 re-entry device 的情況 |  |  |  |  |  |
+
+
+4F Oscar 在此病例中的角色
+
+
+| p{14cm}}  **Oscar Catheter 的關鍵貢獻** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 提供強大的 backup support，有助於導線通過困難病灶 |  |  |  |  |  |
+| 可調整的 balloon length (2.0mm-18cm)，避免 balloon 過長影響操作 |  |  |  |  |  |
+| 在 BTK 這種小血管中，4F 低輪廓設計特別重要 |  |  |  |  |  |
+| 結合 dilator 功能，可在穿刺後協助擴張通道 |  |  |  |  |  |
+| 多功能設計減少器材更換次數，縮短手術時間 |  |  |  |  |  |
+
+
+#### Low-Profile PTA 的臨床優勢
+
+
+張醫師在 Take Home Messages 中強調了 low-profile PTA (4F system) 的多項優勢:
+
+
+| p{14cm}}  **Low-Profile PTA 的優勢** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **適用範圍**: Low-profile PTA can treat most non-complex PAD |  |  |  |  |  |
+| **安全性**: Lower access complication rate - safety is important |  |  |  |  |  |
+| **病人舒適度**: Shorter hemostasis time and better comfort for patients |  |  |  |  |  |
+| **穿刺部位**: 45 |  |  |  |  |  |
+| **止血裝置**: No need for a closure device |  |  |  |  |  |
+| **創新器材**: Oscar - new multifunctional catheter 提供多種功能 |  |  |  |  |  |
+| **ESRD 病人**: 特別適合腎功能不良的病人，減少穿刺部位併發症 |  |  |  |  |  |
+| **BTK 介入**: 在 below-the-knee 介入中，小管徑系統更易操作 |  |  |  |  |  |
+
+
+#### 病例總結
+
+
+成功關鍵因素
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **因素** | **說明** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 策略規劃 | 當 antegrade wire 失敗後，立即採用 landmarking strategy |  |  |  |  |
+| 技術組合 | 結合 retrograde wire、piercing technique 和 Oscar catheter 的優勢 |  |  |  |  |
+| 器材選擇 | 4F Oscar multifunctional catheter 提供多功能支援 |  |  |  |  |
+| 階段性處理 | 21G → 18G needle 的階段性擴張策略 |  |  |  |  |
+| 最終處置 | Covered stent 確保長期通暢性 |  |  |  |  |
+
+
+與傳統方法的比較
+
+
+| p{4cm} >{\arraybackslash}p{5cm} >{\arraybackslash}p{5cm}}  **比較項目** | **傳統方法** | **張醫師策略** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 穿刺定位 | 依靠影像判斷 | Retrograde wire landmarking |  |  |  |
+| 器材系統 | 6F 或更大 | 4F low-profile system |  |  |  |
+| 支撐設備 | 傳統 microcatheter | Oscar multifunctional catheter |  |  |  |
+| Balloon 調整 | 固定長度 | 可調整長度 (2.0mm-18cm) |  |  |  |
+| 穿刺部位 | 較大 (6F) | 45 |  |  |  |
+| 止血時間 | 較長 | 較短 |  |  |  |
+
+
+#### 討論
+
+
+張偉俊醫師的病例展示了幾個重要的創新概念:
+
+Low-Profile System 的價值
+
+在 ESRD 病人中使用 4F system 具有多重優勢。這類病人通常有凝血功能異常、血管鈣化嚴重，較小的穿刺部位可顯著降低出血併發症風險。同時，在 BTK 這種小血管介入中，低輪廓系統更容易操作且較不易造成血管損傷。
+
+Landmarking Strategy
+
+使用 retrograde wire 作為定位標記是一個聰明的策略。在嚴重鈣化的 CTO 中，特別是當 antegrade approach 失敗時，retrograde wire 可以精確標示出遠端 true lumen 的位置，大幅提高 piercing technique 的成功率和安全性。這個概念類似於 coronary CTO 介入中的 "marker wire" 技術。
+
+Piercing Technique 的演進
+
+張醫師採用 21G → 18G needle 的階段性策略，這是一個重要的技術細節。先用較細的 21G needle 確認穿刺路徑正確後，再使用 18G needle 擴大通道，這種漸進式方法比直接使用粗針更安全。
+
+Oscar Catheter 的多功能價值
+
+Oscar catheter 的 "Cross. Adjust. Restore." 設計理念在此病例中得到充分體現:
+
+
+- **Cross**: 提供良好的 backup support，協助通過困難病灶
+- **Adjust**: 可調整 balloon 長度，避免在 BTK 這種小血管中使用過長的 balloon
+- **Restore**: 作為 dilator 使用，協助擴張穿刺通道並恢復血流
+
+
+臨床啟示
+
+
+| p{14cm}}  **臨床學習重點** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 在 ESRD 病人的 BTK 介入中，應優先考慮 low-profile system (4F) |  |  |  |  |  |
+| Retrograde wire landmarking 是 piercing technique 成功的關鍵 |  |  |  |  |  |
+| 階段性的 needle size escalation (21G → 18G) 提高安全性 |  |  |  |  |  |
+| 多功能導管 (如 Oscar) 可簡化操作流程並提高效率 |  |  |  |  |  |
+| 對於 balloon uncrossable lesion，piercing technique 是有效的替代方案 |  |  |  |  |  |
+| Low-profile system 不僅安全性高，在大多數非複雜 PAD 案例中也足夠有效 |  |  |  |  |  |
+| 4F system 相較於 6F，穿刺部位小 45 |  |  |  |  |  |
+
+
+張偉俊醫師的病例充分展示了現代周邊血管介入的幾個重要趨勢:  
+
+1. **器材微型化**: 從 6F 走向 4F，在維持效能的同時提高安全性  
+
+2. **多功能整合**: Oscar catheter 整合多種功能，減少器材更換  
+
+3. **技術創新**: Piercing technique 配合 landmarking 提供新的解決方案  
+
+4. **病人中心**: 更小的穿刺部位、更短的止血時間、更佳的舒適度  
+
+5. **特殊族群考量**: 對 ESRD 等高風險病人特別友善
+
+
+#### 結論
+
+
+張偉俊醫師成功地整合了多種先進技術來處理這個極具挑戰性的 balloon uncrossable BTK calcified CTO 病例。關鍵成功因素包括:
+
+
+- 使用 4F low-profile system 減少穿刺部位併發症
+- Retrograde wire landmarking 提供精確定位
+- 階段性 piercing technique (21G → 18G)
+- Oscar multifunctional catheter 提供全方位支援
+- 最終使用 covered stent 確保PIERCE部位的止血
+
+
+這個病例不僅展示了創新技術的應用，更重要的是體現了「以病人為中心」的治療理念，在追求技術成功的同時，也重視病人的安全性與舒適度。
+
+
+    
+    [Image]
+    Final angiogrpahy showed very good flow into pedal circulation.
+
+
+### Case Sharing: CFA Rotatripsy (林姝含醫師)
+
+
+新光醫院林姝含醫師分享 Common Femoral Artery (CFA) Rotatripsy 的病例。林醫師分享了使用 intravascular lithotripsy balloon (IVL)的經驗。
+
+
+錯過的同好，請自行與林醫師討論手術心得喔! 歡迎參加TET!
+
+
+### Case Sharing: BTK CTO with Balloon Uncrossable Lesion (蔡劭謙醫師)
+
+
+### BTK CTO with Balloon Uncrossable Lesion (蔡劭謙醫師)
+
+
+聯新國際醫院心臟內科蔡劭謙醫師分享了兩例 Below-The-Knee (BTK) CTO 遇到 balloon uncrossable lesion 的處置策略。
+
+
+#### Case 1: Rotablator 應用於 BTK CTO
+
+
+病例資訊
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 年齡/性別 | 54 歲男性 |  |  |  |  |
+| 過去病史 | Severe AS and MS s/p AVR and MVR    ESRD under hemodialysis |  |  |  |  |
+| 臨床表現 | 右足第一趾慢性傷口 (chronic wound over right 1st toe) |  |  |  |  |
+| Guiding sheath | Fortress 4F long sheath |  |  |  |  |
+
+
+影像學發現與介入困境
+
+
+| p{14cm}}  **Angiography 發現與處置困難** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Baseline angiography 顯示 BTK vessels 有嚴重鈣化性病灶 |  |  |  |  |  |
+| 發現可能的 microchannel |  |  |  |  |  |
+| 嘗試使用 Fielder XT-R guidewire 但無法通過 channel |  |  |  |  |  |
+| 嘗試使用 Astato 20 guidewire 但仍無法通過病灶 |  |  |  |  |  |
+| 嘗試使用 0.018 Gladius knuckle wire 仍無法通過病灶 |  |  |  |  |  |
+
+figure
+    
+    [Image]
+    Baseline angiography 顯示 BTK vessels 有嚴重鈣化性病灶
+
+
+    
+    [Image]
+    嘗試使用 Fielder XT-R guidewire 但無法通過 channel
+
+Wire Escalation 策略
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **步驟** | **處置內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 使用 Astato 40 穿刺進入遠端 true lumen |  |  |  |  |
+| 2 | Balloon uncrossable: Ryurei 1.0 x 5mm 及 mini-Trek 1.2 x 6mm balloon 均無法通過 |  |  |  |  |
+| 3 | 升級為 5F Fortress long sheath 並使用 5.5F guideliner |  |  |  |  |
+| 4 | Balloon 仍然 uncrossable |  |  |  |  |
+
+
+Rotablator 治療
+
+最終使用 Rotablator 1.25mm (150000-160000 RPM) 成功打開通道。
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **步驟** | **處置內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Rotablator 1.25mm burr, 以 150000-160000 RPM 旋磨 |  |  |  |  |
+| 2 | Balloon dilatation with 1.5 x 12mm balloon |  |  |  |  |
+| 3 | 續以 2.0/2.5 x 120mm balloon 進行 long inflation |  |  |  |  |
+| 4 | Final angiography 顯示良好的血流恢復 |  |  |  |  |
+
+
+    
+    [Image]
+    Final angiography 顯示良好的血流恢復
+
+
+#### Case 2: Balloon Rupture Technique 應用
+
+
+病例資訊
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 年齡/性別 | 59 歲女性 |  |  |  |  |
+| 過去病史 | DM    ESRD under hemodialysis |  |  |  |  |
+| 臨床表現 | 左足第四、五趾壞疽 (left 4th and 5th toes gangrene) |  |  |  |  |
+| Guiding sheath | Fortress 4F long sheath |  |  |  |  |
+
+
+    
+    [Image]
+    Rutherford stage 6 CLI
+
+
+---
+
+介入治療策略
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **步驟** | **處置內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Antegrade wire escalation: PT2 → Gaia 3rd → Astato 20 |  |  |  |  |
+| 2 | Balloon rupture technique: 使用 1.0 x 5mm 及 1.2 x 6mm balloons 刻意破裂以擴張管腔 |  |  |  |  |
+| 3 | Tornus microcatheter channel dilatation |  |  |  |  |
+| 4 | Balloon advancement after balloon rupture |  |  |  |  |
+| 5 | 使用 2.0 x 12mm balloon |  |  |  |  |
+| 6 | 續以 2.5 x 40mm balloon 進行最終擴張 |  |  |  |  |
+| 7 | Final angiography 顯示成功打通病灶 |  |  |  |  |
+
+
+    
+    [Image]
+    血管鈣化嚴重 (posterior tibial artery), 嘗試balloons 刻意破裂以擴張管腔
+
+
+#### Balloon Uncrossable Lesion 的處置策略
+
+
+蔡醫師系統性地回顧了處理 balloon uncrossable lesion 的各種技術，主要參考 coronary CTO 的經驗並應用於周邊血管。
+
+處理策略概論
+
+根據文獻 ([Korean Circ J. 2018 Apr;48(4):277-286](https://e-kcj.org/DOIx.php?id=10.4070/kcj.2017.0345))，處理 balloon uncrossable lesion 的策略包括:
+
+
+| p{14cm}}  **Lesion Modification 技術** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Appropriate small balloon (1.20-1.5mm) manipulation |  |  |  |  |  |
+| Wedges  | grenadoplasty (intentional balloon rupture) |  |  |  |  |
+| Microcatheters: Tornus, Corsiar, Carvel, Finecross, Turnpike |  |  |  |  |  |
+| Excimer laser: ablative and acoustic energy |  |  |  |  |  |
+| Rotational atherectomy |  |  |  |  |  |
+| Seesaw balloon-wire cutting technique |  |  |  |  |  |
+| Multi-wire plaque crushing technique |  |  |  |  |  |
+
+
+Multi-wire Plaque Crushing Technique
+
+根據文獻 (Catheter Cardiovasc Interv. 2020;1–9; Chin Med J (Engl). 2008 Mar 20;121(6):518-21)，此技術是在原始導線旁插入 1-2 條額外導線，利用多條導線壓碎斑塊，然後撤回壓碎用的導線，使腔內空間擴大，便於低輪廓球囊通過。
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **結果** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 使用 1 條壓碎導線 | 117 (71.3 |  |  |  |  |
+| 使用 2 條壓碎導線 | 47 (28.7 |  |  |  |  |
+| 技術成功率 | 150 (91.5 |  |  |  |  |
+| 技術失敗率 | 14 (8.5 |  |  |  |  |
+| 主要併發症 | Crushing wire entering false lumen (7.9  Coronary perforation (0.6 |  |  |  |  |
+
+
+Wire-Cutting Technique
+
+根據文獻 (J Interv Cardiol. 2012 Jun;25(3):297-303)，此技術使用兩條導線相互摩擦切割的方式來處理 balloon uncrossable lesion。
+
+
+    
+    [Image]
+    Wire-Cutting Technique
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **結果 (n=16)** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 技術成功率 | 10 (62.5 |  |  |  |  |
+| 技術失敗 | 6 (37.5 |  |  |  |  |
+| 失敗原因: 嚴重鈣化 | 4 (25.0 |  |  |  |  |
+| 失敗原因: 無法放置第二條 guidewire | 2 (12.5 |  |  |  |  |
+| Wire-cutting 相關併發症: Coronary dissection | 1 (6.3 |  |  |  |  |
+| 手術成功率 | 10 (62.5 |  |  |  |  |
+| 整體手術成功率 | 12 (75.0 |  |  |  |  |
+
+
+Seesaw Balloon-Wire Cutting Technique
+
+根據文獻 (Int J Cardiol. 2017 Feb 1;228:523-527)，相較於 Tornus catheter，seesaw balloon-wire cutting technique 有顯著較高的 device success rate (87.5
+
+    
+    [Image]
+    Seesaw Balloon-Wire Cutting Technique
+
+
+Subintimal Technique
+
+根據文獻 (Catheter Cardiovasc Interv. 2020;1–9)，當遇到 balloon uncrossable lesion 時，可考慮使用 subintimal technique:
+
+
+| p{14cm}}  **Subintimal Technique 策略** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 使用第二條 knuckle wire 進行 subintimal crossing |  |  |  |  |  |
+| 選項 (c): Re-entry into distal true lumen followed by stenting through subintimal space |  |  |  |  |  |
+| 選項 (d1): Inflated subintimal balloon (modifying CTO) |  |  |  |  |  |
+| 選項 (d2): Distal subintimal anchor balloon "pins" first guidewire allowing balloon crossing over it |  |  |  |  |  |
+
+
+Rotablator vs. Tornus 比較
+
+根據文獻 (Int Heart J. 2010 May;51(3):147-52)，兩種技術的比較:
+
+
+| p{4cm} >{\arraybackslash}p{4.5cm} >{\arraybackslash}p{4.5cm}}  **項目** | **Tornus (n=36)** | **Rotablator (n=41)** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Procedure time | 144 ± 50 minutes | 115 ± 47 minutes (P=0.01) |  |  |  |
+| Rotawire passage success | NS | 41/43 (95 |  |  |  |
+| Device success | 28 (77 | 39 (95 |  |  |  |
+| Angiographic success | 29 (81 | 39 (95 |  |  |  |
+
+
+PIERCE Technique
+
+PIERCE (Percutaneous direct needle puncture of calcified plaque) 是一種直接穿刺鈣化斑塊的技術。
+
+    
+    [Image]
+    PIERCE technique
+
+根據文獻 (J Vasc Interv Radiol. 2014 May;25(5):784-8)，此技術應用於 SFA CTO 3 例及 PTA CTO 1 例。
+
+
+Needle Rendezvous Technique
+
+根據文獻 (CVIR Endovasc. 2024 Oct 29;7(1):77)，對於嚴重鈣化的病灶，傳統的 re-entry devices 及 PIERCE technique 可能失敗，此時可使用 needle rendezvous technique。
+
+
+    
+    [Image]
+    Needle Rendezvous Technique
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **結果 (n=25)** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Needle rendezvous technical success | 25 (100 |  |  |  |  |
+| Procedure success | 25 (100 |  |  |  |  |
+| Complication | 0 (0 |  |  |  |  |
+| Vessel rupture/guidewire cut/puncture site trouble | 0 (0 |  |  |  |  |
+| Early target lesion revascularization | 2 (8 |  |  |  |  |
+| Needle rendezvous time | 3.7 ± 2.0 (1-9) minutes |  |  |  |  |
+| 主要應用部位 | Below-the-knee artery: 10 (40  Below-the-ankle artery: 8 (32  Superficial femoral artery: 7 (28 |  |  |  |  |
+
+
+#### 處理 Balloon Uncrossable Lesion 的algorithm
+
+
+蔡醫師總結了一個系統性的處理流程:
+
+
+| p{14cm}}  **處理流程** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 第一線處置: Small balloon or balloon-wedge technique  | Rupture balloon in vessel (grenadoplasty) |  |  |  |  |
+| 第二線處置: Increase support (guide catheter/wire) |  |  |  |  |  |
+| 第三線處置: Microcatheter (Tornus 等)  | Wire "cutting" or puncture |  |  |  |  |
+| 第四線處置: Laser  | Atherectomy (Rotablator) |  |  |  |  |
+| 第五線處置: Subintimal techniques (external crush/distal anchor) |  |  |  |  |  |
+| 替代策略: Combinations (cocktail treatment) |  |  |  |  |  |
+
+
+#### 蔡醫師提出的治療algorithm
+
+
+| p{14cm}}  **Balloon Uncrossable Lesion 處置algorithm** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 首選: Cocktail treatment 組合策略    1. Balloon rupture    2. Multi-wire plaque crush technique    3. Seesaw balloon-wire cutting    4. Tornus (microcatheter) |  |  |  |  |  |
+| 若成功則繼續 balloon angioplasty |  |  |  |  |  |
+| 若失敗則考慮: Subintimal technique (如果沒有良好的遠端穿刺目標) |  |  |  |  |  |
+| 若有良好的遠端穿刺目標: PIERCE → Needle Rendezvous → Rendezvous PIERCE (高成功率且低成本) |  |  |  |  |  |
+| 或選擇: Rotablator (高成功率、手術時間短但成本高) |  |  |  |  |  |
+
+
+重要提醒:  
+
+1. Balloon uncrossable lesion 在 BTK 介入中是一個重要的技術挑戰  
+
+2. 應該採用階梯式的處理策略，從簡單到複雜  
+
+3. Rotablator 雖然有效但成本高，應保留為後線選擇  
+
+4. Balloon rupture technique 及 multi-wire techniques 是實用且經濟的選擇  
+
+5. PIERCE 及 needle rendezvous techniques 為新興且有效的替代策略
+
+
+#### 討論
+
+
+蔡劭謙醫師的報告系統性地整理了處理 balloon uncrossable lesion 的各種策略，從文獻回顧到實際病例應用，提供了完整的處理algorithm。
+
+兩個病例展示了不同的處理策略:
+
+Case 1 使用 Rotablator，優點是成功率高、手術時間短，但缺點是成本較高且需要特殊設備。
+
+Case 2 使用 balloon rupture technique 配合 Tornus microcatheter，這是較經濟實惠且實用的選擇。
+
+關鍵學習重點包括:
+
+
+- 應建立系統性的處理流程，從簡單技術開始逐步升級
+- Cocktail treatment (組合多種技術) 往往比單一技術更有效
+- 新興的 PIERCE 及 needle rendezvous techniques 提供了高成功率且相對低成本的選擇
+- 選擇何種技術應考慮成本效益、可及性、以及操作者經驗
+
+
+### Treating Iliac Lesion via Radial Approach (王詩榮醫師)
+
+
+### Treating Iliac Lesion via Radial Approach (王詩榮醫師)
+
+
+敏盛綜合醫院心臟內科王詩榮醫師分享了一例嘗試經由 radial approach 處理 iliac lesion 的病例。
+
+
+#### 病例資訊
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 年齡/性別 | 85 歲女性 |  |  |  |  |
+| 過去病史 | DM, HTN, dementia, old stroke |  |  |  |  |
+| 日常生活功能 | Totally dependent, bed-ridden, left hemiplegia |  |  |  |  |
+| 主訴 | 2025/08/29 右小腿破裂水泡伴分泌物及傷口未癒合 1 週 |  |  |  |  |
+
+
+#### 現在病史與評估
+
+
+患者於 2025 年 5 月曾有左下肢及踝部 cellulitis，此次住院雙側小腿有多處水泡形成。
+
+    
+    [Image]
+
+實驗室檢查
+
+
+| p{3cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{2.5cm}}  **項目** | **數值** | **項目** | **數值** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| WBC | 11987 /uL | Hb | 13.3 g/dL |  |  |
+| Seg | 77.8 | CRP | 8.41 mg/dL |  |  |
+| Creatinine | 0.67 mg/dL | BUN | 52 mg/dL |  |  |
+| NT-proBNP | 1035 pg/mL | HbA1C | 9.9 |  |  |
+| Glucose PC | 347 mg/dL | LDL | 105 mg/dL |  |  |
+
+
+心臟超音波檢查
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **項目** | **結果** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| LVEF | 39.4 |  |  |  |  |
+| LV/LA size | 38.7 / 28.9 mm |  |  |  |  |
+| Regional wall motion | Global hypokinesia (more like multi-vessel territory) |  |  |  |  |
+| TRPG | 27.8 mmHg |  |  |  |  |
+| E/A ratio | 0.77 |  |  |  |  |
+| Valvular disease | Insignificant |  |  |  |  |
+| Pericardial effusion | Nil |  |  |  |  |
+
+
+周邊動脈疾病評估
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **檢查項目** | **結果** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Right ABI | 0.52 |  |  |  |  |
+| Left ABI | 0.33 |  |  |  |  |
+| Vascular echo findings | 雙側 CFA, SFA, popliteal artery 均有顯著狹窄 |  |  |  |  |
+
+
+#### 選擇 Radial Approach 的理由
+
+
+| p{14cm}}  **考量因素** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 先進行 diagnostic peripheral angiography |  |  |  |  |  |
+| 懷疑左側 iliac lesion 及雙側 CFA/SFA 顯著狹窄 |  |  |  |  |  |
+| 患者有 left hemiplegia |  |  |  |  |  |
+| 可順便進行 coronary angiography (femoral approach 也可以) |  |  |  |  |  |
+| 容易止血，不想拔 sheath |  |  |  |  |  |
+| 全健保給付 |  |  |  |  |  |
+
+
+#### 介入治療過程
+
+
+Coronary Angiography 結果
+
+CAG 顯示 2-vessel disease, RCA CTO。
+
+Peripheral Angiography 發現
+
+
+| p{4cm} >{\arraybackslash}p{10cm}}  **血管** | **發現** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Left iliac artery | Ostial lesion with significant stenosis |  |  |  |  |
+| Left CFA | Significant stenosis |  |  |  |  |
+| Left SFA | CTO from ostium |  |  |  |  |
+| Right SFA | Multiple stenotic lesions |  |  |  |  |
+| Right BTK vessels | Multiple lesions |  |  |  |  |
+
+
+左側 Iliac 及 CFA 處置
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **步驟** | **處置內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Wiring across left iliac lesion |  |  |  |  |
+| 2 | 嘗試以 4.0mm x 80mm x 130cm balloon 通過 iliac lesion，但失敗 (不夠長) |  |  |  |  |
+| 3 | 更換為 working length 150cm 的 balloon |  |  |  |  |
+| 4 | PTA with 4mm balloon (WL 150cm) to left CIA and CFA |  |  |  |  |
+| 5 | PTA with 6mm balloon (WL 150cm) to left CIA and CFA |  |  |  |  |
+| 6 | 更換為 7Fr sheath + 7Fr JR4 guiding catheter 準備置放 stent |  |  |  |  |
+| 7 | 無法將 stent 推送至 iliac artery (spasm, tortuous vessel, poor support) |  |  |  |  |
+
+
+Working Length 的重要性:  
+
+經由 radial approach 處理 iliac lesion 時，必須使用 working length 足夠的器材。一般 coronary balloons (130cm) 不足以到達 iliac artery，需要使用 150cm 以上的 peripheral balloons。
+
+
+改採 Femoral Approach
+
+由於無法經由 radial approach 置放 iliac stent，改採 angiography-guided puncture left DFA (deep femoral artery)。
+
+    
+    [Image]
+
+右側 SFA 處置 (Crossover technique)
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **步驟** | **處置內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | POBA right SFA with 4mm balloon catheter |  |  |  |  |
+| 2 | POBA right SFA with 4mm balloon catheter (second inflation) |  |  |  |  |
+| 3 | POBA right SFA with 6mm balloon catheter |  |  |  |  |
+| 4 | BMS (self-expandable) 5mm x 100mm placement |  |  |  |  |
+| 5 | BMS (self-expandable) 6mm x 120mm placement |  |  |  |  |
+
+
+左側 Iliac Stenting
+
+
+| p{2cm} >{\arraybackslash}p{12cm}}  **步驟** | **處置內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Localized and deployed left iliac stent: Biotronik Dynetic-35 8.0mm x 58mm |  |  |  |  |
+| 2 | POBA left CFA recoiled stenosis with 6.0mm balloon catheter |  |  |  |  |
+| 3 | Final angiography 顯示良好的血流恢復 |  |  |  |  |
+
+
+#### Radial Approach 失敗的原因
+
+
+| p{14cm}}  **失敗原因分析** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Spasm: 從 6Fr 更換為 7Fr sheath 後產生 radial artery spasm |  |  |  |  |  |
+| Tortuous vessel: Subclavian artery 及 aorta 的彎曲度影響器材推進 |  |  |  |  |  |
+| Smaller caliber of radial artery: 相較於 femoral artery，radial artery 較細 |  |  |  |  |  |
+| Poor support force: 經由 radial approach 的支撐力不足以推送較硬的 iliac stent |  |  |  |  |  |
+| Working length: 需要使用足夠長度的器材 (135cm 以上) |  |  |  |  |  |
+
+
+#### 病例學習重點
+
+
+王詩榮醫師總結了以下重要經驗:
+
+
+| p{14cm}}  **學習重點** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Pre-procedural CT scan 非常重要，可以預先評估血管解剖構造及病灶特性 |  |  |  |  |  |
+| 對於 iliac 或 proximal femoral lesion，明智地選擇 access site 是關鍵 |  |  |  |  |  |
+| 如果從 aorta 進行 antegrade angiography，較容易定位 iliac stent 的位置 |  |  |  |  |  |
+| Radial approach 處理 iliac lesion 仍有可能可行，但需考慮 support force, tortuosity, working length, stent size 等因素 |  |  |  |  |  |
+| 不要嫌拔 sheath 麻煩 (brachial approach 也是選項之一) |  |  |  |  |  |
+
+
+重要提醒:  
+
+1. Radial approach 適用於診斷性 peripheral angiography  
+
+2. 對於 iliac lesion 的介入治療，femoral approach 仍是較可靠的選擇  
+
+3. 術前影像評估可以幫助選擇最適當的 access site  
+
+4. 器材的 working length 和 support force 是成功的關鍵因素
+
+
+#### 討論
+
+
+本案例展示了 radial approach 在處理 iliac lesion 時的技術挑戰。雖然 radial approach 具有容易止血、病人舒適度較高等優點，但在處理 iliac artery 等較遠端的大血管病灶時，仍面臨器材長度不足、支撐力不夠、血管彎曲度等問題。
+
+Femoral approach 或 brachial approach 在處理 aortoiliac lesions 時仍具有明確的優勢，包括:
+
+
+- 較短的器材路徑
+- 較好的支撐力
+- 可使用較大的 sheath 和器材
+- 較容易進行 crossover technique
+
+
+然而，隨著器材的進步和技術的發展，radial approach 在特定情況下仍可能成為 iliac intervention 的替代選項。
+
+
+---
+
+
+## 會議總結
+
+
+本次 TET 會議涵蓋了周邊動脈疾病治療的多個重要議題，包括:
+
+
+- Drug-Eluting Balloon 最新臨床證據
+- 不同藥物塗層球囊的優劣比較
+- Below-The-Knee CTO 的處置策略
+- 新技術在複雜病灶的應用
+- Alternative access route 的運用
+
+
+會議中各專家分享了寶貴的臨床經驗與技術，對於提升台灣周邊血管介入治療的水準有重要幫助。
+
+
+記錄者: 謝慕揚醫師, MD, PhD, FESC   
+
+日期: 2025-11-02

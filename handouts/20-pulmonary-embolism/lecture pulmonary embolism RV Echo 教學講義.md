@@ -1,0 +1,493 @@
+# lecture pulmonary embolism RV Echo
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-11-02**
+
+---
+
+titlepage
+    
+    
+    
+    {\bfseriesemergency_red 疑似肺栓塞時的右心室功能評估
+}
+    
+    
+    {emergency_blue 急診與住院醫師臨床教學講義
+}
+    
+    
+    
+    {適用對象:急診醫學部，內科部，與心血管中心同仁
+    }
+    
+    \vfill
+    
+    {謝慕揚 MD, PhD, FESC
+
+    國立台灣大學醫學院附設醫院新竹生醫園區分院
+
+    心臟血管科
+
+    
+    文件日期: 2025-11-02 
+
+    }
+    
+    
+    
+    {black
+    原始講座:Nanna LJ Udesen, MD, PhD
+
+    Svendborg, Odense University Hospital, Denmark
+
+    ESC Acute CardioVascular Care 2023, Marseille
+
+    }
+titlepage
+
+\tableofcontents
+
+---
+
+
+## 前言
+
+
+肺栓塞(Pulmonary Embolism, PE)是急診常見的重要疾病,及早診斷與評估右心室(Right Ventricle, RV)功能對於風險分層與治療決策至關重要。本講義整理了2019年ESC肺栓塞指引的核心概念,並著重於影像學評估右心室功能的實務技巧。
+
+本講義的製作，為參考ESC 365, 依據[ESC Acute Cardiovascular Care 2023課程投影片](https://esc365.escardio.org/presentation/255881)完成，作者為Dr. Nanna Louise Junker Udesen (Denmark). 
+
+importantbox
+**學習目標**
+
+1. 了解肺栓塞對右心室的病理生理影響
+2. 熟悉評估右心室功能的影像學工具
+3. 掌握超音波評估右心室功能的關鍵參數
+4. 理解右心室功能異常的預後意義
+
+
+importantbox
+
+
+## 肺栓塞與右心室的病理生理
+
+
+### 壓力變化的機轉
+
+
+當肺動脈發生栓塞時,右心室面對突然增加的後負荷(afterload),導致:
+
+
+1. **肺動脈壓力上升**:栓子阻塞肺動脈血流,導致肺血管阻力急遽增加
+2. **右心室擴張**:右心室為薄壁低壓幫浦,無法長期承受高壓
+3. **室間隔移位**:擴張的右心室壓迫左心室,造成D型左心室變形
+4. **心輸出量下降**:右心室衰竭導致全身灌流不足
+
+
+根據Lyhne等人在European Heart Journal Acute Cardiovascular Care發表的研究,肺栓塞患者的平均肺動脈壓力呈現顯著上升的趨勢,早期識別右心室功能異常對預後評估極為重要。
+
+
+### 右心室的解剖與功能特性
+
+
+| p{10cm}}  **特性** | **說明** |  |
+| --- | --- | --- |
+| 複雜的結構幾何 | 右心室呈新月形,不同於左心室的橢圓形結構,使得評估更加困難 |  |
+| \addlinespace  薄壁且順應性高 | 右心室壁厚度約3-5 mm,僅為左心室的1/3,對壓力變化敏感 |  |
+| \addlinespace  低壓幫浦 | 正常右心室收縮壓約25 mmHg,舒張壓約5 mmHg,遠低於左心室 |  |
+| \addlinespace  不同的收縮模式 | 右心室收縮以縱向運動為主,而左心室以環形收縮為主 |  |
+| \addlinespace  無單一評估指標 | 需要綜合多個參數才能完整評估右心室功能 |  |
+
+
+## 右心室功能的評估項目
+
+
+評估疑似肺栓塞患者的右心室功能時,應系統性地檢視以下面向:
+
+
+1. **大小(Size)**:右心室/左心室比例、右心室壁厚度
+2. **壓力(Pressure)**:三尖瓣逆流速度、估算的肺動脈壓力
+3. **功能(Function)**:TAPSE、RV free wall strain、McConnell徵象
+4. **室間隔(Septum)**:D型變形、矛盾性運動
+5. **右心室流出道(RV Outflow)**:右心室流出道直徑
+6. **肺動脈加速時間(PAAT)**:反映肺動脈壓力
+
+
+## 影像診斷工具的選擇
+
+
+### 2019 ESC指引建議
+
+
+根據2019年ESC急性肺栓塞診斷與處置指引,影像學檢查的選擇應依據血行動力學穩定度:
+
+importantbox
+**血行動力學不穩定的高危險PE患者**
+
+- 建議使用bedside echocardiography或emergency CTPA進行診斷(Class I, Level C)
+- 建議於開始抗凝治療前立即使用UFH加上weight-adjusted bolus injection(Class I, Level C)
+
+
+importantbox
+
+
+### 各種影像工具的角色
+
+
+| p{3cm}p{7cm}}  **檢查工具** | **建議等級** | **適用情境** |
+| --- | --- | --- |
+| CTPA | Class I, Level A | 低或中度臨床可能性PE時,排除診斷 |
+| \addlinespace  CTPA | Class I, Level B | 中度或高度臨床可能性PE,顯示節段性或更近端的充盈缺損 |
+| \addlinespace  CTPA | Class IIa, Level B | 高臨床可能性或PE-likely患者,即使CTPA正常也應考慮排除診斷 |
+| \addlinespace  V/Q scintigraphy | Class I, Level A | Perfusion lung scan正常時可排除PE |
+| \addlinespace  V/Q scintigraphy | Class IIa, Level B | V/Q scan顯示高機率時可診斷PE |
+| \addlinespace  Lower-limb CUS | Class I, Level A | CUS顯示proximal DVT時,有臨床PE懷疑可診斷VTE |
+| \addlinespace  Lower-limb CUS | Class IIa, Level B | CUS僅顯示distal DVT時,應考慮further testing確認PE |
+
+
+CTPA在顯示segmental或more proximal的filling defect時,可以確診PE而不需要further testing。CT venography不建議作為CTPA的常規附加檢查。
+
+
+## CTPA評估右心室功能異常
+
+
+### RV/LV徑線比值
+
+
+CTPA可以直接測量右心室與左心室的最大短軸直徑,計算RV/LV ratio:
+
+importantbox
+**RV/LV ratio的判讀**
+
+- **正常值**:RV/LV ratio < 1.0
+- **右心室擴張**:RV/LV ratio $\geq$ 1.0
+- **測量位置**:在四腔心切面,測量最大短軸直徑
+
+
+importantbox
+
+
+### 右心室功能異常的預後價值
+
+
+根據2019 ESC指引的補充資料,右心室功能異常的預後意義如下:
+
+
+| p{2cm}p{2.5cm}p{3cm}p{3cm}}  **參數** | **Cut-off值** | **結果指標** |
+| --- | --- | --- |
+| TTE上RV dysfunction | 各種標準 | All-cause mortality |
+| \addlinespace  TTE上RV/LV徑線比 | ≥1.0 | All-cause mortality |
+| \addlinespace  TTE上RV/LV徑線比 | ≥1.0 | PE-related mortality |
+| \addlinespace  TAPSE | <16 mm | All-cause mortality |
+| \addlinespace  TAPSE | <16 mm | PE-related mortality |
+| \addlinespace  McConnell sign | Present | PE-related mortality或rescue thrombolysis |
+| \addlinespace  CTPA上RV/LV徑線比 | ≥1.0 | All-cause mortality |
+| \addlinespace  CTPA上RV/LV徑線比 | ≥1.0 | PE-related mortality |
+
+
+右心室功能異常具有高度的陰性預測值(NPV > 96
+
+
+## 超音波心圖評估右心室功能
+
+
+### 標準超音波切面
+
+
+評估右心室功能需要取得多個標準切面:
+
+
+1. **Parasternal long axis view**:評估右心室大小
+2. **Parasternal short axis view**:觀察室間隔形態、D型變形
+3. **Apical four chamber view**:測量右心室面積、RV/LV ratio
+4. **RV-focused view**:測量TAPSE、評估McConnell徵象
+5. **Subcostal view**:評估下腔靜脈直徑與塌陷程度
+
+
+### 右心室擴張的判定
+
+
+#### Parasternal Long Axis View
+
+
+在PLAX切面可以看到擴張的右心室:
+
+- 右心室增大,壓迫主動脈與左心房
+- 右心室流出道擴張
+
+
+#### Four Chamber View
+
+
+在心尖四腔心切面評估:
+
+importantbox
+**RV/LV ratio測量方法**
+
+1. 在end-diastole測量
+2. 於annulus level或略靠近apex處測量最大直徑
+3. RV/LV ratio > 1.0為異常
+4. 合併McConnell sign(RV free wall mid-segment akinesis但apex正常運動)更具特異性
+
+
+importantbox
+
+
+### D型左心室變形(LV D-configuration)
+
+
+室間隔的評估對診斷右心室壓力負荷非常重要:
+
+
+| p{10cm}}  **特徵** | **說明** |  |
+| --- | --- | --- |
+| 評估切面 | Parasternal short axis view |  |
+| \addlinespace  正常形態 | 左心室呈圓形 |  |
+| \addlinespace  異常形態 | 右心室擴張且高壓,室間隔向左心室側移位,使左心室呈D字形 |  |
+| \addlinespace  發生時間 | 可發生於systole、diastole或全程 |  |
+| \addlinespace  臨床意義 | 顯示右心室壓力/容積負荷增加 |  |
+
+
+### McConnell徵象
+
+
+McConnell sign是PE患者較具特異性的超音波發現:
+
+importantbox
+**McConnell徵象的定義**
+
+- RV free wall的mid-segment呈現akinesis或hypokinesis
+- 但RV apex運動正常或甚至hyperdynamic
+- 此特徵反映急性壓力負荷造成的局部功能異常
+- 在four chamber view最容易觀察
+
+
+importantbox
+
+
+### 60/60徵象
+
+
+60/60徵象結合了肺動脈加速時間與三尖瓣逆流壓力差:
+
+
+| p{9cm}}  **參數** | **標準與意義** |  |
+| --- | --- | --- |
+| 肺動脈加速時間(PAAT) | < 60 ms表示肺動脈壓力上升     測量RVOT的flow velocity,從ejection開始到peak velocity的時間     PAAT越短表示肺動脈壓力越高 |  |
+| \addlinespace  三尖瓣逆流壓差(TRPG) | < 60 mmHg表示中度肺高壓     使用continuous wave Doppler測量TR最大速度     以簡化Bernoulli方程式計算:TRPG = 4 × V$^2$ |  |
+| \addlinespace  60/60徵象的意義 | PAAT < 60 ms且TRPG < 60 mmHg的共存     提示急性肺栓塞造成的壓力變化     有助於與慢性肺高壓區分 |  |
+
+
+60/60徵象在急性PE較為特異,慢性肺高壓通常TRPG會更高(> 60 mmHg)。然而,此徵象的敏感度較低(34-52
+
+
+### 三尖瓣環收縮期平面位移(TAPSE)
+
+
+TAPSE是評估右心室縱向收縮功能最簡單且可重複性高的參數:
+
+importantbox
+**TAPSE的測量與判讀**
+
+- **測量方法**:M-mode游標放置於tricuspid annulus的lateral側
+- **測量位置**:Apical four chamber view
+- **正常值**:TAPSE $\geq$ 16 mm
+- **右心室功能異常**:TAPSE < 16 mm
+- **優點**:快速、簡單、重現性佳
+- **限制**:只反映縱向功能,角度依賴性
+
+
+importantbox
+
+根據meta-analysis,TAPSE < 16 mm與all-cause mortality(OR 2.4, 95
+
+
+### 下腔靜脈評估
+
+
+下腔靜脈(IVC)的直徑與塌陷程度可反映右心房壓力:
+
+
+| p{9cm}}  **IVC參數** | **判讀標準** |  |
+| --- | --- | --- |
+| 測量位置 | 距離右心房0.5-3 cm處,subcostal view |  |
+| \addlinespace  正常IVC | 直徑 ≤ 2.1 cm且吸氣時塌陷 > 50  提示正常右心房壓力約3 mmHg(範圍0-5 mmHg) |  |
+| \addlinespace  擴張IVC | 直徑 > 2.1 cm且吸氣時塌陷 < 50  提示右心房壓力上升約15 mmHg(範圍10-20 mmHg) |  |
+| \addlinespace  臨床應用 | 急性PE患者若IVC擴張且無塌陷,提示右心衰竭與高死亡風險 |  |
+
+
+## PE嚴重度分級與右心室功能的角色
+
+
+### 2019 ESC PE嚴重度分級
+
+
+根據2019 ESC指引,PE的early mortality risk分級如下:
+
+
+| p{2cm}p{3cm}p{3cm}p{2.5cm}}  **Early mortality risk** | **血行動力學不穩定** | **PE嚴重度參數/合併症** |
+| --- | --- | --- |
+| High | + | (+)$^{a}$ |
+| \addlinespace  Intermediate-high | - | +$^{b}$ |
+| \addlinespace  Intermediate-low | - | +$^{b}$ |
+| \addlinespace  Low | - | - |
+
+
+- [$^{a}$] 若存在血行動力學不穩定,通常也會有其他高危險因子
+- [$^{b}$] PESI class III-V或sPESI ≥ 1
+
+
+右心室功能異常是intermediate-risk PE分級的關鍵指標。Intermediate-high risk患者(RV dysfunction (+) 且cardiac biomarkers (+))需要密切監測,必要時考慮reperfusion therapy。
+
+
+### 治療決策的影響
+
+
+右心室功能評估對治療決策的影響:
+
+
+1. **High-risk PE**      - 血行動力學不穩定 - 立即systemic thrombolysis(Class I, Level B) - 或考慮catheter-directed therapy、surgical embolectomy
+2. **Intermediate-high risk PE**      - RV dysfunction (+) + cardiac troponin升高 - Rescue thrombolysis若出現臨床惡化(Class IIa, Level B) - Catheter-directed therapy可考慮(Class IIb, Level B) - 密切監測於ICU或類似單位
+3. **Intermediate-low risk PE**      - 僅有一項陽性(RV dysfunction或biomarkers)或皆為陰性 - 標準anticoagulation - 住院觀察或考慮early discharge
+4. **Low-risk PE**      - 無RV dysfunction、biomarkers正常 - Early discharge或home treatment(Class IIa, Level B)
+
+
+## 超音波評估的限制與注意事項
+
+
+### ECHO的限制
+
+
+| p{10cm}}  **限制項目** | **說明** |  |
+| --- | --- | --- |
+| 影像品質依賴性 | 肥胖、肺氣腫、機械通氣患者可能影像品質不佳,難以精確測量 |  |
+| \addlinespace  觀察者間變異 | 不同操作者的測量可能有差異,需要經驗累積與標準化訓練 |  |
+| \addlinespace  多參數綜合判斷 | 沒有單一指標可完整評估RV,需要整合多個參數 |  |
+| \addlinespace  非PE特異性 | ECHO發現的RV dysfunction可見於多種疾病(如chronic PH、RV infarction、COPD等),無法單獨確診PE |  |
+| \addlinespace  無法排除PE | ECHO正常不能排除PE,仍需要臨床綜合判斷或進一步檢查 |  |
+
+
+### 實務建議
+
+
+importantbox
+**超音波評估右心室功能的實務要點**
+
+1. **系統性評估**:依序檢查size、pressure、function、septum、RVOT、PAAT
+2. **Keep your eyes open**:注意所有可能的異常發現,不要只focus在單一指標
+3. **記錄完整**:建議記錄以下關鍵測量      - RV/LV ratio(四腔心切面) - TAPSE - TR velocity與estimated PA pressure - IVC直徑與collapsibility - 室間隔形態(D-configuration的有無) - McConnell sign的有無
+4. **臨床關聯**:超音波發現需結合臨床表現、vitals、cardiac biomarkers進行綜合判斷
+5. **追蹤變化**:若患者臨床狀況改變,應重複超音波評估
+
+
+importantbox
+
+
+## 臨床案例與影像判讀練習
+
+
+### 案例討論架構
+
+
+評估疑似PE患者的右心室功能時,建議採用以下系統化架構:
+
+
+1. **臨床資訊整合**      - Vital signs:心跳、血壓、血氧 - Wells score或Geneva score - D-dimer結果 - Risk factors for VTE
+2. **Cardiac biomarkers**      - Troponin I/T - BNP或NT-proBNP
+3. **超音波系統性評估**      - Size:RV/LV ratio - Pressure:TRPG、estimated PASP - Function:TAPSE、McConnell sign - Septum:D-configuration - RVOT:直徑測量 - PAAT:< 60 ms? - IVC:直徑與collapsibility
+4. **風險分層**      - High、Intermediate-high、Intermediate-low或Low risk? - 是否需要升級照護層級? - 是否考慮advanced therapies?
+
+
+### 判讀要點總結
+
+
+| p{3.5cm}p{6.5cm}}  **評估項目** | **正常值/標準** | **異常意義** |
+| --- | --- | --- |
+| RV/LV ratio | < 1.0 | ≥ 1.0表示RV擴張 |
+| \addlinespace  TAPSE | ≥ 16 mm | < 16 mm表示RV縱向收縮功能下降 |
+| \addlinespace  TRPG | < 30 mmHg | ≥ 40 mmHg提示pulmonary hypertension |
+| \addlinespace  60/60徵象 | PAAT ≥ 60 ms或TRPG ≥ 60 mmHg | PAAT < 60 ms且TRPG < 60 mmHg提示急性PE |
+| \addlinespace  McConnell sign | Absent | Present時高度提示急性PE造成的RV dysfunction |
+| \addlinespace  D-configuration | Absent | Present表示RV壓力/容積負荷增加 |
+| \addlinespace  IVC直徑 | ≤ 2.1 cm,吸氣塌陷 > 50 | > 2.1 cm且塌陷 < 50 |
+
+
+## 總結與臨床實務建議
+
+
+### 關鍵訊息
+
+
+importantbox
+**Take Home Messages**
+
+1. 右心室功能評估是PE風險分層的核心
+2. TTE與CTPA皆可評估RV function,各有優缺點
+3. 綜合多個參數(size, pressure, function, septum)進行判斷
+4. RV dysfunction的高NPV(> 96
+5. Intermediate-high risk患者需密切監測,準備rescue therapy
+6. ECHO limitations:影像品質、觀察者變異、非PE特異性
+
+
+importantbox
+
+
+### 不同情境的建議
+
+
+#### 急診情境
+
+
+- 疑似high-risk PE:立即bedside echo評估RV function
+- 若ECHO顯示severe RV dysfunction + hemodynamic instability → 考慮immediate thrombolysis
+- 若設備或人力限制無法取得高品質ECHO → 優先安排emergency CTPA
+
+
+#### 住院病房情境
+
+
+- Intermediate-risk PE確診後:安排完整TTE評估RV function
+- 結合cardiac troponin、BNP進行risk stratification
+- Intermediate-high risk患者轉入加護病房或HDU密切監測
+- 若臨床deterioration → 緊急會診考慮rescue therapy
+
+
+#### 超音波室/心導管室情境
+
+
+- 提供高品質、標準化的RV function評估
+- 完整記錄所有關鍵測量值
+- 與臨床團隊密切溝通critical findings
+- 必要時進行serial follow-up評估治療反應
+
+
+### 教育與訓練建議
+
+
+1. **標準化訓練**:建立統一的RV assessment protocol
+2. **影像品質控制**:定期review與feedback
+3. **MDT討論**:定期case conference討論challenging cases
+4. **持續學習**:參考最新guidelines與文獻更新
+
+
+## 參考文獻與延伸閱讀
+
+
+1. Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS). Eur Heart J. 2020;41(4):543-603.
+2. Lyhne MD, Kabrhel C, Giordano N, et al. The echocardiographic ratio tricuspid annular plane systolic excursion/pulmonary arterial systolic pressure predicts short-term adverse outcomes in acute pulmonary embolism. Eur Heart J Acute Cardiovasc Care. 2021;10(3):243-249.
+3. Schoepf UJ, Kucher N, Kipfmueller F, et al. Right ventricular enlargement on chest computed tomography: a predictor of early death in acute pulmonary embolism. Circulation. 2004;110(20):3276-3280.
+4. Jones N, Burns AT, Prior DL. Echocardiographic assessment of the right ventricle-state of the art. Heart Lung Circ. 2019;28(9):1339-1350.
+5. Rudski LG, Lai WW, Afilalo J, et al. Guidelines for the echocardiographic assessment of the right heart in adults: a report from the American Society of Echocardiography. J Am Soc Echocardiogr. 2010;23(7):685-713.
+
+
+\vfill
+
+**--- 本文件結束 ---**
+
+
+*整理者:謝慕揚 MD, PhD, FESC with assistance by Claude.ai*
+
+*國立台灣大學醫學院附設醫院新竹生醫園區分院*
+
+*文件版本:\mydate*

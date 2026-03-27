@@ -1,0 +1,481 @@
+# Circulation 2025-11-25
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2023-05-12**
+
+---
+
+\maketitle
+
+\tableofcontents
+
+---
+
+
+## 概述
+
+
+本期Circulation期刊包含多篇重要研究論文，涵蓋冠狀動脈異常、心臟RNA選擇性剪接、COVID-19疫苗後心肌炎機制等主題。本文重點整理特色論文：由瑞典Uppsala大學Jonas Oldgren教授領導的ABC-AF風險評分隨機對照試驗，探討生物標記導向的個人化治療策略是否能改善心房顫動患者的臨床預後。
+
+
+> **研究結論：**儘管ABC-AF風險評分提供了更精確的風險預測，但基於此評分的個人化多維度治療策略並未改善心房顫動患者的臨床預後（中風或死亡）。
+> **臨床意義：**本研究強調了風險分層工具在常規臨床應用前，需要經過前瞻性隨機對照試驗驗證其臨床效用的重要性。即使風險預測更準確，若無法轉化為有效的治療決策改變，仍無法改善患者預後。
+
+
+## ABC-AF風險評分隨機對照試驗
+
+
+### 研究資訊
+
+
+**標題：**Biomarker-Based ABC-AF Risk Scores for Personalized Treatment to Reduce Stroke or Death in Atrial Fibrillation: A Registry-Based, Multicenter, Randomized, Controlled Study  
+
+**第一作者：**Jonas Oldgren, MD, PhD  
+
+**機構：**Uppsala University, Uppsala, Sweden  
+
+**期刊：***Circulation* 2025年11月  
+
+**DOI：**[10.1161/CIRCULATIONAHA](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.125.076725)  
+
+**發表形式：**2025年ESC大會熱線報告並同步發表於Circulation
+
+
+### 研究背景
+
+
+- 心房顫動患者面臨中風、死亡及其他併發症風險
+- 生物標記為基礎的風險評分可提供更精確的量化風險評估
+- ABC-AF評分已被多個獨立研究反覆驗證其預測能力
+- 指引建議採用多因子方法進行風險降低與治療選擇
+- **研究假設：**ABC-AF風險評分導向的多維度治療策略可能改善臨床預後
+
+
+### ABC-AF風險評分組成
+
+
+> **A (Age)：**年齡作為連續變數  
+> **B (Biomarkers)：**生物標記（連續變數）
+> itemize
+>     \item 高敏感性心肌肌鈣蛋白（hs-Troponin）
+>     \item N末端腦鈉肽前體（NT-proBNP）
+>     \item 生長分化因子-15（GDF-15）
+>     \item 血紅素（Hemoglobin）
+> itemize
+> **C (Clinical history)：**中風或出血病史
+> **優勢：**使用連續變數而非分類，提供更精確的風險預測  
+> **比較：**相較於CHA2DS2-VASc或HAS-BLED評分更精準
+
+
+### 研究設計
+
+
+| p{11cm}} 研究設計特點 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **項目** | **內容** |  |
+| **研究類型** | 務實型、登記型、多中心、隨機對照試驗 |  |
+| **研究地點** | 瑞典39個中心 |  |
+| **目標樣本數** | 6,500例患者 |  |
+| **實際收案** | 3,933例（因安全性考量提前終止） |  |
+| **事件驅動設計** | 需要1,191個事件 |  |
+| **追蹤期間** | 中位數2.6年（提前終止後再追蹤12個月） |  |
+| **資料來源** | 瑞典心房顫動品質登記系統 |  |
+| **特色** | 無實體訪視，所有結果資料從國家強制性登記系統取得 |  |
+
+
+### 納入與排除條件
+
+
+| p{12cm}} 收案標準 |  |  |
+| --- | --- | --- |
+| **項目** | **標準** |  |
+| **項目** | **標準** |  |
+| **納入條件** | minipage[t]{12cm} • 成年心房顫動患者 |  |
+| • 新診斷或既往診斷 |  |  |
+| • 有或無口服抗凝治療 |  |  |
+| **排除條件** | minipage[t]{12cm} • 口服抗凝劑禁忌症 |  |
+| • 心房顫動以外的抗凝適應症（如機械性心臟瓣膜） |  |  |
+| • 目前使用DOAC且不適合或不願意更換為其他DOAC |  |  |
+
+
+### 研究分組與介入
+
+
+| p{5cm}p{5cm}} 兩組比較 |  |  |
+| --- | --- | --- |
+| **項目** | **ABC-AF組（介入組）** | **對照組** |
+| **項目** | **ABC-AF組** | **對照組** |
+| **血液檢體** | 常規分析 + 生物銀行 + **即時生物標記分析** | 常規分析 + 生物銀行 |
+| **風險評分** | 兩個工作日內提供ABC-AF中風與出血風險評分 | 不提供 |
+| **治療建議** | 基於風險評分的個人化建議，包括DOAC類型選擇 | 完全由臨床醫師決定 |
+| **治療策略** | 多維度個人化治療 | 指引導向標準治療 |
+
+
+### 基線特徵
+
+
+| 患者基線特徵（n=3,933） |  |  |
+| --- | --- | --- |
+| **特徵** | **數值/比例** | **註解** |
+| **特徵** | **數值/比例** | **註解** |
+| 中位年齡 | 74歲 | 高於預期目標 |
+| 女性比例 | 33 |  |
+| 陣發性心房顫動 | 51 | 顯著高於預期 |
+| 基線已使用抗凝劑 | 93 | 遠高於設計時預期的60 |
+| CHA2DS2-VASc $\geq$ 3 | 高比例 | 安全性監測重點族群 |
+
+
+****重要觀察：****患者基線時抗凝治療比例極高（93
+
+
+### 研究結果
+
+
+#### 主要終點
+
+
+| 主要終點：中風或死亡複合終點 |  |  |  |
+| --- | --- | --- | --- |
+| **結果** | **ABC-AF組** | **對照組** | **統計顯著性** |
+| **結果** | **ABC-AF組** | **對照組** | **統計** |
+| 事件總數 | 323事件 |  |  |
+| 風險比（HR） | 1.19 |  |  |
+| 95 | 寬信賴區間 |  |  |
+| P值 | 無統計顯著差異 | 中性結果 |  |
+
+
+> **結論：**個人化多維度治療策略**未能**改善任何臨床預後指標。
+> **主要終點（中風或死亡複合終點）：**兩組間無統計顯著差異
+> **次要終點：**
+> itemize
+>     \item 單獨中風：無差異
+>     \item 單獨死亡：無差異
+>     \item 重大出血事件：無差異
+>     \item 三重複合終點：無差異
+> itemize
+
+
+#### 治療變化分析
+
+
+| p{9cm}} 兩組間治療模式差異 |  |  |
+| --- | --- | --- |
+| **治療項目** | **觀察結果** |  |
+| **治療項目** | **觀察** |  |
+| DOAC類型選擇 | **顯著差異**：醫師遵循ABC-AF建議 |  |
+| 其他治療建議 | 改變幅度相對較小 |  |
+| 整體治療對比 | 介入組與標準治療差異不足 |  |
+| 基線治療品質 | 患者入組時已接受極佳的標準治療 |  |
+
+
+### 研究提前終止
+
+
+> **終止日期：**2023年5月12日
+> **終止原因：**CHA2DS2-VASc評分$\geq$3的亞組出現安全性疑慮
+> **後續處理：**終止收案後繼續追蹤所有患者12個月
+> **最終分析：**基於完整追蹤資料進行
+
+
+## 其他重要論文摘要
+
+
+### 冠狀動脈異常的長期預後研究
+
+
+**研究者：**Francesco Gentile, Pisa University Hospital, Italy  
+
+**研究設計：**回溯性分析超過17,000例冠狀動脈電腦斷層掃描（CCTA）  
+
+**研究期間：**20年
+[Clinical and Prognostic Significance of Anomalous Origin of a Coronary Artery in Adults](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.125.074198)
+
+
+#### 主要發現
+
+
+| p{9cm}} 冠狀動脈異常起源（AAOCA）研究結果 |  |  |
+| --- | --- | --- |
+| **項目** | **結果** |  |
+| **項目** | **結果** |  |
+| 盛行率 | 173例/17,000例（1 |  |
+| 平均年齡 | 62歲 |  |
+| 女性比例 | 34 |  |
+| 主要症狀 | 胸痛（最常見CCTA適應症） |  |
+| 阻塞性冠狀動脈疾病 | 36例（21 |  |
+| 功能性影像陽性 | 60 |  |
+| 手術修復 | 僅10例（6 |  |
+| 保守治療 | 大多數患者採用藥物治療 |  |
+| 中位追蹤期 | 37個月 |  |
+| 死亡率 | 與對照組相似（P=0.32） |  |
+| 主要心血管事件 | 與對照組相似（P=0.39） |  |
+| 預後預測因子 | 僅阻塞性冠狀動脈疾病為預測因子 |  |
+
+
+**臨床意義：**成人AAOCA整體預後良好，保守治療可有效控制症狀與缺血，手術僅需用於少數患者。
+
+
+### 心臟RNA選擇性剪接研究
+
+
+**研究者：**Ruli Gao, Northwestern University  
+
+**技術：**長讀長單核RNA定序（Long-read single nucleus RNA sequencing）
+[Single-Cell Splicing Isoform Atlas of the Adult Human Heart and Heart Failure](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.125.074959)
+
+
+#### 主要發現
+
+
+- **健康心臟：**約30
+- **細胞特異性：**即使共享基因，不同細胞類型使用不同同功異構體
+- **心衰竭：**同功異構體使用模式顯著改變     itemize
+- 心肌細胞變化最明顯
+- 纖維母細胞與內皮細胞也有變化
+- 貢獻於疾病特異性細胞狀態
+
+
+    \item **功能影響：**同功異構體多樣性越高，功能變化越大
+    \item **臨床應用：**可識別心衰竭細胞亞群
+itemize
+
+**臨床意義：**RNA剪接是心臟疾病的關鍵調控機制，為精準醫療提供分子層次的新視角。
+
+
+### COVID-19疫苗後心肌炎機制研究
+
+
+**研究者：**Marelli-Berg, William Harvey Research Institute, London, UK  
+
+**研究對象：**
+
+- mRNA疫苗後發生心肌/心包炎患者
+- 嚴重COVID-19住院患者
+- 疫苗後無心臟副作用的健康對照
+
+
+#### 機制發現
+
+
+> **分子模擬（Molecular Mimicry）：**
+> itemize
+>     \item T細胞辨識疫苗編碼的棘蛋白表位
+>     \item 這些表位與心肌自身蛋白質同源
+>     \item 其中一個表位模擬心肌細胞鉀離子通道胺基酸序列
+> itemize
+> **T細胞受體親和力：**關鍵決定因素
+> **歸巢印記（Homing Imprinting）：**
+> itemize
+>     \item 心臟特異性T細胞表達CMAT
+>     \item 抑制CMAT可預防心肌炎
+>     \item mRNA疫苗特殊的生物分布允許此印記過程
+> itemize
+> **細胞激素模式：**
+> itemize
+>     \item 疫苗後心肌炎患者：擴增的細胞激素產生模式
+>     \item 類似小鼠心肌炎模型與自體免疫性心肌炎
+>     \item 不同於COVID-19患者
+> itemize
+
+
+**結論：**疫苗後心肌炎由三個免疫成分共同介導：分子模擬、T細胞受體親和力、歸巢印記。
+
+
+## 臨床意義與討論
+
+
+### ABC-AF研究的啟示
+
+
+1. ****風險預測 $\neq$ 臨床效益****      - ABC-AF評分確實提供更精確的風險預測 - 但更精確的預測未能轉化為治療決策的有效改變 - 若無法改變治療，風險評分的臨床價值有限
+2. ****基線治療品質的影響****      - 瑞典患者基線時已接受極佳的抗凝治療（93 - 介入組與對照組的治療對比不足 - 在治療已優化的族群中，進一步改善空間有限
+3. ****精準醫療工具的驗證重要性****      - 所有風險分層與精準醫療工具都需前瞻性驗證 - 不應僅基於預測能力就推廣臨床使用 - 需證明能改變治療決策並改善預後
+4. ****務實型試驗設計的價值****      - 利用國家登記系統可大幅降低研究成本 - 無需實體訪視，減少患者負擔 - 可納入更廣泛的真實世界患者族群
+
+
+### 與既往研究的比較
+
+
+| p{5cm}p{5cm}} 風險評分比較 |  |  |
+| --- | --- | --- |
+| **評分系統** | **優勢** | **限制** |
+| **評分** | **優勢** | **限制** |
+| CHA2DS2-VASc | minipage[t]{5cm} • 簡單易用 |  |
+| • 廣泛驗證 |  |  |
+| • 指引推薦 | minipage[t]{5cm} • 分類變數 |  |
+| • 預測精度較低 |  |  |
+| • 個體化程度有限 |  |  |
+| ABC-AF | minipage[t]{5cm} • 連續變數 |  |
+| • 納入生物標記 |  |  |
+| • 預測更精確 | minipage[t]{5cm} • 需抽血檢驗 |  |
+| • 成本較高 |  |  |
+| • **未證實改善預後** |  |  |
+
+
+### 未來研究方向
+
+
+1. **不同醫療環境的驗證**      - 在抗凝治療使用率較低的地區進行研究 - 可能在基線治療品質較差的環境中看到效益
+2. **特定亞群分析**      - 識別可能從個人化治療獲益的特定患者族群 - 探討不同CHA2DS2-VASc評分層級的反應
+3. **整合其他治療策略**      - 結合節律控制策略 - 整合生活型態介入 - 考慮心血管共病的綜合管理
+4. **新型生物標記探索**      - 尋找可能影響治療選擇的新標記 - 開發治療反應預測模型
+
+
+## 臨床實務建議
+
+
+### 心房顫動管理
+
+
+> **風險評估：**
+> itemize
+>     \item 繼續使用CHA2DS2-VASc作為初步評估工具
+>     \item ABC-AF評分可用於研究或特殊情況
+>     \item 不建議常規使用ABC-AF評分改變治療決策
+> itemize
+> **抗凝治療：**
+> itemize
+>     \item 遵循現行指引建議
+>     \item CHA2DS2-VASc $\geq$ 2（男性）或 $\geq$ 3（女性）：建議抗凝
+>     \item 優先考慮DOAC而非Warfarin
+> itemize
+> **個人化考量：**
+> itemize
+>     \item 出血風險評估
+>     \item 患者偏好與依從性
+>     \item 腎功能與藥物交互作用
+>     \item 定期重新評估風險效益
+> itemize
+
+
+### 冠狀動脈異常管理
+
+
+基於本期AAOCA研究：
+
+- 成人AAOCA整體預後良好
+- 保守治療適用於大多數患者
+- 手術僅保留給：     itemize
+- 症狀嚴重且藥物治療無效
+- 明確缺血證據
+- 高風險解剖特徵
+
+
+    \item 定期追蹤與功能性評估
+itemize
+
+
+## 研究限制
+
+
+### ABC-AF試驗的限制
+
+
+1. **提前終止**      - 未達到目標樣本數 - 事件數少於預期 - 統計檢定力可能不足
+2. **基線特徵**      - 抗凝使用率極高（93 - 患者已接受良好治療 - 限制進一步改善空間
+3. **介入效果**      - 治療建議遵循度不一 - 除DOAC選擇外，其他改變有限 - 介入與對照組差異不足
+4. **族群代表性**      - 單一國家研究 - 醫療體系特性可能影響結果 - 結果外推需謹慎
+
+
+### 其他研究的限制
+
+
+**AAOCA研究：**
+
+- 回溯性設計
+- 單一中心經驗
+- 可能存在選擇偏差
+
+
+**RNA剪接研究：**
+
+- 橫斷面設計
+- 機制推論需進一步驗證
+- 臨床應用仍需時日
+
+
+## 結論
+
+
+> **主要結論：**
+> enumerate
+>     \item ABC-AF風險評分雖提供更精確的風險預測，但基於此評分的個人化治療策略**未能**改善心房顫動患者的臨床預後
+>     \item 風險分層工具的**預測能力**與**臨床效用**是兩個不同的概念，前者不必然保證後者
+>     \item 所有精準醫療工具在常規臨床應用前，都需要經過**前瞻性隨機對照試驗**驗證其能否改善患者預後
+>     \item 在已接受良好標準治療的族群中，進一步個人化介入的效益可能有限
+>     \item 務實型試驗設計結合國家登記系統，為大規模臨床研究提供可行模式
+> enumerate
+
+
+### 對臨床實務的影響
+
+
+1. **繼續遵循現行指引**：CHA2DS2-VASc仍為可靠的風險評估工具
+2. **重視治療品質**：確保符合抗凝適應症的患者都接受適當治療
+3. **謹慎採用新工具**：新的風險評估或治療工具應有充分證據支持
+4. **個人化醫療需驗證**：個人化策略必須證明能改善預後，而非僅有理論基礎
+
+
+### 對研究的啟示
+
+
+1. 風險預測模型的開發應與治療策略發展並行
+2. 需要更多研究探討如何將風險評估轉化為有效的臨床決策
+3. 務實型試驗設計在心血管研究中具有重要價值
+4. 基線治療品質會顯著影響介入試驗的結果
+
+
+## 參考文獻
+
+
+### 主要論文
+
+
+1. 
+2. Oldgren J, et al. Biomarker-Based ABC-AF Risk Scores for Personalized Treatment to Reduce Stroke or Death in Atrial Fibrillation: A Registry-Based, Multicenter, Randomized, Controlled Study. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA). 2025. (DOI待補充)*
+3. Gentile F, et al. Long-term Outcomes and Predictors of Adverse Events in Adults with Anomalous Aortic Origin of Coronary Arteries. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA). 2025;152(21). (DOI待補充)*
+4. Gao R, et al. Alternative Splicing Landscape of the Human Adult Left Ventricle in Health and Heart Failure. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA). 2025;152(21). (DOI待補充)*
+5. Marelli-Berg F, et al. Mechanisms of Peri- and Myocarditis Following COVID-19 Vaccination. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA). 2025;152(21). (DOI待補充)*
+
+
+### ABC-AF評分既往研究
+
+
+1. 
+2. Oldgren J, Hijazi Z, Lindbäck J, et al. Performance and validation of a novel biomarker-based stroke risk score for atrial fibrillation. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA.115.022049). 2016;134(22):1697-1707.*
+3. Hijazi Z, Lindbäck J, Alexander JH, et al. The ABC (age, biomarkers, clinical history) stroke risk score: a biomarker-based risk score for predicting stroke in atrial fibrillation. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehw054). 2016;37(20):1582-1590.*
+
+
+### 心房顫動指引
+
+
+1. 
+2. Hindricks G, Potpara T, Dagres N, et al. 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS). [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaa612). 2021;42(5):373-498.*
+3. January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS Focused Update of the 2014 AHA/ACC/HRS Guideline for the Management of Patients With Atrial Fibrillation. [*Circulation](https://doi.org/10.1161/CIR.0000000000000665). 2019;140(2):e125-e151.*
+
+
+## 附錄：Podcast資訊
+
+
+**節目：**Circulation on the Run  
+
+**日期：**2025年11月25日  
+
+**主持人：**
+
+- Dr. Peder Myhre, University of Oslo, Norway
+- Dr. Shirin Doroudgar, University of Arizona College of Medicine, Phoenix
+- Dr. Greg Hundley, Pauley Heart Center, Richmond, Virginia
+
+
+**特邀嘉賓：**
+
+- Dr. Jonas Oldgren, Uppsala University, Sweden（第一作者）
+- Dr. Torbjørn Omland, University of Oslo, Norway（Associate Editor）
+
+
+**Podcast DOI：**[10.1161/podcast.20251124.61165](https://doi.org/10.1161/podcast.20251124.61165)
+
+
+**關鍵詞：**心房顫動、ABC-AF風險評分、生物標記、個人化醫療、隨機對照試驗、中風預防、抗凝治療、務實型試驗

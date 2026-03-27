@@ -1,0 +1,480 @@
+# cath hemodynamics aortic stenosis Hanna
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+\maketitle
+
+
+> **影片來源：**YouTube  
+> **連結：**[https://www.youtube.com/watch?v=7l5kBea\_XIk](https://www.youtube.com/watch?v=7l5kBea_XIk)  
+> **講者：**Elias B. Hanna, MD (University of Iowa)  
+> **主題：**Hemodynamic Assessment of Aortic Stenosis: Technical Tips  
+> **總長度：**約 56 分鐘
+
+
+## 影片時間索引
+
+
+| p{11.5cm}}  **時間** | **主題內容** |  |
+| --- | --- | --- |
+| \tablename -- 續 |  |  |
+| **時間** | **主題內容** |  |
+| [00:00](https://www.youtube.com/watch?v=7l5kBea_XIk | t=0s) | 課程介紹 |
+| [00:16](https://www.youtube.com/watch?v=7l5kBea_XIk | t=16s) | **§1 主動脈瓣狹窄的波形特徵**：LV-Aorta同步壓力記錄、morphology分析、anacrotic notch |
+| [01:45](https://www.youtube.com/watch?v=7l5kBea_XIk | t=105s) | **§2 壓力梯度的類型**：Peak instantaneous gradient、Mean gradient、Peak-to-peak gradient |
+| [04:19](https://www.youtube.com/watch?v=7l5kBea_XIk | t=259s) | Pulsus tardus 與 pulsus parvus；年齡對波形的影響 |
+| [05:41](https://www.youtube.com/watch?v=7l5kBea_XIk | t=341s) | Zeroing error 的辨識：平行的LV與Aorta upstroke |
+| [06:26](https://www.youtube.com/watch?v=7l5kBea_XIk | t=386s) | **§3 AS與HOCM的鑑別診斷**：固定性阻塞 vs 動態性阻塞 |
+| [07:59](https://www.youtube.com/watch?v=7l5kBea_XIk | t=479s) | HOCM的波形特徵：Spike and dome、Dagger-shaped LV pressure |
+| [08:22](https://www.youtube.com/watch?v=7l5kBea_XIk | t=502s) | HOCM的回拉測試：LV body vs LVOT vs Aorta |
+| [09:53](https://www.youtube.com/watch?v=7l5kBea_XIk | t=593s) | **§4 壓力測量技術**：三種主要技術概述 |
+| [10:07](https://www.youtube.com/watch?v=7l5kBea_XIk | t=607s) | Pullback technique：適用範圍與限制 |
+| [12:29](https://www.youtube.com/watch?v=7l5kBea_XIk | t=749s) | Sheath + Catheter technique：Femoral vs Long sheath approach |
+| [13:32](https://www.youtube.com/watch?v=7l5kBea_XIk | t=812s) | Peripheral systolic amplification 現象 |
+| [14:57](https://www.youtube.com/watch?v=7l5kBea_XIk | t=897s) | Radial approach：Slender sheath (75 cm) 的使用 |
+| [16:22](https://www.youtube.com/watch?v=7l5kBea_XIk | t=982s) | Dual-lumen catheter (Langston catheter)：優缺點 |
+| [17:59](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1079s) | 同步測量範例：Peak-to-peak gradient判讀 |
+| [18:41](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1121s) | 回拉驗證的重要性：確認測量準確性 |
+| [19:26](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1166s) | **§5 測量誤差的辨識與處理**：三種誤差類型 |
+| [20:02](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1202s) | Zeroing error：歸零高度不同的影響 |
+| [21:12](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1272s) | Damping error：正常damping vs Over-damping vs Under-damping |
+| [23:13](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1393s) | Damping造成的假性梯度 |
+| [24:13](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1453s) | Damping的原因：血液、對比劑、空氣、管路長度、導管大小 |
+| [25:49](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1549s) | 修正Damping的方法：沖洗、交換transducer |
+| [28:45](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1725s) | 回拉驗證技術：兩條壓力線應重疊 |
+| [32:39](https://www.youtube.com/watch?v=7l5kBea_XIk | t=1959s) | Case 1：Damping導致假性低梯度的案例 |
+| [33:56](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2036s) | Case 2：Transducer damping的案例與dobutamine測試 |
+| [37:59](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2279s) | Position error：導管位置不正確 |
+| [40:13](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2413s) | Pigtail側孔汙染：LV壓力被Aorta壓力稀釋 |
+| [42:27](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2547s) | LVOT壓力梯度連續體：為何導管要深入LV body |
+| [44:07](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2647s) | **§6 心房顫動患者的梯度測量** |
+| [44:31](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2671s) | AF中的beat-to-beat variability |
+| [45:15](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2715s) | 為何要取最高梯度而非平均值 |
+| [46:47](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2807s) | AF的不規則性對cardiac output的影響 |
+| [48:05](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2885s) | **§7 Low-Gradient AS with Preserved EF** |
+| [48:32](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2912s) | Low-gradient AS的病因：非收縮功能問題 |
+| [49:28](https://www.youtube.com/watch?v=7l5kBea_XIk | t=2968s) | Loading condition異常：小preload、高afterload |
+| [50:06](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3006s) | 為何dobutamine在preserved EF無效 |
+| [50:38](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3038s) | 常見病因：Hypertensive HD、AF、Amyloidosis、Mitral disease |
+| [51:08](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3068s) | Type 1：Echo測量誤差（LVOT直徑、Pressure recovery） |
+| [51:41](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3101s) | Dimensionless Index (DVI) 的應用 |
+| [52:08](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3128s) | CT calcium scoring確認severe AS |
+| [52:30](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3150s) | Type 2：True low-flow state (SVI $<$ 35 mL/m²) |
+| [52:46](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3166s) | Type 3：Guideline cutoff misalignment（正常flow但低梯度） |
+| [53:28](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3208s) | Hakki equation與cutoff的數學關係 |
+| [54:33](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3273s) | **§8 Low-Gradient AS with Low EF** |
+| [54:54](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3294s) | Dobutamine stress echo：適用於Low EF |
+| [55:29](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3329s) | Dobutamine判讀標準：Gradient $>$40、AVA $<$1.0-1.2 |
+| [56:25](https://www.youtube.com/watch?v=7l5kBea_XIk | t=3385s) | 灰色地帶的處理：Gradient 30多、AVA $<$1.0 |
+
+
+> enumerate[leftmargin=*]
+>     \item 主動脈瓣狹窄(aortic stenosis, AS)的血流動力學評估不能只看數字，必須分析波形形態(morphology)
+>     \item 三種壓力梯度：peak instantaneous gradient、mean gradient、peak-to-peak gradient 各有不同應用場景
+>     \item 同步測量(simultaneous recording)優於回拉技術(pullback technique)，尤其在中等梯度的患者
+>     \item 常見的測量誤差包括：zeroing error、damping error、catheter position error
+>     \item Low-gradient AS with preserved EF 需區分真性嚴重AS與echo測量誤差
+> enumerate
+
+
+\tableofcontents
+
+---
+
+
+## 主動脈瓣狹窄的波形特徵
+
+
+### 典型血流動力學表現
+
+
+在嚴重主動脈瓣狹窄患者的同步左心室-主動脈壓力記錄中，最重要的觀察指標是波形形態，而非僅僅是數值。
+
+
+| p{10cm}} 主動脈瓣狹窄的典型波形特徵 |  |  |
+| --- | --- | --- |
+| **特徵** | **說明** |  |
+| \tablename  -- 續 |  |  |
+| **特徵** | **說明** |  |
+| 收縮期壓力差 | 左心室與主動脈之間存在明顯的收縮期壓力梯度，這是AS的標誌性表現 |  |
+| 主動脈上升緩慢 | 主動脈壓力上升(upstroke)不與左心室平行，呈現延遲且緩慢的上升，稱為 pulsus tardus |  |
+| 峰值延遲 | 主動脈壓力峰值出現時間較晚(late peaking)，與正常情況不同 |  |
+| Anacrotic notch | 主動脈壓力波形上的切跡，出現在瓣膜達到最大開口限制的時點（如0.8 cm²），此後血流變得緩慢 |  |
+| 脈壓降低 | 主動脈脈壓(pulse pressure)減小，稱為 pulsus parvus |  |
+| Dicrotic notch減弱 | 由於瓣膜僅能微幅開啟，關閉時也相應減弱 |  |
+
+
+波形形態的分析比單純數值更為重要。在嚴重AS中，主動脈壓力上升緩慢、峰值延遲是關鍵特徵。老年患者因血管順應性降低，anacrotic notch可能不明顯，但仍應存在某種程度的 pulsus tardus。
+
+
+### 特殊情況：年齡的影響
+
+
+老年患者因動脈硬化、血管順應性降低，可能出現以下改變：
+
+- 主動脈上升較為銳利(sharper upstroke)
+- Anacrotic notch 可能減弱或不明顯
+- 脈壓可能相對較大
+- Pulsus tardus 和 pulsus parvus 的敏感度下降
+
+
+## 壓力梯度的類型與應用
+
+
+### 三種壓力梯度的定義
+
+
+| p{4cm}p{5.5cm}} 三種壓力梯度的比較 |  |  |
+| --- | --- | --- |
+| **梯度類型** | **測量方式** | **臨床應用** |
+| \tablename  -- 續 |  |  |
+| **梯度類型** | **測量方式** | **臨床應用** |
+| Peak instantaneous gradient | 最高的瞬時點對點梯度    Echo Doppler可測得 | Echo診斷標準    嚴重AS: $>$64 mmHg |
+| Mean gradient | 曲線下面積的積分    即所有瞬時梯度的平均值 | 最重要的梯度指標    嚴重AS: $>$40 mmHg |
+| Peak-to-peak gradient | LV峰值壓與主動脈峰值壓之差    僅能由心導管測得 | 非生理性梯度    導管室最常用    視覺上最容易判讀 |
+
+
+### 三種梯度的數學關係
+
+
+> itemize[leftmargin=*]
+>     \item Mean gradient $\approx$ 65-70
+>     \item Peak-to-peak gradient $\approx$ 65
+>     \item Peak-to-peak gradient $\approx$ mean gradient（有時稍小於mean gradient）
+>     \item AS越嚴重，曲線下面積增加，但主動脈壓力下降幅度不一定成比例
+> itemize
+
+
+在HOCM（肥厚型阻塞性心肌病）中，我們主要使用peak-to-peak gradient和peak instantaneous gradient，**不使用mean gradient**。這是與AS評估的重要區別。
+
+
+## 主動脈瓣狹窄與HOCM的鑑別診斷
+
+
+### 波形形態學鑑別
+
+
+LVOT obstruction的鑑別診斷中，最重要的是區分固定性阻塞（AS）與動態性阻塞（HOCM）。
+
+
+| p{5cm}p{5cm}} AS與HOCM的波形鑑別 |  |  |
+| --- | --- | --- |
+| **特徵** | **Aortic Stenosis** | **HOCM** |
+| \tablename  -- 續 |  |  |
+| **特徵** | **Aortic Stenosis** | **HOCM** |
+| 阻塞時機 | 整個收縮期固定阻塞 | 動態性，在收縮中後期惡化 |
+| 早期收縮期 | 即有壓力梯度 | 無或極小梯度，LV與Aorta壓力接近 |
+| 中後期收縮期 | 梯度維持 | 梯度急劇增加，LV壓力急升，Aorta壓力驟降 |
+| 主動脈波形 | 緩慢上升(slow upstroke)    Anacrotic notch | Spike and dome morphology |
+| LV波形 | 圓頂形(rounded) | Late peaking    Dagger-shaped（匕首狀） |
+| 使用的梯度 | Mean gradient為主 | Peak-to-peak gradient為主 |
+
+
+HOCM的「spike and dome」形態是指主動脈壓力在早期收縮期先正常上升（spike），然後在中期收縮期因動態阻塞而驟降形成凹陷（dome）。LV壓力則呈現匕首狀的晚期高峰。
+
+
+### 回拉測試在HOCM的應用
+
+
+在HOCM患者進行導管回拉時：
+
+1. LV body壓力呈現late peaking dagger shape
+2. 回拉至LVOT時，壓力急劇下降，波形轉為spike and dome
+3. LVOT與主動脈之間梯度很小
+4. 主要梯度存在於LV body與LVOT之間
+
+
+## 壓力測量技術
+
+
+### 三種主要測量技術
+
+
+| p{4.5cm}p{6cm}} LV-Aortic壓力測量技術比較 |  |  |
+| --- | --- | --- |
+| **技術** | **方法** | **優缺點與適用情況** |
+| \tablename  -- 續 |  |  |
+| **技術** | **方法** | **優缺點與適用情況** |
+| Pullback technique    (10:07) | 單一導管從LV回拉至主動脈 | 優點：簡單快速    缺點：非同步測量，不準確    適用：排除AS（梯度$<$10-15 mmHg）或確認重度AS（梯度$>$40 mmHg）    不適用：梯度15-40 mmHg的灰色地帶 |
+| Sheath + catheter    technique    (12:29) | 長鞘管置於降主動脈    4F導管經鞘管進入LV | 優點：同步測量，較準確    建議：使用65 cm長鞘管至降主動脈，避免僅用股動脈鞘    Radial approach：使用75 cm slender sheath（6F外徑等同5F） |
+| Dual-lumen catheter    (Langston)    (16:22) | 單一導管內有雙腔    分別測量LV與Aorta | 優點：同步測量    缺點：管腔小易damping    目前已退出市場，可能未來重新上市 |
+
+
+Pullback technique在真正懷疑AS的病例中價值有限。導管室評估的大多數AS病例echo梯度約22-30 mmHg，屬於需要精確測量的灰色地帶，應使用同步測量技術。
+
+
+### 避免使用股動脈壓力的原因
+
+
+> 股動脈壓力相對於主動脈壓力會出現放大現象：
+> itemize[leftmargin=*]
+>     \item 年輕健康者更明顯（正常ABI約1.1）
+>     \item 高心輸出狀態更明顯（如主動脈瓣閉鎖不全）
+>     \item 股動脈壓力較主動脈壓力延遲
+>     \item 使用股動脈壓力會**低估**真正的AS梯度
+> itemize
+> **建議**：將長鞘管推進至降主動脈，而非僅留在股動脈
+
+
+## 測量誤差的辨識與處理
+
+
+### 三種主要測量誤差
+
+
+| p{5cm}p{5.5cm}} 三種測量誤差類型 |  |  |
+| --- | --- | --- |
+| **誤差類型** | **原因** | **辨識與處理** |
+| \tablename  -- 續 |  |  |
+| **誤差類型** | **原因** | **辨識與處理** |
+| **Zeroing error**    (20:02) | 兩個transducer的歸零高度不同 | 特徵：LV與Aorta upstroke平行但有梯度    處理：確保兩transducer在同一水平面歸零 |
+| **Damping error**    (21:12) | 管路中有血液、對比劑或空氣    管路過長或過軟    導管口徑過小 | 特徵：波形過度平滑，無dicrotic notch或LV dip    處理：沖洗系統、縮短管路、更換transducer |
+| **Position error**    (37:59) | 導管位置不正確    Pigtail部分側孔被主動脈壓力汙染 | 特徵：波形形態正常但梯度減小    處理：將導管深入LV body，確認在X光下的位置 |
+
+
+### Damping的詳細說明
+
+
+| p{10cm}} Damping的類型與特徵 |  |  |
+| --- | --- | --- |
+| **類型** | **特徵** |  |
+| \tablename  -- 續 |  |  |
+| **類型** | **特徵** |  |
+| 正常damping (optimal) | 主動脈波形有清楚的upstroke和dicrotic notch    LV波形有正常的dip和波動 |  |
+| Over-damping | 波形被「壓扁拉長」    無dicrotic notch    LV波形過度平滑，無正常凹陷    會造成假性低梯度或假性高梯度 |  |
+| Under-damping | 波形上有過多的切跡和震盪    較少見，本次討論不著重 |  |
+
+
+### 辨識與修正Damping誤差的步驟
+
+
+1. **沖洗系統**：用生理食鹽水徹底沖洗所有管路
+2. **縮短管路**：減少管路長度和stopcock數量
+3. **交換transducer**：將兩個transducer互換連接      - 若交換後damping反轉（原本正常的變damped，原本damped的變正常），表示問題在管路或transducer - 若交換後無變化，可能問題在導管本身，或記錄本來就正確
+4. **回拉驗證**：將LV導管回拉至主動脈，兩條壓力線應完全重疊      - 若重疊：確認測量正確 - 若不重疊：存在zeroing或damping誤差
+
+
+即使波形看起來不像typical damping error（沒有過度平滑），但若morphology與severity不符（如有明顯anacrotic notch卻低梯度），仍應懷疑有誤差存在。依序檢查zeroing、damping、position error。
+
+
+### Position Error的特殊考量
+
+
+> **Pigtail側孔汙染：**
+> itemize[leftmargin=*]
+>     \item Pigtail是multi-hole catheter
+>     \item 若導管未深入LV，部分側孔可能位於主動脈側
+>     \item 造成LV壓力被主動脈壓力「稀釋」，梯度被低估
+> itemize
+> **LVOT壓力梯度連續體（42:27）：**
+> itemize[leftmargin=*]
+>     \item 即使使用end-hole catheter，也需注意位置
+>     \item AS的flow acceleration從LVOT就開始，在主動脈瓣處達到最大
+>     \item 導管若僅在LVOT而非LV body，會低估梯度
+>     \item 這與echo測LVOT velocity時，PWD cursor不能太靠近瓣膜的原理相同
+> itemize
+> **建議**：確保導管深入LV body，而非停留在LVOT
+
+
+## 心房顫動患者的梯度測量
+
+
+### Atrial Fibrillation對梯度的影響
+
+
+| p{10cm}} 心房顫動對AS評估的影響 |  |  |
+| --- | --- | --- |
+| **因素** | **說明** |  |
+| \tablename  -- 續 |  |  |
+| **因素** | **說明** |  |
+| Beat-to-beat variability    (44:31) | RR間隔不同導致梯度逐拍變化    長RR → 較長preload → 較大stroke volume → 較高梯度 |  |
+| Low output state    (45:50) | AF本身是低心輸出狀態：    1. 失去atrial kick減少stroke volume    2. 節律不整本身降低cardiac output    即使心率控制良好，仍是低輸出狀態 |  |
+| 不規則性的影響    (46:56) | RR interval變異度越大，cardiac output越低    當RR間隔在$<$500 ms ($>$120 bpm)到$>$700 ms之間變化時，影響最大 |  |
+
+
+### AF患者的測量建議
+
+
+傳統教科書建議在AF中取5-10個心跳的平均梯度。**Dr. Hanna認為這是不正確的**。  
+[1ex]
+**正確做法**：取**最高梯度**，即最長RR間隔後的那一跳（尤其是長RR前有短RR的情況）。  
+[1ex]
+**理由**：AF是低輸出狀態，平均梯度會低估真正的AS嚴重度。我們需要捕捉最能代表血流動力學負擔的梯度。
+
+
+## Low-Gradient Aortic Stenosis with Preserved EF
+
+
+### 定義與分類
+
+
+Low-gradient AS with preserved EF的定義：
+
+- Aortic valve area $<$ 1.0 cm²（符合severe AS標準）
+- Mean gradient $<$ 40 mmHg（不符合severe AS梯度標準）
+- LVEF $\geq$ 50
+
+
+| p{4cm}p{8cm}} Low-Gradient AS with Preserved EF的三種情況 |  |  |
+| --- | --- | --- |
+| **類型** | **原因** | **說明** |
+| \tablename  -- 續 |  |  |
+| **類型** | **原因** | **說明** |
+| **Type 1**    (51:08) | Echo測量誤差 | 佔約50  LVOT直徑測量過小（$<$2.1 cm通常不正確）    Pressure recovery現象（高估梯度、低估瓣膜面積）    處理：重新測量echo，控制血壓後再測 |
+| **Type 2**    (52:30) | True low-flow state    (SVI $<$ 35 mL/m²) | 真正嚴重的AS伴隨低流量    原因：厚壁LV、小preload、高afterload（高血壓）    是preload-afterload mismatch，**不是收縮功能問題**    Dobutamine不會改善，反而可能使梯度更低 |
+| **Type 3**    (52:46) | Guideline cutoff misalignment    (SVI正常) | 正常flow狀態下，valve area 1.0 cm²對應的梯度約27-30 mmHg，而非40 mmHg    Valve area 0.8 cm²才對應gradient 40 mmHg    這是guideline定義的問題，非真正的discordance |
+
+
+### Dimensionless Index的應用
+
+
+> $$DVI = LVOT VTI{AV VTI} = LVOT velocity{AV velocity}$$
+> **臨床判讀：**
+> itemize[leftmargin=*]
+>     \item DVI $<$ 0.25：很可能是truly severe AS
+>     \item DVI $>$ 0.25：不太可能是truly severe AS，較可能是測量誤差
+> itemize
+> **優點**：不受LVOT直徑測量誤差影響
+
+
+### Low-Gradient AS的處理流程
+
+
+1. **First step**：確認echo測量的正確性      - 控制血壓後重新測量 - 檢查LVOT直徑（$<$2.1 cm通常不正確） - 計算DVI
+2. **Second step**：若仍有疑慮，進行確認檢查（52:08）      - **AV calcium scoring (CT)**：男性 $>$2000 AU，女性 $>$1200 AU 確認severe AS - **心導管**：同步LV-Aortic壓力測量
+3. **注意**：Low-gradient AS with preserved EF通常**不需要dobutamine stress echo**      - 問題不在收縮功能，而在loading condition - Dobutamine可能使小LV腔更小，進一步降低preload - 可能造成低血壓
+
+
+Exercise stress echo在某些研究中顯示約3/4的low-gradient AS患者在運動時會呈現truly severe，但目前實務上多直接使用CT calcium score或心導管確認。
+
+
+### Low-Gradient AS的常見病因
+
+
+- **Hypertensive heart disease**：最常見，造成厚壁、小腔、高afterload
+- **Atrial fibrillation**：低輸出狀態
+- **Cardiac amyloidosis**：10-15
+- **Mitral valve disease**：影響LV filling
+
+
+## Low-Gradient AS with Low EF
+
+
+### 與Preserved EF的區別
+
+
+| p{5cm}p{5cm}} Low-gradient AS：Low EF vs Preserved EF |  |  |
+| --- | --- | --- |
+| **特徵** | **Low EF** | **Preserved EF** |
+| \tablename  -- 續 |  |  |
+| **特徵** | **Low EF** | **Preserved EF** |
+| 主要問題 | 收縮功能(contractility)受損 | Loading condition異常    (小preload、高afterload) |
+| Dobutamine作用 | 有幫助，可區分true AS vs pseudo AS | 通常無幫助，可能有害 |
+| 下一步檢查 | Dobutamine stress echo | CT calcium score或心導管 |
+
+
+### Dobutamine Stress Echo在Low EF的應用
+
+
+**施行方式：**
+
+- 劑量：從5 µg/kg/min開始，每5分鐘增加（5→10→15→20 µg/kg/min）
+- 在任何達到目標的劑量即可停止
+
+
+**判讀標準（55:29）：**
+
+- **Truly severe AS**：Mean gradient上升至$>$40 mmHg，且valve area仍$<$1.0 cm²（或$<$1.2 cm²）
+- **Pseudo-severe AS**：Valve area隨心輸出增加而開放至$>$1.2 cm²
+
+
+**灰色地帶（56:25）：**
+
+- Gradient上升但未達40 mmHg（如30多），valve area仍$<$1.0 cm²
+- 多數情況下這仍是truly severe AS
+- 根據Mayo Clinic數據，gradient上升至$>$30 mmHg且valve area $<$1.0 cm²可判定為truly severe
+
+
+## 瓣膜面積的快速計算
+
+
+### Hakki簡化公式
+
+
+1981年，Hahnemann大學的心臟科研究員A-Hamid Hakki發現，在標準心率範圍內，Gorlin公式中的常數項（HR × SEP × 44.3）趨近於1000，因此可將公式大幅簡化。
+
+
+> **原始Gorlin公式：**
+> $$AVA = CO (mL/min){HR \times SEP \times 44.3 \times Mean Gradient}$$
+> **Hakki簡化公式：**
+> $$AVA = Cardiac Output (L/min){Peak-to-Peak or Mean Gradient (mmHg)}$$
+> **公式推導**：
+> itemize[leftmargin=*]
+>     \item 在正常心率範圍內，HR × SEP × 44.3 $\approx$ 1000
+>     \item 因此 CO (mL/min) / 1000 = CO (L/min)
+>     \item Hakki原始研究中，使用peak-to-peak gradient或mean gradient皆與Gorlin公式有極佳相關性（r = 0.96）
+> itemize
+
+
+### 臨床應用與限制
+
+
+| p{10cm}} Hakki公式的臨床應用 |  |  |
+| --- | --- | --- |
+| **項目** | **說明** |  |
+| \tablename  -- 續 |  |  |
+| **項目** | **說明** |  |
+| 適用範圍 | 心率60-100 bpm時最準確 |  |
+| 限制條件 | 心搏過緩（$<$60 bpm）或心搏過速（$>$100 bpm）時準確度下降    低心輸出狀態（$<$2.5 L/min）可能高估狹窄程度 |  |
+| 優點 | 簡單易記、可快速心算    不需測量systolic ejection period    導管室即時評估 |  |
+| 臨床意義 | 可在測量時即時驗證數據合理性    快速估算瓣膜面積 |  |
+
+
+**範例計算**：
+
+- Cardiac output = 3.9 L/min
+- Peak-to-peak gradient = 25 mmHg
+- $25 = 5$
+- Valve area $\approx$ 3.9/5 $\approx$ 0.78 cm²（符合severe AS標準）
+
+
+Hakki公式在1981年發表於Circulation，研究納入100位連續患者，證實簡化公式與原始Gorlin公式有極佳相關性（主動脈瓣狹窄r = 0.96, SEE = ±0.10 cm²；二尖瓣狹窄r = 0.94, SEE = ±0.19 cm²）。此公式至今仍是導管室快速評估瓣膜面積的標準方法。
+
+
+## 重點總結
+
+
+1. **波形分析優先**：不要只看數字，要分析morphology
+2. **同步測量**：對於suspected AS（尤其梯度15-40 mmHg），應使用simultaneous recording
+3. **誤差辨識**：熟悉zeroing、damping、position error的特徵與處理
+4. **回拉驗證**：即使做同步測量，仍應回拉確認兩條壓力線重疊
+5. **AF取最高梯度**：不要取平均值
+6. **Low-gradient AS with preserved EF**：先排除測量誤差（50
+7. **Low-gradient AS with low EF**：使用dobutamine stress echo評估
+8. **AS vs HOCM**：注意波形形態的差異（slow upstroke vs spike-and-dome）
+
+
+## 參考文獻
+
+
+1. Hakki AH, Iskandrian AS, Bemis CE, et al. A simplified valve formula for the calculation of stenotic cardiac valve areas. [*Circulation](https://doi.org/10.1161/01.cir.63.5.1050). 1981;63(5):1050-1055.*
+2. Gorlin R, Gorlin SG. Hydraulic formula for calculation of the area of the stenotic mitral valve, other cardiac valves, and central circulatory shunts. [*Am Heart J](https://doi.org/10.1016/0002-8703(51)90002-6). 1951;41(1):1-29.*
+3. Saikrishnan N, Kumar G, Sawaya FJ, et al. Accurate assessment of aortic stenosis: a review of diagnostic modalities and hemodynamics. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA.113.002310). 2014;129(2):244-253.*
+4. Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. [*Circulation](https://doi.org/10.1161/CIR.0000000000000923). 2021;143(5):e72-e227.*
+5. Hanna EB, Glancy DL. Practical Cardiovascular Hemodynamics: With Self-Assessment Problems. New York: Springer Publishing Company; 2012.
+6. Hanna EB. Practical Cardiovascular Medicine. 2nd ed. Hoboken, NJ: Wiley-Blackwell; 2022.
+7. Baumgartner H, Hung J, Bermejo J, et al. Recommendations on the Echocardiographic Assessment of Aortic Valve Stenosis: A Focused Update from the European Association of Cardiovascular Imaging and the American Society of Echocardiography. [*J Am Soc Echocardiogr](https://doi.org/10.1016/j.echo.2017.02.009). 2017;30(4):372-392.*
+8. Pibarot P, Dumesnil JG. Low-flow, low-gradient aortic stenosis with normal and depressed left ventricular ejection fraction. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2012.06.051). 2012;60(19):1845-1853.*
+9. Clavel MA, Pibarot P, Messika-Zeitoun D, et al. Impact of aortic valve calcification, as measured by MDCT, on survival in patients with aortic stenosis: results of an international registry study. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2014.05.066). 2014;64(12):1202-1213.*
+10. Dean LS, Kern MJ. Pearls in Hemodynamics: Measuring Valve Gradients and Areas. [*J Soc Cardiovasc Angiogr Interv](https://doi.org/10.1016/j.jscai.2022.100433). 2022;1(5):100433.*
+
+
+\vfill
+**0.5\textwidth**{0.4pt}
+[0.5em]
+**本文件根據 Dr. Elias B. Hanna (University of Iowa) 之教學演講整理**
+**影片來源：[https://www.youtube.com/watch?v=7l5kBea\_XIk](https://www.youtube.com/watch?v=7l5kBea_XIk)**
+**整理者：謝慕揚醫師 MD, PhD, FESC**

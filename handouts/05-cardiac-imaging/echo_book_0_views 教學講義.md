@@ -1,0 +1,77 @@
+# echo_book_0_views
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+titlepage
+    
+    {****心血管中心教學文件****
+}
+    
+    {\bfseries 經胸心臟超音波標準視窗雙語講義
+}
+    
+    {***Bilingual Transcript: Standard Windows in Transthoracic Echocardiography***
+}
+    
+    
+    
+> {**目標對象**
+> }
+>     心血管中心學生與技術員
+>     {**文件版本**
+> }
+>     第1.0版
+>     發布日期：\mydate
+
+
+    
+    
+    {心血管中心醫師 謝慕揚 Mu-Yang Hsieh, MD, PhD, FESC
+}
+    
+    
+    \tableofcontents
+    \vfill
+
+titlepage
+
+
+## 引言
+
+本講義為心臟超音波自學系列的一部分，旨在將經胸心臟超音波（Transthoracic Echocardiography, TTE）的標準視窗分解為易於理解的內容。基於YouTube影片: [Echo Tutorial: Comprehensive Transthoracic Echocardiogram - Mayo Clinic](https://www.youtube.com/watch?v=n5pGgjngv1k)的逐字稿，本講義以雙語形式呈現，左欄為英文原文，右欄為中文翻譯，幫助學生掌握TTE的基本概念，包括標準視窗、掃描技術與測量標準。本講義適用於心血管中心學生與技術員，作為自學與討論的參考資料。
+
+importantbox
+**重要提醒：** 本講義將TTE標準視窗（胸骨旁、心尖、下肋、鎖骨上）分解為清晰步驟，強調掃描與測量規範，適合初學者與進階學習者。
+importantbox
+
+
+## 經胸心臟超音波標準視窗雙語講義
+
+以下為影片逐字稿的雙語呈現，使用表格格式，左欄為英文原文，右欄為中文翻譯，涵蓋TTE的標準視窗、掃描技術與測量標準。
+
+
+| p{0.45\textwidth}}  **English Transcript** |
+| --- |
+| It's my hope today that we can kind of break down a comprehensive transthoracic echocardiogram to manageable pieces. |
+| There's a lot involved, let's go ahead and get started. The first thing I'd like to cover is the standard windows. There are really four standard transducer positions that we use in transthoracic echocardiography: the parasternal, the apical, subcostal, and suprasternal. |
+| The sonographer may sit at the right or left side of the patient and scan with either the right or the left hand. |
+| Digital acquisition standards should be a 3-beat clip. This gives us an adequate representation of anatomy and physiology. Longer clips may be acquired as needed, especially in patients with irregular rhythms like atrial fibrillation or in cases of pericardial disease and Doppler. |
+| The measurement standard should be: if a patient is in normal sinus rhythm, we should measure three cycles and average them. |
+| If a patient is in atrial fibrillation or an irregular rhythm, measure at least five cycles and average those measurements. |
+| Let's start with the parasternal window. |
+| The hash mark on the transducer is on the left, and you can see we have a nice view of the left ventricle. |
+| By rotating 90° in a clockwise fashion and tilting a little superiorly, we can have the short axis view at the level of the aortic valve. |
+| By moving slightly inferiorly, we're actually moving into the left ventricle. This is the short axis view at the level of the mitral valve. |
+| By either angling or sliding down a little further toward the apex, we then see the left ventricular short axis view at the level of the papillary muscles. |
+| And by sliding even a little further out, we have a very nice view of the very apex of the heart or the short axis view at the apical level. |
+| For more information on other programs in the tutorials in echocardiography series, as well as other educational series, please visit our website or email us at the information shown on the screen. |
+| Thank you for joining us. |
+
+
+## 參考資料
+
+
+- Comprehensive Transthoracic Echocardiogram Tutorial. YouTube Video. Available at: <https://www.youtube.com/watch?v=n5pGgjngv1k>.

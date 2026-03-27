@@ -1,0 +1,465 @@
+---
+title: "cath hemodynamics"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{\bfseriesemergency_red 右心導管血行動力學}
+[0.5cm]
+{emergency_blue 超音波評估與臨床應用}
+[1cm]
+{Echocardiography and Right Heart Catheterization}
+[1.5cm]
+
+
+{編撰者：謝慕揚 醫師}
+{MD, PhD, FESC}
+[0.3cm]
+{國立臺灣大學醫學院附設醫院新竹臺大分院}
+{內科部心臟血管科}
+[0.5cm]
+{製作日期：\mydate}
+
+
+## 前言
+
+
+血行動力學監測是心血管照護中不可或缺的一環。傳統上,右心導管(Right Heart Catheterization)是評估心臟壓力的黃金標準,但具有侵入性風險。隨著超音波技術的進步,我們現在可以透過非侵入性的心臟超音波(echocardiography)來評估大部分的血行動力學參數,此方法稱為「超音波右心導管」(Echo Right Heart Catheterization)。
+
+本講義將介紹如何透過超音波評估右心及肺動脈壓力,並說明各項參數的正常值與臨床意義。這些知識對於心導管室、加護病房及一般病房的護理照護都非常重要。講義的圖片取自網路X:@CardiovascularCorner. 
+
+figure
+    
+    [Image]
+
+
+## 血行動力學正常值
+
+
+了解正常值是判讀異常的基礎。以下整理各心腔及血管的正常壓力範圍:
+
+
+### 右心系統壓力
+
+
+| p{4cm}p{5cm}}  **測量位置** | **正常值範圍** | **平均值(括號內)** |
+| --- | --- | --- |
+| Right Atrial Pressure (RAP) | 1--5 mmHg | 平均值 3 mmHg     a wave: 2--7 (6) mmHg     v wave: 2--7 (5) mmHg |
+| Right Ventricular Pressure (RVP) | 收縮壓 15--30 mmHg     舒張壓 1--7 mmHg | 平均收縮壓 25 mmHg     平均舒張壓 4 mmHg |
+| Pulmonary Artery Pressure (PAP) | 收縮壓 15--30 mmHg     舒張壓 4--12 mmHg | 收縮壓 25 mmHg     舒張壓 9 mmHg     平均壓 9--19 (15) mmHg |
+| Pulmonary Capillary Wedge Pressure (PCWP) | 4--12 mmHg | 平均值 9 mmHg |
+
+
+### 左心系統壓力
+
+
+| p{4cm}p{5cm}}  **測量位置** | **正常值範圍** | **平均值(括號內)** |
+| --- | --- | --- |
+| Left Atrial Pressure (LA) | 2--12 mmHg | 平均值 8 mmHg     a wave: 4--16 (10) mmHg     v wave: 6--21 (12) mmHg |
+| Left Ventricular Pressure (LV) | 收縮壓 90--140 mmHg     舒張壓 3--12 mmHg | 收縮壓約 100--120 mmHg     舒張壓約 4--8 mmHg |
+
+
+在正常情況下,PCWP可以用來推估左心房壓力(LA pressure),因為在舒張期時,肺靜脈、左心房、左心室之間沒有阻力,壓力是相通的。因此PCWP常被用來評估左心室舒張末期壓力(LVEDP)。
+
+
+## 超音波測量方法
+
+
+透過都卜勒超音波(Doppler echocardiography),我們可以利用血流速度來計算壓力差,進而推估各心腔壓力。以下介紹主要的測量方法:
+
+
+### 右心房壓力估計 (RAP Estimation)
+
+
+右心房壓力主要透過下腔靜脈(Inferior Vena Cava, IVC)的大小及塌陷程度來估計:
+
+importantbox
+**IVC評估方法:**
+
+
+1. 測量IVC於肝靜脈匯入處遠端2 cm的直徑
+2. 觀察IVC隨呼吸的塌陷程度(Collapsibility Index, IVCCI)
+3. 使用呼吸變化模式(Respirophasic pattern)評估RAP
+
+
+**判讀標準:**
+
+- IVC $<$ 2.1 cm且吸氣時塌陷 $>$ 50
+- IVC $>$ 2.1 cm且吸氣時塌陷 $<$ 50
+- 介於兩者之間 → RAP = 8 mmHg (5--10 mmHg)
+
+
+importantbox
+
+
+### 右心室收縮壓與肺動脈收縮壓 (RVSP & PASP)
+
+
+利用三尖瓣逆流(Tricuspid Regurgitation, TR)的血流速度,透過簡化柏努利方程式(Simplified Bernoulli Equation)計算壓力差:
+
+importantbox
+**RVSP計算公式:**
+
+equation
+RVSP = 4 \times (V_{TR-MAX})^2 + RAP
+equation
+
+其中:
+
+- $V_{TR-MAX}$ = TR最大血流速度 (m/s)
+- RAP = 右心房壓力 (mmHg)
+
+
+**PASP計算:**
+
+在沒有右心室流出道(RVOT)或肺動脈瓣狹窄的情況下:
+equation
+PASP = RVSP
+equation
+
+因此:
+equation
+PASP = 4 \times (V_{TR})^2 + RAP
+equation
+importantbox
+
+
+此方法需要有足夠的TR訊號才能測量。若TR訊號不佳,可考慮使用contrast(生理食鹽水攪盪後注射)來增強訊號。測量時要取得最清楚的TR spectrum,且要取最大速度(peak velocity)。
+
+
+### 肺動脈舒張壓與平均壓 (PADP & MPAP)
+
+
+利用肺動脈瓣逆流(Pulmonary Regurgitation, PR)的血流速度來估計:
+
+importantbox
+**PADP計算公式:**
+
+equation
+PADP = 4 \times (V_{PR-ED})^2 + RAP
+equation
+
+其中:
+
+- $V_{PR-ED}$ = PR於舒張末期(end-diastole)的血流速度 (m/s)
+- 需測量PR spectrum末端的速度
+
+
+**MPAP估計:**
+
+平均肺動脈壓可透過PASP和PADP計算,或使用經驗公式:
+
+equation
+MPAP = 0.61 \times PASP + 2  mmHg
+equation
+
+或從PASP和PADP計算:
+equation
+MPAP \approx \text{PASP + 2 \times PADP}{3}
+equation
+importantbox
+
+
+### 肺微血管楔壓估計 (PCWP Estimation)
+
+
+PCWP可透過左心室舒張功能參數來估計,最常用的是E/E'比值:
+
+importantbox
+**PCWP估計方法:**
+
+使用僧帽瓣血流E波速度(mitral inflow E velocity)與組織都卜勒E'速度(tissue Doppler E' velocity)的比值:
+
+**測量位置:**
+
+- E wave: 於心尖四腔切面(apical 4-chamber view),將pulsed-wave Doppler sample volume置於僧帽瓣瓣尖處
+- E' velocity: 使用tissue Doppler於僧帽瓣環(mitral annulus)測量,通常取側壁(lateral)或中隔(septal)
+
+
+**PCWP估計:**
+
+- 若 E/E' $>$ 15 → PCWP通常 $>$ 18 mmHg (舒張功能異常合併高充填壓)
+- 若 E/E' $<$ 8 → PCWP通常 $<$ 12 mmHg (正常充填壓)
+- 若 8 $\leq$ E/E' $\leq$ 15 → PCWP介於中間,需結合其他參數判斷
+
+
+**更精確的估計公式:**
+equation
+PCWP \approx 1.9 + 1.24 \times (E/E')
+equation
+importantbox
+
+
+## 超音波切面與測量技巧
+
+
+### 標準切面
+
+
+| p{9cm}}  **切面名稱** | **測量項目與用途** |  |
+| --- | --- | --- |
+| Subcostal view (SC)     劍突下切面 | 評估IVC大小與collapsibility     測量IVC直徑於肝靜脈匯入處     觀察呼吸變化     用於估計RAP |  |
+| Apical 4-chamber view (A4C)     心尖四腔切面 | 測量TR velocity (連續波都卜勒)     測量E/E' ratio     評估右心室大小與功能     評估TR severity |  |
+| Parasternal short axis (PSAX) view     胸骨旁短軸切面 | 於主動脈瓣層面(AV level)測量PR velocity     評估RV大小     觀察中隔運動 |  |
+| Parasternal long axis view     胸骨旁長軸切面 | 測量LV尺寸與功能     評估僧帽瓣E wave velocity |  |
+
+
+### 測量注意事項
+
+
+1. **都卜勒角度:** 連續波都卜勒(Continuous Wave Doppler, CW)測量TR或PR時,超音波束應儘量平行於血流方向,角度誤差會影響速度測量的準確性
+2. **訊號品質:** 確保都卜勒訊號清晰且呈現完整的envelope形狀,必要時可使用contrast enhancement
+3. **多次測量:** 血行動力學參數會隨呼吸週期變化,建議測量多次(至少3--5次)取平均值
+4. **綜合判讀:** 不要只依賴單一參數,應結合多個測量值與臨床表現綜合判斷
+5. **心律不整:** 在心房顫動等心律不整時,測量值變異度大,需測量更多次並排除極端值
+
+
+## 臨床應用
+
+
+### 肺高壓篩檢與評估
+
+
+肺高壓(Pulmonary Hypertension)定義為平均肺動脈壓(MPAP) $\geq$ 20 mmHg。超音波是最常用的篩檢工具:
+
+importantbox
+**肺高壓的超音波證據:**
+
+
+1. **主要指標:**  - TR peak velocity $>$ 2.8 m/s (對應PASP $>$ 36 mmHg,假設RAP = 5 mmHg) - TR peak velocity 2.8--3.4 m/s且有其他肺高壓徵象
+2. **其他支持證據:**  - RV/LV基底部直徑比值 $>$ 1.0 - 中隔扁平化(D-shape septum) - RV流出道加速時間(RVOT acceleration time) $<$ 105 ms或出現mid-systolic notch - PR peak velocity $>$ 2.2 m/s - IVC直徑 $>$ 2.1 cm且塌陷 $<$ 50 - RA面積 $>$ 18 cm²
+
+
+若TR velocity無法測量,但存在多項其他支持證據,仍應高度懷疑肺高壓。
+importantbox
+
+
+### 右心衰竭監測
+
+
+在加護病房照護急性右心衰竭病人時,超音波血行動力學監測可提供即時資訊:
+
+
+1. **容量狀態評估:**  - IVC直徑與塌陷度反映右心充填壓 - 可指引輸液或利尿劑使用
+2. **右心功能:**  - RV大小、收縮功能(TAPSE, RV S') - 中隔運動型態(septal motion)
+3. **肺動脈壓力:**  - 追蹤PASP變化 - 評估肺血管擴張劑療效
+4. **左心充填壓:**  - E/E'評估PCWP - 對於心因性肺水腫的診斷與治療反應評估
+
+
+### 瓣膜性心臟病
+
+
+1. **TR severity評估:**  - 除了測量TR velocity外,需評估逆流的嚴重程度 - Severe TR可能低估PASP(因RV-RA壓力差減少)
+2. **僧帽瓣狹窄:**  - PCWP升高程度與僧帽瓣狹窄嚴重度相關 - 可能導致反應性肺高壓(reactive pulmonary hypertension)
+3. **左心瓣膜疾病:**  - 長期左心充填壓上升可導致二次性肺高壓 - PASP/PCWP評估可協助判斷pre-capillary或post-capillary肺高壓
+
+
+## 常見錯誤與陷阱
+
+
+### 測量技術相關
+
+
+1. **都卜勒角度錯誤:**  - 若超音波束與血流方向夾角過大,會低估血流速度 - 速度測量誤差會被平方放大,導致壓力差嚴重低估 - 務必從多個切面尋找最佳角度
+2. **RAP估計不準:**  - RAP估計誤差會直接影響PASP計算 - 在容量負荷狀態變化快速時(如大量輸液或利尿),IVC可能來不及反映真實RAP - 機械通氣病人的IVC評估較不可靠
+3. **訊號混淆:**  - 務必確認測量的是TR而非僧帽瓣逆流(MR) - PR訊號通常較弱,容易與雜訊混淆
+
+
+### 生理與病理考量
+
+
+1. **Severe TR:**  - 嚴重TR時RV與RA壓力接近,TR velocity反而下降 - 可能低估真實的RV收縮壓 - 需結合其他RV功能與大小的評估
+2. **RVOT或肺動脈瓣狹窄:**  - 此時RVSP會高於PASP - 不能直接以RVSP代表PASP - 需另外評估RVOT或肺動脈瓣
+3. **E/E'的限制:**  - 僧帽瓣環鈣化(mitral annular calcification)會影響E'測量 - 局部室壁運動異常(regional wall motion abnormality)時,不同位置的E'可能差異很大 - 心房顫動時E/E'不適用
+4. **呼吸影響:**  - 所有右心壓力都會隨呼吸變化 - 機械通氣時壓力變化模式與自然呼吸相反 - 建議在呼吸週期的同一時相測量
+
+
+## 與侵入性導管數據的比較
+
+
+雖然超音波評估方便且非侵入性,但仍有其限制。了解超音波與侵入性右心導管測量的相關性與差異很重要:
+
+
+### 準確度
+
+
+| p{10cm}}  **參數** | **與侵入性測量的相關性** |  |
+| --- | --- | --- |
+| PASP (from TR) | 相關性良好(r = 0.6--0.9)     但約30  高估或低估皆可能發生 |  |
+| PCWP (from E/E') | 相關性中等(r = 0.5--0.7)     在極端值時較可靠     中間範圍(E/E' 8--15)時不確定性高 |  |
+| RAP (from IVC) | 分層估計,非連續測量     可指引大致方向但精確度有限     機械通氣病人準確度下降 |  |
+
+
+### 何時需要侵入性導管檢查
+
+
+雖然超音波提供便利的評估工具,但在某些情況下仍需要侵入性右心導管:
+
+
+1. **確診肺高壓:** 超音波只能篩檢,確診需要右心導管直接測量
+2. **血管反應性測試:** 評估肺血管對於血管擴張劑的反應
+3. **精確血行動力學:** 需要精確數值以指引治療時(如心臟移植評估、LVAD置放前)
+4. **複雜血行動力學:** 如合併心臟分流、constrictive pericarditis等
+5. **超音波窗口不佳:** 肥胖、肺氣腫等導致超音波影像品質不佳
+6. **研究需求:** 臨床試驗或研究通常需要侵入性測量作為標準
+
+
+## 護理照護重點
+
+
+### 心導管室護理師
+
+
+1. **檢查準備:**  - 向病人解釋超音波檢查的目的與過程 - 協助病人擺位,通常為左側臥 - 確保檢查環境安靜,減少干擾
+2. **檢查協助:**  - 協助醫師進行各切面掃描 - 必要時協助病人呼吸配合(深吸氣、閉氣等) - 記錄測量數值
+3. **結果解讀:**  - 了解正常值範圍 - 能辨識異常升高的壓力數值 - 及時向醫師報告異常發現
+
+
+### 加護病房護理師
+
+
+1. **血行動力學監測:**  - 配合醫師進行床邊超音波評估 - 觀察IVC變化與容量狀態的關聯 - 記錄超音波測量數值於護理紀錄
+2. **治療反應評估:**  - 輸液或利尿劑使用後,觀察IVC與壓力變化 - 肺血管擴張劑使用時,追蹤PASP變化 - 整合超音波資訊與其他監測參數(vital signs, 尿量等)
+3. **病情變化警覺:**  - 認識右心衰竭的超音波表徵 - 了解肺高壓危象的表現 - 及時通知醫師異常變化
+
+
+### 專科護理師
+
+
+1. **臨床評估整合:**  - 結合理學檢查與超音波資訊 - 能夠初步判讀超音波報告 - 向主治醫師報告綜合評估結果
+2. **病人衛教:**  - 向病人及家屬解釋超音波檢查結果 - 說明異常壓力的臨床意義 - 衛教疾病管理與追蹤的重要性
+3. **跨團隊溝通:**  - 作為醫師、護理師、技術員之間的橋樑 - 協調安排必要的進階檢查 - 追蹤檢查結果與後續處置
+
+
+## 案例討論
+
+
+### 案例一:疑似肺高壓
+
+
+**病史:** 55歲女性,主訴運動性呼吸困難3個月,過去有全身性硬化症(systemic sclerosis)病史
+
+**超音波發現:**
+
+- TR peak velocity = 3.5 m/s
+- IVC = 2.3 cm,吸氣時塌陷 $<$ 30
+- RV/LV ratio = 1.2
+- 中隔扁平化
+
+
+**計算:**
+
+- 估計RAP = 15 mmHg (IVC $>$ 2.1 cm且塌陷 $<$ 50
+- PASP = $4 \times (3.5)^2 + 15 = 49 + 15 = 64$ mmHg
+
+
+**判讀:** 明顯肺高壓,且有多項支持證據。考慮病人有結締組織疾病病史,高度懷疑肺動脈高壓(pulmonary arterial hypertension),需安排右心導管確診並評估嚴重度。
+
+**護理重點:**
+
+- 監測活動耐受度與血氧飽和度
+- 避免過度活動導致症狀惡化
+- 協助安排進一步檢查
+- 衛教病人認識肺高壓及其症狀
+
+
+### 案例二:急性心衰竭
+
+
+**病史:** 70歲男性,急性呼吸困難,過去有缺血性心臟病與心衰竭病史
+
+**超音波發現:**
+
+- LV systolic function: severely reduced (LVEF 25
+- Mitral inflow E velocity = 1.2 m/s
+- Tissue Doppler lateral E' = 0.06 m/s
+- E/E' = 20
+- IVC = 2.5 cm,無明顯塌陷
+- TR velocity = 3.0 m/s
+
+
+**計算與判讀:**
+
+- E/E' = 20 → PCWP估計 $>$ 18 mmHg,顯著升高
+- 估計RAP = 15 mmHg
+- PASP = $4 \times (3.0)^2 + 15 = 36 + 15 = 51$ mmHg
+- 診斷:急性失代償性心衰竭,左心充填壓顯著升高,合併二次性肺高壓
+
+
+**治療方針:**
+
+- 利尿劑治療降低充填壓
+- 考慮血管擴張劑
+- 追蹤E/E'與PASP變化評估治療反應
+
+
+**護理重點:**
+
+- 每日體重監測
+- 精確的液體平衡記錄(intake/output)
+- 監測利尿劑效果與電解質
+- 評估呼吸困難改善程度
+- 衛教限水與低鹽飲食
+
+
+### 案例三:容量負荷評估
+
+
+**病史:** 45歲男性,敗血性休克(septic shock)使用vasopressor,詢問是否需要繼續輸液
+
+**超音波發現:**
+
+- IVC = 1.5 cm,吸氣時完全塌陷
+- LV hyperdynamic contraction
+- No significant valvular disease
+
+
+**判讀:**
+
+- IVC完全塌陷提示容量不足
+- 估計RAP $<$ 5 mmHg
+- 病人可能對輸液有反應(fluid responsive)
+
+
+**處置:** 給予fluid challenge,觀察血壓與臨床反應,並追蹤IVC變化
+
+**護理重點:**
+
+- 密切監測生命徵象
+- 記錄輸液量與vasopressor劑量
+- 觀察尿量變化
+- 評估組織灌流指標(皮膚溫度、末梢循環、意識狀態)
+- 若輸液後IVC擴大但血壓未改善,需考慮心臟功能問題
+
+
+## 總結
+
+
+超音波右心導管評估是現代心血管照護中不可或缺的工具。作為護理人員,了解這些血行動力學參數的意義與測量方法,有助於:
+
+
+1. 更好地理解病人的病理生理狀態
+2. 及時發現異常並通知醫師
+3. 評估治療反應
+4. 提供更精確的病人照護
+5. 進行適當的病人與家屬衛教
+
+
+雖然超音波測量比侵入性導管安全且方便,但仍有其限制。重要的是要將超音波資訊與臨床表現、其他檢查結果綜合判斷,而非單獨依賴某一項數值。任何疑問都應與醫師討論,必要時仍需進行侵入性右心導管檢查以獲得更精確的資訊。
+
+
+## 參考資料與延伸閱讀
+
+
+1. Rudski LG, et al. Guidelines for the echocardiographic assessment of the right heart in adults. J Am Soc Echocardiogr. 2010;23(7):685-713.
+2. Nagueh SF, et al. Recommendations for the evaluation of left ventricular diastolic function by echocardiography. J Am Soc Echocardiogr. 2016;29(4):277-314.
+3. Galiè N, et al. 2015 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Heart J. 2016;37(1):67-119.
+4. Lang RM, et al. Recommendations for cardiac chamber quantification by echocardiography in adults. J Am Soc Echocardiogr. 2015;28(1):1-39.
+5. Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine. 8th edition, 2007.
+
+
+**--- 講義結束 ---**

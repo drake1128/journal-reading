@@ -1,0 +1,169 @@
+---
+title: "CCU Book Reading Project"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+titlepage
+    
+    {****住院醫師讀書會課表****
+}
+    
+    {\bfseries Marino's The ICU Book
+}
+    
+    {***重症照護經典教科書導讀***
+}
+    
+    
+    
+> {**課程資訊**
+> }
+>     時間：每週六晚上 19:00-19:30
+>     對象：住院醫師
+>     總週數：10週
+>     教材：Marino's The ICU Book (第5版)
+>     {**課程目標**
+> }
+>     建立重症照護核心知識體系
+>     培養ICU臨床思維與決策能力
+>     掌握重症病人照護要點
+
+
+    \vfill
+    
+    {胸腔內科 耿立達 MD
+}
+    {制定日期：\mydate
+}
+    
+    
+titlepage
+
+
+---
+
+
+## 課程總覽
+
+
+importantbox
+**讀書會目標：**
+本讀書會以Marino's The ICU Book為核心教材，系統性地建立住院醫師的重症照護知識基礎。透過每週深入討論重要章節，培養對重症病人的評估、監測、治療決策能力，為進入ICU輪訓做好準備。
+importantbox
+
+
+Marino's The ICU Book被譽為重症照護領域最暢銷的參考書籍，作者Dr. Paul L. Marino擁有44年重症專科經驗。本書特色是實務導向、條理清晰，每章結尾都有"A Final Word"總結要點。
+
+
+---
+
+
+## 十週課程詳細安排
+
+
+| p{1.5cm}>{\arraybackslash}p{2.5cm}>{\arraybackslash}p{4cm}>{\arraybackslash}p{6.5cm}}  Marino's ICU Book 住院醫師讀書會課程安排表 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **週次** | **日期** | **主題** | **內容重點** |  |  |
+| **第1週** | **1/11** | **血管通路與基本操作** | **章節：**第1-3章   • 血管通路入門原理   • 中心靜脈通路建立技巧   • 留置血管導管照護   • 常見併發症預防與處理   推薦對照閱讀：[A Complication of Central Venous Catheterization](https://www.nejm.org/doi/full/10.1056/NEJMicm066728) |  |  |
+| **第2週** | **1/18** | **呼吸衰竭與機械通氣** | **章節：**第19-27章   • 低氧血症與高碳酸血症診斷   • 急性呼吸窘迫症候群   • 機械通氣原理與模式   • 脫離呼吸器策略   推薦對照閱讀：[Case 19-2020: A 74-Year-Old Man with Acute Respiratory Failure](https://www.nejm.org/doi/full/10.1056/NEJMcpc2002419) |  |  |
+| **第3週** | **1/25** | **循環衰竭與心因性休克** | **章節：**第12-16章   • 出血與低血容性休克   • 急性心衰症候群   • 心因性休克處理   • 血管活性藥物使用   推薦對照閱讀：[Case 38-2018: A 54-Year-Old Man with New Heart Failure](https://www.nejm.org/doi/abs/10.1056/NEJMcpc1810386) |  |  |
+| **第4週** | **2/1** | **急性腎衰竭與CVVH** | **章節：**第31章 + 補充資料   • 少尿與急性腎衰竭   • 連續性血液淨化原理   • CVVH操作與監測   • 電解質平衡維持   推薦對照閱讀：[Case 17-2020: A 68-Year-Old Man with Covid-19 and Acute Kidney Injury](https://www.nejm.org/doi/full/10.1056/NEJMcpc2002418) |  |  |
+| **第5週** | **2/8** | **生理監測與血行動力學** | **章節：**第7-11章   • 血氧測定與二氧化碳監測   • 肺動脈導管應用   • 中央靜脈壓與楔壓   • 組織氧合評估   推薦對照閱讀：[A Trial of Goal-Oriented Hemodynamic Therapy in Critically Ill Patients](https://www.nejm.org/doi/full/10.1056/NEJM199510193331601) |  |  |
+| **第6週** | **2/15** | **液體治療與輸血** | **章節：**第13、36-37章   • 膠質與晶質液復甦   • 貧血與紅血球輸血   • 血小板與凝血功能   • 液體平衡策略   推薦對照閱讀：[A Multicenter, Randomized, Controlled Clinical Trial of Transfusion Requirements in Critical Care](https://www.nejm.org/doi/full/10.1056/NEJM199902113400601) |  |  |
+| **第7週** | **2/22** | **感染與敗血症** | **章節：**第40-44章   • 感染、發炎與多器官衰竭   • ICU肺炎診斷與治療   • 敗血症識別與處理   • 抗微生物製劑選擇   推薦對照閱讀：[Severe Sepsis and Septic Shock](https://www.nejm.org/doi/full/10.1056/NEJMra1208623) |  |  |
+| **第8週** | **3/1** | **酸鹼平衡與電解質** | **章節：**第28-35章   • 酸鹼值系統性判讀   • 代謝性酸中毒處理   • 鈉鉀鎂鈣磷異常   • 腎功能與電解質調節   推薦對照閱讀：[Integration of Acid–Base and Electrolyte Disorders](https://www.nejm.org/doi/abs/10.1056/NEJMra1215672) |  |  |
+| **第9週** | **3/8** | **神經重症與營養支持** | **章節：**第45-52章   • ICU鎮痛鎮靜管理   • 意識障礙與神經評估   • 腸道與靜脈營養   • 代謝與內分泌調節   推薦對照閱讀：[Trial of the Route of Early Nutritional Support in Critically Ill Adults](https://www.nejm.org/doi/full/10.1056/NEJMoa1409860) |  |  |
+| **第10週** | **3/15** | **預防措施與綜合整合** | **章節：**第3-6章 + 全書整合   • 感染控制與預防   • 血栓預防策略   • 重要概念總複習   • 臨床決策整合討論   推薦對照閱讀：[Targeted versus Universal Decolonization to Prevent ICU Infection](https://www.nejm.org/doi/full/10.1056/NEJMoa1207290) |  |  |
+
+
+---
+
+
+## 學習方法建議
+
+
+### 課前準備
+
+
+- 閱讀指定章節（每週約3-5章）
+- 重點關注每章的"A Final Word"總結
+- 準備1-2個相關臨床問題
+- 複習相關基礎生理學概念
+
+
+### 課堂參與
+
+
+- **15分鐘：**重點內容講解與討論
+- **10分鐘：**臨床案例分析
+- **5分鐘：**重點總結與下週預習
+
+
+### 課後鞏固
+
+
+- 完成每週重點整理筆記
+- 查找相關最新文獻補充
+- 觀察病房相關病例
+- 準備下週討論問題
+
+
+## 重點學習目標
+
+
+> **知識面：**
+> itemize
+>     \item 掌握ICU基本操作技能理論基礎
+>     \item 理解重症病人生理病理變化
+>     \item 熟悉常用監測技術與數據判讀
+>     \item 建立系統性治療思維
+> itemize
+> **技能面：**
+> itemize
+>     \item 培養臨床問題解決能力
+>     \item 提升醫療決策判斷力
+>     \item 加強團隊溝通協作
+>     \item 建立患者安全意識
+> itemize
+
+
+## 參考資源
+
+
+### 主要教材
+
+
+- Marino's The ICU Book (5th Edition) - Paul L. Marino
+- 重症醫學會官方指引
+- UpToDate重症醫學相關條目
+
+
+### 補充讀物
+
+
+- Oh's Intensive Care Manual
+- Irwin & Rippe's Intensive Care Medicine
+- 最新重症醫學期刊文章
+
+
+importantbox
+**特別提醒：**
+每週課程會結合實際臨床案例討論，鼓勵住院醫師分享病房遇到的問題，將理論知識與臨床實務緊密結合。建議準備筆記本記錄重點，建立個人ICU知識庫。
+importantbox
+
+
+## 聯絡資訊
+
+
+> **主講醫師：**耿立達 MD, 謝慕揚 MD, PhD  
+> **Email：**G11135@hch.gov.tw  
+> **課程群組：**請加入「ICU讀書會」Line群組  
+> a**辦公室：**胸腔科辦公室
+
+
+****歡迎進入重症醫學的學習旅程！****

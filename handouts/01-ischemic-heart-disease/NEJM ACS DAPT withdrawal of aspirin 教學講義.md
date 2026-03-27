@@ -1,0 +1,229 @@
+# NEJM ACS DAPT withdrawal of aspirin
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-11-27**
+
+---
+
+titlepage
+    
+    {****教學部教學文件****
+}
+    
+    {\bfseries 抗血小板藥物降階策略：成與敗  
+NEJM 2025 雙篇重磅研究對比分析
+}
+    
+    {***TARGET-FIRST vs. NEO-MINDSET***
+}
+    
+    
+    
+> {**核心議題**
+> }
+>     在急性冠心症(ACS)或心肌梗塞(AMI)經皮冠狀動脈介入治療(PCI)後，**何時**可以安全地停用阿斯匹靈(Aspirin)，僅保留P2Y12抑制劑單一治療？
+>     **TARGET-FIRST:** 1個月後停用 $\rightarrow$ **成功 (Non-inferior)**
+>     **NEO-MINDSET:** 立即(4天內)停用 $\rightarrow$ **失敗 (Failed Non-inferiority)**
+
+
+    \vfill
+    
+    {心血管中心謝慕揚 MD, PhD, FESC 整理報告 with assistance by Google Gemini
+}
+    
+    
+titlepage
+
+
+---
+
+\tableofcontents
+
+---
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》兩篇最新病例研究而製作。請先取得該文獻後，搭配本文件自學。
+
+
+1. [**TARGET-FIRST: Early Discontinuation of Aspirin after PCI in Low-Risk Acute Myocardial Infarction](https://www.nejm.org/doi/full/10.1056/NEJMoa2508808)**
+2. [**NEO-MINDSET: Early Withdrawal of Aspirin after PCI in Acute Coronary Syndromes](https://www.nejm.org/doi/full/10.1056/NEJMoa2507980)**
+
+
+## 前言
+
+2025年11月27日的《New England Journal of Medicine》刊登了兩篇關於PCI術後早期停用Aspirin的研究。這兩項試驗雖然主題相似，但設計與結果截然不同，為臨床醫師提供了關於「降階治療時機(Timing of De-escalation)」的重要界線。本文件將詳細對比 **TARGET-FIRST** 與 **NEO-MINDSET** 兩項研究。
+
+
+## 兩項研究之並列比較 (Head-to-Head Comparison)
+
+
+| p{6cm} p{6cm}}   **項目** | **TARGET-FIRST** | **NEO-MINDSET** |
+| --- | --- | --- |
+| **研究設計** | 多中心、開放標籤、隨機對照試驗    (歐洲 40 個中心) | 多中心、開放標籤、隨機對照試驗    (巴西 50 個中心) |
+| **收納族群** | **低風險**急性心肌梗塞(AMI)    已接受**完全再血管化(Complete Revasc)**    且前30天DAPT無併發症 | 所有急性冠心症(ACS)    包括STEMI, NSTEMI, Unstable Angina    接受成功PCI治療 |
+| **隨機分派時間** | PCI後 **30天** | PCI後 **4天內** (平均2天) |
+| **介入組策略** | **停止Aspirin**    單用P2Y12抑制劑    (維持至12個月) | **立即停止Aspirin**    單用P2Y12抑制劑    (維持至12個月) |
+| **對照組策略** | 持續 DAPT (Aspirin + P2Y12)    至12個月 | 持續 DAPT (Aspirin + P2Y12)    至12個月 |
+| **P2Y12 使用比例** | Ticagrelor (74  Prasugrel (21  Clopidogrel (5 | **Prasugrel (70  Ticagrelor (28 |
+| **主要終點** | 11個月後的淨不良臨床事件(NACE)    (死亡、MI、中風、支架血栓、BARC 3/5出血) | 12個月後的複合缺血事件    (死亡、MI、中風、緊急TVR) |
+| **主要結果   (缺血/複合)** | ****非劣性成立 (Non-inferior)****    事件率: 2.1  差異: -0.09 | ****非劣性未成立 (Failed)****    事件率: 7.0  差異: +1.47 |
+| **次要結果   (出血)** | ****顯著優越 (Superior)****    BARC 2,3,5: 2.6  HR 0.46 (減少54 | **數值上較低**    BARC 2,3,5: 2.0  HR 0.40 (未進行正式檢定因主要終點失敗) |
+| **支架血栓   (Stent Thrombosis)** | 極低且相似    0.1 | ****單藥組較高****    12例 (0.7  (多發生於前30天) |
+| **結論** | 在**低風險且完全再血管化**患者，1個月後停用Aspirin是安全的，且能顯著減少出血。 | 在ACS患者中，PCI術後**立即**停用Aspirin會增加早期缺血風險，**不建議**作為常規做法。 |
+
+
+## TARGET-FIRST 研究詳解
+
+
+### 研究亮點
+
+
+- **目標族群明確:** 專注於「低風險」患者。排除高出血風險及複雜病灶（如左主幹、CTO、嚴重鈣化）。
+- **完全再血管化 (Complete Revascularization):** 要求在7天內處理所有病灶，確保解剖結構上的缺血風險降至最低。
+- **穩定期介入:** 在PCI後經過一個月DAPT觀察期，確認無併發症才隨機分派停藥。
+
+
+### 主要數據分析
+
+
+- **缺血安全性:** P2Y12單藥組與DAPT組在複合終點上無差異 (HR 1.02, 針對BARC 3/5出血或死亡等)。
+- **出血獲益:** 臨床相關出血 (BARC 2, 3, 5) 發生率從 5.6
+- **單藥選擇:** 絕大多數使用 Ticagrelor (74
+
+
+## NEO-MINDSET 研究詳解
+
+
+### 為何失敗？ (Why did it fail?)
+
+NEO-MINDSET 試圖挑戰極限，在PCI後 **4天內** 即停用 Aspirin。結果顯示：
+
+- **早期血栓風暴:** 支架血栓發生率單藥組為12例，DAPT組僅4例。其中10例亞急性血栓(Subacute ST)發生在30天內。
+- **缺血事件增加:** 死亡、MI、中風等複合終點，單藥組為7.0
+- **Prasugrel 的角色:** 本試驗高達 70
+
+
+### 臨床啟示
+
+本研究證實了 **Aspirin 在 PCI 術後第一個月的不可或缺性**。在血管內皮尚未修復、發炎反應最強烈的急性期，雙重路徑抑制（COX-1 + P2Y12）是必要的協同作用。
+
+
+## 綜合討論與臨床應用
+
+
+### 降階治療的黃金窗口
+
+
+綜合兩篇研究結果，我們可以描繪出ACS術後抗血小板治療的時序圖：
+
+
+tikzpicture[node distance=2cm]
+\node (start) [rectangle, draw=black, fill=gray!20, text width=3cm, align=center] {PCI 術後  
+(急性期)};
+\node (early) [rectangle, draw=emergency_red, fill=emergency_red!10, text width=4cm, align=center, right of=start, node distance=5cm] {**Day 0 - Day 30**  
+高血栓風險期};
+\node (mid) [rectangle, draw=success_green, fill=success_green!10, text width=4cm, align=center, right of=early, node distance=5cm] {**Day 31 - 1 Year**  
+風險趨穩期};
+
+\draw[->, thick] (start) -- (early);
+\draw[->, thick] (early) -- (mid);
+
+\node [below of=early, node distance=2cm, text width=4cm, align=center] {**NEO-MINDSET 失敗教訓**  
+此時不可停 Aspirin  
+易導致支架血栓};
+
+\node [below of=mid, node distance=2cm, text width=4cm, align=center] {**TARGET-FIRST 成功經驗**  
+若為低風險且完全再血管化  
+可停 Aspirin 轉單藥};
+
+tikzpicture
+基於 NEJM 2025 雙試驗之抗血小板策略時程建議
+
+
+### 決策流程建議
+
+
+importantbox
+**臨床決策關鍵點 (Take Home Message)**
+
+1. **前30天是紅線:** 無論使用何種強效P2Y12抑制劑（即使是Prasugrel），在PCI術後第一個月內停用Aspirin都是危險的，會增加缺血與支架血栓風險 (基於 NEO-MINDSET)。
+
+2. **30天後可評估降階:** 對於**低風險**、**無複雜病灶**且已達成**完全再血管化**的AMI患者，在DAPT滿一個月後停用Aspirin是安全且能顯著減少出血的策略 (基於 TARGET-FIRST)。
+
+3. **完全再血管化的重要性:** TARGET-FIRST 的成功建立在「解決了所有解剖性缺血風險」的基礎上。若患者仍有殘餘病灶，此策略可能不適用。
+importantbox
+
+
+## 醫學英文術語學習
+
+
+| p{8cm}}   **英文術語** | **中文解釋與應用** |  |
+| --- | --- | --- |
+| **Non-inferiority Trial** | **非劣性試驗**。旨在證明新療法（通常副作用較少或較方便）在療效上「不比現有療法差」。TARGET-FIRST 成功證明了這一點，而 NEO-MINDSET 失敗了。 |  |
+| **De-escalation Strategy** | **降階策略**。指從強效藥物換成溫和藥物，或從雙藥治療減少為單藥治療。 |  |
+| **Complete Revascularization** | **完全再血管化**。指處理所有有臨床意義的冠狀動脈病灶，而非僅處理致病血管(Culprit vessel)。這是 TARGET-FIRST 篩選病人的關鍵條件。 |  |
+| **Net Adverse Clinical Events (NACE)** | **淨不良臨床事件**。通常結合缺血事件（如中風、心肌梗塞）與出血事件的複合終點，用來評估治療的整體益處。 |  |
+| **Stent Thrombosis** | **支架血栓**。PCI 最嚴重的併發症之一。NEO-MINDSET 顯示過早停用 Aspirin 會增加此風險。 |  |
+
+
+---
+
+
+## 自我測驗題目卷
+
+
+1. 根據 TARGET-FIRST 研究，對於低風險 AMI 患者，在何時停用 Aspirin 轉為單藥治療被證實是安全的？     enumerate[label=\alph*)]
+2. PCI 術後立即 (4天內)
+3. PCI 術後 1 週
+4. PCI 術後 1 個月
+5. PCI 術後 6 個月
+
+
+    \item NEO-MINDSET 研究（極早期停用 Aspirin）最終宣告失敗，主要是因為單藥治療組發生了什麼不良結果？
+    
+1. 出血風險顯著增加
+2. 支架血栓與缺血事件增加
+3. 腎功能惡化
+4. 死亡率顯著下降
+
+
+    \item TARGET-FIRST 研究中，單藥治療組(Monotherapy)最主要使用的 P2Y12 抑制劑是哪一種？
+    
+1. Clopidogrel
+2. Ticagrelor
+3. Prasugrel
+4. Ticlopidine
+
+
+    \item 關於 NEO-MINDSET 研究中的藥物使用與結果，下列敘述何者正確？
+    
+1. 因為多數病人使用較弱的 Clopidogrel，導致研究失敗。
+2. 單藥組出血事件顯著高於 DAPT 組。
+3. 雖然多數病人使用了強效的 Prasugrel，但極早期停用 Aspirin 仍導致缺血風險增加。
+4. 研究證實 Prasugrel 單藥治療優於 DAPT。
+
+
+    \item TARGET-FIRST 研究能成功證實降階治療安全性，其關鍵的病人納入條件為何？
+    
+1. 收納高出血風險 (HBR) 患者
+2. 僅收納穩定型心絞痛患者
+3. 必須在 7 天內完成完全再血管化 (Complete Revascularization)
+4. 必須使用血管內影像 (IVUS/OCT) 指引
+
+
+enumerate
+
+
+---
+
+
+## 考題詳解
+
+
+1. **正確答案: (c) PCI 術後 1 個月**          **詳解:**      根據 **TARGET-FIRST** 研究設計，患者在接受 PCI 後必須先完成 **1個月** 的雙重抗血小板治療 (DAPT)，且在此期間未發生缺血或嚴重出血事件，才進行隨機分派停用 Aspirin。研究證實，對於低風險且完全再血管化的患者，在此時間點轉為單藥治療是安全且非劣性(non-inferior)的。      - (a) 錯誤：這是 NEO-MINDSET 的設計（PCI後4天內停藥），但該研究結果顯示會增加缺血風險。 - (b) 錯誤：本試驗未測試 1 週的時間點。 - (d) 錯誤：6 個月非本試驗設計的降階時間點。
+2. **正確答案: (b) 支架血栓與缺血事件增加**          **詳解:**      **NEO-MINDSET** 研究嘗試在 PCI 後 4 天內（平均 2 天）即停用 Aspirin。結果顯示單藥治療組未能達到非劣性標準，其主要複合缺血終點（死亡、心肌梗塞、中風等）發生率為 7.0
+3. **正確答案: (b) Ticagrelor**          **詳解:**      在 **TARGET-FIRST** 研究中，隨機分派時絕大多數患者使用的是 **Ticagrelor (74.0
+4. **正確答案: (c) 使用了強效藥物 Prasugrel 但仍無法避免早期風險**          **詳解:**      在 **NEO-MINDSET** 研究中，高達 **69.6
+5. **正確答案: (c) 必須完成完全再血管化 (Complete Revascularization)**          **詳解:**      **TARGET-FIRST** 的成功關鍵在於嚴格的納入標準。該研究要求患者必須在索引手術後 7 天內完成**完全再血管化**。這確保了患者在轉為單藥治療時，冠狀動脈的解剖性缺血負擔已降至最低。      - 相反地，NEO-MINDSET 雖然也是針對 ACS 患者，但並未將完全再血管化列為強制性的納入篩選條件（雖然約 44

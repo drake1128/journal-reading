@@ -1,0 +1,474 @@
+# https://www.nejm.org/doi/full/10.1056/NEJMcpc2412533
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+
+{**[Case 26-2025: An 11-Year-Old Girl with Chest Pain and Bone and Liver Lesions](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412533)**
+[0.5cm]
+{**病例 26-2025：Case Study**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2412533](https://doi.org/10.1056/NEJMcpc2412533)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 26-2025: An 11-Year-Old Girl with Chest Pain and Bone and Liver Lesions》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412533)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名11歲女童因胸痛、手臂疼痛及影像學發現多發性骨骼和肝臟病灶而轉入本院小兒科。患者在出現症狀前7天一直維持良好的健康狀態，直到出現噁心、嘔吐、腹部絞痛，以及右前臂、肘部、上臂和肩膀的非創傷性疼痛，並伴有胸骨疼痛。
+
+患者既往病史包括濕疹和反覆的MRSA皮膚軟組織感染，最近一次在2個月前接受trimethoprim-sulfamethoxazole治療。家中最近養了一隻小貓。
+
+
+兒童多發性骨骼病變需要系統性評估惡性腫瘤、感染和發炎性疾病。動物接觸史對診斷至關重要。
+
+
+### 症狀描述
+
+患者報告胸部和右臂疼痛持續7天，疼痛在深呼吸時加重。她無發燒、關節腫脹、皮疹或全身淋巴結腫大。疼痛在naproxen治療後緩解。轉院時患者生命徵象穩定，體格檢查除右臂壓痛外基本正常。
+
+
+## 身體檢查與檢驗結果
+
+
+### 身體檢查發現
+
+
+- 體溫37°C，血壓109/53 mm Hg，心率97次/分，呼吸頻率26次/分，氧飽和度100
+- 外觀良好，精神狀態正常
+- 無腋下、腹股溝或頸部淋巴結腫大
+- 心肺聽診正常
+- 腹部無壓痛，無肝脾腫大
+- 右臂和肩膀壓痛，無明顯關節積液
+- 無皮疹，神經學檢查正常
+
+
+### 實驗室檢查
+
+
+- 血紅蛋白：10.3 g/dL（參考值11.2-14.5）
+- 血容積：32.0
+- 平均紅血球容積：71.4 fL（參考值78.3-87.7）
+- 白血球計數：9,720/μL（參考值4,000-10,000）
+- 血小板計數：467,000/μL（參考值205,000-376,000）
+- 白蛋白：2.4 g/dL（參考值3.3-5.0）
+- 球蛋白：4.3 g/dL（參考值1.9-4.1）
+- 紅血球沉降率：>130 mm/hr（參考值45-115）
+- C反應蛋白：40.1 mg/L（參考值0.0-8.0）
+
+
+### 影像學檢查
+
+
+- **胸部和右臂X光**：正常
+- **右上臂靜脈超音波**：無深靜脈血栓，肘後兩個顯著淋巴結
+- **上腹部超音波**：右肝葉9mm低回音病灶
+- **MRI檢查**：右肱骨頭T2高信號病灶，胸骨骨髓信號異常，肝臟多發T2高信號病灶
+- **擴散加權影像**：肝臟多發點狀高信號病灶
+
+
+Diffusion-weighted imaging (DWI)對肝臟病灶的檢測比常規T2加權影像更敏感，能發現更多微小病灶。
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+本病例為一名11歲女童，表現為多發性骨骼和肝臟病變，需要考慮惡性腫瘤、感染和發炎性疾病。鑑別診斷需考慮患者的年齡、病史和症狀的時間進程。
+
+
+### 惡性腫瘤
+
+
+#### Ewing肉瘤和骨肉瘤
+
+
+- **推理依據**：兒童最常見的骨腫瘤
+- **排除理由**：病灶位於骨骺而非幹骺端，無骨破壞、骨膜反應或軟組織腫塊
+
+
+- Epiphyses = 骨骺（骨的兩端，關節面附近）
+- Metaphyses = 幹骺端（骨幹與骨骺之間的區域）
+- Diaphyses = 骨幹（長骨的中間部分)
+
+
+在NEJM Case 26-2025的原文中，相關完整上下文描述是："The most common bone tumors in children are Ewing's sarcoma and osteosarcoma. However, these tumors originate in the metaphyses of the long bones, and this patient's lesions were located in the epiphyses."
+
+
+#### 白血病
+
+
+- **推理依據**：兒童最常見的癌症，可累及骨髓和肝臟
+- **排除理由**：血常規正常，無器官腫大、發燒或出血傾向
+
+
+#### Langerhans細胞組織細胞症
+
+
+- **推理依據**：多系統組織細胞疾病，常累及骨骼和肝臟
+- **排除理由**：發病年齡不典型，常見部位為顱骨，影像應見溶骨性病變
+
+
+### 發炎性疾病
+
+
+#### 慢性非細菌性骨髓炎
+
+
+- **推理依據**：非感染性炎症疾病，可導致多發骨破壞
+- **排除理由**：高C反應蛋白不符合Bristol標準，且有肝臟累及
+
+
+#### 結節病
+
+
+- **推理依據**：可累及骨骼和肝臟
+- **排除理由**：骨骼結節病罕見且多累及手足，患者年齡偏小，無肺部病變
+
+
+### 感染性疾病
+
+
+#### 細菌性骨髓炎
+
+
+- **推理依據**：MRSA感染史增加血行播散可能性
+- **排除理由**：無發燒、白血球增多或病容，疼痛無抗生素治療即緩解
+
+
+#### Bartonella henselae感染
+
+
+- **推理依據**：小貓接觸史，多發性骨病變，肝臟微膿瘍
+- **支持證據**：>90
+
+
+貓抓病是兒童不明原因發燒的第三大常見原因，骨骼病變常多發且累及不典型部位如脊柱、骨盆、顱骨和胸骨。
+
+
+importantbox
+**貓抓病的臨床特點：**
+
+- **典型表現**：接種部位病灶後1-3週出現區域淋巴結腫大
+- **非典型表現**：5-20
+- **骨骼病變**：偏好累及下半身骨骼和脊柱，但可累及任何長骨
+- **肝臟累及**：可引起肝脾疾病和微膿瘍
+
+
+importantbox
+
+
+## 診斷與治療
+
+
+### 最終診斷
+
+
+1. **主要診斷**：播散性Bartonella henselae感染（貓抓病）
+2. **次要診斷**：多發性骨骼病變
+3. **併發症**：肝臟微膿瘍
+
+
+### 診斷依據
+
+
+- **血清學檢查**：B. henselae IgM滴度>1:20，IgG滴度1:4096
+- **流行病學**：小貓接觸史
+- **臨床表現**：多發性骨病變，肝臟病灶，炎症指標升高
+- **影像特徵**：骨髓信號異常，肝臟環形強化病灶
+
+
+### 治療策略
+
+
+#### 急性期處理
+
+
+- 症狀性治療：naproxen緩解疼痛
+- 眼科會診：排除眼內感染
+- 神經學評估：排除中樞神經系統累及
+
+
+#### 抗生素治療
+
+
+- **初始治療**：doxycycline + rifampin 28天
+- **調整治療**：azithromycin + rifampin 6個月（因病灶進展）
+- **典型貓抓病**：azithromycin 5天（僅用於淋巴結炎）
+
+
+### 治療監測
+
+
+- 28天治療後：C反應蛋白正常化，ESR改善（>130→68 mm/hr）
+- 血清學變化：IgM滴度<1:20，IgG滴度持續1:4096（血清轉換）
+- 影像追蹤：意外發現肝脾病灶增大，新增股骨、脛骨、腕骨病灶
+
+
+典型貓抓病主要采用支持性治療，通常2-4個月自限性恢復。系統性感染需要抗生素治療，rifampin被認為是最有效的治療選擇。
+
+
+## 圖說翻譯
+
+
+| |p{7cm}}          **English Original** | **繁體中文翻譯** |  |
+| --- | --- | --- |
+| **Figure 1. Initial Imaging Studies of the Right Shoulder and Liver.** |  |  |
+| A radiograph of the right shoulder is normal. An ultrasound image of the liver shows a subcentimeter hypoechoic lesion in the peripheral right hepatic lobe. | **圖1. 右肩和肝臟初始影像檢查**      右肩X光片正常。肝臟超音波影像顯示右肝葉周邊部1公分以下低回音病灶。 |  |
+| **Figure 2. Initial MRI.** |  |  |
+| MRI of the right shoulder shows a hyperintense lesion in the right humeral head and abnormal enhancement. MRI of the chest shows an abnormal signal in the bone marrow, centered over the second sternal element. | **圖2. 初始MRI檢查**      右肩MRI顯示右肱骨頭高信號病灶和異常強化。胸部MRI顯示第二胸骨元素為中心的骨髓信號異常。 |  |
+| **Figure 3. MRI of the Liver.** |  |  |
+| Coronal T2-weighted imaging confirms two hyperintense liver lesions. Axial fat-suppressed T1-weighted images show peripheral (rim) enhancement. Diffusion-weighted images show numerous subcentimeter hyperintense lesions throughout the liver. | **圖3. 肝臟MRI檢查**      冠狀面T2加權影像確認兩個肝臟高信號病灶。軸位脂肪抑制T1加權影像顯示周圍（環形）強化。擴散加權影像顯示整個肝臟多發1公分以下高信號病灶。 |  |
+
+
+---
+
+
+## 考題
+
+
+以下為針對本病例的單選題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者最可能的診斷是：     enumerate[label=\alph*)]
+2. Ewing肉瘤
+3. 播散性Bartonella henselae感染
+4. 急性淋巴母細胞白血病
+5. 慢性非細菌性骨髓炎
+
+
+    \item Bartonella henselae感染的主要傳播途徑是：
+    
+1. 人與人之間直接傳播
+2. 貓抓傷或咬傷
+3. 空氣飛沫傳播
+4. 食物媒介傳播
+
+
+    \item 貓抓病非典型表現的發生率約為：
+    
+1. 1-5
+2. 5-20
+3. 20-40
+4. 40-60
+
+
+    \item 系統性Bartonella henselae感染的首選治療組合是：
+    
+1. azithromycin單藥治療
+2. doxycycline + rifampin
+3. penicillin + gentamicin
+4. trimethoprim-sulfamethoxazole
+
+
+    \item 擴散加權影像(DWI)相比常規T2加權影像的優勢是：
+    
+1. 檢查時間更短
+2. 對肝臟病灶檢測更敏感
+3. 費用更低
+4. 不需要對比劑
+
+
+    \item 1歲以下小貓對B. henselae的抗體反應性約為：
+    
+1. 50
+2. 70
+3. >90
+4. 100
+
+
+    \item 貓抓病骨骼病變最常累及的部位是：
+    
+1. 上肢長骨
+2. 下肢長骨和脊柱
+3. 顱骨
+4. 肋骨
+
+
+    \item 典型貓抓病的自然病程是：
+    
+1. 2-4週自限性恢復
+2. 2-4個月自限性恢復
+3. 需要抗生素治療
+4. 常轉為慢性感染
+
+
+    \item 本病例中患者既往MRSA感染史的重要性在於：
+    
+1. 提示免疫功能低下
+2. 增加血行播散的可能性
+3. 需要使用萬古黴素治療
+4. 是診斷貓抓病的依據
+
+
+    \item 血清學診斷貓抓病的標準包括：
+    
+1. IgM滴度>1:20且IgG滴度>1:180
+2. 僅依靠IgG滴度升高
+3. 連續血清IgG滴度4倍升高
+4. 以上皆是
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：b) 播散性Bartonella henselae感染**      **詳解：** 小貓接觸史、多發性骨病變、肝臟病灶和血清學檢查確診貓抓病。
+2. **正確答案：b) 貓抓傷或咬傷**      **詳解：** B. henselae主要通過貓抓傷、咬傷或跳蚤叮咬傳播，人與人之間傳播不典型。
+3. **正確答案：b) 5-20      **詳解：** 非典型表現包括眼部、神經、肝脾或肌骨骼累及，發生率為5-20
+4. **正確答案：b) doxycycline + rifampin**      **詳解：** 系統性感染需要聯合治療，rifampin被認為是最有效的藥物。
+5. **正確答案：b) 對肝臟病灶檢測更敏感**      **詳解：** DWI對肝臟病灶的檢測比常規T2加權影像更敏感。
+6. **正確答案：c) >90      **詳解：** 超過90
+7. **正確答案：b) 下肢長骨和脊柱**      **詳解：** B. henselae偏好感染下半身骨骼和脊柱，但可累及任何長骨。
+8. **正確答案：b) 2-4個月自限性恢復**      **詳解：** 典型貓抓病通常在2-4個月內自限性恢復，無需抗生素治療。
+9. **正確答案：b) 增加血行播散的可能性**      **詳解：** MRSA感染史提示皮膚屏障功能受損，增加病原體血行播散的風險。
+10. **正確答案：d) 以上皆是**      **詳解：** 血清學診斷標準包括IgM和IgG滴度升高，以及連續血清4倍升高。
+
+
+## 英文寫作指導
+
+
+本節提供針對醫學報告中描述兒童感染性疾病與影像學發現的英文寫作指導，旨在幫助學生以專業、客觀且精確的語言撰寫臨床記錄。
+
+
+### 寫作原則
+
+
+1. **年齡相關性**：強調兒童特有的臨床表現和診斷考量。
+2. **時間順序**：清楚描述症狀發展的時間進程。
+3. **流行病學線索**：重視動物接觸史等關鍵流行病學信息。
+4. **影像學描述**：精確描述多種影像學檢查的發現。
+5. **診斷推理**：展現從症狀到診斷的邏輯思路。
+
+
+### 寫作步驟
+
+
+1. **描述流行病學背景**：      - 強調動物接觸史的重要性。 - *例句*：Recent exposure to a kitten significantly raised suspicion for zoonotic infection, particularly given the patient's multifocal bone and liver lesions.（最近的小貓接觸史顯著提高了人畜共患感染的懷疑，特別是考慮到患者的多發性骨骼和肝臟病灶。）
+2. **記錄影像學發現**：      - 系統性描述多種影像學檢查結果。 - *例句*：Diffusion-weighted imaging revealed numerous punctate hyperintense lesions throughout the liver that had not been detected on conventional sequences, demonstrating the superior sensitivity of this technique for detecting hepatic lesions.（擴散加權影像顯示整個肝臟多發點狀高信號病灶，這些在常規序列上未被發現，證明了該技術在檢測肝臟病灶方面的優越敏感性。）
+3. **描述診斷過程**：      - 說明如何排除其他可能診斷。 - *例句*：The multifocal bone lesions at atypical sites, combined with hepatic involvement and recent kitten exposure, strongly suggested disseminated Bartonella henselae infection rather than typical pediatric osteomyelitis.（多發性骨病變位於非典型部位，結合肝臟累及和最近的小貓接觸史，強烈提示播散性Bartonella henselae感染而非典型的小兒骨髓炎。）
+4. **描述血清學診斷**：      - 明確說明血清學檢查的診斷價值。 - *例句*：Serologic testing confirmed the diagnosis with elevated B. henselae IgM titer (>1:20) and IgG titer (1:4096), consistent with active bartonella infection.（血清學檢查確認診斷，B. henselae IgM滴度升高(>1:20)和IgG滴度(1:4096)，符合活動性巴爾通體感染。）
+5. **使用專業術語**：      - 採用標準臨床術語，如「disseminated bartonellosis」（播散性巴爾通體病）、「atypical manifestation」（非典型表現）、「zoonotic infection」（人畜共患感染）。
+
+
+在撰寫兒童感染性疾病病例時，應強調年齡特異性和流行病學因素的重要性，特別是動物接觸史。
+
+
+### 完整範例
+
+以下為基於Case 26-2025的完整臨床描述範例：
+quote
+This 11-year-old previously healthy girl presented with a 7-day history of chest and right arm pain following an initial episode of gastrointestinal symptoms. The clinical presentation was notable for the absence of fever, normal growth parameters, and well appearance despite evidence of systemic infection. Multimodal imaging revealed multifocal bone marrow signal abnormalities in atypical locations including the humeral head and sternum, as well as multiple hepatic lesions with rim enhancement characteristic of microabscesses. The key epidemiologic clue was recent acquisition of a kitten, which, combined with the pattern of multifocal osseous and hepatic involvement, strongly suggested disseminated cat scratch disease. Serologic confirmation with elevated B. henselae antibody titers established the diagnosis, and the patient responded well to combination antibiotic therapy with doxycycline and rifampin. This case exemplifies the importance of obtaining a thorough exposure history in pediatric patients with multisystem disease and highlights the utility of advanced imaging techniques in detecting occult infectious lesions.（這位11歲既往健康的女童因胸部和右臂疼痛7天就診，之前有胃腸道症狀發作。臨床表現的特點是無發燒、生長參數正常，儘管有全身感染證據但外觀良好。多模態影像顯示非典型部位的多發性骨髓信號異常，包括肱骨頭和胸骨，以及多個具有微膿瘍特徵性環形強化的肝臟病灶。關鍵的流行病學線索是最近養了一隻小貓，結合多發性骨骼和肝臟累及的模式，強烈提示播散性貓抓病。B. henselae抗體滴度升高的血清學確認確立了診斷，患者對doxycycline和rifampin聯合抗生素治療反應良好。本病例說明了在多系統疾病的兒科患者中獲得詳細接觸史的重要性，並突出了先進影像技術在檢測隱匿性感染病灶方面的實用性。）
+quote
+
+
+### 常見錯誤與避免方法
+
+
+- **忽略年齡因素**：避免使用成人疾病的典型描述，應強調兒童特有的表現。
+- **遺漏流行病學**：務必包含動物接觸史等關鍵信息。
+- **影像描述不精確**：準確描述不同影像學序列的特異性發現。
+- **診斷邏輯不清**：清楚展現從臨床表現到最終診斷的推理過程。
+
+
+## 重要知識點總結
+
+
+### Bartonella henselae感染
+
+
+- **病原體**：革蘭陰性桿菌，感染紅血球和內皮細胞
+- **傳播途徑**：貓抓傷、咬傷或跳蚤叮咬，<1歲小貓>90
+- **典型表現**：接種部位病灶後1-3週出現區域淋巴結腫大
+- **非典型表現**：5-20
+
+
+### 骨骼病變特點
+
+
+- **好發部位**：偏好下半身骨骼和脊柱，但可累及任何長骨
+- **影像特徵**：多發性骨髓信號異常，位於非典型部位
+- **鑑別診斷**：與兒童骨髓炎、骨肉瘤、Ewing肉瘤等鑑別
+
+
+### 診斷方法
+
+
+- **血清學**：IgM>1:20和IgG>1:180提示活動性感染
+- **分子診斷**：PCR檢測敏感性和特異性高
+- **組織培養**：因細菌苛養性，培養時間長（中位21天）
+
+
+### 治療選擇
+
+
+- **典型貓抓病**：主要採用支持性治療，2-4個月自限性恢復
+- **淋巴結炎**：azithromycin 5天有臨床益處
+- **系統性感染**：rifampin最有效，常與doxycycline聯用
+- **神經系統累及**：rifampin + doxycycline聯合治療
+
+
+importantbox
+**臨床要點：**
+
+- 兒童多發性骨病變需系統性評估惡性腫瘤、感染和炎症性疾病
+- 動物接觸史在人畜共患感染診斷中至關重要
+- 擴散加權影像對肝臟微病灶檢測更敏感
+- 貓抓病預後極佳，即使無抗生素治療，幾乎所有免疫功能正常患者完全恢復
+- 血清學檢查是貓抓病診斷的主要方法
+
+
+importantbox
+
+
+---
+
+
+## Bartonella感染臨床分型
+
+
+| |p{6cm}|p{6cm}}          **臨床類型** | **典型表現** | **治療建議** |
+| --- | --- | --- |
+| **典型貓抓病** | 接種部位病灶＋區域淋巴結腫大，通常無發燒 | 支持性治療，考慮azithromycin 5天 |
+| **眼部貓抓病** | Parinaud眼腺症候群，結膜炎伴耳前淋巴結腫大 | 支持性治療，嚴重時考慮抗生素 |
+| **神經系統貓抓病** | 腦病變、痙攣、神經視網膜炎 | rifampin + doxycycline |
+| **肝脾貓抓病** | 發燒、腹痛、肝脾腫大，肝臟微膿瘍 | rifampin ± doxycycline |
+| **骨骼貓抓病** | 多發性骨髓炎，偏好脊柱和骨盆 | rifampin + doxycycline，治療期較長 |
+| **播散性貨抓病** | 多器官累及，發燒，全身症狀 | rifampin + doxycycline，6個月療程 |
+
+
+### 影像學檢查選擇
+
+
+- **超音波**：首選檢查，可發現較大肝臟病灶和淋巴結腫大
+- **MRI**：最敏感的檢查方法，可發現骨髓信號異常和軟組織病變
+- **擴散加權影像**：對肝臟微病灶最敏感，優於常規T2序列
+- **全身MRI**：評估多發性病變的最佳選擇
+
+
+importantbox
+**預後與隨訪：**
+
+- 貓抓病各種形式的預後都極佳
+- 即使無抗生素治療，幾乎所有免疫功能正常患者完全恢復
+- 疾病復發罕見
+- 系統性感染需要定期影像學和實驗室監測
+- 免疫功能正常患者無需長期抗生素治療
+
+
+importantbox

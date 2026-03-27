@@ -1,0 +1,582 @@
+---
+title: "https://www.nejm.org/doi/full/10.1056/NEJMcpc1916254"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**[Case 13-2020: A 29-Year-Old Man with High Blood Pressure, Renal Insufficiency, and Hematuria](https://www.nejm.org/doi/full/10.1056/NEJMcpc1916254)**
+[0.5cm]
+{**病例 13-2020：29歲男性高血壓、腎功能不全與血尿**}
+[0.3cm]
+{N Engl J Med 2020   [DOI: 10.1056/NEJMcpc1916254](https://doi.org/10.1056/NEJMcpc1916254)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 13-2020: A 29-Year-Old Man with High Blood Pressure, Renal Insufficiency, and Hematuria》](https://www.nejm.org/doi/full/10.1056/NEJMcpc1916254)而製作，請先取得該文經後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名29歲白人男性因高血壓、腎功能不全和血尿至本院腎臟科門診評估。在本次評估前8個月，患者在就業體檢時被告知有高血壓，但未進行進一步評估。在本次評估前1個月，患者接受例行身體檢查時發現血壓175/100 mm Hg，開始使用amlodipine治療。
+
+
+### 症狀描述
+
+患者在使用amlodipine治療6天後出現深色尿液。他回報在過去10個月曾間歇性出現血尿和泡沫尿，新出現的右側下肢水腫較左側嚴重。在最近一次就診前2週，患者有2天的感冒症狀，但無其他呼吸道症狀。患者否認排尿困難、頻尿、阻塞性排尿症狀、外傷史或劇烈運動。
+
+
+年輕男性新發現的高血壓合併腎功能不全，需要系統性評估腎實質疾病、腎血管疾病和腎絲球疾病。病史中的間歇性血尿和泡沫尿提示可能存在腎絲球病變。
+
+
+## 身體檢查與檢驗結果
+
+
+### 身體檢查發現
+
+
+- 體溫36.9°C，心率71次/分，血壓160/102 mm Hg
+- 體重89公斤，身高未記載，BMI 27.2
+- 1+下肢水腫
+- 其餘檢查正常
+
+
+### 實驗室檢查
+
+
+| p{4cm}p{4cm}}          **檢驗項目** | **參考值** | **患者數值** |
+| --- | --- | --- |
+| 血紅蛋白 (g/dL) | 13.5-17.5 | 10.7 |
+| 血容積 ( | 41.0-51.0 | 31.5 |
+| 白血球計數 (/μL) | 4,500-11,000 | 7,670 |
+| 血小板計數 (/μL) | 150,000-400,000 | 214,000 |
+| 尿素氮 (mg/dL) | 8-25 | 48 |
+| 肌酸酐 (mg/dL) | 0.60-1.50 | 3.93 |
+| 鉀 (mmol/L) | 3.4-5.0 | 3.9 |
+| 白蛋白 (g/dL) | 3.3-5.0 | 3.8 |
+| 總膽固醇 (mg/dL) | <200 | 171 |
+| 25-羥維生素D (ng/dL) | 20-80 | 10 |
+| 副甲狀腺激素 (pg/mL) | 10-60 | 62 |
+| Kappa輕鏈 (mg/dL) | 3.3-19.4 | 106.8 |
+| Lambda輕鏈 (mg/dL) | 5.7-26.3 | 70.0 |
+| IgG (mg/dL) | 614-1,295 | 687 |
+| IgA (mg/dL) | 69-309 | 513 |
+| IgM (mg/dL) | 53-334 | 46 |
+
+
+### 尿液檢查
+
+
+| p{4cm}p{4cm}}          **檢驗項目** | **參考值** | **患者數值** |
+| --- | --- | --- |
+| 顏色 | 黃色 | 黃色 |
+| 清澈度 | 清澈 | 微混濁 |
+| pH | 5.0-9.0 | 5.0 |
+| 比重 | 1.001-1.035 | 1.012 |
+| 血 | 陰性 | 3+ |
+| 蛋白質 | 陰性 | 3+ |
+| 紅血球 (/HPF) | 0-2 | 50-100 |
+| 白血球 (/HPF) | 0-2 | 3-5 |
+| 尿肌酸酐 (mg/dL) | - | 98 |
+| 總蛋白 (mg/dL) | 0.0-13.5 | 556.3 |
+
+
+尿液沉渣檢查顯示變形紅血球、白血球圓柱體和細顆粒圓柱體，這些發現高度提示腎絲球性血尿和發炎。
+
+
+## 影像學檢查
+
+
+- **腎臟超音波檢查**：雙側腎臟大小正常，腎實質回音增強，無水腎現象
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+本病例為一名29歲男性，表現為新發現的高血壓、快速進展的腎功能不全和血尿。尿液沉渣顯示變形紅血球和白血球圓柱體，高度提示急性腎絲球腎炎。在年輕且無系統性症狀的患者中，需考慮以下診斷：
+
+
+### 快速進展性腎絲球腎炎的分類
+
+
+#### 抗腎絲球基底膜疾病
+
+
+- **推理依據**：年齡分布有兩個高峰（20-30歲和60-70歲）
+- **排除理由**：無肺出血症狀，血清抗GBM抗體陰性
+- **機轉**：自體抗體攻擊腎絲球和肺泡基底膜
+
+
+#### ANCA相關血管炎
+
+
+- **推理依據**：可引起快速進展性腎絲球腎炎
+- **排除理由**：無全身症狀（發燒、體重減輕、關節痛），ANCA陰性
+- **機轉**：自體抗體導致小血管炎
+
+
+#### 狼瘡性腎炎
+
+
+- **推理依據**：年輕患者出現腎絲球腎炎
+- **排除理由**：無全身症狀，ANA和抗ds-DNA抗體陰性
+- **機轉**：免疫複合體沉積導致腎絲球損傷
+
+
+#### C3腎絲球病變
+
+
+- **推理依據**：可引起年輕患者的快速進展性腎絲球腎炎
+- **部分支持**：平均發病年齡約32歲
+- **機轉**：替代補體路徑調控異常
+- **關鍵診斷**：需腎臟切片顯示C3為主的免疫螢光染色
+
+
+#### IgA腎病變
+
+
+- **推理依據**：     itemize[nosep]
+- 年輕男性（20-30歲高峰）
+- 間歇性血尿和蛋白尿病史
+- 無系統性症狀
+- 上呼吸道感染後出現症狀
+
+
+    \item **典型特徵**：
+    
+- 腎絲球系膜IgA沉積
+- 可表現為慢性血尿或快速進展性腎絲球腎炎
+- 最常見於歐洲和亞洲人群
+
+
+    \item **支持證據**：
+    
+- 血清IgA輕度升高（513 mg/dL）
+- 無其他系統性疾病證據
+- 尿液沉渣符合腎絲球疾病
+
+
+itemize
+
+
+在年輕、無系統性症狀、有間歇性血尿病史的患者中，IgA腎病變是最可能的診斷。腎臟切片是確診的必要檢查。
+
+
+importantbox
+**IgA腎病變的臨床特點：**
+
+- 最常見的原發性腎絲球疾病
+- 男性發病率為女性的2倍
+- 典型表現為反覆血尿，常伴隨上呼吸道感染
+- 約10
+- 腎臟切片顯示系膜IgA沉積為診斷金標準
+- 長期預後與蛋白尿程度、腎功能和病理分級相關
+
+
+importantbox
+
+
+## 診斷與治療
+
+
+### 腎臟切片病理
+
+腎臟切片顯示新月體性腎絲球腎炎，伴有細胞性和纖維細胞性新月體。超過半數的腎絲球有系膜細胞增生，並可見內皮細胞增生和節段性硬化。腎間質纖維化和腎小管萎縮約佔30
+
+免疫螢光檢查顯示腎絲球系膜區強烈（4+）的顆粒狀IgA沉積，另有較弱的C3染色（局部3+），此發現與C3腎絲球病變不符。以IgA為主的系膜沉積模式確診為IgA相關腎絲球腎炎。結合光學顯微鏡下的新月體性腎絲球腎炎表現，診斷為新月體性IgA腎病變。
+
+
+### Oxford分類系統（MEST-C）
+
+
+| p{4.5cm}p{1.5cm}p{1.5cm}}          **組織學變數** | **定義** | **評分** |
+| --- | --- | --- |
+| 系膜細胞增生    (Mesangial hypercellularity) | 每個系膜區≥4個系膜細胞 | M0/M1 |
+| 內皮細胞增生    (Endocapillary hypercellularity) | 腎絲球微血管腔內細胞數增加 | E0/E1 |
+| 節段性硬化    (Segmental glomerulosclerosis) | 節段性腎絲球硬化伴微血管腔閉塞 | S0/S1 |
+| 腎小管萎縮/間質纖維化    (Tubular atrophy/Interstitial fibrosis) | 受影響的皮質區域百分比 | T0/T1/T2 |
+| 新月體    (Crescents) | 有細胞性或纖維細胞性新月體的腎絲球百分比 | C0/C1/C2 |
+
+
+本患者的MEST-C評分為M1E1S1T1C2，提示高度腎衰竭風險。較高的評分（M1、S1、T1、T2、C2）與腎功能下降或進展至末期腎病相關；E1和C1評分在未接受免疫抑制治療的患者中與較快的腎功能下降相關。
+
+
+### 最終診斷
+
+
+1. **主要診斷**：新月體性IgA腎病變
+2. **併發症**：快速進展性腎絲球腎炎，高血壓，貧血
+
+
+### 治療策略
+
+
+#### 免疫抑制治療
+
+
+- **一線治療**：     itemize[nosep]
+- Methylprednisolone靜脈注射（1000 mg/天，連續3天）
+- 隨後改為口服prednisone（60 mg/天）
+- Cyclophosphamide（患者因擔心性腺毒性而拒絕）
+
+
+    \item **二線治療**：
+    
+- Mycophenolate mofetil（1000 mg，每日兩次）
+- 雖然證據有限，患者接受此方案
+
+
+itemize
+
+
+#### 支持性治療
+
+
+- **血壓控制**：使用labetalol（初期避免ACEi/ARB因高鉀血症）
+- **預防性藥物**：     itemize[nosep]
+- Sulfamethoxazole-trimethoprim（預防肺囊蟲感染）
+- Omeprazole（胃保護）
+- 鈣劑和維生素D（骨骼保護）
+
+
+itemize
+
+
+#### 腎臟替代治療
+
+
+- 3個月後肌酸酐升至7.7 mg/dL
+- 出現容量過載、高鉀血症、尿毒症症狀
+- 約4個月後開始腹膜透析
+- 透析2個月後接受活體無關供者腎臟移植
+
+
+### 治療監測與預後
+
+
+- 移植後6個月患者恢復全職工作
+- 移植後近2年腎功能良好，無IgA腎病變復發跡象
+- 維持免疫抑制方案：mycophenolate sodium、tacrolimus、prednisone
+- 併發症：高血壓、酒糟鼻復發、不孕症（持續治療中）
+
+
+IgA腎病變在腎移植後復發率為21-58
+
+
+importantbox
+**IgA腎病變預後因子：**
+
+- **不良預後指標**：     itemize[nosep]
+- 持續性蛋白尿>1 g/天
+- 血壓控制不良
+- 腎功能快速下降
+- 病理上有新月體（>25
+- 顯著的間質纖維化和腎小管萎縮（>50
+
+
+    \item **治療目標**：
+    
+- 血壓<130/80 mm Hg
+- 蛋白尿<1 g/天
+- 穩定腎功能
+- 預防併發症
+
+
+itemize
+importantbox
+
+
+---
+
+
+## 考題
+
+
+以下為針對本病例的單選題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者最可能的診斷是：     enumerate[label=\alph*)]
+2. 抗腎絲球基底膜疾病
+3. IgA腎病變
+4. ANCA相關血管炎
+5. 狼瘡性腎炎
+
+
+    \item 尿液沉渣中發現變形紅血球（acanthocytes）最提示：
+    
+1. 泌尿道感染
+2. 腎絲球性血尿
+3. 腎結石
+4. 膀胱炎
+
+
+    \item IgA腎病變最常見的臨床表現是：
+    
+1. 無症狀血尿和蛋白尿
+2. 急性腎衰竭
+3. 腎病症候群
+4. 高血壓危象
+
+
+    \item Oxford分類系統（MEST-C）中，哪項評分與較差預後相關？
+    
+1. M0（系膜細胞增生<50
+2. E0（無內皮細胞增生）
+3. C2（≥25
+4. T0（<25
+
+
+    \item 新月體性IgA腎病變的首選免疫抑制治療是：
+    
+1. 單用類固醇
+2. 類固醇加cyclophosphamide
+3. 單用mycophenolate mofetil
+4. 單用tacrolimus
+
+
+    \item 在快速進展性腎絲球腎炎患者中，為何初期避免使用ACEi/ARB？
+    
+1. 可能導致低血壓
+2. 在高鉀血症和腎功能快速下降時可能惡化高鉀血症
+3. 無法有效降血壓
+4. 會增加蛋白尿
+
+
+    \item IgA腎病變的病理生理機轉主要涉及：
+    
+1. 抗腎絲球基底膜抗體形成
+2. 異常糖基化的IgA1在系膜區沉積
+3. 補體C3直接活化
+4. 自體反應性T細胞攻擊
+
+
+    \item 腎移植後IgA腎病變的復發率約為：
+    
+1. <10
+2. 21-58
+3. 60-80
+4. >90
+
+
+    \item 以下哪項檢查結果最支持IgA腎病變的診斷？
+    
+1. 血清IgA升高
+2. 補體C3降低
+3. 腎臟切片免疫螢光顯示系膜IgA沉積
+4. ANA陽性
+
+
+    \item 本病例患者最終需要腎臟移植的主要原因是：
+    
+1. 對免疫抑制治療無反應
+2. 嚴重高血壓無法控制
+3. 快速進展至末期腎病
+4. 嚴重蛋白尿持續存在
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：b) IgA腎病變**      **詳解：**年輕男性、間歇性血尿病史、無系統性症狀、上呼吸道感染後出現症狀，以及腎臟切片顯示系膜IgA沉積，這些特徵都支持IgA腎病變診斷。
+2. **正確答案：b) 腎絲球性血尿**      **詳解：**變形紅血球（尤其是acanthocytes）高度特異性地提示腎絲球性血尿。紅血球在通過受損的腎絲球基底膜時產生形態變化。
+3. **正確答案：a) 無症狀血尿和蛋白尿**      **詳解：**大多數IgA腎病變患者表現為無症狀的持續性顯微血尿和蛋白尿，或在上呼吸道感染時出現肉眼血尿。只有約10
+4. **正確答案：c) C2（≥25      **詳解：**在Oxford分類中，較高的評分（M1、S1、T1、T2、C2）與腎功能下降或進展至末期腎病相關。C2（≥25
+5. **正確答案：b) 類固醇加cyclophosphamide**      **詳解：**對於新月體性IgA腎病變，指引建議使用高劑量類固醇（靜脈methylprednisolone後改為口服prednisone）加上cyclophosphamide。本病例中患者拒絕cyclophosphamide，改用mycophenolate mofetil作為二線治療。
+6. **正確答案：b) 在高鉀血症和腎功能快速下降時可能惡化高鉀血症**      **詳解：**ACEi和ARB會減少腎臟排鉀，在腎功能快速下降合併高鉀血症的患者中使用可能導致危險的高鉀血症。待腎功能穩定和鉀離子控制後再考慮使用。
+7. **正確答案：b) 異常糖基化的IgA1在系膜區沉積**      **詳解：**IgA腎病變的病理生理涉及異常糖基化的多聚體IgA1產生，這些IgA1在腎絲球系膜區沉積，活化補體並導致腎臟損傷。
+8. **正確答案：b) 21-58      **詳解：**根據各種回顧性研究，IgA腎病變在腎移植後的復發率範圍為21-58
+9. **正確答案：c) 腎臟切片免疫螢光顯示系膜IgA沉積**      **詳解：**IgA腎病變的診斷金標準是腎臟切片免疫螢光檢查顯示系膜區以IgA為主的免疫沉積。血清IgA升高僅見於約50
+10. **正確答案：c) 快速進展至末期腎病**      **詳解：**儘管使用免疫抑制治療，患者的腎功能在3個月內持續惡化至肌酸酐7.7 mg/dL，並出現尿毒症症狀，最終需要透析和腎臟移植。這反映了新月體性IgA腎病變的嚴重性和不良預後。
+
+
+## 重要知識點總結
+
+
+### IgA腎病變概論
+
+
+- **流行病學**：最常見的原發性腎絲球疾病，佔歐洲腎切片的25
+- **好發族群**：20-30歲男性，男女比約2:1
+- **遺傳因素**：某些族群有較高發病率，全基因組關聯研究已確認多個易感基因位點
+- **病理機轉**：異常糖基化的IgA1產生→免疫複合體形成→系膜區沉積→補體活化→腎臟損傷
+
+
+### 臨床表現特點
+
+
+- **典型表現**：     itemize[nosep]
+- 無症狀持續性顯微血尿和蛋白尿（最常見）
+- 上呼吸道或腸胃道感染後肉眼血尿
+- 發作性肉眼血尿（與感染同時發生）
+
+
+    \item **嚴重表現**（約10
+    
+- 快速進展性腎絲球腎炎
+- 新月體性腎絲球腎炎
+- 腎病症候群
+
+
+itemize
+
+
+### 診斷方法
+
+
+- **尿液檢查**：血尿（變形紅血球）、蛋白尿、圓柱體
+- **血液檢查**：約50
+- **腎臟切片**：診斷金標準     itemize[nosep]
+- 光學顯微鏡：系膜細胞增生、內皮細胞增生、新月體
+- 免疫螢光：系膜區IgA為主的沉積（4+），常伴C3和IgG
+- 電子顯微鏡：系膜區電子緻密物沉積
+
+
+itemize
+
+
+### Oxford分類系統的臨床意義
+
+
+| p{5cm}p{5.5cm}}          **病理特徵** | **預後意義** | **臨床處置** |
+| --- | --- | --- |
+| M1   （系膜細胞增生） | 與腎功能下降相關 | 考慮免疫抑制治療 |
+| E1   （內皮細胞增生） | 未治療者腎功能下降較快 | 建議免疫抑制治療 |
+| S1   （節段性硬化） | 長期預後較差 | 加強腎保護治療 |
+| T1/T2   （間質纖維化） | 與末期腎病風險增加相關 | 積極控制血壓和蛋白尿 |
+| C2   （≥25 | 高度末期腎病風險 | 積極免疫抑制治療 |
+
+
+### 治療策略
+
+
+#### 一般治療（所有患者）
+
+
+- **血壓控制**：目標<130/80 mm Hg
+- **抗蛋白尿治療**：ACEi或ARB（蛋白尿>0.5-1 g/天）
+- **生活型態調整**：戒菸、減鹽、控制體重
+
+
+#### 免疫抑制治療適應症
+
+
+- 持續性蛋白尿>1 g/天，經3-6個月最佳支持性治療後
+- 快速進展性腎絲球腎炎或新月體性病變（>25
+- 腎功能快速下降
+
+
+#### 免疫抑制治療方案
+
+
+- **類固醇**：口服prednisolone（0.5-1 mg/kg/天），療程6個月
+- **新月體性病變**：     itemize[nosep]
+- Methylprednisolone脈衝治療（500-1000 mg×3天）
+- 加上cyclophosphamide（每月靜脈注射或每日口服）
+- 或mycophenolate mofetil（二線選擇）
+
+
+itemize
+
+
+### 預後與追蹤
+
+
+- **不良預後因子**：     itemize[nosep]
+- 診斷時腎功能不全
+- 持續性蛋白尿>1 g/天
+- 血壓控制不良
+- 病理上有新月體或廣泛纖維化
+
+
+    \item **10年腎存活率**：
+    
+- 無不良因子：>90
+- 有不良因子：50-70
+
+
+    \item **追蹤建議**：
+    
+- 定期監測血壓、尿蛋白、血肌酸酐
+- 每3-6個月評估一次
+- 必要時調整治療
+
+
+itemize
+
+importantbox
+**臨床要點：**
+
+- 年輕患者出現血尿和蛋白尿應考慮IgA腎病變
+- 變形紅血球提示腎絲球性血尿
+- 腎臟切片是確診的唯一方法
+- Oxford分類系統提供預後資訊
+- 新月體性IgA腎病變需要積極免疫抑制治療
+- 血壓和蛋白尿控制是所有患者的治療基礎
+- 腎移植後有復發風險，需定期監測
+
+
+importantbox
+
+
+## 英文寫作指導
+
+
+本節提供針對醫學報告中描述快速進展性腎絲球腎炎與IgA腎病變的英文寫作指導，旨在幫助學生以專業、客觀且精確的語言撰寫臨床記錄。
+
+
+### 寫作原則
+
+
+1. **病史描述**：強調時間序列和症狀進展的關聯性
+2. **檢查發現**：精確描述尿液沉渣和實驗室異常
+3. **診斷推理**：展現從症狀到診斷的邏輯思路
+4. **治療決策**：說明個體化治療選擇的考量因素
+
+
+### 寫作步驟
+
+
+1. **描述臨床表現**：      - 強調快速進展的特徵 - *例句*：This 29-year-old man presented with rapidly progressive renal insufficiency, with the creatinine level rising from 3.1 to 3.93 mg per deciliter over the course of one month, accompanied by nephritic urinary sediment.（這名29歲男性表現為快速進展的腎功能不全，肌酸酐在一個月內從3.1升至3.93 mg/dL，伴有腎炎性尿沉渣。）
+2. **記錄尿沉渣發現**：      - 系統性描述異常細胞和圓柱體 - *例句*：Urinary sediment examination revealed dysmorphic erythrocytes, which are highly specific for glomerular hematuria, along with white-cell casts suggestive of glomerular inflammation.（尿沉渣檢查顯示變形紅血球，這對腎絲球性血尿具有高度特異性，並伴有提示腎絲球發炎的白血球圓柱體。）
+3. **描述診斷過程**：      - 說明如何排除其他可能診斷 - *例句*：The absence of systemic symptoms, negative serologic testing for ANCA and antiglomerular basement membrane antibodies, and the patient's young age with episodic hematuria strongly suggested IgA nephropathy rather than systemic vasculitis.（無系統性症狀、ANCA和抗腎絲球基底膜抗體檢測陰性，以及患者年輕且有發作性血尿，這些特徵強烈提示IgA腎病變而非系統性血管炎。）
+4. **描述病理發現**：      - 精確描述光學顯微鏡和免疫螢光發現 - *例句*：Renal biopsy revealed crescentic glomerulonephritis with cellular and fibrocellular crescents involving more than 25
+5. **描述治療決策**：      - 說明治療選擇的理由和患者意願 - *例句*：Given the severity of presentation with rapidly declining renal function and extensive crescent formation (C2 by Oxford classification), immunosuppressive therapy with high-dose corticosteroids and cyclophosphamide was recommended. However, the patient declined cyclophosphamide due to concerns about gonadal toxicity and accepted mycophenolate mofetil as an alternative, despite limited evidence for its efficacy.（鑑於表現嚴重，腎功能快速下降和廣泛新月體形成（Oxford分類C2），建議使用高劑量類固醇和cyclophosphamide進行免疫抑制治療。然而，患者因擔心性腺毒性而拒絕cyclophosphamide，接受mycophenolate mofetil作為替代方案，儘管其療效證據有限。）
+6. **使用專業術語**：      - 採用標準臨床術語，如「rapidly progressive glomerulonephritis」（快速進展性腎絲球腎炎）、「nephritic sediment」（腎炎性沉渣）、「crescentic glomerulonephritis」（新月體性腎絲球腎炎）、「dysmorphic erythrocytes」（變形紅血球）
+
+
+在撰寫腎絲球疾病病例時，應特別強調尿沉渣檢查的發現和病理檢查的重要性。清楚描述Oxford分類評分及其預後意義，有助於讀者理解疾病嚴重程度和治療策略。
+
+
+### 完整範例
+
+以下為基於Case 13-2020的完整臨床描述範例：
+quote
+This 29-year-old previously healthy white man presented with rapidly progressive glomerulonephritis manifesting as hypertension, declining renal function, and gross hematuria. The clinical course was remarkable for an 8-month history of episodic hematuria and foamy urine, suggesting a smoldering glomerular process that had recently accelerated. Urinalysis demonstrated nephritic sediment with dysmorphic erythrocytes and white-cell casts, highly suggestive of active glomerular inflammation. The absence of systemic symptoms, negative autoimmune serologies, and the patient's demographic profile led to consideration of primary glomerular diseases, particularly IgA nephropathy.
+
+Renal biopsy confirmed crescentic IgA nephropathy, with immunofluorescence microscopy revealing intense (4+) mesangial IgA deposition and light microscopy showing cellular and fibrocellular crescents in more than 25
+quote
+
+
+### 常見錯誤與避免方法
+
+
+- **過度簡化病史**：避免忽略重要的時間序列和症狀進展細節
+- **尿沉渣描述不精確**：準確區分變形紅血球、圓柱體類型等特徵
+- **診斷推理不清**：清楚展現從臨床表現到最終診斷的邏輯過程
+- **治療決策缺乏依據**：說明個體化治療選擇的臨床考量和患者因素

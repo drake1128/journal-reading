@@ -1,0 +1,562 @@
+---
+title: "Case 6-2025: A 62-Year-Old Man with Abdominal Pain"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**Case 6-2025: A 62-Year-Old Man with Abdominal Pain**}
+[0.5cm]
+{**病例 6-2025：一位62歲男性，主訴腹痛**}
+[0.3cm]
+{N Engl J Med 2025;392:807-16   DOI: 10.1056/NEJMcpc2412516}
+[0.3cm]
+{February 20, 2025}
+
+
+## 病例呈現 (Case Presentation)
+
+
+### Chief Complaint 主訴
+
+A 62-year-old man was admitted to this hospital because of **abdominal pain**.
+
+一位62歲男性因**腹痛**入院。
+
+
+### History of Present Illness 現病史
+
+
+importantbox
+**Key Timeline 關鍵時間線：**
+
+- 5 years ago: Motor vehicle accident with abdominal trauma from steering wheel (unrestrained driver) 車禍，方向盤造成腹部創傷
+- 2 years ago: Postprandial abdominal pain developed 餐後腹痛開始
+- 1 year ago: Diagnosed with "cirrhosis" in Costa Rica 在哥斯大黎加被診斷為「肝硬化」
+- 4 months ago: Immigrated to United States 移民至美國
+- 3 months ago: Reducible umbilical hernia noted 發現可復位臍疝氣
+- 6 weeks ago: Postprandial pain worsened with nausea 餐後疼痛加劇伴噁心
+- 1 month ago: Unable to reduce hernia; first hospital evaluation 疝氣無法復位；第一次醫院評估
+- 10 days ago: EGD revealed grade 3 esophageal varices EGD顯示3級食道靜脈曲張
+- Day 0: Current presentation with severe postprandial pain 本次入院：嚴重餐後疼痛
+
+
+importantbox
+
+The patient had been experiencing **postprandial abdominal pain** for 2 years. He was diagnosed with "cirrhosis" in Costa Rica 1 year before the current presentation, but details of how the diagnosis was made were unavailable. The pain worsened in severity and frequency 6 weeks before admission, associated with **nausea, vomiting, and 20 kg weight loss** over 2 months. Pain was less severe after eating bland, low-fat foods.
+
+病人有2年的**餐後腹痛**病史。他於入院前1年在哥斯大黎加被診斷為「肝硬化」，但診斷依據不明。入院前6週疼痛嚴重度和頻率加劇，伴隨**噁心、嘔吐，2個月內體重減輕20公斤**。進食清淡低脂食物後疼痛較輕。
+
+
+### Past Medical History 過去病史
+
+
+- Hepatitis as a child (resolved without treatment) 兒時肝炎（未治療自行痊癒）
+- Motor vehicle accident 5 years prior --- unrestrained driver, sustained abdominal trauma from steering wheel 5年前車禍---未繫安全帶駕駛，方向盤造成腹部創傷
+- No surgical history 無手術史
+
+
+### Social History 社會史
+
+
+- Worked in **cattle farming** in Costa Rica 在哥斯大黎加從事**畜牧業**
+- No travel outside Costa Rica before immigrating to US 移民美國前未離開過哥斯大黎加
+- No alcohol, tobacco, or illicit drug use 無飲酒、吸菸或藥物濫用
+- No family history of liver disease or thrombosis 無肝病或血栓家族史
+
+
+### Physical Examination 身體檢查
+
+
+- Temperature: 36.7°C
+- Pulse: 49 beats per minute (on nadolol)
+- Blood pressure: 90/61 mm Hg
+- Oxygen saturation: 97
+- BMI: 26.7
+- Mental status: Alert and oriented; no asterixis
+- Eyes: Sclerae anicteric 鞏膜無黃疸
+- Abdomen: Diffusely tender, worse in upper abdomen; no rebound or guarding 腹部瀰漫性壓痛，上腹部較明顯；無反彈痛或肌衛
+- Skin: No spider angiomas 無蜘蛛痣
+
+
+### Laboratory Data 實驗室數據
+
+
+| p{4.5cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{5cm}}  **Test    檢驗項目** | **Result    結果** | **Reference    參考值** | **Clinical Significance    臨床意義** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Hemoglobin | 14.0 g/dL | 13.5--17.5 | Normal    正常 |  |  |
+| White-cell count | 3,900/μL | 4,500--11,000 | Low (hypersplenism)    偏低（脾功能亢進） |  |  |
+| Platelet count | 70,000/μL | 130,000--400,000 | **Low (hypersplenism)**    **偏低（脾功能亢進）** |  |  |
+| INR | 1.1 | 0.9--1.1 | **Normal** (unexpected if cirrhosis)    **正常**（若為肝硬化則不尋常） |  |  |
+| Albumin | 4.5 g/dL | 3.3--5.0 | **Normal** (unexpected if cirrhosis)    **正常**（若為肝硬化則不尋常） |  |  |
+| Total bilirubin | 1.8 mg/dL | 0.0--1.0 | Mildly elevated    輕度升高 |  |  |
+| Direct bilirubin | 0.5 mg/dL | 0.0--0.4 | Mildly elevated    輕度升高 |  |  |
+| AST | 53 U/L | 10--40 | Mildly elevated    輕度升高 |  |  |
+| ALT | 43 U/L | 10--55 | Normal    正常 |  |  |
+| Alkaline phosphatase | 118 U/L | 45--115 | Mildly elevated    輕度升高 |  |  |
+| Transferrin saturation | 62 | 14--50 | Elevated    升高 |  |  |
+| Iron-binding capacity | 165 μg/dL | 250--400 | Low    偏低 |  |  |
+| Lactic acid | 2.1 mmol/L | 0.5--2.0 | Upper limit of normal    正常上限 |  |  |
+| Antithrombin III activity | 54 | 80--130 | **Low** (possible deficiency)    **偏低**（可能缺乏） |  |  |
+
+
+**Key Laboratory Clue 關鍵實驗室線索**: The **normal INR and albumin** in a patient with presumed "cirrhosis" and extensive varices is discordant. In true cirrhosis, hepatic fibrosis causes both portal hypertension AND impaired synthetic function. This discrepancy suggests the diagnosis of cirrhosis may be incorrect.  
+ 在推定為「肝硬化」且有廣泛靜脈曲張的病人中，**INR和白蛋白正常**是不協調的。在真正的肝硬化中，肝纖維化會同時導致門脈高壓和合成功能受損。這種不一致性提示肝硬化的診斷可能是錯誤的。
+
+
+### Workup for Cirrhosis Etiology 肝硬化病因學檢查
+
+
+All tests were **negative**:
+
+- Hepatitis B and C antibodies and HCV RNA 乙型和丙型肝炎抗體及HCV RNA
+- Ceruloplasmin (Wilson's disease) 血漿銅藍蛋白（威爾森氏症）
+- Alpha-1-antitrypsin Alpha-1抗胰蛋白酶
+- ANA, anti-smooth muscle antibodies, anti-mitochondrial antibodies (autoimmune hepatitis, PBC) 自體抗體
+- ANCA 抗中性球細胞質抗體
+- HIV screening HIV篩檢
+- Serum protein electrophoresis 血清蛋白電泳
+- Alpha-fetoprotein (normal) 甲型胎兒蛋白（正常）
+
+
+### Imaging Studies 影像學檢查
+
+
+**CT Abdomen/Pelvis (with IV contrast):**
+
+- Paraumbilical hernia with nonobstructed small bowel loop 臍旁疝氣含未阻塞小腸環
+- Liver: Diffuse hypoattenuation, **lobulated contour, shrunken appearance** 肝臟：瀰漫性低密度，**分葉狀輪廓，萎縮外觀**
+- **Portal vein and superior mesenteric vein not identified** --- suggests **cavernous transformation of portal vein** **門靜脈和上腸繫膜靜脈無法辨識**---提示**門靜脈海綿樣變性**
+- Extensive paraesophageal and mesenteric varices 廣泛的食道旁和腸繫膜靜脈曲張
+- Spleen: 18.2 cm (reference <13.0 cm) --- **splenomegaly** 脾臟：18.2公分---**脾腫大**
+
+
+**Doppler Ultrasonography:**
+
+- **No flow in main portal vein** 主門靜脈**無血流**
+- Normal flow in hepatic veins, hepatic artery, and IVC 肝靜脈、肝動脈和下腔靜脈血流正常
+
+
+**EGD (10 days before):**
+
+- Grade 3 (large) nonbleeding esophageal varices 3級（大）無出血食道靜脈曲張
+- Portal hypertensive gastropathy 門脈高壓性胃病變
+
+
+## 醫學英文寫作解析 (Medical English Writing Analysis)
+
+
+| p{5cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3cm}}  **Original Sentence    原文例句** | **Grammar Structure    文法結構** | **Chinese Translation    中文翻譯** | **Writing Technique    寫作技巧** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| "On admission to this hospital, years of diagnostic momentum suggested that cirrhosis of the liver was the unifying diagnosis." | Complex sentence with abstract noun subject ("momentum") | 入院時，多年的診斷慣性指向肝硬化為統一診斷。 | "Diagnostic momentum" --- elegant term for anchoring bias    「診斷慣性」---錨定偏誤的優雅用語 |  |  |
+| "However, there are several discordant findings to reconcile, including the presence of splenomegaly...and the normal INR and albumin level." | "However" + infinitive phrase ("to reconcile") | 然而，有幾項不協調的發現需要調和，包括... | "Discordant findings" signals need for diagnostic reconsideration    「不協調發現」提示需重新考慮診斷 |  |  |
+| "At this point, I would pause to question our assumptions and unveil the missing pieces." | Conditional ("would") + metaphorical language | 此時，我會暫停來質疑我們的假設並揭開缺失的拼圖。 | Metacognitive narration of clinical reasoning process    臨床推理過程的後設認知敘述 |  |  |
+| "The liver's unique blood supply --- 75 | Appositive dash clause with relative pronoun | 肝臟獨特的血液供應---其中75 | Embedded clause provides key physiological context    嵌入子句提供關鍵生理背景 |  |  |
+| "It has been known since the days of Pavlov that decreased portal venous delivery...leads to hepatic atrophy." | Extraposition with "it" + historical reference | 自巴甫洛夫時代以來就已知，門靜脈輸送減少...會導致肝萎縮。 | Historical attribution adds authority to pathophysiological principle    歷史歸因為病理生理原則增添權威性 |  |  |
+
+
+## 鑑別診斷 (Differential Diagnosis)
+
+
+### Portal Hypertension --- Classification 門脈高壓分類
+
+
+| p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm}}  **Category    分類** | **Examples    範例** | **For This Patient    本病例考量** | **Against    不支持證據** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Posthepatic Causes 肝後原因** |  |  |  |  |  |
+| IVC clot or compression    下腔靜脈血栓或壓迫 | Budd-Chiari syndrome    巴德乾乙症候群 | -- | Ruled out by imaging (normal IVC flow)    影像排除（下腔靜脈血流正常） |  |  |
+| Cardiac causes    心因性 | Constrictive pericarditis    Restrictive cardiomyopathy    縮窄性心包炎    限制性心肌病變 | -- | No dyspnea, edema, or decreased exercise tolerance    No pulmonary edema on CT    無呼吸困難、水腫或運動耐受下降 |  |  |
+| **Intrahepatic Causes 肝內原因** |  |  |  |  |  |
+| Cirrhosis    肝硬化 | Viral hepatitis    Alcohol    MASH    病毒性肝炎    酒精    代謝性脂肪肝 | Previous diagnosis    Shrunken liver on imaging    先前診斷    影像顯示肝萎縮 | **Normal INR and albumin**    Negative workup for all causes    No alcohol use    Biopsy: No cirrhosis    **INR和白蛋白正常** |  |  |
+| Hepatic amyloidosis    肝臟類澱粉沉積症 | -- | -- | No hepatomegaly    ALP only mildly elevated    無肝腫大 |  |  |
+| Hepatic sarcoidosis    肝臟類肉瘤病 | -- | -- | No hepatic nodules    No hepatomegaly    無肝結節    無肝腫大 |  |  |
+| Hepatic schistosomiasis    肝臟血吸蟲病 | S. mansoni, S. japonicum    曼氏、日本血吸蟲 | Presinusoidal portal HTN    Preserved synthetic function fits    竇前型門脈高壓    合成功能保留符合 | **Not endemic to Costa Rica**    No travel to endemic areas (Africa, Brazil)    **哥斯大黎加非流行區** |  |  |
+| **Prehepatic Causes 肝前原因** |  |  |  |  |  |
+| Extrinsic compression    外在壓迫 | Tumor, lymphadenopathy    腫瘤、淋巴結腫大 | -- | Ruled out by imaging    影像排除 |  |  |
+| **Portal vein thrombosis**    **門靜脈血栓** | Primary PVT    Trauma-related    原發性門靜脈血栓    創傷相關 | **History of abdominal trauma**    Cavernous transformation on imaging    No flow in portal vein    Preserved hepatic synthetic function    **腹部創傷病史**    影像顯示海綿樣變性 | None    無 |  |  |
+
+
+importantbox
+**Diagnostic Momentum 診斷慣性**: This case illustrates the danger of accepting a previous diagnosis without verification. The patient was labeled as having "cirrhosis" for 1 year, but the **normal synthetic function (INR, albumin)** was never reconciled with this diagnosis. Always question discordant findings!  
+
+此病例說明了未經驗證即接受先前診斷的危險。病人被標記為「肝硬化」長達1年，但**正常的合成功能（INR、白蛋白）**從未與此診斷調和。永遠要質疑不協調的發現！
+importantbox
+
+
+### Portal Vein Thrombosis --- Etiology 門靜脈血栓病因
+
+
+| p{4cm} >{\arraybackslash}p{5cm} >{\arraybackslash}p{6cm}}  **Virchow's Triad    乙乏氏三角** | **Causes    原因** | **This Patient    本病例** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Venous stasis    血流淤滯 | Cirrhosis    Extrinsic compression    肝硬化    外在壓迫 | No true cirrhosis identified    未發現真正的肝硬化 |  |  |  |
+| Hypercoagulability    高凝血狀態 | **Inherited**: Factor V Leiden, prothrombin G20210A, protein C/S deficiency, antithrombin III deficiency    **Acquired**: Myeloproliferative neoplasm, antiphospholipid syndrome, malignancy    **遺傳性**：第五因子萊登突變等    **後天性**：骨髓增生性腫瘤等 | Factor V Leiden: Negative    Prothrombin mutation: Negative    Protein C/S: Normal    **Antithrombin III: 54  Antiphospholipid antibodies: Negative    抗凝血酶III：54 |  |  |  |
+| **Endothelial injury**    **內皮損傷** | Surgery    **Trauma**    Infection    Pancreatitis    手術    **創傷**    感染    胰臟炎 | **Motor vehicle accident 5 years prior with abdominal trauma from steering wheel**    **5年前車禍，方向盤造成腹部創傷** |  |  |  |
+
+
+## 討論 (Discussion)
+
+
+### Pathophysiology of Hepatic Atrophy 肝萎縮的病理生理學
+
+
+The liver has a unique dual blood supply:
+
+- **75
+- **25
+
+
+肝臟有獨特的雙重血液供應：
+
+- **75
+- **25
+
+
+**Hepatotrophic Factor Hypothesis 肝營養因子假說**: Since Pavlov's experiments in the 1890s, it has been known that portal venous blood carries essential substances for hepatocyte survival and regeneration. Decreased portal venous delivery leads to hepatic atrophy---NOT cirrhosis.  
+
+自1890年代巴甫洛夫的實驗以來，已知門靜脈血液攜帶肝細胞存活和再生所必需的物質。門靜脈輸送減少會導致肝萎縮---而非肝硬化。
+
+**In this patient:**
+
+1. Abdominal trauma from MVA caused endothelial injury to portal vein 車禍腹部創傷導致門靜脈內皮損傷
+2. Portal vein thrombosis developed (possibly with contribution from antithrombin III deficiency) 門靜脈血栓形成
+3. Chronic PVT led to cavernous transformation 慢性PVT導致海綿樣變性
+4. Decreased hepatotrophic substance delivery caused hepatic atrophy 肝營養物質輸送減少導致肝萎縮
+5. PVT + hepatic atrophy both contributed to portal hypertension PVT和肝萎縮都導致門脈高壓
+6. **But hepatocytes retained synthetic function** (normal INR, albumin) **但肝細胞保留合成功能**
+
+
+### Why Not Cirrhosis? 為何不是肝硬化？
+
+
+| p{5cm} >{\arraybackslash}p{5cm} >{\arraybackslash}p{5cm}}  **Feature    特徵** | **Cirrhosis    肝硬化** | **This Patient    本病例** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Portal hypertension | Present | Present |  |  |  |
+| Synthetic function (INR, albumin) | **Impaired** | **Normal** |  |  |  |
+| Liver biopsy | Bridging fibrosis, regenerative nodules, cirrhosis | **No cirrhosis**; portal vascular remodeling, parenchymal atrophy |  |  |  |
+| Mechanism | Hepatocyte destruction → fibrosis → regenerative nodules | Decreased portal flow → atrophy of hepatocytes (not destruction) |  |  |  |
+
+
+### Liver Biopsy Findings 肝臟切片發現
+
+
+- Mild distortion of lobular architecture 小葉結構輕度扭曲
+- Expanded portal tracts with fibrous expansion 門脈區擴張伴纖維性擴張
+- **No bridging fibrosis or cirrhosis** **無橋接纖維化或肝硬化**
+- Multiple irregular portal vein profiles with medial hyperplasia and intravascular thrombi 多個不規則門靜脈輪廓伴中膜增生和血管內血栓
+- **Nodular regenerative hyperplasia-like changes** **結節性再生性增生樣變化**
+- Compression and atrophy of hepatic plates 肝板壓迫和萎縮
+- No sinusoidal congestion (rules out outflow obstruction) 無竇狀充血（排除流出道阻塞）
+
+
+## 最終診斷 (Final Diagnosis)
+
+
+# Hepatic Atrophy due to Portal Vein Thrombosis
+
+0.9\textwidth{
+
+**Hepatic Atrophy due to Portal Vein Thrombosis**
+[0.3cm]
+**門靜脈血栓引起的肝萎縮**
+}
+
+
+## 治療計畫 (Treatment Plan)
+
+
+### Management of Portal Vein Thrombosis PVT管理
+
+
+**Classification determines management:**
+
+- **Acute** (<6 months) vs **Chronic** (≥6 months) 急性 vs 慢性
+- **Cirrhotic** vs **Non-cirrhotic** 肝硬化 vs 非肝硬化
+- This patient: **Chronic, non-cirrhotic PVT** 本病例：**慢性、非肝硬化PVT**
+
+
+### Pharmacological Treatment 藥物治療
+
+
+| p{3cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{2cm} >{\arraybackslash}p{2cm} >{\arraybackslash}p{5cm}}  **Drug    (Generic Name)** | **Dose    劑量** | **Route    途徑** | **Frequency    頻率** | **Indication/Mechanism    適應症/機轉** |  |
+| --- | --- | --- | --- | --- | --- |
+| Nadolol | Titrated | PO | Daily | Non-selective beta-blocker    Reduces splanchnic pressure    Variceal bleeding prophylaxis    非選擇性乙型阻斷劑    減少內臟壓力 |  |
+| Pantoprazole | 40 mg | PO | Daily | PPI for gastroprotection    質子幫浦抑制劑胃保護 |  |
+| Heparin → Enoxaparin | IV then SC | IV/SC | Per protocol | Initial anticoagulation    Bridge to warfarin    初始抗凝血    銜接至warfarin |  |
+| Warfarin | Adjusted | PO | Daily | Long-term anticoagulation    Target INR 2--3    Prevents clot extension    長期抗凝血    目標INR 2--3 |  |
+| Lactulose | Titrated | PO | TID-QID | Hepatic encephalopathy prophylaxis post-TIPS    TIPS後肝性腦病變預防 |  |
+
+
+### Procedural Interventions 介入性治療
+
+
+**1. Esophageal Variceal Banding 食道靜脈曲張結紮術**
+
+- Performed for grade 3 varices 針對3級靜脈曲張進行
+- Primary prophylaxis against variceal bleeding 初級預防靜脈曲張出血
+
+
+**2. TIPS with Portal Vein Recanalization (PVR-TIPS)**  
+
+**經頸靜脈肝內門體分流術合併門靜脈再通**
+
+
+- Access: Right internal jugular vein, right femoral vein (for intravascular ultrasound), trans-splenic approach
+- TIPS created between middle hepatic vein and right portal vein TIPS建立於中肝靜脈與右門靜脈之間
+- Stent graft dilated to 10 mm 支架擴張至10mm
+- Balloon angioplasty of main portal vein, SMV, and splenic vein 主門靜脈、上腸繫膜靜脈和脾靜脈球囊血管成形術
+- Portal venous stent NOT placed (to preserve option for liver transplant if needed) 未放置門靜脈支架（保留肝移植選項）
+
+
+### Treatment Outcome 治療結果
+
+
+- Immediate: Abdominal pain decreased, able to eat regular diet 即時：腹痛減輕，可正常飲食
+- 3 months: Weight gain of 5.4 kg, no hepatic encephalopathy 3個月：體重增加5.4公斤，無肝性腦病變
+- 6 months: Recurrent stenosis of main portal vein → treated with angioplasty 6個月：主門靜脈再狹窄→血管成形術治療
+- 10 months: TIPS patent, continued mild postprandial symptoms (mesenteric venous congestion) 10個月：TIPS通暢，持續輕微餐後症狀
+
+
+## 學習重點 (Key Takeaways)
+
+
+**1. Challenge Diagnostic Momentum 挑戰診斷慣性**
+
+- Never accept a diagnosis without verifying it fits ALL the findings
+- When findings are discordant, question the diagnosis
+- "Cirrhosis" with normal synthetic function should raise suspicion
+
+
+**2. Portal Hypertension Has Many Causes 門脈高壓有多種病因**
+
+- In Western countries: 90
+- Globally: Non-cirrhotic causes more common (schistosomiasis, PVT)
+- Classification: Posthepatic, intrahepatic (pre/sinusoidal/post), prehepatic
+
+
+**3. PVT Can Be Primary (Prehepatic), Not Just Secondary to Cirrhosis**
+
+- Consider Virchow's triad: Stasis, hypercoagulability, endothelial injury
+- Trauma is an important cause of endothelial injury
+- Chronic PVT leads to cavernous transformation
+- Thrombophilia workup is essential
+
+
+**4. Hepatic Atrophy vs Cirrhosis 肝萎縮 vs 肝硬化**
+
+- Both cause shrunken liver on imaging
+- Cirrhosis: Hepatocyte destruction → impaired synthetic function
+- Atrophy from PVT: Decreased hepatotrophic factors → preserved synthetic function
+- Liver biopsy is definitive
+
+
+**5. Management of Chronic Non-Cirrhotic PVT 慢性非肝硬化PVT管理**
+
+- EGD for variceal screening + banding
+- Beta-blockers to reduce splanchnic pressure
+- Anticoagulation to prevent clot extension
+- TIPS with PVR for symptomatic patients
+
+
+## 自我測驗 (Self-Assessment Quiz)
+
+
+### 題目 (Questions)
+
+
+**Question 1.** A 62-year-old man with presumed cirrhosis presents with postprandial abdominal pain, extensive esophageal varices, and splenomegaly. Laboratory studies show normal INR and albumin. Which finding most strongly suggests the diagnosis of cirrhosis may be incorrect?
+
+一位被推定為肝硬化的62歲男性因餐後腹痛、廣泛食道靜脈曲張和脾腫大就診。實驗室檢查顯示INR和白蛋白正常。下列何種發現最強烈提示肝硬化診斷可能是錯誤的？
+
+
+1. Presence of esophageal varices
+2. Splenomegaly
+3. Normal INR and albumin despite portal hypertension
+4. Thrombocytopenia
+5. Elevated bilirubin
+
+
+**Question 2.** Which of the following is the most common cause of portal hypertension in Western countries?
+
+下列何者是西方國家門脈高壓最常見的病因？
+
+
+1. Portal vein thrombosis
+2. Hepatic schistosomiasis
+3. Cirrhosis
+4. Budd-Chiari syndrome
+5. Constrictive pericarditis
+
+
+**Question 3.** A patient is found to have chronic portal vein thrombosis with cavernous transformation on imaging. There is no history of cirrhosis. According to Virchow's triad, which of the following could be a contributing factor?
+
+一位病人影像學發現慢性門靜脈血栓伴海綿樣變性。無肝硬化病史。根據乙乏氏三角，下列何者可能是促成因素？
+
+
+1. Hypersplenism
+2. Esophageal varices
+3. Previous abdominal trauma
+4. Hepatic encephalopathy
+5. Ascites
+
+
+**Question 4.** A patient with chronic portal vein thrombosis has a shrunken liver on imaging but normal synthetic function (INR and albumin). What is the mechanism of liver shrinkage in this case?
+
+一位慢性門靜脈血栓病人影像學顯示肝臟萎縮，但合成功能（INR和白蛋白）正常。此病例肝臟萎縮的機制為何？
+
+
+1. Hepatocyte necrosis from viral hepatitis
+2. Alcoholic liver damage
+3. Decreased delivery of hepatotrophic substances via portal vein
+4. Autoimmune destruction of hepatocytes
+5. Biliary obstruction
+
+
+**Question 5.** Which of the following liver biopsy findings would be expected in hepatic atrophy due to chronic portal vein thrombosis, rather than cirrhosis?
+
+下列何種肝臟切片發現會預期出現在慢性門靜脈血栓導致的肝萎縮，而非肝硬化？
+
+
+1. Bridging fibrosis with regenerative nodules
+2. Portal vascular remodeling without bridging fibrosis
+3. Mallory-Denk bodies
+4. Interface hepatitis with plasma cells
+5. Steatohepatitis with ballooning degeneration
+
+
+**Question 6.** A patient with chronic portal vein thrombosis undergoes thrombophilia workup. The antithrombin III activity level is 54
+
+一位慢性門靜脈血栓病人接受血栓傾向檢查。在使用heparin治療期間，抗凝血酶III活性為54
+
+
+1. Definite hereditary antithrombin III deficiency
+2. Heparin therapy can decrease antithrombin III levels, so repeat testing off anticoagulation is needed
+3. This level is normal for patients on heparin
+4. Antithrombin III deficiency has been ruled out
+5. This confirms antiphospholipid syndrome
+
+
+**Question 7.** Which of the following is the most appropriate initial management for a patient with chronic non-cirrhotic portal vein thrombosis and large esophageal varices?
+
+對於慢性非肝硬化門靜脈血栓伴大食道靜脈曲張的病人，下列何者是最適當的初始處置？
+
+
+1. Immediate liver transplantation
+2. Surgical portocaval shunt
+3. Variceal banding with or without beta-blockers
+4. Observation only
+5. Thrombolytic therapy
+
+
+**Question 8.** What percentage of the liver's blood supply is derived from the portal vein?
+
+門靜脈提供肝臟多少百分比的血液供應？
+
+
+1. 25
+2. 50
+3. 75
+4. 90
+5. 100
+
+
+**Question 9.** A patient with portal hypertension and postprandial abdominal pain undergoes TIPS placement. Which of the following complications should be monitored for after the procedure?
+
+一位門脈高壓伴餐後腹痛的病人接受TIPS置放術。術後應監測下列何種併發症？
+
+
+1. Worsening portal hypertension
+2. Hepatic encephalopathy
+3. Increased variceal bleeding
+4. Hepatomegaly
+5. Ascites formation
+
+
+**Question 10.** In a patient with chronic portal vein thrombosis and mesenteric venous congestion, postprandial symptoms occur because:
+
+在慢性門靜脈血栓伴腸繫膜靜脈充血的病人中，餐後症狀發生是因為：
+
+
+1. Decreased hepatic blood flow after meals
+2. Portal blood flow increases by 30
+3. Bile secretion decreases after meals
+4. Gastric acid production increases after meals
+5. Hepatic encephalopathy worsens after protein intake
+
+
+---
+
+
+### 答案與解析 (Answers and Explanations)
+
+
+**Question 1. Answer: (C)**
+
+**Explanation**: In true cirrhosis, hepatic fibrosis causes both portal hypertension (leading to varices, splenomegaly) AND impaired synthetic function (elevated INR, low albumin). The presence of normal INR and albumin despite significant portal hypertension is discordant and suggests the diagnosis may be incorrect.
+
+**解析**：在真正的肝硬化中，肝纖維化會同時導致門脈高壓（導致靜脈曲張、脾腫大）和合成功能受損（INR升高、白蛋白降低）。儘管有明顯的門脈高壓但INR和白蛋白正常是不協調的，提示診斷可能是錯誤的。
+
+
+**Question 2. Answer: (C)**
+
+**Explanation**: In Western countries, approximately 90
+
+**解析**：在西方國家，約90
+
+
+**Question 3. Answer: (C)**
+
+**Explanation**: Virchow's triad includes venous stasis, hypercoagulability, and endothelial injury. Previous abdominal trauma can cause endothelial injury to the portal vein, serving as a nidus for thrombus formation.
+
+**解析**：乙乏氏三角包括血流淤滯、高凝血狀態和內皮損傷。先前的腹部創傷可導致門靜脈內皮損傷，成為血栓形成的起點。
+
+
+**Question 4. Answer: (C)**
+
+**Explanation**: The liver's blood supply is 75
+
+**解析**：肝臟血液供應的75
+
+
+**Question 5. Answer: (B)**
+
+**Explanation**: In hepatic atrophy from chronic PVT, liver biopsy shows portal vascular remodeling (multiple irregular portal vein profiles, medial hyperplasia) without bridging fibrosis or cirrhosis. Cirrhosis would show bridging fibrosis with regenerative nodules.
+
+**解析**：在慢性PVT導致的肝萎縮中，肝臟切片顯示門脈血管重塑（多個不規則門靜脈輪廓、中膜增生）而無橋接纖維化或肝硬化。肝硬化會顯示橋接纖維化伴再生結節。
+
+
+**Question 6. Answer: (B)**
+
+**Explanation**: Heparin and enoxaparin can decrease antithrombin III levels through increased clearance. Testing while on anticoagulation may give falsely low results. Repeat testing after discontinuation of anticoagulation is needed to accurately assess hereditary deficiency.
+
+**解析**：Heparin和enoxaparin可通過增加清除而降低抗凝血酶III水平。在抗凝血治療期間檢測可能得到假性偏低結果。需要停止抗凝血後重複檢測以準確評估遺傳性缺乏。
+
+
+**Question 7. Answer: (C)**
+
+**Explanation**: Initial management of chronic non-cirrhotic PVT involves upper endoscopy to assess varices, followed by variceal banding and/or nonselective beta-blockers to reduce splanchnic pressures and prevent variceal bleeding.
+
+**解析**：慢性非肝硬化PVT的初始處置包括上消化道內視鏡評估靜脈曲張，然後進行靜脈曲張結紮和/或非選擇性乙型阻斷劑以減少內臟壓力並預防靜脈曲張出血。
+
+
+**Question 8. Answer: (C)**
+
+**Explanation**: The liver receives 75
+
+**解析**：肝臟接受75
+
+
+**Question 9. Answer: (B)**
+
+**Explanation**: TIPS diverts portal blood flow directly to the systemic circulation, bypassing the liver. This can precipitate hepatic encephalopathy due to decreased hepatic clearance of ammonia and other toxins. Lactulose prophylaxis is often initiated after TIPS.
+
+**解析**：TIPS將門靜脈血流直接分流至體循環，繞過肝臟。這可能因肝臟對氨和其他毒素的清除減少而誘發肝性腦病變。TIPS後常開始使用乳果糖預防。
+
+
+**Question 10. Answer: (B)**
+
+**Explanation**: Portal blood flow increases by 30
+
+**解析**：餐後15分鐘內門靜脈血流增加30

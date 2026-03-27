@@ -1,0 +1,291 @@
+# lecture LAAO studies
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-10-14**
+
+---
+
+\maketitle
+
+
+## 概述
+
+
+本研究為一項全國性回溯性世代研究,比較心房顫動(atrial fibrillation, AF)合併末期腎病(end-stage renal disease, ESRD)患者接受不同中風預防策略的長期療效。研究納入14,849例患者,比較左心耳封堵術(left atrial appendage occlusion, LAAO)、apixaban及warfarin三種治療策略,為此特殊族群的中風預防管理提供重要的臨床證據。
+
+
+## 研究資訊
+
+
+### 基本資料
+
+**標題:** Outcomes of Stroke Prevention Strategies in Patients With Atrial Fibrillation and End-Stage Renal Disease  
+
+**作者:** Abdullah Al-Abcha, Ghasaq Saleh, Hanna Sledge, Muhannad Abbasi, Mahmoud Ismayl, Ammar M. Killu, Trevor Simard, Xiaoke Liu, Benjamin Hibbert, Paul A. Friedman, Konstantinos C. Siontis, Mohamad Alkhouli  
+
+**機構:** Mayo Clinic, Rochester, Minnesota, USA; University of Ottawa Heart Institute, Ottawa, Ontario, Canada  
+
+**期刊:** JACC: Cardiovascular Interventions (2025)  
+
+**卷期:** Volume 18, Number 21, Pages 2614-2624  
+
+**DOI:** [10.1016/j.jcin.2025.07.038](https://doi.org/10.1016/j.jcin.2025.07.038)  
+
+**發表日期:** 2025年10月14日
+
+
+### 研究背景與目標
+
+
+- AF在ESRD患者中相當常見,發生率與盛行率持續上升
+- ESRD患者同時面臨中風與出血的雙重高風險
+- 抗凝血治療的最佳策略仍具爭議性
+- Direct oral anticoagulants (DOACs)在ESRD患者的安全性與療效證據有限
+- Warfarin使用與出血風險增加相關,但中風預防效果不確定
+- LAAO在此族群的角色尚未充分研究
+- **研究目標:** 比較LAAO、apixaban及warfarin在AF合併ESRD患者的臨床療效與安全性
+
+
+## 研究方法
+
+
+### 研究設計
+
+
+- **研究類型:** 全國性回溯性世代研究
+- **資料來源:** United States Renal Data System (USRDS)
+- **研究期間:** 2016年1月至2020年12月
+- **追蹤期間:** 中位數0.9年(四分位距0.4-1.6年)
+- **分析方法:** 傾向性評分配對(propensity score matching)及多變量Cox回歸分析
+
+
+### 納入與排除條件
+
+
+| p{12cm}}  **項目** | **標準** |  |
+| --- | --- | --- |
+| **納入條件** | minipage[t]{12cm} • 年齡≥18歲    • Medicare受益者且有慢性腎臟病資料    • 診斷AF合併ESRD    • 接受LAAO、apixaban或warfarin治療    • 研究期間為2016年1月至2020年12月 |  |
+| **排除條件** | minipage[t]{12cm} • 資料不完整    • 未符合治療定義者    • 無法追蹤者 |  |
+
+
+### 患者分組
+
+
+| p{11cm}}  **治療組別** | **說明** |  |
+| --- | --- | --- |
+| **LAAO組** | minipage[t]{11cm} • 共2,360例(15.9  • 接受經皮左心耳封堵術    • 手術成功定義為裝置成功植入 |  |
+| **Apixaban組** | minipage[t]{11cm} • 共4,077例(27.4  • 接受apixaban治療    • 劑量依腎功能調整 |  |
+| **Warfarin組** | minipage[t]{11cm} • 共8,412例(56.7  • 接受warfarin治療    • 目標INR 2.0-3.0 |  |
+
+
+### 研究終點
+
+
+| p{11cm}}  **終點類型** | **定義** |  |
+| --- | --- | --- |
+| **主要終點** | minipage[t]{11cm} • 缺血性中風/全身性栓塞(ischemic stroke/systemic embolism)    • 大出血(major bleeding)    • 全因死亡率(all-cause mortality)    • 以上三者之複合終點 |  |
+| **次要終點** | minipage[t]{11cm} • 缺血性中風/全身性栓塞    • 大出血    • 全因死亡率    • 胃腸道出血(gastrointestinal bleeding)    • 顱內出血(intracranial hemorrhage) |  |
+
+
+## 主要結果
+
+
+### 整體族群基線特徵
+
+
+| 傾向性評分配對前整體族群基線特徵(N=14,849) |  |  |  |
+| --- | --- | --- | --- |
+| **特徵** | **LAAO** | **Apixaban** | **Warfarin** |
+|  | **(n=2,360)** | **(n=4,077)** | **(n=8,412)** |
+| **表格續接** |  |  |  |
+| **特徵** | **LAAO** | **Apixaban** | **Warfarin** |
+|  | **(n=2,360)** | **(n=4,077)** | **(n=8,412)** |
+| 女性比例 | 42.9 | - | - |
+| 年齡(歲) | - | - | - |
+| $CHA_2DS_2-VASc$評分 | 高風險族群 | 高風險族群 | 高風險族群 |
+| 透析治療 | 100 | 100 | 100 |
+| 註:完整基線特徵資料請參考原文補充資料 |  |  |  |
+
+
+### 傾向性配對後主要療效結果
+
+
+| 傾向性配對世代主要臨床結果比較(每組n=1,947) |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **臨床結果** | **1年發生率** | **HR** | **95 | **P值** |
+| **臨床結果** | **1年發生率** | **HR** | **95 | **P值** |
+| **複合終點(中風/SE + 大出血 + 死亡)** |  |  |  |  |
+| LAAO | 42.1 | 參考 | - | - |
+| Apixaban vs LAAO | 46.1 | 1.27 | 1.16-1.39 | <0.001 |
+| Warfarin vs LAAO | 46.9 | 1.26 | 1.17-1.39 | <0.001 |
+| **大出血** |  |  |  |  |
+| LAAO | 19.3 | 參考 | - | - |
+| Apixaban vs LAAO | 24.8 | - | - | <0.001 |
+| Warfarin vs LAAO | 29.0 | - | - | <0.001 |
+| **缺血性中風/全身性栓塞** |  |  |  |  |
+| LAAO | - | 參考 | - | - |
+| Apixaban vs LAAO | - | 較高 | - | 有統計差異 |
+| Warfarin vs LAAO | - | 較高 | - | 有統計差異 |
+| **全因死亡率** |  |  |  |  |
+| LAAO | - | 參考 | - | - |
+| Apixaban vs LAAO | - | 相似 | - | 無統計差異 |
+| Warfarin vs LAAO | - | 相似 | - | 無統計差異 |
+| HR: hazard ratio; CI: confidence interval; SE: systemic embolism |  |  |  |  |
+
+
+### 次要終點分析
+
+
+| 傾向性配對世代次要臨床結果比較 |  |  |  |
+| --- | --- | --- | --- |
+| **次要終點** | **LAAO** | **Apixaban** | **Warfarin** |
+|  | **(n=1,947)** | **(n=1,947)** | **(n=1,947)** |
+| **次要終點** | **LAAO** | **Apixaban** | **Warfarin** |
+|  | **(n=1,947)** | **(n=1,947)** | **(n=1,947)** |
+| **胃腸道出血** | 參考 | 顯著較高 | 顯著較高 |
+| 統計顯著性 | - | P<0.001 | P<0.001 |
+| **顱內出血** | 參考 | 相似 | 相似 |
+| 統計顯著性 | - | 無統計差異 | 無統計差異 |
+
+
+### Kaplan-Meier生存分析
+
+
+| p{10cm}}  **分析項目** | **結果** |  |
+| --- | --- | --- |
+| **複合終點** | minipage[t]{10cm} • Log-rank P<0.0001    • LAAO組顯著優於apixaban及warfarin組    • 曲線在追蹤期間持續分離 |  |
+| **大出血** | minipage[t]{10cm} • Log-rank P<0.0001    • LAAO組大出血風險顯著較低    • Warfarin組風險最高,apixaban組居中 |  |
+
+
+## 亞組分析
+
+
+### 不同族群亞組結果
+
+
+| p{11cm}}  **亞組** | **結果** |  |
+| --- | --- | --- |
+| **年齡分組** | minipage[t]{11cm} • 各年齡層LAAO療效一致    • 無顯著交互作用 |  |
+| **性別分組** | minipage[t]{11cm} • 男性與女性族群中LAAO療效一致    • 無顯著交互作用 |  |
+| **CHA₂DS₂-VASc評分** | minipage[t]{11cm} • 高風險與極高風險族群皆顯示LAAO優勢    • 無顯著交互作用 |  |
+| **出血風險評分** | minipage[t]{11cm} • 不同出血風險族群中LAAO皆顯示較低出血率    • 無顯著交互作用 |  |
+
+
+## 臨床意義與討論
+
+
+### 重要發現
+
+
+1. ****LAAO優於口服抗凝血藥物:**** 在AF合併ESRD患者中,LAAO在複合終點的表現顯著優於apixaban及warfarin
+2. ****出血風險顯著降低:**** LAAO組大出血及胃腸道出血風險顯著低於兩種口服抗凝血藥物
+3. ****中風預防效果較佳:**** LAAO在缺血性中風/全身性栓塞的預防效果優於口服抗凝血藥物
+4. ****死亡率相似:**** 三組全因死亡率無顯著差異,顯示LAAO不會增加死亡風險
+5. ****顱內出血風險相似:**** LAAO與口服抗凝血藥物的顱內出血風險相當
+6. ****療效一致性:**** 各亞組分析皆顯示LAAO的一致療效
+
+
+### 臨床應用考量
+
+
+| p{11cm}}  **考量因素** | **說明** |  |
+| --- | --- | --- |
+| **適用患者** | minipage[t]{11cm} • AF合併ESRD且有中風高風險    • 抗凝血治療有禁忌或高出血風險    • 無法維持良好INR控制    • 對口服抗凝血藥物耐受性不佳 |  |
+| **手術考量** | minipage[t]{11cm} • 需要有經驗的介入性心臟科團隊    • 評估患者手術風險    • 考慮左心耳解剖結構適合性    • 周術期抗血小板藥物使用策略 |  |
+| **長期追蹤** | minipage[t]{11cm} • 定期心臟超音波追蹤    • 評估裝置位置與封堵效果    • 監測血栓形成或裝置相關併發症    • 持續評估抗血小板藥物需求 |  |
+| **多專科團隊** | minipage[t]{11cm} • 心臟科醫師    • 腎臟科醫師    • 介入性心臟科醫師    • 共同決策治療策略 |  |
+
+
+### 與現有證據的比較
+
+
+| p{10cm}}  **比較項目** | **本研究發現** |  |
+| --- | --- | --- |
+| **ESRD族群特殊性** | minipage[t]{10cm} • 本研究首次大規模比較LAAO與DOACs在ESRD族群    • 顯示ESRD患者對抗凝血治療反應與一般族群不同    • 凝血與出血機制複雜化 |  |
+| **DOACs在ESRD的爭議** | minipage[t]{10cm} • Apixaban雖被視為相對安全,但本研究顯示仍有顯著出血風險    • 藥物代謝與蓄積問題在ESRD患者更為明顯    • 劑量調整困難度高 |  |
+| **Warfarin的限制** | minipage[t]{10cm} • Warfarin在ESRD患者的中風預防效果有限    • 出血風險顯著增加    • INR控制困難    • 維生素K代謝受影響 |  |
+| **LAAO的優勢** | minipage[t]{10cm} • 機械性封堵避免藥物代謝問題    • 長期不需抗凝血藥物    • 特別適合ESRD族群    • 出血與栓塞風險皆較低 |  |
+
+
+## 研究限制
+
+
+### 方法學限制
+
+
+1. **回溯性研究設計:** 可能存在選擇偏誤,雖已使用傾向性評分配對校正
+2. **追蹤期間相對短:** 中位追蹤期僅0.9年,長期療效仍需進一步研究
+3. **行政資料庫限制:** 缺乏詳細臨床資料如LAA型態、封堵裝置類型、INR控制品質
+4. **LAAO手術細節:** 無法取得手術成功率、併發症、裝置類型等詳細資訊
+5. **藥物使用細節:** 無法確認藥物順從性、實際劑量、治療持續時間
+6. **殘餘混淆因子:** 儘管進行傾向性配對,仍可能存在未測量的混淆因子
+
+
+### 臨床應用限制
+
+
+1. **選擇偏誤:** LAAO患者可能為經過篩選的較適合族群
+2. **中心經驗:** 研究結果可能反映高容量中心經驗,不一定適用於所有機構
+3. **健康保險偏誤:** Medicare族群可能與其他保險族群有差異
+4. **種族差異:** 美國資料庫可能無法完全代表其他種族或地區族群
+5. **費用考量:** LAAO手術費用較高,需考慮成本效益
+
+
+### 需要進一步研究的問題
+
+
+1. 前瞻性隨機對照試驗比較LAAO與口服抗凝血藥物
+2. 長期(>5年)療效與安全性評估
+3. 不同LAAO裝置在ESRD族群的比較
+4. LAAO術後抗血小板藥物使用策略最佳化
+5. 成本效益分析
+6. 生活品質評估
+7. 不同透析模式(血液透析vs腹膜透析)對療效的影響
+
+
+## 結論
+
+
+### 主要結論
+
+
+1. ****LAAO為合理選擇:**** 在AF合併ESRD患者中,LAAO可能是中風預防的合理選擇,優於apixaban及warfarin
+2. ****複合終點顯著改善:**** LAAO在中風/全身性栓塞、大出血及全因死亡的複合終點表現顯著優於口服抗凝血藥物
+3. ****出血風險降低:**** LAAO組大出血及胃腸道出血風險顯著低於兩種口服抗凝血藥物組
+4. ****療效一致性佳:**** 各亞組分析皆顯示LAAO的一致療效,不受年齡、性別、中風或出血風險評分影響
+5. ****特殊族群考量:**** ESRD患者因凝血機制複雜、藥物代謝受損,LAAO提供不依賴藥物的機械性保護
+
+
+### 臨床實務建議
+
+
+1. 對於AF合併ESRD患者,應納入LAAO作為中風預防策略的選項之一
+2. 特別適合抗凝血治療有禁忌或高出血風險的ESRD患者
+3. 治療決策應由多專科團隊(心臟科、腎臟科、介入性心臟科)共同討論
+4. 需在有經驗的中心進行LAAO手術,確保手術安全性與成功率
+5. 術後需定期追蹤評估裝置功能與併發症
+6. 持續優化周術期與長期抗血小板藥物使用策略
+7. 需要更多前瞻性研究驗證本研究發現
+
+
+### 未來展望
+
+
+1. 期待進行前瞻性隨機對照試驗,提供更高等級證據
+2. 研究LAAO在不同透析模式患者的療效差異
+3. 探討新一代LAAO裝置在ESRD族群的表現
+4. 評估LAAO在腎移植候選者的角色
+5. 建立ESRD族群的風險評估與治療決策模型
+6. 進行長期成本效益分析
+7. 研究生活品質改善程度
+
+
+**關鍵詞:** 心房顫動、末期腎病、左心耳封堵術、中風預防、apixaban、warfarin、出血風險、透析患者
+
+
+**參考文獻:**
+
+1. Al-Abcha A, Saleh G, Sledge H, et al. Outcomes of Stroke Prevention Strategies in Patients With Atrial Fibrillation and End-Stage Renal Disease. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2025.07.038). 2025;18(21):2614-2624.*
+2. Goldstein BA, Arce CM, Hlatky MA, et al. Trends in the incidence of atrial fibrillation in older patients initiating dialysis in the United States. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA.112.099606). 2012;126(19):2293-2301.*
+3. Winkelmayer WC, Patrick AR, Liu J, et al. The increasing prevalence of atrial fibrillation among hemodialysis patients. [*J Am Soc Nephrol](https://doi.org/10.1681/asn.2010050459). 2011;22(2):349-357.*
+4. Johansen KL, Gilbertson DT, Li S, et al. US Renal Data System 2024 annual data report: epidemiology of kidney disease in the United States. [*Am J Kidney Dis](https://doi.org/10.1053/j.ajkd.2025.02.602). 2025;85(6):A8-A11.*

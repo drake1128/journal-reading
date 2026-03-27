@@ -1,532 +1,814 @@
 ---
-title: "經橈動脈介入術後血腫管理完整教學講義 / Comprehensive Guide for Transradial Access Hematoma Management"
-subtitle: "經橈動脈介入術後血腫管理完整教學講義 / Comprehensive Guide for Transradial Access Hematoma Management"
+title: "lecture CCU hematoma"
 author: "謝慕揚 MD, PhD, FESC"
-date: 2025-12-25
+date: 2026-03-27
 lang: zh-TW
 toc: true
 toc-depth: 3
 number-sections: true
 ---
 
-## 文件資訊
+titlepage
+    
+    {****⚠️ 緊急病安警示文件****
+}
+    
+    {\bfseries 經橈動脈介入術後血腫管理  
+完整教學講義
+}
+    
+    {***Comprehensive Guide for Transradial Access Hematoma Management***
+}
+    
+    
+    criticalbox
+        
+        {**critical_red**{絕對禁忌症}
+}
+        
+        {使用 **Brilinta (ticagrelor) + aspirin** 的病患}  
 
-- 目標對象：心血管中心導管室技術員、護理人員及住院醫師
-- 文件版本：第 3.0 版（整合版）
-- 發布日期：2025-12-25
+        {**絕對不可在 brachial artery 建立 arterial line**}
+        
+        
+        {此規範無例外情況，包括緊急情況亦同}
+        
+    criticalbox
+    
+    
+    
+    
+> {**目標對象**
+> }
+>     心血管中心導管室技術員、護理人員及住院醫師
+>     {**文件版本**
+> }
+>     第3.0版（整合版）
+>     發布日期:\mydate
+>     {整合教學內容與病安警示}
 
-> **絕對禁忌症**：使用 Brilinta (ticagrelor) + aspirin 的病患，絕對不可在 brachial artery 建立 arterial line。此規範無例外情況，包括緊急情況亦同。
+
+    \vfill
+    
+    {謝慕揚 MD, PhD, FESC
+}
+    
+    
+titlepage
+
 
 ---
 
-## 1 緊急安全警示
+\tableofcontents
 
-> **立即生效的安全規範：**
-> - 使用 Brilinta (ticagrelor) + aspirin 的病患，絕對禁止在 brachial artery 建立 arterial line
-> - 此規範無例外情況，包括緊急情況下亦同
-> - 違反此規範將列入病安事件通報
-> - 所有住院醫師必須熟讀本指引並簽名確認
-> - 目標：Compartment syndrome 零發生率
+---
 
-### 1.1 血淚教訓：近期病安事件
 
-**案例資料：**
-- 病患：39 歲男性
-- 診斷：NSTEMI
-- 用藥：Brilinta + aspirin（雙重抗血小板治療）
-- 事件：住院醫師在 brachial artery 建立 arterial line
-- 結果：Compartment syndrome → 緊急 fasciotomy
+## 緊急安全警示
 
-| 時間 | 事件 | 臨床表現 | 處置 |
-|------|------|---------|------|
+
+**立即生效的安全規範:**
+
+- 使用 Brilinta (ticagrelor) + aspirin 的病患,**絕對禁止**在 brachial artery 建立 arterial line
+- 此規範無例外情況,包括緊急情況下亦同
+- 違反此規範將列入病安事件通報
+- 所有住院醫師必須熟讀本指引並簽名確認
+- **目標: Compartment syndrome 零發生率**
+
+
+### 血淚教訓:近期病安事件
+
+
+**案例資料:**
+
+- **病患**: 39歲男性
+- **診斷**: NSTEMI
+- **用藥**: Brilinta + aspirin(雙重抗血小板治療)
+- **事件**: 住院醫師在 brachial artery 建立 arterial line
+- **結果**: Compartment syndrome → 緊急 fasciotomy
+
+
+| |p{6cm}|p{3.5cm}|}   **時間** | **事件** | **臨床表現** | **處置** |
+| --- | --- | --- | --- |
 | 6/8 | A-line 建置 | 手術順利完成 | 常規監測 |
 | 6/8 晚 | 腫脹出現 | 左肱動脈部位腫脹 | 加壓觀察 |
-| 6/9 | Compartment syndrome | 劇烈疼痛、5P 症候群 | 緊急 fasciotomy |
+| 6/9 | ****Compartment syndrome**** | 劇烈疼痛、5P症候群 | ****緊急 fasciotomy**** |
 | 術後 | ICU 治療 | 傷口照護、功能復健 | 長期追蹤 |
 
-> **關鍵學習點：**
-> - 即使使用 ultrasound-guided technique 也無法避免併發症
-> - Brilinta 的強效抗血小板作用大幅增加出血風險
-> - Brachial artery 位置較深，止血困難
-> - 延遲性出血可能在移除導管後發生
-> - Compartment syndrome 一旦發生，需要緊急手術才能挽救功能
-> - 預防永遠勝於治療！
+
+**關鍵學習點:**
+
+- 即使使用 ultrasound-guided technique 也無法避免併發症
+- Brilinta 的強效抗血小板作用大幅增加出血風險
+- Brachial artery 位置較深,止血困難
+- 延遲性出血可能在移除導管後發生
+- Compartment syndrome 一旦發生,需要緊急手術才能挽救功能
+- **預防永遠勝於治療!**
+
+
+## 經橈動脈血腫基礎知識
+
+
+### 概述
+
+經橈動脈介入治療(Transradial Intervention, TRI)已成為經皮冠狀動脈介入治療的首選路徑,相較於經股動脈路徑具有更低的出血併發症風險。然而,前臂血腫仍是 TRI 最常見的併發症之一,發生率約為 0.4–14.4
+
+
+經橈動脈血腫雖然發生率相對較低,但早期識別和適當處理對預防嚴重併發症(如 Compartment syndrome (筋膜室症候群))至關重要。**預防是最好的治療!**
+
+
+### 血腫發生的病理生理機制
+
+前臂血腫的發生機制包括:
+
+- **穿刺部位出血**:橈動脈穿刺處血管壁損傷導致的局部出血
+- **血管內損傷**:導線或導管對動脈分支造成的損傷
+- **抗凝劑影響**:術中使用的抗凝劑和抗血小板藥物增加出血風險
+- **壓迫不當**:止血帶使用不當或過早移除導致的再出血
+- **血管解剖因素**:血管直徑、走向、分支變異
+
 
 ---
 
-## 2 經橈動脈血腫基礎知識
 
-### 2.1 概述
+### EASY 血腫分類系統
 
-經橈動脈介入治療（Transradial Intervention, TRI）已成為經皮冠狀動脈介入治療的首選路徑，相較於經股動脈路徑具有更低的出血併發症風險。然而，前臂血腫仍是 TRI 最常見的併發症之一，發生率約為 0.4–14.4%，其中大部分為輕微血腫。
+EASY 血腫分類系統由 Bertrand 等人於 2010 年提出,是目前最廣泛使用的經橈動脈血腫分類標準 bertrand2010:
 
-> **Pearl 1**：經橈動脈血腫雖然發生率相對較低，但早期識別和適當處理對預防嚴重併發症（如 compartment syndrome）至關重要。預防是最好的治療！
 
-### 2.2 血腫發生的病理生理機制
+    
+    [Image]
+    EASY classification of transradial puncture-related hematoma.
+    
 
-前臂血腫的發生機制包括：
-- **穿刺部位出血**：橈動脈穿刺處血管壁損傷導致的局部出血
-- **血管內損傷**：導線或導管對動脈分支造成的損傷
-- **抗凝劑影響**：術中使用的抗凝劑和抗血小板藥物增加出血風險
-- **壓迫不當**：止血帶使用不當或過早移除導致的再出血
-- **血管解剖因素**：血管直徑、走向、分支變異
 
-### 2.3 EASY 血腫分類系統
+| |p{2cm}|p{4cm}|p{4cm}|p{2.5cm}|}   **等級** | **發生率** | **定義** |
+| --- | --- | --- |
+| **I** | $<$ 5 | 局部表淺血腫(穿刺部位) |
+| **II** | $<$ 3 | 中度肌肉浸潤的血腫 |
+| **III** | $<$ 2 | 延伸至前臂及肌肉浸潤,低於肘部 |
+| **IV** | $<$ 0.1 | 延伸至肘部以上的血腫和肌肉浸潤 |
+| **V** | $<$ 0.01 | 缺血性威脅 (compartment syndrome) |
 
-EASY 血腫分類系統由 Bertrand 等人於 2010 年提出，是目前最廣泛使用的經橈動脈血腫分類標準：
 
-| 等級 | 發生率 | 定義 | 治療 | 注意事項 |
-|------|--------|------|------|---------|
-| I | < 5% | 局部表淺血腫（穿刺部位） | 止痛劑、額外手環、局部冰敷 | 無需通知醫師 |
-| II | < 3% | 中度肌肉浸潤的血腫 | 止痛劑、額外手環、局部冰敷 | 通知醫師 |
-| III | < 2% | 延伸至前臂及肌肉浸潤，低於肘部 | 止痛劑、額外手環、局部冰敷、充氣血壓袖帶 | 通知醫師 |
-| IV | < 0.1% | 延伸至肘部以上的血腫和肌肉浸潤 | 止痛劑、額外手環、局部冰敷、充氣血壓袖帶 | 通知醫師 |
-| V | < 0.01% | 缺血性威脅（compartment syndrome） | 考慮手術 | 立即呼叫醫師 |
+importantbox
+**重要分類原則:** 第I級和第II級與穿刺部位相關,第III級或更高級別表示動脈損傷和肌肉內滲血,必須積極處理以防止 Compartment syndrome (筋膜室症候群)。
 
-> **分類原則：**
-> - I–II 級 = 局部問題，保守處理
-> - III–IV 級 = 延伸血腫，積極處理
-> - V 級 = 緊急手術，分秒必爭
 
----
+**記憶口訣:**
 
-## 3 動脈導管建置決策流程
+- I-II 級 = 局部問題,保守處理
+- III-IV 級 = 延伸血腫,積極處理
+- V 級 = 緊急手術,分秒必爭
 
-### 3.1 術前用藥評估
 
-```text
-病患需要 A-line
-    │
-    ├── 使用強效抗血小板藥物？
-    │       │
-    │       ├── 是 → 禁止 brachial artery 穿刺 → 選擇 radial 或 femoral artery
-    │       │
-    │       └── 否 → 可考慮 brachial（仍需謹慎）
-```
+importantbox
 
-### 3.2 穿刺部位選擇原則
 
-| 部位 | 優點 | 缺點 | 建議使用時機 |
-|------|------|------|-------------|
-| Radial artery | 表淺、易止血、併發症少、病患舒適度高 | 較小、技術要求較高 | 首選 |
-| Femoral artery | 大血管、容易穿刺、波形品質佳 | 出血風險較高、需臥床、感染風險 | Radial 不適合時 |
-| Brachial artery | 中等大小、位置固定 | 位置較深、止血困難、神經併發症風險 | 抗血小板藥物禁用 |
+## 動脈導管建置決策流程
 
-> **記憶口訣："R-F-B" 優先序**
-> - **R**adial artery — 首選 (Really safe)
-> - **F**emoral artery — 次選 (Fairly safe)
-> - **B**rachial artery — 避免 (Be careful!)
->
-> 特別提醒：在使用 Brilinta 的病患，Brachial artery 是絕對禁忌！
 
----
+### 術前用藥評估
 
-## 4 血腫的識別與評估
 
-### 4.1 臨床表現
+    
+    tikzpicture[node distance=2.5cm]
+        startstop = [rectangle, rounded corners, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+        process = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+        decision = [diamond, minimum width=4cm, minimum height=1.5cm, text centered, draw=black, fill=green!30]
+        arrow = [thick,->,>=stealth]
+        
+        \node (start) [startstop] {病患需要A-line};
+        \node (dec1) [decision, below of=start, yshift=-0.5cm] {使用強效  
+抗血小板藥物?};
+        \node (proc1) [process, below of=dec1, yshift=-1cm] {禁止 brachial artery 穿刺};
+        \node (proc2) [process, below of=proc1] {選擇 radial 或 femoral artery};
+        \node (proc3) [process, right of=dec1, xshift=4cm] {可考慮 brachial  
+(仍需謹慎)};
+        
+        \draw [arrow] (start) -- (dec1);
+        \draw [arrow] (dec1) -- node[anchor=east] {是} (proc1);
+        \draw [arrow] (proc1) -- (proc2);
+        \draw [arrow] (dec1) -- node[anchor=south] {否} (proc3);
+    tikzpicture
+    動脈導管建置決策流程圖
 
-- **局部症狀**：前臂腫脹、疼痛、皮膚溫度升高、緊繃感
-- **皮膚變化**：局部瘀血、水泡形成（嚴重病例）
-- **血管症狀**：脈搏減弱或消失
-- **神經症狀**：手指麻木、活動受限
 
-### 4.2 5P 症候群評估
+### 穿刺部位選擇原則
 
-評估血管缺血時需注意「5P 症候群」：
 
-> **5P = 5 Danger Signs**
-> - **P**ain（疼痛）— 特別是被動伸展時劇痛
-> - **P**allor（蒼白）— 皮膚顏色蒼白或發紫
-> - **P**ulseless（無脈搏）— 末梢脈搏減弱或消失
-> - **P**aresthesia（感覺異常）— 麻木、刺痛感
-> - **P**aralysis（癱瘓）— 肌肉無力或完全麻痺
->
-> 出現任何一項即需立即處理！時間就是手臂功能！
+| |p{4cm}|p{4cm}|p{3cm}|}   **部位** | **優點** | **缺點** |
+| --- | --- | --- |
+| **Radial artery** | 表淺、易止血、併發症少、病患舒適度高 | 較小、技術要求較高 |
+| **Femoral artery** | 大血管、容易穿刺、波形品質佳 | 出血風險較高、需臥床、感染風險 |
+| **Brachial artery** | 中等大小、位置固定 | ****位置較深、止血困難、神經併發症風險**** |
 
-### 4.3 監測時間點
+
+**記憶口訣: "R-F-B" 優先序**
+
+- **R**adial artery - 首選 (Really safe)
+- **F**emoral artery - 次選 (Fairly safe)
+- **B**rachial artery - 避免 (Be careful!)
+
+
+**特別提醒:** 在使用 Brilinta 的病患,Brachial artery 是**絕對禁忌**!
+
+
+## 血腫的識別與評估
+
+
+### 臨床表現
+
+
+- **局部症狀**:前臂腫脹、疼痛、皮膚溫度升高、緊繃感
+- **皮膚變化**:局部瘀血、水泡形成(嚴重病例)
+- **血管症狀**:脈搏減弱或消失
+- **神經症狀**:手指麻木、活動受限
+
+
+    
+    [Image]
+    [Image]
+    [Image]
+    血腫的進展可以很快,請務必在床邊直接進行加壓止血,不應離開床邊。
+
+
+### 5P 症候群評估
+
+評估血管缺血時需注意「5P 症候群」:
+
+importantbox
+**救命口訣:「5P = 5 Danger Signs」**
+
+- **Pain(疼痛)** - 特別是被動伸展時劇痛
+- **Pallor(蒼白)** - 皮膚顏色蒼白或發紫
+- **Pulseless(無脈搏)** - 末梢脈搏減弱或消失
+- **Paresthesia(感覺異常)** - 麻木、刺痛感
+- **Paralysis(癱瘓)** - 肌肉無力或完全麻痺
+
+
+**出現任何一項即需立即處理!**
+importantbox
+
+
+若出現 5P 症候群中的任何異常指標,表示已有一定程度的缺血,應立即報告醫師。**時間就是手臂功能!**
+
+
+### 監測時間點
+
 
 - 術後立即觀察
-- 術後 1 小時（重點監測）
-- 術後 4 小時（全面評估）
+- 術後1小時(重點監測)
+- 術後4小時(全面評估)
 - 止血帶移除後
 - 每班交接時
 - 出院前評估
 - 患者主訴疼痛或腫脹時
 
----
 
-## 5 血腫的處理與管理
+## 血腫的處理與管理
 
-### 5.1 預防措施
 
-- **操作技巧**：使用適當的穿刺技術，避免多次穿刺
-- **設備選擇**：選擇合適的鞘管大小，避免血管直徑與鞘管比例 > 1:1
-- **抗凝管理**：根據指引調整抗凝劑劑量
-- **止血技術**：正確放置止血帶，確保同時壓迫橈動脈近端和遠端
-- **超音波導引**：困難病例建議使用超音波導引
-- **藥物評估**：術前必須確認病患用藥，特別是 Brilinta！
+### 預防措施
 
-### 5.2 處理原則
 
-#### 5.2.1 I–II 級血腫處理
+- **操作技巧**:使用適當的穿刺技術,避免多次穿刺
+- **設備選擇**:選擇合適的鞘管大小,避免血管直徑與鞘管比例 >1:1
+- **抗凝管理**:根據指引調整抗凝劑劑量
+- **止血技術**:正確放置止血帶,確保同時壓迫橈動脈近端和遠端
+- **超音波導引**:困難病例建議使用超音波導引
+- **藥物評估**:**術前必須確認病患用藥,特別是 Brilinta!**
 
+
+### 處理原則
+
+
+#### I-II級血腫處理
+
+
+- **推薦做法**:         itemize
 - 給予適當止痛劑
 - 放置額外壓迫手環
-- 局部冰敷（15–20 分鐘，每 2 小時一次）
+- 局部冰敷(15-20分鐘,每2小時一次)
 - 抬高患肢
-- 最低限度要求：密切觀察，記錄血腫範圍變化
 
-#### 5.2.2 III–IV 級血腫處理
 
+    \item **最低限度要求**:密切觀察,記錄血腫範圍變化
+itemize
+
+
+#### III-IV級血腫處理
+
+
+- **推薦做法**:         itemize
 - 立即通知醫師
-- 充氣血壓袖帶（壓力設定為收縮壓和舒張壓各加 20 mmHg）
-- 每 15 分鐘放氣一次，避免持續缺血
+- 充氣血壓袖帶(壓力設定為收縮壓和舒張壓各加 20 mmHg)
+- 每15分鐘放氣一次,避免持續缺血
 - 監測手指血氧飽和度
 - 考慮停用抗凝劑
 - 使用彈性繃帶從手腕開始向上纏繞
-- 最低限度要求：持續壓迫止血，密切監測生命徵象
 
-#### 5.2.3 V 級血腫（Compartment syndrome）處理
 
-- **緊急處置**：
-  - 立即呼叫醫師
-  - 準備手術
-  - 停用所有抗凝劑
-  - 建立靜脈通路
-  - 準備輸血
-  - 通知心血管外科/血管外科值班
-- Compartment syndrome 需要緊急筋膜切開術，延誤治療可能導致永久性功能障礙
+    \item **最低限度要求**:持續壓迫止血,密切監測生命徵象
+itemize
 
----
 
-## 6 Compartment Syndrome 識別與處理
+#### V級血腫(Compartment syndrome (筋膜室症候群))處理
 
-### 6.1 時間與預後關係
 
-| 時間 | 處理狀況 | 預後 |
-|------|---------|------|
-| < 6 小時 | 黃金治療時間 | 功能完全恢復 |
-| 6–12 小時 | 延遲但仍有效 | 輕微功能障礙 |
-| > 12 小時 | 治療效果有限 | 永久性功能障礙 |
-| > 24 小時 | 組織壞死 | 可能需要截肢 |
+- **緊急處置**:         itemize
+- 立即呼叫醫師
+- 準備手術
+- 停用所有抗凝劑
+- 建立靜脈通路
+- 準備輸血
+- 通知心血管外科/血管外科值班
 
-> **處理原則：**
-> 1. 懷疑即處理 — 不要等待確診
-> 2. 立即通知上級 — 主治醫師、心血管外科
-> 3. 停止抗凝 — 所有相關藥物
-> 4. 準備手術 — Fasciotomy 是唯一有效治療
-> 5. 時間就是功能 — 每分鐘都很關鍵
->
-> 記住：**6 小時是黃金時間！**
 
-### 6.2 特殊警示：Brilinta 病患
+    \item **注意事項**:Compartment syndrome (筋膜室症候群)需要緊急筋膜切開術,延誤治療可能導致永久性功能障礙
+itemize
 
-對於正在使用 Brilinta (ticagrelor) 的病患，請務必不要在 brachial artery 建立 arterial line。在過去 MMCU 報告過，即便最初是 real-time ultrasound guided-puncture 也可以在移除動脈導管後發生延遲性的出血。因為 brachial artery 位置可以較深，同時穿刺時若是未注意，沒有在 humeral epicondyle 上穿刺動脈，會使得後續加壓止血困難，再加上強效 antiplatelet agent 效果，容易產生嚴重血腫或室壓性血管瘤。
 
-> **重點提醒：**
-> - Brilinta 半衰期長，效果強
-> - 停藥後仍有殘留效果
-> - Brachial artery 解剖位置深，止血困難
-> - 此組合是 compartment syndrome 的高危險因子
-> - **絕對禁忌，無例外！**
+    
+    [Image]
+    [Image]
+    [Image]
+    筋膜切開術是為了拯救手部的功能,若再延遲,可以導致截肢與神經肌肉壞死。
 
----
 
-## 7 標準作業程序
+## Compartment Syndrome 識別與處理
 
-### 7.1 術前準備檢核
 
-- [ ] 詳細詢問用藥史（特別是 Brilinta, Plavix, aspirin）
-- [ ] 檢查凝血功能（PT, aPTT, platelet count）
-- [ ] 評估 Allen's test（選擇 radial artery 時）
-- [ ] 選擇合適穿刺部位並記錄理由
-- [ ] 獲得上級醫師核准（特別是 brachial artery）
-- [ ] 準備超音波設備（建議使用）
-- [ ] 準備緊急止血用品
-- [ ] 再次確認：不是 Brilinta 病患！
+### 時間與預後關係
 
-### 7.2 術中技術要點
 
-- **穿刺技術**：
-  - 使用超音波導引（特別是困難病例）
-  - 穿刺角度：30–45 度
-  - 避免多次嘗試（最多 3 次）
-  - 確認動脈血回流後再進導線
-- **導管固定**：
-  - 立即縫合固定
-  - 透明敷料覆蓋
-  - 標記穿刺時間
+| |p{6cm}|}   **時間** | **處理狀況** | **預後** |  |
+| --- | --- | --- | --- |
+| **< 6小時** | 黃金治療時間 | 功能完全恢復 |  |
+| **6-12小時** | 延遲但仍有效 | 輕微功能障礙 |  |
+| **> 12小時** | 治療效果有限 | 永久性功能障礙 |  |
+| **> 24小時** | 組織壞死 | 可能需要截肢 |  |
 
-### 7.3 術後監測 Protocol
 
-| 時間點 | 監測項目 | 異常處理 |
-|--------|---------|---------|
-| 術後立即 | 穿刺部位、末梢循環、神經功能 | 發現異常立即報告 |
-| 術後 1 小時 | 重複上述檢查 + 疼痛評估 | 疼痛評分 > 7 需警覺 |
-| 術後 4 小時 | 全面評估 + 5P 症候群 | 任何 5P 徵象立即處理 |
-| 每班交接 | 例行檢查 + 紀錄變化 | 持續追蹤並記錄 |
-| 移除前 | 凝血功能 + 局部狀況 | 確認止血能力正常 |
+**處理原則:**
 
----
+1. **懷疑即處理** - 不要等待確診
+2. **立即通知上級** - 主治醫師、心血管外科
+3. **停止抗凝** - 所有相關藥物
+4. **準備手術** - Fasciotomy 是唯一有效治療
+5. **時間就是功能** - 每分鐘都很關鍵
 
-## 8 併發症預防與管理
 
-### 8.1 Compartment Syndrome（筋膜室症候群）
+**記住: 6小時是黃金時間!**
 
-Compartment syndrome 是最嚴重的併發症，發生率雖低（< 0.01%），但後果嚴重：
-- **早期症狀**：劇烈疼痛、前臂緊繃感、被動伸展痛
-- **晚期症狀**：感覺喪失、肌肉無力、脈搏消失
-- **治療**：緊急筋膜切開術
-- **預後**：早期診斷和治療預後良好，延誤可能導致永久功能障礙
 
-### 8.2 其他併發症
+### 特殊警示: Brilinta 病患
 
-- **橈動脈閉塞**：發生率約 5–10%，多數無症狀
-- **假性動脈瘤**：罕見（< 0.1%），需超音波確診
-- **感染**：極罕見，注意無菌操作
-- **神經損傷**：特別是 brachial artery 穿刺時
+importantbox
+對於正在使用 Brilinta (ticagrelor)的病患,請務必**不要**在 brachial artery 建立 arterial line。在過去 MMCU 報告過,即便最初是 real-time ultrasound guided-puncture 也可以在移除動脈導管後發生延遲性的出血。因為 brachial artery 位置可以較深,同時穿刺時若是未注意,沒有在 humeral epicondyle 上穿刺動脈,會使得後續加壓止血困難,再加上強效 antiplatelet agent 效果,容易產生嚴重血腫或室壓性血管瘤。
 
----
 
-## 9 緊急處置流程
+**重點提醒:**
 
-### 9.1 發現血腫時的處置
+- Brilinta 半衰期長,效果強
+- 停藥後仍有殘留效果
+- Brachial artery 解剖位置深,止血困難
+- 此組合是 compartment syndrome 的高危險因子
+- **絕對禁忌,無例外!**
 
-1. **立即評估**：血腫範圍和程度、5P 症候群檢查、生命徵象監測
-2. **通知體系**：立即通知主治醫師、諮詢心血管外科值班、通知護理長
-3. **緊急處置**：停用所有抗凝/抗血小板藥物、適度加壓（避免過度壓迫）、建立靜脈通路、準備輸血（如需要）
 
-### 9.2 緊急諮詢資訊
+importantbox
 
-| 24 小時緊急諮詢 | 分機 |
-|----------------|------|
-| 心血管外科值班 | 2345 |
-| 血管外科值班 | 3456 |
-| 麻醉科值班 | 4567 |
-| 急診外科 | 119 |
-| 病安通報 | 1999 |
 
----
+## 標準作業程序
 
-## 10 患者教育與出院指導
 
-### 10.1 出院前評估
+### 術前準備檢核
+
+
+**必須完成項目:**
+
+- [$\square$] 詳細詢問用藥史(特別是 Brilinta, Plavix, aspirin)
+- [$\square$] 檢查凝血功能(PT, aPTT, platelet count)
+- [$\square$] 評估 Allen's test(選擇 radial artery 時)
+- [$\square$] 選擇合適穿刺部位並記錄理由
+- [$\square$] 獲得上級醫師核准(特別是 brachial artery)
+- [$\square$] 準備超音波設備(建議使用)
+- [$\square$] 準備緊急止血用品
+- [$\square$] **再次確認: 不是 Brilinta 病患!**
+
+
+### 術中技術要點
+
+
+- **穿刺技術**:         itemize
+- 使用超音波導引(特別是困難病例)
+- 穿刺角度: 30-45度
+- 避免多次嘗試(最多3次)
+- 確認動脈血回流後再進導線
+
+
+    \item **導管固定**:
+        
+- 立即縫合固定
+- 透明敷料覆蓋
+- 標記穿刺時間
+
+
+itemize
+
+
+### 術後監測 Protocol
+
+
+| |p{6cm}|}   **時間點** | **監測項目** | **異常處理** |  |
+| --- | --- | --- | --- |
+| **術後立即** | 穿刺部位、末梢循環、神經功能 | 發現異常立即報告 |  |
+| **術後1小時** | 重複上述檢查 + 疼痛評估 | 疼痛評分 > 7 需警覺 |  |
+| **術後4小時** | 全面評估 + 5P症候群 | 任何5P徵象立即處理 |  |
+| **每班交接** | 例行檢查 + 紀錄變化 | 持續追蹤並記錄 |  |
+| **移除前** | 凝血功能 + 局部狀況 | 確認止血能力正常 |  |
+
+
+## 併發症預防與管理
+
+
+### Compartment syndrome (筋膜室症候群)
+
+Compartment syndrome (筋膜室症候群)是最嚴重的併發症,發生率雖低(<0.01
+
+
+- **早期症狀**:劇烈疼痛、前臂緊繃感、被動伸展痛
+- **晚期症狀**:感覺喪失、肌肉無力、脈搏消失
+- **治療**:緊急筋膜切開術
+- **預後**:早期診斷和治療預後良好,延誤可能導致永久功能障礙
+
+
+### 其他併發症
+
+
+- **橈動脈閉塞**:發生率約5-10
+- **假性動脈瘤**:罕見(<0.1
+- **感染**:極罕見,注意無菌操作
+- **神經損傷**:特別是 brachial artery 穿刺時
+
+
+## 緊急處置流程
+
+
+### 發現血腫時的處置
+
+
+1. **立即評估**:          - 血腫範圍和程度 - 5P 症候群檢查 - 生命徵象監測
+2. **通知體系**:          - 立即通知主治醫師 - 諮詢心血管外科值班 - 通知護理長
+3. **緊急處置**:          - 停用所有抗凝/抗血小板藥物 - 適度加壓(避免過度壓迫) - 建立靜脈通路 - 準備輸血(如需要)
+
+
+### 緊急諮詢資訊
+
+
+> itemize[nosep]
+>     \item **心血管外科值班**:分機 2345
+>     \item **血管外科值班**:分機 3456  
+>     \item **麻醉科值班**:分機 4567
+>     \item **急診外科**:分機 119
+>     \item **病安通報**:分機 1999
+> itemize
+
+
+## 患者教育與出院指導
+
+
+### 出院前評估
+
 
 - 檢查穿刺部位止血情況
 - 評估前臂血腫程度
 - 檢查末梢循環和神經功能
 - 確認患者理解注意事項
 
-### 10.2 患者衛教重點
 
-- **活動限制**：30 天內避免患肢負重、熱敷、搓毛巾
-- **觀察重點**：注意出血徵象（牙齦出血、血尿、黑便、皮膚出血）
-- **緊急狀況**：出現嚴重疼痛、腫脹加劇、手指發紫、感覺異常時立即就醫
-- **藥物注意**：依醫囑服用抗凝劑，注意出血風險
-- **回診提醒**：按時回診追蹤
+### 患者衛教重點
 
-> **Pearl 2**：患者應被告知任何異常症狀都應立即諮詢醫療團隊，不可輕視前臂血腫的潛在危險性。早期發現、早期處理是關鍵！
 
----
+- **活動限制**:30天內避免患肢負重、熱敷、搓毛巾
+- **觀察重點**:注意出血徵象(牙齦出血、血尿、黑便、皮膚出血)
+- **緊急狀況**:出現嚴重疼痛、腫脹加劇、手指發紫、感覺異常時立即就醫
+- **藥物注意**:依醫囑服用抗凝劑,注意出血風險
+- **回診提醒**:按時回診追蹤
 
-## 11 自我檢測與評估
 
-### 11.1 情境模擬題
+患者應被告知任何異常症狀都應立即諮詢醫療團隊,不可輕視前臂血腫的潛在危險性。**早期發現、早期處理是關鍵!**
 
-**1. 緊急情況判斷：**
-45 歲男性，急性心肌梗塞，正在使用 Brilinta + aspirin，因血壓不穩需要 arterial line monitoring，但 radial artery 很細小，多次嘗試失敗。此時你的處置是？
-- A. 改用 brachial artery，因為是緊急情況
-- B. 繼續嘗試 radial artery，直到成功
-- C. 改用 femoral artery
-- D. 請資深醫師協助 radial artery 穿刺
-
-**正確答案：C 或 D，絕對不選 A**
-解析：使用 Brilinta 的病患，brachial artery 是絕對禁忌，即使在緊急情況下也不例外。應改用 femoral artery 或請資深醫師協助完成 radial artery 穿刺。
-
-**2. 併發症識別：**
-A-line 建置後 2 小時，病患主訴前臂劇痛，檢查發現前臂腫脹、皮膚蒼白、橈動脈脈搏微弱。你的立即處置是？
-- A. 給予止痛藥觀察
-- B. 立即通知主治醫師並準備緊急處置
-- C. 加壓包紮後繼續觀察
-- D. 安排超音波檢查確診
-
-**正確答案：B**
-解析：出現 5P 症候群（Pain, Pallor, Pulseless）表示可能發展為 compartment syndrome，這是緊急情況，必須立即通知醫師並準備緊急處置。時間就是功能！
-
-**3. 血腫分級判斷：**
-病患術後發現穿刺部位周圍 3cm 範圍內有輕微瘀血，無腫脹，末梢循環良好，無疼痛。這屬於 EASY 分類的哪一級？
-- A. I 級
-- B. II 級
-- C. III 級
-- D. IV 級
-
-**正確答案：A**
-解析：局部表淺血腫（穿刺部位），無延伸，屬於 I 級。處理包括止痛劑、額外手環、局部冰敷，無需通知醫師，但需密切觀察。
 
 ---
 
-## 12 考題
 
-**1. 經橈動脈介入治療後前臂血腫的總體發生率約為：**
-a) 0.1–1% &emsp; b) 0.4–14.4% &emsp; c) 15–20% &emsp; d) 25–30%
+## 自我檢測與評估
 
-**2. EASY 血腫分類系統中，第 III 級血腫的定義是：**
-a) 局部表淺血腫 &emsp; b) 中度肌肉浸潤的血腫 &emsp; c) 延伸至前臂及肌肉浸潤，低於肘部 &emsp; d) 延伸至肘部以上的血腫
 
-**3. 5P 症候群不包括以下哪一項：**
-a) Pain &emsp; b) Pallor &emsp; c) Pyrexia（發燒） &emsp; d) Paralysis
+### 情境模擬題
 
-**4. 第 V 級血腫（Compartment syndrome）的發生率約為：**
-a) < 5% &emsp; b) < 2% &emsp; c) < 0.1% &emsp; d) < 0.01%
 
-**5. 對於第 I 級血腫，以下處理何者正確：**
-a) 立即通知醫師 &emsp; b) 考慮手術治療 &emsp; c) 止痛劑、額外手環、局部冰敷 &emsp; d) 充氣血壓袖帶
+1. **緊急情況判斷**:          45歲男性,急性心肌梗塞,正在使用 Brilinta + aspirin,因血壓不穩需要 arterial line monitoring,但 radial artery 很細小,多次嘗試失敗。此時你的處置是?          **A.** 改用 brachial artery,因為是緊急情況          **B.** 繼續嘗試 radial artery,直到成功          **C.** 改用 femoral artery          **D.** 請資深醫師協助 radial artery 穿刺          ****正確答案:C 或 D,絕對不選 A****          **解析:** 使用 Brilinta 的病患,brachial artery 是**絕對禁忌**,即使在緊急情況下也不例外。應改用 femoral artery 或請資深醫師協助完成 radial artery 穿刺。
+2. **併發症識別**:          A-line 建置後2小時,病患主訴前臂劇痛,檢查發現前臂腫脹、皮膚蒼白、橈動脈脈搏微弱。你的立即處置是?          **A.** 給予止痛藥觀察          **B.** 立即通知主治醫師並準備緊急處置          **C.** 加壓包紮後繼續觀察          **D.** 安排超音波檢查確診          ****正確答案:B****          **解析:** 出現 5P 症候群(Pain, Pallor, Pulseless)表示可能發展為 compartment syndrome,這是緊急情況,必須立即通知醫師並準備緊急處置。時間就是功能!
+3. **血腫分級判斷**:          病患術後發現穿刺部位周圍3cm範圍內有輕微瘀血,無腫脹,末梢循環良好,無疼痛。這屬於 EASY 分類的哪一級?          **A.** I 級          **B.** II 級          **C.** III 級          **D.** IV 級          ****正確答案:A****          **解析:** 局部表淺血腫(穿刺部位),無延伸,屬於 I 級。處理包括止痛劑、額外手環、局部冰敷,無需通知醫師,但需密切觀察。
 
-**6. 使用血壓袖帶治療血腫時，壓力應設定為：**
-a) 收縮壓 &emsp; b) 舒張壓 &emsp; c) 收縮壓和舒張壓各加 20 mmHg &emsp; d) 收縮壓減 20 mmHg
-
-**7. 血壓袖帶使用時，應該多久放氣一次：**
-a) 每 5 分鐘 &emsp; b) 每 15 分鐘 &emsp; c) 每 30 分鐘 &emsp; d) 每 60 分鐘
-
-**8. 患者出院後，前臂活動限制的時間為：**
-a) 7 天 &emsp; b) 14 天 &emsp; c) 30 天 &emsp; d) 60 天
-
-**9. Compartment syndrome 最重要的治療是：**
-a) 抗生素治療 &emsp; b) 止痛劑 &emsp; c) 緊急筋膜切開術 &emsp; d) 抗凝劑
-
-**10. 以下哪種情況需要立即呼叫醫師：**
-a) 第 I 級血腫 &emsp; b) 第 II 級血腫 &emsp; c) 輕微局部疼痛 &emsp; d) 出現 5P 症候群任何異常
-
-**11.【病安題】使用 Brilinta + aspirin 的病患，建立 arterial line 時：**
-a) 可以選擇 brachial artery，但需超音波導引 &emsp; b) 緊急情況下可以使用 brachial artery &emsp; c) 絕對禁止使用 brachial artery &emsp; d) 可以使用，但需要資深醫師執行
-
-**12.【病安題】Compartment syndrome 的黃金治療時間是：**
-a) < 2 小時 &emsp; b) < 6 小時 &emsp; c) < 12 小時 &emsp; d) < 24 小時
-
-**13.【病安題】動脈導管建置時，穿刺部位的優先順序是：**
-a) Brachial → Radial → Femoral &emsp; b) Femoral → Brachial → Radial &emsp; c) Radial → Femoral → Brachial &emsp; d) Radial → Brachial → Femoral
 
 ---
 
-### 12.1 考題詳解
 
-1. **答案：b) 0.4–14.4%** — 不同研究報告的發生率有所差異，主要與血腫定義、患者族群和抗凝策略有關。
-2. **答案：c) 延伸至前臂及肌肉浸潤，低於肘部** — 表示已有肌肉內出血，需積極治療以防止進展為 compartment syndrome。
-3. **答案：c) Pyrexia（發燒）** — 5P 為 Pain、Pallor、Pulseless、Paresthesia、Paralysis。
-4. **答案：d) < 0.01%** — 雖然發生率極低，但一旦發生後果嚴重。
-5. **答案：c) 止痛劑、額外手環、局部冰敷** — 第 I 級為局部表淺血腫，不需要更積極的治療。
-6. **答案：c) 收縮壓和舒張壓各加 20 mmHg** — 確保有效止血同時避免過度壓迫。
-7. **答案：b) 每 15 分鐘** — 平衡止血效果和組織血流需求。
-8. **答案：c) 30 天** — 避免患肢負重、熱敷等活動。
-9. **答案：c) 緊急筋膜切開術** — 以釋放筋膜室內的壓力，恢復血液循環。
-10. **答案：d) 出現 5P 症候群任何異常** — 表示已有一定程度的缺血。
-11. **答案：c) 絕對禁止使用 brachial artery** — 無任何例外情況。
-12. **答案：b) < 6 小時** — 超過 6 小時組織損傷逐漸加重，超過 24 小時可能需截肢。
-13. **答案：c) Radial → Femoral → Brachial** — 記住口訣 "R-F-B"。
+## 考題
 
----
 
-## 13 記憶口訣總整理
+以下為針對「經橈動脈血腫管理」章節的反選擇題,旨在檢驗對關鍵概念的理解。
 
-- **"B-B-NO"**：Brilinta + Brachial = NO!
-- **"5P 危險"**：Pain, Pallor, Pulseless, Paresthesia, Paralysis
-- **"R-F-B 序"**：Radial First, Femoral Fine, Brachial Beware
-- **"6 小時金"**：6 小時內處理，功能可保全
-- **"懷疑即治"**：寧可過度警覺，不可延誤治療
-- **"I-II 保守, III-IV 積極, V 緊急"**：血腫分級處理原則
-- **"術前查藥, 術中小心, 術後密切"**：三階段管理
 
----
+1. 經橈動脈介入治療後前臂血腫的總體發生率約為:     enumerate[label=\alph*)]
+2. 0.1–1
+3. 0.4–14.4
+4. 15–20
+5. 25–30
 
-## 14 品質指標與持續改善
 
-### 14.1 目標設定
+    \item EASY 血腫分類系統中,第III級血腫的定義是:
+    
+1. 局部表淺血腫
+2. 中度肌肉浸潤的血腫
+3. 延伸至前臂及肌肉浸潤,低於肘部
+4. 延伸至肘部以上的血腫
 
-- A-line 相關血腫發生率：< 2%
-- Compartment syndrome 發生率：0%
-- 住院醫師訓練完成率：100%
-- 病安事件零容忍：立即檢討改善
-- Brilinta 病患 brachial artery 穿刺：0 件
 
-### 14.2 教育訓練要求
+    \item 5P 症候群不包括以下哪一項:
+    
+1. Pain(疼痛)
+2. Pallor(蒼白)
+3. Pyrexia(發燒)
+4. Paralysis(癱瘓)
 
-所有住院醫師必須完成：
-- [ ] 閱讀本指引並簽名確認
-- [ ] 參加病安教育訓練課程
-- [ ] 通過線上測驗（分數 > 80 分）
-- [ ] 接受資深醫師督導實作
-- [ ] 定期參與病例討論會
-- [ ] 熟記所有安全口訣
-- [ ] 了解緊急處置流程
 
----
+    \item 第V級血腫(Compartment syndrome (筋膜室症候群))的發生率約為:
+    
+1. $<$ 5
+2. $<$ 2
+3. $<$ 0.1
+4. $<$ 0.01
 
-## 15 簽名確認
 
-> **住院醫師學習確認書**
->
-> 我已詳細閱讀「經橈動脈血腫管理完整教學講義」，了解相關風險與預防措施，承諾遵守以下原則：
-> 1. 絕不在使用 Brilinta + aspirin 的病患進行 brachial artery 穿刺
-> 2. 優先選擇 radial artery，必要時選擇 femoral artery
-> 3. 術前必定確認病患用藥史
-> 4. 術後密切監測，發現異常立即報告
-> 5. 遇到困難病例主動尋求上級醫師協助
-> 6. 持續學習新知識，參與品質改善活動
-> 7. 將病患安全放在第一位
->
-> 住院醫師姓名：________ 簽名：________ 科別：________ 日期：________
-> 督導醫師：________ 簽名：________
+    \item 對於第I級血腫,以下處理何者正確:
+    
+1. 立即通知醫師
+2. 考慮手術治療
+3. 止痛劑、額外手環、局部冰敷
+4. 充氣血壓袖帶
 
----
 
-## 16 附錄
+    \item 使用血壓袖帶治療血腫時,壓力應設定為:
+    
+1. 收縮壓
+2. 舒張壓
+3. 收縮壓和舒張壓各加 20 mmHg
+4. 收縮壓減 20 mmHg
 
-### 16.1 相關藥物列表
 
-| 藥物分類 | 常用藥物 | 作用機轉 | 出血風險 |
-|----------|---------|---------|---------|
-| P2Y12 抑制劑 | Brilinta (ticagrelor) | 不可逆血小板抑制 | 極高 |
-| P2Y12 抑制劑 | Plavix (clopidogrel) | 不可逆血小板抑制 | 高 |
-| COX 抑制劑 | Aspirin | 血小板聚集抑制 | 中等 |
-| 抗凝劑 | Heparin | 凝血因子抑制 | 高 |
-| 抗凝劑 | Warfarin | Vitamin K 拮抗 | 高 |
+    \item 血壓袖帶使用時,應該多久放氣一次:
+    
+1. 每5分鐘
+2. 每15分鐘
+3. 每30分鐘
+4. 每60分鐘
 
-### 16.2 超音波導引技術要點
 
-- 探頭選擇：高頻線性探頭（7.5–15 MHz）
-- 掃描技術：短軸或長軸視圖
-- 穿刺角度：與探頭平行或垂直
-- 影像優化：調整增益和深度
-- 安全確認：確認針尖位置再進導線
+    \item 患者出院後,前臂活動限制的時間為:
+    
+1. 7天
+2. 14天
+3. 30天
+4. 60天
 
-### 16.3 文獻回顧重點
 
-本指引主要參考文獻包括：
-- Bertrand et al. (2010) — EASY 血腫分類系統
-- Garg et al. (2019) — 血腫發生率與預測因子
-- Tizon-Marcos & Barbeau (2008) — Compartment syndrome 分析
-- 本院病安事件報告與分析 (2025)
+    \item Compartment syndrome (筋膜室症候群)最重要的治療是:
+    
+1. 抗生素治療
+2. 止痛劑
+3. 緊急筋膜切開術
+4. 抗凝劑
 
-### 16.4 持續教育資源
 
-- 線上學習平台：醫院數位學習系統
-- 模擬訓練：技能訓練中心超音波導引練習
-- 病例討論：每月心血管中心教學會議
-- 文獻更新：訂閱相關期刊與指引
-- 病安通報系統：即時學習他人經驗
+    \item 以下哪種情況需要立即呼叫醫師:
+    
+1. 第I級血腫
+2. 第II級血腫
+3. 輕微局部疼痛
+4. 出現5P症候群任何異常
 
----
 
-## 17 參考文獻
+    
+    \item **【新增病安題】**使用 Brilinta (ticagrelor) + aspirin 的病患,建立 arterial line 時:
+    
+1. 可以選擇 brachial artery,但需超音波導引
+2. 緊急情況下可以使用 brachial artery
+3. 絕對禁止使用 brachial artery
+4. 可以使用 brachial artery,但需要資深醫師執行
 
-1. Bertrand OF. Acute forearm muscle swelling post transradial catheterization and compartment syndrome: prevention is better than treatment! [*Catheter Cardiovasc Interv*. 2010;75(3):366-368.](https://doi.org/10.1002/ccd.22377)
-2. Garg N, Umamaheswar KL, Kapoor A, et al. Incidence and predictors of forearm hematoma during the transradial approach for percutaneous coronary interventions. [*Indian Heart J*. 2019;71(2):136-142.](https://doi.org/10.1016/j.ihj.2019.04.009)
-3. Caputo RP, Tremmel JA, Rao S, et al. Transradial arterial access for coronary and peripheral procedures: executive summary by the Transradial Committee of the SCAI. [*Catheter Cardiovasc Interv*. 2011;78(6):823-839.](https://doi.org/10.1002/ccd.23052)
-4. Tizon-Marcos H, Barbeau GR. Incidence of compartment syndrome of the arm in a large series of transradial approach for coronary procedures. [*J Interv Cardiol*. 2008;21(5):380-384.](https://doi.org/10.1111/j.1540-8183.2008.00361.x)
-5. Jue J, Karam JA, Mejia A, Shroff A. Compartment Syndrome of the Hand: A Rare Sequela of Transradial Cardiac Catheterization. [*Tex Heart Inst J*. 2017;44(1):73-76.](https://doi.org/10.14503/THIJ-15-5510)
-6. Zhi C, Meng S, Wang L. Nursing of forearm hematoma after transradial coronary intervention. [*Health Science Reports*. 2024;7(1):e70050.](https://doi.org/10.1002/hsr2.70050)
-7. 心血管中心病安委員會. 114 年重症暨加護病房非預期重返率分析報告。台大醫院內部文件; 2025.
+
+    
+    \item **【新增病安題】**Compartment syndrome 的黃金治療時間是:
+    
+1. < 2小時
+2. < 6小時
+3. < 12小時
+4. < 24小時
+
+
+    
+    \item **【新增病安題】**動脈導管建置時,穿刺部位的優先順序是:
+    
+1. Brachial → Radial → Femoral
+2. Femoral → Brachial → Radial
+3. Radial → Femoral → Brachial
+4. Radial → Brachial → Femoral
+
+
+enumerate
+
 
 ---
 
-*文件版本：v3.0 整合版 | 發布日期：2025-12-25 | 下次檢討：3 個月後或發生新病安事件時 | 核准單位：心血管中心病安委員會 | 適用對象：全院住院醫師及相關醫療人員*
+
+### 考題詳解
+
+
+1. **正確答案:b) 0.4–14.4      **詳解:** 根據文獻報告,經橈動脈介入治療後前臂血腫的發生率約為 0.4–14.4
+2. **正確答案:c) 延伸至前臂及肌肉浸潤,低於肘部**      **詳解:** EASY 血腫分類系統中,第III級血腫定義為延伸至前臂及肌肉浸潤,但範圍低於肘部。這個等級表示已有肌肉內出血,需要積極治療以防止進展為 Compartment syndrome (筋膜室症候群)。
+3. **正確答案:c) Pyrexia(發燒)**      **詳解:** 5P 症候群包括:Pain(疼痛)、Pallor(蒼白)、Pulseless(無脈搏)、Paresthesia(感覺異常)、Paralysis(癱瘓)。Pyrexia(發燒)不是 5P 症候群的組成部分。
+4. **正確答案:d) $<$ 0.01      **詳解:** 第V級血腫即 Compartment syndrome (筋膜室症候群)的發生率極低,約 $<$ 0.01
+5. **正確答案:c) 止痛劑、額外手環、局部冰敷**      **詳解:** 第I級血腫為局部表淺血腫,處理包括止痛劑、額外手環、局部冰敷。不需要立即通知醫師或進行更積極的治療。
+6. **正確答案:c) 收縮壓和舒張壓各加 20 mmHg**      **詳解:** 使用血壓袖帶治療血腫時,壓力應設定為收縮壓和舒張壓各加 20 mmHg,以確保有效止血同時避免過度壓迫造成缺血。
+7. **正確答案:b) 每15分鐘**      **詳解:** 血壓袖帶使用時應每15分鐘放氣一次,避免持續壓迫造成組織缺血。這個間隔時間能平衡止血效果和組織血流需求。
+8. **正確答案:c) 30天**      **詳解:** 患者出院後30天內應避免患肢負重、熱敷、搓毛巾等活動,以防止穿刺部位再次出血或血腫擴大。
+9. **正確答案:c) 緊急筋膜切開術**      **詳解:** Compartment syndrome (筋膜室症候群)最重要的治療是緊急筋膜切開術,以釋放筋膜室內的壓力,恢復血液循環。延誤手術可能導致永久性功能障礙。
+10. **正確答案:d) 出現5P症候群任何異常**      **詳解:** 出現5P症候群中的任何異常指標都表示已有一定程度的缺血,應立即報告醫師。第I級血腫和輕微局部疼痛通常不需要立即醫師介入。
+11. **正確答案:c) 絕對禁止使用 brachial artery**          **詳解:** 使用 Brilinta + aspirin 的病患,**絕對禁止**在 brachial artery 建立 arterial line,**無任何例外情況**,包括緊急情況、超音波導引或資深醫師執行都不可以。這是基於血淚教訓建立的安全規範,必須嚴格遵守。
+12. **正確答案:b) < 6小時**          **詳解:** Compartment syndrome 的黃金治療時間是 < 6小時。在這個時間內進行筋膜切開術,功能可以完全恢復。超過6小時,組織損傷會逐漸加重,超過24小時可能需要截肢。**時間就是手臂功能!**
+13. **正確答案:c) Radial → Femoral → Brachial**          **詳解:** 動脈導管建置時的優先順序是:首選 Radial artery(表淺、易止血、安全),次選 Femoral artery(當 radial 不適合時),最後才考慮 Brachial artery(且必須在沒有使用強效抗血小板藥物的情況下)。記住口訣:"R-F-B"。
+
+
+## 記憶口訣總整理
+
+
+importantbox
+**安全口訣集錦:**
+
+- **"B-B-NO"**: Brilinta + Brachial = NO!
+- **"5P危險"**: Pain, Pallor, Pulseless, Paresthesia, Paralysis
+- **"R-F-B序"**: Radial First, Femoral Fine, Brachial Beware
+- **"6小時金"**: 6小時內處理,功能可保全
+- **"懷疑即治"**: 寧可過度警覺,不可延誤治療
+- **"I-II保守,III-IV積極,V緊急"**: 血腫分級處理原則
+- **"術前查藥,術中小心,術後密切"**: 三階段管理
+
+
+importantbox
+
+
+## 品質指標與持續改善
+
+
+### 目標設定
+
+
+- **A-line 相關血腫發生率**: < 2
+- **Compartment syndrome 發生率**: **0
+- **住院醫師訓練完成率**: 100
+- **病安事件零容忍**: 立即檢討改善
+- **Brilinta 病患 brachial artery 穿刺**: **0件**
+
+
+### 教育訓練要求
+
+importantbox
+**所有住院醫師必須完成:**
+
+- [$\square$] 閱讀本指引並簽名確認
+- [$\square$] 參加病安教育訓練課程
+- [$\square$] 通過線上測驗(分數 > 80分)
+- [$\square$] 接受資深醫師督導實作
+- [$\square$] 定期參與病例討論會
+- [$\square$] 熟記所有安全口訣
+- [$\square$] 了解緊急處置流程
+
+
+importantbox
+
+
+## 簽名確認
+
+
+> 我已詳細閱讀「經橈動脈血腫管理完整教學講義」,了解相關風險與預防措施,承諾遵守以下原則:
+> enumerate[nosep]
+>     \item 絕不在使用 Brilinta + aspirin 的病患進行 brachial artery 穿刺
+>     \item 優先選擇 radial artery,必要時選擇 femoral artery  
+>     \item 術前必定確認病患用藥史
+>     \item 術後密切監測,發現異常立即報告
+>     \item 遇到困難病例主動尋求上級醫師協助
+>     \item 持續學習新知識,參與品質改善活動
+>     \item **將病患安全放在第一位**
+> enumerate
+> tabular{ll}
+> 住院醫師姓名:  & 簽名:    
+> [0.5cm]
+> 科別:  & 日期:    
+> [0.5cm]
+> 督導醫師:  & 簽名:    
+> tabular
+
+
+---
+
+
+## 附錄
+
+
+### 相關藥物列表
+
+
+| |p{3cm}|p{4cm}|p{3cm}|}   **藥物分類** | **常用藥物** | **作用機轉** |
+| --- | --- | --- |
+| **P2Y12抑制劑** | Brilinta (ticagrelor) | 不可逆血小板抑制 |
+|  | Plavix (clopidogrel) | 不可逆血小板抑制 |
+| **COX抑制劑** | Aspirin | 血小板聚集抑制 |
+| **抗凝劑** | Heparin | 凝血因子抑制 |
+|  | Warfarin | Vitamin K 拮抗 |
+
+
+### 超音波導引技術要點
+
+
+- **探頭選擇**:高頻線性探頭(7.5-15 MHz)
+- **掃描技術**:短軸或長軸視圖
+- **穿刺角度**:與探頭平行或垂直
+- **影像優化**:調整增益和深度
+- **安全確認**:確認針尖位置再進導線
+
+
+### 文獻回顧重點
+
+本指引主要參考文獻包括:
+
+- Bertrand et al. (2010) - EASY血腫分類系統
+- Garg et al. (2019) - 血腫發生率與預測因子
+- Tizon-Marcos & Barbeau (2008) - Compartment syndrome 分析
+- 本院病安事件報告與分析(2025)
+
+
+### 持續教育資源
+
+
+- **線上學習平台**:醫院數位學習系統
+- **模擬訓練**:技能訓練中心超音波導引練習
+- **病例討論**:每月心血管中心教學會議
+- **文獻更新**:訂閱相關期刊與指引
+- **病安通報系統**:即時學習他人經驗
+
+
+---
+
+
+## 參考文獻
+
+thebibliography{9}
+
+bertrand2010
+Bertrand, O. F. (2010). Acute forearm muscle swelling post transradial catheterization and compartment syndrome: prevention is better than treatment! *Catheter Cardiovasc Interv*, 75(3), 366–368.
+
+garg2019
+Garg, N., Umamaheswar, K. L., Kapoor, A., et al. (2019). Incidence and predictors of forearm hematoma during the transradial approach for percutaneous coronary interventions. *Indian Heart J*, 71(2), 136–142.
+
+caputo2011
+Caputo, R. P., Tremmel, J. A., Rao, S., et al. (2011). Transradial arterial access for coronary and peripheral procedures: executive summary by the Transradial Committee of the SCAI. *Catheter Cardiovasc Interv*, 78(6), 823–839.
+
+tizon2008
+Tizón-Marcos, H., & Barbeau, G. R. (2008). Incidence of compartment syndrome of the arm in a large series of transradial approach for coronary procedures. *J Interv Cardiol*, 21(5), 380–384.
+
+jue2017
+Jue, J., Karam, J. A., Mejia, A., & Shroff, A. (2017). Compartment Syndrome of the Hand: A Rare Sequela of Transradial Cardiac Catheterization. *Tex Heart Inst J*, 44(1), 73–76.
+
+zhi2024
+Zhi, C., Meng, S., & Wang, L. (2024). Nursing of forearm hematoma after transradial coronary intervention. *Health Science Reports*, 7(1), e70050.
+
+hospital2025
+心血管中心病安委員會 (2025). 114年重症暨加護病房非預期重返率分析報告。台大醫院內部文件。
+
+thebibliography
+
+\vfill
+
+
+tabular{ll}
+**文件版本:** & v3.0 整合版
+**發布日期:** & \mydate
+**下次檢討:** & 3個月後或發生新病安事件時
+**核准單位:** & 心血管中心病安委員會
+**適用對象:** & 全院住院醫師及相關醫療人員
+tabular

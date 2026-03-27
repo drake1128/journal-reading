@@ -1,0 +1,688 @@
+---
+title: "EuroIntervention DCB and bifurcation 2025"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-11-15
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **重大發現:** 藥物塗層球囊(DCB)在冠狀動脈分叉病灶(CBL)治療中展現出獨特優勢,特別是在邊支血管(SB)處理方面。DCB能夠提供抗增生藥物而無需永久植入物,降低晚期併發症風險並保留原生血管幾何結構。
+> **研究意義:** 本綜述系統性回顧DCB在分叉病灶中的應用,包括單獨使用策略和與藥物塗層支架(DES)的混合策略,為介入心臟科醫師提供實務指引。
+
+
+\tableofcontents
+
+---
+
+
+## 前言
+
+分叉病變為冠狀動脈治療時重要課題，在2025-11-15我參加了DCB Club, 在會議中學習很多，會議中的重要文獻為: 
+[*EuroIntervention](https://doi.org/10.4244/EIJ-D-25-00201). 2025;21:e1177-e1197.* 在會議結束後決定整理給同仁們。請參考原文使用此講義。
+
+
+## 研究背景與問題
+
+
+### 冠狀動脈分叉病灶的挑戰
+
+
+冠狀動脈分叉病灶在日常臨床實務中經常遇到,約佔所有經皮冠狀動脈介入治療(PCI)的20
+
+
+- **較低的手術成功率**:複雜的解剖結構增加操作難度
+- **較差的臨床結果**:長期併發症風險較高
+- **支架相關問題**:儘管新一代藥物塗層支架有所進步,永久性金屬植入物仍存在潛在缺點
+
+
+### 傳統治療的限制
+
+
+使用永久性金屬支架進行分叉病灶治療面臨幾個挑戰:
+
+
+| p{10cm}} 支架治療分叉病灶的潛在問題 |  |  |
+| --- | --- | --- |
+| **問題類型** | **說明** |  |
+| 長期雙重抗血小板治療(DAPT) | 特別是在高齡患者和高出血風險(HBR)患者中可能造成風險 |  |
+| 支架相關長期併發症 | 包括支架內再狹窄、支架血栓形成和新生動脈粥狀硬化,發生率約2-3 |  |
+| 邊支血管嵌頓 | 主血管支架跨越邊支開口造成的問題 |  |
+| 支架錯位和聚合物變形 | 可能影響抗增生藥物的傳遞 |  |
+
+
+### DCB的理論優勢
+
+
+藥物塗層球囊在分叉病灶治療中提供以下優勢:
+
+
+> enumerate
+>     \item **標靶藥物傳遞**:直接將抗增生藥物傳遞至邊支血管
+>     \item **降低血栓風險**:避免金屬支架條產生的新隆突(neocarina)和支架血栓
+>     \item **保留血管結構**:避免支架錯位和聚合物變形問題
+>     \item **保持邊支通路**:避免永久性嵌頓,保留原生動脈幾何結構
+>     \item **維持血管運動**:保持生理性血管舒縮功能
+>     \item **簡化抗血小板治療**:可降階DAPT強度和持續時間
+> enumerate
+
+
+## DCB技術與器械
+
+
+### DCB的主要類型
+
+
+DCB主要在以下兩個方面有所不同:
+
+
+| p{5cm}p{5cm}} DCB技術比較 |  |  |
+| --- | --- | --- |
+| **特性** | **Paclitaxel(PTX)基底** | **-Limus基底** |
+| 藥物類型 | Paclitaxel | Sirolimus或其類似物 |
+| 塗層技術 | Iopromide、urea、shellac等賦形劑 | Nanoluté、CAT、SeQuent SCB等技術 |
+| 臨床證據 | 更豐富的臨床數據 | 新興技術,部分研究顯示非劣效性 |
+| 血管重塑 | 約60 | 約30 |
+
+
+### 臨床證據比較
+
+
+根據納入1,861位患者的meta分析顯示:
+
+
+- **血管造影優勢**:PTX塗層球囊在晚期管腔損失(LLL)上優於-limus基底(LLL差異 -0.11 mm, 95
+- **臨床結果**:標的病灶失敗率無顯著差異(OR 1.01, 95
+
+
+### 新世代DCB的改進
+
+
+- **改善trackability**:對於分叉病灶特別重要,尤其是需要通過主血管支架條重新進入邊支時
+- **避免血管籠罩效應**:允許正向血管重塑
+- **在嵌頓邊支的限制**:當DCB應用於暫時性主血管支架術後的嵌頓邊支時,正向重塑效果可能受到限制
+
+
+## DCB在分叉病灶的臨床應用
+
+
+### 歐洲分叉俱樂部(EBC)建議
+
+
+根據歐洲心臟病學會和EBC的共識:
+
+
+> **預設策略:**
+> itemize
+>     \item 從主血管支架植入開始,跨越邊支
+>     \item 保留邊支暫時性支架植入作為備用
+>     \item 僅在複雜病灶(涉及大型且病變的邊支)時才考慮雙支架策略
+> itemize
+> **KISS原則:** Keep It Simple and Safe
+> itemize
+>     \item 限制使用的支架數量
+>     \item DCB被認定為重要的技術選項
+>     \item 特別適用於解剖結構合適的病例(如Medina 0,0,1分類)
+> itemize
+
+
+### DCB在分叉病灶的潛在優勢
+
+
+1. **增加暫時性策略成功率**:相較於單純球囊血管成形術(POBA)
+2. **降低PCI複雜度**:      - 尊重隆突的原始解剖結構 - 減少雙支架策略需求 - 降低器械相關失敗發生率
+3. **允許晚期管腔擴大**:避免永久性限制
+4. **適用於小血管**:邊支血管通常直徑≤2.75 mm,但DCB已被證實在小血管治療中不劣於DES
+
+
+## DCB使用技術指引
+
+
+### 病灶準備的關鍵步驟
+
+
+在抗增生藥物傳遞前,適當的病灶準備至關重要:
+
+
+| p{11cm}} DCB使用前的病灶準備 |  |  |
+| --- | --- | --- |
+| **步驟** | **要求** |  |
+| 邊支導線保護 | 依據EBC建議:參考血管直徑≥2.0 mm、供應>10 |  |
+| 預擴張 | 使用半順應性或非順應性(NC)球囊,球囊與動脈比例1:1 |  |
+| 嚴重鈣化處理 | 使用高壓NC球囊、cutting球囊、scoring球囊,或鈣質碎解策略(旋轉式斑塊切除術/血管內碎石術) |  |
+| 孤立邊支狹窄 | (Medina 0,0,1)優先使用scoring/cutting球囊,確保良好的預擴張結果 |  |
+
+
+### DCB尺寸選擇與充氣參數
+
+
+> **球囊尺寸:** 球囊與血管比例0.8-1:1
+> **充氣時間:** 至少30-60秒,以允許適當的藥物釋放
+> **充氣壓力:** 6-10 atm(低壓)
+> itemize
+>     \item 不應超過此壓力範圍
+>     \item DCB的機械擴張特性可能造成夾層風險
+> itemize
+> **可接受的結果標準:**
+> itemize
+>     \item 殘餘狹窄<30
+>     \item 非血流限制性夾層(不伴隨TIMI<3、延長的心電圖變化或心絞痛)
+> itemize
+
+
+### 嵌頓邊支的生理評估
+
+
+在暫時性支架植入期間,應考慮評估嵌頓邊支的開口「夾緊」情況:
+
+
+- **FFR或iFR測量**:顯示正常值與良好長期功能結果相關
+- **支持保守管理**:周邊測量正常支持避免額外邊支介入
+- **減少邊支支架植入**:功能性評估已被證實可減少暫時性策略中的邊支支架植入需求
+
+
+## DCB策略分類
+
+
+### Leave Nothing Behind策略
+
+
+**純DCB策略**適用於整個分叉病灶範圍,前提是預擴張結果令人滿意:
+
+
+| p{10cm}} 不同Medina分類的DCB策略 |  |  |
+| --- | --- | --- |
+| **Medina分類** | **DCB策略** |  |
+| Medina 0,0,1 | **僅邊支DCB**:孤立邊支病灶,僅處理邊支,主血管不處理 |  |
+| Medina 1,1,0 |  |  |
+| Medina 0,1,0 |  |  |
+| Medina 1,0,0 | **主血管DCB跨越邊支**:邊支無病變,DCB處理主血管跨越邊支。小型病變邊支的開口可能在追蹤期間改善 |  |
+| Medina 1,1,1 |  |  |
+| Medina 1,0,1 |  |  |
+| Medina 0,1,1 | **序貫DCB擴張**:真性分叉病灶,建議序貫DCB擴張,先從邊支開始,然後主血管。**應避免親吻式DCB充氣** |  |
+
+
+#### 避免親吻式DCB充氣的原因
+
+
+1. 可能增加近端主血管夾層和穿孔風險(未受支架保護)
+2. 需要在血液中停留較長時間,造成藥物損失
+3. 近端兩個球囊間的相互作用無法實現血管的適當同心覆蓋,導致藥物傳遞不佳
+
+
+### 混合/融合策略
+
+
+混合策略將DCB整合到暫時性DES植入理念中:
+
+
+#### 邊支DCB在DES植入前
+
+
+> **操作順序:**
+> enumerate
+>     \item 主血管和邊支的病灶準備
+>     \item 邊支DCB充氣
+>     \item 暫時性DES植入至主血管
+>     \item 強制性近端優化技術(POT)
+>     \item 若邊支結果次佳:遠端邊支重新配線→親吻式球囊充氣(KBI)和重新POT,或POT-側支-POT充氣
+> enumerate
+> **潛在問題:**進一步的充氣可能與已傳遞至邊支的抗增生藥物相互作用
+
+
+#### 邊支DCB在DES植入後
+
+
+> **操作順序:**
+> enumerate
+>     \item DES植入跨越邊支
+>     \item POT
+>     \item 邊支重新配線和擴張
+>     \item DCB應用於邊支
+>     \item 選擇性KBI
+>     \item 強制性最終重新POT
+> enumerate
+> **潛在問題:**
+> itemize
+>     \item DCB與支架條的相互作用可能導致藥物損失
+>     \item 可能妨礙適當的藥物傳遞至邊支
+>     \item 嵌頓邊支中cutting或scoring球囊的傳遞性受限
+> itemize
+
+
+**重要提醒:** DCB在分叉病灶PCI中使用的時機和順序仍在持續討論中,目前建議主要基於專家意見和臨床經驗,需要進一步的大型前瞻性隨機研究來建立更明確的指引。
+
+
+## 臨床證據回顧
+
+
+### 主血管DCB(純DCB策略)
+
+
+#### 早期可行性研究
+
+
+| p{5cm}p{6cm}} 主血管DCB策略的關鍵研究 |  |  |
+| --- | --- | --- |
+| **研究** | **設計** | **主要發現** |
+| Schulz et al 2014 | 前瞻性觀察單中心(n=39,LM 33 | 4個月血管造影再狹窄率:邊支3.3 |
+| Bruch et al 2016 | 觀察性多中心註冊研究(n=127) | 53.8 |
+| Ke et al 2023 | RCT(n=60):純DCB vs 雙支架 | 12個月LLL:主血管0.05±0.24 vs 0.25±0.35 mm(p=0.013);邊支-0.02±0.19 vs 0.11±0.15 mm(p=0.005) |
+| CAGE-FREE 1 | RCT:DCB vs DES,非複雜病灶 | DES優於DCB;但在非真性分叉和小血管亞組中結果相當 |
+
+
+### 邊支DCB策略
+
+
+兩項meta分析確認DCB相較於POBA在邊支治療中的優勢:
+
+
+#### Zheng et al Meta分析(n=934)
+
+
+來自10項研究(包括5項RCT)的主要發現:
+
+
+- **血管造影優勢**:     itemize
+- 較低的LLL
+- 較小的管徑狹窄
+- 較低的二元再狹窄率
+
+
+    \item **臨床結果**:
+    
+- 9個月MACE顯著較低(OR 0.21, 95
+- 12個月MACE顯著較低(OR 0.45, 95
+- 標的病灶失敗無顯著減少
+
+
+itemize
+
+
+### 關鍵隨機對照試驗
+
+
+| p{3cm}p{8cm}} 邊支DCB治療的主要RCT |  |  |
+| --- | --- | --- |
+| **試驗** | **病例數** | **主要結果** |
+| PEPCAD-BIF | n=64 | 9個月LLL:0.13±0.31 vs 0.51±0.66 mm(p=0.045);ISR 6 |
+| BEYOND | n=222 | 9個月管徑狹窄:28.7±18.7 |
+| DCB-BIF | n=784 | **最大規模RCT**:12個月MACE 7.2 |
+
+
+#### DCB-BIF試驗深入分析
+
+
+此為最大規模評估邊支DCB治療的RCT,重要發現包括:
+
+
+> **優勢:**
+> itemize
+>     \item 顯著降低MACE(主要由MI減少驅動)
+>     \item TLR率相似
+>     \item 無顯著差異於手術成功率、交叉至雙支架策略、全因死亡率或支架血栓
+> itemize
+> **可能機制:**
+> itemize
+>     \item 非對照組較高的MI數可能歸因於早期、主要為周邊手術事件
+>     \item DCB的益處可能不僅來自paclitaxel的藥理作用,也來自較長的球囊充氣時間
+>     \item 較長充氣可能減少急性回縮、夾層、輔助程序和晚期再狹窄
+> itemize
+
+
+### 左主幹分叉病灶
+
+
+#### 觀察性研究證據
+
+
+| p{11cm}} 左主幹分叉病灶DCB治療研究 |  |  |
+| --- | --- | --- |
+| **研究** | **發現** |  |
+| Liu et al(回顧性,n=100) | 左迴旋支開口的最小管腔直徑在DES+DCB組高於雙DES組;LLL在DES+DCB組較低(p<0.05);MACE相似 |  |
+| HYPER試驗亞研究(n=50) | 混合策略(主血管DES+邊支DCB)是真性分叉病灶雙支架的安全有效替代方案 |  |
+| Pan et al(傾向性配對,n=597) | DES+DCB與僅DES策略比較,2年時有較低的臨床驅動TLR(2.91 |  |
+
+
+## 特殊情況應用
+
+
+### 急性冠狀動脈症候群(ACS)
+
+
+- **可行性**:初步數據顯示在選定ACS患者中純DCB策略可行且安全
+- **證據**:大型試驗和觀察性註冊研究的亞組分析顯示,適當病灶準備後,DCB產生與DES相當的結果
+- **限制**:在分叉設定中,DCB使用主要涉及主血管,邊支治療的具體數據有限
+- **需要注意**:血栓負荷和藥物傳遞的潛在問題
+- **未來方向**:需要進一步研究以確定DCB在ACS分叉病灶中的最佳使用
+
+
+### 糖尿病
+
+
+- **疾病特點**:糖尿病患者常表現為複雜、瀰漫性疾病,再狭窄風險較高,特別是在小血管和分叉病灶
+- **DCB潛在優勢**:     itemize
+- 避免支架的特性
+- 在小血管中的良好結果
+- 可能對此高風險族群有益
+
+
+    \item **證據缺口**:目前尚無RCT專門研究糖尿病患者分叉病灶PCI中的DCB使用
+    \item **未來展望**:需要專門研究來證實此假設
+itemize
+
+
+### 高出血風險(HBR)
+
+
+> **策略吸引力:**
+> itemize
+>     \item 可能實現無支架血管重建
+>     \item 允許DAPT降階
+>     \item 在分叉病灶中使用DCB可幫助:
+>     itemize
+>         \item 最小化支架長度
+>         \item 減少與延長DAPT相關的出血風險
+>     itemize
+> itemize
+> **支持證據:**
+> itemize
+>     \item 觀察性數據支持縮短抗血小板療程的安全性
+>     \item REC-CAGEFREE II試驗支持DCB治療後縮短抗血小板療程
+>     \item 對分叉解剖的適用性仍需充分驗證
+> itemize
+
+
+## 血管內影像與生理評估
+
+
+### 血管內影像(ICI)的角色
+
+
+#### 影像技術比較
+
+
+| p{5cm}p{6cm}} 血管內影像技術特點 |  |  |
+| --- | --- | --- |
+| **技術** | **優勢** | **在DCB PCI的應用** |
+| OCT | 高解析度;偵測細微夾層、血栓或不完全病灶準備 | 優先選擇,特別是評估病灶準備品質 |
+| IVUS | 準確測量血管壁和斑塊負荷 | 適用於血管尺寸評估和整體斑塊評估 |
+
+
+#### ULTIMATE III試驗發現
+
+
+比較IVUS引導vs血管造影引導DCB PCI:
+
+
+- **血管造影結果改善**:     itemize
+- 急性增益改善
+- 7個月LLL降低(-0.10±0.34 mm vs 0.03±0.52 mm; p=0.025)
+- 最小管腔直徑改善
+- 管徑狹窄改善
+
+
+    \item **重要發現**:中膜夾層對純DCB PCI後的較佳結果是必需的,可能是因為:
+    
+- 夾層本身對血管重塑的影響
+- 可能促進更好的藥物轉移至血管壁
+
+
+itemize
+
+
+### 在分叉病灶中的具體應用
+
+
+#### 影像引導的優勢
+
+
+1. **精煉Medina分類**:更準確評估病變範圍
+2. **指導救援支架植入決策**:當存在殘餘狹窄或血管造影夾層時
+3. **評估邊支開口狹窄**:      - 主血管支架植入後邊支開口狹窄常顯得血管造影上顯著 - 功能評估常顯示無缺血
+
+
+#### 救援支架植入閾值
+
+
+雖然DCB治療後救援支架植入的具體閾值(如最小管腔面積或夾層嚴重程度)尚未建立,ICI可在臨界或模棱兩可的病例中提供有價值的指引。
+
+
+### 冠狀動脈生理學
+
+
+#### 生理評估工具
+
+
+| p{10cm}} 嵌頓邊支的生理評估 |  |  |
+| --- | --- | --- |
+| **工具** | **臨床應用** |  |
+| FFR(血流儲備分數) | 識別功能上不顯著的病灶並支持邊支延遲處理 |  |
+| NHPR(非充血壓力比值) | 同上,無需充血誘導 |  |
+
+
+#### 關鍵研究發現
+
+
+Koo et al的關鍵研究:
+
+- 主血管支架植入後嵌頓邊支病灶的FFR評估
+- 發現許多血管造影上顯著的狹窄在血流動力學上不相關
+- 支持生理學引導的方法以避免不必要的介入
+
+
+#### DCB治療前的建議閾值
+
+
+> **當前建議:**
+> 回顧性觀察數據顯示,遠端冠狀動脈與主動脈壓力比(Pd/Pa)截斷值0.90可能表示DCB應用前的最佳病灶準備。
+> **證據限制:**
+> itemize
+>     \item 目前沒有前瞻性專門研究
+>     \item 缺乏評估侵入性壓力導線或血管造影基底冠狀動脈生理學在引導DCB治療中作用的研究
+> itemize
+
+
+## 研究限制與未來方向
+
+
+### 現有證據的限制
+
+
+| p{10cm}} 當前DCB分叉病灶研究的主要限制 |  |  |
+| --- | --- | --- |
+| **限制類別** | **具體問題** |  |
+| 研究設計異質性 | 研究方案、納入/排除標準不一致;使用的DCB和DES類型不同 |  |
+| 樣本量 | 大多數RCT樣本量相對較小 |  |
+| 納入標準 | 包括裸金屬支架作為對照或治療策略的一部分;真性分叉病灶納入率低 |  |
+| 程序技術 | POT和KBI等關鍵程序步驟使用不一致 |  |
+| 長期追蹤 | 長期臨床結果數據有限 |  |
+| BMS與DCB組合 | 部分早期研究使用BMS與DCB組合,已被證實劣於新世代DES |  |
+
+
+### 程序標準化需求
+
+
+#### 關鍵技術要素
+
+
+需要標準化的主要程序步驟:
+
+
+1. **POT(近端優化技術)**:      - 使用頻率和時機 - 標準化的執行方法 - 最佳球囊尺寸選擇
+2. **KBI(親吻式球囊充氣)**:      - 適應症標準化 - 執行時機 - 球囊尺寸和充氣參數
+3. **病灶準備**:      - 最佳病灶準備的定義 - 鈣化病灶的處理策略 - 影像引導的角色
+
+
+### 未來研究方向
+
+
+> **大型RCT需求:**
+> itemize
+>     \item 更大樣本量的研究
+>     \item 標準化的程序方案
+>     \item 長期臨床追蹤
+>     \item 包括更高比例的真性分叉病灶
+> itemize
+> **技術評估:**
+> itemize
+>     \item DCB時機和順序的最佳化
+>     \item 影像引導的系統性評估
+>     \item 生理學引導策略的評估
+> itemize
+> **特殊族群研究:**
+> itemize
+>     \item ACS患者的專門研究
+>     \item 糖尿病患者的評估
+>     \item HBR患者的驗證研究
+>     \item 左主幹分叉病灶的專門研究
+> itemize
+
+
+## 臨床實務建議
+
+
+### 適應症選擇
+
+
+| p{10cm}} DCB在分叉病灶的適應症 |  |  |
+| --- | --- | --- |
+| **臨床情境** | **建議** |  |
+| Medina 0,0,1(孤立邊支) | 邊支單獨DCB治療是首選策略 |  |
+| Medina 1,1,0/0,1,0/1,0,0 | 主血管DCB跨越小型、無病變邊支 |  |
+| 真性分叉病灶(1,1,1/1,0,1/0,1,1) | 考慮混合策略(主血管DES+邊支DCB)或序貫DCB |  |
+| 左主幹分叉 | 混合策略有前景,但證據仍在累積中 |  |
+| 小血管疾病 | DCB已證實不劣於DES |  |
+| 高出血風險 | DCB可減少支架負荷並允許DAPT降階 |  |
+
+
+### 技術執行檢查表
+
+
+> **術前評估:**
+> enumerate
+>     \item 確認Medina分類
+>     \item 評估邊支大小和重要性
+>     \item 確定是否需要影像引導
+> enumerate
+> **病灶準備:**
+> enumerate
+>     \item 適當的導線保護(EBC標準)
+>     \item 充分的預擴張(1:1球囊與血管比例)
+>     \item 鈣化病灶的適當處理
+>     \item 確認可接受的預擴張結果(<30
+> enumerate
+> **DCB應用:**
+> enumerate
+>     \item 正確的球囊尺寸(0.8-1:1比例)
+>     \item 適當的充氣時間(30-60秒)
+>     \item 低壓充氣(6-10 atm)
+>     \item 避免親吻式DCB充氣
+> enumerate
+> **術後評估:**
+> enumerate
+>     \item 評估最終血管造影結果
+>     \item 考慮生理評估(特別是嵌頓邊支)
+>     \item 決定是否需要救援支架植入
+>     \item 確定抗血小板療程
+> enumerate
+
+
+### 併發症處理
+
+
+| p{10cm}} DCB治療分叉病灶的併發症管理 |  |  |
+| --- | --- | --- |
+| **併發症** | **處理策略** |  |
+| 血流限制性夾層 | 考慮救援支架植入;評估夾層程度和血流影響 |  |
+| 顯著殘餘狹窄 | 如>30 |  |
+| 邊支閉塞 | 重新配線;評估TIMI血流;考慮支架或額外DCB |  |
+| 急性回縮 | 可能需要支架;評估是否為病灶準備不足 |  |
+| 穿孔 | 標準穿孔處理方案;考慮覆膜支架 |  |
+
+
+## 結論
+
+
+### 主要結論
+
+
+1. ****邊支DCB治療有效:**** 在暫時性主血管支架術的情境下,DCB用於邊支治療是一種有前景的方法,可減少整體支架負荷並完成暫時性分叉病灶策略
+2. ****混合策略顯示優勢:**** 結合DCB與DES的混合策略在觀察性和隨機研究中顯示出良好結果
+3. ****純DCB策略可行:**** "純DCB策略"已證實對僅邊支冠狀動脈分叉病灶既可行又安全
+4. ****優於POBA:**** DCB治療似乎比POBA更有效預防邊支再狹窄
+
+
+### 證據品質與局限
+
+
+> **優勢:**
+> itemize
+>     \item 多項RCT支持DCB使用
+>     \item DCB-BIF試驗提供大規模證據
+>     \item 一致的血管造影益處
+> itemize
+> **限制:**
+> itemize
+>     \item 研究方案異質性
+>     \item 樣本量相對較小
+>     \item 真性分叉病灶納入率低
+>     \item POT和KBI使用不一致
+>     \item 部分研究包括BMS
+>     \item 缺乏長期臨床結果
+> itemize
+
+
+### 臨床實務啟示
+
+
+1. **個體化治療**:根據病灶特徵、患者特性和中心經驗選擇適當策略
+2. **優化病灶準備**:充分的病灶準備是DCB成功的關鍵
+3. **技術標準化**:遵循標準化程序步驟(如POT)以優化結果
+4. **影像引導**:考慮使用血管內影像指導複雜病例
+5. **生理評估**:利用FFR/iFR評估嵌頓邊支以避免不必要的介入
+6. **持續學習**:隨著新證據出現,更新臨床實務
+
+
+### 未來展望
+
+
+- **大型RCT**:期待更大規模、設計更嚴謹的隨機對照試驗
+- **技術創新**:新世代DCB技術的發展
+- **程序優化**:標準化程序技術和指引
+- **特殊族群**:在ACS、糖尿病、HBR和左主幹病灶中的進一步研究
+- **長期追蹤**:評估DCB治療的長期耐久性和安全性
+
+
+## 參考文獻
+
+
+### 主要研究論文
+
+
+1. Fezzi S, Scheller B, Rissanen TT, et al. Drug-coated balloons for coronary bifurcation lesions. [*EuroIntervention](https://doi.org/10.4244/EIJ-D-25-00201). 2025;21:e1177-e1197.*
+2. Gao X, Tian N, Kan J, et al. Drug-Coated Balloon Angioplasty of the Side Branch During Provisional Stenting: The Multicenter Randomized DCB-BIF Trial. [*J Am Coll Cardiol](https://www.jacc.org/doi/abs/10.1016/j.jacc.2024.08.067). 2025;85:1-15.*
+3. Jing QM, Zhao X, Han YL, et al. A drug-eluting Balloon for the trEatment of coronarY bifurcatiON lesions in the side branch: a prospective multicenter ranDomized (BEYOND) clinical trial in China. [*Chin Med J (Engl)](https://journals.lww.com/cmj/fulltext/2020/04200/a_drug_eluting_balloon_for_the_treatment_of.4.aspx). 2020;133:899-908.*
+4. Pan L, Lu W, Han Z, et al. Drug-coated balloon in the treatment of coronary left main true bifurcation lesion: A patient-level propensity-matched analysis. [*Front Cardiovasc Med](https://doi.org/10.3389/fcvm.2022.1028007). 2022;9:1028007.*
+
+
+### 重要指引與共識文件
+
+
+1. Burzotta F, Lassen JF, Lefèvre T, et al. Percutaneous coronary intervention for bifurcation coronary lesions: the 15th consensus document from the European Bifurcation Club. [*EuroIntervention](https://doi.org/10.4244/EIJ-D-20-01217). 2021;16:1307-17.*
+2. Jeger RV, Eccleshall S, Wan Ahmad WA, et al. Drug-Coated Balloons for Coronary Artery Disease: Third Report of the International DCB Consensus Group. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2020.02.043). 2020;13:1391-402.*
+3. Fezzi S, Scheller B, Cortese B, et al. Definitions and standardized endpoints for the use of drug-coated balloon in coronary artery disease: consensus document of the Drug Coated Balloon Academic Research Consortium. [*EuroIntervention](https://eurointervention.pcronline.com/article/definitions-and-standardized-endpoints-for-the-use-of-drug-coated-balloon-in-coronary-artery-disease-consensus-document-of-the-drug-coated-balloon-academic-research-consortium). 2025 Apr 24. [Epub ahead of print].*
+
+
+### 相關Meta分析
+
+
+1. Zheng Y, Li J, Wang L, et al. Effect of Drug-Coated Balloon in Side Branch Protection for de novo Coronary Bifurcation Lesions: A Systematic Review and Meta-Analysis. [*Front Cardiovasc Med](https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2021.758560/full). 2021;8:758560.*
+2. Corballis NH, Paddock S, Gunawardena T, et al. Drug coated balloons for coronary artery bifurcation lesions: A systematic review and focused meta-analysis. [*PLoS One](https://doi.org/10.1371/journal.pone.0251986). 2021;16:e0251986.*
+
+
+**關鍵詞:** 藥物塗層球囊、冠狀動脈分叉病灶、藥物塗層支架、暫時性支架術、高出血風險、經皮冠狀動脈介入治療

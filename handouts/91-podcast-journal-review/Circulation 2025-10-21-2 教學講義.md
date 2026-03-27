@@ -1,0 +1,269 @@
+# Circulation 2025-10-21-2
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+\maketitle
+
+
+## 期刊概覽
+
+
+### 本期重點文章
+
+本週Circulation期刊的主要討論文章為PRADA II試驗（Prevention of Cardiac Dysfunction During Adjuvant Breast Cancer Therapy），探討angiotensin receptor neprilysin inhibitor (ARNI) sacubitril/valsartan在預防乳癌輔助治療期間心臟功能障礙（cardiac dysfunction）的效果。此外，本期也涵蓋非心臟手術周邊期心率控制（perioperative heart rate control in non-cardiac surgery）、心肌梗塞代謝機轉（metabolic mechanisms in myocardial infarction）等重要主題。
+
+
+## 特色研究：PRADA II試驗
+
+
+### 研究背景：癌症治療相關心臟毒性
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 蒽環類藥物(Anthracyclines)與Trastuzumab的心臟毒性(Cardiotoxicity) |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 蒽環類藥物    (Anthracyclines)    臨床應用 | 廣泛用於實體腫瘤（solid tumors：乳癌breast cancer、    肉瘤sarcomas）及血液惡性腫瘤    （hematological malignancies）治療。    顯著改善癌症預後，但停用可能影響癌症治療結果 |  |  |  |  |
+| 蒽環類心臟毒性特徵 | • 劑量依賴性（dose-dependent）、通常不可逆    • 累積劑量與心衰竭風險呈**指數關係**    （exponential relationship）    • 個體易感性因遺傳與心血管危險因子而異 |  |  |  |  |
+| Trastuzumab機轉 | 人源化單株抗體（humanized monoclonal antibody），    靶向並抑制HER2受體（human epidermal growth    factor receptor 2） |  |  |  |  |
+| Trastuzumab療效 | • 顯著改善HER2陽性乳癌預後    • 延長晚期轉移性疾病（advanced metastatic disease）    存活期    • 降低輔助治療（adjuvant setting）中癌症復發風險 |  |  |  |  |
+| Trastuzumab心臟毒性 | 早期即發現增加心臟功能障礙（cardiac dysfunction）    和臨床心衰竭（clinical heart failure）風險，    與蒽環類併用時最常發生 |  |  |  |  |
+| 序貫性治療策略    (Sequential therapy) | 目前採用蒽環類與trastuzumab序貫給藥，    相較於併用（concurrent use）降低心臟功能障礙    發生率，但發生率仍相對較高 |  |  |  |  |
+
+
+### 兩種藥物心臟毒性的重要差異
+
+
+| p{3.5cm}>{\arraybackslash}p{5.5cm}>{\arraybackslash}p{5.5cm}} 蒽環類藥物(Anthracyclines)與Trastuzumab心臟毒性比較 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **特徵** | **蒽環類藥物** | **Trastuzumab** |  |  |  |
+| 劑量依賴性    (Dose-dependent) | 是（指數關係） | 否 |  |  |  |
+| 組織學變化    (Histology) | 心肌細胞壞死    (cardiomyocyte    necrosis) | 無心肌細胞壞死 |  |  |  |
+| 可逆性    (Reversibility) | 通常不可逆 | 治療中斷後常完全或    部分可逆 |  |  |  |
+| 發生時間    (Timing) | 劑量累積後 | 治療期間即可發生 |  |  |  |
+
+
+### 現有心衰竭藥物預防證據
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 心衰竭藥物在心臟腫瘤學(Cardio-oncology)的應用現況 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 早期研究 | ACE抑制劑（ACE inhibitors）和beta阻斷劑    （beta-blockers）顯示有前景的結果，    可逆轉或減輕蒽環類心臟毒性 |  |  |  |  |
+| 近期臨床試驗 | 結果不一，多數報告對預定主要終點    （predefined primary outcome measures）的效果有限或無效 |  |  |  |  |
+| Sacubitril/valsartan    在HFrEF | 相較於enalapril，在射血分率降低的心衰竭    （heart failure with reduced ejection fraction, HFrEF）    患者中有較佳的臨床結果 |  |  |  |  |
+| 心臟腫瘤學證據 | 在心臟腫瘤學（cardio-oncology）領域，    sacubitril/valsartan的隨機對照試驗    （randomized controlled trial, RCT）數據**非常稀少** |  |  |  |  |
+
+
+## PRADA II試驗設計
+
+
+### 研究架構
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} PRADA II試驗設計細節 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 研究類型 | 研究者主導（investigator-initiated）、前瞻性    （prospective）、多中心（multi-center）、隨機    （randomized）、安慰劑對照（placebo-controlled）、    雙盲（double-blind）、平行組臨床試驗    （parallel-group clinical trial） |  |  |  |  |
+| 研究地點 | 挪威四個學術中心（four academic centers in Norway） |  |  |  |  |
+| 通訊作者 | Professor Torbjørn Omland，挪威奧斯陸大學    (University of Oslo, Norway) |  |  |  |  |
+| 收案對象 | • 年齡≥18歲女性    • 早期乳癌患者（early breast cancer）    • 計劃接受蒽環類藥物（最常用epirubicin）    輔助或新輔助化療（adjuvant or neoadjuvant    chemotherapy） |  |  |  |  |
+| 隨機分配 | 1:1雙盲隨機分配至sacubitril/valsartan組或    安慰劑組（placebo group） |  |  |  |  |
+| 介入時機 | 在蒽環類治療**開始前**給予研究藥物    (prior to initiation of anthracycline therapy) |  |  |  |  |
+
+
+### 研究終點
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} PRADA II主要與次要終點 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **終點類型** | **內容** |  |  |  |  |
+| 主要終點    (Primary outcome) | 心臟磁振造影（cardiovascular magnetic resonance,    CMR）測量的左心室射血分率（left ventricular    ejection fraction, LVEF）從隨機分配到**18個月**    的變化量 |  |  |  |  |
+| 次要終點    (Secondary outcomes) | • 心臟超音波測量的整體縱向應變    （global longitudinal strain, GLS）    • 循環cardiac troponin I濃度變化    • 循環NT-proBNP濃度變化    （基線到18個月） |  |  |  |  |
+| CMR選擇理由 | CMR是測量LVEF的金標準（gold standard），    具有最高準確性和重複性（reproducibility） |  |  |  |  |
+
+
+## 研究結果
+
+
+### 收案情況與基線特徵
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} PRADA II收案與人口學特徵 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 原計劃樣本數    (Target sample size) | 300例（statistical power >99  足夠檢定力評估相關亞組） |  |  |  |  |
+| 收案困難原因 | • COVID-19疫情影響（早期階段尤其嚴重）    • 乳癌治療策略改變：    接受蒽環類化療的患者比例下降    • CMR研究資源有限 |  |  |  |  |
+| 樣本數決策 | 指導委員會（steering committee）決定縮減樣本數 |  |  |  |  |
+| 實際隨機分配 | 158例 |  |  |  |  |
+| 排除病例 | 20例不符合全分析集（full analysis set）納入標準 |  |  |  |  |
+| 最終分析 | 138例（sacubitril/valsartan組69例，安慰劑組69例） |  |  |  |  |
+| 性別 | 全部為女性 |  |  |  |  |
+| 種族 | 主要為歐洲血統（predominantly European ancestry） |  |  |  |  |
+| 平均年齡 | 約54歲 |  |  |  |  |
+| 平均BMI    (Body mass index) | 27 kg/m² |  |  |  |  |
+| 目前吸菸者 | 11 |  |  |  |  |
+| 使用降壓藥物    (Antihypertensive    medications) | 約5 |  |  |  |  |
+
+
+### 主要終點結果
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} LVEF變化（主要終點） |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **結果** |  |  |  |  |
+| 基線LVEF    (Baseline LVEF) | 兩組平衡（well-balanced） |  |  |  |  |
+| Sacubitril/valsartan組    LVEF變化 | 全試驗期間維持**相對穩定**（remained relatively    stable）    18個月下降：1.1 |  |  |  |  |
+| 安慰劑組LVEF變化    (Placebo group) | 輕度漸進性下降（mild gradual decline）    18個月下降：2.2 |  |  |  |  |
+| 組間差異    (Between-group    difference) | 1.1百分點（percentage points） |  |  |  |  |
+| 統計顯著性 | **P = 0.16**（未達統計顯著性not significant） |  |  |  |  |
+| 未達顯著性原因 | • 樣本數縮減（reduced sample size）    • 安慰劑組LVEF下降幅度低於預期    （lower than anticipated reduction） |  |  |  |  |
+
+
+### HER2陽性亞組分析
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} HER2陽性患者（接受Trastuzumab）亞組 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **結果** |  |  |  |  |
+| 亞組定義    (Subgroup definition) | HER2陽性且後續接受trastuzumab治療    （預先定義的亞組predefined subgroup） |  |  |  |  |
+| Sacubitril/valsartan組    LVEF變化 | 全試驗期間維持穩定（remained stable） |  |  |  |  |
+| 安慰劑組LVEF變化 | 進行性且**更明顯**的下降（progressive and more    marked decline） |  |  |  |  |
+| 組間差異 | 近4 |  |  |  |  |
+| 統計顯著性 | 信賴區間下限跨越零（lower confidence limit crossed    zero）    （因HER2陽性患者數量少，未達統計顯著） |  |  |  |  |
+| 臨床意義 | 提示HER2陽性患者可能是較有機會從介入獲益的    高風險族群（high-risk population more likely to    respond to intervention） |  |  |  |  |
+
+
+### 次要終點結果
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 關鍵次要終點結果 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **終點** | **結果** |  |  |  |  |
+| 整體縱向應變    (Global longitudinal    strain, GLS) | 顯示sacubitril/valsartan的**有益效果**    （suggested beneficial effect）    信賴區間**未跨越零**（confidence limits did not cross    zero）    *註：GLS是較LVEF更早期、更敏感的    左心室功能障礙指標（earlier and more sensitive    marker of LV dysfunction）* |  |  |  |  |
+| Cardiac troponin I | 顯示sacubitril/valsartan的**有益效果**    信賴區間**未跨越零**    （反映心肌損傷程度reflects myocardial injury） |  |  |  |  |
+| NT-proBNP    (N-terminal pro-B-type    natriuretic peptide) | 顯示sacubitril/valsartan的**有益效果**    信賴區間**未跨越零**    （反映心臟壓力和功能reflects cardiac stress and    function） |  |  |  |  |
+| 次要終點整體意義 | 雖然主要終點未達顯著，但在多個重要次要終點    顯示**明顯正向訊號**（notable positive signal），    支持sacubitril/valsartan可能具有心臟保護作用    （cardioprotective effects） |  |  |  |  |
+
+
+## 研究討論
+
+
+### 主要發現解讀
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} PRADA II試驗的核心訊息 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **面向** | **內容** |  |  |  |  |
+| 結果性質 | 雖然主要終點未達統計顯著性，    但**並非完全陰性結果**（not definitively negative） |  |  |  |  |
+| 正向訊號來源 | 多個重要次要終點顯示明顯正向訊號：    • GLS（更敏感的早期LV功能障礙指標）    • 敏感的生化標記（sensitive biochemical markers：    troponin I、NT-proBNP） |  |  |  |  |
+| 未達顯著主要原因 | **1. 樣本數不足**：    原計劃300例，實際僅138例，統計檢定力不足    **2. 安慰劑組變化低於預期**：    安慰劑組LVEF僅下降2.2  可能反映現代乳癌治療策略改變    （changes in breast cancer treatment strategies） |  |  |  |  |
+| 重要學習點    (Key learning point) | 未來試驗必須（future trials must）：    • 樣本數更大（larger sample size）    • 納入更多**高風險患者**（high-risk patients）：      - 接受更高蒽環類劑量者（higher anthracycline       doses）      - 接受序貫性蒽環類和trastuzumab治療者       （sequential anthracycline and trastuzumab） |  |  |  |  |
+
+
+### 研究限制
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} PRADA II試驗限制 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **限制** | **說明與影響** |  |  |  |  |
+| 收案困難    (Recruitment    challenges) | **多重因素導致**：    • COVID-19疫情影響（early phase尤其嚴重）    • 乳癌治療策略改變：接受蒽環類化療的患者    比例下降（smaller proportion receiving anthracycline-    based chemotherapy）    • CMR研究資源有限：挪威醫院研究用CMR資源    相當有限（quite limited CMR resources）    **影響**：最終樣本數僅為原計劃的46  統計檢定力大幅降低 |  |  |  |  |
+| 對照組選擇    (Comparator choice) | **理想上**：應與ARB比較，而非安慰劑    **實際考量**：    • ARB在心臟腫瘤學的益處尚未確立    • 與ARB比較需要更大樣本數（much larger trial）    • 資源與招募限制下選擇安慰劑對照 |  |  |  |  |
+| 介入藥物複雜性    (Intervention    complexity) | Sacubitril/valsartan含兩種成分：    • Sacubitril（neprilysin抑制劑neprilysin inhibitor）    • Valsartan（ARB）    **限制**：難以區分各成分對結果的個別貢獻    （individual contributions） |  |  |  |  |
+| 試驗設計複雜度 | 雖然使用CMR是研究優點（金標準），    但也增加試驗複雜度和資源需求（resource    requirements），限制了收案能力 |  |  |  |  |
+| 未來建議 | 採用**更務實的設計**以利收案（more pragmatic    design）：    • 考慮使用心臟超音波（echocardiography）作為    主要終點    • 簡化訪視流程（simplify visit schedules）    • 多國多中心合作增加收案速度（multi-national    multi-center collaboration） |  |  |  |  |
+
+
+## 未來研究方向
+
+
+### 心臟腫瘤學領域的研究展望
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} Professor Omland對未來研究的建議 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **研究方向** | **具體內容** |  |  |  |  |
+| 高風險族群識別    (Identification of high-    risk subgroups) | **關鍵議題**：更精確識別心臟毒性高風險患者    **策略**：    • 整合臨床危險因子（clinical risk factors）    • 基因多型性評估（genetic polymorphisms）    • 基線心臟功能參數（baseline cardiac function    parameters）    • 生物標記（biomarkers）    **目標**：找出更可能對介入措施有反應的族群    （responders to intervention），提高試驗效率與    臨床效益 |  |  |  |  |
+| 機轉導向治療    (Mechanism-targeted    interventions) | **重要性**：發展更特異性的介入措施    （develop more specific interventions）    **方向**：    • 針對蒽環類心臟毒性的特定病理機轉    （specific pathophysiological mechanisms）    • 針對trastuzumab心臟毒性的特定機轉    • 針對新興抗癌藥物的特定機轉    （emerging anticancer agents）    **目標**：發展能更特異性抑制或調控心臟毒性    病理生理機轉的介入措施 |  |  |  |  |
+| 新興抗癌療法評估    (Evaluation of novel    anticancer therapies) | **背景**：大量新型抗癌藥物問世    （large number of new anticancer drugs）    **需求**：    • 系統性評估各種新藥的心臟毒性特徵    （cardiotoxicity profiles）    • 了解不同機轉的抗癌藥物如何影響心臟    • 發展針對性的監測與預防策略    （targeted monitoring and prevention strategies）    **重要性**：隨著癌症治療選擇增加，    心臟毒性的光譜也在擴大    （spectrum of cardiotoxicity expanding） |  |  |  |  |
+| 試驗設計改進    (Trial design    improvements) | **樣本數**：需要更大規模試驗（larger trials）    **高風險患者富集**（enrichment of high-risk    patients）：    • 接受更高蒽環類累積劑量者（higher cumulative    anthracycline doses）    • 接受序貫性蒽環類和trastuzumab治療者    （sequential anthracycline and trastuzumab）    • 已有心血管危險因子者（cardiovascular risk    factors）    **務實設計**（pragmatic design）：    • 簡化試驗流程以利招募    • 考慮更實際可行的終點選擇    • 多國多中心合作 |  |  |  |  |
+
+
+## 臨床意義
+
+
+### 給心臟內科醫師的啟示
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} PRADA II的臨床應用 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **面向** | **建議** |  |  |  |  |
+| 證據等級    (Evidence level) | 目前**不支持**常規使用sacubitril/valsartan    預防所有乳癌患者的化療相關心臟毒性    （chemotherapy-related cardiotoxicity）    （主要終點未達顯著primary endpoint not significant） |  |  |  |  |
+| 潛在獲益族群    (Potential beneficiary    group) | **HER2陽性患者**可能較有機會獲益：    • 亞組分析（subgroup analysis）顯示近4  LVEF差異    • 雖未達統計顯著（樣本數限制），    但臨床上有意義的效應量（clinically meaningful    effect size）    • 此族群接受序貫性蒽環類和trastuzumab，    心臟毒性風險較高 |  |  |  |  |
+| 監測策略    (Monitoring strategy) | **強化監測指標**（enhanced monitoring parameters）：    • GLS比LVEF更早期、更敏感    （earlier and more sensitive）    • Cardiac troponin I    • NT-proBNP    這些指標在PRADA II顯示正向訊號，    可能是早期偵測心臟損傷的有用工具    （useful tools for early detection of cardiac injury） |  |  |  |  |
+| 個人化醫療    (Personalized    medicine) | 考慮患者個別風險（individual risk）：    • 癌症治療計劃（cancer treatment plan：藥物種類、    劑量drug types, doses）    • 既有心血管危險因子（pre-existing cardiovascular    risk factors）    • 基線心臟功能（baseline cardiac function）    • 與腫瘤科醫師討論風險效益（risk-benefit discussion    with oncologists） |  |  |  |  |
+| 需要更多證據 | PRADA II結果不是定論（results are not definitive），    需要更大規模、更精準選擇高風險族群的    後續研究來確認或否定這些發現    （confirm or refute these findings） |  |  |  |  |
+
+
+## 本期其他重要研究摘要
+
+
+### Ivabradine用於非心臟手術
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 周邊期心率控制試驗(Perioperative Heart Rate Control Trial) |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 研究背景 | 周邊期beta阻斷劑（perioperative beta blockade）    降低心率、減少心肌梗塞風險，    但增加低血壓（hypotension）、死亡和中風風險 |  |  |  |  |
+| 研究目標 | 評估ivabradine（選擇性心率降低藥物selective heart    rate lowering agent）能否預防術後心肌損傷    （myocardial injury after non-cardiac surgery, MINS），    同時避免血流動力學不穩定（hemodynamic instability） |  |  |  |  |
+| 通訊作者 | Professor Wojciech Szczeklik，    波蘭Jagiellonian大學醫學院    (Jagiellonian University Medical College, Poland) |  |  |  |  |
+| 研究設計 | 多中心（multi-center）、雙盲（double-blind）、    安慰劑對照試驗（placebo-controlled trial） |  |  |  |  |
+| 收案對象 | 年齡>45歲，有或具動脈粥狀硬化疾病風險    （with or at risk of atherosclerotic disease），    接受非心臟手術（non-cardiac surgery）的患者 |  |  |  |  |
+| 介入 | Ivabradine 5 mg口服，每日兩次，    最多7天，術前1小時開始 vs. 安慰劑 |  |  |  |  |
+| 主要終點 | 隨機分配後30天內術後心肌損傷（MINS within 30    days of randomization） |  |  |  |  |
+| 收案情況 | 2,101例（intention-to-treat族群） |  |  |  |  |
+| 主要結果 | **陰性結果**（negative result）：    • Ivabradine組：17  • 安慰劑組：15  • 無統計差異（no statistical difference） |  |  |  |  |
+| 提早終止 | 在預先指定的期中分析（pre-specified interim    analysis）時終止收案，因條件檢定力僅6  （conditional power 6  futility boundary） |  |  |  |  |
+| 心率影響 | 術中平均心率降低約3 bpm（intraoperative mean    heart rate lower by  3 beats per minute） |  |  |  |  |
+| 血壓影響 | 術中平均動脈壓無差異（no difference in intraoperative    mean arterial pressure） |  |  |  |  |
+| 結論 | 在接受非心臟手術的患者中，ivabradine**未能降低**    30天內MINS發生率（did not reduce the occurrence    of MINS） |  |  |  |  |
+
+
+### 肌肉肝醣磷酸化酶（PYGM）與心肌梗塞
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 心臟能量代謝在MI的角色（臨床前科學Preclinical Science） |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 研究背景 | PYGM（muscle glycogen phosphorylase，肌肉肝醣    磷酸化酶）是糖原分解（glycogenolysis）的限速酶    （rate-limiting enzyme），在維持心臟能量代謝    （cardiac energy metabolism）中扮演不可或缺的角色 |  |  |  |  |
+| 研究目標 | 探討PYGM在心肌梗塞（myocardial infarction, MI）    中的作用 |  |  |  |  |
+| 通訊作者 | Dr. Fan Wu，中國吉林農業大學    (Jilin Agricultural University, China) |  |  |  |  |
+| 研究方法 | • 使用免疫墨點法（immunoblotting）評估MI患者    心臟組織和血漿樣本中的PYGM表現（expression    profiles）    • 評估PYGM缺乏（deficiency）及AAV介導的    （adeno-associated virus mediated）PYGM表現    在MI小鼠中的效應 |  |  |  |  |
+| 主要發現1 | MI患者的循環和心臟PYGM水平**降低**（reduced），    且與心肌病變**負相關**（negatively correlated with    cardiac myopathy） |  |  |  |  |
+| 主要發現2 | PYGM缺乏**加重**（exacerbates）MI小鼠的    心肌功能障礙（myocardial dysfunction）和    心臟損傷（cardiac injury） |  |  |  |  |
+| 主要發現3 | 補充AAV介導的PYGM表現可**逆轉**這些不良效應    （reverses these adverse effects） |  |  |  |  |
+| 機轉發現 | 抑制thrombospondin 1顯著改善PYGM缺失小鼠的    心臟功能障礙和損傷    （significantly alleviates the detrimental effects） |  |  |  |  |
+| 臨床意義 | • 循環PYGM可能是MI心肌損傷的潛在**生物標記**    （potential indicator/biomarker）    • 活化PYGM訊號可能是治療MI及相關心血管損傷的    有前景**介入方式**（promising intervention） |  |  |  |  |
+
+
+## 結語
+
+
+| p{15cm}} PRADA II試驗的整體評價 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **總結** |  |  |  |  |  |
+| PRADA II試驗雖因樣本數限制未能在主要終點（CMR測量的LVEF變化）達到統計顯著性，但在多個次要終點（secondary endpoints）顯示正向訊號（positive signal），特別是在更敏感的心臟功能指標（GLS）和生物標記（biomarkers：cardiac troponin I、NT-proBNP）方面。這些發現提示sacubitril/valsartan可能具有心臟保護作用（cardioprotective effects），尤其在高風險族群（high-risk populations：如HER2陽性患者）中。 |  |  |  |  |  |
+| 本研究的重要貢獻在於提供了寶貴的學習經驗（valuable learning experience），指出未來試驗設計的改進方向：需要更大樣本數（larger sample size）、更精準的高風險患者篩選（more precise selection of high-risk patients：如接受更高蒽環類劑量或序貫性蒽環類和trastuzumab治療者），以及更務實的試驗設計（more pragmatic trial design）以克服招募困難（overcome recruitment challenges）。 |  |  |  |  |  |
+| 在心臟腫瘤學（cardio-oncology）快速發展的時代，隨著新型抗癌藥物不斷問世，我們需要持續探索有效的心臟保護策略（effective cardioprotective strategies）。PRADA II的次要終點正向訊號鼓勵研究者繼續在這個領域深入研究，期待未來有更大規模、設計更完善的試驗來確認sacubitril/valsartan在預防癌症治療相關心臟毒性（cancer treatment-related cardiotoxicity）的角色。 |  |  |  |  |  |
+| 對於臨床醫師而言，目前的證據尚不支持常規使用（routine use）sacubitril/valsartan預防所有乳癌患者的化療相關心臟毒性。然而，對於高風險患者（high-risk patients：特別是HER2陽性、將接受序貫性蒽環類和trastuzumab治療者），可考慮與腫瘤科醫師討論個人化的心臟保護策略（personalized cardioprotective strategies），並加強使用GLS、cardiac troponin和NT-proBNP等敏感指標進行心臟功能監測（cardiac function monitoring）。 |  |  |  |  |  |
+
+
+## 參考文獻
+
+
+1. Omland T, et al. Sacubitril/Valsartan and Prevention of Cardiac Dysfunction During Adjuvant Breast Cancer Therapy: The PRADA II Randomized Clinical Trial. [*Circulation](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.125.076616). 2025;152.*
+2. Szczeklik W, et al. Ivabradine for Prevention of Myocardial Injury After Non-Cardiac Surgery. [*Circulation](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.125.076704). 2025;152.*
+3. Wu F, et al. Role of Muscle Glycogen Phosphorylase (PYGM) in Myocardial Infarction-Induced Cardiac Dysfunction. [*Circulation](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.124.072312). 2025;152.*
+4. Circulation on the Run Podcast: October 21, 2025.     DOI: [10.1161/podcast.20251020.442597](https://doi.org/10.1161/podcast.20251020.442597)     網址：[https://www.ahajournals.org/do/10.1161/podcast.20251020.442597](https://www.ahajournals.org/do/10.1161/podcast.20251020.442597)

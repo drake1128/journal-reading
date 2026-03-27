@@ -1,0 +1,563 @@
+# lecture cath LAAO TEE
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+**Left Atrial Appendage Occlusion (LAAO)**   
+
+
+**TEE Imaging & Procedure Guide**
+
+謝慕揚, MD, PhD, FESC   
+
+**心臟血管中心**
+
+\mydate
+
+\maketitle
+fancy
+
+\tableofcontents
+
+---
+
+
+## Left Atrial Appendage 形態學分類
+
+
+### 三種主要形態類型
+
+
+根據 WATCHMAN training manual，左心耳形態可分為三大類型，各有不同的治療挑戰性：
+
+
+| p{5.5cm}p{6cm}}  **形態類型** | **特徵描述** | **臨床意義** |
+| --- | --- | --- |
+| **Wind Sock Type**     (風襲型) | 一個主要的長葉片 (dominant lobe) 作為主要結構     結構相對簡單 | 治療難度：**較低**     封堵器容易置入     結構單純，易於評估 |
+| **Chicken Wing Type**     (雞翅型) | 主葉片有明顯的彎曲 (sharp bend)     可能有折疊結構 | 治療難度：**中等**     封堵器置入有技術挑戰     臨床上血栓風險最低     較少需要處置 |
+| **Broccoli Type**     (花椰菜型) | 整體長度有限     內部結構複雜     多個葉片和凹陷 | 治療難度：**最高**     封堵器難以完全貼合     血栓形成風險較高     容易有 peridevice leak |
+
+
+**治療難度總結：**
+
+- **Cauliflower (Broccoli) 型**：最具挑戰性，複雜的解剖結構使封堵器選擇困難
+- **Windsock 型**：細長結構可能使封堵器固定較困難
+- **Chicken Wing 型**：雖然解剖複雜，但實際血栓風險最低，較少需要介入治療
+
+
+### LAA Ostium 形狀分類
+
+
+LAA 開口形狀對裝置選擇和測量策略有重要影響：
+
+
+| p{6cm}p{6cm}}  **開口形狀** | **特徵** | **測量注意事項** |
+| --- | --- | --- |
+| **Circular**     (圓形) | 長軸 $\approx$ 短軸     接近正圓形 | 最容易測量     裝置選擇較簡單     各角度測量差異小 |
+| **Oval**     (橢圓形) | 長軸稍長於短軸     橢圓但不太扁平 | 中等難度     需多角度測量     取最大值選擇裝置 |
+| **Elliptical**     (扁平橢圓) | 長軸遠大於短軸     明顯扁平 | **最具挑戰性**     必須測量 0°, 45°, 90°, 135°     以最大直徑選擇裝置     容易有封堵不全 |
+
+
+importantbox
+**關鍵測量原則：**
+
+- 135° 角度通常顯示長軸 (long axis)
+- 45-60° 角度通常顯示短軸 (short axis)
+- **最大的 ostium 尺寸決定裝置大小的選擇**
+- 對於 elliptical 開口，必須在多個角度仔細測量
+
+
+importantbox
+
+
+---
+
+
+## 重要解剖標記：Limbus
+
+
+### Limbus 的定義
+
+
+**Limbus** 是左心耳開口 (LAA ostium) 與左心房交界處的一個解剖脊或邊緣結構，是 LAAO 手術中的重要地標。
+
+
+### 測量參考點
+
+
+| p{12cm}}  **TEE 角度** | **測量方式** |  |
+| --- | --- | --- |
+| **0°** | 從冠狀動脈 (LCX, left circumflex artery) 測量至 limbus |  |
+| **45°** | 從二尖瓣環頂部 (top of MV annulus) 測量至 limbus |  |
+| **90°** | 從二尖瓣環頂部測量至 limbus |  |
+| **135°** | 從二尖瓣環頂部測量至 limbus |  |
+
+
+### Limbus 的臨床意義
+
+
+- **定義 LAA 開口邊界**：作為固定的解剖標記
+- **確保測量一致性**：多次測量時的參考點
+- **正確選擇裝置尺寸**：基於準確的開口測量
+- **評估裝置位置**：判斷裝置是否正確放置
+
+
+**裝置位置與 Limbus 的關係：**
+
+- **太靠近 limbus (太近心房側)**：裝置可能突出到左心房，壓縮不足或不穩定
+- **太遠離 limbus (太深入 LAA)**：可能無法覆蓋所有葉片，造成殘餘血流
+- **理想位置**：裝置應位於或稍遠端於 ostium 平面，確保完全覆蓋
+
+
+簡單記憶：**Limbus 就像左心耳的「門框」**，是測量和放置裝置的重要參考點。
+
+
+---
+
+
+## WATCHMAN TEE 測量指引
+
+
+### Baseline Echo Assessment 流程
+
+
+1. **檢查心包腔**：4-chamber view 確認無異常
+2. **形態學評估**：分類 LAA 類型 (Wind Sock, Chicken Wing, Broccoli)
+3. **排除血栓**：確認無 LA/LAA 血栓或 dense spontaneous echo contrast
+4. **測量 ostium 和長度**：多角度測量 (0°, 45°, 90°, 135°)
+5. **確定裝置尺寸**：根據最大 ostium 直徑選擇
+
+
+### LAA Ostium 測量標準步驟
+
+
+| p{12cm}}  **步驟** | **執行內容** |  |
+| --- | --- | --- |
+| **Step 1** | 在多個影像平面評估 LAA (0-135° sweep)     評估：LAA 大小/形狀、葉片數量、葉片相對於 ostium 的位置 |  |
+| **Step 2** | 記錄 LAA ostium 和長度測量值 (0-135° sweep)     測量 LAA ostium 於以下角度：    - 0°：從 LCX 水平測至 limbus     - 45°     - 90°：從 MV annulus 頂部測至 limbus     - 135° |  |
+| **Step 3** | 測量 LAA 可用長度     從 ostium line 至 LAA apex 的近似長度 |  |
+| **Step 4** | 選擇裝置尺寸     根據最大 ostium 直徑決定 |  |
+
+
+### WATCHMAN 裝置尺寸選擇表
+
+
+| p{5cm}p{5cm}}  **Maximum LAA Ostium (mm)** | **Device Size (mm)** | **備註** |
+| --- | --- | --- |
+| 17-19 | 21 | 最小尺寸 |
+| 20-22 | 24 |  |
+| 23-25 | 27 |  |
+| 26-28 | 30 |  |
+| 29-31 | 33 | 最大尺寸 |
+
+
+importantbox
+**裝置選擇關鍵原則：**
+
+- 裝置直徑應比最大 ostium 直徑大 10-20
+- LAA 可用長度應 $\geq$ ostium 直徑
+- 最大 ostium 尺寸應介於 >17mm 且 <31mm
+- 裝置 in-situ 壓縮率應為 8-20
+
+
+importantbox
+
+
+---
+
+
+## 裝置釋放標準：PASS Criteria
+
+
+在釋放 WATCHMAN 裝置前，必須確認以下四項標準全部達成：
+
+
+### PASS Criteria 詳細說明
+
+
+| p{12cm}}  **項目** | **標準與評估方式** |  |
+| --- | --- | --- |
+| **P - Position** | **裝置位置在 LAA ostium 或遠端**     - 裝置應位於或稍遠端於 ostium     - 不應過度突出至左心房     - 不應過深而無法覆蓋所有葉片     - 在多個角度確認位置正確 |  |
+| **A - Anchor** | **固定錨定鉤已嵌入，裝置穩定**     - 執行 tug test：輕拉 deployment knob     - 裝置應回到原位置     - 在 TEE 上可見錨定鉤與組織接觸     - 裝置不應有明顯移動 |  |
+| **S - Size** | **裝置壓縮率 8-20  - 在 0°, 45°, 90°, 135° 測量裝置直徑     - Threaded insert 必須可見     - 測量最寬處的 in-situ 直徑     - 計算壓縮率是否符合標準 |  |
+| **S - Seal** | **無殘餘血流或 jet < 5mm**     - 使用 color Doppler 評估     - 在多個角度檢查裝置周圍     - 所有 LAA 葉片都被覆蓋     - Peridevice leak 必須 $\leq$ 5mm |  |
+
+
+### 裝置壓縮率計算表
+
+
+| p{4cm}p{4cm}p{3.5cm}}  **Device Size (mm)** | **Maximum 20 | **Minimum 8 |
+| --- | --- | --- |
+| 21 | 16.8 mm | 19.3 mm |
+| 24 | 19.2 mm | 22.1 mm |
+| 27 | 21.6 mm | 24.8 mm |
+| 30 | 24.0 mm | 27.6 mm |
+| 33 | 26.4 mm | 30.4 mm |
+
+
+**測量壓縮率的正確方法：**
+
+- 在 **最寬處** (at shoulders) 測量裝置直徑
+- Threaded insert 必須 **清楚可見**
+- 裝置邊界必須 **清晰**，兩側都能看到
+- 在 **多個角度** 測量：0°, 45°, 90°, 135°
+- 使用 in-situ 測量值與原始尺寸比較
+
+
+---
+
+
+## Watchman vs Amulet TEE 測量差異
+
+
+### 兩種裝置的設計差異
+
+
+| p{5.5cm}p{5.5cm}}  **特性** | **Watchman** | **Amulet** |
+| --- | --- | --- |
+| **裝置結構** | 單一圓盤結構     Self-expanding frame | 雙層設計     Lobe (遠端) + Disc (近端) |
+| **固定機制** | 10個錨定鉤     在 ostium 處固定 | Lobe 固定在 landing zone     Disc 封堵 ostium |
+| **設計概念** | 像「塞子」塞住開口     依賴 ostium 組織固定 | 像「降落傘」     雙重密封機制 |
+| **測量參考點** | **Limbus** (解剖脊) | **Landing zone** (著陸區) |
+| **測量位置** | 在 LAA **ostium** 處 | 在 ostium **遠端 10mm** 處 |
+
+
+### TEE 測量方法比較
+
+
+| p{5cm}p{5.5cm}}  **測量項目** | **Watchman** | **Amulet** |
+| --- | --- | --- |
+| **主要測量位置** | LAA ostium     從 LCX/MV annulus 至 limbus | 兩個位置都需測量：    1. LAA ostium     2. Landing zone (10mm depth) |
+| **測量角度** | 0°, 45°, 90°, 135°     取最大直徑 | 相同角度     但需在兩個不同位置測量 |
+| **裝置尺寸選擇** | Device = Max ostium + 10-20  單一尺寸選擇 | Lobe = Landing zone + 3-6mm     Disc = Ostium + 3-6mm     需選擇兩個尺寸 |
+| **深度要求** | LAA 長度 $\geq$ ostium 直徑 | 必須有足夠的 landing zone 深度     至少 10mm 以上 |
+| **測量複雜度** | 相對簡單     專注於 ostium 測量 | 較複雜     需要精確測量兩個位置 |
+
+
+### 臨床應用考量
+
+
+| p{5cm}p{5.5cm}}  **考量因素** | **Watchman 優勢** | **Amulet 優勢** |
+| --- | --- | --- |
+| **適合的 LAA 形態** | Ostium 形狀規則的 LAA     Wind sock type | 各種形態，包括 shallow LAA     Broccoli type |
+| **測量便利性** | 測量相對簡單     單一位置測量 | 需要更多測量步驟     兩個位置都要精確 |
+| **裝置穩定性** | 依賴 ostium 處固定     對於 shallow LAA 較困難 | 雙重固定更穩定     Lobe 提供額外錨定 |
+| **封堵效果** | 單層封堵     可能有 peridevice leak | 雙層封堵     理論上更完整 |
+| **解剖限制** | Chicken wing 可能需要特殊技巧     Shallow LAA 較困難 | 需要足夠的 landing zone 深度     至少 10mm |
+
+
+importantbox
+**關鍵測量提醒：**
+
+**執行 Watchman 手術時：**
+
+- 專注在 limbus/ostium 的測量
+- 多角度取最大值
+- 確認有足夠深度 ($\geq$ ostium 直徑)
+
+
+**執行 Amulet 手術時：**
+
+- ❌ 不要只測量 limbus 處
+- ✓ 記得測量 10mm depth 的 landing zone
+- ✓ 需要同時考慮 lobe 和 disc 的尺寸
+- ✓ 確認 landing zone 有足夠組織支撐
+
+
+importantbox
+
+
+---
+
+
+## 手術中 TEE 評估要點
+
+
+### IAS Crossing (心房間隔穿刺)
+
+
+**建議穿刺位置：**mid to low and posterior
+
+**確認方法：**
+
+- Bicaval view：確認高度 (height)
+- Short axis view：確認後方位置 (posterior)
+
+
+**穿刺位置的影響：**
+
+- **後方穿刺 (Posterior stick)**：   itemize
+- 無逆時針旋轉 (no CCW torque)：鞘管位於後葉，裝置肩部突出較多
+- 加上逆時針旋轉 (with CCW torque)：鞘管對準前葉，裝置更同軸，肩部突出最小化
+
+
+\end{itemize
+}
+
+
+### Sheath Navigation (鞘管導航)
+
+
+1. 在 LSPV 交換 WATCHMAN 鞘管
+2. 將 WATCHMAN Access System 沿著 6F pigtail catheter 送入 LA
+3. 導引 pigtail 進入 LAA
+4. 在多個 TEE 角度 (0-135°) 中緩慢仔細推進，確認鞘管位置和方向
+
+
+**TEE 角度判讀：**
+
+- **< 90° 角度**：顯示深度，但較難判斷特定葉片或鞘管方向
+- **> 90° 角度**：顯示前葉或後葉位置及深度   itemize
+- 逆時針旋轉：使鞘管更往前方對準
+- 順時針旋轉：使鞘管更往後方對準
+
+
+itemize
+
+importantbox
+**鞘管推進注意事項：**
+
+- 當鞘管接近 LAA 壁或 apex 時最重要
+- 在任何解剖結構中更深入推進時都要特別小心
+- LAA 是薄壁結構，操作時必須謹慎
+
+
+importantbox
+
+
+### Device Deployment (裝置釋放)
+
+
+**釋放過程關鍵點：**
+
+- 以緩慢穩定的動作展開裝置（至少 3-5 秒）
+- 觀察裝置遠端，確保無向前推進
+- 展開過程中不可向前推動或重新定位
+
+
+### Post-Release Assessment (釋放後評估)
+
+
+釋放裝置後必須進行最終確認：
+
+
+1. **裝置位置**：在所有角度確認位置無變化
+2. **裝置壓縮率**：再次確認符合 8-20
+3. **LAA 封堵**：color Doppler 確認無殘餘血流或 $\leq$ 5mm
+4. **心包腔**：TEE probe 移除前，4-chamber view 徹底檢查有無 pericardial effusion
+5. **考慮重複 TTE**：病患出院前執行 TTE 確認
+
+
+---
+
+
+## Follow-up TEE 評估
+
+
+### 追蹤時間點
+
+
+**標準追蹤：**術後 45 天（或更久）進行 TEE 評估
+
+**抗凝藥物管理：**
+
+- 術後至少 45 天持續使用 warfarin (維持治療性 INR)
+- 45 天 TEE 評估後決定是否停止 warfarin
+
+
+### Follow-up TEE 評估項目
+
+
+| p{10.5cm}}  **評估項目** | **評估內容與標準** |  |
+| --- | --- | --- |
+| **Device Position** | 確認裝置位置與植入時無變化     評估是否有移位 (embolization) |  |
+| **LAA Sealing / Residual Flow** | 評估是否完全閉合或有殘餘血流     使用 color Doppler 在 0°, 45°, 90°, 135° 評估     測量 peridevice leak 的大小 |  |
+| **Device Thrombus** | 檢查裝置面是否有血栓形成     如有血栓，建議 warfarin 治療 3 個月後重複 TEE |  |
+| **Residual Shunt** | 評估心房間隔有無殘餘分流     特別注意穿刺處是否閉合 |  |
+
+
+### Warfarin 停藥標準
+
+
+| p{9cm}}  **TEE 發現** | **處置建議** |  |
+| --- | --- | --- |
+| **完全閉合**     (Complete LAA occlusion) | **可停止 warfarin**     - 改為 aspirin 81mg/day + clopidogrel 75mg/day     - 持續至術後 6 個月     - 6 個月後只需 aspirin 81mg/day |  |
+| **殘餘血流 $\leq$ 5mm**     (Peridevice leak $\leq$ 5mm) | **可停止 warfarin**     - 改為 aspirin 81mg/day + clopidogrel 75mg/day     - 持續至術後 6 個月     - 6 個月後只需 aspirin 81mg/day |  |
+| **殘餘血流 > 5mm**     (Peridevice leak > 5mm) | **繼續 warfarin**     - 持續 aspirin 81mg/day     - 後續影像確認血流 $\leq$ 5mm 或無血流後才可停藥     - 可能需要重複 TEE 評估 |  |
+| **裝置血栓**     (Device thrombus) | **Warfarin 治療 3 個月**     - 3 個月後重複 TEE     - 血栓消失後再評估停藥     - 持續 aspirin 81mg/day |  |
+
+
+### Peridevice Leak 測量方法
+
+
+1. 在 0°, 45°, 90°, 135° 執行 color Doppler 評估
+2. 確認最可重複的 jet（不一定是最小的）
+3. 確認 jet 從 LAA 流向 LA，經過裝置周圍
+4. Jet 必須在多個連續 frames 中出現
+5. 測量 jet 最窄處的截面積 (vena contracta)
+6. 測量位置：裝置與 LAA 壁最接近處的平面
+
+
+**目前研究顯示：**
+
+- 裝置面血栓形成在臨床試驗中有被評估
+- 至今尚無確認的證據顯示裝置性能與血栓形成的關聯
+- 也未見與裝置血栓相關的不良事件增加
+- 但如觀察到血栓，仍建議 warfarin 治療後重複評估
+
+
+---
+
+
+## 常見併發症與處置
+
+
+### 術中併發症
+
+
+| p{10.5cm}}  **併發症** | **預防與處置** |  |
+| --- | --- | --- |
+| **Cardiac Perforation / Tamponade** | **預防：**LAA 是薄壁結構，操作時謹慎     **監測：**術中持續 TEE 監測心包腔     **處置：**立即 pericardiocentesis，必要時手術修補 |  |
+| **Device Embolization** | **預防：**確認 PASS criteria 全部達成才釋放     **監測：**釋放後立即 TEE 確認位置     **處置：**經皮取出或外科手術取出 |  |
+| **Air Embolism** | **預防：**所有導管和鞘管仔細 de-air     **監測：**TEE 監測左心系統有無氣泡     **處置：**高濃度氧氣、Trendelenburg position |  |
+| **Stroke / TIA** | **預防：**術前確認無 LA/LAA thrombus     術中 heparin 維持 ACT > 250 秒     **處置：**立即神經學評估，考慮血栓溶解或取栓 |  |
+| **Access Site Complications** | **預防：**穿刺技術、適當壓迫止血     **監測：**術後觀察穿刺部位     **處置：**壓迫止血、必要時血管外科會診 |  |
+
+
+### 術後併發症
+
+
+| p{10.5cm}}  **併發症** | **處置建議** |  |
+| --- | --- | --- |
+| **Device Thrombus** | Warfarin 治療 3 個月     重複 TEE 確認血栓消失     考慮增加抗凝強度 (INR 目標) |  |
+| **Pericardial Effusion (Delayed)** | 定期 TTE 追蹤     如有 tamponade 徵象立即 pericardiocentesis     排除穿孔或裝置穿刺 |  |
+| **Infection / Endocarditis** | 術後 6 個月內給予 endocarditis prophylaxis     如懷疑感染：血液培養、TEE 評估     抗生素治療，必要時移除裝置 |  |
+| **Significant Peridevice Leak (> 5mm)** | 繼續 warfarin 治療     定期 TEE 追蹤 leak 大小     考慮二次介入或追加裝置 |  |
+
+
+importantbox
+**術後 30 天內 Cardioversion 注意事項：**
+
+- 裝置植入後 30 天內進行 cardioversion 有裝置移位風險
+- 如必須執行，cardioversion 後務必 TEE 確認裝置位置
+- 建議延遲至 30 天後再進行 elective cardioversion
+
+
+importantbox
+
+
+---
+
+
+## 重點提醒與臨床 Pearls
+
+
+### 測量技巧
+
+
+1. **多角度測量**：0°, 45°, 90°, 135° 都要測量，取最大值
+2. **Limbus 辨識**：作為固定參考點，確保測量一致性
+3. **避免測量錯誤**：    - 確保裝置邊界清晰可見 - Threaded insert 必須可見 - 在最寬處 (at shoulders) 測量 - 不要在非最寬處測量（會低估壓縮率）
+4. **Elliptical ostium**：特別注意，必須仔細測量所有角度
+
+
+### 裝置選擇原則
+
+
+1. 以**最大 ostium 直徑**決定裝置尺寸
+2. 裝置應比 ostium 大 10-20
+3. LAA 長度必須 $\geq$ ostium 直徑
+4. 考慮 LAA 形態：Broccoli type 可能需要更大尺寸或考慮 Amulet
+
+
+### PASS Criteria 記憶口訣
+
+
+> **P**osition - 位置對了嗎？（在 ostium 或稍遠端）  
+> **A**nchor - 錨定穩了嗎？（tug test 通過）  
+> **S**ize - 尺寸夠了嗎？（壓縮 8-20
+> **S**eal - 封堵好了嗎？（無 leak 或 $\leq$ 5mm）
+> **四個都達成才能釋放！**
+
+
+### 常見錯誤與注意事項
+
+
+1. **❌ 錯誤**：只在一個角度測量 ostium       **✓ 正確**：在 0°, 45°, 90°, 135° 都測量，取最大值
+2. **❌ 錯誤**：裝置未完全展開就釋放       **✓ 正確**：緩慢展開（3-5 秒），確認 PASS criteria
+3. **❌ 錯誤**：在非最寬處測量裝置壓縮率       **✓ 正確**：在 shoulders 處測量，threaded insert 可見
+4. **❌ 錯誤**：Position 太 proximal（突出至 LA）       **✓ 正確**：裝置應在或稍遠端於 ostium 平面
+5. **❌ 錯誤**：Position 太 distal（無法覆蓋所有葉片）       **✓ 正確**：確認所有 LAA 葉片都被覆蓋
+6. **❌ 錯誤**：Tug test 過於用力       **✓ 正確**：輕柔測試，只需確認裝置穩定即可
+7. **❌ 錯誤**：忽略 peridevice leak       **✓ 正確**：Color Doppler 仔細檢查，leak > 5mm 不可接受
+
+
+### Watchman vs Amulet 快速比較
+
+
+> **選擇 Watchman 當：**
+> itemize[leftmargin=*]
+> \item LAA ostium 形狀規則（circular / oval）
+> \item Wind sock type LAA
+> \item LAA 有足夠深度（$\geq$ ostium 直徑）
+> \item 測量相對簡單，單一位置
+> itemize
+> **選擇 Amulet 當：**
+> itemize[leftmargin=*]
+> \item LAA 解剖複雜（broccoli type）
+> \item Shallow LAA（深度不足）
+> \item 需要更強的固定（lobe anchoring）
+> \item 願意執行較複雜的測量（兩個位置）
+> itemize
+
+
+---
+
+
+## 參考文獻與資源
+
+
+### 主要參考文獻
+
+
+1. Boston Scientific. WATCHMAN Left Atrial Appendage Closure Technology: TEE Imaging for the WATCHMAN Implant Procedure. Training Manual SH-153514-AB MAR2015.
+2. Holmes DR, et al. Percutaneous closure of the left atrial appendage versus warfarin therapy for prevention of stroke in patients with atrial fibrillation: a randomised non-inferiority trial. Lancet. 2009;374(9689):534-542.
+3. Reddy VY, et al. 5-Year Outcomes After Left Atrial Appendage Closure: From the PREVAIL and PROTECT AF Trials. J Am Coll Cardiol. 2017;70(24):2964-2975.
+4. Saw J, et al. Canadian Cardiovascular Society/Canadian Heart Rhythm Society Position Statement on the Use of Left Atrial Appendage Occlusion Devices to Prevent Stroke in Atrial Fibrillation. Can J Cardiol. 2020;36(8):1178-1189.
+5. Di Biase L, et al. Does the left atrial appendage morphology correlate with the risk of stroke in patients with atrial fibrillation? J Am Coll Cardiol. 2012;60(6):531-538.
+
+
+### 有用的線上資源
+
+
+- **Boston Scientific WATCHMAN Product Information**:     <https://www.bostonscientific.com/en-US/products/structural-heart/watchman-laao.html>
+- **ACC/AHA Guidelines on AF Management**:     <https://www.acc.org/guidelines>
+- **ESC Guidelines on Atrial Fibrillation**:     <https://www.escardio.org/Guidelines>
+
+
+### 建議延伸閱讀
+
+
+1. LAA morphology 與 stroke risk 的關聯性研究
+2. Device-related thrombus 的最新處置建議
+3. Peridevice leak 的臨床意義與長期追蹤數據
+4. Novel oral anticoagulants (NOACs) 在 LAAO 術後的應用
+5. Amulet vs Watchman 的比較性研究
+
+
+\vfill
+
+**0.5\textwidth**{0.4pt}
+
+
+****本文件僅供教學參考使用****
+**臨床決策應基於個別病患情況及最新臨床指引**
+
+
+**編製者：謝慕揚, MD, PhD, FESC**
+**編製日期：\mydate**
+
+
+**0.5\textwidth**{0.4pt}

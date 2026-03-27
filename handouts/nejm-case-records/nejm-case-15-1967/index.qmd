@@ -1,0 +1,276 @@
+---
+title: "https://www.nejm.org/doi/full/10.1056/NEJM196704062761410"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**[Case 15-1967: A 73-Year-Old Man with Fever and Unresponsiveness](https://www.nejm.org/doi/full/10.1056/NEJM196704062761410)**
+[0.5cm]
+{**病例 15-1967：發燒與意識不清**}
+[0.3cm]
+{N Engl J Med 1967   [DOI: 10.1056/NEJM196704062761410](https://doi.org/10.1056/NEJM196704062761410)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 15-1967: A 73-Year-Old Man with Fever and Unresponsiveness》](https://www.nejm.org/doi/full/10.1056/NEJM196704062761410)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名73歲男性因發燒（fever）及意識不清（unresponsiveness）入院。病史包括糖尿病（diabetes mellitus，2年前診斷，使用tolbutamide）、肺炎（5個月前）、疑似多次小中風（small strokes）及可能心肌梗塞（myocardial infarct）。患者長期使用Foley導尿管因膀胱無力（atonic bladder）。入院前6天因導尿管問題更換，次日出現發燒（101.5°F）、背痛（back pain）及尿液混濁伴臭味（cloudy, foul-smelling urine）。使用tetracycline劑量增加後尿液清澈，但患者逐漸意識減退、吞嚥困難（difficulty swallowing）、呼吸急促（tachypnea）。無嘔吐、腹瀉、寒顫、頭痛、咳嗽或胸腹痛。
+
+
+### 初步檢查
+
+急診檢查顯示：
+
+- 體溫102°F，脈搏96次/分，呼吸32次/分，血壓130/70 mm Hg。
+- 皮膚熱而乾燥，組織張力下降（decreased turgor），骶部有壓瘡（decubitus ulcer）。
+- 眼底檢查：動脈狹窄、視網膜出血及微動脈瘤（microaneurysms）。
+- 胸部：左下肺羅音（rales），心臟擴大，3級收縮期雜音（systolic murmur）。
+- 腹部：輕度壓痛，無反彈痛或腹膜刺激徵，腸音消失（absent bowel sounds）。
+- 神經系統：下肢感覺減退，踝反射消失（absent ankle jerks）。
+- 尿液：比重1.015，蛋白++，葡萄糖++++，沉渣含40–50白細胞、4–5紅細胞、大量革蘭陰性桿菌及少量革蘭陽性球菌。
+- 血液檢查：血比容（hematocrit）37
+- 腦脊液（CSF）：壓力150 mm，葡萄糖240 mg/100 mL，蛋白46 mg/100 mL，無異常細胞。
+- 胸部X光：左心室及主動脈輕度突出，肺野清晰。
+
+
+### 住院病程
+
+入院首28小時靜脈輸液4000 mL含ampicillin 4.0 gm，開始使用digitoxin及insulin。第二天體溫降至99°F，意識改善，尿液葡萄糖為微量，尿培養顯示Proteus及Klebsiella。血液培養生長Proteus mirabilis，對ampicillin敏感。第五天，尿素氮降至19 mg/100 mL，靜脈腎盂造影顯示右腎盂及輸尿管輕度擴張（hydronephrosis, hydroureter），前列腺肥大（enlarged prostate）。第七天，體溫升至102°F，白細胞計數40,100，新增chloramphenicol及colistin治療。血液培養顯示Klebsiella，對ampicillin耐藥。第十一至第十八天，患者意識持續惡化，血壓下降，右下腹出現壓痛（tenderness）、反彈痛（rebound tenderness）及右髂動脈搏動增強（prominent right iliac pulse）。第十九天，進行手術，發現右髂動脈感染性動脈瘤（mycotic aneurysm）壓迫右輸尿管，右腎盂含膿液（purulent fluid）。術後患者持續出血，24小時內死亡。屍檢確認右髂動脈感染性動脈瘤破裂，伴大量腹腔及腹膜後出血（peritoneal and retroperitoneal hemorrhage）。
+
+
+右髂動脈感染性動脈瘤（mycotic aneurysm）壓迫右輸尿管導致腎盂積水（hydronephrosis）及感染，引發革蘭陰性菌敗血症（gram-negative septicemia），為本病例的核心病理。
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+採用「拼圖啟發法」（jigsaw heuristics）進行診斷推理，分為四階段：
+
+- **拆箱（Unboxing）**：列出臨床問題，包括發燒（fever）、意識不清（unresponsiveness）、尿路感染（urinary tract infection）、革蘭陰性菌敗血症（gram-negative septicemia）、右下腹壓痛（right lower quadrant tenderness）、右髂動脈搏動增強（prominent right iliac pulse）。
+- **邊角（Corners and Edges）**：識別時間軸：亞急性感染（導尿管更換後6天）及急性惡化（住院後意識下降、腹部症狀）。
+- **地標（Landmarks）**：聚焦關鍵症候群，如腎盂腎炎（pyelonephritis）、感染性動脈瘤（mycotic aneurysm）。
+- **橋接（Bridging）**：整合症候群，尋找統一診斷。
+
+
+### 腎盂腎炎與敗血症
+
+患者具有腎盂腎炎（pyelonephritis）及革蘭陰性菌敗血症（gram-negative septicemia）特徵：
+
+- 症狀：發燒（fever）、背痛（back pain）、尿液混濁（cloudy urine）。
+- 實驗室異常：白細胞增多（leukocytosis）、尿液含白細胞及細菌、血液及尿培養生長Proteus mirabilis及Klebsiella。
+- 影像發現：右腎盂及輸尿管擴張（hydronephrosis, hydroureter）。
+
+
+糖尿病（diabetes mellitus）及長期導尿管增加尿路感染風險，敗血症由感染擴散引起。
+
+
+### 感染性動脈瘤
+
+右髂動脈搏動增強（prominent right iliac pulse）及右下腹壓痛（right lower quadrant tenderness）提示感染性動脈瘤（mycotic aneurysm）「Mycotic aneurysm」指由細菌或其他病原體感染動脈壁導致的動脈瘤，非特指真菌感染。本病例由革蘭陰性菌（如Proteus mirabilis及Klebsiella）引起。：
+
+- 病理機制：動脈粥樣硬化（atherosclerosis）導致動脈瘤，感染（如Proteus或Klebsiella）侵入動脈壁，形成感染性動脈瘤。
+- 併發症：動脈瘤壓迫右輸尿管，導致腎盂積水（hydronephrosis）及腎盂腎炎（pyelonephritis）。
+
+
+感染性動脈瘤破裂（rupture）解釋術後大量腹腔出血。
+
+importantbox
+**重要提醒：** 感染性動脈瘤（mycotic aneurysm）在革蘭陰性菌敗血症中少見，但可因動脈粥樣硬化（atherosclerosis）及感染性血栓（infected thrombus）形成，需高度懷疑。
+importantbox
+
+
+### 統一診斷
+
+右髂動脈感染性動脈瘤（mycotic aneurysm）壓迫右輸尿管，導致腎盂積水（hydronephrosis）及腎盂腎炎（pyelonephritis），引發革蘭陰性菌敗血症（gram-negative septicemia）。動脈瘤破裂（rupture）造成致命性腹腔及腹膜後出血。最終診斷為感染性動脈瘤合併腎盂腎炎及敗血症。
+
+
+## 1967年與現代診療之比較
+
+
+本病例發生於1967年，當時的醫療技術與今日有顯著差異，尤其在診斷影像與介入治療方面。以下表格比較1967年與現代（2025年）在診斷、治療及預後方面的差異，聚焦於感染性動脈瘤（mycotic aneurysm）、腎盂腎炎（pyelonephritis）及敗血症（gram-negative septicemia）的管理。
+
+
+| |p{6cm}|p{6cm}|}  **項目** | **1967年（本病例）** | **現代（2025年）** |
+| --- | --- | --- |
+| **診斷影像** | - 依賴X光、靜脈腎盂造影（intravenous pyelography）及選擇性腎動脈造影（selective renal arteriography）。 - 無CT掃描，難以精確識別感染性動脈瘤（mycotic aneurysm）或腹膜後病變。 - 右腎盂積水（hydronephrosis）及輸尿管壓迫僅通過造影間接推測，右髂動脈異常未及時明確。 - 診斷延遲，需手術探查確認動脈瘤。 | - CT掃描（含CT血管造影，CTA）為標準工具，可快速識別感染性動脈瘤（mycotic aneurysm）、動脈壁增厚、腹膜後出血及腎盂積水（hydronephrosis）。 - MRI及PET-CT可用於評估感染範圍及活動性。 - 超音波（duplex ultrasound）可即時評估動脈瘤大小及血流。 - 早期診斷減少手術探查需求，提高診斷特異性。 |
+| **微生物學診斷** | - 依賴傳統血液及尿液培養，鑑定Proteus mirabilis及Klebsiella，耗時數天。 - 抗生素敏感性測試（disk diffusion）耗時，延遲治療調整。 - 無快速分子診斷技術，難以即時鑑定耐藥菌株。 | - 快速分子診斷（如PCR、MALDI-TOF質譜）可在數小時內鑑定病原菌及其耐藥基因。 - 次世代定序（NGS）可檢測混合感染或罕見病原。 - 即時抗生素敏感性測試指導精準治療，減少耐藥菌（如Klebsiella）治療失敗風險。 |
+| **抗菌治療** | - 使用ampicillin、chloramphenicol、colistin及kanamycin，選擇受限。 - 抗生素選擇依經驗及延遲的敏感性測試，Klebsiella耐藥導致治療失敗。 - 無現代廣譜抗生素，治療敗血症效果有限。 | - 廣譜抗生素（如carbapenems、piperacillin-tazobactam）及新型抗菌藥（如ceftazidime-avibactam）有效針對耐藥革蘭陰性菌。 - 抗生素組合療法（如beta-lactam加aminoglycoside）提高敗血症控制率。 - 抗生素濃度監測（therapeutic drug monitoring）優化劑量，降低毒性。 |
+| **感染性動脈瘤治療** | - 無緊急包膜支架（covered stent）技術，無法非手術修復動脈瘤。 - 手術為唯一選擇，但患者狀況不佳，僅引流腎盂膿液（purulent fluid），未修復動脈瘤，術後破裂（rupture）致死。 - 開腹手術風險高，術後併發症（如出血）難以控制。 | - 緊急血管內包膜支架（endovascular covered stent）為首選，可快速修復感染性動脈瘤（mycotic aneurysm），減少破裂風險。 - 微創手術（如動脈瘤切除加旁路重建）降低手術創傷。 - 術後抗生素長期治療（6–12週）控制感染，改善預後。 |
+| **預後影響** | - 診斷延遲及治療局限導致高死亡率（本病例術後24小時死亡）。 - 無現代監測技術（如連續血流動力學監測），難以即時管理敗血症及出血。 - 感染性動脈瘤破裂（rupture）幾乎無挽救可能。 | - 早期診斷及微創介入顯著降低死亡率（現代感染性動脈瘤存活率約70–80 - 重症監護（ICU）技術（如ECMO、連續腎臟替代療法）支持敗血症及多器官衰竭患者。 - 動脈瘤破裂可通過緊急支架或手術修復挽救。 |
+| 1967年與現代診療之比較：感染性動脈瘤（mycotic aneurysm）、腎盂腎炎（pyelonephritis）及敗血症（gram-negative septicemia） |  |  |
+
+
+## 病理學討論
+
+
+### 微生物學檢查
+
+
+- 血液培養：生長Proteus mirabilis（對ampicillin敏感）及Klebsiella（對ampicillin耐藥）。
+- 尿培養：Proteus及Klebsiella，確認尿路感染來源。
+
+
+### 病理診斷
+
+
+- 右髂動脈感染性動脈瘤（mycotic aneurysm）破裂，伴感染性血栓（infected thrombus）。
+- 右側腎盂積水（hydronephrosis）及急性腎盂腎炎（pyelonephritis）。
+- 腹腔及腹膜後大量出血（peritoneal and retroperitoneal hemorrhage）。
+- 糖尿病性腎小球硬化症（diabetic glomerulosclerosis）。
+- 嚴重支氣管肺炎（bronchopneumonia）。
+
+
+## 治療討論
+
+
+### 抗菌治療
+
+
+- **初始治療**：Ampicillin 4.0 gm靜脈給藥，針對Proteus mirabilis。
+- \textbf調整治療}：新增chloramphenicol及colistin，後改用kanamycin，針對Klebsiella耐藥性。
+
+
+### 手術介入
+
+手術目的為引流右腎盂膿液（purulent fluid）及解除輸尿管壓迫，但未修復感染性動脈瘤，因患者狀況不佳。術後大量出血導致死亡。
+
+
+感染性動脈瘤（mycotic aneurysm）需早期診斷及手術修復，抗菌治療無法完全控制感染。
+
+
+## 住院病程
+
+
+### 病情進展
+
+患者初期對ampicillin反應良好（體溫下降，意識改善），但Klebsiella耐藥導致感染持續。右下腹症狀及動脈瘤壓迫輸尿管未及時識別，術後感染性動脈瘤破裂（rupture）導致死亡。
+
+
+### 結局
+
+術後24小時內患者因腹腔及腹膜後大量出血（3升）死亡。屍檢確認右髂動脈感染性動脈瘤（mycotic aneurysm）破裂及右側腎盂腎炎（pyelonephritis）。
+
+
+## 最終診斷
+
+右髂動脈感染性動脈瘤（mycotic aneurysm）破裂，合併右側腎盂腎炎（pyelonephritis）及革蘭陰性菌敗血症（gram-negative septicemia）。
+
+
+## 考題
+
+
+以下為針對本病例的十道選擇題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者的主要臨床表現不包括：     enumerate[label=\alph*)]
+2. 發燒 (fever)
+3. 意識不清 (unresponsiveness)
+4. 頭痛 (headache)
+5. 右下腹壓痛 (right lower quadrant tenderness)
+
+
+    \item 患者靜脈腎盂造影顯示的關鍵異常是：
+    
+1. 左腎盂積水
+2. 右腎盂及輸尿管擴張 (hydronephrosis, hydroureter)
+3. 雙側腎功能正常
+4. 膀胱腫瘤
+
+
+    \item 以下哪項實驗室異常最支持革蘭陰性菌敗血症診斷？
+    
+1. 高血糖
+2. 白細胞增多 (leukocytosis) 伴中性粒細胞為主
+3. 低鈉血症
+4. 高膽紅素
+
+
+    \item 感染性動脈瘤（mycotic aneurysm）的典型病理特徵是：
+    
+1. 動脈壁完整無感染
+2. 感染性血栓（infected thrombus）及動脈壁破壞
+3. 動脈粥樣硬化無血栓
+4. 動脈壁肥厚無炎症
+
+
+    \item 患者右腎盂積水（hydronephrosis）的最可能原因是：
+    
+1. 腎結石
+2. 右髂動脈感染性動脈瘤壓迫輸尿管
+3. 膀胱癌
+4. 左腎感染
+
+
+    \item 感染性動脈瘤（mycotic aneurysm）的主要危險因素是：
+    
+1. 高血壓
+2. 動脈粥樣硬化 (atherosclerosis) 及敗血症
+3. 高膽固醇
+4. 甲狀腺功能亢進
+
+
+    \item 革蘭陰性菌敗血症的首選抗菌治療包括：
+    
+1. Ampicillin 聯合chloramphenicol
+2. Penicillin單獨使用
+3. Tetracycline單獨使用
+4. Vancomycin單獨使用
+
+
+    \item 患者術後死亡的主要原因是：
+    
+1. 心肌梗塞
+2. 感染性動脈瘤破裂（rupture）導致大量出血
+3. 腦中風
+4. 急性腎衰竭
+
+
+    \item 患者右髂動脈搏動增強（prominent right iliac pulse）的最可能解釋是：
+    
+1. 正常血管變異
+2. 感染性動脈瘤（mycotic aneurysm）
+3. 腹主動脈瘤
+4. 腎動脈狹窄
+
+
+    \item 本病例最終診斷是：
+    
+1. 腎結石合併尿路感染
+2. 右髂動脈感染性動脈瘤（mycotic aneurysm）合併腎盂腎炎（pyelonephritis）
+3. 腹主動脈瘤合併敗血症
+4. 急性胰腺炎合併感染
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：c) 頭痛 (headache)**      **詳解：** 患者表現為發燒（fever）、意識不清（unresponsiveness）、右下腹壓痛（right lower quadrant tenderness），無頭痛（headache）。頭痛非本病例的主要症狀。
+2. **正確答案：b) 右腎盂及輸尿管擴張 (hydronephrosis, hydroureter)**      **詳解：** 靜脈腎盂造影顯示右腎盂及輸尿管擴張（hydronephrosis, hydroureter），由右髂動脈感染性動脈瘤壓迫引起。其他選項不符合影像結果。
+3. **正確答案：b) 白細胞增多 (leukocytosis) 伴中性粒細胞為主**      **詳解：** 白細胞增多（leukocytosis，最高40,100）伴中性粒細胞為主（89
+4. **正確答案：b) 感染性血栓（infected thrombus）及動脈壁破壞**      **詳解：** 感染性動脈瘤（mycotic aneurysm）特徵為感染性血栓（infected thrombus）及動脈壁破壞，伴炎症細胞浸潤。其他選項不符合病理表現。
+5. **正確答案：b) 右髂動脈感染性動脈瘤壓迫輸尿管**      **詳解：** 右腎盂積水（hydronephrosis）由右髂動脈感染性動脈瘤壓迫右輸尿管引起。腎結石、膀胱癌或左腎感染無相關證據。
+6. **正確答案：b) 動脈粥樣硬化 (atherosclerosis) 及敗血症**      **詳解：** 動脈粥樣硬化（atherosclerosis）及敗血症（如Proteus或Klebsiella）是感染性動脈瘤的主要危險因素。高血壓、高膽固醇或甲亢非主要風險。
+7. **正確答案：a) Ampicillin 聯合chloramphenicol**      **詳解：** 革蘭陰性菌敗血症首選廣譜抗生素如ampicillin聯合chloramphenicol，針對Proteus及Klebsiella。其他選項療效不佳或不適用。
+8. **正確答案：b) 感染性動脈瘤破裂（rupture）導致大量出血**      **詳解：** 術後死亡由感染性動脈瘤破裂（rupture）導致腹腔及腹膜後大量出血（3升）引起。其他選項無相關證據。
+9. **正確答案：b) 感染性動脈瘤（mycotic aneurysm）**      **詳解：** 右髂動脈搏動增強（prominent right iliac pulse）由感染性動脈瘤（mycotic aneurysm）引起，伴動脈壁感染及擴張。其他選項不符合臨床表現。
+10. **正確答案：b) 右髂動脈感染性動脈瘤（mycotic aneurysm）合併腎盂腎炎（pyelonephritis）**      **詳解：** 最終診斷為右髂動脈感染性動脈瘤（mycotic aneurysm）合併右側腎盂腎炎（pyelonephritis）及敗血症，由屍檢確認。其他選項與病理結果不符。

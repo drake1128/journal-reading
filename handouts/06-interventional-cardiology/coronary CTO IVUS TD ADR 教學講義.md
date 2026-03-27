@@ -1,0 +1,489 @@
+# coronary CTO IVUS TD ADR
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+titlepage
+    
+    {****心血管中心教學文件****
+}
+    
+    {\bfseries Tip Detection IVUS-Guided  
+Antegrade Wiring  
+for Coronary CTO Intervention
+}
+    
+    {***尖端偵測IVUS導引前向穿線技術  
+冠狀動脈慢性完全阻塞介入治療***
+}
+    
+    
+    
+> {**目標對象**
+> }
+>     心導管室醫師、Fellow、介入心臟科進修醫師
+>     {**文件版本**
+> }
+>     第1.0版
+>     發佈日期:\mydate
+
+
+    \vfill
+    
+    {內科部心臟內科 謝慕揚 Mu-Yang Hsieh, MD, PhD, FESC
+}
+    
+    
+titlepage
+
+
+---
+
+\tableofcontents
+
+---
+
+
+## 自學方案
+
+本文件為介入心臟科進階教學資料，重點介紹由日本岡村明彥醫師團隊所開發的**Tip Detection Method (尖端偵測法)**，這是一種革命性的IVUS導引三維穿線技術，用於冠狀動脈慢性完全阻塞(CTO)的前向介入治療。
+
+
+### 學習目標
+
+
+1. 了解Tip Detection Method的原理與臨床應用
+2. 熟悉AnteOwl WR-IVUS的特性與操作
+3. 掌握IVUS-based 3D wiring的步驟
+4. 學習Tip Detection-Antegrade Dissection and Re-entry (TD-ADR)技術
+
+
+## 背景介紹：CTO介入治療的挑戰
+
+
+### 為何CTO穿線如此困難？
+
+
+冠狀動脈慢性完全阻塞(Chronic Total Occlusion, CTO)的定義為冠狀動脈完全阻塞超過三個月，TIMI血流為0級。CTO病灶的穿線是所有冠狀動脈介入治療中最具挑戰性的程序之一。
+
+
+| p{10cm}}   **挑戰** | **說明** |  |
+| --- | --- | --- |
+| 病灶解剖複雜 | CTO病灶常伴有纖維帽(fibrous cap)、鈣化、迂曲、分叉等複雜結構 |  |
+| True lumen vs Subintimal space | 導絲極易進入subintimal space而非true lumen，導致穿線失敗或血管穿孔 |  |
+| 二維影像限制 | 傳統透視僅提供二維影像，無法精確判斷導絲尖端在三維空間中的位置 |  |
+| 操作經驗要求高 | CTO穿線高度仰賴術者經驗與直覺判斷 |  |
+
+
+### CTO介入治療策略演進
+
+
+importantbox
+****四大CTO穿越策略****
+
+根據Asia Pacific CTO algorithm，主要CTO穿越策略包括：
+
+1. **Antegrade Wire Escalation (AWE)**：前向導絲升級策略
+2. **Retrograde Wire Escalation (RWE)**：逆向導絲升級策略
+3. **Antegrade Dissection and Re-entry (ADR)**：前向剝離再進入策略
+4. **IVUS-guided Wiring**：IVUS導引穿線策略
+
+
+importantbox
+
+
+## Tip Detection Method 原理
+
+
+### 什麼是Tip Detection Method？
+
+
+Tip Detection Method（尖端偵測法）是由日本岡村明彥醫師團隊於2014年開發的IVUS導引三維穿線技術。其核心概念是：
+
+
+> **不僅觀察導絲軸心(shaft)，更要觀察導絲尖端(tip)及其方向**
+> 透過AnteOwl WR-IVUS的pullback系統，在導絲尖端區域來回移動transducer，可以即時建構三維影像，直接顯示導絲需要旋轉的方向與角度。
+
+
+### Tip Detection Method的發展歷程
+
+
+| p{11cm}}   **年份** | **里程碑** |  |
+| --- | --- | --- |
+| 2012 | 開發第一代CTO專用IVUS：Navifocus WR (Navi-IVUS)    特色：小型化、短tip設計 |  |
+| 2014 | 建立3D imaging rule，發展angiography-based 3D wiring |  |
+| 2019 | 開發AnteOwl WR-IVUS (AO-IVUS)    新增pullback transducer system以實現IVUS-based 3D wiring |  |
+| 2021年8月 | 首次發現Tip Detection Method可進行ADR    命名為Tip Detection-ADR (TD-ADR) |  |
+| 2023 | 發表AO-IVUS vs Navi-IVUS臨床比較研究    IVUS-guided wiring成功率從59 |  |
+
+
+## AnteOwl WR-IVUS 介紹
+
+
+### 設備特性
+
+
+AnteOwl WR-IVUS（Terumo Corp., Tokyo, Japan）是專為CTO介入設計的新一代IVUS系統。
+
+
+| p{9cm}}   **特性** | **說明** |  |
+| --- | --- | --- |
+| 最大外徑 | 4.0 Fr (1.33 mm) |  |
+| Short tip設計 | 較短的tip-to-transducer距離，便於CTO病灶內操作 |  |
+| Pullback transducer system | 可進行real-time 3D imaging的關鍵功能 |  |
+| 不對稱結構 | Transducer與IVUS wire呈不對稱排列，可將IVUS影像位置資訊投射至透視影像 |  |
+| 相容性 | 可搭配4.0 Fr或更大的sheath使用 |  |
+
+
+**與Navifocus WR-IVUS的關鍵差異：**
+
+AnteOwl WR-IVUS是Navifocus WR-IVUS的升級版，最關鍵的差異在於新增了**pullback transducer system**，使得術者可以透過來回移動transducer來觀察導絲尖端，實現即時三維穿線。
+
+
+## IVUS-Based 3D Wiring 步驟詳解
+
+
+### Step 1: 初始穿線與IVUS置入
+
+
+1. 使用第一根CTO stiff guidewire嘗試前向穿線
+2. 導絲通常會進入CTO出口附近的subintimal space
+3. 將microcatheter推進至導絲尖端
+4. 透過microcatheter將AnteOwl WR-IVUS推進至CTO病灶內
+
+
+importantbox
+**關鍵器材選擇**
+
+
+- **CTO Stiff Guidewires**: Confianza-12g, Confianza-20g, Conquest Pro 12 Sharpened Tip (CP12ST)
+- **Microcatheter**: Corsair microcatheter (Asahi Intecc) - 提供足夠的backup support
+- **導絲尖端形狀**: 1 mm curve at 45° angle
+
+
+importantbox
+
+
+### Step 2: 識別True Lumen與Subintimal Space
+
+
+透過AnteOwl WR-IVUS觀察：
+
+
+| p{10cm}}   **結構** | **IVUS特徵** |  |
+| --- | --- | --- |
+| True lumen | 具有內膜層(intima)、中膜層(media)及外膜層(adventitia)的三層結構 |  |
+| Subintimal space | 位於intima與media之間的夾層空間，無正常血管壁結構 |  |
+| Intraplaque space | 斑塊內部空間，為理想的穿線路徑 |  |
+| CTO exit | 遠端真正管腔的入口 |  |
+
+
+### Step 3: 執行Tip Detection Method
+
+
+> **Step 3-1: 位置資訊轉移**
+> 將血管結構的位置資訊（如intimal space、exit lumen）從IVUS影像轉移至透視影像。
+> **Step 3-2: IVUS-Based 3D Wiring**
+> 根據IVUS影像資訊，精確地將第二根導絲推進至目標位置（exit lumen或true lumen）。
+
+
+#### 詳細操作流程
+
+
+1. 將第二根導絲（如Confianza-12g）推進至intimal與subintimal space交界處前方約1 cm
+2. 在透視影像上，觀察第二根導絲尖端的朝向
+3. 旋轉導絲，使尖端直接朝向術者方向
+4. 執行Tip Detection：      - 將IVUS transducer在目標區域與尖端區域之間來回移動（約5 mm範圍） - 不僅觀察導絲軸心(shaft)，更要清楚看到導絲尖端(tip)及其方向 - 透過這個動作建構三維影像
+5. 三維影像會直接顯示導絲需要旋轉的方向（順時針或逆時針）與角度
+6. 根據三維資訊調整導絲方向，精確推進至true lumen
+
+
+**Tip Detection的精髓：**
+
+傳統IVUS穿線僅觀察導絲軸心的截面位置，但Tip Detection Method透過pullback系統，額外觀察到**導絲尖端的方向性**，從而實現真正的三維導引。
+
+這就好比在二維地圖上，不僅知道自己在哪個位置（軸心截面），還知道自己朝哪個方向前進（尖端方向），大幅提升穿線的精確度。
+
+
+## Tip Detection-Antegrade Dissection and Re-entry (TD-ADR)
+
+
+### TD-ADR的發現與原理
+
+
+2021年8月，岡村團隊在執行Tip Detection Method時首次發現：此方法不僅可用於intraplaque tracking，還可以進行**antegrade dissection and re-entry (ADR)**。
+
+
+> 由於Tip Detection Method能夠精確控制導絲尖端的方向，術者可以：
+> itemize
+>     \item 在預定位置，使導絲尖端**垂直**對準true lumen與subintima之間的壁
+>     \item 精確地穿刺進入true lumen
+>     \item 實現re-entry而不需要Stingray device
+> itemize
+
+
+### TD-ADR vs Stingray-ADR 比較
+
+
+| p{5cm} p{5cm}}   **特性** | **Stingray-ADR** | **TD-ADR** |
+| --- | --- | --- |
+| 導引方式 | Angiography-guided | IVUS-guided |
+| 需要特殊器材 | 需要Stingray系統 | 僅需AnteOwl WR-IVUS |
+| 穿刺精確度 | 較低（二維透視限制） | 較高（三維IVUS導引） |
+| 成功率 | 約67 | 約100 |
+| 適用情況 | 遠端true lumen可透視顯影 | 即使true lumen塌陷也可操作 |
+| 手術時間 | 較長 | 較短 |
+
+
+### TD-ADR操作步驟
+
+
+1. 當第一根導絲進入subintimal space後，將AnteOwl WR-IVUS推進
+2. 透過IVUS確認遠端true lumen的位置（即使影像上不可見也可辨識）
+3. 使用穿刺導絲（如Conquest Pro 12 Sharpened Tip）支撐microcatheter推進至預定re-entry位置
+4. 執行Tip Detection：      - 使導絲尖端**垂直**對準true lumen壁 - IVUS影像可清楚看到尖端觸碰壁面的過程
+5. 穿刺過程IVUS可視化：      - (A) 導絲尖端垂直觸碰true lumen壁 - (B) 尖端一半長度進入壁內 - (C) 尖端與軸心進入true lumen - (D) Microcatheter進入true lumen確認成功
+6. 完成後使用drug-eluting stent進行擴張治療
+
+
+## 臨床成效數據
+
+
+### IVUS-Guided Wiring：AO-IVUS vs Navi-IVUS
+
+
+根據2023年發表於JACC: Asia的研究：
+
+
+| p{4cm} p{4cm}}   **參數** | **AO-IVUS** (n=30) | **Navi-IVUS** (n=17) |
+| --- | --- | --- |
+| IVUS-guided wiring成功率 | **93 | 59 |
+| IVUS-guided wiring時間 | **9 ± 8 min** | 24 ± 26 min |
+| P值 | P = 0.007 (成功率); P = 0.001 (時間) |  |
+
+
+### TD-ADR vs Stingray-ADR
+
+
+根據2024年發表的研究（54例CTO病例）：
+
+
+| p{4cm} p{4cm}}   **參數** | **TD-ADR** (n=27) | **Stingray-ADR** (n=27) |
+| --- | --- | --- |
+| ADR成功率 | **100 | 67 |
+| 手術時間 | **顯著較短** | 較長 |
+| 院內MACE | 極少 | 無顯著差異 |
+
+
+## 英文寫作指導：Clinical Case Presentation
+
+
+### 病例呈現範本
+
+
+> **Opening:**
+> *A [age]-year-old [gender] with a history of [relevant medical history] presented with [chief complaint].*
+> **Angiographic Findings:**
+> *Coronary angiography revealed a chronic total occlusion (CTO) of the [target vessel] with [description of lesion characteristics]. The J-CTO score was [score].*
+> **Procedural Strategy:**
+> *We initially attempted antegrade wire escalation using [guidewire type]. The guidewire advanced into the subintimal space [location description].*
+> **IVUS-Guided Intervention:**
+> *AnteOwl WR-IVUS was advanced through the microcatheter. IVUS observation revealed [findings]. We performed IVUS-based 3D wiring using the tip detection method.*
+> **Outcome:**
+> *The CTO lesion was successfully crossed using [technique]. The lesion was dilated with [number] drug-eluting stent(s), and normal antegrade blood flow was achieved.*
+
+
+### 關鍵醫學術語對照
+
+
+| p{8cm}}   **中文** | **English** |  |
+| --- | --- | --- |
+| 慢性完全阻塞 | Chronic total occlusion (CTO) |  |
+| 尖端偵測法 | Tip detection method |  |
+| 前向穿線升級 | Antegrade wire escalation (AWE) |  |
+| 前向剝離再進入 | Antegrade dissection and re-entry (ADR) |  |
+| 逆向穿線升級 | Retrograde wire escalation (RWE) |  |
+| 血管內超音波 | Intravascular ultrasound (IVUS) |  |
+| 三維穿線 | 3-dimensional (3D) wiring |  |
+| 真正管腔 | True lumen |  |
+| 內膜下空間 | Subintimal space |  |
+| 斑塊內空間 | Intraplaque space |  |
+| 藥物塗層支架 | Drug-eluting stent (DES) |  |
+| 穿線時間 | Wire crossing time |  |
+| 手術成功 | Procedural success |  |
+| 拉回系統 | Pullback transducer system |  |
+
+
+## 鑑別診斷：導絲位置判讀
+
+
+### IVUS影像判讀要點
+
+
+在CTO穿線過程中，正確判讀導絲位置至關重要：
+
+
+| p{5cm} p{5cm}}   **位置** | **IVUS特徵** | **臨床意義** |
+| --- | --- | --- |
+| True lumen | 導絲位於三層結構內部，周圍可見intima | 理想位置，可安全擴張 |
+| Intraplaque | 導絲位於斑塊內部，周圍有斑塊組織包圍 | 可接受位置，可繼續推進 |
+| Subintimal space | 導絲位於intima與media之間，呈現「剝離」外觀 | 需re-entry或改變策略 |
+| Adventitia | 導絲接近或穿透外膜層 | 危險！有血管穿孔風險 |
+
+
+importantbox
+****警示徵象****
+
+以下IVUS發現提示導絲位置不佳，需立即調整：
+
+- 導絲周圍無血管壁結構
+- 導絲明顯位於media外側
+- 出現血管外對比劑滲漏
+- True lumen完全塌陷且導絲位於其外側
+
+
+importantbox
+
+
+## 併發症預防與處理
+
+
+### 常見併發症
+
+
+| p{5cm} p{5cm}}   **併發症** | **預防措施** | **處理方式** |
+| --- | --- | --- |
+| 冠狀動脈穿孔 | 持續IVUS監測    避免過度穿刺    選擇適當導絲 | Covered stent    Coil embolization    Pericardiocentesis |
+| 大面積剝離 | 控制subintimal擴展範圍    及時re-entry | Stent sealing    必要時逆向approach |
+| 導絲斷裂 | 避免過度旋轉    使用適當microcatheter | Snare retrieval    Stent jail |
+| 對比劑腎病 | 限制對比劑用量    適當水分補充 | 術前術後hydration    避免腎毒性藥物 |
+
+
+## 考題
+
+
+以下為針對本教學內容的選擇題，旨在檢驗對IVUS導引CTO穿線技術的理解。
+
+
+1. 關於Tip Detection Method，下列敘述何者**正確**？     enumerate[label=\alph*)]
+2. 僅觀察導絲軸心(shaft)的截面位置
+3. 需要Stingray系統才能執行
+4. 透過pullback transducer system觀察導絲尖端及其方向
+5. 只能用於retrograde approach
+
+
+    \item AnteOwl WR-IVUS相較於Navifocus WR-IVUS的關鍵升級為何？
+    
+1. 更大的外徑
+2. 新增pullback transducer system
+3. 取消short tip設計
+4. 降低影像解析度
+
+
+    \item 在IVUS影像上，導絲位於subintimal space的特徵為何？
+    
+1. 周圍可見正常三層血管壁結構
+2. 位於intima與media之間，呈現「剝離」外觀
+3. 完全位於斑塊內部
+4. 可見導絲周圍有血流信號
+
+
+    \item TD-ADR (Tip Detection-Antegrade Dissection and Re-entry)的成功率約為：
+    
+1. 50
+2. 67
+3. 85
+4. 100
+
+
+    \item 執行Tip Detection時，transducer的操作方式為何？
+    
+1. 固定在一個位置不動
+2. 在目標區域與尖端區域之間來回移動約5 mm
+3. 快速通過整個CTO病灶
+4. 僅在proximal位置觀察
+
+
+    \item 下列何種CTO stiff guidewire常用於TD-ADR的穿刺步驟？
+    
+1. Fielder FC
+2. Conquest Pro 12 Sharpened Tip (CP12ST)
+3. Sion Blue
+4. Runthrough NS
+
+
+    \item 根據臨床研究，使用AO-IVUS進行IVUS-guided wiring的成功率為：
+    
+1. 59
+2. 75
+3. 85
+4. 93
+
+
+    \item 執行TD-ADR時，導絲尖端應如何對準true lumen壁？
+    
+1. 平行於壁面
+2. 垂直於壁面
+3. 斜45度角
+4. 方向無所謂
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：c) 透過pullback transducer system觀察導絲尖端及其方向**      **詳解：** Tip Detection Method的核心是「不僅觀察導絲軸心(shaft)，更要觀察導絲尖端(tip)及其方向」。這需要AnteOwl WR-IVUS的pullback transducer system才能實現，透過在導絲尖端區域來回移動transducer，建構三維影像。此方法不需要Stingray系統，且主要用於前向approach。
+2. **正確答案：b) 新增pullback transducer system**      **詳解：** AnteOwl WR-IVUS是Navifocus WR-IVUS的升級版，最關鍵的差異在於新增了pullback transducer system，使術者可以透過來回移動transducer觀察導絲尖端，實現即時三維穿線。這是從二維IVUS導引進化到三維IVUS導引的關鍵技術。
+3. **正確答案：b) 位於intima與media之間，呈現「剝離」外觀**      **詳解：** Subintimal space是位於intima與media之間的夾層空間。在IVUS影像上，導絲位於此處時會呈現特徵性的「剝離」外觀，周圍缺乏正常的三層血管壁結構。相比之下，true lumen會顯示完整的三層結構，intraplaque則是被斑塊組織包圍。
+4. **正確答案：d) 100      **詳解：** 根據2024年發表的比較研究（54例CTO），TD-ADR在27例中達到100
+5. **正確答案：b) 在目標區域與尖端區域之間來回移動約5 mm**      **詳解：** Tip Detection的關鍵操作是將transducer在目標區域（如exit lumen）與導絲尖端區域之間來回移動約5 mm。這個動作使術者不僅能看到導絲軸心的位置，還能清楚觀察到導絲尖端的方向，從而建構三維影像指引穿線方向。
+6. **正確答案：b) Conquest Pro 12 Sharpened Tip (CP12ST)**      **詳解：** Conquest Pro 12 Sharpened Tip (CP12ST)是目前穿透力最強的CTO穿刺導絲，特別適合用於TD-ADR中從subintimal space穿刺進入true lumen。其他選項如Fielder FC和Sion Blue是軟線，適合探索而非穿刺；Runthrough NS是通用導絲，穿透力不足。
+7. **正確答案：d) 93      **詳解：** 根據2023年發表於JACC: Asia的研究，使用AO-IVUS配合Tip Detection Method進行IVUS-guided wiring的成功率為93
+8. **正確答案：b) 垂直於壁面**      **詳解：** TD-ADR的關鍵技術是使導絲尖端「垂直」對準true lumen與subintima之間的壁面，然後進行穿刺。垂直穿刺可以確保導絲以最短路徑進入true lumen，並減少血管壁損傷。IVUS可以即時確認穿刺角度是否正確。
+
+
+## 結語
+
+
+Tip Detection Method代表了CTO介入治療的重要技術突破。透過AnteOwl WR-IVUS的pullback transducer system，術者首次能夠在IVUS導引下即時建構三維影像，精確控制導絲尖端的方向與位置。
+
+**關鍵學習要點：**
+
+1. Tip Detection Method不僅觀察導絲軸心，更觀察導絲尖端及其方向
+2. AnteOwl WR-IVUS的pullback system是實現即時3D wiring的關鍵
+3. TD-ADR可在不需Stingray系統的情況下進行精確re-entry
+4. IVUS導引優於透視導引，尤其在true lumen塌陷時
+5. 成功率從59
+
+
+**0.8\linewidth**{0.5pt}
+
+
+## 參考文獻
+
+
+1. Okamura A, Iwakura K, Date M, et al. Navifocus WR is the promising intravascular ultrasound for navigating the guidewire into true lumen during the coronary intervention for chronic total occlusion. [*Cardiovasc Interv Ther.](https://doi.org/10.1007/s12928-013-0212-x) 2014;29:181-186.*
+2. Tanaka T, Okamura A, Iwakura K, et al. Efficacy and feasibility of the three-dimensional wiring technique for chronic total occlusion percutaneous coronary intervention: first report of outcomes of the three-dimensional wiring technique. [*J Am Coll Cardiol Intv.](https://doi.org/10.1016/j.jcin.2018.12.014) 2019;12:545-555.*
+3. Okamura A, Iwakura K, Iwamoto M, et al. Tip detection method using the new IVUS facilitates the 3-dimensional wiring technique for CTO intervention. [*J Am Coll Cardiol Intv.](https://doi.org/10.1016/j.jcin.2019.07.041) 2020;13:74-82.*
+4. Suzuki S, Okamura A, Iwakura K, et al. Initial Outcomes of AnteOwl IVUS-Based 3D Wiring Using the Tip Detection Method for CTO Intervention. [*JACC Cardiovasc Interv.](https://doi.org/10.1016/j.jcin.2021.01.048) 2021;14:812-814.*
+5. Suzuki S, Okamura A, Nagai H, et al. Tip detection-antegrade dissection and reentry using intravascular ultrasound in chronic total occlusion intervention: first human case report. [*Eur Heart J Case Rep.](https://doi.org/10.1093/ehjcr/ytac233) 2022;6:ytac233.*
+6. Suzuki S, Okamura A, Nagai H, et al. Efficacy of Intravascular Ultrasound-Based 3D Wiring Using the Tip Detection Method for CTO Intervention. [*JACC: Asia.](https://doi.org/10.1016/j.jacasi.2023.03.003) 2023;3:526-530.*
+7. Tanaka K, Okamura A, Yoshikawa R, et al. Tip Detection-Antegrade Dissection and Re-Entry With New Puncture Wire in CTO Intervention. [*JACC: Asia.](https://doi.org/10.1016/j.jacasi.2023.11.017) 2024;4:359-370.*
+8. Harding SA, Wu EB, Lo S, et al. A New Algorithm for Crossing Chronic Total Occlusions From the Asia Pacific Chronic Total Occlusion Club. [*JACC Cardiovasc Interv.](https://doi.org/10.1016/j.jcin.2017.06.071) 2017;10:2135-2143.*
+
+
+\vfill
+\hrule
+
+*本講義整理自日本岡村明彥醫師團隊的研究成果*
+*Sakurabashi Watanabe Hospital & Terumo Corp.*
+[0.3cm]
+編輯：謝慕揚, MD, PhD, FESC
+*僅供教學使用，請勿用於商業用途*

@@ -1,0 +1,732 @@
+# lecture managing HF in ED
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+titlepage
+    
+    
+    
+    {\bfseriesemergency_red 急診急性心衰管理
+}
+    
+    
+    {emergency_blue 越早越好:使用Point-of-Care超音波早期診斷
+}
+    
+    
+    
+    
+
+    
+    
+- 
+- 急診醫師
+- 內科住院醫師
+- 心臟超音波室同仁
+- 心導管室同仁
+
+
+    
+    
+    \vfill
+    
+    {整理者:謝慕揚 MD, PhD, FESC
+
+    新竹台大分院
+
+    心臟血管科
+
+    
+    文件日期:\mydate
+
+    }
+    
+    
+    
+    {black
+    原始講座:Professor John T Parissis
+
+    University Department of Emergency Medicine, Athens, Greece
+
+    }
+titlepage
+
+\tableofcontents
+
+---
+
+
+## 前言
+
+
+急性心衰竭(Acute Heart Failure, AHF)在急診的處置強調「越早越好」(the earlier, the better)。Point-of-Care超音波(POCUS)可以在急診早期快速診斷AHF,並即時評估治療反應,對改善病人預後至關重要。本講義整理2021 ESC心衰指引及相關共識文件,著重於超音波在急診AHF處置的實務應用。
+講義為參考[ACVC 2023年Dr. John T Parissis的資料](https://esc365.escardio.org/presentation/256296)製作。
+
+importantbox
+**核心概念**
+
+1. 傳統臨床表現與症狀可能延遲AHF診斷
+2. Echo與肺部超音波可提升診斷準確度
+3. Point-of-Care超音波能即時監測治療反應
+4. 早期診斷與治療可改善病人預後
+
+
+importantbox
+
+
+## 急性心衰的診斷流程
+
+
+### ESC 2015急診與住院前處置共識
+
+
+根據歐洲心臟學會(ESC)、歐洲急診醫學會(EuSEM)及學術急診醫學會(SAEM)於2015年發表的共識文件(European Heart Journal 2015; 36:1958-1966),AHF的早期處置應包含:
+
+
+1. **初始30-60分鐘內評估**      - 確認是否為休克狀態 - 評估嚴重度分數(排除休克) - 判斷呼吸窘迫程度 - 評估血行動力學穩定度
+2. **診斷性檢查**      - ECG - 實驗室檢查 - **Echo(肺部、心臟)** - Chest X-ray
+3. **靜脈治療**      - SBP < 110 mmHg:利尿劑為第一線治療 - SBP > 110 mmHg:血管擴張劑/利尿劑
+
+
+### 2021 ESC急慢性心衰指引的診斷流程
+
+
+2021年ESC發表最新心衰指引(European Heart Journal 2021; 42:3599-3726),診斷流程如下:
+
+
+| p{10cm}}  **診斷步驟** | **內容** |  |
+| --- | --- | --- |
+| 病史、症狀與徵候 | 疑似acute HF的病人,詢問病史與理學檢查 |  |
+| \addlinespace  初步檢查 | Electrocardiogram     Pulse oximetry     **Echocardiography**     Initial laboratory investigations     Chest X-ray     **Lung ultrasound**     Other specific evaluations |  |
+| \addlinespace  Natriuretic peptide測試 | BNP < 100 pg/mL或NT-proBNP < 300 pg/mL → Acute heart failure ruled out     BNP ≥ 100 pg/mL或NT-proBNP ≥ 300 pg/mL → Acute heart failure confirmed |  |
+| \addlinespace  確診後 | Comprehensive echocardiography進行完整評估 |  |
+
+
+2021 ESC指引特別強調Echocardiography與Lung ultrasound在急診診斷流程中的重要性,建議於admission、住院期間及pre-discharge時執行。
+
+
+## 急診診斷性檢查建議
+
+
+根據2021 ESC指引,急性心衰病人的診斷性檢查建議如下:
+
+
+| p{3cm}p{3cm}p{2.5cm}p{2cm}}  **檢查項目** | **執行時間** | **可能發現** |
+| --- | --- | --- |
+| ECG | Admission,住院期間,出院前 | Arrhythmias, myocardial ischaemia |
+| \addlinespace  Chest X-ray | Admission,住院期間 | Congestion, lung infection |
+| \addlinespace  **LUS** | Admission,住院期間,出院前 | Congestion |
+| \addlinespace  **Echocardiography** | Admission,住院期間,出院前 | Congestion, cardiac dysfunction, mechanical causes |
+| \addlinespace  Natriuretic peptides (BNP, NT-proBNP, MR-proANP) | Admission, pre-discharge | Congestion |
+| \addlinespace  Serum troponin | Admission | Myocardial injury |
+| \addlinespace  Serum creatinine | Admission,住院期間,出院前 | Renal dysfunction |
+
+
+## Point-of-Care Echocardiography在急診的應用
+
+
+### POC Echo的診斷目標
+
+
+Point-of-Care心臟超音波在急診AHF評估中的主要目標(Cardiac Failure Review 2015; 1(2):83-6):
+
+
+1. **判定LVEF**(定性、目視估計)
+2. **區分HFpEF**(EF > 50
+3. **找出潛在病因**
+4. **評估瓣膜異常**
+5. **評估心包膜積液**
+6. **識別心因性休克**
+7. **評估RV擴大**
+
+
+### 在心因性休克的FoCUS Protocol
+
+
+根據HFA position statement(European Journal of Heart Failure 2020; 22:1315-1341),心因性休克病人的First-line echo診斷(prehospital, ED)FoCUS protocols包含:
+
+importantbox
+**識別休克類型**
+
+- Obstructive:心包膜填塞
+- Distributive:敗血症
+- Cardiogenic:搜尋病因、定義解剖結構     itemize
+- Severe LV and/or RV dysfunction
+- Severe valve dysfunction
+- AMI mechanical complications
+
+
+itemize
+
+**估計LV/RV filling pressure**
+
+- Left:B-lines(LUS)
+- Right:IVC diameter, Collapsibility Index
+
+
+importantbox
+
+
+### 下腔靜脈(IVC)評估
+
+
+IVC的大小與塌陷程度可反映右心房壓力:
+
+
+| p{9cm}}  **IVC參數** | **判讀標準** |  |
+| --- | --- | --- |
+| 測量位置 | 距離右心房0.5-3 cm處,subcostal view |  |
+| \addlinespace  正常IVC | 直徑 ≤ 2.1 cm且吸氣時塌陷 > 50  提示正常右心房壓力約3 mmHg(範圍0-5 mmHg) |  |
+| \addlinespace  擴張IVC | 直徑 > 2.1 cm且吸氣時塌陷 < 50  提示右心房壓力上升約15 mmHg(範圍10-20 mmHg) |  |
+| \addlinespace  臨床應用 | 急性PE患者若IVC擴張且無塌陷,提示右心衰竭與高死亡風險 |  |
+
+
+## 肺部超音波(Lung Ultrasound)在AHF的應用
+
+
+### 肺部超音波的優勢
+
+
+相較於傳統TTE,肺部超音波(LUS)具有以下特點(J Am Coll Cardiol Img 2018; 11:1692-705):
+
+
+| p{4cm}p{4.5cm}}  **項目** | **TTE** | **Lung Ultrasound** |
+| --- | --- | --- |
+| 訓練複雜度 | "University"(complex) | "Kindergarten"(easy) |
+| \addlinespace  觀察者變異性 | Good to fair(>20 | Good to excellent(<10 |
+| \addlinespace  探頭類型 | Cardiac(3.5-5.0 MHz) | Cardiac或microconvex 5 MHz |
+| \addlinespace  所需技術 | High-end desirable | Simple technology optimal |
+| \addlinespace  檢查時間 | 30 min | <2 min |
+| \addlinespace  分析時間 | 10 min | <2 min |
+| \addlinespace  急診環境適用性 | May reduce data quality | Unchanged data quality |
+
+
+### B-lines:肺水腫的超音波標記
+
+
+#### B-lines的定義
+
+
+B-lines是pulmonary interstitial syndrome的超音波標記(Cardiac Failure Review 2015; 1(2):83-6):
+
+
+- **形成機轉**:當interlobular septa與肺組織增厚或充滿液體時形成
+- **影像特徵**:     itemize
+- Ray-like,高回音,垂直,邊界清楚
+- 抹除A-lines
+- 起源於pleural line
+- 延伸至螢幕邊緣
+
+
+    \item **臨床意義**:與natriuretic peptide levels相關性良好
+itemize
+
+
+#### B-lines的判讀模式
+
+
+| p{10cm}}  **B-lines模式** | **臨床意義** |  |
+| --- | --- | --- |
+| Multiple | 多條B-lines(通常≥3條於單一intercostal space) |  |
+| \addlinespace  Diffuse | 瀰漫分布於多個肺區 |  |
+| \addlinespace  Bilateral | 雙側肺野都出現 |  |
+| \addlinespace  Few Scattered B-Lines | 少量分散的B-lines,可能為正常變異 |  |
+| \addlinespace  Confluent B-lines | 密集融合的B-lines,提示嚴重肺水腫 |  |
+
+
+並非所有B-lines都代表肺水腫!慢性增厚的septa也可能產生B-lines。需結合臨床與pleura的外觀判斷:  
+
+- Bilateral-diffuse-irregular pleura:ARDS、肺纖維化  
+
+- Focal-irregular pleura:肺炎、肺挫傷
+
+
+### 診斷AHF的B-lines標準
+
+
+#### 診斷效能
+
+
+根據Acad Emerg Med 2014的meta-analysis,診斷acute cardiogenic pulmonary edema:
+
+importantbox
+**B-lines診斷標準:≥3 B-lines於兩側雙側肺區**
+
+
+- Sensitivity:94.1
+- Specificity:92.4
+- Positive LR:12.38
+- Negative LR:0.06
+
+
+importantbox
+
+
+#### 肺部超音波診斷AHF的研究證據
+
+
+多個研究證實肺部超音波在診斷AHF呼吸困難病人的高效能(J Am Coll Cardiol Img 2018; 11:1692-705):
+
+
+| p{1.5cm}p{2.5cm}p{2cm}p{2cm}}  **First Author, Year** | **N** | **B Profile (S, Sp)** |
+| --- | --- | --- |
+| Ohman, 2017 | 100 | 100, 95 |
+| \addlinespace  Sforza, 2017 | 68 | 92, 80 |
+| \addlinespace  Pivetta, 2015 | 1,005 | 97, 97 |
+| \addlinespace  Russell, 2015 | 99 | 69, 83 |
+| \addlinespace  Anderson, 2013 | 101 | 70, 75 |
+| \addlinespace  Lichtenstein, 2008 | 301 | 97, 95 |
+
+
+### 肺部超音波的綜合診斷價值
+
+
+Lichtenstein的經典研究(Ann Int Care 2014; 4:1-12)顯示肺部超音波在多種急性呼吸窘迫原因的診斷效能:
+
+
+| p{2.5cm}p{2.5cm}p{2cm}p{2cm}}  **診斷** | **Sensitivity ( | **Specificity ( |
+| --- | --- | --- |
+| Pleural Effusion | 94 | 97 |
+| \addlinespace  Alveolar Consolidation (Pneumonia) | 90 | 98 |
+| \addlinespace  Interstitial Syndrome (CHF, ARDS) | 93 | 93 |
+| \addlinespace  Complete Pneumothorax | 100 | 96 |
+| \addlinespace  Occult Pneumothorax | 79 | 100 |
+| \addlinespace  AECOPD | 89 | 97 |
+| \addlinespace  Pulmonary Embolism | 81 | 99 |
+
+
+## Lung Water Cascade:肺水的演進過程
+
+
+J Am Coll Cardiol Img 2018發表的"The Lung Water Cascade"概念說明慢性心衰惡化為急性失代償心衰的演進過程:
+
+
+### 演進階段
+
+
+1. **Stable Chronic Heart Failure**:穩定狀態
+2. **Wedge pressure rise → Starling equation unbalance**      - 無症狀的血行動力學鬱血(Asymptomatic hemodynamic congestion)
+3. **Stress B-lines出現**      - Stress lung ultrasound可偵測 - 仍為無症狀肺鬱血(Asymptomatic pulmonary congestion)
+4. **Rest時B-lines出現**      - Rest lung ultrasound可偵測 - 仍可能無症狀
+5. **Crackles/Dyspnea/Weight gain出現**      - 臨床鬱血(Clinical congestion) - **Acute decompensated Heart Failure**
+
+
+importantbox
+**關鍵概念**
+
+血行動力學鬱血是影像學徵象(multiple B-lines)肺鬱血之前的早期事件。Stress B-lines比resting B-lines更早出現。只有經過數小時、數天或數週後,臨床鬱血才會顯現。**治療對策若能在早期、症狀前及影像學前的silent階段啟動,可能更為有效。**
+importantbox
+
+
+## 綜合評估:Echo-Lung-IVC Protocol
+
+
+### 整合性超音波評估的優勢
+
+
+ECHO-LUNG-IVC protocol結合心臟與肺部超音波,具有以下特點(Nat Rev Cardiol 2017; 14(7):427-440):
+
+
+- 容易取得、可重複性高、廣泛驗證
+- 協助鑑別診斷
+- 排除危及生命的狀況
+- 允許最適當、個人化的介入措施立即執行
+- 監測治療效果
+
+
+### 整合超音波在診斷AHF的效能
+
+
+American Journal of Emergency Medicine 2013的研究顯示,結合不同參數的診斷效能:
+
+
+| p{2.5cm}p{2.5cm}p{2cm}p{2cm}}  **Variable(s)** | **Specificity (95 | **Sensitivity (95 |
+| --- | --- | --- |
+| LVEF <45 | 74(62-85) | 77(65-90) |
+| \addlinespace  IVC-CI <20 | 86(77-95) | 52(38-67) |
+| \addlinespace  B-lines ≥10 | 75(64-87) | 70(52-80) |
+| \addlinespace  B-lines  | IVC-CI | 97(92-100) |
+| \addlinespace  B-lines  | EF | 93(86-100) |
+| \addlinespace  IVC-CI  | EF | 98(95-100) |
+| \addlinespace  **All 3** | **100(95-100)** | **36(22-51)** |
+
+
+結合所有三項指標(B-lines ≥ 10、IVC-CI < 20
+
+
+### 肺部超音波與NT-proBNP的比較
+
+
+Prosen et al. Critical Care 2011的研究比較不同診斷方法區分AHF與COPD/asthma:
+
+
+| p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}}  **Characteristic** | **US** | **Modified Boston** |
+| --- | --- | --- |
+| Sensitivity | 100 | 85 |
+| \addlinespace  Specificity | 95 | 86 |
+| \addlinespace  NPV | 100 | 80 |
+| \addlinespace  PPV | 96 | 90 |
+| \addlinespace  LR+ | 20 (1.98-89.94) | 6.1 (1.65-18.48) |
+| \addlinespace  LR- | 0 | 0.18 (0.07-0.52) |
+| \addlinespace  AUROC | 0.94 (0.90-0.97) | 0.86 (0.80-0.91) |
+
+
+importantbox
+**結論**
+
+- 超音波(US)是確認AHF的最佳單一方法
+- **US + NT-proBNP**是識別AHF更可靠的方法,達到100
+
+
+importantbox
+
+
+## 根據natriuretic peptides指導肺部超音波使用
+
+
+European Journal of Heart Failure 2019發表的建議演算法:
+
+
+### 依NT-proBNP/BNP值分層
+
+
+1. **False negative NPs**      - NT-proBNP < 300 pg/ml - BNP < 100 pg/ml       → **LUS "stand-alone" diagnostic tool**
+2. **Grey-zone NPs**      - NT-proBNP 300-1800 pg/ml - BNP 100-500 pg/ml       → **LUS complementary**
+3. **High NPs**      - NT-proBNP > 1800 pg/ml - BNP > 500 pg/ml       → **LUS confirmatory**
+
+
+False negative NPs可能出現於:flash pulmonary edema、acute mitral regurgitation、mitral stenosis、cardiac tumors、constrictive pericarditis、obesity等情況。此時LUS可作為stand-alone診斷工具。
+
+
+### ECHO Findings診斷標準
+
+
+Diagnostics 2021整理的ECHO診斷AHF標準:
+
+
+- **B-lines > 14**:提示肺鬱血
+- **E/e' > 14**:提示左心室充填壓上升
+- **TR velocity > 2.9 cm/sec**:提示肺動脈高壓
+- **IVC diameter > 21 mm**:提示右心房壓力上升
+
+
+## 肺部超音波的預後價值
+
+
+### B-lines數量與預後的關係
+
+
+JACC Heart Fail 2019的研究分析1,005位AHF病人,發現:
+
+
+#### 住院期間B-lines的變化
+
+
+- **Admission時**:     itemize
+- 0-3 B-lines:29.5
+- 4-6 B-lines:26.4
+- ≥7 B-lines:44.2
+
+
+    
+    \item **Discharge時**:
+    
+- 0-3 B-lines:47.3
+- 4-6 B-lines:26.4
+- ≥7 B-lines:26.4
+
+
+    
+    \item P < 0.001,顯示治療後B-lines顯著減少
+itemize
+
+
+#### B-lines與180天預後
+
+
+依據admission時的B-lines數量分組,追蹤180天的HF hospitalization或death:
+
+
+- 0-3 B-lines組:累積事件發生率最低
+- 4-6 B-lines組:中度風險
+- ≥7 B-lines組:累積事件發生率最高
+
+
+B-lines數量不僅可用於診斷,更具有強大的預後預測價值。Admission時的B-lines數量可預測180天內的心衰住院或死亡風險。
+
+
+### 肺部超音波在左右心衰的預後價值
+
+
+J Am Coll Cardiol Img 2018整理多項研究顯示,肺部超音波findings可預測cardiac events:
+
+
+| p{1.5cm}p{2cm}p{2cm}p{4cm}}  **First Author, Year** | **Patients** | **Pleural Effusion** |
+| --- | --- | --- |
+| Morales-Rull, 2018 | 3,245 AHF inpatients | 56 |
+| \addlinespace  Scali, 2017 | 103 CHF patients | N/A |
+| \addlinespace  Miglioranza, 2017 | 97 CHF outpatients | N/A |
+| \addlinespace  Platz, 2016 | 185 CHF outpatients | N/A |
+| \addlinespace  Coiro, 2015 | 60 AHF pre-discharge | N/A |
+| \addlinespace  Gargani, 2015 | 99 AHF pre-discharge | 24 |
+| \addlinespace  Zoccali, 2013 | 392 patients undergoing hemodialysis | N/A |
+| \addlinespace  Lichtenstein, 2008 | 64 patients with acute respiratory failure | N/A |
+
+
+## 利用超音波監測治療反應
+
+
+### 動態B-lines變化監測
+
+
+Martindale et al. J Ultrasound Med 2017研究AHF合併嚴重高血壓(SBP > 180 mmHg)病人,在急診治療期間B-lines的動態變化:
+
+
+| p{3.5cm}p{3.5cm}p{3.5cm}}  **Characteristic** | **Phase 1 (ED Triage)** | **Phase 2 (Improved Dyspnea)** |
+| --- | --- | --- |
+| n | 20 | 18 |
+| \addlinespace  Time from triage, min | 12.5(3.3-24.5) | 56.5(42.0-67.8) |
+| \addlinespace  Systolic blood pressure, mm Hg | 192(157-208) | 153(114-185) |
+| \addlinespace  Diastolic blood pressure, mm Hg | 106(95-126) | 86(74-100) |
+| \addlinespace  Heart rate, beats/min | 101(85-115) | 92(79-104) |
+| \addlinespace  Respiratory rate, breaths/min | 32(27-34) | 25(21-28) |
+| \addlinespace  **Raw B-line score** | **47(40-51)** | **25(11-35)** |
+| \addlinespace  **Proportion of initial B-line score, | **1** | **50(25-84)** |
+| \addlinespace  VAS | 7.5(5.5-9.0) | 3.0(1.8-4.5) |
+
+
+importantbox
+**關鍵發現**
+
+從ED triage到disposition,B-line score從47分降至8分,比例從100
+importantbox
+
+
+### BLUSHED-AHF Trial:LUS指導的治療策略
+
+
+JACC Heart Fail 2021發表的BLUSHED-AHF pilot trial是首個以LUS指導急診AHF治療的隨機對照試驗。
+
+
+#### 研究設計
+
+
+- **研究對象**:130位急診AHF病人
+- **分組**:     itemize
+- Arm 1:LUS Care(根據B-lines調整治療)
+- Arm 2:Protocol Care(標準治療)
+
+
+    \item **治療策略**:
+    
+- 初始給予IV furosemide
+- LUS Care組:每2-4小時評估B-lines,若≤15條則停止治療
+- Protocol Care組:依臨床判斷是否需要進一步治療
+
+
+    \item **Primary outcome**:6小時時B-lines ≤ 15
+    \item **Main exploratory outcome**:30天的Days Alive and Out of Hospital(DAOOH)
+itemize
+
+
+#### 研究結果
+
+
+| p{3.5cm}p{3.5cm}}  **Outcome** | **LUS Care** | **Protocol Care** |
+| --- | --- | --- |
+| B-lines ≤ 15 at 6 hours | 25.0 | 27.5 |
+| \addlinespace  Number of B-lines at 6 hours | 35.4 ± 26.8 | 34.3 ± 26.2 |
+| \addlinespace  DAOOH at 30 days | 21.3 ± 6.6 | 21.3 ± 7.1 |
+| \addlinespace  B-lines reduction during first 48 hours | 顯著較大(P=0.04) | - |
+
+
+雖然6小時與30天主要終點無顯著差異,但**LUS指導組在最初48小時內鬱血消退速度顯著較快**(P=0.04)。這提示LUS指導治療可能加速早期鬱血改善。
+
+
+### 個人化治療策略
+
+
+根據超音波findings調整治療策略:
+
+
+1. **Pleural effusions + diffuse B-lines**      - 提示HF相關肺鬱血 - **治療**:加強利尿劑
+2. **Acute hypertensive pulmonary edema**      - 通常非容積過多,而是volume redistribution - **治療**:以降低後負荷為主,使用nitrates與NIV
+
+
+## Point-of-Care超音波的臨床效益
+
+
+### 診斷速度
+
+
+Chest 2017研究比較POC超音波與傳統診斷方法:
+
+
+- **超音波診斷時間**:24 ± 10 min
+- **傳統ED診斷時間**:186 ± 72 min
+- P = 0.025,顯著縮短診斷時間
+
+
+### 診斷準確度
+
+
+JAMA Network Open 2019的systematic review與meta-analysis比較LUS與CXR:
+
+
+| p{4.5cm}p{4.5cm}}  **診斷工具** | **Sensitivity (95 | **Specificity (95 |
+| --- | --- | --- |
+| LUS | 0.88(0.75-0.95) | 0.90(0.88-0.92) |
+| \addlinespace  CXR | 0.73(0.70-0.76) | 0.90(0.75-0.97) |
+
+
+importantbox
+**結論**
+
+肺部超音波的sensitivity明顯優於chest X-ray(88
+importantbox
+
+
+## 臨床應用原則
+
+
+### 診斷流程建議
+
+
+1. **疑似AHF病人到達急診**      - 立即評估血行動力學狀態 - 判斷是否有shock或high-risk ACS
+2. **執行POC超音波**(初始30-60分鐘內)      - Lung ultrasound:評估B-lines - Cardiac echo:評估LVEF、RV、瓣膜 - IVC:評估right atrial pressure
+3. **實驗室檢查**      - NT-proBNP或BNP - Troponin - 基本生化、CBC
+4. **開始治療並監測**      - 根據超音波findings選擇治療策略 - 每2-4小時重複肺部超音波監測B-lines變化 - 評估治療反應
+
+
+### 臨床應用要點
+
+
+#### 診斷面
+
+
+importantbox
+**在中高度pre-test probability的病人**
+
+- B-lines可協助確認診斷
+- 結合NT-proBNP可達近100
+
+
+**在低pre-test probability的病人**
+
+- 正常的肺部超音波結果(無B-lines)幾乎可排除AHF
+- NPV > 95
+
+
+importantbox
+
+
+#### 治療面
+
+
+- 動態監測B-lines可指導利尿劑使用
+- B-lines ≤ 15可考慮減量或停止積極利尿
+- 持續high B-lines提示需加強治療
+- 結合IVC評估可判斷volume status
+
+
+#### 預後面
+
+
+- Admission時高B-lines(≥7)預測較差預後
+- Discharge時residual B-lines與再住院風險相關
+- 建議discharge前確認B-lines已改善
+
+
+## 總結與關鍵訊息
+
+
+importantbox
+**Key Points**
+
+
+1. 過度依賴傳統臨床表現與症狀可能延遲AHF診斷,延誤適當治療時機
+2. Echo與lung ultrasound可提升診斷準確度並監測治療反應
+3. 肺部超音波可快速評估多種狀況:肺水腫、肋膜積液、氣胸
+4. Echo可評估:心包膜積液、右心室擴張、左心室收縮功能、明顯瓣膜異常、潛在的心內腫塊
+5. Echo也可用於監測心因性休克病人的治療
+6. B-lines是肺鬱血的超音波標記,具有高診斷與預後價值
+7. 整合ECHO-LUNG-IVC protocol可提供最完整的評估
+8. LUS指導的治療可能加速早期鬱血改善
+9. POC超音波可大幅縮短診斷時間(24 min vs 186 min)
+10. 肺部超音波的診斷準確度優於chest X-ray
+
+
+importantbox
+
+
+### 實務建議
+
+
+#### 對急診醫師
+
+
+- 將POC超音波納入AHF評估的routine workflow
+- 熟練B-lines的判讀與quantification
+- 結合NT-proBNP提升診斷信心
+- 動態追蹤B-lines指導治療調整
+
+
+#### 對住院醫師
+
+
+- 學習基本的POC cardiac與lung ultrasound技能
+- 了解B-lines的臨床意義與限制
+- 能判讀基本的LVEF、RV function、IVC
+- 將超音波findings整合於臨床決策
+
+
+#### 對超音波室/心導管室同仁
+
+
+- 提供高品質、及時的超音波檢查
+- 注意報告AHF相關的關鍵findings
+- 與臨床團隊密切溝通critical findings
+- 協助教育訓練POC ultrasound技能
+
+
+## 參考文獻
+
+
+1. Mebazaa A, Yilmaz MB, Levy P, et al. Recommendations on pre-hospital & early hospital management of acute heart failure: a consensus paper from the Heart Failure Association of the European Society of Cardiology, the European Society of Emergency Medicine and the Society of Academic Emergency Medicine. Eur Heart J. 2015;36(30):1958-1966.
+2. McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599-3726.
+3. Chioncel O, Parissis J, Mebazaa A, et al. Epidemiology, pathophysiology and contemporary management of cardiogenic shock - a position statement from the Heart Failure Association of the European Society of Cardiology. Eur J Heart Fail. 2020;22(8):1315-1341.
+4. Picano E, Scali MC, Ciampi Q, Lichtenstein D. Lung Ultrasound for the Cardiologist. JACC Cardiovasc Imaging. 2018;11(11):1692-1705.
+5. Russell FM, Ehrman RR, Ferre R, et al. Diagnostic Accuracy of B-Lines for Acute Cardiogenic Pulmonary Edema: A Systematic Review and Meta-Analysis. Acad Emerg Med. 2014;21(8):843-852.
+6. Lichtenstein DA. BLUE-protocol and FALLS-protocol: two applications of lung ultrasound in the critically ill. Ann Intensive Care. 2014;4:1-12.
+7. Platz E, Jhund PS, Claggett BL, et al. Prevalence and prognostic importance of precipitating factors leading to heart failure hospitalization. JACC Heart Fail. 2018;6(4):295-303.
+8. Coiro S, Rossignol P, Ambrosio G, et al. Prognostic value of residual pulmonary congestion at discharge assessed by lung ultrasound imaging in heart failure. Eur J Heart Fail. 2015;17(11):1172-1181.
+9. Martindale JL, Wakai A, Collins SP, et al. Diagnosing Acute Heart Failure in the Emergency Department: A Systematic Review and Meta-analysis. Acad Emerg Med. 2016;23(3):223-242.
+10. Al Deeb M, Barbic S, Featherstone R, et al. Point-of-care ultrasonography for the diagnosis of acute cardiogenic pulmonary edema in patients presenting with acute dyspnea: a systematic review and meta-analysis. Acad Emerg Med. 2014;21(8):843-852.
+11. Pivetta E, Goffi A, Lupia E, et al. Lung Ultrasound-Implemented Diagnosis of Acute Decompensated Heart Failure in the ED. Chest. 2015;148(1):202-210.
+12. Cibinel GA, Casoli G, Elia F, et al. Diagnostic accuracy and reproducibility of pleural and lung ultrasound in discriminating cardiogenic causes of acute dyspnea in the Emergency Department. Intern Emerg Med. 2012;7(1):65-70.
+13. Prosen G, Klemen P, Strnad M, Grmec Š. Combination of lung ultrasound (a comet-tail sign) and N-terminal pro-brain natriuretic peptide in differentiating acute heart failure from chronic obstructive pulmonary disease and asthma as cause of acute dyspnea in prehospital emergency setting. Crit Care. 2011;15(2):R114.
+14. Bistola V, Polyzogopoulou E, Ikonomidis I, Parissis J. Lung ultrasound for the diagnosis of acute heart failure: time to upgrade current indication? Eur J Heart Fail. 2019;21(3):245-247.
+15. Rivas-Lasarte M, Álvarez-García J, Fernández-Martínez J, et al. Lung ultrasound-guided treatment in ambulatory patients with heart failure: a randomized controlled clinical trial (LUS-HF study). Eur J Heart Fail. 2019;21(12):1605-1613.
+16. Maw AM, Hassanin A, Ho PM, et al. Diagnostic Accuracy of Point-of-Care Lung Ultrasonography and Chest Radiography in Adults With Symptoms Suggestive of Acute Decompensated Heart Failure: A Systematic Review and Meta-analysis. JAMA Netw Open. 2019;2(3):e190703.
+17. Rivas-Lasarte M, Maestro A, Fernández-Martínez J, et al. Prevalence and prognostic impact of subclinical pulmonary congestion at discharge in patients with acute heart failure. ESC Heart Fail. 2020;7(5):2621-2628.
+18. Wetterslev M, Møller-Sørensen H, Johansen RR, Perner A. Systematic review of cardiac output measurements by echocardiography vs. thermodilution: the techniques are not interchangeable. Intensive Care Med. 2016;42(8):1223-1233.
+19. Haycock K, Sparkes D, Percival F, Williams M. Lung Ultrasound-Guided Emergency Department Management of Acute Heart Failure (BLUSHED-AHF): A Randomized Controlled Pilot Trial. JACC Heart Fail. 2021;9(9):638-648.
+20. Martindale JL, Noble VE, Liteplo A. Diagnosing pulmonary edema: lung ultrasound versus chest radiography. Eur J Emerg Med. 2013;20(5):356-360.
+
+
+\vfill
+
+**--- 本文件結束 ---**
+
+
+*整理者:謝慕揚 MD, PhD, FESC*
+
+*國立台灣大學醫學院附設醫院新竹生醫園區分院*
+
+*文件版本:\mydate*
+
+
+{原始講座:Professor John T Parissis, University Department of Emergency Medicine, Athens, Greece}

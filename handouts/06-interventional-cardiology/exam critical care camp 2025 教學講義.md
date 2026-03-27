@@ -1,0 +1,718 @@
+# exam critical care camp 2025
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+\maketitle
+empty
+
+
+importantbox
+**測驗說明**
+
+- 本測驗共60題，涵蓋六大急重症主題
+- 每個主題10題
+- 題型為單選題
+- 建議作答時間：90分鐘
+- 請選擇最適當的答案
+
+
+importantbox
+
+\tableofcontents
+
+---
+
+
+## Heart Failure Management (心衰竭管理)
+
+
+### 題目 1-10
+
+
+1. 一位65歲男性因急性失代償性心衰竭入院，LVEF 25 enumerate[label=\alph*)]
+2. ACE-I/ARB/ARNI, Beta-blocker, MRA, SGLT2i
+3. ACE-I, Beta-blocker, Digoxin, Diuretics
+4. ARB, CCB, Beta-blocker, MRA
+5. ARNI, Beta-blocker, Ivabradine, Diuretics
+
+
+\item 關於Sacubitril/Valsartan (ARNI)的使用，下列敘述何者正確?
+
+1. 可與ACE inhibitor同時使用
+2. 停用ACE-I後需間隔至少36小時才能開始ARNI
+3. 主要副作用為低血鉀
+4. 適用於所有LVEF患者
+
+
+\item HFrEF患者使用SGLT2 inhibitor的主要益處為何?
+
+1. 增加LVEF
+2. 降低心衰竭住院率及心血管死亡率
+3. 改善腎絲球過濾率
+4. 預防心律不整
+
+
+\item 急性失代償性心衰竭患者出現低血壓(SBP <90 mmHg)且組織灌流不足，首選治療為:
+
+1. 增加利尿劑劑量
+2. Dobutamine
+3. 立即使用IABP
+4. Milrinone
+
+
+\item 關於Cardiorenal syndrome，下列何者為Type 1?
+
+1. 慢性心衰竭導致慢性腎病變
+2. 急性心衰竭導致急性腎損傷
+3. 急性腎損傷導致急性心衰竭
+4. 慢性腎病變導致慢性心衰竭
+
+
+\item 使用利尿劑治療心衰竭時，若出現利尿劑抗性(diuretic resistance)，下列處置何者最不適當?
+
+1. 改為靜脈注射途徑
+2. 增加單次劑量
+3. 立即停用所有利尿劑
+4. 合併使用thiazide類利尿劑
+
+
+\item Beta-blocker在心衰竭的使用時機，下列何者正確?
+
+1. 應在急性失代償期立即使用
+2. 待患者血流動力學穩定後再開始使用
+3. 僅用於HFpEF患者
+4. 應等到出院後再開始使用
+
+
+\item 關於HFpEF (Heart Failure with Preserved Ejection Fraction)的治療，下列何者證據最充分?
+
+1. ACE inhibitor
+2. SGLT2 inhibitor
+3. Digoxin
+4. Hydralazine
+
+
+\item 心衰竭患者使用MRA (Mineralocorticoid Receptor Antagonist)時，需密切監測:
+
+1. 血糖
+2. 血鉀及腎功能
+3. 肝功能
+4. 凝血功能
+
+
+\item Ivabradine適用於下列何種心衰竭患者?
+
+1. HFrEF且竇性心律，心率>70 bpm，已使用最大耐受劑量beta-blocker
+2. 所有HFpEF患者
+3. 心房顫動患者
+4. 急性失代償性心衰竭
+
+
+enumerate
+
+
+---
+
+
+## Hemodynamic Monitoring in ADHF and Shock
+
+
+### 題目 11-20
+
+
+1. 使用Swan-Ganz catheter進行血流動力學監測時，Cardiac Output的正常值約為: enumerate[label=\alph*)]
+2. 2-3 L/min
+3. 4-8 L/min
+4. 10-12 L/min
+5. 15-20 L/min
+
+
+\item PCWP (Pulmonary Capillary Wedge Pressure)主要反映:
+
+1. 右心房壓力
+2. 左心房壓力
+3. 肺動脈壓力
+4. 主動脈壓力
+
+
+\item 根據Forrester classification，Cold and Wet的血流動力學表現為:
+
+1. CI >2.2, PCWP <18
+2. CI >2.2, PCWP >18
+3. CI <2.2, PCWP <18
+4. CI <2.2, PCWP >18
+
+
+\item Cardiogenic shock的定義包括下列何者?
+
+1. SBP <90 mmHg持續30分鐘以上
+2. 組織灌流不足的證據
+3. Cardiac index <2.2 L/min/m²
+4. 以上皆是
+
+
+\item 使用IABP的禁忌症不包括:
+
+1. 主動脈瓣閉鎖不全
+2. 主動脈剝離
+3. 嚴重周邊血管疾病
+4. 心因性休克
+
+
+\item Mixed venous oxygen saturation (SvO₂)正常值約為:
+
+1. 40-50
+2. 60-80
+3. 85-95
+4. 95-100
+
+
+\item ScvO₂ (Central venous oxygen saturation) <70
+
+1. 氧氣供應過多
+2. 氧氣供應不足或需求增加
+3. 正常狀態
+4. 高心輸出量狀態
+
+
+\item 使用Norepinephrine的主要血流動力學效應為:
+
+1. 增加心輸出量為主
+2. 增加全身血管阻力為主
+3. 降低心臟後負荷
+4. 降低肺血管阻力
+
+
+\item Dobutamine的主要作用機轉為:
+
+1. Alpha-1 agonist
+2. Beta-1 agonist
+3. Dopamine receptor agonist
+4. Phosphodiesterase inhibitor
+
+
+\item 在心因性休克患者使用Impella的主要目的為:
+
+1. 增加冠狀動脈灌流
+2. 提供循環支持並降低左心室做功
+3. 治療心律不整
+4. 改善右心功能
+
+
+enumerate
+
+
+---
+
+
+## Acute Coronary Syndrome with Mechanical Complications
+
+
+### 題目 21-30
+
+
+1. 急性心肌梗塞後發生心室中隔破裂(VSR)最常見的時間點為: enumerate[label=\alph*)]
+2. 24小時內
+3. 3-5天
+4. 2週後
+5. 1個月後
+
+
+\item VSR的臨床表現最典型的為:
+
+1. 新出現的全收縮期雜音伴隨心衰竭惡化
+2. 僅有胸痛
+3. 心律不整
+4. 無症狀
+
+
+\item 急性心肌梗塞後游離壁破裂(Free wall rupture)的死亡率約為:
+
+1. 10-20
+2. 30-40
+3. 50-60
+4. >90
+
+
+\item 急性二尖瓣逆流在AMI後最常見的原因為:
+
+1. 乳突肌斷裂
+2. 乳突肌功能不全
+3. 瓣葉穿孔
+4. 腱索斷裂
+
+
+\item 懷疑VSR時，最適當的診斷工具為:
+
+1. 心電圖
+2. 經胸超音波心臟圖
+3. 胸部X光
+4. 心肌酵素
+
+
+\item 急性期VSR的處理，下列何者最適當?
+
+1. 保守治療觀察
+2. 立即外科手術修補
+3. 使用IABP穩定後儘速手術
+4. 等待3個月後再手術
+
+
+\item 乳突肌斷裂最常發生於下列何處心肌梗塞?
+
+1. Anterior MI
+2. Inferior MI (posteromedial papillary muscle)
+3. Lateral MI
+4. Septal MI
+
+
+\item 左心室游離壁破裂的亞急性表現可能為:
+
+1. 突發性猝死
+2. 心包填塞
+3. 假性動脈瘤形成
+4. 以上皆可能
+
+
+\item AMI併發VSR時，Swan-Ganz catheter可見:
+
+1. 右心房與右心室間oxygen saturation無明顯差異
+2. 右心房與右心室間oxygen saturation step-up
+3. 肺動脈壓正常
+4. PCWP降低
+
+
+\item 急性乳突肌斷裂導致嚴重二尖瓣逆流，最優先的處置為:
+
+1. 使用vasodilator降低後負荷
+2. 緊急外科瓣膜置換或修補
+3. 增加輸液
+4. 使用inotropic agents
+
+
+enumerate
+
+
+---
+
+
+## Management for Acute Aortic Syndrome
+
+
+### 題目 31-40
+
+
+1. Acute Aortic Syndrome包括下列何者? enumerate[label=\alph*)]
+2. Aortic dissection
+3. Intramural hematoma
+4. Penetrating atherosclerotic ulcer
+5. 以上皆是
+
+
+\item Stanford Type A aortic dissection的定義為:
+
+1. 僅侵犯降主動脈
+2. 侵犯升主動脈(無論是否延伸至降主動脈)
+3. 僅侵犯主動脈弓
+4. 僅侵犯腹主動脈
+
+
+\item Type A aortic dissection的處理原則為:
+
+1. 保守藥物治療
+2. 緊急外科手術
+3. 血管內治療(TEVAR)
+4. 觀察追蹤
+
+
+\item Type B aortic dissection without complications的初步處理為:
+
+1. 緊急手術
+2. 積極血壓控制(目標SBP 100-120 mmHg, HR <60 bpm)
+3. 立即TEVAR
+4. 不需特殊處理
+
+
+\item Aortic dissection的疼痛特徵最典型為:
+
+1. 漸進性胸痛
+2. 突發性撕裂痛，可能轉移至背部
+3. 運動後胸悶
+4. 壓迫性胸痛
+
+
+\item 下列何種影像檢查最適合診斷aortic dissection?
+
+1. 胸部X光
+2. CT angiography
+3. 心電圖
+4. 一般超音波
+
+
+\item Aortic dissection血壓控制的首選藥物為:
+
+1. Beta-blocker (如Esmolol, Labetalol)
+2. ACE inhibitor
+3. Hydralazine
+4. Nitroprusside單獨使用
+
+
+\item Complicated Type B aortic dissection包括下列何者?
+
+1. Malperfusion syndrome
+2. Rupture或impending rupture
+3. Refractory pain或uncontrolled hypertension
+4. 以上皆是
+
+
+\item Intramural hematoma (IMH)的影像特徵為:
+
+1. 主動脈壁內新月形或環形血腫
+2. 明顯的intimal flap
+3. 主動脈擴張合併鈣化
+4. 主動脈壁正常
+
+
+\item Type A aortic dissection可能併發下列何種致命併發症?
+
+1. 急性主動脈瓣閉鎖不全
+2. 心包填塞
+3. 冠狀動脈剝離導致心肌梗塞
+4. 以上皆可能
+
+
+enumerate
+
+
+---
+
+
+## Shock Management and Vasopressor Use
+
+
+### 題目 41-50
+
+
+1. Septic shock的定義根據Sepsis-3，需符合: enumerate[label=\alph*)]
+2. 需要vasopressor維持MAP ≥65 mmHg
+3. Lactate >2 mmol/L
+4. 經過適當輸液復甦後仍符合上述條件
+5. 以上皆是
+
+
+\item Septic shock的第一線vasopressor為:
+
+1. Dopamine
+2. Norepinephrine
+3. Epinephrine
+4. Phenylephrine
+
+
+\item 關於Vasopressin在septic shock的使用，下列何者正確?
+
+1. 可作為第一線vasopressor
+2. 可加入Norepinephrine以降低其用量
+3. 劑量越高越好
+4. 不應用於septic shock
+
+
+\item Distributive shock的血流動力學特徵為:
+
+1. High cardiac output, low SVR
+2. Low cardiac output, high SVR
+3. Low cardiac output, low SVR
+4. High cardiac output, high SVR
+
+
+\item Obstructive shock的常見原因不包括:
+
+1. Massive pulmonary embolism
+2. Cardiac tamponade
+3. Tension pneumothorax
+4. Acute MI
+
+
+\item 使用Norepinephrine時，最需監測的副作用為:
+
+1. 低血壓
+2. 周邊組織缺血
+3. 低血糖
+4. 低血鉀
+
+
+\item Anaphylactic shock的第一線治療為:
+
+1. Antihistamine
+2. Intramuscular Epinephrine
+3. Corticosteroid
+4. Dopamine
+
+
+\item 在refractory septic shock，考慮使用hydrocortisone的時機為:
+
+1. 所有septic shock患者
+2. 需要高劑量vasopressor且血流動力學不穩定
+3. Shock解除後
+4. 不應使用
+
+
+\item Cardiogenic shock合併低血壓時，應避免單獨使用:
+
+1. Norepinephrine
+2. Dobutamine
+3. Dopamine
+4. Epinephrine
+
+
+\item 評估休克患者fluid responsiveness，下列何者最不準確?
+
+1. Passive leg raising test
+2. Pulse pressure variation (在機械通氣患者)
+3. Central venous pressure單一數值
+4. Fluid challenge
+
+
+enumerate
+
+
+---
+
+
+## Thrombolytic Therapy in Critical Care
+
+
+### 題目 51-60
+
+
+1. STEMI患者若無法於120分鐘內接受primary PCI，應考慮: enumerate[label=\alph*)]
+2. 繼續等待PCI
+3. Thrombolytic therapy (若無禁忌症)
+4. 保守藥物治療
+5. 緊急CABG
+
+
+\item 下列何者為thrombolytic therapy的絕對禁忌症?
+
+1. 3個月內缺血性中風
+2. 年齡>75歲
+3. 正在使用抗凝血劑
+4. 懷孕
+
+
+\item Thrombolytic therapy後判斷再灌流成功的指標包括:
+
+1. 胸痛緩解
+2. ST segment elevation下降>50
+3. 再灌流性心律不整
+4. 以上皆是
+
+
+\item Alteplase (tPA)用於acute ischemic stroke的時間窗為:
+
+1. 症狀發生後3小時內
+2. 症狀發生後4.5小時內
+3. 症狀發生後6小時內
+4. 症狀發生後12小時內
+
+
+\item Massive pulmonary embolism合併hemodynamic instability的治療，下列何者最適當?
+
+1. 單純抗凝治療
+2. Systemic thrombolysis
+3. Catheter-directed thrombolysis
+4. 視情況選擇systemic thrombolysis或catheter-directed therapy
+
+
+\item 使用thrombolytic therapy最嚴重的併發症為:
+
+1. 顱內出血
+2. 消化道出血
+3. 過敏反應
+4. 再灌流性心律不整
+
+
+\item Acute limb ischemia (ALI) Rutherford classification IIb (Threatened, immediate)的處理為:
+
+1. 保守治療
+2. 緊急手術或catheter-directed thrombolysis
+3. 單純抗凝治療
+4. 觀察追蹤
+
+
+\item 關於Tenecteplase相較於Alteplase的優點，下列何者正確?
+
+1. 可以單次bolus給予
+2. 更長的半衰期
+3. 更高的纖維蛋白特異性
+4. 以上皆是
+
+
+\item 接受thrombolytic therapy後若出現嚴重出血，首要處置為:
+
+1. 繼續完成療程
+2. 立即停藥並給予止血處置
+3. 降低劑量繼續使用
+4. 換用另一種thrombolytic agent
+
+
+\item 下列何種情況不適合使用thrombolytic therapy於acute DVT?
+
+1. Phlegmasia cerulea dolens
+2. 近期重大手術(<14天)
+3. 廣泛性DVT合併嚴重肢體缺血
+4. 年輕患者的iliofemoral DVT
+
+
+enumerate
+
+
+---
+
+
+## 解答與詳解
+
+
+### Heart Failure Management (題目 1-10)
+
+
+| p{1.5cm}p{11cm}}   **題號** | **答案** | **詳解** |
+| --- | --- | --- |
+| 1 | a | GDMT四大支柱: ACE-I/ARB/ARNI, Beta-blocker, MRA, SGLT2i。這些藥物已被證實可降低HFrEF患者的死亡率與住院率。 |
+| 2 | b | ARNI與ACE-I共同使用會增加angioedema風險。停用ACE-I後需間隔至少36小時才能開始ARNI，以避免此併發症。 |
+| 3 | b | SGLT2i (如empagliflozin, dapagliflozin)可顯著降低心衰竭住院率及心血管死亡率，且不論糖尿病狀態皆有效。 |
+| 4 | b | 低血壓合併組織灌流不足時，首選inotropic support。Dobutamine為beta-1 agonist，可增加心輸出量。Milrinone用於β-blocker使用或腎功能不佳患者。 |
+| 5 | b | Cardiorenal syndrome Type 1: 急性心衰竭導致急性腎損傷。Type 2為慢性心衰竭導致慢性腎病變。 |
+| 6 | c | 利尿劑抗性時不應完全停藥。處理包括：改靜脈注射、增加劑量、合併不同類利尿劑(loop + thiazide)、處理contributing factors。 |
+| 7 | b | Beta-blocker應在血流動力學穩定、euvolemic狀態下開始使用。急性失代償期不宜立即使用，可能惡化心衰竭。 |
+| 8 | b | HFpEF目前證據最充分的為SGLT2i (EMPEROR-Preserved, DELIVER trials)。ACE-I/ARB對HFpEF效果有限。 |
+| 9 | b | MRA (spironolactone, eplerenone)主要副作用為高血鉀，特別是合併使用ACEI/ARB或腎功能不全時。需密切監測血鉀及腎功能。 |
+| 10 | a | Ivabradine適用於HFrEF、竇性心律、心率>70 bpm且已使用最大耐受劑量beta-blocker之患者。不適用於心房顫動。 |
+
+
+### Hemodynamic Monitoring (題目 11-20)
+
+
+| p{1.5cm}p{11cm}}   **題號** | **答案** | **詳解** |
+| --- | --- | --- |
+| 11 | b | 正常cardiac output為4-8 L/min。Cardiac index (CI) = CO/BSA，正常值2.5-4.0 L/min/m²。 |
+| 12 | b | PCWP反映左心房壓力，間接評估左心室舒張末期壓力。正常值6-12 mmHg。>18 mmHg表示容積過多或左心功能不全。 |
+| 13 | d | Forrester classification: Cold and Wet = CI <2.2 且 PCWP >18，表示心輸出量低且肺水腫。需inotropic support及利尿。 |
+| 14 | d | Cardiogenic shock定義包括：(1) SBP <90 mmHg >30分鐘或需vasopressor維持；(2) 組織灌流不足證據；(3) CI <2.2 L/min/m²；(4) PCWP >15 mmHg。 |
+| 15 | d | IABP禁忌症包括：嚴重AR (會加重逆流)、aortic dissection、嚴重PAD。心因性休克是適應症而非禁忌症。 |
+| 16 | b | SvO₂正常值60-80 |
+| 17 | b | ScvO₂ <70 |
+| 18 | b | Norepinephrine主要為alpha-1 agonist，強力增加SVR，也有部分beta-1效應。為septic shock第一線vasopressor。 |
+| 19 | b | Dobutamine主要為beta-1 agonist，增加心肌收縮力及心輸出量，輕微降低SVR。用於心因性休克。 |
+| 20 | b | Impella為經皮左心室輔助裝置，直接從左心室抽血至升主動脈，提供循環支持並降低左心室做功，改善心肌灌流。 |
+
+
+### ACS with Mechanical Complications (題目 21-30)
+
+
+| p{1.5cm}p{11cm}}   **題號** | **答案** | **詳解** |
+| --- | --- | --- |
+| 21 | b | VSR最常發生於AMI後3-5天，此時壞死心肌尚未纖維化，最脆弱。溶栓時代發生率約1-2 |
+| 22 | a | VSR典型表現為新出現harsh holosystolic murmur，伴隨急性心衰竭惡化。可能出現thrill於左胸骨緣。 |
+| 23 | d | Free wall rupture死亡率極高，>90 |
+| 24 | b | AMI後acute MR最常見為乳突肌功能不全(ischemia)，其次為乳突肌斷裂(較少見但更嚴重)。 |
+| 25 | b | TTE合併color Doppler可診斷VSR，顯示left-to-right shunt。TEE提供更佳影像。Swan-Ganz可見oxygen step-up。 |
+| 26 | c | VSR治療：(1) 立即使用IABP、vasodilator穩定血流動力學；(2) 儘速(數小時至數天內)手術修補。延遲手術死亡率極高。 |
+| 27 | b | Posteromedial papillary muscle僅由RCA或LCX單一血管供應，inferior MI時易缺血或斷裂。Anterolateral papillary muscle有雙重血管供應。 |
+| 28 | d | Free wall rupture可能為急性(突發性猝死、cardiac tamponade)或亞急性(假性動脈瘤形成，由心包包覆)。 |
+| 29 | b | VSR時，Swan-Ganz catheter從RA到RV經過VSD時會見到oxygen saturation step-up (通常>5-7 |
+| 30 | b | 急性乳突肌斷裂導致嚴重MR為外科急症，需緊急瓣膜手術(修補或置換)。Afterload reduction及IABP可作為bridge to surgery。 |
+
+
+### Acute Aortic Syndrome (題目 31-40)
+
+
+| p{1.5cm}p{11cm}}   **題號** | **答案** | **詳解** |
+| --- | --- | --- |
+| 31 | d | Acute Aortic Syndrome包括：aortic dissection、intramural hematoma (IMH)、penetrating atherosclerotic ulcer (PAU)。皆屬急症。 |
+| 32 | b | Stanford Type A: 侵犯升主動脈(ascending aorta)，無論是否延伸。Type B: 僅侵犯降主動脈(descending aorta)。DeBakey classification更詳細分類。 |
+| 33 | b | Type A dissection為外科急症，死亡率每小時增加1 |
+| 34 | b | Uncomplicated Type B dissection初步為內科治療：積極血壓控制(SBP 100-120 mmHg, HR <60 bpm)，首選beta-blocker。定期影像追蹤。 |
+| 35 | b | Aortic dissection典型為突發性、劇烈撕裂痛，可能隨剝離進展轉移(前胸→背部→腹部)。需與ACS鑑別。 |
+| 36 | b | CT angiography為診斷gold standard，敏感度及特異度>95 |
+| 37 | a | 首選beta-blocker (esmolol, labetalol)降低blood pressure及dP/dt。Nitroprusside單獨使用會增加dP/dt，需合併beta-blocker。 |
+| 38 | d | Complicated Type B需介入治療(TEVAR或手術)：malperfusion、rupture/impending rupture、refractory pain/HTN、aneurysmal degeneration。 |
+| 39 | a | IMH影像為主動脈壁內新月形或環形高密度影像(血腫)，無intimal flap或false lumen。Type A IMH處理如Type A dissection。 |
+| 40 | d | Type A dissection可能併發：acute AR (30-50 |
+
+
+### Shock Management (題目 41-50)
+
+
+| p{1.5cm}p{11cm}}   **題號** | **答案** | **詳解** |
+| --- | --- | --- |
+| 41 | d | Sepsis-3 septic shock定義：sepsis + 需vasopressor維持MAP≥65 + lactate >2 mmol/L (經過適當輸液後)。死亡率>40 |
+| 42 | b | Norepinephrine為septic shock第一線vasopressor (強力建議)。比dopamine有更少心律不整、更低死亡率。 |
+| 43 | b | Vasopressin可加入norepinephrine作為第二線藥物，降低norepinephrine需求。通常劑量0.03-0.04 units/min (固定劑量)。 |
+| 44 | a | Distributive shock (如septic shock): 周邊血管擴張導致SVR↓，心臟代償性增加CO。Warm shock表現。 |
+| 45 | d | Obstructive shock原因：massive PE、cardiac tamponade、tension pneumothorax。特徵為物理性阻礙血流。Acute MI為cardiogenic shock。 |
+| 46 | b | Norepinephrine為強力vasoconstrictor，過高劑量或周邊灌流不良時可能導致肢端或內臟缺血。需監測lactate、尿量、肢體灌流。 |
+| 47 | b | Anaphylaxis第一線治療為IM epinephrine 0.3-0.5 mg (1:1000)，可每5-15分鐘重複。Antihistamine及steroid為輔助治療。 |
+| 48 | b | Refractory septic shock (需高劑量vasopressor)可考慮hydrocortisone 200 mg/day。可能改善shock reversal time，但對死亡率影響不明確。 |
+| 49 | b | Cardiogenic shock若單獨使用dobutamine，可能因vasodilation導致血壓進一步下降。應合併使用vasopressor (如norepinephrine)。 |
+| 50 | c | CVP單一數值不準確評估fluid responsiveness。Dynamic parameters (PPV, SVV)、PLR test、fluid challenge較可靠。 |
+
+
+### Thrombolytic Therapy (題目 51-60)
+
+
+| p{1.5cm}p{11cm}}   **題號** | **答案** | **詳解** |
+| --- | --- | --- |
+| 51 | b | STEMI首選primary PCI。若無法於120分鐘內完成PCI且無禁忌症，應於30分鐘內給予thrombolytic therapy。Door-to-needle <30 min。 |
+| 52 | a | Thrombolytic therapy絕對禁忌症包括：任何時間腦出血史、3個月內缺血性中風、顱內腫瘤/AVM、active bleeding、懷疑aortic dissection等。 |
+| 53 | d | 再灌流成功指標：胸痛緩解、ST elevation下降>50 |
+| 54 | b | Alteplase (tPA) 0.9 mg/kg用於acute ischemic stroke的時間窗為症狀發生後4.5小時內。0-3小時內療效最佳。需排除禁忌症。 |
+| 55 | d | Massive PE合併hemodynamic instability: 首選systemic thrombolysis。High bleeding risk或thrombolysis失敗可考慮catheter-directed therapy或embolectomy。 |
+| 56 | a | Thrombolytic therapy最嚴重併發症為顱內出血(ICH)，發生率約0.5-1 |
+| 57 | b | ALI Rutherford IIb (threatened, immediate): 感覺喪失、肌力喪失，需緊急血管重建(手術或catheter-directed thrombolysis)以避免截肢。 |
+| 58 | d | Tenecteplase優點：(1) 單次bolus給予、(2) 更長半衰期、(3) 更高纖維蛋白特異性。在STEMI與alteplase療效相當，使用更便利。 |
+| 59 | b | 嚴重出血時立即停止thrombolytic therapy，給予止血處置：(1) 局部壓迫、(2) Tranexamic acid、(3) Cryoprecipitate/FFP補充凝血因子。 |
+| 60 | b | Catheter-directed thrombolysis於DVT適應症：(1) 廣泛性iliofemoral DVT、(2) 症狀<14天、(3) 年輕患者、(4) phlegmasia cerulea dolens。近期重大手術為禁忌症。 |
+
+
+---
+
+
+## 總結與學習重點
+
+
+importantbox
+**急重症管理核心概念**
+
+
+1. **心衰竭管理:** 掌握GDMT四大支柱，了解急性失代償處理原則
+2. **血流動力學監測:** 正確判讀血流動力學參數，指導治療決策
+3. **機械性併發症:** 及早識別、迅速診斷、緊急處置
+4. **主動脈症候群:** Type A為外科急症，Type B重視血壓控制
+5. **休克管理:** 辨識休克類型，選擇適當vasopressor
+6. **溶栓治療:** 掌握適應症、禁忌症、時間窗及併發症處理
+
+
+importantbox
+
+
+**持續學習建議**
+
+
+- 定期review最新guideline (ESC, AHA/ACC, Surviving Sepsis Campaign)
+- 參與multidisciplinary team discussion提升臨床判斷能力
+- 熟悉各項監測工具的正確使用與判讀
+- 建立系統性思考模式，快速做出critical decision
+- 重視team communication與patient safety
+
+
+\vfill
+\hrule
+
+*本測驗為急重症教育訓練講座教材*
+*編寫：謝慕揚, MD, PhD, FESC*
+*心血管中心*
+[0.3cm]
+*僅供教學使用，請勿用於商業用途*

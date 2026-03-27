@@ -1,0 +1,762 @@
+---
+title: "Eur Heart J 2025-11-07"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-11-07
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+## 前言
+
+
+本期《歐洲心臟期刊》(European Heart Journal, EHJ)匯集了多項重要臨床試驗與指引更新,主題涵蓋血脂管理、心衰竭與腎功能、心絞痛診斷、阿斯匹靈初級預防、心房顫動消融治療,以及高海拔地區睡眠呼吸中止症的管理。本期內容由 Filippo Crea 教授(羅馬 Gemelli Isola 醫院心血管科學卓越中心主任暨羅馬天主教聖心大學教授)主編,於2025年11月7日發表。
+
+**期刊資訊:**  
+
+**期刊:**European Heart Journal  
+
+**卷期:**2025年第46卷第42期  
+
+**頁數:**4347-4350  
+
+**DOI:**[link](https://academic.oup.com/eurheartj/article/46/42/4347/8316209?searchresult=1)  
+
+**主編:**Filippo Crea, MD
+
+
+## ESC指引更新:血脂異常管理
+
+
+### 2025年聚焦更新
+
+
+**指引名稱:**2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias
+
+**主要作者:**François Mach
+**機構:**Geneva University Hospital, Switzerland
+
+**更新背景:**
+自2019年ESC/EAS血脂異常管理指引發表以來,已有多項隨機對照試驗可能改變患者管理策略,因此在下一次完整指引更新之前,推出此2025年聚焦更新。
+
+**更新範圍:**
+
+- 納入2025年3月31日前發表的新證據
+- 所有主要隨機對照臨床試驗
+- 相關統合分析
+
+
+**制定流程:**
+
+1. 所有2019年指引發表後的主要隨機對照試驗和統合分析均被呈現並詳細討論
+2. 達成共識後決定可能的建議等級和證據等級
+3. 所有工作小組成員進行投票
+4. 對特定主題有利益衝突聲明的成員,須對該主題棄權
+
+
+**參考文獻:**  
+
+Mach F, et al. 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias. *Eur Heart J* 2025;46:4359–78.  
+
+[DOI: 10.1093/eurheartj/ehaf190](https://doi.org/10.1093/eurheartj/ehaf190)
+
+
+## 心衰竭與腎臟疾病:腎絲球過濾率作為試驗終點
+
+
+### 心腎代謝症候群的新架構
+
+
+慢性腎臟病(CKD)與心血管疾病緊密相連,兩者具有共同的發展與進展機制,近年來被整合為**心血管-腎臟-代謝症候群**的框架。
+
+**文章標題:**Decline in glomerular filtration rate as an endpoint in heart failure clinical trials: challenges and solutions
+
+**第一作者:**Lesley A. Inker, MD  
+
+**機構:**Tufts Medical Center, Boston, MA, USA
+
+
+### 文章重點內容
+
+
+這篇最新技術綜述文章描述:
+
+1. **心衰竭與CKD的交集:**兩種疾病常共存於同一患者
+2. **GFR評估:**      - 如何在個別患者中評估腎絲球過濾率(GFR) - GFR隨時間變化的評估 - 在介入性試驗中的應用
+3. **GFR變化作為終點的證據:**支持在CKD進展試驗中使用
+4. **挑戰與解決方案:**在心衰竭預後試驗中使用GFR作為終點
+
+
+### 臨床意義
+
+
+**為何重要?**
+
+- CKD和心衰竭常共存
+- 兩種疾病狀態有越來越多的共同治療
+- 對患者、臨床醫師和監管機構都有價值
+
+
+**評估方法:**
+
+1. **GFR斜率:**年化平均GFR變化
+2. **GFR下降閾值:**達到特定百分比下降的時間(40
+
+
+### 心衰竭治療的特殊考量
+
+
+****關鍵挑戰:****
+
+許多心衰竭指引導向治療(guideline-directed therapy)開始使用後,常見**立即的GFR下降**。
+
+**需要理解的核心問題:**
+
+- 如何最佳解讀立即GFR下降 vs 長期腎臟益處
+- 對預後試驗終點評估的影響
+- 對心衰竭患者管理的影響
+
+
+**監管機構認可:**
+監管機構接受這些終點用於完整藥物核准,這使得CKD進展試驗的設計和執行取得進展。在心衰竭預後試驗中應用這些終點有類似進展的潛力。
+
+**參考文獻:**  
+
+Inker LA, et al. Decline in glomerular filtration rate as an endpoint in heart failure clinical trials: challenges and solutions. *Eur Heart J* 2025;46:4379–95.  
+
+[DOI: 10.1093/eurheartj/ehaf591](https://doi.org/10.1093/eurheartj/ehaf591)
+
+
+## ILIAS ANOCA試驗:冠狀動脈功能檢測改善心絞痛
+
+
+### 研究背景
+
+
+**ANOCA定義:**心絞痛合併非阻塞性冠狀動脈疾病(Angina with Non-Obstructive Coronary Arteries)
+
+**診斷挑戰:**
+侵入性冠狀動脈功能檢測(CFT)可在多達**90
+
+**試驗全名:**Coronary function testing vs angiography alone to guide treatment of angina with non-obstructive coronary arteries: the ILIAS ANOCA trial
+
+**第一作者:**Coen K.M. Boerhout  
+
+**機構:**Amsterdam University Medical Center, The Netherlands
+
+
+### 研究設計
+
+
+**試驗類型:**前瞻性、隨機對照試驗
+
+**納入條件:**
+
+- 接受臨床指示的侵入性冠狀動脈血管攝影(ICA)
+- 排除阻塞性冠狀動脈疾病(CAD)
+- 接受冠狀動脈功能檢測(CFT)
+
+
+**隨機分組:**
+
+1. **標準照護組:**CFT結果保持盲性
+2. **介入組:**揭露CFT結果並提供量身訂製的藥物治療方案
+
+
+**主要終點:**
+從基線到6個月追蹤期間,西雅圖心絞痛問卷總分(Seattle Angina Questionnaire Summary Score, SAQSS)組間差異的平均值。
+
+**試驗註冊:**International Clinical Trials Registry Platform (NL-OMON20739)
+
+
+### 研究結果
+
+
+**收案情況:**
+
+- 255名患者同意參與
+- 153名患者(60
+- 標準照護組:n=76
+- 介入組:n=77
+
+
+**CFT執行結果:**
+
+- 所有CFT程序均成功
+- **無不良事件**
+- 120名患者(78
+
+
+**主要結果:**
+
+| p{9cm}} ILIAS ANOCA試驗主要結果 |  |  |
+| --- | --- | --- |
+| **評估項目** | **結果** |  |
+| **評估項目** | **結果** |  |
+| **SAQSS改善** | 介入組顯著優於對照組 |  |
+| **介入效果** | 9.4分 (P = .001) |  |
+| **6個月主要心臟不良事件** | 無 |  |
+| **血管運動障礙診斷率** | 78 |  |
+| **CFT診斷分布** | minipage[t]{9cm} • 功能性心絞痛:8  • 孤立性CMD:7  • 混合性CMD和冠狀動脈痙攣:20  • 孤立性冠狀動脈痙攣:42  • 非心因性胸痛:22 |  |
+
+
+### 研究結論
+
+
+****關鍵訊息:****
+
+1. 在初始ICA期間常規執行CFT是**可行的**
+2. CFT是**安全的**
+3. CFT具有**高診斷率**
+4. 實施務實的CFT方案結合疾病特異性治療方案,能**顯著改善**ANOCA患者的疾病相關生活品質
+
+
+**參考文獻:**  
+
+Boerhout CKM, et al. Coronary function testing vs angiography alone to guide treatment of angina with non-obstructive coronary arteries: the ILIAS ANOCA trial. *Eur Heart J* 2025;46:4396–406.  
+
+[DOI: 10.1093/eurheartj/ehaf580](https://doi.org/10.1093/eurheartj/ehaf580)
+
+
+### 編輯評論:ANOCA的成功故事
+
+
+**評論作者:**
+
+- Rocco A. Montone
+- Antonio Maria Leone
+- Filippo Crea
+
+
+**機構:**Agostino Gemelli University Hospital Foundation IRCCS, Rome; Catholic University of the Sacred Heart, Rome
+
+**評論重點:**
+
+ANOCA從最初科學界對其存在的懷疑,發展到證明其臨床相關性,以及需要標準化診斷演算法(如當前ESC指引所建議),進而找到對經常出現使人衰弱症狀患者的成功抗心絞痛治療。
+
+quote
+*"雖然尚未完成,但這是一個成功的故事。"*
+quote
+
+**參考文獻:**  
+
+Montone RA, et al. Angina with non-obstructive coronary arteries: a success story. *Eur Heart J* 2025;46:4407–9.  
+
+[DOI: 10.1093/eurheartj/ehaf692](https://doi.org/10.1093/eurheartj/ehaf692)
+
+
+## ASPREE延伸追蹤:阿斯匹靈長期效應
+
+
+### 研究背景
+
+
+阿斯匹靈在初級預防中的應用及其在雙重抗血栓治療中的角色仍存在爭議。
+
+**研究標題:**Aspirin, cardiovascular events, and major bleeding in older adults: extended follow-up of the ASPREE trial
+
+**第一作者:**Rory Wolfe  
+
+**機構:**Monash University, Melbourne, Australia
+
+**研究目的:**
+使用ASPREE試驗參與者的延伸追蹤,估計阿斯匹靈對主要心血管不良事件(MACE)和大出血的長期和試驗後效應。
+
+
+### 研究設計
+
+
+**研究期間:**
+
+- **試驗期間:**2010-2017年(中位數4.7年)
+- **試驗後期間:**2017-2022年(中位數4.3年)
+- **總追蹤期間:**中位數8.3年
+
+
+**納入條件:**
+
+- 登記時年齡≥70歲(美國少數族裔≥65歲)
+- 無既往心血管事件
+- 無失智症
+- 無限制獨立性的身體殘疾
+
+
+**介入措施:**
+隨機分配至每日低劑量阿斯匹靈或匹配安慰劑,持續試驗的4.7年。
+
+**收案數據:**
+
+- 19,114名參與者隨機分配
+- 15,668名試驗期間無MACE者同意試驗後追蹤
+
+
+### 研究結果
+
+
+**試驗期間(ASPREE原始試驗):**
+
+| p{9cm}} ASPREE試驗期間結果(中位數4.7年) |  |  |
+| --- | --- | --- |
+| **終點** | **結果** |  |
+| **終點** | **結果** |  |
+| **MACE** | 降低11 |  |
+| **大出血** | 增加38 |  |
+
+
+**試驗後期間(新延伸追蹤,中位數4.3年):**
+
+| p{9cm}} ASPREE延伸追蹤結果 |  |  |
+| --- | --- | --- |
+| **終點** | **結果** |  |
+| **終點** | **結果** |  |
+| **MACE** | **增加17 |  |
+| **大出血** | 增加8 |  |
+
+
+**整體期間(中位數8.3年):**
+
+| p{9cm}} ASPREE整體追蹤結果 |  |  |
+| --- | --- | --- |
+| **終點** | **結果** |  |
+| **終點** | **結果** |  |
+| **MACE** | 增加4 |  |
+| **大出血** | **增加24 |  |
+
+
+### 研究結論
+
+
+****關鍵發現:****
+
+
+1. **無長期MACE益處:**整個試驗期間和試驗後期間未觀察到阿斯匹靈對MACE的長期益處
+2. **試驗後MACE增加:**停藥後,阿斯匹靈組MACE發生率顯著較高
+3. **持續出血風險:**整個期間阿斯匹靈組大出血發生率顯著較高
+
+
+本研究提供關於最初健康的老年人使用阿斯匹靈後長期MACE和出血的新證據。
+
+**參考文獻:**  
+
+Wolfe R, et al. Aspirin, cardiovascular events, and major bleeding in older adults: extended follow-up of the ASPREE trial. *Eur Heart J* 2025;46:4410–22.  
+
+[DOI: 10.1093/eurheartj/ehaf514](https://doi.org/10.1093/eurheartj/ehaf514)
+
+
+### 編輯評論:阿斯匹靈的長期效應
+
+
+**評論作者:**
+
+- Colin Baigent (University of Oxford, UK)
+- Alistair Roddick (University of Oxford, UK)
+- Carlo Patrono (Catholic University School of Medicine, Rome, Italy)
+
+
+**核心不確定性:**
+
+關於健康人使用阿斯匹靈的主要不確定性在於,撇開其在心血管疾病初級預防價值的爭議,長期使用阿斯匹靈的益處是否可能因對某些癌症的保護作用而得到補充。
+
+**癌症相關發現:**
+
+- ASPREE中阿斯匹靈對所有新發癌症無顯著影響
+- 但**出現轉移性癌症的明顯過多**
+- 此發現與早期報告的阿斯匹靈對癌症轉移風險的保護作用相矛盾
+- 早期報告來自五項初級預防試驗,平均追蹤6.5年
+
+
+**未來方向:**
+
+ASPREE中這種過多情況的原因尚不清楚,需要更好地理解,才能考慮將阿斯匹靈大規模用於預防癌症。
+
+**參考文獻:**  
+
+Baigent C, et al. Estimating the long-term effects of aspirin for primary prevention. *Eur Heart J* 2025;46:4423–5.  
+
+[DOI: 10.1093/eurheartj/ehaf642](https://doi.org/10.1093/eurheartj/ehaf642)
+
+
+## CRRD-PeAF試驗:持續性心房顫動消融策略
+
+
+### 研究背景
+
+
+導管消融在心房顫動(AF)治療中扮演關鍵角色。各種能量源被用於AF導管消融,包括:
+
+- 射頻(Radiofrequency)
+- 冷凍球囊(Cryoballoon)
+- 雷射球囊(Laser balloon)
+- 熱球囊(Hot balloon)
+- 脈衝電場(Pulsed-field)
+
+
+**研究缺口:**
+關於冷凍球囊與射頻消融在持續性AF的療效、安全性和對逆向重塑影響的前瞻性數據有限。
+
+**試驗標題:**Cryoballoon vs radiofrequency ablation in persistent atrial fibrillation: the CRRD-PeAF trial
+
+**第一作者:**Koji Miyamoto  
+
+**機構:**National Cerebral and Cardiovascular Center, Osaka, Japan
+
+
+### 研究設計
+
+
+**試驗類型:**前瞻性、多中心、隨機、非劣性臨床試驗
+
+**研究目的:**
+
+1. 比較大型持續性AF患者群中冷凍球囊 vs 射頻消融的療效和安全性
+2. 比較這些技術對消融後逆向重塑程度的影響
+
+
+**收案情況:**
+
+- 500名持續性AF患者
+- 12個中心隨機分配
+- 最終分析納入499名患者
+- 中位年齡:69歲
+
+
+**主要終點:**
+消融後1年內發生心房快速性心律不整,包含90天的空白期。
+
+
+### 研究結果
+
+
+**療效終點 - 意向治療分析:**
+
+| p{9cm}} CRRD-PeAF試驗主要結果 |  |  |
+| --- | --- | --- |
+| **評估項目** | **結果** |  |
+| **評估項目** | **結果** |  |
+| **主要終點** |  |  |
+| 冷凍球囊組 | 22.0 |  |
+| 射頻組 | 23.2 |  |
+| **非劣性分析** | 冷凍球囊組證明非劣於射頻組 (P = .96) |  |
+| **左心房逆向重塑** |  |  |
+| 左心房容積指數下降 | 射頻組>冷凍球囊組 (P < .001) |  |
+
+
+### 研究結論
+
+
+****主要訊息:****
+
+
+1. 在此隨機試驗中,冷凍球囊消融對持續性AF患者1年內心房快速性心律不整的發生,**不劣於**射頻消融
+2. 射頻組在1年時左心房大小(左心房容積指數)的降低**大於**冷凍球囊組
+
+
+**參考文獻:**  
+
+Miyamoto K, et al. Cryoballoon vs radiofrequency ablation in persistent atrial fibrillation: the CRRF-PeAF trial. *Eur Heart J* 2025;46:4426–37.  
+
+[DOI: 10.1093/eurheartj/ehaf451](https://doi.org/10.1093/eurheartj/ehaf451)
+
+
+### 編輯評論:心房重塑的臨床相關性
+
+
+**評論作者:**
+
+- Jason G. Andrade (University of Montreal, Canada)
+- Laurent Macle (University of Montreal, Canada)
+
+
+**心房重塑的角色:**
+
+不良的電學和結構性心房重塑被認為在AF的發生和維持中起核心作用。多項研究觀察到導管消融後左心房尺寸和容積顯著減少,這被認為是維持竇性節律後有益的逆向結構重塑的結果。
+
+**兩種消融技術的病理學差異:**
+
+
+| p{8cm}} 射頻 vs 冷凍消融的組織學差異 |  |  |
+| --- | --- | --- |
+| **射頻消融** | **冷凍消融** |  |
+| **射頻消融** | **冷凍消融** |  |
+| 瀰漫性細胞破壞 | 保留超微結構完整性 |  |
+| 細胞外組織基質變性 | 纖維母細胞和膠原纖維具韌性 |  |
+| 明顯炎症反應 | 較少炎症 |  |
+| 新內膜增生和纖維化轉變 | 較少纖維化 |  |
+| 血管內收縮 | 較少收縮 |  |
+
+
+**可能的解釋:**
+
+當前研究觀察到的左心房直徑和左心房容積差異,可能是由於:
+
+1. 更廣泛的左心房輔助射頻消融
+2. 病灶成熟的組織病理學差異
+
+
+**臨床意義:**
+
+quote
+*"歸根結底,雖然有趣,但左心房尺寸差異的發現仍屬假說生成性質,因為心律不整結果未觀察到差異。"*
+quote
+
+**參考文獻:**  
+
+Andrade JG, Macle L. Is atrial remodelling after atrial fibrillation catheter ablation clinically relevant? *Eur Heart J* 2025;46:4438–40.  
+
+[DOI: 10.1093/eurheartj/ehaf557](https://doi.org/10.1093/eurheartj/ehaf557)
+
+
+## 高海拔阻塞性睡眠呼吸中止症:乙醯唑胺效應
+
+
+### 研究背景
+
+
+**乙醯唑胺(Acetazolamide)的已知效應:**
+
+- 在低海拔居住的阻塞性睡眠呼吸中止症(OSA)患者中有效降低血壓
+- 在上升到高海拔的人群中有效
+
+
+**研究缺口:**
+尚未研究對居住在高海拔地區人群24小時血壓的影響。
+
+**研究標題:**Acetazolamide effect on ambulatory blood pressure in patients with obstructive sleep apnoea living at high altitude: a randomized trial
+
+**第一作者:**Lu Tan  
+
+**機構:**Sichuan University, China
+
+
+### 研究設計
+
+
+**試驗類型:**隨機、安慰劑對照、雙盲交叉試驗
+
+**研究地點:**拉薩(Lhasa, 海拔3650公尺)
+
+**收案條件:**
+
+- 中度至重度OSA患者
+- 居住在高海拔地區
+- n=41名患者
+
+
+**介入措施:**
+
+- 隨機分配至500 mg/天乙醯唑胺或安慰劑
+- 各治療2週
+- 1週洗脫期間隔
+
+
+**評估方式:**
+每次治療期結束時進行:
+
+- 24小時動態血壓監測
+- 多導睡眠檢查(Polysomnography)
+
+
+**主要終點:**
+2週乙醯唑胺和安慰劑治療之間24小時平均動脈壓(MAP)的差異。
+
+
+### 研究結果
+
+
+**基線特徵:**
+
+- 意向治療分析納入41名患者
+- 中位年齡:35歲
+- 中位體重指數:25.6 kg/m²
+- 85
+
+
+**主要結果:**
+
+| p{9cm}} 乙醯唑胺對高海拔OSA患者的效應 |  |  |
+| --- | --- | --- |
+| **參數** | **乙醯唑胺 vs 安慰劑** |  |
+| **參數** | **乙醯唑胺 vs 安慰劑** |  |
+| **安慰劑組24小時MAP** | 88 mmHg (中位數) |  |
+| **24小時MAP** | **降低3 mmHg** (顯著) |  |
+| **24小時心率** | **降低4次/分鐘** (顯著) |  |
+| **呼吸中止低通氣指數(AHI)** | **降低15.7次/小時** (顯著) |  |
+| **夜間血氧飽和度** | **增加2.8 |  |
+| **最常見副作用** | 四肢輕度至中度感覺異常 |  |
+
+
+### 研究結論
+
+
+****臨床意義:****
+
+乙醯唑胺能降低居住在高海拔地區OSA患者的MAP和心率,並改善AHI,提示它可能是預防或治療類似人群高血壓的有用治療。
+
+**參考文獻:**  
+
+Tan L, et al. Acetazolamide effect on ambulatory blood pressure in patients with obstructive sleep apnoea living at high altitude: a randomized trial. *Eur Heart J* 2025;46:4441–3.  
+
+[DOI: 10.1093/eurheartj/ehaf648](https://doi.org/10.1093/eurheartj/ehaf648)
+
+
+## 討論論壇:迷走神經刺激的潛在應用
+
+
+### 評論主題
+
+
+**評論標題:**Can the effects of vagus nerve stimulation on improving motor function and inflammation be applied to the general healthy population?
+
+**評論作者:**
+
+- Jing-Yi Lin
+- Yu-Lei Xie
+
+
+**機構:**Affiliated Hospital of North Sichuan Medical College, China
+
+**針對的原始研究:**
+
+- **標題:**Non-invasive vagus nerve stimulation and exercise capacity in healthy volunteers: a randomized trial
+- **第一作者:**Gareth L. Ackland
+- **機構:**University of London, UK
+- **發表:***Eur Heart J* 2025;46:1634–44
+
+
+**討論焦點:**
+
+迷走神經刺激對改善運動功能和發炎的效果是否可以應用於一般健康人群?
+
+**參考文獻:**  
+
+Lin JY, Xie YL. Can the effects of vagus nerve stimulation on improving motor function and inflammation be applied to the general healthy population? *Eur Heart J* 2025;46:4444–5.  
+
+[DOI: 10.1093/eurheartj/ehaf638](https://doi.org/10.1093/eurheartj/ehaf638)
+
+
+## 主編 Filippo Crea 簡介
+
+
+### 現職
+
+
+- **Center of Excellence of Cardiovascular Sciences**主任     itemize
+- Ospedale Isola Tiberina – Gemelli Isola, Rome, Italy
+
+
+    \item Catholic University of the Sacred Heart **教授**
+    
+- Rome, Italy
+
+
+    \item **European Heart Journal 主編**
+itemize
+
+
+### 利益衝突聲明
+
+
+- 
+- Abbott
+- Amgen
+- Astra Zeneca
+- BMS
+- Chiesi
+- Daiichi Sankyo
+- Menarini
+
+
+## 本期重點總結
+
+
+### 涵蓋的主要主題
+
+
+1. **血脂管理:**2025年ESC/EAS指引聚焦更新
+2. **心腎交互作用:**GFR作為心衰竭試驗終點的挑戰
+3. **ANOCA診斷:**冠狀動脈功能檢測改善生活品質
+4. **初級預防:**阿斯匹靈的長期效應重新評估
+5. **心房顫動:**冷凍球囊與射頻消融的療效比較
+6. **高海拔醫學:**乙醯唑胺對OSA患者的血壓效應
+7. **新興療法:**迷走神經刺激的潛在應用
+
+
+### 臨床實務要點
+
+
+****關鍵訊息:****
+
+
+1. **ANOCA並不簡單:**需要積極診斷和治療
+2. **阿斯匹靈初級預防:**需要謹慎評估風險效益比,特別是老年人
+3. **心房顫動消融:**冷凍球囊和射頻消融在持續性AF中療效相當
+4. **腎功能評估:**在心衰竭試驗中需要新的評估方法
+5. **高海拔醫學:**乙醯唑胺可能有助於高海拔OSA患者的血壓管理
+
+
+## 延伸閱讀
+
+
+### 相關心血管-腎臟-代謝症候群研究
+
+
+1. Mahaffey KW, et al. Cardiovascular outcomes with semaglutide by severity of chronic kidney disease in type 2 diabetes: the FLOW trial. *Eur Heart J* 2025;46:1096-1108.        [DOI: 10.1093/eurheartj/ehae613](https://doi.org/10.1093/eurheartj/ehae613)
+2. Dubin RF, et al. Incident heart failure in chronic kidney disease: proteomics informs biology and risk stratification. *Eur Heart J* 2024;45:2752–67.        [DOI: 10.1093/eurheartj/ehae288](https://doi.org/10.1093/eurheartj/ehae288)
+3. Deo R, et al. Proteomic cardiovascular risk assessment in chronic kidney disease. *Eur Heart J* 2023;44:2095–110.        [DOI: 10.1093/eurheartj/ehad115](https://doi.org/10.1093/eurheartj/ehad115)
+
+
+### 阿斯匹靈相關研究
+
+
+1. Watanabe H, et al. Aspirin vs. clopidogrel monotherapy after percutaneous coronary intervention: 1-year follow-up of the STOPDAPT-3 trial. *Eur Heart J* 2024;45:5042–54.        [DOI: 10.1093/eurheartj/ehae617](https://doi.org/10.1093/eurheartj/ehae617)
+2. Hori M, et al. Rivaroxaban and aspirin vs. aspirin alone in Asian compared with non-Asian patients with chronic coronary artery disease or peripheral arterial disease: the COMPASS trial. *Eur Heart J* 2022;43:3542–52.        [DOI: 10.1093/eurheartj/ehac309](https://doi.org/10.1093/eurheartj/ehac309)
+
+
+### 心房顫動消融相關研究
+
+
+1. Natale A, et al. Catheter ablation for atrial fibrillation: indications and future perspective. *Eur Heart J* 2024;45:4383–98.        [DOI: 10.1093/eurheartj/ehae618](https://doi.org/10.1093/eurheartj/ehae618)
+2. William J, et al. Radiofrequency catheter ablation of persistent atrial fibrillation by pulmonary vein isolation with or without left atrial posterior wall isolation: long-term outcomes of the CAPLA trial. *Eur Heart J* 2025;46:132–43.        [DOI: 10.1093/eurheartj/ehae580](https://doi.org/10.1093/eurheartj/ehae580)
+3. Andrade JG, et al. Atrial fibrillation progression after cryoablation vs. radiofrequency ablation: the CIRCA-DOSE trial. *Eur Heart J* 2024;45:510–8.        [DOI: 10.1093/eurheartj/ehad572](https://doi.org/10.1093/eurheartj/ehad572)
+4. Joza J, et al. Atrioventricular node ablation for atrial fibrillation in the era of conduction system pacing. *Eur Heart J* 2024;45:4887–901.        [DOI: 10.1093/eurheartj/ehae656](https://doi.org/10.1093/eurheartj/ehae656)
+
+
+### 心房顫動消融模式比較
+
+
+1. Huang H, et al. Atrial tachyarrhythmia prevention by Shensong Yangxin after catheter ablation for persistent atrial fibrillation: the SS-AFRF trial. *Eur Heart J* 2024;45:4305–14.        [DOI: 10.1093/eurheartj/ehae532](https://doi.org/10.1093/eurheartj/ehae532)
+2. Crowley R, et al. Catheter ablation for persistent atrial fibrillation: patterns of recurrence and impact on quality of life and health care utilization. *Eur Heart J* 2024;45:2604–16.        [DOI: 10.1093/eurheartj/ehae291](https://doi.org/10.1093/eurheartj/ehae291)
+
+
+### 迷走神經刺激
+
+
+1. Ackland GL, et al. Non-invasive vagus nerve stimulation and exercise capacity in healthy volunteers: a randomized trial. *Eur Heart J* 2025;46:1634–44.        [DOI: 10.1093/eurheartj/ehaf037](https://doi.org/10.1093/eurheartj/ehaf037)
+
+
+## 結語
+
+
+- 
+- ANOCA的診斷和治療正在成為主流臨床實務
+- 阿斯匹靈在初級預防中的角色需要重新評估
+- 心房顫動的消融技術持續進步,但療效評估需要更細緻的終點
+- 心腎交互作用的理解正在深化
+- 高海拔醫學為特殊人群提供了新的治療選擇
+
+
+\textwidth{0.4pt}
+
+**原文來源:**European Heart Journal  
+
+**期刊:**2025年第46卷第42期  
+
+**頁數:**4347-4350  
+
+**主編:**Filippo Crea, MD  
+
+**DOI:**[10.1093/eurheartj/ehaf847](https://doi.org/10.1093/eurheartj/ehaf847)
