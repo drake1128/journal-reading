@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Guidewire Science Art and Clinical Wisdom"
+title: "Guidewire: Science, Art, and Clinical Wisdom"
+subtitle: "Guidewire: Science, Art, and Clinical Wisdom"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-03-26
 lang: zh-TW
@@ -9,31 +9,4 @@ toc-depth: 3
 number-sections: true
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> **注意：** 本文件原始 PDF 轉換後無可用內容。待補充原文資料後重新整理。

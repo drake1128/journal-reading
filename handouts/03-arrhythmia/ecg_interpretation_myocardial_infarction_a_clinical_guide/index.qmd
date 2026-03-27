@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "ECG Interpretation Myocardial Infarction A Clinical Guide"
+title: "心肌梗塞心電圖判讀臨床指南 / ECG Interpretation in Myocardial Infarction"
+subtitle: "心肌梗塞心電圖判讀臨床指南 / ECG Interpretation in Myocardial Infarction"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-03-26
 lang: zh-TW
@@ -9,27 +9,4 @@ toc-depth: 3
 number-sections: true
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*（本文件為預留架構，內容待補充。）*

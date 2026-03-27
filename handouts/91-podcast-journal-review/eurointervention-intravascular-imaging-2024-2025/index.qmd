@@ -1,6 +1,6 @@
 ---
 title: "EuroIntervention 教學講義"
-subtitle: "EuroIntervention Intravascular Imaging 2024-2025"
+subtitle: "EuroIntervention 教學講義"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-01-30
 lang: zh-TW
@@ -9,74 +9,15 @@ toc-depth: 3
 number-sections: true
 ---
 
-Intravascular Imaging
-EuroIntervention State-of-the-Art Reviews
-Intravascular Imaging in Coronary Artery Disease:
-OCT-Guided PCI and Plaque Characterization
-血管內造影在冠狀動脈疾病的應用：OCT 導引介入與斑塊特徵分析
-EuroIntervention 2024;20:e1202-e1216 & EuroIntervention 2025;21:e778-e795
-整理：謝慕揚MD, PhD, FESC
-日期：2026-01-30
-Contents
-前言
-血管內造影技術概述
-2.1
-主要造影技術比較
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2
-其他造影技術. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . OCT 導引PCI：技術要點
-3.1
-OCT 導引PCI 的標準化流程. . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.1
-Pre-PCI 評估. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.2
-Post-PCI 評估標準. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2
-OCT 導引PCI 的臨床試驗證據. . . . . . . . . . . . . . . . . . . . . . . . . . . 特殊病灶的OCT 應用
-4.1
-左主幹病灶(Left Main Disease) . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2
-分叉病灶(Bifurcation Lesions)
-. . . . . . . . . . . . . . . . . . . . . . . . . . . 4.3
-嚴重鈣化病灶(Calcified Lesions) . . . . . . . . . . . . . . . . . . . . . . . . . . 4.4
-支架內再狹窄(In-Stent Restenosis, ISR) . . . . . . . . . . . . . . . . . . . . . . 冠狀動脈斑塊造影與特徵分析
-5.1
-斑塊組成的影像特徵. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.1.1
-CCTA 特徵. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.1.2
-IVUS 特徵
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.1.3
-OCT 特徵. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.2
-高風險斑塊(Vulnerable Plaque) 特徵. . . . . . . . . . . . . . . . . . . . . . . . 5.2.1
-提出的影像學分類系統(L1-L2-L3) . . . . . . . . . . . . . . . . . . . . . 5.2.2
-薄帽纖維粥樣斑塊(TCFA) . . . . . . . . . . . . . . . . . . . . . . . . . 5.3
-急性冠心症的斑塊機轉. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 斑塊進展與消退的影像追蹤
-6.1
-藥物對斑塊的影響
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.1.1
-Statin 試驗. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.1.2
-PCSK9 抑制劑試驗
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2
-預防性PCI 的證據. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-EuroIntervention 教學講義
-Intravascular Imaging
-6.2.1
-PROSPECT 系列
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6.2.2
-PREVENT 試驗. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 臨床決策整合
-7.1
-何時使用血管內造影？. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.2
-OCT vs IVUS 選擇. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 重點摘要
-參考文獻
-
-
-EuroIntervention 教學講義
-Intravascular Imaging
-1 前言
+## 1 前言
 本講義整合兩篇EuroIntervention 重要文獻，探討血管內造影(intravascular imaging) 在冠狀
 動脈疾病的臨床應用：
 1. Almajid 等人(2024)：OCT 導引經皮冠狀動脈介入治療的完整指引
 2. García-García 等人(2025)：冠狀動脈粥樣硬化斑塊造影的最新進展
-重點提醒
-血管內造影已從研究工具發展為臨床PCI 的重要輔助技術。OCT 與IVUS 各有其優勢，
+> **重點提醒**
+> 血管內造影已從研究工具發展為臨床PCI 的重要輔助技術。OCT 與IVUS 各有其優勢，
 選擇應根據臨床情境、病灶特性與操作者經驗。 2 血管內造影技術概述
-2.1 主要造影技術比較
+### 2.1 主要造影技術比較
 特性
 IVUS
 OCT
@@ -112,35 +53,32 @@ OCTOBER,
 ILUMIEN
 IV,
 OCTIVUS
-2.2 其他造影技術
-• NIRS (Near-Infrared Spectroscopy)：偵測脂質核心斑塊(lipid core plaque)，產生
+### 2.2 其他造影技術
+- NIRS (Near-Infrared Spectroscopy)：偵測脂質核心斑塊(lipid core plaque)，產生
 chemogram，計算maxLCBI4mm (4 mm 區段最大脂質核心負荷指數)
-• CCTA (Coronary CT Angiography)：非侵入性評估，可識別low-attenuation plaque
+- CCTA (Coronary CT Angiography)：非侵入性評估，可識別low-attenuation plaque
 (LAP)、positive remodeling、spotty calcification、napkin-ring sign
-• IVUS-NIRS 整合探頭：同時提供結構與組成資訊
-3 OCT 導引PCI：技術要點
+- IVUS-NIRS 整合探頭：同時提供結構與組成資訊
+## 3 OCT 導引PCI：技術要點
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
-3.1 OCT 導引PCI 的標準化流程
-核心發現摘要
-OCT 導引PCI 的三階段流程：
+### 3.1 OCT 導引PCI 的標準化流程
+> **核心發現摘要**
+> OCT 導引PCI 的三階段流程：
 Pre-PCI：評估病灶特性、參考血管直徑、病灶長度
 Post-PCI：評估支架膨脹、貼壁、邊緣夾層
 Optimization：根據OCT 發現進行後續處理
-3.1.1 Pre-PCI 評估
+#### 3.1.1 Pre-PCI 評估
 1. 病灶特性分析：
-• 識別罪犯病灶(culprit lesion)：斑塊破裂(plaque rupture)、斑塊侵蝕(plaque
+- 識別罪犯病灶(culprit lesion)：斑塊破裂(plaque rupture)、斑塊侵蝕(plaque
 erosion)、鈣化結節(calcified nodule)
-• 評估鈣化程度：弧度(arc) > 180°、長度> 5 mm、厚度> 0.5 mm 提示需要特殊
+- 評估鈣化程度：弧度(arc) > 180°、長度> 5 mm、厚度> 0.5 mm 提示需要特殊
 處理
-• 識別脂質斑塊與薄帽纖維粥樣斑塊(TCFA, thin-cap fibroatheroma)
+- 識別脂質斑塊與薄帽纖維粥樣斑塊(TCFA, thin-cap fibroatheroma)
 2. 支架尺寸選擇：
-• 參考血管直徑：取近端與遠端參考段的平均lumen diameter
-• 病灶長度測量：確保支架完整覆蓋病灶
-• 避免geographical miss（未完整覆蓋）
-3.1.2 Post-PCI 評估標準
+- 參考血管直徑：取近端與遠端參考段的平均lumen diameter
+- 病灶長度測量：確保支架完整覆蓋病灶
+- 避免geographical miss（未完整覆蓋）
+#### 3.1.2 Post-PCI 評估標準
 評估項目
 定義/標準
 臨床意義
@@ -181,74 +119,62 @@ tia）需處理
 lipid-rich plaque
 增加late stent failure 風險
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
-3.2 OCT 導引PCI 的臨床試驗證據
+### 3.2 OCT 導引PCI 的臨床試驗證據
 試驗
 年份
 比較
 主要結果
 ILUMIEN III
-2016
-OCT vs IVUS vs An-
+## 2016 OCT vs IVUS vs An-
 gio
 MSA：OCT = IVUS >
 Angio
 DOCTORS
-2016
-OCT vs Angio
+## 2016 OCT vs Angio
 (NSTE-ACS)
 OCT 組FFR 較高(0.94
 vs 0.92)
 OPINION
-2017
-OCT vs IVUS
+## 2017 OCT vs IVUS
 TVF 無顯著差異
 OCTOBER
-2023
-OCT vs Angio
+## 2023 OCT vs Angio
 (複雜PCI)
-2 年MACE：5.2% vs
+## 2 年MACE：5.2% vs
 7.7%
 HR 0.66, p=0.035
 ILUMIEN IV
-2023
-OCT vs Angio
+## 2023 OCT vs Angio
 (高風險PCI)
-2 年TLF：7.4% vs 8.2%
+## 2 年TLF：7.4% vs 8.2%
 HR 0.90, p=0.45
 OCTIVUS
-2023
-OCT vs IVUS
-1 年TVF：2.5% vs 3.1%
+## 2023 OCT vs IVUS
+## 1 年TVF：2.5% vs 3.1%
 達非劣性
 RENOVATE-
 COMPLEX-PCI
 2023
 IVI vs Angio
 (複雜病灶)
-3 年TVF：7.7% vs 12.3%
+## 3 年TVF：7.7% vs 12.3%
 HR 0.64, p<0.001
-重點提醒
-OCTOBER 試驗首次證明OCT 導引PCI 在複雜病灶可改善臨床預後。RENOVATE-
+> **重點提醒**
+> OCTOBER 試驗首次證明OCT 導引PCI 在複雜病灶可改善臨床預後。RENOVATE-
 COMPLEX-PCI 則顯示血管內造影（IVUS 或OCT）在複雜PCI 優於單純血管攝影。 4 特殊病灶的OCT 應用
-4.1 左主幹病灶(Left Main Disease)
-• Pre-PCI：評估開口位置、分叉角度、斑塊分布
-• 支架選擇：
-– 遠端LM 直徑決定支架大小
-– MSA 目標> 8.0 mm²（遠端）、> 9.0 mm²（中段）
-• 分叉處理：確認carina 位置、side branch ostium 覆蓋
-4.2 分叉病灶(Bifurcation Lesions)
-• 識別斑塊分布：main vessel vs side branch
-• Carina shift 評估
-• Side branch ostium 狹窄評估
-• 確認POT (proximal optimization technique) 效果
+### 4.1 左主幹病灶(Left Main Disease)
+- Pre-PCI：評估開口位置、分叉角度、斑塊分布
+- 支架選擇：
+  - 遠端LM 直徑決定支架大小
+  - MSA 目標> 8.0 mm²（遠端）、> 9.0 mm²（中段）
+- 分叉處理：確認carina 位置、side branch ostium 覆蓋
+### 4.2 分叉病灶(Bifurcation Lesions)
+- 識別斑塊分布：main vessel vs side branch
+- Carina shift 評估
+- Side branch ostium 狹窄評估
+- 確認POT (proximal optimization technique) 效果
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
-4.3 嚴重鈣化病灶(Calcified Lesions)
+### 4.3 嚴重鈣化病灶(Calcified Lesions)
 OCT 對鈣化病灶的評估優勢：
 1. 精確測量鈣化弧度(calcium arc)
 2. 識別nodular vs sheet-like calcium
@@ -267,25 +193,22 @@ mm
 IVL 可能優於RA
 深層厚鈣化
 RA + IVL 組合治療
-重點提醒
-OCT 無法穿透鈣化評估深度，但可精確測量表面弧度。嚴重鈣化（弧度> 270°, 長度>
+> **重點提醒**
+> OCT 無法穿透鈣化評估深度，但可精確測量表面弧度。嚴重鈣化（弧度> 270°, 長度>
 5 mm）建議積極斑塊修飾。 4.4 支架內再狹窄(In-Stent Restenosis, ISR)
 OCT 在ISR 的獨特價值：
 1. 機轉辨識：
-• Neointimal hyperplasia：均質高信號組織
-• Neoatherosclerosis：新生脂質斑塊，可見TCFA
-• Mechanical issues：膨脹不良、malapposition
+- Neointimal hyperplasia：均質高信號組織
+- Neoatherosclerosis：新生脂質斑塊，可見TCFA
+- Mechanical issues：膨脹不良、malapposition
 2. 治療決策：
-• 均質neointima →Drug-coated balloon 或DES
-• Neoatherosclerosis →考慮DES，注意lipid landing
-• 膨脹不良→高壓後擴張或鈣化修飾
-5 冠狀動脈斑塊造影與特徵分析
-5.1 斑塊組成的影像特徵
-5.1.1 CCTA 特徵
+- 均質neointima →Drug-coated balloon 或DES
+- Neoatherosclerosis →考慮DES，注意lipid landing
+- 膨脹不良→高壓後擴張或鈣化修飾
+## 5 冠狀動脈斑塊造影與特徵分析
+### 5.1 斑塊組成的影像特徵
+#### 5.1.1 CCTA 特徵
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
 特徵
 定義
 臨床意義
@@ -303,13 +226,13 @@ Napkin-ring sign
 低密度核心
 外圍高密度環
 對應TCFA，高風險
-5.1.2 IVUS 特徵
-• Soft plaque：低回音，代表脂質或纖維組織
-• Fibrous plaque：中等回音，均質
-• Calcified plaque：高回音伴聲影(acoustic shadow)
-• Mixed plaque：多種成分混合
-• Attenuated plaque：信號衰減，常代表脂質核心
-5.1.3 OCT 特徵
+#### 5.1.2 IVUS 特徵
+- Soft plaque：低回音，代表脂質或纖維組織
+- Fibrous plaque：中等回音，均質
+- Calcified plaque：高回音伴聲影(acoustic shadow)
+- Mixed plaque：多種成分混合
+- Attenuated plaque：信號衰減，常代表脂質核心
+#### 5.1.3 OCT 特徵
 組織類型
 OCT 表現
 臨床意義
@@ -339,8 +262,8 @@ Neovascularization
 小型低信號結構
 intraplaque hemorrhage 風
 險
-5.2 高風險斑塊(Vulnerable Plaque) 特徵
-5.2.1 提出的影像學分類系統(L1-L2-L3)
+### 5.2 高風險斑塊(Vulnerable Plaque) 特徵
+#### 5.2.1 提出的影像學分類系統(L1-L2-L3)
 García-García 等人提出基於影像的斑塊分類系統：
 分類
 定義
@@ -351,9 +274,6 @@ Plaque burden > 70%
 識別高體積斑塊
 事件風險增加
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
 分類
 定義
 臨床應用
@@ -368,16 +288,16 @@ MLA < 4.0 mm²
 (嚴重狹窄)
 血流動力學顯著
 可能需介入
-5.2.2 薄帽纖維粥樣斑塊(TCFA)
+#### 5.2.2 薄帽纖維粥樣斑塊(TCFA)
 定義：具有以下特徵的斑塊
-• Fibrous cap thickness < 65 µm（OCT 測量）
-• 脂質弧度> 90°（通常> 180°）
-• 大脂質核心
-臨床意義：
-• 對應病理學上的高風險斑塊
-• CLIMA 研究：TCFA 合併MLA < 3.5 mm² 預測cardiac death/MI
-• 可能是藥物治療強化的標的
-5.3 急性冠心症的斑塊機轉
+- Fibrous cap thickness < 65 µm（OCT 測量）
+- 脂質弧度> 90°（通常> 180°）
+- 大脂質核心
+> **臨床意義：**
+> - 對應病理學上的高風險斑塊
+- CLIMA 研究：TCFA 合併MLA < 3.5 mm² 預測cardiac death/MI
+- 可能是藥物治療強化的標的
+### 5.3 急性冠心症的斑塊機轉
 機轉
 影像特徵
 流行病學
@@ -401,15 +321,12 @@ Calcified nodule
 ACS 約5-10%
 嚴重鈣化血管
 糖尿病、腎病變
-重點提醒
-斑塊侵蝕(plaque erosion) 可能對保守治療反應較好。部分研究探討erosion 在NSTE-ACS
+> **重點提醒**
+> 斑塊侵蝕(plaque erosion) 可能對保守治療反應較好。部分研究探討erosion 在NSTE-ACS
 是否可避免支架置放，但仍需更多證據。 6 斑塊進展與消退的影像追蹤
-6.1 藥物對斑塊的影響
+### 6.1 藥物對斑塊的影響
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
-6.1.1 Statin 試驗
+#### 6.1.1 Statin 試驗
 試驗
 藥物
 影像工具
@@ -439,27 +356,24 @@ Statin
 OCT
 Fibrous cap 增厚
 脂質弧度減少
-6.1.2 PCSK9 抑制劑試驗
-• GLAGOV：Evolocumab + statin 降低PAV（IVUS）
-• HUYGENS：Evolocumab 增加fibrous cap 厚度、減少脂質弧度（OCT）
-• PACMAN-AMI：Alirocumab 在ACS 後促進斑塊穩定化（IVUS/NIRS/OCT）
-6.2 預防性PCI 的證據
-6.2.1 PROSPECT 系列
-• PROSPECT（2011）：非罪犯病灶的自然病史研究，IVUS 特徵預測事件
-• PROSPECT II（2021）：IVUS + NIRS 識別高風險斑塊
-• PROSPECT ABSORB：高風險非罪犯斑塊置放BVS 的安全性
-6.2.2 PREVENT 試驗
-• 對高風險非罪犯斑塊進行預防性PCI
-• 主要終點：Composite MACE
-• 結果：PCI 組較低事件率（需要更多長期追蹤）
-重點提醒
-對高風險非罪犯斑塊的處理仍有爭議。目前指引建議優先強化藥物治療，預防性PCI 僅
+#### 6.1.2 PCSK9 抑制劑試驗
+- GLAGOV：Evolocumab + statin 降低PAV（IVUS）
+- HUYGENS：Evolocumab 增加fibrous cap 厚度、減少脂質弧度（OCT）
+- PACMAN-AMI：Alirocumab 在ACS 後促進斑塊穩定化（IVUS/NIRS/OCT）
+### 6.2 預防性PCI 的證據
+#### 6.2.1 PROSPECT 系列
+- PROSPECT（2011）：非罪犯病灶的自然病史研究，IVUS 特徵預測事件
+- PROSPECT II（2021）：IVUS + NIRS 識別高風險斑塊
+- PROSPECT ABSORB：高風險非罪犯斑塊置放BVS 的安全性
+#### 6.2.2 PREVENT 試驗
+- 對高風險非罪犯斑塊進行預防性PCI
+- 主要終點：Composite MACE
+- 結果：PCI 組較低事件率（需要更多長期追蹤）
+> **重點提醒**
+> 對高風險非罪犯斑塊的處理仍有爭議。目前指引建議優先強化藥物治療，預防性PCI 僅
 在特定高風險情況考慮。 7 臨床決策整合
-7.1 何時使用血管內造影？
+### 7.1 何時使用血管內造影？
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
 臨床情境
 建議
 左主幹PCI
@@ -483,7 +397,7 @@ IVUS 或OCT
 STEMI / ACS（選擇性）
 可考慮
 識別罪犯機轉、排除erosion
-7.2 OCT vs IVUS 選擇
+### 7.2 OCT vs IVUS 選擇
 情境
 優先選擇
 原因
@@ -509,19 +423,16 @@ sis
 大血管（> 5 mm）
 IVUS 或OCT
 各有優劣
-8 重點摘要
-核心發現摘要
-OCT 導引PCI 的核心概念：
+## 8 重點摘要
+> **核心發現摘要**
+> OCT 導引PCI 的核心概念：
 1. OCTOBER 試驗首次證明OCT 導引在複雜PCI 改善臨床預後
 2. 標準化流程：Pre-PCI 評估→支架置放→Post-PCI 優化
 3. MSA 是最重要的預後預測因子
 4. 深層邊緣夾層、顯著malapposition 需要處理
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
-核心發現摘要
-斑塊造影的臨床應用：
+> **核心發現摘要**
+> 斑塊造影的臨床應用：
 1. 多模式造影可全面評估斑塊體積、組成、功能意義
 2. TCFA（fibrous cap < 65 µm + lipid arc > 90°）是高風險斑塊標誌
 3. Statin 與PCSK9 抑制劑可促進斑塊穩定化（增厚fibrous cap、減少脂質）
@@ -543,9 +454,6 @@ clinical trial. Circulation. 2023;148:1195-1206. 10. Lee JM, Choi KH, Song YB, e
 complex PCI (RENOVATE-COMPLEX-PCI). N Engl J Med. 2023;388:1668-1679. 11. Prati F, Romagnoli E, Gatto L, et al. Relationship between coronary plaque morphology
 of the left anterior descending artery and 12 months clinical outcome: the CLIMA study. Eur Heart J. 2020;41:383-391.
 
-
-EuroIntervention 教學講義
-Intravascular Imaging
 12. Nicholls SJ, Puri R, Anderson T, et al. Effect of evolocumab on progression of coro-
 nary disease in statin-treated patients: the GLAGOV randomized clinical trial. JAMA. 2016;316:2373-2384. 13. Räber L, Ueki Y, Otsuka T, et al. Effect of alirocumab added to high-intensity statin
 therapy on coronary atherosclerosis in patients with acute myocardial infarction: the

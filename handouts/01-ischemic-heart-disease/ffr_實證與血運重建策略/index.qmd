@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "FFR 實證與血運重建策略"
 subtitle: "FFR 實證與血運重建策略"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-03-26
@@ -9,31 +9,4 @@ toc-depth: 3
 number-sections: true
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> 此文件為預留架構，內容尚待補充。請參閱同目錄下的 `book FFR Eng 教學講義.md` 取得完整 FFR 教學講義（英文版）。

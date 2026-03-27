@@ -1,6 +1,6 @@
 ---
-title: "NEJM Case Record 教學講義"
-subtitle: "NEJM Case 5-2026"
+title: "Case 5-2026: 18 歲女性頭痛與高血壓 — Reninoma"
+subtitle: "Case 5-2026: 18 歲女性頭痛與高血壓 — Reninoma"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-03-26
 lang: zh-TW
@@ -9,15 +9,8 @@ toc-depth: 3
 number-sections: true
 ---
 
-Reninoma
-Case 5-2026: An 18-Year-Old Woman with
-Headache and Hypertension
-病例5-2026：一位18 歲女性，主訴頭痛與高血壓
-N Engl J Med 2026;394:700-9
-DOI: 10.1056/NEJMcpc2412521
-February 12, 2026
-1 病例呈現(Case Presentation)
-1.1 Chief Complaint 主訴
+## 1. 病例呈現 (Case Presentation)
+### 1.1 Chief Complaint 主訴
 An 18-year-old woman presented to the emergency department of this hospital because of
 worsening headache and hypertension. 一位18 歲女性因頭痛惡化與高血壓至本院急診就診。 1.2 History of Present Illness 現病史
 Key Timeline 關鍵時間線：
@@ -38,11 +31,7 @@ cm H2O（升高）；診斷為原發性顱內高壓
 headache; pulmonary edema on CXR; admitted to PICU
 入院當日：高血壓危象：血壓207/143 mmHg；雙側顳部壓迫性頭痛；胸部X 光顯
 示肺水腫；入住PICU
-1.3 Past Medical History 過去病史
-
-
-NEJM Case Record 教學講義
-Reninoma
+### 1.3 Past Medical History 過去病史
 Category 類別
 Details 內容
 Medical History
@@ -63,7 +52,7 @@ Social History
 Family History
 - Inflammatory bowel disease in twin brothers
 - No family history of hypertension or heart disease
-1.4 Physical Examination 身體檢查
+### 1.4 Physical Examination 身體檢查
 Item 項目
 Findings 發現
 Vital Signs
@@ -85,17 +74,13 @@ Extremities
 Neurologic
 - No motor or sensory deficits
 - Funduscopic exam at prior visits: papilledema noted
-1.5 Laboratory Data 實驗室數據
+### 1.5 Laboratory Data 實驗室數據
 Critical Laboratory Findings 關鍵實驗室發現
 • Potassium: 2.0 mmol/L (ref: 3.4-5.0) —Severe hypokalemia 嚴重低血鉀
 • Creatinine: 1.19 mg/dL →0.87 mg/dL (baseline 0.60) —Improved with fluids
 • High-sensitivity Troponin T: 43 ng/L (ref: 0-9) —Demand ischemia from hyperten-
 sive crisis
 • Plasma renin activity: 150 ng/mL/hr (ref: 1.2-2.4) —Severely elevated! 嚴重升高！
-
-
-NEJM Case Record 教學講義
-Reninoma
 • Aldosterone: 4.1 ng/dL (ref: <21) —Surprisingly normal 意外地正常
 • Metanephrine and normetanephrine: Normal —Rules out pheochromocytoma
 Test
@@ -188,11 +173,6 @@ TSH
 0.40-5.00
 Mildly elevated
 輕微升高
-續下頁...
-
-
-NEJM Case Record 教學講義
-Reninoma
 Test
 檢驗項目
 Result
@@ -256,7 +236,7 @@ No cocaine/amphetamines
 —
 Mild proteinuria
 輕度蛋白尿
-1.6 Electrocardiogram 心電圖
+### 1.6 Electrocardiogram 心電圖
 ECG Findings 心電圖發現
 • Sinus tachycardia 竇性心搏過速
 • Inferoapical ST-segment depressions 下壁心尖部ST 段壓低
@@ -265,11 +245,7 @@ ECG Findings 心電圖發現
 • U waves in V2, V3, V4 —consistent with severe hypokalemia U 波出現於V2、V3、
 V4 —符合嚴重低血鉀
 • R wave in aVL >11 mm
-1.7 Imaging Studies 影像學檢查
-
-
-NEJM Case Record 教學講義
-Reninoma
+### 1.7 Imaging Studies 影像學檢查
 1.7.1 Chest Radiograph 胸部X 光
 • Prominence of perihilar vasculature 肺門周圍血管突出
 • Perihilar opacities in both lungs 雙側肺門周圍混濁
@@ -296,11 +272,7 @@ T2 加權影像呈低訊號
 • Moderate-to-severe left ventricular hypertrophy 中重度左心室肥大
 • Normal systolic function 正常收縮功能
 • No evidence of coarctation of aorta 無主動脈狹窄證據
-
-
-NEJM Case Record 教學講義
-Reninoma
-2 醫學英文寫作解析(Medical English Writing Analysis)
+## 2. 醫學英文寫作解析 (Medical English Writing Analysis)
 Original Sentence
 原文例句
 Grammar
@@ -416,13 +388,9 @@ passive 表示歷
 史延續至今的觀
 察
 建立學術背景
-
-
-NEJM Case Record 教學講義
-Reninoma
-3 鑑別診斷(Differential Diagnosis)
+## 3. 鑑別診斷 (Differential Diagnosis)
 3.1 Clinical Reasoning Framework 臨床推理架構
-重點提醒
+> **重點提醒**
 Dr. Paul K. Fadakar 的診斷思路
 面對這位18 歲女性的難治性高血壓合併低血鉀，診斷推理聚焦於：
 1. 年輕患者的高血壓：次發性原因可能性高
@@ -506,11 +474,6 @@ renin)
 Aldosterone-to-
 renin ratio
 CT adrenals
-續下頁...
-
-
-NEJM Case Record 教學講義
-Reninoma
 Differential
 Di-
 agnosis
@@ -648,11 +611,6 @@ OCP alone
 Discontinuation
 trial
 Rare Renal Tumors 罕見腎臟腫瘤
-續下頁...
-
-
-NEJM Case Record 教學講義
-Reninoma
 Differential
 Di-
 agnosis
@@ -666,7 +624,6 @@ Against
 Suggested
 Workup
 建議檢查
-Reninoma
 (Juxtaglomerular
 Cell Tumor)
 腎素瘤（腎絲球旁
@@ -689,7 +646,6 @@ Distinguishing Primary Hyperaldosteronism from Reninoma
 區分原發性醛固酮過多症與腎素瘤的關鍵：
 Parameter
 Primary Hyperaldosteronism
-Reninoma
 Renin 腎素
 ↓↓Low/Suppressed
 ↑↑↑Very High
@@ -700,7 +656,7 @@ Source 來源
 Adrenal gland 腎上腺
 Kidney (JG cells) 腎臟
 本病例：Renin 150 ng/mL/hr (正常1.2-2.4) →極度升高，指向reninoma！
-4 討論(Discussion)
+## 4. 討論 (Discussion)
 4.1 Reninoma (Juxtaglomerular Cell Tumor) 腎素瘤
 What is Reninoma? 什麼是腎素瘤？
 Definition 定義:
@@ -713,10 +669,6 @@ Epidemiology 流行病學:
 • Mean age: 20-30 years (range: 6-69 years)
 • Slight female predominance
 • Most cases are benign; rare reports of metastatic disease
-
-
-NEJM Case Record 教學講義
-Reninoma
 4.2 Pathophysiology 病理生理學
 Mechanism 機制
 Effect 效應
@@ -745,7 +697,7 @@ Chronic Effects
 LVH)
 - End-organ damage
 左心室肥大、終末器官損傷
-重點提醒
+> **重點提醒**
 Reninoma 與顱內高壓的關聯
 本病例的獨特之處：病人同時有papilledema 和elevated intracranial pressure。 Proposed Mechanism 可能機制:
 • Aldosterone stimulates mineralocorticoid receptors in choroid plexus epithelium
@@ -759,10 +711,6 @@ Classic Triad of Reninoma 腎素瘤經典三聯徵
 2. Hypokalemia —due to secondary hyperaldosteronism 低血鉀
 3. Elevated plasma renin activity —massively elevated 血漿腎素活性極度升高
 Other clinical features:
-
-
-NEJM Case Record 教學講義
-Reninoma
 • Headache (common presenting symptom)
 • Visual disturbances (if papilledema present)
 • Polyuria, polydipsia (from hypokalemia)
@@ -810,12 +758,8 @@ nomonic
 • Direct Renin Inhibitors: Block renin directly (aliskiren)
 • Spironolactone: Aldosterone antagonist + K+-sparing
 • Calcium Channel Blockers: Nicardipine IV for acute control
-
-
-NEJM Case Record 教學講義
-Reninoma
 • Alpha-blockers: Phentolamine (while pheochromocytoma ruled out)
-重點提醒
+> **重點提醒**
 為什麼ACE inhibitors alone 效果不佳？
 本病例中，即使使用maximal dose captopril→lisinopril，血壓仍難以控制。 原因：Angiotensin II 可經由非ACE 途徑產生（如chymase），因此需要：
 • 合併ARB 使用（block AT1 receptor）
@@ -835,15 +779,11 @@ This Patient’s Outcome:
 • Discharged home on POD 1
 • Aliskiren discontinued due to hypotension post-op
 • Subsequently normotensive without any antihypertensive therapy!
-5 最終診斷(Final Diagnosis)
+## 5. 最終診斷 (Final Diagnosis)
 Reninoma (Juxtaglomerular Cell Tumor)
 腎素瘤（腎絲球旁細胞腫瘤）
-6 治療計畫(Treatment Plan)
+## 6. 治療計畫 (Treatment Plan)
 6.1 Pharmacological Treatment 藥物治療
-
-
-NEJM Case Record 教學講義
-Reninoma
 Drug
 (Generic
 Name)
@@ -940,10 +880,6 @@ PO
 Daily
 For ongoing papilledema
 持續性視乳頭水腫治療
-
-
-NEJM Case Record 教學講義
-Reninoma
 6.2 Surgical Treatment 手術治療
 Robot-Assisted Laparoscopic Partial Nephrectomy
 Timing: 6 weeks after initial hospitalization (to allow medical BP optimization)
@@ -955,58 +891,50 @@ Outcome:
 • No intraoperative complications
 • Discharged POD 1
 • Normotensive without medications post-operatively
-7 學習重點(Key Takeaways)
-重點提醒
+## 7. 學習重點 (Key Takeaways)
+> **重點提醒**
 1. Secondary Hypertension Workup in Young Patients
 • Hypertension in adolescents/young adults warrants investigation for secondary causes
 • Key differential: renal parenchymal disease, renovascular disease, endocrine causes
 • Severe hypokalemia in a hypertensive patient suggests mineralocorticoid excess
 • 年輕高血壓患者合併嚴重低血鉀→需考慮次發性原因
-重點提醒
+> **重點提醒**
 2. Distinguishing Hyperaldosteronism Types
 • Primary hyperaldosteronism: ↑Aldosterone, ↓Renin (high A:R ratio)
 • Secondary hyperaldosteronism: ↑Aldosterone, ↑Renin (normal or low A:R ratio)
 • Reninoma: ↑↑↑Renin, normal-to-↑Aldosterone
 • Renin level is the KEY distinguishing feature!
 • 腎素水平是區分的關鍵！
-
-
-NEJM Case Record 教學講義
-Reninoma
-重點提醒
+> **重點提醒**
 3. Reninoma: Classic Triad
 • Hypertension (often severe, refractory)
 • Hypokalemia (from secondary hyperaldosteronism)
 • Markedly elevated plasma renin activity
 • Usually young patients (<40 years)
 • 經典三聯徵：高血壓+ 低血鉀+ 腎素極度升高
-重點提醒
+> **重點提醒**
 4. Pathologic Features of Reninoma
 • Histology: Small polygonal-to-spindle cells, hyalinized vessels
 • IHC: CD34+, GATA3+, Smooth muscle actin+, Renin+ (if available)
 • Electron microscopy: Rhomboid renin crystals (pathognomonic)
 • Most are benign; rare metastatic cases reported
 • 電子顯微鏡下的菱形腎素結晶具診斷價值
-重點提醒
+> **重點提醒**
 5. Treatment Strategy
 • Medical: ACEi + ARB + Spironolactone + Aliskiren (may need combination)
 • Why ACEi alone insuﬀicient: Non-ACE pathways (chymase) produce Angiotensin II
 • Definitive treatment: Surgical resection
 • Partial nephrectomy preferred (nephron-sparing)
 • 手術切除是根治性治療
-重點提醒
+> **重點提醒**
 6. Reninoma and Intracranial Hypertension
 • Hyperreninemia can cause a hyperaldosteronism-like state
 • Aldosterone stimulates mineralocorticoid receptors in choroid plexus
 • Results in increased CSF production →elevated ICP →papilledema
 • May take time to resolve after tumor removal
 • 腎素瘤可能導致顱內壓升高和視乳頭水腫
-
-
-NEJM Case Record 教學講義
-Reninoma
-8 自我測驗(Self-Assessment Quiz)
-8.1 題目(Questions)
+## 8. 自我測驗 (Self-Assessment Quiz)
+### 8.1 題目 (Questions)
 Question 1. An 18-year-old woman presents with severe hypertension (207/143 mmHg) and
 headache. Laboratory studies show potassium 2.0 mmol/L. Which laboratory finding would
 most strongly suggest reninoma rather than primary hyperaldosteronism?
@@ -1034,10 +962,6 @@ levels were checked. What is the purpose of this test?
 (C) To assess for Cushing’s syndrome
 (D) To evaluate adrenal insuﬀiciency
 (E) To monitor response to treatment
-
-
-NEJM Case Record 教學講義
-Reninoma
 Question 4. The patient was started on captopril (ACE inhibitor) but blood pressure
 remained poorly controlled despite maximal dosing. Which of the following best explains this
 phenomenon?
@@ -1069,10 +993,6 @@ Question 7. Which of the following is the definitive treatment for reninoma?
 下列何者是腎素瘤的根治性治療？
 (A) Lifelong ACE inhibitor therapy
 (B) Radiofrequency ablation
-
-
-NEJM Case Record 教學講義
-Reninoma
 (C) Surgical resection (partial or radical nephrectomy)
 (D) Radiation therapy
 (E) Chemotherapy with targeted agents
@@ -1101,11 +1021,7 @@ Question 10. Which of the following statements about reninoma is correct?
 (C) The majority of reninomas are malignant with high metastatic potential
 (D) Partial nephrectomy is preferred over radical nephrectomy when feasible
 (E) Reninoma is associated with low renin and high aldosterone levels
-
-
-NEJM Case Record 教學講義
-Reninoma
-8.2 答案與解析(Answers and Explanations)
+### 8.2 答案與解析 (Answers and Explanations)
 Question 1. Answer: (D)
 Explanation: Reninoma is characterized by markedly elevated plasma renin activity due
 to autonomous renin secretion by the tumor. In contrast, primary hyperaldosteronism has
@@ -1136,10 +1052,6 @@ rhomboid renin crystals (renin protogranules) is pathognomonic. Chromogranin A i
 in pheochromocytoma; HMB-45 in angiomyolipoma. 解析：腎素瘤的特徵是renin 染色陽性（最特異，但常不可用）、CD34、GATA3 和平滑肌
 肌動蛋白。電子顯微鏡顯示菱形腎素結晶（腎素原顆粒）具有病理診斷意義。Chromogranin
 A 在嗜鉻細胞瘤中陽性；HMB-45 在血管肌脂瘤中陽性。 Question 6. Answer: (B)
-
-
-NEJM Case Record 教學講義
-Reninoma
 Explanation: Low plasma renin activity with elevated aldosterone indicates autonomous
 aldosterone secretion that suppresses the renin-angiotensin system, consistent with primary
 hyperaldosteronism (Conn’s syndrome). Reninoma has HIGH renin. Liddle’s syndrome has
@@ -1167,10 +1079,6 @@ because it preserves renal functional reserve, which is especially important in 
 the majority are benign. Reninoma has HIGH renin (not low). 解析：在可行時，部分腎切除術優於根治性腎切除術，因為它保留腎功能儲備，這對年輕
 患者尤其重要。腎素瘤罕見（不常見），通常在年輕患者中出現（平均年齡20-30 歲），大多
 數是良性的。腎素瘤的腎素是高的（不是低的）。 9 總結(Summary)
-
-
-NEJM Case Record 教學講義
-Reninoma
 本病例的關鍵學習要點
 1. Reninoma 的診斷思路：年輕患者的嚴重高血壓+ 低血鉀+ 腎臟腫塊→考慮腎
 素瘤
