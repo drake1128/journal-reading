@@ -1,7 +1,9 @@
 # Generated output (can be rebuilt)
 _site/
+site_libs/
 *_files/
 *.pptx
+handouts/**/*.html
 *.log
 *.aux
 *.out
