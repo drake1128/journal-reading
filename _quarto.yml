@@ -30,6 +30,7 @@ website:
             - handouts/01-ischemic-heart-disease/cath-hemodynamics/index.qmd
             - handouts/01-ischemic-heart-disease/cath-hemodynamics-aortic-stenosis-hanna/index.qmd
             - handouts/01-ischemic-heart-disease/ccu-hemodynamic-monitor-and-shock-hf/index.qmd
+            - handouts/01-ischemic-heart-disease/ffr-evidence-revascularization/index.qmd
             - handouts/01-ischemic-heart-disease/lecture-post-mi-mechanical-complications/index.qmd
             - handouts/01-ischemic-heart-disease/nejm-acs-dapt-withdrawal-of-aspirin/index.qmd
             - handouts/01-ischemic-heart-disease/stemi_missed_diagnosis_case_study/index.qmd
@@ -44,6 +45,8 @@ website:
             - handouts/03-arrhythmia/antithrombotic-therapy-after-successful-catheter-ablation/index.qmd
             - handouts/03-arrhythmia/circulation-ai-ecg-phenotypic-selectivity-2025/index.qmd
             - handouts/03-arrhythmia/ecg-challenge-alternating-rbbb/index.qmd
+            - handouts/03-arrhythmia/ecg-reading-guide-for-nurses/index.qmd
+            - handouts/03-arrhythmia/ecg-reading-guide-nursing/index.qmd
             - handouts/03-arrhythmia/ecg_interpretation_myocardial_infarction_a_clinical_guide/index.qmd
             - handouts/03-arrhythmia/ehj-afib-k/index.qmd
             - handouts/03-arrhythmia/european-heart-journal-beat-parox-af-pfa-vs-rfa-2025-afib-ep/index.qmd
@@ -76,6 +79,7 @@ website:
             - handouts/04-valvular-disease/lecture-mitral-tmvr-encircle-trial/index.qmd
             - handouts/04-valvular-disease/lecture-mitral-tmvr-sapien-m3/index.qmd
             - handouts/04-valvular-disease/nejm-clinical-decisions-tavr-vs-savr-2026/index.qmd
+            - handouts/04-valvular-disease/sdm-tavr-vs-savr-decision/index.qmd
             - handouts/04-valvular-disease/structural-pfo-echo/index.qmd
             - handouts/04-valvular-disease/tavr-ct-evaluation/index.qmd
             - handouts/04-valvular-disease/teer-2023-dapagliflozin-and-mr/index.qmd
@@ -86,6 +90,8 @@ website:
         - section: "心臟影像 Imaging"
           contents:
             - handouts/05-cardiac-imaging/index.qmd
+            - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns/index.qmd
+            - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-2/index.qmd
             - handouts/05-cardiac-imaging/checklist-icu-pocus/index.qmd
             - handouts/05-cardiac-imaging/echo-pharma-pulmonary-htn/index.qmd
             - handouts/05-cardiac-imaging/echo_abi_and_vascular_duplex/index.qmd
@@ -180,6 +186,7 @@ website:
             - handouts/06-interventional-cardiology/lecture-ivl-icr-2025/index.qmd
             - handouts/06-interventional-cardiology/manual-pci-case202/index.qmd
             - handouts/06-interventional-cardiology/news-letter-tet-2025-10-18/index.qmd
+            - handouts/06-interventional-cardiology/oct-abbott-ultreon-manual/index.qmd
             - handouts/06-interventional-cardiology/pcs-k9i-vesalius-cv-2025/index.qmd
             - handouts/06-interventional-cardiology/people-in-cv-patrick-serruys/index.qmd
             - handouts/06-interventional-cardiology/people-in-cv-peter-sleight/index.qmd
@@ -208,6 +215,7 @@ website:
         - section: "高血壓 Hypertension"
           contents:
             - handouts/09-hypertension/index.qmd
+            - handouts/09-hypertension/cobra-bps-home-bp-titration/index.qmd
         - section: "ICU 一般照護"
           contents:
             - handouts/10-icu-general/index.qmd
@@ -243,6 +251,7 @@ website:
         - section: "ICU 血液動力學"
           contents:
             - handouts/12-icu-hemodynamics/index.qmd
+            - handouts/12-icu-hemodynamics/cardiogenic-shock-esc/index.qmd
             - handouts/12-icu-hemodynamics/ccu-cardiogenic-shock/index.qmd
             - handouts/12-icu-hemodynamics/ccu-cardiogenic-shock-journal-reading/index.qmd
             - handouts/12-icu-hemodynamics/ccu-cath-iabp-elias-hanna/index.qmd
@@ -424,7 +433,9 @@ website:
             - handouts/99-misc/book-cardiovascular-care-for-neurologists/index.qmd
             - handouts/99-misc/case-slide-compartment-syndrome/index.qmd
             - handouts/99-misc/chest-implementation-science-practice-variability-2026/index.qmd
+            - handouts/99-misc/communication-end-of-life/index.qmd
             - handouts/99-misc/dan-koe-how-to-fix-your-life-2026/index.qmd
+            - handouts/99-misc/dan-koe-how-to-fix-your-life-general/index.qmd
             - handouts/99-misc/dietary-natural-approaches-stroke-prevention-2025/index.qmd
             - handouts/99-misc/esc-consensus-mentality-illness/index.qmd
             - handouts/99-misc/eurointervention-calcified-nodules-ali/index.qmd
@@ -438,12 +449,15 @@ website:
             - handouts/99-misc/journal-reading-medical-education-discontinuation/index.qmd
             - handouts/99-misc/journal-reading-semaglutid-2025-05/index.qmd
             - handouts/99-misc/lecture-lab-troponin/index.qmd
+            - handouts/99-misc/medical-ethics-case/index.qmd
+            - handouts/99-misc/medical-ethics-case-discussion/index.qmd
             - handouts/99-misc/medical_journals/index.qmd
             - handouts/99-misc/nature-2025-brain-development/index.qmd
             - handouts/99-misc/nature-2025-bred-dogs/index.qmd
             - handouts/99-misc/nature-2025-new-events/index.qmd
             - handouts/99-misc/nature-2025-obesity-paradox/index.qmd
             - handouts/99-misc/nature-covid-19-rbc-microangiopathy-2025/index.qmd
+            - handouts/99-misc/nature-east-fusion-2026/index.qmd
             - handouts/99-misc/nejm-case-1-2026/index.qmd
             - handouts/99-misc/nejm-case-15-2025-id/index.qmd
             - handouts/99-misc/nejm-case-18-2025/index.qmd
