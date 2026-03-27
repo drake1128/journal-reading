@@ -1,6 +1,6 @@
 ---
-title: "NEJM Case Record 教學講義"
-subtitle: "NEJM Case 1-2026"
+title: "NEJM Case 1-2026: A 50-Year-Old Woman with Fever and Abdominal Pain"
+subtitle: "NEJM Case 1-2026: A 50-Year-Old Woman with Fever and Abdominal Pain"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-03-26
 lang: zh-TW
@@ -9,780 +9,264 @@ toc-depth: 3
 number-sections: true
 ---
 
-Disseminated Meningococcal Disease
-Case 1-2026: A 50-Year-Old Woman with
-Fever and Abdominal Pain
-病例1-2026：一位50 歲女性，主訴發燒與腹痛
-N Engl J Med 2026;394:178-89
-DOI: 10.1056/NEJMcpc2513324
-January 2, 2026
-1 病例概述
-1.1 臨床表現
-一位50 歲女性因發燒(fever) 及腹痛(abdominal pain) 至Massachusetts General Hospital 就
-診。病人於發病前剛從巴西鄉村旅行返回。 1.2 病史時序
-時間點
-重要事件與發現
-數週前
-旅遊史
-- 前往巴西東北部偏遠地區旅行
-- 在海灘被多隻蚊子叮咬
-- 該地區有dengue 及chikungunya 病例報告
-- 未服用瘧疾預防藥物
-4 天前
-返回Massachusetts 後
-- 發生fatigue(疲勞)
-3 天前
-腸胃道症狀開始
-- 多次watery diarrhea(水樣腹瀉)
-- Nausea(噁心)
-- Mild diffuse abdominal discomfort(輕度瀰漫性腹部不適)
-- 體重下降3 公斤
-發病期間
-其他症狀
-- Chills(畏寒)
-- Malaise(全身不適)
-- Headache(頭痛)
-- Pain in knees and legs(膝蓋及腿部疼痛)
-當日
-急診就診
-- Dyspnea(呼吸困難) 及lethargy(嗜睡) 加劇
-- 因malaise 無法完整回答問題, 由丈夫提供病史
-1.3 重要病史
+## 最終診斷
 
+> **Disseminated Meningococcal Disease — Neisseria meningitidis serogroup W135**
+> Complicated by: Phlegmonous gastritis、Disseminated intravascular coagulation (DIC)、Refractory septic shock
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-類別
-內容
-Past Medical His-
-tory
-童年時期Schistosomiasis(血吸蟲病)併發:
-- Noncirrhotic portal hypertension(非肝硬化門脈高壓)
-- Esophageal varices(食道靜脈曲張)
-- Splenomegaly(脾腫大)
-- Chronic thrombocytopenia(慢性血小板低下)
-- Chronic leukopenia(慢性白血球低下)
-其他:
-- Gastroesophageal reflux disease
-- Iron deficiency anemia
-- Hypothyroidism
-- Allergic rhinitis
-Liver Disease His-
-tory
-- 10 年前: 肝臟超音波顯示fatty infiltration
-- 肝臟切片: Nodular regenerative hyperplasia, 無明顯纖維化
-- 6 年前: Liver elastography 顯示stiffness 18.4 kPa (F4 fi-
-brosis)
-- 4 年前: 超音波顯示consistent with cirrhosis, 脾臟16 cm
-- EGD: Grade II esophageal varices
-Medications
-- Levothyroxine
-- Cetirizine
-- Ergocalciferol
-- Resveratrol
-- Multivitamin
-- (Propranolol 曾使用但因fatigue 停用)
-Allergies
-Sulfa-containing medications
-Vaccinations
-SARS-CoV-2, Hepatitis A & B, Pneumococcus
-Social History
-- 出生於巴西, 成年後移民至Boston
-- 與家人同住Boston 郊區
-- 從事服務業, 常暴露於灰塵
-- 不抽菸、不飲酒、無recreational drug use
-Family History
-- 一位兄弟四十多歲時死於chronic liver disease(attributed
-to alcohol)
-- 另兩位兄弟有hematemesis 病史
-- 其中一位兄弟曾有schistosomiasis 並接受splenectomy
-1.4 理學檢查
-項目
-發現
-Vital Signs
-- Temperature: 38.4°C (發燒)
-- Heart rate: 105 bpm (心搏過速)
-- Blood pressure: 76/44 mmHg (低血壓/休克)
-- Respiratory rate: 32/min (呼吸過速)
-- SpO2: 100% on room air
+---
 
+## 1. 病例概述
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-General
-- Lethargic and unwell(嗜睡、病容明顯)
-- Diaphoretic(流汗)
-- Pale skin(蒼白)
-- Labored rapid breathing(費力快速呼吸)
-HEENT
-Petechiae of the posterior palate(軟顎瘀點)
-Abdomen
-- Slightly distended(輕度膨脹)
-- Diffusely tender(瀰漫性壓痛)
-- Most tender in RUQ and suprapubic area
-- Murphy’s sign: Absent
-- Spleen tip palpable(脾臟可觸及)
-Extremities
-- Trace edema of legs
-- No rash(無皮疹)
-CVA tenderness
-Absent
-1.5 實驗室檢查
-關鍵實驗室發現—入院時
-• WBC: 2,150/￿L →ICU 時22,850/￿L (急劇變化!)
-• Platelet: 37,000/￿L →ICU 時29,000/￿L (嚴重血小板低下)
-• Hemoglobin: 12.3 g/dL
-• Lactate: 4.7 →13.2 mmol/L (嚴重乳酸中毒)
-• PT: 20.9 sec →27.8 sec, INR: 1.9 →2.5 (DIC)
-• PTT: 54.1 →79.7 sec
-• Fibrinogen: 159 →79 mg/dL (消耗性凝血病變)
-• D-dimer: >7650 ng/mL
-• Total bilirubin: 2.2 →5.7 mg/dL
-• Venous pH: 7.15 (嚴重代謝性酸中毒)
-• Glucose: 91 →21 mg/dL (嚴重低血糖)
+### 1.1 臨床表現
 
+一位 50 歲女性因發燒 (fever) 及腹痛 (abdominal pain) 至 Massachusetts General Hospital 就診。病人於發病前剛從巴西鄉村旅行返回。
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-重點提醒
-重要觀察: WBC 的急劇變化
-病人入院時呈現leukopenia (WBC 2,150/￿L), 這與她長期因hypersplenism 導致的baseline
-leukopenia 一致。然而, 在短短數小時內,WBC 急劇上升至22,850/￿L 並伴有明顯left shift
-(bands 14.6%, metamyelocytes present)。 這種從leukopenia 到marked leukocytosis 的快速轉變, 強烈提示:
-• 細菌感染(非病毒感染)
-• 免疫系統對感染的強烈反應
-• 可能有骨髓釋放大量白血球的刺激
-2 影像學發現
-2.1 Chest Radiography
-• Diffuse interstitial and airspace opacities in both lungs(雙側肺部瀰漫性間質及氣腔混
-濁)
-2.2 CT Chest (PE Protocol)
-• No evidence of pulmonary embolism
-• Diffuse septal thickening(瀰漫性間隔增厚)
-• Bilateral pleural effusions
-• Diffuse mediastinal edema
-• Small pericardial effusion
-• Subcentimeter mediastinal and hilar lymph nodes
-2.3 CT Abdomen and Pelvis
-• Morphologic features consistent with cirrhosis
-• Large portosystemic collaterals (gastroesophageal varices)
-• Large patent periumbilical vein
-• Spleen: 18.8 cm (marked splenomegaly)
-• Right hydroureteronephrosis due to compression by 12.2 cm uterine fibroid
-• Distal gastric, duodenal, and diffuse colorectal wall thickening
-• Ascites and diffuse mesenteric/retroperitoneal edema
+### 1.2 病史時序
 
+| 時間點 | 重要事件與發現 |
+|--------|---------------|
+| 數週前 | 前往巴西東北部偏遠地區旅行；在海灘被多隻蚊子叮咬；該地區有 dengue 及 chikungunya 病例報告；未服用瘧疾預防藥物 |
+| 4 天前 | 返回 Massachusetts 後發生 fatigue |
+| 3 天前 | 多次 watery diarrhea、nausea、mild diffuse abdominal discomfort、體重下降 3 公斤 |
+| 發病期間 | Chills、malaise、headache、pain in knees and legs |
+| 當日急診 | Dyspnea 及 lethargy 加劇；因 malaise 無法完整回答問題 |
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-2.4 Cardiac Ultrasonography
-• Globally reduced biventricular function
-• Moderate tricuspid regurgitation
-• Plethoric inferior vena cava
-• No pericardial effusion
-3 鑑別診斷
-3.1 臨床推理架構
-重點提醒
-Dr. Stephen C. Threlkeld 的診斷思路
-面對這位有複雜病史的50 歲旅行歸國女性, 診斷推理聚焦於:
-1. Rapid deterioration with refractory septic shock and DIC
-2. Host factors: Preexisting liver disease, possible cirrhosis, hypersplenism
-3. Travel exposure: Recent trip to northeastern Brazil
-3.2 旅行相關感染的鑑別診斷
-鑑別診斷
-支持證據
-反對證據
-細菌感染(Bacterial Infections)
-Enteric
-Fever
-(Typhoid)
-- 巴西旅遊史
-- 發燒、腹痛、腹瀉
-- 疾病進展太快
-- 無relative bradycardia
-- 無rose spots
-- 無intestinal perforation
-Nontyphoidal
-Salmonella
-- 與schistosomiasis 有關聯
-- 可因schistosoma 再感染
-而伴發嚴重salmonella bac-
-teremia
-- 可能性存在但需證據
-Vibrio vulnificus
-- 晚期肝病病人的fulmi-
-nant presentation
-- 有海邊暴露史
-- 無hemorrhagic bullous skin le-
-sions
-- 潛伏期太長
-Listeria
-- 可在免疫低下者造成sep-
-sis
-- 腸胃道症狀
-- 無unpasteurized dairy 暴露史
-寄生蟲感染(Parasitic Infections)
+### 1.3 重要病史
 
+| 類別 | 內容 |
+|------|------|
+| Past Medical History | 童年時期 schistosomiasis 併發：noncirrhotic portal hypertension、esophageal varices、splenomegaly、chronic thrombocytopenia、chronic leukopenia |
+| Liver Disease | 10 年前：fatty infiltration + nodular regenerative hyperplasia；6 年前：liver elastography stiffness 18.4 kPa (F4)；4 年前：超音波 consistent with cirrhosis，脾臟 16 cm |
+| Medications | Levothyroxine、cetirizine、ergocalciferol、resveratrol、multivitamin |
+| Vaccinations | SARS-CoV-2、Hepatitis A & B、Pneumococcus |
+| Social History | 出生於巴西，成年後移民至 Boston；不抽菸、不飲酒 |
+| Family History | 一位兄弟死於 chronic liver disease；一位兄弟曾有 schistosomiasis 並接受 splenectomy |
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-鑑別診斷
-支持證據
-反對證據
-Malaria
-- 巴西旅遊
-- 未服用預防藥物
-- 發燒、嚴重病程
-- 巴西東北部malaria 罕見
-- 該區>90% 為P. vivax (較少
-fulminant)
-- Rapid malaria antigen test:
-Negative
-Chagas’ Disease
-- 巴西流行區
-- 可經甘蔗汁傳播
-- 進展通常較慢
-- 常伴myocarditis 或meningoen-
-cephalitis
-病毒感染(Viral Infections)
-Dengue Fever
-- 巴西流行區
-- 蚊子叮咬暴露
-- Dengue shock syndrome
-可致DIC
-- 從leukopenia 到marked leuko-
-cytosis 的變化不符合病毒感染
-Chikungunya
-- 該地區有病例報告
-- 關節痛
-- 很少進展到septic shock
-Oropouche Virus
-- 巴西新興感染
-- 通常較輕微
-3.3 非旅行相關感染的鑑別診斷
-鑑別診斷
-支持證據
-反對證據
-Babesiosis
-- 新英格蘭地區常見
-- 潛伏期可達一個月
-- 脾功能異常者可有嚴重表
-現
-- 需進一步檢驗
-Pyelonephritis
-- 可致septic shock
-- 有ureteral obstruction
-- 無localizing symptoms
-- CT 無inflammatory findings
-Neisseria menin-
-gitidis
-- Classic cause of fulminant
-sepsis and DIC
-- Leg pain 可為presenting
-symptom
-- Serogroup W 常表現為腹
-痛、腹瀉
-- 脾功能異常和hypocom-
-plementemia 是危險因子
--
-無
-typical
-pe-
-techial/hemorrhagic
-rash
-(但
-並非所有病例都有)
-Enteric
-Gram-
-negative
-Bacte-
-ria
-- 晚期肝病最常見感染原因
-- 免疫功能障礙
-- Gut translocation 增加
-- Portosystemic shunting
-- 可能性高
-Dr. Threlkeld 的診斷推論
-此病人最可能的診斷是由革蘭氏陰性菌引起的敗血性休克。 我懷疑血液培養會長出:
+### 1.4 理學檢查
 
+| 項目 | 發現 |
+|------|------|
+| Vital Signs | Temperature 38.4°C、HR 105 bpm、**BP 76/44 mmHg（休克）**、RR 32/min、SpO2 100% on room air |
+| General | Lethargic、diaphoretic、pale skin、labored rapid breathing |
+| HEENT | **Petechiae of the posterior palate（軟顎瘀點）** |
+| Abdomen | Slightly distended、diffusely tender、spleen tip palpable |
+| Extremities | Trace edema of legs、no rash |
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-• Enteric gram-negative rods, 或
-• Neisseria meningitidis
-關鍵線索:
-1. 從leukopenia 快速轉變為leukocytosis with left shift →細菌感染
-2. DIC + refractory shock →Gram-negative sepsis
-3. 腹痛、腹瀉為主要表現→Serogroup W meningococcal disease 特徵
-4. 晚期肝病+ 可能的hypocomplementemia →感染風險增加
-4 診斷檢驗
-4.1 血液培養結果
-Diagnostic Pitfall: Gram Stain Interpretation
-初始Gram stain 結果: 培養瓶陽性後21 小時, 染色顯示“gram-positive cocci in
-clusters”
-MALDI-TOF 結果: Neisseria meningitidis
-重新檢視:
-• 以progressively increased decolorization time 重複Gram stain
-• 完全decolorization 後, 細菌呈現gram-negative diplococci
-• 報告更正為N. meningitidis
-藥敏結果: Susceptible to penicillin G, ceftriaxone, ciprofloxacin, rifampin
-血清分型: Serogroup W135
+### 1.5 實驗室檢查
 
+> **關鍵實驗室發現 — 入院時：**
+> - **WBC: 2,150/μL → ICU 時 22,850/μL**（急劇變化！）
+> - Platelet: 37,000 → 29,000/μL（嚴重血小板低下）
+> - **Lactate: 4.7 → 13.2 mmol/L**（嚴重乳酸中毒）
+> - PT: 20.9 → 27.8 sec, INR: 1.9 → 2.5（DIC）
+> - Fibrinogen: 159 → 79 mg/dL（消耗性凝血病變）
+> - D-dimer: >7650 ng/mL
+> - Venous pH: 7.15（嚴重代謝性酸中毒）
+> - **Glucose: 91 → 21 mg/dL（嚴重低血糖）**
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-重點提醒
-Gram Stain 的陷阱
-Gram staining 並非絕對可靠。細菌的染色結果取決於:
-• 染色技術
-• 細胞壁和細胞膜的厚度與組成
-• 細菌生長階段
-• 環境壓力
-N. meningitidis 在某些情況下可能呈現gram-variable, 導致初始誤判為gram-positive
-cocci。這個案例強調了molecular diagnostic testing(如MALDI-TOF) 的重要性。 值得注意的是,N. meningitidis 在美國非常罕見, 以至於某些commercially available rapid
-molecular panels 並未包含此病原體。 5 治療處置
-5.1 急診處置
-1. 初始復甦
-• 1 liter lactated Ringer’s solution
-• Empiric antibiotics: Vancomycin + Ceftriaxone + Azithromycin
-• Blood pressure improved to 90/54 mmHg
-2. 抗生素升級
-• Piperacillin-tazobactam added
-3. 血管加壓劑
-• Despite additional 2L crystalloid, BP dropped to 73/41 mmHg
-• Norepinephrine started at 6 ￿g/min →increased to 15 ￿g/min
-• Vasopressin added
-5.2 ICU 處置
-處置
-細節
-Airway
-Manage-
-ment
-Endotracheal intubation for mechanical ventilation
-Vascular Access
-- Radial arterial catheter
-- Right internal jugular central venous catheter
-Antibiotics (ICU)
-- Vancomycin
-- Cefepime
-- Metronidazole
+> **Pearl：** WBC 從 leukopenia (2,150/μL) 快速轉變為 marked leukocytosis (22,850/μL) with left shift，強烈提示細菌感染（非病毒感染）、免疫系統對感染的強烈反應、骨髓釋放大量白血球的刺激。
 
+---
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-Supportive Care
-- Dextrose infusion (for hypoglycemia)
-- Propofol sedation
-5.3 難治性休克的處理
-Refractory Shock Management
-當病人發展為refractory shock 時, 採取了以下措施:
-1. Epinephrine —作為第三線vasoactive agent, 特別是因為病人有underlying my-
-ocardial dysfunction
-2. Bicarbonate infusion —緩衝代謝性酸中毒, 因為:
-• 酸中毒會降低catecholamine vasopressors 的eﬀicacy
-• 進一步抑制myocardial function
-3. Stress-dose glucocorticoids —Hydrocortisone + Fludrocortisone
-4. Hydroxocobalamin —作為nitric oxide scavenger, 產生potent vasoconstriction
-未採用VA-ECMO 的原因: Profound coagulopathy 是相對禁忌症
-5.4 臨床結局
-Clinical Outcome
-• 入ICU 後6 小時(就診後12 小時) 發生pulseless electrical activity (PEA)
-• 經與家屬討論goals of care 後, 決定不進行resuscitation
-• 病人死亡
-• 血液培養在病人死亡數小時後報告陽性, 確診為disseminated meningococcal dis-
-ease
-6 病理解剖發現
-6.1 主要發現
-器官/系統
-病理發現
-DIC Evidence
-Small fibrin-rich thrombi in:
-- Lungs
-- Kidneys
-- Colon
-- Heart
+## 2. 影像學發現
 
+| 檢查 | 發現 |
+|------|------|
+| Chest Radiography | Diffuse interstitial and airspace opacities in both lungs |
+| CT Chest (PE Protocol) | No PE；diffuse septal thickening；bilateral pleural effusions；small pericardial effusion |
+| CT Abdomen/Pelvis | Morphologic features consistent with cirrhosis；large portosystemic collaterals；spleen 18.8 cm；right hydroureteronephrosis（12.2 cm uterine fibroid 壓迫）；diffuse colorectal wall thickening；ascites |
+| Cardiac Ultrasonography | Globally reduced biventricular function；moderate tricuspid regurgitation；plethoric IVC |
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-器官/系統
-病理發現
-Stomach (Body)
-- Two small gastrointestinal stromal tumors (GISTs)
-- Chronic gastritis (H. pylori negative)
-Stomach (Pylorus)
-Phlegmonous gastritis:
-- Wall thickening up to 0.8 cm
-- Acute transmural inflammation
-- Hemorrhage involving submucosa and muscularis propria
-- Extension into perigastric soft tissue
-- Local lymphadenitis
-Pancreas
-- Chronic pancreatitis with scarring
-- Focal mild acute pancreatitis
-Liver
-- Small liver with centrilobular hepatocellular injury
-- Hepatocyte dropout
-- Capsular fibrosis with focal bridging (subcapsular)
-- No overt cirrhosis
-- No active schistosomiasis
-Spleen
-Enlarged with changes consistent with portal hypertension
-Uterus
-13.5 cm leiomyoma causing right ureteral compression
-Lungs
-Edematous, no pneumonia
-Brain
-No pathologically significant abnormalities
-重點提醒
-Phlegmonous Gastritis
-這是一種罕見的胃壁急性化膿性感染, 病理特徵包括:
-• 胃壁局部或瀰漫性增厚
-• 出血、水腫、嗜中性球膿瘍
-• 可能有廣泛壞死導致局部壁變薄
-• 黏膜變色、糜爛或潰瘍
-雖然最常與streptococcal infection 相關, 但也有gram-negative bacterial infections(包
-括serogroup W meningococcal infection) 的報告。 Serogroup W meningococcal disease 與急性腸胃道表現後死亡有關, 但其病理變化尚未被
-充分理解。 7 腦膜炎球菌感染
-7.1 臨床表現
-表現類型
-特徵
-Meningitis alone
-頭痛、頸部僵硬、發燒、意識改變
-Meningitis
-+
-Meningococcemia
-腦膜炎症狀+ 敗血症表現
+---
 
+## 3. 鑑別診斷
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-Acute Meningococ-
-cemia alone
-- 發燒、休克、DIC
-- 可無腦膜炎
-- Serogroup W:常見腹痛、腹瀉, 較少皮疹
-7.2 危險因子
-• Hypocomplementemia (acquired 或藥物引起)
-• HIV infection
-• Functional asplenia
-• Travel exposure
-• Occupational exposure
-• Chronic liver disease/cirrhosis —因complement 在肝臟合成
-7.3 流行病學
-Invasive Meningococcal Disease Epidemiology
-全球負擔:
-• 每年約120 萬病例,135,000 死亡
-• 美國case fatality rate: 5-15%
-美國趨勢:
-• 2006-2021 年發生率下降
-• 2021 年後因serogroup Y 而急劇上升
-• 嬰幼兒發生率最高, 但老年人群佔比增加
-• Serogroup B: 幼童最常見
-• Serogroups C, Y, W: 老年人較常見
-巴西情況:
-• 2010-2021 年: 0.59/100,000 人年
-• Serogroup C 原為主要型別
-• 2010 年起嬰兒疫苗、2017 年起青少年booster 後,serogroup C 下降
-• Serogroup B 和W 增加
-7.4 治療與預防
+### 3.1 臨床推理架構
 
+> **Dr. Threlkeld 的診斷思路：** 聚焦於 rapid deterioration with refractory septic shock and DIC，同時考慮 preexisting liver disease（possible cirrhosis, hypersplenism）和 recent travel to northeastern Brazil。
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-項目
-內容
-Treatment
-of
-Choice
-Ceftriaxone (￿-lactam antibiotic)
-抗藥性罕見, 但仍需做susceptibility testing
-Vaccination
-- Meningococcal ACWY vaccines (conjugate vaccines)
-- CDC 建議: 11-12 歲接種,16 歲booster
-- 高風險者(補體缺乏、asplenia、旅行) 需額外接種
-Post-exposure Pro-
-phylaxis
-Close contacts 應儘速給予抗生素預防:
-- Household members
-- Childcare providers
-- 直接暴露於病人oral secretions 者
-- 進行airway management 的醫護人員
-預防藥物選擇:
-- Rifampin
-- Ciprofloxacin
-- Ceftriaxone
-- Azithromycin
-8 最終診斷
-Final Diagnosis
-Disseminated Meningococcal Disease
-Neisseria meningitidis serogroup W135
-Complicated by:
-• Phlegmonous gastritis
-• Disseminated intravascular coagulation (DIC)
-• Refractory septic shock
-9 英文病例報告寫作指導
-9.1 Key Vocabulary and Expressions
-English Term
-中文翻譯
-臨床意義
-Meningococcemia
-腦膜炎球菌菌血症
-N. meningitidis 敗血症
-Disseminated intravascular
-coagulation (DIC)
-瀰漫性血管內凝血
-消耗性凝血病變
-Refractory shock
-難治性休克
-對治療反應不佳的休克
-Fulminant
-猛爆性/暴發性
-快速惡化的疾病過程
-Septic shock
-敗血性休克
-感染導致的休克
+### 3.2 旅行相關感染的鑑別診斷
 
+| 鑑別診斷 | 支持證據 | 反對證據 |
+|----------|----------|----------|
+| Enteric Fever (Typhoid) | 巴西旅遊史；發燒、腹痛、腹瀉 | 疾病進展太快；無 relative bradycardia |
+| Nontyphoidal Salmonella | 與 schistosomiasis 有關聯 | 可能性存在但需證據 |
+| Vibrio vulnificus | 晚期肝病的 fulminant presentation；海邊暴露史 | 無 hemorrhagic bullous skin lesions；潛伏期太長 |
+| Malaria | 巴西旅遊；未服預防藥物 | 巴西東北部 malaria 罕見；>90% 為 P. vivax；rapid antigen test negative |
+| Dengue Fever | 巴西流行區；蚊子叮咬暴露 | 從 leukopenia 到 leukocytosis 不符合病毒感染 |
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-English Term
-中文翻譯
-臨床意義
-Petechiae
-瘀點
-小出血點
-Leukocytosis with left shift
-白血球增多伴核左移
-細菌感染的指標
-Phlegmonous gastritis
-蜂窩組織性胃炎
-胃壁化膿性感染
-Hypocomplementemia
-低補體血症
-補體缺乏
-Hypersplenism
-脾功能亢進
-脾臟過度破壞血球
-Portal hypertension
-門脈高壓
-門靜脈壓力升高
-Noncirrhotic portal hyper-
-tension
-非肝硬化性門脈高壓
-無肝硬化的門脈高壓
-Schistosomiasis
-血吸蟲病
-寄生蟲感染
-Post-exposure prophylaxis
-暴露後預防
-接觸者預防性治療
-Capillary leak
-微血管滲漏
-血管通透性增加
-Gram-negative diplococci
-革蘭氏陰性雙球菌
-N. meningitidis 形態
-9.2 鑑別診斷討論的寫作模式
-Differential Diagnosis Discussion Framework
-1. 聚焦關鍵特徵:
-“In working toward the most likely diagnosis in this patient’s case, I will focus
-on the distinctive feature of rapid deterioration with refractory septic shock
-and DIC, while considering her preexisting diseases and recent travel.”
-2. 分析宿主因素:
-“Cirrhosis leads to several important functional immunologic defects, includ-
-ing hypocomplementemia, increased gut translocation of bacteria, and por-
-tosystemic shunting.”
-3. 排除診斷的表達:
-“The rapid progression of disease that was seen in this patient would be unusual
-with this diagnosis.”
-4. 解釋實驗室發現:
-“Rapid progression from leukopenia to marked leukocytosis with a left shift
-makes any viral cause unlikely in this patient.”
-5. 得出結論:
-“Septic shock caused by infection with gram-negative bacteria is the most
-likely diagnosis in this patient. I suspect that the blood cultures grew enteric
-gram-negative rods or N. meningitidis.”
-10 考題
-以下為針對本病例的單選選擇題, 旨在檢驗對關鍵診斷與管理的理解。
+### 3.3 非旅行相關感染的鑑別診斷
 
+| 鑑別診斷 | 支持證據 | 反對證據 |
+|----------|----------|----------|
+| Babesiosis | 新英格蘭地區常見；脾功能異常者可有嚴重表現 | 需進一步檢驗 |
+| **Neisseria meningitidis** | **Classic cause of fulminant sepsis and DIC；leg pain 可為 presenting symptom；Serogroup W 常表現為腹痛、腹瀉；脾功能異常和 hypocomplementemia 是危險因子** | 無 typical petechial rash（但並非所有病例都有） |
+| Enteric Gram-negative Bacteria | 晚期肝病最常見感染原因；gut translocation 增加 | 可能性高 |
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-1. 此病人入院時呈現leukopenia, 但數小時內轉變為marked leukocytosis with left shift。 這個變化最支持下列何種診斷?
-a) Dengue fever
-b) Malaria
-c) Bacterial sepsis
-d) Chikungunya virus infection
-2. 此病人有童年時期schistosomiasis 病史, 以下何者是其併發症?
-a) Cirrhotic portal hypertension
-b) Noncirrhotic portal hypertension
-c) Hepatocellular carcinoma
-d) Autoimmune hepatitis
-3. 關於serogroup W meningococcal disease 的臨床表現, 下列敘述何者正確?
-a) 典型皮疹發生率高於其他serogroups
-b) 常見腹痛、腹瀉等腸胃道症狀
-c) 主要影響嬰幼兒
-d) 進展通常較其他serogroups 緩慢
-4. 初始Gram stain 將此病原體誤判為gram-positive cocci in clusters, 最可能的原因為?
-a) 培養瓶污染
-b) Decolorization 不完全
-c) 錯誤的培養基
-d) 病原體變異
-5. 關於invasive meningococcal disease 的危險因子, 下列何者正確?
-a) 只有先天性complement deficiency 會增加風險
-b) Chronic liver disease 可因hypocomplementemia 而增加風險
-c) Hypersplenism 具有保護作用
-d) 疫苗接種後不需要post-exposure prophylaxis
-6. 此病人發展refractory shock 時使用hydroxocobalamin, 其作用機轉為?
-a) Positive inotropic effect
-b) Nitric oxide scavenging causing vasoconstriction
-c) Direct alpha-adrenergic agonism
-d) Angiotensin II receptor activation
-7. 關於meningococcal disease 的post-exposure prophylaxis, 下列敘述何者正確?
-a) 只有未接種疫苗者需要
+---
 
+## 4. 診斷檢驗
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-b) 只限household contacts
-c) 所有close contacts 都需要, 不論疫苗接種狀態
-d) 可等待culture 結果後再給予
-8. 病理解剖發現phlegmonous gastritis, 下列敘述何者正確?
-a) 只發生於streptococcal infection
-b) 是N. meningitidis 感染的常見表現
-c) Serogroup W meningococcal infection 有相關報告
-d) 通常侷限於黏膜層
-9. 關於此病人的肝臟病理發現, 下列何者正確?
-a) 確認為overt cirrhosis
-b) 發現active schistosomiasis
-c) 纖維化主要侷限於subcapsular region
-d) 無肝細胞損傷證據
-10. Invasive meningococcal disease 的首選治療藥物為?
-a) Vancomycin
-b) Ceftriaxone
-c) Azithromycin
-d) Metronidazole
+### 4.1 血液培養結果
 
+> **Diagnostic Pitfall: Gram Stain Interpretation**
+> - 初始 Gram stain：培養瓶陽性後 21 小時，染色顯示 "gram-positive cocci in clusters"
+> - **MALDI-TOF 結果：Neisseria meningitidis**
+> - 重新檢視：以 progressively increased decolorization time 重複 Gram stain → **gram-negative diplococci**
+> - 藥敏結果：Susceptible to penicillin G, ceftriaxone, ciprofloxacin, rifampin
+> - **血清分型：Serogroup W135**
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-10.1 考題詳解
-1. 正確答案: c) Bacterial sepsis
-詳解: 從leukopenia 快速轉變為marked leukocytosis with left shift (bands 增加、出現
-metamyelocytes) 是細菌感染的特徵性表現。病毒感染(如dengue、chikungunya) 通常維
-持leukopenia。原文明確指出:“rapid progression from leukopenia to marked leukocytosis
-with a left shift makes any viral cause unlikely in this patient.”
-2. 正確答案: b) Noncirrhotic portal hypertension
-詳解: Schistosomiasis 可導致presinusoidal liver disease, 造成noncirrhotic portal hyper-
-tension。此病人的併發症包括esophageal varices、splenomegaly、chronic thrombocy-
-topenia 及chronic leukopenia, 這些都是portal hypertension with hypersplenism 的表
-現。病理解剖也確認無overt cirrhosis。 3. 正確答案: b) 常見腹痛、腹瀉等腸胃道症狀
-詳解: Serogroup W meningococcal disease 的特徵包括:purpuric rash 發生率較低、腹
-痛和腹瀉發生率較高。這種atypical presentation 可能導致診斷延遲。原文引用文獻指
-出:“Invasive meningococcal disease caused by serogroup W has been characterized by a
-lower likelihood of purpuric rash and a higher incidence of abdominal pain and diarrhea
-than disease caused by other serogroups.”
-4. 正確答案: b) Decolorization 不完全
-詳解: Gram stain 結果取決於染色技術, 特別是decolorization 步驟。當progressively
-increased decolorization time 後, 細菌正確呈現為gram-negative diplococci。原文解
-釋:“characterization of an organism on Gram’s staining depends on the staining technique
-and the thickness and composition of the cell wall and cell membrane.”
-5. 正確答案: b) Chronic liver disease 可因hypocomplementemia 而增加風險
-詳解: Complement 在肝臟合成, 因此chronic liver disease/cirrhosis 可導致acquired
-hypocomplementemia, 增加invasive meningococcal disease 的風險。其他危險因子包括
-functional asplenia(非hypersplenism 的保護作用)、HIV infection、travel exposure 等。 所有close contacts 不論疫苗狀態都需prophylaxis。 6. 正確答案: b) Nitric oxide scavenging causing vasoconstriction
-詳解: Hydroxocobalamin (vitamin B12) 作為nitric oxide scavenger, 可產生potent vaso-
-constriction 效果。原文指出:“we administered hydroxocobalamin, which acts as a nitric
-oxide scavenger and results in potent vasoconstriction.” 這是refractory septic shock 的
-救援治療選項之一。 7. 正確答案: c) 所有close contacts 都需要, 不論疫苗接種狀態
-詳解: Close contacts 應儘速接受antibiotic prophylaxis,“regardless of vaccination sta-
-tus”。這包括household members、childcare providers、直接暴露於病人oral secretions 者,
-以及進行airway management 的醫護人員。選項包括rifampin、ciprofloxacin、ceftriaxone
-或azithromycin。 8. 正確答案: c) Serogroup W meningococcal infection 有相關報告
-詳解: Phlegmonous gastritis 雖然最常與streptococcal infection 相關, 但也有gram-
-negative bacterial infections(包括serogroup W meningococcal infection) 的報告。原文指
+> **Pearl：** N. meningitidis 在某些情況下可能呈現 gram-variable，導致初始誤判為 gram-positive cocci。此案例強調了 molecular diagnostic testing（如 MALDI-TOF）的重要性。N. meningitidis 在美國非常罕見，某些 commercially available rapid molecular panels 並未包含此病原體。
 
+---
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-出:“Serogroup W meningococcal infection has been associated with death occurring after
-an acute gastrointestinal presentation.” 這種病變是transmural 的, 不只侷限於黏膜層。 9. 正確答案: c) 纖維化主要侷限於subcapsular region
-詳解: 病理解剖發現:“Trichrome staining revealed capsular fibrosis and focal bridging
-fibrosis that was limited to the subcapsular regions, with relative sparing of the internal
-parenchyma. Features of active schistosomiasis and overt cirrhosis were not identified.”
-有centrilobular hepatocellular injury with hepatocyte dropout, 但主要纖維化侷限於
-subcapsular 區域。 10. 正確答案: b) Ceftriaxone
-詳解: 原文明確指出:“The treatment of choice for invasive meningococcal disease is the
-￿-lactam antibiotic agent ceftriaxone. Resistance to this agent is uncommon, but given
-the critical nature of the disease, antibiotic susceptibility testing is performed.”
-11 總結
-本病例的關鍵學習要點
-1. Serogroup W meningococcal disease 的atypical presentation: 腹痛、腹瀉
-為主要症狀, 皮疹可能缺乏, 容易延誤診斷
-2. 從leukopenia 到leukocytosis 的轉變: 強烈提示bacterial infection 而非viral
-infection
-3. Chronic liver disease 增加meningococcal disease 風險: 因acquired hypocom-
-plementemia
-4. Gram stain interpretation pitfalls: Decolorization 不完全可導致N. meningitidis
-誤判為gram-positive cocci
-5. Post-exposure prophylaxis 的重要性: 所有close contacts 都需要, 不論疫苗狀
-態
-6. Phlegmonous gastritis: 罕見但可見於serogroup W meningococcal infection
-臨床Pearl
-“A high index of suspicion is required for invasive meningococcal disease because clinical
-manifestations vary. Serogroup W meningococcal disease is characterized by a lower
-likelihood of purpuric rash and a higher incidence of abdominal pain and diarrhea, which
-may lead to delays in diagnosis.”
-—NEJM Case Records
+## 5. 治療處置
 
+### 5.1 急診處置
 
-NEJM Case Record 教學講義
-Disseminated Meningococcal Disease
-12 附錄: Invasive Meningococcal Disease 快速參考
-項目
-內容
-病原體
-Neisseria meningitidis —Gram-negative diplococci
-主要Serogroups
-A, B, C, W, X, Y
-傳播方式
-Respiratory droplets, direct contact with secretions
-潛伏期
-2-10 days (通常3-4 天)
-臨床表現
-- Meningitis alone
-- Meningococcemia (± meningitis)
-- Fulminant purpura (Waterhouse-Friderichsen syndrome)
-Serogroup W 特徵
-- 腹痛、腹瀉常見
-- 皮疹發生率較低
-- 易誤診為gastrointestinal illness
-危險因子
-- Complement deficiency
-- Asplenia/hyposplenia
+1. 1L lactated Ringer's + empiric antibiotics（vancomycin + ceftriaxone + azithromycin）
+2. Piperacillin-tazobactam added
+3. Norepinephrine 6 → 15 μg/min + vasopressin
+
+### 5.2 ICU 處置
+
+| 處置 | 細節 |
+|------|------|
+| Airway Management | Endotracheal intubation for mechanical ventilation |
+| Vascular Access | Radial arterial catheter + right IJ central venous catheter |
+| Antibiotics (ICU) | Vancomycin + cefepime + metronidazole |
+| Supportive Care | Dextrose infusion (for hypoglycemia)、propofol sedation |
+
+### 5.3 難治性休克的處理
+
+1. **Epinephrine** — 第三線 vasoactive agent（underlying myocardial dysfunction）
+2. **Bicarbonate infusion** — 緩衝代謝性酸中毒（酸中毒降低 catecholamine efficacy）
+3. **Stress-dose glucocorticoids** — Hydrocortisone + fludrocortisone
+4. **Hydroxocobalamin** — 作為 nitric oxide scavenger，產生 potent vasoconstriction
+5. **未採用 VA-ECMO** — Profound coagulopathy 是相對禁忌症
+
+### 5.4 臨床結局
+
+- 入 ICU 後 6 小時（就診後 12 小時）發生 pulseless electrical activity (PEA)
+- 經與家屬討論 goals of care 後，決定不進行 resuscitation
+- 病人死亡
+- 血液培養在病人死亡數小時後報告陽性
+
+---
+
+## 6. 病理解剖發現
+
+| 器官/系統 | 病理發現 |
+|-----------|----------|
+| DIC Evidence | Small fibrin-rich thrombi in lungs, kidneys, colon, heart |
+| **Stomach (Pylorus)** | **Phlegmonous gastritis：wall thickening up to 0.8 cm、acute transmural inflammation、hemorrhage、extension into perigastric soft tissue** |
+| Stomach (Body) | Two small GISTs；chronic gastritis |
+| Liver | Small liver with centrilobular hepatocellular injury；capsular fibrosis with focal bridging (subcapsular)；**no overt cirrhosis**；no active schistosomiasis |
+| Spleen | Enlarged with changes consistent with portal hypertension |
+| Lungs | Edematous, no pneumonia |
+| Brain | No pathologically significant abnormalities |
+
+> **Pearl：Phlegmonous Gastritis** — 罕見的胃壁急性化膿性感染。雖然最常與 streptococcal infection 相關，但也有 gram-negative bacterial infections（包括 serogroup W meningococcal infection）的報告。Serogroup W 與急性腸胃道表現後死亡有關。
+
+---
+
+## 7. 腦膜炎球菌感染
+
+### 7.1 臨床表現
+
+| 表現類型 | 特徵 |
+|----------|------|
+| Meningitis alone | 頭痛、頸部僵硬、發燒、意識改變 |
+| Meningitis + Meningococcemia | 腦膜炎症狀 + 敗血症表現 |
+| Acute Meningococcemia alone | 發燒、休克、DIC；可無腦膜炎；**Serogroup W：常見腹痛、腹瀉，較少皮疹** |
+
+### 7.2 危險因子
+
+- Hypocomplementemia（acquired 或藥物引起）
 - HIV infection
-- Chronic liver disease
-- Crowded living conditions
-診斷
-- Blood culture
-- CSF culture/PCR
-- Gram stain (注意interpretation pitfalls)
-- MALDI-TOF
-治療
-- First line: Ceftriaxone 2g IV q12h
-- Alternative: Penicillin G (if susceptible)
-- Duration: 5-7 days
-Prophylaxis 藥物
-- Rifampin 600mg PO q12h × 2 days
-- Ciprofloxacin 500mg PO × 1
-- Ceftriaxone 250mg IM × 1
-- Azithromycin 500mg PO × 1
-疫苗
-- MenACWY (conjugate): 11-12 歲+ 16 歲booster
-- MenB: 16-23 歲(shared decision)
-- High-risk groups: 額外劑量
-本講義整理自NEJM Case Records of the Massachusetts General Hospital
-Case 1-2026, N Engl J Med 2026;394:178-89
-編輯: 謝慕揚Mu-Yang Hsieh, MD, PhD, FESC
-僅供教學使用, 請勿用於商業用途
+- Functional asplenia
+- Travel exposure
+- **Chronic liver disease/cirrhosis** — 因 complement 在肝臟合成
+
+### 7.3 流行病學
+
+| 地區 | 數據 |
+|------|------|
+| 全球 | 每年約 120 萬病例，135,000 死亡 |
+| 美國 | Case fatality rate 5–15%；2021 年後因 serogroup Y 急劇上升 |
+| 巴西 | 2010–2021 年 0.59/100,000 人年；serogroup B 和 W 增加 |
+
+### 7.4 治療與預防
+
+| 項目 | 內容 |
+|------|------|
+| Treatment of Choice | **Ceftriaxone**（β-lactam antibiotic）；抗藥性罕見 |
+| Vaccination | Meningococcal ACWY vaccines（conjugate）；CDC 建議 11–12 歲接種，16 歲 booster |
+| Post-exposure Prophylaxis | 所有 close contacts 應儘速給予：rifampin、ciprofloxacin、ceftriaxone 或 azithromycin |
+
+---
+
+## 8. 考題
+
+1. **此病人入院時 leukopenia 轉變為 marked leukocytosis with left shift，最支持何種診斷？**
+   - **c) Bacterial sepsis** — 病毒感染通常維持 leukopenia
+
+2. **此病人童年 schistosomiasis 的併發症為？**
+   - **b) Noncirrhotic portal hypertension** — 病理解剖確認無 overt cirrhosis
+
+3. **Serogroup W meningococcal disease 的臨床表現？**
+   - **b) 常見腹痛、腹瀉等腸胃道症狀**
+
+4. **初始 Gram stain 誤判的原因？**
+   - **b) Decolorization 不完全**
+
+5. **Invasive meningococcal disease 的危險因子？**
+   - **b) Chronic liver disease 可因 hypocomplementemia 而增加風險**
+
+6. **Hydroxocobalamin 的作用機轉？**
+   - **b) Nitric oxide scavenging causing vasoconstriction**
+
+7. **Post-exposure prophylaxis 的適用對象？**
+   - **c) 所有 close contacts 都需要，不論疫苗接種狀態**
+
+8. **Phlegmonous gastritis？**
+   - **c) Serogroup W meningococcal infection 有相關報告**
+
+9. **肝臟病理發現？**
+   - **c) 纖維化主要侷限於 subcapsular region**
+
+10. **首選治療藥物？**
+    - **b) Ceftriaxone**
+
+---
+
+## 9. 關鍵學習要點
+
+> 1. **Serogroup W meningococcal disease 的 atypical presentation：** 腹痛、腹瀉為主要症狀，皮疹可能缺乏
+> 2. **從 leukopenia 到 leukocytosis 的轉變：** 強烈提示 bacterial infection 而非 viral infection
+> 3. **Chronic liver disease 增加 meningococcal disease 風險：** 因 acquired hypocomplementemia
+> 4. **Gram stain interpretation pitfalls：** Decolorization 不完全可導致 N. meningitidis 誤判
+> 5. **Post-exposure prophylaxis 的重要性：** 所有 close contacts 都需要，不論疫苗狀態
+> 6. **Phlegmonous gastritis：** 罕見但可見於 serogroup W meningococcal infection
+
+---
+
+## 10. 附錄：Invasive Meningococcal Disease 快速參考
+
+| 項目 | 內容 |
+|------|------|
+| 病原體 | Neisseria meningitidis — Gram-negative diplococci |
+| 主要 Serogroups | A, B, C, W, X, Y |
+| 傳播方式 | Respiratory droplets, direct contact with secretions |
+| 潛伏期 | 2–10 days（通常 3–4 天） |
+| Serogroup W 特徵 | 腹痛、腹瀉常見；皮疹發生率較低；易誤診為 gastrointestinal illness |
+| 治療 | Ceftriaxone 2g IV q12h；duration 5–7 days |
+| Prophylaxis | Rifampin 600mg PO q12h × 2 days；或 Ciprofloxacin 500mg PO × 1；或 Ceftriaxone 250mg IM × 1 |
+| 疫苗 | MenACWY（conjugate）：11–12 歲 + 16 歲 booster；MenB：16–23 歲（shared decision） |
+
+---
+
+## 參考文獻
+
+本講義整理自 NEJM Case Records of the Massachusetts General Hospital, Case 1-2026. [*N Engl J Med*. 2026;394:178-89.](https://doi.org/10.1056/NEJMcpc2513324)

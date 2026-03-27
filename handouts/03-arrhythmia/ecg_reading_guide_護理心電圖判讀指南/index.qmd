@@ -1,6 +1,6 @@
 ---
-title: "心電圖判讀教學"
-subtitle: "ECG Reading Guide 護理心電圖判讀指南"
+title: "護理心電圖判讀教學指南 / ECG Reading Guide for Nurses"
+subtitle: "護理心電圖判讀教學指南 / ECG Reading Guide for Nurses"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-01-11
 lang: zh-TW
@@ -9,261 +9,183 @@ toc-depth: 3
 number-sections: true
 ---
 
-ECG Reading Guide
-護理心電圖判讀教學指南
-How to Read an ECG - Single Lead Telemetry
-病房護理人員快速參考手冊
-資料來源：The Visual Nurse (@thevisualnurse)
-整理：謝慕揚MD, PhD, FESC
-日期：2026-01-11
-心電圖判讀八步驟口訣：R-P-Q-STaT
-• R ×2：Rate (心率) & Rhythm (節律)
-• P ×2：P waves (P 波) & PR interval (PR 間期)
-• Q ×2：QRS complex (QRS 波群) & QT interval (QT 間期)
-• STaT：ST segment (ST 段) & T waves (T 波)
+## 目錄
 
+- [心電圖判讀八步驟口訣](#心電圖判讀八步驟口訣)
+- [第一部分：心電圖基礎概念](#1-心電圖基礎概念-ecg-basics)
+- [第二部分：心率與節律分析](#2-心率與節律分析-rate--rhythm-analysis)
+- [第三部分：間期與波段分析](#3-間期與波段分析-intervals--segments)
+- [第四部分：心率參考值與練習單](#4-心率參考值與練習單-reference--practice)
 
-心電圖判讀教學
-ECG Reading Guide
-1 第一部分：心電圖基礎概念(ECG Basics)
+---
 
+## 心電圖判讀八步驟口訣
 
-心電圖判讀教學
-ECG Reading Guide
-1.1 心臟週期(Cardiac Cycle)
-階段
-說明
-心房去極化
-(Atrial
-depolariza-
-tion)
-產生P 波，代表心房收縮前的電位變化
-心室去極化
-(Ventricular
-depolar-
-ization)
-產生QRS 波群，代表心室收縮前的電位變化
-心室再極化
-(Ventricular
-repolar-
-ization)
-產生T 波，代表心室恢復極化狀態
-1.2 心臟傳導系統(Cardiac Conduction System)
-順序
-結構
-功能
-SA node
-(竇房結)
-心臟的天然節律器，固有頻率60-100 bpm
-AV node
-(房室結)
-延遲傳導，讓心房完成收縮後心室再收縮
-固有頻率40-60 bpm
-Bundle of His
-(希氏束)
-傳導電位至心室
-Bundle branches
-(束支)
-左右束支分別傳導至左右心室
-Purkinje fibers
-(乏乾乏氏纖維)
-快速傳導至心室肌細胞
-固有頻率20-40 bpm
-1.3 正常數值記憶口訣
-重點提醒
-0.12 to 0.20 (PR interval) + <0.12 (QRS) = <0.44 (QT interval)
-所有數值單位皆為「秒」(seconds)
-1.4 正常竇性心律特徵(Normal Sinus Rhythm)
-• 每個QRS 前有一個直立的P 波(One upright P wave per QRS)
-• 所有P 波外觀相似(All P waves similar in appearance)
-• PR interval 介於0.12-0.20 秒
+> **口訣：R-P-Q-STaT**
+> - **R ×2**：Rate (心率) & Rhythm (節律)
+> - **P ×2**：P waves (P 波) & PR interval (PR 間期)
+> - **Q ×2**：QRS complex (QRS 波群) & QT interval (QT 間期)
+> - **STaT**：ST segment (ST 段) & T waves (T 波)
 
+---
 
-心電圖判讀教學
-ECG Reading Guide
-• 心率介於60-100 bpm
+## 1. 心電圖基礎概念 (ECG Basics)
 
+### 1.1 心臟週期 (Cardiac Cycle)
 
-心電圖判讀教學
-ECG Reading Guide
-2 第二部分：心率與節律分析(Rate & Rhythm Analysis)
-2.1 步驟1：心率計算(Heart Rate Calculation)
-2.1.1 方法一：六秒法(6-Second Method)
-• 數6 秒內（30 大格）的R 波數量
-• R 波數量× 10 = 每分鐘心率(HR in BPM)
-• 適用於：不規則心律
+| 階段 | 說明 |
+|------|------|
+| 心房去極化 (Atrial depolarization) | 產生 P 波，代表心房收縮前的電位變化 |
+| 心室去極化 (Ventricular depolarization) | 產生 QRS 波群，代表心室收縮前的電位變化 |
+| 心室再極化 (Ventricular repolarization) | 產生 T 波，代表心室恢復極化狀態 |
 
+### 1.2 心臟傳導系統 (Cardiac Conduction System)
 
-心電圖判讀教學
-ECG Reading Guide
-2.1.2 方法二：小格法(Small Box Method)
-• 數兩個R 波之間的小格數（每小格= 0.04 秒）
-• 1500 ÷ 小格數= 每分鐘心率
-• 適用於：規則心律
-2.1.3 方法三：大格法(Big Box Method)
-• 找一個落在粗線上的R 波
-• 從該R 波開始，數下一個R 波經過幾條粗線
-• 口訣：300, 150, 100, 75, 60, 50
-• 適用於：規則心律，快速估算
-2.2 步驟2：節律規則性(Rhythm Regularity)
-核心發現摘要
-問自己：「P 波和QRS 波群是否規律地排列？」
-(Do the P waves and QRS complexes march out routinely?)
-規則心室反應
-(Regular ventricular response)
-不規則心室反應
-(Irregular ventricular response)
-R-R 間距相等
-R-R 間距不等
-可見於：Sinus rhythm, SVT, VT
-可見於：AF, MAT, Sinus arrhythmia
-2.3 步驟3：P 波分析(P Wave Analysis)
-類型
-特徵
-臨床意義
-Sinus rhythm
-(竇性心律)
-P 波直立且外觀相似
-(Upright & similar)
-正常傳導
-Wandering
-atrial
-pacemaker
-(游走性心房節律器)
-P 波外觀交替變化
-(Alternating
-appear-
-ance)
-心房內多個起搏點
-Atrial fibrillation
-(心房顫動)
-無明顯P 波
-(None present)
-心房不規則顫動，
-需注意中風風險
+| 結構 | 功能 |
+|------|------|
+| SA node (竇房結) | 心臟的天然節律器，固有頻率 60-100 bpm |
+| AV node (房室結) | 延遲傳導，讓心房完成收縮後心室再收縮；固有頻率 40-60 bpm |
+| Bundle of His (希氏束) | 傳導電位至心室 |
+| Bundle branches (束支) | 左右束支分別傳導至左右心室 |
+| Purkinje fibers (乏氏纖維) | 快速傳導至心室肌細胞；固有頻率 20-40 bpm |
 
+### 1.3 正常數值記憶口訣
 
-心電圖判讀教學
-ECG Reading Guide
-3 第三部分：間期與波段分析(Intervals & Segments)
+> **0.12 to 0.20 (PR interval) + <0.12 (QRS) = <0.44 (QT interval)**
+> 所有數值單位皆為「秒」(seconds)
 
+### 1.4 正常竇性心律特徵 (Normal Sinus Rhythm)
 
-心電圖判讀教學
-ECG Reading Guide
-3.1 步驟4：PR Interval (PR 間期)
-數值
-臨床意義
-正常：0.12-0.20 秒
-正常房室傳導
-<0.12 秒
-+ 倒置P 波
-可能為Junctional rhythm (交界性心律)
-電位由房室結逆向傳導
->0.20 秒
-可能為AV block (房室傳導阻滯)
-或AV delay (房室傳導延遲)
-3.2 步驟5：QRS Complex (QRS 波群)
-QRS 寬度
-臨床意義
-Narrow (窄) <0.12 秒
-電位起源於心室以上(Supraventricular origin)
-正常傳導路徑
-Wide (寬) >0.12 秒
-電位可能起源於心室(Ventricular origin)
-或傳導異常(Bundle branch block)
-3.3 步驟6：QT Interval (QT 間期)
-重點提醒
-正常值：<0.44 秒，或小於R-R interval 的一半
-測量方法：從QRS 起始到T 波結束
-臨床重要性：QT 延長會增加Torsades de Pointes (TdP) 風險
-3.4 步驟7：ST Segment (ST 段)
-評估ST 段相對於等電位基線(isoelectric baseline) 的偏移：
-變化
-定義
-可能原因
-ST elevation
-(ST 上升)
-ST 段高於基線
-STEMI、Pericarditis、
-Early repolarization
-ST depression
-(ST 下降)
-ST 段低於基線
-Ischemia、NSTEMI、
-Digoxin effect
-3.5 步驟8：T Wave (T 波)
+- 每個 QRS 前有一個直立的 P 波 (One upright P wave per QRS)
+- 所有 P 波外觀相似 (All P waves similar in appearance)
+- PR interval 介於 0.12-0.20 秒
+- 心率介於 60-100 bpm
 
+---
 
-心電圖判讀教學
-ECG Reading Guide
-型態
-外觀
-可能原因
-Normal (正常)
-直立、圓滑
-正常再極化
-Peaked (尖峰)
-高聳、尖銳
-Hyperkalemia (高血鉀)
-Inverted (倒置)
-向下
-Ischemia、MI、
-Ventricular hypertrophy
-Biphasic (雙相)
-先上後下或先下後上
-Ischemia、Hypokalemia
+## 2. 心率與節律分析 (Rate & Rhythm Analysis)
 
+### 2.1 步驟 1：心率計算 (Heart Rate Calculation)
 
-心電圖判讀教學
-ECG Reading Guide
-4 第四部分：心率參考值與練習單(Reference & Practice)
-4.1 各類心律固有頻率(Intrinsic Rates)
-起源
-Bradycardia
-Intrinsic Rate
-Tachycardia
-Sinus
-(竇房結)
-<60 bpm
-60-100 bpm
->100 bpm
-Junctional
-(交界性)
-<40 bpm
-40-60 bpm
->100 bpm
+#### 方法一：六秒法 (6-Second Method)
 
+- 數 6 秒內（30 大格）的 R 波數量
+- R 波數量 × 10 = 每分鐘心率 (HR in BPM)
+- 適用於：不規則心律
 
-心電圖判讀教學
-ECG Reading Guide
-Ventricular
-(心室)
-–
-20-40 bpm
-50-100 bpm (ac-
-celerated)
->100 bpm (VT)
-重點提醒
-SVT (Supraventricular tachycardia)：依據發作機轉分類，心率通常>150 bpm
-4.2 心律判讀練習清單
+#### 方法二：小格法 (Small Box Method)
+
+- 數兩個 R 波之間的小格數（每小格 = 0.04 秒）
+- 1500 ÷ 小格數 = 每分鐘心率
+- 適用於：規則心律
+
+#### 方法三：大格法 (Big Box Method)
+
+- 找一個落在粗線上的 R 波
+- 從該 R 波開始，數下一個 R 波經過幾條粗線
+- 口訣：**300, 150, 100, 75, 60, 50**
+- 適用於：規則心律，快速估算
+
+### 2.2 步驟 2：節律規則性 (Rhythm Regularity)
+
+> 問自己：「P 波和 QRS 波群是否規律地排列？」
+> (Do the P waves and QRS complexes march out routinely?)
+
+| 規則心室反應 (Regular ventricular response) | 不規則心室反應 (Irregular ventricular response) |
+|---|---|
+| R-R 間距相等 | R-R 間距不等 |
+| 可見於：Sinus rhythm, SVT, VT | 可見於：AF, MAT, Sinus arrhythmia |
+
+### 2.3 步驟 3：P 波分析 (P Wave Analysis)
+
+| 類型 | 特徵 | 臨床意義 |
+|------|------|----------|
+| Sinus rhythm (竇性心律) | P 波直立且外觀相似 (Upright & similar) | 正常傳導 |
+| Wandering atrial pacemaker (游走性心房節律器) | P 波外觀交替變化 (Alternating appearance) | 心房內多個起搏點 |
+| Atrial fibrillation (心房顫動) | 無明顯 P 波 (None present) | 心房不規則顫動，需注意中風風險 |
+
+---
+
+## 3. 間期與波段分析 (Intervals & Segments)
+
+### 3.1 步驟 4：PR Interval (PR 間期)
+
+| 數值 | 臨床意義 |
+|------|----------|
+| 正常：0.12-0.20 秒 | 正常房室傳導 |
+| <0.12 秒 + 倒置 P 波 | 可能為 Junctional rhythm (交界性心律)，電位由房室結逆向傳導 |
+| >0.20 秒 | 可能為 AV block (房室傳導阻滯) 或 AV delay (房室傳導延遲) |
+
+### 3.2 步驟 5：QRS Complex (QRS 波群)
+
+| QRS 寬度 | 臨床意義 |
+|----------|----------|
+| Narrow (窄) <0.12 秒 | 電位起源於心室以上 (Supraventricular origin)，正常傳導路徑 |
+| Wide (寬) >0.12 秒 | 電位可能起源於心室 (Ventricular origin) 或傳導異常 (Bundle branch block) |
+
+### 3.3 步驟 6：QT Interval (QT 間期)
+
+> - **正常值**：<0.44 秒，或小於 R-R interval 的一半
+> - **測量方法**：從 QRS 起始到 T 波結束
+> - **臨床重要性**：QT 延長會增加 Torsades de Pointes (TdP) 風險
+
+### 3.4 步驟 7：ST Segment (ST 段)
+
+評估 ST 段相對於等電位基線 (isoelectric baseline) 的偏移：
+
+| 變化 | 定義 | 可能原因 |
+|------|------|----------|
+| ST elevation (ST 上升) | ST 段高於基線 | STEMI、Pericarditis、Early repolarization |
+| ST depression (ST 下降) | ST 段低於基線 | Ischemia、NSTEMI、Digoxin effect |
+
+### 3.5 步驟 8：T Wave (T 波)
+
+| 型態 | 外觀 | 可能原因 |
+|------|------|----------|
+| Normal (正常) | 直立、圓滑 | 正常再極化 |
+| Peaked (尖峰) | 高聳、尖銳 | Hyperkalemia (高血鉀) |
+| Inverted (倒置) | 向下 | Ischemia、MI、Ventricular hypertrophy |
+| Biphasic (雙相) | 先上後下或先下後上 | Ischemia、Hypokalemia |
+
+---
+
+## 4. 心率參考值與練習單 (Reference & Practice)
+
+### 4.1 各類心律固有頻率 (Intrinsic Rates)
+
+| 起源 | Bradycardia | Intrinsic Rate | Tachycardia |
+|------|-------------|----------------|-------------|
+| Sinus (竇房結) | <60 bpm | 60-100 bpm | >100 bpm |
+| Junctional (交界性) | <40 bpm | 40-60 bpm | >100 bpm |
+| Ventricular (心室) | – | 20-40 bpm | 50-100 bpm (accelerated); >100 bpm (VT) |
+
+> **SVT (Supraventricular tachycardia)**：依據發作機轉分類，心率通常 >150 bpm
+
+### 4.2 心律判讀練習清單
+
 每次判讀心電圖時，請依序回答以下問題：
-1. Atrial Rate (心房率)：______ bpm
-Ventricular Rate (心室率)：______ bpm
-2. Rhythm：Atrial - Regular / Irregular
-Ventricular - Regular / Irregular
-3. P Waves：Present? ____
-Appearance? ______
-4. PR Interval：______ 秒（正常0.12-0.20 秒）
-5. QRS：______ 秒（正常<0.12 秒）
-6. QT Interval：______ 秒（正常<0.44 秒或<1/2 R-R）
-7. ST Segment：Okay / Elevated / Depressed
-8. T Waves：Normal / Peaked / Inverted / Biphasic
-Rhythm Interpretation (心律判讀結論)：___________________________________
-緊急處置提醒
-• VF/Pulseless VT：立即CPR + Defibrillation
-• Asystole/PEA：立即CPR + Epinephrine
-• Unstable tachycardia：Synchronized cardioversion
-• Symptomatic bradycardia：Atropine / Transcutaneous pacing
-• STEMI：立即通知醫師，準備緊急心導管
-本教材僅供教學參考，臨床判斷請依據完整病史與醫師指示
-原始圖片來源：The Visual Nurse (@thevisualnurse) - www.thevisualnurse.com
+
+1. **Atrial Rate (心房率)**：______ bpm；**Ventricular Rate (心室率)**：______ bpm
+2. **Rhythm**：Atrial — Regular / Irregular；Ventricular — Regular / Irregular
+3. **P Waves**：Present? ____；Appearance? ______
+4. **PR Interval**：______ 秒（正常 0.12-0.20 秒）
+5. **QRS**：______ 秒（正常 <0.12 秒）
+6. **QT Interval**：______ 秒（正常 <0.44 秒或 <1/2 R-R）
+7. **ST Segment**：Okay / Elevated / Depressed
+8. **T Waves**：Normal / Peaked / Inverted / Biphasic
+9. **Rhythm Interpretation (心律判讀結論)**：___________________________________
+
+---
+
+## 緊急處置提醒
+
+> - **VF / Pulseless VT**：立即 CPR + Defibrillation
+> - **Asystole / PEA**：立即 CPR + Epinephrine
+> - **Unstable tachycardia**：Synchronized cardioversion
+> - **Symptomatic bradycardia**：Atropine / Transcutaneous pacing
+> - **STEMI**：立即通知醫師，準備緊急心導管
+
+---
+
+*本教材僅供教學參考，臨床判斷請依據完整病史與醫師指示。*
+*原始圖片來源：The Visual Nurse (@thevisualnurse) — www.thevisualnurse.com*

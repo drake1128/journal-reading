@@ -1,6 +1,6 @@
 ---
-title: "結核性腦膜炎高劑量口服Rifampin 治療試驗"
-subtitle: "NEJM rifampin TB meningitis"
+title: "結核性腦膜炎高劑量口服 Rifampin 治療試驗 (HARVEST Trial)"
+subtitle: "結核性腦膜炎高劑量口服 Rifampin 治療試驗 (HARVEST Trial)"
 author: "謝慕揚 MD, PhD, FESC"
 date: 2026-03-26
 lang: zh-TW
@@ -9,529 +9,269 @@ toc-depth: 3
 number-sections: true
 ---
 
-Trial of High-Dose Oral Rifampin in Adults
-with Tuberculous Meningitis
-HARVEST Trial（High Dose Oral Rifampicin to Improve Outcomes
-from Adult Tuberculous Meningitis）
-謝慕揚醫師MD, PhD, FESC
-根據Meya DB et al. N Engl J Med 2025 整理
-2025 年12 月
-核心發現摘要
-研究結論：負面結果（Negative Trial）
-在結核性腦膜炎患者中，高劑量rifampin（35 mg/kg/day）相較於標準劑量（10
-mg/kg/day）：
-• 未能改善6 個月死亡率：44.6% vs 40.7%（HR 1.17; 95% CI, 0.89-1.54; P=0.25）
-• 無法排除有害效應：高劑量組早期死亡趨勢較高
-• 肝毒性增加：drug-induced liver injury 8.0% vs 4.4%
-• 特定亞群可能受害：已接受ART 的HIV 患者、CSF 白血球<5 cells/mm3 者
-臨床意義：此為迄今最大規模的高劑量rifampin 治療結核性腦膜炎的隨機對照試驗，
-結果不支持將高劑量rifampin 用於結核性腦膜炎的標準治療。 Contents
-研究背景
-1.1
-結核性腦膜炎的臨床挑戰
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.2
-Rifampin 的藥理學限制
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.3
-先前研究證據. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 研究方法
-2.1
-研究設計
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2
-納入與排除條件. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.3
-治療方案
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.4
-隨機分派與分層. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.5
-結果指標
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.6
-樣本數計算. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+## 核心發現摘要
 
+> **研究結論：負面結果（Negative Trial）**
+>
+> 在結核性腦膜炎患者中，高劑量 rifampin（35 mg/kg/day）相較於標準劑量（10 mg/kg/day）：
+> - **未能改善 6 個月死亡率：** 44.6% vs 40.7%（HR 1.17; 95% CI, 0.89-1.54; P=0.25）
+> - **無法排除有害效應：** 高劑量組早期死亡趨勢較高
+> - **肝毒性增加：** drug-induced liver injury 8.0% vs 4.4%
+> - **特定亞群可能受害：** 已接受 ART 的 HIV 患者、CSF 白血球 <5 cells/mm³ 者
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-研究結果
-3.1
-受試者流程. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2
-基線特徵
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3
-主要結果：6 個月死亡率. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.4
-早期死亡分析. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.5
-次要結果
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.6
-亞群分析
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.7
-安全性結果. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 討論
-4.1
-高劑量rifampin 無效的可能解釋. . . . . . . . . . . . . . . . . . . . . . . . . . 4.2
-劑量選擇的合理性
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.3
-研究優勢
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.4
-研究限制
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 未來方向
-結論
-名詞解釋
-參考文獻
+**臨床意義：** 此為迄今最大規模的高劑量 rifampin 治療結核性腦膜炎的隨機對照試驗，結果不支持將高劑量 rifampin 用於結核性腦膜炎的標準治療。
 
+---
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-1 研究背景
-1.1 結核性腦膜炎的臨床挑戰
-問題
-說明
-高死亡率
-HIV 陽性患者死亡率可達50%
-高殘障率
-存活者常有神經學後遺症
-治療困難
-血腦障壁限制藥物穿透
-診斷延遲
-確診困難，常需經驗性治療
-1.2 Rifampin 的藥理學限制
-Rifampin 與血腦障壁
-標準劑量rifampin（10 mg/kg）的CSF 穿透問題：
-• CSF 濃度僅達血漿濃度的約5%
-• 大多數結核性腦膜炎患者CSF 中藥物濃度無法測得
-• Rifampin 抗藥性結核性腦膜炎的死亡率顯著較高
-高劑量rifampin 的理論基礎：
-• Phase 2 試驗顯示劑量-暴露量關係
-• 30 mg/kg 可達標準劑量4.7 倍的血漿暴露量
-• 印尼meta-analysis 顯示30 mg/kg 可能改善40% 的6 個月存活率
-1.3 先前研究證據
-研究
-Rifampin 劑量
-結果
-越南試驗（2016）15
-mg/kg
-+
-lev-
-ofloxacin
-無效益（N=817）
-印尼Phase 2 試
-驗
-20-30 mg/kg
-劑量-暴露量關係明確
-印
-尼
-meta-
-analysis
-30 mg/kg
-可能改善存活率（不確定性大）
-2 研究方法
-2.1 研究設計
-項目
-內容
-試驗名稱
-HARVEST Trial
-研究類型
-Phase 3 雙盲、隨機、安慰劑對照試驗
+## 1. 研究背景
 
+### 1.1 結核性腦膜炎的臨床挑戰
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-項目
-內容
-研究地點
-印尼、南非、烏干達共9 間醫院
-研究期間
-2021 年3 月12 日至2024 年7 月31 日
-期刊
-N Engl J Med 2025;393:2434-46
-DOI
-10.1056/NEJMoa2502866
-試驗註冊
-ISRCTN15668391
-2.2 納入與排除條件
-類別
-條件
-納入條件
-年齡≥18 歲
-結核性腦膜炎（確診、可能或疑似）
-計劃接受抗結核治療
-確診定義
-Xpert MTB/RIF Ultra 陽性
-MGIT 培養陽性
-塗片顯微鏡陽性
-排除條件
-過敏史
-7 天內已接受>5 劑抗結核藥物
-確診非結核之神經感染
-使用HIV protease inhibitor
-Glucocorticoids 禁忌症
-懷孕或哺乳
-ALT ≥5×ULN
-GFR <30 ml/min/1.73 m2
-2.3 治療方案
-治療分組
-高劑量組（High-dose group）：
-• 標準固定劑量組合錠（含rifampin 10 mg/kg + isoniazid + pyrazinamide + ethamb-
-utol）
-• 額外rifampin 錠劑（體重≤38 kg：900 mg；>38 kg：1200 mg）
-• 總rifampin 劑量：約35 mg/kg/day
-• 持續8 週
-標準劑量組（Standard-dose group）：
-• 標準固定劑量組合錠（含rifampin 10 mg/kg）
-• 相同外觀的安慰劑錠劑
-• 總rifampin 劑量：約10 mg/kg/day
-• 持續8 週
-共同處置：
-• 8 週後兩組皆接受標準治療至完成9-12 個月療程
-• Adjunctive glucocorticoids：依國際指引，由臨床醫師決定
+| 問題 | 說明 |
+|------|------|
+| 高死亡率 | HIV 陽性患者死亡率可達 50% |
+| 高殘障率 | 存活者常有神經學後遺症 |
+| 治療困難 | 血腦障壁限制藥物穿透 |
+| 診斷延遲 | 確診困難，常需經驗性治療 |
 
+### 1.2 Rifampin 的藥理學限制
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-2.4 隨機分派與分層
-• 1:1 隨機分派
-• 分層因子：研究中心、HIV 狀態、疾病嚴重度（MRC grade 1 vs grade 2-3）
-• 雙盲設計：參與者與研究人員皆不知分組
-2.5 結果指標
-指標類別
-內容
-主要結果
-6 個月死亡率
-次要結果
-12 個月死亡率
-Modified Rankin Scale（第24 週）
-Liverpool Outcome Score（第2 週、6 個月）
-神經認知功能（2 個月、12 個月）
-住院天數
-治療中斷（前8 週≥5 天）
-因神經惡化再住院
-Grade 3 以上不良事件
-2.6 樣本數計算
-• 假設標準劑量組6 個月死亡率為50%
-• 目標偵測hazard ratio 0.68（死亡率差異約13 個百分點）
-• 80% 檢力、雙側α = 0.05
-• 考慮5% 失訪
-• 計算樣本數：500 人（每組250 人）
-3 研究結果
-3.1 受試者流程
-項目
-高劑量組
-標準劑量組
-評估資格
-1318 人
-隨機分派
-排除（晚期發現排除條件）
-ITT 分析族群
-Per-protocol 分析族群
+> **Rifampin 與血腦障壁**
+>
+> 標準劑量 rifampin（10 mg/kg）的 CSF 穿透問題：
+> - CSF 濃度僅達血漿濃度的約 5%
+> - 大多數結核性腦膜炎患者 CSF 中藥物濃度無法測得
+> - Rifampin 抗藥性結核性腦膜炎的死亡率顯著較高
 
+高劑量 rifampin 的理論基礎：
+- Phase 2 試驗顯示劑量-暴露量關係
+- 30 mg/kg 可達標準劑量 4.7 倍的血漿暴露量
+- 印尼 meta-analysis 顯示 30 mg/kg 可能改善 40% 的 6 個月存活率
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-3.2 基線特徵
-特徵
-高劑量組
-標準劑量組
-(N=249)
-(N=250)
-年齡，中位數（IQR），歲
-38 (28-46)
-35 (28-45)
-女性，n (%)
-101 (40.6)
-121 (48.4)
-體重，中位數（IQR），kg
-54 (49-60)
-55 (45-62)
-MRC 疾病嚴重度分級
-Grade 1，n (%)
-50 (20.1)
-53 (21.2)
-Grade 2，n (%)
-148 (59.4)
-158 (63.2)
-Grade 3，n (%)
-51 (20.5)
-39 (15.6)
-GCS <15，n/總數(%)
-164/244 (67.2)
-160/247 (64.8)
-HIV 相關
-HIV 陽性，n (%)
-149 (59.8)
-155 (62.0)
-正接受ART，n/總數(%)
-64/149 (43.0)
-61/155 (39.4)
-CD4，中位數（IQR），cells/mm3
-101 (38-176)
-85 (43-204)
-結核性腦膜炎診斷分類
-Definite，n (%)
-114 (45.8)
-104 (41.6)
-Probable，n (%)
-89 (35.7)
-91 (36.4)
-Possible，n (%)
-44 (17.7)
-54 (21.6)
-CSF 檢查結果
-白血球，中位數（IQR）
-，
-cells/mm3
-50 (4-177)
-59 (11-203)
-蛋白質，中位數（IQR），mg/dl
-135 (85-239)
-140 (82-243)
-葡萄糖，中位數（IQR），mg/dl
-41.0 (24.8-61.0)
-41.4 (25.0-58.0)
-使用glucocorticoids，n (%)
-473 (94.8%)
-3.3 主要結果：6 個月死亡率
-主要結果：無顯著差異
-指標
-高劑量組
-標準劑量組
-(N=249)
-(N=250)
-6 個月死亡人數
-Kaplan-Meier 估計值
-44.6%
-40.7%
-Hazard Ratio (95% CI)
-1.17 (0.89-1.54)
-P 值
-0.25
-死亡時間中位數（IQR），天
-13 (4-39)
-24 (6-56)
-關鍵觀察：高劑量組的死亡中位數時間較早（13 天vs 24 天），提示可能存在早期有害
-效應。
+### 1.3 先前研究證據
 
+| 研究 | Rifampin 劑量 | 結果 |
+|------|-------------|------|
+| 越南試驗（2016） | 15 mg/kg + levofloxacin | 無效益（N=817） |
+| 印尼 Phase 2 試驗 | 20-30 mg/kg | 劑量-暴露量關係明確 |
+| 印尼 meta-analysis | 30 mg/kg | 可能改善存活率（不確定性大） |
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-3.4 早期死亡分析
-時間點
-高劑量組
-標準劑量組
-前21 天死亡人數
-Kaplan-Meier 估計值
-27.6% (95% CI 21.8-
-33.0)
-19.4% (95% CI 14.3-
-24.2)
-重點提醒
-高劑量組在前21 天的死亡率較高（27.6% vs 19.4%），雖然整體6 個月死亡率無顯著差
-異，但這個早期趨勢值得關注，可能反映高劑量rifampin 的潛在有害效應。 3.5 次要結果
-結果指標
-高劑量組
-標準劑量組
-12 個月死亡率
-Kaplan-Meier 估計值
-47.0%
-43.7%
-Hazard Ratio (95% CI)
-1.14 (0.88-1.49)
-功能狀態（Modified Rankin Scale, Week 24）
-Odds Ratio (95% CI)
-0.80 (0.58-1.11)
-意識恢復（GCS <15 患者於第20 天恢復正常）
-恢復人數/總數(%)
-48/169 (28.4%)
-65/163 (39.9%)
-Liverpool Outcome Score（Week 2）
-中位數(IQR)
-53 (1-72)
-63 (41-73)
-3.6 亞群分析
-亞群分析：潛在有害亞群
-所有亞群分析均未顯示高劑量rifampin 的效益
-可能受害的亞群：
-亞群
-Hazard Ratio
-95% CI
-正接受ART 的HIV 患者
-2.01
-1.07-3.78
-CSF 白血球<5 cells/mm3
-2.01
-1.14-3.54
-對比：
-• 未接受ART 的HIV 患者：HR 0.78 (95% CI 0.50-1.22)
-• CSF 白血球≥5 cells/mm3：HR 0.98 (95% CI 0.72-1.35)
+---
 
+## 2. 研究方法
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-3.7 安全性結果
-不良事件
-高劑量組
-標準劑量組
-P 值
-(N=249)
-(N=250)
-嚴重不良事件
-任何嚴重不良事件，n (%)
-84 (33.7)
-101 (40.4)
-0.12
-嚴重不良事件總數
-常見Grade 3-5 不良事件
-Aspiration pneumonia，n (%)
-16 (6.4)
-4 (1.6)
-0.006
-Cerebrovascular accident，n (%)
-9 (3.6)
-10 (4.0)
-0.82
-Shock with multiorgan failure，n
-(%)
-14 (5.6)
-13 (5.2)
-0.83
-肝臟不良事件
-ALT ≥5×ULN，n (%)
-13 (5.2)
-15 (6.0)
-0.71
-Total
-bilirubin
-≥2.6×ULN，n
-(%)
-24 (9.6)
-9 (3.6)
-0.007
-Drug-induced liver injury，n (%)
-20 (8.0)
-11 (4.4)
-0.09
-因DILI 死亡
-–
-因DILI 中斷治療>5 天，n (%)
-6 (2.4)
-4 (1.6)
-0.52
-4 討論
-4.1 高劑量rifampin 無效的可能解釋
-編號
-假說
-說明
-Glucocorticoid 代謝加
-速
-高劑量rifampin 誘導CYP3A4，加速dexametha-
-sone/prednisone 代謝
-研究顯示40 mg/kg rifampin 使midazolam 暴露
-量降低38%
-HIV 陰性患者死亡率差異（5.9%）大於HIV 陽性
-患者（2.2%），與glucocorticoid 對HIV 陰性者效
-果較大一致
-免疫反應過強
-高劑量rifampin 快速殺菌可能引發更強的免疫反
-應
-正接受ART 者免疫重建能力較強，可能產生有
-害的中樞神經系統發炎反應
-類似cryptococcal meningitis 早期ART 導致不良
-結果的現象
+### 2.1 研究設計
 
+| 項目 | 內容 |
+|------|------|
+| 試驗名稱 | HARVEST Trial |
+| 研究類型 | Phase 3 雙盲、隨機、安慰劑對照試驗 |
+| 研究地點 | 印尼、南非、烏干達共 9 間醫院 |
+| 研究期間 | 2021 年 3 月 12 日至 2024 年 7 月 31 日 |
+| 期刊 | *N Engl J Med* 2025;393:2434-46 |
+| DOI | 10.1056/NEJMoa2502866 |
+| 試驗註冊 | ISRCTN15668391 |
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-編號
-假說
-說明
-CSF 白血球低下的矛
-盾
-CSF 白血球<5 cells/mm3 可能代表免疫功能低
-下或無反應
-但此亞群高劑量組死亡率反而高出22.7 個百分點
-70% 為HIV 陽性，30% 為HIV 陰性，機制待進
-一步研究
-4.2 劑量選擇的合理性
-• 越南試驗使用15 mg/kg 無效
-• 藥物動力學模型建議>30 mg/kg 才能改善存活
-• 本研究選擇35 mg/kg，接近最大耐受劑量40 mg/kg
-• 無顯著過量毒性，僅有非致命性肝毒性和良性高膽紅素血症
-4.3 研究優勢
+### 2.2 納入與排除條件
+
+| 類別 | 條件 |
+|------|------|
+| 納入條件 | 年齡 ≥18 歲；結核性腦膜炎（確診、可能或疑似）；計劃接受抗結核治療 |
+| 確診定義 | Xpert MTB/RIF Ultra 陽性；MGIT 培養陽性；塗片顯微鏡陽性 |
+| 排除條件 | 過敏史；7 天內已接受 >5 劑抗結核藥物；確診非結核之神經感染；使用 HIV protease inhibitor；glucocorticoids 禁忌症；懷孕或哺乳；ALT ≥5xULN；GFR <30 ml/min/1.73 m² |
+
+### 2.3 治療方案
+
+**高劑量組（High-dose group）：**
+- 標準固定劑量組合錠（含 rifampin 10 mg/kg + isoniazid + pyrazinamide + ethambutol）
+- 額外 rifampin 錠劑（體重 ≤38 kg：900 mg；>38 kg：1200 mg）
+- 總 rifampin 劑量：約 35 mg/kg/day
+- 持續 8 週
+
+**標準劑量組（Standard-dose group）：**
+- 標準固定劑量組合錠（含 rifampin 10 mg/kg）
+- 相同外觀的安慰劑錠劑
+- 持續 8 週
+
+**共同處置：** 8 週後兩組皆接受標準治療至完成 9-12 個月療程；adjunctive glucocorticoids 依國際指引。
+
+### 2.4 隨機分派與分層
+
+- 1:1 隨機分派
+- 分層因子：研究中心、HIV 狀態、疾病嚴重度（MRC grade 1 vs grade 2-3）
+- 雙盲設計
+
+### 2.5 結果指標
+
+| 指標類別 | 內容 |
+|---------|------|
+| 主要結果 | 6 個月死亡率 |
+| 次要結果 | 12 個月死亡率；Modified Rankin Scale（第 24 週）；Liverpool Outcome Score（第 2 週、6 個月）；神經認知功能（2 個月、12 個月）；住院天數；治療中斷（前 8 週 ≥5 天）；因神經惡化再住院；Grade 3 以上不良事件 |
+
+### 2.6 樣本數計算
+
+- 假設標準劑量組 6 個月死亡率為 50%
+- 目標偵測 hazard ratio 0.68（死亡率差異約 13 個百分點）
+- 80% 檢力、雙側 α = 0.05、考慮 5% 失訪
+- 計算樣本數：500 人（每組 250 人）
+
+---
+
+## 3. 研究結果
+
+### 3.1 基線特徵
+
+| 特徵 | 高劑量組 (N=249) | 標準劑量組 (N=250) |
+|------|-----------------|-------------------|
+| 年齡，中位數（IQR），歲 | 38 (28-46) | 35 (28-45) |
+| 女性，n (%) | 101 (40.6) | 121 (48.4) |
+| 體重，中位數（IQR），kg | 54 (49-60) | 55 (45-62) |
+| MRC Grade 1，n (%) | 50 (20.1) | 53 (21.2) |
+| MRC Grade 2，n (%) | 148 (59.4) | 158 (63.2) |
+| MRC Grade 3，n (%) | 51 (20.5) | 39 (15.6) |
+| GCS <15，n/總數 (%) | 164/244 (67.2) | 160/247 (64.8) |
+| HIV 陽性，n (%) | 149 (59.8) | 155 (62.0) |
+| 正接受 ART，n/總數 (%) | 64/149 (43.0) | 61/155 (39.4) |
+| CD4，中位數（IQR），cells/mm³ | 101 (38-176) | 85 (43-204) |
+| Definite TBM，n (%) | 114 (45.8) | 104 (41.6) |
+| Probable TBM，n (%) | 89 (35.7) | 91 (36.4) |
+| CSF 白血球，中位數（IQR），cells/mm³ | 50 (4-177) | 59 (11-203) |
+| 使用 glucocorticoids，n (%) | 473 (94.8%) | — |
+
+### 3.2 主要結果：6 個月死亡率
+
+> **主要結果：無顯著差異**
+
+| 指標 | 高劑量組 (N=249) | 標準劑量組 (N=250) |
+|------|-----------------|-------------------|
+| Kaplan-Meier 估計值 | 44.6% | 40.7% |
+| Hazard Ratio (95% CI) | 1.17 (0.89-1.54) | — |
+| P 值 | 0.25 | — |
+| 死亡時間中位數（IQR），天 | 13 (4-39) | 24 (6-56) |
+
+> **Pearl**: 高劑量組的死亡中位數時間較早（13 天 vs 24 天），提示可能存在早期有害效應。
+
+### 3.3 早期死亡分析
+
+| 時間點 | 高劑量組 | 標準劑量組 |
+|--------|---------|-----------|
+| 前 21 天 Kaplan-Meier 估計值 | 27.6% (95% CI 21.8-33.0) | 19.4% (95% CI 14.3-24.2) |
+
+### 3.4 次要結果
+
+| 結果指標 | 高劑量組 | 標準劑量組 |
+|---------|---------|-----------|
+| 12 個月死亡率 Kaplan-Meier 估計值 | 47.0% | 43.7% |
+| 12 個月 Hazard Ratio (95% CI) | 1.14 (0.88-1.49) | — |
+| Modified Rankin Scale Odds Ratio (95% CI) | 0.80 (0.58-1.11) | — |
+| 意識恢復（GCS <15 患者於第 20 天恢復正常） | 48/169 (28.4%) | 65/163 (39.9%) |
+| Liverpool Outcome Score（Week 2）中位數 (IQR) | 53 (1-72) | 63 (41-73) |
+
+### 3.5 亞群分析
+
+> **所有亞群分析均未顯示高劑量 rifampin 的效益。** 可能受害的亞群：
+
+| 亞群 | Hazard Ratio | 95% CI |
+|------|-------------|--------|
+| 正接受 ART 的 HIV 患者 | 2.01 | 1.07-3.78 |
+| CSF 白血球 <5 cells/mm³ | 2.01 | 1.14-3.54 |
+
+對比：未接受 ART 的 HIV 患者 HR 0.78 (0.50-1.22)；CSF 白血球 ≥5 cells/mm³ HR 0.98 (0.72-1.35)
+
+### 3.6 安全性結果
+
+| 不良事件 | 高劑量組 (N=249) | 標準劑量組 (N=250) | P 值 |
+|---------|-----------------|-------------------|------|
+| 任何嚴重不良事件，n (%) | 84 (33.7) | 101 (40.4) | 0.12 |
+| Aspiration pneumonia，n (%) | 16 (6.4) | 4 (1.6) | 0.006 |
+| Cerebrovascular accident，n (%) | 9 (3.6) | 10 (4.0) | 0.82 |
+| Shock with multiorgan failure，n (%) | 14 (5.6) | 13 (5.2) | 0.83 |
+| ALT ≥5xULN，n (%) | 13 (5.2) | 15 (6.0) | 0.71 |
+| Total bilirubin ≥2.6xULN，n (%) | 24 (9.6) | 9 (3.6) | 0.007 |
+| Drug-induced liver injury，n (%) | 20 (8.0) | 11 (4.4) | 0.09 |
+| 因 DILI 中斷治療 >5 天，n (%) | 6 (2.4) | 4 (1.6) | 0.52 |
+
+---
+
+## 4. 討論
+
+### 4.1 高劑量 rifampin 無效的可能解釋
+
+| 假說 | 說明 |
+|------|------|
+| Glucocorticoid 代謝加速 | 高劑量 rifampin 誘導 CYP3A4，加速 dexamethasone/prednisone 代謝；40 mg/kg rifampin 使 midazolam 暴露量降低 38% |
+| 免疫反應過強 | 高劑量 rifampin 快速殺菌可能引發更強的免疫反應；正接受 ART 者免疫重建能力較強，可能產生有害的中樞神經系統發炎反應；類似 cryptococcal meningitis 早期 ART 導致不良結果的現象 |
+| CSF 白血球低下的矛盾 | CSF 白血球 <5 cells/mm³ 可能代表免疫功能低下或無反應；但此亞群高劑量組死亡率反而高出 22.7 個百分點 |
+
+### 4.2 劑量選擇的合理性
+
+- 越南試驗使用 15 mg/kg 無效
+- 藥物動力學模型建議 >30 mg/kg 才能改善存活
+- 本研究選擇 35 mg/kg，接近最大耐受劑量 40 mg/kg
+- 無顯著過量毒性，僅有非致命性肝毒性和良性高膽紅素血症
+
+### 4.3 研究優勢
+
 1. 多國、多中心、雙盲設計
-2. 涵蓋HIV 陽性與陰性患者
+2. 涵蓋 HIV 陽性與陰性患者
 3. 涵蓋各疾病嚴重度
 4. 追蹤完成率高（96%）
-5. 治療依從性佳（91% 漏藥<2 天）
+5. 治療依從性佳（91% 漏藥 <2 天）
 6. 高度可推廣性
-4.4 研究限制
+
+### 4.4 研究限制
+
 1. 微生物學確診困難，可能存在誤診
-2. 縱向CSF 採樣有限，難以研究機制
+2. 縱向 CSF 採樣有限，難以研究機制
 3. 雖為負面結果，仍需謹慎解讀亞群分析
 
+---
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-5 未來方向
-結核性腦膜炎治療的未來策略
-1. 替代藥物方案：
-• 不含rifampin 的處方
-• 使用腦部穿透力更佳的抗結核藥物
-• 動態PET 研究顯示rifampin 腦部病灶穿透有限且不均勻
-2. 宿主導向治療（Host-directed therapy）：
-• Aspirin 輔助治療正在進行試驗
-• Infliximab（TNF 拮抗劑）對glucocorticoid 難治性發炎有效
-• 考慮在治療初期使用infliximab
-3. 早期診斷策略：
-• 縮短患者就診路徑
-• 加速診斷流程
-• 早期治療可能改善預後
-6 結論
-核心結論
-1. 高劑量rifampin 無效益：35 mg/kg rifampin 未能改善結核性腦膜炎患者的6 個月
-存活率
-2. 無法排除有害效應：高劑量組早期死亡趨勢較高，特定亞群（正接受ART 的HIV
-患者、CSF 白血球低下者）可能受害
-3. 安全性可接受但需監測：肝毒性增加但無致死案例，高膽紅素血症可能與膽汁外流
-減少有關
-4. 臨床意義：不建議將高劑量rifampin 作為結核性腦膜炎的標準治療
-5. 研究價值：證明在資源有限環境中仍可進行高品質多國臨床試驗，為這個被忽視的
-疾病提供重要證據
-7 名詞解釋
-術語
-說明
-TBM
-Tuberculous Meningitis，結核性腦膜炎
-Rifampin/Rifampicin
-利福平，抗結核藥物的核心藥物
-MRC Grade
-Medical Research Council 疾病嚴重度分級
-Grade 1：意識清醒、定向力正常、無局部神經缺損
-Grade 2：GCS 11-14 或GCS 15 合併局部神經缺損
-Grade 3：GCS <10
-GCS
-Glasgow Coma Scale，格拉斯哥昏迷指數（3-15 分）
+## 5. 未來方向
 
+1. **替代藥物方案：** 不含 rifampin 的處方；使用腦部穿透力更佳的抗結核藥物；動態 PET 研究顯示 rifampin 腦部病灶穿透有限且不均勻
+2. **宿主導向治療（Host-directed therapy）：** Aspirin 輔助治療正在進行試驗；infliximab（TNF 拮抗劑）對 glucocorticoid 難治性發炎有效
+3. **早期診斷策略：** 縮短患者就診路徑；加速診斷流程；早期治療可能改善預後
 
-感染症文獻整理
-HARVEST Trial: High-Dose Rifampin in TBM
-術語
-說明
-CSF
-Cerebrospinal Fluid，腦脊髓液
-ART
-Antiretroviral Therapy，抗反轉錄病毒治療
-DILI
-Drug-Induced Liver Injury，藥物性肝損傷
-ULN
-Upper Limit of Normal，正常值上限
-Modified Rankin Scale
-改良蘭金量表，評估神經功能殘障程度（0-6 分）
-Liverpool
-Outcome
-Score
-利物浦結果評分，評估結核性腦膜炎預後（1-5 分）
-Xpert MTB/RIF Ul-
-tra
-結核分枝桿菌快速分子診斷檢測
-IRIS
-Immune Reconstitution Inflammatory Syndrome，免疫
-重建發炎症候群
-8 參考文獻
-1. Meya DB, Cresswell FV, Dai B, et al. Trial of High-Dose Oral Rifampin in Adults with
-Tuberculous Meningitis. N Engl J Med. 2025;393(24):2434-2446. 2. Heemskerk AD, Bang ND, Mai NTH, et al. Intensified Antituberculosis Therapy in Adults
-with Tuberculous Meningitis. N Engl J Med. 2016;374(2):124-134. 3. Donovan J, Bang ND, Imran D, et al. Adjunctive Dexamethasone for Tuberculous Meningitis
-in HIV-Positive Adults. N Engl J Med. 2023;389(15):1357-1367. 4. Svensson EM, Dian S, Te Brake L, et al. Model-Based Meta-analysis of Rifampicin Exposure
-and Mortality in Indonesian Tuberculous Meningitis Trials. Clin Infect Dis. 2020;71(8):1817-
-1823. 5. Wilkinson RJ, Rohlwink U, Misra UK, et al. Tuberculous Meningitis. Nat Rev Neurol. 2017;13(10):581-598. 關鍵詞：結核性腦膜炎、Rifampin、高劑量治療、隨機對照試驗、HARVEST Trial、HIV、
-藥物性肝損傷
+---
+
+## 6. 結論
+
+> **Pearl 1**: 高劑量 rifampin 無效益 — 35 mg/kg rifampin 未能改善結核性腦膜炎患者的 6 個月存活率
+>
+> **Pearl 2**: 無法排除有害效應 — 高劑量組早期死亡趨勢較高，特定亞群可能受害
+>
+> **Pearl 3**: 安全性可接受但需監測 — 肝毒性增加但無致死案例
+>
+> **Pearl 4**: 臨床意義 — 不建議將高劑量 rifampin 作為結核性腦膜炎的標準治療
+>
+> **Pearl 5**: 研究價值 — 證明在資源有限環境中仍可進行高品質多國臨床試驗
+
+---
+
+## 7. 名詞解釋
+
+| 術語 | 說明 |
+|------|------|
+| TBM | Tuberculous Meningitis，結核性腦膜炎 |
+| Rifampin/Rifampicin | 利福平，抗結核藥物的核心藥物 |
+| MRC Grade | Medical Research Council 疾病嚴重度分級：Grade 1 意識清醒；Grade 2 GCS 11-14 或 GCS 15 合併局部神經缺損；Grade 3 GCS <10 |
+| GCS | Glasgow Coma Scale，格拉斯哥昏迷指數（3-15 分） |
+| CSF | Cerebrospinal Fluid，腦脊髓液 |
+| ART | Antiretroviral Therapy，抗反轉錄病毒治療 |
+| DILI | Drug-Induced Liver Injury，藥物性肝損傷 |
+| ULN | Upper Limit of Normal，正常值上限 |
+| Modified Rankin Scale | 改良蘭金量表，評估神經功能殘障程度（0-6 分） |
+| Liverpool Outcome Score | 利物浦結果評分，評估結核性腦膜炎預後（1-5 分） |
+| Xpert MTB/RIF Ultra | 結核分枝桿菌快速分子診斷檢測 |
+| IRIS | Immune Reconstitution Inflammatory Syndrome，免疫重建發炎症候群 |
+
+---
+
+## 參考文獻
+
+1. Meya DB, Cresswell FV, Dai B, et al. Trial of High-Dose Oral Rifampin in Adults with Tuberculous Meningitis. [*N Engl J Med*. 2025;393(24):2434-2446.](https://doi.org/10.1056/NEJMoa2502866)
+2. Heemskerk AD, Bang ND, Mai NTH, et al. Intensified Antituberculosis Therapy in Adults with Tuberculous Meningitis. [*N Engl J Med*. 2016;374(2):124-134.](https://doi.org/10.1056/NEJMoa1507062)
+3. Donovan J, Bang ND, Imran D, et al. Adjunctive Dexamethasone for Tuberculous Meningitis in HIV-Positive Adults. [*N Engl J Med*. 2023;389(15):1357-1367.](https://doi.org/10.1056/NEJMoa2216218)
+4. Svensson EM, Dian S, Te Brake L, et al. Model-Based Meta-analysis of Rifampicin Exposure and Mortality in Indonesian Tuberculous Meningitis Trials. [*Clin Infect Dis*. 2020;71(8):1817-1823.](https://doi.org/10.1093/cid/ciz1071)
+5. Wilkinson RJ, Rohlwink U, Misra UK, et al. Tuberculous Meningitis. [*Nat Rev Neurol*. 2017;13(10):581-598.](https://doi.org/10.1038/nrneurol.2017.120)
