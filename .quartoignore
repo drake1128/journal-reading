@@ -1,0 +1,7 @@
+*.pptx
+*.html
+!**/index.qmd
+_pdf_text*
+_*.py
+_*.csv
+.obsidian/
