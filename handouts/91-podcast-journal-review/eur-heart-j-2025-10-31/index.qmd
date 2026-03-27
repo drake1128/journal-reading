@@ -1,0 +1,401 @@
+---
+title: "Eur Heart J 2025-10-31"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+## 期刊概覽
+
+
+### 本期重點
+
+本週[European Heart Journal](https://doi.org/10.1093/eurheartj/ehaf650)聚焦於遺傳學與心律不整的專題，涵蓋生理性心律調節、基因治療、長非編碼RNA、心臟澱粉樣變性、長QT症候群、心房纖維化機制以及遺傳性ST段下降症候群等主題。本期展現了遺傳學如何從基礎科學到臨床應用全面改變心血管疾病的診斷與治療。
+
+
+## 特色研究一：生理性心律調節
+
+
+### 研究背景
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 生理性心律調節的演進 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 通訊作者 | Zachary Whinnett（英國帝國理工學院） |  |  |  |  |
+| 文章類型 | State of the Art Review |  |  |  |  |
+| 心臟傳導系統的重要性 | 正常心臟功能依賴高效的心臟傳導系統。    傳導系統疾病會損害心臟功能，降低運動能力，    造成呼吸困難和疲勞等症狀，嚴重時可導致暈厥和死亡 |  |  |  |  |
+| 心律調節器發展歷史 | 最初開發用於治療完全性心臟傳導阻滯引起的    嚴重心搏過緩 |  |  |  |  |
+| 右心室調節的限制 | 右心室調節導致心室肌肉非生理性激活，    降低整體心臟功能 |  |  |  |  |
+
+
+### 生理性調節技術的演進
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 生理性心律調節的技術發展 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **發展階段** | **技術特點** |  |  |  |  |
+| 早期發展 | **著重於**：    • 促進內在激活    • 提供更生理性的運動心率反應    • 協調心房和心室激活 |  |  |  |  |
+| 近期發展 | **重點轉向保存或恢復正常心室激活模式**：    • 心房-雙心室調節（atrio-biventricular pacing）    • 傳導系統調節（conduction system pacing）      - His束調節（His-bundle pacing）      - 左束支調節（left bundle branch pacing）      - 左室間隔調節（left septal pacing）    • Bachmann束調節（Bachmann's bundle pacing） |  |  |  |  |
+| 潛在效益 | • 減少調節的不良影響    • 擴大調節適應症至治療其他形式的傳導系統疾病 |  |  |  |  |
+
+
+## 特色研究二：脂蛋白疾病的基因治療
+
+
+### 研究概述
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 基因編輯技術在脂蛋白代謝疾病的應用 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 通訊作者 | Chen Gurevitz（美國西奈山醫學院） |  |  |  |  |
+| 文章類型 | State of the Art Review |  |  |  |  |
+| 疾病範圍 | • 家族性高膽固醇血症（familial hypercholesterolaemia）    • 升高的脂蛋白(a) [Lipoprotein(a)]    • 家族性乳糜微粒血症症候群（familial chylomicronaemia syndrome） |  |  |  |  |
+| 傳統治療挑戰 | 依賴降脂療法，需要終身遵循 |  |  |  |  |
+
+
+### 基因療法技術
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 新興基因療法技術平台 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **技術** | **說明與應用** |  |  |  |  |
+| RNA基礎療法 | 靶向疾病相關基因的RNA分子 |  |  |  |  |
+| 基因添加療法    (Gene addition) | 引入正常基因副本以補償缺陷基因 |  |  |  |  |
+| CRISPR基因編輯 | Clustered Regularly Interspaced Short Palindromic Repeats    （成簇規律間隔短回文重複序列） |  |  |  |  |
+| 鹼基編輯    (Base editing) | 精確改變單一鹼基對，不需切斷DNA雙股 |  |  |  |  |
+| 治療優勢 | • 提供持久治療    • 克服藥物遵從性挑戰    • 針對特定遺傳路徑 |  |  |  |  |
+
+
+### 個人化醫療整合
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 風險預測與個人化策略 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **工具** | **應用** |  |  |  |  |
+| 機器學習 | 風險預測 |  |  |  |  |
+| 多基因風險分數    (Polygenic risk scores) | 增強風險分層 |  |  |  |  |
+| 整合應用 | 展現個人化方法的潛力，    革新動脈粥樣硬化性心血管疾病（ASCVD）的    預防與管理 |  |  |  |  |
+
+
+## 特色研究三：長非編碼RNA的功能與挑戰
+
+
+### lncRNA研究的複雜性
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 長非編碼RNA研究面臨的挑戰 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 作者 | Matthew Bennett, Igor Ulitsky, Andrew H. Baker    （英國愛丁堡大學、以色列魏茨曼科學研究所） |  |  |  |  |
+| 文章類型 | Viewpoint |  |  |  |  |
+| 標題重點 | 「Missing 'lncs'」：不充分的審查如何導致    長非編碼RNA及其功能在心血管疾病中的誤述 |  |  |  |  |
+| lncRNA定義 | 雖然假設只有部分lncRNA具有功能性，    但確定有數個在心臟恆定或作為心血管併發症介質中    是必不可少的 |  |  |  |  |
+
+
+### lncRNA的特殊性質
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} lncRNA與蛋白質編碼基因的比較 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **特性** | **lncRNA的特點** |  |  |  |  |
+| 表達特異性 | 僅在特定細胞類型或狀態中表達 |  |  |  |  |
+| 表達水平 | 較低的表達量 |  |  |  |  |
+| 跨物種保守性 | 較低的物種間保守水平 |  |  |  |  |
+| 轉錄變異體 | 更複雜的可能同功異型體（isoforms）組合 |  |  |  |  |
+| 基因組位置 | 許多lncRNA從具有重疊基因或其他功能性的    基因組區域表達    例如：可能重疊轉錄因子結合的調控DNA元件    （如增強子）或被加工成小RNA（包括microRNA） |  |  |  |  |
+
+
+### 研究挑戰與建議
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} lncRNA研究的關鍵問題 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **問題類型** | **具體問題** |  |  |  |  |
+| 同功異型體 | 哪些同功異型體是相關的？ |  |  |  |  |
+| 小RNA產生 | 哪些可能產生小RNA？ |  |  |  |  |
+| 細胞類型差異 | 這些問題的答案在不同細胞類型間是否不同？ |  |  |  |  |
+| 技術適當性 | 哪些技術適合評估這些問題？ |  |  |  |  |
+| 數據解釋 | 這將如何影響實驗數據的解釋？ |  |  |  |  |
+| 研究工具 | • 易於訪問的基因組學資源    • 在基因組瀏覽器中仔細檢查lncRNA基因位點 |  |  |  |  |
+| 警告 | 僅依賴廣泛的方法可能在許多情況下淡化其複雜性 |  |  |  |  |
+| 重新分類需求 | 某些lncRNA產生小的功能性肽段，    因此需要重新分類為蛋白質編碼基因 |  |  |  |  |
+
+
+## 臨床研究一：心房纖維顫動中的心房澱粉樣變性
+
+
+### 研究設計
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 心房切片檢測澱粉樣變性研究 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 通訊作者 | Kodai Shinzato（日本佐賀大學） |  |  |  |  |
+| 文章類型 | Clinical Research |  |  |  |  |
+| 研究背景 | 心臟澱粉樣變性（CA）是一種進行性疾病，    與高發生率的心臟衰竭和心律不整相關，預後不佳。    CA診斷時通常已是晉期，因此早期診斷對    預期壽命有重大影響 |  |  |  |  |
+| 研究目的 | 評估非瓣膜性心房纖維顫動（AF）患者中CA的盛行率，    並測試通過心房切片識別早期CA的假設 |  |  |  |  |
+| 研究對象 | 578位AF消融術患者 |  |  |  |  |
+| 研究方法 | AF消融術期間進行心房切片，    使用免疫組織化學評估澱粉樣蛋白類型 |  |  |  |  |
+| 患者分組 | • 心房切片檢測CA組（abio-CA）    • 非CA組（non-CA）    • 臨床診斷CA組（58位額外患者） |  |  |  |  |
+
+
+### 研究結果
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 心房澱粉樣變性盛行率與臨床特徵 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **結果項目** | **發現** |  |  |  |  |
+| 整體盛行率 | 40位患者（7  其中25例為甲狀腺素運載蛋白型（ATTR） |  |  |  |  |
+| 年齡相關增加 | 隨著年齡增長、左心室肥厚和左心房低電壓區存在，    盛行率增加至20-40 |  |  |  |  |
+| abio-CA vs.    臨床CA組 | abio-CA組表現出較薄的左心室後壁（P<.001） |  |  |  |  |
+| abio-CA vs.    非CA組 | abio-CA組表現出：    • 較厚的左心室後壁（P<.001）    • 更高頻率的低電壓區<0.5 mV（P<.001） |  |  |  |  |
+| 結論 | 心房切片在接受AF消融的患者中揭示7  澱粉樣蛋白沉積，識別出早期CA |  |  |  |  |
+
+
+### 配套社論觀點
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 早期心臟澱粉樣變性診斷的臨床意義 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **面向** | **內容** |  |  |  |  |
+| 社論作者 | Arnela Saljic, Alisha Niskala, Thomas Jespersen    （丹麥哥本哈根大學） |  |  |  |  |
+| 預後標記價值 | 心房切片可能作為識別早期CA的有前景的預後標記 |  |  |  |  |
+| 切片時機 | 可在AF導管消融和開放胸腔手術（心房附件）    期間採集，不增加風險 |  |  |  |  |
+| 因果關聯 | CA患者常併發AF，並增加中風和心衰風險，    暗示共病之間存在因果關聯，而非僅是共存 |  |  |  |  |
+| 早期介入重要性 | 早期介入和檢測對於更好理解CA如何導致    這些病症至關重要 |  |  |  |  |
+| 診斷整合 | 結合現有影像模式（超音波/磁振造影）和    心房及心室切片的組織學確認，    可啟動早期治療，影響患者結果並延長生存時間 |  |  |  |  |
+
+
+## 臨床研究二：兒童與青少年長QT症候群
+
+
+### 研究概述
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 德國大型兒童LQTS世代研究 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 通訊作者 | Lea Lippert（德國慕尼黑工業大學） |  |  |  |  |
+| 文章類型 | Clinical Research |  |  |  |  |
+| 疾病背景 | 兒童和青少年期的心源性猝死（SCD）    發生率估計為每10萬人年1-3例。    長QT症候群（LQTS）可能是此類悲劇事件的潛在原因 |  |  |  |  |
+| LQTS定義 | 改變心肌細胞動作電位的遺傳性疾病，    與危及生命的心律障礙風險增加相關 |  |  |  |  |
+| 研究目的 | 描述大型當代國家級兒童和青少年LQTS世代的結果 |  |  |  |  |
+| 研究設計 | 12個德國三級照護中心的548位兒科LQTS患者    數據分析 |  |  |  |  |
+
+
+### 研究結果
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 兒童LQTS主要結果與風險因子 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **數據** |  |  |  |  |
+| 患者特徵 | 49 |  |  |  |  |
+| 診斷原因 | • 偶然發現（27  • 症狀（31  • 級聯篩檢（cascade screening）（42 |  |  |  |  |
+| 主要結果定義 | 18歲前發生主要心律事件（MAE）：    • 心源性猝死（SCD）    • 心臟驟停（ACA）    • 適當的植入式心臟整流去顫器（ICD）治療 |  |  |  |  |
+| 主要結果發生率 | 10.6  • SCD：1.3  • ACA：7.3  • 適當ICD治療：2  • 整體事件率：每100患者年1.0例 |  |  |  |  |
+| 藥物治療 | 追蹤期間（18歲前），92 |  |  |  |  |
+| ICD植入 | 13.3 |  |  |  |  |
+
+
+### 多變量分析風險因子
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 發生MAE的獨立預測因子 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **風險因子** | **風險比（HR）與P值** |  |  |  |  |
+| LQT3型 | HR 2.5, P=.03 |  |  |  |  |
+| 暈厥病史 | HR 3.0, P<.01 |  |  |  |  |
+| 無心臟藥物 | HR 9.5, P<.01 |  |  |  |  |
+| QTc ≥500 ms | HR 2.9, P<.01 |  |  |  |  |
+| 結論 | 兒科LQTS患者在18歲前有危及生命的    心律不整風險，需要細緻的個人化臨床方法 |  |  |  |  |
+
+
+### 配套社論觀點
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} LQTS管理的國際比較 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **面向** | **內容** |  |  |  |  |
+| 社論作者 | Peter J. Schwartz, Carla Spazzolini    （義大利米蘭Istituto Auxologico Italiano IRCCS） |  |  |  |  |
+| 研究價值 | 提供18歲以下人群的相關資訊，    這類報告不多，尤其是近期報告 |  |  |  |  |
+| 德國經驗 | 提供年輕德國LQTS患者可能發生情況的可靠描繪 |  |  |  |  |
+| 國際比較機會 | 提供與其他國家管理策略的獨特比較，    可能促使某些中心考慮改變管理策略，    造福全球LQTS患者 |  |  |  |  |
+| 坦誠分析重要性 | 允許對不同國家和中心的情況進行    坦率和直接的分析 |  |  |  |  |
+
+
+## 轉譯科學研究一：心房纖維化的內皮細胞可塑性
+
+
+### 研究背景
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 內皮細胞在心房纖維化中的作用 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 通訊作者 | Zhiwei Zeng（中國北京協和醫學院） |  |  |  |  |
+| 文章類型 | Translational Science |  |  |  |  |
+| 研究背景 | 心房纖維化是AF病理發生的關鍵決定因子。    內皮功能障礙是AF的標誌特徵，    但內皮細胞（ECs）如何促成心房纖維化的    確切機制仍不完全了解 |  |  |  |  |
+| 研究目標 | 整合單細胞測序和遺傳譜系追蹤，    提供心房纖維化病理生理學的新見解 |  |  |  |  |
+
+
+### 研究方法
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 多層次研究設計 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **技術/模型** | **應用** |  |  |  |  |
+| 單細胞RNA測序    (scRNA-seq) | 分析竇性心律（SR）和AF患者心房組織的    細胞間通訊網絡 |  |  |  |  |
+| Cdh5-CreERT2;RFP    小鼠 | 追蹤橫向主動脈收縮（TAC）後的內皮可塑性 |  |  |  |  |
+| 體外實驗 | 使用分離的人類原代心房內皮細胞和    成纖維細胞（FBs）研究細胞間相互作用 |  |  |  |  |
+| 內皮特異性    Tgf-β1剔除小鼠    (Tgf-β1ECKO) | 闡明內皮來源的轉化生長因子-β1（TGF-β1）    對成纖維細胞功能的調節作用 |  |  |  |  |
+
+
+### 主要發現
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 內皮細胞在纖維化中的機制 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **發現** | **詳細內容** |  |  |  |  |
+| 內皮細胞主導地位 | scRNA-seq分析識別內皮細胞為SR和AF心房組織中    與成纖維細胞廣泛連接的主要信號發送細胞 |  |  |  |  |
+| 間質活化 | 纖維化進展期間，內皮細胞在轉錄水平顯示    顯著的間質活化（mesenchymal activation） |  |  |  |  |
+| 轉換程度 | 免疫螢光和高通量篩檢顯示完全的    內皮-成纖維細胞轉換（EndoMT）極少 |  |  |  |  |
+| 關鍵介質 | 細胞間通訊分析和體外研究識別TGF-β1    是間質活化內皮細胞（EndoMA）促進    成纖維細胞增殖和膠原產生的關鍵介質 |  |  |  |  |
+| 基因剔除效應 | 內皮特異性Tgf-β1剔除減輕TAC誘導的    心房纖維化並降低AF易感性 |  |  |  |  |
+| 結論 | EndoMA來源的TGF-β1關鍵調節成纖維細胞功能    並驅動心房纖維化進展。    靶向內皮特異性路徑代表有前景的治療策略，    可減輕AF病理發生中的心房纖維化 |  |  |  |  |
+
+
+### 配套社論：臨床轉譯展望
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 內皮可塑性與纖維化的臨床意義 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **面向** | **內容** |  |  |  |  |
+| 社論作者 | Guillermo Luxán, Samuel Sossalla    （德國法蘭克福歌德大學、德國吉森大學） |  |  |  |  |
+| 纖維化在AF中的    核心地位 | 纖維化是AF病理生理學的關鍵角色之一，    與電重塑密切相關並影響電重塑 |  |  |  |  |
+| 當前治療缺口 | 儘管臨床重要性，目前沒有直接靶向心房纖維化的    特定療法——這是DECAAF II試驗強調的緊迫缺口。    該試驗顯示MRI引導的纖維化消融與    傳統消融相比並未顯著降低AF復發 |  |  |  |  |
+| 病理生理學理解    的重要性 | 強調需要更深入理解潛在病理生理學，    作為開發創新、纖維化靶向治療的基礎 |  |  |  |  |
+| 治療時機挑戰 | 可能需要早期介入，理想情況下在顯著纖維化和    「纖維化依賴性AF」發生之前 |  |  |  |  |
+| 未來研究方向 | 可能聚焦於治療高風險患者和    此類方法背景下的預防策略等概念 |  |  |  |  |
+| 總結 | 更深入理解AF的病理生理學，    特別是內皮可塑性和纖維化的作用，    對於推進治療策略至關重要 |  |  |  |  |
+
+
+## 轉譯科學研究二：KCNB1基因變異與家族性ST段下降
+
+
+### 研究概述
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} FSTD症候群的遺傳學發現 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **項目** | **內容** |  |  |  |  |
+| 通訊作者 | Alex Hørby Christensen    （丹麥哥本哈根大學醫院Rigshospitalet） |  |  |  |  |
+| 文章類型 | Translational Science |  |  |  |  |
+| 疾病背景 | 家族性ST段下降（FSTD）症候群是最近識別的    遺傳性心臟疾病，與心律不整和收縮功能障礙相關。    潛在的遺傳病因學一直難以捉摸 |  |  |  |  |
+| 研究目標 | 將KCNB1附近的非編碼變異表徵為    顯性遺傳FSTD症候群的原因 |  |  |  |  |
+| 研究對象 | 67位FSTD患者（20個家族） |  |  |  |  |
+
+
+### 研究方法與發現
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 全基因組研究的多層次分析 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **方法/發現** | **詳細內容** |  |  |  |  |
+| 初步方法 | 連鎖分析（linkage analysis）和    全基因組測序（WGS） |  |  |  |  |
+| 功能表徵 | 在以下系統中對識別的非編碼變異進行功能表徵：    • AC16人類心肌細胞    • 肌肉組織    • 人類心肌 |  |  |  |  |
+| 分子技術 | • 電腦模擬（in silico）分析    • 螢光素酶（luciferase）和      dCas9-activator/repressor檢測    • 蛋白質-DNA實驗    • 染色體構象捕獲（4C）    • RNA測序 |  |  |  |  |
+| 心電圖表型 | 所有家族中以自體顯性方式遺傳 |  |  |  |  |
+| 連鎖分析結果 | 在20號染色體上顯示單一峰 |  |  |  |  |
+| 變異位置 | WGS識別出單一罕見非編碼變異，    位於20號染色體KCNB1下游18 kb，    在所有受影響個體中存在 |  |  |  |  |
+
+
+### 分子機制
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 增強子變異的功能效應 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **機制層面** | **發現** |  |  |  |  |
+| 共分離與外顯率 | 與心電圖表型完美共分離，    所有家族中表現完全外顯率 |  |  |  |  |
+| 轉錄因子結合 | 該變異創造一個MEF2結合位點 |  |  |  |  |
+| 轉錄活性 | 變異等位基因的存在或MEF2共表達增強轉錄活性 |  |  |  |  |
+| dCas9實驗 | dCas9-activator/repressor檢測顯示    KCNB1是該位點唯一持續調節的基因 |  |  |  |  |
+| 染色體交互作用 | 4C實驗在AC16細胞和人類肌肉組織中    確認該位點與KCNB1啟動子的交互作用 |  |  |  |  |
+| 表達分析挑戰 | 人類心內膜組織的表達分析未記錄基因表達改變，    可能由表達異質性解釋 |  |  |  |  |
+| 結論 | 功能增益型增強子變異創造一個過度活躍的    調控位點，與KCNB1啟動子交互作用並導致FSTD。    這是首次將KCNB1牽涉到人類心臟電生理學和    心律不整發生 |  |  |  |  |
+
+
+### 配套社論：新離子通道疾病的意義
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} KCNB1與心律不整的臨床意義 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **面向** | **內容** |  |  |  |  |
+| 社論作者 | Kristina H. Haugaa, Ivana Haby    （挪威奧斯陸大學、瑞典斯德哥爾摩卡羅琳斯卡大學醫院） |  |  |  |  |
+| 遺傳時代啟示 | 多次顯示以前未見和未知的症候群突然變得    可見、可解釋，甚至在許多情況下可用    降低風險的藥物治療 |  |  |  |  |
+| 觀察的重要性 | 「你只看到你尋找的」——由於同事的開創性研究，    我們可能會在每個中心和地區找到這些患者 |  |  |  |  |
+| 疾病分類問題 | 應將新實體視為典型離子通道疾病嗎？可能不是 |  |  |  |  |
+| 重疊表型 | 顯著數量的FSTD症候群患者伴有並存且    進行性的左心室功能障礙，表明離子通道和    功能障礙之間的重疊 |  |  |  |  |
+| 進行性特徵 | 心電圖ST段下降也隨時間緩慢進展，    這在其他離子通道病中未見 |  |  |  |  |
+| 與其他疾病關聯 | 這些發現增加了先前報告，顯示改變的    離子通道功能與心臟功能和結構的微妙或    明顯變化相關，例如Brugada症候群和LQTS |  |  |  |  |
+| 研究價值 | 這個團隊的令人印象深刻的工作涵蓋了從    臨床表現到定義、遺傳模式的鏈條，    現在在這項轉譯工作中展示了遺傳致病變異 |  |  |  |  |
+
+
+## 臨床實務重點總結
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 給心臟內科醫師的關鍵訊息 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **面向** | **重點建議** |  |  |  |  |
+| 遺傳諮詢與檢測 | **擴大基因檢測範圍**：    • 考慮中等效應變異（IEVs）    • 注意非編碼區變異    • 整合多基因風險分數 |  |  |  |  |
+| 心律不整管理 | **個人化風險評估**：    • LQTS：注意LQT3、暈厥史、QTc≥500ms    • 確保藥物遵從性（HR 9.5如無藥物）    • 兒童患者需特別細緻的管理 |  |  |  |  |
+| 心房纖維顫動 | **早期診斷心臟澱粉樣變性**：    • AF消融時考慮心房切片    • 注意7  • 早期診斷可啟動特定治療    **纖維化機制**：    • 理解內皮細胞可塑性的角色    • TGF-β1為潛在治療靶點 |  |  |  |  |
+| 新興症候群識別 | **FSTD症候群**：    • 注意家族性ST段下降模式    • 可能伴有左心室功能障礙    • 需要基因檢測（KCNB1相關） |  |  |  |  |
+| 生理性心律調節 | **技術選擇**：    • 考慮傳導系統調節（His束、左束支調節）    • 優於傳統右心室調節    • 可減少長期不良影響 |  |  |  |  |
+
+
+## 未來展望
+
+
+| p{4cm}>{\arraybackslash}p{11cm}} 心血管疾病遺傳學的發展方向 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **領域** | **展望** |  |  |  |  |
+| 基因治療 | • CRISPR等基因編輯技術的臨床應用    • 針對脂蛋白疾病的持久治療    • 克服藥物遵從性問題 |  |  |  |  |
+| 精準醫學 | • 多基因風險分數的臨床整合    • 機器學習輔助風險預測    • 個人化治療策略 |  |  |  |  |
+| 非編碼RNA | • lncRNA作為治療靶點    • 更好理解調控機制    • 發展RNA為基礎的療法 |  |  |  |  |
+| 心律不整 | • 識別更多致病基因變異    • 改善風險分層    • 開發基因型特異性治療 |  |  |  |  |
+| 纖維化治療 | • 靶向內皮細胞可塑性    • TGF-β1路徑調控    • 早期介入策略 |  |  |  |  |
+
+
+## 參考文獻
+
+
+1. Whinnett Z, Naraen A, Vijayaraman P, Cleland JGF, Keene D. Physiological pacing: mechanisms, clinical indications, and perspectives. *Eur Heart J*. 2025;46:3407-3419.     DOI: [10.1093/eurheartj/ehaf440](https://doi.org/10.1093/eurheartj/ehaf440)
+2. Gurevitz C, Bajaj A, Khera AV, Do R, Schunkert H, Musunuru K, et al. Gene therapy and genome editing for lipoprotein disorders. *Eur Heart J*. 2025;46:3420-3433.     DOI: [10.1093/eurheartj/ehaf411](https://doi.org/10.1093/eurheartj/ehaf411)
+3. Bennett M, Ulitsky I, Baker AH. Missing 'lncs': how insufficient scrutiny can lead to misrepresentation of long non-coding RNAs (lncRNAs) and their function in cardiovascular disease. *Eur Heart J*. 2025;46:3434-3436.     DOI: [10.1093/eurheartj/ehaf115](https://doi.org/10.1093/eurheartj/ehaf115)
+4. Shinzato K, Takahashi Y, Yamaguchi T, Otsubo T, Nakashima K, Yoshioka G, et al. Atrial amyloidosis identified by biopsy in atrial fibrillation: prevalence and clinical presentation. *Eur Heart J*. 2025;46:3437-3449.     DOI: [10.1093/eurheartj/ehaf332](https://doi.org/10.1093/eurheartj/ehaf332)
+5. Saljic A, Niskala A, Jespersen T. Diagnosis of early-stage cardiac amyloidosis: is atrial biopsy a new opportunity? *Eur Heart J*. 2025;46:3450-3452.     DOI: [10.1093/eurheartj/ehaf455](https://doi.org/10.1093/eurheartj/ehaf455)
+6. Lippert L, Burkard T, Markel F, Debus V, Stute F, Kamphues A, et al. Long QT syndrome in children and adolescents: risk factors and outcomes in a large German cohort. *Eur Heart J*. 2025;46:3453-3466.     DOI: [10.1093/eurheartj/ehaf365](https://doi.org/10.1093/eurheartj/ehaf365)
+7. Schwartz PJ, Spazzolini C. Are long QT syndrome patients managed differently in different countries? *Eur Heart J*. 2025;46:3467-3469.     DOI: [10.1093/eurheartj/ehaf394](https://doi.org/10.1093/eurheartj/ehaf394)
+8. Zeng Z, Wang X, Pei J, Wang P, Li J, Li F, et al. Endothelial plasticity in atrial fibrosis by integrating single-cell sequencing and genetic lineage tracing. *Eur Heart J*. 2025;46:3470-3482.     DOI: [10.1093/eurheartj/ehaf372](https://doi.org/10.1093/eurheartj/ehaf372)
+9. Luxán G, Sossalla S. Endothelial plasticity and fibrosis in atrial fibrillation: reframing the therapeutic landscape for targeted interventions. *Eur Heart J*. 2025;46:3483-3485.     DOI: [10.1093/eurheartj/ehaf428](https://doi.org/10.1093/eurheartj/ehaf428)
+10. Christensen AH, Pan G, Marvig RL, Rodriguez Gonzalez FG, Vissing CR, Silajdzija E, et al. Gain-of-function enhancer variant near KCNB1 causes familial ST-depression syndrome. *Eur Heart J*. 2025;46:3486-3497.     DOI: [10.1093/eurheartj/ehaf213](https://doi.org/10.1093/eurheartj/ehaf213)
+11. Haugaa KH, Haby I. KCNB1: a new player among the suspects of cardiogenetic arrhythmias. *Eur Heart J*. 2025;46:3498-3500.     DOI: [10.1093/eurheartj/ehaf328](https://doi.org/10.1093/eurheartj/ehaf328)
+12. Crea F. Genes, long non-coding RNAs, and nucleic-acid based therapies: how genetics is changing the present and future of cardiovascular diseases. *Eur Heart J*. 2025;46:3393-3397.     DOI: [10.1093/eurheartj/ehaf650](https://doi.org/10.1093/eurheartj/ehaf650)
+
+
+## 結語
+
+
+本期European Heart Journal以「遺傳學與心律不整」為主題,展現了從基因層次到臨床應用的完整轉譯醫學鏈條。從CRISPR基因編輯治療脂蛋白疾病，到單細胞測序揭示心房纖維化的分子機制，再到識別新的遺傳性心律不整症候群（FSTD），這些研究不僅增進了我們對心血管疾病病理生理學的理解，也為未來的精準醫療奠定了基礎。
+
+特別值得注意的是，這些研究強調了早期診斷和個人化治療的重要性。無論是AF消融時的心房切片以早期診斷心臟澱粉樣變性，或是兒童LQTS患者的細緻風險評估，都彰顯了將遺傳學知識轉化為臨床實務的迫切需要。隨著基因治療技術的成熟和多基因風險分數的臨床應用，心血管疾病的預防和治療正進入一個嶄新的時代。
+
+對於臨床醫師而言，保持對遺傳學進展的關注，並在適當時機整合基因檢測與諮詢，將是提供最佳照護的關鍵。同時，跨專科合作——包括遺傳諮詢師、分子生物學家和臨床心臟專家——將在實現精準心血管醫學的願景中扮演重要角色。

@@ -1,0 +1,264 @@
+---
+title: "https://www.nejm.org/doi/full/10.1056/NEJMcpc2412524"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**[Case 16-2025: A 34-Year-Old Man with a Nasopharyngeal Mass](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412524)**
+[0.5cm]
+{**病例 16-2025：鼻咽腫塊與耳痛**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2412524](https://doi.org/10.1056/NEJMcpc2412524)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 16-2025: A 34-Year-Old Man with a Nasopharyngeal Mass》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412524)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名34歲男性因左耳疼痛、聽力下降、左側面部下垂及鼻咽腫塊，於美國麻省總醫院（Massachusetts General Hospital）住院評估。患者過去健康，8個月前開始左耳疼痛、壓力感及充滿感，於他院多次就診，接受三輪抗生素及類固醇治療，症狀未緩解。3個月前開始使用鼻內類固醇及抗組織胺，症狀略改善，但隨後上呼吸道感染使耳部症狀加重。7週前，左耳疼痛劇烈，伴鼻竇痛，急診給予抗生素及類固醇。6週前，耳鏡檢查顯示左耳中耳積液，聽力測試顯示左耳輕度傳導性聽力損失，行左耳鼓膜切開術。症狀持續惡化，出現綠色鼻涕、喉嚨痛、聲音沙啞及眼部腫脹。入院前9天，雙耳置入鼓膜通氣管，症狀短暫緩解後復發。
+
+
+原文例句: The patient had been well until approximately 8 months before the current presentation, when pain and a sensation of pressure and fullness developed in the left ear. During the subsequent 5 months, he was seen in the primary care clinic of another hospital on five occasions and received three courses of treatment with oral antibiotic agents; however, the patient's symptoms did not abate. He also received one course of prednisone treatment, which provided slight relief of symptoms. Three months before the current presentation, treatment with neomycin ear drops was started, and the patient was referred to the otolaryngology clinic of the other hospital. 
+
+入院時，患者報告耳痛、聲音沙啞、吞嚥痛及困難，過去1個月體重減輕13.6公斤。病史包括輕度季節性過敏、胃食道逆流及慢性頸痛。無吸菸或藥物濫用史，家族無癌症或自體免疫疾病史。體檢顯示血壓161/99 mm Hg，心率106次/分，呼吸頻率18次/分，氧飽和度97
+
+
+### 影像檢查
+
+頭部CT血管造影顯示鼻咽後部軟組織增厚，左側較明顯，延伸至左側咽旁間隙，包圍左內頸動脈，導致輕度狹窄。雙側乳突氣房積液。顱底MRI顯示鼻咽增強軟組織亮度，呈腫塊樣，左側較顯著，累及左側咽旁間隙及前椎長頸肌，包圍左內頸動脈。左側中顱窩硬膜增厚，沿左側幕葉延伸，多個顱神經（三叉神經、左面神經、左舌下神經）增強。無骨侵蝕或骨髓信號異常。
+
+相關敘述請參考表格: 圖表說明中英對照表 (Table  )。
+
+
+### 住院病程
+
+患者入院後，開始廣效抗菌 (broad-spectrum)及抗真菌治療，計劃診斷性biopsy。第1天床邊鼻咽biopsy顯示顯著inflammatory change。第3天行內視鏡鼻咽biposy，仍顯示炎症。第6天第三次biopsy顯示肉芽腫性炎症及血管壁壞死，ANCA測試結果陽性，確診為肉芽腫性多血管炎（GPA）。
+
+
+患者長期耳咽管功能障礙、面神經麻痺及鼻咽腫塊，結合炎症標記升高，提示自體免疫疾病，需行biopsy排除癌症或感染。
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+採用「拼圖啟發法」（jigsaw heuristics）進行診斷推理，分為四階段：
+
+- **拆箱（Unboxing）**：列出臨床問題，包括耳痛、聽力下降、面神經麻痺、鼻咽腫塊、炎症標記升高。
+- **邊角（Corners and Edges）**：識別時間軸：症狀8個月，近期快速進展至面神經麻痺。
+- **地標（Landmarks）**：聚焦關鍵症候群，如耳咽管功能障礙、顱神經病變、鼻咽腫塊。
+- **橋接（Bridging）**：整合症候群，尋找統一診斷。
+
+
+### 鼻咽癌
+
+耳咽管功能障礙及中耳積液提示鼻咽癌，系統性回顧顯示5.5
+
+
+### 感染
+
+鼻竇炎可能擴散至顱底或顱內，但患者無免疫缺陷，多次抗菌治療無效，MRI無骨髓水腫，降低感染可能性。急性侵襲性真菌性鼻竇炎為免疫缺陷患者的急症，死亡率約50
+
+
+### 自體免疫疾病
+
+肉芽腫性多血管炎（GPA）可表現為鼻竇炎症，伴ANCA陽性，但鼻竇biopsy常無明確血管炎證據。患者年輕、炎症標記顯著升高及顱內擴展，提示GPA或IgG4相關疾病。其他自體免疫疾病（如類風濕性多軟骨炎、結節病）可能有鼻竇表現，但顱內invasion少見。
+
+importantbox
+**重要提醒：** 長期耳咽管功能障礙、面神經麻痺及鼻咽腫塊，結合炎症標記升高，高度懷疑自體免疫疾病，需biopsy及ANCA檢測確診。
+importantbox
+
+
+### 統一診斷
+
+耳咽管功能障礙、面神經麻痺、鼻咽腫塊及炎症標記升高，提示GPA，需biopsy及血清學檢測（ANCA、EBV DNA）確診。
+
+
+## 診斷檢查
+
+
+### Biopsy與病理學
+
+第1天及第3天biopsy顯示炎症性黏膜潰瘍及膿瘍，但無明確血管炎。第6天活檢顯示肉芽腫性炎症及血管壁壞死，Verhoeff-van Gieson染色顯示血管壁彈性層破壞。間接免疫螢光顯示ANCA呈細胞質型，ELISA確認抗蛋白酶3抗體（PR3-ANCA）陽性（77單位，參考值<20）。無EBV或真菌證據，排除鼻咽癌及侵襲性真菌感染。
+
+
+### 診斷方法
+
+鼻咽內視鏡biopsy結合病理學檢查為診斷GPA的基石。ANCA檢測（PR3-ANCA）敏感度約90
+
+
+## 疾病管理
+
+
+### 流行病學特徵
+
+GPA為ANCA相關血管炎，影響小至中型血管，常累及上呼吸道、肺及腎。年發病率約10/百萬，無明顯地域限制。鼻竇及耳部症狀為常見表現，顱神經累及較罕見。
+
+
+### 臨床特徵
+
+GPA分為局部型及系統型，患者表現為局部型（鼻咽及耳部）伴顱神經累及。Birmingham血管炎活動評分（BVAS）為19，提示器官威脅性疾病，需積極治療。
+
+
+### 治療策略
+
+誘導治療包括高劑量類固醇（methylprednisolone靜脈注射3天，後口服prednisone遞減）、Rituximab（每2週靜脈注射2次）及短程cyclophosphamide（8週）。Avacopan用於減少類固醇劑量。維持治療以利妥昔單抗每4個月注射，持續2年，後調整間隔以降低感染風險。
+
+
+## 住院病程
+
+
+### 病情進展
+
+患者入院後接受廣譜抗菌及抗真菌治療，連續3次活檢最終確診GPA。誘導治療後2週，面部麻木及面神經麻痺改善，鼻咽炎症減輕。1個月後，因prednisone減量出現頭痛及疲倦，延長減量至5個月。2個月後，肝功能正常，頭痛消失。5個月後，ANCA降至正常。
+
+
+### 結局
+
+患者住院期間接受積極治療，15個月後持續接受Rituximab維持治療，症狀顯著改善，僅剩左耳聽力損失及輕度面部不對稱，無需手術介入。
+
+
+## 後續追蹤
+
+建議患者定期耳鼻喉科及風濕免疫科追蹤，監測ANCA水平及聽力功能。避免環境刺激（如過敏原），降低鼻咽炎症復發風險。
+
+
+## 最終診斷
+
+肉芽腫性多血管炎（Granulomatosis with polyangiitis, GPA）。
+
+
+## 圖表說明
+
+以下為本病例報告中圖表的英文原文及繁體中文翻譯，以表格形式呈現，供參考。
+
+
+| p{2cm}>{\arraybackslash}p{6cm}>{\arraybackslash}p{6cm}} 圖表說明中英對照表 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **圖表編號** | **英文說明** | **繁體中文翻譯** |  |  |  |
+| \caption[]{圖表說明中英對照表（續）} |  |  |  |  |  |
+| **圖表編號** | **英文說明** | **繁體中文翻譯** |  |  |  |
+| **圖1** | An axial CT angiogram of the neck (Panel A) reveals diffuse soft-tissue prominence in the nasopharynx (white arrow) that is more pronounced on the left side than on the right side and encases the distal cervical internal carotid artery on the left side, resulting in mild asymmetric stenosis (black arrow). A reformatted CT image to emphasize bone (Panel B) shows associated mastoid effusion (asterisks). MRI was performed. An axial T2-weighted fat-saturated image (Panel C) and an axial T1-weighted fat-saturated image, obtained after the administration of intravenous contrast material (Panel D), show an enhancing mass in the posterior nasopharynx. A coronal volumetric T1-weighted image (Panel E) shows enhancement of the V3 segments of both trigeminal nerves (white arrows), asymmetric thickening of the V3 segment of the left trigeminal nerve (asterisk), and pachymeningeal thickening. Axial T1-weighted images (Panels F and G) show additional cranial-nerve enhancement involving the left facial nerve (Panel F, arrows) and left hypoglossal nerve (Panel G, arrow). | 頸部軸位CT血管造影（圖A）顯示鼻咽軟組織增厚（白箭），左側較右側明顯，包圍左側遠端頸內動脈，導致輕度不對稱狹窄（黑箭）。骨窗CT（圖B）顯示雙側乳突積液（星號）。MRI檢查顯示，軸位T2加權脂肪抑制影像（圖C）及軸位T1加權脂肪抑制對比增強影像（圖D）顯示鼻咽後部增強腫塊。冠狀位T1加權對比增強影像（圖E）顯示雙側三叉神經V3段增強（白箭），左側V3段不對稱增厚（星號），及硬膜增厚。軸位T1加權影像（圖F、G）顯示左側面神經（圖F，箭頭）及左側舌下神經（圖G，箭頭）增強。 |  |  |  |
+| **圖2** | Hematoxylin and eosin staining of the biopsy specimen (Panel A) shows granulomatous inflammation and florid fibrinoid necrosis of vascular walls, along with multinucleated giant cells (arrows), neutrophilic infiltrates, and areas of karyorrhectic nuclear debris. Verhoeff-van Gieson elastic staining (Panel B) highlights loss of linearity of elastic fibers (black staining), a finding that reveals disruption and fragmentation of vascular wall elastic lamina in a medium-sized vessel. | 活檢標本蘇木精-伊紅染色（圖A）顯示肉芽腫性炎症及血管壁顯著纖維蛋白壞死，伴多核巨細胞（箭頭）、中性粒細胞浸潤及核碎裂區。Verhoeff-van Gieson彈性染色（圖B）顯示彈性纖維線性喪失（黑色染色），提示中型血管壁彈性層破壞及碎裂。 |  |  |  |
+|  |  |  |  |  |  |
+
+
+---
+
+
+## 考題
+
+
+以下為針對本病例的十道選擇題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者的主要臨床表現不包括：     enumerate[label=\alph*)]
+2. 耳痛 (ear pain)
+3. 面神經麻痺 (facial nerve palsy)
+4. 咳嗽 (cough)
+5. 體重減輕 (weight loss)
+
+
+    \item 患者頭部MRI顯示的關鍵異常是：
+    
+1. 骨侵蝕 (osseous erosion)
+2. 鼻咽增強腫塊 (enhancing nasopharyngeal mass)
+3. 單側肺葉實變 (unilateral lobar consolidation)
+4. 心臟肥大 (cardiomegaly)
+
+
+    \item 以下哪項特徵最不支持感染性診斷？
+    
+1. 多次抗菌治療無效 (failure of multiple antibiotic courses)
+2. 炎症標記升高 (elevated inflammatory markers)
+3. 鼻咽腫塊 (nasopharyngeal mass)
+4. 乳突積液 (mastoid effusion)
+
+
+    \item GPA的典型併發症包括：
+    
+1. 顱神經病變 (cranial neuropathy)
+2. 腦膜炎 (meningitis)
+3. 肝衰竭 (liver failure)
+4. 骨髓抑制 (bone marrow suppression)
+
+
+    \item 患者快速進展面神經麻痺的最可能診斷是：
+    
+1. 鼻咽癌 (nasopharyngeal carcinoma)
+2. 肉芽腫性多血管炎 (granulomatosis with polyangiitis)
+3. 侵襲性真菌感染 (invasive fungal infection)
+4. 結節病 (sarcoidosis)
+
+
+    \item GPA的主要診斷方法是：
+    
+1. 胸部CT
+2. 活檢及ANCA檢測 (biopsy and ANCA testing)
+3. 痰培養
+4. 心臟超音波
+
+
+    \item GPA的治療措施不包括：
+    
+1. 類固醇 (glucocorticoids)
+2. 利妥昔單抗 (rituximab)
+3. 抗病毒藥物 (antiviral drugs)
+4. 阿瓦利单抗 (avacopan)
+
+
+    \item 患者炎症標記升高的最可能原因是：
+    
+1. 細菌性鼻竇炎 (bacterial sinusitis)
+2. 自體免疫血管炎 (autoimmune vasculitis)
+3. 病毒性感染 (viral infection)
+4. 骨髓增生疾病 (myeloproliferative disorder)
+
+
+    \item 患者聽力損失的最可能來源是：
+    
+1. 耳咽管功能障礙 (eustachian tube dysfunction)
+2. 腦膜炎 (meningitis)
+3. 心因性聾病 (cardiogenic deafness)
+4. 肺部感染 (pulmonary infection)
+
+
+    \item 本病例最終診斷是：
+    
+1. 鼻咽癌 (nasopharyngeal carcinoma)
+2. 侵襲性真菌感染 (invasive fungal infection)
+3. 肉芽腫性多血管炎 (granulomatosis with polyangiitis)
+4. IgG4相關疾病 (IgG4-related disease)
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：c) 咳嗽 (cough)**      **詳解：** 患者表現為耳痛、面神經麻痺、體重減輕及鼻咽腫塊，無咳嗽，與呼吸道感染不同，提示鼻咽或自體免疫疾病。
+2. **正確答案：b) 鼻咽增強腫塊 (enhancing nasopharyngeal mass)**      **詳解：** MRI顯示鼻咽增強腫塊及顱神經增強，無骨侵蝕、肺部實變或心臟肥大，符合GPA或癌症表現。
+3. **正確答案：a) 多次抗菌治療無效 (failure of multiple antibiotic courses)**      **詳解：** 多次抗菌治療無效提示非感染性病因。炎症標記升高、鼻咽腫塊及乳突積液為非特異性表現。
+4. **正確答案：a) 顱神經病變 (cranial neuropathy)**      **詳解：** GPA可導致顱神經病變，如面神經麻痺。腦膜炎、肝衰竭或骨髓抑制非典型併發症。
+5. **正確答案：b) 肉芽腫性多血管炎 (granulomatosis with polyangiitis)**      **詳解：** 面神經麻痺、鼻咽腫塊及ANCA陽性提示GPA。鼻咽癌、真菌感染及結節病不符合臨床及病理表現。
+6. **正確答案：b) 活檢及ANCA檢測 (biopsy and ANCA testing)**      **詳解：** 活檢顯示血管炎及ANCA檢測（PR3-ANCA）為GPA確診方法。CT、痰培養及心臟超音波用於輔助診斷。
+7. **正確答案：c) 抗病毒藥物 (antiviral drugs)**      **詳解：** GPA治療包括類固醇、利妥昔單抗及阿瓦利单抗，無抗病毒藥物適應症。
+8. **正確答案：b) 自體免疫血管炎 (autoimmune vasculitis)**      **詳解：** 炎症標記升高由GPA引起的自體免疫血管炎造成。細菌、病毒感染及骨髓疾病不符合臨床表現。
+9. **正確答案：a) 耳咽管功能障礙 (eustachian tube dysfunction)**      **詳解：** 聽力損失由耳咽管功能障礙及中耳積液引起，與GPA相關。腦膜炎、心因性聾病及肺部感染無關。
+10. **正確答案：c) 肉芽腫性多血管炎 (granulomatosis with polyangiitis)**      **詳解：** 最終診斷為GPA，由活檢及ANCA檢測確認。其他選項與病理及血清學結果不符。

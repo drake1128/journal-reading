@@ -1,0 +1,604 @@
+---
+title: "https://www.nejm.org/doi/full/10.1056/NEJMcpc2517859"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**[Case 9-2026: A 12-Year-Old Girl with Altered Mental Status, Abdominal Distention, and Persistent Hypoglycemia](https://www.nejm.org/doi/full/10.1056/NEJMcpc2517859)**
+[0.5cm]
+{**病例 9-2026：一位12歲女孩，主訴意識改變、腹部膨脹及持續性低血糖**}
+[0.3cm]
+{N Engl J Med 2026;394:1216-25   [DOI: 10.1056/NEJMcpc2517859](https://doi.org/10.1056/NEJMcpc2517859)}
+[0.3cm]
+{March 26, 2026}
+
+
+## 病例呈現 (Case Presentation)
+
+
+### Chief Complaint 主訴
+
+A 12-year-old girl was admitted to the pediatric service of this hospital because of **altered mental status, abdominal distention, and persistent hypoglycemia**.
+
+一位12歲女孩因**意識改變、腹部膨脹及持續性低血糖**入住Massachusetts General Hospital兒科病房。
+
+
+### History of Present Illness 現病史
+
+
+importantbox
+**Key Timeline 關鍵時間線：**
+
+- **Approximately 1 year before admission**: Unintentional weight loss of 4 kg during a period of intense running; weight later partially regained.         入院前約1年：劇烈跑步期間非刻意體重下降4公斤；之後部分恢復。
+- **Recent weeks**: Early satiety noted by mother; patient often left meals unfinished.         近幾週：母親注意到病人有早飽感，常吃不完飯。
+- **Morning of admission**: Mother had difficulty rousing the patient. On awakening, she could not maintain her gaze and was speaking nonsensically. Grandmother reported she was well the previous night with full meal.         入院當天早上：母親叫不醒病人。醒來後無法維持注視且說話語無倫次。祖母表示前晚正常進食。
+- **Day 0 (Emergency Department)**: **Blood glucose 30 mg/dL**; intermittently responsive with periods of stupor; temperature 35.4\textdegree C. Treated with IV dextrose with improvement in mental status.         入院當天（急診）：**血糖30 mg/dL**；間歇性反應，有時昏迷；體溫35.4\textdegree C。靜脈注射葡萄糖後意識改善。
+
+
+importantbox
+
+
+**Clinical Pearl: Whipple's Triad 惠普爾三聯症**
+
+此病人符合Whipple's triad的診斷標準：
+
+1. **低血糖的症狀與徵象**：意識改變、低體溫
+2. **對應的低血糖數值**：血糖30 mg/dL
+3. **血糖正常化後症狀改善**：靜脈葡萄糖後意識改善
+
+
+### Past Medical History 過去病史
+
+
+| p{4cm} >{\arraybackslash}p{11cm}}  **Category    類別** | **Details    詳細內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Past Medical History** | - Vestibular migraines (onset at age 7)    - No prior episodes of hypoglycemia |  |  |  |  |
+| **Medications** | - None |  |  |  |  |
+| **Social History** | - Lives in suburban Massachusetts with mother, sister, and grandmother    - No pets    - Middle school student, starting seventh grade    - On the track team; no academic or developmental issues    - Menarche earlier that year |  |  |  |  |
+| **Family History** | - Prostate cancer (maternal grandfather)    - Breast cancer (maternal grandmother)    - Hypertension (maternal grandparents) |  |  |  |  |
+| **Allergies** | No known adverse reactions to medications |  |  |  |  |
+| **Immunizations** | Up to date |  |  |  |  |
+
+
+### Physical Examination 身體檢查
+
+
+On admission to the pediatrics service:
+
+- Temperature: 37.0\textdegree C (oral)
+- Blood pressure: 121/61 mm Hg
+- Heart rate: 89 beats per minute
+- Respiratory rate: 19 breaths per minute
+- Oxygen saturation: 97
+- Weight: 43 kg; BMI: 18.7
+- Mucous membranes: Moist, no oropharyngeal lesions
+- Cardiac: No murmur
+- Lungs: Clear
+- **Abdomen**: **Distended; masslike fullness in the pelvis**; no tenderness
+- Skin: No rash, no lymphadenopathy
+- Neurologic: Alert and oriented, normal gait, no motor or sensory deficits
+
+
+importantbox
+**Key Finding 關鍵發現：**
+
+- 腹部膨脹伴骨盆區腫塊感（masslike fullness in the pelvis）提示腹腔內佔位性病變
+- 結合持續性低血糖，需考慮**腫瘤相關低血糖**的可能性
+
+
+importantbox
+
+
+### Laboratory Data 實驗室數據
+
+
+| p{4.5cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{4.5cm}}  **Test    檢驗項目** | **Result    結果** | **Reference    參考值** | **Clinical Significance    臨床意義** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Complete Blood Count 全血球計數** |  |  |  |  |  |
+| Hemoglobin | 14.2 g/dL | 11.5--15.5 | Normal 正常 |  |  |
+| Hematocrit | 40.5 | 35.0--45.0 | Normal 正常 |  |  |
+| MCV | 76.4 fL | 77.0--95.0 | **Low (microcytic)**    偏低（小球性） |  |  |
+| White-cell count | 6,040/\textmu L | 5,000--14,500 | Normal 正常 |  |  |
+| Platelet count | 280,000/\textmu L | 150,000--450,000 | Normal 正常 |  |  |
+| **Basic Metabolic Panel 基本代謝組合** |  |  |  |  |  |
+| Sodium | 140 mmol/L | 135--145 | Normal 正常 |  |  |
+| Potassium | 3.8 mmol/L | 3.4--5.0 | Normal 正常 |  |  |
+| Carbon dioxide | 23 mmol/L | 23--32 | Low-normal    正常偏低 |  |  |
+| Glucose | **30 mg/dL** | 70--110 | **Severe hypoglycemia**    嚴重低血糖 |  |  |
+| Creatinine | 0.37 mg/dL | 0.30--1.00 | Normal 正常 |  |  |
+| **Liver Function 肝功能** |  |  |  |  |  |
+| AST | 37 U/L | 10--40 | Normal 正常 |  |  |
+| ALT | 22 U/L | 10--50 | Normal 正常 |  |  |
+| Alkaline phosphatase | 137 U/L | 129--417 | Normal 正常 |  |  |
+| Total bilirubin | 0.3 mg/dL | 0.0--1.0 | Normal 正常 |  |  |
+| Albumin | 4.4 g/dL | 3.3--5.0 | Normal 正常 |  |  |
+| **Critical Sample（低血糖發作時抽取）** |  |  |  |  |  |
+| Insulin | **$<$0.4 \textmu U/mL** | 2.6--25.0 | **Suppressed**    抑制 |  |  |
+| C-peptide | **$<$0.1 ng/mL** | 1.1--4.4 | **Suppressed**    抑制 |  |  |
+| Proinsulin | **0.6 pmol/L** | 3.6--22.0 | **Suppressed**    抑制 |  |  |
+| $\beta$-Hydroxybutyrate | **$<$0.1 mmol/L** | 0.0--0.4 | **Suppressed (hypoketotic)**    抑制（低酮體） |  |  |
+| Cortisol (morning) | 5.1 \textmu g/dL | 5.0--25.0 | Low-normal    正常偏低 |  |  |
+| Cortisol (after cosyntropin) | 20.6 \textmu g/dL | $>$15.0 | **Adequate response**    反應正常（排除腎上腺功能不全） |  |  |
+| Lactate | 1.0 mmol/L | 0.5--2.0 | Normal 正常 |  |  |
+| Thyrotropin | 0.64 \textmu U/mL | 0.55--4.78 | Normal 正常 |  |  |
+| Uric acid | 2.4 mg/dL | 2.4--5.7 | Low-normal    正常偏低 |  |  |
+| **IGF Levels（後續檢驗）** |  |  |  |  |  |
+| IGF-II | **206 ng/mL** | --- | **Elevated**    升高 |  |  |
+| IGF-I | **24 ng/mL** | --- | **Low (suppressed by excess IGF-II)**    低下（被過量IGF-II抑制） |  |  |
+| IGF-II:IGF-I ratio | **8.6:1** | $<$3:1 | **Diagnostic of NICTH**    診斷NICTH |  |  |
+
+
+importantbox
+**Critical Sample 解讀要點：**
+
+- Insulin、C-peptide、proinsulin均**低於偵測極限**$\Rightarrow$ 排除insulinoma、外源性胰島素、sulfonylurea
+- $\beta$-Hydroxybutyrate **被抑制**$\Rightarrow$ 提示存在**類胰島素效應**（insulin-like activity），非單純饑餓
+- 正常Lactate及正常肝功能$\Rightarrow$ 排除糖質新生及糖解異常
+- Cosyntropin反應正常$\Rightarrow$ 排除腎上腺功能不全
+- **IGF-II:IGF-I = 8.6:1**$\Rightarrow$ 確診**Non--islet-cell tumor hypoglycemia (NICTH)**
+
+
+importantbox
+
+
+### Imaging Studies 影像學檢查
+
+
+#### CT Head（無顯影劑）
+
+
+- No hydrocephalus, intracranial mass, or parenchymal hemorrhage（無水腦、顱內腫瘤或實質出血）
+
+
+#### MRI Abdomen and Pelvis 腹部及骨盆MRI
+
+
+- **Large intraabdominal mass** with avidly enhancing solid and cystic components         大型腹腔內腫塊，具有明顯增強的實性及囊性成分
+- **Restricted diffusion** on diffusion-weighted imaging         擴散加權影像顯示擴散受限
+- Mass displaced the intestine and ovaries but **did not invade adjacent structures**         腫塊推移腸道及卵巢但**未侵犯鄰近結構**
+- **Normal bilateral ovaries identified separately**         雙側卵巢正常，可獨立辨識
+
+
+#### Glucagon Stimulation Test 升糖素刺激試驗
+
+
+- Glucose rose from 46 to **142 mg/dL** after 1 mg glucagon（血糖從46升至142 mg/dL）
+- Brisk glycemic response consistent with **insulin excess state**（類胰島素過量狀態）
+- Glucagon mobilizes glucose from stored glycogen; this response confirms glycogen stores are present and being held by insulin-like activity
+
+
+## 醫學英文寫作解析 (Medical English Writing Analysis)
+
+
+| p{5cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3cm}}  **Original Sentence    原文例句** | **Grammar Structure    文法結構** | **Chinese Translation    中文翻譯** | **Writing Technique    寫作技巧** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| "On the morning of the hospital admission, the patient's mother had difficulty rousing the patient." | Past Simple + gerund ("had difficulty -ing") | 入院當天早上，病人的母親叫不醒病人。 | "had difficulty + V-ing" 描述困難行為，NEJM常用於入院敘述    Gerund after "difficulty" for admission narratives |  |  |
+| "She presents with signs and symptoms of hypoglycemia, including altered mental status and hypothermia; she has a corresponding low blood glucose level; and her symptoms resolve with normalization of the blood glucose level." | Semicolons separating three independent clauses | 她呈現低血糖的症狀與徵象，包括意識改變及低體溫；有對應的低血糖數值；且血糖正常化後症狀改善。 | 使用分號連接Whipple's triad三項標準，結構清晰    Semicolons for listing diagnostic criteria |  |  |
+| "Testing of blood and urine obtained during an episode of hypoglycemia, known as the `critical sample,' can guide additional testing." | Parenthetical appositive with "known as" | 在低血糖發作期間取得的血液及尿液檢查，稱為「critical sample」，可引導後續檢查。 | 使用插入語定義專業術語    Appositive clause introduces terminology |  |  |
+| "A common pitfall in the diagnosis of congenital hyperinsulinism is the expectation that insulin and C-peptide levels are detectable." | "A common pitfall...is the expectation that..." | 先天性高胰島素血症診斷中常見的陷阱是預期胰島素和C-peptide水平可被偵測。 | 以"pitfall"開頭強調診斷思維誤區    "Pitfall" structure highlights diagnostic traps |  |  |
+| "In this paraneoplastic process, excess production of IGF-II from a tumor results in an inappropriately high IGF-II level, decreased production of pituitary growth hormone, hypoglycemia due to increased glucose uptake in muscle and reduced glucose production in the liver, and decreased insulin production." | Complex enumeration after "results in" | 在此副腫瘤過程中，腫瘤過量產生IGF-II導致IGF-II不適當升高、垂體生長激素分泌減少、因肌肉葡萄糖攝取增加及肝臟葡萄糖生成減少所致的低血糖，以及胰島素分泌減少。 | 單一長句列舉NICTH的完整病理機轉    Single sentence enumerates complete pathomechanism |  |  |
+| "The patient received supportive care --- including dextrose-containing fluids, glucose monitoring, and frequent meals containing a combination of fats, carbohydrates, and protein --- while awaiting additional diagnostic evaluation to guide definitive treatment of the tumor." | Em-dash parenthetical + "while awaiting" | 病人接受支持性照護——包括含葡萄糖液體、血糖監測及含脂肪、碳水化合物和蛋白質的頻繁進食——同時等待進一步診斷評估以指導腫瘤的確定治療。 | 破折號插入具體治療細節，主句保持流暢    Em-dashes for treatment details within flowing prose |  |  |
+
+
+## 鑑別診斷 (Differential Diagnosis)
+
+
+**Dr. Katherine Lord的診斷思路**
+
+面對此12歲女孩的持續性低血糖，鑑別診斷的核心問題：
+
+1. 確認Whipple's triad $\Rightarrow$ 低血糖確診
+2. 分析critical sample結果 $\Rightarrow$ insulin、C-peptide、proinsulin均被抑制，但$\beta$-hydroxybutyrate亦被抑制
+3. 抑制的$\beta$-hydroxybutyrate提示**類胰島素效應**而非單純饑餓
+4. 結合腹部腫塊 $\Rightarrow$ 考慮**NICTH**
+
+
+| p{3.5cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3.5cm}}  **Differential Diagnosis    鑑別診斷** | **Supporting Evidence    支持證據** | **Against    不支持證據** | **Suggested Workup    建議檢查** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Causes of Hypoglycemia with Suppressed Insulin 胰島素被抑制的低血糖原因** |  |  |  |  |  |
+| **Exogenous Insulin    Administration    外源性胰島素** | - Persistent hypoglycemia | - **Insulin level undetectable**    - C-peptide undetectable    - 外源性胰島素應可偵測到insulin但C-peptide被抑制 | Sulfonylurea screen    Insulin antibodies |  |  |
+| **Sulfonylurea    Ingestion    磺脲類藥物攝入** | - Can cause hypoglycemia in children | - **Insulin AND C-peptide both undetectable**    - Sulfonylurea應使兩者均可偵測 | **Sulfonylurea blood test**    （常規藥物篩檢無法偵測） |  |  |
+| **Congenital    Hyperinsulinism    先天性高胰島素血症** | - Most common cause of persistent hypoglycemia in children    - $\beta$-hydroxybutyrate suppressed    - **Insulin/C-peptide可在此病中被抑制（常見pitfall）** | - **Abrupt onset of symptoms**    - 通常在嬰幼兒期被診斷    - Age of presentation atypical | Glucagon stimulation test    Genetic testing |  |  |
+| **Insulin Autoimmune    Syndrome    胰島素自體免疫    症候群** | - Rare cause of hypoglycemia | - **Undetectable insulin level**    - No risk factors (Japanese/Korean ancestry, autoimmune disease)    - Typically postprandial, not fasting    - 通常insulin極高 | Insulin autoantibodies |  |  |
+| **Adrenal Insufficiency    腎上腺功能不全** | - Morning cortisol borderline (5.1) | - **Adequate cortisol response to cosyntropin (20.6 \textmu g/dL)**    - 已排除 | Cosyntropin stimulation test    （已完成，正常） |  |  |
+| **Disorders of    Gluconeogenesis/    Glycolysis    糖質新生/糖解異常** | - Childhood hypoglycemia | - **Normal lactate**    - **Normal liver function tests**    - 不符合此類疾病表現 | Lactate    Liver function tests |  |  |
+| **emergency_red{Leading Diagnosis 最可能診斷**} |  |  |  |  |  |
+| **emergency_red**{Non--Islet-Cell Tumor}    **emergency_red**{Hypoglycemia (NICTH)}    **非胰島細胞腫瘤**    **低血糖** | - **Insulin/C-peptide suppressed**    - **$\beta$-hydroxybutyrate suppressed**    - **Positive glucagon response**    - **Abdominal mass on exam**    - **Early satiety history** | - 兒童NICTH罕見（多見於成人） | **IGF-II, IGF-I levels**    **IGF-II:IGF-I ratio**    Abdominal imaging    Core biopsy |  |  |
+
+
+importantbox
+**Clinical Pearl 臨床要點：Critical Sample的解讀邏輯**
+
+
+- 低血糖時，正常生理反應：胰島素$\downarrow$、酮體（$\beta$-hydroxybutyrate）$\uparrow$
+- 此病人：胰島素$\downarrow$（正確反應）**但**酮體**也**$\downarrow$（不正確！）
+- $\beta$-hydroxybutyrate被抑制$=$存在某種**類胰島素物質**（insulin-like activity）在作用
+- 當insulin和C-peptide均undetectable，但有hypoketotic hypoglycemia$\Rightarrow$ 最可能是**IGF-II介導的NICTH**
+- **Glucagon stimulation test**也支持：brisk glucose rise表示glycogen stores被insulin-like activity鎖住
+
+
+importantbox
+
+
+## 討論 (Discussion)
+
+
+### Non--Islet-Cell Tumor Hypoglycemia (NICTH) 非胰島細胞腫瘤低血糖
+
+
+NICTH is a rare paraneoplastic syndrome caused by tumor-secreted high-molecular-weight IGF-II ("big IGF-II"). This incompletely processed form of IGF-II activates the insulin receptor and IGF-I receptor, mimicking insulin action.
+
+NICTH是一種罕見的副腫瘤症候群，由腫瘤分泌的高分子量IGF-II（"big IGF-II"）引起。此未完全加工的IGF-II形式可活化胰島素受體及IGF-I受體，模擬胰島素作用。
+
+
+- **Pathophysiology 病理生理**：     itemize
+- Tumor secretes excess IGF-II（腫瘤分泌過量IGF-II）
+- IGF-II activates insulin receptor $\Rightarrow$ increased glucose uptake in muscle, decreased hepatic glucose production（增加肌肉葡萄糖攝取，減少肝臟糖質新生）
+- Elevated IGF-II suppresses pituitary growth hormone $\Rightarrow$ decreased IGF-I production（抑制垂體GH $\Rightarrow$ IGF-I下降）
+- Insulin secretion suppressed $\Rightarrow$ insulin and C-peptide undetectable（胰島素分泌被抑制）
+- Ketogenesis suppressed $\Rightarrow$ hypoketotic hypoglycemia（酮體生成被抑制）
+
+
+    \item **Diagnostic criterion 診斷標準**：IGF-II:IGF-I ratio $>$3:1（此病人為**8.6:1**）
+    \item **Associated tumors 相關腫瘤**：Most commonly large mesenchymal tumors (solitary fibrous tumors, leiomyomas, fibrosarcomas); also hepatocellular carcinoma and other epithelial tumors
+    \item **Treatment 治療**：Surgical resection of the tumor is curative; glucose normalizes immediately after tumor removal
+itemize
+
+
+### Pathological Discussion 病理討論
+
+
+importantbox
+**Key Pathological Findings 病理關鍵發現**
+
+
+- **Core biopsy**: Spindle-cell proliferation with variable cellularity, organized in short fascicles with occasional nuclear palisading         核心穿刺切片：梭形細胞增生，可變細胞密度，呈短束狀排列伴偶發核柵欄排列
+- **Cell morphology**: Monomorphic cells with moderate eosinophilic vacuolated cytoplasm, blunt-ended ovoid nuclei         細胞形態：單形性細胞，中等量嗜酸性空泡化細胞質，鈍端卵圓形核
+- **Mitotic activity**: Very rare ($<$1 per 10 HPF); no necrosis         有絲分裂活性：極罕見（$<$1/10 HPF）；無壞死
+- **Immunohistochemistry 免疫組織化學**：     itemize
+- **Positive**: Smooth-muscle actin (diffuse), desmin, caldesmon (dim), pan-TRK, DOG1 (variable)
+- **Negative**: S100, CD34, CD117 (c-Kit)
+- **Retained**: SDHB
+
+
+    \item **Final pathology**: Benign cellular smooth-muscle tumor; no histologic features of cancer
+itemize
+importantbox
+
+
+### Differential Diagnosis of the Tumor 腫瘤的鑑別診斷
+
+
+| p{3.5cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3.5cm}}  **Tumor Type    腫瘤類型** | **Supporting    支持** | **Against    不支持** | **Key Markers    關鍵標記** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| NTRK-rearranged spindle-cell neoplasm | Pan-TRK positive | **No S100/CD34 coexpression**    No NTRK fusions on molecular testing | S100+, CD34+, NTRK fusion |  |  |
+| GIST (gastrointestinal stromal tumor) | DOG1 positive | **Strong smooth-muscle markers**    No CD117    Retained SDHB    No KIT/PDGFRA/SDH mutations | CD117+, DOG1+, KIT/PDGFRA mutations |  |  |
+| ****Benign smooth-muscle tumor**** | **SMA+, desmin+, caldesmon+**    Smooth-muscle differentiation on EM    Low mitotic rate, no necrosis | --- | **Leading diagnosis** |  |  |
+
+
+### Surgical Management 手術治療
+
+
+- Initial plan: Core biopsy first (rather than upfront resection) given mass size and differential diagnosis
+- After molecular characterization showed no actionable targets for systemic therapy $\Rightarrow$ surgical resection
+- **Exploratory laparotomy**: Heterogeneous, well-circumscribed retroperitoneal mass weighing **5 kg**, measuring 28.3$\times$24.5$\times$16.5 cm
+- Short segment of sigmoid colon adherent to mass $\Rightarrow$ resected en bloc; no invasion
+- Side-to-side functional end-to-end anastomosis performed
+- **Glucose normalized immediately after resection**
+
+
+## 最終診斷 (Final Diagnosis)
+
+
+# Non--Islet-Cell Tumor Hypoglycemia (NICTH)
+
+0.9\textwidth{
+
+**Non--Islet-Cell Tumor Hypoglycemia (NICTH)**
+[0.2cm]
+**Due to a Benign Cellular Smooth-Muscle Tumor**
+[0.2cm]
+**of the Abdomen**
+[0.3cm]
+**非胰島細胞腫瘤低血糖**
+**肇因於腹腔良性細胞型平滑肌瘤**
+}
+
+
+## 治療計畫 (Treatment Plan)
+
+
+### Preoperative Management 術前處理
+
+
+importantbox
+**Supportive Care While Awaiting Surgery 等待手術期間的支持性照護**
+
+
+1. **Nighttime IV dextrose infusion**：夜間靜脈含葡萄糖液體輸注
+2. **Frequent meals**：含脂肪、碳水化合物及蛋白質的頻繁進食
+3. **Continuous glucose monitor (CGM)**：持續性血糖監測
+4. **Close endocrine follow-up**：密切內分泌科追蹤
+
+
+importantbox
+
+
+### Surgical Treatment 手術治療
+
+
+| p{4cm} >{\arraybackslash}p{11cm}}  **Procedure    手術項目** | **Details    詳細內容** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Exploratory laparotomy    剖腹探查** | Well-circumscribed retroperitoneal mass, 28.3$\times$24.5$\times$16.5 cm, 5 kg    界限分明的腹膜後腫塊 |  |  |  |  |
+| **Tumor resection    腫瘤切除** | Complete excision of mass with adherent sigmoid colon segment resected en bloc. No invasion of adjacent structures. Normal uterus and ovaries.    完整切除腫塊，沾黏的乙狀結腸段一併切除。無鄰近結構侵犯。子宮及卵巢正常。 |  |  |  |  |
+| **Colonic anastomosis    結腸吻合** | Side-to-side functional end-to-end anastomosis of left colon    左結腸側對側功能性端端吻合 |  |  |  |  |
+
+
+### Postoperative Course and Follow-up 術後病程及追蹤
+
+
+- **Glucose normalized immediately after tumor resection**（術後血糖立即恢復正常）
+- Admitted to surgical ICU for glucose monitoring; continued IV dextrose until oral intake resumed
+- Diet advanced with return of bowel function; uncomplicated postoperative course
+- Discharged on postoperative day 7 without dextrose supplementation
+- Regular cross-sectional imaging for follow-up
+- **18-month follow-up**: No evidence of disease, normal glucose level, returned to school and competitive sports
+
+
+**Critical Point 關鍵要點**: Surgical resection is curative for NICTH. Glucose normalizes immediately upon tumor removal, confirming the tumor as the source of excess IGF-II. Long-term imaging surveillance is recommended to monitor for recurrence.
+
+手術切除對NICTH具有治癒性。腫瘤移除後血糖立即恢復正常，確認腫瘤為過量IGF-II的來源。建議長期影像追蹤以監測復發。
+
+
+## 學習重點 (Key Takeaways)
+
+
+**1. Whipple's Triad: The Foundation for Diagnosing Hypoglycemia 惠普爾三聯症：低血糖診斷的基礎**
+
+- Signs/symptoms of hypoglycemia + low blood glucose + resolution with glucose normalization
+- Once confirmed, the "critical sample" (blood drawn during hypoglycemia) guides the differential diagnosis
+- 確認低血糖後，於低血糖發作時抽取的critical sample是鑑別診斷的關鍵
+
+
+**2. The Critical Sample: Key to Differential Diagnosis 關鍵標本：鑑別診斷的鑰匙**
+
+- Measure insulin, C-peptide, proinsulin, $\beta$-hydroxybutyrate, and cortisol during hypoglycemia
+- Suppressed $\beta$-hydroxybutyrate with suppressed insulin/C-peptide = insulin-like activity (consider NICTH)
+- 低酮體+低胰島素/C-peptide=類胰島素活性，需考慮NICTH
+
+
+**3. NICTH: A Paraneoplastic Syndrome Mediated by IGF-II NICTH：IGF-II介導的副腫瘤症候群**
+
+- Tumor-derived "big IGF-II" activates insulin receptor $\Rightarrow$ hypoglycemia with suppressed insulin
+- Diagnostic: IGF-II:IGF-I ratio $>$3:1
+- Most commonly associated with large mesenchymal tumors
+- NICTH最常見於大型間質瘤，IGF-II:IGF-I比值$>$3:1即可診斷
+
+
+**4. Pitfall: "Normal" Insulin Does Not Rule Out Hyperinsulinemic States 陷阱："正常"胰島素不能排除高胰島素狀態**
+
+- In congenital hyperinsulinism, insulin and C-peptide may be undetectable
+- Suppressed $\beta$-hydroxybutyrate and positive glucagon response are more sensitive markers
+- 先天性高胰島素血症中insulin可能無法偵測——$\beta$-hydroxybutyrate抑制及升糖素反應更敏感
+
+
+**5. Surgical Resection Is Curative for NICTH 手術切除可治癒NICTH**
+
+- Complete tumor resection results in immediate glucose normalization
+- This patient's glucose normalized intraoperatively upon removal of the 5 kg retroperitoneal mass
+- At 18-month follow-up: no recurrence, normal glucose, return to full activities
+- 此病人5公斤腫瘤切除後血糖立即正常化，18個月追蹤無復發
+
+
+## 自我測驗 (Self-Assessment Quiz)
+
+
+### 題目 (Questions)
+
+
+**Question 1.** A 12-year-old girl presents with altered mental status and a blood glucose level of 30 mg/dL. Which set of criteria constitutes Whipple's triad for the diagnosis of hypoglycemia?
+
+一位12歲女孩出現意識改變且血糖30 mg/dL。下列何組標準構成惠普爾三聯症的低血糖診斷？
+
+
+1. Hyperglycemia, polyuria, polydipsia
+2. Symptoms of hypoglycemia, low blood glucose, symptom resolution with glucose normalization
+3. Insulin resistance, hyperinsulinemia, acanthosis nigricans
+4. Ketoacidosis, hyperglycemia, dehydration
+5. Altered mental status, seizure, glucagon response
+
+
+**Question 2.** During a hypoglycemic episode, blood tests show: insulin $<$0.4 $\mu$U/mL, C-peptide $<$0.1 ng/mL, and $\beta$-hydroxybutyrate $<$0.1 mmol/L. Which diagnosis is MOST consistent with these findings?
+
+低血糖發作時，血液檢查顯示：胰島素$<$0.4、C-peptide$<$0.1、$\beta$-hydroxybutyrate$<$0.1。下列何者最符合這些發現？
+
+
+1. Insulinoma
+2. Exogenous insulin administration
+3. Sulfonylurea ingestion
+4. Non--islet-cell tumor hypoglycemia (NICTH)
+5. Adrenal insufficiency
+
+
+**Question 3.** In non--islet-cell tumor hypoglycemia (NICTH), what is the primary mediator of hypoglycemia?
+
+在非胰島細胞腫瘤低血糖（NICTH）中，低血糖的主要介質為何？
+
+
+1. Insulin
+2. C-peptide
+3. Insulin-like growth factor II (IGF-II)
+4. Glucagon
+5. Cortisol deficiency
+
+
+**Question 4.** What IGF-II:IGF-I ratio is considered diagnostic of NICTH?
+
+IGF-II:IGF-I比值達到多少被認為可診斷NICTH？
+
+
+1. $>$1:1
+2. $>$2:1
+3. $>$3:1
+4. $>$5:1
+5. $>$10:1
+
+
+**Question 5.** A patient's blood glucose rises briskly from 46 to 142 mg/dL after administration of 1 mg of glucagon during a hypoglycemic episode. What does this response indicate?
+
+一位病人在低血糖發作時注射1 mg升糖素後，血糖從46急升至142 mg/dL。此反應表示什麼？
+
+
+1. Glucagon resistance
+2. Depleted glycogen stores
+3. Insulin excess or insulin-like activity maintaining glycogen stores
+4. Adrenal insufficiency
+5. Normal fasting response
+
+
+**Question 6.** In the evaluation of childhood hypoglycemia, which of the following findings would MOST reliably rule out adrenal insufficiency?
+
+在兒童低血糖的評估中，下列何項發現最能可靠排除腎上腺功能不全？
+
+
+1. Normal morning cortisol level
+2. Normal ACTH level
+3. Adequate cortisol response to cosyntropin stimulation ($>$15 $\mu$g/dL)
+4. Normal electrolytes
+5. Absence of hyperpigmentation
+
+
+**Question 7.** A common diagnostic pitfall in congenital hyperinsulinism is:
+
+先天性高胰島素血症常見的診斷陷阱為：
+
+
+1. Expecting elevated cortisol levels
+2. Expecting elevated $\beta$-hydroxybutyrate levels
+3. Expecting detectable insulin and C-peptide levels
+4. Expecting positive urine ketones
+5. Expecting normal glucagon response
+
+
+**Question 8.** Which type of tumor is MOST commonly associated with NICTH?
+
+哪種類型的腫瘤最常與NICTH相關？
+
+
+1. Small cell lung carcinoma
+2. Pancreatic insulinoma
+3. Large mesenchymal tumors (e.g., solitary fibrous tumors, leiomyomas)
+4. Pheochromocytoma
+5. Thyroid carcinoma
+
+
+**Question 9.** The immunohistochemistry of the resected tumor showed: smooth-muscle actin (+), desmin (+), CD117 (--), no KIT/PDGFRA mutations. What is the most likely diagnosis?
+
+切除腫瘤的免疫組織化學顯示：平滑肌肌動蛋白(+)、desmin(+)、CD117(--)、無KIT/PDGFRA突變。最可能的診斷為何？
+
+
+1. Gastrointestinal stromal tumor (GIST)
+2. Leiomyosarcoma
+3. Benign smooth-muscle tumor (leiomyoma)
+4. Schwannoma
+5. Desmoid tumor
+
+
+**Question 10.** What is the definitive treatment for NICTH caused by a resectable tumor, and what is the expected outcome?
+
+對於可切除腫瘤引起的NICTH，確定治療為何？預期結果如何？
+
+
+1. Chemotherapy; gradual glucose normalization over weeks
+2. Radiation therapy; partial glucose improvement
+3. Octreotide therapy; sustained glucose control
+4. Surgical resection; immediate glucose normalization
+5. Diazoxide therapy; long-term glucose maintenance
+
+
+---
+
+
+### 答案與解析 (Answers and Explanations)
+
+
+**Question 1. Answer: (B)**
+
+**Explanation**: Whipple's triad consists of (1) signs and symptoms of hypoglycemia, (2) a correspondingly low blood glucose level, and (3) resolution of symptoms with normalization of the blood glucose level. This triad establishes the diagnosis of hypoglycemia and is the essential first step before investigating the etiology.
+
+**解析**：惠普爾三聯症包含(1)低血糖的症狀與徵象、(2)對應的低血糖數值、(3)血糖正常化後症狀改善。此三聯症確立低血糖的診斷，是調查病因前的必要第一步。
+
+
+**Question 2. Answer: (D)**
+
+**Explanation**: The combination of suppressed insulin, suppressed C-peptide, AND suppressed $\beta$-hydroxybutyrate is most consistent with NICTH. In NICTH, tumor-derived IGF-II activates the insulin receptor (causing hypoglycemia and ketone suppression) but suppresses endogenous insulin secretion. In insulinoma, insulin and C-peptide would be elevated. In exogenous insulin administration, insulin would be detectable but C-peptide suppressed. Sulfonylurea would cause both insulin and C-peptide elevation.
+
+**解析**：胰島素被抑制、C-peptide被抑制、且$\beta$-hydroxybutyrate被抑制的組合最符合NICTH。在NICTH中，腫瘤衍生的IGF-II活化胰島素受體（致低血糖及酮體抑制）但抑制內源性胰島素分泌。Insulinoma中insulin和C-peptide會升高；外源性胰島素中insulin可偵測但C-peptide被抑制；磺脲類會使兩者均升高。
+
+
+**Question 3. Answer: (C)**
+
+**Explanation**: In NICTH, tumor-secreted high-molecular-weight IGF-II ("big IGF-II") is the primary mediator. This incompletely processed form of IGF-II activates the insulin receptor and IGF-I receptor, causing increased glucose uptake in muscle, decreased hepatic glucose production, and suppression of pituitary growth hormone secretion, leading to decreased IGF-I levels.
+
+**解析**：在NICTH中，腫瘤分泌的高分子量IGF-II（"big IGF-II"）是主要介質。此未完全加工的IGF-II形式可活化胰島素受體及IGF-I受體，導致肌肉葡萄糖攝取增加、肝臟糖質新生減少及垂體GH分泌抑制，進而使IGF-I降低。
+
+
+**Question 4. Answer: (C)**
+
+**Explanation**: An IGF-II:IGF-I ratio greater than 3:1 is considered diagnostic of NICTH. This patient's ratio was 8.6:1 (206:24), far exceeding the diagnostic threshold. The elevated ratio reflects both increased IGF-II production by the tumor and decreased IGF-I production due to growth hormone suppression.
+
+**解析**：IGF-II:IGF-I比值$>$3:1被認為可診斷NICTH。此病人的比值為8.6:1（206:24），遠超診斷閾值。升高的比值反映腫瘤IGF-II產量增加和GH被抑制導致IGF-I產量減少。
+
+
+**Question 5. Answer: (C)**
+
+**Explanation**: A brisk glycemic response to glucagon during hypoglycemia indicates that hepatic glycogen stores are present and being maintained by insulin or insulin-like activity. In a normal fasting state with depleted glycogen, glucagon would produce minimal response. The robust response in this patient supports a state of insulin-like activity (from IGF-II in NICTH) that prevents glycogenolysis until exogenous glucagon is administered.
+
+**解析**：低血糖時對升糖素的急速血糖反應表示肝臟肝糖儲存存在且被胰島素或類胰島素活性維持。在正常禁食且肝糖耗盡的狀態下，升糖素反應微弱。此病人的強烈反應支持類胰島素活性（來自NICTH中的IGF-II）阻止了肝糖分解。
+
+
+**Question 6. Answer: (C)**
+
+**Explanation**: The cosyntropin (ACTH) stimulation test is the most reliable method to rule out adrenal insufficiency. A cortisol response greater than 15 $\mu$g/dL after cosyntropin administration confirms adequate adrenal reserve. A normal morning cortisol alone may be insufficient, as it can vary with stress and circadian rhythm.
+
+**解析**：Cosyntropin（ACTH）刺激試驗是排除腎上腺功能不全最可靠的方法。Cosyntropin注射後cortisol反應$>$15 $\mu$g/dL確認足夠的腎上腺儲備。單獨的早晨cortisol可能不夠，因其受壓力和晝夜節律影響。
+
+
+**Question 7. Answer: (C)**
+
+**Explanation**: A common pitfall in diagnosing congenital hyperinsulinism is the expectation that insulin and C-peptide levels will be detectably elevated. In fact, these levels may be suppressed below detection limits even in congenital hyperinsulinism. More sensitive markers include suppressed $\beta$-hydroxybutyrate and a positive glycemic response to glucagon therapy during hypoglycemia.
+
+**解析**：診斷先天性高胰島素血症的常見陷阱是預期insulin和C-peptide會可偵測地升高。實際上，即使在先天性高胰島素血症中，這些數值也可能被抑制到偵測極限以下。更敏感的標記包括$\beta$-hydroxybutyrate被抑制和低血糖時升糖素的正向血糖反應。
+
+
+**Question 8. Answer: (C)**
+
+**Explanation**: NICTH is most commonly associated with large mesenchymal tumors, including solitary fibrous tumors (formerly called hemangiopericytomas), leiomyomas, and fibrosarcomas. These tumors are typically large (often $>$10 cm) and located in the retroperitoneum, thorax, or pelvis. Hepatocellular carcinoma and other epithelial tumors are less common causes.
+
+**解析**：NICTH最常見於大型間質瘤，包括孤立性纖維瘤（前稱血管外皮瘤）、平滑肌瘤和纖維肉瘤。這些腫瘤通常很大（常$>$10 cm），位於腹膜後、胸腔或骨盆。肝細胞癌和其他上皮腫瘤是較少見的原因。
+
+
+**Question 9. Answer: (C)**
+
+**Explanation**: The combination of strong smooth-muscle actin and desmin expression, absence of CD117, and absence of KIT/PDGFRA mutations makes GIST unlikely. The low mitotic rate ($<$1/10 HPF) and absence of necrosis argue against leiomyosarcoma. The immunophenotype and morphology are most consistent with a benign smooth-muscle tumor (leiomyoma).
+
+**解析**：強陽性平滑肌肌動蛋白和desmin表達、CD117陰性及無KIT/PDGFRA突變使GIST不可能。低有絲分裂率（$<$1/10 HPF）和無壞死排除平滑肌肉瘤。免疫表型和形態最符合良性平滑肌瘤（leiomyoma）。
+
+
+**Question 10. Answer: (D)**
+
+**Explanation**: Surgical resection is the definitive treatment for NICTH caused by a resectable tumor, and glucose normalization occurs immediately upon tumor removal. In this case, the patient's glucose level normalized intraoperatively after resection of the 5 kg retroperitoneal mass. At 18-month follow-up, she had no evidence of recurrence and had returned to normal activities including competitive sports.
+
+**解析**：手術切除是可切除腫瘤引起NICTH的確定治療，且腫瘤移除後血糖立即恢復正常。此病例中，5公斤腹膜後腫塊切除後血糖即在術中正常化。18個月追蹤無復發跡象，病人已恢復正常活動包括競技運動。
+
+\vfill
+
+*本講義整理自NEJM Case Records of the Massachusetts General Hospital*
+*Case 9-2026, N Engl J Med 2026;394:1216-25*
+[0.3cm]
+編輯：謝慕揚 Mu-Yang Hsieh, MD, PhD, FESC
+*僅供教學使用，請勿用於商業用途*

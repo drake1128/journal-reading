@@ -1,0 +1,327 @@
+---
+title: "TEER 2023 dapagliflozin and MR"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **重大發現：**DEFORM試驗首次證實，在標準心衰竭藥物治療基礎上，加用SGLT2抑制劑Dapagliflozin可顯著減少功能性二尖瓣逆流(FMR)的嚴重程度，改善左心房及左心室重塑。
+> **臨床意義：**
+> itemize[leftmargin=*,nosep]
+>     \item 有效逆流孔面積(EROA)減少幅度為對照組的2.5倍
+>     \item 左心室射血分數(LVEF)改善幅度為對照組的3.4倍
+>     \item E/e'比值顯著下降，反映左室充盈壓降低
+>     \item 為中重度FMR患者提供新的藥物治療選擇
+> itemize
+
+
+\tableofcontents
+
+---
+
+
+## 研究概述
+
+
+本研究為一項前瞻性、隨機、平行對照試驗，探討鈉-葡萄糖協同轉運蛋白2(SGLT-2)抑制劑Dapagliflozin在功能性二尖瓣逆流(FMR)患者中，對逆流程度及心肌重塑的療效。這是首個專門針對FMR患者評估SGLT2抑制劑效果的隨機對照試驗。
+
+
+## 研究資訊
+
+
+### 基本資料
+
+
+| p{11cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **研究名稱** | DEFORM Trial (Dapagliflozin Effect on Functional Mitral Regurgitation and Myocardial Remodeling) |  |
+| **作者** | Huang ZS, Fan R, Xie PH, Zhong JL, Zhang SZ, Zhuang XD, Liao XX |  |
+| **機構** | 中山大學附屬第三醫院心臟科、中山大學附屬第一醫院心臟科（中國廣州） |  |
+| **期刊** | European Heart Journal (2023) 44 (Suppl 2) |  |
+| **DOI** | [10.1093/eurheartj/ehad655.1751](https://doi.org/10.1093/eurheartj/ehad655.1751) |  |
+
+
+### 研究背景與動機
+
+
+> **功能性二尖瓣逆流(Functional Mitral Regurgitation, FMR)的特點：**
+> itemize[leftmargin=*]
+>     \item 瓣膜本身結構正常，因左心室擴大或功能障礙導致
+>     \item 常見於心衰竭、缺血性心臟病患者
+>     \item 與多種不良預後相關：心衰竭惡化、再住院率增加、死亡率上升
+>     \item 目前指引指導的藥物治療(GDMT)效果仍有限
+> itemize
+> **SGLT2抑制劑的潛在機制：**
+> itemize[leftmargin=*]
+>     \item 減少心臟前負荷和後負荷
+>     \item 改善心肌能量代謝
+>     \item 抗心肌纖維化作用
+>     \item 逆轉心室重塑
+> itemize
+
+
+## 研究方法
+
+
+### 研究設計
+
+
+| p{11cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **研究類型** | 前瞻性、隨機、平行對照試驗 |  |
+| **隨機分配** | 1:1比例 |  |
+| **追蹤期間** | 12週 |  |
+| **治療組** | Dapagliflozin 10mg 每日一次 + GDMT |  |
+| **對照組** | 單純GDMT（標準心衰竭藥物治療） |  |
+
+
+### 納入與排除條件
+
+
+| p{12cm}}  **項目** | **標準** |  |
+| --- | --- | --- |
+| **項目** | **標準** |  |
+| **納入條件** | minipage[t]{12cm}  • 中度或重度功能性二尖瓣逆流(FMR) |  |
+| • 已接受心衰竭指引指導藥物治療(GDMT) |  |  |
+| • 能夠耐受SGLT2抑制劑治療 |  |  |
+| **研究人數** | minipage[t]{12cm}  • 總計104例患者隨機分配 |  |
+| • Dapagliflozin組：52例 |  |  |
+| • 對照組：52例 |  |  |
+
+
+### 研究終點
+
+
+| p{5cm}p{7cm}}  **終點類型** | **指標** | **說明** |
+| --- | --- | --- |
+| **終點類型** | **指標** | **說明** |
+| **主要終點** | EROA變化 | 有效逆流孔面積(Effective Regurgitant Orifice Area)的改變 |
+| 6{*}{**次要終點**} | RV (Regurgitant Volume) | 逆流量 |
+|  | LAD | 左心房直徑 |
+|  | LVESd | 左心室收縮末期直徑 |
+|  | LVEDd | 左心室舒張末期直徑 |
+|  | LVEF | 左心室射血分數 |
+|  | E/e' ratio | 左室充盈壓指標 |
+| **臨床終點** | 心衰竭住院 | 追蹤期間因心衰竭住院 |
+|  | 心臟死亡 | 追蹤期間心臟相關死亡 |
+
+
+## 主要結果
+
+
+### 主要終點：EROA變化
+
+
+> **Dapagliflozin顯著減少二尖瓣逆流嚴重程度：**
+> EROA變化：
+> itemize[leftmargin=*]
+>     \item **Dapagliflozin組：** $-0.074 \pm 0.099$ cm$^2$
+>     \item **對照組：** $-0.030 \pm 0.058$ cm$^2$
+>     \item **P值 = 0.008**
+> itemize
+> Dapagliflozin組的EROA減少幅度約為對照組的**2.5倍**。
+
+
+### 次要終點：心臟超音波參數變化
+
+
+| p{4cm}p{4cm}p{2cm}} 12週追蹤心臟超音波參數變化比較 |  |  |
+| --- | --- | --- |
+| **參數** | **Dapagliflozin組** | **對照組** |
+|  | **(n=52)** | **(n=52)** |
+| **表格續接** |  |  |
+| **參數** | **Dapagliflozin組** | **對照組** |
+| **二尖瓣逆流指標** |  |  |
+| EROA變化 (cm$^2$) | $-0.074 \pm 0.099$ | $-0.030 \pm 0.058$ |
+| RV變化 (ml) | $-9.08 \pm 15.27$ | $-2.98 \pm 9.28$ |
+| **心房重塑指標** |  |  |
+| LAD變化 (mm) | $-2.45 \pm 4.44$ | $-0.36 \pm 3.08$ |
+| **心室重塑指標** |  |  |
+| LVESd變化 (mm) | -- | -- |
+| LVEDd變化 (mm) | -- | -- |
+| **心功能指標** |  |  |
+| LVEF變化 ( | $+6.57 \pm 10.10$ | $+1.92 \pm 9.57$ |
+| E/e'變化 | $-5.88 \pm 7.41$ | $-1.98 \pm 7.63$ |
+| EROA: 有效逆流孔面積; RV: 逆流量; LAD: 左心房直徑; LVEF: 左心室射血分數 |  |  |
+
+
+### 臨床事件分析
+
+
+| p{3.5cm}p{3.5cm}p{2.5cm}} 12週追蹤期間臨床事件比較 |  |  |
+| --- | --- | --- |
+| **事件類型** | **Dapagliflozin組** | **對照組** |
+|  | **(n=52)** | **(n=52)** |
+| **事件類型** | **Dapagliflozin組** | **對照組** |
+| 心衰竭住院 | 6例 (11.5 | 10例 (19.2 |
+| 心臟死亡 | 1例 (1.9 | 2例 (3.8 |
+| 雖未達統計顯著性，但Dapagliflozin組呈現較低的事件率趨勢 |  |  |
+
+
+## 結果解讀與臨床意義
+
+
+### 主要發現總結
+
+
+| p{11cm}}  **發現** | **臨床意義** |  |
+| --- | --- | --- |
+| **發現** | **臨床意義** |  |
+| **EROA顯著減少** | minipage[t]{11cm}  • 減少幅度為對照組的2.5倍 |  |
+| • 直接證實SGLT2抑制劑可改善二尖瓣逆流 |  |  |
+| • 為FMR的藥物治療提供新選擇 |  |  |
+| **左心房縮小** | minipage[t]{11cm}  • LAD減少2.45 mm vs 0.36 mm |  |
+| • 反映左心房容積負荷減輕 |  |  |
+| • 可能降低心房顫動風險 |  |  |
+| **LVEF改善** | minipage[t]{11cm}  • 改善幅度為對照組的3.4倍 (6.57 |  |
+| • 支持SGLT2抑制劑改善心功能的證據 |  |  |
+| • 與DAPA-HF、EMPEROR-Reduced結果一致 |  |  |
+| **E/e'降低** | minipage[t]{11cm}  • 顯著降低5.88 vs 1.98 |  |
+| • 反映左室充盈壓下降 |  |  |
+| • 有助於改善心衰竭症狀 |  |  |
+
+
+### 可能的作用機制
+
+
+> **血流動力學效應：**
+> enumerate
+>     \item **利尿作用**：減少血管內容積，降低心臟前負荷
+>     \item **血壓下降**：減少心臟後負荷
+>     \item **容積負荷減輕**：促進左心室逆重塑
+> enumerate
+> **心肌保護效應：**
+> enumerate
+>     \item **能量代謝改善**：促進心肌利用酮體作為能量來源
+>     \item **抗纖維化**：減少心肌間質纖維化
+>     \item **離子通道調節**：改善鈉氫交換，減少細胞內鈣負荷
+> enumerate
+> **對二尖瓣功能的影響：**
+> enumerate
+>     \item 左心室收縮改善 → 二尖瓣環面積減少
+>     \item 左心房壓力降低 → 逆流梯度減小
+>     \item 心室重塑逆轉 → 乳頭肌功能改善
+> enumerate
+
+
+## 與其他研究的比較
+
+
+### SGLT2抑制劑在心衰竭的證據
+
+
+| p{3cm}p{4cm}p{4cm}} SGLT2抑制劑心衰竭相關研究比較 |  |  |
+| --- | --- | --- |
+| **研究** | **藥物** | **主要族群** |
+| **研究** | **藥物** | **主要族群** |
+| DAPA-HF | Dapagliflozin | HFrEF |
+| EMPEROR-Reduced | Empagliflozin | HFrEF |
+| DELIVER | Dapagliflozin | HFpEF |
+| EMPEROR-Preserved | Empagliflozin | HFpEF |
+| **DEFORM** | Dapagliflozin | **中重度FMR** |
+
+
+## 研究限制
+
+
+### 方法學限制
+
+
+1. **樣本數較小**：僅104例患者，可能影響統計效力
+2. **追蹤期較短**：12週追蹤，無法評估長期效果
+3. **單中心研究**：需多中心研究驗證結果
+4. **非盲法設計**：可能存在評估偏差
+5. **臨床終點未達顯著**：樣本數不足以檢測硬終點差異
+
+
+### 適用性限制
+
+
+1. 研究族群特性可能與其他地區不同
+2. 未提供基線患者詳細特徵描述
+3. FMR病因學分布未明確說明
+4. 合併用藥的影響未詳細分析
+
+
+## 結論與臨床建議
+
+
+### 主要結論
+
+
+1. ****SGLT2抑制劑可有效減輕FMR：****在標準GDMT基礎上加用Dapagliflozin可顯著減少有效逆流孔面積
+2. ****心室重塑改善：****LVEF顯著提高，E/e'比值下降
+3. ****心房重塑逆轉：****左心房直徑顯著縮小
+4. ****潛在臨床價值：****心衰竭住院和心臟死亡呈現降低趨勢
+
+
+### 臨床實務建議
+
+
+> **基於DEFORM試驗結果：**
+> enumerate
+>     \item 對於合併中重度FMR的心衰竭患者，應考慮加用SGLT2抑制劑
+>     \item Dapagliflozin可作為FMR患者藥物治療的一部分
+>     \item 治療效果可在12週內觀察到
+>     \item 需定期追蹤心臟超音波評估逆流程度變化
+> enumerate
+> **注意事項：**
+> itemize
+>     \item 本研究為摘要報告，完整數據尚待發表
+>     \item 需更大規模RCT進一步驗證
+>     \item 長期療效和安全性需持續追蹤
+>     \item 應結合指引建議個別化治療
+> itemize
+
+
+### 未來研究方向
+
+
+1. **長期追蹤研究**：評估持續治療對FMR進展的影響
+2. **大型多中心RCT**：驗證本研究結果並評估硬終點
+3. **機制研究**：探討SGLT2抑制劑改善FMR的具體機制
+4. **亞組分析**：哪些FMR患者最能從SGLT2抑制劑獲益
+5. **與介入治療比較**：SGLT2抑制劑與TEER的效果比較
+
+
+## 名詞解釋
+
+
+| p{11cm}}  **縮寫/名詞** | **說明** |  |
+| --- | --- | --- |
+| **縮寫/名詞** | **說明** |  |
+| FMR | Functional Mitral Regurgitation，功能性二尖瓣逆流。瓣膜結構正常，因心室擴大或功能障礙導致的二尖瓣閉合不全 |  |
+| EROA | Effective Regurgitant Orifice Area，有效逆流孔面積。評估二尖瓣逆流嚴重程度的定量指標 |  |
+| RV | Regurgitant Volume，逆流量。每次心跳經由逆流孔流回左心房的血量 |  |
+| LAD | Left Atrial Dimension，左心房直徑。反映左心房大小的超音波測量值 |  |
+| LVESd | Left Ventricular End-Systolic Dimension，左心室收縮末期直徑 |  |
+| LVEDd | Left Ventricular End-Diastolic Dimension，左心室舒張末期直徑 |  |
+| LVEF | Left Ventricular Ejection Fraction，左心室射血分數。反映心臟收縮功能的指標 |  |
+| E/e' | 二尖瓣舒張早期血流速度(E)與二尖瓣環組織運動速度(e')的比值，用於估算左室充盈壓 |  |
+| SGLT2抑制劑 | Sodium-Glucose Cotransporter 2 Inhibitor，鈉-葡萄糖協同轉運蛋白2抑制劑 |  |
+| GDMT | Guideline-Directed Medical Therapy，指引指導的藥物治療 |  |
+| HFrEF | Heart Failure with Reduced Ejection Fraction，射血分數降低型心衰竭 |  |
+| HFpEF | Heart Failure with Preserved Ejection Fraction，射血分數保留型心衰竭 |  |
+
+
+## 參考文獻
+
+
+1. Huang ZS, Fan R, Xie PH, et al. Dapagliflozin effect on functional mitral regurgitation and myocardial remodeling (DEFORM trial). [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad655.1751). 2023;44(Suppl 2):ehad655.1751.*
+2. McMurray JJV, Solomon SD, Inzucchi SE, et al. Dapagliflozin in Patients with Heart Failure and Reduced Ejection Fraction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1911303). 2019;381(21):1995-2008.*
+3. Packer M, Anker SD, Butler J, et al. Cardiovascular and Renal Outcomes with Empagliflozin in Heart Failure. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2022190). 2020;383(15):1413-1424.*
+4. Solomon SD, McMurray JJV, Claggett B, et al. Dapagliflozin in Heart Failure with Mildly Reduced or Preserved Ejection Fraction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2206286). 2022;387(12):1089-1098.*
+5. Anker SD, Butler J, Filippatos G, et al. Empagliflozin in Heart Failure with a Preserved Ejection Fraction. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2107038). 2021;385(16):1451-1461.*
+6. Vahanian A, Beyersdorf F, Praz F, et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehab395). 2022;43(7):561-632.*
+7. Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2020.11.018). 2021;77(4):e25-e197.*
+
+
+**關鍵詞：**功能性二尖瓣逆流、SGLT2抑制劑、Dapagliflozin、心肌重塑、心衰竭、DEFORM試驗

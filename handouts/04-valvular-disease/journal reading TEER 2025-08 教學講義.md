@@ -1,0 +1,299 @@
+# journal reading TEER 2025-08
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+\maketitle
+
+
+## 概述
+
+
+本期刊閱讀報告呈現三項關於經導管邊緣對邊緣修復術（Transcatheter Edge-to-Edge Repair, TEER）的重要研究，重點關注手術程序演進、時機考量以及住院結果。這些研究為目前TEER實務及其在二尖瓣和三尖瓣逆流合併心衰竭患者中的臨床應用提供了全面性的見解。
+
+
+1. Patrascu IA, Binder DB, Schnabel PS, Schneider JS, Staehle WS, Risha OR, Weinmann KW, Ott IO. Efficacy and evolution of edge-to-edge transcatheter valve repair procedures.  [*European Heart Journal](https://academic.oup.com/eurheartj/article/44/Supplement_2/ehad655.1662/7393686). 2023;44(Suppl 2).*
+2. Leite M, Nunes F, Neves I, Ferreira D, Guerreiro C, Teixeira P, Caeiro D, Pires-Morais G, Melica B, Braga P, Fontes-Carvalho R. Urgency in TEER for acute heart failure: does timing influence survival outcomes?  [*European Heart Journal: Acute Cardiovascular Care](https://academic.oup.com/ehjacc/article/14/Supplement_1/zuaf044.195/8118378). 2025;14(Supplement 1):i260.*
+3. Ponikowski P, Friede T, von Bardeleben RS, Butler J, Khan MS, Diek M, Heinrich J, Geyer M, Placzek M, Ferrari R, Abraham WT, Alfieri O, Auricchio A, Bayes-Genis A, Cleland JGF, Filippatos G, Gustafsson F, Haverkamp W, Kelm M, Kuck KH, et al. Hospitalization of Symptomatic Patients With Heart Failure and Moderate to Severe Functional Mitral Regurgitation Treated With MitraClip: Insights From RESHAPE-HF2. [*Journal of the American College of Cardiology](https://doi.org/10.1016/j.jacc.2024.08.027). 2024;84(24):2347-2363.*
+
+
+## 文章一：邊緣對邊緣TEER程序的效果與演進
+
+
+### 研究資訊
+
+**標題：**邊緣對邊緣經導管瓣膜修復程序的效果與演進  
+
+**作者：**I.A. Patrascu, D.B. Binder 等  
+
+**機構：**德國普福爾茨海姆赫利俄斯醫院心臟科  
+
+**期刊：**歐洲心臟期刊 (2023) 44 (Suppl 2)  
+
+**網址：**[Efficacy and evolution of edge-to-edge transcatheter valve repair procedures](https://academic.oup.com/eurheartj/article/44/Supplement_2/ehad655.1662/7393686)
+
+
+### 背景與目標
+
+
+- 二尖瓣TEER（M-TEER）已證實在減少續發性二尖瓣逆流方面具有安全性和有效性
+- 三尖瓣TEER（T-TEER）的實施因複雜的瓣膜解剖結構而具有挑戰性
+- **研究目標：**了解M-TEER手術成功率隨時間的變化如何影響T-TEER的結果
+
+
+### 研究方法
+
+
+- **研究期間：**2018-2022年（從M-TEER實施到T-TEER開始）
+- **患者：**55例T-TEER手術（平均年齡81.8±4.7歲，55
+- **M-TEER組別：**各55例患者的3個組別     itemize
+- 最初55例M-TEER
+- T-TEER前最後55例M-TEER
+- 最後55例M-TEER
+
+
+    \item **定義標準：**
+    
+- 重度MR III/IV：EROA 20-39mm²
+- 重度MR IV/IV：EROA ≥40mm²
+- 最佳結果：殘餘MR 0+或TR I+
+- 可接受結果：MR I+或TR II+
+
+
+itemize
+
+
+### 主要結果
+
+
+| **參數** | **首批M-TEER** | **T-TEER前** | **最後M-TEER** | **T-TEER** |
+| --- | --- | --- | --- | --- |
+| 成功率 | 60 | 78 | 84 | 84 |
+| 與首批比較P值 | - | 0.039 | 0.005 | 0.005 |
+
+各組別最佳/可接受結果比率
+
+
+**學習曲線發現：**
+
+- M-TEER成功率隨時間顯著改善
+- T-TEER達到與成熟M-TEER計畫相似的成功率
+- T-TEER患者具有更高的平均EROA（78.5±32.2mm² vs 44.8±16.1mm²）
+- T-TEER患者風險較高（EuroSCORE II：8.8±6.6
+
+
+### 臨床意義
+
+
+- ****學習曲線效應：****手術成功率隨時間顯著改善
+- ****知識轉移：****M-TEER經驗促進了T-TEER的成功實施
+- ****計畫發展：****技術進步和經驗累積改善結果
+
+
+## 文章二：急性心衰竭中TEER的緊急性考量
+
+
+### 研究資訊
+
+**標題：**急性心衰竭中TEER的緊急性：時機是否影響存活結果？  
+
+**作者：**M. Leite, F. Nunes 等  
+
+**機構：**葡萄牙波爾圖維拉諾瓦德蓋亞醫院中心  
+
+**期刊：**歐洲心臟期刊：急性心血管照護 (2025)  
+
+**網址：**[Urgency in TEER for acute heart failure: does timing influence survival outcomes?](https://academic.oup.com/ehjacc/article/14/Supplement_1/zuaf044.195/8118378)
+
+
+### 背景與目標
+
+
+- TEER已成為中重度二尖瓣逆流合併心衰竭的微創治療選擇
+- **研究目標：**比較急性失代償性心衰竭期間選擇性與緊急TEER的結果
+
+
+### 研究方法
+
+
+- **研究設計：**回顧性世代研究
+- **患者：**10年間178例患者     itemize
+- 選擇性組：144例
+- 緊急組：34例
+
+
+    \item **分析方法：**Cox比例風險模型、Kaplan-Meier存活曲線
+itemize
+
+
+### 主要結果
+
+
+| **結果** | **風險比** | **95 |
+| --- | --- | --- |
+| 死亡率（緊急 vs 選擇性） | 3.19 | 1.74-5.85 |
+| P值 | < 0.001 |  |
+| 一致性指數 | 0.633 |  |
+
+存活分析結果
+
+
+**重要發現：**
+
+- ****緊急TEER死亡率風險顯著較高****（超過3倍增加）
+- 存活曲線具有顯著差異（log-rank p < 0.0001）
+- 所有檢驗的模型適配度統計量均高度顯著
+
+
+### 臨床意義
+
+
+- ****時機很重要：****早期二尖瓣逆流檢測和介入計畫至關重要
+- ****穩定策略：****選擇性TEER前的臨床穩定較佳
+- ****風險分層：****緊急手術與顯著較差的結果相關
+
+
+## 文章三：RESHAPE-HF2研究—住院結果分析
+
+
+### 研究資訊
+
+**標題：**接受MitraClip治療的症狀性心衰竭合併中重度功能性二尖瓣逆流患者的住院情況  
+
+**作者：**Piotr Ponikowski, Tim Friede 等  
+
+**期刊：**美國心臟病學會期刊 (2024)  
+
+**DOI：**[Hospitalization of Symptomatic Patients With Heart Failure and Moderate to Severe Functional Mitral Regurgitation Treated With MitraClip: Insights From RESHAPE-HF2](https://doi.org/10.1016/j.jacc.2024.08.027)
+
+
+### 背景與目標
+
+
+- 先前M-TEER試驗結果相互矛盾（MITRA-FR vs COAPT）
+- RESHAPE-HF2納入較輕度功能性二尖瓣逆流患者（平均EROA 0.25 cm²）
+- **研究目標：**評估M-TEER對住院率的影響，並探討在有/無近期心衰竭住院史患者中的效果
+
+
+### 研究方法
+
+
+- **研究設計：**隨機、研究者發起的多中心試驗
+- **患者：**來自9個國家30個中心的505名參與者
+- **隨機分組：**1:1比例（M-TEER+藥物治療 vs 單純藥物治療）
+- **追蹤期間：**24個月
+- **重要亞組：**333例患者（65.9
+
+
+### 主要結果
+
+
+**24個月主要結果：**
+
+
+| **結果** | **HR/RR** | **95 | **P值** |
+| --- | --- | --- | --- |
+| 心血管死亡或心衰竭住院 | 0.65 | 0.49-0.85 | 0.002 |
+| 復發性心血管住院 | 0.75 | 0.57-0.99 | 0.046 |
+| 復發性心衰竭住院 | 0.59 | 0.42-0.82 | 0.002 |
+| 首次心衰竭住院 | 0.57 | 0.42-0.77 | <0.001 |
+
+M-TEER組與對照組結果比較
+
+
+**住院效益：**
+
+- 因死亡/心衰竭住院失去的天數較少：13.9
+- 總失去天數：1,067 vs 1,776天（p<0.0001）
+- 24個月期間NYHA功能分級較佳（p<0.0001）
+
+
+**亞組分析—先前心衰竭住院：**
+
+- 有近期心衰竭住院史的患者獲益更大
+- 複合心衰竭住院+心血管死亡：Pinteraction = 0.03
+- 復發性心衰竭住院：Pinteraction = 0.06
+
+
+### 臨床意義
+
+
+- ****更廣泛應用：****即使中度功能性二尖瓣逆流也有益處
+- ****高風險患者：****近期有心衰竭住院史的患者獲益最大
+- ****生活品質：****NYHA功能分級持續改善
+
+
+## 綜合分析與臨床整合
+
+
+### 共同主題
+
+
+1. **學習曲線的重要性：**所有研究都顯示經驗和計畫成熟度的關鍵作用
+2. **患者選擇：**時機和臨床穩定性顯著影響結果
+3. **風險分層：**近期住院患者既是最高風險也是最大潛在獲益者
+
+
+### 實務應用意義
+
+
+**計畫發展：**
+
+- 預期結果會隨經驗改善
+- M-TEER和T-TEER之間的知識轉移是可行的
+- 技術進步提升手術成功率
+
+
+**患者選擇和時機：**
+
+- ****盡可能避免緊急手術****—死亡率風險增加3倍
+- 選擇性介入前先穩定患者臨床狀況
+- 早期檢測和介入計畫至關重要
+
+
+**適應症擴展：**
+
+- 即使中度功能性二尖瓣逆流（EROA 0.25 cm²）也有TEER效益
+- 近期有心衰竭住院史的患者獲益最大
+- 生活品質持續改善
+
+
+## 未來發展方向
+
+
+### 研究重點
+
+
+1. 超過24個月的長期結果
+2. 不同患者族群的最佳時機策略
+3. 納入住院節省成本的成本效益分析
+4. 生物標記指導的患者選擇
+
+
+### 臨床實務演進
+
+
+1. 發展具有足夠病例數的機構性TEER計畫
+2. 緊急與選擇性TEER決策的標準化流程
+3. 將TEER整合到心衰竭管理路徑中
+4. 在適當患者中擴展到中度功能性二尖瓣逆流
+
+
+## 結論
+
+
+這三項研究共同展示了TEER作為治療介入手段的演進和成熟。重要要點包括：
+
+
+- **學習曲線很重要：**機構經驗顯著影響結果
+- **時機至關重要：**選擇性手術的結果明顯優於緊急介入
+- **新興廣泛應用：**效益延伸至中度功能性二尖瓣逆流和高風險患者
+- **生活品質改善：**除了死亡率和住院率外的持續效益
+
+
+證據支持在功能性二尖瓣逆流合併心衰竭患者中更廣泛應用TEER，特別是那些近期有住院史的患者，同時強調適當時機和機構經驗的重要性。
+
+
+**關鍵詞：**經導管邊緣對邊緣修復術、二尖瓣逆流、心衰竭、學習曲線、住院結果

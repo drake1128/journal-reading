@@ -1,0 +1,241 @@
+---
+title: "TCT FAME2 10 years"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-01-15
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+\tableofcontents
+
+---
+
+
+## 研究概述
+
+
+### 研究背景與臨床意義
+
+
+穩定型冠狀動脈疾病（stable coronary artery disease, CAD）的最佳治療策略一直是心臟學界爭議的焦點。在FFR引導的經皮冠狀動脈介入治療（FFR-guided PCI）與單純藥物治療之間，長期預後的比較至關重要。
+
+FAME 2試驗（Fractional Flow Reserve versus Angiography for Multivessel Evaluation 2）於14年前首次發表於*New England Journal of Medicine*，證實在穩定型冠狀動脈疾病患者中，針對功能性顯著狹窄（FFR $\leq$ 0.80）進行PCI可減少主要複合終點事件。5年追蹤結果確認了緊急血管重建的減少，並暗示FFR引導PCI可能降低心肌梗塞風險。
+
+
+> **主要結論：**在中位追蹤11.2年後，FFR引導的PCI相較於單純藥物治療，可顯著減少死亡、心肌梗塞或緊急血管重建的複合終點，但此效益**主要來自緊急血管重建的減少**。在死亡或心肌梗塞方面，兩組並無顯著差異。
+
+
+### 研究資訊
+
+
+| p{10cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| **研究標題** | Fractional flow reserve-guided percutaneous coronary intervention versus medical therapy for stable coronary artery disease: long-term results of the FAME 2 trial |  |
+| **第一作者** | Carlos Collet, MD, PhD    (Cardiovascular Center Aalst, Belgium; Cardiovascular Research Foundation, New York, NY) |  |
+| **期刊** | Nature Medicine |  |
+| **發表時間** | 2026年1月15日 |  |
+| **卷期頁碼** | 2026;32(1):318-324 |  |
+| **DOI** | [10.1038/s41591-025-04132-5](https://doi.org/10.1038/s41591-025-04132-5) |  |
+| **研究註冊** | ClinicalTrials.gov NCT01132495 |  |
+
+
+## 研究方法
+
+
+### 研究設計與患者選擇
+
+
+FAME 2試驗為一項多中心隨機對照試驗，比較FFR引導PCI加藥物治療與單純藥物治療的長期預後。
+
+
+| p{10cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| **納入標準** | minipage[t]{10cm}  • 穩定型冠狀動脈疾病    • 至少一處血流動力學顯著狹窄（FFR $\leq$ 0.80）    • 位於較大的心外膜冠狀動脈 |  |
+| **隨機分配** | minipage[t]{10cm}  • FFR引導PCI加藥物治療組：447例    • 單純藥物治療組：441例 |  |
+| **長期追蹤參與** | minipage[t]{10cm}  • 16家醫院參與延長追蹤    • 共748例患者（女性161例，21.5  • 12家醫院未參與（主要因再同意困難） |  |
+| **追蹤方式** | minipage[t]{10cm}  • 門診或電話追蹤收集結局資料    • 國家死亡登記確認生存狀態    • 確保全因死亡資料完整性 |  |
+
+
+### 結局評估方法：Win Ratio分析
+
+
+本研究採用**Win Ratio**方法評估結局，以因應非致死性結局資料遺失的問題。此方法比較階層式臨床事件，將每位治療組患者與每位對照組患者配對比較。
+
+
+| p{10cm}}  **概念** | **說明** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **概念** | **說明** |  |
+| **Win Ratio定義** | 將每對患者按階層式結局順序比較，直到一方顯示較佳結局（勝出）或另一方較差（失敗） |  |
+| **結局階層順序** | minipage[t]{10cm}  1. 全因死亡（最優先）    2. 心肌梗塞    3. 緊急血管重建 |  |
+| **平手（Tie）** | 兩組患者在比較項目上結局相同 |  |
+| **計算方式** | Win Ratio = 勝出比例 / 失敗比例 |  |
+| **方法優勢** | 能處理因非致死性結局資料遺失造成的分析困難 |  |
+
+
+## 研究結果
+
+
+### 主要複合終點
+
+
+| p{4cm}p{4cm}}  **結果項目** | **PCI組** | **藥物治療組** |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **結果項目** | **PCI組** | **藥物治療組** |
+| **患者數** | 447 | 441 |
+| **中位追蹤時間** | 11.2年 |  |
+| **長期追蹤資料** | 329例 | 325例 |
+| **主要終點發生** | 150例（33.6 | 182例（41.3 |
+| **平手比例（Ties）** | 47.5 |  |
+| **PCI勝出比例** | 29.2 |  |
+| **PCI失敗比例** | 23.3 |  |
+
+
+> itemize[leftmargin=*]
+>     \item **Win Ratio:** 1.25（95
+>     \item **Win Difference:** 5.9
+>     \item **Number Needed to Treat (NNT):** 17（95
+> itemize
+
+
+### 各項終點Win Ratio分析
+
+
+| p{4cm}p{4cm}}  **終點項目** | **Win Ratio** | **95 |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **終點項目** | **Win Ratio** | **95 |
+| **全因死亡** | 0.88 | 0.66-1.17 |
+| **心肌梗塞**（條件式Win Ratio） | 1.50 | 0.98-2.31 |
+| **緊急血管重建**（條件式Win Ratio） | 4.57 | 2.53-8.24 |
+
+
+**關鍵解讀：**約半數接受PCI或藥物治療的患者在10年後結局相當。主要複合終點的改善**主要來自緊急血管重建的顯著減少**（Win Ratio 4.57），而非死亡或心肌梗塞的改善。
+
+
+### 緊急血管重建詳細分析
+
+
+在全因死亡平手的患者中，進一步比較心肌梗塞：
+
+- 條件式Win Ratio：1.50（95
+
+
+在全因死亡和心肌梗塞均平手的患者中：
+
+- 緊急血管重建平手比例：47.5
+- PCI勝出比例：6.8
+- PCI失敗比例：1.5
+- 條件式Win Ratio：4.57（95
+
+
+## 臨床詮釋與討論
+
+
+### 與ISCHEMIA試驗的對照解讀
+
+
+研究者強調，本研究結果應結合**ISCHEMIA試驗**結果一併解讀。ISCHEMIA試驗比較了穩定型冠狀動脈疾病患者接受侵入性策略加藥物治療與單純藥物治療的預後。
+
+
+| p{5cm}p{5cm}}  **比較項目** | **FAME 2（10年）** | **ISCHEMIA** |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **比較項目** | **FAME 2（10年）** | **ISCHEMIA** |
+| **主要發現** | PCI減少複合終點   （主要為緊急血管重建） | 侵入性策略無額外效益 |
+| **死亡/心肌梗塞** | 無顯著差異 | 無顯著差異 |
+| **程序型心肌梗塞** | -- | 侵入性策略較多 |
+| **自發型心肌梗塞** | -- | 侵入性策略較少 |
+| **共同結論** | 2{p{10cm}}{侵入性治療策略不太可能提供相較於初始保守藥物治療的**存活效益**} |  |
+
+
+### 專家觀點：Kevin Bainey醫師評論
+
+
+Kevin Bainey醫師（University of Alberta/Mazankowski Alberta Heart Institute）對本研究提出以下觀點：
+
+
+- **硬終點無差異：**「重要的是讓大家了解，在10年內死亡或心肌梗塞方面沒有差異。這些是我們的硬終點——緊急血管重建被認為是較軟的終點。」
+- **藥物治療的價值：**「FFR引導PCI與藥物治療在死亡或心肌梗塞方面沒有差異，這對我來說意味著藥物治療在10年後表現相當不錯。」
+- **臨床實務建議：**建議先以CT血管攝影確定解剖結構，然後與患者討論指引建議的藥物治療與PCI（無論是血管攝影引導或FFR引導）。
+- **無需急於介入：**「不需要急著採取血管重建策略。可以給藥物治療一個充分嘗試的機會。」
+
+
+> 「昨天我才看了一位患者，在了解他的解剖結構後，我們決定繼續藥物治療——因為在ISCHEMIA的4年追蹤和現在FAME 2的10年追蹤中，死亡或心肌梗塞確實沒有差異。」  
+> \hfill —— Kevin Bainey, MD
+
+
+## 研究限制
+
+
+1. **再同意困難：**延長追蹤需要患者重新同意，僅16家（共28家）醫院參與，英國的再同意最具挑戰性
+2. **資料遺失：**非致死性結局的資料遺失問題，故採用Win Ratio方法分析
+3. **選擇性偏差：**僅功能性顯著狹窄（FFR $\leq$ 0.80）患者被隨機分配
+4. **技術演進：**14年間PCI技術和藥物治療均有顯著進步
+
+
+## 結論
+
+
+### 主要結論
+
+
+1. ****複合終點改善：****在穩定型冠狀動脈疾病且具血流動力學顯著狹窄的患者中，FFR引導PCI減少死亡、心肌梗塞或緊急血管重建的複合終點
+2. ****效益來源：****此效益**主要來自緊急血管重建的減少**，而非死亡或心肌梗塞的改善
+3. ****無存活效益：****侵入性治療策略不太可能提供相較於初始保守策略的存活效益
+4. ****臨床決策：****約半數患者無論接受PCI或藥物治療，長期結局相當，此資訊對患者溝通具參考價值
+
+
+### 臨床實務建議
+
+
+| p{10cm}}  **建議項目** | **內容** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **建議項目** | **內容** |  |
+| **解剖評估** | 可考慮先以CT血管攝影確定冠狀動脈解剖結構 |  |
+| **共享決策** | 與患者討論指引建議的藥物治療與PCI選項 |  |
+| **無需急於介入** | 藥物治療可作為初始策略，不需急於血管重建 |  |
+| **FFR的價值** | FFR提供重要且有用的長期資訊，有助於血管重建決策 |  |
+| **結局預期** | 約半數患者無論採何種策略，長期結局相當 |  |
+
+
+## 相關文獻
+
+
+1. Collet C, Mahendiran T, Fearon WF, et al. Fractional flow reserve-guided percutaneous coronary intervention versus medical therapy for stable coronary artery disease: long-term results of the FAME 2 trial. [*Nat Med](https://doi.org/10.1038/s41591-025-04132-5). 2026;32(1):318-324.*
+2. De Bruyne B, Pijls NHJ, Kalesan B, et al. Fractional flow reserve-guided PCI versus medical therapy in stable coronary disease. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1205361). 2012;367(11):991-1001.*
+3. De Bruyne B, Fearon WF, Pijls NHJ, et al. Fractional flow reserve-guided PCI for stable coronary artery disease. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1408758). 2014;371(13):1208-1217.*
+4. Xaplanteris P, Fournier S, Pijls NHJ, et al. Five-year outcomes with PCI guided by fractional flow reserve. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1803538). 2018;379(3):250-259.*
+5. Maron DJ, Hochman JS, Reynolds HR, et al. Initial invasive or conservative strategy for stable coronary disease. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1915922). 2020;382(15):1395-1407.*
+6. Tonino PAL, De Bruyne B, Pijls NHJ, et al. Fractional flow reserve versus angiography for guiding percutaneous coronary intervention. [*N Engl J Med](https://doi.org/10.1056/NEJMoa0807611). 2009;360(3):213-224.*
+
+
+## 名詞解釋
+
+
+| p{9cm}}  **英文縮寫/術語** | **中文解釋** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **英文縮寫/術語** | **中文解釋** |  |
+| FFR (Fractional Flow Reserve) | 血流儲備分數：評估冠狀動脈狹窄功能性嚴重程度的指標，正常值為1.0，$\leq$ 0.80表示血流動力學顯著狹窄 |  |
+| PCI (Percutaneous Coronary Intervention) | 經皮冠狀動脈介入治療：包括冠狀動脈支架置放術等介入性治療 |  |
+| Stable CAD (Stable Coronary Artery Disease) | 穩定型冠狀動脈疾病：無急性冠心症表現的冠狀動脈疾病 |  |
+| Win Ratio | 勝出比率：一種階層式複合終點分析方法，用於處理資料遺失並比較治療效果 |  |
+| NNT (Number Needed to Treat) | 需治療人數：達到一次額外有利結局所需治療的患者數 |  |
+| Urgent Revascularization | 緊急血管重建：因臨床惡化（如不穩定心絞痛或心肌梗塞）而進行的非計畫性血管重建 |  |
+| Medical Therapy / OMT | 藥物治療/最佳藥物治療：包括antiplatelet therapy、statin、ACE inhibitor/ARB等指引建議的藥物 |  |
+| Conditional Win Ratio | 條件式勝出比率：在前一項目平手的患者中，計算下一項目的Win Ratio |  |
+| ISCHEMIA Trial | 國際比較醫療與侵入性方法有效性研究：比較穩定型冠心症侵入性與保守策略的大型臨床試驗 |  |
+| Drug-eluting Stent (DES) | 藥物塗層支架：釋放抗增生藥物以減少再狹窄的冠狀動脈支架 |  |
+
+
+**關鍵詞：**Fractional flow reserve、FFR-guided PCI、穩定型冠狀動脈疾病、長期追蹤、Win Ratio、緊急血管重建、藥物治療

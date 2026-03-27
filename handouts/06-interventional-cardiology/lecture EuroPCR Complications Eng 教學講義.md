@@ -1,0 +1,756 @@
+# lecture EuroPCR Complications Eng
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+\maketitle
+empty
+
+
+importantbox
+**Learning Objectives**
+
+- Recognize early signs of common catheterization laboratory complications
+- Master emergency diagnostic workflows for complications
+- Learn emergency management strategies for various complications
+- Develop team-based crisis management capabilities
+
+
+importantbox
+
+
+---
+
+\tableofcontents
+
+---
+
+
+## Introduction
+
+
+Although cardiac catheterization is a minimally invasive procedure, serious complications can still occur. This manual compiles seven real-world cases covering the most common and challenging complications in the catheterization laboratory, including coronary dissection, catheter entanglement, stent loss, cardiac tamponade, and more. Each case emphasizes early recognition, accurate diagnosis, and emergency management strategies.
+
+
+### Importance of Catheterization Laboratory Complications
+
+
+- Early recognition can reduce mortality
+- Proper management can avoid emergency surgery
+- Team collaboration is key to success
+- Learning from previous experiences reduces errors
+
+
+importantbox
+****Core Principles****
+
+
+1. **Prevention over treatment**: Understand high-risk factors and prepare in advance
+2. **Early recognition**: Continuous monitoring of vital signs and imaging
+3. **Decisive action**: Don't hesitate—intervene when necessary
+4. **Teamwork**: Immediately activate support systems
+
+
+importantbox
+
+
+---
+
+
+## Case 1: Iatrogenic Aortocoronary Dissection
+
+
+### Case Summary
+
+
+**Author:** Sugawara Yu
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Patient** | 79-year-old female with effort angina |  |
+| **History** | Cardiac CT showed severe calcification in both coronary arteries |  |
+| **Procedure** | Underwent coronary angiography, distal RCA stenosis identified, PCI planned |  |
+| **Complication** | Iatrogenic aortocoronary dissection induced by guide extension catheter |  |
+| **Mechanism** | Guide extension catheter tip injured the intima, subsequent contrast injection worsened the situation |  |
+
+
+### Complication Recognition
+
+
+importantbox
+****Key Recognition Points****
+
+
+1. **Imaging findings**: Contrast entering aortic wall during angiography
+2. **Hemodynamics**: Possible blood pressure drop or arrhythmia
+3. **Symptoms**: Worsening chest pain, dyspnea
+4. **ECG**: Possible new ST segment changes
+
+
+importantbox
+
+
+### Emergency Diagnostic Workflow
+
+
+| p{12cm}}   **Step** | **Action** |  |
+| --- | --- | --- |
+| **Step 1** | Immediately stop all manipulations, avoid repeat contrast injection |  |
+| **Step 2** | Use IVUS to identify dissection entry point location |  |
+| **Step 3** | Assess extent of dissection: has it extended to ascending aorta? |  |
+| **Step 4** | Confirm if true lumen blood flow is maintained |  |
+| **Step 5** | Determine bail-out stenting strategy |  |
+
+
+### Emergency Management
+
+
+**Management Strategy**
+
+
+1. **Early detection**: Use IVUS guidance to locate entry point
+2. **Seal the entry**: Deploy stent to close dissection entry site
+3. **Support circulation**: Maintain systemic circulation and true lumen blood flow
+4. **This case**: Deployed 3.5 × 23 mm drug-eluting stent to cover the flap
+
+
+### Outcome and Follow-up
+
+
+- Final angiography showed complete recovery of coronary flow
+- Post-PCI CT confirmed dissection had not progressed to ascending aorta
+- Conservative therapy chosen
+- No further complications after bail-out stenting
+- Patient discharged safely
+- Follow-up CT at 10 months showed aortocoronary dissection had healed
+
+
+### Learning Points
+
+
+importantbox
+****Take Home Messages****
+
+
+- Aortocoronary dissection occurs in approximately 0.09
+- Guide extension catheter tip can induce intimal injury
+- Contrast injection worsens dissection—**avoid repeat injections**
+- Early detection and prompt stent placement are crucial
+- IVUS guidance is essential for identifying entry point and confirming treatment effectiveness
+
+
+importantbox
+
+
+---
+
+
+## Case 2: Femoral Artery Catheter Kinking
+
+
+### Case Summary
+
+
+**Author:** A Ashika
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Access** | Via right femoral artery |  |
+| **Complication** | Diagnostic catheter kinked inside roomy femoral artery |  |
+| **Initial attempts** | Opposite torquing failed, catheter remained kinked |  |
+| **Risk assessment** | En bloc removal might cause femoral artery rupture    Forceful catheter withdrawal might cause catheter fracture and embolization |  |
+| **Final management** | Successful retrieval using left radial access for snaring |  |
+
+
+### Complication Recognition
+
+
+importantbox
+****Recognition Keys****
+
+
+1. **Imaging finding**: Obvious catheter kinking visible on fluoroscopy
+2. **Manipulation difficulty**: Catheter unable to advance or withdraw
+3. **Pressure waveform**: Possible damping
+4. **Catheter resistance**: Abnormal resistance felt
+
+
+importantbox
+
+
+### Management Strategy Evolution
+
+
+| p{5.5cm}p{5.5cm}}   **Method** | **Technique** | **Result/Risk** |
+| --- | --- | --- |
+| **Method 1** | Gentle traction with opposite torque | Failed    Risk: catheter fracture and worsening kink |
+| **Method 2** | Over-the-wire straightening    (tried 0.014" and 0.035") | Failed    Risk: forceful attempt may cause fracture |
+| **Method 3** | Snaring via contralateral left femoral | Not attempted    Reason: similar tortuosity of aorta might cause same issue in left femoral |
+| **Method 4** | Inflate balloon near/inside kink | Not attempted    Reason: kink too tight, even coronary wire couldn't pass |
+| **Method 5** | Surgical retrieval | Listed as last resort |
+| **Final method** | **Left radial snaring**    1. Obtain left radial access    2. Snare catheter tip    3. Alternately loosen and torque at both ends simultaneously    4. Withdraw catheter through right femoral route with wire inside | **Success**    Straightened the kink    No vascular injury |
+
+
+### Emergency Management Principles
+
+
+**Decision-Making Algorithm**
+
+
+1. **Assess kink location**: Determine which vascular segment
+2. **Evaluate traditional methods**: Gentle torquing, wire straightening
+3. **Creative thinking**: Consider non-traditional access routes (e.g., radial)
+4. **Prepare backup plan**: Surgical consultation if necessary
+5. **Avoid**: Don't forcefully torque causing catheter fracture
+
+
+### Learning Points
+
+
+importantbox
+****Take Home Messages****
+
+
+- **Don't Fight the Kink**: Forceful torquing can cause fracture
+- **Endovascular creativity**: Creative thinking can avert surgery
+- **Radial access versatility**: Demonstrates the value of radial access in complex situations
+- **Persistence and innovation**: Most catheter-related complications can be managed percutaneously
+- Rare case of catheter kinking inside roomy femoral artery, showcasing radial rescue value
+
+
+importantbox
+
+
+---
+
+
+## Case 3: Transradial Catheter Entrapment
+
+
+### Case Summary
+
+
+**Author:** Thanabalasingam Nitharshan
+
+**Study Purpose:** Share two cases of Tiger catheter entrapment during transradial coronary angiography and percutaneous retrieval techniques
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Background** | Transradial approach increasingly favored due to improved safety and patient comfort |  |
+| **Problem** | Rare complications such as catheter entrapment from torqueing are often underreported |  |
+| **Challenge** | Requires innovative, adaptive strategies for catheter retrieval |  |
+| **Purpose** | Share practical solutions for management with limited literature on percutaneous retrieval techniques |  |
+
+
+### Case 3A: Transfemoral Snaring
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Patient** | 65-year-old male with stable angina |  |
+| **Access** | Right radial artery using 5F Tiger catheter |  |
+| **Issue** | Multiple attempts to engage RCA failed    Sudden arterial waveform damping    Fluoroscopy showed kinked and looped catheter in axillary artery |  |
+| **Failed maneuvers** | Standard maneuvers to untorque catheter unsuccessful |  |
+| **Solution** | 1. Obtain femoral access    2. Snare catheter    3. Successfully retrieve entire assembly |  |
+| **Outcome** | No vascular injury, patient recovered well |  |
+
+
+### Case 3B: Sheathless Guide Catheter Technique
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Patient** | 72-year-old male with stable angina |  |
+| **Access** | Right radial artery using 5F Tiger catheter |  |
+| **Issue** | Multiple attempts to engage RCA failed    Sudden arterial waveform damping    Fluoroscopy showed kinked and looped catheter in axillary artery |  |
+| **Failed attempts** | Standard maneuvers unsuccessful    Femoral snaring failed due to significant subclavian artery tortuosity |  |
+| **Innovative solution** | 1. Cut and remove catheter distal hub    2. Advance 7F guide catheter over entrapped catheter via radial access (functioning sheathless)    3. Retrieve catheter and guide assembly together |  |
+| **Outcome** | Hemostasis achieved without vascular injury |  |
+
+
+### Technical Comparison
+
+
+| p{5cm}p{5cm}}   **Category** | **Method A: Transfemoral snaring** | **Method B: Sheathless guide** |
+| --- | --- | --- |
+| **Indication** | Catheter entrapment in proximal, relatively straight vessel segment | Subclavian tortuosity makes snaring difficult |
+| **Advantages** | Traditional method, more familiar | No additional femoral access needed |
+| **Technical requirements** | Additional femoral puncture and snare technique | Requires cutting catheter hub    Needs larger guide catheter |
+| **Success key** | Snare must capture catheter tip | Guide catheter must advance smoothly over kinked catheter |
+
+
+### Learning Points
+
+
+importantbox
+****The Essentials to Remember****
+
+
+- **Why?** Catheter torqueing and entrapment are rare but serious transradial complications needing effective percutaneous solutions
+- **What?** Two cases of entrapped Tiger catheters during coronary angiography
+- **How?**        Case 1 used transfemoral snaring        Case 2 used sheathless guide catheter advancement over trapped catheter
+- **Results?** Successful non-surgical retrieval in both cases, no vascular injuries
+- **Why important?** Sharing adaptable, reproducible retrieval techniques enhances preparedness and procedural safety in transradial interventions
+
+
+importantbox
+
+
+### Prevention and Management Principles
+
+
+**Key Principles**
+
+
+1. **Prompt identification**: Early recognition of entrapment
+2. **Flexible approach**: Adaptable retrieval strategies
+3. **Anatomical consideration**: Account for anatomical variations
+4. **Multiple techniques**: Prepare various backup methods
+5. **Avoid force**: Prevent vascular or catheter injury from forceful manipulation
+
+
+---
+
+
+## Case 4: Coronary Dissection with False Lumen Stenting
+
+
+### Case Summary
+
+
+**Author:** Fathima Zoubia
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Patient** | 44-year-old male, hypertensive, smoker |  |
+| **Presentation** | Chest pain for 45 minutes |  |
+| **Initial management** | Aspirin, clopidogrel    BP 134/95 mmHg, HR 111 bpm, SpO2 99 |  |
+| **Diagnosis** | Initial ECG: STEMI    Tenecteplase administered    ECG 90 min post-thrombolysis: ongoing chest pain    Rescue PCI |  |
+| **CAG findings** | Proximal LAD: severe stenosis    Proximal RCA: moderate to severe stenosis with unstable plaque involving ostium |  |
+| **LAD PCI** | 1 DES deployed, good result |  |
+| **Complication** | **Right coronary artery dissection** during RCA intervention |  |
+
+
+### Complication Evolution and Management
+
+
+| p{12cm}}   **Stage** | **Details** |  |
+| --- | --- | --- |
+| **Dissection** | Coronary angiography revealed RCA dissection |  |
+| **First stent** | 3.5 × 48 mm DES implanted in proximal RCA    Coronary injection showed inadequate flow |  |
+| **IVUS assessment** | **Critical findings:**    Wire in false lumen    Stent distal end located in false lumen |  |
+| **Wire repositioning** | Microcatheter confirmed wire position in true lumen    Secured access to true lumen using guidewires |  |
+| **Second stent** | 3.0 × 38 mm DES implanted in mid-RCA    Covering dissection area |  |
+| **Post-dilation** | 3.5 × 20 mm balloon |  |
+| **Final result** | No residual stenosis, TIMI 3 flow |  |
+
+
+### Follow-up
+
+
+- 6 hours post-procedure: Patient had severe chest pain recurrence
+- Re-look CAG: **LAD stent patent**
+- Bedside echo: No pericardial effusion immediately post-procedure
+- Next day echo: LVEF 35-40
+- Hospital day 3: Hemodynamically stable, pain-free
+- Discharged on optimal medical treatment
+
+
+### Key Learning Points
+
+
+importantbox
+****Coronary Dissection Management Principles****
+
+
+1. **Early identification**: Crucial for effective management
+2. **Avoid repeat contrast injections**: Prevent further dissection propagation
+3. **Hydrophilic wire**: May aid appropriate wire positioning in dissected vessel
+4. **Two-wire technique**: If wire suspected in false lumen, leave in place and attempt true lumen access with second wire
+5. **Microcatheter confirmation**: Use microcatheter to confirm wire in true lumen    Distal injection should be gentle using small 2.5 mL syringe with 50/50 contrast
+6. **Stenting strategy**: Usually distal to proximal    This case: proximal to distal to seal dissection and prevent extension
+7. **Intravascular imaging**: IVUS or OCT pivotal for managing coronary dissections
+
+
+importantbox
+
+
+**Microcatheter Application**
+
+Although coronary microcatheters are traditionally used for complex PCI navigation, this case demonstrates a well-described approach: using the microcatheter to confirm wire position in the true lumen. This is an important technique when managing dissected vessels.
+
+
+---
+
+
+## Case 5: Cardiac Tamponade
+
+
+### Case Summary
+
+
+**Author:** Lingala Rajeshwari
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Patient** | Complete heart block patient |  |
+| **Initial management** | EMS: Jugular TPI    Cath lab: Femoral TPI placed    Short CPR |  |
+| **CAG findings** | LM ostial 60-70  LAD, LPDA mild disease    RCA non-dominant |  |
+| **PCI strategy** | Ostial LM-LAD (Provisional strategy)    Short LM |  |
+| **Stent deployment** | 4 × 19 mm DES    Post-dilation: 4.5 mm NC at 18 atm with ostial flaring |  |
+| **Immediate result** | Good results, TIMI III flow    ECG showed sinus rhythm 6 hours later |  |
+| **Complication** | Post-procedural **cardiac tamponade** |  |
+
+
+### Complication Timeline
+
+
+| p{11.5cm}}   **Time point** | **Events and management** |  |
+| --- | --- | --- |
+| **Day 1** | Cath lab procedure completed    Jugular TPI removed at 6 PM |  |
+| **Day 2, 3 AM** | Patient in shock    Echo: **tamponade**    **Pericardiocentesis performed**    Pigtail catheter in situ    Femoral TPI still in situ    ECG: Sinus rhythm |  |
+| **Day 3** | Femoral TPI removed    No drainage for next 2 days    Transferred to ward |  |
+| **Day 5** | **Bradycardia**    Pigtail removed    Deteriorating hemodynamics    Recurrent **tamponade**    Repeat pericardiocentesis under fluoroscopy    ROSC after 2 cycles of CPR |  |
+
+
+### Complication Mechanism Analysis
+
+
+importantbox
+****Catheter Perforation Mechanism****
+
+**TEE findings:**
+
+- Wire route: Pericardium → RV → PA
+- **Incorrect catheter course**: Did not follow ideal pathway
+- Temporary pacing wire may have caused cardiac perforation
+
+
+**Echo features of tamponade:**
+
+- Pericardial effusion
+- Diastolic collapse of right heart chambers
+- Hemodynamic compromise
+
+
+importantbox
+
+
+### Management Key Points
+
+
+**Emergency Management of Cardiac Tamponade**
+
+
+1. **Early recognition**: Monitor vital signs, echo surveillance
+2. **Pericardiocentesis**: Emergency drainage
+3. **Pigtail catheter placement**: Continuous drainage
+4. **Close monitoring**: Remain vigilant for recurrence even after drainage
+5. **Wire route verification**: Use echo or fluoroscopy to confirm wire position
+6. **Femoral TPI consideration**: Evaluate if source of complication
+
+
+### Learning Points
+
+
+importantbox
+****Important Lessons****
+
+
+- Temporary pacing wire placement requires careful wire manipulation
+- Verify wire route: via RA → RV → PA, avoid pericardium entry
+- Post-procedural monitoring important: close follow-up even after initial success
+- Cardiac tamponade may **recur**: Day 5 recurrence required repeat intervention
+- TEE can help diagnose wire malposition and tamponade features
+- Vascular closure device selection based on: distance from skin to heart
+
+
+importantbox
+
+
+---
+
+
+## Case 6: Stent Dislodgement and Failed Retrieval
+
+
+### Case Summary
+
+
+**Author:** Ao Xiang Quek
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Target lesion** | RCA lesion requiring stenting |  |
+| **Stent specification** | 4.0 × 48 mm DES |  |
+| **Problem** | **Failed to deliver stent**    Guiding catheter kicked back    Proximal stent edge crimpled    **Unable to withdraw into catheter** |  |
+
+
+### Retrieval Attempts
+
+
+| p{12cm}}   **Stage** | **Details** |  |
+| --- | --- | --- |
+| **First Trial** | Pull entire system en bloc to radial artery    Attempt to withdraw stent into catheter: **failed**    Remove guiding catheter, exchange to Slender 7Fr radial sheath    Option tried: Larger sheath    Result: **So close, yet so far!!**    Left stent and wire only in radial artery |  |
+| **Final result** | Stent could not be fully retrieved    The deformed stent retrieved |  |
+
+
+### Failure Analysis
+
+
+importantbox
+****Reasons for Stent Non-Delivery****
+
+
+1. **Inadequate lesion preparation**: Insufficient pre-dilation
+2. **RCA anatomical characteristics**: Natural curvy/tortuous anatomy makes stent delivery difficult
+3. **Excessive pushing**: Forceful/repeated pushing against resistance
+4. **Insufficient guiding support**: Guiding catheter kicked back
+5. **No guide extension used**: Could have provided better support
+
+
+importantbox
+
+
+### Prevention Strategies
+
+
+**Strategies to Avoid Stent Loss**
+
+
+1. **Adequate pre-dilation/preparation**: Sufficiently predilate lesion
+2. **Consider anatomy**: Pay special attention to RCA's curvy/tortuous anatomy
+3. **Hybrid approach**: Consider DCB + DES
+4. **Avoid force**: Avoid forceful/repeated pushing when encountering resistance
+5. **Guide extension**: Should be considered for better support
+6. **Backup plan**: Prepare snaring technique (radial/femoral)
+7. **Multiple wire wrapping technique**: For dislodged stent retrieval
+
+
+### Learning Points
+
+
+importantbox
+****Take Home Messages****
+
+
+- Stent dislodgement is a serious PCI complication
+- Lesion preparation critical for successful stent delivery
+- RCA's tortuous anatomy requires careful approach
+- Guide extension can provide better support
+- When encountering resistance, stop and reassess—don't force
+- Prepare retrieval techniques: snaring, wire wrapping
+- Larger sheath may help but doesn't guarantee success
+
+
+importantbox
+
+
+---
+
+
+## Case 7: IVC-RA Thrombus and Pulmonary Embolism
+
+
+### Case Summary
+
+
+**Author:** Khalil Hisham
+
+
+| p{10cm}}   **Category** | **Details** |  |
+| --- | --- | --- |
+| **Patient** | 41-year-old male |  |
+| **Injury mechanism** | Chest trauma (heavy object fell on chest) |  |
+| **ER presentation** | Hypovolemic shock: BP 75/55 mmHg    Tachycardia, faint distal pulse    GCS 4/15    Intubated, mechanically ventilated, fluid resuscitation |  |
+| **CT chest** | Bilateral hemopneumothorax    → Bilateral chest tube insertion |  |
+| **CT abdomen** | Splenic laceration    → Urgent laparotomy + splenectomy    + Repair of right hepatic vein and IVC |  |
+| **Day 4 complication** | Sudden severe dyspnea, tachypnea    Desaturation <90  BP 110/70, HR 100 bpm    Suspected PE → therapeutic anticoagulation initiated |  |
+| **CTPA** | Segmental PE, no RV strain    HS Troponin 2.1 |  |
+| **Echo surprise** | **Large lobulated highly mobile mass**    At junction of IVC and RA    Very likely to complicate to massive PE |  |
+
+
+### Treatment Decision-Making
+
+
+importantbox
+****Complex Clinical Scenario****
+
+**Patient characteristics:**
+
+- Polytrauma patient with recent splenectomy
+- **High bleeding risk**
+- Evidence of acute PE with segmental emboli
+- Relatively stable hemodynamics
+- TTE: large lobulated highly mobile mass at IVC-RA junction (proven by TEE)
+- Very likely to complicate to massive PE
+
+
+**Guideline dilemma:**
+
+- No guideline consensus about catheter-in-transit (CIT) management
+
+
+importantbox
+
+
+### Treatment Options Analysis
+
+
+| p{5.5cm}p{6.5cm}}   **Option** | **Method** | **Considerations** |
+| --- | --- | --- |
+| **Option 1** | Second surgery for RA-IVC mass embolectomy | High risk: Recent laparotomy    Bleeding risk    Hemodynamically unstable |
+| **Option 2** | Percutaneous suction using large pore catheter | Relatively less invasive    Requires specialized equipment and expertise    May not completely clear thrombus |
+| **Option 3** | Anticoagulation vs systemic thrombolysis | Anticoagulation: Slow effect, thrombus may embolize    Systemic thrombolysis: **Contraindicated** (recent surgery, high bleeding risk) |
+
+
+### Learning Points
+
+
+importantbox
+****Key Lessons****
+
+
+- **Catheter-in-transit** is a critical situation: high risk of massive PE
+- **Polytrauma patients** have multiple competing risks
+- **Recent surgery** limits treatment options
+- **Heart team decision making** is crucial
+- **Echo surveillance** essential for diagnosis and follow-up
+- **No guideline consensus**: Requires individualized decision-making
+- **Balancing bleeding vs thrombosis risk**: Greatest challenge
+
+
+importantbox
+
+
+**The Ticking Bomb in Transit**
+
+This case's title "The ticking bomb in transit" vividly describes the critical nature of CIT. This highly mobile thrombus could cause massive PE at any moment, but the patient's recent surgery and high bleeding risk limit aggressive treatment options. This is a true clinical dilemma.
+
+
+---
+
+
+## Integrated Learning: Complication Management Overview
+
+
+### Common Principles
+
+
+| p{10.5cm}}   **Principle** | **Description** |  |
+| --- | --- | --- |
+| **Early recognition** | Successful management in all cases stemmed from early recognition    Continuous monitoring: vitals, hemodynamics, ECG, fluoroscopy |  |
+| **Prompt action** | Once complication identified, act immediately    Don't wait or hesitate |  |
+| **Avoid making it worse** | Stop operations that may worsen situation    Example: avoid repeat contrast injection during dissection |  |
+| **Use imaging wisely** | IVUS, OCT, TEE indispensable for diagnosis and guiding treatment    Timely use can change outcomes |  |
+| **Creative problem-solving** | Prepare multiple backup strategies    Think creatively when traditional methods fail    Examples: radial snaring, sheathless guide |  |
+| **Team approach** | Complex complications require heart team decision making    Timely consultation: cardiac surgery, echocardiography, anesthesia |  |
+| **Know your limitations** | Understand when external support needed    Prepare for conversion to surgical treatment |  |
+
+
+### Complication Classification and Management
+
+
+| p{4.5cm}p{6cm}}   **Complication type** | **Representative cases** | **Key strategies** |
+| --- | --- | --- |
+| **Vascular injury** | Aortocoronary dissection    Coronary dissection | IVUS guidance    Seal entry point    Bail-out stenting    True lumen confirmation |
+| **Perforation  | tamponade** | Wire perforation    Cardiac tamponade |
+| **Catheter complications** | Catheter kinking    Catheter entrapment | Multiple retrieval techniques    Snaring    Sheathless guide    Creative access routes |
+| **Equipment issues** | Stent dislodgement    Unable to retrieve | Adequate preparation    Guide extension    Snaring techniques    Accept deformation if necessary |
+| **Thrombotic complications** | CIT (catheter-in-transit)    PE | Heart team approach    Balance bleeding/thrombosis risk    Individualized treatment |
+
+
+### Equipment Preparation Checklist
+
+
+importantbox
+****Essential Catheterization Laboratory Equipment****
+
+
+1. **Imaging equipment:** IVUS catheter, OCT catheter
+2. **Bail-out equipment:**        Various sizes of covered stents        Guide extension catheters        Microcatheters
+3. **Retrieval equipment:**        Snares (various sizes)        Retrieval balloons        Additional wires (hydrophilic)
+4. **Drainage equipment:**        Pericardiocentesis kit        Pigtail catheters
+5. **Others:**        Larger sheaths        Temporary pacing system        IABP/ECMO standby
+
+
+importantbox
+
+
+### Team Training Focus
+
+
+**Complication Management Training**
+
+
+1. **Regular simulation training**: Practice retrieval techniques, pericardiocentesis
+2. **Case discussions**: Regular morbidity and mortality conferences
+3. **Protocol drills**: Emergency protocols, team roles
+4. **Interdisciplinary communication**: With cardiac surgery, imaging, anesthesia
+5. **Equipment familiarity**: Know where rescue equipment is located
+6. **Decision-making training**: Practice heart team decision making
+
+
+---
+
+
+## Conclusion and Recommendations
+
+
+### Recommendations for New Fellows
+
+
+importantbox
+****Learning Points****
+
+
+1. **Understand principles**: Understand why complications occur, not just memorize management
+2. **Observe senior physicians**: Note how they **prevent** complications
+3. **Practice basic skills**: Solid catheter manipulation, wire handling
+4. **Learn recognition**: Train yourself for early recognition ability
+5. **Develop systematic approach**: Develop your own checklists and routines
+6. **Value teamwork**: Know when to call for help
+7. **Always prepare**: Mental preparation for complications
+8. **Lifelong learning**: Continuously update knowledge and skills
+
+
+importantbox
+
+
+### Continuous Improvement
+
+
+- Regularly review your own complication cases
+- Attend relevant training and workshops
+- Share experiences and techniques with colleagues
+- Remain open to new technologies
+- Establish personal complication management protocols
+
+
+importantbox
+****Remember These Three Core Principles****
+
+
+1. **Prevention is key**: The best complication management is prevention
+2. **Early beats late**: Early recognition and management changes outcomes
+3. **Team over individual**: Teamwork trumps individual heroism
+
+
+Although catheterization laboratory complications are rare, they are often life-threatening when they occur. Through systematic learning from previous experiences, we can enhance our management capabilities and provide safer medical care to our patients.
+importantbox
+
+\vfill
+\hrule
+
+*This manual is compiled from AICT-AsiaPCR Case Corner 2 case presentations*
+[0.3cm]
+Compiled by Mu-Yang Hsieh, MD, PhD, FESC
+*For educational purposes only, not for commercial use*

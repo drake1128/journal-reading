@@ -1,0 +1,477 @@
+# lecture carotid blowout
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2024-07-16**
+
+---
+
+titlepage
+    
+    
+    
+    {\bfseriesemergency_red Carotid Blowout Syndrome  
+[0.5cm]
+    緊急處置病例檢討
+}
+    
+    
+    
+    {emergency_blue 多科團隊協作案例分析
+}
+    
+    
+    
+    
+> **檢討日期：** 2025年9月  
+>         **病例類型：** 緊急多科協作處置  
+>         **參與科別：** 腫瘤醫學部、內科部加護病房、心臟內科
+
+    
+    \vfill
+    
+    {國立臺灣大學醫學院附設醫院新竹臺大分院生醫醫院
+}
+    {National Taiwan University BioMedical Park Hospital
+}
+    
+    
+    
+    {**文件產生日期：\mydate**
+}
+    
+titlepage
+
+\tableofcontents
+
+---
+
+
+## 病例摘要
+
+
+### 患者資料
+
+
+- **年齡性別：** 70歲男性
+- **職業：** 運輸管理業
+- **主要診斷：** Left retromolar trigone buccal cancer (moderately-differentiated squamous cell carcinoma)
+
+
+### 疾病歷程
+
+
+#### 初次診斷（2023年）
+
+
+- pT1N0M0, Stage I
+- 手術切除後margin 1mm（close margin）
+- **患者拒絕輔助性CCRT** $\rightarrow$ 導致局部區域復發
+
+
+#### 復發後治療歷程
+
+
+1. Debulking surgery（2024/7/16）
+2. Salvage CCRT 70Gy/33fx
+3. 維持性Tegafur/uracil
+4. Cetuximab + PF（C1D1至C5D1）
+5. Grade 3 neutropenic fever $\rightarrow$ 住院治療
+6. 改為Cetuximab + Cisplatin + Tegafur/uracil（C6D1至C8D1）
+
+
+### 本次住院
+
+
+importantbox
+**入院原因：** C7D29化療後出現Grade 3貧血及血小板低下（Hb: 8.7 g/dL, PLT: 74 K/L），需輸血及支持性治療
+importantbox
+
+
+## 事件時間軸
+
+
+### 週六（入院當日）
+
+
+#### 入院時生命徵象
+
+
+- Blood Pressure: 137/78 mmHg
+- Pulse Rate: 75 bpm
+- 意識清楚，ECOG: 1
+
+
+#### 實驗室數據
+
+
+| **項目** | **數值** | **單位** |
+| --- | --- | --- |
+| Hemoglobin | 8.7 | g/dL |
+| Platelet | 74 | K/L |
+| WBC | 5.36 | K/L |
+| Neutrophil | 86.7 |  |
+| Sodium | 124 | mmol/L |
+
+入院時血液檢查數據
+
+
+#### 處置
+
+
+- 輸血治療（pRBC, PLT）
+- 經驗性抗生素：Ampicillin-sulbactam
+- 完成C8D1化療（Cetuximab + Cisplatin + Tegafur/uracil）
+
+
+### 週日上午（出血事件）
+
+
+本案例的關鍵時刻：週日上午嘔吐後發生左側頸動脈破裂大出血，需要立即緊急處置。
+
+
+#### 事件描述
+
+患者在嘔吐後突發左側頸動脈破裂，出現大量出血。
+
+
+#### 初步處置
+
+
+1. 局部壓迫（Bosmin gauze）$\rightarrow$ **止血失敗**
+2. 液體復甦：Lactated Ringer 1000mL
+3. 緊急輸血：      - pRBC 6 units - Platelet 12 units
+
+
+#### 臨床困境
+
+
+importantbox
+**週日資源限制：**
+
+- 無interventional radiologist on duty
+- Transcatheter arterial embolization (TAE)無法立即執行
+- 需尋求替代處置方案
+
+
+importantbox
+
+
+#### 決策過程
+
+
+1. 告知家屬病情危急
+2. 召開緊急家庭會議
+3. 風險告知：      - 再出血風險 - 術後中風風險 - 不處置必然死亡
+4. 家屬決策：      - 同意緊急處置 - 簽署DNR同意書 - 選擇緩和醫療方向
+5. 聯繫心臟科謝慕揚醫師進行緊急介入
+
+
+### 緊急介入處置
+
+
+#### 術式細節
+
+
+- **手術方式：** Left CCA-ICA covered stent placement
+- **Vascular access：**     itemize
+- RFA 6Fr (10cm) -- diagnostic catheter
+- RFA 8Fr (90cm) -- intervention
+
+
+    \item **Stent規格：** Viabahn covered stent
+    
+- Size: 7mm
+- Length: 100mm
+
+
+    \item **顯影劑使用：** Omnipaque 50mL
+    \item **手術時間：** 30分鐘
+    \item **輻射時間：** 11.9分鐘
+itemize
+
+
+#### 手術結果
+
+
+> itemize
+>     \item 成功止血
+>     \item Final TIMI flow: Grade III
+>     \item 術中血行動力學穩定
+>     \item 未使用vasopressor
+>     \item 順利轉入ICU監測
+> itemize
+
+
+#### 術後醫囑重點
+
+
+1. DNR consent已取得
+2. 安排family meeting
+3. 8Fr sheath於隔日移除，需overnight血壓監測
+4. **術中發現：** CCA有血塊，已抽吸乾淨並持續壓迫
+5. **技術決策：** 未進行post-dilation      - 原因：評估可能導致再出血 - 判斷：支架置放後已確實止血
+
+
+## 臨床決策分析
+
+
+### 成功因素
+
+
+#### 快速的多科整合
+
+
+- 腫瘤科團隊立即辨識緊急狀況
+- 心臟科提供跨專科支援
+- 有效的科際溝通與協調
+- 在資源限制下找到可行方案
+
+
+#### 適當的風險評估與溝通
+
+
+- 事前召開緊急家庭會議
+- 清楚告知三大風險：     enumerate
+- 術後再出血可能性
+- 神經學併發症（中風）風險
+- 不處置的必然結果（死亡）     enumerate
+- 尊重家屬選擇緩和醫療方向
+- 在DNR框架下仍執行必要的救命處置
+
+
+#### 技術執行
+
+
+- Covered stent成功達成止血目標
+- 術中維持血行動力學穩定
+- 審慎評估避免post-dilation（降低再出血風險）
+- 完整的術中血塊處理
+
+
+### 挑戰與限制
+
+
+#### 資源限制
+
+
+importantbox
+**週末人力配置的挑戰：**
+
+- Interventional radiologist未值班
+- 首選的TAE無法立即執行
+- 需仰賴跨科（心臟科）支援
+- 凸顯建立backup system的重要性
+
+
+importantbox
+
+
+#### 病情複雜度
+
+
+- 晚期癌症，腫瘤直接侵犯頸動脈
+- 化療相關pancytopenia（Hb 8.7, PLT 74）
+- 凝血功能不佳，增加手術風險
+- 術後血小板恢復至137 K/L（仍偏低）
+
+
+#### 預後考量
+
+
+從術後備註可見，醫療團隊對長期預後有清楚認知：「沒有再作後擴，是因為認定會再出血，加上支架後就已經確實止血。」這反映了在技術可行性與病人最佳利益之間的審慎權衡。
+
+
+- 腫瘤持續侵犯血管壁
+- 再出血風險持續存在
+- Stent感染風險（腫瘤環境、免疫低下）
+- 整體預後受限於腫瘤進展
+
+
+## 學習重點
+
+
+### 醫療技術層面
+
+
+#### Carotid Blowout的緊急處置選項
+
+
+| p{5cm}p{4cm}}  **處置方式** | **優點** | **限制** |
+| --- | --- | --- |
+| TAE | 首選方法，有效性高 | 需IR team，本案例不可行 |
+| Covered stent | 可由心臟科執行，本案採用 | 需技術經驗，再出血風險 |
+| 手術結紮 | 確定性止血 | 風險最高，神經學併發症多 |
+| 保守治療 | 無侵入性 | 預後極差，幾乎必然死亡 |
+
+頸動脈破裂的處置選項比較
+
+
+#### 週末緊急狀況的Backup Plan
+
+
+1. 建立跨科支援網絡      - 了解不同專科的interventional capabilities - 建立聯繫管道與SOP
+2. 預先規劃高風險病人的應變方案      - 識別高風險族群 - 預防性評估與準備
+3. 改善週末值班人力配置
+
+
+#### 晚期頭頸癌併發症的識別
+
+
+Carotid blowout的高風險因子包括：腫瘤直接侵犯頸動脈、放射治療後、傷口感染、營養不良、血管壁脆弱。臨床上應對高風險病人保持警覺。
+
+**警訊症狀：**
+
+- 反覆咳血或hemoptysis
+- 頸部腫瘤進展
+- 放療後組織壞死
+- Sentinel bleeding（小量出血預警）
+
+
+### 溝通與倫理層面
+
+
+#### 緊急狀況下的醫病溝通
+
+
+- **時間壓力：** 在有限時間內完成informed consent
+- **資訊完整性：** 快速但完整的風險告知
+- **決策支持：** 協助家屬在壓力下做出決定
+- **價值澄清：** 平衡「救命」與「生活品質」
+
+
+#### DNR與緊急處置的平衡
+
+
+importantbox
+**重要概念：**
+
+- DNR $\neq$ 不治療
+- 特定處置（如止血）仍可執行
+- 需與家屬澄清DNR的具體範圍
+- 緩和醫療不排除必要的急性處置
+
+
+importantbox
+
+
+#### 跨科團隊合作
+
+
+- 明確的角色分工與責任歸屬
+- 有效的即時資訊傳遞
+- 共同的治療目標與價值觀
+- 相互尊重與專業信任
+
+
+## 討論問題
+
+
+### 臨床決策面向
+
+
+1. 本案例中，若IR team在場，選擇TAE vs covered stent的考量為何？各自的優缺點？
+2. 術後備註提到「沒有再作後擴」，這個決策的風險效益如何評估？在何種情況下應該進行post-dilation？
+3. 在化療相關pancytopenia的情況下進行緊急介入，抗凝/抗血小板藥物的使用策略為何？
+
+
+### 系統改善面向
+
+
+1. 如何建立更完善的週末緊急IR backup系統？是否需要on-call制度或跨院支援？
+2. 高風險頭頸癌病人是否需要預防性評估頸動脈狀態？應在何時進行？使用何種影像檢查？
+3. 本案例的經驗如何轉化為標準作業流程(SOP)或臨床指引？
+
+
+### 病人照護面向
+
+
+1. 術後監測重點為何？      - 再出血徵兆的觀察指標 - 神經學變化的評估時機 - 感染監控策略
+2. 在DNR框架下，後續治療計畫如何調整？      - 是否繼續化療 - 支持性照護的重點 - 症狀控制策略
+3. 家屬支持與緩和照護團隊的介入時機？如何提供整合性照護？
+
+
+## 後續追蹤
+
+
+### 短期監測（ICU $\rightarrow$ 病房）
+
+
+> itemize
+>     \item **血行動力學：** 持續監測血壓、心跳，評估hemodynamic stability
+>     \item **神經學檢查：** 定期評估意識、肌力、感覺，早期發現stroke徵兆
+>     \item **傷口觀察：** 密切注意再出血跡象（sentinel bleeding）
+>     \item **血液學數值：** 追蹤Hb、PLT、coagulation profile
+>     \item **感染監控：** 監測體溫、發炎指數、傷口狀況
+> itemize
+
+
+### 中長期考量
+
+
+- **Stent相關併發症：**     itemize
+- 感染風險（腫瘤環境、免疫低下）
+- Stent thrombosis
+- In-stent restenosis
+
+
+    
+    \item **腫瘤進展：**
+    
+- 持續侵犯導致的再出血風險
+- 評估是否繼續抗癌治療
+- 與預期存活期的平衡
+
+
+    
+    \item **生活品質與緩和照護：**
+    
+- 疼痛控制
+- 營養支持
+- 心理社會支持
+- 預立醫療決定的討論
+
+
+itemize
+
+
+## 結論
+
+
+importantbox
+本案例展現了在緊急且資源受限的情況下，透過有效的跨科合作和快速決策，成功處理carotid blowout syndrome的急性出血事件。
+
+然而，在晚期癌症的背景下，此處置主要達成「緊急止血」的目標，後續仍需面對腫瘤進展、再出血風險、生活品質等多重挑戰。
+importantbox
+
+
+### 核心學習
+
+
+1. **團隊合作的重要性**      - 跨科協作是處理複雜急症的關鍵 - 有效溝通可以克服資源限制
+2. **資源限制下的創意解決方案**      - 在IR不可得的情況下，心臟科介入成功替代 - 彈性調整標準處置流程
+3. **醫療決策的多面向考量**      - 技術可行性 - 倫理適切性 - 預後實際性
+4. **緊急處置與緩和照護並不互斥**      - DNR不代表放棄治療 - 在緩和照護框架下仍可執行必要的急性處置 - 以病人最佳利益為中心
+
+
+### 建議後續動作
+
+
+> enumerate
+>     \item[$\square$] 召開多科團隊會議（腫瘤科、心臟科、ICU、IR）
+>     \item[$\square$] 更新Carotid blowout緊急處置SOP
+>     \item[$\square$] 建立週末IR backup機制與on-call system
+>     \item[$\square$] 制定高風險頭頸癌病人的評估與監測流程
+>     \item[$\square$] 考慮投稿case report（需IRB審查與病人/家屬同意）
+>     \item[$\square$] 納入住院醫師教學案例
+>     \item[$\square$] 評估是否需要simulation training
+> enumerate
+
+
+\hrule
+
+
+**文件整理：** \mydate   
+
+**建議審閱：** 腫瘤醫學部、內科部、心臟內科主治醫師  
+
+**下次檢討：** 建議3個月後追蹤後續發展與系統改善成效

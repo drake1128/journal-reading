@@ -1,0 +1,525 @@
+# coronary CTO proximal ambiguity
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+\maketitle
+empty
+
+
+importantbox
+**教學目標**
+
+- 了解近端帽模糊(proximal cap ambiguity)的定義與臨床意義
+- 掌握六種處理近端帽模糊的策略
+- 深入理解Open Sesame Technique的原理與操作步驟
+- 熟悉Move the Cap (BASE) Technique的實務應用
+- 學習如何根據病灶特徵選擇最佳策略
+
+
+importantbox
+
+\tableofcontents
+
+---
+
+
+## 前言
+
+
+### 近端帽模糊的定義
+
+
+近端帽模糊(Proximal Cap Ambiguity)是指在冠狀動脈慢性完全閉塞(Chronic Total Occlusion, CTO)病灶中，無法準確辨識閉塞近端起始點的位置及血管後續走向的情況。
+
+importantbox
+****臨床重要性****
+
+根據PROGRESS-CTO Registry的數據:
+
+- 近端帽模糊出現在約**31-35
+- 技術成功率較非模糊病灶**顯著下降**(79
+- 需要更頻繁使用**逆行策略**(68
+- 院內重大心血管事件(MACE)發生率較高(2.5
+
+
+importantbox
+
+
+### 近端帽模糊的常見原因
+
+
+| p{10cm}}   **原因** | **說明** |  |
+| --- | --- | --- |
+| 分支血管起點 | CTO近端帽位於分支血管起始處，側枝充盈使近端帽位置難以辨識 |  |
+| 血管重疊 | 造影時多條血管重疊，影響近端帽的辨識 |  |
+| 開口處病灶 | Flush aorto-ostial CTO，近端帽直接位於主動脈開口 |  |
+| 對比劑不足 | 單側注射時對比劑無法充分顯示病灶起點 |  |
+| 嚴重鈣化 | 嚴重鈣化導致血管結構不清晰 |  |
+| 既往CABG | 繞道手術後逆流充盈使閉塞位置判斷困難 |  |
+
+
+## 近端帽模糊的處理策略概覽
+
+
+根據圖片所示，處理CTO近端帽模糊有以下六種主要策略:
+
+
+| p{4cm}p{9cm}}   **序號** | **策略** | **主要用途與特點** |
+| --- | --- | --- |
+| 1 | Better Angiography    更佳的造影 | 首要步驟，透過多角度投影、雙側注射等方式改善顯影 |
+| 2 | IVUS    血管內超音波 | 直接顯像近端帽位置，引導導絲穿刺 |
+| 3 | CCTA    冠狀動脈電腦斷層 | 術前規劃或術中即時融合導航 |
+| 4 | Open Sesame    芝麻開門技術 | 利用側枝氣球擴張誘導硬化斑塊位移 |
+| 5 | Move the Cap    移動帽技術(BASE) | 在近端帽近側進入內膜下空間 |
+| 6 | Retrograde Techniques    逆行技術 | 當順行策略失敗時的首選替代方案 |
+
+
+## 策略一：改善造影品質
+
+
+### 雙側注射(Dual Injection)
+
+
+**雙側注射是CTO PCI的基本要求**
+
+幾乎所有CTO PCI都應該進行雙側注射，以便:
+
+- 完整顯示病灶長度
+- 評估遠端血管狀態
+- 識別可用的側枝循環
+- 確認近端帽位置
+
+
+### 多角度投影
+
+
+- 使用多個投影角度減少血管重疊
+- 尋找能清楚顯示近端帽的最佳角度
+- 避免血管foreshortening
+
+
+### 微導管選擇性注射
+
+
+- 將微導管推進至近端帽附近
+- 選擇性注射少量對比劑
+- 可更清楚顯示近端帽位置與形態
+
+
+## 策略二：IVUS引導
+
+
+### IVUS在近端帽模糊的應用
+
+
+importantbox
+****IVUS應用時機****
+
+當病灶具有合適大小的近端側枝時，可將IVUS導管置入側枝，從而:
+
+1. 直接顯示CTO近端帽的確切位置
+2. 辨識真腔與血管走向
+3. 引導正確的穿刺角度
+4. 減少導絲進入內膜下空間或血管外的風險
+
+
+importantbox
+
+
+### 操作步驟
+
+
+1. 將IVUS導管經由近端側枝推進
+2. 調整IVUS位置使能清楚顯示CTO近端帽
+3. 在IVUS導引下使用穿刺力強的導絲(如Confianza Pro 12)穿刺近端帽
+4. 確認導絲位於血管架構內後，交換導絲繼續操作
+
+
+## 策略三：CCTA應用
+
+
+### 術前規劃
+
+
+冠狀動脈電腦斷層血管攝影(Coronary CT Angiography, CCTA)可提供:
+
+
+- 閉塞血管的三維走向
+- 精確的病灶長度估計
+- 鈣化程度與分布
+- 近端帽與遠端帽的位置
+
+
+### 即時融合導航
+
+
+現代技術允許將CCTA影像與術中透視即時融合:
+
+
+- 提供虛擬路線圖(roadmap)
+- 協助導絲導航
+- 確認導絲位於正確的血管架構內
+
+
+## 策略四：Open Sesame Technique (芝麻開門技術)
+
+
+### 技術背景
+
+
+Open Sesame Technique由Katoh等人於2010年首次報告，專門用於處理以下情況:
+
+- 導絲無法穿透堅硬的近端帽
+- 近端帽處有側枝分出
+- 近端帽位置不清晰
+
+
+### 原理
+
+
+importantbox
+****Open Sesame的核心概念****
+
+利用側枝內的導絲操作或氣球擴張，誘導硬化斑塊發生**幾何位移**(geometrical shift)，從而:
+
+1. 改變近端帽的位置或角度
+2. 暴露原本被遮蔽的CTO入口
+3. 使導絲能夠進入閉塞病灶
+
+
+此技術名稱來自《一千零一夜》中的咒語「芝麻開門」(Open Sesame)，形象地描述了通過側枝操作「打開」進入CTO的通道。
+importantbox
+
+
+### 適應症
+
+
+| p{8cm}}   **條件** | **說明** |  |
+| --- | --- | --- |
+| 堅硬的近端帽 | 任何穿刺力強的導絲都無法穿透 |  |
+| 側枝位於近端帽處 | 有適當大小的側枝從閉塞起始處分出 |  |
+| 近端帽位置不明確 | 側枝充盈使入口難以辨識 |  |
+
+
+### 操作步驟詳解
+
+
+#### 步驟一：確認解剖構造
+
+
+1. 進行雙側注射以完整評估病灶
+2. 確認側枝從CTO近端帽處分出
+3. 評估側枝的大小與走向
+
+
+#### 步驟二：準備側枝
+
+
+1. 使用workhorse導絲進入側枝
+2. 推進微導管至側枝內
+3. 確認導絲位置正確
+
+
+#### 步驟三：執行Open Sesame
+
+
+**方法A：導絲操作法**
+
+1. 在側枝內使用較硬的導絲(如Miracle Bros系列)
+2. 旋轉並推進導絲，對近端帽施加壓力
+3. 觀察是否產生斑塊位移
+4. 嘗試用另一條導絲從新暴露的角度進入CTO
+
+
+**方法B：氣球擴張法**
+
+1. 將氣球推進至側枝內，靠近分叉處
+2. 擴張氣球(通常使用2.0-2.5 mm氣球)
+3. 氣球擴張會使近端帽發生位移
+4. 維持氣球擴張的同時，嘗試用導絲進入CTO
+
+
+#### 步驟四：CTO穿刺
+
+
+1. 在斑塊位移後，近端帽入口可能更清晰
+2. 使用穿刺力適當的導絲嘗試進入CTO
+3. 確認導絲位於血管架構內
+4. 繼續標準CTO穿越操作
+
+
+### 技術要點與注意事項
+
+
+**Open Sesame成功的關鍵**
+
+
+- **側枝選擇**：側枝應該位於近端帽正旁邊，且有足夠大小容納氣球
+- **力量適中**：過度擴張可能導致側枝損傷或夾層
+- **同時操作**：在維持氣球擴張的同時嘗試穿刺，效果最佳
+- **耐心嘗試**：可能需要多次調整氣球位置和擴張壓力
+
+
+### 臨床案例說明
+
+
+> **病灶描述**：LAD近端CTO，第一對角支從閉塞起始處分出，近端帽位置不明確。
+> **處理過程**：
+> enumerate
+>     \item 嘗試直接穿刺失敗
+>     \item 導絲進入對角支
+>     \item 將2.0 mm氣球推進至對角支開口處
+>     \item 擴張氣球至8 atm
+>     \item 維持擴張同時，使用Gaia Second導絲成功穿刺近端帽
+>     \item 完成CTO開通
+> enumerate
+> **機轉**：氣球擴張使LAD近端帽的鈣化斑塊發生位移，暴露了原本被遮蔽的真腔入口。
+
+
+## 策略五：Move the Cap Technique (BASE)
+
+
+### 技術背景
+
+
+Move the Cap Technique由Vo、Karmpaliotis和Brilakis於2016年發表，全名為**Balloon-Assisted Subintimal Entry (BASE)**，是處理近端帽模糊或無法穿透的重要技術。
+
+
+### 原理
+
+
+importantbox
+****Move the Cap的核心概念****
+
+**不是穿透近端帽，而是「繞過」它！**
+
+在無法穿透或無法辨識近端帽的情況下:
+
+1. 在近端帽**近側**（proximal to the proximal cap）造成內膜剝離
+2. 進入內膜下空間(subintimal space)
+3. 執行標準的順行剝離再進入(Antegrade Dissection and Re-entry, ADR)
+
+
+此技術有效避免了直接穿刺模糊近端帽可能造成的穿孔風險。
+importantbox
+
+
+### 適應症
+
+
+| p{9cm}}   **適應症** | **詳細說明** |  |
+| --- | --- | --- |
+| 近端帽模糊 | 無法準確辨識閉塞起始點 |  |
+| 無法穿透的近端帽 | 嚴重鈣化或纖維化的近端帽 |  |
+| Flush aorto-ostial CTO | 開口處閉塞，無近端血管供錨定 |  |
+| Balloon uncrossable lesion | 氣球無法通過的病灶(變異應用) |  |
+| 無適合側枝 | 無法使用Open Sesame技術時 |  |
+
+
+### 操作步驟詳解
+
+
+#### 方法A：氣球輔助法(標準BASE)
+
+
+1. **確認近端帽大致位置**      - 即使模糊，仍需大致判斷閉塞區域 - 使用對比劑注射和雙側顯影評估
+2. **選擇氣球**      - 選擇與血管1:1或**略大**的氣球 - 通常使用2.5-3.0 mm氣球 - 可使用普通半順應性氣球
+3. **定位氣球**      - 將氣球推進至近端帽**近側**的正常血管段 - 位置應該緊鄰CTO起始處
+4. **擴張氣球**      - 高壓擴張氣球(通常12-20 atm) - 目的是造成局部內膜剝離 - 可能需要多次擴張
+5. **進入內膜下空間**      - 使用polymer-jacketed導絲(如Fielder XT, Pilot 200) - 形成knuckle(導絲環) - 推進knuckle進入剛創造的內膜下空間
+6. **完成ADR**      - 使用CrossBoss或knuckle wire穿越閉塞段 - 到達landing zone後使用Stingray系統re-entry - 或使用其他re-entry技術
+
+
+#### 方法B：導絲直接進入法(Scratch-and-Go)
+
+
+1. 使用高穿刺力導絲(如Confianza Pro 12)
+2. 在近端帽近側刻意刺入內膜下空間
+3. 快速推進微導管確認位置
+4. ****注意****：此方法風險較高，應謹慎使用
+
+
+#### 方法C：Power Knuckle技術
+
+
+1. 執行BASE後，在微導管進入內膜下空間時
+2. 重新擴張氣球，將微導管「錨定」(anchor)
+3. 增加knuckle的推進力量
+4. 適用於內膜下空間進入困難時
+
+
+### Side-BASE技術
+
+
+importantbox
+****Side-BASE的應用****
+
+當近端帽處有側枝時，可使用Side-BASE:
+
+
+1. 將blocking balloon置入側枝
+2. 擴張氣球阻塞側枝
+3. 推進knuckle wire時，氣球會將導絲偏向主血管
+4. 避免導絲進入側枝
+5. 同時保護側枝血流
+
+
+此技術結合了Open Sesame和BASE的優點。
+importantbox
+
+
+### 技術要點與注意事項
+
+
+**Move the Cap/BASE成功的關鍵**
+
+
+- **氣球大小**：1:1或略大於血管，過小無法造成有效剝離
+- **位置準確**：氣球應位於近端帽近側，不要太遠
+- **高壓擴張**：通常需要12-20 atm才能造成內膜剝離
+- **確認位置**：knuckle進入後，必須確認在血管架構內
+- **Landing zone**：評估遠端是否有合適的re-entry位置
+
+
+### BASE與Open Sesame的比較
+
+
+| p{5cm}p{5cm}}   **特點** | **Open Sesame** | **BASE/Move the Cap** |
+| --- | --- | --- |
+| 側枝需求 | **必須**有側枝 | 不需要側枝 |
+| 目標 | 真腔穿刺(true lumen) | 內膜下空間(subintimal) |
+| 後續策略 | 標準導絲穿越 | ADR (剝離再進入) |
+| 適用情況 | 側枝在近端帽處 | 任何近端帽模糊情況 |
+| 技術複雜度 | 中等 | 較高(需熟悉ADR) |
+| 側枝保護 | 需額外注意 | 可結合Side-BASE |
+
+
+## 策略六：逆行技術
+
+
+### 逆行策略作為首選
+
+
+importantbox
+****Global CTO Algorithm建議****
+
+當近端帽模糊**無法解決**時，建議將**逆行策略**作為首選:
+
+
+- 避免盲目穿刺造成穿孔
+- 從遠端有更清楚的解剖結構
+- Reverse CART技術可有效連接順行與逆行系統
+
+
+importantbox
+
+
+### 逆行策略的選擇考量
+
+
+| p{9cm}}   **考量因素** | **說明** |  |
+| --- | --- | --- |
+| 側枝循環品質 | 需要有適合的interventional collaterals |  |
+| Septal vs Epicardial | Septal通道通常較安全 |  |
+| 遠端帽形態 | 遠端帽清晰且呈tapered較佳 |  |
+| 操作者經驗 | 逆行技術學習曲線較長 |  |
+| 併發症風險 | Donor vessel injury, collateral perforation |  |
+
+
+## 處理策略選擇流程
+
+
+> enumerate
+>     \item **第一步：改善造影**
+>     itemize
+>         \item 雙側注射
+>         \item 多角度投影
+>         \item 微導管選擇性注射
+>     itemize
+>     \item **第二步：評估是否有側枝在近端帽處**
+>     itemize
+>         \item 有側枝 $\rightarrow$ 考慮Open Sesame或IVUS引導
+>         \item 無側枝 $\rightarrow$ 考慮BASE/CCTA引導
+>     itemize
+>     \item **第三步：評估逆行選項**
+>     itemize
+>         \item 有良好的interventional collaterals $\rightarrow$ 考慮primary retrograde
+>         \item 無合適側枝循環 $\rightarrow$ 必須解決順行問題
+>     itemize
+>     \item **第四步：執行最佳策略**
+>     itemize
+>         \item 單一策略失敗時，快速轉換
+>         \item 保持彈性，隨時調整
+>     itemize
+> enumerate
+
+
+## 併發症與預防
+
+
+### 常見併發症
+
+
+| p{5cm}p{5cm}}   **併發症** | **原因** | **預防措施** |
+| --- | --- | --- |
+| 穿孔 | 盲目穿刺模糊近端帽 | 使用IVUS引導    BASE取代直接穿刺 |
+| 側枝丟失 | BASE造成側枝開口夾層 | 使用Side-BASE    保護性導絲 |
+| 夾層延伸 | 過度擴張或knuckle失控 | 謹慎控制擴張壓力    確認導絲位置 |
+| Re-entry失敗 | Landing zone不佳 | 術前評估遠端解剖    CCTA協助 |
+
+
+## 總結
+
+
+### 關鍵要點
+
+
+importantbox
+****記住這五個核心原則****
+
+
+1. **雙側注射是基本**：永遠先嘗試改善造影品質
+2. **IVUS是好幫手**：有合適側枝時，IVUS引導是最準確的方法
+3. **Open Sesame利用側枝**：側枝在近端帽處時，嘗試斑塊位移
+4. **Move the Cap繞過難關**：無法穿透時，進入內膜下空間執行ADR
+5. **逆行是重要備案**：順行策略失敗時，不要猶豫轉換至逆行
+
+
+importantbox
+
+
+### 給學員的建議
+
+
+**學習重點**
+
+
+1. **熟悉解剖**：充分理解各種CTO解剖變異
+2. **掌握基本功**：導絲操作、微導管使用、氣球技術
+3. **學習ADR**：Move the Cap需要熟練的ADR技術支持
+4. **觀摩經驗豐富的術者**：理解決策過程
+5. **從簡單開始**：不要一開始就挑戰最困難的病例
+
+
+## 參考文獻
+
+
+1. Katoh O, et al. Open Sesame Technique for chronic total occlusion. *Catheter Cardiovasc Interv*. 2010;75(7):1037-1040.
+2. Vo MN, Karmpaliotis D, Brilakis ES. "Move the cap" technique for ambiguous or impenetrable proximal cap of coronary total occlusion. *Catheter Cardiovasc Interv*. 2016;87(4):742-748.
+3. Karatasakis A, et al. Impact of Proximal Cap Ambiguity on Outcomes of Chronic Total Occlusion Percutaneous Coronary Intervention: Insights From a Multicenter US Registry. *J Invasive Cardiol*. 2016;28(10):391-396.
+4. Wu EB, et al. Global chronic total occlusion crossing algorithm: JACC state-of-the-art review. *J Am Coll Cardiol*. 2021;78(8):840-853.
+5. Brilakis ES. *Manual of Coronary Chronic Total Occlusion Interventions: A Step-by-Step Approach*. 3rd ed. Elsevier; 2023.
+6. Roy J, Hill J, Spratt JC. The "side-BASE technique": Combined side branch anchor balloon and balloon assisted sub-intimal entry to resolve ambiguous proximal cap chronic total occlusions. *Catheter Cardiovasc Interv*. 2018;92(1):E15-E19.
+7. Alexandrou M, et al. Balloon-assisted subintimal entry (BASE) in chronic total occlusion percutaneous coronary interventions. *Catheter Cardiovasc Interv*. 2023;102(5):1009-1019.
+
+
+\vfill
+\hrule
+
+*本講義整理自CTO介入治療相關文獻與教學資料*
+[0.3cm]
+編輯：謝慕揚, MD, PhD, FESC
+*僅供教學使用，請勿用於商業用途*

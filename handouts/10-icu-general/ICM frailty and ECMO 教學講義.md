@@ -1,0 +1,392 @@
+# ICM frailty and ECMO
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2018-01-01**
+
+---
+
+\maketitle
+
+
+> **研究目的：**探討衰弱症（frailty）對接受體外膜氧合（ECMO）患者預後的影響。
+> **重大發現：**在2,084位接受ECMO的患者中，衰弱症與短期或長期死亡率無顯著相關。校正後一年死亡率：非衰弱組41.9
+> **臨床意義：**此發現挑戰了「衰弱必然預測ECMO不良預後」的傳統觀念，可能反映了臨床上對ECMO適應症的嚴格篩選。
+> [Ling, R.R., Subramaniam, A., Pilcher, D. et al. Frailty and outcomes after extracorporeal membrane oxygenation: a binational registry-based cohort study. Crit Care (2025). https://doi.org/10.1186/s13054-025-05801-0](https://link.springer.com/article/10.1186/s13054-025-05801-0)
+
+
+\tableofcontents
+
+---
+
+
+## 研究背景
+
+
+### ECMO的臨床角色與挑戰
+
+
+體外膜氧合（Extracorporeal Membrane Oxygenation, ECMO）作為頑固性心肺衰竭的救援治療，近年來使用量持續增加，特別是在以下情況：
+
+
+- COVID-19大流行期間的重症呼吸衰竭
+- 心因性休克與心臟驟停
+- 作為心臟或肺臟移植的橋接治療
+
+
+然而，**患者篩選**仍是ECMO治療的重大挑戰。
+
+
+### 衰弱症的概念
+
+
+> **衰弱症（Frailty）**是一種多面向的症候群，特徵為：
+> itemize
+>     \item 身體儲備能力下降
+>     \item 生理調節功能減退
+>     \item 功能性儲備降低
+> itemize
+> **生物年齡 vs 實際年齡：**衰弱症被認為比實際年齡更能預測重症患者的預後，是估計「生物年齡」的一種方式。
+
+
+### 現有證據與爭議
+
+
+| p{10cm}} 衰弱症與ECMO的現有證據 |  |  |
+| --- | --- | --- |
+| **證據來源** | **發現與建議** |  |
+| **證據來源** | **發現與建議** |  |
+| 一般重症患者研究 | 衰弱症與ICU死亡率增加、住院時間延長、長期功能預後不良相關 |  |
+| ECMO專屬研究 | 僅有兩項單中心研究，結果相互矛盾 |  |
+| EURO-SHOCK試驗 | 將CFS $\geq$5列為ECMO排除標準 |  |
+| 其他RCTs | 將功能狀態不佳列為潛在排除標準 |  |
+| 區域性指引 | 部分指引將衰弱症列為ECMO的相對禁忌症或臨床考量因素 |  |
+
+
+### 研究目的
+
+
+本研究旨在利用澳紐加護醫學會成人患者資料庫（ANZICS-APD），探討：
+
+1. 衰弱症（Clinical Frailty Scale $\geq$5）是否與ECMO後死亡率相關
+2. 衰弱症對ECMO後恢復的影響
+3. 不同亞組中衰弱症的預後價值
+
+
+## 研究方法
+
+
+### 研究設計
+
+
+| p{10cm}} 研究設計概要 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **項目** | **內容** |  |
+| 研究類型 | 回顧性、跨國、登錄資料庫世代研究 |  |
+| 資料來源 | ANZICS Adult Patient Database（APD） |  |
+| 參與單位 | 澳洲與紐西蘭116個加護病房 |  |
+| 研究期間 | 澳洲：2018年1月1日至2024年6月30日    紐西蘭：2018年1月1日至2024年9月30日 |  |
+| 納入標準 | 年齡$\geq$16歲    有記錄衰弱狀態    首次接受ECMO治療 |  |
+| 排除標準 | 未接受ECMO    安寧照護或器官捐贈目的入院    衰弱狀態或ECMO指標未記錄    ICU再入院或第二次ECMO |  |
+| 倫理審查 | Alfred Hospital Ethics Committee（Reference 549/25） |  |
+
+
+### 衰弱症評估工具
+
+
+本研究使用修改版的**加拿大健康與老化研究臨床衰弱量表**（Clinical Frailty Scale, CFS）：
+
+
+| } Clinical Frailty Scale 分級 |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **分數** | **分類** | **描述** |  |  |
+| **分數** | **分類** | **描述** |  |  |
+| 1 | 非常健康 | Very fit |  |  |
+| 2 | 良好 | Well |  |  |
+| 3 | 管理良好 | Managing well |  |  |
+| 4 | 脆弱 | Vulnerable |  |  |
+| 5 | 輕度衰弱 | Mild frailty |  |  |
+| 6 | 中度衰弱 | Moderate frailty |  |  |
+| 7 | 重度衰弱 | Severe frailty |  |  |
+| 8 | 極重度衰弱 | Very severe frailty |  |  |
+
+
+本研究定義**CFS $\geq$5為衰弱**。CFS評估基於ICU入住前兩個月的功能狀態，由當地臨床醫師根據病歷回顧和病史評估。ANZICS-APD使用修改版8級量表（不含CFS 9末期疾病）。
+
+
+### 研究結果指標
+
+
+| p{10cm}} 研究結果指標 |  |  |
+| --- | --- | --- |
+| **類別** | **指標** |  |
+| **類別** | **指標** |  |
+| **主要結果** | 一年死亡率 |  |
+| **次要結果** | 出院目的地    ICU死亡率    住院死亡率    ICU住院天數    醫院住院天數    ICU併發症（譫妄、壓力性損傷） |  |
+
+
+### 統計分析方法
+
+
+- **主要分析：**混合效應邏輯迴歸，使用有向非循環圖（DAG）指導共變數選擇
+- **效應估計：**G-computation計算衰弱對一年死亡率的邊際效應
+- **共變數調整：**性別、年齡、慢性共病症（呼吸、心血管、肝臟、腎臟疾病、轉移性癌症、免疫抑制、糖尿病）、SOFA分數
+- **敏感度分析：**不同衰弱定義、不同結果指標、多重填補缺失值、地標分析
+- **亞組分析：**年齡（<65歲 vs $\geq$65歲）、主要診斷類別
+
+
+## 研究結果
+
+
+### 患者流程與基本特徵
+
+
+> 研究期間內ICU入住：305,820人  
+> $\downarrow$ 排除未接受ECMO（302,839人）  
+> 接受ECMO：2,981人  
+> $\downarrow$ 排除再入院/第二次ECMO（168人）、<16歲（29人）、安寧/器官捐贈（15人）  
+> 符合納入標準：2,813人  
+> $\downarrow$ 排除存活時間不準確（107人）、衰弱狀態不明（622人）  
+> **最終分析：2,084人**
+
+
+### 基線特徵比較
+
+
+| ccc} 衰弱與非衰弱患者基線特徵比較 |  |  |
+| --- | --- | --- |
+| **特徵** | **非衰弱組** | **衰弱組** |
+|  | **(n=1,830)** | **(n=254)** |
+| **特徵** | **非衰弱組** | **衰弱組** |
+|  | **(n=1,830)** | **(n=254)** |
+| ASD: 絕對標準化差異，>0.1表示組間有顯著差異（粗體標示）  **人口學特徵** |  |  |
+| 年齡（歲） | 51.0 (38.6, 60.6) | 55.1 (42.2, 64.9) |
+| 男性 | 1,198 (65.5 | 140 (55.1 |
+| **入院來源** |  |  |
+| 來自家中 | 887 (49.0 | 159 (63.1 |
+| 來自手術室 | 410 (22.4 | 140 (55.1 |
+| **慢性共病症** |  |  |
+| 慢性心血管疾病（NYHA III/IV） | 140 (7.7 | 83 (32.7 |
+| 慢性呼吸疾病 | 137 (7.5 | 87 (34.3 |
+| 慢性腎臟病（透析依賴） | 17 (0.9 | 15 (5.9 |
+| 慢性肝病（肝硬化） | 13 (0.7 | 10 (3.9 |
+| 糖尿病 | 306 (16.7 | 69 (27.2 |
+| 免疫抑制疾病 | 101 (5.4 | 38 (14.7 |
+| **急性疾病嚴重度** |  |  |
+| SOFA分數 | 8 (5, 11) | 8 (6, 11) |
+| APACHE II分數 | 23 (19, 30) | 23 (19, 29) |
+| APACHE III/IV分數 | 75 (55, 101) | 69 (56, 88) |
+| ANZROD預測死亡率（ | 31.0 (28.1) | 26.1 (25.4) |
+
+
+### 主要診斷分類
+
+
+| 按主要診斷分類的患者分布 |  |  |
+| --- | --- | --- |
+| **診斷類別** | **非衰弱組 (n=1,830)** | **衰弱組 (n=254)** |
+| **診斷類別** | **非衰弱組** | **衰弱組** |
+| 心臟驟停 | 306 (16.7 | 36 (14.2 |
+| 心臟外科 | 293 (16.0 | 80 (31.5 |
+| 其他心臟內科 | 445 (24.3 | 32 (12.6 |
+| 呼吸內科 | 466 (25.3 | 33 (13.0 |
+| 實體器官移植（心肺） | 65 (3.6 | 57 (22.4 |
+| 其他/原因不明 | 255 (13.9 | 16 (6.3 |
+
+
+### 主要結果：一年死亡率
+
+
+> **校正後一年死亡率：**
+> itemize
+>     \item 非衰弱組：41.9
+>     \item 衰弱組：42.1
+>     \item **校正風險差異：0.27
+> itemize
+> **結論：衰弱症與ECMO後一年死亡率無顯著相關**
+
+
+### 敏感度分析結果
+
+
+| p{8cm}} 敏感度分析結果摘要 |  |  |
+| --- | --- | --- |
+| **分析方法** | **結果（風險差異或勝算比）** |  |
+| **分析方法** | **結果** |  |
+| **主要分析** |  |  |
+| CFS 5-8 vs CFS 1-4 | 0.27 |  |
+| **衰弱定義變異** |  |  |
+| 三分類變項（CFS 1-3為參考） |  |  |
+| 輕度衰弱（CFS 4-5） | 0.79 |  |
+| 中重度衰弱（CFS 6-8） | -2.40 |  |
+| 連續變項（每增加1分） | -0.04 |  |
+| **結果變異** |  |  |
+| 以住院死亡率取代一年死亡率 | -0.06 |  |
+| **其他敏感度分析** |  |  |
+| 多重填補衰弱缺失值 | -0.02 |  |
+| Weibull混合治癒模型 | OR: 0.89 (0.68-1.16) |  |
+| **地標分析** |  |  |
+| 48小時地標分析 | 0.29 |  |
+| ICU出院地標分析 | 0.01 |  |
+
+
+### 亞組分析結果
+
+
+| p{9cm}} 亞組分析結果 |  |  |
+| --- | --- | --- |
+| **亞組** | **風險差異（95 |  |
+| **亞組** | **風險差異（95 |  |
+| **年齡分層** |  |  |
+| <65歲 | 0.94 |  |
+| $\geq$65歲 | -3.68 |  |
+| **主要診斷類別** |  |  |
+| 心臟內科 | -7.87 |  |
+| 心臟外科 | 3.70 |  |
+| 心臟驟停 | -1.66 |  |
+| 呼吸 | 10.02 |  |
+| 移植 | 2.19 |  |
+| 其他 | -0.58 |  |
+
+
+### 次要結果
+
+
+| ccc} 次要結果比較 |  |  |
+| --- | --- | --- |
+| **結果指標** | **非衰弱組** | **衰弱組** |
+|  | **(n=1,830)** | **(n=254)** |
+| **結果指標** | **非衰弱組** | **衰弱組** |
+| **死亡率** |  |  |
+| 一年死亡率 | 760 (41.5 | 113 (44.5 |
+| ICU死亡率 | 591 (32.3 | 89 (35.0 |
+| 住院死亡率 | 616 (33.7 | 97 (38.2 |
+| **ICU併發症** |  |  |
+| 譫妄 | 426 (23.3 | 71 (28.0 |
+| 壓力性損傷 | 393 (21.5 | 58 (22.8 |
+| **住院天數** |  |  |
+| ICU天數 | 12.8 (4.9, 24.4) | 12.7 (6.0, 27.9) |
+| 醫院天數 | 20.0 (7.2, 38.3) | 26.4 (11.4, 51.6) |
+| **出院目的地** |  |  |
+| 返家 | 510 (27.9 | 101 (39.8 |
+| 轉至其他急性照護醫院 | 530 (28.0 | 30 (11.8 |
+| 復健機構 | 163 (8.9 | 26 (10.2 |
+| 長期照護機構 | 6 (0.3 | 0 (0 |
+| 精神科機構 | 3 (0.2 | 0 (0 |
+
+
+## 討論
+
+
+### 主要發現的意義
+
+
+本研究的核心發現——衰弱症與ECMO後死亡率無顯著相關——具有以下重要意義：
+
+
+1. **挑戰傳統觀念：**與一般重症患者研究結果不同，衰弱症在ECMO患者中並未如預期般與不良預後相關
+2. **證據強度：**本研究基於超過2,000例ECMO患者，涵蓋所有醫院類型與地區，結果經多重敏感度與亞組分析驗證
+3. **追蹤期長：**主要結果為一年死亡率，是ECMO相關研究中少見的長期追蹤
+
+
+### 可能的解釋
+
+
+> 研究者提出的假說：衰弱症可能在ECMO**啟動決策**階段發揮作用，而非在ECMO**啟動後**的預後預測。
+> 支持證據：
+> itemize
+>     \item 僅12.2
+>     \item 僅1.6
+>     \item 衰弱組的ANZROD預測死亡率反而**較低**
+>     \item 超過60
+> itemize
+
+
+| p{9cm}} 研究發現的可能解釋 |  |  |
+| --- | --- | --- |
+| **假說** | **說明** |  |
+| **假說** | **說明** |  |
+| 篩選效應 | 衰弱症在ECMO適應症評估階段已發揮篩選作用，導致接受ECMO的衰弱患者為「預選」族群 |  |
+| 適當的患者選擇 | 澳紐地區對ECMO適應症有嚴格標準，使衰弱患者的預後與非衰弱患者相當 |  |
+| 疾病嚴重度差異 | 接受ECMO的衰弱患者可能疾病嚴重度較輕（ANZROD較低） |  |
+| 衰弱程度差異 | 接受ECMO的衰弱患者可能衰弱程度較一般ICU患者輕 |  |
+
+
+### 臨床意義
+
+
+**重要提醒：**
+
+1. 本研究**不應**被解讀為「衰弱症對ECMO預後無影響」
+2. 結果可能反映現行臨床實務中對ECMO適應症的嚴格篩選
+3. 衰弱症僅是ECMO適應症評估的**一個面向**
+4. ECMO適應症應整體考量患者因素、疾病因素、機構因素
+
+
+## 研究限制
+
+
+| p{11cm}} 研究限制 |  |  |
+| --- | --- | --- |
+| **限制類型** | **說明** |  |
+| **限制類型** | **說明** |  |
+| ECMO相關資料不完整 | ECMO指征、模式、啟動時間、設定、持續時間等資料記錄不完整或缺失 |  |
+| 不朽時間偏誤 | ECMO啟動時間不明確，雖已使用地標分析緩解 |  |
+| 缺失共變數 | 功能自主性、營養狀態等重要共變數未完整記錄 |  |
+| 殘餘混淆 | 觀察性研究設計，可能存在未測量的混淆因子 |  |
+| 缺乏患者報告結果 | ANZICS-APD目前不記錄患者報告結果指標與功能預後 |  |
+| 缺乏對照組 | 無法比較「被評估但未接受ECMO」的衰弱患者 |  |
+| CFS驗證問題 | CFS尚未在$\leq$65歲患者中正式驗證，但已在年輕ICU患者中顯示預後相關性 |  |
+| 外推性 | 僅限澳紐地區ICU，可能無法推廣至其他地區 |  |
+
+
+## 結論與臨床建議
+
+
+### 研究結論
+
+
+1. 在接受ECMO的患者中，衰弱症與短期或長期死亡率無顯著相關
+2. 此發現可能反映臨床上對ECMO適應症的嚴格篩選實務
+3. 需要更多研究探討衰弱症如何影響ECMO取得的公平性
+
+
+### 未來研究方向
+
+
+- 前瞻性國際研究驗證本研究發現
+- 探討衰弱症如何影響ECMO取得決策
+- 建立標準化的ECMO適應症評估流程，確保公平性
+- 納入患者報告結果與功能預後的長期追蹤研究
+
+
+## 參考文獻
+
+
+1. Ling RR, Subramaniam A, Pilcher D, et al. Frailty and outcomes after extracorporeal membrane oxygenation: a binational registry-based cohort study. [*Crit Care](https://doi.org/10.1186/s13054-025-05801-0). 2025.*
+2. Rockwood K, Song X, MacKnight C, et al. A global clinical measure of fitness and frailty in elderly people. [*CMAJ](https://doi.org/10.1503/cmaj.050051). 2005;173(5):489-495.*
+3. Thiele H, Zeymer U, Akin I, et al. Extracorporeal Life Support in Infarct-Related Cardiogenic Shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2307227). 2023;389(14):1286-1297.*
+4. Combes A, Hajage D, Capellier G, et al. Extracorporeal Membrane Oxygenation for Severe Acute Respiratory Distress Syndrome. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1800385). 2018;378(21):1965-1975.*
+5. Banning AS, Sabaté M, Orban M, et al. Venoarterial extracorporeal membrane oxygenation or standard care in patients with cardiogenic shock complicating acute myocardial infarction: the multicentre, randomised EURO SHOCK trial. [*EuroIntervention](https://doi.org/10.4244/EIJ-D-23-00204). 2023;19(6):482-492.*
+6. Suverein MM, Delnoij TSR, Lorusso R, et al. Early Extracorporeal CPR for Refractory Out-of-Hospital Cardiac Arrest. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2204511). 2023;388(4):299-309.*
+7. Fernando SM, MacLaren G, Barbaro RP, et al. Age and associated outcomes among patients receiving venoarterial extracorporeal membrane oxygenation—analysis of the Extracorporeal Life Support Organization registry. [*Intensive Care Med](https://doi.org/10.1007/s00134-023-07227-y). 2023;49(12):1456-1466.*
+8. Clegg A, Young J, Iliffe S, et al. Frailty in elderly people. [*Lancet](https://doi.org/10.1016/S0140-6736(12)62167-9). 2013;381(9868):752-762.*
+9. Alamgeer M, Ling RR, Ueno R, et al. Frailty and long-term survival among patients in Australian intensive care units with metastatic cancer (FRAIL-CANCER study): a retrospective registry-based cohort study. [*Lancet Healthy Longev](https://doi.org/10.1016/S2666-7568(23)00209-X). 2023;4(12):e675-e684.*
+10. Ramanathan K, Antognini D, Combes A, et al. Planning and provision of ECMO services for severe ARDS during the COVID-19 pandemic and other outbreaks of emerging infectious diseases. [*Lancet Respir Med](https://doi.org/10.1016/S2213-2600(20)30121-1). 2020;8(5):518-526.*
+
+
+## 名詞解釋
+
+
+| p{10cm}}  **名詞** | **解釋** |  |
+| --- | --- | --- |
+| **名詞** | **解釋** |  |
+| ECMO | Extracorporeal Membrane Oxygenation，體外膜氧合，為重症心肺衰竭的體外生命支持治療 |  |
+| CFS | Clinical Frailty Scale，臨床衰弱量表，用於評估患者的整體健康與功能狀態 |  |
+| ANZICS-APD | Australia and New Zealand Intensive Care Society Adult Patient Database，澳紐加護醫學會成人患者資料庫 |  |
+| SOFA | Sequential Organ Failure Assessment，序列器官衰竭評估分數 |  |
+| APACHE | Acute Physiology and Chronic Health Evaluation，急性生理與慢性健康評估 |  |
+| ANZROD | Australian and New Zealand Risk of Death，澳紐死亡風險預測模型 |  |
+| G-computation | 一種因果推論統計方法，透過預測不同假設情境下的平均人群結果來估計因果效應 |  |
+| ASD | Absolute Standardised Difference，絕對標準化差異，用於比較組間變數平衡程度 |  |
+| 地標分析 | Landmark analysis，排除在特定時間點前發生結果的患者，以避免不朽時間偏誤 |  |

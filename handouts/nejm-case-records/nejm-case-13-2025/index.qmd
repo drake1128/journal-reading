@@ -1,0 +1,266 @@
+---
+title: "https://www.nejm.org/doi/full/10.1056/NEJMcpc2412518"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**[Case 13-2025: A 70-Year-Old Man with Weight Loss, Weakness, and Anorexia](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412518)**
+[0.5cm]
+{**病例 13-2025：體重減輕與神經系統症狀**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2412518](https://doi.org/10.1056/NEJMcpc2412518)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 13-2025: A 70-Year-Old Man with Weight Loss, Weakness, and Anorexia》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412518)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名70歲男性因6週食慾不振 (anorexia)、虛弱 (weakness) 及體重減輕 (weight loss)（13.6 kg）至急診就診。病史包括抑鬱症（曾使用bupropion）、毛細胞白血病（緩解中）及胃繞道手術。初始症狀加重後停用bupropion，但症狀持續惡化，伴隨頭痛 (headache)、味覺異常 (dysgeusia)、皮膚變薄 (skin thinning)、情緒低落 (worsening mood) 及無快感症 (anhedonia)。
+
+
+### 初步檢查
+
+首次急診檢查（發病後5週）顯示：
+
+- CT腹部及骨盆：左側腎上腺結節（1.9 cm，>10 Hounsfield單位，腺瘤不確定）。
+- CT頭頸部血管造影：無異常。
+
+
+患者接受metoclopramide、acetaminophen及輸液治療後出院。
+
+
+### 住院病程
+
+患者於1週後因症狀加重再次就診，住院後出現意識混亂 (confusion) 及持續無反應 (unresponsiveness)，需氣管插管並轉入加護病房。進一步檢查顯示：
+
+- 實驗室檢查：低鉀血症 (hypokalemia)（3.1 mmol/L）、高血糖 (hyperglycemia)（225 mg/dL）、代謝性鹼中毒 (metabolic alkalosis)（pH 7.48，PCO2 22 mm Hg）、血小板減少 (thrombocytopenia)（91,000/μL）、C反應蛋白升高 (elevated C-reactive protein)（7.7 mg/L）。
+- 腦部CT：右側尾狀核、內囊前肢及左側丘腦小灶性低密度區，疑似腔隙性梗塞 (lacunar infarcts) 或中樞神經系統感染。
+- 腦脊液（CSF）檢查：開壓 >58 cm H2O，核細胞67/μL（48
+
+
+CSF低葡萄糖 (hypoglycorrhachia)、高開壓及中性粒細胞為主之細胞增多 (pleocytosis) 提示嚴重中樞神經系統感染，需考慮伺機性感染病原 (opportunistic infection pathogen)。
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+採用「拼圖啟發法」（jigsaw heuristics）進行診斷推理，分為四階段：
+
+- **拆箱（Unboxing）**：列出所有臨床問題，包括食慾不振 (anorexia)、體重減輕 (weight loss)、頭痛 (headache)、味覺異常 (dysgeusia)、低鉀血症 (hypokalemia)、高血糖 (hyperglycemia)、腎上腺結節及腦病變 (encephalopathy)。
+- **邊角（Corners and Edges）**：識別兩個時間軸：亞急性至慢性症候群（6週，包含皮膚變薄 (skin thinning)、低鉀血症 (hypokalemia)）及急性至亞急性腦病變 (encephalopathy)（住院後）。
+- **地標（Landmarks）**：聚焦關鍵症候群，如庫欣症候群（Cushing’s syndrome）及腦膜腦炎 (meningoencephalitis)。
+- **橋接（Bridging）**：整合症候群，尋找統一診斷。
+
+
+### 庫欣症候群
+
+患者具有多項庫欣症候群特徵：
+
+- 症狀：疲倦 (fatigue)、高血壓 (hypertension)、味覺異常 (dysgeusia)、皮膚變薄 (skin thinning)、情緒低落 (worsening mood)。
+- 實驗室異常：低鉀血症 (hypokalemia)、高血糖 (hyperglycemia)。
+- 影像發現：腎上腺結節（可能為功能性腺瘤）。
+
+
+庫欣症候群由內源性或外源性皮質醇過多引起，導致組織分解代謝、胰島素抗性及神經精神症狀。診斷需確認皮質醇過高（24小時尿液游離皮質醇）及定位病因（促腎上腺皮質激素測定、dexamethasone抑制試驗）。
+
+
+患者無典型庫欣症候群特徵（如體重增加 (weight gain)、中心性肥胖 (central adiposity)），可能因併發症掩蓋或病因特殊。
+
+
+### 腦膜腦炎
+
+CSF檢查顯示低葡萄糖 (hypoglycorrhachia)、高開壓及輕度細胞增多 (pleocytosis)，提示腦膜腦炎 (meningoencephalitis)。鑑別診斷包括：
+
+- **細菌性腦膜炎**：不符合亞急性病程及CSF細胞分佈。
+- **病毒性腦膜炎**：無急性發病或皮膚病變，排除單純皰疹病毒及帶狀皰疹病毒。
+- **結核性腦膜炎**：無流行病學風險因素。
+- **真菌性腦膜炎**：庫欣症候群引起的免疫抑制增加伺機性真菌感染風險，隱球菌（Cryptococcus neoformans）為首要考慮。
+
+
+importantbox
+**重要提醒：** 庫欣症候群引起的免疫抑制顯著增加隱球菌腦膜炎風險，其CSF特徵（低葡萄糖 (hypoglycorrhachia)、高開壓）與本病例高度一致。
+importantbox
+
+
+### 統一診斷
+
+庫欣症候群導致的免疫抑制促進隱球菌腦膜炎 (cryptococcal meningitis)，解釋腦病變 (encephalopathy)、CSF異常及多灶性腔隙性梗塞 (lacunar infarcts)。體重減輕 (weight loss) 可能由潛在惡性腫瘤（如腎上腺皮質癌）或慢性腦膜炎引起。最終診斷為隱球菌腦膜炎合併庫欣症候群。
+
+
+## 病理學討論
+
+
+### 微生物學檢查
+
+
+- 血液培養（住院第5天）：顯示灰白色黏液狀菌落，印度墨水染色示包膜出芽酵母，符合隱球菌。
+- MALDI-TOF質譜：確認為Cryptococcus neoformans。
+- CSF培養：亦生長C. neoformans。
+- 血液及CSF隱球菌抗原：滴度 >1:4096（正常為陰性）。
+
+
+### 病理診斷
+
+血液及腦脊液Cryptococcus neoformans感染，確認隱球菌腦膜炎 (cryptococcal meningitis)。
+
+
+## 治療討論
+
+
+### 抗真菌治療
+
+
+- **誘導治療**：Liposomal amphotericin B 聯合flucytosine，持續至少2週，促進CSF快速滅菌。
+- **鞏固治療**：Fluconazole 8週。
+- **維持治療**：Fluconazole 1年。
+
+
+患者因無法可靠口服，初始未使用flucytosine。
+
+
+### 顱內壓管理
+
+隱球菌腦膜炎常伴高顱內壓，需通過連續腰椎穿刺或神經外科介入（如腦室引流）控制。
+
+
+高顱內壓是隱球菌腦膜炎的主要併發症，積極管理對預後至關重要。
+
+
+## 住院病程
+
+
+### 病情進展
+
+患者接受liposomal amphotericin B治療後出現呼吸暫停 (apneic episodes) 及循環衰竭 (circulatory collapse)。腦部CT顯示：
+
+- 瀰漫性腦水腫 (cerebral edema)，腦室、腦溝及基底池幾乎完全消失。
+- 經幕疝 (transtentorial herniation)，提示嚴重缺氧缺血損傷 (hypoxic-ischemic injury)。
+
+
+### 結局
+
+經與家屬討論，患者意願不支持繼續侵入性治療，拔管後安詳逝世。死後報告24小時尿液游離皮質醇400 μg（參考範圍3.5–45），確認庫欣症候群。
+
+
+## 最終診斷
+
+Cryptococcus neoformans腦膜炎 (cryptococcal meningitis) 合併庫欣症候群 (Cushing’s syndrome)。
+
+
+## 考題
+
+
+以下為針對本病例的十道選擇題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者的主要臨床表現不包括：     enumerate[label=\alph*)]
+2. 食慾不振 (anorexia)
+3. 體重增加 (weight gain)
+4. 虛弱 (weakness)
+5. 頭痛 (headache)
+
+
+    \item 患者CSF檢查的關鍵異常是：
+    
+1. 高葡萄糖
+2. 低葡萄糖 (hypoglycorrhachia)
+3. 低蛋白
+4. 無細胞增多
+
+
+    \item 以下哪項實驗室異常最支持庫欣症候群診斷？
+    
+1. 高鈉血症
+2. 低鉀血症 (hypokalemia)
+3. 低血糖
+4. 高白細胞計數
+
+
+    \item 隱球菌腦膜炎的典型CSF特徵包括：
+    
+1. 高葡萄糖、低開壓
+2. 低葡萄糖 (hypoglycorrhachia)、高開壓
+3. 高蛋白、無細胞增多
+4. 正常葡萄糖、低蛋白
+
+
+    \item 患者腦部CT顯示多灶性低密度區，最可能的病因是：
+    
+1. 大面積腦梗塞
+2. 腔隙性梗塞 (lacunar infarcts)
+3. 腦出血
+4. 腦腫瘤
+
+
+    \item 隱球菌腦膜炎的主要危險因素是：
+    
+1. 高血壓 (hypertension)
+2. 免疫抑制 (immunosuppression)
+3. 糖尿病
+4. 高膽固醇
+
+
+    \item 隱球菌腦膜炎誘導治療的首選藥物組合是：
+    
+1. Fluconazole單獨使用
+2. Liposomal amphotericin B 聯合flucytosine
+3. Voriconazole 聯合fluconazole
+4. Liposomal amphotericin B單獨使用
+
+
+    \item 患者高顱內壓的管理措施不包括：
+    
+1. 連續腰椎穿刺
+2. 腦室引流
+3. 高劑量抗生素
+4. 腦脊液培養
+
+
+    \item 患者體重減輕 (weight loss) 的可能解釋是：
+    
+1. 典型庫欣症候群
+2. 腎上腺皮質癌 (adrenocortical carcinoma)
+3. 急性細菌感染
+4. 甲狀腺功能亢進 (hyperthyroidism)
+
+
+    \item 本病例最終診斷是：
+    
+1. 結核性腦膜炎合併糖尿病
+2. 隱球菌腦膜炎 (cryptococcal meningitis) 合併庫欣症候群 (Cushing’s syndrome)
+3. 細菌性腦膜炎合併腎上腺腺瘤
+4. 病毒性腦膜炎合併高血壓 (hypertension)
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：b) 體重增加 (weight gain)**      **詳解：** 患者表現為食慾不振 (anorexia)、虛弱 (weakness)、頭痛 (headache) 及體重減輕 (weight loss)（13.6 kg），無體重增加 (weight gain)。體重增加是典型庫欣症候群特徵，但本病例因併發症（如腦膜炎或惡性腫瘤）呈現非典型表現。
+2. **正確答案：b) 低葡萄糖 (hypoglycorrhachia)**      **詳解：** 患者CSF檢查顯示低葡萄糖 (hypoglycorrhachia)（2 mg/dL）、高開壓（>58 cm H2O）及輕度細胞增多 (pleocytosis)，符合隱球菌腦膜炎特徵。選項a、c、d與CSF結果不符。
+3. **正確答案：b) 低鉀血症 (hypokalemia)**      **詳解：** 低鉀血症 (hypokalemia)（3.1 mmol/L）是庫欣症候群的典型實驗室異常，因皮質醇過多促進鉀排泄。高血糖 (hyperglycemia) 亦支持診斷，但低鉀血症更具特異性。選項a、c、d不典型。
+4. **正確答案：b) 低葡萄糖 (hypoglycorrhachia)、高開壓**      **詳解：** 隱球菌腦膜炎的CSF特徵包括低葡萄糖 (hypoglycorrhachia)、高開壓、輕度細胞增多 (pleocytosis) 及蛋白升高，與本病例一致。其他選項不符合典型表現。
+5. **正確答案：b) 腔隙性梗塞 (lacunar infarcts)**      **詳解：** 腦部CT顯示右側尾狀核、內囊前肢及左側丘腦小灶性低密度區，符合腔隙性梗塞 (lacunar infarcts)，可能是隱球菌引起的動脈炎所致。選項a、c、d不符合影像表現。
+6. **正確答案：b) 免疫抑制 (immunosuppression)**      **詳解：** 免疫抑制 (immunosuppression)（如庫欣症候群、HIV感染）是隱球菌腦膜炎的主要危險因素，因其損害先天及適應性免疫功能。其他選項非主要風險。
+7. **正確答案：b) Liposomal amphotericin B 聯合flucytosine**      **詳解：** 隱球菌腦膜炎誘導治療首選liposomal amphotericin B 聯合flucytosine，促進CSF快速滅菌。其他選項療效較差或不適用。
+8. **正確答案：c) 高劑量抗生素**      **詳解：** 高顱內壓管理包括連續腰椎穿刺及腦室引流，CSF培養用於診斷而非治療。高劑量抗生素適用於細菌感染，與隱球菌腦膜炎無關。
+9. **正確答案：b) 腎上腺皮質癌 (adrenocortical carcinoma)**      **詳解：** 患者體重減輕 (weight loss) 可能由腎上腺皮質癌 (adrenocortical carcinoma) 引起，因其可導致庫欣症候群及惡病質。典型庫欣症候群通常伴體重增加 (weight gain)，急性細菌感染或甲亢 (hyperthyroidism) 不符合病程。
+10. **正確答案：b) 隱球菌腦膜炎 (cryptococcal meningitis) 合併庫欣症候群 (Cushing’s syndrome)**      **詳解：** 最終診斷為隱球菌腦膜炎 (cryptococcal meningitis)（由血液及CSF培養確認）合併庫欣症候群 (Cushing’s syndrome)（尿液游離皮質醇升高）。其他選項與臨床、實驗室及病理結果不符。

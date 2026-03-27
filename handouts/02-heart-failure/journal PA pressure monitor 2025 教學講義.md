@@ -1,0 +1,535 @@
+# journal PA pressure monitor 2025
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-12-05**
+
+---
+
+\maketitle
+
+
+> **重大進展：**Cordella 肺動脈壓力感測器系統於2024年6月獲得美國FDA核准，成為繼CardioMEMS之後第二個獲准用於心衰竭遠端血行動力學監測的植入式裝置。該系統結合植入式肺動脈壓力感測器與綜合性心衰竭管理平台，提供坐姿肺動脈壓力測量及多項生命徵象監測。
+> **臨床意義：**PROACTIVE-HF試驗12個月結果顯示，使用Cordella管理的456位患者，心衰住院與全因死亡率較預設績效目標降低49
+
+
+\tableofcontents
+
+---
+
+
+## 前言
+
+2025-12-05, 我們在心衰疾病認證評鑑後看到了一則[Instagram貼文](https://www.instagram.com/p/DR2GxmbERcC/?img_index=4&igsh=cmF3bDZhdnk0a200)。內容是關於Cordella. 2018年在EuroPCR有看到關於pulmonary artery pressure monitor的資料，但是時隔多年，才想到已經很久沒有再追蹤相關題目，所以有了這篇journal reading講義。請先參考[YouTube影片](https://www.youtube.com/watch?v=bPoEp5Etmdw)，再了解這個題目。講義有附上所有文獻的連結，歡迎傳閱。
+
+
+## 研究背景與問題
+
+
+### 心衰竭住院的臨床負擔
+
+
+心衰竭是全球重大公共衛生問題，具有以下特點：
+
+
+- **高住院率**：NYHA Class III患者佔所有心衰竭住院的近半數
+- **反覆失代償**：慢性心衰竭患者常經歷反覆失代償和住院循環
+- **高醫療成本**：心衰竭住院是醫療系統最大負擔之一
+- **預後不良**：每次住院都與死亡風險增加相關
+
+
+### 肺動脈壓力導向心衰竭管理的理論基礎
+
+
+> **病理生理學基礎：**
+> enumerate
+>     \item 失代償性心衰竭發生前數週，肺動脈壓力即開始升高
+>     \item 肺動脈壓力升高是充血的早期指標，早於症狀出現
+>     \item 透過監測肺動脈壓力，可在臨床失代償前進行藥物調整
+>     \item 主動管理策略可減少住院並改善預後
+> enumerate
+> **CHAMPION試驗的里程碑意義：**
+> 2011年Abraham等人發表的CHAMPION試驗證實，使用CardioMEMS無線肺動脈壓力監測系統可使心衰竭住院率降低30
+
+
+### Cordella系統的獨特設計
+
+
+Cordella系統由Endotronix公司開發，與現有CardioMEMS系統相比具有以下特點：
+
+
+| p{5cm}p{5cm}} Cordella系統與CardioMEMS比較 |  |  |
+| --- | --- | --- |
+| **特徵** | **Cordella系統** | **CardioMEMS** |
+| 壓力測量姿勢 | 坐姿或臥姿均可 | 主要臥姿 |
+| 讀取方式 | 手持式讀取器 | 專用枕頭式讀取器 |
+| 額外監測項目 | 血壓、心率、血氧、體重、症狀問卷 | 僅肺動脈壓力 |
+| 患者介面 | 數位健康應用程式，可查看趨勢 | 無患者端資料檢視 |
+| 感測器植入位置 | 右肺動脈 | 左下葉肺動脈 |
+| FDA核准時間 | 2024年6月 | 2014年5月 |
+
+
+## Cordella臨床試驗總覽
+
+
+### 臨床試驗發展時程
+
+
+| p{3cm}p{4cm}p{4cm}} Cordella臨床試驗時程表 |  |  |
+| --- | --- | --- |
+| **試驗名稱** | **時間** | **設計** |
+| SIRONA FIH | 2019-2020 | 首次人體試驗，n=15 |
+| SIRONA 2 | 2019-2021 | CE Mark試驗，n=70 |
+| SIRONA 2 12個月 | 2024發表 | 長期追蹤 |
+| PROACTIVE-HF | 2019-2024 | 美國IDE試驗，n=456 |
+| PROACTIVE-HF 2 | 進行中 | RCT，Class II-III |
+
+
+## SIRONA系列試驗
+
+
+### SIRONA首次人體試驗（2020）
+
+
+> **標題：**Digital health care solution for proactive heart failure management with the Cordella Heart Failure System: results of the SIRONA first-in-human study
+> **作者：**Mullens W, Sharif F, Dupont M, Rothman AMK, Wijns W
+> **期刊：**European Journal of Heart Failure (2020)
+> **DOI：**[10.1002/ejhf.1870](https://doi.org/10.1002/ejhf.1870)
+
+
+#### 研究設計
+
+
+- **研究類型：**多中心、開放標籤、首次人體可行性研究
+- **研究中心：**比利時Ziekenhuis Oost-Limburg及愛爾蘭National University of Ireland Galway
+- **納入人數：**15位NYHA Class III心衰竭患者
+- **追蹤期間：**90天
+
+
+#### 主要結果
+
+
+| p{9cm}} SIRONA FIH試驗主要結果 |  |  |
+| --- | --- | --- |
+| **終點** | **結果** |  |
+| 感測器植入成功率 | 100 |  |
+| 裝置/系統相關併發症 | 0 |  |
+| 壓力測量準確性 | Cordella 22.5 ± 11.8 mmHg vs. Swan-Ganz 25.2 ± 8.5 mmHg |  |
+| （平均PAP） | 差異2.7 mmHg |  |
+| 患者依從性 | 99 |  |
+
+
+### SIRONA 2試驗——主要終點結果（2022）
+
+
+> **標題：**Safety and efficacy of a wireless pulmonary artery pressure sensor: primary endpoint results of the SIRONA 2 clinical trial
+> **作者：**Sharif F, Rosenkranz S, Bartunek J, Kempf T, Assmus B, Mahon NG, Mullens W
+> **期刊：**ESC Heart Failure (2022)
+> **DOI：**[10.1002/ehf2.14006](https://doi.org/10.1002/ehf2.14006)
+> **試驗註冊：**ClinicalTrials.gov NCT04012944
+
+
+#### 研究設計
+
+
+- **研究類型：**前瞻性、多中心、開放標籤、單臂試驗（CE Mark試驗）
+- **研究期間：**2019年6月至2021年7月
+- **研究中心：**7個歐洲中心（愛爾蘭、比利時、德國）
+- **納入人數：**81位登記，70位成功植入
+
+
+#### 納入與排除條件
+
+
+| p{11cm}}  **項目** | **標準** |  |
+| --- | --- | --- |
+| **納入條件** | minipage[t]{11cm} • 年齡≥18歲 |  |
+| • NYHA Class III心衰竭診斷≥6個月 |  |  |
+| • 穩定治療≥1個月 |  |  |
+| • 過去12個月內有心衰住院和/或NT-proBNP/BNP升高 |  |  |
+| • 無論射血分數（HFrEF或HFpEF） |  |  |
+| **排除條件** | minipage[t]{11cm} • 復發性肺栓塞（5年內≥2次） |  |
+| • 近期深靜脈血栓（<3個月） |  |  |
+| • 3個月內重大心血管事件 |  |  |
+| • 顯著先天性心臟病未矯正 |  |  |
+| • 機械性右心瓣膜 |  |  |
+| • 無法接受雙抗血小板治療1個月 |  |  |
+
+
+#### 基線特徵
+
+
+| SIRONA 2基線特徵（n=70） |  |
+| --- | --- |
+| **特徵** | **數值** |
+| 年齡（歲） | 71.0 ± 10.6 |
+| 男性 | 50 (71.4 |
+| 白人 | 66 (94.3 |
+| BMI (kg/m²) | 28.7 ± 5.4 |
+| LVEF ( | 40.0 ± 15.7 |
+| HFrEF (LVEF ≤40 | 38 (54.3 |
+| HFpEF (LVEF >40 | 32 (45.7 |
+| 缺血性病因 | 34 (48.6 |
+| 心房顫動 | 43 (61.4 |
+| 糖尿病 | 25 (35.7 |
+| 慢性腎病 | 32 (45.7 |
+| 基線平均PAP (mmHg) | 24.7 ± 9.5 |
+
+
+#### 主要終點結果
+
+
+| p{4cm}p{5cm}} SIRONA 2主要終點結果（90天） |  |  |
+| --- | --- | --- |
+| **終點** | **結果** | **統計** |
+| **主要安全性終點** |  |  |
+| 裝置/系統相關併發症自由率 | 98.6 | 達成終點 |
+| **主要療效終點** |  |  |
+| 平均PAP準確性 | 0.0至2.9 mmHg | P = 0.003 |
+| （與右心導管比較） | 等效界限 ±4.0 mmHg內 | 達成終點 |
+| **次要終點** |  |  |
+| 6個月HF住院事件率 | 0.16/患者 | — |
+| NYHA改善率（90天） | 65.7 | — |
+| 患者依從性（180天） | 93 | — |
+| 坐姿測量偏好 | 84 | — |
+
+
+### SIRONA 2試驗——12個月追蹤結果（2024）
+
+
+> **標題：**Twelve-month follow-up results from the SIRONA 2 clinical trial
+> **作者：**Sharif F, Rosenkranz S, Bartunek J, Kempf T, Aßmus B, Mahon NG, Hiivala NJ, Mullens W
+> **期刊：**ESC Heart Failure (2024)
+> **DOI：**[10.1002/ehf2.14657](https://doi.org/10.1002/ehf2.14657)
+
+
+#### 12個月結果
+
+
+| p{4cm}p{4cm}} SIRONA 2試驗12個月結果 |  |  |
+| --- | --- | --- |
+| **終點** | **結果** | **統計顯著性** |
+| **安全性終點** |  |  |
+| 裝置/系統相關併發症自由率 | 98.4 | — |
+| 感測器故障 | 0例 | — |
+| **準確性終點** |  |  |
+| 平均PAP差異（vs. RHC） | 2.9 ± 7.3 mmHg | 良好一致性 |
+| 收縮PAP差異 | 3.2 mmHg | — |
+| 舒張PAP差異 | 3.0 mmHg | — |
+| **臨床終點** |  |  |
+| HF住院/死亡事件率 | 0.33/患者年 | — |
+| 死亡率 | 7.1 | — |
+| HF住院率下降 | 78.6 | 較植入前一年 |
+| **功能性終點** |  |  |
+| NYHA分級改善 | — | P < 0.0001 |
+| 6分鐘步行測試改善（3個月） | — | P = 0.005 |
+| 6分鐘步行測試改善（12個月） | — | P = 0.02 |
+| 患者依從性（12個月） | 95 | — |
+
+
+## PROACTIVE-HF試驗
+
+
+### 試驗設計演變
+
+
+> **原始設計（2018年）：**
+> 前瞻性、隨機、對照、單盲、多中心試驗
+> **設計變更（2021年）：**
+> 隨著CHAMPION及後續研究強力證據的累積，維持臨床均勢（clinical equipoise）變得困難，患者和醫師都希望獲得肺動脈壓力數據。因此，經FDA同意後，試驗改為單臂設計，使用預設績效目標（Performance Goal）作為比較基準。
+> **績效目標來源：**
+> 根據先前PAP導向心衰竭管理試驗（CHAMPION、CardioMEMS Post-Approval Study等）的治療組事件率建立。
+
+
+### PROACTIVE-HF試驗設計（2023）
+
+
+> **標題：**Rationale and Design of the Proactive-HF Trial for Managing Patients With NYHA Class III Heart Failure by Using the Combined Cordella Pulmonary Artery Sensor and the Cordella Heart Failure System
+> **作者：**Guichard JL, Cowger JA, Chaparro SV, Kiernan MS, Mullens W, Mahr C, et al.
+> **期刊：**Journal of Cardiac Failure (2023)
+> **DOI：**[10.1016/j.cardfail.2022.09.006](https://doi.org/10.1016/j.cardfail.2022.09.006)
+> **試驗註冊：**ClinicalTrials.gov NCT04089059
+
+
+#### 研究設計
+
+
+- **研究類型：**前瞻性、多中心、開放標籤、單臂試驗，盲化終點評估
+- **研究中心：**75個中心（美國71個，歐洲4個）
+- **納入人數：**456位成功植入患者
+- **主要追蹤：**6個月（主要終點）
+- **延伸追蹤：**12個月
+
+
+#### 納入與排除條件
+
+
+| p{11cm}}  **項目** | **標準** |  |
+| --- | --- | --- |
+| **納入條件** | minipage[t]{11cm} • 慢性心衰竭診斷≥3個月 |  |
+| • NYHA Class III症狀 |  |  |
+| • 無論左心室射血分數 |  |  |
+| • 穩定、優化藥物治療≥30天 |  |  |
+| • 過去12個月內有心衰住院/日間治療/急診IV利尿劑和/或NT-proBNP升高 |  |  |
+| **排除條件** | minipage[t]{11cm} • 休息收縮壓<90 mmHg |  |
+| • 嚴重前毛細血管性肺高壓（PASP≥70 mmHg且PCWP≤15 mmHg） |  |  |
+| • 3個月內重大心血管事件 |  |  |
+| • 未修復的顯著先天性心臟病 |  |  |
+| • 機械性/生物性右心瓣膜 |  |  |
+| • 無法接受雙抗血小板或抗凝治療1個月 |  |  |
+| • CRT植入<90天 |  |  |
+
+
+### PROACTIVE-HF試驗結果（2024）
+
+
+> **標題：**Seated Pulmonary Artery Pressure Monitoring in Patients With Heart Failure: Results of the PROACTIVE-HF Trial
+> **作者：**Guichard JL, Bonno EL, Nassif ME, Khumri TM, Miranda D, Jonsson O, et al.
+> **期刊：**JACC: Heart Failure (2024)
+> **DOI：**[10.1016/j.jchf.2024.05.017](https://doi.org/10.1016/j.jchf.2024.05.017)
+> **國家主要研究者：**Liviu Klein, MD（UCSF）
+
+
+#### 基線特徵
+
+
+| PROACTIVE-HF基線特徵（n=456） |  |
+| --- | --- |
+| **特徵** | **數值** |
+| 年齡（歲） | 69.3 ± 11.2 |
+| 男性 | 59.6 |
+| BMI (kg/m²) | 32.1 ± 7.5 |
+| LVEF ( | 41.0 ± 16.5 |
+| HFrEF (LVEF ≤40 | 50.4 |
+| HFpEF (LVEF >40 | 49.6 |
+| 心房顫動 | 57.2 |
+| 糖尿病 | 49.3 |
+| 慢性腎病 | 47.4 |
+| ICD/CRT-D | 36.4 |
+| 基線平均PAP (mmHg) | 28.8 ± 9.8 |
+| 基線NT-proBNP (pg/mL) | 2,847 ± 3,891 |
+
+
+#### 主要終點結果（6個月）
+
+
+| p{4cm}p{5cm}} PROACTIVE-HF 6個月主要終點結果 |  |  |
+| --- | --- | --- |
+| **終點** | **結果** | **績效目標/P值** |
+| **主要安全性終點** |  |  |
+| 裝置植入併發症自由率 | >99 | 達成終點 |
+| 感測器故障自由率 | >99 | 達成終點 |
+| **主要療效終點** |  |  |
+| HF住院+全因死亡率 | 0.20事件/患者/6個月 | PG: 0.43事件/患者 |
+|  |  | **達成終點** |
+| **患者參與度** |  |  |
+| 平均每週Cordella提交次數 | >6次 | 高依從性 |
+| 平均每週臨床醫師審閱次數 | >2次 | 高參與度 |
+
+
+#### 12個月結果
+
+
+| p{4cm}p{4cm}} PROACTIVE-HF 12個月結果 |  |  |
+| --- | --- | --- |
+| **終點** | **結果** | **比較** |
+| HF住院+全因死亡事件 | 36事件/100患者 | PG: 70事件/100患者 |
+| 事件率降低 | 49 | 較績效目標 |
+| KCCQ改善 | +5.7分（10.5 | P < 0.05 |
+
+
+#### 坐姿測量的獨特優勢
+
+
+> **生理學基礎：**
+> itemize
+>     \item 門診患者日間大部分時間處於直立位置
+>     \item 從臥姿轉為坐姿時，重力使血容量從胸腔轉移至橫膈下方
+>     \item 坐姿測量可能更好地反映日常功能狀態
+> itemize
+> **PROACTIVE-HF的獨特發現：**
+> itemize
+>     \item 首次系統性評估坐姿mPAP監測的臨床試驗
+>     \item 84
+>     \item 高依從性可能與患者友善的測量方式相關
+>     \item 坐姿測量結合生命徵象提供更全面的臨床圖像
+> itemize
+
+
+## 法規核准與商業化進展
+
+
+### FDA核准里程碑
+
+
+| p{11cm}} Cordella系統法規進展 |  |  |
+| --- | --- | --- |
+| **日期** | **事件** |  |
+| 2022年 | CE Mark獲准（歐洲） |  |
+| 2024年6月24日 | FDA授予Cordella PA Sensor System上市前核准（PMA） |  |
+| 2024年7月25日 | Edwards Lifesciences宣布收購Endotronix |  |
+| 2025年初（預計） | CMS全國覆蓋決定（NCD） |  |
+
+
+### Edwards Lifesciences收購
+
+
+> itemize
+>     \item **收購金額：**約16億美元（與JenaValve合計約12億美元預付款）
+>     \item **收購背景：**Edwards於2016年即投資Endotronix，現行使選擇權完成收購
+>     \item **戰略意義：**將Edwards的結構性心臟病組合擴展至心衰竭管理新治療領域
+>     \item **協同效應：**許多結構性心臟病患者同時患有心衰竭，可提供整合照護方案
+>     \item **商業展望：**預計2025年對營收貢獻有限，2026年起有望顯著增長
+> itemize
+
+
+## 臨床應用建議
+
+
+### 適應症與患者選擇
+
+
+| p{10cm}} Cordella系統臨床應用建議 |  |  |
+| --- | --- | --- |
+| **項目** | **建議** |  |
+| **核准適應症** | NYHA Class III心衰竭患者，無論射血分數 |  |
+| **最佳候選者** | minipage[t]{10cm} • 過去12個月有心衰住院史 |  |
+| • 儘管優化GDMT仍有持續症狀 |  |  |
+| • 能夠配合每日監測 |  |  |
+| • 有照護者或自我管理能力 |  |  |
+| **相對禁忌** | minipage[t]{10cm} • 嚴重肺高壓（前毛細血管性） |  |
+| • 無法接受雙抗血小板治療 |  |  |
+| • 預期壽命<1年 |  |  |
+| • 嚴重認知障礙無照護者協助 |  |  |
+| **監測頻率** | 建議每日進行坐姿PAP及生命徵象測量 |  |
+| **臨床響應** | 根據PAP趨勢調整利尿劑及GDMT |  |
+
+
+### 與現有治療的整合
+
+
+- **GDMT優化：**PAP資料可指導ACEi/ARB/ARNI、β-blocker、MRA、SGLT2i的滴定
+- **利尿劑調整：**根據PAP趨勢進行主動利尿劑調整，預防失代償
+- **遠端照護：**整合於心衰竭遠端監測計畫，減少面對面就診
+- **多學科團隊：**需要心衰專科醫師、護理師、藥師的協調合作
+
+
+## 研究限制與未來方向
+
+
+### 現有證據的限制
+
+
+1. **缺乏隨機對照數據：**PROACTIVE-HF為單臂試驗，使用績效目標而非並行對照組
+2. **歷史比較的局限：**績效目標來自不同時期、不同人群的試驗
+3. **追蹤期間有限：**目前最長追蹤為12個月，長期耐用性尚待驗證
+4. **成本效益未知：**尚無正式的成本效益分析
+5. **真實世界數據有限：**商業使用剛開始，真實世界表現待觀察
+
+
+### 進行中的研究
+
+
+> **ClinicalTrials.gov：**NCT05934487
+> **設計：**
+> itemize
+>     \item 前瞻性、多中心、開放標籤、隨機對照試驗
+>     \item NYHA Class II患者：隨機分組（Cordella vs. 標準照護）
+>     \item NYHA Class III患者：單臂設計，評估臨床醫師指導下的患者自我管理策略
+> itemize
+> **目標：**
+> itemize
+>     \item 擴展適應症至NYHA Class II患者
+>     \item 評估患者自我管理策略的安全性與有效性
+>     \item 比較Cordella與標準照護的療效差異（Class II）
+> itemize
+
+
+## 結論
+
+
+### 主要結論
+
+
+1. ****安全性確立：****Cordella PA Sensor System在多個臨床試驗中展現優異的安全性，裝置相關併發症率<2
+2. ****準確性驗證：****感測器壓力測量與右心導管高度一致，長期準確性良好（12個月差異約3 mmHg）
+3. ****臨床療效：****PROACTIVE-HF試驗顯示HF住院與死亡率較績效目標降低49
+4. ****獨特優勢：****坐姿測量方式、綜合生命徵象監測、患者端資料可視化，提升依從性與參與度
+5. ****法規里程碑：****2024年6月獲FDA核准，成為第二個獲准的植入式PAP監測系統
+
+
+### 臨床實務要點
+
+
+1. Cordella系統適用於NYHA Class III心衰竭患者，可作為GDMT優化和充血管理的輔助工具
+2. 坐姿PAP測量是獨特創新，可能提升患者依從性和臨床實用性
+3. 成功的PAP導向管理需要建立健全的遠端監測基礎設施和多學科團隊
+4. 等待CMS覆蓋決定，將影響臨床推廣和可及性
+5. PROACTIVE-HF 2試驗結果將進一步擴展適應症和證據基礎
+
+
+**關鍵詞：**心衰竭、肺動脈壓力、遠端監測、植入式感測器、Cordella、PROACTIVE-HF
+
+
+## 參考文獻
+
+
+### Cordella系列臨床試驗
+
+
+1. Mullens W, Sharif F, Dupont M, Rothman AMK, Wijns W. Digital health care solution for proactive heart failure management with the Cordella Heart Failure System: results of the SIRONA first-in-human study. [*Eur J Heart Fail](https://doi.org/10.1002/ejhf.1870). 2020;22(10):1912-1919.*
+2. Sharif F, Rosenkranz S, Bartunek J, Kempf T, Assmus B, Mahon NG, Mullens W. Safety and efficacy of a wireless pulmonary artery pressure sensor: primary endpoint results of the SIRONA 2 clinical trial. [*ESC Heart Fail](https://doi.org/10.1002/ehf2.14006). 2022;9(5):2862-2872.*
+3. Sharif F, Rosenkranz S, Bartunek J, Kempf T, Aßmus B, Mahon NG, Hiivala NJ, Mullens W. Twelve-month follow-up results from the SIRONA 2 clinical trial. [*ESC Heart Fail](https://doi.org/10.1002/ehf2.14657). 2024;11(2):1133-1143.*
+4. Guichard JL, Cowger JA, Chaparro SV, Kiernan MS, Mullens W, Mahr C, et al. Rationale and Design of the Proactive-HF Trial for Managing Patients With NYHA Class III Heart Failure by Using the Combined Cordella Pulmonary Artery Sensor and the Cordella Heart Failure System. [*J Card Fail](https://doi.org/10.1016/j.cardfail.2022.09.006). 2023;29(2):171-180.*
+5. Guichard JL, Bonno EL, Nassif ME, Khumri TM, Miranda D, Jonsson O, et al. Seated Pulmonary Artery Pressure Monitoring in Patients With Heart Failure: Results of the PROACTIVE-HF Trial. [*JACC Heart Fail](https://doi.org/10.1016/j.jchf.2024.05.017). 2024;12(11):1879-1893.*
+6. Salah HM, et al. Comparison of supine and sitting pulmonary pressures in ambulatory heart failure patients using the novel Cordella pulmonary pressure system. [*ESC Heart Fail](https://doi.org/10.1002/ehf2.15374). 2025. [Epub ahead of print]*
+
+
+### 肺動脈壓力導向心衰竭管理背景文獻
+
+
+1. Abraham WT, Adamson PB, Bourge RC, Aaron MF, Costanzo MR, Stevenson LW, et al. Wireless pulmonary artery haemodynamic monitoring in chronic heart failure: a randomised controlled trial. [*Lancet](https://doi.org/10.1016/S0140-6736(11)60101-3). 2011;377(9766):658-666.*
+2. Abraham WT, Stevenson LW, Bourge RC, Lindenfeld JA, Bauman JG, Adamson PB; CHAMPION Trial Study Group. Sustained efficacy of pulmonary artery pressure to guide adjustment of chronic heart failure therapy: complete follow-up results from the CHAMPION randomised trial. [*Lancet](https://doi.org/10.1016/S0140-6736(15)00723-0). 2016;387(10017):453-461.*
+3. Adamson PB, Abraham WT, Bourge RC, Costanzo MR, Hasan A, Yadav C, et al. Wireless pulmonary artery pressure monitoring guides management to reduce decompensation in heart failure with preserved ejection fraction. [*Circ Heart Fail](https://doi.org/10.1161/CIRCHEARTFAILURE.114.001475). 2014;7(6):935-944.*
+4. Lindenfeld J, Zile MR, Desai AS, Bhatt K, Ducharme A, Horstmanshof D, et al. Haemodynamic-guided management of heart failure (GUIDE-HF): a randomised controlled trial. [*Lancet](https://doi.org/10.1016/S0140-6736(21)01754-2). 2021;398(10304):991-1001.*
+5. Brugts JJ, Radhoe SP, Clephas PRD, Aydin D, van Gent MWF, Szymanski MK, et al. Remote haemodynamic monitoring of pulmonary artery pressures in patients with chronic heart failure (MONITOR-HF): a randomised clinical trial. [*Lancet](https://doi.org/10.1016/S0140-6736(23)00923-6). 2023;401(10394):2113-2123.*
+
+
+### 心衰竭指引
+
+
+1. Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. [*Circulation](https://doi.org/10.1161/CIR.0000000000001063). 2022;145(18):e895-e1032.*
+2. McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Böhm M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. [*Eur J Heart Fail](https://doi.org/10.1002/ejhf.2333). 2022;24(1):4-131.*
+
+
+## 詞彙表
+
+
+description[leftmargin=5cm,style=nextline]
+    \item[Cordella] Endotronix公司開發的心衰竭管理系統，包含植入式肺動脈壓力感測器及綜合性遠端監測平台。
+    
+    \item[PA Sensor] Pulmonary Artery Sensor，肺動脈感測器。植入於肺動脈的無線壓力感測器。
+    
+    \item[PAP] Pulmonary Artery Pressure，肺動脈壓力。包括收縮壓(sPAP)、舒張壓(dPAP)和平均壓(mPAP)。
+    
+    \item[GDMT] Guideline-Directed Medical Therapy，指引導向藥物治療。心衰竭的標準藥物治療組合。
+    
+    \item[NYHA Class] New York Heart Association Functional Classification，紐約心臟學會功能分級。Class III表示日常活動即引起症狀。
+    
+    \item[HFrEF] Heart Failure with Reduced Ejection Fraction，射血分數降低型心衰竭。LVEF≤40
+    
+    \item[HFpEF] Heart Failure with Preserved Ejection Fraction，射血分數保留型心衰竭。LVEF>40
+    
+    \item[RHC] Right Heart Catheterization，右心導管檢查。測量心臟內壓力的金標準方法。
+    
+    \item[KCCQ] Kansas City Cardiomyopathy Questionnaire，堪薩斯城心肌病問卷。評估心衰竭患者生活品質的驗證工具。
+    
+    \item[PG] Performance Goal，績效目標。單臂試驗中用於比較的預設標準，來自歷史數據。
+    
+    \item[DSRC] Device/System Related Complication，裝置/系統相關併發症。
+    
+    \item[NT-proBNP] N-terminal pro-Brain Natriuretic Peptide，N端腦鈉肽前體。心衰竭生物標記。
+    
+    \item[CardioMEMS] Abbott公司的植入式肺動脈壓力監測系統，2014年獲FDA核准，為首個同類裝置。
+    
+    \item[CHAMPION] CardioMEMS Heart Sensor Allows Monitoring of Pressure to Improve Outcomes in NYHA Class III Patients試驗，奠定PAP導向心衰管理的隨機對照證據。
+description

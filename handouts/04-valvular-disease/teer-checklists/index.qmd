@@ -1,0 +1,250 @@
+---
+title: "TEER checklists"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{****TEER TEE 檢核表****
+}
+    {***TEER TEE Evaluation Checklist***
+}
+    
+    
+    tcolorbox[
+        colback=emergency_blue!5!white,
+        colframe=emergency_blue,
+        width=0.7\textwidth,
+        arc=5pt,
+        boxrule=0.5pt,
+        left=5pt,right=5pt,top=3pt,bottom=3pt
+    ]
+    
+    目標對象：心血管中心醫師、護理師與技術人員   |   
+    版本：1.0   |   
+    日期：\mydate
+    tcolorbox
+
+
+longtable{>{\arraybackslash}p{4cm}>{\arraybackslash}p{6cm}>{\arraybackslash}p{6cm}}
+\hline
+header_blue
+**檢查項目** & **測量值或描述範例** & **測量項目中英對照**
+border_blue\hline
+\endfirsthead
+
+header_blue
+**檢查項目** & **測量值或描述** & **測量項目中英對照**
+border_blue\hline
+\endhead
+
+**MR Etiology** & SMR (Carpenter Type I Degenerative MR) & SMR = Secondary MR = Functional MR, PMR = Primary MR = Degenerative MR
+\hline
+
+**MR Grade** & 4+ & -
+\hline
+
+**Jet Origin** & A2/P2 & Jet可以有多個origin, 記得依照下面順序: color mapping→ X-plane interrogation→ 3D imaging
+\hline
+
+**Jet Direction** & Posterior eccentric & -
+\hline
+
+**PISA Radius** & 9mm & PISA 半徑 / PISA Radius
+\hline
+
+**VC Width** & 6 to 4mm & 靜脈收縮寬度 / Vena Contracta Width
+\hline
+
+**EROA** & 0.35 cm² (MR VTI, Nyquist = 56.2) & 有效逆流面積 / Effective Regurgitant Orifice Area
+\hline
+
+**MR Volume** & 51 ml (MR VTI, Nyquist = 56.2) & 逆流容量 / Mitral Regurgitation Volume
+\hline
+
+**LALV** & Dilated LA/LV, preserved LVEF & 左心房/左心室 / Left Atrium/Left Ventricle
+\hline
+
+**Pulmonary Flow** & N/A & -
+\hline
+
+**Calcification** & Suspected MAC over posterior annulus & 僧帽瓣環鈣化 / Mitral Annular Calcification
+\hline
+
+**Transmitral Gradient** & Mean/max 5/22 mmHg & 平均/最大傳送梯度 / Mean/Max Transmitral Gradient
+\hline
+
+**Mitral Valve Area** & 5.95 cm² (by onsite PHT) & 僧帽瓣面積 / Mitral Valve Area / AP diameter > 35 mm (XT/XTW) / AP diameter ≤ 35 mm (NT/NTW)
+\hline
+
+**Leaflet Length** & PML: 7.8 to 8.4 mm   
+ AML: 19.2 to 20mm   
+ (leaflet-to-annulus index 1.125)   
+ (*APD = 24mm (LVOT view)) & 前瓣葉 / Anterior Mitral Leaflet (AML)   
+ 後瓣葉 / Posterior Mitral Leaflet (PML)   
+ 瓣葉-環形指數 / Leaflet-to-Annulus Index
+\hline
+
+**Atrial Septum** & NIL & -
+\hline
+
+**Others** & TR, PHTN (TR Vmax = 3.88 m/s) & 三尖瓣逆流 / Tricuspid Regurgitation (TR)   
+ 肺高壓 / Pulmonary Hypertension (PHTN)
+\hline
+
+TEER Pre-procedure TEE Checklist
+
+longtable
+
+
+---
+
+
+{****TEER 手術準備檢核表****
+}
+    {***TEER Procedure Preparation Checklist***
+}
+    
+    
+    tcolorbox[
+        colback=emergency_blue!5!white,
+        colframe=emergency_blue,
+        width=0.7\textwidth,
+        arc=5pt,
+        boxrule=0.5pt,
+        left=5pt,right=5pt,top=3pt,bottom=3pt
+    ]
+    
+    目標對象：心血管中心醫師、護理師與技術人員   |   
+    版本：1.0   |   
+    日期：\mydate
+    tcolorbox
+
+
+multicols{2}
+
+
+## 術前評估階段
+
+
+### 病人篩選與評估
+
+
+- [$\square$] 病人已經接受 optimal medical treatment > 3 months
+- [$\square$] 評估病人是否符合 Inclusion criteria
+- [$\square$] 完成病人收案 (enrollment)
+- [$\square$] 組織團隊 CV-CVS 評估會議
+- [$\square$] 病情說明，團隊與家屬會議
+
+
+### 醫療團隊溝通
+
+
+- [$\square$] 與 Abbott 確認時間
+- [$\square$] 通知 CVS、麻醉科、導管室
+- [$\square$] 排定團隊會議時間 (Teams or Google Meet)
+
+
+### 檢查與檢驗
+
+
+- [$\square$] CBC/DC, Na, K, BUN/Cre 檢查
+- [$\square$] CXR, ECG 檢查
+- [$\square$] Lactate, Fibrinogen 檢測
+- [$\square$] PT/APTT, Albumin, Pro-BNP 檢測
+
+
+### 藥物處置
+
+
+- [$\square$] 藥物治療開始
+- [$\square$] 確認需停用的藥物清單
+- [$\square$] **SGLT2i 抑制劑停用（術前四天）**
+
+
+### 預約安排
+
+
+- [$\square$] 安排麻醉科門診
+- [$\square$] 麻醉科評估與建議完成
+
+
+\columnbreak
+
+
+## 術前準備階段
+
+
+### 設備與資源準備
+
+
+- [$\square$] 借用六樓心臟超音波機器
+- [$\square$] 確認導管室準備完成 (鋼架消毒，排程)
+- [$\square$] 確認 TEER 醫材準備就緒
+- [$\square$] 聯絡 Philips工程師當天到場確認影像連線 (確定心超機接導管機螢幕沒有問題)
+
+
+### 排程確認
+
+
+- [$\square$] 麻醉科排程確認
+- [$\square$] 開刀房上刀表確認
+- [$\square$] 手術日期與時間最終確認
+
+
+### 團隊準備
+
+
+- [$\square$] 團隊會議 (CCU HN, 2A HN, NP, VS)
+- [$\square$] 照護人員納入 briefing: CCU 護理師及 NP, 2A 護理師及 NP
+
+
+### 血液準備
+
+
+- [$\square$] 備血 PRBC 6 單位
+- [$\square$] 血小板 (Platelet) 24 單位
+
+
+## 手術當日
+
+
+### 術前準備
+
+
+- [$\square$] 病人抵達並準備就緒
+- [$\square$] 麻醉科全麻準備
+- [$\square$] 術中 TEE 設備準備，TEE影像連線
+
+
+### 手術進行
+
+
+- [$\square$] 術中 TEE 記錄
+- [$\square$] 監測生命徵象
+
+
+## 術後處置
+
+
+### 交班與溝通
+
+
+- [$\square$] 與CCU專責醫師交班
+- [$\square$] 與專科護理師交班
+- [$\square$] 完成與家屬病情說明
+- [$\square$] 通知心超室機器歸還，與探頭清潔
+
+
+### 術後監測
+
+
+- [$\square$] 安排術後超音波檢查評估
+- [$\square$] 監測生命徵象與可能併發症
+- [$\square$] 收縮血壓控制在<120 mmHg
+
+
+multicols

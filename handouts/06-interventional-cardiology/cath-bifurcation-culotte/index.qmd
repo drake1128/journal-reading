@@ -1,0 +1,1006 @@
+---
+title: "cath bifurcation Culotte"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **Culotte技術特點：**
+> itemize
+>     \item 真正分叉病變(true bifurcation)的雙支架策略
+>     \item 提供近乎完美的隆突(carina)與側枝開口覆蓋
+>     \item 近端主支有雙層支架重疊
+>     \item 兩個分支都需要通過支架網格重新配線
+>     \item ****側枝rewiring必須選擇most distal cell（最關鍵步驟）****
+>     \item Double-kissing技術可進一步改善支架貼壁
+> itemize
+> **Rewiring技術要點（決定成敗）：**
+> itemize
+>     \item **主支rewiring (步驟6)：**選擇近端偏側格子
+>     \item ****側枝rewiring (步驟11)：必須選擇最遠端格子（most distal cell）****
+>     \item ****原因：完整覆蓋側枝開口，避免gap，降低再狹窄****
+>     \item 使用pullback技術輔助定位
+>     \item OCT/OFDI可提供精確導引
+> itemize
+> **Kissing Balloon Inflation的角色：**
+> itemize
+>     \item 優化支架貼壁，減少支架變形
+>     \item 改善側枝開口通路
+>     \item 在雙支架策略中為必要步驟
+>     \item 配合Proximal Optimization Technique (POT)使用
+>     \item 必須同時放氣，避免隆突移位
+> itemize
+
+
+\tableofcontents
+
+---
+
+
+## 冠狀動脈分叉病變概論
+
+
+### 分叉病變的挑戰性
+
+
+冠狀動脈分叉病變占所有經皮冠狀動脈介入治療(PCI)的15-20
+
+
+1. **特殊解剖構造**：非圓管狀的幾何形狀，不同分支直徑差異大
+2. **血流動力學**：分叉處的剪切應力變化，容易形成動脈粥狀硬化
+3. **技術困難度**：需要精確的支架定位與配線技術
+4. **較高併發症風險**：包括支架內再狹窄、支架血栓形成
+
+
+### Medina分類系統
+
+
+| |p{11cm}|} Medina分類與臨床意義 |  |  |
+| --- | --- | --- |
+| **分類** | **說明與治療策略** |  |
+| **真正分叉病變** | Medina (1,1,1)、(0,1,1)、(1,0,1) |  |
+| (True bifurcation) | 近端主支、遠端主支、側枝皆有病變 |  |
+|  | **建議：考慮雙支架策略** |  |
+| **非真正分叉** | Medina (1,1,0)、(1,0,0)、(0,1,0)等 |  |
+| (Non-true bifurcation) | 側枝開口無明顯狹窄 |  |
+|  | **建議：單支架策略(Provisional stenting)** |  |
+
+
+## Culotte技術基本原理
+
+
+### 技術起源與發展
+
+
+Culotte技術由法國醫師Chevalier等人於1998年首次報告，名稱來自法文「culotte」（短褲），因其最終形態類似短褲的兩個褲管。
+
+
+| |p{5cm}|p{6cm}|} Culotte技術發展歷程 |  |  |
+| --- | --- | --- |
+| **年份/版本** | **技術特點** | **主要改進** |
+| **1998年** | 傳統Culotte | 首次報告雙支架技術 |
+| **Classic Culotte** | 側枝先放支架 | 成功率94 |
+| **2010年代** | 反向Culotte | 主支先放支架 |
+| **Reverse Culotte** | (Inverted Culotte) | 適合主支處理較困難的情況 |
+| **2012年代** | 迷你Culotte | 減少支架重疊長度 |
+| **Mini-Culotte** | (Minimal protrusion) | 降低近端多層金屬結構 |
+| **2018年** | 雙吻Culotte | 主支放支架前增加一次KBI |
+| **DK-Culotte** | (Double-Kissing) | 顯著減少支架貼壁不良 |
+| **2022年** | 單細胞DK-Culotte | 體外預先準備單格通過 |
+| **Single-cell DK** | (Novel technique) | 簡化配線步驟，適合左主幹 |
+
+
+### Culotte vs其他雙支架技術
+
+
+| |p{4cm}|p{4cm}|p{3cm}|} 常見雙支架技術比較 |  |  |
+| --- | --- | --- |
+| **技術** | **優點** | **缺點** |
+| **Culotte** | 完整隆突覆蓋 | 需兩次配線 |
+|  | 側枝開口覆蓋佳 | 技術較複雜 |
+| **DK Crush** | 高成功率 | 步驟最多 |
+|  | 文獻證據多 | 操作時間長 |
+| **T-stenting** | 技術相對簡單 | 側枝開口間隙 |
+| **TAP** | 可作為救援策略 | 再狹窄率較高 |
+
+
+## Culotte技術詳細步驟
+
+
+### 傳統Culotte技術12步驟
+
+
+| |p{5cm}|p{7cm}|} 傳統Culotte支架置放步驟 |  |  |
+| --- | --- | --- |
+| **步驟** | **操作** | **技術要點與注意事項** |
+| **步驟1** | 配線 | 將兩條導線分別置入主支(MB)與側枝(SB) |
+|  | (Wiring) | **要點：選擇合適的導線，通常使用workhorse wire** |
+| **步驟2** | 病變預擴張 | 使用適當尺寸球囊預擴張病變部位 |
+|  | (Pre-dilatation) | **要點：充分預擴張可減少支架釋放困難** |
+| **步驟3** | 第一支架定位 | 傳統：側枝支架從主支穿過到側枝 |
+|  | (1st stent) | **要點：支架應完全覆蓋側枝開口，可稍微突入主支** |
+| **步驟4** | 第一支架釋放 | 釋放側枝支架 |
+|  | (1st deployment) | **要點：確認位置正確後再釋放** |
+| **步驟5** | 近端優化(POT) | 使用較大球囊擴張近端主支 |
+|  | (POT #1) | **要點：球囊大小=近端主支參考直徑，短球囊(6-8mm)** |
+|  |  | 膨脹位置：從支架近端到隆突近端 |
+| **步驟6** | 主支重新配線 | 移除主支導線，重新穿過支架格子進入主支 |
+|  | (MB rewiring) | **要點：選擇遠端偏側的格子(distal cell)** |
+|  |  | 使用pullback技術 |
+|  |  | 確認導線在支架內而非支架下方 |
+| **步驟7** | 打開支架格子 | 使用小球囊擴張支架格子 |
+|  | (Cell opening) | **要點：使用低輪廓球囊(low-profile balloon)** |
+|  |  | 球囊尺寸2.0-2.5mm，輕度膨脹即可 |
+| **步驟8** | 第二支架定位 | 主支支架從近端主支到遠端主支 |
+|  | (2nd stent) | **要點：確保完全覆蓋第一支架，形成雙層重疊** |
+| **步驟9** | 第二支架釋放 | 釋放主支支架 |
+|  | (2nd deployment) | **要點：確認兩支架有適當重疊** |
+| **步驟10** | 近端優化(POT) | 再次使用較大球囊優化近端主支 |
+|  | (POT #2) | **要點：球囊大小同步驟5，壓力12-16 atm** |
+| **步驟11** | **側枝重新配線** | 移除側枝導線，重新穿過支架格子進入側枝 |
+|  | **(SB rewiring)** | ****關鍵：必須選擇最遠端的格子(most distal cell)**** |
+|  | **★最重要步驟** | ****盡可能靠近隆突(carina)**** |
+|  |  | **原因：** |
+|  |  | • 提供最佳的側枝開口支撐 |
+|  |  | • 減少側枝再狹窄 |
+|  |  | • 避免gap at side branch ostium |
+|  |  | 使用pullback技術輔助定位 |
+| **步驟12** | 最終KBI | 同時膨脹主支與側枝球囊 |
+|  | (Final KBI) | **要點：球囊尺寸1:1對應遠端分支直徑** |
+|  |  | 使用短的非順應性球囊(NC balloon) |
+|  |  | 同時放氣以減少隆突移位 |
+| **步驟13** | 最終POT | 最後再次進行近端優化 |
+|  | (Final POT) | **要點：位置應更近端，避免壓迫到新隆突** |
+
+
+> **為什麼側枝rewiring必須選擇distal cell？**
+> ****解剖學原理：****
+> itemize
+>     \item 分叉處的polygon of confluence（匯合多邊形）
+>     \item 側枝開口位於隆突(carina)旁
+>     \item Distal cell最靠近真正的側枝開口
+> itemize
+> ****Distal cell rewiring的優勢：****
+> itemize
+>     \item **完整覆蓋側枝開口**：消除ostial gap
+>     \item **降低側枝再狹窄**：最重要的預測因子
+>     \item **更佳的支架支撐**：支架struts正確分布
+>     \item **優化血流動力學**：減少湍流
+> itemize
+> ****Proximal cell rewiring的後果：****
+> itemize
+>     \item 側枝開口有未覆蓋區域（gap）
+>     \item 側枝再狹窄率顯著增加
+>     \item 可能需要再次介入治療
+> itemize
+> ****臨床證據：****
+> itemize
+>     \item Adriaenssens研究：Distal rewiring與較低再狹窄率相關
+>     \item OCT研究：Distal cell rewiring提供更完整的開口覆蓋
+>     \item 預測因子分析：Rewiring位置是獨立預測因子
+> itemize
+> **操作技巧：**
+> enumerate
+>     \item 使用pullback技術尋找最遠端格子
+>     \item 3D-OCT可協助精確定位
+>     \item 導線尖端應盡可能靠近隆突
+>     \item 確認導線位置後再進行KBI
+> enumerate
+
+
+### Double-Kissing (DK) Culotte技術
+
+
+DK-Culotte是傳統Culotte的改良版，在主支支架釋放前增加一次kissing balloon inflation，可顯著改善支架貼壁。
+
+
+| |p{5cm}|p{7cm}|} DK-Culotte額外步驟 |  |  |
+| --- | --- | --- |
+| **步驟** | **操作** | **DK-Culotte與傳統Culotte的差異** |
+| **步驟5a** | **第一次KBI** | **新增步驟：在POT後進行** |
+|  | (First KBI) | 目的：維持側枝結果，避免主支處理時側枝支架變形 |
+|  |  | 球囊尺寸：對應遠端分支直徑 |
+|  |  | **先膨脹主支球囊，再膨脹側枝球囊** |
+|  |  | 同時放氣 |
+| *...步驟6-11與傳統Culotte相同...* |  |  |
+| **步驟12** | **第二次KBI** | **DK技術的第二次KBI** |
+|  | (Second KBI) | 目的：優化最終支架形態 |
+|  |  | 使用相同的KBI技術 |
+
+
+> **Bench test與臨床研究顯示：**
+> itemize
+>     \item 顯著降低支架貼壁不良率
+>     \item 近端主支貼壁改善最明顯
+>     \item 隆突頂部(roof of polygon of confluence)覆蓋更完整
+>     \item 側枝開口變形減少
+>     \item 血流動力學更接近生理狀態
+> itemize
+
+
+## Kissing Balloon Inflation技術詳解
+
+
+### Kissing Balloon的原理與重要性
+
+
+Kissing balloon inflation (KBI)是最早發展的分叉病變專用技術，在現代雙支架策略中扮演關鍵角色。
+
+
+| |p{10cm}|} Kissing Balloon Inflation的作用 |  |  |
+| --- | --- | --- |
+| **功能** | **機制與臨床意義** |  |
+| **優化支架貼壁** | 同時膨脹兩個球囊可改善支架與血管壁的接觸 |  |
+| (Optimize apposition) | **減少支架貼壁不良(malapposition)約30-50 |  |
+| **改善側枝通路** | 擴張支架格子，維持側枝開口暢通 |  |
+| (Improve SB access) | **降低側枝再狹窄風險** |  |
+| **矯正支架變形** | 修正釋放過程中產生的支架扭曲或壓扁 |  |
+| (Correct deformation) | **特別是近端主支的橢圓變形** |  |
+| **擴大近端主支** | 充分擴張近端主支管腔 |  |
+| (Widen proximal MV) | **配合POT可達最佳效果** |  |
+| **減少血栓風險** | 良好貼壁可降低支架血栓形成機率 |  |
+| (Reduce thrombosis) | **Nordic研究顯示可降低MACE與支架血栓** |  |
+
+
+### 最佳Kissing Balloon技術要點
+
+
+| |p{10cm}|} Kissing Balloon Inflation操作指引 |  |  |
+| --- | --- | --- |
+| **要素** | **建議與技術細節** |  |
+| **球囊選擇** | **球囊類型：** |  |
+|  | • 使用短的非順應性球囊(NC balloon) |  |
+|  | • 長度：8-12mm（短球囊可減少近端過度擴張） |  |
+|  | **球囊尺寸：** |  |
+|  | • 1:1對應遠端分支參考直徑 |  |
+|  | • 主支球囊 = 遠端主支直徑 |  |
+|  | • 側枝球囊 = 側枝直徑 |  |
+|  | • 不要根據近端主支尺寸選擇 |  |
+|  | **建議：** |  |
+|  | • 優先選擇相同製造商的球囊（膨脹/放氣時間一致） |  |
+|  | • 確認球囊牢固連接於連接器 |  |
+| **球囊定位** | **最佳球囊重疊(Minimal Balloon Overlapping, MBO)：** |  |
+|  | • 兩球囊應在分叉處輕微重疊 |  |
+|  | • 避免長段重疊(Long Balloon Overlapping, LBO) |  |
+|  | • MBO可使近端主支達到理想圓形 |  |
+|  | • LBO會造成近端主支橢圓形變形 |  |
+|  | **標記點(marker)位置：** |  |
+|  | • 主支球囊標記：在隆突處或稍遠端 |  |
+|  | • 側枝球囊標記：在側枝開口處 |  |
+|  | • 兩球囊標記盡量接近但不完全重疊 |  |
+| **膨脹順序** | **DK-Culotte建議順序：** |  |
+| (Inflation sequence) | 1. **先膨脹主支球囊**（維持主支結構） |  |
+|  | 2. **再膨脹側枝球囊**（避免側枝支架被推擠） |  |
+|  | 3. 達到標稱壓力(nominal pressure) |  |
+|  | **傳統方法：** |  |
+|  | • 可同時膨脹（較簡單但效果稍差） |  |
+|  | **高壓技術（可選）：** |  |
+|  | • 各分支先以高壓(18-20 atm)單獨擴張 |  |
+|  | • 再以標稱壓力同時膨脹 |  |
+|  | • 可進一步改善支架擴張 |  |
+| **放氣技術** | **關鍵：必須同時放氣** |  |
+| (Deflation) | **原因：** |  |
+|  | • 減少隆突移位(carina shift) |  |
+|  | • 維持金屬網格支柱的中心位置 |  |
+|  | • 避免一側支架塌陷 |  |
+|  | **操作方法：** |  |
+|  | • 使用單一打氣裝置配合三通接頭 |  |
+|  | • 或兩位術者協調同時放氣 |  |
+|  | • 建議使用單一indeflator系統（更可靠） |  |
+| **膨脹壓力** | **標準壓力：** |  |
+|  | • 最終KBI：標稱壓力(nominal pressure)，通常8-12 atm |  |
+|  | • 確保兩球囊完全擴張 |  |
+|  | **高壓膨脹（爭議性）：** |  |
+|  | • 可在KBI前先以高壓個別擴張各分支 |  |
+|  | • 18-20 atm，持續10-15秒 |  |
+|  | • 然後再進行標準KBI |  |
+|  | • 可能改善支架擴張但也增加併發症風險 |  |
+| **單一打氣裝置** | **簡化技術（適合單一術者）：** |  |
+| (Single indeflator) | 器材： |  |
+|  | • 一個indeflator打氣裝置 |  |
+|  | • 一個三通接頭（one male + two female ports） |  |
+|  | • 一個雙公頭連接器(double-male connector) |  |
+|  | 優點： |  |
+|  | • 自動確保同時放氣 |  |
+|  | • 單一術者即可操作 |  |
+|  | • 降低成本 |  |
+|  | • 操作更快速 |  |
+
+
+### Kissing Balloon的爭議與證據
+
+
+| |p{9cm}|} 最終KBI的臨床證據 |  |  |
+| --- | --- | --- |
+| **情況** | **研究結果與建議** |  |
+| **單支架策略** | **爭議性：** |  |
+| (Provisional stenting) | • 多項隨機試驗與meta分析顯示無明確益處 |  |
+|  | • MACE風險無顯著差異 |  |
+|  | • 不建議常規使用 |  |
+|  | **例外情況：** |  |
+|  | • 大型側枝有顯著狹窄 |  |
+|  | • 側枝有併發症（dissection） |  |
+|  | • 左主幹病變（某些研究顯示有益） |  |
+| **雙支架策略** | **強烈建議：** |  |
+| (Two-stent technique) | • Nordic研究：降低長期MACE、MI、支架血栓 |  |
+|  | • DK-Crush研究：最終KBI為必要步驟 |  |
+|  | • Culotte研究：KBI可降低再狹窄率 |  |
+|  | **建議：** |  |
+|  | • 雙支架技術必須進行最終KBI |  |
+|  | • 成功的KBI與較佳預後相關 |  |
+|  | • KBI後必須進行最終POT |  |
+| **DK技術中的KBI** | **兩次KBI的重要性：** |  |
+| (DK-Crush/DK-Culotte) | • 第一次KBI（在主支支架前）： |  |
+|  | - 維持側枝支架形態 |  |
+|  | - 便於主支支架後的重新配線 |  |
+|  | - 顯著提高最終KBI成功率（75 |  |
+|  | • 第二次KBI（最終KBI）： |  |
+|  | - 優化整體支架構型 |  |
+|  | - 減少貼壁不良 |  |
+|  | **證據：** |  |
+|  | • DK-Crush III研究：DK技術優於傳統技術 |  |
+|  | • Bench test：DK-Culotte貼壁不良率最低 |  |
+
+
+## Proximal Optimization Technique (POT)
+
+
+### POT的原理與重要性
+
+
+POT是優化近端主支支架擴張的關鍵技術，目的是將近端主支從橢圓形恢復為圓形。
+
+
+> **問題：**分叉處支架釋放後，近端主支常呈現橢圓形變形
+> **原因：**
+> itemize
+>     \item 支架尺寸通常根據遠端分支選擇（較小）
+>     \item 近端主支直徑通常大於遠端分支
+>     \item KBI會加重近端的橢圓變形
+> itemize
+> **後果：**
+> itemize
+>     \item 支架貼壁不良
+>     \item 血流紊亂
+>     \item 增加支架血栓風險
+>     \item 側枝配線困難
+> itemize
+
+
+### POT操作技術
+
+
+| |p{10cm}|} POT標準操作程序 |  |  |
+| --- | --- | --- |
+| **要素** | **技術細節** |  |
+| **球囊選擇** | **球囊尺寸：** |  |
+|  | • 直徑 = 近端主支參考直徑（通常比遠端大0.5-1.0mm） |  |
+|  | • 1:1 sizing（不要oversizing） |  |
+|  | **球囊長度：** |  |
+|  | • 短球囊：6-8mm（推薦） |  |
+|  | • 避免太長的球囊 |  |
+|  | **球囊類型：** |  |
+|  | • 非順應性或半順應性球囊 |  |
+|  | • 確保能達到足夠壓力 |  |
+| **球囊定位** | **近端標記點：** |  |
+|  | • 位於支架近端邊緣 |  |
+|  | **遠端標記點：** |  |
+|  | • 位於隆突近端（polygon of confluence proximal） |  |
+|  | • 不要跨過隆突 |  |
+|  | **關鍵：** |  |
+|  | • 只擴張近端主支，不影響分叉處 |  |
+|  | • 避免球囊延伸到側枝開口 |  |
+| **膨脹壓力與時間** | **壓力：** |  |
+|  | • 12-16 atm |  |
+|  | • 達到球囊完全擴張 |  |
+|  | • 根據血管阻力調整 |  |
+|  | **時間：** |  |
+|  | • 持續10-15秒 |  |
+|  | • 確認球囊完全擴張後維持 |  |
+|  | **確認：** |  |
+|  | • 透視下確認球囊腰部消失(disappearance of waist) |  |
+| **POT時機** | **在Culotte技術中的時機：** |  |
+|  | **POT #1：**側枝支架釋放後 |  |
+|  | - 優化近端，便於主支配線 |  |
+|  | **POT #2：**主支支架釋放後 |  |
+|  | - 再次優化近端（因第二支架影響） |  |
+|  | **Final POT：**最終KBI後 |  |
+|  | - 恢復圓形，修正KBI造成的橢圓變形 |  |
+|  | - 位置應更近端（避免壓迫新隆突） |  |
+|  | **DK-Culotte：** |  |
+|  | • 在第一次KBI前後都進行POT |  |
+|  | • 更頻繁的POT可獲得更好結果 |  |
+| **Re-POT概念** | **Re-POT (重複POT)：** |  |
+|  | • 在最終KBI後必須進行 |  |
+|  | • 位置應比先前的POT更靠近端 |  |
+|  | • 理由：KBI會造成隆突移位 |  |
+|  | • 避免壓迫到新形成的隆突(neocarina) |  |
+|  | **錯誤：** |  |
+|  | • 僅在原位置重複POT |  |
+|  | • 會壓迫到分叉處，造成側枝受損 |  |
+
+
+### POT與KBI的順序
+
+
+在雙支架技術中，POT與KBI必須正確配合：
+
+
+> **第一支架（側枝）釋放後：**
+> enumerate
+>     \item POT #1
+>     \item 第一次KBI
+> enumerate
+> **第二支架（主支）釋放後：**
+> enumerate
+>     \item POT #2
+>     \item 側枝重新配線
+>     \item 第二次KBI（最終KBI）
+>     \item **Final POT（更近端位置）← 關鍵步驟**
+> enumerate
+
+
+## Culotte技術的適應症與禁忌症
+
+
+### 最佳適應症
+
+
+| |p{10cm}|} Culotte技術的適應症 |  |  |
+| --- | --- | --- |
+| **臨床/解剖特徵** | **說明與理由** |  |
+| **真正分叉病變** | Medina (1,1,1)、(0,1,1)、(1,0,1) |  |
+| (True bifurcation) | 需要完整覆蓋側枝開口的情況 |  |
+| **相似分支直徑** | 主支與側枝直徑差異<1.5mm |  |
+|  | **理想：**兩分支直徑接近 |  |
+|  | **避免：**直徑差>1.5mm（支架貼壁困難） |  |
+| **分叉角度** | **適合：** |  |
+|  | • 分叉角度<70度 |  |
+|  | • Y形分叉 |  |
+|  | **次佳：** |  |
+|  | • 寬角度分叉（>70度） |  |
+|  | • 配線困難度增加 |  |
+|  | • 獨立預測因子：寬角度與再狹窄相關 |  |
+| **血管準備良好** | 充分預擴張，無明顯鈣化 |  |
+|  | 確保支架能順利通過 |  |
+| **左主幹分叉** | **特別適合：** |  |
+|  | • 左主幹-左前降支-左迴旋支分叉 |  |
+|  | • Single-cell DK-Culotte適用於左主幹 |  |
+|  | • 可搭配IVUS/OCT影像導引 |  |
+| **Carpenter II型MR** | 主支病變<15mm，側枝病變<10mm |  |
+| (Stent length) | 較短病變的支架重疊區域較小 |  |
+
+
+### 相對禁忌症
+
+
+| |p{10cm}|} Culotte技術的限制與禁忌 |  |  |
+| --- | --- | --- |
+| **情況** | **原因與替代方案** |  |
+| **直徑明顯不匹配** | 近端主支與側枝直徑差>1.5mm |  |
+|  | **問題：** |  |
+|  | • 側枝支架在近端主支貼壁不良 |  |
+|  | • 金屬層過多 |  |
+|  | **替代：**考慮Crush或T-stenting |  |
+| **極寬分叉角度** | 分叉角度>90度 |  |
+|  | **問題：** |  |
+|  | • 配線極度困難 |  |
+|  | • 支架變形嚴重 |  |
+|  | **替代：**T-stenting/TAP更適合 |  |
+| **嚴重鈣化病變** | 無法充分預擴張 |  |
+|  | **問題：** |  |
+|  | • 支架無法通過 |  |
+|  | • 配線困難 |  |
+|  | **處理：** |  |
+|  | • 先進行充分的病變準備 |  |
+|  | • 考慮旋磨術(Rotablation) |  |
+|  | • 或選擇較簡單技術 |  |
+| **極小側枝** | 側枝直徑<2.0mm |  |
+|  | **問題：** |  |
+|  | • 配線困難 |  |
+|  | • 支架釋放困難 |  |
+|  | • 小血管再狹窄率高 |  |
+|  | **替代：**單支架策略可能更佳 |  |
+| **術者經驗不足** | 需要豐富的分叉病變處理經驗 |  |
+|  | **問題：** |  |
+|  | • 技術要求高 |  |
+|  | • 學習曲線陡峭 |  |
+|  | • 失敗風險增加 |  |
+|  | **建議：** |  |
+|  | • 先從單支架或T-stenting開始 |  |
+|  | • 在導師指導下學習 |  |
+|  | • 考慮參加工作坊 |  |
+
+
+## 常見問題與Troubleshooting
+
+
+### 配線困難
+
+
+| |p{10cm}|} 配線問題處理 |  |  |
+| --- | --- | --- |
+| **問題** | **原因與解決方法** |  |
+| **無法穿過支架格子** | **可能原因：** |  |
+|  | • 格子太小 |  |
+|  | • 角度不佳 |  |
+|  | • 支架壓扁 |  |
+|  | **解決方法：** |  |
+|  | 1. 使用pullback技術 |  |
+|  | 2. 塑形導線尖端弧度 |  |
+|  | 3. 先用小球囊(1.5-2.0mm)擴張格子 |  |
+|  | 4. 更換較細的導線 |  |
+|  | 5. 考慮使用IVUS/OCT確認格子位置 |  |
+| **導線在支架下方** | **確認方法：** |  |
+| (Sub-stent wire) | • 導線無法深入遠端 |  |
+|  | • 透視角度改變時導線軌跡異常 |  |
+|  | • 推送球囊時感覺阻力異常 |  |
+|  | **預防與處理：** |  |
+|  | 1. 配線前先確認導線在原支架內 |  |
+|  | - 將導線推到遠端確認 |  |
+|  | 2. 如已在支架下方： |  |
+|  | - 立即重新配線 |  |
+|  | - 不要釋放支架 |  |
+|  | 3. POT有助於預防此問題 |  |
+| **難以選擇正確格子** | **選擇原則（關鍵）：** |  |
+|  | **主支配線(步驟6)：**選擇遠端偏側格子（distal cell） |  |
+|  | • 原因：減少對側枝支架的干擾 |  |
+|  | **側枝配線(步驟11)：******必須選擇最遠端格子**** |  |
+|  | ****(most distal cell - 最重要！)**** |  |
+|  | • 原因：完整覆蓋側枝開口，降低再狹窄 |  |
+|  | • 位置：盡可能靠近隆突(carina) |  |
+|  | • **這是Culotte成功的關鍵步驟** |  |
+|  | **技巧：** |  |
+|  | • 使用pullback技術尋找最遠端格子 |  |
+|  | • 導線會自然傾向正確的格子 |  |
+|  | • 3D-OCT可協助精確定位 |  |
+|  | • 透視多角度觀察確認 |  |
+|  | • 參考3D reconstruction |  |
+|  | **常見錯誤：** |  |
+|  | • 側枝rewiring選擇proximal cell（錯誤！） |  |
+|  | • 會造成側枝開口gap與高再狹窄率 |  |
+
+
+### 支架相關問題
+
+
+| |p{10cm}|} 支架置放問題處理 |  |  |
+| --- | --- | --- |
+| **問題** | **處理方法** |  |
+| **支架無法通過** | **解決步驟：** |  |
+|  | 1. 確認病變已充分預擴張 |  |
+|  | 2. 檢查導引導管支撐是否足夠 |  |
+|  | 3. 考慮使用buddy wire技術 |  |
+|  | 4. 更換為低輪廓支架 |  |
+|  | 5. 評估是否需要旋磨術 |  |
+|  | 6. 考慮guide catheter extension使用 |  |
+| **支架位置不理想** | **預防：** |  |
+|  | • 使用清晰的透視角度 |  |
+|  | • 標記參考點 |  |
+|  | • 緩慢釋放，隨時可調整 |  |
+|  | **補救：** |  |
+|  | • 如支架僅部分釋放：立即回收 |  |
+|  | • 如完全釋放： |  |
+|  | - 評估臨床意義 |  |
+|  | - 必要時放置第二支架 |  |
+|  | - 或接受次佳結果 |  |
+| **支架貼壁不良** | **處理：** |  |
+| (Malapposition) | 1. 高壓後擴張(post-dilatation) |  |
+|  | 2. 使用NC球囊，18-20 atm |  |
+|  | 3. 確保POT與KBI正確執行 |  |
+|  | 4. IVUS/OCT確認結果 |  |
+|  | **預防：** |  |
+|  | • 準確測量血管直徑 |  |
+|  | • DK技術較傳統技術貼壁更好 |  |
+|  | • 充分的POT與KBI |  |
+
+
+### 併發症處理
+
+
+| |p{10cm}|} 常見併發症與處理 |  |  |
+| --- | --- | --- |
+| **併發症** | **識別與處理** |  |
+| **側枝閉塞** | **識別：** |  |
+|  | • TIMI血流<3 |  |
+|  | • 心電圖變化 |  |
+|  | • 胸痛 |  |
+|  | **處理：** |  |
+|  | 1. 立即重新配線側枝 |  |
+|  | 2. 球囊擴張側枝 |  |
+|  | 3. 必要時放置支架 |  |
+|  | 4. 考慮GP IIb/IIIa抑制劑 |  |
+|  | 5. 血栓抽吸（如有血栓） |  |
+| **血管破裂/穿孔** | **高風險情況：** |  |
+|  | • 過度aggressive的高壓擴張 |  |
+|  | • 導線穿孔 |  |
+|  | • 鈣化病變 |  |
+|  | **處理：** |  |
+|  | 1. 立即以球囊封閉 |  |
+|  | 2. 反轉抗凝 |  |
+|  | 3. 必要時使用covered stent |  |
+|  | 4. 監測心包積液 |  |
+|  | 5. 準備心包引流 |  |
+| **慢血流/無復流** | **預防：** |  |
+| (Slow/no-reflow) | • 避免過度aggressive操作 |  |
+|  | • 考慮預防性用藥 |  |
+|  | **處理：** |  |
+|  | 1. 冠狀動脈內硝化甘油(100-200mcg) |  |
+|  | 2. 冠狀動脈內adenosine (60-180mcg) |  |
+|  | 3. 冠狀動脈內verapamil (100-200mcg) |  |
+|  | 4. 支持性治療 |  |
+|  | 5. 必要時IABP支持 |  |
+
+
+## 影像導引與評估
+
+
+### 血管內超音波(IVUS)的應用
+
+
+| |p{10cm}|} IVUS在Culotte技術中的角色 |  |  |
+| --- | --- | --- |
+| **階段** | **IVUS的應用** |  |
+| **術前評估** | **測量與評估：** |  |
+|  | • 精確測量血管直徑（近端、遠端主支、側枝） |  |
+|  | • 評估斑塊負荷與分布 |  |
+|  | • 確認最小管腔面積(MLA) |  |
+|  | • 評估鈣化程度與位置 |  |
+|  | • 決定支架尺寸與長度 |  |
+| **術中導引** | **配線確認：** |  |
+|  | • 確認導線在支架內而非支架下方 |  |
+|  | • 選擇最佳的配線格子 |  |
+|  | **支架釋放：** |  |
+|  | • 確認支架位置正確 |  |
+|  | • 評估支架擴張程度 |  |
+| **術後評估** | **優化評估：** |  |
+|  | • 支架貼壁(apposition) |  |
+|  | • 支架擴張(expansion) |  |
+|  | • MLA是否足夠（≥4.5mm² for LM, ≥2.5mm² for non-LM） |  |
+|  | • 識別邊緣dissection |  |
+|  | • 確認無支架扭曲(distortion) |  |
+|  | **指導進一步處理：** |  |
+|  | • 需要額外後擴張 |  |
+|  | • 調整POT策略 |  |
+
+
+### 光學同調斷層掃描(OCT/OFDI)的應用
+
+
+| |p{10cm}|} OCT在Culotte技術中的優勢 |  |  |
+| --- | --- | --- |
+| **應用** | **OCT的特殊優勢** |  |
+| **配線導引** | **3D-OCT重建：** |  |
+|  | • 預先定義最佳配線格子 |  |
+|  | • 即時確認配線位置 |  |
+|  | • 研究顯示：OCT導引配線成功率顯著提高 |  |
+|  | - OFDI組：近100 |  |
+|  | - 透視組：約60-70 |  |
+| **支架貼壁評估** | **高解析度：** |  |
+|  | • 識別微小的貼壁不良(ISA) |  |
+|  | • 解析度10-20μm（vs IVUS 100-150μm） |  |
+|  | • 精確測量ISA的深度與範圍 |  |
+|  | • 評估支架struts coverage |  |
+| **隆突評估** | **詳細視覺化：** |  |
+|  | • Polygon of confluence評估 |  |
+|  | • Neocarina形態 |  |
+|  | • 支架重疊區域的詳細結構 |  |
+|  | • 識別未覆蓋的區域 |  |
+| **KBI效果評估** | **即時反饋：** |  |
+|  | • KBI前後比較 |  |
+|  | • 評估支架形態改善 |  |
+|  | • 指導球囊尺寸與壓力調整 |  |
+
+
+## 臨床結果與證據
+
+
+### 主要臨床試驗結果
+
+
+| |p{4cm}|p{7cm}|} Culotte技術的重要臨床研究 |  |  |
+| --- | --- | --- |
+| **研究** | **設計** | **主要發現** |
+| **Nordic Stent** | RCT: Culotte vs | 6個月MACE：Crush 4.3 |
+| **Technique** | Crush | (P=0.87) |
+| **Study (2009)** | n=424 | 8個月再狹窄：Crush 12.1 |
+|  |  | **結論：**兩技術臨床結果相似，Culotte |
+|  |  | 支架內再狹窄率較低 |
+| **COBIS** | Registry | Final KBI降低長期MACE、MI、支架血栓 |
+| **Registry** | Kissing balloon | **結論：**雙支架策略中Final KBI重要 |
+| **Adriaenssens** | Prospective | 12個月TLR率：21 |
+| **et al (2008)** | Culotte DES | 支架血栓率：1.5 |
+|  | n=134 | KBI有保護作用趨勢 |
+|  |  | **結論：**Culotte技術成功率高，再狹 |
+|  |  | 窄率可接受 |
+| **DK-Culotte** | Bench test | 支架貼壁不良率：DK-Culotte < Culotte |
+| **Study (2018)** | + Clinical | < DK-Crush |
+|  |  | 近端主支與隆突頂部改善最明顯 |
+|  |  | **結論：**DK技術優於傳統技術 |
+| **DKCRUSH-III** | RCT: DK-Crush | 12個月TLR：DK-Crush 6.2 |
+| **(2013)** | vs Culotte | 16.3 |
+|  | LM bifurcation | **結論：**左主幹病變，DK-Crush優於 |
+|  | n=419 | 傳統Culotte（但與DK-Culotte未比較） |
+| **BBK II Trial** | RCT: TAP vs | 1年TLR：TAP 12.0 |
+|  | Culotte | 再狹窄率：TAP 17 |
+|  | n=300 | **結論：**Culotte再狹窄率低於TAP |
+
+
+### 長期結果與預後因子
+
+
+| |p{10cm}|} Culotte技術的長期結果 |  |  |
+| --- | --- | --- |
+| **結果指標** | **數據與預後因子** |  |
+| **手術成功率** | **優秀：** |  |
+|  | • 手術成功率：>95 |  |
+|  | • 支架釋放成功率：近100 |  |
+|  | • KBI成功率：62-100 |  |
+| **短期併發症** | **可接受：** |  |
+|  | • 手術相關MI：8-15 |  |
+|  | • 急性支架血栓：<1 |  |
+|  | • 側枝閉塞：2-5 |  |
+| **中期結果** | **8-12個月：** |  |
+|  | • 整體再狹窄率：6-22 |  |
+|  | • 支架內再狹窄：4.5-10.5 |  |
+|  | • 近端主支再狹窄：0-2 |  |
+|  | • 遠端主支再狹窄：5-9 |  |
+|  | • 側枝再狹窄：10-16 |  |
+| **長期結果** | **3-5年：** |  |
+|  | • TLR：10-21 |  |
+|  | • MACE：15-25 |  |
+|  | • 晚期支架血栓：1-2 |  |
+|  | **DK-Culotte：** |  |
+|  | • 5年MACE較低 |  |
+|  | • 支架血栓率未增加 |  |
+| **良好預後因子** | **與較佳結果相關：** |  |
+|  | • ****側枝distal cell rewiring（最重要）**** |  |
+|  | • 成功的最終KBI |  |
+|  | • 充分的POT |  |
+|  | • 使用新一代DES |  |
+|  | • 較小的分叉角度(<70度) |  |
+|  | • IVUS/OCT導引rewiring |  |
+|  | • 有經驗的術者 |  |
+|  | • DK技術 vs 傳統技術 |  |
+| **不良預後因子** | **與較差結果相關：** |  |
+|  | • ****側枝proximal cell rewiring（嚴重錯誤！）**** |  |
+|  | • 較大的分叉角度(>70度) |  |
+|  | • 嚴重遠端主支狹窄 |  |
+|  | • 較小的側枝直徑 |  |
+|  | • 年齡較大 |  |
+|  | • 糖尿病 |  |
+|  | • 急性冠心症表現 |  |
+|  | • 未進行最終KBI |  |
+|  | • 側枝開口有gap（rewiring位置不當導致） |  |
+
+
+## 實用技巧與建議
+
+
+### 成功的關鍵要素
+
+
+> enumerate
+>     \item **適當的病例選擇**：真正分叉病變，分支直徑相近
+>     \item **充分的病變準備**：預擴張、處理鈣化
+>     \item **正確的支架尺寸**：根據遠端分支選擇，不要oversizing
+>     \item **優先stenting角度較大的分支**：便於第二次配線
+>     \item **每次支架後POT**：三次POT不嫌多
+>     \item **主支配線選近端格子**：減少對側枝支架的影響
+>     \item ****側枝配線選最遠端格子********（最關鍵！）****：****完整覆蓋側枝開口****
+>     \item **確實執行KBI**：尤其是最終KBI，同時放氣
+>     \item **最終POT位置正確**：更近端，避免壓迫新隆突
+>     \item **影像導引**：IVUS/OCT優化結果，特別是確認rewiring位置
+> enumerate
+> ****特別強調：****側枝的distal cell rewiring是決定Culotte成功與否的最關鍵步驟！選錯格子會導致側枝開口gap，顯著增加再狹窄風險。
+
+
+### 學習曲線建議
+
+
+| |p{11cm}|} Culotte技術學習路徑 |  |  |
+| --- | --- | --- |
+| **階段** | **建議** |  |
+| **初學階段** | **建議起始病例：** |  |
+| (0-10例) | • 非左主幹分叉 |  |
+|  | • 分叉角度<70度 |  |
+|  | • 無嚴重鈣化 |  |
+|  | • 分支直徑差<1mm |  |
+|  | • 有經驗者指導 |  |
+|  | **學習重點：** |  |
+|  | • 掌握基本步驟 |  |
+|  | • 配線技巧 |  |
+|  | • POT與KBI執行 |  |
+| **進階階段** | **可嘗試：** |  |
+| (10-30例) | • 較複雜的分叉角度 |  |
+|  | • 左主幹分叉（非高風險） |  |
+|  | • DK-Culotte技術 |  |
+|  | **學習重點：** |  |
+|  | • 併發症處理 |  |
+|  | • 影像導引應用 |  |
+|  | • 優化技巧 |  |
+| **熟練階段** | **可處理：** |  |
+| (>30例) | • 各類複雜分叉 |  |
+|  | • 高風險左主幹 |  |
+|  | • 救援病例 |  |
+|  | **持續改進：** |  |
+|  | • 參加工作坊 |  |
+|  | • 文獻更新 |  |
+|  | • 教學傳承 |  |
+
+
+### 設備與器材建議
+
+
+| |p{10cm}|} Culotte技術推薦器材 |  |  |
+| --- | --- | --- |
+| **器材類別** | **建議規格與品牌** |  |
+| **導引導管** | **尺寸：** |  |
+| (Guide catheter) | • 6F或7F（7F較佳，尤其左主幹） |  |
+|  | • 8F（Single-cell DK-Culotte） |  |
+|  | **類型：** |  |
+|  | • Extra support (EBU, XB, AL) |  |
+|  | • Side-hole catheter（減少阻塞） |  |
+|  | **輔助：** |  |
+|  | • Guide catheter extension（複雜病例） |  |
+| **導線** | **主力導線：** |  |
+| (Guidewire) | • Workhorse wire (BMW, Sion Blue, Runthrough) |  |
+|  | • 0.014" 直徑 |  |
+|  | • Polymer jacket |  |
+|  | **配線導線：** |  |
+|  | • Choice PT, Pilot 150 |  |
+|  | • 可塑形尖端 |  |
+|  | • 良好的torque response |  |
+| **球囊** | **預擴張：** |  |
+| (Balloon) | • Semi-compliant, 尺寸根據血管 |  |
+|  | **POT：** |  |
+|  | • NC或SC balloon |  |
+|  | • 短球囊(6-8mm) |  |
+|  | • 尺寸=近端主支直徑 |  |
+|  | **KBI：** |  |
+|  | • NC balloon |  |
+|  | • 短球囊(8-12mm) |  |
+|  | • 尺寸=遠端分支直徑 |  |
+|  | • 同一品牌（同步性佳） |  |
+| **支架** | **新一代DES：** |  |
+| (Stent) | • Everolimus-eluting (Xience, Synergy) |  |
+|  | • Zotarolimus-eluting (Resolute) |  |
+|  | • Sirolimus-eluting |  |
+|  | **支架特性：** |  |
+|  | • 薄支柱(<80μm) |  |
+|  | • 良好的側枝通路性 |  |
+|  | • 適度的radial strength |  |
+|  | **避免：** |  |
+|  | • Bioresorbable scaffolds（不建議用於Culotte） |  |
+| **影像工具** | **IVUS：** |  |
+| (Imaging) | • 術前測量 |  |
+|  | • 術後優化 |  |
+|  | **OCT/OFDI：** |  |
+|  | • 配線導引 |  |
+|  | • 支架貼壁評估 |  |
+|  | • 高解析度評估 |  |
+|  | **建議：**複雜病例或左主幹常規使用 |  |
+
+
+## 未來發展趨勢
+
+
+### 技術演進
+
+
+| |p{10cm}|} Culotte技術的未來方向 |  |  |
+| --- | --- | --- |
+| **領域** | **發展趨勢** |  |
+| **DK技術普及** | **趨勢：** |  |
+|  | • DK-Culotte逐漸成為標準 |  |
+|  | • 更多中心採用 |  |
+|  | • 納入指引建議 |  |
+|  | **改進：** |  |
+|  | • 簡化步驟 |  |
+|  | • 優化時機 |  |
+|  | • 標準化protocol |  |
+| **影像導引** | **發展：** |  |
+|  | • 3D-OCT更普及 |  |
+|  | • AI輔助配線選擇 |  |
+|  | • 即時blood flow評估 |  |
+|  | • Virtual simulation |  |
+|  | **目標：** |  |
+|  | • 提高成功率 |  |
+|  | • 降低併發症 |  |
+|  | • 縮短手術時間 |  |
+| **專用器材** | **研發方向：** |  |
+|  | • 分叉專用支架 |  |
+|  | • 預先塑形的支架 |  |
+|  | • 更薄的支柱 |  |
+|  | • 改良的球囊（bifurcation balloon） |  |
+|  | **挑戰：** |  |
+|  | • Tryton支架RCT未顯示優勢 |  |
+|  | • 需要更多創新設計 |  |
+| **機器人輔助** | **可能應用：** |  |
+|  | • Robotic PCI系統 |  |
+|  | • 精確的配線控制 |  |
+|  | • 標準化操作 |  |
+|  | • 遠程手術可能性 |  |
+
+
+### 臨床研究需求
+
+
+仍有許多問題需要進一步研究：
+
+
+1. **DK-Culotte vs DK-Crush**：需要head-to-head RCT比較
+2. **影像導引的成本效益**：常規IVUS/OCT是否justified
+3. **最佳抗血小板策略**：DAPT持續時間
+4. **新一代支架**：超薄支柱、生物可吸收polymer的影響
+5. **預後模型**：建立準確的風險預測工具
+6. **人工智慧應用**：AI輔助決策與操作
+
+
+## 結論
+
+
+> **Culotte技術特點：**
+> itemize
+>     \item 成熟的雙支架技術，適用於真正分叉病變
+>     \item 提供完整的隆突與側枝開口覆蓋
+>     \item 技術要求高，需要豐富經驗
+>     \item DK-Culotte改良版提供更佳的支架貼壁
+> itemize
+> **成功關鍵：**
+> itemize
+>     \item 適當的病例選擇（分支直徑相近，角度適中）
+>     \item 充分的病變準備
+>     \item ****掌握rewiring技巧：主支選proximal cell，側枝必選most distal cell****
+>     \item ****側枝distal cell rewiring是決定成敗的最關鍵步驟****
+>     \item 確實執行POT與KBI
+>     \item 影像導引優化（IVUS/OCT），特別是確認rewiring位置
+> itemize
+> **臨床結果：**
+> itemize
+>     \item 高手術成功率（>95
+>     \item 可接受的再狹窄率（6-22
+>     \item 低支架血栓率（1-2
+>     \item 與其他雙支架技術相當或更佳
+>     \item 正確的distal rewiring可顯著降低側枝再狹窄
+> itemize
+> **常見錯誤與預防：**
+> itemize
+>     \item ****最嚴重錯誤：側枝rewiring選擇proximal cell****
+>     \item 後果：側枝開口gap、高再狹窄率、需再次介入
+>     \item 預防：使用pullback技術、OCT導引、多角度透視確認
+> itemize
+
+
+## 參考文獻
+
+
+1. Chevalier B, Glatt B, Royer T, Guyon P. Placement of coronary stents in bifurcation lesions by the "culotte" technique. [*Am J Cardiol](https://pubmed.ncbi.nlm.nih.gov/9794349/). 1998;82(8):943-949.*
+2. Erglis A, Kumsars I, Niemelä M, et al. Randomized comparison of coronary bifurcation stenting with the crush versus the culotte technique using sirolimus eluting stents: the Nordic stent technique study. [*Circ Cardiovasc Interv](https://doi.org/10.1161/CIRCINTERVENTIONS.108.804658). 2009;2(1):27-34.*
+3. Adriaenssens T, Byrne RA, Dibra A, et al. Culotte stenting technique in coronary bifurcation disease: angiographic follow-up using dedicated quantitative coronary angiographic analysis and 12-month clinical outcomes. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehn512). 2008;29(23):2868-2876.*
+4. Burzotta F, Lassen JF, Banning AP, et al. Percutaneous coronary intervention in left main coronary artery disease: the 13th consensus document from the European Bifurcation Club. [*EuroIntervention](https://eurointervention.pcronline.com). 2018;14(1):112-120.*
+5. Burzotta F, Talarico GP, Trani C, et al. Double-kissing culotte technique for coronary bifurcation stenting: technical evaluation and comparison with conventional double-stenting techniques. [*EuroIntervention](https://eurointervention.pcronline.com/article/double-kissing-culotte-technique-for-coronary-bifurcation-stenting-technical-evaluation-and-comparison-with-conventional-double-stenting-techniques). 2018;14(8):e888-e896.*
+6. Çizgici AY, Ertürk M, Kahraman S. A novel single-cell, double-kissing culotte technique for left main bifurcation stenting. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2022.01.017). 2022;15(6):692-694.*
+7. Sgueglia GA, Chevalier B. Kissing balloon inflation in percutaneous coronary interventions. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2012.06.005). 2012;5(8):803-811.*
+8. Gwon HC, Hahn JY, Koo BK, et al. Final kissing ballooning and long-term clinical outcomes in coronary bifurcation lesions treated with 1-stent technique: results from the COBIS registry. [*Heart](https://doi.org/10.1136/heartjnl-2011-300322). 2012;98(3):225-231.*
+9. Murasato Y, Hikichi Y, Horiuchi M. Optimal kissing balloon inflation after single-stent deployment in a coronary bifurcation model. [*EuroIntervention](https://eurointervention.pcronline.com/article/optimal-kissing-balloon-inflation-after-single-stent-deployment-in-a-coronary-bifurcation-model). 2014;9(11):1284-1293.*
+10. Chen SL, Xu B, Han YL, et al. Comparison of double kissing crush versus Culotte stenting for unprotected distal left main bifurcation lesions: results from a multicenter, randomized, prospective DKCRUSH-III study. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2013.04.066). 2013;61(14):1482-1488.*
+11. Tu S, Zhang L, Tian Q, et al. Five-year outcomes of double kissing mini-culotte stenting vs. mini-culotte stenting using drug-eluting stents for the treatment of true coronary bifurcation lesions. [*Front Cardiovasc Med](https://doi.org/10.3389/fcvm.2024.1336750). 2024;11:1336750.*
+12. Latib A, Colombo A. Bifurcation disease: what do we know, what should we do? [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2008.04.001). 2008;1(3):218-226.*
+13. Foin N, Secco GG, Ghilencea L, et al. Final proximal post-dilatation is necessary after kissing balloon in bifurcation stenting. [*EuroIntervention](https://eurointervention.pcronline.com). 2011;7(5):597-604.*
+14. Hildick-Smith D, Behan MW, Lassen JF, et al. The EBC TWO Study (European Bifurcation Coronary TWO): a randomized comparison of provisional T-stenting versus a systematic 2 stent culotte strategy in large caliber true bifurcations. [*Circ Cardiovasc Interv](https://doi.org/10.1161/CIRCINTERVENTIONS.115.003643). 2016;9(11):e003643.*
+15. Banning AP, Lassen JF, Burzotta F, et al. Percutaneous coronary intervention for obstructive bifurcation lesions: the 14th consensus document from the European Bifurcation Club. [*EuroIntervention](https://eurointervention.pcronline.com). 2019;15(1):90-98.*
+16. Kumsars I, Holm NR, Niemelä M, et al. Technical aspects of the culotte technique. [*EuroIntervention](https://eurointervention.pcronline.com/article/technical-aspects-of-the-culotte-technique). 2020;16(8):e646-e652.*
+17. Lowe R, Javaid A, Shabbir A, et al. Contemporary approaches to bifurcation stenting. [*Open Heart](https://doi.org/10.1136/openhrt-2020-001474). 2021;8(1):e001474.*
+18. Takahashi Y, Ito T, Nitta N, et al. Importance of optimal rewiring guided by 3-dimensional optical frequency domain imaging during double-kissing culotte stenting demonstrated through a novel bench model. [*Sci Rep](https://doi.org/10.1038/s41598-023-40606-7). 2023;13(1):13621.*
+19. Lowe R, Javaid A, Shabbir A, et al. Contemporary approaches to bifurcation stenting. [*Open Heart](https://doi.org/10.1136/openhrt-2020-001474). 2021;8(1):e001474.*
+20. Murasato Y. How to use three-dimensional optical coherence tomography effectively in coronary bifurcation stenting. [*Front Cardiovasc Med](https://doi.org/10.3389/fcvm.2022.1023834). 2022;9:1023834.*
+
+
+**關鍵詞：**冠狀動脈分叉病變、Culotte支架技術、Double-kissing技術、Kissing balloon inflation、近端優化技術、經皮冠狀動脈介入治療

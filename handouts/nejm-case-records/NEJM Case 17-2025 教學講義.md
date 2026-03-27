@@ -1,0 +1,242 @@
+# https://www.nejm.org/doi/full/10.1056/NEJMcpc2412510
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+
+{**[Case 17-2025: A 61-Year-Old Man with Respiratory Failure and Shock after Kidney Transplantation](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412510)**
+[0.5cm]
+{**病例 17-2025：腎移植後呼吸衰竭與休克**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2412510](https://doi.org/10.1056/NEJMcpc2412510)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 17-2025: A 61-Year-Old Man with Respiratory Failure and Shock after Kidney Transplantation》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412510)而製作，請先取得該文獻後，搭配本文件自學。已有基礎的同事，請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一名61歲男性因急性低氧性呼吸衰竭（acute hypoxemic respiratory failure）及休克（shock）轉入本院。患者10週前因高血壓腎硬化相關末期腎病（hypertensive nephrosclerosis-related end-stage kidney disease）接受屍腎移植，手術後接受抗胸腺細胞球蛋白（antithymocyte globulin）誘導治療，出現延遲性移植物功能（delayed graft function）伴高鉀血症，需2次血液透析，並有尿滯留。術後第4天出院，處方口服prednisone、tacrolimus、mycophenolate sodium、trimethoprim-sulfamethoxazole及valganciclovir。
+
+移植後6週（入院前4週），移植門診追蹤顯示肌酐（creatinine）1.60 mg/dL（參考範圍0.60–1.50 mg/dL），糖化血紅蛋白7.7
+
+隨後1週，患者出現疲倦、噁心、嘔吐、口渴及多尿，門診檢查顯示血糖519 mg/dL（參考範圍70–100 mg/dL），轉至其他醫院住院。入院時體溫36.8°C，心率108次/分，血壓127/74 mm Hg，呼吸率26次/分，氧飽和度97
+
+轉入本院時，患者出現腹脹、腸阻塞（ileus）、紫斑疹（purpuric rash，圖2）、嗜睡及低血壓（81/53 mm Hg）。實驗室檢查顯示白細胞24,600/μL、嗜酸性粒細胞980/μL、肌酐2.35 mg/dL及血糖369 mg/dL（表1）。胸部X光顯示雙側間質及肺泡影（圖3A），腹部X光顯示腸道脹氣（圖3B）。繼續給予vancomycin、meropenem及methylene blue，進行診斷性檢查。
+
+
+患者無典型感染徵象（發燒、膿性分泌物），伴嗜酸性粒細胞增多（eosinophilia）及紫斑疹，提示非細菌性感染，需考慮寄生蟲感染。
+
+
+## 鑑別診斷
+
+
+### 診斷框架
+
+採用「拼圖啟發法」（jigsaw heuristics）進行診斷推理，分為四階段：
+
+- **拆箱（Unboxing）**：列出臨床問題，包括呼吸衰竭、休克、嗜酸性粒細胞增多、急性腎損傷、腸阻塞、紫斑疹。
+- **邊角（Corners and Edges）**：識別時間軸：腎移植後10週發病，急性惡化。
+- **地標（Landmarks）**：聚焦關鍵症候群，如嗜酸性粒細胞增多、肺部毛玻璃影、紫斑疹。
+- **橋接（Bridging）**：整合症候群，尋找統一診斷。
+
+
+### 感染性疾病
+
+免疫抑制患者（prednisone、tacrolimus、mycophenolate）易感多種感染，包括：
+
+- **院內感染**：如肺炎或尿路感染，但無典型細菌感染徵象。
+- **社區感染**：貓抓傷相關感染（如Bartonella、Pasteurella、Capnocytophaga），但抗生素治療無效，可能性低。
+- **機會感染**：如Pneumocystis jirovecii、Toxoplasma gondii，但trimethoprim-sulfamethoxazole預防降低風險。
+- **潛伏感染復發**：如結核或巨細胞病毒（CMV），但CMV DNA陰性。
+- **供者來源感染**：如寄生蟲感染（Strongyloides），與嗜酸性粒細胞增多及多器官受累一致。
+
+
+### 非感染性疾病
+
+需考慮藥物反應（如semaglutide引發腸阻塞）、移植物排斥或非感染性肺病變（如肺水腫）。但嗜酸性粒細胞增多及紫斑疹不支持這些診斷。
+
+
+### 寄生蟲感染
+
+嗜酸性粒細胞增多（980/μL，正常0–900）在服用prednisone患者中罕見，提示寄生蟲感染。可能的病原包括：
+
+- **Toxocara**：無嚴重全身症狀，不符。
+- **Pneumocystis jirovecii/Toxoplasma gondii**：預防性抗生素降低風險。
+- **Strongyloides stercoralis**：供者來源播散性感染（disseminated strongyloidiasis）可致肺、皮膚及腸道受累，與臨床表現高度一致。
+
+
+importantbox
+**重要提醒：** 移植後免疫抑制患者出現嗜酸性粒細胞增多及多器官衰竭，需高度懷疑供者來源寄生蟲感染，立即聯繫器官採購組織。
+importantbox
+
+
+### 統一診斷
+
+嗜酸性粒細胞增多、紫斑疹、肺部毛玻璃影及腸阻塞提示供者來源播散性類圓線蟲病（disseminated strongyloidiasis），需氣管分泌物及皮膚活檢確認。
+
+
+## 病理學討論
+
+
+### 病理檢查
+
+氣管分泌物革蘭氏染色顯示多個嗜酸性粒細胞及圓線蟲幼蟲（250–300 μm長，18–25 μm寬，圖4A），符合類圓線蟲（Strongyloides stercoralis）第一、二期桿狀幼蟲。腹部紫斑疹4-mm皮膚活檢顯示真皮膠原中散在圓線蟲（12.5 μm寬，圖4B、4C），符合第三期絲狀幼蟲。肺及皮膚均有幼蟲診斷播散性類圓線蟲病。供腎冷凍切片（圖4D）無類圓線蟲證據，但樣本限制無法排除腎來源感染。
+
+
+### 供者調查
+
+供者來自加勒比海，未篩查類圓線蟲，事後血清學檢查陽性。受者移植前血清學陰性，確認供者來源感染。另一腎受者（66歲男性）糞便檢查顯示桿狀幼蟲（圖4E），證實相同供者來源感染。
+
+
+### 病理診斷
+
+供者來源播散性類圓線蟲病（donor-derived disseminated strongyloidiasis）。
+
+
+## 治療討論
+
+
+### 抗寄生蟲治療
+
+播散性類圓線蟲病治療挑戰，因僅口服ivermectin獲FDA批准，腸阻塞降低吸收。本患者接受口服ivermectin（21 mg/日）、皮下ivermectin（21 mg/日，需倫理及FDA批准）及albendazole（400 mg，每12小時）共1個月，隨後口服ivermectin每月1次，共6個月。給予vancomycin及meropenem預防細菌感染。HTLV-1檢測陰性，無免疫清除障礙。
+
+
+### 移植管理
+
+發病時停用mycophenolate sodium及tacrolimus，給予應激劑量glucocorticoid。病情穩定後恢復tacrolimus，6週後恢復mycophenolate sodium。BK病毒血症導致mycophenolate減量，移植物功能穩定（肌酐1.8–2.2 mg/dL）。
+
+
+類圓線蟲病需長程治療，監測腸道寄生蟲負荷，並預防細菌血症，移植藥物調整需平衡感染控制及移植物功能。
+
+
+## 住院病程
+
+
+### 病情進展
+
+本患者接受抗寄生蟲治療後，呼吸衰竭及休克改善，拔管並轉出ICU。另一腎受者接受ivermectin（200 μg/kg/日）及albendazole，10天內腎功能恢復，糞便檢查轉陰。
+
+
+### 結局
+
+本患者11個月後腎功能穩定，無類圓線蟲復發。另一受者完成1個月治療，無復發，腎功能正常。
+
+
+## 最終診斷
+
+供者來源播散性類圓線蟲病（donor-derived disseminated strongyloidiasis）。
+
+
+## 考題
+
+
+以下為針對本病例的十道選擇題，旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 本病例患者的主要臨床表現不包括：     enumerate[label=\alph*)]
+2. 呼吸衰竭 (respiratory failure)
+3. 休克 (shock)
+4. 發燒 (fever)
+5. 嗜酸性粒細胞增多 (eosinophilia)
+
+
+    \item 患者胸部CT顯示的關鍵異常是：
+    
+1. 縱膈淋巴結病 (mediastinal lymphadenopathy)
+2. 廣泛間質及毛玻璃影 (extensive interstitial and ground-glass opacities)
+3. 肺結節 (pulmonary nodules)
+4. 氣胸 (pneumothorax)
+
+
+    \item 以下哪項特徵最不支持細菌性肺炎診斷？
+    
+1. 無發燒 (absence of fever)
+2. 咳嗽 (cough)
+3. 肺部毛玻璃影 (ground-glass opacities)
+4. 白細胞增多 (leukocytosis)
+
+
+    \item 類圓線蟲病的典型併發症包括：
+    
+1. 腸阻塞 (ileus)
+2. 腎積水 (hydronephrosis)
+3. 腦膜炎 (meningitis)
+4. 心肌炎 (myocarditis)
+
+
+    \item 患者嗜酸性粒細胞增多的最可能診斷是：
+    
+1. 細菌性敗血症 (bacterial sepsis)
+2. 供者來源類圓線蟲病 (donor-derived strongyloidiasis)
+3. 藥物反應 (drug reaction)
+4. 移植物排斥 (allograft rejection)
+
+
+    \item 類圓線蟲病的主要診斷方法是：
+    
+1. 胸部CT
+2. 氣管分泌物及皮膚活檢 (tracheal aspirate and skin biopsy)
+3. 血清學檢查
+4. 糞便培養
+
+
+    \item 類圓線蟲病的治療措施不包括：
+    
+1. Ivermectin
+2. Albendazole
+3. Acyclovir
+4. Vancomycin
+
+
+    \item 患者紫斑疹的最可能原因是：
+    
+1. 細菌感染
+2. 類圓線蟲幼蟲侵入皮膚
+3. 藥物過敏
+4. 血小板減少
+
+
+    \item 患者腸阻塞的最可能來源是：
+    
+1. 類圓線蟲腸道感染
+2. Semaglutide副作用
+3. 手術粘連
+4. 細菌性腸炎
+
+
+    \item 本病例最終診斷是：
+    
+1. 細菌性敗血症
+2. 供者來源類圓線蟲病
+3. 肺水腫
+4. CMV感染
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案：c) 發燒 (fever)**      **詳解：** 患者表現為呼吸衰竭、休克及嗜酸性粒細胞增多，無持續高燒，與典型細菌感染不同，提示寄生蟲感染。
+2. **正確答案：b) 廣泛間質及毛玻璃影 (extensive interstitial and ground-glass opacities)**      **詳解：** 胸部CT顯示廣泛間質及毛玻璃影，伴縱膈淋巴結病，無肺結節或氣胸。
+3. **正確答案：a) 無發燒 (absence of fever)**      **詳解：** 無發燒、膿性分泌物及典型細菌感染徵象，不支持細菌性肺炎。咳嗽、毛玻璃影及白細胞增多為非特異性表現。
+4. **正確答案：a) 腸阻塞 (ileus)**      **詳解：** 類圓線蟲病可因腸道寄生蟲負荷導致腸阻塞，腎積水、腦膜炎或心肌炎非典型併發症。
+5. **正確答案：b) 供者來源類圓線蟲病 (donor-derived strongyloidiasis)**      **詳解：** 嗜酸性粒細胞增多、多器官受累及免疫抑制狀態提示類圓線蟲病。細菌性敗血症、藥物反應及移植物排斥無嗜酸性粒細胞增多。
+6. **正確答案：b) 氣管分泌物及皮膚活檢 (tracheal aspirate and skin biopsy)**      **詳解：** 氣管分泌物及皮膚活檢顯示類圓線蟲幼蟲為確診方法。CT、血清學及糞便檢查用於輔助診斷。
+7. **正確答案：c) Acyclovir**      **詳解：** 類圓線蟲病治療包括ivermectin、albendazole及抗細菌藥物（vancomycin），無需抗病毒藥物（acyclovir）。
+8. **正確答案：b) 類圓線蟲幼蟲侵入皮膚**      **詳解：** 紫斑疹由類圓線蟲幼蟲侵入皮膚引起，活檢確認。無細菌感染、藥物過敏或血小板減少證據。
+9. **正確答案：a) 類圓線蟲腸道感染**      **詳解：** 腸阻塞由類圓線蟲腸道感染引起，腹部X光顯示脹氣。Semaglutide、粘連或細菌性腸炎可能性低。
+10. **正確答案：b) 供者來源類圓線蟲病**      **詳解：** 最終診斷為供者來源播散性類圓線蟲病，由氣管分泌物、皮膚活檢及供者血清學確認。其他選項與臨床及病理結果不符。

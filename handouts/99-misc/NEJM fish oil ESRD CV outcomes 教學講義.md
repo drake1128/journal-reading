@@ -1,0 +1,393 @@
+# NEJM fish oil ESRD CV outcomes
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2013-11-28**
+
+---
+
+\maketitle
+\tableofcontents
+
+---
+
+
+## 研究概述 Overview
+
+
+PISCES（Protection against Incidences of Serious Cardiovascular Events Study）是一項針對維持性血液透析患者的大型多中心、隨機、雙盲、安慰劑對照試驗，評估每日魚油補充（4 g n-3多元不飽和脂肪酸）對嚴重心血管事件的預防效果。這是目前針對此族群規模最大、追蹤時間最長的omega-3脂肪酸臨床試驗。
+
+
+> **主要結果：**魚油組嚴重心血管事件發生率顯著降低43
+
+
+## 研究背景 Background
+
+
+### 血液透析患者心血管風險
+
+
+全球超過380萬人接受腎臟替代療法，其中大多數採用血液透析治療。心血管疾病影響超過三分之二的血液透析患者，並造成超過75
+
+
+### n-3多元不飽和脂肪酸的角色
+
+
+n-3多元不飽和脂肪酸降低心血管疾病風險的效應早在50年前即有報導，但其效果仍具爭議。近期研究顯示n-3脂肪酸可能降低一般人群心血管事件風險，且血液中n-3脂肪酸濃度與心血管事件風險呈負相關。
+
+
+### 研究假說
+
+
+血液透析患者的n-3脂肪酸血中濃度低於一般人群，但口服魚油補充是否能降低此族群心血管事件和死亡風險尚不明確。本研究假設：維持性血液透析患者口服EPA和DHA補充會使心血管事件發生率低於安慰劑組。
+
+
+## 研究方法 Methods
+
+
+### 試驗設計
+
+
+| p{11cm}} PISCES試驗基本資訊 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| 研究類型 | 多中心、平行、隨機、雙盲、安慰劑對照試驗 |  |
+| 研究地點 | 加拿大和澳洲26個中心（16個主要中心，10個衛星中心） |  |
+| 收案期間 | 2013年11月28日至2019年7月22日 |  |
+| 追蹤結束 | 2023年3月31日 |  |
+| 追蹤時間 | 3.5年 |  |
+| 註冊編號 | ISRCTN00691795 |  |
+| 資助單位 | Heart and Stroke Foundation of Canada、    Lawson Health Research Institute、    Peter Munk Cardiac Care Innovation Fund、    Kidney CARE Network International、    National Health and Medical Research Council (Australia) |  |
+
+
+### 納入與排除標準
+
+
+| p{12cm}} 納入與排除標準 |  |  |
+| --- | --- | --- |
+| **類別** | **標準** |  |
+| **表格續接** |  |  |
+| **類別** | **標準** |  |
+| **納入標準** | • 年齡≥18歲    • 末期腎臟病    • 每週接受3-4次血液透析    • 入組前臨床狀況穩定 |  |
+| **排除標準** | • 隨機分配時正在服用n-3脂肪酸補充劑    • 對魚、大豆、玉米或其製品過敏 |  |
+
+
+### 介入措施
+
+
+| p{5.5cm}p{5.5cm}} 介入措施詳情 |  |  |
+| --- | --- | --- |
+| **項目** | **魚油組 (N=610)** | **安慰劑組 (N=618)** |
+| **表格續接** |  |  |
+| **項目** | **魚油組** | **安慰劑組** |
+| 劑型 | 蒸汽除臭、柑橘調味膠囊 | 柑橘調味玉米油膠囊 |
+| 劑量 | 每日4顆1g膠囊 | 每日4顆1g膠囊 |
+| 成分 | 40:20 ethyl ester配方    EPA 1.6 g/天    DHA 0.8 g/天    總n-3 PUFA 4 g/天 | 玉米油    （約50 |
+| EPA:DHA比例 | 2:1 | 不適用 |
+
+
+### 研究終點
+
+
+#### 主要終點
+
+所有嚴重心血管事件的複合終點，包括：
+
+- 心血管死亡（猝死和非猝死心臟死亡、致死性心肌梗塞、致死性中風）
+- 非致死性心血管事件（非致死性心肌梗塞、導致截肢的周邊血管疾病、非致死性中風）
+
+
+**注意：**心衰竭未納入主要終點，因血液透析患者常見非心因性液體過載。每個嚴重心血管事件均被計入（患者可貢獻多於一個事件）。
+
+
+#### 次要終點
+
+
+- 主要終點擴展納入非心臟原因死亡
+- 主要終點各組成成分
+- 首次心血管事件或任何原因死亡
+
+
+## 基線特徵 Baseline Characteristics
+
+
+### 人口學特徵
+
+
+| cc} 參與者基線人口學與臨床特徵 |  |  |
+| --- | --- | --- |
+| **特徵** | **魚油組 (N=610)** | **安慰劑組 (N=618)** |
+| **表格續接** |  |  |
+| **特徵** | **魚油組** | **安慰劑組** |
+| **人口學特徵** |  |  |
+| 年齡（歲）mean±SD | 64.1±13.5 | 64.5±13.8 |
+| 男性 — n ( | 377 (62.2 | 387 (63.1 |
+| BMI (kg/m²) | 27.3±6.4 | 27.5±6.6 |
+| **種族/民族 — n ( |  |  |
+| 白人 | 244 (40.0 | 244 (39.5 |
+| 亞洲人 | 99 (16.2 | 95 (15.4 |
+| 東南亞人 | 76 (12.5 | 99 (16.0 |
+| 黑人 | 86 (14.1 | 71 (11.5 |
+| 其他 | 43 (7.0 | 39 (6.3 |
+| 未知或多種 | 62 (10.2 | 70 (11.3 |
+| **共病 — n ( |  |  |
+| 糖尿病 | 342 (56.1 | 330 (53.4 |
+| 高血壓 | 522 (85.6 | 516 (83.5 |
+| 無心血管病史 | 392 (64.3 | 402 (65.0 |
+| 透析時間中位數 (IQR)（年） | 2.3 (1.1-4.9) | 2.6 (1.1-4.8) |
+
+
+### 實驗室數值
+
+
+| cc} 基線實驗室數值（中位數，IQR） |  |  |
+| --- | --- | --- |
+| **檢驗項目** | **魚油組** | **安慰劑組** |
+| **表格續接** |  |  |
+| **檢驗項目** | **魚油組** | **安慰劑組** |
+| Hemoglobin (g/L) | 109 (101-118) | 110 (102-118) |
+| Sodium (mmol/L) | 137 (135-139) | 137 (134-139) |
+| Potassium (mmol/L) | 4.7 (4.3-5.1) | 4.7 (4.3-5.1) |
+| Bicarbonate (mmol/L) | 24 (22-26) | 24 (22-26) |
+| Total cholesterol (mmol/L) | 3.41 (2.79-4.20) | 3.29 (2.84-4.12) |
+| LDL cholesterol (mmol/L) | 1.59 (1.15-2.24) | 1.50 (1.10-2.22) |
+| HDL cholesterol (mmol/L) | 1.04 (0.83-1.29) | 1.05 (0.84-1.33) |
+| Triglycerides (mmol/L) | 1.29 (0.94-1.95) | 1.35 (0.92-1.97) |
+
+
+### 基線用藥
+
+
+| cc} 基線藥物使用情況 |  |  |
+| --- | --- | --- |
+| **藥物類別** | **魚油組 n ( | **安慰劑組 n ( |
+| **表格續接** |  |  |
+| **藥物類別** | **魚油組** | **安慰劑組** |
+| Statin | 332 (54.4 | 357 (57.8 |
+| 其他降血脂藥 | 37 (6.1 | 47 (7.6 |
+| Beta-blocker | 301 (49.3 | 303 (49.0 |
+| Calcium-channel blocker | 277 (45.4 | 251 (40.6 |
+| RAS inhibitor (ACEi/ARB) | 236 (38.7 | 244 (39.5 |
+| 利尿劑 | 172 (28.2 | 169 (27.3 |
+| 抗凝血劑或抗血小板劑* | 141 (23.1 | 143 (23.1 |
+| *不包含Aspirin |  |  |
+
+
+## 主要結果 Primary Results
+
+
+### 主要終點
+
+
+> 魚油組嚴重心血管事件發生率顯著低於安慰劑組：
+> itemize
+>     \item 魚油組：0.31 per 1000 patient-days
+>     \item 安慰劑組：0.61 per 1000 patient-days
+>     \item **HR 0.57 (95
+>     \item 相對風險下降：**43
+> itemize
+
+
+| cccc} 主要與次要終點結果 |  |  |
+| --- | --- | --- |
+| **終點** | **魚油組** | **安慰劑組** |
+|  | **事件數(發生率*)** | **事件數(發生率*)** |
+| **表格續接** |  |  |
+| **終點** | **魚油組** | **安慰劑組** |
+| *發生率：per 1000 patient-days |  |  |
+| **主要終點** |  |  |
+| 所有嚴重心血管事件 | 158 (0.31) | 309 (0.61) |
+| **亞組分析（依基線心血管病史）** |  |  |
+| 有心血管病史 | 81 (0.43) | 164 (0.91) |
+| 無心血管病史 | 77 (0.24) | 145 (0.45) |
+| **次要終點** |  |  |
+| 主要終點+非心臟死亡 | 266 (0.52) | 381 (0.76) |
+| 任何原因死亡 | 175 (0.34) | 195 (0.39) |
+| **主要終點各組成成分** |  |  |
+| 心臟死亡 | 63 (0.12) | 113 (0.22) |
+| 心肌梗塞（致死+非致死） | 49 (0.10) | 96 (0.19) |
+| 周邊血管疾病致截肢 | 35 (0.07) | 66 (0.13) |
+| 中風（致死+非致死） | 11 (0.02) | 34 (0.07) |
+| 首次心血管事件或    任何原因死亡 | 215 (0.45) | 270 (0.60) |
+
+
+### 事件比例
+
+
+| ccc} 各類心血管事件發生比例 |  |  |
+| --- | --- | --- |
+| **事件類型** | **魚油組 ( | **安慰劑組 ( |
+| **表格續接** |  |  |
+| **事件類型** | **魚油組** | **安慰劑組** |
+| 心臟死亡 | 10.3 | 18.3 |
+| 心肌梗塞（致死+非致死） | 6.9 | 11.7 |
+| 周邊血管疾病致截肢 | 4.9 | 7.1 |
+| 中風（致死+非致死） | 1.6 | 4.5 |
+| 至少一次心血管事件 | 20.8 | 33.7 |
+| 單次心血管事件 | 16.6 | 23.1 |
+| 復發事件（≥2次） | 4.3 | 10.5 |
+
+
+### 脂肪酸納入血漿磷脂
+
+
+基線時，兩組n-3脂肪酸濃度相似。3個月時，魚油組EPA納入血漿磷脂顯著增加：
+
+- 魚油組增加：1.2±1.6
+- 安慰劑組增加：0.0±0.5
+- 組間差異：1.3（95
+
+
+此結果證實參與者對治療的依從性，並顯示所使用的n-3脂肪酸足以改變循環脂肪酸組成。
+
+
+## 安全性分析 Safety Analysis
+
+
+| cc} 嚴重不良事件 |  |  |
+| --- | --- | --- |
+| **嚴重不良事件** | **魚油組 n ( | **安慰劑組 n ( |
+| **表格續接** |  |  |
+| **嚴重不良事件** | **魚油組** | **安慰劑組** |
+| 感染 | 124 (20.3 | 110 (17.8 |
+| 血管通路相關事件 | 51 (8.4 | 63 (10.2 |
+| 透析相關事件—液體過載 | 52 (8.5 | 48 (7.8 |
+| 透析相關事件—其他 | 18 (3.0 | 18 (2.9 |
+| 糖尿病併發症 | 12 (2.0 | 5 (0.8 |
+| 內分泌相關事件 | 16 (2.6 | 21 (3.4 |
+| 血流動力學問題 | 39 (6.4 | 41 (6.6 |
+| 胃腸道相關事件 | 56 (9.2 | 61 (9.9 |
+| 血液學相關事件 | 11 (1.8 | 9 (1.5 |
+| 癌症相關事件 | 6 (1.0 | 9 (1.5 |
+| 骨科相關事件 | 36 (5.9 | 34 (5.5 |
+| 呼吸系統相關事件 | 31 (5.1 | 23 (3.7 |
+| 神經系統相關事件 | 23 (3.8 | 21 (3.4 |
+| 手術相關事件 | 11 (1.8 | 3 (0.5 |
+| **出血事件** |  |  |
+| 胃腸道出血 | 16 (2.6 | 26 (4.2 |
+| 腦出血 | 10 (1.6 | 9 (1.5 |
+| 其他出血 | 6 (1.0 | 13 (2.1 |
+| **出血總計** | **29 (4.8 | **47 (7.6 |
+| 無嚴重不良事件 | 310 (50.8 | 316 (51.1 |
+
+
+> **出血風險：**魚油組嚴重出血發生率（4.8
+
+
+## 討論 Discussion
+
+
+### 與其他研究比較
+
+
+本試驗結果與先前臨床試驗的統合分析（7項試驗，1045名參與者）及觀察性研究結果一致，顯示口服n-3脂肪酸補充可能降低血液透析患者心血管事件或心血管死亡風險。
+
+
+| p{2.5cm}p{2.5cm}p{2.5cm}p{4cm}} 主要Omega-3試驗比較 |  |  |
+| --- | --- | --- |
+| **試驗** | **族群** | **介入** |
+| **表格續接** |  |  |
+| **試驗** | **族群** | **介入** |
+| REDUCE-IT | 高TG、statin治療、高心血管風險 | Icosapent ethyl 4g/天（純EPA ethyl ester） |
+| STRENGTH | 高TG、低HDL、高心血管風險 | Omega-3 CA 4g/天（EPA+DHA carboxylic acid） |
+| FISH | 血液透析（新synthetic AVG） | 魚油4g/天（EPA+DHA） |
+| **PISCES** | **維持性血液透析** | **魚油4g/天（EPA+DHA ethyl ester）** |
+
+
+### 為何PISCES結果優於其他試驗
+
+
+#### 患者族群特殊性
+
+血液透析患者具有獨特的代謝、流變學、發炎和心血管特徵，可能因治療本身而加劇。血液透析的特點包括：
+
+- 促發炎和促心律不整環境
+- 心臟震盪（cardiac stunning）
+- 缺血和血管功能障礙
+- 液體、鈉、鉀、鈣濃度的快速變化
+
+
+#### 基線n-3脂肪酸濃度低
+
+血液透析患者血清磷脂中EPA和DHA濃度明顯低於一般人群，因此補充後的心臟保護效果可能特別顯著。
+
+
+#### n-3脂肪酸的多重保護機制
+
+
+- **抗心律不整：**直接抑制心肌細胞sarcolemma電壓依賴性鈉通道和L-type鈣電流，延長不反應期，抑制去極化，增加部分去極化心肌細胞的電穩定性
+- **抗血栓**
+- **抗發炎**
+- **降血脂**
+- **心血管重塑效應**
+
+
+#### 配方和劑量考量
+
+
+- 使用40:20 ethyl ester 1000-mg膠囊
+- 每日4 g（EPA 1600 mg + DHA 800 mg）
+- 高於1 g/天的劑量似乎更有效
+- PISCES使用玉米油安慰劑，可能為中性對照（與REDUCE-IT的礦物油不同）
+
+
+### 研究限制
+
+
+1. 僅納入維持性血液透析患者
+2. 轉為腹膜透析或接受腎移植的患者數據被設限
+3. 出血事件未經裁定，僅遵循試驗方案定義
+4. 僅隨機抽樣分析n-3脂肪酸納入血漿磷脂
+5. 許多參與者未接受足以降低一般高風險人群心血管風險的治療
+6. 不到60
+7. 不到10
+
+
+## 臨床意義與建議 Clinical Implications
+
+
+### 主要結論
+
+
+1. ****顯著心血管保護：****維持性血液透析患者每日補充n-3多元不飽和脂肪酸（4顆1g魚油膠囊，含EPA 1.6 g + DHA 0.8 g），嚴重心血管事件發生率顯著低於安慰劑組
+2. ****各亞組均有效：****無論有無心血管病史，魚油補充的心血管保護效果均一致
+3. ****安全性良好：****嚴重出血風險未增加，反而較安慰劑組低
+4. ****填補治療空白：****目前血液透析患者有效的心血管預防治療有限，本研究提供重要的治療選擇
+
+
+### 臨床實務建議
+
+
+> enumerate
+>     \item **建議使用高純度處方級魚油**，非市售一般保健食品
+>     \item **劑量：**每日4 g n-3 PUFA（EPA約1.6 g + DHA約0.8 g）
+>     \item **適用對象：**穩定的維持性血液透析患者（每週3-4次）
+>     \item **安全性考量：**出血風險並未增加
+>     \item **待釐清問題：**
+>     itemize
+>         \item 最佳劑量策略
+>         \item 成本效益分析
+>         \item 哪些患者獲益最大
+>         \item 作用機轉的進一步研究
+>     itemize
+> enumerate
+
+
+## 參考文獻 References
+
+
+1. Lok CE, Farkouh M, Hemmelgarn BR, et al. Fish-oil supplementation and cardiovascular events in patients receiving hemodialysis. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2513032). 2025;doi:10.1056/NEJMoa2513032.*
+2. Lok CE, Hemmelgarn BR, Moist LM, et al. Protection against Incidences of Serious Cardiovascular Events Study with daily fish oil supplementation in dialysis patients (PISCES): protocol for a randomised controlled trial. [*BMJ Open](https://doi.org/10.1136/bmjopen-2023-072239). 2024;14(1):e072239.*
+3. Lok CE, Moist L, Hemmelgarn BR, et al. Effect of fish oil supplementation on graft patency and cardiovascular events among patients with new synthetic arteriovenous hemodialysis grafts: a randomized controlled trial. [*JAMA](https://doi.org/10.1001/jama.2012.3473). 2012;307(17):1809-1816.*
+4. Bhatt DL, Steg PG, Miller M, et al. Cardiovascular risk reduction with icosapent ethyl for hypertriglyceridemia. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1812792). 2019;380(1):11-22.*
+5. Nicholls SJ, Lincoff AM, Garcia M, et al. Effect of high-dose omega-3 fatty acids vs corn oil on major adverse cardiovascular events in patients at high cardiovascular risk: the STRENGTH randomized clinical trial. [*JAMA](https://doi.org/10.1001/jama.2020.22258). 2020;324(22):2268-2280.*
+6. Saglimbene VM, Wong G, van Zwieten A, et al. Effects of omega-3 polyunsaturated fatty acid intake in patients with chronic kidney disease: systematic review and meta-analysis of randomized controlled trials. [*Clin Nutr](https://doi.org/10.1016/j.clnu.2019.02.041). 2020;39(2):358-368.*
+7. Foley RN, Parfrey PS, Sarnak MJ. Clinical epidemiology of cardiovascular disease in chronic renal disease. [*Am J Kidney Dis](https://doi.org/10.1016/S0272-6386(98)70122-4). 1998;32(5 Suppl 3):S112-S119.*
+8. Jager KJ, Kovesdy C, Langham R, et al. A single number for advocacy and communication—worldwide more than 850 million individuals have kidney diseases. [*Kidney Int](https://doi.org/10.1016/j.kint.2019.07.012). 2019;96(5):1048-1050.*
+9. Bello AK, Okpechi IG, Osman MA, et al. Epidemiology of haemodialysis outcomes. [*Nat Rev Nephrol](https://doi.org/10.1038/s41581-022-00542-7). 2022;18(6):378-395.*
+10. Majithia A, Bhatt DL, Friedman AN, et al. Benefits of icosapent ethyl across the range of kidney function in patients with established cardiovascular disease or diabetes: REDUCE-IT RENAL. [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA.121.055560). 2021;144(22):1750-1759.*
+
+
+\textwidth{0.4pt}
+**關鍵詞：**血液透析、魚油、n-3多元不飽和脂肪酸、EPA、DHA、心血管事件、PISCES試驗

@@ -1,0 +1,577 @@
+---
+title: "https://www.nejm.org/doi/full/10.1056/NEJMcpc2412530"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**[Case 35-2025: A 5-Year-Old Boy with Fever and Rash](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412530)**
+[0.5cm]
+{**病例 35-2025：兒童發燒合併皮疹**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2412530](https://doi.org/10.1056/NEJMcpc2412530)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 35-2025: A 5-Year-Old Boy with Fever and Rash》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2412530)而製作,請先取得該文稿後,搭配本文件自學。已有基礎的同事,請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一位5歲男童因發燒(fever)及皮疹(rash)至麻省總醫院(Massachusetts General Hospital)就診。
+
+
+### 病史時序
+
+
+| p{12cm}}  **時間點** | **重要事件與發現** |  |
+| --- | --- | --- |
+| **入院前5天** | **參加夏令營**    - 居住於新英格蘭地區郊區    - 參加當地夏令營,從事各種戶外活動    - 無旅行史 |  |
+| **入院前3天** | **初始症狀出現**    - 母親發現患童食慾及飲水減少    - 當日稍晚測得口溫39.2°C    - 給予acetaminophen後退燒 |  |
+| **入院前2天** | **皮疹出現**    - 雙足背部出現搔癢性皮疹(itchy rash)    - 皮疹向小腿蔓延    - 至另一醫院急診就診    - 體溫36.7°C,一般狀況良好    - 腿部可見瀰漫性消退性丘疹及斑疹(diffuse blanching macules and papules)    - 臀部及下背部可見散在丘疹    - 診斷為毒藤接觸(poison ivy exposure)    - 給予ibuprofen,開立prednisone處方 |  |
+| **入院前1天** | **皮疹惡化**    - 母親給予diphenhydramine及calamine lotion    - 未服用prednisone    - 搔癢減輕但皮疹擴散至手臂    - 至另一醫院小兒科門診就診    - 體溫37.0°C    - **新發現:**結膜充血(conjunctivae were injected)    - 右側後頸部可觸及淋巴結(軟且可移動)    - 皮疹轉變為小圓形、深紅紫色、不消退丘疹    - ESR 20 mm/hr ↑, CRP 16.7 mg/L ↑ |  |
+| **入院當天** | **症狀急性惡化**    - 患童持續搔抓皮膚、拒絕行走    - 口溫40.2°C,給予acetaminophen及ibuprofen後仍未退燒    - 至麻省總醫院急診就診    - 體溫38.1°C,心率102 bpm,血壓98/69 mmHg    - 患童不舒服、哭泣    - 結膜充血,右耳鼓膜發紅    - 軟硬顎及頰黏膜可見紅斑性斑疹(無潰瘍或唇裂)    - 右側後頸部淋巴結腫大    - 四肢可見不消退丘疹(nonblanching papules),伴有抓痕    - 手足腫脹,掌蹠輕度發紅但無皮疹    - WBC 15,850/μL ↑ (Neutrophil 13,090)    - ESR 35 mm/hr ↑, CRP 20.0 mg/L ↑ |  |
+
+
+**時序描述的關鍵句型:**
+
+**1. 病程起始:**
+
+- "The patient had been well until [X days] before the current presentation, when..."
+- "His mother noticed that he was not eating and drinking as much as usual."
+
+
+**2. 症狀進展:**
+
+- "[X days] before the current presentation, [symptom] appeared..."
+- "The rash spread to involve [locations]."
+- "The patient seemed to scratch the rash less often; however, it spread to his arms."
+
+
+**3. 皮疹演變描述:**
+
+- "initially included both macules and papules"
+- "then evolved to red-purple, nonblanching papules consistent with purpuric lesions"
+
+
+### 過去病史
+
+
+- Iron deficiency (缺鐵)
+- Constipation (便秘)
+- Reactive airway disease (反應性氣道疾病)
+- Benign sleep myoclonus (良性睡眠肌陣攣)
+- 生長發育正常
+- 完成所有常規兒童疫苗接種
+
+
+## 鑑別診斷分析
+
+
+本章節為本文件之重點,詳細分析兒童發燒合併皮疹的鑑別診斷思路。
+
+
+**關鍵臨床特徵摘要:**
+
+1. 5歲男童,完成疫苗接種
+2. 發燒2天合併進展性皮疹
+3. 皮疹由斑疹、丘疹演變為紫斑樣病灶(purpuric lesions)
+4. 結膜充血、口腔黏膜病灶、頸部淋巴結腫大
+5. 手足腫脹、拒絕行走
+6. 發炎指標上升、血小板正常
+7. 近期戶外活動史
+
+
+### 細菌感染
+
+
+#### Meningococcemia (腦膜炎雙球菌敗血症)
+
+
+> **必須首先排除!** 兒童發燒合併紫斑性皮疹需緊急排除腦膜炎雙球菌感染。
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 患童年齡(5歲)尚未接種腦膜炎疫苗(美國通常11歲接種) | 病程3天太長(通常數小時內惡化) |  |
+| 紫斑性皮疹 | 無thrombocytopenia |  |
+|  | 無purpura fulminans特徵(病灶較小) |  |
+|  | 一般狀況相對穩定 |  |
+
+
+**排除嚴重疾病的句型:**
+
+"In a child with fever and a purpuric rash, it is **urgent** that meningococcemia **be ruled out**."
+
+注意此處使用subjunctive mood (虛擬語氣):"it is urgent that X be done" 表達緊迫性。
+
+
+#### Rocky Mountain Spotted Fever (洛磯山斑疹熱)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 近期戶外活動(夏令營) | 皮疹出現時序不符(通常發燒數天後才出現) |  |
+| 皮疹由周邊向中心蔓延 | 無頭痛、腹痛、嘔吐 |  |
+| 新英格蘭地區可見(特別是Cape Cod) | 無thrombocytopenia |  |
+| 約半數病例無已知蜱蟲叮咬史 |  |  |
+
+
+**描述流行病學考量:**
+
+"Rocky Mountain spotted fever is **an important consideration** in this child who recently **participated in** outdoor activities at a local summer camp."
+
+**描述蜱蟲叮咬史缺失:**
+
+"He had no known tick bites; however, previous bites are reported in only about half of cases of tickborne illness."
+
+
+### 病毒感染
+
+
+#### Measles (麻疹)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 結膜充血 | 已完成疫苗接種 |  |
+| 口腔黏膜病灶 | 無上呼吸道感染前驅症狀 |  |
+|  | 皮疹分布不符(麻疹由臉部向下蔓延) |  |
+|  | 口腔病灶非Koplik spots(無白灰色特徵) |  |
+
+
+#### Papular-Purpuric Gloves and Socks Syndrome (丘疹紫斑手套襪子症候群)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 肢端水腫、搔癢性皮疹、發燒 | 好發於青少年及年輕成人 |  |
+| 可與多種病毒感染相關 | 黏膜病灶通常為水泡膿皰性 |  |
+|  | 皮疹通常不會超過手腕及踝關節 |  |
+
+
+#### Gianotti-Crosti Syndrome (兒童丘疹性肢端皮膚炎)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 好發於幼童 | 通常無症狀或輕度搔癢 |  |
+| 皮疹分布相似(四肢伸側、臀部、臉、耳) | 發燒可能反映前驅病毒感染 |  |
+| 可有紫斑表現 |  |  |
+
+
+#### Multisystem Inflammatory Disease in Children (MIS-C)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 發燒、皮疹、結膜炎 | 無心臟、血液或腸胃道侵犯 |  |
+| 淋巴結腫大、手足腫脹 | 不符合MIS-C診斷標準 |  |
+| 嗜中性球增多、發炎指標上升 | 無SARS-CoV-2感染史資訊 |  |
+
+
+#### Hand, Foot, and Mouth Disease (手足口病)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 夏季好發 | 典型皮疹為丘疹水泡性 |  |
+|  | 發燒通常輕微 |  |
+|  | 皮疹通常不癢(本案例極癢) |  |
+|  | 口腔病灶應為水泡及口瘡 |  |
+
+
+**對比不同疾病特徵的句型:**
+
+"In addition, the patient's oral lesions were described as erythematous macules, **as opposed to** vesicles and aphthae, which are **characteristic findings of** hand, foot, and mouth disease."
+
+"...vesiculopustular lesions are more commonly seen, which is **inconsistent with** the macular erythematous lesions described in this patient."
+
+
+### 黴菌感染
+
+
+#### Disseminated Histoplasmosis (瀰漫性組織胞漿菌病)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 可導致多發紅斑性丘疹及口腔病灶 | 通常發生於嚴重免疫缺損患者 |  |
+|  | 美國東北部罕見 |  |
+
+
+### 藥物反應
+
+
+#### DRESS, Stevens-Johnson Syndrome, Hypersensitivity Vasculitis
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 可表現為紅斑斑丘疹及紫斑 | 需有藥物誘發(通常為抗生素或抗癲癇藥) |  |
+|  | 發病前唯一藥物為albuterol(極少相關) |  |
+
+
+### 遺傳疾病
+
+
+#### Familial Mediterranean Fever (家族性地中海熱)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 兒童期常見反覆發燒 | 皮疹通常為類丹毒樣(erysipelas-like) |  |
+|  | 皮疹發生率僅13 |  |
+
+
+### 惡性腫瘤
+
+
+#### Leukemia (白血病)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 紫斑、發燒、淋巴結腫大、拒絕行走 | 血小板正常(白血病紫斑通常伴隨血小板低下) |  |
+|  | 無肝脾腫大 |  |
+|  | 血液抹片無母細胞(blasts) |  |
+
+
+### 兒童虐待
+
+
+#### Physical Child Abuse (兒童身體虐待)
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 瘀青可類似紫斑 | 皮疹無手印或器具打擊圖案 |  |
+| 瘀青位於臀部、耳朵(典型虐待部位) | 病灶特徵與外傷不符 |  |
+| 家中高燒但就醫時正常(可能為假發燒?) |  |  |
+
+
+這個鑑別診斷提醒我們:即使在明顯的感染性疾病表現中,也應考慮非感染性原因,包括虐待的可能性。這是一個重要的臨床思維習慣。
+
+
+### 血管炎
+
+
+#### Kawasaki's Disease (川崎病)
+
+
+> 本案例具備川崎病五項經典診斷標準的全部特徵!
+
+
+| p{8cm}}  **支持點** | **不支持點** |  |
+| --- | --- | --- |
+| 結膜充血 (Conjunctival injection) | 發燒未達4-5天 |  |
+| 口腔黏膜紅斑 (Intraoral macular erythema) | 皮疹演變為紫斑(非典型) |  |
+| 手足水腫 (Edema of hands and feet) |  |  |
+| 斑丘疹 (Maculopapular rash) |  |  |
+| 頸部淋巴結腫大 (Cervical adenopathy) |  |  |
+| 煩躁不安、不舒服 (Irritability) |  |  |
+
+
+**描述需要持續監測的狀況:**
+
+"However, given that the patient's presentation **meets many of the criteria for** the diagnosis of Kawasaki's disease and that the fever pattern **may still be emerging**, I would obtain an echocardiogram to **rule out** coronary artery aneurysms."
+
+
+#### IgA Vasculitis (IgA血管炎/Henoch-Schönlein Purpura)
+
+
+> 根據病灶形態、分布、演變,以及能解釋大部分臨床發現,**IgA血管炎**為最可能診斷。
+
+
+| p{8cm}}  **支持點** | **不支持點/非典型** |  |
+| --- | --- | --- |
+| 年齡符合(好發4-6歲,peak incidence) | 發燒、結膜充血、口腔紅斑、淋巴結腫大(非典型但有報告) |  |
+| 非血小板低下之可觸及紫斑 | 皮疹極度搔癢(通常輕度或無) |  |
+| 下肢及臀部為主 | 夏季發病(通常秋冬) |  |
+| 拒絕行走(可能為關節痛) |  |  |
+| 手足水腫(46 |  |  |
+| 發炎指標上升 |  |  |
+| 血小板正常 |  |  |
+
+
+**IgA Vasculitis 診斷標準 (EULAR/PRINTO/PRES):**
+
+**必要條件:**紫斑或瘀點,以下肢為主,非血小板低下所致
+
+**加上至少一項:**
+
+1. 腹痛
+2. 組織病理學確認(IgA沉積的白細胞碎裂性血管炎)
+3. 關節炎或關節痛
+4. 腎臟侵犯
+
+
+**解釋非典型特徵的句型:**
+
+"Several features of this patient's presentation — including fever, conjunctival injection, oral erythema, and cervical lymphadenopathy — are **uncommon findings** in patients with IgA vasculitis **but have been described**."
+
+"Perhaps the pruritic nature of this patient's rash **could be explained by** his history of reactive airway disease and **the known association between** atopy and pruritus."
+
+
+## 診斷確認
+
+
+### 皮膚切片
+
+
+右側大腿外側皮膚穿刺切片(punch biopsy)結果:
+
+
+- H&E染色顯示:     itemize[nosep]
+- 顯著的真皮血管周圍嗜中性球浸潤
+- 白細胞碎裂(leukocytoclasia)
+- 血管壁纖維素樣壞死(fibrinoid necrosis)
+- 紅血球外滲(extravasation of erythrocytes)
+
+
+    \item 直接免疫螢光:血管壁局灶性IgA及C3沉積
+itemize
+
+
+> **病理診斷:** Leukocytoclastic vasculitis with IgA deposits
+> **臨床診斷:** IgA Vasculitis (Henoch-Schönlein Purpura)
+
+
+**皮膚切片時機的重要提醒:**
+
+"When skin biopsy is performed, it is important to test skin lesions that **have been present for less than 24 hours** and to provide separate samples for hematoxylin and eosin staining and for immunofluorescence."
+
+
+### 膚色對皮疹外觀的影響
+
+
+本案例特別討論了皮膚色素對皮疹觀察的影響(Fitzpatrick skin type IV):
+
+
+- 淺膚色:紅斑性丘疹與皮膚對比明顯
+- 深膚色:紅斑可能呈現較紫色調
+- 建議技巧:使用壓玻片檢查(diascopy)觀察消退反應
+
+
+## 治療及預後
+
+
+### 治療原則
+
+
+| p{10cm}}  **治療面向** | **內容** |  |
+| --- | --- | --- |
+| **支持性治療** | 水分補充、疼痛控制、退燒藥物 |  |
+| **NSAIDs** | Naproxen或ibuprofen可用於關節及腹痛    禁忌:腎絲球腎炎或腸胃道出血 |  |
+| **類固醇** | 保留給住院且症狀嚴重者    可能需要靜脈給藥(腸道水腫影響吸收)    療程3-4週漸減以避免反彈 |  |
+| **腎臟監測** | 前6個月需監測尿液分析    <10  若有蛋白尿或腎功能下降需考慮腎臟切片 |  |
+
+
+### 本案例病程
+
+
+1. 入院時給予經驗性治療:口服prednisone(考慮血管炎)+ doxycycline(考慮洛磯山斑疹熱)
+2. 第1天:退燒,但皮疹惡化
+3. 皮膚切片確認IgA血管炎後停用doxycycline
+4. 第4天:出現臉部水腫、腹痛、腿痛、陰囊水腫
+5. 尿液分析無血尿或蛋白尿
+6. 改用靜脈methylprednisolone,症狀改善
+7. 出院時開立3週漸減口服類固醇
+8. 1週後追蹤:無疼痛,皮疹癒合中
+9. 6個月後尿液分析:無腎絲球腎炎證據
+
+
+## 英文寫作指導
+
+
+### 病例呈現結構
+
+
+> **Opening:**
+> *A [age]-year-old [gender] was admitted to [hospital] because of [chief complaint].*
+> **Background:**
+> *The patient had been in [his/her] usual state of health until [time] before the current admission, when [initial symptoms] developed. [Description with progression].*
+> **Prior evaluation:**
+> *[Time] before the current admission, the patient was evaluated at [location]. [Findings]. A diagnosis of [condition] was considered, and treatment with [treatment] was started.*
+> **Current presentation:**
+> *[Time] before the current admission, [symptoms] developed. The patient was evaluated in [location] and was admitted to [hospital].*
+> **Review of systems:**
+> *The patient reported no [list negative symptoms]. Medical history included [relevant history].*
+> **Physical examination:**
+> *On examination, the temperature was [value]°C, the heart rate [value] beats per minute, the blood pressure [value] mm Hg. [Key findings].*
+
+
+### 鑑別診斷寫作的關鍵句型
+
+
+| p{9cm}}  **功能** | **句型範例** |  |
+| --- | --- | --- |
+| **緊急排除** | "It is urgent that [condition] be ruled out." |  |
+| **重要考量** | "[Condition] is an important consideration in this child who..." |  |
+| **與典型不符** | "The [finding] would be atypical for [disease], which more commonly..." |  |
+| **不支持診斷** | "However, [findings] were absent in this patient." |  |
+| **對比特徵** | "...as opposed to [typical finding], which are characteristic findings of [disease]." |  |
+| **不符合** | "...which is inconsistent with the [findings] described in this patient." |  |
+| **解釋非典型** | "Perhaps [finding] could be explained by [reason]." |  |
+| **非典型但有報告** | "...are uncommon findings but have been described." |  |
+| **條件說明** | "Given that... and that..., I would [action]." |  |
+| **最可能診斷** | "On the basis of [evidence], I suspect that the most likely diagnosis is..." |  |
+| **建議進一步檢查** | "I would also recommend performing [test] given the possibility of [condition]." |  |
+
+
+### 皮疹描述詞彙
+
+
+| p{5cm} p{5cm}}  **英文** | **中文** | **說明** |
+| --- | --- | --- |
+| Macule | 斑疹 | 平坦、顏色改變 |
+| Papule | 丘疹 | 隆起、<1cm |
+| Blanching | 消退性 | 壓下後褪色 |
+| Nonblanching | 不消退性 | 壓下後不褪色 |
+| Purpuric | 紫斑樣 | 出血至皮膚 |
+| Petechiae | 瘀點 | 小點狀紫斑 |
+| Vesicle | 水泡 | 充滿液體 |
+| Pustule | 膿皰 | 充滿膿液 |
+| Erythematous | 紅斑性 | 發紅的 |
+| Pruritic | 搔癢性 | 會癢的 |
+| Excoriations | 抓痕 | 搔抓造成 |
+| Acral | 肢端的 | 手足末端 |
+
+
+## 考題
+
+
+以下為針對本病例的單選選擇題,旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 兒童發燒合併紫斑性皮疹,最需緊急排除的診斷為何?     enumerate[label=\alph*)]
+2. Rocky Mountain spotted fever
+3. IgA vasculitis
+4. Meningococcemia
+5. Kawasaki's disease
+
+
+    \item 以下何者為IgA vasculitis的診斷必要條件?
+    
+1. 發燒超過5天
+2. 非血小板低下之紫斑,以下肢為主
+3. 冠狀動脈擴張
+4. 血清IgA升高
+
+
+    \item 本案例中,以下何者為非典型但不排除IgA vasculitis的特徵?
+    
+1. 下肢紫斑
+2. 手足水腫
+3. 結膜充血及發燒
+4. 血小板正常
+
+
+    \item 關於IgA vasculitis的皮膚切片,以下敘述何者正確?
+    
+1. 應選擇超過48小時的病灶
+2. 僅需H&E染色即可確診
+3. 應選擇24小時內的病灶,並提供免疫螢光檢體
+4. 血管壁應可見IgG沉積
+
+
+    \item 本案例患童拒絕行走,最可能的原因為何?
+    
+1. 白血病骨髓浸潤
+2. 洛磯山斑疹熱肌炎
+3. IgA vasculitis相關關節痛
+4. 腦膜炎相關腦病變
+
+
+    \item 本案例同時考慮川崎病,主要缺少哪項診斷標準?
+    
+1. 結膜充血
+2. 發燒至少4-5天
+3. 口腔黏膜變化
+4. 手足腫脹
+
+
+    \item IgA vasculitis最嚴重的長期併發症為何?
+    
+1. 冠狀動脈瘤
+2. 腎臟疾病
+3. 關節變形
+4. 皮膚壞死
+
+
+    \item 關於IgA vasculitis使用類固醇,以下敘述何者正確?
+    
+1. 早期使用可預防腎臟侵犯
+2. 所有患者均需使用
+3. 保留給住院且症狀嚴重者
+4. 療程通常僅需1週
+
+
+    \item 患童皮膚Fitzpatrick type IV,對皮疹觀察有何影響?
+    
+1. 紅斑會更明顯
+2. 紅斑可能呈現更紫色調
+3. 不影響皮疹外觀
+4. 無法進行壓玻片檢查
+
+
+    \item IgA vasculitis最常見的觸發因素為何?
+    
+1. 藥物過敏
+2. 上呼吸道感染
+3. 蜱蟲叮咬
+4. 日光曝曬
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案:c) Meningococcemia**      **詳解:** 兒童發燒合併紫斑性皮疹必須緊急排除腦膜炎雙球菌敗血症,因其可在數小時內快速進展為休克及死亡。雖然本案例病程3天、患童狀況相對穩定、無血小板低下,使此診斷可能性降低,但仍需優先考慮並排除。原文強調:"In a child with fever and a purpuric rash, it is urgent that meningococcemia be ruled out."
+2. **正確答案:b) 非血小板低下之紫斑,以下肢為主**      **詳解:** 根據EULAR/PRINTO/PRES診斷標準,IgA vasculitis的必要條件為紫斑或瘀點,以下肢為主,且非血小板低下所致。發燒並非必要條件,血清IgA僅約50
+3. **正確答案:c) 結膜充血及發燒**      **詳解:** 原文明確指出:"Several features of this patient's presentation — including fever, conjunctival injection, oral erythema, and cervical lymphadenopathy — are uncommon findings in patients with IgA vasculitis but have been described." 下肢紫斑、手足水腫、血小板正常均為典型表現。
+4. **正確答案:c) 應選擇24小時內的病灶,並提供免疫螢光檢體**      **詳解:** 原文強調:"When skin biopsy is performed, it is important to test skin lesions that have been present for less than 24 hours and to provide separate samples for hematoxylin and eosin staining and for immunofluorescence." IgA vasculitis的特徵為IgA(非IgG)血管壁沉積。
+5. **正確答案:c) IgA vasculitis相關關節痛**      **詳解:** 原文提及:"There was no description of abnormal joint findings in this case, but the patient's refusal to walk on the day of admission could indicate arthralgia." 關節炎或關節痛為IgA vasculitis經典四聯症之一。
+6. **正確答案:b) 發燒至少4-5天**      **詳解:** 原文明確指出:"However, he did not have at least 4 to 5 days of fever, which is required for even a diagnosis of incomplete Kawasaki's disease." 本案例具備其他五項川崎病標準,但發燒天數不足。
+7. **正確答案:b) 腎臟疾病**      **詳解:** 原文強調:"Long-term renal disease is the most serious complication that can result from IgA vasculitis; monitoring urinalyses during the first 6 months of disease is critical." 雖然大多數患者預後良好,但腎臟併發症需密切監測。
+8. **正確答案:c) 保留給住院且症狀嚴重者**      **詳解:** 原文指出:"data do not support the early use of glucocorticoid therapy for the prevention of kidney involvement" 以及 "Most clinicians reserve glucocorticoid treatment for children who are hospitalized with severe symptoms." 療程通常需3-4週漸減。
+9. **正確答案:b) 紅斑可能呈現更紫色調**      **詳解:** 原文說明:"In lighter skin types, bright red erythematous papules contrast with skin; in darker skin types, erythema may appear more violaceous, as was the case for this patient with Fitzpatrick skin type IV." 這提醒臨床醫師在深膚色患者需注意皮疹可能的不同外觀。
+10. **正確答案:b) 上呼吸道感染**      **詳解:** 原文提及多種觸發因素:"Viral infections identified as triggers for IgA vasculitis include those caused by parainfluenza virus, influenza viruses, respiratory syncytial virus...Group A streptococcal infection is an important bacterial trigger." 這些主要為上呼吸道病原體,也解釋了為何IgA vasculitis好發於秋冬(上呼吸道感染高峰)。
+
+
+**0.8\linewidth**{0.5pt}
+
+
+## 結語
+
+
+本病例展示了兒童發燒合併皮疹的系統性鑑別診斷思維過程。從緊急排除腦膜炎雙球菌感染,到仔細觀察皮疹的形態、分布及演變,每一個臨床線索都為最終診斷提供了重要資訊。
+
+**關鍵學習要點:**
+
+1. 兒童發燒合併紫斑需緊急排除meningococcemia
+2. 皮疹的形態學描述(blanching vs nonblanching)至關重要
+3. IgA vasculitis可有非典型表現,但核心特徵為下肢為主的非血小板低下性紫斑
+4. 皮膚切片應在病灶出現24小時內進行,並同時送H&E及免疫螢光
+5. 長期腎臟監測對IgA vasculitis患者至關重要
+
+
+tcolorbox[colback=emergency_blue!5!white,colframe=emergency_red,width=0.9\textwidth,arc=5pt,boxrule=1pt]
+
+**謹記:**在兒童發燒合併皮疹的鑑別診斷中,
+仔細觀察皮疹特徵並結合系統性思考,
+是正確診斷的關鍵。
+tcolorbox

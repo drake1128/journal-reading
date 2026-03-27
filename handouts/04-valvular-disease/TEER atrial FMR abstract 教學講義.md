@@ -1,0 +1,125 @@
+# TEER atrial FMR abstract
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+{\bfseriesemergency_red 心房功能性二尖瓣逆流的患者選擇策略}
+[0.5cm]
+{Patient Selection for Atrial Functional Mitral Regurgitation}
+[0.3cm]
+{謝慕揚 Drake Mu-Yang Hsieh, MD, PhD, FESC}
+[0.2cm]
+{國立台灣大學醫院新竹分院 心血管中心}
+[0.2cm]
+{2025年秋季學術研討會}
+
+
+## 研究背景與臨床意義
+
+
+心房功能性二尖瓣逆流(Atrial Functional Mitral Regurgitation, AFMR)是一種獨特的疾病實體，其特徵包括：左心室射出分率保留(≥50
+
+
+## 病理生理機轉
+
+
+AFMR發展的三大主要機轉包括：(1)二尖瓣環擴張伴隨瓣葉重塑不足dalbianco2009, 瓣葉與瓣環面積比低於正常值1.5-2.0；(2)心房源性瓣葉牽拉(atriogenic hamstringing)vonstein2025, 由後側左心房延伸超過左心室基底壁，導致後側二尖瓣環向外偏移及後瓣葉活動受限；(3)瓣環收縮力降低伴隨馬鞍形結構喪失。近期3D心臟超音波影像技術進展使這些機轉得以精確量化kagiyama2020subtypes，研究顯示瓣環面積>8 cm²/m²的患者均會發展為顯著逆流，而中度瓣環擴張(5-8 cm²/m²)則呈現異質性結果，取決於代償性瓣葉重塑是否充分。
+
+
+## AFMR亞型與臨床表現
+
+
+當代證據識別出兩種具有顯著不同預後的AFMR亞型vonstein2025,kagiyama2020subtypes：
+
+
+| p{3.5cm}>{\arraybackslash}p{5.5cm}>{\arraybackslash}p{5.5cm}} AFMR兩大亞型之比較 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **特徵** | **AFMR-IAD    (單純瓣環擴張, Isolated Atrial Dilatation)** | **AFMR-AH    (心房源性牽拉, Atriogenic Hamstringing)** |  |  |  |
+| 盛行率 | 58.6 | 41.4 |  |  |  |
+| 瓣葉運動 | Carpentier type I    (正常瓣葉活動) | Carpentier type IIIb    (後瓣葉受限) |  |  |  |
+| 後瓣葉角度 | 28.2° | 47.7° (P<0.001) |  |  |  |
+| 左心房容積 | 112 mL | 131 mL (P<0.001) |  |  |  |
+| EROA | 0.25 cm² | 0.30 cm² (P=0.002) |  |  |  |
+| 活動性後瓣葉長度 | 12.3 mm | 10.6 mm (P<0.001) |  |  |  |
+| 臨床特徵 | 年齡較大、女性為主    冠心病較少 | 冠心病較多、永久性AF較多    需要較高劑量利尿劑 |  |  |  |
+
+
+## M-TEER治療結果
+
+
+EuroSMR登錄研究(126位AFMR患者)顯示M-TEER可達到可接受的技術成功率(87.2
+
+importantbox
+**關鍵預後差異：**AFMR亞型特異性結果對患者選擇至關重要vonstein2025。AFMR-IAD展現優異的技術成功率(98.7
+importantbox
+
+
+牽拉表型(hamstringing phenotype)由於後瓣葉活動受限而帶來獨特的技術挑戰vonstein2025，導致裝置不穩定與較高的手術失敗率。所有裝置脫落案例均專屬發生於AFMR-AH患者的受牽拉後瓣葉，突顯次佳結果的機轉基礎。
+
+
+## 治療策略架構
+
+
+AFMR的患者選擇應整合以下評估kagiyama2020subtypes,doldi2022：
+
+
+1. **解剖適切性：**詳細的心臟超音波評估，包括瓣葉運動模式、後瓣葉角度測量、左心房延伸相對於左心室基底壁的位置
+2. **血流動力學嚴重度：**逆流定量、左心房與左心室尺寸、右心室功能評估
+3. **功能狀態：**特別注意NYHA IV級症狀
+4. **心房顫動負荷：**節律控制潛力評估
+
+
+| p{3cm}>{\arraybackslash}p{5cm}>{\arraybackslash}p{6cm}} 依亞型建議之治療策略 |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **AFMR亞型** | **適合M-TEER條件** | **考慮替代策略條件** |  |  |  |
+| AFMR-IAD | • NYHA II-III    • 無RVD或輕度RVD    • 適當的瓣葉活動度 | • NYHA IV合併RVD    • 年輕患者考慮外科手術 |  |  |  |
+| AFMR-AH | • 後瓣葉角度<45°    • 足夠的活動性瓣葉長度    • 高手術風險不適合外科 | • 極度後瓣葉牽拉(角度>50°)    • 年輕患者    • 考慮外科手術或合併瓣環成形裝置    • 上游節律控制策略 |  |  |  |
+
+
+## 結論
+
+
+AFMR代表一種機轉獨特且治療具挑戰性的功能性二尖瓣逆流形式，需要專門的診斷標準、亞型分類與風險分層的患者選擇。AFMR-IAD與AFMR-AH的二分法根本性地影響手術結果vonstein2025，其中牽拉表型展現次佳的技術成功率、較高的併發症率與降低的存活率。包含瓣葉運動分析、幾何測量與右心室功能評估的全面術前影像評估，能夠識別最佳M-TEER候選者，同時辨識需要替代治療途徑的患者。未來研究應聚焦於專門針對心房源性牽拉機轉的新穎介入策略，以及納入解剖亞型分類的患者選擇演算法之前瞻性驗證。
+
+
+\hrule
+
+{講者：謝慕揚 醫師 | 國立台灣大學醫院新竹分院心臟血管科 | \mydate}
+
+
+thebibliography{99}
+
+kagiyama2020subtypes
+Kagiyama N, Mondillo S, Yoshida K, Mandoli GE, Cameli M. 
+[Subtypes of Atrial Functional Mitral Regurgitation: Imaging Insights Into Their Mechanisms and Therapeutic Implications](https://www.jacc.org/doi/abs/10.1016/j.jcmg.2019.01.040). 
+*JACC Cardiovascular Imaging*. 2020;13(3):820-35.
+
+kihara2009
+Kihara T, Gillinov AM, Takasaki K, et al. 
+[Mitral regurgitation associated with mitral annular dilation in patients with lone atrial fibrillation: An echocardiographic study](https://onlinelibrary.wiley.com/doi/10.1111/j.1540-8175.2009.00904.x). 
+*Echocardiography*. 2009;26(8):885-9.
+
+gertz2011ablation
+Gertz ZM, Raina A, Saghy L, et al. 
+[Evidence of atrial functional mitral regurgitation due to atrial fibrillation: Reversal with arrhythmia control](https://www.jacc.org/doi/10.1016/j.jacc.2011.06.032). 
+*Journal of the American College of Cardiology*. 2011;58(14):1474-81.
+
+dalbianco2009
+Dal-Bianco JP, Aikawa E, Bischoff J, et al. 
+[Active adaptation of the tethered mitral valve: Insights into a compensatory mechanism for functional mitral regurgitation](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.108.846782?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub
+*Circulation*. 2009;120(4):334-42.
+
+
+doldi2022
+Doldi P, Stolz L, Orban M, et al. 
+[Transcatheter Mitral Valve Repair in Patients With Atrial Functional Mitral Regurgitation](https://www.jacc.org/doi/10.1016/j.jcmg.2022.05.009). 
+*JACC: Cardiovascular Imaging*. 2022;15(11):1843-51.
+
+vonstein2025
+von Stein P, von Stein J, Hohmann C, et al. 
+[Atrial Functional Mitral Regurgitation Subtypes Undergoing Transcatheter Edge-to-Edge Repair: Suboptimal Outcomes in Atriogenic Hamstringing](https://www.jacc.org/doi/10.1016/j.jcmg.2024.06.019). 
+*JACC Cardiovascular Imaging*. 2025;18(1):16-29.
+
+thebibliography

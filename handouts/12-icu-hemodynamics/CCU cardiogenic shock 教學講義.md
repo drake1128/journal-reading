@@ -1,0 +1,847 @@
+# SUSPECT CS
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+frame
+\titlepage
+frame
+
+
+frame{今日討論主題}
+\tableofcontents
+frame
+
+
+## 簡介
+
+
+frame{今日文獻}
+
+- **2025 ACC Expert Consensus Statement**    Evaluation and Management of Cardiogenic Shock
+- **2024 NEJM**    Microaxial Flow Pump in Infarct-Related Cardiogenic Shock
+- **2025 NEJM**    DanGer Shock Long-term Outcome
+
+
+frame
+
+frame{心因性休克(Cardiogenic Shock, CS)的分類}
+columns[T]
+0.45\textwidth
+**emergency_red**{AMI-CS}  
+
+急性心肌梗塞相關
+
+- STEMI
+- NSTEMI
+
+
+0.45\textwidth
+**emergency_blue**{HF-CS}  
+
+心衰竭相關
+
+- 急性心肌炎
+- Takotsubo 心肌病變
+- 周產期心肌病變
+- 心律不整相關心肌病變
+- 肥厚性心肌病變
+- 浸潤性疾病
+
+
+columns
+frame
+
+
+## Golden Hour 黃金一小時
+
+
+frame{Golden Hour of Acute Shock}
+tikzpicture[scale=0.8]
+
+\draw[thick,->] (0,0) -- (14,0);
+\node at (0,-0.5) {Time zero};
+\node at (4,-0.5) {30 min};
+\node at (9,-0.5) {60 min};
+
+
+\node[draw,fill=emergency_green!20,text width=3cm,align=center] at (2,2) {
+**初始評估**
+病史/理學檢查
+12導程心電圖
+Echo-POCUS
+抽血檢驗
+};
+
+
+\node[draw,fill=emergency_blue!20,text width=4cm,align=center] at (6.5,2) {
+**病因辨識/風險分級**
+SHARC分類
+SCAI Staging
+};
+
+
+\node[draw,fill=emergency_red!20,text width=3.5cm,align=center] at (11,2) {
+**初始處置**
+血管活性藥物
+處理鬱血
+呼吸支持
+};
+
+
+\node[draw,fill=highlight_yellow,text width=6cm,align=center] at (7,-2) {
+**休克團隊啟動或區域休克中心會診**
+};
+
+\draw[->,thick] (2,1.5) -- (2,0.2);
+\draw[->,thick] (6.5,1.5) -- (6.5,0.2);
+\draw[->,thick] (11,1.5) -- (11,0.2);
+\draw[->,thick] (7,0.2) -- (7,-1.5);
+tikzpicture
+
+frame
+
+frame{Golden Hour 執行項目概覽}
+block{**辨認及評估**}
+病史、理學檢查、12導程心電圖、超音波、抽血檢查
+block
+
+block{**病因及分級**}
+確定病因(SHARC分類)、危險分層(SCAI Staging)
+block
+
+block{**支持及穩定**}
+血管活性藥物、處理鬱血、呼吸道支持
+block
+
+block{**計劃與啟動**}
+轉至導管室、侵入性血行動力學監測、考慮暫時性機械循環輔助
+block
+frame
+
+
+## 24小時處置藍圖
+
+
+frame{24小時處置藍圖}
+**SUSPECT CS**
+
+
+columns[T]
+0.48\textwidth
+**0-90分鐘:**
+
+- 
+- 初始評估與處置
+- 休克團隊啟動
+- 轉至導管室或ICU
+- 侵入性血行動力學監測
+- 考慮暫時性MCS
+
+
+0.48\textwidth
+**6-24小時:**
+
+- 
+- **最佳化**:達到去鬱血、代謝、血行動力學目標
+- **個別化**:冠狀動脈再灌流、結構性介入、消融治療
+- **下一步**:評估「退出策略」或心臟移植
+
+
+columns
+frame
+
+
+## SUSPECT CS 診斷記憶口訣
+
+
+frame{SUSPECT CS - 診斷記憶口訣}
+# SUSPECT CS
+
+**SUSPECT CS**
+
+
+- **S**ymptoms / **S**igns: 意識改變、胸痛、四肢冰冷濕冷
+- **U**rine output: 少尿或無尿 (<30 mL/h, <0.5 mL/kg/h)
+- **S**ustained hypotension: 持續性低血壓
+- **P**erfusion: 灌流不足(lactate >2 mmol/L, ALT >200 U/L, Cr >2×正常值)
+- **E**CG / **E**chocardiogram: 急性缺血證據、LV/RV擴大與收縮功能異常
+- **C**ongestion: 鬱血(理學檢查、血行動力學)
+- **T**riage: 適當分流或轉診至更高層級照護
+
+
+alertblock{注意}
+**當心「血壓正常的休克」(Normotensive Shock)!**
+alertblock
+frame
+
+
+## SCAI 分期系統
+
+
+| p{2.5cm}p{2.5cm}p{2.5cm}} | **A |  |  |
+| --- | --- | --- | --- |
+| At risk** | **B |  |  |
+| Beginning** | **C |  |  |
+| Classic** | **D |  |  |
+| Deteriorating** |  |  |  |
+|  | 目前無休克症狀但有風險 | 出現血行動力學不穩或低灌流 | 需要介入治療的低灌流 |
+|  | 正常 | 正常 | ≥2 mmol/L |
+|  | 正常 | 正常或輕度低血壓 | SBP <90 mmHg或MAP <60 mmHg |
+|  |  |  |  |
+
+
+frame{SCAI Staging - 理學檢查}
+columns[T]
+0.32\textwidth
+**Stage A**
+
+- 
+- JVP: 正常
+- 灌流: 溫暖良好
+- 脈搏: 強
+- 心音: 清楚
+- 肺音: 清晰
+
+
+0.32\textwidth
+**Stage B-C**
+
+- 
+- JVP: 升高
+- 灌流: 溫暖良好
+- 脈搏: 強
+- 心音: 清楚或有囉音
+- 肺音: 囉音
+
+
+0.32\textwidth
+**Stage D-E**
+
+- 
+- JVP: 升高
+- 灌流: 冰冷濕冷
+- 脈搏: 弱或幾乎摸不到
+- 心音: 廣泛囉音
+- 肺音: 廣泛囉音
+
+
+columns
+frame
+
+
+## 多專科休克團隊
+
+
+frame{多專科休克團隊(Multidisciplinary Shock Team)}
+block{團隊組成}
+
+- 重症心臟科醫師(Critical Care Cardiology)
+- 進階心衰竭與移植心臟科醫師
+- 介入性心臟科醫師
+- 心臟外科醫師
+- 體外膜肺氧合(ECMO)專家或灌流師
+
+
+block
+
+alertblock{證據}
+休克團隊的啟動與以下相關:
+
+- 更多侵入性血行動力學監測的使用
+- 更多進階暫時性MCS的使用
+- **降低死亡率風險**
+
+
+alertblock
+frame
+
+
+## 侵入性血行動力學監測
+
+
+frame{侵入性血行動力學監測(Pulmonary Artery Catheter)}
+block{強烈建議(無RCT資料)}
+
+- **診斷工具**: CI, CPO, PAPI
+- **治療指引**: 區分LV、RV、BiV衰竭
+- **預後指標**: RAP, RAP/PCWP比值, PAPI
+
+
+block
+
+
+columns[T]
+0.48\textwidth
+exampleblock{重要公式}
+\[
+CPO = \text{MAP \times CO}{451}
+\]
+exampleblock
+
+0.48\textwidth
+exampleblock{重要公式}
+\[
+PAPi = \text{PASP - PADP}{RAP}
+\]
+exampleblock
+columns
+frame
+
+frame{AMI-CS 的休克團隊決策流程}
+**休克團隊啟動於疑似CS**
+
+
+columns[T]
+0.48\textwidth
+**分流至導管室**  
+
+**針對AMI-CS:**
+
+1. 
+2. TOT Assessment
+3. 左心導管
+
+
+**針對HF-CS:**
+
+1. 
+2. TOT Assessment
+3. 左心導管(若冠狀動脈解剖未知)
+
+
+0.48\textwidth
+**CPO < 0.6 或中等劑量inotrope**  
+
+考慮RRT立即卸載
+
+
+**根據血行動力學特徵選擇MCS:**
+
+- 
+- 孤立性LV衰竭: RAP <12, PCWP >18, PAPI <1.0
+- 孤立性RV衰竭: RAP >12, PCWP <12, PAPI <1.0
+- BiV衰竭: RAP <12, PCWP >18, PAPI <1.0
+
+
+columns
+frame
+
+
+## 藥物治療
+
+
+frame{心因性休克的藥物治療}
+block{去鬱血(Decongestion)}
+
+- Loop diuretics +/- thiazide diuretics → 腎臟替代療法
+- Acetazolamide?(2022 NEJM ADVOR study)
+
+
+block
+
+block{Inotropes / Vasopressors}
+**使用最低劑量與最短時間**
+
+- ****Norepinephrine是合理的首選****    (SOAP II trial, DoReMi trial)
+
+
+block
+frame
+
+frame{血管活性藥物的血行動力學效應}
+| **藥物** | **受體** | **SVR** | **BP** | **CO** | **HR** |
+| --- | --- | --- | --- | --- | --- |
+| **Norepinephrine** | α1(+++), β1(++), β2(+) | ↑↑ | ↑↑ | ↑ | ↑ |
+| Epinephrine | β1(+++), α1(++), β2(+) | ↑↑ | ↑↑ | ↑↑ | ↑↑ |
+| Dopamine | D1(++), β1(+), α1(+) | ↑↑ | ↑↑ | ↑ | ↑↑ |
+| Dobutamine | β1(+++), β2(++) | ↓↔ | ↓↔ | ↑↑ | ↑ |
+| **Milrinone** | PDE-3 inhibitor | ↓↓ | ↓↓ | ↑↑ | ↔↑ |
+| Vasopressin | Vasopressin receptor | ↑↑ | ↑↑ | ↔↓ | ↔↓ |
+
+
+alertblock{關鍵訊息}
+Norepinephrine和Milrinone是最常使用的組合
+alertblock
+frame
+
+
+## 暫時性機械循環支持
+
+
+frame{常用的tMCS裝置}
+
+| --- | --- | --- | --- | --- |
+| 最大流量 | 0.5-1.0 L/min | 3.0-4.3 L/min | 5.0-6.0 L/min | 5.0-7.0 L/min |
+| 機制 | 球囊充氣-放氣(AO) | 軸流連續幫浦(LV-to-AO) | 軸流連續幫浦(LV-to-AO) | 離心流幫浦(RA-to-AO) |
+| 鞘管大小 | 7-8 F arterial | 14 F arterial peel-away | 23 F arterial peel-away | 15-24 F arterial, 19-25 F venous |
+| 放置位置 | Femoral artery或Axillary artery | Femoral artery或Axillary artery | Axillary artery | Femoral vessels或其他 |
+| 直接LV卸載 | -- | +++ | +++ | -- |
+| 冠狀動脈灌流 | ↑↑ | ↑↑ | ↑↑ | ↑↑ |
+
+frame
+
+frame{tMCS相關的重要試驗}
+
+- **red**{ECLS-SHOCK}: VA-ECMO vs 標準治療 → 無效
+- **red**{IABP-SHOCK II}: IABP vs 標準治療 → 無效
+- **Altshock-2**: Impella CP vs 標準治療 → 進行中
+- **emergency_green**{DanGer Shock}: Impella CP vs 標準治療 → **有效!**
+
+
+frame
+
+
+## AMI-CS與HF-CS的處置流程
+
+
+frame{AMI-CS的治療建議(SCAI B-C期)}
+columns[T]
+0.48\textwidth
+**SCAI B CS - Beginning**
+
+- 
+- Lactate <2 mmol/L
+- 輕微腎臟/肝臟功能異常
+- 血壓<90 mmHg
+- 目前治療:無藥物或裝置
+
+
+**LV, RV, 或BiV:**  
+
+**考慮**血管活性藥物的限時試驗  
+
+tMCS的角色不確定
+
+0.48\textwidth
+**SCAI C CS - Classic**
+
+- 
+- Lactate ≥2 mmol/L
+- 嚴重腎臟/肝臟功能異常
+- 血壓<90 mmHg或需要藥物/機械支持
+- 目前治療:1種藥物或裝置
+
+
+**LV dominant:**  
+
+**考慮**IABP或Impella CP
+
+**RV dominant或BiV:**  
+
+**考慮**Pro-Tek Duo/CentriMag或Impella RP Flex +/- Impella CP或Impella 5.5
+columns
+frame
+
+frame{AMI-CS的治療建議(SCAI D-E期)}
+columns[T]
+0.48\textwidth
+**SCAI D CS - Deteriorating**
+
+- 
+- Lactate ≥4 mmol/L
+- 腎臟/肝臟功能惡化
+- 升壓劑逐漸增加
+- 目前治療:2種藥物或裝置
+
+
+**LV dominant:**  
+
+**考慮**Impella CP或Impella 5.5或VA-ECMO +/- LV vent
+
+**RV dominant或BiV:**  
+
+**考慮**VA-ECMO +/- LV vent或Impella 5.5 +/- Pro-Tek Duo/CentriMag或Impella RP Flex
+
+0.48\textwidth
+**SCAI E CS - Extremis**
+
+- 
+- Lactate ≥8 mmol/L
+- 嚴重酸血症/器官衰竭
+- 難治性低血壓
+- 目前治療:≥3種藥物或裝置
+
+
+**LV, RV, 或BiV:**  
+
+**考慮**VA-ECMO +/- LV vent
+columns
+frame
+
+
+## 機械通氣與PEEP
+
+
+frame{PEEP對心因性休克的影響}
+columns[T]
+0.48\textwidth
+**右心室**
+
+- ↓ RV靜脈回流
+- ↑肺血管阻力
+- ↑ RV擴張→左移中隔
+- ↑全身血管阻力(代償性)
+
+
+**正面效應:**
+
+- ↓缺氧引起的肺血管收縮
+
+
+0.48\textwidth
+**左心室**
+
+- ↓前負荷(RV輸出下降)
+- ↓中風體積(心室間依賴性)
+- ↓心肌氧氣需求
+- ↑從胸腔到周邊的壓力梯度
+- ↑肺水腫的靜水壓移位
+
+
+columns
+
+
+alertblock{臨床應用}
+PEEP對CO的淨效應取決於RV/LV功能、前負荷、後負荷及心室間依賴性。  
+
+• RV衰竭/前負荷依賴:中高度PEEP (10-15 cmH₂O)可能降低RV CO  
+
+• 後負荷依賴狀態(LV衰竭):中高度PEEP (10-15 cmH₂O)可能改善CO
+alertblock
+frame
+
+frame{心因性休克的機械通氣策略}
+block{侵襲性機械通氣的潛在適應症}
+
+- 嚴重缺氧
+- 呼吸功過高
+- 因難治性休克導致的臨床不穩定
+- 侵入性處置需要呼吸道保護
+
+
+block
+
+exampleblock{初始呼吸器設定}
+
+- 模式:AC (PC-CMV, VC-CMV)
+- FiO₂:從100
+- TV:從6-8 mL/kg理想體重開始
+- PEEP:從10-20 breaths/min開始
+- 確保足夠鎮靜以維持同步
+
+
+exampleblock
+
+alertblock{特殊考量}
+若RV為主的休克:使用最低PEEP (3-5 cmH₂O)以達到O₂Sat ≥92
+alertblock
+frame
+
+
+## DanGer Shock試驗
+
+
+frame{DanGer Shock試驗:假說}
+block{研究假說}
+在STEMI相關心因性休克中,  
+
+常規使用microaxial flow pump (Impella CP)  
+
+加上標準指引導向治療,  
+
+與單獨標準治療相比,  
+
+**能降低死亡率**。
+block
+
+
+- 研究期間:2013-2021
+- 研究地點:丹麥、德國、英國
+- 研究設計:多中心隨機對照試驗
+
+
+frame
+
+frame{DanGer Shock:納入條件}
+**A組:STEMI合併心因性休克**
+
+1. STEMI < 36小時
+2. 心因性休克 < 24小時,確認為:  -  - 周邊組織低灌流徵象(lactate ≥2.5 mmol/L 和/或 SvO₂ <55 - SBP < 100mmHg 和/或需要血管升壓劑
+3. LVEF < 45
+
+
+**B組:STEMI等同表現合併心因性休克**
+
+1. STEMI等同表現 < 36小時且緊急血管攝影顯示急性近端冠狀動脈阻塞
+2. 心因性休克 < 24小時
+3. LVEF < 45
+
+
+**C組:STEMI,休克在再灌流後12小時內發生**
+frame
+
+frame{DanGer Shock:排除條件}
+
+- 休克持續時間 >24小時
+- 其他原因的休克
+- **心肌梗塞機械性併發症導致的休克**
+- **OHCA後持續GCS<8**
+- **超音波證據顯示嚴重RV衰竭**
+- 嚴重主動脈瓣逆流/狹窄
+- 嚴重周邊動脈阻塞性疾病(妨礙Impella裝置放置)
+- 主動脈異常(妨礙Impella裝置放置)
+- 機械性主動脈瓣膜
+- 左心室血栓
+- 感染性心內膜炎
+- 因共病預期壽命 <1年
+
+
+frame
+
+frame{DanGer Shock:研究終點}
+block{主要終點}
+180天任何原因死亡
+block
+
+block{次要終點}
+
+- 升級至額外機械循環支持、心臟移植或任何原因死亡(複合性心臟終點)
+- 存活且出院天數
+
+
+block
+
+block{安全性終點}
+
+- 中度或嚴重出血
+- 肢體缺血
+- 中風
+- 接受腎臟替代療法
+- 陽性血液培養的敗血症
+
+
+block
+frame
+
+frame{DanGer Shock:Impella CP支持}
+
+- **隨機分組**在導管室進行 itemize
+- Impella組:先放置Impella → 再灌流
+- 標準治療組:再灌流
+
+
+\item **Impella CP全力支持(P8)至少48小時**
+
+- 除非併發症需要提前終止
+
+
+\item **按演算法weaning Impella CP**
+
+
+\item **Impella CP支持最多5天**
+
+- 考慮心臟移植或永久性LVAD或安寧緩和
+
+
+itemize
+frame
+
+frame{DanGer Shock:標準治療的ICU處置}
+block{心血管治療目標}
+
+- 目標竇性心律,70-110/min
+- MAP > 65 mmHg(高血壓患者可能需更高)
+- CI > 2.0 L/min/m²
+- SvO₂ > 55
+- Lactate < 2.5 mmol/L
+
+
+block
+
+block{Inotrope/Vasopressor階梯}
+
+1. Norepinephrine (0-0.3 μg/kg/min) / Dobutamine
+2. 若需要血管升壓劑(低MAP) → 加Epinephrine或Vasopressin
+3. 若需要增加流量(低CI)或prolonged >48h inotrope → 換成Levosimendan
+4. 若上述仍未達治療目標 → 評估升級治療
+
+
+block
+frame
+
+frame{DanGer Shock:腎臟與營養}
+block{腎臟}
+
+- 正常腎功能:Furosemide輸注 5-40 mg/h iv,若尿量<1 mL/kg/h
+- 調整液體平衡以確保適當CVP (10-12 mmHg)
+- 腎功能不全→CRRT,適應症: itemize
+- 高血鉀(s-potassium > 6.5 mmol/L)
+- 治療抵抗性代謝性酸血症(pH<7.30)
+- 容量過載(肺水腫)或U/O <50 mL連續6小時
+
+
+\item Loop diuretics可補充Metolazone 2.5-10 mg/day口服
+itemize
+block
+
+block{營養}
+
+- 到達ICU後**6小時內**開始腸道營養(EN)
+- 血行動力學不穩定:EN 10-20 mL/h
+- 血行動力學穩定:個別化飲食計算
+
+
+block
+frame
+
+
+- 
+- 評估資格:N=1,211
+- 排除:N=851(含OHCA後昏迷N=435)
+- **隨機分組:N=360**
+- 標準治療:N=180
+- Microaxial Flow Pump:N=180
+
+
+frame{DanGer Shock:基線特徵}
+| **特徵** | **Impella+標準治療 (N=179)** | **標準治療 (N=176)** |
+| --- | --- | --- |
+| 中位年齡(歲) | 67 (58-76) | 69 (61-76) |
+| 男性( | 142 (79.3) | 139 (79.0) |
+| 中位動脈lactate (mmol/L) | 4.6 (3.4-7.1) | 4.5 (3.2-6.9) |
+| 中位LVEF ( | 25 (20-31) | 25 (15-30) |
+| 再灌流前插管( | 35 (19.6) | 28 (15.9) |
+| 前壁心肌梗塞( | 126 (70.4) | 129 (73.3) |
+| **SCAI分期** |  |  |
+| C | 100 (55.9) | 97 (55.1) |
+| D | 51 (28.5) | 50 (28.4) |
+| E | 28 (15.6) | 29 (16.5) |
+| 症狀發作到隨機分組(小時) | 4.8 (2.4-12.8) | 3.8 (2.2-9.4) |
+
+frame
+
+frame{DanGer Shock:處置細節}
+| **處置** | **Impella+標準治療** | **標準治療** |
+| --- | --- | --- |
+| **再灌流** |  |  |
+| PCI ( | 171 (95.5) | 172 (97.7) |
+| 非罪犯血管PCI( | 59/127 (46.5) | 55/129 (42.6) |
+| 到達醫院至balloon inflation時間(分鐘) | 58 (36-114) | 45 (31-81) |
+| **機械循環支持** |  |  |
+| 放置Impella CP裝置( | 170 (95.0) | 3 (1.7) |
+| 隨機分組到放置Impella時間(分鐘) | 14 (8-29) | 15 (8-31) |
+| Impella支持時間(小時) | 59 (30-87) | 60 (31-92) |
+| 成功weaning Impella( | 138/170 (81.2) | 1/3 (33.3) |
+| 升級至額外MCS( | 28 (15.6) | 37 (21.0) |
+| VA-ECMO ( | 21 (11.7) | 33 (18.8) |
+
+frame
+
+
+- 
+- Impella+標準治療:**45.8
+- 標準治療:**58.5
+- Hazard ratio: **0.74 (95
+- P = 0.04
+
+
+frame{DanGer Shock:次要終點與安全性}
+columns[T]
+0.48\textwidth
+**次要終點**
+
+- 複合性心臟終點:    52.5  HR 0.72 (0.55-0.95)
+- 存活且出院天數:    82天 vs 73天    差異8天(-8至25)
+
+
+0.48\textwidth
+**安全性終點**
+
+- 
+- 複合安全性終點:    **24.0
+- 中度或嚴重出血:    **21.8
+- 肢體缺血:    **5.6
+- 腎臟替代療法:    **41.9
+- 陽性血液培養敗血症:    **11.7
+
+
+columns
+
+
+alertblock{安全性考量}
+Impella組有較高的出血、肢體缺血、腎臟替代療法及敗血症發生率
+alertblock
+frame
+
+
+- 10年全因死亡率 itemize
+- Impella+標準治療:**52.5
+- 標準治療:**68.8
+- Hazard ratio: **0.70 (95
+
+
+\item 中位死亡時間
+
+- Impella+標準治療:**577天**
+- 標準治療:**61天**
+
+
+itemize
+frame
+
+
+## 重點整理
+
+
+frame{Take Home Messages}
+
+1. **Golden Hour概念至關重要**  -  - 60分鐘內完成初始評估、SCAI分期、休克團隊啟動 - 早期辨識可防止惡化 - 當心「血壓正常的休克」
+2. **多專科休克團隊啟動改善預後**  -  - 組成團隊:心臟科、CCU、介入、心臟外科、灌流師 - 使用侵入性血行動力學監測(PA catheter)進行診斷與治療指引
+3. **DanGer Shock試驗:Impella CP改善AMI-CS存活率**  -  - 180天死亡率絕對風險降低26 - 但增加出血併發症與腎臟替代療法需求
+
+
+frame
+
+frame{Take Home Messages (續)}
+
+1. enumi{3}
+2. **藥物治療原則**  -  - Norepinephrine是首選血管升壓劑 - 使用最低劑量/最短時間的inotropes - 謹慎優化PEEP(可能惡化RV功能但在適當情況下幫助LV)
+3. **每6小時串列再評估**  -  - 反覆評估支持足夠度 - 治療可逆病因 - 降低併發症機率 - 盡快降階治療 - 跨團隊討論治療模式及目標
+
+
+frame
+
+frame{2025 ACC Acute Coronary Syndromes Guideline}
+| }  **COR** | **LOE** | **建議** |  |  |
+| --- | --- | --- | --- | --- |
+| 1 | B-R | ACS合併心因性休克或血行動力學不穩定患者,**不論症狀發作時間**,以PCI或CABG進行罪犯血管**緊急再灌流**可改善存活率 |  |  |
+| 3: Harm | B-R | ACS併發心因性休克時,**不應在PPCI時常規對非梗塞相關動脈進行PCI**,因有較高死亡或腎衰竭風險 |  |  |
+| 2a | B-R | 在**嚴選**的STEMI合併嚴重或難治性心因性休克患者,**插入microaxial intravascular flow pump**以降低死亡是合理的 |  |  |
+
+
+alertblock{關鍵訊息}
+
+- **緊急罪犯血管再灌流**改善存活率!
+- **Microaxial flow pump (Impella CP)**改善存活率!
+- ARR: 12.7
+
+
+alertblock
+frame
+
+frame[plain]
+Journal Reading
+Cardiogenic Shock
+
+
+感謝聆聽
+
+
+謝慕揚 MD, PhD, FESC
+國立臺灣大學醫學院附設醫院新竹分院
+心臟內科
+
+frame

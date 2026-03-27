@@ -1,0 +1,310 @@
+# EuroIntervention 2025-11-21 London Valve 2025
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-01-01**
+
+---
+
+\maketitle
+
+
+## 期刊發展與特刊意義
+
+
+### 編輯序言
+
+
+EuroIntervention期刊再次於11月推出專刊，配合PCR London Valves會議的盛大舉行，本期聚焦於瓣膜心臟病介入治療的最新發展。作為全年僅有的四期印刷版之一，本特刊具有特殊意義。在數位時代，看到會議參與者手持印刷版作為禮物，確實令人感到滿足。
+
+
+### 期刊演進歷程
+
+
+| p{12cm}}  **時期** | **特點** |  |
+| --- | --- | --- |
+| **表格續接** |  |  |
+| **時期** | **特點** |  |
+| **數年前** | minipage[t]{12cm} - 組稿較為困難 |  |
+| - 多數投稿以冠狀動脈為主 |  |  |
+| - 需邀請知名作者撰寫社論、觀點文章及回顧 |  |  |
+| - 填滿整期具有挑戰性 |  |  |
+| **2020年** | minipage[t]{12cm} - 投稿仍以冠狀動脈為主導 |  |
+| - 需要創意方式邀稿 |  |  |
+| - 瓣膜相關文章數量有限 |  |  |
+| **目前階段** | minipage[t]{12cm} - 收到大量高品質投稿 |  |
+| - 反映期刊成長及影響因子上升 |  |  |
+| - 挑戰在於選擇最相關文章 |  |  |
+| - 需確保文章流暢性及視覺效果 |  |  |
+| - 吸引試驗、多中心研究及領先作者 |  |  |
+| - 持續追求卓越 |  |  |
+
+
+### 新傳統建立：Alain Cribier EuroIntervention獎
+
+
+為慶祝期刊創刊20週年，我們建立了一項新傳統。首次頒發「Alain Cribier EuroIntervention獎」給心臟病學界傑出成員。在Cribier家族的支持下，該獎項將由Hélène Eltchaninoff在全體會議中頒發，以表彰這位發明家、人才及魅力領袖在瓣膜心臟病管理領域的學術及臨床貢獻。
+
+
+## 本期重點文章導覽
+
+
+### 綜述與共識文件
+
+
+| p{11cm}} 本期主要綜述與共識文件 |  |  |
+| --- | --- | --- |
+| **主題** | **內容摘要** |  |
+| **表格續接** |  |  |
+| **主題** | **內容摘要** |  |
+| **雙葉主動脈瓣狹窄之TAVI治療** | minipage[t]{11cm} **作者：**Didier Tchétché、Ole De Backer及同事 |  |
+| **重點：** |  |  |
+| - 雙葉主動脈瓣(BAV)解剖分類系統回顧 |  |  |
+| - 當前手術技術討論 |  |  |
+| - TAVI已擴展至特定BAV患者 |  |  |
+| - 技術與手術挑戰仍然存在 |  |  |
+| - 回顧現有研究並指出知識缺口 |  |  |
+| **右心室導線患者之三尖瓣介入治療專家共識** | minipage[t]{11cm} **委託單位：**歐洲心律學會(EHRA)及歐洲心臟病學會經皮心血管介入協會(EAPCI) |  |
+| **作者：**Jean-Claude Deharo、Zachary Whinnett及同事 |  |  |
+| **重點：** |  |  |
+| - 近三分之一接受三尖瓣介入治療患者有心律調節器或植入式去顫器導線 |  |  |
+| - 介入心臟科醫師與電生理醫師間溝通至關重要 |  |  |
+| - 提供當前科學證據 |  |  |
+| - 作為心臟團隊決策及患者管理資源 |  |  |
+| **ACURATE平台停產之觀點** | minipage[t]{11cm} **作者：**Won-Keun Kim、Helge Möllmann |  |
+| **討論重點：** |  |  |
+| - ACURATE neo2/Prime經導管心臟瓣膜(THV)停產時機與影響 |  |  |
+| - 平台停產是否真為科學清算 |  |  |
+| - 登記研究設計、裝置尺寸選擇及使用是否導致裝置潛力被低估 |  |  |
+| - 需要更細緻的討論 |  |  |
+
+
+### 原創研究文章
+
+
+#### SAPIEN 3 Ultra RESILIA瓣膜之HALT研究
+
+
+| p{11cm}} HALT研究要點 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| **研究團隊** | Kenichi Ishizu、Kentaro Hayashida及同事 |  |
+| **研究目標** | minipage[t]{11cm} 檢視TAVI術後30天內低衰減瓣葉增厚(HALT)的： |  |
+| - 臨床發生率 |  |  |
+| - 預測因子 |  |  |
+| - 臨床影響 |  |  |
+| **瓣膜系統** | 最新一代SAPIEN 3 Ultra RESILIA經導管心臟瓣膜 |  |
+| **主要發現** | minipage[t]{11cm} - HALT總體發生率與前代裝置相當 |  |
+| - 小尺寸瓣膜特有的改良瓣膜連接懸吊方法與HALT風險增加無關 |  |  |
+| - 人工瓣膜變形指數與HALT風險增加獨立相關 |  |  |
+| - 不對稱瓣葉擴張與HALT風險增加獨立相關 |  |  |
+| - 上述相關性不受THV尺寸影響 |  |  |
+| **配套社論** | Jonathon A. Leipsic及John K. Khoo評論 |  |
+
+
+#### 主動脈環大小與TAVI長期預後研究
+
+
+| p{11cm}} 主動脈環大小對長期預後影響研究 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| **研究團隊** | Masanori Yamamoto、Kentaro Hayashida及同事 |  |
+| **研究問題** | 基線主動脈環大小是否為球囊擴張式THV術後長期預後預測因子 |  |
+| **研究設計** | minipage[t]{11cm} - 大型世代研究 |  |
+| - 患者接受TAVI達7年前 |  |  |
+| - 依據主動脈環大小分組 |  |  |
+| - 評估主要終點 |  |  |
+| **主要終點** | minipage[t]{11cm} - 全因死亡率 |  |
+| - 生物人工瓣膜衰竭各階段 |  |  |
+| **主要結論** | minipage[t]{11cm} - 主動脈環大小與長期預後無關 |  |
+| - 主動脈環大小與瓣膜耐久性無關 |  |  |
+| - 建議探索其他指標 |  |  |
+
+
+#### Evolut FX裝置冠狀動脈插管研究
+
+
+| p{11cm}} CANNULATE TAVR EXPANDED研究 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| **研究團隊** | Yohei Ohno、Guilherme F. Attizzani及同事 |  |
+| **研究目的** | minipage[t]{11cm} 評估使用高框架、環上型THV是否能達到最佳瓣膜交界及冠狀動脈對位： |  |
+| - 可行性評估 |  |  |
+| - 時機評估 |  |  |
+| **瓣膜系統** | 新一代Evolut FX裝置 |  |
+| **主要結果** | minipage[t]{11cm} **冠狀動脈插管成功率：** |  |
+| - 左冠狀動脈：100 |  |  |
+| - 右冠狀動脈：96.7 |  |  |
+| **預測因子：** |  |  |
+| - 對位不良為左右冠狀動脈次佳插管的強預測因子 |  |  |
+| **配套社論** | minipage[t]{11cm} Ignacio J. Amat-Santos及Filippo Pensotti討論： |  |
+| - 研究發現如何指導未來研究 |  |  |
+| - 臨床應用意義 |  |  |
+
+
+#### TRICURE首次人體研究
+
+
+| p{11cm}} TRICURE研究：新型三尖瓣置換系統 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| **研究團隊** | Emmanuel Teiger、Julien Dreyfus及同事 |  |
+| **研究性質** | 首次人體研究(First-in-human study) |  |
+| **裝置特點** | minipage[t]{11cm} **Topaz經導管三尖瓣置換系統：** |  |
+| - 雙支架設計 |  |  |
+| - 專為三尖瓣解剖結構設計 |  |  |
+| - 治療三尖瓣逆流(TR) |  |  |
+| **研究對象** | 20位患者 |  |
+| **主要結果** | minipage[t]{11cm} **手術效能：** |  |
+| - 手術時間短 |  |  |
+| - 併發症發生率低 |  |  |
+| - 30天TR顯著且持續減少 |  |  |
+| **額外資料：** |  |  |
+| - 包含一位6個月追蹤個案研究 |  |  |
+| - 討論術者學習曲線 |  |  |
+| - 討論篩選標準 |  |  |
+| **研究意義** | 為未來研究鋪路 |  |
+
+
+## 本期文章總覽
+
+
+### 文章類型分布
+
+
+> **綜述與共識文件：**
+> itemize[leftmargin=*]
+>     \item 雙葉主動脈瓣狹窄TAVI治療之最新技術回顧
+>     \item 右心室導線患者三尖瓣介入治療專家共識
+>     \item ACURATE平台停產觀點文章
+> itemize
+> **原創研究論文：**
+> itemize[leftmargin=*]
+>     \item SAPIEN 3 Ultra RESILIA之HALT發生率研究
+>     \item 主動脈環大小對長期預後影響分析
+>     \item Evolut FX裝置冠狀動脈插管可行性研究
+>     \item TRICURE首次人體研究
+> itemize
+> **配套社論：**
+> itemize[leftmargin=*]
+>     \item 針對HALT研究的評論
+>     \item 針對冠狀動脈插管研究的評論
+> itemize
+
+
+### 研究主題分類
+
+
+| p{10cm}} 本期文章主題分類 |  |  |
+| --- | --- | --- |
+| **介入治療類型** | **涵蓋內容** |  |
+| **表格續接** |  |  |
+| **介入治療類型** | **涵蓋內容** |  |
+| **TAVI相關** | minipage[t]{10cm} - 雙葉主動脈瓣解剖與技術 |  |
+| - HALT發生機制與預測因子 |  |  |
+| - 主動脈環大小與預後關係 |  |  |
+| - 冠狀動脈插管可行性 |  |  |
+| - 裝置對位重要性 |  |  |
+| - 長期瓣膜耐久性 |  |  |
+| **三尖瓣介入治療** | minipage[t]{10cm} - 右心室導線患者管理共識 |  |
+| - 新型三尖瓣置換系統 |  |  |
+| - 首次人體研究結果 |  |  |
+| - 手術技術與學習曲線 |  |  |
+| **裝置技術** | minipage[t]{10cm} - 新一代瓣膜系統特點 |  |
+| - 裝置設計演進 |  |  |
+| - 瓣膜懸吊方法改良 |  |  |
+| - 裝置停產討論 |  |  |
+| **併發症預防** | minipage[t]{10cm} - HALT預測與預防 |  |
+| - 冠狀動脈阻塞風險 |  |  |
+| - 導線相關併發症 |  |  |
+| - 瓣膜變形問題 |  |  |
+
+
+## 臨床意義與未來方向
+
+
+### TAVI技術進展
+
+
+1. ****解剖複雜度處理：****雙葉主動脈瓣患者TAVI技術日趨成熟
+2. ****裝置優化：****新一代瓣膜系統持續改良
+3. ****併發症預測：****HALT等併發症預測因子更明確
+4. ****長期預後評估：****需要持續追蹤瓣膜耐久性
+
+
+### 三尖瓣介入治療突破
+
+
+| p{11cm}}  **進展領域** | **重要性** |  |
+| --- | --- | --- |
+| **進展領域** | **重要性** |  |
+| **裝置創新** | minipage[t]{11cm} - 雙支架設計適應三尖瓣解剖 |  |
+| - 專用系統提高手術成功率 |  |  |
+| - 減少併發症發生 |  |  |
+| **導線管理** | minipage[t]{11cm} - 近三分之一患者有導線 |  |
+| - 需要多專科團隊合作 |  |  |
+| - 共識文件提供決策指引 |  |  |
+| **臨床經驗** | minipage[t]{11cm} - 首次人體研究提供初步數據 |  |
+| - 學習曲線需要關注 |  |  |
+| - 篩選標準逐步建立 |  |  |
+
+
+### 期刊發展方向
+
+
+> **內容品質提升：**
+> itemize[leftmargin=*]
+>     \item 吸引高品質多中心研究
+>     \item 邀請領域領先作者
+>     \item 嚴格同儕審查流程
+>     \item 追求卓越標準
+> itemize
+> **編輯創新：**
+> itemize[leftmargin=*]
+>     \item 精心策劃文章編排
+>     \item 確保內容流暢性
+>     \item 優化視覺呈現
+>     \item 印刷版與數位版並重
+> itemize
+> **學術認可：**
+> itemize[leftmargin=*]
+>     \item 創立Alain Cribier獎項
+>     \item 慶祝期刊20週年
+>     \item 表彰學術臨床貢獻
+>     \item 延續瓣膜介入治療傳統
+> itemize
+
+
+## 結語
+
+
+本期EuroIntervention特刊精心挑選了瓣膜介入治療領域的重要文章，涵蓋從TAVI到三尖瓣介入治療的最新進展。每篇文章都經過嚴格審查，旨在提供全面的最新證據、臨床見解及新興技術概覽。
+
+期刊的成長反映了瓣膜介入治療領域的蓬勃發展，從早期組稿困難到現在收到大量高品質投稿，顯示這個領域已成為心血管介入治療的重要支柱。PCR London Valves會議的舉辦，更凸顯了這個領域的活力與創新。
+
+我們希望本期特刊不僅能提供資訊，更能激發靈感，反映瓣膜心臟病管理的動態進展。從雙葉主動脈瓣TAVI的技術挑戰，到三尖瓣介入治療的創新裝置，每一篇文章都代表著臨床實踐的重要進展。
+
+讓我們一起閱讀這些精彩的文章，見證瓣膜介入治療的持續演進。
+
+
+**關鍵詞：**經導管主動脈瓣植入術、三尖瓣介入治療、雙葉主動脈瓣、HALT、冠狀動脈插管、瓣膜耐久性、PCR London Valves
+
+
+## 參考文獻
+
+
+1. Capodanno D. Introduction: A state-of-the-art on TAVI in bicuspid aortic stenosis; an expert consensus on transcatheter tricuspid valve interventions in patients with transvalvular right ventricular leads; the ACURATE platform discontinuation; and more. [*EuroIntervention](https://eurointervention.pcronline.com/article/a-state-of-the-art-on-tavi-in-biscuspid-aortic-stenosis-an-expert-consensus-on-transcatheter-tricuspid-valve-interventions-in-patients-with-transvalvular-right-ventricular-leads-the-acurate-platform-discontinuation-coronary-cannulation-after-transfemoral-tavi-with-the-evolut-fx-halt-after-tavi-with-the-sapien-ultra-resilia-impact-of-aortic-annular-size-on-long-term-outcomes-and-valve-durability-the-tricure-first-in-human-study-5-year-follow-up-of-evoque-ttvr-and-more). 2025;21(22):1-3.*
+2. Tchétché D, De Backer O, et al. State-of-the-art review on transcatheter treatment of bicuspid aortic valve stenosis. *EuroIntervention*. 2025;21(22). [詳細DOI待補充]
+3. Deharo JC, Whinnett Z, et al. Expert consensus on transcatheter tricuspid valve interventions in patients with transvalvular right ventricular leads. *EuroIntervention*. 2025;21(22). [詳細DOI待補充]
+4. Kim WK, Möllmann H. ACURATE platform discontinuation: A nuanced discussion. *EuroIntervention*. 2025;21(22). [詳細DOI待補充]
+5. Ishizu K, Hayashida K, et al. Hypoattenuated leaflet thickening after TAVI with SAPIEN 3 Ultra RESILIA. *EuroIntervention*. 2025;21(22). [詳細DOI待補充]
+6. Yamamoto M, Hayashida K, et al. Impact of aortic annular size on long-term outcomes after TAVI. *EuroIntervention*. 2025;21(22). [詳細DOI待補充]
+7. Ohno Y, Attizzani GF, et al. Coronary cannulation after transfemoral TAVI with Evolut FX: The CANNULATE TAVR EXPANDED study. *EuroIntervention*. 2025;21(22). [詳細DOI待補充]
+8. Teiger E, Dreyfus J, et al. First-in-human TRICURE study: Novel transcatheter tricuspid valve replacement system. *EuroIntervention*. 2025;21(22). [詳細DOI待補充]

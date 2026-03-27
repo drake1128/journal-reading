@@ -1,0 +1,466 @@
+---
+title: "NEJM cardiogenic shock"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **關鍵發現：**
+> itemize[leftmargin=*]
+>     \item 心因性休克 30 天死亡率仍高達 40-50
+>     \item 梗塞相關心因性休克應進行早期血管重建術
+>     \item 多血管疾病患者應先處理culprit lesion，穩定後再行分階段血管重建
+>     \item Microaxial flow pump（如 Impella）在特定 STEMI 患者可降低死亡率
+>     \item VA-ECMO 常規使用未顯示死亡率改善
+> itemize
+
+
+\tableofcontents
+
+---
+
+
+## 定義與診斷
+
+
+### 心因性休克的定義
+
+
+根據 Shock Academic Research Consortium（SHARC）的定義，心因性休克是指由心臟疾病導致的持續組織低灌流狀態，同時具有臨床及生化證據。
+
+
+> **血壓標準：**
+> itemize
+>     \item 收縮壓 $<$90 mmHg 持續超過 30 分鐘，或
+>     \item 需要 inotropes、vasopressors 或機械循環支持以維持收縮壓 $\geq$90 mmHg
+> itemize
+> **組織低灌流證據：**
+> itemize
+>     \item 四肢冰冷、灌流不良
+>     \item 寡尿（urine output $<$30 ml/hr）
+>     \item 意識改變
+>     \item 動脈 lactate 升高
+> itemize
+> **心臟功能異常：**
+> itemize
+>     \item 心臟超音波顯示心臟功能障礙
+>     \item Cardiac index $\leq$2.2 L/min/m$^2$
+>     \item Systemic vascular resistance index $>$2200 dynes$\cdot$sec/cm$^5$
+> itemize
+
+
+### 特殊類型
+
+
+| p{10cm}} 心因性休克特殊類型 |  |  |
+| --- | --- | --- |
+| **類型** | **說明** |  |
+| **類型** | **說明** |  |
+| Normotensive cardiogenic shock | 收縮壓 $>$90 mmHg 但仍有器官低灌流證據 |  |
+| Mixed shock | 心因性休克合併至少一種其他休克原因（如敗血性、低血容性） |  |
+
+
+### SCAI 休克分期系統
+
+
+Society for Cardiovascular Angiography and Interventions（SCAI）與 Heart Failure Society of America 提出的分期系統已廣泛應用於臨床與研究。
+
+
+| p{3cm}p{9cm}} SCAI 心因性休克分期系統 |  |  |
+| --- | --- | --- |
+| **分期** | **名稱** | **定義** |
+| **分期** | **名稱** | **定義** |
+| Stage A | At risk（風險期） | 有心因性休克風險但無目前症狀或徵兆    Lactate $\leq$2 mmol/L |
+| Stage B | Beginning（初期） | 有相對低血壓或心搏過速但無組織低灌流    Lactate $\leq$2 mmol/L |
+| Stage C | Classic（典型期） | Lactate $>$2 mmol/L    Cardiac index $<$2.2 L/min/m$^2$    PCWP $>$15 mmHg |
+| Stage D | Deteriorating（惡化期） | Lactate 持續升高或維持 $>$2 mmol/L    需增加 vasopressor 劑量或加入機械循環支持 |
+| Stage E | Extremis（極危期） | Lactate $>$8 mmol/L    儘管最大血流動力學支持仍有嚴重低血壓 |
+
+
+## 病理生理學
+
+
+心因性休克的特徵為心臟功能與 cardiac index 的嚴重下降，形成惡性循環：
+
+
+> 心臟功能下降 $\rightarrow$ 低血壓 $\rightarrow$ 冠狀動脈缺血 $\rightarrow$ 心肌收縮力下降 $\rightarrow$ Cardiac index 進一步降低
+> **代償與失代償：**
+> itemize
+>     \item 早期：代償性全身性血管收縮
+>     \item 晚期：因發炎反應導致病理性血管擴張
+>     \item Cardiac index 下降造成嚴重組織缺氧，Lactate 升高
+> itemize
+> **多器官衰竭：**
+> 心臟、腎臟、肝臟、肺臟、腸道、免疫系統、凝血系統
+
+
+## 病因學與流行病學
+
+
+### 心因性休克的病因分類
+
+
+| p{10cm}} 心因性休克病因分類 |  |  |
+| --- | --- | --- |
+| **分類** | **具體病因** |  |
+| **分類** | **具體病因** |  |
+| **急性心肌梗塞相關** | STEMI    Non-STEMI    機械性併發症：心室中膈破裂、乳突肌斷裂、心室游離壁破裂 |  |
+| **非心肌梗塞相關** | 新發心衰竭    急性慢性心衰竭惡化    急性心肌炎    Takotsubo syndrome    產後心肌病變 |  |
+| **次發性非心肌原因** | 瓣膜疾病    心包疾病    心律不整 |  |
+| **心臟手術後** | Postcardiotomy shock |  |
+
+
+### 流行病學趨勢
+
+
+- 由於急性心肌梗塞治療進步與預防改善，心肌梗塞相關心因性休克比例逐漸下降
+- 非心肌梗塞相關心因性休克目前已超過心肌梗塞相關
+- 71
+
+
+### 死亡率統計
+
+
+| p{4cm}} 不同病因心因性休克院內死亡率 |  |  |
+| --- | --- | --- |
+| **病因** | **院內死亡率** |  |
+| **病因** | **院內死亡率** |  |
+| Mixed-cause cardiogenic shock | 48 |  |
+| Infarct-related cardiogenic shock | 41 |  |
+| New heart failure | 31 |  |
+| Secondary causes | 31 |  |
+| Acute-on-chronic heart failure | 25 |  |
+
+
+### 心因性休克表型
+
+
+| p{10cm}} 心因性休克表型分類 |  |  |
+| --- | --- | --- |
+| **表型** | **特徵與處置考量** |  |
+| **表型** | **特徵與處置考量** |  |
+| 左心室衰竭為主 | 最常見形式 |  |
+| 雙心室衰竭 | 常見；44  非心肌梗塞相關更常見 |  |
+| 機械性併發症 | 急性心室破裂、急性二尖瓣逆流    需特定治療策略 |  |
+| 心跳停止後復甦 | 心臟頓挫（cardiac stunning）    初期 lactate 與 cardiac index 相關性差    20-30 |  |
+
+
+## 主要隨機對照試驗定義比較
+
+
+| p{11.5cm}} 主要隨機對照試驗中心因性休克定義 |  |  |
+| --- | --- | --- |
+| **試驗** | **心因性休克定義** |  |
+| **試驗** | **心因性休克定義** |  |
+| SHOCK | AMI 且 SBP $<$90 mmHg $\geq$30 min 或需支持維持 SBP $\geq$90 mmHg    加上器官低灌流（urine output $<$30 ml/hr）或四肢冰冷    心跳 $>$60 bpm    血流動力學標準：CI $\leq$2.2 L/min/m$^2$，PCWP $\geq$15 mmHg |  |
+| TRIUMPH | AMI 且梗塞相關動脈通暢    PCI 後 $>$1 hr 難治性休克，SBP $<$100 mmHg    儘管使用 vasopressors（dopamine $\geq$7 μg/kg/min 或 norepinephrine/epinephrine $\geq$0.15 μg/kg/min）    器官低灌流、LVEF $<$40 |  |
+| IABP-SHOCK II | AMI 且 SBP $<$90 mmHg $\geq$30 min 或需 catecholamines 維持 SBP $>$90 mmHg    臨床肺充血    器官灌流受損（意識改變、四肢濕冷、urine output $<$30 ml/hr、lactate $>$2.0 mmol/L） |  |
+| CULPRIT-SHOCK | AMI 且計畫早期 PCI 血管重建    多血管冠狀動脈疾病（$\geq$2 條 $\geq$2 mm 血管狹窄 $>$70  SBP $<$90 mmHg $>$30 min 或需 catecholamines 維持 SBP $>$90 mmHg    肺充血、器官灌流受損、lactate $>$2.0 mmol/L |  |
+| ECLS-SHOCK | MI 且計畫早期 PCI 或 CABG 血管重建    SBP $<$90 mmHg $>$30 min 或需 catecholamine 維持 SBP $>$90 mmHg    器官灌流受損、lactate $>$3.0 mmol/L |  |
+| DanGer Shock | STEMI $<$36 hr    SBP $<$100 mmHg 或需 vasopressors 維持 SBP $>$100 mmHg    Lactate $>$2.5 mmol/L 或 SvO$_2$ $<$55  LVEF $<$45 |  |
+
+
+## 治療
+
+
+### 照護系統
+
+
+> itemize
+>     \item 心因性休克患者應在專業三級照護中心治療
+>     \item 中心需具備：機械循環支持啟動與升級能力、心臟介入能力、心臟加護病房、現場心臟外科設施
+>     \item 觀察性研究顯示：年均病例量最高四分位數中心（$\geq$107 例/年）死亡率較低
+>     \item 多專科休克團隊（重症醫師、介入醫師、灌流師、心臟外科醫師）可能改善預後
+> itemize
+
+
+### 加護病房一般治療
+
+
+| p{10cm}} 加護病房一般治療原則 |  |  |
+| --- | --- | --- |
+| **項目** | **建議** |  |
+| **項目** | **建議** |  |
+| 血糖控制 | 依指引建議執行 |  |
+| Lactate 監測 | 穩定前每小時監測 |  |
+| 氧氣輸送 | 確保足夠氧氣供應 |  |
+| 血栓預防 | 依指引執行 thromboprophylaxis |  |
+| 壓力性潰瘍預防 | Stress-ulcer prophylaxis |  |
+| 營養支持 | 初期穩定後早期腸道餵食 |  |
+| 血管活性藥物 | 必須靜脈給藥 |  |
+| 機械通氣 | 肺保護策略（潮氣量 6-8 ml/kg 預測體重）    CPAP 可預防插管（右心衰竭為主時需謹慎） |  |
+| 腎臟替代治療 | 急性腎衰竭合併尿毒症、難治性容量過載、代謝性酸中毒或頑固性高血鉀時啟動    提早啟動未顯示預後改善 |  |
+
+
+### 血流動力學監測
+
+
+- 心臟超音波（至少 point-of-care ultrasound）是首選方法，用於確定病因與進一步表型分類
+- 目前對侵入性血流動力學監測方法無共識
+- 指引建議：對初始治療無反應或診斷/治療不確定時（如 mixed shock），可早期使用 pulmonary artery catheter
+- 多種血流動力學特徵已定義，右心室或雙心室衰竭影響預後
+
+
+### 藥物治療
+
+
+#### 輸液管理
+
+
+- 中心性低血容且無充血、抬腿試驗後血流動力學改善者：可給予晶體溶液
+- 容量過載合併肺水腫：靜脈 loop diuretics
+- 避免低血容
+- 輸液管理應依病理生理考量，右心室或左心室為主的衰竭處理方式不同
+
+
+#### Inotropes 與 Inodilators
+
+
+| p{10cm}} Inotropes 與 Inodilators 使用 |  |  |
+| --- | --- | --- |
+| **藥物** | **說明** |  |
+| **藥物** | **說明** |  |
+| Dobutamine | 左心室衰竭常用第一線 inotrope |  |
+| Levosimendan | 鈣敏感劑，增加心肌收縮力並降低後負荷    近期試驗顯示無法促進 VA-ECMO weaning |  |
+| Milrinone | Phosphodiesterase 3 抑制劑    Dobutamine 無效時可作為替代或追加選項    隨機試驗顯示與 dobutamine 預後無差異 |  |
+| *Cochrane 分析：無足夠證據證明任何特定 inotrope 在死亡率方面的優越性* |  |  |
+
+
+#### Vasopressors
+
+
+| p{10cm}} Vasopressors 使用建議 |  |  |
+| --- | --- | --- |
+| **藥物** | **說明** |  |
+| **藥物** | **說明** |  |
+| Norepinephrine | 首選血管收縮劑    血壓低且組織灌流壓不足時使用    與 dopamine 比較：心律不整事件較少，死亡率無差異 |  |
+| Dopamine | 與 norepinephrine 比較心律不整事件明顯較多 |  |
+| Epinephrine | 與 norepinephrine 對 cardiac index 效果相似    但對心率和代謝變化（包括乳酸酸中毒）有不良影響 |  |
+| Vasopressin | 心因性休克研究不足 |  |
+| *目標 MAP $>$65 mmHg 通常被認為足夠；進行中試驗比較 55 vs 65 mmHg* |  |  |
+
+
+### 機械循環支持裝置
+
+
+> **一般策略：**
+> itemize
+>     \item Bridge to decision（過渡到決策）
+>     \item Bridge to recovery（過渡到恢復）
+>     \item Bridge to durable LVAD（過渡到永久性左心輔助裝置）
+>     \item Bridge to heart transplantation（過渡到心臟移植）
+> itemize
+> **重要考量：**
+> itemize
+>     \item 約 50-60
+>     \item 患者選擇是識別潛在獲益的關鍵
+>     \item 需平衡療效、機構經驗與裝置相關併發症
+> itemize
+
+
+#### Intraaortic Balloon Pump（IABP）
+
+
+| p{10cm}} IABP 證據摘要 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **項目** | **內容** |  |
+| 作用機制 | 置於降主動脈    舒張期增強冠狀動脈灌流    收縮期降低後負荷 |  |
+| 優點 | 置入容易、成本較低、不良事件特徵較佳 |  |
+| IABP-SHOCK II 試驗 | 與藥物治療比較未增加 cardiac index 或其他血流動力學變數    無存活獲益 |  |
+| Altshock-2 試驗 | 心衰竭相關心因性休克早期置入未改善存活或成功 bridge to heart replacement |  |
+| 目前建議 | 不建議心肌梗塞相關心因性休克常規使用    歐洲指引建議用於心肌梗塞相關機械性併發症（美國指引未建議） |  |
+
+
+#### Venoarterial ECMO（VA-ECMO）
+
+
+| p{10cm}} VA-ECMO 證據摘要 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **項目** | **內容** |  |
+| 作用機制 | 流量支持可達 6 L/min    提供完整呼吸與循環支持（右心與左心）    周邊 VA-ECMO：靜脈插管至右心房，血液經體外幫浦與氧合器，逆行回輸至降主動脈 |  |
+| ECLS-SHOCK 試驗 | 嚴重心肌梗塞相關心因性休克    VA-ECMO 組 30 天死亡率 47.8  RR 0.98（95  1 年追蹤死亡率相似 |  |
+| 統合分析 | 4 項 VA-ECMO 隨機試驗個人患者數據統合分析    未顯示心肌梗塞相關心因性休克死亡率獲益    裝置使用併發症較多 |  |
+| 潛在危害 | 因逆行血流增加後負荷，可能傷害心臟    使用 microaxial flow pump 或 IABP 主動卸載左心室可減輕此不良血流動力學效應 |  |
+| 目前建議 | 美國指引不建議心因性休克常規使用 VA-ECMO |  |
+
+
+#### Microaxial Flow Pumps
+
+
+| p{10cm}} Microaxial Flow Pumps（如 Impella）證據摘要 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **項目** | **內容** |  |
+| 作用機制 | 經皮置入導管    峰值流量約 4.3 L/min    用於左心室功能障礙為主的心因性休克 |  |
+| 既往研究 | 大規模傾向配對研究（$>$100,000 患者）    一致顯示無存活獲益且併發症率較高 |  |
+| DanGer Shock 試驗 | 360 例 STEMI 患者，無缺氧性腦損傷風險    Microaxial flow pump vs 標準治療    180 天全因死亡率：HR 0.74（95  存活獲益持續至 10 年    併發症：出血、肢體缺血、腎臟替代治療較多 |  |
+| 適用族群 | 左心室功能障礙為主且低缺氧性腦損傷風險的患者（約佔所有心因性休克患者 5 |  |
+| 目前建議 | 美國指引建議在特定患者使用（Class IIa） |  |
+
+
+#### Left Atrial-to-Femoral Arterial Devices（TandemHeart）
+
+
+- 從左心房導引血流至股動脈
+- 卸載左心室，幫浦流量可達 4 L/min
+- 臨床實踐中使用較少
+- 兩項小型試驗未顯示確定性臨床預後證據
+
+
+### 心因性休克病因治療
+
+
+#### 急性心肌梗塞血管重建
+
+
+> **SHOCK 試驗：**
+> itemize
+>     \item 早期血管重建 vs 初始藥物穩定
+>     \item 30 天死亡率無顯著降低
+>     \item 但長期結果顯示死亡率降低（追蹤至 6 年）
+>     \item 因此高度建議早期血管重建
+> itemize
+> **多血管疾病（70-80
+> itemize
+>     \item CULPRIT-SHOCK 試驗：Culprit-lesion-only PCI vs 立即多血管 PCI
+>     \item Culprit-lesion-only PCI 死亡與腎臟替代治療率 45.9
+>     \item RR 0.83（95
+>     \item 主要由死亡率顯著降低驅動
+> itemize
+> **目前建議策略：**
+> itemize
+>     \item 先處理 culprit lesion
+>     \item 臨床穩定後再行分階段血管重建
+>     \item 若冠狀動脈解剖不適合 PCI，可考慮 CABG
+> itemize
+
+
+#### 機械性與瓣膜併發症
+
+
+- 急性心肌梗塞後機械性併發症（乳突肌斷裂、心室中膈壁或游離壁破裂）罕見但發生率下降
+- 預後極差
+- 需外科或經皮矯正以存活
+
+
+## 進行中的臨床試驗
+
+
+| p{2cm}p{3.5cm}p{2cm}p{3cm}} 進行中的心因性休克隨機對照試驗 |  |  |
+| --- | --- | --- |
+| **試驗名稱** | **休克類型** | **介入** |
+| **試驗名稱** | **休克類型** | **介入** |
+| **機械循環支持** |  |  |
+| ECMO-RRT | AMI  | HF |
+| ANCHOR | AMI | VA-ECMO + IABP vs 最佳藥物治療 |
+| UNLOAD-ECMO | AMI  | HF |
+| ULYSS | AMI | Impella CP vs 最佳藥物治療 |
+| RECOVER IV | AMI | Impella CP vs 最佳藥物治療（含 IABP） |
+| REMAP ECMO | AMI  | HF |
+| **經導管介入** |  |  |
+| MINOS | AMI  | HF |
+| RESCUE-SHOCK | AMI | 立即多血管 PCI + VA-ECMO vs Culprit-only PCI + VA-ECMO |
+| **Inotropes、Vasopressors 與血流動力學藥物** |  |  |
+| LevoHeartShock | AMI  | HF |
+| CAPITAL DOREMI-2 | AMI  | HF |
+| NorShock | AMI | MAP $\geq$55 vs $\geq$65 mmHg |
+| PACCS | HF | PAC vs No PAC |
+| **系統性治療與抗血小板藥物** |  |  |
+| DAPT-SHOCK | AMI | Cangrelor + DAPT vs DAPT |
+| DOBERMANN | AMI preshock | Tocilizumab 或 dobutamine vs Placebo |
+| COCCOA | AMI  | HF |
+
+
+## 機械循環支持證據統合分析
+
+
+2024 年發表的個人患者數據統合分析（9 項試驗，1059 名患者，6 個月追蹤）：
+
+
+> **整體結果：**
+> itemize
+>     \item 機械循環支持與對照組死亡率無差異
+> itemize
+> **亞組分析：**
+> itemize
+>     \item 左心室功能障礙為主表型且低缺氧性腦損傷風險者有死亡率獲益
+>     \item HR 0.77（95
+> itemize
+> **併發症：**
+> itemize
+>     \item 機械循環支持組併發症率一致較高，與使用裝置類型無關
+> itemize
+
+
+## 重點整理
+
+
+> enumerate
+>     \item 心因性休克早期死亡率接近 50
+>     \item 心肌梗塞相關心因性休克應立即血管重建以降低死亡率
+>     \item 多血管冠狀動脈疾病患者，目前證據支持急性期僅處理 culprit lesion
+>     \item 機械循環支持在特定患者族群可降低死亡率
+>     \item 迫切需要進一步研究以解決心因性休克的高死亡率問題
+> enumerate
+
+
+## 參考文獻
+
+
+1. Thiele H, Hassager C. Cardiogenic Shock. [*N Engl J Med](https://doi.org/10.1056/NEJMra2312086). 2026;394:62-77.*
+2. Waksman R, Pahuja M, van Diepen S, et al. Standardized definitions for cardiogenic shock research and mechanical circulatory support devices: scientific expert panel from the Shock Academic Research Consortium (SHARC). [*Circulation](https://doi.org/10.1161/CIRCULATIONAHA.123.064527). 2023;148:1113-1126.*
+3. Naidu SS, Baran DA, Jentzer JC, et al. SCAI SHOCK stage classification expert consensus update: a review and incorporation of validation studies. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2021.10.027). 2022;79:933-946.*
+4. Thiele H, Zeymer U, Akin I, et al. Extracorporeal life support in infarct-related cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2307227). 2023;389:1286-1297.*
+5. Hochman JS, Sleeper LA, Webb JG, et al. Early revascularization in acute myocardial infarction complicated by cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJM199908263410901). 1999;341:625-634.*
+6. TRIUMPH Investigators, Alexander JH, Reynolds HR, et al. Effect of tilarginine acetate in patients with acute myocardial infarction and cardiogenic shock: the TRIUMPH randomized controlled trial. [*JAMA](https://doi.org/10.1001/jama.297.15.1657). 2007;297:1657-1666.*
+7. Thiele H, Zeymer U, Neumann FJ, et al. Intraaortic balloon support for myocardial infarction with cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1208410). 2012;367:1287-1296.*
+8. Thiele H, Akin I, Sandri M, et al. PCI strategies in patients with acute myocardial infarction and cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1710261). 2017;377:2419-2432.*
+9. Møller JE, Engstrøm T, Jensen LO, et al. Microaxial flow pump or standard care in infarct-related cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2312572). 2024;390:1382-1393.*
+10. Mathew R, Di Santo P, Jung RG, et al. Milrinone as compared with dobutamine in the treatment of cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2026845). 2021;385:516-525.*
+11. Berg DD, Bohula EA, Patel SM, et al. Epidemiology of cardiogenic shock using the Shock Academic Research Consortium (SHARC) consensus definitions. [*Eur Heart J Acute Cardiovasc Care](https://doi.org/10.1093/ehjacc/zuae097). 2024;13:709-714.*
+12. Thiele H, Ohman EM, de Waha-Thiele S, Zeymer U, Desch S. Management of cardiogenic shock complicating myocardial infarction: an update 2019. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehz363). 2019;40:2671-2683.*
+13. De Backer D, Biston P, Devriendt J, et al. Comparison of dopamine and norepinephrine in the treatment of shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa0907118). 2010;362:779-789.*
+14. Levy B, Clere-Jehl R, Legras A, et al. Epinephrine versus norepinephrine for cardiogenic shock after acute myocardial infarction. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2018.04.051). 2018;72:173-182.*
+15. Zeymer U, Freund A, Hochadel M, et al. Venoarterial extracorporeal membrane oxygenation in patients with infarct-related cardiogenic shock: an individual patient data meta-analysis of randomised trials. [*Lancet](https://doi.org/10.1016/S0140-6736(23)01607-0). 2023;402:1338-1346.*
+16. Thiele H, Møller JE, Henriques JPS, et al. Temporary mechanical circulatory support in infarct-related cardiogenic shock: an individual patient data meta-analysis of randomised trials with 6-month follow-up. [*Lancet](https://doi.org/10.1016/S0140-6736(24)01568-5). 2024;404:1019-1028.*
+17. Møller JE, Beske RP, Engstrøm T, et al. Long-term outcomes of the DanGer Shock trial. [*N Engl J Med](https://doi.org/10.1056/NEJMc2503894). 2025;393:1037-1038.*
+18. Hochman JS, Sleeper LA, Webb JG, et al. Early revascularization and long-term survival in cardiogenic shock complicating acute myocardial infarction. [*JAMA](https://doi.org/10.1001/jama.295.21.2511). 2006;295:2511-2515.*
+19. Thiele H, Akin I, Sandri M, et al. One-year outcomes after PCI strategies in cardiogenic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1808788). 2018;379:1699-1710.*
+20. Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad191). 2023;44:3720-3826.*
+21. Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2024.11.009). 2025;85:2135-2237.*
+22. van Diepen S, Katz JN, Albert NM, et al. Contemporary management of cardiogenic shock: a scientific statement from the American Heart Association. [*Circulation](https://doi.org/10.1161/CIR.0000000000000525). 2017;136:e232-e268.*
+23. Morici N, Sacco A, Frea S, et al. Early intra-aortic balloon support for heart failure-related cardiogenic shock: a randomized clinical trial. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2025.02.018). 2025;85:1587-1597.*
+
+
+## 詞彙表
+
+
+| p{10cm}}  **縮寫** | **全名與說明** |  |
+| --- | --- | --- |
+| **縮寫** | **全名與說明** |  |
+| AMI | Acute myocardial infarction，急性心肌梗塞 |  |
+| CABG | Coronary artery bypass grafting，冠狀動脈繞道手術 |  |
+| CI | Cardiac index，心輸出指數 |  |
+| ECMO | Extracorporeal membrane oxygenation，體外膜氧合 |  |
+| IABP | Intraaortic balloon pump，主動脈內氣球幫浦 |  |
+| LVEF | Left ventricular ejection fraction，左心室射出分率 |  |
+| MAP | Mean arterial pressure，平均動脈壓 |  |
+| MCS | Mechanical circulatory support，機械循環支持 |  |
+| M-TEER | Mitral transcatheter edge-to-edge repair，經導管二尖瓣緣對緣修補術 |  |
+| PAC | Pulmonary artery catheter，肺動脈導管 |  |
+| PCI | Percutaneous coronary intervention，經皮冠狀動脈介入治療 |  |
+| PCWP | Pulmonary capillary wedge pressure，肺微血管楔壓 |  |
+| RRT | Renal replacement therapy，腎臟替代治療 |  |
+| SBP | Systolic blood pressure，收縮壓 |  |
+| SCAI | Society for Cardiovascular Angiography and Interventions |  |
+| STEMI | ST-segment elevation myocardial infarction，ST 段上升型心肌梗塞 |  |
+| SvO$_2$ | Mixed venous oxygen saturation，混合靜脈血氧飽和度 |  |
+| VA-ECMO | Venoarterial extracorporeal membrane oxygenation，靜脈-動脈體外膜氧合 |  |

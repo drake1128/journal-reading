@@ -1,0 +1,501 @@
+---
+title: "https://www.nejm.org/doi/full/10.1056/NEJMcpc2513535"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**[Case 36-2025: A 55-Year-Old Woman with Dyspnea, Fatigue, and Gastrointestinal Bleeding](https://www.nejm.org/doi/full/10.1056/NEJMcpc2513535)**
+[0.5cm]
+{**病例 36-2025：空腸靜脈曲張出血**}
+[0.3cm]
+{N Engl J Med 2025   [DOI: 10.1056/NEJMcpc2513535](https://doi.org/10.1056/NEJMcpc2513535)}
+[0.3cm]
+
+
+## 自學方案
+
+本文件為搭配《New England Journal of Medicine》病例報告[《Case 36-2025: A 55-Year-Old Woman with Dyspnea, Fatigue, and Gastrointestinal Bleeding》](https://www.nejm.org/doi/full/10.1056/NEJMcpc2513535)而製作,請先取得該文稿後,搭配本文件自學。已有基礎的同事,請直接跳至考題處進行自我測驗。
+
+
+## 病例概述
+
+
+### 臨床表現
+
+一位55歲女性因反覆直腸出血(recurrent rectal bleeding)及呼吸短促(shortness of breath)至Massachusetts General Hospital就診。
+
+
+### 病史時序
+
+
+| p{12cm}}  **時間點** | **重要事件與發現** |  |
+| --- | --- | --- |
+| **6個月前** | **首次出血發作**    - 發生hematochezia(血便)    - Hemoglobin: 8.0 g/dL (正常: 12.0-16.0)    - Mean corpuscular volume: 正常    - 住院接受colonoscopy: 發現internal hemorrhoids,無masses、ulcers或polyps    - 開始oral iron治療,出院 |  |
+| **3個月前** | **第二次出血發作**    - 再次hematochezia    - Hemoglobin: 6.4 g/dL    - MCV: 73 fL (正常: 80-100)    - WBC: 3700/μL (正常: 4000-11,000),輕度leukopenia    - Ferritin: 5 μg/L (正常: 10-200)    - Transferrin saturation: 3  - 輸血2 units pRBC + IV iron    - EGD with enteroscopy: 正常至proximal jejunum    - 出血自行停止,出院 |  |
+| **2.5個月前** | **門診追蹤**    - Video-capsule endoscopy: reportedly negative    - 開始scheduled iron infusions |  |
+| **2個月前** | **第三次出血發作**    - Recurrent hematochezia伴fatigue    - Hemoglobin: 6.8 g/dL    - Serum protein electrophoresis: 正常    - Free kappa/lambda light chains: 正常    - Copper, lead, zinc levels: 正常    - 輸血1 unit pRBC + IV iron    - 症狀改善,出院 |  |
+| **現次入院** | **第四次出血發作**    - 發生melena(黑便)    - Hemoglobin: 6.5 g/dL    - WBC: 3170/μL    - Platelet: 144,000/μL    - PT: 13.9 sec (正常: 10.0-13.0)    - INR: 1.2 (正常: 0.8-1.1) |  |
+
+
+### 重要病史
+
+
+| p{11cm}}  **類別** | **內容** |  |
+| --- | --- | --- |
+| **Past Medical History** | - Seronegative ocular myasthenia gravis    - Symptomatic premature ventricular complexes (已接受cardiac ablation) |  |
+| **Surgical History** | - **Cholecystectomy (20年前): 併發bile duct laceration,接受open repair及hepaticojejunostomy**    - Appendectomy (4年前) |  |
+| **Medications** | 無固定用藥    Not taking NSAIDs or dietary supplements |  |
+| **Social History** | - 已婚,與丈夫及成年子女同住    - 不抽菸、不飲酒、無recreational drug use    - 退休教育工作者    - 無近期旅遊史,未曾居住美國以外地區 |  |
+| **Family History** | 無liver disease、bleeding disorders或cancer家族史 |  |
+
+
+### 理學檢查
+
+
+| p{11cm}}  **項目** | **發現** |  |
+| --- | --- | --- |
+| **Vital Signs** | - Temperature: 36.1°C    - Blood pressure: 99/55 mmHg    - Heart rate: 61 bpm    - Respiratory rate: 16/min    - SpO$_2$: 99 |  |
+| **General** | - Weight: 85 kg    - BMI: 30 |  |
+| **Skin** | Pale but not jaundiced |  |
+| **Abdomen** | - Soft and nontender    - No distention or palpable organomegaly |  |
+| **Stigmata of Liver Disease** | - No Terry's nails    - No spider angiomas    - No palmar erythema |  |
+
+
+## 影像學發現
+
+
+### CT Angiography (GI Bleeding Protocol)
+
+
+importantbox
+**關鍵影像學發現**
+
+- **No active gastrointestinal bleeding identified**
+- Patent hepatic artery and superior mesenteric artery
+- **Occlusion of the left portal vein** with distal reconstitution
+- **Stenosis at the junction of right portal vein and main portal vein**
+- Dilated right portal vein (poststenotic dilatation)
+- Splenomegaly
+- Portosystemic collaterals in hepatic hilum
+- Evidence of previous hepaticojejunostomy with expected pneumobilia
+
+
+importantbox
+
+
+### Magnetic Resonance Cholangiopancreatography (MRCP)
+
+
+| p{10cm}}  **發現** | **臨床意義** |  |
+| --- | --- | --- |
+| **Atrophic caudate lobe** | 提示該區域慢性血流受損或手術後變化 |  |
+| **Focal intrahepatic biliary ductal dilatation** | 可能為術後結構改變 |  |
+| **Abnormal increased signal on DWI** | 從perihilar region延伸至hepatic veins confluence附近,提示纖維化/發炎 |  |
+| **Abnormal delayed enhancement** | 與DWI高訊號區域一致,支持纖維化診斷 |  |
+| **Attenuation of left and middle hepatic veins** | 肝靜脈受壓或閉塞 |  |
+
+
+### EGD and Colonoscopy
+
+
+- Erythematous mucosa and erosive gastropathy in gastric antrum
+- Hyperplastic polyp
+- Diverticulosis
+- **No vascular lesions or active bleeding identified**
+
+
+## 鑑別診斷
+
+
+### 臨床推理架構
+
+
+**Dr. Irun Bhan的診斷思路**
+
+面對這位有複雜病史的55歲女性,診斷推理分為兩個主要步驟:
+
+1. **確定出血的解剖位置 (Anatomical location)**
+2. **釐清出血的機轉 (Mechanistic cause)**
+
+
+### 確定出血來源
+
+
+| p{11cm}}  **線索** | **分析** |  |
+| --- | --- | --- |
+| **Hematochezia** | 提示lower GI hemorrhage或brisk upper GI bleeding |  |
+| **Melena** | 提示upper GI source (或proximal colon) |  |
+| **兩者都有** | **最可能來自upper GI tract** |  |
+| **Thrombocytopenia + GI hemorrhage** | 提示underlying portal hypertension    - 鐵缺乏性貧血通常會導致reactive thrombocytosis    - 此病人反而thrombocytopenia $\rightarrow$ 異常! |  |
+
+
+### Obscure Gastrointestinal Bleeding的定義
+
+
+> **定義**: Persistent or recurrent bleeding with no source identified on upper and lower endoscopic evaluation.
+> **本病例情況**:
+> itemize
+>     \item 2次EGD (含enteroscopy至proximal jejunum)
+>     \item 1次colonoscopy
+>     \item 1次video-capsule endoscopy
+>     \item 均未發現出血來源
+> itemize
+> **可能原因**:
+> enumerate
+>     \item 先前檢查遺漏出血來源 (如Dieulafoy's lesion等subtle mucosal abnormality)
+>     \item **出血來自尚未檢查的區域 — Roux limb!**
+> enumerate
+
+
+### 出血機轉的鑑別診斷
+
+
+| p{5cm} p{5.5cm}}  **鑑別診斷** | **支持證據** | **反對證據** |
+| --- | --- | --- |
+| **Cirrhotic Portal Hypertension** | Portal vein obstruction    Splenomegaly    Portosystemic collaterals | **無肝硬化危險因子**    正常liver function tests    無stigmata of chronic liver disease    無家族史 |
+| **Noncirrhotic Portal Hypertension** | **影像顯示portal vein stenosis/occlusion**    Splenomegaly    Portosystemic collaterals    Thrombocytopenia    **有hepaticojejunostomy病史** | 無 |
+| **Jejunal Variceal Hemorrhage** | **Roux limb尚未被內視鏡檢查**    Portal hypertension證據    Collaterals near hepaticojejunostomy site | 無 |
+| **Cholangiocarcinoma** | Biliary ductal dilatation    Portal vein obstruction | **正常bilirubin及ALP**    無weight loss或constitutional symptoms    無hilar mass on MRCP |
+| **Hemobilia** | History of biliary surgery    Hepaticojejunostomy | 較不可能,但需考慮vascular-biliary fistula |
+| **Arterioportal Fistula** | 可能造成portal hypertension    Focal vascular enlargement | 需angiography排除 |
+
+
+### Portal Vein Obstruction的病因分析
+
+
+importantbox
+**Portal Vein Stenosis的最可能原因**
+
+本病例中,portal vein obstruction最可能是由於:
+
+- **20年前cholecystectomy併發症後的手術後變化**
+- Bile duct laceration導致的inflammation
+- Bile leak引起的adhesions
+- 慢性fibrosis重塑
+
+
+**支持證據**:
+
+- Caudate lobe atrophy
+- Perihilar region的abnormal signal intensity及delayed enhancement
+- Right portal vein的poststenotic dilatation
+
+
+importantbox
+
+
+## 最終診斷
+
+
+> **Jejunal Variceal Bleeding due to Noncirrhotic Portal Hypertension**
+
+
+> **Portal-vein Stenosis Causing Postsurgical Jejunal Variceal Bleeding at the Level of the Hepaticojejunostomy Site**
+
+
+## 診斷性影像與介入治療
+
+
+### Mesenteric Angiography
+
+
+| p{10cm}}  **檢查** | **發現** |  |
+| --- | --- | --- |
+| **Celiac artery arteriogram** | No active bleeding in stomach or duodenum    No arterioportal fistula involving hepatic arteries |  |
+| **SMA arteriogram** | No GI bleeding    Delayed portal venous phase: jejunal varices and portal vein stenosis |  |
+| **IMA arteriogram** | No colonic or rectal bleeding |  |
+
+
+### Portal Venography
+
+
+importantbox
+**經皮經肝門脈攝影關鍵發現**
+
+
+- **Severe stenosis of the portal vein**
+- Contrast filling jejunal varices and cavernomas through jejunal vein
+- Located at the level of hepaticojejunostomy site
+- **Pressure gradient: 11 mmHg** (正常 <5 mmHg) — hemodynamically significant!
+
+
+**診斷確認**: Prehepatic, noncirrhotic portal hypertension with ectopic variceal formation
+importantbox
+
+
+## 治療處置
+
+
+### 介入治療步驟
+
+
+1. **Portal vein stenting**      - 12-mm × 60-mm self-expanding bare-metal stent - Post-dilatation with 12-mm angioplasty balloon
+2. **Jejunal variceal embolization**      - Microcatheter selection of jejunal varices - Embolization with N-butyl-2-cyanoacrylate (NBCA) + lipiodol + tantalum powder
+3. **治療效果確認**      - Post-embolization venogram: patent stent with in-line flow from SMV to intrahepatic portal vein - Filling of jejunal varices stopped - Pressure gradient decreased from 11 mmHg to **2 mmHg**
+4. **Tract embolization**      - Coils and absorbable gelatin pledgets - Prevention of hemorrhage from transhepatic access
+
+
+### 後續追蹤
+
+
+| p{12cm}}  **時間** | **發現與處置** |  |
+| --- | --- | --- |
+| **術後當晚** | Fever developed — attributed to postembolization syndrome    (無感染跡象,blood culture negative,CXR無pneumonia) |  |
+| **術後第1天** | Hemoglobin: 6.7 g/dL $\rightarrow$ 輸血1 unit pRBC $\rightarrow$ 8.7 g/dL |  |
+| **術後數天** | Melena abated |  |
+| **術後第4天** | 出院 |  |
+| **術後18天** | CT angiography: **nonocclusive thrombus in distal stent**    原因: size mismatch between stent and poststenotic dilatation $\rightarrow$ turbulent flow    處置: 開始apixaban抗凝治療 |  |
+| **術後2個月** | CT angiography: 血栓縮小,stent patent |  |
+| **術後4個月** | Hemoglobin: 12.4 g/dL    可持續抗凝治療,無further GI bleeding |  |
+| **術後5個月** | MRCP: decreased perihilar hepatic enhancement    表示varices near hepaticojejunostomy site的filling減少    **排除hilar neoplasm作為portal vein occlusion的原因** |  |
+
+
+## 英文病例報告寫作指導
+
+
+### Key Vocabulary and Expressions
+
+
+| p{5cm} p{4.5cm}}  **English Term** | **中文翻譯** | **臨床意義** |
+| --- | --- | --- |
+| Hematochezia | 血便/鮮血便 | 紅色血液經由直腸排出 |
+| Melena | 黑便 | 消化過的血液,呈柏油狀 |
+| Obscure GI bleeding | 隱匿性消化道出血 | 內視鏡檢查未發現來源 |
+| Hepaticojejunostomy | 肝管空腸吻合術 | 膽道繞道手術 |
+| Roux-en-Y | 魯氏迴路/Y型吻合 | 外科吻合術式 |
+| Portal hypertension | 門脈高壓 | 門脈壓力升高 |
+| Noncirrhotic portal hypertension | 非肝硬化性門脈高壓 | 無肝硬化的門脈高壓 |
+| Portosystemic collaterals | 門體側枝循環 | 門脈高壓的代償血管 |
+| Ectopic varices | 異位靜脈曲張 | 非典型位置的曲張靜脈 |
+| Jejunal varices | 空腸靜脈曲張 | 空腸的曲張靜脈 |
+| Splenomegaly | 脾腫大 | 門脈高壓的徵象 |
+| Thrombocytopenia | 血小板低下 | 可因脾腫大導致 |
+| Poststenotic dilatation | 狹窄後擴張 | 血流動力學現象 |
+| Cavernoma | 海綿狀血管瘤 | 側枝血管團 |
+| Pneumobilia | 膽道積氣 | 膽腸吻合後正常現象 |
+| Postembolization syndrome | 栓塞後症候群 | 發燒、疼痛,通常自限 |
+
+
+### 病史描述的標準句型
+
+
+> **Opening Statement:**
+> quote
+> *"A 55-year-old woman was admitted to this hospital because of recurrent rectal bleeding and shortness of breath."*
+> quote
+> **Temporal Sequence:**
+> quote
+> *"The patient had been in her usual state of health until 6 months before the current presentation, when hematochezia developed."*
+> quote
+> **Prior Workup Description:**
+> quote
+> *"She was evaluated at the emergency department of another hospital. The hemoglobin level was 8.0 g per deciliter. Colonoscopy was performed; internal hemorrhoids were detected, but no masses, ulcers, or polyps were noted."*
+> quote
+> **Subsequent Events:**
+> quote
+> *"Three months before the current presentation, hematochezia developed again, and the patient presented to the emergency department of a second hospital."*
+> quote
+> **Imaging Findings:**
+> quote
+> *"CT angiography showed occlusion of the left portal vein with restoration of flow in the distal segment. Associated splenomegaly was noted, along with portosystemic collaterals in the hepatic hilum."*
+> quote
+
+
+### 鑑別診斷討論的寫作模式
+
+
+> **1. 建立診斷框架:**
+> quote
+> *"I will approach this patient's case by attempting to establish the anatomical location of the source of bleeding and the mechanistic cause of her bleeding."*
+> quote
+> **2. 分析臨床線索:**
+> quote
+> *"The color of the stool can provide insight into the general location of gastrointestinal bleeding. This patient initially presented with hematochezia... The subsequent occurrence of rectal bleeding that was described as melena is consistent with an upper gastrointestinal source."*
+> quote
+> **3. 定義臨床情境:**
+> quote
+> *"The patient's presentation can be classified as obscure gastrointestinal bleeding — persistent or recurrent bleeding with no source identified on upper and lower endoscopic evaluation."*
+> quote
+> **4. 提出鑑別診斷:**
+> quote
+> *"Although cirrhosis accounts for the majority of cases of portal hypertensive bleeding, the possibility of noncirrhotic portal hypertension is a consideration in this patient."*
+> quote
+> **5. 排除其他診斷:**
+> quote
+> *"A cancer in the hilum, such as cholangiocarcinoma, should be considered... but this possibility seems unlikely on the basis of the patient's normal bilirubin and alkaline phosphatase levels, the absence of weight loss or other constitutional symptoms, and the absence of a hilar mass on MRCP."*
+> quote
+> **6. 得出最可能診斷:**
+> quote
+> *"The most likely cause of this patient's bleeding is a jejunal varix."*
+> quote
+
+
+### 臨床推理的英文表達
+
+
+| p{9cm}}  **中文概念** | **English Expression** |  |
+| --- | --- | --- |
+| 這提示... | *"This finding prompts consideration of..."* |  |
+| 雖然...但... | *"Although... this possibility seems unlikely on the basis of..."* |  |
+| 應強烈考慮... | *"The possibility of... should be strongly considered, since..."* |  |
+| 最可能的原因是... | *"The most likely cause is..."* |  |
+| 這是一個...的例子 | *"This is an example of..."* |  |
+| 可透過...進一步調查 | *"This possibility could be further investigated with..."* |  |
+| 該程序也可具有治療性 | *"The procedure could also be therapeutic through..."* |  |
+| 應排除...的可能性 | *"The unlikely possibility of... could be ruled out with..."* |  |
+
+
+## 考題
+
+
+以下為針對本病例的單選選擇題,旨在檢驗對關鍵診斷與管理的理解。
+
+
+1. 此病人的GI bleeding表現同時有hematochezia及melena,最可能的出血來源位於?     enumerate[label=\alph*)]
+2. Rectum
+3. Sigmoid colon
+4. Upper gastrointestinal tract
+5. Ascending colon
+
+
+    \item 此病人雖有iron-deficiency anemia,卻呈現thrombocytopenia而非reactive thrombocytosis,最可能的解釋為?
+    
+1. Bone marrow suppression
+2. Splenic sequestration due to portal hypertension
+3. Vitamin B12 deficiency
+4. Drug-induced thrombocytopenia
+
+
+    \item 此病人被歸類為obscure gastrointestinal bleeding,主要是因為?
+    
+1. 出血量太少無法偵測
+2. 上下消化道內視鏡檢查均未發現出血來源
+3. 病人拒絕進一步檢查
+4. 血紅素恢復正常
+
+
+    \item 此病人發展出noncirrhotic portal hypertension的最可能原因為?
+    
+1. Budd-Chiari syndrome
+2. Primary biliary cholangitis
+3. Postsurgical fibrosis from complicated cholecystectomy
+4. Portal vein thrombosis from malignancy
+
+
+    \item 下列何者最支持本病例的jejunal varices診斷?
+    
+1. Elevated liver enzymes
+2. Positive video-capsule endoscopy
+3. Portosystemic collaterals near hepaticojejunostomy site on imaging
+4. Presence of esophageal varices
+
+
+    \item 經皮經肝門脈攝影測得的壓力梯度為11 mmHg,這代表?
+    
+1. 正常壓力梯度
+2. 輕度壓力升高,無臨床意義
+3. Hemodynamically significant stenosis
+4. 測量誤差
+
+
+    \item 此病人接受的介入治療不包括下列何者?
+    
+1. Portal vein stenting
+2. Jejunal variceal embolization with NBCA
+3. TIPS (transjugular intrahepatic portosystemic shunt)
+4. Tract embolization with coils
+
+
+    \item 術後18天發現stent內nonocclusive thrombus,最可能的原因為?
+    
+1. Stent infection
+2. Size mismatch causing turbulent flow
+3. Hypercoagulable state
+4. Stent fracture
+
+
+    \item 術後5個月MRCP顯示perihilar enhancement減少,這代表?
+    
+1. 新的膽道狹窄
+2. Varices near hepaticojejunostomy site的filling減少
+3. 肝纖維化進展
+4. 需要再次手術
+
+
+    \item 關於ectopic varices,下列敘述何者正確?
+    
+1. 只發生在肝硬化病人
+2. 最常見於食道
+3. 可發生於portal hypertension病人的surgical anastomosis site
+4. 不需要治療
+
+
+enumerate
+
+
+---
+
+
+### 考題詳解
+
+
+1. **正確答案: c) Upper gastrointestinal tract**          **詳解**: 病人同時出現hematochezia(血便)和melena(黑便),其中melena提示出血經過上消化道的消化過程。當上消化道大量出血時,可能因為腸道通過時間快而呈現hematochezia。兩種糞便型態同時出現,最一致的解釋是upper GI source。原文明確指出:"Since this patient had passed both stool containing red blood and melena, the location of the bleeding is most likely in the upper gastrointestinal tract."
+2. **正確答案: b) Splenic sequestration due to portal hypertension**          **詳解**: Iron-deficiency anemia通常會導致reactive thrombocytosis。然而此病人呈現thrombocytopenia,這是一個異常發現。在portal hypertension的情況下,thrombocytopenia可因splenic sequestration of platelets而發生,且在chronic liver disease病人中也可能因decreased thrombopoietin production所致。這個發現是提示underlying portal hypertension的重要線索。
+3. **正確答案: b) 上下消化道內視鏡檢查均未發現出血來源**          **詳解**: Obscure gastrointestinal bleeding的定義是persistent or recurrent bleeding with no source identified on upper and lower endoscopic evaluation。此病人接受了2次EGD(含enteroscopy)、1次colonoscopy及1次video-capsule endoscopy,均未發現出血來源,符合obscure GI bleeding的定義。
+4. **正確答案: c) Postsurgical fibrosis from complicated cholecystectomy**          **詳解**: 此病人20年前接受cholecystectomy時併發bile duct laceration,需要open repair及hepaticojejunostomy。Portal vein stenosis最可能是由於手術後的inflammation、adhesions及fibrotic remodeling所導致。影像上的caudate lobe atrophy及perihilar region的abnormal signal intensity and delayed enhancement都支持這個病因。病人沒有chronic liver disease的危險因子或表現,排除了cirrhotic portal hypertension。
+5. **正確答案: c) Portosystemic collaterals near hepaticojejunostomy site on imaging**          **詳解**: CT angiography顯示portosystemic collaterals in the hepatic hilum,位於hepaticojejunostomy site附近。這個位置的側枝循環與病人的手術解剖結構一致,提示jejunal varices的存在。Video-capsule endoscopy是negative的,而且傳統內視鏡無法到達Roux limb。Esophageal varices在本病例中並未被提及。
+6. **正確答案: c) Hemodynamically significant stenosis**          **詳解**: 正常portal vein pressure gradient應小於5 mmHg。此病人測得11 mmHg的壓力梯度,代表hemodynamically significant stenosis。這個發現確認了portal vein stenosis是造成portal hypertension及jejunal varices的原因。治療後壓力梯度降至2 mmHg,證實了治療的有效性。
+7. **正確答案: c) TIPS (transjugular intrahepatic portosystemic shunt)**          **詳解**: 此病人接受的介入治療包括:(1) Portal vein stenting with 12-mm × 60-mm self-expanding bare-metal stent,(2) Jejunal variceal embolization with N-butyl-2-cyanoacrylate (NBCA),(3) Tract embolization with coils and absorbable gelatin pledgets。TIPS並非此次治療的一部分,因為病因是portal vein stenosis而非intrahepatic portal hypertension。
+8. **正確答案: b) Size mismatch causing turbulent flow**          **詳解**: 術後18天發現的nonocclusive thrombus位於stent的distal end,原文解釋:"Thrombus formation in this location was thought to be associated with a size mismatch between the stent and the poststenotic dilatation of the portal vein, resulting in turbulent flow." 這導致開始apixaban抗凝治療。
+9. **正確答案: b) Varices near hepaticojejunostomy site的filling減少**          **詳解**: 術後5個月的MRCP顯示"a radiologically significant decrease in perihilar hepatic enhancement, which indicated decreased filling of the varices near the hepaticojejunostomy site." 這個發現表示treatment成功減少了靜脈曲張的充血,且同時排除了hilar neoplasm作為portal vein occlusion的原因。
+10. **正確答案: c) 可發生於portal hypertension病人的surgical anastomosis site**          **詳解**: Ectopic varices是指發生在非典型位置(食道、胃底以外)的靜脈曲張。它們可發生於任何portal hypertension的情況(包括noncirrhotic portal hypertension),特別容易在surgical anastomosis sites形成,因為這些區域有portosystemic collaterals的發展。本病例就是典型例子——jejunal varices發生在hepaticojejunostomy site。這些varices可能導致嚴重出血,需要積極治療。
+
+
+## 總結
+
+
+importantbox
+**本病例的關鍵學習要點**
+
+
+1. **Obscure GI bleeding需考慮altered anatomy**: 有外科手術史(尤其是biliary or GI surgery)的病人,可能有標準內視鏡無法到達的區域
+2. **Thrombocytopenia in iron-deficiency anemia是異常的**: 應提示underlying portal hypertension的可能性
+3. **Noncirrhotic portal hypertension**: 可由postsurgical fibrosis導致,即使發生在手術後多年
+4. **Ectopic varices**: 可發生在任何portal hypertensive病人的surgical anastomosis site
+5. **Portal venography with pressure measurement**: 是確認hemodynamically significant stenosis的關鍵診斷工具
+6. **Combined approach**: Portal vein stenting + variceal embolization可有效治療此類病變
+
+
+importantbox
+
+
+> *"The possibility of bleeding from an unexamined source should be strongly considered, since this patient has altered anatomy as a result of a previous Roux-en-Y hepaticojejunostomy, and the Roux limb has not yet been observed."*
+> **— Dr. Irun Bhan**
+
+
+**0.8\linewidth**{0.5pt}
+
+
+## 附錄: Portal Hypertension分類
+
+
+| p{4cm} p{7.5cm}}  **分類** | **位置** | **常見病因** |
+| --- | --- | --- |
+| **Prehepatic** | Portal vein/splenic vein | - Portal vein thrombosis    - Splenic vein thrombosis    - **Portal vein stenosis (本病例)**    - Congenital atresia |
+| **Intrahepatic (Presinusoidal)** | 肝內門脈分支 | - Schistosomiasis    - Primary biliary cholangitis    - Sarcoidosis    - Nodular regenerative hyperplasia |
+| **Intrahepatic (Sinusoidal)** | 肝竇 | - Cirrhosis (最常見)    - Alcoholic hepatitis    - Acute liver failure |
+| **Intrahepatic (Postsinusoidal)** | 中央靜脈/肝靜脈 | - Veno-occlusive disease    - Sinusoidal obstruction syndrome |
+| **Posthepatic** | IVC/右心房 | - Budd-Chiari syndrome    - Right heart failure    - Constrictive pericarditis |
+
+
+\vfill
+
+*本講義整理自NEJM Case Records of the Massachusetts General Hospital*
+*Case 36-2025, N Engl J Med 2025;393:2460-8*
+[0.3cm]
+編輯:謝慕揚 Mu-Yang Hsieh, MD, PhD, FESC
+*僅供教學使用,請勿用於商業用途*

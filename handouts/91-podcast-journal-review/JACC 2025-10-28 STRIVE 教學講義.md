@@ -1,0 +1,727 @@
+# JACC 2025-10-28 STRIVE
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-10-28**
+
+---
+
+\maketitle
+
+
+## 概述
+
+
+STRIVE試驗是一項評估在ST段上升心肌梗塞(STEMI)合併大血栓負荷患者接受緊急經皮冠狀動脈介入治療(PCI)時，使用低劑量冠狀動脈內重組織纖維蛋白溶解酶原激活劑(recombinant tissue plasminogen activator, alteplase/TPA)的隨機對照試驗。該研究於2025年10月28日在TCT會議上以late-breaker形式發表，並同步發表於《美國心臟病學會雜誌》(Journal of the American College of Cardiology, JACC)。本整理基於[JACC podcast](https://www.jacc.org/digital-content/podcast/alteplase-adjunct-primary-pci-jacc-tct-2025)訪談內容，由UCSF介入心臟科醫師Yusuf Ahmad訪問研究主持人Shamir Mehta。
+
+
+## 研究資訊
+
+
+### 基本資訊
+
+
+**試驗名稱：**STRIVE (ST-segment elevation myocardial infarction and large thrombus burden: a randomized trial)  
+
+**主要研究者：**Shamir R. Mehta, MD, MSc  
+
+**機構：**
+
+- Population Health Research Institute (PHRI), Hamilton, Canada
+- McMaster University, Hamilton General Hospital
+- Douglas A. Holder Endowed Chair
+
+
+**發表日期：**2025年10月28日（TCT 2025 Late-Breaker）  
+
+**期刊：**Journal of the American College of Cardiology (JACC)  
+
+**同步發表：**TCT 2025會議與JACC期刊同步發表  
+
+**研究註冊：**[ClinicalTrials.gov NCT03335839](https://clinicaltrials.gov/study/NCT03335839)  
+
+**資助單位：**Heart and Stroke Foundation of Canada  
+
+**相關資源：**[PHRI STRIVE研究頁面](https://www.phri.ca/research/strive/)
+
+
+### Podcast訪談資訊
+
+
+**主持人：**Yusuf Ahmad, MD  
+
+ • UCSF介入心臟科醫師  
+
+ • JACC副編輯
+
+**受訪者：**Shamir Mehta, MD, MSc  
+
+ • McMaster University醫學教授  
+
+ • Hamilton Health Sciences介入心臟科主任  
+
+ • PHRI資深科學家
+
+
+## 研究背景與動機
+
+
+### 核心問題：微血管阻塞
+
+
+****微血管阻塞(Microvascular Obstruction, MVO)是STEMI患者接受primary PCI後最重要且尚未解決的問題。****
+
+**臨床重要性：**
+
+- 約**50
+- 導致冠狀動脈微血管阻塞
+- 造成心肌組織灌注不良
+- 結果：     itemize
+- 更大的梗塞面積
+- 更高的心衰發生率
+- 更高的心因性休克發生率
+- 更高的死亡率
+
+
+itemize
+
+
+### 過去嘗試失敗的治療策略
+
+
+多項試圖改善微血管阻塞的治療策略均未能成功：
+
+
+| p{9.5cm}} 改善微血管阻塞的失敗治療策略 |  |  |
+| --- | --- | --- |
+| **治療策略** | **結果與限制** |  |
+| **治療策略** | **結果與限制** |  |
+| **機械性血栓抽吸** | minipage[t]{9.5cm} • 多項大型隨機對照試驗顯示無效    • 未能改善臨床預後    • TAPAS、TASTE、TOTAL試驗結果陰性 |  |
+| **靜脈注射GP IIb/IIIa抑制劑** | minipage[t]{9.5cm} • 冠狀動脈內給藥結果不一致    • 未能持續改善微血管灌注    • 出血風險增加 |  |
+| **促進性PCI (Facilitated PCI)** | minipage[t]{9.5cm} • 導管室前給予全劑量或半劑量溶栓劑    • 十多年前評估    • 出血併發症增加    • 未改善預後 |  |
+
+
+### STRIVE的創新策略：靶向給藥
+
+
+**理論基礎：**
+
+1. **溶栓劑機制：**溶解血栓是溶栓劑的基本作用機制
+2. **病因針對性：**微血管阻塞由遠端血栓栓塞引起
+3. **直接遞送：**透過微導管直接將藥物送達微循環
+4. **劑量優化：**使用顯著降低的劑量（僅10-20
+5. **濃度優勢：**冠狀動脈微循環中達到10-20倍更高濃度
+
+
+**與全身給藥的比較：**
+
+| p{8cm}}  **全身靜脈給藥** | **冠狀動脈內給藥(STRIVE)** |  |
+| --- | --- | --- |
+| **全身靜脈給藥** | **冠狀動脈內給藥(STRIVE)** |  |
+| 標準劑量：100mg alteplase | 低劑量：10mg或20mg |  |
+| 肝臟首渡效應 | 直接靶向病灶 |  |
+| 全身分布，稀釋濃度 | 微循環高濃度(10-20倍) |  |
+| 出血風險較高 | 理論上出血風險較低 |  |
+| 未能改善預後 | 有待STRIVE驗證 |  |
+
+
+### 早期研究支持
+
+
+**鏈激酶(Streptokinase)研究：**
+
+- 早期研究顯示對微血管阻塞參數有益
+- 多項微血管阻塞指標改善
+- 提供概念驗證基礎
+
+
+## 研究方法
+
+
+### 試驗設計
+
+
+**研究類型：**前瞻性、3組平行、雙盲、安慰劑對照隨機試驗
+
+**設計理念：**
+
+- 在進行大規模預後試驗前，先證明能改善微血管阻塞
+- 類比：如同降血壓藥物必須先證明能降低血壓
+- 若無法改善基本病理機制，unlikely能改善臨床預後
+
+
+### 納入與排除標準
+
+
+**納入標準 - 富集高風險患者(Enrichment Strategy)：**
+
+
+1. **大面積STEMI：**      - **大前壁梗塞**，或 - **大下壁梗塞**：ST段總偏移至少8毫米
+2. **大血栓負荷：**      - 血管攝影可見大血栓 - 95
+
+
+**排除標準：**
+
+- 小面積STEMI
+- 低血栓負荷
+
+
+**富集策略的重要性：**
+quote
+"我們想要證明這個策略有效，必須納入有大血栓的患者。"  
+
+--- Shamir Mehta, MD
+quote
+
+
+### 介入措施
+
+
+**隨機分組（1:1:1）：**
+
+1. **低劑量組：**冠狀動脈內alteplase 10mg (n=69)
+2. **高劑量組：**冠狀動脈內alteplase 20mg (n=70)
+3. **對照組：**生理食鹽水(匹配安慰劑) (n=70)
+
+
+**總收案數：**209名患者
+
+**給藥程序：**
+
+1. 建立心肌再灌流(通常使用血栓抽吸或球囊導管)
+2. 達到TIMI血流分級
+3. 將微導管置入冠狀動脈遠端
+4. 在約**3分鐘**內注射研究藥物
+5. 後續進行支架置入
+
+
+### 研究終點
+
+
+**主要終點：**
+
+- **術後心肌血流灌注分級(Myocardial Blush Grade, MBG)**     itemize
+- MBG 0/1級的發生率
+- 或遠端栓塞
+
+
+itemize
+
+**次要終點：**
+
+- **30分鐘ST段回降**(ST-segment resolution)
+- **TIMI血流分級**
+- **TIMI心肌灌注分級**
+- 其他微血管灌注參數
+
+
+**安全性終點：**
+
+- 大出血事件
+- 臨床相關非大出血
+- 心律不整（特別是心室顫動）
+
+
+## 研究結果
+
+
+### 主要結果：陰性
+
+
+****「我們不可能有更中性的結果。」--- Shamir Mehta****
+
+
+| p{9cm}} STRIVE主要結果摘要 |  |  |
+| --- | --- | --- |
+| **評估項目** | **結果** |  |
+| **評估項目** | **結果** |  |
+| **主要終點** |  |  |
+| 心肌血流灌注分級 | 完全無差異(neutral) |  |
+| 遠端栓塞 | 完全無差異 |  |
+| **次要終點** |  |  |
+| 30分鐘ST段回降 | 完全無差異 |  |
+| TIMI血流分級 | 完全無差異 |  |
+| TIMI心肌灌注分級 | 完全無差異 |  |
+| **劑量反應** |  |  |
+| 10mg vs 20mg | 無差異 |  |
+| **亞組分析** |  |  |
+| 所有預先定義的亞組 | 一致無效 |  |
+
+
+### 亞組分析：一致陰性
+
+
+**無論以下因素，結果均無差異：**
+
+- **到院時間：**早期或晚期到院
+- **性別：**男性或女性
+- **梗塞部位：**前壁或大下壁STEMI
+- **其他預先定義的亞組**
+
+
+### 安全性結果：心室顫動信號
+
+
+**出血事件：**
+
+- **無大出血事件**
+- 僅1例臨床相關非大出血
+- 出血風險未增加
+
+
+**心室顫動(Ventricular Fibrillation, VF)：**
+
+| 研究藥物注射期間心室顫動發生率 |  |  |  |
+| --- | --- | --- | --- |
+|  | **TPA組** | **安慰劑組** | **P值** |
+|  | **TPA組** | **安慰劑組** | **P值** |
+| VF發作次數 | 較多 | 較少 | 0.06 |
+
+
+**心室顫動分析：**
+
+- P值0.06，**未達統計顯著性**
+- 但實際上確實觀察到**更多VF發作**
+- 發生於**研究藥物注射期間**
+- 跨多個研究者和研究中心觀察到
+- **這是真實現象**，非個別研究者偏差
+
+
+### 可能的VF機制探討
+
+
+**藥物注射相關因素：**
+
+1. **物理性質差異：**      - 重組TPA的黏稠度與生理食鹽水不同 - pH值不同 - 溶劑不同（無菌水 vs 生理食鹽水）
+2. **快速注射效應：**      - 雙盲設計：研究者不知給予何種藥物 - 快速注射活性藥物可能引起心律不整 - 本質上將無菌水注入心肌
+3. **不確定性：**      - 確切機制尚不清楚 - 需要進一步研究
+
+
+**臨床處理：**
+
+- 所有VF發作均在導管室內
+- 可立即去顫電擊
+- 未造成長期後果
+
+
+## 研究結論與臨床意涵
+
+
+### 主要結論
+
+
+quote
+****"STRIVE不支持常規使用alteplase。它加入越來越多曾經有希望但未能成功改善這個重要問題的治療策略名單中。"****  
+
+--- Shamir Mehta, MD
+quote
+
+**明確的陰性結果：**
+
+- 冠狀動脈內低劑量溶栓劑**無效**
+- 無論以何種方式評估微血管阻塞均無效：     itemize
+- 血管攝影(心肌血流灌注分級)
+- 心電圖(30分鐘ST段回降)
+
+
+    \item 可能有安全性疑慮(心室顫動)
+itemize
+
+
+### 對臨床實務的建議
+
+
+**不建議使用的策略：**
+
+- **不應在臨床實務中常規使用**冠狀動脈內溶栓劑
+- 不應進行更大規模的預後試驗
+- 此策略不應進一步推進
+
+
+**Yusuf Ahmad醫師總結：**
+quote
+"對我們的讀者而言，我們可以結論：這似乎不是我們將在臨床實務或大規模預後試驗中推進的策略。"
+quote
+
+
+### 未來研究方向的深度討論
+
+
+Mehta醫師對未來研究方向提出深刻反思：
+
+**需要回歸基礎：**
+quote
+"人們已經研究這麼長時間，許多嘗試改善微血管阻塞的方法都失敗了。我想在這個時候，我們需要回到繪圖板，試著理解微血管阻塞的根本問題是什麼。"
+quote
+
+**重新思考病理生理學：**
+
+
+| p{8cm}} 微血管阻塞：簡化vs複雜模型 |  |  |
+| --- | --- | --- |
+| **傳統簡化觀念** | **可能的複雜實況** |  |
+| **傳統簡化觀念** | **可能的複雜實況** |  |
+| **微血管阻塞** | **微血管損毀** |  |
+| (Microvascular Obstruction) | (Microvascular Obliteration) |  |
+| 簡單的血栓阻塞 | minipage[t]{8cm} 複雜的多重機制：    • 心肌出血(myocardial hemorrhage)    • 心肌水腫(myocardial edema)    • 微血管結構性破壞    • 不可逆的血管損傷 |  |
+| 可以疏通 | 可能無法修復 |  |
+| 移除血栓即可 | 需要根本性不同的治療策略 |  |
+
+
+**Mehta醫師的深刻見解：**
+quote
+"這可能比單純的阻塞更複雜。幾乎可以肯定更複雜。我們可能不是在看微血管阻塞，而是在看微血管損毀(obliteration)。無論我們做什麼，可能都無法改善它，除非我們開始跳脫框架思考，真正理解我們實際上在治療什麼。"
+quote
+
+**需要的新研究方向：**
+
+1. **基礎機制研究：**      - 心肌出血的角色（越來越明確） - 心肌水腫的機制 - 微血管結構性改變 - 不可逆損傷的時間窗
+2. **新的治療思路：**      - 不僅僅針對血栓 - 可能需要保護微血管內皮 - 減少再灌注傷害 - 調節發炎反應
+
+
+## 臨床實務中的大血栓處理策略
+
+
+### Mehta醫師的個人方法
+
+
+當被問到如何在導管室處理大STEMI合併大血栓時：
+
+**血栓抽吸：**
+
+- **非常大的血栓：**會進行血栓抽吸
+- **新設備：**使用較新的血栓抽吸設備
+- **針對性抽吸：**可能有效（vs常規抽吸無效）
+
+
+**藥物治療：**
+
+- 使用**高強度P2Y12抑制劑**
+- 使用**高劑量肝素**
+- 在該情況下會使用**GP IIb/IIIa抑制劑**（如tirofiban）
+
+
+**支架策略：雙面刃**
+
+| p{8cm}} STEMI直接支架置入的考量 |  |  |
+| --- | --- | --- |
+| **優點** | **缺點** |  |
+| **優點** | **缺點** |  |
+| **避免預擴張** | **支架後擴張問題** |  |
+| • 可能避免造成栓塞 | minipage[t]{8cm} • 在STEMI中是主要問題    • 支架後擴張釋放大量血栓    • 造成大量遠端栓塞 |  |
+| **Mehta的策略** |  |  |
+| 2{p{14cm}}{ ****適當的1:1尺寸選擇：****    • 正確測量血管尺寸(1:1)    • 充分開啟血管    • 建立順行灌流    • 適當尺寸以**避免支架後擴張**    • 這是處理大血栓的關鍵策略 } |  |  |
+
+
+### Ahmad醫師的補充觀點
+
+
+**血管內影像的角色：**
+
+- 使用血管內影像來測量支架尺寸
+- 判斷是否有鈣化
+- 決定是否可以直接支架置入
+
+
+**直接支架置入的條件：**
+
+- **理想情況：**無鈣化病灶
+- **策略：**1:1尺寸支架 + 高壓力擴張 + 避免支架後擴張
+- **困難情況：**嚴重鈣化合併血栓阻塞
+
+
+**遠端血管舒張劑：**
+
+- 使用遠端血管舒張劑
+- **缺乏證據支持**
+- 目標：幫助微循環更好地耐受遠端栓塞
+
+
+### 新設備血栓抽吸的未來
+
+
+**討論要點：**
+
+- **技術進步：**血栓抽吸設備技術已改進
+- **富集策略：**選擇大血栓患者（類似STRIVE）
+- **vs 過去試驗：**過去試驗納入所有STEMI患者
+- **進行中試驗：**Mehta相信有新設備的試驗正在進行
+
+
+## 文獻脈絡與系統性回顧
+
+
+### STRIVE在證據體系中的位置
+
+
+STRIVE試驗的結果與先前冠狀動脈內溶栓療法的系統性回顧一致：
+
+**2024年Heart期刊系統性回顧：**
+
+- **標題：**"Intracoronary thrombolysis in ST-elevation myocardial infarction: a systematic review and meta-analysis"
+- **作者：**Rehan R, Virk S, Wong CCY, et al.
+- **DOI：**[10.1136/heartjnl-2024-324078](https://doi.org/10.1136/heartjnl-2024-324078)
+- **結論：**輔助性冠狀動脈內溶栓療法可改善心肌灌注參數，但**未增加出血率**
+- **局限：**需要優化溶栓劑選擇和治療方案
+
+
+**Francesco Costa醫師（西班牙馬拉加大學）評論：**
+quote
+STRIVE是一個"堅如磐石"的試驗，結果極其清楚。這些發現與T-TIME研究相呼應，T-TIME也顯示輔助性纖溶療法在STEMI患者中無益。這些結果關閉了在大血栓負荷患者中常規使用冠狀動脈內纖溶療法的大門。
+quote
+
+**可能的未來研究方向（Costa建議）：**
+
+- 在**支架置入後**給予溶栓劑
+- 理論上可能改善藥物遞送至微血管
+- 目前正在研究中
+
+
+### 相關試驗與Meta分析
+
+
+| p{11cm}} 冠狀動脈內溶栓療法相關研究 |  |  |
+| --- | --- | --- |
+| **研究** | **主要發現** |  |
+| **研究** | **主要發現** |  |
+| **STRIVE 2025** | 低劑量冠狀動脈內TPA無效，可能增加VF風險 |  |
+| **T-TIME** | 輔助性纖溶療法在STEMI中無益 |  |
+| **Heart 2024 Meta-analysis** | minipage[t]{11cm} 改善心肌灌注參數但無出血增加    需要優化治療方案 |  |
+| **Cardiovasc Drugs Ther 2024** | minipage[t]{11cm} 更新的Meta分析    結果與早期研究一致 |  |
+
+
+### 機械性血栓抽吸的證據
+
+
+**主要試驗：**
+
+- **TAPAS**：早期正面結果
+- **TASTE**：大型試驗陰性結果
+- **TOTAL**：大型試驗陰性結果，可能增加中風風險
+
+
+**2017年Circulation個別患者Meta分析：**
+
+- **作者：**Jolly SS, James S, Džavík V, et al.
+- **結論：**常規血栓抽吸不改善臨床預後
+- **DOI：**[10.1161/CIRCULATIONAHA.116.025371](https://doi.org/10.1161/CIRCULATIONAHA.116.025371)
+
+
+**2024年JACC Cardiovasc Interv：**
+
+- **標題：**"Failed thrombus aspiration and reduced myocardial perfusion in patients with STEMI and large thrombus burden"
+- **作者：**Jeon HS, Kim YI, Lee JH, et al.
+- **發現：**血栓抽吸失敗與大血栓負荷STEMI患者心肌灌注不良相關
+- **DOI：**[10.1016/j.jcin.2024.07.016](https://doi.org/10.1016/j.jcin.2024.07.016)
+
+
+## 研究限制
+
+
+### 試驗設計相關限制
+
+
+1. **樣本數：**      - 209名患者的中型試驗 - 以微血管阻塞為主要終點 - 未設計評估臨床預後
+2. **終點選擇：**      - 主要終點為替代終點 - 心肌血流灌注分級主觀性 - 未評估長期臨床結果
+3. **給藥時機：**      - 在支架置入前給藥 - 支架後給藥可能有不同結果（Costa建議） - 未探索不同給藥時機
+
+
+### 藥物與劑量相關限制
+
+
+1. **藥物選擇：**      - 僅測試alteplase (TPA) - 其他溶栓劑可能有不同結果 - 未比較不同纖溶酶原激活劑
+2. **劑量範圍：**      - 測試10mg和20mg - 更高或更低劑量未探索 - 兩種劑量均無效
+
+
+## Shamir Mehta醫師簡介
+
+
+### 學術職位
+
+
+- **Douglas A. Holder冠名講座教授**
+- McMaster University **醫學教授**
+- Hamilton Health Sciences **介入心臟科主任**
+- Population Health Research Institute (PHRI) **資深科學家**
+- PHRI急性冠心症與介入心臟學研究計畫負責人
+
+
+### 臨床工作
+
+
+- 指導Royal College介入心臟科fellowship計畫
+- 領導Hamilton Health Sciences和McMaster University：     itemize
+- 二尖瓣經導管邊緣對邊緣修復計畫
+- 三尖瓣經導管邊緣對邊緣修復計畫
+
+
+itemize
+
+
+### 主要研究計畫
+
+
+**COMPLETE-2試驗：**
+
+- 主持研究者
+- 5,100名患者的跨國研究
+- 比較生理學導引 vs 血管攝影導引PCI策略
+- 治療急性冠心症合併多支血管疾病的非罪犯病灶
+- 包含大規模光學相干斷層掃描(OCT)研究
+
+
+**其他重要試驗：**
+
+- **Librexia ACS試驗**執行委員會成員     itemize
+- 測試新型Factor XIa抑制劑
+- 用於急性冠心症
+
+
+    \item **OCEAN(a)**指導委員會成員
+    
+- 針對性降低脂蛋白(a)
+- 使用新型小干擾RNA
+- 用於急性冠心症或PCI後患者
+
+
+itemize
+
+
+### COMPLETE試驗 - 里程碑研究
+
+
+**發表資訊：**
+
+- **期刊：**New England Journal of Medicine (NEJM)
+- **年份：**2019年
+- **DOI：**[10.1056/NEJMoa1907775](https://doi.org/10.1056/NEJMoa1907775)
+
+
+**研究發現：**
+quote
+在STEMI合併多支血管疾病的患者中，常規非罪犯病灶PCI達成完全血管重建的策略（在住院期間或出院後不久進行），在追蹤中位數3年後，優於僅罪犯病灶PCI策略，能降低心血管死亡或新發心肌梗塞的風險，以及心血管死亡、新發心肌梗塞或缺血驅動血管重建的風險。
+quote
+
+
+### 榮譽與成就
+
+
+- 發表**數百篇**研究文章
+- 獲得CIHR和業界**數百萬美元**同儕審查研究經費
+- **2022年：**獲加拿大心血管學會研究成就獎
+- **2024年：**獲加拿大心臟協會獎項
+
+
+## Yusuf Ahmad醫師簡介
+
+
+- UCSF（加州大學舊金山分校）**介入心臟科醫師**
+- **JACC副編輯**
+- 專長：介入心臟學
+- 主持JACC podcast訪談節目
+
+
+## 延伸閱讀與相關資源
+
+
+### STRIVE試驗相關
+
+
+1. **STRIVE PHRI研究頁面**        [https://www.phri.ca/research/strive/](https://www.phri.ca/research/strive/)
+2. **ClinicalTrials.gov註冊**        [NCT03335839](https://clinicaltrials.gov/study/NCT03335839)
+3. **TCTMD報導**        [STRIVE: Low-Dose Alteplase Ineffective in STEMI Patients With Large Thrombus](https://www.tctmd.com/news/strive-low-dose-alteplase-ineffective-stemi-patients-large-thrombus)
+
+
+### 冠狀動脈內溶栓療法
+
+
+1. Rehan R, et al. Intracoronary thrombolysis in ST-elevation myocardial infarction: a systematic review and meta-analysis. *Heart*. 2024;110:988-96.        [DOI: 10.1136/heartjnl-2024-324078](https://doi.org/10.1136/heartjnl-2024-324078)
+2. Alexiou S, et al. Intracoronary Thrombolysis in ST-Segment Elevation Myocardial Infarction Patients Undergoing Primary PCI: an Updated Meta-analysis. *Cardiovasc Drugs Ther*. 2024;38(2):335-346.        [DOI: 10.1007/s10557-022-07402-3](https://doi.org/10.1007/s10557-022-07402-3)
+3. Yan D, et al. Enhancing microcirculation in STEMI patients: can intracoronary thrombolysis combined with thrombus aspiration provide an optimal strategy? *Front Cardiovasc Med*. 2025;12:1516054.        [DOI: 10.3389/fcvm.2025.1516054](https://doi.org/10.3389/fcvm.2025.1516054)
+
+
+### 血栓抽吸
+
+
+1. Jolly SS, et al. Thrombus aspiration in ST-segment-elevation myocardial infarction: an individual patient meta-analysis. *Circulation*. 2017;135:143-52.        [DOI: 10.1161/CIRCULATIONAHA.116.025371](https://doi.org/10.1161/CIRCULATIONAHA.116.025371)
+2. Jeon HS, et al. Failed thrombus aspiration and reduced myocardial perfusion in patients with STEMI and large thrombus burden. *JACC Cardiovasc Interv*. 2024;17(19):2216-25.        [DOI: 10.1016/j.jcin.2024.07.016](https://doi.org/10.1016/j.jcin.2024.07.016)
+
+
+### 微血管阻塞
+
+
+1. Galli M, et al. Coronary microvascular obstruction and dysfunction in patients with acute myocardial infarction. *Nat Rev Cardiol*. 2024;21:283-98.        [DOI: 10.1038/s41569-023-00953-4](https://doi.org/10.1038/s41569-023-00953-4)
+
+
+### COMPLETE試驗
+
+
+1. Mehta SR, et al. Complete Revascularization with Multivessel PCI for Myocardial Infarction. *N Engl J Med*. 2019;381:1411-1421.        [DOI: 10.1056/NEJMoa1907775](https://doi.org/10.1056/NEJMoa1907775)
+
+
+## 結論與未來展望
+
+
+### STRIVE試驗的重要訊息
+
+
+1. ****明確陰性結果：****低劑量冠狀動脈內TPA不改善STEMI合併大血栓患者的微血管阻塞
+2. ****安全性疑慮：****可能增加心室顫動風險（雖未達統計顯著性）
+3. ****不建議使用：****不應在臨床實務中常規使用此策略
+4. ****研究品質：****設計嚴謹的雙盲隨機對照試驗，結果可信
+5. ****富集策略：****即使在最高風險患者（大STEMI+大血栓）中也無效
+
+
+### 微血管阻塞研究的未來
+
+
+**需要典範轉移：**
+quote
+*"我們可能不是在看微血管阻塞(obstruction)，而是在看微血管損毀(obliteration)。"*  
+
+--- Shamir Mehta, MD
+quote
+
+**關鍵問題：**
+
+- 是否還只是"阻塞"的問題？
+- 或已經是不可逆的"損毀"？
+- 需要完全不同的治療思路？
+
+
+**新的研究重點：**
+
+1. **基礎機制**深入研究：      - 心肌出血的角色 - 心肌水腫的機制 - 微血管結構性破壞 - 不可逆傷害的時間窗
+2. **新治療策略**探索：      - 超越移除血栓 - 保護微血管內皮 - 減少再灌注傷害 - 調節發炎反應 - 促進微血管修復
+
+
+### 對臨床醫師的建議
+
+
+**目前最佳實務：**
+
+1. **及時再灌流：**盡快恢復血流是關鍵
+2. **優化抗血栓治療：**      - 高強度P2Y12抑制劑 - 適當劑量肝素 - 大血栓時考慮GP IIb/IIIa抑制劑
+3. **針對性血栓抽吸：**      - 大血栓時考慮使用 - 使用新一代設備 - 非常規使用
+4. **適當的支架策略：**      - 使用血管內影像評估 - 1:1尺寸選擇 - 避免不必要的支架後擴張
+5. **持續學習：**      - 關注新的研究進展 - 參與臨床試驗 - 保持對新設備和策略的開放態度
+
+
+**持續挑戰：**
+quote
+*"微血管阻塞繼續是一個問題。"*  
+
+--- Shamir Mehta, MD
+quote
+
+儘管STRIVE試驗帶來陰性結果，但它為我們理解微血管阻塞的複雜性提供了重要見解，並指出未來研究需要更深入探討基本病理生理機制，才能找到真正有效的治療策略。
+
+
+\textwidth{0.4pt}
+
+**Podcast來源：** [JACC Author in Perspective](https://www.jacc.org/digital-content/podcast/alteplase-adjunct-primary-pci-jacc-tct-2025)  
+
+**訪談日期：**2025年10月  
+
+**主持：**Yusuf Ahmad, MD (UCSF, JACC Associate Editor)  
+
+**受訪：**Shamir R. Mehta, MD, MSc (McMaster University/PHRI)

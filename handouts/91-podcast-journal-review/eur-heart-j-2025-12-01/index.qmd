@@ -1,0 +1,516 @@
+---
+title: "Eur Heart J 2025-12-01"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **核心主題：**本期European Heart Journal聚焦於血管生物學與醫學，涵蓋動脈粥狀硬化血栓形成的多個重要面向，包括平滑肌細胞在動脈粥狀硬化中的角色、動脈中層鈣化機制、網狀血小板的促血栓特性、肺栓塞風險分層、以及多個新穎治療靶點的基礎研究。
+> **臨床意義：**這些研究為動脈粥狀硬化相關疾病提供了從基礎機制到臨床轉譯的重要見解，特別是在平滑肌細胞表型轉換、血小板異質性、以及新型藥物靶點方面的突破。
+
+
+\tableofcontents
+
+---
+
+
+## 期刊資訊
+
+
+| p{11.5cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **期刊名稱** | European Heart Journal |  |
+| **卷期** | 2025;46:4849-4854 |  |
+| **主題** | Focus Issue on Vascular Biology and Medicine and Mental Health |  |
+| **編輯** | Filippo Crea |  |
+| **機構** | Center of Excellence of Cardiovascular Sciences, Ospedale Isola Tiberina – Gemelli Isola, Rome, Italy; Catholic University of the Sacred Heart, Rome, Italy |  |
+| **DOI** | [10.1093/eurheartj/ehaf920](https://doi.org/10.1093/eurheartj/ehaf920) |  |
+
+
+## 平滑肌細胞在動脈粥狀硬化中的角色
+
+
+### 研究背景
+
+
+> **關鍵發現：**平滑肌細胞（Smooth Muscle Cells, SMCs）已被確認為動脈粥狀硬化斑塊中最豐富的細胞類型，是導致大多數心血管疾病及其致死結局的罪魁禍首。
+> **研究缺口：**儘管SMCs在斑塊形成和進展中扮演關鍵角色，但相較於發炎細胞或內皮細胞，SMCs並未獲得同等程度的研究關注。
+
+
+### State of the Art Review 重點
+
+
+本篇由瑞士日內瓦大學Pascal Azar等人撰寫的綜述文章，全面概述了當前對於平滑肌細胞表型多樣性、功能及其在穩定與不穩定斑塊中空間定位的認識。
+
+
+| p{11cm}} 平滑肌細胞在動脈粥狀硬化中的研究面向 |  |  |
+| --- | --- | --- |
+| **研究面向** | **內容說明** |  |
+| **研究面向** | **內容說明** |  |
+| **表型多樣性** | SMCs在斑塊中展現多種表型，從收縮型轉變為合成型、巨噬細胞樣或成骨細胞樣表型 |  |
+| **克隆性擴增** | 斑塊進展中SMCs的克隆性擴增對斑塊結構和穩定性具有重要影響 |  |
+| **診斷工具** | 評估可能反映SMC生理狀態的新興診斷工具 |  |
+| **治療靶點** | 調節SMC行為以改善心血管預後的策略 |  |
+| **臨床轉譯** | 將SMCs作為治療靶點時面臨的挑戰與機會 |  |
+
+
+## 動脈中層鈣化：老化與疾病
+
+
+### 疾病特徵
+
+
+動脈中層鈣化（Medial Arterial Calcification, MAC）是人類動脈老化的特徵，可能在數十年內保持臨床無症狀。然而，在易感個體以及糖尿病和慢性腎臟病患者中，MAC成為心血管發病率和死亡率的關鍵危險因子，也是慢性肢體威脅性缺血和截肢的重要危險因素。
+
+
+> **關鍵生物學特徵：**MAC發病機制的關鍵生物學特徵是血管平滑肌細胞的表型轉換，最終導致羥基磷灰石晶體沉積以及與內膜增厚相關的進行性中層破壞。
+> **訊號通路：**針對老化和疾病中血管平滑肌細胞的訊號通路部分是共享的。
+
+
+### 臨床診斷與治療現況
+
+
+| p{11cm}} MAC的臨床現況與挑戰 |  |  |
+| --- | --- | --- |
+| **面向** | **說明** |  |
+| **面向** | **說明** |  |
+| **血流動力學影響** | MAC相關的動脈壁僵硬和內膜增厚從根本上改變了中心和周邊血流動力學，但對其影響的全面理解仍然缺乏 |  |
+| **診斷限制** | 踝肱指數（ABI）、超音波和X光攝影在臨床環境中只能檢測晚期MAC |  |
+| **早期介入機會** | 由於進展緩慢，MAC提供了許多早期檢測、預防和及時干預的靶點 |  |
+| **藥物治療** | 目前沒有有效的藥物治療可以改變其病程 |  |
+| **現行治療** | 血管重建術仍是有症狀患者的唯一治療選擇 |  |
+
+
+### 加速MAC的疾病
+
+
+| p{5cm}p{7cm}} 加速MAC發展的相關疾病 |  |  |
+| --- | --- | --- |
+| **疾病類別** | **主要機制** | **相關訊號通路** |
+| **疾病類別** | **主要機制** | **相關訊號通路** |
+| **老化** | 時序性ECM磨損、粒線體功能障礙、DNA損傷、端粒縮短 | SIRT↓, SIRT6↓, Runx2去基因↑, p38 MAPK |
+| **糖尿病** | 高血糖、糖化、胰島素阻抗、糖尿病併發症 | Glu↑, AGEs↑, AGE-R1↑, RAGE↑, ROS, HIF$\alpha$-PDK4, NF-$\kappa$B |
+| **慢性腎臟病** | Ca$^{2+}$/Pi穩態受損 | Pi↑, PTH↑, Ca$^{2+}$↑, Pit-1, Pit-2, ROS, ER stress, mito-stress |
+| ECM: 細胞外基質; SIRT: Sirtuin; AGEs: 糖化終產物; RAGE: AGE受體; ROS: 活性氧物種 |  |  |
+
+
+## 網狀血小板與冠狀動脈疾病
+
+
+### 研究背景與目的
+
+
+網狀血小板（Reticulated Platelets, RPs）是高反應性且富含RNA的血小板，與冠狀動脈疾病（CAD）患者心血管事件風險增加及對抗血小板治療的次優反應相關。然而，其潛在機制仍不明確。
+
+德國慕尼黑工業大學Kilian Kirmes等人的Fast Track研究旨在特徵化CAD中RPs的分子和功能表型，並評估其作為治療靶點的潛力。
+
+
+### 研究方法
+
+
+| p{11cm}} 網狀血小板研究方法學 |  |  |
+| --- | --- | --- |
+| **方法** | **說明** |  |
+| **方法** | **說明** |  |
+| **血小板分離** | 根據RNA含量和CD41表達從CAD患者分離網狀血小板（RPs）和成熟血小板（MPs） |  |
+| **配對比較** | 在每位捐贈者內進行RP vs MP的配對比較 |  |
+| **轉錄組分析** | RNA-seq轉錄組譜分析 |  |
+| **蛋白質組分析** | 高維度蛋白質組學（質譜細胞術） |  |
+| **功能研究** | 流式細胞術血小板-血小板結合、體外血栓形成、血小板鋪展、細胞內磷酸化蛋白分析 |  |
+| **通路評估** | 評估PI3K和GPVI通路的影響 |  |
+| **數據庫** | 結果整理於Platlas開放獲取互動式網路資源 |  |
+
+
+### 主要研究發現
+
+
+> 在95名CAD患者中，與成熟血小板相比，網狀血小板展現：
+> itemize
+>     \item 活化標記物表達升高
+>     \item 促血栓通路富集
+>     \item GP6、TBXA2R和VWF轉錄本上調
+>     \item 新型GPVI剪接變異體
+>     \item RP特異性非編碼RNA，包括新型環狀RNA（circRNAs）
+> itemize
+
+
+| p{10cm}} 網狀血小板分子特徵與功能表現 |  |  |
+| --- | --- | --- |
+| **特徵類別** | **研究發現** |  |
+| **特徵類別** | **研究發現** |  |
+| **蛋白質組學確認** | PI3K和GPVI訊號增強 |  |
+| **磷酸化增加** | AKT、PI3K和SYK磷酸化增加 |  |
+| **氧化壓力** | 活性氧物種（ROS）產生增加 |  |
+| **聚集能力** | 聚集和鋪展能力增強 |  |
+| **血栓形成** | 在血栓形成中募集增加 |  |
+| **藥物抑制效果** | PI3K（LY294002）和GPVI（glenzocimab）抑制可顯著減少上述表現 |  |
+
+
+### 臨床意義
+
+
+> **研究結論：**本研究首次提供了網狀血小板高反應性的機制解釋，揭示了獨特的分子特徵，並確定GPVI和PI3K抑制是針對網狀血小板升高的CAD患者進行個人化抗血小板治療的有前景靶點。
+> **編輯評論要點（Park & Cameron）：**
+> itemize
+>     \item 整合血小板異質性到治療範式中將是必要的
+>     \item 此研究為從機制洞察到治療干預的未來研究奠定基礎
+>     \item 強調在減少血栓事件而不增加出血風險方面，需要以生物標記物驅動的患者選擇
+> itemize
+
+
+## 急性肺栓塞多標記物風險分層
+
+
+### 研究背景
+
+
+急性肺栓塞（PE）患者的風險分層對於提供改善患者預後的靶向干預至關重要。西班牙馬德里Ramón y Cajal醫院David Jiménez等人驗證了一個多標記物預後計算器，並比較其與歐洲心臟學會（ESC）模型的表現。
+
+
+### 計算器組成要素
+
+
+多標記物計算器根據以下個別變量估算個體患者關鍵結局的絕對風險：
+
+
+| p{10cm}} 多標記物計算器組成變量 |  |  |
+| --- | --- | --- |
+| **變量** | **說明** |  |
+| **變量** | **說明** |  |
+| **簡化PESI** | 簡化肺栓塞嚴重度指數（simplified Pulmonary Embolism Severity Index） |  |
+| **利鈉肽水平** | 反映心室壓力負荷 |  |
+| **肌鈣蛋白水平** | 反映心肌損傷 |  |
+| **伴隨下肢DVT** | 伴隨下肢深靜脈血栓形成 |  |
+
+
+### 研究結果
+
+
+| p{4cm}p{3.5cm}p{3.5cm}} 多標記物計算器與ESC模型比較 |  |  |
+| --- | --- | --- |
+| **分析群體** | **患者數** | **多標記物計算器C統計量** |
+| **分析群體** | **患者數** | **多標記物計算器C統計量** |
+| 整體世代 | 60,042 | 0.79 |
+| 具完整RV功能/肌鈣蛋白數據 | 16,648 | 0.78 |
+| 缺失數據插補後 | -- | 0.79 |
+| 所有比較P < 0.001; RV: 右心室 |  |  |
+
+
+> **中高風險PE識別（計算器估算風險 >10
+> itemize
+>     \item 多標記物計算器死亡率陽性預測值：15.7
+>     \item ESC模型死亡率陽性預測值：5.0
+>     \item 差異顯著（P < 0.001）
+> itemize
+
+
+### 編輯評論（Irene Lang）
+
+
+- eStiMaTe計算器在ESC風險模型識別為中高風險的患者中，具有更好的辨別力來識別最病重的患者
+- 未來需要確定這些是否為可能從短期機械治療中獲益的急性右心室衰竭死亡患者
+- 未來風險評分可能需要納入與右心室時序性惡化直接相關的動態生物標記物評估
+- 可考慮引入首次後1小時的連續高敏感度肌鈣蛋白測量，或連續血清乳酸測量
+
+
+## 核受體Dax1促進動脈粥狀硬化
+
+
+### 研究背景
+
+
+核受體（Nuclear Receptors, NRs）參與心血管生理和病理。Dax1是數種保護性NRs的共抑制因子。然而，Dax1是否影響動脈粥狀硬化仍不清楚。
+
+上海交通大學醫學院Feifei Li等人旨在探索Dax1在動脈粥狀硬化發生中的作用，並尋找靶向Dax1預防動脈粥狀硬化的藥理學方法。
+
+
+### 研究方法與發現
+
+
+| p{11cm}} Dax1研究方法與主要發現 |  |  |
+| --- | --- | --- |
+| **研究內容** | **說明** |  |
+| **研究內容** | **說明** |  |
+| **臨床發現** | Dax1 mRNA含量在人類動脈粥狀硬化動脈中上調，特別是在巨噬細胞中表現顯著 |  |
+| **動物模型** | 巨噬細胞特異性Dax1敲除小鼠的動脈粥狀硬化程度低於對照組 |  |
+| **機制1** | Dax1抑制肝X受體α（LXR$\alpha$）活性 |  |
+| **機制2** | Dax1直接與轉錄因子EB（TFEB）相互作用以抑制自噬 |  |
+| **表型結果** | 導致巨噬細胞中脂質累積和發炎 |  |
+| **藥物驗證** | 2'-脫氧胞苷降低Dax1水平，增強自噬，減少脂質累積，並抑制小鼠動脈粥狀硬化 |  |
+
+
+### 治療意義
+
+
+> **靶向Dax1的潛在優勢：**
+> itemize
+>     \item 同時影響LXR$\alpha$和TFEB活性
+>     \item 具有雙重抗動脈粥狀硬化效果的潛力
+> itemize
+> **需注意的挑戰（編輯評論，Lorey & Öörni）：**
+> itemize
+>     \item LXR$\alpha$激動劑面臨高三酸甘油酯血症和肝臟脂肪增加的臨床應用挑戰
+>     \item TFEB是多種代謝過程的調節因子，改變其表達需謹慎
+>     \item 更混雜的配體總是有更多脫靶效應的可能
+>     \item Dax1在內分泌組織中表達量更高，需在後續研究中仔細考慮
+>     \item 建議採用靶向方法，如使用攜帶巨噬細胞特異性受體配體的納米顆粒來運輸藥物
+> itemize
+
+
+## METTL14與血管老化
+
+
+### 研究背景
+
+
+中國第二附屬醫院Xin Liu等人旨在研究METTL14在血管老化發病機制中發炎反應中的作用。
+
+
+### 研究方法
+
+
+研究團隊建立了以下模型：
+
+- 自然老化小鼠模型
+- D-半乳糖誘導的老化小鼠模型
+- 內皮細胞特異性METTL14敲除小鼠
+
+
+### 主要發現
+
+
+| p{10cm}} METTL14研究主要發現 |  |  |
+| --- | --- | --- |
+| **發現類別** | **說明** |  |
+| **發現類別** | **說明** |  |
+| **表達變化** | METTL14在老化小鼠、老化人類和衰老內皮細胞的主動脈內皮細胞中上調 |  |
+| **敲除效果** | 內皮特異性敲低或敲除METTL14顯著抑制動脈僵硬、動脈重塑和內皮衰老 |  |
+| **過表達效果** | 內皮特異性過表達METTL14產生相反效果 |  |
+| **細胞水平影響** | METTL14敲低改善衰老內皮細胞的細胞衰老、發炎反應和氧化壓力 |  |
+| **分子機制** | METTL14促進TLR4 mRNA的m$^6$A修飾，從而增強其穩定性 |  |
+| **逆轉實驗** | TLR4敲低逆轉了METTL14對血管老化的有害影響 |  |
+| **臨床相關性** | 血管老化及相關動脈粥狀硬化與人類血液METTL14和TLR4升高呈正相關 |  |
+
+
+> **結論：**本研究提示METTL14/TLR4訊號在血管老化發病機制中的作用，METTL14敲低成為緩解血管老化及相關血管疾病的潛在治療策略。
+
+
+## KIF13B與動脈粥狀硬化中的胞葬作用
+
+
+### 研究背景
+
+
+動脈粥狀硬化是一種全球發病率和死亡率都很高的慢性發炎性疾病。新證據報導驅動蛋白家族成員13B（Kinesin family member 13B, KIF13B）是一種關鍵的馬達蛋白，整合肝臟脂質代謝和發炎反應以限制肝臟疾病。然而，KIF13B與動脈粥狀硬化之間的關係仍不清楚。
+
+北京大學Yitong Xu等人旨在闡明KIF13B在動脈粥狀硬化中的特定作用及其潛在治療意義。
+
+
+### 主要研究發現
+
+
+| p{10cm}} KIF13B研究主要發現 |  |  |
+| --- | --- | --- |
+| **研究發現** | **說明** |  |
+| **研究發現** | **說明** |  |
+| **臨床相關性** | KIF13B表達在動脈粥狀硬化患者中顯著降低，並與動脈粥狀硬化進展嚴重程度呈負相關 |  |
+| **全身敲除效果** | Kif13b$^{-/-}$-Ldlr$^{-/-}$小鼠血漿總膽固醇顯著增加，動脈粥狀硬化病變更多 |  |
+| **髓系敲除效果** | 髓系來源Kif13b缺失不改變血漿脂質水平，但引發更大的動脈粥狀硬化斑塊，伴隨巨噬細胞浸潤增加和更多凋亡細胞 |  |
+| **體外研究** | Kif13b缺失的巨噬細胞在氧化LDL處理後顯示膽固醇累積顯著增加，胞葬作用受損，MERTK表達降低 |  |
+| **機制研究** | Kif13b缺失降低ITCH表達，導致CBL介導的MERTK泛素化和降解加速 |  |
+| **藥物干預** | 口服NX-1607（CBL拮抗劑）顯著逆轉MERTK蛋白水平降低和胞葬作用缺陷，最終保護免受Kif13b缺失導致的動脈粥狀硬化發展 |  |
+
+
+### 治療啟示
+
+
+> **研究結論：**本研究揭示KIF13B是維持適當巨噬細胞胞葬作用以預防動脈粥狀硬化發展的關鍵調節因子，通過KIF13B/ITCH/CBL/MERTK軸發揮作用，表明KIF13B是未來臨床試驗中治療動脈粥狀硬化的潛在治療靶點。
+> **編輯評論要點（Jarr, Luo & Leeper）：**
+> itemize
+>     \item 本研究標誌著我們對動脈粥狀硬化免疫調節理解的進步
+>     \item 將範式從廣泛抑制發炎轉向活化促消退機制
+>     \item 這種創新的免疫治療方法解決了心血管醫學的主要未滿足需求
+>     \item 當務之急是加速轉譯，在更大的人類世代中驗證這些發現
+>     \item 此研究不僅完善了我們對血管生物學的看法，還可能為聯合心血管和腫瘤免疫治療提供更廣泛的治療框架
+> itemize
+
+
+## 己糖胺生物合成通路與胸主動脈瘤
+
+
+### 研究背景
+
+
+胸主動脈瘤和主動脈剝離（TAADs）以糖化基質累積為特徵的主動脈中層退化為標誌。馬凡氏症候群（MFS）是與TAAD相關的最常見遺傳性結締組織疾病。雖然血管平滑肌細胞代謝功能障礙已成為TAAD的致病驅動因素，但手術修復仍是主要治療方式。
+
+西班牙馬德里自治大學Antonio Rochano-Ortiz等人旨在研究己糖胺生物合成通路（Hexosamine Biosynthetic Pathway, HBP）在散發性和遺傳性TAAD病理生理學中的作用。
+
+
+### 主要研究發現
+
+
+| p{11cm}} HBP在TAAD中的作用 |  |  |
+| --- | --- | --- |
+| **發現類別** | **說明** |  |
+| **發現類別** | **說明** |  |
+| **通路活化** | HBP在MFS小鼠模型、$\beta$-氨基丙腈誘導的TAAD以及MFS和散發性TAAD患者的主動脈樣本中均上調 |  |
+| **致病機制** | 增強的HBP活性通過血管平滑肌細胞功能障礙和整合壓力反應（ISR）活化促進主動脈擴張和中層退化 |  |
+| **治療驗證** | 抑制HBP或ISR可在MFS模型中逆轉這些效果 |  |
+
+
+### 潛在治療策略
+
+
+> **編輯評論要點（Kirchhoff & Maegdefessel）：**
+> **研究意義：**
+> itemize
+>     \item HBP相關TAA發展可能是藥物治療的潛在靶點
+>     \item 通路在症候性MFS患者和非症候性患者中均有調節
+>     \item 考慮到為TAA這種慢性疾病建立前瞻性隨機臨床試驗的困難，仔細研究作者提出的治療策略似乎非常有吸引力
+> itemize
+> **潛在藥物候選：**
+> itemize
+>     \item **6-重氮-5-氧代-L-正亮氨酸（DON）**：已在多項癌症研究中評估使用，後期研究設計了毒性更低的前藥
+>     \item **FR054**：已在小鼠乳腺癌臨床前研究中使用，未檢測到相關毒性
+>     \item **ISRIB**：在臨床前小鼠模型中顯示神經保護作用，但關於不良反應的可靠臨床數據仍不足
+> itemize
+> **待解決問題：**
+> 在考慮患者應用之前，仍需解決幾個關鍵問題，包括正確的適應症和治療動機。儘管如此，本研究揭示了非侵入性藥物治療TAA的新有前景候選藥物。
+
+
+## 綜合討論與臨床展望
+
+
+### 本期研究的共同主題
+
+
+| p{5.5cm}p{5.5cm}} 本期研究主題綜合分析 |  |  |
+| --- | --- | --- |
+| **研究主題** | **核心機制** | **治療靶點/策略** |
+| **研究主題** | **核心機制** | **治療靶點/策略** |
+| 平滑肌細胞 | 表型轉換、克隆性擴增 | 調節SMC行為 |
+| 動脈中層鈣化 | VSMC表型轉換、羥基磷灰石沉積 | 早期檢測、預防 |
+| 網狀血小板 | PI3K/GPVI訊號增強 | GPVI抑制（glenzocimab）、PI3K抑制 |
+| 肺栓塞風險分層 | 多標記物整合 | 精準風險評估 |
+| Dax1 | 抑制LXR$\alpha$、TFEB | 2'-脫氧胞苷 |
+| METTL14 | m$^6$A修飾TLR4 mRNA | METTL14敲低 |
+| KIF13B | ITCH/CBL/MERTK軸 | CBL拮抗劑NX-1607 |
+| HBP-ISR軸 | 整合壓力反應 | HBP/ISR抑制劑 |
+
+
+### 轉譯醫學意義
+
+
+> **共同挑戰：**
+> enumerate
+>     \item **靶向特異性**：需要避免脫靶效應，特別是對於在多種組織表達的靶點
+>     \item **藥物遞送**：可能需要細胞特異性遞送策略，如納米顆粒
+>     \item **臨床驗證**：需要在更大的人類世代中驗證
+>     \item **安全性評估**：長期使用的安全性需要嚴格評估
+> enumerate
+> **未來方向：**
+> itemize
+>     \item 整合多組學數據進行患者分層
+>     \item 開發生物標記物驅動的個人化治療
+>     \item 探索心血管與腫瘤免疫治療的交叉領域
+> itemize
+
+
+## 參考文獻
+
+
+1. Azar P, Jarr KU, Gomez D, et al. Smooth muscle cells in atherosclerosis: essential but overlooked translational perspectives. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf337). 2025;46:4862-75.*
+2. Narayanan S, Vuckovic S, Bergman O, et al. Atheroma transcriptomics identifies ARNTL as a smooth muscle cell regulator and with clinical and genetic data improves risk stratification. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae768). 2025;46:308-22.*
+3. Li X, Chen M, Chen X, et al. TRAP1 drives smooth muscle cell senescence and promotes atherosclerosis via HDAC3-primed histone H4 lysine 12 lactylation. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae379). 2024;45:4219-35.*
+4. Miteva K. On target inhibition of vascular smooth muscle cell phenotypic transition underpins TNF–OXPHOS–AP-1 as a promising avenue for anti-remodelling interventions in aortic dissection and rupture. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad679). 2024;45:306-8.*
+5. Luo Y, Luo J, An P, et al. The activator protein-1 complex governs a vascular degenerative transcriptional programme in smooth muscle cells to trigger aortic dissection and rupture. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad534). 2024;45:287-305.*
+6. Kaw K, Chattopadhyay A, Guan P, et al. Smooth muscle $\alpha$-actin missense variant promotes atherosclerosis through modulation of intracellular cholesterol in smooth muscle cells. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad373). 2023;44:2713-26.*
+7. Blaser MC, Bäck M, Lüscher TF, Aikawa E. Calcific aortic stenosis: omics-based target discovery and therapy development. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae829). 2025;46:620-34.*
+8. Mach F, Miteva K. Window of opportunity for developing effective medical intervention for calcific aortic valve disease. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae426). 2024;45:3886-8.*
+9. Huang Y, Wang C, Zhou T, et al. Lumican promotes calcific aortic valve disease through H3 histone lactylation. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae407). 2024;45:3871-85.*
+10. Gerdes N. Eosinophils promote vascular calcification and atherosclerosis: adding another layer of complexity on the path to clarity? [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad323). 2023;44:2784-6.*
+11. Meng Z, Zhang S, Li W, et al. Cationic proteins from eosinophils bind bone morphogenetic protein receptors promoting vascular calcification and atherogenesis. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad262). 2023;44:2763-83.*
+12. Thériault S, Mathieu P, Bossé Y. The journey towards identification of actionable molecular pathways in calcific aortic valve stenosis. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad134). 2023;44:1940-2.*
+13. Yu Chen H, Dina C, Small AM, et al. Dyslipidemia, inflammation, calcification, and adiposity in aortic stenosis: a genome-wide study. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad142). 2023;44:1927-39.*
+14. Martin M, Motta SE, Emmert MY. Have we found the missing link between inflammation, fibrosis, and calcification in calcific aortic valve disease? [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehac787). 2023;44:899-901.*
+15. Iqbal F, Schlotter F, Becker-Greene D, et al. Sortilin enhances fibrosis and calcification in aortic valve disease by inducing interstitial cell heterogeneity. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehac818). 2023;44:885-98.*
+16. Lanzer P, Schurgers L, Twarda-Clapa A, et al. Medial arterial calcification in ageing and disease: current evidence and knowledge gaps. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf341). 2025;46:4876-900.*
+17. Vilahur G, Fuster V. Interplay between platelets and coagulation: from protective haemostasis to pathological arterial thrombosis. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae776). 2025;46:413-23.*
+18. McFadyen JD, Wang X, Peter K. The quest for the holy grail in antithrombotic therapy: revitalized hope for platelet GPVI as a safe and effective antithrombotic target. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae592). 2024;45:4598-600.*
+19. Navarro S, Talucci I, Göb V, et al. The humanized platelet glycoprotein VI Fab inhibitor EMA601 protects from arterial thrombosis and ischaemic stroke in mice. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae482). 2024;45:4582-97.*
+20. Kwon O, Ahn JH, Koh JS, et al. Platelet–fibrin clot strength and platelet reactivity predicting cardiovascular events after percutaneous coronary interventions. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehae296). 2024;45:2217-31.*
+21. Baaten C, Nagy M, Bergmeier W, et al. Platelet biology and function: plaque erosion vs. rupture. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehad720). 2024;45:18-31.*
+22. Kirmes K, Han J, Klug M, et al. Reticulated platelets in coronary artery disease: a multidimensional approach unveils prothrombotic signalling and novel therapeutic targets. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf694). 2025;46:4901-17.*
+23. Park HE, Cameron SJ. The silent saboteurs: reticulated platelets in coronary artery disease. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf656). 2025;46:4918-20.*
+24. Jiménez D, Dubois-Silva Á, Demelo-Rodríguez P, et al. Acute pulmonary embolism: a multimarker calculator to predict short-term outcomes. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf228). 2025;46:4921-9.*
+25. Lang IM. Risk in acute pulmonary embolism: how can we estimate it RIGHT? [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf393). 2025;46:4930-2.*
+26. Li F, Wang Y, Chen S, et al. Nuclear receptor Dax1 promotes atherosclerosis by lipid transport inhibition and autophagy suppression in macrophages. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf241). 2025;46:4933-49.*
+27. Lorey MB, Öörni K. Dual targeting of atherosclerosis-relevant nuclear receptors: double-edged sword or killing two birds with one stone? [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf383). 2025;46:4950-2.*
+28. Liu X, Liu H, Lin Y, et al. Deletion of METTL14, a key methylation regulator, attenuates vascular ageing. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf476). 2025;46:4953-68.*
+29. Xu Y, Chen J, Liu Y, et al. The macrophage-derived motor protein KIF13B enhances MERTK-mediated efferocytosis and prevents atherosclerosis in mice. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf523). 2025;46:4969-84.*
+30. Jarr KU, Luo L, Leeper NJ. The atherosclerosis–cancer axis: the shared immunotherapeutic potential of CBL inhibition. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf624). 2025;46:4985-7.*
+31. Rochano-Ortiz A, San Sebastián-Jaraba I, Zamora C, et al. Excessive glycosylation drives thoracic aortic aneurysm formation through integrated stress response. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf556). 2025;46:4988-5005.*
+32. Kirchhoff F, Maegdefessel L. Sugar, stress, and the arterial wall: a metabolic link in aortic aneurysms. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf586). 2025;46:5006-8.*
+33. Sörelius K, Wyss TR. A critical examination of methodological limitations to diagnose infective native aortic aneurysms. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf808). 2025;46:5009-10.*
+34. Lee CC, Chang FC, Hsieh MJ, et al. Infected native aortic aneurysms: epidemiology, management, and outcomes based on a nationwide population-based study. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf449). 2025;46:ehaf449.*
+35. Chang F-C, Chen S-W. Beyond the immediate light: reappraising open surgery for long-term outcomes in infected native aortic aneurysms. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehaf810). 2025;46:5011-2.*
+
+
+## 詞彙表
+
+
+description[leftmargin=4.5cm,style=nextline]
+    \item[SMC] Smooth Muscle Cell，平滑肌細胞。血管壁中的主要細胞類型，在動脈粥狀硬化斑塊形成中扮演關鍵角色。
+    
+    \item[MAC] Medial Arterial Calcification，動脈中層鈣化。血管中層羥基磷灰石沉積導致的病變。
+    
+    \item[RP] Reticulated Platelet，網狀血小板。富含RNA、高反應性的年輕血小板。
+    
+    \item[MP] Mature Platelet，成熟血小板。RNA含量較低的血小板。
+    
+    \item[PI3K] Phosphoinositide 3-Kinase，磷酸肌醇3-激酶。參與血小板活化訊號傳導的關鍵酶。
+    
+    \item[GPVI] Glycoprotein VI，醣蛋白VI。血小板表面的膠原受體，參與血栓形成。
+    
+    \item[PE] Pulmonary Embolism，肺栓塞。肺動脈或其分支被血栓阻塞的急性病症。
+    
+    \item[PESI] Pulmonary Embolism Severity Index，肺栓塞嚴重度指數。用於評估肺栓塞預後的評分系統。
+    
+    \item[Dax1] Dosage-sensitive sex reversal, adrenal hypoplasia critical region, on chromosome X, gene 1。核受體共抑制因子。
+    
+    \item[LXR$\alpha$] Liver X Receptor alpha，肝X受體α。調節膽固醇代謝的核受體。
+    
+    \item[TFEB] Transcription Factor EB，轉錄因子EB。調節自噬和溶酶體生物發生的關鍵轉錄因子。
+    
+    \item[METTL14] Methyltransferase-like 14，甲基轉移酶樣蛋白14。m$^6$A RNA甲基化修飾的關鍵酶。
+    
+    \item[m$^6$A] N$^6$-methyladenosine，N6-甲基腺苷。最常見的mRNA內部修飾。
+    
+    \item[TLR4] Toll-like Receptor 4，Toll樣受體4。先天免疫的模式識別受體。
+    
+    \item[KIF13B] Kinesin Family Member 13B，驅動蛋白家族成員13B。參與細胞內運輸的馬達蛋白。
+    
+    \item[MERTK] MER Proto-Oncogene Tyrosine Kinase。調節胞葬作用的酪氨酸激酶受體。
+    
+    \item[Efferocytosis] 胞葬作用。巨噬細胞清除凋亡細胞的過程。
+    
+    \item[CBL] Casitas B-lineage Lymphoma。E3泛素連接酶，調節蛋白質降解。
+    
+    \item[HBP] Hexosamine Biosynthetic Pathway，己糖胺生物合成通路。葡萄糖代謝的支路，產生糖基化供體。
+    
+    \item[ISR] Integrated Stress Response，整合壓力反應。細胞應對各種壓力的共同訊號通路。
+    
+    \item[TAAD] Thoracic Aortic Aneurysm and Dissection，胸主動脈瘤和剝離。
+    
+    \item[MFS] Marfan Syndrome，馬凡氏症候群。最常見的與TAAD相關的遺傳性結締組織疾病。
+description
+
+
+**關鍵詞：**動脈粥狀硬化、血栓形成、平滑肌細胞、動脈中層鈣化、網狀血小板、肺栓塞、核受體、血管老化、胞葬作用、胸主動脈瘤

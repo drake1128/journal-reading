@@ -1,0 +1,404 @@
+# echo_book_0_FOCUS_Eng
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-27**
+
+---
+
+titlepage
+    
+    {****Cardiovascular Center Teaching Document****
+}
+    
+    {\bfseries Focused Cardiac Ultrasonography for Left Ventricular Systolic Function Assessment
+}
+    
+    {***Bedside Cardiac Ultrasound Teaching Manual***
+}
+    
+    
+    
+> {**Target Audience**
+> }
+>     Cardiovascular Center, Critical Care Center, Emergency Medicine Department, Cardiology Medical Staff
+>     {**Document Version**
+> }
+>     Version 1.0
+>     Release Date: \mydate
+
+
+    \vfill
+    
+    {Cardiovascular Center Physician Mu-Yang Hsieh, MD, PhD, FESC
+}
+    
+    
+titlepage
+
+
+---
+
+\tableofcontents
+
+---
+
+
+## Introduction
+
+Left ventricular systolic function is central to cardiac disease management. Focused Cardiac Ultrasonography (FCU) is a qualitative or semi-quantitative cardiac assessment method performed by clinicians at the bedside, conducted simultaneously with traditional physical examination. Research shows that FCU is more reliable and accurate than simple physical examination alone in diagnosing left ventricular systolic dysfunction. This manual introduces practical methods for visual assessment of left ventricular systolic function using FCU, aimed at improving clinical diagnostic capabilities.
+
+To use this manual, please access via hospital network connection: [NEJM Videos in Clinical Medicine: Focused Cardiac Ultrasonography for Left Ventricular Systolic Function](https://www.nejm.org/doi/full/10.1056/NEJMvcm1802841). Although the video is in English, it can still be used alongside this manual for study. This manual also has another version that contains translated content with Chinese explanations that can be studied in conjunction with the website video. The video is 13:55 minutes long, suitable for self-study by critical care colleagues.
+
+importantbox
+**Important Notice:** FCU is intended to supplement, not replace, physical examination or formal echocardiographic examination.
+importantbox
+
+
+### With the Spirit of Solo Leveling, Begin Your Cardiac Ultrasound Self-Learning Journey
+  
+
+
+In the world of "Solo Leveling," Sung Jin-Woo transforms from the weakest hunter into an unparalleled existence through unwavering determination and endless effort, gradually breaking through limitations. Are you, who are considering learning cardiac ultrasound, ready to embrace this challenge that belongs to you? Cardiac ultrasound is a profound and challenging discipline, like a tower waiting to be conquered. Each view, each technique, each case is a trial you must face. But just as Sung Jin-Woo grows through countless battles, you too can improve your abilities step by step through self-study.
+
+Self-learning cardiac ultrasound is no easy task. You may get lost in probe positioning for the apical four-chamber view, or feel frustrated by the complexity of interpreting Doppler waveforms. But remember, Sung Jin-Woo never gave up due to weakness; he chose to face every battle head-on. So should you! Every time you read the manual, practice operations, or reflect on mistakes, you accumulate experience points on your "leveling up" path. No one is born a cardiac ultrasound master, but everyone has the potential to become an expert through persistence.
+
+This manual is your "system" for self-learning, providing you with knowledge, skills, and direction. Whether mastering the derivation of continuity equations or precisely measuring left ventricular systolic function, each chapter is a step in your growth. Don't fear difficulty, because in "Solo Leveling," the greatest challenges nurture the strongest power. Set your goals: start by becoming familiar with basic views, then gradually advance to interpreting complex cases. When you feel tired, remember Sung Jin-Woo's determination to fight alone in darkness—you too can become your own hero.
+
+
+    
+    [Image]
+    Solo Leveling (2024 animation, Netflix). Image source: Google- Medium- From Zero to Hero.[Medium: From Zero to Hero. ](https://medium.com/techtrends-digest/from-zero-to-hero-my-journey-with-solo-leveling-5821c4750cbc) 
+    
+
+
+importantbox
+Self-learning is like solo leveling—no need to compare with others, just surpass yesterday's self. Persist in daily learning, accumulate small progress, and you will continue to grow.
+importantbox
+
+
+## Focused Cardiac Ultrasonography Overview
+
+
+### Definition
+
+FCU is a qualitative or semi-quantitative bedside cardiac assessment technique performed and interpreted by clinicians simultaneously during physical examination. Its goal is to rapidly provide preliminary information about cardiac function, particularly suitable for acute or emergency situations.
+
+
+### Indications
+
+FCU is applicable for screening and diagnosis in outpatient and inpatient settings, especially in the following acute cardiopulmonary diseases:
+
+- Dyspnea
+- Chest Pain
+- Trauma
+- Arterial Hypotension
+- Shock
+- Respiratory Failure
+- Cardiac Arrest
+
+
+FCU is particularly suitable for rapid assessment of acute cardiac conditions but should not serve as the sole diagnostic basis.
+
+
+## Equipment and Preparation
+
+
+### Required Equipment
+
+
+- Ultrasound system with two-dimensional imaging capability
+- Ultrasound transmission gel
+- Low-frequency phased array probe
+- A pair of gloves
+
+
+### Procedural Preparation
+
+
+1. Wash hands or disinfect both hands before the procedure.
+2. Explain the procedure to the patient, noting it has no risks or complications.
+3. Position the ultrasound machine to the right side of the patient's bedhead.
+4. Put on gloves and expose the patient's chest.
+5. If possible, place the patient in left lateral decubitus position to optimize imaging.
+
+
+importantbox
+**Important Notice:** Left lateral decubitus position helps improve cardiac image quality, especially in the apical four-chamber view.
+importantbox
+
+
+## Primary Ultrasound Views for Left Ventricular Systolic Function
+
+FCU assessment of left ventricular systolic function primarily uses the following three validated views:
+
+- Apical Four-Chamber View
+- Parasternal Long Axis View
+- Parasternal Short Axis View
+
+
+### Methods for Obtaining Views
+
+
+#### Apical Four-Chamber View
+
+
+- Set imaging depth to 15-20 cm.
+- Place the probe at the point of maximal impulse, or move in a Z-pattern from the anterior axillary line to the nipple.
+- Probe angle 60° to the chest wall, with the marker pointing toward 3 o'clock (toward the sternotomy).
+- Left ventricle and left atrium display on the right side of the screen.
+
+
+#### Parasternal Long Axis View
+
+
+- Place probe at the left third or fourth intercostal space, near the sternum.
+- Set imaging depth to 12-20 cm.
+- Probe marker pointing toward 10 o'clock (patient's right shoulder), perpendicular to the chest wall.
+- Heart displays horizontally, including aortic valve and mitral valve, but not showing left ventricular apex.
+
+
+#### Parasternal Short Axis View
+
+
+- Starting from parasternal long axis view, rotate probe clockwise until marker points toward 2 o'clock (patient's left shoulder).
+- Set imaging depth to 10-14 cm.
+- Left ventricle appears circular, located at screen center, clearly showing endocardial and epicardial borders.
+
+
+Correct probe positioning and angle adjustment are key to obtaining clear views, requiring flexible adjustment based on patient anatomy.
+
+
+## Assessment Parameters for Left Ventricular Systolic Function
+
+FCU uses the following four ultrasound parameters for qualitative or semi-quantitative assessment of left ventricular systolic function:
+
+
+### Longitudinal Shortening
+
+
+- **Applicable view**: Apical four-chamber view (can also be assessed in parasternal long axis view).
+- **Method**: Identify longitudinal segments from cardiac base to apex, using mitral valve annulus (lateral and septal) as reference points. End-diastolic segment length is maximal; during systole, the base moves toward the apex, shortening the segment to minimal length at end-systole.
+- **Measurement**: Calculate the difference between maximum and minimum lengths within the same cardiac cycle.
+- **Interpretation**:     itemize[nosep]
+- Difference ≥1 cm: Normal left ventricular systolic function.
+- Difference <1 cm: Severe systolic dysfunction.
+
+
+itemize
+
+
+### Anterior Mitral Leaflet Motion
+
+
+- **Applicable view**: Parasternal long axis view.
+- **Method**: Imagine the left ventricular midline (from base to apex). In early diastole, the anterior mitral leaflet moves toward the interventricular septum.
+- **Interpretation**:     itemize[nosep]
+- Anterior leaflet motion crosses midline: Normal systolic function.
+- Anterior leaflet does not cross midline: Severe systolic dysfunction.
+
+
+itemize
+
+
+### Thickening of Wall Segments
+
+
+- **Applicable view**: Parasternal short axis view (can also be assessed in apical four-chamber and long axis views).
+- **Method**: End-diastolic wall thickness is minimal; during systole, myocardial contraction causes wall thickening to maximum thickness at end-systole. Calculate the fractional increase rate in thickness within the same cardiac cycle.
+- **Interpretation**:     itemize[nosep]
+- Uniform thickening with increase ≥1/3: Normal systolic function.
+- Thickening <1/3: Severe systolic dysfunction.
+
+
+itemize
+
+
+### Change in the Area of the Cavity
+
+
+- **Applicable view**: Parasternal short axis view (can also be assessed in apical four-chamber and long axis views).
+- **Method**: Left ventricular cavity area enclosed by endocardial borders is maximal at end-diastole; during systole, endocardial walls approach each other, reducing area to minimum at end-systole. Calculate fractional area reduction rate.
+- **Interpretation**:     itemize[nosep]
+- Area reduction ≥1/3: Normal systolic function.
+- Area reduction <1/3: Severe systolic dysfunction.
+
+
+itemize
+
+importantbox
+**Important Notice:** All four parameters need consistent assessment across multiple views to ensure accuracy of left ventricular systolic function determination.
+importantbox
+
+
+## Assessment Steps and Result Integration
+
+
+### Assessment Steps
+
+
+1. Sequentially obtain apical four-chamber view, parasternal long axis view, and short axis view.
+2. Identify key structures in each view (such as mitral valve annulus, apex, endocardial/epicardial borders, anterior mitral leaflet, midline).
+3. Use screen calipers or M-mode to measure each parameter.
+4. Integrate results from all views and parameters, ensuring consistency.
+
+
+### Result Interpretation
+
+
+- **Normal left ventricular systolic function**: All four parameters are normal (longitudinal shortening ≥1 cm, anterior leaflet crosses midline, wall thickening ≥1/3, area reduction ≥1/3), corresponding to ejection fraction (EF) >55
+- **Severe dysfunction**: All parameters are abnormal (longitudinal shortening <1 cm, anterior leaflet does not cross midline, wall thickening <1/3, area reduction <1/3), corresponding to EF <30
+- **Indeterminate**: Parameter results are inconsistent or partially unassessable, requiring further examination.
+
+
+#### Example Cases
+
+
+- **Patient One (Normal)**:     itemize[nosep]
+- Apical four-chamber view: Longitudinal shortening ≥1 cm, wall thickening ≥1/3, area reduction ≥1/3.
+- Parasternal long axis view: Anterior mitral leaflet crosses midline.
+
+
+    \item **Patient Two (Severe dysfunction)**:
+    
+- Apical four-chamber view: Longitudinal shortening <1 cm, wall thickening <1/3, area reduction <1/3.
+- Parasternal long axis view: Anterior mitral leaflet does not cross midline.
+
+
+itemize
+
+
+Parameter consistency is the foundation of accurate diagnosis; indeterminate results require further formal echocardiographic assessment.
+
+
+## Limitations of FCU
+
+FCU application is limited by the following factors:
+
+- **Patient factors**: Obesity, obstructive lung disease, mechanical ventilation.
+- **Pathological factors**: Mitral or aortic valve disease, regional wall motion abnormalities, restrictive heart disease.
+- **Operator factors**: Operator competence is crucial.
+
+
+importantbox
+**Important Notice:** Operators need adequate training to overcome technical limitations and ensure FCU result reliability.
+importantbox
+
+
+## Conclusion
+
+Focused Cardiac Ultrasonography (FCU) provides qualitative or semi-quantitative assessment of left ventricular systolic function through four parameters: longitudinal shortening, anterior mitral leaflet motion, wall segment thickening, and cavity area change. When performed correctly, FCU can significantly improve diagnostic accuracy of acute cardiac conditions and is an important tool for clinicians. Through standardized operation and multi-view integration, FCU can provide rapid and reliable information for patient management.
+
+
+---
+
+
+## Examination Questions
+
+The following are multiple-choice questions targeting the "Focused Cardiac Ultrasonography (FCU) for Left Ventricular Systolic Function Assessment" chapter, designed to test understanding of key concepts.
+
+
+1. The main characteristic of Focused Cardiac Ultrasonography (FCU) is:     enumerate[label=\alph*)]
+2. Quantitative assessment of cardiac function
+3. Performed and interpreted by clinicians at bedside
+4. Replacement for formal echocardiographic examination
+5. Limited to inpatients only
+
+
+    \item FCU indications do NOT include which of the following?
+    
+1. Dyspnea
+2. Chest pain
+3. Routine health screening
+4. Cardiac arrest
+
+
+    \item When performing FCU assessment of left ventricular systolic function, the preferred patient position is:
+    
+1. Supine position
+2. Left lateral decubitus position
+3. Right lateral decubitus position
+4. Prone position
+
+
+    \item In the apical four-chamber view, the probe marker should point toward:
+    
+1. 12 o'clock direction
+2. 3 o'clock direction
+3. 6 o'clock direction
+4. 9 o'clock direction
+
+
+    \item The normal standard for Longitudinal Shortening is:
+    
+1. End-diastolic and end-systolic length difference ≥1 cm
+2. Wall thickness increase ≥1/3
+3. Cavity area reduction ≥1/3
+4. Anterior mitral leaflet does not cross midline
+
+
+    \item Anterior Mitral Leaflet Motion should be assessed in which view?
+    
+1. Apical four-chamber view
+2. Parasternal short axis view
+3. Parasternal long axis view
+4. Subcostal short axis view
+
+
+    \item The abnormal standard for Thickening of Wall Segments is:
+    
+1. Wall thickness increase ≥1/3
+2. Wall thickness increase <1/3
+3. Cavity area reduction ≥1/3
+4. Longitudinal shortening ≥1 cm
+
+
+    \item If FCU shows all four parameters are abnormal, the left ventricular systolic function diagnosis is:
+    
+1. Normal (EF > 55
+2. Mild dysfunction
+3. Severe dysfunction (EF < 30
+4. Indeterminate
+
+
+    \item FCU limitations do NOT include which of the following?
+    
+1. Patient obesity
+2. Operator technical insufficiency
+3. Mitral valve disease
+4. High-resolution imaging
+
+
+    \item When integrating FCU results, what is most important?
+    
+1. Relying only on single view
+2. Consistency of all views and parameters
+3. Measuring only cavity area change
+4. Ignoring patient clinical symptoms
+
+
+enumerate
+
+
+---
+
+
+## Detailed Answer Explanations
+
+
+1. **Correct Answer: b) Performed and interpreted by clinicians at bedside**      **Explanation:** FCU is a qualitative or semi-quantitative assessment method performed and interpreted by clinicians at bedside in real-time, conducted simultaneously with physical examination. It does not provide quantitative data (as in option a), does not replace formal echocardiography (as in option c), and is applicable to both outpatient and inpatient settings (as in option d).
+2. **Correct Answer: c) Routine health screening**      **Explanation:** FCU is applicable for acute cardiopulmonary disease diagnosis, such as dyspnea, chest pain, and cardiac arrest. Routine health screening belongs to regular screening, not a primary indication for FCU.
+3. **Correct Answer: b) Left lateral decubitus position**      **Explanation:** Left lateral decubitus position can optimize cardiac image quality, especially in the apical four-chamber view, because the heart is closer to the chest wall. Other positions (such as supine or prone) have poorer image quality.
+4. **Correct Answer: b) 3 o'clock direction**      **Explanation:** In the apical four-chamber view, the probe marker should point toward 3 o'clock direction (toward sternotomy), ensuring the left ventricle and left atrium display on the right side of the screen. Other directions would cause incorrect image orientation.
+5. **Correct Answer: a) End-diastolic and end-systolic length difference ≥1 cm**      **Explanation:** Longitudinal shortening assesses length change from cardiac base to apex, with normal standard being difference ≥1 cm. Other options belong to standards for different parameters.
+6. **Correct Answer: c) Parasternal long axis view**      **Explanation:** Anterior mitral leaflet motion can only be assessed in the parasternal long axis view, by observing whether the anterior leaflet crosses the left ventricular midline during early diastole. Other views cannot clearly display this motion.
+7. **Correct Answer: b) Wall thickness increase <1/3**      **Explanation:** Abnormal wall segment thickening is defined as wall thickness increase from end-diastole to end-systole <1/3, indicating severe left ventricular systolic dysfunction. Other options belong to normal standards or different parameters.
+8. **Correct Answer: c) Severe dysfunction (EF < 30      **Explanation:** If all four parameters (longitudinal shortening, anterior mitral leaflet motion, wall thickening, cavity area change) are abnormal, left ventricular systolic function is severely impaired, corresponding to ejection fraction (EF) <30
+9. **Correct Answer: d) High-resolution imaging**      **Explanation:** FCU limitations include patient factors (obesity), pathological factors (mitral valve disease), and operator technical insufficiency. High-resolution imaging is an advantage of FCU, not a limitation.
+10. **Correct Answer: b) Consistency of all views and parameters**      **Explanation:** Integrating FCU results requires ensuring consistency across all views (apical four-chamber, parasternal long axis and short axis) and all four parameters to improve diagnostic accuracy. Single view or ignoring symptoms would lead to misdiagnosis.
+
+
+## References
+
+
+- Kimura, B. J., Amundson, S. A., and Shaw, D. J. (2023). Focused Cardiac Ultrasonography for Left Ventricular Systolic Function. *NEJM Videos in Clinical Medicine*. Available at: <https://www.nejm.org/doi/full/10.1056/NEJMvcm1802841>.
+- Spencer, K. T., Kimura, B. J., Korcarz, C. E., et al. (2013). Focused Cardiac Ultrasound: Recommendations from the American Society of Echocardiography. *Journal of the American Society of Echocardiography*, 26(6), 567-581. [Link](https://www.asecho.org/wp-content/uploads/2014/01/FCU.pdf)

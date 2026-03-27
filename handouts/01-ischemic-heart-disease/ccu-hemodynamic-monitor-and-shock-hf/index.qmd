@@ -1,0 +1,1070 @@
+---
+title: "ccu hemodynamic monitor and shock HF"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\titlepage
+
+frame{Outline}
+\tableofcontents
+frame
+
+
+## Introduction
+
+
+frame{血流動力學監測的重要性}
+columns
+0.5\textwidth
+**為什麼需要監測？**
+
+- 評估心輸出量與組織灌流
+- 區分不同類型的休克
+- 指引液體與升壓劑使用
+- 監測治療反應
+
+
+0.5\textwidth
+**監測工具**
+
+- Non-invasive: 臨床評估, Echo
+- Minimally invasive: Arterial line
+- Invasive: Central line, PAC
+- Advanced: PiCCO, FloTrac
+
+
+columns
+frame
+
+frame{關鍵血流動力學參數}
+table
+
+| **參數** | **正常值** | **臨床意義** |
+| --- | --- | --- |
+| Cardiac Output (CO) | 4-8 L/min | 心臟打出血量 |
+| Cardiac Index (CI) | 2.5-4 L/min/m$^2$ | 校正體表面積 |
+| SVR | 800-1200 dyne$\cdot$s/cm$^5$ | 後負荷 |
+| RAP/CVP | 2-8 mmHg | 右心前負荷 |
+| PAOP/PCWP | 6-12 mmHg | 左心前負荷 |
+| SvO$_2$ | 65-75 | 組織氧合狀態 |
+
+
+frame
+
+frame{休克的血流動力學分類}
+table
+
+\scriptsize
+
+| **類型** | **CO/CI** | **SVR** | **CVP** | **PCWP** | **SvO$_2$** | **機轉** |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cardiogenic | $\Downarrow\Downarrow$ | $\Uparrow\Uparrow$ | $\Uparrow$ | $\Uparrow\Uparrow$ | $\Downarrow$ | Pump failure |
+| Hypovolemic | $\Downarrow$ | $\Uparrow\Uparrow$ | $\Downarrow$ | $\Downarrow$ | $\Downarrow$ | Volume loss |
+| Septic (early) | $\Uparrow$ | $\Downarrow\Downarrow$ | $\Downarrow$/N | N | $\Uparrow$/N | Vasoplegia |
+| Septic (late) | $\Downarrow$ | $\Downarrow$ | $\Downarrow$/N | N | $\Downarrow$ | Mixed |
+| **Obstructive (PE)** | $\Downarrow\Downarrow$ | $\Uparrow\Uparrow$ | $\Uparrow\Uparrow$ | $\Downarrow$/N | $\Downarrow\Downarrow$ | RV failure |
+| Mixed | Variable | Variable | Variable | Variable | $\Downarrow$ | Combined |
+
+
+**Key Point:** 混合型休克需要仔細評估各個參數，不能只看單一數值
+frame
+
+
+## Case Studies
+
+
+frame{案例分析架構}
+每個案例我們將討論：
+
+1. **臨床表現** - 病史、症狀、理學檢查
+2. **血流動力學數據** - 所有監測參數
+3. **診斷分析** - 數據判讀與診斷依據
+4. **治療策略** - 根據血流動力學指引治療
+5. **追蹤與結果** - 治療反應評估
+
+
+frame
+
+
+### Case 1: Cardiogenic Shock
+
+
+frame{Case 1: Cardiogenic Shock - 臨床表現}
+**病人資訊：** 65歲男性
+
+**主訴：** 胸痛6小時，呼吸困難
+
+**病史：**
+
+- 急性前壁心肌梗塞
+- 到院時血壓 85/60 mmHg
+- 心跳 110 bpm, 呼吸 28/min
+
+
+**理學檢查：**
+
+- 冷汗、皮膚濕冷、末梢發紺
+- 頸靜脈怒張 (JVP 升高)
+- 雙側肺底囉音
+- 心音 S3 gallop
+- 尿量 < 0.5 mL/kg/hr
+
+
+frame
+
+frame{Case 1: 血流動力學數據}
+columns
+0.5\textwidth
+**Invasive Monitoring (PAC):**
+
+- **CO: 3.2 L/min** $\Downarrow\Downarrow$
+- **CI: 1.8 L/min/m$^2$** $\Downarrow\Downarrow$
+- **SVR: 1850 dyne$\cdot$s/cm$^5$** $\Uparrow\Uparrow$
+- **RAP: 14 mmHg** $\Uparrow$
+- **PAOP: 24 mmHg** $\Uparrow\Uparrow$
+- **SvO$_2$: 52
+
+
+0.5\textwidth
+**Laboratory:**
+
+- Lactate: 4.5 mmol/L $\Uparrow$
+- Troponin-I: 25 ng/mL $\Uparrow\Uparrow$
+- BNP: 1200 pg/mL $\Uparrow$
+- Creatinine: 1.8 mg/dL $\Uparrow$
+
+
+**Echo:**
+
+- LVEF: 25
+- Akinetic anterior wall
+- Moderate MR
+
+
+columns
+frame
+
+frame{Case 1: 診斷分析}
+block{典型 Cardiogenic Shock 特徵}
+
+1. **低心輸出量** (CI 1.8) - 心臟泵血功能嚴重受損
+2. **高充填壓** (PCWP 24, RAP 14) - 肺水腫與右心衰竭
+3. **高 SVR** (1850) - 代償性血管收縮
+4. **低 SvO$_2$** (52
+5. **高 Lactate** - 組織缺氧與代謝性酸中毒
+
+
+block
+
+alertblock{臨床意義}
+這是典型的「cold & wet」profile，代表:
+
+- 嚴重的左心收縮功能不全
+- 肺充血與體循環灌流不足
+- 需要積極的血流動力學支持
+
+
+alertblock
+frame
+
+frame{Case 1: 治療策略}
+**立即處置：**
+
+1. **Primary PCI** - 緊急冠狀動脈介入治療
+2. **Inotropic support**      - Dobutamine 5-10 mcg/kg/min (改善 CO) - 或 Milrinone 0.375-0.75 mcg/kg/min
+3. **利尿劑** - Furosemide IV (降低 PCWP)
+4. **Vasopressor** (若需要)      - Norepinephrine 若 MAP < 65 mmHg
+5. **考慮 MCS** (Mechanical Circulatory Support)      - IABP 或 Impella 若藥物反應不佳
+
+
+**目標：**
+
+- CI > 2.2 L/min/m$^2$, PCWP 15-18 mmHg
+- MAP > 65 mmHg, SvO$_2$ > 60
+- Lactate clearance > 10
+
+
+frame
+
+
+### Case 2: Septic Shock
+
+
+frame{Case 2: Septic Shock - 臨床表現}
+**病人資訊：** 58歲女性
+
+**主訴：** 發燒、意識改變 2天
+
+**病史：**
+
+- 尿路感染史
+- 糖尿病、高血壓
+- 血壓 78/45 mmHg (即使 fluid resuscitation 3L)
+- 心跳 125 bpm, 體溫 39.2$^\circ$C
+
+
+**理學檢查：**
+
+- 皮膚溫暖、潮紅 (warm shock)
+- Bounding pulse
+- 肺部清晰
+- 意識混亂 (GCS 13)
+- 尿量 0.3 mL/kg/hr
+
+
+frame
+
+frame{Case 2: 血流動力學數據}
+columns
+0.5\textwidth
+**Invasive Monitoring:**
+
+- **CO: 8.5 L/min** $\Uparrow\Uparrow$
+- **CI: 4.8 L/min/m$^2$** $\Uparrow$
+- **SVR: 450 dyne$\cdot$s/cm$^5$** $\Downarrow\Downarrow$
+- CVP: 6 mmHg (Normal)
+- PAOP: 10 mmHg (Normal)
+- **SvO$_2$: 78
+
+
+0.5\textwidth
+**Laboratory:**
+
+- Lactate: 5.2 mmol/L $\Uparrow\Uparrow$
+- WBC: 22,000/$\mu$L $\Uparrow$
+- Procalcitonin: 15 ng/mL $\Uparrow\Uparrow$
+- Creatinine: 2.1 mg/dL $\Uparrow$
+- U/C: E. coli > 100,000 CFU
+
+
+**Echo:**
+
+- Hyperdynamic LV
+- LVEF: 70
+- IVC plethoric
+
+
+columns
+frame
+
+frame{Case 2: 診斷分析}
+block{典型 Septic Shock (Hyperdynamic Phase) 特徵}
+
+1. **高心輸出量** (CI 4.8) - 代償性心搏增加
+2. **極低 SVR** (450) - 病理性血管擴張
+3. **正常充填壓** - 但相對性血容不足
+4. **高 SvO$_2$** (78
+5. **高 Lactate** - 細胞代謝障礙，非單純缺氧
+
+
+block
+
+alertblock{病理生理機轉}
+**Distributive Shock 的特點：**
+
+- 血管擴張導致「相對性」低血容
+- CO 雖高但 effective perfusion 不足
+- SvO$_2$ 高但 Lactate 仍高 $\rightarrow$ 細胞無法利用氧氣
+- 需要 vasopressor 恢復 vascular tone
+
+
+alertblock
+frame
+
+frame{Case 2: 治療策略}
+**Sepsis Bundle (1 hour):**
+
+1. **早期抗生素** - Broad-spectrum (within 1 hr)      - Ceftriaxone + Metronidazole (考慮來源)
+2. **充足液體復甦**       - 已給予 3L，評估 fluid responsiveness - 考慮 PLR test 或 stroke volume variation
+3. **Vasopressor** - **最重要！**      - Norepinephrine 0.05-0.3 mcg/kg/min (first-line) - 目標 MAP $\geq$ 65 mmHg
+4. **Source control** - 移除感染源
+5. **測量 Lactate** - 追蹤 clearance
+
+
+**監測目標：**
+
+- MAP $\geq$ 65 mmHg, Lactate clearance $\geq$ 10
+- 尿量 > 0.5 mL/kg/hr, Mental status 改善
+
+
+frame
+
+
+### Case 3: Hypovolemic Shock
+
+
+frame{Case 3: Hypovolemic Shock - 臨床表現}
+**病人資訊：** 72歲男性
+
+**主訴：** 解黑便3天，暈眩
+
+**病史：**
+
+- 長期服用 NSAIDs (膝關節炎)
+- 血壓 88/55 mmHg (平常 135/80)
+- 心跳 118 bpm, 呼吸 24/min
+- 姿勢性低血壓 (+)
+
+
+**理學檢查：**
+
+- 皮膚冰冷、蒼白、濕冷
+- Capillary refill time > 3 秒
+- 頸靜脈平坦 (JVP 降低)
+- 肺部清晰，心音正常
+- 腹部柔軟
+- 尿量 < 0.3 mL/kg/hr
+
+
+frame
+
+frame{Case 3: 血流動力學數據}
+columns
+0.5\textwidth
+**Invasive Monitoring:**
+
+- **CO: 3.8 L/min** $\Downarrow$
+- **CI: 2.1 L/min/m$^2$** $\Downarrow$
+- **SVR: 1650 dyne$\cdot$s/cm$^5$** $\Uparrow\Uparrow$
+- **CVP: 2 mmHg** $\Downarrow\Downarrow$
+- **PAOP: 5 mmHg** $\Downarrow\Downarrow$
+- **SvO$_2$: 58
+
+
+0.5\textwidth
+**Laboratory:**
+
+- Hb: 7.2 g/dL $\Downarrow\Downarrow$
+- Hct: 22
+- Lactate: 3.8 mmol/L $\Uparrow$
+- BUN/Cr: 48/1.5 (ratio 32) $\Uparrow$
+- Albumin: 2.8 g/dL
+
+
+**Echo:**
+
+- Hyperdynamic but small LV cavity
+- LVEF: 65
+- IVC < 1.5 cm, collapsing
+
+
+columns
+frame
+
+frame{Case 3: 診斷分析}
+block{典型 Hypovolemic Shock 特徵}
+
+1. **低充填壓** (CVP 2, PCWP 5) - 血容量不足的直接證據
+2. **低心輸出量** (CI 2.1) - 前負荷不足影響 CO
+3. **高 SVR** (1650) - 代償性血管收縮維持血壓
+4. **低 SvO$_2$** (58
+5. **IVC collapsing** - 容積反應性佳
+
+
+block
+
+alertblock{與 Cardiogenic Shock 的鑑別}
+table
+
+\scriptsize
+
+|  | **Hypovolemic** | **Cardiogenic** |
+| --- | --- | --- |
+| CVP/PCWP | $\Downarrow\Downarrow$ | $\Uparrow\Uparrow$ |
+| CO/CI | $\Downarrow$ | $\Downarrow\Downarrow$ |
+| SVR | $\Uparrow\Uparrow$ | $\Uparrow\Uparrow$ |
+| Fluid Response | Excellent | Poor/Worse |
+
+
+**Key: 低充填壓 + fluid responsive 是診斷要點**
+alertblock
+frame
+
+frame{Case 3: 治療策略}
+**立即處置：**
+
+1. **積極輸液復甦**      - Crystalloid bolus: 500-1000 mL rapid infusion - 評估反應：CVP, BP, UOP, Lactate - 目標 CVP 8-12 mmHg
+2. **輸血**      - pRBC transfusion (Hb < 7 + shock) - 目標 Hb > 7-8 g/dL
+3. **止血**      - 安排緊急內視鏡檢查 - PPI infusion - 考慮 tranexamic acid
+4. **Vasopressor** (若需要)      - 只在充分輸液後仍低血壓時考慮 - Norepinephrine low dose
+
+
+frame
+
+frame{Case 3: 追蹤與結果}
+**治療後 2 小時：**
+
+columns
+0.5\textwidth
+**血流動力學改善：**
+
+- CO: 5.2 L/min (**$\Uparrow$**)
+- CI: 2.9 L/min/m$^2$ (**$\Uparrow$**)
+- CVP: 9 mmHg (**$\Uparrow$**)
+- PCWP: 11 mmHg (**$\Uparrow$**)
+- SVR: 1200 (**$\Downarrow$**)
+- SvO$_2$: 68
+
+
+0.5\textwidth
+**臨床改善：**
+
+- BP: 110/70 mmHg
+- HR: 92 bpm
+- 皮膚溫暖，perfusion 改善
+- 尿量恢復 > 0.5 mL/kg/hr
+- Lactate: 2.1 mmol/L (**$\Downarrow$**)
+
+
+columns
+
+
+alertblock{Key Learning}
+Hypovolemic shock 對液體治療反應良好，是最容易治療的休克類型。**早期識別與充分復甦**是成功關鍵。
+alertblock
+frame
+
+
+### Case 4: Mixed - Hypovolemic + Cardiogenic
+
+
+frame{Case 4: Hypovolemic + Cardiogenic - 臨床表現}
+**病人資訊：** 78歲女性
+
+**主訴：** 腹瀉、嘔吐3天後呼吸困難
+
+**病史：**
+
+- 慢性心衰竭 (LVEF 30
+- 急性腸胃炎導致脫水
+- 血壓 82/50 mmHg
+- 心跳 108 bpm, 呼吸 26/min
+
+
+**理學檢查：**
+
+- 皮膚乾燥、turgor 差 (脫水徵象)
+- JVP 難評估 (低血容 vs 心衰？)
+- 雙側肺底囉音
+- 水腫 (+) - 原本就有
+- 尿量 < 0.4 mL/kg/hr
+
+
+frame
+
+frame{Case 4: 血流動力學數據}
+columns
+0.5\textwidth
+**Invasive Monitoring:**
+
+- **CO: 3.0 L/min** $\Downarrow\Downarrow$
+- **CI: 1.7 L/min/m$^2$** $\Downarrow\Downarrow$
+- **SVR: 1900 dyne$\cdot$s/cm$^5$** $\Uparrow\Uparrow$
+- **CVP: 8 mmHg** (正常偏低)
+- **PAOP: 16 mmHg** (中等)
+- **SvO$_2$: 48
+
+
+0.5\textwidth
+**Laboratory:**
+
+- Lactate: 4.2 mmol/L $\Uparrow$
+- BUN/Cr: 52/2.0 (ratio 26)
+- Na: 148 mEq/L $\Uparrow$
+- BNP: 850 pg/mL $\Uparrow$
+
+
+**Echo:**
+
+- LVEF: 28
+- Small LV cavity
+- IVC 1.2 cm, 呼吸變異大
+
+
+columns
+
+
+****診斷困境：****充填壓數值在灰色地帶！
+frame
+
+frame{Case 4: 診斷分析}
+block{Mixed Shock 的血流動力學特徵}
+
+- **極低 CO/CI** (1.7) - 心臟功能本身就差
+- **PCWP 16 mmHg** - 對正常人是高的，但對心衰病人？
+- **CVP 8 mmHg** - 不算高也不算低
+- **IVC 變異大** - 提示 fluid responsive
+- **極低 SvO$_2$** (48
+
+
+block
+
+alertblock{臨床推理}
+**這個病人兼具兩種問題：**
+
+1. **慢性心臟衰竭** - 基礎 pump failure
+2. **急性脫水** - 使原本就差的心臟更沒有前負荷
+
+
+****治療策略需要平衡：****
+
+- 給太多水 $\rightarrow$ 肺水腫惡化
+- 給太少水 $\rightarrow$ CO 更低
+- 需要 **謹慎試驗性輸液** + **密切監測**
+
+
+alertblock
+frame
+
+frame{Case 4: 治療策略}
+**分階段處理：**
+
+**Phase 1: 謹慎輸液挑戰**
+
+- Crystalloid 250 mL over 15 min
+- 評估：CO, PCWP, 肺部聽診
+- 若 CO $\Uparrow$ 且 PCWP < 18 $\rightarrow$ 再給 250 mL
+- 若 PCWP $\Uparrow$ 或肺囉音惡化 $\rightarrow$ 停止輸液
+
+
+**Phase 2: Inotropic Support**
+
+- Dobutamine 3-5 mcg/kg/min
+- 目標：CI > 2.0, PCWP 15-18
+
+
+**Phase 3: 微調**
+
+- 若 BP 仍低：加 Norepinephrine
+- 若 PCWP > 18：小劑量 Furosemide
+- 持續監測 SvO$_2$ 與 Lactate
+
+
+frame
+
+frame{Case 4: 追蹤與結果}
+**治療 4 小時後：**
+
+columns
+0.5\textwidth
+**最終血流動力學：**
+
+- CO: 4.2 L/min (**$\Uparrow$**)
+- CI: 2.4 L/min/m$^2$ (**$\Uparrow$**)
+- CVP: 11 mmHg
+- PCWP: 17 mmHg
+- SVR: 1450 (**$\Downarrow$**)
+- SvO$_2$: 62
+
+
+0.5\textwidth
+**處置摘要：**
+
+- 總輸液：750 mL
+- Dobutamine 5 mcg/kg/min
+- 無需 vasopressor
+- Lactate: 2.3 mmol/L
+
+
+columns
+
+
+exampleblock{Key Learning Points}
+
+1. Mixed shock 需要個別化治療策略
+2. 不能只看單一數值 (如 PCWP)，要看整體 trend
+3. Fluid challenge 要謹慎且分次給予
+4. **密切監測**是成功的關鍵
+
+
+exampleblock
+frame
+
+
+### Case 5: Septic + Cardiogenic
+
+
+frame{Case 5: Septic + Cardiogenic - 臨床表現}
+**病人資訊：** 68歲男性
+
+**主訴：** 發燒、呼吸困難3天
+
+**病史：**
+
+- 冠心病病史 (LVEF 35
+- 社區型肺炎 (chest X-ray confirmed)
+- 血壓 75/48 mmHg (即使 3L fluid)
+- 心跳 128 bpm, 體溫 38.8$^\circ$C
+
+
+**理學檢查：**
+
+- 皮膚溫暖但末梢發紺
+- JVP 升高
+- 右肺囉音 (肺炎) + 雙側肺底囉音 (肺水腫)
+- S3 gallop
+- 意識躁動 (GCS 14)
+
+
+frame
+
+frame{Case 5: 血流動力學數據}
+columns
+0.5\textwidth
+**Invasive Monitoring:**
+
+- **CO: 3.5 L/min** $\Downarrow$
+- **CI: 1.9 L/min/m$^2$** $\Downarrow$
+- **SVR: 750 dyne$\cdot$s/cm$^5$** $\Downarrow$
+- **CVP: 16 mmHg** $\Uparrow$
+- **PAOP: 22 mmHg** $\Uparrow$
+- **SvO$_2$: 68
+
+
+0.5\textwidth
+**Laboratory:**
+
+- Lactate: 6.5 mmol/L $\Uparrow\Uparrow$
+- WBC: 18,500 (左移)
+- Procalcitonin: 8.2 ng/mL
+- Troponin-I: 0.8 ng/mL $\Uparrow$
+- BNP: 1100 pg/mL $\Uparrow$
+- S/C: S. pneumoniae
+
+
+**Echo:**
+
+- LVEF: 30
+- Global hypokinesia
+
+
+columns
+frame
+
+frame{Case 5: 診斷分析 - 最複雜的組合}
+block{Septic + Cardiogenic 的混合表現}
+**來自 Septic Shock 的特徵：**
+
+- 低 SVR (750) - 敗血症的血管擴張
+- SvO$_2$ 正常偏高 (68
+- 極高 Lactate (6.5) - 細胞代謝異常
+
+
+**來自 Cardiogenic Shock 的特徵：**
+
+- 低 CO/CI (1.9) - 心臟收縮力下降
+- 高 CVP (16) 與 PCWP (22) - 心衰竭
+- S3 gallop, 肺水腫
+
+
+block
+
+alertblock{病理生理機轉}
+
+1. Sepsis 導致 systemic inflammation + myocardial depression
+2. 原本心臟功能就差，更無法代償
+3. 血管擴張 + 低 CO = 災難性低血壓
+4. 需要同時處理 **感染**、**血管張力** 和 **心臟功能**
+
+
+alertblock
+frame
+
+frame{Case 5: 治療策略 - 三管齊下}
+**多重治療目標：**
+
+
+1. **抗生素治療** (最優先！)      - Ceftriaxone + Azithromycin (CAP 治療) - Within 1 hour
+2. **Vasopressor** - 恢復血管張力      - Norepinephrine 0.1-0.3 mcg/kg/min - 目標 MAP $\geq$ 65 mmHg
+3. **Inotropic Support** - 改善心臟功能      - Dobutamine 3-7 mcg/kg/min - 目標 CI > 2.0
+4. **謹慎利尿** - 降低 PCWP      - Small dose Furosemide (20-40 mg) - 避免過度利尿降低前負荷
+
+
+frame
+
+frame{Case 5: 治療的挑戰與平衡}
+alertblock{治療困境}
+這個病人面臨多重矛盾：
+
+- **低 SVR** 需要 vasopressor，但會增加 afterload
+- **低 CO** 需要 inotrope，但會增加心肌耗氧
+- **高 PCWP** 想利尿，但前負荷已經不足以維持 CO
+
+
+alertblock
+
+**解決策略：**
+
+1. **優先順序：**先穩定血壓 (NE) $\rightarrow$ 再改善 CO (Dobutamine)
+2. **劑量平衡：**都用**適中劑量**，避免單一藥物過量
+3. **持續評估：**每1-2小時重新評估血流動力學
+4. **目標務實：**不追求正常值，接受 CI 2.0-2.5 即可
+
+
+****重點：****治療 sepsis-induced cardiomyopathy 需要**時間**與**耐心**
+frame
+
+frame{Case 5: 追蹤與結果}
+**治療 24 小時後：**
+
+columns
+0.5\textwidth
+**血流動力學改善：**
+
+- CO: 4.8 L/min (**$\Uparrow$**)
+- CI: 2.6 L/min/m$^2$ (**$\Uparrow$**)
+- SVR: 950 (**$\Uparrow$**)
+- CVP: 12 mmHg (**$\Downarrow$**)
+- PCWP: 16 mmHg (**$\Downarrow$**)
+- SvO$_2$: 65
+
+
+0.5\textwidth
+**臨床改善：**
+
+- BP: 105/65 (on low NE)
+- 體溫降至 37.8$^\circ$C
+- 意識清楚
+- 肺囉音減少
+- Lactate: 2.8 (**$\Downarrow$**)
+
+
+**藥物：**
+
+- NE: 0.08 mcg/kg/min
+- Dobutamine: 5 mcg/kg/min
+
+
+columns
+
+
+exampleblock{Prognosis}
+隨著感染控制，myocardial function 逐漸恢復。預計 3-7 天可脫離 inotropic support。
+exampleblock
+frame
+
+
+### Case 6: Pulmonary Embolism (Obstructive Shock)
+
+
+frame{Case 6: Pulmonary Embolism - 臨床表現}
+**病人資訊：** 55歲女性
+
+**主訴：** 突發性呼吸困難、胸悶 2 小時
+
+**病史：**
+
+- 5 天前接受右膝關節置換手術
+- 今晨下床活動後突發喘、胸悶
+- 血壓 78/52 mmHg
+- 心跳 125 bpm, 呼吸 32/min, SpO$_2$ 82
+
+
+**理學檢查：**
+
+- 冷汗、焦躁不安、發紺
+- 頸靜脈明顯怒張 (JVP 顯著升高)
+- 肺部清晰 (無囉音)
+- 心音：P2 亢進，右心 S3/S4
+- 右下肢輕度腫脹
+- 尿量 < 0.3 mL/kg/hr
+
+
+frame
+
+frame{Case 6: 血流動力學數據}
+columns
+0.5\textwidth
+**Invasive Monitoring:**
+
+- **CO: 2.8 L/min** $\Downarrow\Downarrow$
+- **CI: 1.6 L/min/m$^2$** $\Downarrow\Downarrow$
+- **SVR: 2100 dyne$\cdot$s/cm$^5$** $\Uparrow\Uparrow$
+- **CVP/RAP: 18 mmHg** $\Uparrow\Uparrow$
+- **PAOP: 8 mmHg** (正常偏低)
+- **SvO$_2$: 45
+- **mPAP: 42 mmHg** $\Uparrow\Uparrow$
+
+
+0.5\textwidth
+**Laboratory:**
+
+- Lactate: 5.8 mmol/L $\Uparrow\Uparrow$
+- D-dimer: 8500 ng/mL $\Uparrow\Uparrow$
+- Troponin-I: 1.2 ng/mL $\Uparrow$
+- BNP: 850 pg/mL $\Uparrow$
+- ABG: pH 7.28, PaO$_2$ 52 mmHg
+
+
+**Echo:**
+
+- RV 明顯擴大 (RV/LV > 1.0)
+- RV hypokinesia (McConnell's sign)
+- D-shaped LV (septal flattening)
+- TAPSE: 12 mm $\Downarrow$
+- TR with RVSP 65 mmHg
+
+
+columns
+frame
+
+frame{Case 6: 診斷分析}
+block{典型 Obstructive Shock (Massive PE) 特徵}
+
+1. **極低 CO/CI** (1.6) - 肺動脈阻塞導致 RV failure
+2. **極高 CVP** (18) + **正常/低 PCWP** (8) - 這是關鍵！
+3. **高 SVR** (2100) - 代償性血管收縮
+4. **極低 SvO$_2$** (45
+5. **RV dysfunction on Echo** - McConnell's sign, D-shaped LV
+
+
+block
+
+alertblock{病理生理機轉}
+**Obstructive Shock 的獨特性：**
+
+- 肺動脈血栓阻塞 $\rightarrow$ RV afterload 急遽上升
+- RV 急性擴張衰竭 $\rightarrow$ 無法將血液送至 LV
+- LV preload 不足 $\rightarrow$ CO 急遽下降
+- **CVP 高 + PCWP 正常/低** 是與 cardiogenic shock 最大差異
+
+
+alertblock
+frame
+
+frame{Case 6: 與其他休克的鑑別}
+table
+
+\scriptsize
+
+| **Parameter** | **PE (Obstructive)** | **Cardiogenic** | **RV Infarct** |
+| --- | --- | --- | --- |
+| CO/CI | $\Downarrow\Downarrow$ | $\Downarrow\Downarrow$ | $\Downarrow\Downarrow$ |
+| SVR | $\Uparrow\Uparrow$ | $\Uparrow\Uparrow$ | $\Uparrow\Uparrow$ |
+| **CVP/RAP** | **$\Uparrow\Uparrow$** | $\Uparrow$ | **$\Uparrow\Uparrow$** |
+| **PCWP** | **N/$\Downarrow$** | **$\Uparrow\Uparrow$** | **N/$\Downarrow$** |
+| mPAP | $\Uparrow\Uparrow$ | Variable | N/$\Downarrow$ |
+| Echo RV | Dilated, D-sign | Variable | Dilated, Infarct |
+
+
+alertblock{診斷要點}
+**CVP/RAP 與 PCWP 的分離現象：**
+
+- PE: CVP $\Uparrow\Uparrow$, PCWP 正常/低 $\rightarrow$ **CVP-PCWP gradient 增大**
+- Cardiogenic (LV failure): CVP $\Uparrow$, PCWP $\Uparrow\Uparrow$
+- 這個 gradient 對診斷 obstructive shock 非常重要！
+
+
+alertblock
+frame
+
+frame{Case 6: 治療策略 - 時間就是生命}
+**立即處置 (High-risk/Massive PE):**
+
+
+1. **氧氣與呼吸支持**      - High-flow O$_2$, 準備 intubation - 注意：正壓呼吸可能惡化血流動力學
+2. **Vasopressor 支持**      - Norepinephrine 0.1-0.5 mcg/kg/min - 目標 MAP $\geq$ 65 mmHg - 維持冠狀動脈灌流壓 (RV 也需要！)
+3. **再灌流治療** - **最重要！**      - **Systemic thrombolysis**: Alteplase 100 mg over 2 hrs - 或 **Catheter-directed therapy** - 或 **Surgical embolectomy**
+4. **謹慎輸液**      - 小量 (250-500 mL) 試驗，避免過度 - 過多液體會使 RV 更擴張，壓迫 LV
+
+
+frame
+
+frame{Case 6: 治療的關鍵考量}
+alertblock{輸液的兩難}
+**為什麼 PE 不能大量輸液？**
+
+- RV 已經過度擴張、壓力過高
+- 更多液體 $\rightarrow$ RV 更擴張 $\rightarrow$ 心室間隔更左偏
+- LV 被壓迫 $\rightarrow$ CO 更低 (paradoxical worsening)
+- **與 hypovolemic shock 處理完全相反！**
+
+
+alertblock
+
+**Inotrope 的角色：**
+
+- Dobutamine 可考慮 (改善 RV contractility)
+- 但效果有限，因為問題是 afterload 而非 contractility
+- **根本治療是移除血栓！**
+
+
+exampleblock{記憶口訣}
+**PE 休克處理原則：**「壓住血壓、溶掉血栓、小心輸液」
+exampleblock
+frame
+
+frame{Case 6: 追蹤與結果}
+**Thrombolysis 後 6 小時：**
+
+columns
+0.5\textwidth
+**血流動力學改善：**
+
+- CO: 4.5 L/min (**$\Uparrow$**)
+- CI: 2.5 L/min/m$^2$ (**$\Uparrow$**)
+- CVP: 10 mmHg (**$\Downarrow$**)
+- PCWP: 12 mmHg
+- SVR: 1350 (**$\Downarrow$**)
+- SvO$_2$: 62
+- mPAP: 28 mmHg (**$\Downarrow$**)
+
+
+0.5\textwidth
+**臨床改善：**
+
+- BP: 105/68 (weaning NE)
+- HR: 98 bpm
+- SpO$_2$: 94
+- 意識清楚，不再躁動
+- 尿量恢復 > 0.5 mL/kg/hr
+- Lactate: 2.2 mmol/L (**$\Downarrow$**)
+
+
+**Echo 改善：**
+
+- RV size 減小
+- TAPSE: 16 mm
+
+
+columns
+
+
+exampleblock{Key Learning}
+Massive PE 的存活關鍵在於**早期診斷**與**即時再灌流治療**。血流動力學監測幫助我們識別這種獨特的 obstructive shock pattern。
+exampleblock
+frame
+
+
+## Summary
+
+
+frame{六個案例的血流動力學比較}
+table
+
+| **Parameter** | **Cardiogenic** | **Septic** | **Hypovolemic** | **Hypo+Cardio** | **Septic+Cardio** | **PE** |
+| --- | --- | --- | --- | --- | --- | --- |
+| **CO/CI** | $\Downarrow\Downarrow$ (1.8) | $\Uparrow\Uparrow$ (4.8) | $\Downarrow$ (2.1) | $\Downarrow\Downarrow$ (1.7) | $\Downarrow$ (1.9) | $\Downarrow\Downarrow$ (1.6) |
+| **SVR** | $\Uparrow\Uparrow$ (1850) | $\Downarrow\Downarrow$ (450) | $\Uparrow\Uparrow$ (1650) | $\Uparrow\Uparrow$ (1900) | $\Downarrow$ (750) | $\Uparrow\Uparrow$ (2100) |
+| **CVP** | $\Uparrow$ (14) | N (6) | $\Downarrow\Downarrow$ (2) | N-low (8) | $\Uparrow$ (16) | $\Uparrow\Uparrow$ (18) |
+| **PCWP** | $\Uparrow\Uparrow$ (24) | N (10) | $\Downarrow\Downarrow$ (5) | Mid (16) | $\Uparrow$ (22) | **N (8)** |
+| **SvO$_2$** | $\Downarrow\Downarrow$ (52 | $\Uparrow$ (78 | $\Downarrow$ (58 | $\Downarrow\Downarrow$ (48 | N-high (68 | $\Downarrow\Downarrow$ (45 |
+| **Lactate** | $\Uparrow$ (4.5) | $\Uparrow\Uparrow$ (5.2) | $\Uparrow$ (3.8) | $\Uparrow$ (4.2) | $\Uparrow\Uparrow$ (6.5) | $\Uparrow\Uparrow$ (5.8) |
+| **主要問題** | LV failure | Vasoplegia | Volume loss | Both | Both | RV obstruction |
+| **首要治療** | Inotrope+PCI | Vasopressor | Fluid+Blood | Cautious fluid | NE+Dobutamine | **Thrombolysis** |
+|  |  | +Antibiotics |  | +Inotrope | +Antibiotics | +Vasopressor |
+
+
+**Pattern Recognition 要點：**
+
+- **PE 的特徵：CVP 高 + PCWP 正常/低 (CVP-PCWP gradient 增大)**
+- **SVR 是區分 distributive vs. other shock 的關鍵**
+- **Filling pressure 幫助區分不同機轉**
+
+
+frame
+
+frame{實務臨床決策流程}
+tikzpicture[node distance=1.3cm, auto, scale=0.9, transform shape]
+  \node [rectangle, draw, text width=2.5cm, text centered] (start) {Shock patient};
+  \node [rectangle, draw, below of=start, text width=2.5cm, text centered] (assess) {初步評估
+臨床表現};
+  \node [rectangle, draw, below of=assess, text width=3cm, text centered] (hemo) {血流動力學監測
+CO, SVR, CVP, PCWP};
+  \node [diamond, draw, below of=hemo, text width=2cm, text centered, aspect=2] (svr) {SVR?};
+  \node [rectangle, draw, left of=svr, node distance=3.5cm, text width=2.2cm, font=] (high) {高 SVR
+Cardio/Hypo/PE};
+  \node [rectangle, draw, right of=svr, node distance=3.5cm, text width=2.2cm, font=] (low) {低 SVR
+Septic/Distributive};
+  \node [diamond, draw, below of=high, text width=2cm, text centered, aspect=2, font=] (filling) {CVP vs
+PCWP?};
+  \node [rectangle, draw, below left of=filling, node distance=2.2cm, text width=2cm, font=] (pe) {CVP高/PCWP低
+$\rightarrow$ PE};
+  \node [rectangle, draw, below right of=filling, node distance=2.2cm, text width=2cm, font=] (cardio) {兩者皆高
+$\rightarrow$ Cardiogenic};
+  
+  \draw [->] (start) -- (assess);
+  \draw [->] (assess) -- (hemo);
+  \draw [->] (hemo) -- (svr);
+  \draw [->] (svr) -- node[above] {High} (high);
+  \draw [->] (svr) -- node[above] {Low} (low);
+  \draw [->] (high) -- (filling);
+  \draw [->] (filling) -- (pe);
+  \draw [->] (filling) -- (cardio);
+tikzpicture
+
+frame
+
+frame{臨床照護要點}
+**對住院醫師：**
+
+1. 學會判讀血流動力學參數組合，而非單一數值
+2. 了解不同休克類型的病理生理機轉
+3. 掌握各類休克的首選治療與禁忌
+4. **PE 要記住：CVP-PCWP gradient 增大是關鍵**
+5. 混合型休克需要更細緻的個別化策略
+
+
+**對護理師：**
+
+1. 密切監測生命徵象與血流動力學參數變化
+2. 注意藥物反應與副作用 (特別是 inotrope/vasopressor)
+3. 準確記錄液體進出量
+4. 評估組織灌流指標 (皮膚溫度、尿量、意識)
+5. **PE 病人要特別注意：突發呼吸困難、SpO$_2$ 下降、JVP 升高**
+6. 及時通報異常變化給醫師
+
+
+frame
+
+frame{Take-Home Messages}
+block{核心概念}
+
+1. **血流動力學監測**是診斷與治療休克的基石
+2. **整合多項參數**才能正確判斷休克類型
+3. **SVR 與 Filling Pressure**是最重要的鑑別點
+4. **CVP-PCWP gradient**幫助識別 obstructive shock (PE)
+5. **Mixed shock**在臨床很常見，需要平衡多重治療目標
+6. **持續監測與調整**是成功的關鍵
+
+
+block
+
+alertblock{最重要的一句話}
+
+**Treat the patient, not the numbers!**
+  
+
+但要用 numbers 來 guide 你的 treatment！
+alertblock
+frame
+
+frame{參考文獻}
+1. Vincent JL, De Backer D. Circulatory shock. N Engl J Med 2013;369:1726-34.
+2. Ponikowski P, et al. 2016 ESC Guidelines for Heart Failure. Eur Heart J 2016;37:2129-200.
+3. Evans L, et al. Surviving Sepsis Campaign: International Guidelines 2021. Crit Care Med 2021;49:e1063-143.
+4. Thiele H, et al. Management of cardiogenic shock. Eur Heart J 2015;36:1223-30.
+5. Cecconi M, et al. Consensus on circulatory shock and hemodynamic monitoring. Intensive Care Med 2014;40:1795-815.
+6. **Konstantinides SV, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J 2020;41:543-603.**
+
+
+frame
+
+frame[plain]
+**Thank You!**
+
+
+Questions & Discussion
+
+
+Drake
+NTUH Hsinchu Branch
+Cardiovascular Center
+`drake@cardiovascular.tw`
+
+frame

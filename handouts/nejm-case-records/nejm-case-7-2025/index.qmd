@@ -1,0 +1,582 @@
+---
+title: "Case 7-2025: A 65-Year-Old Woman with Weakness, Back Pain, and Pancytopenia"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**Case 7-2025: A 65-Year-Old Woman with Weakness, Back Pain, and Pancytopenia**}
+[0.5cm]
+{**病例 7-2025：一位65歲女性，主訴虛弱、背痛與全血球減少**}
+[0.3cm]
+{N Engl J Med 2025;392:903-14   DOI: 10.1056/NEJMcpc2412515}
+[0.3cm]
+{February 27, 2025}
+
+
+## 病例呈現 (Case Presentation)
+
+
+### Chief Complaint 主訴
+
+A 65-year-old woman was transferred to this hospital for evaluation of **pancytopenia and back pain**.
+
+一位65歲女性因評估**全血球減少和背痛**而轉入本院。
+
+
+### History of Present Illness 現病史
+
+
+importantbox
+**Key Timeline 關鍵時間線：**
+
+- 3 weeks ago: Midline cervical, thoracic, and lumbar back pain after rolling a patient (home health aide) 工作時翻動病人後出現中線頸椎、胸椎和腰椎疼痛
+- Treated with prednisone, tramadol, cyclobenzaprine; pain persisted 使用prednisone、tramadol、cyclobenzaprine治療；疼痛持續
+- Spine radiographs: Diffuse osteopenia, degenerative disk disease, no acute fracture 脊椎X光：瀰漫性骨質疏鬆、退化性椎間盤疾病，無急性骨折
+- 4 days ago: Found lying on floor at home, immobile from back pain; transported to another hospital 被發現躺在家中地板上，因背痛無法移動
+- Lab findings: Platelet 14,000, Hgb 8.9, WBC 5,100; schistocytes reported on smear 實驗室：血小板14,000，血紅素8.9，白血球5,100；抹片見裂紅細胞
+- Transferred to MGH for evaluation of suspected TTP 轉至MGH評估疑似TTP
+
+
+importantbox
+
+At this hospital, the patient reported **diarrhea, epigastric abdominal pain, profound fatigue, persistent spinal pain, night sweats, and cough** during the preceding month. She noted an **unintentional weight loss of approximately 9 kg** during the past 6 weeks. No leg weakness, saddle anesthesia, or fecal incontinence.
+
+在本院，病人報告過去一個月有**腹瀉、上腹痛、極度疲倦、持續脊椎疼痛、夜間盜汗和咳嗽**。她注意到過去6週**非預期體重減輕約9公斤**。無下肢無力、馬鞍區感覺異常或大便失禁。
+
+
+### Past Medical History 過去病史
+
+
+- Primary hypothyroidism 原發性甲狀腺功能低下
+- Type 2 diabetes mellitus 第2型糖尿病
+- Migraines 偏頭痛
+- Intraductal papillary mucinous neoplasm (IPMN) of pancreas 胰臟導管內乳突狀黏液性腫瘤
+- Complicated diverticulitis s/p sigmoid colectomy and partial small-bowel resection 複雜性憩室炎，術後乙狀結腸切除及部分小腸切除
+- Remote hysterectomy and cholecystectomy 既往子宮切除及膽囊切除
+
+
+### Social History 社會史
+
+
+- Occupation: Home health aide 職業：居家照護員
+- **Smoking: 2 packs per day × 40 years = 80 pack-years** (quit 3 years ago) **吸菸：每天2包×40年=80包年**（3年前戒菸）
+- No alcohol or recreational drug use 無飲酒或娛樂性藥物使用
+
+
+### Family History 家族史
+
+
+- Mother: Breast cancer at age 70 母親：70歲乳癌
+- Niece: Colorectal cancer at age 40 姪女：40歲大腸直腸癌
+
+
+### Physical Examination 身體檢查
+
+
+- Temperature: 36.2°C
+- Heart rate: 89 beats per minute
+- Blood pressure: 167/71 mm Hg
+- Respiratory rate: 16 breaths per minute
+- Oxygen saturation: 95
+- General: Appeared **pale and tired** 外觀**蒼白疲倦**
+- Abdomen: Tenderness on deep palpation of epigastrium; Murphy's sign absent 上腹深壓痛；乜乙氏徵陰性
+- Skin: No ecchymoses or petechiae 無瘀斑或瘀點
+
+
+### Laboratory Data 實驗室數據
+
+
+| p{4.5cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{2.5cm} >{\arraybackslash}p{5cm}}  **Test    檢驗項目** | **Result    結果** | **Reference    參考值** | **Clinical Significance    臨床意義** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Complete Blood Count 全血球計數** |  |  |  |  |  |
+| Platelet count | **10,000**/μL | 150,000--450,000 | **Severe thrombocytopenia**    嚴重血小板減少 |  |  |
+| Hemoglobin | **7.5** g/dL | 12.0--16.0 | **Severe anemia**    嚴重貧血 |  |  |
+| White-cell count | **2,860**/μL | 4,500--11,000 | **Leukopenia**    白血球減少 |  |  |
+| Reticulocyte count | 1.9 | 0.7--2.5 | Inappropriately normal (hypoproliferative)    不適當正常（增生不良） |  |  |
+| **Manual Differential 人工分類** |  |  |  |  |  |
+| Nucleated RBCs | **9.4 | 0 | **Leukoerythroblastosis**    白血球紅血球母細胞症 |  |  |
+| Plasma cells | **1.0 | 0 | Abnormal    異常 |  |  |
+| Metamyelocytes | **1.0 | 0 | Immature granulocytes (left shift)    不成熟顆粒球（左移） |  |  |
+| **Chemistry 生化** |  |  |  |  |  |
+| LDH | **>2,500** U/L | 110--210 | **Markedly elevated** (>10× ULN)    **顯著升高** |  |  |
+| Ferritin | **24,325** μg/L | 10--200 | **Markedly elevated** (inflammation, malignancy)    **顯著升高** |  |  |
+| Haptoglobin | 91 mg/dL | 30--200 | Normal (argues against hemolysis)    正常（不支持溶血） |  |  |
+| AST | 102 U/L | 9--32 | Elevated    升高 |  |  |
+| ALT | 64 U/L | 7--33 | Elevated    升高 |  |  |
+| Alkaline phosphatase | 308 U/L | 45--115 | Elevated (bone/liver involvement)    升高（骨骼/肝臟受累） |  |  |
+| Lipase | **>3,000** U/L | 13--60 | **Markedly elevated** (pancreatitis)    **顯著升高**（胰臟炎） |  |  |
+| PT/INR | 15.7 sec / 1.3 | 9.1--12.1 / 0.9--1.2 | Mildly prolonged    輕度延長 |  |  |
+| Bilirubin | Normal | -- | Argues against hemolysis    不支持溶血 |  |  |
+| Direct Coombs | Negative | -- | Not autoimmune hemolysis    非自體免疫溶血 |  |  |
+
+
+importantbox
+**Critical Finding 關鍵發現**: The combination of **pancytopenia + nucleated RBCs + immature granulocytes** on peripheral smear = **Leukoerythroblastosis**, which is the hallmark of **myelophthisis** (bone marrow infiltration).  
+
+**全血球減少 + 有核紅血球 + 不成熟顆粒球**的組合 = **白血球紅血球母細胞症**，這是**骨髓癆**（骨髓浸潤）的標誌。
+importantbox
+
+
+### Peripheral Blood Smear 周邊血液抹片
+
+
+**At outside hospital:** Schistocytes reported → prompted transfer for TTP evaluation
+
+**At this hospital:**
+
+- Basophilic stippling 嗜鹼性點彩
+- Hypolobated neutrophils with prominent granules 分葉不足的中性球伴明顯顆粒
+- Thrombocytopenia with occasional large platelets 血小板減少伴偶見大血小板
+- **No blasts or schistocytes seen** **未見芽細胞或裂紅細胞**
+
+
+The absence of schistocytes on repeat smear at this hospital argues against TTP. The leukoerythroblastic picture points toward bone marrow infiltration rather than thrombotic microangiopathy.  
+ 在本院重複抹片未見裂紅細胞，不支持TTP。白血球紅血球母細胞症的表現指向骨髓浸潤而非血栓性微血管病變。
+
+
+### Imaging Studies 影像學檢查
+
+
+**CT Chest:**
+
+- **11 mm lobulated solid nodule** at infrahilar area of right middle lobe 右中葉肺門下區**11mm分葉狀實質結節**
+- **Mediastinal, hilar, and supraclavicular lymphadenopathy** (up to 26 mm) **縱隔、肺門和鎖骨上淋巴結腫大**
+- Focal nodular interlobular septal thickening in right upper lobe (lymphangitic spread vs infection vs sarcoidosis) 右上葉局灶性結節狀小葉間隔增厚
+
+
+**CT Abdomen/Pelvis:**
+
+- Subcentimeter hypodense lesion on pancreatic head (unchanged IPMN) 胰臟頭部亞公分低密度病灶（未變化的IPMN）
+- Diffuse hepatic steatosis 瀰漫性肝脂肪變性
+- Focal fat stranding and fluid around pancreatic tail (acute pancreatitis) 胰臟尾部周圍局灶性脂肪紋理和液體（急性胰臟炎）
+
+
+## 醫學英文寫作解析 (Medical English Writing Analysis)
+
+
+| p{5cm} >{\arraybackslash}p{3cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3cm}}  **Original Sentence    原文例句** | **Grammar Structure    文法結構** | **Chinese Translation    中文翻譯** | **Writing Technique    寫作技巧** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| "The term `myelophthisis' comes from the Greek myelo, which means `marrow,' and phthisis, which means `wasting away."' | Etymological explanation with appositive clauses | 「骨髓癆」一詞來自希臘文myelo（意為「骨髓」）和phthisis（意為「消耗」）。 | Etymology provides memorable context for medical terminology    詞源學為醫學術語提供易記的背景 |  |  |
+| "In patients with myelophthisis, the sine qua non finding on a peripheral-blood smear is leukoerythroblastosis." | Latin phrase (sine qua non) as emphatic modifier | 在骨髓癆病人中，周邊血液抹片的必要發現是白血球紅血球母細胞症。 | "Sine qua non" emphasizes the essential, indispensable nature of the finding    強調發現的必要性和不可或缺性 |  |  |
+| "Although some aspects of this patient's case could be explained by TTP, schistocytes were not present..." | Concessive clause ("although") to acknowledge and then refute | 儘管此病人的某些方面可用TTP解釋，但未見裂紅細胞... | Acknowledges initial hypothesis before presenting contradicting evidence    在呈現矛盾證據前先承認初始假設 |  |  |
+| "Given this patient's extensive smoking history, weight loss, night sweats, and pancytopenia, I thought that metastatic lung adenocarcinoma...was the most likely diagnosis." | "Given" + noun phrase for clinical reasoning | 考量此病人廣泛的吸菸史、體重減輕、夜間盜汗和全血球減少，我認為轉移性肺腺癌...是最可能的診斷。 | "Given" introduces evidence supporting clinical reasoning    「考量」引入支持臨床推理的證據 |  |  |
+| "The risk of treatment outweighed even the palliative benefit." | Comparative construction with "even" for emphasis | 治療風險甚至超過姑息治療的益處。 | "Even" emphasizes the severity of the clinical situation    「甚至」強調臨床情況的嚴重性 |  |  |
+
+
+## 鑑別診斷 (Differential Diagnosis)
+
+
+### Approach to Pancytopenia 全血球減少的診斷方法
+
+
+| p{3.5cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{4cm} >{\arraybackslash}p{3.5cm}}  **Category    分類** | **Examples    範例** | **For This Patient    本病例考量** | **Against    不支持證據** |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **Nutritional Deficiencies 營養缺乏** |  |  |  |  |  |
+| Vitamin B12 deficiency    維生素B12缺乏 | Megaloblastic anemia    Risk factors: bowel resection, pancreatic insufficiency | Patient has risk factors (partial small-bowel resection)    病人有風險因素 | **B12** and folate levels normal    B12和葉酸正常 |  |  |
+| Copper deficiency    銅缺乏 | Similar to B12 deficiency    Risk: bowel resection | Risk factor present    有風險因素 | **Copper level normal**    銅正常 |  |  |
+| **Toxins 毒素** |  |  |  |  |  |
+| Medication-induced    藥物誘發 | Chemotherapy, immunosuppressants, antibiotics, antiseizure meds | -- | No culprit medications    無相關藥物 |  |  |
+| Alcohol    酒精 | Direct bone marrow toxicity | -- | No significant alcohol use    無明顯飲酒史 |  |  |
+| **Infections 感染** |  |  |  |  |  |
+| Viral (EBV, CMV, HIV, hepatitis)    病毒感染 | Bone marrow suppression | -- | Extensive viral workup negative    廣泛病毒檢查陰性 |  |  |
+| Tickborne (Anaplasma, Babesia)    蜱傳疾病 | -- | -- | NAAT and serology negative    核酸檢測和血清學陰性 |  |  |
+| **Autoimmune/Autoinflammatory 自體免疫/自體發炎** |  |  |  |  |  |
+| Aplastic anemia    再生不良性貧血 | Immune-mediated bone marrow failure | -- | Too fulminant course    Would not explain elevated LDH, immature cells, pulmonary nodules    病程過於急驟    無法解釋LDH升高等 |  |  |
+| Hemophagocytic lymphohistiocytosis (HLH)    噬血症候群 | Elevated ferritin, cytopenias | **Markedly elevated ferritin**    **鐵蛋白顯著升高** | HLH is often secondary---must look for underlying driver (infection, cancer)    HLH常為繼發性 |  |  |
+| **Thrombotic Microangiopathy 血栓性微血管病變** |  |  |  |  |  |
+| TTP    血栓性血小板減少性紫斑症 | Microangiopathic hemolytic anemia + thrombocytopenia    Schistocytes on smear | Initial smear at OSH showed schistocytes    外院初始抹片見裂紅細胞 | **No schistocytes on repeat smear at MGH**    Normal bilirubin, haptoglobin    Would not explain leukopenia, weight loss, lung nodules    **MGH重複抹片無裂紅細胞** |  |  |
+| Cancer-associated TMA    癌症相關TMA | Tumor microthrombi, erythrocyte shearing | 80 pack-year smoking history    Constitutional symptoms    Lung nodules | More likely explanation than immune TTP    比免疫性TTP更可能 |  |  |
+| **Primary Hematologic Malignancy 原發性血液惡性腫瘤** |  |  |  |  |  |
+| Acute leukemia    急性白血病 | Bone marrow failure from malignant cells | Weight loss, rapid decline | No blasts on smear    Imaging not consistent    抹片無芽細胞 |  |  |
+| Aggressive lymphoma    侵襲性淋巴瘤 | Constitutional symptoms, lymphadenopathy | Lymphadenopathy present    有淋巴結腫大 | Immunohistochemistry later negative for lymphoma markers    免疫組織化學陰性 |  |  |
+| **Myelophthisis (Bone Marrow Infiltration) 骨髓癆** |  |  |  |  |  |
+| **Metastatic carcinoma**    **轉移性癌症** | Lung, breast, gastric, prostate most common    肺、乳房、胃、攝護腺最常見 | **80 pack-year smoking history**    **Weight loss 9 kg**    **Night sweats, bone pain**    **Pulmonary nodules**    **Leukoerythroblastosis**    **Markedly elevated LDH** | None    無 |  |  |
+
+
+importantbox
+**Key Diagnostic Clues to Myelophthisis 骨髓癆的關鍵診斷線索**:
+
+1. **Leukoerythroblastosis** on peripheral smear: Nucleated RBCs + dacrocytes (teardrop cells) + immature myeloid cells + large platelets
+2. Constitutional symptoms: Weight loss, night sweats, fatigue
+3. Elevated LDH (from tumor cell turnover and intramedullary hemolysis)
+4. Bone pain (metastases)
+5. Evidence of primary malignancy (lung nodules + smoking history)
+
+
+importantbox
+
+
+## 討論 (Discussion)
+
+
+### Myelophthisis: Definition and Pathophysiology 骨髓癆：定義與病理生理學
+
+
+**Myelophthisis** = Replacement of normal bone marrow by infiltrating tissue or non-hematopoietic cells
+
+**骨髓癆** = 正常骨髓被浸潤組織或非造血細胞取代
+
+**Causes:**
+
+- Primary myelofibrosis 原發性骨髓纖維化
+- Granulomatous disease 肉芽腫性疾病
+- Lipid-storage disorders 脂質儲存疾病
+- **Metastatic carcinoma** (lung, breast, gastric, prostate most common) **轉移性癌症**
+
+
+**Pathophysiology:**
+
+1. Tumor cells infiltrate bone marrow → replace normal hematopoietic cells 腫瘤細胞浸潤骨髓→取代正常造血細胞
+2. Disruption of bone marrow microenvironment 破壞骨髓微環境
+3. Ineffective erythropoiesis → intramedullary hemolysis 無效紅血球生成→髓內溶血
+4. Premature release of immature cells → **leukoerythroblastosis** 未成熟細胞提早釋放→**白血球紅血球母細胞症**
+5. Extramedullary hematopoiesis in spleen → splenomegaly 脾臟髓外造血→脾腫大
+
+
+### Cancer-Associated Thrombotic Microangiopathy 癌症相關血栓性微血管病變
+
+
+In patients with widespread metastatic disease:
+
+- Tumor cells embolize into small vessels → tumor microthrombi 腫瘤細胞栓塞至小血管→腫瘤微血栓
+- Erythrocyte shearing → schistocytes 紅血球剪切→裂紅細胞
+- Platelet consumption → thrombocytopenia 血小板消耗→血小板減少
+- Fibrin deposition in vessel walls → additional red cell fragmentation 血管壁纖維蛋白沉積→額外紅血球碎裂
+
+
+Cancer-associated TMA differs from TTP: In TTP, ADAMTS13 deficiency leads to uncleaved vWF multimers and platelet aggregation. In cancer-associated TMA, tumor cells directly cause endothelial activation, fibrin deposition, and thrombus formation.  
+ 癌症相關TMA與TTP不同：TTP中，ADAMTS13缺乏導致未切割的vWF多聚體和血小板聚集。在癌症相關TMA中，腫瘤細胞直接導致內皮活化、纖維蛋白沉積和血栓形成。
+
+
+### Small-Cell Lung Cancer (SCLC) 小細胞肺癌
+
+
+- Accounts for 10-15
+- Highly aggressive neuroendocrine cancer 高度侵襲性神經內分泌癌
+- High proliferative index 高增殖指數
+- Most commonly diagnosed as **extensive-stage** (metastatic) disease 最常被診斷為**擴展期**（轉移性）疾病
+- Often presents with bulky lymphadenopathy and distant metastases WITHOUT a dominant primary lung lesion 常表現為大塊淋巴結腫大和遠處轉移，而無明顯的原發肺部病灶
+- **Strong association with smoking** **與吸菸強烈相關**
+
+
+### Bone Marrow Biopsy Findings 骨髓切片發現
+
+
+- Age-adjusted **hypercellular** marrow 年齡調整後**高細胞度**骨髓
+- **80
+- Medium-sized cells with round-to-oval nuclei, speckled chromatin, scant-to-moderate cytoplasm 中等大小細胞，圓至橢圓形核，點狀染色質，稀少至中等細胞質
+- **Nuclear molding**, necrosis, crush artifact **核塑形**、壞死、擠壓偽影
+- Immunohistochemistry: **CD56+, synaptophysin+, chromogranin+** (neuroendocrine markers) 免疫組織化學：**神經內分泌標記陽性**
+- Negative for CD3, CD20 (lymphoma), MNF116, SOX10 (melanoma) 淋巴瘤和黑色素瘤標記陰性
+
+
+## 最終診斷 (Final Diagnosis)
+
+
+# Metastatic Small-Cell Carcinoma of the Lung with Associated Myelophthisis
+
+0.9\textwidth{
+
+**Metastatic Small-Cell Carcinoma of the Lung with Associated Myelophthisis**
+[0.3cm]
+**轉移性小細胞肺癌合併骨髓癆**
+}
+
+
+## 治療計畫 (Treatment Plan)
+
+
+### Standard Treatment for Extensive-Stage SCLC 擴展期小細胞肺癌的標準治療
+
+
+| p{4cm} >{\arraybackslash}p{5cm} >{\arraybackslash}p{6cm}}  **Treatment    治療** | **Regimen    方案** | **Notes    備註** |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **First-line**    **一線治療** | Platinum-based doublet chemotherapy + Immune checkpoint inhibitor    Platinum (cisplatin or carboplatin) + Etoposide + Atezolizumab or Durvalumab | High initial response rates    Current standard of care    Not curative in metastatic disease    高初始反應率    目前標準治療    轉移性疾病無法治癒 |  |  |  |
+| **Relapsed/Refractory**    **復發/難治性** | Topoisomerase 1 inhibitors (topotecan, irinotecan)    Lurbinectedin    **Tarlatamab** (DLL3-targeted bispecific T-cell engager) | Tarlatamab: 40  Accelerated FDA approval    Promising new class    Tarlatamab：40 |  |  |  |
+
+
+### This Patient's Case 本病例
+
+
+importantbox
+**Why treatment was not pursued in this patient 為何此病人未接受治療**:
+
+- Profound pretreatment cytopenias from malignant bone marrow infiltration 惡性骨髓浸潤導致的嚴重治療前全血球減少
+- Primary toxic effect of platinum-based chemotherapy is bone marrow suppression 鉑類化療的主要毒性是骨髓抑制
+- Risk of treatment outweighed even the palliative benefit 治療風險甚至超過姑息益處
+- Single immune checkpoint inhibitors have not shown survival benefit in extensive-stage SCLC 單一免疫檢查點抑制劑在擴展期SCLC未顯示存活益處
+- **Supportive care was the most appropriate strategy** **支持性照護是最適當的策略**
+
+
+importantbox
+
+
+### Clinical Course 臨床病程
+
+
+- Hospital Day 1: Multiple episodes of profound melena with hemoglobin dropping to 5.7 g/dL; red cell transfusions given 第1天：多次嚴重黑便，血紅素降至5.7 g/dL；輸注紅血球
+- Worsening fatigue, inattentiveness, confusion, and discomfort 惡化的疲倦、注意力不集中、意識混亂和不適
+- After discussions with family, goal of care changed to **comfort measures only** 與家屬討論後，照護目標改為**僅舒適照護**
+- **Patient died on hospital day 6**, surrounded by family **病人於住院第6天過世**，家人陪伴在側
+
+
+### Autopsy Findings 解剖發現
+
+
+Tumor deposits identified in:
+
+- Lungs (scattered intraparenchymal and pleural deposits) 肺臟
+- Thoracic lymph nodes (up to 6.5 cm) 胸腔淋巴結
+- Liver (extensive involvement) 肝臟（廣泛受累）
+- Vertebral bodies 椎體
+- Pancreatic tail (3.5 cm deposit) 胰臟尾部
+- Left adrenal gland 左腎上腺
+- Left breast 左乳房
+
+
+## 學習重點 (Key Takeaways)
+
+
+**1. Leukoerythroblastosis = Myelophthisis Until Proven Otherwise**
+
+- Peripheral smear showing: Nucleated RBCs + dacrocytes + immature myeloid cells + large platelets
+- Indicates bone marrow infiltration by non-hematopoietic cells
+- Most common cause: Metastatic carcinoma (lung, breast, gastric, prostate)
+
+
+**2. Don't Stop at the Initial Diagnosis**
+
+- Patient was transferred for TTP evaluation based on schistocytes at outside hospital
+- Repeat smear showed NO schistocytes
+- TTP would not explain leukopenia, weight loss, or lung nodules
+- Always reassess when findings don't fit
+
+
+**3. Risk Factor Recognition is Critical**
+
+- 80 pack-year smoking history = very high lung cancer risk
+- Constitutional symptoms (weight loss 9 kg, night sweats, fatigue)
+- Bone pain + pancytopenia + leukoerythroblastosis → think metastatic carcinoma
+
+
+**4. Small-Cell Lung Cancer Characteristics**
+
+- Highly aggressive, high proliferative index
+- Typically presents as extensive-stage (metastatic) disease
+- Strong smoking association
+- Neuroendocrine markers: CD56, synaptophysin, chromogranin
+- Can present with bone marrow–only metastases (<5
+
+
+**5. Treatment Decisions Must Balance Benefit and Risk**
+
+- Platinum-based chemotherapy causes bone marrow suppression
+- In patients with severe pre-existing cytopenias from marrow infiltration, treatment risk may outweigh benefit
+- Supportive/palliative care may be the most appropriate option
+- Advance care planning discussions are essential
+
+
+## 自我測驗 (Self-Assessment Quiz)
+
+
+### 題目 (Questions)
+
+
+**Question 1.** A 65-year-old woman with an 80-pack-year smoking history presents with pancytopenia, bone pain, and weight loss. Peripheral blood smear shows nucleated red blood cells, immature granulocytes, and large platelets. What is this constellation of findings called?
+
+一位有80包年吸菸史的65歲女性因全血球減少、骨痛和體重減輕就診。周邊血液抹片顯示有核紅血球、不成熟顆粒球和大血小板。這組發現稱為什麼？
+
+
+1. Microangiopathic hemolytic anemia
+2. Leukoerythroblastosis
+3. Aplastic anemia
+4. Myelodysplastic syndrome
+5. Megaloblastic anemia
+
+
+**Question 2.** The finding in Question 1 is the hallmark of which condition?
+
+第1題的發現是下列何種狀況的標誌？
+
+
+1. Thrombotic thrombocytopenic purpura
+2. Vitamin B12 deficiency
+3. Myelophthisis (bone marrow infiltration)
+4. Disseminated intravascular coagulation
+5. Paroxysmal nocturnal hemoglobinuria
+
+
+**Question 3.** Which of the following solid tumors most commonly infiltrates the bone marrow and causes myelophthisis?
+
+下列何種實質腫瘤最常浸潤骨髓並導致骨髓癆？
+
+
+1. Hepatocellular carcinoma
+2. Renal cell carcinoma
+3. Lung, breast, gastric, and prostate cancers
+4. Pancreatic adenocarcinoma
+5. Ovarian carcinoma
+
+
+**Question 4.** A patient with suspected TTP is transferred for evaluation. Initial smear at the outside hospital showed schistocytes, but repeat smear at the receiving hospital shows no schistocytes. What is the most appropriate next step?
+
+疑似TTP的病人被轉院評估。外院初始抹片顯示裂紅細胞，但接收醫院的重複抹片未見裂紅細胞。最適當的下一步為何？
+
+
+1. Start plasma exchange immediately for TTP
+2. Reassess the diagnosis and look for alternative explanations
+3. Order ADAMTS13 activity level
+4. Repeat the peripheral smear a third time
+5. Administer rituximab for immune TTP
+
+
+**Question 5.** Which laboratory finding in this case argues against the diagnosis of TTP?
+
+本病例中，下列何種實驗室發現不支持TTP診斷？
+
+
+1. Elevated ferritin
+2. Elevated LDH
+3. Normal haptoglobin and bilirubin
+4. Thrombocytopenia
+5. Anemia
+
+
+**Question 6.** Small-cell lung cancer is characterized by all of the following EXCEPT:
+
+小細胞肺癌的特徵包括下列所有項目，除了：
+
+
+1. High proliferative index
+2. Neuroendocrine differentiation
+3. Most commonly diagnosed as limited-stage disease
+4. Strong association with smoking
+5. Expression of CD56 and synaptophysin
+
+
+**Question 7.** On bone marrow biopsy, which immunohistochemical markers would support a diagnosis of small-cell lung cancer?
+
+在骨髓切片中，下列何種免疫組織化學標記支持小細胞肺癌的診斷？
+
+
+1. CD3 and CD20
+2. S100 and MART-1
+3. CD56, synaptophysin, and chromogranin
+4. CD34 and TdT
+5. ER and PR
+
+
+**Question 8.** What is the current standard first-line treatment for extensive-stage small-cell lung cancer?
+
+目前擴展期小細胞肺癌的標準一線治療為何？
+
+
+1. Surgery followed by adjuvant chemotherapy
+2. Radiation therapy alone
+3. Platinum-based doublet chemotherapy plus immune checkpoint inhibitor
+4. Targeted therapy with EGFR inhibitors
+5. Single-agent immune checkpoint inhibitor
+
+
+**Question 9.** In a patient with extensive-stage SCLC and severe pancytopenia from bone marrow infiltration, why might platinum-based chemotherapy be contraindicated?
+
+在擴展期SCLC且因骨髓浸潤而有嚴重全血球減少的病人中，為何鉑類化療可能是禁忌？
+
+
+1. Platinum agents are ineffective in SCLC
+2. Platinum agents cause hepatotoxicity
+3. The primary toxic effect is bone marrow suppression, which would worsen pre-existing cytopenias
+4. Platinum agents cause nephrotoxicity
+5. Platinum agents cause peripheral neuropathy
+
+
+**Question 10.** Which newly approved agent for relapsed extensive-stage SCLC targets DLL3 and has shown a 40
+
+下列何種新近核准用於復發擴展期SCLC的藥物靶向DLL3，且顯示40
+
+
+1. Pembrolizumab
+2. Topotecan
+3. Lurbinectedin
+4. Tarlatamab
+5. Nivolumab
+
+
+---
+
+
+### 答案與解析 (Answers and Explanations)
+
+
+**Question 1. Answer: (B)**
+
+**Explanation**: Leukoerythroblastosis is characterized by the presence of nucleated red blood cells, dacrocytes (teardrop cells), immature myeloid white cells (left shift), and large platelets on peripheral blood smear. It indicates severe bone marrow stress or infiltration.
+
+**解析**：白血球紅血球母細胞症的特徵是周邊血液抹片上出現有核紅血球、淚滴狀紅血球、不成熟骨髓白血球（左移）和大血小板。這表示嚴重的骨髓壓力或浸潤。
+
+
+**Question 2. Answer: (C)**
+
+**Explanation**: Leukoerythroblastosis is the sine qua non (essential, indispensable) finding of myelophthisis, which refers to the replacement of normal bone marrow architecture by infiltrating tissue or non-hematopoietic cells.
+
+**解析**：白血球紅血球母細胞症是骨髓癆的必要發現，骨髓癆是指正常骨髓結構被浸潤組織或非造血細胞取代。
+
+
+**Question 3. Answer: (C)**
+
+**Explanation**: The solid tumors that most commonly infiltrate the bone marrow and cause cancer-associated thrombotic microangiopathy include lung, breast, gastric, and prostate cancers.
+
+**解析**：最常浸潤骨髓並導致癌症相關血栓性微血管病變的實質腫瘤包括肺癌、乳癌、胃癌和攝護腺癌。
+
+
+**Question 4. Answer: (B)**
+
+**Explanation**: When the key finding (schistocytes) that prompted the diagnosis is not reproducible, the diagnosis should be reassessed. TTP also would not explain the patient's leukopenia, weight loss, or pulmonary nodules.
+
+**解析**：當促使診斷的關鍵發現（裂紅細胞）無法重現時，應重新評估診斷。TTP也無法解釋病人的白血球減少、體重減輕或肺部結節。
+
+
+**Question 5. Answer: (C)**
+
+**Explanation**: In TTP, there is microangiopathic hemolytic anemia with schistocytes, which typically causes elevated indirect bilirubin and decreased haptoglobin (consumed by free hemoglobin). Normal haptoglobin and bilirubin argue against active hemolysis.
+
+**解析**：在TTP中，有微血管病性溶血性貧血伴裂紅細胞，通常導致間接膽紅素升高和觸珠蛋白降低（被游離血紅素消耗）。觸珠蛋白和膽紅素正常不支持活性溶血。
+
+
+**Question 6. Answer: (C)**
+
+**Explanation**: Small-cell lung cancer is most commonly diagnosed as extensive-stage (metastatic) disease, NOT limited-stage disease. It is known for its high proliferative index, neuroendocrine differentiation, strong association with smoking, and expression of neuroendocrine markers.
+
+**解析**：小細胞肺癌最常被診斷為擴展期（轉移性）疾病，而非局限期疾病。它以高增殖指數、神經內分泌分化、與吸菸的強烈關聯以及神經內分泌標記的表達而聞名。
+
+
+**Question 7. Answer: (C)**
+
+**Explanation**: CD56, synaptophysin, and chromogranin are markers of neuroendocrine differentiation. Small-cell lung cancer is a neuroendocrine tumor and expresses these markers. CD3/CD20 are lymphoma markers, S100/MART-1 are melanoma markers.
+
+**解析**：CD56、突觸素和嗜鉻粒蛋白是神經內分泌分化的標記。小細胞肺癌是神經內分泌腫瘤，表達這些標記。CD3/CD20是淋巴瘤標記，S100/MART-1是黑色素瘤標記。
+
+
+**Question 8. Answer: (C)**
+
+**Explanation**: The current standard of care for extensive-stage SCLC is platinum-based doublet chemotherapy (platinum + etoposide) plus an immune checkpoint inhibitor (atezolizumab or durvalumab). Two phase 3 trials showed this combination improves overall survival.
+
+**解析**：目前擴展期SCLC的標準治療是鉑類雙藥化療（鉑類+依乃乙泊苷）加免疫檢查點抑制劑（atezolizumab或durvalumab）。兩項第3期試驗顯示此組合改善整體存活。
+
+
+**Question 9. Answer: (C)**
+
+**Explanation**: The primary toxic effect of platinum-based doublet chemotherapy is bone marrow suppression. In a patient with profound pre-existing cytopenias from malignant bone marrow infiltration, chemotherapy would worsen the cytopenias, and the risk would outweigh even the palliative benefit.
+
+**解析**：鉑類雙藥化療的主要毒性是骨髓抑制。在因惡性骨髓浸潤而有嚴重既存全血球減少的病人中，化療會加重全血球減少，風險甚至超過姑息益處。
+
+
+**Question 10. Answer: (D)**
+
+**Explanation**: Tarlatamab is a DLL3-targeted bispecific T-cell engager that was granted accelerated FDA approval for relapsed extensive-stage SCLC. It has shown a 40
+
+**解析**：Tarlatamab是一種靶向DLL3的雙特異性T細胞接合器，獲得FDA加速批准用於復發擴展期SCLC。它顯示40

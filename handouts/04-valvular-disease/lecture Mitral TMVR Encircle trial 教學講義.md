@@ -1,0 +1,442 @@
+# lecture Mitral TMVR Encircle trial
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2020-06-09**
+
+---
+
+\maketitle
+
+
+> **ENCIRCLE試驗主要發現：**
+> SAPIEN M3經皮經中隔二尖瓣置換術（TMVR）在不適合手術或經導管緣對緣修復（TEER）的症狀性二尖瓣逆流患者中，展現出顯著的臨床效果：
+> itemize[leftmargin=*]
+>     \item 主要終點（一年死亡或心衰住院）：25.2
+>     \item 30天全因死亡率僅0.7
+>     \item 96
+>     \item 無術中死亡、無轉換手術、無血流動力學顯著的LVOT阻塞
+> itemize
+> **臨床意義：**這是首個經皮經中隔TMVR系統的關鍵性試驗，為無法接受手術或TEER的患者提供了第三種介入治療選擇。
+
+
+\tableofcontents
+
+---
+
+
+    
+    [Image]
+
+
+## 研究背景與動機
+
+
+### 二尖瓣逆流的治療困境
+
+
+症狀性中重度至重度二尖瓣逆流（MR）患者經常無法成為手術或經導管緣對緣修復（TEER）的候選人。目前治療選擇包括：
+
+
+| p{10cm}} 二尖瓣逆流現有治療選擇與限制 |  |  |
+| --- | --- | --- |
+| **治療方式** | **主要限制** |  |
+| **表格續接** |  |  |
+| **治療方式** | **主要限制** |  |
+| 外科修復/置換 | 手術風險高的患者不適合    需要開胸手術與體外循環    STS預測死亡率可達6-8 |  |
+| TEER（如MitraClip） | 複雜解剖構造效果不佳    持久性Grade 1+ MR reduction在複雜病變不確定    失敗後補救治療困難 |  |
+| 經心尖TMVR（Tendyne） | 需要外科開胸    30天死亡率6-14  限制於特定患者族群 |  |
+| 藥物治療 | COAPT試驗一年死亡或心衰住院率46.5  Mitra-FR試驗為51.3  無法逆轉瓣膜病變 |  |
+
+
+### 經皮經中隔TMVR的發展
+
+
+經皮經股靜脈經中隔（transfemoral transseptal）途徑的優勢：
+
+
+- 避免開胸或經心尖穿刺的創傷
+- 降低手術相關併發症風險
+- 保留未來valve-in-valve再介入的可能性
+- 適用於更廣泛的患者族群
+
+
+## ENCIRCLE試驗設計
+
+
+### 試驗基本資訊
+
+
+| p{10cm}} ENCIRCLE試驗設計摘要 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| 試驗全名 | sapiEN M3 system transCatheter mItral valve ReplaCement via transseptaL accEss |  |
+| 試驗設計 | 前瞻性、多中心、單臂、關鍵性試驗 |  |
+| 試驗註冊 | ClinicalTrials.gov NCT04153292 |  |
+| 參與中心 | 56個中心，6個國家（美國、加拿大、英國、荷蘭、以色列、澳洲） |  |
+| 收案期間 | 2020年6月9日至2023年10月10日 |  |
+| 篩選人數 | 1,171人 |  |
+| 治療人數 | 299人（主要世代） |  |
+| 追蹤中位數 | 1.4年（IQR 1.0-2.1） |  |
+| 主要終點 | 一年全因死亡或心衰再住院之複合終點 |  |
+| 效能目標 | 45 |  |
+| 贊助商 | Edwards Lifesciences |  |
+
+
+### 納入與排除標準
+
+
+| p{11cm}} ENCIRCLE試驗納入與排除標準 |  |  |
+| --- | --- | --- |
+| **類別** | **標準** |  |
+| **表格續接** |  |  |
+| **類別** | **標準** |  |
+| **納入標準** | $\bullet$ 年齡$\geq$18歲    $\bullet$ 症狀性（NYHA Class $\geq$II）    $\bullet$ 中重度或重度MR（Core lab評估）    $\bullet$ Heart team判定不適合手術或TEER    $\bullet$ 解剖適合：健康瓣葉無穿孔、LVEDD 35-70 mm、commissure間距$<$45 mm |  |
+| **排除標準** | $\bullet$ LVEDD $\geq$75 mm    $\bullet$ 二尖瓣環或瓣葉鈣化影響器械    $\bullet$ Paravalvular leak高風險    $\bullet$ 嚴重左心室或右心室功能障礙    $\bullet$ LVOT阻塞高風險 |  |
+| **TEER不適合原因** | $\bullet$ 解剖構造複雜（commissure-wide jet）    $\bullet$ 瓣葉病變多點（multiple pathologies）    $\bullet$ Pseudo-prolapse或leaflet indentation    $\bullet$ 預期TEER效果不佳或不持久 |  |
+
+
+### SAPIEN M3系統組成
+
+
+| p{10cm}} SAPIEN M3系統組件與功能 |  |  |
+| --- | --- | --- |
+| **組件** | **功能與特點** |  |
+| **表格續接** |  |  |
+| **組件** | **功能與特點** |  |
+| **Docking Station** | $\bullet$ Nitinol材質，完全可回收    $\bullet$ 設計用於環繞並捕捉瓣下結構    $\bullet$ 心室端turns纏繞腱索    $\bullet$ 心房端組件含PVL guard    $\bullet$ 創建瓣膜植入的landing zone |  |
+| **M3 Valve** | $\bullet$ 球囊擴張式經導管心臟瓣膜    $\bullet$ 全框架覆蓋設計    $\bullet$ 直接crimping於球囊導管上    $\bullet$ Rapid pacing下球囊擴張植入 |  |
+| **輸送系統** | $\bullet$ 29F經中隔鞘管    $\bullet$ 可調節導引鞘管    $\bullet$ Steerable導管通過medial commissure |  |
+
+
+## 患者基線特徵
+
+
+| p{8cm}} 治療組患者基線特徵（n=299） |  |  |
+| --- | --- | --- |
+| **特徵** | **數值** |  |
+| **表格續接** |  |  |
+| **特徵** | **數值** |  |
+| **人口學特徵** |  |  |
+| 年齡（中位數，IQR） | 77.0歲（70.0-82.0） |  |
+| 男性 | 152人（51 |  |
+| 女性 | 147人（49 |  |
+| BMI（中位數，IQR） | 26.6 kg/m²（23.2-31.6） |  |
+| **手術風險評估** |  |  |
+| STS-PROM（平均，SD） | 6.6 |  |
+| STS-PROM $\geq$8 | 86人（29 |  |
+| **NYHA功能分級** |  |  |
+| Class II | 86人（29 |  |
+| Class III | 203人（68 |  |
+| Class IV | 10人（3 |  |
+| **共病症** |  |  |
+| 鬱血性心衰竭 | 225人（75 |  |
+| 心房顫動 | 209人（70 |  |
+| 高血壓 | 252人（84 |  |
+| 糖尿病 | 103人（34 |  |
+| COPD | 70人（23 |  |
+| 既往心肌梗塞 | 90人（30 |  |
+| 既往PCI | 106人（35 |  |
+| 既往CABG | 91人（30 |  |
+| 既往TIA/中風 | 56人（19 |  |
+| 既往AVR | 47人（16 |  |
+| **心臟超音波特徵** |  |  |
+| LVEF（中位數，IQR） | 49.5 |  |
+| LVEF $\leq$40 | 87人（29 |  |
+| LVEDD（平均，SD） | 54.6 mm（7.6） |  |
+| LVEDV（中位數，IQR） | 132.3 mL（106.6-170.6） |  |
+| **MR病因** |  |  |
+| 原發性（Primary） | 105人（35 |  |
+| 續發性（Secondary）- 總計 | 173人（58 |  |
+| 心室型（Ventricular） | 160人（54 |  |
+| 心房型（Atrial） | 13人（4 |  |
+| 混合型 | 19人（6 |  |
+| **MR嚴重度** |  |  |
+| 中重度（Grade 3） | 156人（52 |  |
+| 重度（Grade 4） | 143人（48 |  |
+
+
+## 手術程序與結果
+
+
+### 手術程序
+
+
+- 嘗試植入：299人
+- 成功植入SAPIEN M3瓣膜：287人（96
+- 中止程序：12人（4     itemize
+- Encircling困難：5人
+- Dock位置過低：5人
+- 左心房內移動性回聲密度：1人
+- 無法進入medial commissure：1人
+
+
+    \item 需植入第二個瓣膜：0人
+    \item 轉換為外科手術：0人
+itemize
+
+
+### 住院期間結果
+
+
+| p{7cm}} 住院期間結果 |  |  |
+| --- | --- | --- |
+| **事件** | **結果** |  |
+| **表格續接** |  |  |
+| **事件** | **結果** |  |
+| 術中死亡 | 0人（0 |  |
+| 住院死亡 | 2人 |  |
+| 住院中風 | 4人（其中1人為HIT患者使用argatroban） |  |
+| LVOT阻塞造成血流動力學異常 | 0人（0 |  |
+
+
+## 主要終點結果
+
+
+> **一年全因死亡或心衰再住院複合終點**
+> Kaplan-Meier估計：**25.2
+> 顯著低於預設效能目標45
+> **主要終點達成！**
+
+
+| p{4cm}p{5cm}} 主要終點與次要終點結果 |  |  |
+| --- | --- | --- |
+| **終點** | **30天** | **1年** |
+| **表格續接** |  |  |
+| **終點** | **30天** | **1年** |
+| **主要終點** |  |  |
+| 死亡或心衰住院 | -- | 25.2 |
+| 全因死亡 | 0.7 | 13.9 |
+| 心血管死亡 | 0.7 | 8.9 |
+| 心衰再住院 | 4.0 | 16.7 |
+| **次要終點（1年）** |  |  |
+| MR改善 | -- | 232/232 (100 |
+| NYHA class改善 | -- | 171/233 (73 |
+| KCCQ-OS改善 | -- | +18.4分 (SE 1.7) |
+| LVEDVI減少 | -- | -4.7 (SE 1.4) |
+
+
+## MR降低與功能改善
+
+
+### MR嚴重度變化
+
+
+| p{3cm}p{3cm}p{4cm}} MR嚴重度分布變化 |  |  |
+| --- | --- | --- |
+| **MR Grade** | **基線** | **1年** |
+| **表格續接** |  |  |
+| **MR Grade** | **基線** | **1年** |
+| $<$1+（Trace/None） | 0 | 79.3 |
+| 1+（Mild） | 0 | 16.4 |
+| 2+（Moderate） | 0 | 4.3 |
+| 3+（Mod-Severe） | 52.2 | 0 |
+| 4+（Severe） | 47.8 | 0 |
+| **MR $\leq$1+** | **0 | **95.7 |
+
+
+**關鍵發現：**
+
+- 100
+- 95.7
+- 瓣膜平均壓差1年時為5.5 mmHg（SE 0.1）——無顯著跨瓣壓差增加
+
+
+### 功能狀態與生活品質
+
+
+| p{4cm}p{4cm}} 功能狀態改善 |  |  |
+| --- | --- | --- |
+| **指標** | **基線** | **1年** |
+| **表格續接** |  |  |
+| **指標** | **基線** | **1年** |
+| **NYHA Class分布（n=233配對分析）** |  |  |
+| Class I/II | 29 | 88 |
+| Class III/IV | 71 | 12 |
+| **生活品質** |  |  |
+| KCCQ-OS（平均） | 57.0 (SE 1.4) | 75.0 (SE 1.4) |
+| 改善幅度 | +18.4分 (95 |  |
+| **運動能力** |  |  |
+| 6分鐘步行測試改善 | +14.4公尺 (SE 6.2) |  |
+| **住院外天數** |  |  |
+| 1年內住院外天數中位數 | 358天 (IQR 342-363) |  |
+
+
+## 安全性結果
+
+
+### 主要不良事件
+
+
+| p{4cm}p{4cm}} 安全性終點（Kaplan-Meier估計） |  |  |
+| --- | --- | --- |
+| **不良事件** | **30天** | **1年** |
+| **表格續接** |  |  |
+| **不良事件** | **30天** | **1年** |
+| **中風** |  |  |
+| 總中風 | 2.7 | 9.3 |
+| 致殘性中風 | 1.7 | 3.9 |
+| 非致殘性中風 | 1.0 | 5.5 |
+| **器械相關** |  |  |
+| TMVR相關LVOT阻塞 | 0 | 0 |
+| 瓣膜再介入 | 2.3 | 6.4 |
+| Paravalvular leak closure | 1.7 | 3.8 |
+| Valve-in-valve | 0 | 1.2 |
+| 外科MVR | 0.7 | 1.5 |
+| **血栓與出血** |  |  |
+| 臨床顯著瓣膜血栓 | 2.3 | 6.7 |
+| MVARC出血（任何） | 22.1 | 39.4 |
+| 主要出血以上 | 8.7 | 18.5 |
+| **其他** |  |  |
+| 溶血需介入 | 4.3 | 7.1 |
+| 新發心房顫動 | 7.9 | 11.5 |
+| 新永久心律調節器 | 2.6 | 5.5 |
+| 心內膜炎 | 0 | 1.5 |
+| 主要iASD | 2.3 | 4.9 |
+
+
+### 抗凝與血栓風險
+
+
+> **抗凝不足與不良事件相關：**
+> itemize[leftmargin=*]
+>     \item 瓣膜血栓：抗凝不足組21
+>     \item DOAC抗凝不足：19
+>     \item VKA抗凝不足：20
+>     \item 中風在抗凝不足患者中發生率較高
+>     \item 中風與瓣膜血栓間**無顯著統計關聯**（HR 1.24, 95
+> itemize
+> **臨床建議：**術後至少抗凝6個月，建議持續更長時間。DOAC與VKA在充分抗凝下效果相似。
+
+
+## 與其他治療比較
+
+
+| p{3cm}p{3cm}p{4cm}} SAPIEN M3 TMVR與其他治療方式比較 |  |  |
+| --- | --- | --- |
+| **終點** | **ENCIRCLE** | **COAPT TEER** |
+| **表格續接** |  |  |
+| **終點** | **ENCIRCLE** | **COAPT TEER** |
+| 1年死亡或心衰住院 | 25.2 | 35 |
+| 1年全因死亡 | 13.9 | 18.8 |
+| 30天死亡 | 0.7 | 2.3 |
+| MR $\leq$1+ at 1 year | 95.7 | 69.1 |
+| **與Tendyne（經心尖TMVR）比較** |  |  |
+|  | **ENCIRCLE** | **Tendyne** |
+| 30天死亡 | 0.7 | 6-9.3 |
+| 1年死亡 | 13.9 | 26 |
+| 瓣膜血栓 | 6.7 | 6 |
+| 溶血需介入 | 7.1 | 3 |
+
+
+## 專家評論：將承諾轉化為實踐
+
+
+本節整理自Tang GHL, Zaid S, Hahn RT發表於*The Lancet*的評論文章。
+
+
+### 臨床定位
+
+
+- TEER仍是最微創的選擇，具有優異的安全性
+- 但TEER在複雜解剖構造中持久Grade 1+ MR不確定
+- TEER失敗後的補救治療困難且高風險
+- SAPIEN M3提供了**第三種介入治療選擇**
+
+
+### 需關注的問題
+
+
+| p{10cm}} ENCIRCLE試驗需關注的問題 |  |  |
+| --- | --- | --- |
+| **問題** | **詳細說明** |  |
+| **表格續接** |  |  |
+| **問題** | **詳細說明** |  |
+| **高篩選失敗率** | $\bullet$ 72  $\bullet$ 35  $\bullet$ 主要原因：annular dimensions（275人）、LVOT阻塞風險（118人）、encircling困難（97人）    $\bullet$ 與其他TMVR平台（如Intrepid）類似的限制 |  |
+| **中風與血栓** | $\bullet$ 1年中風率9  $\bullet$ 臨床顯著瓣膜血栓7  $\bullet$ 抗凝不足與較高血栓風險相關    $\bullet$ 中風原因尚不明確，未進行術後CT評估 |  |
+| **溶血與PVL** | $\bullet$ 7  $\bullet$ 81  $\bullet$ 導致溶血的PVL原因未明確    $\bullet$ 需要改進器械或程序 |  |
+| **長期追蹤** | $\bullet$ 目前僅1年數據    $\bullet$ 瓣膜耐久性未知    $\bullet$ 需要多模態影像監測瓣膜功能 |  |
+
+
+### 未來發展關鍵因素
+
+
+根據評論作者觀點，TMVR療法發展取決於：
+
+
+1. **降低解剖不適格率**——減少篩選失敗率
+2. **中風與血栓管理**——建立實用的抗凝策略
+3. **預防與處理溶血**——改進器械或程序
+4. **長期追蹤數據**——建立瓣膜耐久性證據
+
+
+## 研究限制
+
+
+1. **單臂試驗設計**——無隨機對照組，無法排除安慰劑效應或選擇偏差
+2. **追蹤時間短**——長期結果和瓣膜耐久性未知
+3. **生存偏差**——次要終點（如NYHA、KCCQ）基於配對數據，健康存活者更可能完成追蹤
+4. **高度選擇性人群**——72
+5. **高經驗中心**——所有程序在經驗豐富的中心進行，結果可能難以複製
+
+
+## 結論
+
+
+> **ENCIRCLE試驗證實：**
+> SAPIEN M3經皮經中隔TMVR在不適合手術或TEER的症狀性MR患者中：
+> itemize[leftmargin=*]
+>     \item 主要終點顯著優於預設效能目標（25.2
+>     \item 30天死亡率極低（0.7
+>     \item 持久的MR降低（96
+>     \item 顯著改善症狀和生活品質
+>     \item 無術中死亡、無轉換手術、無LVOT阻塞
+> itemize
+> **臨床意義：**
+> itemize[leftmargin=*]
+>     \item 提供不適合手術或TEER患者的第三種介入選擇
+>     \item 保留未來valve-in-valve再介入可能性
+>     \item 需要嚴格的患者篩選和長期抗凝管理
+>     \item 等待長期數據以確認瓣膜耐久性
+> itemize
+
+
+## 參考文獻
+
+
+1. Guerrero ME, Daniels DV, Makkar RR, et al. Percutaneous transcatheter valve replacement in individuals with mitral regurgitation unsuitable for surgery or transcatheter edge-to-edge repair: a prospective, multicountry, single-arm trial. [*Lancet](https://doi.org/10.1016/S0140-6736(25)02073-2). 2025;406(10469):2541-2550.*
+2. Tang GHL, Zaid S, Hahn RT. Transfemoral TMVR: turning promise into practice. [*Lancet](https://doi.org/10.1016/S0140-6736(25)02168-3). 2025;406(10469):2512-2513.*
+3. Stone GW, Lindenfeld J, Abraham WT, et al. Transcatheter mitral-valve repair in patients with heart failure. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1806640). 2018;379(24):2307-2318.*
+4. Obadia JF, Messika-Zeitoun D, Leurent G, et al. Percutaneous repair or medical treatment for secondary mitral regurgitation. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1805374). 2018;379(24):2297-2306.*
+5. Sorajja P, Moat N, Badhwar V, et al. Initial feasibility study of a new transcatheter mitral prosthesis: the first 100 patients. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2019.01.015). 2019;73(11):1250-1260.*
+6. Zahr F, Song HK, Chadderdon S, et al. 1-year outcomes following transfemoral transseptal transcatheter mitral valve replacement: Intrepid TMVR early feasibility study results. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2023.10.016). 2023;16(23):2868-2879.*
+7. von Bardeleben RS, Mahoney P, Morse MA, et al. 1-year outcomes with fourth-generation mitral valve transcatheter edge-to-edge repair from the EXPAND G4 study. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2023.09.012). 2023;16(21):2600-2610.*
+8. Hell MM, Wild MG, Baldus S, et al. Transapical mitral valve replacement: 1-year results of the real-world Tendyne European Experience Registry. [*JACC Cardiovasc Interv](https://doi.org/10.1016/j.jcin.2024.01.004). 2024;17(5):648-661.*
+9. Webb JG, Murdoch DJ, Boone RH, et al. Percutaneous transcatheter mitral valve replacement: first-in-human experience with a new transseptal system. [*J Am Coll Cardiol](https://doi.org/10.1016/j.jacc.2019.01.038). 2019;73(11):1239-1246.*
+10. Feldman T, Foster E, Glower DD, et al. Percutaneous repair or surgery for mitral regurgitation. [*N Engl J Med](https://doi.org/10.1056/NEJMoa1009355). 2011;364(15):1395-1406.*
+
+
+## 詞彙表
+
+
+| p{10cm}} 專業術語解釋 |  |  |
+| --- | --- | --- |
+| **術語** | **說明** |  |
+| **表格續接** |  |  |
+| **術語** | **說明** |  |
+| TMVR | Transcatheter Mitral Valve Replacement，經導管二尖瓣置換術 |  |
+| TEER | Transcatheter Edge-to-Edge Repair，經導管緣對緣修復術（如MitraClip） |  |
+| MR | Mitral Regurgitation，二尖瓣逆流 |  |
+| LVOT | Left Ventricular Outflow Tract，左心室流出道 |  |
+| STS-PROM | Society of Thoracic Surgeons Predicted Risk of Mortality，STS預測死亡風險 |  |
+| NYHA | New York Heart Association，紐約心臟學會功能分級 |  |
+| KCCQ-OS | Kansas City Cardiomyopathy Questionnaire Overall Score，堪薩斯城心肌病問卷總分 |  |
+| LVEF | Left Ventricular Ejection Fraction，左心室射血分數 |  |
+| LVEDD | Left Ventricular End-Diastolic Diameter，左心室舒張末期直徑 |  |
+| LVEDV | Left Ventricular End-Diastolic Volume，左心室舒張末期容積 |  |
+| iASD | Iatrogenic Atrial Septal Defect，醫源性心房中隔缺損 |  |
+| PVL | Paravalvular Leak，瓣周漏 |  |
+| MVARC | Mitral Valve Academic Research Consortium，二尖瓣學術研究聯盟 |  |
+| DOAC | Direct Oral Anticoagulant，直接口服抗凝劑 |  |
+| VKA | Vitamin K Antagonist，維生素K拮抗劑（如warfarin） |  |

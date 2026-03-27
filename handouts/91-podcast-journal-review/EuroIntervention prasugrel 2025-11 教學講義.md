@@ -1,0 +1,279 @@
+# EuroIntervention prasugrel 2025-11
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-11-11**
+
+---
+
+**心肌梗塞患者接受 PCI 後從常規使用Ticagrelor (Brilinta)轉為Prasugrel (Efient)的影響:全國性世代研究**
+
+
+Mia Ravn Jacobsen\textsuperscript{1*, MD; Peter Laursen Graversen1, MD; Reza Jabbari1, MD, PhD; Erik Lerkevang Grove2,3, MD, PhD; Charlotte Glinge1, MD, PhD; Lene Holmvang1, MD, PhD; Tobias Geisler4, MD, PhD; Lars Køber1, MD, DMSc; Christian Torp-Pedersen5, MD, DMSc; Thomas Engstrøm1, MD, PhD, DMSc; Rikke Sørensen1, MD, PhD
+}
+
+2025-11-11
+
+\maketitle
+
+1哥本哈根大學醫院 Rigshospitalet 心臟科,丹麥哥本哈根  
+
+2奧胡斯大學醫院心臟科,丹麥奧胡斯  
+
+3奧胡斯大學健康學院臨床醫學系,丹麥奧胡斯  
+
+4蒂賓根大學醫院心臟科,德國蒂賓根  
+
+5Nordsjællands 醫院心臟科,丹麥希勒勒
+
+
+*通訊作者:哥本哈根大學醫院 Rigshospitalet 心臟科,Inge Lehmanns vej 7, 2100, 丹麥哥本哈根。電子郵件:miaravnjacobsen@gmail.com
+
+
+**發表於:** EuroIntervention 2025;21:e1259-e1268 (線上版 2025 年 11 月)  
+
+**DOI:** [10.4244/EIJ-D-25-00132](https://doi.org/10.4244/EIJ-D-25-00132)
+
+
+**關鍵詞:**雙重抗血小板治療;指引建議治療;心肌梗塞;經皮冠狀動脈介入治療;prasugrel (Efient);ticagrelor (Brilinta)
+
+
+## 摘要
+
+
+### 背景
+
+2020 年,丹麥國家指引改為建議接受經皮冠狀動脈介入治療(PCI)的心肌梗塞(MI)患者優先使用prasugrel (Efient)而非ticagrelor (Brilinta),此變更先於 2023 年歐洲指引的更新。
+
+
+### 目的
+
+本研究旨在評估從常規使用ticagrelor (Brilinta)轉向prasugrel (Efient)的轉變是否在全國範圍內實施,以及與ticagrelor (Brilinta)相比,prasugrel (Efient)是否與較低的主要不良心血管事件(MACE)發生率相關,且出血率相似。
+
+
+### 方法
+
+此登記資料庫為基礎的世代研究,使用丹麥全國性登記資料庫,確認 2019 年至 2022 年間接受 PCI 治療的 MI 患者。若患者無禁忌症,且在出院後 7 天內仍存活並領取prasugrel (Efient)或ticagrelor (Brilinta)處方,則納入研究。
+
+
+### 結果
+
+總共有 10,984 名患者領取了prasugrel (Efient)(38.0
+
+
+### 結論
+
+2019 年至 2022 年間,真實世界 PCI 後 MI 患者從ticagrelor (Brilinta)轉向prasugrel (Efient)。與ticagrelor (Brilinta)相比,prasugrel (Efient)與降低 MACE 和 MI 發生率相關,出血率相似,支持現行指引建議。
+
+
+## 對日常臨床實務的影響
+
+
+在丹麥,接受經皮冠狀動脈介入治療的心肌梗塞(MI)患者從常規使用ticagrelor (Brilinta)轉向prasugrel (Efient)的全國性轉變發生在 2019 年至 2022 年間。與ticagrelor (Brilinta)治療相比,prasugrel (Efient)與降低主要不良心血管事件和 MI 發生率相關,且出血無差異。ticagrelor (Brilinta)較高的停藥率可能解釋這些發現。這些真實世界數據進一步支持當前指引建議優先使用prasugrel (Efient),其優勢包括每日一次給藥和比ticagrelor (Brilinta)更低的成本。
+
+
+## 縮寫
+
+
+**DAPT** 雙重抗血小板治療  
+
+**MACE** 主要不良心血管事件  
+
+**MI** 心肌梗塞  
+
+**PCI** 經皮冠狀動脈介入治療  
+
+**STEMI** ST 段上升型心肌梗塞
+
+
+## 引言
+
+
+2019 年末,冠狀動脈內支架植入與抗血栓治療方案:冠狀動脈治療的快速早期行動(ISAR-REACT 5)試驗報告了在急性冠狀動脈症候群(ACS)患者中prasugrel (Efient)與ticagrelor (Brilinta)直接比較的結果,其中 80
+
+目前尚不清楚從ticagrelor (Brilinta)轉向prasugrel (Efient)的轉變是否已在全國範圍內全面實施,以及與ticagrelor (Brilinta)相比,prasugrel (Efient)的使用是否導致心血管事件減少且出血率相似,因為真實世界患者可能與隨機試驗中的患者不同。本研究旨在評估從常規使用ticagrelor (Brilinta)的雙重抗血小板治療(DAPT)轉向prasugrel (Efient)的轉變,並評估在所有接受 PCI 治療的 MI 患者中,prasugrel (Efient)與ticagrelor (Brilinta)相關的心血管和出血發生率。
+
+
+## 方法
+
+
+### 研究設計與資料來源
+
+
+在這項全國性登記資料庫為基礎的世代研究中,資料取自以下丹麥登記資料庫:丹麥國家患者登記資料庫、丹麥國家處方登記資料庫和公民登記系統[7](https://doi.org/10.1007/s10654-014-9930-3)-[9](https://doi.org/10.1093/ije/dyw213)。丹麥國家患者登記資料庫包含丹麥所有住院資訊,包括入院和出院日期,以及分別根據國際疾病分類第十版(ICD-10)和 NOMESCO 手術程序分類(NCSP)分類的診斷和手術代碼。丹麥國家處方登記資料庫提供每個丹麥藥局領取處方的詳細資訊。根據解剖治療化學分類(ATC)系統代碼識別具體領取的藥物,以及藥物強度、數量和配藥日期的資訊。公民登記系統包括性別、出生日期、移民和死亡資料。每位丹麥居民在出生或移民時都會獲得一個獨特且永久的公民登記號碼,允許在這些登記資料庫中進行個體層級的連結。
+
+
+### 研究族群
+
+
+研究期間為 2019 年 1 月 1 日至 2022 年 12 月 31 日。納入所有在住院期間(住院時間 ≤30 天,選擇此期間以避免異常值)有 MI 診斷和 PCI 手術代碼的丹麥公民。對於研究期間有多次這類住院的患者,僅考慮第一次事件。共病根據索引 MI 日期前任何時間記錄的診斷代碼確定。排除有中風或短暫性腦缺血發作病史的患者,因為prasugrel (Efient)在這些個體中是禁忌的。還收集了索引 MI 前 1 年領取處方的資訊,包括任何抗血栓藥物、至少 2 種抗高血壓藥物、降脂藥物和抗糖尿病藥物[10](https://doi.org/10.2147/CLEP.S456749)。
+
+根據出院後 7 天內領取prasugrel (Efient)或ticagrelor (Brilinta)處方對患者進行分層。假設作為 DAPT 方案的一部分,同時使用每日 75 mg 的乙醯水楊酸(ASA)[5](https://doi.org/10.1093/eurheartj/ehad191)。未評估 MI 後的 ASA 處方,因為許多患者在索引 MI 時已接受 ASA 治療,或可能從非處方藥獲得,這可能導致低估實際使用情況。透過計算 MI 後第一年領取的藥片總數來評估ticagrelor (Brilinta)和prasugrel (Efient)的依從性,以確定覆蓋天數的比例[11](https://doi.org/10.1016/S0140-6736(09)61751-5)。還報告了從最初的強效 P2Y12 抑制劑轉換為另一種的患者數量。
+
+
+### 結果指標
+
+
+追蹤從出院後第 8 天開始,持續到 MI 後 1 年(至 2023 年 12 月 31 日)。結果根據住院時治療醫師確定的診斷代碼定義,死亡資訊來自持續更新的公民登記系統。主要結果包括 MACE 和導致住院的出血。MACE 是全因死亡率、復發性 MI(索引 MI 後 >28 天,如心肌梗塞第四次通用定義所定義)[12](https://doi.org/10.1161/CIR.0000000000000617) 和中風的複合結果。導致住院的出血包括腦部、呼吸道、胃腸道和泌尿生殖道出血,以及出血相關貧血。次要結果包括全因死亡率、復發性 MI 和中風。追蹤患者直到第一次感興趣結果的發生、移民日期或死亡(對於不包括死亡的結果),或索引 MI 後 1 年,以先發生者為準。
+
+
+### 統計分析
+
+
+全程以ticagrelor (Brilinta)作為參考。描述性資料以分類變數的頻率和百分比或連續變數的中位數和四分位距(IQR)表示。應用卡方檢驗評估分類變數之間的差異,或在適當時使用 Fisher 精確檢驗,並對連續變數應用非參數 Wilcoxon 秩和檢驗。計算所有結果的 1 年發生率(IR)每 100 人年。對於 MACE,使用 1−Kaplan-Meier 估計值繪製存活曲線,並使用對數秩檢驗評估治療組之間的差異。使用 Aalen-Johansen 估計值構建導致住院的出血累積發生率曲線,將死亡作為競爭風險,並應用 Gray 檢驗計算治療組之間的差異。使用多變量 Cox 比例風險模型根據治療組估計結果發生率,以校正後風險比(adjHR)和 95
+
+進行傾向評分配對模型作為敏感性分析,以解釋prasugrel (Efient)和ticagrelor (Brilinta)治療患者之間的基線差異。使用多變量邏輯迴歸計算傾向評分,包括與多變量分析相同的變數。每位prasugrel (Efient)治療患者根據其傾向評分(允許 ±0.05 的差異)、分類年齡和日曆年度與一位ticagrelor (Brilinta)治療患者配對,以確保組間這些關鍵變數的平衡。還對年齡 ≥75 歲的老年患者、STEMI 和非 STEMI 患者的亞組應用多變量 Cox 比例風險模型。由於潛在病理生理學可能存在相關差異,因此考慮 STEMI 和非 STEMI 患者。所有模型均符合比例風險假設。所有檢驗均將雙側 p 值 ≤0.05 視為具有統計學顯著性。使用 SAS 9.4 版(SAS Institute)、R 2022.07.0 版(R 統計計算基金會)[13](https://www.R-project.org/) 和 BioRender[14](https://app.biorender.com/citation/66e7deefafe0905411f23700)。
+
+
+### 倫理批准
+
+
+丹麥的登記資料庫為基礎的研究不需要倫理批准。由於公民登記號碼已加密,因此無法識別個人。該研究獲得丹麥資料保護局批准。
+
+
+## 結果
+
+
+從 2019 年至 2022 年,確認了 16,526 名因 MI 住院並接受 PCI 治療的患者(圖 1)。如果患者在出院後 7 天內死亡(3.1
+
+
+### prasugrel (Efient)的實施
+
+
+2019 年,超過 99
+
+
+### 描述性特徵
+
+
+族群的中位年齡為 63 歲(IQR 55,72),23.6
+
+
+### 結果指標
+
+
+MACE 發生在 93 名prasugrel (Efient)患者(IR 2.3)和 169 名ticagrelor (Brilinta)患者(IR 2.5)中,導致住院的出血發生在 75 名prasugrel (Efient)患者(IR 1.8)和 163 名ticagrelor (Brilinta)患者(IR 2.5)中(表 2)。治療組之間的 MACE 1−Kaplan-Meier 曲線無顯著差異,但prasugrel (Efient)治療患者的導致住院的出血累積發生率顯著低於ticagrelor (Brilinta)治療患者(圖 4A,圖 4B)。與ticagrelor (Brilinta)相比,prasugrel (Efient)治療與顯著降低 MACE 發生率(adjHR 0.67,95
+
+
+### 敏感性和亞組分析
+
+
+傾向評分配對模型包括 1,941 名接受prasugrel (Efient)治療的患者(所有prasugrel (Efient)治療患者的 46.4
+
+總共有 2,126 名年齡 ≥75 歲的患者,其中 672 名(31.6
+
+總共有 5,568 名(50.7
+
+
+## 討論
+
+
+本研究評估了在所有接受 PCI 治療的 MI 患者中,從預設的ticagrelor (Brilinta) DAPT 策略轉向prasugrel (Efient)(與 ASA 合併使用)的轉變及相關預後結果的差異。出現了幾個關鍵發現。首先,prasugrel (Efient)在 2020 年至 2021 年間逐漸取代了ticagrelor (Brilinta),儘管到 2022 年約 10
+
+2019 年,超過 99
+
+考慮到基線的差異,prasugrel (Efient)可能在更年輕和更健康的個體中被偏好,而ticagrelor (Brilinta)在共病負擔較高的老年患者中被偏好。這可以解釋為什麼 2022 年較大比例的年齡 ≥75 歲的患者接受ticagrelor (Brilinta)治療(近 20
+
+考慮到納入了所有患者,本研究中的所有事件發生率都很低。在 ISAR-REACT 5 試驗中,MACE 發生率為prasugrel (Efient) 6.9
+
+儘管本研究的事件發生率較低,但與ticagrelor (Brilinta)相比,prasugrel (Efient)與降低 MACE 和復發性 MI 發生率相關,在真實世界族群中重現了 ISAR-REACT 5 試驗的發現。這些發現在非 STEMI 患者中一致。prasugrel (Efient)在 MACE 和復發性 MI 發生率方面相關差異的一個合理解釋可能是ticagrelor (Brilinta)治療患者的停藥率較高,可能是由於呼吸困難等副作用。這可能導致 DAPT 更早停用或轉換為效力較低的 P2Y12 抑制劑氯吡格雷。支持這一點的是,最初使用ticagrelor (Brilinta)的患者中有 18.8
+
+
+### 限制
+
+
+本研究納入了從 2019 年至 2022 年接受 PCI 治療的近 11,000 名 MI 患者的全國性隊列,所有患者都有可用的隨訪。丹麥國家行政登記資料庫的品質已得到充分確立,報告 MI 診斷的平均陽性預測值 ≥88
+
+由於患者在治療醫師的裁量下分配給prasugrel (Efient)或ticagrelor (Brilinta),因此存在適應症混淆的風險。此外,患者治療其他方面的時間變化可能引入混淆,儘管相對較短的 4 年研究期間降低了這種風險。然而,比較prasugrel (Efient)和ticagrelor (Brilinta)的隨機對照試驗已經進行[1](https://doi.org/10.1056/NEJMoa1908973),本研究旨在將該試驗的發現擴展到真實世界族群。儘管如此,仍需要進行隨機群組試驗,比較在真實世界族群中從基於ticagrelor (Brilinta)的 DAPT 策略轉向基於prasugrel (Efient)的 DAPT 策略的影響。SWITCH SWEDEHEART 研究目前正在調查這一點[18](https://doi.org/10.1016/j.ahj.2022.05.001)。我們研究的另一個限制包括基於領取處方而非實際藥丸攝入量來評估依從性,這可能導致高估依從性。
+
+
+## 結論
+
+
+到 2022 年,丹麥已實現將prasugrel (Efient)作為接受 PCI 治療的 MI 患者首選 P2Y12 抑制劑。與ticagrelor (Brilinta)治療相比,prasugrel (Efient)與降低 MACE 和復發性 MI 發生率相關,導致住院的出血無差異。這些發現支持現行指引,建議在無禁忌症的患者中優先使用prasugrel (Efient)而非ticagrelor (Brilinta)進行 DAPT。
+
+
+## 資助
+
+
+本研究得到 Novo Nordisk 基金會(資助編號 0071947)和 Gangstedfonden(資助編號 R625-A41879)的支持,為 M.R. Jacobsen 的博士研究提供資助。資助來源不參與研究設計或資料的收集、分析和解釋。
+
+
+## 利益衝突聲明
+
+
+R. Jabbari 已從 Bristol-Myers Squibb 獲得演講酬金。E.L. Grove 已從 AstraZeneca、Bayer、Boehringer Ingelheim、Bristol-Myers Squibb、Pfizer、Novo Nordisk、Lundbeck Pharma 和 Organon 獲得演講酬金或諮詢費;他是 AstraZeneca、Idorsia 和 Bayer 贊助的臨床研究的研究者;並已從 Boehringer Ingelheim 獲得無限制的研究資助。T. Geisler 報告從 AstraZeneca、Bayer、Boehringer Ingelheim、Daiichi Sankyo、Ferrer/Chiesi、Novartis 和 Pfizer 獲得演講酬金;從 AstraZeneca、Bristol-Myers Squibb、Ferrer、Edwards Lifesciences、Haemonetics 和 Pfizer 獲得諮詢費;以及從 Bayer、Bristol-Myers Squibb/Pfizer、Ferrer/Chiesi、Medtronic 和 Edwards Lifesciences 獲得研究資助。T. Engstrøm 已從 Bayer、Novo Nordisk 和 Abbott 獲得演講酬金或諮詢費;他是 Novo Nordisk 贊助的臨床研究的研究者。R. Sørensen 已從 Novo Nordisk 基金會獲得機構研究資助;從 Bayer、Bristol-Myers Squibb 和 AstraZeneca 獲得演講酬金;並從 Novo Nordisk 獲得資料安全和監測委員會工作的費用(與本研究無關)。其他作者聲明無利益衝突。
+
+
+---
+
+
+| p{3cm}p{3cm}p{3cm}p{2cm}} 基線特徵。 |  |  |
+| --- | --- | --- |
+| **變數** | **總計 (n=10,984)** | **prasugrel (Efient) (n=4,179)** |
+| 中位年齡,歲 | 63 [55, 72] | 62 [55, 71] |
+| \addlinespace **年齡** |  |  |
+| $<$65 歲 | 5,983 (54.5) | 2,413 (57.7) |
+| 65-74 歲 | 2,875 (26.2) | 1,094 (26.2) |
+| ≥75 歲 | 2,126 (19.4) | 672 (16.1) |
+| \addlinespace **性別** |  |  |
+| 男性 | 8,391 (76.4) | 3,251 (77.8) |
+| 女性 | 2,593 (23.6) | 928 (22.2) |
+| \addlinespace **MI 類型** |  |  |
+| STEMI | 5,568 (50.7) | 2,688 (64.3) |
+| 非 STEMI | 4,113 (37.4) | 1,093 (26.2) |
+| 未指定 MI | 1,303 (11.9) | 398 (9.5) |
+| \addlinespace **共病** |  |  |
+| 高血壓 | 3,127 (28.5) | 1,085 (26.0) |
+| 高膽固醇血症 | 2,097 (19.1) | 719 (17.2) |
+| 糖尿病 | 1,252 (11.4) | 436 (10.4) |
+| 周邊動脈疾病 | 221 (2.0) | 67 (1.6) |
+| 心臟衰竭 | 1,453 (13.2) | 552 (13.2) |
+| 心房顫動或撲動 | 220 (2.0) | 72 (1.7) |
+| 慢性阻塞性肺病 | 585 (5.3) | 203 (4.9) |
+| 腎臟疾病 | 447 (4.1) | 159 (3.8) |
+| 癌症 | 1,294 (11.8) | 464 (11.1) |
+| 既往出血事件 | 1,124 (10.2) | 410 (9.8) |
+| 潰瘍 | 267 (2.4) | 97 (2.3) |
+| 任何時間既往 PCI | 1,339 (12.2) | 452 (10.8) |
+| 索引 MI 前 30 天既往 PCI | 28 (0.3) | 10 (0.2) |
+| 任何時間既往 CABG | 244 (2.2) | 67 (1.6) |
+| \addlinespace **MI 前 1 年藥物使用** |  |  |
+| 乙醯水楊酸 | 2,047 (18.6) | 664 (15.9) |
+| 任何 P2Y12 抑制劑 | 343 (3.1) | 109 (2.6) |
+| 抗凝劑 | 58 (0.5) | 22 (0.5) |
+| 至少 2 種抗高血壓藥物 | 3,021 (27.5) | 1,084 (25.9) |
+| 降脂藥物 | 2,876 (26.2) | 1,017 (24.3) |
+| 抗糖尿病藥物 | 1,380 (12.6) | 507 (12.1) |
+| \addlinespace **索引住院** |  |  |
+| 中位住院時間,天 | 3 [3, 4] | 3 [2, 4] |
+| \addlinespace **強效 P2Y12** 抑制劑 |  |  |
+| 第一個 P2Y12 抑制劑中位時間,天 | 1 [0, 2] | 1 [0, 2] |
+
+
+*數值為 n (
+
+
+---
+
+
+## 參考文獻
+
+
+1. Schüpke S, Neumann FJ, Menichelli M, et al. Ticagrelor or Prasugrel in Patients with Acute Coronary Syndromes. N Engl J Med. 2019;381:1524-34. [doi:10.1056/NEJMoa1908973](https://doi.org/10.1056/NEJMoa1908973)
+2. Ye X, Shami JJP, Yan VKC, et al. Global antiplatelet sales trend: A focus on P2Y12 inhibitors from 2008 to 2018. Am Heart J Plus. 2021;4:100020. [doi:10.1016/j.ahjo.2021.100020](https://doi.org/10.1016/j.ahjo.2021.100020)
+3. Mohamed MO, Kontopantelis E, Alasnag M, et al. Impact of Society Guidelines on Trends in Use of Newer P2Y12 Inhibitors for Patients With Acute Coronary Syndromes Undergoing Percutaneous Coronary Intervention. J Am Heart Assoc. 2024;13:e034414. [doi:10.1161/JAHA.124.034414](https://doi.org/10.1161/JAHA.124.034414)
+4. Jneid H. Ticagrelor or Prasugrel in Acute Coronary Syndromes - The Winner Takes It All? N Engl J Med. 2019;381:1582-5. [doi:10.1056/NEJMe1912000](https://doi.org/10.1056/NEJMe1912000)
+5. Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44:3720-826. [doi:10.1093/eurheartj/ehad191](https://doi.org/10.1093/eurheartj/ehad191)
+6. National guidelines on acute coronary syndrome. Danish Society of Cardiology (DCS). 網址:[https://nbv.cardio.dk/aks](https://nbv.cardio.dk/aks)
+7. Schmidt M, Pedersen L, Sørensen HT. The Danish Civil Registration System as a tool in epidemiology. Eur J Epidemiol. 2014;29:541-9. [doi:10.1007/s10654-014-9930-3](https://doi.org/10.1007/s10654-014-9930-3)
+8. Schmidt M, Schmidt SA, Sandegaard JL, et al. The Danish National Patient Registry: a review of content, data quality, and research potential. Clin Epidemiol. 2015;7:449-90. [doi:10.2147/CLEP.S91125](https://doi.org/10.2147/CLEP.S91125)
+9. Pottegård A, Schmidt SAJ, Wallach-Kildemoes H, et al. Data Resource Profile: The Danish National Prescription Registry. Int J Epidemiol. 2017;46:798-798f. [doi:10.1093/ije/dyw213](https://doi.org/10.1093/ije/dyw213)
+10. Bonnesen K, Schmidt M. Validity of Prescription-Defined and Hospital-Diagnosed Hypertension Compared with Self-Reported Hypertension in Denmark. Clin Epidemiol. 2024;16:249-56. [doi:10.2147/CLEP.S456749](https://doi.org/10.2147/CLEP.S456749)
+11. Sørensen R, Hansen ML, Abildstrom SZ, et al. Risk of bleeding in patients with acute myocardial infarction treated with different combinations of aspirin, clopidogrel, and vitamin K antagonists in Denmark: a retrospective analysis of nationwide registry data. Lancet. 2009;374:1967-74. [doi:10.1016/S0140-6736(09)61751-5](https://doi.org/10.1016/S0140-6736(09)61751-5)
+12. Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138:e618-51. [doi:10.1161/CIR.0000000000000617](https://doi.org/10.1161/CIR.0000000000000617)
+13. R Core Team (2020). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. 網址:[https://www.R-project.org/](https://www.R-project.org/)
+14. Ravn Jacobsen, M. Created in BioRender. 2024. 網址:[https://app.biorender.com/citation/66e7deefafe0905411f23700](https://app.biorender.com/citation/66e7deefafe0905411f23700)
+15. Thrane PG, Olesen KKW, Thim T, et al. Mortality Trends After Primary Percutaneous Coronary Intervention for ST-Segment Elevation Myocardial Infarction. J Am Coll Cardiol. 2023;82:999-1010. [doi:10.1016/j.jacc.2023.06.015](https://doi.org/10.1016/j.jacc.2023.06.015)
+16. Thrane PG, Olesen KKW, Thim T, et al. 10-Year Mortality After ST-Segment Elevation Myocardial Infarction Compared to the General Population. J Am Coll Cardiol. 2024;83:2615-25. [doi:10.1016/j.jacc.2024.04.060](https://doi.org/10.1016/j.jacc.2024.04.060)
+17. Sundbøll J, Adelborg K, Munch T, et al. Positive predictive value of cardiovascular diagnoses in the Danish National Patient Registry: a validation study. BMJ Open. 2016;6:e012832. [doi:10.1136/bmjopen-2016-012832](https://doi.org/10.1136/bmjopen-2016-012832)
+18. Omerovic E, Erlinge D, Koul S, et al. Rationale and design of switch Swedeheart: A registry-based, stepped-wedge, cluster-randomized, open-label multicenter trial to compare prasugrel and ticagrelor for treatment of patients with acute coronary syndrome. Am Heart J. 2022;251:70-7. [doi:10.1016/j.ahj.2022.05.001](https://doi.org/10.1016/j.ahj.2022.05.001)

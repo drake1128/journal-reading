@@ -1,0 +1,100 @@
+# EuroIntervention 2025-11-07
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2025-11-08**
+
+---
+
+**EuroIntervention 期刊快照**   
+
+2025年11月 第21卷第21期
+謝慕揚醫師 MD, PhD, FESC  
+
+根據 EuroIntervention 概覽整理  
+
+with assistance by Claude.ai
+2025年11月8日
+\maketitle
+
+
+## 期刊概述
+
+
+本期EuroIntervention涵蓋多項重要研究，主題範圍從機械循環支持到影像學、從抗血小板治療到腎去神經術。主要研究包括：PROTECT IV試驗、丹麥常規prasugrel或ticagrelor使用的轉變、急性冠心症候群患者的OCT與血管造影比較、腎去神經術後的血壓變化、腎去神經術與腎臟疾病、以及OCT上模擬斑塊破裂的褶皺效應等。
+
+
+## 主要研究文獻
+
+
+1. PROTECT IV試驗的理論基礎與設計
+
+Mangner N, Sharma SK, O’Connor C 等
+
+在進行中的PROTECT IV試驗中，研究團隊評估在接受經皮冠狀動脈介入治療（PCI）的高風險心衰竭患者（射血分數降低且合併複雜冠狀動脈疾病）中，使用Impella CP進行血流動力學支持的有效性。患者被隨機分配至使用Impella CP的PCI組，或使用/不使用主動脈內氣囊幫浦的PCI組。3年期主要終點包括全因死亡、中風、心肌梗塞、非計劃性臨床驅動的血管重建、持久性左心室輔助裝置植入或心臟移植、或因心血管原因住院的複合終點。
+
+[Mangner N, Sharma SK, O’Connor C, et al. Mechanical circulatory support in high-risk elective PCI: rationale and design of the PROTECT IV trial. EuroIntervention. 2025;21(21):e1244.](https://eurointervention.pcronline.com/article/mechanical-circulatory-support-in-high-risk-elective-pci-rationale-and-design-of-the-protect-iv-trial)
+
+
+2. 急性冠心症候群患者的OCT與血管造影比較
+
+Lee YJ, Kim Y, Lee OH 等
+
+在OCCUPI試驗的事後分析中，研究團隊關注接受藥物洗脫支架治療複雜病灶的急性冠心症候群（ACS）患者。與血管造影導引相比，光學同調斷層掃描（OCT）導引的PCI顯著降低1年主要不良心血管事件（MACE）發生率，此效益在通過OCT達成支架優化的患者中特別明顯。配套社論由Tom Adriaenssens和Pascal Frederiks撰寫，討論可能的潛在機制。
+
+[Lee YJ, Kim Y, Lee OH, et al. Optical coherence tomography-guided percutaneous coronary intervention in acute coronary syndrome patients with complex lesions: a subgroup analysis of the randomised OCCUPI Trial. EuroIntervention. 2025;21(21):e1269.](https://eurointervention.pcronline.com/article/optical-coherence-tomography-guided-percutaneous-coronary-intervention-in-acute-coronary-syndrome-patients-with-complex-lesions-a-subgroup-analysis-of-the-randomised-occupi-trial)
+
+[Adriaenssens T, Frederiks P. A clear-sighted view is what is needed in a rough sea. EuroIntervention. 2025;21(21):article EIJ-E-25-00048.](https://eurointervention.pcronline.com/article/a-clear-sighted-view-is-what-is-needed-in-a-rough-sea)
+
+
+3. 腎去神經術後的血壓變化
+
+Schmieder RE, Mahfoud F, Mancia G 等
+
+為更好地了解血壓（BP）降低的預測因子，研究團隊在五項臨床研究的匯總分析中，評估腎去神經術（RDN）後基線與預期收縮壓（SBP）之間的變化。研究發現，較高的基線SBP與RDN後6個月更大的SBP降幅相關；雖然無法提供精確預測，但這可以幫助介入專家及其患者的決策過程。
+
+[Schmieder RE, Mahfoud F, Mancia G, et al. Impact of baseline systolic blood pressure on blood pressure changes following renal denervation. EuroIntervention. 2025;21(21):e1281.](https://eurointervention.pcronline.com/article/impact-of-baseline-systolic-blood-pressure-on-blood-pressure-changes-following-renal-denervation)
+
+
+4. 腎去神經術與腎臟疾病
+
+Galli V, Galuppi E, Tavella D 等
+
+RDN如何在中長期影響慢性腎臟病（CKD）患者的血壓和腎功能？研究通訊中，研究團隊探討這個問題，發現RDN在選定的CKD患者中安全且有效，可能具有超越血壓降低的益處。
+
+[Galli V, Galuppi E, Tavella D, et al. Long-term effects of radiofrequency-based renal denervation on blood pressure and renal function by degree of renal dysfunction. EuroIntervention. 2025;21(21):e1288.](https://eurointervention.pcronline.com/article/long-term-effects-of-radiofrequency-based-renal-denervation-on-blood-pressure-and-renal-function-by-degree-of-renal-dysfunction)
+
+
+5. 心肌梗塞患者常規ticagrelor或prasugrel使用的轉變
+
+Jacobsen MR, Graversen PL, Jabbari R 等
+
+研究團隊檢視丹麥在接受PCI治療的心肌梗塞患者中，從ticagrelor轉向prasugrel使用的轉變。作者描繪雙重抗血小板治療方向的變化，以及心血管和出血率結果，證實prasugrel與主要不良心血管事件（MACE）和心肌梗塞發生率降低相關，儘管出血率沒有差異。本文配有Adnan Kastrati和Fiorenzo Simonetti撰寫的社論。
+
+[Jacobsen MR, Graversen PL, Jabbari R, et al. Impact of shifting from routine use of ticagrelor to prasugrel in myocardial infarction patients after PCI: a nationwide cohort study. EuroIntervention. 2025;21(21):e1259.](https://eurointervention.pcronline.com/article/impact-of-shifting-from-routine-use-of-ticagrelor-to-prasugrel-in-myocardial-infarction-patients-after-pci-a-nationwide-cohort-study)
+
+[Kastrati A, Simonetti F. Closing the loop: from evidence to everyday care. EuroIntervention. 2025;21(21).](https://eurointervention.pcronline.com/article/closing-the-loop-from-evidence-to-everyday-care)
+
+
+6. OCT上模擬斑塊破裂的褶皺效應
+
+Mohan NC, Johnson TW
+
+一位73歲女性患者，有心房顫動、生物瓣膜主動脈瓣置換、起搏器植入及乳腺癌緩解病史，出現一日胸痛並伴肌鈣蛋白I升高（峰值87 ng/L）。診斷為急性冠心症候群（ACS）並接受雙抗血小板治療（DAPT）。冠狀動脈造影顯示輕至中度疾病，鈍緣支（OM）扭曲但無明顯罪犯病灶。光學同調斷層掃描（OCT）揭示OM支串聯局灶性狹窄，提示褶皺效應（concertina effect）模擬斑塊破裂。
+
+[Mohan NC, Johnson TW. Concertina effect mimicking plaque rupture in a patient presenting with acute coronary syndrome. EuroIntervention. 2025;21(21):article EIJ-D-25-00333.](https://eurointervention.pcronline.com/article/concertina-effect-mimicking-plaque-rupture-in-a-patient-presenting-with-acute-coronary-syndrome)
+
+
+## 期刊資訊
+
+
+- **期刊名稱：** EuroIntervention
+- **出版時間：** 2025年11月
+- **卷期：** 第21卷第21期
+- **類型：** 快照（Snapshot）
+- **期刊網站：** [https://eurointervention.pcronline.com](https://eurointervention.pcronline.com)
+
+
+## 重要會議資訊
+
+
+期刊編輯團隊期待於2025年11月在倫敦瓣膜會議（London Valves）上與同仁見面。

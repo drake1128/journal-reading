@@ -25,12 +25,20 @@ website:
             - handouts/01-ischemic-heart-disease/index.qmd
             - handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.qmd
             - handouts/01-ischemic-heart-disease/acs-book-early-diagnosis-of-ami/index.qmd
+            - handouts/01-ischemic-heart-disease/acs-er-protocol/index.qmd
             - handouts/01-ischemic-heart-disease/book-ffr-eng/index.qmd
+            - handouts/01-ischemic-heart-disease/cath-hemodynamics/index.qmd
+            - handouts/01-ischemic-heart-disease/cath-hemodynamics-aortic-stenosis-hanna/index.qmd
+            - handouts/01-ischemic-heart-disease/ccu-hemodynamic-monitor-and-shock-hf/index.qmd
             - handouts/01-ischemic-heart-disease/ffr_實證與血運重建策略/index.qmd
+            - handouts/01-ischemic-heart-disease/lecture-post-mi-mechanical-complications/index.qmd
+            - handouts/01-ischemic-heart-disease/nejm-acs-dapt-withdrawal-of-aspirin/index.qmd
             - handouts/01-ischemic-heart-disease/stemi_missed_diagnosis_case_study/index.qmd
         - section: "心衰竭 Heart Failure"
           contents:
             - handouts/02-heart-failure/index.qmd
+            - handouts/02-heart-failure/journal-pa-pressure-monitor-2025/index.qmd
+            - handouts/02-heart-failure/lecture-managing-hf-in-ed/index.qmd
         - section: "心律不整 Arrhythmia"
           contents:
             - handouts/03-arrhythmia/index.qmd
@@ -40,62 +48,167 @@ website:
             - handouts/03-arrhythmia/ecg-reading-guide-for-nurses-護理心電圖判讀指南/index.qmd
             - handouts/03-arrhythmia/ecg_interpretation_myocardial_infarction_a_clinical_guide/index.qmd
             - handouts/03-arrhythmia/ecg_reading_guide_護理心電圖判讀指南/index.qmd
+            - handouts/03-arrhythmia/ehj-afib-k/index.qmd
             - handouts/03-arrhythmia/european-heart-journal-beat-parox-af-pfa-vs-rfa-2025-afib-ep/index.qmd
             - handouts/03-arrhythmia/lecture-ecg-master-class/index.qmd
+            - handouts/03-arrhythmia/lecture-ecg-master-class-1/index.qmd
             - handouts/03-arrhythmia/nejm-ai-ecg-learning/index.qmd
             - handouts/03-arrhythmia/nejm-ocean-trial-af-ablation-anticoagulation-2026-ep/index.qmd
             - handouts/03-arrhythmia/nejm-physiologic-pacing-heart-failure-2026-ep/index.qmd
+            - handouts/03-arrhythmia/nejm-review-long-qt-syndrome/index.qmd
             - handouts/03-arrhythmia/physiologic-pacing-in-heart-failure/index.qmd
         - section: "瓣膜疾病 Valvular"
           contents:
             - handouts/04-valvular-disease/index.qmd
             - handouts/04-valvular-disease/cath-hemodynamics-aortic-stenosis-as-tavr-hanna/index.qmd
+            - handouts/04-valvular-disease/circulation-cvi-t-teer-hemodynamics/index.qmd
             - handouts/04-valvular-disease/eurointervention-m-teer-mitraclip-review/index.qmd
+            - handouts/04-valvular-disease/eurointervention-m-teer-review/index.qmd
             - handouts/04-valvular-disease/european-heart-journal-top-10-vhd-2025/index.qmd
+            - handouts/04-valvular-disease/hf-valvular-heart/index.qmd
+            - handouts/04-valvular-disease/journal-reading-tavi-2025-06/index.qmd
+            - handouts/04-valvular-disease/journal-reading-teer-2025-08/index.qmd
+            - handouts/04-valvular-disease/journal-reading-teer-2025-09/index.qmd
+            - handouts/04-valvular-disease/journal-reading-teer-2025-10/index.qmd
+            - handouts/04-valvular-disease/journal-reading-teer-2025-11/index.qmd
+            - handouts/04-valvular-disease/journal-reading-teer-2025-11b/index.qmd
+            - handouts/04-valvular-disease/lecture-cath-asd-papvr/index.qmd
             - handouts/04-valvular-disease/lecture-mitral-ptmv/index.qmd
             - handouts/04-valvular-disease/lecture-mitral-ptmv-inoue-balloon-tutorial/index.qmd
             - handouts/04-valvular-disease/lecture-mitral-teer/index.qmd
+            - handouts/04-valvular-disease/lecture-mitral-tmvr-encircle-trial/index.qmd
+            - handouts/04-valvular-disease/lecture-mitral-tmvr-sapien-m3/index.qmd
             - handouts/04-valvular-disease/nejm-clinical-decisions-tavr-vs-savr-2026/index.qmd
             - handouts/04-valvular-disease/sdm_pda_tavr_vs_savr_主動脈瓣膜狹窄治療決策/index.qmd
+            - handouts/04-valvular-disease/structural-pfo-echo/index.qmd
             - handouts/04-valvular-disease/tavr-ct-evaluation/index.qmd
+            - handouts/04-valvular-disease/teer-2023-dapagliflozin-and-mr/index.qmd
+            - handouts/04-valvular-disease/teer-atrial-fmr-abstract/index.qmd
+            - handouts/04-valvular-disease/teer-checklists/index.qmd
+            - handouts/04-valvular-disease/teer-checklists-tee/index.qmd
             - handouts/04-valvular-disease/teer-pcronline-top-10-tricuspid-intervention-2025/index.qmd
         - section: "心臟影像 Imaging"
           contents:
             - handouts/05-cardiac-imaging/index.qmd
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-心臟磁振造影判讀/index.qmd
             - handouts/05-cardiac-imaging/cardiac_mri_lge_patterns_心臟磁振造影判讀/index.qmd
+            - handouts/05-cardiac-imaging/checklist-icu-pocus/index.qmd
+            - handouts/05-cardiac-imaging/echo-pharma-pulmonary-htn/index.qmd
+            - handouts/05-cardiac-imaging/echo_abi_and_vascular_duplex/index.qmd
+            - handouts/05-cardiac-imaging/echo_as/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_0_focus/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_0_focus_eng/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_0_views/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_10_ar/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_11_ms/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_12_mr/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_13_tv_disease/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_14_prosthetic_valve/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_15_endocarditis/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_16_right_heart_disease/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_17_aortic_disease/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_18_pericardial_disease/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_19_tumors_and_masses/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_1_principles/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_20_congenital_heart/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_2_obtaining_views/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_3_heart_chambers/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_41_strain/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_42_strain_and_ea/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_4_diastolic_dysfunction/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_5_dilated_cardiomyopathy/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_6_hypertrophic/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_71_strain_and_restrictive/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_7_restrictive/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_8_coronary/index.qmd
+            - handouts/05-cardiac-imaging/echo_book_9_as/index.qmd
+            - handouts/05-cardiac-imaging/echo_lv_thrombus/index.qmd
+            - handouts/05-cardiac-imaging/echo_lv_thrombus_case/index.qmd
+            - handouts/05-cardiac-imaging/echo_lvef/index.qmd
+            - handouts/05-cardiac-imaging/echo_lvef_al/index.qmd
+            - handouts/05-cardiac-imaging/echo_lvef_different_measurements/index.qmd
+            - handouts/05-cardiac-imaging/echo_lvef_rwma_teach/index.qmd
+            - handouts/05-cardiac-imaging/echo_mr/index.qmd
+            - handouts/05-cardiac-imaging/echo_sam_and_hocm/index.qmd
+            - handouts/05-cardiac-imaging/echo_topic_asd/index.qmd
             - handouts/05-cardiac-imaging/exam-cv-calculations-echo-cath/index.qmd
             - handouts/05-cardiac-imaging/exam-echo-as/index.qmd
+            - handouts/05-cardiac-imaging/exam-echo-atrial-fibrillation/index.qmd
+            - handouts/05-cardiac-imaging/exam-echo-atrial-fibrillation-10-units/index.qmd
+            - handouts/05-cardiac-imaging/lecture-cardiac-auscultation-with-details/index.qmd
             - handouts/05-cardiac-imaging/lecture-echo-book-0-focus-eng/index.qmd
+            - handouts/05-cardiac-imaging/lecture-lab-troponin/index.qmd
+            - handouts/05-cardiac-imaging/lecture-spect-thallium-scan-reading-ver-4/index.qmd
         - section: "介入心臟學 Interventional"
           contents:
             - handouts/06-interventional-cardiology/index.qmd
+            - handouts/06-interventional-cardiology/book-6-cag-procedure-and-interpret-eng/index.qmd
             - handouts/06-interventional-cardiology/book-61-cag-a-set-up/index.qmd
             - handouts/06-interventional-cardiology/book-62-cag-b-interpretation/index.qmd
+            - handouts/06-interventional-cardiology/cath-bifurcation-culotte/index.qmd
+            - handouts/06-interventional-cardiology/cath-bifurcation-dk-crush/index.qmd
+            - handouts/06-interventional-cardiology/cath-coronary-cto-patient-consent/index.qmd
+            - handouts/06-interventional-cardiology/cath-pci-aorto-ostial-lesions-eng/index.qmd
             - handouts/06-interventional-cardiology/cath-pci-aorto-ostial-lesoins/index.qmd
+            - handouts/06-interventional-cardiology/cath-pci-case-202-thrombus-problem/index.qmd
+            - handouts/06-interventional-cardiology/cath-pci-case-202-thrombus-problem-eng/index.qmd
             - handouts/06-interventional-cardiology/cath-pci-wiring/index.qmd
+            - handouts/06-interventional-cardiology/cath-slide-2025-06a-lad-cto/index.qmd
+            - handouts/06-interventional-cardiology/cath-slide-2025-06b-lad-isrs-cto/index.qmd
             - handouts/06-interventional-cardiology/catheterization-risks-and-complications/index.qmd
+            - handouts/06-interventional-cardiology/ccu-pci-early-return/index.qmd
+            - handouts/06-interventional-cardiology/coronary-cto-antegrade-dissection/index.qmd
+            - handouts/06-interventional-cardiology/coronary-cto-double-blind-stick-and-swap/index.qmd
+            - handouts/06-interventional-cardiology/coronary-cto-ivus-td-adr/index.qmd
+            - handouts/06-interventional-cardiology/coronary-cto-proximal-ambiguity/index.qmd
+            - handouts/06-interventional-cardiology/cv-cvs-service-meeting-2025-10/index.qmd
+            - handouts/06-interventional-cardiology/eurointervention-dcb-and-bifurcation-2025/index.qmd
             - handouts/06-interventional-cardiology/eurointervention-dcb-bifurcation/index.qmd
+            - handouts/06-interventional-cardiology/exam-critical-care-camp-2025/index.qmd
             - handouts/06-interventional-cardiology/gmail---persistent-sciatic-artery-rt-side/index.qmd
             - handouts/06-interventional-cardiology/guidewire_science_art_and_clinical_wisdom/index.qmd
             - handouts/06-interventional-cardiology/jacc-cvi-2025-coronary-revascularization-icmp/index.qmd
             - handouts/06-interventional-cardiology/jacc-ny-cardiac-registries/index.qmd
             - handouts/06-interventional-cardiology/jic-mother-child-catheter-lm-dissection-2018/index.qmd
+            - handouts/06-interventional-cardiology/journal-reading-pci-stemi-dcb-eng/index.qmd
+            - handouts/06-interventional-cardiology/lecture-cad-and-severe-mr/index.qmd
+            - handouts/06-interventional-cardiology/lecture-cath-3d-wiring/index.qmd
+            - handouts/06-interventional-cardiology/lecture-cath-3d-wiring-eng/index.qmd
             - handouts/06-interventional-cardiology/lecture-cath-cardiac-arrest-in-cath-room/index.qmd
+            - handouts/06-interventional-cardiology/lecture-cath-ivus/index.qmd
+            - handouts/06-interventional-cardiology/lecture-cath-laao-tee/index.qmd
+            - handouts/06-interventional-cardiology/lecture-cath-pci-bifurcation-techniques/index.qmd
+            - handouts/06-interventional-cardiology/lecture-cath-qi-communication/index.qmd
+            - handouts/06-interventional-cardiology/lecture-coronary-remodeling/index.qmd
+            - handouts/06-interventional-cardiology/lecture-coronary-remodeling-eng/index.qmd
+            - handouts/06-interventional-cardiology/lecture-europcr-complications/index.qmd
+            - handouts/06-interventional-cardiology/lecture-europcr-complications-eng/index.qmd
+            - handouts/06-interventional-cardiology/lecture-ivl-icr-2025/index.qmd
             - handouts/06-interventional-cardiology/manual-pci-case202/index.qmd
+            - handouts/06-interventional-cardiology/news-letter-tet-2025-10-18/index.qmd
             - handouts/06-interventional-cardiology/oct-abbott-ultreon-20-software-操作手冊/index.qmd
+            - handouts/06-interventional-cardiology/pcs-k9i-vesalius-cv-2025/index.qmd
             - handouts/06-interventional-cardiology/people-in-cv-patrick-serruys/index.qmd
+            - handouts/06-interventional-cardiology/people-in-cv-peter-sleight/index.qmd
             - handouts/06-interventional-cardiology/persistent-sciatic-artery-paod/index.qmd
+            - handouts/06-interventional-cardiology/project-us-guided-puncture-evaluation-form/index.qmd
+            - handouts/06-interventional-cardiology/project-us-guided-puncture-for-nurses/index.qmd
+            - handouts/06-interventional-cardiology/project-us-guided-puncture-student-self-help-guide/index.qmd
+            - handouts/06-interventional-cardiology/tct-fame2-10-years/index.qmd
         - section: "周邊血管 Peripheral Vascular"
           contents:
             - handouts/07-peripheral-vascular/index.qmd
             - handouts/07-peripheral-vascular/advanced-materials-carotid-artery-chip-3d-printing-2026/index.qmd
+            - handouts/07-peripheral-vascular/book-carotid-stenting/index.qmd
             - handouts/07-peripheral-vascular/carotid-stenting-review/index.qmd
             - handouts/07-peripheral-vascular/exam-echo-abi-and-paod-vascular-duplex/index.qmd
+            - handouts/07-peripheral-vascular/lecture-carotid-blowout/index.qmd
+            - handouts/07-peripheral-vascular/nejm-crest-2-2025-11-21/index.qmd
             - handouts/07-peripheral-vascular/nejm-ischemic-limb-gangrene-with-pulses-2015/index.qmd
             - handouts/07-peripheral-vascular/nejm-pad-review-mcdermott-2026/index.qmd
             - handouts/07-peripheral-vascular/nhmrc-carotid-web-rbc-thrombosis-2026/index.qmd
             - handouts/07-peripheral-vascular/paod-nejm-review-mcdermott-2026/index.qmd
+            - handouts/07-peripheral-vascular/slide-carotid-blowout/index.qmd
         - section: "遺傳醫學 Genetics"
           contents:
             - handouts/08-genetic-medicine/index.qmd
@@ -106,16 +219,31 @@ website:
         - section: "ICU 一般照護"
           contents:
             - handouts/10-icu-general/index.qmd
+            - handouts/10-icu-general/acls-team-work/index.qmd
+            - handouts/10-icu-general/ccu-book-reading-project/index.qmd
+            - handouts/10-icu-general/ccu-micu-r-lecture-01/index.qmd
+            - handouts/10-icu-general/ccu-micu-r-lecture-02/index.qmd
+            - handouts/10-icu-general/ccu-micu-r-orientation-lecture/index.qmd
+            - handouts/10-icu-general/ccu-micu-r-orientation-slide/index.qmd
             - handouts/10-icu-general/critical-care-2026-icuaw-rehabilitation/index.qmd
             - handouts/10-icu-general/icm-ai-in-icu/index.qmd
+            - handouts/10-icu-general/icm-airway-management/index.qmd
             - handouts/10-icu-general/icm-broad-spectrum-antibiotics-2024/index.qmd
             - handouts/10-icu-general/icm-clinical-governance-2024/index.qmd
+            - handouts/10-icu-general/icm-ecmo-weaning/index.qmd
+            - handouts/10-icu-general/icm-frailty-and-ecmo/index.qmd
             - handouts/10-icu-general/icm-metabolic-acidosis-buffering-2024/index.qmd
             - handouts/10-icu-general/icm-standards-atrial-fibrillation-echo/index.qmd
+            - handouts/10-icu-general/icm-stepwise-fluid-management/index.qmd
             - handouts/10-icu-general/icm-stress-ulcer-prevention-2024/index.qmd
+            - handouts/10-icu-general/jacc-cvi-2025-revascularization-icmp/index.qmd
             - handouts/10-icu-general/lecture-ccu-hematoma/index.qmd
             - handouts/10-icu-general/lecture-ccu-pulmonary-edema/index.qmd
             - handouts/10-icu-general/lecture-ccu-r-and-np-orientation/index.qmd
+            - handouts/10-icu-general/lecture-team-cpr-archive/index.qmd
+            - handouts/10-icu-general/nejm-airway-peroxi/index.qmd
+            - handouts/10-icu-general/nejm-evidence-diuretics-dose/index.qmd
+            - handouts/10-icu-general/nejm-evidence-pneumonia/index.qmd
         - section: "ICU 呼吸系統"
           contents:
             - handouts/11-icu-respiratory/index.qmd
@@ -124,9 +252,17 @@ website:
           contents:
             - handouts/12-icu-hemodynamics/index.qmd
             - handouts/12-icu-hemodynamics/cardiogenic-shock-school-esc-心因性休克教學講義/index.qmd
+            - handouts/12-icu-hemodynamics/ccu-cardiogenic-shock/index.qmd
+            - handouts/12-icu-hemodynamics/ccu-cardiogenic-shock-journal-reading/index.qmd
+            - handouts/12-icu-hemodynamics/ccu-cath-iabp-elias-hanna/index.qmd
+            - handouts/12-icu-hemodynamics/ccu-cath-iabp-exam/index.qmd
+            - handouts/12-icu-hemodynamics/ccu-cath-iabp-troubleshooting/index.qmd
+            - handouts/12-icu-hemodynamics/ccu-cath-iabp-troubleshooting-eng/index.qmd
             - handouts/12-icu-hemodynamics/ccu-iabp-prague/index.qmd
             - handouts/12-icu-hemodynamics/icm-2024-cardiac-output-monitoring/index.qmd
             - handouts/12-icu-hemodynamics/icm-va-ecmo-echo-checklist-2024/index.qmd
+            - handouts/12-icu-hemodynamics/nejm-cardiogenic-shock/index.qmd
+            - handouts/12-icu-hemodynamics/plan-ecmo-training/index.qmd
         - section: "ICU 腎臟"
           contents:
             - handouts/13-icu-renal/index.qmd
@@ -135,30 +271,46 @@ website:
           contents:
             - handouts/20-pulmonary-embolism/index.qmd
             - handouts/20-pulmonary-embolism/circulation-storm-pe-2025/index.qmd
+            - handouts/20-pulmonary-embolism/journal-reading-vte-cancer-apixaban-2025-06/index.qmd
             - handouts/20-pulmonary-embolism/lecture-acute-pe-cdt/index.qmd
+            - handouts/20-pulmonary-embolism/lecture-pe-cdt/index.qmd
+            - handouts/20-pulmonary-embolism/lecture-pulmonary-embolism-rv-echo/index.qmd
         - section: "肺高壓 PH"
           contents:
             - handouts/21-pulmonary-hypertension/index.qmd
+            - handouts/21-pulmonary-hypertension/ajrccm-pulmonary-catheter-cytology/index.qmd
             - handouts/21-pulmonary-hypertension/checklist-pulmonary-hypertension/index.qmd
             - handouts/21-pulmonary-hypertension/chest-2026-ild-ph/index.qmd
         - section: "COPD & 氣喘"
           contents:
             - handouts/22-copd-asthma/index.qmd
             - handouts/22-copd-asthma/ajrccm-airflow-3-copd-2025/index.qmd
+            - handouts/22-copd-asthma/lecture-cpet-for-copd-and-hf/index.qmd
         - section: "AI & 科技"
           contents:
             - handouts/90-ai-technology/index.qmd
             - handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial_zh/index.qmd
+            - handouts/90-ai-technology/icm-ai-in-icu/index.qmd
+            - handouts/90-ai-technology/lecture-nobel-alpha-fold/index.qmd
             - handouts/90-ai-technology/major-ai-conference-flooded-with-peer-reviews-written-fully-/index.qmd
             - handouts/90-ai-technology/nature-2025-ai-peer-review/index.qmd
             - handouts/90-ai-technology/nejm-ai-chatgpt-grading-2025/index.qmd
+            - handouts/90-ai-technology/nejm-ai-ecg-learning/index.qmd
             - handouts/90-ai-technology/nejm_ai_medagentbench_2025/index.qmd
         - section: "Podcast 期刊回顧"
           contents:
             - handouts/91-podcast-journal-review/index.qmd
+            - handouts/91-podcast-journal-review/beta-blocker-post-mi-2025/index.qmd
+            - handouts/91-podcast-journal-review/circulation-2025-10-14/index.qmd
+            - handouts/91-podcast-journal-review/circulation-2025-10-21-2/index.qmd
+            - handouts/91-podcast-journal-review/circulation-2025-11-04/index.qmd
+            - handouts/91-podcast-journal-review/circulation-2025-11-11/index.qmd
+            - handouts/91-podcast-journal-review/circulation-2025-11-18/index.qmd
+            - handouts/91-podcast-journal-review/circulation-2025-11-25/index.qmd
             - handouts/91-podcast-journal-review/circulation-2025-12-02/index.qmd
+            - handouts/91-podcast-journal-review/circulation-2025-12-09/index.qmd
             - handouts/91-podcast-journal-review/circulation-2025-12-16/index.qmd
             - handouts/91-podcast-journal-review/circulation-2025-12-23/index.qmd
             - handouts/91-podcast-journal-review/circulation-2026-01-06/index.qmd
@@ -166,7 +318,13 @@ website:
             - handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-11/index.qmd
             - handouts/91-podcast-journal-review/circulation-on-the-run-2025-11-25/index.qmd
             - handouts/91-podcast-journal-review/ehj-star-study-psgb-electrical-storm-2024/index.qmd
+            - handouts/91-podcast-journal-review/eur-heart-j-2025-10-31/index.qmd
+            - handouts/91-podcast-journal-review/eur-heart-j-2025-11-07/index.qmd
+            - handouts/91-podcast-journal-review/eur-heart-j-2025-11-14/index.qmd
             - handouts/91-podcast-journal-review/eur-heart-j-2025-11-21/index.qmd
+            - handouts/91-podcast-journal-review/eur-heart-j-2025-11-21-serruys/index.qmd
+            - handouts/91-podcast-journal-review/eur-heart-j-2025-12-01/index.qmd
+            - handouts/91-podcast-journal-review/eur-heart-j-2025-12-08/index.qmd
             - handouts/91-podcast-journal-review/eur-heart-j-2025-12-14/index.qmd
             - handouts/91-podcast-journal-review/eur-heart-j-2025-12-23/index.qmd
             - handouts/91-podcast-journal-review/eur-heart-j-2026-01-07/index.qmd
@@ -174,33 +332,128 @@ website:
             - handouts/91-podcast-journal-review/eur-heart-j-2026-01-21/index.qmd
             - handouts/91-podcast-journal-review/eur-heart-j-hnmt-heart-failure-2026/index.qmd
             - handouts/91-podcast-journal-review/eur-heart-j-top-10-vhd-2025/index.qmd
+            - handouts/91-podcast-journal-review/eur-heart-j-vte-and-cancer/index.qmd
+            - handouts/91-podcast-journal-review/eurointervention-2025-11-07/index.qmd
+            - handouts/91-podcast-journal-review/eurointervention-2025-11-14/index.qmd
+            - handouts/91-podcast-journal-review/eurointervention-2025-11-21/index.qmd
+            - handouts/91-podcast-journal-review/eurointervention-2025-11-21-london-valve-2025/index.qmd
+            - handouts/91-podcast-journal-review/eurointervention-2025-12-01/index.qmd
             - handouts/91-podcast-journal-review/eurointervention-2025-12-01-calcified-nodules/index.qmd
             - handouts/91-podcast-journal-review/eurointervention-2025-12-23/index.qmd
             - handouts/91-podcast-journal-review/eurointervention-2026-01-05/index.qmd
+            - handouts/91-podcast-journal-review/eurointervention-as-bav/index.qmd
             - handouts/91-podcast-journal-review/eurointervention-intravascular-imaging-2024-2025/index.qmd
+            - handouts/91-podcast-journal-review/eurointervention-prasugrel-2025-11/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-10-21/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-10-28-proctor/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-10-28-proctor-eng/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-10-28-strive/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-10-28-strive-eng/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-11-04/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-11-11/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-11-18/index.qmd
+            - handouts/91-podcast-journal-review/jacc-2025-11-18-news-letter-for-general/index.qmd
             - handouts/91-podcast-journal-review/jacc-2025-11-25/index.qmd
             - handouts/91-podcast-journal-review/jacc-2025-12-02/index.qmd
             - handouts/91-podcast-journal-review/jacc-2025-12-02-podcast/index.qmd
             - handouts/91-podcast-journal-review/jacc-2025-12-22/index.qmd
+            - handouts/91-podcast-journal-review/lecture-laao-studies/index.qmd
+            - handouts/91-podcast-journal-review/nejm-deferring-arterial-line/index.qmd
+            - handouts/91-podcast-journal-review/nejm-images-2025-11/index.qmd
+        - section: "NEJM Case Records"
+          contents:
+            - handouts/nejm-case-records/nejm-case-1-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-1-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-10-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-11-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-12-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-13-2020/index.qmd
+            - handouts/nejm-case-records/nejm-case-13-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-14-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-15-1967/index.qmd
+            - handouts/nejm-case-records/nejm-case-15-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-15-cps-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-16-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-17-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-18-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-18-cps-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-19-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-2-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-2-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-20-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-21-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-22-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-23-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-23-cps-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-24-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-24-cps-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-25-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-26-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-27-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-27-cps-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-28-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-29-2010/index.qmd
+            - handouts/nejm-case-records/nejm-case-29-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-3-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-3-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-30-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-31-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-31-cps-2025-id/index.qmd
+            - handouts/nejm-case-records/nejm-case-32-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-33-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-34-2024/index.qmd
+            - handouts/nejm-case-records/nejm-case-34-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-34-cps-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-35-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-36-1968/index.qmd
+            - handouts/nejm-case-records/nejm-case-36-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-36-cps-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-4-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-4-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-40-2010/index.qmd
+            - handouts/nejm-case-records/nejm-case-48-1979/index.qmd
+            - handouts/nejm-case-records/nejm-case-5-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-5-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-6-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-6-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-7-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-7-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-8-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-8-2026/index.qmd
+            - handouts/nejm-case-records/nejm-case-9-2025/index.qmd
+            - handouts/nejm-case-records/nejm-case-9-2026/index.qmd
+            - handouts/nejm-case-records/nejm-cps-2025-05-aki/index.qmd
+            - handouts/nejm-case-records/nejm-cps-botulism-2026/index.qmd
+            - handouts/nejm-case-records/nejm-cps-hiv-2026/index.qmd
         - section: "其他 Misc"
           contents:
             - handouts/99-misc/index.qmd
             - handouts/99-misc/acls-team-work/index.qmd
             - handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.qmd
             - handouts/99-misc/book-cardiovascular-care-for-neurologists/index.qmd
+            - handouts/99-misc/case-slide-compartment-syndrome/index.qmd
             - handouts/99-misc/chest-implementation-science-practice-variability-2026/index.qmd
             - handouts/99-misc/communication_生死告別_真實溝通/index.qmd
             - handouts/99-misc/dan-koe-how-to-fix-your-life-2026/index.qmd
             - handouts/99-misc/dan-koe-how-to-fix-your-life-2026-通用版/index.qmd
             - handouts/99-misc/dietary-natural-approaches-stroke-prevention-2025/index.qmd
+            - handouts/99-misc/esc-consensus-mentality-illness/index.qmd
             - handouts/99-misc/eurointervention-calcified-nodules-ali/index.qmd
             - handouts/99-misc/eurointervention-emb-2026/index.qmd
             - handouts/99-misc/jacc-behind-the-science-2026-01-06/index.qmd
             - handouts/99-misc/jacc-equal-trial-smartwatch-af-2026/index.qmd
             - handouts/99-misc/jacc-medicare-covid-19-cardiovascular-outcomes-2026/index.qmd
             - handouts/99-misc/journal-pa-pressure-monitor-2025/index.qmd
+            - handouts/99-misc/journal-reading-finerenone-2025/index.qmd
+            - handouts/99-misc/journal-reading-malnutrition-2025-06/index.qmd
+            - handouts/99-misc/journal-reading-medical-education-discontinuation/index.qmd
+            - handouts/99-misc/journal-reading-semaglutid-2025-05/index.qmd
             - handouts/99-misc/lecture-lab-troponin/index.qmd
             - handouts/99-misc/medical_journals/index.qmd
+            - handouts/99-misc/nature-2025-brain-development/index.qmd
+            - handouts/99-misc/nature-2025-bred-dogs/index.qmd
+            - handouts/99-misc/nature-2025-new-events/index.qmd
+            - handouts/99-misc/nature-2025-obesity-paradox/index.qmd
             - handouts/99-misc/nature-covid-19-rbc-microangiopathy-2025/index.qmd
             - handouts/99-misc/nature-news-east-fusion-2026-科普講義/index.qmd
             - handouts/99-misc/nejm-case-1-2026/index.qmd
@@ -225,10 +478,13 @@ website:
             - handouts/99-misc/nejm-case-7-2026/index.qmd
             - handouts/99-misc/nejm-case-8-2026/index.qmd
             - handouts/99-misc/nejm-crest-2-2026/index.qmd
+            - handouts/99-misc/nejm-fish-oil-esrd-cv-outcomes/index.qmd
             - handouts/99-misc/nejm-rifampin-tb-meningitis/index.qmd
             - handouts/99-misc/nejmcps2508044/index.qmd
             - handouts/99-misc/people-in-cv-peter-sleight/index.qmd
+            - handouts/99-misc/pericardial-effusion/index.qmd
             - handouts/99-misc/pisces_fish_oil_hemodialysis/index.qmd
+            - handouts/99-misc/plan-critical-medicine-collaboration/index.qmd
             - handouts/99-misc/reading-teaching-nejm-bedside-encounter/index.qmd
             - handouts/99-misc/reading-teaching-nejm-critical-pedagogy-and/index.qmd
             - handouts/99-misc/reading-teaching-nejm-diagnostic-equity-2025/index.qmd
@@ -236,6 +492,9 @@ website:
             - handouts/99-misc/reading-teaching-nejm-ethics-the-consultant/index.qmd
             - handouts/99-misc/rybrevant_vte_prevention/index.qmd
             - handouts/99-misc/simpsons_paradox/index.qmd
+            - handouts/99-misc/slide-esc-2025-summary/index.qmd
+            - handouts/99-misc/slide-esc-2025-summary-eng/index.qmd
+            - handouts/99-misc/tutorial-how-to-make-journal-reading-summary/index.qmd
             - handouts/99-misc/醫法倫/index.qmd
             - handouts/99-misc/醫法倫_討論_謝慕揚/index.qmd
 

@@ -1,0 +1,500 @@
+---
+title: "Case 9-2025: A 59-Year-Old Man with Cirrhosis and Liver Lesions"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-01-01
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+{**Case 9-2025: A 59-Year-Old Man with Cirrhosis and Liver Lesions**}
+[0.5em]
+{Case Records of the Massachusetts General Hospital}
+[0.5em]
+{N Engl J Med 2025;392:1216-27}
+[1em]
+{59歲男性，肝硬化合併肝臟病灶}
+
+
+\tableofcontents
+
+---
+
+
+## Case Presentation 病例報告
+
+
+### Chief Complaint 主訴
+
+A 59-year-old man with a history of obesity, dyslipidemia, and hypertension was evaluated in the oncology clinic of this hospital because of hepatocellular carcinoma.
+
+一位59歲男性，有肥胖、血脂異常和高血壓病史，因肝細胞癌至本院腫瘤科就診。
+
+
+### History of Present Illness 現病史
+
+
+**12.5 Years Before Evaluation 就診前12.5年**:
+Elevated blood levels of aspartate aminotransferase (AST) and alanine aminotransferase (ALT) were incidentally noted by his primary care physician. The patient reported no history of alcohol use. A presumptive diagnosis of metabolic dysfunction-associated steatotic liver disease (MASLD, previously known as nonalcoholic fatty liver disease) was made.
+
+初級照護醫師意外發現血液天門冬胺酸轉胺酶（AST）和丙胺酸轉胺酶（ALT）升高。病人表示無飲酒史。做出代謝功能障礙相關脂肪肝疾病（MASLD，先前稱為非酒精性脂肪肝）的推定診斷。
+
+**9.75 Years Before Evaluation 就診前9.75年**:
+The patient was evaluated at a second hospital because of malaise, fatigue, and dark-red stools. Esophagogastroduodenoscopy showed bile reflux gastritis without varices or portal hypertensive gastropathy. Colonoscopy showed a small polyp in the transverse colon (removed). Helicobacter pylori infection was diagnosed and treated. Viral hepatitis serologies were negative (HBsAg-, HBcAb-, HBsAb+, Anti-HCV-).
+
+病人因倦怠、疲勞及暗紅色大便至第二家醫院就診。食道胃十二指腸鏡檢查顯示膽汁逆流性胃炎，無靜脈曲張或門脈高壓性胃病變。大腸鏡檢查發現橫結腸一小息肉（已切除）。診斷幽門螺旋桿菌感染並予以治療。病毒性肝炎血清學陰性。
+
+Abdominal ultrasonography findings:
+
+- Normal-sized liver with heterogeneous parenchyma 肝臟大小正常但實質回音不均勻
+- No dilated intrahepatic or extrahepatic ducts 無肝內或肝外膽管擴張
+- Splenomegaly (16.7 cm; reference <13.2) 脾腫大
+- Prominent vessels in the splenic hilum consistent with varices 脾門處明顯血管，符合靜脈曲張
+
+
+Splenomegaly with splenic hilar varices in a patient with abnormal liver tests suggests portal hypertension, even before cirrhosis is definitively diagnosed on imaging.
+
+**9.25 Years Before Evaluation 就診前9.25年**:
+Physical examination at a third hospital: BP 152/82 mmHg, weight 115 kg, height 175 cm, BMI 37.6. Sclerae and skin were anicteric. Liver extended across the right upper quadrant past the midline. Spider angiomas were present on the chest.
+
+第三家醫院身體檢查：血壓152/82 mmHg，體重115公斤，身高175公分，BMI 37.6。鞏膜及皮膚無黃疸。肝臟延伸至右上腹過中線。胸部可見蜘蛛痣。
+
+**Liver Biopsy (9 Years Before Evaluation) 肝臟切片（就診前9年）**:
+Features consistent with chronic steatohepatitis with prominent portal inflammation and bridging fibrosis (stage 3). Macrovesicular steatosis, hepatocyte ballooning, and Mallory-Denk bodies were present.
+
+特徵符合慢性脂肪肝炎，伴有明顯門脈發炎及橋接纖維化（第3期）。可見大泡性脂肪變性、肝細胞氣球樣變性及Mallory-Denk小體。
+
+importantbox
+**Diagnosis: MASH (Metabolic Dysfunction-Associated Steatohepatitis)**
+
+診斷：MASH（代謝功能障礙相關脂肪肝炎）
+
+Histologic features of MASH: Macrovesicular steatosis + hepatocyte ballooning + lobular inflammation ± Mallory-Denk bodies
+importantbox
+
+**HCC Detection 發現HCC**:
+Surveillance abdominal ultrasonography at 6-12 month intervals. Twelve months before evaluation, ultrasonography revealed a new echogenic lesion measuring 1.2 cm in liver segment 7. Serial MRI showed progressive enlargement (1.2 cm → 2.4 cm → 2.8 cm). Biopsy confirmed hepatocellular carcinoma arising in a background of micronodular cirrhosis.
+
+每6-12個月進行腹部超音波監測。就診前12個月，超音波發現肝臟第7節段一新的1.2公分回音性病灶。連續MRI顯示病灶逐漸增大（1.2 cm → 2.4 cm → 2.8 cm）。切片確認為微結節性肝硬化背景上的肝細胞癌。
+
+
+### Past Medical History 過去病史
+
+
+- Obesity (BMI 37.6) 肥胖
+- Dyslipidemia (hypertriglyceridemia) 血脂異常（高三酸甘油酯血症）
+- Hypertension 高血壓
+- Nephrolithiasis 腎結石
+- No history of alcohol use 無飲酒史
+- Former smoker (quit 30 years ago) 曾吸菸（30年前戒菸）
+
+
+### Family History 家族史
+
+
+- Father: Primary sclerosing cholangitis, died at age 80 父親：原發性硬化性膽管炎，80歲過世
+- Uncle: Hepatic cancer 叔叔：肝癌
+- Mother: Hypertension, hypercholesterolemia, coronary artery disease 母親：高血壓、高膽固醇血症、冠狀動脈疾病
+- Brother: Diabetes mellitus 兄弟：糖尿病
+
+
+### Physical Examination 身體檢查
+
+
+| p{11cm}}  **System 系統** | **Findings 發現** |  |
+| --- | --- | --- |
+| Vital signs 生命徵象 | BP 138/86 mmHg, HR 60 bpm, BMI 36.4 |  |
+| General 一般狀況 | Obese man, no acute distress    肥胖男性，無急性病容 |  |
+| HEENT 頭頸部 | Spider angiomas on face, conjunctivae anicteric    面部蜘蛛痣，結膜無黃疸 |  |
+| Abdomen 腹部 | Obese, hepatomegaly, no ascites    肥胖，肝腫大，無腹水 |  |
+| Extremities 四肢 | Palmar erythema, 1+ pedal edema    手掌紅斑，足部1+水腫 |  |
+| MELD 3.0 score | 14 (range 6-40; higher = worse) |  |
+
+
+Stigmata of chronic liver disease in this patient: spider angiomas, palmar erythema, and pedal edema suggest portal hypertension and hepatic synthetic dysfunction.
+
+
+### Laboratory Data 檢驗數據
+
+
+| p{2.5cm} p{2.5cm} p{6cm}}  **Test 檢驗項目** | **Result 結果** | **Reference 參考值** |
+| --- | --- | --- |
+| AST | 60 U/L | 10-40 |
+| ALT | 46 U/L | 10-55 |
+| Alkaline phosphatase | 136 U/L | 45-115 |
+| Total bilirubin | 2.3 mg/dL | 0.0-1.0 |
+| Albumin | 3.7 g/dL | 3.5-5.2 |
+| PT | 15.5 sec | 10.3-13.2 |
+| INR | 1.4 | 0.9-1.1 |
+| Platelet count | 67,000/uL | 150,000-400,000 |
+| Iron | 220 ug/dL | 45-160 |
+| Ferritin | 558 ng/mL | 30-300 |
+| Alpha-fetoprotein | 8.0 ng/mL | <6.1 |
+| ANA | Negative | Negative |
+| SMA | Positive 1:40 | Negative |
+| Antimitochondrial Ab | Negative | Negative |
+
+
+importantbox
+**Key Finding**: Thrombocytopenia (67,000/uL) in a patient with splenomegaly is a critical clue to portal hypertension and underlying cirrhosis.
+
+**關鍵發現**：脾腫大病人合併血小板低下（67,000/uL）是門脈高壓和潛在肝硬化的重要線索。
+importantbox
+
+
+## Medical English Writing Analysis 醫學英文寫作分析
+
+
+### Key Medical Terms 重要醫學術語
+
+
+| p{4cm} p{6cm}}  **English Term** | **Chinese Translation** | **Definition/Context** |
+| --- | --- | --- |
+| Metabolic dysfunction-associated steatotic liver disease (MASLD) | 代謝功能障礙相關脂肪肝疾病 | New nomenclature (2023) replacing NAFLD |
+| Metabolic dysfunction-associated steatohepatitis (MASH) | 代謝功能障礙相關脂肪肝炎 | Replaces NASH; steatosis with inflammation and hepatocyte injury |
+| Hepatocellular carcinoma (HCC) | 肝細胞癌 | Primary malignancy from hepatocytes |
+| Bridging fibrosis | 橋接纖維化 | Stage 3 fibrosis; fibrous septa connecting portal tracts |
+| Mallory-Denk bodies | Mallory-Denk小體 | Eosinophilic cytoplasmic inclusions in ballooned hepatocytes |
+| Hepatocyte ballooning | 肝細胞氣球樣變性 | Swollen hepatocytes indicating cellular injury |
+| Portal hypertension | 門脈高壓 | Increased pressure in portal venous system |
+| Splenic sequestration | 脾臟滯留 | Trapping of platelets in enlarged spleen |
+| Arterial phase hyperenhancement | 動脈期高增強 | Early contrast enhancement typical of HCC |
+| Washout | 洗出 | Rapid contrast clearance in portal/delayed phase |
+| Milan criteria | 米蘭標準 | Transplant eligibility criteria for HCC |
+| Downstaging | 降期 | Reducing tumor burden to meet transplant criteria |
+
+
+### Important Phrases 重要片語
+
+
+| p{9cm}}  **English Phrase** | **Usage Context 使用情境** |  |
+| --- | --- | --- |
+| "arising in a background of" | Describing tumor development in pre-existing condition    描述腫瘤在既存疾病背景中發展 |  |
+| "is associated with an increased risk of" | Epidemiological association statement    流行病學相關性陳述 |  |
+| "in the absence of excess alcohol use" | Exclusion criterion for MASLD diagnosis    MASLD診斷的排除標準 |  |
+| "at 6-12 month intervals" | Describing surveillance frequency    描述監測頻率 |  |
+| "results in resolution of" | Describing treatment outcome    描述治療結果 |  |
+
+
+## Differential Diagnosis 鑑別診斷
+
+
+### Classification of Steatotic Liver Disease 脂肪肝疾病分類
+
+
+**2023 Nomenclature Update**: NAFLD is now MASLD; NASH is now MASH. This removes stigmatizing language and emphasizes the cardiometabolic basis of disease.
+
+
+| p{4cm} p{4cm} p{3.5cm}}  **Diagnosis 診斷** | **Definition 定義** | **This Patient 本病人** |
+| --- | --- | --- |
+| MASLD | Steatosis + >=1 cardiometabolic risk factor + no excess alcohol | Obesity, HTN, dyslipidemia; no alcohol |
+| MASH | MASLD + hepatocyte injury on biopsy | Ballooning, inflammation, Mallory-Denk bodies |
+| ALD (Alcohol-associated liver disease) | Steatosis + excess alcohol | Patient denied alcohol use consistently |
+| MetALD | Steatosis + cardiometabolic RF + excess alcohol | No alcohol use |
+| Viral hepatitis B/C | Positive viral markers | HBsAg-, HCV Ab- |
+| Autoimmune hepatitis | ANA+, SMA+, elevated IgG, interface hepatitis | ANA-, SMA weakly + (nonspecific) |
+| Primary biliary cholangitis | AMA+, cholestatic pattern | AMA negative |
+
+
+### Fibrosis Staging in MASH
+
+
+| p{5cm} p{4cm} p{4cm}}  **Stage** | **Histology 組織學** | **Risk 風險** |
+| --- | --- | --- |
+| F0 | No fibrosis | Low mortality risk |
+| F1 | Perisinusoidal or periportal fibrosis | Increased mortality |
+| F2 | Perisinusoidal and periportal | Significant mortality |
+| F3 | Bridging fibrosis | High risk of progression |
+| F4 | Cirrhosis | Highest complication risk |
+
+
+## Discussion 討論
+
+
+### MASLD/MASH: A Growing Epidemic
+
+
+MASLD is the most common chronic liver disease worldwide, affecting approximately 25
+
+MASLD是全球最常見的慢性肝病，影響約25
+
+
+#### Cardiometabolic Risk Factors for MASLD
+
+
+- Overweight/Obesity (BMI >=25, or >=23 in Asians)
+- Type 2 diabetes mellitus or prediabetes
+- Hypertension (>=130/85 mmHg or on treatment)
+- Hypertriglyceridemia (>=150 mg/dL)
+- Low HDL cholesterol (<40 mg/dL men, <50 mg/dL women)
+- Elevated waist circumference
+- Insulin resistance (HOMA-IR >=2.5)
+
+
+### Progression from MASH to HCC
+
+
+1. **MASLD → MASH**: Hepatocyte injury develops (steatosis + inflammation + ballooning)
+2. **MASH → Fibrosis**: Progressive scarring from stages F1-F4
+3. **Fibrosis → Cirrhosis**: Stage F4 with regenerative nodules
+4. **Cirrhosis → HCC**: Annual cumulative incidence 2.6
+
+
+Unlike viral hepatitis, HCC can rarely develop in non-cirrhotic MASH patients, but screening is only cost-effective in cirrhotic patients.
+
+
+### Weight Loss: The Foundation of MASH Treatment
+
+
+| p{5cm} p{6cm}}  **Weight Loss 減重** | **Outcome 結果** | **Clinical Significance 臨床意義** |
+| --- | --- | --- |
+| >=5 | Reduction in hepatic steatosis | Visible on imaging |
+| >=7 | Resolution of steatohepatitis in many patients | Histologic improvement |
+| >=10 | MASH resolution in 90  Fibrosis improvement in 45 | Foundation of MASLD/MASH management |
+
+
+### Resmetirom: First FDA-Approved Drug for MASH
+
+
+Resmetirom (Rezdiffra) is a thyroid hormone receptor beta-selective agonist approved in March 2024 for MASH with moderate fibrosis (stage F2-F3).
+
+Resmetirom（Rezdiffra）是一種甲狀腺激素受體β選擇性致效劑，於2024年3月被核准用於中度纖維化（F2-F3期）的MASH。
+
+
+- Mechanism: Activates THR-beta in liver → reduces hepatic fat, inflammation, and fibrosis
+- Indication: MASH with stage F2-F3 fibrosis (not cirrhosis)
+- Key trial: MAESTRO-NASH showed 30
+
+
+### HCC Diagnosis: LI-RADS Criteria
+
+
+Hepatocellular carcinoma can be diagnosed by imaging without biopsy when characteristic features are present:
+
+
+- **Arterial phase hyperenhancement (APHE)**: Tumor enhances brighter than liver in arterial phase
+- **Washout**: Tumor becomes darker than liver in portal venous or delayed phase
+- **Capsule appearance**: Peripheral rim enhancement
+- **Threshold growth**: >=50
+
+
+This patient's lesion had atypical features (heterogeneous enhancement WITHOUT rapid washout), requiring biopsy for diagnosis.
+
+
+### Milan Criteria for Liver Transplantation
+
+
+importantbox
+**Milan Criteria 米蘭標準**:
+
+- Single lesion <5 cm in diameter, OR
+- Up to 3 lesions, each <3 cm in diameter
+- No extrahepatic spread
+- No vascular invasion
+
+
+4-year outcomes: Overall survival 85
+importantbox
+
+
+### Treatment Options for HCC
+
+
+| p{5cm} p{6cm}}  **Treatment 治療** | **Indication 適應症** | **Notes 備註** |
+| --- | --- | --- |
+| Surgical resection | Single tumor, preserved liver function, no portal HTN | Not ideal if multifocal |
+| Liver transplantation | Within Milan criteria; Child-Pugh B/C | Curative; addresses underlying cirrhosis |
+| Ablation (RFA/MWA) | Tumors <=3 cm | Can be bridging therapy |
+| TACE | Intermediate stage, preserved function | Locoregional control |
+| Systemic therapy | Advanced HCC, metastatic | Atezolizumab + bevacizumab first-line |
+
+
+## Final Diagnosis 最終診斷
+
+
+1. **Metabolic Dysfunction-Associated Steatohepatitis (MASH) Cirrhosis**      - Stage F3 bridging fibrosis on initial biopsy → progressed to cirrhosis - Portal hypertension (thrombocytopenia, splenomegaly, spider angiomas)
+2. **Hepatocellular Carcinoma (HCC)**      - Single lesion in segment 7, initially 1.2 cm → 2.8 cm - Biopsy-confirmed (atypical imaging features) - Within Milan criteria at diagnosis - Pathologic stage 2 (vascular invasion found at explant)
+3. **Metabolic Syndrome**      - Obesity (BMI 36.4) - Hypertension - Hypertriglyceridemia
+
+
+代謝功能障礙相關脂肪肝炎（MASH）肝硬化併發肝細胞癌
+
+
+## Treatment Plan 治療計劃
+
+
+### This Patient's Treatment Course
+
+
+| p{4cm} p{7cm}}  **Treatment 治療** | **Timing 時間** | **Outcome 結果** |
+| --- | --- | --- |
+| Transcatheter alcohol ablation | At diagnostic biopsy | Initial size reduction (2.8 cm → 1.5 cm) |
+| RFA (Segment 7) | 4 months later | Successful but later recurrence |
+| RFA (Segment 5) | New lesion discovered | Successful ablation |
+| Liver transplantation (deceased donor) | 19 months after presentation | **Curative; patient alive 14 years post-transplant** |
+
+
+### Treatment Algorithm for MASH/HCC
+
+
+1. **MASH without advanced fibrosis**:      - Weight loss (target >=10 - Mediterranean diet - Exercise (resistance + aerobic) - Consider resmetirom for F2-F3
+2. **MASH cirrhosis without HCC**:      - HCC surveillance (US +/- AFP every 6 months) - Manage portal hypertension - Transplant evaluation if decompensated
+3. **MASH cirrhosis with HCC**:      - If within Milan criteria → Liver transplantation - Bridging therapy while awaiting transplant - If beyond Milan → Downstaging with locoregional/systemic therapy
+
+
+### Post-Transplant Considerations
+
+
+- **MASH recurrence**: Occurs in  33
+- **Recurrent cirrhosis**: 3.4-10
+- **Contributing factors**: Immunosuppressant-induced metabolic complications
+- **This patient**: 14 years post-transplant, no recurrence of cirrhosis or HCC
+
+
+## Key Takeaways 重點摘要
+
+
+1. **Nomenclature change (2023)**: NAFLD → MASLD; NASH → MASH. This reflects metabolic basis and removes stigmatizing terms.
+2. **Weight loss is foundational**: >=10
+3. **Thrombocytopenia = portal hypertension**: In steatotic liver disease, low platelets + splenomegaly strongly suggests cirrhosis even before imaging confirmation.
+4. **HCC surveillance in cirrhosis**: Ultrasound +/- AFP every 6 months. Annual HCC incidence in MASH cirrhosis is 2.6
+5. **Cardiovascular disease is #1 killer**: The leading cause of death in MASLD/MASH is cardiovascular disease, not liver-related.
+6. **LI-RADS for HCC diagnosis**: Arterial hyperenhancement + washout = definite HCC (no biopsy needed in cirrhotic patients with typical features).
+7. **Milan criteria**: Single tumor <5 cm OR up to 3 tumors each <3 cm, no vascular invasion, no extrahepatic spread.
+8. **Resmetirom**: First FDA-approved drug for MASH (2024), indicated for moderate fibrosis (F2-F3), not cirrhosis.
+9. **Transplant can be curative**: For HCC within Milan criteria, liver transplant treats both cancer and underlying cirrhosis.
+10. **Long-term vigilance needed**: MASH can recur post-transplant; metabolic risk factor control remains essential.
+
+
+## Self-Assessment Quiz 自我評量測驗
+
+
+**Question 1.** A 52-year-old man with obesity (BMI 34), hypertension, and type 2 diabetes has elevated aminotransferases. He denies alcohol use. What is the most appropriate diagnosis?
+
+1. Nonalcoholic fatty liver disease (NAFLD)
+2. Metabolic dysfunction-associated steatotic liver disease (MASLD)
+3. Alcohol-associated liver disease (ALD)
+4. Cryptogenic cirrhosis
+
+
+**Answer: B**
+
+Explanation: The 2023 nomenclature uses MASLD instead of NAFLD. MASLD requires steatosis + at least one cardiometabolic risk factor (this patient has obesity, HTN, diabetes) + no excess alcohol.
+
+
+**Question 2.** Which finding distinguishes MASH from simple MASLD?
+
+1. Presence of cirrhosis
+2. Elevated alpha-fetoprotein
+3. Hepatocyte ballooning and lobular inflammation on biopsy
+4. Portal hypertension
+
+
+**Answer: C**
+
+Explanation: MASH is defined by histologic findings of hepatocyte injury: steatosis + hepatocyte ballooning + lobular inflammation. Cirrhosis and portal hypertension are complications, not diagnostic criteria.
+
+
+**Question 3.** What percentage of body weight loss over 1 year results in MASH resolution in 90
+
+1. 3
+2. 5
+3. 7
+4. 10
+
+
+**Answer: D**
+
+Explanation: Loss of >=10
+
+
+**Question 4.** Which laboratory finding best suggests portal hypertension in chronic liver disease?
+
+1. Elevated AST
+2. Elevated bilirubin
+3. Thrombocytopenia
+4. Elevated alkaline phosphatase
+
+
+**Answer: C**
+
+Explanation: Thrombocytopenia results from splenic sequestration (due to splenomegaly from portal hypertension) and decreased thrombopoietin production by the diseased liver.
+
+
+**Question 5.** A new 2-cm hepatic lesion is detected on surveillance ultrasound in a patient with MASH cirrhosis. What is the next step?
+
+1. Repeat ultrasound in 6 months
+2. Immediate surgical resection
+3. Four-phase CT or contrast-enhanced MRI
+4. Liver biopsy
+
+
+**Answer: C**
+
+Explanation: A suspicious lesion on surveillance ultrasound requires cross-sectional imaging (CT or MRI) to characterize using LI-RADS criteria.
+
+
+**Question 6.** Which imaging features are characteristic of HCC?
+
+1. Hypoenhancement in all phases
+2. Arterial phase hyperenhancement with washout
+3. Peripheral enhancement only
+4. Delayed enhancement without washout
+
+
+**Answer: B**
+
+Explanation: HCC typically shows arterial hyperenhancement (due to arterial blood supply) followed by washout in portal venous or delayed phase.
+
+
+**Question 7.** According to Milan criteria, which patient is eligible for liver transplantation?
+
+1. Single 6-cm tumor without vascular invasion
+2. Four tumors, each 2 cm in diameter
+3. Single 4-cm tumor without extrahepatic spread
+4. Two tumors, 4 cm and 3.5 cm respectively
+
+
+**Answer: C**
+
+Explanation: Milan criteria: single tumor <5 cm OR up to 3 tumors each <3 cm, no vascular invasion, no extrahepatic spread. A single 4-cm tumor meets criteria.
+
+
+**Question 8.** What is the leading cause of death in patients with MASLD/MASH?
+
+1. Hepatocellular carcinoma
+2. Liver failure
+3. Cardiovascular disease
+4. Infection
+
+
+**Answer: C**
+
+Explanation: Cardiovascular disease is the leading cause of death in MASLD/MASH due to associated insulin resistance, inflammation, and dyslipidemia.
+
+
+**Question 9.** Which medication was recently approved for MASH with moderate fibrosis?
+
+1. Metformin
+2. Pioglitazone
+3. Resmetirom
+4. Vitamin E
+
+
+**Answer: C**
+
+Explanation: Resmetirom is a THR-beta agonist approved in March 2024 for MASH with stage F2-F3 fibrosis. It is the first FDA-approved drug for MASH.
+
+
+**Question 10.** What is the recommended HCC surveillance interval in MASH cirrhosis?
+
+1. Every 3 months
+2. Every 6 months
+3. Every 12 months
+4. Every 24 months
+
+
+**Answer: B**
+
+Explanation: HCC surveillance with ultrasound +/- AFP every 6 months is recommended for all cirrhotic patients. The annual HCC incidence in MASH cirrhosis is 2.6

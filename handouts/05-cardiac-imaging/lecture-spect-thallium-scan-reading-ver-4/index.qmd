@@ -1,0 +1,1071 @@
+---
+title: "lecture SPECT thallium scan reading ver 4"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-11-16
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+titlepage
+    
+    
+    
+    {\bfseriesemergency_red 心肌灌注造影
+}
+    
+    {\bfseriesemergency_red 影像判讀教學講義
+}
+    
+    
+    
+    {emergency_blue 國立臺灣大學醫學院附設醫院新竹臺大分院
+}
+    
+    {emergency_blue 核子醫學科
+}
+    
+    
+    
+    {\bfseries 蔡雅琴 醫師, MD 審閱  
+謝慕揚 醫師, MD, PhD, FESC 整理
+}
+    
+    \vfill
+    
+    {編撰日期: 2025-11-16
+  
+
+    Version: 4.0}
+titlepage
+
+\tableofcontents
+
+---
+
+
+## 前言
+
+
+這份講義是2025年開始，心血管中心為了讓全體成員有統一一致的教學訓練材料，開始準備繁體中文，適合科內各層級職務閱讀的自主學習講義。
+在2025-10月開始文件製作到最重要的核子醫學掃描，在草稿擬定後即開始邀請核醫科的蔡雅琴醫師參與文件修訂。
+
+蔡醫師準備了詳細的投影片，在審閱後便將之加入本講義中，在此特別向蔡醫師致謝。
+
+Balanced iscemia = stress-induced LV dilatation + lung/heart ratio
+
+上面這段，是講義幾經修訂後，最核心的一句。請詳細參閱本講義，就能體會蔡醫師的用心!
+
+
+## 基本概念介紹
+
+
+### SPECT (Single Photon Emission Computed Tomography)
+
+
+單光子電腦斷層掃描是一種核子醫學影像技術,透過偵測放射性同位素發出的伽馬射線來產生三維影像。在心臟醫學中,主要用於評估心肌血流灌注狀況。
+
+
+### 心肌灌注造影 (Myocardial Perfusion Imaging)
+
+
+心肌灌注造影是評估心肌血液供應的重要檢查,可以偵測:
+
+
+- **可逆性灌注缺損 (Reversible perfusion defect)**: 代表心肌缺血,在壓力狀態下出現,休息時恢復
+- **固定性灌注缺損 (Fixed perfusion defect)**: 代表心肌梗塞,壓力與休息影像均呈現缺損
+- **部分可逆性缺損 (Partially reversible defect)**: 混合缺血與梗塞區域
+
+
+### 放射性同位素
+
+
+#### 99mTc (Technetium-99m)
+
+
+- 能量較高 (140 keV)
+- 影像品質較佳
+- 常用藥物: Sestamibi
+- 半衰期約 6 小時
+- 影像不會再分布，必須注射兩次同位素
+
+
+#### 201Tl (Thallium-201)
+
+
+- 較傳統的示踪劑
+- 能量較低 (70-80 keV)
+- 可進行再分布 (redistribution) 影像
+- 半衰期約 73 小時
+- 生理特性類似鉀離子,反映心肌活性
+
+
+## 國際臨床指引概要
+
+
+### ASNC 心肌灌注造影指引
+
+
+#### 適應症
+
+
+| p{8cm}}  **臨床情境** | **建議等級** |  |
+| --- | --- | --- |
+| 中度至高度冠心病風險病人的診斷 | Class I (強烈建議) |  |
+| 已知冠心病的風險分層 | Class I |  |
+| 評估血管重建術後症狀 | Class I |  |
+| 評估急性冠心症後的預後 | Class IIa (合理) |  |
+| 低風險且無症狀病人篩檢 | Class III (不建議) |  |
+| ASNC 心肌灌注造影適應症 |  |  |
+
+
+#### 壓力測試方式選擇
+
+
+| p{5cm} p{5cm}} | **優點** | **適應症** |
+| --- | --- | --- |
+|  | 提供功能性資訊    評估運動耐受力    較符合生理狀況 | 能夠運動的病人    首選方式 |
+|  | 冠狀動脈擴張劑    安全性高 | 無法運動病人    慢性阻塞性肺病相對禁忌 |
+|  | 作用時間短    易於控制 | 無法運動病人    氣喘為禁忌症 |
+|  | 增加心肌需氧量 | Adenosine 類藥物禁忌時    (如嚴重氣喘) |
+|  | 選擇性A2A受體    氣喘病人較安全 | 無法運動病人    氣喘病人可考慮 |
+|  |  |  |
+
+
+### ESC 心肌灌注造影指引
+
+
+European Society of Cardiology (ESC) 2019 年慢性冠心症指引強調:
+
+importantbox
+**ESC 指引核心建議:**
+
+
+- 心肌灌注造影適用於中度至高度檢測前機率 (pre-test probability) 的病人
+- 正常的心肌灌注造影結果代表良好的預後 (年度心臟事件率 <1
+- 廣泛或嚴重的灌注缺損代表高風險,應考慮侵入性評估
+- 結合 gated SPECT 評估心室功能可提供額外的預後資訊
+
+
+importantbox
+
+
+### 定量分析參數
+
+
+| p{4cm} p{7cm}} | **英文全名** | **臨床意義** |
+| --- | --- | --- |
+|  | Summed Stress Score | 壓力影像總分,反映總缺損負擔    >8 為異常,>13 為高風險 |
+|  | Summed Rest Score | 休息影像總分,反映梗塞範圍 |
+|  | Summed Difference Score | SSS - SRS,反映可逆性缺血    >4 代表顯著缺血 |
+|  | Total Perfusion Deficit | 總灌注缺損百分比    >10 |
+|  | Transient Ischemic    Dilation | 壓力時左心室腔擴張    Ratio >1.19 異常    提示嚴重多血管病變 |
+|  |  |  |
+
+
+### 高風險徵象 (根據 ASNC 指引)
+
+
+以下徵象提示高度冠心病風險,應考慮心導管檢查:
+
+importantbox
+**高風險心肌灌注造影發現:**
+
+
+1. 
+2. **廣泛可逆性缺損**      -  - 多個血管分布區域 - SDS >7-10 - TPD >10
+3. **Stress-induced LV dilatation**      - 代表嚴重多血管病變或左主幹病變 - 與不良預後高度相關
+4. **Increased lung/heart ratio (Lung/heart ratio >0.5)**      -  - 反映左心室功能不全 - 壓力誘發心衰竭的徵象
+5. **Transient LV cavity dilation without perfusion defect**      -  - 提示 balanced ischemia - 可能代表嚴重三血管病變
+6. **Stress LVEF <45      -  - 基礎心室功能不良 - 或廣泛心肌缺血導致
+
+
+importantbox
+
+
+## IQ SPECT 技術特點
+
+
+### 技術原理
+
+
+IQ SPECT 採用三大核心技術:
+
+
+1. **心臟中心準直 (Cardio-centered collimation)**        使用 SMARTZOOM collimator,將準直器焦點對準心臟,增加心臟區域的光子收集效率
+2. **心臟中心掃描 (Cardio-centered acquisition)**        偵測器在掃描時環繞心臟位置旋轉,最佳化心臟影像品質
+3. **特殊重組演算法**        採用 OSCGM (Ordered Subset Conjugate Gradient Minimizer) 演算法進行影像重組
+
+
+### 優勢與效能
+
+
+| p{5cm} p{4cm}}  **項目** | **傳統 SPECT** | **IQ SPECT** |
+| --- | --- | --- |
+| 掃描時間 | 13-15 分鐘    (32 views) | 7-8 分鐘    (減少約 50 |
+| 注射劑量 | 標準劑量 | 可減少約 50 |
+| CT 衰減校正 | 選擇性 | **必須執行** |
+| 影像品質 | 標準 | same image quality |
+|  | 較長時間 | 大幅改善 |
+| IQ SPECT 與傳統 SPECT 比較 |  |  |
+
+
+**重要提醒:** IQ SPECT 使用時,CT 衰減校正 (CT attenuation correction) 是****必須執行****的步驟,這是與傳統 SPECT 最大的差異之一。
+
+
+### NAC 與 AC 影像的差異
+
+
+#### NAC (Non-Attenuation Correction) 無衰減校正影像
+
+
+特性
+
+
+- 原始影像,未經過衰減校正處理
+- 會受到軟組織衰減影響
+- 呈現實際偵測到的放射性分布
+- 是影像判讀的主要基礎
+
+
+#### 典型偽影模式
+
+
+NAC 影像常見的軟組織衰減偽影:
+
+
+| p{5cm} p{5cm}}  **族群** | **常見偽影位置** | **原因** |
+| --- | --- | --- |
+| 男性 | Inferolateral wall    (下側壁) 攝取減少 | 橫膈膜衰減 |
+| 女性 | Anterior wall    (前壁) 攝取減少 | 乳房組織衰減 |
+| 肥胖病人 | 多處攝取減少 | 廣泛軟組織衰減 |
+| NAC 影像典型偽影 |  |  |
+
+
+### AC (Attenuation Correction) 或 CTAC 衰減校正影像
+
+
+#### 特性
+
+
+- 經 CT 影像校正軟組織衰減
+- 可還原真實的心肌攝取分布
+- 提供更準確的 inferior wall 評估
+- 是 NAC 判讀的重要輔助工具
+
+
+#### 校正效果
+
+
+| p{5cm} p{4cm}} | **NAC 表現** | **AC 後變化** |
+| --- | --- | --- |
+|  | 攝取減少    (尤其男性) | 校正後改善 |
+|  | 可能攝取減少    (女性) | 校正後改善 |
+|  |  |  |
+
+
+### IQ SPECT 獨特的攝取模式
+
+
+根據日本核醫學會 (JSNM) 正常資料庫研究 (Ann Nucl Med 2017; 31:649-659),IQ SPECT 相較於傳統 SPECT 有以下特點:
+
+importantbox
+**IQ SPECT 正常攝取模式特徵:**
+
+- **Inferolateral wall**: NAC 上攝取減少 (尤其男性),AC 後可校正
+- **Anterior 與 Anteroseptal walls**: NAC 上攝取**增加**
+- **Apex**: NAC 上呈現「熱且厚」,AC 後攝取相對減少
+
+
+importantbox
+
+
+### 判讀核心原則
+
+
+#### 基本策略: 以 NAC 為主, AC 為輔
+
+
+> enumerate
+>     \item 先檢視 NAC 影像 (stress and rest) $\rightarrow$  判斷可逆性 
+>     \item 檢視 AC 影像 (stress and rest) $\rightarrow$ 判斷可逆性
+>     \item 評估NAC 與 AC的一致性 $\rightarrow$  判斷真實病灶或是偽影
+>     \item 注意是否有 balanced ischemia 
+>     \item 結合臨床資訊 $\rightarrow$ 形成最終診斷 (心臟內科醫師責任) 
+> enumerate
+
+
+#### 判讀步驟詳解
+
+
+#### 步驟一: 初步觀察 (NAC 影像)
+
+
+在 NAC 影像上進行全面評估:
+
+
+1. 
+2. **整體攝取模式**      -  - 是否均勻分布? - 有無明顯缺損區域? - 整體計數是否正常? (注意 balanced ischemia)
+3. **Stress vs Rest 比較**      - 可逆性缺損 (stress 時出現,rest 時恢復) - 固定性缺損 (stress 與 rest 均存在) - 部分可逆性缺損
+4. **初步風險評估**      - 缺損範圍 (單一節段 vs 多節段) - 缺損嚴重度 (mild, moderate, severe) - 涉及血管數目
+
+
+#### 步驟二: AC 影像驗證
+
+
+針對 NAC 的可疑區域,使用 AC 影像驗證:
+
+
+| p{5cm} p{4cm}}  **NAC 發現** | **AC 變化** | **判讀** |
+| --- | --- | --- |
+| Inferolateral wall 缺損 | AC 後恢復正常 | 橫膈膜衰減偽影 |
+| Inferolateral wall 缺損 | AC 仍有缺損 | 真實灌注異常 |
+| Anterior wall 缺損    (女性) | AC 後恢復 | 乳房衰減偽影 |
+| Anterior wall 缺損    (女性) | AC 仍有缺損 | 真實灌注異常 |
+| (多處) | 考慮 AC 校正偽影    或配準問題 | 以 NAC 為主    必要時重新掃描 |
+| NAC 與 AC 比對判讀 |  |  |
+
+
+#### 步驟三: 高風險徵象評估
+
+
+**特別注意以下容易遺漏的balanced ischemia:**
+
+
+1. **Transient Ischemic Dilation (TID)**
+2. **Increased Lung/heart ratio**
+
+
+## 重要高風險徵象詳解
+
+
+### Balanced Ischemia (平衡性缺血)
+
+
+#### 定義與病理生理
+
+
+#### Balanced Ischemia 的識別線索
+
+
+| p{9cm}} | **說明與判讀要點** |  |
+| --- | --- | --- |
+| cavity dilatation    (TID ratio >1.19)** | **最重要的指標!**    壓力時左心室腔明顯比休息時大    即使灌注看起來均勻,TID 升高提示嚴重多血管病變 |  |
+| (Lung/heart ratio >0.5)** | 反映壓力誘發的左心衰竭    肺部放射性攝取增加    常伴隨嚴重冠心病 |  |
+|  | 壓力影像的總計數明顯低於預期    提示整體心肌血流減少    需與技術因素區別 |  |
+|  | 壓力時 LVEF 明顯低於休息時    (下降 >5  提示廣泛心肌缺血導致 stunning |  |
+|  | 高度懷疑冠心病的臨床表現    (如典型心絞痛、多重危險因子)    但影像卻接近正常    應高度警覺 balanced ischemia |  |
+|  | ECG 顯示 ST 下降    壓力時出現典型胸痛    但灌注影像卻相對正常 |  |
+|  | 多個血管分布區域都有輕度攝取減少    而非局部嚴重缺損    可能代表 balanced ischemia |  |
+|  |  |  |
+
+
+#### Balanced Ischemia 的處理原則
+
+
+1. 
+2. **高度警覺**: 當發現 TID 或 lung/hear ratio 異常,即使灌注看起來正常,也要考慮嚴重冠心病
+3. **整合臨床資訊**: 結合症狀、危險因子、ECG 變化等綜合判斷
+4. **定量分析**: 使用 TID ratio, lung/heart ratio 等定量參數
+5. **考慮進階檢查**:   -  - 冠狀動脈電腦斷層 (CCTA) - 心導管檢查 - 特別是 TID >1.22 或 lung/heart ratio >0.55 時
+6. **報告中明確說明**: 即使灌注接近正常,若有 TID 或 lung/heart ratio 異常,報告中應明確提醒可能的 balanced ischemia 或嚴重多血管病變
+
+
+### Transient Ischemic Dilation (TID) / Stress-Induced LV Dilatation
+
+
+#### 定義與測量
+
+
+TID 是指壓力影像上的左心室腔容積相對於休息影像的比值:
+
+\[
+TID ratio = \text{Stress LV cavity volume}{Rest LV cavity volume}
+\]
+
+**異常定義:**
+
+- TID ratio >1.19: 異常 (提示高風險)
+- TID ratio >1.22: 嚴重異常 (強烈提示左主幹或三血管病變)
+
+
+#### 病理生理機轉
+
+
+TID 代表壓力誘發的左心室功能異常,可能機轉包括:
+
+
+1. **廣泛心肌缺血導致 myocardial stunning**      - 多個區域同時缺血 - 心肌收縮功能暫時受損 - 左心室舒張末期容積增加
+2. **Subendocardial ischemia**      - 心內膜下缺血範圍廣泛 - 影響整體心室功能 - 可能在 SPECT 上不易察覺
+3. **左心室順應性 (compliance) 降低**      - 缺血導致心肌僵硬 - 舒張功能受損 - 左心室擴張
+
+
+#### 臨床意義
+
+
+importantbox
+**TID 的重要性:**
+
+
+- **高風險指標**: TID 是預後不良的獨立預測因子
+- **與解剖學相關性**:      itemize
+- 強烈提示左主幹病變或三血管病變
+- 即使灌注缺損不明顯,TID 升高仍應警覺
+
+
+    \item **預後意義**: TID >1.19 的病人,心臟事件風險顯著增加
+    \item **需積極處理**: 應考慮心導管檢查,評估血管重建的必要性
+itemize
+importantbox
+
+
+#### 判讀注意事項
+
+
+| p{9cm}}  **注意事項** | **說明** |  |
+| --- | --- | --- |
+| **視覺評估** | 直接比較 stress 與 rest 的左心室腔大小    注意短軸切面的心腔面積變化 |  |
+| **定量測量** | 使用軟體自動計算 TID ratio    確認測量範圍正確 |  |
+| **排除偽影** | 確認不是因為配準 (registration) 問題    或病人體位改變導致 |  |
+| **結合其他徵象** | TID 常伴隨:    - Increased lung/heart ratio    - 多處可逆性缺損    - Post-stress LVEF 下降 |  |
+| **201Tl 特別注意** | 使用 Thallium 時,TID 可能更明顯    因為影像獲取時間較晚 (缺血後 stunning 更顯著) |  |
+| TID 判讀注意事項 |  |  |
+
+
+    
+    [Image]
+
+
+### Increased Lung/heart ratio
+
+
+#### 定義與測量
+
+
+Lung/heart ratio 代表肺部攝取放射性藥物的程度,反映左心室功能:
+
+**測量方法:**
+\[
+Lung/Heart ratio = \text{肺部平均計數}{心臟平均計數}
+\]
+
+**異常定義:**
+
+- Lung/heart ratio >0.5 (201Tl): 異常
+- Lung/heart ratio >0.55 (99mTc): 異常
+
+
+    
+    [Image]
+
+
+#### 病理生理意義
+
+
+1. **壓力誘發左心衰竭**      - 廣泛心肌缺血導致左心室功能急性惡化 - 左心室舒張末期壓力升高 - 肺靜脈壓力增加 - 血流滯留於肺部微血管
+2. **慢性左心衰竭**      - 基礎心室功能不良 - 持續性肺靜脈高壓 - 休息與壓力影像均可見
+
+
+#### 臨床意義與處理
+
+
+importantbox
+**Lung/heart ratio 的臨床處理:**
+
+
+1. **高風險標記**: 與嚴重冠心病和不良預後相關
+2. **常見於**:      - 左主幹病變 - 三血管病變 - 嚴重心室功能不全
+3. **建議處理**:      - 考慮積極血管重建治療 - 評估是否需要心導管 - 優化心衰竭藥物治療
+4. **常伴隨其他高風險徵象**:      - TID 升高 - 廣泛灌注缺損 - LVEF 降低
+
+
+importantbox
+
+
+### Post-Stress Stunning (壓力後心肌頓抑)
+
+
+#### 定義
+
+
+壓力測試後,心肌雖然重新灌注,但收縮功能暫時受損的現象。在 gated SPECT 上表現為壓力影像的 LVEF 或 wall motion 比休息時差。
+
+
+#### 識別與意義
+
+
+| p{9cm}}  **表現** | **臨床意義** |  |
+| --- | --- | --- |
+| **Stress LVEF < Rest LVEF    (下降 >5 | 提示嚴重心肌缺血    即使灌注缺損不明顯 |  |
+| **Stress 時 wall motion    異常加劇** | 代表缺血導致收縮功能受損    需與固定性異常區別 |  |
+| **合併 TID 與 lung/heart ratio** | 強烈提示嚴重多血管病變    高風險病人 |  |
+| **Stunning 但無明顯    灌注缺損** | 可能為:    - Balanced ischemia    - Subendocardial ischemia    - 微血管功能異常 |  |
+| Post-stress Stunning 的表現與意義 |  |  |
+
+
+## 判讀實務技巧
+
+
+### 使用多種 Color Scale
+
+
+| p{5cm} p{5cm}} | **優點** | **適用情境** |
+| --- | --- | --- |
+|  | 對比度高    容易識別缺損 | 初步觀察    明顯缺損 |
+|  | 細微差異更明顯    減少視覺疲勞 | 細微缺損    長時間判讀 |
+|  | 強調灌注均勻性    適合評估整體模式 | 評估 balanced ischemia    整體攝取模式 |
+|  |  |  |
+
+
+### 系統化檢查清單
+
+
+> enumerate
+>     \item **NAC 影像評估**
+>     itemize
+>         \item Stress vs Rest 比較
+>         \item 缺損位置、範圍、嚴重度
+>     itemize
+>     \item **AC 影像驗證**
+>     itemize
+>         \item Stress vs Rest 比較
+>         \item 缺損位置、範圍、嚴重度
+>         \item 可疑區域是否改善? NAC/AC 一致性如何?
+>     itemize
+>     \item **高風險徵象** (****千萬不可遺漏! Balanced ischemia****)
+>     itemize
+>         \item **TID**
+>         \item **Lung/heart ratio **
+>     itemize
+>     \item **臨床整合**
+>     itemize
+>         \item 症狀與影像是否符合?
+>         \item 危險因子評估
+>         \item 與前次檢查比較
+>     itemize
+> enumerate
+
+
+### 特殊情境處理
+
+
+| p{9cm}}  **情境** | **處理原則** |  |
+| --- | --- | --- |
+| **Inferolateral wall 異常** | ****必看 AC****    男性常見橫膈膜衰減    AC 後若恢復則為偽影 |  |
+| **肥胖病人** | ****必看 AC****    全部區域均需仔細評估    廣泛軟組織衰減    偽陽性率高 |  |
+| **女性 anterior wall 異常** | 考慮乳房衰減    參考 AC 影像    若 AC 仍有缺損則為真實病灶 |  |
+| **影像接近正常但    臨床高度懷疑** | ****警覺 balanced ischemia!****    詳細檢查 TID 與 lung/heart ratio    結合壓力測試結果    考慮進階檢查 |  |
+| **TID 升高但無明顯    灌注缺損** | 仍應視為高風險    報告中明確說明 |  |
+| 特殊情境處理原則 |  |  |
+
+
+## 報告撰寫重點
+
+
+### 報告結構
+
+
+1. 
+2. **技術資訊**  -  - 使用的放射性同位素 (99mTc-Sestamibi 或 201Tl) - 劑量 (mCi) - 壓力方式 (Dipyridamole, Adenosine, Exercise 等) - 達到的心率與血壓 - 是否執行 CT 衰減校正 - 影像品質評估
+3. **灌注評估**  -  - 以 NAC 為主要判讀基礎 - NAC/AC 一致性 - Stress vs Rest 比較
+4. **缺損描述** (若有異常)  -  - 位置 (使用 17 節段模式) - 程度 (mild, moderate, severe) - 範圍 (extent, - 可逆性 (reversible, fixed, partially reversible) - 對應的冠狀動脈分布區域
+5. **高風險徵象評估** (****重要!****)  -  - TID ratio 測量值 - Lung/heart ratio - 是否有 balanced ischemia 跡象 - Post-stress stunning
+6. **心室功能** (Gated SPECT)  -  - Stress LVEF vs Rest LVEF - LV end-diastolic volume (EDV) - LV end-systolic volume (ESV) - 局部心肌運動異常 - Wall motion score - Wall thickening
+7. **定量參數**  -  - SSS, SRS, SDS - TPD (Total Perfusion Deficit) - 與正常資料庫比較
+8. **綜合評估與結論**  -  - 風險分層 (low, intermediate, high risk) - 診斷可能性 (normal, probably normal, equivocal, probably abnormal, abnormal) - 估計冠心病嚴重度
+9. **臨床建議**  -  - 是否需要進一步檢查 (如心導管) - 追蹤建議與時機 - 藥物治療建議 - 與臨床資訊的整合
+
+
+### 報告範例
+
+
+#### 範例一: 正常報告
+
+
+#### 範例二: 可逆性缺損 (高風險)
+
+
+#### 範例三: Balanced Ischemia (容易遺漏!)
+
+
+## 常見錯誤與陷阱
+
+
+### 錯誤一: 只看 NAC, 未比對 AC
+
+
+importantbox
+**錯誤行為:**  
+
+只依據 NAC 影像判讀 inferolateral wall 有缺損,未比對 AC 影像
+
+**可能後果:**  
+
+將橫膈膜衰減誤判為心肌缺血,導致不必要的進一步檢查或治療
+
+**正確做法:**  
+
+必須比對 AC 影像,若 AC 後該區域攝取正常化,則為衰減偽影
+importantbox
+
+
+### 錯誤二: 只看 AC, 忽略 NAC
+
+
+importantbox
+**錯誤行為:**  
+
+過度依賴 AC 影像,忽略 NAC 的重要性
+
+**可能後果:**  
+
+可能誤以為有病灶
+(只在AC出現的可能不是真正的病灶)
+
+**正確做法:**  
+
+以 NAC 為主要判讀基礎,AC 作為輔助工具,兩者互相驗證
+importantbox
+
+
+### 錯誤三: 肥胖病人未看 AC
+
+
+importantbox
+**錯誤行為:**  
+
+對肥胖病人僅依據 NAC 影像判讀
+
+**可能後果:**  
+
+大幅提高偽陽性率,多個區域可能因衰減被誤判為缺血
+
+**正確做法:**  
+
+肥胖病人務必仔細比對 NAC 與 AC,所有可疑區域均需驗證
+importantbox
+
+
+### 錯誤四: 遺漏 Balanced Ischemia (emergency_red
+{**最危險!**)}
+
+importantbox
+**錯誤行為:**  
+
+看到灌注分布相對均勻,就判定為正常,未檢查 TID 與 lung/heart ratio
+
+**可能後果:**  
+
+****嚴重三血管病變或左主幹病變被遺漏****,病人未能及時接受治療,可能導致嚴重心臟事件甚至猝死
+
+**正確做法:**  
+
+**每次判讀都必須評估**:
+
+- TID ratio
+- Lung/heart ratio
+- Post-stress LVEF
+- 臨床與影像的一致性 (請心臟內科醫師還是要注意症狀 correlation)
+
+
+**即使灌注看起來正常,只要 TID 或 lung uptake 異常,就要高度懷疑嚴重冠心病!**
+importantbox
+
+
+### 錯誤五: 忽略臨床資訊
+
+
+importantbox
+**錯誤行為:**  
+
+單純依據影像判讀,未整合病史、症狀、心電圖等資訊
+
+**可能後果:**  
+
+診斷不完整,無法提供最佳臨床建議
+
+**正確做法:**  
+
+整合所有臨床資訊,包括:
+
+- 症狀與病史 (典型或非典型胸痛、心絞痛等級)
+- 心血管危險因子 (糖尿病、高血壓、高血脂、吸菸、家族史)
+- 壓力測試時的心電圖變化與症狀
+- 過往檢查結果 (先前的 SPECT、心導管等)
+- 藥物使用情形
+- 檢測前機率 (pre-test probability)
+
+
+importantbox
+
+
+## IQ SPECT 與傳統 SPECT 差異總覽
+
+
+| p{5cm} p{5cm}} | **傳統 SPECT** | **IQ SPECT** |
+| --- | --- | --- |
+|  | 13-15 分鐘 | 7-8 分鐘 |
+|  | 選擇性執行 | ****必須執行**** |
+|  | LEHR/LEAP | SMARTZOOM    (心臟中心準直) |
+|  | 180度/360度    固定軌跡 | 心臟中心掃描    (非圓形軌跡) |
+|  | OSEM, FBP | OSCGM |
+|  | 主要看 NAC | NAC 為主    + AC 為輔 |
+|  | 2 次    (Stress vs Rest) | 4 次    (Stress NAC, Stress AC,    Rest NAC, Rest AC) |
+|  | 傳統演算法 | 不同演算法    (數值可能略有不同) |
+|  | 傳統模式 | 獨特模式    (anterior 較高,    apex 較厚) |
+|  | 影像品質較差    衰減嚴重 | 可延長掃描時間    改善品質    AC 更為重要 |
+|  |  |  |
+
+
+## 17 節段心肌模式
+
+
+### 短軸切面分層
+
+
+1. 
+2. **Basal (基底部) - 6 節段**  -  - Segment 1: Basal anterior - Segment 2: Basal anteroseptal - Segment 3: Basal inferoseptal - Segment 4: Basal inferior - Segment 5: Basal inferolateral - Segment 6: Basal anterolateral
+3. **Mid (中段) - 6 節段**  -  - Segment 7: Mid anterior - Segment 8: Mid anteroseptal - Segment 9: Mid inferoseptal - Segment 10: Mid inferior - Segment 11: Mid inferolateral - Segment 12: Mid anterolateral
+4. **Apical (心尖部) - 4 節段**  -  - Segment 13: Apical anterior - Segment 14: Apical septal - Segment 15: Apical inferior - Segment 16: Apical lateral
+5. **Apex (心尖) - 1 節段**  -  - Segment 17: Apex
+
+
+### 冠狀動脈分布區域對應
+
+
+| p{10cm}} | **主要供應節段** |  |
+| --- | --- | --- |
+| (Left Anterior    Descending) | Segments 1, 2, 7, 8, 13, 14, 17    (Anterior, anteroseptal, apex) |  |
+| (Left Circumflex) | Segments 5, 6, 11, 12, 16    (Lateral, anterolateral, inferolateral) |  |
+| (Right Coronary    Artery) | Segments 3, 4, 9, 10, 15    (Inferior, inferoseptal) |  |
+|  |  |  |
+|  |  |  |
+
+
+## 結論
+
+
+### IQ SPECT 判讀的核心要點
+
+
+1. 
+2. **了解技術特性**  -  - 必須搭配 CT 衰減校正 - 掃描時間縮短約 50 - 有獨特的正常攝取模式
+3. **掌握判讀原則**  -  - 以 NAC 為主要判讀基礎 - Inferior/inferolateral wall 及肥胖病人必看 AC - 使用多種 color bar 增加敏感度 - 系統化檢查,不遺漏任何步驟
+4. **熟悉正常模式**  -  - IQ SPECT 有其獨特的攝取分布 - 與傳統 SPECT 略有不同 - 需建立新的正常資料庫參考
+5. **警覺高風險徵象** (****最重要!****)  -  - **每次判讀都要檢查 TID ratio** - **每次判讀都要檢查 lung uptake** - **高度警覺 balanced ischemia** - **注意 post-stress LVEF 變化**
+6. **系統化比對**  -  - NAC vs AC - Stress vs Rest - 不同 color bar - 定量分析數據 - Gated parameters
+7. **臨床整合**  -  - 結合病史與症狀 - 參考心電圖變化 - 整合其他影像檢查 - 評估檢測前機率 - 必要時建議心導管
+
+
+### 最重要的提醒
+
+
+importantbox
+**核心概念**
+
+
+1. 
+2. ****CT Attenuation Correction****
+3. ****千萬不可遺漏balanced ischemia 與症狀:****      - **Transient ischemic dilatation (TID)** - 每次必查! - **Lung/heart ratio** - 每次必查! - **Post-stress LVEF** - 注意變化!
+4. **判讀原則:**        **NAC 為主, AC 為輔, 兩者互證**        **+ 高風險徵象絕不遺漏!**
+
+
+IQ SPECT 的判讀品質高度依賴適當的 CT 衰減校正。缺少 AC 影像,將大幅增加誤判風險,特別是在 inferior wall, inferolateral wall 女性及肥胖病人。
+
+更重要的是,**即使灌注影像看起來接近正常,也絕對不能忽略 TID 與 lung/heart ratio 等高風險徵象**,否則可能遺漏嚴重的三血管病變或左主幹病變,造成嚴重後果。
+importantbox
+
+
+### 持續學習
+
+
+心肌灌注造影的判讀需要:
+
+- 累積經驗與案例
+- 定期參與品質管制
+- 與心導管結果對照學習
+- 參加相關教育訓練
+- 閱讀最新文獻與指引
+- 熟悉各種高風險徵象
+- 建立系統化判讀流程
+
+
+## Stress SPECT 禁忌症與安全考量
+
+
+### 前言
+
+
+執行 stress myocardial perfusion imaging 時,最重要的考量是病人安全。我們必須確保病人能夠安全地完成壓力測試,而不會在核醫科發生急性心臟事件需要心肺復甦術 (CPR)。因此,在安排檢查前,必須仔細評估禁忌症與相對禁忌症。
+
+
+### 絕對禁忌症 (Absolute Contraindications)
+
+
+以下情況**絕對不可**執行 stress SPECT:
+
+importantbox
+**急性心臟事件 (Acute Cardiac Events)**
+
+
+- **急性心肌梗塞 (Acute MI)** - 發病 2 天內
+- **不穩定心絞痛 (Unstable angina)** - 未經治療或症狀惡化中
+- **急性心肌炎或心包膜炎** - 活動期
+- **急性主動脈剝離 (Acute aortic dissection)**
+- **急性肺栓塞 (Acute pulmonary embolism)**
+
+
+****理由:**** 這些病人處於極度不穩定狀態,任何額外的心臟負荷都可能導致心臟衰竭、惡性心律不整或猝死。
+importantbox
+
+importantbox
+**嚴重心臟疾病**
+
+
+- **未控制的症狀性心臟衰竭** - NYHA class IV 或急性失代償
+- **嚴重主動脈瓣狹窄 (Severe AS)** - 有症狀或 valve area <1.0 cm²
+- **嚴重肥厚性心肌病變 (Severe HCM)** - 伴有明顯左心室出口阻塞
+- **未控制的高血壓** - 休息時 SBP >200 mmHg 或 DBP >110 mmHg
+- **高度房室傳導阻滯** - Mobitz type II 或 complete heart block (無 pacemaker)
+
+
+****理由:**** 壓力測試會增加心肌氧氣需求與心輸出量,在這些病人可能導致急性失代償、暈厥、惡性心律不整。
+importantbox
+
+importantbox
+**危險心律不整**
+
+
+- **未控制的心房顫動或心房撲動** - 心室速率 >100 bpm
+- **症狀性心室性心律不整**
+- **近期發生過心室頻脈 (VT) 或心室顫動 (VF)** - 未經治療
+
+
+****理由:**** 壓力狀態可能誘發或加劇心律不整,導致血流動力學不穩定。
+importantbox
+
+
+### 相對禁忌症 (Relative Contraindications)
+
+
+以下情況需要**謹慎評估**,在適當監測與準備下可考慮執行:
+
+
+| p{9cm}}  **臨床狀況** | **考量與建議** |  |
+| --- | --- | --- |
+| **中度主動脈瓣狹窄** | 需要心臟超音波評估狹窄程度    建議使用 pharmacological stress 而非 exercise stress |  |
+| **左主幹冠狀動脈狹窄** (已知) | 極高風險,建議直接安排心導管    若仍需執行,必須在可立即處置的環境 |  |
+| **電解質不平衡** | 嚴重低血鉀 (<3.0 mEq/L)    需先矯正電解質再執行檢查 |  |
+| **嚴重貧血** | Hb <8 g/dL 可能影響心肌氧氣供應    建議先治療貧血 |  |
+| **發燒或急性感染** | 增加心臟負荷,建議延後檢查 |  |
+| **甲狀腺機能亢進** (未控制) | 可能導致心律不整或心臟衰竭 |  |
+| Stress SPECT 相對禁忌症 |  |  |
+
+
+### 藥物性壓力測試特殊禁忌症
+
+
+不同壓力藥物有其特定禁忌症:
+
+
+#### Dipyridamole / Adenosine / Regadenoson
+
+
+importantbox
+**絕對禁忌症:**
+
+- **氣喘發作中或嚴重慢性阻塞性肺病** - 可能誘發支氣管痙攣
+- **Sick sinus syndrome** 或 **高度房室傳導阻滯** (無 pacemaker) - 可能導致嚴重心搏過緩
+- **收縮壓 <90 mmHg** - 可能導致症狀性低血壓
+- **近期使用 dipyridamole** - 24 小時內
+- **已知對藥物過敏**
+
+
+**相對禁忌症:**
+
+- 慢性阻塞性肺病 (COPD) - 可考慮使用 regadenoson (較安全)
+- 使用 methylxanthines (caffeine, theophylline) - 需停用至少 12-24 小時
+
+
+**重要提醒:** 執行 adenosine 類藥物壓力測試時,務必準備 aminophylline 作為拮抗劑,以備發生嚴重支氣管痙攣或心搏過緩時使用。
+
+importantbox
+
+
+#### Dobutamine
+
+
+importantbox
+**絕對禁忌症:**
+
+- **嚴重主動脈瓣狹窄** - 可能導致心輸出量無法增加而發生暈厥
+- **未控制的心房顫動** - 可能加速心室速率
+- **近期發生過心室性心律不整**
+- **未控制的高血壓** - SBP >200 mmHg 或 DBP >110 mmHg
+- **肥厚性心肌病變伴有左心室出口阻塞**
+
+
+**相對禁忌症:**
+
+- 使用 β-blocker - 可能減弱 dobutamine 效果
+- 近期心肌梗塞 (7 天內)
+
+
+importantbox
+
+
+### 運動壓力測試 (Exercise Stress) 特殊考量
+
+
+| p{9cm}}  **禁忌症** | **說明** |  |
+| --- | --- | --- |
+| **無法執行運動** | 骨科問題 (關節炎、義肢)    神經肌肉疾病    周邊血管疾病導致跛行    嚴重肥胖 |  |
+| **急性下肢靜脈栓塞** | 運動可能導致栓塞脫落 |  |
+| **不穩定的骨科問題** | 可能因運動受傷 |  |
+| 運動壓力測試特殊禁忌症 |  |  |
+
+
+### 檢查前評估流程
+
+
+importantbox
+**執行 Stress SPECT 前必須確認:**
+
+
+1. **病史詳細詢問**      - 近期是否有胸痛、呼吸困難、暈厥 - 心臟病史 (心肌梗塞、心臟衰竭、瓣膜疾病、心律不整) - 肺部疾病史 (氣喘、COPD) - 目前使用藥物 (特別是 β-blocker, caffeine, theophylline)
+2. **理學檢查**      - 生命徵象 (血壓、心跳、呼吸速率) - 心音評估 (有無雜音提示瓣膜疾病) - 肺部聽診 (有無喘鳴) - 周邊水腫 (評估心臟衰竭)
+3. **檢驗數據確認**      - 最近心電圖 - 電解質 (特別是血鉀) - 腎功能 (若需使用 CT contrast) - Hemoglobin (評估貧血)
+4. **藥物調整**      - 評估是否需停用 β-blocker (依檢查目的而定) - 停用含 caffeine 飲料與食物 (至少 12 小時) - 停用 theophylline (至少 48 小時) - Dipyridamole 需停用 24-48 小時
+5. **緊急設備準備**      - 急救車 (defibrillator, 急救藥物) - 氧氣設備 - 靜脈輸液裝置 - 拮抗劑藥物 (aminophylline for adenosine, β-blocker for dobutamine) - 確認急救人力可及時支援
+
+
+importantbox
+
+
+### 檢查中止條件 (Termination Criteria)
+
+
+即使病人通過檢查前評估,若檢查過程中出現以下情況,**必須立即中止壓力測試**:
+
+importantbox
+**絕對中止條件:**
+
+
+- ****收縮壓下降 >10 mmHg 並伴有缺血症狀或徵象****
+- ****中度至重度心絞痛****
+- ****神經學症狀**** - 暈厥、頭暈、步態不穩、意識改變
+- ****技術困難**** - 無法監測心電圖或血壓
+- ****持續性心室頻脈 (sustained VT)****
+- ****ST 節段上升 >1 mm**** (非 Q 波心肌梗塞區域)
+- ****病人要求停止****
+
+
+**相對中止條件:**
+
+
+- ST 節段或 QRS 波變化 (非診斷性)
+- 收縮壓下降 >10 mmHg (無其他缺血證據)
+- 收縮壓過度上升 - SBP >250 mmHg 或 DBP >115 mmHg
+- 心室或心房早期收縮增加
+- 心搏過緩 (心跳 <50 bpm)
+- 束支傳導阻滯或心室內傳導延遲
+- 嚴重疲勞、呼吸困難、喘鳴、腿部痙攣
+
+
+importantbox
+
+
+### 特殊族群考量
+
+
+#### 糖尿病病人
+
+
+- 注意血糖控制 - 避免低血糖或高血糖
+- 建議上午排檢,方便病人調整早餐與藥物
+- 若使用 insulin,需與內分泌團隊討論劑量調整
+- 糖尿病病人可能有 silent ischemia,更需謹慎監測
+
+
+#### 慢性腎臟病病人
+
+
+- 注意電解質不平衡 (特別是高血鉀)
+- 若 eGFR <30 mL/min/1.73m² 且需使用 CT contrast,需評估風險
+- 考慮 hydration protocol 預防 contrast-induced nephropathy
+- 洗腎病人建議在透析後 1-2 天內執行
+
+
+#### 高齡病人 (>80 歲)
+
+
+- 較高的併發症風險
+- 可能有多重共病與服用多種藥物
+- 建議使用 pharmacological stress 較安全
+- 需更密切監測生命徵象
+
+
+### 結論
+
+
+importantbox
+**核心原則**
+
+
+1. ****病人安全永遠是第一優先****
+2. **仔細評估禁忌症** - 寧可延後檢查,也不冒險執行
+3. **充分的檢查前準備** - 包括病史、理學檢查、藥物調整
+4. **確保急救設備與人力到位** - 核醫科不是加護病房,但必須能處理緊急狀況
+5. **密切監測檢查過程** - 隨時注意中止條件
+6. **團隊合作** - 與心臟科、核醫科、放射科密切溝通
+
+
+記住:****我們執行 stress SPECT 的目的是診斷冠心病,而不是在核醫科進行 CPR。****因此,任何可能導致病人發生急性心臟事件的風險因素,都必須在檢查前仔細評估與排除。
+
+
+當懷疑病人風險過高時,應考慮:
+
+- 改用侵入性較低的檢查 (如 resting echocardiography)
+- 直接安排心導管檢查
+- 與心臟科醫師討論最適當的診斷策略
+
+
+importantbox
+
+
+## 參考文獻
+
+
+1. Shibutani T, et al. Accuracy of an advanced automated bone suppression algorithm in SPECT-CT for the assessment of myocardial perfusion imaging. Ann Nucl Med. 2017;31:649-659.
+2. Henzlova MJ, et al. ASNC imaging guidelines for SPECT nuclear cardiology procedures: Stress, protocols, and tracers. J Nucl Cardiol. 2016;23:606-639.
+3. Cerqueira MD, et al. Standardized myocardial segmentation and nomenclature for tomographic imaging of the heart. Circulation. 2002;105:539-542.
+4. Garcia EV, et al. The increasing role of quantification in clinical nuclear cardiology: the Emory approach. J Nucl Cardiol. 2007;14:420-432.
+5. Songy B, et al. Impact of IQ-SPECT technology on image quality and left ventricular function assessment in routine clinical practice. J Nucl Cardiol. 2016;23:1243-1250.
+6. Berman DS, et al. Prognostic validation of a 17-segment score derived from a 20-segment score for myocardial perfusion SPECT interpretation. J Nucl Cardiol. 2004;11:414-423.
+7. Abidov A, et al. Transient ischemic dilation ratio of the left ventricle is a significant predictor of future cardiac events in patients with otherwise normal myocardial perfusion SPECT. J Am Coll Cardiol. 2003;42:1818-1825.
+8. Chouraqui P, et al. Increased lung uptake of thallium-201 during exercise myocardial imaging: clinical, hemodynamic and angiographic implications in patients with coronary artery disease. Am J Cardiol. 1987;60:1324-1329.
+9. Knuuti J, et al. 2019 ESC Guidelines for the diagnosis and management of chronic coronary syndromes. Eur Heart J. 2020;41:407-477.
+10. Berman DS, et al. Underestimation of extent of ischemia by gated SPECT myocardial perfusion imaging in patients with left main coronary artery disease. J Nucl Cardiol. 2007;14:521-528.
+11. Henzlova MJ, et al. ASNC imaging guidelines for SPECT nuclear cardiology procedures: Stress, protocols, and tracers. J Nucl Cardiol. 2016;23:606-639.
+12. Fletcher GF, et al. Exercise standards for testing and training: a scientific statement from the American Heart Association. Circulation. 2013;128:873-934.
+13. Gibbons RJ, et al. ACC/AHA 2002 guideline update for exercise testing: summary article. Circulation. 2002;106:1883-1892.
+14. Zoghbi WA, et al. Recommendations for noninvasive evaluation of native valvular regurgitation: a report from the American Society of Echocardiography. J Am Soc Echocardiogr. 2017;30:303-371.
+
+
+\vfill
+
+0.80.5pt
+
+
+{國立臺灣大學醫學院附設醫院新竹臺大分院}
+
+{心血管中心 & 核子醫學科}
+
+
+{\bfseries 蔡雅琴 醫師, MD}
+
+{\bfseries 謝慕揚 醫師, MD, PhD, FESC}
+
+
+編撰日期: \mydate

@@ -1,0 +1,846 @@
+# book carotid stenting
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2013-01-18**
+
+---
+
+---
+
+
+\maketitle 
+
+
+---
+
+\tableofcontents 
+
+
+---
+
+
+## 簡介- 給院內同仁
+
+
+### 新竹醫院的第一例頸動脈支架治療
+
+台大醫院新竹分院的第一例頸動脈介入治療是在2013-01-18開始。治療十餘例後，開始為急性腦中風病患的頸動脈狹窄治療。
+
+	在2015-03-12，心臟內科執行了台大醫院新竹分院第一例急性腦中風內頸動脈支架緊急置放術，病患為50歲男性，有高血壓，糖尿病，在前一天開始半側偏癱，症狀好好壞壞，肢體無力發作後第十八小時，由外院轉入，已惡化至無法言語，合併左側肢體手腳完全無力 (Figure )。經神經內科鄭文立醫師及王威仁醫師緊急再判讀腦部電腦斷層及外院的核磁共振影像後，認為還有機會拯救大片的腦組織。於是於電腦斷層後半小時，啟動緊急心導管團隊，於午夜進行緊急導管檢查，確認左側內頸動脈為99
+
+
+### 院內發展歷程
+
+
+- 1st carotid intervention case: Rt ICA chronic total occlusion.
+- 1st carotid stroke case: 2015-03-12, acute bilateral ICA critical stenosis, acute Lt MCA ischemic stroke.
+
+
+{figure/}
+[Image]
+Before emergent stenting: NIHSS 23.
+
+
+{figure/}
+[Image]
+Emergent stenting to Lt internal carotid artery critical stenosis.
+
+
+{figure/}
+[Image]
+After stenting and rehabilitation, NIHSS 7 at 90 days.
+
+
+## 病患與民眾教育- 頸動脈狹窄的導管治療
+
+
+### 健保給付現況
+
+頸動脈支架：健保給付。
+預防支架置放時引起中風，需要使用血栓保護裝置，健保給付一套。
+
+
+頸動脈狹窄治療健保涵蓋項目- 台大醫院新竹分院
+
+
+| 品項 | 名稱 | 有健保給付 | 無健保給付 | 附註 |
+| --- | --- | --- | --- | --- |
+| Stent | 支架 | WallStent (Boston-Scientific) |  |  |
+| Stent | 支架 | XAct (Abbott) |  |  |
+| Stent | 支架 | Protege (Medtronics) |  | Open-cell stent |
+| EPD | 血栓保護裝置 | Spider (EV3) |  | 可替換導絲 |
+| EPD | 血栓保護裝置 | FilterWire EZ (Boston-Scientific) |  |  |
+| EPD | 血栓保護裝置 | MoMa (Invatec) |  |  |
+| EPD | 血栓保護裝置 | EmboShield (Abbott) |  | 2024年暫時停產 |
+| AngioSeal | 血管止血器 | - | AngioSeal | NTD $ 10800 |
+| ProGlide | 血管止血器 | - | ProGlide | NTD $ 10800 |
+
+
+- 血栓保護裝置，健保只給付一套，若是病灶治療時發生中風的風險極高，建議會使用第二套保護裝置。第二套則需要自費。
+- 血管封阻器 (Angio-Seal), 自費NTD$10800, 目的是在導管治療後，減少臥床休息的時間。目前如果用傳統徒手加壓止血，需要等兩小時後待抗凝血劑效果消失，再徒手加壓5-30分鐘，之後用沙包加壓8小時，以避免血腫或出血。若是用血管封阻器 (Angio-Seal) 則病患接受沙包加壓時間縮短為兩小時，之後臥床再兩小時，可縮短臥床時間由10小時至4小時。
+
+
+### 病患的風險與殘障帶來的損失
+
+頸動脈狹窄若是藥物治療失敗，而中風發展並惡化，常常病況嚴重，致使病患失能臥床，比顱內血管阻塞更為嚴重。這是因為頸動脈是脖子送血液至腦部的樞紐。以下介紹什麼是modified Rankin scale (mRS). 這是Dr. Rankin依據中風產生的後遺症，將病患分為下面幾個族群。以做為醫學上統計與評估預後的依據。
+
+
+- 0 - No symptoms. 無症狀，沒有後遺症。
+- 1 - No significant disability. Able to carry out all usual activities, despite some symptoms. 有症狀 (可能手腳臉仍有可以看得出來的不方便），但是仍然能夠執行日常生活的動作，沒有嚴重到無法工作或自理生活。
+- 2 - Slight disability. Able to look after own affairs without assistance, but unable to carry out all previous activities. 輕度殘障，不能夠繼續進行所有發病前的生活作習（游泳，高爾夫，爬山）。但是仍然能夠居家自理，不用人照顧。
+- 3 - Moderate disability. Requires some help, but able to walk unassisted. 中度殘障，需要人幫忙照護，但是仍然能夠走路。
+- 4 - Moderately severe disability. Unable to attend to own bodily needs without assistance, and unable to walk unassisted. 中至重度殘障，需要人幫忙照顧。
+- 5 - Severe disability. Requires constant nursing care and attention, bedridden, incontinent. 重度殘障，需要人持續照顧，臥床，沒有辦法自理大小便。
+- 6 - Dead. 死亡。
+
+
+頸動脈狹窄 (carotid artery stenosis)若是進展至全阻塞 (total occlusion)，導致中風，之後中風失能分數 (modified Rankin scale, mRS)在4-6分的比例較高。而以血栓溶解劑治療，其打通血管的機會為4.4
+
+
+中風後遺症與預估的損害
+
+
+| mRS | 病況 |
+| --- | --- |
+| 0 | 無症狀,沒有後遺症 |
+| 1 | 有症狀但無殘障 |
+| 2 | 輕度殘障 |
+| 3 | 中度殘障，仍能走路 |
+| 4 | 中至重度殘障，需要助行器 |
+| 5 | 重度殘障，臥床 |
+| 6 | 死亡 |
+
+
+若是嚴重至mRS 4-5程度，會需要下面的額外支出以照顧這樣子的病人。感謝本院社工室提供下面的數字（以2016當時的社經情況為如下）：
+
+1. 請外籍看護工估計每年約需36萬元(3萬X 12個月)
+2. 入住護理之家(收費不同)估計每年約42至60萬元(3.5萬X 12個月；5萬X 12月)
+
+
+---
+
+
+### 病因介紹，流行病學，與國外治療結果
+
+頸動脈狹窄的原因：與年紀，動脈硬化，糖尿病，慢性腎衰竭有關。
+
+
+### 自然病程
+
+
+- 在暫時性腦缺血 (TIA, transient ischemia attack)或 小中風 (minor stroke)後，在第一年內有多少病人會再發生血管疾病惡化 (recurrent stroke or acure coronary syndrome)？ 	 Amarenco在2016年發表在NEJM: 共追蹤4789名病患，其中33.4
+
+
+	
+	
+
+### 該幫病患轉院嗎？
+
+目前北台灣執行頸動脈狹窄治療的醫院極多，台北台大醫院，台北榮總醫院，台北振興醫院，林口長庚醫院均有專門科部執行頸動脈支架置放 (表格 )。本院心臟內科立場如下：盡力協助進行病情說明，讓病患及家屬有正確的認識，不必聽完說明就一定要在新竹治療。聽完說明後，如果家屬希望至別院就診，請協助提供：頸動脈超音波，頭頸部電腦斷層報告與光碟。請參考表格 協助進行轉診。
+
+對於希望北上在其它院所接受治療的病患，我們希望病患妥善治療後，攜帶治療報告，回到新竹追蹤。盡地區醫院的職責，幫忙就近照顧。若是家人就近希望在本院治療，再請神經內科醫師，加護病房醫師，安排轉診至本院心臟內科門診安排導管治療時間。
+
+
+|  | 項目 |
+| --- | --- |
+|  | 檢查成功率 |
+|  | 手術成功率 |
+|  | 案例數 |
+|  | 成功率 |
+|  | 案例數 |
+|  | 成功率 |
+|  | 項目 |
+|  | 短暫腦缺血 |
+|  | 手術中/後 嚴重中風 |
+|  | 手術中/後 小中風 |
+|  | 心肌梗塞 |
+|  | 顱內出血 |
+|  | 打針處併發症 |
+|  |  |
+
+
+至於本院自2013-11-18執行第一例以來，至2019-04-29的記錄如下：
+
+
+新竹台大院內統計資料 (2013-2019)
+
+
+| 項目 | 項目 |
+| --- | --- |
+| 頸動脈血管攝影術 | 檢查成功率 |
+| 頸動脈支架置放術 | 手術成功率 |
+| 治療急性腦中風病患 | 案例數 |
+|  | 成功率 |
+| 治療頸動脈全阻塞 | 案例數 |
+|  | 成功率 |
+| 併發症 | 項目 |
+|  | 短暫腦缺血 |
+|  | 手術中/後 嚴重中風 |
+|  | 手術中/後 小中風 |
+|  | 心肌梗塞 |
+|  | 顱內出血 |
+|  | 打針處併發症 |
+
+
+台灣北部執行頸動脈狹窄治療的醫院與醫師
+
+
+| 醫師 | 醫院 |
+| --- | --- |
+| 高憲立醫師 | 台大醫院 |
+| 廖漢文醫師 | 輔大醫院 |
+| 李崇維醫師 | 台大醫院 |
+| 羅兆寶醫師 | 台北榮總 |
+| 黃威銘醫師 | 淡水馬偕 |
+| 殷偉賢醫師 | 振興醫院 |
+| 謝宜璋醫師 | 林口長庚 |
+| 魏日華醫師 | 桃園敏盛醫院 |
+| 賴超倫醫師 | 新竹台大 |
+| 謝慕揚醫師 | 新竹台大 |
+| 楊欽文醫師 | 新竹台大 |
+| 孟士瑋醫師 | 新竹台大 |
+| 廖哲偉醫師 | 新竹台大 |
+
+
+---
+
+
+### 我的腎功能很差，醫師說作頸動脈支架，用了顯影劑就會洗腎，那我該怎麼辦？
+
+
+#### 從額外增加的照顧支出來考慮
+
+常見的問題，是要救腦袋，還是要救腎臟？
+
+若是救腎臟先，要想的是：一年腳中風臥床，失去照顧自己的能力後，額外增加的開銷會多大？請參考 Table 。
+
+若是救腦袋先，要想的是：洗腎本身是健保給付，若神經功能正常，或足以自理，病患還是可以自行前往醫院診所接受透析治療。一年內，洗腎的交通開銷多大？
+
+
+#### 從風險來考慮
+
+顯影劑使用後，導致病患洗腎，是過去到現在一直被研究的題目，所以其實早就有風險估算的工具了。
+
+目前在台大醫院新竹分院，針對腎臟功能差的病患，在接受血管攝影前，會先以資料庫分析得到的風險估算器，計算接受血管攝影或治療後，發生腎功能惡化，或是進展到需要透析的風險。
+
+估算工具網址：  
+
+https://www.renalguard.com/educational/contrast-induced-nephropathy-risk-calculator
+
+
+{figure/}
+[Image]
+[Image]
+以風險估算工具，做重大醫療決策。兩個案例的風險評估結果對比。
+
+
+| |p{5.5cm}|p{5.5cm}|} 顯影劑誘發腎病變風險評估案例對比 |  |  |
+| --- | --- | --- |
+| **評估項目** | **病患一** | **病患二** |
+| **基本資料** | 67歲男性 | 84歲女性 |
+| **既往病史** | - 心衰竭 - 糖尿病 - 慢性腎衰竭 | - 心衰竭 - 糖尿病 - 慢性腎衰竭 |
+| **肌酸酐指數** | 3.0 mg/dL  （正常值 < 1.4 mg/dL） | 4.2 mg/dL  （正常值 < 1.4 mg/dL） |
+| **顯影劑使用量** | 100 ml | 100 ml |
+| **30日內洗腎風險** | ****1.09 | ****12.6 |
+| **肌酸酐惡化風險** | ****26 | ****57.3 |
+| **風險等級** | **相對較低風險**  （仍高於正常人0.001 | **高風險**  （明顯高於正常人0.001 |
+| **臨床意義** | 雖有風險，但相對可接受  可考慮進行頸動脈支架治療 | 風險較高，需謹慎評估  應與患者及家屬充分討論 |
+| **決策考量** | - 洗腎風險相對較低 - 中風預防效益可能大於風險 - 可考慮預防性措施 | - 洗腎風險相對較高 - 需權衡中風預防vs腎功能保護 - 必要時考慮替代治療方案 |
+| **預防措施建議** | - 充分水化 - 使用低滲透壓顯影劑 - 最小顯影劑用量 - 術後密切監測腎功能 | - 充分水化（若心功能允許） - 使用低滲透壓顯影劑 - 嚴格控制顯影劑用量 - 考慮腎保護藥物 - 術後密切監測腎功能 |
+
+
+經討論後，兩位病患及家屬才了解導管手術後，洗腎的風險分別為：1.09
+
+**結論：**透過客觀的風險評估工具，可以幫助醫師與患者及家屬進行更精確的醫療決策討論，避免單純依據主觀感受而做出可能不適當的治療選擇。每個患者的風險程度不同，需要個別化評估和處理。
+
+
+---
+
+
+### 我的腎功能很差，醫師說作頸動脈支架，用了顯影劑就會洗腎，那我該怎麼辦？
+
+
+#### 從額外增加的照顧支出來考慮
+
+
+#### 從風險來考慮
+
+
+### 給家屬的治療前說明
+
+
+#### 治療的風險
+
+手術的風險: 3
+
+治療前一定會讓病患接受藥物治療，以期讓血栓的影響降到最低。並提高治療時的安全性。
+
+住院檢查的目的是確認阻塞的程度，若是已達該治療的程度，同時經過這段時間的治療，血栓降至安全程度，我們才會進行支架治療。但若是病況緊急，不在此限。
+
+導管手術當天也不是直接裝支架，
+會先把冠狀動脈血管攝影，與頭頸部血管攝影都完成，
+徹底檢查清楚後，
+確認風險與治療必要性後，
+才裝置支架。
+
+大於 60
+大於 80
+
+因為中風的後遺症大...
+也有治療的時限...
+
+目前治療是越來越積極...
+詳細可以參考：
+台灣腦中風醫學會網站 (google: 台灣腦中風醫學會 頸動脈支架)
+台北榮總- 腦中風暨腦血管疾病中心 (google: 北榮 頸動脈血流重建)
+
+
+#### 住院的時間長短
+
+住院通常時間會拉至約一週，第一天住院抽血量血壓，第二天做支架，做完後當天去加護病房，觀察至血壓穩定為止。之後在第三天或是第四天轉至普通病房。再觀察兩到三天再回家。
+
+
+#### 住院中的花費
+
+請參考我們的附件資料，支架與保護裝置，都是健保 (健保幫忙出90
+
+
+### 常見問答集
+
+通常病患的問題會是：
+
+
+- 導管手術是開刀嗎？不是，是打針的微創手術。不是開刀手術。兩者不同。
+- 花費會很貴嗎？手術全部耗材會花到12-15萬，在健保之下家人只需要負擔10
+- 住院與導管手術的流程是？    住院通常時間會拉至五至七天，第一天住院抽血量血壓，下午做血管攝影及支架，做完後當天去加護病房，觀察至血壓穩定為止。之後隔天血壓穩定後轉至普通病房。再觀察兩到三天再回家。
+- 手術的風險很高嗎？手術的風險: 3
+- 檢查後醫師會評估些什麼？會直接裝支架嗎？    若是有症狀 (有暫時性腦缺血，或是中風)的狹窄，達到>60  理由是狹窄嚴重的話，藥物治療仍不能夠將血管打開。    藥物的治療是要讓血小板被抑制，讓血栓較不易產生。    不處理，不吃藥，之後再中風的風險高，中風的後遺症也大。    神經科的同事轉診給我們進行支架置放，主要是怕他中風。    我們會很注意內頸動脈狹窄，是因為它一旦完全阻塞， 影響到的是整個大腦半球， 若是對側的腦循環或後循環的血流不佳， 可以造成嚴重的殘障。    頸動脈支架也不是說放就放， 因為執行手術時的中風風險約3 在過去沒有使用保護裝置，發生中風的機會甚至高達10-13  我們計畫的會是先檢查，以血管攝影確認， 同時評估有沒有好的側枝循環。 也會一併檢查心臟的血管。
+- 支架置放前藥物要如何使用？ 藥物上會先吃: Bokey, Plavix, 以及控制血脂肪的藥物。    目前是先開始藥物治療， 以期讓血栓的影響降到最低。 並提高治療時的安全性。
+- 支架置放的成功率為多少？    頸動脈支架的成功率：98-99 頸動脈支架執行後，會在加護病房觀察24小時，之後留院觀察約二至三天。    在觀察與追蹤兩到三天後，才會允許病人出院回家。    醫師的重要任務是：血管治療成功（將血管打通，支架置放完畢）。    但是對於病患與家人，真正的成功常常指的是更進一步：血管治療成功，加上術後七天都沒有併發症。這些其實是需要多花幾天在醫院追蹤才能達到的。
+- 支架放完，可以去坐飛機嗎？    支架與坐飛機沒有關聯，支架不會被金屬探測器偵測到的。
+- 需要用到塗藥支架嗎？    頸動脈支架跟心臟的支架不同，血管很粗，不需要用到塗藥支架。同時治療用保護裝置一套，與支架一支，兩樣都是健保給付。
+- 手術時間約會多長？    手術約90分鐘。在鼠蹊部打針執行。不是開刀。
+- 什麼是導管手術？    導管手術是開刀嗎？不是，是打針的微創手術。不是開刀手術。兩者不同。
+- 導管手術不是微創嗎？為什麼還要住院？    住院檢查的目的是確認阻塞的程度， 若是已達該治療的程度， 同時經過這段時間的治療， 血栓降至安全程度， 我們才會進行支架治療。    導管手術當天也不是直接裝支架， 會先把冠狀動脈血管攝影，與頭頸部血管攝影都完成， 徹底檢查清楚後， 確認風險與治療必要性後， 才裝置支架。
+- 有額外的參考資料可以給家人嗎？    搜尋關鍵字: 內頸動脈狹窄 腦中風學會 (腦中風學會)    搜尋關鍵字: 頸動脈血流重建 (台北榮總)
+
+
+## Carotid Duplex 頸動脈超音波
+ 
+
+在從未有過症狀發作的病人（未中風，未曾有暫時性腦缺血 [TIA]的病人), 其頸部超音波下，應有見到嚴重狹窄合併 peak systolic velocity > 230 cm/sec, 再考慮轉介做頭頸部血管攝影檢查。
+
+在有症狀的病人，在頸超發現可能狹窄後，應積極進行非侵入性檢查，以CTA或MRA評估內頸動脈狹窄程度。
+
+若病患腎功能差，不適合以顯影劑輔助造影，還是可以用non-contrast MRI (with TOF) 評估頸部血管。
+
+請參考：頸動脈超音波 Section 
+
+
+### 什麼時候該排頸超？
+
+
+### 頸超的檢查內容
+
+
+- Ultrasound probe: > 7 MHz for intima-media thickness and plaque morphology.
+- Ultrasound probe: < 7 MHz for Doppler examination
+- Ultrasound probe, curved: for short muscular neck
+- Morphology: heterogeneous plaque, homogeneous plaque, intra-plaque hemorrhage
+- Morphology: internal characteristics, surface details of plaque
+
+
+#### Plaque morphology
+
+
+- Homogeneous: fibrous (soft) or calcified (hard), with uniform internal architecture with a smooth surface contour.
+- Heterogeneous: ulcerated plaques, unstable or friable with the potential for embolic transient ischemic attacks and cerebrovascular accidents. Attenuated (hypoechoic) plaque: larger amounts of intraplaque hemorrhage and lipid. Plaques associated with amaurosis fugax are more hypotechoic than plaques causing TIAs or CVAs. (ref 15-17).
+- Ulcerated plaques: use alternative imaging with color Doppler and gray-scale flow imaging to enhance surface contour morphology study.
+
+
+{figure/}
+[Image]
+The standard carotid Duplex exam report form.
+
+
+---
+
+
+### 支架後的頸動脈超音波追蹤
+
+支架手術後，該以多久的時間做頸動脈超音波？依目前的文獻，一年內以六個月的週期追蹤，一年以後逐年追蹤一次即可。(資料感謝神內蔡醫師提供, 2017-06-25). 
+
+BACKGROUND AND PURPOSE: In-stent restenosis (ISR) is a potentially preventable cause of stroke in carotid artery stent (CAS) patients. Understanding the frequency and timing of ISR would be useful in developing optimal protocols for carotid stent surveillance. The time course and frequency of moderate and severe ISR in our single institution prospective registry of CAS procedures is reported here. METHODS: Data were collected prospectively from 296 consecutive elective CAS procedures. Doppler surveillance was performed at 1, 6 and 12 months and annually thereafter in some cases. Moderate ISR (>50
+
+
+## CT
+
+在急性腦中風的檢查，截至目前為止，都還是在第一時間作到non-contrast brain CT為主要。若是頸超有懷疑頸動脈有狹窄的問題，則可以考慮加做contrast-enhanced CTA甚至加作CTP (CT with perfusion imaging). 
+
+在本院放射科的protocool: 
+
+1. 若加做brain CTA, including neck CTA. 則會加打到75-100 ml contrast. 
+
+2. 若加做CTP, 則會再加用115-130 ml contrast. 
+
+以上顯影劑用量，在於腎功能不全的患者，至關重要。在腎功能差的病患，建議以non-contrast MRA評估頸部血管，之後直接轉介以血管攝影造影頸部血管。
+
+因為一側的ICA造影，可以只花5-8 ml就將ICA以angiography造影清楚。而雙側ICA一般在20 ml內就可以造影清楚，然後逕行必要的治療。若是先以non-contrast MRA先評估頭頸部血管，則沒有病變的VA, ICA甚至可以考慮在血管攝影時跳過不用再多打顯影劑。這樣子對於病患腎功能的影響可以再降低。
+
+然而，仍要注意的是：在新竹分院，三個小時內腦中風病人若懷疑ICA occlusion，還是建議CTA + perfusion CT. 因為MRI會花更多時間。
+
+
+## MRI
+
+MRI不能只切到brain, 應該包含neck and aortic arch. 
+
+
+#### MRI下的重要發現
+
+若是病人中風過，在MRI的DWI即可看到明顯的watershed ischemia (internal capsule borderzone, cortex watershed infarction). 這些病人通常對於MoMa等proximal protection device的容忍度都很差！使用proximal occlusive balloon protection時通常要更加小心。(資訊提供：亞東賴彥君主任）
+
+
+#### Findings suggestive of vulnerable plaque under carotid MRI
+
+Carotid MRI在T1, T1FS, T2若是都白的 (high signal intensity), 代表是vulnerable plaque. (感謝亞東醫院賴彥君主任介紹。)
+
+
+#### Plaque morphology under MRI
+
+請一併參考 section . 
+
+
+## 治療策略
+
+病患的症狀，與其定位是非常重要的。
+
+
+下面關於carotid stenosis的plaque之anatomical features對於決定如何治療至關重要。
+
+
+1. location
+2. extent
+3. degree of stenosis
+4. heterogeneity
+5. echodensity
+
+
+## 治療時機
+
+依照ESC guideline, 2019的建議是，在有症狀發生的TIA/stroke, 應該在2 weeks內進行revascularization (國外是以CEA為主，國內則多以CAS為主）。但是對於是否在48小時內緊急介入，則還有爭議。Aboyans2019
+
+
+comment
+
+## 導管治療筆記- curtesy to Dr. 江亮霆, 待整理
+
+Pre
+Prognosis
+If infarction volume >100cc
+患者之後可以走路NNT = 10
+進步(可能差強人意)NNT= 3
+(NNT: number needed to be treated)
+ICH risk 不會因為 IA treatment而顯著增加 (< 5
+
+要解釋CVA的Nature course仍然可能會progress
+也要解釋 Reperfusion Injury
+主要要看3個月mRS有無進步, 減少被照顧的需要與負擔
+(雖然要花錢, 但是之後如果要請人照顧更花錢......)
+
+CT
+ASPECTS score (主要for anterior circulation)
+6分以上預後比較好
+PS: 也有 posterior-ASPECTS, 參考價值比較差
+要切到 aortic arch 來排除 DAA
+
+CTA: IRA evaluation, revascularization if ICA, M1, and possible M2
+
+CTP
+Core: 超過70cc 若做 thrombectomy, risk大增 --> 不建議做
+MTT 減少
+CBF 大幅減少
+CBV 大幅減少
+Penumbra
+MTT 減少
+CBF 減少
+CBV 幾乎不變
+
+中國醫藥學院: MRI with perfusion: 專們軟體40分鐘算出 Core and Penumbra 
+                      (一年>100萬, 比較花時間, 研究方面有用)
+彰基: CTA + CTP (perfusion CT): 有專門軟體20分鐘內算出 Core and Penumbra
+                   可以邊啟動angioroom一邊等
+
+轉院時間太久 -> outcome不好 (但是有研究覺得也還好)
+重點是reperfusion
+能努力的是 door-to-perfusion time
+
+Anesthesia
+慕揚review文獻, 認為light sedation 比 全麻 要較低的住院天數與併發症
+中國醫藥學院與彰基 全麻 --> 做完要一段時間才能做神經學評估
+
+---
+Procedure:
+Heparin: NO Bolus
+彰基: Heprain 1500U in 500cc saline irrigation, 比較少
+慕揚: Heparin 5000U in 1000cc saline irrigation (依照水牛城經驗)
+台大: Heparin 1000U in 500cc saline irrigation, 更少
+
+Goal result：
+TICI-2b   TICI-3 flow
+台大林彥亨醫師分享總院經驗, 不要掙扎超過 1小時, 否則易有併發症
+中國醫藥學院分享: 不一定有馬上恢復的成果, 但是可期待3個月後自理功能較佳
+取栓新知建議 < 15-20min
+外國講者建議取栓試試看3次沒有進步就放棄, 否則 risk大增
+
+--     PS:
+TICI-2a: 血流到近端1/3
+TICI-2b: 血流到超過1/3
+TICI-3: 血流可以到最末端
+--
+
+Multi-axial tecgniques
+Tri-axial: 三層管路, usually
+2層抽吸管 + 外層
+外層 + 抽吸 + stent (for retrieval)
+2中層 + stent
+Tetra-axial: 如 外層 + 2 抽吸 + stent
+
+外層管
+7Fr Cook Shuttle Sheath 80cm, 矮的人, 短一點比較好操作
+7Fr Cook Shuttle Sheath 90cm, 身高170cm以上必須
+
+中層管, ID越大越好吸
+5-MAX (Penumbra), ID 0.062", 原本就是設計來抽吸, 約可堆送到M1
+ACE 60, ID 0.060" (Penumbra)
+ACE 64, ID 0.064"
+ACE 68, ID 0.068", 約只能到Petrous
+Nevian 072, ID 0.072", 約可堆送到M1
+
+內層抽吸管
+3-MAX (Penumbra) ID 0.035", 可以堆送至 M2
+
+微導管 microcatheter (MC)
+Marksman (EV3, Medtronic) 0.021" for stent retrieval
+
+GuideWire 導絲
+Fathom, 0.016"
+不一定需要用260cm的長GW, 也可以用180cm的coronary wire (因為只要帶過MC)
+神放前輩們建議使用軟GW, 前端最好小 loop, 利用looping的方法減少trauma
+
+ADAPT: A Direct Aspiration 1st-Pass Techinique
+使用Penumbra提出的作法, 先吸住停3min, 再邊吸邊拉取出血塊
+ADVANCE aspiration catheter with PUMP ON
+> Do NOT flush from aspiration catheters
+彰基陳主任建議: 使用aspiration時, catheter邊吸邊靠近thrombus, 不可以穿過thrombus
+
+Stent for Thrombectomy
+Stent遠端要放過thrombus之後6-8mm, 5min, 才抓得住
+Anchor, Pull (stent), and Push (中層) technique
+拔出時要負壓抽吸
+Microcatheter 在stent deploy後可以不用完全取出，可回推至stent近端一起拉!!
+     (考慮使用Torque device在Stent的導線)
+Solitaire, 4.0x20mm for M1, 6.0x30mm for ICA
+     使用特殊工具可以deploy stent in vessel (但是radial force比coronary stent差)
+Trevo: 外國人建議要Puff and Fluff: 連接導線要往前頂一點stent才會全開 --> 先頂一點, 再MC+stent一起頂一點
+
+Be aware of ENT (emboliszation of New Territory)
+estimatedly 7-9
+拉stent時一定要suction (中層)
+comment
+
+
+## 導管治療流程- 給導管室同仁
+
+
+### 要準備的導管醫材
+
+
+頸動脈支架醫材列表
+
+
+| tabularx{\textwidth}{ LLLL }  項目 | 內容 | 規格 | 附註 |  |
+| --- | --- | --- | --- | --- |
+| Wire | 0.014-inch (冠脈系統): Fielder FC, Sion, UB3 | 為各式病灶準備 |  |  |
+| Wire | 0.035-inch (週邊): Terumo GlideWire soft, stiff | 180 cm, 260 cm |  |  |
+| Guide catheter | 8 Fr JR4 |  |  |  |
+| Sheath | 6 Fr 90 cm | Cook, Terumo, Biotronik均可 |  |  |
+| Distal protection system: filter | Boston-Scientific: FilterWire EZ |  |  |  |
+| Distal protection system: filter | EV3: Spider |  |  |  |
+| Proximal protect system: balloon | Medtronics: MoMa and Cello |  |  |  |
+| Post-dilatation balloon: Sterling | Boston-Scientific |  |  |  |
+| Stent | Boston-Scientific: WallStent |  |  |  |
+| Stent | Abbott: XAct |  |  |  |
+| Stent | Cordis: Precise |  |  |  |
+|  |  |  |  |  |
+
+tabularx
+
+
+### Angiography 角度怎麼打
+
+Carotid angiography:
+
+1. Arch level: true AP + LAO 60. 看開口of: Innominate artery, Lt CCA, Lt SCA.
+2. Mandible level: true AP and true Lat, or AP Caudal 15-20 degrees plus 10-15 ipsilateral AO and true Lat.
+3. Supratentorial level: AP Cranial (let ant. fossa and post. fossa in-line, usually between 15-30 degrees) and true Lat.
+
+
+### 檢查表
+
+
+頸動脈支架查核表
+
+
+| tabularx{\textwidth}{ LLLL }  項目 | 內容 | 查核 | 附註 |  |
+| --- | --- | --- | --- | --- |
+| 住院前溝通查核 | 病患所有的家屬是否都已經一起聽取治療說明？ | 手術當天所有家屬到場 |  |  |
+| 住院後藥物查核 | 已經吃Plavix, Bokey, Lipitor 缺一不可，急性中風則不限 | 病房NP執行 |  |  |
+| 準備器材 | 執行前一天確認器材是否備妥 (shuttle sheath, EPD, and stent) | 導管室前一天由書記執行 |  |  |
+| 通知NS and Neuro | 治療前一小時確認NS有人值班 | 病房NP與NS NP確認 |  |  |
+| 文件查核 | 有沒有簽立手術同意書及加護病房入住同意書？ | 導管室與病房交班時執行 |  |  |
+| CCU/ICU床位 | 做完一定會去ICU, 除非只有診斷，病患是否洗腎? | 導管室1st assistant與Pruka跟台人員確認 | 若沒有洗腎床，提醒VS跟家屬解釋隔日再洗 |  |
+| 血壓控制 | Perdipine 4 amp (病房開) or Levophed (導管室) | 術中SBP 140-160 mmHg |  |  |
+| 抗凝血劑使用 | heparin 3000 units, 5 min後recheck. 再補。 | Pruka人員執行 | ACT 250-300秒之間微調，每三十分鐘recheck一次 |  |
+| 保護裝置置放 | 是否單套 (filter or MoMa?) 或是用雙套保護? | 病患同時雙側狹窄則只能用filter, 狹窄再加血塊或是正在中風中，考慮雙套保護裝置 |  |  |
+| 支架置放前 | 有開saline flush | 1st assistant確認 |  |  |
+| 支架進入中 | 有預先給atropine 0.5 mg, 有確認是否暫停Perdipine | 1st assistant與Pruka確認 |  |  |
+| 支架置放後 | 是否開回Perdipine | 1st assistant與Pruka確認 |  |  |
+| 神經學檢查 | 術中每15分鐘，確認病人表情與瞳孔大小 | Pruka執行 |  |  |
+| 術後血壓控制 | 以N/S 500 ml 加上 Levophed infusion治療低血壓。目標值如上。以Perdipine控制高血壓。 | CCU/ICU NP and nurses | 血壓過高加上heparin-> ICH, 血壓太低-> stent thrombosis |  |
+|  |  |  |  |  |
+
+tabularx
+
+
+### Phases of Intervention- Tips and Caveats
+
+
+#### Pre-procedural phase- 支架前的藥物準備: the Armyda-9 Study
+
+Statin在carotid stenting, 有降低periprocedural stroke風險的，就只有一種藥物被研究且發表：Lipitor. Patti2013
+
+OBJECTIVES: This study sought to evaluate whether a strategy with a 600-mg clopidogrel load and a short-term, high-dose atorvastatin reload would improve outcomes in clopidogrel-naive, statin-treated patients undergoing protected carotid stenting. 
+
+BACKGROUND: Optimal clopidogrel loading dose during carotid stenting has not been investigated; in addition, statin neuroprotection in this setting has not been described. METHODS: A total of 156 patients were randomized using a 2 x 2 factorial design to receive either a 600-mg (n = 78) or 300-mg (n = 78) clopidogrel load given 6 h before intervention and either a atorvastatin reload (n = 76; 80 mg + 40 mg initiating 12 h before the procedure) or no statin reload (n = 80). The primary endpoint was the 30-day incidence of transient ischemic attack/stroke or new ischemic lesions on cerebral diffusion-weighted magnetic resonance imaging performed at 24 to 48 h. 
+
+RESULTS: Occurrence of the primary outcome measure was significantly lower in the 600-mg clopidogrel arm (18
+
+CONCLUSIONS: In patients undergoing carotid stenting, a strategy using both a 600-mg clopidogrel load and a short-term reload with high-dose atorvastatin protects against early ischemic cerebral events. These results, obtained along with routine mechanical neuroprotection, provide new evidence of the optimization of drug therapy before percutaneous carotid intervention. (Clopidogrel and Atorvastatin Treatment During Carotid Artery Stenting [ARMYDA-9 CAROTID]; NCT01572623). Patti2013
+
+
+#### 併用Bokey and Plavix的顱內出血風險？
+
+Short-term treatment with clopidogrel plus aspirin after acute transient ischemic attack or minor ischemic stroke has a low major hemorrhage complication rate and reduces the risk of ischemic stroke. Tillman2019
+
+Tillman H, Johnston SC, Farrant M, et al. Risk for Major Hemorrhages in Patients Receiving Clopidogrel and Aspirin Compared With Aspirin Alone After Transient Ischemic Attack or Minor Ischemic Stroke: A Secondary Analysis of the POINT Randomized Clinical Trial. JAMA Neurol 2019.
+
+
+#### Access phase
+
+
+#### Peri-procedural phase: embolic protection device placement
+
+
+#### Peri-procedural phase: stent deployment
+
+
+#### Open cell carotid stent
+
+若計劃使用 open cell carotid stent, 請務必記得：應考慮先predilate病灶，才放支架。因為若是支架沒有全開，突出的stent strut會造成收傘困難，同時要再進氣球做後擴張也會很困難。
+
+
+#### WallStent position issue
+
+Boston-Scientific的WallStent的獨特特性：會縮短！所以置放時，lesion不能定位在支架正中部。應該取1/3, 2/3分佈。同時是因為proximal支架較多的話，會將角度拉得較直，不然會發生很嚴重的vessel distortion (after stenting). 
+
+
+#### 支架不應放得太高
+
+以外科的觀點來說，之後若發生stent restenosis, 會造成無法以手術取出支架的困境。
+
+
+#### 包膜支架的使用- Plaque burden很大的情況
+
+若是angiography看到的是 long and diffuse CCA stenosis, plaque burden可以很大。
+應該要考慮用 Cello with proximal balloon protection, 再加上 covered stent (Viabahn)做治療。以免發生嚴重的 distal embolization. 參考導管: 2021-07-29 patient: 陳海O. 
+
+
+#### Peri-procedural phase: post-dilatation
+
+
+#### Post-procedural phase
+
+
+### 導管治療流程
+
+
+### Vascular Access
+
+儘量以ultrasound-guided puncture進行血管穿刺。
+
+
+### Table Preparation
+
+
+病患抵達導管室前準備項目如下
+準備flushing system and Y-connector. 每一支要進到頭頸部的血管都要照圖準備
+Y-connector. (Figure 
+
+
+{figure/}
+[Image]
+This is the set-up of Y-connector.
+
+
+---
+
+
+## 術中追蹤- 給導管室醫護同仁
+
+要給病患捏球。做關鍵動作時，請病人讀秒。讓病人自己讀秒報數（數數字）可以幫助醫師提前發現Lt hemispheric ischemia. 
+
+
+## 術後追蹤及後續治療- 給加護病房醫護同仁
+
+
+### 認識中風復發性症狀（Recrudescence from Prior Stroke）
+
+
+#### 病例問題
+
+一位82歲男性患有心房顫動及既往左側中大腦動脈中風病史，與妻子一同前來急診就醫。患者過去3天出現發燒和咳痰症狀，今晨發現走路時右腳拖行。他在5年前中風時有類似但更嚴重的症狀，之後幾乎完全恢復至基線狀態，直到今晨才再次出現無力症狀。患者表示一直有服用warfarin，但最近未檢測國際標準化比值（INR）。
+
+理學檢查發現體溫38.9°C，心跳92次/分鐘，血壓148/68 mmHg。心臟檢查顯示不規律心律，無雜音；雙側肺底聞及輕微呼氣末期喘鳴音。意識狀態及腦神經檢查正常，能夠命名高低頻詞彙，也能重複及遵循簡單複雜指令。
+
+患者無背痛及感覺缺失，僅有右側旋前肌漂移現象及走路時右腳拖行。患者妻子表示他在檢查時比早晨時更加穩定。四肢對抗性肌力測試皆為5/5，反射正常。
+
+
+#### 答案解析
+
+曾經因中風或多發性硬化症而出現神經功能缺損的患者，有時會在併發其他疾病時重新出現或復發這些缺損症狀。最常見的誘發因子包括感染、低血壓、低血鈉、低血糖、失眠、壓力及benzodiazepine (苯二氮平) 類藥物使用。復發性症狀最常發生於中大腦動脈梗塞，可導致語言、感覺及運動功能缺損。通常不會觀察到凝視偏好、偏盲及忽視症候群。
+
+復發性症狀常為排除性診斷，必須與新發神經事件區別。復發時的症狀通常與初次發病相似但較輕微。若出現初次受傷時未曾出現的症狀，則應評估是否為新發事件。
+
+本病例中，患者INR值未知，且具有中風高危險因子，包括檢查時血壓控制不佳，這提高了新發栓塞性或腔隙性中風的可能性。然而，患者表示遵從用藥，且目前的缺損症狀與初次發病相似但較輕微，發生於疾病期間，且現在似乎正在改善——這些都使復發性症狀 (stroke recurdescence) 比新發中風更可能。新發中風造成與第一次完全相同症狀的可能性很低，特別是腔隙性中風，其機制與患者首次中風不同。
+
+雖然癲癇可能在感染情況下發生，並可能導致Todd氏麻痺（短暫性單側發作後無力，常對側於癲癇發作部位），但此患者無癲癇發作報告或其他可能提示癲癇的發現，如失禁等。
+
+症狀的不對稱性及缺乏近端肌無力使新發進行性肌病變的可能性較低，特別是在82歲的年齡。
+
+
+---
+
+
+| p{10cm}} 中風復發性症狀 (stroke recrudescence)重點整理 |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **定義** | 既往中風或多發性硬化症患者在併發疾病時重新出現神經功能缺損 |  |
+| **常見誘發因子** | - 感染 - 低血壓 - 低血鈉 - 低血糖 - 失眠 - 壓力 - benzodiazepine (苯二氮平) 類藥物使用 |  |
+| **最常發生部位** | 中大腦動脈梗塞 |  |
+| **可能症狀** | 語言、感覺、運動功能缺損 |  |
+| **通常不會出現** | 凝視偏好、偏盲、忽視症候群 |  |
+| **診斷特點** | - 排除性診斷 - 症狀與初次發病相似但較輕微 - 在疾病期間發生 - 通常會逐漸改善 |  |
+| **鑑別診斷** | - 新發中風（栓塞性或腔隙性） - 癲癇發作後Todd氏麻痺 - 新發進行性肌病變 |  |
+| **本病例特點** | - 82歲男性，心房顫動病史 - 5年前左側中大腦動脈中風 - 感染併發症狀復發 - 症狀較初次輕微且改善中 - INR未知，血壓控制不佳 |  |
+| **支持復發診斷** | - 遵從warfarin用藥 - 症狀與初次相似但較輕 - 感染期間發生 - 檢查時症狀改善 |  |
+| **臨床意義** | - 需與新發神經事件區別 - 通常為暫時性，預後較佳 - 治療潛在誘發因子為主要策略 |  |
+
+
+### 認識 recrudescence from prior stroke
+
+
+#### Question
+
+
+#### Answer
+
+
+### 血壓控制
+
+
+- Control SBP 160-140.
+- 血壓太高，用Perdipine IV pump pure run 0.5-4.0 ml/hour.
+- 血壓太低，用Levophed 4 mg in D5W 250 ml, pump run 0.5-10.0 ml/hour.
+
+
+### Order Protocol 醫囑組套
+
+以下醫囑為自2013-2018在加護病房同仁與NP同仁討論後，產生的可操作order, 請在術後務必執行，確保病患血壓安全。導管報告一定要明載：goal BP的range. 例如：Keep SBP 120-150 mmHg. 將收縮血壓維持在120-150 mmHg, 這個就是goal BP range. 
+
+
+- post ICAS, if SBP 小於 goal BP,  LVEF>55
+- 1.Hydration 速度: 250-500 ml/hour.
+- 2.Saline hydration 與 Levophed/dopamine並行.
+- 3.Hydration停止條件: I/O positive > 3000 或 SpO2 <95
+
+
+幾年下來，也一定要定時：三個月至六個月，與CCU同仁教育訓練：認識病患中風的可能神經學變化。下面這條order執行才會有效力：
+
+- 以下症狀call 值班主治醫師:
+- 1.血壓持續在控制控制區間外 >15分鐘 。
+- 2. 新的神經學異常：手腳感覺，運動，臉部表情，表答能力，視力與視野變化。
+
+
+## Carotid endarterectomy
+
+中榮的崔源生醫師有完整的發表：以hybrid operation方式進行carotid total occlusion revascularization. 
+
+
+## Research and Literature Review
+
+
+### Carotid Stenting in ESRD Patients
+
+
+- Arhuidese and et al回顧了1109例洗腎病患 (ESRD patients), 接受頸動脈支架置放後的追蹤結果。Arhuidese2016
+- The cohort included 1109 patients who underwent CAS. Median follow-up was 2.5 years (interquartile range, 1.30-3.71; maximum, 4.97 years). Mean age was 67 (standard deviation, 9.9) years, and 61
+- 結論是在洗腎病患，因為他們的長期預後太差，建議在asymptomatic的病患應該儘量以藥物治療。Arhuidese2016
+
+
+### Carotid Stenting in DM Patients
+
+
+- 糖尿病病患若是計劃接受頸動脈支架，其手術風險較高。Hussain et al篩選了1241篇研究報告，最後整理了14篇觀察性研究，探討糖尿病病患接受頸動脈支架或是內膜切除術的治療結果。
+- Of the 1241 abstracts screened, we included 14 observational studies involving 16,264 patients. There was excellent agreement in study selection between the two reviewers (κ statistic, 0.83; 95
+- 結論是糖尿病病患有較高的手術風險，其中包含中風，死亡。糖尿病患患者的長期存活率也較差。Hussain2016
+
+
+### Carotid Stenting in Cancer Patients
+
+頭頸癌病患與心血管中心合作
+針對高風險 頭頸癌病患 的導管救援機制
+
+
+#### 高風險病患定義
+
+高風險病患定義:
+
+1. 經影像檢查，有頭頸癌發生大出血可能之病患。
+
+2. 經頭頸癌電療後，已經經過五年以上，確未有定期追蹤頸動脈超音波之患者。
+
+3. 治療後發生TIA或是中風病患。
+
+
+#### 啟動流程
+
+針對有出血可能患者，依下面流程啟動多專科照會與治療:
+影醫部醫師在追蹤的影像中發現有出血或再出血可能，直接以電話聯絡病患之腫瘤科醫師。
+提癌症多專科團隊會議討論，若需要preventive intervention, 由腫瘤科醫師依據會議記錄直接照會心血管中心頸動脈支架專家。
+治療: 頸動脈支架，以包膜支架，提前將可能發生大出血之病灶進行處置，目標為降低大出血致命的可能。
+另提DNR與安寧緩和照護。
+針對正在出血患者，病患或加護病房可緊急照會心臟內科醫師，目前能緊急執行頸動脈支架或TAE止血的醫師有: 謝慕揚醫師，孟士瑋醫師，劉聖甫醫師。正在出血之患者，由腫瘤科醫師緊急照會耳鼻喉科醫師，血管外科醫師，提供床邊止血，填塞，與緊急頸動脈支架，還有緊急血管結紮術之評估。
+
+
+14pt{20pt} 
+
+
+---
+
+\listoffigures
+\listoftables
+
+
+---
+
+\printbibliography

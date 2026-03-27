@@ -1,0 +1,608 @@
+---
+title: "case slide compartment syndrome"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-07-30
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+frame
+\titlepage
+frame
+
+
+frame{大綱}
+\tableofcontents
+frame
+
+
+## 病例介紹
+
+
+frame{病人基本資料}
+columns[T]
+column{0.5\textwidth}
+block{基本資料}
+
+- 年齡：67歲
+- 性別：男性
+- 過去病史：無已知疾病
+- 家族史：無特殊
+
+
+block
+column
+column{0.5\textwidth}
+block{入院生命徵象}
+
+- 身高：160 cm
+- 體重：51.5 kg
+- 血壓：132/70 mmHg
+- 心跳：73 bpm
+- 體溫：37.4°C
+
+
+block
+column
+columns
+frame
+
+frame{主訴與現病史}
+alertblock{主訴}
+**胸痛三天**
+alertblock
+
+
+block{現病史}
+
+- 67歲男性，無已知潛在疾病
+- 三天前開始出現胸痛，無放射痛、無冒冷汗
+- 急診生命徵象：血壓 198/113 mmHg（高血壓）
+- 心電圖：側壁導程新出現 T 波倒置（動態變化）
+- Troponin-T 動態上升：17.57 → 38.28 → 65.05 ng/L
+- 診斷：**Non-ST Elevation Myocardial Infarction (NSTEMI)**
+- 轉入 CCU 進一步處置
+
+
+block
+frame
+
+frame{心臟超音波檢查}
+block{Bedside Echocardiography 發現}
+
+- Concentric LVH（左心室向心性肥厚）
+- Preserved LVEF（左心室收縮功能正常）
+- No regional wall motion abnormality（無局部壁運動異常）
+- Aortic regurgitation / Mitral regurgitation: +
+
+
+block
+
+
+block{入院後處置}
+
+- Aspirin loading
+- Brilinta (Ticagrelor) loading
+- Clexane (Enoxaparin) 抗凝血治療
+- 安排心導管檢查
+
+
+block
+frame
+
+frame{實驗室數據}
+columns[T]
+column{0.5\textwidth}
+block{心肌酵素變化}
+
+| **時間** | **Troponin-T (ng/L)** |
+| --- | --- |
+| 入院時 | 17.57 |
+| 6小時後 | 38.28 |
+| 12小時後 | 65.05 |
+| 術後 | 305.0 |
+
+block
+column
+column{0.5\textwidth}
+block{其他數據}
+
+| **項目** | **數值** |
+| --- | --- |
+| HbA1c | 10.7 |
+| Creatinine | 0.96 mg/dL |
+| eGFR | 83.3 mL/min |
+| CPK | 131 U/L |
+
+\end{block
+
+alertblock{新發現}
+**新診斷 Type 2 DM**
+alertblock
+column
+columns
+frame
+
+
+## 心導管檢查與 PCI
+
+
+frame{冠狀動脈血管攝影結果}
+block{血管攝影發現}
+
+- **Dominance**: Right dominant
+- **LM**: Patent
+- **LAD**: Non-significant stenosis, middle myocardial bridge
+- **LCX**: Patent
+- **RCA**: Diseased     itemize
+- PDA shaft thrombus with distal total occlusion
+- Length > 2 cm
+- Thrombus (+)
+
+
+itemize
+block
+
+
+columns[T]
+column{0.5\textwidth}
+block{SYNTAX Score}
+ **7**
+block
+column
+column{0.5\textwidth}
+block{診斷}
+CAD, 1VD with NSTEMI
+block
+column
+columns
+frame
+
+frame{PCI 過程}
+block{介入治療步驟}
+
+1. Engage guiding catheter 6Fr JR4 to RCA
+2. Deliver Sion wire to distal PDA
+3. **POBA** with balloon 2.0×20 mm to PDA shaft (8 atm, 8 sec)
+4. **POBA** with balloon 1.5×12 mm to PDA distal (8 atm, 8 sec)
+5. IC Adenosine 100→50 mcg for microcirculation
+6. IC Millisrol 100 mcg for microcirculation
+
+
+block
+
+
+columns[T]
+column{0.33\textwidth}
+block{結果}
+ Success
+block
+column
+column{0.33\textwidth}
+block{Final TIMI Flow}
+ TIMI 3
+block
+column
+column{0.33\textwidth}
+block{併發症}
+ No
+block
+column
+columns
+frame
+
+frame{術後醫囑}
+block{PCI 術後處置}
+
+1. Check ECG stat
+2. Keep **DAPT**: Brilinta + Bokey
+3. Keep **Clexane** for at least 48 hours
+4. Consider **Concor** for myocardial bridge
+5. Remove sheath at cath lab, monitor puncture wound
+
+
+block
+
+
+alertblock{重要提醒}
+病人目前使用 雙重抗血小板治療 + 抗凝血劑，出血風險增加
+alertblock
+frame
+
+
+## 術後併發症
+
+
+frame{併發症發展時間線 (1)}
+block{背景}
+術後需頻繁抽血監測心肌酵素，病人主訴頻繁抽血疼痛
+block
+
+
+tikzpicture[
+    node distance=0.4cm,
+    event/.style={rectangle, rounded corners, draw=ntuhblue, fill=lightblue, text width=12cm, minimum height=0.8cm, align=left, font=}
+]
+\node[event] (e1) {**10:50** 心導管完成返回 CCU，左橈加壓中};
+\node[event, below=of e1] (e2) {**11:00** 超音波導引嘗試放置右前臂 A-line × 2 次 → 失敗};
+\node[event, below=of e2] (e3) {**11:20** 改放置右肱動脈 (Brachial artery) A-line → 成功};
+\node[event, below=of e3] (e4) {**12:00** 開始出現右前臂腫脹、麻木、手指活動困難};
+\node[event, below=of e4] (e5) {**12:10** 超音波發現穿刺部位血腫，開始徒手加壓};
+tikzpicture
+frame
+
+frame{併發症發展時間線 (2)}
+tikzpicture[
+    node distance=0.4cm,
+    event/.style={rectangle, rounded corners, draw=ntuhblue, fill=lightblue, text width=12cm, minimum height=0.8cm, align=left, font=},
+    alert/.style={rectangle, rounded corners, draw=alertred, fill=red!10, text width=12cm, minimum height=0.8cm, align=left, font=}
+]
+\node[event] (e1) {**12:30** 身體評估：右前臂僵硬、脈搏減弱、末梢蒼白、溫度冰冷、脹痛、麻痺};
+\node[event, below=of e1] (e2) {**13:00** 症狀加劇，移除 A-line，超音波確認出血位置，持續加壓};
+\node[alert, below=of e2] (e3) {**13:30** 超音波發現 假性動脈瘤 (Pseudoaneurysm)，加壓 > 40 分鐘};
+\node[event, below=of e3] (e4) {**14:00** 測量臂圍：右上臂 30cm vs 左 23cm (+7cm)；右前臂 27cm vs 左 22cm (+5cm)};
+\node[alert, below=of e4] (e5) {**14:30** 腫脹加劇、無法握拳、末梢發紺 → 照會骨科};
+tikzpicture
+frame
+
+frame{併發症發展時間線 (3)}
+tikzpicture[
+    node distance=0.4cm,
+    event/.style={rectangle, rounded corners, draw=ntuhblue, fill=lightblue, text width=12cm, minimum height=0.8cm, align=left, font=},
+    alert/.style={rectangle, rounded corners, draw=alertred, fill=red!10, text width=12cm, minimum height=0.8cm, align=left, font=}
+]
+\node[event] (e1) {**14:50** 疼痛指數 10/10 分，給予 Morphine 3mg IV};
+\node[alert, below=of e1] (e2) {**15:30** 測量腔室壓力 > 70 mmHg → 診斷：**Compartment Syndrome**};
+\node[event, below=of e2] (e3) {**15:30** 安排右手 CTA 檢查};
+\node[alert, below=of e3] (e4) {**16:40** CTA 結果：右肱動脈損傷伴活動性出血，血腫形成};
+\node[event, below=of e4] (e5) {**17:30** 送手術室進行緊急 **Fasciotomy**};
+tikzpicture
+frame
+
+frame{身體評估：6P 徵象}
+alertblock{Compartment Syndrome 的 6P 徵象}
+alertblock
+
+columns[T]
+column{0.5\textwidth}
+block{本病人表現}
+
+- [\checkmark] **Pain** - 劇烈疼痛 (10/10)
+- [\checkmark] **Paresthesia** - 麻痺感
+- [\checkmark] **Paralysis** - 無法握拳
+- [\checkmark] **Pallor** - 末梢蒼白→發紺
+- [\checkmark] **Pulselessness** - 脈搏減弱
+- [\checkmark] **Poikilothermia** - 溫度冰冷
+
+
+block
+column
+column{0.5\textwidth}
+block{客觀測量}
+
+- 臂圍明顯增加     itemize
+- 右上臂：+7 cm
+- 右前臂：+5 cm
+
+
+    \item 腔室壓力：> 70 mmHg
+    
+- 正常 < 10 mmHg
+- > 30 mmHg 考慮手術
+
+
+itemize
+block
+column
+columns
+frame
+
+frame{CTA 影像發現}
+block{CT Angiography - Right Upper Extremity}
+
+- Right brachial artery injuries with active bleeding
+- Hematoma formation
+- Soft tissue swelling of right upper extremity
+
+
+block
+
+
+alertblock{診斷}
+
+1. 醫源性右肱動脈損傷 (Iatrogenic brachial artery injury)
+2. 假性動脈瘤 (Pseudoaneurysm)
+3. 急性腔室症候群 (Acute compartment syndrome)
+
+
+alertblock
+frame
+
+
+## 手術治療
+
+
+frame{緊急筋膜切開術}
+block{手術資訊}
+
+- **術式**: Fasciotomy, right forearm
+- **手術醫師**: 骨科 蔡凱仁醫師
+- **手術時間**: 2025/7/30 17:30
+
+
+block
+
+
+block{手術發現}
+
+- Swollen muscles and tense fascia at right proximal forearm and anterior distal arm
+- Serous fluid exudate at right proximal forearm
+- No active bleeding noted（加壓止血有效）
+
+
+block
+
+
+block{術後處置}
+VAC (Vacuum-Assisted Closure) 負壓引流，壓力 75 mmHg
+block
+frame
+
+frame{術後照護}
+block{加護病房照護}
+
+- 術後氣管內管留置，呼吸器支持
+- 7/31 拔除氣管內管
+- 7/31 移除 VAC，改 wet dressing Q8H
+- 右股靜脈放置 CVC（因血管通路困難）
+- IV Unasyn 預防性抗生素
+
+
+block
+
+
+alertblock{藥物調整}
+DAPT 調整為 **Bokey only**（暫停 Brilinta），降低出血風險
+alertblock
+frame
+
+frame{後續治療經過}
+block{併發症處理}
+
+- **Lactic acidosis + AKI**: 輸液補充，後續改善
+- **Shock liver**: 暫停 Statin
+- **貧血** (Hgb 8.8 → 7.3): 輸血 LPR 2U
+- **傷口照護**: 8/4 進行清創及傷口縫合
+- **糖尿病**: 內分泌科會診，胰島素治療
+- **復健**: 復健科會診，漸進式活動
+
+
+block
+
+
+columns[T]
+column{0.5\textwidth}
+block{住院天數}
+ **17 天**
+block
+column
+column{0.5\textwidth}
+block{出院狀況}
+傷口癒合良好，可漸進式活動
+block
+column
+columns
+frame
+
+frame{出院診斷}
+block{最終診斷}
+
+1. **CAD, 1VD, with NSTEMI**        s/p PCI with balloon angioplasty to PDA
+2. **Myocardial bridge of LAD**
+3. **Type 2 Diabetes Mellitus** (新診斷)
+4. **Compartment syndrome, right forearm**        s/p fasciotomy        s/p wound closure
+
+
+block
+
+
+block{出院用藥}
+Bokey, Plavix, Concor, Diovan, Lipitor, Loditon, Trajenta, Takepron, Methycobal
+block
+frame
+
+
+## 討論與學習重點
+
+
+frame{病例特點分析}
+block{多重挑戰}
+
+1. **困難血管通路**      - 左橈動脈用於 PCI - 右橈動脈放置困難 - 最終選擇右肱動脈
+2. **抗栓治療與出血風險的平衡**      - NSTEMI 需要 DAPT + 抗凝血劑 - 增加出血併發症風險
+3. **新診斷糖尿病**      - HbA1c 10.7 - 可能影響傷口癒合
+
+
+block
+frame
+
+frame{肱動脈穿刺的風險}
+alertblock{Brachial Artery Access 的特殊考量}
+alertblock
+
+columns[T]
+column{0.5\textwidth}
+block{解剖特點}
+
+- 位置較深
+- 周圍結構複雜
+- 較少側枝循環
+- 靠近正中神經
+
+
+block
+column
+column{0.5\textwidth}
+block{併發症風險}
+
+- 血腫形成
+- 假性動脈瘤
+- 動靜脈廔管
+- 正中神經損傷
+- 腔室症候群
+
+
+block
+column
+columns
+
+
+block{文獻報告}
+肱動脈穿刺後腔室症候群發生率：**0.1-0.5
+block
+frame
+
+frame{腔室症候群的早期識別}
+block{高風險情境}
+
+- 抗凝血/抗血小板治療中的病人
+- 困難血管通路、多次穿刺
+- 肱動脈穿刺
+- 凝血功能異常
+
+
+block
+
+
+alertblock{早期警訊}
+
+- 不成比例的劇烈疼痛 (Pain out of proportion)
+- 被動伸展時疼痛加劇
+- 進行性腫脹
+- 感覺異常
+
+
+alertblock
+frame
+
+frame{跨領域合作的重要性}
+tikzpicture[
+    node distance=1.5cm,
+    team/.style={rectangle, rounded corners, draw=ntuhblue, fill=lightblue, text width=3.5cm, minimum height=1.5cm, align=center, font=}
+]
+\node[team] (cardio) at (0,0) {**心臟內科**  
+PCI 治療  
+抗栓藥物調整};
+\node[team] (ortho) at (5,0) {**骨科**  
+腔室壓力測量  
+緊急筋膜切開術};
+\node[team] (icu) at (10,0) {**加護醫學**  
+術後照護  
+多重器官評估};
+\node[team] (endo) at (2.5,-3) {**內分泌科**  
+糖尿病治療};
+\node[team] (rehab) at (7.5,-3) {**復健科**  
+功能恢復訓練};
+
+\draw[->,thick,ntuhblue] (cardio) -- (ortho);
+\draw[->,thick,ntuhblue] (ortho) -- (icu);
+\draw[->,thick,ntuhblue] (icu) -- (endo);
+\draw[->,thick,ntuhblue] (icu) -- (rehab);
+tikzpicture
+
+
+block{關鍵時刻}
+及時照會骨科（14:30）→ 確診腔室症候群（15:30）→ 緊急手術（17:30）  
+
+**從發現到手術僅 3 小時**
+block
+frame
+
+frame{學習重點}
+block{Take Home Messages}
+
+1. **血管通路選擇**：評估風險，優先考慮橈動脈
+2. **肱動脈穿刺**：需特別警覺腔室症候群風險
+3. **早期識別**：不成比例的疼痛是重要警訊
+4. **6P 徵象**：系統性評估缺血表現
+5. **腔室壓力**：> 30 mmHg 應考慮手術減壓
+6. **黃金時間**：缺血超過 6 小時可能造成不可逆損傷
+7. **跨領域合作**：及時照會專科是關鍵
+8. **藥物調整**：平衡抗栓治療與出血風險
+
+
+block
+frame
+
+frame{預防策略}
+columns[T]
+column{0.5\textwidth}
+block{術前評估}
+
+- 評估血管通路
+- Allen's test
+- 超音波評估血管
+- 凝血功能評估
+
+
+block
+
+block{術中注意}
+
+- 超音波導引穿刺
+- 減少穿刺次數
+- 避免肱動脈（如可能）
+- 適當鞘管大小
+
+
+block
+column
+column{0.5\textwidth}
+block{術後監測}
+
+- 定期評估 6P 徵象
+- 監測穿刺部位
+- 比較雙側肢體
+- 早期發現處理
+
+
+block
+
+block{高風險病人}
+
+- 更頻繁監測
+- 降低閾值照會
+- 團隊溝通
+
+
+block
+column
+columns
+frame
+
+
+frame{結論}
+block{病例總結}
+67歲男性 NSTEMI 病人，成功完成 PCI 後，因困難血管通路於右肱動脈放置 A-line，
+併發醫源性血管損傷、假性動脈瘤，最終發展為腔室症候群。
+透過跨領域合作，及時進行筋膜切開術，病人順利康復出院。
+block
+
+
+alertblock{核心教訓}
+
+**早期識別 + 及時處置 + 跨領域合作**  
+
+= 成功的併發症處理
+alertblock
+frame
+
+frame
+
+**感謝聆聽**  
+
+
+歡迎討論與提問
+frame

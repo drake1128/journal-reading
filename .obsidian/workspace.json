@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "handouts/99-misc/NEJM Case 30-2025 教學講義.md",
+                "file": "handouts/99-misc/NEJM Case 31 CPS-2025 ID 講義 教學講義.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NEJM Case 30-2025 教學講義"
+              "title": "NEJM Case 31 CPS-2025 ID 講義 教學講義"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "handouts/99-misc/NEJM Case 30-2025 教學講義.md",
+                "file": "handouts/99-misc/NEJM Case 31 CPS-2025 ID 講義 教學講義.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "NEJM Case 30-2025 教學講義 的反向連結"
+              "title": "NEJM Case 31 CPS-2025 ID 講義 教學講義 的反向連結"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "handouts/99-misc/NEJM Case 30-2025 教學講義.md",
+                "file": "handouts/99-misc/NEJM Case 31 CPS-2025 ID 講義 教學講義.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "NEJM Case 30-2025 教學講義 的對外連結"
+              "title": "NEJM Case 31 CPS-2025 ID 講義 教學講義 的對外連結"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "handouts/99-misc/NEJM Case 30-2025 教學講義.md",
+                "file": "handouts/99-misc/NEJM Case 31 CPS-2025 ID 講義 教學講義.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "NEJM Case 30-2025 教學講義 的大綱"
+              "title": "NEJM Case 31 CPS-2025 ID 講義 教學講義 的大綱"
             }
           }
         ]
@@ -185,19 +185,23 @@
   },
   "active": "05e65cb3746d0986",
   "lastOpenFiles": [
+    "handouts/04-valvular-disease/lecture-mitral-ptmv/index_files/mediabag",
+    "handouts/04-valvular-disease/lecture-mitral-ptmv/index_files",
+    "handouts/04-valvular-disease/lecture Mitral TEER 教學講義_files/mediabag",
+    "handouts/04-valvular-disease/lecture Mitral TEER 教學講義_files",
+    "handouts/04-valvular-disease/lecture Mitral PTMV 教學講義_files/mediabag",
+    "handouts/04-valvular-disease/lecture Mitral PTMV 教學講義_files",
+    "handouts/04-valvular-disease/lecture Mitral PTMV Inoue Balloon tutorial 教學講義_files/mediabag",
+    "handouts/04-valvular-disease/lecture Mitral PTMV Inoue Balloon tutorial 教學講義_files",
+    "handouts/04-valvular-disease/index_files/mediabag",
+    "handouts/04-valvular-disease/index_files",
+    "handouts/04-valvular-disease/european-heart-journal-top-10-vhd-2025/index_files/mediabag",
+    "handouts/99-misc/NEJM Clinical Problem-Solving The Eyes Have It — 肉毒桿菌中毒 教學講義.md",
+    "handouts/99-misc/NEJM Case 24-2025 教學講義.md",
+    "handouts/99-misc/NEJM Case 30-2025 教學講義.md",
     "handouts/99-misc/NEJM Case 31 CPS-2025 ID 講義 教學講義.md",
     "handouts/22-copd-asthma/AJRCCM AIRFLOW-3 COPD 2025 教學講義.md",
     "handouts/08-genetic-medicine/基因精準醫學與心臟病 教學講義.md",
-    "WORK-LOG-2026-03-25.md",
-    "handouts/05-cardiac-imaging/exam-echo-as/index.html",
-    "handouts/05-cardiac-imaging/exam-cv-calculations-echo-cath/index.html",
-    "handouts/05-cardiac-imaging/exam echo AS 教學講義.html",
-    "handouts/05-cardiac-imaging/exam CV calculations echo cath 教學講義.html",
-    "handouts/05-cardiac-imaging/cardiac_mri_lge_patterns_心臟磁振造影判讀/index.html",
-    "handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-心臟磁振造影判讀/index.html",
-    "handouts/05-cardiac-imaging/Cardiac_MRI_LGE_Patterns_心臟磁振造影判讀 教學講義.html",
-    "handouts/05-cardiac-imaging/Cardiac MRI LGE Patterns 心臟磁振造影判讀 教學講義.html",
-    "handouts/04-valvular-disease/teer-pcronline-top-10-tricuspid-intervention-2025/index.html",
-    "handouts/04-valvular-disease/tavr-ct-evaluation/index.html"
+    "WORK-LOG-2026-03-25.md"
   ]
 }

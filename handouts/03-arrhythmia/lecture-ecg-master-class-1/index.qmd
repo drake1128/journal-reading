@@ -1,0 +1,759 @@
+---
+title: "lecture ECG master class 1"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-01-04
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **影片來源：**ICU Advantage - Eddie Watson  
+> **影片長度：**約4小時8分鐘  
+> **適用對象：**ICU護理人員、住院醫師、醫學生  
+> **時間戳記說明：******[HH:MM:SS]**** 為可點擊連結，點選後可跳轉至YouTube影片對應時間點
+
+
+\tableofcontents
+
+---
+
+
+## 課程總覽與學習目標 0s
+{00:00:00}
+
+
+### 關於本講義
+
+在下於新竹服務是從2011年開始，期間為了心電圖教學，投注了很多心血，也累積了很多教學資料。對於心電圖教學，初期為了讓STEMI緊急導管運作順利，所以都是向檢驗醫學部的同仁們上課，說明怎麼作posterior wall ECG, 同時講解STEMI心電圖判讀多重要。在這段時期，我是新進主治醫師 (VS1 since 2011-07)，所以之前在2006-2011年間，於台北當住院醫師與總醫師時，設計製作的教材發揮了很重要的功能。
+
+之後新竹開始有了住院醫師，在2011-2014漸漸改以 [ECG Wave-Maven](https://ecg.bidmc.harvard.edu/maven/mavenmain.asp) 這個網站為學員們上課 (住院醫師與專科護理師)，網站資源很豐富，想自學可以花很多力氣與時間，關於 El-Sherif sign, Cabrera sign, and Goldberger triads, 我都是在 ECG Wave-Maven裡面看到，再去查才學會的。
+
+在2024之後，新竹台大升格成為醫學中心，也開始正式收見習醫學生了，教學的任務開始加重。而隨著國內護理師離職率攀升，在線護理同仁人數大幅下降，新進同仁比例變高，也開始思考怎麼樣將訓練與教學更精進。
+
+在AI誕生後，我便開始有了瘋狂的計畫: 將過去的資料，與網路世界既有的教學視頻結合，整合成更精緻好用的教學講義，於是有了這個系列的誕生。製作方式很單純，但是會用到 yt-dlp這個package, 它可以將YouTube上的視頻，轉換成MP3. 然後我再用Whisper這個python套件，將之轉成文字檔案，這個就涉及語音辨識的AI功能。再接下來責厲害了，文字檔案基本上是字幕檔，它自帶時間戳記。所以可以直接就字幕檔，再加上自己的過去的筆記，就有了這份latex文件。而我希望所有的段落都可以有時間戳記，方便學員跳轉自學。要達到這個目標，我先試作了一小段，餘下再由 Claude.ai補完。這個模式在2025-11初步有構想，緊接著我陸續依照這個目標，完成了幾份教學講義。同仁反應還不錯，而我的觀察是這樣: 國內華文世界欠缺繁體中文有系統且完整，並且跟得上時代的護理教學內容，我的目的則是讓全體醫護都能有最新的教學內容可學習，讓醫師與護理同仁的認知，教育，還有實踐都能一致，以此促進病人安全，與醫療品質進步。
+
+一開始是心血管急重症的教學，與心導管教學，因為成效開始出現 (by the end of 2025-12)，我就漸漸轉進到更基本的心電圖教學了 (2026-01-04)。
+
+希望大家都能從中獲益，並幫助到病人。One for all, and all for one. 
+
+
+### 課程介紹
+
+本課程為12導程心電圖完整教學系列，涵蓋以下主題：
+
+- 冠狀動脈循環解剖與生理學 85s{00:01:25}
+- 心臟傳導系統 1683s{00:28:03}
+- 12導程心電圖基礎概念 2404s{00:40:04}
+- 心律判讀與分析方法 3820s{01:03:40}
+- Bundle branch blocks（束支傳導阻滯）5590s{01:33:10}
+- 心室肥大 8455s{02:20:55}
+- 心肌缺血與梗塞判讀 9580s{02:39:40}
+- Sgarbossa criteria 與 LBBB 合併 STEMI 14140s{03:55:40}
+
+
+## 冠狀動脈循環 85s
+{00:01:25}
+
+
+### 基礎概念 85s
+{00:01:25}
+
+心臟是一個需要持續氧氣供應的肌肉幫浦。了解冠狀動脈循環對於ECG判讀及冠狀動脈疾病處理至關重要。112s{00:01:52} 心臟作為肌肉幫浦需要能量與氧氣才能正常運作。
+
+
+| p{10cm}} 心臟循環週期與冠狀動脈灌流 127s{00:02:07} |  |  |
+| --- | --- | --- |
+| **階段** | **特徵** |  |
+| **表格續接** |  |  |
+| **階段** | **特徵** |  |
+| Systole（收縮期）    132s{00:02:12} | 心肌收縮    冠狀動脈無灌流（肌肉壓迫血管） |  |
+| Diastole（舒張期）    139s{00:02:19} | 心肌放鬆    主動脈瓣關閉後血液逆流進入冠狀動脈    **心臟灌流主要發生於此期** |  |
+
+
+心臟與其他器官不同，主要在舒張期接受灌流，而非收縮期 \yt{157s{00:02:37}。這是因為收縮期間心肌壓迫冠狀動脈微血管，阻止血流進入。
+}
+
+
+### 冠狀動脈解剖 179s
+{00:02:59}
+
+193s{00:03:13} 首先認識心臟主要結構：左心房、右心房、右心室、左心室，以及主動脈、肺動脈等大血管。
+
+
+#### 左冠狀動脈系統 355s
+{00:05:55}
+
+363s{00:06:03} 兩條主要冠狀動脈由升主動脈根部發出，位於主動脈瓣上方的 Sinuses of Valsalva。
+
+
+| p{10cm}} 左冠狀動脈分支與供血區域 363s{00:06:03} |  |  |
+| --- | --- | --- |
+| **動脈** | **供血區域** |  |
+| **表格續接** |  |  |
+| **動脈** | **供血區域** |  |
+| Left Main（左主幹）    370s{00:06:10} | 由主動脈根部分出的短段動脈 |  |
+| LAD（Left Anterior Descending，    左前降支）    382s{00:06:22} | 前壁、心尖、心室中隔前2/3    分支：Septal perforators（中隔穿通支）407s{00:06:47}    Diagonal branches（對角支）422s{00:07:02} |  |
+| LCx（Left Circumflex，    左迴旋支）    459s{00:07:39} | 左心房、左心室側壁及後壁    分支：OM1, OM2（Obtuse Marginal）478s{00:07:58} |  |
+| Ramus intermedius    537s{00:08:57} | 約15  介於LAD與LCx之間，供應前側壁 |  |
+
+
+#### 右冠狀動脈系統 559s
+{00:09:19}
+
+
+| p{10cm}} 右冠狀動脈分支與供血區域 559s{00:09:19} |  |  |
+| --- | --- | --- |
+| **動脈** | **供血區域** |  |
+| **表格續接** |  |  |
+| **動脈** | **供血區域** |  |
+| RCA（Right Coronary Artery）    559s{00:09:19} | 右心房、右心室 |  |
+| SA nodal artery（竇房結動脈）    587s{00:09:47} | SA node（約60 |  |
+| Acute Marginal branches    625s{00:10:25} | 右心室側壁 |  |
+| AV nodal artery（房室結動脈）    655s{00:10:55} | AV node（約90 |  |
+| PDA（Posterior Descending Artery，    後降支）    680s{00:11:20} | 下壁、心室中隔後1/3    Right dominant（右優勢，70  Left dominant（左優勢，10  Co-dominant（共同優勢，20 |  |
+
+
+### 冠狀靜脈系統 870s
+{00:14:30}
+
+870s{00:14:30} 冠狀靜脈負責將去氧血從心肌帶回右心房。主要經由 Coronary Sinus 匯入右心房。
+
+
+### 冠狀動脈生理學 1007s
+{00:16:47}
+
+
+| p{10cm}} 冠狀動脈血流生理學 1007s{00:16:47} |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| 氧氣萃取 1051s{00:17:31} | 心臟的A-VO2 difference最高    休息時即萃取60-70 |  |
+| 血流量 1081s{00:18:01} | 佔心輸出量約5  休息：250-300 mL/min    運動：可增至1000-2000 mL/min |  |
+| Active Hyperemia（主動性充血）    1171s{00:19:31} | 心臟活動增加→氧氣需求增加→冠狀血流增加    由代謝產物及局部缺氧誘發血管擴張 |  |
+| Collateral Circulation（側枝循環）    1322s{00:22:02} | 慢性缺血時新生血管形成    補償狹窄血管的供血不足 |  |
+
+
+## 心臟傳導系統 1683s
+{00:28:03}
+
+
+### 傳導系統組成 1683s
+{00:28:03}
+
+1730s{00:28:50} 心臟傳導系統由特化的細胞組成，負責產生並傳遞電訊號，協調心臟收縮。
+
+
+| p{3cm}p{6cm}} 心臟傳導系統各部位功能 1683s{00:28:03} |  |  |
+| --- | --- | --- |
+| **構造** | **固有速率（bpm）** | **功能** |
+| **表格續接** |  |  |
+| **構造** | **固有速率（bpm）** | **功能** |
+| SA Node（竇房結）    1755s{00:29:15} | 60-100 | 主要節律點    位於右心房上方 |
+| AV Node（房室結）    1828s{00:30:28} | 45-50 | 延遲傳導，協調房室收縮    為心室的備份節律點 |
+| Bundle of His（希氏束）    1880s{00:31:20} | 40-45 | 穿過纖維環連接心房心室 |
+| Bundle Branches（束支）    1910s{00:31:50} | 40-45 | 左束支（分為前分支、後分支）    右束支 |
+| Purkinje Fibers（普金氏纖維）    1950s{00:32:30} | 20-40 | 快速將電訊號傳至心室肌 |
+
+
+### 固有節律速率 2009s
+{00:33:29}
+
+2009s{00:33:29} 傳導系統各部位皆有其固有節律速率，作為備份機制。當上游節律點失效時，下游會接手。
+
+
+### 動作電位 2085s
+{00:34:45}
+
+2094s{00:34:54} 了解細胞去極化與再極化的過程，對理解ECG波形至關重要。
+
+
+| p{4cm}p{7cm}} 心肌細胞動作電位各階段 2085s{00:34:45} |  |  |
+| --- | --- | --- |
+| **階段** | **離子變化** | **說明** |
+| **表格續接** |  |  |
+| **階段** | **離子變化** | **說明** |
+| Phase 4（靜止期）    2177s{00:36:17} | Na$^+$緩慢內漏 | 靜止膜電位：-70至-90 mV    細胞逐漸去極化 |
+| Phase 0（快速去極化）    2186s{00:36:26} | 快速Na$^+$通道開啟 | Na$^+$大量內流    膜電位急速上升 |
+| Phase 1（早期再極化）    2248s{00:37:28} | Cl$^-$內流 | 快速Na$^+$通道關閉    電位小幅下降 |
+| Phase 2（平台期）    2278s{00:37:58} | Ca$^{2+}$內流    慢速Na$^+$通道開啟 | 電位維持相對穩定    心肌收縮開始 |
+| Phase 3（再極化）    2339s{00:38:59} | K$^+$外流 | K$^+$通道開啟    電位快速恢復負值 |
+
+
+## 12導程心電圖基礎 2404s
+{00:40:04}
+
+
+### ECG波形基本組成 2471s
+{00:41:11}
+
+2476s{00:41:16} 單一心動週期的ECG波形包含P wave、QRS complex與T wave。
+
+
+| p{11cm}} ECG波形組成 2471s{00:41:11} |  |  |
+| --- | --- | --- |
+| **波形/間期** | **意義** |  |
+| **表格續接** |  |  |
+| **波形/間期** | **意義** |  |
+| P wave 2491s{00:41:31} | 心房去極化 |  |
+| PR interval 2523s{00:42:03} | P wave起始至QRS起始    代表心房去極化至心室去極化的時間    正常值：0.12-0.20秒（3-5小格） |  |
+| QRS complex 2495s{00:41:35} | 心室去極化    正常值：<0.12秒（<3小格） |  |
+| ST segment 2560s{00:42:40} | J point至T wave起始    心室完全去極化，尚未再極化    應與等電位線平齊 |  |
+| T wave 2507s{00:41:47} | 心室再極化 |  |
+| QT interval 2547s{00:42:27} | QRS起始至T wave結束    心室去極化及再極化總時間 |  |
+
+
+### 電極放置 2624s
+{00:43:44}
+
+2636s{00:43:56} 共10個電極產生12個導程的視角。正確放置電極對於準確判讀至關重要。
+
+
+| p{11cm}} 12導程ECG電極放置位置 2624s{00:43:44} |  |  |
+| --- | --- | --- |
+| **電極** | **位置** |  |
+| **表格續接** |  |  |
+| **電極** | **位置** |  |
+| **肢體導程電極 2756s**{00:45:56} |  |  |
+| RA（白色） | 右上肢遠端 |  |
+| LA（黑色） | 左上肢遠端 |  |
+| RL（綠色） | 右下肢遠端（接地） |  |
+| LL（紅色） | 左下肢遠端 |  |
+| **胸前導程電極 2806s**{00:46:46} |  |  |
+| V1 2806s{00:46:46} | 第4肋間胸骨右緣 |  |
+| V2 2830s{00:47:10} | 第4肋間胸骨左緣 |  |
+| V3 2868s{00:47:48} | V2與V4連線中點 |  |
+| V4 2845s{00:47:25} | 第5肋間左鎖骨中線 |  |
+| V5 2880s{00:48:00} | V4水平線與左腋前線交點 |  |
+| V6 2893s{00:48:13} | V4水平線與左腋中線交點 |  |
+
+
+### 導程觀察區域 3010s
+{00:50:10}
+
+3010s{00:50:10} 各導程代表從不同角度觀察心臟的電活動。
+
+
+| p{4cm}p{6cm}} 各導程觀察的心臟區域 3010s{00:50:10} |  |  |
+| --- | --- | --- |
+| **心臟區域** | **導程** | **對應冠狀動脈** |
+| **表格續接** |  |  |
+| **心臟區域** | **導程** | **對應冠狀動脈** |
+| Septal（中隔）3070s{00:51:10} | V1, V2 | LAD（Septal branches） |
+| Anterior（前壁）3085s{00:51:25} | V3, V4 | LAD |
+| Lateral（側壁）3100s{00:51:40} | I, aVL, V5, V6 | LCx |
+| High Lateral（高側壁） | I, aVL | LCx或Diagonal |
+| Inferior（下壁）3120s{00:52:00} | II, III, aVF | RCA（70 |
+| Right Ventricle（右心室） | V1, V4R | RCA（Proximal） |
+| Posterior（後壁） | V7, V8, V9    （看V1-V3鏡像變化） | RCA或LCx |
+
+
+### ECG格線與測量 3200s
+{00:53:20}
+
+3200s{00:53:20} 標準ECG紙速為25 mm/s。
+
+
+| p{10cm}} ECG格線測量 3200s{00:53:20} |  |  |
+| --- | --- | --- |
+| **單位** | **數值** |  |
+| **表格續接** |  |  |
+| **單位** | **數值** |  |
+| 小格（水平） | 0.04秒（40 ms） |  |
+| 大格（水平） | 0.20秒（200 ms）= 5小格 |  |
+| 小格（垂直） | 0.1 mV |  |
+| 大格（垂直） | 0.5 mV = 5小格 |  |
+
+
+## ECG系統性判讀方法 3820s
+{01:03:40}
+
+
+### 判讀步驟 3820s
+{01:03:40}
+
+3827s{01:03:47} 系統性判讀可確保不遺漏任何重要發現。
+
+
+| p{12cm}} ECG系統性判讀步驟 3820s{01:03:40} |  |  |
+| --- | --- | --- |
+| **步驟** | **評估內容** |  |
+| **表格續接** |  |  |
+| **步驟** | **評估內容** |  |
+| Step 1    3840s{01:04:00} | **Regularity（規則性）**    Regular（規則）：R-R間隔一致    Regularly irregular（規則性不規則）：有可預測的模式    Irregularly irregular（不規則性不規則）：完全無規律（如AF） |  |
+| Step 2    3996s{01:06:36} | **Rate（心率）**    大格法：300/大格數    記憶：300-150-100-75-60-50    10秒法：計數QRS數×6（適用不規則心律） |  |
+| Step 3    4067s{01:07:47} | **QRS寬度**    Narrow（<0.12秒）：正常傳導    Wide（≥0.12秒）：BBB、心室起源、藥物等 |  |
+| Step 4    4160s{01:09:20} | **Atrial Activity（心房活動）**    P wave是否存在    PR interval是否正常（0.12-0.20秒）    P:QRS比例是否1:1 |  |
+| Step 5    7092s{01:58:12} | **Axis（電軸）**    正常：-30°至+90°    LAD：-30°至-90°    RAD：+90°至+180° |  |
+| Step 6    8455s{02:20:55} | **Hypertrophy（肥大）**    心房肥大（P wave變化）    心室肥大（電壓標準） |  |
+| Step 7    9580s{02:39:40} | **ST-T changes（ST-T變化）**    ST elevation/depression    T wave inversion |  |
+
+
+### 心率計算方法 4034s
+{01:07:14}
+
+
+> 找一個落在大格線上的R wave，數到下一個R wave的大格數：
+> tabular{cccccc}
+> 1格 & 2格 & 3格 & 4格 & 5格 & 6格
+> 300 & 150 & 100 & 75 & 60 & 50
+> tabular
+> 計算公式：Heart Rate = 300 ÷ 大格數 4091s{01:08:11}
+
+
+4158s{01:09:18} 對於不規則心律（如Atrial Fibrillation），使用10秒法：數10秒內QRS數量乘以6。
+
+
+## Bundle Branch Blocks（束支傳導阻滯）5590s
+{01:33:10}
+
+
+### 基本概念 5590s
+{01:33:10}
+
+5603s{01:33:23} 束支傳導阻滯會導致：
+
+- QRS延長（≥0.12秒）
+- 心室去極化不同步
+- 心輸出量可能下降
+
+
+### Right Bundle Branch Block（RBBB，右束支傳導阻滯）5848s
+{01:37:28}
+
+5863s{01:37:43} 右束支阻斷後，右心室需經由左心室傳來的電訊號緩慢去極化。
+
+
+| p{10cm}} RBBB診斷標準 5848s{01:37:28} |  |  |
+| --- | --- | --- |
+| **項目** | **特徵** |  |
+| **表格續接** |  |  |
+| **項目** | **特徵** |  |
+| QRS寬度 5920s{01:38:40} | ≥0.12秒（3小格） |  |
+| V1外觀 5971s{01:39:31} | RSR' pattern（兔耳狀/M型）    終末R波正向 |  |
+| V6外觀 6039s{01:40:39} | 寬且深的S波    qRS pattern |  |
+| T wave 6078s{01:41:18} | 與QRS終末波方向相反（discordance） |  |
+| 口訣 6161s{01:42:41} | **「WiLLiaM MaRRoW」**    LBBB：V1像W，V6像M    RBBB：V1像M，V6像W |  |
+
+
+### Left Bundle Branch Block（LBBB，左束支傳導阻滯）6265s
+{01:44:25}
+
+6280s{01:44:40} 左束支阻斷後，心室去極化順序完全改變。
+
+
+| p{10cm}} LBBB診斷標準 6265s{01:44:25} |  |  |
+| --- | --- | --- |
+| **項目** | **特徵** |  |
+| **表格續接** |  |  |
+| **項目** | **特徵** |  |
+| QRS寬度 6320s{01:45:20} | ≥0.12秒（3小格） |  |
+| V1外觀 6380s{01:46:20} | 深且寬的QS或rS波    終末S波負向 |  |
+| V6外觀 6420s{01:47:00} | 寬大R波，無Q波，小或無S波    可能有notching（切跡） |  |
+| T wave 6460s{01:47:40} | 與QRS終末波方向相反（discordance） |  |
+| 注意事項 | LBBB會掩蓋STEMI診斷    需使用Sgarbossa criteria 14140s{03:55:40} |  |
+
+
+LBBB會造成心室去極化順序完全改變 \yt{6500s{01:48:20}，使得傳統的ST elevation標準無法適用。必須使用Sgarbossa criteria或modified Sgarbossa criteria來診斷STEMI。
+}
+
+
+### Fascicular Blocks（分支阻滯）6720s
+{01:52:00}
+
+6720s{01:52:00} 左束支分為前分支與後分支，單獨阻斷會造成軸偏移但QRS不會明顯延長。
+
+
+| p{9cm}} Fascicular Blocks 6720s{01:52:00} |  |  |
+| --- | --- | --- |
+| **類型** | **特徵** |  |
+| **表格續接** |  |  |
+| **類型** | **特徵** |  |
+| Left Anterior Fascicular Block    （LAFB）6750s{01:52:30} | Left axis deviation（-45°至-90°）    qR in I, aVL    rS in II, III, aVF |  |
+| Left Posterior Fascicular Block    （LPFB）6820s{01:53:40} | Right axis deviation（+90°至+180°）    rS in I, aVL    qR in II, III, aVF    較少見 |  |
+
+
+## 心軸（Cardiac Axis）7092s
+{01:58:12}
+
+
+### 正常與異常心軸範圍 7092s
+{01:58:12}
+
+7100s{01:58:20} 心臟電軸代表心室去極化的平均電向量方向。
+
+
+| p{4cm}p{6cm}} 心軸分類 7092s{01:58:12} |  |  |
+| --- | --- | --- |
+| **分類** | **角度範圍** | **可能原因** |
+| **表格續接** |  |  |
+| **分類** | **角度範圍** | **可能原因** |
+| Normal axis（正常）    7140s{01:59:00} | -30° 至 +90° | 正常 |
+| Left axis deviation    （左軸偏移）    7264s{02:01:04} | -30° 至 -90° | LBBB    Left anterior fascicular block    LVH    Inferior MI |
+| Right axis deviation    （右軸偏移）    7572s{02:06:12} | +90° 至 +180° | Left posterior fascicular block    RVH    Lateral wall MI    PE    COPD |
+| Extreme axis deviation    （極端軸偏移）    7756s{02:09:16} | -90° 至 -180° | 電極放置錯誤    Ventricular rhythms    嚴重hyperkalemia |
+
+
+### 心軸快速判定法 7210s
+{02:00:10}
+
+7210s{02:00:10} 三步驟快速判定心軸：
+
+
+1. **找出最isoelectric的導程**（正負波等高）7220s{02:00:20}
+2. **找出垂直導程** 7280s{02:01:20}：      - Lead I ⟷ aVF - Lead II ⟷ aVL - Lead III ⟷ aVR
+3. **判斷垂直導程的極性**：正向指向該導程方向 7330s{02:02:10}
+
+
+## 心房肥大（Atrial Enlargement）7865s
+{02:11:05}
+
+
+### P wave形態 7865s
+{02:11:05}
+
+7881s{02:11:21} P wave形態取決於心房節律起源位置。
+
+
+### Right Atrial Enlargement（RAE）7960s
+{02:12:40}
+
+7960s{02:12:40} 又稱P pulmonale，常見於肺部疾病。
+
+
+| p{10cm}} RAE診斷標準 7960s{02:12:40} |  |  |
+| --- | --- | --- |
+| **項目** | **特徵** |  |
+| **表格續接** |  |  |
+| **項目** | **特徵** |  |
+| P wave高度 | > 2.5 mm（II導程） |  |
+| P wave形態 | 高且尖（Peaked） |  |
+| 常見原因 | COPD、Pulmonary hypertension    Tricuspid stenosis |  |
+
+
+### Left Atrial Enlargement（LAE）8100s
+{02:15:00}
+
+8100s{02:15:00} 又稱P mitrale，常見於二尖瓣疾病。
+
+
+| p{10cm}} LAE診斷標準 8100s{02:15:00} |  |  |
+| --- | --- | --- |
+| **項目** | **特徵** |  |
+| **表格續接** |  |  |
+| **項目** | **特徵** |  |
+| P wave寬度 | > 0.12秒（3小格） |  |
+| P wave形態 | Notched（雙峰）in II    Biphasic in V1（終末負向部分 > 1小格寬且深） |  |
+| 常見原因 | Mitral stenosis/regurgitation    LVH、HTN |  |
+
+
+## 心室肥大（Ventricular Hypertrophy）8455s
+{02:20:55}
+
+
+### Left Ventricular Hypertrophy（LVH，左心室肥大）8455s
+{02:20:55}
+
+8475s{02:21:15} LVH會造成QRS電壓增加，因為肥厚的心肌產生更大的電訊號。
+
+
+| p{10cm}} LVH診斷標準 8455s{02:20:55} |  |  |
+| --- | --- | --- |
+| **標準** | **內容** |  |
+| **表格續接** |  |  |
+| **標準** | **內容** |  |
+| Sokolow-Lyon criteria    8530s{02:22:10} | S(V1) + R(V5或V6) > 35 mm |  |
+| Cornell criteria    8590s{02:23:10} | R(aVL) + S(V3) > 28 mm（男性）    R(aVL) + S(V3) > 20 mm（女性） |  |
+| R(aVL) > 11 mm    8650s{02:24:10} | 單獨此項即可診斷 |  |
+| Strain pattern    8720s{02:25:20} | ST depression與T wave inversion    在側壁導程（V5, V6, I, aVL）呈下斜型 |  |
+
+
+### Right Ventricular Hypertrophy（RVH，右心室肥大）8980s
+{02:29:40}
+
+8995s{02:29:55} RVH較難診斷，因為正常情況下左心室電力主導。
+
+
+| p{10cm}} RVH診斷標準 8980s{02:29:40} |  |  |
+| --- | --- | --- |
+| **標準** | **內容** |  |
+| **表格續接** |  |  |
+| **標準** | **內容** |  |
+| Right axis deviation    9020s{02:30:20} | 電軸 > +90° |  |
+| V1的R/S比    9051s{02:30:51} | R/S ratio > 1（R波 > S波） |  |
+| V1的qR pattern    9100s{02:31:40} | qR且R wave > 7 mm |  |
+| V5-V6的R/S比    9180s{02:33:00} | R/S ratio < 1（S波 > R波） |  |
+
+
+## 心肌缺血與梗塞 9580s
+{02:39:40}
+
+
+### ST Segment評估 9675s
+{02:41:15}
+
+9692s{02:41:32} ST segment代表心室完全去極化至開始再極化之間的時期。
+
+
+| p{10cm}} ST Segment變化意義 9675s{02:41:15} |  |  |
+| --- | --- | --- |
+| **變化** | **意義** |  |
+| **表格續接** |  |  |
+| **變化** | **意義** |  |
+| ST elevation    9780s{02:43:00} | 急性透壁性心肌梗塞（STEMI）    Pericarditis    Early repolarization    LVH with strain |  |
+| ST depression    9850s{02:44:10} | 心肌缺血（NSTEMI/UA）    Reciprocal changes    Digoxin effect    Hypokalemia |  |
+| J point    9720s{02:42:00} | QRS與ST segment交界點    測量ST elevation/depression的起點 |  |
+
+
+### T Wave變化 10205s
+{02:50:05}
+
+10215s{02:50:15} T wave代表心室再極化，其變化可反映多種病理狀態。
+
+
+| p{10cm}} T Wave異常 10205s{02:50:05} |  |  |
+| --- | --- | --- |
+| **變化** | **可能原因** |  |
+| **表格續接** |  |  |
+| **變化** | **可能原因** |  |
+| T wave inversion    10230s{02:50:30} | 心肌缺血    Wellens' syndrome（LAD proximal狹窄）    BBB（discordance，正常現象）    LVH with strain |  |
+| Hyperacute T waves    10320s{02:52:00} | 急性心肌梗塞早期    高大、對稱、寬基底 |  |
+| Tall peaked T waves    10380s{02:53:00} | Hyperkalemia    狹窄、尖銳 |  |
+
+
+### STEMI診斷標準 10640s
+{02:57:20}
+
+
+> **ST elevation（測量於J point）：**
+> itemize[leftmargin=*]
+>     \item **V2-V3** 10700s{02:58:20}：
+>     itemize
+>         \item 男性 ≥40歲：≥2 mm
+>         \item 男性 <40歲：≥2.5 mm
+>         \item 女性：≥1.5 mm
+>     itemize
+>     \item **其他導程**：≥1 mm
+>     \item 需在**至少2個連續導程**中出現
+> itemize
+
+
+### 不同區域STEMI判讀 10950s
+{03:02:30}
+
+10965s{03:02:45} 根據ST elevation出現的導程，可判斷梗塞區域及可能的罪犯血管。
+
+
+| p{3cm}p{3cm}p{4cm}} 各區域STEMI導程變化 10950s{03:02:30} |  |  |
+| --- | --- | --- |
+| **梗塞區域** | **ST elevation** | **Reciprocal changes** |
+| **表格續接** |  |  |
+| **梗塞區域** | **ST elevation** | **Reciprocal changes** |
+| Anterior    11050s{03:04:10} | V1-V4 | II, III, aVF |
+| Anteroseptal | V1-V3 | II, III, aVF |
+| Anterolateral | V3-V6, I, aVL | II, III, aVF |
+| Lateral    11150s{03:05:50} | I, aVL, V5, V6 | II, III, aVF |
+| High Lateral | I, aVL | II, III, aVF |
+| Inferior    11250s{03:07:30} | II, III, aVF | I, aVL |
+| Posterior    13225s{03:40:25} | V7-V9    V1-V3 ST depression    V1-V3 tall R waves | — |
+| Right Ventricle    11450s{03:10:50} | V4R | — |
+
+
+**Inferior STEMI時務必做V4R！**\yt{11480s{03:11:20} 如果V4R有ST elevation（≥1 mm），表示RV involvement，應避免使用Nitroglycerin，因為右心室依賴前負荷。
+}
+
+
+## Wellens' Syndrome 12340s
+{03:25:40}
+
+
+12355s{03:25:55} Wellens' syndrome代表LAD proximal高度狹窄，是impending anterior MI的警訊。
+
+
+| p{5.5cm}p{5.5cm}} Wellens' Syndrome分型 12340s{03:25:40} |  |  |
+| --- | --- | --- |
+| **特徵** | **Type A（25 | **Type B（75 |
+| **表格續接** |  |  |
+| **特徵** | **Type A（25 | **Type B（75 |
+| T wave外觀    12420s{03:27:00} | Biphasic    （先正後負） | Deeply inverted    （深度倒置，對稱） |
+| 導程 | V2-V3（可延伸至V1-V6） | V2-V3（可延伸至V1-V6） |
+| ST segment | Isoelectric或輕微elevation | Isoelectric或輕微elevation |
+| 發生時機 | 胸痛緩解後 | 胸痛緩解後 |
+
+
+> **Wellens' syndrome患者不適合做Stress test！**
+> itemize[leftmargin=*]
+>     \item 代表LAD proximal critical stenosis
+>     \item Stress test可能誘發extensive anterior MI
+>     \item 應直接安排Coronary angiography
+> itemize
+
+
+## De Winter Pattern 12915s
+{03:35:15}
+
+
+12930s{03:35:30} De Winter pattern是LAD occlusion的等價表現，傳統上不會出現ST elevation。
+
+
+| p{10cm}} De Winter Pattern特徵 12915s{03:35:15} |  |  |
+| --- | --- | --- |
+| **特徵** | **描述** |  |
+| **表格續接** |  |  |
+| **特徵** | **描述** |  |
+| ST segment    12960s{03:36:00} | 上斜型（upsloping）ST depression 1-3 mm    位於V1-V6 |  |
+| T waves    13000s{03:36:40} | 高大、對稱、正向（hyperacute appearance）    位於V1-V6 |  |
+| aVR | ST elevation |  |
+| 臨床意義    13080s{03:38:00} | 代表**STEMI equivalent**    即使無ST elevation仍需緊急介入 |  |
+
+
+## Posterior STEMI 13225s
+{03:40:25}
+
+
+13240s{03:40:40} 後壁心肌梗塞常被遺漏，因為標準12導程無法直接看到後壁。
+
+
+| p{10cm}} Posterior STEMI診斷要點 13225s{03:40:25} |  |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| **表格續接** |  |  |
+| **項目** | **內容** |  |
+| V1-V3鏡像變化    13300s{03:41:40} | ST depression（對應後壁ST elevation）    Tall R waves（對應後壁Q waves）    Upright T waves（對應後壁T wave inversion） |  |
+| Posterior leads    13400s{03:43:20} | V7：後腋線，V4水平    V8：肩胛線，V4水平    V9：脊椎旁線，V4水平    ST elevation ≥0.5 mm具診斷意義 |  |
+| 常合併 | Inferior STEMI（RCA occlusion）    Lateral STEMI（LCx occlusion） |  |
+
+
+## Sgarbossa Criteria（LBBB合併STEMI）14140s
+{03:55:40}
+
+
+14160s{03:56:00} 當有LBBB時，傳統STEMI標準無法使用。Sgarbossa criteria可幫助診斷LBBB合併STEMI。
+
+
+### T Wave Discordance概念 14200s
+{03:56:40}
+
+14210s{03:56:50} 在LBBB中，正常會有「appropriate discordance」—ST-T與QRS終末波方向相反。當出現「inappropriate concordance」時，則提示STEMI。
+
+
+### 原始Sgarbossa Criteria 14280s
+{03:58:00}
+
+
+| p{3cm}p{3cm}} Original Sgarbossa Criteria 14280s{03:58:00} |  |  |
+| --- | --- | --- |
+| **標準** | **分數** | **敏感度** |
+| **表格續接** |  |  |
+| **標準** | **分數** | **敏感度** |
+| Concordant ST elevation ≥1 mm    （與QRS主波方向相同的ST elevation）    14320s{03:58:40} | 5分 | 高特異性 |
+| Concordant ST depression ≥1 mm in V1-V3    （V1-V3的ST depression）    14400s{04:00:00} | 3分 | 高特異性 |
+| Discordant ST elevation ≥5 mm    （與QRS主波方向相反的ST elevation ≥5 mm）    14460s{04:01:00} | 2分 | 低敏感度 |
+| **≥3分** | **診斷STEMI** |  |
+
+
+### Modified Sgarbossa Criteria（Smith Criteria）14474s
+{04:01:14}
+
+14490s{04:01:30} Smith修改了第三條標準，以比例取代固定數值，大幅提高敏感度。
+
+
+| p{4cm}} Modified Sgarbossa Criteria 14474s{04:01:14} |  |  |
+| --- | --- | --- |
+| **標準** | **說明** |  |
+| **表格續接** |  |  |
+| **標準** | **說明** |  |
+| Concordant ST elevation ≥1 mm    任何導程 14520s{04:02:00} | 與原始標準相同 |  |
+| Concordant ST depression ≥1 mm in V1-V3    14560s{04:02:40} | 與原始標準相同 |  |
+| **ST/S ratio ≤-0.25**    任何導程（取代原本的5 mm標準）    14600s{04:03:20} | ST elevation幅度 ÷ S wave幅度    ≤-25  大幅提高敏感度 |  |
+| **任一標準符合** | **診斷STEMI** |  |
+
+
+> **範例：**V4導程S wave = -10 mm，ST elevation = +4 mm
+> 計算：ST/S ratio = 4 / (-10) = -0.40
+> 因為 -0.40 < -0.25，符合STEMI標準
+> **解釋：**14760s{04:06:00} 當ST elevation的幅度超過S wave深度的25
+
+
+### ECG範例分析 14818s
+{04:06:58}
+
+14838s{04:07:18} 範例ECG中可見：
+
+- Lead I, aVL, V5：Concordant ST elevation 14880s{04:08:00}
+- Lead III, aVF：Concordant ST depression（reciprocal changes）14960s{04:09:20}
+- V4：ST/S ratio明顯超過25
+
+
+## 課程總結 15024s
+{04:10:24}
+
+
+> **系統性判讀步驟：**
+> enumerate[leftmargin=*]
+>     \item Rate and Rhythm（心率與心律）
+>     \item QRS width（QRS寬度）
+>     \item Axis（電軸）
+>     \item P waves and PR interval（P波與PR間期）
+>     \item QRS morphology（QRS形態：BBB、LVH、RVH）
+>     \item ST-T changes（ST-T變化：ischemia、infarction）
+>     \item QT interval（QT間期）
+> enumerate
+> **STEMI不可錯過的情境：**
+> itemize[leftmargin=*]
+>     \item Posterior MI 13225s{03:40:25}：V1-V3的ST depression + tall R waves
+>     \item RV infarction 11450s{03:10:50}：Inferior STEMI + V4R ST elevation
+>     \item LBBB + STEMI 14140s{03:55:40}：使用Modified Sgarbossa criteria
+>     \item De Winter pattern 12915s{03:35:15}：Upsloping ST depression + Hyperacute T waves
+>     \item Wellens' syndrome 12340s{03:25:40}：Biphasic/Inverted T waves in V2-V3
+> itemize
+
+
+## 參考資源
+
+
+### 影片來源
+
+
+1. ICU Advantage. The COMPLETE 12-Lead ECG Masterclass. [YouTube影片連結](https://www.youtube.com/watch?v=jJ0B3wvGMbM)
+
+
+### 延伸閱讀
+
+
+1. Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). [*Circulation](https://doi.org/10.1161/CIR.0000000000000617). 2018;138(20):e618-e651.*
+2. Ibanez B, James S, Agewall S, et al. 2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation. [*Eur Heart J](https://doi.org/10.1093/eurheartj/ehx393). 2018;39(2):119-177.*
+3. Smith SW, Dodd KW, Henry TD, et al. Diagnosis of ST-elevation myocardial infarction in the presence of left bundle branch block with the ST-elevation to S-wave ratio in a modified Sgarbossa rule. [*Ann Emerg Med](https://doi.org/10.1016/j.annemergmed.2012.07.119). 2012;60(6):766-776.*
+4. de Winter RJ, Verouden NJ, Wellens HJ, et al. A new ECG sign of proximal LAD occlusion. [*N Engl J Med](https://doi.org/10.1056/NEJMc0804737). 2008;359(19):2071-2073.*
+5. Wellens HJ, Gorgels AP, Doevendans PA. The ECG in Acute Myocardial Infarction and Unstable Angina: Diagnosis and Risk Stratification. Boston: Kluwer Academic Publishers; 2003.
+6. Sgarbossa EB, Pinski SL, Barbagelata A, et al. Electrocardiographic diagnosis of evolving acute myocardial infarction in the presence of left bundle-branch block. [*N Engl J Med](https://doi.org/10.1056/NEJM199602223340801). 1996;334(8):481-487.*
+
+
+### 時間戳記索引
+
+
+| p{11cm}} 課程時間戳記快速索引（可點擊跳轉） |  |  |
+| --- | --- | --- |
+| **時間** | **主題** |  |
+| **表格續接** |  |  |
+| **時間** | **主題** |  |
+| 0s{00:00:00} | 課程介紹 |  |
+| 85s{00:01:25} | 冠狀動脈循環 |  |
+| 1007s{00:16:47} | 冠狀動脈生理學 |  |
+| 1683s{00:28:03} | 心臟傳導系統 |  |
+| 2404s{00:40:04} | 12導程ECG基礎 |  |
+| 3820s{01:03:40} | ECG系統性判讀 |  |
+| 5590s{01:33:10} | Bundle Branch Blocks |  |
+| 7092s{01:58:12} | 心軸判定 |  |
+| 7865s{02:11:05} | 心房肥大 |  |
+| 8455s{02:20:55} | 心室肥大 |  |
+| 9580s{02:39:40} | 心肌缺血與梗塞 |  |
+| 12340s{03:25:40} | Wellens' Syndrome |  |
+| 12915s{03:35:15} | De Winter Pattern |  |
+| 13225s{03:40:25} | Posterior STEMI |  |
+| 14140s{03:55:40} | Sgarbossa Criteria |  |
+| 15024s{04:10:24} | 課程總結 |  |

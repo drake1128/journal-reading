@@ -1,0 +1,104 @@
+---
+title: "journal reading PCI STEMI DCB Eng"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-27
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+## Introduction
+
+This literature review summarizes studies on Drug-Coated Balloon (DCB) treatment in STEMI patients, including case series and randomized controlled trials (RCTs).
+
+
+## Case Series Studies
+
+
+| p{2.5cm}p{3cm}p{6cm}} Summary of Case Series Studies on DCB Treatment for STEMI |  |  |
+| --- | --- | --- |
+| **Study/Author** | **Year/Sample Size** | **Follow-up** |
+| [Vukadinović et al.](https://onlinelibrary.wiley.com/doi/10.1002/ccd.31699) | 2025 / Single case | 7 weeks |
+| [Multicenter case series](https://www.mdpi.com/2077-0383/14/3/869) | 2025 / 118 cases | Median 23.2 months |
+| [Vos et al.](https://www.ncbi.nlm.nih.gov/books/NBK543588/) | 2018 / 100 cases | 1 year |
+
+
+## Randomized Controlled Trials
+
+
+| p{2cm}p{2.5cm}p{2cm}p{5.5cm}} Summary of RCTs on DCB Treatment for STEMI |  |  |
+| --- | --- | --- |
+| **Trial Name** | **Year/Sample** | **Study Design** |
+| [REVELATION](https://pubmed.ncbi.nlm.nih.gov/31126887/) | 2019 / N unclear | Prospective, randomized, single-center     DCB vs. DES |
+| [Chinese RCT](https://cardiothoracicsurgery.biomedcentral.com/articles/10.1186/s13019-021-01525-8) | 2021 / 80 cases | Randomized     DCB (n=38)     vs.     DES (n=42) |
+| [REC-CAGEFREE I](https://www.sciencedirect.com/science/article/abs/pii/S0140673624015940) | 2024 / Large scale | Open-label, randomized, non-inferiority trial     43 centers (China)     DCB+bailout stenting     vs.     Planned DES |
+
+
+## Meta-analyses and Systematic Reviews
+
+
+| p{2cm}p{3cm}p{6cm}} Meta-analyses on DCB for AMI/STEMI |  |  |
+| --- | --- | --- |
+| **Study Type** | **Year** | **Studies/Patients Included** |
+| [DCB vs. DES in AMI meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC10406147/) | 2023 | Search period:     April 2002 - Oct 2022     RCTs and observational studies |
+| [Large vessel de novo lesion meta-analysis](https://www.nature.com/articles/s41598-025-85734-4) | 2025 | 15 studies     3,975 patients     (2,114 DCB) |
+
+
+## Advantages and Limitations of DCB in STEMI
+
+
+### Advantages
+
+
+1. Avoids permanent metallic implants, reducing late stent thrombosis risk
+2. Preserves vasomotor function, maintains vessel contractile response and geometry
+3. Promotes positive vessel remodeling (as shown in Chinese RCT: negative LLL)
+4. Allows shorter dual antiplatelet therapy duration, beneficial for high bleeding risk patients
+5. Reduces in-stent restenosis without blind spots from metal struts affecting drug delivery
+6. Particularly attractive for young patients, avoiding lifelong metallic implants
+
+
+### Limitations and Challenges
+
+
+1. Most evidence from case series or small-scale RCTs
+2. REC-CAGEFREE I did not meet non-inferiority criteria
+3. Requires meticulous lesion preparation techniques (pre-dilation, dissection assessment)
+4. Approximately 3-40
+5. Lack of long-term follow-up data (>3 years)
+6. Higher technical demands on operators
+7. Not suitable for severely calcified lesions
+
+
+## Conclusion
+
+Current evidence for DCB use in STEMI primarily comes from case series and small-scale RCTs. The REVELATION trial provides the most important RCT evidence, demonstrating the safety and feasibility of DCB in STEMI, with non-inferiority to DES in FFR assessment. Despite encouraging results, **large-scale, multicenter randomized clinical trials are still needed** to further establish the role of DCB-PCI in STEMI patients.
+
+
+## Future Research Directions
+
+
+1. Large-scale multicenter RCTs (target enrollment >500 patients)
+2. Long-term follow-up studies (5-10 years)
+3. Subgroup analyses (young patients, diabetes, high bleeding risk)
+4. Direct comparison of DCB with latest-generation DES
+5. Imaging-guided DCB strategies (OCT/IVUS)
+6. Standardization of optimal lesion preparation techniques
+
+
+## References
+
+
+1. Vukadinović D, et al. [Drug Coated Balloon in Young Patients With ST-Elevation Myocardial Infarction: A Viable Treatment Option?](https://onlinelibrary.wiley.com/doi/10.1002/ccd.31699) *Catheterization and Cardiovascular Interventions*. 2025.
+2. [Culprit-Lesion Drug-Coated-Balloon Percutaneous Coronary Intervention in Patients Presenting with ST-Elevation Myocardial Infarction (STEMI).](https://www.mdpi.com/2077-0383/14/3/869) *J Clin Med*. 2025;14(3):869.
+3. Vos NS, et al. [Drug-Coated Balloons in STEMI - Primary Angioplasty.](https://www.ncbi.nlm.nih.gov/books/NBK543588/) *NCBI Bookshelf*. 2018.
+4. Nijhoff F, et al. [Paclitaxel-Coated Balloon Angioplasty Versus Drug-Eluting Stent in Acute Myocardial Infarction: The REVELATION Randomized Trial.](https://pubmed.ncbi.nlm.nih.gov/31126887/) *JACC Cardiovasc Interv*. 2019;12(17):1691-1699.
+5. [Study on the safety and effectiveness of drug-coated balloons in patients with acute myocardial infarction.](https://cardiothoracicsurgery.biomedcentral.com/articles/10.1186/s13019-021-01525-8) *J Cardiothorac Surg*. 2021;16:244.
+6. [Drug-Coated Balloon Angioplasty With Rescue Stenting Versus Intended Stenting for the Treatment of Patients With De Novo Coronary Artery Lesions (REC-CAGEFREE I): An Open-Label, Randomised, Non-Inferiority Trial.](https://www.sciencedirect.com/science/article/abs/pii/S0140673624015940) *The Lancet*. 2024;404(10457):1040-1050.
+7. [Drug-Coated Balloon vs. Drug-Eluting Stent in Acute Myocardial Infarction: A Systematic Review and Updated Meta-Analysis.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10406147/) *PMC*. 2023.
+8. [Drug coated balloon angioplasty for de novo coronary lesions in large vessels: a systematic review and meta-analysis.](https://www.nature.com/articles/s41598-025-85734-4) *Sci Rep*. 2025;15:2734.
+9. [Drug-Coated Balloon in Primary Percutaneous Coronary Intervention.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10317576/) *PMC*. 2023.

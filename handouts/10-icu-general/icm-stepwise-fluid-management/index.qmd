@@ -1,0 +1,284 @@
+---
+title: "ICM stepwise fluid management"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2025-08-10
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
+
+\maketitle
+
+
+> **重點訊息：**輸液是重症照護的基石，對維持血流動力學穩定和恢復灌流至關重要。然而，循環衰竭期間給予的輸液量必須仔細滴定，以平衡糾正低灌流的需求與輸液過載的風險。
+> **ROSE概念：**Malbrain等人提出的四階段輸液治療模型——**R**esuscitation（復甦）、**O**ptimization（優化）、**S**tabilization（穩定）、**E**vacuation/De-resuscitation（去復甦），強調每個階段有不同的目標、監測工具和治療策略。
+
+
+\tableofcontents
+
+---
+
+
+## 研究資訊
+
+
+| p{10cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| 文章類型 | Editorial（社論） |  |
+| 標題 | Stepwise Fluid Management in Critical Illness |  |
+| 作者 | Armand Mekontso Dessap, Maurizio Cecconi |  |
+| 機構 | AP-HP, Hôpitaux Universitaires Henri-Mondor, Créteil, France    Humanitas University  | IRCCS Humanitas Research Hospital, Milan, Italy |
+| 期刊 | Intensive Care Medicine |  |
+| 年份 | 2025 |  |
+| DOI | [10.1007/s00134-025-08263-8](https://doi.org/10.1007/s00134-025-08263-8) |  |
+| 收稿日期 | 2025年8月10日 |  |
+| 接受日期 | 2025年12月9日 |  |
+| 線上發表 | 2025年12月22日 |  |
+
+
+## 核心概念：ROSE四階段模型
+
+
+> 輸液管理不是單一、靜態的介入，而是**動態、時間敏感的過程**，必須適應重症疾病不斷演變的病理生理學。
+> **R**esuscitation $\rightarrow$ **O**ptimization $\rightarrow$ **S**tabilization $\rightarrow$ **E**vacuation
+> 每個階段有：
+> itemize[leftmargin=*]
+>     \item 不同的治療目標
+>     \item 特定的監測工具
+>     \item 獨特的治療策略
+> itemize
+
+
+## 四階段詳細說明
+
+
+### 第一階段：復甦期（Resuscitation Phase）
+
+
+| p{10cm}}  **面向** | **說明** |  |
+| --- | --- | --- |
+| **面向** | **說明** |  |
+| 治療目標 | 快速恢復灌流、糾正危及生命的低血容量 |  |
+| 監測特點 | 進階血流動力學監測通常尚未建立 |  |
+| ESICM 2025建議 | Sepsis初始復甦期間給予最高30 mL/kg晶體溶液靜脈注射 |  |
+| 重要提醒 | 此建議必須根據臨床情境和個別反應調整，需頻繁重新評估 |  |
+| 注意事項 | 早期容量擴張可挽救生命，但不應僵化執行    部分數據顯示過度輸液累積可能有害，尤其在資源有限環境 |  |
+
+
+### 第二階段：優化期（Optimization Phase）
+
+
+| p{10cm}}  **面向** | **說明** |  |
+| --- | --- | --- |
+| **面向** | **說明** |  |
+| 治療目標 | 僅在輸液可能增加心輸出量並改善組織灌流時給予 |  |
+| 核心策略 | 評估輸液反應性（fluid responsiveness） |  |
+| 動態測試 | Passive leg raising（被動抬腿測試）    Pulse pressure variation（脈壓變異） |  |
+| 輔助工具 | 床邊超音波 |  |
+| 個人化方法 | 最新建議支持個人化方法，因非個人化的限制性vs自由策略試驗未顯示主要結果差異 |  |
+
+
+#### 輸液反應性評估
+
+
+> FENICE研究揭示全球輸液復甦實務的顯著變異性，且持續依賴靜態指標如CVP（中央靜脈壓），儘管支持其用於指導輸液治療的證據有限。
+> **建議：**儘管靜態和動態指標未在隨機試驗中直接比較，生理學推理支持優先使用動態指標。
+
+
+#### 標準化輸液挑戰（Fluid Challenge）
+
+
+| p{10cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| 輸液量 | 3--5 mL/kg 晶體溶液 |  |
+| 給予時間 | 10--15分鐘 |  |
+| 監測指標 | Stroke volume（每搏輸出量）或cardiac output（心輸出量） |  |
+| 後續評估 | 即使有輸液反應性，也須考慮輸液耐受性（fluid tolerance） |  |
+
+
+#### 輸液耐受性（Fluid Tolerance）
+
+
+> **輸液耐受性**指接受額外容量而不引起器官充血或功能障礙的能力，在以下情況特別重要：
+> itemize[leftmargin=*]
+>     \item 心衰竭
+>     \item 急性呼吸窘迫症候群（ARDS）
+> itemize
+> **評估工具：**
+> itemize[leftmargin=*]
+>     \item 床邊超音波評估肺充血
+>     \item VExUS評分（Venous Excess Ultrasound）
+>     \item 肺外血管水監測（Extravascular lung water）
+> itemize
+
+
+#### 微循環考量
+
+
+針對微循環異常（如延長的capillary refill time）的策略與良好預後相關：
+
+- ANDROMEDA-SHOCK試驗：比較周邊灌流狀態vs血清lactate水平的復甦策略
+- ANDROMEDA-SHOCK-2試驗：針對capillary refill time的個人化血流動力學復甦
+
+
+### 第三階段：穩定期（Stabilization Phase）
+
+
+| p{10cm}}  **面向** | **說明** |  |
+| --- | --- | --- |
+| **面向** | **說明** |  |
+| 治療目標 | 灌流恢復後，最小化輸液輸入 |  |
+| 核心概念 | 注意「隱藏輸液」（hidden fluids） |  |
+| 隱藏輸液來源 | 藥物載體    營養液    血液製品 |  |
+| 維持需求 | 此階段維持需求較低，應避免不必要的輸液給予 |  |
+
+
+#### 維持輸液（Maintenance Fluids）
+
+
+> 維持輸液旨在提供無法維持足夠口服攝入患者的每日水分、電解質和葡萄糖需求。
+> **目的不是**糾正低血容量，而是在攝入減少或不顯性失水增加期間維持液體和電解質平衡。
+
+
+| p{10cm}}  **常見問題** | **後果** |  |
+| --- | --- | --- |
+| **常見問題** | **後果** |  |
+| 過量處方 | 容量過載 |  |
+| 組成不當 | 高鈉血症、低鈉血症 |  |
+| 高估維持需求 | 未考慮其他輸液來源（藥物稀釋液、腸內營養、血液製品） |  |
+
+
+**建議：**採用合理的維持策略，每日處方根據實際需求調整，並依累積平衡調整。
+
+
+#### 特殊情況：燒傷患者
+
+
+| p{10cm}}  **項目** | **內容** |  |
+| --- | --- | --- |
+| **項目** | **內容** |  |
+| Parkland公式 | 4 mL/kg/ |  |
+| 建議溶液 | Lactated Ringer's solution |  |
+| 主要顧慮 | 過度復甦（over-resuscitation） |  |
+| 過度復甦併發症 | 腔室症候群（compartment syndromes）    肺水腫 |  |
+| 其他適用情況 | 嚴重皮膚疾病如Lyell syndrome（毒性表皮壞死溶解症） |  |
+
+
+### 第四階段：去復甦期（De-resuscitation/Evacuation Phase）
+
+
+| p{10cm}}  **面向** | **說明** |  |
+| --- | --- | --- |
+| **面向** | **說明** |  |
+| 定義 | 主動移除累積輸液以糾正輸液過載的前瞻性方法 |  |
+| 啟動時機指標 | 無前負荷反應性    升壓劑需求穩定或減少    低灌流徵象消退 |  |
+| ESICM 2025建議 | 急性復甦期後建議降階輸液治療    使用標準化利尿劑策略    體外輸液移除保留給有腎臟替代治療其他適應症的患者 |  |
+| 證據等級 | 低確定性證據 |  |
+| 待釐清問題 | 是否應對所有正向液體平衡患者系統性去復甦，或僅限於有明顯器官充血者 |  |
+
+
+## ROSE四階段視覺化摘要
+
+
+| p{3cm}p{4cm}p{4cm}}  **階段** | **觸發點** | **主要目標** |
+| --- | --- | --- |
+| **階段** | **觸發點** | **主要目標** |
+| ****Resuscitation**** | 無監測 | 快速恢復灌流 |
+| ****Optimization**** | 監測可用 | 個人化利弊平衡 |
+| ****Stabilization**** | 灌流恢復 | 最小化輸液輸入 |
+| ****Evacuation**** | 輸液過載 | 移除累積輸液 |
+
+
+## 臨床實務建議
+
+
+### 個人化輸液滴定
+
+
+> 此階段性方法強調**根據疾病軌跡個人化輸液滴定**的核心角色，並由**即時生理監測**支持。
+> 採用此框架用於重症輸液管理是合理的，但須注意：
+> itemize[leftmargin=*]
+>     \item 階段之間的界限可能難以界定
+>     \item 特別是在複雜血流動力學特徵的患者（如中央低血容量合併全身水腫）
+> itemize
+
+
+### 動態vs靜態指標
+
+
+| p{5cm}p{5cm}}  **指標類型** | **優點** | **限制** |
+| --- | --- | --- |
+| **指標類型** | **優點** | **限制** |
+| **靜態指標**    （如CVP） | 廣泛可用    操作簡單 | 預測輸液反應性證據有限    FENICE研究顯示過度依賴 |
+| **動態指標**    （如PPV、PLR） | 生理學推理支持    可預測輸液反應性 | 需特定條件（機械通氣、竇性心律等） |
+
+
+### 限制性vs自由策略
+
+
+> 比較初始復甦後非個人化限制性vs自由策略的試驗未顯示主要結果的重大差異：
+> itemize[leftmargin=*]
+>     \item CLOVERS試驗（NHLBI, 2023）：sepsis誘發低血壓的早期限制性vs自由輸液管理
+>     \item CLASSIC試驗（Meyhoff等, 2022）：ICU septic shock患者的靜脈輸液限制
+> itemize
+> **結論：**支持個人化方法而非一刀切策略。
+
+
+## 未來研究方向
+
+
+1. 驗證ROSE概念模型是否能轉化為改善以病患為中心的結果
+2. 確定去復甦階段的最佳啟動時機
+3. 釐清去復甦應系統性應用於所有正向液體平衡患者，或僅限於有明顯器官充血者
+4. 比較靜態和動態指標的隨機試驗
+
+
+## 詞彙表
+
+
+| p{9cm}}  **術語** | **定義** |  |
+| --- | --- | --- |
+| **術語** | **定義** |  |
+| ROSE concept | Resuscitation-Optimization-Stabilization-Evacuation，四階段輸液治療概念 |  |
+| Fluid responsiveness | 輸液反應性，指給予輸液後心輸出量增加的能力 |  |
+| Fluid tolerance | 輸液耐受性，接受額外容量而不引起器官充血的能力 |  |
+| Passive leg raising (PLR) | 被動抬腿測試，評估輸液反應性的動態測試 |  |
+| Pulse pressure variation (PPV) | 脈壓變異，機械通氣患者評估輸液反應性的指標 |  |
+| VExUS | Venous Excess Ultrasound，靜脈充血超音波評分 |  |
+| Hidden fluids | 隱藏輸液，非治療目的的輸液（藥物載體、營養等） |  |
+| De-resuscitation | 去復甦，主動移除累積輸液的階段 |  |
+| Fluid challenge | 輸液挑戰，標準化給予輸液並監測反應的測試 |  |
+| CVP | Central Venous Pressure，中央靜脈壓 |  |
+| Parkland formula | Parkland公式，燒傷患者初始輸液需求估算（4 mL/kg/ |  |
+| TBSA | Total Body Surface Area，全身體表面積 |  |
+| Capillary refill time | 微血管再充盈時間，評估周邊灌流的臨床指標 |  |
+
+
+## 參考文獻
+
+
+1. Malbrain MLNG, Van Regenmortel N, Saugel B, et al. Principles of fluid management and stewardship in septic shock: it is time to consider the four D's and the four phases of fluid therapy. [*Ann Intensive Care](https://doi.org/10.1186/s13613-018-0402-x). 2018;8:66.*
+2. Mekontso Dessap A, AlShamsi F, Belletti A, et al. European Society of Intensive Care Medicine (ESICM) 2025 clinical practice guideline on fluid therapy in adult critically ill patients: part 2—the volume of resuscitation fluids. [*Intensive Care Med](https://doi.org/10.1007/s00134-025-07840-1). 2025.*
+3. Gendreau S, Frapard T, Carteaux G, et al. Geo-economic Influence on the Effect of Fluid Volume for Sepsis Resuscitation: A Meta-Analysis. [*Am J Respir Crit Care Med](https://doi.org/10.1164/rccm.202309-1617OC). 2024;209:517-528.*
+4. Monnet X, Messina A, Greco M, et al. ESICM guidelines on circulatory shock and hemodynamic monitoring 2025. [*Intensive Care Med](https://doi.org/10.1007/s00134-025-08137-z). 2025;51:1971-2012.*
+5. The National Heart, Lung, and Blood Institute Prevention and Early Treatment of Acute Lung Injury Clinical Trials Network. Early restrictive or liberal fluid management for sepsis-induced hypotension. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2212663). 2023;388:499-510.*
+6. Meyhoff TS, Hjortrup PB, Wetterslev J, et al. Restriction of intravenous fluid in ICU patients with septic shock. [*N Engl J Med](https://doi.org/10.1056/NEJMoa2202707). 2022;386:2459-2470.*
+7. Cecconi M, Hofer C, Teboul J-L, et al. Fluid challenges in intensive care: the FENICE study: a global inception cohort study. [*Intensive Care Med](https://doi.org/10.1007/s00134-015-3850-x). 2015;41:1529-1537.*
+8. Cecconi M, De Backer D, Antonelli M, et al. Consensus on circulatory shock and hemodynamic monitoring. Task force of the European Society of Intensive Care Medicine. [*Intensive Care Med](https://doi.org/10.1007/s00134-014-3525-z). 2014;40:1795-1815.*
+9. Hernández G, Ospina-Tascón GA, Damiani LP, et al. Effect of a resuscitation strategy targeting peripheral perfusion status vs serum lactate levels on 28-day mortality among patients with septic shock: the ANDROMEDA-SHOCK randomized clinical trial. [*JAMA](https://doi.org/10.1001/jama.2019.0071). 2019;321:654.*
+10. ANDROMEDA-SHOCK-2 Investigators, Hernandez G, Ospina-Tascón GA, et al. Personalized hemodynamic resuscitation targeting capillary refill time in early septic shock: the ANDROMEDA-SHOCK-2 randomized clinical trial. [*JAMA](https://doi.org/10.1001/jama.2025.20402). 2025.*
+11. Messina A, Albini M, Samuelli N, et al. Fluid boluses and infusions in the early phase of resuscitation from septic shock and sepsis-induced hypotension: a retrospective report and outcome analysis from a tertiary hospital. [*Ann Intensive Care](https://doi.org/10.1186/s13613-024-01347-6). 2024;14:123.*
+12. Waskowski J, Salvato SM, Müller M, et al. Choice of creep or maintenance fluid type and their impact on total daily ICU sodium burden in critically ill patients: a systematic review and meta-analysis. [*J Crit Care](https://doi.org/10.1016/j.jcrc.2023.154403). 2023;78:154403.*
+13. Gillenwater J, Garner W. Acute fluid management of large burns: pathophysiology, monitoring, and resuscitation. [*Clin Plast Surg](https://doi.org/10.1016/j.cps.2017.02.008). 2017;44:495-503.*
+14. Ostermann M, Alshamsi F, Artigas Raventos A, et al. European Society of Intensive Care Medicine Clinical Practice Guideline on fluid therapy in adult critically ill patients: part 3—fluid removal at de-escalation phase. [*Intensive Care Med](https://doi.org/10.1007/s00134-025-08058-x). 2025;51:1749-1763.*
+15. Dres M, Estellat C, Baudel J, et al. Comparison of a preventive or curative strategy of fluid removal on the weaning of mechanical ventilation: a study protocol for a multicentre randomised open-label parallel-group trial. [*BMJ Open](https://doi.org/10.1136/bmjopen-2020-048286). 2021;11:e048286.*
+
+
+## 附錄：原文出處
+
+
+> **完整引用：**  
+> Mekontso Dessap A, Cecconi M. Stepwise fluid management in critical illness. *Intensive Care Med*. 2025. doi:[10.1007/s00134-025-08263-8](https://doi.org/10.1007/s00134-025-08263-8)
