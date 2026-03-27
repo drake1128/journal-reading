@@ -423,8 +423,8 @@ brew install pandoc
 在 Markdown 開頭加入以下 YAML：
 
 ```yaml
----
-title: "Esmolol 在重症加護的應用"
+
+## title: "Esmolol 在重症加護的應用"
 subtitle: "適應症、使用時機與劑量"
 author: "謝慕揚 MD, PhD, FESC"
 date: "2026-02-27"
