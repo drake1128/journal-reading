@@ -1,0 +1,243 @@
+# Early Surgery or Conservative Care for Asymptomatic Aortic Stenosis at 10 Years — RECOVERY Trial 十年最終結果
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-28**
+**來源：[*N Engl J Med*. 2026;394(12):1167-1174.](https://doi.org/10.1056/NEJMoa2511920)**
+
+---
+
+## 目錄
+
+1. [核心發現摘要](#核心發現摘要)
+2. [研究概述](#1-研究概述)
+3. [研究方法](#2-研究方法)
+4. [主要結果](#3-主要結果)
+5. [討論與臨床意義](#4-討論與臨床意義)
+6. [與其他試驗比較](#5-與其他試驗比較)
+7. [研究限制](#6-研究限制)
+8. [結論](#7-結論)
+9. [參考文獻](#參考文獻)
+
+---
+
+## 核心發現摘要
+
+> **重大發現**：RECOVERY trial 十年追蹤顯示，無症狀 very severe aortic stenosis 患者接受早期手術 (early surgical AVR)，相較於保守治療，operative mortality 或心血管死亡的複合終點顯著降低 (HR 0.10; 95% CI 0.02–0.43; P = 0.002)。十年累積心血管死亡率：早期手術組 1% vs. 保守治療組 19%。
+>
+> **臨床意義**：早期手術的存活優勢在十年追蹤中持續擴大，Kaplan–Meier 曲線無收斂趨勢。NNT = 6（預防一例心血管死亡）、NNT = 7（預防一例全因死亡）。此結果強力支持對 very severe AS 患者提前介入，而非等待症狀出現。
+
+---
+
+## 1. 研究概述
+
+### 研究資訊
+
+- **標題**：Early Surgery or Conservative Care for Asymptomatic Aortic Stenosis at 10 Years
+- **作者**：Kang DH, Park SJ, Kim GY, et al.
+- **期刊**：*New England Journal of Medicine* (2026)
+- **DOI**：[10.1056/NEJMoa2511920](https://doi.org/10.1056/NEJMoa2511920)
+- **研究註冊**：[ClinicalTrials.gov NCT01161732](https://clinicaltrials.gov/study/NCT01161732)
+- **研究機構**：Asan Medical Center, Samsung Medical Center, Seoul National University Hospital, Severance Hospital（韓國四家醫學中心）
+
+### 研究背景
+
+- 現行指引對 **symptomatic severe aortic stenosis** 建議 aortic-valve replacement (AVR)
+- **Asymptomatic severe AS** 傳統推薦 watchful waiting，因無症狀期 sudden death 風險低 (<1%/年)
+- 但近年臨床試驗挑戰此策略：AVR periprocedural mortality <0.5%，且早期介入可能改善存活
+- **長期追蹤資料不足**：人工瓣膜相關併發症（bioprosthetic valve degeneration、thromboembolism、anticoagulation-related bleeding）可能隨時間增加，抵消早期手術的好處
+- RECOVERY trial 先前中期分析（中位追蹤 ≥4 年）已顯示早期手術組心血管死亡率較低
+- **本文報告 RECOVERY trial 十年最終追蹤結果**
+
+---
+
+## 2. 研究方法
+
+### 研究設計
+
+- **研究類型**：多中心、隨機分配、平行組、開放標籤試驗 (open-label RCT)
+- **收案期間**：2010 年 7 月至 2015 年 4 月
+- **追蹤期間**：中位數 **144 個月**（IQR 124–160 個月），最低追蹤 10 年
+- **資料收集截止**：2025 年 5 月
+- **分析方法**：Intention-to-treat analysis；stratified Cox proportional-hazards regression with Firth correction
+
+### 納入與排除條件
+
+| 類型 | 標準 |
+|------|------|
+| **納入條件** | 完全無症狀 (asymptomatic)；very severe AS：aortic-valve area ≤0.75 cm² 且 peak aortic jet velocity ≥4.5 m/s 或 mean gradient ≥50 mmHg |
+| **排除條件** | 運動性呼吸困難 (exertional dyspnea)、暈厥 (syncope)、心絞痛 (angina)；LVEF <50%；顯著 aortic regurgitation 或 mitral valve disease；曾接受心臟手術；年齡 >80 歲；癌症等無法手術之狀況 |
+
+### 隨機分配與治療策略
+
+- **早期手術組 (Early surgery, n=73)**：隨機分配後 **2 個月內** 接受 surgical AVR
+  - 實際中位手術時間：隨機分配後 23 天（IQR 10–36 天）
+  - Mechanical valve 36 人 (49%)、bioprosthetic valve 37 人 (51%)
+- **保守治療組 (Conservative care, n=72)**：Watchful waiting，符合以下條件時轉介 AVR：
+  - 出現症狀
+  - LVEF 降至 <50%
+  - Peak aortic jet velocity 每年增加 >0.5 m/s
+- **Crossover**：保守治療組 2 人 crossover 至早期手術；早期手術組 4 人 crossover 至保守治療（後因症狀接受手術）
+
+### 研究終點
+
+| 終點類型 | 定義 |
+|----------|------|
+| **Primary endpoint** | Operative mortality（手術中或術後 30 天內死亡）或心血管死亡 (death from cardiovascular causes) 之複合終點 |
+| **Secondary endpoints** | 全因死亡 (all-cause mortality)；臨床血栓栓塞事件 (clinical thromboembolic events)；再次主動脈瓣手術 (repeat AVR)；因心衰住院 (hospitalization for heart failure) |
+
+---
+
+## 3. 主要結果
+
+### 基線特徵
+
+| 特徵 | 早期手術組 (n=73) | 保守治療組 (n=72) |
+|------|-------------------|-------------------|
+| 年齡 (歲) | 65.0 ± 7.8 | 63.4 ± 10.7 |
+| 男性 | 37 (51%) | 34 (47%) |
+| BMI (kg/m²) | 24.7 ± 3.4 | 24.0 ± 2.6 |
+| 糖尿病 (diabetes) | 13 (18%) | 7 (10%) |
+| 高血壓 (hypertension) | 40 (55%) | 39 (54%) |
+| EuroSCORE II (%) | 0.9 ± 0.3 | 0.9 ± 0.4 |
+| Bicuspid aortic valve | 49 (67%) | 39 (54%) |
+| Degenerative valve disease | 22 (30%) | 26 (36%) |
+| Peak aortic jet velocity (m/s) | 5.14 ± 0.52 | 5.04 ± 0.44 |
+| Aortic valve area (cm²) | 0.63 ± 0.09 | 0.64 ± 0.09 |
+| LVEF (%) | 64.8 ± 5.2 | 64.8 ± 4.1 |
+
+### 主要終點結果
+
+| 終點 | 早期手術組 | 保守治療組 | HR (95% CI) | 10 年累積發生率差異 |
+|------|-----------|-----------|-------------|-------------------|
+| **Primary endpoint：Operative mortality 或心血管死亡** | **2/73 (3%)** | **17/72 (24%)** | **0.10 (0.02–0.43), P=0.002** | **−17% (−27 to −8)** |
+| Competing-risk analysis | — | — | 0.10 (0.02–0.43) | −16% (−24 to −7) |
+| 全因死亡 (all-cause mortality) | 11/73 (15%) | 23/72 (32%) | 0.42 (0.21–0.86) | −14% (−26 to −2) |
+| Clinical thromboembolic event | 3/73 (4%) | 7/72 (10%) | 0.39 (0.10–1.48) | −0.4% (−8 to 7) |
+| Repeat aortic-valve surgery | 3/73 (4%) | 4/72 (6%) | 0.67 (0.15–2.99) | — |
+| 因心衰住院 | **0/73 (0%)** | **14/72 (19%)** | **0.03 (0.00–0.49)** | **−16% (−24 to −7)** |
+
+### Kaplan–Meier 累積發生率
+
+| 時間點 | Primary endpoint（早期手術 vs. 保守治療） | 全因死亡（早期手術 vs. 保守治療） |
+|--------|----------------------------------------|-------------------------------|
+| **5 年** | 1% vs. 7% | 4% vs. 11% |
+| **10 年** | 1% vs. 19% | 11% vs. 25% |
+
+> **Pearl 1**：NNT = 6 預防一例 10 年心血管死亡；NNT = 7 預防一例 10 年全因死亡。
+>
+> **Pearl 2**：早期手術組 **零** 心衰住院事件，保守治療組 19%。
+>
+> **Pearl 3**：十年追蹤中 Kaplan–Meier 曲線 **無收斂趨勢**，證實早期手術的持續獲益。
+
+### 保守治療組的後續處置
+
+- 72 位保守治療組患者中，**61 人 (85%)** 最終接受 AVR（59 人 surgical AVR + 2 人 TAVR）
+- 主要原因：出現症狀 (49 人)
+- **11/59 (19%) 為急診手術**（從急診收入後緊急處理）
+- 保守治療組隨機分配至 AVR 中位時間：**1048 天** (IQR 339–1700)
+- 保守治療組中：AVR 前 10 人死亡（全部為心血管死亡）；AVR 後 13 人死亡（7 人心血管死亡）
+- 保守治療組 10 年內 **97% 患者** 死亡或接受 AVR
+
+---
+
+## 4. 討論與臨床意義
+
+### 重要發現
+
+1. **早期手術的長期存活優勢持續擴大**：十年 Kaplan–Meier 曲線無收斂，顯示人工瓣膜長期併發症並未抵消早期介入的好處
+2. **保守治療組幾乎全部最終需要 AVR**：10 年內 97% 死亡或接受 AVR，證實 "watchful waiting" 策略只是延遲了不可避免的手術
+3. **延遲手術增加急診風險**：保守治療組 19% 為急診手術，且手術前已有 10 人死亡
+4. **零心衰住院**：早期手術組完全無心衰住院，暗示及時解除壓力超負荷可預防不可逆心肌損傷
+
+### 與保守治療策略的時機關鍵
+
+> **Pearl**：保守治療組中，**未接受 AVR 的患者心血管死亡率最高**；即使接受了 AVR，延遲手術（隨機分配至 AVR 的時間越長）也與較高心血管死亡率相關。早期介入的「時間窗口」至關重要。
+
+### 臨床實務建議
+
+> **重點提醒**：
+> 1. 對於 **very severe AS**（AVA ≤0.75 cm²、peak velocity ≥4.5 m/s）的 **完全無症狀** 患者，應積極考慮 **早期 AVR**（手術風險低的情況下）
+> 2. 本試驗收案族群相對年輕（平均 64 歲）、共病少、手術風險低（EuroSCORE II ~0.9%），結果不一定適用於高齡多重共病患者
+> 3. 本試驗為 **surgical AVR**，TAVR 是否有相同長期結果尚不明確
+
+---
+
+## 5. 與其他試驗比較
+
+| 試驗 | 收案數 | 嚴重程度 | 介入方式 | 中位追蹤 | All-cause mortality 結果 |
+|------|--------|----------|----------|----------|------------------------|
+| **RECOVERY** (本文) | 145 | Very severe (Vmax ≥4.5 m/s) | Surgical AVR | **144 個月** | HR 0.42 (0.21–0.86)，**有利早期手術** |
+| **AVATAR** (extended) | 157 | Severe (Vmax ≥4.0 m/s) | Surgical AVR | 63 個月 | **有利早期手術** |
+| **EARLY TAVR** | 901 | Severe (Vmax ≥4.0 m/s) | TAVR | ~46 個月 | 無顯著差異 |
+| **EVOLVED** | 224 | Severe + myocardial fibrosis | Surgical AVR | — | 見 JAMA 2025 |
+
+> **Pearl**：EARLY TAVR 未顯示 all-cause mortality 差異的可能原因：追蹤時間較短（46 個月 vs. RECOVERY 的 144 個月），且保守組 **87% 在中位 11.1 個月即接受 AVR**，實質上差異被稀釋。
+
+---
+
+## 6. 研究限制
+
+1. **Very severe AS 定義嚴格**：AVA ≤0.75 cm² + peak velocity ≥4.5 m/s，結果不一定適用於一般 severe AS (Vmax 4.0–4.5 m/s)
+2. **Open-label 設計**：可能影響非致死性終點的判定（ascertainment bias）
+3. **未常規運動負荷試驗**：不能完全排除隱性症狀患者
+4. **樣本數小** (n=145)：primary endpoint 事件數少，統計推論有限
+5. **選擇性中心**：高手術量專家中心，外推性受限
+6. **族群年輕、共病少**：平均 64 歲、EuroSCORE II 0.9%，不代表真實世界高齡多共病族群
+7. **COVID-19 pandemic 影響**：部分追蹤期間恰逢疫情
+8. **僅限 surgical AVR**：TAVR 是否有相同長期效果未知
+
+---
+
+## 7. 結論
+
+1. **主要結論**：無症狀 very severe aortic stenosis 患者，早期 surgical AVR 較保守治療顯著降低 10 年 operative mortality 或心血管死亡複合終點（HR 0.10, P=0.002）
+2. **存活優勢持續**：全因死亡也呈現有利趨勢（HR 0.42），且十年追蹤中曲線持續分離
+3. **支持提前介入**：保守治療組 97% 最終需要手術或死亡，且延遲手術與較差預後相關
+
+---
+
+## 參考文獻
+
+1. Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA guideline for the management of patients with valvular heart disease: executive summary. [*Circulation*. 2021;143(5):e35-e71.](https://doi.org/10.1161/CIR.0000000000000923)
+
+2. Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS guidelines for the management of valvular heart disease. [*Eur Heart J*. 2025;46(44):4635-4736.](https://doi.org/10.1093/eurheartj/ehaf194)
+
+3. Otto CM, Newby DE, Hillis GS. Calcific aortic stenosis: a review. [*JAMA*. 2024;332:2014-2026.](https://doi.org/10.1001/jama.2024.16477)
+
+4. Généreux P, Schwartz A, Oldemeyer JB, et al. Transcatheter aortic-valve replacement for asymptomatic severe aortic stenosis. [*N Engl J Med*. 2025;392:217-227.](https://doi.org/10.1056/NEJMoa2405880)
+
+5. Kang DH, Park SJ, Lee SA, et al. Early surgery or conservative care for asymptomatic aortic stenosis. [*N Engl J Med*. 2020;382:111-119.](https://doi.org/10.1056/NEJMoa1912846)
+
+6. Banovic M, Putnik S, Da Costa BR, et al. Aortic valve replacement vs. conservative treatment in asymptomatic severe aortic stenosis: long-term follow-up of the AVATAR trial. [*Eur Heart J*. 2024;45:4526-4535.](https://doi.org/10.1093/eurheartj/ehae585)
+
+7. Hillis GS, McCann GP, Newby DE. Is asymptomatic severe aortic stenosis still a waiting game? [*Circulation*. 2022;145:874-876.](https://pubmed.ncbi.nlm.nih.gov/35254880/)
+
+8. Maznyczka A, Prendergast B, Dweck M, et al. Timing of aortic valve intervention in the management of aortic stenosis. [*JACC Cardiovasc Interv*. 2024;17(21):2502-2514.](https://doi.org/10.1016/j.jcin.2024.08.046)
+
+9. Pellikka PA, Nishimura RA, Bailey KR, Tajik AJ. The natural history of adults with asymptomatic, hemodynamically significant aortic stenosis. [*J Am Coll Cardiol*. 1990;15:1012-1017.](https://pubmed.ncbi.nlm.nih.gov/2312956/)
+
+10. Pellikka PA, Sarano ME, Nishimura RA, et al. Outcome of 622 adults with asymptomatic, hemodynamically significant aortic stenosis during prolonged follow-up. [*Circulation*. 2005;111:3290-3295.](https://doi.org/10.1161/CIRCULATIONAHA.104.495903)
+
+11. Banovic M, Putnik S, Penicka M, et al. Aortic valve replacement versus conservative treatment in asymptomatic severe aortic stenosis: the AVATAR trial. [*Circulation*. 2022;145:648-658.](https://doi.org/10.1161/CIRCULATIONAHA.121.057639)
+
+12. Blankenberg S. Asymptomatic severe aortic-valve stenosis — to wait or not to wait. [*N Engl J Med*. 2025;392:278-279.](https://doi.org/10.1056/NEJMe2415973)
+
+13. Lancellotti P, Magne J, Dulgheru R, et al. Outcomes of patients with asymptomatic aortic stenosis followed up in heart valve clinics. [*JAMA Cardiol*. 2018;3:1060-1068.](https://doi.org/10.1001/jamacardio.2018.3152)
+
+14. Gahl B, Çelik M, Head SJ, et al. Natural history of asymptomatic severe aortic stenosis and the association of early intervention with outcomes: a systematic review and meta-analysis. [*JAMA Cardiol*. 2020;5:1102-1112.](https://doi.org/10.1001/jamacardio.2020.2497)
+
+15. Loganath K, Craig NJ, Everett RJ, et al. Early intervention in patients with asymptomatic severe aortic stenosis and myocardial fibrosis: the EVOLVED randomized clinical trial. [*JAMA*. 2025;333:213-221.](https://doi.org/10.1001/jama.2024.22730)
+
+16. Lindman BR, Braunwald E, Pellikka PA. Aortic valve replacement for asymptomatic severe aortic stenosis — the time has come. [*JAMA Cardiol*. 2025;10:305-306.](https://doi.org/10.1001/jamacardio.2024.5648)
+
+17. Généreux P, Banovic M, Kang DH, et al. Aortic valve replacement vs clinical surveillance in asymptomatic severe aortic stenosis: a systematic review and meta-analysis. [*J Am Coll Cardiol*. 2025;85:912-922.](https://doi.org/10.1016/j.jacc.2024.11.006)
+
+18. Oh JK, Taliercio CP, Holmes DR Jr, et al. Prediction of the severity of aortic stenosis by Doppler aortic valve area determination. [*J Am Coll Cardiol*. 1988;11:1227-1234.](https://pubmed.ncbi.nlm.nih.gov/3366997/)
+
+19. Carabello BA. Should severe aortic stenosis be operated on before symptom onset? [*Circulation*. 2012;126:112-117.](https://pubmed.ncbi.nlm.nih.gov/22753532/)
+
+20. Martinsson A, Jeppsson A. Benefit of early aortic valve replacement in asymptomatic severe aortic stenosis but questions remain. [*Eur Heart J*. 2024;45:4536-4538.](https://doi.org/10.1093/eurheartj/ehae597)
+
+---
+
+*本文件僅供醫療專業人員教學參考，臨床決策請結合個案情況。*
