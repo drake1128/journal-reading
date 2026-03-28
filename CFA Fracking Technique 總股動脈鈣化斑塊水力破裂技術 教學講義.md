@@ -1,0 +1,220 @@
+# The "Fracking" Technique: A Novel Approach to Crack Deep Calcified Plaque in the Common Femoral Artery with Hydraulic Pressure — 總股動脈深層鈣化斑塊水力破裂新技術
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-03-28**
+**來源：[*CVIR Endovasc*. 2021;4:70.](https://doi.org/10.1186/s42155-021-00258-y)**
+
+---
+
+## 目錄
+
+1. [核心發現摘要](#核心發現摘要)
+2. [研究概述](#1-研究概述)
+3. [Fracking Technique 步驟詳解](#2-fracking-technique-步驟詳解)
+4. [案例報告](#3-案例報告)
+5. [討論與臨床意義](#4-討論與臨床意義)
+6. [研究限制](#5-研究限制)
+7. [結論](#6-結論)
+8. [參考文獻](#參考文獻)
+
+---
+
+## 核心發現摘要
+
+> **重大發現**：Fracking technique (FT) 使用 18-gauge needle 經皮穿刺鈣化斑塊，以 balloon indeflator 注入液壓 (hydraulic pressure) 從外向內破裂 deep calcification，達到傳統 balloon angioplasty 和 atherectomy 無法達到的管腔擴張。兩例 CFA 嚴重鈣化病灶，MLA 分別從 10.7 → **27.1 mm²** 及 13.1 → **28.9 mm²**，無併發症。
+>
+> **臨床意義**：CFA 是 "no stenting zone"，傳統 balloon angioplasty 對 deep calcification 效果有限。FT 概念類似 intravascular lithoplasty (IVL)，但從外部穿刺破裂鈣化，可手動控制損傷範圍，且理論上較少遠端栓塞風險。
+
+---
+
+## 1. 研究概述
+
+### 研究資訊
+
+- **標題**：The "Fracking" technique: a novel approach to crack deep calcified plaque in the common femoral artery with hydraulic pressure
+- **作者**：Haraguchi T, Fujita T, Kashima Y, Tsujimoto M, Takeuchi T, Tadano Y, Hachinohe D, Kaneko U, Kobayashi K, Kanno D, Sato K
+- **機構**：Sapporo Heart Center, Hokkaido, Japan（PAD Center）
+- **期刊**：*CVIR Endovascular* (2021)
+- **DOI**：[10.1186/s42155-021-00258-y](https://doi.org/10.1186/s42155-021-00258-y)
+- **文章類型**：New Technologies（case report with technique description）
+
+### 研究背景
+
+- **CFA (common femoral artery)** 是 PAOD 治療中的 **"no stenting zone"**
+  - Surgical endarterectomy 仍是 gold standard：長期 patency 和 limb salvage 優良
+  - 但手術併發症率不低（包括 perioperative death）
+- **Conventional balloon angioplasty** 對 CFA 鈣化病灶效果不佳
+  - Balloon（含 drug-coated balloon）和 atherectomy devices 主要針對 **superficial calcium**
+  - **Deep calcification** 阻擋血管擴張，難以獲得有效的 luminal gain
+- **Atherectomy devices** 併發症率偏高：vessel perforation、distal embolization
+- **Intravascular lithoplasty (IVL)** 可處理 deep calcium，但費用高、可及性有限
+
+### 技術命名由來
+
+> **"Fracking"** 一詞源自石油天然氣產業的 **hydraulic fracturing（水力壓裂）**——利用高壓液體將岩層裂開以釋出油氣。本技術同理，以液壓將動脈壁 deep calcification 從內部裂開。
+
+---
+
+## 2. Fracking Technique 步驟詳解
+
+### 器材準備
+
+| 器材 | 規格 |
+|------|------|
+| Guiding sheath | **6-Fr**（經對側 CFA 建立 crossover system） |
+| Heparin | 5000 IU unfractionated heparin（經 guiding sheath intra-arterially 注射） |
+| Guidewire | 0.014-inch |
+| IVUS catheter | 標準 IVUS |
+| Balloon | 依 IVUS 測量選擇大小（cutting balloon 或 noncompliant balloon） |
+| Puncture needle | **18-gauge needle**（Terumo, Japan），**去除外層塑膠套管** |
+| Syringe | **3.0-ml lock syringe**（確認針尖位置） |
+| Indeflator | Balloon indeflator（裝 **半濃度 contrast agent**） |
+
+### 步驟流程
+
+```text
+步驟 1：建立通路
+  ├── 6-Fr guiding sheath 經對側 CFA (crossover approach)
+  ├── Heparin 5000 IU intra-arterially
+  └── 0.014" guidewire 通過 CFA 鈣化病灶
+
+步驟 2：初步 Balloon Angioplasty
+  ├── IVUS 評估病灶 → 選擇 balloon 大小
+  ├── Balloon dilatation（cutting balloon 或 noncompliant balloon）
+  └── 評估結果：residual stenosis >30% 或 IVUS MLA 不足？
+        ├── 否 → 結束
+        └── 是 → 進入 Fracking Technique ↓
+
+步驟 3：Needle Puncture（鈣化穿刺）
+  ├── 維持 balloon inflation（壓迫病灶 + 預防 dissection 擴展）
+  ├── 18-gauge needle（去除塑膠外套）
+  │   ⚠ 不可用更大的 needle → 液壓會從針孔洩漏
+  └── 穿刺 angiography/IVUS 顯示擴張不足的鈣化區域
+
+步驟 4：確認 Fracking Point
+  ├── 3.0-ml lock syringe 接上 needle
+  ├── 注入 saline 確認針尖位置
+  └── 推不動 plunger → 針尖在 dense calcification 中
+      = "Fracking point" 確認 ✓
+
+步驟 5：Fracking（水力破裂）
+  ├── Balloon indeflator（半濃度 contrast）接上 needle
+  ├── 逐漸增加壓力 → 觀察壓力突然下降 = calcification cracked ✓
+  ├── 通常 <10 atm 即可破裂
+  │   （嚴重鈣化可能需要 up to 30 atm）
+  ├── Contrast 從 fracking point 流入管腔 = 確認 deep calcium 已破裂
+  └── 重複穿刺多個 fracking points 直到：
+      ├── 無法再找到 fracking point，或
+      └── 達到目標 MLA
+
+步驟 6：Post-Fracking Balloon Dilatation
+  ├── 原 balloon 再次擴張
+  │   → 壓縮已破裂的鈣化（grain + pore + crack network）
+  │   → 止血（fracking points 出血）
+  └── 通常 <5 分鐘可止血
+
+步驟 7：最終評估
+  └── IVUS 確認 MLA 達標 → 結束手術
+```
+
+### 關鍵技術要點
+
+> **Pearl 1**：Fracking 時 **必須維持 balloon inflation**——壓迫病灶使其更密實，且預防 dissection 在 fracking 過程中擴展。
+
+> **Pearl 2**：必須使用 **18-gauge needle**，不可用更大的 needle，否則液壓會從針孔與鈣化間的縫隙洩漏，無法有效破裂。
+
+> **Pearl 3**：壓力 **突然下降 (sudden pressure drop)** 是 calcification cracking 的關鍵指標。Contrast 流入管腔則進一步確認 deep calcium 已破裂並與管腔連通。
+
+> **Pearl 4**：FT 從 **外向內 (outer → middle)** 破裂鈣化，與 IVL 從 **內向外 (intimal → medial)** 的方向相反。理論上不改變 superficial calcification 形態，可能降低 distal embolization 風險。
+
+---
+
+## 3. 案例報告
+
+### Case 1：81 歲女性，糖尿病，右小腿間歇性跛行 (claudication)
+
+| 階段 | 處理 | QVA Stenosis | IVUS MLA |
+|------|------|-------------|----------|
+| **Baseline** | — | 94% | **6.2 mm²** (3.9 × 2.2 mm) |
+| **Cutting balloon** | 6.0 × 20 mm cutting balloon | 24% | **10.7 mm²** (6.3 × 2.1 mm) |
+| **PIERCE + NC balloon** | 7.0 × 40 mm noncompliant balloon + PIERCE technique | — | **17.1 mm²** (6.8 × 2.9 mm) |
+| **Fracking** | FT × 3 locations, up to **8 atm** | **16%** | **27.1 mm²** (7.6 × 4.2 mm) |
+
+- **MLA 增幅**：6.2 → 27.1 mm²（**337% 增加**）
+- 無併發症
+
+### Case 2：72 歲男性，血液透析 (hemodialysis)，右下肢靜態缺血疼痛 (rest pain)
+
+| 階段 | 處理 | QVA Stenosis | IVUS MLA |
+|------|------|-------------|----------|
+| **Baseline** | — | 96% | **10.0 mm²** |
+| **NC balloon** | 7.0 × 40 mm noncompliant balloon | 42% | **13.1 mm²** |
+| **PIERCE** | PIERCE technique + NC balloon | — | **15.9 mm²** |
+| **Fracking** | FT × 2 locations, up to **5 atm** | **26%** | **28.9 mm²** |
+
+- **MLA 增幅**：10.0 → 28.9 mm²（**189% 增加**）
+- ABI 術後正常化
+- **2 年追蹤無 restenosis**（無 neointimal hyperplasia）
+- 無 hematoma、無 downstream embolization
+
+---
+
+## 4. 討論與臨床意義
+
+### FT vs. 其他 Plaque Modification 技術
+
+| 技術 | 作用目標 | 作用方向 | 優勢 | 限制 |
+|------|---------|---------|------|------|
+| **Standard balloon** | Superficial plaque | 內→外 | 簡單、便宜 | 無法處理 deep calcium |
+| **Atherectomy** | Superficial calcium | 管腔面 | 可直接切除 | Perforation、distal embolization |
+| **IVL (Shockwave)** | Deep + superficial calcium | 內→外 | 有效處理 deep calcium | 費用高、可及性有限 |
+| **PIERCE** | Calcified plaque | 外→內（穿刺） | 簡單 | 僅穿刺點附近效果 |
+| **Fracking Technique** | **Deep calcium** | **外→中 (outer → middle)** | 液壓擴散、手動控制、低 embolization 風險 | 學習曲線、僅限 infrainguinal |
+
+### 重要觀察
+
+1. **IVUS 影像顯示**：FT 後 superficial calcification 形態未改變，但 MLA 大幅增加 → 證實主要破裂 deep calcification
+2. **理論上較低的 distal embolization 風險**：不改變管腔面 plaque，可能不需 distal protection device
+3. **概念與 IVL 相同**（targeting deep calcium），但使用更簡單的器材（needle + indeflator）
+
+---
+
+## 5. 研究限制
+
+1. **僅限 infrainguinal arteries**（特別是 CFA），不適用於 suprainguinal arteries
+2. **動脈背側鈣化** (dorsal calcification) 難以用 needle 穿刺
+3. **效果取決於鈣化體積和密度**：eccentric calcification 效果優於 concentric
+4. **學習曲線**：需精確穿刺被 balloon 壓迫的鈣化，避免穿破 balloon 或損傷動脈壁
+5. **僅 2 例 case report**：缺乏大規模長期追蹤數據
+6. **無對照組**：無法與 IVL 或 surgical endarterectomy 直接比較
+
+---
+
+## 6. 結論
+
+1. **Fracking technique** 是處理 CFA 鈣化病灶的有效選擇，當傳統 balloon angioplasty 無法達到滿意結果時可考慮使用
+2. 使用簡單器材（18-gauge needle + balloon indeflator）即可達到類似 IVL 的 deep calcium modification 效果
+3. 兩例患者均無併發症，且一例追蹤 2 年無 restenosis
+4. 需要大規模前瞻性研究比較 FT 與傳統 balloon angioplasty 的長期 patency
+
+---
+
+## 參考文獻
+
+1. Bonvini RF, Rastan A, Sixt S, et al. Endovascular treatment of common femoral artery disease: medium-term outcomes of 360 consecutive procedures. [*J Am Coll Cardiol*. 2011;58(8):792-798.](https://doi.org/10.1016/j.jacc.2011.01.070)
+
+2. Brodmann M, Schwindt A, Argyriou A, Gammon R. Safety and feasibility of intravascular lithotripsy for treatment of common femoral artery stenoses. [*J Endovasc Ther*. 2019;26(3):283-287.](https://doi.org/10.1177/1526602819844998)
+
+3. Dini CS, Tomberli B, Mattesini A, et al. Intravascular lithotripsy for calcific coronary and peripheral artery stenoses. [*EuroIntervention*. 2019;15(8):714-721.](https://doi.org/10.4244/eij-d-18-01056)
+
+4. Finn MT, Ingrassia JJ, Parikh SA. Plaque modification in endovascular procedures in patients with infrainguinal disease. [*Interv Cardiol Clin*. 2020;9(2):125-137.](https://doi.org/10.1016/j.iccl.2019.12.004)
+
+5. Ichihashi S, Sato T, Iwakoshi S, Itoh H, Kichikawa K. Technique of percutaneous direct needle puncture of calcified plaque in the superficial femoral artery or tibial artery to facilitate balloon catheter passage and balloon dilation of calcified lesions. [*J Vasc Interv Radiol*. 2014;25(5):784-788.](https://doi.org/10.1016/j.jvir.2014.01.016)
+
+6. Nguyen BN, Amdur RL, Abugideiri M, Rahbar R, Neville RF, Sidawy AN. Postoperative complications after common femoral endarterectomy. [*J Vasc Surg*. 2015;61(6):1489-1494.](https://doi.org/10.1016/j.jvs.2015.01.024)
+
+7. Reekers JA, Sprangers RL, van de Kley AJ. Angioplasty after laser perforation. [*Cardiovasc Intervent Radiol*. 1991;14(2):113-114.](https://doi.org/10.1007/BF02577707)
+
+---
+
+*本文件僅供醫療專業人員教學參考，臨床決策請結合個案情況。*
