@@ -86,6 +86,7 @@ website:
             - handouts/04-valvular-disease/teer-atrial-fmr-abstract/index.qmd
             - handouts/04-valvular-disease/teer-checklists/index.qmd
             - handouts/04-valvular-disease/teer-checklists-tee/index.qmd
+            - handouts/04-valvular-disease/recovery-trial-10yr-avr/index.qmd
             - handouts/04-valvular-disease/teer-pcronline-top-10-tricuspid-intervention-2025/index.qmd
         - section: "心臟影像 Imaging"
           contents:
@@ -142,6 +143,7 @@ website:
         - section: "介入心臟學 Interventional"
           contents:
             - handouts/06-interventional-cardiology/index.qmd
+            - handouts/06-interventional-cardiology/champion-af-laao-vs-noacs/index.qmd
             - handouts/06-interventional-cardiology/book-6-cag-procedure-and-interpret-eng/index.qmd
             - handouts/06-interventional-cardiology/book-61-cag-a-set-up/index.qmd
             - handouts/06-interventional-cardiology/book-62-cag-b-interpretation/index.qmd
@@ -198,6 +200,7 @@ website:
         - section: "周邊血管 Peripheral Vascular"
           contents:
             - handouts/07-peripheral-vascular/index.qmd
+            - handouts/07-peripheral-vascular/cfa-fracking-technique/index.qmd
             - handouts/07-peripheral-vascular/advanced-materials-carotid-artery-chip-3d-printing-2026/index.qmd
             - handouts/07-peripheral-vascular/book-carotid-stenting/index.qmd
             - handouts/07-peripheral-vascular/carotid-stenting-review/index.qmd

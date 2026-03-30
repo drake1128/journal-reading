@@ -1,4 +1,12 @@
-# Early Surgery or Conservative Care for Asymptomatic Aortic Stenosis at 10 Years — RECOVERY Trial 十年最終結果
+---
+title: "RECOVERY Trial 無症狀嚴重主動脈瓣狹窄早期手術十年追蹤"
+author: "謝慕揚 MD, PhD, FESC"
+date: 2026-03-28
+lang: zh-TW
+toc: true
+toc-depth: 3
+number-sections: true
+---
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-03-28**

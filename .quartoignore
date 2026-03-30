@@ -1,5 +1,7 @@
 *.pptx
 *.html
+*_Marp_files/
+*_files/
 _pdf_text*
 _*.py
 _*.csv
