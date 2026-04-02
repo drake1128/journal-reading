@@ -6,13 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository creates bilingual (Traditional Chinese with English medical terminology) educational documents from medical literature. Documents are prepared for 謝慕揚醫師 (Drake) MD, PhD, FESC.
 
-**Primary format: Markdown** (`.md`) — can be converted to PPTX via Marp, PDF via Pandoc/Quarto, or LaTeX as needed.
+**Primary format: Markdown** (`.md`) — can be converted to PDF via Marp, Pandoc/Quarto, or LaTeX as needed.
 
 ## Output Format Strategy
 
 ```
 Markdown (.md)  ← PRIMARY source format
-    ├── Marp    → PowerPoint (.pptx)   投影片簡報
+    ├── Marp    → PDF (.pdf)            投影片簡報
     ├── Pandoc  → PDF (.pdf)           列印講義
     ├── Quarto  → Website (.html)      線上教材
     └── Pandoc  → LaTeX (.tex)         需要時才轉換
@@ -26,23 +26,21 @@ Markdown (.md)  ← PRIMARY source format
 
 ## Output Requirements
 
-For each handout, generate **two files**:
+For each handout, generate the following files:
 1. **Handout `.md`** — Complete teaching document (long-form Markdown)
 2. **Marp `.md`** — Presentation slides (Marp-formatted Markdown), filename ends with `_Marp.md`
-3. **`.pptx`** — Compiled PowerPoint via Marp CLI
-4. **Rename original PDF** — Rename source article PDF to meaningful filename
+3. **`.pdf`** — Compiled PDF via Marp CLI
+4. **Delete original PDF** — Remove the source article PDF after processing
 
 ### Build Commands
 
 ```bash
-# Generate PPTX from Marp Markdown
-marp --no-stdin "Filename_Marp.md" --pptx -o "Filename.pptx" --allow-local-files
-
 # Generate PDF from Marp Markdown
 marp --no-stdin "Filename_Marp.md" --pdf -o "Filename.pdf" --allow-local-files
 ```
 
 **Note:** Always use `--no-stdin` flag to prevent Marp from hanging on stdin.
+**Note:** Do NOT generate PPTX — PDF is the only compiled output format.
 
 ### Legacy LaTeX (when explicitly requested)
 
@@ -365,26 +363,27 @@ handouts/
 
 After successfully creating handout files:
 
-1. **Generate outputs** — Run Marp to create `.pptx` (and `.pdf` if needed)
-2. **Move to topic folder** — Place all files in appropriate `handouts/` subfolder
-3. **Rename original PDF** — Use meaningful filename
+1. **Delete original PDF** — Remove the source article PDF from the repository root
+2. **Generate PDF** — Run Marp to create `.pdf`
+3. **Move to topic folder** — Place all files in appropriate `handouts/` subfolder
 
 ### File Naming Convention
 - Handout: `Topic Name 教學講義.md` (e.g., `Esmolol 在重症加護的應用 教學講義.md`)
 - Marp slides: `Topic_Name_Marp.md` (e.g., `Esmolol_ICU_Teaching_Marp.md`)
-- PPTX output: `Topic_Name.pptx` (e.g., `Esmolol_ICU_Teaching.pptx`)
-- Original article: `Journal_Topic_Year_original.pdf`
+- PDF output: `Topic_Name.pdf` (e.g., `Esmolol_ICU_Teaching.pdf`)
 
 ### Example Workflow
 ```bash
-# Generate PPTX
-marp --no-stdin "Esmolol_ICU_Teaching_Marp.md" --pptx -o "Esmolol_ICU_Teaching.pptx" --allow-local-files
+# Delete original PDF
+rm "NEJMoa_original.pdf"
+
+# Generate PDF
+marp --no-stdin "Esmolol_ICU_Teaching_Marp.md" --pdf -o "Esmolol_ICU_Teaching.pdf" --allow-local-files
 
 # Move to topic folder
-cp "Esmolol 在重症加護的應用 教學講義.md" "handouts/10_ICU_一般照護/"
-cp "Esmolol_ICU_Teaching_Marp.md" "handouts/10_ICU_一般照護/"
-cp "Esmolol_ICU_Teaching.pptx" "handouts/10_ICU_一般照護/"
-cp "Esmolol_ICU_Application_2026_original.pdf" "handouts/10_ICU_一般照護/"
+mv "Esmolol 在重症加護的應用 教學講義.md" "handouts/10_ICU_一般照護/"
+mv "Esmolol_ICU_Teaching_Marp.md" "handouts/10_ICU_一般照護/"
+mv "Esmolol_ICU_Teaching.pdf" "handouts/10_ICU_一般照護/"
 ```
 
 ## Trigger Keywords
