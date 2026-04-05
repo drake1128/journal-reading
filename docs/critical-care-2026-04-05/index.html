@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重症醫學雙週文獻回顧 | Critical Care Bi-Weekly Review | 2026-03-22 至 2026-04-05</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+/* === RESET & BASE === */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* === VIEWPORT BASE (mandatory) === */
+html, body { height: 100%; overflow-x: hidden; }
+html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+.slide { width: 100vw; height: 100vh; height: 100dvh; overflow: hidden; scroll-snap-align: start; display: flex; flex-direction: column; position: relative; }
+.slide-content { flex: 1; display: flex; flex-direction: column; justify-content: center; max-height: 100%; overflow: hidden; padding: var(--slide-padding); }
+:root {
+    --title-size: clamp(1.5rem, 5vw, 4rem);
+    --h2-size: clamp(1.25rem, 3.5vw, 2.5rem);
+    --h3-size: clamp(1rem, 2.5vw, 1.75rem);
+    --body-size: clamp(0.75rem, 1.5vw, 1.125rem);
+    --small-size: clamp(0.65rem, 1vw, 0.875rem);
+    --slide-padding: clamp(1rem, 4vw, 4rem);
+    --content-gap: clamp(0.5rem, 2vw, 2rem);
+    --element-gap: clamp(0.25rem, 1vw, 1rem);
+    --cream: #faf9f7;
+    --charcoal: #1a1a1a;
+    --crimson: #c41e3a;
+    --secondary: #555;
+    --muted: #999;
+    --warm-tint: #fdf8f4;
+    --table-alt: #f9f6f2;
+}
+.card, .container, .content-box { max-width: min(90vw, 1000px); max-height: min(80vh, 700px); }
+.feature-list, .bullet-list { gap: clamp(0.4rem, 1vh, 1rem); }
+.feature-list li, .bullet-list li { font-size: var(--body-size); line-height: 1.4; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: clamp(0.5rem, 1.5vw, 1rem); }
+img, .image-container { max-width: 100%; max-height: min(50vh, 400px); object-fit: contain; }
+@media (max-height: 700px) { :root { --slide-padding: clamp(0.75rem, 3vw, 2rem); --content-gap: clamp(0.4rem, 1.5vw, 1rem); --title-size: clamp(1.25rem, 4.5vw, 2.5rem); --h2-size: clamp(1rem, 3vw, 1.75rem); } }
+@media (max-height: 600px) { :root { --slide-padding: clamp(0.5rem, 2.5vw, 1.5rem); --content-gap: clamp(0.3rem, 1vw, 0.75rem); --title-size: clamp(1.1rem, 4vw, 2rem); --body-size: clamp(0.7rem, 1.2vw, 0.95rem); } .nav-dots, .keyboard-hint, .decorative { display: none; } }
+@media (max-height: 500px) { :root { --slide-padding: clamp(0.4rem, 2vw, 1rem); --title-size: clamp(1rem, 3.5vw, 1.5rem); --h2-size: clamp(0.9rem, 2.5vw, 1.25rem); --body-size: clamp(0.65rem, 1vw, 0.85rem); } }
+@media (max-width: 600px) { :root { --title-size: clamp(1.25rem, 7vw, 2.5rem); } .grid { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.2s !important; } html { scroll-behavior: auto; } }
+
+/* === TYPOGRAPHY === */
+body {
+    font-family: 'Source Serif 4', 'Georgia', serif;
+    color: var(--charcoal);
+    background: var(--cream);
+    font-size: var(--body-size);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: 'Cormorant Garamond', 'Georgia', serif; }
+h1 { font-size: var(--title-size); font-weight: 700; color: var(--charcoal); line-height: 1.15; }
+h2 { font-size: var(--h2-size); font-weight: 600; color: var(--charcoal); line-height: 1.25; }
+h3 { font-size: var(--h3-size); font-weight: 600; color: var(--secondary); line-height: 1.3; }
+
+/* === SLIDE STYLES === */
+.slide { background-color: var(--cream); }
+
+/* === TITLE SLIDE === */
+.slide-title { background-color: var(--cream); }
+.slide-title .slide-content {
+    align-items: flex-start;
+    padding-left: clamp(3rem, 8vw, 8rem);
+    padding-right: clamp(2rem, 6vw, 6rem);
+    position: relative;
+}
+.title-accent-bar {
+    position: absolute;
+    left: clamp(1.5rem, 4vw, 4rem);
+    top: 15%;
+    bottom: 15%;
+    width: clamp(3px, 0.3vw, 5px);
+    background-color: var(--crimson);
+}
+.title-drop-cap {
+    position: absolute;
+    right: clamp(2rem, 6vw, 8rem);
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(8rem, 20vw, 20rem);
+    font-weight: 700;
+    color: var(--crimson);
+    opacity: 0.06;
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+}
+.title-overline {
+    font-family: 'Source Serif 4', serif;
+    font-size: var(--small-size);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    margin-bottom: var(--element-gap);
+}
+.title-hr {
+    width: clamp(3rem, 8vw, 6rem);
+    height: 1px;
+    background-color: var(--muted);
+    border: none;
+    margin: var(--element-gap) 0;
+}
+.title-subtitle {
+    font-family: 'Source Serif 4', serif;
+    font-size: var(--body-size);
+    color: var(--secondary);
+    margin-top: var(--element-gap);
+    line-height: 1.5;
+}
+.title-author {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: var(--body-size);
+    color: var(--muted);
+    margin-top: var(--content-gap);
+}
+
+/* === SECTION DIVIDER === */
+.slide-divider {
+    background-color: var(--crimson);
+}
+.slide-divider .slide-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slide-divider h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: var(--h2-size);
+    color: rgba(255,255,255,0.85);
+    font-weight: 400;
+    margin-bottom: var(--element-gap);
+}
+.slide-divider h1 {
+    color: #ffffff;
+    font-size: var(--title-size);
+    font-weight: 700;
+}
+.divider-line {
+    width: clamp(2rem, 6vw, 5rem);
+    height: 2px;
+    background-color: rgba(255,255,255,0.4);
+    margin: var(--element-gap) auto;
+}
+
+/* === CONTENT SLIDES === */
+.slide-content-type .slide-content {
+    padding-left: clamp(2.5rem, 6vw, 6rem);
+    position: relative;
+}
+.content-accent {
+    position: absolute;
+    left: clamp(1.2rem, 3vw, 3rem);
+    top: 12%;
+    bottom: 12%;
+    width: 2px;
+    background-color: var(--crimson);
+    opacity: 0.3;
+}
+.slide-heading {
+    margin-bottom: var(--element-gap);
+}
+.slide-heading h2 {
+    color: var(--charcoal);
+    font-weight: 700;
+}
+.slide-heading .source {
+    font-family: 'Source Serif 4', serif;
+    font-size: var(--small-size);
+    color: var(--muted);
+    margin-top: clamp(0.1rem, 0.3vw, 0.3rem);
+}
+
+/* === TABLES === */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--small-size);
+    line-height: 1.4;
+}
+th {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    text-align: left;
+    padding: clamp(0.2rem, 0.5vw, 0.5rem) clamp(0.3rem, 0.8vw, 0.8rem);
+    border-bottom: 2px solid var(--charcoal);
+    color: var(--charcoal);
+    font-size: clamp(0.7rem, 1.2vw, 1rem);
+}
+td {
+    padding: clamp(0.15rem, 0.4vw, 0.4rem) clamp(0.3rem, 0.8vw, 0.8rem);
+    border-bottom: 1px solid #e8e4e0;
+    vertical-align: top;
+}
+tr:nth-child(even) td { background-color: var(--table-alt); }
+
+/* === PEARL / PULL QUOTE === */
+.pearl {
+    border-left: 3px solid var(--crimson);
+    background-color: var(--warm-tint);
+    padding: clamp(0.4rem, 1vw, 0.8rem) clamp(0.6rem, 1.2vw, 1.2rem);
+    margin-top: var(--element-gap);
+    font-size: var(--small-size);
+    line-height: 1.5;
+}
+.pearl strong { color: var(--crimson); }
+
+/* === BULLET LIST === */
+.content-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.3rem, 0.8vh, 0.7rem);
+}
+.content-list li {
+    font-size: var(--body-size);
+    line-height: 1.45;
+    padding-left: 1.2em;
+    position: relative;
+}
+.content-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--crimson);
+}
+.content-list li strong { color: var(--crimson); }
+
+/* === OUTLINE GRID === */
+.outline-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    gap: var(--content-gap);
+    margin-top: var(--content-gap);
+}
+.outline-item {
+    text-align: center;
+}
+.outline-icon {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    margin-bottom: clamp(0.2rem, 0.5vw, 0.5rem);
+}
+.outline-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: var(--body-size);
+    color: var(--charcoal);
+}
+.outline-sub {
+    font-size: var(--small-size);
+    color: var(--muted);
+}
+
+/* === COMPACT TABLE SLIDE === */
+.compact-table table { font-size: clamp(0.55rem, 0.9vw, 0.8rem); }
+.compact-table th { font-size: clamp(0.6rem, 1vw, 0.85rem); padding: clamp(0.15rem, 0.3vw, 0.35rem) clamp(0.2rem, 0.5vw, 0.6rem); }
+.compact-table td { padding: clamp(0.1rem, 0.25vw, 0.3rem) clamp(0.2rem, 0.5vw, 0.6rem); }
+
+/* === TAKEAWAY === */
+.takeaway-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.3rem, 0.8vh, 0.8rem);
+    counter-reset: takeaway;
+}
+.takeaway-list li {
+    counter-increment: takeaway;
+    display: flex;
+    align-items: flex-start;
+    gap: clamp(0.4rem, 0.8vw, 0.8rem);
+    font-size: var(--body-size);
+    line-height: 1.45;
+}
+.takeaway-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: var(--crimson);
+    min-width: 1.5em;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* === REFERENCES === */
+.ref-list {
+    font-size: clamp(0.5rem, 0.75vw, 0.7rem);
+    line-height: 1.55;
+    columns: 1;
+    column-gap: clamp(1rem, 2vw, 2rem);
+}
+@media (min-width: 800px) { .ref-list { columns: 2; } }
+.ref-list li {
+    margin-bottom: clamp(0.1rem, 0.2vw, 0.25rem);
+    break-inside: avoid;
+}
+.ref-list a {
+    color: var(--crimson);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--crimson);
+    transition: opacity 0.2s ease;
+}
+.ref-list a:hover {
+    opacity: 0.7;
+}
+
+/* === END SLIDE === */
+.slide-end { background-color: var(--cream); }
+.slide-end .slide-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.end-thankyou {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: var(--title-size);
+    font-weight: 700;
+    color: var(--charcoal);
+}
+.end-chinese {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: var(--h2-size);
+    color: var(--secondary);
+    margin-top: var(--element-gap);
+}
+.end-qa {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: var(--h3-size);
+    color: var(--muted);
+    margin-top: var(--content-gap);
+}
+.end-author {
+    font-family: 'Source Serif 4', serif;
+    font-size: var(--body-size);
+    color: var(--muted);
+    margin-top: var(--content-gap);
+    letter-spacing: 0.1em;
+}
+.end-hr {
+    width: clamp(3rem, 8vw, 6rem);
+    height: 1px;
+    background-color: var(--crimson);
+    border: none;
+    margin: var(--content-gap) auto;
+}
+
+/* === DROP CAP for section openers === */
+.drop-cap::first-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 700;
+    color: var(--crimson);
+    float: left;
+    line-height: 0.8;
+    margin-right: 0.1em;
+    margin-top: 0.05em;
+}
+
+/* === PROGRESS BAR === */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background-color: var(--crimson);
+    z-index: 1000;
+    transition: width 0.3s ease;
+    width: 0%;
+}
+
+/* === NAV DOTS === */
+.nav-dots {
+    position: fixed;
+    right: clamp(0.5rem, 1.5vw, 1.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(4px, 0.5vh, 8px);
+    z-index: 1000;
+}
+.nav-dot {
+    width: clamp(6px, 0.6vw, 8px);
+    height: clamp(6px, 0.6vw, 8px);
+    border-radius: 50%;
+    background-color: var(--muted);
+    opacity: 0.3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    padding: 0;
+}
+.nav-dot.active {
+    background-color: var(--crimson);
+    opacity: 1;
+    transform: scale(1.3);
+}
+.nav-dot:hover { opacity: 0.7; }
+
+/* === SLIDE COUNTER === */
+#slide-counter {
+    position: fixed;
+    bottom: clamp(0.5rem, 1.5vw, 1.5rem);
+    right: clamp(0.8rem, 2vw, 2rem);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: var(--small-size);
+    color: var(--muted);
+    z-index: 1000;
+}
+
+/* === ANIMATIONS === */
+.reveal {
+    opacity: 0;
+    transform: translateY(clamp(10px, 2vh, 20px));
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+/* === KEYBOARD HINT === */
+.keyboard-hint {
+    position: fixed;
+    bottom: clamp(0.5rem, 1.5vw, 1.5rem);
+    left: clamp(0.8rem, 2vw, 2rem);
+    font-family: 'Source Serif 4', serif;
+    font-size: clamp(0.55rem, 0.7vw, 0.7rem);
+    color: var(--muted);
+    opacity: 0.5;
+    z-index: 1000;
+}
+
+/* === TWO COLUMN LAYOUT === */
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--content-gap);
+}
+@media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+
+/* === INLINE STRONG COLOR === */
+.content-area strong { color: var(--crimson); }
+</style>
+</head>
+<body>
+
+<!-- Progress Bar -->
+<div id="progress-bar"></div>
+
+<!-- Nav Dots -->
+<nav class="nav-dots" id="nav-dots"></nav>
+
+<!-- Slide Counter -->
+<div id="slide-counter">1 / 28</div>
+
+<!-- Keyboard Hint -->
+<div class="keyboard-hint">方向鍵 &middot; 空白鍵 &middot; 滑動</div>
+
+<!-- SLIDE 1: Title -->
+<section class="slide slide-title" data-slide="1">
+    <div class="title-accent-bar"></div>
+    <div class="title-drop-cap decorative">CC</div>
+    <div class="slide-content">
+        <div class="reveal">
+            <hr class="title-hr">
+            <div class="title-overline">雙週文獻回顧 (Bi-Weekly Literature Review)</div>
+        </div>
+        <h1 class="reveal reveal-delay-1">重症醫學文獻回顧</h1>
+        <div class="reveal reveal-delay-2">
+            <div class="title-subtitle">SSC 2026 敗血症指引 (SSC 2026 Guidelines) &middot; ARDS 緩解定義 (ARDS Resolution) &middot; 頑固性敗血性休克 (Refractory Septic Shock)</div>
+            <div class="title-subtitle" style="color: var(--muted); font-size: var(--small-size);">2026 年 3 月 22 日 至 4 月 5 日</div>
+        </div>
+        <div class="reveal reveal-delay-3">
+            <div class="title-author">&mdash; 謝慕揚 MD, PhD, FESC</div>
+        </div>
+        <hr class="title-hr reveal reveal-delay-4">
+    </div>
+</section>
+
+<!-- SLIDE 2: Outline -->
+<section class="slide slide-content-type" data-slide="2">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>大綱 (Outline)</h2>
+        </div>
+        <div class="outline-grid">
+            <div class="outline-item reveal reveal-delay-1">
+                <div class="outline-icon">&#x1F52C;</div>
+                <div class="outline-label">敗血症</div>
+                <div class="outline-sub">SSC 2026 &middot; 頑固性休克</div>
+            </div>
+            <div class="outline-item reveal reveal-delay-1">
+                <div class="outline-icon">&#x1FAC1;</div>
+                <div class="outline-label">ARDS 呼吸治療</div>
+                <div class="outline-sub">緩解定義 &middot; HFNC &middot; 呼吸器</div>
+            </div>
+            <div class="outline-item reveal reveal-delay-2">
+                <div class="outline-icon">&#x1F9A0;</div>
+                <div class="outline-label">ICU 感染</div>
+                <div class="outline-sub">tNGS &middot; 吸入式抗生素</div>
+            </div>
+            <div class="outline-item reveal reveal-delay-2">
+                <div class="outline-icon">&#x2764;&#xFE0F;</div>
+                <div class="outline-label">ECMO 血行動力學</div>
+                <div class="outline-sub">出血 &middot; 心因性休克</div>
+            </div>
+            <div class="outline-item reveal reveal-delay-3">
+                <div class="outline-icon">&#x26A1;</div>
+                <div class="outline-label">心肺復甦</div>
+                <div class="outline-sub">溺水 &middot; 兒童 &middot; AI</div>
+            </div>
+            <div class="outline-item reveal reveal-delay-3">
+                <div class="outline-icon">&#x1F9EA;</div>
+                <div class="outline-label">急性腎損傷</div>
+                <div class="outline-sub">CRRT &middot; 生物標記</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 3: Section Divider — Sepsis -->
+<section class="slide slide-divider" data-slide="3">
+    <div class="slide-content">
+        <h2 class="reveal">第一部分</h2>
+        <div class="divider-line reveal reveal-delay-1"></div>
+        <h1 class="reveal reveal-delay-2">敗血症指引與定義</h1>
+    </div>
+</section>
+
+<!-- SLIDE 4: SSC 2026 — Adult -->
+<section class="slide slide-content-type" data-slide="4">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>SSC 2026 敗血症指引 &mdash; 成人</h2>
+            <div class="source">Prescott HC et al. &middot; <em>Crit Care Med</em> + <em>Intensive Care Med</em> 2026</div>
+        </div>
+        <p class="reveal reveal-delay-1 drop-cap" style="font-size: var(--body-size); margin-bottom: var(--element-gap);">近年最重要的 ICU 指引更新。由 SCCM / ESICM 聯合發表，歷經多年證據彙整的最終成果。</p>
+        <table class="reveal reveal-delay-2">
+            <thead>
+                <tr><th>類別</th><th>內容說明</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>強烈建議 (Strong)</strong></td><td>早期抗生素使用 (early antibiotics)、乳酸導向復甦 (lactate-guided resuscitation)、低潮氣量通氣 (low-tidal-volume ventilation)、中重度 ARDS 俯臥位 (prone positioning)</td></tr>
+                <tr><td><strong>條件式建議 (Conditional)</strong></td><td>平衡晶體液優於生理食鹽水 (balanced crystalloids)、敗血性休克使用白蛋白 (albumin)、頑固性休克使用類固醇 (corticosteroids)、維生素 C &mdash; 證據不足</td></tr>
+                <tr><td><strong>新增主題 (New)</strong></td><td>個人化輸液管理 (personalized fluid management)、降階策略 (de-escalation)、長期預後與存活照護 (survivorship)、遠距醫療 (telehealth)</td></tr>
+            </tbody>
+        </table>
+        <div class="pearl reveal reveal-delay-3">
+            <strong>Pearl:</strong> 本版指引強調個人化醫療 (personalized medicine) 與降階策略 (de-escalation) &mdash; 從「一體適用 (one-size-fits-all bundles)」轉向個體化治療
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 5: SSC 2026 — Pediatric -->
+<section class="slide slide-content-type" data-slide="5">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>SSC 2026 敗血症指引 &mdash; 兒童</h2>
+            <div class="source">Weiss SL et al. &middot; <em>Intensive Care Med</em> 2026</div>
+        </div>
+        <ul class="content-list reveal reveal-delay-1">
+            <li>全球 <strong>68 位專家</strong>、來自 <strong>13 個國際組織</strong></li>
+            <li>涵蓋兒童敗血症 (pediatric sepsis) 與敗血性休克 (septic shock) 的完整證據回顧</li>
+        </ul>
+        <table class="reveal reveal-delay-2" style="margin-top: var(--element-gap);">
+            <thead>
+                <tr><th>建議類型</th><th>數量</th><th>說明</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>強烈建議</td><td><strong>5</strong></td><td>核心介入措施</td></tr>
+                <tr><td>條件式建議</td><td><strong>24</strong></td><td>依臨床情境而定</td></tr>
+                <tr><td>良好臨床實踐聲明</td><td><strong>10</strong></td><td>專家共識</td></tr>
+                <tr><td>延續自 2020 版</td><td><strong>22</strong></td><td>來自 2020 年指引</td></tr>
+                <tr><td>全新建議</td><td><strong>20</strong></td><td>新證據支持</td></tr>
+            </tbody>
+        </table>
+        <div class="pearl reveal reveal-delay-3">
+            <strong>Pearl:</strong> 新增 20 條建議 &mdash; 反映近五年兒童敗血症研究 (pediatric sepsis research) 的快速進展
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 6: Refractory Septic Shock Definition -->
+<section class="slide slide-content-type" data-slide="6">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>頑固性敗血性休克 (Refractory Septic Shock) &mdash; 首次臨床定義</h2>
+            <div class="source">Leone M et al. &middot; <em>Crit Care Med</em> 2026 &mdash; SCCM / ESICM 聯合 Delphi 共識</div>
+        </div>
+        <p class="reveal reveal-delay-1 drop-cap" style="font-size: var(--body-size); margin-bottom: var(--element-gap);">首次透過 SCCM 與 ESICM 專家的 modified Delphi 共識方法，建立頑固性敗血性休克 (refractory septic shock) 的臨床診斷標準。</p>
+        <div class="reveal reveal-delay-2" style="margin-top: var(--element-gap);">
+            <h3 style="margin-bottom: var(--element-gap);">核心概念</h3>
+            <ul class="content-list">
+                <li>儘管充分容積復甦 (volume resuscitation)，仍<strong>持續血行動力學不穩定 (hemodynamic instability)</strong></li>
+                <li>需<strong>高劑量升壓劑 (vasopressor)</strong>（如 norepinephrine &ge; 0.5 &mu;g/kg/min 或等效劑量）</li>
+                <li><strong>持續進展的器官功能障礙 (organ dysfunction)</strong>（乳酸上升、SOFA 惡化），治療 &ge; 6 小時仍未改善</li>
+            </ul>
+        </div>
+        <div class="pearl reveal reveal-delay-3">
+            <strong>Pearl:</strong> 統一定義將有助未來臨床試驗的收案標準 (enrollment criteria) &mdash; 讓頑固性休克 (refractory shock) 研究結果更具可比性
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 7: Sepsis Biomarkers & Outcomes -->
+<section class="slide slide-content-type compact-table" data-slide="7">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>敗血症生物標記與預後 (Biomarkers &amp; Outcomes)</h2>
+        </div>
+        <table class="reveal reveal-delay-1">
+            <thead>
+                <tr><th>生物標記 / 主題</th><th>作者</th><th>期刊</th><th>重要發現</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>NLR</strong> (Neutrophil-to-Lymphocyte Ratio)</td><td>Lafon T et al.</td><td><em>ICM</em></td><td>動態 NLR 軌跡可預測 28 天死亡率 (28-day mortality)；連續測量優於單次數值</td></tr>
+                <tr><td><strong>DPP3</strong> (Dipeptidyl Peptidase 3)</td><td>van Lier D et al.</td><td><em>Crit Care</em></td><td>DPP3 升高與心臟功能障礙 (cardiac dysfunction) 及升壓劑依賴 (vasopressor dependence) 相關</td></tr>
+                <tr><td><strong>Proenkephalin A</strong></td><td>Arlt J et al.</td><td><em>Crit Care</em></td><td>腎臟壓力 (renal stress) 的早期標記；可在肌酐 (creatinine) 上升前預測急性腎損傷 (AKI)</td></tr>
+                <tr><td><strong>Vitamin D</strong></td><td>Han JE et al.</td><td><em>Crit Care</em></td><td>嚴重缺乏 (&lt;10 ng/mL) 與延長 ICU 住院日相關</td></tr>
+                <tr><td><strong>精神疾病共病</strong></td><td>Wetterberg H et al.</td><td><em>CCM</em></td><td>ICU 存活者：敗血症後 12 個月內 30% 發生 PTSD、25% 發生憂鬱症 (depression)</td></tr>
+            </tbody>
+        </table>
+        <div class="pearl reveal reveal-delay-2">
+            <strong>Pearl:</strong> 生物標記組合 (Biomarker panels)（NLR + DPP3 + penKID）可能比單一指標更精準地指導治療決策
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 8: Section Divider — ARDS -->
+<section class="slide slide-divider" data-slide="8">
+    <div class="slide-content">
+        <h2 class="reveal">第二部分</h2>
+        <div class="divider-line reveal reveal-delay-1"></div>
+        <h1 class="reveal reveal-delay-2">ARDS 與呼吸治療</h1>
+    </div>
+</section>
+
+<!-- SLIDE 9: ARDS Resolution Definition -->
+<section class="slide slide-content-type" data-slide="9">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>ARDS 緩解定義 &mdash; 首次共識 (First Consensus Definition)</h2>
+            <div class="source">Weir TE, Fan E, Goligher EC &middot; <em>Crit Care Med</em> 2026</div>
+        </div>
+        <p class="reveal reveal-delay-1 drop-cap" style="font-size: var(--body-size); margin-bottom: var(--element-gap);">透過三輪 modified Delphi 流程，首次建立國際公認的 ARDS 緩解 (ARDS resolution) 定義 &mdash; 填補臨床試驗終點 (endpoint) 設計的關鍵缺口。</p>
+        <div class="reveal reveal-delay-2" style="margin-top: var(--element-gap);">
+            <h3 style="margin-bottom: var(--element-gap);">核心要素</h3>
+            <ul class="content-list">
+                <li><strong>氧合改善 (Oxygenation improvement)：</strong>PaO<sub>2</sub>/FiO<sub>2</sub> &gt; 300 mmHg 或等效 SpO<sub>2</sub>/FiO<sub>2</sub>，穩定設定下維持 &ge; 24 小時</li>
+                <li><strong>影像改善 (Radiographic clearing)：</strong>雙側浸潤改善（不需完全消除）</li>
+                <li><strong>脫離呼吸器 (Ventilator liberation)：</strong>成功拔管或持續降至最低呼吸器支持</li>
+            </ul>
+        </div>
+        <div class="pearl reveal reveal-delay-3">
+            <strong>Pearl:</strong> 此定義將統一 ARDS 臨床試驗的主要終點 (primary endpoint) &mdash; 從「僅限死亡率 (mortality only)」擴展至「緩解為基礎的結果 (resolution-based outcomes)」
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 10: HFNC vs Helmet CPAP -->
+<section class="slide slide-content-type" data-slide="10">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>經鼻高流量氧療 (HFNC) vs 頭盔式 CPAP</h2>
+            <div class="source">Coppola S et al. &middot; <em>Crit Care Med</em> 2026 &middot; 交叉研究 (Crossover), n = 33</div>
+        </div>
+        <table class="reveal reveal-delay-1">
+            <thead>
+                <tr><th>參數</th><th>HFNC 60 L/min</th><th>Helmet CPAP 10 cmH<sub>2</sub>O</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>PaO<sub>2</sub>/FiO<sub>2</sub></td><td>較基線改善</td><td><strong>氧合效果最佳</strong></td></tr>
+                <tr><td>呼吸功 (Work of breathing)</td><td>降低</td><td>降低</td></tr>
+                <tr><td>病患舒適度</td><td>較高</td><td>中等</td></tr>
+                <tr><td>肺部均勻性</td><td>不一致</td><td>較均勻的肺泡再擴張 (recruitment)</td></tr>
+                <tr><td>CO<sub>2</sub> 清除</td><td>較佳</td><td>足夠</td></tr>
+            </tbody>
+        </table>
+        <div class="pearl reveal reveal-delay-2">
+            <strong>Pearl:</strong> 頭盔式 CPAP 10 cmH<sub>2</sub>O 提供最佳氧合改善；兩者皆有效降低呼吸功 (work of breathing) &mdash; 可依臨床情境選擇
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 11: Ventilation Updates -->
+<section class="slide slide-content-type" data-slide="11">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>呼吸器治療更新 (Ventilation Updates)</h2>
+        </div>
+        <ul class="content-list">
+            <li class="reveal reveal-delay-1"><strong>RELAx Bayesian Re-analysis</strong> (Caroli A et al., <em>CCM</em>)<br>
+                <span style="color: var(--secondary);">較低氧氣目標 (PaO<sub>2</sub> 55&ndash;70 mmHg) 在呼吸器脫離天數 (ventilator-free days) 上有 &gt; 95% 獲益機率；支持保守氧氣策略 (conservative O<sub>2</sub> strategy)</span>
+            </li>
+            <li class="reveal reveal-delay-2"><strong>性別特異性潮氣量 (Sex-Specific Tidal Volume)</strong> (Urner M et al., <em>CCM</em>)<br>
+                <span style="color: var(--secondary);">女性接受較高 Vt/PBW；女性性別為肺損傷性通氣模式 (lung-injurious ventilation) 的獨立相關因子</span>
+            </li>
+            <li class="reveal reveal-delay-3"><strong>&ldquo;Respiratory Envelope&rdquo; 架構</strong> (Meuwese S et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">整合機械功率 (mechanical power)、驅動壓 (driving pressure) 和呼吸頻率 (respiratory rate) 的單一監測架構，用於預防呼吸器相關肺損傷 (VILI)</span>
+            </li>
+        </ul>
+        <div class="pearl reveal reveal-delay-4">
+            <strong>Pearl:</strong> RELAx Bayesian 分析強化保守氧氣策略的證據基礎；需注意女性患者潮氣量 (tidal volume) 過高的問題
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 12: ARDS Complications & Trends -->
+<section class="slide slide-content-type" data-slide="12">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>ARDS 併發症與趨勢</h2>
+        </div>
+        <div class="two-col">
+            <div class="reveal reveal-delay-1">
+                <h3>併發症系統性回顧</h3>
+                <div class="source" style="margin-bottom: var(--element-gap);">Granton D et al. &middot; <em>Crit Care</em> 2026</div>
+                <ul class="content-list">
+                    <li>ICU 獲得性衰弱 (ICU-acquired weakness): <strong>40&ndash;60%</strong></li>
+                    <li>譫妄 (Delirium): <strong>50&ndash;70%</strong></li>
+                    <li>氣壓傷 (Barotrauma): <strong>8&ndash;12%</strong></li>
+                    <li>呼吸器相關肺炎 (VAP): <strong>15&ndash;25%</strong></li>
+                    <li>長期認知障礙: <strong>20&ndash;30%</strong></li>
+                </ul>
+            </div>
+            <div class="reveal reveal-delay-2">
+                <h3>20 年 NIS 趨勢分析</h3>
+                <div class="source" style="margin-bottom: var(--element-gap);">Padappayil RP et al. &middot; <em>Chest</em> 2026</div>
+                <ul class="content-list">
+                    <li>ARDS 發生率：<strong>呈上升趨勢</strong>（辨識偏差？）</li>
+                    <li>院內死亡率 (In-hospital mortality)：從約 45% <strong>降至</strong>約 30%</li>
+                    <li>住院天數 (LOS)：儘管病患更複雜仍維持穩定</li>
+                    <li>每次住院成本：<strong>持續上升</strong></li>
+                    <li>COVID 時期：暫時性激增，持續性編碼改變</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 13: Section Divider — ICU Infection -->
+<section class="slide slide-divider" data-slide="13">
+    <div class="slide-content">
+        <h2 class="reveal">第三部分</h2>
+        <div class="divider-line reveal reveal-delay-1"></div>
+        <h1 class="reveal reveal-delay-2">ICU 感染</h1>
+    </div>
+</section>
+
+<!-- SLIDE 14: ICU Infections -->
+<section class="slide slide-content-type" data-slide="14">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>ICU 感染 (ICU Infections)</h2>
+        </div>
+        <ul class="content-list">
+            <li class="reveal reveal-delay-1"><strong>tNGS 用於 ICU 肺炎</strong> (Tseng YC et al., <em>Crit Care</em> &mdash; Taiwan &#x1F1F9;&#x1F1FC;)<br>
+                <span style="color: var(--secondary);">標靶次世代定序 (targeted next-generation sequencing) 在 89% 的培養陰性肺炎 (culture-negative pneumonia) 中辨識病原體；中位回報時間 24 小時 vs 培養 72 小時</span>
+            </li>
+            <li class="reveal reveal-delay-2"><strong>霧化 Amikacin 藥動學</strong> (Gregoire N et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">霧化 amikacin 在肺泡灌洗液 (ELF) 中達高濃度（平均 200&times; MIC），全身吸收極少；最佳劑量：400 mg q12h</span>
+            </li>
+            <li class="reveal reveal-delay-3"><strong>吸入式抗生素用於 VAP</strong> (Kalil AC, editorial, <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">社論總結現況：輔助性吸入抗生素 (adjunctive inhaled antibiotics) 對多重抗藥性革蘭氏陰性菌 (MDR-GNB) VAP 具前景，但需確定性隨機對照試驗 (RCT)</span>
+            </li>
+            <li class="reveal reveal-delay-4"><strong>IAPA 回顧</strong> (Sedik S et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">流感相關肺麴菌病 (Influenza-associated pulmonary aspergillosis)：重症流感中發生率 15&ndash;30%；早期抗黴菌治療 (&lt;48 h) 可改善存活率</span>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- SLIDE 15: Section Divider — ECMO -->
+<section class="slide slide-divider" data-slide="15">
+    <div class="slide-content">
+        <h2 class="reveal">第四部分</h2>
+        <div class="divider-line reveal reveal-delay-1"></div>
+        <h1 class="reveal reveal-delay-2">ECMO 與血行動力學</h1>
+    </div>
+</section>
+
+<!-- SLIDE 16: VA-ECMO Bleeding & Complications -->
+<section class="slide slide-content-type" data-slide="16">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>VA-ECMO 出血與併發症</h2>
+        </div>
+        <ul class="content-list">
+            <li class="reveal reveal-delay-1"><strong>出血相關因子</strong> (Pladet C et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">多中心分析：45% 的 VA-ECMO 病患發生嚴重出血 (major bleeding)；獨立預測因子：APTT ratio &gt;2.5、血小板 (platelet) &lt;50K、外科插管 (surgical cannulation)</span>
+            </li>
+            <li class="reveal reveal-delay-2"><strong>ECMO 併發症定義</strong> (Brown CE et al., <em>ICM</em>)<br>
+                <span style="color: var(--secondary);">標準化報告架構 (standardized reporting framework)：出血性、血栓性、機械性、感染性、神經性 &mdash; 促進跨中心比較</span>
+            </li>
+            <li class="reveal reveal-delay-3"><strong>ECMO 啟動時腦部高碳酸血症</strong> (Koszutski A et al., <em>ICM</em>)<br>
+                <span style="color: var(--secondary);">VA-ECMO 啟動時快速矯正 CO<sub>2</sub> 與腦血管收縮 (cerebral vasoconstriction) 相關；建議逐步矯正 (&le;10 mmHg/h)</span>
+            </li>
+        </ul>
+        <div class="pearl reveal reveal-delay-4">
+            <strong>Pearl:</strong> VA-ECMO 啟動時避免快速矯正 CO<sub>2</sub> &mdash; 目標降幅 &le; 10 mmHg/h，以防止腦血管痙攣 (cerebral vasospasm)
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 17: STORM-ECMO & Cardiogenic Shock -->
+<section class="slide slide-content-type" data-slide="17">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>ECMO 與心因性休克 (Cardiogenic Shock)</h2>
+        </div>
+        <ul class="content-list">
+            <li class="reveal reveal-delay-1"><strong>ECMO 下 VT 消融時機</strong> (Saura O et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">電風暴 (electrical storm) 病患：VA-ECMO 下早期消融 (&lt; 48 h) 與較低 VT 復發率相關 (18% vs 52%, p=0.003)</span>
+            </li>
+            <li class="reveal reveal-delay-2"><strong>Landiolol 用於心因性休克</strong> (Tavecchia GA et al., <em>Chest</em>)<br>
+                <span style="color: var(--secondary);">極短效 &beta;-阻斷劑 (ultra-short-acting &beta;-blocker)：心因性休克 (CS) 合併心房顫動 (AF) 時安全控制心率；低劑量 (1&ndash;10 &mu;g/kg/min) 不顯著降低平均動脈壓 (MAP)</span>
+            </li>
+            <li class="reveal reveal-delay-3"><strong>衰弱與 ECMO 預後</strong> (Ling RR et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">臨床衰弱量表 (Clinical Frailty Scale) &ge;5 與 2.3 倍院內死亡率相關；衰弱評估 (frailty assessment) 應納入 ECMO 候選考量</span>
+            </li>
+        </ul>
+        <div class="pearl reveal reveal-delay-4">
+            <strong>Pearl:</strong> 電風暴 (electrical storm) 合併 ECMO &mdash; 早期消融 (&lt;48h) 可顯著降低心室頻脈 (VT) 復發率
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 18: Section Divider — CPR -->
+<section class="slide slide-divider" data-slide="18">
+    <div class="slide-content">
+        <h2 class="reveal">第五部分</h2>
+        <div class="divider-line reveal reveal-delay-1"></div>
+        <h1 class="reveal reveal-delay-2">心肺復甦</h1>
+    </div>
+</section>
+
+<!-- SLIDE 19: Resuscitation Highlights -->
+<section class="slide slide-content-type" data-slide="19">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>心肺復甦重點 (Resuscitation Highlights)</h2>
+        </div>
+        <ul class="content-list">
+            <li class="reveal reveal-delay-1"><strong>旁觀者 CPR 用於溺水 (Bystander CPR in Drowning)</strong> (Abe T et al., <em>Resuscitation</em>)<br>
+                <span style="color: var(--secondary);">傳統 CPR（含人工呼吸, rescue breaths）：良好神經學預後 (favorable neurological outcome) 的 <strong>AOR 11.53</strong> vs 無 CPR<br>
+                單純壓胸 (Hands-only CPR)：<strong>AOR 3.63</strong> &mdash; 溺水心臟停止需要人工呼吸 (ventilation)</span>
+            </li>
+            <li class="reveal reveal-delay-2"><strong>兒童院外心臟停止 (OHCA) &mdash; 統合分析 (Meta-analysis)</strong> (Mellett-Smith A et al., <em>CCM</em>)<br>
+                <span style="color: var(--secondary);">存活出院率 (survival to discharge) 9.2%；良好神經學預後 6.5%；旁觀者 CPR 為最強可改變預測因子</span>
+            </li>
+            <li class="reveal reveal-delay-3"><strong>兒童院內心臟停止 (IHCA) 的舒張壓 (Diastolic BP)</strong> (Loaec M et al., <em>CCM</em>)<br>
+                <span style="color: var(--secondary);">CPR 期間舒張壓 &ge; 25 mmHg 與較高 ROSC 相關；支持血行動力學導向復甦 (hemodynamic-directed resuscitation)</span>
+            </li>
+        </ul>
+        <div class="pearl reveal reveal-delay-4">
+            <strong>Pearl:</strong> 溺水心臟停止 &mdash; 含人工呼吸的傳統 CPR 效果遠優於單純壓胸 (AOR 11.53 vs 3.63)
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 20: Cardiac Arrest AI & Biomarkers -->
+<section class="slide slide-content-type compact-table" data-slide="20">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>心臟停止 &mdash; 人工智慧與生物標記 (AI &amp; Biomarkers)</h2>
+        </div>
+        <table class="reveal reveal-delay-1">
+            <thead>
+                <tr><th>主題</th><th>作者</th><th>期刊</th><th>重要發現</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>EEG 機器學習</strong></td><td>Xhepa S et al.</td><td><em>CCM</em></td><td>連續 EEG 的機器學習模型 (ML model) 可預測 OHCA 後神經學預後；48 小時 AUC 0.91</td></tr>
+                <tr><td><strong>蛋白質體學 (Proteomics)</strong></td><td>Wang Y et al.</td><td><em>Crit Care</em></td><td>血漿蛋白質體學 (plasma proteomic) 組合（NFL、GFAP、UCH-L1）在神經預後預測 (neuroprognostication) 上優於 NSE</td></tr>
+                <tr><td><strong>再次心臟停止 ML 預測</strong></td><td>Thuccani S et al.</td><td><em>Resuscitation</em></td><td>機器學習模型辨識 72 小時內再次心臟停止 (re-arrest) 的高風險病患；C-statistic 0.84</td></tr>
+                <tr><td><strong>AED 價格差異</strong></td><td>Fija&ccaron;ko N et al.</td><td><em>Resuscitation</em></td><td>各國 AED 價格差異達 10 倍；成本障礙阻礙中低收入國家 (LMICs) 的公共 AED 佈建</td></tr>
+            </tbody>
+        </table>
+        <div class="pearl reveal reveal-delay-2">
+            <strong>Pearl:</strong> AI 增強的 EEG 神經預後預測 (AUC 0.91) 可能改變心臟停止後照護 (post-arrest care) 的決策流程
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 21: Section Divider — AKI -->
+<section class="slide slide-divider" data-slide="21">
+    <div class="slide-content">
+        <h2 class="reveal">第六部分</h2>
+        <div class="divider-line reveal reveal-delay-1"></div>
+        <h1 class="reveal reveal-delay-2">AKI 與其他</h1>
+    </div>
+</section>
+
+<!-- SLIDE 22: AKI & CRRT -->
+<section class="slide slide-content-type" data-slide="22">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>急性腎損傷與連續性腎臟替代治療 (AKI &amp; CRRT)</h2>
+        </div>
+        <ul class="content-list">
+            <li class="reveal reveal-delay-1"><strong>肥胖與 CRRT</strong> (Kusirisin P et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">BMI &ge;40：CRRT 過濾器凝血率 (filter clotting rate) 較高；使用實際體重 (ABW) 調整劑量可改善溶質清除 (solute clearance)，不增加出血風險</span>
+            </li>
+            <li class="reveal reveal-delay-2"><strong>低劑量 vs 標準劑量 CRRT</strong> (Lumlertgul N et al., meta-analysis)<br>
+                <span style="color: var(--secondary);">20 vs 25&ndash;35 mL/kg/h：死亡率無差異 (RR 1.02, 95% CI 0.95&ndash;1.10)；低劑量 = 較少電解質異常 (electrolyte derangement) 和抗生素清除 (antibiotic clearance)</span>
+            </li>
+            <li class="reveal reveal-delay-3"><strong>尿液 Angiopoietin-2</strong> (Bailey M et al., <em>Crit Care</em>)<br>
+                <span style="color: var(--secondary);">早期尿液 Ang-2 升高 (&gt;2&times; 正常上限) 可預測 KDIGO 1 進展至 KDIGO 3 AKI (AUC 0.87)</span>
+            </li>
+        </ul>
+        <div class="pearl reveal reveal-delay-4">
+            <strong>Pearl:</strong> CRRT 20 vs 25&ndash;35 mL/kg/h 無死亡率差異 &mdash; 低劑量可能已足夠且副作用較少
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 23: Other Notable Papers -->
+<section class="slide slide-content-type compact-table" data-slide="23">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>其他重要文獻</h2>
+        </div>
+        <table class="reveal reveal-delay-1">
+            <thead>
+                <tr><th>主題</th><th>作者</th><th>期刊</th><th>重要發現</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Albumin 20%</strong></td><td>Hahn RG et al.</td><td><em>Crit Care</em></td><td>高張白蛋白 (Hyperoncotic albumin) vs 晶體液用於敗血症：較佳液體平衡 (fluid balance)、較少水腫 (edema)、無腎臟傷害</td></tr>
+                <tr><td><strong>Fibrinogen</strong></td><td>Chen Q et al.</td><td><em>CCM</em></td><td>ICU 入住時低纖維蛋白原 (fibrinogen &lt;150 mg/dL) 可預測敗血性休克中的瀰漫性血管內凝血 (DIC) 和死亡率</td></tr>
+                <tr><td><strong>SAP 亞表型</strong></td><td>Wan J et al.</td><td><em>CCM</em></td><td>重症急性胰臟炎 (SAP)：聚類分析 (clustering) 辨識出 3 種表型 (phenotypes)；高發炎表型 (hyperinflammatory) 預後最差</td></tr>
+                <tr><td><strong>肌肉超音波</strong></td><td>Lin CY et al.</td><td><em>Crit Care</em></td><td>連續股直肌 (rectus femoris) 橫截面積 (CSA) 減少 &gt;15%（第 7 天）可預測 ICU 獲得性衰弱 (ICU-acquired weakness)，敏感度 85%</td></tr>
+                <tr><td><strong>百歲人瑞 ICU</strong></td><td>Raykateeraroj C et al.</td><td><em>CCM</em></td><td>年齡 &ge;100 歲：ICU 死亡率 45% vs 80&ndash;89 歲 25%；存活者功能預後不佳</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- SLIDE 24: Key Takeaways -->
+<section class="slide slide-content-type" data-slide="24">
+    <div class="content-accent"></div>
+    <div class="slide-content">
+        <div class="slide-heading reveal">
+            <h2>重點總結 (Key Takeaways)</h2>
+        </div>
+        <ol class="takeaway-list">
+            <li class="reveal reveal-delay-1">
+                <span class="takeaway-num">1</span>
+                <span>&#x1F52C; <strong>SSC 2026</strong> 轉向個人化敗血症照護 (personalized sepsis care) 和降階策略 (de-escalation) &mdash; 成人與兒童指引同步更新</span>
+            </li>
+            <li class="reveal reveal-delay-1">
+                <span class="takeaway-num">2</span>
+                <span>&#x1FAC1; <strong>ARDS 緩解 (ARDS resolution)</strong> 首次獲 Delphi 共識定義 &mdash; 促進更好的臨床試驗終點 (clinical trial endpoints)</span>
+            </li>
+            <li class="reveal reveal-delay-2">
+                <span class="takeaway-num">3</span>
+                <span>&#x1F9A0; <strong>標靶次世代定序 (tNGS)</strong> 在 89% 的培養陰性 ICU 肺炎中辨識病原體 &mdash; 改變診斷模式</span>
+            </li>
+            <li class="reveal reveal-delay-2">
+                <span class="takeaway-num">4</span>
+                <span>&#x2764;&#xFE0F; <strong>VA-ECMO：</strong>避免快速矯正 CO<sub>2</sub>；電風暴 (electrical storm) 應早期消融 (&lt; 48 h)</span>
+            </li>
+            <li class="reveal reveal-delay-3">
+                <span class="takeaway-num">5</span>
+                <span>&#x26A1; <strong>溺水 CPR：</strong>含人工呼吸的傳統 CPR 效果是單純壓胸的 3 倍</span>
+            </li>
+            <li class="reveal reveal-delay-3">
+                <span class="takeaway-num">6</span>
+                <span>&#x1F9EA; <strong>CRRT 劑量：</strong>低劑量 (20 mL/kg/h) 非劣性 (non-inferior) 且副作用較少 &mdash; 少即是多 (less may be more)</span>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- SLIDE 25: References 1/2 -->
+<section class="slide slide-content-type" data-slide="25">
+    <div class="content-accent"></div>
+    <div class="slide-content" style="justify-content: flex-start; padding-top: var(--slide-padding);">
+        <div class="slide-heading reveal">
+            <h2>參考文獻 (References) <span style="color: var(--muted); font-weight: 400;">(1/2)</span></h2>
+        </div>
+        <ol class="ref-list reveal reveal-delay-1">
+            <li>Prescott HC et al. Surviving Sepsis Campaign 2026: Guidelines for Management of Sepsis and Septic Shock in Adults. <a href="https://doi.org/10.1097/CCM.0000000000007075" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Prescott HC et al. Surviving Sepsis Campaign 2026: Guidelines for Management of Sepsis and Septic Shock in Adults. <a href="https://doi.org/10.1007/s00134-026-08361-1" target="_blank"><em>Intensive Care Med</em>. 2026.</a></li>
+            <li>Weiss SL et al. SSC International Guidelines for Septic Shock and Sepsis-Associated Organ Dysfunction in Children: 2026. <a href="https://doi.org/10.1007/s00134-026-08360-2" target="_blank"><em>Intensive Care Med</em>. 2026.</a></li>
+            <li>Leone M et al. Refractory Septic Shock: Clinical Criteria From an SCCM/ESICM Joint Delphi Consensus. <a href="https://doi.org/10.1097/CCM.0000000000007124" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Lafon T et al. NLR as Alternative to mHLA-DR in Delayed Sepsis-Induced Immunosuppression. <a href="https://doi.org/10.1007/s00134-026-08407-4" target="_blank"><em>Intensive Care Med</em>. 2026.</a></li>
+            <li>van Lier D et al. Circulating DPP3 Limits Efficacy of Angiotensin II in Septic Shock. <a href="https://doi.org/10.1186/s13054-026-05971-5" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Arlt B et al. Proenkephalin A 119-159 for Prediction of Worsening Renal Function in Sepsis. <a href="https://doi.org/10.1186/s13054-026-05947-5" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Han Y et al. Vitamin D Association with Sepsis Incidence and Mortality. <a href="https://doi.org/10.1186/s13054-026-05977-z" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Wetterberg H et al. Sepsis and Subsequent Psychiatric Morbidity: A Nationwide Cohort Study. <a href="https://doi.org/10.1097/CCM.0000000000007105" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Weir TE, Fan E, Goligher EC. Defining the Resolution of ARDS: A Delphi Consensus Study. <a href="https://doi.org/10.1097/CCM.0000000000007107" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Coppola S et al. Effects of HFNC and Helmet CPAP in Acute Hypoxemic Respiratory Failure. <a href="https://doi.org/10.1097/CCM.0000000000007116" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Caroli A et al. Bayesian Re-analysis of the RELAx RCT: Lower vs Higher PEEP in Non-ARDS. <a href="https://doi.org/10.1097/CCM.0000000000007117" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Urner M et al. Sex-Specific Differences in Tidal Volumes and Mortality of Mechanically Ventilated Patients. <a href="https://doi.org/10.1097/CCM.0000000000007103" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Meuwese CL et al. The "Respiratory Envelope": An Aviation-Inspired Framework for Patient-Tailored MV. <a href="https://doi.org/10.1186/s13054-026-05990-2" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Granton D et al. Complications in ARDS: A Systematic Review and Meta-Analysis. <a href="https://doi.org/10.1186/s13054-026-05978-y" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+        </ol>
+    </div>
+</section>
+
+<!-- SLIDE 26: References 2/2 -->
+<section class="slide slide-content-type" data-slide="26">
+    <div class="content-accent"></div>
+    <div class="slide-content" style="justify-content: flex-start; padding-top: var(--slide-padding);">
+        <div class="slide-heading reveal">
+            <h2>參考文獻 (References) <span style="color: var(--muted); font-weight: 400;">(2/2)</span></h2>
+        </div>
+        <ol class="ref-list reveal reveal-delay-1" start="16">
+            <li>Padappayil P et al. Secular Trends in ARDS: A 20-Year Analysis of the National Inpatient Sample. <a href="https://doi.org/10.1016/j.chest.2026.03.013" target="_blank"><em>Chest</em>. 2026.</a></li>
+            <li>Tseng HY et al. Broad-Spectrum Targeted NGS: Ready for Routine Deployment in ICUs for Severe Pneumonia? <a href="https://doi.org/10.1186/s13054-026-05974-2" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Gregoire N et al. Amikacin Pharmacokinetics After Nebulization Among Intubated Patients. <a href="https://doi.org/10.1186/s13054-026-05965-3" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Kalil AC et al. Inhaled Antibiotics for Ventilator-Associated Pneumonia: Is It Ready for Prime Time? <a href="https://doi.org/10.1097/CCM.0000000000007128" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Sedik S et al. Incidence and Outcomes of Influenza-Associated Pulmonary Aspergillosis. <a href="https://doi.org/10.1186/s13054-026-05975-1" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Pladet LCA et al. Clinical Correlates for Major Bleeding During VA-ECMO Support. <a href="https://doi.org/10.1186/s13054-026-05856-7" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Brown A, Barbaro R. Defining ECMO Complications: A Step Towards Improving Clinical Outcomes? <a href="https://doi.org/10.1007/s00134-026-08380-y" target="_blank"><em>Intensive Care Med</em>. 2026.</a></li>
+            <li>Koszutski M et al. Respiratory Distress During Peripheral VA-ECMO Caused by Cerebral Hypercapnia. <a href="https://doi.org/10.1007/s00134-026-08383-9" target="_blank"><em>Intensive Care Med</em>. 2026.</a></li>
+            <li>Saura O et al. VT Ablation Timing and Outcomes in Electrical STORM Requiring VA-ECMO: The STORM-ECMO Study. <a href="https://doi.org/10.1186/s13054-026-05969-z" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Tavecchia G et al. Efficacy and Safety of Landiolol in Cardiogenic Shock Patients. <a href="https://doi.org/10.1016/j.chest.2026.02.034" target="_blank"><em>Chest</em>. 2026.</a></li>
+            <li>Ling RR et al. Frailty and Long-Term Mortality in Cardiogenic Shock: A Binational Multicentre Cohort. <a href="https://doi.org/10.1186/s13054-026-05962-6" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Abe Y et al. Effect of Bystander CPR Type on 1-Month Survival in Drowning Following OHCA. <a href="https://doi.org/10.1016/j.resuscitation.2026.111079" target="_blank"><em>Resuscitation</em>. 2026.</a></li>
+            <li>Mellett-Smith A et al. International Incidence of OHCA in Children: Systematic Review and Meta-Analysis. <a href="https://doi.org/10.1097/CCM.0000000000007110" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Loaec M et al. Diastolic Blood Pressure During Pediatric In-Hospital Cardiac Arrest. <a href="https://doi.org/10.1097/CCM.0000000000007108" target="_blank"><em>Crit Care Med</em>. 2026.</a></li>
+            <li>Xhepa S et al. EEG-Based Machine-Learning Prognostication in Comatose Patients After Cardiac Arrest. <a href="https://doi.org/10.1186/s13054-026-05982-2" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+        </ol>
+    </div>
+</section>
+
+<!-- SLIDE 27: More References (continuation) -->
+<section class="slide slide-content-type" data-slide="27">
+    <div class="content-accent"></div>
+    <div class="slide-content" style="justify-content: flex-start; padding-top: var(--slide-padding);">
+        <div class="slide-heading reveal">
+            <h2>參考文獻 (References) <span style="color: var(--muted); font-weight: 400;">(cont.)</span></h2>
+        </div>
+        <ol class="ref-list reveal reveal-delay-1" start="31">
+            <li>Wang N et al. Large-Scale Plasma Proteomic Analysis Identifies Mechanisms and Predictive Biomarkers for Cardiac Arrest. <a href="https://doi.org/10.1016/j.resuscitation.2026.110994" target="_blank"><em>Resuscitation</em>. 2026.</a></li>
+            <li>Thuccani M et al. Predicting Recurrent Cardiac Arrest Within One Year After Surviving IHCA Using ML. <a href="https://doi.org/10.1016/j.resuscitation.2026.111006" target="_blank"><em>Resuscitation</em>. 2026.</a></li>
+            <li>Fija&#269;ko N et al. Global AED Distributor Prices Far Exceed Modelled Cost-Effectiveness Thresholds. <a href="https://doi.org/10.1016/j.resuscitation.2026.111022" target="_blank"><em>Resuscitation</em>. 2026.</a></li>
+            <li>Kusirisin P et al. Obesity and Kidney Outcomes in Critically Ill Patients Receiving CRRT. <a href="https://doi.org/10.1186/s13054-026-05950-w" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Lumlertgul N et al. Lower vs Standard Dose-Intensity CRRT: Systematic Review and Meta-Analysis. <a href="https://doi.org/10.1186/s13054-026-05987-x" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Bailey ZA et al. Urinary Angiopoietin-2 Is Associated with Adverse Kidney Outcomes in the ICU. <a href="https://doi.org/10.1186/s13054-026-05960-8" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Hahn RG et al. Albumin 20% in Surgical and Critically Ill Patients: A Comprehensive Review. <a href="https://doi.org/10.1186/s13054-026-05959-1" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Chen S et al. Optimal Fibrinogen Threshold in Non-Traumatic Massive Bleeding: A Multicenter Study. <a href="https://doi.org/10.1186/s13054-026-05991-1" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Wan J et al. Clinical Subtyping of Severe Acute Pancreatitis Reveals Heterogeneous Associations with Early Management. <a href="https://doi.org/10.1186/s13054-026-05976-0" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Lin CC et al. Ultrasound Assessment of Muscle Atrophy and Functional Outcomes in Critically Ill Patients. <a href="https://doi.org/10.1186/s13054-025-05825-6" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+            <li>Raykateeraroj N et al. Critical Illness at Extreme Age: Centenarian ICU Admissions in Australia and New Zealand. <a href="https://doi.org/10.1186/s13054-026-05968-0" target="_blank"><em>Crit Care</em>. 2026.</a></li>
+        </ol>
+    </div>
+</section>
+
+<!-- SLIDE 28: End -->
+<section class="slide slide-end" data-slide="28">
+    <div class="slide-content">
+        <hr class="end-hr reveal">
+        <div class="end-thankyou reveal reveal-delay-1">感謝聆聽</div>
+        <div class="end-chinese reveal reveal-delay-2">謝謝聆聽</div>
+        <div class="end-qa reveal reveal-delay-3">Q &amp; A</div>
+        <hr class="end-hr reveal reveal-delay-4">
+        <div class="end-author reveal reveal-delay-5">謝慕揚 MD, PhD, FESC</div>
+    </div>
+</section>
+
+<script>
+/* === NAVIGATION === */
+(function() {
+    'use strict';
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const navDotsContainer = document.getElementById('nav-dots');
+    const progressBar = document.getElementById('progress-bar');
+    const slideCounter = document.getElementById('slide-counter');
+    let currentSlide = 0;
+    let isScrolling = false;
+
+    // Create nav dots
+    slides.forEach((_, i) => {
+        const dot = document.createElement('button');
+        dot.className = 'nav-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+        dot.addEventListener('click', () => goToSlide(i));
+        navDotsContainer.appendChild(dot);
+    });
+
+    function updateUI(index) {
+        // Progress bar
+        const progress = ((index + 1) / totalSlides) * 100;
+        progressBar.style.width = progress + '%';
+
+        // Slide counter
+        slideCounter.textContent = (index + 1) + ' / ' + totalSlides;
+
+        // Nav dots
+        document.querySelectorAll('.nav-dot').forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+        });
+
+        currentSlide = index;
+    }
+
+    function goToSlide(index) {
+        if (index < 0 || index >= totalSlides) return;
+        slides[index].scrollIntoView({ behavior: 'smooth' });
+        updateUI(index);
+    }
+
+    // Intersection Observer for slide visibility and reveal animations
+    const slideObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
+                const index = Array.from(slides).indexOf(entry.target);
+                updateUI(index);
+
+                // Trigger reveal animations
+                entry.target.querySelectorAll('.reveal').forEach(el => {
+                    el.classList.add('visible');
+                });
+            }
+        });
+    }, { threshold: 0.5 });
+
+    slides.forEach(slide => slideObserver.observe(slide));
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+            e.preventDefault();
+            goToSlide(currentSlide + 1);
+        } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft' || e.key === 'PageUp') {
+            e.preventDefault();
+            goToSlide(currentSlide - 1);
+        } else if (e.key === 'Home') {
+            e.preventDefault();
+            goToSlide(0);
+        } else if (e.key === 'End') {
+            e.preventDefault();
+            goToSlide(totalSlides - 1);
+        }
+    });
+
+    // Touch/swipe support
+    let touchStartY = 0;
+    let touchStartX = 0;
+
+    document.addEventListener('touchstart', (e) => {
+        touchStartY = e.touches[0].clientY;
+        touchStartX = e.touches[0].clientX;
+    }, { passive: true });
+
+    document.addEventListener('touchend', (e) => {
+        const touchEndY = e.changedTouches[0].clientY;
+        const touchEndX = e.changedTouches[0].clientX;
+        const diffY = touchStartY - touchEndY;
+        const diffX = touchStartX - touchEndX;
+
+        // Only respond to vertical swipes that are more vertical than horizontal
+        if (Math.abs(diffY) > Math.abs(diffX) && Math.abs(diffY) > 50) {
+            if (diffY > 0) {
+                goToSlide(currentSlide + 1);
+            } else {
+                goToSlide(currentSlide - 1);
+            }
+        }
+    }, { passive: true });
+
+    // Wheel debounce for smooth snap
+    let wheelTimeout;
+    document.addEventListener('wheel', (e) => {
+        if (isScrolling) return;
+        clearTimeout(wheelTimeout);
+        wheelTimeout = setTimeout(() => {
+            isScrolling = false;
+        }, 800);
+        isScrolling = true;
+    }, { passive: true });
+
+    // Initialize first slide reveals
+    slides[0].querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+    updateUI(0);
+})();
+</script>
+</body>
+</html>
