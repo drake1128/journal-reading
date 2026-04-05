@@ -386,6 +386,145 @@ mv "Esmolol_ICU_Teaching_Marp.md" "handouts/10_ICU_一般照護/"
 mv "Esmolol_ICU_Teaching.pdf" "handouts/10_ICU_一般照護/"
 ```
 
+---
+
+## Gmail HTML Email Draft
+
+When creating email drafts for sharing handouts, use the `gmail_createDraft` MCP tool with HTML formatting.
+
+### Critical: Gmail Strips `<style>` Tags
+
+**Gmail (and most email clients) will remove any `<style>` blocks in `<head>`**. All styles must be written as **inline styles** directly on each element using the `style="..."` attribute.
+
+```html
+<!-- ❌ WRONG - Gmail will strip this -->
+<head>
+  <style>
+    .header { background-color: #1a2740; }
+  </style>
+</head>
+<div class="header">...</div>
+
+<!-- ✓ CORRECT - Use inline styles -->
+<div style="background-color: #1a2740; color: white; padding: 25px;">...</div>
+```
+
+### Color Scheme (matches Marp)
+
+| Element | Color | Usage |
+|---------|-------|-------|
+| `#1a2740` | Dark blue | Header/Footer background |
+| `#b0c4de` | Light steel blue | Header subtitle text |
+| `#ba181b` | Emergency red | Key points, highlights, `<strong>` |
+| `#0072bc` | Emergency blue | Section headers, table headers, links |
+| `#f8f9fa` | Light gray | Content area background |
+| `#fff5f5` | Light red | Key points box background |
+| `#e3f2fd` | Light blue | Take home message background |
+| `#dcdde1` | Border gray | Table/box borders |
+
+### HTML Email Template Structure
+
+```html
+<html>
+<body style="font-family: Arial, 'Microsoft JhengHei', sans-serif; line-height: 1.6; color: #2d3436; margin: 0; padding: 0;">
+
+<!-- Header -->
+<div style="background-color: #1a2740; color: white; padding: 25px; border-radius: 8px 8px 0 0;">
+  <h1 style="margin: 0; font-size: 1.5em; color: white;">English Title</h1>
+  <h2 style="margin: 8px 0 0 0; font-size: 1.1em; color: #b0c4de; font-weight: normal;">中文標題</h2>
+</div>
+
+<!-- Content Area -->
+<div style="padding: 25px; background-color: #f8f9fa;">
+
+  <!-- Key Points Box (red accent) -->
+  <div style="background-color: #fff5f5; border-left: 5px solid #ba181b; padding: 15px 20px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <h3 style="color: #ba181b; margin: 0 0 10px 0;">核心概念</h3>
+    <p style="margin: 0;">Content with <strong style="color: #ba181b;">highlighted text</strong></p>
+  </div>
+
+  <!-- Section Box -->
+  <div style="background-color: white; padding: 20px; margin: 20px 0; border-radius: 8px; border: 1px solid #dcdde1;">
+    <h3 style="color: #0072bc; margin: 0 0 15px 0; border-bottom: 3px solid #0072bc; padding-bottom: 8px;">Section Title</h3>
+    <!-- Content here -->
+  </div>
+
+  <!-- Table -->
+  <table style="width: 100%; border-collapse: collapse; margin: 0;">
+    <tr>
+      <th style="background-color: #0072bc; color: white; padding: 12px 10px; text-align: left; border: 1px solid #0072bc;">Header</th>
+    </tr>
+    <tr style="background-color: #ffffff;">
+      <td style="padding: 12px 10px; border: 1px solid #dcdde1;">Data</td>
+    </tr>
+    <tr style="background-color: #f0f4f8;">
+      <td style="padding: 12px 10px; border: 1px solid #dcdde1;">Alternating row</td>
+    </tr>
+  </table>
+
+  <!-- Take Home Message (blue accent) -->
+  <div style="background-color: #e3f2fd; border-left: 5px solid #0072bc; padding: 15px 20px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+    <h3 style="color: #0072bc; margin: 0 0 10px 0;">Take Home Message</h3>
+    <p style="margin: 0;">Summary content here.</p>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div style="background-color: #1a2740; padding: 20px; text-align: center; color: #b0c4de; border-radius: 0 0 8px 8px;">
+  <p style="margin: 0 0 5px 0; color: white;"><strong>謝慕揚 MD, PhD, FESC</strong></p>
+  <p style="margin: 0; font-size: 0.9em;">本文件僅供醫療專業人員教學參考</p>
+</div>
+
+</body>
+</html>
+```
+
+### Special Elements
+
+**Comparison Table (red/green contrast):**
+```html
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 10px; border: 1px solid #dcdde1; background-color: #ffebee; width: 50%;">
+      <strong style="color: #c62828;">❌ Wrong approach</strong><br>
+      Description
+    </td>
+    <td style="padding: 10px; border: 1px solid #dcdde1; background-color: #e8f5e9; width: 50%;">
+      <strong style="color: #2e7d32;">✓ Correct approach</strong><br>
+      Description
+    </td>
+  </tr>
+</table>
+```
+
+**Tip/Note Box (yellow):**
+```html
+<p style="margin: 10px 0; background-color: #fff8e1; padding: 10px; border-radius: 5px;">
+  💡 Important tip or note here
+</p>
+```
+
+**Code/Formula Box:**
+```html
+<div style="background-color: #f5f6fa; padding: 12px 15px; border-radius: 5px; font-family: 'Courier New', monospace; font-size: 1em;">
+  SV ≈ VTI × π ≈ VTI × 3.14
+</div>
+```
+
+### MCP Tool Usage
+
+```javascript
+gmail_createDraft({
+  to: "recipient@example.com",
+  subject: "[教學講義] Title — Subtitle",
+  body: "<html>...</html>",  // Full HTML with inline styles
+  isHtml: true  // CRITICAL: Must be true for HTML rendering
+})
+```
+
+---
+
 ## Trigger Keywords
 
 This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期刊講義", "journal reading", "教學", "每週期刊回顧", "weekly journal review", or references to medical literature from NEJM, JACC, Circulation, EuroIntervention, European Heart Journal.
