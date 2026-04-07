@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重症醫學雙週期刊回顧 · 2026-04-07</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+/* === MANDATORY VIEWPORT BASE === */
+html, body { height: 100%; overflow-x: hidden; }
+html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+.slide { width: 100vw; height: 100vh; height: 100dvh; overflow: hidden; scroll-snap-align: start; display: flex; flex-direction: column; position: relative; }
+.slide-content { flex: 1; display: flex; flex-direction: column; justify-content: center; max-height: 100%; overflow: hidden; padding: var(--slide-padding); }
+:root {
+  --title-size: clamp(1.5rem, 5vw, 4rem);
+  --h2-size: clamp(1.25rem, 3.5vw, 2.5rem);
+  --h3-size: clamp(1rem, 2.5vw, 1.75rem);
+  --body-size: clamp(0.75rem, 1.5vw, 1.125rem);
+  --small-size: clamp(0.65rem, 1vw, 0.875rem);
+  --slide-padding: clamp(1rem, 4vw, 4rem);
+  --content-gap: clamp(0.5rem, 2vw, 2rem);
+  --element-gap: clamp(0.25rem, 1vw, 1rem);
+  /* === BRAND === */
+  --navy: #0d1726;
+  --navy-2: #1a2740;
+  --navy-3: #233356;
+  --red: #ba181b;
+  --red-glow: #ff3b3f;
+  --blue: #0072bc;
+  --cyan: #46b8ff;
+  --ivory: #f4f1ea;
+  --bone: #e8e3d6;
+  --muted: #8a96a8;
+}
+.card, .container, .content-box { max-width: min(90vw, 1000px); max-height: min(80vh, 700px); }
+.feature-list, .bullet-list { gap: clamp(0.4rem, 1vh, 1rem); }
+.feature-list li, .bullet-list li { font-size: var(--body-size); line-height: 1.4; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: clamp(0.5rem, 1.5vw, 1rem); }
+img { max-width: 100%; max-height: min(50vh, 400px); object-fit: contain; }
+@media (max-height: 700px) { :root { --slide-padding: clamp(0.75rem, 3vw, 2rem); --title-size: clamp(1.25rem, 4.5vw, 2.5rem); --h2-size: clamp(1rem, 3vw, 1.75rem); } }
+@media (max-height: 600px) { :root { --slide-padding: clamp(0.5rem, 2.5vw, 1.5rem); --title-size: clamp(1.1rem, 4vw, 2rem); --body-size: clamp(0.7rem, 1.2vw, 0.95rem); } .nav-dots, .decorative { display: none; } }
+@media (max-height: 500px) { :root { --slide-padding: clamp(0.4rem, 2vw, 1rem); --title-size: clamp(1rem, 3.5vw, 1.5rem); } }
+@media (max-width: 600px) { :root { --title-size: clamp(1.25rem, 7vw, 2.5rem); } .grid { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.2s !important; } html { scroll-behavior: auto; } }
+
+/* === GLOBAL === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Noto Sans TC', 'Inter', sans-serif;
+  background: var(--navy);
+  color: var(--ivory);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "ss02";
+}
+h1, h2, h3 { font-weight: 700; line-height: 1.15; }
+.serif { font-family: 'Fraunces', 'Noto Serif TC', serif; font-optical-sizing: auto; }
+.mono { font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; }
+
+/* === SLIDE BACKGROUNDS === */
+.slide {
+  background:
+    radial-gradient(ellipse at 80% -10%, rgba(0, 114, 188, 0.18), transparent 50%),
+    radial-gradient(ellipse at -10% 110%, rgba(186, 24, 27, 0.12), transparent 50%),
+    linear-gradient(180deg, var(--navy) 0%, #0a1220 100%);
+}
+.slide::before {
+  content: "";
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 64px 64px;
+  pointer-events: none;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+}
+
+/* === CHROME (running header / corner marks) === */
+.chrome {
+  position: absolute; top: 0; left: 0; right: 0;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: clamp(0.8rem, 2vw, 1.5rem) clamp(1rem, 4vw, 4rem);
+  font-size: var(--small-size);
+  color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  z-index: 5;
+}
+.chrome .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--red); margin-right: 0.5em; box-shadow: 0 0 12px var(--red-glow); animation: pulse 2.4s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+.chrome .pageno { color: var(--cyan); }
+
+.foot {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: clamp(0.6rem, 1.5vw, 1.2rem) clamp(1rem, 4vw, 4rem);
+  display: flex; justify-content: space-between;
+  font-size: var(--small-size); color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+  z-index: 5;
+}
+.foot .accent { color: var(--ivory); }
+
+/* === ANIMATIONS === */
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(28px); filter: blur(6px); }
+  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes drawLine {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* slides only animate when visible (intersection observer flips .visible) */
+.slide .reveal { opacity: 0; }
+.slide.visible .reveal { animation: riseIn 0.9s cubic-bezier(.2,.8,.2,1) both; }
+.slide.visible .reveal.d1 { animation-delay: 0.1s; }
+.slide.visible .reveal.d2 { animation-delay: 0.25s; }
+.slide.visible .reveal.d3 { animation-delay: 0.4s; }
+.slide.visible .reveal.d4 { animation-delay: 0.55s; }
+.slide.visible .reveal.d5 { animation-delay: 0.7s; }
+.slide.visible .reveal.d6 { animation-delay: 0.85s; }
+.slide.visible .reveal.d7 { animation-delay: 1.0s; }
+.slide.visible .reveal.d8 { animation-delay: 1.15s; }
+
+/* === TITLE SLIDE === */
+.title-slide .slide-content { justify-content: center; align-items: flex-start; gap: clamp(1rem, 3vh, 2.5rem); }
+.title-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.7rem, 1.1vw, 0.95rem);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  display: flex; align-items: center; gap: 1em;
+}
+.title-eyebrow::before {
+  content: ""; display: inline-block;
+  width: clamp(2rem, 6vw, 5rem); height: 2px;
+  background: linear-gradient(90deg, var(--red), var(--cyan));
+  transform-origin: left;
+  animation: drawLine 1.2s cubic-bezier(.2,.8,.2,1) 0.4s both;
+}
+.title-main {
+  font-family: 'Fraunces', serif;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 7vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: var(--ivory);
+  max-width: 18ch;
+}
+.title-main em {
+  font-style: italic;
+  color: var(--red);
+  background: linear-gradient(90deg, var(--red), var(--red-glow), var(--red));
+  background-size: 200% auto;
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+.title-meta {
+  display: flex; gap: clamp(1.5rem, 4vw, 3rem); flex-wrap: wrap;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--small-size);
+  color: var(--muted);
+}
+.title-meta span strong { display: block; color: var(--ivory); font-weight: 600; margin-top: 0.2em; font-size: clamp(0.85rem, 1.4vw, 1.1rem); }
+.title-author { font-size: clamp(0.9rem, 1.5vw, 1.15rem); color: var(--bone); }
+.title-author strong { color: var(--ivory); }
+
+/* === SECTION HEADING === */
+.section-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.7rem, 1vw, 0.85rem);
+  letter-spacing: 0.25em;
+  color: var(--cyan);
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.slide-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.6vw, 3rem);
+  line-height: 1.05;
+  color: var(--ivory);
+  letter-spacing: -0.01em;
+  max-width: 22ch;
+}
+.slide-title .accent { color: var(--red); font-style: italic; }
+.slide-subtitle {
+  margin-top: 0.6em;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.7rem, 1.1vw, 0.95rem);
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+.slide-subtitle a { color: var(--cyan); text-decoration: none; border-bottom: 1px dotted var(--cyan); }
+.slide-subtitle a:hover { color: var(--ivory); }
+
+.divider-line {
+  width: clamp(3rem, 8vw, 6rem);
+  height: 3px;
+  background: linear-gradient(90deg, var(--red), transparent);
+  margin: clamp(0.6rem, 1.5vh, 1.2rem) 0;
+  border-radius: 2px;
+}
+
+/* === PEARLS GRID === */
+.pearls-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(0.6rem, 1.2vw, 1rem);
+  margin-top: clamp(0.8rem, 2vh, 1.5rem);
+}
+@media (max-width: 900px) { .pearls-grid { grid-template-columns: repeat(2, 1fr); } }
+.pearl {
+  background: linear-gradient(160deg, rgba(35,51,86,0.6), rgba(13,23,38,0.3));
+  border: 1px solid rgba(70, 184, 255, 0.15);
+  border-radius: 12px;
+  padding: clamp(0.7rem, 1.4vw, 1.2rem);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.pearl:hover { transform: translateY(-3px); border-color: var(--cyan); }
+.pearl::before {
+  content: "";
+  position: absolute; top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--red), var(--blue));
+}
+.pearl-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.65rem, 0.95vw, 0.8rem);
+  color: var(--cyan);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.4em;
+}
+.pearl-title {
+  font-size: clamp(0.78rem, 1.15vw, 1rem);
+  font-weight: 700;
+  color: var(--ivory);
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+.pearl-body {
+  font-size: clamp(0.65rem, 0.95vw, 0.82rem);
+  color: var(--bone);
+  line-height: 1.45;
+  opacity: 0.85;
+}
+.pearl-body strong { color: var(--red-glow); }
+
+/* === ARTICLE SLIDE === */
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  align-items: start;
+  margin-top: clamp(0.8rem, 2vh, 1.5rem);
+  flex: 1;
+  min-height: 0;
+}
+@media (max-width: 800px) { .article-grid { grid-template-columns: 1fr; } }
+.article-meta {
+  background: rgba(13, 23, 38, 0.6);
+  border-left: 3px solid var(--red);
+  padding: clamp(0.8rem, 1.5vw, 1.3rem);
+  border-radius: 0 8px 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.65rem, 1vw, 0.85rem);
+}
+.meta-row { margin-bottom: 0.7em; }
+.meta-row:last-child { margin-bottom: 0; }
+.meta-label {
+  display: block;
+  color: var(--cyan);
+  font-size: clamp(0.55rem, 0.8vw, 0.7rem);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.2em;
+}
+.meta-value { color: var(--ivory); line-height: 1.4; }
+.meta-value a { color: var(--cyan); text-decoration: none; }
+.meta-value a:hover { text-decoration: underline; }
+.tag {
+  display: inline-block;
+  background: rgba(0, 114, 188, 0.2);
+  border: 1px solid rgba(70, 184, 255, 0.4);
+  color: var(--cyan);
+  padding: 0.2em 0.7em;
+  border-radius: 999px;
+  font-size: clamp(0.55rem, 0.8vw, 0.7rem);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.article-body {
+  display: flex; flex-direction: column;
+  gap: clamp(0.6rem, 1.5vh, 1.1rem);
+  min-height: 0;
+}
+.section-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.6rem, 0.85vw, 0.75rem);
+  color: var(--cyan);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+  display: block;
+}
+.summary-text {
+  font-size: clamp(0.78rem, 1.15vw, 1rem);
+  line-height: 1.55;
+  color: var(--bone);
+}
+.summary-text strong { color: var(--red-glow); font-weight: 600; }
+.pearl-box {
+  background: linear-gradient(135deg, rgba(186, 24, 27, 0.15), rgba(186, 24, 27, 0.04));
+  border: 1px solid rgba(186, 24, 27, 0.4);
+  border-left: 4px solid var(--red);
+  padding: clamp(0.7rem, 1.4vw, 1.1rem);
+  border-radius: 0 8px 8px 0;
+}
+.pearl-box-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.6rem, 0.85vw, 0.75rem);
+  color: var(--red-glow);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.4em;
+}
+.pearl-box p {
+  font-size: clamp(0.78rem, 1.1vw, 0.95rem);
+  color: var(--ivory);
+  line-height: 1.5;
+}
+
+/* === KEY STAT BLOCK (used inside article body) === */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: clamp(0.4rem, 1vw, 0.8rem);
+}
+.stat {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: clamp(0.5rem, 1vw, 0.8rem);
+  border-radius: 6px;
+}
+.stat-label { font-family: 'JetBrains Mono', monospace; font-size: clamp(0.55rem, 0.75vw, 0.68rem); color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+.stat-value { font-family: 'Fraunces', serif; font-size: clamp(1rem, 1.8vw, 1.5rem); color: var(--cyan); font-weight: 700; margin-top: 0.2em; }
+.stat-value.red { color: var(--red-glow); }
+
+/* === TABLE SLIDE === */
+.honor-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: clamp(0.8rem, 2vh, 1.4rem);
+  font-size: clamp(0.7rem, 1vw, 0.9rem);
+}
+.honor-table th, .honor-table td {
+  text-align: left;
+  padding: clamp(0.5rem, 1vw, 0.85rem) clamp(0.6rem, 1.2vw, 1rem);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.honor-table th {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.6rem, 0.85vw, 0.75rem);
+  color: var(--cyan);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  border-bottom: 2px solid var(--blue);
+}
+.honor-table tr:hover td { background: rgba(70, 184, 255, 0.04); }
+.honor-table td:first-child { color: var(--ivory); font-weight: 600; }
+.honor-table td:last-child { color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: clamp(0.6rem, 0.85vw, 0.75rem); }
+
+/* === EDITOR'S NOTE === */
+.note-list { display: flex; flex-direction: column; gap: clamp(0.8rem, 2vh, 1.4rem); margin-top: clamp(1rem, 2.5vh, 2rem); }
+.note-item {
+  display: grid;
+  grid-template-columns: clamp(2rem, 4vw, 3rem) 1fr;
+  gap: clamp(0.8rem, 2vw, 1.5rem);
+  align-items: start;
+}
+.note-num {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 800;
+  color: var(--red);
+  font-style: italic;
+  line-height: 1;
+}
+.note-text {
+  font-size: clamp(0.85rem, 1.3vw, 1.1rem);
+  line-height: 1.55;
+  color: var(--bone);
+  border-left: 2px solid rgba(70, 184, 255, 0.3);
+  padding-left: clamp(0.8rem, 1.5vw, 1.3rem);
+}
+.note-text strong { color: var(--ivory); }
+
+/* === REFERENCES === */
+.refs-list { display: flex; flex-direction: column; gap: clamp(0.5rem, 1.2vh, 0.85rem); margin-top: clamp(0.8rem, 2vh, 1.5rem); counter-reset: ref; }
+.ref-item {
+  display: grid;
+  grid-template-columns: clamp(1.5rem, 3vw, 2.2rem) 1fr;
+  gap: clamp(0.6rem, 1.5vw, 1.2rem);
+  font-size: clamp(0.7rem, 1vw, 0.88rem);
+  line-height: 1.45;
+  padding-bottom: clamp(0.4rem, 1vh, 0.7rem);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.ref-num {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--cyan);
+  font-weight: 600;
+  font-size: clamp(0.65rem, 0.9vw, 0.78rem);
+}
+.ref-text { color: var(--bone); }
+.ref-text strong { color: var(--ivory); }
+.ref-text a { color: var(--cyan); text-decoration: none; border-bottom: 1px dotted var(--cyan); }
+.ref-text a:hover { color: var(--ivory); }
+.ref-text em { color: var(--muted); font-style: italic; }
+
+/* === END SLIDE === */
+.end-slide .slide-content { justify-content: center; align-items: center; text-align: center; gap: clamp(1rem, 3vh, 2rem); }
+.end-title {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 8vw, 7rem);
+  font-weight: 800;
+  font-style: italic;
+  background: linear-gradient(135deg, var(--ivory), var(--cyan), var(--red));
+  background-size: 200% auto;
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 6s linear infinite;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+}
+.end-sub { font-family: 'JetBrains Mono', monospace; color: var(--cyan); letter-spacing: 0.3em; text-transform: uppercase; font-size: clamp(0.75rem, 1.2vw, 1rem); }
+
+/* === NAV DOTS === */
+.nav-dots {
+  position: fixed; right: clamp(0.8rem, 2vw, 1.5rem); top: 50%;
+  transform: translateY(-50%);
+  display: flex; flex-direction: column; gap: 8px;
+  z-index: 100;
+}
+.nav-dots button {
+  width: 8px; height: 8px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: transparent; cursor: pointer;
+  padding: 0; transition: all 0.3s ease;
+}
+.nav-dots button.active {
+  background: var(--red); border-color: var(--red); transform: scale(1.4);
+  box-shadow: 0 0 12px var(--red-glow);
+}
+.nav-dots button:hover { border-color: var(--cyan); }
+
+/* === KEYBOARD HINT === */
+.kbd-hint {
+  position: fixed; bottom: clamp(0.6rem, 1.5vw, 1.2rem); left: 50%;
+  transform: translateX(-50%);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(0.55rem, 0.85vw, 0.72rem);
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.6;
+}
+.kbd-hint kbd { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); padding: 0.1em 0.5em; border-radius: 3px; margin: 0 0.2em; }
+
+</style>
+</head>
+<body>
+
+<!-- ============================================
+     SLIDE 1 — TITLE
+     ============================================ -->
+<section class="slide title-slide" id="s1">
+  <div class="chrome">
+    <span><span class="dot"></span>重症醫學雙週回顧 · LIVE</span>
+    <span class="pageno">01 / 16</span>
+  </div>
+  <div class="slide-content">
+    <div class="title-eyebrow reveal d1">第 04 卷 · 第 07 期 · 2026</div>
+    <h1 class="title-main reveal d2">重症醫學<br><em>雙週</em>期刊回顧</h1>
+    <div class="title-author reveal d4"><strong>謝慕揚 MD, PhD, FESC</strong></div>
+    <div class="title-meta reveal d5">
+      <span>期間<strong>2026·03·24 → 2026·04·07</strong></span>
+      <span>涵蓋期刊<strong>ICM · AJRCCM · CC · CCM · LRM</strong></span>
+      <span>收錄文獻<strong>10 篇主文 + 7 篇值得關注</strong></span>
+    </div>
+  </div>
+  <div class="foot">
+    <span>謝慕揚 MD, PhD, FESC</span>
+    <span class="accent">→ 滾動 / 方向鍵翻頁</span>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 2 — 8 KEY PEARLS
+     ============================================ -->
+<section class="slide" id="s2">
+  <div class="chrome"><span><span class="dot"></span>本期重點摘要</span><span class="pageno">02 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 重點摘要</div>
+    <h2 class="slide-title reveal d2">本期 <span class="accent">8 大</span> Pearls。</h2>
+    <div class="divider-line reveal d2"></div>
+    <div class="pearls-grid">
+      <div class="pearl reveal d3"><div class="pearl-num">PEARL 01</div><div class="pearl-title">Refractory septic shock 有共識定義</div><div class="pearl-body">SCCM/ESICM Delphi：NE-eq <strong>&gt;0.5 µg/kg/min</strong> + 復甦後仍灌流不全。</div></div>
+      <div class="pearl reveal d3"><div class="pearl-num">PEARL 02</div><div class="pearl-title">嚴重度 ≠ 免疫失調</div><div class="pearl-body">PCT + sTREM-1 + IL-6 三標記模型預測死亡，與臨床嚴重度獨立。</div></div>
+      <div class="pearl reveal d4"><div class="pearl-num">PEARL 03</div><div class="pearl-title">Non-ARDS 不需要高 PEEP</div><div class="pearl-body">RELAx Bayesian：低 PEEP 死亡率較佳的機率 <strong>72–89%</strong>。</div></div>
+      <div class="pearl reveal d4"><div class="pearl-num">PEARL 04</div><div class="pearl-title">測量身高、護女性肺</div><div class="pearl-body">35% 病人沒測身高；+1 mL/kg PBW → 死亡 <strong>HR 1.10</strong>。</div></div>
+      <div class="pearl reveal d5"><div class="pearl-num">PEARL 05</div><div class="pearl-title">Helmet CPAP &gt; HFNC</div><div class="pearl-body">Helmet CPAP @ PEEP 10 卸載呼吸功最強，可能降低 P-SILI 風險。</div></div>
+      <div class="pearl reveal d5"><div class="pearl-num">PEARL 06</div><div class="pearl-title">Remimazolam ≈ Propofol</div><div class="pearl-body">SHOSREB RCT：輕度鎮靜非劣性，可被 flumazenil 反轉、無 PRIS。</div></div>
+      <div class="pearl reveal d6"><div class="pearl-num">PEARL 07</div><div class="pearl-title">ARDS resolution 首份定義</div><div class="pearl-body">P/F &gt;300 持續 24 小時，PEEP ≤5，無輔助治療。Delphi 共識。</div></div>
+      <div class="pearl reveal d6"><div class="pearl-num">PEARL 08</div><div class="pearl-title">Frailty 影響休克預後</div><div class="pearl-body">CFS 獨立預測 cardiogenic shock 長期死亡率。</div></div>
+    </div>
+  </div>
+  <div class="foot"><span>重症醫學雙週回顧 · 2026-04-07</span><span class="accent">8 大 PEARLS</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 3 — ARTICLE 1: REFRACTORY SEPTIC SHOCK
+     ============================================ -->
+<section class="slide" id="s3">
+  <div class="chrome"><span><span class="dot"></span>文獻 01 · SEPSIS</span><span class="pageno">03 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ Sepsis · 國際共識</div>
+    <h2 class="slide-title reveal d2">Refractory septic shock — <span class="accent">首份國際定義</span>終於誕生。</h2>
+    <div class="slide-subtitle reveal d2">Leone M, Myatra SN, Dugar S, et al · <em>Intensive Care Med</em> 2026 · <a href="https://doi.org/10.1007/s00134-026-08344-2">DOI</a> · PMID 41874620</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">5 輪 Delphi · 56 位專家 · 34 條中 13 條達共識 · 8 個領域</span></div>
+        <div class="meta-row"><span class="meta-label">主辦學會</span><span class="meta-value">SCCM × ESICM</span></div>
+        <div class="meta-row"><span class="tag">Sepsis · 血流動力學</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div>
+          <span class="section-label">核心定義</span>
+          <p class="summary-text">完成初步液體復甦後，仍持續需要 <strong>norepinephrine-equivalent &gt;0.5 µg/kg/min</strong>（75% 同意），合併乳酸升高（94.6%）或 CRT 延長（76.8%），加上器官功能不全（75%）。懷疑混合性休克時應使用 <strong>critical care ultrasound</strong> 評估（92.9%）。</p>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>首份國際操作型閾值，為 ICU 臨床醫師提供明確的升階觸發點 — NE-eq &gt;0.5 + 灌流不全 — 用於救援治療、機械循環支持與臨床試驗收案。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 01 · Sepsis · ICM 2026</span><span class="accent">SCCM/ESICM</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 4 — ARTICLE 2: 3-BIOMARKER + CAPE COD
+     ============================================ -->
+<section class="slide" id="s4">
+  <div class="chrome"><span><span class="dot"></span>文獻 02 · 精準 SEPSIS</span><span class="pageno">04 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ Sepsis · 生物標記</div>
+    <h2 class="slide-title reveal d2">臨床嚴重度 <span class="accent">不等於</span> 免疫失調。</h2>
+    <div class="slide-subtitle reveal d2">Michels EHA, Dequin PF, Butler JM, et al · <em>Lancet Respir Med</em> 2026;14(4):327–340 · <a href="https://doi.org/10.1016/S2213-2600(25)00429-1">DOI</a> · PMID 41856148</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">隊列</span><span class="meta-value">Derivation n=398 · External validation n=1,191（5 個隊列）</span></div>
+        <div class="meta-row"><span class="meta-label">模型</span><span class="meta-value">PCT + sTREM-1 + IL-6 → DIP1–3 · 準確率 91.2%</span></div>
+        <div class="meta-row"><span class="tag">Sepsis · 精準醫療</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div class="stats">
+          <div class="stat"><div class="stat-label">cDIP +10% → 死亡</div><div class="stat-value red">OR 1.26</div></div>
+          <div class="stat"><div class="stat-label">cDIP +10% → 次發感染</div><div class="stat-value red">OR 1.50</div></div>
+          <div class="stat"><div class="stat-label">CAPE COD · DIP3 類固醇</div><div class="stat-value">OR 0.25</div></div>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>嚴重 CAP 的 hydrocortisone <strong>僅對免疫嚴重失調者</strong> 有存活益處。解釋了過去類固醇試驗結果不一致 — 並提供未來試驗床邊可行的 enrichment 策略。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 02 · 精準 Sepsis · LRM 2026</span><span class="accent">三標記模型</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 5 — ARTICLE 3: ARDS RESOLUTION
+     ============================================ -->
+<section class="slide" id="s5">
+  <div class="chrome"><span><span class="dot"></span>文獻 03 · ARDS</span><span class="pageno">05 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ ARDS · 共識定義</div>
+    <h2 class="slide-title reveal d2">定義 <span class="accent">ARDS resolution</span> — 終於到了。</h2>
+    <div class="slide-subtitle reveal d2">Weir TE, Fan E, Goligher EC, et al · <em>Crit Care Med</em> 2026 · <a href="https://doi.org/10.1097/CCM.0000000000007107">DOI</a> · PMID 41925519</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">3 輪 modified Delphi · 19 位 ARDS 專家</span></div>
+        <div class="meta-row"><span class="meta-label">產出</span><span class="meta-value">首份 ARDS resolution 操作型定義</span></div>
+        <div class="meta-row"><span class="tag">ARDS · 終點</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div>
+          <span class="section-label">兩條件定義</span>
+          <p class="summary-text"><strong>(1) 缺氧解除</strong> — PaO₂/FiO₂ &gt;300（或 SpO₂/FiO₂ &gt;315）持續 &gt;24 小時。<strong>(2) 呼吸支持回歸正常</strong> — 若仍插管，必須是非呼吸性原因、PEEP ≤5 cmH₂O，且無 prone / NMB / ECMO 等輔助治療。</p>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>提供臨床試驗、weaning 流程與預後溝通的標準終點 — 歷年來文獻定義不一的長期問題終於有解。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 03 · ARDS · CCM 2026</span><span class="accent">DELPHI 共識</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 6 — ARTICLE 4: RELAx BAYESIAN
+     ============================================ -->
+<section class="slide" id="s6">
+  <div class="chrome"><span><span class="dot"></span>文獻 04 · 機械通氣</span><span class="pageno">06 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 機械通氣 · Bayesian</div>
+    <h2 class="slide-title reveal d2">Non-ARDS 不需要 <span class="accent">高 PEEP</span>。</h2>
+    <div class="slide-subtitle reveal d2">Caroli A, Algera AG, van Meenen D, et al · <em>Crit Care Med</em> 2026 · <a href="https://doi.org/10.1097/CCM.0000000000007117">DOI</a> · PMID 41914828</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">Bayesian 重分析 · RELAx RCT · n=980 · PEEP 0–5 vs 8 cmH₂O</span></div>
+        <div class="meta-row"><span class="meta-label">對象</span><span class="meta-value">機械通氣、非 ARDS 的 ICU 病人</span></div>
+        <div class="meta-row"><span class="tag">ARDS · PEEP · Bayesian</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div class="stats">
+          <div class="stat"><div class="stat-label">VFD-28 低 PEEP 較佳機率</div><div class="stat-value">75–78%</div></div>
+          <div class="stat"><div class="stat-label">死亡率較佳機率</div><div class="stat-value red">72–89%</div></div>
+          <div class="stat"><div class="stat-label">通氣時間較佳機率</div><div class="stat-value">11–28%</div></div>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>非 ARDS 預設 <strong>physiologic PEEP 5</strong> 即至少與 PEEP 8 同樣好。常規在非 ARDS 使用較高 PEEP 沒有顯示益處，反而可能有害。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 04 · 機械通氣 · CCM 2026</span><span class="accent">RELAx</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 7 — ARTICLE 5: SEX × VT × MORTALITY
+     ============================================ -->
+<section class="slide" id="s7">
+  <div class="chrome"><span><span class="dot"></span>文獻 05 · 性別差異</span><span class="pageno">07 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 機械通氣 · 性別公平</div>
+    <h2 class="slide-title reveal d2">性別 × 潮氣容積 × <span class="accent">死亡率</span>。</h2>
+    <div class="slide-subtitle reveal d2">Urner M, Rojas-Saunero LP, Buyck K, et al · <em>Crit Care Med</em> 2026 · <a href="https://doi.org/10.1097/CCM.0000000000007103">DOI</a> · PMID 41914820</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">隊列</span><span class="meta-value">Toronto ICU registry · n=20,351 · 通氣 ≥24 小時 · 38% 女性</span></div>
+        <div class="meta-row"><span class="meta-label">方法</span><span class="meta-value">Bayesian joint model（含時變嚴重度）</span></div>
+        <div class="meta-row"><span class="tag">ARDS · 公平性</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div class="stats">
+          <div class="stat"><div class="stat-label">+1 mL/kg PBW → 死亡</div><div class="stat-value red">HR 1.10</div></div>
+          <div class="stat"><div class="stat-label">95% CrI</div><div class="stat-value">1.07–1.13</div></div>
+          <div class="stat"><div class="stat-label">無身高紀錄</div><div class="stat-value red">35%</div></div>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>女性病人肺保護不足貫穿整個 ICU 病程 — 根本原因是沒測身高、改用估計體重。<strong>測量並記錄身高</strong>是 ICU 中最簡單卻最有效的肺保護措施。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 05 · 性別公平 · CCM 2026</span><span class="accent">記得量身高</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 8 — ARTICLE 6: HFNC vs HELMET CPAP
+     ============================================ -->
+<section class="slide" id="s8">
+  <div class="chrome"><span><span class="dot"></span>文獻 06 · 非侵襲性呼吸支持</span><span class="pageno">08 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 非侵襲性呼吸支持</div>
+    <h2 class="slide-title reveal d2">Helmet CPAP 卸載了 <span class="accent">HFNC 做不到的</span>。</h2>
+    <div class="slide-subtitle reveal d2">Coppola S, Pelliccia M, Pozzi T, et al · <em>Crit Care Med</em> 2026 · <a href="https://doi.org/10.1097/CCM.0000000000007116">DOI</a> · PMID 41925582</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">生理學 crossover · n=33 位 AHRF 成人 · 4 種模式</span></div>
+        <div class="meta-row"><span class="meta-label">比較</span><span class="meta-value">COT · HFNC 60 L/min · Helmet CPAP @PEEP 5 / 10</span></div>
+        <div class="meta-row"><span class="tag">ARDS · 非侵襲性</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div>
+          <span class="section-label">結果</span>
+          <p class="summary-text">HFNC 與 helmet CPAP 皆顯著降低分鐘通氣量（8.8–9.3 vs 10.9 L/min，p&lt;0.001）。<strong>Helmet CPAP at PEEP 10</strong> 對吸氣努力（ΔPes）的降幅最大、氧合改善也最佳。</p>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>對自呼吸的 AHRF 病人，Helmet CPAP（PEEP 10）比 HFNC 更能卸載吸氣努力 — <strong>可能降低 P-SILI 風險</strong>。當 HFNC 反應不佳、又尚未需要插管時，這是合理的升階選項。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 06 · 非侵襲性呼吸支持 · CCM 2026</span><span class="accent">P-SILI</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 9 — ARTICLE 7: SHOSREB
+     ============================================ -->
+<section class="slide" id="s9">
+  <div class="chrome"><span><span class="dot"></span>文獻 07 · 鎮靜</span><span class="pageno">09 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 鎮靜 · RCT</div>
+    <h2 class="slide-title reveal d2">SHOSREB — <span class="accent">remimazolam</span> 非劣於 propofol。</h2>
+    <div class="slide-subtitle reveal d2">Yang X, Pan J, Gong X, et al · <em>Intensive Care Med</em> 2026 · <a href="https://doi.org/10.1007/s00134-026-08381-x">DOI</a> · PMID 41915173</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">多中心、單盲、非劣性 RCT · n=164</span></div>
+        <div class="meta-row"><span class="meta-label">對象</span><span class="meta-value">機械通氣需輕度鎮靜 ICU 病人（RASS −2 ~ +1）</span></div>
+        <div class="meta-row"><span class="tag">鎮靜 · 藥理</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div class="stats">
+          <div class="stat"><div class="stat-label">鎮靜成功率</div><div class="stat-value">97.5% / 97.5%</div></div>
+          <div class="stat"><div class="stat-label">差距</div><div class="stat-value">0%（−6.5 ~ 6.4）</div></div>
+          <div class="stat"><div class="stat-label">達標 RASS 時間</div><div class="stat-value">88.6 / 89.4 %</div></div>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>Remimazolam 為超短效 benzodiazepine，<strong>可用 flumazenil 反轉</strong>。當 propofol 禁忌時（高三酸甘油酯、嚴重血流動力學不穩、PRIS 風險）為合理替代 — 為輕度鎮靜工具箱新增選項。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 07 · 鎮靜 · ICM 2026</span><span class="accent">SHOSREB</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 10 — ARTICLE 8: FRAILTY × CGS
+     ============================================ -->
+<section class="slide" id="s10">
+  <div class="chrome"><span><span class="dot"></span>文獻 08 · 心因性休克</span><span class="pageno">10 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 血流動力學</div>
+    <h2 class="slide-title reveal d2">Frailty 影響 cardiogenic shock 的 <span class="accent">長期預後</span>。</h2>
+    <div class="slide-subtitle reveal d2">雙國 cohort · <em>Critical Care</em> 2026;30(1) · <a href="https://doi.org/10.1186/s13054-026-05962-6">DOI</a> · PMID 41882780</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">雙國多中心 cohort · 入院時 CFS 評估</span></div>
+        <div class="meta-row"><span class="meta-label">結局</span><span class="meta-value">CGS 後長期死亡率 · 校正休克嚴重度</span></div>
+        <div class="meta-row"><span class="tag">CGS · Frailty</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div>
+          <span class="section-label">結果</span>
+          <p class="summary-text">入院前 Clinical Frailty Scale 與長期死亡率呈 <strong>獨立相關</strong>，校正心因性休克嚴重度後仍顯著。支持 ICU 入院時常規進行 frailty 評估。</p>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>心因性休克的決策不能只看血流動力學。發病前 frailty 應納入 <strong>MCS / 心臟移植評估</strong>，以及 goals-of-care 與家屬溝通 — 超越單純的急性 SCAI stage。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 08 · 心因性休克 · CC 2026</span><span class="accent">CFS</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 11 — ARTICLE 9: STORM-ECMO
+     ============================================ -->
+<section class="slide" id="s11">
+  <div class="chrome"><span><span class="dot"></span>文獻 09 · ECMO + 電氣風暴</span><span class="pageno">11 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ ECMO · Electrical Storm</div>
+    <h2 class="slide-title reveal d2">STORM-ECMO — 要 <span class="accent">早期</span> ablation，不要拖。</h2>
+    <div class="slide-subtitle reveal d2">STORM-ECMO investigators · <em>Critical Care</em> 2026 · <a href="https://doi.org/10.1186/s13054-026-05969-z">DOI</a> · PMID 41877285</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">多中心 cohort · 難治型電氣風暴需 V-A ECMO 病人</span></div>
+        <div class="meta-row"><span class="meta-label">比較</span><span class="meta-value">早期 vs 延遲 VT catheter ablation</span></div>
+        <div class="meta-row"><span class="tag">ECMO · 心律</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div>
+          <span class="section-label">結果</span>
+          <p class="summary-text">在 V-A ECMO 上 <strong>早期 VT ablation</strong> 與較佳的 ECMO weaning 和存活率相關，優於延遲策略。ECMO 在此扮演 <em>enabling platform</em>，讓原本太不穩定的病人能進行確定性治療。</p>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>不要「等穩定」。在難治型 electrical storm，V-A ECMO <strong>本身就是穩定</strong> — 確定性 ablation 的時機不應被延遲。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 09 · ECMO + EP · CC 2026</span><span class="accent">STORM-ECMO</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 12 — ARTICLE 10: RILZABRUTINIB
+     ============================================ -->
+<section class="slide" id="s12">
+  <div class="chrome"><span><span class="dot"></span>文獻 10 · 氣喘</span><span class="pageno">12 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 胸腔 · Phase 2 RCT</div>
+    <h2 class="slide-title reveal d2">Rilzabrutinib 用於 <span class="accent">未控制氣喘</span>。</h2>
+    <div class="slide-subtitle reveal d2">Maspero JF, Pavord ID, Wechsler ME, et al · <em>Lancet Respir Med</em> 2026 · <a href="https://doi.org/10.1016/S2213-2600(25)00439-4">DOI</a> · PMID 41936356</div>
+    <div class="divider-line reveal d2"></div>
+    <div class="article-grid">
+      <div class="article-meta reveal d3">
+        <div class="meta-row"><span class="meta-label">研究設計</span><span class="meta-value">雙盲 phase 2 RCT · n=196 · 800 vs 1200 mg/d vs placebo</span></div>
+        <div class="meta-row"><span class="meta-label">機轉</span><span class="meta-value">口服 BTK inhibitor</span></div>
+        <div class="meta-row"><span class="tag">氣喘 · BTKi</span></div>
+      </div>
+      <div class="article-body reveal d4">
+        <div>
+          <span class="section-label">結果</span>
+          <p class="summary-text">Loss-of-asthma-control 事件：低劑量 38% vs 50%（p=0.29）、高劑量 19% vs 29%（p=0.21）— <strong>主要終點未達顯著</strong>。但 ACQ-5 從第 2 週起改善並持續到第 12 週（LSM −0.59 / −0.54，p&lt;0.05），即使控制藥已撤除。主要副作用：腹瀉。</p>
+        </div>
+        <div class="pearl-box">
+          <div class="pearl-box-label">★ 臨床意義</div>
+          <p>口服 BTK inhibition 為氣喘症狀控制的新機轉。ICU 臨床醫師處理嚴重發作時，將越來越需要熟悉病人本身使用的新型口服生物製劑。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>文獻 10 · 氣喘 · LRM 2026</span><span class="accent">BTKi</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 13 — HONORABLE MENTIONS
+     ============================================ -->
+<section class="slide" id="s13">
+  <div class="chrome"><span><span class="dot"></span>值得關注</span><span class="pageno">13 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 值得關注</div>
+    <h2 class="slide-title reveal d2">另外 <span class="accent">7 篇</span> 也值得追蹤。</h2>
+    <div class="divider-line reveal d2"></div>
+    <table class="honor-table reveal d3">
+      <thead><tr><th>主題</th><th>重點</th><th>期刊</th></tr></thead>
+      <tbody>
+        <tr><td>嚴重急性胰臟炎表型</td><td>K-means 分 3 phenotypes（n=3,022 + MIMIC-IV）；K2「腎優勢型」院內死亡率 44.8%</td><td>Crit Care</td></tr>
+        <tr><td>CRRT 劑量強度</td><td>低 vs 標準 — systematic review &amp; meta-analysis</td><td>Crit Care</td></tr>
+        <tr><td>ICU 肌肉萎縮超音波</td><td>預測功能性結局 — meta-analysis</td><td>Crit Care</td></tr>
+        <tr><td>流感相關肺部 aspergillosis</td><td>發生率與抗黴菌預防策略</td><td>Crit Care</td></tr>
+        <tr><td>DPP3 限制 angiotensin II 療效</td><td>敗血性休克 biomarker-guided 升壓藥選擇</td><td>Crit Care</td></tr>
+        <tr><td>韓國 LST Decision Act → IHCA</td><td>人口級 n=380,488 病人</td><td>Crit Care Med</td></tr>
+        <tr><td>百歲人瑞 ICU 結局（ANZICS）</td><td>≥100 歲入住 ICU 之結局</td><td>Crit Care</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="foot"><span>值得關注</span><span class="accent">7 篇研究</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 14 — EDITOR'S NOTE
+     ============================================ -->
+<section class="slide" id="s14">
+  <div class="chrome"><span><span class="dot"></span>本期觀察</span><span class="pageno">14 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 本期觀察</div>
+    <h2 class="slide-title reveal d2">本期 <span class="accent">4 點觀察</span>。</h2>
+    <div class="divider-line reveal d2"></div>
+    <div class="note-list">
+      <div class="note-item reveal d3"><div class="note-num">01</div><div class="note-text"><strong>AJRCCM</strong> 在此 2 週窗口 PubMed 無收錄文章 — 可能為 issue gap，下次回顧再補。</div></div>
+      <div class="note-item reveal d4"><div class="note-num">02</div><div class="note-text">兩份 <strong>Delphi 共識</strong>同時登場（refractory septic shock 與 ARDS resolution）。重症醫學已進入「<em>定義精準化</em>」的時代 — 為下一代臨床試驗鋪路。</div></div>
+      <div class="note-item reveal d5"><div class="note-num">03</div><div class="note-text"><strong>Precision sepsis</strong> 邁出實質一步：免疫表型優於臨床嚴重度來分層類固醇反應。生物標記引導的 trial enrichment 在床邊已可行。</div></div>
+      <div class="note-item reveal d6"><div class="note-num">04</div><div class="note-text"><strong>肺保護通氣的差距</strong>依然存在 — 而根本原因很單純：35% 病人沒有身高紀錄。ICU 中最簡單的公平性介入，就是一支捲尺。</div></div>
+    </div>
+  </div>
+  <div class="foot"><span>本期觀察</span><span class="accent">4 點觀察</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 15 — REFERENCES
+     ============================================ -->
+<section class="slide" id="s15">
+  <div class="chrome"><span><span class="dot"></span>參考文獻</span><span class="pageno">15 / 16</span></div>
+  <div class="slide-content">
+    <div class="section-num reveal d1">§ 參考文獻 · Vancouver 格式</div>
+    <h2 class="slide-title reveal d2">全部 <span class="accent">10 篇文獻</span> · 附超連結。</h2>
+    <div class="divider-line reveal d2"></div>
+    <div class="refs-list">
+      <div class="ref-item reveal d3"><div class="ref-num">01</div><div class="ref-text">Leone M, Myatra SN, Dugar S, et al. <strong>Refractory septic shock: a SCCM/ESICM Delphi consensus.</strong> <em>Intensive Care Med</em>. 2026 Mar 24. <a href="https://doi.org/10.1007/s00134-026-08344-2">doi:10.1007/s00134-026-08344-2</a> · PMID 41874620</div></div>
+      <div class="ref-item reveal d3"><div class="ref-num">02</div><div class="ref-text">Yang X, Pan J, Gong X, et al. <strong>Remimazolam vs propofol for light sedation in MV ICU patients (SHOSREB).</strong> <em>Intensive Care Med</em>. 2026 Mar 31. <a href="https://doi.org/10.1007/s00134-026-08381-x">doi:10.1007/s00134-026-08381-x</a> · PMID 41915173</div></div>
+      <div class="ref-item reveal d4"><div class="ref-num">03</div><div class="ref-text">Michels EHA, Dequin PF, Butler JM, et al. <strong>Quantifying immune dysregulation in sepsis with a 3-biomarker model: derivation, validation and CAPE COD reanalysis.</strong> <em>Lancet Respir Med</em>. 2026;14(4):327–340. <a href="https://doi.org/10.1016/S2213-2600(25)00429-1">doi:10.1016/S2213-2600(25)00429-1</a> · PMID 41856148</div></div>
+      <div class="ref-item reveal d4"><div class="ref-num">04</div><div class="ref-text">Weir TE, Fan E, Goligher EC, et al. <strong>Defining ARDS resolution: a modified Delphi consensus.</strong> <em>Crit Care Med</em>. 2026. <a href="https://doi.org/10.1097/CCM.0000000000007107">doi:10.1097/CCM.0000000000007107</a> · PMID 41925519</div></div>
+      <div class="ref-item reveal d5"><div class="ref-num">05</div><div class="ref-text">Caroli A, Algera AG, van Meenen D, et al. <strong>Lower vs higher PEEP in non-ARDS ICU patients: Bayesian reanalysis of RELAx.</strong> <em>Crit Care Med</em>. 2026. <a href="https://doi.org/10.1097/CCM.0000000000007117">doi:10.1097/CCM.0000000000007117</a> · PMID 41914828</div></div>
+      <div class="ref-item reveal d5"><div class="ref-num">06</div><div class="ref-text">Coppola S, Pelliccia M, Pozzi T, et al. <strong>HFNC vs helmet CPAP vs conventional oxygen in AHRF: a physiologic crossover study.</strong> <em>Crit Care Med</em>. 2026. <a href="https://doi.org/10.1097/CCM.0000000000007116">doi:10.1097/CCM.0000000000007116</a> · PMID 41925582</div></div>
+      <div class="ref-item reveal d6"><div class="ref-num">07</div><div class="ref-text">Urner M, Rojas-Saunero LP, Buyck K, et al. <strong>Sex-specific tidal volumes and mortality in mechanically ventilated patients.</strong> <em>Crit Care Med</em>. 2026. <a href="https://doi.org/10.1097/CCM.0000000000007103">doi:10.1097/CCM.0000000000007103</a> · PMID 41914820</div></div>
+      <div class="ref-item reveal d6"><div class="ref-num">08</div><div class="ref-text"><strong>Frailty and long-term mortality in cardiogenic shock: a binational cohort.</strong> <em>Crit Care</em>. 2026;30(1). <a href="https://doi.org/10.1186/s13054-026-05962-6">doi:10.1186/s13054-026-05962-6</a> · PMID 41882780</div></div>
+      <div class="ref-item reveal d7"><div class="ref-num">09</div><div class="ref-text">STORM-ECMO investigators. <strong>Timing of catheter ablation in electrical storm on V-A ECMO.</strong> <em>Crit Care</em>. 2026. <a href="https://doi.org/10.1186/s13054-026-05969-z">doi:10.1186/s13054-026-05969-z</a> · PMID 41877285</div></div>
+      <div class="ref-item reveal d7"><div class="ref-num">10</div><div class="ref-text">Maspero JF, Pavord ID, Wechsler ME, et al. <strong>Rilzabrutinib in moderate-to-severe uncontrolled asthma: a phase 2 RCT.</strong> <em>Lancet Respir Med</em>. 2026 Apr 2. <a href="https://doi.org/10.1016/S2213-2600(25)00439-4">doi:10.1016/S2213-2600(25)00439-4</a> · PMID 41936356</div></div>
+    </div>
+  </div>
+  <div class="foot"><span>參考文獻 · Vancouver 格式</span><span class="accent">10 篇文獻</span></div>
+</section>
+
+<!-- ============================================
+     SLIDE 16 — END
+     ============================================ -->
+<section class="slide end-slide" id="s16">
+  <div class="chrome"><span><span class="dot"></span>結束 · Q&amp;A</span><span class="pageno">16 / 16</span></div>
+  <div class="slide-content">
+    <div class="title-eyebrow reveal d1" style="justify-content:center;">重症醫學雙週回顧 · 2026·04·07</div>
+    <h1 class="end-title reveal d2">謝謝聆聽</h1>
+    <div class="end-sub reveal d3">提問 · 討論 · 喝杯咖啡</div>
+    <div class="title-author reveal d4" style="margin-top:1em;"><strong>謝慕揚 MD, PhD, FESC</strong></div>
+  </div>
+</section>
+
+<!-- === NAV === -->
+<div class="nav-dots" id="navDots"></div>
+<div class="kbd-hint"><kbd>↑</kbd> <kbd>↓</kbd> 翻頁 · <kbd>Home</kbd> 第一頁 · <kbd>End</kbd> 最後一頁</div>
+
+<script>
+/* === SLIDE INTERSECTION OBSERVER (triggers per-slide animations) === */
+const slides = document.querySelectorAll('.slide');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      const idx = Array.from(slides).indexOf(e.target);
+      document.querySelectorAll('.nav-dots button').forEach((b, i) => b.classList.toggle('active', i === idx));
+    }
+  });
+}, { threshold: 0.5 });
+slides.forEach(s => observer.observe(s));
+
+/* === NAV DOTS === */
+const nav = document.getElementById('navDots');
+slides.forEach((s, i) => {
+  const b = document.createElement('button');
+  b.title = `Slide ${i + 1}`;
+  b.addEventListener('click', () => s.scrollIntoView({ behavior: 'smooth' }));
+  nav.appendChild(b);
+});
+
+/* === KEYBOARD NAV === */
+let current = 0;
+function go(n) {
+  current = Math.max(0, Math.min(slides.length - 1, n));
+  slides[current].scrollIntoView({ behavior: 'smooth' });
+}
+document.addEventListener('keydown', (e) => {
+  const visible = Array.from(slides).findIndex(s => s.classList.contains('visible'));
+  if (visible >= 0) current = visible;
+  if (['ArrowDown', 'ArrowRight', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); go(current + 1); }
+  else if (['ArrowUp', 'ArrowLeft', 'PageUp'].includes(e.key)) { e.preventDefault(); go(current - 1); }
+  else if (e.key === 'Home') { e.preventDefault(); go(0); }
+  else if (e.key === 'End') { e.preventDefault(); go(slides.length - 1); }
+});
+</script>
+</body>
+</html>
