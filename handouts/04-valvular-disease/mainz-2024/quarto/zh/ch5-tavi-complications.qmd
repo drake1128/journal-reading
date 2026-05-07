@@ -1,0 +1,213 @@
+---
+title: "附錄 — TAVI 併發症 Case Library"
+lang: zh-TW
+bibliography: []
+---
+
+::: {.callout-note}
+## 關於本章節
+
+本章節整理 **JACC Case Reports**、**JACC: Cardiovascular Interventions**、**Circulation: Cardiovascular Interventions** 三本期刊歷年所有與 TAVI 併發症相關的 case reports。每一篇都附 PubMed 與 DOI 連結，方便日後逐篇講義化。
+
+**搜尋日期**：2026-05-07
+**資料來源**：PubMed
+**搜尋條件**：`(TAVR OR TAVI OR "transcatheter aortic valve") AND (complication OR complications)`，限定 publication type = Case Reports
+
+✓ = 已下載 PDF；✗ = 付費或新文章未索引（請點 DOI 連結至期刊網站取得全文）
+:::
+
+---
+
+## 1. Coronary Obstruction — 冠狀動脈阻塞
+
+### 概念與機轉
+
+冠狀動脈阻塞 (coronary obstruction) 雖罕見（~1% 原生瓣 TAVI；valve-in-valve 可達 2–4%），但**死亡率極高（30–40%）**。三種發生時點：
+
+1. **Acute（術中或術後立即）** — THV 將原生／舊瓣葉壓向冠狀動脈口
+2. **Subacute / Delayed（數小時到數天）** — leaflet 緩慢移位、血栓延伸
+3. **Late（數月後）** — sinus sequestration、PVL closure 裝置或 chimney stent failure
+
+### 高危解剖（pre-TAVI MDCT 預測因子）
+
+- **Coronary height** < 12 mm（左主冠狀動脈高度更敏感）
+- **Sinus of Valsalva 平均直徑** < 30 mm
+- **Sino-tubular junction (STJ)** < 27 mm
+- **Annular area** < 3.9 cm²
+- Valve-in-valve：surgical valve 為 **stented bioprosthesis with externally mounted leaflets**（如 Mitroflow、Trifecta），或缺乏 commissural alignment
+- Bicuspid valve、leaflet 長且鈣化嚴重
+
+### 預防策略
+
+1. **Pre-TAVI 平面影像**評估 LCH、SoV、STJ
+2. **Commissural alignment** 對 self-expandable valve（如 Evolut FX）至關重要
+3. **BASILICA**（leaflet laceration）— 詳見下節
+4. **Chimney / snorkel stenting** — 預先在主冠狀動脈植入 stent
+5. **Coronary protection wire**（pre-emptive wire 在主冠狀動脈內待命）
+
+### 處置
+
+- **Bailout PCI**（多需用 GuideLiner / Mother-and-child catheter）
+- **VA-ECMO** 為循環支持的 first-line（Golzarian 2025 報告 LA-VA-ECMO 救援）
+- 若 PCI 失敗，需考慮 surgical conversion 或 redo TAVR
+
+### 案例庫
+
+#### 已下載 PDF (✓)
+
+| 年 | 第一作者 | 標題重點 | PMID | 檔案 |
+|----|---------|---------|------|------|
+| 2026 | Jha | Post-MI VSD Percutaneous Closure | [41925257](https://pubmed.ncbi.nlm.nih.gov/41925257/) | `41925257_Jha_2026.pdf` |
+| 2026 | Kodesh | RCA STEMI + severe MR cardiogenic shock | [41784304](https://pubmed.ncbi.nlm.nih.gov/41784304/) | `41784304_Kodesh_2026.pdf` |
+| 2025 | Ackermann | **Subclinical delayed coronary ostial obstruction** with high-frame THV | [40681254](https://pubmed.ncbi.nlm.nih.gov/40681254/) | `40681254_Ackermann_2025.pdf` |
+| 2025 | D'Errico Ramirez | **Septic coronary embolism + myocardial rupture** after VIV-TAVR endocarditis | [41136048](https://pubmed.ncbi.nlm.nih.gov/41136048/) | `41136048_D_Errico_Ramirez_2025.pdf` |
+| 2025 | Golzarian | **VIV-TAVR + LM obstruction salvaged by LA-VA-ECMO** | [40118636](https://pubmed.ncbi.nlm.nih.gov/40118636/) | `40118636_Golzarian_2025.pdf` |
+| 2025 | Hakim | **Multivessel coronary spasm + cardiac arrest** during TAVR | [41128692](https://pubmed.ncbi.nlm.nih.gov/41128692/) | `41128692_Hakim_2025.pdf` |
+| 2025 | Lateef | **LM obstruction from PVL closure device** post-SAVR | [41005842](https://pubmed.ncbi.nlm.nih.gov/41005842/) | `41005842_Lateef_2025.pdf` |
+| 2025 | Love | **NSTEMI from embolic prosthetic valve thrombus** post-TAVR | [41108318](https://pubmed.ncbi.nlm.nih.gov/41108318/) | `41108318_Love_2025.pdf` |
+| 2025 | Ostojic | **STEMI from embolized THV in ascending aorta** | [39963208](https://pubmed.ncbi.nlm.nih.gov/39963208/) | `39963208_Ostojic_2025.pdf` |
+| 2025 | Sava | **Orthotopic LM chimney stenting** to prevent stent compression | [40345731](https://pubmed.ncbi.nlm.nih.gov/40345731/) | `40345731_Sava_2025.pdf` |
+| 2025 | Taniguchi | **Acute RCA occlusion** during bicuspid TAVR | [41043937](https://pubmed.ncbi.nlm.nih.gov/41043937/) | `41043937_Taniguchi_2025.pdf` |
+| 2019 | Nour | **Late chimney stent failure** post-VIV-TAVR → cardiogenic shock | [34316815](https://pubmed.ncbi.nlm.nih.gov/34316815/) | `34316815_Nour_2019.pdf` |
+
+#### 待下載（DOI 連結）(✗)
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Chen | Combined strategy for **small ventricle + low coronary ostia** | [10.1016/j.jaccas.2026.108304](https://doi.org/10.1016/j.jaccas.2026.108304) |
+| 2026 | Frisoli | **LM obstruction after THV for AR**（純 AR 適應症的 TAVI） | [10.1016/j.jaccas.2025.106294](https://doi.org/10.1016/j.jaccas.2025.106294) |
+| 2026 | Xu | **Physiology-guided strategy** for high-risk coronary obstruction | [10.1016/j.jaccas.2026.108251](https://doi.org/10.1016/j.jaccas.2026.108251) |
+| 2018 | Glassy | **Delayed LM narrowing** from native leaflet（Lotus valve） | [10.1016/j.jcin.2018.01.241](https://doi.org/10.1016/j.jcin.2018.01.241) |
+| 2018 | Yoshida | **Successful reopening of LM occlusion** post-TAVR | [10.1016/j.jcin.2017.11.017](https://doi.org/10.1016/j.jcin.2017.11.017) |
+| 2017 | Spaziano | Simultaneous TAVR + **LM chimney** for low LM height | [10.1016/j.jcin.2017.06.047](https://doi.org/10.1016/j.jcin.2017.06.047) |
+| 2016 | Broyd | Late RCA semiocclusion by **Direct Flow valve** preventing PCI for STEMI | [10.1016/j.jcin.2016.05.016](https://doi.org/10.1016/j.jcin.2016.05.016) |
+| 2016 | Kaneko | **Multivessel coronary artery spasm** post-TAVR | [10.1016/j.jcin.2016.01.022](https://doi.org/10.1016/j.jcin.2016.01.022) |
+| 2015 | Lugomirski | **Late LM impingement** post-TAVR | [10.1016/j.jcin.2015.03.033](https://doi.org/10.1016/j.jcin.2015.03.033) |
+| 2015 | Price | **LM ostium impingement after PVL device occlusion** post-TAVR | [10.1016/j.jcin.2014.07.027](https://doi.org/10.1016/j.jcin.2014.07.027) |
+| 2015 | Wolf | Successful repositioning of **Direct Flow valve** for acute RCA occlusion | [10.1016/j.jcin.2013.11.030](https://doi.org/10.1016/j.jcin.2013.11.030) |
+| 2014 | Acosta-Vélez | Acute artery occlusion in **anomalous origin LCx** | [10.1016/j.jcin.2014.05.034](https://doi.org/10.1016/j.jcin.2014.05.034) |
+
+> 案例庫共 24 篇（已篩除 5 篇與 TAVI 無直接關係但被搜尋演算法歸入此類者）。
+
+---
+
+## 2. BASILICA — Bioprosthetic Aortic Scallop Intentional Laceration to prevent Coronary Artery obstruction
+
+### 概念
+
+BASILICA 由 NIH（Khan / Lederman 等）發展，**透過 catheter 故意撕裂高風險瓣葉（native 或 bioprosthetic），使瓣葉裂開後不會在 TAVI 後阻擋冠狀動脈口**。常見於 valve-in-valve TAVR 或低 coronary height 病人。
+
+### 步驟簡述
+
+1. 雙系統 access：左股動脈 + 右股動脈（或 transseptal）
+2. 用 occlusion balloon 或 deflectable catheter 將 **electrified guidewire** 引導至目標瓣葉中央
+3. 通電（electrosurgery cutting）使 wire 穿過瓣葉
+4. 用 snare 在另一側捕捉 wire，形成 wire externalization
+5. 拉鋸 wire（或 traction），裂開瓣葉
+6. 立即進行 TAVI（或 VIV-TAVR）
+
+### 變體 — UNICORN / Modified UNICORN
+
+**UNICORN**（Universal Native Intentional Cusp Removal of Native）改良版（Giustino 2025），加入 balloon-assisted leaflet laceration 步驟。
+
+### 案例庫
+
+#### 已下載 PDF (✓)
+
+| 年 | 第一作者 | 標題重點 | PMID | 檔案 |
+|----|---------|---------|------|------|
+| 2025 | Fang | **「Do Not BASILICA the New Valve」** — 警示 BASILICA 不能在新植入的 THV 上做 | [40480773](https://pubmed.ncbi.nlm.nih.gov/40480773/) | `40480773_Fang_2025.pdf` |
+| 2025 | Ghoneem | **First-in-Human BASILICA before VIV-TAVR in mechanically expanded legacy valve** | [40589295](https://pubmed.ncbi.nlm.nih.gov/40589295/) | `40589295_Ghoneem_2025.pdf` |
+| 2025 | Giustino | **Step-by-step Modified UNICORN** — Balloon-assisted leaflet laceration | [40750151](https://pubmed.ncbi.nlm.nih.gov/40750151/) | `40750151_Giustino_2025.pdf` |
+
+> 目前 case library 只有 3 篇 BASILICA 直接相關 case reports。背景文獻 (Khan SS 2018 Circulation, Khan JM 2019 JACC Cardiovasc Interv, BASILICA IDE Study 2019 JACC Cardiovasc Interv) 為 BASILICA 的方法學基礎，**非 case report 形式，未納入此 case library**。
+
+> ⚠️ **Fang 2025 的警告**：BASILICA 是針對「需要做 TAVI 的高風險病人，事先處理 native/old-bio 瓣葉」。**不能對剛植入的新 THV 進行 BASILICA**——新 THV 的 leaflets 在裝置內非自由 leaflet，技術不適用且可能造成嚴重後果。
+
+---
+
+## 3. Annular / Aortic Root Rupture — 環口／主動脈根部破裂
+
+### 概念與機轉
+
+**Aortic annular rupture (AAR)** 是 TAVI 最嚴重的急性併發症之一，**發生率 0.5–1%**，但 **30 天死亡率高達 50%**。多在 balloon-expandable valve 部署時或 post-dilation 時發生。
+
+### 危險因子（pre-TAVI MDCT 評估）
+
+- **LVOT/sub-annular calcium volume**（Agatston score 顯著升高，OR 較高）
+- **Annular oversizing > 20%**（area-based）
+- **Bicuspid AV with eccentric calcification**
+- **Small annulus + heavy calcification**
+- 老舊 SAVR 接 redo（外科環）
+
+### 病理生理
+
+過度撐脹 + 鈣化 plaque 撕裂 → 透過 LVOT 鈣化點延伸到主動脈根部、sinus、annulus 或 LV myocardium。
+
+### 表現
+
+- **Contained rupture**：心包腔少量血液堆積，血壓暫時下降，可保守 / catheter 處置
+- **Free rupture**：tamponade、迅速休克、需急診手術或 ECPR
+- **Late presentation**：late contained rupture（術後數天 / 數月才出現）—— 詳見 Ochiai 2019
+
+### 預防
+
+1. Pre-TAVI **MDCT-based annular sizing**（避免 oversizing）
+2. **LVOT calcium grading** + pre-emptive 選擇 self-expandable valve
+3. 對重度 LVOT 鈣化考慮 **avoid balloon-expandable** 或 **reduce post-dilation**
+4. Bicuspid + LVOT 鈣化 → 個案討論
+
+### 處置
+
+- **Contained**：穩定 → conservative + serial imaging；EVAR-style covered stent for distal extension（如 Vidoni 2025 雙穿刺 percutaneous repair）
+- **Free**：ECPR、call surgery、conversion to AVR + root repair
+- **Type A dissection 變體**：Yamaguchi 2021 報告以 carotid stent 處理 cerebral malperfusion 後 emergency surgery
+
+### 案例庫
+
+#### 已下載 PDF (✓)
+
+| 年 | 第一作者 | 標題重點 | PMID | 檔案 |
+|----|---------|---------|------|------|
+| 2025 | Kobari | **ICE-guided false lumen occlusion** post-TAVR + TEVAR combined | [41186541](https://pubmed.ncbi.nlm.nih.gov/41186541/) | `41186541_Kobari_2025.pdf` |
+| 2025 | Ma | **Acute type A dissection during TAVR bailout** with self-expanding valve | [40252068](https://pubmed.ncbi.nlm.nih.gov/40252068/) | `40252068_Ma_2025.pdf` |
+| 2025 | Vidoni | **Dual percutaneous repair for annular rupture** after BE-TAVR | [40944680](https://pubmed.ncbi.nlm.nih.gov/40944680/) | `40944680_Vidoni_2025.pdf` |
+| 2022 | El Nihum | **Surgical salvage of annular rupture** by conversion to annular enlargement | [36444183](https://pubmed.ncbi.nlm.nih.gov/36444183/) | `36444183_El_Nihum_2022.pdf` |
+| 2021 | Yamaguchi | **Rescue carotid stenting for cerebral malperfusion** with acute type A dissection post-TAVR | [34766022](https://pubmed.ncbi.nlm.nih.gov/34766022/) | `34766022_Yamaguchi_2021.pdf` |
+| 2020 | Kellogg | **Percutaneous management of contained annular rupture** with SE-TAVR | [34317066](https://pubmed.ncbi.nlm.nih.gov/34317066/) | `34317066_Kellogg_2020.pdf` |
+
+#### 待下載（DOI 連結）(✗)
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Jadvani | **Late sinus of Valsalva sequestration** post-TAVI in native AV | [10.1016/j.jaccas.2026.108016](https://doi.org/10.1016/j.jaccas.2026.108016) |
+| 2026 | Liu | **Transapical TAVR in AR with chronic type A dissection** | [10.1016/j.jaccas.2026.107820](https://doi.org/10.1016/j.jaccas.2026.107820) |
+| 2020 | Ro | **Murphy's Law / Domino effect**: severe aortic annular calcification | [10.1161/CIRCIMAGING.119.010162](https://doi.org/10.1161/CIRCIMAGING.119.010162) |
+| 2019 | Amano | **Stabilized sinus of Valsalva aneurysm** post-CoreValve | [10.1016/j.jcin.2018.10.011](https://doi.org/10.1016/j.jcin.2018.10.011) |
+| 2019 | Ochiai | **Late contained aortic root rupture** post-TAVR for bicuspid AS | [10.1016/j.jcin.2019.04.044](https://doi.org/10.1016/j.jcin.2019.04.044) |
+| 2018 | Yaku | **3D printed model** to simulate TAVI in IMH + PAU of aortic arch | [10.1161/CIRCINTERVENTIONS.118.006925](https://doi.org/10.1161/CIRCINTERVENTIONS.118.006925) |
+| 2017 | Pu | **Transcatheter closure of aortic anastomosis leak** with patent Cabrol shunt | [10.1016/j.jcin.2017.06.011](https://doi.org/10.1016/j.jcin.2017.06.011) |
+| 2016 | Oda | **1-year follow-up of contained aortic root rupture** post-TAVR | [10.1016/j.jcin.2015.10.037](https://doi.org/10.1016/j.jcin.2015.10.037) |
+| 2015 | Saji | **Anterior mitral leaflet perforation** during TAVR with mitral annular Ca | [10.1016/j.jcin.2015.06.027](https://doi.org/10.1016/j.jcin.2015.06.027) |
+| 2014 | Hendry | TAVR in patient with **sinus of Valsalva aneurysm** | [10.1016/j.jcin.2013.07.021](https://doi.org/10.1016/j.jcin.2013.07.021) |
+| 2013 | Dahdouh | **Aortic arch rupture** during TAVI（致命罕見併發症） | [10.1016/j.jcin.2012.08.029](https://doi.org/10.1016/j.jcin.2012.08.029) |
+
+---
+
+## 後續整理計畫
+
+依目前下載到的 case reports，預計後續可加入：
+
+1. **Vascular Access / Bleeding / Iliofemoral Closure**（25 篇，10 已下載）
+2. **Valve Embolization / Migration / Dislocation**（20 篇，11 已下載）
+3. **Mitral Injury / SAM / LVOT Obstruction / Suicide LV**（18 篇，13 已下載）
+4. **Paravalvular Leak (PVL)**（15 篇，12 已下載）
+5. **Thrombosis / Leaflet / HALT**（13 篇，8 已下載）
+6. **Bicuspid / Special Anatomy**（11 篇，8 已下載）
+7. **Endocarditis / Infection**（7 篇，5 已下載）
+8. **Iatrogenic VSD / Septal Injury / Fistula**（6 篇，4 已下載）
+9. **Multi-valve / Combined Procedures**（6 篇，6 已下載）
+10. **Procedural Rescue / Snare / Wire Loss**（5 篇，4 已下載）
+11. ...其餘共 19 個主題分類
+
+完整分類索引：`download/CATEGORIES.md`

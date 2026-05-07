@@ -12,4 +12,5 @@ lang: zh-TW
 2. [附錄 — TEER](ch2-teer.qmd) — 二尖瓣與三尖瓣經導管緣對緣修復
 3. [附錄 — TAVI in AS](ch3-tavi-as.qmd) — 經導管主動脈瓣膜植入術（主動脈狹窄）
 4. [附錄 — TAVI in AR](ch4-tavi-ar.qmd) — 經導管主動脈瓣膜植入術（主動脈逆流）
-5. [致謝](ch5-acknowledgements.qmd)
+5. [附錄 — TAVI 併發症 Case Library](ch5-tavi-complications.qmd) — Coronary Obstruction、BASILICA、Annular Root Rupture
+6. [致謝](ch6-acknowledgements.qmd)
