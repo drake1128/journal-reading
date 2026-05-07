@@ -14,6 +14,9 @@ handouts/**/*.html
 # Original papers (copyright + large)
 *_original.pdf
 
+# TAVI case report PDFs (downloadable references — see download/INDEX.md)
+download/*.pdf
+
 # Media files (too large)
 *.mp3
 *.mp4

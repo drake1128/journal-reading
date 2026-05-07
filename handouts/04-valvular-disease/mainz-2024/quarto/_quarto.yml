@@ -25,7 +25,8 @@ website:
         - zh/ch2-teer.qmd
         - zh/ch3-tavi-as.qmd
         - zh/ch4-tavi-ar.qmd
-        - zh/ch5-acknowledgements.qmd
+        - zh/ch5-tavi-complications.qmd
+        - zh/ch6-acknowledgements.qmd
     - title: "English"
       style: docked
       contents:
