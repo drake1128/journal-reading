@@ -508,4 +508,9 @@ format:
     toc-depth: 3
     number-sections: true
     lang: zh-TW
-    embed-resources: true
+    # embed-resources: true was inlining ~321 MB of TAVI complication figures
+    # into ch5 HTML as base64, pushing the rendered _site over the 1 GB Pages
+    # artifact ceiling and causing ch5 to be served truncated mid-base64-string.
+    # With this off, images are referenced as separate files (still bundled in
+    # the artifact) and total artifact size drops below 1 GB.
+    embed-resources: false
