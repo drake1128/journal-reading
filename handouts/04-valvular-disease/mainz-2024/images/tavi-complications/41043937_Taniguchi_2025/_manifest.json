@@ -1,0 +1,54 @@
+{
+  "pdf": "41043937_Taniguchi_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 1071,
+      "height": 1034,
+      "ext": "png",
+      "bytes": 284839
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1750,
+      "height": 1231,
+      "ext": "png",
+      "bytes": 1881467
+    },
+    {
+      "file": "fig-03_p3.png",
+      "page": 3,
+      "width": 1600,
+      "height": 697,
+      "ext": "png",
+      "bytes": 1068954
+    },
+    {
+      "file": "fig-04_p4.png",
+      "page": 4,
+      "width": 1644,
+      "height": 1639,
+      "ext": "png",
+      "bytes": 1539963
+    },
+    {
+      "file": "fig-05_p5.png",
+      "page": 5,
+      "width": 1345,
+      "height": 833,
+      "ext": "png",
+      "bytes": 2128783
+    },
+    {
+      "file": "fig-06_p5.png",
+      "page": 5,
+      "width": 797,
+      "height": 755,
+      "ext": "png",
+      "bytes": 493714
+    }
+  ]
+}

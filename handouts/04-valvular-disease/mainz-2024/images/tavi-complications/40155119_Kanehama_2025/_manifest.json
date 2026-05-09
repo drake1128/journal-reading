@@ -1,0 +1,38 @@
+{
+  "pdf": "40155119_Kanehama_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1694,
+      "height": 1142,
+      "ext": "jpeg",
+      "bytes": 349919
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1694,
+      "height": 1486,
+      "ext": "jpeg",
+      "bytes": 432497
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1694,
+      "height": 1331,
+      "ext": "jpeg",
+      "bytes": 314470
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1943,
+      "height": 1403,
+      "ext": "jpeg",
+      "bytes": 419190
+    }
+  ]
+}

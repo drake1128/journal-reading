@@ -1,0 +1,46 @@
+{
+  "pdf": "40713119_Olorunda_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 1043,
+      "ext": "jpeg",
+      "bytes": 88539
+    },
+    {
+      "file": "fig-02_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 730,
+      "ext": "jpeg",
+      "bytes": 165911
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1495,
+      "height": 1299,
+      "ext": "jpeg",
+      "bytes": 382510
+    },
+    {
+      "file": "fig-04_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 630,
+      "ext": "jpeg",
+      "bytes": 50212
+    },
+    {
+      "file": "fig-05_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 1043,
+      "ext": "jpeg",
+      "bytes": 84248
+    }
+  ]
+}

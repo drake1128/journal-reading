@@ -1,0 +1,565 @@
+
+=== PAGE 1 ===
+CASE REPORT
+CLINICAL CASE
+Impact of VA-ECMO on Dynamic
+LV Outﬂow Obstruction After
+Transcatheter Aortic Valve Replacement
+Juan Torrado, MD, PHD,a,b Diego Barzallo, MD,a Juan A. Terré, MD,c César Joel Benites-Moya, MD,a Saúl Ríos, MD,b
+Mario García, MD,b Mei Chau, MD,b José Wiley, MD, MPH,c Azeem Latib, MDb
+ABSTRACT
+Dynamic left ventricular outﬂow obstruction is a rare but severe complication of transcatheter aortic valve
+replacement. It presents as a paradoxical hemodynamic collapse after relieving the left ventricular afterload.
+Considering its unique pathophysiology, this entity dictates counterintuitive treatments. We describe a case of left
+ventricular outﬂow obstruction treated with venoarterial extracorporeal membrane oxygenation and discuss its
+management principles. (J Am Coll Cardiol Case Rep 2024;29:102157) © 2024 The Authors. Published by Elsevier on
+behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+An 80-year-old man presented to the emergency
+department with shortness of breath. On admission,
+his blood pressure (BP) was 186/64 mm Hg, heart rate
+was 82 beats/min, respirations were 25 breaths/min,
+oxygen saturation was 96% (on a nonrebreather
+mask), and his temperature was 98.5 F. Examination
+revealed acute respiratory distress with bilateral wet
+crackles, jugular venous distention, and a late peak-
+ing 3/6 holosystolic ejection murmur with a dimin-
+ished
+aortic
+component.
+An
+electrocardiogram
+showed left ventricular (LV) hypertrophy and chest x-
+ray pulmonary edema with bilateral pleural effusions
+(Figure 1). He was rapidly placed on continuous pos-
+itive airway pressure and diuretics. Because his he-
+modynamic condition was likely aggravated by his
+chronic kidney disease, hemodialysis was initiated to
+further improve his ﬂuid status. Echocardiography
+revealed
+mildly
+reduced
+left
+ventricular
+ejection
+fraction (LVEF) of w45%, a small LV cavity (left ven-
+tricular internal diastolic diameter ¼ 4.2 cm), and se-
+vere aortic stenosis (AS, mean gradient ¼ 45.7 mm Hg,
+peak aortic jet velocity ¼ 4.2 m/s, aortic valvular
+LEARNING OBJECTIVES
+ To recognize dynamic LVOTO as a severe
+hemodynamic complication of TAVR and
+discuss a diagnostic and management
+approach for patients who present with he-
+modynamic instability after TAVR.
+ To learn the management principles of dy-
+namic LVOTO based on its unique
+pathophysiology.
+ To understand the roles of VA-ECMO and
+IABP in the management of patients with
+dynamic LVOTO.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2023.102157
+From the aDepartment of Internal Medicine, Jacobi Medical Center, Albert Einstein College of Medicine, Bronx, New York, USA;
+bDepartment of Cardiology, Monteﬁore Medical Center, Albert Einstein College of Medicine, Bronx, New York, USA; and the
+cDepartment of Medicine, Section of Cardiology, Tulane University, New Orleans, Louisiana, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received April 11, 2023; revised manuscript received July 24, 2023, accepted July 28, 2023.
+J A C C : C A S E R E P O R T S
+V O L . 2 9 , 2 0 2 4
+ª 2 0 2 4 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+area ¼ 0.54 cm2) with no midventricular
+gradient (Figure 2, Video 1). The patient was
+diagnosed with acute decompensated heart
+failure attributed to severe AS resulting in
+afterload
+mismatch
+and
+preload
+reserve
+exhaustion. The patient was deemed high risk
+for surgical aortic valve replacement (SAVR)
+by the heart team and was referred for trans-
+catheter aortic valve replacement (TAVR).
+Coronary
+angiography
+revealed
+non-
+obstructive
+coronary
+artery
+disease.
+Computed tomography showed an effective
+annulus diameter of 22  26 mm, an annulus
+area of 447 mm2, and an annulus perimeter of
+76 mm. The patient underwent TAVR (26-mm
+SAPIEN3 valve, Edwards Lifesciences) via the
+left femoral artery. After successful valve
+deployment
+(Figure
+3),
+the
+patient’s
+BP
+severely dropped, and he developed hemo-
+dynamic collapse.
+PAST MEDICAL HISTORY
+The patient had a history of long-standing hyperten-
+sion and chronic kidney disease stage 5 (baseline
+creatinine of w5 mg/dL). He had a recent outpatient
+visit for dialysis access creation. The patient was on
+furosemide 80 mg daily in addition to antihyperten-
+sive medications. He is independent for activities of
+daily living, although recently his exercise tolerance
+worsened (NYHA functional class II to III).
+DIFFERENTIAL DIAGNOSIS
+The most common complications of TAVR resulting in
+immediate hemodynamic collapse are acute coronary
+obstruction, aortic dissection (or annular rupture)
+with pericardial tamponade, valve malpositioning
+with severe aortic regurgitation, and retroperitoneal
+hemorrhage. Less commonly, the development of
+dynamic left ventricular outﬂow obstruction (LVOTO)
+after afterload relief can lead to unexplained severe
+hypotension and shock.
+INVESTIGATIONS
+The
+laboratory
+data
+on
+presentation
+included
+troponin I of 0.04 ng/mL, peaking at 0.05 ng/mL
+(normal <0.03 ng/mL). B-type natriuretic peptide was
+elevated
+at
+2,728
+pg/mL
+(normal
+<250
+pg/mL).
+Creatinine and white blood count were not signiﬁ-
+cantly elevated compared to baseline. Once the he-
+modynamic collapse occurred, angiography ruled out
+severe
+aortic regurgitation, annular
+rupture, and
+coronary obstruction (Videos 2 and 3). Emergency
+esophageal echocardiography showed a normal bio-
+prosthetic valve position and no pericardial effusion
+but did show a small LV chamber with obliteration,
+dynamic LVOTO, and a low stroke volume (Video 4).
+MANAGEMENT
+Despite
+the
+use
+of
+both
+norepinephrine
+and
+epinephrine,
+the
+patient
+remained
+hypotensive
+FIGURE 1
+Initial Imaging
+(A) Electrocardiography and (B) chest x-ray on presentation showing pulmonary edema with moderate bilateral pleural effusions (arrows).
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AS = aortic stenosis
+BP = blood pressure
+IABP = intra-aortic balloon
+pump
+LV = left ventricular
+LVEF = left ventricular ejection
+fraction
+LVOTO = left ventricular
+outﬂow tract obstruction
+SAVR = surgical aortic valve
+replacement
+TAVR = transcatheter aortic
+valve replacement
+VA-ECMO = venoarterial
+extracorporeal membrane
+oxygenation
+Torrado et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Dynamic LV Outﬂow Obstruction After TAVR
+J A N U A R Y 1 7 , 2 0 2 4 : 1 0 2 1 5 7
+2
+
+=== PAGE 3 ===
+(BP ¼ 50/30 mm Hg, heart rate ¼ 90 beats/min), ul-
+timately
+progressing
+to
+bradycardia
+and
+arrest.
+Advanced cardiovascular life support was initiated,
+and the patient was intubated. The LUCAS device
+(Physio-Control Inc/Jolife AB, Lund, Sweden) and
+further epinephrine boluses led to the return of
+spontaneous
+circulation
+(Video
+2).
+The
+patient
+became severely hypertensive (BP ¼ 280/140 mm Hg)
+followed by a second arrest. Because reinitiation of
+advanced
+cardiovascular
+life
+support
+led
+to
+no
+response, the patient was placed on venoarterial-
+extracorporeal membrane oxygenation (VA-ECMO),
+which
+provided
+rapid
+hemodynamic
+stabilization
+(Video 5), allowing subsequent decannulation on the
+table.
+An
+intra-aortic
+balloon
+pump
+(IABP)
+was
+placed, and the patient was transferred to the cardiac
+intensive care unit.
+Unfortunately, the patient’s hemodynamic condi-
+tion did not improve over the next 48 hours despite
+the IABP and pressors. Echocardiography (contrast)
+showed a hyperkinetic left ventricle (Video 6). Inter-
+estingly, once the IABP was put on standby to reas-
+sess
+the
+patient’s
+hemodynamics,
+the
+BP
+rose
+immediately (Table 1). The IABP was removed, lead-
+ing to a dramatic hemodynamic improvement and
+allowing the complete removal of the pharmacologic
+support and extubation. Twelve days later, he was
+downgraded
+to
+cardiology
+telemetry
+ﬂoors
+and
+eventually discharged to subacute rehabilitation.
+DISCUSSION
+Since the ﬁrst publication of a case of dynamic LVOTO
+after TAVR1 and the exponential use of TAVR for the
+treatment of severe AS,2 this phenomenon has been
+increasingly observed, and its unique pathophysi-
+ology
+fascinated
+the
+cardiology
+community.3
+Although it was ﬁrst described for the right ventricle
+after successful pulmonary valvuloplasty in the pe-
+diatric population,4 the pathophysiology is similar
+and triggered in all cases by an acute afterload
+reduction in a susceptible ventricle. Similarly, this
+complication is also observed after balloon aortic
+valvuloplasty or SAVR, to the point that a prophy-
+lactic myectomy is considered in selected patients
+undergoing surgery.5,6 Patients with dynamic LVOTO
+physiology
+demonstrate
+different
+degrees
+of
+FIGURE 2
+Transthoracic Echocardiography
+Echocardiography showing ﬁbrocalciﬁc disease of the aortic valve with severe aortic
+stenosis (arrow).
+FIGURE 3
+Fluoroscopy During Transcatheter Aortic Valve Replacement
+(A) Valve deployment. (B) An aortogram showed no aortic annular rupture, aortic dissection, and severe aortic regurgitation.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Torrado et al
+J A N U A R Y 1 7 , 2 0 2 4 : 1 0 2 1 5 7
+Dynamic LV Outﬂow Obstruction After TAVR
+3
+
+=== PAGE 4 ===
+unmasked LV obstruction following afterload reduc-
+tion and, as a result, variable degrees of hemody-
+namic response.7 Dynamic LVOTO can present with or
+without
+systolic
+anterior
+movement
+and
+mitral
+regurgitation.
+Although
+the
+development
+of
+unmasked
+intraventricular
+gradients
+after
+aortic
+valve replacement is not uncommon (w13.3%),8 the
+incidence of true LVOTO leading to hemodynamic
+collapse after TAVR remains unknown. The overall
+published number of cases of this complication is still
+scarce1,7; thus, a lack of a speciﬁc management pro-
+tocol is anticipated.
+The approach to these patients should start by
+identifying those who are at risk of developing this
+complication. Left ventricles that develop dynamic
+LVOTO are mostly small and hypercontractile with
+intraventricular accelerated ﬂow velocities, concen-
+tric
+hypertrophy,
+or
+sigmoid
+ventricular
+septum
+(depending on the dominant obstruction type, mid-
+ventricular vs LVOTO) and extreme valvular stenotic
+features.8 In this case, the patient had some (ie, small
+LV cavity) but not all (ie, LVEF of w45%) LV risk
+factors for dynamic LVOTO. Although the latter is
+atypical for dynamic LVOTO, the patient was treated
+with
+diuretic
+agents
+and
+hemodialysis,
+possibly
+leading to unfavorable LV loading conditions before
+the procedure. In fact, dynamic LVOTO after TAVR is
+often triggered/exacerbated when a second variable
+(“unfavorable condition/inciting event”) is present or
+introduced and the preload, afterload, or contractility
+is further modiﬁed.1,7 This is why excessive volume
+reduction, stopping beta-blockers, or using pure ino-
+tropes or vasodilators should also be avoided in the
+perioperative
+care.
+Likewise,
+case
+reports
+have
+documented the worsening effect of IABP on the re-
+covery phase of SAVR/TAVR in patients with dynamic
+LVOTO physiology.9,10 In the present case, the dele-
+terious effect of the IABP prevented the patient’s re-
+covery. Conversely, VA-ECMO was able to improve
+the patient’s hemodynamics. The differential effects
+of VA-ECMO and IABP on LVOTO rely on the opposite
+effects on LV afterload and preload. A successful
+experience of VA-ECMO in a patient with refractory
+LVOTO after SAVR was also reported.5 Afterload
+restoration, preload optimization, and contractility
+modulation are the foundation of dynamic LVOTO
+treatment.
+FOLLOW-UP
+At the 1-month follow-up, the patient was discharged
+from subacute rehabilitation. Follow-up echocardi-
+ography showed a normal LVEF, normal aortic bio-
+prosthetic function (mean gradient ¼ 6.4 mm Hg with
+no evidence of aortic regurgitation or paravalvular
+leak), and no subvalvular gradient. He remained on
+stable
+antihypertensive
+medications
+and
+hemodialysis.
+CONCLUSIONS
+Dynamic
+LVOTO
+is
+a
+rare
+but
+potentially
+fatal
+complication of TAVR. A complete understanding of
+the
+predisposing
+factors,
+pathophysiology,
+and
+treatment principles is key in managing these cases.
+Major causes of hemodynamic collapse should be
+ruled
+out
+ﬁrst
+because
+their
+treatment
+differs
+completely. Afterload restoration, preload optimiza-
+tion, and contractility modulation are cornerstones in
+the initial treatment approach for these patients.
+Although an IABP should be avoided for patients with
+dynamic LVOTO, VA-ECMO represents an attractive
+strategy for selected patients with refractory hemo-
+dynamic collapse, providing patients with a real
+possibility of survival.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Latib has served on the advisory boards of Medtronic, Abbott
+Vascular Boston Scientiﬁc, Edwards Lifesciences, Shifamed, Neo-
+Chord Inc, V-dyne, and Philips. All other authors have reported that
+they have no relationships relevant to the contents of this paper to
+disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Juan Torrado,
+Department of Cardiology, Monteﬁore Medical Cen-
+ter, Albert Einstein College of Medicine, 1825 East-
+chester Road, Bronx, New York 10461, USA. E-mail:
+jtorrado.arrosa@gmail.com.
+TABLE 1
+Effect of TAVR and IABP on Patient’s Hemodynamics
+Pre-TAVR
+Post-TAVR
+(Suicide LV)
+IABP 1:1a
+IABP
+Standbya,b
+SBP, mm Hg
+165
+—
+82
+130
+DBP, mm Hg
+64
+—
+50
+62
+MBP, mm Hg
+101
+30
+65
+82
+Augmentation BP, mm Hg
+NA
+NA
+118
+NA
+HR, beats/min
+62
+92
+106
+100
+aInvasive hemodynamic assessment in relation with the IABP was obtained under the same
+pharmacologic support (epinephrine 0.03 mg/kg/min and norepinephrine 5 mg/min intrave-
+nously). bHemodynamic readings were obtained after 2 to 3 minutes of standby mode.
+BP ¼ blood pressure; DBP ¼ diastolic blood pressure; HR ¼ heart rate; IABP ¼ intra-aortic
+balloon pump; LV ¼ left ventricle; MBP ¼ mean blood pressure; NA ¼ not applicable;
+SBP ¼ systolic blood pressure; TAVR ¼ transcatheter aortic valve replacement.
+Torrado et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Dynamic LV Outﬂow Obstruction After TAVR
+J A N U A R Y 1 7 , 2 0 2 4 : 1 0 2 1 5 7
+4
+
+=== PAGE 5 ===
+R E F E R E N C E S
+1. Suh WM, Witzke CF, Palacios IF. Suicide left
+ventricle following transcatheter aortic valve im-
+plantation. Catheter Cardiovasc Interv. 2010;76:
+616–620.
+2. Mori M, Gupta A, Wang Y, et al. Trends in
+transcatheter and surgical aortic valve replace-
+ment among older adults in the United States.
+J Am Coll Cardiol. 2021;78:2161–2172.
+3. Leya F, Tuchek JM, Coats W. Abnormal distor-
+tion of aortic corevalve bioprosthesis with suicide
+left ventricle, aortic insufﬁciency, and severe
+mitral regurgitation during transcatheter aortic
+valve replacement. Catheter Cardiovasc Interv.
+2016;88:1181–1187.
+4. Ben-Shachar G, Cohen MH, Sivakoff MC, et al.
+Development of infundibular obstruction after
+percutaneous pulmonary balloon valvuloplasty.
+J Am Coll Cardiol. 1985;5:754–756.
+5. Lioufas PA, Kelly DN, Brooks KS, et al. Unex-
+pected suicide left ventricle post-surgical aortic
+valve
+replacement
+requiring
+veno-arterial
+extracorporeal membrane oxygenation support
+despite gold-standard therapy: a case report. Eur
+Heart J Case Rep. 2022;6:ytac020.
+6. Desai MY, Alashi A, Popovic ZB, et al. Outcomes
+in patients with obstructive hypertrophic cardio-
+myopathy and concomitant aortic stenosis under-
+going
+surgical
+myectomy
+and
+aortic
+valve
+replacement. J Am Heart Assoc. 2021;10:e018435.
+7. Endo N, Otsuki H, Domoto S, et al. Haemody-
+namic collapse immediately after transcatheter
+aortic valve implantation due to dynamic intra-
+ventricular gradient: a case report and review of
+the literature. Eur Heart J Case Rep. 2021;5:
+ytaa565.
+8. Tsuruta H, Hayashida K, Yashima F, et al. Inci-
+dence, predictors, and midterm clinical outcomes
+of left ventricular obstruction after transcatheter
+aortic valve implantation. Catheter Cardiovasc
+Interv. 2018;92:E288–E298.
+9. Morewood GH, Weiss SJ. Intra-aortic balloon
+pump associated with dynamic left ventricular
+outﬂow tract obstruction after valve replacement
+for
+aortic
+stenosis.
+J
+Am
+Soc
+Echocardiogr.
+2000;13:229–231.
+10. Fabbro M, Goldhammer J, Augoustides JG,
+et al. CASE 1-2016 problem-solving in trans-
+catheter aortic valve replacement: cardiovascular
+collapse, myocardial stunning, and mitral regur-
+gitation. J Cardiothorac Vasc Anesth. 2016;30:229–
+236.
+KEY WORDS dynamic left ventricular
+outﬂow obstruction, intra-aortic balloon
+pump, transcatheter aortic valve
+replacement, venoarterial extracorporeal
+membrane oxygenation
+APPENDIX For supplemental
+videos, please see the online version of this
+paper.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Torrado et al
+J A N U A R Y 1 7 , 2 0 2 4 : 1 0 2 1 5 7
+Dynamic LV Outﬂow Obstruction After TAVR
+5

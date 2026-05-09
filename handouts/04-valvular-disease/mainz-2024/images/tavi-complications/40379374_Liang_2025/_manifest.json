@@ -1,0 +1,30 @@
+{
+  "pdf": "40379374_Liang_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 753,
+      "ext": "jpeg",
+      "bytes": 161325
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1645,
+      "height": 857,
+      "ext": "jpeg",
+      "bytes": 212901
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1655,
+      "height": 1728,
+      "ext": "jpeg",
+      "bytes": 530030
+    }
+  ]
+}

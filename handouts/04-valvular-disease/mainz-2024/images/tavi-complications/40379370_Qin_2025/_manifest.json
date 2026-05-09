@@ -1,0 +1,22 @@
+{
+  "pdf": "40379370_Qin_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1976,
+      "height": 1998,
+      "ext": "jpeg",
+      "bytes": 707867
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1976,
+      "height": 1186,
+      "ext": "jpeg",
+      "bytes": 258639
+    }
+  ]
+}

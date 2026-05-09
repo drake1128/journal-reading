@@ -1,0 +1,78 @@
+{
+  "pdf": "35734531_Patel_2022.pdf",
+  "pages": 9,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1071,
+      "height": 1661,
+      "ext": "jpeg",
+      "bytes": 304259
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1594,
+      "height": 786,
+      "ext": "jpeg",
+      "bytes": 122602
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1071,
+      "height": 860,
+      "ext": "jpeg",
+      "bytes": 166510
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1595,
+      "height": 922,
+      "ext": "jpeg",
+      "bytes": 150359
+    },
+    {
+      "file": "fig-05_p6.jpeg",
+      "page": 6,
+      "width": 1071,
+      "height": 1837,
+      "ext": "jpeg",
+      "bytes": 226387
+    },
+    {
+      "file": "fig-06_p7.jpeg",
+      "page": 7,
+      "width": 1347,
+      "height": 1361,
+      "ext": "jpeg",
+      "bytes": 167610
+    },
+    {
+      "file": "fig-07_p7.jpeg",
+      "page": 7,
+      "width": 1721,
+      "height": 696,
+      "ext": "jpeg",
+      "bytes": 252032
+    },
+    {
+      "file": "fig-08_p8.jpeg",
+      "page": 8,
+      "width": 978,
+      "height": 1568,
+      "ext": "jpeg",
+      "bytes": 250502
+    },
+    {
+      "file": "fig-09_p8.jpeg",
+      "page": 8,
+      "width": 926,
+      "height": 632,
+      "ext": "jpeg",
+      "bytes": 131976
+    }
+  ]
+}

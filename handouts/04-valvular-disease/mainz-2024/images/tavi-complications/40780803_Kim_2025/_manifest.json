@@ -1,0 +1,38 @@
+{
+  "pdf": "40780803_Kim_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1494,
+      "height": 978,
+      "ext": "png",
+      "bytes": 1370834
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1943,
+      "height": 1405,
+      "ext": "png",
+      "bytes": 2651819
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1046,
+      "height": 608,
+      "ext": "png",
+      "bytes": 1587413
+    },
+    {
+      "file": "fig-04_p5.png",
+      "page": 5,
+      "width": 1495,
+      "height": 767,
+      "ext": "png",
+      "bytes": 859482
+    }
+  ]
+}

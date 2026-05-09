@@ -1,0 +1,531 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Orthotopic Left Main Chimney Stenting to
+Prevent Stent Compression After
+Transcatheter Aortic Valve Replacement
+Ruxandra I. Sava, MD,a,b Hakim Benamer, MD,a Julien Quillet, MD,a Maximilien Sochala, MD,a
+Philippe M. Garot, MD,a Mariama Akodad, MD, PHDa
+ABSTRACT
+Coronary obstruction (CO) is a severe complication of transcatheter aortic valve replacement (TAVR). An 80-year-old
+woman presenting with severe aortic stenosis was referred for TAVR. A preprocedural computed tomography revealed risk
+factors for CO: narrow aortic root and borderline-low coronary height. During TAVR, both coronaries were protected. After
+transcatheter heart valve (THV) implantation, contrast staining of the left sinus and leaﬂet interaction with the left main
+(LM) ostium were noted, prompting LM stenting to prevent obstruction. Because the THV–aorta space was virtual, we opted
+for rewiring and LM stenting through a THV cell. A postprocedural computed tomograohy revealed a permeable, well-
+expanded stent. Chimney stenting between the THV and aorta may be unfeasible in patients with a narrow aorta because of
+a risk of stent compression. Orthotopic chimney stenting through a THV cell may be preferable to classic chimney stenting
+in patients with a narrow aorta and minimal THV–aorta space. (JACC Case Rep. 2025;30:103286) © 2025 The Authors.
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the
+CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+An 80-year-old woman presented with worsening
+dyspnea and aortic systolic murmur. Transthoracic
+echocardiography revealed severe aortic stenosis,
+with a peak aortic velocity of 4.07 m/s, mean trans-
+aortic gradient of 48 mm Hg, and an indexed aortic
+valve area measuring 0.4 cm/m2. The left ventricle
+was not dilated, was mildly hypertrophied, and had a
+preserved ejection fraction. Her history was negative
+for angina or syncope. Considering her age and
+frailty, the patient was referred for transcatheter
+aortic valve replacement (TAVR).
+PAST MEDICAL HISTORY
+The patient was overweight and had a history of hy-
+pertension treated by sartan and a diuretic, chronic
+TAKE-HOME MESSAGES
+ In
+patients
+at
+imminent
+risk
+of
+TAVR-
+associated coronary obstruction in which
+leaﬂet laceration cannot be performed and in
+which a narrow initial aorta renders stenting
+between the THV and the aorta unfeasible
+because of the risk of obstruction, recathe-
+terization of the coronary artery through the
+THV cells using a second guidewire and
+subsequent stenting, termed orthotopic
+chimney stenting, may represent a viable
+alternative.
+ Chimney stenting during TAVR should be
+restricted to patients in which coronary
+obstruction is deemed imminent, because it
+renders future coronary access and redo
+TAVR challenging.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103286
+From the aInstitut Cardiovasculaire Paris Sud (Interventional Cardiology), Hôpital Privé Jacques Cartier, Massy, France; and the
+bCentre Hospitalier Universitaire, Interventional Cardiology, Saint-Etienne, France.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received September 13, 2024; revised manuscript received October 28, 2024, accepted November 19, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 9 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+obstructive pulmonary disease managed by
+long-acting bronchodilators, and a benign
+breast cyst treated by surgical removal. The
+patient was at intermediate surgical risk,
+with a EuroSCORE II of 2.25% and a Society of
+Thoracic Surgeons score of 5.9%.
+DIFFERENTIAL DIAGNOSIS
+Cardiac amyloidosis associated with severe
+aortic stenosis was considered. However,
+transthoracic
+echocardiography
+did
+not
+reveal any suggestive features.
+INVESTIGATIONS
+The electrocardiogram showed a sinus rhythm of 66
+beats/min, a PR interval of 200 ms, and narrow QRS
+complexes with no signiﬁcant repolarization abnor-
+mality. Blood tests excluded anemia, renal, and he-
+patic failure.
+Multidetector
+computed
+tomography
+(CT)
+was
+performed to assess adequacy for TAVR and for pre-
+procedural planning and revealed a narrow aortic root
+(Figures
+1A
+to
+1D).
+The
+annulus
+area
+measured
+426.7 mm2, and the area-derived mean diameter was
+23.3 mm (Figure 1A). The mean diameters of the si-
+nuses
+of
+Valsalva,
+sinotubular
+junction,
+and
+ascending aorta were 28 mm, 25 mm, and 26 mm,
+respectively. The sinotubular junction height was
+14 mm. The left main (LM) height was 9 mm, which
+was lower than the left coronary cusp height of
+11 mm. The right coronary artery (RCA) height was
+11 mm, equal to the right coronary cusp height
+(Figures 1A to 1C). Because this patient presented with
+multiple factors for coronary obstruction (CO) after
+TAVR and no anatomical factors precluded the use of
+a balloon-expandable valve, we opted for a 23-mm
+Sapien
+S3
+Ultra
+valve
+(Edwards
+Lifesciences)
+because its shorter frame and intra-annular valve
+position may favor coronary perfusion and repeat
+catheterization. We thus simulated this valve to
+calculate the valve-to-coronary distance, which was
+similarly low for both the LM and RCA (3.5 mm and
+3 mm, respectively) (Figure 1D). The common femoral
+artery measured 7 mm on both sides, with high
+bifurcation. No signiﬁcant tortuosity or calciﬁcation
+was noted along the iliofemoral or aortic vessels,
+making the patient eligible for transfemoral TAVR.
+A recently published algorithm described a new
+multivariate model to predict TAVR-associated CO
+in
+patients
+with
+a
+cusp
+height
+higher
+than
+a
+coronary height and a simulated valve-to-coronary
+distance <4 mm or a culprit leaﬂet calcium volume
+>600 mm3.1 Based on this algorithm, the patient was
+deemed at high risk for LM obstruction.
+MANAGEMENT
+We
+proceeded
+with
+transfemoral
+TAVR
+with
+a
+23-mm Sapien S3U transcatheter heart valve (THV).
+Both
+coronary
+arteries
+were
+protected
+with
+0.014-inch coronary guidewires using an EBU3 6-F
+catheter for the LM and a JR4 6-F catheter for the
+RCA. Stents were not parked on these guidewires,
+because the patient was considered ineligible for
+“classic” or heterotopic chimney stenting due to
+the
+narrow
+sinuses,
+sinotubular
+junction,
+and
+ascending aorta, which would likely lead to stent
+compression.
+To further reduce the risk of CO, we targeted a
+low THV implant (70:30). After valve deployment,
+both
+coronary
+arteries
+were
+patent.
+However,
+contrast staining was noted in the left sinus, and the
+radiolucent leaﬂet appeared to be interacting with
+the LM ostium (Figure 1E, Video 1). A decision was
+then made to proceed with LM orthotopic chimney
+stenting. The initial LM guidewire was left in place
+to
+ensure
+coronary
+patency.
+Using
+a
+ping-pong
+technique with a second 6-F EBU3 catheter, the LM
+was catheterized through an upper cell of the THV
+(Figure 1F). A 4.5-mm drug-eluting stent was then
+implanted
+from
+the
+LM
+back
+into
+the
+aorta
+(Figure 1G, Video 2). The stent appeared to be well
+expanded, contrast injection revealed proper LM
+ﬁlling, and the electrocardiographic tracing was un-
+modiﬁed. The RCA did not appear to be at risk for
+obstruction after retraction of the coronary protec-
+tion guidewire, and thus chimney stenting was not
+attempted.
+Immediate postprocedural transthoracic echocar-
+diography showed excellent hemodynamics, with a
+mean gradient of 7 mm Hg and minimal aortic
+regurgitation. Thus, the procedure was concluded at
+this stage.
+OUTCOME AND FOLLOW-UP
+A control CT was performed on the second post-
+operative day to assess THV orientation and LM
+chimney stent (Figures 1H and 1I). The THV commis-
+sures were aligned with the native commissures. The
+THV extended above the sinotubular junction. The
+stent appeared to be well expanded, with no signs of
+external compression. The RCA was patent and arose
+in front of an open cell (Figures 1J and 1K). The hos-
+pital stay was uneventful, and the patient was dis-
+charged 3 days later. A second postprocedural CT
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+CO = coronary obstruction
+CT = computed tomography
+LM = left main
+RCA = right coronary artery
+TAVR = transcatheter aortic
+valve replacement
+THV = transcatheter heart
+valve
+Sava et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 9 , 2 0 2 5
+Orthotopic Chimney Stenting
+M A Y 7 , 2 0 2 5 : 1 0 3 2 8 6
+2
+
+=== PAGE 3 ===
+FIGURE 1
+Preprocedural Computed Tomography
+(A) Native annulus measurements. (B and C) Blue line depicting the left and right coronary cusp plane. (D) Simulation of a 23-mm S3U valve
+revealed a small right coronary artery (RCA) and left main (LM) valve-to-coronary distance, suggesting a high risk of post-TAVR coronary
+obstruction. TAVR Procedure. (E) Contrast stagnation in the left coronary sinus, suggesting sinus sequestration. (F) LM wiring through the
+valve cell using a second guiding catheter. (G) Permeable orthotopic chimney stent. Postprocedural computed tomography (H and I) LM
+stent extending through the open valve cell, sagittal view, and 3-dimensional reconstruction. (J and K) Permeable RCA in front of the open
+cell. Note the optimal valve alignment. LCC ¼ left coronary cusp; RCC ¼ right coronary cusp; TAVR ¼ transcatheter aortic valve replacement;
+VTC ¼ valve-to-coronary distance.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 9 , 2 0 2 5
+Sava et al
+M A Y 7 , 2 0 2 5 : 1 0 3 2 8 6
+Orthotopic Chimney Stenting
+3
+
+=== PAGE 4 ===
+performed
+at
+30
+days
+similarly
+showed
+a
+well-
+expanded stent and the absence of hypoattenuated
+leaﬂet thickening.
+DISCUSSION
+CO after TAVR is a rare but severe complication, with
+30-day
+mortality
+as
+high
+as
+50%.2
+Investigators
+reporting outcomes from patients included in the
+Chimney Registry found that the absence of coronary
+protection was the only independent predictor of the
+combined endpoint of death, myocardial infarction,
+and cardiogenic shock.2 Thus, coronary protection by
+wiring should be performed in all patients considered
+at risk of TAVR-associated CO. Preprocedural CT
+simulation has been shown to accurately predict the
+risk
+of
+CO.1,3
+Parameters
+such
+as
+coronary
+height <10 mm, valve-to-coronary distance <4 mm,
+VTA <2 mm, and sinus width <30 mm have been
+shown to predict the risk of TAVR-associated CO. In
+high-risk patients, the BASILICA trial4 demonstrated
+that leaﬂet laceration techniques are effective in
+preventing acute CO during TAVR. However, angio-
+graphic evidence of partial ostial CO in spite of
+BASILICA led the operator to stent the coronary
+ostium in 2 patients (7%).5 These ﬁndings echo reg-
+istry data that reported a rate of 4.3% of delayed COs
+in patients who received coronary protection by
+guidewire placement but were not stented.6
+Ideally, patients at risk of CO should be considered
+for surgical AVR and, if ineligible, should beneﬁt from
+leaﬂet
+modiﬁcation
+before
+TAVR.
+However,
+the
+BASILICA technique was not available in our center.
+In the absence of leaﬂet laceration, patients judged to
+be at imminent risk of CO based on the combined
+ﬁndings of preprocedural CT and postimplantation
+aortography should receive preemptive stenting.
+In patients with a narrow initial aorta, there may be
+insufﬁcient space to implant a stent between the THV
+frame and the aorta, rendering heterotopic chimney
+stenting unfeasible. Stent compression in the setting
+of heterotopic chimney stenting has been described
+both on the bench7 and clinically.2 In such patients,
+leaving the initial guidewire in place to secure coro-
+nary perfusion, followed by repeat catheterization
+with a second guidewire and stenting through the
+valve cells, may represent a viable alternative to
+heterotopic chimney stenting. We implanted our
+stent with a large protrusion into the aorta because
+we wanted to avoid systolic occlusion of the stent by
+valve leaﬂet. On re-examination of the case, we
+believe a shorter protrusion, sufﬁcient to surpass the
+outﬂow of the valve, would have been sufﬁcient and
+would have reduced the difﬁculty of rewiring in case
+of need for coronary reaccess.
+As compared with heterotopic chimney stenting,
+the orthotopic approach may pose several advan-
+tages, such as reduced risk for compression, more
+physiological blood ﬂow into the coronary arteries,
+and easier repeat catheterization when compared
+with heterotopic chimney stenting.8 As compared
+with leaﬂet laceration techniques, chimney stenting
+may represent an alternative in patients with severely
+depressed left ventricular ejection fraction, because
+the latter may cause temporary severe aortic insufﬁ-
+ciency leading to hemodynamic compromise.
+Major limitations of this technique include leaﬂet
+interaction with the chimney stent, which carry the
+hypothetical risk of hypoattenuated leaﬂet thick-
+ening, leaﬂet injury, and premature valvular degen-
+eration. Long-term data on these outcomes are not
+yet available. However, a 30-day CT did not reveal the
+presence of hypoattenuated leaﬂet thickening in this
+patient. An additional limitation is a difﬁcult redo
+TAVR procedure, which would require stent cathe-
+terization and balloon parking in the artery ostium to
+ensure ostial protection after the second THV im-
+plantation, followed by repeat orthotopic chimney
+stenting through the cells of the new valve frame.
+This was recently demonstrated by Dreger et al,9 who
+reported a case of redo TAVR in a patient who had
+previously been treated by classic chimney stenting,
+where the authors were able to wire the old stent
+through a side cell and successfully implant an
+orthotopic chimney stent through the cells of the
+second THV. Another important concern is the ideal
+duration of double antiplatelet therapy. Although
+little data are available to guide this decision, we
+prescribed double antiplatelet therapy for at least 1
+year, to be prolonged if well tolerated. In the COR-
+PROTAVR registry study, most chimney stented pa-
+tients
+(59.5%)
+were
+prescribed
+extended
+double
+antiplatelet therapy. Stent thrombosis was docu-
+mented in only 2 of 143 patients: the ﬁrst occurred
+1
+day
+post-TAVR
+implantation
+and
+the
+second
+occurred 494 days later, under single antiplatelet
+therapy.6
+CONCLUSIONS
+Thorough preprocedural evaluation is required to
+prevent TAVR-associated CO. A narrow aortic root
+together with low coronary take-off are major risk
+factors for CO. Surgical AVR should represent the ﬁrst
+choice in such patients. In patients ineligible for
+surgical AVR or in TAVR candidates for which leaﬂet
+Sava et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 9 , 2 0 2 5
+Orthotopic Chimney Stenting
+M A Y 7 , 2 0 2 5 : 1 0 3 2 8 6
+4
+
+=== PAGE 5 ===
+modiﬁcation
+or
+classic
+chimney
+stenting
+is
+not
+feasible, orthotopic chimney stenting through the
+THV struts may represent an alternative for patients
+in which the narrow aortic anatomy precludes the use
+of classic, heterotopic chimney stenting.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Sava was supported by an Education and Training Grant from the
+European Association of Percutaneous Cardiovascular Interventions.
+Dr Garot reports being a proctor or consultant for Abbott, Boston
+Scientiﬁc, Biosensors, Cordis, GE HealthCare, and Terumo; he serves
+as a Medical Co-Director and is a shareholder of Cardiovascular Eu-
+ropean Research Center (CERC), a CRO dedicated to cardiovascular
+diseases; he is a shareholder of Basecamp Vascular and Electroducer.
+Dr Akodad is a consultant for Edwards Lifesciences, Medtronic, and
+Abbott. All other authors have reported that they have no relation-
+ships relevant to the contents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr
+Mariama
+Akodad, Institut Cardiovasculaire Paris Sud, Hôpital Privé
+Jacques Cartier, Ramsay Santé, 6 Avenue du Noyer
+Lambert, 91300 Massy, France. E-mail: m.akodad@icps.
+com.fr.
+R E F E R E N C E S
+1. Khan JM, Kamioka N, Lisko JC, et al. Coronary
+obstruction from TAVR in native aortic stenosis:
+development and validation of multivariate predic-
+tion model. JACC Cardiovasc Interv. 2023;16(4):415–
+425. https://doi.org/10.1016/J.JCIN.2022.11.018
+2. Mercanti F, Rosseel L, Neylon A, et al. chimney
+stenting for coronary occlusion during TAVR: in-
+sights from the Chimney Registry. JACC Cardiovasc
+Interv.
+2020;13(6):751–761.
+https://doi.org/10.
+1016/J.JCIN.2020.01.227
+3. Ribeiro HB, Rodés-Cabau J, Blanke P, et al.
+Incidence, predictors, and clinical outcomes of
+coronary
+obstruction
+following
+transcatheter
+aortic valve replacement for degenerative bio-
+prosthetic surgical valves: insights from the VIVID
+registry.
+Eur
+Heart
+J.
+2018;39(8):687–695.
+https://doi.org/10.1093/EURHEARTJ/EHX455
+4. Khan JM, Greenbaum AB, Babaliaros VC, et al.
+The
+BASILICA
+trial:
+prospective
+multicenter
+investigation of intentional leaﬂet laceration to
+prevent TAVR coronary obstruction. JACC Car-
+diovasc Interv. 2019;12(13):1240–1252. https://doi.
+org/10.1016/J.JCIN.2019.03.035
+5. Kitamura M, Wilde J, Dumpies O, et al. Risk
+assessment of coronary obstruction during trans-
+catheter aortic valve replacement: insights from
+post-BASILICA computed tomography. JACC Car-
+diovasc Interv. 2022;15(5):496–507. https://doi.
+org/10.1016/J.JCIN.2022.01.003
+6. Palmerini T, Chakravarty T, Saia F, et al. Coro-
+nary protection to prevent coronary obstruction
+during TAVR: a multicenter international registry.
+JACC
+Cardiovasc
+Interv.
+2020;13(6):739–747.
+https://doi.org/10.1016/J.JCIN.2019.11.024
+7. Brown CL, White J, Stinis CT, Teirstein PS. Chim-
+ney/snorkel stenting during TAV-in-TAV: bedside to
+bench. EuroIntervention. 2024;20(11):e728–e729.
+https://doi.org/10.4244/EIJ-D-23-00927
+8. Burzotta F, Kovacevic M, Aurigemma C, et al.
+An “orthotopic” snorkel-stenting technique to
+maintain coronary patency during transcatheter
+aortic valve replacement. Cardiovasc Revasc Med.
+2021;28S:94–97.
+https://doi.org/10.1016/J.CAR-
+REV.2020.12.013
+9. Dreger H, Al Harbi AS, Geyer T, et al. TAVR-in-
+TAVR in a patient with a 12-year-old chimney stent:
+the inverted culotte double chimney technique.
+JACC Cardiovasc Interv. 2024;17(15):1846–1848.
+https://doi.org/10.1016/J.JCIN.2024.05.037
+KEY WORDS coronary obstruction,
+orthotopic chimney, TAVR
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 9 , 2 0 2 5
+Sava et al
+M A Y 7 , 2 0 2 5 : 1 0 3 2 8 6
+Orthotopic Chimney Stenting
+5

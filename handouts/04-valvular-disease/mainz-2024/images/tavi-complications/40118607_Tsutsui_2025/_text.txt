@@ -1,0 +1,534 @@
+
+=== PAGE 1 ===
+RHYTHM DISORDERS AND ELECTROPHYSIOLOGY
+CLINICAL CASE
+Peri-Mitral Atrial Tachycardia Following
+Transcatheter Aortic Valve Replacement
+Kenta Tsutsui, MD, PHD, Akinori Kondo, MD, Tatsuya Ohta, MD, PHD, Mina Hatsuno, MD, PHD,
+Masataka Arakawa, MD, Mizuki Miura, MD, PHD, Akihisa Kataoka, MD, PHD, Naoyuki Yokoyama, MD, PHD,
+Yusuke Watanabe, MD, PHD, Ken Kozuma, MD, PHD
+ABSTRACT
+Transcatheter aortic valve replacement (TAVR) is commonly used to treat severe aortic stenosis. Although atrial
+ﬁbrillation and conduction disturbances are well-known complications, peri-mitral atrial tachycardia (PMT) post-TAVR is
+less frequently reported. A 75-year-old man with persistent PMT 1-year post-TAVR was managed successfully through
+radiofrequency catheter ablation. High-density 3-dimensional mapping identiﬁed a macro-reentrant circuit and a
+slow-conduction area adjacent to the transcatheter aortic valve implantation site, diagnosed as counterclockwise PMT.
+Ablation resulted in tachycardia termination, with no recurrence at follow-up. This case highlights structural alterations
+from TAVR as potential contributors to arrhythmic substrates. The rarity and successful management of PMT post-TAVR
+contribute signiﬁcant insights, emphasizing the need for vigilant arrhythmic monitoring and tailored interventions.
+This case underscores the importance of recognizing and managing rare arrhythmic complications following TAVR,
+enhancing patient outcomes through precise diagnostic and interventional strategies. (JACC Case Rep. 2025;30:102967)
+© 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open
+access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 75-year-old man was referred to our hospital for
+radiofrequency
+catheter
+ablation
+of
+a
+persistent,
+symptomatic and drug-resistant atrial tachycardia
+(AT) (Figure 1). He had a history of ischemic stroke
+and end-stage renal disease due to renal sclerosis. He
+had been hemodialysis-dependent for 7 years. One
+year ago, he underwent transcatheter aortic valve
+replacement
+(TAVR)
+due
+to
+severe,
+symptomatic
+aortic
+stenosis (AS). Due to notable
+calciﬁcation
+extending from the valve cusp to the subvalvular re-
+gion in the non-coronary cusp, a self-expanding valve
+(Evolut FX 26-mm, Medtronic) was used. The TAVR
+was
+successfully
+performed
+via
+a
+transfemoral
+approach. The post-implant period was uneventful
+other than transient left bundle branch block that
+eventually turned left anterior fascicular block. At
+this point, neither atrial ﬁbrillation (AF) nor AT was
+documented. Six months later, he developed short
+TAKE-HOME MESSAGES
+ This
+case
+advocates
+routine
+arrhythmic
+monitoring with a speciﬁc lookout for less
+common tachycardias, which, although rare,
+can signiﬁcantly impact patient outcomes.
+ Further studies are needed to quantify the
+risk and characterize the speciﬁc types of
+tachycardias that can arise following TAVR.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.102967
+From the Department of Internal Medicine, Division of Cardiology, Teikyo University School of Medicine, Tokyo, Japan.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received August 26, 2024; revised manuscript received September 27, 2024, accepted October 31, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 6 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+episodes of paroxysmal AF during dialysis
+and eventually developed sustained atrial
+tachycardia (Figure 1).
+DIFFERENTIAL DIAGNOSIS
+Electrocardiogram (Figure 1) shows atypical
+atrial ﬂutter, suggesting varied possibility
+such
+as
+localized
+reentrant
+AT,
+roof-
+dependent AT, and peri-mitral atrial tachy-
+cardia (PMT).
+INVESTIGATION
+Electrophysiology study and ablation were performed
+under deep sedation using propofol and dexmedeto-
+midine. The AT was sustained at the beginning of the
+ablation session. The initial tachycardia cycle length
+(TCL) was stable at 236 ms. Post pacing intervals at
+the inferior aspect of the right atrium and at posterior
+wall of the left atrium (LA) were 428 ms and 395 ms,
+respectively, suggesting that AT originated in LA. A 3-
+dimensional map created by a high-density mapping
+system (CARTO, Biosense Webster) demonstrated
+that the total activation time in the LA was 236 ms,
+conﬁrming that the macro-reentrant AT was within
+the LA (Figure 2). Further pacing study revealed that
+post pacing intervals–TCL at the anterior, lateral, and
+septal aspects of the mitral annulus, including the
+coronary sinus (CS) were 18 ms, 20 ms, and 12 ms,
+respectively, nearing TCL, whereas that at the LA
+posterior wall was 62 ms, indicating that the macro-
+reentry
+revolves
+around
+the
+mitral
+annulus
+(Figures 2 and 3A). A wide low-voltage area was pre-
+sent in the anterior wall of the LA body (Figure 3B) in
+which the conduction velocity of the AT was slowed
+(depicted as the zig-zag orange arrow in Figure 3A),
+and was adjacent to the previously implanted TAVR
+valve (Figures 3A and 3C). Based on these ﬁndings,
+the AT
+was diagnosed as counterclockwise PMT
+(Figures 2 and 3A).
+FIGURE 1
+The 12-Lead Electrocardiogram of Atrial Tachycardia
+P waves are evident in lead II (emphasized by arrows in the inset).
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AF = atrial ﬁbrillation
+AS = aortic stenosis
+AT = atrial tachycardia
+CS = coronary sinus
+LA = left atrium
+PMT = peri-mitral atrial
+tachycardia
+TAVR = transcatheter aortic
+valve replacement
+TCL = tachycardia cycle length
+Tsutsui et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Peri-Mitral Atrial Tachycardia Following TAVR
+M A R C H 1 9 , 2 0 2 5 : 1 0 2 9 6 7
+2
+
+=== PAGE 3 ===
+MANAGEMENT
+History of concomitant AF and existence of the
+low-voltage area found in the LA posterior wall led us
+to perform pulmonary vein isolation and left poste-
+rior isolation followed by the lateral mitral isthmus
+line. Conduction block was achieved in all lines
+associated with pulmonary vein isolation and left
+posterior isolation at the ﬁrst attempt. The initial
+endocardial ablation in the mitral isthmus slowed the
+TCL by 22 ms with the atrial sequence kept un-
+changed. The epicardial gap was identiﬁed within the
+CS at the epicardial side of the endocardial mitral line.
+Ablation at the point from the CS terminated AT
+immediately after the energy delivery (Figure 3D).
+Bidirectional conduction block was conﬁrmed.
+OUTCOME AND FOLLOW-UP
+After the ablation, atrial pacing did not induce any
+tachycardia and the procedure was ended. The pa-
+tient’s symptoms resolved, and no recurrence of
+arrhythmia was observed up to 3 months.
+DISCUSSION
+The present case highlights a rare instance of PMT
+emerging after TAVR, a phenomenon not extensively
+documented in the literature. The development of
+PMT in this context suggests a possible mechanistic
+link between the structural alterations by TAVR and
+the arrhythmic substrate.
+As TAVR is more widely accepted as treatment for
+AS,
+its
+associated
+complications,
+particularly
+arrhythmic events, have received more attention.1,2
+Although the most common arrhythmias post-TAVR
+are AF and conduction disturbances such as atrio-
+ventricular block, other AT, although less frequent,
+present
+signiﬁcant
+management
+challenges
+and
+impact patient outcomes.
+Recent data demonstrate that up to 31% of patients
+develop
+new
+arrhythmias
+within
+a
+year
+post–
+transcatheter aortic valve replacement (TAVR), with
+non-AF tachycardias accounting for a notable pro-
+portion of these cases.2 However, detailed reports
+focusing on these less common arrhythmias, such as
+PMT, are surprisingly scarce in the current literature.
+The lack of detailed focus underscores the need for
+more case-based evidence to better understand the
+mechanisms, treatment responses, and prognostic
+implications of such arrhythmias.
+In the present case, alongside other contributing
+factors such as age and a history of AS and AF, the
+TAVR procedure itself may have played a role in the
+development of PMT. Unlike surgical aortic valve
+replacement, TAVR does not involve direct surgical
+manipulation (eg, incision, gripping by forceps) to the
+cardiac
+anatomy.
+However,
+TAVR
+does
+involve
+considerable mechanical stretching to surrounding
+FIGURE 2
+Re-Entrant Circuit of the Tachycardia
+The tachycardia cycle length was fully covered within the left atrium (LA). Entrainment study demonstrated post pacing interval–tachycardia
+cycle lengths were within 20 ms around the mitral annulus (values are shown in the white boxes) while that was off at the posterior wall of
+the LA, demonstrating that the tachycardia was peri-mitral atrial tachycardia. AP ¼ anterior to posterior; PA ¼ posterior to anterior.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Tsutsui et al
+M A R C H 1 9 , 2 0 2 5 : 1 0 2 9 6 7
+Peri-Mitral Atrial Tachycardia Following TAVR
+3
+
+=== PAGE 4 ===
+components of heart (visualized by periprocedural
+electroanatomical map, computed tomography, and
+echocardiography in Figures 3A to 3C, 3E, and 3F,
+respectively), which can alter the electrophysiological
+properties of the atria. We previously reported un-
+expected cardiac tamponade due to trauma by peri-
+aortic calciﬁed spot pushed by a balloon-expanded
+TAVR valve.3 If not that traumatic, in this case, the
+expansion of the ascending aorta possibly contrib-
+uted to the formation of a slow-conduction zone in
+the anterior wall of the LA, facilitating the develop-
+ment of the reentrant circuit. This ﬁnding aligns with
+previous reports indicating that: 1) atrial damage
+induced by preceding intervention such as cardiac
+surgery,4-6 AF ablation,4,5 and chemotherapy7 facili-
+tate substrate that drives atypical atrial tachycardia;
+and 2) “idiopathic” PMT (those lacking prior cardiac
+surgery or ablation) is associated with extensive and
+anteroseptal distribution of the atrial scar area.8
+Although it is plausible that the tachycardia was
+triggered by the TAVR procedure, establishing a
+direct causal relationship is challenging as de novo
+ATs originating from scar tissue in the anterior atrial
+wall are documented in context with atrial myop-
+athy.9 However, 2 factors warrant consideration:
+1) the temporal association between TAVR and the
+subsequent development of de novo PMT; and 2) the
+previously
+recognized
+relationship
+between
+me-
+chanical compression of the anterior LA wall by the
+ascending aorta, even in the absence of TAVR, sug-
+gest a possible mechanistic link.9
+Although
+modern
+high-density
+3-dimensional
+mapping systems help deliver more effective diag-
+nosis and treatment for such tachycardias,10,11 care
+FIGURE 3
+The Relationship Between Arrhythmogenic Substrate of PMT and TAVR Valve
+(A) The atrial tachycardia (AT) was diagnosed as counterclockwise peri-mitral AT (annotated with colored arrows; orange, slowly conducting atrial wall, yellow, the rest
+of the circuit). For details regarding the diagnostic process, see the main text. Slowly conducting, fragmented local electrogram is shown in the inset. SC ¼ slow
+conduction; LAO-CAU ¼ left anterior oblique–caudal; TCL ¼ tachycardia cycle length. (B) Low-voltage area (in red, yellow, green, and other non-purple colors) indicated
+by white arrows. The SC zone shown in (A) is indicated with an orange dot. (C) Spatial relationship between the low-voltage area and ascending aorta. The SC zone
+shown in (A) is indicated with an orange dot. AP ¼ anterior to posterior. (D) AT termination during ablation from the epicardial side of the mitral isthmus.
+Subsequently, the line of conduction block was conﬁrmed by differential pacing and a 3-dimensional map (not shown) and no AT or atrial ﬁbrillation was induced.
+(E) Computed tomography images at the level of the anterior left atrial (LA) wall before (left) and after (right) transcatheter aortic valve replacement (TAVR), indicating
+that aortic tissue including the displaced calciﬁed lesion push the anterior aspect of the LA (arrow). (F) The short-axis view of transthoracic echocardiography
+demonstrates that the ascending aorta (Ao) with the implanted valve appears pushing the anterior left atrial wall (arrow).
+Tsutsui et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Peri-Mitral Atrial Tachycardia Following TAVR
+M A R C H 1 9 , 2 0 2 5 : 1 0 2 9 6 7
+4
+
+=== PAGE 5 ===
+should be taken as long-term follow-up and repeat
+ablation or additional antiarrhythmic drug may be
+required
+in
+these
+patients,
+as
+recurrence
+is
+common.12,13
+There are 2 options that can treat peri-mitral AT:
+either anterior or lateral line in addition to pulmonary
+vein isolation. We opted for the lateral line approach
+because: 1) it occasionally causes iatrogenic biatrial
+tachycardia;14 and 2) previous studies suggest that
+recurrent ﬂutter is less common with the lateral
+approach
+compared
+with
+the
+anterior
+approach,
+whereas both strategies have similar acute success
+rates for peri-mitral AT.15 However, the decision be-
+comes more complex when extensive scarring is
+present in the anterior region, as in the current case.
+The main drawback of the lateral approach is that it
+may leave the patient at future risk of developing
+anterior
+scar-related
+AT,
+most
+likely
+a
+localized
+reentrant AT. Conversely, anterior ablation in addi-
+tion to lateral block carries the risk of unintended
+electrical isolation of the LA appendage, potentially
+leading to “immortal” LA and an increased risk of
+cardioembolic stroke. Therefore, empirical ablation of
+the anterior scar was not performed during the abla-
+tion session. If the patient develops anterior scar-
+related AT in the future, we will consider anterior
+scar ablation after thorough discussion with the pa-
+tient,
+as
+isolation
+of
+the
+LA
+appendage
+would
+necessitate
+LA
+appendage
+closure,
+an
+additional
+intervention. Thus, there is no “perfect solution” in
+this scenario, as each strategy carries the risk of
+inducing different new arrhythmias (Table 1).
+CONCLUSIONS
+The successful resolution of PMT through targeted
+catheter ablation underscores necessity for precise
+diagnostic mapping and tailored ablation strategies
+in managing post-TAVR arrhythmias. The present
+case suggests potential arrhythmogenicity of TAVR
+via
+physical
+pressure
+to
+the
+anterior
+aspect
+of
+the LA.
+ACKNOWLEDGMENTS The
+authors
+thank
+Akira
+Kuramoto, Akari Maehana, Yuko Nakamura, Mihoko
+Atarashi, and Yoshiki Seto for their valuable assis-
+tance in the creation of the ﬁgure.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Kenta Tsutsui,
+Department of Internal Medicine, Division of Cardiol-
+ogy, Teikyo University School of Medicine, Kaga 2-11-1,
+Itabashi, Tokyo 173-8606, Japan. E-mail: tsutsui@med.
+teikyo-u.ac.jp.
+R E F E R E N C E S
+1. Natarajan MK, Sheth TN, Wijeysundera HC, et al.
+Remote ECG monitoring to reduce complications
+following transcatheter aortic valve implantations:
+the Redirect TAVI study. Europace. 2022;24(9):
+1475–1483.
+2. Nozica N, Siontis GCM, Elchinova EG, et al.
+Assessment
+of
+new
+onset
+arrhythmias
+after
+transcatheter aortic valve implantation using an
+implantable cardiac monitor. Front Cardiovasc
+Med. 2022;9:876546.
+3. Hioki H, Watanabe Y, Takamura S, Kataoka A,
+Sawamura S, Kozuma K. Unexpected cardiac
+tamponade due to bleeding from the left atrium
+during transcatheter aortic valve replacement.
+JACC Cardiovasc Interv. 2018;11(4):e27–e28.
+4. Lim
+MW,
+Morton
+M,
+Fernando
+R,
+et
+al.
+Impact of posterior wall isolation during AF
+ablation on the incidence of left atrial ﬂutter.
+JACC Clin Electrophysiol. 2024;10(7 Pt 2):1620–
+1630.
+5. Wang XH, Kong LC, Shuang T, Li Z, Pu J. Macro-
+reentrant atrial tachycardia after tricuspid or
+mitral valve surgery: is there difference in elec-
+trophysiological characteristics and effectiveness
+of catheter ablation? BMC Cardiovasc Disord.
+2021;21(1):538.
+6. Mori H, Tsutsui K, Kawano D, Ikeda Y, Kato R.
+Peri-mitral ﬂutter with epicardial bypass after
+surgical maze procedure. J Arrhythm. 2022;38(3):
+465–467.
+TABLE 1
+Advantages and Disadvantages of Different Approaches to PMT With Extensive Anterior LA Scarring
+Advantages
+Disadvantages
+Anterior line
+Therapeutic for anterior scar-related reentrant arrhythmias
+besides PMT (ie, local reentry)
+Poses a risk of creating iatrogenic biatrial AT, which is often
+refractory to drugs or ablation14
+Lateral line (present case)
+Unlikely to develop iatrogenic biatrial AT
+Possibly better long-term AT-free survival15
+Sometimes difﬁcult to complete15
+Patient is left with a future risk of anterior scar-related
+tachycardia
+AT ¼ atrial tachycardia; LA ¼ left atrium; PMT ¼ peri-mitral atrial tachycardia.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Tsutsui et al
+M A R C H 1 9 , 2 0 2 5 : 1 0 2 9 6 7
+Peri-Mitral Atrial Tachycardia Following TAVR
+5
+
+=== PAGE 6 ===
+7. Denham
+NC,
+Anderson
+R,
+Nanthakumar K,
+Ha ACT, Bhaskaran AP. Atypical atrial ﬂutter:
+exploring
+the
+relationship
+between
+ibrutinib
+chemotherapy and atrial myopathy. HeartRhythm
+Case Rep. 2024;10(1):104–108.
+8. Cherian TS, Supple G, Smietana J, et al. Idio-
+pathic atypical atrial ﬂutter is associated with a
+distinct
+atriopathy.
+JACC
+Clin
+Electrophysiol.
+2021;7(9):1193–1195.
+9. Zhu X, Chu H, Li J, et al. New discovery of left
+atrial macroreentry tachycardia: originating from
+the spontaneous scarring of left atrial anterior
+wall. J Interv Cardiol. 2021;2021:2829070.
+10. Bakytzhanuly A, Abdrakhmanov A, Seisembekov T,
+Smagulova A, Blyalova D. High-density mapping of
+multiple atypical atrial ﬂutter. First HD GRID
+mapping experience among The Commonwealth
+of Independent States. J Arrhythm. 2020;36(4):
+771–773.
+11. Nogami A, Kurita T, Abe H, et al. JCS/JHRS 2019
+guideline on non-pharmacotherapy of cardiac ar-
+rhythmias. J Arrhythm. 2021;37(4):709–870.
+12. Zaidi A, Kirzner J, Liu CF, et al. Localized re-
+entry is a frequent mechanism of de novo atyp-
+ical ﬂutter. JACC Clin Electrophysiol. 2024;10(2):
+235–248.
+13. Michal P, Bartosz K, Kacper R, et al. Atypical
+atrial ﬂutter ablation: follow-up and predictors of
+arrhythmia recurrence. Heart Vessels. 2024;39(11):
+949–957.
+14. Kitamura T, Martin R, Denis A, et al. Charac-
+teristics of single-loop macroreentrant biatrial
+tachycardia
+diagnosed
+by
+ultrahigh-resolution
+mapping system. Circ Arrhythm Electrophysiol.
+2018;11(2):e005558.
+15. Neira V, Hanson M, Tso M, et al. Compari-
+son of anterior mitral line and mitral isthmus
+line
+for
+ablation
+of
+mitral
+annular
+ﬂutter.
+J
+Cardiovasc
+Electrophysiol.
+2024;35(7):1480–
+1486.
+KEY WORDS ablation, perimitral atrial
+tachycardia, transcatheter aortic valve
+replacement
+Tsutsui et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Peri-Mitral Atrial Tachycardia Following TAVR
+M A R C H 1 9 , 2 0 2 5 : 1 0 2 9 6 7
+6

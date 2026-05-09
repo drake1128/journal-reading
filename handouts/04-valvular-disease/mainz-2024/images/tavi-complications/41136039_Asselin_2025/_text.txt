@@ -1,0 +1,443 @@
+
+=== PAGE 1 ===
+NEW YORK VALVES
+CLINICAL CASE
+Transfemoral Retrograde Transcatheter 
+Mechanical Thrombectomy of Massive 
+Left Ventricular Thrombus
+Chantal Y. Asselin, MD, MSC, Mostafa Naguib, MD, Robert Kipperman, MD, Konstantinos P. Koulogiannis, MD, 
+Linda Gillam, MD, Philippe Généreux, MD, Gennaro Giustino, MD
+ABSTRACT
+BACKGROUND Left ventricular thrombus remains a clinically significant and under-recognized source of embolic 
+complications in patients with left ventricular dysfunction. Transcatheter thrombectomy offers a viable alternative in 
+high-risk surgical patients.
+CASE SUMMARY A 64-year-old woman with history of anterior acute myocardial infarction presented as a code stroke 
+given sudden-onset dysarthria and right-sided facial droop. Brain magnetic resonance imaging revealed several acute 
+infarcts in the left middle cerebral artery territory, consistent with embolic phenomenon. Transthoracic echocardiog-
+raphy demonstrated mildly reduced left ventricular ejection fraction of 44%, apical akinesis, and the presence of 
+multiple large mobile left ventricular thrombi adherent to a papillary muscle and chordal apparatus, the largest 
+measuring 2.1 × 2.0 cm. Transcatheter left ventricular thrombectomy using the AngioVac system was pursued using a 
+retrograde transaortic approach.
+TAKE-HOME MESSAGES Transcatheter thrombectomy is a safe alternative for patients with left-sided intracardiac 
+masses who are at high risk for surgery. Trans-septal or retrograde transaortic approaches may be used for
+mass extraction. (JACC Case Rep. 2025;30:105666) © 2025 The Authors. Published by Elsevier on behalf of the 
+American College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENT ILLNESS
+A 64-year-old woman presented to our institution as 
+a code stroke given sudden-onset dysarthria and 
+right-sided facial droop. The patient’s last-known 
+well time was approximately 7 hours before presen-
+tation, when she developed dysarthria. Approxi-
+mately 4 hours later, a family member noticed facial 
+asymmetry and decided to bring her to the hospital 
+for further assessment.
+PAST MEDICAL HISTORY
+The patient had a history of hypertension, non– 
+insulin dependent type 2 diabetes mellitus, and cor-
+onary artery disease, with prior infarct to the left 
+anterior descending artery requiring percutaneous 
+coronary intervention and placement of a drug-
+eluting stent 7 years prior. Her surgical history was 
+unremarkable. The patient was not taking any med-
+ications at the time of admission.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.105666
+From the Gagnon Cardiovascular Institute, Atlantic Health System, Morristown, New Jersey, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received July 2, 2025; revised manuscript received August 19, 2025, accepted September 10, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 3 3 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+DIFFERENTIAL DIAGNOSIS
+The differential diagnosis in this patient with 
+cardiovascular and cerebrovascular comor-
+bidities presenting with new neurological 
+deficits was suspicious for acute embolic 
+stroke. Other pathologies, such as transient 
+ischemic attack, venous sinus thrombosis, 
+severe migraine, or Bell’s palsy, were also considered 
+but were less likely. Microvascular dysfunction was 
+also plausible given the history of myocardial 
+infarction and lack of secondary prevention medica-
+tions such as a statin and aspirin.
+INVESTIGATIONS
+An electrocardiogram showed normal sinus rhythm 
+and nonspecific ST-T wave changes. Initial computed 
+tomography of the head was negative for an acute 
+intracranial hemorrhage or midline shift. Computed 
+tomography angiography of the head did not reveal 
+any vascular occlusions, significant stenosis, or 
+aneurysmal segments. Computed tomography angi-
+ography of the neck demonstrated a severe stenosis 
+involving the origin of the left vertebral artery. 
+Physical examination was remarkable for right-sided 
+facial droop with flattened nasolabial fold and 
+asymmetric smile. The patient was evaluated by the 
+neurology and the stroke teams, and intravenous 
+thrombolytics were deferred owing to a low National 
+Institute of Health Stroke Scale score and presenting 
+outside of the therapeutic window. Routine stroke 
+work-up was pursued.
+Magnetic resonance imaging of the brain revealed 
+several acute infarcts in the left insular cortex, pari-
+etal cortex, and parietal periventricular white matter, 
+with a 5-mm area of microhemorrhage visualized in 
+the left insula consistent with embolic phenomenon 
+in the left middle cerebral artery. Transthoracic 
+echocardiography demonstrated hypokinesis and 
+thinning of the anterior and anteroseptal walls, 
+mildly reduced left ventricular (LV) ejection fraction 
+of 44%, and apical akinesis consistent with prior 
+infarct of the left anterior descending artery 
+(Video 1). Additionally, the presence of multiple large 
+mobile LV thrombi adherent to a papillary muscle 
+and chordal apparatus were identified, the largest 
+measuring 2.1 × 2.0 cm (Video 1). A diagnosis of 
+thromboembolic stroke secondary to the presence of 
+large LV thrombi was made.
+MANAGEMENT
+Given the complexity of the case, a multidisciplinary 
+discussion 
+involving 
+the 
+structural 
+heart,
+interventional cardiology, cardiothoracic surgery, 
+and neurology teams was held. The patient’s 
+elevated surgical risk, recent cerebral vascular acci-
+dent, embolic risk predicted by clot morphology, 
+size, and mobility, as well as elevated thromboem-
+bolic risk despite therapeutic anticoagulation were 
+taken into consideration. Ultimately, the decision to 
+pursue transcatheter LV thrombectomy using the 
+AngioVac system (AngioDynamics) with bilateral ce-
+rebral embolic protection was made.
+OUTCOME AND FOLLOW-UP
+The procedure was performed with the patient under 
+general anesthesia and with transesophageal echo-
+cardiography (TEE) guidance (Video 2). Transfemoral 
+access was obtained in the right femoral vein with a 
+26-F DrySeal (W.L. Gore & Associates) and in the right 
+femoral artery with a 15-F arterial extracorporeal 
+membrane oxygenation cannula. An initial weight-
+based heparin bolus was administered to achieve a 
+target activated clotting time of 250 to 300 seconds. 
+Serial activated clotting times were monitored 
+throughout the procedure. Two Sentinel cerebral 
+protection devices (Boston Scientific) were deployed 
+from the right and left radial artery in the brachio-
+cephalic trunk, left carotid, and left subclavian ar-
+teries. A trans-septal approach was initially 
+attempted to perform the LV thrombectomy (see 
+Figure 1, Video 3).
+A trans-septal puncture was performed, with 
+advancement of a guidewire into the left upper pul-
+monary vein. A septostomy was performed with a 14-
+mm Armada balloon (Abbott). Then, a Confida wire 
+(Medtronic) was advanced in the LV using an Agilis 
+catheter (Abbott). Next, the AngioVac C180 cannula 
+was advanced over the wire. Despite multiple at-
+tempts, the C180 cannula could not be advanced in 
+the LV owing to excessive thrombotic burden. We
+TAKE-HOME MESSAGES
+• LV thrombus remains a clinically significant 
+and under-recognized source of embolic 
+complications in patients with LV 
+dysfunction.
+• Transcatheter thrombectomy is an effective 
+alternative therapy for high-risk patients 
+with left-sided intracardiac masses.
+• A trans-septal or retrograde transaortic 
+approach may be used for transcatheter LV 
+thrombectomy.
+• A retrograde approach may be preferred 
+among patients with very large LV thrombus 
+burden.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+LV = left ventricular
+TEE = transesophageal
+echocardiography
+TVME = transcatheter vacuum-
+assisted mass extraction
+Asselin et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5
+Transcatheter Thrombectomy for LV Thrombus 
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 6 6 6
+2
+
+=== PAGE 3 ===
+then switched to a retrograde transfemoral approach 
+(see Figure 2, Video 4). Using an F18 cannula 
+(AngioDynamics) from the right femoral artery with a 
+recirculation cannula in the left femoral vein, the 
+basket of the F18 cannula was introduced into the LV 
+and positioned above the mass. After multiple runs of 
+aspiration, the mass was successfully debulked.
+Final TEE demonstrated a small pedunculated 
+thrombus measuring 6 × 5 × 3 mm, which was treated 
+with anticoagulation (Figure 3, Video 5). The total 
+fluoroscopic time was 105 minutes, and 20 mL of 
+contrast was used. Postprocedural imaging revealed 
+preserved valvular integrity and function, without 
+evidence of valvular trauma, damage, or dysfunction. 
+The patient was eventually transitioned to a direct 
+oral anticoagulant and discharged from the hospital.
+DISCUSSION
+LV thrombus after myocardial infarction remains 
+associated with substantial morbidity and mortality, 
+and its management remains challenging. There exist 
+limited guideline recommendations by the American 
+Heart Association, American Stroke Association, or 
+American College of Cardiology regarding optimal 
+treatment of LV thrombus, 1-3 particularly regarding 
+the use of direct oral anticoagulants as a potential 
+alternative 
+option 
+to 
+traditional 
+vitamin 
+K
+antagonists, predominately warfarin. Currently, 
+either agent may be used for 3 to 6 months, however 
+the clinical trial data to support this timeline are 
+lacking. 1 Additionally, there is a paucity of reported 
+outcomes and success of anticoagulation alone for 
+patients identified with larger LV thrombi. Further-
+more, there is a lack of consensus on the long-term 
+use of anticoagulation alone for patients with LV 
+dysfunction, who are more susceptible to recurrence 
+of LV thrombus.
+Recently, transcatheter vacuum-assisted mass 
+extraction (TVME) devices such as the AngioVac 
+system have emerged as an effective and safe alter-
+native to open surgical thrombectomy; these TVME 
+devices may be used alongside anticoagulation for 
+management of large LV thrombi. These devices have 
+been shown to retrieve a variety of intravascular 
+materials including vegetations, tumor thrombus, 
+catheter- or device-related thrombus, as well as 
+intravascular or intracardiac masses. 4,5 The AngioVac 
+system was originally designed for the removal of 
+right-sided intracardiac masses. 4,5 However, Qintar 
+et al 6 published a 10-patient case series in 2022 that 
+demonstrated the versatility and safety of the 
+AngioVac system in the aspiration of left-sided 
+masses. Extracted masses included thrombi within 
+the left atrium, left atrial appendage, LV, aortic arch, 
+as well as vegetations located on the mitral valve
+FIGURE 1 Trans-Septal LV Thrombectomy Attempt
+(A and B) Deployment of cerebral protection devices. (C) Trans-septal puncture with the VersaCross system (Boston Scientific) under transesophageal echocardi-
+ography guidance. (D) Placement of Supra Core guidewire (Abbott) into left upper pulmonary artery. (E) Septostomy performed with a 14-mm Armada balloon. 
+(F) Trans-septal crossing of a C180 AngioVac cannula. (G) Positioning of the outer cannula of a C180 AngioVac within the left ventricle. (H) F18 AngioVac suction 
+basket deployed within the left ventricle. LV = left ventricular.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5 
+Asselin et al
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 6 6 6 
+Transcatheter Thrombectomy for LV Thrombus
+3
+
+=== PAGE 4 ===
+leaflets; the mean total procedural time was 
+192 minutes with successful aspiration, defined as 
+aspirating >70% of the material, which was ach-
+ieved in 8 of the 10 patients. 6 No complications 
+were observed, and bilateral cerebral protection 
+devices were used in all patients. 6 Several other 
+case reports have demonstrated the successful use 
+of 
+the 
+AngioVac 
+for 
+left-sided 
+intracardiac 
+masses. 7,8 Alternatively, Gawaz et al 9 described the 
+use of a snare catheter for LV thrombus removal. 
+This method was considered by our group, however 
+an aspiration device was favored given the adher-
+ence of the LV thrombi to the papillary muscle and 
+chordal apparatus, which could have been damaged 
+by a snare catheter.
+We successfully demonstrate the use of a TVME 
+device for removal of multiple large, mobile LV 
+thrombi using alternative access. As illustrated by 
+Qintar et al, 6 a trans-septal approach was favored for 
+intervention in the left side of the heart. They 
+described a balloon-assisted tracking technique in 
+which the AngioVac suction catheter is preloaded
+onto the septostomy balloon and used as a dilator, 
+facilitating traversal of the intra-atrial septum while 
+minimizing blood loss. 6 We initially attempted this 
+approach, however the AngioVac suction catheters 
+were unable to traverse the patient’s mitral valve into 
+the LV, presumably owing to lack of enough support, 
+as the Confida wire could not advance to the LV apex 
+because of excessive thrombotic burden. In order to 
+prevent iatrogenic injury to the mitral valve appa-
+ratus, we switched to a retrograde transaortic 
+approach. A guiding catheter was used to cross the 
+aortic valve into the LV. This was exchanged for a 
+guidewire, which acted as a rail for the AngioVac 
+catheter to traverse into the LV across the aortic 
+valve. Given the risk of incomplete mass removal, we 
+recommend that cerebral protection devices be used 
+in cases with high embolic burden or thrombus 
+manipulation. Considerations for anatomical con-
+straints, device design limitations, and ventricular 
+geometry should also be discussed prior to the pro-
+cedure if alternative access or different devices are 
+required, as was the case for our patient.
+FIGURE 2 Transfemoral Retrograde Transcatheter Mechanical Thrombectomy Technique
+Multiple views on transesophageal echocardiography of the F18 AngioVac cannula accessing the left ventricle through the left ventricular 
+outflow tract.
+Asselin et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5
+Transcatheter Thrombectomy for LV Thrombus 
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 6 6 6
+4
+
+=== PAGE 5 ===
+STRENGTHS AND LIMITATIONS. A transfemoral
+retrograde approach for LV thrombectomy has 
+several strengths. First, this approach eliminates the 
+need for trans-septal puncture, which may lead to 
+intracardiac shunt requiring percutaneous or surgical 
+closure postseptostomy. Second, it provides an 
+alternative approach to access the LV that negates 
+having to traverse the mitral valve, which may 
+induce iatrogenic damage to the mitral valve appa-
+ratus, leading to mitral regurgitation. Third, the 
+funnel of the F18 cannula is located within the LV 
+outflow tract, possibly preventing systemic emboli-
+zation of material. Lastly, the trajectory achieved by 
+the transfemoral retrograde approach conforms to 
+the natural anatomy and positioning of the LV cavity, 
+which may facilitate aspiration of thrombotic 
+contents.
+There are several limitations to this approach. 
+First, the working length of the F18 cannula (Angio-
+Dynamics) is 105 cm. Our patient was a short woman 
+of 165 cm, however in taller patients, the F18 cannula 
+may not be long enough to reach the LV. Second, 
+large-bore arterial access of at least 22 F is required to 
+accommodate the F18 cannula. This access should be 
+obtained by an experienced provider, with the pre-
+closure device placed before dilation of the vessel to
+minimize risk of vascular injury or major bleeding. 
+Next, the transfemoral retrograde approach requires 
+the large F18 cannula to traverse the aortic valve. If 
+not performed with caution and under TEE guidance, 
+it could cause iatrogenic damage of the aortic valve 
+apparatus, leading to hemodynamic collapse. Lastly, 
+delivery of the F18 apparatus through the thoracic 
+and ascending aorta could dislodge atherosclerotic 
+plaques, leading to ischemia. We recommend a 
+strategy of bilateral embolic protection, however this 
+does not prevent peripheral or visceral ischemia.
+CONCLUSIONS
+LV thrombus remains a clinically significant and 
+under-recognized source of embolic complications 
+in patients with LV dysfunction. Transcatheter 
+thrombectomy offers a viable alternative treatment 
+strategy in patients at high surgical risk. Both 
+trans-septal or retrograde transaortic approaches 
+may be used, however a retrograde approach may 
+be preferred among patients with very large LV 
+thrombus burden.
+ACKNOWLEDGMENTS The authors acknowledge all 
+of the health care workers and ancillary hospital staff 
+who were involved in the care of the patient.
+FIGURE 3 Transesophageal Echocardiography Images of Multiple Large LV Thrombi Before and After LV Thrombectomy
+(A) Two-dimensional imaging, (B) color Doppler, and (C) three-dimensional imaging before LV thrombectomy. (D) Two-dimensional imaging, (E) color Doppler, and 
+(F) three-dimensional imaging after LV thrombectomy. LV = left ventricular.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5 
+Asselin et al
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 6 6 6 
+Transcatheter Thrombectomy for LV Thrombus
+5
+
+=== PAGE 6 ===
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Koulogiannis has been a consultant for Edwards Lifesciences and 
+Medtronic. Dr Gillam has been an advisor to Medtronic, Philips, and 
+Egnite. Dr Genereux has received institutional research grants from 
+Edwards Lifesciences; consulting fees from Abbott, Cordis, Edwards 
+Lifesciences, Egnite, Haemonetics, Medtronic, Opsens, Puzzle Med-
+ical, Pi-Cardia, and 4C medical; holds equity in Puzzle Medical and 
+Pi-Cardia; and was the principal investigator of the EARLY TAVR 
+trial, and the PROGRESS trial, both sponsored by Edwards
+Lifesciences. Dr Giustino has been a proctor and consultant for 
+Edwards Lifesciences. The authors have reported that they have no 
+relationships relevant to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Gennaro
+Giustino, Valve and Structural Heart Center, Gagnon 
+Cardiovascular Institute, Atlantic Health System, 100 
+Madison Avenue, Morristown, New Jersey 07960, 
+USA. E-mail: gennaro.giustino@atlantichealth.org.
+R E F E R E N C E S
+1. Levine GN, McEvoy JW, Fang JC, et al. Man-
+agement of patients at risk for and with left 
+ventricular thrombus: a scientific statement from 
+the American Heart Association. Circulation. 
+2022;146:e205–e223.
+2. O’Gara P, Kushner F, Ascheim D, et al. 
+2013 ACCF/AHA Guideline for the management 
+of ST-elevation myocardial infarction: a 
+report of the American College of Cardiology 
+Foundation/American Heart Association task 
+force on practice guidelines. J Am Coll Cardiol. 
+2013;61(4):e78–e140.
+3. Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 
+2021 Guideline for the prevention of stroke in 
+patients with stroke and transient ischemic 
+attack: a guideline from the American Heart As-
+sociation/American Stroke Association. Stroke. 
+2021;52:e364–e467.
+4. Katapadi 
+A, 
+Richards 
+L, 
+Fischer 
+W, 
+Allaqaband SQ, Bajwa T, Jan MF. Endovascular 
+treatment of right heart masses utilizing the 
+AngioVac system: a 6-year single-center observa-
+tional study. J Interv Cardiol. 2021;2021:9923440.
+5. Mullins JB, Warner A, Patel VS, Arora V. 
+A retrospective analysis of AngioVac outcomes at 
+a Tertiary Care Center. J Soc Cardiovasc Angiogr 
+Interv. 2024;3:101979.
+6. Qintar M, Wang DD, Lee J, et al. Transcatheter 
+vacuum-assisted left-sided mass extraction with 
+the AngioVac system. Catheter Cardiovasc Interv. 
+2022;100:628–635.
+7. Gerosa G, Longinotti L, Bagozzi L, et al. 
+Transapical aspiration of a mitral mass with the 
+AngioVac system on a beating heart. Ann Thorac 
+Surg. 2020;110:e445–e447.
+8. Stimpfle F, Müller K, Geisler T, et al. Throm-
+boembolic risk reduction via transseptal thrombus 
+aspiration in a patient with spontaneous left atrial 
+thrombus and stroke. JACC Cardiovasc Interv. 
+2017;10:e57–e59.
+9. Gawaz MP, Schreieck J, Lydia Mueller KA, 
+Geisler T. Interventional removal of LV thrombus 
+in a patient with cardiogenic shock and transitory 
+ischemic attack. JACC Case Rep. 2023;15:101860.
+KEY WORDS alternative access, 
+mechanical thrombectomy, transcatheter 
+vacuum-assisted mass extraction
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+Asselin et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5
+Transcatheter Thrombectomy for LV Thrombus 
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 6 6 6
+6

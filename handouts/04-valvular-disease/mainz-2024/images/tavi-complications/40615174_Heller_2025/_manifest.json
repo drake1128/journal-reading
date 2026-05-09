@@ -1,0 +1,54 @@
+{
+  "pdf": "40615174_Heller_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1071,
+      "height": 760,
+      "ext": "jpeg",
+      "bytes": 161145
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1964,
+      "height": 1340,
+      "ext": "jpeg",
+      "bytes": 385840
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1489,
+      "height": 795,
+      "ext": "jpeg",
+      "bytes": 163781
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1491,
+      "height": 1799,
+      "ext": "jpeg",
+      "bytes": 292707
+    },
+    {
+      "file": "fig-05_p5.jpeg",
+      "page": 5,
+      "width": 1968,
+      "height": 1420,
+      "ext": "jpeg",
+      "bytes": 307628
+    },
+    {
+      "file": "fig-06_p6.jpeg",
+      "page": 6,
+      "width": 1067,
+      "height": 559,
+      "ext": "jpeg",
+      "bytes": 76444
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pdf": "40541354_Fern_ndez-Cord_n_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1346,
+      "height": 1860,
+      "ext": "jpeg",
+      "bytes": 423050
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 645,
+      "ext": "jpeg",
+      "bytes": 319833
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1495,
+      "height": 734,
+      "ext": "jpeg",
+      "bytes": 251689
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1968,
+      "height": 1299,
+      "ext": "jpeg",
+      "bytes": 487232
+    },
+    {
+      "file": "fig-05_p6.jpeg",
+      "page": 6,
+      "width": 1495,
+      "height": 1380,
+      "ext": "jpeg",
+      "bytes": 428721
+    }
+  ]
+}

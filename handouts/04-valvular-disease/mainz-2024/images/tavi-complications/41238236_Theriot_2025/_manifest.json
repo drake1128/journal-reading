@@ -1,0 +1,46 @@
+{
+  "pdf": "41238236_Theriot_2025.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1644,
+      "height": 923,
+      "ext": "png",
+      "bytes": 431766
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1071,
+      "height": 1181,
+      "ext": "png",
+      "bytes": 198179
+    },
+    {
+      "file": "fig-03_p5.png",
+      "page": 5,
+      "width": 1694,
+      "height": 1710,
+      "ext": "png",
+      "bytes": 1467966
+    },
+    {
+      "file": "fig-04_p6.png",
+      "page": 6,
+      "width": 1943,
+      "height": 962,
+      "ext": "png",
+      "bytes": 1915323
+    },
+    {
+      "file": "fig-05_p7.png",
+      "page": 7,
+      "width": 1644,
+      "height": 1105,
+      "ext": "png",
+      "bytes": 478094
+    }
+  ]
+}

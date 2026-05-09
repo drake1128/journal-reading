@@ -1,0 +1,552 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+FIRST-IN-HUMAN/EARLY REPORTS
+A Novel Approach for Cerebral Embolic
+Protection With Single-Artery Access
+in TAVR
+Isaac George, MD,a,b,* Maximilian Reisinger, MD,a,* Mateusz Kachel, MD, PHD,a,c Irakli Gogorishvili, MD, PHD,d
+Gvantsa Dughashvili, MD,d May Nour, MD, PHD,e Tamim M. Nazif, MDb
+ABSTRACT
+BACKGROUND Cerebral embolic protection devices (CEPDs) have been developed to decrease embolic brain injury
+and stroke during transcatheter aortic valve replacement (TAVR). Simplifying vascular access for a CEPD may increase
+procedural efﬁciency and safety
+FIRST-IN-HUMAN/EARLY REPORTS SUMMARY This is the ﬁrst published report of the use of the novel EnCompass
+F2 ﬁlter, which consists of a cylindrical nitinol frame and electrospun ﬁlter. Complete cerebral embolic protection during
+TAVR is possible through single femoral arterial access.
+DISCUSSION Cerebral protection was feasible and safe without device-related complications, clinical stroke, or other
+neurologic events. Postprocedural diffusion-weighted magnetic resonance imaging revealed only 1 very small, clinically
+insigniﬁcant new brain lesion.
+NOVELTY This presents the ﬁrst successful use of a CEPD in TAVR through access by a single femoral artery.
+TAKE-HOME MESSAGE The use of the novel EnCompass F2 ﬁlter was feasible to provide complete cerebral
+embolic protection in TAVR using a single access. (JACC Case Rep. 2025;30:103768) © 2025 The Authors. Published by
+Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103768
+From the aDivision of Cardiac, Thoracic, and Vascular Surgery, New York-Presbyterian Hospital, Columbia University Irving
+Medical Center, New York, New York, USA; bStructural Heart and Valve Center, New York-Presbyterian Hospital, Columbia
+University Irving Medical Center, New York, New York, USA; cCenter for Cardiovascular Research and Development, American
+Heart of Poland, Katowice, Poland; dIsraeli-Georgian Medical Research Clinic Healthycore, Tbilisi, Georgia; and the eeHealth Merit
+Corporation, Los Angeles, California, USA. *These authors contributed equally to this paper.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received January 6, 2025; revised manuscript received February 13, 2025, accepted February 19, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 5 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+A
+70-year-old man with severe aortic
+stenosis presented with 3 months of
+progressive
+dyspnea
+on
+exertion
+(NYHA functional class III).
+PAST MEDICAL HISTORY
+The patient’s medical history included hy-
+pertension, hyperlipidemia, nonobstructive
+coronary artery disease, and peripheral ar-
+tery disease (PAD), previously treated with a
+right common femoral artery (CFA) stent. His
+medications included aspirin, statin, and b-
+blocker.
+INVESTIGATIONS AND PLAN
+Preprocedural
+transthoracic
+echocardiography
+revealed a left ventricular ejection fraction of 52%
+with severe aortic stenosis (mean gradient: 62 mmHg;
+aortic valve area: 0.6 cm2) and moderate left ven-
+tricular hypertrophy. Computed tomography angiog-
+raphy
+showed
+aortic
+annulus
+area
+of
+492
+mm2,
+calciﬁcation of the aortic valve and ascending aorta,
+and the prior right CFA stent (Figure 1). After evalu-
+ation by the heart team, the patient was offered
+transfemoral transcatheter aortic valve replacement
+(TAVR) with a 26-mm Sapien 3 transcatheter heart
+valve (THV) (Edwards Lifesciences). This was planned
+via left femoral artery access, given the presence of
+the right CFA stent, which precluded safe right
+femoral arterial access. The patient was enrolled in an
+early feasibility study of the EnCompass F2 cerebral
+embolic
+protection
+device
+(CEPD),
+which
+was
+approved by the local institutional review board. An
+ipsilateral, single-side approach through the left CFA
+using a double-stick technique was planned as pre-
+viously described.1
+EnCompass F2 CEREBRAL EMBOLIC
+PROTECTION DEVICE
+The EnCompass F2 is a novel CEPD featuring a self-
+expanding, cylindrical nitinol frame and an electro-
+spun ﬁlter with a very small pore size (30 mm average)
+(Figure 2). The F2 ﬁlter is deployed proximal to the
+innominate artery and achieves 360 wall apposition,
+ensuring stability in the aortic arch and an adequate
+seal to exclude ﬂow around the ﬁlter. An important
+feature of the F2 is that it can be deployed through the
+TAVR access site, where it remains tethered to a
+0.015-inch retention wire that facilitates ﬁlter recap-
+ture at the conclusion of the procedure. Exclusion
+criteria
+for
+the
+F2
+include
+severe
+bilateral
+PAD,
+severe abdominal and/or thoracic aortic disease, and
+increased aortic arch diameters (ascending >38 mm,
+transverse
+>27
+mm)
+precluding
+delivery
+sheath
+vascular access or ﬁlter deployment.
+PROCEDURAL DETAILS
+Anesthesia was administered, and the patient was
+prepared and draped in sterile fashion. A temporary
+pacemaker lead was placed via right external jugular
+venous
+access.
+Subsequently,
+the
+left
+CFA
+was
+accessed twice in superior and inferior positions.
+The superior access site, intended for the TAVR
+sheath, was preclosed with 2 suture-based closure
+devices (Figure 3). A pigtail catheter was placed in the
+aortic root through a 6-F sheath in the inferior access
+site, and a standard 14-F sheath was advanced into
+the descending aorta from the superior access site
+(Figure 4A). Aortography was performed to determine
+the appropriate angle for TAVR deployment and
+landing zone for the F2, and the pigtail catheter was
+removed.
+A stiff 0.035-inch guidewire was placed through
+the 14-F sheath superiorly, and the F2 was advanced
+on the wire to a position several centimeters proximal
+to the innominate artery and deployed with a simple
+pin-and-pull mechanism (Figure 4B, Video 1). After
+successful placement of the F2 in the aortic arch
+covering all 3 great vessels (Figure 4C), the delivery
+system and 14-F sheath were removed, retaining both
+the 0.015-inch ﬁlter retention wire and 0.035-inch
+guidewire through the access site. The CEPD reten-
+tion wire was secured to the patient externally, and a
+14-F Edwards eSheath was advanced into the artery
+over the stiff guidewire alone. A pigtail catheter was
+readvanced from the inferior sheath, through the
+center
+of
+the
+CEPD,
+and
+into
+the
+aortic
+root
+(Figure
+4D).
+Subsequently,
+a
+5-F
+catheter
+was
+advanced over the stiff guidewire, which remained
+proximal to the F2 through its central lumen, and the
+aortic valve was crossed in standard fashion. A stiff,
+shaped guidewire was placed in the left ventricle, and
+TAKE-HOME MESSAGES
+ Stroke remains a devastating and dreaded
+complication after TAVR because it is asso-
+ciated with signiﬁcantly increased morbidity
+and mortality.
+ The use of the novel EnCompass F2 ﬁlter was
+feasible to provide complete cerebral
+embolic protection in TAVR.
+ This presents the ﬁrst successful use of a
+cerebral embolic protection device in TAVR
+through access by only a single femoral
+artery.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+CEPD = cerebral embolic
+protection device
+CFA = common femoral artery
+DW-MRI = diffusion-weighted
+magnetic resonance imaging
+PAD = peripheral artery
+disease
+TAVR = transcatheter aortic
+valve replacement
+THV = transcatheter heart
+valve
+George et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 5 , 2 0 2 5
+Single-Artery Access in TAVR
+J U N E 1 8 , 2 0 2 5 : 1 0 3 7 6 8
+2
+
+=== PAGE 3 ===
+the Sapien 3 THV and Commander delivery system
+were advanced though the eSheath. The THV was
+carefully passed through the F2 using active ﬂexion
+with no signiﬁcant interaction or movement of the
+CEPD. The THV was positioned in the aortic valve
+annulus and deployed under rapid ventricular pacing
+(Figure 4E). After angiographic and echocardiographic
+veriﬁcation of appropriate THV position and function,
+the valve delivery system and pigtail were carefully
+removed through the F2 ﬁlter.
+To recapture the F2, an 0.018-inch guidewire was
+advanced
+through
+the
+eSheath,
+which
+was
+then
+removed, and the original 14-F sheath was reinserted
+over both the 0.018-inch wire and the F2 retention
+wire together. The double wires, both nitinol wires,
+have ample support for readvancing the original 14-F
+sheath.
+The
+F2
+was
+then
+recaptured
+by
+simply
+advancing the recapture sheath over the retention
+wire and ﬁlter, and it was removed from the body
+(Figure 4F). Wires and sheaths were removed, and
+ﬁnal CFA angiography was performed via the inferior
+sheath to document vessel patency and successful
+hemostasis of the superior access site. Video 1 sum-
+marizes the procedure.
+FOLLOW-UP
+There were no procedural complications, and post-
+operative
+transthoracic
+echocardiography
+demon-
+strated appropriate THV position and function with a
+mean gradient of 10 mmHg and no signiﬁcant aortic
+regurgitation.
+Diffusion-weighted
+magnetic
+reso-
+nance imaging (DW-MRI) after 24 hours demon-
+strated a single new brain lesion with a volume of
+only 10 mm3. During the index hospitalization and at
+the 30-day follow-up visit, there was no evidence of
+stroke or major adverse cardiac and cerebrovascular
+events, including all-cause death, all stroke, major
+vascular complications, type 2-4 bleeding, or stage
+3-4 acute kidney injury.
+FIGURE 1
+Preprocedural Computed Tomography Angiography
+3D reconstruction of the (A) aortic valve annulus, (B) aortic arch showing extensive calciﬁed deposits, and (C) femoral vessels showing the prior stent in the right
+common femoral artery. (D) Simulated aortogram demonstrating typical aortic arch anatomy with full patency of all vessels.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 5 , 2 0 2 5
+George et al
+J U N E 1 8 , 2 0 2 5 : 1 0 3 7 6 8
+Single-Artery Access in TAVR
+3
+
+=== PAGE 4 ===
+DISCUSSION
+The current report describes the ﬁrst-in-human use of
+the EnCompass F2, a novel CEPD consisting of a cy-
+lindrical nitinol frame and electrospun ﬁlter with a
+very small pore size (30 mm average). Cerebral pro-
+tection with the F2 during TAVR was feasible and
+safe without device-related complications, stroke, or
+other neurologic events and only 1 very small, clini-
+cally insigniﬁcant new brain lesion on postprocedural
+DW-MRI. This case also demonstrates the feasibility
+of performing CEPD for TAVR with access by a single
+femoral artery only.
+Despite signiﬁcant advances in TAVR technologies
+and techniques over the past decade, the incidence of
+stroke within 30 days has remained at 2% to 3%.2,3
+The risk of stroke is highest in the initial 24 to
+72 hours after TAVR, and stroke is associated with a
+signiﬁcant increase in morbidity and mortality in
+TAVR recipients.4 The majority of these strokes are
+ischemic in nature and are believed to be caused by
+embolization of debris during catheter advancement
+FIGURE 2
+EnCompass F2 Cerebral Embolic Protection Device
+(A) Aortic arch deﬂector composed of a cylindrical nitinol frame that covers all three vessels supplying blood ﬂow to the brain while allowing
+passage of the transcatheter aortic valve replacement system through its center. (B) It features an electrospun ﬁlter with very small pore size
+(30 mm average).
+George et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 5 , 2 0 2 5
+Single-Artery Access in TAVR
+J U N E 1 8 , 2 0 2 5 : 1 0 3 7 6 8
+4
+
+=== PAGE 5 ===
+through the vasculature, manipulation of the calciﬁed
+aortic valve, and thrombosis.5,6 Even in the absence
+of clinical stroke, new ischemic brain lesions have
+been identiﬁed in >85% of patients using DW-MRI.7
+Recent
+evidence
+suggests
+that
+new
+brain
+lesion
+number, size, and total volume identiﬁed by DW-MRI
+after TAVR are associated with clinical ischemic
+stroke, disabling stroke, and worse stroke recovery.7
+CEPDs of various designs have been developed to
+decrease the risk of stroke during TAVR.8,9 The only
+widely available device is the Sentinel (Boston Sci-
+entiﬁc), a partial intravascular ﬁlter that has been
+shown to be safe and to capture embolic debris in
+>99% of TAVR cases.8 However, the Sentinel has
+failed to convincingly reduce stroke in randomized
+trials, resulting in limited adoption (<15% of TAVR
+cases in the United States).3,10 Another extensively
+tested CEPD is the TriGuard 3 (Keystone Heart), an
+aortic arch deﬂector covering all 3 cerebral vessels.9
+Similarly to the Sentinel, the TriGuard 3 failed to
+show
+a
+signiﬁcant
+reduction
+in
+efﬁcacy
+in
+the
+REFLECT II trial.9 The failure of existing CEPDs to
+reduce stroke in clinical trials may be attributable to
+insufﬁcient sample size, varying degrees of stroke
+risk in enrolled subjects, inexperienced operators, or,
+importantly, ineffective CEPD. As such, there remains
+an unmet clinical need for a safe and efﬁcacious CEPD
+for widespread use in TAVR.
+The novel EnCompass F2 offers several potential
+advantages relative to prior CEPDs. First, the self-
+expanding cylindrical nitinol frame achieves 360 of
+wall apposition to ensure stability in the aortic arch
+and an adequate seal to exclude ﬂow around the ﬁl-
+ter. In comparison, the TriGuard 3 CEPD achieves only
+partial wall apposition, which leads to suboptimal
+stability. In the current case, the F2 was easy to
+deploy with a simple unsheathing maneuver in the
+appropriate location proximal to the innominate ar-
+tery, and it remained stable throughout the TAVR
+without signiﬁcant interaction. Second, the electro-
+spun ﬁlter has an average pore size of only 30 mm,
+much
+smaller
+than
+those
+previously
+available
+(Sentinel: 150 mm; TriGuard 3: 115  145 mm). This may
+be reﬂected in the DW-MRI results showing only a
+single, very small ischemic brain lesion of 10 mm3.
+For comparison, the median total new lesion volume
+was 102.83 mm3 in the SENTINEL IDE trial, and a
+recent analysis from the REFLECT trials demon-
+strated a cutoff point of 440 to 550 mm3 to be
+reasonable for predicting stroke.7,8
+Whereas prior CEPDs have generally required an
+additional vascular access site, the F2 can be deployed
+through the TAVR access site because of the very
+small 0.01500 retention wire, which remains external
+to the TAVR sheath throughout the procedure. In the
+current case, no bleeding or hematoma was observed
+around the retention wire. With a deployment time
+of <2 minutes in the current case, the F2 did not
+signiﬁcantly prolong the TAVR procedure. In com-
+parison, the Sentinel device required w28 minutes for
+deployment in its early experience.3 The current case
+also demonstrates how deployment of the F2 through
+the TAVR access site can be used safely to achieve
+TAVR with complete cerebral protection with access
+by only a single femoral artery, which may ultimately
+improve
+procedural
+safety.
+The
+use
+of
+a
+single
+femoral artery approach may have several advan-
+tages. First, the risk of vascular and bleeding com-
+plications may be reduced by avoiding a second
+access vessel. Second, the patient described in our
+case report had PAD, which previously required a
+right CFA stent, which would have precluded CEPD
+use. Thus, the possibility of a single femoral artery
+approach may make the device suitable for a wider
+range of patients, particularly those with signiﬁcant
+vascular disease.
+CONCLUSIONS
+This is the ﬁrst-in-human report of the use of the
+novel EnCompass F2 CEPD, which consists of a self-
+expanding, cylindrical nitinol frame and electrospun
+membrane with 30 mm average pore size, to provide
+complete cerebral embolic protection during TAVR.
+This case demonstrates the feasibility of performing
+FIGURE 3
+Left Femoral Artery Access Site
+Single-artery superior and inferior access for transcatheter aortic valve replacement,
+cerebral embolic protection device, and angiographic pigtail catheter.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 5 , 2 0 2 5
+George et al
+J U N E 1 8 , 2 0 2 5 : 1 0 3 7 6 8
+Single-Artery Access in TAVR
+5
+
+=== PAGE 6 ===
+TAVR with CEPD through access by a single femoral
+artery, which may reduce the risk of vascular com-
+plications and expand its use in patients with PAD.
+Clinical trials are currently ongoing to investigate the
+safety and efﬁcacy of the EnCompass F2 in TAVR.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+This study was funded by EnCompass Technologies. Dr George has
+been a consultant for EnCompass. Dr Nazif has been a consultant
+for
+EnCompass,
+Boston
+Scientiﬁc,
+Medtronic,
+and
+Edwards
+Lifesciences.
+ADDRESS FOR CORRESPONDENCE: Dr Isaac George,
+Division of Cardiac, Thoracic, and Vascular Surgery,
+New York-Presbyterian Hospital, Columbia University
+Irving Medical Center, 177 Fort Washington Avenue,
+Garden North 7th ﬂoor, New York, New York 10032.
+USA. E-mail: ig2006@cumc.columbia.edu.
+R E F E R E N C E S
+1. Khubber S, Bazarbashi N, Mohananey D, et al.
+Unilateral access is safe and facilitates peripheral
+bailout
+during
+transfemoral-approach
+trans-
+catheter aortic valve replacement. JACC Car-
+diovasc Interv. 2019;12(21):2210–2220. https://
+doi.org/10.1016/j.jcin.2019.06.050
+2. van Nieuwkerk AC, Aarts HM, Hemelrijk KI, et al.
+Cerebrovascular events in patients undergoing
+transfemoral transcatheter aortic valve implanta-
+tion: a pooled patient level study. J Am Heart
+Assoc. 2024;13(17):e032901. https://doi.org/10.
+1161/JAHA.123.032901
+3. Kapadia SR, Makkar R, Leon M, et al. Cerebral
+embolic protection durin transcatheter aortic-valve
+replacement. N Engl J Med. 2022;387(14):1253–
+1263. https://doi.org/10.1056/NEJMoa2204961
+4. Huded CP, Tuzcu EM, Krishnaswamy A, et al.
+Association between transcatheter aortic valve
+FIGURE 4
+Fluoroscopic Images Depicting Procedural Steps
+(A) Left common femoral artery access for transcatheter aortic valve replacement (superior) and pigtail (inferior). (B) EnCompass F2 delivery system inserted from left
+common femoral artery access (superior) and advanced across the aortic arch over a stiff guidewire. (C) F2 fully deployed in aortic arch. (D) F2 re-crossed with J wire
+and pigtail. (E) Sapien 3 and Commander delivery system advanced through the F2 without signiﬁcant interaction and deployed successfully in the intended location of
+the aortic valve annulus. (F) Successful resheathing and retrieval of the F2.
+George et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 5 , 2 0 2 5
+Single-Artery Access in TAVR
+J U N E 1 8 , 2 0 2 5 : 1 0 3 7 6 8
+6
+
+=== PAGE 7 ===
+replacement and
+early
+postprocedural
+stroke.
+JAMA. 2019;321(23):2306–2315. https://doi.org/
+10.1001/jama.2019.7525
+5. Van Mieghem NM, Schipper ME, Ladich E, et al.
+Histopathology of embolic debris captured during
+transcatheter aortic valve replacement. Circula-
+tion. 2013;127(22):2194–2201. https://doi.org/10.
+1161/CIRCULATIONAHA.112.001091
+6. Fanning JP, Walters DL, Platts DG, et al. Char-
+acterization of neurological injury in transcatheter
+aortic valve implantation: how clear is the picture?
+Circulation. 2014;129(4):504–515. https://doi.org/
+10.1161/CIRCULATIONAHA.113.004103
+7. Lansky AJ, Grubman D, Dwyer MG 3rd, et al.
+Clinical signiﬁcance of diffusion-weighted brain
+MRI lesions after TAVR: results of a patient-level
+pooled analysis. J Am Coll Cardiol. 2024;84(8):
+712–722.
+https://doi.org/10.1016/j.jacc.2024.05.
+055
+8. Kapadia SR, Kodali S, Makkar R, et al. Protection
+against cerebral embolism during transcatheter
+aortic valve replacement. J Am Coll Cardiol.
+2017;69(4):367–377.
+https://doi.org/10.1016/j.
+jacc.2016.10.023
+9. Nazif TM, Moses J, Sharma R, et al. Random-
+ized evaluation of TriGuard 3 cerebral embolic
+protection
+after
+transcatheter
+aortic
+valve
+replacement: REFLECT II. JACC Cardiovasc Interv.
+2021;14(5):515–527.
+https://doi.org/10.1016/j.
+jcin.2020.11.011
+10. Butala NM, Makkar R, Secemsky EA, et al.
+Cerebral embolic protection and outcomes of
+transcatheter aortic valve replacement: results
+from the transcatheter valve therapy registry.
+Circulation. 2021;143(23):2229–2240. https://doi.
+org/10.1161/CIRCULATIONAHA.120.052874
+KEY WORDS cerebral embolic protection
+device, single-artery access, stroke,
+transcatheter aortic valve replacement
+APPENDIX For a supplemental video,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 5 , 2 0 2 5
+George et al
+J U N E 1 8 , 2 0 2 5 : 1 0 3 7 6 8
+Single-Artery Access in TAVR
+7

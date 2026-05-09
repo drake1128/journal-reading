@@ -1,0 +1,62 @@
+{
+  "pdf": "35573856_Noor_2022.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1594,
+      "height": 1453,
+      "ext": "jpeg",
+      "bytes": 281057
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1071,
+      "height": 993,
+      "ext": "jpeg",
+      "bytes": 137865
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1070,
+      "height": 301,
+      "ext": "jpeg",
+      "bytes": 23366
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1495,
+      "height": 997,
+      "ext": "jpeg",
+      "bytes": 196920
+    },
+    {
+      "file": "fig-05_p4.jpeg",
+      "page": 4,
+      "width": 1495,
+      "height": 867,
+      "ext": "jpeg",
+      "bytes": 199859
+    },
+    {
+      "file": "fig-06_p5.jpeg",
+      "page": 5,
+      "width": 1071,
+      "height": 936,
+      "ext": "jpeg",
+      "bytes": 308902
+    },
+    {
+      "file": "fig-07_p6.jpeg",
+      "page": 6,
+      "width": 1071,
+      "height": 1625,
+      "ext": "jpeg",
+      "bytes": 401437
+    }
+  ]
+}

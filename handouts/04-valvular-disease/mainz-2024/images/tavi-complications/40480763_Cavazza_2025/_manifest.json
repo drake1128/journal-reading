@@ -1,0 +1,46 @@
+{
+  "pdf": "40480763_Cavazza_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 1423,
+      "ext": "jpeg",
+      "bytes": 452640
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 725,
+      "ext": "jpeg",
+      "bytes": 269013
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 662,
+      "ext": "jpeg",
+      "bytes": 273246
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1644,
+      "height": 1073,
+      "ext": "jpeg",
+      "bytes": 319630
+    },
+    {
+      "file": "fig-05_p6.jpeg",
+      "page": 6,
+      "width": 1644,
+      "height": 1171,
+      "ext": "jpeg",
+      "bytes": 263159
+    }
+  ]
+}

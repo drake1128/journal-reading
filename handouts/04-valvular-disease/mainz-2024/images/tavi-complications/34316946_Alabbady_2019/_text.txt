@@ -1,0 +1,580 @@
+
+=== PAGE 1 ===
+CASE REPORT
+CLINICAL CASE
+Aorto-Right Ventricular Fistula and
+Paravalvular Leak After Transcatheter
+Aortic Valve Implantation
+Ahmed M. Alabbady, MD,a Sudhakar Sattur, MD, MHSA,b Terry D. Bauch, MD,c Kishore J. Harjai, MDc
+ABSTRACT
+Aorto-right ventricular ﬁstula is a potentially fatal complication following transcatheter aortic valve implantation (TAVI).
+This paper presents a case of successful percutaneous repair of aorto-right ventricular ﬁstula and paravalvular leak
+after TAVI by using 3D-printed models for pre-procedural planning, and a review of published aorto-right ventricular
+ﬁstula cases to date. (Level of Difﬁculty: Advanced.) (J Am Coll Cardiol Case Rep 2019;1:859–64) © 2019 The Authors.
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the
+CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+CASE
+PRESENTATION. A 76-year-old male presented for
+evaluation of symptomatic severe aortic stenosis.
+Despite having a Society of Thoracic Surgeon score of
+3%, he was recommended for transcatheter aortic
+valve replacement (TAVR) by 2 surgeons due to his
+comorbidities.
+MEDICAL HISTORY. The patient had a medical his-
+tory signiﬁcant for chronic obstructive pulmonary
+disease,
+obstructive
+sleep
+apnea
+with
+reported
+noncompliance
+with
+continuous
+positive
+airway
+pressure
+therapy,
+severe
+arthritis,
+and
+poly-
+neuropathy which severely limited his ambulation
+capacity and gait stability, and paroxysmal atrial
+ﬁbrillation on chronic anticoagulation.
+INVESTIGATIONS. Transthoracic
+echocardiography
+showed an aortic valve mean gradient of 51 mm Hg, a
+peak velocity of 4.2 m/s, and an aortic valve area of
+0.6 cm2. Pre-procedural computed tomography (CT)
+(Figure 1) was performed, and an aortic annulus of
+32-  26-mm with an area of 660 mm2 was measured.
+INITIAL
+INTERVENTION. The
+patient
+underwent
+transesophageal echocardiogram-guided TAVR using
+a Sapien 3 29-mm (Edwards Lifescience, Irvine, Cali-
+fornia) using a right femoral approach at an outside
+hospital. Immediately after deployment, there was
+evidence of a moderate paravalvular leak (PVL), and
+additional balloon inﬂations reduced the leak to mild.
+The procedure was complicated immediately by new
+ﬁrst-degree atrio-ventricular block, and left bundle
+LEARNING OBJECTIVES
+ To
+recognize
+and
+anticipate
+aorto-right
+ventricular (RV) ﬁstula as an early compli-
+cation of transcatheter aortic valve
+implantation;
+ To
+realize
+the
+safety
+and
+feasibility
+of
+percutaneous closure of aorto-RV ﬁstula;
+ To recognize the role of the 3-dimensional
+models in planning complex structural heart
+interventions.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2019.11.025
+From the aCardiology Department, Geisinger Medical Center, Danville, Pennsylvania; bCardiology Department, Guthrie Clinic,
+Sayre, Pennsylvania; and the cCardiology Department Geisinger Wyoming Valley Medical Center, Wilkes-Barre, Pennsylvania. The
+authors have reported that they have no relationships relevant to the contents of this paper to disclose. Konstantinos Charitakis,
+MD, served as Guest Associate Editor for this paper.
+Informed consent was obtained for this case.
+Manuscript received September 25, 2019; revised manuscript received November 5, 2019, accepted November 5, 2019.
+J A C C : C A S E R E P O R T S
+V O L . 1 , N O . 5 , 2 0 1 9
+ª 2 0 1 9 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+branch block requiring temporary pacing.
+At 3 days after the procedure, the patient
+developed complete heart block and under-
+went
+permanent
+pacemaker
+placement.
+Transthoracic and transesophageal echocar-
+diograms
+showed
+aorto-right
+ventricular
+ﬁstula
+with
+a
+concern
+for
+supra-annular
+tear or rupture with a small PVL. He was
+hemodynamically stable and so was managed
+conservatively.
+Two
+weeks
+later,
+he
+was
+rehospitalized for syncope and was noted to
+be in clinical acute heart failure. His permanent
+pacemaker
+(PPM)
+was
+interrogated
+and
+showed
+unsustained
+ventricular
+tachycardia.
+A
+repeated
+transthoracic echocardiography did not show any
+signiﬁcant
+change
+from
+prior
+tests,
+suggesting
+increased
+right
+ventricular
+pressure
+and
+volume
+overload
+as
+possible
+causes
+for
+his
+ventricular
+tachycardia. Electrophysiology staff were consulted
+and recommended that the patient be discharged on
+LifeVest (Zoll Medical, Chelmsford, Massachusetts)
+pending closure of his ﬁstula and PVL. Right heart
+catheterization done at that admission showed a
+pulmonary ﬂow/systemic ﬂow (Qp/Qs) ratio of 1.43. A
+heart team discussion was held, and the decision was
+to pursue percutaneous approach.
+The
+patient
+was
+subsequently
+transferred
+to
+the authors’ hospital for further management of
+FIGURE 1
+Pre-Transcatheter Aortic Valve Replacement Computed Topography
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+CT = computed topography
+PPM = permanent pacemaker
+PVL = paravalvular leak
+Qp = pulmonary ﬂow
+Qs = systemic ﬂow
+TAVI = transcatheter aortic
+valve implantation
+VSD = ventricular septal defect
+Alabbady et al.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Aorto-RV Fistula After TAVR
+D E C E M B E R 1 8 , 2 0 1 9 : 8 5 9 – 6 4
+860
+
+=== PAGE 3 ===
+aorto-right ventricular ﬁstula and PVL. The ﬁstula
+was measured and evaluated by cardiac CT (Figure 2).
+CT data were processed with Mimics Innovation Suite
+software (Materialise, Leuven, Belgium) to create a
+3-dimensional (3D) model incorporating the relevant
+anatomy and printed (Figure 3) using an Objet 360
+printer
+(Statasys,
+Eden
+Prarie,
+Minnesota).
+This
+model was reviewed by the interventional team to aid
+in planning the procedure.
+MANAGEMENT. Under
+transesophageal
+guidance
+(Video 1), the defect was crossed with a Wholey wire
+(Covidien, Mansﬁeld, Massachusetts) (Video 2), over
+which a glide catheter was advanced, and then an
+Amplatzer Super Stiff wire (Boston Scientiﬁc, Marl-
+borough, Massachusetts) was advanced. The glide
+catheter and 6-F left femoral artery sheath were
+removed and a 7-F shuttle sheath was advanced from
+left femoral artery to right ventricle. An 8-mm ven-
+tricular septal defect (VSD) closure device was then
+advanced across the ﬁstula (Video 3). The RV sheath
+was deployed, and the left side disc was unsheathed.
+The device was examined ﬂuoroscopically in multiple
+views. Despite the left side disc expansion being
+limited by the transcatheter aortic valve implantation
+(TAVI) prosthesis, multiple push and pull maneuvers
+conﬁrmed device stability, and it was successfully
+deployed (Figure 4).
+Post-deployment transesophageal echocardiogram
+(Video 4) shunt study showed reduction in right
+ventricle saturations from 88% to 63% in setting of
+right ventricle saturations of 60%, suggesting nearly
+complete abolition of left-to-right shunt. The patient
+was
+discharged
+home
+on
+therapy
+that
+included
+FIGURE 2
+Computed Tomography Scan Images Showing the Anatomy of the Aorto-Right Ventricular Fistula
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Alabbady et al.
+D E C E M B E R 1 8 , 2 0 1 9 : 8 5 9 – 6 4
+Aorto-RV Fistula After TAVR
+861
+
+=== PAGE 4 ===
+aspirin, 81 mg, warfarin, dose managed by anti-
+coagulation pharmacy, metoprolol tartrate, 50 mg
+twice daily, and daily torsemide, 20 mg daily. Four
+months after the procedure, the patient was brought
+back to close his paravalvular leak that had pro-
+gressed in severity, requiring 2 Amplatzer vascular
+plugs, 8-mm devices deployed successfully (Figure 5)
+under
+transesophageal
+echocardiogram
+guidance
+(Videos 5, 6, 7, 8, and 9). Electrophysiology reeval-
+uated the patient at that time. He had no shocks from
+his
+LifeVest.
+His
+PPM
+interrogation
+showed
+no
+recurrence of his ventricular tachycardia, and rec-
+ommendations were against upgrading his PPM to an
+automatic implantable cardioverter deﬁbrillator. Use
+of his LifeVest was discontinued, and he was dis-
+charged home on unchanged medical regimen.
+At 23 months follow-up, the patient continued to
+do well with NYHA functional class II symptoms on a
+chronic regimen of aspirin, 81 mg daily, warfarin,
+dose managed by anticoagulation clinic, metoprolol
+tartrate, 50 mg twice daily, and diuretic therapy with
+daily 20 mg of torsemide. Follow- up transthoracic
+echocardiograms showed normally functioning pros-
+thesis, no further PVL, and a well-seated VSD device
+with a small leak around the device, but no signiﬁcant
+shunting was noted. His routine device interrogation
+showed
+no
+further
+recurrence
+of
+his
+ventricular
+tachycardia.
+DISCUSSION
+Despite
+the
+fact
+that
+aorto-RV
+ﬁstula
+is
+a
+rare
+complication, the increasing number of TAVR pro-
+cedures used across the United States will result in
+encountering rare complications more frequently.
+There are no guidelines available to assist with
+FIGURE 3
+3-Dimensional Model of the Patient’s Aortic Valve and Ascending Aorta Showing the Prosthetic Valve and the Aorto-Right Ventricular Fistula Location
+FIGURE 4
+Fluoroscopic Image of Successful Implantation of Ventricular Septal Defect
+Occluder Device
+Alabbady et al.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Aorto-RV Fistula After TAVR
+D E C E M B E R 1 8 , 2 0 1 9 : 8 5 9 – 6 4
+862
+
+=== PAGE 5 ===
+management
+of
+those
+patients.
+Aorto-RV
+ﬁstula
+closure using a percutaneous device represents a
+technical challenge because the TAVI valve is ex-
+pected to interfere with secure placement of larger
+closure devices like VSD occludes.
+This paper reports the case of successful closure
+of aorto-RV ﬁstula and PVL after TAVI using a VSD
+occluder device and 2 Amplatzer vascular plugs. A
+comprehensive search of published studies revealed
+only 12 cases of aorto-RV ﬁstula following TAVR
+with high mortality rate (Table 1) (1–12). All 4 pa-
+tients
+who
+underwent
+percutaneous
+repair
+sur-
+vived,
+and
+3
+of
+the
+other
+8
+cases
+managed
+conservatively died. Society of Thoracic Surgeon
+scores, root measurements, or aortic calciﬁcations
+were not reported in those cases. All patients were
+treated using balloon expandable valves. All had
+signiﬁcant left-to-right shunts which were evident
+by high Qp/Qs ratios with the onset of congestive
+heart failure symptoms in 2 to 4 weeks after the
+index procedure.
+CONCLUSIONS
+Aorto-RV ﬁstula is a rare but serious and potentially
+fatal
+complication
+following
+TAVR.
+Percutaneous
+FIGURE 5
+Final Fluoroscopic Image After Successful Implantation of Ventricular
+Septal Defect and 2 Amplatzer Vascular Plugs
+TABLE 1
+Comparison of All Published Cases of Aorto-RV Fistula
+First Author (Ref. #)
+Age, yrs/Sex
+Valve Size
+PVL Onset After TAVI
+Reported Symptoms
+Qp/Qs Ratio
+Management
+Outcome
+Shakoor et al. (1)
+89/M
+SAPIEN 29-mm
+30 days
+Dyspnea on exertion
+1.39
+Observation
+Died
+Pilgrim et al. (2)
+91/F
+SAPIEN 26-mm
+1 month
+Dyspnea on exertion
+1.4
+Coil embolization
+Survived
+Leroux et al. (3)
+47/M
+SAPIEN XT 26-mm
+3 weeks
+N/A
+N/A
+Observation
+Died
+Leu et al. (4)
+78/F
+SAPIEN 26-mm
+2 weeks
+N/A
+1.13
+Observation
+Survived
+Muñoz-García et al. (5)
+85/M
+CoreValve 29-mm
+72 h
+Asymptomatic
+1.53
+Observation
+Survived
+Nakamura et al. (6)
+54/M
+SAPIEN XT 29-mm
+5 days
+BiV failure
+1.7
+ASD occluder
+Survived
+Hagiwara et al. (7)
+83/M
+SAPIEN XT 29-mm
+Immediate
+N/A
+1
+Observation
+Survived
+Hamandi et al. (8)
+93/M
+SAPIEN XT 29-mm
+1 day
+N/A
+VSD occluder
+Survived
+Almanﬁet al. (9)
+92/M
+SAPIENT XT 29-mm
+1 day
+Asymptomatic
+none
+Observation
+Survived
+Vainrib et al. (10)
+91/M
+CoreValve 29-mm
+4 months
+CHF symptoms
+N/A
+AVP vascular plug
+Survived
+Verma et al. (11)
+80/M
+CoreValve 29-mm,
+followed by second
+CoreValve 29-mm for severe
+intravalvular leak
+Immediate
+Asymptomatic
+1
+Observation
+Survived
+Konda et al. (12)
+88/F
+SAPIEN XT 26-mm
+2 weeks
+None initially, then
+developed
+CHF after 3 months
+2:1
+Refused
+Died
+Alabbady et al.
+76/M
+Sapien 3 29-mm
+2 weeks
+Progressive since
+procedure,
+CHF 2 weeks
+1.43
+VSD occluder
+Survived
+ASD ¼ atrial septal defect; BiV ¼ bi-ventricular; CHF ¼ congestive heart failure; N/A ¼ not available; PVL ¼ paravalvular leak; Qp/Qs ¼ pulmonary ﬂow/systemic ﬂow ratio; RV ¼ right ventricle;
+TAVI ¼ transcatheter aortic valve implantation; VSD ¼ ventricular septal defect.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Alabbady et al.
+D E C E M B E R 1 8 , 2 0 1 9 : 8 5 9 – 6 4
+Aorto-RV Fistula After TAVR
+863
+
+=== PAGE 6 ===
+repair is feasible and safe and should be strongly
+considered in symptomatic patients with signiﬁcant
+Qp/Qs ratios. More data are needed to evaluate
+outcomes and determine the optimal strategies for
+repair.
+ADDRESS FOR CORRESPONDENCE: Dr. Kishore Har-
+jai, Cardiology Department, Geisinger Wyoming Valley
+Medical Center, 1000 East Mountain Blvd, Wilkes-Barre,
+Pennsylvania 18711. E-mail: kharjai419@gmail.com.
+R E F E R E N C E S
+1. Shakoor MT, Islam AM, Ayub S. Acquired aorto-
+right ventricular ﬁstula following transcatheter
+aortic valve replacement. Case Rep Cardiol 2015;
+2015:1–3.
+2. Pilgrim T, Meier B, Wenaweser P. Aorto-right
+ventricular ﬁstula after transfemoral aortic valve
+implantation. J Invasive Cardiol 2010;22:E30–1.
+3. Leroux L, Dijos M, Peltan J, et al. Lethal aorto-
+right ventricular defect after transcatheter aortic
+valve implantation in a patient with radiation-
+induced porcelain aorta: notes of caution. Can J
+Cardiol 2016;32:135. e9–135.
+4. Leu HB, Chang HH, Wu MH, et al. Four-year
+follow-up of acquired aorto-right ventricular ﬁs-
+tula after transcatheter aortic valve implantation.
+Eur Heart J 2016;37:2679.
+5. Muñoz-García
+AJ,
+Rodríguez-Bailón
+I,
+Briales JH, et al. Aorto-right ventricular ﬁstula
+after percutaneous aortic valve implantation of a
+CoreValve prosthesis. Tex Heart Inst J 2011;38:
+728–9.
+6. Nakamura K, Passeri JJ, Inglessis-Azuaje I.
+Percutaneous closure of acute aortoright ventric-
+ular ﬁstula following transcatheter bicuspid aortic
+valve replacement. Catheter Cardiovasc Interv
+2017;90:164–8.
+7. Hagiwara K, Saito N, Yamazaki K, Kimura T.
+Aorto-right ventricular ﬁstula following trans-
+catheter aortic valve implantation using a 29 mm
+SAPIEN XT valve. BMJ Case Rep 2017;bcr-2017-
+219247.
+8. Hamandi M, Potluri S. Aorto-right ventricular
+ﬁstula closure after TAVR guided by intracardiac
+echocardiography. Structural Heart 2019;3:252–4.
+9. AlmanﬁA, Qurie A, Strickman N. Aorto-right
+ventricular shunt after TAVR: rare complication of
+common
+procedure.
+Case
+Rep
+Cardiol
+2017;1834394.
+10. Vainrib AF, Ibrahim H, Hisamoto K, et al. Aorto-
+right ventricular ﬁstula post-transcatheter aortic
+valve replacement: multimodality imaging of suc-
+cessful percutaneous closure. Case 2017;1:70–4.
+11. Verma S, Kakar P, Moskovits N, Shani J, Frankel
+R. Aorta to RV ﬁstula: a rare complication of TAVR.
+Available
+at:
+https://www.cathlabdigest.com/
+article/Aorta-RV-Fistula-Rare-Complication-TAVR.
+Accessed November 27, 2019.
+12. Konda MK, Kalavakunta JK, Pratt JW, Martin D,
+Gupta V. Aorto-right ventricular ﬁstula following
+percutaneous transcatheter aortic valve replace-
+ment: case report and literature review. Heart
+Views 2017;18:133.
+KEY WORDS aortic valve, complication,
+valve replacement
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+Alabbady et al.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Aorto-RV Fistula After TAVR
+D E C E M B E R 1 8 , 2 0 1 9 : 8 5 9 – 6 4
+864

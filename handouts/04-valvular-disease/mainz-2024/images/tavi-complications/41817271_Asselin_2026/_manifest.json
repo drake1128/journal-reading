@@ -1,0 +1,262 @@
+{
+  "pdf": "41817271_Asselin_2026.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 1287,
+      "height": 614,
+      "ext": "png",
+      "bytes": 463079
+    },
+    {
+      "file": "fig-02_p2.png",
+      "page": 2,
+      "width": 758,
+      "height": 430,
+      "ext": "png",
+      "bytes": 249949
+    },
+    {
+      "file": "fig-03_p2.png",
+      "page": 2,
+      "width": 504,
+      "height": 430,
+      "ext": "png",
+      "bytes": 140240
+    },
+    {
+      "file": "fig-04_p2.png",
+      "page": 2,
+      "width": 630,
+      "height": 342,
+      "ext": "png",
+      "bytes": 180329
+    },
+    {
+      "file": "fig-05_p2.png",
+      "page": 2,
+      "width": 628,
+      "height": 341,
+      "ext": "png",
+      "bytes": 194233
+    },
+    {
+      "file": "fig-06_p2.png",
+      "page": 2,
+      "width": 631,
+      "height": 338,
+      "ext": "png",
+      "bytes": 185081
+    },
+    {
+      "file": "fig-07_p3.png",
+      "page": 3,
+      "width": 799,
+      "height": 723,
+      "ext": "png",
+      "bytes": 298732
+    },
+    {
+      "file": "fig-08_p3.png",
+      "page": 3,
+      "width": 799,
+      "height": 718,
+      "ext": "png",
+      "bytes": 310558
+    },
+    {
+      "file": "fig-09_p5.png",
+      "page": 5,
+      "width": 467,
+      "height": 473,
+      "ext": "png",
+      "bytes": 207128
+    },
+    {
+      "file": "fig-10_p5.png",
+      "page": 5,
+      "width": 467,
+      "height": 473,
+      "ext": "png",
+      "bytes": 187482
+    },
+    {
+      "file": "fig-11_p5.png",
+      "page": 5,
+      "width": 467,
+      "height": 473,
+      "ext": "png",
+      "bytes": 191540
+    },
+    {
+      "file": "fig-12_p5.png",
+      "page": 5,
+      "width": 467,
+      "height": 471,
+      "ext": "png",
+      "bytes": 202239
+    },
+    {
+      "file": "fig-13_p5.png",
+      "page": 5,
+      "width": 465,
+      "height": 473,
+      "ext": "png",
+      "bytes": 200083
+    },
+    {
+      "file": "fig-14_p5.png",
+      "page": 5,
+      "width": 465,
+      "height": 473,
+      "ext": "png",
+      "bytes": 166619
+    },
+    {
+      "file": "fig-15_p5.png",
+      "page": 5,
+      "width": 465,
+      "height": 473,
+      "ext": "png",
+      "bytes": 188378
+    },
+    {
+      "file": "fig-16_p5.png",
+      "page": 5,
+      "width": 465,
+      "height": 473,
+      "ext": "png",
+      "bytes": 203570
+    },
+    {
+      "file": "fig-17_p5.png",
+      "page": 5,
+      "width": 467,
+      "height": 468,
+      "ext": "png",
+      "bytes": 199077
+    },
+    {
+      "file": "fig-18_p5.png",
+      "page": 5,
+      "width": 462,
+      "height": 473,
+      "ext": "png",
+      "bytes": 189014
+    },
+    {
+      "file": "fig-19_p5.png",
+      "page": 5,
+      "width": 465,
+      "height": 468,
+      "ext": "png",
+      "bytes": 197039
+    },
+    {
+      "file": "fig-20_p5.png",
+      "page": 5,
+      "width": 465,
+      "height": 468,
+      "ext": "png",
+      "bytes": 214550
+    },
+    {
+      "file": "fig-21_p6.png",
+      "page": 6,
+      "width": 471,
+      "height": 344,
+      "ext": "png",
+      "bytes": 150194
+    },
+    {
+      "file": "fig-22_p6.png",
+      "page": 6,
+      "width": 472,
+      "height": 343,
+      "ext": "png",
+      "bytes": 83256
+    },
+    {
+      "file": "fig-23_p6.png",
+      "page": 6,
+      "width": 469,
+      "height": 344,
+      "ext": "png",
+      "bytes": 138551
+    },
+    {
+      "file": "fig-24_p6.png",
+      "page": 6,
+      "width": 469,
+      "height": 344,
+      "ext": "png",
+      "bytes": 208389
+    },
+    {
+      "file": "fig-25_p6.png",
+      "page": 6,
+      "width": 469,
+      "height": 344,
+      "ext": "png",
+      "bytes": 143455
+    },
+    {
+      "file": "fig-26_p6.png",
+      "page": 6,
+      "width": 469,
+      "height": 344,
+      "ext": "png",
+      "bytes": 121428
+    },
+    {
+      "file": "fig-27_p6.png",
+      "page": 6,
+      "width": 467,
+      "height": 344,
+      "ext": "png",
+      "bytes": 127815
+    },
+    {
+      "file": "fig-28_p6.png",
+      "page": 6,
+      "width": 467,
+      "height": 343,
+      "ext": "png",
+      "bytes": 228146
+    },
+    {
+      "file": "fig-29_p6.png",
+      "page": 6,
+      "width": 467,
+      "height": 343,
+      "ext": "png",
+      "bytes": 124666
+    },
+    {
+      "file": "fig-30_p6.png",
+      "page": 6,
+      "width": 467,
+      "height": 343,
+      "ext": "png",
+      "bytes": 121639
+    },
+    {
+      "file": "fig-31_p6.png",
+      "page": 6,
+      "width": 464,
+      "height": 344,
+      "ext": "png",
+      "bytes": 102492
+    },
+    {
+      "file": "fig-32_p6.png",
+      "page": 6,
+      "width": 467,
+      "height": 339,
+      "ext": "png",
+      "bytes": 109169
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "pdf": "40615222_Kawamoto_2025.pdf",
+  "pages": 9,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1943,
+      "height": 973,
+      "ext": "jpeg",
+      "bytes": 374152
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 1131,
+      "ext": "jpeg",
+      "bytes": 332400
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1942,
+      "height": 1041,
+      "ext": "jpeg",
+      "bytes": 696880
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 1094,
+      "ext": "jpeg",
+      "bytes": 403689
+    },
+    {
+      "file": "fig-05_p5.jpeg",
+      "page": 5,
+      "width": 1495,
+      "height": 1280,
+      "ext": "jpeg",
+      "bytes": 216758
+    },
+    {
+      "file": "fig-06_p6.jpeg",
+      "page": 6,
+      "width": 1943,
+      "height": 1049,
+      "ext": "jpeg",
+      "bytes": 433338
+    },
+    {
+      "file": "fig-07_p6.jpeg",
+      "page": 6,
+      "width": 1943,
+      "height": 722,
+      "ext": "jpeg",
+      "bytes": 227322
+    },
+    {
+      "file": "fig-08_p7.jpeg",
+      "page": 7,
+      "width": 1943,
+      "height": 1035,
+      "ext": "jpeg",
+      "bytes": 450799
+    },
+    {
+      "file": "fig-09_p8.jpeg",
+      "page": 8,
+      "width": 1944,
+      "height": 1045,
+      "ext": "jpeg",
+      "bytes": 428938
+    }
+  ]
+}

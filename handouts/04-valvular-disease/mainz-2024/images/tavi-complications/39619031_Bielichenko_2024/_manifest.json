@@ -1,0 +1,38 @@
+{
+  "pdf": "39619031_Bielichenko_2024.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1976,
+      "height": 840,
+      "ext": "jpeg",
+      "bytes": 297619
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1694,
+      "height": 694,
+      "ext": "jpeg",
+      "bytes": 248584
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1694,
+      "height": 674,
+      "ext": "jpeg",
+      "bytes": 200302
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1071,
+      "height": 663,
+      "ext": "jpeg",
+      "bytes": 102789
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Dual Percutaneous Repair for 
+Aortic Annulus Rupture After 
+Balloon-Expandable TAVR
+Charles Vidoni, MD, a Benoît Guillon, MD, a Romain Chopard, MD, PHD, a,b Giovanni Vitale, MD, c 
+Anass El M’Aary, MD, d Nicolas Meneveau, MD, PHD, a,b Charles Monnin, MD, a Matthieu Besutti, MD a
+ABSTRACT
+BACKGROUND Aortic annulus rupture is a rare but life-threatening complication of transcatheter aortic valve 
+replacement (TAVR), often linked to balloon-expandable valves and anatomic risk factors.
+CASE SUMMARY An 85-year-old man with severe aortic stenosis underwent successful transfemoral TAVR. Two hours 
+later, he developed tamponade because of a supra-annular rupture. A second, higher-positioned valve was implanted, 
+followed by a third prosthesis after valve migration. Days later, a subannular rupture with pseudoaneurysm was iden-
+tified. Coil embolization via radial access achieved complete exclusion.
+DISCUSSION Annulus rupture may occur at various levels (supra-, intra, or subannular) and requires individualized 
+management. This case highlights a staged rupture progression and successful percutaneous management, offering a 
+less invasive alternative for high-risk patients.
+TAKE-HOME MESSAGES Annulus rupture is a rare but critical TAVR complication. Rapid diagnosis and multidisciplinary 
+coordination are essential. Percutaneous strategies, including valve-in-valve and coil embolization, may be lifesaving in 
+selected cases. (JACC Case Rep. 2025;30:105350) © 2025 The Authors. Published by Elsevier on behalf of the American 
+College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons. 
+org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+An 85-year-old patient was referred to our center 
+for the management of symptomatic degenerative 
+aortic disease, presenting with severe aortic steno-
+sis (mean gradient: 46 mm Hg, aortic valve area: 
+0.9 cm 2 ) and moderate aortic regurgitation. The 
+patient presented with a minimally calcified 
+tricuspid aortic valve. Pre-transcatheter aortic valve
+TAKE-HOME MESSAGES
+• Annulus rupture is a rare but critical TAVR 
+complication.
+• Rapid 
+diagnosis 
+and 
+multidisciplinary 
+coordination are essential.
+• Percutaneous strategies, including valve-in-
+valve and coil embolization, may be life-
+saving in selected cases.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.105350
+From the a Department of Cardiology, University Hospital Besancon, Besancon, France; b SINERGIES, University of Burgundy 
+Franche-Comté, Besancon, France; c Department of Interventional Neuroradiology, Jean Minjoz University Hospital, Besancon, 
+France; and the d Department of Radiology, Jean Minjoz University Hospital, Besancon, France.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received June 19, 2025; revised manuscript received July 30, 2025, accepted August 5, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 3 2 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+replacement (TAVR) computed tomography 
+(CT) scan showed no evidence of calcifica-
+tion at the level of the left ventricular 
+outflow tract (LVOT) or the sinus of Val-
+salva, making the patient eligible for a 
+TAVR procedure. According to the Edwards 
+sizing chart, a 29-mm SAPIEN 3 valve 
+(Edwards Lifesciences) was recommended 
+for a perimeter-derived annular area of 
+580 mm 2 , which falls within the midrange for this 
+size (Figure 1). 
+Iliofemoral anatomy allowed transfemoral access. 
+The patient underwent successful implantation of a 
+29-mm SAPIEN 3 transcatheter aortic valve using 
+nominal balloon inflation volume, without addi-
+tional volume, via the transfemoral route without 
+immediate complications (Video 1). Two hours after 
+the procedure, the patient experienced syncope
+with hemodynamic instability. Transthoracic echo-
+cardiography revealed cardiac tamponade.
+PAST MEDICAL HISTORY
+The patient has a history of hypertension and dysli-
+pidemia. He has chronic coronary syndrome with 
+preserved left ventricular ejection fraction and un-
+derwent left anterior descending artery and distal 
+right coronary artery stenting in 2021. Follow-up 
+angiography in 2025 showed favorable percutaneous 
+coronary interventions results.
+DIFFERENTIAL DIAGNOSIS
+Hemodynamic instability was not attributable to pe-
+ripheral bleeding because there was no groin hema-
+toma at the puncture site, and no abdominal pain or
+VISUAL SUMMARY Dual Percutaneous Repair After TAVR Rupture
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+CT = computed tomography
+LVOT = left ventricular
+outflow tract
+PSA = pseudoaneurysm
+TAVR = transcatheter aortic
+valve replacement
+Vidoni et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5
+Dual Percutaneous Repair After TAVR Rupture 
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 3 5 0
+2
+
+=== PAGE 3 ===
+signs of leg ischemia. No significant rhythm compli-
+cations occurred after the procedure, aside from a 
+new-onset left bundle branch block.
+INVESTIGATIONS
+After percutaneous pericardial drainage and stabili-
+zation of the patient, an emergency thoracic CT scan 
+angiography was performed. It revealed a rupture of 
+the aortic annulus at the level of the left coronary
+sinus (supra-annular) with a feeding pseudoaneur-
+ysm (PSA). The scan did not show any active peri-
+cardial bleeding (Figure 2, Video 2).
+MANAGEMENT
+The case was urgently discussed with the heart team 
+to determine the optimal therapeutic approach. 
+Given the associated very high operative risk (Euro-
+SCORE II: 54.9%), a percutaneous treatment
+FIGURE 1 Preprocedural Computed Tomography Scan
+(A) Assessment of the landing zone at the level of the sinuses of Valsalva, the aortic annulus, and the left ventricular outflow tract (LVOT) showing no major 
+calcification. (B) Dimensions of the sinuses of Valsalva. (C) Dimensions of the aortic annular plane. (D) Dimensions of the LVOT. Avg = average; Max = maximum; 
+LC = left coronary sinus; Min = minimum; NC = non-coronary sinus; RC = right coronary.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5 
+Vidoni et al
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 3 5 0 
+Dual Percutaneous Repair After TAVR Rupture
+3
+
+=== PAGE 4 ===
+approach was chosen. The patient was transferred to 
+a hybrid operating room for coverage of the entry 
+point of the left coronary sinus PSA, with a planned 
+implantation of a second, higher-positioned aortic 
+bioprosthesis. The patient developed respiratory 
+distress with agitation and altered consciousness, 
+requiring orotracheal intubation and hemodynamic 
+support with norepinephrine.
+First, the implantation of a second 26-mm SAPIEN 
+3 prosthesis via a left femoral approach was unsuc-
+cessful because the valve migrated to the junction 
+between the ascending aorta and the aortic arch due 
+to a left ventricular extrasystole during deployment 
+(Video 3). Subsequently, a third self-expanding 29-
+mm NAVITOR (Abbott Laboratories) aortic bio-
+prosthesis was successfully implanted within the first 
+aortic prosthesis (Video 4). Immediate angiographic 
+control confirmed the absence of periprosthetic 
+leakage and successful exclusion of the left coronary
+sinus PSA. The pericardium remained dry throughout 
+the procedure. The patient was then transferred to 
+the intensive care unit for postoperative monitoring. 
+After 24 hours of sedation, sedation was stopped, 
+and the patient awoke without hypoxia and was 
+extubated 
+successfully. 
+Catecholamines 
+were 
+tapered off and discontinued after 48 hours, allowing 
+the patient to be transferred to the regular ward. The 
+patient experienced an episode of complete atrio-
+ventricular block, leading to the implantation of a 
+dual-chamber pacemaker with selective left bundle 
+area capture. The overall recovery was favorable, and 
+the patient was discharged home 6 days after the 
+procedure.
+Two days later, the patient was readmitted 
+with chest pain. A CT scan revealed a PSA fed by the 
+LVOT. The patient remained clinically stable, and 
+echocardiography confirmed that the pericardium 
+remained dry Table 1.
+FIGURE 2 3-Dimensional Computed Tomography Scan Showing the Supra-Annular Aortic Rupture
+The supra-annular aortic rupture (arrows) and its relationship with adjacent structures are shown.
+TABLE 1
+Timeline
+Date
+Events
+Day 0
+An 85-year-old patient undergoes the implantation of a 29-mm Edwards SAPIEN 3 aortic bioprosthesis (TAVI) for severe aortic 
+disease without immediate complications.
+Day 0, H+2
+Hemodynamic instability due to cardiac tamponade: managed with percutaneous drainage. CT scan revealed a breach of the left 
+coronary sinus without active bleeding. Attempted implantation of a second 26-mm Edwards SAPIEN 3 aortic bioprosthesis was 
+unsuccessful. A third NAVITOR aortic prosthesis was successfully implanted in a valve-in-valve higher position without 
+complications. Successful closure of the entry point.
+Day 3
+Complete atrioventricular block: implantation of a dual-chamber Medtronic pacemaker with selective left bundle area capture.
+Day 6
+Discharge home.
+Day 8
+Hospitalization for chest pain: pseudoaneurysm fed by the left ventricular outflow tract.
+Day 11
+CT scan: 30% increase in pseudoaneurysm volume.
+Day 16
+Percutaneous closure of the periannular pseudoaneurysm with coil: successful.
+Day 30
+Discharge to rehabilitation care.
+CT = computed tomography; TAVI = transcatheter aortic valve implantation.
+Vidoni et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5
+Dual Percutaneous Repair After TAVR Rupture 
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 3 5 0
+4
+
+=== PAGE 5 ===
+A follow-up CT scan 3 days later showed that the 
+PSA had increased in volume by approximately 30% 
+(Figure 3, Video 5). The case was discussed again with 
+the heart team.
+Given the associated high surgical risk and the 
+patient’s refusal of surgical intervention, a percuta-
+neous treatment approach was chosen. Using a mini-
+invasive 6-F retrograde left radial artery approach, 
+the left heart chambers were catheterized, and a left 
+ventricular loop was placed toward the ascending 
+aorta using a J guidewire (Figure 4). A 110-cm Flexor 
+sheath (COOK Medical) was mounted on the guide-
+wire and progressively withdrawn to approach the 
+LVOT. The PSA was then catheterized using a 0.018-
+in Advantage (Terumo Corp) Glidewire. A 0.018-F 
+Rubicon microcatheter (Boston Scientific Corp) was 
+advanced over the guidewire to confirm correct 
+positioning 
+by 
+injection 
+under 
+fluoroscopy. 
+The guidewire was removed, and the largest coils 
+(maximum 24 × 500 mm) were gradually deployed 
+into the widest distal part of the PSA to exclude it 
+(Figure 4).
+After excluding the distal portion of the PSA, 
+support became insufficient, and the catheters 
+became unstable, resulting in nonselective catheter-
+ization. The PSA was then recatheterized using a 
+Choice PT guidewire (Boston Scientific), a 6-F 
+Guidezilla II guide extension catheter (Boston Sci-
+entific), and a Turnpike Spiral microcatheter (Tele-
+flex) setup. Smaller coils (minimum 6 × 200 mm) 
+were then progressively deployed until the PSA was 
+completely excluded (Figure 5, Video 6).
+The final left ventricular angiogram confirmed 
+complete exclusion of the PSA without contrast 
+leakage (Figure 5, Video 6). The radial puncture site 
+was externally compressed with a TR Band 
+(Terumo).
+OUTCOME AND FOLLOW-UP
+The patient was discharged to rehabilitation care af-
+ter 15 days of uncomplicated clinical and echocar-
+diographic monitoring.
+DISCUSSION
+Aortic annulus rupture is considered a major vascular 
+complication by the Valve Academic Research Con-
+sortium 3 (VARC-3). 1 It is rare (0.5%-1% of TAVR 
+cases), but it is associated with a high mortality rate 
+(approximately 50%). 2 Injury to the aortic root or 
+LVOT can occur during balloon dilation of the native
+FIGURE 3 3-Dimensional Computed Tomography Scan of the Subannular Aortic Rupture
+The pseudoaneurysm (subannular aortic rupture) and its relationship with adjacent structures are shown.
+FIGURE 4 Photograph Demonstrating the Use of the Radial Artery Approach
+Photograph of the use of the left radial artery approach to exclude pseudoaneurysm.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5 
+Vidoni et al
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 3 5 0 
+Dual Percutaneous Repair After TAVR Rupture
+5
+
+=== PAGE 6 ===
+aortic valve, prosthetic valve deployment, or valve 
+redilation for paravalvular leakage.
+Clinical and procedural factors that increase the 
+risk of aortic root rupture include female sex, small 
+and ellipsoid annuli (<20 mm), heavily calcified 
+leaflets, asymmetrical calcifications, LVOT calcifica-
+tions, narrow aortic root anatomy, an aggressive 
+treatment strategy (eg, oversizing, defined as fol-
+lows: [(prosthesis area/aortic root area − 
+1) × 
+100] $20%), and postdilatation. 3-6 Furthermore, this 
+complication is most commonly linked to the use of 
+balloon-expandable 
+valves 
+(rather 
+than 
+self-
+expendable valves). Therefore, a precise preproce-
+dural analysis of the device landing zone is essential. 
+In this case, none of the traditional risk factors were
+present except for the use of a balloon-expandable 
+prosthesis.
+The term device landing zone offers a more accurate 
+understanding of the different pathophysiological 
+types of rupture than the term aortic annulus rupture 
+itself. 5 It provides a detailed description of the various 
+damage types associated with bioprosthesis implan-
+tation, distinguishing between intra-annular, supra-
+annular, subannular (divided into myocardial free 
+wall, interventricular wall, and below the left coronary 
+artery), and combined damage. 5 This concept helps 
+explain the heterogeneous clinical presentations and 
+the various treatment options available.
+The treatment strategy may be purely medical, 
+surgical, or percutaneous, but it must be determined
+FIGURE 5 Fluoroscopic Images of the Percutaneous Exclusion of the Pseudoaneurysm
+Key steps in the exclusion procedure, including (A) left chamber catheterization, (B) pseudoaneurysm catheterization, (C) confirmation of the correct positioning by 
+injection under fluoroscopy, (D) filling the distal part with large coils, (E) filling the proximal part with small coils, and (F) final left ventricular angiogram confirming 
+complete exclusion of the pseudoaneurysm without contrast leakage.
+Vidoni et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5
+Dual Percutaneous Repair After TAVR Rupture 
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 3 5 0
+6
+
+=== PAGE 7 ===
+quickly, with close coordination between the heart 
+team members. Initially, optimized medical treat-
+ment includes the complete reversal of periproce-
+dural anticoagulation. Correction of the blood 
+coagulopathy should be implemented. If there is 
+intrapericardial bleeding with signs of tamponade, 
+percutaneous or surgical drainage should be per-
+formed. Some successful cases have been reported, 7 
+but the outcomes of this conservative strategy are 
+unpredictable and should only be considered when 
+there is rapid hemodynamic stabilization.
+Emergency sternotomy with rupture repair, 
+possibly including extraction of the bioprosthesis 
+and placement of a new surgical prosthesis, appears 
+to be the gold standard treatment in cases of hemo-
+dynamic instability. 5
+Reports on percutaneous management of this 
+complication remain scarce in the literature. This 
+management may be beneficial for high-risk patients, 
+given the major surgical risks and the potential 
+perioperative morbidity and mortality linked to 
+aortic ring ruptures. 2
+The first complication was a supra-annular rupture 
+with a breach in the left coronary sinus, leading to 
+cardiac tamponade. Because the antero-left sinus 
+appeared to be compressed by the stent of the first 
+bioprosthesis, the first step of the strategy was to 
+stabilize the cusps of the initial valve in a higher 
+position to seal the rupture site by completely 
+excluding the antero-left sinus. 8 The second stage
+involved a subannular rupture with a breach through 
+the free wall of the subaortic myocardium, which led 
+to the formation of an evolving subpericardial PSA. 
+The objective was to stop the PSA from progressing 
+because it could have ruptured into the pericardial 
+space. We decided to exclude the PSA by inserting 
+coils. This method induces thrombosis, which pre-
+vents the PSA from filling and expanding with each 
+systole. 9 Finally, exclusion of this type of PSA can 
+also be attempted using a plug. 10
+CONCLUSIONS
+Aortic annulus rupture is a rare but life-threatening 
+complication of the now widely performed TAVR 
+procedure. To our knowledge, we report the first 
+documented case of successful dual percutaneous 
+management of both supra-annular and subannular 
+annular rupture.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships to disclose 
+relevant to the contents of this paper.
+ADDRESS FOR CORRESPONDENCE: Dr Charles
+Vidoni, Department of Cardiology, University Hospi-
+tal Besançon, 3 Boulevard Alexandre Fleming 25000, 
+Besançon, France. E-mail: cvidoni@chu-besancon.fr. 
+X handle: @v_vidoni.
+R E F E R E N C E S
+1. Généreux P, Piazza N, Alu MC, et al. Valve Ac-
+ademic Research Consortium 3: updated endpoint 
+definitions for aortic valve clinical research. J Am 
+Coll Cardiol. 2021;77(21):2717–2746.
+2. Rodgers V, Gobeil F, Noiseux N, et al. Con-
+tained rupture of the aortic annulus after trans-
+catheter aortic valve implantation: uncommon 
+presentation of a rare complication. Can J Cardiol. 
+2014;30(6):696.e5-e7.
+3. Reiter C, Grund M, Nahler A, Steinwender C, 
+Lambert T. Rupture of the aortic root: a rare but 
+life-threatening complication of transcatheter 
+aortic valve replacement. Wien Klin Wochenschr. 
+2017;129(23-24):906–909.
+4. Barbanti M, Yang TH, Rodès Cabau J, et al. 
+Anatomical and procedural features associated 
+with aortic root rupture during balloon-
+expandable transcatheter aortic valve replace-
+ment. Circulation. 2013;128(3):244–253.
+5. Pasic M, Unbehaun A, Buz S, Drews T, Hetzer R. 
+Annular rupture during transcatheter aortic valve 
+replacement. JACC: cardiovascular interventions. 
+JACC Cardiovasc Interv. 2015;8(1):1–9.
+6. Reinöhl J, Psyrakis D, Kaier K, et al. Aortic root 
+volume is associated with contained rupture of 
+the aortic annulus in balloon-expandable trans-
+catheter aortic valve replacement. Catheter Car-
+diovasc Interv. 2016;87(4):807–817.
+7. Hioki H, Watanabe Y, Kawashima H, Kozuma K. 
+Serial CT images of annulus rupture treated by 
+conservative strategy after transcatheter aortic 
+valve replacement. JACC Cardiovasc Interv. 
+2022;15(15):e179–e180.
+8. Thimon T, Molina-Martin De Nicolas J, 
+Lapeyre M, Tchetche D. Annulus rupture post 
+transcatheter aortic valve implantation compli-
+cated by a giant pseudoaneurysm. Euro-
+Intervention. 2017;12(15):e1857.
+9. Chiang M, Gonzalez PE, Villablanca PA, et al. 
+Aorto-left ventricular fistula from aortic pseu-
+doaneurysm after TAVR. JACC Cardiovasc Interv. 
+2022;15(11):e131–e133.
+10. Unzué L, García E, Romero-Castro MJ. Percu-
+taneous repair of TAVI induced aortic pseudoa-
+neurysm. Rev Esp Cardiol (Engl Ed). 2021;74(6): 
+546.
+KEY WORDS acute heart failure, aortic 
+valve, computed tomography, imaging, 
+left-sided catheterization, valve repair
+APPENDIX For supplemental
+videos, please see the online version of this 
+paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5 
+Vidoni et al
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 3 5 0 
+Dual Percutaneous Repair After TAVR Rupture
+7

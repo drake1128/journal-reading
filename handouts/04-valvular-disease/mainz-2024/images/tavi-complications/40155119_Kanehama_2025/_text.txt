@@ -1,0 +1,428 @@
+
+=== PAGE 1 ===
+CASE REPORT
+CLINICAL CASE
+Progression of Paravalvular Leak and
+Hemolytic Anemia After Implantation of
+Fifth-Generation Balloon-Expandable
+Transcatheter Heart Valve
+Nozomu Kanehama, MD, Ryo Ninomiya, MD, PHD, Kengo Tosaka, MD, PHD, Yoshifumi Nakajima, MD,
+Tetsuya Fusazaki, MD, PHD, Yoshihiro Morino, MD, PHD
+ABSTRACT
+BACKGROUND Progression of paravalvular leak (PVL) and hemolytic anemia are rare complications of newer-
+generation transcatheter heart valves used for transcatheter aortic valve replacement.
+CASE SUMMARY An 81-year-old man presented with worsening shortness of breath 1 month after implantation of
+SAPIEN 3 Ultra RESILIA (S3UR). Echocardiography revealed PVL progression and blood tests indicated hemolytic anemia.
+Percutaneous plug closure was successfully performed, reducing the PVL. His symptoms and hemolytic anemia improved.
+DISCUSSION The progression of PVL and hemolytic anemia in patients with S3UR has not been previously reported, and
+their mechanisms require further investigation. Percutaneous plug closure is a good treatment option for PVL after
+transcatheter aortic valve replacement.
+TAKE-HOME MESSAGE This case demonstrates that PVL progression and hemolytic anemia remain a potential
+risk after S3UR implantation, which can effectively be treated through percutaneous plug closure. (JACC Case Rep.
+2025;30:103410) © 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology
+Foundation. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+HISTORY OF PRESENTATION
+An 81-year-old man visited the outpatient clinic
+complaining of worsening shortness of breath on
+exertion
+1
+month
+after
+undergoing
+transcatheter
+aortic valve replacement (TAVR). The patient’s blood
+pressure was 132/62 mm Hg, and his heart rate was
+85
+beats/min
+with
+a
+regularly
+irregular
+rhythm.
+A diastolic murmur (Levine grade 2/6) was detected in
+the third left sternal border.
+TAKE-HOME MESSAGES
+ This case demonstrates the potential risk of
+PVL progression and hemolytic anemia
+following S3UR implantation, which has not
+been previously reported.
+ Percutaneous
+plug
+closure
+is
+a
+suitable
+treatment option for these complications.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103410
+From the Division of Cardiology, Department of Internal Medicine, Iwate Medical University, Yahaba, Iwate, Japan.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received June 10, 2024; revised manuscript received January 8, 2025, accepted January 22, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 6 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 4 . 0 / ) .
+
+=== PAGE 2 ===
+PAST MEDICAL HISTORY
+The patient had severe aortic stenosis with
+shortness of breath and was scheduled to
+undergo TAVR because of older age and mild
+frailty.
+His
+medical
+history
+included
+the
+presence of hypertension. Preoperative eval-
+uation revealed 2-vessel coronary artery dis-
+ease and severe stenosis of the right internal
+carotid artery. Computed tomography (CT)
+imaging is shown in Video 1 and measure-
+ments of the aortic valve complex are shown
+in Figure 1. The annulus area was 428 mm2.
+Although this was borderline between 23 and
+26 mm for SAPIEN 3 Ultra RESILIA (S3UR), a smaller 23-
+mm valve was selected to avoid the risk of the annular
+rupture. TAVR was performed through the trans-
+femoral approach, and a 23-mm S3UR was implanted at
+a
+nominal
+volume.
+Post-dilatation
+was
+added
+with þ1 mL because of a residual paravalvular leak
+(PVL). The PVL was reduced to mild grade (Videos 2
+and 3), and the procedure was completed without
+complications. The patient was discharged with mild
+PVL
+on
+transthoracic
+echocardiography
+(TTE)
+(Figure 2A).
+DIFFERENTIAL DIAGNOSIS
+The following diagnoses were considered possible
+causes of shortness of breath: acute heart failure,
+arrhythmia, or prosthetic valve dysfunction (deteri-
+oration of valve leaﬂets, leaﬂet thrombosis, PVL).
+INVESTIGATIONS
+Blood tests showed no change in the N-terminal pro-
+hormone of brain natriuretic peptide, but progression
+of anemia with an intravascular hemolytic pattern
+(elevated lactate dehydrogenase and reticulocytes,
+decreased haptoglobin, and presence of schistocytes)
+was evident. Electrocardiography revealed bigeminy
+with premature atrial contraction. TTE showed wors-
+ening PVL, which had progressed to moderate grade
+(Figures 2B and 2C). However, the valve leaﬂet motion
+was good, and there was no transvalvular regurgita-
+tion. Transesophageal echocardiography also showed
+exacerbated PVL compared with that of postoperative
+echocardiography (Video 4). CT showed no thrombus
+at the leaﬂets of the transcatheter heart valve (THV),
+but there were 2 gaps between the THV and the cusps
+of the sinus of Valsalva (SOV) (Figure 2D, Video 5). The
+FIGURE 1
+Computed Tomography Measurements of the Aortic Valve Complex Before Transcatheter Aortic Valve Replacement
+(A) Annulus. (B) Sinus of Valsalva. (C) Sinotubular junction. (D) Left ventricular outﬂow tract.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+CT = computed tomography
+PVL = paravalvular leak
+S3 = SAPIEN 3
+S3UR = SAPIEN 3 Ultra RESILIA
+SOV = sinus of Valsalva
+TAVR = transcatheter aortic
+valve replacement
+THV = transcatheter heart
+valve
+TTE = transthoracic
+echocardiography
+Kanehama et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+PVL and Hemolytic Anemia Post S3UR Implant
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 4 1 0
+2
+
+=== PAGE 3 ===
+gap between left and right coronary cusps was larger
+and was considered the main cause of hemolysis. The
+gap measured 2.4  5.8 mm (aortic side), 7.4  3.4 mm
+(mid portion), and 10.6  2.5 mm (left ventricular side)
+(Figure 3).
+MANAGEMENT
+The symptoms and hemolytic anemia of the patient
+did
+not
+improve
+with
+conservative
+treatment;
+therefore, an
+invasive
+intervention
+was
+decided.
+Given his advanced age, mild frailty, and severe
+stenosis of the right internal carotid artery, he was
+considered at high risk for open heart surgery, and
+percutaneous PVL closure was performed. The pro-
+cedure was performed under general anesthesia,
+transesophageal echocardiography guidance, and a
+transfemoral approach. The gap between left and
+right coronary cusps was crossed with a 0.035-inch
+hydrophilic guidewire with a 5-F guiding sheath
+and a 4-F Amplatz-Left-2 catheter (Figure 4A). The
+guidewire was exchanged with the Safari XS (Bos-
+ton). The 5-F guiding sheath did not pass through
+the gap and was replaced with a 6-F straight cath-
+eter (Figure 4B). This catheter was passed through
+the gap, and an 8  7-mm Amplatzer Vascular Plug
+II (Abbott Cardiovascular) was successfully implan-
+ted (Figure 4C). The PVL was reduced to mild grade
+(Figures 4D and 4E, Video 6).
+OUTCOME AND FOLLOW-UP
+Following
+percutaneous
+PVL
+closure,
+PVL
+was
+reduced
+from
+moderate
+to
+mild
+grade,
+and
+the
+FIGURE 2
+Progression of Pravalvular Leak
+(A) Transthoracic echocardiography at discharge. Paravalvular leak was mild. (B and C) Transthoracic echocardiography at 1 month (B: long-
+axis view, C: short-axis view). Paravalvular leak progressed to moderate. Main paravalvular leak originated from 1 o’clock position between
+left and right coronary cusps. (D) Computed tomography showed the gap between left and right coronary cusps (red arrow).
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Kanehama et al
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 4 1 0
+PVL and Hemolytic Anemia Post S3UR Implant
+3
+
+=== PAGE 4 ===
+hemolytic anemia improved, with subsequent disap-
+pearance of symptoms.
+DISCUSSION
+Although PVL after TAVR has been associated with
+poor prognosis, it has been mitigated by recent im-
+provements in the outer skirt of THV. In the SAPIEN 3
+(S3), a previous model of the balloon-expandable
+valves, only 1.4% had moderate or severe PVL at
+1 month.1 The outer skirt of the S3UR was further
+improved by changing the material to textured poly-
+ethylene terephthalate and increasing the height by
+40% compared with that of the S3, which is expected
+to reduce the PVL. In this case, PVL was mild imme-
+diately after THV implantation and at discharge but
+progressed to moderate 1 month later, resulting in
+clinically signiﬁcant hemolytic anemia. Such a clinical
+course is uncommon and the underlying mechanisms
+require further veriﬁcation.
+First, there was a possibility of THV recoil, but in this
+case, the stent frame diameter measured by ﬂuoro-
+scopic imaging did not change immediately after the
+TAVR or during PVL closure. However, because it was
+not compared with CT imaging, accurate evaluation of
+the recoil was not possible. Second, underexpansion of
+the THV might have occurred. In this case, it was
+expanded by þ1 mL. Considering the presence of re-
+sidual PVL and the sufﬁcient space in the SOV, further
+expansion by þ2 mL or þ3 mL might have been feasible.
+Third, the selected THV was relatively undersized
+compared with the size of the aortic valve complex.
+Although the annulus area of this case was 428 mm2,
+which was borderline between a 23- and 26-mm S3UR,
+the mean SOV diameter was 34.4 mm and the mean
+sinotubular junction diameter was 27.6 mm. Consid-
+ering the size of the SOV and sinotubular junction, a 26-
+mm THV might have been more appropriate. However,
+the annular oversizing was 21%, increasing the risk of
+annular rupture. Therefore, we selected a 23-mm THV
+FIGURE 3
+Three-Dimensional Anatomy of Gap
+(A) Three-dimensional positioning of native aortic valve and transcatheter heart valve. Stent frame of transcatheter heart valve is illustrated in
+green. (B) Aortic side (level of blue line). (C) Mid portion (level of red line). (D) Left ventricular side (level of yellow line).
+Kanehama et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+PVL and Hemolytic Anemia Post S3UR Implant
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 4 1 0
+4
+
+=== PAGE 5 ===
+for this case, but it was undersized compared with the
+SOV diameter, resulting in a gap and subsequent PVL
+progression with hemolytic anemia. Finally, there
+might be concerns regarding the S3UR itself, such as its
+new outer skirt. In fact, with the S3, we did not
+encounter similar issues in situations like this case.
+The new outer skirt was modiﬁed from the S3 to a
+textured
+polyethylene
+terephthalate
+resembling
+“towel
+fabric.”
+It
+may
+have
+unexpectedly
+and
+dynamically changed in the body, resulting in PVL
+progression. The change in material may have also
+caused unexpected shear stress of the PVL jet, which
+may have accelerated hemolysis. However, these are
+only speculative and further investigation is needed,
+such as to demonstrate the frequency of PVL progres-
+sion and hemolysis compared with the S3 in even larger
+cohorts or analyzing PVL jets using other imaging
+modalities or in vitro experiments.
+PVL after TAVR requires an invasive intervention
+when refractory heart failure or hemolysis occurs.
+Although
+the
+American
+College
+of
+Cardiology/
+American Heart Association guidelines recommend
+percutaneous repair of surgical valves for PVL as
+Class 2a,2 there are no established guidelines for
+PVL after TAVR. Although surgical intervention is
+generally considered, percutaneous treatment is an
+option for high-risk cases. Reported percutaneous
+treatment options for PVL after TAVR include redo
+TAVR, balloon valvuloplasty, and plug closure.3 In
+this case, the gap to be closed was clearly visible on
+the CT, and the plug closure was effective and safe.
+As a result, the patient had a favorable clinical
+course.
+On
+the
+other
+hand,
+the
+possibility
+of
+underexpansion
+remained
+and
+performing
+addi-
+tional balloon valvuloplasty was considered a viable
+option.
+FIGURE 4
+Procedure of Percutaneous Plug Closure
+(A) A 0.035-inch hydrophilic guidewire with 5-F guiding sheath and 4-F Amplatz-Left-2 catheter passed the gap. (B) Guidewire was exchanged to Safari XS and 6-F
+straight catheter passed the gap. (C) An 8  7-mm Amplatzer Vascular Plug II was implanted. (D) Transesophageal echocardiography of pre-procedure. (E) Trans-
+esophageal echocardiography after implantation of vascular plug.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Kanehama et al
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 4 1 0
+PVL and Hemolytic Anemia Post S3UR Implant
+5
+
+=== PAGE 6 ===
+CONCLUSIONS
+Percutaneous closure is an effective treatment option
+for controlling PVL and resolving hemolysis in pa-
+tients implanted with S3UR. The mechanisms and
+pathophysiology of PVL progression and hemolysis
+require further investigation.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+This report did not receive any grant from any funding agency in the
+public, commercial, or not-for-proﬁt sectors. Dr Morino has received
+educational grants from Edwards Lifesciences and lecture fees from
+Medtronic and Edwards Lifesciences. Dr Ninomiya has received lec-
+ture fees from Edwards Lifesciences. Dr Fusazaki has received lecture
+fees from Medtronic and is a proctor for Medtronic. Dr Kanehama has
+received lecture fees from Edwards Lifesciences. All other authors
+have reported that they have no relationships relevant to the con-
+tents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr
+Nozomu
+Kanehama, Division of Cardiology, Department of
+Internal Medicine, Iwate Medical University, 2-1-1
+Idaidori, Yahaba-cho, Shiwa-gun, Iwate 028-3695,
+Japan. E-mail: kanehama@iwate-med.ac.jp.
+R E F E R E N C E S
+1. Nazif TM, Cahill TJ, Daniels D, et al. Real-world
+experience with the SAPIEN 3 Ultra transcatheter
+heart valve: a propensity-matched analysis from
+the
+United
+States.
+Circ
+Cardiovasc
+Interv.
+2021;14(9):e010543.
+2. Otto CM, Nishimura RA, Bonow RO, et al.
+2020 ACC/AHA guideline for the management of
+patients with valvular heart disease: a report of
+the American College of
+Cardiology/American
+Heart Association Joint Committee on Clinical
+Practice
+Guidelines.
+J
+Am
+Coll
+Cardiol.
+2021;77(4):e25–e197.
+https://doi.org/10.1016/j.
+jacc.2020.11.018
+3. Landes U, Hochstadt A, Manevich L, et al.
+Treatment of late paravalvular regurgitation after
+transcatheter aortic valve implantation: prog-
+nostic implications. Eur Heart J. 2023;44(15):1331–
+1339.
+KEY WORDS aortic valve, occluder, valve
+replacement
+APPENDIX For supplemental
+videos, please see the online version of this
+paper.
+VISUAL SUMMARY
+Timeline of the Case
+Date
+Events
+Month X-4
+81-year-old man underwent TAVR and was implanted 23-mm S3UR. He was discharged with mild PVL on TTE.
+Month X-3
+He presented with worsening shortness of breath on exertion. TTE showed PVL progression to moderate and blood tests indicated
+hemolytic anemia. CT showed 2 gaps between the THV and the cusps of the sinus of Valsalva. The gap between left and right
+coronaray cusps was larger and was considered the main cause of hemolysis.
+Month X
+He was considered at high risk for open heart surgery, and percutaneous PVL closure was performed. An 8  7-mm Amplatzer
+Vascular Plug II was successfully implanted. The PVL was reduced to mild grade.
+Month Xþ9
+The hemolytic anemia and his symptoms resolved. At 9-month follow-up, he was doing well without symptoms. The PVL remained
+mild and anemia was not progressing.
+CT ¼ computed tomography; PVL ¼ paravalvular leak; S3UR ¼ SAPIEN3 Ultra RESILIA; TAVR ¼ transcatheter aortic valve replacement; THV ¼ transcatheter heart valve;
+TTE ¼ transthoracic echocardiography.
+Kanehama et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+PVL and Hemolytic Anemia Post S3UR Implant
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 4 1 0
+6

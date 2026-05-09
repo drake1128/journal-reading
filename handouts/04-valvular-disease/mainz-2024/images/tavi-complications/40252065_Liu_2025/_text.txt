@@ -1,0 +1,722 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE SERIES
+Procedural Strategies in Transcatheter
+Aortic Valve Replacement for
+Patients With Small Aortic Annulus
+and Aortic Stenosis
+Changfu Liu, MD,a Zeyu Sun, MD,a,b Yingqian Zhang, MD,a Yang Mu, MD,a Dongkai Shan, MD,a Bo Jiang, MD,a
+Jing Wang, MD,a Yundai Chen, MD, PHDa,b
+ABSTRACT
+Small aortic annulus is recognized as a critical risk factor in transcatheter aortic valve replacement, predisposing patients
+to prosthesis-patient mismatch. This case series examines 3 distinct anatomical subtypes of small aortic annulus patients
+undergoing transcatheter aortic valve replacement: 1) tricuspid aortic valve morphology; 2) type 0 bicuspid aortic valve;
+and 3) failed surgical bioprosthesis. The analysis highlights subtype-speciﬁc technical challenges and procedural opti-
+mization strategies, emphasizing the importance of preprocedural imaging and prosthesis selection in mitigating com-
+plications. (JACC Case Rep. 2025;30:103929) © 2025 Published by Elsevier on behalf of the American College of
+Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/
+licenses/by-nc-nd/4.0/).
+T
+ranscatheter
+aortic
+valve
+replacement
+(TAVR) has become a pivotal intervention
+for severe aortic stenosis in older patients.
+Small aortic annulus (SAA), deﬁned as an annular
+area <400 mm2,1 constitutes a high-risk anatomical
+subgroup associated with substantially elevated risks
+of prosthesis-patient mismatch (PPM).2 Accumulating
+evidence supports the efﬁcacy of TAVR in patients
+with
+severe
+aortic
+stenosis
+and
+small
+aortic
+annulus.2,3
+Emerging comparative studies suggest potential
+hemodynamic advantages of self-expanding valves in
+SAA patients, with CHOICE (A Comparison of Trans-
+catheter Heart Valves in High Risk Patients With Se-
+vere Aortic Stenosis: The CHOICE Trial) reporting
+larger effective oriﬁce areas (EOAs) and reduced se-
+vere PPM rates compared with balloon-expandable
+systems.4,5 Nevertheless, patients with SAA require
+TAKE-HOME MESSAGES
+ SAA, deﬁned as an annular area <400 mm2,
+demonstrates signiﬁcantly elevated risks of
+prosthesis-patient mismatch compared with
+normal aortic annulus.
+ TAVR strategy optimization in SAA aortic
+stenosis requires integration of preproce-
+dural CT measurements, adjacent structures,
+and intra-TAVR balloon assessment to
+determine prosthesis size and implant depth.
+ Patients with SAA exhibit heterogeneous risk
+stratiﬁcation across anatomical subtypes.
+Speciﬁc pathological features, including
+bicuspid aortic valve morphology and calciﬁc
+leaﬂet fusion demonstrate elevated suscep-
+tibility to prosthesis-patient mismatch,
+necessitating individualized procedural
+strategies for these high-risk cohorts.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103929
+From the aSenior Department of Cardiology, the Sixth Medical Center of PLA General Hospital, Beijing, China; and the bNankai
+University School of Medicine, Tianjin, China.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received March 10, 2025; revised manuscript received March 28, 2025, accepted March 31, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 0 , 2 0 2 5
+ª 2 0 2 5 P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R T H E
+C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+precise individualized procedural strategies,
+as different clinical scenarios may be associ-
+ated with this speciﬁc anatomical structure
+to minimize the occurrence of PPM.
+This clinical case series reports 3 cases of
+severe
+aortic
+stenosis
+with
+SAA
+demon-
+strating distinct anatomical conﬁgurations,
+highlighting
+the
+considerations
+for
+opti-
+mizing
+procedural
+strategies
+in
+different
+subtypes. We used a multimodality imaging
+assessment
+as
+the
+guiding
+framework
+to
+analyze
+these
+clinical
+scenarios.
+Through
+these cases, we underscore the critical role of
+anatomy-driven
+decision-making
+in
+TAVR
+procedural strategies.
+PATIENT 1
+A 72-year-old woman with a history of asthma and
+coronary artery disease presented to our hospital with
+progressive angina. Her height was 1.64 m and weight
+80 kg, yielding a calculated body surface area (BSA)
+of 1.87 m2. Transthoracic echocardiography (TTE)
+revealed severe aortic stenosis with a peak aortic
+valve velocity of 4.5 m/s, mean transvalvular gradient
+of 50 mm Hg and EOA of 0.78 cm2. The Society of
+Thoracic Surgeons (STS) risk score was 2.73%. Pre-
+TAVR
+computed
+tomography
+(CT)
+conﬁrmed
+tricuspid
+aortic
+valve
+morphology
+and
+assessed
+annular dimensions, left ventricular outﬂow tract,
+sinus of Valsalva, sinotubular junction, ascending
+VISUAL SUMMARY
+Multimodal Imaging Assessment Protocol for TAVR in SAA-AS
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+BAV = bicuspid aortic valve
+BSA = body surface area
+CT = computed tomography
+EOA = effective oriﬁce area
+iEOA = indexed effective
+oriﬁce area
+PPM = prosthesis-patient
+mismatch
+SAA = small aortic annulus
+STS = Society of Thoracic
+Surgeons
+TAVR = transcatheter aortic
+valve replacement
+TTE = transthoracic
+echocardiography
+Liu et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+TAVR in Small Annulus AS
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+2
+
+=== PAGE 3 ===
+aorta, coronary ostial heights, and valvular calciﬁca-
+tion (Figure 1, Supplemental Figure 1, Table 1).
+TAVR procedure was conducted under local anes-
+thesia with conscious sedation. After placement of a
+proximal coronary protection device in the left main
+coronary artery, balloon valvuloplasty was performed
+using an 18-mm balloon. Following multidisciplinary
+heart team evaluation, a 21-mm TaurusElite trans-
+catheter heart valve (Peijia Medical) was deployed at
+2 mm below the annular plane, with subsequent post-
+balloon dilation using a 20-mm balloon (Figure 2A,
+Video 1).
+FOLLOW-UP. Postprocedural
+electrocardiography
+revealed
+no
+new
+conduction
+abnormalities.
+TTE
+demonstrated a mild peak aortic velocity of 1.8 m/s,
+EOA of 1.76 cm2, and indexed effective oriﬁce area
+(iEOA) of 0.94 cm2/m2 (Figure 2B). The patient was
+discharged on post-TAVR day 4 without complications.
+INTERPRETATION. The initial case report describes a
+patient with tricuspid aortic valve morphology and
+mild leaﬂet calciﬁcation, demonstrating the feasi-
+bility and safety of TAVR guided by multimodality
+imaging in a patient with SAA. Although small-sized
+prostheses (<21 mm) are used in 22% to 44% of
+FIGURE 1
+Computed Tomography Assessment of the Aortic Root and Left Coronary Artery (Case 1)
+(A) Short-axis view of annuls. (B) Calcium burden of aortic valve. (C) Height of left coronary artery ostial. (D) Length of left leaﬂet.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+Liu et al
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+TAVR in Small Annulus AS
+3
+
+=== PAGE 4 ===
+cases in the United States and Europe,6 Asian pop-
+ulations
+exhibit
+signiﬁcantly
+smaller
+annular
+di-
+ameters compared with their European counterparts.
+This distinct anatomical proﬁle heightens the risks of
+PPM
+and coronary
+obstruction,
+underscoring
+the
+critical need for tailored procedural strategies in SAA
+patients. Our team emphasizes that synergistic anal-
+ysis of
+multimodality
+imaging (integrating aortic
+annular dimensions, sinus of Valsalva morphology,
+and the distribution of calciﬁcation) not only miti-
+gates misjudgment risks inherent to single imaging
+modalities but also enables comprehensive multidi-
+mensional assessment.
+PPM, associated with adverse long-term survival,
+functional recovery, heart failure readmissions, and
+reduced valve durability,2 remains a pivotal concern
+TABLE 1
+Pre-TAVR CT Measurements and CT AV Calcium Burden of 3 Cases
+Case 1
+Case 2
+Case 3
+Valve type
+Tricuspid aortic valve
+Type 0 bicuspid aortic valve
+Failed surgical bioprosthesis
+Annulus
+Diameter (avg): 21.0 mm
+Diameter (min-max):
+18.4-23.6 mm
+Area: 334.9 mm2
+Diameter (avg): 23.0 mm
+Diameter (min-max):
+20.4-25.7 mm
+Area: 396.5 mm2
+Diameter (avg): 19.2 mm
+Diameter (min-max):
+18.6-19.8 mm
+Area: 289.4 mm2
+LOVT
+Diameter (avg): 20.0 mm
+Diameter (min-max):
+15.1-24.9 mm
+Diameter (avg): 25.3 mm
+Diameter (min-max):
+20.9-29.8 mm
+Diameter (avg): 21.5 mm
+Diameter (min-max):
+17.0-26.0 mm
+SoV
+LCC: 26.9mm
+RCC: 25.5mm
+NCC: 25.8mm
+Diameter (avg): 26.0 mm
+Diameter (min-max):
+23.0-28.9 mm
+LCC: 36.1 mm
+RCC: 34.0 mm
+NCC: 34.7 mm
+STJ
+Diameter (avg): 23.1 mm
+Diameter (min-max):
+22.3-23.8 mm
+Diameter (avg): 23.1 mm
+Diameter (min-max):
+22.3-23.8 mm
+Diameter (avg): 32.4 mm
+Diameter (min-max):
+31.8-33.1 mm
+AA
+Diameter (avg): 31.0 mm
+Diameter (min-max):
+29.8-32.3 mm
+Diameter (avg): 38.0 mm
+Diameter (min-max):
+36.8-39.3 mm
+Diameter (avg): 38.4 mm
+Diameter (min-max):
+37.6-39.2 mm
+Coronary artery ostial height
+LCA: 12.8mm
+RCA: 16.4mm
+LCA: 11.0mm
+RCA: 11.4mm
+LCA: 12.8 mm
+RCA: 17.1 mm
+AV calcium
+392 mm3
+208 mm3
+0 mm3
+AA ¼ ascending aorta; AV ¼ aortic valve; CT ¼ computed tomography; LCA ¼ left coronary artery; LCC ¼ left coronary cusp; LVOT ¼ left ventricular outﬂow tract;
+NCC ¼ non-coronary cusp; RCC ¼ right coronary cusp; SoV ¼ sinus of valsalva; STJ ¼ sino tubular junction; RCA ¼ right coronary artery.
+FIGURE 2
+Aortogram and Transthoracic Echocardiography After Transcatheter Aortic Valve Replacement (Case 1)
+(A) Aortogram of aortic root. (B) Transthoracic echocardiography of aortic valve. LVOT ¼ left ventricular outﬂow tract.
+Liu et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+TAVR in Small Annulus AS
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+4
+
+=== PAGE 5 ===
+in SAA patients. Strategies such as supra-annular
+valve selection, controlled implantation depth, and
+post-dilatation have been validated to enhance post-
+TAVR hemodynamics.2 In this case, after balloon
+pre-dilatation
+assessment,
+a
+21-mm
+valve
+was
+deployed at a 2-mm implantation depth, followed by
+post-dilatation. This strategy achieved an effective
+iEOA, successfully avoiding moderate-to-severe PPM
+(iEOA #0.85 cm2/m2), thereby demonstrating favor-
+able procedural outcomes.
+Small aortic root anatomy may elevate coronary
+obstruction risks. Consequently, meticulous evalua-
+tion of sinus dimensions and coronary ostial height is
+imperative during SAA-TAVR planning. For high-risk
+patients, strategies such as coronary protection de-
+vice placement or BASILICA (Bioprosthetic or Native
+Aortic Scallop Intentional Laceration to Prevent Iat-
+rogenic Coronary Artery Obstruction) may reduce
+obstruction risks. In this case, the elongated left
+coronary
+leaﬂet
+and
+small
+left
+coronary
+sinus
+conferred an elevated risk of coronary obstruction.
+Therefore,
+prophylactic
+protection
+of
+the
+left
+coronary
+artery
+was
+implemented
+before
+valve
+implantation.
+PATIENT 2
+A 64-year-old woman with coronary artery disease,
+diabetes mellitus, and hypertension presented with
+6-month
+history
+of
+exertional
+dyspnea
+and
+was
+diagnosed with severe aortic stenosis. Her height was
+1.65 m and weight 76 kg, yielding a calculated BSA of
+1.82 m2. TTE demonstrated peak aortic velocity of
+4.6 m/s, mean transvalvular gradient of 49 mm Hg,
+and EOA of 0.81 cm2. The STS mortality risk score
+was 2.63%. Preprocedural CT conﬁrmed a Sievers
+FIGURE 3
+Computed Tomography Assessment of the Aortic Root and Right Coronary Artery (Case 2)
+(A) Short-axis view of annulus. (B) Calcium burden of aortic valve. (C) Height of left coronary artery ostial. (D) Length of left leaﬂet.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+Liu et al
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+TAVR in Small Annulus AS
+5
+
+=== PAGE 6 ===
+Type 0 bicuspid aortic valve with small aortic annulus
+(Figure 3, Table 1).
+The TAVR procedure was performed under local
+anesthesia with conscious sedation. Following pre-
+dilation with an 18-mm balloon, a 21-mm TaurusElite
+valve (Peijia Medical) was implanted at 2-mm ven-
+tricular depth without post-dilation.
+FOLLOW-UP. Postprocedural
+electrocardiography
+revealed no new conduction abnormalities. Post-
+TAVR TTE demonstrated absence of paravalvular
+leakage, with peak aortic velocity of 2.2 m/s, EOA of
+1.69 cm2, and iEOA of 0.93 cm2/m2 (Figure 4). The
+patient was discharged on postoperative day 4.
+INTERPRETATION. The case 2 highlights the unique
+challenges of TAVR in a patient with type 0 bicuspid
+aortic valve (BAV) morphology and SAA. Although
+TAVR has demonstrated favorable outcomes in BAV
+populations, the characteristic anatomical features
+of BAV, including elliptical annuli, calciﬁed raphe,
+and smaller supra-annular structures (Supplemental
+Figure
+2),
+complicate
+preoperative
+hemodynamic
+assessment and exacerbate the risks of PPM. For
+borderline-sized BAV-SAA cases, prosthesis sizing
+should
+be
+guided
+by
+comprehensive
+aortic
+root
+anatomy
+rather
+than
+isolated
+annular
+diameter.
+Supra-annular anchoring is the predominant strategy
+in BAV, which necessitates preoperative estimation of
+iEOA using supra-annular metrics to ensure optimal
+outcomes.
+Type 0 BAV-SAA patients often exhibit coronary
+ostia positioned farther from the sinus centerline,
+amplifying coronary obstruction risks. Consequently,
+proactive coronary protection strategies should be
+prioritized in high-risk anatomies. In this case, our
+team prioritized balloon valvuloplasty with an 18-mm
+balloon
+to
+evaluate
+leaﬂet compliance,
+revealing
+transient coronary ﬂow compromise during rapid
+ventricular pacing (Video 2). Based on this dynamic
+response, the procedural team elected to downsize to
+a 21-mm prosthesis and deliberately avoided post-
+dilatation to minimize leaﬂet displacement forces.
+PATIENT 3
+A 91-year-old man with a 20-year history of hyperten-
+sion was admitted for severe dyspnea, having previ-
+ously undergone surgical aortic valve replacement in
+2004. His height was 1.70 m and weight 51 kg, yielding a
+calculated BSA of 1.55 m2. TTE revealed a peak aortic
+velocity of 3.9 m/s, mean transvalvular gradient of
+39 mm Hg and EOA of 0.9 cm2. Given advanced age and
+compromised cardiac function, the STS mortality risk
+score was 15.6%. Preprocedural CT demonstrated
+thickened prosthetic leaﬂets (Figure 5, Table 1).
+The
+multidisciplinary
+team
+performed
+balloon
+aortic valvuloplasty using a 20-mm balloon, followed
+by implantation of a 21-mm TaurusElite valve (Peijia
+Medical) at 7-mm ventricular depth. Post-deployment
+FIGURE 4
+Aortogram and Transthoracic Echocardiography After Transcatheter Aortic Valve Replacement (Case 2)
+(A) Aortogram of aortic root. (B) Transthoracic echocardiography of aortic valve.
+Liu et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+TAVR in Small Annulus AS
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+6
+
+=== PAGE 7 ===
+imaging conﬁrmed adequate valve expansion without
+paravalvular leakage (Video 3).
+FOLLOW-UP. Post-TAVR TTE demonstrated a peak
+aortic velocity of 1.09 m/s, EOA of 2.3 cm2, and iEOA
+of 1.48 cm2/m2 (Figure 6). The patient exhibited
+marked
+symptomatic
+improvement
+and
+was
+dis-
+charged on postoperative day 2.
+INTERPRETATION. The ﬁnal case illustrates a valve-
+in-valve TAVR procedure. The metallic stent struc-
+ture of the preexisting surgical bioprosthesis resulted
+in reduced available annular area, while simulta-
+neously
+providing
+structural
+protection
+against
+neovalve-induced vascular compression. Compared
+with patients with native SAA, patients with prior
+surgical aortic valve replacement typically achieve
+superior
+outcomes
+with
+balloon
+valvuloplasty,
+allowing direct utilization of the prosthetic annular
+area to estimate postoperative iEOA. In such sce-
+narios,
+utilization
+of
+larger
+balloon
+sizes
+during
+aortic
+valvuloplasty
+is
+recommended
+to
+achieve
+sufﬁcient annular expansion for optimal hemody-
+namic
+performance.
+Patients
+with
+prior
+surgical
+valves often exhibit proportionally larger aortic root
+anatomies, correlating with lower incidence of PPM
+compared with native SAA valve recipients.When the
+predicted
+iEOA
+is
+suboptimal,
+balloon
+fracturing
+technique
+may
+be
+considered
+to
+augment
+the
+valvular oriﬁce area.
+FIGURE 5
+Computed Tomography Assessment of the Aortic Root (Case 3)
+(A to D) Short-axis view of aortic root (0-8 mm).
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+Liu et al
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+TAVR in Small Annulus AS
+7
+
+=== PAGE 8 ===
+DISCUSSION
+Aortic stenosis with concomitant SAA constitutes a
+distinct subgroup in TAVR populations. European
+multicenter registry data demonstrate that approxi-
+mately 12.7% of TAVR recipients meet SAA diagnostic
+criteria (annular area <400 mm2).7 As TAVR in-
+dications expand to younger, lower-risk aortic ste-
+nosis patients with longer life expectancy, it has been
+a critical consideration to enhance long-term valve
+performance in making procedural strategies. PPM,
+which results from as discordance between EOA and
+BSA, is associated with accelerated structural valve
+deterioration, increased heart failure readmissions,
+and elevated mortality in moderate-to-severe cases.
+SAA patients exhibit higher PPM rates post-TAVR
+(38.3%
+overall,
+10.2%
+severe),7
+underscoring
+the
+imperative for anatomically tailored procedural stra-
+tegies to mitigate this complication.
+Compared with European TAVR populations, Asian
+patients exhibit smaller aortic annular diameters, a
+higher prevalence of BAV morphology, and greater
+utilization
+of
+smaller
+surgical
+valve
+prostheses,
+collectively contributing to an elevated proportion of
+SAA cases in Asian cohorts. Current evidence suggests
+supra-annular valve designs and controlled high im-
+plantation (ventricular depth #2 mm) may improve
+hemodynamic outcomes.7 However, distinct valve
+morphologies predispose to differential complication
+proﬁles. Therefore, tailoring individualized proce-
+dural strategies based on anatomic phenotypes is
+critical, necessitating integration of multimodality
+imaging to optimize the EOA while ensuring proce-
+dural safety.
+CONCLUSIONS
+In
+aortic
+stenosis
+patients
+with SAA
+undergoing
+TAVR,
+multimodal
+imaging
+should
+be
+used
+to
+comprehensively evaluate the aortic annulus and
+adjacent structures. Tailored procedural strategies
+must be planned based on the speciﬁc anatomical
+characteristics of the valvular complex.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Yundai Chen,
+Senior Department of Cardiology, the Sixth Medical
+Center of PLA General Hospital, No.6, Fucheng Road,
+Haidian
+District,
+Beijing
+100853,
+China.
+E-mail:
+cyundai@vip.163.com.
+FIGURE 6
+Aortogram and Transthoracic Echocardiography After Transcatheter Aortic Valve Replacement (Case 3)
+(A) Aortogram of aortic root. (B) Transthoracic echocardiography of aortic valve.
+Liu et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+TAVR in Small Annulus AS
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+8
+
+=== PAGE 9 ===
+R E F E R E N C E S
+1. VARC-3
+Writing
+Committee,
+Généreux
+P,
+Piazza N, et al. Valve Academic Research Con-
+sortium 3: updated endpoint deﬁnitions for aortic
+valve
+clinical
+research.
+J
+Am
+Coll
+Cardiol.
+2021;77(21):2717–2746.
+2. Pibarot P, Magne J, Leipsic J, et al. Imaging for
+predicting
+and
+assessing
+prosthesis-patient
+mismatch after aortic valve replacement. JACC
+Cardiovasc Imaging. 2019;12(1):149–162.
+3. Head SJ, Reardon MJ, Deeb GM, et al. Computed
+tomography-based indexed aortic annulus size to
+predict prosthesis-patient mismatch. Circ Car-
+diovasc Interv. 2019;12(4):e007396.
+4. Abdel-Wahab M, Landt M, Neumann FJ, et al.
+5-year
+outcomes
+after
+TAVR
+with
+balloon-
+expandable versus self-expanding valves: results
+from the CHOICE randomized clinical trial. JACC
+Cardiovasc Interv. 2020;13(9):1071–1082.
+5. Abdelghani M, Mankerious N, Allali A, et al.
+Bioprosthetic
+valve
+performance
+after
+trans-
+catheter
+aortic
+valve
+replacement
+with
+self-
+expanding versus balloon-expandable valves in
+large versus small aortic valve annuli: insights
+from the CHOICE trial and the CHOICE-Extend
+Registry. JACC
+Cardiovasc Interv. 2018;11(24):
+2507–2518.
+6. Freitas-Ferraz AB, Tirado-Conte G, Dagenais F,
+et al. Aortic stenosis and small aortic annulus.
+Circulation. 2019;139(23):2685–2702.
+7. Voigtländer L, Kim WK, Mauri V, et al. Trans-
+catheter aortic valve implantation in patients with
+a small aortic annulus: performance of supra-,
+intra-
+and
+infra-annular
+transcatheter
+heart
+valves. Clin Res Cardiol. 2021;110(12):1957–1966.
+KEY WORDS aortic stenosis, small aortic
+annulus, transcatheter aortic valve
+replacement
+APPENDIX For supplemental ﬁgures and
+videos, please see the online version of this
+paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 0 , 2 0 2 5
+Liu et al
+M A Y 1 4 , 2 0 2 5 : 1 0 3 9 2 9
+TAVR in Small Annulus AS
+9

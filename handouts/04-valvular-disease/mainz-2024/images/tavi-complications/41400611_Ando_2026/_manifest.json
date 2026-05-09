@@ -1,0 +1,30 @@
+{
+  "pdf": "41400611_Ando_2026.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 1694,
+      "height": 544,
+      "ext": "png",
+      "bytes": 701431
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1694,
+      "height": 1007,
+      "ext": "png",
+      "bytes": 1038584
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1071,
+      "height": 1561,
+      "ext": "png",
+      "bytes": 1303202
+    }
+  ]
+}

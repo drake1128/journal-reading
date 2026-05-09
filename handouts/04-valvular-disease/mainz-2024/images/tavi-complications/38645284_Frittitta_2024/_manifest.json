@@ -1,0 +1,54 @@
+{
+  "pdf": "38645284_Frittitta_2024.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1694,
+      "height": 450,
+      "ext": "jpeg",
+      "bytes": 107923
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1644,
+      "height": 941,
+      "ext": "jpeg",
+      "bytes": 205370
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1644,
+      "height": 847,
+      "ext": "jpeg",
+      "bytes": 173630
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1968,
+      "height": 812,
+      "ext": "jpeg",
+      "bytes": 211706
+    },
+    {
+      "file": "fig-05_p4.jpeg",
+      "page": 4,
+      "width": 1644,
+      "height": 747,
+      "ext": "jpeg",
+      "bytes": 125599
+    },
+    {
+      "file": "fig-06_p5.jpeg",
+      "page": 5,
+      "width": 1644,
+      "height": 912,
+      "ext": "jpeg",
+      "bytes": 166230
+    }
+  ]
+}

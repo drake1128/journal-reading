@@ -1,0 +1,70 @@
+{
+  "pdf": "34316932_Chan_Wah_Hak_2019.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1071,
+      "height": 779,
+      "ext": "jpeg",
+      "bytes": 185632
+    },
+    {
+      "file": "fig-02_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 583,
+      "ext": "jpeg",
+      "bytes": 75994
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1494,
+      "height": 1315,
+      "ext": "jpeg",
+      "bytes": 456154
+    },
+    {
+      "file": "fig-04_p3.jpeg",
+      "page": 3,
+      "width": 1049,
+      "height": 534,
+      "ext": "jpeg",
+      "bytes": 100464
+    },
+    {
+      "file": "fig-05_p4.jpeg",
+      "page": 4,
+      "width": 980,
+      "height": 1342,
+      "ext": "jpeg",
+      "bytes": 206136
+    },
+    {
+      "file": "fig-06_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 797,
+      "ext": "jpeg",
+      "bytes": 138136
+    },
+    {
+      "file": "fig-07_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 641,
+      "ext": "jpeg",
+      "bytes": 92765
+    },
+    {
+      "file": "fig-08_p5.jpeg",
+      "page": 5,
+      "width": 797,
+      "height": 418,
+      "ext": "jpeg",
+      "bytes": 77827
+    }
+  ]
+}

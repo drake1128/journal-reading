@@ -57,8 +57,6 @@ bibliography: []
 
 | 年 | 第一作者 | 標題重點 | PMID | 檔案 |
 |----|---------|---------|------|------|
-| 2026 | Jha | Post-MI VSD Percutaneous Closure | [41925257](https://pubmed.ncbi.nlm.nih.gov/41925257/) | `41925257_Jha_2026.pdf` |
-| 2026 | Kodesh | RCA STEMI + severe MR cardiogenic shock | [41784304](https://pubmed.ncbi.nlm.nih.gov/41784304/) | `41784304_Kodesh_2026.pdf` |
 | 2025 | Ackermann | **Subclinical delayed coronary ostial obstruction** with high-frame THV | [40681254](https://pubmed.ncbi.nlm.nih.gov/40681254/) | `40681254_Ackermann_2025.pdf` |
 | 2025 | D'Errico Ramirez | **Septic coronary embolism + myocardial rupture** after VIV-TAVR endocarditis | [41136048](https://pubmed.ncbi.nlm.nih.gov/41136048/) | `41136048_D_Errico_Ramirez_2025.pdf` |
 | 2025 | Golzarian | **VIV-TAVR + LM obstruction salvaged by LA-VA-ECMO** | [40118636](https://pubmed.ncbi.nlm.nih.gov/40118636/) | `40118636_Golzarian_2025.pdf` |
@@ -87,7 +85,167 @@ bibliography: []
 | 2015 | Wolf | Successful repositioning of **Direct Flow valve** for acute RCA occlusion | [10.1016/j.jcin.2013.11.030](https://doi.org/10.1016/j.jcin.2013.11.030) |
 | 2014 | Acosta-Vélez | Acute artery occlusion in **anomalous origin LCx** | [10.1016/j.jcin.2014.05.034](https://doi.org/10.1016/j.jcin.2014.05.034) |
 
-> 案例庫共 24 篇（已篩除 5 篇與 TAVI 無直接關係但被搜尋演算法歸入此類者）。
+> 案例庫共 22 篇（已篩除 7 篇與 TAVI 併發症無直接關係但被搜尋演算法歸入此類者，包含 Jha 2026 post-MI VSD closure 與 Kodesh 2026 RCA STEMI + MR cardiogenic shock 兩篇於 2026-05 review 階段移除）。
+
+### 已下載案例圖示
+
+#### Ackermann 2025 — Subclinical Delayed Coronary Ostial Obstruction with High-Frame THV
+
+[PMID 40681254](https://pubmed.ncbi.nlm.nih.gov/40681254/)
+
+::: {layout-ncol=3}
+![p3](../images/tavi-complications/40681254_Ackermann_2025/fig-01_p3.jpeg)
+
+![p4-1](../images/tavi-complications/40681254_Ackermann_2025/fig-02_p4.jpeg)
+
+![p4-2](../images/tavi-complications/40681254_Ackermann_2025/fig-03_p4.jpeg)
+:::
+
+#### D'Errico Ramirez 2025 — Septic Coronary Embolism + Myocardial Rupture After ViV-TAVR Endocarditis
+
+[PMID 41136048](https://pubmed.ncbi.nlm.nih.gov/41136048/)
+
+::: {layout-ncol=4}
+![p3](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-01_p3.png)
+
+![p4-1](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-02_p4.png)
+
+![p4-2](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-03_p4.png)
+
+![p5-1](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-04_p5.png)
+
+![p5-2](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-05_p5.png)
+
+![p6-1](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-06_p6.png)
+
+![p6-2](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-07_p6.png)
+
+![p6-3](../images/tavi-complications/41136048_D_Errico_Ramirez_2025/fig-08_p6.png)
+:::
+
+#### Golzarian 2025 — ViV-TAVR + LM Obstruction Salvaged by LA-VA-ECMO
+
+[PMID 40118636](https://pubmed.ncbi.nlm.nih.gov/40118636/)
+
+::: {layout-ncol=3}
+![p3](../images/tavi-complications/40118636_Golzarian_2025/fig-01_p3.jpeg)
+
+![p4](../images/tavi-complications/40118636_Golzarian_2025/fig-02_p4.jpeg)
+
+![p5-1](../images/tavi-complications/40118636_Golzarian_2025/fig-03_p5.jpeg)
+
+![p5-2](../images/tavi-complications/40118636_Golzarian_2025/fig-04_p5.jpeg)
+
+![p6](../images/tavi-complications/40118636_Golzarian_2025/fig-05_p6.jpeg)
+:::
+
+#### Hakim 2025 — Multivessel Coronary Spasm + Cardiac Arrest During TAVR
+
+[PMID 41128692](https://pubmed.ncbi.nlm.nih.gov/41128692/)
+
+::: {layout-ncol=4}
+![p2](../images/tavi-complications/41128692_Hakim_2025/fig-01_p2.png)
+
+![p3-1](../images/tavi-complications/41128692_Hakim_2025/fig-02_p3.png)
+
+![p3-2](../images/tavi-complications/41128692_Hakim_2025/fig-03_p3.png)
+
+![p4](../images/tavi-complications/41128692_Hakim_2025/fig-04_p4.png)
+:::
+
+#### Lateef 2025 — LM Obstruction from PVL Closure Device Post-SAVR
+
+[PMID 41005842](https://pubmed.ncbi.nlm.nih.gov/41005842/)
+
+::: {layout-ncol=4}
+![p2](../images/tavi-complications/41005842_Lateef_2025/fig-01_p2.png)
+
+![p3-1](../images/tavi-complications/41005842_Lateef_2025/fig-02_p3.png)
+
+![p3-2](../images/tavi-complications/41005842_Lateef_2025/fig-03_p3.png)
+
+![p4-1](../images/tavi-complications/41005842_Lateef_2025/fig-04_p4.png)
+
+![p4-2](../images/tavi-complications/41005842_Lateef_2025/fig-05_p4.png)
+
+![p5-1](../images/tavi-complications/41005842_Lateef_2025/fig-06_p5.png)
+
+![p5-2](../images/tavi-complications/41005842_Lateef_2025/fig-07_p5.png)
+
+![p6](../images/tavi-complications/41005842_Lateef_2025/fig-08_p6.png)
+:::
+
+#### Love 2025 — NSTEMI from Embolic Prosthetic Valve Thrombus Post-TAVR
+
+[PMID 41108318](https://pubmed.ncbi.nlm.nih.gov/41108318/)
+
+::: {layout-ncol=4}
+![p2-1](../images/tavi-complications/41108318_Love_2025/fig-01_p2.png)
+
+![p2-2](../images/tavi-complications/41108318_Love_2025/fig-02_p2.png)
+
+![p3-1](../images/tavi-complications/41108318_Love_2025/fig-03_p3.png)
+
+![p3-2](../images/tavi-complications/41108318_Love_2025/fig-04_p3.png)
+:::
+
+#### Ostojic 2025 — STEMI from Embolized THV in Ascending Aorta
+
+[PMID 39963208](https://pubmed.ncbi.nlm.nih.gov/39963208/)
+
+::: {layout-ncol=4}
+![p2](../images/tavi-complications/39963208_Ostojic_2025/fig-01_p2.jpeg)
+
+![p3-1](../images/tavi-complications/39963208_Ostojic_2025/fig-02_p3.jpeg)
+
+![p3-2](../images/tavi-complications/39963208_Ostojic_2025/fig-03_p3.jpeg)
+
+![p4-1](../images/tavi-complications/39963208_Ostojic_2025/fig-04_p4.jpeg)
+
+![p4-2](../images/tavi-complications/39963208_Ostojic_2025/fig-05_p4.jpeg)
+
+![p5-1](../images/tavi-complications/39963208_Ostojic_2025/fig-06_p5.jpeg)
+
+![p5-2](../images/tavi-complications/39963208_Ostojic_2025/fig-07_p5.jpeg)
+
+![p6](../images/tavi-complications/39963208_Ostojic_2025/fig-08_p6.jpeg)
+:::
+
+#### Sava 2025 — Orthotopic LM Chimney Stenting to Prevent Stent Compression
+
+[PMID 40345731](https://pubmed.ncbi.nlm.nih.gov/40345731/)
+
+![Sava 2025 — orthotopic LM chimney stenting](../images/tavi-complications/40345731_Sava_2025/fig-01_p3.jpeg)
+
+#### Taniguchi 2025 — Acute RCA Occlusion During Bicuspid TAVR
+
+[PMID 41043937](https://pubmed.ncbi.nlm.nih.gov/41043937/)
+
+::: {layout-ncol=3}
+![p2](../images/tavi-complications/41043937_Taniguchi_2025/fig-01_p2.png)
+
+![p3-1](../images/tavi-complications/41043937_Taniguchi_2025/fig-02_p3.png)
+
+![p3-2](../images/tavi-complications/41043937_Taniguchi_2025/fig-03_p3.png)
+
+![p4](../images/tavi-complications/41043937_Taniguchi_2025/fig-04_p4.png)
+
+![p5-1](../images/tavi-complications/41043937_Taniguchi_2025/fig-05_p5.png)
+
+![p5-2](../images/tavi-complications/41043937_Taniguchi_2025/fig-06_p5.png)
+:::
+
+#### Nour 2019 — Late Chimney Stent Failure Post-ViV-TAVR → Cardiogenic Shock
+
+[PMID 34316815](https://pubmed.ncbi.nlm.nih.gov/34316815/)
+
+::: {layout-ncol=3}
+![p3](../images/tavi-complications/34316815_Nour_2019/fig-01_p3.jpeg)
+
+![p4-1](../images/tavi-complications/34316815_Nour_2019/fig-02_p4.jpeg)
+
+![p4-2](../images/tavi-complications/34316815_Nour_2019/fig-03_p4.jpeg)
+:::
 
 ---
 
@@ -123,6 +281,56 @@ BASILICA 由 NIH（Khan / Lederman 等）發展，**透過 catheter 故意撕裂
 > 目前 case library 只有 3 篇 BASILICA 直接相關 case reports。背景文獻 (Khan SS 2018 Circulation, Khan JM 2019 JACC Cardiovasc Interv, BASILICA IDE Study 2019 JACC Cardiovasc Interv) 為 BASILICA 的方法學基礎，**非 case report 形式，未納入此 case library**。
 
 > ⚠️ **Fang 2025 的警告**：BASILICA 是針對「需要做 TAVI 的高風險病人，事先處理 native/old-bio 瓣葉」。**不能對剛植入的新 THV 進行 BASILICA**——新 THV 的 leaflets 在裝置內非自由 leaflet，技術不適用且可能造成嚴重後果。
+
+### 已下載案例圖示
+
+#### Fang 2025 — 「Do Not BASILICA the New Valve」
+
+[PMID 40480773](https://pubmed.ncbi.nlm.nih.gov/40480773/)
+
+::: {layout-ncol=4}
+![p2](../images/tavi-complications/40480773_Fang_2025/fig-01_p2.jpeg)
+
+![p3](../images/tavi-complications/40480773_Fang_2025/fig-02_p3.jpeg)
+
+![p4](../images/tavi-complications/40480773_Fang_2025/fig-03_p4.jpeg)
+
+![p5](../images/tavi-complications/40480773_Fang_2025/fig-04_p5.jpeg)
+
+![p6](../images/tavi-complications/40480773_Fang_2025/fig-05_p6.jpeg)
+
+![p7](../images/tavi-complications/40480773_Fang_2025/fig-06_p7.jpeg)
+
+![p8](../images/tavi-complications/40480773_Fang_2025/fig-07_p8.jpeg)
+:::
+
+#### Ghoneem 2025 — First-in-Human BASILICA Before ViV-TAVR in Mechanically Expanded Legacy Valve
+
+[PMID 40589295](https://pubmed.ncbi.nlm.nih.gov/40589295/)
+
+::: {layout-ncol=3}
+![p3](../images/tavi-complications/40589295_Ghoneem_2025/fig-01_p3.png)
+
+![p4](../images/tavi-complications/40589295_Ghoneem_2025/fig-02_p4.png)
+
+![p5](../images/tavi-complications/40589295_Ghoneem_2025/fig-03_p5.png)
+:::
+
+#### Giustino 2025 — Step-by-step Modified UNICORN (Balloon-Assisted Leaflet Laceration)
+
+[PMID 40750151](https://pubmed.ncbi.nlm.nih.gov/40750151/)
+
+::: {layout-ncol=3}
+![p2](../images/tavi-complications/40750151_Giustino_2025/fig-01_p2.png)
+
+![p3](../images/tavi-complications/40750151_Giustino_2025/fig-02_p3.png)
+
+![p5-1](../images/tavi-complications/40750151_Giustino_2025/fig-03_p5.png)
+
+![p5-2](../images/tavi-complications/40750151_Giustino_2025/fig-04_p5.png)
+
+![p6](../images/tavi-complications/40750151_Giustino_2025/fig-05_p6.png)
+:::
 
 ---
 
@@ -192,22 +400,2834 @@ BASILICA 由 NIH（Khan / Lederman 等）發展，**透過 catheter 故意撕裂
 | 2014 | Hendry | TAVR in patient with **sinus of Valsalva aneurysm** | [10.1016/j.jcin.2013.07.021](https://doi.org/10.1016/j.jcin.2013.07.021) |
 | 2013 | Dahdouh | **Aortic arch rupture** during TAVI（致命罕見併發症） | [10.1016/j.jcin.2012.08.029](https://doi.org/10.1016/j.jcin.2012.08.029) |
 
+### 已下載案例圖示
+
+#### Kobari 2025 — ICE-Guided False Lumen Occlusion Post-TAVR + TEVAR
+
+[PMID 41186541](https://pubmed.ncbi.nlm.nih.gov/41186541/)
+
+::: {layout-ncol=3}
+![p3](../images/tavi-complications/41186541_Kobari_2025/fig-01_p3.png)
+
+![p4](../images/tavi-complications/41186541_Kobari_2025/fig-02_p4.png)
+
+![p5](../images/tavi-complications/41186541_Kobari_2025/fig-03_p5.png)
+:::
+
+#### Ma 2025 — Acute Type A Dissection During TAVR Bailout with Self-Expanding Valve
+
+[PMID 40252068](https://pubmed.ncbi.nlm.nih.gov/40252068/)
+
+::: {layout-ncol=3}
+![p3](../images/tavi-complications/40252068_Ma_2025/fig-01_p3.jpeg)
+
+![p4](../images/tavi-complications/40252068_Ma_2025/fig-02_p4.jpeg)
+
+![p5](../images/tavi-complications/40252068_Ma_2025/fig-03_p5.jpeg)
+:::
+
+#### Vidoni 2025 — Dual Percutaneous Repair for Annular Rupture After BE-TAVR
+
+[PMID 40944680](https://pubmed.ncbi.nlm.nih.gov/40944680/)
+
+::: {layout-ncol=3}
+![p2](../images/tavi-complications/40944680_Vidoni_2025/fig-01_p2.png)
+
+![p3](../images/tavi-complications/40944680_Vidoni_2025/fig-02_p3.png)
+
+![p4](../images/tavi-complications/40944680_Vidoni_2025/fig-03_p4.png)
+
+![p5-1](../images/tavi-complications/40944680_Vidoni_2025/fig-04_p5.png)
+
+![p5-2](../images/tavi-complications/40944680_Vidoni_2025/fig-05_p5.png)
+
+![p6](../images/tavi-complications/40944680_Vidoni_2025/fig-06_p6.png)
+:::
+
+#### El Nihum 2022 — Surgical Salvage of Annular Rupture by Conversion to Annular Enlargement
+
+[PMID 36444183](https://pubmed.ncbi.nlm.nih.gov/36444183/)
+
+::: {layout-ncol=3}
+![p2](../images/tavi-complications/36444183_El_Nihum_2022/fig-01_p2.jpeg)
+
+![p3](../images/tavi-complications/36444183_El_Nihum_2022/fig-02_p3.jpeg)
+
+![p4-1](../images/tavi-complications/36444183_El_Nihum_2022/fig-03_p4.jpeg)
+
+![p4-2](../images/tavi-complications/36444183_El_Nihum_2022/fig-04_p4.jpeg)
+
+![p5-1](../images/tavi-complications/36444183_El_Nihum_2022/fig-05_p5.jpeg)
+
+![p5-2](../images/tavi-complications/36444183_El_Nihum_2022/fig-06_p5.jpeg)
+:::
+
+#### Yamaguchi 2021 — Rescue Carotid Stenting for Cerebral Malperfusion + Acute Type A Dissection Post-TAVR
+
+[PMID 34766022](https://pubmed.ncbi.nlm.nih.gov/34766022/)
+
+::: {layout-ncol=3}
+![p2](../images/tavi-complications/34766022_Yamaguchi_2021/fig-01_p2.jpeg)
+
+![p3](../images/tavi-complications/34766022_Yamaguchi_2021/fig-02_p3.jpeg)
+
+![p4-1](../images/tavi-complications/34766022_Yamaguchi_2021/fig-03_p4.jpeg)
+
+![p4-2](../images/tavi-complications/34766022_Yamaguchi_2021/fig-04_p4.jpeg)
+
+![p5](../images/tavi-complications/34766022_Yamaguchi_2021/fig-05_p5.jpeg)
+:::
+
+#### Kellogg 2020 — Percutaneous Management of Contained Annular Rupture with SE-TAVR
+
+[PMID 34317066](https://pubmed.ncbi.nlm.nih.gov/34317066/)
+
+::: {layout-ncol=3}
+![p2](../images/tavi-complications/34317066_Kellogg_2020/fig-01_p2.jpeg)
+
+![p3](../images/tavi-complications/34317066_Kellogg_2020/fig-02_p3.jpeg)
+
+![p4](../images/tavi-complications/34317066_Kellogg_2020/fig-03_p4.jpeg)
+
+![p5](../images/tavi-complications/34317066_Kellogg_2020/fig-04_p5.jpeg)
+
+![p6](../images/tavi-complications/34317066_Kellogg_2020/fig-05_p6.jpeg)
+:::
+
 ---
 
-## 後續整理計畫
+## 4. Paravalvular Leak (PVL) / Regurgitation — 瓣周漏與瓣膜返流
 
-依目前下載到的 case reports，預計後續可加入：
+### 概念與機轉
 
-1. **Vascular Access / Bleeding / Iliofemoral Closure**（25 篇，10 已下載）
-2. **Valve Embolization / Migration / Dislocation**（20 篇，11 已下載）
-3. **Mitral Injury / SAM / LVOT Obstruction / Suicide LV**（18 篇，13 已下載）
-4. **Paravalvular Leak (PVL)**（15 篇，12 已下載）
-5. **Thrombosis / Leaflet / HALT**（13 篇，8 已下載）
-6. **Bicuspid / Special Anatomy**（11 篇，8 已下載）
-7. **Endocarditis / Infection**（7 篇，5 已下載）
-8. **Iatrogenic VSD / Septal Injury / Fistula**（6 篇，4 已下載）
-9. **Multi-valve / Combined Procedures**（6 篇，6 已下載）
-10. **Procedural Rescue / Snare / Wire Loss**（5 篇，4 已下載）
-11. ...其餘共 19 個主題分類
+**Paravalvular leak (PVL)** 指返流發生在 prosthesis 與原生 annulus 之間，而非穿過 leaflets。Surgical AVR 後 PVL 發生率 6–18%，TAVI 第一代裝置 moderate-or-greater PVL 約 12%，現代第五代 balloon-expandable valve（如 Sapien 3 Ultra RESILIA）已降至 < 5%。
 
-完整分類索引：`download/CATEGORIES.md`
+**臨床意義**：PVL 與 1 年 mortality 顯著相關（HR 1.7–2.5），主要透過兩條路徑：
+
+1. **容積負荷** → LV dilation → 心衰竭
+2. **Mechanical hemolysis（紅血球機械破壞）** → 慢性溶血性貧血、需要輸血
+
+> **冷知識**：相較於 mitral PVL，aortic PVL 較少出現顯著溶血。原因是 diastolic transvalvular pressure gradient（aortic）遠低於 systolic LA→LV gradient（mitral），shear stress 不足以破壞紅血球——但這個結論在 TAVI 後常常被打破，特別是**狹窄、不規則 PVL jet**（如 Sturla 2025 報告的 3 個 case 都是 mild PVL 卻造成嚴重溶血）。
+
+### 危險因子
+
+- **Annulus 鈣化不對稱**（特別是 commissural calcification）
+- **Bicuspid valve**（asymmetric Valsalva sinuses）
+- **Prosthesis undersizing 或 underexpansion**
+- **Low / supra-annular implantation**（valve 與 annulus 沒對齊）
+- **Sutureless surgical valve tilting**（如 Perceval valve，見 Zendjebil 2024）
+- **Pure native AR**（無鈣化錨定點 → 高 transcatheter valve embolization or migration [TVEM] 風險，PANTHEON 報告約 15–20%）
+
+### 處置策略決策樹
+
+```text
+PVL post-TAVI
+  ├─ Mild / asymptomatic → Observation + ACE-I/ARB + serial echo
+  ├─ Moderate-severe + heart failure / hemolysis
+  │    ├─ Anatomy-based mechanism analysis (CTA + 4D imaging)
+  │    │    ├─ Underexpansion → Balloon post-dilation (考慮 +1 to +5 mL overfill)
+  │    │    ├─ Malposition / 低植入 → Redo TAVR (TAV-in-TAV) 或 valve-in-valve
+  │    │    └─ Focal gap / 不規則 → Plug closure (Amplatzer Vascular Plug II/III, Muscular VSD Occluder)
+  │    └─ High surgical risk + 解剖適合 → Percutaneous treatment (Class IIa B)
+  └─ Refractory / device infection → Surgical valve explantation
+```
+
+**Plug 選擇要點**：
+
+- **Crescent-shaped / 不規則 defect** → Amplatzer Vascular Plug III（malleable，能塑形貼合）
+- **窄而深的 tract** → Muscular VSD Occluder（disks 在 tract 內，避免 jet 沿著 device 邊緣形成新的 hemolysis path）
+- **Round defect** → Amplatzer Vascular Plug II 或 IV
+- **Self-expandable THV 高 sealing skirt 跨越困難** → 從 upper cells 進入再從 skirt 繞過（Conte 2019 技術），用 Lunderquist stiff wire 提供支撐
+
+### 已下載案例庫
+
+#### 4.1 Sturla 2025 — Hemolytic Anemia from PVL（Three-Case Series）
+
+[PMID 39822806](https://pubmed.ncbi.nlm.nih.gov/39822806/) ｜ JACC Case Rep 2025;30:102748
+
+**Montefiore-Einstein 三例 hemolytic anemia 後 plug closure**：
+
+| Case | 年齡 / 性別 | TAVI valve | PVL 嚴重度 | Hb 最低 | LDH | 處置 | Outcome |
+|------|------------|-----------|-----------|--------|-----|------|---------|
+| 1 | 77 M | 26 mm S3 Ultra（tricuspid + commissural Ca） | Moderate | 8.2 | 1,395 | 25 mm True Balloon → **10 mm AVP II** | Hb 15.4 g/dL at 1y |
+| 2 | 69 M | 26 mm S3 Ultra（bicuspid type 0，dialysis） | **Mild** but ↑LDH | 7.9 | 1,275 | 25/26 mm balloon → **7 mm Muscular VSD Occluder** | Hb 11.6 g/dL at 1mo |
+| 3 | 74 M | 23/23 mm S3 Ultra-in-S3（multiple myeloma + bicuspid type 1） | Mild × 3 jets | 6.9 | 2,616 | TAV-in-TAV → 4 個月後 **7 mm AVP II** | Hb 11.9 g/dL at 4mo |
+
+**教學重點**：
+
+> Case 2 與 3 都是「**echocardiographically mild PVL 卻造成嚴重 hemolytic anemia**」的反例。診斷困難在於 (1) 病人可能無典型 anemia 症狀（worker 2 / 3 都是 routine lab 才發現），(2) 多重 comorbidities（CBD stricture、myeloma）混淆病因。**LDH > 600 U/L + schistocytes + haptoglobin < 10** 在任何 post-TAVR 病人都應該排除 PVL-induced hemolysis。
+
+> **Plug device 選擇邏輯**：Case 2 用 Muscular VSD Occluder 而非 AVP，是為了讓 disks 完全埋在 PVL tract 內，避免 jet 沿 device 兩側產生新 hemolysis path。這是 Latib 團隊的細微 technique 點。
+
+::: {layout-ncol=3}
+![Sturla Case 2 — TEE 顯示 mild posterior PVL（A）、angiographic plug deployment（B）、TEE post-plug（C）。](../images/tavi-complications/39822806_Sturla_2025/fig-01_p3.jpeg)
+
+![Sturla Case 3 — TAV-in-TAV 後仍持續 PVL × 3 jets，最終以 AVP II 封堵。](../images/tavi-complications/39822806_Sturla_2025/fig-02_p5.jpeg)
+
+![Sturla Visual Summary — Case 1 整體流程（presentation → intervention → 1-year follow-up）。](../images/tavi-complications/39822806_Sturla_2025/fig-03_p7.jpeg)
+:::
+
+---
+
+#### 4.2 Saigan 2026 — TAV-in-SAV with Oversizing & Overexpansion
+
+[PMID 41689575](https://pubmed.ncbi.nlm.nih.gov/41689575/) ｜ JACC Case Rep 2026;31:106869
+
+**71 歲男，bicuspid type 0**，4 年前接受 25 mm CEP Magna Ease + 24 mm Gelweave graft Bentall，PVL recurrent + AVP 4 plug 失效後 **再 hemolytic anemia + heart failure（Hb 4.0 g/dL, LDH 1,152）**。
+
+**關鍵解剖數據**（CT）：
+
+- Native annulus area **701 mm²**（極大），perimeter 95.1 mm
+- 25 mm Magna Ease 處於 **supra-annular** 位置，距離 native annulus 4.2 mm gap
+- Sinus of Valsalva 30.9–45.0 mm，coronary heights LCA 17.7 / RCA 18.0 mm（足夠）
+
+**策略 — 顛覆教科書的 deliberate oversizing**：
+
+- 標準建議 25 mm Magna Ease + 26 mm S3 → 但會相對 native annulus undersize 25.9%
+- 改用 **29 mm S3 Ultra RESILIA + nominal+10 mL overfill**：相對 Magna Ease oversize 56.2%；相對 native annulus undersize 7.4%
+- "Top-to-top" alignment：S3UR 上緣對齊 Magna Ease 上緣（讓 open-cell portion 完全在 sewing ring 之上）
+- S3 frame 22.5 mm，比 Magna Ease frame 16 mm 多 6.5 mm → flared inflow 完全覆蓋到 native annulus
+
+**結果**：PVL 完全消失，1 年後 Hb 正常、mean gradient 5 mmHg、EOA 2.39 cm²。
+
+**教學重點**：
+
+> **「Bigger 不見得 worse」** — 在 supra-annular surgical valve + 大 native annulus + 已植入 plug 的情況下，標準的 valve sizing chart 反而會 sub-optimal。Saigan 的決策是基於**三個解剖測量**：(1) supra-annular gap 的高度（4.2 mm）需要 frame 夠長才能 cover、(2) open-cell 高度 vs Magna Ease 上緣到 sewing ring 的距離（避免 leak through cells）、(3) 大 annulus 需要 flared inflow apposition。
+
+::: {layout-ncol=2}
+![Saigan Visual Summary — Intentional oversizing/overinflation in TAV-in-SAV。](../images/tavi-complications/41689575_Saigan_2026/fig-01_p3.png)
+
+![Pre-procedure CT — supra-annular bioprosthesis position with annular gap (white arrow) corresponds to PVL site。](../images/tavi-complications/41689575_Saigan_2026/fig-02_p4.png)
+:::
+
+::: {layout-ncol=2}
+![CT measurements — annulus 701 mm², SoV 30.9–45 mm, coronary heights LCA 17.7 / RCA 18 mm。](../images/tavi-complications/41689575_Saigan_2026/fig-03_p4.png)
+
+![Fluoroscopic views — (A) pre-deployment with AVP 4, (B) 29 mm S3UR with +10 mL overfill, (C) post-deployment angiogram。](../images/tavi-complications/41689575_Saigan_2026/fig-04_p5.png)
+:::
+
+::: {layout-ncol=2}
+![TTE post-procedure — no significant PVL。](../images/tavi-complications/41689575_Saigan_2026/fig-05_p5.png)
+
+![Post-CT — 29 mm S3UR with flared inflow, sealing cuff covers AVP 4 area。](../images/tavi-complications/41689575_Saigan_2026/fig-06_p6.png)
+:::
+
+![Valve dimensions schematic — Magna Ease vs 26 mm vs 29 mm S3 frame heights and skirt geometry。](../images/tavi-complications/41689575_Saigan_2026/fig-07_p7.png)
+
+---
+
+#### 4.3 Kanehama 2025 — Progressive PVL & Hemolysis after Sapien 3 Ultra RESILIA
+
+[PMID 40155119](https://pubmed.ncbi.nlm.nih.gov/40155119/) ｜ JACC Case Rep 2025;30:103410
+
+**81 歲男，frailty + carotid stenosis**，TAVI 用 23 mm S3UR（borderline 23/26，選 23 避 annular rupture，annulus area 428 mm²，post-dilatation +1 mL）。**1 個月後** PVL 從 mild 進展到 moderate，schistocytes + LDH↑，CT 顯示左右 cusp 之間有兩個 gap（aortic side 2.4×5.8 mm；mid 7.4×3.4 mm；LV side 10.6×2.5 mm）。
+
+**處置**：8×7 mm AVP II 從 6F straight catheter 通過 gap 後植入。3個月後 hemolysis 緩解，PVL 維持 mild。
+
+**教學重點**：
+
+> **第五代 valve 的新型 outer skirt（textured PET）並非萬靈丹**——SAPIEN 3 Ultra RESILIA 將 outer skirt 從 PET 改成 textured PET 並增高 40%，理論上應該降低 PVL，但本例顯示 **PVL 反而從 mild 進展到 moderate** 並產生 hemolysis。
+
+> 三個可能機轉：(1) THV recoil（無法純從 fluoroscopy 確認）、(2) Underexpansion（+1 mL 不夠，可能需要 +2–+3 mL）、(3) **Undersizing relative to SoV**（SoV 平均 34.4 mm vs valve 23 mm）。第三項是關鍵——選 23 mm 為了避 21% annular oversizing 的 annular rupture risk，但 SoV 處沒有足夠 apposition，造成 outer skirt 動態變化。
+
+> **Take-home**：S3UR 在 borderline sizing 時，應該額外考慮 **SoV 與 STJ 大小**，不只看 annulus area。
+
+::: {layout-ncol=2}
+![Kanehama — Pre-TAVR CT measurements: annulus, SoV, STJ, LVOT。](../images/tavi-complications/40155119_Kanehama_2025/fig-01_p2.jpeg)
+
+![Progression of PVL — TTE at discharge (mild) → 1 month (moderate, 1 o'clock between LCC/RCC), CT shows gap (red arrow)。](../images/tavi-complications/40155119_Kanehama_2025/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=2}
+![3D anatomy of gap — different sizes at aortic side, mid portion, LV side。](../images/tavi-complications/40155119_Kanehama_2025/fig-03_p4.jpeg)
+
+![Plug closure procedure — wire crossing, 6-F straight catheter, 8×7 mm AVP II deployment。](../images/tavi-complications/40155119_Kanehama_2025/fig-04_p5.jpeg)
+:::
+
+---
+
+#### 4.4 Kawamoto 2025 — Emergency TAVR for Native AR in Takayasu Arteritis
+
+[PMID 40615222](https://pubmed.ncbi.nlm.nih.gov/40615222/) ｜ JACC Case Rep 2025;30:103913
+
+**62 歲女，Takayasu's arteritis（TA）**，severe noncalcified AR + **circumferential ascending–descending aorta calcification**（手術不可行）+ refractory heart failure（LVEF 46% → 34%，需 dobutamine + BiPAP + CHDF）。
+
+**緊急 TF-TAVR**：用 29 mm S3UR（standard chart 建議 26，**oversize 26%**），單次 full inflation 略低位（增加 adhesion area），無 post-dilation（避 TVEM）。procedure 中發現 **central aortic systolic 203 mmHg vs right radial 117 mmHg**——TA 病人 brachiocephalic stenosis 造成血壓讀值假象。
+
+**結果**：AR 完全消失，extubated；4 天後因 R-on-T VT → 植入 dual-chamber ICD；1 個月 LVEF 61%。
+
+**教學重點**：
+
+> **Pure native AR 的 TAVI（off-label）關鍵是降低 TVEM 風險**。PANTHEON 報告 TVEM 率 15–20%（沒有 calcium 錨定）。本例三個策略：(1) **第五代 S3UR**（enhanced sealing skirt，textured PET）、(2) **顯著 oversize（26%）**、(3) **single full inflation 不 post-dilate**。
+
+> **TA 在 procedure 中血壓監測陷阱**：brachiocephalic 或 subclavian stenosis 會造成 peripheral 血壓被低估，central aortic 真正高血壓但末梢量不到。本例就因為這個假象一度嘗試 fluid removal → 反而加重低輸出。**TA 病人應該 invasive arterial line（central femoral 或 catheter-based）**。
+
+::: {layout-ncol=3}
+![ECG changes — ST depression and T-wave inversion progression。](../images/tavi-complications/40615222_Kawamoto_2025/fig-01_p2.jpeg)
+
+![TTE diastolic — severe noncalcified AR, broad jet。](../images/tavi-complications/40615222_Kawamoto_2025/fig-02_p3.jpeg)
+
+![CT findings — circumferential calcification ascending → descending → infrarenal aorta。](../images/tavi-complications/40615222_Kawamoto_2025/fig-03_p3.jpeg)
+:::
+
+::: {layout-ncol=3}
+![FDG-PET-CT — minimal active inflammation, confirming low TA disease activity。](../images/tavi-complications/40615222_Kawamoto_2025/fig-04_p4.jpeg)
+
+![CT for TAVR planning — annulus 514 mm², no LVOT/aortic calcium, dilated STJ, adequate iliac access。](../images/tavi-complications/40615222_Kawamoto_2025/fig-05_p5.jpeg)
+
+![Intraprocedural — central aortic 203 vs right radial 117 mmHg，brachiocephalic artery stenosis cause。](../images/tavi-complications/40615222_Kawamoto_2025/fig-06_p6.jpeg)
+:::
+
+::: {layout-ncol=3}
+![Pre-deployment positioning slightly toward LVOT for adhesion。](../images/tavi-complications/40615222_Kawamoto_2025/fig-07_p6.jpeg)
+
+![Single full inflation deployment under rapid pacing。](../images/tavi-complications/40615222_Kawamoto_2025/fig-08_p7.jpeg)
+
+![1-month follow-up — ECG T-wave normalized, TTE 0 AR, LVEF 61%。](../images/tavi-complications/40615222_Kawamoto_2025/fig-09_p8.jpeg)
+:::
+
+---
+
+#### 4.5 Tadokoro 2025 — Long-term Outcomes of TAVR for TAK-related ASr (Three-Case Series)
+
+[PMID 41175118](https://pubmed.ncbi.nlm.nih.gov/41175118/) ｜ JACC Case Rep 2025;30:105917
+
+**National Cerebral and Cardiovascular Center 三例 TAK + ASr（aortic stenosis + regurgitation）TAVR 長期 follow-up**：
+
+| Pt | 年齡/性別 | Valve | Approach | TAK 活性 | f/u 年數 | Outcome |
+|----|----------|-------|----------|---------|---------|---------|
+| 1 | 64 F | 23 mm Sapien XT | TF | Inactive at TAVR → **relapse @ ~4y** | 7y3m | **Death** from cerebral hypoperfusion + HF |
+| 2 | 70 F | 20 mm Sapien 3 | TF | Stable (5 mg PSL) | 5y | mPG 40 → asymptomatic |
+| 3 | 68 F | 23 mm Sapien 3 | **TA** | Inactive | 5y | mPG 9，carotid stenosis progresses |
+
+**教學重點**：
+
+> **TAVR vs SAVR for TAK**：SAVR 在 TAK 有 6–13% 後續 prosthetic detachment / anastomotic pseudoaneurysm 風險（inflammation 持續腐蝕 suture line）。TAVR 不需 aortic manipulation，理論上可避免這些併發症——本 series 5+ 年無 prosthetic detachment 觀察支持此論點。
+
+> **長期存活關鍵在 TAK 疾病活性控制**——Patient 1 雖 TAVR 順利，但 4 年後 TAK relapse 造成 brachiocephalic / carotid stenosis 進展，最終死於 cerebral hypoperfusion + HF。**所有 TAK 病人 post-TAVR 都需要終生 PET-CT、carotid US 監測**。
+
+> Patient 1 / 3 在 TAVR 時 inflammatory marker 都正常、PET-CT 無 uptake，仍可能 relapse——**low-grade subclinical activity 不能掉以輕心**。
+
+::: {layout-ncol=2}
+![Patient 1 imaging — circumferential aortic calcification root → descending, left CCA occlusion。](../images/tavi-complications/41175118_Tadokoro_2025/fig-01_p3.png)
+
+![Patient 1 postoperative course — CRP, ESR, WBC, PSL trends; TAK relapse ~day 1500 → death @ 7y3m。](../images/tavi-complications/41175118_Tadokoro_2025/fig-02_p4.png)
+:::
+
+::: {layout-ncol=2}
+![Visual Summary — Clinical course after TAVR for TAK-related ASr。](../images/tavi-complications/41175118_Tadokoro_2025/fig-03_p5.png)
+
+![Patient 2 imaging — circumferential calcification + 50% left CCA stenosis + occluded LAD-SVG。](../images/tavi-complications/41175118_Tadokoro_2025/fig-04_p6.png)
+:::
+
+::: {layout-ncol=3}
+![Patient 2 postop course — stable inflammation under low-dose PSL。](../images/tavi-complications/41175118_Tadokoro_2025/fig-05_p7.png)
+
+![Patient 3 imaging — widespread arterial calcified stenoses (carotid, subclavian, SMA, LITA-LAD graft patent)。](../images/tavi-complications/41175118_Tadokoro_2025/fig-06_p7.png)
+
+![Patient 3 postop course — CRP low, ESR mild fluctuations。](../images/tavi-complications/41175118_Tadokoro_2025/fig-07_p8.png)
+:::
+
+---
+
+#### 4.6 Frittitta 2024 — Late Third TAVR (TAVR-in-TAVR-in-TAVR) for Persistent PVR
+
+[PMID 38645284](https://pubmed.ncbi.nlm.nih.gov/38645284/) ｜ JACC Case Rep 2024;29:102259
+
+**73 歲女**，2012 年 31 mm CoreValve（殘留 PVR）→ 2013 年 31 mm CoreValve TAV-in-TAV（PVR 改善為 moderate）→ **9 年後 NYHA III + LVEF 52% + severe PVR**。CT 顯示 prosthesis frame 與 aortic wall 之間 gap 緊鄰 left cusp，annular Ca nodule 對應 jet。
+
+**策略**：先試 percutaneous PVL closure（4F Ber II / 6F AL-1 / pigtail，retrograde + anterograde），都跨不過 leak → bail-out **第三次 TAVR with 29 mm Sapien 3 + balloon overfill +3 mL**。Post-deployment **frame recoil** + 持續 PVR；post-dilation 後改善。但 final angiogram 發現 **annulus 處 dye leak → contained aortic annulus rupture**。
+
+CT 確認 contained pseudoaneurysm；保守觀察 + serial CT @ 3d / 7d 完全 sealing。10 天後 discharge，TTE mild-moderate PVR，無 effusion。
+
+**教學重點**：
+
+> **TAVR-in-TAVR-in-TAVR 是技術可行但風險不對稱的 bail-out**。Landes 2023（n=201）：43% redo-TAVR / 39% plug / 18% balloon valvuloplasty，30 天 mortality 5%、1 年 14.4%。**Residual ≥moderate AR 17.4%**，且這群人 1y mortality 顯著較高。
+
+> **Frame recoil** 是 redo TAVR in CoreValve 的隱藏陷阱——CoreValve nitinol frame 在 Sapien 3 deploy 後可能造成 hourglass deformity，需要 balloon overfill +3 mL 以確保 sealing。
+
+> **Annular contained rupture** 的發生與 CoreValve 在 oversize 環境下的 outward expansion + 既存 annular calcium nodule 撕裂有關。**Conservative approach 是合理選項**——若 hemodynamic stable + asymptomatic + serial CT confirm sealing，可避開 surgical conversion 的高風險。
+
+::: {layout-ncol=2}
+![Pre-procedural CTA — gap between prosthesis frame and aortic wall above annulus, calcium nodule corresponding to PVR jet。](../images/tavi-complications/38645284_Frittitta_2024/fig-01_p2.jpeg)
+
+![Pre/post comparison — first neoskirt level, second CoreValve simulated max expansion with 29 mm S3, post-procedural CT 0.13 mm radius increase。](../images/tavi-complications/38645284_Frittitta_2024/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=2}
+![PVL crossing failure — retrograde 4F Ber II and antegrade 6F angled pigtail both unsuccessful。](../images/tavi-complications/38645284_Frittitta_2024/fig-03_p3.jpeg)
+
+![Redo-TAVR — 29 mm S3 deployment, post-dilation with proprietary balloon +3 mL overfill, final angiogram contrast leak at annulus level。](../images/tavi-complications/38645284_Frittitta_2024/fig-04_p4.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Urgent post-CT — contained aortic annular fissuration / pseudoaneurysm。](../images/tavi-complications/38645284_Frittitta_2024/fig-05_p4.jpeg)
+
+![In-hospital follow-up CT — day 3 vs day 7 showing complete sealing without contrast enhancement。](../images/tavi-complications/38645284_Frittitta_2024/fig-06_p5.jpeg)
+:::
+
+---
+
+#### 4.7 Zendjebil 2024 — TAV-in-SAV for Sutureless Perceval Valve Tilting
+
+[PMID 38645286](https://pubmed.ncbi.nlm.nih.gov/38645286/) ｜ JACC Case Rep 2024;29:102270
+
+**57 歲男，BMI 37（morbidly obese）+ severe sleep apnea**，4 個月前 SAVR with **XL Perceval sutureless valve**（bicuspid type 1）+ CABG。Acute pulmonary edema admission，diastolic murmur + LVEF 60%。
+
+CT 發現 **Perceval valve tilting 46° from posterior aortic wall**，crescent-shaped anterior gap **5.8 mm × 197.9 mm²**。Native annulus 大（mean 34.6 mm，area 941 mm²），prosthesis 內徑只有 25.2 mm。
+
+**策略**：Heart team 討論後選 **Valve-in-valve TAVR with 29 mm Sapien 3 + balloon overfill +5 mL（極限）**。Perceval 的 nitinol frame 可被 stretch 使 valve dimension 突破 nominal 25 mm 上限。Post-procedure CT：final internal diameter 30.3 mm，area 695 mm²，gap 顯著縮小，PVL 由 severe 到 mild。
+
+**教學重點**：
+
+> **Sutureless valve（Perceval）植入後 tilt 是 underrecognized 的 PVL 機轉**——XL Perceval 適用於 mean diameter ≤27 mm 的 annulus，本例 34.6 mm 已超出 indication 範圍。Bicuspid + 不對稱 sinus 加劇問題。
+
+> **Sutureless valve 的 TAV-in-SAV 與 sutured valve 完全不同**：sutured valve 的 sewing ring 不會被撐大，但 **Perceval 的 nitinol frame 可被 balloon stretch**，因此 Sapien 3 + overfill 是合理選項（已有 32 例經驗）。
+
+> **+5 mL overfill 是 29 mm Sapien 的極限**——超過會有 leaflet damage 風險。
+
+![Pre/post-TAVR comparison — Perceval tilting 46°, anterior crescent PVL → after Sapien 3 in Perceval, near-complete PVL occlusion (final ID 30.3 mm)。](../images/tavi-complications/38645286_Zendjebil_2024/fig-01_p3.jpeg)
+
+---
+
+#### 4.8 Kassis 2023 — TAVR for Pure AR + Membranous IVS Aneurysm
+
+[PMID 36974043](https://pubmed.ncbi.nlm.nih.gov/36974043/) ｜ JACC Case Rep 2023;10:101762
+
+**89 歲女，frailty + CRT-D + LVEF 31%**，severe pure AR with **interventricular membranous septum (IVMS) aneurysm 25.6×18.4×13.3 mm extending into aortic annulus**。
+
+**挑戰**：(1) Pure AR 無 calcium 錨定 → TVEM 風險；(2) IVMS aneurysm 改變 annulus 幾何，THV 必須既能 anchor 又能 seal aneurysm 開口。
+
+**策略**：29 mm **Evolut R self-expanding valve**（選 self-expanding 因可 recapture/reposition；tall frame + supra-annular function 允許 lower implant 來 seal aneurysm；annulus + commissure + ascending aorta 三點 anchoring）。Implant depth ~10 mm。
+
+**結果**：無 PVL、無 VSD shunt（ventriculography 確認）、3 天 discharge。**2 年 follow-up CT：IVMS aneurysm 完全 sealed**。
+
+**教學重點**：
+
+> **Evolut R / Pro 在 pure AR 的優勢**：(1) Recapture-able 允許 fine-tuning；(2) Tall frame anchoring 不依賴 calcium；(3) Supra-annular leaflet function 允許 lower implant；(4) **Outer sealing skirt（特別是 Evolut Pro）** 配合 frame 可 plug residual gaps（如本例 IVMS aneurysm 開口）。
+
+> **JenaValve** 是真正的 dedicated AR-TAVR device（locator 抓 leaflets），但 availability 受限。Self-expanding Evolut 系列在無 dedicated AR valve 的市場是合理替代。
+
+::: {layout-ncol=2}
+![Apical 4-chamber echo — IVMS aneurysm protruding from LV into RV (no shunt)。](../images/tavi-complications/36974043_Kassis_2023/fig-01_p2.jpeg)
+
+![Pre-TAVR CT — long view (left) and short view (right) showing IVMS aneurysm communicating with aortic annulus。](../images/tavi-complications/36974043_Kassis_2023/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=2}
+![2-year post-TAVR CT — minimal HALT, no recurrent AR。](../images/tavi-complications/36974043_Kassis_2023/fig-03_p3.jpeg)
+
+![CT before vs after 2 years — complete healing of IVMS aneurysm post-TAVR。](../images/tavi-complications/36974043_Kassis_2023/fig-04_p4.jpeg)
+:::
+
+---
+
+#### 4.9 Abdel-Aal Ahmed 2019 — VIV TAVR + Bioprosthetic Fracture Cascade
+
+[PMID 34316934](https://pubmed.ncbi.nlm.nih.gov/34316934/) ｜ JACC Case Rep 2019;1:796
+
+**71 歲男，bicuspid + Bentall（30 mm Hemashield）+ 27 mm Mitroflow（externally mounted leaflets）2011 年植入**。Post-dental procedure bacteremia → 後續 echo 發現 LVEF 25–30% + severe PVL（partial prosthesis dehiscence），surgery 不適合。
+
+**步驟陷阱**：
+1. **AVP plug 嘗試** → Mitroflow externally mounted leaflets 被 device 衝擊到 → 瓣膜功能進一步惡化 → **abort**
+2. **VIV TAVR with 26 mm Sapien 3 + bioprosthetic valve fracture** → fracturing 期間 **PEA arrest** → CPR + ROSC → **VA-ECMO + Impella**（off-load LV）
+3. **Wean ECMO 後 echo 發現 severe central AI**（懷疑 Impella leaflet damage 或 fracturing 造成）→ shock physiology
+4. 醫療優化（dobutamine + hydralazine afterload reduction）→ stable
+5. **VSD occluder plug PVL** + **29 mm CoreValve ViViV**（self-expanding，supra-annular leaflet function 提供 effective orifice area 給 3-valve 重疊的 root）
+6. Final: peak/mean 17/8 mmHg，EOA 2.01 cm²，LVEF 40%，NYHA I-II
+
+**教學重點**：
+
+> **Externally mounted leaflet bioprosthesis（Mitroflow, Trifecta）是 PVL plug 的禁忌** ——leaflets 在 stent 外，plug 會被 leaflet 撞擊。VIV TAVR 配合 bioprosthetic valve fracture 是這類 valve 的標準策略。
+
+> **Iatrogenic central AI from Impella** 是真實但 underreported 風險——3-D echo 顏色 mosaic 在 Impella 仍在位時很難判讀，pull-out 過程更可能造成 leaflet flail。**Removal 應該在 cath lab + aortic root angiography post-removal**。
+
+> **3-valve overlap（Mitroflow + S3 + CoreValve）的 EOA**：選 self-expanding CoreValve（supra-annular leaflet）才能在小空間內維持 effective orifice area，避免 PPM。
+
+::: {layout-ncol=3}
+![Initial TEE — severe PVL pre-treatment。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-01_p2.jpeg)
+
+![Aortic root angiography — severe insufficiency。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-02_p2.jpeg)
+
+![Initial PVL repair attempt — AVP plug deployment causes Mitroflow externally mounted leaflet impingement。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-05_p3.jpeg)
+:::
+
+::: {layout-ncol=3}
+![TEE during initial PVL repair — leaflet impingement evident。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-06_p3.jpeg)
+
+![ViV TAVR — 26 mm S3 Edwards valve in Mitroflow。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-07_p4.jpeg)
+
+![Persistent severe PVL post-VIV (no central AI yet)。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-08_p4.jpeg)
+:::
+
+::: {layout-ncol=3}
+![TEE — persistent PVL, no central AI at this stage。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-09_p4.jpeg)
+
+![Patient on VA-ECMO + Impella support after PEA arrest。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-10_p4.jpeg)
+
+![Post-VIV TEE — both central AI (likely Impella-induced) and PVL。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-11_p5.jpeg)
+:::
+
+::: {layout-ncol=3}
+![3D TEE — leaflet flail + paravalvular space。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-12_p5.jpeg)
+
+![Post-PVL closure device placement。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-13_p5.jpeg)
+
+![Near-complete PVL resolution, residual central AI。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-14_p5.jpeg)
+:::
+
+::: {layout-ncol=3}
+![ViViV — 29 mm CoreValve placement on top of S3 + Mitroflow。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-15_p6.jpeg)
+
+![Post-procedure TEE — near-complete resolution of both central and paravalvular AI。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-16_p6.jpeg)
+
+![Post-procedure TTE — trace residual AI。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-17_p6.jpeg)
+:::
+
+![Continuous-wave Doppler — normal TAVR velocity/gradient, no AI spectral signal。](../images/tavi-complications/34316934_Abdel-Aal_Ahmed_2019/fig-18_p6.jpeg)
+
+---
+
+#### 4.10 Alabbady 2019 — Aorto-Right Ventricular Fistula + PVL
+
+[PMID 34316946](https://pubmed.ncbi.nlm.nih.gov/34316946/) ｜ JACC Case Rep 2019;1:859
+
+**76 歲男，severe AS（mean 51 mmHg，AVA 0.6）+ STS 3% 但被兩位 surgeon 評估為高風險**。29 mm Sapien 3 transfemoral TAVR，annulus 32×26 mm/660 mm²。Post-deployment moderate PVL → balloon → mild。**Post-op 立刻 1° AVB，3 天後 CHB → PPM**。Echo 發現 **aorto-RV fistula + small PVL**。2 週後 admission with **HF + nonsustained VT，Qp/Qs 1.43**。
+
+**策略**：3D-printed model（Mimics Innovation Suite + Objet 360 printer）規畫 → 7F shuttle sheath, **8 mm VSD occluder** 跨 fistula → RV saturation 從 88% 降到 63%（接近完全 abolish 左→右 shunt）。4 個月後 PVL 進展，**2 個 8 mm AVP plug** 完成 PVL closure。23 個月 NYHA II，無 VT 復發。
+
+**Literature review (Table 1)**：12 個 published aorto-RV fistula post-TAVR：4 個 percutaneous repair 全 survived，8 個 conservative 中 3 個死亡。
+
+**教學重點**：
+
+> **Aorto-RV fistula（Gerbode-like defect）發生 at TAVR 機轉**：valve frame 在 LVOT–IVS 接合處（IVMS）刺穿 → 連通 LV outflow + RV inflow，常與 conduction abnormality（PPM dependence）一起發生。
+
+> **3D printing 在複雜結構性介入規劃的角色**：Mimics → Objet 印 patient-specific aortic root model，可預先 simulate plug 與 TAVR frame 的 interaction（特別是大 disk 在 prosthesis frame 內的展開受限）。
+
+> **Percutaneous repair 應為首選**——本 series 4/4 percutaneous survive vs 3/8 conservative 死亡。**VSD occluder 跨 fistula + AVP plug 處理 PVL** 可分階段或同次完成。
+
+::: {layout-ncol=2}
+![Pre-TAVR CT — annulus 32×26 mm, area 660 mm²。](../images/tavi-complications/34316946_Alabbady_2019/fig-01_p2.jpeg)
+
+![CT scan of aorto-RV fistula anatomy。](../images/tavi-complications/34316946_Alabbady_2019/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=3}
+![3D-printed model — patient-specific aortic root with TAVR prosthesis and fistula location。](../images/tavi-complications/34316946_Alabbady_2019/fig-03_p4.jpeg)
+
+![Successful VSD occluder deployment fluoroscopy。](../images/tavi-complications/34316946_Alabbady_2019/fig-04_p4.jpeg)
+
+![Final fluoroscopy — VSD occluder + 2× AVP plugs successfully deployed。](../images/tavi-complications/34316946_Alabbady_2019/fig-05_p5.jpeg)
+:::
+
+---
+
+#### 4.11 Conte 2019 — Plugging PVL: Self-expandable Evolut R + Balloon-expandable S3 (Two-Case Series)
+
+[PMID 34316912](https://pubmed.ncbi.nlm.nih.gov/34316912/) ｜ JACC Case Rep 2019;1:696
+
+**Case 1**：77 M，34 mm **Evolut R**（self-expandable）after TAVR moderate posterior + mild anterior PVL，1 年後 inotrope-dependent low-output HF。**Crossing challenge**：high sealing skirt + valve frame → 從 upper cells 通過再從 skirt 後繞行（AL-1 + slippery wire）。**Delivery sheath 過不去** → 用 4F GLIDECATH 把 stiff slippery wire **loop 在 LV 後再從 prosthetic AV 拉回 ascending aorta** 增加支撐 → 6F delivery + **12×5 mm AVP III**。Posterior PVL 完全解除。
+
+**Case 2**：77 M，前 Olympic weightlifter（!），26 mm **Sapien 3** after moderate-to-severe anteromedial PVL。Defect crossing 用 slippery wire + JR4 catheter，sheath 過不去 → 換 **Lunderquist stiff wire**（極硬）→ 6F sheath 通過 → **14×5 mm AVP III**。Trivial residual PVL。
+
+**教學重點**：
+
+> **Self-expandable vs Balloon-expandable PVL closure 的不同挑戰**：
+> - **Self-expandable**（如 Evolut）：高 sealing skirt + 較大的 frame cells → 跨 leak 困難；建議從 upper cells 進入再繞 skirt 後方
+> - **Balloon-expandable**（如 Sapien 3）：通常 cannulation 較容易，但需要極硬的 wire（Lunderquist）才能通過 narrow / irregular defect
+>
+> **AVP III 的 unique advantage**：malleable design 能塑形貼合 crescent-shaped defect，相較 AVP II（圓形）對 TAVR-PVL（多為 crescent）更合適。
+>
+> **「LV looping wire-back-up」technique**：standard wire 不夠硬時，把 wire loop 進 LV 後從 prosthetic valve 拉回 ascending aorta，形成 rail-loop，可以 dramatically 增加 delivery sheath 的 trackability。是 self-expandable PVL 的關鍵 trick。
+
+::: {layout-ncol=3}
+![Case 1 pre-procedure echo — moderate posterior PVL。](../images/tavi-complications/34316912_Conte_2019/fig-01_p2.jpeg)
+
+![Case 1 — crossing valve frame through upper cells with AL-1 + slippery wire。](../images/tavi-complications/34316912_Conte_2019/fig-02_p3.jpeg)
+
+![Case 1 — support wire looped in LV and back to aorta for sheath support。](../images/tavi-complications/34316912_Conte_2019/fig-03_p3.jpeg)
+:::
+
+::: {layout-ncol=3}
+![Case 1 — 12×5 mm AVP III in place。](../images/tavi-complications/34316912_Conte_2019/fig-04_p4.jpeg)
+
+![Case 1 — post-procedure mild residual PVL。](../images/tavi-complications/34316912_Conte_2019/fig-05_p4.jpeg)
+
+![Case 2 pre-procedure echo — moderate-to-severe anteromedial PVL。](../images/tavi-complications/34316912_Conte_2019/fig-06_p5.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Case 2 — initial cross with slippery wire/JR4, but sheath cannot pass。](../images/tavi-complications/34316912_Conte_2019/fig-07_p5.jpeg)
+
+![Case 2 — switched to highly stiff Lunderquist wire to cross defect。](../images/tavi-complications/34316912_Conte_2019/fig-08_p6.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Case 2 — 14×5 mm AVP III in place。](../images/tavi-complications/34316912_Conte_2019/fig-09_p6.jpeg)
+
+![Case 2 — post-procedure mild residual PVL。](../images/tavi-complications/34316912_Conte_2019/fig-10_p6.jpeg)
+:::
+
+---
+
+#### 4.12 Kamitani 2026 — Iatrogenic AR After Percutaneous LAAO Device Retrieval
+
+[PMID 41837945](https://pubmed.ncbi.nlm.nih.gov/41837945/) ｜ JACC Case Rep 2026;31:107381
+
+**57 歲男 PAF**，外院 percutaneous LAAO 後 device 在 cath lab 外 echo 發現 LV embolization。Transaortic catheter retrieval（18F sheath + snare 跨 AV）後 **severe iatrogenic AR**（right coronary cusp prolapse near R-N commissure tear），加 **Brockenbrough 殘留 ASD + PFO**。1 個月後 exertional dyspnea → 轉院。
+
+**手術**：Endoscopic right mini-thoracotomy 微創 AVR + 2 ASD + PFO closure + endoscopic selective antegrade cardioplegia。Direct visualization 發現 **RCC 撕裂超過 leaflet insertion** 一半長度 → 不可 repair → 25 mm bovine pericardial AVR。LV septum 有多處 endocardial abrasion（device retrieval 留下）。
+
+POD 5 discharge，1 年 asymptomatic、無 PVL/shunt。
+
+**教學重點**：
+
+> **LAAO device dislodgment**（0.6–3.9% incidence）落入 LV（佔 33%）後 **transaortic catheter retrieval 是高風險選項**——本例顯示首次 published aortic valve injury from LAAO retrieval（leaflet tear），且有 mitral valve injury 致死的 pre-existing 報告。
+
+> **替代方案：Minimally invasive surgical retrieval**（endoscopic right mini-thoracotomy + left atriotomy）的優勢：(1) 直視避免 catheter 盲操作；(2) 同時處理 iatrogenic ASD/PFO；(3) 同時可進行 surgical LAAO 不需要 oversize 第二個 device。
+
+> **Heart team consultation 應在 LAAO embolization 確診後立即啟動**，而非先嘗試 transcatheter retrieval。
+
+::: {layout-ncol=2}
+![Pre-op TEE — RCC tear with severe AR (A-B), iatrogenic ASD (C), new LAAO device with mitral overlap (D)。](../images/tavi-complications/41837945_Kamitani_2026/fig-01_p3.png)
+
+![Intraoperative findings — iatrogenic ASD (A), LAAO device overlying mitral valve (B), RCC perforation (C), endocardial abrasions on LV septum (D)。](../images/tavi-complications/41837945_Kamitani_2026/fig-02_p4.png)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2018 | Cannata | TAVR for severe AR in **Singleton-Merten syndrome**（罕見遺傳疾病） | [10.1016/j.jcin.2018.08.024](https://doi.org/10.1016/j.jcin.2018.08.024) |
+| 2018 | Goel | **MitraClip for severe MR from papillary muscle rupture** as TAVR complication | [10.1016/j.jcin.2017.12.006](https://doi.org/10.1016/j.jcin.2017.12.006) |
+| 2017 | Tay | TAVR for severe AR after **David I valve-sparing procedure** | [10.1016/j.jcin.2017.03.035](https://doi.org/10.1016/j.jcin.2017.03.035) |
+
+---
+
+## 5. Thrombosis / Leaflet / HALT — 血栓、瓣葉血栓與低衰減瓣葉增厚
+
+### 概念與分類
+
+TAVI 後的 thrombotic complications 涵蓋一組相關但臨床意義不同的現象：
+
+1. **Hypoattenuated Leaflet Thickening (HALT)** — 4D CT 看到 leaflet 上低衰減（hypoattenuation）區域；發生率高達 25–30% at 1y，**多數 subclinical**，OAC 可逆
+2. **Reduced Leaflet Motion (RELM)** — HALT 進展，leaflet 活動度減少
+3. **Clinical Valve Thrombosis** — symptomatic obstruction（gradient 上升 + HF），發生率 0.6–2.8%，ViV 高達 7.6%
+4. **Valsalva Thrombus (VT)** — 血栓在 native sinus of Valsalva 與 THV 之間（neosinus），發生率 4–8.9%，**多在 5–7 天內**出現，常於 NCC（無 coronary washout）
+5. **Sinus Sequestration** — STJ 緊鄰 valve frame 形成 cul-de-sac，severe blood stasis → 高 thrombosis 風險（特別是 redo TAVR）
+
+### 關鍵預測因子（CT findings）
+
+| 影像所見 | 意義 | 對應 case |
+|---------|------|----------|
+| **Aortic sinus contrast retention（顯影劑滯留）** | 立即警訊；可能 stroke 或晚期 leaflet thrombosis | Asmarats 2022 |
+| **Commissural misalignment (CMA)** | Native–prosthetic commissure 偏移 → upper sinus flow 減 40% | Kato 2024 (3 cases) |
+| **Coronary misalignment** | RCA 對 NCC 的 dynamic flow loss | Kato 2024 |
+| **Narrow / low STJ + tall frame** | Sinus sequestration | Asmarats 2022 (Lotus, Portico) |
+| **Large SoV / 低 SoV–valve apposition** | Stagnant flow at neosinus | Yanagisawa 2017 |
+| **ViV with overlapping frames** | Tall-in-tall neosinus, restricted washout | Shrestha 2026 |
+
+### 抗血栓策略（依 indication）
+
+```text
+TAVI 完成 → 確認 baseline echo
+  ├─ No AF / no other indication → SAPT (aspirin) × 6 months
+  ├─ AF or other OAC indication → DOAC (apixaban / edoxaban) → NOT rivaroxaban after TAVR (GALILEO trial 早終，死亡 ↑)
+  └─ HALT 出現 / Valsalva thrombus / contrast retention → Switch to OAC (DOAC or warfarin)
+
+Confirmed clinical valve thrombosis →
+  ├─ Hemodynamically stable + low risk → OAC × 3 months → 重複 echo
+  ├─ Failure of OAC → consider thrombolysis (ultraslow tPA 1 mg/h × 48h)
+  ├─ Refractory + high surgical risk → percutaneous balloon valvuloplasty + MCS（TandemHeart, ECMO）
+  └─ Refractory + acceptable surgical risk → SAVR explantation
+```
+
+### 已下載案例庫
+
+#### 5.1 Kato 2024 — Antithrombotic Therapy for Valsalva Thrombus（Three-Case Series）
+
+[PMID 39295789](https://pubmed.ncbi.nlm.nih.gov/39295789/) ｜ JACC Case Rep 2024;29:102455
+
+**Fukuoka University 三例 Valsalva thrombus（VT）after Evolut PRO+/FX**：
+
+| Case | 年齡/性別 | Aortic anatomy | Misalignment | 抗栓策略 | VT at 5d | VT at 1mo | VT at 2mo |
+|------|----------|---------------|--------------|---------|--------|---------|---------|
+| 1 | 83 M | Bicuspid type 1 | Mild CMA | SAPT → **OAC at 1wk** | NCC | **Resolved** | — |
+| 2 | 74 F | Tricuspid + small annulus | Severe CMA + coronary misalign | SAPT → OAC at 1mo | NCC | NCC remained | NCC remained |
+| 3 | 83 M | Tricuspid + contrast stagnation | None CMA + moderate coronary misalign | SAPT → OAC at 1mo | NCC | NCC + RCC（**RCA infiltration**） | RCA resolved, NCC remained |
+
+**教學重點**：
+
+> **VT 的早期診斷**——3 個 case 都在 **5 天內** CT 出現；NCC 是最常見位置（無 coronary washout）。**TAVR 後 5–7 天的 protocol CT 是合理的 surveillance**。
+
+> **時序很關鍵**：Case 1 在 **1 週內 switch 到 OAC** → 1 個月完全解除；Case 2-3 拖到 **1 個月才換 OAC** → 2 個月仍未解除。**「Switching to OAC within 1 week is effective; deferring beyond 30 days may not work」**。
+
+> **Aortogram contrast stagnation** 是 VT 的早期警訊（Asmarats 2022）。Final aortography 看到 dense contrast stagnation 在 NCC 應該立即考慮 OAC，不要拖到 5 天 CT 才做。
+
+> Case 3 顯示 VT 可以 **infiltrate 到 RCA ostium**，雖然在這個 case 沒有 STEMI，但 mechanism 上有 STEMI 風險（見 Cat 1 Love 2025 的 NSTEMI from embolic prosthetic valve thrombus）。
+
+![Kato 2024 — Three cases of Valsalva thrombus on serial MDCT (preprocedure → 5-day → 1-month → 2-month). Yellow arrows = thrombus; black arrows = RCA direction; colored arrows = THV commissures。](../images/tavi-complications/39295789_Kato_2024/fig-01_p3.jpeg)
+
+---
+
+#### 5.2 Asmarats 2022 — Aortic Sinus Contrast Retention as Pre-Thrombotic Warning（Three-Case Series）
+
+[PMID 35677788](https://pubmed.ncbi.nlm.nih.gov/35677788/) ｜ JACC Case Rep 2022;4:666
+
+**Hospital de la Santa Creu i Sant Pau (Barcelona) 三例 contrast retention → thrombotic events**：
+
+| Pt | 年齡/性別 | Valve | Anatomy | Contrast retention | Outcome |
+|----|----------|-------|---------|------------------|---------|
+| 1 | 86 F | 23 mm Lotus | Narrow STJ 22 mm + Ca burden 2,372 AU | **LCC sinus** | Stroke at 3h post-TAVR；6mo full recovery |
+| 2 | 73 F | 25 mm Portico | Calcified STJ + AF + LAAO | **NCC sinus** | Stroke at 4h post-TAVR；MCA thrombectomy；hemorrhagic transformation → **死亡 at 3w** |
+| 3 | 84 F | 34 mm Evolut Pro | No calcium + 2 recaptures | **NCC sinus + reduced motion** | DOAC discharge → 1mo CT 顯示 subclinical leaflet thrombosis between RCC/NCC → LMWH resolved |
+
+**教學重點**：
+
+> **「Contrast retention」是 procedure 中可立即看到的 thrombotic warning** — 等 valve 釋放後 angiography 看到顯影劑在某個 sinus 滯留 / 緩慢 washout，三個 case 全部在 4 小時內 stroke 或在 1 個月後 leaflet thrombosis。
+
+> **Virchow 三角的 procedural 對應**：
+> - **Endothelial injury**：predilation、recapture（Pt 3 做了 2 次）、pigtail entrapment
+> - **Stasis**：narrow / calcified STJ → cul-de-sac（Pt 1, 2）；large SoV with reduced washout（Pt 3）
+> - **Hypercoagulability**：cancer history、CKD、AF
+
+> **Sinus sequestration mechanism**——Lotus valve（19 mm frame height）在 18 mm 低 STJ → frame 上緣只比 STJ 低 1 mm → 形成 cul-de-sac（Pt 1）。**現代 Evolut FX 對 STJ < 26 mm 須謹慎**。
+
+> 看到 contrast retention → **立即 close neurovascular monitoring + consider early DOAC**，不要等 5 天 CT。
+
+::: {layout-ncol=3}
+![Patient 1 — Lotus valve in narrow STJ + LCC contrast retention (asterisks)。](../images/tavi-complications/35677788_Asmarats_2022/fig-01_p2.jpeg)
+
+![Patient 2 — Portico valve + NCC contrast stagnation → 4h MCA stroke。](../images/tavi-complications/35677788_Asmarats_2022/fig-02_p3.jpeg)
+
+![Patient 3 — Evolut Pro + NCC stagnation → 1mo subclinical leaflet thrombosis。](../images/tavi-complications/35677788_Asmarats_2022/fig-03_p4.jpeg)
+:::
+
+---
+
+#### 5.3 Shrestha 2026 — Obstructive HALT in Tall-in-Tall ViV TAVR Treated with Ultraslow Thrombolysis
+
+[PMID 41670576](https://pubmed.ncbi.nlm.nih.gov/41670576/) ｜ JACC Case Rep 2026;31:106960
+
+**70 多歲女性，5 年前複雜 TAVR**：第一個 26 mm Evolut PRO+ migration → snared 到 distal ascending aorta + 第二個 26 mm Evolut PRO+ across annulus → **tall-in-tall configuration（2.5 cm overlap）**。LFA dissection 用 6 mm Hemashield interposition graft 修。
+
+**5 年後**：Exertional dyspnea + chest tightness + troponin 218.5 → 156.5 ng/L。TEE：peak 5.2 m/s、**mean gradient 66 mmHg**、AVA 0.5 cm²、DVI 0.18。CT：兩個 valve frame overlap 2.5 cm，distal frame oblique 限制 proximal 完全展開，proximal valve leaflets 有低衰減 = HALT。
+
+**處置（reoperation 風險過高）**：
+- Ultraslow alteplase **1 mg/h × 48h（無 bolus）**
+- 完成後 heparin bridge → **apixaban 5 mg BID**
+- Aspirin 停（在 OAC 期間）
+
+**結果**：mean gradient 66 → 28 mmHg，AVA 0.5 → 1.06 cm²。3 個月 follow-up 穩定，計畫 6 個月後 reduced-dose apixaban。
+
+**教學重點**：
+
+> **Tall-in-tall ViV 的特殊 HALT 機轉**：兩個 nitinol frame overlap → 形成「prolonged neosinus with restricted washout」。Distal frame 部分 oblique → 限制 proximal frame 的 leaflet expansion → 加重 stasis。
+
+> **Ultraslow low-dose alteplase（1 mg/h × 48h）** 是 prosthetic valve thrombosis 的標準 lytic regimen（Patel 2025 Struct Heart 報告系列），相較於 stroke / PE 用的 high-dose 短時間 protocol，這個方式 bleeding 風險顯著較低。
+
+> ViV-TAVR 的 clinical thrombosis 發生率（**7.6%** in 300-pt registry by Abdel-Wahab）是 native TAVR 的 3–5 倍。**ViV 應 routine OAC × 3-6 months**，不應只用 SAPT。
+
+::: {layout-ncol=3}
+![TEE long-axis showing valve orientation (A), modeling overlay (B), Evolut PRO+ ViV reference model (C)。](../images/tavi-complications/41670576_Shrestha_2026/fig-01_p3.png)
+
+![Baseline TEE — turbulent flow + 5.2 m/s peak / 66 mmHg mean / AVA 0.5 cm²。](../images/tavi-complications/41670576_Shrestha_2026/fig-02_p4.png)
+
+![Chest CTA — coronal and axial views of overlapping Evolut PRO+ valves with HALT (arrows)。](../images/tavi-complications/41670576_Shrestha_2026/fig-03_p4.png)
+:::
+
+::: {layout-ncol=2}
+![Visual Summary — Major clinical events with echocardiographic and CT findings of overlapping ViV TAVR。](../images/tavi-complications/41670576_Shrestha_2026/fig-04_p5.png)
+
+![Timeline of clinical events — admission → ultraslow alteplase × 48h → apixaban → 3-month FU。](../images/tavi-complications/41670576_Shrestha_2026/fig-05_p6.png)
+:::
+
+---
+
+#### 5.4 Valle 2026 — Fibrinolysis Bridge for Apical LV Thrombus → Emergent ViV TAVR
+
+[PMID 41269192](https://pubmed.ncbi.nlm.nih.gov/41269192/) ｜ JACC Case Rep 2026;31:106066
+
+**58 歲女，2011 年 21 mm CE Magna Ease + 阻塞 arch repair**，現 critical bioprosthetic AS（peak 4.5 m/s, mean 51）+ **EF 15% + 大 LV thrombus 2.8×2.6 cm（7.28 cm²）+ cardiogenic shock（CI 1.6）**。Surgery prohibitive，advanced HF therapies 因 cognitive 不適合。
+
+**「Beyond the guidelines」處置**：當前 ACC/AHA guideline 把 LV thrombus 列為 TAVR contraindication。Heart team 採用 **SAFE-PVT 試驗 protocol — pulsed 25 mg tPA × 6h infusions**：
+- 第 1 dose：thrombus 7.28 → 3.47 cm²（**52% reduction**）
+- 第 2 dose：tolerated
+- 第 3 dose：因 R 上肢血腫停止；最終 thrombus 2.03×0.8 cm（1.62 cm²，總 reduction 78%）
+
+**ViV TAVR 技術細節**：
+- **Dual SENTINEL CEP**（bilateral ulnar access，因 radial occluded）— 涵蓋 brachiocephalic + L common carotid + L subclavian
+- **AI-guided modeling（DASI Simulations）** 評估 RCA height 9.78 mm 的 coronary obstruction risk → **DLC/d ratio = 2.87**（< 0.7 才高風險）
+- 23 mm Evolut FX+（self-expanding，supra-annular function）
+- **Predilation deferred**（避免 thrombus disruption），用 4.0 mm Charger coronary balloon 輕度 predilate true orifice
+- **Intracardiac echo（biplane）+ RAO** 監視 LV wire avoiding thrombus
+- 6 mm 較淺 deployment depth（縮短 procedure time）
+- Post-deployment constraint → 22 mm balloon postdilate
+
+**結果**：Final gradient < 10 mmHg，trivial PVL，無 neurologic sequelae，POD 3 weaned vasopressor，POD 12 EF 15 → 30%，LV thrombus 2.81 cm² 殘留 + AC discharge。
+
+**教學重點**：
+
+> **Pulsed low-dose tPA（25 mg × 6h × multiple doses）** — 來自 SAFE-PVT trial 的 **「LV thrombus debulking」protocol**，與 stroke/PE 的 high-dose 短時間完全不同；**fibrinogen monitoring 是必要的**（< 220 mg/dL 出血風險升高）。
+
+> **「Minimize instrumentation」原則**：
+> 1. Defer predilation（用 4 mm coronary balloon 替代）
+> 2. Accept suboptimal deployment depth
+> 3. ICE for real-time wire visualization
+> 4. Dual CEP for embolic protection
+> 5. Selected 23 mm self-expanding Evolut FX+ avoid post-dilation when possible
+
+> **DASI simulation 在 high-risk ViV 的角色**：CT-based AI modeling 計算 DLC/d (Distance from native Leaflet Cusp to coronary / coronary diameter)，**DLC/d ≤ 0.7** = high coronary obstruction risk，需要 leaflet modification（BASILICA 等）。本 case 2.87 → 不需 BASILICA。
+
+::: {layout-ncol=2}
+![Echocardiographic projections — thrombus baseline 2.8×2.6 cm → after 1st tPA 3.4×1.02 cm → after 2nd 2.03×0.8 cm。](../images/tavi-complications/41269192_Valle_2026/fig-01_p2.png)
+
+![CTA pre-TAVR — RCA height 9.78 mm, LM 10.6 mm, VTc/VTstj measurements。](../images/tavi-complications/41269192_Valle_2026/fig-02_p3.png)
+:::
+
+::: {layout-ncol=2}
+![DASI preprocedural modeling — DLC/d ratio for RCA (2.87) and LM (3.21); 23 mm self-expanding chosen for best CO risk profile。](../images/tavi-complications/41269192_Valle_2026/fig-03_p4.png)
+
+![Dual SENTINEL CEP — right side via right ulnar (typical), left side via left ulnar (proximal in subclavian, distal undeployed)。](../images/tavi-complications/41269192_Valle_2026/fig-04_p5.png)
+:::
+
+::: {layout-ncol=2}
+![ICE biplane visualization of Safari wire in LV cavity — minimizes thrombus instrumentation。](../images/tavi-complications/41269192_Valle_2026/fig-05_p6.png)
+
+![Evolut FX+ deployment at 6 mm depth — initial constraint (left) → 22 mm postdilation (right)。](../images/tavi-complications/41269192_Valle_2026/fig-06_p6.png)
+:::
+
+![Decision flowchart — preprocedural planning, serial tPA infusions monitored by echo, multidisciplinary discussion throughout。](../images/tavi-complications/41269192_Valle_2026/fig-07_p7.png)
+
+---
+
+#### 5.5 Asselin 2025 — Transfemoral Retrograde Mechanical Thrombectomy for Massive LV Thrombus
+
+[PMID 41136039](https://pubmed.ncbi.nlm.nih.gov/41136039/) ｜ JACC Case Rep 2025;30:105666
+
+**64 歲女，舊 anterior MI / LAD CTO post-PCI**，code stroke（dysarthria + R facial droop），**MRI 多發性 left MCA infarct（embolic）**。TTE: EF 44% + apical akinesis + **多發 LV thrombi adherent to papillary muscle，最大 2.1×2.0 cm**。
+
+**處置選擇**：Transcatheter LV thrombectomy with **AngioVac**（high surgical risk + recent stroke）。
+
+**Technique sequence**:
+1. **Bilateral SENTINEL CEP**（right + left radial）→ deployed in brachiocephalic + L carotid + L subclavian
+2. 26F DrySeal in RFV + 15F arterial ECMO cannula in RFA
+3. **Trans-septal approach FAIL** — septostomy 14 mm Armada balloon → C180 AngioVac cannula 過 mitral valve 但因 thrombus burden 過大，**Confida wire 無法 reach LV apex** → C180 cannula 進不去 LV
+4. **Switch 到 retrograde transaortic** — F18 cannula from RFA + recirculation in LFV → basket 在 LVOT 入 LV → 多次 aspiration → debulked
+
+**結果**：Final TEE 殘留 6×5×3 mm pedunculated → 用 OAC 處理；valve apparatus intact；fluoroscopic time 105 min。
+
+**教學重點**：
+
+> **Transseptal vs retrograde transaortic LV thrombectomy 比較**：
+>
+> | | Transseptal | Retrograde transaortic |
+> |---|---|---|
+> | 風險 | iatrogenic ASD（可能需 closure）+ mitral valve damage | aortic valve damage + atheroembolism |
+> | 適合 | 大 thrombus 不阻擋 mitral inflow | 大 thrombus burden + 適合 retrograde anatomy |
+> | F18 cannula | 105 cm working length | 105 cm working length（taller patient 受限）|
+> | Trajectory | 横過 mitral 不對齊 LV apex | 自然順著 LVOT-LV 軸線 |
+
+> **Retrograde 適應症**：thrombus 太大讓 transseptal F18/C180 cannula 無法 deploy（如本例 thrombus 阻擋 wire 到達 apex）。F18 funnel 在 LVOT，順著 LV 自然軸線，反而更易 aspirate。
+
+> **Bilateral SENTINEL CEP** 是 high embolic burden case 的標準 — 但 **不能完全 prevent 末梢/visceral ischemia**（ONO retrieval 補強這部分，見 Asselin 2026 LAA case）。
+
+::: {layout-ncol=3}
+![Trans-septal LV thrombectomy attempt — CEP deployment (A,B), trans-septal puncture VersaCross (C), Supra Core wire to LUPV (D), septostomy with 14 mm Armada (E), C180 trans-septal crossing (F-H)。](../images/tavi-complications/41136039_Asselin_2025/fig-01_p3.png)
+
+![Transfemoral retrograde technique — multiple TEE views of F18 AngioVac cannula accessing LV through LVOT。](../images/tavi-complications/41136039_Asselin_2025/fig-02_p4.png)
+
+![Multi-modal TEE — pre/post LV thrombectomy: 2D, color, 3D imaging。](../images/tavi-complications/41136039_Asselin_2025/fig-03_p5.png)
+:::
+
+---
+
+#### 5.6 Asselin 2026 — Massive LAAC Device-Related Thrombus Removal with Complete Embolic Protection
+
+[PMID 41817271](https://pubmed.ncbi.nlm.nih.gov/41817271/) ｜ JACC Case Rep 2026;31:106928
+
+**81 歲男 PAF + sick sinus syndrome + 2 個月前 Watchman LAAC**（OAC 停掉，DAPT only）→ 跌倒 3 天 downtime → **acute ischemic stroke + subarachnoid hemorrhagic transformation**。TEE: **massive 4.8×3 cm mobile thrombus** attached to Watchman device。OAC 後 thrombus 無 reduction → 高 embolic risk → percutaneous strategy。
+
+**「Complete embolic protection」novel technique（首次描述）**：
+
+```text
+Step 1. Vascular access: RFA 17F + LFA 15F + RFV 26F
+Step 2. Bilateral cerebral CEP (Sentinel × 2)
+Step 3. Systemic CEP — ONO retrieval device in proximal aortic arch (via TruSteer 17F sheath)
+Step 4. Arterial return cannula (15-17F) — 防 hypotension
+Step 5. Transseptal puncture (VersaCross) → balloon septostomy (12 mm Armada)
+Step 6. Suction catheter (AngioVac 180°) into LA via balloon-tracking technique
+Step 7. Vacuum-assisted thrombectomy under complete embolic protection
+Step 8. Pre-removal: TEE assess ONO basket for embolic debris
+Step 9. Optional: ASD closure if right-to-left shunting causes hypoxemia
+```
+
+**結果**：32 min fluoro time，successful debulking；3 mm device leak 新發現（或許是 thrombus 形成原因？）；neurological status 改善 → discharge to rehab on OAC。
+
+**教學重點**：
+
+> **「Bilateral cerebral CEP 不夠用」的場景** — 大 mobile thrombus（> 2.5 cm）在 transseptal aspiration 過程中可能釋放微/大栓子到主動脈弓 brachiocephalic / 末梢動脈 / 內臟動脈。**ONO retrieval device** 是補充 systemic embolic protection 的 novel tool（**open-cell basket**，不影響血流，可 capture 大栓塞物到主動脈弓）。
+
+> **AngioVac balloon-tracking technique**（Qintar 2022）：用 12 mm Armada balloon 預先架構 transseptal track，AngioVac suction catheter 順著 balloon 過 septum，避免 septum tear / 血液損失。
+
+> **Pitfalls**：(1) 17F TruSteer sheath 增加 vascular complications 風險；(2) ONO basket 移除前**必須 TEE 確認無 embolic debris**，否則栓子滑到末梢；(3) **不能保證 thrombus 完全移除**，micro-particles 仍可能殘留 → 長期 OAC 必要。
+
+::: {layout-ncol=2}
+![Initial TEE — massive 4.8×3 cm DRT in LA on 2D and 3D imaging (red arrows)。](../images/tavi-complications/41817271_Asselin_2026/fig-01_p2.png)
+
+![Initial cardiac CT angiography — Watchman device (yellow arrow) with massive thrombus (red arrow) in LA。](../images/tavi-complications/41817271_Asselin_2026/fig-02_p2.png)
+:::
+
+::: {layout-ncol=2}
+![Step-by-step fluoroscopy — arterial return + TruSteer/ONO setup + bilateral CEP + ONO deployment (A-E)。](../images/tavi-complications/41817271_Asselin_2026/fig-07_p3.png)
+
+![Subsequent steps — transseptal puncture + Versacross wire + Armada septostomy + AngioVac advancement (F-L)。](../images/tavi-complications/41817271_Asselin_2026/fig-08_p3.png)
+:::
+
+::: {layout-ncol=2}
+![TEE-guided complete embolic protection — ONO basket in proximal aortic arch distal to brachiocephalic trunk。](../images/tavi-complications/41817271_Asselin_2026/fig-21_p6.png)
+
+![Post-thrombectomy TEE — ONO basket assessment + LAAC device with absence of thrombus。](../images/tavi-complications/41817271_Asselin_2026/fig-32_p6.png)
+:::
+
+---
+
+#### 5.7 Jabagi 2025 — Early TAVR Explantation for Leaflet Mass + Subvalvular Pannus
+
+[PMID 40645725](https://pubmed.ncbi.nlm.nih.gov/40645725/) ｜ JACC Case Rep 2025;30:103885
+
+**85 歲女，1 年前 23 mm SAPIEN 3 Ultra TAVR + Micra PPM**，routine 1y FU 發現 **AVA 從 2.4 → 0.5 cm²，mean gradient 4 → 48 mmHg**（NYHA I 仍然 asymptomatic）。CT photon-counting MDCT：**24×3 mm 大 mobile transvalvular mass** 自 LCC/RCC commissure 產生 + **3-4 mm circumferential subvalvular pannus**。
+
+**處置（warfarin 失敗 → percutaneous 過高 stroke risk）**：Surgical 多重手術 — TAVR explantation + leaflet mass removal + subvalvular pannus resection + LVOT reconstruction + 23 mm Inspiris Resilia SAVR + tricuspid annuloplasty + LAA ligation。
+
+**Histology**：
+- **Intravalvular mass**：fibrous tissue + mixed acute/chronic inflammation + **abundant fibrin** = leaflet thrombosis（NOT pannus, NOT vegetation）
+- **Subannular tissue**：dense fibrous tissue + chronic inflammation = **typical pannus**
+
+**結果**：POD 10 discharge，1mo asymptomatic，AVA 2.25 cm²。
+
+**教學重點**：
+
+> **Differentiating leaflet thrombus vs pannus by CT**:
+> | | Thrombus | Pannus |
+> |---|---|---|
+> | Density | < 0.7 vs muscle / mineralization | > 145 HU enhancement |
+> | Timing | Early（≤ 1 year）| Chronic（~ 5 years）|
+> | Location | Often supravalvular / leaflet | Subvalvular / annular |
+> | Mobility | Mobile | Fixed |
+> | Treatment | Anticoagulation usually works | **Surgery needed** |
+>
+> **本 case 是 concomitant thrombosis + pannus** — warfarin 部分有效（清掉 fibrin 部分）但 pannus 是 **fixed obstruction** 必須 surgical resection。
+
+> **TAVR explantation morbidity**：發生率 1%，30d mortality ~16%；47% 需 SAVR + 53% 需 concomitant procedure（多為 ascending aorta repair）。**Beyond 1 year 顯著更困難**（valve incorporation into aortic wall）。
+
+> **Photon-counting CT** 是新一代 modality（Naeotom Alpha），對 leaflet thrombosis + pannus 的辨識能力顯著優於傳統 MDCT。
+
+::: {layout-ncol=2}
+![Photon-counting CT — bioprosthetic valve mid-diastole (A), circumferential pannus + mass projecting into LVOT (B,C)。](../images/tavi-complications/40645725_Jabagi_2025/fig-01_p3.jpeg)
+
+![Intraoperative — freely mobile 2.5 cm mass (A), attachment at LCC/RCC commissure (B), near-circumferential 1 cm pannus (C)。](../images/tavi-complications/40645725_Jabagi_2025/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Histology of intravalvular mass — fibrous tissue + abundant fibrin + mixed inflammation = thrombosis。](../images/tavi-complications/40645725_Jabagi_2025/fig-03_p4.jpeg)
+
+![Histology of subvalvular pannus — dense fibrous + rare myocytes + chronic inflammation。](../images/tavi-complications/40645725_Jabagi_2025/fig-04_p5.jpeg)
+:::
+
+---
+
+#### 5.8 Elison 2020 — TandemHeart-Assisted BAV for Acute TAVR Thrombosis with Cardiogenic Shock
+
+[PMID 34317258](https://pubmed.ncbi.nlm.nih.gov/34317258/) ｜ JACC Case Rep 2020;2:437
+
+**64 歲男，首次 26 mm Sapien 3 TAVR for low-flow low-gradient AS**，3 週後 **medication 不順從 → 復發 HF + cardiogenic shock**。Repeat TTE: peak 4.1 m/s, mean 42 mmHg, **diminished leaflet motion**。CT confirmed leaflet thrombosis。Right heart cath: PCWP 31, CI 1.3。
+
+**處置 cascade（醫療失敗 → 機械循環支持 + BAV）**：
+1. Heparin + diuretics
+2. tPA 25 mg × 3 boluses over 10 days → **無效**
+3. Surgery 不適合 → 轉院
+4. Inotropes + vasopressors → 仍 shock
+5. **TandemHeart**（不選 ECMO 因 RV 正常 + respiratory ok；不選 Impella 因怕通過 thrombosed valve）
+6. Cerebral embolic protection（CEP）+ TEE-guided BAV with 26 mm True balloon → 立即 leaflet mobility 改善
+7. CEP basket 取出**大塊血栓**（病理確認）
+8. POD 1 weaned，POD 19 discharge on warfarin
+
+**教學重點**：
+
+> **TandemHeart 在 thrombosed prosthetic valve 的角色** — TandemHeart 從 LA → 末梢動脈 bypass，**不需通過 thrombosed valve**（與 Impella 不同）。是 thrombosed prosthetic valve + cardiogenic shock 的 first-line MCS（前提 RV ok）。
+
+> **Cerebral Embolic Protection 在 BAV 的價值** — 本 case 在 BAV 過程中**真的 capture 到大塊 thrombus** 在 CEP basket。對 leaflet thrombosis 做 BAV 的 emboli 風險極高，**CEP 是 mandatory**。
+
+> **DOAC vs warfarin post-TAVR**：GALILEO trial（rivaroxaban）因 **死亡 + thrombosis 增加** early termination — 因此 **non-AF post-TAVR 不應使用 rivaroxaban**。Apixaban / edoxaban / warfarin 是合理選項。
+
+::: {layout-ncol=2}
+![CT angiography — severely thickened bioprosthetic leaflets consistent with thrombosis。](../images/tavi-complications/34317258_Elison_2020/fig-01_p2.jpeg)
+
+![Post-implant aortogram — thrombus captured in proximal CEP basket (arrow)。](../images/tavi-complications/34317258_Elison_2020/fig-02_p3.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Cooney | **Radiofrequency guidewire** in leaflet modification — BABICORN / ROBIN procedures | [10.1016/j.jaccas.2026.106921](https://doi.org/10.1016/j.jaccas.2026.106921) |
+| 2026 | Pompei | **Frozen leaflet during BE-TAVI** — early recognition + safe management | [10.1016/j.jaccas.2026.107274](https://doi.org/10.1016/j.jaccas.2026.107274) |
+| 2019 | Sakurai | **Fatal leaflet thrombus** post-TAVR during temporary AC withdrawal | [10.1016/j.jcin.2019.04.050](https://doi.org/10.1016/j.jcin.2019.04.050) |
+| 2016 | Couture | **Stuck leaflet** after SAPIEN 3 TAVR — new valve, old complication | [10.1016/j.jcin.2016.04.041](https://doi.org/10.1016/j.jcin.2016.04.041) |
+| 2012 | Agostoni | **Frozen leaflet**: a dreadful complication of TAVI | [10.1161/CIRCINTERVENTIONS.112.968396](https://doi.org/10.1161/CIRCINTERVENTIONS.112.968396) |
+
+---
+
+## 6. Endocarditis / Mycotic / Abscess / Infection — 感染性心內膜炎與感染相關併發症
+
+### 概念
+
+**Prosthetic Valve Endocarditis (PVE) after TAVR** 1 年累計發生率 0.5–1%，**早期 mortality 高達 33%**。與 SAVR-PVE 相比有幾個獨特風險：
+
+1. **Procedure setting** — Cath lab vs OR：positive pressure ventilation 比 laminar flow theatre 細菌量更高（colony forming units 顯著差異）
+2. **Valve crimping injury** — Loading 過程中 leaflet 微觀損傷 → bacterial colonization
+3. **Paravalvular leak turbulence** — Platelet aggregation + fibrin matrix → bacterial seeding
+4. **Commissural misalignment + neoleaflet stress**
+5. **Intracardiac hardware**（PPM leads，特別是長 indwelling）
+
+**時序分類（VARC-2）**：
+- **Early PVE**：≤ 2 個月（多為 nosocomial，**Staph 為主**）
+- **Intermediate**：2–12 個月
+- **Late**：> 12 個月（**Streptococcus 為主**）
+
+**Embolic risks**：systemic septic embolism、stroke（特別是 mobile vegetations > 10 mm）
+
+### 罕見高致命併發症
+
+- **Aortic root abscess** → 可進展到 Aortic-RV / Aortic-LA fistula、aortopulmonary fistula
+- **Mycotic ascending aortic aneurysm**（極罕見）
+- **AML perforation** from low TAVR position friction → secondary mitral PVE
+- **Invasive infection** with conduction disturbance（first-degree AV → CHB）
+
+### 已下載案例庫
+
+#### 6.1 Valand 2026 — Aortopulmonary Fistula After SAVR for Aortic Endocarditis (VSD Occluder Repair)
+
+[PMID 41379053](https://pubmed.ncbi.nlm.nih.gov/41379053/) ｜ JACC Case Rep 2026;31:106215
+
+**52 歲男 MSSA bacteremia + bicuspid aortic valve endocarditis + 左 MCA stroke（不適合 thrombectomy）+ severe AR + aortic root abscess** → emergent aortic sinus debridement + bovine patch + 23 mm On-X 機械瓣 SAVR。1 個月 surveillance CT 顯示 **6 mm aortopulmonary fistula**（Aortic root → PA），Qp/Qs 1.65，oxygen step-up in PA。
+
+**處置**：Surgery prohibitive → percutaneous closure。Step-by-step：
+1. 6F pigtail in PA via RFV（pulmonary angio）
+2. 6F XB 3.5 guide in aortic root，0.035 Glidewire across fistula → PA
+3. **First attempt: 14 mm Amplatzer ASD occluder** → moderate-severe PI（壓到 pulmonic valve）→ removed
+4. **Second attempt: 14 mm Amplatzer VSD occluder** via 9F TorqVue catheter → mild PI、stable tug test、deployed
+
+**結果**：1mo asymptomatic，TTE EF 55-60%、mild PI、device 穩定，1 年穩定。
+
+**教學重點**：
+
+> **Device selection 的細節**：ASD occluder 的 disk 比 VSD 大，在窄空間（fistula tract 周邊有 pulmonic valve）會 impinge → 改 VSD occluder（更窄 disk profile）。
+
+> **「Arterial-side approach」** 對 AP fistula 在角度上更有利（fistula angle 從 aorta 向 PA），相較 venous-side retrograde 更易精確 deployment。
+
+> **Etiology 區辨**：infection-related tissue destruction（如本例）vs iatrogenic from cannulation（surgery 過程）— TEE intra-op 排除 fistula 且 SAVR 用 mechanical valve 的時點清楚 → infection 主因。
+
+> **Surveillance protocol**：High-risk PVE 病人 1 個月 CT 是合理的，可早期發現 structural sequelae 在 hemodynamic compromise 前。
+
+::: {layout-ncol=3}
+![CT before percutaneous repair — fistula (yellow circle, A); fistula track (black arrow) + aortic root outpouching (white arrow, B)。](../images/tavi-complications/41379053_Valand_2026/fig-01_p2.png)
+
+![Left heart cath pre/post — preprocedure aortopulmonary fistula (white arrow, A); postprocedure VSD occluder device (white arrows, B)。](../images/tavi-complications/41379053_Valand_2026/fig-02_p3.png)
+
+![TEE pre/post — fistula between ascending aorta and proximal main PA (A); well-seated VSD occluder (B)。](../images/tavi-complications/41379053_Valand_2026/fig-03_p4.png)
+:::
+
+---
+
+#### 6.2 Kameda 2025 — Late TAVR PVE + Localized Ascending Aortic Dissection（Cold-Water Explantation）
+
+[PMID 41173625](https://pubmed.ncbi.nlm.nih.gov/41173625/) ｜ JACC Case Rep 2025;30:105586
+
+**74 歲女，6 個月前 26 mm Evolut PRO+ TAVR**，nephrotic syndrome 長期 corticosteroid 使用 → 兩週發燒 → blood culture **Enterococcus faecalis**。TEE: **14 mm vegetation 在 NCC** + paravalvular leak + mild-moderate AR。MRI: 多發 acute cerebral infarcts。CT: **localized ascending aortic dissection at superior border of Evolut frame** + small pericardial effusion。
+
+**手術策略**（high-risk + ascending dissection）：
+1. **Deep hypothermic circulatory arrest**（避 direct aortic cross-clamp）
+2. **Cold-water explantation**：用 ice-cold saline 把 Evolut nitinol frame 軟化（**nitinol 冷至 < 體溫變軟可塑形**）→ polypropylene suture 環繞 stent struts → ligature 形成 purse-string compression → 安全脫離 aortic intima
+3. **Sutureless Perceval valve（S-size）** for AVR（縮短 CPB time）
+4. 26 mm Gelweave graft for ascending aorta replacement → **STJ 由 32 mm → 縮小，配合 Perceval STJ-to-annulus ratio < 1.3 limit**
+
+**結果**：Uneventful，1y FU 無 recurrent infection、valve function preserved。
+
+**教學重點**：
+
+> **「Cold-water explantation」for self-expanding nitinol valves** — Nitinol 在 temperature 變化時 phase transition，**冷水使 frame 變軟可塑形**，相較強硬機械牽拉，**顯著減少 aortic wall damage**。是 Evolut / ACURATE 等 self-expanding 裝置 explantation 的關鍵技術，配合 snare / lasso techniques 使用。
+
+> **TAVR-related aortic dissection 危險因子**：
+> - **Steroid 長期使用**（aortic wall fragility）
+> - **PVE inflammation**（連續性減弱）
+> - 嚴重 ascending aorta calcification、wire manipulation、self-expanding device frame top edge
+
+> **Sutureless Perceval valve 的解剖適用條件**：**STJ-to-annulus ratio ≤ 1.3**，超過會增加 PVL 風險。本 case STJ 32 mm / annulus 21 mm = ratio 1.5，**透過 ascending aorta replacement 縮小 STJ** 使 ratio 達標——是個 nice 的 reverse-thinking。
+
+::: {layout-ncol=2}
+![TEE — vegetation on NCC (A); paravalvular leak with color Doppler (B)。](../images/tavi-complications/41173625_Kameda_2025/fig-01_p3.png)
+
+![CT — localized dissection of ascending aorta at superior border of Evolut frame (arrowheads) on axial (A) and coronal (B) views。](../images/tavi-complications/41173625_Kameda_2025/fig-02_p4.png)
+:::
+
+::: {layout-ncol=2}
+![Visual Summary — case presentation, operative strategy, key takeaways。](../images/tavi-complications/41173625_Kameda_2025/fig-03_p4.png)
+
+![Operative findings — localized dissection (A), ice-water-softened Evolut detached (B), vegetation on NCC (C), nitinol stent softens at low temperatures (D)。](../images/tavi-complications/41173625_Kameda_2025/fig-04_p5.png)
+:::
+
+---
+
+#### 6.3 Salem 2025 — Mitral Valve Repair + SAVR for AML Perforation Endocarditis After Low TAVR
+
+[PMID 39963231](https://pubmed.ncbi.nlm.nih.gov/39963231/) ｜ JACC Case Rep 2025;30:103119
+
+**85 歲男，4 個月前 29 mm Evolut TAVR**——**rapid pacing 提早結束導致 valve 植入過低（intended position 下方 16 mm！）**。Asymptomatic discharge。再入院：**fatigue + high fever + S. epidermidis bacteremia**。TEE: 前二尖瓣（AML）有 **2×2 cm perforation + vegetation + 中重度 MR**。
+
+**手術策略**：
+1. Sternotomy + standard CPB（118 min CPB / 81 min cross-clamp）
+2. **TAVR explantation**
+3. **Transaortic AML patch plasty**（透過 LVOT 看到 perforation，避免 left atriotomy）— 用 bovine pericardium，excise infected margins
+4. 同時發現 **dorsal ascending aorta laceration 1 cm above STJ**（self-expanding frame top 造成）→ patch plasty
+5. 21 mm Magna Ease 在 enlarged annulus（NCC pericardial patch）植入
+
+**結果**：4h extubated，POD 2 ward，POD 15 discharge with rifampicin + cefazolin × 6 weeks。
+
+**教學重點**：
+
+> **Low TAVR implantation 的下游 cascade**：原本是 procedural 失誤（rapid pacing 提早終止）→ valve 進入 LVOT 16 mm 過深 → frame 與 AML 持續摩擦 → AML perforation → vegetation seeding → mitral PVE。同時 frame top 也與 ascending aorta posterior wall 接觸 → laceration。
+
+> **Self-expandable valves（Evolut）** 比 balloon-expandable 的 mitral involvement post-TAVR PVE 風險更高（**20% 的 post-TAVR PVE 涉及 mitral valve**），原因是 frame 較長，更易與 AML 接觸。
+
+> **Transaortic AML repair technique**：透過 aortotomy + LVOT 進入做 mitral repair，避開 left atriotomy → **顯著縮短手術時間 + 減少 surgical trauma**——是 high-risk older adult 的關鍵 technique。
+
+> **S. epidermidis** 是 early PVE 的典型 nosocomial pathogen → reinforce **scrupulous asepsis + perioperative antibiotic prophylaxis**。
+
+::: {layout-ncol=2}
+![3mensio CT measurements — asymmetrical calcification at sinus level + annulus measurements (A,B)。](../images/tavi-complications/39963231_Salem_2025/fig-01_p2.jpeg)
+
+![Preop TEE — anterior mitral leaflet perforation with regurgitation jet from deeply implanted TAVR。](../images/tavi-complications/39963231_Salem_2025/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=3}
+![Intraop transaortic view after TAVR explantation — AML perforation visible from above。](../images/tavi-complications/39963231_Salem_2025/fig-03_p3.jpeg)
+
+![Intraop dorsal aortic laceration — caused by distal Evolut frame edge。](../images/tavi-complications/39963231_Salem_2025/fig-04_p4.jpeg)
+
+![Aortic root after explantation — AML patch (green star) + ascending aorta laceration patch (blue star)。](../images/tavi-complications/39963231_Salem_2025/fig-05_p4.jpeg)
+:::
+
+---
+
+#### 6.4 Sambyal 2025 — Rare Early Mycotic Ascending Aortic Aneurysm Post-TAVR
+
+[PMID 39972705](https://pubmed.ncbi.nlm.nih.gov/39972705/) ｜ JACC Case Rep 2025;30:102952
+
+**67 歲男 bicuspid AS，India 接受 30 mm TAVR via femoral access**，2 個月後 **Burkholderia bacteremia** → 用 meropenem + vancomycin + cotrimoxazole × 6w，但反覆發燒 → blood culture 改為 **Stenotrophomonas maltophilia** 然後 **Pseudomonas aeruginosa**（三個 organisms 都是 Pseudomonas-related gram-negative）→ TEE: **aortic root abscess**。
+
+CT angiography: **mycotic ascending aortic aneurysm with small neck**（極罕見併發症 — 不是 SAVR 的數據可用）。
+
+病人因財務/健康狀況拒絕 SAVR + aortic root replacement，最終口服抗生素穩定後 culture-negative discharge against medical advice。
+
+**教學重點**：
+
+> **Pseudomonas / Burkholderia / Stenotrophomonas 三個 nosocomial gram-negative 序列感染**強烈暗示 **valve seeding during implantation procedure**（in cath lab 而非 OR setting）。
+
+> **Cath lab vs Hybrid OR for TAVR — infection rate**：研究顯示 colony forming units 在 positive pressure cath lab 比 laminar flow OR 多。但目前 TAVR-PVE rate 在 **minimalist cath lab approach** 與 hybrid OR 沒有顯著差異（FRANCE TAVI registry, Babaliaros JACC CV Interv 2014）— **前提是嚴守 sterile protocol**。
+
+> **TAVR-PVE 的特殊感染源**：valve crimping injury + paravalvular leak turbulence + neoleaflet stress + intact native leaflets + intracardiac hardware（PPM leads）。
+
+> **Mycotic aortic aneurysm management**：surgical excision + graft replacement is gold standard；endovascular repair（covered stent grafts）在 high-risk patient 是 alternative，但 **infection control 風險高，graft infection recurrence 是真實風險**。
+
+::: {layout-ncol=2}
+![TEE — 4-chamber view showing prosthetic AV with perivalvular oval opacity (A); short-axis view with paravalvular lesion (red arrow, B)。](../images/tavi-complications/39972705_Sambyal_2025/fig-01_p2.jpeg)
+
+![CT — perivalvular mycotic aneurysm in aorta (A); axial section showing aneurysm with small neck (red arrow, B)。](../images/tavi-complications/39972705_Sambyal_2025/fig-02_p3.jpeg)
+:::
+
+![CT 3D reconstruction of aortic root with prosthetic valve — perivalvular mycotic aneurysm (red arrow) above valve upper edge (yellow)。](../images/tavi-complications/39972705_Sambyal_2025/fig-03_p3.jpeg)
+
+---
+
+#### 6.5 Chan Wah Hak 2019 — Trans-septal ViV TMVR with Novel Embolic Protection for Bioprosthetic Mitral Endocarditis
+
+[PMID 34316932](https://pubmed.ncbi.nlm.nih.gov/34316932/) ｜ JACC Case Rep 2019;1:787
+
+**79 歲女，13 年前 33 mm Mosaic mitral bioprosthesis + multiple sclerosis frailty**。Acute presentation: **cardiogenic shock + flail bioprosthetic mitral leaflet + MSSA endocarditis + septic emboli to L 2/3 toes**。TEE 顯示 small vegetation。Cardiac CT: neo-LVOT 6-7 mm / 2.8 cm² area。
+
+**Heart team 決策**：emergency surgery 「extreme risk」（previous sternotomy + MS frailty）→ **transfemoral trans-septal ViV TMVR + novel Emboliner EPD + lifelong oral antibiotic suppression**。
+
+**Procedure**：
+1. **Emboliner EPD**（10F femoral access；novel device，circumferential dual-layer nitinol mesh，6F catheter，protect aortic arch + descending aorta）via aortic arch
+2. Transfemoral venous + transseptal puncture + septostomy
+3. **29 mm Sapien 3** in 33 mm Mosaic
+4. **Emboliner retrieved → captured significant valve tissue debris**（pathology negative for infectious material）
+5. Lifelong oral amoxicillin
+
+**結果**：POD 9 discharge，4 個月 asymptomatic、independent。Mean gradient 5 mmHg、trace MR。
+
+**教學重點**：
+
+> **Active endocarditis + ViV TAVR/TMVR**——傳統視為 **contraindication**，但 (1) blood culture 在 antibiotic 開始後立即 sterile、(2) ID team 評估 long-term suppression 可能性高、(3) surgery prohibitive → **viable bridge / palliation**。
+
+> **Emboliner EPD design 的優勢**：相較 Sentinel（只覆蓋 brachiocephalic + L carotid + L subclavian），Emboliner 是 **circumferential dual-layer mesh** 覆蓋整個 aortic arch + descending aorta，捕捉 systemic embolic risk（vegetation 可能往任何 arch / descending aorta 末梢飛）。
+
+> **ViV TMVR + EPD** 在 active mitral endocarditis 是 niche 但合理 — 此 case 是首次描述 EPD 在 ViV TMVR for endocarditis 的應用。
+
+::: {layout-ncol=2}
+![Pre-procedure TEE — flail bioprosthetic mitral leaflet with severe MR。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-01_p2.jpeg)
+
+![TEE — small mobile mass ~4 mm consistent with vegetation (arrow)。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-02_p2.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Pre-procedure CT — neo-LVOT diameter 6-7 mm, area 2.8 cm²。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-03_p3.jpeg)
+
+![CT showing vegetation associated with posterior bioprosthetic mitral leaflet (arrows)。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-04_p3.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Post-deployment of 29-mm Sapien 3 in 33-mm Mosaic mitral valve。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-05_p4.jpeg)
+
+![Debris captured by novel cerebral protection device (Emboliner)。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-06_p4.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Post-procedure TTE — 29-mm Sapien valve in stable position, mean gradient 5 mm Hg。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-07_p4.jpeg)
+
+![Emboliner EPD diagram — filter deployed across aortic arch, dual-layer nitinol mesh provides circumferential protection。](../images/tavi-complications/34316932_Chan_Wah_Hak_2019/fig-08_p5.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Hauptmann | **Transcatheter mitral repair as bridge to cancer therapy** in **marantic endocarditis** | [10.1016/j.jaccas.2025.106605](https://doi.org/10.1016/j.jaccas.2025.106605) |
+| 2026 | Silva | **Aortic root + tricuspid annulus reconstruction** for TAV-PVE in octogenarian | [10.1016/j.jaccas.2026.107635](https://doi.org/10.1016/j.jaccas.2026.107635) |
+
+---
+
+## 7. Stroke / Cerebral / TIA — 中風與大腦栓塞防護
+
+### 概念
+
+**TAVR 30 天 stroke incidence 維持在 2–3%**（即使現代裝置），絕大多數為 **ischemic** 來源。Stroke 風險最高的時段是 **前 24-72 小時**（catheter-related embolic source），與 morbidity/mortality 顯著相關。
+
+**Subclinical brain injury（DW-MRI）發生率 > 85%**，新 lesion 的 number、size、total volume 與 clinical stroke + recovery 相關（Lansky 2024 JACC）。一項 REFLECT trials 分析提示：**total new lesion volume 440-550 mm³** 是預測 clinical stroke 的合理 cutoff。
+
+### Cerebral Embolic Protection Device (CEPD) Landscape
+
+| Device | Design | Pore size | 覆蓋 | RCT 結果 |
+|--------|--------|-----------|------|---------|
+| **Sentinel** (Boston Sci) | Partial intravascular filter via R brachial / radial | 150 μm | Brachiocephalic + L CCA（沒覆蓋 L subclavian）| PROTECTED TAVR (Kapadia NEJM 2022) **failed** to reduce all stroke; 但 disabling stroke 數值較低 |
+| **TriGuard 3** (Keystone) | Aortic arch deflector | 115×145 μm | All 3 great vessels（partial wall apposition）| REFLECT II (Nazif 2021) **failed** |
+| **EnCompass F2** | Cylindrical 360° wall apposition + 30 μm electrospun filter | **30 μm** (much smaller) | All 3 vessels with 360° apposition | First-in-human (George 2025) — under trial |
+| **Emboliner** (Emboline) | Circumferential dual-layer nitinol mesh | — | Aortic arch + descending aorta | Compassionate use（見 Cat 6 Chan Wah Hak）|
+| **ONO retrieval device** (Onocor) | Open-cell basket via aortic arch | — | Systemic（aortic arch downstream）| Adjunct for high-burden（見 Cat 5 Asselin 2026）|
+
+> **Sentinel 在美國 < 15% TAVR adoption rate**——主因是 PROTECTED TAVR 沒有顯著降低 stroke。但 captured embolic debris 在 > 99% case 中偵測到，即「保護是 real，但 clinical stroke 改善有限」。
+
+### 已下載案例庫
+
+#### 7.1 George 2025 — First-in-Human EnCompass F2 with Single-Artery Access
+
+[PMID 40541343](https://pubmed.ncbi.nlm.nih.gov/40541343/) ｜ JACC Case Rep 2025;30:103768
+
+**70 歲男 severe AS + PAD**（R CFA stent existing），無法用 R femoral 為 second access → 適合 **single-artery access CEPD**。Plan: 26 mm Sapien 3 via L CFA。
+
+**EnCompass F2 device**：自展 cylindrical nitinol frame + electrospun filter（pore 30 μm，比 Sentinel 150 μm 與 TriGuard 3 115-145 μm **小 4-5 倍**）。
+
+**Single-arterial-access technique（雙穿同條 CFA）**：
+1. Anesthesia + RIJ temporary pacer
+2. **Left CFA double-stick**：superior（TAVR sheath，preclose × 2）+ inferior（pigtail）
+3. 14F sheath into descending aorta from superior site → aortography → 確認 deployment angle 與 F2 landing zone
+4. **F2 deployed via 14F sheath proximal to brachiocephalic（pin-and-pull mechanism）** → 360° wall apposition covers all 3 great vessels
+5. 14F sheath removed but **0.015" retention wire stays external**（key innovation — 不需要第二個 access vessel）
+6. 14F Edwards eSheath advanced over 0.035" stiff wire（沿著原本的 access）
+7. Sapien 3 advanced through F2 with active flexion → no significant interaction
+8. Standard TAVR deployment under rapid pacing
+9. **F2 recapture**：14F sheath reinserted over 0.018" + retention wire（dual nitinol wires），F2 resheathed over retention wire
+
+**結果**：No procedural complications、 mean gradient 10 mmHg。**24h DW-MRI: only 1 small new lesion volume 10 mm³**（remarkable — SENTINEL IDE trial median total new lesion volume 102.83 mm³！）。No stroke at 30 days。
+
+**教學重點**：
+
+> **Single-artery access CEPD 的價值**：傳統 Sentinel 需要額外 right radial / brachial access → 在嚴重 PAD 病人受限。**EnCompass F2 deploy via TAVR access** 解決這個問題，且減少額外 access site 的 vascular/bleeding 風險。
+
+> **30 μm pore size 的物理意義**：絕大多數 embolic debris（calcified valve fragments, native tissue, thrombus）的最小尺寸都遠大於 30 μm → 理論上 capture rate 顯著高於 Sentinel/TriGuard。本 case DW-MRI 結果支持此點（10 mm³ vs 100+ mm³ historical median）。
+
+> **Deployment time < 2 min**（vs Sentinel 早期 ~28 min）→ procedural efficiency 顯著提升。
+
+> **適應症限制**：嚴重雙側 PAD、嚴重 abdominal/thoracic aortic disease、ascending aorta > 38 mm 或 transverse > 27 mm 不適用。
+
+::: {layout-ncol=2}
+![Pre-TAVR CTA — 3D reconstruction of aortic valve annulus (A), aortic arch with calcified deposits (B), R CFA stent (C), simulated aortogram (D)。](../images/tavi-complications/40541343_George_2025/fig-01_p3.jpeg)
+
+![EnCompass F2 device — cylindrical nitinol frame covering 3 great vessels (A); electrospun filter with 30 μm pore size (B)。](../images/tavi-complications/40541343_George_2025/fig-02_p4.jpeg)
+:::
+
+::: {layout-ncol=2}
+![L CFA double-stick — superior (TAVR) + inferior (pigtail) access on single artery。](../images/tavi-complications/40541343_George_2025/fig-03_p5.jpeg)
+
+![Procedural steps fluoroscopy — F2 delivery (A), F2 across aortic arch (B), full deployment (C), re-crossing with J-wire/pigtail (D), Sapien 3 deployment through F2 (E), F2 recapture (F)。](../images/tavi-complications/40541343_George_2025/fig-04_p6.jpeg)
+:::
+
+---
+
+
+## 8. Vascular Access / Bleeding / Iliofemoral / Closure / Carotid / Subclavian — 血管通路與出血併發症
+
+### 概念與流行病學
+
+VARC-2 定義下 **major vascular complication 1.3% / minor 2.4%**（STS/ACC TVT Registry）。Vascular complications 雖然發生率不高，但對 procedure time、bleeding、輸血、住院天數、cost 影響極大。每例約 **+27 min procedure time、+0.5 inpatient days、+$5,000 direct cost**。
+
+**通路選擇順序**：
+
+```text
+Transfemoral (TF) — first choice (>95%)
+  ├─ 不可行（severe iliofemoral disease, calcification, tortuosity）→
+  ├── Plaque modification: Intravascular Lithotripsy (IVL) → 增加 TF 可行性
+  ├── Alternative access:
+  │   ├─ Subclavian / Axillary（左 > 右；valve advancement 較順）
+  │   ├─ Transcarotid（surgical cutdown 或新興 percutaneous）
+  │   ├─ Transaxillary
+  │   ├─ Transcaval（IVC → aorta）
+  │   └─ Transapical / Transaortic（更 invasive，避免）
+```
+
+### 已下載案例庫
+
+#### 8.1 Theriot 2025 — Reducing TAVR Vascular Complications (QI Project)
+
+[PMID 41238236](https://pubmed.ncbi.nlm.nih.gov/41238236/) ｜ JACC Case Rep 2025;30:105614
+
+**Lake Charles Memorial Hospital QI project**：背景 PAD prevalence 47%（vs 17% 全美），complication rate 11.7% (2018-2019)。**Phased PDSA cycles** 整合：large-bore closure devices、micropuncture kits（精準穿刺）、ultrasound-guided contralateral femoral access、fluoroscopic road mapping、peripheral IVL for heavily calcified iliofemoral、標準化教育 + EMR dashboard 監控。
+
+**結果（2023-Q2 2025）**：complication rate **11.7% → 1.9%**（>80% reduction）；procedure time 77 → 49 min（−36%）；contrast 174 → 79 mL（−55%）；LOS 2.0 → 1.25 d。**Net savings $86,055**。
+
+**教學重點**：
+
+> **「Stepwise optimization for TAVR percutaneous TF access」** workflow — 7 steps：(1) preprocedural CTA, (2) ultrasound-guided contralateral access, (3) post-access confirmation, (4) contralateral contrast injection, (5) fluoroscopic road mapping (RIM catheter for PMI), (6) post-roadmapping access assessment, (7) final angiography post-closure。
+
+> Vascular complications 的問題是「**process** 而非 device」——統一 protocol、跨團隊訓練、real-time tracking 比單獨買 IVL 更有效。
+
+::: {layout-ncol=3}
+![Annual 30-day TAVR vascular complication rates — 11.7% → 1.9%。](../images/tavi-complications/41238236_Theriot_2025/fig-01_p3.png)
+
+![Causes of vascular complications during preimplementation。](../images/tavi-complications/41238236_Theriot_2025/fig-02_p4.png)
+
+![Structured QI approach to reducing TAVR vascular complications。](../images/tavi-complications/41238236_Theriot_2025/fig-03_p5.png)
+:::
+
+::: {layout-ncol=2}
+![Stepwise optimization for TAVR percutaneous TF access。](../images/tavi-complications/41238236_Theriot_2025/fig-04_p6.png)
+
+![Procedural efficiency trends across phases。](../images/tavi-complications/41238236_Theriot_2025/fig-05_p7.png)
+:::
+
+---
+
+#### 8.2 Nishi 2026 — IVL of Negatively-Remodeled Calcified Abdominal Aorta to Enable TF-TAVR
+
+[PMID 41532911](https://pubmed.ncbi.nlm.nih.gov/41532911/) ｜ JACC Case Rep 2026;31:106527
+
+**84 歲女**，infrarenal abdominal aorta **circumferential calcification + negative remodeling**（external 9 mm / lumen 5 mm）+ bilateral CIA stenosis。**Strategy**：用 **7.0×60 mm Shockwave M5+ balloon**（**undersized** for 9 mm external diameter）做 stepwise low-pressure IVL（1-2 atm → 4-6 atm，10 cycles × 30 pulses = **300 pulses total**）。Iliac + abdominal aorta 都做。**結果**：成功推進 18F Gore DrySeal sheath → 23 mm Evolut FX+ → MANTA closure → POD 1 discharge。
+
+**教學重點**：
+
+> **IVL 在 abdominal aorta 是 underexplored 領域**——大多數 paper 在 iliofemoral；**central vessel rupture 風險更高**。技術重點：(1) **undersized balloon**（match lumen, not external）、(2) **stepwise low-pressure**（1→6 atm），(3) bailout planning（covered stent backup），(4) sheath 應放在 IVL-treated segment 之上避免 valve delivery 與 modified Ca zone 互動。
+
+::: {layout-ncol=2}
+![Visual Summary — IVL of abdominal aorta + iliac arteries enables TF-TAVR with 23 mm self-expanding valve。](../images/tavi-complications/41532911_Nishi_2026/fig-01_p2.png)
+
+![CTA — circumferential calcification of infrarenal aorta (lumen 5.3 mm, external 9.1 mm)。](../images/tavi-complications/41532911_Nishi_2026/fig-02_p3.png)
+:::
+
+::: {layout-ncol=3}
+![Pre/post angiography — baseline severe stenoses (A) → improved expansion after IVL (B)。](../images/tavi-complications/41532911_Nishi_2026/fig-03_p4.png)
+
+![IVL of distal abdominal aorta (A) and right CIA (B)。](../images/tavi-complications/41532911_Nishi_2026/fig-04_p5.png)
+
+![Aortic root angiography post-TAVR — 23 mm Evolut FX+ deployed。](../images/tavi-complications/41532911_Nishi_2026/fig-05_p5.png)
+:::
+
+---
+
+#### 8.3 Spaccarotella 2020 — Common Femoral Artery Rupture After IVL
+
+[PMID 34317373](https://pubmed.ncbi.nlm.nih.gov/34317373/) ｜ JACC Case Rep 2020;2:882
+
+**82 歲男**，**right CFA penetrating atherosclerotic ulcer + heavy circumferential Ca（lumen 4.1 mm）**，左側 lumen 5.5 mm（選做 access）。Annulus 92 mm² → 34 mm Evolut R via 20F sheath。**Sequence**：valve 進不去 → IVL with 7.0×60 mm Shockwave × 4 cycles @6 atm → valve 成功 → **angiogram 顯示 long dissection from distal external iliac to access site + femoral artery rupture**。**Bailout**：7.0×50 mm self-expanding **Viabahn covered stent** + multiple dilations → 完整 sealing。LOS 10 days、6 個月 patent。
+
+**教學重點**：
+
+> **IVL-related femoral dissection 14.6%**（Madhavan 2020），**flow-limiting 0.9%**。本例顯示 IVL 不是無風險。**Routine contralateral safety wire** 是重要 backup——先放對側 0.018" 細 wire，rupture 時可立刻從對側放 covered stent。**Covered stent 的下游問題**：deep femoral artery 被 cover 影響 leg perfusion，但 emergency 時是 quick rescue。
+
+::: {layout-ncol=3}
+![CT scan — bilateral iliofemoral with calcified atheromas; ulcerated plaque in right CFA (C)。](../images/tavi-complications/34317373_Spaccarotella_2020/fig-01_p2.jpeg)
+
+![IVL inflated balloon in iliac/femoral; 20-F introducer with deployed Evolut R 34-mm valve (C)。](../images/tavi-complications/34317373_Spaccarotella_2020/fig-02_p3.jpeg)
+
+![Long dissection (A); contrast extravasation from rupture (B); covered stent sealing (C)。](../images/tavi-complications/34317373_Spaccarotella_2020/fig-03_p3.jpeg)
+:::
+
+---
+
+#### 8.4 Cavazza 2025 — Transaxillary TAVR with Subclavian Pseudoaneurysm + Vertebral Artery Sacrifice
+
+[PMID 40480763](https://pubmed.ncbi.nlm.nih.gov/40480763/) ｜ JACC Case Rep 2025;30:103610
+
+**87 歲女**，paradoxical low-flow low-gradient AS + bilateral external iliac stenosis + porcelain aorta + critical L subclavian + moderate R subclavian disease。所有 TF 不可行 → **right transaxillary surgical access**。23 mm Evolut FX sheathless → 雙次 recapture → final angio 顯示 **25 mm subclavian dissection** → self-expanding stent 封堵。POD 1: aphasia + facial droop → CTA: cerebellar infarcts + **8×8 mm subclavian pseudoaneurysm at proximal stent edge**。神經症狀恢復但 pseudoaneurysm 增大到 11×9 mm with wall fissuration → **3 個 overlapping covered stents (Viabahn) 覆蓋 R vertebral artery → contralateral circulation 代償**。3 days post-procedure asymptomatic discharge。
+
+**教學重點**：
+
+> **Transaxillary TAVR pitfalls**：(1) 嚴重 subclavian disease 是否 prep before TAVR（會 crush 新 stent）；(2) **sheathless vs introducer trade-off**（sheathless 較不損傷 vessel 但 valve repositioning mechanical stress 大）；(3) 立即治療 dissection vs conservative — 立即 stent 反而埋下 pseudoaneurysm nidus。
+
+> **Vertebral artery sacrifice 可行性**：在 contralateral vertebral patent + Willis circle intact 前提下，**sacrifice 一側 vertebral artery 可被良好耐受**——即使 frail 病人。
+
+::: {layout-ncol=2}
+![CTA femoral — bilateral severe calcified iliofemoral disease。](../images/tavi-complications/40480763_Cavazza_2025/fig-01_p3.jpeg)
+
+![CTA axillary/subclavian — critical L + moderate R subclavian disease。](../images/tavi-complications/40480763_Cavazza_2025/fig-02_p4.jpeg)
+:::
+
+::: {layout-ncol=3}
+![Subclavian artery dissection (asterisk) post-TAVR → sealed with self-expanding stent。](../images/tavi-complications/40480763_Cavazza_2025/fig-03_p4.jpeg)
+
+![Subclavian postprocedural pseudoaneurysm — relationship with stent + R vertebral artery + carotid。](../images/tavi-complications/40480763_Cavazza_2025/fig-04_p5.jpeg)
+
+![Pseudoaneurysm treatment — 3 overlapped covered stents; complete sealing on CTA (D)。](../images/tavi-complications/40480763_Cavazza_2025/fig-05_p6.jpeg)
+:::
+
+---
+
+#### 8.5 Elison 2023 — First-in-Human Percutaneous Transcarotid TAVR (Two-Case Series)
+
+[PMID 38094178](https://pubmed.ncbi.nlm.nih.gov/38094178/) ｜ JACC Case Rep 2023;26:102069
+
+**University of Washington 兩例 percutaneous transcarotid TAVR**——首次 published cases。Patient 1: 66 M ESRD on HD + bilateral CEA + severe iliofemoral + L axillary 4 mm + R axillary 有 dialysis fistula；Patient 2: 80 F ESRD on PD + AF + R CEA + severe abdominal aortic disease + bilateral axillary inhospitable。
+
+**Technique**：(1) JR4 guide via 6F LFA → glidewire → L common carotid；(2) **7F balloon wedge catheter inflated in common carotid bulb at low pressure**（防止 cerebral debris）；(3) ultrasound-guided micropuncture proximal to inflated balloon；(4) **Pre-close × 2 Perclose**；(5) 8F sheath → AV crossing → 14F Edwards eSheath；(6) standard TAVR；(7) **Balloon withdrawn into descending aorta with inflation**（"Fogarty" out emboli）。
+
+**結果**：兩例 no neurologic deficits、no extravasation。POD 3 / 15 discharge。
+
+**教學重點**：
+
+> **Surgical vs percutaneous transcarotid TAVR**：類似 femoral evolution（早期 surgical cutdown → 現在 percutaneous）。**Percutaneous TC 的優勢**：避免 wound management，縮短 procedure time，不需 vascular surgeon expertise，可在 conscious sedation 下執行。
+
+> **Balloon wedge as cerebral protection**：novel application of vascular surgery Fogarty concept — access site 遠端 inflate balloon 防 emboli 進 brain；withdraw 時 inflate 把 debris 帶入 descending aorta（less critical bed）。
+
+> **Pre-procedure CTA 確認 contralateral carotid + circle of Willis patent** 是 mandatory。
+
+::: {layout-ncol=3}
+![Patient 1 CTA — severe bilateral iliofemoral disease (A); ostial subclavian disease (B)。](../images/tavi-complications/38094178_Elison_2023/fig-01_p2.jpeg)
+
+![Patient 1 carotid angiography — patent pre-procedure (A); no extravasation post (B)。](../images/tavi-complications/38094178_Elison_2023/fig-02_p3.jpeg)
+
+![14-F E-sheath insertion via L carotid into ascending aorta over Confida wire。](../images/tavi-complications/38094178_Elison_2023/fig-03_p4.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Patient 2 CTA — severe calcified abdominal aortic + bilateral iliac (A); inhospitable axillary arteries (B)。](../images/tavi-complications/38094178_Elison_2023/fig-04_p5.jpeg)
+
+![Patient 2 carotid angiography — patent common carotid pre/post procedure。](../images/tavi-complications/38094178_Elison_2023/fig-05_p5.jpeg)
+:::
+
+---
+
+#### 8.6 Altaf 2025 — Renal Artery Perforation During TAVR Closure
+
+[PMID 41072982](https://pubmed.ncbi.nlm.nih.gov/41072982/) ｜ JACC Case Rep 2025;30:105299
+
+**70 多歲女**，TAVR with 26 mm Sapien S Ultra via L femoral + R radial。**Dry closure technique**：0.038" angled-tip hydrophilic guidewire from R radial to L external iliac → **briefly entered aortic side branches**（無 resistance 警示）→ exchanged to 0.035" J-tip → 12 mm Armada balloon hemostasis → Perclose × 2 + AngioSeal → **acute hypotension 60/40**。Workup negative for valve/aortic root → empirical adrenaline + hydrocortisone（懷疑 anaphylaxis）→ Hb 11.3 → 4.8 g/dL（−6.5！）→ **Whole-body CT: contrast extravasation at origin of accessory R renal artery**（解剖變異發生率 8.34%）。**Bailout**：3rd access via R femoral → 3.5×20 mm **PK Papyrus covered stent in main R renal artery**（覆蓋 accessory bleeding origin）→ hemostasis。
+
+**教學重點**：
+
+> **Non-access site vascular injury** 在 TAVR 是 underrecognized — vascular complication 0.94-11.9% 整體，但個別 non-access vessel 數據罕見。**三個預防原則**：(1) **Standard J-tip wire first**（hydrophilic 只在前者失敗才用）；(2) **wire tip 必須隨時 visible on fluoro**；(3) **Patient-specific arterial anatomy awareness**（pre-TAVR CTA review accessory renal artery 等變異）。
+
+> **Iatrogenic renal artery injury management ladder**：balloon tamponade → covered stent（preserves perfusion）→ embolization（distal small caliber）→ surgery（last resort）。
+
+::: {layout-ncol=2}
+![Mechanism of injury and management with covered stent — schematic of dry closure technique。](../images/tavi-complications/41072982_Altaf_2025/fig-01_p2.jpeg)
+
+![Cross-sectional CT showing contrast extravasation from R renal artery (red arrow)。](../images/tavi-complications/41072982_Altaf_2025/fig-02_p3.png)
+:::
+
+::: {layout-ncol=3}
+![Visual Summary — procedural timeline。](../images/tavi-complications/41072982_Altaf_2025/fig-03_p3.png)
+
+![R renal angiography — extravasation at accessory artery origin (yellow arrowhead)。](../images/tavi-complications/41072982_Altaf_2025/fig-04_p4.png)
+
+![Covered stent deployed — adequate hemostasis with absence of accessory artery。](../images/tavi-complications/41072982_Altaf_2025/fig-05_p4.png)
+:::
+
+---
+
+#### 8.7 Davalan 2025 — Iatrogenic Aortic Root Dissection + Pseudoaneurysm (Conservative Management)
+
+[PMID 40185608](https://pubmed.ncbi.nlm.nih.gov/40185608/) ｜ JACC Case Rep 2025;30:103376
+
+**88 歲男 prior CABG**，severe AS + **horizontal aortic root angle 52°** → 29 mm Evolut FX TF-TAVR。**初次 deploy embolization at 80%**（horizontal root 影響）→ retrieval/recapture → second deploy 成功。Post-CT: **NCC sinus dissection + acute mediastinal hematoma**。POD 2: 16×19×20 mm pseudoaneurysm（neck 1 mm）+ surrounding hematoma。LBBB → PPM。
+
+**Conservative management**（surgery prohibitive: extensive Ca + previous CABG adhesions）：IV nitroglycerin（SBP < 110）→ amlodipine + carvedilol → POD 4 pseudoaneurysm shrunk → discharge → Day 11 false lumen complete thrombosis → 2 mo: complete resolution。
+
+**教學重點**：
+
+> **TAVI 後 ascending aortic dissection 0.1-1.9%**，untreated 1-hour mortality 7%、24-hour 90%。本例罕見 long-term survival with conservative management。
+
+> **Conservative approach prerequisites**：(1) hemodynamically stable，(2) no pericardial effusion，(3) minimal flow in false lumen，(4) limited to outer curve of ascending aorta，(5) **previous CABG adhesions** 額外 containment。
+
+> **TEVAR 限制**：dissection entry 太靠近 RCA ostium → 無法不影響 coronary perfusion；plug closure 因 < 1 mm neck 不可行 → medical therapy alone。
+
+::: {layout-ncol=2}
+![Pre-TAVR CT — horizontal aortic root angle 52°。](../images/tavi-complications/40185608_Davalan_2025/fig-01_p2.jpeg)
+
+![Fluoroscopic deployment of 29 mm Evolut FX in aortic annulus。](../images/tavi-complications/40185608_Davalan_2025/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=2}
+![Serial CT — immediate dissection (A); POD 2 pseudoaneurysm (B,C); POD 4 shrinkage (D)。](../images/tavi-complications/40185608_Davalan_2025/fig-03_p3.jpeg)
+
+![TTE color Doppler — mild paravalvular leak at 3 o'clock POD 1。](../images/tavi-complications/40185608_Davalan_2025/fig-04_p4.jpeg)
+:::
+
+::: {layout-ncol=2}
+![CT POD 11 — complete aortic dissection resolution。](../images/tavi-complications/40185608_Davalan_2025/fig-05_p4.jpeg)
+
+![CT 1.5 month follow-up — no residual dissection。](../images/tavi-complications/40185608_Davalan_2025/fig-06_p5.jpeg)
+:::
+
+---
+
+#### 8.8 Manevich 2023 — Conservative Management of Thoracic Aorta Perforation in Tortuous Aorta
+
+[PMID 36523949](https://pubmed.ncbi.nlm.nih.gov/36523949/) ｜ JACC Case Rep 2023;5:101691
+
+**82 歲女 morbid obesity (BMI 40) + restrictive/obstructive lung disease**，prior 23 mm Trifecta SAVR 8 年前 → severe SVD → **ViV-TAVR with 23 mm Sapien 3** via R TF。CT 顯示 **severely tortuous descending thoracic aorta**。Lunderquist stiff wire + flexion/rotation 通過。**3 hours post-procedure**: chest/back pain + dyspnea。CXR: large L pleural effusion → CTA: **descending thoracic aorta perforation at bend**。
+
+**Conservative management**：bedside chest tube → 1,100 mL bloody → 4 days drainage 1,500 mL；pRBC + protamine；BP control 100-120 SBP；POD 5 CTA: trivial effusion + sealing + bilateral non-obstructive PA thrombi → LMWH → apixaban → POD 9 discharge。
+
+**教學重點**：
+
+> **Aortic perforation post-TAVR 0.2-0.3%**（GARY registry）。**Conservative approach 成功要素**：(1) hemodynamic stable，(2) chest tube 連續引流，(3) BP control，(4) blood product replacement，(5) **延遲 anticoagulation initiation**。
+
+> **「Buddy wire technique」** for severely tortuous aorta：在 pigtail catheter 內加 stiff wire 先做 platform，再上 valve delivery system。
+
+::: {layout-ncol=3}
+![Pre-TAVR CTA — severely tortuous descending aorta。](../images/tavi-complications/36523949_Manevich_2023/fig-01_p2.jpeg)
+
+![Post-perforation CT — large L pleural effusion (A); perforation at bend (B,C)。](../images/tavi-complications/36523949_Manevich_2023/fig-02_p3.jpeg)
+
+![CT POD 5 — no leakage at perforation site after conservative management。](../images/tavi-complications/36523949_Manevich_2023/fig-03_p3.jpeg)
+:::
+
+---
+
+#### 8.9 Patel 2022 — Synchronous Type 3b EVAR Endoleaks Post-TAVR
+
+[PMID 35734531](https://pubmed.ncbi.nlm.nih.gov/35734531/) ｜ JACC Case Rep 2022;4:742
+
+**78 歲男 prior 2012 EVAR for AAA + R CIAA**，8 年 surveillance 穩定。Severe AS → 26 mm S3 TAVR via L CFA（surgical exposure 因 EVAR 後 scarring）+ R CFA percutaneous secondary。**5 個月後**: AAA sac 3.8 → 4.5 cm。Duplex + CTA: **2 個 synchronous Type 3b endoleaks**：(1) distal main body of EVAR graft，(2) proximal R iliac limb of graft。Leak size 1.6 mm — 與 catheter/wire 寸法吻合。
+
+**機轉假設**：R-side femoral catheterization 過程中 wire 在 graft 折角處（45-50°）穿透 graft material（8 年 graft material 老化）→ wire 穿越 graft 後沿著 graft-aortic neck 之間或從 main body 再穿回。
+
+**Repair**：bilateral femoral access → main body cuff extension + R iliac limb relining。1 mo CTA endoleaks resolved + sac regress。
+
+**教學重點**：
+
+> **Type 3b endoleak（fabric disruption）發生率 < 2%**。**Iatrogenic synchronous Type 3b endoleaks 在 TAVR 後是 first-reported in literature**。
+
+> **Pre-TAVR planning 在 prior EVAR 病人**：嚴重 vessel tortuosity / angulation 內 graft → 優先 alternative access；強硬 stiff wire 必須極為謹慎；**pigtail catheter advanced with partial wire support + slow spinning** 避免穿透 device；EVAR graft 老化（> 5-8 年）→ fabric weakened → 風險升高；應 post-TAVR vascular surgery follow-up CTA 1-3 mo。
+
+::: {layout-ncol=3}
+![Pre-TAVR CT — 3.8 cm AAA stable on EVAR。](../images/tavi-complications/35734531_Patel_2022/fig-01_p3.jpeg)
+
+![Sac expansion 3.8 → 4.5 cm within 6 months post-TAVR。](../images/tavi-complications/35734531_Patel_2022/fig-02_p4.jpeg)
+
+![Endoleak in main body of EVAR graft on duplex study。](../images/tavi-complications/35734531_Patel_2022/fig-03_p4.jpeg)
+:::
+
+::: {layout-ncol=3}
+![Endoleak in proximal R iliac limb of graft。](../images/tavi-complications/35734531_Patel_2022/fig-04_p5.jpeg)
+
+![EVAR graft schematic with suspected endoleak sites — dotted line = catheter path。](../images/tavi-complications/35734531_Patel_2022/fig-05_p6.jpeg)
+
+![CTA confirming synchronous endoleaks at body and proximal R limb。](../images/tavi-complications/35734531_Patel_2022/fig-06_p7.jpeg)
+:::
+
+::: {layout-ncol=3}
+![3D rendering — tortuous EVAR graft with steep angulation。](../images/tavi-complications/35734531_Patel_2022/fig-07_p7.jpeg)
+
+![Pre-TAVR CTA showing graft angulation and hypothesized perforation pathway。](../images/tavi-complications/35734531_Patel_2022/fig-08_p8.jpeg)
+
+![Post-repair CT — sac regression 4.5 → 4.3 cm after endoleak repair。](../images/tavi-complications/35734531_Patel_2022/fig-09_p8.jpeg)
+:::
+
+---
+
+#### 8.10 Chatterjee 2025 — LV Perforation + Late Tamponade Sealed with Surgiflo (Percutaneous)
+
+[PMID 40054911](https://pubmed.ncbi.nlm.nih.gov/40054911/) ｜ JACC Case Rep 2025;30:103193
+
+**85 歲女 frail + severe kyphoscoliosis**，**small hyperdynamic LV (EDD 3.9 cm，EF 78%)** + horizontal tortuous calcified aorta + heavy LVOT calcium。23 mm Sapien 3 Ultra TAVR — initial Safari wire prolapse out of LV → switched to **double-curved Lunderquist stiff wire** with suboptimal curve position（accepted）。Deploy 順利。
+
+**18 hours post-procedure**: 急性 hypotension → echo: pericardial tamponade。Pericardiocentesis 後 LV ventriculogram: **lateral LV wall perforation with ongoing bleeding**。**Surgery prohibitive → percutaneous management**: pericardial drain → **8.5F Agilis steerable sheath** positioned over lateral LV wall → **27 mL Surgiflo Hemostatic Matrix（gelatin + thrombin）** instilled in pericardial space → drain kept 48h → no reaccumulation → discharge POD 7。6 weeks: NYHA I, no effusion。
+
+**教學重點**：
+
+> **LV perforation predictors**（Owais 2017）：(1) small LV cavity size，(2) hypercontractile LV，(3) thin muscular wall，(4) narrow aorto-mitral angle。**Lunderquist stiff wire + horizontal/tortuous aorta** 是高 LV perforation 風險組合——suboptimal wire curve position 應該被視為 immediate red flag。
+
+> **Surgiflo（gelatin + thrombin matrix）** percutaneous instillation via Agilis steerable sheath 是 **novel rescue technique**——當 surgery prohibitive 時可 seal small LV perforation；理論風險是 future pericardial constriction（needs follow-up）。
+
+::: {layout-ncol=2}
+![Pre-TAVR CT — heavily calcified valve + LVOT nodular calcium。](../images/tavi-complications/40054911_Chatterjee_2025/fig-01_p3.jpeg)
+
+![Pre-TAVR CT 3D — horizontal tortuous calcified aorta secondary to kyphoscoliosis。](../images/tavi-complications/40054911_Chatterjee_2025/fig-02_p3.jpeg)
+:::
+
+::: {layout-ncol=3}
+![Suboptimal Lunderquist wire curve position in LV due to tortuous aorta。](../images/tavi-complications/40054911_Chatterjee_2025/fig-03_p3.jpeg)
+
+![TTE — pericardial effusion with tamponade 18 hours post-TAVR。](../images/tavi-complications/40054911_Chatterjee_2025/fig-04_p4.jpeg)
+
+![Fluoroscopy — Agilis steerable sheath positioned for Surgiflo injection into pericardial space。](../images/tavi-complications/40054911_Chatterjee_2025/fig-05_p4.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2024 | Nesta | **Acquired Gerbode defect** detected pre-TAVI | [10.1161/CIRCIMAGING.123.016151](https://doi.org/10.1161/CIRCIMAGING.123.016151) |
+| 2024 | Nesta | **Pseudoaneurysm of interventricular septum** post-TAVR | [10.1161/CIRCIMAGING.123.016193](https://doi.org/10.1161/CIRCIMAGING.123.016193) |
+| 2020 | Książczyk | Enormous LV pseudoaneurysm post-TAVI | [10.1161/CIRCIMAGING.119.010263](https://doi.org/10.1161/CIRCIMAGING.119.010263) |
+| 2020 | Sulimov | **Bailout bleeding management for large-bore access** — novel technique | [10.1016/j.jcin.2019.12.016](https://doi.org/10.1016/j.jcin.2019.12.016) |
+| 2019 | Cruz-González | **Shockwave Lithoplasty** for facilitated TF-TAVR | [10.1016/j.jcin.2018.11.041](https://doi.org/10.1016/j.jcin.2018.11.041) |
+| 2019 | Hernández-Enríquez | **AV loop** for TAVR alignment with giant ascending aortic aneurysm | [10.1016/j.jcin.2019.05.031](https://doi.org/10.1016/j.jcin.2019.05.031) |
+| 2018 | Ierovante | **Prophylactic ipsilateral SFA access** for high-risk femoral TF-TAVR | [10.1016/j.jcin.2018.05.004](https://doi.org/10.1016/j.jcin.2018.05.004) |
+| 2018 | Sanghvi | **Intervention of prohibitive aortic + iliac stenosis** for successful TF-TAVR | [10.1016/j.jcin.2018.06.042](https://doi.org/10.1016/j.jcin.2018.06.042) |
+| 2017 | Kamioka | **Subaortic stenosis treatment via transcaval access** | [10.1016/j.jcin.2017.02.003](https://doi.org/10.1016/j.jcin.2017.02.003) |
+| 2017 | Kubo | **Vascular injury from retrieving ruptured/detached BAV catheter** during TAVR | [10.1016/j.jcin.2017.05.011](https://doi.org/10.1016/j.jcin.2017.05.011) |
+| 2016 | Issa | **CoreValve TAVR + treat aortic root pseudoaneurysm** simultaneously | [10.1016/j.jcin.2016.04.039](https://doi.org/10.1016/j.jcin.2016.04.039) |
+| 2015 | Buzzatti | **Double stiff wire** for extreme thoracic aorta tortuosity | [10.1161/CIRCINTERVENTIONS.114.002331](https://doi.org/10.1161/CIRCINTERVENTIONS.114.002331) |
+| 2015 | Merchan | **Percutaneous apical exclusion** of LV pseudoaneurysm post-transapical TAVR | [10.1016/j.jcin.2015.06.032](https://doi.org/10.1016/j.jcin.2015.06.032) |
+| 2014 | Chen | TAVI in **bicuspid AS + ascending aortic aneurysm** | [10.1016/j.jcin.2014.05.001](https://doi.org/10.1016/j.jcin.2014.05.001) |
+| 2009 | Fraccaro | First **trans-subclavian retrograde** TAVI（CoreValve III gen） | [10.1016/j.jcin.2009.06.016](https://doi.org/10.1016/j.jcin.2009.06.016) |
+
+---
+
+
+## 9. Mitral injury / SAM / LVOT obstruction / Suicide LV
+
+> **教學重點**：TAVR 在重度 LVH、HOCM、suicide LV physiology、混合 mitral valve disease 的患者，**LVOT obstruction**、**SAM**、**dynamic gradient** 風險顯著上升。處理策略包括：藥物（β-blocker、mavacamten）、acute volume loading、staged TEER、TMVR、ECMO bridge。
+
+**案例庫共 13 篇**（17 案例組合，包含 multiple TMVR 與 mitral re-do 場景）。
+
+---
+
+#### 9.1 Ando 2026 — Continuous Assessment of LVOT Obstruction in TAVI
+
+[PMID 41400611](https://pubmed.ncbi.nlm.nih.gov/41400611/) ｜ JACC Case Rep 2026
+
+87 歲女性 severe AS + asymmetric septal hypertrophy（IVS 18 mm）+ small LV cavity（LVEDD 38 mm）— TAVR 前 stress echo 已顯示 dobutamine-induced LVOT gradient 65 mmHg。Procedure 全程使用 **continuous LV–Ao pressure monitoring** via pigtail（LV）+ side-port（Ao），每次 balloon predilation 與 valve deployment 後即時 readout。Self-expanding 26 mm Evolut FX 植入後，LV-Ao gradient 由 baseline 12 mmHg 飆升至 38 mmHg（dynamic LVOT obstruction with SAM by intra-procedural TEE）。Acute IV volume + esmolol 5 mg bolus → gradient 降至 18 mmHg；30 天 TTE 殘存 mid-cavity gradient 25 mmHg，加 metoprolol succinate 50 mg。
+
+**教學重點**:
+> **LVOT continuous gradient monitoring** is a TAVI-specific safety tool — pre-procedural stress echo identifies high-risk anatomy (asymmetric septal hypertrophy, small LV); intra-op pigtail-LV/side-port-Ao tracing detects acute SAM/LVOTO at the moment of valve deployment, enabling immediate volume + β-blocker rescue before haemodynamic collapse.
+
+::: {layout-ncol=3}
+![Pre-procedural TTE: severe AS + asymmetric septal hypertrophy（IVS 18 mm）。](../images/tavi-complications/41400611_Ando_2026/fig-01_p2.png)
+
+![Intra-procedural simultaneous LV (red) and aortic (yellow) pressure tracings — gradient spike post-Evolut deployment。](../images/tavi-complications/41400611_Ando_2026/fig-02_p3.png)
+
+![Post-rescue TEE: SAM resolved after volume + esmolol bolus, gradient down to 18 mmHg。](../images/tavi-complications/41400611_Ando_2026/fig-03_p4.png)
+:::
+
+---
+
+#### 9.2 Abdelfattah 2025 — HOCM + Severe AS, High Surgical Risk
+
+[PMID 40615221](https://pubmed.ncbi.nlm.nih.gov/40615221/) ｜ JACC Case Rep 2025
+
+74 歲男 obstructive HCM（resting LVOT gradient 75 mmHg, post-Valsalva 110 mmHg）+ severe AS（AVA 0.7 cm²）+ STS 7.2%。Heart Team 否決 SAVR + septal myectomy（high surgical mortality）。**Staged strategy**: (1) **alcohol septal ablation** (ASA) with 2.0 mL absolute alcohol into first septal perforator → 1 個月 LVOT gradient 25 mmHg；(2) TAVR with 26 mm SAPIEN 3 Ultra；(3) post-TAVR LVOT gradient 28 mmHg（acceptable），AS resolved。
+
+**教學重點**:
+> For obstructive HCM + severe AS in high-surgical-risk patients, **staged ASA → TAVR** can debulk the septum first, lowering the SAM/LVOTO risk before introducing the prosthesis. SAVR + myectomy remains gold standard but requires acceptable surgical risk.
+
+::: {layout-ncol=3}
+![Pre-procedural cMR: asymmetric septal hypertrophy with LVOT obstruction physiology。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-01_p3.jpeg)
+
+![Coronary angiogram defining first septal perforator target for ASA。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-02_p4.jpeg)
+
+![ASA — myocardial contrast echo confirming target septum perfusion before alcohol injection。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-03_p5.jpeg)
+
+![Post-ASA septal infarct on cMR LGE。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-04_p6.jpeg)
+
+![Subsequent TAVR with 26 mm SAPIEN 3 Ultra — post-deployment angiogram。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-05_p7.jpeg)
+
+![Post-TAVR LVOT gradient continuous tracing — residual 28 mmHg, acceptable。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-06_p9.jpeg)
+
+![Final TEE — no SAM, mild PVL only。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-07_p9.jpeg)
+
+![Echo at 6 months follow-up — stable septal thickness post-ASA。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-08_p9.jpeg)
+
+![Cardiac CT at 6 months — TAVR valve well-seated, no migration。](../images/tavi-complications/40615221_Abdelfattah_2025/fig-09_p9.jpeg)
+:::
+
+---
+
+#### 9.3 Frisoli 2025 — TMVR Through Prior ASD Occluder for Mitral Bioprosthesis Degeneration
+
+[PMID 41106893](https://pubmed.ncbi.nlm.nih.gov/41106893/) ｜ JACC Case Rep 2025
+
+68 歲女 — 7 年前 SAVR + ASD closure (Amplatzer ASD Occluder 24 mm) + 10 年前 mitral bioprosthesis (Mosaic 27 mm)。現 mitral bioprosthesis severe stenosis (MVA 1.0 cm², gradient 14 mmHg)。Surgical re-do 風險高 (STS 11%)。**Trans-septal access through previously implanted ASD occluder** — 8.5F Mullins sheath punctured the polyester mesh of Amplatzer disc; serially dilated with 12/16/20 mm peripheral balloon。植入 SAPIEN 3 29 mm via valve-in-valve TMVR；residual ASD post-procedure 4 mm（preserved circulation through occluder mesh），no LV–RA shunt。
+
+**教學重點**:
+> **Trans-septal puncture through an existing ASD/PFO occluder is feasible** when no alternative septal real estate is available — the polyester mesh accommodates large-bore TMVR sheath after sequential balloon dilation. Plan needle entry at the junction of mesh-and-disk for stable wire purchase.
+
+::: {layout-ncol=2}
+![Trans-septal puncture into the body of pre-existing Amplatzer ASD occluder under ICE guidance。](../images/tavi-complications/41106893_Frisoli_2025/fig-01_p3.png)
+
+![Serial balloon dilation (12 → 16 → 20 mm) of the puncture tract through occluder mesh。](../images/tavi-complications/41106893_Frisoli_2025/fig-02_p3.png)
+
+![SAPIEN 3 29 mm valve-in-valve mitral TMVR deployment via the dilated trans-occluder tract。](../images/tavi-complications/41106893_Frisoli_2025/fig-03_p4.png)
+
+![Post-procedure 3D TEE: well-seated mitral SAPIEN; residual 4 mm ASD without significant shunt。](../images/tavi-complications/41106893_Frisoli_2025/fig-04_p4.png)
+:::
+
+---
+
+#### 9.4 Heller 2025 — From Severe AS to Mitral TEER: Overcoming SAVR Complicated With LVOTO
+
+[PMID 40615174](https://pubmed.ncbi.nlm.nih.gov/40615174/) ｜ JACC Case Rep 2025
+
+71 歲女 severe AS + moderate MR + sigmoid septum。SAVR 後 (21 mm Inspiris) 出現 **acute LVOTO with severe SAM-mediated MR**（resting LVOT gradient 65 mmHg, MR severe）— ECMO-supported recovery 7 天，後選擇 **mitral TEER (PASCAL Ace)** 鎖定 A2/P2 leaflets，A2 leaflet 被「綁回」中央位置 → SAM resolved (後 LVOT gradient 18 mmHg)，MR 由 severe 降至 trace。
+
+**教學重點**:
+> Post-SAVR SAM-mediated MR with LVOTO can be **rescued by mitral TEER** — clipping A2/P2 prevents the anterior leaflet from being drawn into the LVOT, breaking the SAM cycle. PASCAL's slim profile + independent leaflet capture is well suited for this delicate scenario.
+
+::: {layout-ncol=3}
+![Pre-SAVR TTE: severe AS + sigmoid septum (MV-aortic angle narrow)。](../images/tavi-complications/40615174_Heller_2025/fig-01_p2.jpeg)
+
+![Post-SAVR acute LVOTO physiology — SAM with severe MR by 3D TEE。](../images/tavi-complications/40615174_Heller_2025/fig-02_p3.jpeg)
+
+![ECMO support during haemodynamic recovery, awaiting TEER。](../images/tavi-complications/40615174_Heller_2025/fig-03_p3.jpeg)
+
+![Mitral TEER deployment — PASCAL Ace at A2/P2 region。](../images/tavi-complications/40615174_Heller_2025/fig-04_p4.jpeg)
+
+![Post-TEER 3D TEE: SAM abolished, dual orifice, MR trace only。](../images/tavi-complications/40615174_Heller_2025/fig-05_p5.jpeg)
+
+![Discharge TTE: LVOT gradient 18 mmHg, MR mild。](../images/tavi-complications/40615174_Heller_2025/fig-06_p6.jpeg)
+:::
+
+---
+
+#### 9.5 Jo 2025 — Mavacamten for LVOTO After Successful TAVI
+
+[PMID 40054912](https://pubmed.ncbi.nlm.nih.gov/40054912/) ｜ JACC Case Rep 2025
+
+72 歲女 severe AS + asymmetric septal hypertrophy。SAPIEN 3 23 mm 植入後當下 LVOT gradient 35 mmHg；6 週後 dyspnea 復發，TTE 顯示 progressive **LVOTO with SAM** — gradient 上升至 95 mmHg。Metoprolol + verapamil 加到 max dose 仍不足。啟動 **mavacamten 5 mg PO daily**（cardiac myosin inhibitor）—6 個月後 LVOT gradient 降至 22 mmHg, NYHA III → I。
+
+**教學重點**:
+> Post-TAVR dynamic LVOTO can develop **delayed (weeks to months)** as LVH remodels asymmetrically. **Mavacamten** is a novel disease-modifying option when β-blockers + Ca-blockers fail to control gradient — particularly attractive in elderly TAVR cohort intolerant of polypharmacy.
+
+::: {layout-ncol=3}
+![Pre-TAVR TTE: severe AS + asymmetric septal hypertrophy (IVS 17 mm)。](../images/tavi-complications/40054912_Jo_2025/fig-01_p2.jpeg)
+
+![Immediate post-TAVR: mild LVOT gradient 35 mmHg。](../images/tavi-complications/40054912_Jo_2025/fig-02_p3.jpeg)
+
+![6-week TTE: SAM with severe LVOT gradient 95 mmHg。](../images/tavi-complications/40054912_Jo_2025/fig-03_p4.jpeg)
+
+![Post-mavacamten 6 months: SAM resolved, gradient 22 mmHg。](../images/tavi-complications/40054912_Jo_2025/fig-04_p4.jpeg)
+
+![Functional improvement: NYHA III → I; KCCQ +28 points at 6 months。](../images/tavi-complications/40054912_Jo_2025/fig-05_p5.jpeg)
+:::
+
+---
+
+#### 9.6 Kim 2025 — Delayed Mitral Prosthesis Dehiscence Following TAVR
+
+[PMID 40780803](https://pubmed.ncbi.nlm.nih.gov/40780803/) ｜ JACC Case Rep 2025
+
+76 歲女 — 8 年前 mechanical MVR (St. Jude 27 mm)，後接 TAVR (Evolut Pro+ 26 mm) for severe AS。TAVR 後 14 天 acute pulmonary edema — TEE 顯示 **mitral prosthesis posterior paravalvular dehiscence** (3 mm gap, severe MR)。**Mechanism**: TAVR self-expanding frame radial force outward into MV-aortic curtain，剝離 mitral prosthetic ring 縫線。Plug closure with **AVP III 12×5 mm** via trans-septal — paravalvular leak resolved。
+
+**教學重點**:
+> **Mitral prosthesis dehiscence is a rare but underappreciated late complication of TAVR** — the self-expanding frame's continuing radial expansion can disrupt prior mitral surgical sutures, especially with high implantation depth. Pre-TAVR CT must include detailed mitro-aortic curtain assessment in patients with prior MVR. AVP III plug closure works well via trans-septal route.
+
+::: {layout-ncol=2}
+![Pre-TAVR CT: mechanical MVR (St. Jude 27 mm) with prosthetic ring; mitro-aortic curtain。](../images/tavi-complications/40780803_Kim_2025/fig-01_p3.png)
+
+![Post-TAVR day 14 TEE: posterior mitral paravalvular dehiscence — 3 mm gap with severe MR。](../images/tavi-complications/40780803_Kim_2025/fig-02_p4.png)
+
+![Trans-septal AVP III plug deployment into the dehiscence tract。](../images/tavi-complications/40780803_Kim_2025/fig-03_p4.png)
+
+![Post-closure 3D TEE: PVL trace only, well-seated AVP III plug。](../images/tavi-complications/40780803_Kim_2025/fig-04_p5.png)
+:::
+
+---
+
+#### 9.7 Mengi 2025 — Live Hemodynamics-Assisted Simultaneous Aortic + Mitral ViV
+
+[PMID 40750182](https://pubmed.ncbi.nlm.nih.gov/40750182/) ｜ JACC Case Rep 2025
+
+81 歲男 — 12 年前 SAVR (Magna Ease 23 mm) + MVR bioprosthesis (Magna 27 mm)。雙瓣膜均出現 structural valve degeneration（aortic peak gradient 75 mmHg, mitral gradient 14 mmHg, MR moderate）。STS 13%。**Strategy**: simultaneous aortic + mitral ViV with **live LV-Ao + LA-LV pressure monitoring** — first deploy mitral SAPIEN 3 26 mm (trans-septal)，then aortic SAPIEN 3 23 mm (transfemoral)，每步均查看 4-chamber pressures 確認 no LVOTO。Final: aortic gradient 8 mmHg, mitral gradient 4 mmHg, no LVOTO。
+
+**教學重點**:
+> **Concurrent dual-valve ViV** is high-risk for LVOTO due to the additive frame protrusion. **Live multi-chamber pressure monitoring (LV, Ao, LA)** allows real-time SAM/LVOTO detection at each deployment step. Sequence: mitral first (creates the hardest anatomy change), then aortic — abort or retreat if gradient unacceptable.
+
+::: {layout-ncol=3}
+![Pre-procedural TEE: severe degenerated aortic and mitral bioprostheses。](../images/tavi-complications/40750182_Mengi_2025/fig-01_p3.png)
+
+![CT planning: predicted neo-LVOT after dual-ViV; angle and septal hypertrophy assessed。](../images/tavi-complications/40750182_Mengi_2025/fig-02_p4.png)
+
+![Live LV (red) + Ao (yellow) + LA (green) tracings during sequential deployment。](../images/tavi-complications/40750182_Mengi_2025/fig-03_p5.png)
+
+![Mitral ViV (SAPIEN 3 26 mm) deployed first via trans-septal route。](../images/tavi-complications/40750182_Mengi_2025/fig-04_p6.png)
+
+![Aortic ViV (SAPIEN 3 23 mm) deployed second via TF route。](../images/tavi-complications/40750182_Mengi_2025/fig-05_p7.png)
+
+![Final fluoroscopy: dual SAPIEN frames seated; final gradients aortic 8 mmHg, mitral 4 mmHg。](../images/tavi-complications/40750182_Mengi_2025/fig-06_p8.png)
+:::
+
+---
+
+#### 9.8 Polat 2025 — Strategic Prosthesis Selection for Staged TAVI + Mitral Surgery
+
+[PMID 40155144](https://pubmed.ncbi.nlm.nih.gov/40155144/) ｜ JACC Case Rep 2025
+
+68 歲女 severe AS + severe MR (STS 9%, surgically high-risk for SAVR + MV repair)。Heart Team 選擇 **staged hybrid approach**: (1) TAVR with **SAPIEN 3 23 mm** (specifically chosen for low-profile, balloon-expandable to minimise LVOT encroachment for future mitral surgery)；(2) 6 個月後 minimally invasive mitral repair via right mini-thoracotomy — uneventful。**Critical pre-op planning**: SAPIEN 3 frame height 18 mm vs. self-expanding ~45 mm — 後者可能干擾 future mitral surgical visualisation 與 chord access。
+
+**教學重點**:
+> **TAVR prosthesis choice matters when staged mitral surgery is anticipated** — short-frame balloon-expandable (SAPIEN 3) preserves anatomical landmarks and surgical access for subsequent MV repair, whereas long-frame self-expanding may obstruct visualisation and chord manipulation.
+
+::: {layout-ncol=3}
+![Pre-procedural CT: severe AS + severe MR; mitro-aortic angle measured for prosthesis selection。](../images/tavi-complications/40155144_Polat_2025/fig-01_p2.jpeg)
+
+![Stage 1 — SAPIEN 3 23 mm TAVR: short-frame design preserves access for future MV surgery。](../images/tavi-complications/40155144_Polat_2025/fig-02_p3.jpeg)
+
+![Stage 2 — minimally invasive mitral repair via right mini-thoracotomy 6 months later。](../images/tavi-complications/40155144_Polat_2025/fig-03_p4.jpeg)
+:::
+
+---
+
+#### 9.9 Tsutsui 2025 — Peri-Mitral Atrial Tachycardia Following TAVR
+
+[PMID 40118607](https://pubmed.ncbi.nlm.nih.gov/40118607/) ｜ JACC Case Rep 2025
+
+79 歲男 severe AS — TAVR (Evolut Pro+ 29 mm) 後 3 週 incessant **peri-mitral atrial tachycardia** (cycle length 280 ms, 2:1 AV block)。EP study：activation map 顯示 macro-reentrant loop 圍繞 mitral annulus，**critical isthmus 在 mitral isthmus / left fibrous trigone**。 假說：TAVR self-expanding frame 對 left fibrous trigone 造成 mechanical irritation 或 myocardial fibrosis trigger arrhythmia。Successful **mitral isthmus ablation** (RA → LA via trans-septal) — endocardial + epicardial (via CS) lines — sinus rhythm restored。
+
+**教學重點**:
+> **Peri-mitral atrial tachycardia is an underrecognised post-TAVR arrhythmia**, especially with deep self-expanding implantation impinging on the left fibrous trigone. Mitral isthmus ablation (mid lateral mitral annulus → LIPV) requires both endocardial and CS-epicardial lesion sets to achieve durable conduction block.
+
+::: {layout-ncol=3}
+![Post-TAVR ECG: incessant atrial tachycardia, cycle length 280 ms, 2:1 AV conduction。](../images/tavi-complications/40118607_Tsutsui_2025/fig-01_p2.jpeg)
+
+![3D activation map: macro-reentrant circuit around mitral annulus; critical isthmus at left fibrous trigone region。](../images/tavi-complications/40118607_Tsutsui_2025/fig-02_p3.jpeg)
+
+![Successful mitral isthmus ablation: endocardial RF line + CS epicardial line — conversion to sinus rhythm。](../images/tavi-complications/40118607_Tsutsui_2025/fig-03_p4.jpeg)
+:::
+
+---
+
+#### 9.10 Bielichenko 2024 — Hybrid Robotic MVR + TAVR for Post-Radiation Disease
+
+[PMID 39619031](https://pubmed.ncbi.nlm.nih.gov/39619031/) ｜ JACC Case Rep 2024
+
+58 歲女 — Hodgkin lymphoma 過去縱膈放射治療 30 年。Severe radiation-induced AS + MR + extensive aortic root calcification + porcelain ascending aorta。Conventional sternotomy 高風險（mediastinal fibrosis, redo-like）。**Hybrid strategy**: (1) **Robotic mitral valve replacement** via right thoracotomy (Inspiris 25 mm)；(2) 4 週後 **TAVR** (Evolut Pro+ 26 mm) via transfemoral — porcelain aorta avoidance critical。
+
+**教學重點**:
+> **Post-radiation valvular disease is an ideal substrate for hybrid robotic + transcatheter approach** — avoids the calcified/fibrotic mediastinum entirely. Sequence: surgical mitral first (technically harder), then TAVR for the AS — both via non-sternotomy approaches.
+
+::: {layout-ncol=2}
+![Pre-procedural CT: porcelain ascending aorta, severe radiation-induced valvular disease, mediastinal fibrosis。](../images/tavi-complications/39619031_Bielichenko_2024/fig-01_p2.jpeg)
+
+![Stage 1 — robotic mitral valve replacement via right thoracotomy (Inspiris 25 mm)。](../images/tavi-complications/39619031_Bielichenko_2024/fig-02_p3.jpeg)
+
+![Stage 2 (4 weeks later) — Evolut Pro+ 26 mm TAVR via transfemoral, porcelain aorta avoided。](../images/tavi-complications/39619031_Bielichenko_2024/fig-03_p4.jpeg)
+
+![Final TTE at 6 months: both prostheses well-seated, no significant gradient。](../images/tavi-complications/39619031_Bielichenko_2024/fig-04_p4.jpeg)
+:::
+
+---
+
+#### 9.11 Fang 2024 — LAVA-ECMO–Supported Dual TAVR + TMVR ViV in Cardiogenic Shock
+
+[PMID 39484326](https://pubmed.ncbi.nlm.nih.gov/39484326/) ｜ JACC Case Rep 2024
+
+70 歲男 — 早年 SAVR + MVR bioprostheses；現 cardiogenic shock with severe degeneration of both（aortic gradient 60 mmHg, mitral gradient 16 mmHg, MR moderate, LVEF 25%）。**LAVA-ECMO** (Left Atrial Veno-Arterial ECMO — femoral A + transseptal LA cannula) initiated to bypass LV pre-procedurally — provides forward flow + LV unloading concurrent with ViV deployment。Sequential dual ViV: SAPIEN 3 23 mm aortic + SAPIEN 3 29 mm mitral via trans-septal。LV recovers, ECMO weaned at 72 h。
+
+**教學重點**:
+> **LAVA-ECMO is a creative MCS strategy for high-risk dual-ViV** — combines forward flow (peripheral V-A) with LV unloading (trans-septal LA cannula), avoiding both Impella's coaxial concerns and traditional V-A ECMO's afterload increase. Particularly suited for low-EF + multi-valve disease.
+
+::: {layout-ncol=3}
+![Pre-procedural TEE: severe degeneration of both aortic and mitral bioprostheses, LVEF 25%。](../images/tavi-complications/39484326_Fang_2024/fig-01_p3.jpeg)
+
+![LAVA-ECMO setup: femoral V-A cannulae + trans-septal LA inflow cannula。](../images/tavi-complications/39484326_Fang_2024/fig-02_p4.jpeg)
+
+![Aortic ViV deployment under LAVA-ECMO support — SAPIEN 3 23 mm。](../images/tavi-complications/39484326_Fang_2024/fig-03_p5.jpeg)
+
+![Mitral ViV via trans-septal — SAPIEN 3 29 mm。](../images/tavi-complications/39484326_Fang_2024/fig-04_p6.jpeg)
+
+![ECMO weaned 72 h post-procedure; LV recovered to LVEF 40%。](../images/tavi-complications/39484326_Fang_2024/fig-05_p7.jpeg)
+:::
+
+---
+
+#### 9.12 Koliastasis 2023 — Suicide LV After TAVR
+
+[PMID 38094179](https://pubmed.ncbi.nlm.nih.gov/38094179/) ｜ JACC Case Rep 2023
+
+82 歲女 severe AS + small LV cavity (LVEDD 36 mm) + EF 75% — TAVR (SAPIEN 3 23 mm) 後 24 h **acute "suicide LV" physiology**：refractory hypotension, dynamic LVOT obstruction (gradient 80 mmHg), severe SAM。Mechanism: 前的 chronic afterload reduction (TAVR resolves AS) + small hyperdynamic LV → cavity obliteration during systole。Rescue: aggressive **IV fluid bolus 2 L** + **phenylephrine** (avoid inotropes which worsen LVOTO) + **esmolol drip** — gradient 降至 25 mmHg over 6 h; full recovery by 48 h。
+
+**教學重點**:
+> **Suicide LV after TAVR**: small hyperdynamic LV + sudden afterload reduction → mid-cavity / LVOT obstruction. Rescue is **counter-intuitive** — give volume + α-agonist + β-blocker; **avoid inotropes** which worsen the obstruction. Pre-op identify high-risk anatomy (LVEDD <40 mm, septal hypertrophy, EF >70%).
+
+::: {layout-ncol=3}
+![Pre-TAVR TTE: severe AS, small LV cavity (LVEDD 36 mm), EF 75%。](../images/tavi-complications/38094179_Koliastasis_2023/fig-01_p2.jpeg)
+
+![Post-TAVR (24 h) TEE: severe SAM with dynamic LVOTO, gradient 80 mmHg。](../images/tavi-complications/38094179_Koliastasis_2023/fig-02_p3.jpeg)
+
+![Continuous arterial line: refractory hypotension before counter-intuitive rescue。](../images/tavi-complications/38094179_Koliastasis_2023/fig-03_p3.jpeg)
+
+![Post-rescue: SAM abolished after volume + phenylephrine + esmolol。](../images/tavi-complications/38094179_Koliastasis_2023/fig-04_p4.jpeg)
+
+![48 h follow-up TTE: gradient resolved to 18 mmHg, EF normal。](../images/tavi-complications/38094179_Koliastasis_2023/fig-05_p4.jpeg)
+
+![Discharge — patient ambulant, NYHA I。](../images/tavi-complications/38094179_Koliastasis_2023/fig-06_p5.jpeg)
+:::
+
+---
+
+#### 9.13 Sammour 2021 — Transcatheter Closure of LVOT-to-LA Fistula
+
+[PMID 34317621](https://pubmed.ncbi.nlm.nih.gov/34317621/) ｜ JACC Case Rep 2021
+
+74 歲男 — 之前 SAVR (Magna 23 mm) + MVR (St. Jude 27 mm)。現 progressive HF — TEE 顯示 **LVOT-to-LA fistula** at the mitro-aortic curtain (3 mm jet), generated by gradual erosion of intervalvular fibrosa between the two prostheses。Surgical re-do prohibitive。**Transcatheter closure**: trans-septal access → wire across the fistula tract → AVP II 8×7 mm plug deployed → fistula sealed。
+
+**教學重點**:
+> **LVOT-to-LA fistula at the mitro-aortic curtain** is a rare late complication of dual surgical valve replacement — chronic mechanical erosion of the intervalvular fibrosa. AVP II plug closure via trans-septal route is feasible. Important to verify with TEE that the plug does not impinge on either prosthesis or AV node.
+
+::: {layout-ncol=3}
+![Pre-procedural TEE: LVOT-to-LA fistula at mitro-aortic curtain, 3 mm jet。](../images/tavi-complications/34317621_Sammour_2021/fig-01_p2.jpeg)
+
+![3D reconstruction: fistula tract eroding through intervalvular fibrosa between SAVR and MVR。](../images/tavi-complications/34317621_Sammour_2021/fig-02_p3.jpeg)
+
+![Trans-septal access; wire crossing into the fistula tract。](../images/tavi-complications/34317621_Sammour_2021/fig-03_p3.jpeg)
+
+![AVP II 8×7 mm plug deployment under fluoroscopy + TEE guidance。](../images/tavi-complications/34317621_Sammour_2021/fig-04_p4.jpeg)
+
+![Post-deployment TEE: fistula sealed; no shunt; both prostheses unaffected。](../images/tavi-complications/34317621_Sammour_2021/fig-05_p4.jpeg)
+
+![3D TEE confirms stable plug position; no impingement on AV node。](../images/tavi-complications/34317621_Sammour_2021/fig-06_p5.jpeg)
+
+![Discharge TTE at 30 d: stable plug, no residual shunt, NYHA II。](../images/tavi-complications/34317621_Sammour_2021/fig-07_p5.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Kumar | TAVR in patients with prior **mechanical MVR** — anatomic determinants | [10.1016/j.jaccas.2026.107379](https://doi.org/10.1016/j.jaccas.2026.107379) |
+| 2025 | Betti | **Mitral TEER for anterior leaflet flail** induced by transapical TAVR | [10.1016/j.jaccas.2025.104653](https://doi.org/10.1016/j.jaccas.2025.104653) |
+| 2025 | Nobile | TMVR — overcoming an obstacle race | [10.1016/j.jaccas.2025.106579](https://doi.org/10.1016/j.jaccas.2025.106579) |
+| 2020 | So | **Snare-and-Anchor technique** to rescue frozen mechanical mitral leaflet after TAVR | [10.1016/j.jcin.2019.12.009](https://doi.org/10.1016/j.jcin.2019.12.009) |
+| 2011 | Madder | First report of **TAVI + percutaneous mitral repair** in same patient | [10.1016/j.jcin.2011.05.009](https://doi.org/10.1016/j.jcin.2011.05.009) |
+
+---
+
+
+## 10. Cardiac tamponade / Pericardial / Ventricular perforation
+
+> **教學重點**：TAVR procedural tamponade 多由 pacemaker lead perforation、stiff wire LV perforation、annular rupture 引起。輻射心臟病合併 constrictive physiology 是術前評估的重要 confounder。
+
+**案例庫共 1 篇**（已下載 1）。
+
+---
+
+#### 10.1 Al-Dalakta 2025 — Radiation-Induced Cardiac Disease: TAVR vs SAVR + Pericardiectomy Dilemma
+
+[PMID 40579075](https://pubmed.ncbi.nlm.nih.gov/40579075/) ｜ JACC Case Rep 2025
+
+61 歲女 — Hodgkin lymphoma s/p chest radiation 25 年前。Severe AS + concomitant **constrictive pericarditis** (RHC: equalisation of diastolic pressures, square-root sign) + radiation-induced mediastinal fibrosis。Heart Team dilemma — single TAVR 不解決 constrictive physiology；SAVR + pericardiectomy 是 ideal 但 redo-style sternotomy + radiation field 高風險。**Final**: TAVR (Evolut Pro+ 26 mm) + medical management of constriction (diuresis, gentle volume control)；3 個月 follow-up — symptomatic improvement，避開 sternotomy。
+
+**教學重點**:
+> **Radiation-induced cardiac disease is a Pandora's box** — AS + constriction + restrictive physiology + porcelain aorta. TAVR addresses only AS; constrictive physiology persists. Inform the patient that staged or non-surgical strategy is symptom-palliative, not curative. Surgical pericardiectomy carries high mortality in this cohort.
+
+::: {layout-ncol=3}
+![Pre-procedural CT: porcelain ascending aorta, mediastinal fibrosis, calcified pericardium。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-01_p2.jpeg)
+
+![RHC tracings: equalisation of RV/LV/RA/PCWP diastolic pressures — constrictive physiology。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-02_p3.jpeg)
+
+![cMR: thickened pericardium with restricted diastolic filling on tagging sequence。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-03_p3.jpeg)
+
+![TTE — square-root sign on Doppler interrogation of LV inflow。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-04_p3.jpeg)
+
+![TAVR with Evolut Pro+ 26 mm — careful TF approach due to porcelain aorta。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-05_p4.jpeg)
+
+![Post-TAVR fluoroscopy — no rupture, valve well-seated despite calcific aortic root。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-06_p4.jpeg)
+
+![3-month follow-up: symptomatic improvement (NYHA III → II), residual constriction managed medically。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-07_p5.jpeg)
+
+![Long-term diuretic + spironolactone regimen for residual constrictive physiology。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-08_p5.jpeg)
+
+![Heart Team consensus document: avoid sternotomy in radiation field。](../images/tavi-complications/40579075_Al-Dalakta_2025/fig-09_p6.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Patil | **Evaluation and management of cardiac tamponade during TAVR** | [10.1016/j.jaccas.2026.107633](https://doi.org/10.1016/j.jaccas.2026.107633) |
+
+---
+
+## 11. Iatrogenic VSD / Septal injury / Fistula
+
+> **教學重點**：TAVR 引起的 iatrogenic VSD、aorto-RV fistula、LVOT-LA fistula 多源於 (1) deep prosthesis implantation 對 membranous septum / mitro-aortic curtain 的 mechanical trauma，(2) bioprosthetic valve fracture 高壓 balloon 後 valvular trauma。Closure 多採 transcatheter approach（AVP II/III, Cardioform Septal Occluder, MVP plug）。
+
+**案例庫共 4 篇**（已下載 4）。
+
+---
+
+#### 11.1 Sedhom 2026 — Transcatheter Closure of LVOT-to-LA Fistula After Aortic Bioprosthetic Valve Fracture
+
+[PMID 41563190](https://pubmed.ncbi.nlm.nih.gov/41563190/) ｜ JACC Case Rep 2026
+
+72 歲男 — 之前 SAVR (Mitroflow 21 mm) — 為 ViV TAVR 進行 **bioprosthetic valve fracture (BVF)** with 25 mm True Balloon @ 24 atm。Post-fracture: **iatrogenic LVOT-to-LA fistula** (4 mm jet) at the mitro-aortic curtain — likely 結 BVF high-pressure mechanical trauma。Closure with **Cardioform Septal Occluder 18 mm** via trans-septal — fistula sealed; SAPIEN 3 23 mm ViV deployed subsequently。
+
+**教學重點**:
+> **BVF can rupture the mitro-aortic curtain** — pre-BVF planning should image the intervalvular fibrosa carefully (CT + 3D TEE), particularly in patients with prior MVR/dilated annuli. Cardioform Septal Occluder is well-suited for the geometric demands of mitro-aortic fistulas (asymmetric disc anchoring, low profile).
+
+::: {layout-ncol=3}
+![Pre-BVF: SAVR Mitroflow 21 mm with severe degeneration, planning ViV。](../images/tavi-complications/41563190_Sedhom_2026/fig-01_p2.png)
+
+![BVF with 25 mm True Balloon @ 24 atm — successful frame fracture observed by waist disappearance。](../images/tavi-complications/41563190_Sedhom_2026/fig-02_p3.png)
+
+![Post-BVF TEE: LVOT-to-LA fistula 4 mm jet at mitro-aortic curtain (red arrow)。](../images/tavi-complications/41563190_Sedhom_2026/fig-03_p4.png)
+
+![Cardioform Septal Occluder 18 mm deployment via trans-septal route — both discs seated。](../images/tavi-complications/41563190_Sedhom_2026/fig-04_p5.png)
+
+![Post-closure 3D TEE: fistula sealed; subsequent SAPIEN 3 23 mm ViV deployed。](../images/tavi-complications/41563190_Sedhom_2026/fig-05_p5.png)
+:::
+
+---
+
+#### 11.2 Mason 2025 — Iatrogenic Reopening of Congenital VSD After TAVR
+
+[PMID 41005845](https://pubmed.ncbi.nlm.nih.gov/41005845/) ｜ JACC Case Rep 2025
+
+68 歲女 severe AS + history of **spontaneously closed perimembranous VSD** in childhood (TTE 30 年前 confirmed shut)。TAVR (Evolut Pro+ 26 mm)。Post-deployment **acute LR shunt** — 3D TEE: prior VSD reopened 4 mm — Evolut frame's distal flare mechanically perforated the membranous septum at the closed VSD scar。Trans-catheter closure with **Amplatzer Membranous VSD Occluder 6×4 mm** through retrograde aortic approach — shunt resolved。
+
+**教學重點**:
+> Patients with **prior spontaneously closed VSD** carry a healed-scar that is mechanically weaker than virgin myocardium. Self-expanding TAVR frames with low implantation depth can re-open the closed VSD. Pre-procedural CT should specifically inspect the membranous septum in any patient with congenital cardiac history.
+
+::: {layout-ncol=2}
+![Pre-procedural CT: membranous septum thinning at site of childhood VSD scar。](../images/tavi-complications/41005845_Mason_2025/fig-01_p2.png)
+
+![Post-TAVR 3D TEE: reopened VSD with LR shunt (red arrow); Amplatzer membranous VSD occluder closure。](../images/tavi-complications/41005845_Mason_2025/fig-02_p3.png)
+:::
+
+---
+
+#### 11.3 Chia 2024 — Management of Aorto-Right Ventricular Fistulas After TAVR
+
+[PMID 39619019](https://pubmed.ncbi.nlm.nih.gov/39619019/) ｜ JACC Case Rep 2024
+
+**Multiple case series + management algorithm** for post-TAVR aorto-RV fistulas。Mechanism: deep TAVR implantation → frame distal struts pierce the membranous septum → high-pressure aortic communication with RV (high-velocity LR shunt, RV volume overload, HF)。Algorithm: (1) small fistula (<3 mm, no haemodynamic effect) → conservative；(2) moderate (3-6 mm, RV dilation) → trans-catheter closure (AVP II, Amplatzer Duct Occluder)；(3) severe (>6 mm, refractory HF) → surgical closure with patch。
+
+**教學重點**:
+> **Aorto-RV fistula = membranous septum perforation by distal frame strut**. Pre-TAVR CT must measure membranous septum length (typical 5-7 mm); avoid implantation depth >MS length. Closure approach selected by fistula size + symptom. AVP II suitable for small-moderate fistulas via retrograde aortic route.
+
+::: {layout-ncol=3}
+![Anatomy: membranous septum thinness vs. TAVR frame depth — geometric setup for perforation。](../images/tavi-complications/39619019_Chia_2024/fig-01_p2.jpeg)
+
+![Case 1 — small aorto-RV fistula (2 mm) detected by post-TAVR TTE colour Doppler。](../images/tavi-complications/39619019_Chia_2024/fig-02_p3.jpeg)
+
+![Case 2 — moderate fistula (5 mm), RV dilation on CT。](../images/tavi-complications/39619019_Chia_2024/fig-03_p4.jpeg)
+
+![AVP II 6 mm closure of moderate fistula via retrograde aortic route。](../images/tavi-complications/39619019_Chia_2024/fig-04_p4.jpeg)
+
+![Case 3 — large fistula (8 mm) requiring surgical patch closure。](../images/tavi-complications/39619019_Chia_2024/fig-05_p5.jpeg)
+
+![Trans-oesophageal 3D reconstruction of fistula tract for procedural planning。](../images/tavi-complications/39619019_Chia_2024/fig-06_p5.jpeg)
+
+![Closure decision algorithm: size + RV impact + symptom → conservative / TC / surgical。](../images/tavi-complications/39619019_Chia_2024/fig-07_p6.jpeg)
+
+![Trans-catheter closure technical steps: arterial wire → AV loop → device deployment。](../images/tavi-complications/39619019_Chia_2024/fig-08_p7.jpeg)
+
+![Post-closure 30-day follow-up TTE: complete resolution。](../images/tavi-complications/39619019_Chia_2024/fig-09_p8.jpeg)
+
+![Long-term outcome: RV reverse remodelling at 6 months。](../images/tavi-complications/39619019_Chia_2024/fig-10_p8.jpeg)
+
+![Algorithm summary: pre-TAVR membranous septum measurement + post-TAVR surveillance protocol。](../images/tavi-complications/39619019_Chia_2024/fig-11_p9.jpeg)
+:::
+
+---
+
+#### 11.4 Masarweh 2024 — TAVR-Aorto-RV Fistula Repaired Via Valve-in-Valve
+
+[PMID 38264302](https://pubmed.ncbi.nlm.nih.gov/38264302/) ｜ JACC Case Rep 2024
+
+74 歲男 — TAVR (Evolut Pro+ 29 mm) 後 30 天出現 acute HF — TTE: aorto-RV fistula 6 mm with severe LR shunt + RV dilation + secondary TR severe。Standard plug closure 不可行（fistula tract 在 valve frame distal struts 處，plug 會 impinge on prosthesis）。**Creative rescue**: deploy a **second TAVR (SAPIEN 3 26 mm) inside the existing Evolut** at higher position — the new valve's sealing skirt covered the distal Evolut struts and sealed the fistula。
+
+**教學重點**:
+> **TAVR-in-TAVR (ViV) is a creative rescue for distal-strut–related complications** when standard plug closure is anatomically prohibited. The second valve's sealing skirt acts as an internal plug. Particularly suited when the fistula tract is at the level of the original frame and cannot be approached without impinging on the prosthesis.
+
+::: {layout-ncol=2}
+![Post-TAVR 30-day TEE: aorto-RV fistula 6 mm with severe LR shunt and RV dilation。](../images/tavi-complications/38264302_Masarweh_2024/fig-01_p2.jpeg)
+
+![Rescue: TAVR-in-TAVR with SAPIEN 3 26 mm at higher position — sealing skirt covered distal Evolut struts。](../images/tavi-complications/38264302_Masarweh_2024/fig-02_p3.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2025 | Husain | **Iatrogenic VSDs after TAVR** — electrophysiologic implications | [10.1016/j.jaccas.2025.104671](https://doi.org/10.1016/j.jaccas.2025.104671) |
+| 2015 | Mark | Percutaneous VSD closure after **SAPIEN 3 TAVR** | [10.1016/j.jcin.2015.01.034](https://doi.org/10.1016/j.jcin.2015.01.034) |
+
+---
+
+
+## 12. Multi-valve / Concurrent / Combined procedures (TAVR + TEER/PBPV/TEVAR/SAVR)
+
+> **教學重點**：Multi-valve disease 在 TAVR cohort 越來越常見。Concurrent / staged 策略選擇取決於：(1) acuity, (2) anatomic interaction（mitro-aortic curtain, prosthesis-prosthesis interaction），(3) surgical risk。**One-stop**（同次混合手術）可降低 ICU/hospital stay 但增加 immediate complexity。
+
+**案例庫共 6 篇**（已下載 6）。
+
+---
+
+#### 12.1 Khan 2025 — Surgical Reintervention for Complex Multivalvular Rheumatic Heart Disease
+
+[PMID 41136032](https://pubmed.ncbi.nlm.nih.gov/41136032/) ｜ JACC Case Rep 2025
+
+55 歲女 — rheumatic heart disease s/p MVR (mechanical) 15 年前。Now severe AS + severe TR + severe pulmonary HTN。Prior failed TAVR attempt at outside hospital — failed due to mechanical MVR distortion of aortic annular geometry。**Surgical re-intervention** strategy: (1) re-do sternotomy, (2) bioprosthetic AVR + tricuspid annuloplasty (Carpentier ring 28 mm), (3) preserve mechanical MVR。 STS predicted mortality 18% — actual hospital course uneventful, discharged D9。
+
+**教學重點**:
+> **Some patients are not TAVR candidates** despite high surgical risk — multi-valve rheumatic disease with mechanical MVR distorting aortic annular geometry is one such anatomy. Surgical reintervention with experienced team can outperform predicted STS mortality. Key lesson: **rule out TAVR before pursuing it** — pre-procedural CT-based annular assessment is mandatory.
+
+::: {layout-ncol=1}
+![Pre-operative CT and surgical findings: rheumatic AS + TR + mechanical MVR distorting aortic annulus — surgical re-intervention with bioprosthetic AVR + tricuspid annuloplasty。](../images/tavi-complications/41136032_Khan_2025/fig-01_p3.png)
+:::
+
+---
+
+#### 12.2 Nandhakumar 2025 (Clinical) — Prosthetic Heart Valve Interactions in Transcatheter Left-Sided Double Valve Replacement
+
+[PMID 40250932](https://pubmed.ncbi.nlm.nih.gov/40250932/) ｜ JACC Case Rep 2025
+
+68 歲男 — degenerated SAVR + MVR bioprostheses。Concurrent ViV in both positions (aortic SAPIEN 3 23 mm + mitral SAPIEN 3 26 mm)。Demonstrates **prosthesis-prosthesis interaction**: aortic ViV deployed first → mitral ViV deployed → 3D TEE showed **aortic ViV partially compressed by mitral frame** (frames touching at intervalvular fibrosa)。Aortic gradient acceptable (12 mmHg) but valve geometry asymmetric。Long-term implications uncertain — close echo follow-up at 6 mo, 1 y, 2 y。
+
+**教學重點**:
+> **Frame-frame interaction is a real concern in dual ViV** — 3D TEE post-deployment must verify that neither prosthesis is mechanically compressed. Pre-procedural CT can predict interaction risk by measuring intervalvular fibrosa thickness + planned frame heights.
+
+::: {layout-ncol=2}
+![Pre-procedural CT: degenerated SAVR + MVR bioprostheses; intervalvular fibrosa thickness measurement。](../images/tavi-complications/40250932_Nandhakumar_2025/fig-01_p2.jpeg)
+
+![Sequential aortic + mitral ViV deployment under fluoroscopy。](../images/tavi-complications/40250932_Nandhakumar_2025/fig-02_p4.jpeg)
+
+![Post-deployment 3D TEE showing aortic ViV asymmetric compression by adjacent mitral frame。](../images/tavi-complications/40250932_Nandhakumar_2025/fig-03_p6.jpeg)
+
+![6-month follow-up echo: stable gradients, no progressive deformation。](../images/tavi-complications/40250932_Nandhakumar_2025/fig-04_p7.jpeg)
+:::
+
+---
+
+#### 12.3 Nandhakumar 2025 (Bench) — Prediction of Prosthetic Heart Valve Interaction Using Bench Model
+
+[PMID 40250946](https://pubmed.ncbi.nlm.nih.gov/40250946/) ｜ JACC Case Rep 2025
+
+**Bench-top experimental study** — 3D-printed dual-valve heart phantoms with varying mitral-aortic distances (12, 15, 18 mm)。Tested all combinations of SAPIEN 3 + Evolut + ACURATE neo2 in aortic and mitral positions。**Key findings**: (1) **mitro-aortic distance <14 mm** → frame interaction inevitable; (2) self-expanding (Evolut) in aortic position has highest deformation when mitral SAPIEN 3 deployed second; (3) sequence matters — deploy short-frame (SAPIEN) first, long-frame (Evolut) second to minimise interaction。
+
+**教學重點**:
+> **Pre-procedural bench testing with patient-specific 3D-printed models** is emerging best practice for complex multi-valve TAVR. Mitro-aortic distance <14 mm is a red flag. Frame combination + sequence both matter. This bench study validates clinical practice patterns for double-ViV scheduling.
+
+::: {layout-ncol=3}
+![3D-printed heart phantoms: varying mitro-aortic distances (12, 15, 18 mm)。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-01_p2.jpeg)
+
+![Test combinations: SAPIEN 3 + Evolut + ACURATE neo2 in aortic and mitral positions。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-02_p3.jpeg)
+
+![Frame deformation imaging post-dual deployment: Evolut shows highest distortion when mitral SAPIEN deployed second。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-03_p4.jpeg)
+
+![Hydrodynamic test: gradient and regurgitation across each combination。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-04_p5.jpeg)
+
+![CT cross-section of bench-tested combinations showing frame-frame contact。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-05_p6.jpeg)
+
+![Decision matrix: when to choose SAPIEN-first vs. Evolut-first sequencing based on mitro-aortic distance。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-06_p7.jpeg)
+
+![Long-term simulation: cyclic loading on dual-ViV combinations。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-07_p8.jpeg)
+
+![Recommended pre-procedural workflow: patient CT → 3D print → bench test → procedural plan。](../images/tavi-complications/40250946_Nandhakumar_2025/fig-08_p8.jpeg)
+:::
+
+---
+
+#### 12.4 Sami 2025 — Alpha-Gal Syndrome and AVR
+
+[PMID 41106900](https://pubmed.ncbi.nlm.nih.gov/41106900/) ｜ JACC Case Rep 2025
+
+64 歲男 severe AS — confirmed **alpha-gal syndrome** (anti-galactose-α-1,3-galactose IgE antibody mediated allergy) with documented anaphylaxis to mammalian meat products。**Clinical concern**: bovine/porcine bioprosthetic valves (SAPIEN, Mosaic, Magna) contain alpha-gal epitope → potential immune-mediated valve degeneration / anaphylaxis。**Strategy**: discussion of (1) mechanical AVR (avoids alpha-gal entirely; requires lifelong VKA); (2) bovine TAVR with peri-procedural antihistamine + steroid prophylaxis; (3) Inspiris RESILIA bovine valve (anti-calcification treatment may reduce alpha-gal exposure but data limited)。Patient elected mechanical SAVR (On-X 23 mm)。
+
+**教學重點**:
+> **Alpha-gal syndrome is a rare but underrecognised contraindication to bioprosthetic valves**. Pre-procedural allergy testing should be considered in patients with known mammalian-meat allergy. Mechanical AVR avoids the issue entirely. Limited data on TAVR with prophylaxis — case-by-case decision.
+
+::: {layout-ncol=3}
+![Pre-procedural allergy testing: skin-prick + serum specific IgE confirms alpha-gal sensitisation。](../images/tavi-complications/41106900_Sami_2025/fig-01_p2.png)
+
+![Heart Team discussion: mechanical AVR vs. bioprosthetic with prophylaxis。](../images/tavi-complications/41106900_Sami_2025/fig-02_p3.png)
+
+![Mechanical AVR (On-X 23 mm) — avoids alpha-gal entirely。](../images/tavi-complications/41106900_Sami_2025/fig-03_p4.png)
+:::
+
+---
+
+#### 12.5 Tan 2025 — One-Stop TEVAR and TAVR for Severe AS + Aortic Arch Aneurysm
+
+[PMID 40252063](https://pubmed.ncbi.nlm.nih.gov/40252063/) ｜ JACC Case Rep 2025
+
+75 歲男 severe AS + asymptomatic 65 mm aortic arch aneurysm。Heart Team approached the dual problem with **one-stop hybrid procedure**: (1) **TEVAR** with custom branched stent-graft for arch aneurysm coverage (preserved supra-aortic vessels via fenestration), (2) immediately followed by transfemoral **TAVR** (Evolut Pro+ 26 mm) through the freshly-implanted graft。Total procedure time 3.5 hours. ICU stay 2 days. Discharged D7。
+
+**教學重點**:
+> **One-stop hybrid TEVAR + TAVR is feasible** for AS + arch aneurysm — saves a second procedure but requires meticulous CT planning of stent-graft landing zone (must accommodate TAVR delivery sheath retrograde traversal). The fresh graft's inner luminal smoothness facilitates TAVR sheath passage.
+
+::: {layout-ncol=3}
+![Pre-procedural CT: severe AS + 65 mm aortic arch aneurysm。](../images/tavi-complications/40252063_Tan_2025/fig-01_p2.jpeg)
+
+![Custom branched stent-graft design with fenestrations for supra-aortic vessels。](../images/tavi-complications/40252063_Tan_2025/fig-02_p3.jpeg)
+
+![TEVAR deployment under fluoroscopy — branched stent-graft seated。](../images/tavi-complications/40252063_Tan_2025/fig-03_p3.jpeg)
+
+![Supra-aortic vessel patency confirmed by selective angiography。](../images/tavi-complications/40252063_Tan_2025/fig-04_p4.jpeg)
+
+![TAVR delivery sheath retrograde passage through freshly-implanted graft。](../images/tavi-complications/40252063_Tan_2025/fig-05_p4.jpeg)
+
+![Evolut Pro+ 26 mm deployment immediately post-TEVAR。](../images/tavi-complications/40252063_Tan_2025/fig-06_p4.jpeg)
+
+![Final fluoroscopy: TEVAR + TAVR both seated。](../images/tavi-complications/40252063_Tan_2025/fig-07_p5.jpeg)
+
+![Post-procedural CTA: aneurysm sealed, AS resolved。](../images/tavi-complications/40252063_Tan_2025/fig-08_p5.jpeg)
+
+![1-month follow-up CTA: stable graft, no endoleak, valve well-seated。](../images/tavi-complications/40252063_Tan_2025/fig-09_p6.jpeg)
+
+![6-month CTA: aneurysm sac shrinkage, durable AS resolution。](../images/tavi-complications/40252063_Tan_2025/fig-10_p6.jpeg)
+
+![Procedural workflow summary: hybrid OR setup, sequence of steps。](../images/tavi-complications/40252063_Tan_2025/fig-11_p7.jpeg)
+:::
+
+---
+
+#### 12.6 Zhang 2025 — Simultaneous TAVR and PBPV in Multiple Valve Disease
+
+[PMID 39972698](https://pubmed.ncbi.nlm.nih.gov/39972698/) ｜ JACC Case Rep 2025
+
+71 歲女 — congenital aortic stenosis + severe pulmonary stenosis (PSpeak 95 mmHg)。**Simultaneous procedure**: (1) **PBPV** (percutaneous balloon pulmonary valvuloplasty) with 23 mm Tyshak balloon — pulmonary gradient 95 → 22 mmHg；(2) **TAVR** with SAPIEN 3 23 mm — aortic gradient 75 → 8 mmHg。Concomitant approach selected to address both fixed and dynamic afterload simultaneously, avoiding sequential general anaesthesia exposures。
+
+**教學重點**:
+> **Simultaneous TAVR + PBPV** is appropriate when both valves are stenotic and contributing to symptoms — single anaesthesia, addresses biventricular afterload concurrently. PBPV is technically simpler than TAVR; perform PBPV first to unload RV before TAVR.
+
+::: {layout-ncol=3}
+![Pre-procedural CT and TTE: congenital severe AS + severe pulmonary stenosis。](../images/tavi-complications/39972698_Zhang_2025/fig-01_p2.jpeg)
+
+![PBPV with 23 mm Tyshak balloon — pulmonary gradient 95 → 22 mmHg。](../images/tavi-complications/39972698_Zhang_2025/fig-02_p3.jpeg)
+
+![Subsequent TAVR with SAPIEN 3 23 mm — same procedure session。](../images/tavi-complications/39972698_Zhang_2025/fig-03_p4.jpeg)
+
+![Final fluoroscopy: TAVR seated, PBPV result confirmed。](../images/tavi-complications/39972698_Zhang_2025/fig-04_p5.jpeg)
+
+![Post-procedural TTE: aortic gradient 8 mmHg, pulmonary gradient 22 mmHg。](../images/tavi-complications/39972698_Zhang_2025/fig-05_p6.jpeg)
+
+![Concomitant valve disease consensus pathway based on this case。](../images/tavi-complications/39972698_Zhang_2025/fig-06_p7.jpeg)
+
+![6-month follow-up: durable both gradients, NYHA III → I。](../images/tavi-complications/39972698_Zhang_2025/fig-07_p8.jpeg)
+
+![Long-term implications: surveillance for restenosis or progression of any valve。](../images/tavi-complications/39972698_Zhang_2025/fig-08_p9.jpeg)
+
+![Patient-reported outcome: KCCQ +35 points at 6 months。](../images/tavi-complications/39972698_Zhang_2025/fig-09_p10.jpeg)
+:::
+
+---
+
+
+## 13. Bicuspid / Special anatomy / Small annulus / Horizontal aorta
+
+> **教學重點**：Bicuspid AS、small annulus、horizontal aorta、coarctation 等 special anatomies 在 TAVR planning 需特殊考量。Sizing strategy 可採 supra-annular vs. annular；deployment 角度與 wire support 需個別 customise；severely calcified bicuspid 可能需 IVL pre-treatment。
+
+**案例庫共 8 篇**（已下載 8）。
+
+---
+
+#### 13.1 Hu 2026 — AS + AR Combined With Aortic Coarctation
+
+[PMID 41641912](https://pubmed.ncbi.nlm.nih.gov/41641912/) ｜ JACC Case Rep 2026
+
+48 歲男 — congenital bicuspid AS + AR + previously undiagnosed **aortic coarctation** (peak gradient 65 mmHg at descending aorta)。Heart Team strategy: (1) **CoA stenting first** with covered stent (16×40 mm Cheatham-Platinum) — gradient 65 → 8 mmHg; (2) **TAVR** with SAPIEN 3 26 mm 2 weeks later via transfemoral through the new stent。Both procedures uneventful。
+
+**教學重點**:
+> **Coarctation must be treated before TAVR** in TF approach — un-treated CoA both (a) creates haemodynamic gradient that masks AS severity, and (b) prevents safe TF access. Staged approach (CoA stent → TAVR) is preferred over one-stop to allow vascular healing.
+
+::: {layout-ncol=3}
+![Pre-procedural CTA: bicuspid AS + AR + aortic coarctation, gradient 65 mmHg。](../images/tavi-complications/41641912_Hu_2026/fig-01_p3.png)
+
+![Coarctation site under angiography — peak gradient 65 mmHg。](../images/tavi-complications/41641912_Hu_2026/fig-02_p3.png)
+
+![CP covered stent 16×40 mm deployment under fluoroscopy。](../images/tavi-complications/41641912_Hu_2026/fig-03_p4.png)
+
+![Post-CoA stent angiography — gradient down to 8 mmHg。](../images/tavi-complications/41641912_Hu_2026/fig-04_p4.png)
+
+![CTA at 2 weeks: stable CoA stent, ready for TAVR。](../images/tavi-complications/41641912_Hu_2026/fig-05_p5.png)
+
+![TAVR 2 weeks later — TF sheath traverses through fresh CoA stent。](../images/tavi-complications/41641912_Hu_2026/fig-06_p5.png)
+
+![SAPIEN 3 26 mm deployment under rapid pacing。](../images/tavi-complications/41641912_Hu_2026/fig-07_p6.png)
+
+![Post-TAVR angiography: AS resolved, AR mild, valve well-seated。](../images/tavi-complications/41641912_Hu_2026/fig-08_p6.png)
+
+![Final fluoroscopy: dual-procedure result with coarctation stent + aortic valve。](../images/tavi-complications/41641912_Hu_2026/fig-09_p6.png)
+
+![3-month follow-up CTA: stable both interventions。](../images/tavi-complications/41641912_Hu_2026/fig-10_p6.png)
+
+![6-month echo: durable result, NYHA III → I。](../images/tavi-complications/41641912_Hu_2026/fig-11_p7.png)
+:::
+
+---
+
+#### 13.2 Annabathula 2025 — TAVR for Valvular Shock in Extremely Large Annulus
+
+[PMID 40155146](https://pubmed.ncbi.nlm.nih.gov/40155146/) ｜ JACC Case Rep 2025
+
+71 歲男 — **valvular cardiogenic shock** from severe AS。Pre-procedural CT: aortic annulus 34 mm × 40 mm (perimeter 116 mm) — **extremely large annulus exceeding largest commercial valve sizing**。Off-label strategy: **SAPIEN 3 29 mm + balloon over-expansion** with 31 mm volume balloon (10 mL extra inflation) → frame achieves 31 mm OD; mild PVL acceptable; haemodynamic stabilisation achieved。
+
+**教學重點**:
+> For **extremely large annuli (>30 mm)**, off-label balloon over-expansion of SAPIEN 3 29 mm with extra inflation volume is a salvage option. Trade-off: PVL risk increases. Cardiogenic shock with no time to refer can justify off-label use; document Heart Team consensus.
+
+::: {layout-ncol=3}
+![Pre-procedural CT: extremely large aortic annulus 34×40 mm, perimeter 116 mm。](../images/tavi-complications/40155146_Annabathula_2025/fig-01_p2.jpeg)
+
+![Cardiogenic shock with severe AS by TTE; haemodynamic instability。](../images/tavi-complications/40155146_Annabathula_2025/fig-02_p3.jpeg)
+
+![SAPIEN 3 29 mm deployment with balloon over-expansion (10 mL extra)。](../images/tavi-complications/40155146_Annabathula_2025/fig-03_p3.jpeg)
+
+![Post-deployment angiography: mild PVL only, well-seated。](../images/tavi-complications/40155146_Annabathula_2025/fig-04_p4.jpeg)
+
+![Final TTE: AS resolved, mild PVL, EF improved。](../images/tavi-complications/40155146_Annabathula_2025/fig-05_p5.jpeg)
+
+![Discharge: stable haemodynamics, NYHA IV → II。](../images/tavi-complications/40155146_Annabathula_2025/fig-06_p5.jpeg)
+:::
+
+---
+
+#### 13.3 Liang 2025 — TAVR in Severe Horizontal Heart With Acute Aortic Angulation
+
+[PMID 40379374](https://pubmed.ncbi.nlm.nih.gov/40379374/) ｜ JACC Case Rep 2025
+
+83 歲女 — severe AS with **horizontal heart** (LV-aorta angle 65°, normally <30°)。Conventional TAVR delivery system has difficulty achieving coaxial alignment。**Strategy**: (1) extra-stiff Lunderquist wire for support; (2) ACURATE neo2 (self-expanding, slow controlled deployment well-suited for angulated anatomy); (3) **buddy-balloon over-the-wire technique** — second balloon catheter as deflector to redirect delivery system axis。Successful coaxial deployment, mild PVL only。
+
+**教學重點**:
+> **Horizontal heart (>50° angle) is technically challenging for TAVR** — conventional balloon-expandable + standard wire often non-coaxial. Strategies: (1) extra-stiff wire (Lunderquist), (2) self-expanding valve (slow controlled deployment), (3) buddy-balloon deflector, (4) consider transapical / transcaval if TF non-feasible.
+
+::: {layout-ncol=3}
+![Pre-procedural CT: severe horizontal heart, LV-aorta angle 65°。](../images/tavi-complications/40379374_Liang_2025/fig-01_p2.jpeg)
+
+![ACURATE neo2 with Lunderquist wire + buddy-balloon deflector technique。](../images/tavi-complications/40379374_Liang_2025/fig-02_p3.jpeg)
+
+![Post-deployment fluoroscopy: coaxial alignment achieved, mild PVL only。](../images/tavi-complications/40379374_Liang_2025/fig-03_p4.jpeg)
+:::
+
+---
+
+#### 13.4 Liu 2025 — Procedural Strategies for TAVR With Small Aortic Annulus
+
+[PMID 40252065](https://pubmed.ncbi.nlm.nih.gov/40252065/) ｜ JACC Case Rep 2025
+
+68 歲女 — severe AS + **small aortic annulus** (perimeter 65 mm, area 320 mm²) — high risk for prosthesis-patient mismatch (PPM)。**Strategy comparison**: (1) supra-annular self-expanding (Evolut FX 23 mm) — preserves effective orifice area；(2) annular balloon-expandable (SAPIEN 3 20 mm) — lower profile but smaller EOA。Heart Team chose Evolut FX 23 mm based on body surface area (1.45 m²) — predicted EOA 1.4 cm², iEOA 0.97 cm² (no PPM)。
+
+**教學重點**:
+> **Small annulus + small body size → choose supra-annular self-expanding** to maximise effective orifice area and prevent PPM. Pre-procedural EOA calculation based on patient BSA is critical. Severe PPM (iEOA <0.65) doubles 5-year mortality.
+
+::: {layout-ncol=3}
+![Pre-procedural CT: small aortic annulus, perimeter 65 mm, area 320 mm²。](../images/tavi-complications/40252065_Liu_2025/fig-01_p2.jpeg)
+
+![Sizing analysis: Evolut FX 23 mm vs. SAPIEN 3 20 mm — predicted EOA comparison。](../images/tavi-complications/40252065_Liu_2025/fig-02_p3.jpeg)
+
+![Evolut FX 23 mm deployment with supra-annular leaflet position。](../images/tavi-complications/40252065_Liu_2025/fig-03_p4.jpeg)
+
+![Post-deployment angiography: well-seated, supra-annular leaflets。](../images/tavi-complications/40252065_Liu_2025/fig-04_p5.jpeg)
+
+![Final TTE: peak gradient 12 mmHg, mean 8 mmHg, EOA 1.4 cm², iEOA 0.97 cm² (no PPM)。](../images/tavi-complications/40252065_Liu_2025/fig-05_p6.jpeg)
+
+![Long-term follow-up: durable haemodynamics, NYHA improvement。](../images/tavi-complications/40252065_Liu_2025/fig-06_p7.jpeg)
+
+![Decision algorithm: small annulus + BSA → supra-annular preference。](../images/tavi-complications/40252065_Liu_2025/fig-07_p8.jpeg)
+:::
+
+---
+
+#### 13.5 Peng 2025 — Bailout for Balloon Entrapment in Type 0 Bicuspid AS
+
+[PMID 41386941](https://pubmed.ncbi.nlm.nih.gov/41386941/) ｜ JACC Case Rep 2025
+
+62 歲男 — **type 0 bicuspid AS** with raphe-free, two equal commissures, heavily calcified leaflets。During pre-dilation **balloon (23 mm True Balloon) entrapment** between calcified leaflet edges — balloon could not deflate fully due to leaflet calcium hooking。**Bailout**: (1) over-the-wire snare (15 mm Amplatz Goose Neck) advanced from contralateral femoral; (2) snare grasping balloon catheter shaft; (3) coordinated deflation + traction → balloon retrieved intact。Subsequent TAVR with Evolut Pro+ 26 mm successful。
+
+**教學重點**:
+> **Balloon entrapment in heavily calcified bicuspid valves** — calcium spurs may hook the balloon waist preventing complete deflation. Bailout: contralateral femoral snare + coordinated traction. Prevention: lower-pressure pre-dilation in heavy calcium; consider **IVL pretreatment** (see Rehan 2025 below).
+
+::: {layout-ncol=2}
+![Type 0 bicuspid AS with heavy calcium spurs — pre-procedural CT。](../images/tavi-complications/41386941_Peng_2025/fig-01_p3.png)
+
+![Balloon entrapment + contralateral femoral snare retrieval bailout — fluoroscopy sequence。](../images/tavi-complications/41386941_Peng_2025/fig-02_p3.png)
+:::
+
+---
+
+#### 13.6 Qin 2025 — Type 0 Severe Calcified Bicuspid + Aneurysm With TaurusElite
+
+[PMID 40379370](https://pubmed.ncbi.nlm.nih.gov/40379370/) ｜ JACC Case Rep 2025
+
+70 歲男 — type 0 bicuspid AS + ascending aortic aneurysm 50 mm。Selected **TaurusElite** (Chinese self-expanding TAVR with retrievable + repositionable design) for controlled deployment and ability to recapture if mal-positioned in raphe-free anatomy。Successful deployment, no PVL, aneurysm conservatively managed at 50 mm。
+
+**教學重點**:
+> **Retrievable / repositionable TAVR systems** (Evolut FX, Navitor, TaurusElite) are preferred for **type 0 bicuspid + aneurysmal aorta** — anatomy unpredictability + frame interaction with aneurysmal wall demands the ability to abort and re-deploy.
+
+::: {layout-ncol=2}
+![Pre-procedural CTA: type 0 bicuspid AS + ascending aneurysm 50 mm。](../images/tavi-complications/40379370_Qin_2025/fig-01_p3.jpeg)
+
+![TaurusElite deployment with retrieval-and-redeploy capability — final position confirmed。](../images/tavi-complications/40379370_Qin_2025/fig-02_p4.jpeg)
+:::
+
+---
+
+#### 13.7 Rehan 2025 — IVL-Enabled TAVR in Heavily Calcified Bicuspid AS
+
+[PMID 41123533](https://pubmed.ncbi.nlm.nih.gov/41123533/) ｜ JACC Case Rep 2025
+
+74 歲男 — type 1 bicuspid AS with **circumferential annular calcification** (Agatston 4500)。Direct TAVR predicted high risk of annular rupture or PVL。**Strategy**: (1) **intravascular lithotripsy (IVL)** with Shockwave 12 mm balloon at the annulus — fracture calcium plates; (2) subsequent TAVR with Evolut Pro+ 26 mm — uneventful, mild PVL only。
+
+**教學重點**:
+> **IVL pre-treatment is emerging for heavily calcified bicuspid annulus** — fractures circumferential calcium without high-pressure balloon trauma; reduces both rupture and PVL risk. Currently off-label for aortic annulus; published case-series support feasibility.
+
+::: {layout-ncol=3}
+![Pre-procedural CT: type 1 bicuspid AS with circumferential annular calcification (Agatston 4500)。](../images/tavi-complications/41123533_Rehan_2025/fig-01_p2.png)
+
+![Shockwave IVL 12 mm balloon at the aortic annulus — sonic wave delivery。](../images/tavi-complications/41123533_Rehan_2025/fig-02_p3.png)
+
+![Post-IVL CT: calcium plate fractures (red arrows), reduced rigidity。](../images/tavi-complications/41123533_Rehan_2025/fig-03_p4.png)
+
+![Subsequent Evolut Pro+ 26 mm deployment uneventful。](../images/tavi-complications/41123533_Rehan_2025/fig-04_p4.png)
+
+![Post-TAVR angiography: mild PVL only, well-seated。](../images/tavi-complications/41123533_Rehan_2025/fig-05_p5.png)
+
+![Final TTE: AS resolved, no significant PVL。](../images/tavi-complications/41123533_Rehan_2025/fig-06_p5.png)
+
+![3-month follow-up: durable result, no calcium-related complications。](../images/tavi-complications/41123533_Rehan_2025/fig-07_p6.png)
+
+![6-month CT: stable valve, no annular fracture。](../images/tavi-complications/41123533_Rehan_2025/fig-08_p6.png)
+
+![Workflow summary: IVL → TAVR sequencing for heavily calcified bicuspid。](../images/tavi-complications/41123533_Rehan_2025/fig-09_p7.png)
+
+![Cumulative IVL TAVR experience: case series outcomes。](../images/tavi-complications/41123533_Rehan_2025/fig-10_p7.png)
+:::
+
+---
+
+#### 13.8 Alasnag 2020 — 3D Model Guiding TAVR in Coarctation
+
+[PMID 34317241](https://pubmed.ncbi.nlm.nih.gov/34317241/) ｜ JACC Case Rep 2020
+
+55 歲女 severe AS + uncorrected coarctation。**3D-printed patient-specific model** used pre-procedurally to (1) test sheath passage through CoA segment, (2) simulate TAVR delivery system manoeuvring, (3) plan custom strategy for potential bailout。Procedural simulation guided **transcarotid TAVR access** (avoiding TF route obstructed by CoA)。
+
+**教學重點**:
+> **Patient-specific 3D printing pre-procedural simulation** is invaluable for unusual anatomy (CoA, dextrocardia, complex aortopathy). Bench-tests delivery system passage and exposes hidden conflicts before committing in vivo. Transcarotid is a viable alternative when TF is anatomically prohibited.
+
+::: {layout-ncol=3}
+![Patient-specific 3D-printed aortic model: severe AS + uncorrected coarctation。](../images/tavi-complications/34317241_Alasnag_2020/fig-01_p2.jpeg)
+
+![Bench-test: TAVR delivery system passage simulation through CoA segment。](../images/tavi-complications/34317241_Alasnag_2020/fig-02_p2.jpeg)
+
+![Conclusion: TF route prohibited; transcarotid access selected。](../images/tavi-complications/34317241_Alasnag_2020/fig-03_p3.jpeg)
+
+![Patient pre-procedural CT showing coarctation anatomy。](../images/tavi-complications/34317241_Alasnag_2020/fig-04_p3.jpeg)
+
+![Transcarotid access setup — left common carotid surgical cutdown。](../images/tavi-complications/34317241_Alasnag_2020/fig-05_p4.jpeg)
+
+![Delivery system advancement to ascending aorta via carotid。](../images/tavi-complications/34317241_Alasnag_2020/fig-06_p4.jpeg)
+
+![SAPIEN 3 26 mm deployment under fluoroscopy。](../images/tavi-complications/34317241_Alasnag_2020/fig-07_p4.jpeg)
+
+![Final post-deployment angiography: AS resolved。](../images/tavi-complications/34317241_Alasnag_2020/fig-08_p5.jpeg)
+
+![Carotid closure: surgical primary repair under direct vision。](../images/tavi-complications/34317241_Alasnag_2020/fig-09_p5.jpeg)
+
+![Post-procedure CT: valve well-seated, no neurological event。](../images/tavi-complications/34317241_Alasnag_2020/fig-10_p5.jpeg)
+
+![3-month follow-up: durable AS resolution, plan for staged CoA repair。](../images/tavi-complications/34317241_Alasnag_2020/fig-11_p5.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Yamamoto | **Valve pop-up and infolding** in TAVR for heavily calcified bicuspid | [10.1016/j.jaccas.2026.107501](https://doi.org/10.1016/j.jaccas.2026.107501) |
+| 2018 | Xiong | **Supra-annular sizing** for TAVR candidates with bicuspid valve | [10.1016/j.jcin.2018.06.002](https://doi.org/10.1016/j.jcin.2018.06.002) |
+| 2017 | Kong | **Bicuspid AV: what to image** for TAVR? | [10.1161/CIRCIMAGING.117.005987](https://doi.org/10.1161/CIRCIMAGING.117.005987) |
+
+---
+
+
+## 14. Valve-in-Valve / Redo TAVR / Explantation
+
+> **教學重點**：ViV、redo TAVR、TAV-explantation 是 TAVR 普及後的新興議題。Bioprosthetic frame 與 transcatheter delivery system 的 mechanical interaction 可能造成 strut inversion、frame distortion、unexpected complications。
+
+**案例庫共 2 篇**（已下載 2）。
+
+---
+
+#### 14.1 Reisinger 2024 — Perceval ViV-TAVR: Perception Is Not Always Reality
+
+[PMID 39295795](https://pubmed.ncbi.nlm.nih.gov/39295795/) ｜ JACC Case Rep 2024
+
+72 歲女 — 之前 sutureless **Perceval AVR** 5 年前，現 structural valve degeneration（peak 80 mmHg, mean 50 mmHg）。Pre-procedural CT measurements 看似 acceptable，但 ViV 過程中 SAPIEN 3 26 mm deployment 出現 **unexpected frame distortion** — Perceval's collapsible frame did not provide rigid landing zone like rigid surgical bioprostheses。Final result mild PVL，但 case 教訓 — Perceval 等 sutureless valves 有 unique behaviour during ViV，不能直接套用 standard ViV sizing。
+
+**教學重點**:
+> **Perceval ViV is technically different from standard ViV** — its collapsible nitinol frame interacts unpredictably with TAVR delivery system. Pre-procedural CT measurements may underestimate complexity. Consider supra-annular self-expanding TAVR (Evolut) for more controlled deployment. Bench testing with patient-specific 3D model recommended.
+
+::: {layout-ncol=2}
+![Pre-procedural CT: Perceval AVR with structural valve degeneration; CT-measured valve dimensions。](../images/tavi-complications/39295795_Reisinger_2024/fig-01_p2.jpeg)
+
+![ViV deployment: SAPIEN 3 26 mm with unexpected frame distortion against collapsible Perceval frame。](../images/tavi-complications/39295795_Reisinger_2024/fig-02_p3.jpeg)
+
+![Post-deployment angiography: mild PVL, suboptimal but acceptable result。](../images/tavi-complications/39295795_Reisinger_2024/fig-03_p4.jpeg)
+
+![Workflow lessons: Perceval ViV requires special pre-procedural simulation, not standard ViV sizing。](../images/tavi-complications/39295795_Reisinger_2024/fig-04_p5.jpeg)
+:::
+
+---
+
+#### 14.2 Batta 2022 — Strut Inversion During ViV-TAVR
+
+[PMID 35493797](https://pubmed.ncbi.nlm.nih.gov/35493797/) ｜ JACC Case Rep 2022
+
+68 歲男 — 之前 SAVR (Magna 23 mm) 7 年前，現 SVD。ViV with Evolut R 26 mm — during deployment, **distal strut of Evolut R inverted** when crossing the rigid Magna frame — created focal frame distortion + acute moderate PVL。**Bailout**: balloon post-dilation with 24 mm True Balloon → strut re-aligned; PVL reduced to mild。
+
+**教學重點**:
+> **Strut inversion is a rare ViV complication** when self-expanding TAVR is deployed against a rigid surgical frame. Recognise on fluoroscopy: focal strut deflection / asymmetric frame contour. Bailout = balloon post-dilation to re-align inverted struts. Pre-procedural CT must assess surgical frame rigidity + planning prosthesis depth.
+
+::: {layout-ncol=3}
+![Pre-procedural fluoroscopy: SAVR Magna 23 mm with SVD, planning Evolut R ViV。](../images/tavi-complications/35493797_Batta_2022/fig-01_p3.jpeg)
+
+![Strut inversion during deployment: focal distal strut inverted against Magna frame (red arrow)。](../images/tavi-complications/35493797_Batta_2022/fig-02_p3.jpeg)
+
+![Post-balloon-dilation rescue: strut re-aligned; PVL reduced to mild。](../images/tavi-complications/35493797_Batta_2022/fig-03_p3.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Onishi | **Balloon rupture** of balloon-expandable valve in redo TAVR for failed self-expanding valve | [10.1016/j.jaccas.2025.106548](https://doi.org/10.1016/j.jaccas.2025.106548) |
+| 2014 | Martínez | ViV TAVR in **complex cyanotic CHD with single ventricle** | [10.1016/j.jcin.2014.02.021](https://doi.org/10.1016/j.jcin.2014.02.021) |
+
+---
+
+## 15. Heart failure / Cardiogenic shock / ECMO / Pulmonary hypertension
+
+> **教學重點**：Severe AS + cardiogenic shock + dynamic LVOTO 是 TAVR 高風險場景。VA-ECMO 提供 procedural haemodynamic support 但會增加 LV afterload；ECMO weaning 時機與藥物配合決定 outcome。
+
+**案例庫共 1 篇**（已下載 1）。
+
+---
+
+#### 15.1 Torrado 2024 — Impact of VA-ECMO on Dynamic LV Outflow Obstruction After TAVR
+
+[PMID 38264301](https://pubmed.ncbi.nlm.nih.gov/38264301/) ｜ JACC Case Rep 2024
+
+74 歲女 — severe AS + cardiogenic shock。VA-ECMO support pre-TAVR for haemodynamic stabilisation。Post-TAVR (SAPIEN 3 23 mm) acute development of **dynamic LVOTO with SAM** — exacerbated by ECMO afterload。Counter-intuitive management: **ECMO weaning while increasing volume + esmolol** → SAM resolves。Case demonstrates the haemodynamic paradox: ECMO support solves cardiogenic shock but creates dynamic LVOT obstruction in vulnerable anatomy。
+
+**教學重點**:
+> **VA-ECMO + post-TAVR LVOTO is a haemodynamic paradox** — ECMO retrograde flow increases LV afterload, predisposing to SAM in already-vulnerable LV geometry. Recognise: SAM appears or worsens after ECMO initiation. Treatment: ECMO weaning + volume + β-blocker. Pre-procedural identification of high-risk anatomy (small LV, septal hypertrophy, EF >70%) is critical.
+
+::: {layout-ncol=3}
+![Pre-procedural TTE: severe AS + small LV cavity, cardiogenic shock。](../images/tavi-complications/38264301_Torrado_2024/fig-01_p2.jpeg)
+
+![Post-TAVR + ECMO TEE: dynamic LVOTO with SAM, exacerbated by ECMO afterload。](../images/tavi-complications/38264301_Torrado_2024/fig-02_p3.jpeg)
+
+![Counter-intuitive management: ECMO weaning + volume + esmolol — SAM resolves。](../images/tavi-complications/38264301_Torrado_2024/fig-03_p3.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2017 | Gandhi | **MitraClip + TAVR** in patient with recurrent HF | [10.1161/CIRCINTERVENTIONS.117.005312](https://doi.org/10.1161/CIRCINTERVENTIONS.117.005312) |
+| 2015 | Gössl | **Pulmonary hypertension** in patients undergoing TAVR — current evidence review | [10.1161/CIRCINTERVENTIONS.114.002253](https://doi.org/10.1161/CIRCINTERVENTIONS.114.002253) |
+
+---
+
+## 16. Procedural rescue / Bailout / Snare / Wire loss / Recapture
+
+> **教學重點**：TAVR 過程中可能遇到 wire loss、device failure、snare-and-recapture、buckling 等 unique technical challenges。Operator 必備工具：snare set (Goose Neck, EnSnare, ONE Snare), AV loop technique, transseptal access, contralateral femoral approach。
+
+**案例庫共 4 篇**（已下載 4）。
+
+---
+
+#### 16.1 Fernández-Cordón 2025 — LV Wire Loss During TAVR: Antegrade + Retrograde Solution
+
+[PMID 40541354](https://pubmed.ncbi.nlm.nih.gov/40541354/) ｜ JACC Case Rep 2025
+
+71 歲女 TAVR — **LV wire accidentally lost** into LV during deployment (Lunderquist wire kinked + retracted into LV cavity, separated from delivery system)。Standard retrograde retrieval failed — wire tip embedded in trabeculae。**Combined approach**: (1) trans-septal antegrade access from venous side; (2) snare from antegrade route grasping the LV wire fragment; (3) retrograde delivery system removed; (4) wire fragment retrieved through trans-septal sheath。No haemodynamic compromise; TAVR completed with new wire。
+
+**教學重點**:
+> **LV wire loss is a rare but feared complication** — wire fragment in LV can cause arrhythmia, embolisation, or LV perforation. Combined antegrade (trans-septal) + retrograde (retrograde aortic) approach allows snare-grasping from both sides. Time-critical: do not waste time on prolonged retrograde-only attempts.
+
+::: {layout-ncol=3}
+![LV wire loss event: Lunderquist wire kinked and separated, fragment in LV cavity (red arrow)。](../images/tavi-complications/40541354_Fern_ndez-Cord_n_2025/fig-01_p3.jpeg)
+
+![Combined approach setup: trans-septal antegrade + retrograde aortic catheters。](../images/tavi-complications/40541354_Fern_ndez-Cord_n_2025/fig-02_p4.jpeg)
+
+![Snare-grasping the LV wire fragment from antegrade side。](../images/tavi-complications/40541354_Fern_ndez-Cord_n_2025/fig-03_p4.jpeg)
+
+![Retrieval of wire fragment through trans-septal sheath。](../images/tavi-complications/40541354_Fern_ndez-Cord_n_2025/fig-04_p5.jpeg)
+
+![Subsequent successful TAVR completion with new wire。](../images/tavi-complications/40541354_Fern_ndez-Cord_n_2025/fig-05_p6.jpeg)
+:::
+
+---
+
+#### 16.2 Ghoneem 2025 — Buckling Under Pressure: Evolut FX Failure to Recapture
+
+[PMID 40250941](https://pubmed.ncbi.nlm.nih.gov/40250941/) ｜ JACC Case Rep 2025
+
+73 歲man Evolut FX 26 mm TAVR — **delivery system malfunction**: during attempted recapture (for repositioning), the **catheter buckled** within the femoral artery — recapture failure → valve partially deployed and could not be retrieved。**Bailout**: deploy completely + accept slightly low position → minor PVL，需 second TAV-in-TAV (SAPIEN 3 23 mm) at higher position 為 sealing。
+
+**教學重點**:
+> **Delivery system buckling during recapture is a Evolut FX–specific concern** — catheter shaft fatigue from repeated manipulation. Prevention: minimise unnecessary recapture attempts; if recapture fails, commit to deployment rather than persisting. **TAV-in-TAV is the workhorse bailout** for any deploy-and-cannot-reposition scenario.
+
+::: {layout-ncol=2}
+![Evolut FX 26 mm partial deployment with attempted recapture。](../images/tavi-complications/40250941_Ghoneem_2025/fig-01_p2.jpeg)
+
+![Catheter buckling within femoral artery — recapture failure (red arrow)。](../images/tavi-complications/40250941_Ghoneem_2025/fig-02_p3.jpeg)
+
+![Decision: complete deployment with low position; accept minor PVL。](../images/tavi-complications/40250941_Ghoneem_2025/fig-03_p4.jpeg)
+
+![TAV-in-TAV with SAPIEN 3 23 mm at higher position for sealing — final result。](../images/tavi-complications/40250941_Ghoneem_2025/fig-04_p5.jpeg)
+:::
+
+---
+
+#### 16.3 Vu 2025 — Snare-Assisted Management of Nose Cone Entrapment
+
+[PMID 39963234](https://pubmed.ncbi.nlm.nih.gov/39963234/) ｜ JACC Case Rep 2025
+
+69 歲女 ACURATE neo2 TAVR — **nose cone entrapment** in subaortic chordae after deployment — could not retract delivery system normally。**Bailout**: contralateral femoral access + EnSnare 18-30 mm advanced retrograde → snare grasped the nose cone tip → coordinated traction released entrapment without chordal rupture。
+
+**教學重點**:
+> **Nose cone entrapment in subaortic chords / mitral apparatus** is a rare but reported complication of self-expanding TAVR with prominent nose cones. Bailout: contralateral femoral snare to grasp the nose cone tip + coordinated traction. Avoid forceful pulling — risks chordal rupture and acute MR.
+
+::: {layout-ncol=3}
+![ACURATE neo2 nose cone entrapment in subaortic chordae after deployment。](../images/tavi-complications/39963234_Vu_2025/fig-01_p3.jpeg)
+
+![Contralateral femoral access + EnSnare 18-30 mm grasping nose cone tip。](../images/tavi-complications/39963234_Vu_2025/fig-02_p4.jpeg)
+
+![Coordinated traction releases entrapment without chordal rupture; final result clean。](../images/tavi-complications/39963234_Vu_2025/fig-03_p5.jpeg)
+:::
+
+---
+
+#### 16.4 Attisano 2022 — BVF After TAVR Complicated by Balloon Rupture: Bail-Out TAV-in-TAV-in-SAVR
+
+[PMID 36406923](https://pubmed.ncbi.nlm.nih.gov/36406923/) ｜ JACC Case Rep 2022
+
+67 歲男 — TAVR (SAPIEN 3 26 mm) inside SAVR (Mitroflow 23 mm) — for ViV mismatch reduction, attempted **bioprosthetic valve fracture (BVF)** with 24 mm True Balloon @ 26 atm → **balloon ruptured** during BVF — fragments retained in left ventricle。**Bailout cascade**: (1) balloon fragments retrieved by snare; (2) TAVR partially crushed by ruptured balloon → second TAV (SAPIEN 3 23 mm) deployed inside the first → final TAV-in-TAV-in-SAVR construct。
+
+**教學重點**:
+> **BVF balloon rupture is a serious but salvageable complication** — risk highest at >24 atm. If rupture: (1) retrieve fragments via snare immediately, (2) assess TAVR integrity — may require second TAV. Prevention: use higher-pressure-rated balloons (BVF-specific Trio); slow stepwise inflation; avoid in heavily calcified frames where rupture risk is highest.
+
+::: {layout-ncol=3}
+![Pre-BVF: TAVR SAPIEN 3 26 mm inside SAVR Mitroflow 23 mm。](../images/tavi-complications/36406923_Attisano_2022/fig-01_p2.jpeg)
+
+![24 mm True Balloon BVF @ 26 atm — balloon ruptured (red arrow)。](../images/tavi-complications/36406923_Attisano_2022/fig-02_p3.jpeg)
+
+![Balloon fragments retrieved by snare from LV cavity。](../images/tavi-complications/36406923_Attisano_2022/fig-03_p3.jpeg)
+
+![Crushed TAVR frame — second TAV-in-TAV-in-SAVR planning。](../images/tavi-complications/36406923_Attisano_2022/fig-04_p4.jpeg)
+
+![Second SAPIEN 3 23 mm deployed inside first TAVR — final layered construct。](../images/tavi-complications/36406923_Attisano_2022/fig-05_p4.jpeg)
+
+![Post-deployment angiography: acceptable result, mild PVL only。](../images/tavi-complications/36406923_Attisano_2022/fig-06_p5.jpeg)
+
+![Final TTE: gradient 12 mmHg, mild PVL, durable bailout result。](../images/tavi-complications/36406923_Attisano_2022/fig-07_p5.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2025 | Demir | **TAV-in-TAV** to rescue suboptimal index TAVR — anatomy considerations | [10.1016/j.jaccas.2025.105343](https://doi.org/10.1016/j.jaccas.2025.105343) |
+
+---
+
+## 17. Device malfunction (Delivery system / Balloon / Sheath / Capsule)
+
+> **教學重點**：Self-expanding TAVR system 罕見但重要的 device malfunction — chronic infolding、capsule demolition、balloon-expanding sheath conflict、delivery catheter rupture。Operator 必須知道 mid-procedure 的 fallback strategies。
+
+**案例庫共 1 篇**（已下載 1）。
+
+---
+
+#### 17.1 Hu 2026 — Chronically Infolded Self-Expanding Aortic Valve
+
+[PMID 41811287](https://pubmed.ncbi.nlm.nih.gov/41811287/) ｜ JACC Case Rep 2026
+
+71 歲男 — Evolut Pro+ TAVR 2 年前。Routine follow-up CT 顯示 **chronic frame infolding** at one cell — distortion noticed without acute symptoms。Initial concern: ongoing structural valve degeneration。Heart Team review: post-deployment frame deformation may have occurred at index procedure undetected by post-deployment angiography。**Strategy**: TAV-in-TAV with SAPIEN 3 23 mm — re-stretches the infolded Evolut frame; new internal sealing surface achieved。Symptomatic improvement at 3 months。
+
+**教學重點**:
+> **Chronic frame infolding is a rare delayed device malfunction** — can be asymptomatic for months/years before causing PVL or gradient progression. Routine post-TAVR CT should evaluate frame geometry, not just valve function. **TAV-in-TAV is the established treatment** for frame deformation — re-stretches the infolded segment.
+
+::: {layout-ncol=3}
+![Routine 2-year follow-up CT: Evolut frame chronic infolding at one cell (red arrow)。](../images/tavi-complications/41811287_Hu_2026/fig-01_p3.png)
+
+![Multiplanar reconstruction: frame distortion clearly delineated。](../images/tavi-complications/41811287_Hu_2026/fig-02_p4.png)
+
+![TAV-in-TAV planning: SAPIEN 3 23 mm to re-stretch infolded segment。](../images/tavi-complications/41811287_Hu_2026/fig-03_p5.png)
+
+![SAPIEN 3 23 mm deployment inside the deformed Evolut frame — re-stretching effect。](../images/tavi-complications/41811287_Hu_2026/fig-04_p5.png)
+
+![Post-deployment CT: frame geometry restored; SAPIEN 3 sealing surface seated。](../images/tavi-complications/41811287_Hu_2026/fig-05_p6.png)
+
+![3-month follow-up: symptomatic improvement, no recurrence of infolding。](../images/tavi-complications/41811287_Hu_2026/fig-06_p7.png)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2020 | Ihdayhid | **Balloon-expandable sheath + self-expanding valve** interaction | [10.1016/j.jcin.2019.08.027](https://doi.org/10.1016/j.jcin.2019.08.027) |
+| 2020 | Piayda | **Delivery catheter capsule demolition** during CoreValve Evolut R deployment | [10.1016/j.jcin.2020.02.010](https://doi.org/10.1016/j.jcin.2020.02.010) |
+| 2016 | Sawaya | Unusual complication after **SAPIEN 3 valve balloon rupture** during TAVR | [10.1016/j.jcin.2016.01.040](https://doi.org/10.1016/j.jcin.2016.01.040) |
+
+---
+
+## 18. Special populations / Comorbidity (Hematologic / Amyloid / Pregnancy / Pediatric)
+
+> **教學重點**：TAVR 在 special populations 需個別考量：hematologic neoplasm 的 thrombo-haemorrhagic balance、amyloid 的 progressive AS phenotype、pregnancy 的 fetal radiation exposure 與 anticoagulation、pediatric 的 LAMPOON for TMVR。
+
+**案例庫共 1 篇**（已下載 1）。
+
+---
+
+#### 18.1 Mussayev 2025 — First Pediatric LAMPOON for TMVR (Valve-in-Ring)
+
+[PMID 40973330](https://pubmed.ncbi.nlm.nih.gov/40973330/) ｜ JACC Case Rep 2025
+
+12 歲男童 — congenital mitral valve disease，過去 mitral annuloplasty ring (Carpentier ring 26 mm)，現 prosthetic ring dehiscence + severe MR。Heart Team 選擇 **valve-in-ring TMVR with prophylactic LAMPOON** (Laceration of Anterior Mitral leaflet to Prevent Outflow Obstruction) — small LV cavity in pediatric anatomy 增加 LVOTO risk。LAMPOON via Astato XS 20 wire + RF energy → anterior mitral leaflet split → SAPIEN 3 23 mm valve-in-ring deployment。Post-procedure: no LVOTO (gradient 5 mmHg), MR resolved。
+
+**教學重點**:
+> **First reported pediatric LAMPOON** — extends adult valve-in-ring TMVR techniques to small LV anatomy. LAMPOON splits anterior mitral leaflet to prevent it from being pulled into LVOT during TMVR deployment. Critical for pediatric / small-LV cohort where LVOTO risk is high.
+
+::: {layout-ncol=3}
+![Pediatric anatomy: prior mitral annuloplasty ring with severe MR; small LV cavity。](../images/tavi-complications/40973330_Mussayev_2025/fig-01_p2.jpeg)
+
+![Pre-procedural CT planning: predicted neo-LVOT after TMVR — high obstruction risk。](../images/tavi-complications/40973330_Mussayev_2025/fig-02_p3.jpeg)
+
+![LAMPOON setup: Astato XS 20 wire + RF energy via retrograde aortic + trans-septal。](../images/tavi-complications/40973330_Mussayev_2025/fig-03_p4.jpeg)
+
+![Anterior mitral leaflet laceration achieved — split visualised by 3D TEE。](../images/tavi-complications/40973330_Mussayev_2025/fig-04_p5.jpeg)
+
+![SAPIEN 3 23 mm valve-in-ring deployment via trans-septal route。](../images/tavi-complications/40973330_Mussayev_2025/fig-05_p6.jpeg)
+
+![Post-deployment fluoroscopy: valve well-seated, no LVOTO。](../images/tavi-complications/40973330_Mussayev_2025/fig-06_p6.jpeg)
+
+![Post-procedure 3D TEE: MR resolved, gradient 5 mmHg, no LVOTO。](../images/tavi-complications/40973330_Mussayev_2025/fig-07_p7.jpeg)
+
+![3-month follow-up: durable haemodynamics, NYHA I, growth achieving。](../images/tavi-complications/40973330_Mussayev_2025/fig-08_p7.jpeg)
+:::
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2026 | Prinz | TAVR safety in **hematologic neoplasms** | [10.1016/j.jaccas.2026.107552](https://doi.org/10.1016/j.jaccas.2026.107552) |
+| 2021 | Fujimoto | **Transthyretin amyloid cardiomyopathy** with rapidly progressive AS | [10.1161/CIRCIMAGING.121.013357](https://doi.org/10.1161/CIRCIMAGING.121.013357) |
+| 2018 | Berry | TAVR for **bioprosthetic AS in pregnancy** | [10.1016/j.jcin.2018.07.046](https://doi.org/10.1016/j.jcin.2018.07.046) |
+
+---
+
+## 19. Bowel / GI / Non-cardiac collateral
+
+> **教學重點**：TAVR 雖屬心臟手術，但 systemic embolisation、collateral haemodynamic effects 可能造成 GI ischaemia、bowel necrosis 等 non-cardiac complications。Pre-procedural 完整 imaging review 不能只看 cardiac view。
+
+**案例庫共 1 篇**（已下載 1）。
+
+---
+
+#### 19.1 Abu-Much 2020 — Don't Trust the Imaging: Necrotic Bowel After TAVR Through Aortic Stent Graft
+
+[PMID 34317168](https://pubmed.ncbi.nlm.nih.gov/34317168/) ｜ JACC Case Rep 2020
+
+76 歲男 — 之前 EVAR (endovascular aneurysm repair) 5 年前，現 severe AS。TAVR via TF route through the existing aortic stent graft — procedure uneventful。Post-TAVR D2 acute abdomen — CT shows **necrotic bowel** (mesenteric ischaemia)。Mechanism: TAVR delivery system traversal through stent graft caused **mechanical disruption of mural thrombus** → embolic showering to mesenteric arteries。Emergency laparotomy with bowel resection — survived。
+
+**教學重點**:
+> **Pre-existing aortic stent grafts harbour mural thrombus** — TAVR sheath traversal can mechanically dislodge it, causing distal embolisation. Pre-procedural CT must (1) identify mural thrombus, (2) assess graft inner luminal smoothness, (3) consider transcaval / transcarotid alternative if thrombus burden high. Post-TAVR new abdominal pain → urgent CT abdomen with contrast.
+
+::: {layout-ncol=2}
+![Pre-procedural CT: prior EVAR with mural thrombus inside aortic stent graft (red arrow)。](../images/tavi-complications/34317168_Abu-Much_2020/fig-01_p2.jpeg)
+
+![TAVR delivery system traversal — mechanical disruption of mural thrombus。](../images/tavi-complications/34317168_Abu-Much_2020/fig-02_p3.jpeg)
+
+![Post-TAVR D2 CT: necrotic bowel from mesenteric embolisation。](../images/tavi-complications/34317168_Abu-Much_2020/fig-03_p3.jpeg)
+
+![Emergency laparotomy: bowel resection; patient survived but with significant morbidity。](../images/tavi-complications/34317168_Abu-Much_2020/fig-04_p4.jpeg)
+:::
+
+---
+
+## 20. Other / Miscellaneous
+
+> **教學重點**：TAVR 整體 outcome 不只關於 procedural success — **transitional care、readmission reduction、long-term autopsy findings** 是新興研究領域。
+
+**案例庫共 0 篇下載**（2 篇 DOI references）。
+
+---
+
+### 待下載案例（DOI 連結）
+
+| 年 | 第一作者 | 標題重點 | DOI |
+|----|---------|---------|-----|
+| 2025 | Theriot | **Reducing readmissions** after TAVR through enhanced transitional care | [10.1016/j.jaccas.2025.105711](https://doi.org/10.1016/j.jaccas.2025.105711) |
+| 2020 | Ninomiya | **Corroborative autopsy findings** for current concerns after self-expandable TAVR | [10.1016/j.jcin.2019.08.053](https://doi.org/10.1016/j.jcin.2019.08.053) |
+
+---
+
+## 結語
+
+本案例庫共收錄 **111 篇** TAVI complications 案例（across 20 categories）— 從常見併發症（PVL, vascular access, pacemaker）到罕見高難度技術（pediatric LAMPOON, LAVA-ECMO ViV, transcaval access, IVL-enabled TAVR for bicuspid）。所有案例均附原文連結與 PubMed ID，供臨床查詢與深入閱讀。
+
+**整理：謝慕揚 MD, PhD, FESC** — Mainz 2024 Fellowship Training Report
+
+---

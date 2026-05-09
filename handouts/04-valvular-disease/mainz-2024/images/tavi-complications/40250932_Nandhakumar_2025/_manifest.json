@@ -1,0 +1,38 @@
+{
+  "pdf": "40250932_Nandhakumar_2025.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1943,
+      "height": 1226,
+      "ext": "jpeg",
+      "bytes": 433002
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1644,
+      "height": 1108,
+      "ext": "jpeg",
+      "bytes": 277862
+    },
+    {
+      "file": "fig-03_p6.jpeg",
+      "page": 6,
+      "width": 1644,
+      "height": 1088,
+      "ext": "jpeg",
+      "bytes": 306821
+    },
+    {
+      "file": "fig-04_p7.jpeg",
+      "page": 7,
+      "width": 1644,
+      "height": 1115,
+      "ext": "jpeg",
+      "bytes": 291637
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "pdf": "41005845_Mason_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 1968,
+      "height": 779,
+      "ext": "png",
+      "bytes": 1967918
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1099,
+      "height": 2441,
+      "ext": "png",
+      "bytes": 1775973
+    }
+  ]
+}

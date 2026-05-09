@@ -1,0 +1,150 @@
+{
+  "pdf": "34316934_Abdel-Aal_Ahmed_2019.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 729,
+      "ext": "jpeg",
+      "bytes": 132037
+    },
+    {
+      "file": "fig-02_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 563,
+      "ext": "jpeg",
+      "bytes": 85638
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 809,
+      "ext": "jpeg",
+      "bytes": 139262
+    },
+    {
+      "file": "fig-04_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 802,
+      "ext": "jpeg",
+      "bytes": 130836
+    },
+    {
+      "file": "fig-05_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 798,
+      "ext": "jpeg",
+      "bytes": 128239
+    },
+    {
+      "file": "fig-06_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 597,
+      "ext": "jpeg",
+      "bytes": 77576
+    },
+    {
+      "file": "fig-07_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 802,
+      "ext": "jpeg",
+      "bytes": 125670
+    },
+    {
+      "file": "fig-08_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 800,
+      "ext": "jpeg",
+      "bytes": 161204
+    },
+    {
+      "file": "fig-09_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 794,
+      "ext": "jpeg",
+      "bytes": 155649
+    },
+    {
+      "file": "fig-10_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 566,
+      "ext": "jpeg",
+      "bytes": 77884
+    },
+    {
+      "file": "fig-11_p5.jpeg",
+      "page": 5,
+      "width": 797,
+      "height": 800,
+      "ext": "jpeg",
+      "bytes": 118371
+    },
+    {
+      "file": "fig-12_p5.jpeg",
+      "page": 5,
+      "width": 797,
+      "height": 539,
+      "ext": "jpeg",
+      "bytes": 89258
+    },
+    {
+      "file": "fig-13_p5.jpeg",
+      "page": 5,
+      "width": 797,
+      "height": 536,
+      "ext": "jpeg",
+      "bytes": 107584
+    },
+    {
+      "file": "fig-14_p5.jpeg",
+      "page": 5,
+      "width": 797,
+      "height": 530,
+      "ext": "jpeg",
+      "bytes": 62799
+    },
+    {
+      "file": "fig-15_p6.jpeg",
+      "page": 6,
+      "width": 797,
+      "height": 802,
+      "ext": "jpeg",
+      "bytes": 141443
+    },
+    {
+      "file": "fig-16_p6.jpeg",
+      "page": 6,
+      "width": 797,
+      "height": 540,
+      "ext": "jpeg",
+      "bytes": 101919
+    },
+    {
+      "file": "fig-17_p6.jpeg",
+      "page": 6,
+      "width": 797,
+      "height": 539,
+      "ext": "jpeg",
+      "bytes": 77079
+    },
+    {
+      "file": "fig-18_p6.jpeg",
+      "page": 6,
+      "width": 797,
+      "height": 536,
+      "ext": "jpeg",
+      "bytes": 78077
+    }
+  ]
+}

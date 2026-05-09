@@ -1,0 +1,30 @@
+{
+  "pdf": "40118607_Tsutsui_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1694,
+      "height": 1111,
+      "ext": "jpeg",
+      "bytes": 498027
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1330,
+      "height": 758,
+      "ext": "jpeg",
+      "bytes": 204153
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 1069,
+      "ext": "jpeg",
+      "bytes": 470361
+    }
+  ]
+}

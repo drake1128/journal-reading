@@ -1,0 +1,9 @@
+# Git LFS — TAVI complications case-library binaries
+# Scoped patterns: only TAVI-complication images and case-library PDFs go through LFS.
+# Other images (e.g. mainz-2024/images/general/, /tavi/, /teer/) remain regular git blobs.
+
+handouts/04-valvular-disease/mainz-2024/images/tavi-complications/**/*.png filter=lfs diff=lfs merge=lfs -text
+handouts/04-valvular-disease/mainz-2024/images/tavi-complications/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+handouts/04-valvular-disease/mainz-2024/images/tavi-complications/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+handouts/04-valvular-disease/mainz-2024/case-library-pdfs/**/*.pdf filter=lfs diff=lfs merge=lfs -text

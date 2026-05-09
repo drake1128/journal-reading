@@ -1,0 +1,94 @@
+{
+  "pdf": "40615221_Abdelfattah_2025.pdf",
+  "pages": 11,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 305,
+      "height": 201,
+      "ext": "jpeg",
+      "bytes": 10257
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 2254,
+      "ext": "jpeg",
+      "bytes": 780636
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1943,
+      "height": 2028,
+      "ext": "jpeg",
+      "bytes": 720251
+    },
+    {
+      "file": "fig-04_p6.jpeg",
+      "page": 6,
+      "width": 1943,
+      "height": 1106,
+      "ext": "jpeg",
+      "bytes": 398189
+    },
+    {
+      "file": "fig-05_p7.jpeg",
+      "page": 7,
+      "width": 1331,
+      "height": 2491,
+      "ext": "jpeg",
+      "bytes": 709324
+    },
+    {
+      "file": "fig-06_p9.jpeg",
+      "page": 9,
+      "width": 510,
+      "height": 432,
+      "ext": "jpeg",
+      "bytes": 58279
+    },
+    {
+      "file": "fig-07_p9.jpeg",
+      "page": 9,
+      "width": 453,
+      "height": 356,
+      "ext": "jpeg",
+      "bytes": 22236
+    },
+    {
+      "file": "fig-08_p9.jpeg",
+      "page": 9,
+      "width": 329,
+      "height": 425,
+      "ext": "jpeg",
+      "bytes": 48088
+    },
+    {
+      "file": "fig-09_p9.jpeg",
+      "page": 9,
+      "width": 371,
+      "height": 279,
+      "ext": "jpeg",
+      "bytes": 30237
+    },
+    {
+      "file": "fig-10_p9.jpeg",
+      "page": 9,
+      "width": 255,
+      "height": 279,
+      "ext": "jpeg",
+      "bytes": 32080
+    },
+    {
+      "file": "fig-11_p9.jpeg",
+      "page": 9,
+      "width": 251,
+      "height": 272,
+      "ext": "jpeg",
+      "bytes": 31700
+    }
+  ]
+}

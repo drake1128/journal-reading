@@ -37,4 +37,12 @@ desktop.ini
 
 /.quarto/
 **/*.quarto_ipynb
+**/.quarto/
 _site/
+
+# Windows junction created locally so Quarto can find images outside its project root.
+# Recreate after clone with:
+#   New-Item -ItemType Junction `
+#     -Path  handouts/04-valvular-disease/mainz-2024/quarto/images `
+#     -Target ../images
+handouts/04-valvular-disease/mainz-2024/quarto/images

@@ -1,0 +1,22 @@
+{
+  "pdf": "41837945_Kamitani_2026.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1650,
+      "height": 986,
+      "ext": "png",
+      "bytes": 1832472
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1650,
+      "height": 1128,
+      "ext": "png",
+      "bytes": 4311654
+    }
+  ]
+}

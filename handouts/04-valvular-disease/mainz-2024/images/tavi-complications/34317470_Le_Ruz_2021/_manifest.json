@@ -1,0 +1,22 @@
+{
+  "pdf": "34317470_Le_Ruz_2021.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1695,
+      "height": 1253,
+      "ext": "jpeg",
+      "bytes": 313939
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1694,
+      "height": 2314,
+      "ext": "jpeg",
+      "bytes": 551598
+    }
+  ]
+}

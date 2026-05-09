@@ -35,7 +35,7 @@ Only 5.6% of patients who underwent isolated MV surgery in the Society of Thorac
 
 ## 2024 Update of Trials
 
-![2024為止重要trials的整理: COAPT, Matterhorn, RESHAPE-HF2.](../../images/teer/fig%20COAPT%20Matterhorn%20RESHAPE%20HF2.png)
+![2024為止重要trials的整理: COAPT, Matterhorn, RESHAPE-HF2.](../images/teer/fig%20COAPT%20Matterhorn%20RESHAPE%20HF2.png)
 
 COAPT (2018): COAPT 試驗（心血管結果評估 MitraClip 經皮治療功能性二尖瓣逆流心衰竭患者）於 2018 年發表。這項具有里程碑意義的研究旨在評估 MitraClip 裝置在有症狀的心衰竭患者中對嚴重功能性二尖瓣逆流（MR）的安全性和有效性。參與者被隨機分配接受 MitraClip 加上指導下的最佳藥物治療（GDMT）或僅接受 GDMT。研究結果顯示，MitraClip 顯著減少了心衰竭住院次數，並改善了生存率，相較於僅接受 GDMT 的患者。該試驗的結果促使美國 FDA 在 2019 年批准擴大 MitraClip 的適應症，確認其在治療嚴重心衰竭患者中的作用。[@Stone2018; @Tachibana2023]
 
@@ -121,7 +121,7 @@ MATTERHORN 試驗 (2024): MATTERHORN 試驗於 2024 年發表，這是首個隨�
 - 非缺血性心室性 SMR (non-ischemic secondary MR)：最常見於患有重度擴張型心肌病（Dilated Cardiomyopathy）的患者，該病導致瓣環擴張、乳頭肌移位，最終引發二尖瓣（Mitral Valve, MV）小葉運動受限。常合併symmetrical MV tethering.
 - 心房性 SMR (atrial functional secondary MR)：近年來引起越來越多的關注，其病因是左心房擴大，例如因為持續性或慢性心房顫動（Atrial Fibrillation, AF）所致。
 
-![Unadjusted Survival Curves for Different Etiologies of ≥ Mild MR. Unadjusted survival of patients with ≥mild MR stratified by etiology. Abbreviations: MR, mitral regurgitation. [@Samad2013]](../../images/teer/fig%20MR%20type%20severity%20prognosis.png)
+![Unadjusted Survival Curves for Different Etiologies of ≥ Mild MR. Unadjusted survival of patients with ≥mild MR stratified by etiology. Abbreviations: MR, mitral regurgitation. [@Samad2013]](../images/teer/fig%20MR%20type%20severity%20prognosis.png)
 
 ### What is tethering?
 
@@ -140,11 +140,11 @@ Measurement for leaflet grasping (mandatory in Mainz):
 - Mitral valve area: > 4 cm2
 - Grasping zone leaflet mobile length
 
-![MPR, multiplanar reconstruction, 可以在這裡確認各項測量指標彼此相對的位置與關係。](../../images/teer/fig%20TEER%20TEE%20leaflet%20length.png)
+![MPR, multiplanar reconstruction, 可以在這裡確認各項測量指標彼此相對的位置與關係。](../images/teer/fig%20TEER%20TEE%20leaflet%20length.png)
 
 ### The Carpentier classification
 
-![Carpentier classification. Carpentier classification 是針對二尖瓣閉鎖不全（Mitral Regurgitation, MR）的分類系統，根據二尖瓣的解剖學和功能異常，分為三種主要的類型，用以協助描述疾病機制並指導手術治療策略。[@Carpentier1983; @Grayburn2021]](../../images/teer/fig%20Carpentier%20classification.png)
+![Carpentier classification. Carpentier classification 是針對二尖瓣閉鎖不全（Mitral Regurgitation, MR）的分類系統，根據二尖瓣的解剖學和功能異常，分為三種主要的類型，用以協助描述疾病機制並指導手術治療策略。[@Carpentier1983; @Grayburn2021]](../images/teer/fig%20Carpentier%20classification.png)
 
 | **Class** | **Description** |
 |---|---|
@@ -174,7 +174,7 @@ Measurement for leaflet grasping (mandatory in Mainz):
 
 : Mainz Heart Valve Center的常看指標
 
-![Quantification of severe MR. [@Hausleiter2023]](../../images/teer/fig%20MR%20severity%20table%20from%20EI.png)
+![Quantification of severe MR. [@Hausleiter2023]](../images/teer/fig%20MR%20severity%20table%20from%20EI.png)
 
 ### When should we NOT proceed with M-TEER?
 
@@ -188,7 +188,7 @@ Measurement for leaflet grasping (mandatory in Mainz):
 
 病人若是LVEF已經很差了，這個時候ERO and regurgitant volume (RV)都可能低估瓣膜逆流的嚴重度。因為LV contractility已經很差，所以可以導致ERO and RV測量不準。在2024-11-12的case 19就看到明明MR color mapping下jet很大，佔了LA 40% area, 但是測量的ERO只有0.1 cm$^2$, RV只有12 ml. 怎麼看都不對。但是該例的 vena contracta width則有13 mm, 而且有明顯的pulmonary vein flow reversal (還是會據此判斷為severe MR).
 
-![Case 19, 2024-11-12](../../images/teer/fig%20TEER%20case%2019.png)
+![Case 19, 2024-11-12](../images/teer/fig%20TEER%20case%2019.png)
 
 ## MV anatomy
 
@@ -210,13 +210,13 @@ Mainz protocol: aorta be positioned at 6 o'clock (En Face view).
 
 在hybrid OR裡面，專屬的C-arm為single arm, 位置在病患的左側，將頭側保留給interventional TEE operator, 以及麻醉科醫師。採用single arm, 所以頭側的空間可以很大。同時可以直接輸入麻機生理監視器的心電圖訊號到心臟超音波檢查儀中，以減少重覆接線。
 
-![執行TEE會有不必要的輻射暴露，所以TEE operator務必要以鉛玻璃屏風保護自己。](../../images/teer/fig%20TEER%20echo%20operator.png)
+![執行TEE會有不必要的輻射暴露，所以TEE operator務必要以鉛玻璃屏風保護自己。](../images/teer/fig%20TEER%20echo%20operator.png)
 
-![Operator 1 以及 operator 2站在病患右側，interventional TEE的畫面經由Philips系統投射在主螢幕上。Hybrid OR只有single arm, 並且將病患的頭側保留給麻醉機以及interventional TEE operator. 值得注意的是: 頭側用兩片很大的鉛玻璃進行輻射防護。](../../images/teer/fig%20TEER%20setting.jpg)
+![Operator 1 以及 operator 2站在病患右側，interventional TEE的畫面經由Philips系統投射在主螢幕上。Hybrid OR只有single arm, 並且將病患的頭側保留給麻醉機以及interventional TEE operator. 值得注意的是: 頭側用兩片很大的鉛玻璃進行輻射防護。](../images/teer/fig%20TEER%20setting.jpg)
 
-![在TEER執行時，為了減少重覆接線，可以直接將echo machine接受麻醉機生理監視器的訊號線。](../../images/teer/fig%20TEER%20ECG%20connection.png)
+![在TEER執行時，為了減少重覆接線，可以直接將echo machine接受麻醉機生理監視器的訊號線。](../images/teer/fig%20TEER%20ECG%20connection.png)
 
-![Bi-caval view是用來一開始穿刺完靜脈，要準備進行trans-septal puncture重要的view.](../../images/teer/fig%20TEER%20TEE%20bicaval.png)
+![Bi-caval view是用來一開始穿刺完靜脈，要準備進行trans-septal puncture重要的view.](../images/teer/fig%20TEER%20TEE%20bicaval.png)
 
 介入經食道超音波（iTEE）在心血管介入治療中的地位愈來愈重要，其主要功能是為複雜的心臟手術與經皮介入治療提供即時的高解析影像指引。其重要性體現在以下幾個方面：
 
@@ -242,9 +242,9 @@ iTEE是怎麼發展的?
   - 現代 iTEE 與其他成像技術（如 CT 或 MRI）結合，形成多模態成像，提供術前計劃與術中指引。
   - 融合導航技術（fusion imaging）進一步強化了 iTEE 在導引裝置操作及定位上的作用。
 
-![T-TEER的操作重點，在圖中可以看到S/L knob, 以及 F/E knob的功能。](../../images/teer/fig%20TEER%20TV%20knobology%201.png)
+![T-TEER的操作重點，在圖中可以看到S/L knob, 以及 F/E knob的功能。](../images/teer/fig%20TEER%20TV%20knobology%201.png)
 
-![Bi-caval view是用來一開始穿刺完靜脈，要準備進行trans-septal puncture重要的view.](../../images/teer/fig%20TEER%20SVC%20IVC.png)
+![Bi-caval view是用來一開始穿刺完靜脈，要準備進行trans-septal puncture重要的view.](../images/teer/fig%20TEER%20SVC%20IVC.png)
 
 ### Jet analysis
 
@@ -256,7 +256,7 @@ Jet analysis, 指的是針對color mapping下的jet, 用下面流程，找到相
 - 2D color mapping with X-plane, to further confirm the pathology relation to jet.
 - 3D echo, with MPR, to evaluation if there is any jet missed from the previous evaluation sequence.
 
-![Jet analysis是整個TEER治療當中相當重要的環節，在Mainz看到的是依序使用 X-plane, 3D, 最後是MPR進行jet analysis. 關鍵並不是jet的位置與方向，而是循著jet找到相對應的leaflet pathology並針對該位置進行治療。](../../images/teer/fig%20TEER%20jet%20analysis%203D.png)
+![Jet analysis是整個TEER治療當中相當重要的環節，在Mainz看到的是依序使用 X-plane, 3D, 最後是MPR進行jet analysis. 關鍵並不是jet的位置與方向，而是循著jet找到相對應的leaflet pathology並針對該位置進行治療。](../images/teer/fig%20TEER%20jet%20analysis%203D.png)
 
 ## Treatment algorithm
 
@@ -269,11 +269,11 @@ Jet analysis, 指的是針對color mapping下的jet, 用下面流程，找到相
 - M-TEER：二尖瓣經導管緣對緣修復（Mitral Valve Transcatheter Edge-to-Edge Repair）。
 - SMVR：二尖瓣外科修復或置換（Surgical Mitral Valve Repair or Replacement）。
 
-![Patient stratification and simplified guideline recommendation. Therapeutic strategies for patients with (A) symptomatic severe primary mitral regurgitation (MR) or (B) symptomatic severe secondary MR. [@Hausleiter2023]](../../images/teer/fig%20TEER%20treatment%20algorithm.png)
+![Patient stratification and simplified guideline recommendation. Therapeutic strategies for patients with (A) symptomatic severe primary mitral regurgitation (MR) or (B) symptomatic severe secondary MR. [@Hausleiter2023]](../images/teer/fig%20TEER%20treatment%20algorithm.png)
 
 ## TEER repair systems
 
-![目前在歐洲獲准用於二尖瓣（Mitral Valve, MV）微創治療的兩種二尖瓣經導管緣對緣修復（M-TEER）設備為 MitraClip 系統（由 Abbott 製造）和 PASCAL 系統（由 Edwards Lifesciences 製造）。](../../images/teer/fig%20TEER%20systems.png)
+![目前在歐洲獲准用於二尖瓣（Mitral Valve, MV）微創治療的兩種二尖瓣經導管緣對緣修復（M-TEER）設備為 MitraClip 系統（由 Abbott 製造）和 PASCAL 系統（由 Edwards Lifesciences 製造）。](../images/teer/fig%20TEER%20systems.png)
 
 | **特性** | **MitraClip/TriClip 系統** | **PASCAL 系統** |
 |---|---|---|
@@ -304,7 +304,7 @@ First reported the use to PASCAL to treat severe TR. Reported PASCAL use as comp
 
 ### Preparation of MitraClip/TriClip
 
-![這是在Mainz hybrid OR牆上的clip準備說明。](../../images/teer/fig_TEER%20clip%20preparation.png)
+![這是在Mainz hybrid OR牆上的clip準備說明。](../images/teer/fig_TEER%20clip%20preparation.png)
 
 ### Steerable guiding catheter (SGC) placement
 
@@ -322,7 +322,7 @@ Fluoroscopy透視攝影並不會被interventional TEE取代，在進行TEER時�
 
 <!-- Nunes2016 figure is great! -->
 
-![The flouroscopy-guided transseptal puncture landmarks. (A) In the anteroposterior projection, the puncture site should be halfway from the distance of the catheter and the right border of the left atrium and one vertebral body height lower to the aortic valve plane (seen by inserting a pig tail catheter in the non-coronary aortic sinus). (B) In the 40° right anterior oblique projection, confirm if the needle is positioned neither close to the aortic root (too anterior) nor close to the free wall of the right atrium (too posterior). The puncture site should be 1–3 cm below the midpoint of a line connecting the posterior wall of the aorta to the back wall of the right atrium.](../../images/teer/fig%20fluoroguided%20transseptal.png)
+![The flouroscopy-guided transseptal puncture landmarks. (A) In the anteroposterior projection, the puncture site should be halfway from the distance of the catheter and the right border of the left atrium and one vertebral body height lower to the aortic valve plane (seen by inserting a pig tail catheter in the non-coronary aortic sinus). (B) In the 40° right anterior oblique projection, confirm if the needle is positioned neither close to the aortic root (too anterior) nor close to the free wall of the right atrium (too posterior). The puncture site should be 1–3 cm below the midpoint of a line connecting the posterior wall of the aorta to the back wall of the right atrium.](../images/teer/fig%20fluoroguided%20transseptal.png)
 
 ### In the era of interventional TEE
 
@@ -330,11 +330,11 @@ Fluoroscopy透視攝影並不會被interventional TEE取代，在進行TEER時�
 
 The needle and the sheath are held in the fingers to prevent inadvertent advancement of the needle, and the position of the Brockenbrough needle arrow is at 5 or 6 o'clock, according to different procedures (Figure 4). To target a more posterior puncture location, the arrow should be kept at the 6 o'clock position. The needle and the sheath are pulled back caudally until they are visualized in the inferior portion of the SVC. Tenting should be monitored by echocardiography (bicaval view) in the lower part of the SVC before the needle falls into the fossa. Usually, as the needle tents the superior rim of the fossa, supraventricular extrasystolic beats are generated. During this phase, the TEE operator should avoid moving the image from the membranous portion of the septum, and the interventionalist should try to move in the direction of the image.
 
-![Correct handling (A) and orientation (B) of the Mullins sheath and Brockenbrough needle during the pullback maneuvers. Figure from [https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide](https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide)](../../images/teer/fig%20TEER%20SP%20BK%20direction.png)
+![Correct handling (A) and orientation (B) of the Mullins sheath and Brockenbrough needle during the pullback maneuvers. Figure from [https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide](https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide)](../images/teer/fig%20TEER%20SP%20BK%20direction.png)
 
 在這一步驟中，透視（正位投影，AP projection）具有兩個作用：（1）監測針尖的位置（AP 旋轉）直至其落入卵圓窩內；（2）避免過度向下拉至下腔靜脈。
 
-![Fossa ovalis anatomy from the RA view and its schematic division into four parts (A). Three-dimensional models showing the IS from the right side (B) and the left side (C). IA, inferior-anterior; IP, inferior-posterior; SA, superior-anterior; SP, superior-posterior. Figure from [https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide](https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide)](../../images/teer/fig%20TEER%20TS%20anatomy.png)
+![Fossa ovalis anatomy from the RA view and its schematic division into four parts (A). Three-dimensional models showing the IS from the right side (B) and the left side (C). IA, inferior-anterior; IP, inferior-posterior; SA, superior-anterior; SP, superior-posterior. Figure from [https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide](https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide)](../images/teer/fig%20TEER%20TS%20anatomy.png)
 
 接著，在經食道超聲心動圖（TEE，雙腔視角）的監測下，將針頭和導管鞘向後拉，直至進入卵圓窩並形成"頂撐"（tenting）（圖 5A）。此時，TEE 切換至短軸（SAX）基底視角，檢查"頂撐"的位置；對於大多數接受二尖瓣介入治療的患者，"頂撐"應位於後側（圖 5B）。
 
@@ -342,7 +342,7 @@ The needle and the sheath are held in the fingers to prevent inadvertent advance
 
 在進行 MitraClip（Abbott Vascular）操作時，TEE應切換至4-chamber view (四腔心視角)，並測量穿刺高度（即"頂撐"位置與二尖瓣環之間的距離, tenting point to mitral annulus distance）（圖 5C）。對於退化性二尖瓣逆流患者 (Carpentier classification II)，理想的高度應大於 4 公分；而在功能性二尖瓣逆流患者中 (Carpentier classification III)，3.5 公分的距離是可以接受的。由於膜性隔具有彈性，在操作裝置時穿刺高度可能會降低，因此，若存在鬆軟的心房中隔，建議選擇更高的位置進行穿刺。
 
-![TEE bicaval view (A), SAX at the base view (B), and four-chamber view (C) during the pullback phase of TP. Schematic view of the three main TEE projections used during TP in relation to the anatomic structures they show (D). 4ch, four chamber; ANT, anterior; Ao, aorta; AV valve, atrioventricular valve; INF, inferior; IVC, inferior vena cava; LV, left ventricle; PV, pulmonary vein; RV, right ventricle; SUP, superior. Figure from [https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide](https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide)](../../images/teer/fig%20TEER%20TS%20TEE.png)
+![TEE bicaval view (A), SAX at the base view (B), and four-chamber view (C) during the pullback phase of TP. Schematic view of the three main TEE projections used during TP in relation to the anatomic structures they show (D). 4ch, four chamber; ANT, anterior; Ao, aorta; AV valve, atrioventricular valve; INF, inferior; IVC, inferior vena cava; LV, left ventricle; PV, pulmonary vein; RV, right ventricle; SUP, superior. Figure from [https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide](https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide)](../images/teer/fig%20TEER%20TS%20TEE.png)
 
 穿刺的理想位置取決於所使用的特定設備和患者的特徵。MitraClip 手術通常選擇後方的穿刺位置，位於上後和下後區域；Cardioband（Edwards Lifesciences）手術則多選擇更靠前的穿刺位置（上前和下前區域）；而LAAO (左心耳封堵術)通常通過下方的穿刺位置進行（通常位於下後區域）。主要的 TEE 投影及相關的可見解剖結構如圖 5D 所示。
 
@@ -352,7 +352,7 @@ TEE（經食道超聲心動圖）應切換至短軸（SAX）視角，透視（Fl
 
 通常，在穿刺卵圓窩後，"頂撐"（tenting）會在 TEE 中消失。為了進一步提高安全性，在推進經隔導管鞘之前，應確認左心房壓力。如果未見壓力曲線，或者發現主動脈壓力，不應推進導管鞘。完成穿刺後，應追加肝素劑量以達到完全抗凝（100 U/kg），目標活化凝血時間（ACT）應維持在 250 至 300 秒，適用於大多數手術操作。
 
-![關於transseptal puncture for M-TEER, Cardiac Interventions Today有錄製很清楚的影片供參考。這邊將之cite如附圖。[http://cf.cdn.vid.ly/2r9y9b/mp4_1080.mp4](http://cf.cdn.vid.ly/2r9y9b/mp4_1080.mp4)](../../images/teer/fig%20TEER%20TS%20video.png)
+![關於transseptal puncture for M-TEER, Cardiac Interventions Today有錄製很清楚的影片供參考。這邊將之cite如附圖。[http://cf.cdn.vid.ly/2r9y9b/mp4_1080.mp4](http://cf.cdn.vid.ly/2r9y9b/mp4_1080.mp4)](../images/teer/fig%20TEER%20TS%20video.png)
 
 <!-- https://citoday.com/articles/2019-may-june/transseptal-puncture-a-step-by-step-procedural-guide -->
 
@@ -373,31 +373,31 @@ Stradding的動作在MitraClip為重要步驟，為的是讓SGC與CDS之間的�
 
 而Trajectory adjustment則為device enter to target valve前的重要動作之一。要確保entering to LV or RV的 trajectory 為perpendicular to valve orifice. 舉例若是central position, posterior trajectory, 應該要flex guide sheath (PASCAL) 再加上 counter-clockwise rotation of guide sheath (PASCAL).
 
-![這是一個示意圖，顯示Clasp (PASCAL) tip 目前為朝後- posterior trajectory, 但是tip已經位於mitral valve orifice正中了- central position. 這時就應該要有相對應的操作，將posterior trajectory修正為central trajectory.](../../images/teer/fig%20TEER%20trajectory%201.png)
+![這是一個示意圖，顯示Clasp (PASCAL) tip 目前為朝後- posterior trajectory, 但是tip已經位於mitral valve orifice正中了- central position. 這時就應該要有相對應的操作，將posterior trajectory修正為central trajectory.](../images/teer/fig%20TEER%20trajectory%201.png)
 
-![每一個相對應的trajctory and position都有操作的作法，將clip/clasp置放回正中區域。](../../images/teer/fig%20TEER%20trajectory%202.png)
+![每一個相對應的trajctory and position都有操作的作法，將clip/clasp置放回正中區域。](../images/teer/fig%20TEER%20trajectory%202.png)
 
 操作trajectory就會需要理解，MitraClip的諸多元件，在經過transseptal puncture後，位於interatrial septum後，有哪些關結是可動的，而且與mitral valve之間的關係如何。在下圖之中，可以看到軸向轉動系統與二尖瓣的關係。這張圖對於理解 steerable guide catheter (SGC), 與 catheter delivery system (CDS), 還有 clip 的前進後退，與orientation相當重要。
 
-![TEER system有許多可動關節與構造，圖片以MitraClip為例，顯示steerable guide catheter (SGC), catheter delivery system (CDS), clip and orientation之間的關係。](../../images/teer/fig%20TEER%20trajectory%203.png)
+![TEER system有許多可動關節與構造，圖片以MitraClip為例，顯示steerable guide catheter (SGC), catheter delivery system (CDS), clip and orientation之間的關係。](../images/teer/fig%20TEER%20trajectory%203.png)
 
 測定與調整 trajectory, 都會需要在TEE的兩個panels螢幕上看清楚anterior-posterior以及medial-lateral.
 
-![MitraClip的M-L knob, 需要看TEE monitor左側的panel, 弄清楚intercommissural plane上面clip與mitral valve之間的相對關係。](../../images/teer/fig%20TEER%20trajectory%204.png)
+![MitraClip的M-L knob, 需要看TEE monitor左側的panel, 弄清楚intercommissural plane上面clip與mitral valve之間的相對關係。](../images/teer/fig%20TEER%20trajectory%204.png)
 
 ### Check gripper and adjustment for orientation
 
 在這一步，要確定clip/clasp兩個可以單獨抓取mitral leaflet的單元在空間上的對應，更要確定clip/clasp的方向是與leaflet coaptation line保持垂直的。下圖顯示的是標準的A2/P2 grasping orientation.
 
-![此為 clocking (orientation)中，clip的方向為 12-6點鐘，針對 grasping zone: A2-P2是perpendicular垂直於leaflet coaptation, 所以是標準的 orientation (clocking) for A2/P2. 圖中aorta在6點鐘方向 (Mainz standard view)。](../../images/teer/fig%20TEER%20orientation%201.png)
+![此為 clocking (orientation)中，clip的方向為 12-6點鐘，針對 grasping zone: A2-P2是perpendicular垂直於leaflet coaptation, 所以是標準的 orientation (clocking) for A2/P2. 圖中aorta在6點鐘方向 (Mainz standard view)。](../images/teer/fig%20TEER%20orientation%201.png)
 
 ### Leaflet grasping
 
 這一步是所有動作裡，花費時間最多的一步，因為要等待TEE的影像調整到最佳，然後lower-down gripper後，然後評估抓取前後的leaflet insertion是否足夠，才再把clip/clasp關上。之後再進行color mapping, post-clipping echo evaluation.
 
-![瓣葉的抓取 (grasping) 對於影像判斷，操作技巧有極大的要求，其中判斷的重點是: leaflet becomes immobile. 這張圖裡面，病患有congenital anomaly: congenital cord extending from anterior leaflet to inter-atrial septum.](../../images/teer/fig%20TEER%20leaflet%20grasping.png)
+![瓣葉的抓取 (grasping) 對於影像判斷，操作技巧有極大的要求，其中判斷的重點是: leaflet becomes immobile. 這張圖裡面，病患有congenital anomaly: congenital cord extending from anterior leaflet to inter-atrial septum.](../images/teer/fig%20TEER%20leaflet%20grasping.png)
 
-![抓取葉片後，關上clip/clasp, 就會依序完成 color mapping評估，mitral valve area 重新評估，change in pulmonary flow pattern, 以及hemodynamics再評估。](../../images/teer/fig%20TEER%20leaflet%20color%20evaluation.png)
+![抓取葉片後，關上clip/clasp, 就會依序完成 color mapping評估，mitral valve area 重新評估，change in pulmonary flow pattern, 以及hemodynamics再評估。](../images/teer/fig%20TEER%20leaflet%20color%20evaluation.png)
 
 ### Final deploy
 
@@ -417,13 +417,13 @@ Stradding的動作在MitraClip為重要步驟，為的是讓SGC與CDS之間的�
 
 : MitraClip/TriClip deploy時的操作
 
-![Deploy clip之前要作的一系列動作，請參考system構造元件名稱。](../../images/teer/fig%20MitraClip%20system.png)
+![Deploy clip之前要作的一系列動作，請參考system構造元件名稱。](../images/teer/fig%20MitraClip%20system.png)
 
 ## Post-procedure TEE cleaning
 
 清消有特別盒子，並且用兩層塑膠袋分隔。
 
-![TEE的清消，在術後均以圖示方式包裝，有效率，且可達到足夠的感染隔離。](../../images/teer/fig%20TEE%20cleaning.png)
+![TEE的清消，在術後均以圖示方式包裝，有效率，且可達到足夠的感染隔離。](../images/teer/fig%20TEE%20cleaning.png)
 
 ## Shock after TEER
 
@@ -448,4 +448,4 @@ TEER執行後若病人發生shock要怎麼辦?
 - mitral valve area: should > 1.5 cm$^2$
 - tricuspid valve area: should > 2.5 cm$^2$
 
-![減少二尖瓣關閉不全（MR）嚴重程度至輕微的TEER results.](../../images/teer/fig%20TEER%20echo%20follow.png)
+![減少二尖瓣關閉不全（MR）嚴重程度至輕微的TEER results.](../images/teer/fig%20TEER%20echo%20follow.png)

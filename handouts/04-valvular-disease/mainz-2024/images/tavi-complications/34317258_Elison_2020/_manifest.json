@@ -1,0 +1,22 @@
+{
+  "pdf": "34317258_Elison_2020.pdf",
+  "pages": 3,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 806,
+      "ext": "jpeg",
+      "bytes": 93027
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 829,
+      "ext": "jpeg",
+      "bytes": 70053
+    }
+  ]
+}

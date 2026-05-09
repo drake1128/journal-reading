@@ -1,0 +1,474 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+HOW WE DID IT
+Balloon-Assisted Leaflet Laceration 
+to Prevent Coronary Obstruction 
+During TAVR
+Step-by-Step Modified UNICORN
+Gennaro Giustino, MD, Robert Kipperman, MD, Kostantinos Koulogiannis, MD, John Brown III, MD, 
+Philippe Genereux, MD
+ABSTRACT
+OBJECTIVES Coronary obstruction (CO) is a life-threatening complication of transcatheter aortic valve replacement 
+(TAVR). Undermining iatrogenic coronary obstruction with radiofrequency needle (UNICORN) has been recently 
+described as a novel strategy to prevent CO during TAVR. We describe here the step-by-step technique of a modified 
+version of UNICORN.
+KEY STEPS First, the target leaflet is traversed using transcatheter electrosurgery with a 0.014-inch wire. After 
+successful leaflet traversal, the leaflet is first ballooned with a noncompliant coronary balloon. Then, the wire is 
+exchanged with a stiff 0.035-inch wire. Over a 0.035-inch wire, the leaflet is completely lacerated with a large non-
+compliant balloon, and finally the transcatheter heart valve is implanted.
+POTENTIAL PITFALLS Electrosurgical traversal of the target aortic valve leaflet should be performed meticulously in 
+the intended location and in front of the coronary ostium. After leaflet laceration, severe aortic regurgitation may result 
+in hemodynamic instability. Cerebral embolic protection should always be used during leaflet modification.
+CONCLUSIONS Modified UNICORN is a viable alternative strategy to prevent CO during high-risk TAVR. Further 
+data are needed to define its efficacy and safety. (JACC Case Rep. 2025;30:104431) © 2025 The Authors. 
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article 
+under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+C 
+oronary obstruction (CO) is a rare but life-
+threatening complication of transcatheter 
+aortic valve replacement (TAVR). 1-3 The 
+risk of CO can be predicted by preoperative cardiac 
+computed tomography (CT) and has been reported 
+to be higher during valve-in-valve TAVR compared
+with TAVR in native aortic valves. 1-3 In general, CO 
+during TAVR can occur because of direct obstruction,
+TAKE-HOME MESSAGES
+• CO is a life-threatening complication of 
+TAVR.
+• UNICORN is a viable alternative strategy to 
+prevent CO during TAVR in patients at high-
+risk for this complication.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.104431
+From the Gagnon Cardiovascular Institute, Atlantic Health System, Morristown, New Jersey, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received January 15, 2025; revised manuscript received January 29, 2025, accepted February 5, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 2 1 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N 
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R 
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+in which the native or bioprosthetic valve 
+leaflet is displaced toward the coronary ostia
+causing its direct occlusion, or indirect
+obstruction, in which the displaced leaflet
+sequestrates the sinus of Valsalva by inter-
+acting with a low or narrow sinotubular 
+junction. 1,3 
+The most frequently adopted techniques 
+to prevent CO during TAVR are chimney or
+snorkeling stenting 4 and bioprosthetic or
+native aortic scallop intentional laceration to
+prevent iatrogenic coronary artery obstruc-
+tion (BASILICA). 5 Chimney stenting consists
+of the implantation of a stent in the coronary
+ostium protruding in the ascending aorta to
+maintain 
+proximal 
+coronary 
+patency.
+Conversely, BASILICA consists of the elec-
+trosurgical traversal and laceration of a cor-
+onary 
+leaflet. 6 
+Major 
+downsides 
+of
+snorkeling stenting include stent distortion, 
+restenosis, thrombosis, and sometimes prohibitive 
+coronary reaccess, which is particularly problematic 
+for future planning of valve-in-valve procedures. 7 On 
+the other hand, downsides of BASILICA include the 
+technical complexity and substantial learning curve 
+and sometimes inadequate leaflet splay requiring 
+bailout coronary reaccess and stenting. Recently, 
+undermining iatrogenic coronary obstruction with 
+radiofrequency 
+needle 
+(UNICORN) 
+has 
+been
+described as a novel strategy to prevent CO during 
+TAVR. 8 In its original description, the target leaflet 
+was traversed with a 0.035-inch radiofrequency wire 
+and then progressively dilated with a balloon to allow 
+the intraleaflet implantation of a balloon-expandable 
+valve. In the current article, we describe a technique 
+that incorporates elements of BASILICA to perform 
+leaflet traversal followed by balloon-assisted leaflet 
+laceration and subsequent valve implantation.
+CASE SUMMARIES
+We present 3 cases in which we applied a modified 
+technique of UNICORN to prevent CO during valve-
+in-valve TAVR. All patients presented in acute 
+decompensated heart failure. Two were found to 
+have a degenerated Magna Ease valve (Edwards 
+Lifesciences) (both had 20-mm valves), and 1 patient 
+had a degenerated 26-mm Evolut valve (Medtronic). 
+All patients were women. The mean Society of 
+Thoracic Surgeons mortality score was 12.3%. All 
+patients had preserved left ventricular ejection frac-
+tion and had severe stenosis with an average peak 
+velocity of 5 m/s and mean gradient of 49 mm Hg. In 
+all patients, the left main coronary artery was at risk 
+with a mean height of 3.7 mm and a mean virtual 
+valve-to-coronary distance of 3.3 mm. In 2 patients, 
+the right coronary artery was deemed to be at inter-
+mediate risk and we opted for coronary protection
+VISUAL SUMMARY Schematic Diagram of the Steps and Setup for Modified UNICORN During Transcatheter Aortic Valve Replacement
+LCC = left coronary cusp; RCC = right coronary cusp; UNICORN = undermining iatrogenic coronary obstruction with radiofrequency needle.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+BASILICA = bioprosthetic or
+native aortic scallop 
+intentional laceration to 
+prevent iatrogenic coronary 
+artery obstruction
+CO = coronary obstruction 
+CT = computed tomography
+LVOT = left ventricular
+outflow tract
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiography
+THV = transcatheter heart
+valve
+UNICORN = undermining
+iatrogenic coronary
+obstruction with 
+radiofrequency needle
+Giustino et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5
+TAVR With Modified UNICORN
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 4 3 1
+2
+
+=== PAGE 3 ===
+with a drug-eluting stent and bailout snorkeling stent 
+if necessary. In another patient (patient 2), the right 
+coronary artery was chronically occluded in the 
+proximal segment. All patients had anatomy suitable 
+for transfemoral access and for cerebral embolic 
+protection on preoperative CT. All patients under-
+went valve-in-valve TAVR with a 20-mm S3 valve.
+PROCEDURAL STEPS
+PREPROCEDURAL ASSESSMENT. Cardiac CT is crit-
+ical for preprocedural planning of TAVR with leaflet 
+modification. 1 First, CO risk needs to be character-
+ized, as previously described. 1 The aortic valve 
+annular plane should be first defined using 3-point 
+technique as during any TAVR planning. Then, cor-
+onary height, leaflet length and calcification, virtual 
+valve-to-coronary and virtual valve-to-sinotubular 
+junction distance (for valve-in-valve TAVR) should 
+be measured (Figure 1). In general, a valve-to-
+coronary distance <3 to 4 mm or a leaflet length 
+that exceeds coronary height are considered high-
+risk features for CO. 1,2 Conversely, the valve-to-
+sinotubular junction is critical when close to zero, 
+as the outward displacement of the bioprosthetic 
+leaflet would lead to blood flow sequestration of the 
+coronary sinuses. For valve-in-valve TAVR, commis-
+sural alignment should also be evaluated, as leaflet 
+laceration may be ineffective with severe misalign-
+ment. As with BASILICA, in preparation of UNICORN, 
+the CT projection angles for leaflet traversal should 
+be evaluated for each target leaflet: 1) side view to
+project the coronary artery tangential to the leaflet; 
+and 2) front view to project the coronary artery at the 
+center of the leaflet. The aortic arch anatomy should 
+be assessed to plan for cerebral embolic protection 
+use.
+EQUIPMENT. The equipment used for left coronary 
+cusp or right coronary cusp UNICORN is listed in 
+Table 1. The steps of a modified UNICORN technique 
+are summarized in Table 2.
+ELECTROSURGICAL LEAFLET TRAVERSAL. The first
+step of this technique is similar to what has been 
+previously described for BASILICA. 6 However, in 
+contrast to BASILICA, there is no need to cross the 
+aortic valve retrogradely and position a Goose Neck 
+snare (Medtronic) in the left ventricular outflow tract 
+(LVOT). In addition, leaflet traversal can be per-
+formed directly from the valve delivery sheath (eg, 
+an E-sheath for balloon-expandable valves or a Gore 
+DrySeal for self-expanding valves), as the wire used 
+for leaflet laceration will serve to deliver the trans-
+catheter heart valve (THV). The cusp plane should be 
+first defined with 2 cusp injections through the guide 
+catheter (Figures 2A and 2B): one injection along the 
+side view of the target vessel to ensure the catheter is 
+directed toward the base of the leaflet and one in the 
+front view to ensure the catheter is directed in front 
+of the coronary ostia. Then, a 0.014-inch Astato XS 20 
+guidewire (Asahi Intecc USA, Inc) is advanced within 
+a microcatheter to the target leaflet hinge point un-
+der angiographic guidance. The back end of the 
+Astato wire is denuded using a scalpel blade, which is
+FIGURE 1 Preoperative Cardiac Computed Tomography Assessment of Coronary Obstruction Risk
+In case 1, the left and right coronary arteries had a height <10 mm; however, the valve-to-coronary distance was 3.7 mm (high risk) on the left side and 5.0 mm on the 
+right side. In case 2, both left and right coronary arteries were at high risk for sinus sequestration (however, the right coronary artery was completely occluded 
+proximally). In case 3, both coronary arteries had a height <10 mm and a valve-to-coronary distance <4 mm. LC = left cusp; LCA = left coronary artery;
+NC = noncoronary cusp; RC = right cusp; RCA = right coronary artery; STJ = sinotubular junction.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Giustino et al 
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 4 3 1
+TAVR With Modified UNICORN
+3
+
+=== PAGE 4 ===
+then clamped to an electrosurgical pencil set with 
+“cut” mode at 50 to 70 W. After confirming the po-
+sition with transesophageal echocardiography (TEE) 
+(Figure 3), the wire is electrified and advanced 
+through the leaflet into the LVOT and left ventricle.
+BALLOON-ASSISTED 
+LEAFLET 
+LACERATION.
+Appropriate leaflet traversal can be confirmed using 
+TEE visualizing the wire through the leaflet across 
+the LVOT. Then, over the 0.014-inch wire a first 
+dilatation of the leaflet can be performed using a 4.0 
+or 5.0 × 30 mm noncompliant balloon (Figure 4, 
+Video 1). Following the first balloon inflation, the
+0.014-inch wire is exchanged with a preshaped stiff 
+0.035-inch wire (eg, Confida guidewire) using a 
+0.035-inch compatible microcatheter (eg, Quick-
+Cross catheter). Over the stiff 0.035-inch wire, a 
+noncompliant 16-mm balloon (eg, True Dilation val-
+vuloplasty balloon) is advanced across the leaflet 
+hole created with the coronary balloon. This balloon 
+will be used to complete the leaflet laceration 
+(Video 2). Then, the balloon is inflated under fluoro-
+scopic guidance, and the leaflet is completely lacer-
+ated. A waist can be appreciated fluoroscopically 
+confirming that the balloon is being inflated within 
+the leaflet (Figure 4).
+VALVE IMPLANTATION. The THV should be pre-
+pared and ready before the second balloon inflation 
+and leaflet laceration. Following leaflet laceration, 
+the balloon should be rapidly removed from the body 
+maintaining the preshaped 0.035-inch wire in the left 
+ventricle, and the THV should be advanced across the 
+aortic valve and implanted with usual technique 
+(Figure 4). In this case series, the time from leaflet 
+traversal to valve implantation was approximately 
+10 minutes, and the time from leaflet laceration 
+(second balloon inflation) to THV implantation was 
+approximately 2 minutes. Final coronary patency 
+post–THV implant can be assessed with a nonselec-
+tive aortogram. In this series, no patients had evi-
+dence 
+of 
+left 
+main 
+obstruction 
+after 
+THV 
+implantation.
+POTENTIAL PITFALLS
+There are potential pitfalls of this technique that 
+need to be mentioned. First, traversal of the leaflet 
+requires familiarity with electrosurgical techniques 
+including interpretation of the fluoroscopic and TEE 
+cusp anatomy. As with BASILICA, traversal of the 
+leaflet should be performed closer to the base of the
+TABLE 2 Step-by-Step Modified UNICORN
+1. Advance the guide in the aortic root and identify the target 
+coronary cusp
+2. Obtain angiogram of the cusp in the side view and frontal 
+view of the target vessel (eg, left main or right coronary 
+artery)
+3. Advance the Astato wire within the microcatheter to the tip of 
+the guide
+4. Confirm the position of the point of traversal of the leaflet on 
+TEE and ensure adequate catheter contact with the leaflet
+5. Scratch the back of the Astato wire and connect with the 
+electrosurgical pencil
+6. Burn at 50 or 70 W while advancing the Astato wire
+7. Advance the Astato wire in the left ventricle and remove the 
+microcatheter
+8. Advance the NC coronary balloon and perform valvotomy 
+over the Astato wire at the point of traversal
+9. After valvotomy, remove the balloon and exchange the 
+Astato with a Supracore using a Quickcross or Navicross 
+microcatheter
+10. Advance a large (14 or 16 mm) noncompliant balloon across 
+the leaflet
+11. Exchange the Supracore with a Confida wire
+12. Have the valve ready on the table
+13. Inflate the large noncompliant balloon until maximum infla-
+tion (disappearance of the waist indicates complete leaflet 
+laceration)
+14. Remove the Armada balloon and deploy the TAVR over the 
+Confida wire
+TAVR = transcatheter aortic valve replacement; TEE = transesophageal echo-
+cardiography; UNICORN = undermining iatrogenic coronary obstruction with 
+radiofrequency needle.
+TABLE 1 Modified UNICORN Equipment List
+Vascular access
+E-sheath (Edwards Lifesciences) for balloon-expandable S3 valve 
+Gore DrySeal (Gore Medical) for self-expanding Evolut valve
+Leaflet traversal
+For left coronary cusp: AL3 7-F or 8-F guide catheter (if daughter-in-mother catheter is used, then 8-F guide catheter). 5-F 
+125-cm catheter if daughter catheter is used
+For right coronary cusp: JR4 and MP1 6-F guide catheter (if daughter-in-mother catheter is used, then 8-F guide catheter). 
+5-F 125-cm catheter if daughter catheter is used
+Astato XS 20 wire 300 cm (Asahi Intecc Medical), have multiple wires in the room
+Finecross (Terumo Interventional Systems), Turnpike (Teleflex), or Piggyback (Teleflex) microcatheter
+Copilot and 3-way stopcock
+Electrosurgical pencil and generator
+Leaflet laceration
+For first valvotomy: 4.0 or 5.0 × 30 mm noncompliant coronary balloon
+For final leaflet laceration: 14 or 16 mm noncompliant balloons
+Quickcross (Philips) 0.035-inch microcatheter or Navicross (Terumo Interventional Systems) straight 0.035-inch microcatheter 
+Confida (Medtronic) wire (or other preshaped wires)
+UNICORN = undermining iatrogenic coronary obstruction with radiofrequency needle.
+Giustino et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5
+TAVR With Modified UNICORN
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 4 3 1
+4
+
+=== PAGE 5 ===
+FIGURE 3 Transesophageal Echocardiography Guidance for Traversal System Positioning and Leaflet Traversal
+Multiplanar reconstruction imaging guidance during leaflet traversal. The dotted circle indicates the position of the catheter at the base of 
+the left coronary cusp indicating appropriate positioning. The orange arrows indicate the AL3 guide catheter. Appropriate leaflet traversal 
+can be confirmed by visualizing the wire in the left ventricular outflow tract.
+FIGURE 2 Cusp Anatomy and Projections
+Definition of cusp anatomy and fluoroscopic projections in the side view (A) and front view (B).
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Giustino et al 
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 4 3 1
+TAVR With Modified UNICORN
+5
+
+=== PAGE 6 ===
+leaflet, as traversal closer to the tip may lead to 
+ineffective leaflet laceration. In its original inception, 
+UNICORN was performed with a 0.035-inch radio-
+frequency wire. In this technique iteration, we 
+believe that crossing with a 0.014-inch wire may be 
+safer in case of traversal in a suboptimal spot. 
+Second, this technique is ideal for patients with a 
+single coronary artery at risk. If both coronary ar-
+teries are at risk, it should be combined with 
+BASILICA or snorkeling stenting for the contralateral 
+artery. Third, following leaflet laceration with a large 
+noncompliant balloon, the patient may become he-
+modynamically unstable owing to severe aortic 
+regurgitation. Sustained hemodynamic instability 
+can be prevented by having the transcatheter heart 
+valve readily available and minimizing the time of 
+ventricular exposure to severe regurgitation. Fourth, 
+severe commissural misalignment of the coronary 
+ostia may impair the effectiveness of leaflet lacera-
+tion to prevent CO. 1 Fifth, UNICORN has fewer data 
+than BASILICA and may be associated with a more 
+unpredictable pattern of leaflet laceration or even
+leaflet avulsion. Finally, whereas in this series we 
+used only balloon-expandable valves, a similar 
+technique has also been recently described with self-
+expanding valves. 9
+CONCLUSIONS
+Among patients at risk for CO undergoing TAVR, we 
+describe the steps of a modified version of UNICORN 
+that combines electrosurgical leaflet traversal with 
+balloon-assisted leaflet laceration. This technique 
+appeared to be effective and simplified part of the 
+technical complexities associated with BASILICA. 
+Further research is needed to evaluate its safety and 
+its comparative effectiveness with BASILICA or 
+snorkeling stenting.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Giustino has been a proctor and consultant for Edwards Life-
+sciences. Dr Koulogiannis has been a consultant for Edwards Life-
+sciences and Medtronic. Dr Genereux has received institutional 
+research grants from Edwards Lifesciences; has received consulting
+FIGURE 4 Modified UNICORN Leaflet Traversal, Balloon Laceration, and Valve Implantation
+Steps for modified undermining iatrogenic coronary obstruction with radiofrequency needle (UNICORN) including traversal system positioning and leaflet traversal, 
+first balloon inflation, second balloon inflation, and valve implantation. The orange arrows indicate the waist around the center of the balloon created by the 
+surrounding leaflet tissue.
+Giustino et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+TAVR With Modified UNICORN
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 4 3 1
+6
+
+=== PAGE 7 ===
+fees from Abbott, Cordis, Edwards Lifesciences, Egnite, Haemo-
+netics, Medtronic, Opsens, Puzzle Medical, Pi-Cardia, and 4C Medi-
+cal; has reported equity in Puzzle Medical and Pi-Cardia; and has 
+been a principal investigator of EARLY TAVR trial and PROGRESS 
+trial, both sponsored by Edwards Lifesciences. All other authors have 
+reported that they have no relationships relevant to the contents of 
+this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Gennaro
+Giustino, Valve and Structural Heart Center, Gagnon 
+Cardiovascular Institute, Atlantic Health System, 100 
+Madison Avenue, Morristown, New Jersey 07960, 
+USA. E-mail: gennaro.giustino@atlantichealth.org.
+R E F E R E N C E S
+1. Lederman RJ, Babaliaros VC, Rogers T, et al. 
+Preventing coronary obstruction during trans-
+catheter 
+aortic 
+valve 
+replacement: 
+from 
+computed tomography to BASILICA. JACC Car-
+diovasc Interv. 2019;12:1197–1216.
+2. Khan JM, Kamioka N, Lisko JC, et al. Coronary 
+obstruction from TAVR in native aortic stenosis: 
+development and validation of multivariate pre-
+diction model. JACC Cardiovasc Interv. 2023;16: 
+415–425.
+3. Ibrahim H, Chaus A, Alkhalil A, Prescher L, 
+Kleiman N. Coronary artery obstruction after 
+transcatheter aortic valve implantation: past, 
+present, and future. Circ Cardiovasc Interv. 
+2024;17:e012827.
+4. Mercanti F, Rosseel L, Neylon A, et al. Chimney 
+stenting for coronary occlusion during TAVR:
+insights from the chimney registry. JACC Car-
+diovasc Interv. 2020;13:751–761.
+5. Khan JM, Babaliaros VC, Greenbaum AB, et al. 
+Preventing coronary obstruction during trans-
+catheter aortic valve replacement: results from 
+the multicenter international BASILICA registry. 
+JACC Cardiovasc Interv. 2021;14:941–948.
+6. Komatsu I, Mackensen GB, Aldea GS, Reisman M, 
+Dvir D. Bioprosthetic or native aortic scallop inten-
+tional laceration to prevent iatrogenic coronary ar-
+tery obstruction. Part 2: how to perform BASILICA. 
+EuroIntervention. 2019;15:55–66.
+7. Mangieri A, Richter I, Gitto M, et al. Chimney 
+stenting vs BASILICA for prevention of acute 
+coronary obstruction during transcatheter aortic 
+valve replacement. JACC Cardiovasc Interv. 
+2024;17:742–752.
+8. Chan KE, Tai-Leung Chan D, Lam CS, et al. 
+First-in-human undermining iatrogenic coronary 
+obstruction with radiofrequency Needle (UNI-
+CORN) procedure during valve-in-valve trans-
+catheter aortic valve replacement. Circ Cardiovasc 
+Interv. 2022;15:928–931.
+9. Haberman D, Lupu L, Merdler I, et al. UNICORN 
+with a self-expanding valve to treat a degen-
+erated balloon-expandable valve. JACC Car-
+diovasc Interv. 2025;18:123–125.
+KEY WORDS aortic valve, percutaneous 
+coronary intervention, valve replacement
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Giustino et al 
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 4 3 1
+TAVR With Modified UNICORN
+7

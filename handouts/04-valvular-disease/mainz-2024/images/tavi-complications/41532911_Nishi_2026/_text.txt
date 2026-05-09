@@ -1,0 +1,383 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Intravascular Lithotripsy of Negatively 
+Remodeled Calcified Abdominal Aorta to 
+Facilitate Transfemoral Transcatheter 
+Aortic Valve Replacement
+Takeshi Nishi, MD, a,b Jagadeesh K. Kalavakunta, MD, a,b Abhinav Sood, MD, a,b Jerry W. Pratt, MD, b,c 
+Frank Saltiel, MD, a,b Vishal Gupta, MD, MPH a,b
+ABSTRACT
+BACKGROUND Transfemoral access is the preferred route for transcatheter aortic valve replacement (TAVR), but 
+severe calcification and luminal narrowing of the iliofemoral artery or abdominal aorta may preclude safe large-bore 
+sheath passage. Intravascular lithotripsy (IVL) has been increasingly used for iliofemoral vessel preparation, yet its 
+application in the abdominal aorta has been rarely reported.
+CASE SUMMARY An 84-year-old woman with symptomatic severe aortic stenosis was deemed high risk for 
+transfemoral TAVR owing to severe narrowing with circumferential calcification of infrarenal aorta with luminal 
+diameter <5 mm. To preserve transfemoral access, IVL with a 7.0-mm Shockwave balloon was performed using stepwise 
+low-pressure inflations (1-6 atm, 300 pulses), achieving adequate luminal expansion for an 18-F sheath. A 23-mm 
+self-expanding valve was successfully implanted without complications, and the patient was discharged the next day.
+DISCUSSION This case demonstrates that IVL can safely modify a small-caliber, circumferentially calcified 
+iliofemoral and abdominal aorta to facilitate transfemoral TAVR.
+TAKE-HOME MESSAGE Stepwise low-pressure inflations and meticulous procedural planning may expand
+the feasibility of transfemoral access in patients otherwise considered for higher-risk alternative routes.
+(JACC Case Rep. 2026;31:106527) © 2026 The Authors. Published by Elsevier on behalf of the American College of 
+Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/ 
+licenses/by-nc-nd/4.0/).
+T 
+ransfemoral access remains the default route 
+for transcatheter aortic valve replacement 
+(TAVR) owing to lower procedural risk and 
+superior outcomes compared with alternative access 
+strategies. However, stenosis of heavy calcification 
+of iliofemoral or abdominal aortic segments can
+make transfemoral delivery unsafe, often necessi-
+tating transaxillary, transcaval, or transcarotid ap-
+proaches. 
+These 
+are 
+associated 
+with 
+higher 
+complication rates. Intravascular lithotripsy (IVL) 
+has emerged as an adjunct for vessel preparation in 
+heavily calcified iliofemoral arteries, but its use in
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.106527
+From the a Department of Cardiology, Beacon Kalamazoo Hospital, Kalamazoo, Michigan, USA; b Homer Stryker MD School of 
+Medicine, Western Michigan University, Kalamazoo, Michigan, USA; and the c Department of Cardiothoracic Surgery, Beacon 
+Kalamazoo Hospital, Kalamazoo, Michigan, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received September 24, 2025; revised manuscript received November 4, 2025, accepted November 19, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 1 , N O . 7 , 2 0 2 6
+ª 2 0 2 6 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+the abdominal aorta is rarely reported. 1 Here, 
+we present a case where IVL in the distal 
+abdominal 
+aorta 
+enabled 
+transfemoral 
+TAVR, with emphasis on technical consider-
+ations, safety principles, and the potential 
+role of IVL in expanding transfemoral access 
+for patients with otherwise prohibitive 
+anatomy.
+HISTORY OF PRESENTATION
+An 84-year-old woman with symptomatic severe 
+aortic stenosis was referred for TAVR evaluation. 
+Over the preceding year, she developed progressive 
+fatigue and occasional lightheadedness. Her exercise 
+tolerance declined, with increased need for rest 
+during daily activities, though she was still able to 
+continue short daily walks.
+PAST MEDICAL HISTORY
+Her history was notable for coronary artery bypass 
+grafting with a left internal mammary artery graft to 
+the left anterior descending artery and 2 saphenous 
+vein grafts, paroxysmal atrial fibrillation requiring
+VISUAL SUMMARY Severe Circumferential Calcification and Negative Remodeling of Abdominal Aorta Resulted in Prohibitive Transfemoral Access
+Intravascular lithotripsy (IVL) of the abdominal aorta and common iliac artery increased luminal diameter, enabling safe device passage and successful transfemoral 
+transcatheter aortic valve replacement (TAVR) with deployment of a 23-mm self-expanding valve.
+TAKE-HOME MESSAGES
+• Severe abdominal aortic calcification may 
+prohibit transfemoral access for TAVR.
+• IVL at low pressures can safely modify 
+calcified abdominal aorta and facilitate 
+large-bore sheath delivery.
+• Careful patient selection, undersized 
+balloon strategy, and comprehensive 
+bailout planning are essential to minimize 
+procedural risk.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+CT = Computed tomography
+IVL = Intravascular lithotripsy
+TAVR = Transcatheter aortic
+valve replacement
+Nishi et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6
+IVL of the Abdominal Aorta for Transfemoral TAVR 
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 7
+2
+
+=== PAGE 3 ===
+anticoagulation, bilateral carotid endarterectomy, 
+right groin arteriovenous fistula, hypertension, 
+hyperlipidemia, diabetes mellitus, obstructive sleep 
+apnea, prior gastrointestinal bleeding, and stage 3 
+chronic kidney disease.
+INVESTIGATIONS
+Transthoracic echocardiography demonstrated se-
+vere aortic stenosis with a mean gradient of 
+42 mm Hg and valve area of 0.7 cm 2 . Multidetector 
+computed tomography (CT) confirmed a small native 
+aortic annulus with an area of 274 mm 2 , consistent 
+with a small annular anatomy. CT angiography 
+revealed circumferential heavy calcification of the 
+infrarenal abdominal aorta with a minimal luminal 
+diameter of 4.9 × 5.7 mm (mean 5.3 mm) and an 
+external diameter of <10 mm (mean 9.1 mm), 
+consistent with calcified abdominal aorta stenosis 
+with negative remodeling. Bilateral common iliac
+arteries were also severely narrowed (right 5.3 mm 
+mean, left 4.7 mm mean) with eccentric calcification 
+(Figure 1). These findings identified the abdominal 
+aorta and iliac arteries as the principal barriers to 
+transfemoral access.
+MANAGEMENT STRATEGY
+To preserve transfemoral access, IVL of the infrarenal 
+aorta and right iliac artery was planned using an 
+undersized balloon and stepwise low-pressure in-
+flations. If unsuccessful, alternative access was pre-
+pared as a bailout strategy.
+PROCEDURE
+After obtaining informed consent, the procedure was 
+performed in a catheterization laboratory. The right 
+common femoral artery was accessed under com-
+bined ultrasound and fluoroscopic guidance, and an
+FIGURE 1 Computed Tomography Angiography
+(A) Circumferential heavy calcification of the infrarenal abdominal aorta with a minimal luminal diameter of 4.9 × 5.7 mm (mean 5.3 mm). (B and C) bilateral common 
+iliac arteries were also narrowed, measuring 4.3 × 6.2 mm on the right and 2.7 × 6.7 mm on the left, with eccentric calcification. (D) The external diameter of the 
+abdominal aorta measured 8.6 × 9.5 mm (mean 9.1 mm).
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6 
+Nishi et al
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 7 
+IVL of the Abdominal Aorta for Transfemoral TAVR
+3
+
+=== PAGE 4 ===
+8-F sheath was inserted. In addition, the right radial 
+artery was cannulated with a 6-F Glidesheath Slender 
+under ultrasound guidance.
+Angiography confirmed severe stenosis and heavy 
+circumferential calcification of the distal abdominal 
+aorta and common iliac arteries (Figure 2A), consis-
+tent with preprocedural CT angiography findings. To 
+facilitate safe passage of a large-bore sheath, IVL 
+was 
+performed 
+using 
+a 
+Shockwave 
+M5+ 
+7.0 × 60 mm balloon (Johnson & Johnson MedTech). 
+Sequential inflations were delivered, beginning at 1 
+to 2 atm and gradually increasing to 4 to 6 atm, for a 
+total of 10 cycles (30 pulses per cycle), resulting in 
+adequate luminal expansion (Figure 3).
+Following IVL, the femoral sheath was exchanged 
+for an 18-F Gore DrySeal sheath (W. L. Gore & Asso-
+ciates, Inc), which was successfully advanced 
+without resistance. A 0.035-inch SavvyWire was 
+positioned across the stenotic surgical bioprosthetic 
+aortic valve into the left ventricle. A 23-mm Med-
+tronic Evolut FX + valve (Medtronic) was then 
+advanced to the annulus and deployed under rapid 
+ventricular pacing. Postdeployment aortography 
+(Figure 4) and transthoracic echocardiography 
+confirmed appropriate prosthesis expansion, a low
+residual transvalvular gradient, and absence of par-
+avalvular leak.
+Final angiography of the abdominal aorta and 
+iliac arteries demonstrated no evidence of vascular 
+complications (Figure 2B). Hemostasis was secured 
+using an 18-F MANTA closure device (Teleflex) at 
+the femoral access site and a radial compression 
+device at the radial access site. The patient tolerated 
+the procedure well and was discharged the 
+following day in stable condition.
+DISCUSSION
+Severe calcification of the iliofemoral or abdominal 
+aorta is a recognized challenge for transfemoral TAVR, 
+often precluding large-bore sheath passage and 
+necessitating alternative access strategies such as 
+transaxillary, transcaval, or transcarotid approaches. 
+Although these alternatives are feasible, they are 
+associated with higher complication rates and less 
+favorable outcomes compared with transfemoral ac-
+cess. Preserving the transfemoral route is therefore of 
+great clinical importance whenever possible.
+IVL has recently emerged as a valuable adjunctive 
+tool to facilitate transfemoral TAVR in patients with
+FIGURE 2 Angiography of Abdominal Aorta and Iliac Arteries
+(A) Baseline angiography before intravascular lithotripsy, demonstrating significant stenoses (arrowheads). (B) Final angiography after 
+intravascular lithotripsy demonstrating improved luminal expansion.
+Nishi et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6
+IVL of the Abdominal Aorta for Transfemoral TAVR 
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 7
+4
+
+=== PAGE 5 ===
+heavily calcified iliofemoral arteries. By delivering 
+acoustic shockwaves through a low-pressure balloon, 
+IVL produces microfractures in calcium while mini-
+mizing barotrauma to soft tissue. This mechanism 
+improves vessel compliance without the rupture risk 
+associated with conventional high-pressure angio-
+plasty. Multiple registries and case series have 
+demonstrated the feasibility and safety of IVL for 
+iliofemoral access preparation. 1
+In contrast, the use of IVL in the abdominal aorta 
+has been infrequently reported, with only a few case 
+reports describing its application in settings such as 
+coral reef aorta. 2,3 The unique aspect of our case is 
+the presence of circumferential atherosclerotic 
+calcification with negative remodeling of the 
+infrarenal abdominal aorta, characterized by an 
+external diameter of only approximately 9 mm and a 
+lumen of approximately 5 mm. This small-caliber 
+phenotype, resulting from constrictive vessel 
+remodeling, contrasts with previously reported 
+cases. It highlights a distinct pattern of advanced 
+atherosclerosis that may be particularly relevant in 
+elderly patients with multiple comorbidities. 4 
+In this challenging anatomy, IVL permitted 
+controlled vessel expansion at low balloon pressures, 
+reducing rupture risk compared with high-pressure 
+angioplasty and enabling safe transfemoral TAVR. 
+Several technical considerations are noteworthy: 1) 
+careful balloon sizing, with a 7.0-mm balloon 
+selected to match the narrowed lumen and avoid 
+oversizing; 2) gradual, stepwise low-pressure in-
+flations to minimize vessel injury; and 3) compre-
+hensive bailout planning, including availability of 
+covered stents and surgical backup. These pre-
+cautions are critical when applying IVL to large cen-
+tral vessels such as the abdominal aorta, where 
+complications could be catastrophic. 
+When performing IVL for iliofemoral or aortoiliac 
+preparation, it is important to position the large-bore
+FIGURE 3 Intravascular Lithotripsy
+Intravascular lithotripsy of the distal abdominal aorta (A) and right common iliac artery (B).
+FIGURE 4 Aortic Root Angiography Following Transcatheter 
+Aortic Valve Replacement
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6 
+Nishi et al
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 7 
+IVL of the Abdominal Aorta for Transfemoral TAVR
+5
+
+=== PAGE 6 ===
+sheath above the treated segment whenever possible. 
+This prevents the valve delivery system from inter-
+acting with the modified calcified zone, reducing the 
+risk of vessel injury or device entrapment during 
+advancement or withdrawal.
+In this case of native aortic stenosis with extensive 
+aortoiliac calcification, a self-expanding Evolut 
+FX + valve was selected owing to its flexible 
+over-the-wire delivery catheter and tapered distal 
+profile, which facilitated smoother advancement 
+through the IVL-treated aortic segment. Preproce-
+dural CT demonstrated a small annular area, consis-
+tent with a small native aortic annulus. This anatomy 
+further supported the use of a self-expanding, supra-
+annular valve design, which provides a larger effec-
+tive orifice area and lower residual gradients 
+compared with intra-annular balloon-expandable 
+valves in small annuli. Although the Evolut system is 
+typically advanced without an introducer sheath, an 
+18-F Gore DrySeal sheath was intentionally used in 
+this case to provide additional hemostasis and pro-
+cedural stability and to protect the IVL-modified 
+aortic segment during catheter exchanges. 
+Clinically, this case demonstrates that IVL can 
+extend the feasibility of transfemoral TAVR in 
+anatomically prohibitive patients. Recent data indi-
+cate that transfemoral TAVR with adjunctive pe-
+ripheral intervention is associated with more 
+favorable outcomes compared with nontransfemoral 
+approaches, highlighting the importance of preser-
+ving transfemoral access whenever possible. 5 
+Although early results are encouraging, systematic
+data are lacking. Further studies are needed to define 
+the safety, durability, and long-term outcomes of 
+abdominal aortic IVL in this setting.
+CONCLUSIONS
+This case demonstrates that IVL of the abdominal 
+aorta can be performed safely and effectively to 
+facilitate transfemoral TAVR in patients with pro-
+hibitive calcification and small-caliber anatomy. Us-
+ing an undersized balloon with gradual low-pressure 
+inflations allowed controlled vessel expansion, 
+enabling large-bore sheath delivery without vascular 
+injury. Careful patient selection, meticulous plan-
+ning, and preparedness for bailout remain essential 
+when applying IVL to central vessels, where compli-
+cations could be catastrophic. Although this single 
+case illustrates feasibility, further experience and 
+systematic data are needed to define the role of 
+abdominal aortic IVL in expanding transfemoral ac-
+cess options.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Takeshi Nishi,
+Department 
+of 
+Cardiology, 
+Beacon 
+Kalamazoo 
+Hospital, 1521 Gull Road, Kalamazoo, Michigan 49048, 
+USA. E-mail: tnishi@beaconhealthsystem.org. OR 
+takeshi24@hotmail.co.jp.
+R E F E R E N C E S
+1. Sawaya FJ, Bajoras V, Vanhaverbeke M, et al. 
+Intravascular lithotripsy-assisted transfemoral 
+TAVI: the Copenhagen experience and literature 
+review. Front Cardiovasc Med. 2021;8:739750. 
+https://doi.org/10.3389/fcvm.2021.739750
+2. Ponna PK, Gonuguntla A, Botta RK, 
+Fischell T, Agrawal Y. Shockwave lithotripsy of 
+calcific stenosis of the distal abdominal aorta 
+to 
+facilitate 
+transcatheter 
+aortic 
+valve 
+replacement. 
+Cardiovasc 
+Revasc 
+Med. 
+2023;53S:S134–S138. https://doi.org/10.1016/j. 
+carrev.2023.04.021
+3. Morris JP, Cadogan D, Casserly IP. Intravascular 
+lithotripsy-assisted balloon angioplasty to facili-
+tate transfemoral transcatheter aortic valve im-
+plantation in a patient with coral reef aorta. BMJ 
+Case Rep. 2021;14(3):e240876. https://doi.org/ 
+10.1136/bcr-2020-240876
+4. Benvenuti LA, Onishi RY, Gutierrez PS, de 
+Lourdes Higuchi M. Different patterns of 
+atherosclerotic remodeling in the thoracic and 
+abdominal 
+aorta. 
+Clinics 
+(Sao 
+Paulo). 
+2005;60(5):355–360. https://doi.org/10.1590/ 
+s1807-59322005000500002
+5. Isogai T, Agrawal A, Shekhar S, et al. 
+Comparison of outcomes following trans-
+catheter aortic valve replacement requiring 
+peripheral vascular intervention or alternative 
+access. J Am Heart Assoc. 2023;12(12): 
+e028878. 
+https://doi.org/10.1161/JAHA.122. 
+028878
+KEY WORDS intravascular lithotripsy, 
+transcatheter aortic valve replacement
+Nishi et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6
+IVL of the Abdominal Aorta for Transfemoral TAVR 
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 7
+6

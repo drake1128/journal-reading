@@ -1,0 +1,46 @@
+{
+  "pdf": "41072982_Altaf_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1967,
+      "height": 614,
+      "ext": "jpeg",
+      "bytes": 246212
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1967,
+      "height": 1233,
+      "ext": "png",
+      "bytes": 1303337
+    },
+    {
+      "file": "fig-03_p3.png",
+      "page": 3,
+      "width": 1066,
+      "height": 739,
+      "ext": "png",
+      "bytes": 598247
+    },
+    {
+      "file": "fig-04_p4.png",
+      "page": 4,
+      "width": 797,
+      "height": 735,
+      "ext": "png",
+      "bytes": 485159
+    },
+    {
+      "file": "fig-05_p4.png",
+      "page": 4,
+      "width": 797,
+      "height": 715,
+      "ext": "png",
+      "bytes": 477181
+    }
+  ]
+}

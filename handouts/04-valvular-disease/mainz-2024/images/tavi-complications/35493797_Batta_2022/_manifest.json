@@ -1,0 +1,30 @@
+{
+  "pdf": "35493797_Batta_2022.pdf",
+  "pages": 4,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1545,
+      "height": 766,
+      "ext": "jpeg",
+      "bytes": 168433
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 856,
+      "ext": "jpeg",
+      "bytes": 137524
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 801,
+      "ext": "jpeg",
+      "bytes": 126576
+    }
+  ]
+}

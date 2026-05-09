@@ -1,0 +1,526 @@
+
+=== PAGE 1 ===
+THROMBUS MANAGEMENT
+HOW WE DID IT
+Removal of Massive Left Atrial 
+Appendage Closure Device–Related 
+Thrombus With Complete
+Embolic Protection
+Step-by-Step Technique
+Chantal Y. Asselin, MD, MSC, Mostafa Naguib, MD, Konstantinos P. Koulogiannis, MD, Conner O’Keefe, MD, 
+Daniel Bachman, MD, Robert Kipperman, MD, John Brown III, MD, Linda Gillam, MD, Philippe Généreux, MD, 
+Gennaro Giustino, MD
+ABSTRACT
+OBJECTIVE Device-related thrombus (DRT) is a life-threatening complication of left atrial appendage closure devices. 
+Transcatheter vacuum-assisted thrombectomy has recently been described as a novel strategy for removal of large DRT, 
+but it is associated with increased risk of systemic embolism. We describe a step-by-step technique of a complete 
+embolic protection strategy in patients undergoing vacuum-assisted thrombectomy.
+KEY STEPS First, bilateral cerebral embolic protection devices are deployed. Next, systemic embolic protection is 
+achieved by positioning an ONO retrieval device (Onocor) within the proximal aortic arch. An arterial return cannula is 
+inserted. Then, transseptal crossing is performed with positioning of a suction catheter within the left atrium for 
+aspiration thrombectomy.
+POTENTIAL PITFALLS Aspiration should be performed meticulously, avoiding traumatic dislodgment of thrombotic 
+material. The ONO basket must be assessed for embolic debris before its removal using transesophageal echocardiog-
+raphy. Long-term oral anticoagulation should be considered if tolerated.
+TAKE-HOME MESSAGE Transseptal transcatheter vacuum-assisted thrombectomy with complete embolic protection 
+is a viable and effective strategy to prevent thromboembolic complications for life-threatening DRT. (JACC Case Rep. 
+2026;31:106928) © 2026 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+L 
+eft atrial appendage closure (LAAC) has 
+become a routine procedure for stroke pre-
+vention in patients with atrial fibrillation
+where long-term oral anticoagulation (OAC) is con-
+traindicated. 1-3 Postimplantation, short-term OAC is
+required to prevent device-related thrombus (DRT), 
+however DRT may still occur, posing significant chal-
+lenges in clinical management and increasing the risk 
+of serious embolic complications. Large, multicenter, 
+international registries have indicated that DRTs
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2026.106928
+From the Gagnon Cardiovascular Institute, Atlantic Health System, Morristown, New Jersey, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received August 6, 2025; revised manuscript received October 8, 2025, accepted October 10, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 1 , N O . 1 0 , 2 0 2 6
+ª 2 0 2 6 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+often lead to increased risk of death, 
+ischemic stroke, and systemic emboliza-
+tion. 4 The 2023 Society for Cardiovascular 
+Angiography & Interventions and Heart 
+Rhythm Society joint expert consensus state-
+ment regarding DRTs recommends treatment 
+with OACs, with repeat imaging at 45- to 90-
+day intervals until resolution. 5 No formal 
+guideline recommendations currently exist 
+regarding optimal treatment of DRTs in pa-
+tients in whom OAC is high risk or contrain-
+dicated. Surgical thrombectomy can be considered 
+but may be prohibitive in some patients.
+Recently, transcatheter vacuum-assisted mass 
+extraction devices have emerged as a viable alterna-
+tive in high-risk surgical patients. 6-8 Concomitant 
+use of neuroprotection devices is advised, however 
+the risk of systemic embolization of thrombotic 
+debris remains. Therefore, we propose a novel tech-
+nique with step-by-step instructions of a complete 
+embolic protection strategy to mitigate the risk of 
+both cerebrovascular and systemic thromboembolic 
+phenomena during vacuum-assisted mechanical 
+thrombectomy.
+CASE SUMMARY
+An 81-year-old man presented to the hospital after 
+sustaining a fall, with a prolonged downtime of 
+3 days owing to an acute ischemic stroke. The pa-
+tient’s medical history included type 2 diabetes 
+mellitus, hypertension, hyperlipidemia, obstructive 
+sleep apnea, moderate aortic stenosis, sick sinus 
+syndrome with prior insertion of a single-lead 
+implantable cardioverter defibrillator, and persis-
+tent atrial fibrillation. Because of his history of
+TAKE-HOME MESSAGES
+• Device-related
+thrombus
+is
+a
+life-
+threatening complication of left atrial 
+appendage closure devices.
+• Transseptal transcatheter vacuum-assisted 
+thrombectomy is an effective alternative to 
+surgery or anticoagulation for device-
+related thrombus.
+• Complete embolic protection is a viable and 
+effective strategy to prevent cerebral and 
+systemic thromboembolic complications.
+FIGURE 1
+Initial Evaluation of a Massive Left Atrial Appendage Closure Device–Related Thrombus on Transesophageal Echocardiography
+A
+B
+C
+D
+E
+F
+(A to C) Visualization of a massive device-related thrombus (red arrows) in the left atrium on 2D TEE. (D to F) TEE 3D imaging of a massive device-related thrombus.
+2D = two-dimensional; 3D = three-dimensional; TEE = transesophageal echocardiography.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+DRT = device-related
+thrombus
+LA = left atrium
+LAAC = left atrial appendage
+closure
+OAC = oral anticoagulation
+TEE = transesophageal
+echocardiography
+Asselin et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 0 , 2 0 2 6
+Transcatheter Removal of Device-Related Thrombus
+M A R C H 1 1 , 2 0 2 6 : 1 0 6 9 2 8
+2
+
+=== PAGE 3 ===
+multiple falls with high risk of intracranial hemor-
+rhage, the patient had undergone LAAC with a 
+Watchman device 2 months prior. His anti-
+coagulation was discontinued after LAAC. He was
+maintained on dual-antiplatelet therapy with aspirin 
+and clopidogrel.
+The initial computed tomography of the head 
+demonstrated a linear area of increased attenuation
+FIGURE 2 Initial Cardiac CT Angiography Demonstrating a Massive Left Atrial Appendage Closure Device–Related Thrombus
+A
+B
+(A) Visualization of left atrial appendage device (yellow arrow) with attached massive thrombus (red arrow). (B) Massive thrombus within the 
+left atrium (red arrow). CT = computed tomography.
+TABLE 1 Equipment List
+Procedural Step
+Item and Description
+Vascular access
+Initial RFA access with 4-F sheath (VSI Micro introducer 4-F 7 cm; Teleflex), exchanged to 8-F sheath (Pinnacle 8-F 0.038-
+inch × 10 cm; Terumo Medical), then exchanged to 16-F sheath (DrySeal Flex introducer 16-F; 5.3 × 6.1 mm, 33 cm; 
+Gore Medical) used to deploy the ONO retrieval system.
+Secondary LFA access with 4-F sheath (VSI Micro introducer 4-F 7 cm; Teleflex), exchanged to 8-F sheath (Pinnacle 8-F 
+0.038-inch × 10 cm; Terumo Medical), then exchanged to 15-F sheath (DrySeal Flex introducer 17-F; 5.0 × 5.6 mm, 
+33 cm; Gore Medical) for arterial cannula placement for blood return.
+Tertiary RFV access with 4-F sheath (VSI Micro introducer 4-F 7 cm; Teleflex), exchanged to 8-F sheath (Pinnacle 8-F 
+0.038-inch × 10 cm; Terumo Medical), then exchanged to 26-F sheath (DrySeal Flex introducer 26-F; 8.7 × 9.5 mm, 
+33 cm; Gore Medical).
+Complete embolic 
+protection
+Cor Runthrough guidewire 0.014-inch × 300 cm (Terumo Medical) or Hi-Torque Whisper ES STR guidewire 0.035-
+inch × 190 cm (Abbott)
+Catheter filter Sentinel cerebral protection system ×2 (Boston Scientific)
+17-F TruSteer access system (Boston Scientific) or 14-F DrySeal sheath (Gore Medical)
+ONO retrieval (Onocor)
+Transseptal crossing
+Cor Runthrough guidewire 0.014-inch × 300 cm (Terumo Medical) or Hi-Torque Whisper guidewire 0.035-inch × 190 cm 
+(Abbott)
+VersaCross large access solution (Boston Scientific)
+Confida Brecker guidewire CRV 0.035-inch × 260 cm (Medtronic)
+Armada balloon 35 OTW 12 mm × 40 mm × 135 cm (Abbott)
+Suction catheter
+Cannula with dilator AngioVac 180 ◦ (AngioDynamics) 
+ECMO system
+ECMO oxygenator module a
+AngioVac reservoir filter
+15-F or 17-F arterial return cannula (Medtronic)
+ASD closure (optional)
+Ampltazer cribriform occluder (Abbott) (or other ASD closure device)
+Closure device
+Perclose ProGlide ×7 (Abbott) (or other closure device)
+a Optional equipment.
+ASD = atrial septal defect; ECMO = extracorporeal membrane oxygenation; LFA = left femoral artery; RFA = right femoral artery; RFV = right femoral vein.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 0 , 2 0 2 6 
+Asselin et al
+M A R C H 1 1 , 2 0 2 6 : 1 0 6 9 2 8 
+Transcatheter Removal of Device-Related Thrombus
+3
+
+=== PAGE 4 ===
+in the right occipitoparietal region concerning for 
+subarachnoid hemorrhage. Subsequent work-up 
+including magnetic resonance imaging of the brain 
+reveled an acute infarct involving the right para-
+median parieto-occipital lobe with an area of 
+evolving hemorrhagic transformation and laminar 
+necrosis. Transesophageal echocardiography (TEE) 
+revealed a very large (4.8 × 3 cm) mobile thrombus 
+attached to the prior Watchman with concomitant 
+mild left atrial (LA) enlargement (Figure 1, Video 1). 
+Biventricular systolic function was preserved. After 
+discussion with the neurology and neurosurgery 
+teams, the patient was initiated on full-dose 
+anticoagulation.
+The patient was evaluated by both the cardiac 
+surgery and structural heart teams, who deter-
+mined that he was at prohibitive risk for open heart 
+surgery given the high risk of hemorrhagic con-
+version of the acute stroke. Subsequent imaging 
+with transthoracic echocardiography and computed 
+tomography demonstrated elimination of the LAA 
+thrombus with no signs of resolution or reduction 
+in size despite anticoagulation (Figure 2, Video 2). 
+After multidisciplinary discussion, the DRT was 
+considered at an unacceptable risk for repeat 
+embolic events if treated with OACs alone given 
+high-risk features including size, mobility, attach-
+ment to the atrial surface involving the central 
+screw hub of the device, extension into the left 
+atrial cavity, and patient’s presentation of acute 
+ischemic stroke.
+Therefore, the patient underwent percutaneous 
+vacuumed-assisted mechanical thrombectomy with 
+a complete embolic protection strategy including 
+bilateral cerebral embolic protection and systemic 
+embolic protection with the ONO retrieval device 
+(Onocor). After multiple runs of aspiration, the 
+thrombus was successfully removed. Total fluoro-
+scopic time was 32 minutes. Repeat transthoracic 
+echocardiography demonstrated elimination of the 
+LA thrombus. A discrete 3-mm leak around the 
+device was newly identified; its role in the original 
+thrombus formation as compared with persistent 
+atrial fibrillation is unknown at the present time, 
+however other risk factors for thrombus formation 
+were excluded. The patient’s neurological status 
+improved after the procedure, and there were no 
+neurological deficits. He was discharged to an acute 
+rehabilitation facility on OAC therapy with planned 
+repeat TEE in 6 to 8 weeks to ensure no new 
+thrombus formation.
+PROCEDURAL STEPS
+EQUIPMENT. The equipment used for the vacuum-
+assisted mechanical thrombectomy with complete 
+embolic protection is listed in Table 1, and the step-
+by-step instructions for the procedure are described 
+in Table 2.
+COMPLETE EMBOLIC PROTECTION. We developed a
+novel concept of a complete embolic protection
+TABLE 2 Step-by-Step Protocol for Transseptal Transcatheter Vacuum-Assisted Thrombectomy With Complete Embolic Protection
+1. Obtain vascular access (right and left femoral arteries of 15-F and 17-F; either right or left femoral vein, 26-F) per the usual standard.
+2. Deploy bilateral cerebral protection devices.
+3. Advance the 17-F TruSteer access system into the proximal ascending aortic arch.
+4. Advance the ONO retrieval system through the steerable sheath and deploy it within the proximal ascending aortic arch (substitute with a 14-F 
+DrySeal sheath delivered via transaxillary access). 9
+5. Confirm ONO retrieval system position on fluoroscopy and TEE.
+6. Insert 15-F or 17-F arterial return ECMO cannula into a peripheral artery.
+7. Perform transseptal cross per the usual standard.
+8. Advance a stiff guidewire transeptally (we use a Versacross wire) and perform balloon septostomy (we use a 12-mm Armada balloon).
+9. Advance the suction catheter into the LA (we used AngioVac 180 ◦ ).
+10. Inflate a large balloon (we use a 12-mm Armada balloon) at the distal tip of the suction catheter to deploy the basket.
+11. Connect suction catheter circuit (AngioVac) with an extracorporeal pump ensuring connection with a reservoir filter to capture the thrombotic 
+material.
+12. Perform transseptal transcatheter vacuum-assisted thrombectomy.
+13. Assess ONO retrieval system for embolic tissue using TEE prior to removal.
+14. Remove the complete embolic protection devices (ONO retrieval system, Sentinel cerebral protection system ×2).
+15. Option to use an ASO device if right-to-left or bidirectional shunting leading to hypoxemia, or left-to-right shunting leading to RV dysfunction is 
+observed.
+16. Remove all sheaths and close vascular access with closure device of choice (we use the Abbott Perclose ProGlide).
+ASO = atrial septal occluder; ECMO = extracorporeal membrane oxygenation; LA = left atrium; RV = right ventricle; TEE = transesophageal echocardiography.
+Asselin et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 0 , 2 0 2 6
+Transcatheter Removal of Device-Related Thrombus 
+M A R C H 1 1 , 2 0 2 6 : 1 0 6 9 2 8
+4
+
+=== PAGE 5 ===
+strategy that can be used in cases where an extra-large 
+intracardiac mobile thrombus requires vacuum-
+assisted 
+mechanical 
+thrombectomy 
+given 
+an 
+elevated risk of both cerebral and systemic throm-
+boembolization, which could otherwise be a devas-
+tating and a potentially life-threatening complication 
+of the procedure. The first step of this technique 
+requires large-bore vascular access, which should be 
+appropriately assessed prior to the procedure using 
+contrast computed tomography. Next, a bilateral 
+cerebral embolic protection device (Sentinel cerebral 
+protection system, Boston Scientific) should be
+deployed per the usual standard to prevent micro-
+embolic phenomena from causing acute cerebrovas-
+cular infarcts. This is followed by deployment of a 
+systemic embolic protection device such as the ONO 
+retrieval device. A 17-F TruSteer sheath (Boston Sci-
+entific), which can be advanced over a standard 
+0.035-inch stiff guidewire and positioned within the 
+aortic arch proximal to the brachiocephalic trunk is 
+utilized as access for the ONO retrieval system. The 
+ONO retrieval device may be advanced through the 
+steerable sheath and opened in the proximal aortic 
+arch. Device positioning should be assessed
+FIGURE 3
+Step-by-Step Technique of Transseptal Transcatheter Vacuum-Assisted Thrombectomy With Complete Embolic Protection Under Fluoroscopic
+Guidance
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+(A) Insertion of an arterial return cannula in the left femoral artery. (B) Secondary vascular access of right femoral artery for insertion of the TruSteer with the Ono
+device in the ascending aorta. (C) Deployment of bilateral cerebral protection devices. (D) Deployment of ONO retrieval device in the proximal aortic arch distal to the
+brachiocephalic trunk. (E) Complete embolic protection. (F) Transseptal puncture. (G) Transseptal crossing with a Versacross guidewire in the left atrium. (H) Partial
+inflation of 12-mm Armada balloon. (I) Septostomy with 12-mm Armada balloon. (J) Advancement of suction catheter transseptally. (K) Suction catheter basket
+deployment in the left atrium using a 12-mm Armada balloon using balloon-tracking technique. (L) Vacuum-assisted mechanical thrombectomy under complete
+embolic protection.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 0 , 2 0 2 6 
+Asselin et al
+M A R C H 1 1 , 2 0 2 6 : 1 0 6 9 2 8 
+Transcatheter Removal of Device-Related Thrombus
+5
+
+=== PAGE 6 ===
+intraprocedurally 
+on 
+fluoroscopy 
+and 
+TEE 
+(Figures 3E, 4C, and 4D). As the ONO basket has open 
+cells, it does not cause hemodynamic instability or 
+obstruction to flow, while protecting from embo-
+lisms of large thrombotic masses.
+VACUUM-ASSISTED MECHANICAL THROMBECTOMY. A
+transseptal approach for removal of left-sided 
+intracardiac masses using a vacuum-assisted mass 
+extraction device has been previously described. 6 
+First, a 15-F or 17-F arterial return cannula is inser-
+ted and is preclosed with 2 ProGlide (Abbott) in the 
+right or left common femoral artery. Insertion of a 
+return cannula in the arterial system will prevent 
+hypotension during aspiration and reduction in 
+preload in the left-side cardiac chambers. Placement 
+of the return cannula within the arterial system 
+should be considered in patients that require pro-
+longed aspirations in the left-side chambers which 
+can result in hypotension due to reduction in car-
+diac pre-load. Then, transseptal crossing may be
+performed with a dedicated device such as the 
+VersaCross large access solution system (Boston 
+Scientific) and confirmed using a combination of 
+imaging modalities (fluoroscopy, TEE, or intracar-
+diac echocardiography). A stiff 0.035-inch wire (eg, 
+Confida guidewire; Medtronic) is positioned within 
+the LA to facilitate delivery of a noncompliant 
+ballon (12-mm Armada balloon; Abbott) for septos-
+tomy. A suction catheter (AngioVac C180; AngioDy-
+namics) is then advanced into the LA, and vacuum-
+assisted mechanical thrombectomy is performed as 
+previously described. 6 
+Suction power can be 
+increased during the procedure by augmenting the 
+flow on the extracorporeal pump connected to the 
+reservoir filter. Transition of the thrombectomy 
+cannula across the septum can be facilitated using 
+the balloon-tracking technique. 6 A summary of the 
+step-by-step technique under fluoroscopic and TEE 
+guidance is represented in Figure 3 (Video 3) and 
+Figure 4, respectively.
+FIGURE 4
+Step-by-Step Technique of Transseptal Transcatheter Vacuum-Assisted Thrombectomy With Complete Embolic Protection Under TEE Guidance
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+(A and B) Assessment of massive left atrial appendage closure device thrombus. (C) Deployment of the ONO retrieval device in the proximal aortic arch distal to the
+brachiocephalic trunk. (D) Assessment of ONO retrieval device position. (E) Transseptal puncture. (F) Transseptal crossing with a Confida guidewire in the left atrium.
+(G) Septostomy with 12-mm Armada balloon. (H to J) Vacuum-assisted mechanical thrombectomy under complete embolic protection. (K) Post-thrombectomy
+assessment of the ONO retrieval device basket with absence of embolic debris. (L) Visualization of the left atrial appendage closure device with notable absence of
+thrombus. TEE = transesophageal echocardiography.
+Asselin et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 0 , 2 0 2 6
+Transcatheter Removal of Device-Related Thrombus 
+M A R C H 1 1 , 2 0 2 6 : 1 0 6 9 2 8
+6
+
+=== PAGE 7 ===
+POTENTIAL PITFALLS
+There are potential pitfalls of this technique that need 
+to be mentioned. First, deployment of a complete 
+embolic protection strategy requires familiarity with 
+the ONO retrieval device as well as cerebral protection 
+devices. The ONO retrieval device must be advanced 
+through a large-bore 17-F steerable sheath inserted in 
+a peripheral artery, which can increase the risk of 
+vascular and bleeding complications. Once the basket 
+is opened, an echocardiographer must confirm its 
+position as well as assess the basket for embolic 
+debris before its removal (Video 4). If this basket is 
+not adequately assessed before its removal, periph-
+eral or visceral ischemia may ensue. If embolic debris 
+is identified within the basket, the basket should be 
+pulled back into the descending thoracic aorta before 
+device recapture. This should be performed with ce-
+rebral embolic protection devices in situ. Second, the 
+ONO retrieval device is a novel technology, with only 
+a few reports of its use; it therefore may be associated 
+with a more unpredictable pattern of use. 10-12 Thirdly, 
+the operator should have access to multiple trans-
+catheter vacuum-assisted devices (eg, Inari, Alpha-
+Vac, AngioVac) for extra-large thrombus removal, as a 
+combination of devices may be required. Finally, this 
+procedure does not guarantee complete thrombus 
+removal, as small microthrombotic particles may still 
+be adherent to the LAAC device, nor does it prevent 
+reoccurrence of DRTs. Therefore, consideration for 
+long-term OAC should be discussed on a case-by-case 
+basis after the procedure.
+CONCLUSIONS
+To our knowledge, this is the first description of a 
+complete embolic protection strategy during trans-
+septal vacuum-based thrombectomy for a massive 
+life-threatening DRT. The ONO device was demon-
+strated to be useful for securing systemic embolic 
+protection, avoiding peripheral or visceral infarction. 
+In high- or extreme-risk patients, this technique 
+should be considered in case of massive DRT as an 
+alternative to open heart surgery or OAC alone.
+ACKNOWLEDGMENTS The authors acknowledge all 
+of the health care workers and ancillary hospital staff 
+who were involved in the care of the patient.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Koulogiannis has been a consultant for Edwards Lifesciences and 
+Medtronic. Dr Gillam has been an advisor to Medtronic, Philips, and 
+Egnite. Dr Généreux has received institutional research grants from 
+Edwards Lifesciences; consulting fees from Abbott, Cordis, Edwards 
+Lifesciences, Egnite, Haemonetics, Medtronic, Opsens, Puzzle Med-
+ical, Pi-Cardia, 4C medical; has equity in Puzzle Medical and Pi-
+Cardia; and was principal investigator of the EARLY TAVR trial and 
+the PROGRESS trial, both sponsored by Edwards Lifesciences. Dr 
+Giustino has been a proctor and consultant for Edwards Lifesciences. 
+All other authors have reported that they have no relationships 
+relevant to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Gennaro
+Giustino, Valve and Structural Heart Center, Gagnon 
+Cardiovascular Institute, Atlantic Health System, 100 
+Madison Avenue, Morristown, New Jersey 07960, 
+USA. E-mail: gennaro.giustino@atlantichealth.org.
+R E F E R E N C E S
+1. Reddy VY, Doshi SK, Kar S, et al. 5-year out-
+comes after left atrial appendage closure: from 
+the PREVAIL and PROTECT AF trials. J Am Coll 
+Cardiol. 2017;70:2964–2975.
+2. Holmes DR Jr, Doshi SK, Kar S, et al. Left atrial 
+appendage closure as an alternative to warfarin 
+for stroke prevention in atrial fibrillation: a 
+patient-level meta-analysis. J Am Coll Cardiol. 
+2015;65:2614–2623.
+3. Holmes DR Jr, Alkhouli M, Reddy V. Left 
+atrial appendage occlusion for the unmet 
+clinical needs of stroke prevention in non-
+valvular atrial fibrillation. Mayo Clin Proc. 
+2019;94:864–874.
+4. Simard T, Jung RG, Lehenbauer K, et al. Pre-
+dictors of device-related thrombus following 
+percutaneous left atrial appendage occlusion. 
+J Am Coll Cardiol. 2021;78:297–313.
+5. Saw J, Holmes DR, Cavalcante JL, et al. SCAI/ 
+HRS expert consensus statement on transcatheter
+left atrial appendage closure. JACC Cardiovasc 
+Interv. 2023;16:1384–1400.
+6. Qintar M, Wang DD, Lee J, et al. Transcatheter 
+vacuum-assisted left-sided mass extraction with 
+the AngioVac system. Catheter Cardiovasc Interv. 
+2022;100:628–635.
+7. Gerosa G, Longinotti L, Bagozzi L, et al. 
+Transapical aspiration of a mitral mass with the 
+AngioVac system on a beating heart. Ann Thorac 
+Surg. 2020;110:e445–e447.
+8. Stimpfle F, Müller K, Geisler T, et al. Throm-
+boembolic risk reduction via transseptal thrombus 
+aspiration in a patient with spontaneous left atrial 
+thrombus and stroke. JACC Cardiovasc Interv. 
+2017;10:e57–e59.
+9. Hennawi HA, Srivastava S, Abulshamat A, 
+Qintar M. The MICHIGAN procedure. JACC Case 
+Rep. 2024;29:102448.
+10. Giustino G, Koulogiannis K, Blitz L, et al. First-
+in-Human percutaneous transseptal retrieval of
+embolized transcatheter valve in the left 
+ventricle. JACC Cardiovasc Interv. 2025;18:1591– 
+1594.
+11. Karunanandaa A, Patel N, Wong P, et al. Novel 
+use of the ONO retrieval system for intracardiac 
+thrombectomy in a high-risk pediatric patient. 
+J Soc Cardiovasc Angiogr Interv. 2023;2:100976.
+12. Herron C, Batlivala SP, Shahanavaz S. Right 
+atrial thrombus removal with use of the ON  
+O
+retrieval device. Catheter Cardiovasc Interv. 
+2023;102:1105–1108.
+KEY WORDS complete embolic protection, 
+device related thrombus, left atrial 
+appendage closure device, vacuum-assisted 
+mechanical thrombectomy
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 0 , 2 0 2 6 
+Asselin et al
+M A R C H 1 1 , 2 0 2 6 : 1 0 6 9 2 8 
+Transcatheter Removal of Device-Related Thrombus
+7

@@ -1,0 +1,30 @@
+{
+  "pdf": "38264301_Torrado_2024.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1968,
+      "height": 639,
+      "ext": "jpeg",
+      "bytes": 371710
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1493,
+      "height": 745,
+      "ext": "jpeg",
+      "bytes": 227506
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1071,
+      "height": 626,
+      "ext": "jpeg",
+      "bytes": 142368
+    }
+  ]
+}

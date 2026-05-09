@@ -1,0 +1,262 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Acute Occlusion of Right Coronary 
+Artery During Transcatheter Aortic Valve 
+Replacement of a Bicuspid Valve
+Yousuke Taniguchi, MD, a Anna Lena Lahmann, MD, a Hector A. Alvarez-Covarrubias, MD, MSC, PHD, a 
+Salvatore Cassese, MD, a Erion Xhepa, MD, a Massimiliano Fusaro, MD, a Michael Joner, MD a,b
+ABSTRACT
+BACKGROUND Coronary artery occlusion following transcatheter aortic valve replacement is a severe complication.
+CASE SUMMARY We present a case of coronary artery occlusion that occurred unexpectedly despite thorough pre-
+procedural planning under the anatomically unique condition of a bicuspid aortic valve. Several factors that warrant 
+reconsideration during preprocedural planning became clearer through the case analysis and subsequent autopsy 
+findings.
+DISCUSSION Despite best practice in preprocedural planning, exact simulation of procedural work flow and precise 
+risk assessment remains restricted owing to patient-specific anatomical and functional characteristics not amenable to 
+preprocedural projection.
+TAKE-HOME MESSAGES When transcatheter aortic valve replacement is performed in the setting of a bicuspid aortic 
+valve, coronary artery–related complications may be at increased risk for failed percutaneous bailout procedures. When 
+assessing the risk of coronary artery occlusion in bicuspid aortic valves, it is important to consider not only coronary 
+artery height, but also the distribution of calcification. (JACC Case Rep. 2025;30:105313) © 2025 The Authors. 
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article 
+under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION AND 
+PAST MEDICAL HISTORY
+A 75-year-old patient with severe aortic stenosis was 
+scheduled for transfemoral transcatheter aortic valve 
+replacement (TAVR) owing to the increased surgical 
+risk of reoperation after prior coronary artery bypass 
+graft surgery (saphenous venous graft–distal left
+anterior descending coronary artery, right internal 
+thoracic artery–proximal left anterior descending 
+coronary artery, left internal thoracic artery–left 
+circumflex artery). The patient’s Society of Thoracic 
+Surgeons Predicted Risk of Mortality score was 
+calculated as 7.45%. This case received ethical 
+approval from the ethical review committee of 
+Technische Universität München.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.105313
+From the a Department of Cardiology and Cardiovascular Diseases, German Heart Center Munich, Technical University Munich 
+University Hospital, Munich, Germany; and the b Deutsches Zentrum für Herz- und Kreislauf-Forschung (DZHK) e.V. (German 
+Center for Cardiovascular Research), Partner Site Munich Heart Alliance, Munich, Germany.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received March 27, 2025; revised manuscript received June 27, 2025, accepted July 14, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 3 0 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+INVESTIGATIONS
+Multislice computed tomography for assess-
+ment of the aortic annulus measurements in 
+multiple plane reconstructions revealed a 
+right-left Sievers type 1 bicuspid aortic valve, 
+and the density of the raphe was calculated as 1,207 
+Hounsfield units (Figure 1). Multislice computed to-
+mography also revealed that the left ventricular 
+outflow tract area was 521 mm 2 , annulus area was 
+548 mm 2 , annulus perimeter was 84 mm, right cor-
+onary height was 15.5 mm, and left coronary height 
+was 11.5 mm (Figures 2A to 2F). The calcium volume 
+was calculated at 2,165 mm 3 (1,107 mm 3 [51.1% of 
+total] calcium volume was seen on the right coronary 
+cusp) (Figures 3A and 3B). Coronary angiography 
+showed moderate stenosis in the middle and distal 
+right coronary artery (RCA); however, the proximal 
+RCA had no severe stenosis (Video 1). Simulation of a 
+26-mm Sapien 3 with circle method was performed. 
+The simulation revealed sufficient space at the 
+annulus and sinus of Valsalva level and sufficient 
+height of the RCA relative to the aortic annulus 
+(Figures 4A to 4D, Video 2). All measurements and
+simulation were performed by 3mensio (Pie Medical 
+Imaging BV).
+MANAGEMENT
+TAVR was performed via a transfemoral approach. 
+Predilation with a 25-mm balloon was conducted, 
+also serving as annular sizing, and a 26-mm Sapien 3 
+(Edwards Lifesciences) was selected and successfully 
+implanted (Videos 3A and 3B). The procedure was 
+completed after confirming a mild paravalvular leak, 
+and the patient was transferred to the intensive care 
+unit for further monitoring. However, the first elec-
+trocardiogram after the procedure showed ST-
+segment elevation of the posterior wall and severely 
+impaired function of the right ventricle on 
+echocardiography.
+The patient was immediately transferred to the 
+catheterization laboratory, and a coronary angiogram 
+revealed total occlusion of the RCA (Figure 5, 
+Video 4A). Multiple attempts to recanalize the vessel 
+failed. At the same time, RCA flow had recovered to 
+TIMI flow grade 2 (Video 4B). ST-segment elevation 
+had also improved to the baseline. In addition, owing 
+to the upper limitation on the amount of contrast 
+agent, it was decided to stabilize the patient in the 
+intensive care unit and opt for a second-look 
+strategy. Within 3 hours, no re-elevation of the ST-
+segment was noted. However, as hypotension and 
+hypoxia remained refractory necessitating ongoing 
+catecholamine support and mechanical ventilation, 
+the treating interventional cardiologists decided to 
+implant extracorporeal membrane oxygenation 
+(ECMO) as a backup for a reattempt of recanalization. 
+After straightforward ECMO implantation, coro-
+nary angiography of the RCA was performed, which 
+paradoxically showed TIMI flow grade 3 of the RCA. 
+However, it was impossible to cross the ostia of the 
+RCA with any coronary guidewires (Video 5). 
+Despite best practice intensive care for several days, 
+the patient’s condition deteriorated, and the patient 
+died.
+FIGURE 1 Morphology of Bicuspid Valve
+Multislice computed tomography showing the right-left Sievers type 1 calcified bicuspid 
+aortic valve before the procedure. Asterisks indicate raphe between right and left 
+coronary cusps. LC = left coronary cusp; NC = noncoronary cusp; RC = right coronary 
+cusp.
+TAKE-HOME MESSAGES
+• When TAVR is performed in the setting of a 
+bicuspid aortic valve, coronary artery-
+related complications may be at increased 
+risk for failed percutaneous bailout 
+procedures.
+• When assessing the risk of coronary artery 
+occlusion in bicuspid aortic valves, it is 
+important to consider not only coronary 
+artery height, but also the distribution of 
+calcification.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+RCA = right coronary artery
+TAVR = transcatheter aortic
+valve replacement
+Taniguchi et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 0 , 2 0 2 5
+Acute Coronary Occlusion During Bicuspid TAVR 
+O C T O B E R 1 , 2 0 2 5 : 1 0 5 3 1 3
+2
+
+=== PAGE 3 ===
+FIGURE 2 Preprocedural Assessment of Annulus Anatomy
+Multislice computed tomography showing the area and perimeter at the level of left ventricular outflow track (A), annulus (B), Valsalva sinus (C), and sinotubular 
+junction (D). Right (E) and left (F) coronary heights were also estimated.
+FIGURE 3 Distribution of Calcium on Each Coronary Cusp
+(A) Multislice computed tomography (horizontal view) showing calcium distribution according to each coronary cusp. Yellow shows 
+distribution of calcium on the right coronary cusp, purple shows calcium distribution on the left coronary cusp, and blue shows calcium 
+distribution on the noncoronary cusp. (B) Multislice computed tomography (three-dimensional reconstruction) showing calcium distribution 
+according to each coronary cusp. Yellow shows distribution of calcium on the right coronary cusp, purple shows calcium distribution on the 
+left coronary cusp, and blue shows calcium distribution on the noncoronary cusp. Abbreviations as in Figure 1.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 0 , 2 0 2 5 
+Taniguchi et al
+O C T O B E R 1 , 2 0 2 5 : 1 0 5 3 1 3 
+Acute Coronary Occlusion During Bicuspid TAVR
+3
+
+=== PAGE 4 ===
+OUTCOME
+The family consented to an autopsy, which revealed a 
+blockage of the RCA caused by severely calcified 
+leaflet material of the original bicuspid valve 
+(Figures 6A and 6B). A retrograde approach of the 
+right coronary ostium clarified that selective angi-
+ography and wire-crossing were impossible because a 
+calcified mass of the original valve material caused an 
+intermittent 
+obstruction, which 
+allowed 
+only 
+nonselective angiography of the RCA (Video 6).
+DISCUSSION AND CONCLUSIONS
+We encountered a case of RCA occlusion following 
+TAVR in which revascularization proved to be 
+extremely challenging. Furthermore, surgical inter-
+vention was impossible owing to the limited avail-
+ability of graft candidates owing to prior coronary 
+artery bypass graft surgery, combined with an 
+excessively high risk associated with open-heart 
+surgery in the setting of cardiogenic shock during 
+the later course of this case. Consequently, the
+FIGURE 4 Circle Method Simulation of 26-mm Sapien 3 Valve Implantation
+Simulation of a 26-mm Sapien 3 with circle method at the annulus level (A), Valsalva level (B), and right coronary artery (RCA) ostium level 
+(C) and the simulation revealing the relationship between simulated valve and RCA ostium (D). Asterisk in C and D indicates RCA ostium. 
+Blue circle and line express the stent flame of prosthetic valve, and red circle and line express the outer skirt of valve.
+Taniguchi et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 0 , 2 0 2 5
+Acute Coronary Occlusion During Bicuspid TAVR 
+O C T O B E R 1 , 2 0 2 5 : 1 0 5 3 1 3
+4
+
+=== PAGE 5 ===
+patient ultimately died. Autopsy findings revealed a 
+spatial relationship between the calcified material on 
+the aortic valve leaflet and the RCA ostium. It was 
+suggested that intermittent mechanical obstruction 
+caused by the calcified material had likely occurred, 
+and it was presumed that refractory right ventricular
+infarction contributed to the hemodynamic insta-
+bility observed in this case.
+Retrospectively, the bicuspid anatomy of the 
+aortic valve resulted in an unforeseen displacement 
+of the leaflet material with blockage of the RCA 
+ostium. Furthermore, the blockage by the material 
+and anomaly of the Valsalva sinus made the series of 
+procedures for recanalization much more chal-
+lenging. On the other hand, an imbalance of calcium 
+volume might have been one of the significant signs 
+informing us of the risk of critical complications such 
+as coronary obstruction. With TAVR being more 
+commonly performed in patients with bicuspid aortic 
+valve anatomy, 1 this particular case should alert us to 
+respect the complex anatomical structure of bicuspid 
+aortic valves, where unforeseeable consequences 
+may arise out of highly standardized and perceivably 
+safe procedures.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Yousuke
+Taniguchi, Department of Cardiology and Cardio-
+vascular Diseases, German Heart Center Munich, 
+Technical University Munich University Hospital, 
+Lazarettstrasse 36, 80636 Munich, Germany. E-mail: 
+taniguchi@dhm.mhn.de.
+FIGURE 5 Coronary Angiography Following Sapien 3 Valve 
+Implantation
+Coronary angiography just after ST-segment elevation on 
+electrocardiogram revealed total occlusion in right coronary 
+artery (RCA) ostium. Asterisk indicates RCA ostium.
+FIGURE 6 Autopsy Findings of the Aortic Root
+(A) Preparation of the Edwards Sapien 3 valve prosthesis after autopsy with the roots of the left main (LM) and right coronary artery (RCA) 
+showing the calcified tissue obstructing the right coronary ostium. (B) Magnification of the obstructed right coronary ostium. Asterisk 
+indicates calcified tissue in (A) and (B).
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 0 , 2 0 2 5 
+Taniguchi et al
+O C T O B E R 1 , 2 0 2 5 : 1 0 5 3 1 3 
+Acute Coronary Occlusion During Bicuspid TAVR
+5
+
+=== PAGE 6 ===
+R E F E R E N C E
+1. Windecker S, Tomii D. Transcatheter aortic 
+valve replacement in patients with bicuspid aortic 
+stenosis: cumulative evidence and remaining un-
+certainties. JACC Cardiovasc Interv. 2024;17:1676– 
+1679.
+KEY WORDS acute coronary syndrome, 
+aortic valve, bicuspid aortic valve, 
+complication, coronary angiography, valve 
+replacement
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+Taniguchi et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 0 , 2 0 2 5
+Acute Coronary Occlusion During Bicuspid TAVR 
+O C T O B E R 1 , 2 0 2 5 : 1 0 5 3 1 3
+6

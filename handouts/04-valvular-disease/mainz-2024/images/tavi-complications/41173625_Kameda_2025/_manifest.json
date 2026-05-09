@@ -1,0 +1,38 @@
+{
+  "pdf": "41173625_Kameda_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1694,
+      "height": 2375,
+      "ext": "png",
+      "bytes": 2084537
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1943,
+      "height": 653,
+      "ext": "png",
+      "bytes": 1476669
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1345,
+      "height": 655,
+      "ext": "png",
+      "bytes": 1188812
+    },
+    {
+      "file": "fig-04_p5.png",
+      "page": 5,
+      "width": 1644,
+      "height": 1504,
+      "ext": "png",
+      "bytes": 5041718
+    }
+  ]
+}

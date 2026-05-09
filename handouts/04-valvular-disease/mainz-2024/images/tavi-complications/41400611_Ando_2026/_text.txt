@@ -1,0 +1,284 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Continuous Assessment of
+Left Ventricular Outflow Obstruction in 
+Transcatheter Aortic Valve Implantation
+Yu Ando, MD, a Atsushi Sugiura, MD, PHD, a Masanori Yamamoto, MD, PHD b
+ABSTRACT
+BACKGROUND Left ventricular outflow tract (LVOT) obstruction is a rare but fatal complication after transcatheter 
+aortic valve implantation (TAVI). Early detection and timely intervention are essential for favorable clinical outcomes.
+CASE SUMMARY We report a case of LVOT obstruction diagnosed and dynamically monitored via a SavvyWire 
+(Haemonetics). A 78-year-old woman underwent transfemoral TAVI for severe valve stenosis, and continuous hemo-
+dynamic monitoring by the SavvyWire identified a significant aorto–left ventricular pressure gradient with systemic 
+hypotension immediately after valve deployment, indicating LVOT obstruction. Prompt administration of intravenous 
+fluids and vasopressors resulted in rapid hemodynamic stabilization.
+DISCUSSION This case underscores the utility of the SavvyWire for immediate detection and management of dynamic 
+LVOT obstruction, potentially improving safety profiles in TAVI procedures.
+TAKE-HOME MESSAGE Continuous monitoring of the aorto–left ventricular pressure gradient can facilitate early 
+diagnosis of LVOT obstruction in TAVI procedures. (JACC Case Rep. 2026;31:106523) © 2026 The Authors. Published 
+by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the 
+CC BY license (http://creativecommons.org/licenses/by/4.0/).
+D 
+ynamic left ventricular outflow tract 
+(LVOT) obstruction represents an infre-
+quent but potentially life-threatening
+complication after transcatheter aortic valve implan-
+tation (TAVI) for severe aortic stenosis (AS). Conven-
+tional methods often require catheter exchange to 
+assess the aorto–left ventricular (LV) pressure 
+gradient, limiting continuous intraprocedural moni-
+toring capabilities. The SavvyWire (Haemonetics) is
+TAKE-HOME MESSAGES
+• Continuous real-time monitoring of the 
+aorto-LV pressure gradient with the Savvy-
+Wire during TAVI enables early detection of 
+LVOT obstruction.
+• Timely volume administration and vaso-
+pressor therapy can rapidly reverse dynamic 
+LVOT obstruction post-TAVI.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.106523
+From the a Department of Cardiovascular Medicine, Nagoya Heart Center, Aichi, Japan; and the b Department of Cardiovascular 
+Medicine, Toyohashi Heart Center, Aichi, Japan.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received September 30, 2025; revised manuscript received November 13, 2025, accepted November 18, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 1 , N O . 7 , 2 0 2 6
+ª 2 0 2 6 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 4 . 0 / ) .
+
+=== PAGE 2 ===
+a next-generation 0.035-inch support wire 
+for TAVI that combines LV pacing and real-
+time pressure monitoring in a single device. 
+It enables simultaneous measurement of 
+aortic and LV pressures with high accuracy, 
+correlating with standard catheterization 
+techniques. 1 Its application during TAVI has 
+been validated for safety and efficacy across 
+diverse valve anatomies. 2,3 Its main features 
+are: 1) simultaneous aorto-LV pressure measurement; 
+2) LV pacing capability; 3) enhanced stiffness; and 4) 
+extended wire length (280 cm). These features enable 
+rapid pacing during valve implantation, simplifying 
+the workflow and eliminating the need for a separate 
+pacing lead. In addition, they enable continuous 
+invasive monitoring of both aortic and left ventricu-
+lar pressures throughout the procedure without the 
+need for additional catheter manipulation after valve 
+deployment.
+We present a case in which the SavvyWire identi-
+fied a dynamic change in LVOT obstruction immedi-
+ately after valve implantation, enabling us to detect 
+and manage the LVOT obstruction by applying hy-
+dration 
+and 
+vasopressors 
+for 
+hemodynamic 
+stabilization.
+HISTORY OF PRESENTATION
+A 78-year-old woman presented with fatigue and 
+exertional dyspnea. A systolic ejection murmur was 
+heard at the left sternal border of the second
+intercostal space. Chest x-ray revealed pulmonary 
+congestion, leading to a diagnosis of heart failure due 
+to AS. Transthoracic echocardiography revealed an 
+aortic valve peak velocity of 3.2 m/s, peak pressure 
+gradient of 41 mm Hg, and aortic valve area of 
+0.62 cm 2 ; it additionally demonstrated a lesional but 
+substantial bulge of the septal wall at the level of the 
+LVOT, which was observed without signs of blood 
+flow acceleration at the LVOT or systolic anterior 
+motion of the mitral valve (Video 1). The LV ejection 
+fraction was 69%. Electrocardiography showed a 
+heart rate of 64 beats/min under normal sinus 
+rhythm. Computed tomography exhibited severely 
+calcified aortic valves, the aortic annular perimeter at 
+75.9 mm, and an annular area of 434 mm 2 . Consistent 
+with the echocardiography images, computed to-
+mography also demonstrated the bulged basal 
+septum, leading to narrowing of the LVOT. The pa-
+tient was diagnosed with severe AS.
+INVESTIGATIONS, DIFFERENTIAL 
+DIAGNOSIS, AND MANAGEMENT
+Given the age and comorbidities of the patient, the 
+institutional heart team decided to undergo trans-
+femoral aortic valve implantation for severe AS. TAVI 
+was performed using a SavvyWire for delivery system 
+insertion and continuous assessment of LV pressure 
+throughout the procedure, while a pigtail catheter 
+was placed in the ascending aorta for monitoring 
+systemic pressure. Under rapid pacing, a 26-mm
+VISUAL SUMMARY Pressure Waveform During TAVI Using the SavvyWire
+The SavvyWire is a next-generation guidewire that enables both rapid pacing and continuous real-time aorto-LV pressure monitoring. This 
+case report describes a patient who developed dynamic LVOT obstruction immediately after valve implantation, in whom continuous 
+assessment of the aorto-LV pressure gradient facilitated prompt diagnosis and treatment. LV = left ventricular; LVOT = left ventricular 
+outflow tract; TAVI = transcatheter aortic valve implantation.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+AS = aortic stenosis
+LV = left ventricle
+LVOT = left ventricular
+outflow tract
+TAVI = transcatheter aortic
+valve implantation
+Ando et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6
+Continuous Assessment of LVOT Obstruction in TAVI 
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 3
+2
+
+=== PAGE 3 ===
+Sapien 3 Ultra Resilia prosthesis (Edwards Life-
+sciences) was deployed at the aortic valve, when the 
+patient immediately developed substantial hypoten-
+sion, with a systemic blood pressure of 67 mm Hg. 
+Despite multiple potential for shock after balloon-
+expandable 
+TAVI, 
+continuous 
+hemodynamic 
+monitoring via the SavvyWire revealed an LVOT 
+obstruction, as indicated by the late systolic peaking 
+of the LV pressure waveform and marked pressure 
+gradient between the LV and ascending aorta of 
+41 mm Hg (Figure 1). Therapeutic measures, including 
+rapid fluid resuscitation and administration of 
+phenylephrine hydrochloride, resulted in prompt 
+hemodynamic stabilization and resolution of the 
+pressure gradient. Eventually, the peak-to-peak 
+aorto-LV pressure gradient completely disappeared, 
+confirming the resolution of dynamic LVOT obstruc-
+tion (Figure 2). Additionally, other differential di-
+agnoses for hypotension, such as cardiac tamponade, 
+paravalvular leakage, or coronary obstruction, were 
+excluded by echocardiography and angiography.
+OUTCOME AND FOLLOW-UP
+During hospitalization, the patient exhibited no signs 
+of hemodynamic instability or worsening heart fail-
+ure. She was discharged without complications.
+DISCUSSION
+Dynamic LVOT obstruction is typically caused by an 
+acute decline in LV afterload, followed by a hyper-
+kinetic LV wall. Although rare, this condition can be 
+fatal if timely recognition and intervention are not 
+achieved. Most importantly, inotropic agents (eg, 
+dobutamine, adrenaline) may worsen the obstruc-
+tion. Several factors are known to be associated with 
+LVOT obstruction after surgical aortic valve replace-
+ment, including LV septal hypertrophy, a sigmoid-
+shaped septum, and a narrow LVOT at baseline. 4 
+Early recognition is fundamental in the case of LVOT 
+obstruction after TAVI.
+The SavvyWire provides continuous, real-time 
+monitoring of the aorto-LV pressure gradient after
+FIGURE 1 Detecting LVOT Obstruction Using Continuous Pressure Monitoring With the SavvyWire During TAVI
+(A and B) TTE and CT demonstrating the interventricular septal bulge. (C) All cusps of the aortic valve are severely calcified. (D) TAVI was 
+performed, with the prosthesis delivered using the SavvyWire, while continuously monitoring LV pressure. (E) Before valve implantation, 
+the SavvyWire showed an elevated LV pressure. Aortic pressure exhibited a lower peak compared to LV pressure, confirming the presence of 
+severe aortic stenosis. (F) After valve implantation, a marked drop in aortic pressure was observed, and the SavvyWire revealed a further 
+significant increase in LV pressure and a late systolic peaking of the pressure waveform. These findings indicated acute LVOT obstruction. 
+CT = computed tomography; LV = left ventricle; LVOT = left ventricular outflow tract; TAVI = transcatheter aortic valve implantation; 
+TTE = transthoracic echocardiography.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6 
+Ando et al
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 3 
+Continuous Assessment of LVOT Obstruction in TAVI
+3
+
+=== PAGE 4 ===
+valve deployment, facilitating early diagnosis of 
+LVOT obstruction or residual pressure gradient 
+through the prosthetic valve. It guides diagnostic 
+work-up and therapeutic decisions in cases of hypo-
+tension after valve implantation. 2 In contrast, con-
+ventional techniques necessitate wire exchange for 
+pigtail catheter insertion into the LV to measure the 
+pressure gradient, which risks hemodynamic insta-
+bility. The SavvyWire streamlines this process, 
+allowing continuous assessment of pressure gradient 
+throughout valve deployment. We also consider that 
+evaluating the aorto-LV waveform using the Savvy-
+Wire after TAVI may help detect the presence of 
+paravalvular leak. However, further studies are war-
+ranted to validate its efficacy in assessing aortic 
+regurgitation or paravalvular leak after valve 
+implantation.
+CONCLUSIONS
+This case demonstrates the clinical value of real-time 
+hemodynamic monitoring using the SavvyWire in
+patients undergoing TAVI. Early recognition and
+prompt management with volume administration
+and vasopressors are critical for hemodynamic sta-
+bilization. This report highlights the clinical utility
+and safety profile of the SavvyWire, emphasizing its
+role in enhancing procedural safety.
+ACKNOWLEDGMENTS The authors thank Haemo-
+netics Corporation for kindly providing reference 
+materials and technical information related to the 
+SavvyWire system.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Atsushi
+Sugiura, Department of Cardiovascular Medicine, 
+Nagoya Heart Center, 1-1-14 Sunadabashi, Higashi-
+ku, Nagoya, Aichi 461-0045, Japan. E-mail: sssugi@ 
+me.com.
+FIGURE 2 TAVI Workflow Using the SavvyWire
+(A) First, pressure equalization is performed in the ascending aorta. (B) After the stan-
+dard TAVI procedure, the SavvyWire is advanced into the LV to allow simultaneous 
+measurement of the aorto-LV pressure gradient. (C) Subsequently, rapid pacing is per-
+formed using the SavvyWire during valve deployment. (D) Finally, the aorto-LV pres-
+sure gradient is reassessed with the SavvyWire for the final evaluation. In cases where 
+a residual pressure gradient remains, postdilatation is considered. LV = left ventricle; 
+TAVI = transcatheter aortic valve implantation.
+Ando et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6
+Continuous Assessment of LVOT Obstruction in TAVI 
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 3
+4
+
+=== PAGE 5 ===
+R E F E R E N C E S
+1. Genéreux P, Kipperman RM, Placido Disla JS, 
+et al. Evaluation of the OpSens OptoWire III 
+and novel TAVR algorithm to measure pressure 
+gradient during TAVR. J Soc Cardiovasc Angiogr 
+Interv. 2022;1(4):100309. https://doi.org/10.1016/ 
+j.jscai.2022.100309
+2. Regueiro A, Alperi A, Vilalta V, et al. Safety and 
+efficacy of TAVR with a pressure sensor and pac-
+ing guidewire: SAFE-TAVI trial. JACC Cardiovasc 
+Interv. 2023;16(24):3016–3023. https://doi.org/ 
+10.1016/j.jcin.2023.10.035
+3. Farjat-Pasos JI, Avvedimento M, Rodes-
+Cabau J. An evaluation of the SavvyWire as a 
+support wire for TAVR procedures. Future Cardiol. 
+2025;21(8):579–584. 
+https://doi.org/10.1080/ 
+14796678.2025.2509458
+4. Makhija N, Magoon R, Balakrishnan S, Das S, 
+Malik V, Gharde P. Left ventricular outflow 
+tract obstruction following aortic valve re-
+placement: a review of risk factors, mechanism, 
+and management. Ann Card Anaesth. 2019;22(1): 
+1–5.
+KEY WORDS hemodynamic monitoring, 
+left ventricular outflow tract obstruction, 
+transcatheter aortic valve implantation, 
+SavvyWire
+APPENDIX For a supplemental
+video, please see the online version of 
+this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 7 , 2 0 2 6 
+Ando et al
+F E B R U A R Y 1 8 , 2 0 2 6 : 1 0 6 5 2 3 
+Continuous Assessment of LVOT Obstruction in TAVI
+5

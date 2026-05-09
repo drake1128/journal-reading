@@ -1,0 +1,665 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Successful Emergency Transcatheter
+Aortic Valve Replacement for
+Severe Aortic Regurgitation in
+Takayasu’s Arteritis
+Takanori Kawamoto, MD, PHD,a Hisao Otsuki, MD, PHD,a Masataka Hirota, MD,b Masafumi Yoshikawa, MD, PHD,a
+Eiji Shibahashi, MD, PHD,a Yusuke Inagaki, MD, PHD,a Tomohito Kogure, MD, PHD,a Satoru Domoto, MD, PHD,b
+Hiroshi Ninami, MD, PHD,b Junichi Yamaguchi, MD, PHDa
+ABSTRACT
+BACKGROUND Takayasu’s arteritis (TA) is a rare inﬂammatory disease that often causes aortic regurgitation (AR).
+However, severe arterial degeneration sometimes complicates surgical intervention.
+CASE SUMMARY A 62-year-old woman with TA developed refractory heart failure due to severe noncalciﬁed AR.
+Surgery was not feasible because of the extreme calciﬁcation of the aorta. Emergency transcatheter aortic valve
+replacement (TAVR) using a Sapien 3 Ultra RESILIA valve (Edwards Lifesciences) was performed. Subsequently, the heart
+failure improved substantially.
+DISCUSSION Severe arterial degeneration makes surgical intervention difﬁcult for TA. When performing TAVR for
+noncalciﬁed AR, careful selection of the prosthetic valve and deployment technique is crucial.
+TAKE-HOME MESSAGE A meticulous strategy is needed to safely perform TAVR with the currently available off-label
+prosthetic valves for cases of TA complicated by noncalciﬁed AR that are difﬁcult to manage with open-heart
+surgery. (JACC Case Rep. 2025;30:103913) © 2025 The Authors. Published by Elsevier on behalf of the American College
+of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/
+licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 62-year-old woman presented to the emergency
+department with progressive dyspnea and orthopnea.
+Her blood pressure was elevated (156/52 mm Hg) with
+a wide pulse pressure. She also presented with
+tachycardia
+with
+a
+heart
+rate
+of
+109
+beats/min,
+TAKE-HOME MESSAGE
+ A meticulous strategy is needed to safely
+perform TAVR with the currently available
+off-label prosthetic valves for cases of TA
+complicated by noncalciﬁed AR that are
+difﬁcult to manage with open-heart surgery.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103913
+From the aDepartment of Cardiology, Tokyo Women’s Medical University, Tokyo, Japan; and the bDepartment of Cardiovascular
+Surgery, Tokyo Women’s Medical University, Tokyo, Japan.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received January 29, 2025; accepted February 5, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 7 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+tachypnea
+with
+a
+respiratory
+rate
+of
+24
+breaths/min, and an oxygen saturation of
+90% without oxygen. She exhibited a dia-
+stolic heart murmur, wheezing in both lungs,
+and pitting edema in the legs without fever.
+Her body weight was 48.6 kg (same as that at
+the last discharge).
+MEDICAL HISTORY
+The patient was diagnosed with Takayasu’s
+arteritis (TA) at 40 years of age. Steroid therapy was
+initiated, and the dosage was tapered as the disease
+stabilized. On admission, she was administered 5 mg
+of prednisolone. She was diagnosed with severe
+aortic regurgitation (AR) at 50 years of age. However,
+the patient did not experience heart failure or signs of
+left
+ventricular
+dilatation
+or
+dysfunction.
+Two
+months before admission, her renal dysfunction due
+to nephrosclerosis had progressed, and maintenance
+dialysis therapy was initiated through a left forearm
+arteriovenous shunt. She also had hypertension and
+was taking oral telmisartan 20 mg and nifedipine
+controlled-release 40 mg.
+DIFFERENTIAL DIAGNOSIS
+The most likely diagnosis was heart failure. Possible
+causes
+included
+increased
+cardiac
+load
+due
+to
+AR,
+decreased
+cardiac
+function
+associated
+with
+coronary
+artery
+disease,
+arrhythmia,
+afterload
+mismatch due to poor hypertension management,
+and inadequate ﬂuid management during dialysis.
+Additionally, pneumonia and bronchitis were also
+considered.
+INVESTIGATIONS
+Electrocardiography revealed sinus rhythm with ST-
+segment depression and negative T waves in leads I,
+II, aVF, and V5
+-V6, a heart rate of 105 beats/min, and
+ST-segment elevation in V1-V3 leads. Compared with
+her previous electrocardiogram, ST depression and
+negative T waves became more pronounced (Figure 1).
+Chest x-ray showed cardiomegaly and pulmonary
+edema. Laboratory tests showed normal values for
+blood
+count,
+C-reactive
+protein,
+and
+erythrocyte
+sedimentation rate, high creatinine levels (8.4 mg/
+dL), high Troponin I levels (410 ng/mL), and elevated
+brain natriuretic peptide levels (5,237 pg/mL). Trans-
+thoracic echocardiography showed severe AR without
+calciﬁcation
+on
+the
+valve,
+no
+asynergy
+of
+left
+ventricle wall motion, and dilatation of the left
+ventricle (62 mm at end-diastole and 51 mm at end-
+systole) with left ventricular hypertrophy. The left
+ventricular
+ejection
+fraction
+(LVEF)
+was
+46%
+(Figure
+2,
+Videos
+1
+to
+3).
+Coronary
+angiography
+revealed no evidence of coronary artery disease.
+Computed
+tomography
+revealed
+circumferential
+VISUAL SUMMARY
+Clinical Course and Therapeutic Interventions
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AR = aortic regurgitation
+LVEF = left ventricular ejection
+fraction
+TA = Takayasu’s arteritis
+TAVR = transcatheter aortic
+valve replacement
+TVEM = transcatheter valve
+embolization or migration
+Kawamoto et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+2
+
+=== PAGE 3 ===
+FIGURE 1
+Electrocardiographic Findings
+(A) Electrocardiographic ﬁndings during hospitalization 3 weeks prior. ST-segment depression and negative T waves in leads I, II, aVF, and V5-V6 and ST-segment
+elevation in leads V1-V3 were recognized. (B) T-wave inversion becomes more pronounced.
+FIGURE 2
+Transthoracic Echocardiography Findings in the Diastolic Phase
+Transthoracic echocardiography revealed severe aortic regurgitation (AR) without calciﬁcation of the aortic valve. (A) Parasternal long-axis view of the left ventricle.
+A broad AR jet was observed (70% regurgitation width ratio, 8 mm vena contracta). (B) Short-axis view at the aortic valve level. Calciﬁcation was not observed in the
+valve cusps. Regurgitation was performed at the center of the aortic valve. (C) Apical 3-chamber view. The AR jet reaches the left ventricular apex.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Kawamoto et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+3
+
+=== PAGE 4 ===
+calciﬁcation of the ascending aorta extending to the
+descending aorta without lumen narrowing (Figure 3)
+and the absence of organic abnormalities in the lungs.
+The activity was conﬁrmed to be low based on ﬂuo-
+rodeoxyglucose
+positron
+emission
+tomography-
+computed tomography (Figure 4).
+MANAGEMENT
+Since she had started dialysis 2 months prior, ﬂuid
+control
+was
+titrated
+by
+dialysis.
+Orthopnea
+dis-
+appeared after decreasing the dry weight from 48.0
+to 47.0 kg. The right heart catheter revealed no
+volume overload at a weight of 47.0 kg (8 mm Hg of
+mean right atrial pressure, 26 mm Hg; mean pul-
+monary artery pressure, 19 mm Hg; mean pulmo-
+nary capillary wedge pressure and cardiac index,
+2.9). However, even after decreasing the dry weight
+to
+46.8
+kg,
+dyspnea
+on
+exertion
+persisted,
+and
+pulmonary
+congestion
+on
+radiography
+worsened.
+Further
+attempts
+at
+ﬂuid
+removal
+led
+to
+hypotension (90 mm Hg of systolic peripheral blood
+pressure), and heart failure worsened, requiring the
+administration of dobutamine at 3 g, respiratory
+assistance
+with
+bilevel
+positive
+airway
+pressure
+treatment,
+and
+implementation
+of
+continuous
+hemodiaﬁltration. Subsequently, LVEF decreased to
+34% (Videos 4 to 6).
+This case was discussed by our team. Although
+severe AR is considered the primary cause of heart
+failure, surgery for AR is challenging because of se-
+vere calciﬁcation of the aorta and the high risk of
+complications (Society of Thoracic Surgery score for
+mortality,
+11.6%).
+Therefore,
+we
+proceeded
+with
+emergency transfemoral transcatheter aortic valve
+replacement (TAVR). Preoperative computed tomog-
+raphy revealed an aortic annular area of 514 mm2
+without any calciﬁcation; no stenosis or calciﬁcation
+was observed in the left ventricular outﬂow tract
+(Figure
+5).
+Transfemoral
+TAVR
+with
+a
+balloon-
+expandable valve (Sapien 3 Ultra RESILLIA [S3UR],
+29 mm; Edwards Lifesciences) was performed with
+FIGURE 3
+CT Findings
+Contrast-enhanced computed tomography (CT) revealed severe circumferential calciﬁcation from the ascending aorta to the descending and abdominal aorta. In
+contrast, few calciﬁcations were observed in the aortic valves. Cross-section of the aortic arch (A; red line in images 1 and 2), the ascending aorta (B; blue line in images
+1 and 2), the aortic valve and thoracic descending aorta (C; orange line in images 1 and 2), the suprarenal aorta (D; green line in images 1 and 2), and the infrarenal aorta
+(E; purple line in images 1 and 2). (1) Three-dimensional CT angiography from the frontal view. (2) Three-dimensional CT angiography from the left lateral view.
+Kawamoto et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+4
+
+=== PAGE 5 ===
+the patient under general anesthesia with intubation.
+During the procedure, the right radial arterial systolic
+pressure was approximately 100 mm Hg, the aortic
+systolic pressure exceeded 200 mm Hg, and the left
+ventricular end-diastolic pressure was 36 mm Hg.
+Aortography revealed stenosis of the right brachio-
+cephalic artery, which was believed to have caused a
+discrepancy between the aortic and peripheral blood
+pressure (Figure 6). Valve deployment was performed
+in a slightly lower position with single full inﬂation
+under respiratory arrest and rapid pacing to ensure
+accurate positioning. The devices used during the
+procedure are listed in Table 1. After deployment,
+aortography and transesophageal echocardiography
+conﬁrmed the disappearance of AR, and there was no
+paravalvular leakage (Figure 7, Videos 7 and 8). After
+waiting for 30 minutes, no displacement of the pros-
+thetic valve was observed, and the procedure was
+concluded.
+OUTCOME AND FOLLOW-UP
+After the procedure, AR disappeared, and dobut-
+amine
+administration,
+respiratory
+support,
+and
+continuous hemodiaﬁltration were no longer needed.
+Four days after the procedure, sustained ventricular
+tachycardia was induced by the R-on-T phenomenon
+due to premature ventricular contraction. A dual-
+chamber implantable cardioverter-deﬁbrillator was
+implanted
+for
+the
+secondary
+prevention
+of
+fatal
+arrhythmia. After hemodynamic stabilization, pul-
+monary congestion on the radiograph disappeared
+and dyspnea subsided. Gradually, LVEF improved,
+lower limb blood pressure measurements indicated
+the absence of hypotension, and then antihyperten-
+sive medication was resumed. Three weeks after the
+procedure, her condition improved, and she was
+discharged ambulatory. One month later, the T-wave
+changes
+on
+the
+electrocardiogram
+improved.
+FIGURE 4
+FDG Positron Emission Tomography-Computed Tomography Findings
+FDG positron emission tomography-computed tomography revealed little active inﬂammation in the systemic artery. (A and B) No FDG uptake
+was observed in the ascending aorta, aortic arch, or descending aorta. (C) Only physiological FDG uptake was observed throughout the body.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Kawamoto et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+5
+
+=== PAGE 6 ===
+FIGURE 5
+Computed Tomography Analysis for TAVR
+Computed tomography ﬁt analysis for transcatheter aortic valve replacement (TAVR) showed 514.5 mm2 of aortic valve annulus area without calciﬁcation and 81.4 mm
+of aortic valve annulus perimeter. No stenosis or calciﬁcation was observed in the left ventricular outﬂow tract (LVOT). No calciﬁcation was observed in the aortic
+valve, and the sinotubular junction (STJ) was dilated. With regard to access from the femoral artery, although both common iliac arteries showed calciﬁcation, the lumen
+area was sufﬁcient for TAVR. (A) Cross-section of the STJ (red line in images 1 and 2). (B) Cross-section of the Valsalva sinus (yellow line in images 1 and 2). (C) Cross-
+section of the aortic valve annulus (purple line in images 1 and 2). (D) Cross-section of the LVOT (green line in images 1 and 2). (1) Sagittal view of the left ventricle.
+(2) Coronal view of the left ventricle. (3) Access analysis images from the femoral artery to the aorta.
+FIGURE 6
+Intraprocedural Monitoring Image and Angiography
+(A) Intraprocedural monitoring image showing systolic central aortic pressure of 203 mm Hg (yellow) and systolic right radial artery pressure of 117 mm Hg (red).
+(B) Angiography showing right brachiocephalic artery stenosis. This is believed to be partially involved in the systolic arterial pressure gradient. HR ¼ heart rate;
+s/d/m ¼ systolic/diastolic/mean arterial blood pressure; SpO2 ¼ oxygen saturation.
+Kawamoto et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+6
+
+=== PAGE 7 ===
+Transthoracic echocardiography conﬁrmed that the
+AR
+remained
+at
+0
+and
+LVEF
+improved
+to
+61%
+(Figure 8, Videos 9 and 10).
+DISCUSSION
+TA
+is
+a
+rare
+inﬂammatory
+disease
+that
+causes
+inﬂammation in systemic arteries. The most common
+presentation of TA is symptoms resulting from arte-
+rial occlusive disease. Nearly 40% of patients with TA
+develop cardiac abnormalities induced by arterial
+degeneration, and cardiac comorbidities are the pri-
+mary causes of death in patients with TA.1
+Surgical treatment of AR in TA can yield favorable
+outcomes.2 However, if the inﬂammation is poorly
+controlled, there is a risk of complications.3 In this
+case, although inﬂammation was suppressed, aortic
+calciﬁcation was severe, making open-heart surgery
+difﬁcult because of the impossibility of using circu-
+latory assist devices and suturing the prosthetic
+valve.
+TAVR is an effective and safe treatment option for
+severe aortic valve stenosis.4 However, TAVR with
+the currently available valves for pure native AR is
+associated with a high risk of transcatheter valve
+embolization or migration (TVEM) because of the
+absence of annular and leaﬂet calciﬁcation.5 Ruggiero
+FIGURE 7
+Intraprocedural Findings of Radiography and Transesophageal Echocardiography
+(a) Severe aortic regurgitation (AR) was observed before the procedure. (A) The S3UR was positioned slightly toward the left ventricular outﬂow tract, just beyond the
+aortic annulus. (B) The S3UR was deployed with a single full inﬂation under respiratory arrest and rapid pacing to ensure accurate positioning of the annulus. (b) After
+deploying the S3UR, AR was suppressed. (C and c) After waiting for 30 minutes after valve placement, no valve displacement or regurgitation, including the paravalvular
+leak, was observed.
+TABLE 1
+Equipment List or Transcatheter Aortic Valve
+Replacement
+Imaging
+
+Transesophageal echocardiogram (X7-2t transesophageal
+echocardiogram probe; Philips Healthcare iE33)
+Access
+
+Ultrasound machine (Philips Healthcare iE33)
+
+Puncture needle and wire
+
+8.0-F sheath
+
+6.0-F sheath
+
+5.0-F sheath
+
+4.0-F sheath
+
+Perclose ProStyle (Abbot Vascular)
+
+0.035 angle wire (Terumo)
+For aortic valve intervention
+
+0.035 straight wire (Terumo)
+
+5-F Amplatz left catheter (Technowood)
+
+4.2-F pigtail catheter (NIPRO)
+
+6-F pigtail catheter (Terumo)
+
+SAFARl2 Guidewire Extra Small Curve (Boston Scientiﬁc)
+
+Temporary external pacemaker (6-F pacemaker catheter;
+Biotronik)
+Transcatheter aortic valve replacement device
+
+Sapien 3 Ultra RESILLIA 29 mm (e-sheath þ introducer system;
+Edwards Lifesciences)
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Kawamoto et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+7
+
+=== PAGE 8 ===
+et al6 reported a case of TAVR for pure native AR in a
+patient with TA, necessitating the use of 2 self-
+expandable valves because of TVEM. In contrast,
+TAVR for native pure AR with newer-generation
+prosthetic valves is associated with a lower risk of
+complications
+and
+acceptable
+postoperative
+out-
+comes despite it being off-label.7 In cases of pure
+native AR, the aortic valve exhibits less sclerosis and
+calciﬁcation, making it more ﬂexible and extensible
+than
+in
+calciﬁed
+cases
+of
+aortic
+valve
+stenosis.
+Therefore, an oversized prosthetic valve that is larger
+than that in the existing device size charts might be
+beneﬁcial.8
+The S3UR is a balloon-expandable valve of a ﬁfth-
+generation device with better sealing properties and
+effective reduction of paravalvular leaks because of
+its enhanced expansion capabilities and improved
+outer skirt.9 Therefore, we considered that S3UR
+could achieve good sealing and reduce the risk of
+TVEM, even in cases of pure native AR with minimal
+calciﬁcation. Because the left ventricular outﬂow
+tract area was equal to the aortic annular area and the
+ascending aorta was dilated, it was considered safe to
+deploy the valve at a slightly lower position to in-
+crease the adhesion area with full inﬂation. Although
+a 26-mm valve is recommended according to the
+standard sizing chart, a 29-mm valve was selected for
+reliable valve sealing (oversizing rate of 26%). To
+prevent TVEM, the valve was deployed with a single
+expansion without postdilatation. TAVR for native AR
+is considered a viable option to improve the condition
+of TA cases where vascular degeneration limits the
+choice of open-heart surgery. However, the incidence
+of TVEM has been reported to be quite high (15%-
+20%).5,8
+Therefore,
+the
+practical
+application
+of
+catheter-based valves speciﬁcally developed for AR is
+expected
+to
+ensure
+safer
+and
+more
+reliable
+procedures.
+Vascular disease progression in the TA sometimes
+leads to inaccurate blood pressure readings.10 In the
+present case, blood pressure was measured in the
+right arm after the initiation of hemodialysis despite a
+huge
+pressure
+gradient
+with
+the
+central
+arterial
+pressure because of the left forearm arteriovenous
+shunt. After intensiﬁed ultraﬁltration, blood pressure
+in the right arm decreased, leading to the discontin-
+uation of antihypertensive agents (azilsartan 20 mg,
+nifedipine CR 40 mg, which subsequently resulted in
+further afterload mismatch; this likely led to gradual
+worsening of pulmonary congestion on radiography
+FIGURE 8
+Findings From Follow-Up Electrocardiography and Transthoracic Echocardiography 1 Month Postoperatively
+(1) The T-wave changes on the electrocardiography improved. (A to C) Transthoracic echocardiography conﬁrmed the absence of aortic regurgitation.
+Kawamoto et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+8
+
+=== PAGE 9 ===
+and a rapid decline in LVEF over a short period.
+Inappropriate central hypertension based on blood
+pressure readings from the right arm and excessive
+ﬂuid management based on x-ray ﬁndings were
+believed
+to
+have
+induced
+low-output
+syndrome,
+exacerbating heart failure symptoms.
+CONCLUSIONS
+TAVR can be a treatment option for native pure
+AR in TA
+cases in which open-heart surgery is
+challenging
+because
+of
+vascular
+degeneration.
+The
+preoperative
+treatment
+strategy
+is
+of
+the
+utmost importance.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Hisao Otsuki, MD,
+PhD, Department of Cardiology, Tokyo Women’s Medical
+University, 8-1 Kawada-cho, Shinjuku-ku, Tokyo 162-
+8666, Japan. E-mail: h.otsuki0107@gmail.com.
+R E F E R E N C E S
+1. Gornik HL, Creager MA. Aortitis. Circulation.
+2008;117:3039–3051.
+2. Ergi DG, Schaff HV, Pochettino A, et al. Out-
+comes of aortic surgery in patients with Takayasu
+arteritis. J Thorac Cardiovasc Surg. 2024;169:576–
+583.
+3. Matsuura K, Ogino H, Kobayashi J, et al. Surgical
+treatment of aortic regurgitation due to Takayasu
+arteritis: long-term morbidity and mortality. Cir-
+culation. 2005;112:3707–3712.
+4. Mack MJ, Leon MB, Smith CR, et al. 5-year
+outcomes of transcatheter aortic valve replace-
+ment or surgical aortic valve replacement for high
+surgical risk patients with aortic stenosis (PART-
+NER 1): a randomised controlled trial. Lancet.
+2015;385:2477–2484.
+5. Poletti E, De Backer O, Scotti A, et al. Trans-
+catheter aortic valve replacement for pure native
+aortic valve regurgitation: the PANTHEON inter-
+national project. JACC Cardiovasc Interv. 2023;16:
+1974–1985.
+6. Ruggiero R, Ponticelli F, Giannini F, Galvani M.
+Transcatheter aortic valve implantation for severe
+pure aortic regurgitation due to active aortitis.
+Catheter Cardiovasc Interv. 2021;97:950–954.
+7. De Backer O, Pilgrim T, Simonato M, et al.
+Usefulness of transcatheter aortic valve implan-
+tation for treatment of pure native aortic valve
+regurgitation. Am J Cardiol. 2018;122:1028–1035.
+8. Le Ruz R, Plessis J, Guimbretiere G, et al. Sapien
+3 embolization from ventricle to aorta in the
+setting of noncalciﬁed aortic regurgitation. JACC
+Case Rep. 2021;3:64–68.
+9. Stinis CT, Abbas AE, Teirstein P, et al. Real-
+world outcomes for the ﬁfth-generation balloon
+expandable
+transcatheter
+heart
+valve
+in
+the
+United States. JACC Cardiovasc Interv. 2024;17:
+1032–1044.
+10. Hafner F, Froehlich H, Gary T, Tiesenhausen K,
+Scarpatetti M, Brodmann M. Blood pressure mea-
+surements in patients with Takayasu arteritis: a work
+of caution. Ann Thorac Surg. 2012;93:1299–1301.
+KEY WORDS aortic regurgitation, heart
+failure, transcatheter aortic valve
+replacement, Takayasu’s arteritis
+APPENDIX For supplemental videos,
+please see the online version of this article.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Kawamoto et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 9 1 3
+Transcatheter Aortic Valve Replacement in Takayasu’s Arteritis
+9

@@ -1,0 +1,1050 @@
+
+=== PAGE 1 ===
+HEART FAILURE AND CARDIOMYOPATHIES
+CLINICAL CASE SERIES
+Obstructive Hypertrophic
+Cardiomyopathy and Aortic Stenosis
+With High Surgical Risk
+Omar M. Abdelfattah, MD,a,b Robyn Bryde, MD,a,c Kutaiba Nazif, MD,a Matthew W. Martinez, MDa
+ABSTRACT
+BACKGROUND Treatment and accurate assessment of aortic valve stenosis (AS) with concomitant obstructive hy-
+pertrophic cardiomyopathy (HCM) prove challenging.
+CASE SUMMARY We present a case series of 6 patients with obstructive HCM and severe AS who underwent alcohol
+septal ablation (ASA) and follow-up reassessment of AS severity. AS severity was downgraded in 3 of 6 cases. One patient
+had residual obstruction necessitating mavacamten before transcatheter aortic valve replacement (TAVR). TAVR was
+performed in 2 of 6 cases.
+DISCUSSION Doppler assessment of AS is technically challenging in HCM. A staged intervention with ASA and/or
+mavacamten before TAVR requires thoughtful consideration. The literature supports the use of ASA in a staged fashion
+before TAVR. Limited data are published on the use of mavacamten before TAVR.
+TAKE-HOME MESSAGES ASA and mavacamten are effective means to relieve obstruction in patients with concomi-
+tant severe AS. The beneﬁt is 2-fold: 1) this approach provides more accurate Doppler assessment of AS severity; and 2) it
+reduces the likelihood of complications during TAVR. (JACC Case Rep. 2025;30:103779) © 2025 Published by Elsevier on
+behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+T
+he complex coexistence of aortic stenosis
+(AS) in patients with hypertrophic cardiomy-
+opathy
+(HCM)
+proves
+challenging
+in
+2
+regards. First, it is technically difﬁcult to assess the
+severity of left ventricular outﬂow tract obstruction
+(LVOTO) and concomitant AS accurately by transtho-
+racic echocardiography (TTE). Generally, the aortic
+valve (AV) mean gradient is assessed using Doppler
+echocardiography with application of the simpliﬁed
+Bernoulli equation (DP ¼ 4V2), where DP is change
+in pressure and V is velocity, which assumes that
+the left ventricular outﬂow tract (LVOT) velocity
+is <1.5 m/s. In obstructive HCM (oHCM), the LVOT ve-
+locity is much higher, causing inaccuracies with the
+simpliﬁed Bernoulli equation. Additionally, the conti-
+nuity equation (A1V1 ¼ A2V2) proves inaccurate when
+measuring the AV area (AVA) because of turbulent
+ﬂow in the LVOT. Therefore, either invasive assess-
+ment
+of
+AVA
+with
+multimodality
+imaging
+with
+computed tomography (CT) or invasive measurement
+is essential to assess AVA accurately in oHCM.
+Second,
+the
+sequence
+of
+interventions
+among
+symptomatic patients has not been well described. In
+HCM with dynamic LVOT obstruction, moderate to
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103779
+From the aCenter for Hypertrophic Cardiomyopathy and Sports Cardiology, Gagnon Cardiovascular Institute, Department of
+Cardiovascular Medicine, Morristown Medical Center, Atlantic Health System, Morristown, New Jersey, USA; bDivision of Car-
+diovascular Medicine, University of Texas Medical Branch, Galveston, Texas, USA; and the cDepartment of Cardiovascular Dis-
+eases, St. Luke’s Idaho Cardiology Associates, Boise, Idaho, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received December 4, 2024; revised manuscript received February 10, 2025, accepted February 24, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 7 , 2 0 2 5
+ª 2 0 2 5 P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R T H E
+C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+severe AS would most likely accentuate the
+existing left ventricular (LV) hypertrophy,
+often caused by increased afterload. Treat-
+ment of both conditions, when coexisting,
+entails
+the
+following:
+1)
+reducing
+LVOT
+obstruction; and 2) treating valvular stenosis
+with valve replacement. In low-surgical risk
+patients, surgical AV replacement (SAVR) and
+surgical myomectomy are usually pursued
+simultaneously.1,2
+Conversely,
+among
+pa-
+tients referred for transcatheter AV replace-
+ment (TAVR) either because they are high
+surgical risks or because they have opted for
+a
+minimally
+invasive
+approach,
+there
+is
+ongoing
+debate
+on
+the
+sequence
+of
+in-
+terventions to relieve the dynamic LVOTO
+resulting from LV hypertrophy and mitral
+valve
+systolic
+anterior
+motion
+before
+addressing the pathologic AV. Patients with
+concomitant AS and HCM with suboptimally
+controlled LVOT gradients undergoing TAVR
+are
+at
+risk
+of
+developing
+hemodynamic
+collapse secondary to acute relief of after-
+load,
+a
+phenomenon
+called
+“suicide
+left
+ventricle.”3 ASA has been shown to be effective in
+relieving signiﬁcant dynamic LVOTO before and after
+TAVR.4,5 More recently, with the introduction of
+cardiac myosin inhibitors (CMIs), there is now a
+medical option available to address LVOTO before
+TAVR.6,7
+We present a case series demonstrating our sys-
+tematic approach to dealing with the dynamic inter-
+play of severe AS and LVOTO in patients with HCM by
+using ASA and CMI therapy.
+METHODS AND PATIENTS
+This study was approved and exempted by our
+Institutional Review Board, and formal consent was
+obtained. The prospectively designed HCM registry
+was leveraged for oHCM patients. We identiﬁed all
+patients with a concomitant diagnosis of AS. Among
+those, we reviewed all patients with dynamic LVOTO
+who underwent ASA (n ¼ 12). Of these patients, we
+identiﬁed those with severe AS and oHCM (n ¼ 6).
+Before ASA or CMI initiation, the patients were eval-
+uated by the heart team at both the Structural Valve
+Center and the HCM Center in our institution (Gagnon
+Cardiovascular Institute, Morristown Medical Center,
+Morristown,
+New
+Jersey,
+USA).
+This
+study
+was
+TABLE 1
+Baseline Characteristics
+Patient/
+Case #
+Age, y
+Sex
+Previous
+AVR
+SCD
+Risk
+SCD Risk
+Factors
+Septal
+Thickness,
+mm
+NYHA
+Functional
+Class
+SAM
+Present,
+Yes/No
+Cardiac CT,
+Agatston
+Score
+Surgical Risk
+1
+78
+F
+—
+Low
+—
+15
+III
+Yes
+Yes; 466 AU
+Elevated (COPD [FEV1 71%],
+FVC 73%, FEV1/FVC ratio 72,
+CKD stage III, age)
+2
+76
+F
+—
+High
+NSVT,
+LGE 60%
+18
+III
+Yes
+No
+Elevated (severe TR, and severe
+pulmonary hypertension)
+3
+86
+F
+—
+Low
+—
+17
+IV
+Yes
+Yes; 2,820 AU
+Elevated (age, Jehovah’s
+Witness)
+4
+70
+M
+—
+Low
+—
+16
+II
+Yes
+Yes; 5,971 AU
+Low (patient’s refusal for
+surgery)
+5
+77
+M
+Yes
+Low
+—
+19
+III
+Yes
+No
+Elevated (previous AVR, frailty,
+cognitive decline)
+6
+77
+F
+—
+Low
+—
+18
+III
+Yes
+Yes; 1,053 AU
+Elevated (COPD [FEV1 66%],
+FVC 65%, age)
+AVR ¼ aortic valve replacement; CKD ¼ chronic kidney disease; COPD ¼ chronic obstructive lung disease; CT ¼ computed tomography; NSVT ¼ nonsustained ventricular tachycardia; FEV1 ¼ forced expiratory
+volume in 1 second; FVC ¼ forced vital capacity; LGE ¼ late gadolinium enhancement; SAM ¼ systolic anterior motion of mitral valve; SCD ¼ sudden cardiac death; TR ¼ tricuspid regurgitation.
+TAKE-HOME MESSAGES
+ ASA is an effective ﬁrst-line strategy in pa-
+tients with obstructive hypertrophic cardio-
+myopathy (oHCM) and concomitant AS,
+enabling more accurate Doppler assessment
+of true AS severity.
+ Cardiac myosin inhibitor may be used as
+adjunctive therapy in cases of residual or
+recurrent LVOTO post-ASA or in cases not
+suitable for ASA, allowing safe TAVR in oHCM
+with concomitant severe AS.
+ A staged approach involving ASA  mava-
+camten before TAVR may optimize outcomes
+and reduce procedural risk in high-surgical-
+risk patients with dual pathology of oHCM
+and severe AS.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AS = aortic stenosis
+ASA = alcohol septal ablation
+AV = aortic valve
+AVA = aortic valve area
+CMI = cardiac myosin inhibitor
+CT = computed tomography
+HCM = hypertrophic
+cardiomyopathy
+LVOT = left ventricular outﬂow
+tract
+LVOTO = left ventricular
+outﬂow tract obstruction
+oHCM = obstructive
+hypertrophic cardiomyopathy
+SAVR = surgical aortic valve
+replacement
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiography
+TTE = transthoracic
+echocardiography
+Abdelfattah et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+HCM and Severe AS
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+2
+
+=== PAGE 3 ===
+conducted
+following
+the
+CARE
+(CAse
+REports)
+guidelines.
+Six patients met the inclusion criteria, and 5
+(83.3%) of these patients were women. The mean age
+of the cohort was 77.3 years. Baseline characteristics
+are demonstrated in Table 1. All patients had ASA
+performed in the setting of concomitant AS. Proce-
+dural characteristics and outcomes are presented in
+Table
+2.
+There
+were
+no
+complications
+before
+discharge. All patients had follow-up visits at 1 and
+6
+months,
+during
+which
+6
+patients
+(100%)
+had
+improved
+NYHA
+functional
+class
+II
+symptoms
+(Figure 1).
+CASE SERIES DESCRIPTION: ALCOHOL SEPTAL
+ABLATION WITH VALVULAR AORTIC STENOSIS
+CASE 1. A 78-year-old woman with HCM had NYHA
+functional
+class
+III
+symptoms.
+Her
+peak
+LVOT
+gradient was 110 mm Hg, and the mean AV gradient
+was 69 mm Hg. She underwent ASA followed by
+TABLE 2
+Procedural Characteristics for ASAa
+Patient/
+Case #
+Total Septal
+Perforators
+EToH
+Infected,
+mL
+Baseline
+LVOT Peak
+Gradient,
+mm Hg
+Post-ASA LVOT
+Peak Gradient,
+mm Hg
+Baseline
+Mean AV
+Gradient,
+mm Hg
+Post-ASA
+Mean AV
+Gradient,
+mm Hg
+Residual
+SAM of MV
+Complications
+NYHA
+Functional
+Class
+Pre-ASA
+NYHA
+Functional
+Class
+Post-ASA
+Follow-Up
+Period
+Post-ASA, mo
+NYHA
+Functional
+Class at Latest
+Follow-Up
+1
+1
+1.5
+110
+24
+69
+20
+Yes
+No
+III
+II
+12
+II
+2
+1
+2
+52
+15
+71
+8
+No
+No
+III
+II
+12
+II
+3
+1
+2
+70
+55
+47
+38
+No
+No
+IV
+II
+16
+III
+4
+1
+2
+72
+20
+42
+6
+No
+No
+II
+II
+15
+I
+5
+1
+1
+91
+6
+51
+32
+No
+No
+III
+II
+21
+II
+6
+1
+2
+57
+55
+37
+22
+Yes
+No
+III
+II
+8
+III
+aBaseline: preprocedure echocardiography within 1 to 3 months before ASA; follow-up: Postprocedure echocardiography within 1 to 3 months after ASA.
+ASA ¼ alcohol septal ablation; AV ¼ aortic valve; DVI ¼ dimensionless valve index; EToH ¼ ethyl alcohol; LVOT ¼ left ventricular outﬂow tract; MV ¼ mitral valve; SAM ¼ systolic anterior motion.
+FIGURE 1
+Flow Diagram of Clinical Course for Patients With Concomitant Obstructive Hypertrophic Cardiomyopathy and Severe AS
+AS ¼ aortic stenosis; ASA ¼ alcohol septal ablation; BVD ¼ bioprosthetic valve degeneration; LV ¼ left ventricle; LVOTO ¼ left ventricular outﬂow tract obstruction;
+TAVR ¼ transcatheter aortic valve replacement; ViV ¼ valve in valve.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Abdelfattah et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+HCM and Severe AS
+3
+
+=== PAGE 4 ===
+FIGURE 2
+TTE at Baseline and After ASA for Cases 1 and 2
+Case 1: (A) Pre–alcohol septal ablation (ASA) transthoracic echocardiography (TTE) continuous wave assessment of the left ventricular outﬂow tract (LVOT) with a late
+peaking maximum (Max) gradient of 110 mm Hg (þ). (B) Post–alcohol septal ablation imaging with an early peaking signal with a mean aortic valve (AV) gradient
+measured at 20 mm Hg. (C) The late peaking maximum left ventricular outﬂow tract gradient (þ) reduced to 24 mm Hg and clear differentiation of the aortic valve mean
+gradient signal (x). Case 2: (D) Post–alcohol septal ablation transthoracic echocardiography continuous wave assessment of the left ventricular outﬂow tract with a
+late peaking maximum gradient of 15 mm Hg (þ) and (E) a mean aortic valve gradient measured at 8 mm Hg (þ). bpm ¼ beats/min; PG ¼ pressure gradient;
+Vel ¼ velocity; VTI ¼ velocity time integral.
+Abdelfattah et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+HCM and Severe AS
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+4
+
+=== PAGE 5 ===
+FIGURE 3
+TTE at Baseline and After ASA for Cases 3 and 4
+Case 3: (A) Pre–alcohol septal ablation (ASA) transthoracic echocardiography (TTE) continuous wave (CW) assessment of the left ventricular outﬂow tract (LVOT) with a
+late peaking maximum (Max) gradient of 70 mm Hg (þ). (B) Post–alcohol septal ablation imaging with an early peaking signal. The maximum left ventricular outﬂow
+tract gradient measured at 55 mm Hg, and the mean aortic valve gradient measured at 38 mm Hg. Case 4: (C) Pre–alcohol septal ablation transthoracic echocardi-
+ography continuous wave assessment of the left ventricular outﬂow tract with an early peaking maximum gradient of 72 mm Hg (þ) and a mean aortic valve gradient
+of 49 mm Hg. This signal captures both the aortic valve and left ventricular outﬂow tract signals. Post–alcohol septal ablation imaging with (D) an early peaking left
+ventricular outﬂow tract gradient measured at 6 mmHg (þ) and (E) a mean aortic valve gradient measured at 42 mm Hg. AVA ¼ aortic valve area; BSA ¼ body surface
+area; DVI ¼ Doppler velocity index; MVA ¼ mitral valve area; SV ¼ stroke volume; VR ¼ velocity ratio; other abbreviations as in Figure 2.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Abdelfattah et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+HCM and Severe AS
+5
+
+=== PAGE 6 ===
+interval
+evaluation
+for
+TAVR,
+with
+cardiac
+CT
+showing an AV Agatston calcium score of 466 AU. The
+patient was deemed a poor surgical candidate given
+her severe chronic obstructive pulmonary disease,
+chronic kidney disease, and age. Subsequent intra-
+operative transesophageal echocardiography (TEE)
+revealed resolution of dynamic LOVTO. The following
+day, TTE revealed moderate AS with a mean gradient
+of 20 mm Hg (Figures 2A to 2C).
+CASE 2. A 76-year-old woman with a history of HCM
+had NYHA functional class III symptoms. The peak
+LVOT gradient was 52 mm Hg, and the mean AV
+gradient was 71 mm Hg. Following a heart team dis-
+cussion, patient was deemed a high surgical risk
+given her severe tricuspid regurgitation and severe
+pulmonary hypertension. Moreover, her symptoms
+were primarily attributed to LVOTO. Cardiac CT was
+not obtained. The patient underwent ASA. Post ASA,
+the basal septum became severely hypokinetic, and
+intraoperative TEE showed resolution of the dynamic
+LVOT ﬂow. She reported signiﬁcant improvement at
+her 1-month visit. TTE showed a peak LVOT gradient
+of 15 mm Hg and a mean AV gradient of 8 mm Hg
+(Figures 2D and 2E).
+CASE 3. An 86-year-old woman with a history of
+oHCM
+who
+had
+undergone
+ASA
+presented
+with
+worsening dyspnea and NYHA functional class IV
+symptoms. Imaging revealed severe AS with a mean
+AV gradient of 47 mm Hg and a peak LVOT gradient of
+70 mm Hg. TAVR was planned, to be preceded by
+ASA. Post ASA, her symptoms initially improved, and
+TTE showed an AV mean gradient of 38 mm Hg,
+consistent with moderate to severe AS, and a peak
+LVOT gradient of 55 mm Hg. She continued to report
+symptoms on interval evaluation. The valve team
+deemed her LV anatomy to be unfavorable for TAVR
+following cardiac CT showing an AV Agatston calcium
+score
+of
+2,820
+AU
+and
+interval
+TTE
+evaluation.
+Moreover, the
+patient was a Jehovah’s Witness.
+Hence she was deemed a high surgical risk, and a
+decision
+was
+made
+for
+medical
+management
+(Figures 3A and 3B).
+FIGURE 4
+TTE at Baseline and After ASA for Case 5
+Case 5: (A) Pre–alcohol septal ablation (ASA) transthoracic echocardiography (TTE) continuous wave (CW) assessment of the left ventricular outﬂow tract and aortic
+valve gradients contaminating each other. There is an early peaking mean aortic valve gradient measured at 51 mm Hg, and a maximum (max) left ventricular outﬂow
+tract gradient of 91 mm Hg. Looking closely, a dagger-shaped signal representing midcavitary obstruction is also visible. Post–alcohol septal ablation imaging with (B) a
+left ventricular outﬂow tract gradient measured at 6 mm Hg (þ) and (C) a mean aortic valve gradient measured at 32 mm Hg. PW ¼ pulsed wave; other abbreviations
+as in Figures 2 and 3.
+Abdelfattah et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+HCM and Severe AS
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+6
+
+=== PAGE 7 ===
+FIGURE 5
+Echocardiogram at Baseline, Post-Alcohol Septal Ablation, Post-Mavacamten 16-Week Follow-Up, and Post-Transcatheter
+Aortic Valve Replacement for Case 6
+Continued on the next page
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Abdelfattah et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+HCM and Severe AS
+7
+
+=== PAGE 8 ===
+CASE 4. A 70-year-old initially asymptomatic man
+presented with a history of HCM with a peak LVOT
+gradient of 72 mm Hg and moderate AS with an AVA
+of 1.3 cm2. On follow-up, he reported NYHA func-
+tional class II symptoms. Interval TTE revealed the
+progression of his AS to severe, with a mean AV
+gradient of 49 mm Hg and an AVA of 0.8 cm2. He was
+low risk but opted for a transcatheter intervention
+with ASA followed by TAVR. Following ASA, the
+baseline dynamic outﬂow gradient improved, with
+resolution of the initial peaking contour on Doppler
+assessment of the LVOT. However, AS remained se-
+vere, with a mean AV gradient of 42 mm Hg, an AVA
+of 0.9 cm2 dimensionless index of 0.3, and an LV
+ejection
+fraction
+of
+65%.
+Moreover,
+cardiac
+CT
+showed an AV Agatston calcium score of 5,971. He
+subsequently underwent successful TAVR (Figures 3C
+to 3E).
+CASE 5. A 77-year-old man with a history of SAVR 17
+years earlier initially presented for evaluation of se-
+vere bioprosthetic AS in addition to oHCM. He re-
+ported NYHA functional class III symptoms. TTE
+revealed a peak LVOT gradient of 91 mm Hg and an
+AV mean gradient of 51 mm Hg. The heart team rec-
+ommended staged ASA followed by interval evalua-
+tion for consideration of valve-in-valve TAVR. Post-
+ASA TTE showed resolution of the LVOT gradient
+(6 mm Hg) and persistence of severe AS with an AV
+mean gradient (40 mm Hg), AV maximum velocity
+(4.2
+m/s),
+and
+an
+effective
+oriﬁce
+area
+index
+(0.76 cm2/m2). On interval follow-up, the patient re-
+ported symptom improvement to NYHA functional
+class II. TTE at 2 months showed an LVOT peak
+gradient remaining at 6 mm Hg and an AV mean
+gradient of 32 mm Hg. Given the patient’s progressive
+frailty and cognitive decline, in addition to his opting
+to postpone further valve interventions because of
+symptom improvement, cardiac CT was not obtained
+(Figures 4A to 4C).
+CASE 6. A 77-year-old woman with a history of right
+hemidiaphragm
+weakness
+presented
+with
+NYHA
+functional class III symptoms. TTE showed a peak
+LVOT gradient of 57 mm Hg and a mean AV gradient
+of 37 mm Hg. Her pulmonary function tests were not
+concerning despite her diaphragmatic paralysis, and
+the patient had a normal sniff test result. She was
+deemed a high-risk surgical candidate for a concom-
+itant SAVR/surgical myomectomy given moderate
+chronic obstructive pulmonary disease, and age. The
+heart team recommended a staged approach with ASA
+followed by TAVR if indicated. Following ASA, intra-
+operative
+TTE
+showed
+a
+persistent
+peak
+LVOT
+gradient of 55 mm Hg and a mean AV gradient of
+22 mm Hg. At 6 months, the LVOT peak gradient was
+81 mm Hg, and the mean AV gradient remained
+elevated at 35 mm Hg. Cardiac CT revealed an AV
+Agatston score of 1,053 AU, reﬂecting moderate AS.
+Therefore, mavacamten therapy was initiated. The
+LVOT gradient normalized (10 mm Hg), with a mean
+AV gradient of 35 mm Hg, and she underwent TAVR
+while receiving mavacamten therapy, without com-
+plications (Figures 5A to 5I).
+DISCUSSION
+In this case series, we demonstrated the safety and
+efﬁcacy
+of
+ASA
+and
+mavacamten
+in
+improving
+symptoms
+and
+described
+the
+hemodynamic
+and
+clinical
+short-term
+and
+midterm
+outcomes
+in
+concomitant oHCM and severe AS. We also presented
+the second case to our knowledge in which mava-
+camten was used after ASA to reduce LVOTO to
+perform TAVR safely.7
+ASA has repeatedly been shown to be an effective
+treatment in alleviating obstruction in high–surgical
+risk
+patients
+whose
+conditions
+are
+refractory
+to
+medical treatment. ASA resulting in improved LVOTO
+also
+allows
+for
+a
+more
+accurate
+hemodynamic
+assessment of AS. The use of a noninvasive modality
+such
+as
+TTE
+may
+be
+unreliable
+in
+accurately
+measuring the extent of hemodynamic impact caused
+by
+obstructions
+at
+different
+levels by
+using
+the
+simpliﬁed Bernoulli equation. More importantly, the
+coexistence of serial obstructions could obscure the
+actual contribution of either obstruction to the pre-
+sented symptoms. We presented several Doppler
+FIGURE 5
+Continued
+Case 6: Pre–alcohol septal ablation (ASA) transthoracic echocardiography (TTE) continuous wave assessment of (A) the left ventricular
+outﬂow tract (LVOT) with a late peaking maximum (max) gradient of 57 mm Hg and (B) a mean aortic valve (AV) gradient of 37 mm Hg. (C)
+Post–alcohol septal ablation imaging with a left ventricular outﬂow tract gradient remaining elevated at 55 mm Hg (þ) and (D) a mean aortic
+valve gradient measured at 22 mm Hg. (E to I) Follow-up imaging. (E) 16-month transthoracic echocardiography continuous wave assess-
+ment of the left ventricular outﬂow tract with a late peaking maximum gradient of 67 mm Hg. The patient was started on mavacamten. At
+4 weeks, the (F) peak left ventricular outﬂow tract gradient was 10 mm Hg, and the (G) mean aortic valve gradient was 35 mm Hg. The
+patient underwent transcatheter aortic valve replacement, where (H) postprocedural transthoracic echocardiography showed a maximum left
+ventricular outﬂow tract gradient of 9 mm Hg (þ) and (I) a mean aortic valve gradient of 14 mm Hg. Abbreviations as in Figures 2 and 3.
+Abdelfattah et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+HCM and Severe AS
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+8
+
+=== PAGE 9 ===
+CENTRAL ILLUSTRATION Treatment Algorithm for Obstructive Hypertrophic Cardiomyopathy and Native Aortic
+Stenosis
+Abdelfattah OM, et al. JACC Case Rep. 2025;30(17):103779.
+AS ¼ aortic stenosis; AV ¼ aortic valve; CMI ¼ cardiac myosin inhibitor; LBBB ¼ left bundle branch block; LV ¼ left ventricular; LVOT ¼ left ventricular outﬂow tract;
+SAVR ¼ surgical aortic valve replacement; TAVR ¼ transcatheter aortic valve replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Abdelfattah et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+HCM and Severe AS
+9
+
+=== PAGE 10 ===
+images
+where
+signal
+interpretation
+proves
+chal-
+lenging and understanding of timing of the peak
+gradient and contour must be heavily scrutinized
+(Figures 2 and 3). It has also been proposed that the
+presence of LVOT dynamic obstruction creates a
+pseudo–low-ﬂow state across the AV, mimicking se-
+vere AS.
+In nonsurgical candidates, a staged ASA and TAVR
+approach remains a reasonable alternative and should
+be considered in selected patients. The challenge lies
+in determining which obstruction to intervene in
+ﬁrst. Several reports have documented the exacer-
+bation of LVOTO post TAVR leading to suicide left
+ventricle, necessitating a rescue ASA.3,4,8 Patients
+with
+oHCM
+are
+at
+risk
+of
+suicide
+left
+ventricle
+following AVR through several mechanisms. TAVR
+leads to an immediate reduction in afterload and
+increased LVOT ﬂow and a subsequent Venturi effect,
+pulling the mitral valve leaﬂet anteriorly and hence
+worsening
+already
+existing
+LVOTO.
+Moreover,
+increased
+contractility
+of
+the
+left
+ventricle
+and
+decreased ﬁlling pressures in patients with a hyper-
+trophied small left ventricle lead to obliteration of the
+LV cavity and result in subsequent hemodynamic
+instability.9 Such outcomes can be devastating unless
+acute interventions are pursued, including aggressive
+preload resuscitation and emergency ASA to relieve
+obstruction.
+Our approach focused mainly on initially relieving
+the LVOTO with ASA and/or CMI therapy, with in-
+terval re-evaluation of symptoms and AV Doppler
+assessment (Central Illustration). Most of our cohort
+presented with good results post-ASA. Four of the 6
+patients had a down-grading of AS severity on post-
+ASA TTE. One patient continued to have obstruc-
+tion,
+and
+another
+patient
+developed
+recurrent
+obstruction following ASA. Addressing the LVOTO
+before valve intervention provided the opportunity to
+assess LV hemodynamics accurately with TTE and
+reclassify the severity of AS. For the 1 patient with
+recurrent obstruction in follow-up, coronary anatomy
+was thought to be unfavorable for repeat ASA, and the
+decision was made to initiate CMI therapy. This pa-
+tient was successfully treated with mavacamten,
+which reduced the LVOT gradient, thereby permitting
+accurate assessment of the AV mean gradient. In this
+patient, AS remained moderate to severe, and the
+patient went on to TAVR without intraprocedural and
+or postprocedural complications.
+A previous study by El-Sabawi et al5 demonstrated
+promising similar short-term results in a small case
+series by using ASA before TAVR. However, despite
+ASA’s efﬁcacy and safety in relieving LVOTO, in some
+instances, ASA may not be feasible as a result of
+septal perforator anatomical distribution. This may
+explain why up to 20% of patients undergoing ASA
+may not experience satisfactory relief of symptoms
+despite short-term success in alleviating the dynamic
+LVOTO.10
+An alternative and novel approach to this chal-
+lenging scenario was published in a recent case report
+that emphasized the imaging challenges of accurate
+AV assessment with ongoing LVOTO.6 This case had
+evidence of LVOTO in addition to elevated mean AV
+gradients. ASA was performed without improvement
+in LVOT and AV gradients. Therefore, mavacamten
+was initiated and was successful in reducing the
+LVOT gradient. On follow-up imaging, there was no
+further evidence of AS. This issue was likely second-
+ary to the technical difﬁculties of accurately assessing
+the AV mean gradient and AVA with concomitant
+LVOTO.
+A second recently published case report described
+the approach with ASA before TAVR.7 The patient had
+a
+continued
+presence
+of
+LVOTO
+following
+ASA.
+Therefore, the decision was made to initiate mava-
+camten before TAVR. The patient underwent TAVR a
+few
+weeks
+after
+initiating
+mavacamten
+without
+complications.
+Finally, it is worth considering that surgical risk
+assessment is institution dependent and is inﬂuenced
+by multidisciplinary heart team evaluation. At our
+institution, factors such as advanced age, frailty,
+pulmonary and cardiovascular comorbidities, and
+previous surgical history contributed to the classiﬁ-
+cation of the majority of our cohort as high surgical
+risk. However, different centers may have varying
+criteria for surgical risk stratiﬁcation, which could
+inﬂuence decision making in managing concomitant
+LVOTO and AS. Our approach—using ASA and CMI
+therapy before considering AV replacement—repre-
+sents 1 of several available strategies for treating
+these
+complex
+patients,
+and
+further
+studies
+are
+needed to reﬁne patient selection and sequencing of
+interventions.
+CONCLUSIONS
+Our approach for treating oHCM with concomitant AS
+would be ASA and potentially CMI therapy. Serial
+evaluation of LVOT gradients and repeat symptom
+assessment are necessary to determine the degree of
+ongoing AS. If symptoms persist following ASA, and
+the AV gradients are consistent with severe AS, then
+AVR (SAVR/TAVR) could be considered on the basis of
+surgical risk. Last, use of CMI therapy before TAVR in
+Abdelfattah et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+HCM and Severe AS
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+10
+
+=== PAGE 11 ===
+patients with oHCM is a novel approach, and with
+time, we suspect more data will be published on this
+approach.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Martinez has served as an advisor for Bristol Myers Squibb and
+Cytokinetics. All other authors have reported that they have no re-
+lationships relevant to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Matthew W.
+Martinez, Center for Hypertrophic Cardiomyopathy &
+Sports Cardiology, Gagnon Cardiovascular Institute,
+Department of Cardiovascular Medicine, Morristown
+Medical Center, Atlantic Health System, 100 Madison
+Avenue, Morristown, New Jersey 07960, USA. E-mail:
+matthew.martinez@atlantichealth.org.
+R E F E R E N C E S
+1. Desai MY, Alashi A, Popovic ZB, et al. Outcomes
+in patients with obstructive hypertrophic cardio-
+myopathy and concomitant aortic stenosis under-
+going
+surgical
+myectomy
+and
+aortic
+valve
+replacement. J Am Heart Assoc. 2021;10:e018435.
+2. Kayalar N, Schaff HV, Daly RC, Dearani JA,
+Park SJ. Concomitant septal myectomy at the
+time of aortic valve replacement for severe
+aortic stenosis. Ann Thorac Surg. 2010;89:459–
+464.
+3. Qintar M, Villablanca P, Lee J, et al. Emergency
+alcohol septal ablation for shock after TAVR. JACC
+Case Rep. 2021;3:853–858.
+4. Ben-Dor I, Rogers T, Medranda GA, et al.
+A word of caution before treating aortic stenosis in
+patients with concomitant LVOT obstruction. JACC
+Case Rep. 2022;4:1162–1168.
+5. El-Sabawi
+B,
+Nishimura
+RA,
+Guerrero
+ME,
+Rihal CS, Eleid MF. Alcohol septal ablation in pa-
+tients with concomitant hypertrophic cardiomy-
+opathy and aortic valvular stenosis. Catheter
+Cardiovasc Interv. 2020;95:830–837.
+6. Vanhaecke P, Bohbot Y, Lena CD, Hucleux E,
+Yemmi
+M,
+Tribouilloy
+C.
+Usefulness
+of
+mavacamten in the challenging association of
+aortic stenosis and obstructive hypertrophic car-
+diomyopathy. JACC Case Rep. 2024;29:102430.
+7. Wharton RH, Koss E, Rutkin B, Palazzo RS,
+Kuvin JT. Cardiac myosin inhibition for treatment
+of LVOT obstruction in a patient with severe AS.
+JACC Case Rep. 2024;29:102381.
+8. Krishnaswamy A, Tuzcu EM, Svensson LG,
+Kapadia
+SR.
+Combined
+transcatheter
+aortic
+valve
+replacement
+and
+emergent
+alcohol
+septal
+ablation.
+Circulation.
+2013;128:e366–
+e368.
+9. Bird JJ, Murgo JP, Pasipoularides A. Fluid dy-
+namics of aortic stenosis: subvalvular gradients
+without
+subvalvular
+obstruction.
+Circulation.
+1982;66:835–840.
+10. Sorajja P, Valeti U, Nishimura RA, et al. Outcome
+of alcohol septal ablation for obstructive hypertro-
+phic cardiomyopathy. Circulation. 2008;118:131–
+139.
+KEY WORDS alcohol septal ablation, aortic
+stenosis, hypertrophic cardiomyopathy,
+mavacamten, TAVR, transcatheter aortic
+valve replacement
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Abdelfattah et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 7 7 9
+HCM and Severe AS
+11

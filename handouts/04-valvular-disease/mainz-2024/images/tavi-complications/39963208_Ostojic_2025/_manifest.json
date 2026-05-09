@@ -1,0 +1,78 @@
+{
+  "pdf": "39963208_Ostojic_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1944,
+      "height": 1052,
+      "ext": "jpeg",
+      "bytes": 278538
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1944,
+      "height": 633,
+      "ext": "jpeg",
+      "bytes": 213408
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 548,
+      "ext": "jpeg",
+      "bytes": 194101
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1495,
+      "height": 954,
+      "ext": "jpeg",
+      "bytes": 298289
+    },
+    {
+      "file": "fig-05_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 797,
+      "ext": "jpeg",
+      "bytes": 106007
+    },
+    {
+      "file": "fig-06_p5.jpeg",
+      "page": 5,
+      "width": 1944,
+      "height": 759,
+      "ext": "jpeg",
+      "bytes": 220040
+    },
+    {
+      "file": "fig-07_p5.jpeg",
+      "page": 5,
+      "width": 797,
+      "height": 794,
+      "ext": "jpeg",
+      "bytes": 101520
+    },
+    {
+      "file": "fig-08_p6.jpeg",
+      "page": 6,
+      "width": 1944,
+      "height": 741,
+      "ext": "jpeg",
+      "bytes": 216849
+    },
+    {
+      "file": "fig-09_p6.jpeg",
+      "page": 6,
+      "width": 1494,
+      "height": 759,
+      "ext": "jpeg",
+      "bytes": 170534
+    }
+  ]
+}

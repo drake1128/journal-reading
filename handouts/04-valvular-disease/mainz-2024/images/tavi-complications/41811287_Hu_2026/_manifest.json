@@ -1,0 +1,54 @@
+{
+  "pdf": "41811287_Hu_2026.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1649,
+      "height": 1198,
+      "ext": "png",
+      "bytes": 2352809
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1051,
+      "height": 1292,
+      "ext": "png",
+      "bytes": 185786
+    },
+    {
+      "file": "fig-03_p5.png",
+      "page": 5,
+      "width": 1071,
+      "height": 1077,
+      "ext": "png",
+      "bytes": 1321405
+    },
+    {
+      "file": "fig-04_p5.png",
+      "page": 5,
+      "width": 1071,
+      "height": 973,
+      "ext": "png",
+      "bytes": 1539045
+    },
+    {
+      "file": "fig-05_p6.png",
+      "page": 6,
+      "width": 1071,
+      "height": 997,
+      "ext": "png",
+      "bytes": 1334004
+    },
+    {
+      "file": "fig-06_p7.png",
+      "page": 7,
+      "width": 1644,
+      "height": 1490,
+      "ext": "png",
+      "bytes": 3668228
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pdf": "38094178_Elison_2023.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1699,
+      "height": 846,
+      "ext": "jpeg",
+      "bytes": 168892
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1296,
+      "height": 842,
+      "ext": "jpeg",
+      "bytes": 297225
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 1274,
+      "ext": "jpeg",
+      "bytes": 323888
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1968,
+      "height": 606,
+      "ext": "jpeg",
+      "bytes": 144836
+    },
+    {
+      "file": "fig-05_p5.jpeg",
+      "page": 5,
+      "width": 1346,
+      "height": 668,
+      "ext": "jpeg",
+      "bytes": 168080
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Live Hemodynamics-Assisted 
+Simultaneous Aortic and Mitral 
+Valve-in-Valve Replacement
+Siddhartha Mengi, MD, Dimitri Kalavrouziotis, MD, Pierre-Yves Turgeon, MD, Jean-Michel Paradis, MD
+ABSTRACT
+BACKGROUND Bioprosthetic valve failure is a growing challenge, particularly in high-risk patients who are poor 
+surgical candidates. Simultaneous valve-in-valve (ViV) transcatheter aortic valve replacement (TAVR) and transcatheter 
+mitral valve replacement (TMVR) via a fully percutaneous approach remains a novel and evolving strategy with limited 
+data.
+CASE SUMMARY A 70-year-old man with failed aortic and mitral bioprostheses leading to severe intraprosthetic 
+regurgitation presented with progressive heart failure symptoms. Owing to high surgical risk, he underwent transfe-
+moral ViV-TAVR and transeptal ViV-TMVR using the SavvyWire for real-time hemodynamic monitoring and dedicated 
+left ventricular pacing. The procedure was successful, with immediate hemodynamic improvement and no 
+complications.
+DISCUSSION This case demonstrates the feasibility, safety, and efficiency of simultaneous transfemoral ViV-TAVR 
+and ViV-TMVR in high-risk patients with bioprosthetic valve failure. Although further data are needed, this case highlights 
+a novel application of the SavvyWire, demonstrating its potential to enhance procedural precision, enable real-time 
+hemodynamic assessment, and improve safety in simultaneous ViV-TAVR and ViV-TMVR. (JACC Case Rep. 
+2025;30:104345) © 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology Founda-
+tion. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+B 
+ioprosthetic heart valves deteriorate over 
+time, with degeneration occurring in up to 
+30% of patients within 10 to 15 years of im-
+plantation. 1 Although redo open-heart aortic or 
+mitral valve replacement remains the standard treat-
+ment for bioprosthetic valve failure (BVF), many 
+elderly or high-risk patients are deemed ineligible 
+due to increased operative risks. 2-5 Valve-in-valve 
+(ViV) transcatheter aortic valve replacement (TAVR) 
+and ViV transcatheter mitral valve replacement
+TAKE-HOME MESSAGES
+• Simultaneous transfemoral ViV-TAVR and 
+ViV-TMVR is a safe and feasible alternative 
+for high-risk patients with BVF when per-
+formed with meticulous planning.
+• SavvyWire enhances procedural precision, 
+real-time hemodynamic assessment, and LV 
+pacing, optimizing outcomes in complex 
+multivalve interventions.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.104345
+From the Quebec Heart and Lung Institute, Laval University, Quebec City, Quebec, Canada.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received March 7, 2025; accepted April 25, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 2 1 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N 
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R 
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+(TMVR) have emerged as viable, less invasive 
+alternatives, demonstrating favorable early 
+outcomes in elderly and high-risk popula-
+tions. 6,7 However, managing multiple failing 
+bioprostheses 
+simultaneously 
+presents
+unique 
+procedural 
+challenges, 8,9 
+often
+necessitating staged interventions. While
+previous studies have reported simultaneous
+ViV-TAVR and ViV-TMVR via transapical ac-
+cess, 10,11 data on fully percutaneous transfe-
+moral ViV simultaneous transcatheter valve
+replacement (ViV-STVR) with continuous 
+transvalvular hemodynamic guidance, to
+our knowledge, have not been reported
+before. Here, we report a case of successful
+transfemoral ViV-STVR using the SavvyWire
+(OpSens Medical), highlighting the potential
+of this innovative approach in managing
+high-risk patients with multiple failing bio-
+prostheses and advancing procedural strategies.
+HISTORY OF PRESENTATION
+A 70-year-old man with a history of dual valve 
+replacement performed 11 years ago for infective 
+endocarditis of native aortic and mitral valve, with 
+Carpentier-Edwards Perimount MAGNA EASE 23-mm 
+valve (Edwards Lifesciences) and EPIC 33-mm valve 
+(Abbott), respectively, presented with a 6-month 
+history of progressive NYHA functional class II/III 
+dyspnea, consistent with decompensated chronic 
+heart failure secondary to severe central regurgitation 
+of both aortic and mitral bioprostheses. Other notable 
+past medical history included Parkinson disease, 
+reduced left ventricular ejection fraction (LVEF) of 
+45%, hypertension, and chronic kidney disease stage 
+II. Transthoracic echocardiography demonstrated 
+reduced LVEF of 45% with mild to moderate global 
+hypokinesia, severe intraprosthetic aortic regurgita-
+tion (AR) with moderate aortic stenosis (maximal/ 
+mean gradient = 50/31 mm Hg, valve area = 0.8 cm 2 ), 
+severe intraprosthetic mitral regurgitation (MR) 
+(maximal [mean] gradient = 10 [3] mm Hg, valve 
+area = 1.5 cm 2 ), and increased estimated pulmonary 
+artery systolic pressure at 58 mm Hg with mild 
+dysfunction of the right ventricle.
+Despite low Society of Thoracic Surgeons scores of 
+1.51% and 2.06% for isolated surgical aortic and 
+mitral valve replacement, respectively, and the lack 
+of specific risk-estimating tools for such cases, the 
+heart team deemed conventional redo open-heart 
+surgery to be high risk for this patient. Hence, fully 
+percutaneous transfemoral ViV-STVR was considered 
+as a minimally invasive alternative, allowing for
+single-stage treatment of dual pathology, a shorter 
+hospital 
+stay, 
+and 
+immediate 
+hemodynamic 
+improvement, potentially leading to faster symptom 
+relief and recovery. 12
+DIFFERENTIAL DIAGNOSIS
+• Infective endocarditis of the bioprosthetic valves.
+• Prosthesis-patient mismatch.
+• Thrombus-related BVF.
+INVESTIGATIONS
+Thorough preprocedural planning was conducted to 
+confirm the suitability for percutaneous intervention 
+and to predict the procedural outcome. Trans-
+esophageal echocardiography confirmed structural 
+valve deterioration with severe intraprosthetic 
+regurgitation in both valves and no signs of infective 
+endocarditis, valve thrombosis, or paravalvular 
+leaks. Coronary angiography showed nonobstructive 
+coronary artery disease. Dedicated computed to-
+mography enabled confirmation of valve dimensions 
+and assessment of left ventricular outflow tract 
+(LVOT) (Figure 1). Aorto-mitral angle was 61.8 ◦ , and 
+calculated neo-LVOT was 673 mm 2 , demonstrating a 
+low risk for LVOT obstruction following ViV-TMVR. 
+The risk of coronary obstruction was low with vir-
+tual valve-to-coronary distance of 10.5 mm on the 
+left and 12.5 mm on the right (Figure 1). Additionally, 
+the vascular anatomy was favorable supporting the 
+feasibility of transfemoral access.
+MANAGEMENT
+The procedure was started by obtaining all vascular 
+access, including the right femoral vein for ViV-
+TMVR (as the right side would allow standard 
+equipment angulation for the TMVR procedure) and 
+the left femoral artery for ViV-TAVR. Preclosure 
+technique was used with 2 Perclose ProStyle devices 
+(Abbott). Atrial transseptal puncture was then per-
+formed using a VersaCross RF system (Boston Sci-
+entific), advancing and securing the VersaCross RF 
+pigtail wire in the left atrium to ensure future access 
+for ViV-TMVR (Figure 2). Systemic heparinization was 
+guided by the activated clotting time, and a cerebral 
+embolic protection device (Sentinel, Boston Scienti-
+fic) was placed via the right radial artery. Following 
+predilation of the degenerated aortic bioprostheses 
+with an 18-mm noncompliant balloon, ViV-TAVR was 
+performed using a 23-mm Accurate Neo2 small (Bos-
+ton Scientific), deployed using the SavvyWire under 
+rapid pacing (Figure 2, Video 1). The decision to use
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+AR = aortic regurgitation 
+BVF = bioprosthetic valve
+failure
+LV = left ventricular
+LVEF = left ventricular
+ejection fraction
+LVOT = left ventricular
+outflow tract
+MR = mitral regurgitation 
+STVR = simultaneous
+transcatheter valve
+replacement
+TAVR = transcatheter aortic
+valve replacement
+TMVR = transcatheter mitral
+valve replacement
+ViV = valve-in-valve
+Mengi et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+2
+
+=== PAGE 3 ===
+VISUAL SUMMARY Simultaneous ViV-TAVR and Valve-in-Valve Transcatheter Mitral Valve Replacement Using SavvyWire With Continuous Hemodynamic
+Monitoring
+(A) Fluoroscopic image showing previous aortic (white arrow) and mitral (yellow arrow) bioprostheses. (B) Valve-in-valve transcatheter aortic valve replacement 
+(ViV-TAVR) hemodynamic assessment demonstrating improved transvalvular aortic gradients post–prosthesis fracture. (C) Diagrammatic representation of the 
+SavvyWire, highlighting its structural components, including the integrated pressure sensor. (D) Final positioning of both aortic (white arrow) and mitral (yellow 
+arrow) transcatheter valves. (E) Postprocedural image confirming optimal valve placement.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Mengi et al 
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+3
+
+=== PAGE 4 ===
+the 23-mm valve size was made to carefully balance 
+the risk of underexpansion (“pin-wheeling”), which 
+could result in high transvalvular gradients and 
+leaflet dysfunction, against overexpansion, which 
+could lead to excessive radial force, annular damage, 
+or central AR. The SavvyWire has dedicated rapid-
+pacing capabilities and allowed continuous hemo-
+dynamic monitoring during ViV-TAVR. Instanta-
+neous pressure gradients with the SavvyWire showed 
+a mean transvalvular gradient of 26 mm Hg; hence 
+immediate valve fracture was performed using 24-
+mm noncompliant balloon to optimize procedural 
+outcomes (Video 2), thereby successfully reducing 
+the mean gradient to 10 mm Hg (Figure 3). Subse-
+quently, a 16 mm atrial balloon septostomy was 
+performed followed by ViV-TMVR with a 29-mm 
+SAPIEN 3 Ultra (Edwards Lifesciences) (Video 3). 
+The SavvyWire remained in the left ventricle (after 
+ViV-TAVR), providing pacing support during ViV-
+TMVR and serving as a bailout option in the event 
+of LVOT obstruction, if needed (Figure 2). Hemody-
+namics improved dramatically with no increase in 
+LVOT gradient measured by the SavvyWire, and 
+transesophageal echocardiography confirmed well-
+functioning valves with good position and no
+paravalvular leaks. The patient remained hemody-
+namically stable throughout the procedure.
+DISCUSSION
+To our knowledge, this is the first reported case of 
+successful ViV-STVR via a fully percutaneous trans-
+femoral approach with live hemodynamics guidance 
+provided by the SavvyWire for failed bioprosthetic 
+aortic and mitral valves. Bioprosthetic valves are 
+preferred over mechanical valves to avoid lifelong 
+anticoagulation but have limited durability. 13 Ad-
+vancements 
+in 
+valve 
+design 
+have 
+improved 
+longevity, leading to their increased adoption in 
+younger patients and a consequent rise in failing 
+surgical bioprostheses. Whereas the redo dual valve 
+surgery carries a significant mortality risk up to 
+20%, 14,15 the risk is further augmented in patients 
+with heart failure and reduced LVEF, 16 often 
+rendering them ineligible for surgery or at risk for 
+prolonged recovery or poor outcomes. With the 
+widespread adoption of TAVR and emerging trans-
+catheter 
+mitral 
+interventions, 
+ViV-TAVR 
+and 
+ViV-TMVR provide a viable alternative for these high-
+risk patients with BVF. 4,17 However, clinical evidence
+FIGURE 1 Preprocedural Multimodal Imaging for Simultaneous ViV-TAVR and Valve-in-Valve Transcatheter Mitral Valve Replacement Planning
+(A) Computed tomography imaging with measurements of the internal diameter of the bioprosthetic heart valve at aortic position. (B) Three-dimensional rendered 
+images showing relationship of aortic annulus with aorto-mitral curtain (yellow arrow). (C) Simulated models with ACURATE Neo2 small (Boston Scientific) virtual 
+valve in aortic prosthesis showing low risk of coronary obstruction and easy access post valve-in-valve transcatheter aortic valve replacement (ViV-TAVR). (D and E) 
+Simulated 29-mm SAPIEN S3 Ultra virtual valve in mitral prosthesis with depth estimation related to mitral annulus (red and white circle) to assess procedural 
+feasibility, risk of LVOT obstruction, and distance in relation to the aortic annular plane (yellow circle). (F and G) Neo–left ventricular outflow tract measurements.
+Mengi et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+4
+
+=== PAGE 5 ===
+to guide decision making in multivalvular heart dis-
+ease remains limited, as such patients either have 
+been not represented or have been underrepresented 
+in clinical trials. Furthermore, ViV-STVR for failed 
+aortic and mitral bioprostheses remains off-label and 
+is not yet included in clinical guidelines owing to 
+insufficient data on outcomes. 2,3
+In this case, the SavvyWire was instrumental in 
+optimizing procedural efficiency, allowing contin-
+uous transvalvular hemodynamic monitoring and 
+potentially improving overall safety. The SavvyWire 
+is a 0.035-inch preshaped guidewire designed for 
+TAVR, providing a 3-in-1 solution by enabling stable 
+valve delivery, real-time transvalvular hemody-
+namic monitoring, and dedicated left ventricular 
+(LV) pacing (Figure 4). The guidewire facilitates 
+unipolar pacing through specialized conductive and 
+insulating features. Pacing is enabled by linking the 
+cathode of an external pacemaker to a designated 
+connection point on the wire’s shaft, with the 
+anode attached to a subcutaneous needle inserted
+in the patient’s groin, thereby eliminating the need 
+for adjunct devices or additional venous access 
+(Figure 4). 18,19 In contrast to traditional guidewires, 
+SavvyWire allows continuous transvalvular gradi-
+ents assessment, crucial in valve-in-valve proced-
+ures where residual elevated gradients are common 
+and often require aggressive post-TAVR dilation or 
+valve fracture to optimize hemodynamics, as done 
+in our case. By eliminating the need for double 
+pigtail catheters and multiple transducers, it 
+streamlined our procedure while maintaining ac-
+curacy and efficiency of the procedure. Addition-
+ally, it also served as a safety tool, facilitating real-
+time LVOT obstruction assessment (a critical risk in 
+TMVR procedures), allowing immediate evaluation 
+of LVOT gradients and prompt intervention if 
+needed. Furthermore, SavvyWire also serves as an 
+emergency LV pacing tool in the event of compli-
+cations such as hemodynamic collapse, conduction 
+disturbances, or arrhythmias, enhancing safety in 
+high-risk scenarios.
+FIGURE 2 Fluoroscopic Images of Simultaneous ViV-TAVR and Valve-in-Valve Transcatheter Mitral Valve Replacement Procedure
+(A) VersaCross RF Pigtail wire placed in the left atrium following transseptal puncture using the VersaCross RF System. (B) Balloon predilation of aortic prosthesis with 
+18-mm Atlas Gold balloon. (C) Valve-in-valve transcatheter aortic valve replacement (ViV-TAVR) with ACURATE Neo2 small under left ventricular pacing with the 
+SavvyWire followed by crossing of the mitral prosthesis under transesophageal echocardiography guidance to gain access to the left ventricle with stiff wire.
+(D) Keeping the SavvyWire in the left ventricle after ViV-TAVR for rapid pacing. (E) Interatrial septum predilation with a 16-mm Atlas Gold balloon. (F) Deployment of 
+29-mm SAPIEN S3 Ultra valve at nominal volume under rapid left ventricular pacing with the SavvyWire.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Mengi et al 
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+5
+
+=== PAGE 6 ===
+FIGURE 3 Playback Interface of the OpSens OptoMonitor During Pre- and Post-Aortic Bioprosthesis Fracture
+Valve-in-valve transcatheter aortic valve replacement (ViV-TAVR) hemodynamic waveforms with SavvyWire pre– and post–aortic 
+bioprosthesis fracture (A and B).
+Mengi et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+6
+
+=== PAGE 7 ===
+The combination of MR and AR represents a com-
+mon yet understudied subset of multivalvular heart 
+disease, making ViV-STVR procedures particularly 
+challenging. In contrast to the surgical approach, we 
+opted for ViV-TAVR followed by ViV-TMVR, as 
+correcting AR first reduces LV volume overload, 
+improves ventricular geometry, and lowers LV 
+end-diastolic and left atrial pressures, potentially 
+alleviating MR. Whereas simultaneous ViV-TAVR 
+and ViV-TMVR may prolong procedural duration, 
+increasing heparin exposure and multiple vascular 
+access requirements, it eliminates the need for a 
+second intervention and its associated risks, making 
+it a viable alternative to a staged approach.
+A balloon-expandable prosthesis was chosen 
+for 
+the 
+mitral 
+position, 
+aligning 
+with 
+the 
+prevailing global practice in this setting. 20 For the 
+aortic position, a self-expandable (supra-annular) 
+valve was selected owing to its superior hemody-
+namics, 
+reduced 
+prosthesis-patient 
+mismatch, 
+and improved outcomes in small degenerated 
+bioprostheses. 21 
+Given 
+the 
+high 
+procedural 
+complexity and risk, opting for a familiar device 
+enhanced safety and efficiency, as demonstrated in 
+this case. 
+Certain anatomic contraindications may render 
+the ViV-STVR approach unsuitable, particularly in 
+cases with high-risk anatomic features, such as a
+FIGURE 4 SavvyWire: A 3-in-1 guidewire for Transcatheter Aortic Valve Replacement
+(A) SavvyWire key components, highlighting its 280-cm length, preshaped tip, pressure sensor (black arrow), and optical fiber. (B) Physical appearance of SavvyWire. 
+(C and D) Rapid pacing installation on a patient using the SavvyWire. (E) Periprocedural interface of OpSens OptoMonitor showing hemodynamic waveforms. (F) 
+Ventricular pacing using the SavvyWire.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Mengi et al 
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+7
+
+=== PAGE 8 ===
+high-risk of coronary construction and borderline 
+neo-LVOT, where leaflet modification or septal 
+ablation may be needed before proceeding. Given 
+the procedural complexity, ViV-STVR should be 
+approached with caution, ensuring flexibility to halt 
+at any stage, particularly if ViV-TAVR outcomes are 
+suboptimal, or low aortic valve implantation occurs. 
+Following ViV-TAVR, LVOT reassessment is crucial to 
+identify any hemodynamic changes from baseline 
+that may necessitate aborting ViV-TMVR. When 
+executed with these precautions, ViV-STVR offers a 
+promising therapeutic option for a subset of high-risk 
+or inoperable patients who would otherwise be 
+managed conservatively.
+FOLLOW-UP
+The patient had an uneventful recovery with marked 
+improvement in symptoms. A mild intra-aortic 
+valvular leak, initially detected on transthoracic 
+echocardiography, resolved on follow-up imaging 
+(Figure 5). He was discharged 48 hours after the 
+procedure and showed significant progress at 30-day 
+and 3-month follow-ups. Echocardiography obtained 
+at 1 month revealed only trace to mild intra-aortic 
+residual leakage (Video 4). The patient remains 
+symptom-free and active in daily life.
+CONCLUSIONS
+As transcatheter therapies continue to evolve, 
+integrating advanced technologies such as the Sav-
+vyWire may help streamline complex procedures, 
+reduce complications, and expand treatment options 
+for high-risk patients with multiple BVFs. Contin-
+uous hemodynamic monitoring enhances safety, ef-
+ficiency, and procedural precision. Although the 
+successful outcome of ViV-STVR supports broader 
+adoption, long-term data remain limited, necessi-
+tating further research on durability and single-stage 
+vs staged approaches.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Paradis has received consulting fees from Edwards LifeSciences 
+and Boston Scientific. All other authors have reported that they 
+have no relationships relevant to the contents of this paper to 
+disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Jean-Michel
+Paradis, Quebec Heart and Lung Institute, Laval 
+University, Chemin Sainte-Foy G1V 4G5, Quebec City, 
+Quebec 2725, Canada. E-mail: jean-michel.paradis@ 
+criucpq.ulaval.ca.
+FIGURE 5 Echocardiography Post-Procedure and at 1-Month Follow-Up
+Transthoracic echocardiography evaluation post-procedure showing (A and B) no obstruction of the left ventricular outflow tract with mean mitral valve gradient of 
+5 mm Hg and (C) mean aortic valve gradient of 16 mm Hg. Transthoracic echocardiography evaluation at 1-month follow-up showing (D and E) no obstruction of the 
+left ventricular outflow tract with mean mitral valve gradient persistent at 5 mm Hg and (F) mean aortic valve gradient of 9 mm Hg and trace to mild aortic 
+regurgitation.
+Mengi et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+8
+
+=== PAGE 9 ===
+R E F E R E N C E S
+1. Salaun E, Clavel MA, Rodés-Cabau J, Pibarot P. 
+Bioprosthetic aortic valve durability in the era of 
+transcatheter aortic valve implantation. Heart. 
+2018;104:1323–1332.
+2. Otto CM, Nishimura RA, Bonow RO, et al. 2020 
+ACC/AHA guideline for the management of pa-
+tients with valvular heart disease: executive 
+summary: a report of the American College of 
+Cardiology/American Heart Association joint 
+committee on clinical practice guidelines. J Am 
+Coll Cardiol. 2021;77:450–500.
+3. Vahanian A, Beyersdorf F, Praz F, et al. 2021 
+ESC/EACTS guidelines for the management of 
+valvular heart disease. Eur Heart J. 2022;43:561– 
+632.
+4. Majmundar M, Doshi R, Kumar A, et al. Valve-
+in-valve transcatheter aortic valve implantation 
+versus repeat surgical aortic valve replacement in 
+patients with a failed aortic bioprosthesis. Euro-
+Intervention. 2022;17:1227–1237.
+5. Ye J, Cheung A, Yamashita M, et al. Trans-
+catheter aortic and mitral valve-in-valve implan-
+tation for failed surgical bioprosthetic valves: an 
+8-year single-center experience. JACC Cardiovasc 
+Interv. 2015;8:1735–1744.
+6. Dvir D, Webb JG, Bleiziffer S, et al. Trans-
+catheter aortic valve implantation in failed bio-
+prosthetic surgical valves. JAMA. 2014;312:162– 
+170.
+7. Cheung A, Webb JG, Barbanti M, et al. 5-year 
+experience with transcatheter transapical mitral 
+valve-in-valve implantation for bioprosthetic 
+valve dysfunction. J Am Coll Cardiol. 2013;61: 
+1759–1766.
+8. Ruge H, Xhepa E, Joner M, et al. First-in-Man 
+simultaneous 
+aortic 
+and 
+mitral 
+valve
+transcatheter 
+implantation 
+using 
+patient-
+customized prostheses. JACC Case Rep. 2021;3: 
+653–657.
+9. Farjat-Pasos JI, Kalavrouziotis D, Beaudoin J, 
+Paradis JM. Simultaneous transcatheter aortic and 
+mitral native valve replacement: a step-by-step 
+procedural approach. Struct Heart. 2024;8: 
+100295.
+10. Lutter G, Salem M, Frank D, Puehler T. One-
+shot transcatheter double valve replacement: six-
+month follow-up-a case report. Eur Heart J Case 
+Rep. 2020;4:1–4.
+11. Seiffert M, Baldus S, Conradi L, et al. Simul-
+taneous transcatheter aortic and mitral valve-in-
+valve implantation in a patient with degenerated 
+bioprostheses and high surgical risk. Thorac Car-
+diovasc Surg. 2011;59:490–492.
+12. Ando T, Takagi H, Briasoulis A, et al. 
+A systematic review of reported cases of com-
+bined transcatheter aortic and mitral valve in-
+terventions. Catheter Cardiovasc Interv. 2018;91: 
+124–134.
+13. Mylotte D, Osnabrugge RLJ, Martucci GJ, 
+Lange R, Kappetein AP, Piazza N. Failing surgical 
+bioprosthesis in aortic and mitral position. Euro-
+Intervention. 2013;9:S77–S83.
+14. Jones JM, O’Kane H, Gladstone DJ, et al. 
+Repeat heart valve surgery: risk factors for oper-
+ative mortality. J Thorac Cardiovasc Surg. 
+2001;122:913–918.
+15. Akins CW, Buckley MJ, Daggett WM, et al. Risk 
+of reoperative valve replacement for failed mitral 
+and aortic bioprostheses. Ann Thorac Surg. 
+1998;65:1545–1551. discussion 1551-2.
+16. Mengi S, Januzzi JL Jr, Cavalcante JL, et al. 
+Aortic stenosis, heart failure, and aortic valve
+replacement. JAMA Cardiol. 2024;9(12):1159– 
+1168.
+17. Zahid S, Ullah W, Hashem AM, et al. Trans-
+catheter valve-in-valve implantation versus redo 
+surgical mitral valve replacement in patients with 
+failed mitral bioprostheses. EuroIntervention. 
+2022;18:824–835.
+18. Farjat-Pasos J, Ibrahim R, Sathananthan J, et al. 
+Sensor-guided transcatheter aortic valve replace-
+ment. J Invasive Cardiol. Published online February 
+9, 2024. https://doi.org/10.25270/jic/23.00242
+19. Rodés-Cabau J, Ibrahim R, De Larochellière R, 
+et al. A pressure wire for rapid pacing, valve im-
+plantation and continuous haemodynamic moni-
+toring during transcatheter aortic valve implantation 
+procedures. EuroIntervention. 2022;18:e345–e348.
+20. Yoon S-H, Whisenant BK, Bleiziffer S, et al. 
+Outcomes of transcatheter mitral valve replace-
+ment for degenerated bioprostheses, failed 
+annuloplasty rings, and mitral annular calcifica-
+tion. Eur Heart J. 2018;40:441–451.
+21. Rodés-Cabau J, Abbas AE, Serra V, et al. 
+Balloon-vs self-expanding valve systems for 
+failed small surgical aortic valve bioprostheses. 
+J Am Coll Cardiol. 2022;80:681–693.
+KEY WORDS bioprosthetic valve failure, 
+SavvyWire, simultaneous transcatheter valve 
+replacement, transcatheter aortic valve 
+replacement, transcatheter mitral valve 
+replacement, valve-in-valve
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 1 , 2 0 2 5 
+Mengi et al 
+J U L Y 3 0 , 2 0 2 5 : 1 0 4 3 4 5
+Simultaneous ViV-TAVR and TMVR With SavvyWire
+9

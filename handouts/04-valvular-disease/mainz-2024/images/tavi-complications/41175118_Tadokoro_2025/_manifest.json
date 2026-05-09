@@ -1,0 +1,62 @@
+{
+  "pdf": "41175118_Tadokoro_2025.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1649,
+      "height": 2087,
+      "ext": "png",
+      "bytes": 1954062
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 713,
+      "height": 1245,
+      "ext": "png",
+      "bytes": 581584
+    },
+    {
+      "file": "fig-03_p5.png",
+      "page": 5,
+      "width": 1694,
+      "height": 938,
+      "ext": "png",
+      "bytes": 245705
+    },
+    {
+      "file": "fig-04_p6.png",
+      "page": 6,
+      "width": 1694,
+      "height": 1515,
+      "ext": "png",
+      "bytes": 3761455
+    },
+    {
+      "file": "fig-05_p7.png",
+      "page": 7,
+      "width": 1649,
+      "height": 902,
+      "ext": "png",
+      "bytes": 142346
+    },
+    {
+      "file": "fig-06_p7.png",
+      "page": 7,
+      "width": 1336,
+      "height": 1081,
+      "ext": "png",
+      "bytes": 1486284
+    },
+    {
+      "file": "fig-07_p8.png",
+      "page": 8,
+      "width": 1379,
+      "height": 762,
+      "ext": "png",
+      "bytes": 109169
+    }
+  ]
+}

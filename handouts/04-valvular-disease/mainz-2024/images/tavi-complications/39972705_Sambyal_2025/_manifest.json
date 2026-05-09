@@ -1,0 +1,30 @@
+{
+  "pdf": "39972705_Sambyal_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1346,
+      "height": 636,
+      "ext": "jpeg",
+      "bytes": 154481
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1346,
+      "height": 593,
+      "ext": "jpeg",
+      "bytes": 140972
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1346,
+      "height": 588,
+      "ext": "jpeg",
+      "bytes": 179072
+    }
+  ]
+}

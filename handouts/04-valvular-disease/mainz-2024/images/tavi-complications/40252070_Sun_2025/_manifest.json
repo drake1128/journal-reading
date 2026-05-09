@@ -1,0 +1,38 @@
+{
+  "pdf": "40252070_Sun_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1943,
+      "height": 944,
+      "ext": "jpeg",
+      "bytes": 411837
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 1037,
+      "ext": "jpeg",
+      "bytes": 366292
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1950,
+      "height": 643,
+      "ext": "jpeg",
+      "bytes": 145523
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1350,
+      "height": 1349,
+      "ext": "jpeg",
+      "bytes": 201720
+    }
+  ]
+}
