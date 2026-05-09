@@ -1,0 +1,602 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CASE REPORT: HOW WE DID IT
+LAVA-ECMO–Supported Dual-
+Transcatheter Aortic and Mitral Valve-in-
+Valve Replacement in Cardiogenic Shock
+Jonathan X. Fang, MBBS,a,b Gennaro Giustino, MD,a Dimitrios Apostolou, MD,a James C. Lee, MD,a
+Dee Dee Wang, MD,a Pedro Engel Gonzalez, MD,a Brian P. O’Neill, MD,a Tiberio M. Frisoli, MD,a
+William W. O’Neill, MD,a Pedro A. Villablanca, MDa
+ABSTRACT
+OBJECTIVES Mechanical circulatory support is often challenging in patients with cardiogenic shock secondary to
+valvular heart disease because of challenging device placement, decreased efﬁcacy, the need for a concomitant device for
+left ventricular unloading, or contraindications. Left atrial venoarterial-extracorporeal membranous oxygenation (LAVA-
+ECMO) is an emerging technique to achieve simultaneous ventricular unloading and circulatory support unaffected by
+valvular disease. The use of LAVA-ECMO for high-risk transcatheter valvular replacement has not been described.
+KEY STEPS We describe the case of a patient with cardiogenic shock resulting from dual aortic and mitral bioprosthetic
+degeneration who was treated with LAVA-ECMO–supported dual-transcatheter aortic and mitral valve-in-valve
+replacement.
+POTENTIAL PITFALLS Among many precautions worth mentioning, operators should be aware of the care and ad-
+justments of the ECMO circuit required during transcatheter valvular replacement to achieve technical success without
+complications. The importance of a careful case planning in a multidisciplinary heart team meeting cannot be
+overemphasized.
+TAKE-HOME MESSAGE LAVA ECMO enables high-risk valvular replacement in patients in valvular cardiogenic
+shock. (JACC Case Rep. 2024;29:102564) © 2024 The Authors. Published by Elsevier on behalf of the American College
+of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/
+licenses/by-nc-nd/4.0/).
+C
+ardiogenic shock secondary to valvular dis-
+ease is difﬁcult to manage because of the
+limited options to provide adequate ventric-
+ular mechanical support and ventricular unloading.
+Venoarterial-extracorporeal
+membranous
+oxygena-
+tion (VA-ECMO) alone increases afterload and impairs
+myocardial recovery, and it often requires additional
+measures for a left ventricular unloading strategy,
+TAKE-HOME MESSAGES
+ LAVA-ECMO
+enables
+the
+performance
+of
+high-risk percutaneous valvular procedures
+that would otherwise not be feasible in pa-
+tients in cardiogenic shock who have no
+surgical options.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.102564
+From the aCenter for Structural Heart Disease, Henry Ford Health System, Detroit, Michigan, USA; and the bDivision of Cardiology,
+Department of Medicine, Queen Mary Hospital, University of Hong Kong, Hong Kong.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received June 18, 2024; revised manuscript received July 24, 2024, accepted August 9, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 2 9 , 2 0 2 4
+ª 2 0 2 4 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+such as the addition of a microaxial ﬂow
+pump in the left ventricle.1 Severe aortic
+insufﬁciency
+impairs
+the
+efﬁcacy
+of
+the
+microaxial ﬂow pump and contraindicates
+the use of an intra-aortic balloon pump. Left
+atrial
+venoarterial-extracorporeal
+membra-
+nous oxygenation (LAVA-ECMO)2-5 involves
+sending the outﬂow cannula across a trans-
+septal puncture to draw blood from left and
+right
+atria,
+thereby
+achieving
+mechanical
+support with simultaneous left- and right-
+sided heart unloading. For our case, we
+selected upfront LAVA-ECMO instead of con-
+ventional
+VA
+ECMO
+with
+the
+additional
+microaxial ﬂow pump because of the pa-
+tient’s severe aortic insufﬁciency and steno-
+sis. In addition to the apparent beneﬁt of
+achieving both ventricular unloading and
+mechanical circulatory support with a single device,
+this approach requires only 1 large-bore femoral arte-
+rial access instead of 2 large-bore accesses in the case
+for VA-ECMO and an additional microaxial pump.
+This approach therefore preserves the other femoral
+artery for upcoming valvular intervention.
+CASE SUMMARY
+A 68-year-old woman with degeneration of aortic
+(23
+Magna,
+Edwards
+Lifesciences)
+and
+mitral
+(27 Magna, Edwards Lifesciences) bioprostheses, both
+implanted 10 years earlier, presented in cardiogenic
+shock with severe aortic insufﬁciency and stenosis,
+severe mitral stenosis, a left ventricular ejection
+fraction of 15%, and cardiorenal syndrome. A trans-
+thoracic echocardiogram from an outside institution
+showed a transaortic mean gradient of 36 mm Hg and
+a transmitral mean gradient of 14 mm Hg. With pro-
+gressive cardiogenic shock on increasing doses of
+multiple inotropes, she was emergently transferred to
+the cardiac catheterization laboratory of our institu-
+tion for emergency mechanical circulatory support
+as
+a
+bridge
+to
+valvular
+intervention
+during
+the
+weekend. Cardiac catheterization revealed signiﬁ-
+cantly elevated biventricular ﬁlling pressures and
+conﬁrmed high transvalvular gradients (Figure 1)
+and a cardiac index of 1.28 L/min/m2. Mechanical
+circulatory
+support
+with
+LAVA-ECMO
+guided
+by
+intracardiac echocardiography (ICE) (Figures 2A to 2F,
+Video 1) enabled biventricular unloading and recov-
+ery of hemodynamics and renal function, followed
+by
+planning
+computed
+tomography
+(CT),
+which
+showed favorable anatomy—adequate femoral artery
+diameter for access, adequate aortic bioprosthesis-to–
+coronary artery distance indicating a low risk of sinus
+sequestration, and an adequate predicted neo-left
+ventricular outﬂow tract (LVOT) area indicating a
+low risk of LVOT obstruction. The Society of Thoracic
+Surgeons score predicted mortality rates of 49.5% and
+49.8% for isolated surgical aortic and mitral valve
+replacement, respectively, thus reﬂecting prohibitive
+surgical risk. We performed simultaneous percuta-
+neous dual valve-in-valve replacement with pre-
+fracture
+of
+the
+aortic
+bioprosthesis
+followed
+by
+transcatheter
+aortic
+valve
+replacement
+(TAVR),
+transcatheter mitral valve replacement (TMVR), and
+ECMO decannulation (Figures 3A to 3I and 4A to 4F).
+She was discharged home with outpatient rehabili-
+tation. At 1-month follow-up, she was ambulatory and
+free
+of
+symptoms.
+Follow-up
+echocardiography
+showed recovered ventricular and valvular function
+(Figures 4C to 4F).
+PROCEDURAL STEPS
+LAVA-ECMO. All
+accesses
+were
+obtained
+with
+ultrasound-guided
+micropunctures.
+Right
+internal
+jugular vein access with a leave-in pulmonary artery
+catheter was placed. Transseptal puncture was per-
+formed through the right femoral vein access with a
+Brockenbrough needle with a 300-mm Grand slam
+0.014-inch coronary wire (Asahi Intecc Medical) in-
+side the Brockenbrough needle guided by ICE from
+the left femoral vein (Figure 2A). To overcome a stiff
+septum, septostomy was performed with a 6-mm
+coronary balloon over the 0.014-inch wire, followed
+by upsizing to a 0.035-inch Amplatz extrastiff wire
+with a NaviCross microcatheter (Terumo Interven-
+tional Systems), and then septostomy with a 10-mm
+balloon followed by insertion of a 25-/23-F cannula
+(LivaNova) through the transseptal puncture with
+fenestrations of the cannula over both the left and
+right atria. Right femoral artery access was upsized to
+an 18-F DrySeal sheath with a hemostatic valve (Gore
+Medical). Inside the sheath, a 17-F ECMO return can-
+nula was inserted for arterial return at the aortoiliac
+junction. The return cannula was placed inside the
+sheath
+for
+better
+hemostasis
+and
+easier
+dec-
+annulation (Figure 2C). A 6-F right superﬁcial femoral
+artery antegrade access was obtained with insertion
+of a reperfusion sheath with an arrow metal-braided
+sheath. The ECMO circuit was started. There was
+signiﬁcant
+reduction
+of
+mean
+pulmonary
+artery
+pressure and pulmonary capillary wedge pressure,
+immediately indicating effective unloading of the left
+and right sides of the heart. The patient’s kidney
+function recovered over the weekend. CT showed no
+evidence of LVOT obstruction after TMVR (Figures 2D
+and 2E) or of coronary obstruction with TAVR.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+ASD = atrial septal defect
+ECMO = extracorporeal
+membrane oxygenation
+ICE = intracardiac
+echocardiography
+LAVA-ECMO = left atrial
+venoarterial-extracorporeal
+membrane oxygenation
+LVOT = left ventricular outﬂow
+tract
+TAVR = transcatheter aortic
+valve replacement
+TMVR = transcatheter mitral
+valve replacement
+VA-ECMO = venoarterial-
+extracorporeal membrane
+oxygenation
+Fang et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+LAVA-ECMO in TAVR and TMVR in Cardiogenic Shock
+O C T O B E R 2 , 2 0 2 4 : 1 0 2 5 6 4
+2
+
+=== PAGE 3 ===
+VISUAL SUMMARY. Schematic Diagram of Accesses and Setup for Left Atrial Venoarterial Extracorporeal Membrane Oxygenation, Transcatheter Aortic
+Valve Replacement, and Transcatheter Mitral Valve Replacement
+Baseline hemodynamics and the hemodynamic response to treatment are shown. Key equipment lists for each step of the procedure are as shown. AI/AS ¼ aortic
+insufﬁciency/aortic stenosis; ASD ¼ atrial septal defect; ECMO ¼ extracorporeal membranous oxygenation; iASD ¼ iatrogenic atrial septal defect; ICE ¼ intracardiac
+echocardiogram; IVC ¼ inferior vena cava; LAVA ¼ left atrial venoarterial; LFA ¼ left femoral artery; LFV ¼ left femoral vein; LRA ¼ left radial artery; LV ¼ left ventricle;
+LVEF ¼ left ventricular ejection fraction; MS ¼ mitral stenosis; PA ¼ pulmonary artery; RFA ¼ right femoral artery; RFV ¼ right femoral vein; RIJV ¼ right internal
+jugular vein; RRA ¼ right radial artery; RSFA ¼ right superﬁcial femoral artery; TAVR ¼ transcatheter aortic valve replacement; TEE ¼ transesophageal echocar-
+diogram; TMVR ¼ transcatheter mitral valve replacement; TR ¼ transradial; VA ¼ venoarterial.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Fang et al
+O C T O B E R 2 , 2 0 2 4 : 1 0 2 5 6 4
+LAVA-ECMO in TAVR and TMVR in Cardiogenic Shock
+3
+
+=== PAGE 4 ===
+DUAL VALVE-IN-VALVE TAVR WITH PREFRACTURE
+AND TMVR WITH PREDILATION. Valve implantation
+was performed as an inpatient staged procedure on
+the next week after a detailed case planning in a
+multidisciplinary heart team meeting. We deployed a
+sentinel embolic protection device (Boston Scientiﬁc)
+through a right radial artery access. A left radial artery
+access was used for the angiographic pigtail. A left
+FIGURE 1
+Overview: Aortic Valve, Mitral Valve, Tricuspid Valve, and Right-Sided Heart Catheterization
+LAVA-ECMO ¼ left atrial venoarterial-extracorporeal membrane oxygenation; Max ¼ maximum; PG ¼ pressure gradient; TEE ¼ transesophageal echocardiogram;
+TMVR ¼ transcatheter mitral valve replacement; V ¼ velocity; VTI ¼ velocity time integral.
+Fang et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+LAVA-ECMO in TAVR and TMVR in Cardiogenic Shock
+O C T O B E R 2 , 2 0 2 4 : 1 0 2 5 6 4
+4
+
+=== PAGE 5 ===
+femoral artery access was obtained and upsized to 14-
+F with placement of e-sheaths, preclosed with 2
+Percloses (Abbott Cardiovascular). We crossed the
+aortic valve with a straight-tip glide wire in an AL1
+diagnostic catheter while turning down the ECMO
+ﬂow to 3 L/min (Figure 3B), then switched to a Conﬁda
+circular-tip wire (Medtronic) in the left ventricle
+through a pigtail catheter. We fractured the aortic
+bioprosthesis with a 24-mm True Dilatation balloon
+(Becton Dickinson) pacing over the Conﬁda wire in
+the left ventricle at 180 beats/min (Figure 3C), and we
+then deployed a Sapien 3 23-mm Ultra Resilia valve
+(Edwards Lifesciences) at nominal pressure pacing
+over the Conﬁda wire at 180 beats/min and halting
+the ECMO ﬂow during pacing (Figure 3D). ECMO ﬂows
+were turned down to 2.5 L, followed by a trial of
+further reduction in ﬂow, which was unsuccessful.
+We decided to proceed to TMVR with the accesses as
+shown (Figure 3A). The patient was intubated, and a
+transesophageal echocardiogram (TEE) was obtained.
+We withdrew the LAVA-ECMO venous cannula
+from the transseptal position into the inferior vena
+cava,
+thus
+converting
+LAVA-ECMO
+to
+VA-ECMO,
+and then recrossed the septum with transseptal
+puncture guided by TEE. The left femoral vein ac-
+cess was upsized to a 16-F e-sheath. We decreased
+ECMO ﬂow to 1.5 L/min. Conversion to VA-ECMO
+aided
+mitral
+valve
+opening
+and
+crossing
+while
+decreasing ﬂow aimed for gradual weaning from
+ECMO.
+We
+crossed
+the
+mitral
+valve
+with
+a
+0.035-inch glidewire in an Agilis catheter (Abbott
+Cardiovascular) (Figure 3E) and exchanged it for a
+J-wire
+over
+a
+NaviCross
+microcatheter
+(Terumo
+Interventional Systems) and then a Conﬁda wire in
+a multipurpose guide. We predilated with a mitral
+valvuloplasty with a 28-mm True Dilatation balloon,
+which did showed a tiny
+waist (Figure 3F) and
+agreeing with the plan to use a 26 mm valve.
+We then performed septostomy with an 18-mm
+Atlas balloon (Becton Dickinson) (Figure 3G) to facil-
+itate delivery of a Sapien 3 Ultra Resilia 26 mm valve
+aided by introduction of of 1 mL of volume into the
+valve system during delivery of the system across the
+septum and the mitral valve, which eases delivery by
+FIGURE 2
+LAVA-ECMO and Work-Up
+(A to C) Transseptal puncture, septostomy, and placement of left atrial venoarterial-extracorporeal membrane oxygenation (LAVA-ECMO) cannulas. (D to F) Computed
+tomography analysis for femoral access, left ventricular outﬂow tract obstruction risk prediction, and aortic and mitral bioprosthetic dimensions. CAUD ¼ caudal;
+ICE ¼ intracardiac echocardiogram; LAO ¼ left anterior oblique; LVOT ¼ left ventricular outﬂow tract; Min ¼ minimum; RAO ¼ right anterior oblique;
+THV ¼ transcatheter heart valve.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Fang et al
+O C T O B E R 2 , 2 0 2 4 : 1 0 2 5 6 4
+LAVA-ECMO in TAVR and TMVR in Cardiogenic Shock
+5
+
+=== PAGE 6 ===
+a having a streamline tip (Figure 3H). The valve was
+deployed balloon at þ2 mL under rapid pacing at 180
+beats/min and a breath-hold (Figure 3I).
+The hemodynamic response to TAVR and TMVR
+and the setup for each step and key equipment list are
+shown in the Visual Summary.
+ECMO WEANING AND CLOSURE. In view of impaired
+right ventricular function with a bidirectional shunt
+across the iatrogenic atrial septal defect (ASD), we
+closed the defect with an Amplatzer ASD occluder
+device (Abbott Cardiovascular) (Figures 4A and 4B).
+We weaned the patient from ECMO, followed by
+decannulation. Hemostasis was obtained to the right
+femoral vein with ﬁgure-of-8 sutures, to the left
+femoral vein with 2 predeployed Percloses, to the
+right femoral artery with an 18-F Manta (Teleﬂex)
+guided
+by
+ﬂuoroscopy,
+to
+the
+right
+superﬁcial
+femoral artery with a 6-F Angio-Seal (Terumo Inter-
+ventional Systems), and to the left femoral artery
+with
+2
+predeployed
+Percloses
+(Abbott
+FIGURE 3
+ViV TAVR and TMVR
+(A) Accesses used for concomitant dual valve replacement. (B to D) Valve-in-valve transcatheter aortic valve replacement (TAVR) showing (B) valve crossing,
+(C) prefracture, and (D) valve deployment. (E to I) Valve-in-valve transcatheter mitral valve replacement (TMVR) with (E) valve crossing, (F) predilation,
+(G and H) septostomy and valve delivery, and (I) deployment. ECMO ¼ extracorporeal membrane oxygenation; LAVA ¼ left atrial venoarterial; LFA ¼ left femoral artery;
+LFV ¼ left femoral vein; LV ¼ left ventricle; PA ¼ pulmonary artery; RA ¼ right atrium; RFA ¼ right femoral artery; RFV ¼ right femoral vein; RSFA ¼ right superﬁcial
+femoral artery; RV ¼ right ventricle; TEE ¼ transesophageal echocardiogram; ViV ¼ valve-in-valve.
+Fang et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+LAVA-ECMO in TAVR and TMVR in Cardiogenic Shock
+O C T O B E R 2 , 2 0 2 4 : 1 0 2 5 6 4
+6
+
+=== PAGE 7 ===
+Cardiovascular). The left radial artery access was
+used to park an Armada balloon (Abbott Cardiovas-
+cular) in the external iliac artery for provisional
+balloon assistance during closure and for angio-
+graphic conﬁrmation of hemostasis (Figure 4B). He-
+mostasis to the radial arteries was achieved with
+transradial bands (TR Bands, Terumo Interventional
+Systems).
+POTENTIAL PITFALLS
+The LAVA-ECMO outﬂow cannula position should
+allow blood to be drawn from the left atrium and the
+right atrium simultaneously. A cannula with fenes-
+trations
+spread
+across
+a
+considerable
+length
+is
+required. In this case, we used the LivaNova 2-3/25-F
+cannula. Septostomy and delivery of the cannula was
+done over a stiff wire placed in the proximal left up-
+per pulmonary vein. Operators should be aware of the
+wire position to avoid vascular trauma. A midseptal
+location for transseptal puncture is preferred. Inad-
+vertent movement of the LAVA cannula should be
+avoided when securing the cannulas in the groin to
+avoid the accidental conversion of LAVA-ECMO to
+VA-ECMO.
+When performing percutaneous valvular replace-
+ment with LAVA-ECMO running, caution should be
+taken by interventionists and anesthesiologists when
+ﬂushing and using any venous accesses because the
+ECMO
+circuit
+could
+entrain
+air
+into
+the
+venous
+system.
+Turning down the ECMO ﬂow during and holding
+respiration on the ventilator can aid stable valve
+positioning
+during
+deployment.
+Temporarily
+decreasing the ECMO ﬂow during valve crossing eases
+the procedure by encouraging valve opening.
+TAVR could increase the risk of left ventricular
+outﬂow
+tract
+(LVOT)
+obstruction
+post
+TMVR
+by
+decreasing the neo-LVOT predicted.
+This should be considered during case planning.
+FIGURE 4
+Closure and Follow-Up Transthoracic Echocardiogram
+(A) Bidirectional shunt shown through the iatrogenic atrial septal defect (iASD) seen on a transesophageal echocardiogram. The iatrogenic atrial septal defect was
+closed with an Amplatzer atrial septal defect occluder (B). Extracorporeal membrane oxygenation (ECMO) decannulation and access closure with Manta, Angioseal and
+Perclose to the right common femoral artery (RCFA), right superﬁcial femoral artery (RSFA), and left common femoral artery (LCFA), respectively, with angiogram taken
+from the left radial artery. (C) The 1-month follow up echocardiogram showing a good hemodynamic result with no signiﬁcant aortic or mitral gradient. (E to F) There
+was persistent pulmonary hypertension. ViV ¼ valve-in-valve.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Fang et al
+O C T O B E R 2 , 2 0 2 4 : 1 0 2 5 6 4
+LAVA-ECMO in TAVR and TMVR in Cardiogenic Shock
+7
+
+=== PAGE 8 ===
+CONCLUSIONS
+This
+case
+illustrates
+the
+treatment
+of
+valvular
+cardiogenic stroke secondary to aortic and mitral
+bioprosthetic failure with LAVA-ECMO for hemody-
+namic support and ventricular unloading followed by
+transcatheter
+dual
+valve-in-valve
+replacement.
+Awareness of the techniques and potential pitfalls is
+crucial for performing this high-risk procedure.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Lee has served as a consultant for Edwards Lifesciences. Dr Wang
+has served as a consultant for Edwards Lifesciences, Abbott, and
+Boston Scientiﬁc. Dr B.P. O’Neill has served as a consultant to and has
+received research support from Edwards Lifesciences. Dr Frisoli has
+served
+as
+a
+proctor
+for
+Edwards
+Lifesciences,
+Abbott,
+Boston
+Scientiﬁc, and Medtronic. Dr W. O’Neill has served as a consultant for
+Abiomed, Edwards Lifesciences, Medtronic, Boston Scientiﬁc, Abbott
+Vascular, and St Jude Medical; and has served on the Board of Di-
+rectors of Neovasc. Dr Villablanca has served as a consultant for
+Edwards Lifesciences and Teleﬂex. All other authors have reported
+that they have no relationships relevant to the contents of this paper
+to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Jonathan X.
+Fang, Center for Structural Heart Disease, Henry Ford
+Hospital, 2799 West Grand Boulevard, Detroit, Mich-
+igan 48202, USA. E-mail: fangjonathan@gmail.com.
+OR Dr Pedro A. Villablanca, Center for Structural
+Heart Disease, Henry Ford Hospital, 2799 West Grand
+Boulevard, Detroit, Michigan 48202, USA. E-mail:
+pvillab1@hfhs.org.
+R E F E R E N C E S
+1. Bernard
+S,
+Deferm
+S,
+Bertrand
+PB.
+Acute
+valvular emergencies. Eur Heart J Acute Cardiovasc
+Care. 2022;11(8):653–665.
+2. Chiang M, Gonzalez PE, O’Neill BP, et al. Left
+atrial
+venoarterial
+extracorporeal
+membrane
+oxygenation for acute aortic regurgitation and
+cardiogenic shock. JACC Case Rep. 2022;4(5):276–
+279.
+3. Lemor A, Basir MB, O’Neill BP, et al. Left
+atrial-veno-arterial extracorporeal membrane
+oxygenation:
+step-by-step
+procedure
+and
+case
+example.
+Struct
+Heart.
+2022;6(6):
+100117.
+4. Phillip R, Howard J, Hawamdeh H, Tribble T,
+Gurley J, Saha S. Left atrial veno-arterial extracor-
+poreal membrane oxygenation case series: a single-
+center experience. J Surg Res. 2023;281:238–244.
+5. Villablanca P, Al-Darzi W, Boshara A, et al. Left
+atrial
+venoarterial
+extracorporeal
+membrane
+oxygenation for patients in cardiogenic shock and
+acute aortic regurgitation. JACC Cardiovasc Interv.
+2022;15(20):2112–2114.
+KEY WORDS cardiogenic shock, dual valve-
+in-valve replacement, ECMO, LAVA-TAVR,
+mechanical circulatory support, TMVR
+APPENDIX For a supplemental
+video, please see the online version of this
+paper.
+Fang et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+LAVA-ECMO in TAVR and TMVR in Cardiogenic Shock
+O C T O B E R 2 , 2 0 2 4 : 1 0 2 5 6 4
+8

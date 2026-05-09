@@ -1,0 +1,46 @@
+{
+  "pdf": "40118636_Golzarian_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 732,
+      "ext": "jpeg",
+      "bytes": 188022
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1694,
+      "height": 1572,
+      "ext": "jpeg",
+      "bytes": 475082
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1943,
+      "height": 792,
+      "ext": "jpeg",
+      "bytes": 286905
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 797,
+      "height": 771,
+      "ext": "jpeg",
+      "bytes": 96872
+    },
+    {
+      "file": "fig-05_p6.jpeg",
+      "page": 6,
+      "width": 1943,
+      "height": 854,
+      "ext": "jpeg",
+      "bytes": 465257
+    }
+  ]
+}

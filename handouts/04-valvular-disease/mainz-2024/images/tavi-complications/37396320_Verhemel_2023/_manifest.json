@@ -1,0 +1,70 @@
+{
+  "pdf": "37396320_Verhemel_2023.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1346,
+      "height": 938,
+      "ext": "jpeg",
+      "bytes": 246213
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1495,
+      "height": 1164,
+      "ext": "jpeg",
+      "bytes": 359575
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1495,
+      "height": 1392,
+      "ext": "jpeg",
+      "bytes": 254776
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1495,
+      "height": 662,
+      "ext": "jpeg",
+      "bytes": 139254
+    },
+    {
+      "file": "fig-05_p5.jpeg",
+      "page": 5,
+      "width": 1495,
+      "height": 757,
+      "ext": "jpeg",
+      "bytes": 134902
+    },
+    {
+      "file": "fig-06_p5.jpeg",
+      "page": 5,
+      "width": 1071,
+      "height": 900,
+      "ext": "jpeg",
+      "bytes": 280417
+    },
+    {
+      "file": "fig-07_p6.jpeg",
+      "page": 6,
+      "width": 1694,
+      "height": 998,
+      "ext": "jpeg",
+      "bytes": 198834
+    },
+    {
+      "file": "fig-08_p6.jpeg",
+      "page": 6,
+      "width": 1495,
+      "height": 1049,
+      "ext": "jpeg",
+      "bytes": 261473
+    }
+  ]
+}

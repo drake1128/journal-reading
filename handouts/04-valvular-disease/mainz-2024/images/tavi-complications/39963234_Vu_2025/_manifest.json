@@ -1,0 +1,30 @@
+{
+  "pdf": "39963234_Vu_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1694,
+      "height": 2181,
+      "ext": "jpeg",
+      "bytes": 603512
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1694,
+      "height": 2133,
+      "ext": "jpeg",
+      "bytes": 569136
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1495,
+      "height": 1544,
+      "ext": "jpeg",
+      "bytes": 233308
+    }
+  ]
+}

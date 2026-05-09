@@ -1,0 +1,38 @@
+{
+  "pdf": "40250941_Ghoneem_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1694,
+      "height": 1343,
+      "ext": "jpeg",
+      "bytes": 334854
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 1071,
+      "ext": "jpeg",
+      "bytes": 343830
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1495,
+      "height": 1202,
+      "ext": "jpeg",
+      "bytes": 267671
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1067,
+      "height": 1166,
+      "ext": "jpeg",
+      "bytes": 272926
+    }
+  ]
+}

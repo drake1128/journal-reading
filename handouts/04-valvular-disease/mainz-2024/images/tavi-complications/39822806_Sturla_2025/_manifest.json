@@ -1,0 +1,30 @@
+{
+  "pdf": "39822806_Sturla_2025.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1495,
+      "height": 1384,
+      "ext": "jpeg",
+      "bytes": 385363
+    },
+    {
+      "file": "fig-02_p5.jpeg",
+      "page": 5,
+      "width": 1495,
+      "height": 2242,
+      "ext": "jpeg",
+      "bytes": 588523
+    },
+    {
+      "file": "fig-03_p7.jpeg",
+      "page": 7,
+      "width": 1688,
+      "height": 2492,
+      "ext": "jpeg",
+      "bytes": 905289
+    }
+  ]
+}

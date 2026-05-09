@@ -1,0 +1,38 @@
+{
+  "pdf": "40645725_Jabagi_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1968,
+      "height": 809,
+      "ext": "jpeg",
+      "bytes": 424154
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1968,
+      "height": 686,
+      "ext": "jpeg",
+      "bytes": 138185
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1968,
+      "height": 600,
+      "ext": "jpeg",
+      "bytes": 204803
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1968,
+      "height": 514,
+      "ext": "jpeg",
+      "bytes": 206692
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pdf": "40645715_Pennacchi_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1948,
+      "height": 2057,
+      "ext": "jpeg",
+      "bytes": 510423
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 1880,
+      "ext": "jpeg",
+      "bytes": 513266
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1346,
+      "height": 1029,
+      "ext": "jpeg",
+      "bytes": 205259
+    }
+  ]
+}

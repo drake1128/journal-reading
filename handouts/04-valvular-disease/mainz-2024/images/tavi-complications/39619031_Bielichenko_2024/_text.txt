@@ -1,0 +1,511 @@
+
+=== PAGE 1 ===
+MINI-FOCUS ISSUE ON VALVULAR HEART DISEASE
+CASE REPORT: CLINICAL CASE
+Hybrid Approach to Post-Radiation
+Valve Disease
+Robotic Mitral Valve Replacement Alongside
+Transcatheter Aortic Valve Replacement
+Svitlana Bielichenko, MD,a Jagdip Kang, MD,a,b Nilay K. Patel, MD,c Nathaniel B. Langer, MD, MSC,a
+Serguei Melnitchouk, MD, MPHa
+ABSTRACT
+A 63-year-old woman with history of mediastinal radiation was admitted for decompensated heart failure due to severe
+post-radiation aortic and mitral valve disease. To reduce cardiopulmonary bypass time and postoperative pulmonary
+complications, she underwent a hybrid approach with robotic mitral valve replacement and transcatheter aortic valve
+replacement. (JACC Case Rep. 2024;29:102690) © 2024 The Authors. Published by Elsevier on behalf of the American
+College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.
+org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 63-year-old woman was admitted to Massachusetts
+General Hospital with worsening shortness of breath
+and dyspnea on exertion. She was diagnosed with
+hypoxic respiratory failure due to pulmonary edema
+and bilateral lower limb edema in the setting of
+decompensated congestive heart failure.
+PAST MEDICAL HISTORY
+The patient’s medical history includes non-Hodgkin
+lymphoma treated with mediastinal radiation at 20
+years of age, dyslipidemia, hypertension, and hypo-
+thyroidism. In 2020, the patient had a node-negative
+T3a melanoma resected from her back. During hos-
+pitalization in 2023, multiple bone lesions in the
+pelvis and tibia were found. However, the biopsy re-
+sults were negative for infection or malignancy.
+DIFFERENTIAL DIAGNOSIS
+The initial differential diagnoses included decom-
+pensated heart failure from degenerative valve dis-
+ease,
+rheumatic
+heart
+disease,
+or
+valve-related
+TAKE-HOME MESSAGES
+ This case illustrates the beneﬁt of a collab-
+orative heart team approach in high-risk and
+complex patients with double valve pathol-
+ogy (eg, those with radiation valve disease).
+ A hybrid approach to double valve replace-
+ment not only avoids sternotomy and re-
+duces cardiopulmonary bypass time, but also
+allows high-risk patients an earlier recovery
+and a faster return to an active lifestyle.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.102690
+From the aDivision of Cardiac Surgery, Massachusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA;
+bUniversity Department of Cardiac Surgery, Leipzig Heart Center, Leipzig, Germany; and the cDivision of Cardiology, Massa-
+chusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received July 26, 2024; revised manuscript received August 30, 2024, accepted September 4, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 2 9 , 2 0 2 4
+ª 2 0 2 4 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+cardiomyopathy. Considering the patient’s
+radiation history, the most likely diagnosis
+was acute on chronic decompensated heart
+failure
+due
+to
+radiation
+valvulitis
+and
+restrictive radiation-related cardiomyopathy.
+INVESTIGATIONS
+The patient’s transthoracic echocardiography
+and
+transesophageal
+echocardiography
+(TEE)
+demonstrated mixed aortic and mitral valve disease.
+Calciﬁc
+mitral
+stenosis
+had
+a
+mean
+gradient
+of
+10 mm Hg with mild annular calciﬁcation, whereas
+moderate calciﬁc aortic stenosis had a mean gradient
+of 28 mm Hg with severe regurgitation (Figure 1A). The
+left ventricular ejection fraction was reduced at 40%.
+The pulmonary function test revealed reduced
+forced expiratory volume in one second (FEV1) and
+FVC (forced vital capacity) with a normal FEV1/FVC
+ratio,
+suggesting
+a
+restrictive
+ventilatory
+deﬁcit.
+Chest radiograph showed no evidence of pneumonia,
+pleural effusion, or pulmonary edema. The size and
+contours of the heart and mediastinum were unre-
+markable, except for mural calciﬁcations throughout
+the aortic arch.
+MANAGEMENT
+The patient’s history of radiation exposure made her
+a
+high-risk
+candidate
+for
+extensive
+open-heart
+surgery, which would have required prolonged car-
+diopulmonary bypass (CPB) with a subsequent risk of
+recalcitrant
+pleural
+effusions
+and
+slow
+recovery
+(Table 1). Therefore, the patient was evaluated by a
+structural
+heart
+team
+for
+potential
+transcatheter
+mitral valve replacement and transcatheter aortic
+valve
+replacement (TAVR) procedures. Computed
+tomography angiography showed an aortic valve
+calcium score of 848 with involvement of the aorto-
+mitral continuity. The transthoracic echocardiogra-
+phy analysis revealed an acute aorto-mitral angle of
+120, which in the setting of the patient’s upper septal
+hypertrophy, signiﬁcantly increased the predicted
+risk of left ventricle outﬂow tract obstruction after
+transcatheter mitral valve replacement (Figure 1B).
+Therefore, the operative plan involved robotic
+mitral valve replacement via a right mini thoracotomy
+while addressing the aortic valve with a TAVR pro-
+cedure, thus reducing CPB time. After the patient’s
+induction, a right groin incision was made and both
+the right femoral artery and vein were cannulated
+using the Seldinger technique. A 6-cm right lateral
+mini-thoracotomy was performed over the fourth
+intercostal space, and robotic ports were placed. A
+cross clamp was applied, and the heart was arrested
+with antegrade and retrograde cardioplegia. Due to
+the presence of severe aortic insufﬁciency, a purse-
+string suture was placed around the coronary sinus
+ostium
+and
+retrograde
+cardioplegia
+catheter
+was
+FIGURE 1
+Preoperative Multimodal Imaging
+(A) Preoperative transesophageal echocardiography demonstrating severe aortic regurgitation. (B) Preoperative computed tomography angiography image of simu-
+lated transcatheter mitral valve replacement indicating high risk of left ventricle outﬂow tract obstruction.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+CPB = cardiopulmonary bypass
+POD = postoperative day
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiography
+Bielichenko et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Hybrid Approach to Double Valve Replacement
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 9 0
+2
+
+=== PAGE 3 ===
+pulled back to optimize biventricular myocardial
+protection.
+Once the heart had arrested, the left atrium was
+opened via Sondergaard’s groove. On inspection,
+mild
+posterior
+mitral
+annular
+calciﬁcation
+was
+observed along with diffusely calciﬁed anterior and
+posterior leaﬂets, consistent with radiation valve
+disease (Figure 2A). The anterior leaﬂet was resected
+in preparation for valve replacement. A 27-mm Abbott
+Epic porcine tissue valve was implanted in a standard
+fashion (Figure 2B).
+The patient was successfully weaned from CPB,
+and the valve was found to be competent on the post-
+bypass TEE. Mini-thoracotomy was closed in a stan-
+dard fashion, and the patient was decannulated from
+the peripheral CPB. The total aortic clamp time was
+158 minutes, and the CPB time was 362 minutes.
+Then, a transfemoral TAVR procedure was performed
+in a standard fashion deploying a 23-mm Edwards
+SAPIEN RESILIA tissue valve under rapid ventricular
+pacing (Figure 3A).
+Final
+postoperative
+TEE
+conﬁrmed
+well-seated
+mitral valve bioprosthesis without any paravalvular
+leaks. Peak and mean gradients were 5 and 3 mm Hg,
+respectively. TEE also conﬁrmed a good position of
+the
+TAVR
+with no
+signiﬁcant paravalvular
+leaks
+(Figure 3B). Peak and mean gradients were measured
+at 7 and 4 mm Hg, respectively. The patient was
+transferred to the intensive care unit in a stable
+condition.
+Postoperatively, the patient recovered well and
+was transferred from the intensive care unit to a step-
+down unit on postoperative day (POD) 4. Prior to
+transfer,
+right-sided
+pleural
+chest
+tubes
+were
+removed without return of pleural effusions. On POD
+7, the patient underwent pacemaker implantation
+due to a widening left bundle branch block in the
+setting of the ﬁrst-degree atrioventricular block. The
+patient continued to recover well and was discharged
+home on POD 10.
+Early postoperative transthoracic echocardiogra-
+phy showed well-seated valves with trivial posterior
+paravalvular leak around the implanted TAVR. Peak
+and mean gradients of the aortic valve bioprosthesis
+were measured at 19 and 9 mm Hg, whereas peak and
+mean transmitral gradients were 10 and 5 mm Hg,
+respectively. The left ventricle outﬂow tract velocity
+was initially measured at 1.5 m/s and it reduced itself
+to 1.1 m/s on a follow-up echocardiography. Left
+ventricular ejection fraction had improved from 40%
+TABLE 1
+Examples of Selection Criteria for Candidates for
+Hybrid Double Valve Replacement
+Patient with radiation valvulitis
+High-risk patients requiring double valve replacement
+Redo sternotomy cases with technically challenging re-entry
+FIGURE 2
+Surgical Images of Mitral Valve Replacement
+(A) Intraoperative image of the mitral valve consistent with radiation valvulitis. (B) Implanted mitral valve bioprosthesis (27-mm Abbott Epic
+Porcine Valve).
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Bielichenko et al
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 9 0
+Hybrid Approach to Double Valve Replacement
+3
+
+=== PAGE 4 ===
+to 55%. At 1-month follow-up, both bioprostheses
+were functioning well. Follow-up chest radiograph
+showed trace right and mild left pleural effusions,
+which appeared improved (Figure 4). The patient was
+asymptomatic, resumed work as an accountant, and
+had no hospital readmissions since the discharge.
+DISCUSSION
+Extensive
+mediastinal
+radiation
+therapy
+used
+in
+treating
+Hodgkin
+and
+non-Hodgkin
+lymphomas
+signiﬁcantly
+increases
+the
+risk
+of
+cardiovascular
+disease. This can result in delayed onset of coronary
+artery disease, cardiomyopathy, conduction abnor-
+malities, pericardial constriction, and mixed valvular
+heart dysfunctions, collectively known as radiation
+valvulitis.1 Radiation also affects aortomitral curtain
+and aorta, leading to its signiﬁcant calciﬁcation.
+Similar effects, although to a lesser extent, may occur
+with radiation therapy for breast and other thoracic
+malignancies.
+Radiation exposure to the heart triggers ﬁbroblast
+stimulation leading to increased collagen deposition,
+osteoblast-like differentiation, and calcium deposi-
+tion. Despite the heart’s anterior position, studies
+indicate a higher incidence of left-sided valvular
+disease, implicating factors like ﬂow dynamics and
+pressure alongside radiation dose.2 Fibrotic changes
+in the mediastinum contribute to restrictive lung
+disease,
+complicating
+surgical
+management
+and
+prognosis. Radiation-induced pleural effusion, driven
+by
+pulmonary
+ﬁbrosis,
+vascular
+changes,
+and
+lymphatic obstruction, is a serious complication.
+Extensive calciﬁcation, especially in critical areas like
+the aorto-mitral curtain, raises operative complexity
+and mortality risk. Patients undergoing double valve
+replacement,
+possibly
+with
+aortomitral
+curtain
+reconstruction, often face prolonged recovery and
+recurrent
+pleural
+effusions
+due
+to
+compromised
+lymphatic drainage.3
+After radiation therapy, guidelines recommend
+undergoing functional noninvasive stress tests and
+FIGURE 3
+Transcatheter Aortic Valve Replacement Deployment
+(A) Deployed transcatheter aortic valve replacement (TAVR) (23-mm Edwards SAPIEN 3 Ultra RESILIA Valve) alongside the implanted bio-
+prosthetic mitral valve replacement. (B) Postoperative transesophageal echocardiography demonstrating no signiﬁcant paravalvular leak
+after TAVR deployment.
+FIGURE 4
+Postoperative Radiograph
+Bielichenko et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Hybrid Approach to Double Valve Replacement
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 9 0
+4
+
+=== PAGE 5 ===
+echocardiograms every 5 to 10 years, with more
+frequent assessments if symptoms or concerning in-
+dications arise sooner.
+In terms of surgical management, formal guide-
+lines are lacking due to limited data for robust anal-
+ysis. However, recent studies have directly compared
+outcomes
+after
+TAVR
+and
+surgical
+aortic
+valve
+replacement in the post-radiation patient population.
+The ﬁndings commonly demonstrate lower mortality,
+postoperative complications, and length of stay with
+TAVR.
+This
+is
+predominantly
+attributed
+to
+poor
+wound healing in surgical aortic valve replacement
+and the necessity for concomitant procedures after-
+ward (eg, coronary artery bypass grafting).4,5
+According to the 2020 American Heart Association/
+American
+College
+of
+Cardiology
+guidelines6
+on
+valvular heart disease, expanded eligibility criteria
+for TAVR have been presented, making TAVR a
+feasible alternative for high-, intermediate-, and low-
+risk patients as opposed to surgical aortic valve
+replacement.
+CONCLUSIONS
+Double valve replacement in the setting of post-
+radiation
+valvulitis
+is
+associated
+with
+a
+high
+surgical risk and can lead to a complicated and
+prolonged
+postoperative
+recovery.
+Post-radiation
+patients tend to have recalcitrant pulmonary effu-
+sions after a long CPB run.7,8 Therefore, staging such
+a lengthy operation into a mitral valve replacement
+via a right mini-thoracotomy approach followed by a
+TAVR can signiﬁcantly reduce CPB time. It should
+then decrease the risk of intractable pleural effu-
+sions postoperatively and allow an earlier discharge
+and return to an active lifestyle. In summary, pa-
+tients with a high surgical risk and unsuitable anat-
+omy for a complete interventional approach can be
+treated using the presented hybrid approach, while
+decreasing
+surgical
+trauma
+and
+enabling
+quick
+recovery.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr
+Serguei
+Melnitchouk, Mass General Heart Center: Cardiac
+Surgery, 55 Fruit Street, Boston, Massachusetts 02114,
+USA. E-mail: smelnitchouk@mgh.harvard.edu.
+R E F E R E N C E S
+1. Brown JA, Aranda-Michel E, Kilic A, et al. Impact
+of thoracic radiation on patients undergoing car-
+diac
+surgery.
+Semin
+Thorac
+Cardiovasc
+Surg.
+2022;34(1):136–143.
+2. Lee C, Hahn R T. Valvular heart disease associ-
+ated with radiation therapy: a contemporary re-
+view. Struct Heart. 2022;7(2):100104.
+3. Salz T, Zabor EC, De Nully Brown P, et al. Car-
+diovascular risk factors, radiation therapy, and
+myocardial infarction among lymphoma survivors.
+Acta Oncologica. 2022;61(9):1064–1068.
+4. Belzile-Dugas
+E,
+Eisenberg
+MJ.
+Radiation-
+induced
+cardiovascular
+disease:
+review
+of
+an
+underrecognized pathology. J Am Heart Assoc.
+2021;10:21686.
+5. Yazdchi F, Hirji SA, Nohria A, et al. Transcatheter
+compared with surgical aortic valve replacement in
+patients with previous chest-directed radiation
+therapy. JACC CardioOncol. 2021;3(3):397–407.
+6. Otto
+CM,
+Rick
+Nishimura
+CCA,
+Robert
+Bonow CCO, et al. 2020 ACC/AHA Guideline for
+the Management of Patients With Valvular Heart
+Disease: A Report of the American College of
+Cardiology/American
+Heart
+Association
+Joint
+Committee on Clinical Practice Guidelines. J Am
+Coll Cardiol. 2021;77(4):e25–e197.
+7. Belzile-Dugas E, Fremes SE, Eisenberg MJ. Ra-
+diation-induced aortic stenosis: an update on
+treatment
+modalities.
+JACC
+Adv.
+2023;2(1):
+100163.
+8. Nauffal V, Bay C, Shah PB, et al. Short-term
+outcomes of transcatheter versus isolated surgical
+aortic valve replacement for mediastinal radiation-
+associated severe aortic stenosis. Circ Cardiovasc
+Interv. 2021;14(2):E010009.
+KEY WORDS post-radiation valvulitis,
+robotic mitral valve surgery, TAVR
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Bielichenko et al
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 9 0
+Hybrid Approach to Double Valve Replacement
+5

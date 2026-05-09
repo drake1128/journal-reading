@@ -1,0 +1,588 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+HOW WE DID IT
+Prediction of Prosthetic Heart Valve
+Interaction During Transcatheter
+Double-Valve Replacement Using
+a Bench Model
+Vasu Nandhakumar, MD, DNB, FNB, Aashish Chopra, MD, DM, Vignesh Gomathinayagam, MD, DNB, FNB,
+Mullasari S. Ajit, MD, DM
+ABSTRACT
+Transcatheter aortic valve replacement in the presence of a preexisting bioprosthetic mitral valve can lead to signiﬁcant
+interaction of the valves. Simultaneous transcatheter aortic valve and mitral valve deployment using balloon-expandable
+systems further complicates the interaction. We describe preprocedural computed tomography planning using novel
+parameters and bench tests to predict these interactions and their clinical signiﬁcance. On the basis of the available
+anecdotal evidence, we propose a new classiﬁcation system for the various types of interactions. (JACC Case Rep.
+2025;30:103370) © 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+T
+ranscatheter aortic valve replacement (TAVR)
+with a preexisting bioprosthetic mitral valve
+(BPMV) is an exclusion criterion in landmark
+trials because of the possibility of an interaction of
+the
+transcatheter
+aortic
+valve
+(TAV)
+with
+the
+BPMV.1,2 Amat-Santos et al3 studied the interaction
+of a mechanical mitral valve and a BPMV while per-
+forming TAVR. TAVR device embolization was seen
+in 6.7% of the procedures as a result of its interaction
+with BPMV. Here we describe step-by-step procedural
+planning to predict prosthetic valve interactions by
+using novel computed tomography (CT) parameters
+and bench model simulations from 3 patients who
+underwent simultaneous TAVR and mitral valve-in-
+valve (M-ViV) implantation.
+CASE SUMMARY
+All 3 patients with native severe aortic stenosis (AS)
+and a degenerated BPMV were deemed high risk for
+open
+heart
+surgery
+(mean
+European
+System
+for
+Cardiac Operative Risk Evaluation II [EuroSCORE II]:
+21.7  15.21) by a heart team and were scheduled for
+simultaneous TAVR and M-ViV implantation. These
+patients had NYHA functional class III or IV symp-
+toms. The degenerated BPMV had been implanted
+140  60.75 months earlier. All 3 patients had right
+TAKE-HOME MESSAGES
+ Combined transcatheter aortic and mitral
+valve replacement using the currently avail-
+able BE platforms may lead to valve
+interactions.
+ CT measurements between the aVBR, the
+BPMV sewing ring, and its posts are para-
+mount to perform transcatheter left-sided
+DVR safely.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103370
+From the Department of Cardiology, Institute of Cardio-Vascular Diseases, The Madras Medical Mission Hospital, Chennai, India.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received November 30, 2024; accepted January 6, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 8 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+ventricular dysfunction, and 2 of them had
+additional left ventricular dysfunction. The
+operators decided to perform a simultaneous
+double-valve replacement (DVR) rather than
+taking a sequential approach in all 3 patients
+because leaving 1 valve unaddressed could
+lead to potential hemodynamic consequences
+in the presence of left or right ventricular
+dysfunction.
+PROCEDURAL STEPS
+CASE 1. According to the CT assessment, the
+distance between the aortic virtual basal ring
+(aVBR) and the degenerated 27-mm Biocor (St
+Jude Medical) BPMV sewing ring was 3.1 mm,
+thus
+mandating
+TAV
+deployment
+with
+a
+precise 1- to 3-mm depth to avoid interac-
+tion. The operators hence decided to choose
+the balloon-expandable (BE) platform for TAVR. The
+M-ViV procedure was planned with a BE platform.
+If TAVR is performed after M-ViV implantation, the
+balloon of the BE TAV will compress the transcatheter
+mitral valve (TMV) stent frame. If self-expandable
+(SE) TAV is used after M-ViV, it will not interact
+with the TMV frame, but if predilation or post-
+dilatation is required, then the balloon will compress
+the TMV frame. Hence, a TAVR ﬁrst and M-ViV sec-
+ond approach is ideal with either of these TAV plat-
+forms. During BE TAVR, balloon interaction with the
+projected BPMV post into the left ventricular outﬂow
+tract (LVOT) is possible. To predict this in our cases,
+the following novel CT parameters (Table 1) were
+measured: the aVBR to BPMV sewing ring distance
+(3.1 mm) (Figure 1A); the distance between aVBR and
+BPMV near the post (8.3 mm) (Figure 1B); the BPMV
+post
+to
+interventricular
+septum
+(IVS)
+distance
+(13.5
+mm)
+(Figure
+1C);
+the
+BPMV
+post
+position,
+VISUAL SUMMARY
+Classiﬁcation of Left-Sided Prosthetic Valve Interactions
+M1: The projected transcatheter aortic valve (TAV) balloon in the left ventricular outﬂow tract (LVOT) is aligned between the 2 lateral anterior posts (favorable
+bioprosthetic mitral valve [BPMV] post position) and stretching these posts during the inﬂation. The stretched posts recover to their original position when deﬂating
+the TAV balloon. M2: The projected TAV balloon in the LVOT is bending an unfavorable central anterior post of the BPMV that returns to its original shape when
+deﬂating the TAV balloon. M3: The projected TAV balloon in the LVOT irreversibly compresses the transcatheter mitral valve (TMV) stent frame. This can affect TMV
+function or lead to TMV embolization. A1: The TAV system interacts with the projected anterior part of the BPMV sewing ring at the aortomitral continuity. This may
+lead to migration of the TAV into the aorta or aortic paravalvular leak.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+aVBR = aortic virtual basal ring
+AS = aortic stenosis
+BE = balloon-expandable
+BPMV = bioprosthetic mitral
+valve
+CT = computed tomography
+DVR = double-valve
+replacement
+IVS = interventricular septum
+LVOT = left ventricular outﬂow
+tract
+M-ViV = mitral valve-in-valve
+SE = self-expandable
+TAV = transcatheter aortic
+valve
+TAVR = transcatheter aortic
+valve replacement
+TMV = transcatheter mitral
+valve
+Nandhakumar et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Transcatheter DVR planning: Step-by-Step
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+2
+
+=== PAGE 3 ===
+TABLE 1
+CT Analysis for Transcatheter Double-Valve Replacement
+Case 1
+Case 2
+Case 3
+Aortic valve
+Morphology
+Tricuspid
+Tricuspid
+Type 1 bicuspid, R-L
+Annulus area, mm2
+374.3
+279.1
+679.1
+Annulus area-derived diameter
+22.2
+18.9
+29.4
+Mitral bioprosthetic valve
+Name of valve
+Biocor (St Jude Medical)
+Mosaic (Medtronic)
+Perimount (Edwards Lifesciences)
+Labeled size, mm
+27
+25
+27
+Inner area, mm2
+460.6
+337.4
+489.3
+Area-derived inner diameter, mm
+24.2
+20.7
+25.0
+Aortomitral inverse angle, 
+106.9
+111
+112.3
+Neo-LVOT area at end-systole, mm2 (80:20 simulation)
+251.4
+268.8
+368.6
+Novel CT parameters to predict interaction
+aVBR to BPMV near post distance, mm
+8.3
+6.1
+8.6
+aVBR to BPMV sewing ring distance, mm
+3.1
+5.5
+3.6
+BPMV post position relation to LVOT
+Favorable lateral anterior
+Unfavorable
+Central anterior
+Favorable lateral anterior
+BPMV post-IVS distance, mm
+13.5
+9.8
+10.6
+Mean BPMV Interpost distance, mm
+15.23
+20.73
+18.46
+aVBR ¼ aortic virtual basal ring; BPMV ¼ bioprosthetic mitral valve; CT ¼ computed tomography; IVS ¼ interventricular septum; LVOT ¼ left ventricular outﬂow tract;
+R-L ¼ raphe between the right and left coronary cusps.
+FIGURE 1
+Computed Tomography Predictors of Prosthetic Valve Interaction for Case 1
+(A) Virtual basal ring to bioprosthetic mitral valve sewing ring distance. (B) Virtual basal ring to bioprosthetic mitral valve near post distance. (C) Bioprosthetic mitral
+valve post to interventricular septum distance. (D) Bioprosthetic mitral valve interpost distance (arrows). (E) Aortomitral angle. (F) Schematic illustration of a 23-mm
+Meril Navigator balloon interacting with the anterior bioprosthetic mitral valve posts (arrows).
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Nandhakumar et al
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+Transcatheter DVR planning: Step-by-Step
+3
+
+=== PAGE 4 ===
+according to its favorability or not; and the mean
+BPMV interpost distance (15.23 mm) (Figure 1D). The
+steps for measuring these parameters are elaborated
+in Supplemental Figures 1 to 4.
+We simulated the interaction using a bench model.
+The bench model was created using the CT aortomi-
+tral angle (Figure 1E), the aVBR to BPMV near post
+distance, the aVBR to BPMV sewing ring distance, and
+favorable lateral anterior BPMV posts (Figure 1F). This
+patient had a 27-mm degenerated Biocor mitral valve.
+A 27-mm explanted degenerated Biocor valve from a
+different patient during redo -surgery was used in the
+bench model. The Biocor valve sewing ring and posts
+are ﬂexible and deﬂectable, as are all contemporary
+surgical bioprosthetic valves (Figures 2A and 2B).
+According to the CT measurements, the operators
+planned a 23-mm Myval valve (Meril) for AS. Hence a
+23-mm Navigator balloon (Meril) was inﬂated in the
+bench model’s LVOT. It aligned between the 2 lateral
+anterior posts of the mitral Biocor valve during the
+initial three-fourths of the inﬂation. During the ﬁnal
+one-fourth of the inﬂation, it stretched the posts for a
+moment without damaging them (Figures 3A to 3D).
+The 23-mm balloon stretched the posts during full
+inﬂation because the distance between the posts was
+only 20.8 mm. The posts were back to their position
+immediately after the deﬂation.
+CASE 2. The CT analysis (Table 1) showed an unfa-
+vorable central anterior post of a degenerated 25-mm
+Mosaic (Medtronic) BPMV projecting into the LVOT
+(Figure 4A). With the novel CT parameters as shown
+in Figures 4A to 4D, CT simulation revealed a signiﬁ-
+cant interaction of the balloon of a BE TAV with the
+unfavorable anterior post. The transthoracic echo-
+cardiogram and ﬂuoroscopic images show the pro-
+jecting central anterior post in the way of the TAV
+balloon (Figures 4E and 4F). A bench model was
+created in line with the CT measurements as in the
+previous case, with an explanted 27-mm degenerated
+Hancock II valve (Medtronic) from a different patient
+during redo surgery (Figures 5A and 5B). At the time
+FIGURE 2
+Flexibility and Deﬂectability of the Sewing Ring and Posts of a Biocor and a Hancock II Valve
+(A) Manual compression test of an explanted 27-mm Biocor valve (St Jude Medical). Clockwise from the 3-o’clock position, horizontal sewing ring compression, vertical
+sewing ring compression, compression of all 3 posts, and recovery to the normal shape are shown. (B) Compression test by Mayo towel clip forceps of a 27-mm
+Hancock II valve (Medtronic). Clockwise from the 3-o’clock position, without compression, vertical compression, horizontal compression, and returning to normal shape
+are shown. The central image shows the coplanar view of the valve.
+Nandhakumar et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Transcatheter DVR planning: Step-by-Step
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+4
+
+=== PAGE 5 ===
+of bench testing, an explanted Mosaic valve was
+unavailable;
+hence
+the
+ﬂuoroscopically
+closely
+mimicking Hancock II valve was chosen for the bench
+test. The planned TAV was a 21.5-mm Myval Octacor
+valve (Meril). For safety purposes, a 23-mm (1.5-mm
+higher than the valve size) Navigator balloon was
+inﬂated over 20 seconds in the LVOT of the bench
+model. A clear bending of the central anterior post
+toward the center of the valve was noted during the
+second half of inﬂation; the post returned to its
+original
+position
+immediately
+after
+deﬂation
+(Figures 5C to 5F).
+CASE 3. The CT analysis (Table 1, Figures 6A to 6H)
+showed favorable lateral anterior posts of a degen-
+erated
+27-mm
+Perimount
+(Edwards
+Lifesciences)
+BPMV in the LVOT. However, the BPMV post to IVS
+distance was only 10.6 mm, and the mean BPMV
+interpost distance was 18.46 mm. The operators
+planned to use a 29-mm Myval valve for TAVR. We
+FIGURE 3
+Bench Test for Case 1
+Transcatheter aortic valve balloon interacting with a 27-mm Biocor mitral valve (St Jude Medical) posts in a favorable position.
+(A) Fluoroscopy image of a 27-mm Biocor valve. (B) Bench model shows a sewn Biocor valve at the mitral position with favorable 2 lateral
+anterior posts (arrows) on either side of the left ventricular outﬂow tract (star). This model was created with the computed tomography
+parameters given in Figure 1. (C) At the beginning of the inﬂation of a 23-mm transcatheter aortic valve balloon in the left ventricular
+outﬂow tract, it was ﬁt between the 2 lateral anterior posts (arrows). (D) At full inﬂation of the balloon, stretching of the lateral anterior
+posts was seen (arrows) because the interpost distance between them was 20.8 mm.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Nandhakumar et al
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+Transcatheter DVR planning: Step-by-Step
+5
+
+=== PAGE 6 ===
+did not conduct a bench test this time. However, from
+these CT measurements, and on the basis of the
+previous 2 bench tests, we concluded that a 29-mm
+TAV balloon would lead to reversible stretching of
+the posts.
+PROSTHETIC VALVE INTERACTION TYPES
+We propose a new classiﬁcation system for prosthetic
+valve interactions. Two broad types of interactions
+are possible: type M and type A. A BPMV or TMV
+affected by a TAV system is proposed as a type M
+interaction, and a TAV affected by a BPMV or TMV is
+proposed as a type A interaction. Type M is further
+subclassiﬁed
+into
+M1,
+M2,
+and
+M3.
+Reversible
+stretching of the BPMV posts by the TAV balloon
+projecting into the LVOT is type M1. Reversible
+bending of the BPMV posts by the LVOT balloon is
+type M2. Compression of the TMV stent frame by the
+TAV balloon is type M3. Both type M1 and type M2 can
+be seen during TAVR in the presence of a BPMV and
+are benign. Type M3 can be seen in a scenario of BE
+TAVR after the M-ViV procedure. Type M3 can affect
+TMV function or lead to TMV embolization. If the TAV
+is affected by the BPMV or TMV, it is a type A inter-
+action. While performing TAVR in the presence of
+BPMV, aortic embolization or paravalvular leak can
+manifest from the interaction of the LVOT portion of
+the TAV stent frame with the BPMV sewing ring.
+While performing the DVR in vivo, the BPMV posts
+were in a favorable lateral anterior position in cases 1
+and 3. The BPMV post to IVS distance was less than
+the TAV balloon diameter in these 2 cases. Hence the
+TAV balloon expanded between the lateral anterior
+FIGURE 4
+Computed Tomography Predictors of Prosthetic Valve Interaction for Case 2
+(A) Virtual basal ring to bioprosthetic mitral valve near post distance. (B) Virtual basal ring to bioprosthetic mitral valve sewing ring distance. (C) BPMV post
+to interventricular septum distance. (D) Bioprosthetic mitral valve interpost distance. (E) Transthoracic echocardiogram shows the unfavorable central anterior post.
+(F) Fluoroscopy image shows the unfavorable central anterior post projecting into the left ventricular outﬂow tract. The yellow arrows in panel A,C,E and F denote the
+tip of the central anterior post of the Mosaic (Medtronic) mitral valve. A ¼ anterior; P ¼ posterior.
+Nandhakumar et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Transcatheter DVR planning: Step-by-Step
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+6
+
+=== PAGE 7 ===
+posts, and momentary stretching of the posts was
+noted. We classify this as a type M1 interaction
+(Figure 7). In case 2, the BPMV post was in an unfa-
+vorable
+central
+anterior
+position.
+The
+distance
+between this post and the IVS was less than the TAV
+balloon diameter; hence we noticed reversible bending
+of this post by the LVOT part of the TAV balloon. We
+classify this as a type M2 interaction (Figure 7). In both
+types, M1 and M2, BPMV function did not worsen.
+Bauernschmitt
+et
+al4
+reported
+a
+simultaneous
+transcatheter transapical DVR using SAPIEN 3 valves
+(Edwards Lifesciences) in a 67-year-old woman with
+degenerative AS and mitral regurgitation. First, a
+29-mm SAPIEN 3 valve was deployed inside mitral
+annular calcium, and then a 23-mm SAPIEN 3 valve
+was placed in the aortic position. These investigators
+did not document any valve interaction in their
+report. However, 5 months later, the patient under-
+went
+open
+heart
+surgery
+for
+LVOT
+obstruction
+caused by migration of the TMV into the LVOT.
+The explanted TMV was compressed on the LVOT
+side. This is evidence of a type M3 interaction
+(Figure 7).4
+Amat-Santos et al3 studied the outcomes of TAVR
+in preexisting prosthetic surgical mitral valves. These
+investigators concluded that the TAV device was
+embolized only in patients with a prosthetic mitral
+valve to aortic annulus distance <7 mm. They also
+observed deformation of the SE TAV prosthesis by the
+BPMV sewing ring that led to signiﬁcant paravalvular
+leaks.3 We classify this as a type A1 interaction
+(Figure 7).
+FIGURE 5
+Bench Test for Case 2
+A 23-mm transcatheter aortic valve balloon interacting with 27-mm Hancock II mitral valve (Medtronic) posts in an unfavorable position. (A) Fluoroscopy image of a
+27-mm Hancock II valve with a radiopaque ring at the end of each post similar to the Mosaic (Medtronic) valve. (B) Bench model shows a sewn Hancock II valve at the
+mitral position and a 23-mm Meril Navigator delivery balloon in the anterior left ventricular outﬂow tract. This model was created with the computed tomography
+parameters given in Figure 4. The anterior post (yellow arrow) and the posterior posts (white arrows) are shown. (C) On full balloon inﬂation, we can see the bending
+of the anterior post. (D) Schematic simulation of (C). Posterior posts are shown as dotted lines. (E) Simultaneous ﬂuoroscopy image of (B) before balloon inﬂation.
+(F) Simultaneous ﬂuoroscopy image of (B) during balloon inﬂation shows bending of the anterior post. The yellow arrows in B, C, D, E, and F indicate the unfavourable
+central anterior post projecting into the LVOT and that is compressed by the TAV balloon from the LVOT. The white arrows in B and C indicate the posterior posts of
+BPMV.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Nandhakumar et al
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+Transcatheter DVR planning: Step-by-Step
+7
+
+=== PAGE 8 ===
+FIGURE 6
+Computed Tomography Predictors of Prosthetic Valve Interaction for Case 3
+(A) Virtual basal ring to bioprosthetic mitral valve sewing ring distance. (B) Virtual basal ring to bioprosthetic mitral valve near post distance. (C) Favorable lateral
+anterior posts of Perimount mitral valve (Edwards Lifesciences) on either side of the left ventricular outﬂow tract. (D) Bioprosthetic mitral valve post to interventricular
+septum distance in long axis. (E) Bioprosthetic mitral valve posts to interventricular septum distances in cross-section. (F) Interpost distance. (G) Fluoroscopy image of
+favorable lateral anterior posts on either side of the left ventricular outﬂow tract. (H) transthoracic echocardiogram image showing the favorable lateral anterior posts.
+The double arrows in C, F, G, and H indicate the favourable lateral anterior posts of BPMV on either side of the LVOT.
+FIGURE 7
+Transcatheter Valve Interaction Classiﬁcation During Left-Sided Double Valve Replacement
+aBased on anecdotal reports. BPMV ¼ bioprosthetic mitral valve; IVS ¼ interventricular septum; LV ¼ left ventricle; LVOT ¼ left ventricular outﬂow tract;
+TAV ¼ transcatheter aortic valve; TMV ¼ transcatheter mitral valve; VBR ¼ virtual basal ring.
+Nandhakumar et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Transcatheter DVR planning: Step-by-Step
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+8
+
+=== PAGE 9 ===
+CLINICAL FOLLOW-UP
+All patients underwent successful transcatheter DVR
+and were alive at a mean follow-up of 20.67 
+10.79 months. The ﬁrst patient was hospitalized for
+atrial ﬁbrillation–induced heart failure at 31 months
+and was in NYHA functional class II at the 33-month
+follow-up. The other 2 patients were in NYHA func-
+tional class I at their latest follow-up.
+POTENTIAL PITFALLS
+This case series is small. Larger data with these novel
+CT parameters and cutoffs for these distances should
+be understood to predict the valve interactions. We
+did not use a 3-dimensional printout model while
+performing the bench tests. Bench tests of contem-
+porary bioprosthetic valves, TAVs, and TMVs in a
+patient-speciﬁc 3-dimensional printout model may
+give a better understanding of these interactions.
+CONCLUSIONS
+A simultaneous transfemoral TAVR and a transseptal
+M-ViV implantation can be safely performed in a
+patient with a degenerated BPMV and native AS.
+TAVR should be performed ﬁrst to avoid interaction
+with
+the
+TMV
+stent
+frame.
+Type
+M1
+and
+type
+M2 interactions are safe, whereas type M3 and type
+A1 interactions are not.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr
+Vasu
+Nandhakumar, Department of Cardiology, Institute of
+Cardio-Vascular Diseases, The Madras Medical Mission
+Hospital,
+4A,
+Dr.
+J.
+Jayalalitha
+Nagar,
+Mogappir,
+Chennai, Tamil Nadu 600037, India. E-mail: nandha.
+intervention@gmail.com. X handle: @Nandha_Vasu.
+R E F E R E N C E S
+1. Mack MJ, Leon MB, Smith CR, et al. 5-Year
+outcomes of transcatheter aortic valve replace-
+ment or surgical aortic valve replacement for high
+surgical risk patients with aortic stenosis (PART-
+NER 1): a randomised controlled trial. Lancet.
+2015;385:2477–2484.
+2. Adams DH, Popma JJ, Reardon MJ, et al.
+Transcatheter aortic-valve replacement with a
+self-expanding
+prosthesis.
+N
+Engl
+J
+Med.
+2014;370:1790–1798.
+3. Amat-Santos IJ, Cortés C, Nombela Franco L,
+et al. Prosthetic mitral surgical valve in trans-
+catheter aortic valve replacement recipients: a
+multicenter
+analysis.
+JACC
+Cardiovasc
+Interv.
+2017;10:1973–1981.
+4. Bauernschmitt R, Bauer S, Liewald C, et al.
+First
+successful
+transcatheter
+double
+valve
+replacement from a transapical access and nine-
+month
+follow-up.
+EuroIntervention.
+2017;12:
+1645–1648.
+KEY WORDS aortic valve, complication,
+computed tomography, double-valve
+replacement, interaction, mitral valve, valve
+replacement
+APPENDIX For supplemental ﬁgures, please
+see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 8 , 2 0 2 5
+Nandhakumar et al
+A P R I L 1 6 , 2 0 2 5 : 1 0 3 3 7 0
+Transcatheter DVR planning: Step-by-Step
+9

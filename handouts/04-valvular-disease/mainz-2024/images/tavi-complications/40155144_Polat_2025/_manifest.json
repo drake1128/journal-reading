@@ -1,0 +1,30 @@
+{
+  "pdf": "40155144_Polat_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1943,
+      "height": 683,
+      "ext": "jpeg",
+      "bytes": 195721
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 636,
+      "ext": "jpeg",
+      "bytes": 121094
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1346,
+      "height": 1907,
+      "ext": "jpeg",
+      "bytes": 467414
+    }
+  ]
+}

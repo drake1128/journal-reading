@@ -1,0 +1,30 @@
+{
+  "pdf": "36523949_Manevich_2023.pdf",
+  "pages": 4,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 800,
+      "height": 723,
+      "ext": "jpeg",
+      "bytes": 170815
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1601,
+      "height": 1479,
+      "ext": "jpeg",
+      "bytes": 311091
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 800,
+      "height": 562,
+      "ext": "jpeg",
+      "bytes": 72101
+    }
+  ]
+}

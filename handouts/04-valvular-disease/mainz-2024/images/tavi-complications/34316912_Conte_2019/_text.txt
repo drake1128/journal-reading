@@ -1,0 +1,567 @@
+
+=== PAGE 1 ===
+CASE REPORT
+CLINICAL CASE SERIES
+Plugging Paravalvular Leak in
+Transcatheter Aortic Valves
+Sean M. Conte, BA, MBBS, Katherine Kearney, MBBS, MMED, Pankaj Jain, MBBS, Alasdair Watson, BMED, PHD,
+Christopher Hayward, MBBS, MD, David W. Muller, MBBS, MD, David A. Roy, MBCHB, MD
+ABSTRACT
+Paravalvular leak can complicate transcatheter aortic valve replacement with important prognostic implications.
+Correction of defects requires complex planning and execution. Multiple or irregular lesions, calciﬁed annulus, and high
+sealing skirts on self-expandable devices are especially challenging. Such defects may be approximated using
+malleable vascular closure devices. (Level of Difﬁculty: Intermediate.) (J Am Coll Cardiol Case Rep 2019;1:696–702)
+© 2019 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an
+open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+P
+aravalvular prosthetic leak (PVL) is a common
+complication of surgical aortic valve replace-
+ment, ring annuloplasty, and transcatheter
+aortic valve replacement (TAVR) (1). Incident rates
+of PVL vary widely but have declined with the devel-
+opment of current generation skirted TAVR devices
+and now ranges from 1.5% to 7.7% (2,3). PVL has
+serious consequences, including need for redo valve
+replacement, heart failure, hemolytic anemia, and
+increased mortality (4,5). Risk factors for PVL include
+poor tissue integrity, native valve calciﬁcation, pros-
+thetic valve underinﬂation, prosthetic valve malposi-
+tion, and incomplete apposition of the prosthesis
+with the aortic annulus (5). The hemodynamic param-
+eter
+known
+as
+the
+aortic
+regurgitation
+index,
+representing the ratio of the end-diastolic aortoven-
+tricular pressure difference to systolic blood pressure
+multiplied by 100, is a reliable indicator of the
+severity of PVL. An index of <25 is associated with
+greater mortality in patients with PVL (6), although
+this value may be confounded by underlying diastolic
+dysfunction or signiﬁcant bradycardia. Thus, a more
+sensitive and speciﬁc marker of aortic regurgitation
+severity is the modiﬁed time-integrated aortic regur-
+gitation index (7). Therapies directed at closure of
+PVL have been developed and included coapted oc-
+clusion devices such as Amplatzer vascular plug
+(AVP) devices (St. Jude Medical, St. Paul, Minnesota).
+LEARNING OBJECTIVES
+ TAVR-PVL is common and can portend a
+worse prognosis with higher rates of heart
+failure and redo valve replacement.
+ Multiple
+or
+irregular
+lesions,
+calciﬁed
+annulus, low crossing position across frame
+struts, and high sealing skirts on self-
+expandable prostheses are especially chal-
+lenging for crossing defects, wire snaring,
+and rail formation.
+ Looping a wire in the left ventricle and
+passing it back up into the aorta can provide
+extra support needed to pass delivery
+systems.
+ Highly stiff wires are often required to cross
+narrow or irregular defects.
+ Irregular defects may be approximated using
+malleable vascular closure devices that can
+conform to these shapes.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2019.10.013
+From the Department of Cardiology, St. Vincent’s Hospital Sydney, Darlinghurst, Australia. Dr. Muller has served as a consultant
+for Medtronic. All other authors have reported that they have no relationships relevant to the contents of this paper to disclose.
+John W. Hirshfeld, Jr., MD, served as Guest Associate Editor for this paper.
+Informed consent was obtained for this case.
+Manuscript received September 20, 2019; revised manuscript received October 13, 2019, accepted October 15, 2019.
+J A C C : C A S E R E P O R T S
+V O L . 1 , N O . 5 , 2 0 1 9
+ª 2 0 1 9 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E
+O F
+C A R D I O L O G Y
+F O U N D A T I O N .
+T H I S
+I S
+A N
+O P E N A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+In the context of TAVR, much of the challenge in
+PVL closure relates to the prosthetic heart valve
+apparatus. The very same sealing skirts designed to
+reduce the risk of PVL can present technical chal-
+lenges
+when
+attempting
+to
+cannulate
+and
+form
+wire
+rails
+during
+percutaneous
+closure.
+Vascular
+plug delivery can also be challenging, especially if
+frame struts are crossed too low, resulting in a nar-
+row aperture through which the device must be
+passed (8). We present 2 cases of TAVR-PVL, each
+with unique challenges, and the steps we took to
+facilitate percutaneous closure.
+CASE 1
+PRESENTATION AND PAST MEDICAL HISTORY. The
+ﬁrst patient is a 77-year-old man with a history of
+ischemic
+cardiomyopathy,
+atrial
+ﬁbrillation,
+prior
+stroke, chronic kidney disease, type 2 diabetes, hy-
+pertension, and severe symptomatic aortic stenosis
+managed with TAVR with a self-expandable 34-mm
+Evolut R valve (Medtronic, Dublin, Ireland) in July
+2017. Following TAVR, the left ventricular ejection
+fraction (LVEF) improved to 45% and mild PVL was
+demonstrated with anterior and posterior
+jets. The patient deteriorated clinically over
+the ensuing 12 months. He was hospitalized
+with recurrent transudative pleural effusions
+related to cardiac failure. Despite pleurod-
+esis, he deteriorated in hospital and became
+inotrope-dependent due to low-output car-
+diac failure.
+INVESTIGATIONS. Transesophageal
+echo-
+cardiogram
+in
+early
+August 2018 demon-
+strated moderate-grade posterior PVL and
+mild anterior PVL (Figure 1) around the TAVR pros-
+thesis with an LVEF 35% and moderately dilated left
+ventricle, with diffuse spontaneous echo contrast
+within
+the
+left
+ventricle.
+Coronary
+angiography
+demonstrated mild proximal left anterior descending
+artery stenosis and a chronic total occlusion of the
+right coronary artery, with collaterals from a large
+patent left circumﬂex artery. The decision was made
+by our hospital’s multidisciplinary heart team to offer
+percutaneous PVL closure.
+MANAGEMENT
+AND
+FOLLOW-UP. In
+late
+August
+2018,
+the
+patient
+underwent
+PVL
+closure
+under
+transesophageal
+echocardiogram
+guidance.
+The
+FIGURE 1
+Pre-Procedure Echocardiogram
+Moderate posterior paravalvular prosthetic leak before plug.
+SEE PAGE 703
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AVP = Amplatzer vascular plug
+LVEF = left ventricular
+ejection fraction
+PVL = paravalvular prosthetic
+leak
+TAVR = transcatheter aortic
+valve replacement
+TTE = transthoracic
+echocardiogram
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Conte et al.
+D E C E M B E R 1 8 , 2 0 1 9 : 6 9 6 – 7 0 2
+Plugging Paravalvular Leak in Transcatheter Aortic Valves
+697
+
+=== PAGE 3 ===
+defect was difﬁcult to cross due to the high sealing
+skirt and valve frame. By passing through the upper
+cells of the valve frame and then passing behind the
+valve at the level of the skirt using an AL-1 catheter
+(Cordis, Zug, Switzerland) and a slippery wire the
+defect was eventually crossed (Figure 2). However,
+the delivery sheath would not pass over a standard
+wire. A 4-F GLIDECATH (Terumo, Shibuya, Tokyo,
+Japan) was used to pass a stiff slippery wire that was
+looped and passed back through the prosthetic aortic
+valve into the ascending aorta for extra support
+(Figure 3). This allowed passage of the 6-F delivery
+system and then a 12  5 mm AVP III (Figure 4). Post-
+procedural
+transthoracic
+echocardiogram
+(TTE)
+conﬁrmed
+the
+resolution
+of
+the
+posterior
+PVL
+(Figure 5) and, over the next 24 h, inotropic support
+was weaned. The patient was discharged home 3 days
+after the procedure and was clinically and echo-
+cardiographically stable at 6-month follow-up.
+CASE 2
+PRESENTATION AND PAST MEDICAL HISTORY. The
+second
+patient
+is
+a
+77-year-old
+former
+Olympic
+weightlifter with ischemic cardiomyopathy, biven-
+tricular
+implantable
+cardioverter-deﬁbrillator
+for
+ventricular tachycardia, previous cigarette smoking
+and chronic obstructive pulmonary disease, hyper-
+tension, dyslipidemia, and severe symptomatic aortic
+stenosis
+managed
+with
+TAVR
+with
+a
+balloon-
+expandable 26-mm SAPIEN 3 prosthesis (Edwards
+Lifesciences,
+Irvine,
+California)
+in
+August
+2017.
+Following TAVR, TTE demonstrated an LVEF of 35%
+with a moderately dilated left ventricle and trivial
+anterior PVL. Unfortunately, there was only slight
+improvement in his heart failure, and he clinically
+deteriorated over the next 18 months.
+INVESTIGATIONS. In November 2018, TTE revealed
+moderate-to-severe
+anteromedial
+PVL
+(Figure
+6).
+Coronary angiography undertaken in early March
+2019 demonstrated severe native triple-vessel disease
+and patent left internal mammary artery to left ante-
+rior descending and right internal mammary artery to
+obtuse marginal grafts. An aortogram disclosed mod-
+erate total aortic regurgitation. A heart team decision
+was made to offer percutaneous closure.
+MANAGEMENT AND FOLLOW-UP. Percutaneous PVL
+closure was undertaken with transesophageal guid-
+ance in late March 2019. The irregularly shaped defect
+was initially crossed using a slippery wire and JR4
+(Cordis) catheter, but neither the 6-F delivery sheath
+nor the long 6-F Cook sheath (Cook Medical, Bloo-
+mington, Indiana) could pass (Figure 7). This was
+overcome by exchanging the slippery wire via an AL-1
+FIGURE 3
+Support Wire in Aorta
+A stiff slippery wire was looped in the left ventricle and passed back up into the aorta for
+support, which allowed passage of the delivery sheath and closure device system.
+FIGURE 2
+Crossing the Valve Frame
+The self-expandable transcatheter aortic valve replacement prosthesis was crossed ﬁrst
+by passing through the upper cells of the valve frame.
+Conte et al.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Plugging Paravalvular Leak in Transcatheter Aortic Valves
+D E C E M B E R 1 8 , 2 0 1 9 : 6 9 6 – 7 0 2
+698
+
+=== PAGE 4 ===
+catheter for a very stiff Lunderquist wire (Cook Med-
+ical) (Figure 8) over which the delivery sheath could
+advance. A 14  5 mm AVP III was deployed with
+excellent effect (Figure 9). There was trivial residual
+PVL
+on
+the
+post-procedure
+echocardiogram
+(Figure 10). Six-month follow-up TTE demonstrated
+stable trivial PVL and left ventricular size reduction,
+and
+the
+patient
+experienced
+marked
+clinical
+improvement.
+DISCUSSION
+PVL is a common and potentially dangerous compli-
+cation of TAVR. Clinicians should screen for PVL
+immediately after TAVR deployment with TTE and
+aortography keeping in mind that without sufﬁcient
+volume of contrast dye, many defects will be missed.
+PVL
+of
+moderate
+severity
+or
+worse
+should
+be
+managed with either valve repositioning (post-dila-
+tion) or percutaneous closure. Should percutaneous
+closure of PVL complicating a self-expandable pros-
+thesis be attempted during the index TAVR proced-
+ure, the top of the prosthesis can be snared to prevent
+potential movement, dislodgement, or embolization.
+Progression
+or
+failure
+of
+improvement
+of
+heart
+failure symptoms and the emergence of peripheral
+stigmata
+of
+aortic
+regurgitation
+after
+TAVR
+should raise suspicion for hemodynamically signiﬁ-
+cant PVL. Although medical therapy is ﬁrst line,
+FIGURE 4
+Plug in Place
+Successful delivery of 12  5 mm Amplatzer vascular plug (St. Jude Medical, St. Paul,
+Minnesota).
+FIGURE 5
+Post-Procedure Echocardiogram
+Mild residual paravalvular prosthetic leak after plug.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Conte et al.
+D E C E M B E R 1 8 , 2 0 1 9 : 6 9 6 – 7 0 2
+Plugging Paravalvular Leak in Transcatheter Aortic Valves
+699
+
+=== PAGE 5 ===
+hemodynamically signiﬁcant PVL often results in
+progressive heart failure and thus requires deﬁnitive
+management with percutaneous closure. After TAVR,
+PVL
+of
+moderate
+or
+worse
+grade
+echocardio-
+graphically results in a greater mortality compared
+with mild, trace, or no PVL. Many defects are irregu-
+larly shaped, often forming in crescents around the
+prosthetic valve perimeter. This makes crossing them
+challenging and a combination of slippery guidewires
+and very stiff catheters may be required to do so.
+Retroﬂexion and antegrade passage of the catheter
+through the prosthetic aortic valve up into the aorta
+provides extra support for delivery of a vascular oc-
+clusion device. The presence of high sealing skirts on
+self-expandable TAVR devices are challenging for
+wire snaring and rail formation and often require
+extreme angles to visualize wire progress. PVL can-
+nulation in the context of balloon-expandable valves
+is typically less challenging.
+CONCLUSIONS
+TAVR-PVL is common and can portend a worse
+prognosis,
+owing
+to
+higher
+rates
+of
+progressive
+heart failure and need for redo valve replacement.
+FIGURE 6
+Pre-Procedure Echocardiogram
+Moderate-to-severe paravalvular prosthetic leak before plug.
+FIGURE 7
+Initial Cross With Slippery Wire
+Defect initially crossed with slippery wire and JR4 catheter but
+could then not cross with 6-F delivery sheath or long 6-F Cook
+sheath(Cook Medical, Bloomington, Indiana).
+Conte et al.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Plugging Paravalvular Leak in Transcatheter Aortic Valves
+D E C E M B E R 1 8 , 2 0 1 9 : 6 9 6 – 7 0 2
+700
+
+=== PAGE 6 ===
+FIGURE 8
+Cross With Lunderquist Wire
+Highly stiff Lunderquist wire (Cook Medical, Bloomington,
+Indiana) used to cross defect which allowed passage of 6-F
+delivery sheath.
+FIGURE 9
+Plug in Place
+Successful delivery of 14  5 mm Amplatzer vascular plug
+(St. Jude Medical, St. Paul, Minnesota).
+FIGURE 10
+Post-Procedure Echocardiogram
+Mild residual paravalvular prosthetic leak after plug.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Conte et al.
+D E C E M B E R 1 8 , 2 0 1 9 : 6 9 6 – 7 0 2
+Plugging Paravalvular Leak in Transcatheter Aortic Valves
+701
+
+=== PAGE 7 ===
+TAVR-PVL should be screened for and the diagnosis
+considered in patients who fail to improve after TAVR
+and in those who subsequently deteriorate. Echocar-
+diography is the mainstay for identifying and moni-
+toring for TAVR-PVL but is often difﬁcult due to
+interference
+from
+the
+valve
+frame.
+TAVR-PVL
+correction requires complex planning and execu-
+tion. PVL owing to valve malposition or under-
+expansion can be treated with valve-in-valve or
+balloon post-dilation whereas PVL due to asymmetric
+calciﬁcation is more amenable to vascular plugs.
+Multiple or irregular lesions, calciﬁed annulus, low
+crossing position across frame struts, and the pres-
+ence of high sealing skirts on self-expandable TAVR
+devices are especially challenging with regard to
+crossing defects, wire snaring, and rail formation.
+Highly stiff wires are often required to cross narrow
+or irregular defects. Such defects are best approxi-
+mated using malleable vascular closure devices that
+can conform to crescent shaped defects such as the
+AVP
+III.
+Transcatheter
+plugging
+of
+TAVR-PVL
+is
+achievable
+with
+careful
+planning
+with
+excellent
+results.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr.
+Sean
+M
+Conte,
+Department
+of
+Cardiology,
+St.
+Vincent’s
+Hospital Sydney, 1 Turner Street, Redfern, New South
+Wales 2016, Australia. E-mail: sean.m.conte@gmail.com.
+R E F E R E N C E S
+1. Ionescu A, Fraser AG, Butchart EG. Prevalence
+and
+clinical
+signiﬁcance
+of
+incidental
+para-
+prosthetic
+valvar
+regurgitation:
+a
+prospective
+study using transoesophageal echocardiography.
+Heart 2003;89:1316–21.
+2. Thourani VH, Kodali S, Makkar RR, et al.
+Transcatheter aortic valve replacement versus
+surgical valve replacement in intermediate-risk
+patients:
+a
+propensity
+score
+analysis.
+Lancet
+2016;387:2218–25.
+3. Kalra SS, Firoozi S, Yeh J, et al. Initial experience
+of
+a
+second-generation
+self-expanding
+trans-
+catheter aortic valve: the UK & Ireland Evolut R
+Implanters’ Registry. J Am Coll Cardiol Intv 2017;
+10:276–82.
+4. Thourani VH. Five-year outcomes from the
+PARTNER 2A trial: transcatheter vs. surgical aortic
+valve replacement in intermediate-risk patients.
+Presented at: TCT 2019; September 28, 2019; San
+Francisco, CA.
+5. Sponga S, Perron J, Dagenais F, et al. Impact
+of
+residual
+regurgitation
+after
+aortic
+valve
+replacement. Eur J Cardiothorac Surg 2012;42:
+486–92.
+6. Wilczek K, Bujak K, Reguła R, Chodór P,
+Osadnik T. Risk factors for paravalvular leak after
+transcatheter aortic valve implantation. Kardiochir
+Torakochirurgia Pol 2015;12:89–94.
+7. Sinning JM, Vasa-Nicotera M, Chin D, et al.
+Evaluation and management of paravalvular aortic
+regurgitation
+after
+transcatheter
+aortic
+valve
+replacement. J Am Coll Cardiol 2013;62:11–20.
+8. Abdelghani
+M,
+Soliman
+OII,
+Schultz
+C,
+Vahanian A, Serruys PW. Adjudicating paravalvular
+leaks of transcatheter aortic valves: a critical
+appraisal. Eur Heart J 2016;37:2627–44.
+KEY WORDS aortic valve, complication,
+valve replacement
+Conte et al.
+J A C C : C A S E R E P O R T S , V O L . 1 , N O . 5 , 2 0 1 9
+Plugging Paravalvular Leak in Transcatheter Aortic Valves
+D E C E M B E R 1 8 , 2 0 1 9 : 6 9 6 – 7 0 2
+702

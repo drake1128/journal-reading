@@ -1,0 +1,659 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Mavacamten for Left Ventricular Outﬂow
+Tract Obstruction After Successful
+Transcatheter Aortic Valve Implantation
+Ha Hye Jo, MD, So-Min Lim, MD, Dayoung Pack, MD, Tae Oh Kim, MD, Sahmin Lee, MD, Byung Joo Sun, MD,
+Dae-Hee Kim, MD, Jong-Min Song, MD, Duk-Hyun Kang, MD, Jae-Kwan Song, MD
+ABSTRACT
+Hemodynamically signiﬁcant left ventricular outﬂow tract obstruction is a rare complication of transcatheter aortic valve
+implantation (TAVI). This study presents an unusual case of a patient who, after a successful TAVI, developed and
+experienced progressive worsening of severe left ventricular outﬂow tract obstruction after uneventful TAVI that was
+effectively relieved using mavacamten. (JACC Case Rep. 2025;30:103112) © 2025 The Authors. Published by Elsevier
+on behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).
+HISTORY OF PRESENTATION
+An 87-year-old woman was referred for management
+of progressive dyspnea. At the time of referral, she
+complained
+of
+dyspnea
+on
+exertion
+with
+NYHA
+functional class of III. She denied syncope, orthop-
+nea, edema, or palpitation. The patient had a blood
+pressure of 98/60 mm Hg and a regular pulse (71
+beats/min). She had a height of 152 cm and weighed
+45 kg (body mass index of 19.5 kg/m2). A 4/6 systolic
+ejection
+murmur
+was
+appreciated
+on
+cardiac
+auscultation.
+PAST MEDICAL HISTORY
+The patient had a long history of hypertension and
+hyperlipidemia,
+which
+were
+relatively
+well-
+controlled with medications. Approximately 1 year
+before referral, she visited an emergency department
+due to sudden chest pain and was diagnosed to have
+acute non–ST-segment elevation myocardial infarc-
+tion. Coronary stenting was performed at the prox-
+imal
+right
+coronary
+artery.
+At
+that
+time,
+echocardiography
+revealed
+severe
+degenerative
+aortic stenosis (AS) with a peak aortic velocity of
+5.7
+m/s
+and
+a
+mean
+pressure
+gradient
+(PG)
+of
+73 mm Hg. Systolic anterior motion of the mitral valve
+(SAM) and signiﬁcant left ventricular outﬂow tract
+TAKE-HOME MESSAGES
+ Signiﬁcant
+LVOTO,
+along
+with
+prominent
+systolic anterior motion of the mitral leaﬂet,
+can emerge and worsen following successful
+TAVI in a patient with valvular AS, poten-
+tially leading to progressive heart failure.
+ Mavacamten, a currently available myosin
+inhibitor, demonstrated effectiveness in
+relieving this hemodynamic compromise,
+suggesting its potential as a promising
+therapeutic option for this critical
+complication.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.103112
+From the Division of Cardiology, Department of Internal Medicine, Asan Medical Center, University of Ulsan College of Medicine,
+Seoul, South Korea.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received August 21, 2024; revised manuscript received October 31, 2024, accepted November 7, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 5 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 4 . 0 / ) .
+
+=== PAGE 2 ===
+(LVOT) obstruction were not prominently
+observed
+(Video
+1);
+however,
+continuous
+wave Doppler tracing showed LVOT peak
+velocity
+of
+2.9
+m/s
+with
+delayed
+peak
+(Figure
+1,
+top),
+which
+suggested
+LVOT
+obstruction (LVOTO) due to sigmoid septum
+at
+baseline
+and
+aggravation
+of
+LVOTO
+following afterload reduction after TAVI. The
+Agatston score of the aortic valve was 2112
+and
+there
+was
+no
+evidence
+of
+ATTR
+amyloidosis on the whole-body bone scan.
+Transcatheter
+aortic
+valve
+implantation
+(TAVI) using a 23-mm Edwards SAPIEN valve
+with
+1
+mL
+underﬁll
+was
+successfully
+completed.
+The
+patient
+was
+discharged
+without any complications 2 days after TAVI.
+However,
+echocardiography
+performed
+immediately
+post-TAVI
+showed
+a
+mean
+transaortic PG of 21 mm Hg and the devel-
+opment of SAM and LVOTO with a delayed
+peak velocity of 5.1 m/s (Figure 1, Video 2). There was
+no
+paravalvular
+leakage.
+During
+follow-up,
+she
+complained of progressive exertional dyspnea, and
+the addition of diuretics was not effective (Table 1).
+DIFFERENTIAL DIAGNOSIS
+LVOTO, prosthesis dysfunction including thrombus
+formation.
+INVESTIGATIONS
+Chest x-ray showed the development of bilateral
+pleural effusion and increased pulmonary congestion
+(Figure 2). Follow-up echocardiography revealed a
+well-functioning aortic prosthesis with a peak trans-
+valvular velocity of 3.0 m/s and a mean PG of
+21 mm Hg with the indexed aortic valve area of
+0.99 cm2/m2. Prominent SAM with systolic ﬂow ac-
+celeration at the LVOT was persistently observed with
+the development of septal contact (Figure 3, Video 3).
+The continuous wave Doppler tracing of LVOT ﬂow
+revealed a peak velocity of 6 m/s with a delayed peak.
+Color Doppler ﬂow mapping showed an increased
+severity of mitral regurgitation (Figure 4): the pulsed
+FIGURE 1
+Invasive and Echocardiographic Hemodynamic Assessment Before and After TAVI
+Before transcatheter aortic valve implantation (TAVI), the systolic anterior motion of the mitral leaﬂet (SAM, arrow) was not prominent and left ventricular outﬂow
+tract (LVOT) ﬂow velocity was not signiﬁcantly high. Immediately after TAVI, no pressure gradient was present between the left ventricle (LV) and aorta (Ao), but
+follow-up echocardiography done several days after TAVI showed septal contact of SAM (arrow) resulting in a markedly increased pressure gradient across the LVOT.
+LA ¼ atrium; Vmax ¼ maximal velocity.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AS = aortic stenosis
+ASH = asymmetrical septal
+hypertrophy
+HCM = hypertrophic
+obstructive cardiomyopathy
+LV = left ventricle or left
+ventricular
+LVOT = left ventricular outﬂow
+tract
+LVOTO = left ventricular
+outﬂow tract obstruction
+PG = pressure gradient
+SAM = systolic anterior motion
+of the mitral valve
+SAVR = surgical aortic valve
+replacement
+TAVI = transcatheter aortic
+valve implantation
+Jo et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+LVOTO After TAVI
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 1 2
+2
+
+=== PAGE 3 ===
+Doppler tracing of mitral inﬂow velocity revealed a
+dramatic change from an abnormal relaxation patten
+to a typical restrictive pattern with a marked increase
+in peak velocity of the tricuspid regurgitation jet from
+3.1 to 4.0 m/s, suggestive of aggravated pulmonary
+hypertension (Figure 5, Table 1).
+MANAGEMENT
+Given
+aggravated
+symptoms
+despite
+optimized
+traditional medical therapy and the patient’s prefer-
+ence to defer septal reduction therapy (ie, cardiac
+surgery)
+or
+percutaneous
+transluminal
+septal
+myocardial
+ablation,
+mavacamten,
+a
+currently
+available myosin inhibitor, was chosen after shared
+decision-making.
+Mavacamten
+was
+initiated
+at
+a
+dosage of 5 mg daily, and the patient’s condition
+improved dramatically within 1 month. Chest x-ray
+showed
+the
+disappearance
+of
+pleural
+effusion
+(Figure 2) and echocardiography showed a decrease in
+SAM (Figure 2, Video 4), mitral regurgitation severity
+(Figure 3), peak velocities of LVOT ﬂow (Figure 4), and
+tricuspid regurgitation jet (Figure 5).
+DISCUSSION
+Systolic intracavitary gradients following uneventful
+surgical
+aortic
+valve
+replacement
+(SAVR)
+were
+TABLE 1
+Summary of Imaging Data, Laboratory Findings, and Medications
+Before TAVI
+(Baseline)
+After TAVI
+(At Discharge)
+12 Months
+After TAVI
+1 Month After
+Mavacamten
+Ao Vmax, m/s
+5.7
+2.9
+3.0
+2.5
+Mean pressure gradient, mm Hg
+73
+21
+21
+13
+Aortic valve area, cm2
+0.53
+1.4
+1.4
+1.4
+Degree of SAM
+
+þþ
+þþþ
+þ
+MR severity
+þ2
+þ4
+þ4
+þ3
+Transmitral E/A velocity, cm/s
+78/116
+154/194
+191/91
+143/138
+Pressure gradient of TR, mm Hg
+38
+44
+64
+44
+BNP, pg/mL
+293
+319
+716
+Not available
+Medications, daily dose
+Amlodipine 10 mg
+Valsartan 160 mg
+Atorvastatin 10 mg
+Amlodipine 10 mg
+Valsartan 160 mg
+Atorvastatin 10 mg
+Aspirin 100 mg
+Clopidogrel 75 mg
+Nebivolol 2.5 mg
+Amlodipine 5 mg
+Losartan 50 mg
+Torsemide 5 mg
+Chlorthalidone 12.5 mg
+Clopidogrel 75 mg
+Pitavastatin/Ezetimibe 2/10 mg
+Nebivolol 2.5 mg
+Amlodipine 5 mg
+Losartan 50 mg
+Furosemide 20 mg
+Clopidogrel 75 mg
+Pitavastatin/Ezetimibe 2/10 mg
+Mavacamten 5 mg
+ ¼ SAM is suspected but not clearly deﬁned; þ ¼ anterior mitral leaﬂet (AML) buckles toward the ventricular septum, but remains 10 mm away from the septum; þþ ¼ AML buckles toward
+the septum and comes within 10 mm of the septum; þþþ ¼ AML buckles toward the septum and contacts the septum; Ao ¼ aortic valve; BNP ¼ B-type natriuretic peptide; MR ¼ mitral
+regurgitation; SAM ¼ systolic anterior motion of the mitral valve; TAVI ¼ transcatheter aortic valve implantation; TR ¼ tricuspid regurgitation; Vmax ¼ maximal velocity.
+FIGURE 2
+Chest X-Ray
+Serial chest x-ray showed late development of pulmonary congestion and bilateral pleural effusion despite medical treatment. The addition of mavacamten led to a
+signiﬁcant normalization of heart size and the disappearance of bilateral pleural effusion. Abbreviation as in Figure 1.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+Jo et al
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 1 2
+LVOTO After TAVI
+3
+
+=== PAGE 4 ===
+reported more than 30 years ago. Hemodynamically,
+this phenomenon was believed to resemble hyper-
+trophic
+obstructive
+cardiomyopathy
+(HCM),
+as
+a
+typical delayed peak was observed.1 The incidence of
+this phenomenon was later believed to be 14% after
+SAVR.2 Both studies reported the scarcity of the SAM,
+which suggests different mechanisms including cav-
+ity
+obliteration
+or
+midventricular
+obstruction.
+FIGURE 3
+Serial Echocardiographic Images of SAM
+Before TAVI, SAM was absent (A, white arrow), and immediately after successful TAVI, prominent SAM appeared (B, white arrow), which showed progressive septal
+contact (C and D, white and red arrows). Mavacamten treatment resulted in less septal contact of SAM (E, red arrow). Abbreviations as in Figure 1.
+FIGURE 4
+Serial Changes in MR Severity and LVOT Flow
+Before TAVI, mitral regurgitation (MR) was mild and LVOT velocity was low (A, red arrow). Twelve months after TAVI, severe MR and markedly elevated LVOT velocity
+were observed (B), which were alleviated with short-term treatment with mavacamten (C). Abbreviations as in Figure 1.
+Jo et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+LVOTO After TAVI
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 1 2
+4
+
+=== PAGE 5 ===
+A small, hyperdynamic, and asymmetrically hyper-
+trophied ventricle was reported to be a risk factor for
+the development of abnormal systolic intraventric-
+ular ﬂow velocities after SAVR.2 Although valvular
+aortic stenosis is usually associated with a more uni-
+form or symmetric (ie, concentric) distribution of left
+ventricular hypertrophy in which all segments of the
+wall show the same or similar thickness, asymmet-
+rical septal hypertrophy (ASH) (a septal-free wall
+ratio $1.3) is reported to be found in approximately
+10% of patients with hemodynamically signiﬁcant
+valvular AS.3 Histologic analysis of left ventricular
+myocardium may aid in determining whether a given
+patient with valvular AS has HCM, as the extent of
+disorganized arrangement of cardiac muscle cells in
+the ventricular septum or left ventricular free wall is a
+characteristic morphologic feature of myocardium in
+patients with HCM. ASH in patients with AS is
+believed to be an adaptive mechanism to the long-
+standing
+pressure
+overload,
+and
+after
+successful
+valve replacement, a signiﬁcant reduction of ASH has
+been reported.4
+“Suicide left ventricle” (LV) refers to sudden he-
+modynamic deterioration after successful interven-
+tion of AS, and midventricular obstruction without
+SAM was initially suggested as the mechanism of this
+potentially fatal event.5-8 The almost instant allevia-
+tion of the transvalvular gradient after TAVI or SAVR
+exposes the LV to an abrupt signiﬁcant afterload
+reduction.7 As a result, LV hypercontractility and
+dynamic intraventricular gradient may develop or
+worsen, leading to potential resistant circulatory
+collapse. Prompt recognition of this phenomenon af-
+ter excluding common causes of shock such as hem-
+orrhage, aortic injury, or coronary artery obstruction
+is critical to rescue hemodynamic decompensation.
+Rapid saline loading to increase preload and phenyl-
+ephrine infusion to increase afterload should be
+initiated, and all inotropes should be discontinued to
+decrease LV contractility. Some patients may require
+full veno-arterial extracorporeal membrane oxygen-
+ation support.6
+Our case has several unique features. First, LVOTO
+due to prominent SAM, rather than midventricular
+obstruction or a dynamic intraventricular gradient
+due to LV hypercontractility, was the main mecha-
+nism.
+In
+a
+recent
+systematic
+literature
+review
+analyzing 25 publications on suicide LV, SAM was
+present in 76% of cases, and LVOTO, rather than
+midventricular obstruction, was the most common
+site of obstruction resulting in acute hemodynamic
+compromise.9 Thus, although the development of
+FIGURE 5
+Serial Changes in Doppler Tracing of Mitral Inﬂow and Tricuspid Regurgitation Jet
+Before TAVI, an abnormal relaxation pattern of the mitral inﬂow with mild resting pulmonary hypertension was observed. During follow-up, a restrictive pattern of
+mitral inﬂow velocity with signiﬁcantly elevated pulmonary hypertension was noted, which was reversed with mavacamten treatment. TR ¼ tricuspid regurgitation.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+Jo et al
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 1 2
+LVOTO After TAVI
+5
+
+=== PAGE 6 ===
+midventricular
+obstruction
+is
+more
+commonly
+observed after TAVI and LVOTO; this might represent
+a more frequent but more benign ﬁnding. Although a
+sudden decrease in afterload with the successful
+intervention of AS (TAVI or SAVR) is expected to
+contribute to the development of prominent SAM, but
+it is not clear why SAM was present in patients with
+valvular AS. There was no evidence that our patient
+also had HCM, and none of the cases showing SAM
+after TAVI reported in the literature were reported to
+have the coexistence of AS and SAM. One notable
+ﬁnding is a potential association between sigmoid
+septum and development of LVOTO in the aged
+population.10,11 Further investigation is needed to
+determine whether mitral leaﬂet elongation, a key
+component of the development of SAM, can occur in
+patients with valvular AS, as ASH accompanies LV
+pressure overloading.
+The second unique feature is that LVOTO can
+result in the progressive development of heart fail-
+ure, rather than acute hemodynamic compromise.
+This patient could be discharged 2 days after TAVI
+and, at that time, SAM and signiﬁcant LVOTO were
+documented.
+Her
+condition
+deteriorated
+progres-
+sively despite the standard medication to decrease
+inotropy and frank heart failure symptoms devel-
+oped several months later after successful TAVI. The
+most unique ﬁnding of our case is that medical
+treatment
+using
+a
+brand-new
+myosin
+inhibitor
+introduced for patients with HCM and LVOTO12 was
+very effective in improving her condition. Many
+studies have reported notable limitations in tradi-
+tional methods that were recommended for patients
+with an intractable clinical course, including inva-
+sive interventional procedures such as alcohol septal
+ablation, right ventricular pacing, or mitral clip.9,13
+Our
+case
+suggests
+that
+the
+currently
+available
+myosin inhibitor can be a promising therapeutic
+option to improve the clinical condition in patients
+with valvular AS who developed signiﬁcant LVOTO
+due to prominent SAM. Further investigation with
+cumulative
+clinical
+experiences
+is
+necessary
+to
+conﬁrm the efﬁcacy of this approach in patients with
+suicide LV
+with different mechanisms, including
+midventricular obstruction.
+CONCLUSIONS
+This is the ﬁrst documented case of the alleviation of
+hemodynamically
+signiﬁcant
+LVOTO
+caused
+by
+prominent SAM that became prominent after TAVI in
+a patient with valvular AS.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr
+Jae-Kwan
+Song, Division of Cardiology, Asan Medical Center,
+University of Ulsan College of Medicine, 88, Olympic-
+ro 43-gil, Songpa-gu, Seoul 05505, Republic of Korea.
+E-mail: jksong@amc.seoul.kr.
+R E F E R E N C E S
+1. Laurent M, Leborgne O, Clement C, et al. Sys-
+tolic intra-cavitary gradients following aortic valve
+replacement: an echo-Doppler study. Eur Heart J.
+1991;12:1098–1106.
+2. Bartunek J, Sys SU, Rodrigues AC, et
+al.
+Abnormal systolic intraventricular ﬂow velocities
+after valve replacement for aortic stenosis. Circu-
+lation. 1996;93:712–719.
+3. Panza JA, Maron BJ. Valvular aortic stenosis
+and asymmetric septal hypertrophy: diagnostic
+considerations and clinical and therapeutic im-
+plications. Eur Heart J. 1988;9(Supplement E):
+71–76.
+4. Hess OM, Schneider J, Turina M, et al. Asym-
+metric septal hypertrophy in patients with aortic
+stenosis: an adaptive mechanism or a coexistence
+of hypertrophic cardiomyopathy? J Am Coll Car-
+diol. 1983;1:783–789.
+5. Suh WM, Witzke CF, Palacios IF. Suicide left
+ventricle following transcatheter aortic valve im-
+plantation. Cath Cardiovasc Interv. 2010;76:616–
+620.
+6. Lioufas PA, Kelly DN, Brooks KS, et al. Unex-
+pected suicide left ventricle post-surgical aortic
+valve replacement requiring veno-arterial extra-
+corporeal membrane oxygenation support despite
+gold-standard therapy: a case report. Eur Heart J
+Case Rep. 2022;6:1–8.
+7. Weich HSV, John TJ, Joubert L, et al. Dynamic
+left ventricular outﬂow tract obstruction post-
+trancatheter aortic valve replacement. JACC Case
+Rep. 2021;3:871–874.
+8. Koliastasis L, Drakopoulou M, Latsios G, et al.
+Overcoming the obstacle of suicide left ventricle
+after transcatheter aortic valve replacement phe-
+nomenon. JACC Case Rep. 2023;26:102065.
+9. Barzallo D, Torrado J, Benites-Moya C, et al.
+Acute
+hemodynamic
+compromise
+after
+trans-
+catheter aortic valve replacement due to dynamic
+left ventricle obstruction: a systematic review. Am
+J Cardiol. 2024;214:125–135.
+10. Kawai K, Sengoku H, Ishihara H, et al. Total
+clinical course and autopsy ﬁndings of left ven-
+tricular outﬂow tract obstruction due to sigmoid
+septum” histologically proven isolated septal hy-
+pertrophy. Intern Med. 2017;56:2151–2154.
+11. Hamana
+T,
+Iwasaki
+M,
+Otake
+H,
+et
+al.
+A successful case of percutaneous transluminal
+septal myocardial ablation for left ventricular
+outﬂow
+tract
+obstruction
+caused
+by
+sigmoid
+septum. J Cardiol Cases. 2020;22:159–162.
+12. Dong T, Alencherry B, Ospina S, et al. Review
+of mavacamten for obstructive hypertrophic car-
+diomyopathy and future directions. Drug Des
+Devel Ther. 2023;17:1097–1106.
+13. Bode MF, Ahmed AA, Baron SJ, et al. The use
+of MitraClip to prevent posttranscatheter aortic
+valve
+replacement
+left
+ventricular
+“suicide.”.
+Catheter Cardiovasc Interv. 2021;97:369–372.
+KEY WORDS aortic valve,
+echocardiography, mitral valve
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+Jo et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+LVOTO After TAVI
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 1 2
+6

@@ -1,0 +1,537 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Obstructive Hypoattenuated Leaflet 
+Thickening in a Complex Valve-in-Valve 
+TAVR Successfully Treated With 
+Thrombolysis
+Dhan Bahadur Shrestha, MD, a Ashlesha Chaudhary, MBBS, b Unaib Memon, MBBS, b Mustafain Meghani, MD a
+ABSTRACT
+BACKGROUND Hypoattenuated leaflet thickening (HALT) is an important cause of bioprosthetic valve dysfunction 
+after transcatheter aortic valve replacement.
+CASE SUMMARY A woman in her mid-70s developed 1 week of exertional dyspnea and chest tightness 5 years after a 
+complicated transcatheter aortic valve replacement in which a migrated 26-mm Medtronic Evolut PRO+ valve was 
+snared into the distal ascending aorta, and a second 26-mm Evolut PRO+ valve was placed across the annulus. 
+Echocardiography showed severe prosthetic valve obstruction, and computed tomography angiography revealed 
+overlapping frames with leaflet hypoattenuation consistent with HALT. She received ultraslow, low-dose alteplase over 
+48 hours, followed by apixaban, resulting in marked improvement (mean gradient decreased from 66 to 28 mm Hg).
+DISCUSSION Although HALT may resemble structural valve degeneration, it can respond well to medical therapy in 
+selected patients with high procedural risk.
+TAKE-HOME MESSAGE Ultraslow, low-dose thrombolysis followed by anticoagulation can safely restore function in 
+obstructive HALT when reoperation is prohibitive. (JACC Case Rep. 2026;31:106960) © 2026 The Authors. Published 
+by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY-
+NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+T 
+ranscatheter 
+aortic 
+valve 
+replacement 
+(TAVR) has revolutionized the management 
+of severe aortic stenosis, offering a less inva-
+sive alternative to surgical aortic valve replacement, 
+especially in patients with high or intermediate sur-
+gical risk. As TAVR use has expanded into younger, 
+lower risk populations, long-term valve durability 
+and complications unique to bioprosthetic valves 
+have emerged as major clinical concerns. 1
+One such complication is hypoattenuated leaflet 
+thickening (HALT), an imaging-defined entity typi-
+cally representing subclinical leaflet thrombosis. 2 
+Clinically overt transcatheter bioprosthetic valve 
+thrombosis is less common (roughly 0.6% to 2.8% in 
+general TAVR cohorts), 3,4 but it appears higher in 
+valve-in-valve (ViV) TAVR scenarios. A multicenter 
+registry of 300 ViV TAVR cases reported a 7.6% inci-
+dence of clinical thrombosis, typically occurring
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2026.106960
+From the a Division of Cardiology, Department of Internal Medicine, Bassett Medical Center, Cooperstown, New York, USA; and 
+the b Department of Internal Medicine, Bassett Medical Center, Cooperstown, New York, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received November 21, 2025; revised manuscript received December 9, 2025, accepted January 14, 2026.
+J A C C : C A S E R E P O R T S 
+V O L . 3 1 , N O . 1 3 , 2 0 2 6
+ª 2 0 2 6 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+early (median ∼3 months postprocedure). 5 
+HALT manifests as reduced leaflet motion 
+and may occur in up to 25% to 30% of pa-
+tients within the first year after TAVR or 
+surgical aortic valve replacement. 6,7 Often 
+asymptomatic, HALT can progress to clini-
+cally significant obstruction, valve dysfunc-
+tion, 
+or 
+embolic 
+events, 
+responding 
+favorably to oral anticoagulation. 8,9 
+We present a rare case of obstructive HALT arising 
+from an unusual overlapping TAVR configuration 
+created by prior valve migration performed 5 years 
+before presentation, which was successfully treated 
+with ultraslow thrombolysis.
+HISTORY OF PRESENTATION
+A woman in her mid-70s presented with 1 week of 
+exertional dyspnea and substernal chest tightness 
+that improved with rest. She denied fevers, cough, 
+edema, syncope, or palpitations. On examination, 
+she was comfortable at rest, with a systolic ejection 
+murmur at the second right intercostal space at the 
+sternal border, normal S 1 and audible S 2 ; her lungs 
+were clear, and there was no peripheral edema. 
+Initial troponin I was modestly elevated (218.5 ng/L 
+declining to 156.5 ng/L), B-type natriuretic peptide 
+was 135 pg/mL, and D-dimer was 744 ng/mL. Elec-
+trocardiogram showed sinus rhythm with voltage 
+criteria for left ventricular hypertrophy and nonspe-
+cific ST-T changes. She was admitted to cardiology 
+with concern for prosthetic valve dysfunction versus 
+non–ST-segment elevation myocardial infarction, 
+empirically starting heparin drip.
+PAST MEDICAL HISTORY
+Five years earlier, the patient had undergone trans-
+femoral TAVR for severe symptomatic aortic stenosis 
+at an outside facility. A self-expanding 26-mm 
+Evolut PRO+ valve (Medtronic) migrated supra-
+annularly 
+during 
+delivery 
+system 
+retrieval, 
+requiring transient femorofemoral cardiopulmonary 
+bypass, snaring of the displaced valve into the distal 
+ascending aorta, and implantation of a second 26-mm 
+Evolut PRO+ valve across the annulus. This created a 
+tall-in-tall Evolut-in-Evolut configuration, with the 
+second valve implanted deeply and the first valve 
+frame retained higher in the ascending aorta, result-
+ing in a long zone of overlapping self-expanding 
+frames (Figure 1). The procedure was further 
+complicated by left common femoral artery dissec-
+tion and near-transection at the Perclose site, 
+repaired with a 6-mm Hemashield interposition graft, 
+and primary repair of the right femoral arterial
+cannulation site. She recovered without heart failure 
+symptoms. Other relevant comorbidities included 
+type 2 diabetes mellitus, hypertension, hyperlipid-
+emia, and obstructive sleep apnea.
+DIFFERENTIAL DIAGNOSIS
+The leading diagnosis was bioprosthetic HALT, sup-
+ported by Doppler gradients, leaflet hypoattenuation 
+on computed tomography (CT) angiography, and 
+subsequent improvement in gradients after lytic 
+therapy. Coexisting structural degeneration/miner-
+alization was considered likely given the higher-
+attenuation leaflet regions on CT angiography and 
+incomplete normalization of gradients. Patient-
+prosthesis mismatch was less favored because she 
+had previously done well and showed a clear thera-
+peutic response to thrombolysis. Infective endo-
+carditis was unlikely given the absence of fever, 
+leukocytosis, vegetations, or embolic phenomena.
+INVESTIGATIONS
+Admission transthoracic echocardiography (TTE) 
+demonstrated preserved left ventricular size and 
+systolic function (ejection fraction >55%), mild 
+concentric left ventricular hypertrophy, trace aortic 
+regurgitation, and elevated aortic valve gradients in 
+the setting of a prior bioprosthesis. Transesophageal 
+echocardiography 
+showed 
+severe 
+prosthetic 
+obstruction: peak velocity 5.2 m/s, mean gradient 
+66 mm Hg, Doppler velocity index 0.18, calculated 
+aortic valve area 0.5 cm 2 , and acceleration time 
+160 ms (Figure 2). There was moderate mitral
+TAKE-HOME MESSAGES
+• Obstructive HALT can present late, even 
+years after TAVR, in patients with prior 
+valve-in-valve implantation and initially 
+normal function.
+• Valve migration requiring overlapping self-
+expanding frames creates anatomical con-
+ditions that may predispose to HALT owing 
+to altered flow dynamics and incomplete 
+leaflet expansion.
+• Ultraslow, low-dose thrombolysis followed 
+by anticoagulation can safely and effectively 
+restore prosthetic valve function in patients 
+with obstructive HALT who are poor surgical 
+candidates.
+• Systemic thrombolysis may be a viable 
+nonsurgical strategy in high-risk valve-in-
+valve patients when anticoagulation alone is 
+insufficient or time-urgent improvement is 
+needed.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+CT = computed tomography
+HALT = hypoattenuated leaflet
+thickening
+TAVR = transcatheter aortic
+valve replacement
+ViV = valve-in-valve
+Shrestha et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 3 , 2 0 2 6
+Thrombolysis for HALT After ViV TAVR 
+A P R I L 1 , 2 0 2 6 : 1 0 6 9 6 0
+2
+
+=== PAGE 3 ===
+regurgitation, trace tricuspid regurgitation, normal 
+right ventricular function, normal left atrial size, and 
+no left atrial appendage thrombus.
+Chest CT angiography the same day demonstrated
+2 prosthetic aortic valves in the ascending aorta with 
+approximately 2.5-cm overlap; the distal frame was 
+partially oblique, limiting complete expansion of the 
+proximal frame at the overlap, and there were vari-
+able areas of low attenuation along the proximal 
+valve leaflets compatible with thrombus and higher-
+attenuation regions compatible with mineralization; 
+there was no pulmonary embolus, pericardial effu-
+sion, or aortic aneurysm (Figure 3). Noncontrast head
+CT excluded acute intracranial pathology before 
+thrombolysis.
+MANAGEMENT
+Given the prohibitive surgical risk for explantation in 
+an overlapping ViV construct (prior valve migration,
+2 self-expanding frames in the ascending aorta, and 
+prior femoral interposition graft), the multidisci-
+plinary team pursued a nonsurgical strategy. After 
+confirming no intracranial hemorrhage on head 
+CT and with intensive care monitoring, the patient 
+received ultraslow, low-dose alteplase infusion (no
+VISUAL SUMMARY Major Clinical Events With Echocardiographic and Chest CT Findings Showing Overlapping TAVR Valves Mimicking Complex ViV TAVR
+Configuration
+AVA = aortic valve area; BNP = B-type natriuretic peptide; CC = chief complaint; CT = computed tomography; CTA = computed tomography angiography; 
+ECG = electrocardiogram; EF = ejection fraction; HALT = hypoattenuated leaflet thickening; LVH = left ventricular hypertrophy; PVL = paravalvular leak; 
+TAVR = transcatheter aortic valve replacement; TEE = transesophageal echocardiography; TTE = transthoracic echocardiography; ViV = valve-in-valve.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 3 , 2 0 2 6 
+Shrestha et al
+A P R I L 1 , 2 0 2 6 : 1 0 6 9 6 0 
+Thrombolysis for HALT After ViV TAVR
+3
+
+=== PAGE 4 ===
+FIGURE 1 Model of Evolut PRO+ ViV Overlap Over TEE Image With ViV Construct In Situ
+(A) TEE showing valve orientation in aortic long-axis view, (B) modeling of valve with reference to image from TEE, and (C) a model of the 
+26-mm Evolut PRO+ valve-in-valve structure to better understand the valve. TEE = transesophageal echocardiography.
+FIGURE 2
+Findings on Baseline TEE Obtained the Day After Hospital Admission
+(A) TEE showing the turbulent flow across the implanted valve. (B) TEE showing atrioventricular velocity of 5.2 m/s, valve area of 0.5 cm2,
+and mean pressure gradient of 66 mm Hg. TEE = transesophageal echocardiography.
+Shrestha et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 3 , 2 0 2 6
+Thrombolysis for HALT After ViV TAVR 
+A P R I L 1 , 2 0 2 6 : 1 0 6 9 6 0
+4
+
+=== PAGE 5 ===
+bolus) targeting a rate of approximately 1 mg/h, 
+continued for a total of 48 hours. On completion of 
+thrombolysis, she was transitioned to unfractionated 
+heparin. Risk, benefits, and alternatives were dis-
+cussed in breadth, involving family members in 
+every step. Anticoagulation options, including direct 
+oral anticoagulants and vitamin K antagonists 
+(warfarin), were discussed. After an in-depth dis-
+cussion, the patient chose apixaban to avoid frequent 
+international normalized ratio monitoring. Eventu-
+ally, she was started on apixaban 5 mg twice daily; 
+aspirin was discontinued while on systemic 
+anticoagulation.
+Her 
+chronic 
+cardiovascular 
+therapies 
+were 
+continued/adjusted, and cardiac rehabilitation was 
+arranged. After treatment, follow-up TTE showed 
+marked hemodynamic improvement with a well-
+seated bioprosthesis: V max 3.5 m/s, mean gradient 
+28 mm Hg, aortic valve area ≈1.06 cm 2 , valve leaflets 
+thickened but moving well, and preserved biven-
+tricular function.
+OUTCOME AND FOLLOW-UP
+Clinically, dyspnea and chest tightness improved 
+during hospitalization; the systolic murmur short-
+ened, and S 2 became more prominent. Objectively, 
+the mean aortic gradient fell from 66 to 28 mm Hg, 
+and aortic valve area rose from 0.5 to ≈1.06 cm 2 be-
+tween pre- and postthrombolysis studies. She was
+able to ambulate more than 1,000 feet without 
+symptoms before discharge.
+At the 1-week follow-up, she remained asymp-
+tomatic at rest, reported only occasional exertional 
+dyspnea, and denied any bleeding on apixaban and 
+continued to remain on it. She was compliant with all 
+medications and awaiting cardiac rehabilitation. 
+Repeat TTE at 3 weeks showed a well-seated ViV 
+prosthesis with mild paravalvular leak at the 1 o’clock 
+position. Hemodynamics were stable with a peak 
+velocity of 3.5 m/s, a mean gradient of 30 mm Hg, 
+and a calculated aortic valve area of 1.1 cm 2 . Left 
+ventricular systolic function remained preserved 
+(ejection fraction >55%), with no regional wall 
+motion abnormalities or pericardial effusion. At the 
+1-month follow-up, the patient remained clinically 
+stable and functionally independent. A surveillance 
+3-month echocardiogram, followed by a CT angio-
+gram, was planned at 6 months to reassess leaflet 
+attenuation and valve frame geometry. Thus far, 
+she has completed 3 months of follow-up and is 
+doing well with cardiac rehabilitation. Her follow-
+up echocardiogram at 3 months showed compara-
+ble valve gradients and Doppler parameters as in 
+prior studies. If she continues to do well, the plan 
+is to continue low-dose apixaban after 6 months 
+instead of full-dose anticoagulation to avoid the 
+risk of any bleeding associated with anticoagulation 
+and to prevent subsequent HALT development 
+(Figure 4).
+FIGURE 3 Chest CT Angiogram Evaluating the TAVR Prosthesis
+(A) Coronal section showing well-seated valve-in-valve TAVR prosthesis within the aortic root and ascending aorta. (B) Coronal section showing two 26-mm Evolut 
+valves with HALT (arrows). (C) Axial section demonstrating 2 overlapping transcatheter aortic valve prostheses with HALT. (D) Sagittal section showing valve-in-
+valve in the ascending aorta across the annulus (arrow). CT = computed tomography; HALT = hypoattenuated leaflet thickening; TAVR = transcatheter aortic valve 
+replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 3 , 2 0 2 6 
+Shrestha et al
+A P R I L 1 , 2 0 2 6 : 1 0 6 9 6 0 
+Thrombolysis for HALT After ViV TAVR
+5
+
+=== PAGE 6 ===
+DISCUSSION
+Our patient developed late HALT 5 years after a 
+complicated TAVR in which the initial 26-mm self-
+expanding valve migrated and required ViV implan-
+tation and femoral graft repair. She presented with 
+new exertional dyspnea and elevated transaortic 
+prosthetic gradients; imaging revealed overlapping 
+valve frames with leaflet hypoattenuation and
+mineralization consistent with HALT. Owing to pro-
+hibitive surgical risk, she was treated with ultraslow, 
+low-dose alteplase infusion for 48 hours, followed by 
+heparin bridge and apixaban. Her symptoms and 
+hemodynamics improved significantly, confirming 
+thrombotic obstruction. In our case, we emphasize 
+that ultraslow thrombolysis with subsequent anti-
+coagulation can safely restore valve function and 
+avoid reoperation in complex ViV TAVR anatomy.
+FIGURE 4 Timeline of Clinical Events
+AVA = aortic valve area; BNP = B-type natriuretic peptide; CT = computed tomography; CTA = computed tomography angiography; 
+ECG = electrocardiogram; EF = ejection fraction; HALT = hypoattenuated leaflet thickening; LVH = left ventricular hypertrophy; 
+PVL = paravalvular leak; TEE = transesophageal echocardiography.
+Shrestha et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 3 , 2 0 2 6
+Thrombolysis for HALT After ViV TAVR 
+A P R I L 1 , 2 0 2 6 : 1 0 6 9 6 0
+6
+
+=== PAGE 7 ===
+HALT has been documented in up to 30% of TAVR 
+recipients within the first year, most often subclinical 
+and detected on surveillance imaging. 7 However, 
+symptomatic leaflet thrombosis is less common, 
+occurring in 0.6% to 2.8% of TAVR patients overall, 
+with a higher incidence in ViV procedures. 10 In a 
+multicenter ViV registry of 300 patients, Abdel-
+Wahab et al 5 reported a 7.6% incidence of clinical 
+valve thrombosis, often within 3 months of implan-
+tation. Risk factors include lack of routine anti-
+coagulation, patient-prosthesis mismatch, altered 
+flow in the neosinus created by ViV configurations, 
+and anatomical constraints preventing full leaflet 
+excursion.
+In tall-in-tall constructs, the overlap of 2 nitinol 
+frames creates a prolonged neosinus with restricted 
+washout, promoting stasis. The retained upper frame 
+may shield part of the later-deployed valve from 
+normal aortic flow, while deep implantation of the 
+functioning valve limits leaflet excursion and alters 
+sinus vortices. These flow disturbances, reduced 
+shear, delayed egress of contrast, and impaired sys-
+tolic washout, are recognized contributors to 
+thrombus formation on bioprosthetic leaflets. The 
+combination of a neosinus physiology and incom-
+plete expansion at the overlap zone likely predis-
+posed our patient to delayed HALT.
+Several case reports illustrate the spectrum of 
+HALT presentation and management. Liang et al 11 
+described a 77-year-old man with HALT 1 year after 
+TAVR who responded to initiation of a direct oral 
+anticoagulant with resolution of obstruction. In 
+contrast, Aktuerk et al 12 reported 3 ViV HALT cases, 
+one of whom required surgical explantation owing to 
+dense thrombus and obstruction despite initial 
+medical therapy. Our patient’s anatomical chal-
+lenges—2 Evolut PRO+ valves with frame overlap in 
+the ascending aorta—made reintervention particu-
+larly challenging, increasing surgical risk and sup-
+porting medical management. Similarly, unlike the 
+case reported by Zhou et al 13 where early leaflet 
+thrombosis after ViV TAVR in prosthetic valve 
+endocarditis led to myocardial infarction and death, 
+our case demonstrates successful medical resolution 
+of delayed obstructive HALT 5 years post-TAVR using 
+ultraslow thrombolysis in a high-risk surgical 
+patient.
+Thrombolytic therapy is rarely reported for TAVR-
+associated HALT, but a growing body of evidence 
+supports its utility in refractory or emergent cases.
+Chu et al 14 used systemic alteplase in an elderly man 
+with cardiogenic shock due to ViV HALT, achieving 
+initial gradient reduction. However, the patient suc-
+cumbed to unrelated ventricular arrhythmias shortly 
+after. 14 In a pivotal report by Patel et al, 15 a high-risk 
+woman with severe HALT post-TAVR failed anti-
+coagulation and was successfully treated with ultra-
+slow thrombolysis (10 mg bolus followed by 1 mg/h 
+tissue plasminogen activator infusion over 48 hours), 
+with resolution of obstruction and no bleeding com-
+plications. Our patient followed a similar regimen 
+and 
+likewise 
+showed 
+marked 
+hemodynamic 
+improvement, supporting thrombolysis as a viable 
+bridge or alternative to surgery in obstructive HALT. 
+However, because the evidence to guide long-term 
+antithrombotic therapy after HALT is limited, our 
+plan to continue full-dose apixaban for 6 months, 
+followed by a cautious transition to reduced-dose 
+therapy, was individualized based on the patient’s 
+anatomy, thrombotic risk, and bleeding profile. 
+Early recognition and prompt treatment of HALT 
+can lead to significant recovery of valve function 
+and symptom relief, as seen in this patient. In 
+contrast, delayed diagnosis or presentation in 
+cardiogenic shock is often associated with poorer 
+outcomes, as reported in the literature. The pa-
+tient’s successful response to ultraslow thrombol-
+ysis contributes to the growing evidence supporting 
+this approach as an effective treatment for bio-
+prosthetic valve thrombosis, including after TAVR, 
+and a potential alternative to high-risk surgical 
+reintervention.
+ACKNOWLEDGMENTS The authors acknowledge the 
+patient and their family for trusting their team with 
+the treatment the patient received, and they also 
+acknowledge all care providers involved in her care 
+during the hospital stay and in outpatient follow-up 
+after discharge.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS 
+FOR 
+CORRESPONDENCE: 
+Dr 
+Dhan
+Bahadur Shrestha, Division of Cardiology, Depart-
+ment of Internal Medicine, Bassett Medical Center, 1 
+Atwell Road, Cooperstown, New York 13326, USA. 
+E-mail: medhan75@gmail.com.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 3 , 2 0 2 6 
+Shrestha et al
+A P R I L 1 , 2 0 2 6 : 1 0 6 9 6 0 
+Thrombolysis for HALT After ViV TAVR
+7
+
+=== PAGE 8 ===
+R E F E R E N C E S
+1. Mack MJ, Leon MB, Thourani VH, et al. Trans-
+catheter aortic-valve replacement with a balloon-
+expandable valve in low-risk patients. N Engl J 
+Med. 2019;380:1695–1705.
+2. Makkar RR, Blanke P, Leipsic J, et al. Subclinical 
+leaflet thrombosis in transcatheter and surgical 
+bioprosthetic 
+valves: 
+PARTNER 
+3 
+cardiac 
+computed tomography substudy. J Am Coll Car-
+diol. 2020;75:3003–3015.
+3. Latib A, Naganuma T, Abdel-Wahab M, et al. 
+Treatment and clinical outcomes of transcatheter 
+heart valve thrombosis. Circ Cardiovasc Interv. 
+2015;8:e001779.
+4. Jose J, Sulimov DS, El-Mawardy M, et al. 
+Clinical bioprosthetic heart valve thrombosis after 
+transcatheter aortic valve replacement: incidence, 
+characteristics, and treatment outcomes. JACC 
+Cardiovasc Interv. 2017;10:686–697.
+5. Abdel-Wahab M, Simonato M, Latib A, et al. 
+Clinical valve thrombosis after transcatheter 
+aortic valve-in-valve implantation. Circ Cardiovasc 
+Interv. 2018;11:e006730.
+6. Chakravarty T, Søndergaard L, Friedman J, 
+et al. Subclinical leaflet thrombosis in surgical and 
+transcatheter bioprosthetic aortic valves: an
+observational study. Lancet. 2017;389:2383– 
+2392.
+7. Blanke P, Leipsic JA, Popma JJ, et al. Bio-
+prosthetic aortic valve leaflet thickening in the 
+Evolut Low Risk sub-study. J Am Coll Cardiol. 
+2020;75:2430–2442.
+8. Hansson NC. Leaflet thrombosis after trans-
+catheter aortic valve replacement: insights from 
+clinical and subclinical cases. Eur Heart J. 
+2017;38:1355–1364.
+9. Lugo LM, Romaguera R, Gómez-Hospital JA, 
+Ferreiro JL. Antithrombotic therapy after trans-
+catheter aortic valve implantation. Eur Cardiol. 
+2020;15:1–8.
+10. Sorysz D, Dziewierz A, Bagienski M, et al.
+Early results of the ongoing polish registry of 
+valve thrombosis after transcatheter aortic valve 
+implantation 
+(ZAK-POLTAVI). 
+Kardiol 
+Pol. 
+2020;78:681–687.
+11. Liang K-W, Yu C-L, Lin W-W, Lee W-L. Case 
+report: leaflet thrombosis after transcatheter 
+aortic valve replacement with worsening heart 
+failure-a successful resolution using non-vitamin 
+K antagonist oral anticoagulant. Front Cardiovasc 
+Med. 2021;8:731427.
+12. Aktuerk D, Mirsadraee S, Quarto C, 
+Davies S, Duncan A. Leaflet thrombosis after 
+valve-in-valve transcatheter aortic valve im-
+plantation: a case series. Eur Heart J Case Rep. 
+2020;4:1–6.
+13. Zhou Y, Fu B, Jiang N, Guo Z. Case report: 
+leaflet thrombosis after transcatheter valve-in-
+valve aortic valve replacement in prosthetic 
+valve endocarditis. Front Cardiovasc Med. 
+2025;12:1529523.
+14. Chu J, Nath N, Attanasio S. Thrombolysis for 
+cardiogenic shock secondary to aortic bio-
+prosthetic valve-in-valve thrombosis. Cureus. 
+2022;14:e33141.
+15. Patel H, Lester J, Essa A, et al. A novel man-
+agement to severe hypoattenuation leaflet 
+thickening following transcatheter aortic 
+valve replacement. Struct Heart. 2025;9: 
+100706.
+KEY WORDS hypoattenuated leaflet 
+thickening, transfemoral transcatheter 
+aortic valve replacement, ultraslow 
+low-dose alteplase
+Shrestha et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 3 , 2 0 2 6
+Thrombolysis for HALT After ViV TAVR 
+A P R I L 1 , 2 0 2 6 : 1 0 6 9 6 0
+8

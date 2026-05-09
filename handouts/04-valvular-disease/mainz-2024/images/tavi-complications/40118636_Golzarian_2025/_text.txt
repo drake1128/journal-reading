@@ -1,0 +1,672 @@
+
+=== PAGE 1 ===
+CRITICAL CARE AND RESUSCITATION
+CLINICAL CASE
+Valve-in-Valve TAVR Complicated by
+Left Main Coronary Obstruction Salvaged
+by Left Atrial VA-ECMO
+Hafez Golzarian, DO,a,b Abdelrahman Osman, BS,c Anna C. Kleman, RN,d Mallory Knous, RN,d
+Janelle M. Fields, RT(R)CI,d Andrew H. Macke, RT(R)(CV),d Emily Shappell, CCP,d Amanda D. Laird, CNP,e
+William C. Cole, MD,e John Sirak, MD,f Sandeep M. Patel, MDd
+ABSTRACT
+BACKGROUND Coronary artery obstruction (CAO) is a life-threatening complication of valve-in-valve transcatheter
+aortic valve replacement (TAVR) often necessitating expeditious intervention and hemodynamic support.
+CASE SUMMARY We present the case of a patient undergoing valve-in-valve TAVR who endured cardiac arrest
+secondary to CAO due to leaﬂet impingement, necessitating immediate venoarterial extracorporeal membrane oxygen-
+ation support. Subsequent percutaneous coronary intervention using a workhorse guidewire and stent successfully
+restored coronary ﬂow.
+DISCUSSION We describe an order of operations protocol used at our center for such cases elucidating the logistics and
+implementation of the strategy that allowed for successful resuscitation of our patient. The increasing complexity of
+TAVR procedures necessitates proceduralists’ familiarity with advanced bailout techniques and multidisciplinary team
+approaches to address such critical complications.
+TAKE-HOME MESSAGE This case highlights the importance of prompt recognition, hemodynamic stabilization with
+venoarterial extracorporeal membrane oxygenation, and emergent percutaneous coronary intervention in managing CAO
+post-TAVR. (JACC Case Rep. 2025;30:103200) © 2025 The Authors. Published by Elsevier on behalf of the American
+College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.
+org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 78-year-old woman presented for elective valve-in-
+valve transcatheter aortic valve replacement (TAVR)
+due to symptomatic severe aortic insufﬁciency (NYHA
+functional class III). Vital signs were remarkable for a
+widened pulse pressure of 152/33 mm Hg. Physical
+examination revealed grade 3 diastolic decrescendo
+murmur along the left sternal border with soft second
+heart sounds and 3þ pitting edema in lower extrem-
+ities bilaterally. She was deemed a high prohibitive
+risk for redo surgical valve replacement; therefore,
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.103200
+From the aInternal Medicine Residency Program, Mercy Health–St. Rita’s Medical Center, Lima, Ohio, USA; bCardiovascular
+Disease Fellowship Program, HCA Houston Healthcare-Kingwood/University of Houston College of Medicine, Houston, Texas,
+USA; cUniversity of Cincinnati College of Medicine, Cincinnati, Ohio, USA; dStructural Heart & Intervention Center, Mercy Health–
+St. Rita’s Medical Center, Lima, Ohio, USA; eDepartment of Critical Care, Mercy Health–St. Rita’s Medical Center, Lima, Ohio, USA;
+and the fDepartment of Cardiothoracic Surgery, Mercy Health–St. Rita’s Medical Center, Lima, Ohio, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received August 1, 2024; revised manuscript received November 13, 2024, accepted November 19, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 6 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+valve-in-valve
+TAVR
+was
+recommended.
+Standard preprocedural computed tomogra-
+phy
+with
+angiography
+was
+performed.
+Coronary heights were approximately 11 mm
+(Figure 1). The virtual valve-to-coronary ratio
+was 4.3 mm.
+No
+signiﬁcant
+bulky
+calciﬁcation
+was
+noted. Sinus of Valsalva width and heights,
+and sinotubular junction measurements were
+appropriate (Figure 2) and did not indicate need for
+any adjunctive coronary protection strategy (ie, pre-
+emptive guide/stent insertion or percutaneous leaﬂet
+laceration). She was prepped in sterile fashion and
+underwent
+a
+successful
+transfemoral
+Medtronic
+29-mm Evolut FX prosthesis implantation per stan-
+dard protocol. Before release (at 80% deployment),
+coronary ﬂow and valve positioning was deemed
+appropriate. Post-deployment angiography in multi-
+ple
+projections
+also
+conﬁrmed
+appropriate
+valve
+positioning. However, shortly afterward, she became
+acutely hypotensive and rapidly deteriorated into
+sustained ventricular ﬁbrillation with cardiac arrest.
+PAST MEDICAL HISTORY
+The patient had a prior subcoronary stentless surgical
+aortic valve replacement (27-mm Medtronic Freestyle
+Bioprosthetic) 2 decades prior, chronic kidney dis-
+ease, hypertension, hyperlipidemia, and coronary
+artery disease.
+INVESTIGATIONS
+Cardiopulmonary
+resuscitation
+was
+immediately
+initiated. Transthoracic echocardiography immedi-
+ately before arrest had revealed a signiﬁcant decline
+in left ventricular function with ventricular dilata-
+tion. No effusions or signs of tamponade were noted.
+At the same time, aortography was quickly per-
+formed, revealing a patent right coronary artery.
+However, there was subtotal obstruction of the left
+coronary artery at the level of the ostium with trace
+contrast
+ﬂow
+conﬁrming
+the
+diagnosis
+of
+acute
+obstruction of the left main ostium (Figure 3A).
+MANAGEMENT
+Multiple attempts to engage the left coronary with
+various catheters including a Judkins Left-4.0 (Merit
+Medical Systems Inc), EBU 3.5 5-F guiding catheter
+and EBU 3.75 5-F guiding (Medtronic), and VL-3.5 and
+VL-3.75 (Boston Scientiﬁc) were unsuccessful. How-
+ever,
+the
+patient’s
+hemodynamics
+continued
+to
+decline. Because a heart team discussion ensued, our
+cardiothoracic surgical team was alerted to prep for
+emergent surgery. Meanwhile, staff engaged in car-
+diopulmonary resuscitation until the patient was
+expeditiously placed on percutaneous venoarterial
+extracorporeal membrane oxygenation (VA-ECMO)
+support. For cannulation, the TAVR site was used as
+the arterial cannula site and was exchanged for a 19-F
+arterial cannula. This was followed by placement of a
+25-F multistage venous drainage cannula in the left
+femoral vein with the tip in the superior vena cava.
+Thereafter, a total of 3 episodes of ventricular
+ﬁbrillation were promptly identiﬁed and deﬁbrillated
+as we continued our attempts to engage the left cor-
+onary. Finally, with an Amplatz left 1 guiding catheter
+and 0.014 Runthrough NS PTCA Guidewire (Terumo
+Interventional Systems), we were able to knuckle the
+guidewire through the valve frame and over the
+impinged leaﬂet and pass into the left main coronary.
+We then passed a Guidezilla II Guide Extension
+Catheter (Boston Scientiﬁc) for support and passed
+3.0-, 4.0-, and 5.0-mm compliant balloons into the
+artery, successfully reestablishing ﬂow (Figure 3B)
+and attempted to push the obstructing leaﬂet into the
+sinus, but this was not feasible. Although pulsatility
+returned,
+coronary
+patency
+was
+not
+sustainable
+despite multiple balloon angioplasties. In the setting
+of successful coronary reengagement, a shared heart
+team decision was made to stent the ostium with the
+proximal portion of the stent protruding proximal to
+the valve frame using a 5.0-  15-mm Onyx Frontier
+drug-eluting stent, ensuring uninterrupted ﬂow from
+the
+aorta
+(Figure
+3C),
+rather
+than
+proceeding
+with open heart to avoid further morbidity. Despite
+stabilization on VA-ECMO, transesophageal echocar-
+diogram revealed signiﬁcant spontaneous echocardi-
+ography contrast in the left atrium due to immobile
+mitral valve, poor left ventricular function, and sig-
+niﬁcant afterload (Figure 4, Video 1).
+Therefore, we elected to proceed with transeptal
+decompression
+strategies
+by
+upgrading
+her
+LEARNING OBJECTIVES
+ To identify coronary artery obstruction as
+the etiology of rapid decline in a patient
+undergoing transcatheter aortic valve
+replacement.
+ To
+demonstrate
+a
+feasible
+strategy
+in
+providing timely and efﬁcacious resuscita-
+tion in patients with cardiac arrest due to
+coronary obstruction.
+ To review current guidelines and mitigative
+strategies for this life-threatening
+complication.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+CAO = coronary artery
+obstruction
+TAVR = transcatheter aortic
+valve replacement
+VA-ECMO = venoarterial
+extracorporeal membrane
+oxygenation
+Golzarian et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+ViV-TAVR Complicated by Coronary Obstruction and Cardiac Arrest
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 2 0 0
+2
+
+=== PAGE 3 ===
+mechanical circulatory support to left atrial VA-
+ECMO using a 21-F Protek Solo transseptal cannula
+(LivaNova) placed via the right femoral vein. A
+Y-circuit was built, connecting the left atrial and
+right atrial drainage cannulas into a single cannula
+which
+was
+connected
+into
+the
+oxygenator
+and
+pump. A distal perfusion catheter was placed in the
+right superior femoral artery in antegrade fashion to
+prevent limb ischemia. Thereafter, she was then
+managed in the intensive care unit. Serial echocar-
+diography throughout her course ensured appropri-
+ately
+recovering
+left
+ventricular
+function
+with
+proper valve positioning without any perivalvular
+leaks or effusions. By day 5, her cardiogenic shock
+had fully resolved. On explantation, she was dis-
+charged
+to
+our
+inpatient
+rehabilitation
+facility
+where she successfully completed 1 month of car-
+diac
+rehabilitation
+with
+no
+cardiopulmonary
+or
+neurologic limitations to date.
+DISCUSSION
+With an inpatient mortality rate as high as 50%,
+coronary artery obstruction (CAO) remains one of the
+most fatal complications of TAVR.1 Any onset of
+hypotension minutes, hours, and even days post-
+deployment should prompt considerations of this
+complication. Risk factors include having low-lying
+coronary ostia, large, bulky calciﬁcation of leaﬂets,
+narrow
+sinotubular
+junction,
+narrow
+diameter
+at
+the
+sinuses
+of
+Valsalva,
+high
+implantation,
+and
+valve-in-valve replacement, among many others. The
+risk is 4-fold in females and attributable to the
+aforementioned anatomic characteristics. Most cases
+(80%-90%) involve the left coronary artery.2
+Management may depend on several factors (eg,
+timing, etiology, degree of obstruction, type of valve
+used).
+Due
+to
+the
+rarity
+and
+morbidity
+of
+this
+complication, salvage strategies are not streamlined
+in current practice and are limited to case reports.
+Emphasis should be placed on early recognition,
+establishment of appropriate cardiopulmonary sup-
+port, and emergent percutaneous intervention (if
+feasible) or surgery. In our case, although the pre-
+procedural
+computed
+tomography
+planning
+mea-
+surements were adequate for Evolut 29 mm, we
+hypothesize that the combination of mild sinotubular
+junction calciﬁcation/thickening, rigid degenerative
+bioprosthetic leaﬂets, and inner skirt height of the
+Evolut prosthesis may have contributed in combina-
+tion to sequestration and obstruction of the coronary
+artery. In certain cases, self-expanding valves can be
+ensnared and repositioned if prior to release, whereas
+balloon-expandable valves often require immediate
+cannulation and high-pressure balloon angioplasty of
+the caged ostium.3 Based on limited data in the
+literature,
+stent
+implantation
+seems
+to
+be
+the
+preferred and recommended strategy for CAO salvage
+with an index success rate of 68.8%, as was per-
+formed in our case.1 Emergent surgical revasculari-
+zation
+should
+be
+considered
+if
+percutaneous
+intervention is unsuccessful.
+FIGURE 1
+Coronary and Sinotubular Junction Heights on Preprocedural Computed Tomography Angiography
+Blue arrows demonstrate heights of sinotubular junction from basal ring (longer arrows) and the coronary heights measuring roughly 11 mm (shorter arrows). LCC ¼ left
+coronary cusp; NCC ¼ noncoronary cusp; RCC ¼ right coronary cusp.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Golzarian et al
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 2 0 0
+ViV-TAVR Complicated by Coronary Obstruction and Cardiac Arrest
+3
+
+=== PAGE 4 ===
+As the indications for TAVR continue to expand, an
+increasing necessity and complexity of valve re-
+placements
+and
+post-TAVR
+percutaneous
+in-
+terventions
+are
+anticipated
+in
+the
+near
+future.
+Proceduralists should familiarize themselves with
+technical difﬁculties associated with coronary reen-
+gagement and how to overcome these. We recom-
+mend having a low threshold for post-deployment
+aortography in the setting of clinical concerns or even
+to
+assess
+feasibility
+of
+coronary
+engagement for
+future procedures. However, once the diagnosis is
+conﬁrmed, hemodynamic stabilization needs to be
+the priority because intervention may take time and
+cardiac arrest is likely imminent. Therefore, activa-
+tion for emergent surgery while proceeding with
+emergency VA-ECMO using the TAVR access site is
+imperative. Either with perfusion assistance or with
+trained
+laboratory
+personnel,
+the
+extracorporeal
+membrane oxygenation circuit should be prepped
+and instituted immediately to allow for patient sta-
+bilization and team regrouping to understand the
+next strategic steps. In doing so, we are able to ensure
+patient
+stabilization
+regardless
+of
+the
+operator’s
+ability to engage the obstructed coronary.
+The engagement technique was expectedly chal-
+lenging because shorter guides did not allow for
+FIGURE 2
+Additional Anatomic Measurements on Preprocedural Planning
+(A) Annulus dimensions measuring 22.8  26.9 mm. (B) Sinus widths ranging from 30.6 to 32.6 mm. (C) Left ventricular outﬂow tract dimensions
+measuring 24.2  28.5 mm. (D) Sinotubular junction diameters of 26.7  29.0 mm. LVOT ¼ left ventricular outﬂow tract. Other abbreviations as
+in Figure 1.
+Golzarian et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+ViV-TAVR Complicated by Coronary Obstruction and Cardiac Arrest
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 2 0 0
+4
+
+=== PAGE 5 ===
+proper
+angulation
+and
+engagement.
+Rather
+than
+focusing on the coronary ostium, the primary objec-
+tive was to locate a space above the impinged leaﬂet,
+through which a wire could potentially be introduced.
+Although shorter guides are generally preferable, the
+speciﬁc case required the use of the combination of
+an Amplatz left 1 guide in combination with a work-
+horse Runthrough wire with a more oblique angle to
+be able to maneuver through the valve struts and
+prolapse over the leaﬂet and into the left main
+ostium.
+Several techniques have been proposed in recent
+years to help mitigate the risk of CAO, such as
+guidewire
+left
+main
+protection,
+snorkel/chimney
+stenting, BASILICA (Bioprosthetic or native aortic
+scallop intentional laceration to prevent iatrogenic
+coronary
+artery
+obstruction
+during
+TAVR),
+and
+snare techniques.3-6 Ongoing studies suggest statis-
+tically comparable rates of technical success and
+periprocedural complications for both stenting and
+BASILICA. However, BASILICA may be favored in the
+future because it appears to provide the long-term
+advantage of better future reengagement; however,
+it is too early to tell. Furthermore, preliminary data
+also reveal a cardiovascular mortality of 6.7% associ-
+ated with chimney stenting as opposed to 1.3% with
+BASILICA. However, the data on these techniques are
+limited to small sample sizes, making it extremely
+difﬁcult to provide generalizability and true efﬁcacy
+FIGURE 3
+Aortography Pre and Post Left Main Coronary Artery Salvage
+(A) Subtotal obstruction of the left main coronary artery with trace contrast ﬂow in the associated with the white vertical line of the leaﬂet consistent with coronary
+artery obstruction. (B) A 4.0 compliant balloon successfully passing into the artery after ﬁnally gaining access with the Amplatz left 1 guide catheter and a 0.014-inch
+Runthrough NS PTCA guidewire. (C) Patent left main coronary artery status post implantation of 5.0  15 mm Onyx Frontier drug-eluting stent.
+FIGURE 4
+Afterload Burden Immediately Post Initiation of
+Venoarterial Extracorporeal Membrane Oxygenation
+Transesophageal echocardiography (TEE) with mid-esophageal
+view revealing spontaneous echocardiographic contrast within
+left ventricular and atrial cavities on TEE suggesting low blood
+ﬂow velocities compounded by signiﬁcant afterload which
+prompted conversion to left atrial venoarterial extracoporeal
+membrane oxygenation. AMVL ¼ anterior mitral valve leaﬂet;
+AV ¼ aortic valve; LA ¼ left atrium; LV ¼ left ventricle;
+LVOT ¼ left ventricular outﬂow tract; PMVL ¼ posterior mitral
+valve leaﬂet.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Golzarian et al
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 2 0 0
+ViV-TAVR Complicated by Coronary Obstruction and Cardiac Arrest
+5
+
+=== PAGE 6 ===
+in preventing CAO, and even these techniques do not
+absolve all issues in their entirety. The international
+TAVR registry reported left main protection imple-
+mentation in nearly one-fourth of patients (23.7%)
+who suffered from delayed CAO.1 Furthermore, the
+novelty of these strategies can be limiting, requiring
+proceduralists to continuously expand their skillset
+and practice. Finally, the implantation technique and
+type of underlying surgical valve may also affect
+patient-prosthesis mismatch and risks of complica-
+tions. Despite its advantages, the Freestyle valve is a
+stentless prosthesis known to carry an above average
+risk of CAO.7
+Utilization of VA-ECMO becomes paramount in such
+situations and knowing when to upgrade to left atrial
+venoarterial extracoporeal membrane oxygenation
+requires further understanding of hemodynamics, left
+ventricular decompression strategies, circuitry build,
+and percutaneous implementations. As more patients
+consent for such complex structural interventions,
+heart teams should anticipate, plan, and train for such
+specialized bailout procedures and management stra-
+tegies. Knowing how to prioritize multisystem inter-
+ventional issues while delegating team member roles,
+optimizing access sites, and ensuring availability of
+respiratory and imaging support is often the difference
+between
+life
+and
+death
+in
+these
+complex
+interventions. At our center, we implement an order of
+operations protocol referred to as RAMPS to help guide
+multidisciplinary heart teams in the event of post-
+TAVR CAO.
+Finally, we would be remiss without acknowl-
+edging operator fatigue. These cases can be consid-
+erably
+cumbersome
+and
+onerous.
+Therefore,
+we
+strongly advocate for thorough utilization of the
+entire heart team and other services available to the
+proceduralist
+(eg,
+intensivists,
+anesthesiologists,
+nurse practitioners, respiratory therapists).
+FOLLOW-UP AND OUTCOMES
+Our patient is now 12 months post index procedure
+and continues to do well with no cardiopulmonary or
+neurologic limitations to date.
+CONCLUSIONS
+Despite
+advancements
+and
+ongoing
+attempts
+to
+streamline mitigative strategies, CAO remains an
+inevitable and highly morbid complication of TAVR.
+Urgent coronary intervention and hemodynamic me-
+chanical support are imperative to promote surviv-
+ability. Larger-scale studies on various preventative
+and
+resuscitative
+strategies
+are
+ongoing
+and
+VISUAL SUMMARY
+RAMPS Protocol: An Order of Operations for Post-Transcatheter Aortic Valve Replacement Coronary Artery Obstruction
+ACLS ¼ adult circulatory life support; ICU ¼ intensive care unit; MCS ¼ mechanical circulatory support; LV ¼ left ventricle; OR ¼ operating room; TAVR ¼ transcatheter
+aortic valve replacement; VA-ECMO ¼ venoarterial extracorporeal membrane oxygenation.
+Golzarian et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+ViV-TAVR Complicated by Coronary Obstruction and Cardiac Arrest
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 2 0 0
+6
+
+=== PAGE 7 ===
+necessary to help clinicians better understand the
+efﬁcacy,
+feasibility,
+and
+realistic
+expectations
+in
+managing such complications.
+ACKNOWLEDGMENTS The authors would like to ex-
+press their deepest gratitude to Denise M. Walker and
+Ben Wischmeyer, as well as the Mercy Health - St.
+Rita’s Medical Center Department of Graduate Medi-
+cal Education and the Structural Heart & Catheteri-
+zation
+Lab
+team
+members,
+for
+their
+invaluable
+support.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Sandeep M.
+Patel, Structural Heart and Intervention Center, St.
+Rita’s
+Medical
+Center
+(Mercy),
+730
+West
+Market
+Street, 2K Tower, Lima, Ohio 45801, USA. E-mail:
+SMPatel@mercy.com.
+R E F E R E N C E S
+1. Jabbour RJ, Tanaka A, Finkelstein A, et al.
+Delayed coronary obstruction after transcatheter
+aortic valve replacement. J Am Coll Cardiol.
+2018;71(14):1513–1524. https://doi.org/10.1016/j.
+jacc.2018.01.066
+2. Ribeiro HB, Nombela-Franco L, Urena M, et al.
+Coronary
+obstruction
+following
+transcatheter
+aortic valve implantation: a systematic review.
+JACC Cardiovasc Interv. 2013;6:452–461. https://
+doi.org/10.1016/j.jcin.2012.11.014
+3. Dvir D, Leipsic J, Blanke P, et al. Coronary
+obstruction
+in
+transcatheter
+aortic
+valve-in-
+valve implantation: preprocedural evaluation,
+device
+selection,
+protection,
+and
+treatment.
+Circ
+Cardiovasc
+Interv.
+2015;8(1):e002079.
+https://doi.org/10.1161/CIRCINTERVENTIONS.
+114.002079
+4. Ponangi UP, Yadav S, Kushwaha V, Yadav R,
+Lander K, Eng L. Correction of a malpositioned
+portico transcatheter aortic valve using a snare
+maneuver. JACC Case Rep. 2019;1:838–843.
+5. Espinoza Rueda MA, Muratalla González R,
+García García JF, et al. Description of the step-
+by-step technique with snare catheter for TAVR
+in horizontal aorta. JACC Case Rep. 2021;3:1811–
+1815.
+6. Khan JM, Greenbaum AB, Babaliaros VC, et al.
+The
+BASILICA
+trial:
+prospective
+multicenter
+investigation of intentional leaﬂet laceration to
+prevent TAVR coronary obstruction. JACC Car-
+diovasc Interv. 2019;12(13):1240–1252.
+7. Miller M, Snyder M, Horne BD, et al. Trans-
+catheter aortic valve-in-valve replacement for
+degenerated stentless bioprosthetic aortic valves:
+results of a multicenter retrospective analysis.
+JACC Cardiovasc Interv. 2019;12(13):1217–1226.
+KEY WORDS aortic valve replacement,
+cardiogenic shock, coronary, hemodynamics,
+mechanical circulatory support
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 6 , 2 0 2 5
+Golzarian et al
+M A R C H 1 9 , 2 0 2 5 : 1 0 3 2 0 0
+ViV-TAVR Complicated by Coronary Obstruction and Cardiac Arrest
+7

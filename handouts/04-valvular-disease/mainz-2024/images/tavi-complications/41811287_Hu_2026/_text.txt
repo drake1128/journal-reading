@@ -1,0 +1,351 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Management of a Chronically Infolded 
+Self-Expanding Aortic Valve
+Sofia Hu, MD, PHD, a Daniel Amponsah, MD, b Sachin Malik, MD, c Patricia Nguyen, MD, b Neha Mantri, MD, b 
+Reem Elorbany, MD PHD, b Amelia C. Watkins, MD, a Yihan Lin, MD MPH, a Guson Kang, MD b
+ABSTRACT
+BACKGROUND Infolding is a known complication of self-expandable transcatheter valves that typically causes 
+hemodynamic compromise. Delayed diagnosis of infolding is rare and can result in premature leaflet degeneration, with 
+limited treatment options.
+CASE SUMMARY A 71-year-old man presented 5 years after transcatheter aortic valve replacement (TAVR) with 
+severe intravalvular regurgitation. Transesophageal echocardiography revealed significant infolding of the valve. The 
+patient underwent valve-in-valve TAVR, which successfully resolved the aortic insufficiency.
+DISCUSSION This is the first reported case of a chronically infolded TAVR, which is a rare but significant complication 
+of self-expandable valves. We demonstrate that valve-in-valve replacement can successfully overcome chronic frame 
+distortion and endothelialization.
+TAKE-HOME MESSAGES Transcatheter valve infolding does not necessarily cause significant hemodynamic changes, 
+which can lead to delays in diagnosis and treatment. Chronic infolding can be visualized by 3D computed tomog-
+raphy and can result in premature leaflet degeneration. Structural distortion of self-expandable valves, even years 
+after implant, can be overcome with high-pressure valvuloplasty and valve-in-valve replacement. (JACC Case Rep. 
+2026;31:107362) Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open 
+access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 71-year-old man with a history of reduced systolic 
+function presented with fatigue and was diagnosed 
+with low-flow, low-gradient aortic stenosis. Stress 
+echocardiography revealed a left ventricular ejection 
+fraction (EF) of 25%, an aortic valve mean gradient of 
+45 mm Hg, and valve area of 0.56 cm 2 , and he was 
+diagnosed with low-flow, low-gradient aortic steno-
+sis. Computed tomography (CT) showed valvular
+calcification with a maximum annular diameter of 
+28.7 mm (Figure 1, Video 1). The patient underwent 
+transfemoral transcatheter placement of a 34-mm 
+Medtronic Evolut Pro valve. No predilation or post-
+dilation with balloon valvuloplasty was performed. 
+He tolerated the procedure well, and postdeployment 
+echocardiography revealed mild intravalvular and 
+perivalvular regurgitation.
+The patient was followed up with surveillance 
+echocardiography. Initially, the patient’s EF improved
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2026.107362
+From the a Department of Cardiothoracic Surgery, Stanford University School of Medicine, Stanford, California, USA; 
+b Department of Medicine, Division of Cardiovascular Medicine, Stanford University School of Medicine, Stanford, California, 
+USA; and the c Department of Radiology, Stanford University School of Medicine, Stanford, California, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received November 30, 2025; revised manuscript received February 10, 2026, accepted February 11, 2026.
+J A C C : C A S E R E P O R T S 
+V O L . 3 1 , N O . 1 5 , 2 0 2 6
+P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R T H E
+C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+and left ventricular volume decreased post-
+transcatheter 
+aortic 
+valve 
+replacement 
+(TAVR) (Figure 2). However, after 1 year, the 
+aortic regurgitation progressed from mild to 
+moderate. Routine post-TAVR surveillance 
+transthoracic 
+echocardiograms 
+(TTEs) 
+demonstrated a gradual decline in EF and an 
+increase in left ventricular volumes.
+He was readmitted 5 years later after an 
+episode of near syncope and was found to 
+have increased somnolence and significant 
+deconditioning of several weeks.
+PAST MEDICAL HISTORY
+The patient had a history of heart failure with a 
+reduced EF, which predated his TAVR procedure and 
+subsequently 
+improved 
+immediately 
+following 
+TAVR. Echocardiography studies obtained annually 
+after his TAVR continued to demonstrate mild 
+intravalvular and perivalvular regurgitation. He also 
+had a history of right carotid artery stenosis, for 
+which he underwent transcarotid artery revasculari-
+zation at age 75.
+DIFFERENTIAL DIAGNOSIS
+Differential diagnosis included heart failure exacer-
+bation, recurrent carotid artery stenosis, recurrent 
+aortic stenosis, and coronary artery disease.
+INVESTIGATIONS
+Initially, workup for cerebrovascular accident was 
+pursued, including cross-sectional imaging of the
+head and neck, which was negative. Cardiopulmo-
+nary causes were assessed, and TTE showed signifi-
+cant systolic dysfunction with an EF of 25% and 
+worsening aortic insufficiency. Subsequently, trans-
+esophageal echocardiogram (TEE) was obtained for 
+better visualization and showed severe intravalvular 
+regurgitation. Significant deformation of the valve 
+was also seen (Figure 3). This prompted a review of 
+fluoroscopy obtained at the time of valve deploy-
+ment, which confirmed infolding of at least 2 nodes 
+(Figure 4).
+Re-do TAVR options were considered, and CT 
+TAVR was obtained for preoperative planning and 
+coronary obstruction risk assessment. The study 
+showed incomplete expansion of the TAVR across the 
+commissure between the left and noncoronary cusps, 
+resulting in focal kinking of the bottom half of the 
+valve frame (Figure 5). The left and right coronary 
+arteries were located at 19 mm and 17 mm, respec-
+tively, above node 0.
+VISUAL SUMMARY Use Timeline of the Case
+Timeline 
+Events
+Day 1
+A 71-year-old man with reduced systolic function (EF 25%) presented with fatigue and was diagnosed with low-flow, low-
+gradient aortic stenosis.
+He underwent transfemoral TAVR with a self-expanding valve.
+Day 2
+Post-TAVR TTE demonstrates mild intravalvular and perivalvular regurgitation.
+Month 1
+Postdischarge TTE redemonstrates mild aortic regurgitation. The valve appears well-seated, and the patient’s EF improved to 
+50%.
+Years 1-4
+Surveillance TTE continues to show aortic regurgitation, which progresses from mild to mild-moderate. The patient’s EF 
+progressively worsens, to 32%.
+Year 5, hospital 
+day 0
+Re-presented after an episode of near syncope and was found to have increased somnolence and significant deconditioning of 
+several weeks. Workup revealed severe aortic regurgitation.
+Year 5, hospital 
+day 7
+Underwent ViV TAVR with ballon-expandable valve.
+Year 5, hospital 
+day 8
+Post-ViV TAVR TTE well-seated valve with no significant intravalvular leak and only mild perivalvular leak.
+Year 5, month 1
+Surveillance TTE demonstrates improved EF and stable mild perivalvular leak.
+EF = ejection fraction; TAVR = transcatheter aortic valve replacement; TTE = transthoracic echocardiography; ViV = valve-in-valve.
+TAKE-HOME MESSAGES
+• Transcatheter valve infolding does not 
+necessarily cause significant hemodynamic 
+changes, which can lead to delays in diag-
+nosis and treatment.
+• Chronic infolding can be visualized by 
+3-dimensional computed tomography and 
+can result in premature leaflet degeneration.
+• Structural distortion of self-expandable 
+valves, even years after implant, can be 
+overcome with high-pressure valvuloplasty 
+and valve-in-valve replacement.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+CT = computed tomography
+EF = ejection fraction
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiography
+TTE = transthoracic
+echocardiography
+ViV = valve-in-valve
+Hu et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 5 , 2 0 2 6
+Management of Chronically Infolded TAVR 
+A P R I L 1 5 , 2 0 2 6 : 1 0 7 3 6 2
+2
+
+=== PAGE 3 ===
+MANAGEMENT
+The patient was recommended for and consented to 
+undergo valve-in-valve TAVR. As the nitinol frame of 
+the patient’s existing TAVR was severely kinked, the 
+use of predilation and a balloon-expandable valve 
+was planned to overcome the structural deformity 
+and enable deployment of a sufficiently large second 
+TAVR.
+The procedure began with standard transfemoral 
+access, including venous femoral access for trans-
+venous pacing. The bioprosthetic TAVR was first 
+predilated with a 23-mm True Dilatation balloon at 
+high pressure (15 atm) while pacing at 160 and then 
+180 beats/min (Figure 6A). TEE and fluoroscopy 
+confirmed expansion of the valve and resolution of 
+the frame infolding. However, there was persistent 
+severe intravalvular regurgitation (Figure 6B).
+The balloon was removed and exchanged for the 
+TAVR delivery system. A 26-mm Edwards SAPIEN 3
+Ultra was deployed successfully while pacing at 160 
+and then 200 beats/min (Figure 6C). Deployment was 
+performed at node 5 to facilitate future coronary ac-
+cess. Postdeployment TEE demonstrated no aortic 
+insufficiency and mild perivalvular leak (Figure 6D).
+OUTCOME AND FOLLOW-UP
+The patient had an uneventful postprocedural re-
+covery and endorsed resolution of symptoms. TTE 
+obtained on postprocedural day 1 demonstrated un-
+changed mild perivalvular leak. He was discharged 
+without complications to a rehabilitation facility and 
+then home. At 1-month follow-up, TTE showed 
+improvement in systolic function with an EF of 48% 
+(Figure 2) and stable mild perivalvular leak.
+DISCUSSION
+Infolding is a rare complication of self-expandable 
+transcatheter valves, occurring in 1% of patients. 1,2
+FIGURE 1 Pre-TAVR CT Angiography
+Pre-TAVR CT scan demonstrates valvular calcification (A) and annular dimensions (B). CT = computed tomography; TAVR = transcatheter 
+aortic valve replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 5 , 2 0 2 6 
+Hu et al
+A P R I L 1 5 , 2 0 2 6 : 1 0 7 3 6 2 
+Management of Chronically Infolded TAVR
+3
+
+=== PAGE 4 ===
+Risk factors include significant calcification of the 
+native valve, insufficient predilation, and deploy-
+ment of larger valves. 3 In this case, we suspect the 
+infolding was caused by a combination of excessive 
+prosthesis oversizing and bulky calcification, result-
+ing in deformation of the frame upon initial 
+recapture.
+Commonly, the incomplete leaflet apposition 
+caused by infolding results in severe aortic insuffi-
+ciency and hemodynamic compromise. 4 When 
+recognized early, infolding can be addressed with 
+balloon postdilation or valve recapture and replace-
+ment. 3 Prior case reports of valve infolding have
+demonstrated management at the index procedure 
+only. 5
+In contrast, the infolding presented in this case did 
+not cause significant hemodynamic changes, and the 
+patient tolerated the mild paravalvular leak for years. 
+Three-dimensional CT imaging obtained 5 years after 
+TAVR placement demonstrated how extensively the 
+frame can infold without resulting in hemodynamic 
+collapse. To our knowledge, this is the first reported 
+case of a chronically infolded self-expandable valve 
+that was not managed during the initial deployment. 
+When infolding is not promptly addressed, asym-
+metrical tension and stress on the leaflets can result 
+in premature degeneration. Therefore, approaches 
+that address infolding during the initial valve 
+deployment may not be successful for chronic 
+infolding. As evidenced here, valvuloplasty resolved 
+the valve deformation but not paravalvular leak, 
+indicating irreversible leaflet damage. Following his 
+initial TAVR, the patient experienced years of clinical 
+stability before his acute-on-chronic decline, and this 
+chronicity suggests that progressive leaflet degener-
+ation exacerbated the paravalvular leak.
+In such cases, valve-in-valve replacement may 
+present the only solution. Our successful experience 
+with this approach suggests that the self-expanding 
+Nitinol frames do not exhibit significant memory 
+effects from chronic distortion and can rebound to its 
+manufactured shape with valvuloplasty. In addition, 
+the frames can be mobilized despite endothelializa-
+tion in a distorted conformation and can accommo-
+date full expansion of a balloon-expandable valve. 
+This case illustrates the percutaneous approaches 
+available for structural deformations of self-
+expandable valves.
+CONCLUSIONS
+Chronic infolding of self-expandable transcatheter 
+valves can result in premature leaflet degeneration, 
+requiring valve-in-valve replacement.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Guson Kang,
+3801 Miranda Avenue, Palo Alto, California 94304, 
+USA. E-mail: guson@stanford.edu.
+FIGURE 2 Left Ventricular Dimensions Over Time by Echocardiography
+Temporal trend in ejection fraction (EF), left ventricular end-diastolic volume (EDV), and 
+end-systolic volume (ESV), estimated using the modified Simpson’s method on 
+transthoracic echocardiography. ViV = valve-in-valve; TAVR = transcatheter aortic valve 
+replacement.
+Hu et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 5 , 2 0 2 6
+Management of Chronically Infolded TAVR
+A P R I L 1 5 , 2 0 2 6 : 1 0 7 3 6 2
+4
+
+=== PAGE 5 ===
+FIGURE 3
+Echocardiographic Doppler of the Infolded Self-Expanding Aortic
+Prosthesis
+Transesophageal echocardiography revealed severe aortic insufficiency and deformation
+of the transcatheter aortic valve replacement (arrow).
+FIGURE 4 Fluoroscopic Projection of Infolded Prosthesis
+Fluoroscopy at the time of valve deployment demonstrates infolding along the bottom 
+half of the valve (arrow).
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 5 , 2 0 2 6 
+Hu et al
+A P R I L 1 5 , 2 0 2 6 : 1 0 7 3 6 2 
+Management of Chronically Infolded TAVR
+5
+
+=== PAGE 6 ===
+FIGURE 5 3D CT Projection of Infolded Prosthesis
+Reconstruction of computed tomography angiography imaging revealed a focal kink 
+across the commissure of the the left and noncoronary cusps.
+Hu et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 5 , 2 0 2 6
+Management of Chronically Infolded TAVR 
+A P R I L 1 5 , 2 0 2 6 : 1 0 7 3 6 2
+6
+
+=== PAGE 7 ===
+R E F E R E N C E S
+1. Veulemans V, Piuhola J, Niemela M, et al. 
+Incidence and risk assessment of infolding using 
+self-expandable devices in TAVR. Struct Heart. 
+2022;4:6.
+2. Bezzeccheri A, Poletti E, Vermeersch P, et al. 
+Prosthesis infolding incidence and short-term 
+outcomes in transcatheter aortic valve implanta-
+tion using evolut self-expandable device: a 
+multicenter study. Am J Cardiol. 2024;221:102– 
+109.
+3. Musallam A, Rogers T, Ben-Dor I, et al. Self-
+expanding transcatheter aortic valve-frame 
+infolding: a case series with a warning message. 
+JACC Cardiovasc Interv. 2020;13(6):789–790.
+4. Ben-Dor I, Rogers T, Satler L, et al. A word of 
+caution using self-expanding transcatheter aortic 
+valve-frame infolding. Catheter Cardiovasc Interv. 
+2019;93:555–558.
+5. Karrowni W, Fakih S, Nassar P. Infolding of self-
+expandable transcatheter heart valve: case report
+and review of literature. Cureus. 2020;12(8): 
+e10093.
+KEY WORDS aortic valve, stenosis, valve 
+replacement
+APPENDIX For a supplemental video,
+please see the online version of this paper.
+FIGURE 6 Valvuloplasty and Valve-in-Valve TAVR
+Balloon dilation (A) resolved the infolding of the Evolut valve, but TEE showed persistent perivalvular regurgitation (B). Valve-in-valve TAVR 
+was performed with a Sapien 3 Ultra valve (C), which resulted in resolution of the regurgitation (D). TAVR = transcatheter aortic valve 
+replacement; TEE = transesophageal echocardiography.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 5 , 2 0 2 6 
+Hu et al
+A P R I L 1 5 , 2 0 2 6 : 1 0 7 3 6 2 
+Management of Chronically Infolded TAVR
+7

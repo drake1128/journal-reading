@@ -1,0 +1,46 @@
+{
+  "pdf": "40054912_Jo_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1943,
+      "height": 1049,
+      "ext": "jpeg",
+      "bytes": 487441
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 599,
+      "ext": "jpeg",
+      "bytes": 216367
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1968,
+      "height": 1264,
+      "ext": "jpeg",
+      "bytes": 556695
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 458,
+      "ext": "jpeg",
+      "bytes": 192167
+    },
+    {
+      "file": "fig-05_p5.jpeg",
+      "page": 5,
+      "width": 1950,
+      "height": 986,
+      "ext": "jpeg",
+      "bytes": 512847
+    }
+  ]
+}

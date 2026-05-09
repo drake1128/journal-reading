@@ -1,0 +1,596 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+QUALITY IMPROVEMENT PROJECTS
+Reducing TAVR Vascular Complications 
+Through Multidisciplinary Process 
+Optimization
+Misty L. Theriot, BSN, a Edward C. Bergen, DO, a J. Gregory Lugo, MD, a Whitney M. Graham, BSRT b
+ABSTRACT
+BACKGROUND Vascular complications associated with transcatheter aortic valve replacement (TAVR) can prolong 
+procedures, require additional interventions, extend hospital stays, delay recovery, and increase costs.
+PROJECT RATIONALE Lake Charles Memorial Hospital identified a higher prevalence of peripheral artery disease 
+in its TAVR population, compared with national benchmarks. This increased burden of complex vascular anatomy was 
+initially associated with higher complication rates, prompting targeted prevention strategies to improve safety and 
+outcomes.
+PROJECT SUMMARY A multidisciplinary team used root-cause analyses and iterative plan-do-study-act cycles to 
+integrate micropuncture, ultrasound guidance, fluoroscopic road mapping, closure strategies, and enhanced staff 
+education into standardized workflows. From 2018 to the second quarter of 2025, complication rates decreased from 
+11.7% to 1.9%, procedure times improved from 77 to 49 minutes, and hospital stays shortened, generating a net savings 
+of over $86,000.
+TAKE-HOME MESSAGE Phased, technology-enabled access strategies, supported by a multidisciplinary team, can 
+reduce complications and improve the efficiency of TAVR programs. (JACC Case Rep. 2025;30:105614) Published by 
+Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the CC 
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+T 
+ranscatheter 
+aortic 
+valve 
+replacement 
+(TAVR) has become an established therapy 
+for severe aortic stenosis. Despite advances, 
+such as lower-profile sheaths and contemporary de-
+livery systems, access-site complications increase 
+bleeding risk, transfusions, length of stay, and 
+costs. 1-3 Major and life-threatening bleeding events 
+are included in the Society of Thoracic Surgeons/ 
+American College of Cardiology Transcatheter Valve 
+Therapy (STS/ACC TVT) Registry risk model, which
+TAKE-HOME MESSAGES
+• Advanced access techniques, when 
+integrated into a structured, data-driven
+QI process, can achieve substantial and 
+sustained reductions in TAVR vascular 
+complications.
+• Multidisciplinary engagement is critical for 
+the effective implementation, long-term 
+adoption, and scalability of QI initiatives.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.105614
+From the a Heart & Vascular Center, Lake Charles Memorial Hospital, Lake Charles, Louisiana, USA; and the b Cardiac Catheter-
+ization Laboratory, Lake Charles Memorial Hospital, Lake Charles, Louisiana, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received August 18, 2025; revised manuscript received September 2, 2025, accepted September 5, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 3 6 , 2 0 2 5
+P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R T H E
+C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+is used for public reporting and star ratings. 4 
+Recent STS/ACC TVT Registry data report in-
+hospital rates of 1.3% for major and 2.4% for 
+minor vascular complications 5 as defined by 
+Valve Academic Research Consortium–2 
+(VARC-2) criteria. 6 Patients with peripheral 
+artery disease (PAD) and complex anatomy 
+are at high risk. 7 A proactive, tailored 
+approach is essential to improve safety and 
+efficiency.
+CASE SUMMARY PROMPTING THE 
+PROJECT LAUNCH
+This was a single-center, retrospective quality 
+improvement (QI) project conducted at Lake Charles 
+Memorial Hospital, a 313-bed community hospital in 
+Southwest Louisiana. In 2019, Lake Charles Memorial 
+Hospital became the first U.S. hospital to earn 
+American College of Cardiology Transcatheter Valve 
+Certification.
+Baseline STS/ACC TVT Registry data (2018-2019) 
+indicated that the hospital’s TAVR population had 
+higher PAD prevalence compared with national 
+benchmarks (47% vs 17%) (Table 1). 5 Vascular com-
+plications averaged 11.7% (Figure 1), with 85% on the 
+TAVR sheath access side, and often required surgical 
+or endovascular repair (Figure 2). Given these find-
+ings, a multidisciplinary QI initiative was launched in 
+2020 to address vascular complications in patients
+undergoing percutaneous transfemoral (TF) TAVR. 
+Outcomes were evaluated across 3 phases: pre-
+implementation (2018-2019), implementation (2020-
+2022), and postimplementation (2023–second quarter 
+[Q2] 2025).
+PROJECT RATIONALE
+In 2020, the onset of the COVID-19 pandemic com-
+bined with multiple natural disasters, including 
+Hurricanes Laura and Delta, a freeze, and flooding, 
+amplified the urgency of reducing complications and 
+conserving resources. Due to percutaneous TF access 
+being the preferred route for TAVR, vascular safety 
+was prioritized. A root-cause analysis using fishbone 
+diagrams and pareto charts identified variations in 
+access technique, limited advanced imaging and 
+equipment, challenges with complex anatomy, 
+closure device limitations, and inconsistent compli-
+cation identification. These findings highlighted op-
+portunities for shared learning and protocol change. 
+Each complication added approximately $17,000 in 
+total charges, $5,000 in direct costs, 27 minutes of 
+procedural time, and 0.5 inpatient days.
+Beyond lowering vascular complications, the QI 
+initiative aimed to shorten procedure and recovery 
+times, decrease patient length of stay, reduce costs, 
+and improve patient outcomes during a time of 
+extraordinary operational pressure.
+PROJECT DESCRIPTION
+The phased QI initiative was led by a multidisci-
+plinary team including interventional cardiologists, a 
+cardiovascular surgeon, imaging specialists, cardiac 
+catheterization laboratory staff, and the valve clinic 
+coordinator. Multidisciplinary reviews, supported by 
+real-time STS/ACC TVT Registry metrics 5 and internal 
+dashboards, enabled case review and complication 
+tracking, and a prioritization matrix organized op-
+portunities. Feedback from these sessions informed 
+protocol refinements, consistent with iterative plan-
+do-study-act (PDSA) cycles (Figure 3). Implementa-
+tion phases with interventions are summarized in 
+Figure 1, with detailed access workflow optimization 
+shown in Figure 4.
+PREIMPLEMENTATION PHASE (2018-2019)
+During the preimplementation phase, TF access was 
+obtained with the modified Seldinger technique and 
+was closed using a suture-mediated “preclose” de-
+vice under direct angiography. 8 Limited advanced 
+imaging and 
+equipment 
+constrained tailoring
+TABLE 1
+Percutaneous Transfemoral TAVR Patient Characteristics
+Preimplementation 
+(2018-2019) 
+n = 95
+Implementation 
+(2020-2022) 
+n = 131
+Postimplementation 
+(2023-Q2 2025) 
+n = 124
+Age, y
+78.4 ± 7.7
+75.8 ± 9.2
+76.9 ± 9.0
+Male
+48 (51%)
+68 (52%)
+68 (55%)
+Female
+47 (49%)
+63 (48%)
+56 (45%)
+BMI, kg/m 2
+30.4 ± 6.7
+30.2 ± 6.5
+30.5 ± 6.6
+STS predicted risk of mortality, %
+6.7 ± 3.2
+5.2 ± 3.3
+5.9 ± 3.8
+Pre-existing PAD a
+45 (47%)
+64 (49%)
+57 (46%)
+14-F TAVR delivery sheath b
+69 (73%)
+111 (85%)
+104 (84%)
+16-F TAVR delivery sheath b
+26 (27%)
+20 (15%)
+20 (16%)
+Monitored anesthesia care
+70 (74%)
+127 (97%)
+114 (92%)
+General anesthesia
+25 (26%)
+4 (3%)
+10 (8%)
+Low risk c
+9 (9%)
+37 (28%)
+11 (9%)
+Intermediate risk c
+65 (68%)
+66 (50%)
+62 (50%)
+High risk c
+18 (19%)
+25 (19%)
+45 (36%)
+Inoperable c
+3 (3%)
+4 (3%)
+6 (5%)
+Values are mean ± SD or n (%). a PAD is classified based on the definition given by the Society of Thoracic 
+Surgeons/American College of Cardiology Transcatheter Valve Therapy Registry. b TAVR delivery sheath size 
+varied based on the balloon-expandable valve size selected. c Risk categories were determined by the heart 
+team based on each patient’s overall clinical profile.
+BMI = body mass index; PAD = peripheral artery disease; STS = Society of Thoracic Surgeons; 
+TAVR = transcatheter aortic valve replacement.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+PAD = peripheral artery
+disease
+PDSA = plan-do-study-act
+QI = quality improvement
+TAVR = transcatheter aortic
+valve replacement
+TF = transfemoral
+Theriot et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 6 , 2 0 2 5
+Reducing TAVR Vascular Complications 
+N O V E M B E R 1 2 , 2 0 2 5 : 1 0 5 6 1 4
+2
+
+=== PAGE 3 ===
+strategies, and most complications occurred on the 
+primary sheath side.
+IMPLEMENTATION PHASE (2020-2022)
+Guided by root-cause analysis and iterative PDSA 
+cycles, the QI team initiated changes to address 
+identified gaps (Figure 3). In 2020, a large-bore 
+closure device was selectively introduced for pa-
+tients based on vessel size, calcification, and com-
+mon femoral artery depth. 9 Preprocedure computed 
+tomography angiography assessed iliofemoral anat-
+omy, including vessel diameter, calcification, and 
+tortuosity. In 2021, micropuncture kits were adopted 
+to improve puncture precision at the point of 
+maximal impact to optimize closure device deploy-
+ment. 3 Acquisition of an ultrasound machine in 2022 
+enabled routine ultrasound-guided access. Fluoro-
+scopic road mapping was incorporated into the 
+standardized protocol, overlaying the angiographic 
+image onto live fluoroscopy to guide puncture at the 
+point of maximal impact, with a micropuncture kit
+for optimal closure, 2,7 as best results occur with 
+minimal patient movement. Figure 4 outlines the 
+sequential steps for optimizing percutaneous TF 
+TAVR vascular access. Peripheral intravascular lith-
+otripsy was added as an adjunct for heavily calcified 
+iliofemoral stenosis, enhancing TF access and de-
+livery safety. 10
+Structured staff education for physicians, nurses, 
+and imaging technicians emphasized groin assess-
+ment and complication recognition within stan-
+dardized protocols, reinforced through in-services, 
+simulations, and competency validation.
+POSTIMPLEMENTATION PHASE (2023-Q2 2025)
+By the postimplementation phase, advanced imaging 
+and access strategies were fully standardized and 
+consistently applied. Real-time electronic medical 
+record dashboards complemented STS/ACC TVT 
+Registry benchmarking by enabling proactive moni-
+toring and rapid response to emerging trends. 
+Complication tracking was integrated into monthly
+FIGURE 1 Annual 30-Day TAVR Vascular Complication Rates
+Bar graph illustrating annual 30-day vascular complication rates for percutaneous transfemoral TAVR at Lake Charles Memorial Hospital 
+from preimplementation (2018-2019) through implementation (2020-2022) and postimplementation (2023-Q2 2025). Data were derived 
+from the STS/ACC TVT Registry 4 and internal data. Arrows denote adoption of large-bore closure, micropuncture, ultrasound guidance, and 
+fluoroscopic road mapping. Implementation was guided by multidisciplinary review, process mapping, and iterative protocol standardi-
+zation, not device adoption alone. Only minor vascular complications occurred during this period, 6 with the lowest rates sustained during 
+postimplementation. STS/ACC TVT = Society of Thoracic Surgeons/American College of Cardiology Transcatheter Valve Therapy;
+TAVR = transcatheter aortic valve replacement; U/S = ultrasound.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 6 , 2 0 2 5 
+Theriot et al
+N O V E M B E R 1 2 , 2 0 2 5 : 1 0 5 6 1 4 
+Reducing TAVR Vascular Complications
+3
+
+=== PAGE 4 ===
+heart team and quarterly multidisciplinary meetings, 
+ensuring transparency and accountability. Lessons 
+learned were disseminated across the structural 
+heart program and applied to other percutaneous 
+procedures, embedding the initiative into institu-
+tional practice.
+PROJECT DELIVERABLES
+From 2018 through Q2 2025, the QI initiative 
+delivered a structured process that combined new 
+technologies with systematic process improve-
+ments. Large-bore closure devices, micropuncture 
+kits, ultrasound-guided access, fluoroscopic road 
+mapping, and peripheral intravascular lithotripsy 
+were introduced in a phased manner, aligned with 
+iterative PDSA cycles (Figures 3 and 4). Each adop-
+tion was accompanied by protocol development, 
+staff training, and real-time performance moni-
+toring to ensure consistent and safe integration into 
+practice.
+Regular multidisciplinary reviews and heart team 
+meetings served as a forum for case discussion, 
+complication tracking, and rapid feedback. Staff ed-
+ucation for all team members was reinforced through 
+competency validation, simulation, and in-service 
+training. Together, these deliverables promoted 
+consistency and reduced variability, embedding a 
+culture of continuous QI across the catheterization 
+laboratory.
+PROJECT OUTCOME, IMPACT, AND 
+FUTURE DIRECTIONS
+From 2018 through Q2 2025, percutaneous TF access 
+was used in 86% of TAVR cases (n = 350), with surgical 
+TF cutdown and alternative access each accounting 
+for 7%. Vascular complications declined from 11.7% 
+(2018-2019) to 1.9% (2023-Q2 2025) (Figure 1), despite 
+unchanged PAD prevalence (Table 1). Although the 
+implementation phase included more low-risk pa-
+tients, the postimplementation phase had the highest 
+proportion of high-risk and inoperable patients, yet 
+complication rates remained low, reflecting the posi-
+tive effect of protocol standardization, team-based 
+training, and ongoing performance review.
+Among patients with a vascular complication 
+within 30 days of TAVR (n = 23), 67% were female, 
+with a mean age of 77 years and mean body mass 
+index of 29.1 kg/m 2 . PAD was present in 42%, and 
+mean STS risk score was 3.6%. Most patients (71%) 
+were at intermediate surgical risk, and a 14-F TAVR 
+delivery sheath was used in 96% of patients. The rate 
+of major bleeding events related to vascular compli-
+cations, as defined by VARC-2 criteria, 4 was 2.9% 
+during preimplementation, 5.6% during imple-
+mentation, and 0% during postimplementation; the 
+rate of blood transfusions was 1.9%, 1.4%, and 0%, 
+respectively.
+Procedural efficiency improved from pre- to post-
+implementation, with procedure time (stick-to-
+closure) decreasing 36% (from 77 to 49 minutes), 
+contrast volume reduced 55% (from 174 to 79 mL), 
+fluoroscopy time lowered 55%, and average length of 
+stay shortened from 2.0 to 1.25 days (Figure 5). 
+Monitored anesthesia care increased from 74% pre-
+implementation to 97% during implementation, and 
+remained 92% postimplementation, with general 
+anesthesia reserved for patients too unstable for 
+monitored anesthesia care and/or alternate access 
+cases (Table 1).
+Although closure devices and micropuncture 
+kits added approximately $201,823 in costs since 
+2020, the savings from fewer complications should 
+be $287,878 and the net savings should be $86,055
+FIGURE 2 Causes of Vascular Complications During the Preimplementation Phase
+Bar graph showing the percentage distribution of 30-day vascular complication causes at 
+the TAVR delivery sheath access site during the preimplementation phase (2018-2019) 
+at Lake Charles Memorial Hospital, based on internal data. The data informed root-cause 
+analysis and guided protocol refinements in subsequent phases. CFA = common 
+femoral artery; TAVR = transcatheter aortic valve replacement.
+Theriot et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 6 , 2 0 2 5
+Reducing TAVR Vascular Complications 
+N O V E M B E R 1 2 , 2 0 2 5 : 1 0 5 6 1 4
+4
+
+=== PAGE 5 ===
+(Table 2). These QI-driven investments were offset by 
+fewer secondary interventions, shorter procedures, 
+and faster recovery.
+The structured framework developed through 
+this QI initiative has been extended across the 
+catheterization 
+laboratory, 
+supporting 
+broader 
+percutaneous 
+procedures. 
+Sustainability 
+is
+supported through training, engagement, moni-
+toring, and protocol adherence.
+DISCUSSION
+This QI initiative demonstrates sustained improve-
+ment through structured QI methodology, including
+FIGURE 3 Structured QI Approach to Reducing TAVR Vascular Complications
+Baseline data from 2018 to 2019 identified elevated complication rates and prompted a multidisciplinary QI initiative launched in 2020. The 
+visual depicts the PDSA framework used to integrate STS/ACC TVT Registry benchmarking, root-cause analysis, workflow standardization, 
+structured staff education, and EMR dashboard monitoring. Outcomes are summarized across the implementation phase (2020-2022) and 
+postimplementation phase (2023-Q2 2025), demonstrating sustained reductions in complications, procedural time, and costs based on 
+internal institutional analysis. EMR = electronic medical record; LCMH = Lake Charles Memorial Hospital; PDSA = plan-do-study-act;
+QI = quality improvement; STS/ACC TVT = Society of Thoracic Surgeons/American College of Cardiology Transcatheter Valve Therapy; 
+TAVR = transcatheter aortic valve replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 6 , 2 0 2 5 
+Theriot et al
+N O V E M B E R 1 2 , 2 0 2 5 : 1 0 5 6 1 4 
+Reducing TAVR Vascular Complications
+5
+
+=== PAGE 6 ===
+process mapping, PDSA cycles, collaboration, 
+training, and standardized workflows, rather than 
+device adoption alone. It enabled the integration of 
+evidence-based access strategies, including micro-
+puncture, ultrasound, fluoroscopic road mapping, and 
+large-bore closure systems, into a high-PAD setting. 
+Although implementation required investment in 
+new equipment, institutional support was strength-
+ened by demonstrating both improved outcomes and 
+cost savings. Framing these resources as benefiting a 
+broad range of percutaneous procedures further 
+enhanced buy-in. STS/ACC TVT Registry data pro-
+vided benchmarking and helped identify opportu-
+nities, 
+and 
+QI 
+methodology 
+drove 
+protocol 
+development. This framework resulted in sustained 
+complication reduction and confirmed that im-
+provements were due to standardized protocols 
+rather than individual operator practice. 
+Fluoroscopic guidance remained an essential tool, 
+yet fluoroscopy time decreased through process
+optimization, consistent with as-low-as-reasonably-
+achievable (ALARA) principles. Real-time electronic 
+medical record dashboards complemented bench-
+marking by enabling proactive monitoring and rapid 
+trend identification.
+Contextual factors regarding this project included 
+concurrent QI efforts and the effects of the COVID-19 
+pandemic and regional natural disasters on case 
+volume and resource availability.
+Sustaining these improvements will require 
+ongoing 
+education, 
+simulation-based 
+training, 
+adherence to standardized protocols, and continual 
+monitoring of efficiency and outcomes, with adjust-
+ments as new advancements emerge.
+CONCLUSIONS
+A phased QI initiative that combined advanced 
+vascular access techniques with process refinement 
+through multidisciplinary involvement achieved a
+FIGURE 4 Stepwise Optimization for TAVR Percutaneous Transfemoral Access
+Sequential steps for vascular access optimization during TAVR include: 1) preprocedural CTA review to assess iliofemoral anatomy, vessel diameter, calcification, and 
+tortuosity; 2) ultrasound-guided contralateral femoral access to identify the CFA bifurcation and differentiate from the CFV, with 3) postaccess confirmation; 4) 
+contralateral contrast injection to enable 5) fluoroscopic road mapping: using a RIM catheter for precise PMI puncture; 6) post–road mapping access assessment; and 7) 
+final angiography after sheath removal and device-assisted closure. This stepwise process was standardized across operators and reinforced through multidisciplinary 
+education and PDSA cycles. Images were derived from internal hospital imaging systems and are deidentified. CFA = common femoral artery; CFV = common 
+femoral vein; CTA = computed tomography angiography; PDSA = plan-do-study-act; PMI = point of maximal impact.
+Theriot et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 6 , 2 0 2 5
+Reducing TAVR Vascular Complications 
+N O V E M B E R 1 2 , 2 0 2 5 : 1 0 5 6 1 4
+6
+
+=== PAGE 7 ===
+sustained >80% reduction in TAVR vascular compli-
+cations. STS/ACC TVT Registry benchmarking, itera-
+tive PDSA cycles, and multidisciplinary collaboration 
+were used to guide QI efforts, producing lasting im-
+provements and supporting expansion to other
+percutaneous procedures. Education, standardized 
+protocols, and collaboration remain critical to sustain 
+improvements. This model offers a reproducible 
+pathway for structural heart programs to enhance 
+vascular safety, improve efficiency, and optimize 
+patient outcomes.
+ACKNOWLEDGMENTS The authors thank the dedi-
+cation and exceptional teamwork of the interven-
+tional 
+cardiology 
+and 
+cardiothoracic 
+surgery 
+departments at Lake Charles Memorial Hospital.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Ms Theriot has been on the Speakers Bureau for Edwards Life-
+sciences. All other authors have reported that they have no re-
+lationships relevant to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Edward C.
+Bergen, Lake Charles Memorial Hospital, 1717 Oak 
+Park Boulevard, 2nd Floor, Lake Charles, Louisiana 
+70601, USA. E-mail: ebergen@lcmh.com.
+FIGURE 5 Procedural Efficiency Trends Across Implementation Phases
+Average total procedure room time (wheels-in to wheels-out), procedure time (stick-to-close), fluoroscopy time, contrast volume, and 
+length of stay from preimplementation (2018-2019) through implementation (2020-2022) and postimplementation (2023-Q2 2025) for 
+percutaneous TF TAVR cases. Progressive reductions were observed across all metrics, indicating improved efficiency and safety. Dashed 
+vertical lines indicate transitions between project phases. Data were derived from the STS/ACC TVT Registry 5 and internal institutional data. 
+LOS = length of stay; STS/ACC TVT = Society of Thoracic Surgeons/American College of Cardiology Transcatheter Valve Therapy.
+TABLE 2
+Cost Impact Analysis of Vascular Complication
+Reduction
+Cost Component
+Total Cost (USD)
+Total cost of vascular complications/event a
+$16,934
+Device costs (2020-Q2 2025) b
+$201,823
+Savings from fewer complications c
+$287,878
+Net savings d
+$86,055
+Breakdown of device acquisition costs, charges related to vascular complications, 
+and calculated net savings was based on observed reduction in events. a Total 
+cost of vascular complications was calculated using internal Lake Charles 
+Memorial Hospital data. b Device costs included the large-bore closure device and 
+micropuncture kits. The ultrasound machine was purchased for general cardiac 
+catheterization laboratory use and was not included in this analysis. c Savings from 
+fewer complications were calculated by multiplying the reduction in observed 
+vascular complication events (relative to baseline preimplementation rates) by 
+the average cost per event. d Net savings was calculated by subtracting the device 
+costs from the savings from fewer vascular complications.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 6 , 2 0 2 5 
+Theriot et al
+N O V E M B E R 1 2 , 2 0 2 5 : 1 0 5 6 1 4 
+Reducing TAVR Vascular Complications
+7
+
+=== PAGE 8 ===
+R E F E R E N C E S
+1. Harvey J, Kapadia S, Cohen D, et al. Trends in 
+complications among patients undergoing aortic 
+valve replacement in the United States. J Am 
+Heart Assoc. 2024;13(17):e031461. https://doi. 
+org/10.1161/jaha.123.031461
+2. Potluri S, Hamandi M, Basra S, et al. Compari-
+son of frequency of vascular complications with 
+ultrasound-guided versus fluoroscopic roadmap-
+guided femoral arterial access in patients who 
+underwent transcatheter aortic valve implanta-
+tion. Am J Cardiol. 2020;132:93–99. https://doi. 
+org/10.1016/j.amjcard.2020.07.013
+3. Tommasino A, Sirignano P, Dell’Aquila F, et al. 
+Tips and tricks in the prevention and management 
+of vascular complications in Tavi. Cirugía Car-
+diovasc. 2025;32(2):93–101. https://doi.org/10. 
+1016/j.circv.2024.09.001
+4. Carroll J, Mack M, Vemulapalli S, et al. The 
+society of thoracic surgeons/American College of 
+Cardiology transcatheter valve therapy registry: 
+30-day risk model for major morbidity and
+mortality after TAVR. Circulation. 2021;143(4): 
+302–312. https://doi.org/10.1161/CIRCULATIONAHA. 
+120.051456
+5. American College of Cardiology Foundation. 
+National cardiovascular data registry (NCDR): 
+STS/ACC 
+TVT 
+registry 
+dashboard 
+metric 
+follow-report 2018–2025. Accessed August 11, 
+2025. https://www.ncdr.com/WebNCDR/TVT/ 
+dashboards/Dashboard-PowerBI
+6. Kappetein A, Head S, Généreux P, et al. 
+Updated standardized endpoint definitions for 
+transcatheter aortic valve implantation. J Am Coll 
+Cardiol. 2012;60(15):1438–1454. https://doi.org/ 
+10.1016/j.jacc.2012.09.001
+7. Vincent F, Spillemaeker H, Kyheng M, et al. 
+Ultrasound guidance to reduce vascular 
+and bleeding complications of percutaneous 
+transfemoral TAVR: 
+a propensity score-
+matched comparison. J Am Heart Assoc. 
+2020;9(6):e014916. https://doi.org/10.1161/jaha. 
+119.014916
+8. Abbott. Multi perclose ProGlide suture-
+mediated closure system. Accessed August 11, 
+2025. https://www.cardiovascular.abbott/us/en/ 
+hcp/products/peripheral-intervention/vessel-
+closure/perclose-proglide-suture-mediated-
+closure-system/multiple-device-deployment. 
+html
+9. Teleflex. MANTA vascular closure device. 
+Accessed August 11, 2025. https://www. 
+teleflex.com/usa/en/product-areas/interventional/ 
+vascular-access-closure/manta-vascular-closure-
+device/
+10. Khokhar A, Bilal H, Bilal A, et al. Prevention 
+and management of peri-procedural TAVR com-
+plications. Mini-Invasive Surg. 2022;6:2. https:// 
+doi.org/10.20517/2574-1225.2021.97
+KEY WORDS aortic valve, health care 
+economics, valve replacement, vascular 
+disease
+Theriot et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 6 , 2 0 2 5
+Reducing TAVR Vascular Complications 
+N O V E M B E R 1 2 , 2 0 2 5 : 1 0 5 6 1 4
+8

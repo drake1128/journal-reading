@@ -1,0 +1,30 @@
+{
+  "pdf": "41186541_Kobari_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1644,
+      "height": 2236,
+      "ext": "png",
+      "bytes": 1948126
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1644,
+      "height": 2190,
+      "ext": "png",
+      "bytes": 2041425
+    },
+    {
+      "file": "fig-03_p5.png",
+      "page": 5,
+      "width": 1644,
+      "height": 1447,
+      "ext": "png",
+      "bytes": 1674570
+    }
+  ]
+}

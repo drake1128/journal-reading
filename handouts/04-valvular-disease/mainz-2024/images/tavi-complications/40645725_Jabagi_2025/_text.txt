@@ -1,0 +1,813 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Early TAVR Explantation Due to a
+Large Mobile Leaﬂet Mass and
+Severe Prosthetic Valve Stenosis
+Habib Jabagi, MD,a,b Victor S. Alemany, MD,a Ella Jones,a Himanshu Gupta, MD,c Francis Kim, MD,d Rajiv Tayal, MD,d
+Hussein Rahim, MD,d Paul Burns, MD,a Juan Grau, MDa
+ABSTRACT
+BACKGROUND Transcatheter aortic valve replacement (TAVR) is a common treatment for aortic stenosis (AS).
+Although it is generally safe, its rising use has led to increased device failures and complications requiring surgery. Data
+on surgical explantation after TAVR remain limited.
+CASE PRESENTATION An 85-year-old woman, 1-year post-TAVR, developed recurrent AS. Imaging revealed a mobile
+transvalvular mass and subvalvular pannus. Medical therapy failed, and because of stroke risk, she underwent TAVR
+explantation, subannular pannus resection, left ventricular outﬂow tract repair, and surgical aortic valve replacement.
+Histology conﬁrmed leaﬂet thrombosis and valve deterioration.
+DISCUSSION Surgical explantation after TAVR occurs in about 1% of cases. Among these, 47% require surgical aortic
+valve replacement, and 53% need additional procedures, often involving the aorta. Recognizing structural valve
+deterioration and its cause is critical.
+TAKE-HOME MESSAGE As TAVR use rises, so will complications. Further research is needed to enhance management
+and outcomes. (JACC Case Rep. 2025;30:103885) © 2025 The Authors. Published by Elsevier on behalf of the American
+College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.
+org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+An
+85-year-old
+woman
+presented
+for
+scheduled
+follow-up
+after
+transfemoral
+transcatheter
+aortic
+valve replacement (TAVR) (23-mm SAPIEN 3 Ultra
+bovine
+pericardial
+bioprosthetic,
+Edwards
+Life-
+sciences) for severe nonrheumatic aortic stenosis
+(AS). Her calculated Society of Thoracic Surgeons
+mortality score at the time of TAVR was 6.01%.
+Postprocedural transthoracic echocardiography (TTE)
+showed trace pericardial effusion and satisfactory
+valve hemodynamic status (aortic valve area [AVA]
+2.4 cm2, mean gradient [MG] 4 mm Hg, pressure
+gradient [PG] 9 mm Hg). The patient required perma-
+nent pacemaker placement (Micra, Medtronic) on
+postoperative day 3 for complete heart block and was
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103885
+From the aDivision of Cardiothoracic Surgery, The Valley Hospital, Ridgewood, New Jersey, USA; bDepartment of Cardiovascular
+Surgery, Icahn School of Medicine at Mount Sinai, New York, New York, USA; cDivision of Cardiac Imaging, The Valley Hospital,
+Ridgewood, New Jersey, USA; and the dDivision of Interventional Cardiology, The Valley Hospital, Ridgewood, New Jersey, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received February 3, 2025; accepted February 25, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 8 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+discharged home on postoperative day 4.
+Follow-up TTE at 1 year revealed reduced AVA
+(0.5 cm2) with signiﬁcantly increased gradi-
+ents (MG 48 mm Hg, PG 78 mm Hg). Despite
+this, she was asymptomatic, in NYHA func-
+tional class I.
+PAST MEDICAL HISTORY
+The patient’s medical history was signiﬁcant
+for moderate tricuspid regurgitation, perma-
+nent atrial ﬁbrillation (treated with apix-
+aban), baseline right bundle branch block,
+hyperlipidemia, type 2 diabetes, breast can-
+cer status post left-sided mastectomy, stable
+stage IIA invasive ductal right-sided breast
+cancer
+maintained
+on
+neoadjuvant
+anas-
+trozole, right posterior cerebral artery stroke
+with mild residual left-sided hemiparesis,
+and multiple transient ischemic attacks. The
+patient is a lifelong nonsmoker.
+DIFFERENTIAL DIAGNOSIS
+The differential diagnosis included hypoattenuated
+leaﬂet thickening, transcatheter heart valve throm-
+bosis, early structural valve deterioration (SVD), and
+prosthetic valve endocarditis.
+INVESTIGATIONS
+The physical examination was unremarkable other
+than a II/VI systolic ejection murmur over the right
+upper sternal border, with normal vital signs and
+ventricular
+paced
+rhythm.
+Hematologic
+and
+biochemical results were all within normal limits.
+Work-up for hypercoagulable disorders or malig-
+nancies was negative, as was infective work-up for
+prosthetic valve endocarditis (normal white blood cell
+count, differential, and negative 5-day blood cul-
+tures). TTE showed new severe AS (AVA 0.5 cm2, MG
+48 mm Hg, PG 78 mm Hg), with no regurgitation or
+paravalvular leak and normal left ventricular ejection
+fraction. Moderate to severe tricuspid regurgitation
+and mild to moderate mitral regurgitation were also
+present.
+Computed tomography (CT) of the heart with
+contrast performed using
+photon-counting multi-
+detector CT (Naeotom Alpha, Siemens Healthineers)
+demonstrated a large, mobile transvalvular mass
+(24  3 mm) arising from the junction of the right and
+left coronary cusp leaﬂets, which was also attached to
+the left leaﬂet. The mass was protruding in and out of
+the aorta and left ventricular outﬂow tract (LVOT)
+during the cardiac cycle, suspicious for thrombus or
+vegetation. There was also a subvalvular circumfer-
+ential pannus (3-4 mm thick) (Figure 1, Video 1).
+MANAGEMENT
+The patient was reviewed by the multidisciplinary
+heart team for surgical explantation of the TAVR
+prosthesis and leaﬂet mass and surgical aortic valve
+replacement
+(SAVR)
+after
+conservative
+treatment
+with warfarin was unsuccessful. Percutaneous op-
+tions were deemed prohibitive because of very high
+risk
+for
+cerebrovascular
+vascular
+accident.
+Her
+calculated Society of Thoracic Surgeons mortality
+score for SAVR after TAVR was 10.4%. The patient
+underwent successful surgical removal of the leaﬂet
+mass, followed by TAVR explantation, LVOT pannus
+resection and reconstruction, SAVR with a 23-mm
+Inspiris Resilia bioprosthetic valve (Edwards Life-
+sciences),
+tricuspid
+valve
+repair,
+and
+left
+atrial
+appendage ligation.
+Intraoperatively, the patient was placed on car-
+diopulmonary bypass and the heart arrested. An aor-
+totomy was performed, and the TAVR prosthesis and
+aortic root were inspected. The transvalvular mass
+was readily apparent and removed ﬁrst (Figure 2A).
+Originating below the TAVR leaﬂets, the mass was
+resected from its attachment at the base of the left and
+right TAVR commissure (Figure 2B). The TAVR was
+otherwise well seated, and all 3 leaﬂets were normal
+appearing, without calciﬁcation or signs of SVD.
+Intravalvular inspection of the LVOT conﬁrmed the
+presence of a large subvalvular pannus (as suspected
+on preoperative CT), which signiﬁcantly narrowed the
+LVOT, resulting in the patient’s de novo AS.
+Next, the TAVR was explanted using the double
+Kocher technique, and the native aortic valve leaﬂets
+were resected, exposing the aortic annulus and pan-
+nus.1 The pannus was located just below the native
+aortic
+valve
+annulus
+(subannular)
+and
+was
+near
+circumferential, measuring about 1 cm in thickness
+and extending from the native left/noncommissure to
+TAKE-HOME MESSAGES
+ Advanced cardiac imaging, especially cine
+CT, is crucial for detecting both leaﬂet
+thrombosis and subvalvular pannus post-
+TAVR, guiding appropriate and timely
+surgical intervention.
+ Given the high mortality risk associated with
+TAVR explantation and reintervention, care-
+ful patient selection, adherence to surgical
+indications, and long-term follow-up are
+vital for optimizing outcomes.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AS = aortic stenosis
+AVA = aortic valve area
+BVD = bioprosthetic valve
+dysfunction
+CT = computed tomography
+LVOT = left ventricular outﬂow
+tract
+MG = mean gradient
+PG = pressure gradient
+SAVR = surgical aortic valve
+replacement
+SVD = structural valve
+deterioration
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiography
+TTE = transthoracic
+echocardiography
+Jabagi et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 8 , 2 0 2 5
+Leaﬂet Mass and Stenosis Requiring TAVR Explantation
+J U L Y 9 , 2 0 2 5 : 1 0 3 8 8 5
+2
+
+=== PAGE 3 ===
+the right/noncommissure (Figure 2C). The annulus
+was debrided of any calcium and the subannular
+pannus carefully resected off the LVOT using a
+scalpel. Great care was taken not to injure or remove
+any native endocardium in order to preserve LVOT
+structural integrity. After resection, a defect below
+the annulus along the right coronary cusp was pre-
+sent, necessitating repair. Several interrupted non-
+pledgeted 4-0 Prolene sutures (Johnson & Johnson)
+were used to bring native LVOT endocardium up to
+the aortic valve annulus, closing the defect and
+restoring structural integrity of the LVOT.
+FIGURE 2
+Intraoperative Images of Mobile THV Mass and Subvalvular Pannus
+Freely mobile intravalvular transcatheter heart valve (THV) mass (A) measuring about 2.5 cm in length, with attachment base located just below the left coronary cusp
+(LCC)/right coronary cusp (RCC) commissure (B) of the THV. (C) Near circumferential subvalvular pannus formation after valve explantation, measuring about 1 cm in
+thickness and extending from the native aortic valve LCC/noncoronary cusp (NCC) commissure to the RCC/NCC commissure.
+FIGURE 1
+Preoperative Photon-Counting Multidetector Computed Tomography of the Heart With Contrast Depicting Subvalvular Pannus and Mass Associated
+With Bioprosthetic Aortic Valve
+(A) Bioprosthetic aortic valve at mid-diastole. (B, C) Circumferential pannus formation and mass projecting into the left ventricular outﬂow tract (see Video 1
+demonstrating the mobility of the mass).
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 8 , 2 0 2 5
+Jabagi et al
+J U L Y 9 , 2 0 2 5 : 1 0 3 8 8 5
+Leaﬂet Mass and Stenosis Requiring TAVR Explantation
+3
+
+=== PAGE 4 ===
+The root and left ventricle were then irrigated, and
+the annulus was sized to a 23-mm Inspiris aortic
+valve. Pledgeted, noneverting horizontal mattress
+annular sutures were then placed circumferentially
+and passed through the sewing ring. The valve was
+parachuted into position and secured to the annulus
+using Cor-Knots (LSI Solutions). On inspection, the
+valve appeared well seated with no gaps, and the
+aortotomy was closed. Tricuspid valve annuloplasty
+was then completed (34-mm Contour 3D annuloplasty
+ring, Medtronic) followed by ligation of the left atrial
+appendage (45-mm AtriClip, AtriCure). Intraoperative
+transesophageal
+echocardiography
+(TEE)
+at
+the
+conclusion of the case showed normal biventricular
+function, an AVA of 2.25 cm2 with an MG of 2 mm Hg,
+and trace tricuspid regurgitation.
+OUTCOME AND FOLLOW-UP
+The patient was maintained on inotropic support
+following surgery and was extubated within 24 hours.
+Because
+of
+pre-existing
+pulmonary
+hypertension,
+milrinone was slowly weaned by postoperative day 5.
+Her postoperative recovery was otherwise uncom-
+plicated, and she was discharged on postoperative
+day 10. Histopathologic analysis of all surgical speci-
+mens was completed. The intravalvular mass was
+identiﬁed as fragments of soft tissue, predominantly
+ﬁbrin with mixed acute and chronic inﬂammation on
+histopathology (Figure 3), while analysis of pannus
+specimens revealed dense ﬁbrous tissue, with rare
+viable myocytes associated with chronic and focal
+active inﬂammation (Figure 4). At 1-month follow-up,
+the patient had made a complete recovery and was
+asymptomatic. Repeat TTE showed a stable aortic
+valve prosthesis with normal hemodynamic status,
+no AS, aortic insufﬁciency, or paravalvular leak.
+DISCUSSION
+The
+rapid
+global
+adoption
+of
+TAVR
+has
+quickly
+transformed TAVR into a widely accepted and stan-
+dardized treatment for AS, offering a less invasive
+alternative
+to
+SAVR.
+With
+demonstrated
+success
+across diverse patient populations and recent ran-
+domized controlled trials demonstrating comparable,
+if not superior, outcomes to SAVR in low-risk pa-
+tients, TAVR has become the preferred treatment
+strategy for AS, regardless of surgical risk, exceeding
+all forms of SAVR volumes since 2019.2-6 However,
+despite this signiﬁcant advancement, the relatively
+recent introduction of TAVR limits the availability of
+long-term outcome data, especially concerning valve
+durability.7 This knowledge gap has become increas-
+ingly
+critical
+as
+TAVR
+use
+expands,
+particularly
+among deployments in younger patients, who will
+require longer term valve functionality.
+Bioprosthetic valve dysfunction (BVD) is classiﬁed
+into 4 categories: SVD, non-SVD, prosthetic valve
+thrombosis, and endocarditis, all of which can affect
+valve durability (Supplemental Table 1). SVD, endo-
+carditis,
+and
+non-SVD,
+speciﬁcally
+severe
+PVL,
+following TAVR are the most common complications
+that lead to valve reintervention or TAVR explanta-
+tion, with a 30-day mortality rate approaching 16%.7-11
+The incidence of transcatheter heart valve thrombosis
+FIGURE 3
+Histopathology of the Transcatheter Heart Valve Intravalvular Mass
+Sections of the intravalvular mass show portions of ﬁbrous tissue with a focally prominent mixed inﬂammatory inﬁltrate consisting of plasma cells with some
+lymphocytes and neutrophils and abundant ﬁbrin. (1) Intravalvular mass at 100 magniﬁcation. (2) Intravalvular mass at 200 magniﬁcation. (3) Intravalvular mass at
+400 magniﬁcation, with prominent inﬂammatory inﬁltrate.
+Jabagi et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 8 , 2 0 2 5
+Leaﬂet Mass and Stenosis Requiring TAVR Explantation
+J U L Y 9 , 2 0 2 5 : 1 0 3 8 8 5
+4
+
+=== PAGE 5 ===
+ranges from 0.6% to 40% following TAVR, and it pre-
+sents a signiﬁcant risk for embolization, including ce-
+rebrovascular
+events
+and/or
+arterial
+embolisms;
+transcatheter heart valve leaﬂet thrombosis may also
+result
+in
+valve
+dysfunction
+and
+early
+degenera-
+tion.7,12,13 In the case of TAVR explantation, mini-
+mizing additional interventions is crucial to reduce
+mortality risk. In our case, we limited interventions to
+those with strong indications for surgical intervention,
+speciﬁcally addressing the most signiﬁcant valvular
+issues while also performing left atrial appendage
+ligation to prevent thromboembolic events, a particu-
+larly valuable approach given the patient’s age and
+history of atrial ﬁbrillation.
+The
+most
+common
+causes
+of
+prosthetic
+valve
+obstruction
+are
+prosthetic
+valve
+thrombosis
+and
+pannus formation.14-16 Differentiating between these
+2 conditions is crucial, as prosthetic valve thrombosis
+can often be treated with ﬁbrinolysis, whereas pan-
+nus requires surgical intervention to relieve the
+obstruction. Herein, we describe a unique case of
+early BVD and valve obstruction in a TAVR patient
+caused by concomitant leaﬂet thrombosis and sub-
+valvular pannus formation. In this case, cine CT pro-
+vided
+signiﬁcant
+diagnostic
+value,
+not
+only
+enhancing the visualization of the transvalvular mass
+but also identifying subvalvular pannus in the LVOT,
+which required intervention at the time of TAVR
+explantation. The ability of cine CT to detect such
+anatomical nuances makes it an invaluable imaging
+modality, complementing other techniques such as
+3-dimensional
+TEE.
+This
+multimodality
+imaging
+approach
+was
+key
+to
+accurately
+diagnosing
+the
+etiology of valve dysfunction and guiding the appro-
+priate surgical plan.
+Pannus formation in prosthetic valves is charac-
+terized
+by
+excessive
+tissue
+ingrowth
+leading
+to
+obstruction
+and
+occurs
+as
+a
+chronic
+process,
+commonly occurring about 5 years postimplantation.
+Although the exact etiology remains uncertain, pan-
+nus is thought to result from a nonimmune mecha-
+nism involving proliferation of ﬁbroelastic connective
+tissue and collagen, triggered by a reactive inﬂam-
+matory process to the prosthetic valve.14-18 The pro-
+cess typically begins at the suture line and is more
+common in the aortic valve prothesis. Pannus for-
+mation occurs primarily on the ventricular side of the
+prosthesis,14,19 leading to valvular obstruction arising
+from LVOT narrowing when the pannus remains
+conﬁned below the valve or by pannus extension up
+to the valve oriﬁce or hinges, restricting leaﬂets
+mobility. In comparison, prosthetic valve thrombosis
+occurs more frequently in mitral valve prostheses,
+occurs early after valve implantation, usually in the
+setting of inadequate anticoagulation, and can be
+either supravalvular or subvalvular.
+As per the 2020 American College of Cardiology/
+American Heart Association guidelines for the man-
+agement of valvular disease, the evaluation of pros-
+thetic valve obstruction beings with TTE or TEE,
+where thrombi usually appear larger and irregular
+and cause valve restriction, with a density <0.7.5
+Three-dimensional TEE and multidetector-row CT,
+as used in this case, are complementary imaging
+modalities that assist in distinguishing thrombus
+from
+pannus
+(Supplemental
+Table
+1).14,17,18,20
+FIGURE 4
+Histopathology of Subvalvular Pannus
+Sections of the transcatheter heart valve subvalvular mass show ﬁbrous tissue, with rare viable myocytes at the periphery, associated with chronic and focal active
+inﬂammation, with prominent plasma cells. (1) Subannular mass (100 magniﬁcation). (2) Subannular mass (300 magniﬁcation) with myocytes at the periphery of
+the tissue (right) and inﬂammatory inﬁltrate. (3) Subannular mass (400 magniﬁcation) inﬁltrate with prominent plasma cells.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 8 , 2 0 2 5
+Jabagi et al
+J U L Y 9 , 2 0 2 5 : 1 0 3 8 8 5
+Leaﬂet Mass and Stenosis Requiring TAVR Explantation
+5
+
+=== PAGE 6 ===
+Although thrombus is typically treated successfully
+with anticoagulation, the failure of warfarin therapy
+often suggests pannus as the more likely diagnosis,
+with surgery being the only curative option, as
+demonstrated in this case.15
+Although thrombosis or pannus formation is a
+well-documented complication, the need for surgical
+explantation of a TAVR remains relatively rare,10 with
+TAVR explantation reported in only about 1.0% of
+patients
+across
+various
+meta-analyses.21,22
+When
+surgically treated, 47% of patients require SAVR and
+53% require concomitant procedures, with ascending
+or aortic root repair being the most common.10
+It is important to note that this case occurred 1 year
+postoperatively.
+Research
+indicates
+that
+surgical
+explantation
+beyond
+this
+time
+frame
+becomes
+signiﬁcantly
+more
+technically
+challenging.22
+Furthermore, both age and Society of Thoracic Sur-
+geons Predicted Risk of Mortality were higher in the
+presented case (85 years of age; 10.4) compared with
+the average age and Society of Thoracic Surgeons
+Predicted
+Risk
+of
+Mortality
+reported
+for
+TAVR
+explantation (73.7 years of age; 5.9).10
+This case highlights the importance of identifying
+BVD and accurately determining its etiology. Proper
+differentiation is essential, as it guides the appro-
+priate approach for successful treatment.15,23 Initial
+evaluation with TTE is standard and allows assess-
+ments of prosthetic valve hemodynamic performance.
+TEE is complementary and recommended if ﬁndings
+of thrombosis are present to assess thrombus burden
+of left-sided valves. TEE also allows better assessment
+and visualization of the posterior aspect of aortic
+prostheses. However, evaluation of BVD using TTE
+and TEE may be limited by acoustic shadowing, hin-
+dering the identiﬁcation of pannus or thrombus. Dis-
+tinguishing between thrombus and pannus can be
+exceedingly difﬁcult with echocardiography alone,
+and often requires cardiac CT (Supplemental Table 2).
+Evaluation of prosthetic valves using multidetector
+CT can detect the presence of masses and abnormal
+leaﬂet motion and has the ability to discriminate
+thrombus from pannus using differences in attenua-
+tion
+as
+measured in
+HU; in one
+study, pannus
+demonstrated enhancement >145 HU.24,25
+CONCLUSIONS
+This case highlights a rare but signiﬁcant complica-
+tion following TAVR, involving concomitant leaﬂet
+thrombosis and subvalvular pannus formation, lead-
+ing to early BVD at 1 year, necessitating high-risk
+reintervention. The case underscores the critical role
+of advanced cardiac imaging, particularly cine CT, in
+detecting both transvalvular masses and subvalvular
+LVOT
+obstructions,
+which
+guided
+the
+surgical
+approach.
+The
+mortality
+associated
+with
+TAVR
+explantation, especially when additional procedures
+are required, emphasizes the need to focus on Class I
+surgical indications and minimize unnecessary in-
+terventions. Left atrial appendage ligation, in this
+context, was a preventive measure against thrombo-
+embolic complications in a high-risk patient. Vigilant
+long-term follow-up and further research into TAVR-
+related BVD and its mechanisms remain essential for
+improving patient outcomes.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Habib Jabagi, The
+Valley Hospital, 4 Valley Health Plaza, Paramus, New
+Jersey 07652, USA. E-mail: jabaha@valleyhealth.com.
+R E F E R E N C E S
+1. Kaneko T, Bapat VN, Alakhtar AM, et al. Trans-
+catheter
+heart
+valve
+explantation
+for
+trans-
+catheter aortic valve replacement failure: a Heart
+Valve Collaboratory expert consensus document
+on operative techniques. J Thorac Cardiovasc Surg.
+2024;169(3):878–889.
+2. Fukuhara S, Brescia AA, Shiomi S, et al. Surgical
+explantation
+of
+transcatheter
+aortic
+bio-
+prostheses:
+results
+and
+clinical
+implications.
+J Thorac Cardiovasc Surg. 2021;162(2):539–547.e1.
+3. Popma JJ, Deeb GM, Yakubov SJ, et al, for the
+Evolut Low Risk Trial Investigators. Transcatheter
+aortic-valve replacement with a self-expanding
+valve
+in
+low-risk
+patients.
+N
+Engl
+J
+Med.
+2019;380(18):1706–1715.
+4. Mack MJ, Leon MB, Thourani VH, Makkar R,
+et al, for the PARTNER 3 Investigators. Trans-
+catheter aortic-valve replacement with a balloon-
+expandable valve in low-risk patients. N Engl J
+Med. 2019;380(18):1695–1705.
+5. Writing
+Committee
+Members,
+Otto
+CM,
+Nishimura RA, Bonow RO, et al. 2020 ACC/AHA
+guideline for the management of patients with
+valvular heart disease: executive summary: a
+report of the American College of Cardiology/
+American Heart Association Joint Committee on
+Clinical Practice Guidelines. J Am Coll Cardiol.
+2021;77(4):450–500.
+6. Mori M, Gupta A, Wang Y, et al. Trends in
+transcatheter and surgical aortic valve replace-
+ment among older adults in the United States.
+J Am Coll Cardiol. 2021;78(22):2161–2172.
+7. Ng ACT, Holmes DR, Mack MJ, et al. Leaﬂet
+immobility and thrombosis in transcatheter aortic
+valve replacement. Eur Heart J. 2020;41(33):
+3184–3197.
+8. Imaeda S, Inohara T, Yoshijima N, et al. Natural
+history of leaﬂet thrombosis after transcatheter
+Jabagi et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 8 , 2 0 2 5
+Leaﬂet Mass and Stenosis Requiring TAVR Explantation
+J U L Y 9 , 2 0 2 5 : 1 0 3 8 8 5
+6
+
+=== PAGE 7 ===
+aortic valve replacement: a 5-year follow-up
+study. J Am Heart Assoc. 2022;11(23):e026334.
+9. Capodanno AD, Petronio AS, Prendergast B,
+et al. Standardized deﬁnitions of structural dete-
+rioration and valve failure in assessing long-term
+durability of transcatheter and surgical aortic
+bioprosthetic valves: a consensus statement from
+the European Association of Percutaneous Car-
+diovascular Interventions (EAPCI) endorsed by the
+European Society of Cardiology (ESC) and the
+European Association for Cardio-Thoracic Surgery
+(EACTS). Eur J Cardiothorac Surg. 2017;38(45):
+3382–3390.
+10. Yokoyama Y, Kuno T, Zaid S, et al. Surgical
+explantation of transcatheter aortic bioprosthesis:
+a systematic review and meta-analysis. JTCVS
+Open. 2021;8:207–227.
+11. Bapat VN, Zaid S, Fukuhara S, et al. Surgical
+explantation after TAVR failure: mid-term out-
+comes from the EXPLANT-TAVR international
+registry.
+JACC
+Cardiovasc
+Interv.
+2021;14(18):
+1978–1991.
+12. Koren O, Patel V, Chakravarty T, et al. Leaﬂet
+thrombosis in transcatheter aortic valve interven-
+tion: mechanisms, prevention, and treatment op-
+tions. Front Cardiovasc Med. 2023;10:1249604.
+13. Chakravarty T, Søndergaard L, Friedman J,
+et al. Subclinical leaﬂet thrombosis in surgical and
+transcatheter
+bioprosthetic
+aortic
+valves:
+an
+observational study. Lancet. 2017;389(10087):
+2383–2392.
+14. Moldovan
+MS,
+Bedeleanu
+D,
+Kovacs
+E,
+Ciumarnean L, Molnar A. Pannus-related pros-
+thetic valve dysfunction. Case report. Clujul Med.
+2016;89(1):169–175.
+15. Bonnichsen CR, Pellikka PA. Prosthetic valve
+thrombus versus pannus: progress with imaging.
+Circ Cardiovasc Imaging. 2015;8(12):e004283.
+16. Takemoto
+S,
+Kumano
+H,
+Shimamura
+J,
+Shiose A, et al. Pannus formation: a rare culprit
+of early bioprosthetic valve dysfunction—a case
+report.
+Eur
+Heart
+J
+Case
+Rep.
+2024;8(10):
+ytae518.
+17. Barbetseas
+J,
+Nagueh
+SF,
+Pitsavos
+C,
+Toutouzas PK, Quiñones MA, Zoghbi WA. Differ-
+entiating thrombus from pannus formation in
+obstructed mechanical prosthetic valves: an eval-
+uation
+of
+clinical,
+transthoracic
+and
+trans-
+esophageal echocardiographic parameters. J Am
+Coll Cardiol. 1998;32(5):1410–1417.
+18. Tanis W, Habets J, van den Brink RBA, et al.
+Differentiation of thrombus from pannus as the
+cause of acquired mechanical prosthetic heart
+valve obstruction by non-invasive imaging: a re-
+view of the literature. Eur Heart J Cardiovasc Im-
+aging. 2014;15(2):119–129.
+19. Darwazah AK. Recurrent pannus formation
+causing prosthetic aortic valve dysfunction: is
+excision without valve re-replacement applicable?
+J Cardiothorac Surg. 2012.
+20. Teshima H, Hayashida N, Enomoto N, et al.
+Detection
+of
+pannus
+by
+multidetector-row
+computed
+tomography.
+Ann
+Thorac
+Surg.
+2003;75(5):1631–1633.
+21. Tacon PR, Cao L, Birkeland K, Kedan I. Case
+report: a transcatheter aortic valve replacement
+failure secondary to COVID-19 infection. Eur Heart
+J Case Rep. 2023;7(2):ytad054.
+22. Abbasciano RG, Magouliotis DE, Koulouroudias M,
+et al. Valve type and operative risks in surgical
+explantation of transcatheter aortic valves: a
+systematic review and meta-analysis. J Clin Med.
+2024;13(5):1262.
+23. Roudaut R, Serri K, Laﬁtte S. Thrombosis of
+prosthetic heart valves: diagnosis and therapeutic
+considerations. Heart. 2007;93(1):137–142.
+24. Verma M, Pandey NN, Kumar S, Ramakrishnan S.
+Imaging spectrum of valvular and paravalvular
+complications of prosthetic heart valve at CT angi-
+ography. Radiol Cardiothorac Imaging. 2021;3(4):
+e210159.
+25. Gündüz S, Özkan M, Kalçik M, et al. Sixty-four-
+section cardiac computed tomography in me-
+chanical
+prosthetic
+heart
+valve
+dysfunction:
+thrombus or pannus. Circ Cardiovasc Imaging.
+2015;8(12):e003246.
+KEY WORDS aortic valve, valve repair,
+valve replacement
+APPENDIX For a supplemental tables,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 8 , 2 0 2 5
+Jabagi et al
+J U L Y 9 , 2 0 2 5 : 1 0 3 8 8 5
+Leaﬂet Mass and Stenosis Requiring TAVR Explantation
+7

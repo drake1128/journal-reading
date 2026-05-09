@@ -1,0 +1,416 @@
+
+=== PAGE 1 ===
+CASE REPORT
+CLINICAL CASE: DAVINCI CORNER
+3D Model Guiding Transcatheter Aortic
+Valve Replacement in a Patient With
+Aortic Coarctation
+Mirvat A. Alasnag, MD, Ibrahim M. Al-Nasser, MD, Massimo M. Porqueddu, MD, Waqar H. Ahmed, MD,
+Khalid F. Al-Shaibi, MD
+ABSTRACT
+We demonstrate the utility of a printed 3-dimensional model to assist in the vascular access planning for a transcatheter
+aortic valve replacement in an elderly woman with complicated vascular anatomy including aortic coarctation,
+severe iliofemoral disease, and a small and tortuous left subclavian artery. (Level of Difﬁculty: Intermediate.)
+(J Am Coll Cardiol Case Rep 2020;2:352–7) © 2020 The Authors. Published by Elsevier on behalf of the American College
+of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/
+licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 77-year-old frail female patient was seen in the
+clinic
+with
+progressive
+dyspnea
+over
+a
+3-month
+period. On physical examination, she had a blood
+pressure of 140/70 mm Hg in both arms and a loud
+ejection systolic murmur radiating to the carotid
+arteries.
+PAST MEDICAL HISTORY
+The past history was signiﬁcant only for longstanding
+hypertension and hyperlipidemia.
+DIFFERENTIAL DIAGNOSIS
+The only differential diagnosis was degenerative
+aortic stenosis that warranted an initial workup by
+echocardiogram.
+INVESTIGATIONS
+An echocardiogram showed a bicuspid aortic valve
+with severe stenosis (peak gradient, 120 mm Hg; mean
+gradient, 75 mm Hg; maximum velocity, 5.5 m/s). The
+ejection fraction was 60%. Coarctation of the aorta was
+conﬁrmed by a computed tomography angiography
+(CTA). This was a type 2A bicuspid valve with a raphe
+between the right and noncoronary cusps. An invasive
+coronary angiogram showed mild coronary artery dis-
+ease with a maximum gradient across the coarctation
+by direct invasive measurement of only 10 mm Hg
+(possibly underestimated because of severe aortic
+stenosis). She was evaluated by the cardiac surgeons
+for surgical replacement of the aortic valve, and they
+LEARNING OBJECTIVES
+ To
+understand
+the
+importance
+of
+pre-
+planning complex structural interventions
+ To explore the utility of 3D modeling and
+simulation in the planning of complex
+interventions
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2020.01.021
+From the Cardiac Center, King Fahd Armed Forces Hospital, Jeddah, Saudi Arabia. The authors have reported that they have no
+relationships relevant to the contents of this paper to disclose.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, or patient consent where appropriate. For more information, visit the
+JACC: Case Reports author instructions page.
+Manuscript received October 10, 2019; revised manuscript received January 10, 2020, accepted January 23, 2020.
+J A C C : C A S E R E P O R T S
+V O L . 2 , N O . 3 , 2 0 2 0
+ª 2 0 2 0 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E
+O F
+C A R D I O L O G Y
+F O U N D A T I O N .
+T H I S
+I S
+A N
+O P E N A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+deemed it too high risk. Accordingly, we evaluated her
+for percutaneous transcatheter replacement of the
+aortic valve (TAVR). The CTA measurements obtained
+were as follows: bicuspid aortic valve annulus area was
+291.4 mm2, and perimeter derived diameter was
+19.6 mm. The sinotubular junction diameter was
+25.2 mm, ascending thoracic aortic diameter was
+29.7 mm, and descending thoracic aortic diameter
+beyond the coarctation was 31.1 mm. The annulus to
+left main ostium distance was 13.2 mm, and the
+annulus to right coronary artery ostium distance
+was
+14.8
+mm.
+The
+peripheral
+vessels
+were
+diffusely diseased with calciﬁcation and tortuosity.
+The right common iliac artery diameter was 5.9 mm,
+and the left common iliac artery diameter was 5.8 mm
+(Figures 1 to 5).
+As such, a transfemoral TAVR was deemed un-
+suitable, and we explored an alternative access.
+Upon reviewing the CTA, the distal segment of the
+left axillary artery was 4.7 mm, and the proximal
+segment was 7.2 mm. The left subclavian
+artery was 6.6 mm.
+MANAGEMENT (MEDICAL/
+INTERVENTIONS)
+In view of the small caliber of the distal
+segment
+of
+the
+axillary
+artery
+and
+the
+severely angulated take-off of the subclavian artery
+from the dilated segment of the aortic arch just
+proximal to the coarctation, we opted to create a
+3-dimensional (3D) print of the vasculature. The
+purpose of an in vitro model was to select the most
+appropriate access point and assess the ability to
+track a delivery sheath and valve across this unique
+anatomy (coarctation with dilatation and tortuous
+aorta). The 3D printer used was Stratasys J450 Digital
+Anatomy system. The material used was acrylonitrile
+butadiene styrene ﬁlament, and the 3D modeling
+software used in converting Digital Imaging and
+FIGURE 1
+Computed Tomography Angiography of the
+Coarctation (Lateral Projection)
+A 3-dimensional reconstruction of the thoracic aorta in the
+lateral projection, showing the coarctation and post-stenotic
+dilation of the descending thoracic aorta.
+FIGURE 2
+Computed Tomography Angiography of the
+Coarctation (Posterior Projection)
+A 3-dimensional reconstruction of the thoracic aorta in the
+posterior projection, showing the coarctation and post-
+stenotic dilation of the descending thoracic aorta.
+SEE PAGE 358
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+3D = 3-dimensional
+CTA = computed tomography
+angiography
+TAVR = transcatheter aortic
+valve replacement
+J A C C : C A S E R E P O R T S , V O L . 2 , N O . 3 , 2 0 2 0
+Alasnag et al.
+M A R C H 2 0 2 0 : 3 5 2 – 7
+3D Model Guiding Structural Interventions
+353
+
+=== PAGE 3 ===
+Communications in Medicine (DICOM) to Stereo-
+Lithography (STL) segmenting and volume rendering
+was the Mimics inPrint system (Materialise, Leuven,
+Belgium). Several access points were examined with
+the 3D model, including the proximal left subclavian
+artery and distal part of the axillary artery. Based on
+the model, a surgical cut down of the proximal
+segment of the left axillary artery was selected. The
+valve delivery and deployment were also simulated
+step by step. With the left subclavian access, it was
+more difﬁcult to negotiate the acute angle of the
+subclavian artery (60) and aortic arch compared with
+the axillary artery approach (Figures 6 to 9).
+The procedure was performed by using the agreed-
+on access point and was completed successfully with
+a CoreValve Evolut R size 23 valve (Medtronic, Santa
+Rosa, California). The valve was post-dilated with a
+size 20 NuMED (Brooklyn, New York) balloon. Post-
+implantation
+mean
+gradient
+across
+the
+valve
+measured
+by
+both
+echocardiography
+and
+direct
+invasive measurement was 5 mm Hg. There was only
+mild paravalvular regurgitation. Complete hemosta-
+sis at the arteriotomy site was obtained after tying the
+purse-string sutures (Figures 10 and 11).
+DISCUSSION
+Alternate
+access
+TAVR
+has
+conventionally
+been
+through transapical or direct transaortic approaches,
+both of which are very invasive and require surgical
+involvement (1–3). More recently, the transaxillary,
+transcarotid,
+and
+transcaval
+percutaneous
+ap-
+proaches have been adopted as less invasive options
+(4–9). Given the extreme tortuosity and the coarcta-
+tion of the aorta, the transcaval approach was deemed
+FIGURE 3
+Left Subclavian and Axillary Arteries by Computed
+Tomography Angiography
+A 2-dimenstional maximum intensity projection image showing the relationship of the
+arteries to the ﬁrst rib and the angulation of the vessels.
+FIGURE 4
+Aortic Valve by Computed Tomography Angiography
+(A) A 2-dimensional (2D) image of type 2A bicuspid valve with a raphe between the right and noncoronary cusps. (B) A 3-dimensional (3D)
+image of the same valve. CTA ¼ computed tomography angiography; LC ¼ left coronary cusp; NC ¼ noncoronary cusp; RC ¼ right coronary
+cusp.
+Alasnag et al.
+J A C C : C A S E R E P O R T S , V O L . 2 , N O . 3 , 2 0 2 0
+3D Model Guiding Structural Interventions
+M A R C H 2 0 2 0 : 3 5 2 – 7
+354
+
+=== PAGE 4 ===
+unsuitable because it would still involve negotiating
+the coarctation segment with the delivery system.
+The conventional percutaneous transaxillary was not
+possible because of the small caliber of the distal
+axillary artery. Despite limited tactile feedback due to
+the nature of the model material, 3D modeling and
+simulation permitted several trials and adjustments
+that would not have been possible in vivo. A suitable
+access point in the proximal axillary artery where the
+delivery sheath could be advanced safely was iden-
+tiﬁed by the simulation. The model included the
+valve, ascending aorta, coarctation segment, and left
+subclavian and axillary arteries. The model was also
+useful for describing the complex anatomy and pro-
+posed procedure to the patient and her family. A vi-
+sual
+model
+allowed
+them
+to
+conceptualize
+the
+obstacles to conventional access (i.e., transfemoral)
+and understand the potential vascular complications
+to a percutaneous transaxillary approach. Resorting
+to 3D models for structural and congenital heart dis-
+ease has been described in several reports (10–12). Our
+case further delineates the practical utility of this
+technology.
+FOLLOW-UP
+At the patient’s 1-month follow-up to the outpatient
+clinic, she was asymptomatic, with normal function
+of her left upper limb and intact brachial and radial
+pulses.
+She
+did
+not
+require
+any
+pacing.
+The
+echocardiogram showed a well-seated valve with a
+mean gradient of 5 mm Hg and mild paravalvular
+regurgitation; the peak gradient across the coarcta-
+tion was 14 mm Hg.
+FIGURE 5
+Measurements of the Left Subclavian and Axillary Arteries
+Measurements of the left subclavian and axillary arteries by 3-dimensional reconstructed
+images on computed tomography–angiography.
+FIGURE 6
+Delivery Sheath Advancement
+Subclavian access in the 3-dimensional (3D) model simulating
+delivery sheath advancement.
+FIGURE 7
+Partial Deployment of the CoreValve
+Subclavian access in the 3-dimensional (3D) model with partial
+deployment of the CoreValve.
+J A C C : C A S E R E P O R T S , V O L . 2 , N O . 3 , 2 0 2 0
+Alasnag et al.
+M A R C H 2 0 2 0 : 3 5 2 – 7
+3D Model Guiding Structural Interventions
+355
+
+=== PAGE 5 ===
+CONCLUSIONS
+Although 3D modeling remains experimental and is
+not currently recommended by guidelines, it may
+have unique applications in complex anatomy, as
+described in this case. In the future, 3D printing of
+volumetric datasets obtained by CTA and simulation
+may serve several purposes, including education (for
+patients
+and
+trainees),
+further
+deﬁning
+complex
+anatomy, and planning interventions for structural
+and congenital heart diseases. It may also allow
+reﬁnement and development of novel devices and
+techniques.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr.
+Mirvat
+Alasnag, Cardiac Center, King Fahd Armed Forces
+Hospital, PO Box 9862, Jeddah 21159, Jeddah, Saudi
+Arabia.
+E-mail:
+mirvat@jeddacath.com.
+Twitter:
+@mirvatalasnag.
+FIGURE 9
+Axillary Access in the 3-Dimensional Model
+Axillary access in the 3-dimensional (3D) model simulating
+delivery sheath advancement.
+FIGURE 10
+Deployed Transcatheter Aortic Valve
+Replacement CoreValve
+The deployed transcatheter aortic valve replacement CoreValve
+in vivo.
+FIGURE 8
+Fully Deployed CoreValve
+Subclavian access in the 3-dimensional (3D) model with the
+CoreValve fully deployed.
+FIGURE 11
+Left Axillary Digital Subtraction Angiography
+Left axillary digital subtraction angiography (DSA) after surgical
+closure of the arteriotomy in vivo upon completion of the
+deployment.
+Alasnag et al.
+J A C C : C A S E R E P O R T S , V O L . 2 , N O . 3 , 2 0 2 0
+3D Model Guiding Structural Interventions
+M A R C H 2 0 2 0 : 3 5 2 – 7
+356
+
+=== PAGE 6 ===
+R E F E R E N C E S
+1. Arai T, Romano M, Lefèvre T, et al. Direct
+comparison of feasibility and safety of trans-
+femoral
+versus
+transaortic
+versus
+transapical
+transcatheter aortic valve replacement. J Am Coll
+Cardiol Intv 2016;9:2320–5.
+2. Schymik G, Würth A, Bramlage P, et al. Long-
+term results of transapical versus transfemoral
+TAVI in a real world population of 1000 patients
+with severe symptomatic aortic stenosis. Circ
+Cardiovasc Interv 2015;8:e000761.
+3. Thourani VH, Jensen HA, Babaliaros V, et al.
+Transapical and transaortic transcatheter aortic
+valve replacement in the United States. Ann
+Thorac Surg 2015;100:1718–26.
+4. Debry N, Delhaye C, Azmoun A, et al. Trans-
+carotid transcatheter aortic valve replacement:
+general or local anesthesia. J Am Coll Cardiol Intv
+2016;9:2113–20.
+5. Greenbaum AB, Babaliaros VC, Chen MY, et al.
+Transcaval Access and Closure for Transcatheter
+Aortic Valve Replacement: A Prospective Investi-
+gation. J Am Coll Cardiol 2017;69:511–21.
+6. Mylotte D, Sudre A, Teiger E, et al. Transcarotid
+transcatheter aortic valve replacement: feasibility
+and safety. J Am Coll Cardiol Intv 2016;9:472–80.
+7. Petronio AS, De Carlo M, Giannini C, et al.
+Subclavian TAVI: more than an alternative access
+route. EuroIntervention 2013;9 Suppl:S33–7.
+8. Bruschi G, Fratto P, De Marco F, et al. The
+trans-subclavian retrograde approach for trans-
+catheter aortic valve replacement: single-center
+experience. J Thorac Cardiovasc Surg 2010;140.
+911–5, 915.
+9. Mathur M, Krishnan SK, Levin D, et al. A step-
+by-step guide to fully percutaneous transaxillary
+transcatheter aortic valve replacement. Struct
+Heart 2017;1:209–15.
+10. Vukicevic M, Mosadegh B, Min J, Little S.
+Cardiac 3D printing and its future directions. J Am
+Coll Cardiol Img 2017;10:171–84.
+11. O’Neill
+B,
+Wang
+D,
+Pantelic
+M.
+Trans-
+catheter caval valve implantation using multi-
+modality imaging. J Am Coll Cardiol Img 2015;
+8:221–5.
+12. O’Neill B, Wang D, Pantelic M, et al. Reply: the
+role of 3D printing in structural heart disease: all
+that glitters is not gold. J Am Coll Cardiol Img
+2015;8:987–8.
+KEY WORDS 3-dimensional model,
+alternate access, transcatheter aortic valve
+replacement
+J A C C : C A S E R E P O R T S , V O L . 2 , N O . 3 , 2 0 2 0
+Alasnag et al.
+M A R C H 2 0 2 0 : 3 5 2 – 7
+3D Model Guiding Structural Interventions
+357

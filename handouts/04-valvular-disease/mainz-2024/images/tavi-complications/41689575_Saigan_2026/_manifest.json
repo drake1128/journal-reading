@@ -1,0 +1,62 @@
+{
+  "pdf": "41689575_Saigan_2026.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1694,
+      "height": 1882,
+      "ext": "png",
+      "bytes": 2824410
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1950,
+      "height": 890,
+      "ext": "png",
+      "bytes": 1434331
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1951,
+      "height": 525,
+      "ext": "png",
+      "bytes": 1651364
+    },
+    {
+      "file": "fig-04_p5.png",
+      "page": 5,
+      "width": 1951,
+      "height": 655,
+      "ext": "png",
+      "bytes": 1252928
+    },
+    {
+      "file": "fig-05_p5.png",
+      "page": 5,
+      "width": 1949,
+      "height": 562,
+      "ext": "png",
+      "bytes": 905447
+    },
+    {
+      "file": "fig-06_p6.png",
+      "page": 6,
+      "width": 1951,
+      "height": 872,
+      "ext": "png",
+      "bytes": 1482090
+    },
+    {
+      "file": "fig-07_p7.png",
+      "page": 7,
+      "width": 1694,
+      "height": 830,
+      "ext": "png",
+      "bytes": 592408
+    }
+  ]
+}

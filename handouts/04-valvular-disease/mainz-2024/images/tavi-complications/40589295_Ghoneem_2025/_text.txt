@@ -1,0 +1,421 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS 
+FIRST-IN-HUMAN/EARLY REPORTS 
+First-in-Human BASILICA Before 
+Valve-in-Valve TAVR in a Mechanically 
+Expanded, Legacy Valve 
+Ahmed Ghoneem, MD, a L. Wiley Nifong, MD, b Brian Cabarrus, MD, c Paul Mahoney, MD c 
+ABSTRACT 
+BACKGROUND The Lotus valve is a mechanically expanded transcatheter heart valve with design features that pose 
+challenges for valve-in-valve transcatheter aortic valve replacement (ViV-TAVR). Performing BASILICA (bioprosthetic or 
+native aortic scallop intentional laceration to prevent iatrogenic coronary artery obstruction during TAVR) to modify the 
+Lotus leaflets has only been reported in benchtop models. 
+FIRST-IN-HUMAN/EARLY REPORTS SUMMARY A 79-year-old woman with a degenerated 23-mm Lotus trans-
+catheter heart valve and high risk of coronary occlusion underwent BASILICA, followed by implantation of a 26-mm 
+Evolut FX valve. Conservative postdilation was performed to optimize valve expansion while minimizing risk of unrav-
+eling the Lotus frame. 
+DISCUSSION Although the Lotus valve has a low profile, valve canting and a high implant are risk factors for sinus seques-
+tration with ViV-TAVR. This case demonstrates BASILICA’s feasibility and key procedural adaptations required for success. 
+NOVELTY First-in-human report of BASILICA to prevent coronary obstruction before ViV-TAVR in a Lotus transcatheter 
+heart valve. 
+TAKE-HOME MESSAGES BASILICA can mitigate coronary obstruction risk before ViV-TAVR inside a Lotus valve. 
+Conservative postdilation can achieve excellent hemodynamics while preserving frame integrity. (JACC Case Rep. 
+2025;30:104669) © 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology 
+Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/ 
+licenses/by-nc-nd/4.0/). 
+T 
+he Lotus valve (Boston Scientific) is a me-
+chanically expanded transcatheter heart 
+valve (THV) with unique design features. 
+These include a dense nitinol frame that prevents 
+coronary access through the frame, a locking mecha-
+nism that prevents overexpansion, and thick posts. 1 
+We report a complex valve-in-valve (ViV) transcath-
+eter aortic valve replacement (TAVR) in a failed Lotus 
+TAKE-HOME MESSAGES 
+• BASILICA in a Lotus valve is feasible and can 
+mitigate coronary obstruction risk before 
+ViV-TAVR. 
+• Conservative 
+postdilation 
+can 
+achieve 
+excellent hemodynamics while preserving 
+frame integrity. 
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.104669 
+From the a Department of Cardiovascular Medicine, University of Pittsburgh Medical Center (Harrisburg), Harrisburg, Pennsyl-
+vania, USA; b Division of Cardiac Surgery, East Carolina University, Greenville, North Carolina, USA; and the c Department of 
+Cardiovascular Medicine, East Carolina University, Greenville, North Carolina, USA. 
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center. 
+Manuscript received April 25, 2025; revised manuscript received May 16, 2025, accepted June 4, 2025. 
+J A C C :  C A S E  R E P O R T S  
+V O L .  3 0 ,  N O .  2 4 ,  2 0 2 5  
+© 2 0 2 5  T H E  A U T H O R S .  P U B L I S H E D  B Y  E L S E V I E R  O N  B E H A L F  O F  T H E  A M E R I C A N  
+C O L L E G E  O F  C A R D I O L O G Y  F O U N D A T I O N .  T H I S  I S  A N  O P E N  A C C E S S  A R T I C L E  U N D E R  
+T H E  C C  B Y - N C - N D  L I C E N S E  ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .  
+
+=== PAGE 2 ===
+THV with a high risk of coronary occlusion, 
+mitigated by BASILICA (bioprosthetic or 
+native aortic scallop intentional laceration 
+to 
+prevent 
+iatrogenic 
+coronary 
+artery 
+obstruction during TAVR). 2 
+CASE SUMMARY 
+The case was a 79-year-old woman with a 
+history of implantation of 23-mm Lotus 
+TAVR valve for severe symptomatic aortic 
+stenosis as part of a clinical trial in 2019. Her 
+past medical history was also notable for 
+heart failure with a reduced ejection fraction 
+(25%), cardiac resynchronization therapy 
+with 
+defibrillator 
+implantation, 
+insulin- 
+dependent diabetes mellitus, hypertension, 
+and chronic kidney disease. She presented with 
+NYHA functional class III dyspnea and recurrent 
+hospitalizations with decompensated heart failure. 
+Echocardiogram revealed thickened prosthetic valve 
+leaflets and severe stenosis (peak velocity: 4.8 m/s, 
+mean gradient: 53 mm Hg, effective orifice area: 
+0.5 cm 2 , dimensionless valve index: 0.15). 
+Computed tomography angiography revealed an 
+underexpanded valve with a diameter of 20.6 mm 
+and coronary heights of the left main coronary artery 
+at 10.3 mm and right coronary artery (RCA) at 15 mm 
+(Figure 1). The Lotus valve was not aligned with the 
+native commissures, with the left main coronary ar-
+tery and RCA practically arising from the same neo- 
+sinus, and there was a valve post lying immediately 
+in front of the RCA ostium. Moreover, the valve was 
+canted toward the right coronary cusp (RCC) with the 
+frame coming up to the sinotubular junction (STJ). 
+The virtual THV-to-coronary distance (VTC) and vir-
+tual THV-to-STJ were narrow (3.6 and 1.9, respec-
+tively) at the RCC, with a predicted high risk of sinus 
+sequestration. 
+The patient was deemed a prohibitive risk for THV 
+explant and surgical aortic valve replacement by a 
+heart team. ViV-TAVR was the only therapeutic op-
+tion if risk of right coronary occlusion could be 
+mitigated, and she was referred to our center for this 
+after being turned down by 2 other centers. We 
+planned to perform BASILICA to lacerate the leaflet 
+and expose more of the Lotus frame, therefore 
+allowing more blood flow through the frame into the 
+sinus (or depressurize the sinus). Given the unique 
+design of the Lotus, with a theoretical risk of 
+unlocking the prosthesis with balloon inflation, we 
+sought to avoid/minimize balloon inflation. We 
+selected the 26-mm self-expanding Evolut FX (Med-
+tronic) for better hemodynamics and a lower risk of 
+unlocking the prosthesis. Moreover, if postdilatation 
+was required, smaller balloons could be used than 
+that of the alternative 23-mm balloon-expandable 
+Sapien 3 valve (Edwards Lifesciences). 
+PROCEDURAL DETAILS 
+We proceeded under general anesthesia and with 
+transesophageal echocardiogram (TEE) guidance. An 
+8-F arterial sheath was placed in the right femoral 
+artery (RFA), and a 7-F sheath was placed in the left 
+femoral artery, using a modified Seldinger technique 
+under ultrasound guidance. A Perclose Prostyle 
+(Abbott Vascular) device was then deployed at the 
+right arteriotomy in the fashion of preclosure with 
+knot tagged to the drape. A J wire was placed through 
+each Perclose Prostyle device and a 14-F sheath was 
+advanced through the RFA access site. A 6-F sheath 
+was then placed in the left femoral vein. 
+Only nonselective angiography of the RCA was 
+possible behind the Lotus valve frame, given 
+how sequestered the RCC was at baseline (Figure 2A, 
+Video 1). The fluoroscopic projections required for 
+leaflet traversal were unattainable (right anterior 
+oblique: 67, cranial: 56); therefore, compromise or near 
+angles were used, in addition to TEE imaging. Using a 
+multipurpose (MP) guide catheter, a gooseneck snare 
+was placed in the left ventricular outflow tract, and a 
+V18 wire was used to ensure position in the left 
+ventricle. A series of catheters were aimed at the right 
+leaflet to lacerate the base of the cusp in front of the 
+RCA. This was challenging given complex angles and 
+the position of the RCA ostium near the post of the 
+Lotus. We were able to find an appropriate crossing site 
+using a telescoping system consisting of a 5-F MP 
+catheter inside an 7FAL1 guide (Figure 2B, Video 2). An 
+Astato 20 wire was advanced to the leaflet inside a 
+piggyback microcatheter, electrified to traverse the 
+leaflet, and then snared in the left ventricle and exter-
+nalized through the MP catheter (Video 3). The flying V 
+was created by denuding a 1-mm segment on one side of 
+the Astato wire just in front of the piggyback, then 
+kinking this segment over the back of the scalpel blade. 
+This was then advanced to the leaflet (Figure 2D). The 
+Astato wire was then electrified at 50 W while injecting 
+5% dextrose through both guide catheters, and tension 
+was applied from both ends of the Astato to lacerate the 
+leaflet (Figure 2E, Video 4). The resultant leaflet splay 
+and aortic regurgitation were confirmed on TEE. Both 
+guide catheters were then taken out. 
+We then proceeded with TAVR in standard 
+fashion. The valve was recrossed, and a double 
+curved Lunderquist wire was placed near the apex 
+of the left ventricle. The native valve was crossed 
+A B B R E V I A T I O N S  
+A N D  A C R O N Y M S  
+MP = multipurpose 
+RCA = right coronary artery 
+RCC = right coronary cusp 
+RFA = right femoral artery 
+STJ = sinotubular junction 
+TAVR = transcatheter aortic 
+valve replacement 
+TEE = transesophageal 
+echocardiogram 
+THV = transcatheter heart 
+valve 
+ViV = valve-in-valve 
+VTC = virtual THV-to-coronary 
+distance 
+Ghoneem et al 
+J A C C :  C A S E  R E P O R T S ,  V O L .  3 0 ,  N O .  2 4 ,  2 0 2 5  
+First-in-Human Report of BASILICA to Facilitate ViV TAVR Inside a Degenerated Lotus Valve 
+A U G U S T  2 0 ,  2 0 2 5 : 1 0 4 6 6 9  
+2 
+
+=== PAGE 3 ===
+VISUAL SUMMARY Lotus Valve: Design, Dimensions and Risk of Sinus Sequestration 
+(A) Lotus valve dimensions and design features. (B) ViV-TAVR with a self-expanding valve inside a Lotus valve (neoskirt length: 13 mm, with 6 mm of uncovered 
+frame). (C) Risk of sinus sequestration after ViV-TAVR. (i) Low risk in an optimally implanted Lotus valve (ie, valve outflow below the STJ [black dashed line]). Blood 
+flow (red arrow) into the SOV mostly comes from above the valve frame, with some flow through the frame above the neoskirt. (ii) High risk in our case, with a high 
+valve (ie outflow above the STJ) that is canted toward the right SOV. Blood flow into the SOV is mostly through the frame above the neoskirt. (iii) The effect of 
+BASILICA, allowing more flow into the SOV through the valve frame. SOV = sinus of Valsalva; STJ = sinotubular junction distance; TAVR = transcatheter aortic valve 
+replacement; ViV = valve-in-valve. 
+J A C C :  C A S E  R E P O R T S ,  V O L .  3 0 ,  N O .  2 4 ,  2 0 2 5  
+Ghoneem et al 
+A U G U S T  2 0 ,  2 0 2 5 : 1 0 4 6 6 9  
+First-in-Human Report of BASILICA to Facilitate ViV TAVR Inside a Degenerated Lotus Valve 
+3 
+
+=== PAGE 4 ===
+using the Evolut. The valve was then unsheathed 
+slowly under direct fluoroscopic guidance using a 
+pigtail 
+position 
+and 
+angiography 
+as 
+needed 
+(Figure 2F, Video 5). Rapid pacing was performed. 
+The valve was then unsheathed to the 2/3 position 
+rapidly. Valve position was then assessed by 
+aortography in 2 oblique views. The valve was then 
+fully unsheathed and disengaged from the delivery 
+catheter. The delivery system was then pulled into 
+the descending aorta and removed after it was 
+redocked with the nosecone. After valve release, the 
+Evolut was noted to be underexpanded and an 
+invasive gradient across the valve was 22 mm Hg 
+(Figure 2G, Video 6). We elected to pursue a con-
+servative postdilation strategy using a 20-mm True 
+balloon, correlating with the minor axis of the 
+Lotus. This balloon was inflated once (Figure 2H, 
+Video 7). The final invasive gradient was 4 mm Hg 
+across the aortic valve. 
+The RFA sheath were removed, and the Perclose 
+Prostyle knot was delivered to the arteriotomy, fol-
+lowed by an Angioseal for hemostasis. The left 
+femoral artery sheath was removed with another 
+Angioseal device to achieve hemostasis. 
+The patient was seen for follow-up at 2 and 
+6 weeks after her procedure. She reported significant 
+FIGURE 1 Case Plan 
+Computed tomography angiography showing (A) inner diameter at valve inflow; (B) inner diameter at the midlevel of the valve; (C) inner diameter at valve outflow; (D) 
+height of the LMCA; (E) height of the RCA; (F) distance from the valve frame to the aortic wall, showing that the valve is canted toward the right coronary and 
+noncoronary cusps; (G) valve outflow above the STJ at the LCC; (H) valve outflow above the STJ at the RCC; (I) left VTC, (J) right VTC; (K) left VTSTJ; and (L) right VTSTJ. 
+LCC = left coronary cusp; LMCA = left main coronary artery; NCC = non-coronary cusp; RCA = right coronary artery; RCC = right coronary cusp; STJ = sinotubular 
+junction; VTC = virtual transcatheter heart valve-to-coronary distance; VT-STJ = virtual transcatheter heart valve-to-sinotubular junction distance. 
+Ghoneem et al 
+J A C C :  C A S E  R E P O R T S ,  V O L .  3 0 ,  N O .  2 4 ,  2 0 2 5  
+First-in-Human Report of BASILICA to Facilitate ViV TAVR Inside a Degenerated Lotus Valve 
+A U G U S T  2 0 ,  2 0 2 5 : 1 0 4 6 6 9  
+4 
+
+=== PAGE 5 ===
+improvement in her level of activity, with minimal 
+shortness 
+of 
+breath. 
+A 
+repeat 
+echocardiogram 
+revealed an improved ejection fraction to 40% and a 
+mean gradient of 10 mm Hg across the TAVR valve. 
+NOVELTY OF THE SUBMISSION 
+ViV-TAVR inside a degenerated Lotus THV’s has 
+previously been successful using both self-expanding 
+and 
+balloon-expandable 
+THVs. 1,3,4 
+However, 
+BASILICA to modify the Lotus leaflets has only been 
+reported in benchtop models. 5 To our knowledge, 
+this is the first reported experience of successful 
+BASILICA to prevent coronary obstruction before 
+ViV-TAVR inside a Lotus valve. 
+FUTURE DIRECTIONS 
+Approximately 13,000 patients were treated with the 
+Lotus valve before its discontinuation in 2020, and 
+many of them will eventually require reintervention 
+for bioprosthetic valve failure. 1 We describe several 
+unique risk factors of coronary obstruction in this 
+case that are unusual with the Lotus valve given its 
+FIGURE 2 Step-by-Step Sequence 
+(A) Nonselective angiography of the RCA. (B) An appropriate site to cross the leaflet was found using an MP GC inside an AL1 GC. (C) The leaflet was traversed using an 
+electrified Astato leaflet, and snared in the left ventricle to create the electrosurgical loop. (D) The flying V was advanced to the leaflet. (E) Traction applied to both 
+GCs while electrifying the Astato wire to lacerate the leaflet. (F) Unsheathing the Evolut valve. (G) Evolut valve noted to be underexpanded after release. (H) Valve 
+postdilated with a 20-mm true balloon. GC = guide catheter; LVOT = left ventricular outflow tract; MP = multipurpose; RCA = right coronary artery. 
+EQUIPMENT LIST 
+A) Arterial and venous access 
+• Ultrasound machine (Philips Healthcare, USA) 
+• Micropuncture needle and wire 
+• 0.035-inch J wire 
+• 7-F sheath – LFA 
+• 8-F sheath – RFA 
+• 14-F sheath – RFA 
+• 6-F sheath – LFV 
+• Proglide Prostyle (Abbott Vascular, USA) – RFA 
+• Angioseal ×2 (Terumo, Japan) – LFA & RFA 
+B) BASILICA 
+• 5-F Multipurpose catheter 
+• 6-F Multipurpose catheter 
+• 7-F AL1 guide catheter 
+• 0.035-inch V-18 wire (Boston Scientific, USA) 
+• 15-mm Gooseneck Snare (Medtronic, USA) 
+• 0.014-inch Astato 20 wire (Asahi, Japan) 
+• Piggyback microcatheter ×2 (Teleflex, USA) 
+• Scalpel 
+• Electrosurgery pencil 
+• 5% dextrose solution × 2 
+D) TAVR 
+• Pigtail catheter 
+• Pacemaker 
+• Evolut FX+ delivery catheter system with inline sheath 14-F 
+(Medtronic Inc, USA) 
+• True Balloon 20 mm (BD Medical, USA) 
+LFA = left femoral artery; LFV = left femoral vein; RFA = right femoral artery. 
+J A C C :  C A S E  R E P O R T S ,  V O L .  3 0 ,  N O .  2 4 ,  2 0 2 5  
+Ghoneem et al 
+A U G U S T  2 0 ,  2 0 2 5 : 1 0 4 6 6 9  
+First-in-Human Report of BASILICA to Facilitate ViV TAVR Inside a Degenerated Lotus Valve 
+5 
+
+=== PAGE 6 ===
+low profile and short neoskirt of approximately 
+13 mm. These included the high implant, with the 
+valve outflow above the STJ, and the canted valve 
+toward the RCC. It is important to note that the Lotus 
+valve was usually used in patients with hostile aortic 
+anatomies. Consequently, similar anatomic risks for 
+coronary 
+obstruction 
+with 
+ViV-TAVR 
+may 
+be 
+encountered more frequently than initially pre-
+dicted. Moreover, this case highlights that a conser-
+vative approach to postdilation after ViV-TAVR can 
+result in good hemodynamics without damaging the 
+Lotus frame or risking annular rupture in similarly 
+hostile anatomies. 
+The Lotus has been an orphan valve since its 
+discontinuation, with little support from the parent 
+company. Limited recommendations on ViV-TAVR 
+have been made based on case series, such as 
+consideration of surgical explant in patients at risk 
+for coronary obstruction. 1 This case highlights that 
+BASILICA in these patients is feasible, and provides 
+guidance on some of the technical challenges that 
+may be encountered in this situation. With more 
+patients outliving their TAVR valves and ViV-TAVR 
+becoming more required, leaflet modification pro-
+cedures will need to be performed at more structural 
+programs. Dedicated leaflet modification devices 
+(currently in development) may help overcome some 
+of the challenges highlighted in this case and 
+democratize leaflet modification in the future. 
+CONCLUSIONS 
+Although the Lotus valve has a low profile, valve 
+canting and a high implant are risk factors for sinus 
+sequestration. This is the first-in-human report of 
+BASILICA to mitigate this risk and facilitate ViV- 
+TAVR with a self-expanding valve inside a Lotus 
+valve. 
+FUNDING SUPPORT AND AUTHOR DISCLOSURES 
+Dr Mahoney has served as a consultant for Medtronic and Edwards 
+Lifesciences. All other authors have reported that they have no re-
+lationships relevant to the contents of this paper to disclose. 
+ADDRESS 
+FOR 
+CORRESPONDENCE: 
+Dr 
+Ahmed 
+Ghoneem, Department of Cardiovascular Medicine, 
+University of Pittsburgh Medical Center (Harrisburg), 
+205 South Front Street, Brady Hall, Suite 3C, Harris-
+burg, Pennsylvania 17105, USA. E-mail: ghoneema@ 
+upmc.edu. X handle: @a_h_ghoneem. 
+R E F E R E N C E S  
+1. Alfadhel M, Frawley C, Sathananthan J, et al. 
+Redo transcatheter aortic valve implantation in 
+the lotus mechanically expanded transcatheter 
+heart valve: bench-top analysis, clinical experi-
+ence, and procedural guidance. Circ Cardiovasc 
+Interv. 2023;16:e013296. 
+2. Khan JM, Dvir D, Greenbaum AB, et al. Trans-
+catheter laceration of aortic leaflets to prevent 
+coronary obstruction during transcatheter aortic 
+valve replacement: concept to first-in-human. 
+JACC Cardiovasc Interv. 2018;11:677–689. 
+3. Yadav 
+PK, 
+Rajagopal 
+V, 
+Sayegh 
+H, 
+Rangarajan V, Thourani VH, Kauten J. First report 
+of sapien 3 in lotus. JACC Cardiovasc Interv. 
+2020;13:2704–2707. 
+4. Stolte T, Winkel D, Haaf P, Nestelberger T. 
+First report of evolut pro+ transcatheter aortic 
+valve-in-valve in a degenerated lotus valve. Struct 
+Heart. 2024;8:100229. 
+5. Khan 
+JM, 
+Bruce 
+CG, 
+Babaliaros 
+VC, 
+Greenbaum AB, Rogers T, Lederman RJ. Tavr 
+roulette: caution regarding basilica laceration for 
+tavr-in-tavr. JACC Cardiovasc Interv. 2020;13: 
+787–789. 
+KEY WORDS BASILICA, complication, 
+electrosurgery, Evolut, Lotus, TAVR 
+APPENDIX For supplemental videos, 
+please see the online version of this paper. 
+Ghoneem et al 
+J A C C :  C A S E  R E P O R T S ,  V O L .  3 0 ,  N O .  2 4 ,  2 0 2 5  
+First-in-Human Report of BASILICA to Facilitate ViV TAVR Inside a Degenerated Lotus Valve 
+A U G U S T  2 0 ,  2 0 2 5 : 1 0 4 6 6 9  
+6 

@@ -1,0 +1,514 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Snare-Assisted Management of
+Nose Cone Entrapment During
+Self-Expandable Transcatheter Aortic
+Valve Replacement
+Vu Hoang Vu, MD, PHD,a,b Thanh Cong Nguyen, MD, MS,b Dinh Hoang Nguyen, MD, PHD,a,c Thang Duc Ho, MD, MS,c
+Binh Quang Truong, MD, PHDa,b
+ABSTRACT
+Nose cone entrapment is a rare but serious complication of transcatheter aortic valve replacement (TAVR) that requires
+prompt recognition and management to prevent adverse outcomes. A 77-year-old man with severe aortic stenosis un-
+derwent TAVR with a 29-mm Evolut R valve (Medtronic). The nose cone became lodged at the distal stent frame as a
+result of infolding, caused by a calciﬁed nodule. Standard maneuvers failed, but the complication was successfully
+resolved using a snare device deployed through contralateral femoral artery access without damage to the prosthesis.
+Few similar cases have been reported. This case underscores the importance of recognizing risk factors such as severe
+calciﬁcation, signiﬁcant annular angulation, and large-diameter valves. It also highlights the snare technique as an
+appropriate, minimally invasive solution for resolving nose cone entrapment. The snare technique is a reliable approach
+to manage nose cone entrapment during TAVR. (JACC Case Rep. 2025;30:103120) © 2025 The Authors. Published by
+Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).
+HISTORY OF PRESENTATION
+A 77-year-old man presented with a 1-week history of
+chest pain and dyspnea on exertion. Three days
+before admission, he experienced worsening sub-
+sternal chest pain at rest, associated with sweating
+and palpitations, despite outpatient treatment. On
+presentation, he showed signs of acute heart failure,
+including orthopnea and an oxygen saturation of 90%
+on room air. His body mass index was 27 kg/m2, and
+TAKE-HOME MESSAGES
+ Early recognition of nose cone entrapment
+risk during TAVR is crucial for preventing
+life-threatening complications.
+ In
+the
+event
+of
+entrapment,
+avoiding
+aggressive maneuvers and using support
+devices such as a snare can ensure swift and
+effective resolution while minimizing dam-
+age to the valve and surrounding structures.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.103120
+From the aFaculty of Medicine, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Vietnam;
+bDepartment of Interventional Cardiology, University Medical Center Ho Chi Minh City, Ho Chi Minh City, Vietnam; and the
+cDepartment of Adult Cardiovascular Surgery, University Medical Center, Ho Chi Minh City, Vietnam.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received December 5, 2024; accepted December 13, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 3 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 4 . 0 / ) .
+
+=== PAGE 2 ===
+no peripheral edema was present. Cardiac
+examination revealed a systolic murmur at
+the left sternal border radiating to the neck,
+along with bilateral moist rales at the lung
+bases.
+PAST MEDICAL HISTORY
+The patient had a history of 2-vessel coronary
+artery disease, with stents placed in the proximal left
+anterior descending (LAD) coronary artery and right
+coronary artery (RCA) 2 years earlier. He also received
+a
+diagnosis
+of
+severe
+aortic
+valve
+stenosis
+but
+declined invasive treatment. Over the past 6 months,
+recurrent dizziness led to the diagnosis of bilateral
+carotid and vertebral artery stenosis, treated with
+stenting. Despite these interventions, the dizziness
+persisted, culminating in a fall 2 months earlier that
+resulted in a left-sided subdural hematoma and ce-
+rebral contusion.
+DIFFERENTIAL DIAGNOSIS
+The combination of peripheral hypoperfusion, acute
+heart failure, and chest pain strongly pointed toward
+severe
+aortic
+stenosis
+as
+the
+primary
+diagnosis.
+Although atrial ﬁbrillation could exacerbate these
+symptoms, acute coronary syndrome remained an
+important
+differential
+diagnosis
+that
+required
+exclusion.
+INVESTIGATIONS
+Laboratory test results showed a mildly elevated
+high-sensitivity troponin T level (30.1 ng/L) and a
+signiﬁcantly
+increased
+N-terminal
+pro–B-type
+natriuretic
+peptide
+(NT-proBNP)
+concentration
+(6,412
+ng/L).
+Serial
+electrocardiograms
+indicated
+paroxysmal atrial ﬁbrillation with rapid ventricular
+response and left bundle branch block. A chest
+radiograph revealed bilateral pulmonary congestion
+(Figure 1A). During hospitalization, episodes of atrial
+ﬁbrillation were associated with worsening dyspnea,
+chest pain, and hypotension.
+Echocardiography conﬁrmed severe aortic stenosis
+with a heavily calciﬁed trileaﬂet valve, featuring an
+aortic valve area of 0.54 cm2, a maximum pressure
+gradient of 91 mm Hg, and a mean pressure gradient
+of 56 mm Hg. Moderate aortic regurgitation was pre-
+sent, with a vena contracta width of 4.5 mm. The left
+ventricle showed signiﬁcant hypertrophy and dila-
+tion,
+indicated
+by
+an
+end-diastolic
+diameter
+of
+59.4 mm and an end-diastolic volume of 167 mL.
+Systolic function was impaired, with an ejection
+fraction of 44%, and global longitudinal strain was
+mildly reduced (15.1%). Diastolic function was clas-
+siﬁed as grade II, with an E/e’ ratio (the ratio of the
+peak early mitral inﬂow velocity [E] to the early dia-
+stolic mitral annular velocity [e’]). of 13.2, along with
+mild tricuspid regurgitation and an elevated pulmo-
+nary artery pressure of 55 mm Hg (Figures 1B to 1F).
+Multislice computed tomography showed no reste-
+nosis in the LAD artery and RCA stents, and the aortic
+valve calcium score was 4,666. Collectively, these
+ﬁndings conﬁrmed severe aortic stenosis as the un-
+derlying cause of the patient’s symptoms.
+On the basis of the 2020 American College of Car-
+diology guidelines (Class 1, Level of Evidence: A),
+aortic valve replacement was indicated.1 Given the
+high surgical risk (The Society of Thoracic Surgeons
+score of 8.39% and European System for Cardiac
+Operative Risk Evaluation [EuroSCORE II] of 8.34%)
+and multiple comorbidities, the heart team recom-
+mended
+transcatheter
+aortic
+valve
+replacement
+(TAVR). Anatomical evaluations of the left ventricular
+outﬂow tract, aortic valve, and peripheral arteries
+(Figures 2A to 2E) supported the selection of a 29-mm
+Evolut R valve (Medtronic). The potential need for
+permanent pacemaker implantation was also consid-
+ered given the preexisting left bundle branch block
+and signiﬁcant calciﬁcation in the outﬂow tract.
+MANAGEMENT
+The patient’s acute heart failure was stabilized using
+loop
+diuretic
+agents,
+nitroglycerin,
+and
+digoxin,
+resulting in symptom improvement, reduced dys-
+pnea, and resolution of pulmonary congestion on
+chest radiography. On the seventh day of hospitali-
+zation, TAVR was performed using local anesthesia,
+with ultrasound-guided access through the bilateral
+femoral arteries and the left femoral vein. Coronary
+angiography conﬁrmed no restenosis in the stents of
+the LAD artery and RCA (Video 1), and a temporary
+pacemaker was placed. Because of the high risk of
+recurrent cerebral hemorrhage, intravenous heparin
+was administered at a dose of 70 IU/kg.
+A pigtail catheter was advanced into the Valsalva
+sinus to assess the aortic anatomy and valve function.
+Through a right femoral approach, an Amplatz Left 1
+(AL-1) 6-F catheter was positioned at the aortic valve,
+and a 0.035-inch straight guidewire was carefully
+advanced across the valve. Following this, a pigtail
+catheter was used to measure left ventricular pres-
+sure and the transvalvular gradient, which showed a
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+LAD = left anterior descending
+NT-proBNP = N-terminal pro–
+B-type natriuretic peptide
+RCA = right coronary artery
+TAVR = transcatheter aortic
+valve replacement
+Vu et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 , 2 0 2 5
+Snare Technique for TAVR Nose Cone Entrapment
+F E B R U A R Y 5 , 2 0 2 5 : 1 0 3 1 2 0
+2
+
+=== PAGE 3 ===
+FIGURE 1
+Chest Radiography and Transthoracic Echocardiography
+(A) Chest radiography demonstrates bilateral pulmonary congestion. (B to F) Transthoracic echocardiography reveals a severely calciﬁed
+trileaﬂet aortic valve with signiﬁcant stenosis (maximum velocity [Vmax], 4.77 m/s; aortic valve area [AVA], 0.54 cm2), mildly reduced left
+ventricular (LV) systolic function (ejection fraction, 44%), and mild left ventricular strain reduction. ANT ¼ anterior; AV ¼ aortic valve;
+C ¼ compression; CF ¼ color ﬂow; CW ¼ continuous wave; EDV ¼ end-diastolic volume; EF ¼ ejection fraction; ESV ¼ end-systolic volume;
+H ¼ harmonics; HR ¼ heart rate; INF ¼ inferior; LAT ¼ lateral; LVOT ¼ left ventricular outﬂow tract; P ¼ persistence; PG ¼ pressure gradient;
+SEP ¼ septal; SV ¼ stroke volume; Vmean ¼ mean velocity; VTI ¼ velocity time integral; 2D ¼ 2-dimensional.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 , 2 0 2 5
+Vu et al
+F E B R U A R Y 5 , 2 0 2 5 : 1 0 3 1 2 0
+Snare Technique for TAVR Nose Cone Entrapment
+3
+
+=== PAGE 4 ===
+FIGURE 2
+Cardiac and Aortic Computed Tomography
+(A) Measurements of the aortic annulus, left ventricular outﬂow tract, and aorta. (B) Heavily calciﬁed aortic valve. (C) Aortic valve angulation
+relative to the horizontal plane. (D and E) Calciﬁcation in the left ventricular outﬂow tract (yellow arrow). CAU ¼ caudal; CRA ¼ cranial;
+LAO ¼ left anterior oblique; LC ¼ left coronary; LVOT ¼ left ventricular outﬂow tract; Max ¼ maximum; NC ¼ noncoronary; RAO ¼ right
+anterior oblique; RC ¼ right coronary; RCC ¼ right coronary cusp.
+Vu et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 , 2 0 2 5
+Snare Technique for TAVR Nose Cone Entrapment
+F E B R U A R Y 5 , 2 0 2 5 : 1 0 3 1 2 0
+4
+
+=== PAGE 5 ===
+mean pressure gradient of 70 mm Hg. Subsequently, a
+29-mm Evolut R valve was successfully deployed 2 to
+3 mm below the virtual aortic annulus under ﬂuoro-
+scopic guidance.
+During
+device
+retrieval,
+the
+Conﬁda
+Brecker
+guidewire
+(Medtronic)
+became
+entangled
+at
+the
+proximal end of the stent frame, while the nose cone
+of the delivery catheter lodged at the distal end of the
+prosthesis (Figure 3A, Video 2). Additionally, infold-
+ing of the stent frame was observed at the site of a
+calciﬁed nodule in the left ventricular outﬂow tract.
+Initial attempts to release the nose cone by using
+conventional
+maneuvers
+were
+unsuccessful.
+To
+address this issue, we used a Multi-Snare device (B.
+Braun)
+through
+the
+contralateral
+femoral
+artery
+access. This access site, established with a 7-F sheath,
+had been prepared earlier for placement of a 5-F
+pigtail catheter to facilitate aortic pressure moni-
+toring. The snare device was delivered through a 7-F
+Judkins
+right
+(JR)
+4.0
+guiding
+catheter,
+which
+allowed precise navigation toward the entrapped
+nose cone. On successful engagement, gentle traction
+was applied, carefully dislodging the nose cone from
+the stent frame without damaging the prosthesis or
+adjacent structures (Figures 3B and 3C, Videos 3
+and 4). Following its release, the nose cone was
+retracted into the delivery system, thus ensuring safe
+retrieval (Video 5). The snare and guiding catheter
+were then withdrawn, and the 5-F pigtail catheter was
+reintroduced
+to
+resume
+aortic
+pressure
+FIGURE 3
+Diagnosis and Management of Nose Cone Entrapment
+(A) Infolding of the distal stent frame with entrapment of the nose cone. (B) Use of a snare to capture the nose cone. (C) Successful extraction
+of the nose cone from the delivery system. (D) Post-dilation performed using a 22-mm balloon.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 , 2 0 2 5
+Vu et al
+F E B R U A R Y 5 , 2 0 2 5 : 1 0 3 1 2 0
+Snare Technique for TAVR Nose Cone Entrapment
+5
+
+=== PAGE 6 ===
+measurements. Subsequent angiography conﬁrmed
+optimal valve positioning and the absence of device-
+related structural damage. Although a moderate par-
+avalvular
+leak
+was
+identiﬁed,
+it
+was
+effectively
+addressed with post-dilatation using a 22-mm Z-MED
+II balloon (B. Braun) (Figure 3D). The procedure
+concluded with a signiﬁcant reduction in the mean
+pressure gradient to 4 mm Hg.
+Transthoracic echocardiography showed no evi-
+dence of pericardial effusion and only mild para-
+valvular regurgitation. Following the removal of all
+catheters and the temporary pacemaker, vascular
+closure was achieved with the Perclose ProGlide sys-
+tem (Abbott).
+FOLLOW-UP
+The patient showed marked clinical improvement
+following the procedure and was discharged 4 days
+later. At discharge, his medication regimen included
+dabigatran, rosuvastatin, and heart failure therapies:
+sacubitril/valsartan,
+metoprolol
+succinate,
+spi-
+ronolactone, and dapagliﬂozin. At 3-month follow-
+up, the patient remained clinically stable, with a
+signiﬁcant
+reduction
+in
+NT-proBNP
+to
+170
+ng/L.
+Transthoracic
+echocardiography
+conﬁrmed
+proper
+positioning of the prosthetic valve and showed only
+mild
+paravalvular
+leakage
+and
+a
+mean
+pressure
+gradient of 3.29 mm Hg.
+DISCUSSION
+Nose cone entrapment during TAVR, although rare, is
+a serious complication with potential consequences
+such as paravalvular regurgitation, hemodynamic
+collapse, stroke, or cardiac arrest. Management of this
+complication is challenging because of limited data
+and relies heavily on operator experience. Forceful
+maneuvers to release the nose cone can worsen the
+situation by
+damaging the valve or surrounding
+structures.
+A review of the literature revealed only 3 similar
+cases of nose cone entrapment, 2 managed by post-
+dilation and 1 managed by the snare technique.2-4
+All cases involved signiﬁcant aortic valve calciﬁca-
+tion, pronounced annular angulation, and a dilated
+aortic arch. In our case, multiple factors contributed
+to the
+entrapment, including severe calciﬁcation
+without pre-dilation and the presence of a large,
+calciﬁed nodule in the left ventricular outﬂow tract
+that led to stent frame infolding. The patient’s 55
+annular angulation and the use of a large, 29-mm
+valve further complicated the procedure.
+In many cases, the snare-assisted technique is
+essential for positioning self-expanding valves in
+difﬁcult anatomical settings by providing traction and
+centralization.5 However, in our case, the snare was
+used to free the nose cone entrapped between the
+prosthetic valve and the calciﬁed left ventricular
+outﬂow tract. Post-dilation would have required a
+stiff wire and large-bore access, with unpredictable
+outcomes, whereas the snare could be deployed
+through the existing catheter system, thereby mini-
+mizing access-related complications and improving
+control. This approach ensured prompt resolution
+and reduced procedural risks.
+To prevent nose cone entrapment, recognizing and
+addressing risk factors are critical to improving pro-
+cedural safety. These risk factors include severe
+aortic valve calciﬁcation, excessive annular angula-
+tion, valve oversizing, absence of pre-dilatation, and
+suboptimal device manipulation during deployment
+or retrieval. Extra caution is needed when using
+large-diameter,
+second-generation
+self-expanding
+valves (29 mm and 34 mm) because they are more
+prone to complications such as stent frame infold-
+ing.6 Preventive strategies should include consid-
+ering pre-dilatation in patients with heavily calciﬁed
+valves or prominent calciﬁed nodules in the left
+ventricular outﬂow tract, using meticulous valve
+sizing tailored to the patient’s anatomy, and per-
+forming careful ﬂuoroscopic assessment during de-
+vice retrieval to detect early signs of stent frame
+infolding. Ensuring that these procedures are con-
+ducted by experienced operators is essential, partic-
+ularly in patients with high-risk anatomies. In cases
+of entrapment, the snare technique provides a reli-
+able and effective solution for device retrieval.
+CONCLUSIONS
+This case highlights the successful use of the snare
+technique in resolving nose cone entrapment during
+TAVR, offering precise control for a safe and efﬁcient
+solution to this rare complication.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Thanh
+Cong
+Nguyen, Department of Interventional Cardiology,
+University Medical Center, Ho Chi Minh City Institu-
+tion, 215 Hong Bang Street, District 5, Ho Chi Minh
+City, Vietnam. E-mail: thanh.nc@umc.edu.
+Vu et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 , 2 0 2 5
+Snare Technique for TAVR Nose Cone Entrapment
+F E B R U A R Y 5 , 2 0 2 5 : 1 0 3 1 2 0
+6
+
+=== PAGE 7 ===
+R E F E R E N C E S
+1. Otto CM, Nishimura RA, Bonow RO, et al. 2020
+ACC/AHA guideline for the management of pa-
+tients with valvular heart disease: a report of the
+American College of Cardiology/American Heart
+Association Joint Committee on Clinical Practice
+Guidelines. J Am Coll Cardiol. 2021;77(4):e25–
+e197.
+2. Yokoyama H, Saito Y, Senoo M, Yokota T,
+Tobaru T, Tomita H. Successful bailout from the
+entrapment of self-expanding transcatheter aortic
+valve system caused by the under-expanded
+deployed
+valve.
+Cardiovasc
+Interv
+Ther.
+2022;37(4):751–752.
+3. Pyxaras SA, Pizzulli L, Gerckens U. Nose cone
+entrapment
+after
+transcatheter
+aortic
+valve
+implantation of a CoreValve self-expandable bio-
+prosthesis. J Cardiovasc Med. 2016;17:e183–e184.
+4. Hioki H, Watanabe Y, Kawashima H, Kataoka A,
+Kozuma K. Post-dilation from contralateral access
+sitefornoseconeentrapmentduringself-expandable
+transcatheter aortic valve implantation. PCR Online;
+2021. Accessed October 10, 2024. https://www.
+pcronline.com/Cases-resources-images/Images-
+interventional-cardiology/EuroIntervention-images/
+Post-dilation-from-contralateral-access-site-for-
+nose-cone-entrapment-during-self-expandable-
+TAVI
+5. Kunkel K, Fiorilli P, Kobayashi T, et al. Snare-
+assisted valve positioning of self-expanding valves
+for transcatheter aortic valve replacement. JACC
+Case Rep. 2021;3(4):658–662. https://doi.org/10.
+1016/j.jaccas.2021.02.010
+6. Ancona MB, Beneduce A, Romano V, et al. Self-
+expanding transcatheter aortic valve infolding:
+current evidence, diagnosis, and management.
+Catheter
+Cardiovasc
+Interv.
+2021;98(2):E299–
+E305.
+KEY WORDS aortic valve stenosis, nose
+cone entrapment, snare technique, TAVR
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 , 2 0 2 5
+Vu et al
+F E B R U A R Y 5 , 2 0 2 5 : 1 0 3 1 2 0
+Snare Technique for TAVR Nose Cone Entrapment
+7

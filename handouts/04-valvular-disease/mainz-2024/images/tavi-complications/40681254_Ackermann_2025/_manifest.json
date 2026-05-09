@@ -1,0 +1,30 @@
+{
+  "pdf": "40681254_Ackermann_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1694,
+      "height": 1339,
+      "ext": "jpeg",
+      "bytes": 502977
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1694,
+      "height": 596,
+      "ext": "jpeg",
+      "bytes": 453765
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1071,
+      "height": 800,
+      "ext": "jpeg",
+      "bytes": 261274
+    }
+  ]
+}

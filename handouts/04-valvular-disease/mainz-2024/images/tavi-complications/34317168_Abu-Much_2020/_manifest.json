@@ -1,0 +1,38 @@
+{
+  "pdf": "34317168_Abu-Much_2020.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1968,
+      "height": 913,
+      "ext": "jpeg",
+      "bytes": 215013
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1967,
+      "height": 671,
+      "ext": "jpeg",
+      "bytes": 197723
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1544,
+      "height": 785,
+      "ext": "jpeg",
+      "bytes": 175762
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1071,
+      "height": 842,
+      "ext": "jpeg",
+      "bytes": 222095
+    }
+  ]
+}

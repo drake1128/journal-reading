@@ -1,0 +1,38 @@
+{
+  "pdf": "40541343_George_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1968,
+      "height": 1212,
+      "ext": "jpeg",
+      "bytes": 541767
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1694,
+      "height": 1653,
+      "ext": "jpeg",
+      "bytes": 655106
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1072,
+      "height": 803,
+      "ext": "jpeg",
+      "bytes": 308971
+    },
+    {
+      "file": "fig-04_p6.jpeg",
+      "page": 6,
+      "width": 1968,
+      "height": 1306,
+      "ext": "jpeg",
+      "bytes": 443557
+    }
+  ]
+}

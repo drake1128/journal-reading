@@ -1,0 +1,472 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Left Main Obstruction From Paravalvular 
+Leak Closure Device in Patient With 
+Surgical Aortic Valve Replacement
+Noman Lateef, MD, a Muhammad Junaid Ahsan, MD, b Kurt M. Jacobson, MD a
+ABSTRACT
+BACKGROUND Paravalvular leak (PVL) is a relatively rare complication associated with prosthetic valve replacement, 
+which in some cases can lead to congestive heart failure or complications of hemolysis.
+CASE SUMMARY A 65-year-old man with prior surgical aortic valve replacement presented with symptoms of dys-
+pnea, reduced left ventricular ejection fraction, and interval development of severe PVL.
+DISCUSSION PVL can be managed either surgically or percutaneously. Although transcatheter closure is less invasive, 
+it can cause rare complications such as coronary obstruction from vascular plug devices. Through this case, we show how 
+to effectively manage such complications with coronary stenting in a patient with a large aortic PVL and low left cor-
+onary ostia.
+TAKE-HOME MESSAGES Coronary obstruction is a rare but serious complication of PVL closure device. It may be 
+caused by device position or thrombus. Assessment requires multimodality imaging. Coronary stenting can effectively 
+manage and prevent adverse events. (JACC Case Rep. 2025;30:105222) © 2025 The Authors. Published by Elsevier on 
+behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+P 
+aravalvular leak (PVL) is one of the most 
+serious complications of prosthetic valve 
+replacement, with an incidence from 6% to 
+32%. PVLs are more common around mitral prosthe-
+ses versus aortic prostheses (8%-22% vs 5%-17%, 
+respectively). 1 Although most leaks are mild and 
+have a benign course, an estimated 1% to 5% of 
+PVLs can progress and lead to complications of
+congestive heart failure, hemolytic anemia, and infec-
+tive endocarditis. 2 For patients with symptomatic 
+PVL, surgical repair has been the traditional treatment
+approach. Despite the high mortality associated with 
+reoperation, the outcomes are better as compared 
+with conservative management. Given the recent ad-
+vances in percutaneous transcatheter intervention, it 
+has emerged as a less invasive alternative option, 
+particularly in patients with prohibitive risk of sur-
+gery. The rate of complications from PVL closure is 
+relatively low, especially when compared with the re-
+sults of surgical redo. 3 Nevertheless, complications 
+such as coronary obstruction do occur and require 
+complex and challenging decision-making and
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.105222
+From the a University of Wisconsin Hospitals and Clinics Program, Madison, Wisconsin, USA; and the b Baylor University Medical 
+Center, Dallas, Texas, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received May 19, 2025; revised manuscript received June 30, 2025, accepted July 9, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 2 9 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+management. Herein, we describe a case of 
+coronary flow obstruction from an aortic PVL 
+closure device and the ensuing management.
+CASE PRESENTATION
+The patient was a 65-year-old man with his-
+tory of aortic stenosis, for which he had un-
+dergone aortic valve replacement with a 
+25-mm 
+Edwards 
+Inspiris 
+Resilia 
+bio-
+prosthetic valve a few months earlier. Post-
+operatively, the patient felt well for a brief 
+duration but was unfortunately admitted to an 
+outside hospital with symptoms of congestive heart
+VISUAL SUMMARY Managing Left Main Obstruction After Paravalvular Leak Closure
+IVUS = intravascular ultrasound; PVL = paravalvular leak; TEE = transesophageal echocardiography; VP = vascular plug.
+TAKE-HOME MESSAGES
+• Coronary obstruction from vascular plug 
+devices used for paravalvular leak closure is 
+a rare but serious complication.
+• It can lead to critical events either related to 
+coronary flow compromise from the device 
+itself or device-related thrombus with the 
+potential to embolize into the coronary artery.
+• Assessment of coronary obstruction requires 
+multimodality imaging, and it can be 
+effectively managed with stenting of the 
+coronary ostium, which can help prevent 
+future events.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+CT = computed tomography
+IVUS = intravascular
+ultrasound
+LM = left main
+PVL = paravalvular leak
+TEE = transesophageal
+echocardiography
+TTE = transthoracic
+echocardiography
+Lateef et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 9 , 2 0 2 5
+Coronary Obstruction From PVL Closure Device 
+S E P T E M B E R 2 4 , 2 0 2 5 : 1 0 5 2 2 2
+2
+
+=== PAGE 3 ===
+failure. 
+Transthoracic 
+echocardiography 
+(TTE) 
+showed a reduction in left ventricular ejection frac-
+tion to 35% from 60% previously. His bioprosthetic 
+valve leaflets were functioning normally, however a 
+prominent PVL was noted. This was further quanti-
+fied on transesophageal echocardiography (TEE) to 
+be severe (Figure 1, Video 1). The patient was started 
+on guideline-directed medical therapy and was sub-
+sequently referred to our structural clinic. In the 
+clinic, the patient reported ongoing dyspnea on 
+exertion, fatigue, and decreased energy, with overall 
+NYHA functional class III symptoms. Laboratory 
+work indicated normal hemoglobin, platelet count, 
+and mildly elevated creatinine of 1.3 mg/dL, which 
+was unchanged from baseline. Treatment options
+including redo sternotomy and percutaneous PVL 
+closure were discussed with the patient and heart 
+team. Given ongoing symptoms and after mutual 
+discussion, a plan was made to proceed with percu-
+taneous PVL closure.
+PAST MEDICAL HISTORY
+The patient had a prior history of hypertension, type 
+2 diabetes mellitus, and hyperlipidemia.
+INVESTIGATION
+The patient underwent cardiac computed tomogra-
+phy (CT), which noted low coronary heights of
+FIGURE 1 Transesophageal Echocardiography Showing Severe Paravalvular Regurgitation
+FIGURE 2 Cardiac Computed Tomography Showing Left and Right Coronary Height Measurements
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 9 , 2 0 2 5 
+Lateef et al
+S E P T E M B E R 2 4 , 2 0 2 5 : 1 0 5 2 2 2 
+Coronary Obstruction From PVL Closure Device
+3
+
+=== PAGE 4 ===
+6.2 mm for the left main (LM) and 10 mm for right 
+coronary artery (Figure 2).
+MANAGEMENT/INTERVENTION
+Using right femoral artery access, we first performed 
+a coronary angiogram. During engagement of the 
+coronaries, it was clear from contrast back-filling that 
+the leak was wrapping in the anterior and antero-
+lateral positions. Given the low-rising LM close to the 
+annulus of the surgical valve and the higher risk for
+coronary interference and obstruction, we pre-
+emptively obtained left femoral artery access 
+(Figure 3, Video 2). Because of the crescentic nature 
+of the leak, we elected to place 2 devices simulta-
+neously. Through an AL1 guide catheter, an Impress 
+multipurpose 125-cm sheath (Merit Medical) followed 
+by a Glidecath (Terumo) was traversed through the 
+anterolateral defect. After removing the Glidecath 
+and over a stiff wire, a 5-F shuttle sheath was 
+advanced into the left ventricle. Through this, 2 sup-
+portive wires were placed in the left ventricle. Two 
+simultaneous 8-mm Amplatzer vascular plug 2 (VP2) 
+devices (Abbott) were then delivered across the 
+defect using parallel shuttle sheaths (Figure 4). 
+Repeat angiogram demonstrated essentially near-
+elimination of the leak. However, the aortic foot of 
+the device appeared to be protruding into the ostium 
+of the LM (Video 3). There appeared to be no inter-
+ference of the prosthetic valve leaflets by the devices. 
+Using left femoral artery access, the LM was engaged 
+using a 6-F EBU 3.5 guide, and intravascular ultra-
+sound (IVUS) was performed. This demonstrated the 
+foot of the device to be within the ostium of the LM 
+and, although not flow limiting, somewhat obstruc-
+tive (Figure 5). Multiple attempts to reposition 
+including implantation at lower depths were unsuc-
+cessful. The second device foot was in the aortic root 
+but not protruding in the LM. At this point, we 
+considered removing both devices and trying smaller 
+VP2s, however it was uncertain if this would be 
+effective at closing the leak and still cause LM 
+interference, given the low origin, without risking 
+device embolization. We then released both devices 
+and placed a 5.0 × 15 mm drug-eluting stent in the LM 
+by protruding the proximal stent edge slightly in the 
+ostium. This successfully pinned the device out of 
+the way, with repeat angiogram demonstrating robust 
+coronary flow and no obstruction (Video 4). Repeat 
+IVUS confirmed a well-placed stent, with no interfer-
+ence of the device foot with the LM inflow (Figure 6). 
+TEE demonstrated no interference with the valve, 
+with trivial residual leak (Figure 7, Video 5). We then 
+redirected toward the more anterior leak and placed a 
+third 8-mm VP2 device across the defect. The leak 
+appeared to be eliminated. Aortogram was then per-
+formed, demonstrating trivial to mild aortic valve 
+regurgitation (Video 6). No immediate complications 
+were observed. Hemostasis was then obtained.
+FOLLOW-UP
+At the 2-month follow-up, the patient was feeling 
+better, only getting dyspnea on exertion with stren-
+uous activities (NYHA functional class I symptoms).
+FIGURE 3 Coronary Angiogram Showing Paravalvular Leak 
+and Low Left Main Coronary Height
+FIGURE 4 Shuttle Sheath and 2 Amplatzer Vascular Plug Devices Across the Para-
+valvular Leak
+Steelcore wire in the left ventricle maintains the wire position.
+Lateef et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 9 , 2 0 2 5
+Coronary Obstruction From PVL Closure Device 
+S E P T E M B E R 2 4 , 2 0 2 5 : 1 0 5 2 2 2
+4
+
+=== PAGE 5 ===
+FIGURE 5 Intravascular Ultrasound Showing the Two 8-mm VP2 Devices
+(Left) The first VP2 plug (red star) protruded well into the left main. (Right) The second VP2 plug (red circle) was less obstructive and away 
+from the left main.
+FIGURE 6 Repeat Intravascular Ultrasound Confirming Well-Placed Stent
+(Left) The first VP2 plug (red star) was successfully pinned by the left main stent. (Right) The second VP2 plug (red circle) remained away 
+from the left main.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 9 , 2 0 2 5 
+Lateef et al
+S E P T E M B E R 2 4 , 2 0 2 5 : 1 0 5 2 2 2 
+Coronary Obstruction From PVL Closure Device
+5
+
+=== PAGE 6 ===
+TTE showed improved left ventricular ejection frac-
+tion of 55% and only trivial residual PVL.
+DISCUSSION
+Clinically significant PVL can be treated either sur-
+gically or using transcatheter closure devices. Surgi-
+cal correction is favored in the setting of infective 
+endocarditis, mechanical instability of the valve, and 
+when concomitant cardiac surgery is needed. How-
+ever, surgical options carry high failure rates, ranging 
+from 12% to 35%, with mortality increasing after each 
+reintervention. 4 Recently, percutaneous closure has 
+emerged as an effective treatment strategy that can 
+be offered as an alternative to surgery. Current 
+guidelines give a Class IIa recommendation for 
+percutaneous repair in high-risk surgical patients 
+having symptoms of heart failure. 5
+A multimodality imaging approach is pivotal in the 
+assessment and preprocedural planning of PVL 
+closure. TTE/TEE is the first-line imaging tool, as it 
+can approximate the position, severity, and path of 
+paravalvular regurgitation, with three-dimensional 
+imaging providing a more comprehensive assess-
+ment of the anatomical location, shape, and circum-
+ferential extent of the PVL. Cardiac CT provides high 
+accuracy in determining the presence, size, and 
+shape of the PVL and identifies surrounding classifi-
+cations. 
+CT 
+can 
+also 
+provide 
+VTC 
+(virtual
+transcatheter heart valve–to–coronary ostia) assess-
+ment, which can help in cases in which there is risk of 
+coronary 
+obstruction 
+from 
+closure 
+devices. 
+Conversely, cardiac magnetic resonance imaging has 
+been shown to have more incremental utility over 
+these modalities in providing both anatomical fea-
+tures and quantification of PVL severity. Despite 
+these modalities, understanding the complex PVL 
+shape in order to use the appropriate closure device 
+and size remains one of the challenges of percuta-
+neous closure. In some cases, using an ex vivo three-
+dimensional printed model to simulate PVL closure 
+has been shown to be effective in ensuring minimal 
+interference of the device with prosthetic value 
+leaflet function. However, the high cost inherent to 
+the equipment and software remains the main limi-
+tation to widespread application of this technology. 6 
+The safety and feasibility of percutaneous PVL 
+closure has been reported by several studies. The 
+reported technical success (defined as the correct 
+deployment of an exclusive device throughout the 
+PVL and the lack of significant residual regurgitation 
+or new prosthetic valve malfunction) ranges from 
+77% to 86%. Clinical success (defined as reduction of 
+1 grade on NYHA functional class scale and/or 
+improvement in hemolytic anemia) ranges from 67% 
+to 77%. Procedure failures are attributed mainly to an 
+inability to cross the defect or interference of the 
+device with prosthetic valve function. 7
+FIGURE 7 Transesophageal Echocardiography Showing Significant Reduction in Paravalvular Leak
+Lateef et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 9 , 2 0 2 5
+Coronary Obstruction From PVL Closure Device 
+S E P T E M B E R 2 4 , 2 0 2 5 : 1 0 5 2 2 2
+6
+
+=== PAGE 7 ===
+Complications from PVL closure are relatively low; 
+nevertheless, adverse events such as death, coronary 
+obstruction, heart block, stroke, prosthetic leaflet 
+impingement, emergency surgery, significant peri-
+cardial effusion, or bleeding have been reported. In 
+the HOLE registry study, which included mitral and 
+aortic PVLs, the overall major event rate, including 
+death, stroke, and emergency surgery, was 4.5%. 8 
+The most frequent adverse events were vascular 
+complications and bleeding (8.6%). 8
+Coronary obstruction from aortic PVL closure de-
+vices is rare and scarcely reported. To the best of our 
+knowledge, there have been 2 prior reports of coro-
+nary obstruction/occlusion from aortic PVL closure 
+devices. A report from Hernández-Enríquez et al 9 
+was about an 83-year-old woman who had an acute 
+obstruction of the right coronary artery due to sus-
+pected late device endothelization/thrombosis and 
+subsequent coronary flow compromise and requiring 
+emergent bypass grafting. The other case included an 
+83-year-old woman who had partial obstruction of the 
+left main ostium by the proximal disk of the device. 
+Similar to our patient, her case was managed with left 
+main stenting, with the proximal stent edge extending 
+just proximal to the impinging occluder device. 10
+There are no specific devices designed to treat 
+PVLs. In an off-label fashion, Amplatzer vascular 
+plugs are most commonly used. There are several 
+types, of which VP1 is used in short landing zones 
+and can be repositioned, whereas VP2 can be used in 
+variable landing zones and is the most frequently 
+used in reported cases. VP3 is used in high blood flow 
+locations or challenging wall apposition cases, while 
+VP4 is used in tortuous anatomies but is limited by 
+small size. In our patient, we felt that the VP2 series 
+were the most suitable. As indicated, VP1 is a single 
+lobar plug for short landing spaces with a higher risk 
+of embolization. The unconstrained length of the 8-
+mm VP3 is similar to the VP2; hence, switching to 
+this series was not felt to be any better than the 
+currently deployed VP2. VP4 would have been a 
+much larger device, with length of the device 
+>10 mm and would have led to much higher and 
+more certain risk of coronary obstruction. Regardless 
+of the plug type, before releasing the device, a careful
+assessment of device positioning, with special 
+attention to interference with neighboring structures 
+such valve leaflets or coronary arteries, is manda-
+tory. 11 As in our case and prior reports, there was 
+significant interaction of the proximal device foot 
+with the LM ostium. In such cases, further evaluation 
+using 2-or 3-dimensional TEE, fluoroscopy, and IVUS 
+is needed to better understand this interaction. If the 
+device cannot be repositioned away from the coro-
+nary ostium and there is concern for possible coro-
+nary flow restriction, protection of the coronary 
+ostium with a wire, unexpanded balloon, and/or 
+stent may be necessary to avoid undesirable future 
+coronary events. In our case, given the LM coronary 
+height of 6.2 mm and the unconstrained height of 
+approximately 7 mm for the 8-mm VP2 device, pro-
+tection by a wire or balloon was considered inade-
+quate and thus stenting of the LM ostium was 
+pursued as the best option.
+CONCLUSIONS
+A percutaneous approach is increasingly becoming an 
+attractive option for PVL closure. Nevertheless, it is a 
+complex and challenging procedure with several 
+periprocedural risks and requires optimal patient 
+selection and comprehensive intraprocedural imag-
+ing guidance. One of these complications is coronary 
+obstruction from vascular plug devices, which may 
+require further intervention to protect the coro-
+naries. In the future, better device designs including 
+lower profiles, deflectable deliverable sheaths, and 
+custom-made devices may further decrease such 
+complications and lead to better procedural success 
+and outcomes.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Kurt M.
+Jacobson, Clinical Science Center, 600 Highland 
+Avenue, Madison, Wisconsin 53792-0001, USA. 
+E-mail: kmjacobs@medicine.wisc.edu.
+R E F E R E N C E S
+1. Hascoët S, Smolka G, Blanchard D, et al. Pre-
+dictors of clinical success after transcatheter 
+paravalvular leak closure: an International
+Prospective Multicenter Registry. Circ Cardiovasc 
+Interv. 2022;15(10):e012193. https://doi.org/10. 
+1161/CIRCINTERVENTIONS.122.012193
+2. Güner A, Kırma C, Ertürk M, et al. Transcatheter 
+closure or surgery for symptomatic paravalvular 
+leaks: the multicenter KISS registry. J Am Heart
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 9 , 2 0 2 5 
+Lateef et al
+S E P T E M B E R 2 4 , 2 0 2 5 : 1 0 5 2 2 2 
+Coronary Obstruction From PVL Closure Device
+7
+
+=== PAGE 8 ===
+Assoc. 2024;13(1):e032262. https://doi.org/10. 
+1161/JAHA.123.032262
+3. Emery RW, Krogh CC, McAdams S, Emery AM, 
+Holter AR. Long-term follow up of patients 
+undergoing reoperative surgery with aortic or 
+mitral valve replacement using a St Jude med-
+ical prosthesis. J Heart Valve Dis. 2010;19:473– 
+484.
+4. Echevarria JR, Bernal JM, Rabasa JM, 
+Morales D, Revilla Y, Revuelta JM. Reoperation 
+for bioprosthetic valve dysfunction. A decade of 
+clinical experience. Eur J Cardiothorac Surg. 1991;5 
+(10):523–526. https://doi.org/10.1016/1010-7940 
+(91)90105-S
+5. Nishimura RA, Otto CM, Bonow RO, et al. 2017 
+AHA/ACC focused update of the 2014 AHA/ACC 
+guideline for the management of patients with 
+valvular heart disease: a report of the American 
+College of Cardiology/American Heart Association 
+task force on clinical practice guidelines. J Am Coll
+Cardiol. 2017;70:252–289. https://doi.org/10.1161/ 
+CIR.0000000000000503
+6. Ilardi F, Anastasius M, Lerakis S. Multimodality 
+imaging is key for a successful paravalvular leak 
+repair. JACC Case Rep. 2022;4(1):42–43.
+7. Ruiz CE, Hahn RT, Berrebi A, Paravalvular Leak 
+Academic Research Consortium. Clinical trial 
+principles and endpoint definitions for para-
+valvular leaks in surgical prosthesis: an expert 
+statement. J Am Coll Cardiol. 2017;69(16):2067– 
+2087. https://doi.org/10.1093/eurheartj/ehx211
+8. García E, Arzamendi D, Jimenez-Quevedo P, 
+et al. Outcomes and predictors of success and 
+complications for paravalvular leak closure: an 
+analysis of the Spanish real-wOrld paravalvular 
+LEaks closure (HOLE) registry. Eurointervention. 
+2017;12:1962–1968.
+9. Hernández-Enríquez M, Ascaso M, Freixa X, 
+et al. Late right coronary ostium occlusion after 
+percutaneous aortic paravalvular leak closure:
+immediate results do not always predict long-
+term performance. J Invasive Cardiol. 2016;28 
+(8):E69–E70.
+10. Price MJ, Shah MG, Burke RF, Riley RD, 
+Rizik DG. Impingement of left main ostium after 
+device occlusion of paravalvular leak post-
+transcatheter aortic valve replacement. JACC 
+Cardiovasc Interv. 2015;8:e1–e2. https://doi.org/ 
+10.1016/j.jcin.2014.07.027
+11. Zander T, Medina S, Montes G, Nuñez-
+Atahualpa L, Valdes M, Maynar M. Endoluminal 
+occlusion devices: technology update. MedDe-
+vices Evid Res. 2014;7:425–436. https://doi.org/ 
+10.2147/MDER.S49540
+KEY WORDS aortic valve, percutaneous 
+coronary intervention, valve replacement
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+Lateef et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 2 9 , 2 0 2 5
+Coronary Obstruction From PVL Closure Device 
+S E P T E M B E R 2 4 , 2 0 2 5 : 1 0 5 2 2 2
+8

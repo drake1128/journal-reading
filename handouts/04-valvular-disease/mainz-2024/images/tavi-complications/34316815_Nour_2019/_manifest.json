@@ -1,0 +1,30 @@
+{
+  "pdf": "34316815_Nour_2019.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1604,
+      "height": 1942,
+      "ext": "jpeg",
+      "bytes": 581871
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 2211,
+      "ext": "jpeg",
+      "bytes": 339647
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 767,
+      "height": 2250,
+      "ext": "jpeg",
+      "bytes": 212481
+    }
+  ]
+}

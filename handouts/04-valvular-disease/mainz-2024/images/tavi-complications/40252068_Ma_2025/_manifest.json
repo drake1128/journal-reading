@@ -1,0 +1,30 @@
+{
+  "pdf": "40252068_Ma_2025.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1076,
+      "height": 2170,
+      "ext": "jpeg",
+      "bytes": 386274
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1650,
+      "height": 1655,
+      "ext": "jpeg",
+      "bytes": 569100
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1650,
+      "height": 817,
+      "ext": "jpeg",
+      "bytes": 190330
+    }
+  ]
+}

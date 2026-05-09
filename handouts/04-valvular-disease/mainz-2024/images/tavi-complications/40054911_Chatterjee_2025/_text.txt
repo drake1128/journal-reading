@@ -1,0 +1,474 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Percutaneous Management of Left
+Ventricular Perforation Causing Late
+Cardiac Tamponade After Transcatheter
+Aortic Valve Implantation
+Krishnarpan Chatterjee, MD, DM, Pyotr Telyuk, MBCHB, Stuart W. Grant, PHD, Paul D. Williams, MD,
+Douglas F. Muir, MBCHB, Seth Vijayan, MD
+ABSTRACT
+BACKGROUND We present a case of left ventricular perforation and delayed cardiac tamponade after transcatheter
+aortic valve implantation (TAVI) managed percutaneously. This report describes a novel technique for management of
+left ventricular perforation after TAVI.
+CASE SUMMARY We performed elective transfemoral TAVI in a frail 85-year-old lady. Anatomical challenges included
+tortuous and horizontal aorta and a small left ventricular cavity. A 23-mm Sapien valve was implanted. She developed
+cardiac tamponade the next day needing emergency pericardiocentesis. Left ventricular angiogram showed perforation of
+the lateral wall. SURGIFLO Hemostatic Matrix was injected into the pericardial space using Agilis steerable introducer
+with a good outcome.
+DISCUSSION Cardiac perforation and tamponade are serious and potentially fatal complications after TAVI. The out-
+comes in these patients remain poor with high mortality rate even with emergent cardiac surgery. This report describes a
+novel technique for management of left ventricular perforation after TAVI. (JACC Case Rep. 2025;30:103193) Crown
+Copyright © 2025 Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open
+access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+T
+ranscatheter aortic valve implantation (TAVI)
+is an established therapy for symptomatic se-
+vere aortic stenosis.1,2 Left ventricular (LV)
+perforation is a rare but serious complication that
+may occur during TAVI and is associated with a very
+high mortality rate.3 This risk is increased in those
+with challenging aortic and LV anatomy. Here we pre-
+sent an unusual case of delayed presentation of LV
+perforation that was successfully managed without
+the need for open surgical repair using Surgiﬂo
+TAKE-HOME MESSAGES
+ Importance of recognizing high-risk anatom-
+ical features during TAVI planning like small
+and hyperdynamic left ventricle, left
+ventricular outﬂow tract calcium, and
+tortuous and horizontal aorta.
+ Possible causes for cardiovascular collapse
+after TAVI need to be identiﬁed and managed
+promptly.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.103193
+From the Academic Cardiovascular Unit, James Cook University Hospital, Middlesbrough, United Kingdom.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received September 19, 2024; revised manuscript received November 1, 2024, accepted November 21, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 5 , 2 0 2 5
+C R O W N C O P Y R I G H T ª 2 0 2 5 P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R T H E
+C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+hemostatic matrix. Surgiﬂo is a hemostatic
+matrix
+comprising
+gelatin
+and
+thrombin
+used
+to
+control
+bleeding
+during
+cardiac
+surgery.4
+HISTORY OF PRESENTATION
+The patient is an 85-year-old lady who has been un-
+der surveillance in the cardiology clinic for moderate
+aortic stenosis. She presented acutely with worsening
+breathlessness and leg swelling for 3-4 months. There
+were no symptoms of angina, palpitations, or syn-
+cope. Clinical examination revealed bilateral pitting
+pedal edema and a harsh ejection systolic murmur on
+auscultation in the aortic area. A clinical diagnosis of
+symptomatic
+severe
+aortic
+stenosis
+precipitating
+heart failure was made. The patient was started on
+diuretics with improvement in symptoms.
+Past medical history included inferior ST-segment
+elevation myocardial infarction a decade ago, treated
+with primary percutaneous intervention to right cor-
+onary artery. There was moderate residual left ante-
+rior descending artery disease managed with medical
+therapy. She also had hypertension, severe kypho-
+scoliosis, and limited mobility due to a combination
+of frailty and kypho-scoliosis.
+INVESTIGATIONS
+Echocardiography showed progression in the peak
+and mean aortic valve gradient up to 86 and 49 mm Hg
+(previously 60 and 31 mm Hg) and aortic valve area
+1.0 cm2 (indexed aortic valve area: 0.6 cm2/m2). She
+had concentric remodelling of left ventricle and
+hyperdynamic ventricle with a small cavity (inter-
+ventricular septum: 1.0 cm; posterior wall: 1.0 cm; LV
+end-diastole diameter: 3.9 cm; LV end-systole diam-
+eter: 2.1 cm; LV mass: 71 g/m2; LV relative wall thick-
+ness: 0.51; LV end diastolic volume: 67 mL; LV end
+systolic volume: 14.7 mL; LV ejection fraction: 78%).
+Computed tomography TAVI demonstrated heavily
+calciﬁed (Agatston score: 2,537), tri-leaﬂet aortic valve
+with intrusive nodular annular calciﬁcation extending
+into left ventricular outﬂow tract (Figure 1). Signiﬁcant
+tortuosity was noted in the abdominal and descend-
+ing
+thoracic
+aorta
+secondary
+to
+kypho-scoliosis.
+Ascending aorta was horizontal (Figure 2). Her Soci-
+ety of Thoracic Surgeons’ score of operative mortality
+in urgent isolated surgical aortic valve replacement
+was 5.9% (intermediate risk). Considered together
+with her frailty and severe kyphosis the Heart Team
+consensus recommended TAVI in preference to sur-
+gical aortic valve replacement.
+MANAGEMENT AND PROCEDURAL DETAILS
+After the Heart Team discussion, she was offered
+transfemoral TAVI under local anesthesia and seda-
+tion. The plan was to implant a 23-mm Edwards Sa-
+pien 3 Ultra valve (Edwards Lifesciences) with 1 mL
+less than nominal volume in view of adverse annular
+calciﬁcation.
+Initial attempts to place a Safari extra small curve
+wire (Boston Scientiﬁc) through the pigtail catheter
+proved unsuccessful as the catheter would prolapse
+out of the LV as the curved Safari wire passed through
+the tortuous aorta. The valve was recrossed and a
+double curved Lunderquist stiff wire (Cook Medical)
+was placed in the LV through a 6-F EBU 3.0 guiding
+catheter (Medtronic). The position of the Lunderquist
+wire curve was suboptimal but was accepted due to
+the difﬁculties encountered in crossing this valve
+(Figure 3). The TAVI valve system successfully passed
+through the tortuous and calciﬁed aorta over the
+supportive Lunderquist wire.
+After predilation, a 23-mm Edwards Sapien 3 Ultra
+valve was deployed under rapid pacing with no im-
+mediate complications. There was trace aortic regur-
+gitation on transthoracic echocardiogram immediate
+post-deployment with no pericardial effusion. There
+was no change to conduction on electrocardiogram.
+Good hemostasis was achieved. The patient was
+transferred to the coronary care unit for overnight
+monitoring.
+POSTPROCEDURAL COURSE AND MANAGEMENT
+OF COMPLICATION
+She remained well overnight but became abruptly
+hypotensive next morning (around 18 h after pro-
+cedure). A bedside echocardiogram showed a peri-
+cardial effusion causing cardiac tamponade (Video 1,
+Figure 4). She was taken back to the catheter labora-
+tory for urgent pericardiocentesis. Pericardiocentesis
+was performed under local anesthesia from the sub-
+costal window under ﬂuoroscopic and ultrasound
+guidance. Her hemodynamics improved after peri-
+cardiocentesis. A left ventriculogram demonstrated
+VISUAL SUMMARY
+Timeline of the Case
+Date
+Events
+Day 0
+Transfemoral TAVR using 23 S3 balloon expandable valve in a 85 year old frail lady
+Day 1
+Cardiac tamponade, urgent pericardiocentesis
+Day 1
+Taken back to the cath lab, LV angiogram showed LV perforation. SurgiFlo
+hemostatic matric inserted in pericardial cavity using agilis sheath.
+Day 1
+Shifted back to ICU, hemodynamically stable, pericardiac drain kept in situ.
+Day 3
+Pericardial drain removed, no reaccumulation of effusion on echocardiogram
+Day 4
+Discharged
+Week 6
+Follow-iup in clinic, TAVR functioning well on echocardiogram, no pericardial
+effusion.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+TAVI = transcatheter aortic
+valve implantation
+LV = left ventricular
+Chatterjee et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+Intervention for Left Ventricular Perforation
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 9 3
+2
+
+=== PAGE 3 ===
+perforation of lateral LV wall with ongoing bleeding
+into the pericardium (Video 2). An emergency Heart
+Team meeting was convened in the catheter labora-
+tory. Emergency surgery was considered but deemed
+to be high risk. The decision was taken to attempt
+percutaneous management by instilling Surgiﬂo He-
+mostatic Matrix to control the bleeding.
+The pericardial drain was swapped for a steerable
+8.5-F Agilis sheath (Abbott Laboratories). The Agilis
+sheath was steered and manipulated to position over
+lateral
+LV
+wall
+and
+conﬁrmed
+on
+ﬂuoroscopy
+(Figure 5). A total of 27 mL ﬂowable hemostatic matrix
+(SURGIFLO Hemostatic Matrix) was instilled directly
+through the Agilis sheath. Repeat echocardiogram
+showed no reaccumulation of pericardial effusion.
+FIGURE 1
+CT TAVI: Annular and LVOT Calcium
+CT ¼ computed tomography; LVOT ¼ left ventricular outﬂow tract; TAVI ¼ transcatheter aortic valve implantation.
+FIGURE 2
+CT Reconstruction: Horizontal Tortuous Aorta
+With Calciﬁcation
+Abbreviations as in Figure 1.
+FIGURE 3
+Position of Stiff Wire in LV
+LV ¼ left ventricle.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+Chatterjee et al
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 9 3
+Intervention for Left Ventricular Perforation
+3
+
+=== PAGE 4 ===
+We considered repeating the left ventriculogram, but
+we did not want to raise the LV pressure with a
+pressure injector and risk bleeding recurrence. The
+pericardial drain was kept in situ for 48 h. After
+conﬁrming no signiﬁcant residual pericardial effu-
+sion, the drain was removed. She recovered well and
+was
+discharged
+home
+a
+week
+from
+her
+initial
+admission.
+FOLLOW-UP
+She was reviewed in clinic 6 weeks after discharge.
+She was well and had NYHA functional class 1 symp-
+toms and was leading an active life. Her echocardio-
+gram showed a well-seated TAVI valve with mild
+paravalvular aortic regurgitation. Her LV function
+was normal with no pericardial effusion.
+DISCUSSION
+Cardiac perforation and tamponade are serious and
+potentially fatal complications after TAVI. Registry
+data have shown that cardiac perforation and tam-
+ponade, although relatively uncommon during TAVI,
+have a very high morbidity.3,5 The outcomes in these
+patients remain poor with high mortality rate even
+with emergent cardiac surgery.3,6 Cardiac tamponade
+during TAVI can be caused by the temporary pacing
+wire in the right ventricle, the wire in the left
+ventricle, or due to annular injury during valve
+deployment. It has been noted that outcomes are
+worse when the perforation is in the high pressure
+left ventricle.6 In our case the positioning of the
+Lunderquist wire in the left ventricle was difﬁcult
+due to aortic tortuosity. A suboptimal wire position
+was accepted, and the perforation was likely caused
+by the tip of the Lunderquist wire. Emergency surgery
+was thought to be high risk due to the patient’s frailty
+and comorbidities. Thus, alternative percutaneous
+option was considered in the ﬁrst instance. A percu-
+taneous solution was pursued with consensus from
+the Heart Team and with the patient’s consent. This
+was deemed a reasonable option due to the unusual,
+delayed presentation and a small defect noted on the
+LV angiogram.
+Owais et al7 have identiﬁed a small LV cavity size,
+hypercontractile left ventricle, thin muscular wall,
+FIGURE 4
+Transthoracic Echocardiogram: Pericardial Effusion With Tamponade
+FIGURE 5
+Fluoroscopic Position of Agilis Sheath: Injection of
+Surgical Glue in Pericardium
+Chatterjee et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+Intervention for Left Ventricular Perforation
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 9 3
+4
+
+=== PAGE 5 ===
+and narrow aorto-mitral angle as predictors of LV
+perforation during TAVI. Small LV size is known to
+predict worse outcomes after TAVI both at 30 days
+and 2 years of follow-up.8,9 Our patient had a small
+hypercontractile left ventricle and a narrow aorto-
+mitral angle close to 90 degrees. The horizontal
+tortuous
+calciﬁed
+aorta
+necessitated
+complex
+manipulation of the guidewires in the ventricle.
+Because of the anatomy, our guidewire position was
+also directed toward the LV lateral wall.
+A percutaneous technique was used to treat car-
+diac perforation where surgical risk was considered
+prohibitive. This technique has been described by
+Jones et al,10 in tamponade developing after annular
+rupture.
+Directed
+delivery
+of
+hemostatic
+matrix
+(SURGIFLO
+Hemostatic
+Matrix)
+using
+a
+steerable
+Agilis sheath was successful in sealing the perfora-
+tion with a good outcome. Gelatin thrombin hemo-
+static matrix provides a framework for the patient’s
+platelets to aggregate, thus facilitating the coagula-
+tion cascade. Piayda et al11 have described the role of
+the ventricular muscle band with its circumferential
+and transverse ﬁbers in sealing small, circular per-
+forations.
+There
+remains
+the
+theoretical
+risk
+of
+developing pericardial constriction in the future.
+Close clinical and echocardiographic follow-up is
+planned.
+CONCLUSIONS
+The challenging anatomy and suboptimal position
+of the stiff wire in the left ventricle was the likely
+reason for LV perforation. Intrapericardial Surgiﬂo
+hemostatic matrix application sealed the perfora-
+tion. Prompt interventional management led to a
+good outcome in a high-risk situation. The Heart
+Team discussion was helpful with colleagues from
+other disciplines suggesting using the Agilis sheath
+and
+assisting
+in
+preparing
+the
+Surgiﬂo
+for
+instillation.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Krishnarpan
+Chatterjee,
+Academic
+Cardiovascular
+Unit,
+James
+Cook University Hospital, Marton Road, TS4 3BW
+Middlesbrough, United Kingdom. E-mail: krishnarpan.
+chatterjee@gmail.com. X handle: @KrishnarpanC.
+R E F E R E N C E S
+1. Vahanian A, Beyersdorf F, Praz F, et al. 2021
+ESC/EACTS Guidelines for the management of
+valvular heart disease. Eur Heart J. 2022;43:561–
+632.
+2. Alsara O, Alsarah A, Laird-Fick H. Advanced age
+and the clinical outcomes of transcatheter aortic
+valve implantation. J Geriatr Cardiol. 2014;11:163–
+170.
+3. Eggebrecht H, Vaquerizo B, Moris C, et al.
+Incidence and outcomes of emergent cardiac sur-
+gery
+during
+transfemoral
+transcatheter
+aortic
+valve implantation (TAVI): insights from the Eu-
+ropean Registry on Emergent Cardiac Surgery
+during TAVI (EuRECS-TAVI). Eur Heart J. 2018;39:
+676–684.
+https://doi.org/10.1093/eurheartj/
+ehx713
+4. Tackett SM, Calcaterra D, Magee G, Lattouf OM.
+Real-world outcomes of hemostatic matrices in
+cardiac
+surgery.
+J
+Cardiothorac
+Vasc
+Anesth.
+2014;28:1558–1565.
+5. Liang Y, Dhoble A, Pakanati A, et al. Cata-
+strophic cardiac events during transcatheter aortic
+valve replacement. Can J Cardiol. 2021;37:1522–
+1529. https://doi.org/10.1016/j.cjca.2021.05.002
+6. Rezq A, Basavarajaiah S, Latib A, et al. Inci-
+dence, management, and outcomes of cardiac
+tamponade during transcatheter aortic valve im-
+plantation: a single-center study. JACC Cardiovasc
+Interv. 2012;5:1264–1272. https://doi.org/10.1016/
+j.jcin.2012.08.012
+7. Owais T, El Garhy M, Fuchs J, et al. Patho-
+physiological factors associated with left ventric-
+ular perforation
+in
+transcatheter
+aortic
+valve
+implantation by transfemoral approach. J Heart
+Valve Dis. 2017;26:430–436. PMID: 29302942.
+8. Saito T, Inohara T, Yoshijima N, et al. Small left
+ventricle and clinical outcomes after transcatheter
+aortic valve replacement. J Am Heart Assoc.
+2021;10:e019543.
+https://doi.org/10.1161/jaha.
+120.019543
+9. Langer NB, Hamid NB, Nazif TM, et al. Injuries
+to the aorta, aortic annulus, and left ventricle
+during transcatheter aortic valve replacement:
+management
+and
+outcomes.
+Circ
+Cardiovasc
+Interv.
+2017;10:e004735.
+https://doi.org/10.
+1161/CIRCINTERVENTIONS.116.004735
+10. Jones A, Amirjamshidi H, Knight P, Ling FS,
+Hisamoto K. Aortic annulus rupture after trans-
+catheter
+aortic
+valve
+replacement:
+successful
+management
+of
+a
+dangerous
+complication.
+J Cardiothorac Surg. 2023;18:321. https://doi.org/
+10.1186/s13019-02302426-8
+11. Piayda K, Hellhammer K, Veulemans V, et al.
+Sealing capacity of the ventricular muscle band
+after iatrogenic left ventricular perforation during
+transcatheter aortic valve implantation. BMJ Case
+Rep.
+2018;2018:bcr-2018-225439.
+https://doi.
+org/10.1136/bcr2018-225439
+KEY WORDS Agilis steerable introducer,
+cardiac perforation, delayed cardiac
+tamponade, SURGIFLO Hemostatic Matrix
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 5 , 2 0 2 5
+Chatterjee et al
+M A R C H 5 , 2 0 2 5 : 1 0 3 1 9 3
+Intervention for Left Ventricular Perforation
+5

@@ -1,0 +1,46 @@
+{
+  "pdf": "39484326_Fang_2024.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1950,
+      "height": 1920,
+      "ext": "jpeg",
+      "bytes": 985573
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1943,
+      "height": 2076,
+      "ext": "jpeg",
+      "bytes": 1157366
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1949,
+      "height": 1061,
+      "ext": "jpeg",
+      "bytes": 524379
+    },
+    {
+      "file": "fig-04_p6.jpeg",
+      "page": 6,
+      "width": 1943,
+      "height": 1631,
+      "ext": "jpeg",
+      "bytes": 1043164
+    },
+    {
+      "file": "fig-05_p7.jpeg",
+      "page": 7,
+      "width": 1943,
+      "height": 1210,
+      "ext": "jpeg",
+      "bytes": 532781
+    }
+  ]
+}

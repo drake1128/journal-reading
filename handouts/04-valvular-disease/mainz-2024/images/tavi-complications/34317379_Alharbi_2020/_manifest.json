@@ -1,0 +1,38 @@
+{
+  "pdf": "34317379_Alharbi_2020.pdf",
+  "pages": 4,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 675,
+      "ext": "jpeg",
+      "bytes": 107861
+    },
+    {
+      "file": "fig-02_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 506,
+      "ext": "jpeg",
+      "bytes": 67082
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 710,
+      "ext": "jpeg",
+      "bytes": 136086
+    },
+    {
+      "file": "fig-04_p3.jpeg",
+      "page": 3,
+      "width": 798,
+      "height": 634,
+      "ext": "jpeg",
+      "bytes": 105129
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "pdf": "36776798_Keeton_2023.pdf",
+  "pages": 4,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 797,
+      "ext": "jpeg",
+      "bytes": 182040
+    },
+    {
+      "file": "fig-02_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 797,
+      "ext": "jpeg",
+      "bytes": 182618
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 797,
+      "height": 737,
+      "ext": "jpeg",
+      "bytes": 121371
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 797,
+      "height": 745,
+      "ext": "jpeg",
+      "bytes": 86804
+    }
+  ]
+}

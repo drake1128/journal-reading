@@ -1,0 +1,38 @@
+{
+  "pdf": "41128692_Hakim_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 1644,
+      "height": 812,
+      "ext": "png",
+      "bytes": 782742
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1056,
+      "height": 912,
+      "ext": "png",
+      "bytes": 385181
+    },
+    {
+      "file": "fig-03_p3.png",
+      "page": 3,
+      "width": 1071,
+      "height": 798,
+      "ext": "png",
+      "bytes": 819570
+    },
+    {
+      "file": "fig-04_p4.png",
+      "page": 4,
+      "width": 1644,
+      "height": 464,
+      "ext": "png",
+      "bytes": 696780
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "pdf": "41106893_Frisoli_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1943,
+      "height": 1141,
+      "ext": "png",
+      "bytes": 1961256
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 697,
+      "height": 697,
+      "ext": "png",
+      "bytes": 513515
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1943,
+      "height": 708,
+      "ext": "png",
+      "bytes": 777304
+    },
+    {
+      "file": "fig-04_p4.png",
+      "page": 4,
+      "width": 1943,
+      "height": 600,
+      "ext": "png",
+      "bytes": 975286
+    }
+  ]
+}

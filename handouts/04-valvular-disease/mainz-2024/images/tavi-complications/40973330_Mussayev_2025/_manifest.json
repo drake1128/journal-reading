@@ -1,0 +1,70 @@
+{
+  "pdf": "40973330_Mussayev_2025.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 208,
+      "height": 214,
+      "ext": "jpeg",
+      "bytes": 4467
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 3499,
+      "height": 2630,
+      "ext": "jpeg",
+      "bytes": 279960
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1647,
+      "height": 1460,
+      "ext": "jpeg",
+      "bytes": 80879
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 2213,
+      "height": 3408,
+      "ext": "jpeg",
+      "bytes": 371031
+    },
+    {
+      "file": "fig-05_p6.jpeg",
+      "page": 6,
+      "width": 2209,
+      "height": 1915,
+      "ext": "jpeg",
+      "bytes": 142715
+    },
+    {
+      "file": "fig-06_p6.jpeg",
+      "page": 6,
+      "width": 2209,
+      "height": 1315,
+      "ext": "jpeg",
+      "bytes": 175873
+    },
+    {
+      "file": "fig-07_p7.jpeg",
+      "page": 7,
+      "width": 2674,
+      "height": 2141,
+      "ext": "jpeg",
+      "bytes": 185730
+    },
+    {
+      "file": "fig-08_p7.jpeg",
+      "page": 7,
+      "width": 2675,
+      "height": 1410,
+      "ext": "jpeg",
+      "bytes": 118863
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "pdf": "41108318_Love_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 797,
+      "height": 800,
+      "ext": "png",
+      "bytes": 568655
+    },
+    {
+      "file": "fig-02_p2.png",
+      "page": 2,
+      "width": 1071,
+      "height": 413,
+      "ext": "png",
+      "bytes": 99973
+    },
+    {
+      "file": "fig-03_p3.png",
+      "page": 3,
+      "width": 1071,
+      "height": 638,
+      "ext": "png",
+      "bytes": 1149645
+    },
+    {
+      "file": "fig-04_p3.png",
+      "page": 3,
+      "width": 1071,
+      "height": 424,
+      "ext": "png",
+      "bytes": 291113
+    }
+  ]
+}

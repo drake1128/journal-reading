@@ -1,0 +1,603 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+HOW WE DID IT
+Transaxillary TAVR Complicated by
+Subclavian Pseudoaneurysm and
+Vertebral Artery Sacriﬁce
+Caterina Cavazza, MD,a Francesco Contorni, MD,a Marco Balducelli, MD,b Elisa Mikus, MD,c Filippo Maioli, MD,d
+Paolo Spath, MD,d Salvatore Tarantini, MD,d Andrea Santarelli, MD,e Fausto Castriota, MD,c Mila Menozzi, MD,a
+Nicoletta Franco, MD,a Filippo Ottani, MDa
+ABSTRACT
+OBJECTIVES We describe the endovascular management of multiple vessel-related complications in a case of
+transcatheter aortic valve replacement (TAVR) through surgical right transaxillary access.
+KEY STEPS We present the case of a TAVR performed through the right transaxillary approach and detail the treatment
+of an early subclavian dissection and a subacute subclavian pseudoaneurysm, successfully managed through endovas-
+cular interventions.
+POTENTIAL PITFALLS Signiﬁcant subclavian disease can raise the questions whether to prepare the vessel before
+the procedure and whether to proceed sheathless with the valve delivery system or use a larger ﬁxed introducer.
+Additionally, the decision to treat or not treat early vessel complications may lead to different outcomes.
+TAKE-HOME MESSAGES The right transaxillary approach for TAVR is a feasible alternative access, although vascular
+injuries can occur. A subclavian pseudoaneurysm can be addressed with percutaneous intervention. In this scenario, loss
+of the ipsilateral vertebral artery can be tolerated without serious consequences. (JACC Case Rep. 2025;30:103610)
+© 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open
+access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+T
+ranscatheter aortic valve replacement (TAVR)
+has become an established treatment for
+patients with severe aortic stenosis at high
+surgical
+risk.1
+Severe
+peripheral
+vascular
+disease
+presents signiﬁcant challenges to TAVR implementa-
+tion. When femoral access is unsuitable, the transaxil-
+lary approach is a feasible and safe alternative.2,3 Left
+axillary access is preferred for straightforward valve
+advancement, whereas right-sided access is used
+TAKE-HOME MESSAGES
+ The right transaxillary approach for TAVR is a
+feasible alternative access, although
+vascular injuries may occur.
+ A
+subclavian
+pseudoaneurysm
+can
+be
+addressed with percutaneous intervention.
+ The ipsilateral vertebral artery can be sacri-
+ﬁced without serious consequences.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103610
+From the aEmergency and Cardiology Department, Infermi Hospital Rimini, Romagna Local Health Authority, Rimini, Italy;
+bEmergency and Cardiology Department, Santa Maria delle Croci Hospital, Romagna Local Health Authority, Ravenna, Italy;
+cInterventional Cardiology Department, Maria Cecilia Hospital, Cotignola, Ravenna, Italy; dDepartment of Vascular Surgery,
+Infermi Hospital Rimini, Romagna Local Health Authority, Rimini, Italy; and the eEmergency and Cardiology Department, M.
+Bufalini Hospital, Romagna Local Health Authority, Cesena, Italy.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received October 17, 2024; revised manuscript received January 9, 2025, accepted January 22, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 3 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+for complex situations. However, signiﬁcant
+stenosis, calciﬁcations, or complicated pla-
+ques in the subclavian arteries can lead
+to dangerous vascular complications.4 Poten-
+tial
+complications
+in
+high–surgical
+risk
+patients,
+including
+vascular
+injury
+and
+pseudoaneurysm formation, often necessi-
+tate
+endovascular
+intervention,
+requiring
+careful preprocedural assessment with potentially
+suboptimal outcomes.
+This case report details the management of an 87-
+year-old female patient with severe aortic stenosis
+who underwent TAVR through the right axillary ar-
+tery. Despite initial procedural success, she devel-
+oped
+vascular
+complications
+and
+experienced
+a
+stroke, leading to challenging decisions and a risky
+bailout procedure.
+CASE SUMMARY
+An 87-year-old woman was admitted with dyspnea on
+minimal exertion. Her medical history included a
+previous left carotid endarterectomy, paroxysmal
+atrial ﬁbrillation managed with a direct oral antico-
+agulant
+agent,
+and
+moderate
+to
+severe
+chronic
+obstructive pulmonary disease. Transthoracic echo-
+cardiography
+showed
+paradoxical
+low-ﬂow
+low-
+gradient
+aortic
+stenosis
+with
+preserved
+ejection
+fraction (55%) and a reduced stroke volume index
+(28 mL/m2), as well as moderate aortic regurgitation.
+Coronary angiography indicated no signiﬁcant coro-
+nary artery stenosis.
+To assess the feasibility of TAVR, the patient
+underwent computed tomography angiography (CTA)
+for procedural planning. The calcium score was 1,250,
+indicating a trileaﬂet valve structure with signiﬁcant
+ﬁbrosis. Thoracoabdominal imaging revealed a por-
+celain ascending aorta and diffuse severe calciﬁc
+disease at the abdominal level, with signs of chronic
+dissection. Bilateral tight stenosis of both external
+iliac arteries was observed, with minimum lumen
+diameters (MLDs) <3 mm (Figure 1). Evaluation of the
+subclavian
+and
+axillary
+arteries
+revealed
+critical
+calciﬁc
+stenosis
+of
+the
+left
+subclavian
+artery
+(MLD <2 mm) and moderate stenosis (MLD 4.6 mm of
+the right subclavian artery) (Figure 2).
+The case was discussed by the multidisciplinary
+heart team. Given the patient’s elevated periopera-
+tive risk (The Society of Thoracic Surgeons score 8%)
+and overall frailty, the decision was made to proceed
+with TAVR. Femoral access was unsuitable. The
+transaortic approach was excluded because of the
+porcelain aorta, and left subclavian access was ruled
+out
+because
+of
+the
+very
+small
+MLD
+and
+heavy
+calciﬁcations. Thus, right axillary surgical access was
+chosen.
+The annulus dimensions (perimeter, 64.1 mm)
+were suitable for implantation of a self-expandable
+23-mm Evolut FX bioprosthesis (Medtronic). After
+surgical exposure of the artery, the valve delivery
+system was advanced sheathless to reduce French
+size and vessel injury. The valve was released in the
+correct position, achieving optimal ﬁnal hemody-
+namic
+parameters.
+Final
+angiography
+revealed
+extensive dissection at the distal one-third of the
+subclavian artery, originating from
+the dissected
+basal
+plaque,
+necessitating
+placement
+of
+a
+self-
+expanding stent to seal the lesion (Figure 3, Video 1).
+The following day, the patient exhibited aphasia
+and oral commissure deviation, being unresponsive
+except to painful stimuli. CTA of the intracranial
+and cervical vessels revealed small, hypodense areas
+in
+both
+cerebellar
+hemispheres,
+consistent
+with
+subacute
+ischemic
+lesions,
+with
+no
+evidence
+of
+hemorrhage. Regarding the axillary access site, there
+was tight stenosis at the surgical closure and a pseu-
+doaneurysm of the subclavian artery at the proximal
+edge of the stent, measuring 8 mm  8 mm. A con-
+servative strategy was initially adopted in view of the
+patient’s critical condition.
+The next day, the patient gradually regained con-
+sciousness, with complete regression of neurologic
+symptoms.
+Follow-up
+CTA
+revealed
+an
+enlarged
+pseudoaneurysm (maximum diameters, 11 mm 
+9 mm) with early signs of wall rupture near the
+proximal edge of the stent and close to the right
+vertebral artery (Figures 4A to 4D). After consultation
+with vascular surgeons, considering the challenging
+anatomical factors, we decided to treat the axillary
+stenosis
+and
+the
+pseudoaneurysm
+with
+covered
+stents, thereby accepting the sacriﬁce of the right
+vertebral artery and hoping that the contralateral
+circulation would compensate for cerebral blood ﬂow.
+This intervention was performed through retrograde
+right surgical humeral access (the radial artery was
+not palpable), resulting in successful sealing of the
+pseudoaneurysm without complications or neuro-
+logic deﬁcits (Figures 5A to 5D, Video 2). The patient
+was discharged 3 days post-procedure, completely
+asymptomatic and in excellent neurologic condition.
+PROCEDURAL STEPS
+VALVE IMPLANTATION. After general anesthesia and
+orotracheal
+intubation
+were
+established,
+surgical
+exposure of the second segment of the axillary artery
+was performed, with the creation of 2 purse-string
+sutures (Video 1). An arterial puncture was made,
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+CTA = computed tomography
+angiography
+MLD = minimum lumen
+diameter
+TAVR = transcatheter aortic
+valve replacement
+Cavazza et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 3 , 2 0 2 5
+Complications of Transaxillary TAVR
+J U N E 4 , 2 0 2 5 : 1 0 3 6 1 0
+2
+
+=== PAGE 3 ===
+and a 10-F short introducer was placed, allowing
+access to the ascending aorta by using a hydrophilic
+J-tip
+guidewire
+(Terumo).
+Aortic
+angiography
+conﬁrmed the right implantation projections. The
+valve was crossed using an Amplatz left-2 (AL-2)
+diagnostic catheter and a straight guidewire. The
+AL-2 catheter was then exchanged for a pigtail cath-
+eter,
+through
+which
+a
+stiff,
+preshaped
+INNOWI
+guidewire
+(SYMEDRIX)
+was
+placed
+at
+the
+left
+ventricular apex.
+The 10-F introducer was removed, and the delivery
+system of the Evolut FX valve was advanced sheath-
+less to minimize vessel injury. The valve was released
+in the correct position after being recaptured twice as
+a result of limited maneuverability from the right
+subclavian access. The opening phase was conducted
+under left ventricular guide pacing. After the valve
+was released, no transvalvular gradient or para-
+valvular
+leak
+was
+observed.
+The
+valve
+delivery
+system
+was
+closed
+in
+the
+ascending
+aorta
+and
+removed, then replaced with a 14-F introducer, which
+was advanced just before the basal stenotic plaque.
+Angiography revealed extensive dissection of the
+subclavian artery (25-mm length), but sparing the
+vertebral artery.
+To
+enhance
+safety,
+we
+decided
+to
+cover
+the
+dissection with a self-expanding stent (Absolut Pro
+9 mm  40 mm, Abbott Vascular), deployed from the
+origin of the vertebral artery without covering it
+(Figure 3). Vascular access was subsequently closed
+surgically. The patient was extubated before reaching
+the intensive care unit, with stable vital signs.
+MANAGEMENT OF THE SUBCLAVIAN PSEUDOANEURYSM.
+CTA following the ischemic event revealed a pseu-
+doaneurysm involving the posterior wall of the right
+subclavian artery at the proximal edge of the previ-
+ously implanted stent. This pseudoaneurysm was
+FIGURE 1
+Computed Tomography Angiography Assessment of the Femoral Arteries
+Computed tomography angiography for transcatheter aortic valve replacement planning showing diffuse, severe bilateral calciﬁc disease of the iliofemoral axis.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 3 , 2 0 2 5
+Cavazza et al
+J U N E 4 , 2 0 2 5 : 1 0 3 6 1 0
+Complications of Transaxillary TAVR
+3
+
+=== PAGE 4 ===
+characterized by a thin, irregular wall with signs of
+ﬁssuration, thus placing it at high risk of rupture
+(Figures 4A to 4D). Surgical repair through minister-
+notomy
+was
+deemed
+unsuitable
+considering
+the
+patient’s prohibitive surgical risk. An endovascular
+approach using long covered stents posed a challenge
+because there was insufﬁcient space to preserve
+the patency of the right vertebral artery. Given
+the patient’s frailty and recent stroke, iatrogenic
+closure of the vertebral artery could result in critical
+neurologic impairment. Nevertheless, the anatomical
+characteristics of the pseudoaneurysm necessitated
+urgent intervention.
+The procedure was performed using local anes-
+thesia. Because of the absence of viable peripheral
+access for percutaneous intervention, an 8-F intro-
+ducer was placed through surgical exposure of the
+distal
+humeral
+artery,
+thereby
+facilitating
+clear
+FIGURE 2
+Computed Tomography Angiography Assessment of the Axillary and Subclavian Arteries
+Computed tomography angiography for transcatheter aortic valve replacement planning revealing extensive disease affecting both subclavian arteries, with critical,
+severely calciﬁed stenosis of the left subclavian artery and moderate, mildly calciﬁed, and partially dissected stenosis of the midpart of the right subclavian artery.
+Avg. ¼ average; RAO ¼ right anterior oblique.
+FIGURE 3
+Subclavian Artery Dissection
+(Left) Angiography of the right subclavian artery after transcatheter aortic valve replacement showing vessel dissection (asterisk). (Right) Sealing of the dissection tear
+following deployment of a self-expanding stent.
+Cavazza et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 3 , 2 0 2 5
+Complications of Transaxillary TAVR
+J U N E 4 , 2 0 2 5 : 1 0 3 6 1 0
+4
+
+=== PAGE 5 ===
+angiographic visualization of the aneurysm. Three
+overlapped self-expanding covered stents (2 Viabahn
+10 mm  100 mm stents and a 10 mm  50 mm stent,
+W.L. Gore & Associates) were deployed from the
+proximal one-third of the subclavian artery to the
+previous surgical access site, which exhibited tight
+stenosis. All stent lengths were post-dilated with an
+8-mm balloon. The patient maintained neurologic
+integrity
+throughout
+the
+procedure.
+Final
+angio-
+graphic
+control
+and
+subsequent
+CTA
+imaging
+(Figures 5A to 5D) conﬁrmed complete sealing of the
+pseudoaneurysm, with preserved ﬂow in both the
+subclavian and carotid arteries. The patient was dis-
+charged
+3
+days
+post-procedure,
+and
+she
+was
+asymptomatic.
+POTENTIAL PITFALLS
+In evaluating procedural pitfalls, we identiﬁed some
+critical crossroads in our planning. The ﬁrst concerns
+vessel
+preparation
+before
+TAVR.
+Placing
+a
+self-
+expanding stent to seal the dissected plaque of the
+subclavian artery could have been a viable option;
+however, this strategy was deemed risky because of
+the potential for crushing the newly implanted stent
+while
+advancing
+the
+valve
+delivery
+system
+or
+introducer.
+The second critical issue was the decision to
+advance the valve delivery system sheathless, which
+may have been a suboptimal choice. Using an 18-F
+introducer, advanced at least to the origin of the ca-
+rotid artery, although larger, could have better pro-
+tected the subclavian vessel by reducing mechanical
+stress during maneuvers for valve repositioning and
+recapture.
+Another consideration was the choice to treat the
+iatrogenic subclavian dissection immediately after
+valve deployment. The entry tear extended in a
+distal-to-proximal
+direction,
+suggesting
+potential
+future
+spontaneous
+healing
+of
+the
+dissection.
+FIGURE 4
+Subclavian Postprocedural Pseudoaneurysm
+Multiple computed tomography angiography reconstructions of the pseudoaneurysm involving the proximal right subclavian artery (asterisks)
+and its relationship with close anatomical structures. (A and B) Multiple intensity projection and snake views demonstrating the close
+relationship with the proximal edge of the stent. (C and D) Volume rendering views illustrating the close relationship with the right vertebral
+artery (RVA). RCCA ¼ right common carotid artery.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 3 , 2 0 2 5
+Cavazza et al
+J U N E 4 , 2 0 2 5 : 1 0 3 6 1 0
+Complications of Transaxillary TAVR
+5
+
+=== PAGE 6 ===
+Therefore, a conservative strategy could have been a
+prudent option, especially in a frail vessel where
+stent placement risked further injury to the vessel
+wall.
+CONCLUSIONS
+This case highlights the complexities and risks of
+TAVR in high-risk patients, particularly those with
+signiﬁcant vascular disease. Transaxillary access is a
+recognized and viable approach; however, it does not
+eliminate the risk of signiﬁcant vascular injuries, for
+which an endovascular approach is often the only
+feasible solution given the high surgical risk. In the
+case of a pseudoaneurysm arising from the proximal
+end of the subclavian artery, the sacriﬁce of the
+ipsilateral vertebral artery while placing a covered
+stent can sometimes be well tolerated, even in fragile
+patients.
+Finally, this case emphasizes the importance of a
+multidisciplinary
+approach
+in
+optimizing
+patient
+outcomes and suggests that careful consideration of
+access routes and techniques is crucial for minimizing
+procedural risks in advanced cardiac interventions.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Castriota has served as a proctor for Medtronic. All other authors
+have reported that they have no relationships relevant to the con-
+tents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr
+Caterina
+Cavazza, Infermi Hospital, Via Luigi Settembrini 2,
+47923 Rimini RN, Italy. E-mail: caterina.cavazza@
+auslromagna.it.
+FIGURE 5
+Pseudoaneurysm Treatment
+(A) Right subclavian artery angiography before endovascular treatment, showing the pseudoaneurysm (asterisk) and the stenosis at the
+surgical access. (B) Corresponding visualization on computed tomography angiography of the pseudoaneurysm (asterisk). (C) Angiography
+following placement of 3 overlapped covered stents, demonstrating lesion exclusion. (D) Corresponding visualization on computed tomog-
+raphy angiography of pseudoaneurysm sealing by covered stents. Abbreviations as in Figure 4.
+Cavazza et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 3 , 2 0 2 5
+Complications of Transaxillary TAVR
+J U N E 4 , 2 0 2 5 : 1 0 3 6 1 0
+6
+
+=== PAGE 7 ===
+R E F E R E N C E S
+1. Liu Z, Kidney E, Bem D, Bramley G, et al.
+Transcatheter aortic valve implantation for aortic
+stenosis in high surgical risk patients: a systematic
+review and meta-analysis. PLoS One. 2018;13(5):
+e0196877.
+https://doi.org/10.1371/journal.pone.
+0196877
+2. Abusnina
+W,
+Machanahalli
+Balakrishna
+A,
+Ismayl M, et al. Comparison of transfemoral versus
+transsubclavian/transaxillary
+access
+for
+trans-
+catheter aortic valve replacement: a systematic
+review and meta-analysis. Int J Cardiol Heart Vasc.
+2022;43:101156.
+https://doi.org/10.1016/j.ijcha.
+2022.101156
+3. Schofer
+N,
+Deuschl
+F,
+Conradi
+L,
+et
+al.
+Preferential
+short
+cut
+or
+alternative
+route:
+the transaxillary access for transcatheter aortic
+valve implantation. J Thorac Dis. 2015;7(9):1543–
+1547.
+https://doi.org/10.3978/j.issn.2072-1439.
+2015.07.27
+4. van der Wulp K, Thijs I, van Wely M, et al. Inci-
+dence and predictors of vascular complications
+in transaxillary TAVI. EuroIntervention. 2020;15(15):
+e1325–e1331. https://doi.org/10.4244/EIJ-D-19-
+00588
+KEY WORDS covered stent,
+pseudoaneurysm, TAVR, transaxillary,
+transsubclavian, vascular complication
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 3 , 2 0 2 5
+Cavazza et al
+J U N E 4 , 2 0 2 5 : 1 0 3 6 1 0
+Complications of Transaxillary TAVR
+7

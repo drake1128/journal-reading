@@ -1,0 +1,393 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Alpha-Gal Syndrome and 
+Aortic Valve Replacement
+Nabeel Sami, DO, a Bharat Ravishankar, MD, a Berhane Worku, MD, b,d Diana Khatib, MD, e Erin McGintee, MD, f 
+Terrence Sacchi, MD, a Ozgen Dogan, MD, a Gila Perk, MD, a,c Mark Reisman, MD, a,c Nino Mihatov, MD a,c
+ABSTRACT
+BACKGROUND Alpha-gal syndrome (AGS) is an IgE-mediated hypersensitivity response to galactose-alpha-
+1,3-galactose (alpha-gal), an oligosaccharide present in beef and pork. This complicates bioprosthetic heart valve 
+selection, as both bovine and porcine valves contain alpha-gal, posing risks of allergic reaction and potentially 
+accelerated structural valve degeneration.
+CASE SUMMARY A 78-year-old man with AGS and severe symptomatic aortic stenosis underwent transcatheter aortic 
+valve replacement with a porcine-derived Evolut FX 29-mm valve following multidisciplinary evaluation. Preoperative 
+allergist-guided prophylaxis, including IgE risk stratification, antihistamines, and corticosteroids, enabled successful 
+implantation without complications.
+DISCUSSION Bioprosthetic valves may pose unique risks for individuals sensitized to alpha-gal, where an alpha-gal IgE 
+to total IgE ratio #5% is a proposed threshold in which patients can be rechallenged with animal products. This case 
+highlights the successful management of a slightly higher ratio.
+TAKE-HOME MESSAGE The interplay between AGS, bioprosthetic valve selection, and structural valve durability 
+necessitates an individualized approach to mitigate the hypersensitivity risks. (JACC Case Rep. 2025;30:105478) 
+© 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an 
+open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 74-year-old man with alpha-gal syndrome (AGS), 
+severe aortic stenosis (AS), and recurrent gastroin-
+testinal bleeding without a source presented with 
+progressive exertional dyspnea and declining exer-
+cise tolerance over several months. He was evaluated 
+for aortic valve replacement, which was complicated 
+by his history of AGS with prior allergic reactions
+manifesting 
+as 
+urticaria 
+and 
+gastrointestinal 
+discomfort following red meat consumption. His first 
+hypersensitivity reaction to beef was reported in 
+2020 with diffuse pruritus, chest urticaria, and mild 
+shortness of breath. Subsequent episodes followed 
+meat ingestion, including one emergency depart-
+ment visit requiring epinephrine for severe shortness 
+of breath. Notably, the patient reported tolerating 
+pork on multiple occasions without symptoms.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.105478
+From the a Division of Cardiology, Department of Medicine, New York Presbyterian Brooklyn Methodist Hospital, Brooklyn, New 
+York, USA; b Department of Cardiothoracic Surgery, New York Presbyterian Brooklyn Methodist Hospital, Brooklyn, New York, 
+USA; c Division of Cardiology, Department of Medicine, Weill Cornell Medical College, New York, New York, USA; d Department of 
+Cardiothoracic Surgery, Weill Cornell Medical College, New York, New York, USA; e Division of Cardiac Anesthesiology, Weill 
+Cornell Medical College, New York, New York, USA; and the f ENT and Allergy Associates, Southampton, New York, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received June 16, 2025; revised manuscript received August 4, 2025, accepted August 7, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 3 2 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+PAST MEDICAL HISTORY
+The patient’s past medical history was sig-
+nificant for AGS, severe AS, coronary artery 
+disease with 2 percutaneous coronary in-
+terventions (2008 and 2019), type 2 diabetes 
+mellitus, and recurrent gastrointestinal 
+bleeding without an identified source. He 
+was functionally NYHA class II and Canadian 
+Cardiovascular Society class I at presentation.
+DIFFERENTIAL DIAGNOSIS
+The differential diagnosis of progressive exertional 
+dyspnea in this patient included coronary artery 
+disease, heart failure with preserved ejection frac-
+tion, and anemia due to recurrent gastrointestinal 
+bleeding.
+INVESTIGATIONS
+Transthoracic echocardiogram (TTE) demonstrated a 
+mean pressure gradient of 41.1 mm Hg, a peak aortic 
+valve velocity of 4.0 m/s, and a calculated valve area 
+of 0.989 cm 2 , all consistent with severe AS 
+(Figure 1A). Moderate aortic valve calcification is 
+present (Figure 1B). He had a preserved left ventric-
+ular ejection fraction of 55%.
+An expert alpha-gal allergy consultation was ob-
+tained to guide perioperative planning for trans-
+catheter aortic valve replacement (TAVR) in the 
+context of the patient’s known AGS. The patient’s 
+alpha-gal IgE measurement was 1.4 kU/L, consti-
+tuting 7% of his total IgE, which reflected a low 
+reactivity, near the 5% threshold proposed by our 
+expert, for safe rechallenge. Consultation also noted 
+a dose-dependent incidence of anaphylaxis with 
+heparin use in alpha-gal patients and that bovine
+valves are typically a more provocative trigger than 
+porcine valves.
+MANAGEMENT (MEDICAL/INTERVENTIONS)
+Given the patient’s progressive symptoms and 
+echocardiographic findings, aortic valve replacement 
+was 
+indicated. 
+With 
+ongoing 
+gastrointestinal 
+bleeding events and the potential risk of heparin-
+induced hypersensitivity, a mechanical valve was 
+deemed suboptimal, and a bioprosthetic option was 
+preferred. To minimize heparin exposure, a trans-
+femoral approach was recommended by an alpha-gal 
+allergy specialist along with a prophylactic pretreat-
+ment regimen. Two days prior to the procedure, the 
+patient’s hemoglobin was 14.3 g/dL, hematocrit 
+40.3%, platelet count 204 × 10 9 /L, and white blood 
+cell count 13.05 × 10 9 /L without clinical signs of 
+infection. These values reflected a stable baseline 
+prior to intervention. Intravenous diphenhydramine 
+would be administered 1 hour prior to valve implan-
+tation, and antihistamines would be continued for 
+48 hours postoperatively to reduce the risk of allergic 
+complications.
+VISUAL SUMMARY Brief Timeline of Clinical Events and Interventions
+TAKE-HOME MESSAGES
+• Alpha-gal syndrome complicates valve se-
+lection in aortic stenosis due to the presence 
+of alpha-gal epitopes in bovine and porcine 
+bioprosthetic valves, which may trigger 
+allergic or inflammatory responses.
+• An IgE:total IgE ratio #5% may serve as a 
+practical threshold for rechallenge with 
+animal-derived products, where individual-
+ized allergist-guided prophylaxis and valve 
+selection may enable safe porcine valve 
+implantation.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+AGS = alpha-gal syndrome
+AS = aortic stenosis
+TAVR = transcatheter aortic
+valve replacement
+TTE = transthoracic
+echocardiogram
+Sami et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5
+AGS and Aortic Valve Replacement 
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 4 7 8
+2
+
+=== PAGE 3 ===
+In addition to these safeguards, given the patient’s 
+history of reactions solely to beef and having toler-
+ated eating pork chops on occasion, he opted for a 
+porcine-derived Evolut Fx 29-mm valve (Figure 2). 
+The patient was pretreated for 4 days, receiving 
+prednisone 30 mg twice daily, montelukast 10 mg 
+daily, and cetirizine 10 mg nightly. Diphenhydramine 
+50 mg intravenously was administered 1 hour before 
+the procedure. Systemic heparin was administered 
+with a target activated clotting time of 250 seconds 
+utilized with protamine readily available intra-
+operatively in the event of an adverse reaction. The 
+procedure was successful without complications, and 
+postoperatively, aspirin 81 mg was given daily. No 
+clopidogrel was ordered due to a history of 
+clopidogrel-induced bleeding.
+OUTCOME AND FOLLOW-UP
+Following his procedure, the patient experienced no 
+allergic reactions and reported significant symptom-
+atic improvement at both 1- and 2-year interval 
+follow-up. Four days after implantation, TTE 
+demonstrated a mean pressure gradient of 10 mm Hg 
+and a peak aortic valve velocity of 2.2 m/s. At 2 years, 
+TTE showed a mean pressure gradient of 9.2 mm Hg, 
+a peak aortic valve velocity of 2.2 m/s, and an aortic 
+valve area of 2.3 cm 2 , indicating preserved valve 
+function without structural degeneration. The pa-
+tient’s Kansas City Cardiomyopathy Questionnaire
+score improved from a baseline of 57 (moderate 
+health status) to 86 (excellent health status) at 1-year 
+follow-up.
+DISCUSSION
+AS is the most prevalent valvular heart disease 
+encountered in clinical practice and a leading cause 
+of morbidity among older adults. Current guidelines 
+recommend aortic valve replacement as a Class I 
+indication for severe symptomatic AS. 1 With TAVR 
+now extended to intermediate- and low-risk pop-
+ulations as supported by the PARTNER 3 and Evolut 
+Low Risk trials, valve selection has become a critical 
+aspect of preprocedural planning, particularly in pa-
+tients with atypical risk factors. 2,3 AGS presents one 
+such challenge, particularly with the growing use of 
+bioprosthetic valves. Both bovine and porcine valves 
+contain alpha-gal, posing risks of allergic reactions or 
+anaphylaxis, and may contribute to premature valve 
+degeneration mediated by eosinophilic infiltration of 
+valve tissue. 4,5 Early bioprosthetic valve failure is 
+associated with increased morbidity and worse long-
+term survival. Despite these risks, screening for 
+alpha-gal sensitization is not currently a part of 
+standard 
+preoperative 
+evaluation 
+for 
+valve-
+replacement candidates, and no formal guidelines 
+exist for managing AGS. 1 Preclinical studies have 
+shown that glutaraldehyde-treated bioprosthetic 
+valves may retain residual xenoantigens inherent to
+FIGURE 1 Transthoracic Echocardiogram With Spectral Doppler
+(A) Spectral Doppler echocardiography demonstrating severe aortic stenosis. Red arrows show a mean pressure gradient of 41.1 mm Hg, peak aortic velocity of 4 m/s, 
+and aortic valve area of 0.989 cm 2 . (B) Parasternal short-axis view showing an incompletely closed aortic valve during diastole with thickened cusps from moderate 
+valve calcification.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5 
+Sami et al
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 4 7 8 
+AGS and Aortic Valve Replacement
+3
+
+=== PAGE 4 ===
+their tissue origin, including alpha-gal epitopes, 
+which can provoke immune responses. 6 Therefore, 
+final risk assessment and valve selection remain at 
+the discretion of the implanting heart team, guided 
+by patient-specific factors.
+Currently, no validated cutoff for alpha-gal reac-
+tivity exists. Fischer et al 7 identified 0.59 kU/L as the 
+optimal threshold for clinically meaningful sensiti-
+zation, based on receiver operating characteristic 
+analysis demonstrating 83% sensitivity and 81% 
+specificity. Mabelane et al 8 reported a 95% probability 
+of reactivity when alpha-gal–specific IgE exceeds 
+5.5 kU/L or the IgE:total IgE ratio surpasses 2.12%. Our 
+consulting allergist suggested a threshold ratio of #5% 
+as a reasonable cutoff to permit animal product 
+rechallenge. This 5% threshold is not formally vali-
+dated in published studies but was applied here based 
+on clinical judgment. Prior reports, including those by 
+Mabelane et al 8 and Fischer et al 7 , have proposed 
+lower ratio-based or absolute IgE thresholds associ-
+ated with clinical reactivity. Our patient’s alpha-gal– 
+specific IgE of 1.4 kU/L exceeded the sensitization 
+threshold, and his IgE:total IgE ratio of 7% surpassed 
+the reactivity threshold, indicating clinical sensi-
+tivity. However, his absolute alpha-gal IgE remained 
+below the high-risk value of 5.5 kU/L, highlighting the 
+importance of contextual interpretation.
+Notably, reactivity thresholds may be source-
+specific, with some patients exhibiting selective 
+reactivity to beef but not pork, such as our patient. 
+This phenomenon may relate to differences in alpha-
+gal antigenicity based on tissue source and process-
+ing methods. Prior studies have suggested that 
+higher cooking temperatures reduce antigenicity in 
+pork. 9 In addition, bioprosthetic valves undergo 
+glutaraldehyde fixation, which may diminish resid-
+ual alpha-gal epitopes, although the extent of this 
+effect remains unclear. 7 Furthermore, our patient’s 
+blood type was O positive. The alpha-gal epitope 
+shares structural similarity with the blood group B 
+antigen, and individuals with blood group B or AB 
+may exhibit partial immune tolerance to alpha-gal 
+due to this resemblance. 10 However, such tolerance 
+is absent in individuals with blood group O, sug-
+gesting other factors such as source-specific antige-
+nicity or processing effects likely accounted for our 
+patient’s lack of hypersensitivity.
+A tailored prophylactic strategy including predni-
+sone, montelukast, cetirizine, and perioperative 
+diphenhydramine was implemented based on expert 
+allergist input. This regimen successfully mitigated 
+hypersensitivity risk and enabled the safe trans-
+femoral implantation of a porcine-derived bio-
+prosthetic valve, chosen based on the patient’s 
+selective tolerance of pork products. He was coun-
+seled to avoid Lone Star tick bites which can trigger 
+increases in alpha-gal IgE levels. 9 The success of this 
+approach likely reflects the suppression of allergic 
+pathways via antihistamines, leukotriene inhibition, 
+and corticosteroids. 9 This case demonstrates that 
+with careful allergen risk stratification and targeted 
+pretreatment, TAVR can be safely performed in 
+alpha-gal–sensitized patients, even when IgE ratios 
+exceed suggested thresholds.
+Looking forward, the development of alpha-gal– 
+negative biomaterials may offer safer and more 
+durable alternative for patients requiring tissue-
+based implants. Ultimately, this case demonstrates 
+the value of anticipatory, individualized pretreat-
+ment protocols to reduce allergic risk in sensitized 
+patients.
+CONCLUSIONS
+This case reinforces the importance of individual-
+ized, multidisciplinary care in the management of
+FIGURE 2 Left Coronary Angiography Evolut Fx 29-mm 
+Porcine Valve in the Aortic Position During Left Coronary 
+Angiography
+Sami et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5
+AGS and Aortic Valve Replacement 
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 4 7 8
+4
+
+=== PAGE 5 ===
+patients with AGS undergoing aortic valve replace-
+ment. Careful preoperative assessment, including 
+allergist-guided prophylaxis and tailored procedural 
+planning, is essential to anticipate and mitigate the 
+risk of hypersensitivity reactions. We also present 
+practical perioperative strategies, such as targeted 
+pharmacologic pretreatment and procedural safe-
+guards, that appear effective in mitigating allergic risk 
+in this context. In select patients with AGS, trans-
+femoral TAVR with a porcine-derived bioprosthetic 
+valve can be safely performed when appropriate 
+precautions are in place. As clinical recognition of 
+AGS increases, further research is needed to
+establish standardized screening protocols, refine 
+perioperative management strategies, and optimize 
+long-term valve performance.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS 
+FOR 
+CORRESPONDENCE: 
+Dr 
+Nino
+Mihatov, Division of Cardiology, New York Presby-
+terian Brooklyn Methodist Hospital, 506 6th Street, 
+Brooklyn, New York 11215, USA. E-mail: nim9139@ 
+med.cornell.edu.
+R E F E R E N C E S
+1. Otto CM, Nishimura RA, Bonow RO, et al. 2020 
+ACC/AHA guideline for the management of pa-
+tients with valvular heart disease. J Am Coll Car-
+diol. 2021;77(4):e25–e197. https://doi.org/10. 
+1016/j.jacc.2020.11.018
+2. Mack MJ, Leon MB, Thourani VH, et al. 
+Transcatheter aortic-valve replacement with 
+a balloon-expandable valve in low-risk pa-
+tients. N Engl J Med. 2019;380(18):1695– 
+1705. https://doi.org/10.1056/NEJMoa1814052
+3. Popma JJ, Deeb GM, Yakubov SJ, et al. Trans-
+catheter aortic-valve replacement with a self-
+expanding valve in low-risk patients. N Engl J 
+Med. 2019;380(18):1706–1715. https://doi.org/ 
+10.1056/NEJMoa1816885
+4. Kuravi KV, Sorrells LT, Nellis JR, et al. Allergic 
+response to medical products in patients with 
+alpha-gal syndrome. J Thorac Cardiovasc Surg.
+2022;164(6):e411–e424. https://doi.org/10.1016/ 
+j.jtcvs.2021.03.100
+5. Hawkins RB, Frischtak HL, Kron IL, Ghanta RK. 
+Premature bioprosthetic aortic valve degenera-
+tion associated with allergy to galactose-alpha-1, 
+3-galactose. J Card Surg. 2016;31(7):446–448. 
+https://doi.org/10.1111/jocs.12764
+6. Manji RA, Zhu LF, Nijjar NK, et al. Glutaralde-
+hyde-fixed bioprosthetic heart valve conduits 
+calcify and fail from xenograft rejection. Circula-
+tion. 2006;114(4):318–327. https://doi.org/10. 
+1161/CIRCULATIONAHA.105.592055
+7. Fischer J, Huynh HN, Hebsaker J, et al. Preva-
+lence and impact of type I sensitization to alpha-
+gal in patients consulting an allergy unit. Int Arch 
+Allergy Immunol. 2020;181(2):119–127. https:// 
+doi.org/10.1159/000503966
+8. Mabelane T, Salapatek AM, Thomas P, et al. 
+Alpha-gal syndrome: clinical perspective from a
+Canadian tertiary allergy clinic. Allergy Asthma 
+Clin Immunol. 2020;16(1):45. https://doi.org/10. 
+1186/s13223-020-00446-3
+9. Commins SP, Platts-Mills TAE. Delayed 
+anaphylaxis to red meat in patients with IgE 
+specific for galactose alpha-1,3-galactose (alpha-
+gal). Curr Allergy Asthma Rep. 2013;13(1):72–77. 
+https://doi.org/10.1007/s11882-012-0315-y
+10. Galili U, Clark MR, Shohet SB, Buehler J, 
+Macher BA. Evolutionary relationship between 
+the natural anti-Gal antibody and the Gal alpha 
+1–3Gal epitope in primates. Proc Natl Acad Sci U 
+S A. 1987;84(5):1369–1373. https://doi.org/10. 
+1073/pnas.84.5.1369
+KEY WORDS aortic valve, cardiac risk, 
+Doppler ultrasound, echocardiography, 
+stenosis, valve replacement
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 2 , 2 0 2 5 
+Sami et al
+O C T O B E R 1 5 , 2 0 2 5 : 1 0 5 4 7 8 
+AGS and Aortic Valve Replacement
+5

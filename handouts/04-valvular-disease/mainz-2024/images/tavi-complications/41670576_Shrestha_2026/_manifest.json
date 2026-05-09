@@ -1,0 +1,46 @@
+{
+  "pdf": "41670576_Shrestha_2026.pdf",
+  "pages": 8,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1948,
+      "height": 1472,
+      "ext": "png",
+      "bytes": 1292844
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1644,
+      "height": 1208,
+      "ext": "png",
+      "bytes": 2488484
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1644,
+      "height": 568,
+      "ext": "png",
+      "bytes": 663428
+    },
+    {
+      "file": "fig-04_p5.png",
+      "page": 5,
+      "width": 1943,
+      "height": 635,
+      "ext": "png",
+      "bytes": 977683
+    },
+    {
+      "file": "fig-05_p6.png",
+      "page": 6,
+      "width": 1350,
+      "height": 1703,
+      "ext": "png",
+      "bytes": 972099
+    }
+  ]
+}

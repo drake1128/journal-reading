@@ -1,0 +1,78 @@
+{
+  "pdf": "39972698_Zhang_2025.pdf",
+  "pages": 10,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1495,
+      "height": 869,
+      "ext": "jpeg",
+      "bytes": 561385
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1943,
+      "height": 1588,
+      "ext": "jpeg",
+      "bytes": 549616
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1955,
+      "height": 1899,
+      "ext": "jpeg",
+      "bytes": 614709
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1694,
+      "height": 1148,
+      "ext": "jpeg",
+      "bytes": 279092
+    },
+    {
+      "file": "fig-05_p6.jpeg",
+      "page": 6,
+      "width": 1495,
+      "height": 1764,
+      "ext": "jpeg",
+      "bytes": 250099
+    },
+    {
+      "file": "fig-06_p7.jpeg",
+      "page": 7,
+      "width": 1044,
+      "height": 1043,
+      "ext": "jpeg",
+      "bytes": 178395
+    },
+    {
+      "file": "fig-07_p8.jpeg",
+      "page": 8,
+      "width": 1694,
+      "height": 1693,
+      "ext": "jpeg",
+      "bytes": 305463
+    },
+    {
+      "file": "fig-08_p9.jpeg",
+      "page": 9,
+      "width": 1495,
+      "height": 817,
+      "ext": "jpeg",
+      "bytes": 487268
+    },
+    {
+      "file": "fig-09_p10.jpeg",
+      "page": 10,
+      "width": 1943,
+      "height": 1590,
+      "ext": "jpeg",
+      "bytes": 592369
+    }
+  ]
+}

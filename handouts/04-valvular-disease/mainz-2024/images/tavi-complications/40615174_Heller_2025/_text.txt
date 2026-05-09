@@ -1,0 +1,549 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+BEYOND THE GUIDELINES
+From Severe Aortic Stenosis to
+Mitral TEER
+Overcoming Surgical AVR Complicated With LVOTO
+Tasha M. Heller, MD, Sara Lezcano, DO, Ram Hirpara, DO, Alexander K. Patel, DO, Yordanka Reyna, MD,
+Faraaz Mushtaq, DO, Mohamed Osman, MD, Arnoux Blanchard, MD
+ABSTRACT
+BACKGROUND Systolic anterior motion (SAM) and dynamic left ventricular outﬂow tract obstruction (LVOTO) is a
+well-described phenomenon in hypertrophic obstructive cardiomyopathy and rarely reported after surgical aortic valve
+replacement (AVR).
+CASE SUMMARY We present the ﬁrst reported case of SAM and LVOTO developing intraoperatively after surgical AVR
+for severe bicuspid aortic valve stenosis necessitating mitral transcatheter edge-to-edge repair (TEER) with the MitraClip.
+Optimal titration of pharmacologic management was not sufﬁcient to relieve LVOTO in our patient.
+WHY BEYOND THE GUIDELINES Despite management following conventional guidelines, the patient remained in
+critical condition. TEER with the MitraClip led to a reduction in SAM and optimization of his cardiovascular proﬁle.
+DISCUSSION There is limited literature regarding intervention with TEER on post-AVR patients.
+TAKE-HOME MESSAGE LVOTO can present suddenly, as in our case, necessitating a multispecialty approach to
+unconventional interventions to stabilize a critically ill patient. (JACC Case Rep. 2025;30:103886) © 2025 The Authors.
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under
+the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+S
+ystolic anterior motion (SAM) is deﬁned as
+displacement of the anterior mitral valve into
+the left ventricular outﬂow tract (LVOT).
+It
+is
+classically
+associated
+with
+hypertrophic
+obstructive cardiomyopathy (HOCM) but may also
+occur in critically ill patients with complex cardiac
+anatomy.
+Sequelae
+that
+are
+frequently
+observed
+include
+hypotension,
+mitral
+regurgitation,
+and
+decreased
+forward
+stroke
+volume.
+Management
+typically includes medications that modify physio-
+logical parameters to avoid reduction in preload, in-
+crease in inotropy, or decrease in afterload.1 The
+pathogenesis of SAM in patients who have undergone
+aortic valve replacement (AVR) for aortic stenosis
+TAKE-HOME MESSAGE
+ SAM leading to dynamic LVOTO is a complex
+physiological phenomenon that can occur in
+myriad cardiac pathologies that may require
+clinicians to think beyond traditional guide-
+lines to prevent hemodynamic collapse.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103886
+From the Cardiovascular Disease Broward Health Medical Center, Fort Lauderdale, Florida, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received December 17, 2024; revised manuscript received February 24, 2025, accepted March 5, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 7 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+likely involves increased left ventricular wall
+thickness, drag on the anterior mitral leaﬂet
+due to increased blood velocity in the LVOT,
+and a small hypertrophied left ventricular
+cavity.1
+CASE SUMMARY
+A 64-year-old man with a medical history
+signiﬁcant for bicuspid aortic valve, dilated
+ascending
+aorta
+(4.9
+cm),
+hypertension,
+hyperlipidemia, and mild pulmonary hyper-
+tension was recently diagnosed with severe
+aortic stenosis (maximum velocity 5 m/s,
+mean gradient 56 mm Hg, aortic valve area
+0.8 cm2). He presented for elective AVR with
+a 25-mm bioprosthesis, replacement of the ascending
+aorta with a 30-mm Hemashield interposition graft
+(Getinge) and clipping of the left atrial appendage
+with a 35-mm AtriClip (AtriCure). Intraoperatively,
+transesophageal echocardiography (TEE) revealed a
+maximum velocity of 4.5 m/s and a mean gradient of
+39 mm Hg for the aortic valve. LVOT gradients were
+normal (Figure 1).
+Post-AVR
+TEE
+showed
+redundant mitral
+valve
+leaﬂets and chordae with SAM and moderate mitral
+regurgitation (Figure 2). These ﬁndings were not
+present pre-AVR. The procedure was complicated by
+signiﬁcant bleeding, necessitating substantial blood
+product transfusion. Although the patient was suc-
+cessfully extubated postoperatively, his cardiopul-
+monary
+status
+deteriorated
+in
+subsequent
+days,
+requiring
+reintubation.
+Differential
+diagnoses
+included transfusion-related acute lung injury and
+aspiration pneumonia. Chest imaging showed peri-
+hilar ground-glass opacities suggestive of pulmonary
+edema. The patient was started on empirical antibi-
+otics and required escalating vasopressor support
+with norepinephrine, vasopressin, and phenyleph-
+rine. Phenylephrine was chosen for its ability to
+induce reﬂex bradycardia, thereby extending dia-
+stolic duration, and increasing left ventricular after-
+load. High fraction of inspired oxygen and positive
+end-expiratory
+pressure
+up
+to
+12
+cm
+H2O
+were
+required for pulmonary support. Intravenous diuretic
+agents were initiated to achieve euvolemia.
+Despite aggressive pharmacologic management,
+the patient remained dependent on phenylephrine.
+Repeat TEE revealed persistent severe mitral regur-
+gitation at the A2 position, with a redundant anterior
+mitral leaﬂet, SAM, and LVOT obstruction (LVOTO)
+(Video 1).
+Patient-prosthesis
+mismatch
+was
+unlikely,
+as
+Doppler velocity index of the prosthetic aortic valve
+was 1.8, with a triangular jet contour and effective
+oriﬁce area of 5 cm2 (Figure 3). Errors in measure-
+ments can certainly be possible, as the LVOT Doppler
+proﬁle was aliasing, likely because of high velocity
+(Figure 3). We were able to capture a high velocity
+with
+continuous-wave
+Doppler
+in
+the
+LVOT.
+A
+multidisciplinary team involving intensive care, car-
+diology, cardiothoracic surgery, and cardiac anes-
+thesia
+convened
+and
+concluded
+that
+mitral
+transcatheter
+edge-to-edge
+repair
+(TEER)
+with
+a
+MitraClip (Abbott Laboratories) was the most appro-
+priate next step in intervention rather than pursuing
+surgical correction of the mitral valve.
+The patient underwent successful TEER with a
+MitraClip
+XTW
+deployed
+at
+the
+A2-P2
+position
+(Figure 4). Postprocedurally, mitral regurgitation was
+reduced to grades 2 to 3, and pulmonary vein ﬂow
+reversal resolved completely. With the resolution of
+dynamic LVOTO, vasopressors were gradually dis-
+continued, and beta-blockers were initiated for heart
+rate control, in line with dynamic LVOTO manage-
+ment guidelines.
+WHY BEYOND THE GUIDELINES. Our case demon-
+strates the application of conventional medical ther-
+apy
+for
+SAM,
+including
+the
+maintenance
+of
+FIGURE 1
+Intraoperative Pre-AV Replacement Transesophageal Echocardiography
+Continuous-wave Doppler showing aortic velocity and pressure proﬁles consistent with
+severe aortic stenosis. AV ¼ aortic valve; LVOT ¼ left ventricular outﬂow tract;
+Max ¼ maximum; PG ¼ pressure gradient; Vmax ¼ maximum velocity; Vmean ¼ mean
+velocity; VR ¼ velocity ratio; VTI ¼ velocity-time integral.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AVR = aortic valve
+replacement
+HOCM = hypertrophic
+obstructive cardiomyopathy
+LVOT = left ventricular outﬂow
+tract
+LVOTO = left ventricular
+outﬂow tract obstruction
+SAM = systolic anterior motion
+TEE = transesophageal
+echocardiography
+TEER = transcatheter edge-to-
+edge repair
+Heller et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Severe Aortic Stenosis to Mitral TEER
+J U L Y 2 , 2 0 2 5 : 1 0 3 8 8 6
+2
+
+=== PAGE 3 ===
+FIGURE 2
+Intraoperative Post-Aortic Valve Replacement Transesophageal Echocardiography
+Severe, eccentric mitral regurgitation seen with systolic anterior motion that extends in the left ventricular outﬂow tract, causing dynamic
+obstruction.
+FIGURE 3
+Beside Transthoracic in the Intensive Care Unit
+(A) Left ventricular outﬂow tract (LVOT) proﬁle with pulsed-wave Doppler demonstrating aliasing. (B) Prosthetic aortic valve Doppler proﬁle. (C) LVOT Doppler proﬁle.
+LV ¼ left ventricular; other abbreviations as in Figure 1.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Heller et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 8 8 6
+Severe Aortic Stenosis to Mitral TEER
+3
+
+=== PAGE 4 ===
+euvolemia, beta-blocker use, and phenylephrine as
+the vasopressor of choice. However, the decision to
+pursue watchful diuresis, combined with the invasive
+intervention using the MitraClip, represents a strat-
+egy that extends beyond standard guidelines.
+CASE OUTCOME AND FOLLOW-UP
+The intervention successfully alleviated the LVOTO.
+The patient was weaned off vasopressor support and
+diuretic agents and was discharged to long-term
+rehabilitation after a 36-day hospitalization. Follow-
+up echocardiography demonstrated improved aortic
+velocity and gradients. LVOT gradients were checked
+with a Valsalva maneuver and remained normal
+(Figure 5). These ﬁndings coupled with his improve-
+ment in clinical status are evidence that patient-
+prosthesis mismatch was extremely unlikely and
+that there were improper LVOT velocities and gradi-
+ents. He subsequently completed outpatient follow-
+FIGURE 4
+Intraoperative Mitral Transcatheter Edge-to-Edge Repair With MitraClip
+(A) MitraClip deployment at the A2-P2 position with reduction of mitral regurgitation. (B) Reduction of mitral regurgitation with no signiﬁcant
+stenosis.
+Heller et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Severe Aortic Stenosis to Mitral TEER
+J U L Y 2 , 2 0 2 5 : 1 0 3 8 8 6
+4
+
+=== PAGE 5 ===
+up with cardiothoracic surgery and advanced heart
+failure specialists.
+DISCUSSION
+Our case highlights a unique but critical aspect of
+cardiac physiology. SAM is traditionally associated
+with
+HOCM
+but
+can
+also
+occur
+because
+of
+left
+ventricular
+hypertrophy
+secondary
+to
+aortic
+valve stenosis.1 The exact mechanism of SAM is not
+fully understood, but it likely arises from a com-
+bination of anatomical abnormalities and physio-
+logical
+changes
+that
+increase
+the
+likelihood
+of
+LVOTO.
+Proposed mechanisms for this dynamic condition
+include both mechanical and physiological factors.
+Mechanical
+causes
+involve
+myxomatous
+mitral
+pathology, elongation of the anterior mitral leaﬂet,
+left
+ventricular
+hypertrophy,
+a
+mitroaortic
+angle
+#130, posterior mitral valve leaﬂet length > 19 mm,
+and
+a
+distance
+between
+coaptation
+and
+septum
+of <25 mm or a relatively small left ventricular
+cavity.2-4 In the context of surgical AVR, factors such
+as a sigmoid-shaped septum, asymmetrical septal
+hypertrophy
+(septal-to-ventricular
+free
+wall
+ratio
+>1.4), increased basal septal thickness (>15 mm), and
+a narrow LVOT (<18 mm) have been identiﬁed as risk
+factors for LVOTO.4,5 Retrospectively, our patient had
+the following measurements that were collected from
+the intraoperative TEE: presystolic coaptation and
+septum distance was measured at 1.7 cm, indicating
+high risk for SAM (Figure 6).
+Long-standing aortic stenosis includes a chroni-
+cally elevated left ventricular systolic pressure and
+FIGURE 5
+Post-MitraClip Transthoracic Echocardiography
+Apical 5-chamber views: (A) left ventricular outﬂow tract (LVOT) gradient at rest, (B) LVOT gradient with Valsalva maneuver, and (C) aortic valve velocity proﬁle with
+continuous-wave Doppler. Abbreviations as in Figure 1.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Heller et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 8 8 6
+Severe Aortic Stenosis to Mitral TEER
+5
+
+=== PAGE 6 ===
+subsequent left ventricular hypertrophy. The high
+afterload also leads to what has been dubbed a
+“splinting effect” on left ventricular walls, preventing
+LVOTO. Post-AVR, the ﬁxed obstruction is removed,
+leading to a dramatic decrease in end-systolic pres-
+sure and increased ﬂow. The dynamic mechanism for
+these physiological ﬁndings is believed to be sec-
+ondary to increased drag forces and the Venturi ef-
+fect, leading to SAM.6
+Current literature includes one prior report of a
+MitraClip used to treat dynamic LVOTO following
+mitral valve replacement and a recent case report
+describing TEER with a MitraClip used in a patient
+after transcatheter AVR. To our knowledge, this is the
+ﬁrst reported case of MitraClip intervention after
+surgical AVR for aortic stenosis. There is limited data
+on
+this
+intervention,
+and
+one
+small
+study
+was
+completed on 6 patients with HOCM, all of whom
+were poor surgical candidates for surgical interven-
+tion.7 Before performing a MitraClip procedure, fac-
+tors to consider include the size of the atrium and the
+distance
+to
+the
+mitral
+valve,
+as
+there
+must
+be
+adequate space for the device. Additionally, the
+location of the transeptal puncture, creation of an
+atrial septal defect, and attention to the mitral valve
+gradient are important. The MitraClip XTW is typi-
+cally preferred because of stronger grip strength and
+VISUAL SUMMARY
+Patient’s Clinical Journey During Hospitalization
+Postoperative
+Day
+Events
+0
+The patient presented for elective AVR with 25-mm in-spur bioprosthesis, replacement of ascending aorta with 30-mm Hemashield
+interposition tube graft, and clipping left atrial appendage with 35-mm AtriClip. Intraoperatively, the patient had extensive
+bleeding that required multiple blood products: 7 U packed red blood cells, 10 U cryoprecipitate, 8 U fresh frozen plasma, 4 U
+platelets, NovoSeven (Novo Nordisk), and Kcentra (CSL Behring). It was noted during the procedure that the patient had septal
+hypertrophy, which led to SAM and moderate MR.
+1
+The patient was extubated and restarted on norepinephrine drip because of hypotension. Diuretic medications were held.
+2
+Left-sided thoracentesis was performed, with 500 ml ﬂuid removed.
+3
+The patient had increasing O2 requirements and required reintubation.
+4
+The vasopressor of choice was transitioned to phenylephrine.
+5
+Worsening hypotension with associated fever was observed. Vasopressin and norepinephrine with empiric antibiotics were added.
+7
+Bedside 3D TEE was completed, showing persistent SAM and LVOTO.
+9
+The patient had increasing oxygen requirements with chest radiographic ﬁndings concerning for worsening pulmonary edema. IV
+diuresis was initiated.
+13
+Respiratory status improved, with reduced FIO2 and PEEP requirements. Vasopressor requirements began to decrease.
+14
+IV diuresis was discontinued. The patient underwent transcatheter edge-to-edge repair with a MitraClip XTW. All vasopressors were
+discontinued.
+17
+Oral beta-blockers were initiated.
+29
+The patient was transferred out of the ICU.
+30
+Repeat left-sided thoracentesis was performed, with drainage of 1,400 mL ﬂuid.
+36
+The patient was discharged from the hospital and admitted to inpatient rehabilitation.
+50
+The patient was discharged from inpatient rehabilitation with home health care.
+83
+Follow-up echocardiography was performed, showing an ejection fraction of 60%-65%, with the MitraClip in a good position.
+The mitral valve mean pressure gradient was 4 mm Hg, the aortic valve mean pressure gradient was 10 mm Hg, and the maximum
+left ventricular outﬂow tract gradient was 17 mm Hg.
+127
+The patient continues to follow up with advanced heart failure, cardiothoracic surgery, and pulmonology.
+3D ¼ 3-dimensional; AVR ¼ aortic valve replacement; FIO2 ¼ fraction of inspired oxygen; ICU ¼ intensive care unit; IV ¼ intravenous; LVOTO ¼ left ventricular outﬂow tract
+obstruction; MR ¼ mitral regurgitation; PEEP ¼ positive end expiratory pressure; SAM ¼ systolic anterior motion of the mitral valve; TEE ¼ transesophageal echocardiography.
+FIGURE 6
+Bedside Transesophageal Echocardiography in the Intensive Care Unit
+Coaptation and septum distance of 1.7 cm measured at presystole and left ventricular
+outﬂow tract of 2.24 cm.
+Heller et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Severe Aortic Stenosis to Mitral TEER
+J U L Y 2 , 2 0 2 5 : 1 0 3 8 8 6
+6
+
+=== PAGE 7 ===
+wider grasping area, but the speciﬁc selection de-
+pends on the patient’s anatomy. The primary goals of
+the procedure are to address LVOTO, mitral regurgi-
+tation, and SAM to optimize the patient’s hemody-
+namic status.
+Our case is a contribution to the literature for non-
+HOCM scenarios. Although mitral valve replacement
+or septal reduction therapy are potential treatment
+options, our team opted for the MitraClip to tempo-
+rarily stabilize the patient’s condition, with the goal
+of allowing the left ventricle to recover and normalize
+its wall thickness.
+CONCLUSIONS
+Treatment of patients with SAM classically involves
+medical management, focusing on increasing left
+ventricular preload and afterload while decreasing
+heart rate to prolong the diastolic period. This case
+represents the ﬁrst known report of SAM after surgical
+AVR successfully managed with MitraClip placement
+in conjunction with medical therapy. Suboptimal
+postoperative outcomes in patients with marked left
+ventricular hypertrophy, especially those exhibiting
+low-output syndromes unresponsive to interventions
+aimed
+at
+enhancing
+contractility,
+should
+prompt
+clinicians to consider the possibility of dynamic
+LVOTO.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Tasha Heller,
+Cardiology Department, Broward Health Medical Center,
+1600 S Andrews Avenue, Fort Lauderdale, Florida 33316,
+USA. E-mail: tashamiaheller@gmail.com.
+R E F E R E N C E S
+1. Raut M, Maheshwari A, Swain B. Awareness of
+“systolic anteriormotion” in different conditions. Clin
+Med Insights Cardiol. 2018;12:117954681775192.
+https://doi.org/10.1177/1179546817751921
+2. Kerut EK, Hanawalt C, Dearstine M, Frank R,
+Everson C. Mitral systolic anterior motion (SAM)
+with dynamic left ventricular outﬂow obstruction
+following aortic valve replacement. Echocardiog-
+raphy. 2007;24(6):658–660.
+3. Zaki JF, Markham T, Choi W, Moise O, Aijazi M,
+Sheinbaum R. Systolic anterior motion of the
+mitral valve after aortic valve replacement. Proc
+(Baylor Univ Med Cent). 2018;31(2):203–204.
+4. Nicoara A, Skubas N, Swaminathan M. Of
+heights, lengths, and distances. J Am Soc Echo-
+cardiogr. 2021;34(1):104.
+5. Weich HSvH, John TJ, Joubert L, Moses J,
+HerbstP,Doubell A.Dynamicleft ventricular outﬂow
+tract obstruction post–transcatheter aortic valve
+replacement. JACC Case Rep. 2021;3(6):871–874.
+6. Makhija N, Magoon R, Balakrishnan I, Das S,
+Malik V, Gharde P. Left ventricular outﬂow tract
+obstruction following aortic valve replacement: a
+review of risk factors, mechanism, and manage-
+ment. Ann Card Anaesth. 2019;22(1):1–5. https://
+doi.org/10.4103/aca.ACA_226_17
+7. Sorajja P, Pedersen W, Bae R, et al. First expe-
+rience with percutaneous mitral valve plication as
+primary therapy for symptomatic obstructive hy-
+pertrophic cardiomyopathy. J Am Coll Cardiol.
+2016;67(24):2811–2818.
+KEY WORDS acute heart failure,
+echocardiography, hypertrophy, MitraClip,
+regurgitation
+APPENDIX For a supplemental video,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 7 , 2 0 2 5
+Heller et al
+J U L Y 2 , 2 0 2 5 : 1 0 3 8 8 6
+Severe Aortic Stenosis to Mitral TEER
+7

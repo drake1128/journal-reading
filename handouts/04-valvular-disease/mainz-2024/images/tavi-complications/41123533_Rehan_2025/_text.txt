@@ -1,0 +1,427 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Intravascular Lithotripsy-Enabled 
+Transcatheter Aortic Valve Replacement 
+in Heavily Calcified Bicuspid Aortic Valve
+Rajan Rehan, MBBS, a Alexandra Moss, MBCHB, b James Cotton, MD, b Benjamin Wrigley, MD, b Shazad Munir, MD, b 
+Saib Khogali, MD a,b
+ABSTRACT
+BACKGROUND Transcatheter aortic valve replacement (TAVR) in bicuspid aortic valves (BAVs), especially with severe 
+calcification, presents challenges including prosthesis underexpansion and paravalvular leak.
+CASE SUMMARY We present a critically unwell 70-year-old man with severe aortic stenosis in a heavily calcified 
+Sievers-0 BAV, complicated by heart failure and chronic kidney disease. Intravascular lithotripsy (IVL) was used for 
+calcium modification, followed by balloon valvuloplasty and deployment of a 26-mm Evolut PRO+ valve. The patient 
+had excellent clinical recovery, with no paravalvular leak and improved ventricular function.
+DISCUSSION This case highlights the novel use of IVL to facilitate TAVR in a complex calcified BAV anatomy. IVL 
+enables controlled calcium fracture and improves compliance, optimizing prosthesis expansion and reducing compli-
+cations. However, the lack of dedicated valvular IVL platforms remains a current limitation.
+TAKE-HOME MESSAGES IVL may enhance lesion preparation in heavily calcified BAVs undergoing TAVR. Dedicated 
+IVL devices for structural interventions are an emerging need. (JACC Case Rep. 2025;30:105754) © 2025 The Authors. 
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under 
+the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 70-year-old man with a bicuspid aortic valve (BAV) 
+and severe aortic stenosis (AS) presented with 
+decompensated heart failure (NYHA functional class 
+III). He underwent aggressive diuresis to optimize 
+volume status while further investigations were 
+performed to guide definitive management. After a 
+thorough multidisciplinary discussion, the patient
+TAKE-HOME MESSAGES
+• IVL may facilitate optimal lesion preparation 
+in patients with heavily calcified bicuspid 
+aortic valves undergoing transcatheter 
+aortic valve replacement.
+• The development of dedicated IVL platforms 
+for structural interventions represents an 
+important unmet clinical need.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.105754
+From the a Department of Cardiology, Royal Brompton and Harefield Hospitals, London, United Kingdom; and the b Department 
+of Cardiology, Heart and Lung Centre, New Cross Hospital, Wolverhampton, United Kingdom.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received June 3, 2025; revised manuscript received August 19, 2025, accepted August 26, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 3 7 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+declined surgical aortic valve replacement, 
+and a decision was made to proceed with 
+transcatheter 
+aortic 
+valve 
+replacement 
+(TAVR) once euvolemia was achieved.
+PAST MEDICAL HISTORY
+The patient had a background of stage IV 
+chronic kidney disease, severe left ventricu-
+lar systolic dysfunction, hypertension, and 
+dyslipidemia.
+INVESTIGATIONS
+Transthoracic echocardiography demonstrated se-
+vere stenosis of a heavily calcified BAV, with a mean 
+transvalvular gradient of 63 mm Hg and an aortic 
+valve area of 0.5 cm 2 at a heart rate of 72 beats/min 
+(Figure 1). Despite a severely reduced left ventricular 
+ejection fraction of 15%, right ventricular systolic 
+function 
+remained 
+preserved. 
+No 
+significant
+abnormalities were observed in the remaining car-
+diac valves.
+Multidetector computed tomography was per-
+formed to assess suitability for TAVR and to guide 
+preprocedural planning. Imaging confirmed a
+Sievers-0 BAV with an annular area of 506.8 mm 2 ,
+accompanied by extensive leaflet and left ventricular 
+outflow tract calcification, particularly along the 
+mitral and noncoronary cusps (Figure 2). The mean 
+diameters of the sinuses of Valsalva, sinotubular 
+junction, and ascending aorta were 32.2 mm, 
+27.5 mm, and 29.9 mm, respectively, with a sino-
+tubular junction height of 20.1 mm. The mean 
+intercommissural distance was narrow, measuring 
+22.5 mm. The left main coronary artery height 
+measured 17.9 mm, whereas the right coronary ar-
+tery height was 17.0 mm. The common femoral 
+artery measured 9 mm bilaterally, with a standard 
+bifurcation. No significant tortuosity or calcification 
+was observed along the iliofemoral or aortic
+VISUAL SUMMARY Stepwise IVL-Assisted Valve Preparation and TAVR Optimization in Heavily Calcified Bicuspid Aortic Valve
+(A) CT TAVR demonstrating extensive calcification in a Type 0 bicuspid aortic valve. (B) A 7-mm Shockwave balloon with gradual valve dilatation achieved after 90 
+cycles of intravascular lithotripsy. (C) Balloon aortic valvuloplasty to facilitate TAVR. (D) Successful deployment of a 26-mm Evolut PRO+ transcatheter heart valve. 
+(E) Balloon postdilatation to optimize expansion and function. CT = computed tomography; TAVR = transcatheter aortic valve replacement.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+AS = aortic stenosis
+BAV = bicuspid aortic valve
+CEP = cerebral embolic
+protection
+IVL = intravascular lithotripsy
+RFA = right femoral artery
+TAVR = transcatheter aortic
+valve replacement
+Rehan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+IVL-Enabled TAVR 
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4
+2
+
+=== PAGE 3 ===
+vasculature, confirming suitability for transfemoral 
+TAVR.
+MANAGEMENT
+After multidisciplinary heart team discussion, a de-
+cision was made to proceed with aortic valve calcium 
+modification using intravascular lithotripsy (IVL), 
+with cerebral embolic protection (CEP), to optimize 
+prosthesis expansion and minimize paravalvular 
+leak. The procedure was performed under local 
+anesthesia and conscious sedation. Ultrasound-
+guided bifemoral arterial access was obtained, with 
+a 6-F sheath inserted in the right femoral artery (RFA) 
+for valve deployment and a 6-F sheath in the left 
+femoral artery for angiographic guidance. A 7-F 
+sheath was placed in the left femoral vein for intra-
+venous access and temporary pacing. Preclosure of 
+the RFA was performed using a single Perclose 
+ProGlide (Abbott) device, followed by advancement 
+of a 9-F sheath. A 6-F sheath was also inserted in the 
+right radial artery for cerebral protection. The 
+Sentinel CEP device (Boston Scientific) was success-
+fully deployed, with both baskets remaining in situ 
+throughout the procedure. A 5-F balloon-tipped 
+temporary pacing wire was then advanced into the 
+right ventricle.
+The BAV was crossed using a 0.035-inch wire, 
+which was subsequently exchanged for a 300-cm 
+balance middleweight wire via a 5-F pigtail cath-
+eter. A JR4 guide catheter was then used to facilitate 
+the delivery of a 7-mm Shockwave balloon.
+A 7 mm × 60 mm peripheral Shockwave balloon was 
+advanced over the balance middleweight wire, suc-
+cessfully crossing the BAV, where it became con-
+strained within the 4.4-mm slit-like valve aperture 
+(Figure 3). IVL was performed with sequential balloon 
+inflations; the balloon remained constrained within 
+the valve, eliminating the need for rapid pacing. The 
+7-mm Shockwave balloon was inflated to 4 atm, with 
+90 IVL pulses delivered before full expansion was 
+achieved (Figure 4, Video 1). After IVL, the balloon 
+was cautiously upsized to 22 mm and subsequently to 
+24 mm for balloon aortic valvuloplasty, both per-
+formed under rapid pacing (Figure 5, Video 2).
+A 29-mm Evolut PRO+ valve was initially selected 
+based on annular dimensions and measurements 
+taken 4 mm above the annulus, with a low threshold 
+for downsizing to accommodate the Sievers-0 BAV 
+morphology. However, the valve remained exces-
+sively constrained with infolding, prompting a deci-
+sion to downsize to a 26-mm Evolut PRO+ valve 
+(Figure 6, Video 3). The valve was deployed in an 
+optimally high position and successfully released. 
+Gradual postdilatation was performed under rapid 
+pacing, initially using a 22-mm balloon and subse-
+quently upsizing to a 24-mm balloon (Figure 7, 
+Video 4). This resulted in a well-expanded valve with 
+excellent hemodynamic performance, no para-
+valvular leak, and a mean transvalvular gradient of 
+6 mm Hg on postprocedural echocardiography. Left 
+ventricular systolic function demonstrated immedi-
+ate improvement, increasing from 15% preprocedure 
+to an estimated 35% postprocedure (Figure 8,
+FIGURE 1 Transthoracic Echocardiography Demonstrating a Heavily Calcified Bicuspid Aortic Valve With Critical Stenosis, Characterized by a Peak Transvalvular 
+Gradient of 102 mm Hg and a Mean Gradient of 63 mm Hg
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+Rehan et al
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4 
+IVL-Enabled TAVR
+3
+
+=== PAGE 4 ===
+FIGURE 2 CT TAVR Demonstrating Extensive Calcification in a Type 0 Bicuspid Aortic Valve, With Severe Left Ventricular Outflow Tract Calcification and a 
+Slit-Like Aortic Valve Aperture
+CT = computed tomography; LA = left atrium; LV = left ventricle; TAVR = transcatheter aortic valve replacement.
+FIGURE 3 Pre-TAVR 3D Assessment Using TAVR Planning and FEops Simulations, Illustrating the Severity and Distribution of Calcification, as Well as the 
+Complex Aortic Valve and LVOT Anatomy
+LV = left ventricle; LVOT = left ventricular outflow tract; TAVR = transcatheter aortic valve replacement.
+Rehan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+IVL-Enabled TAVR 
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4
+4
+
+=== PAGE 5 ===
+FIGURE 4 Advancement of a 7-mm Shockwave Balloon Over a BMW Wire Across the Heavily Calcified Aortic Valve
+Gradual valve dilatation achieved after 90 cycles of intravascular lithotripsy. BAV = bicuspid aortic valve; BMW = balance middleweight; 
+IVL = intravascular lithotripsy.
+FIGURE 5 Balloon Aortic Valvuloplasty Using Sequential 22-mm and 24-mm Balloons to Facilitate TAVR
+TAVR = transcatheter aortic valve replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+Rehan et al
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4 
+IVL-Enabled TAVR
+5
+
+=== PAGE 6 ===
+FIGURE 6 Intraprocedural Adjustment From 29-mm to 26-mm Evolut PRO+ Valve Due to Severe Valvular Calcification
+Initial valve choice was a 29-mm Evolut PRO+ valve, but this appeared markedly constrained because of severe valvular calcification. The 
+valve strategy was revised intraprocedurally, and a 26-mm Evolut PRO+ valve was used.
+FIGURE 7 Successful Deployment of a 26-mm Evolut PRO+ Transcatheter Heart Valve With Adjunctive Postdilatation to Optimize 
+Expansion and Function
+TAVI = transcatheter aortic valve replacement.
+Rehan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+IVL-Enabled TAVR 
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4
+6
+
+=== PAGE 7 ===
+FIGURE 8 Postprocedural Transthoracic Echocardiogram Demonstrating Significant Enhancement of Global Left Ventricular Contractility
+LV = left ventricle; TARV = transcatheter aortic valve replacement.
+FIGURE 9 Postprocedural CT TAVR Confirming Optimal Expansion and Apposition
+CT = computed tomography; TAVR = transcatheter aortic valve replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+Rehan et al
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4 
+IVL-Enabled TAVR
+7
+
+=== PAGE 8 ===
+Video 5). Successful hemostasis was achieved using a 
+single ProGlide device and a 6-F AngioSeal (Terumo) 
+device for the RFA, a single ProGlide device for the 
+left femoral vein, and a 6-F AngioSeal device for the 
+left femoral artery.
+OUTCOME AND FOLLOW-UP
+The patient had excellent recovery on the ward, with 
+significant postprocedural diuresis. He demonstrated 
+a marked clinical improvement after TAVR and was 
+discharged home after the procedure on day 4, with 
+planned follow-up at 6 to 8 weeks. A repeat 
+computed tomography TAVR was performed to 
+assess the prosthesis, confirming satisfactory valve 
+expansion and apposition, with an ellipsoid config-
+uration (Figure 9).
+DISCUSSION
+TAVR has now replaced surgical aortic valve 
+replacement as the predominant modality for aortic 
+valve replacement, with expanding indications 
+including patients with BAVs. 1,2 A heavily calcified 
+anatomy poses significant technical challenges, 
+particularly in high-risk patients with multiple 
+comorbidities. These cases are associated with an 
+increased risk of suboptimal valve expansion, para-
+valvular leak, and annular rupture. 3 Such complex-
+ities may necessitate incorporation of advanced 
+calcium modification strategies to optimize lesion 
+preparation and facilitate safe and effective valve 
+deployment.
+IVL, an established therapy for calcium modifica-
+tion in coronary and peripheral artery disease, uses 
+sonic pressure waves to induce multiplanar calcium 
+fractures, enhancing lesion compliance. 4 This tech-
+nology is now emerging as a valuable adjunct in 
+structural heart interventions, with promising po-
+tential in facilitating transcatheter mitral and pul-
+monic valve procedures. 5-7 Recently, there have been 
+isolated reports of IVL facilitating aortic valve 
+balloon valvuloplasty and TAVR. 8-11 Because severe 
+calcification remains a major challenge in TAVR, IVL 
+may offer a novel approach to improve valve 
+compliance, optimizing prosthesis expansion and 
+reducing complications. 12
+Our case highlights a novel stepwise approach 
+using IVL to modify severe calcification in a complex 
+Sievers-0 BAV, allowing successful TAVR in a patient
+with 
+critical 
+decompensation. 
+IVL 
+facilitated 
+controlled calcium disruption, enabling further pre-
+dilatation with 22-mm and 24-mm valvuloplasty 
+balloons to minimize geometric constraints on pros-
+thesis deployment. Adjunctive use of the Sentinel 
+CEP device mitigated the risk of cerebrovascular 
+events from particulate embolization during IVL of a 
+heavily calcified valve.
+Despite its potential, aortic valve IVL remains 
+constrained by the lack of appropriately sized 
+balloons for comprehensive annular and leaflet 
+modification. The development of dedicated, larger-
+diameter 
+platforms 
+specifically 
+designed 
+for 
+valvular applications remains an unmet clinical need. 
+Next-generation adjuvant technologies combining 
+enhanced 
+calcium-modifying 
+capabilities 
+with 
+improved deliverability may provide more predict-
+able valve expansion while mitigating risks of pros-
+thesis underexpansion or malapposition. Given the 
+unique challenges posed by severely calcified anato-
+mies, further research is warranted to define optimal 
+lesion preparation strategies and establish standard-
+ized procedural algorithms for this high-risk cohort.
+CONCLUSIONS
+We describe the novel and successful use of IVL to 
+optimize lesion preparation in a severely calcified 
+Sievers-0 BAV, facilitating successful TAVR. This 
+case highlights IVL’s potential to facilitate TAVR, 
+although the lack of dedicated balloon platforms for 
+valvular applications remains a limitation. Because 
+TAVR expands to more complex anatomies, ad-
+vancements in calcium modification technologies are 
+needed to improve procedural outcomes. Further 
+research is essential to define optimal strategies and 
+establish IVL’s role in aortic valve interventions.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Rehan was supported by an RACP Research Establishment 
+Fellowship. Dr Khogali has received honoraria from Boston Scienti-
+fic, Abbott Vascular, and Medtronic. All other authors have reported 
+that they have no relationships relevant to the contents of this paper 
+to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Saib Khogali,
+Department of Cardiology, Royal Brompton and 
+Harefield Hospitals, Sydney St, London SW3 6NP, 
+United Kingdom. E-mail: saib.khogali@nhs.net.
+Rehan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+IVL-Enabled TAVR 
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4
+8
+
+=== PAGE 9 ===
+R E F E R E N C E S
+1. Carroll JD, Mack Michael J, Vemulapalli S, et al. 
+STS-ACC TVT registry of transcatheter aortic 
+valve replacement. J Am Coll Cardiol. 2020;76: 
+2492–2516. https://doi.org/10.1016/j.jacc.2020. 
+09.595
+2. Giannaris PS, Sehgal VS, Tejada B, et al. 
+Transcatheter versus surgical valve replacement 
+in patients with bicuspid aortic valves: an updated 
+meta-analysis. Br J Cardiol. 2024;31:007. https:// 
+doi.org/10.5837/bjc.2024.007
+3. Okuno T, Asami M, Heg D, et al. Impact of left 
+ventricular outflow tract calcification on procedural 
+outcomes after transcatheter aortic valve replace-
+ment. JACC Cardiovasc Interv. 2020;13:1789–1799. 
+https://doi.org/10.1016/j.jcin.2020.04.015
+4. Dini CS, Tomberli B, Mattesini A, et al. Intra-
+vascular lithotripsy for calcific coronary and pe-
+ripheral artery stenoses. Eurointervention. 2019;15: 
+714–721. https://doi.org/10.4244/eij-d-18-01056
+5. Seshiah P, Garcia S, Choo J, et al. Lithotripsy-
+assisted transcatheter mitral valve replacement 
+for severe mitral annular and valve calcification. 
+J Soc Cardiovasc Angiogr Interv. 2023;2:100540. 
+https://doi.org/10.1016/j.jscai.2022.100540
+6. Lai LKL, Alrayes H, Fram G, et al. Use of Lith-
+otripsy (IVL) in severe calcified homograft for 
+optimizing 
+Transcatheter 
+Pulmonary 
+Valve 
+Replacement (TPVR). Cardiovasc Revasculariza-
+tion Med Interesting Cases. 2025;7:100076. 
+https://doi.org/10.1016/j.crmic.2025.100076
+7. Giustino G, Fang JX, Villablanca PA, et al. 
+Intravascular lithotripsy-facilitated balloon val-
+vuloplasty for severely calcified mitral valve ste-
+nosis. JACC Cardiovasc Interv. 2024;17:326–327. 
+https://doi.org/10.1016/j.jcin.2023.10.015
+8. Seshiah P, Choo J, Garcia S, Kereiakes DJ. Novel 
+lithotripsy-assisted 
+transcatheter 
+aortic 
+valve 
+replacement May reduce risk of aortic root rupture. 
+J Soc Cardiovasc Angiogr Interv. 2023;2:101111. 
+https://doi.org/10.1016/j.jscai.2023.101111
+9. Sardella G, Salvi N, Bruno E, Colantonio R, 
+Mancone M. Lithotripsy-assisted aortic valvulo-
+plasty during TAVR. JACC Cardiovasc Interv. 
+2019;12:e131–e132. https://doi.org/10.1016/j.jcin. 
+2019.05.018
+10. Sharma A, Bertog S, Mbai M. Transcatheter 
+aortic valve lithotripsy in severely calcified 
+bicuspid aortic stenosis prior to transcatheter
+aortic valve implantation. Eur Heart J. 
+2020;42:358. https://doi.org/10.1093/eurheartj/ 
+ehaa829
+11. Fang JX, O’Neill BP, Wang DD, et al. Feasibility 
+and technicality of aortic valve lithotripsy-
+facilitate balloon valvuloplasty in patients with 
+severe aortic stenosis unsuitable for immediate 
+valvular replacement. Cardiovasc Revasc Med. 
+2024;67:10–16. https://doi.org/10.1016/j.carrev. 
+2024.04.019
+12. Bajwa T, Attizzani GF, Gada H, et al. Use and 
+performance of the evolut FX transcatheter 
+aortic valve system. Cardiovasc Revascularization 
+Med. 2024;67:1–7. https://doi.org/10.1016/j. 
+carrev.2024.04.002
+KEY WORDS aortic valve, bicuspid aortic 
+valve, valve replacement
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 7 , 2 0 2 5 
+Rehan et al
+N O V E M B E R 1 9 , 2 0 2 5 : 1 0 5 7 5 4 
+IVL-Enabled TAVR
+9

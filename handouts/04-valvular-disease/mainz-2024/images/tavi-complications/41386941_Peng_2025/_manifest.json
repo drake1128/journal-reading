@@ -1,0 +1,22 @@
+{
+  "pdf": "41386941_Peng_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1975,
+      "height": 678,
+      "ext": "png",
+      "bytes": 965828
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1975,
+      "height": 652,
+      "ext": "png",
+      "bytes": 946506
+    }
+  ]
+}

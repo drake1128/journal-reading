@@ -1,0 +1,789 @@
+
+=== PAGE 1 ===
+MINI-FOCUS ISSUE ON VALVULAR HEART DISEASE
+CASE REPORT: CLINICAL CASE SERIES
+Management of Aorto-Right Ventricular
+Fistulas After TAVR
+Ricardo Chia, MD,a Chamaka Kalutota, MD,a Kerry Cao, MD,a Steven Douedi, MD,a William Chang, DO,a
+Dominic Pinciotti, DO,b Mohammad Beizaeipour, DO,b Jennifer Joiner, APN,b Daniel Ice, MD,b Ronald Ross, MD,c
+Richard Kovach, MD,b Chunguang Chen, MD,a,d Muhammad Raza, MDb
+ABSTRACT
+This clinical case series reviews the diagnosis and management of aorto–right ventricular ﬁstulas post-transcatheter
+aortic valve replacement, highlighting 3 cases. We emphasize early detection, individualized treatment strategies, and the
+role of multidisciplinary heart teams in achieving favorable outcomes. Comprehensive imaging and procedural planning
+are crucial for successful intervention and management of this rare complication. (JACC Case Rep. 2024;29:102655)
+© 2024 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open
+access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+S
+ymptomatic severe aortic stenosis (AS) histori-
+cally portends a poor prognosis, particularly
+when untreated. The advent of transcatheter
+aortic valve replacement (TAVR) has transformed
+the treatment paradigm for this condition, especially
+for patients with high surgical risk. TAVR, a less inva-
+sive alternative to surgical aortic valve replacement,
+has
+demonstrated
+substantial
+reductions
+in
+both
+morbidity and mortality;1,2 with results from the
+PARTNER (Placement of Aortic Transcatheter Valve
+Trial) series, the potential beneﬁts from TAVR can
+be
+extended
+to
+a
+broader
+patient
+population.
+Although generally well tolerated, rare complications
+such as aortic root injury and paravalvular leaks can
+occur after TAVR. An extremely rare complication is
+the
+formation
+of
+aorto–right
+ventricular
+ﬁstulas
+(ARVFs) as a form of aortic root injury.1,2
+The rarity of ARVF formation after TAVR presents a
+challenge in terms of diagnosis, standard manage-
+ment, and overall understanding. The limited avail-
+able literature on this complication underscores the
+absence
+of
+a
+consensus
+on
+treatment
+approach,
+TAKE-HOME MESSAGES
+ The development of aorto–right ventricular
+ﬁstula after transcatheter aortic valve
+replacement represents a rare but signiﬁcant
+complication that necessitates prompt diag-
+nosis and an individualized approach.
+ Management
+involves
+a
+multidisciplinary
+strategy, with options ranging from conser-
+vative measures for small, asymptomatic
+ﬁstulas to more invasive transcatheter or
+surgical repairs for larger and hemodynami-
+cally signiﬁcant ﬁstulas.
+ Early detection and proactive monitoring are
+imperative for achieving favorable
+outcomes.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.102655
+From the aDepartment of Cardiology, Sidney Kimmel Medical College at Thomas Jefferson University, Deborah Heart and Lung
+Center, Philadelphia, Pennsylvania, USA; bDepartment of Interventional and Structural Cardiology, Sidney Kimmel Medical
+College at Thomas Jefferson University, Deborah Heart and Lung Center, Philadelphia, Pennsylvania, USA; cDepartment of
+Cardiothoracic Surgery, Sidney Kimmel Medical College at Thomas Jefferson University, Deborah Heart and Lung Center, Phil-
+adelphia, Pennsylvania, USA; and the dDepartment of Advanced Cardiovascular Imaging, Sidney Kimmel Medical College at
+Thomas Jefferson University, Deborah Heart and Lung Center, Philadelphia, Pennsylvania, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received March 6, 2024; revised manuscript received August 12, 2024, accepted August 23, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 2 9 , 2 0 2 4
+ª 2 0 2 4 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+making each case an opportunity for clinical
+learning and advancement.
+This clinical case series examines 3 in-
+stances of ARVF formation after TAVR over a
+3-year period, highlighting the spectrum of
+clinical presentations and management stra-
+tegies. Through these cases, we aim to pro-
+vide
+insights
+into
+potential
+treatment
+pathways and decision making as well as
+contribute to the literature on these rare
+complications.
+The
+variability
+in
+clinical
+presentation and management approaches
+highlights the necessity for individualized
+treatment strategies.
+PATIENT 1
+A 78-year-old man with hypertension presented for
+preoperative cardiac risk evaluation for orthopedic
+surgery. Routine transthoracic echocardiogram (TTE)
+revealed
+high-gradient
+AS.
+The
+patient
+denied
+symptoms despite vigorous physical activity. Mild
+coronary artery disease was identiﬁed on coronary
+angiography. Pre-TAVR computed tomography angi-
+ography
+(CTA)
+(Figure
+1)
+measurements
+of
+the
+annulus, sinus of Valsalva, sinotubular junction, and
+valve calcium burden were conﬁrmed (Table 1). The
+patient underwent TAVR with a 26-mm Edwards SA-
+PIEN 3 Ultra valve (Edwards Lifesciences).
+Post-TAVR TTE on day 1 showed a continuous, left-
+to-right shunt on color-ﬂow Doppler imaging, origi-
+nating from the aortic root to the RV inﬂow tract. This
+was conﬁrmed by transesophageal echocardiography
+to be a 5- to 6-mm ﬁstula. Follow-up right heart
+catheterization showed a Qp/Qs ratio of 1.9, indicating
+moderate
+shunting.
+Given
+that patient
+remained
+asymptomatic
+and
+hemodynamically
+stable,
+with
+normal
+RV
+size
+and
+function
+on
+TTE,
+he
+was
+FIGURE 1
+CTA of the Aortic Valve and Aortic Root With Calcium Assessment in Patient 1, Pre-TAVR
+Pre-TAVR cardiac computed tomography myocardial perfusion reserve display of the aortic valve. (A, B) Sagittal long-axis view of the aortic
+valve, LVOT, aortic root, and Ao. Focal calciﬁcations (solid arrow) in the right coronary sinus of Valsalva wall base of the right coronary cusp
+are seen on CTA. (C) Short-axis of the aortic valve. Note the calciﬁcations (solid arrow) on the base of the right coronary cusp of the AV and
+aortic root wall. (D) Void. Ao ¼ proximal ascending aorta; AV ¼ aortic valve; CTA ¼ computed tomography angiography; LA ¼ left atrium;
+LVOT ¼ left ventricular outﬂow tract; RV ¼ right ventricle; TAVR ¼ transcatheter aortic valve replacement.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+ARVF = aorto–right ventricular
+ﬁstula
+AS = aortic stenosis
+CTA = computed tomography
+angiography
+RV = right ventricular
+TAV = transcatheter aortic
+valve
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiogram
+TTE = transthoracic
+echocardiogram
+Chia et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Managing Aorto-RV Fistulas Post-TAVR
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+2
+
+=== PAGE 3 ===
+TABLE 1
+Pre-TAVR CTA Measurements and CT AV Calcium Burden of All 3 Cases
+Annulus
+SoV
+STJ
+AV
+Calcium
+TAVR Valve
+Size
+Coronary Artery Ostial
+Height
+Case 1
+Diameter (avg): 25.7 mm
+Diameter (min-max):
+22.8-28.6 mm
+Area: 522.3 mm2
+Diameter (avg): 36.2 mm
+Diameter (min-max):
+34.7-37.1 mm
+Diameter (avg): 32.6 mm
+Diameter (min-max):
+31.8-33.4 mm
+3,323 AU
+26-mm
+SAPIEN 3
+LM height: 13.0 mm
+RCA height: 23.7 mm
+Case 2
+Diameter (avg): 29.5 mm
+Diameter (min-max):
+25.0-34.1 mm
+Area: 655.6 mm2
+Diameter (avg): 39.6 mm
+Diameter (min-max):
+39.1-40.4 mm
+Diameter (avg): 33.6 mm
+Diameter (min-max):
+32.9-34.9 mm
+3,430 AU
+29-mm
+SAPIEN 3
+LM height: 17.6 mm
+RCA height: 21.2 mm
+Case 3
+Prior TAV stent:
+Inner diameter (avg):
+19.5 mm
+Outer diameter (avg):
+22.6 mm
+Area: 344 mm2
+Diameter (avg): 30.9 mm
+Diameter (min-max):
+28.3-32.5 mm
+Diameter (avg): 27.5 mm
+Diameter (min-max):
+26.7-28.3 mm
+N/Aa
+23-mm SAPIEN 3
+LM height: 12.3 mm
+RCA height: 14.0 mm
+aAV calcium score unobtainable because of the presence of prior TAV stent (29-mm Evolut FX valve [Medtronic]).
+AU ¼ Agatston units; AV ¼ aortic valve; avg ¼ average; CTA ¼ computed tomography angiography; LM ¼ left main; max ¼ maximum; min ¼ minimum; RCA ¼ right coronary artery; SoV ¼ sinus of Valsalva;
+STJ ¼ sinotubular junction; TAV ¼ transcatheter aortic valve; TAVR ¼ transcatheter aortic valve replacement.
+FIGURE 2
+CTA of the Aortic Valve and Aortic Root With Calcium Assessment (Patient 2)
+Pre-TAVR cardiac computed tomography myocardial perfusion reserve display of the aortic valve. (A, B) Sagittal long-axis view of the aortic
+valve, LVOT, aortic root, and Ao. Focal calciﬁcations (solid arrow) in the right coronary sinus of Valsalva wall base of the right coronary cusp
+are seen on CTA. (C) Short-axis view of the AV. Note calciﬁcations (solid arrow) on the base of the right coronary cusp of the AV and aortic root
+wall. (D) Void. Abbreviations as in Figure 1.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Chia et al
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+Managing Aorto-RV Fistulas Post-TAVR
+3
+
+=== PAGE 4 ===
+scheduled for close outpatient monitoring. However,
+over the following days, the patient reported pro-
+gressive dyspnea and orthopnea. Given the patient’s
+surgical risk proﬁle (Society of Thoracic Surgery score
+of 1.1% for operative mortality and 7.1% for periop-
+erative
+morbidity
+and
+mortality),
+our
+multidisci-
+plinary
+valve
+team
+recommended
+a
+surgical
+approach. During surgery, the ﬁstula was conﬁrmed
+and closed with a bovine patch, and the SAPIEN valve
+was surgically explanted and replaced with a 23-mm
+Edwards
+Perimount
+bioprosthetic
+valve
+(Edwards
+Lifesciences). Postsurgical and 1-month follow-up
+TTE showed no evidence of residual shunting and
+complete resolution of symptoms.
+PATIENT 2
+An 86-year-old man with a history of hypertension;
+hyperlipidemia; type 2 diabetes mellitus; and mild,
+non-obstructive coronary artery disease on invasive
+coronary angiography was diagnosed with symp-
+tomatic severe AS associated with progressive dys-
+pnea
+and
+fatigue.
+Pre-TAVR
+CTA
+(Figure
+2)
+measurements
+of
+the
+aortic
+annulus,
+sinus
+of
+valsalva, sinotubular junction, and aortic valve cal-
+cium burden were conﬁrmed (Table 1). He underwent
+TAVR with a 29-mm SAPIEN 3 Ultra valve.
+Post-TAVR TTE on day 1 revealed a 5- to 6-mm left-
+to-right shunt from the right coronary sinus of Val-
+salva to the RV and a mild paravalvular leak. Given
+persistent dyspnea postprocedure, moderate to high
+surgical risk proﬁle because of comorbidities (Society
+of Thoracic Surgery score of 2.4% for operative mor-
+tality and 12.9% for perioperative morbidity and
+mortality), and patient preference, a percutaneous
+approach with closure of the ﬁstula using a 10-mm
+AVP
+II
+Amplatzer
+vascular
+plug
+(Abbott
+Labora-
+tories) was elected. Pre-TAVR computed tomography
+revealed focal dense calciﬁcation of the right coro-
+nary cusp and base of the aortic root wall near the
+ﬁstula, located in the neosinus. Although a TAV-in-
+TAV approach was considered, it was ultimately
+deemed less favorable because of concerns that it
+could drive the calcium deeper into the aortic root
+wall, potentially exacerbating the ﬁstula.
+Intraprocedural transesophageal echocardiography
+(TEE) conﬁrmed a 6- to 7-mm ARVF and mild para-
+valvular leak. The patient underwent ARVF closure
+with
+a
+10-mm
+AVP
+II
+Amplatzer
+vascular
+plug
+(Figures 3 to 6, Videos 1 to 5), with only trace residual
+ﬁstula shunt and trace paravalvular leak. Results
+showed
+improvement
+on
+his
+1-month
+follow-up
+outpatient
+TTE
+with
+complete
+resolution
+of
+his
+symptoms (Figure 7, Videos 6 and 7). Postprocedure,
+FIGURE 3
+Aortogram During Transcatheter Fistula Closure
+An aortogram was performed with a 6-F pigtail catheter to visualize the
+aorto-RV ﬁstula during Amplatzer vascular plug closure of the ﬁstula.
+Fr ¼ French; PA ¼ pulmonary artery; TAV ¼ transcatheter aortic valve;
+TEE ¼ transesophageal echocardiogram; other abbreviations as in Figure 1.
+FIGURE 4
+Fluoroscopic Image Showing MP Catheter in the RV Through
+the Aorto-RV Fistula
+A 5-F MP catheter was advanced over the wire and placed in the RV.
+MP ¼ multipurpose; other abbreviations as in Figure 1.
+Chia et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Managing Aorto-RV Fistulas Post-TAVR
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+4
+
+=== PAGE 5 ===
+the patient was initiated on dual antiplatelet therapy
+for 6 months, followed by aspirin indeﬁnitely to
+prevent risks of thromboembolism.
+PATIENT 3
+An 80-year-old woman with severe AS who under-
+went TAVR (29-mm CORE valve [Medtronic]) 4 years
+prior, heart failure with preserved ejection fraction,
+type 2 diabetes mellitus, and chronic kidney disease
+stage 3, presented with worsening chest pain and
+lower extremity edema. Elevated troponins raised
+concerns for non–ST-segment elevation myocardial
+infarction. Catheterization revealed no signiﬁcant
+coronary stenosis but a mean aortic valve gradient of
+42 mm Hg. Subsequent TTE showed severe prosthetic
+valve stenosis (peak gradient: 94 mm Hg; mean
+gradient: 52 mm Hg; and aortic valve area: 0.69 cm2).
+The pre-TAVR CTA, including the aortic annulus,
+previous TAVR stent diameters, and aortic root, is
+shown in Figure 8 and Table 1. An accurate aortic
+valve calcium score could not be assessed because of
+the presence of an old TAVR stent frame. The patient
+underwent TAV-in-TAV with a 23-mm SAPIEN 3 Ultra
+valve, signiﬁcantly improving symptoms. Post-TAVR
+TTE on day 1 showed a 2- to 3-mm ﬁstula from the
+right coronary sinus of Valsalva to the mid-RV.
+Because the patient was asymptomatic, with normal
+RV size and function and no pulmonary hyperten-
+sion, conservative management with serial TTEs and
+close
+monitoring
+was
+implemented.
+Echocardio-
+graphic evaluations at month 1 and month 9 (Figure 9,
+Videos 8 and 9) showed no signiﬁcant changes, and
+the patient remains asymptomatic.
+DISCUSSION
+ARVFs post-TAVR represent a rare yet signiﬁcant
+complication.
+ARVFs
+are
+characterized
+by
+an
+abnormal connection between the aorta and the RV
+with continuous shunt ﬂow on color and spectral
+Dopplers, leading to a wide spectrum of clinical pre-
+sentations, from asymptomatic to signiﬁcant hemo-
+dynamic
+compromise.
+Our
+clinical
+case
+series
+highlights the importance of early diagnosis, symp-
+tom assessment, and a well-deﬁned management
+strategy for improved outcomes. Undiagnosed or
+delayed diagnosis can lead to RV volume overload
+caused
+by
+continuous
+shunting
+from
+the
+high-
+pressure
+aorta
+to
+the
+low-pressure
+RV
+during
+diastole and systole, resulting in pulmonary hyper-
+tension, RV compromise, and eventually right-sided
+heart failure.3,4
+The exact mechanism of ARVF formation post-
+TAVR is
+uncertain. It is
+postulated that several
+FIGURE 5
+Amplatzer Vascular Plug 2 Deployment During Transcatheter
+Fistula Closure
+A 10-mm AVP 2 Amplatzer vascular plug (Abbott Vascular [Abbott
+Laboratories]) is delivered and deployed, closing the aorto-RV ﬁstula.
+Abbreviations as in Figure 1.
+FIGURE 6
+Post-Transcatheter ﬁstula closure aortogram
+Aortogram performed post–Amplatzer vascular plug deployment showing
+successful closure of the ﬁstula with only trivial residual ﬂow. Abbreviations
+as in Figures 1 and 3.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Chia et al
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+Managing Aorto-RV Fistulas Post-TAVR
+5
+
+=== PAGE 6 ===
+pathologic mechanisms contribute to ARVF forma-
+tion, most prominently involving the transmural
+translocation of focal calciﬁcations from the aortic
+cusp and/or aortic root wall through the basal aortic
+walls during balloon TAVR deployment. This process
+results in inadvertent injury to the aortic root or
+annulus, leading to an abnormal communication be-
+tween the aorta and the RV.5 Anatomic factors, such
+as bicuspid aortic valve, local tissue characteristics,
+aortic
+wall
+calciﬁcation,
+and
+tissue
+fragility,
+are
+thought to play a signiﬁcant role in its formation.
+Operator-related issues, including catheter manipu-
+lation through the aortic valve, high balloon inﬂation
+pressures, and prosthetic aortic valve oversizing, may
+also contribute.2 In this case series, all patients
+exhibited asymmetric dense calciﬁcation of the right
+coronary cusp with calciﬁcation at the base of the
+aortic root wall, near the right sinus of Valsalva
+(Figure 10). However, no comparative data exist on
+patients with similar features who did not develop
+ARVF. Further studies with larger sample sizes and
+comparative data are needed to identify risk factors
+for ARVF formation.
+DIAGNOSIS
+Diagnosing ARVFs can be challenging given their
+relative rarity and clinical presentation, which can
+overlap with pre-TAVR symptoms. Echocardiography
+is pivotal in diagnosis, enabling visualization of the
+ﬁstulous tract on color Doppler and continuous wave
+Doppler, which shows continuous ﬂow in both systole
+and diastole (Figure 11). This continuous ﬂow aids in
+the diagnosis and helps differentiate it from adjacent
+pulmonic regurgitation or aortic regurgitation with
+paravalvular AR. Additionally, echocardiography al-
+lows for the assessment of the hemodynamic impact
+of the ﬁstula, such as RV size and function and pul-
+monary artery pressure. TEE can further conﬁrm the
+presence and size of the ﬁstula. Cardiac computed
+FIGURE 7
+Patient 2 TTE Images
+(A) Pre- and (B) post-transcatheter Amplatzer vascular plug II closure of the ﬁstula from patient 2. Short-axis view at the level of aortic root.
+Fistula ﬂow (blue arrow) is noted from the aortic root toward the RV in patient 2, (A) pre- and (B) post-vascular plug closure of the ﬁstula
+(white arrow). AO ¼ aortic root; RV ¼ right ventricle.
+Chia et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Managing Aorto-RV Fistulas Post-TAVR
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+6
+
+=== PAGE 7 ===
+tomography
+can
+also
+provide
+valuable
+anatomic
+assessment of the size and its relation to adjacent root
+structures and the coronary ostium. Right heart
+catheterization with shunt assessment can conﬁrm
+the diagnosis in ambiguous cases and evaluate shunt
+volume.
+MANAGEMENT
+Management of ARVFs post-TAVR is challenging, and
+there are no clear clinical guidelines or consensus,
+particularly for patients who are asymptomatic and
+have a small ﬁstula. Generally, the management
+strategy is determined by the degree of symptoms,
+ﬁstula size, and hemodynamic consequences. For
+asymptomatic or mildly symptomatic patients (NYHA
+functional classes I-II) with stable hemodynamics, a
+small ﬁstula, and normal RV size and function, a
+conservative approach can be considered. This in-
+cludes
+optimizing
+preload
+with
+diuretics,
+close
+monitoring
+of
+symptoms,
+and
+echocardiographic
+surveillance of the ﬁstula and RV size and function,
+which
+can
+help
+guide
+the
+need
+for
+future
+intervention.
+FIGURE 8
+Pre-TAVR CTA of Aortic Valve and Aortic Root With Calcium Burden (Patient 3)
+(A, B) Short-axis of the AV: calciﬁcations (solid arrow) on the right coronary sinus of Valsalva wall and base of the coronary right coronary cusp
+on CTA of the aortic valve and aortic root before the ﬁrst TAVR with a Medtronic CORE valve (Medtronic). (C, D) Presence of focal calci-
+ﬁcations (solid arrow) and Medtronic valve stent (dotted arrow) on CTA before valve-in-valve TAVR with an S3 SAPIEN valve. (E) A 3-
+dimensional image rendering of the pre-existing CORE valve and streak band calciﬁcation (solid arrow) outside the stent (dashed arrow) at
+the valve level. Abbreviations as in Figure 1.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Chia et al
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+Managing Aorto-RV Fistulas Post-TAVR
+7
+
+=== PAGE 8 ===
+In patients with signiﬁcant or progressive symp-
+toms, a large ﬁstula, and a dilated RV with reduced
+RV function, prompt intervention is necessary. The
+choice of intervention primarily depends on the pa-
+tient’s surgical risk proﬁle, patient preference, and
+local
+institutional
+expertise.
+An
+open
+surgical
+approach can provide a more deﬁnitive repair and
+closure of the ﬁstula; however, it is not suitable for
+patients with prohibitive surgical risks and the risks
+associated
+with
+open
+heart
+surgery.
+Although
+a
+transcatheter approach is less invasive, successful
+wiring through the defect, delivery, deployment of
+the vascular plug, and ultimate closure of the ﬁstula
+signiﬁcantly
+depend
+on
+the
+expertise
+of
+the
+interventional cardiologist and the intraprocedural
+TEE imager. Alternative transcatheter approaches,
+such as TAV-in-TAV, can also provide a solution in
+select cases.6 A heart team approach will consider
+these factors and determine the appropriate approach
+for each patient.
+In
+pursuing
+a
+transcatheter
+vascular
+plug
+approach, additional considerations must be given to
+the
+recommended
+postprocedure
+antithrombotic
+regimen. Although no speciﬁc guidelines exist for this
+procedure, antithrombotic therapy should be indi-
+vidualized, accounting for bleeding risks and sec-
+ondary
+indications
+for
+therapy.
+Current
+TAVR
+guidelines and expert consensus provide a framework
+FIGURE 9
+Patient 3 Follow-Up TTE Images
+(A) Month 1 and (B) month 9 post-TAVR. Fistula ﬂow (arrow) is noted from the aortic root toward the RVOT in patient 3 with conservative
+medical management. Ao ¼ aortic root; RVOT ¼ right ventricular outﬂow tract; other abbreviations as in Figure 1.
+FIGURE 10
+CTA of the AV and Aortic Root With Calcium Burden (Patients 1-3) Before TAVR
+CTA image with short-axis view at the level of the AV and aortic root with focal calciﬁcations across all 3 ﬁstula cases. Note the similar pattern
+of focal calciﬁcations (solid arrow) around the right coronary sinus of Valsalva wall adjacent to the RV. Abbreviations as in Figure 1.
+Chia et al
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Managing Aorto-RV Fistulas Post-TAVR
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+8
+
+=== PAGE 9 ===
+applicable to other transcatheter interventions with
+similar risks and complications. Recent recommen-
+dations
+prefer
+aspirin
+alone
+vs
+dual
+antiplatelet
+therapy given comparable risk reduction for throm-
+boembolic
+events
+while
+also
+reducing
+bleeding
+events.7
+CONCLUSIONS
+ARVF formation after TAVR, though rare, is a serious
+complication that requires prompt diagnosis and a
+patient-centered, multidisciplinary team approach to
+achieve favorable outcomes. With the increasing use
+of transcatheter techniques in the management of AS,
+clinician awareness of this potential complication is
+crucial for timely management. Continued research
+and awareness are essential for enhancing our un-
+derstanding and management of ARVFs after TAVR.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Ricardo Chia,
+Stanford University Hospital and Clinics, Falk Car-
+diovascular Research, 870 Quarry Road, Palo Alto,
+California
+94304,
+USA.
+E-mail:
+ricardo.chia@
+stanford.edu.
+R E F E R E N C E S
+1. Dvir D, Webb JG, Bleiziffer S, et al. Transcatheter
+aortic valve implantation in failed bioprosthetic
+surgical valves. JAMA. 2014;312:162–170.
+2. Barbanti M, Yang T-H, Rodès Cabau J, et al.
+Anatomical and procedural features associated
+with
+aortic
+root
+rupture
+during
+balloon-
+expandable transcatheter aortic valve replace-
+ment. Circulation. 2013;128:244–253.
+3. Diller G-P, Gatzoulis MA. Pulmonary vascular
+disease in adults with congenital heart disease.
+Circulation. 2007;115:1039–1050.
+4. Egbe AC, Pislaru SV, Pellikka PA, et
+al.
+Bioprosthetic valve thrombosis versus struc-
+tural
+failure:
+clinical
+and
+echocardiographic
+predictors. J Am Coll Cardiol. 2015;66:2285–
+2294.
+5. Généreux P, Cohen DJ, Williams MR, et al.
+bleeding complications after surgical aortic valve
+replacement compared with transcatheter aortic
+valve replacement: insights from the PARTNER I
+trial (placement of aortic transcatheter valve).
+J Am Coll Cardiol. 2014;63:1100–1109.
+6. Tzimas G, Eeckhout E, Antiochos P, et al.
+Percutaneous valvular closure followed by TAV-
+in-TAV intervention during a single procedure in
+order to treat a severe paravalvular leak after
+performing TAVI in a bicuspid aortic stenosis. Case
+Rep Cardiol. 2019;2019:4825607.
+7. Brouwer J, Nijenhuis VJ, Delewi R, et al. Aspirin
+with or without Clopidogrel after transcatheter
+aortic-valve
+implantation.
+N
+Engl
+J
+Med.
+2020;383:1447–1457.
+KEY WORDS aorto–right ventricular ﬁstula,
+ﬁstula, TAVR
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+FIGURE 11
+Post–TAV-in-TAV TTE With CW Doppler Across the Fistula Flow (Patient 3)
+Post-TAV-in-TAV TTE study. Parasternal short-axis view at the level of the Ao with CW
+Doppler aligned through the center of the color Doppler of the aorto-RV ﬁstula jet (solid
+arrow) and on CW Doppler spectral display. Note the high continuous velocity ﬂow
+(mostly >4 m/s) via the ﬁstula during both systole (orange arrow) and diastole (yellow
+arrow). bpm ¼ beats/minute; CW ¼ continuous wave; TAV ¼ transcatheter aortic valve;
+TTE ¼ transthoracic echocardiogram; other abbreviations as in Figure 1.
+J A C C : C A S E R E P O R T S , V O L . 2 9 , 2 0 2 4
+Chia et al
+N O V E M B E R 6 , 2 0 2 4 : 1 0 2 6 5 5
+Managing Aorto-RV Fistulas Post-TAVR
+9

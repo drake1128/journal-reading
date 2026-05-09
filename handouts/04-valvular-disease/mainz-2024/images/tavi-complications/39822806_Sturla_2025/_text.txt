@@ -1,0 +1,868 @@
+
+=== PAGE 1 ===
+MINI-FOCUS ISSUE ON CORONARY, PERIPHERAL,
+AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE SERIES
+Clinical Presentation and Percutaneous
+Treatment of Hemolytic Anemia
+Associated With Paravalvular Leak
+After TAVR
+Matteo Sturla, MD,a Andrea Scotti, MD,a Antonella Millin, MD,a Julio Echarte-Morales, MD,a
+Guillaume Bonnet, MD, PHD,a,b,c Andrea Mignatti, MD,a Manaf Assaﬁn, MD,a Leandro Slipczuk, MD, PHD,a
+Edwin Ho, MD,a Azeem Latib, MDa
+ABSTRACT
+Paravalvular leak (PVL) following transcatheter aortic valve replacement (TAVR) is an established complication, albeit
+rarely associated with hemolytic anemia. This report details 3 cases of signiﬁcant hemolytic anemia attributed to TAVR-
+induced PVL, each with distinct clinical presentations and manifestations. These cases underscore the diverse and oc-
+casionally subtle clinical presentation of aortic PVL-associated hemolytic anemia. We explore the technical nuances and
+challenges of percutaneous PVL closure and emphasize the successful resolution of hemolytic anemia by using percu-
+taneous PVL plugging with occluder devices. Through this case series, we encourage the awareness of PVL-associated
+hemolytic anemia in the differential diagnosis of patients presenting with new onset anemia after TAVR and demonstrate
+the efﬁcacy of percutaneous closure techniques in resolving this serious condition. (JACC Case Rep. 2025;30:102748)
+© 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open
+access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+T
+he advancement of transcatheter aortic valve
+replacement
+(TAVR)
+as
+a
+transformative
+approach for aortic stenosis (AS) is accompa-
+nied by the recognized complication of paravalvular
+leak (PVL). Moderate or greater PVL has been reported
+in approximately 12% of patients with ﬁrst-generation
+valves, although this complication rate decreases to
+<5% with the latest iterations.1-3 Nevertheless, signif-
+icant PVL is associated with increased mortality.1-3
+Hemolytic anemia, resulting from mechanical shear
+stress on red blood cells as they pass through a PVL,
+TAKE-HOME MESSAGES
+ Recognizing
+cardiac
+prosthesis-related
+hemolytic anemia is crucial in patients who
+have undergone TAVR.
+ Percutaneous
+closure
+of
+PVLs
+in
+TAVR
+devices is feasible but presents signiﬁcant
+technical challenges.
+ Successful aortic PVL closure can result in
+the resolution of hemolytic anemia, demon-
+strating signiﬁcant clinical beneﬁts.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2024.102748
+From the aMonteﬁore-Einstein Center for Heart and Vascular Care, Monteﬁore Medical Center, Albert Einstein College of Medi-
+cine, Bronx, New York, USA; bCardiovascular Research Foundation, New York, New York, USA; and the cMedico-Surgical
+Department, Haut-Lévêque Cardiological Hospital, Bordeaux University Hospital, Pessac, France.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received July 9, 2024; revised manuscript received September 17, 2024, accepted September 27, 2024.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 1 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 4 . 0 / ) .
+
+=== PAGE 2 ===
+is seldom reported post-TAVR. Rather, this
+phenomenon is more frequently associated
+with PVLs after mitral valve replacement.
+Through this series, we aimed to explore the
+clinical complexities, procedural characteris-
+tics, and positive impact of PVL closure in
+resolving hemolytic anemia in the context of
+TAVR procedures.
+CASE 1
+A 77-year-old man presented to the emer-
+gency department from an ambulatory clinic
+after concerning laboratory ﬁndings despite
+his being functionally asymptomatic. Labo-
+ratory ﬁndings on admission revealed pro-
+gressive
+anemia,
+with
+hemoglobin
+(Hb)
+decreasing
+to
+8.2
+g/dL
+from
+15.5
+g/dL
+14
+months
+earlier.
+Hematologic
+work-up
+demonstrated a strong hemolytic pattern,
+including elevated reticulocytes (4.2%), increased
+lactate dehydrogenase (LDH) levels (1,395 U/L), and
+depleted
+haptoglobin
+(<10
+mg/dL).
+A
+peripheral
+blood smear revealed 2þ schistocytes.
+The patient had a signiﬁcant past medical history
+of hypertension, diabetes, chronic obstructive pul-
+monary disease, well-controlled human immunode-
+ﬁciency virus infection, hepatitis B virus infection,
+and tuberculosis (The Society of Thoracic Surgeons
+[STS] score, 6.31%). One year previously, he under-
+went TAVR with a 26-mm Sapien 3 Ultra valve
+(Edwards Lifesciences) for severe symptomatic AS.
+Preprocedural
+computed
+tomography
+showed
+commissural calciﬁcations of the right and non-
+coronary cusp commissures. Post-dilation reduced
+the PVL from severe to mild after valve implantation.
+At the time of discharge for the index TAVR, the pa-
+tient’s Hb level was stable (15.3 g/dL). Transthoracic
+echocardiography
+(TTE)
+at
+1-month
+post-TAVR
+showed that the PVL was stable, with mild to mod-
+erate severity.
+Whereas TTE imaging showed left ventricular (LV)
+dilation with preserved function, transesophageal
+echocardiography (TEE) conﬁrmed preserved bio-
+prosthesis function with a moderate to severe PVL
+(jet vena contracta, 5.7 mm; and effective regurgitant
+oriﬁce area, 0.37 cm2) (Video 1).
+After
+a
+heart
+team
+discussion,
+percutaneous
+closure of the PVL was performed (Video 1). Initial
+balloon dilation with a 25-mm True Balloon (BD Life
+Sciences) showed persistent moderate to severe PVL,
+thus leading to escalation of percutaneous closure
+with a 10-mm Amplatzer Vascular Plug II (Abbott
+Vascular).
+By
+using
+a
+6-F
+Destination
+sheath
+(Terumo), the distal disk of the plug was positioned
+on the ventricular side of the PVL. Then the sheath
+was slowly pulled back to deploy the rest of the de-
+vice in the PVL oriﬁce. TEE conﬁrmed an excellent
+result, with only a trace residual PVL. The patient had
+1-month, 6-month, and 1-year follow-ups post-PVL
+closure, with Hb increasing to 15.4 g/dL at 1 year and
+TTE showing a trace PVL, persistently stable.
+CASE 2
+A 69-year-old man, with a past medical history of
+hypertension,
+diabetes,
+end-stage
+renal
+disease
+treated with dialysis, pulmonary hypertension, and
+hypercholesterolemia (STS score, 10.3%), underwent
+TAVR using a 26-mm Sapien 3 Ultra valve for symp-
+tomatic AS in a bicuspid type 0 aortic valve. The pa-
+tient underwent a successful procedure, with mild
+PVL evident on TTE, and was discharged without
+complications. However, 1 month later, he was read-
+mitted with diffuse pruritus and reported pale stools
+and dark urine. On examination, jaundice and scleral
+icterus
+were
+evident.
+The
+patient
+was
+clinically
+euvolemic, adequately perfused, and in NYHA func-
+tional class I.
+Laboratory ﬁndings revealed a signiﬁcant drop in
+Hb since discharge, going from 10.2 to 7.9 g/dL,
+increased reticulocytes and LDH, depleted hapto-
+globin, and the presence of schistocytes on the pe-
+ripheral blood smear. Laboratory ﬁndings revealed an
+unusual elevation in transaminases and predomi-
+nantly
+direct
+hyperbilirubinemia
+(total
+bilirubin,
+8.9 mg/dL; direct bilirubin, 6.3 mg/dL), atypical in
+intravascular hemolytic anemia cases where indirect
+hyperbilirubinemia typically prevails. This clinical
+and laboratory proﬁle raised suspicions of concomi-
+tant cholelithiasis as a potential consequence of
+persistent hemolytic anemia. An abdominal ultra-
+sound scan indicated mild common bile duct (CBD)
+dilatation without clear choledocholithiasis. Subse-
+quent endoscopic retrograde cholangiopancreatog-
+raphy revealed a CBD stricture, and stent placement
+led to a decrease in bilirubin levels to 2.7 mg/dL.
+Anemia persisted, however, reaching even lower
+values of 7.2 g/dL.
+After ruling out alternative causes of anemia, TEE
+was performed to assess the PVL, the main suspected
+cause of the patient’s hemolytic anemia. It revealed a
+normal LV size with a normally functioning bio-
+prosthesis and highlighted an eccentric, posteriorly
+directed, mild PVL (Figures 1A to 1C, Video 2).
+Following heart team deliberation, the patient
+underwent PVL closure. The PVL was traversed with a
+straight-tip glide wire, which was exchanged for a
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AS = aortic stenosis
+CBD = common bile duct
+CT = computed tomography
+Hb = hemoglobin
+LDH = lactate dehydrogenase
+LV = left ventricular
+PVL = paravalvular leak
+STS = The Society of Thoracic
+Surgeons
+TAV = transcatheter aortic
+valve
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiography
+TTE = transthoracic
+echocardiography
+Sturla et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 , 2 0 2 5
+Severe Hemolytic Anemia After TAVR
+J A N U A R Y 1 , 2 0 2 5 : 1 0 2 7 4 8
+2
+
+=== PAGE 3 ===
+Safari small. Post-dilatation with a 25-mm, then
+26-mm True Balloon resulted in an unsatisfactory
+reduction of the PVL grade. Subsequently, a 7-mm
+Amplatzer Muscular VSD Occluder (Abbott Vascular)
+was deployed with the disks within the PVL tract,
+thereby reducing interaction with adjacent cardiac
+anatomy, mitigating the potential for hemolysis sec-
+ondary to ﬂow along the device, and resulting in a
+signiﬁcant reduction in retrograde ﬂow, as conﬁrmed
+by intraprocedural TEE (Figures 1A to 1C, Video 2).
+At
+1-month
+follow-up,
+Hb
+levels
+increased
+to
+11.6 g/dL, and hemolysis laboratory values normal-
+ized, aligning with the patient’s initial values and
+comorbidities.
+The
+echocardiographic
+follow-up
+conﬁrmed the persistence of a good result with a
+trace PVL (Figures 1A to 1C, Video 2). At 3-year follow-
+up, laboratory values remained stable, with no evi-
+dence of hemolysis.
+CASE 3
+The case involved a 74-year-old patient with a past
+medical history of hypertension, diabetes, obesity,
+remote pulmonary embolism treated with warfarin,
+and a known thoracic aortic aneurysm. The patient
+had a decade-long history of smoldering immuno-
+globulin G lambda multiple myeloma, leading to sta-
+ble and mild chronic anemia (Hb range, 11-12 g/dL),
+mild leukopenia, and chronic kidney disease (STS
+score, 11.0%).
+Given his severe AS with a calciﬁed type 1 bicuspid
+aortic valve, the patient underwent TAVR with a
+23-mm Sapien 3 Ultra valve. Mild to moderate PVL
+was noticed after valve implantation, thus prompting
+post-dilation. First, the valve delivery system was
+used with an additional 2 mL of volume added to this
+delivery balloon; then, a 24-mm True Balloon was
+FIGURE 1
+Case 2 Paravalvular Leak Evaluation and Final Result
+(A) Transesophageal evaluation of paravalvular leak evidencing a mild paravalvular leak. (B and C) Final angiographic and echocardiographic
+result after percutaneous plugging.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 , 2 0 2 5
+Sturla et al
+J A N U A R Y 1 , 2 0 2 5 : 1 0 2 7 4 8
+Severe Hemolytic Anemia After TAVR
+3
+
+=== PAGE 4 ===
+used, yielding a ﬁnal postprocedural result of mild
+PVL. However, during the hospital stay, the patient
+developed hematuria and a signiﬁcant drop in Hb from
+a preprocedural level of 12.8 g/dL down to 6.9 g/dL
+within 10 days, thereby necessitating blood trans-
+fusion. Concurrently, acute-on-chronic renal failure
+occurred, with his creatinine level rising from 1.5 to
+2.8
+mg/dL.
+Laboratory
+analysis
+suggested
+acute
+hemolytic anemia complicated by acute renal failure.
+Post-intervention
+day
+1
+TTE
+revealed
+a
+mean
+gradient of 19 mm Hg and moderate PVL character-
+ized by 3 jets, with a total circumferential extent of
+>10% (Figures 2A to 2F, Video 3). To address these
+complications, the patient underwent a transcatheter
+aortic valve (TAV)-in-TAV procedure using a 23-mm
+Sapien 3 Ultra and post-dilated with a 23-mm True
+Balloon. Given the complexity of the PVL with mul-
+tiple jets, it was determined that a second valve im-
+plantation
+would
+offer
+a
+more
+comprehensive
+solution by addressing the entire PVL pattern, rather
+than attempting individual closure of each jet with
+percutaneous devices, which may have been less
+effective and more technically challenging. More
+aggressive post-dilation was not possible because of
+severe aortic calciﬁcation. TEE conﬁrmed a successful
+outcome, with minimal PVL. The patient experienced
+resolution of hematuria, and on discharge from the
+hospital, he had an Hb level of 8.3 g/dL.
+Seven months later, however, he presented again
+with a report of fatigue and dyspnea on exertion. He
+had undergone regular cardiologic follow-up, and the
+echocardiographic
+ﬁndings
+remained
+unchanged,
+indicating normal prosthesis function and minimal
+PVL. Persistent hemolytic anemia was noted during
+routine
+laboratory
+examinations,
+with
+Hb
+values
+ﬂuctuating between 7 and 8.5 g/dL. This necessitated
+multiple blood transfusions in addition to regular
+supplementation with iron, vitamin B12, and eryth-
+ropoietin. However, given the patient’s active multi-
+ple
+myeloma,
+it
+was
+unclear
+which
+process
+contributed to his symptoms and persistent anemia.
+After multidisciplinary consultation with the hema-
+tology/oncology
+team,
+a
+decision
+was
+made
+to
+address the issue by closing the PVL (Figures 2A to 2F,
+Video 3). The patient underwent a successful closure
+procedure using a 7-mm Amplatzer Vascular Plug II.
+TEE conﬁrmed the correct positioning of the device,
+with no impact on the anterior mitral valve leaﬂet and
+only trace paravalvular aortic regurgitation. The pa-
+tient was discharged after 1 day.
+Subsequent follow-up revealed gradual recovery of
+Hb levels, reaching 11.9 g/dL after approximately
+4 months, along with stable platelet counts and
+reticulocyte levels. Additionally, echocardiographic
+evaluations
+showed
+no
+signs
+of
+recurrent
+PVL
+(Figures 2A to 2F, Video 3).
+DISCUSSION
+We present the cases of 3 patients with PVL after
+TAVR that induced severe hemolytic anemia, which
+was successfully managed with percutaneous PVL
+plugging. Table 1 compares the baseline characteris-
+tics, laboratory ﬁndings, and procedural aspects of
+the 3 patients. These cases highlight the variable
+clinical
+presentations
+and
+diagnostic
+challenges
+associated
+with
+PVL-induced
+hemolytic
+anemia.
+Compared with mitral valve prosthesis–associated
+PVL, PVL in the aortic position atypically manifests
+with hemolytic anemia. The diastolic transvalvular
+pressure gradient across the aortic valve is signiﬁ-
+cantly lower than the corresponding gradient be-
+tween the left atrium and the left ventricle at the
+mitral valve position. This lower gradient is typically
+insufﬁcient to generate the shear stress required to
+cause signiﬁcant hemolysis through the PVL, which is
+the primary etiologic factor for hemolytic anemia.
+The occurrences in these cases demonstrate that
+there are additional ﬂuid dynamic factors to consider
+beyond the driving pressure gradient.
+Two of the 3 patients did not present with typical
+symptoms
+of
+anemia
+or
+LV
+volume
+overload
+(asthenia, angina, dyspnea, orthopnea, or paroxysmal
+nocturnal dyspnea), with signiﬁcant anemia revealed
+only during routine laboratory examinations. Diag-
+nosing PVL-induced hemolytic anemia can be partic-
+ularly
+challenging
+in
+the
+presence
+of
+complex
+multisystemic comorbidities. In 2 patients, underly-
+ing
+hepatobiliary
+and
+hematologic
+comorbidities
+complicated the diagnosis, especially in case 3, where
+PVL severity was only mild on echocardiographic
+imaging. All 3 patients demonstrated resolution of
+hemolytic anemia after percutaneous plugging, thus
+conﬁrming the cause of the hemolytic anemia and
+demonstrating the efﬁcacy of the intervention.
+PVL remains a frequent and formidable complica-
+tion of TAVR, and it may lead to LV volume overload
+and heart failure sequelae. Despite a substantial body
+of evidence highlighting the adverse prognostic im-
+plications of signiﬁcant PVL following TAVR,1-3 there
+remains no general consensus on the management of
+this complication. Notably, the most recent European
+and American guidelines both cautiously recommend
+transcatheter closure of prosthetic valve PVLs exhib-
+iting
+concomitant
+severe
+hemolysis
+(Class
+2a
+Recommendation, Level of Evidence: B).4,5 However,
+the evidence underpinning these recommendations
+largely
+emanates
+from
+experience
+with
+surgical
+Sturla et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 , 2 0 2 5
+Severe Hemolytic Anemia After TAVR
+J A N U A R Y 1 , 2 0 2 5 : 1 0 2 7 4 8
+4
+
+=== PAGE 5 ===
+FIGURE 2
+Case 3 Paravalvular Leak Evaluation and Final Result
+(A) Transesophageal echocardiographic evaluation of paravalvular leak after index transcatheter aortic valve replacement evidencing a mild
+paravalvular leak. (B) Final angiographic view after redo transcatheter aortic valve replacement in an attempt to resolve the paravalvular
+leak. (C) Transesophageal echocardiographic evaluation of a paravalvular leak after redo transcatheter aortic valve replacement evidencing a
+persistent signiﬁcant paravalvular leak. (D) Angiographic result after percutaneous plugging. (E) Postprocedural transesophageal echocar-
+diographic evaluation with only a trace paravalvular leak. (F) Follow-up transthoracic echocardiogram with no evidence of paravalvular leak.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 , 2 0 2 5
+Sturla et al
+J A N U A R Y 1 , 2 0 2 5 : 1 0 2 7 4 8
+Severe Hemolytic Anemia After TAVR
+5
+
+=== PAGE 6 ===
+prostheses
+in
+the
+mitral
+and
+aortic
+position.6,7
+Furthermore, insights into post-TAVR PVL closure
+remain somewhat limited, primarily sourced from
+retrospective registries characterized by relatively
+modest sample sizes.
+One study speciﬁcally focused on transcatheter
+plugging of TAVR-related PVL, the PLUGinTAVI reg-
+istry, which included 45 patients from several Euro-
+pean centers. Of these patients, only 1 presented with
+hemolysis, and the rest had heart failure symptoms.8
+This ﬁnding supports the notion that severe hemo-
+lytic
+anemia
+from
+post-TAVR
+PVL
+is
+a
+scarcely
+described phenomenon and most PVL closure is
+largely driven by patients presenting with heart fail-
+ure symptoms or LV dilation from volume overload.
+Transcatheter PVL closure remains a technically
+challenging procedure, marked by variable success
+rates and clinical outcomes contingent on the expe-
+rience of the performing center and the chosen
+closure modality (comprising balloon post-dilation,
+plugging, or valve-in-valve techniques).8-10 Perhaps
+this highlights the need for closer investigation to
+delineate the PVL characteristics (ie, PVL location,
+orientation, shape and size, presence of native valve
+calciﬁcations, and transcatheter heart valve implan-
+ted) that render each closure modality most efﬁca-
+cious.
+Our
+cases
+demonstrated
+a
+stepwise
+percutaneous approach to PVL closure. All patients
+underwent balloon dilatation (performed before the
+second TAVR in case 3) before we attempted to plug
+the PVL with an occluder device. High-quality intra-
+procedural imaging to re-evaluate the PVL after
+balloon dilation and before occluder release is para-
+mount to successful closure. In line with this, recent
+ﬁndings underscore the critical role of successful PVL
+reduction
+in
+patients
+undergoing
+percutaneous
+closure, with patients achieving a reduction to mild or
+less
+PVL
+demonstrating
+a
+pronounced
+mortality
+TABLE 1
+Demographic Characteristic, Laboratory Findings, Procedures, and Follow-Up
+Case 1
+Case 2
+Case 3
+Demographic characteristics
+Age, y
+77
+69
+74
+Sex
+Male
+Male
+Male
+Laboratory ﬁndings at the time of admission
+Hemoglobin, g/dL
+8.2
+7.9
+6.9
+Platelets,  103/mL
+343
+163
+142
+Lactate dehydrogenase, U/L
+1,395
+1,275
+2,616
+Haptoglobin, mg/dL
+<10
+<10
+<10
+Schistocytes
+2þ
+2þ
+1þ
+Reticulocytes, %
+4.2
+5.8
+3.1
+Pre-TAVR CT scan
+Aortic valve morphology
+Tricuspid
+Bicuspid type 0
+Bicuspid type 1
+Annulus area, mm2
+471
+549
+440
+Grade of calciﬁcation
+Severe
+Moderate
+Severe
+TAVR procedure
+TAVR valve type
+Edwards Sapien 3 Ultra
+(Edwards Lifesciences)
+Edwards Sapien 3 Ultra
+TAV in TAV Edwards Sapien 3
+Ultra/ Edwards Sapien 3 Ultra
+TAVR valve size, mm
+26
+26
+23/23
+PVL post-TAVR
+Mild to moderate
+Mild
+Mild
+PVL closure procedure
+PVL closure device
+Amplatzer Vascular Plug II
+(Abbott Vascular)
+Amplatzer Muscular VSD
+Occluder
+Amplatzer Vascular
+Plug II
+PVL device dimensions, mm
+10
+8
+10
+Balloon dilatation, mm
+True Balloon (BD Life Sciences), 25
+True Balloon, 25 and 26
+Not performed
+PVL after procedure
+Trace
+Trace
+None
+Follow-up at 1 month
+Hemoglobin, g/dL
+13.1
+11.6
+11.9
+PVL at TTE
+Trace
+Trace
+None
+CT ¼ computed tomography; PVL ¼ paravalvular leak; TAV ¼ transcatheter aortic valve; TAVR ¼ transcatheter aortic valve replacement; TTE ¼ transthoracic echocardiogram.
+Sturla et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 , 2 0 2 5
+Severe Hemolytic Anemia After TAVR
+J A N U A R Y 1 , 2 0 2 5 : 1 0 2 7 4 8
+6
+
+=== PAGE 7 ===
+VISUAL SUMMARY
+Graphic Representation of Case 1 Presentation, Transcatheter Intervention, and Final Result, Including 1-Year
+Follow-Up
+Hb ¼ hemoglobin; LDH ¼ lactate dehydrogenase; LVEDD ¼ left ventricular end-diastolic diameter; mod ¼ moderate; PVL ¼ paravalvular leak;
+TAVR ¼ transcatheter aortic valve replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 , 2 0 2 5
+Sturla et al
+J A N U A R Y 1 , 2 0 2 5 : 1 0 2 7 4 8
+Severe Hemolytic Anemia After TAVR
+7
+
+=== PAGE 8 ===
+beneﬁt at 1 year.10 In cases of hemolytic anemia, the
+importance of complete resolution of PVL is likely
+more pronounced because hemolysis is possible even
+with mild PVL.
+Two of the 3 patients in this case series had
+bicuspid anatomy and high surgical risk, the decisive
+factors
+in
+the
+decision
+to
+proceed
+with
+TAVR.
+Although bicuspid anatomy is associated with higher
+rates of post-TAVR PVL, the use of intraprocedural
+TEE
+in
+patients
+with
+bicuspid
+valves,
+as
+now
+routinely implemented at our center, may further
+optimize
+outcomes
+by
+allowing
+for
+the
+precise
+assessment and management of PVL during the index
+procedure.
+PVL is a well-documented complication of TAVR,
+although here we present insidious clinical pre-
+sentations of severe hemolytic anemia from TAVR-
+related PVL. Although the procedure remains tech-
+nically
+challenging,
+requiring
+high-quality
+intra-
+procedural imaging and operator expertise, adequate
+reduction of the PVL led to the resolution of hemo-
+lytic anemia in these patients. Further research is
+necessary to substantiate these procedural beneﬁts
+and to reﬁne the guidelines on the basis of on larger
+and more deﬁnitive studies.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Scotti has served as a consultant for NeoChord and Edwards
+Lifesciences. Dr Echarte Morales has received support from Spanish
+Society of Cardiology through a mobility grant (SEC/PRS-MOV-INT 22/
+001). Dr Latib has served on advisory boards or as a consultant for
+Medtronic, Boston Scientiﬁc, Philips, Edwards Lifesciences, Abbott,
+and Ancora Heart. All other authors have reported that they have no
+relationships relevant to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Azeem Latib,
+Department
+of
+Interventional
+Cardiology,
+Monteﬁore-Einstein Center for Heart and Vascular
+Care,
+Monteﬁore
+Medical
+Center, Albert
+Einstein
+College of Medicine, 111 East 210th Street, Bronx, New
+York 10467, USA. E-mail: alatib@gmail.com.
+R E F E R E N C E S
+1. Pibarot P, Hahn RT, Weissman NJ, et al. Asso-
+ciation of paravalvular regurgitation with 1-year
+outcomes
+after
+transcatheter
+aortic
+valve
+replacement with the SAPIEN 3 valve. JAMA Car-
+diol. 2017;2:1208–1216.
+2. Athappan G, Patvardhan E, Tuzcu EM, et al.
+Incidence, predictors, and outcomes of aortic
+regurgitation
+after
+transcatheter
+aortic
+valve
+replacement: meta-analysis and systematic review
+of literature. J Am Coll Cardiol. 2013;61(15):1585–
+1595. https://doi.org/10.1016/j.jacc.2013.01.047
+3. Chau KC, Chen S, Crowley A, et al. Paravalvular
+regurgitation
+after
+transcatheter
+aortic
+valve
+replacement
+in
+intermediate-risk
+patients:
+a
+pooled
+PARTNER
+2
+study.
+EuroIntervention.
+2022;17:1053–1060.
+4. Writing
+Committee
+Members,
+Otto
+CM,
+Nishimura RA, et al. 2020 ACC/AHA guideline for
+the management of patients with valvular heart
+disease: a report of the American College of
+Cardiology/American
+Heart
+Association
+Joint
+Committee on Clinical Practice Guidelines. J Am
+Coll Cardiol. 2021;77(4):e25–e197.
+5. Vahanian A, Beyersdorf F, Praz F, et al. 2021 ESC/
+EACTS guidelines for the management of valvular
+heart disease. Eur Heart J. 2022;43(7):561–632.
+https://doi.org/10.1093/eurheartj/ehab395
+6. Sorajja P, Cabalka AK, Hagler DJ, Rihal CS.
+Long-term follow-up of percutaneous repair of
+paravalvular prosthetic regurgitation. J Am Coll
+Cardiol. 2011;58(21):2218–2224. https://doi.org/
+10.1016/j.jacc.2011.07.041
+7. Ruiz CE, Jelnin V, Kronzon I, et al. Clinical out-
+comes
+in
+patients
+undergoing
+percutaneous
+closure of periprosthetic paravalvular leaks. J Am
+Coll Cardiol. 2011;58:2210–2217.
+8. Flores-Umanzor E, Nogic J, Cepas-Guillén P,
+et al. Percutaneous paravalvular leak closure after
+transcatheter
+aortic
+valve
+implantation:
+the
+international
+PLUGinTAVI
+Registry.
+Euro-
+Intervention. 2023;19(5):e442–e449. https://doi.
+org/10.4244/EIJ-D-22-01110
+9. Saia F, Martinez C, Gafoor S, et al. Long-term
+outcomes of percutaneous paravalvular regurgi-
+tation closure after transcatheter aortic valve
+replacement: a multicenter experience. JACC Car-
+diovasc Interv. 2015;8:681–688.
+10. Landes U, Hochstadt A, Manevich L, et al.
+Treatment of late paravalvular regurgitation after
+transcatheter aortic valve implantation: prognostic
+implications. Eur Heart J. 2023;44:1331–1339.
+KEY WORDS hemolytic anemia,
+paravalvular leak, TAVR
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+Sturla et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 1 , 2 0 2 5
+Severe Hemolytic Anemia After TAVR
+J A N U A R Y 1 , 2 0 2 5 : 1 0 2 7 4 8
+8

@@ -1,0 +1,30 @@
+{
+  "pdf": "34317373_Spaccarotella_2020.pdf",
+  "pages": 4,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1595,
+      "height": 1173,
+      "ext": "jpeg",
+      "bytes": 381870
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1968,
+      "height": 733,
+      "ext": "jpeg",
+      "bytes": 176908
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1968,
+      "height": 694,
+      "ext": "jpeg",
+      "bytes": 144906
+    }
+  ]
+}

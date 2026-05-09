@@ -1,0 +1,62 @@
+{
+  "pdf": "36406923_Attisano_2022.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1399,
+      "height": 999,
+      "ext": "jpeg",
+      "bytes": 270339
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 800,
+      "height": 986,
+      "ext": "jpeg",
+      "bytes": 108871
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1501,
+      "height": 522,
+      "ext": "jpeg",
+      "bytes": 96231
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1401,
+      "height": 713,
+      "ext": "jpeg",
+      "bytes": 157334
+    },
+    {
+      "file": "fig-05_p4.jpeg",
+      "page": 4,
+      "width": 1400,
+      "height": 681,
+      "ext": "jpeg",
+      "bytes": 138231
+    },
+    {
+      "file": "fig-06_p5.jpeg",
+      "page": 5,
+      "width": 1076,
+      "height": 974,
+      "ext": "jpeg",
+      "bytes": 286921
+    },
+    {
+      "file": "fig-07_p5.jpeg",
+      "page": 5,
+      "width": 800,
+      "height": 800,
+      "ext": "jpeg",
+      "bytes": 122796
+    }
+  ]
+}

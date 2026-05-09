@@ -1,0 +1,22 @@
+{
+  "pdf": "38264302_Masarweh_2024.pdf",
+  "pages": 4,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 710,
+      "ext": "jpeg",
+      "bytes": 75400
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1639,
+      "height": 722,
+      "ext": "jpeg",
+      "bytes": 157454
+    }
+  ]
+}

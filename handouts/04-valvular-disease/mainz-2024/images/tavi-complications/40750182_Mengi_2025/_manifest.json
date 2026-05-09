@@ -1,0 +1,54 @@
+{
+  "pdf": "40750182_Mengi_2025.pdf",
+  "pages": 9,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1772,
+      "height": 2266,
+      "ext": "png",
+      "bytes": 3939564
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1967,
+      "height": 881,
+      "ext": "png",
+      "bytes": 3383450
+    },
+    {
+      "file": "fig-03_p5.png",
+      "page": 5,
+      "width": 1967,
+      "height": 1114,
+      "ext": "png",
+      "bytes": 1983381
+    },
+    {
+      "file": "fig-04_p6.png",
+      "page": 6,
+      "width": 1644,
+      "height": 2205,
+      "ext": "png",
+      "bytes": 1010333
+    },
+    {
+      "file": "fig-05_p7.png",
+      "page": 7,
+      "width": 1968,
+      "height": 1566,
+      "ext": "png",
+      "bytes": 2999349
+    },
+    {
+      "file": "fig-06_p8.png",
+      "page": 8,
+      "width": 1967,
+      "height": 893,
+      "ext": "png",
+      "bytes": 1909585
+    }
+  ]
+}

@@ -24,7 +24,7 @@ high gradient AS 定義為經CW (continuous wave)測量的平均跨瓣壓力梯�
 
 MDCT具有預測下面併發症的能力[@Soon2017; @Adamo2019]:
 
-![使用多層電腦斷層掃描（MDCT）進行多平面和三維重建測量主動脈瓣環。Aortic annular plane 由虛擬基底平面（粗黃色線）定義，連接每個主動脈瓣葉的hinge points（紅色 X，標記左冠狀瓣和右冠狀瓣）。在橫向軸位圖像（右上圖）中的測量顯示瓣環面積為 4.51 cm$^2$，周長 (perimeter)為 77.4 mm。Sagittal oblique圖像（右下圖）可用於測量瓣環平面與右冠狀動脈開口之間的垂直距離 (coronary height)，此處為 14.6 mm. 縮寫：AO 為主動脈，LA 為左心房，LV 為左心室，LVOT 為左心室流出道，RA 為右心房，RV 為右心室。[@Soon2017]](../../images/tavi/fig%20TAVI%20MDCT.png)
+![使用多層電腦斷層掃描（MDCT）進行多平面和三維重建測量主動脈瓣環。Aortic annular plane 由虛擬基底平面（粗黃色線）定義，連接每個主動脈瓣葉的hinge points（紅色 X，標記左冠狀瓣和右冠狀瓣）。在橫向軸位圖像（右上圖）中的測量顯示瓣環面積為 4.51 cm$^2$，周長 (perimeter)為 77.4 mm。Sagittal oblique圖像（右下圖）可用於測量瓣環平面與右冠狀動脈開口之間的垂直距離 (coronary height)，此處為 14.6 mm. 縮寫：AO 為主動脈，LA 為左心房，LV 為左心室，LVOT 為左心室流出道，RA 為右心房，RV 為右心室。[@Soon2017]](../images/tavi/fig%20TAVI%20MDCT.png)
 
 - para-valvular leak
 - coronary acute closure
@@ -42,7 +42,7 @@ MDCT具有預測下面併發症的能力[@Soon2017; @Adamo2019]:
 
 術前對主動脈根部的評估還可以識別出具有潛在致命性主動脈瓣環損傷風險的患者。在迄今為止最大規模的研究中，經過性別、瓣環面積、主動脈瓣面積（AVA）和跨瓣平均壓力梯度匹配的患者中，若在術前規劃的MDCT中發現左心室流出道（LVOT）/環下區域有較高量的鈣化（Agatston鈣化得分 181.2 ± 211 對比 22.5 ± 37.6；P < 0.001），則顯示其主動脈根部破裂（包括封閉性和非封閉性破裂）風險顯著增加。這一風險與瓣環面積、周長、不對稱性、LVOT面積和Valsalva竇的尺寸無關，並且如果伴隨有明顯（超過20%面積）的過度尺寸放置時，此風險會進一步增加。[@Soon2017]
 
-![嚴重的環下區域及左心室流出道（LVOT）鈣化。多層電腦斷層掃描（MDCT）的橫向軸位與斜矢狀影像顯示，接受經導管主動脈瓣置換（TAVI）評估的患者在環下區域和LVOT有中度至重度鈣化。上排：左冠狀動脈瓣下方的環下區域及LVOT有中度鈣化。下排：左冠狀動脈瓣下方的環下區域及LVOT有重度鈣化，並延伸至右冠狀動脈瓣區域。中度及/或重度鈣化的存在（箭頭所示）可能導致與其他條件相同的患者相比，主動脈根部破裂的風險增加。縮寫：AO 為主動脈，LA 為左心房，LV 為左心室，RA 為右心房，RV 為右心室。[@Soon2017]](../../images/tavi/fig%20TAVI%20LVOT%20calcification.png)
+![嚴重的環下區域及左心室流出道（LVOT）鈣化。多層電腦斷層掃描（MDCT）的橫向軸位與斜矢狀影像顯示，接受經導管主動脈瓣置換（TAVI）評估的患者在環下區域和LVOT有中度至重度鈣化。上排：左冠狀動脈瓣下方的環下區域及LVOT有中度鈣化。下排：左冠狀動脈瓣下方的環下區域及LVOT有重度鈣化，並延伸至右冠狀動脈瓣區域。中度及/或重度鈣化的存在（箭頭所示）可能導致與其他條件相同的患者相比，主動脈根部破裂的風險增加。縮寫：AO 為主動脈，LA 為左心房，LV 為左心室，RA 為右心房，RV 為右心室。[@Soon2017]](../images/tavi/fig%20TAVI%20LVOT%20calcification.png)
 
 ### LVOT calcium grading
 
@@ -57,7 +57,7 @@ LVOT calcium grading definitions.
 
 : LVOT calcium grading definitions
 
-![LVOT calcification was analyzed in 416 patients from the SOLVE-TAVI trial, which randomized patients to TAVI with either BEV or SEV and either general anesthesia or conscious sedation. There was no significant difference in the incidence of a composite endpoint of all-cause mortality, stroke, moderate or severe paravalvular regurgitation, permanent pacemaker implantation and annulus rupture. There was no interaction between prosthesis type and LVOT calcification. BEV: balloon-expandable valve; Ca: calcification; LVOT: left ventricular outflow tract; SEV: self-expanding valve; TAVI: transcatheter aortic valve implantation. [@Farhan2022]](../../images/tavi/fig%20TAVI%20LVOT%20calcification.png)
+![LVOT calcification was analyzed in 416 patients from the SOLVE-TAVI trial, which randomized patients to TAVI with either BEV or SEV and either general anesthesia or conscious sedation. There was no significant difference in the incidence of a composite endpoint of all-cause mortality, stroke, moderate or severe paravalvular regurgitation, permanent pacemaker implantation and annulus rupture. There was no interaction between prosthesis type and LVOT calcification. BEV: balloon-expandable valve; Ca: calcification; LVOT: left ventricular outflow tract; SEV: self-expanding valve; TAVI: transcatheter aortic valve implantation. [@Farhan2022]](../images/tavi/fig%20TAVI%20LVOT%20calcification.png)
 
 
 
@@ -65,12 +65,12 @@ LVOT calcium grading definitions.
 
 在執行TAVI時，最基本的工夫就是要能夠通過狹窄的主動脈瓣，進入到LV cavity. Dr. Elias Hanna在YouTube上推出了非常詳細的影片，值得大家參考。我是在Mainz進修時，與Dr. Kabir認識，他跟我推薦我才知道網路上有這麼詳細的教學資料。
 
-![網路上search keywords: [Elias Hanna](https://www.youtube.com/watch?v=P0czcxqgfOo) Left Ventricular catheterization. [**點擊這裡可以連至YouTube**](https://www.youtube.com/watch?v=P0czcxqgfOo)](../../images/teer/fig%20Elias%20Hanna%20teaching.png)
+![網路上search keywords: [Elias Hanna](https://www.youtube.com/watch?v=P0czcxqgfOo) Left Ventricular catheterization. [**點擊這裡可以連至YouTube**](https://www.youtube.com/watch?v=P0czcxqgfOo)](../images/teer/fig%20Elias%20Hanna%20teaching.png)
 
 
 ## THV implantation technique
 
-![高位植入 (high implantation) 經導管心臟瓣膜（THV）可顯著減少 TAVI（經導管主動脈瓣置換術）後的傳導異常。然而，TAVI 後的電腦斷層掃描顯示，TAVI 後未來可能會面臨不利的冠狀動脈通路風險，以及在 TAVI 疊加 TAVI 時發生竇房分離的風險。[@Ochiai2023]](../../images/tavi/fig%20TAVI%20implantation%20tech.png)
+![高位植入 (high implantation) 經導管心臟瓣膜（THV）可顯著減少 TAVI（經導管主動脈瓣置換術）後的傳導異常。然而，TAVI 後的電腦斷層掃描顯示，TAVI 後未來可能會面臨不利的冠狀動脈通路風險，以及在 TAVI 疊加 TAVI 時發生竇房分離的風險。[@Ochiai2023]](../images/tavi/fig%20TAVI%20implantation%20tech.png)
 
 
 ## Step-by-Step of TAVI
@@ -246,7 +246,7 @@ AVC 通過 MDCT 掃描取得的影像進行測量，使用modified Agatston 方�
 
 
 
-![使用MDCT進行TAVI術後追蹤，主要是觀察各項THV結構。](../../images/tavi/fig%20TAVI%20MDCT.png)
+![使用MDCT進行TAVI術後追蹤，主要是觀察各項THV結構。](../images/tavi/fig%20TAVI%20MDCT.png)
 
 | **項目** | **內容** |
 |---|---|
@@ -259,6 +259,6 @@ AVC 通過 MDCT 掃描取得的影像進行測量，使用modified Agatston 方�
 
 : TAVI術後心臟超音波追蹤重點
 
-![THV thrombosis](../../images/tavi/fig%20TAVI%20THV%20thrombosis.png)
+![THV thrombosis](../images/tavi/fig%20TAVI%20THV%20thrombosis.png)
 
-![Standard method of THV velocity measurement](../../images/tavi/fig%20TAVI%20echo%20LVOT.png)
+![Standard method of THV velocity measurement](../images/tavi/fig%20TAVI%20echo%20LVOT.png)

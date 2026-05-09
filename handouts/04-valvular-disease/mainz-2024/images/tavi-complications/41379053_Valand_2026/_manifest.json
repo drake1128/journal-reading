@@ -1,0 +1,30 @@
+{
+  "pdf": "41379053_Valand_2026.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 1694,
+      "height": 834,
+      "ext": "png",
+      "bytes": 1090212
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1694,
+      "height": 801,
+      "ext": "png",
+      "bytes": 1251661
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1694,
+      "height": 847,
+      "ext": "png",
+      "bytes": 1334307
+    }
+  ]
+}

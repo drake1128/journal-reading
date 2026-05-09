@@ -1,0 +1,38 @@
+{
+  "pdf": "36974043_Kassis_2023.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 669,
+      "ext": "jpeg",
+      "bytes": 82437
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1495,
+      "height": 752,
+      "ext": "jpeg",
+      "bytes": 109856
+    },
+    {
+      "file": "fig-03_p3.jpeg",
+      "page": 3,
+      "width": 1495,
+      "height": 651,
+      "ext": "jpeg",
+      "bytes": 101838
+    },
+    {
+      "file": "fig-04_p4.jpeg",
+      "page": 4,
+      "width": 1520,
+      "height": 1436,
+      "ext": "jpeg",
+      "bytes": 314809
+    }
+  ]
+}

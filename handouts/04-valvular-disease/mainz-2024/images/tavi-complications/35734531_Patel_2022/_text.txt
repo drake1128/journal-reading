@@ -1,0 +1,608 @@
+
+=== PAGE 1 ===
+MINI-FOCUS ISSUE: PROCEDURAL COMPLICATIONS
+CASE REPORT: CLINICAL CASE
+Synchronous Type 3 EVAR Endoleaks at
+Multiple Sites Following Transfemoral
+Transcatheter Aortic Valve Replacement
+Sankalp P. Patel, DO,a Brian J. Solomon, MD,b Shona V. Velamakanni, MD,c Robert J. Cubeddu, MD,c
+Elsy V. Navas, MD,c James M. Scanlon, MDd
+ABSTRACT
+We describe a complication following transfemoral transcatheter aortic valve replacement in a patient who underwent
+remote endovascular abdominal aortic aneurysm repair. This report highlights technical complications to be vigilant of
+when using intravascular catheterization in patients with previous aneurysm repair while also showcasing synchronous
+type 3 endoleaks at multiple sites. (Level of Difﬁculty: Advanced.) (J Am Coll Cardiol Case Rep 2022;4:742–750)
+© 2022 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is
+an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A
+78-year-old
+man
+presented
+in
+2012
+with
+an
+expanding 4.7-cm abdominal aortic aneurysm (AAA)
+complicated by a 2.5-cm right common iliac artery
+aneurysm (CIAA) and a 3.8-cm internal iliac artery
+aneurysm (IIAA). He ﬁrst underwent embolization of
+the inﬂow and outﬂow of the right IIAA, given the
+lethality if this were to rupture, followed by endo-
+vascular aneurysm repair (EVAR) of the AAA and the
+right CIAA. He was very compliant with surveillance
+follow-up and underwent serial biannual computed
+tomography
+(CT)
+angiography
+(CTA)
+scans
+for
+24 months postoperatively, all of which revealed no
+evidence of endoleaks. Thereafter, he underwent
+annual
+noncontrast
+CT
+and
+duplex
+ultrasound
+examinations for the following 7 years that continued
+to show no endoleaks and sac regression to 3.8 cm
+(Figure 1), down from 4.7 cm.
+A little over 8 years post-EVAR without complica-
+tions, the patient experienced worsening of under-
+lying
+aortic
+stenosis
+(AS)
+as
+detected
+on
+a
+transthoracic
+echocardiogram,
+which
+showed
+an
+aortic valve area of 0.93 cm2 and a mean gradient of
+LEARNING OBJECTIVES
+ To recognize type 3 endoleaks as plausible
+complications occurring after transfemoral
+TAVR in patients with previous EVAR.
+ To promote vigilance in providers who are
+performing intra-aortic catheter-based pro-
+cedures in patients with previous EVAR.
+ To
+highlight
+that
+transfemoral
+TAVR
+in
+patients with previous EVAR is a high-risk
+procedure and should be considered only
+with extreme caution when other routes of
+access are deemed unfeasible.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2022.04.017
+From the aDepartment of Internal Medicine, Graduate Medical Education, NCH Healthcare System, Naples, Florida, USA;
+bDepartment of Cardiothoracic Surgery, Naples Heart Institute, NCH Healthcare System, Naples, Florida, USA; cDepartment of
+Cardiology, Naples Heart Institute, NCH Healthcare System, Naples, Florida, USA; and the dDepartment of Vascular Surgery, NCH
+Healthcare System, Naples, Florida, USA.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received December 14, 2021; revised manuscript received April 11, 2022, accepted April 28, 2022.
+J A C C : C A S E R E P O R T S
+V O L . 4 , N O . 1 2 , 2 0 2 2
+ª 2 0 2 2 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E
+O F
+C A R D I O L O G Y
+F O U N D A T I O N .
+T H I S
+I S
+A N
+O P E N A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+38 mm Hg, in conjunction with worsened dyspnea
+and fatigue. Given his advanced age, history of cor-
+onary artery bypass graft (CABG), and development of
+concomitant end-stage renal disease dependent on
+peritoneal dialysis, the patient was deemed an ideal
+candidate for transcatheter aortic valve replacement
+(TAVR). He was sized appropriately for a 26-mm
+SAPIEN-3 valve (Edwards Lifesciences). He under-
+went pre-TAVR femoral cardiac catheterization to
+elucidate his coronary anatomy; the study showed a
+2/2 patent CABG, along with persistent native 2-
+vessel coronary artery disease. Given underlying
+EVAR, alternate access was considered; however,
+because
+of
+our
+patient’s
+unfavorable
+anatomy,
+transcarotid
+or
+transsubclavian
+access
+was
+not
+feasible
+(Video
+1),
+and
+transapical
+access
+was
+considered but deemed too invasive in view of our
+patient’s comorbidities. On the day of the TAVR
+procedure, difﬁculty in obtaining percutaneous ac-
+cess of the left common femoral artery (CFA) as a
+result of scarring from previous EVAR was encoun-
+tered, and the case was terminated pre-emptively to
+arrange for vessel access by open exposure for un-
+complicated sheath insertion. Later that day, open
+exposure of the left CFA and placement of the 14-F
+valve delivery system were performed without im-
+mediate complications (Video 2); the right CFA was
+percutaneously accessed with placement of a 7-F
+sheath. The procedure was successful, and his re-
+covery was uneventful, with discharge <48 hours
+postoperatively.
+The
+patient
+returned
+5
+months
+post-TAVR
+because of chronic cholecystitis and a symptomatic
+inguinal
+hernia
+with
+a
+malfunctioning
+dialysis
+catheter. He underwent placement of a new peri-
+toneal catheter, but abdominal pain persisted; thus,
+noncontrast
+CT
+of
+the
+abdomen
+was
+performed
+(Figure 2). The outer diameter measurements of the
+residual AAA sac had increased to 4.5 cm (up from
+the previous duplex scan when the sac measured
+3.8 cm). Follow-up duplex study of his aorta was
+performed, revealing 2 distinct areas of synchro-
+nous EVAR graft endoleaks. One area of obvious
+ﬂow
+through
+the
+stent
+graft
+appeared
+to
+be
+involving
+the
+distal
+aspect
+of
+the
+main
+body
+(Figure 3), and the second area was 2 to 3 cm distal,
+located on the proximal right iliac limb (Figure 4).
+The
+size
+of
+the
+leaks
+on
+duplex
+examination
+(1.6
+mm)
+correlated
+with
+the
+size
+of
+wires
+or
+catheters
+used
+during
+transfemoral
+cardiac
+catheterization and TAVR, both from the
+right-sided femoral access (Figure 5). CTA of
+the abdomen and pelvis was obtained, and
+this
+conﬁrmed
+the
+presence
+of
+contrast
+extravasation at these same 2 sites during
+the arterial phase of the scan; no other sites
+of endoleak were present (Figure 6). We
+believe this to be the ﬁrst presumed case of
+iatrogenic synchronous type 3b endoleaks to
+be reported in the literature.
+PAST MEDICAL HISTORY
+In addition to the AAA and symptomatic AS
+outlined earlier, the patient had a compli-
+cated medical history, including coronary
+artery disease after remote CABG, end-stage
+renal disease requiring peritoneal dialysis,
+paroxysmal atrial ﬁbrillation (treated with
+warfarin), obstructive sleep apnea, mono-
+clonal gammopathy of undetermined signiﬁcance,
+sick
+sinus
+syndrome
+with
+pacemaker,
+and
+cholecystectomy.
+DIFFERENTIAL DIAGNOSIS
+The differential diagnosis included the following:
+1) type 3 endoleaks secondary to intra-arterial cathe-
+terization procedures performed 5 months previ-
+ously, including transfemoral cardiac catheterization
+and transfemoral TAVR placement; 2) spontaneous
+endoleaks secondary to inadequate overlap or fabric
+breakdown over 7 years; and 3) possible perforation
+of EVAR graft during valve deployment.
+INVESTIGATIONS
+Serial CTA scans and duplex ultrasound examina-
+tions performed after the original EVAR in 2012 and
+until
+2020
+revealed
+stability
+and
+sac
+regression
+from 4.7 cm to 3.8 cm over the course of 7 years. A
+few months after TAVR and cardiac catheterization
+in
+early
+2021,
+CT
+of
+the
+abdomen
+reveals
+an
+AAA sac measuring 4.5 cm, with an aortic duplex
+study
+conﬁrming
+the
+presence
+of
+synchronous
+endoleaks.
+MANAGEMENT
+On ﬁnding progression of sac size along with endo-
+leaks on the duplex study and CTA, the patient
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AAA = abdominal aortic
+aneurysm
+AS = aortic stenosis
+CABG = coronary artery bypass
+graft
+CFA = common femoral artery
+CIAA = common iliac artery
+aneurysm
+CT = computed tomography
+CTA = computed tomography
+angiography
+EVAR = endovascular
+aneurysm repair
+IIAA = internal iliac artery
+aneurysm
+TAVR = transcatheter aortic
+valve replacement
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Patel et al
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+743
+
+=== PAGE 3 ===
+underwent endoleak repair. Bilateral femoral access
+was obtained; a small, active area of extravasation in
+the distal main body of the graft and another area of
+contrast leak in ﬁrst 2 cm of the right limb of the graft
+were
+visualized.
+These
+ﬁndings
+corresponded
+directly with sites on the duplex study and CTA. The
+main body of the graft was relined with a cuff
+extended down to the ﬂow divider (28-28-49), with
+the right limb relined proximally with a new limb
+(16-16-82), with slight proximal overlap into the new
+cuff.
+Postprocedural
+views
+revealed
+signiﬁcant
+improvement.
+DISCUSSION
+This case report highlights the rare complication
+of type 3b endoleaks secondary to a presumable iat-
+rogenic cause. We perceive that the cause of the
+endoleaks was possibly a wire or catheter advanced
+from
+the
+right-sided
+access,
+given
+the
+size
+and
+FIGURE 1
+Pre-Transcatheter Aortic Valve Regurgitation Computed Tomography of the Abdomen With Contrast Revealing a 3.8-cm
+Abdominal Aortic Aneurysm in the Axial and Coronal Slices
+(Bottom left) Measurements of diameter.
+Patel et al
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+744
+
+=== PAGE 4 ===
+laterality of the leaks found. The proximal right iliac
+limb graft approached the main body with a 45 to 50
+angle in its course (Figure 7). This angle may have
+deﬂected a guidewire under a fold in the stent graft at
+the inner part of the bend, thus causing it to puncture
+the graft material. Following this trajectory, the wire
+would have either advanced along between the main
+body and native aortic neck or instead re-entered the
+FIGURE 2
+Expansion of Previous Aneurysmal Diameter From 3.8 cm to 4.5 cm Within 6 Months
+FIGURE 3
+Endoleak Depicted on a Duplex Study in the Main Body of the EVAR Graft
+EVAR ¼ endovascular aneurysm repair.
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Patel et al
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+745
+
+=== PAGE 5 ===
+main body, which it appears to have done (Figure 8).
+One suggested strategy, especially when advancing
+or maneuvering a wire within an endovascular de-
+vice, is to advance a pig-tail catheter with partial wire
+support gradually while slowly spinning it to avoid
+puncturing a device or slipping between overlap sites.
+This maneuver is always done under live direct im-
+aging, although this strategy is not supported by
+fortiﬁed data in this speciﬁc patient subset. The age
+of the graft material, nearly 8 years, may also have
+contributed to the ability of a wire to puncture the
+graft so readily.
+Given
+the
+placement
+of
+the
+third-generation
+Endurant endograft in our patient, the reported
+incidence of experiencing type 3 endoleaks is <2%.1,2
+Type 3 endoleaks usually result in rapid aneurysm
+expansion, as evidenced in our patient’s timeframe
+with expansion from 3.8 to 4.5 cm within 5 months.
+Once found, prompt intervention is required. Type 3b
+endoleaks, notoriously deﬁned as fabric disruption of
+the
+actual endograft, are
+rare, especially in the
+endovascular graft placed in our patient; this subtype
+of endoleak can be further subdivided into holes >2
+or <2 mm.3 Deﬁnitive diagnosis of type 3b endoleak
+remains a challenge, with CTA conﬁrming approxi-
+mately 20%.4
+Limited data currently exist regarding preproce-
+dural planning in this subset of patients with previous
+EVAR who are undergoing transfemoral intravascular
+catheterization; nonetheless, the feasibility of per-
+forming speciﬁcally tailored duplex imaging of pre-
+viously repaired aneurysms before proceeding with
+transfemoral TAVR should be further investigated
+where
+alternative
+access
+may
+pose
+hindrance.
+Through extensive literature review, we found no
+rigid recommendation on severity of vessel tortuosity
+or angulation that may preclude proceeding with a
+transfemoral
+approach
+in
+patients
+with
+previous
+EVAR; however, if alternate access is a possibility, it
+should be prioritized. In addition to limited guidance
+in place for preprocedural planning, minutiae of data
+exist supporting periprocedural and postprocedural
+monitoring as well. Perhaps more judicious use of
+contrast material, especially when passing wires or
+FIGURE 4
+Proximal Right Limb of the Graft Revealing a Second Endoleak
+RT ¼ right.
+Patel et al
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+746
+
+=== PAGE 6 ===
+sheaths through previous EVAR, is warranted, with
+more vigilant follow-up with vascular surgery in the
+outpatient setting after TAVR.
+There are numerous cases in the literature of focal
+aortic perforation during TAVR that necessitated
+emergency EVAR5,6; nonetheless, rare in the litera-
+ture are cases of transfemoral catheterization and
+TAVR contributing to a type 3b EVAR endoleak,
+let alone synchronous endoleaks. We hope our case
+serves to streamline further investigative efforts in
+hopes eventually to delineate a standardized protocol
+in patients with previous endovascular grafting as
+TAVR becomes a more favorable option for patients
+such as ours.
+FOLLOW-UP
+At
+1-month
+follow-up,
+postoperative
+CTA
+was
+performed, conﬁrming resolution of endoleaks and
+sac regression to 4.3 cm (Figure 9).
+CONCLUSIONS
+With
+the
+advent
+of
+novel
+transcatheter
+valve
+replacement methods, it is imperative to recognize
+the risk that intravascular catheterization can impose
+on previous endovascular stents or grafts for aneu-
+rysmal repair. The course of stent grafts used to treat
+thoracoabdominal
+aortic
+diseases
+can
+often
+be
+tortuous and steeply angled, with in-folding material
+and struts that can impede or redirect wire or catheter
+advancement. We hope to promote awareness of this
+complication and urge fellow clinicians to remain
+vigilant of previous endovascular grafts before pro-
+ceeding with routine transfemoral catheterization
+procedures.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS
+FOR
+CORRESPONDENCE:
+Dr
+Sankalp
+P. Patel, Department of Internal Medicine, Graduate
+Medical Education, NCH Healthcare System, 311 9th
+Street North, Naples, Florida 34102, USA. E-mail:
+sankalp.patel@nchmd.org.
+FIGURE 5
+Depiction of Endovascular Aneurysm Repair Graft With Suspected Sites of
+Endoleaks Correlating With Sizes of Intravascular Catheters Used During Trans-
+catheter Aortic Valve Regurgitation
+The dotted line represents the transfemoral intravascular catheter within the graft,
+whereas the solid line represents where supposed graft perforations occurred. The red
+circles are the hypothesized entry and exit points of the wire.
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Patel et al
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+747
+
+=== PAGE 7 ===
+FIGURE 6
+Computed Tomography Angiography Depicting Contrast Extravasation From the Body and Proximal Right Limb of the Graft
+That Conﬁrms the Presence of Synchronous Endoleaks
+FIGURE 7
+The 3-Dimensional Renderings of Gated Computed Tomography Angiography Highlighting Tortuosity Within the
+Endovascular Graft
+Patel et al
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+748
+
+=== PAGE 8 ===
+FIGURE 8
+Computed Tomography Angiography Before Transcatheter Aortic Valve Regurgitation
+Computed tomography angiography depicts a steep angulated curvature of the endovascular graft with a hypothesized pathway (red) for
+perforation resulting in synchronous type 3B endoleaks.
+FIGURE 9
+Computed Tomography Images of the Abdomen and Pelvis Performed After Endovascular Repair Revealing Aneurysmal
+Diameter Decreased to 4.3 cm From 4.5 cm
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Patel et al
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+749
+
+=== PAGE 9 ===
+R E F E R E N C E S
+1. Maleux G, Poorteman L, Laenen A, et al. Inci-
+dence, etiology, and management of type III
+endoleak after endovascular aortic repair. J Vasc
+Surg. 2017;66(4):1056–1064.
+2. Böckler D, Riambau V, Fitridge R, et al. Engage
+Investigators.
+Worldwide
+experience
+with
+the
+Endurant stent graft: review of the literature.
+J Cardiovasc Surg (Torino). 2011;52(5):669–681.
+3. Chen J, Stavropoulos SW. Management of
+endoleaks. Semin Intervent Radiol. 2015;32(3):
+259–264.
+4. Lowe C, Hansrani V, Madan M, Antoniou GA.
+Type IIIb endoleak after elective endovascular
+aneurysm repair: a systematic review. J Cardiovasc
+Surg (Torino). 2020;61(3):308–316.
+5. Long A, Mahoney P. TAVR complicated by
+thoracic aortic perforation and intussusception of
+the right iliac: report of successful emergent
+management
+with
+endovascular
+techniques.
+J Invasive Cardiol. 2019;31(5):E97.
+6. Rujirachun P, Junyavoraluk A, Jakrapanichakul D,
+et al. Immediate aortic dissection after transcatheter
+aortic
+valve
+replacement:
+a
+case
+report
+and
+review of the literature. Clin Case Rep. 2021;9(7):
+e04412.
+KEY WORDS aneurysm, endoleak,
+complications, EVAR, TAVR
+APPENDIX For supplemental
+videos, please see the online version of this
+article.
+Patel et al
+J A C C : C A S E R E P O R T S , V O L . 4 , N O . 1 2 , 2 0 2 2
+Multiple Type 3 EVAR Endoleaks After Transfemoral TAVR
+J U N E 1 5 , 2 0 2 2 : 7 4 2 – 7 5 0
+750

@@ -1,0 +1,94 @@
+{
+  "pdf": "41641912_Hu_2026.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1071,
+      "height": 787,
+      "ext": "png",
+      "bytes": 878909
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1071,
+      "height": 780,
+      "ext": "png",
+      "bytes": 713746
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 1071,
+      "height": 973,
+      "ext": "png",
+      "bytes": 1132325
+    },
+    {
+      "file": "fig-04_p4.png",
+      "page": 4,
+      "width": 1071,
+      "height": 837,
+      "ext": "png",
+      "bytes": 493180
+    },
+    {
+      "file": "fig-05_p5.png",
+      "page": 5,
+      "width": 1071,
+      "height": 794,
+      "ext": "png",
+      "bytes": 736974
+    },
+    {
+      "file": "fig-06_p5.png",
+      "page": 5,
+      "width": 1072,
+      "height": 782,
+      "ext": "png",
+      "bytes": 725666
+    },
+    {
+      "file": "fig-07_p6.png",
+      "page": 6,
+      "width": 797,
+      "height": 1088,
+      "ext": "png",
+      "bytes": 877405
+    },
+    {
+      "file": "fig-08_p6.png",
+      "page": 6,
+      "width": 797,
+      "height": 1024,
+      "ext": "png",
+      "bytes": 751593
+    },
+    {
+      "file": "fig-09_p6.png",
+      "page": 6,
+      "width": 797,
+      "height": 1017,
+      "ext": "png",
+      "bytes": 762412
+    },
+    {
+      "file": "fig-10_p6.png",
+      "page": 6,
+      "width": 797,
+      "height": 979,
+      "ext": "png",
+      "bytes": 751189
+    },
+    {
+      "file": "fig-11_p7.png",
+      "page": 7,
+      "width": 797,
+      "height": 1108,
+      "ext": "png",
+      "bytes": 909070
+    }
+  ]
+}

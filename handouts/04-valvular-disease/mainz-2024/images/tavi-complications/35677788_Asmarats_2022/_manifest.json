@@ -1,0 +1,30 @@
+{
+  "pdf": "35677788_Asmarats_2022.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 1495,
+      "height": 1484,
+      "ext": "jpeg",
+      "bytes": 278236
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1495,
+      "height": 1507,
+      "ext": "jpeg",
+      "bytes": 234692
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1968,
+      "height": 1316,
+      "ext": "jpeg",
+      "bytes": 346981
+    }
+  ]
+}

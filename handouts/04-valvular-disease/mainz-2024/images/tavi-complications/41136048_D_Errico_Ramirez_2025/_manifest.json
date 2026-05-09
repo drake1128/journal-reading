@@ -1,0 +1,70 @@
+{
+  "pdf": "41136048_D_Errico_Ramirez_2025.pdf",
+  "pages": 7,
+  "figures": [
+    {
+      "file": "fig-01_p3.png",
+      "page": 3,
+      "width": 1943,
+      "height": 956,
+      "ext": "png",
+      "bytes": 3888443
+    },
+    {
+      "file": "fig-02_p4.png",
+      "page": 4,
+      "width": 1345,
+      "height": 690,
+      "ext": "png",
+      "bytes": 863747
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 797,
+      "height": 1151,
+      "ext": "png",
+      "bytes": 602134
+    },
+    {
+      "file": "fig-04_p5.png",
+      "page": 5,
+      "width": 1345,
+      "height": 773,
+      "ext": "png",
+      "bytes": 924494
+    },
+    {
+      "file": "fig-05_p5.png",
+      "page": 5,
+      "width": 1345,
+      "height": 572,
+      "ext": "png",
+      "bytes": 724532
+    },
+    {
+      "file": "fig-06_p6.png",
+      "page": 6,
+      "width": 797,
+      "height": 604,
+      "ext": "png",
+      "bytes": 1317437
+    },
+    {
+      "file": "fig-07_p6.png",
+      "page": 6,
+      "width": 797,
+      "height": 578,
+      "ext": "png",
+      "bytes": 812467
+    },
+    {
+      "file": "fig-08_p6.png",
+      "page": 6,
+      "width": 797,
+      "height": 479,
+      "ext": "png",
+      "bytes": 1054103
+    }
+  ]
+}

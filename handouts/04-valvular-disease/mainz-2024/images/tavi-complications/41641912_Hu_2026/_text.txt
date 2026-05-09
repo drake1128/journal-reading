@@ -1,0 +1,567 @@
+
+=== PAGE 1 ===
+QICC
+HOW WE DID IT
+Aortic Valve Stenosis and Insufficiency 
+Combined With Aortic Coarctation
+Tao Hu, MM, Weiling Tu, MM, Linfeng Li, MD
+ABSTRACT
+BACKGROUND The coexistence of aortic valve stenosis and regurgitation with native coarctation is a rare and complex 
+condition in adults, especially those with significant surgical risks, complicating management.
+CASE SUMMARY A 60-year-old male with poorly controlled hypertension, chronic kidney disease, and atrial fibril-
+lation presented with progressive dyspnea and chest tightness. Echocardiography revealed a bicuspid aortic valve with 
+moderate stenosis and regurgitation, reduced ejection fraction, and left ventricular dilation. Computed tomography 
+showed near-occlusive coarctation of the descending aorta. Given high surgical risk, conventional surgery was deemed 
+unfeasible.
+DISCUSSION A single-session transcatheter “one-stop” approach, combining balloon angioplasty, aortic valve 
+replacement, and stent implantation, was performed, resulting in immediate hemodynamic improvement.
+TAKE-HOME MESSAGE A unified, single-session transcatheter strategy offers a safe and effective alternative for 
+high-risk patients with aortic valve disease and coarctation. (JACC Case Rep. 2026;31:106415) © 2026 The Authors. 
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under 
+the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+A 
+ortic coarctation (CoA) in adults is a rare 
+congenital 
+cardiovascular 
+anomaly, 
+frequently associated with bicuspid aortic 
+valve and other left-sided obstructive lesions. 1,2 The 
+coexistence of severe aortic valve disease and native 
+coarctation presents a complex clinical challenge, 
+particularly in patients deemed high risk for conven-
+tional surgery. Transcatheter approaches have revolu-
+tionized the management of such conditions 
+individually, but combined “one-stop” procedures 
+remain scarcely reported. 3,4 We present a successful 
+case of simultaneous transcatheter treatment of aortic 
+stenosis with regurgitation and aortic coarctation via a 
+meticulously planned single-stage procedure.
+HISTORY OF PRESENTATION
+A 60-year-old male was admitted to our cardiology 
+department with a 2-year history of recurrent chest
+TAKE-HOME MESSAGES
+• Single-session transcatheter approach is 
+safe and effective for high-risk patients with 
+combined aortic valve disease and 
+coarctation.
+• Meticulous 
+preoperative 
+imaging 
+and 
+multidisciplinary planning are essential for 
+success.
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.106415
+From the Jiangxi Provincial People’s Hospital, The First Affiliated Hospital of Nanchang Medical College, Nanchang, Jiangxi, 
+China.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received September 11, 2025; revised manuscript received November 10, 2025, accepted November 14, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 1 , N O . 5 , 2 0 2 6
+ª 2 0 2 6 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+tightness and exertional dyspnea, which had 
+significantly worsened over the preceding 
+month. 
+His 
+medical 
+history 
+included 
+poorly controlled hypertension (max BP 
+180/100 mm Hg on amlodipine), chronic 
+kidney 
+disease 
+(baseline 
+creatinine 
+∼152 
+μmol/L), 
+and 
+persistent 
+atrial 
+fibrillation.
+Physical examination revealed an irreg-
+ular pulse (HR 63 bpm), a blood pressure 
+discrepancy (161/53 mm Hg in the right arm), 
+and a loud 5/6 systolic ejection murmur 
+accompanied by a 4/6 diastolic decrescendo 
+murmur at the aortic area. No peripheral 
+edema was noted.
+PAST MEDICAL HISTORY
+The patient had a history of poorly controlled hy-
+pertension, chronic kidney disease, and persistent 
+atrial fibrillation.
+DIFFERENTIAL DIAGNOSIS
+The following differential diagnoses were consid-
+ered:
+1. Isolated severe aortic stenosis without coarcta-
+tion—excluded by blood pressure discrepancy be-
+tween extremities.
+2. Secondary hypertension from renal artery steno-
+sis—excluded by the absence of abdominal bruits 
+and characteristic cardiac findings.
+3. Hypertrophic 
+cardiomyopathy—excluded 
+by 
+echocardiographic demonstration of valvular 
+rather than myocardial pathology.
+4. Previously repaired coarctation with re-stenosis— 
+excluded by patient history and imaging confir-
+mation of native coarctation.
+Multimodality imaging with transthoracic echo-
+cardiography (TTE) and computed tomographic 
+angiography (CTA) confirmed the diagnosis of
+VISUAL SUMMARY
+Timeline of the Case
+Timeline 
+Events
+Date of admission 
+Day 1
+60-year-old male presented with NYHA functional class III symptoms and a 2-year history of recurrent chest tightness and 
+exertional dyspnea, worsening over 1 month. Medical history included poorly controlled hypertension (max BP 180/
+100 mm Hg), chronic kidney disease (creatinine ∼152 μmol/L), and persistent atrial fibrillation.
+Physical examination revealed blood pressure discrepancy (161/53 mm Hg), loud 5/6 systolic ejection murmur, and 4/6 diastolic 
+decrescendo murmur at aortic area.
+Day 1-7
+Comprehensive diagnostic workup completed:
+• Transthoracic echocardiography demonstrated bicuspid aortic valve with moderate stenosis (peak velocity 3.7 m/s), 
+moderate-to-severe regurgitation, reduced LVEF (43%), and left ventricular dilation (LVDd 63 mm).
+• Computed tomographic angiography revealed severe, nearly occlusive aortic coarctation just distal to left subclavian 
+artery origin with extensive collateral circulation.
+• Diagnosis confirmed: Severe aortic valve disease (combined stenosis and regurgitation), aortic coarctation, persistent 
+atrial fibrillation, NYHA functional class III heart failure.
+• STS risk score: 9.13% (prohibitive surgical risk).
+• Multidisciplinary heart team recommended transcatheter-based “one-stop” strategy.
+Week 1 
+(Day 7)
+Combined transcatheter procedure performed under general anesthesia with TEE guidance:
+• Step 1: Coarctation balloon angioplasty (8 × 120 mm balloon at 12 atm) via through-and-through wire technique. 
+Significant lumen improvement achieved without complications.
+• Step 2: Transcatheter aortic valve replacement (TAVR) with 27-mm self-expanding VitaFlow valve. Post-dilation 
+performed. Final gradient: 1.3 m/s with trace paravalvular leak.
+• Step 3: Cheatham-Platinum (CP) covered stent implantation at coarctation site via a 14-F delivery sheath. Optimal 
+stent expansion confirmed without endoleak.
+• Total procedure time: ∼2 hours. No acute complications. Patient transferred to CCU in stable condition.
+Postprocedure 
+Day 3
+Hemodynamic status improved immediately postprocedure. Blood pressure normalized without antihypertensive medications. 
+Temporary pacemaker removed. Patient remained stable in CCU.
+Postprocedure 
+Day 7
+Patient discharged in stable condition. Blood pressure remained controlled without medications. No symptoms of heart failure 
+or dyspnea.
+1 Month 
+Follow-up
+Patient reported complete resolution of symptoms. No chest tightness or dyspnea. 
+Transthoracic echocardiography confirmed:
+• Well-functioning prosthetic valve
+• Peak gradient: 1.9 m/s
+• Mild paravalvular leak
+• Blood pressure remained controlled
+Patient demonstrated excellent recovery with sustained clinical improvement.
+Please use generic, unidentifiable timeline descriptors, to avoid patient identification.
+CCU = Cardiac Care Unit; LVDd = left ventricular dilatation; LVEF = left ventricular ejection fraction; STS = Society of Thoracic Surgeons; TEE = transesophageal 
+echocardiographic.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+CoA = aortic coarctation
+CP = Cheatham-Platinum
+CTA = computed tomographic
+angiography
+LVDd = left ventricular
+dilatation
+LVEF = left ventricular
+ejection fraction
+TAVR = transcatheter aortic
+valve replacement
+TEE = transesophageal
+echocardiographic
+TTE = transthoracic
+echocardiography
+Hu et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 5 , 2 0 2 6
+Aortic Valve Disease With Coarctation 
+F E B R U A R Y 4 , 2 0 2 6 : 1 0 6 4 1 5
+2
+
+=== PAGE 3 ===
+bicuspid aortic valve disease with severe native 
+aortic coarctation.
+INVESTIGATIONS
+TTE demonstrated a bicuspid aortic valve with 
+degenerative changes, moderate stenosis (peak ve-
+locity 3.7 m/s), moderate-to-severe regurgitation 
+(Figure 1) (regurgitant area 6.9 cm 2 ), reduced left 
+ventricular ejection fraction (43%), left ventricular 
+dilatation (63 mm), and concentric hypertrophy 
+(16 mm, LVPWd 14 mm) (Figure 2). Small pericardial 
+effusion was also present.
+CTA of the thoracoabdominal aorta and coronary 
+arteries provided critical anatomical details (Figures 3 
+and 4): a severe, nearly occlusive coarctation just 
+distal to the left subclavian artery origin, with 
+extensive collateral circulation and localized post-
+stenotic dilatation (Figures 5 and 6). Coronary arteries 
+showed mild atherosclerosis without significant 
+obstruction.
+MANAGEMENT
+The patient was diagnosed with severe aortic valve 
+disease (combined stenosis and regurgitation), aortic 
+coarctation, cardiomegaly, persistent atrial fibrilla-
+tion, and NYHA functional class III heart failure. With 
+an elevated Society of Thoracic Surgeons STS risk 
+score of 9.13%, he was considered a prohibitive 
+candidate for traditional surgical repair (aortic valve 
+replacement plus coarctation correction). A multi-
+disciplinary 
+heart 
+team 
+recommended 
+a 
+transcatheter-based “one-stop” strategy to address 
+both pathologies sequentially in a single session.
+The procedure was performed 1 week after 
+admission under general anesthesia with trans-
+esophageal echocardiographic (TEE) guidance.
+Step 1: Coarctation balloon angioplasty. After 
+placement of a temporary pacemaker via the left 
+femoral vein, the left radial and right femoral arteries 
+were accessed. A JR4 catheter was advanced from the 
+radial artery, and a 0.035-inch guidewire was care-
+fully maneuvered across the severely narrowed 
+coarctation segment. The wire was snared from the 
+right femoral artery to establish a stable through-
+and-through rail.
+A 8 × 120-mm peripheral balloon was then used to 
+dilate the coarctation at 12 atm (Figure 7), resulting in 
+significant improvement in the lumen diameter 
+without immediate complications like dissection 
+(Figure 8).
+Step 2: Transcatheter aortic valve replacement 
+(TAVR). Following successful angioplasty, attention 
+was turned to the aortic valve. The right femoral
+access was upsized to a 22-F sheath. After crossing 
+the stenotic valve with an AL1 catheter and a stiff 
+wire, balloon valvuloplasty was performed with an 
+18 × 40-mm balloon. A 27-mm self-expanding 
+VitaFlow valve (MicroPort Shanghai) was then 
+deployed accurately in the aortic annulus (Figure 9) 
+under rapid pacing and angiographic guidance. Post 
+deployment, a minor paravalvular leak was noted, 
+which was successfully sealed with a 22 × 40-mm 
+balloon post dilation. Final TEE showed excellent 
+valve function with a peak gradient of 1.3 m/s and 
+only trace paravalvular leak.
+FIGURE 1 Transthoracic Echocardiography of Bicuspid Aortic Valve With Moderate 
+Stenosis and Regurgitation
+FIGURE 2 Transthoracic Echocardiography Showing Left Ventricular Hypertrophy 
+and Concentric Thickening
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 5 , 2 0 2 6 
+Hu et al
+F E B R U A R Y 4 , 2 0 2 6 : 1 0 6 4 1 5 
+Aortic Valve Disease With Coarctation
+3
+
+=== PAGE 4 ===
+Step 3: Cheatham-Platinum (CP) stent implanta-
+tion. With the aortic valve successfully treated, the 
+coarctation site was secured. A 14-F delivery sheath 
+was advanced over the existing stiff wire, and a 
+covered CP stent was deployed precisely at the pre-
+viously dilated coarctation segment, just distal to the
+left subclavian artery (Figure 10). Final angiography 
+confirmed optimal stent expansion and resolution of 
+the aortic narrowing without endoleak (Figure 11). 
+The entire procedure was completed in approxi-
+mately 2 hours without any acute complications. The 
+patient was transferred to the Cardiac Care Unit in 
+stable condition.
+OUTCOME AND FOLLOW-UP
+The patient’s hemodynamic status improved imme-
+diately. Blood pressure normalized without any 
+antihypertensive medications. The temporary pace-
+maker was removed on postoperative day 3. He was 
+discharged 1 week later in stable condition. At 
+1-month follow-up, he reported complete resolution 
+of symptoms. TTE confirmed a well-functioning 
+prosthetic valve with a peak gradient of 1.9 m/s and 
+mild paravalvular leak.
+Blood pressure remained controlled.
+DISCUSSION
+This case demonstrates the feasibility and efficacy of 
+a combined transcatheter approach for high-risk pa-
+tients with complex aortic valve disease and 
+congenital CoA. The “one-stop” strategy offers 
+several advantages: it reduces risks and recovery 
+time from multiple surgeries, improves hemody-
+namics by alleviating left ventricular outflow tract 
+obstruction and increased systemic afterload and 
+shortens hospital stays, ultimately reducing costs. 5 
+CoA is frequently associated with bicuspid aortic 
+valve (50% to 85% prevalence), 6 which significantly 
+influences valve selection and procedural planning. 
+The bicuspid anatomy combined with coarctation 
+increases complexity in device delivery and valve 
+sizing, requiring careful assessment to minimize 
+paravalvular leak risk.
+Success depended on thorough preoperative 
+planning with multimodality imaging.
+CTA identified the CoA location, severity, and 
+aortic wall characteristics, guiding our strategy. 
+Intraoperative TEE monitoring allowed real-time 
+hemodynamic assessment.
+The sequence—balloon angioplasty first, followed 
+by TAVR, then stent implantation—minimized device 
+interaction risks and enabled staged evaluation of 
+aortic response.
+Balloon catheter size was carefully selected to 
+relieve obstruction without excessive dilation, with 
+intraoperative 
+adjustments based on imaging 
+feedback.
+Valve selection required careful consideration. 
+While balloon-expandable valves offer advantages
+FIGURE 3 Preoperative CT Angiography of the Thoracoabdominal Aorta Indicates a 
+Severe, Nearly Occlusive Localized Stenosis at the Origin of the Descending Aorta
+FIGURE 4 3-Dimensional Reconstruction of the Preoperative Thoracoabdominal 
+Aorta CTA Demonstrates a Severe Localized Stenosis at the Origin of the 
+Descending Aorta
+Hu et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 5 , 2 0 2 6
+Aortic Valve Disease With Coarctation 
+F E B R U A R Y 4 , 2 0 2 6 : 1 0 6 4 1 5
+4
+
+=== PAGE 5 ===
+including lower crossing profiles (12- to 14-F vs 14- to 
+16-F) and steerable delivery systems facilitating 
+passage through stenosis, we selected a self-
+expanding valve for: 1) superior adaptability to 
+altered aortic geometry post angioplasty; 2) reduced 
+radial force minimizing stress on weakened aortic 
+wall; and 3) repositioning capability. However, 
+balloon-expandable valves with steerable catheters 
+may be preferred in cases with severe angulation or 
+small 
+coarctation 
+sites 
+requiring 
+precise 
+positioning.
+Blood pressure control was more stringent than in 
+typical TAVR due to hemodynamic instability risk 
+from CoA. Vasopressors maintained cardiac perfu-
+sion while ensuring stable pressure after balloon 
+dilation and minimizing fluctuations during valve 
+implantation.
+Aortic dissection was a critical concern. CoA 
+frequently associates with intrinsic aortopathy 
+(medial 
+degeneration, 
+poststenotic 
+dilatation), 
+increasing injury susceptibility during balloon dila-
+tion. 7 Preoperative CTA identified wall thickness and 
+calcification patterns, informing balloon sizing to 
+avoid 
+excessive 
+stress. 
+Emergency 
+protocols 
+included backup covered stents and extracorporeal 
+circulation equipment. 8
+The covered CP stent placement provided addi-
+tional protection against delayed complications.
+This approach employs staged balloon angioplasty 
+before stent deployment, allowing aortic response 
+assessment before permanent device commitment. 
+Despite potential challenges including contrast-
+induced nephropathy or vascular complications, 
+careful patient selection, comprehensive planning, 
+and fluoroscopic guidance ensured successful 
+execution.
+In conclusion, this single-session transcatheter 
+approach represents a safe and effective strategy 
+for high-risk patients with combined aortic valve 
+disease and coarctation. Through meticulous plan-
+ning, rational device selection, and comprehensive 
+risk mitigation, we achieved excellent outcomes 
+while minimizing procedural risks and hospital 
+stay.
+CONCLUSIONS
+For high-risk patients with combined aortic valve 
+and coarctation pathology, a single-session trans-
+catheter approach using balloon angioplasty, TAVR, 
+and CP stent implantation is a safe, effective, and 
+efficient strategy. 7,9 It offers excellent immediate-
+and short-term outcomes, highlighting its potential 
+as a valuable option for the heart team. Further
+experience and long-term follow-up are needed to 
+validate this approach. 6,7,9,10
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Linfeng Li,
+Jiangxi Provincial People’s Hospital, The First Affili-
+ated Hospital of Nanchang Medical College, No. 152, 
+Aiguo Road, Nanchang, Jiangxi, China. E-mail: 
+970734331@qq.com.
+FIGURE 5 Preoperative Computed Tomographic Angiography Showing Severe Aortic 
+Coarctation and Collateral Circulation
+FIGURE 6 3-Dimensional Reconstruction of Preoperative CTA Showing Severe Aortic 
+Coarctation at the Origin of the Descending Aorta
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 5 , 2 0 2 6 
+Hu et al
+F E B R U A R Y 4 , 2 0 2 6 : 1 0 6 4 1 5 
+Aortic Valve Disease With Coarctation
+5
+
+=== PAGE 6 ===
+FIGURE 7
+Balloon Angioplasty of the Descending Aorta
+FIGURE 8 Post-Balloon Angioplasty of the Descending
+Aorta
+FIGURE 9
+Transcatheter Aortic Valve Replacement
+FIGURE 10
+Implantation of the Aortic Cheatham-Platinum
+Covered Stent
+Hu et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 5 , 2 0 2 6
+Aortic Valve Disease With Coarctation 
+F E B R U A R Y 4 , 2 0 2 6 : 1 0 6 4 1 5
+6
+
+=== PAGE 7 ===
+R E F E R E N C E S
+1. Virani SS, Alonso A, Aparicio HJ, et al. Heart 
+disease and stroke statistics—2021 update: a 
+report from the American Heart Association. Cir-
+culation. 2021;143(8):e254–e743. https://doi.org/ 
+10.1161/CIR.0000000000000950
+2. Cribier A, Eltchaninoff H, Bash A, et al. Percu-
+taneous transcatheter implantation of an aortic 
+valve prosthesis for calcific aortic stenosis: first 
+human 
+case 
+description. 
+Circulation. 
+2002;106(24):3006–3008. 
+https://doi.org/10. 
+1161/01.cir.0000047200.36165.b8
+3. Writing 
+Committee 
+Members, 
+Otto 
+CM, 
+Nishimura RA, Bonow RO, et al. 2020 ACC/AHA 
+guideline for the management of patients with 
+valvular heart disease: executive summary: a report 
+of the American College of Cardiology/American 
+Heart Association Joint Committee on clinical prac-
+tice guidelines. J Am Coll Cardiol. 2021;77(4):450– 
+500. https://doi.org/10.1016/j.jacc.2020.11.035
+4. Vahanian A, Beyersdorf F, Praz F, et al. 2021 
+ESC/EACTS guidelines for the management of 
+valvular heart disease: developed by the Task 
+Force for the management of valvular heart dis-
+ease of the European Society of Cardiology (ESC)
+and the European Association for Cardio-Thoracic 
+Surgery (EACTS). Rev Esp Cardiol (Engl Ed). 
+2022;75(6):524. 
+https://doi.org/10.1016/j.rec. 
+2022.05.006
+5. Baumgartner H, Bonhoeffer P, De Groot NMS, 
+et al. ESC guidelines for the management of 
+grown-up congenital heart disease (new version 
+2010): the task force on the management of 
+grown-up congenital heart disease of the Euro-
+pean Society of Cardiology (ESC), Association for 
+European Paediatric Cardiology (AEPC), and the 
+ESC Committee for Practice Guidelines (CPG). Eur 
+Heart J. 2010;31(23):2915–2957. https://doi.org/ 
+10.1093/eurheartj/ehq249
+6. Singh S, Hakim FA, Sharma A, et al. Hypoplasia, 
+pseudocoarctation and coarctation of the aorta: a 
+systematic review. Heart Lung Circ. 2015;24(2): 
+110–118. 
+https://doi.org/10.1016/j.hlc.2014.08. 
+006
+7. Baumgartner H, De Backer J, Babu-Narayan SV, 
+et al. 2020 ESC Guidelines for the management of 
+adult congenital heart disease. Eur Heart J. 
+2021;42(6):563–645. 
+https://doi.org/10.1093/ 
+eurheartj/ehaa554
+8. Karaosmanoglu AD, Khawaja RD, Onur MR, 
+et al. CT and MRI of aortic coarctation: pre - and 
+postsurgical findings. AJR Am J Roentgenol. 
+2015;204(3):W224–W233. 
+https://doi.org/10. 
+2214/AJR.14.12529
+9. Cardoso G, Abecasis M, Anjos R, et al. Aortic 
+coarctation repair in the adult. J Card Surg. 
+2014;29(4):512–518. https://doi.org/10.1111/jocs. 
+12367
+10. Forbes TJ, Kim DW, Du W, et al. Compar-
+ison of surgical, stent, and balloon angioplasty 
+treatment of native coarctation of the aorta: 
+an 
+observational 
+study 
+by 
+the 
+CCISC 
+(Congenital 
+Cardiovascular 
+Interventional 
+Study Consortium). J Am Coll Cardiol. 
+2011;58(25):2664–2674. 
+https://doi.org/10. 
+1016/j.jacc.2011.08.053
+KEY WORDS aortic coarctation, aortic 
+regurgitation, aortic stenosis, Cheatham-
+Platinum stent, one-stop procedure, 
+transcatheter aortic valve replacement 
+(TAVR)
+FIGURE 11 3-Dimensional Reconstruction of 
+Thoracoabdominal Aorta CTA
+EQUIPMENT LIST
+TAVR Catheterization
+• Left radial artery access (5-F or 6-F sheath)
+• Right femoral artery access (Intro 3 sheath)
+• Femoral 22-F sheath
+Temporary Pacing
+• Temporary pacemaker (via right femoral vein)
+Guides
+• Standard guidewire (35 inch)
+• Stiff wire (length or valve long)
+• Fifth device delivery
+Catheter
+• JR diagnostic catheter (5-F)
+• Pigtail catheter
+• Aortic catheter through Amplatz wire
+Temporary Treatment
+• Peripheral balloon (14-20 mm)
+• Aortic balloon pressure
+• Covered Cheatham-Platinum (CP) stent
+• Delivery sheath CP (F)
+TAVR Device
+• Self-expanding transcatheter aortic valve (Evolut 27 mm)
+• Valve percutaneous kit
+• Post-dilation balloon (25-40 mm)
+Imaging
+• Transesophageal echocardiography (TEE)
+◦ Real-time monitoring
+• Fluoroscopy
+• Contrast
+Procedure was performed under general anesthesia with TEE guidance.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 5 , 2 0 2 6 
+Hu et al
+F E B R U A R Y 4 , 2 0 2 6 : 1 0 6 4 1 5 
+Aortic Valve Disease With Coarctation
+7

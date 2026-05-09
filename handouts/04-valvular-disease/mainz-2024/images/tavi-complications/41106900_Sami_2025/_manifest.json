@@ -1,0 +1,30 @@
+{
+  "pdf": "41106900_Sami_2025.pdf",
+  "pages": 5,
+  "figures": [
+    {
+      "file": "fig-01_p2.png",
+      "page": 2,
+      "width": 1943,
+      "height": 555,
+      "ext": "png",
+      "bytes": 201065
+    },
+    {
+      "file": "fig-02_p3.png",
+      "page": 3,
+      "width": 1949,
+      "height": 751,
+      "ext": "png",
+      "bytes": 1306967
+    },
+    {
+      "file": "fig-03_p4.png",
+      "page": 4,
+      "width": 797,
+      "height": 758,
+      "ext": "png",
+      "bytes": 544851
+    }
+  ]
+}

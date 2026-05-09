@@ -1,0 +1,38 @@
+{
+  "pdf": "39295795_Reisinger_2024.pdf",
+  "pages": 6,
+  "figures": [
+    {
+      "file": "fig-01_p2.jpeg",
+      "page": 2,
+      "width": 797,
+      "height": 1032,
+      "ext": "jpeg",
+      "bytes": 164919
+    },
+    {
+      "file": "fig-02_p3.jpeg",
+      "page": 3,
+      "width": 1968,
+      "height": 1205,
+      "ext": "jpeg",
+      "bytes": 358241
+    },
+    {
+      "file": "fig-03_p4.jpeg",
+      "page": 4,
+      "width": 1968,
+      "height": 1115,
+      "ext": "jpeg",
+      "bytes": 370366
+    },
+    {
+      "file": "fig-04_p5.jpeg",
+      "page": 5,
+      "width": 1346,
+      "height": 1311,
+      "ext": "jpeg",
+      "bytes": 236064
+    }
+  ]
+}

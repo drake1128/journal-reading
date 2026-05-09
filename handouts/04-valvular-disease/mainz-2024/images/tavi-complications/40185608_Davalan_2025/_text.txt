@@ -1,0 +1,656 @@
+
+=== PAGE 1 ===
+CORONARY, PERIPHERAL, AND STRUCTURAL INTERVENTIONS
+CLINICAL CASE
+Acute Iatrogenic Aortic Root Dissection
+With Pseudoaneurysm After
+Transcatheter Aortic Valve Implantation
+William Davalan,a,b Quentin Chatelain, MD,c Stéphanie Tan, MD,d Raoul Bonan, MD,c Nicolas Dürrleman, MD,e
+Philippe Charbonneau, MD,f Walid Ben Ali, MD, PHDa,e
+ABSTRACT
+BACKGROUND Major complications of transcatheter aortic valve implantation (TAVI) remain rare but are associated
+with signiﬁcant morbidity and mortality. Aortic dissection typically results from procedural trauma to the aorta.
+CASE SUMMARY We describe an iatrogenic aortic root dissection and contained aortic laceration during TAVI pro-
+cedure with a 29-mm Evolut FX in an 88-year-old man with a history of coronary artery bypasses. Postprocedural
+computed tomography revealed a dissection in the noncoronary sinus of Valsalva with a mediastinal hematoma, evolving
+into a well deﬁned pseudoaneurysm (20 mm). The patient received conservative management, resulting in a favorable
+clinical outcome.
+DISCUSSION This case underscores the importance of preprocedural imaging, precise procedural execution, and close
+postprocedural monitoring. Although surgical repair is the standard for aortic dissection, conservative management
+may be an effective alternative in selected high risk patients. (JACC Case Rep. 2025;30:103376) © 2025 The Authors.
+Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an open access article under the
+CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+An
+88-year-old
+man
+presented
+with
+generalized
+weakness and recurrent episodes of dizziness over
+recent
+weeks,
+in
+the
+context
+of
+de
+novo
+atrial
+ﬁbrillation. At the time of presentation, he was
+TAKE-HOME MESSAGES
+ Conservative management is a viable option
+for select TAVI complications.
+ Advanced imaging is essential for diagnosis
+and follow-up.
+ISSN 2666-0849
+https://doi.org/10.1016/j.jaccas.2025.103376
+From the aMontréal Heart Institute Research Centre, Université de Montréal, Montréal, Québec, Canada; bFaculty of Medicine,
+McGill University, Montréal, Québec, Canada; cDepartment of Interventional Cardiology, Montréal Heart Institute, Université de
+Montréal, Montréal, Québec, Canada; dDepartment of Medical Imaging, Montréal Heart Institute, Université de Montréal, Mon-
+tréal, Québec, Canada; eDepartment of Cardiac Surgery, Montréal Heart Institute, Université de Montréal, Montréal, Québec,
+Canada; and the fDepartment of Vascular Surgery, Centre Hospitalier Universitaire de Montréal, Université de Montréal, Montréal,
+Québec, Canada.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+Manuscript received October 16, 2024; revised manuscript received December 19, 2024, accepted January 3, 2025.
+J A C C : C A S E R E P O R T S
+V O L . 3 0 , N O . 7 , 2 0 2 5
+ª 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F
+C A R D I O L O G Y F O U N D A T I O N . T H I S
+I S
+A N
+O P E N
+A C C E S S
+A R T I C L E
+U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+hemodynamically stable with a blood pres-
+sure of 113/66 mm Hg, a heart rate of 68 beats/
+min, and an oxygen saturation of 96%. Phys-
+ical examination revealed no acute abnor-
+malities; however, ﬁndings were consistent
+with severe symptomatic aortic stenosis (AS).
+PAST MEDICAL HISTORY
+The patient’s medical history was notable for
+signiﬁcant coronary artery disease requiring
+coronary artery bypass grafting (CABG) 3
+decades earlier. He also had a documented
+ﬁrst-degree
+atrioventricular
+block
+with
+incomplete right bundle branch block.
+DIFFERENTIAL DIAGNOSIS
+The clinical presentation raised the possibility of
+several underlying causes, with decompensated heart
+failure secondary to severe AS being the primary
+consideration. Arrhythmia-related symptoms due to
+atrial ﬁbrillation, including potential hemodynamic
+compromise, also were evaluated. Noncardiac etiol-
+ogies, such as neurogenic or metabolic disturbances
+contributing to dizziness, were considered in the
+comprehensive differential diagnosis, although with
+a lower degree of clinical probability.
+INVESTIGATIONS
+Transthoracic echocardiography revealed a normal
+left ventricular ejection fraction with severe calciﬁed
+AS
+(aortic
+valve
+area:
+0.86
+cm2;
+mean
+pressure
+gradient: 45 mm Hg), and moderate tricuspid regur-
+gitation. There was no evidence of aortic dilation at
+the level of the sinuses of Valsalva or in the proximal
+ascending aorta. Preprocedural computed tomogra-
+phy (CT) demonstrated severe calciﬁed AS (area:
+410 mm2; perimeter: 73 mm) in a horizontal aortic
+root (52), with patent bilateral transfemoral access,
+as well as incidental ﬁndings of an infrarenal saccular
+abdominal aortic aneurysm (37  26 mm) (Figure 1).
+The patient was referred to our institution’s heart
+team and was deemed eligible for a transfemoral
+transcatheter aortic valve implantation (TAVI).
+MANAGEMENT
+A transfemoral TAVI procedure was performed with
+a 29-mm Evolut FX valve (Medtronic). Primary ac-
+cess was established at the right common femoral
+artery with an 18-F Gore Dryseal introducer owing to
+severe
+atherosclerotic
+disease
+in
+the
+abdominal
+aorta. The aortic valve was crossed with the use of
+an AL-1 catheter and a straight 0.035-inch guidewire,
+followed by the placement of an extra-small Safari
+guidewire (Boston Scientiﬁc) in the left ventricle.
+The initial deployment attempt resulted in valve
+embolization
+at
+80%
+deployment
+owing
+to
+the
+patient’s horizontal aortic root anatomy, but a sec-
+ond deployment was successful and deemed to be
+stable
+(Figure
+2,
+Videos
+1
+to
+3).
+The
+procedure
+resulted
+in
+a
+marked
+reduction
+in
+the
+pressure
+gradient from 41 to 7 mm Hg, with no evidence of
+paravalvular leak on the ﬁnal aortogram. However,
+during the procedure, a possible aortic root dissec-
+tion and probable contained aortic laceration was
+noted
+in
+the
+noncoronary
+sinus.
+The
+patient
+remained hemodynamically stable throughout the
+entire
+procedure,
+with
+intraprocedural
+“quick
+look” transthoracic echocardiography conﬁrming the
+absence of pericardial effusion. Closure of the pri-
+mary access was performed with a Manta (Teleﬂex)
+device, and a 6-F AngioSeal (Terumo) was used for
+the secondary femoral access.
+Immediate postprocedural CT conﬁrmed an aortic
+root dissection of the noncoronary sinus of Valsalva
+and acute mediastinal hematoma surrounding the
+aortic root, extending along the right atrioventricular
+groove and the right coronary artery (Figure 3A). The
+VISUAL SUMMARY
+Timeline
+CABG ¼ coronary artery bypass grafting; CT ¼ computed tomography; DOAC ¼ direct oral anticoagulant; F/U ¼ follow-up; POD ¼ postoperative day;
+TAVI ¼ transcatheter aortic valve implantation.
+A B B R E V I A T I O N S
+A N D A C R O N Y M S
+AS = aortic stenosis
+CABG = coronary artery bypass
+grafting
+CT = computed tomography
+POD = postprocedural day
+TAVI = transcatheter aortic
+valve implantation
+TEVAR = thoracic
+endovascular aortic repair
+THV = transcatheter heart
+valve
+Davalan et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 7 , 2 0 2 5
+Aortic Dissection With Pseudoaneurysm After TAVI
+A P R I L 2 , 2 0 2 5 : 1 0 3 3 7 6
+2
+
+=== PAGE 3 ===
+patient was not considered to be a suitable surgical
+candidate
+for
+aortic
+dissection
+repair
+owing
+to
+extensive aortic calciﬁcations. Despite the presence
+of an aortic dissection and mediastinal hematoma, he
+remained hemodynamically stable after the proced-
+ure. Initial blood pressure management included
+intravenous nitroglycerine to maintain systolic blood
+pressure under 110 mm Hg, aiming to reduce stress on
+the aortic wall and prevent expansion of the dissec-
+tion. On postoperative day (POD) 1, 7.25 mg daily oral
+amlodipine was started for continued blood pressure
+management,
+aimed
+at
+mitigating
+further
+aortic
+complications. Transthoracic echocardiography per-
+formed 24 hours after the procedure revealed a mild
+paravalvular leak localized at the 3 o’clock position
+(Figure 4). On POD 2, CT revealed a well deﬁned
+pseudoaneurysm (16  19  20 mm) with a small neck
+(1 mm), with a surrounding hematoma or acute
+thrombus (11 mm), communicating with the non-
+coronary sinus of Valsalva at the site of dissection
+(Figures 3B and 3C). In addition, the patient developed
+a new-onset left bundle branch block accompanied by
+a prolonged PR interval in sinus rhythm and slow-rate
+atrial ﬁbrillation, leading to the decision to implant a
+permanent pacemaker. Nitroglycerine was tapered
+and discontinued by POD 2 as blood pressure stabi-
+lized, allowing for the initiation of low-dose carve-
+dilol. On the fourth day after TAVI, CT conﬁrmed a
+decrease in the size of the pseudoaneurysm and
+associated hematoma (Figure 3D), and the patient was
+deemed to be stable for discharge with a scheduled
+outpatient follow-up at the transcatheter valve ther-
+apy clinic.
+OUTCOME AND FOLLOW-UP
+At
+the
+ﬁrst
+outpatient
+follow-up,
+7
+days
+after
+discharge, there was complete thrombosis of the
+FIGURE 1
+Preprocedural Imaging Evaluation for Aortic Valve Intervention
+Preprocedural aortic valve evaluation (A) from computed tomography, showing axial and coronal views for TAVI planning, with (B) 3-dimensional reconstruction of the
+aortic anatomy for spatial assessment, and (C) detailed measurements. (D) Angiographic imaging simulation with aortic angulation of 52.
+FIGURE 2
+Fluoroscopic Visualization of Valve Deployment in
+the Aortic Annulus
+Deployment of the 29-mm Evolut FX valve within the aortic
+annulus complex, visualized with procedural contrast
+ﬂuoroscopy.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 7 , 2 0 2 5
+Davalan et al
+A P R I L 2 , 2 0 2 5 : 1 0 3 3 7 6
+Aortic Dissection With Pseudoaneurysm After TAVI
+3
+
+=== PAGE 4 ===
+FIGURE 3
+Serial CT Imaging of Aortic Dissection Progression Following TAVI
+Postprocedural computed tomographic (CT) assessments of aortic dissection progression (A) immediately after TAVI and (B) on the second day after TAVI. (C) Three-
+dimensional aortic anatomy reconstruction on the second day after TAVI. (D) CT on the fourth day after TAVI.
+FIGURE 4
+Echocardiographic Doppler Assessment Showing Mild Paravalvular Leak 1-Day Post-TAVI
+Transthoracic echocardiography with color Doppler demonstrating mild paravalvular leak at the 3 o’clock position on postoperative day 1.
+Davalan et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 7 , 2 0 2 5
+Aortic Dissection With Pseudoaneurysm After TAVI
+A P R I L 2 , 2 0 2 5 : 1 0 3 3 7 6
+4
+
+=== PAGE 5 ===
+dissection’s false lumen (Figure 5A); however, the
+patient experienced a recurrence of atrial ﬁbrillation,
+and a low dose of direct oral anticoagulants (DOACs)
+was resumed. At the most recent follow-up, 2 months
+after procedure, the patient exhibited complete res-
+olution of the focal dissection ﬂap, with no evidence
+of
+ongoing
+aortic
+dissection
+despite
+the
+DOACs
+(Figure 5B).
+DISCUSSION
+TAVI has emerged as an effective less invasive treat-
+ment option for patients with severe symptomatic AS
+across the entire surgical risk spectrum. The rapidly
+expanding use of TAVI has driven signiﬁcant ad-
+vances that have greatly enhanced its safety and
+effectiveness,
+but
+periprocedural
+complications
+remain a concern. Although major complications,
+such
+as
+annulus
+rupture
+and
+ascending
+aortic
+dissection, occur in only approximately 0.6%-1.9% of
+TAVI cases,1 these events carry signiﬁcant implica-
+tions for both morbidity and mortality.2 Ascending
+aortic dissection,2,3 in particular, is associated with a
+high mortality rate of approximately 7% in the ﬁrst
+hour after symptom onset and rises to as much as
+90% by 24 hours.4 The primary mechanism underly-
+ing
+ascending
+aortic
+dissection
+is
+predominantly
+associated with procedural trauma to the aorta,3
+typically resulting from transcatheter heart valve
+(THV) device deployment or procedural manipula-
+tion,
+including
+guidewire
+and
+delivery
+system
+manipulations, valve repositioning, retrieval, retrac-
+tion, or post-dilation.
+We present a patient who developed an iatrogenic
+aortic
+root
+dissection
+and
+pseudoaneurysm
+after
+TAVI,
+likely
+precipitated
+by
+the
+direct
+contact
+between the self-expanding 29-mm Evolut FX valve
+stent and the patient’s narrow calciﬁed horizontal
+aortic anatomy. Although preprocedural CT did not
+reveal excessive calciﬁcation at the level of the
+sinuses of Valsalva or ascending aorta, the patient’s
+horizontal
+aortic
+root
+anatomy
+posed
+signiﬁcant
+procedural challenges. The angulation between the
+left ventricular outﬂow tract and the ascending aorta
+increases stress on the greater curvature of the
+ascending aorta during guidewire and delivery sys-
+tem manipulation. Furthermore, the unsuccessful
+initial deployment of the THV, requiring retrieval and
+recapture, likely compounded the risk of localized
+trauma to the aortic wall. These factors, combined
+with the patient’s complex anatomy, were likely
+contributors to the development of the aortic root
+dissection and mediastinal hematoma observed in
+this case.
+Cases of iatrogenic aortic dissection after TAVI
+have been documented, with dissections occurring
+FIGURE 5
+Computed Tomography Demonstrating Complete Resolution of Aortic Dissection After TAVI
+(A) Postprocedural computed tomography showing complete aortic dissection resolution on the eleventh day following TAVI and
+(B) 3-dimensional aortic anatomy reconstruction at the latest follow-up (1.5 months after TAVI).
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 7 , 2 0 2 5
+Davalan et al
+A P R I L 2 , 2 0 2 5 : 1 0 3 3 7 6
+Aortic Dissection With Pseudoaneurysm After TAVI
+5
+
+=== PAGE 6 ===
+either intraoperatively5-7 or even days to years after
+the
+procedure.8
+Risk
+factors
+include
+complex
+anatomic features, such as heavily calciﬁed plaques,
+horizontal
+aortic
+root
+angulation,
+and
+extensive
+atherosclerosis,
+which
+increase
+susceptibility
+to
+localized
+trauma
+during
+procedural
+techniques.
+Therefore,
+careful
+assessment
+of
+the
+ascending
+aorta’s anatomy is crucial, especially when large
+calciﬁed plaques are present along the greater cur-
+vature.
+These
+plaques
+can
+serve
+as
+sources
+for
+thromboembolism and increase the risk of dissection.
+Key strategies to mitigate those challenges include
+comprehensive CT imaging to assess anatomic angu-
+lation and plan an optimal device trajectory. Flexible
+atraumatic guidewires such as the extra-small Safari
+(Boston Scientiﬁc) can help to minimize mechanical
+stress on the aortic wall, and alternative THV plat-
+forms,
+such
+as
+balloon-expandable
+systems
+(eg,
+Edwards Sapien 3) or repositionable systems, may
+offer enhanced stability and reduce the need for
+repeated manipulations. The decision to use the
+Evolut FX in the present case was guided by the
+operator’s preference and expertise with the plat-
+form. Ultimately, avoiding multiple recapture at-
+tempts and ensuring precise alignment during initial
+deployment are critical for optimizing outcomes and
+minimizing the risk of iatrogenic injury.
+Management of an iatrogenic aortic root dissection
+remains complex and controversial, especially in
+patients who are considered to be inoperable or at
+high surgical risk. Although patients with ascending
+aorta dissections not related to TAVI are typically
+referred for surgical intervention, limited data exist
+on managing dissections that occur during TAVI,
+making personalized clinical decision making essen-
+tial. Thoracic endovascular aortic repair (TEVAR) is
+the preferred nonsurgical treatment for aortic dis-
+sections, although its use is typically conﬁned to type
+B dissections. In certain cases, bailout techniques
+involving TAVI have been explored for managing
+aortic
+root
+ruptures.
+For
+example,
+one
+report
+described the successful sealing of an iatrogenic
+ascending aortic dissection after balloon aortic val-
+vuloplasty with the use of a self-expanding TAVI
+prosthesis.9 In addition, a valve-in-valve technique
+has been documented, wherein a second prosthesis
+was deployed to address a ventricular septal defect
+resulting from an aortic root rupture.10 Although
+these techniques can occasionally offer viable solu-
+tions, their utility remains limited to highly speciﬁc
+scenarios and they are generally less reliable as a
+routine intervention strategy.
+In the present case, a conservative approach with
+careful
+blood
+pressure
+monitoring
+was
+selected,
+driven not only by the patient’s stable hemodynamic
+proﬁle and the contained thrombosis within the false
+lumen of the pseudoaneurysm by the second POD, but
+also by the nonfeasibility of surgical repair. Although
+standard care for ascending aortic dissection typically
+involves open surgical repair, the surgical risks in this
+patient were deemed to be greater than those associ-
+ated with medical management alone. Speciﬁcally,
+the patient’s extensive aortic calciﬁcations, history of
+CABG with resultant pericardial adhesions, and high
+surgical risk precluded the possibility of open repair,
+thereby necessitating a personalized medical man-
+agement strategy. Notably, the patient’s previous
+CABG intervention had resulted in pericardial adhe-
+sions, which provided additional reassurance that the
+rupture would likely remain contained. TEVAR was
+deemed unsuitable owing to the proximity of the
+dissection entry point to the ostium of the right cor-
+onary
+artery,
+where
+intervention
+could
+have
+compromised coronary perfusion. As a contingency,
+we considered plugging the neck of the dissection ﬂap
+if pseudoaneurysm expansion occurred; however, the
+inframillimeter neck size posed signiﬁcant challenges
+for device positioning and stability. Given that our
+patient exhibited no major hemodynamic compro-
+mise, no pericardial effusion, minimal ﬂow in the false
+lumen, and a dissection limited to the outer curve of
+the ascending aorta, conservative medical manage-
+ment alone resulted in the successful control and
+resolution of the aortic dissection. However, it is
+worth noting that elderly TAVI patients often exhibit
+less pronounced symptoms, making CT essential for
+the accurate detection and assessment of these com-
+plications. Regardless of the chosen management
+pathway, all patients experiencing an aortic dissec-
+tion after TAVI should receive intensive medical
+therapy focused on strict heart rate and blood pres-
+sure control.3
+CONCLUSIONS
+This case presents a unique instance of an aortic root
+dissection caused by the deployment of a THV during
+TAVI. In this case, a conservative approach with
+vigilant
+hemodynamic
+monitoring
+proved
+to
+be
+effective, resulting in the complete resolution of the
+dissection ﬂap and thrombosis of the pseudoaneur-
+ysm on follow-up. This highlights the importance of
+personalized management strategies for patients who
+are poor surgical candidates and reinforces the role of
+imaging modalities such as CT for early detection and
+continuous monitoring. As TAVI continues to evolve
+and
+expand
+across
+broader
+patient
+populations,
+further research is needed to reﬁne management
+Davalan et al
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 7 , 2 0 2 5
+Aortic Dissection With Pseudoaneurysm After TAVI
+A P R I L 2 , 2 0 2 5 : 1 0 3 3 7 6
+6
+
+=== PAGE 7 ===
+strategies for high-risk vascular complications in
+complex cases.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant to
+the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Walid Ben
+Ali, Department of Cardiac Surgery, Montréal Heart
+Institute,
+Université
+de
+Montréal,
+5000
+Belanger
+Street, Montréal H1T 1C8, Québec, Canada. E-mail:
+dr.walidbenali@gmail.com.
+R E F E R E N C E S
+1. Holmes DR Jr, Matthew Brennan J, Rumsfeld JS,
+et al. Clinical outcomes at 1 year following trans-
+catheter
+aortic
+valve
+replacement.
+JAMA.
+2015;313(10):1019–1028.
+2. Chiappini B, Schepens M, Tan E, et al. Early and
+late outcomes of acute type A aortic dissection:
+analysis of risk factors in 487 consecutive patients.
+Eur Heart J. 2005;26(2):180–186.
+3. Langer NB, Hamid NB, Nazif TM, et al. Injuries
+to the aorta, aortic annulus, and left ventricle
+during transcatheter aortic valve replacement
+management and outcomes. Circ Cardiovasc Interv.
+2017;10(1):e004735.
+4. Mehta RH, Suzuki T, Hagan PG, et al. Predicting
+death in patients with acute type A aortic dissec-
+tion. Circulation. 2002;105(2):200–206.
+5. Geile J, Doberentz E, Madea B. Rapid develop-
+ment of an iatrogenic aortic dissection following
+transcatheter aortic valve implantation. Forensic
+Sci Med Pathol. 2020;16(2):335–339.
+6. Ong SH, Mueller R, Gerckens U. Iatrogenic
+dissection of the ascending aorta during TAVI
+sealed with the CoreValve revalving prosthesis.
+Catheter Cardiovasc Interv. 2011;77(6):910–914.
+7. Fujita H, Ito T, Kikuchi S, Seo Y. Postprocedural
+ascending aortic dissection after transcatheter
+aortic valve implantation: a case report. Eur Heart
+J Case Rep. 2022;7(1):ytac486.
+8. Gerber RT, Osborn M, Mikhail GW. Delayed
+mortality from aortic dissection post transcatheter
+aortic valve implantation (TAVI): the tip of the
+iceberg. Catheter Cardiovasc Interv. 2010;76(2):
+202–204.
+9. Cangut B, Greason KL. Treatment of iatrogenic
+acute aortic type A aortic dissection complicating
+transcatheter aortic valve insertion: a case report.
+JTCVS Tech. 2020;3:68–69.
+10. Barbanti M, Yang TH, Rodes Cabau J, et al.
+Anatomical and procedural features associated
+with
+aortic
+root
+rupture
+during
+balloon-
+expandable transcatheter aortic valve replace-
+ment. Circulation. 2013;128(3):244–253.
+KEY WORDS aortic dissection, case report,
+pseudoaneurysm, transcatheter aortic valve
+implantation
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 7 , 2 0 2 5
+Davalan et al
+A P R I L 2 , 2 0 2 5 : 1 0 3 3 7 6
+Aortic Dissection With Pseudoaneurysm After TAVI
+7

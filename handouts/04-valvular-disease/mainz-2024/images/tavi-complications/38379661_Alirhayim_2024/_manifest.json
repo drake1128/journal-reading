@@ -1,0 +1,54 @@
+{
+  "pdf": "38379661_Alirhayim_2024.pdf",
+  "pages": 9,
+  "figures": [
+    {
+      "file": "fig-01_p3.jpeg",
+      "page": 3,
+      "width": 1306,
+      "height": 2321,
+      "ext": "jpeg",
+      "bytes": 427427
+    },
+    {
+      "file": "fig-02_p4.jpeg",
+      "page": 4,
+      "width": 1683,
+      "height": 2291,
+      "ext": "jpeg",
+      "bytes": 584126
+    },
+    {
+      "file": "fig-03_p5.jpeg",
+      "page": 5,
+      "width": 1346,
+      "height": 1524,
+      "ext": "jpeg",
+      "bytes": 341500
+    },
+    {
+      "file": "fig-04_p6.jpeg",
+      "page": 6,
+      "width": 1346,
+      "height": 1274,
+      "ext": "jpeg",
+      "bytes": 293477
+    },
+    {
+      "file": "fig-05_p7.jpeg",
+      "page": 7,
+      "width": 1346,
+      "height": 2304,
+      "ext": "jpeg",
+      "bytes": 466532
+    },
+    {
+      "file": "fig-06_p8.jpeg",
+      "page": 8,
+      "width": 1694,
+      "height": 1691,
+      "ext": "jpeg",
+      "bytes": 775928
+    }
+  ]
+}

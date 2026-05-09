@@ -1,0 +1,460 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Strategic Reintervention With
+Marked Oversizing and Overexpansion 
+in TAV-in-SAV for Hemolytic 
+Paravalvular Leak
+Makoto Saigan, MD, a, * Masaki Miyasaka, MD, PHD, a,b, * Keita Yoshiyama, MD, a Natsuko Satomi, MD, a 
+Masaki Nakashima, MD, a Yusuke Enta, MD, a Yusuke Toki, MD, a Yoshiko Munehisa, MD, PHD, a 
+Yukihiro Hayatsu, MD, c Norio Tada, MD, PHD a
+ABSTRACT
+BACKGROUND Paravalvular leak (PVL) is a common complication of surgical aortic valve replacement and may recur 
+even after transcatheter plug closure.
+CASE SUMMARY A 71-year-old man developed recurrent PVL with hemolytic anemia 4 years after plug closure after 
+redo surgical aortic valve replacement with a 25-mm Carpentier-Edwards Perimount Magna Ease valve. Valve-in-valve 
+transcatheter aortic valve replacement was performed using a 29-mm Sapien 3 Ultra Resilia valve (Edwards Lifescien-
+ces). To achieve sufficient oversizing and annular apposition, a deliberately oversized valve was selected and deployed 
+using balloon overfilling.
+DISCUSSION We report the intentional use of an oversized Sapien 3 valve with deliberate overexpansion beyond the 
+standard size recommended for a 25-mm Magna Ease valve. This strategy led to effective PVL sealing and the complete 
+resolution of hemolysis.
+TAKE-HOME MESSAGES Anatomy-guided valve oversizing, combined with intentional overexpansion, is pivotal 
+to procedural success. This approach may be a viable treatment option for high-risk patients with recurrent PVL. 
+(JACC Case Rep. 2026;31:106869) © 2026 The Authors. Published by Elsevier on behalf of the American College of 
+Cardiology Foundation. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/ 
+licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 71-year-old man with a bicuspid aortic valve 
+(Sievers type 0) and moderate aortic stenosis with 
+severe aortic regurgitation initially underwent sur-
+gical aortic valve replacement (SAVR) with a 25-mm
+CEP (Carpentier-Edwards Perimount) Magna Ease 
+valve (Edwards Lifesciences) and concomitant 
+ascending aortic replacement with a 24-mm Gel-
+weave graft (Terumo Aortic).
+Four years later, he developed hemolytic anemia 
+and heart failure due to a paravalvular leak (PVL),
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2026.106869
+From the a Department of Cardiology, Sendai Kousei Hospital, Sendai, Miyagi, Japan; b Department of Laboratory Medicine, The 
+Jikei University School of Medicine, Tokyo, Japan; and the c Department of Cardiovascular Surgery, Sendai, Miyagi, Japan. *These 
+authors contributed equally to this work and share first authorship.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received November 5, 2025; revised manuscript received December 9, 2025, accepted January 6, 2026.
+J A C C : C A S E R E P O R T S 
+V O L . 3 1 , N O . 1 1 , 2 0 2 6
+ª 2 0 2 6 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+requiring redo SAVR using the same pros-
+thesis and graft. One year after the repeat 
+surgery, recurrent PVL was treated with 
+percutaneous 
+closure 
+using 
+an 
+8-mm 
+Amplatzer Vascular Plug (AVP) 4 (Abbott 
+Vascular) to achieve temporary stabilization. 
+Over the past month, he had been reho-
+spitalized several times for worsening ane-
+mia and heart failure. On examination, he 
+had conjunctival pallor, mild jaundice, a 
+decrescendo-diastolic murmur in the aortic 
+area, and bilateral lower limb edema.
+PAST MEDICAL HISTORY
+The patient’s medical history consisted of 
+chronic kidney disease and hypertension.
+DIFFERENTIAL DIAGNOSIS
+Possible causes included autoimmune or drug-
+induced hemolysis, infection, malignancy, pros-
+thetic valve–related mechanical hemolysis, and 
+microangiopathic processes. However, the chronic 
+course, lack of infection or thrombocytopenia, and 
+the known PVL made PVL-related hemolysis the most 
+likely diagnosis.
+INVESTIGATIONS
+Upon admission, the patient’s vital signs were stable 
+(heart rate: 67 beats/min; blood pressure: 101/ 
+65 mm Hg). Laboratory evaluation revealed severe 
+anemia (hemoglobin: 4.0 g/dL, hematocrit: 13.3%) 
+with elevated mean corpuscular volume (119.8 fL), 
+numerous 
+schistocytes, 
+marked 
+reticulocytosis 
+(27.7%), and significantly elevated lactate dehydro-
+genase (1,152 U/L). Haptoglobin was undetectable. 
+White blood cell and platelet counts were normal, 
+and renal dysfunction was present (creatinine: 
+2.74 mg/dL, blood urea nitrogen: 88.8 mg/dL). 
+Transthoracic echocardiography (TTE) revealed 
+preserved left ventricular ejection fraction (72%), 
+with end-diastolic and end-systolic dimensions of 
+58 mm and 34 mm, respectively, and severe PVL jets 
+adjacent to the previously implanted AVP 4 (Figure 1, 
+Video 1).
+Computed tomography angiography (CTA) per-
+formed before PVL closure with AVP confirmed that 
+the bioprosthetic valve was implanted in a supra-
+annular position with clear detachment from the 
+native annulus (Figure 2). The native annulus 
+measured 95.1 mm in circumference and had a 
+cross-sectional area of 701 mm 2 , indicating a large 
+annulus.
+Subsequent 
+aortography 
+after 
+plug 
+closure 
+demonstrated 
+that 
+the 
+surgical 
+bioprosthesis 
+remained in a supra-annular position along with the 
+previously implanted AVP 4, and the PVL was again 
+visualized at the same site (Figure 3, Video 2).
+MANAGEMENT
+Upon admission, conservative management with 
+transfusions and diuretics was initiated, but anemia 
+and lactate dehydrogenase levels continued to 
+worsen, and heart failure remained uncontrolled. 
+Because this would have been a third open heart 
+surgery, surgical risk was prohibitive (EuroSCORE II: 
+21.34%). In addition, catheter maneuverability had 
+been severely limited by the ascending aortic graft 
+during the prior PVL closure, making repeat plug 
+closure difficult. After a heart team evaluation, 
+transcatheter aortic valve replacement was selected 
+as the preferred strategy.
+A 29-mm Sapien 3 Ultra Resilia (S3UR) valve 
+(Edwards Lifesciences) was used to achieve sufficient 
+sealing. Although a 26-mm valve is generally rec-
+ommended for a 25-mm Magna Ease, the annular area 
+was markedly large (701 mm 2 ), with supra-annular 
+surgical valve implantation and broad detachment 
+around the prior plug. Therefore, an intentionally 
+oversized 29-mm S3UR valve was selected and over-
+expanded to achieve adequate sealing.
+The procedure was performed under general 
+anesthesia via a transfemoral approach under trans-
+esophageal echocardiographic guidance. The 29-mm 
+S3UR valve was deployed with 10 mL of overfilling 
+beyond the nominal volume, aligning the upper edge 
+of the S3UR frame precisely with the upper edge of 
+the surgical valve (“top-to-top” alignment). 
+Postprocedural aortography showed a marked 
+reduction in PVL (Figure 3, Video 2). Blood trans-
+fusions were required until postoperative day 2, after 
+which hemoglobin levels stabilized. TTE confirmed 
+no significant residual PVL (Figure 4, Video 3). CTA 
+demonstrated good apposition of the transcatheter 
+heart valve (THV) to both the surgical bioprosthesis 
+and the large native annulus, with complete coverage
+TAKE-HOME MESSAGES
+• A TAV-in-SAV can be a viable treatment 
+option for recurrent PVL after failed plug
+closure, especially in patients at high risk for
+surgery.
+• Oversizing and intentionally overexpanding
+the transcatheter heart valve may help 
+achieve effective sealing in cases with large 
+annuli or previous plug placement.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+AVP = Amplatzer Vascular
+Plug
+CTA = computed tomography
+angiography
+PVL = paravalvular leak
+SAVR = surgical aortic valve
+replacement
+S3UR = Sapien 3 Ultra Resilia
+TAV-in-SAV = transcatheter
+aortic valve-in-surgical valve
+THV = transcatheter heart
+valve
+TTE = transthoracic
+echocardiography
+Saigan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 1 , 2 0 2 6
+TAV-in-SAV for Hemolytic Paravalvular Leak 
+M A R C H 1 8 , 2 0 2 6 : 1 0 6 8 6 9
+2
+
+=== PAGE 3 ===
+of the prior plug and mild inflow and outflow flaring 
+(Figure 5). Anemia and heart failure improved, and 
+the patient was discharged on postoperative day 19.
+OUTCOME AND FOLLOW-UP
+At the 1-year follow-up, the patient remained 
+asymptomatic without transfusion requirements. 
+Laboratory tests showed no evidence of hemolysis,
+and TTE demonstrated stable prosthetic valve func-
+tion with a mean gradient of 5 mm Hg and an effec-
+tive orifice area of 2.39 cm 2 , indicating sustained 
+valve performance and complete PVL resolution.
+DISCUSSION
+PVL is a complication after SAVR, occurring in 6% to 
+18% of cases. 1 The 2021 European Society of
+VISUAL SUMMARY Intentional Oversizing and Overinflation in TAV-in-SAV for Recurrent Hemolytic Paravalvular Leak
+Ao = aorta; LA = left atrium; LV = left ventricle; TAV-in-SAV = transcatheter aortic valve-in-surgical valve; TAVR = transcatheter aortic 
+valve replacement.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 1 , 2 0 2 6 
+Saigan et al
+M A R C H 1 8 , 2 0 2 6 : 1 0 6 8 6 9 
+TAV-in-SAV for Hemolytic Paravalvular Leak
+3
+
+=== PAGE 4 ===
+FIGURE 2 Preprocedural Cardiac Computed Tomography
+(A) Long-axis view from preprocedural cardiac CT. The prosthetic valve was implanted in the supra-annular position. The white arrow indicates a distinct gap between 
+the surgical valve and the native aortic annulus, corresponding to the site of the paravalvular leak. (B) Key CT measurement parameters used to comprehensively 
+evaluate annular geometry and coronary anatomy for procedural planning. (B-1) Sinus of Valsalva: maximum diameter, 45.0 mm; minimum diameter, 30.9 mm. (B-2) 
+Annulus: maximum diameter, 31.9 mm; minimum diameter, 27.1 mm; area, 701 mm 2 . (B-3) LVOT: maximum diameter, 31.8 mm; minimum diameter, 27.4 mm. (B-4) 
+RCA height: 18.0 mm. (B-5) LCA height: 17.7 mm. (C) Three-dimensional reconstruction from preprocedural CT. The CEP Magna Ease valve is shown in blue, and the 
+gap is highlighted in red. The dashed black line represents the original native annulus. The dashed yellow arrow indicates the distance from the lower edge of the 
+Magna Ease valve to the native annulus (4.2 mm). Ao = aorta; CT = computed tomography; LV = left ventricle; SOV = sinus of Valsalva; LVOT = left ventricular 
+outflow tract; RCA = right coronary artery; LCA = left coronary artery.
+FIGURE 1 Evaluation of Paravalvular Leak by Transthoracic Echocardiography
+(A) Long-axis view of the left ventricular outflow tract. Color Doppler imaging shows severe paravalvular regurgitant jets. (B) Short-axis view. The white arrow 
+indicates the previously implanted 8-mm Amplatzer Vascular Plug 4. Paravalvular regurgitation jets are visible adjacent to the plug. Ao = aorta; LA = left atrium; 
+LV = left ventricle; RV = right ventricle.
+Saigan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 1 , 2 0 2 6
+TAV-in-SAV for Hemolytic Paravalvular Leak 
+M A R C H 1 8 , 2 0 2 6 : 1 0 6 8 6 9
+4
+
+=== PAGE 5 ===
+Cardiology/European Association for Cardio-Thoracic 
+Surgery guidelines recommend reoperation for pa-
+tients with symptomatic or hemolytic PVL (Class I, 
+Level C) and transcatheter closure for those with high 
+or prohibitive surgical risk (Class IIa, Level B). 2 Suc-
+cessful transcatheter closure results in clinical 
+improvement in approximately 90% of patients. 3
+Here, the PVL developed between the surgically 
+implanted bioprosthesis in the supra-annular posi-
+tion and the native annulus. Annular plication 
+required to implant a 25-mm CEP Magna Ease valve
+in a large annulus likely increased suture-line 
+stress, and bicuspid anatomy with tissue fragility 
+after decalcification and reoperation may have 
+contributed to PVL recurrence. Although temporary 
+stabilization was achieved through redo SAVR and 
+percutaneous closure using an AVP, PVL eventually 
+recurred. 
+Although 
+previous 
+reports 4,5 
+have 
+demonstrated the feasibility of TAV-in-SAV for PVL 
+closure, the intentional use of an oversized S3UR 
+valve and its deliberate overexpansion beyond the 
+standard 
+size 
+recommended 
+for 
+a 
+25-mm
+FIGURE 3 Fluoroscopic and Angiographic Views Before and After Valve Deployment
+(A) The 25-mm CEP Magna Ease valve was implanted in a supra-annular position relative to the native annulus. Aortic angiography revealed a significant PVL. The 
+previously implanted 8-mm Amplatzer Vascular Plug 4 was located between the native annulus and the Magna Ease valve. (B) The 29-mm Sapien 3 Ultra Resilia valve 
+was deployed with nominal + 10 mL inflation. (C) Final aortic angiography demonstrated a marked reduction in the PVL. The Sapien 3 valve adequately covered both 
+the native aortic annulus (white dashed line) and the previously implanted plug. Ao = aorta; LV = left ventricle; PVL = paravalvular leak.
+FIGURE 4 Postprocedural Transthoracic Echocardiography
+(A) Parasternal long-axis view after valve-in-valve implantation. (B) Parasternal short-axis view with color Doppler showing no significant paravalvular leak; only 
+minimal flow is observed near the valve (white arrow). Ao = aorta; LV = left ventricle.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 1 , 2 0 2 6 
+Saigan et al
+M A R C H 1 8 , 2 0 2 6 : 1 0 6 8 6 9 
+TAV-in-SAV for Hemolytic Paravalvular Leak
+5
+
+=== PAGE 6 ===
+Magna Ease valve were notable in the current case. 
+A recent report demonstrated that a 26-mm Sapien 
+valve could be overexpanded within a surgical 
+bioprosthesis and a prior 23-mm Sapien with a 
+vascular plug, achieving complete sealing. 6 This 
+finding supports the feasibility of our oversized, 
+overexpanded approach.
+This therapeutic strategy was based on several 
+anatomical considerations, including the supra-
+annular position of the surgical bioprosthesis 
+relative to the native annulus, extensive suture 
+dehiscence of the surgical valve (Figure 2), a mark-
+edly large native annulus, and presence of a previ-
+ously implanted AVP. These factors suggest that 
+standard valve sizing does not ensure sufficient 
+annular contact or complete sealing; therefore, an 
+intentionally oversized and overexpanded trans-
+catheter valve is necessary to achieve optimal appo-
+sition and PVL elimination.
+First, regarding the size relationship, the recom-
+mended 26-mm S3UR for a 25-mm Magna Ease valve 
+would have resulted in 25.9% undersizing relative to 
+the native annulus, making sufficient apposition 
+unlikely. Conversely, the 29-mm S3UR represented a 
+56.2% oversizing relative to the Magna Ease (true
+internal diameter: 23 mm, calculated area: π × (23/ 
+2) 2 = 416 mm 2 ), while being 7.4% undersized relative 
+to the native annulus. Miyasaka et al 7 reported that 
+the overexpansion of a 29-mm Sapien 3 can achieve 
+adequate expansion and sealing, even in patients 
+with a large annulus. Kazuno et al 8 demonstrated 
+that the inflow portion of the Sapien 3 tends to flare 
+outward, facilitating its apposition to the annulus. 
+Based on these findings, in cases with a large 
+annulus, implanting an oversized 29-mm S3UR valve 
+with intentional overexpansion, creating a flared-
+inflow configuration to achieve apposition to the 
+native annulus, was considered appropriate.
+The longitudinal position of the THV is crucial for 
+PVL control. The lower edge of the open-cell portion of 
+the 29-mm S3UR was positioned above the sewing ring 
+of the Magna Ease. If the open-cell frame extends too 
+far toward the left ventricle, blood can pass through, 
+resulting in residual PVL. The open-cell height of the 
+29-mm valve was 10.9 mm, whereas the distance from 
+the upper edge of the Magna Ease to the upper edge 
+of the sewing ring was 12.0 mm (Figure 6). Thus, 
+aligning the upper edges of both valves placed the 
+open-cell portion entirely above the sewing ring, 
+facilitating effective control of the residual PVL.
+FIGURE 5 Postprocedural Cardiac Computed Tomography
+(A) Long-axis view. The 29-mm Sapien 3 Ultra Resilia valve is deployed within the Magna Ease with a mildly flared configuration. Panels A-1 to A-3 correspond to the 
+dashed lines in (A) and show cross-sectional short-axis views at the outflow level (A-1), surgical valve level (A-2), and inflow level (A-3). At the inflow level (A-3), the 
+valve shows sufficient expansion with an area of 704.4 mm 2 , achieving adequate expansion and sealing even in a patient with a large annulus. (B) Long-axis CT image. 
+The sealing cuff of the transcatheter valve effectively covers the region of the prior paravalvular leak, including the previously implanted Amplatzer Vascular Plug 4 
+(white arrow). (C) Postprocedural three-dimensional volume-rendered CT reconstruction. The Sapien 3 valve (yellow) appropriately covers the leak area, including 
+the Magna Ease valve (light blue) and the Amplatzer plug (pink). It is well apposed to the native annulus. Ao = aorta; CT = computed tomography; LV = left ventricle.
+Saigan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 1 , 2 0 2 6
+TAV-in-SAV for Hemolytic Paravalvular Leak 
+M A R C H 1 8 , 2 0 2 6 : 1 0 6 8 6 9
+6
+
+=== PAGE 7 ===
+The lower edge of the 29-mm device was also required 
+to reach the native annulus. Its frame height (22.5 mm) 
+exceeded that of the Magna Ease (16.0 mm) by 6.5 mm, 
+causing the THV to extend approximately 6.5 mm to-
+ward the left ventricle when the upper edges were 
+aligned. Computed tomography showed that the dis-
+tance from the lower edge of the Magna Ease to the 
+native annulus was 4.2 mm (Figure 2B), which could be 
+fully covered by the flared inflow of the 29-mm THV. In 
+contrast, a 26-mm S3UR with a 20-mm frame height 
+would not have reached the annulus, making com-
+plete sealing, including the preexisting plug, difficult. 
+Thus, the 29-mm device achieved comprehensive 
+sealing, effectively encompassing the prior plug site 
+and ensuring apposition to the native annulus.
+Fluoroscopic and angiographic images obtained 
+from a lateral projection (Figure 3, Video 2) further 
+delineated the spatial relationships among the sur-
+gical valve, native annulus, AVP, and PVL. These 
+findings confirmed the feasibility and validity of our 
+strategy.
+In Japan, high-pressure balloons required for bio-
+prosthetic valve fracture are unavailable; therefore, 
+the procedure was not performed. However, bio-
+prosthetic valve fracture can be considered a 
+reasonable treatment option when such devices are 
+accessible.
+This case suggests that TAV-in-SAV using an 
+oversized balloon-expandable valve with intentional 
+overexpansion may be a promising treatment option 
+for patients with a large annulus, recurrent PVL after 
+prior plug closure, or large PVL.
+CONCLUSIONS
+TAV-in-SAV using an oversized and intentionally 
+overexpanded balloon-expandable valve may be an 
+effective treatment option for recurrent PVL after 
+failed plug closure, particularly in high-risk patients 
+with complex anatomy.
+ACKNOWLEDGMENTS The authors thank Editage 
+(www.editage.jp) for the English language editing.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Dr Tada has been a clinical proctor for Edwards Lifesciences and has 
+received lecture fees from Edwards Lifesciences. All other authors 
+have reported that they have no relationships relevant to the con-
+tents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Norio Tada,
+Department of Cardiovascular Medicine, Sendai 
+Kousei Hospital, 1-20 Tsutsumidori-amamiya, Aoba 
+Ward, Sendai, Miyagi 9810914, Japan. E-mail: 
+noriotada@hotmail.com.
+FIGURE 6 Dimensions of the 25-mm CEP Magna Ease Valve and the 26-mm and 29-mm Sapien 3 Ultra Resilia Valves
+For the Magna Ease (left), the stent/frame height (A, 16.0 mm, official data) and the distance from the upper edge of the valve to the upper 
+edge of the sewing ring (B, 12.0 mm*) are shown. For the 26-mm (middle) and 29-mm (right) Sapien 3, the stent/frame height (A), open-
+cell height (B), and skirt height (C) are shown, all based on official data provided by Edwards Lifesciences. *Measured value.
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 1 , 2 0 2 6 
+Saigan et al
+M A R C H 1 8 , 2 0 2 6 : 1 0 6 8 6 9 
+TAV-in-SAV for Hemolytic Paravalvular Leak
+7
+
+=== PAGE 8 ===
+R E F E R E N C E S
+1. Ionescu A, Fraser AG, Butchart EG. Prevalence 
+and clinical significance of incidental para-
+prosthetic valvar regurgitation: a prospective 
+study using transesophageal echocardiography. 
+Heart. 2003;89:1316–1321.
+2. Vahanian A, Beyersdorf F, Praz F, et al, ESC/ 
+EACTS Scientific Document Group. 2021 ESC/ 
+EACTS Guidelines for the management of valvular 
+heart disease: developed by the Task Force for 
+the management of Valvular Heart Disease of the 
+European Society of Cardiology (ESC) and the 
+European Association for Cardio-Thoracic Surgery 
+(EACTS). Eur Heart J. 2022;43:561–632.
+3. Ruiz CE, Jelnin V, Kronzon I, et al. Clinical 
+outcomes in patients undergoing percutaneous 
+closure of periprosthetic paravalvular leaks. J Am 
+Coll Cardiol. 2011;58:2210–2217.
+4. Demirel C, Okuno T, Lanz J, Windecker S, 
+Pilgrim T. Valve-in-valve transcatheter aortic 
+valve replacement for the treatment of para-
+valvular leak due to ring dehiscence. JACC Car-
+diovasc Interv. 2021;14:2746–2748.
+5. Randall MH, Lewandowski TJ, Choi C, 
+Beaver TM. Valve-in-valve transcatheter aortic 
+valve replacement to treat multijet paravalvular 
+regurgitation: a case series and review. Clin Car-
+diol. 2021;44:13–19.
+6. Chen M, Michel J, Kasel AM. 26 mm SAPIEN 
+fractured 23 mm SAPIEN and surgical prosthesis: 
+a transcatheter aortic valve-in-valve-in-valve im-
+plantation. Eur Heart J. 2025;46(22):2130.
+7. Miyasaka M, Yoon SH, Sharma RP, et al. Clin-
+ical outcomes of transcatheter aortic valve im-
+plantation in patients with extremely large
+annulus and SAPIEN 3 dimensions based on post-
+procedural computed tomography. Circ J. 
+2019;83:799–807.
+8. Kazuno Y, Maeno Y, Kawamori H, et al. Com-
+parison of SAPIEN 3 and SAPIEN XT transcatheter 
+heart valve stent-frame expansion: evaluation 
+using multi-slice computed tomography. Eur 
+Heart J Cardiovasc Imaging. 2016;17:1054–1062.
+KEY WORDS paravalvular leak, surgical 
+bioprosthesis, transcatheter aortic valve 
+replacement, valve-in-valve procedure
+APPENDIX For supplemental videos, 
+please see the online version of this paper.
+Saigan et al 
+J A C C : C A S E R E P O R T S , V O L . 3 1 , N O . 1 1 , 2 0 2 6
+TAV-in-SAV for Hemolytic Paravalvular Leak 
+M A R C H 1 8 , 2 0 2 6 : 1 0 6 8 6 9
+8

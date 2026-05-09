@@ -1,0 +1,409 @@
+
+=== PAGE 1 ===
+VALVULAR HEART DISEASE
+CLINICAL CASE
+Septic Coronary Embolism and 
+Myocardial Rupture After Valve-in-Valve 
+TAVR Endocarditis
+Antonio D’Errico Ramirez, MD, a Yves-Assad Saade, MD, a Lujain Albadiech, MD, b Laurent Faroux, MD, PHD, b,c 
+Vito Giovanni Ruggieri, MD, PHD a,c
+ABSTRACT
+BACKGROUND Septic coronary embolism is a rare but serious complication of infective endocarditis, particularly after 
+valve-in-valve transcatheter aortic valve replacement (TAVR). Mechanical complications such as pseudoaneurysm or 
+myocardial rupture are exceedingly uncommon.
+CASE SUMMARY A 78-year-old man with prior surgical aortic bioprosthesis and valve-in-valve TAVR presented with 
+asthenia and electrocardiographic signs of inferior ST-segment elevation myocardial infarction. Despite normal coro-
+naries on angiography, blood cultures revealed Enterococcus faecalis, and transesophageal echocardiography confirmed 
+aortic valve vegetation. Positron emission tomography–computed tomography showed 18F-fluorodeoxyglucose uptake 
+in the spleen and left ventricular (LV) wall. On day 15, he developed hemothorax and anemia; transthoracic echocar-
+diography revealed an LV free wall pseudoaneurysm. Emergent surgery confirmed LV rupture and communication with 
+the pleural space, repaired via Teflon “sandwich” patch.
+DISCUSSION This case illustrates an unusual presentation of septic coronary embolism leading to myocardial rupture 
+without tamponade, highlighting the diagnostic value of multimodal imaging.
+TAKE-HOME MESSAGE Clinicians should remain vigilant for structural complications of post-TAVR infective 
+endocarditis, where early diagnosis and surgical management are lifesaving. (JACC Case Rep. 2025;30:105526)
+© 2025 The Authors. Published by Elsevier on behalf of the American College of Cardiology Foundation. This is an 
+open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HISTORY OF PRESENTATION
+A 78-year-old man who had surgical aortic valve 
+replacement in 2012 (23-mm Edwards Magna Ease) 
+and subsequent valve-in-valve transcatheter aortic 
+valve replacement (ViV-TAVR) with a Medtronic 
+Evolut PRO 26 mm valve in 2022 presented for a 
+routine cardiology follow-up approximately 1 year
+after his last intervention with symptoms of asthenia 
+lasting 10 days. Physical examination revealed no 
+evidence of chest pain, no lower limb edema, a sys-
+tolic murmur 2/6 in the aortic valve area, and bilat-
+eral vesicular breath sounds with no adventitious 
+sounds. Standard electrocardiogram showed sinus 
+rhythm, with heart rate of 106/beats/min, PR interval 
+of 180 ms, left anterior fascicular block, and anterior
+ISSN 2666-0849 
+https://doi.org/10.1016/j.jaccas.2025.105526
+From the a Division of Cardio-Thoracic Surgery, CHU Reims, Reims, France; b Division of Cardiology, CHU Reims, Reims, France; 
+and the c Champagne-Ardenne University, Reims, France.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’ 
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more 
+information, visit the Author Center.
+Manuscript received July 17, 2025; revised manuscript received August 20, 2025, accepted August 22, 2025.
+J A C C : C A S E R E P O R T S 
+V O L . 3 0 , N O . 3 3 , 2 0 2 5
+© 2 0 2 5 T H E A U T H O R S . P U B L I S H E D B Y E L S E V I E R O N B E H A L F O F T H E A M E R I C A N
+C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N . T H I S I S A N O P E N A C C E S S A R T I C L E U N D E R
+T H E C C B Y - N C - N D L I C E N S E ( h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 / ) .
+
+=== PAGE 2 ===
+ST-segment depression consistent with 
+inferior ST-elevation myocardial infarction 
+(STEMI) by reciprocal changes (Figure 1).
+MEDICAL HISTORY
+The patient’s medical history was significant 
+for degenerative aortic stenosis treated with 
+surgical bioprosthesis, prior ViV-TAVR, atrial 
+fibrillation treated with new oral anticoagu-
+lants, hypertension, chronic kidney disease, type 2 
+diabetes mellitus, dyslipidemia, smoking with-
+drawal, and COVID-19 vaccine (4 times).
+VISUAL SUMMARY Timeline of the Case
+Time 
+Events
+2012
+SAVR: 23-mm Edwards Magna Ease implanted for severe degenerative aortic stenosis.
+2022
+Valve-in-valve TAVR: 26-mm Evolut PRO valve implanted owing to bioprosthetic valve degeneration.
+2023, routine outpatient 
+follow-up
+78-year-old man with fatigue (10-d history), no chest pain, no edema, mild systolic murmur, bilateral breath sounds 
+preserved.
+ECG: sinus rhythm (106 beats/min), PR interval of 180 ms, LAFB, anterior ST-segment depression suggestive of 
+inferior STEMI by reciprocal changes.
+Hospital admission– 
+cardiology unit
+Laboratory findings:
+High-sensitivity troponin I: 1,313 ng/L
+BNP: 7,228 pg/mL
+Initial treatment:
+Antiplatelet therapy: aspirin, clopidogrel 
+Anticoagulation: unfractionated heparin 
+Beta-blockers
+Imaging:
+Chest x-ray: no pleural effusion
+TTE: moderate TAVR stenosis, LVEF 45% 
+Coronary angiography: no obstructive lesions
+Day 3-5: infective work-up
+Persistent fever, inflammatory markers raised:
+CRP: 267 mg/L, WBC: 18.7 × 109/L
+Blood cultures: Enterococcus faecalis positive
+TEE: 8-mm vegetation on the aortic valve
+PET-CT: increased FDG uptake in spleen and LV wall; no cerebral emboli
+Diagnosis: prosthetic valve endocarditis
+Endocarditis team decision: No surgical indication (vegetation <10 mm, hemodynamically stable) 
+Antibiotics: amoxicillin + ceftriaxone
+Day 15: acute clinical
+deterioration
+Symptoms: sudden chest pain, drop in hemoglobin from 11.7 to 7 g/dL
+Chest x-ray: left hemothorax
+Chest drain placement: evacuation of hematic fluid
+TTE: pseudoaneurysm of the LV free wall, communicating with pleural space
+A retrospective review of the coronary angiogram showed a globular filling defect in the distal first marginal branch of 
+the circumflex artery, likely triggering the pseudoaneurysm formation.
+Emergency surgical 
+intervention
+Heart team discussion: urgent surgery despite high risk (EuroSCORE II: 20%)
+Intraoperative findings:
+3-cm posterolateral LV free wall rupture
+Pseudoaneurysm cavity with clots
+Surgical procedure:
+Redo sternotomy, CPB via aorta and right atrium, beating-heart repair
+Pseudoaneurysm opened, thrombus evacuated
+Double-Teflon patch (modified linear closure) with felt-reinforced 2-0 Prolene mattress sutures 
+(plication technique)
+Postoperative course
+Intensive care unit stay: 8 d
+Recovery: stable hemodynamics, LVEF ∼40% 
+Antibiotics: 6-wk intravenous course completed 
+Discharge: after 2 mo hospitalization
+Continued on the next page
+TAKE-HOME MESSAGES
+• Acute coronary and mechanical complica-
+tions may occur in prosthetic valve endo-
+carditis after TAVR, and multimodality 
+imaging including PET-CT, TEE, and coro-
+nary angiography plays a pivotal role in 
+diagnosing entities such as septic left ven-
+tricular pseudoaneurysm.
+• Timely surgical intervention remains critical, 
+particularly as emerging transcatheter valve 
+procedures may be associated with complex 
+and severe presentations of infective 
+endocarditis.
+A B B R E V I A T I O N S 
+A N D A C R O N Y M S
+FDG = 18F-fluorodeoxyglucose
+LV = left ventricle
+STEMI = ST-segment elevation
+myocardial infarction
+ViV-TAVR = valve-in-valve
+transcatheter aortic valve 
+replacement
+D’Errico Ramirez et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5
+Septic Coronary Embolism After ViV-TAVR 
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 5 2 6
+2
+
+=== PAGE 3 ===
+DIFFERENTIAL DIAGNOSIS
+The differential diagnoses included acute coronary 
+syndrome, prosthetic valve endocarditis, cardiogenic 
+shock, sepsis, cerebral embolism, diabetic ketoaci-
+dosis, pleural effusion, neoplasia, and anemia.
+INVESTIGATIONS
+The patient was admitted to the cardiology unit. 
+Initial laboratory tests revealed high-sensitivity 
+troponin I of 1,313 ng/L and B-type natriuretic pep-
+tide of 7,228 pg/mL. Medical treatment of STEMI was 
+started (unfractionated heparin, clopidogrel, aspirin, 
+beta-blockers). Chest radiograph showed no pleural
+effusion. Transthoracic echocardiography showed 
+moderate stenosis of the TAVR bioprosthesis and 
+reduced left ventricular (LV) ejection fraction of 45%. 
+Coronary angiography revealed no obstructive coro-
+nary artery disease (Figure 2).
+Owing to persistent fever and inflammatory 
+markers (C-reactive protein: 267 mg/L, white blood 
+cell count: 18.7 × 109/L), blood cultures were ob-
+tained, 
+yielding 
+Enterococcus 
+faecalis. 
+Trans-
+esophageal echocardiography identified an 8-mm 
+aortic valve vegetation (Figure 3). Positron emission 
+tomography–computed tomography demonstrated 
+increased 18F-fluorodeoxyglucose (FDG) uptake in 
+the spleen and LV wall; cerebral emboli were not 
+found (Figure 4).
+FIGURE 1 Electrocardiogram at Admission
+ST-segment elevation was demonstrated in the inferior leads (II, III, aVF) and the lateral leads (V5-V6), consistent with an inferolateral STEMI. Reciprocal ST-segment 
+depression was noted in leads V1 to V2. STEMI = ST-segment elevation myocardial infarction.
+VISUAL SUMMARY Continued
+Time
+Events
+3-mo follow-up
+Clinically stable
+Intervention: percutaneous echocardiography-guided drainage of a residual splenic abscess 
+No recurrence of cardiac symptoms
+BNP = B-type natriuretic peptide; CPB = cardiopulmonary bypass; CRP = C-reactive protein; ECG = electrocardiogram; FDG = 18F-fluorodeoxyglucose; LAFB = left anterior 
+fascicular block; LVEF = left ventricular ejection fraction; PET-CT = positron emission tomography–computed tomography; SAVR = surgical aortic valve replacement; 
+STEMI = ST-segment elevation myocardial infarction; TAVR = transcatheter aortic valve replacement; TEE = transesophageal echocardiography; TTE = transthoracic 
+echocardiography; WBC = white blood cells.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5 
+D’Errico Ramirez et al
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 5 2 6 
+Septic Coronary Embolism After ViV-TAVR
+3
+
+=== PAGE 4 ===
+Given the absence of criteria for surgically treating 
+the endocarditis (aortic vegetation <10 mm, stable 
+hemodynamics), the endocarditis team decided to 
+treat the patient with medical therapy alone 
+(amoxicillin + ceftriaxone). 1
+On day 15 of hospitalization, the patient developed 
+acute left chest pain and severe anemia (hemoglobin: 
+7 g/dL vs 11.7 g/dL at admission). Chest radiograph 
+showed a large pleural effusion (Figure 5). Emergent 
+chest tube placement drained hematic fluid, and 
+repeat transthoracic echocardiography revealed a 
+pseudoaneurysm of the LV free wall communicating 
+with the pleural space (Figure 6, Video 1).
+MANAGEMENT
+Given the acute deterioration and imaging consistent 
+with LV free wall pseudoaneurysm, the case was 
+reviewed by a multidisciplinary heart team. With a 
+EuroSCORE II of 20%, the patient was taken for 
+emergent surgery. The surgical procedure consisted 
+of redo sternotomy, cardiopulmonary bypass (aortic 
+and right atrium cannulation), aortic vent (only for 
+de-airing purposes), and beating heart repair. Intra-
+operatively, a 3-cm LV (posterolateral) free wall 
+rupture with communication to the pleural space was 
+confirmed (Figure 7).
+The pseudoaneurysm was incised, and the clots 
+were removed. Surgical repair was performed using a 
+double-layered 
+Teflon 
+patch 
+(modified 
+linear 
+closure). The incision was closed using 2-0 Prolene 
+mattress sutures buttressed with felt strips. The
+FIGURE 2 Coronary Angiogram Cranial–Right Anterior Oblique View
+(A) Image before TAVR showing normal aspect of circumflex artery and its branches. (B) Globular filling defect at distal part of first marginal 
+branch of the circumflex artery. TAVR = transcatheter aortic valve replacement.
+FIGURE 3 Vegetation on Valve-in-Valve Prosthesis
+Transesophageal echocardiography short-axis view of the 
+aortic prosthesis showing vegetation attached to the TAVR 
+bioprosthesis leaflet, without evidence of perivalvular abscess. 
+TAVR = transcatheter aortic valve replacement.
+D’Errico Ramirez et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5
+Septic Coronary Embolism After ViV-TAVR 
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 5 2 6
+4
+
+=== PAGE 5 ===
+sutures were spaced wider on the tissue than on the 
+felt to create a plication effect, shortening the length 
+of the incision during closure (Figure 8). 2
+OUTCOME AND FOLLOW-UP
+The patient’s recovery was favorable in the immedi-
+ate postoperative course. He remained in the inten-
+sive care unit for 8 days. His LV ejection fraction was 
+stable to 40%, and he completed a 6-week course of 
+intravenous antibiotics. He was discharged in stable 
+condition after 2 months of hospitalization. During 
+the 3-month follow-up, the patient subsequently
+underwent echocardiography-guided percutaneous 
+drainage of the splenic abscess.
+DISCUSSION
+Septic coronary embolism is a rare but severe 
+complication of infective endocarditis, occurring in 
+2% to 3% of cases. 1 Mechanical complications such as 
+myocardial rupture or pseudoaneurysm are rarer 
+still, particularly in prosthetic valve endocarditis 
+after ViV-TAVR. 3,4
+This case illustrates the diagnostic challenge and 
+high morbidity associated with valve-in-valve
+FIGURE 4 Coronal Section Fused FDG PET-CT Image
+Abnormal increased FDG uptake (SUV max : 5.1) was found in the left ventricular wall pseudoaneurysm in relation to the septic coronary 
+embolism. FDG = 18F-fluorodeoxyglucose; SUV = standardized uptake value.
+FIGURE 5 Chest Radiographs
+(A) Normal findings at admission and (B) 18 days later showing massive left-sided hemothorax secondary to pseudoaneurysm rupture.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5 
+D’Errico Ramirez et al
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 5 2 6 
+Septic Coronary Embolism After ViV-TAVR
+5
+
+=== PAGE 6 ===
+endocarditis. Despite initial stability, our patient 
+developed a catastrophic complication, with LV 
+rupture and hemothorax. Timely echocardiographic 
+re-evaluation and multidisciplinary coordination 
+were essential to successful surgical intervention.
+It is important to highlight the unique aspects of 
+this clinical case. The diagnosis of coronary embo-
+lism was only established retrospectively, after the 
+pseudoaneurysm had progressed and ruptured. A 
+comparison between the coronary angiography per-
+formed at admission and the one obtained in 2022 
+when the patient underwent ViV-TAVR revealed a 
+new filling defect at the bifurcation of the first obtuse 
+marginal branch, consistent with a septic embolus 
+(Figure 2, Video 2).
+What is particularly striking is that an embolic 
+event involving such a small coronary branch resul-
+ted in such a severe complication. Cardiac pseudoa-
+neurysms are typically reported in association with 
+occlusion of large-caliber coronary arteries such as 
+the left anterior descending or right coronary artery. 3 
+Another unusual feature of this case is that the 
+myocardial rupture did not present as pericardial 
+tamponade but rather as a massive left-sided hemo-
+thorax, owing to fistulization of the LV into the 
+pericardial and pleural spaces. This atypical presen-
+tation may be explained by prior sternotomy-related 
+adhesions and the septic nature of the pseudoa-
+neurysm. Positron emission tomography–computed 
+tomography revealed increased FDG uptake in the 
+LV free wall, which was initially thought to be 
+nonspecific but retrospectively supported the diag-
+nosis of septic coronary embolism.
+Furthermore, this case raises the question of 
+whether the “excess” prosthetic material in ViV-
+TAVR procedures may contribute to infection risk. 
+The TAVR stent frame lies in close proximity to the 
+coronary ostia, and once infected, it may potentially 
+promote septic embolization. However, this mecha-
+nism has not yet been validated in clinical studies 
+and remains speculative, based solely on this isolated 
+observation.
+CONCLUSIONS
+Clinicians should maintain vigilance for coronary and 
+structural complications in infective endocarditis 
+after ViV-TAVR. Early recognition and prompt sur-
+gical intervention, guided by a multidisciplinary 
+heart team, are critical in managing these life-
+threatening events.
+FIGURE 6 Transthoracic Echocardiogram 2-Dimensional 
+Apical 2-Chamber View
+Image shows voluminous pseudoaneurysm of the LV mid-basal 
+lateral wall. The pseudoaneurysm is connected with the LV by 
+a wide neck. LV = left ventricle.
+FIGURE 7 Intraoperative Image: Voluminous 
+Pseudoaneurysm of the LV Mid-Basal Lateral Wall
+LV = left ventricle.
+FIGURE 8 Intraoperative Image: Surgical Pseudoaneurysm 
+Repair With Modified Linear Technique
+D’Errico Ramirez et al 
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5
+Septic Coronary Embolism After ViV-TAVR 
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 5 2 6
+6
+
+=== PAGE 7 ===
+CONSENT STATEMENT
+Written informed consent was obtained from the 
+patient for publication of this case report and any 
+accompanying images. All clinical data were deiden-
+tified prior to analysis and presentation to ensure 
+patient confidentiality. This case report complies 
+with ethical standards regarding the secondary use of 
+health data and respects patient privacy in accor-
+dance with the Declaration of Helsinki and the 
+Declaration of Taipei.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+The authors have reported that they have no relationships relevant 
+to the contents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Antonio
+D’Errico Ramirez, Division of Cardio-Thoracic Surgery, 
+CHU of Reims, 8, Rue du General Koenig, Reims, France. 
+E-mail: antodramirez@gmail.com OR ad-errico-ramirez@ 
+chu-reims.fr. X handle: @ErricoRamirez.
+R E F E R E N C E S
+1. Otto C, Nishimura R, et al. 2020 ACC/AHA 
+guideline for the management of patients with 
+valvular heart disease: a report of the American 
+College of Cardiology/American Heart Association 
+joint committee on clinical practice guidelines. 
+J Am Coll Cardiol. 2021;77(4):e25–e197. https:// 
+doi.org/10.1016/j.jacc.2020.11.018
+2. Lynda LM. Left ventricular aneurysm: modified 
+linear closure technique mickleborough. Opera-
+tive Tech Card Thorac Surg. 1997;2(2):118–131.
+3. Damluji AA, van Diepen S, Katz JN, et al. Me-
+chanical complications of acute myocardial 
+infarction: a scientific statement from the Amer-
+ican Heart Association. Circulation. 2021;144(2): 
+e16–e35. 
+https://doi.org/10.1161/CIR.000000 
+0000000985
+4. Torchio F, Garatti A, Ronco D, Matteucci M, 
+Massimi G, Lorusso R. Left ventricular pseu-
+doaneurysm: the niche of post-infarction me-
+chanical complications. Ann Cardiothorac Surg.
+2022;11(3):290–298. https://doi.org/10.21037/
+acs-2022-ami-25
+KEY WORDS coronary embolism, infective 
+endocarditis, LV pseudoaneurysm, valve in 
+valve-TAVR
+APPENDIX For supplemental videos,
+please see the online version of this paper.
+J A C C : C A S E R E P O R T S , V O L . 3 0 , N O . 3 3 , 2 0 2 5 
+D’Errico Ramirez et al
+O C T O B E R 2 2 , 2 0 2 5 : 1 0 5 5 2 6 
+Septic Coronary Embolism After ViV-TAVR
+7
