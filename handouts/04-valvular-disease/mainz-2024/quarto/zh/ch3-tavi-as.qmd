@@ -234,3 +234,330 @@ AVC 通過 MDCT 掃描取得的影像進行測量，使用modified Agatston 方�
 | **THV leaflet thickening** | Valve leaflet thickening is generally defined as a valve leaflet with thickness $\geq$ 2 mm. |
 | **THV thrombosis** | 術後經導管心臟瓣膜葉片增厚在多排電腦斷層掃描（MDCT）中被識別出來。橫軸（左）和斜矢狀面（右）的多排電腦斷層影像顯示在經導管心臟瓣膜葉片上出現局部低密度區域（黃色箭頭），此情況發生於植入後 5 個月，一名 90 歲患者中觀察到此現象。AO，主動脈；LA，左心房；LV，左心室；RA，右心房；RV，右心室。 ![](../images/tavi/fig%20TAVI%20THV%20thrombosis.png) |
 | **Standard method of THV velocity measurement** | 標準測量方式在 balloon-expandable THV 與 self-expandable THV不同，經導管主動脈瓣膜面積的測量：(A) 在球囊擴張型經導管心臟瓣膜（THV）中，左心室流出道（LVOT）的直徑（雙黃箭）和速度（黃色圓圈）測量於支架頂端的下方邊緣（紅色虛線）。(B) 在寄生胸長軸放大視圖中測量直徑。在自膨式 THV 中，若 THV 的著陸區位於 LVOT 的較低位置時，直徑和速度可以在支架內進行測量。 ![](../images/tavi/fig%20TAVI%20echo%20LVOT.png) |
+
+## 補充：李志國醫師 TAVI 講課重點 (2026-05-08)
+
+> **來源**：李志國醫師講課手寫筆記（2026-05-08）
+> **整理依據**：原始手寫筆記 IMG_5021 ~ IMG_5031（共 11 頁）
+> 以下為臨床操作經驗與要點整理，與前述 Mainz 進修經驗及文獻內容相輔相成。
+
+### 概論與適應症
+
+#### 自然病程
+
+- Symptomatic severe AS 預期餘命約 **2 年**
+- BAV (Balloon Aortic Valvuloplasty) **無法延長壽命**，僅適用於：
+    - Emergency rescue
+    - Hemodynamically unstable 狀況
+    - 非心臟手術前的 bridging
+
+#### TAVI 發展歷程
+
+- TAVI 臨床應用已超過 20 年
+- 第一個關鍵試驗為 **PARTNER trial**
+- **2019 年 FDA** 核可擴展至 low surgical risk 病人
+
+#### 年齡分層建議
+
+| **年齡** | **建議** |
+|---|---|
+| < 65 歲 | SAVR |
+| 65 – 80 歲 | Both（SAVR 與 TAVI 皆可討論） |
+| > 80 歲 | TAVI |
+
+ESC 指引另區分：< 75 歲 SAVR / > 80 歲 TAVR。
+
+#### 適應症 (Class IIA Indication)
+
+- **Symptomatic severe AS**：偏向 TAVI（依年齡與風險）
+- **Asymptomatic severe AS**：仍以 SAVR 為主
+
+#### Low-risk Trial 排除條件
+
+以下情況**不能直接套用** low-risk trial 結果，仍需個別評估：
+
+- Bicuspid valve (Type 0、Type 1)
+- Severe CAD
+- 合併其他瓣膜病變 (other valve disease)
+- Aortopathy
+- HCM (Hypertrophic Cardiomyopathy)
+- Severe LVOT calcification
+- Femoral access 無法
+- Very young age
+
+#### 健保 criteria (台灣)
+
+- 原則上 **> 80 歲**較容易申請
+- < 80 歲需依其他臨床條件審查
+
+### 術前評估
+
+#### 必要檢查項目
+
+- **TEE**：不一定每例都要（依瓣膜選擇與解剖而定）
+- **Hemolysis profile**
+- **Troponin (TnT)**：> 4000 要特別小心
+- **CT**：核心評估工具
+
+#### CT 評估重點
+
+| **項目** | **判讀重點** |
+|---|---|
+| Ca score | 整體鈣化程度 |
+| Sinus 大小 | 若 sinus 太窄 → 高度有把 sinus 整個封住的風險（封住 sinus = coronary obstruction） |
+| Coronary height | > 11–12 mm：安全；< 10 mm：危險（高 coronary obstruction risk） |
+
+> **臨床提醒**：Coronary 距離 annulus 很遠時，CAG 不一定要做。
+
+#### Sizing 原則
+
+| **瓣膜類型** | **使用參數** |
+|---|---|
+| Self-expanding（自膨） | **Perimeter** |
+| Balloon-expandable（球擴） | **Area** |
+
+#### 鈣化影響
+
+| **部位** | **風險** |
+|---|---|
+| Annulus、LVOT | **最危險**（破裂、PVL、傳導阻滯） |
+| Valve 上 Ca 化 | 較可接受 |
+
+- **球擴**：Ca 化嚴重 → 容易破裂
+- **自膨**：Ca 化嚴重 → 無法完全打開（殘餘 PG 高、PVL 高）
+- 食道太硬：valve 撐不開
+
+#### 三大術前風險評估（必記）
+
+1. **Coronary 高度低** → Coronary obstruction
+2. **Sinus 太窄** → Coronary obstruction
+3. **Valve 上有 Ca nodule** → Embolization 風險
+
+### 入路選擇 (Access)
+
+#### Femoral (首選)
+
+- Sheath：14 Fr 起跳
+- Stiff wire 會把血管拉直 → Ca 化嚴重時拉不直
+- **E-sheath**：很小、很滑
+- **Expandable sheath**：5.5 mm 安全
+- 球擴 profile 較大；自膨 → femoral 5 mm 較安全（smaller profile）
+
+#### Alternative Access
+
+- Trans-carotid
+- Subclavian
+- Trans-aortic（需開半胸）
+
+> 一開始可採 surgical cut-down（especially 當 dorsal side Ca 時）；若 closure device 熟練可不用 cut-down。
+
+#### 特殊情況
+
+- **AAA**：長 sheath 先通過 → 完成 TAVR → 再做 EVAR
+- **背痛**：小心 dissection
+
+### 瓣膜選擇：球擴 vs 自膨
+
+| **情境** | **球擴 (Balloon-expandable)** | **自膨 (Self-expanding)** |
+|---|---|---|
+| Profile | Bigger | Smaller |
+| Hemodynamics | OK | 較佳 |
+| Horizontal aorta (> 60°) | 矢頭 valve 較好 | 難均衡 expand |
+| Aorta Ca / atheroma | 較少刮到 | 容易刮太彎 → Aortic dissection |
+| Valve-in-Valve | OK | Hemodynamic 較佳 |
+| Big annulus (34 mm) | My Valve 有大 size | 自膨難挫到，有不規則 movement |
+| PPM rate | ~5% | ~10–15% |
+
+#### PVL 考量
+
+**Ultra 多 skirt → PVL 較少**。
+
+#### 重要 hemodynamic 定義
+
+EOA (Effective Orifice Area)、PG (Pressure Gradient)、DVI (Doppler Velocity Index)、PP mismatch (Patient-Prosthesis Mismatch)。
+
+### 手術步驟細節
+
+#### Anticoagulation
+
+- 過了 3（站）沒事才打 **heparin 5000 U**
+- Target **ACT > 250**（不要太深）
+
+#### Wire / Sheath 操作
+
+- E-sheath → Pigtail → 進 LV
+- 藍色那段沒入即可，不可轉它
+- 字朝上，wrap 朝下
+
+#### Sapien (球擴) Fine Positioning
+
+- Fine positioning 時要**上鎖**
+- 兩者 align（對齊）
+- Ca 化太重時仍難調整
+- Atrium device 要**打到底**
+- Contrast 15:85（淡稀對比劑）
+- 一開始 locked，valve 到位置、快要 inflate 時才打開
+- **推到底**（不是轉↑）
+- 先打一發 dog bone → contrast injection
+
+#### Pacing 步驟（口訣）
+
+```text
+Pace on → BP ↓ → Injection → Inflate
+→ 全閉後 1.2.3.4.5 → Deflate → Pace off
+```
+
+> ⚠️ **半開 valve 時 loss of capture 最危險** → Jugular TPM 較穩定。
+
+#### Deploy 動向（自膨）
+
+- Deploy 是**下方縮上來，上方不會動**
+- 因此 → 放在 coronary 之下
+
+#### 確認影像
+
+- **Aortogram 理想比例**：7:3 或 8:2
+- 評估 AR hemodynamic
+- TEE 評估 AR (optional)
+
+### 術中其他要點
+
+#### 球擴 vs 自膨 釋放比例
+
+- **球擴**：8:2、7:3 通常不會出問題
+- **自膨**：需更小心
+
+#### Membranous Septum 短
+
+- 要特別小心，**自膨更要小心**
+- PR、QRS width 決定 risk
+
+#### Contrast 與 Hydration
+
+- 減量 if Cr ↑
+- Gentle hydration 後可打開 valve（但要排除 Tamponade）
+
+#### Sentinel（栓塞保護裝置）
+
+- **自費 10 萬**
+- Routine 使用 no evidence
+- 適合：
+    - TAVR in SAVR (valve-in-valve)
+    - Aorta 上有 thrombus
+
+#### Puncture
+
+- 要 puncture **正中央**
+- Echo guide
+
+### 併發症與風險
+
+#### PPM (Permanent Pacemaker)
+
+| **瓣膜** | **PPM rate** |
+|---|---|
+| Balloon-expandable | ~5% |
+| Self-expanding | ~10–15% |
+
+- 新發 LBBB 多 → 後續 HF 風險
+- **Delayed AVB**：一週內也可能發生
+- 遠距 SynaPe 也 OK（12 lead 確認）
+
+#### Coronary Obstruction
+
+三大風險：
+
+1. 低 coronary 高度
+2. 窄 sinus
+3. Valve 上的 Ca nodule
+
+> **VIV 技巧**：可考慮用 **snare 拉開 valve**（保護 coronary）。
+
+#### Aortic Injury
+
+Horizontal aorta + Aorta Ca / atheroma → 自膨刮到 → Aortic dissection 風險。
+
+#### 風險評分
+
+| **Score** | **高難度門檻** |
+|---|---|
+| STS | > 10% |
+| EuroSCORE | > 20% |
+| TAVI 手術死亡率 | 約 **2–3%** |
+
+### 術後照護
+
+#### 住院安排
+
+- 送 **ICU**
+- **TPM (Temporary pacemaker)**：留置觀察
+- AVB 即使 recovery 也怕 recur
+- 有人主張觀察 PPM（後來 pacing rate 低可移除）
+
+#### 監測項目
+
+- **ECG Q6H × 1 day**
+- Troponin (TnT)
+
+#### 抗血小板 / 抗凝
+
+- **不用 DAPT**（X DAPT）
+- **SAPT**：
+    - 老人 → Plavix (clopidogrel)
+    - Otherwise → Bokey (aspirin)
+- **OAC 病人**：一路用下去
+- ☆ Bridge? 術中已有 heparin
+
+#### 止血步驟 (Closure)
+
+```text
+Dilator 放入 → 再 remove sheath
+→ ProGlide → 改 8 Fr sheath
+→ AngioSeal
+→ Angiography 確認
+→ Protamine（劑量視 ACT）
+```
+
+### Take-home Pearls
+
+1. **Severe symptomatic AS 不治療 → 餘命 2 年**；BAV 不能延長壽命，只能 bridge。
+2. **年齡分層**：< 65 → SAVR；65–80 → 討論；> 80 → TAVI。
+3. **Low-risk trial 不適用於**：bicuspid、severe CAD、HCM、severe LVOT Ca、very young age 等族群。
+4. **三大術前風險**：Coronary 高度 < 10 mm、Sinus 太窄、Valve Ca nodule。
+5. **球擴看 area，自膨看 perimeter。**
+6. **Annulus / LVOT 的 Ca 化最危險**（破裂、PVL、傳導阻滯）。
+7. **球擴 PPM ~5%，自膨 PPM ~10–15%**；新發 LBBB → 注意 HF。
+8. **Pacing 口訣**：Pace on → BP ↓ → Injection → Inflate → 全閉後 deflate → Pace off。
+9. **半開 valve 時 loss of capture 最危險** → Jugular TPM 較穩。
+10. **Aortogram 7:3 / 8:2** 為理想 deploy 比例。
+11. **Horizontal aorta (> 60°) + Aorta Ca → 自膨避用**（dissection 風險）。
+12. **TAVI 死亡率 2–3%**；STS > 10% / EuroSCORE > 20% 屬高難度。
+13. **DAPT 不必要，SAPT 即可**；OAC 病人持續使用。
+14. **Closure 順序**：Dilator → ProGlide → 8 Fr sheath → AngioSeal → Angiography → Protamine。
+
+### 附錄：縮寫對照
+
+| **縮寫** | **全稱** |
+|---|---|
+| AS | Aortic Stenosis |
+| AR | Aortic Regurgitation |
+| AVB | Atrioventricular Block |
+| BAV | Balloon Aortic Valvuloplasty |
+| CAD | Coronary Artery Disease |
+| DAPT / SAPT | Dual / Single Antiplatelet Therapy |
+| DVI | Doppler Velocity Index |
+| EOA | Effective Orifice Area |
+| EVAR | Endovascular Aortic Repair |
+| HCM | Hypertrophic Cardiomyopathy |
+| LBBB | Left Bundle Branch Block |
+| LVOT | Left Ventricular Outflow Tract |
+| OAC | Oral Anticoagulant |
+| PG | Pressure Gradient |
+| PP mismatch | Patient-Prosthesis Mismatch |
+| PPM | Permanent Pacemaker |
+| PVL | Paravalvular Leak |
+| SAVR | Surgical Aortic Valve Replacement |
+| STJ | Sinotubular Junction |
+| TAVI / TAVR | Transcatheter Aortic Valve Implantation / Replacement |
+| TPM | Temporary Pacemaker |
+| VIV | Valve-in-Valve |
