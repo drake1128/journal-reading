@@ -1,6 +1,15 @@
 ---
 title: "AI 科技 — AI & Technology"
+resources:
+  - "AI_Medical_Education.html"
+  - "AI_Medical_Education.pdf"
 ---
+
+## 精選簡報 Featured Slide Deck
+
+- **[AI 數位科技應用於醫學教育 (互動簡報，可手機開啟)](AI_Medical_Education.html){target="_blank"}**
+  &nbsp;— [PDF 版本](AI_Medical_Education.pdf){target="_blank"}
+  *鍵盤 ← → 或滑動切換投影片，按 `E` 進入編輯模式*
 
 ## 教學講義 Handouts
 
