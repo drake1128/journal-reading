@@ -292,6 +292,8 @@ website:
         - section: "AI & 科技"
           contents:
             - handouts/90-ai-technology/index.qmd
+            - text: "AI 數位科技應用於醫學教育 (簡報)"
+              href: handouts/90-ai-technology/AI_Medical_Education.html
             - handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial_zh/index.qmd

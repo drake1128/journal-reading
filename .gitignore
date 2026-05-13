@@ -4,6 +4,8 @@ site_libs/
 *_files/
 *.pptx
 handouts/**/*.html
+# Hand-crafted standalone slide decks (hosted via Quarto resources, not Quarto-generated)
+!handouts/90-ai-technology/AI_Medical_Education.html
 *.log
 *.aux
 *.out
