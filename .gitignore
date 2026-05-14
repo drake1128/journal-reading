@@ -6,6 +6,7 @@ site_libs/
 handouts/**/*.html
 # Hand-crafted standalone slide decks (hosted via Quarto resources, not Quarto-generated)
 !handouts/90-ai-technology/AI_Medical_Education.html
+!handouts/20-pulmonary-embolism/VTE_Management_standalone.html
 *.log
 *.aux
 *.out

@@ -273,6 +273,8 @@ website:
         - section: "肺栓塞 PE"
           contents:
             - handouts/20-pulmonary-embolism/index.qmd
+            - text: "VTE 與 Cancer-Associated VTE 治療管理 (簡報)"
+              href: handouts/20-pulmonary-embolism/VTE_Management_standalone.html
             - handouts/20-pulmonary-embolism/circulation-storm-pe-2025/index.qmd
             - handouts/20-pulmonary-embolism/journal-reading-vte-cancer-apixaban-2025-06/index.qmd
             - handouts/20-pulmonary-embolism/lecture-acute-pe-cdt/index.qmd
