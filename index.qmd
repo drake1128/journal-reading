@@ -29,6 +29,7 @@ date: last-modified
 |---|------|-------|
 | 08 | [基因醫學](handouts/08-genetic-medicine/index.qmd) | Genetic Medicine |
 | 09 | [高血壓](handouts/09-hypertension/index.qmd) | Hypertension |
+| 14 | [糖尿病/代謝](handouts/14-diabetes-metabolic/index.qmd) | Diabetes / Metabolic |
 
 ### Critical Care 重症醫學
 

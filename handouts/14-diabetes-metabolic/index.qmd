@@ -1,0 +1,12 @@
+---
+title: "糖尿病 & 代謝 — Diabetes / Metabolic"
+---
+
+本分類收錄糖尿病、內分泌與心血管代謝相關的教學講義與互動簡報。
+
+## 互動簡報 Standalone Slides
+
+- [**Sitagliptin 在第二型糖尿病的角色** — 案例導向回顧](Sitagliptin_in_T2DM_Case-Based_Review.html){target="_blank"}
+  DPP-4 抑制劑的機轉與發展、CVOT 心血管安全性（TECOS）、2023 ESC 建議，
+  並以三個臨床情境（老年腎功能不全、低 BMI 肌少症、泌尿生殖道感染顧慮）
+  探討 Sitagliptin 相對 SGLT2i / GLP-1 RA 的處方選擇與共享決策。

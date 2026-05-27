@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Role of Sitagliptin in T2DM — Case-Based Review</title>
+
+<!-- Fonts: Fraunces (elegant display serif) + Spline Sans (clean data sans) + Noto Serif/Sans TC (Chinese) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Spline+Sans:wght@400;500;600;700&family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap">
+
+<style>
+/* ===========================================
+   CSS CUSTOM PROPERTIES (THEME)
+   Minimal-elegant academic / journal aesthetic.
+   Change these to retune the whole presentation.
+   =========================================== */
+:root{
+    /* Palette — warm paper + deep ink + restrained clinical accents */
+    --paper:        #F4F1E8;   /* main slide background (warm ivory)   */
+    --paper-2:      #FBF9F3;   /* lighter panels / cards               */
+    --paper-tint:   #ECE7DA;   /* subtle row tint                      */
+    --ink:          #1B2A38;   /* primary text / dark dividers         */
+    --ink-2:        #20323F;   /* divider gradient partner             */
+    --ink-soft:     #51606D;   /* secondary text                       */
+    --ink-faint:    #8B94A0;   /* tertiary / captions                  */
+    --rule:         #D7D0C0;   /* hairlines                            */
+    --rule-soft:    #E4DECF;
+    --accent:       #2E5E8C;   /* clinical blue (primary accent)       */
+    --accent-deep:  #234A70;
+    --accent-2:     #B0543F;   /* terracotta (case marker / caution)   */
+    --gold:         #A8854B;   /* sparse warm highlight                */
+    --ok:           #3C7A66;   /* muted positive green                 */
+    --warn:         #B0543F;   /* caution (= terracotta)               */
+
+    /* Typography */
+    --font-display: 'Fraunces','Noto Serif TC',Georgia,serif;
+    --font-serif:   'Noto Serif TC','Fraunces',Georgia,serif;
+    --font-body:    'Spline Sans','Noto Sans TC',-apple-system,sans-serif;
+
+    --title-size:  clamp(1.6rem, 4.6vw, 3.7rem);
+    --h2-size:     clamp(1.2rem, 2.9vw, 2.05rem);
+    --h3-size:     clamp(0.95rem, 1.9vw, 1.3rem);
+    --body-size:   clamp(0.72rem, 1.32vw, 1.02rem);
+    --small-size:  clamp(0.6rem, 1vw, 0.82rem);
+    --micro-size:  clamp(0.52rem, 0.85vw, 0.7rem);
+
+    --slide-padding: clamp(1.1rem, 4vw, 3.7rem);
+    --content-gap:   clamp(0.5rem, 1.6vw, 1.4rem);
+    --element-gap:   clamp(0.25rem, 0.9vw, 0.8rem);
+
+    --ease: cubic-bezier(0.16,1,0.3,1);
+    --dur: 0.7s;
+}
+
+/* ===========================================
+   BASE
+   =========================================== */
+*{margin:0;padding:0;box-sizing:border-box;}
+
+/* ---- viewport-base.css (mandatory) ---- */
+html,body{height:100%;overflow-x:hidden;}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth;}
+.slide{
+    width:100vw;height:100vh;height:100dvh;overflow:hidden;
+    scroll-snap-align:start;display:flex;flex-direction:column;position:relative;
+}
+.slide-content{
+    flex:1;display:flex;flex-direction:column;justify-content:center;
+    max-height:100%;overflow:hidden;padding:var(--slide-padding);
+}
+.card,.container,.content-box{max-width:min(92vw,1180px);max-height:min(86vh,760px);}
+img,.image-container{max-width:100%;max-height:min(50vh,400px);object-fit:contain;}
+@media (max-height:700px){:root{
+    --slide-padding:clamp(0.8rem,3vw,2rem);--content-gap:clamp(0.4rem,1.3vw,1rem);
+    --title-size:clamp(1.3rem,4.3vw,2.6rem);--h2-size:clamp(1rem,2.6vw,1.7rem);}}
+@media (max-height:600px){:root{
+    --slide-padding:clamp(0.6rem,2.5vw,1.4rem);--content-gap:clamp(0.3rem,1vw,0.7rem);
+    --body-size:clamp(0.66rem,1.15vw,0.9rem);}
+    .counter,.kbd-hint,.decorative{display:none;}}
+@media (max-height:500px){:root{
+    --slide-padding:clamp(0.4rem,2vw,1rem);--title-size:clamp(1rem,3.5vw,1.6rem);
+    --h2-size:clamp(0.9rem,2.4vw,1.25rem);--body-size:clamp(0.62rem,1vw,0.82rem);}}
+@media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.2s!important;}
+    html{scroll-behavior:auto;}}
+
+body{
+    font-family:var(--font-body);
+    background:var(--paper);
+    color:var(--ink);
+    font-size:var(--body-size);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+}
+
+/* ===========================================
+   ENTRANCE ANIMATIONS  (.reveal -> .visible)
+   =========================================== */
+.reveal{opacity:0;transform:translateY(26px);
+    transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease);}
+.slide.visible .reveal{opacity:1;transform:translateY(0);}
+.reveal:nth-child(1){transition-delay:.06s}
+.reveal:nth-child(2){transition-delay:.14s}
+.reveal:nth-child(3){transition-delay:.22s}
+.reveal:nth-child(4){transition-delay:.30s}
+.reveal:nth-child(5){transition-delay:.38s}
+.reveal:nth-child(6){transition-delay:.46s}
+.reveal:nth-child(7){transition-delay:.54s}
+.reveal:nth-child(8){transition-delay:.62s}
+.reveal:nth-child(9){transition-delay:.70s}
+.reveal:nth-child(10){transition-delay:.78s}
+.reveal-d1{transition-delay:.5s!important}
+.reveal-d2{transition-delay:.65s!important}
+.reveal-d3{transition-delay:.8s!important}
+.draw path,.draw line,.draw circle,.draw rect,.draw polyline{
+    opacity:0;transition:opacity 1s ease .4s;}
+.slide.visible .draw path,.slide.visible .draw line,.slide.visible .draw circle,
+.slide.visible .draw rect,.slide.visible .draw polyline{opacity:1;}
+
+/* ===========================================
+   FIXED UI  — progress bar + counter + edit
+   =========================================== */
+.progress-bar{position:fixed;top:0;left:0;height:3px;width:0;z-index:9000;
+    background:linear-gradient(90deg,var(--accent),var(--gold));transition:width .25s ease;}
+.counter{position:fixed;right:clamp(.8rem,2vw,1.8rem);bottom:clamp(.7rem,2vh,1.6rem);
+    z-index:9000;font-family:var(--font-display);font-size:var(--small-size);
+    letter-spacing:.08em;color:var(--ink-faint);mix-blend-mode:difference;}
+.counter .cur{color:var(--accent);font-weight:600;}
+.slide.is-dark ~ .counter{color:#aab4c0;}
+.kbd-hint{position:fixed;left:50%;bottom:clamp(.6rem,1.6vh,1.2rem);transform:translateX(-50%);
+    z-index:9000;font-size:var(--micro-size);letter-spacing:.18em;text-transform:uppercase;
+    color:var(--ink-faint);opacity:.6;animation:fadeHint 4s ease 3s forwards;}
+@keyframes fadeHint{to{opacity:0;visibility:hidden;}}
+
+/* edit affordance (opt-in) */
+.edit-hotzone{position:fixed;top:0;left:0;width:80px;height:80px;z-index:10000;cursor:pointer;}
+.edit-toggle{position:fixed;top:14px;left:14px;z-index:10001;border:1px solid var(--rule);
+    background:var(--paper-2);color:var(--ink);width:42px;height:42px;border-radius:50%;
+    font-size:17px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s ease,transform .2s ease;
+    box-shadow:0 6px 20px rgba(27,42,56,.16);}
+.edit-toggle:hover{transform:scale(1.07);}
+.edit-toggle.show,.edit-toggle.active{opacity:1;pointer-events:auto;}
+.edit-toggle.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+.edit-banner{position:fixed;top:14px;left:66px;z-index:10001;background:var(--accent);color:#fff;
+    padding:7px 14px;border-radius:7px;font-size:var(--small-size);opacity:0;pointer-events:none;
+    transition:opacity .3s ease;box-shadow:0 6px 20px rgba(27,42,56,.2);white-space:nowrap;}
+.edit-banner.show{opacity:1;}
+[contenteditable="true"]{outline:2px dashed rgba(46,94,140,.5);outline-offset:3px;border-radius:3px;
+    cursor:text;transition:background .2s;}
+[contenteditable="true"]:hover{background:rgba(46,94,140,.07);}
+[contenteditable="true"]:focus{outline:2px solid var(--accent);background:rgba(46,94,140,.05);}
+
+/* ===========================================
+   SLIDE BACKGROUNDS / DECOR
+   =========================================== */
+.slide{background:var(--paper);}
+/* faint paper grain via layered gradients */
+.slide::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+    background:
+      radial-gradient(ellipse at 88% 6%, rgba(46,94,140,.05) 0%, transparent 45%),
+      radial-gradient(ellipse at 4% 96%, rgba(168,133,75,.05) 0%, transparent 42%);}
+.slide.is-dark{background:linear-gradient(150deg,var(--ink) 0%,var(--ink-2) 100%);color:var(--paper);}
+.slide.is-dark::before{opacity:1;background:
+      radial-gradient(ellipse at 80% 12%, rgba(46,94,140,.22) 0%, transparent 50%),
+      radial-gradient(ellipse at 10% 90%, rgba(168,133,75,.10) 0%, transparent 48%);}
+
+/* ===========================================
+   DIVIDER / SECTION SLIDES
+   =========================================== */
+.divider-content{flex:1;display:flex;flex-direction:column;justify-content:center;
+    padding:var(--slide-padding);position:relative;z-index:2;}
+.divider-num{position:absolute;right:clamp(1rem,5vw,5rem);top:50%;transform:translateY(-50%);
+    font-family:var(--font-display);font-weight:400;font-style:italic;
+    font-size:clamp(8rem,32vw,26rem);line-height:.8;color:rgba(255,255,255,.06);
+    pointer-events:none;user-select:none;letter-spacing:-.03em;}
+.divider-num.terra{color:rgba(176,84,63,.14);}
+.kicker{font-family:var(--font-body);font-weight:600;font-size:var(--small-size);
+    letter-spacing:.34em;text-transform:uppercase;color:var(--accent);}
+.is-dark .kicker{color:#7fb0d8;}
+.divider-rule{width:clamp(3rem,8vw,7rem);height:2px;background:var(--gold);margin:clamp(.6rem,1.6vh,1.2rem) 0;}
+.divider-title{font-family:var(--font-display);font-weight:600;font-size:var(--title-size);
+    line-height:1.08;letter-spacing:-.01em;max-width:18ch;}
+.divider-sub{font-family:var(--font-serif);font-size:clamp(.9rem,1.9vw,1.35rem);
+    color:#c5cfd8;margin-top:.7em;font-weight:500;max-width:34ch;}
+.is-dark .divider-sub{color:#bcc7d1;}
+
+/* case divider accent */
+.case-tag{display:inline-flex;align-items:center;gap:.6em;font-family:var(--font-display);
+    font-weight:600;font-size:var(--small-size);letter-spacing:.12em;color:var(--accent-2);text-transform:uppercase;}
+.case-tag::before{content:"";width:clamp(1.4rem,3vw,2.6rem);height:2px;background:var(--accent-2);}
+
+/* ===========================================
+   CONTENT-SLIDE HEAD  (title + underline rule)
+   =========================================== */
+.slide-head{flex:0 0 auto;}
+.slide-head .eyebrow{font-family:var(--font-body);font-weight:600;font-size:var(--micro-size);
+    letter-spacing:.26em;text-transform:uppercase;color:var(--accent);margin-bottom:.35em;}
+.slide-head .eyebrow.terra{color:var(--accent-2);}
+.slide-head h2{font-family:var(--font-display);font-weight:600;font-size:var(--h2-size);
+    line-height:1.12;letter-spacing:-.01em;color:var(--ink);}
+.slide-head .head-rule{height:2px;background:linear-gradient(90deg,var(--ink) 0%,var(--ink) 42%,var(--rule) 42%,var(--rule) 100%);
+    margin-top:clamp(.45rem,1.1vh,.8rem);}
+.slide-body{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;
+    gap:var(--content-gap);min-height:0;padding-top:clamp(.5rem,1.6vh,1.2rem);}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1rem,3vw,2.6rem);align-items:center;min-height:0;}
+.two-col.wide-right{grid-template-columns:0.85fr 1.15fr;}
+.two-col.wide-left{grid-template-columns:1.15fr 0.85fr;}
+@media (max-width:760px){.two-col{grid-template-columns:1fr;gap:1rem;}}
+
+/* ===========================================
+   TYPOGRAPHY HELPERS
+   =========================================== */
+.subhead{font-family:var(--font-display);font-weight:600;font-size:var(--h3-size);
+    color:var(--accent);margin-bottom:.3em;display:flex;align-items:center;gap:.5em;}
+.subhead.terra{color:var(--accent-2);}
+.lead{font-family:var(--font-serif);font-size:clamp(.85rem,1.7vw,1.18rem);color:var(--ink-soft);font-weight:500;}
+strong,b{font-weight:700;color:var(--ink);}
+em{font-style:italic;}
+
+.bullets{list-style:none;display:flex;flex-direction:column;gap:clamp(.3rem,1vh,.7rem);}
+.bullets li{position:relative;padding-left:1.5em;font-size:var(--body-size);line-height:1.45;color:var(--ink-soft);}
+.bullets li::before{content:"";position:absolute;left:.2em;top:.62em;width:6px;height:6px;
+    background:var(--accent);border-radius:50%;}
+.bullets.terra li::before{background:var(--accent-2);}
+.bullets li strong{color:var(--ink);}
+.bullets.sub li{padding-left:1.4em;font-size:calc(var(--body-size)*.96);}
+.bullets.sub li::before{width:5px;height:5px;background:none;border:1.5px solid var(--ink-faint);top:.55em;}
+
+.tick li::before,.cross li::before{content:none;}
+.tick li,.cross li{padding-left:1.7em;}
+.tick li{position:relative;}
+.tick li::after{content:"";position:absolute;left:.1em;top:.32em;width:.85em;height:.5em;
+    border-left:2px solid var(--ok);border-bottom:2px solid var(--ok);transform:rotate(-45deg);}
+
+.callout{border-left:3px solid var(--accent-2);padding:.5em 0 .5em 1em;font-family:var(--font-serif);
+    font-style:italic;color:var(--ink);font-size:clamp(.82rem,1.55vw,1.1rem);line-height:1.45;}
+.callout.blue{border-color:var(--accent);}
+.callout.warn{border-color:var(--warn);}
+.note{font-size:var(--small-size);color:var(--ink-faint);}
+
+.cite{font-size:var(--micro-size);color:var(--ink-faint);letter-spacing:.01em;
+    margin-top:clamp(.5rem,1.4vh,1.1rem);flex:0 0 auto;line-height:1.5;}
+.cite a,.cite .link{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(46,94,140,.35);}
+
+/* ===========================================
+   DATA TABLE  (elegant journal table)
+   =========================================== */
+.data-table{width:100%;border-collapse:collapse;font-size:clamp(.66rem,1.2vw,.95rem);}
+.data-table th{font-family:var(--font-body);font-weight:600;text-align:left;color:var(--paper);
+    background:var(--ink);padding:.6em .85em;letter-spacing:.02em;white-space:nowrap;}
+.data-table th:first-child{border-top-left-radius:4px;}
+.data-table th:last-child{border-top-right-radius:4px;}
+.data-table td{padding:.5em .85em;border-bottom:1px solid var(--rule);color:var(--ink-soft);}
+.data-table tr:nth-child(even) td{background:rgba(236,231,218,.45);}
+.data-table td strong{color:var(--ink);}
+.data-table .hl{background:rgba(46,94,140,.10)!important;color:var(--ink);font-weight:600;
+    box-shadow:inset 2px 0 0 var(--accent),inset -2px 0 0 var(--accent);}
+.data-table th.hl{background:var(--accent)!important;color:#fff;box-shadow:none;}
+.data-table .center{text-align:center;}
+.pos{color:var(--ok);font-weight:600;}
+.neg{color:var(--warn);font-weight:600;}
+
+/* ===========================================
+   STAT / PATIENT CARDS
+   =========================================== */
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(.5rem,1.4vw,1rem);}
+.stat-card{background:var(--paper-2);border:1px solid var(--rule);border-radius:8px;
+    padding:clamp(.6rem,1.5vh,1rem) clamp(.7rem,1.5vw,1.1rem);position:relative;overflow:hidden;}
+.stat-card::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);}
+.stat-card.terra::after{background:var(--accent-2);}
+.stat-card.flag::after{background:var(--warn);}
+.stat-card .k{font-size:var(--micro-size);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);}
+.stat-card .v{font-family:var(--font-display);font-weight:600;font-size:clamp(1rem,2.3vw,1.7rem);
+    color:var(--ink);line-height:1.1;margin-top:.15em;}
+.stat-card .v small{font-size:.55em;color:var(--ink-soft);font-weight:500;font-family:var(--font-body);}
+
+/* prescription card */
+.rx-card{background:var(--ink);color:var(--paper);border-radius:10px;
+    padding:clamp(.8rem,2vh,1.3rem) clamp(1rem,2.4vw,1.6rem);position:relative;overflow:hidden;}
+.rx-card::before{content:"℞";position:absolute;right:.2em;bottom:-.15em;font-family:var(--font-display);
+    font-size:clamp(4rem,11vw,8rem);color:rgba(255,255,255,.07);font-style:italic;line-height:1;}
+.rx-card .rx-label{font-size:var(--micro-size);letter-spacing:.26em;text-transform:uppercase;color:#7fb0d8;}
+.rx-card .rx-main{font-family:var(--font-display);font-weight:600;font-size:clamp(1rem,2.2vw,1.55rem);
+    margin-top:.25em;line-height:1.25;position:relative;z-index:1;}
+.rx-card .rx-main em{color:var(--gold);font-style:normal;}
+.rx-card .rx-sub{font-size:var(--small-size);color:#bcc7d1;margin-top:.45em;position:relative;z-index:1;}
+
+/* small chips */
+.chip-row{display:flex;flex-wrap:wrap;gap:.45em;}
+.chip{font-size:var(--small-size);padding:.28em .7em;border-radius:999px;border:1px solid var(--rule);
+    background:var(--paper-2);color:var(--ink-soft);}
+.chip.accent{border-color:var(--accent);color:var(--accent);background:rgba(46,94,140,.06);}
+.chip.terra{border-color:var(--accent-2);color:var(--accent-2);background:rgba(176,84,63,.06);}
+
+/* ===========================================
+   SVG CHART SHELLS
+   =========================================== */
+.chart{width:100%;height:auto;max-height:min(56vh,460px);display:block;}
+.chart text{font-family:var(--font-body);fill:var(--ink-soft);}
+.chart .axis{stroke:var(--rule);stroke-width:1;}
+.chart .grid-l{stroke:var(--rule-soft);stroke-width:1;stroke-dasharray:3 4;}
+.chart .lbl{font-size:11px;fill:var(--ink-faint);}
+.chart .val{font-family:var(--font-display);font-weight:600;fill:var(--ink);}
+
+/* CSS bar chart (horizontal) */
+.barchart{display:flex;flex-direction:column;gap:clamp(.35rem,1vh,.7rem);width:100%;}
+.bar-row{display:grid;grid-template-columns:minmax(7em,auto) 1fr auto;align-items:center;gap:.7em;}
+.bar-row .bl{font-size:var(--small-size);color:var(--ink-soft);text-align:right;line-height:1.2;}
+.bar-track{height:clamp(.7rem,1.7vh,1.15rem);background:var(--paper-tint);border-radius:3px;overflow:hidden;position:relative;}
+.bar-fill{height:100%;width:0;border-radius:3px;background:linear-gradient(90deg,var(--accent-deep),var(--accent));
+    transition:width 1.1s var(--ease) .3s;}
+.bar-fill.terra{background:linear-gradient(90deg,#8e4334,var(--accent-2));}
+.bar-fill.gold{background:linear-gradient(90deg,#8a6c3a,var(--gold));}
+.slide.visible .bar-fill{width:var(--w,0);}
+.bar-row .bv{font-family:var(--font-display);font-weight:600;font-size:var(--small-size);color:var(--ink);min-width:2.6em;}
+
+/* timeline */
+.timeline{position:relative;padding-left:clamp(1.2rem,3vw,2rem);}
+.timeline::before{content:"";position:absolute;left:clamp(.35rem,1vw,.6rem);top:.4em;bottom:.4em;
+    width:2px;background:var(--rule);}
+.tl-item{position:relative;padding:clamp(.18rem,.7vh,.5rem) 0;display:grid;
+    grid-template-columns:clamp(4.5rem,9vw,7rem) 1fr;gap:.8em;align-items:baseline;}
+.tl-item::before{content:"";position:absolute;left:calc(-1*clamp(1.2rem,3vw,2rem) + clamp(.1rem,.55vw,.32rem));
+    top:.7em;width:clamp(.55rem,1.4vw,.85rem);height:clamp(.55rem,1.4vw,.85rem);border-radius:50%;
+    background:var(--paper);border:2px solid var(--accent);}
+.tl-item.key::before{background:var(--accent);box-shadow:0 0 0 3px rgba(46,94,140,.15);}
+.tl-year{font-family:var(--font-display);font-weight:600;font-size:var(--small-size);color:var(--accent);}
+.tl-item.key .tl-year{color:var(--accent-2);}
+.tl-text{font-size:var(--small-size);color:var(--ink-soft);line-height:1.35;}
+.tl-item.key .tl-text strong{color:var(--ink);}
+
+/* decorative line-art container */
+.line-art{position:absolute;pointer-events:none;opacity:.9;}
+
+.center-wrap{align-items:center;text-align:center;}
+.maxw{max-width:62ch;}
+</style>
+</head>
+<body>
+
+<!-- ============ FIXED UI ============ -->
+<div class="progress-bar" id="progressBar"></div>
+<div class="counter"><span class="cur" id="curNum">01</span> / 41</div>
+<div class="kbd-hint">← → 翻頁 · E 編輯</div>
+
+<!-- edit affordance (user opted in) -->
+<div class="edit-hotzone" id="editHotzone"></div>
+<button class="edit-toggle" id="editToggle" title="編輯模式 (E)">✏️</button>
+<div class="edit-banner" id="editBanner">編輯模式：點擊文字編輯 · Ctrl+S 匯出</div>
+
+<!-- =====================================================================
+     SLIDE 1 — TITLE
+     ===================================================================== -->
+<section class="slide is-dark title-slide">
+    <!-- decorative molecule line-art (sitagliptin motif, simplified) -->
+    <svg class="line-art draw" style="right:-4%;top:8%;width:min(46vw,560px);height:auto;" viewBox="0 0 420 360" fill="none" aria-hidden="true">
+        <g stroke="#7fb0d8" stroke-width="1.4" opacity="0.5">
+            <polygon points="120,70 165,45 210,70 210,120 165,145 120,120" />
+            <line x1="210" y1="70" x2="255" y2="45"/><line x1="255" y1="45" x2="300" y2="70"/>
+            <line x1="300" y1="70" x2="300" y2="120"/><line x1="300" y1="120" x2="255" y2="145"/>
+            <line x1="255" y1="145" x2="210" y2="120"/>
+            <line x1="165" y1="145" x2="165" y2="200"/><line x1="165" y1="200" x2="210" y2="225"/>
+            <line x1="210" y1="225" x2="210" y2="278"/><line x1="210" y1="278" x2="255" y2="303"/>
+            <line x1="165" y1="200" x2="120" y2="225"/>
+            <circle cx="120" cy="70" r="4" fill="#7fb0d8" stroke="none"/>
+            <circle cx="300" cy="70" r="4" fill="#7fb0d8" stroke="none"/>
+            <circle cx="255" cy="303" r="4" fill="#A8854B" stroke="none"/>
+            <circle cx="120" cy="225" r="4" fill="#7fb0d8" stroke="none"/>
+        </g>
+        <g fill="#A8854B" opacity="0.7" font-family="serif" font-size="13" font-style="italic">
+            <text x="305" y="66">F</text><text x="118" y="60">N</text><text x="252" y="318">NH₂</text>
+        </g>
+    </svg>
+
+    <div class="divider-content">
+        <p class="kicker reveal">DPP-4 Inhibitor · Case-Based Review</p>
+        <div class="divider-rule reveal"></div>
+        <h1 class="divider-title reveal" style="font-size:var(--title-size);max-width:20ch;">The Role of Sitagliptin in the Treatment of Type 2 Diabetes Mellitus</h1>
+        <p class="divider-sub reveal" style="color:#dfe6ec;font-weight:700;">DPP-4 抑制劑的歷史定位、保護機制與案例討論</p>
+        <p class="divider-sub reveal" style="margin-top:.4em;">—— 在 SGLT2i 與 GLP-1 RA 時代下的角色再審視</p>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 2 — OUTLINE
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Agenda</p>
+            <h2 class="reveal">Outlines</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col" style="grid-template-columns:1fr 1fr;align-items:stretch;">
+                <div class="reveal" style="display:flex;flex-direction:column;gap:clamp(.5rem,1.6vh,1.1rem);">
+                    <div style="display:flex;gap:.8em;align-items:baseline;">
+                        <span style="font-family:var(--font-display);font-size:clamp(1.4rem,3vw,2.2rem);color:var(--accent);font-weight:600;">I</span>
+                        <div>
+                            <strong style="font-size:var(--h3-size);font-family:var(--font-display);">DPP-4 抑制劑發展歷史與既有資料</strong>
+                            <ul class="bullets sub" style="margin-top:.4em;">
+                                <li>發展里程碑與作用機轉</li>
+                                <li>心血管安全性試驗 (CVOTs) 總覽</li>
+                                <li>早期血糖控制的 Legacy Effect</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal" style="display:flex;flex-direction:column;gap:clamp(.5rem,1.6vh,1.1rem);">
+                    <div style="display:flex;gap:.8em;align-items:baseline;">
+                        <span style="font-family:var(--font-display);font-size:clamp(1.4rem,3vw,2.2rem);color:var(--accent-2);font-weight:600;">II</span>
+                        <div>
+                            <strong style="font-size:var(--h3-size);font-family:var(--font-display);">案例討論：Sitagliptin 的獨特保護機制與輔助角色</strong>
+                            <ul class="bullets sub terra" style="margin-top:.4em;">
+                                <li>Case 1 — 老年腎功能不全患者</li>
+                                <li>Case 2 — 低 BMI 與肌少症風險患者</li>
+                                <li>Case 3 — 擔心泌尿道感染與腸胃副作用</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="display:flex;gap:.8em;align-items:baseline;margin-top:.3em;">
+                        <span style="font-family:var(--font-display);font-size:clamp(1.4rem,3vw,2.2rem);color:var(--gold);font-weight:600;">III</span>
+                        <div><strong style="font-size:var(--h3-size);font-family:var(--font-display);">Take-Home Messages</strong></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 3 — PART I DIVIDER
+     ===================================================================== -->
+<section class="slide is-dark">
+    <span class="divider-num">I</span>
+    <div class="divider-content">
+        <p class="kicker reveal">Part I</p>
+        <div class="divider-rule reveal"></div>
+        <h2 class="divider-title reveal">DPP-4 抑制劑的發展歷史與既有資料</h2>
+        <p class="divider-sub reveal">從腸泌素效應的發現，到心血管安全性試驗與 Legacy Effect 的累積證據</p>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 4 — DPP-4 DEVELOPMENT MILESTONES (timeline)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">History</p>
+            <h2 class="reveal">DPP-4 抑制劑發展里程碑</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="timeline reveal">
+                <div class="tl-item"><span class="tl-year">1960s–70s</span><span class="tl-text">發現腸泌素效應 (Incretin Effect)</span></div>
+                <div class="tl-item"><span class="tl-year">1990s</span><span class="tl-text">鑑定 DPP-4 為降解 GLP-1 / GIP 的關鍵酵素</span></div>
+                <div class="tl-item key"><span class="tl-year">2006</span><span class="tl-text"><strong>Sitagliptin (Januvia) 獲 FDA 核准</strong> — 首個 DPP-4 抑制劑</span></div>
+                <div class="tl-item"><span class="tl-year">2007–2011</span><span class="tl-text">Vildagliptin、Saxagliptin、Linagliptin、Alogliptin 陸續上市</span></div>
+                <div class="tl-item"><span class="tl-year">2013</span><span class="tl-text">SAVOR-TIMI 53：Saxagliptin 心衰住院風險升高</span></div>
+                <div class="tl-item key"><span class="tl-year">2015</span><span class="tl-text"><strong>TECOS：Sitagliptin 確認心血管安全性</strong> — 無心衰訊號</span></div>
+                <div class="tl-item"><span class="tl-year">2018</span><span class="tl-text">CARMELINA：Linagliptin 在腎功能不全族群中安全</span></div>
+                <div class="tl-item key"><span class="tl-year">2020+</span><span class="tl-text"><strong>DPP-4i 重新定位</strong>：特定族群的精準治療角色</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 5 — MECHANISM OF ACTION (SVG incretin pathway)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Mechanism</p>
+            <h2 class="reveal">DPP-4 抑制劑作用機轉</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col wide-left">
+                <svg class="chart draw reveal" viewBox="0 0 560 300" role="img" aria-label="DPP-4 抑制劑作用機轉路徑圖">
+                    <!-- meal -> gut incretin -->
+                    <text x="20" y="40" class="val" font-size="14">進食</text>
+                    <text x="20" y="58" class="lbl">腸道 L/K 細胞</text>
+                    <path d="M70 90 q40 0 80 0" stroke="#2E5E8C" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+                    <!-- incretins box -->
+                    <rect x="150" y="62" width="150" height="58" rx="8" fill="rgba(46,94,140,.08)" stroke="#2E5E8C" stroke-width="1.5"/>
+                    <text x="225" y="86" text-anchor="middle" class="val" font-size="14">GLP-1 / GIP</text>
+                    <text x="225" y="106" text-anchor="middle" class="lbl">腸泌素分泌</text>
+                    <!-- DPP-4 enzyme degrading (crossed out) -->
+                    <g>
+                        <rect x="150" y="150" width="150" height="50" rx="8" fill="rgba(176,84,63,.07)" stroke="#B0543F" stroke-width="1.5" stroke-dasharray="5 4"/>
+                        <text x="225" y="172" text-anchor="middle" fill="#B0543F" font-family="var(--font-display)" font-weight="600" font-size="13">DPP-4 酵素</text>
+                        <text x="225" y="190" text-anchor="middle" class="lbl" fill="#B0543F">快速降解 (被抑制)</text>
+                    </g>
+                    <line x1="225" y1="120" x2="225" y2="150" stroke="#B0543F" stroke-width="2"/>
+                    <!-- inhibitor block -->
+                    <line x1="200" y1="135" x2="250" y2="135" stroke="#B0543F" stroke-width="3"/>
+                    <text x="258" y="139" fill="#B0543F" font-size="11" font-weight="600">Sitagliptin 抑制</text>
+                    <!-- prolonged activity arrow -->
+                    <path d="M300 91 q60 0 110 -10" stroke="#2E5E8C" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+                    <text x="360" y="58" text-anchor="middle" class="lbl">活性延長 2–3 倍</text>
+                    <!-- pancreas effects -->
+                    <rect x="410" y="55" width="135" height="80" rx="8" fill="#FBF9F3" stroke="#D7D0C0" stroke-width="1.5"/>
+                    <text x="477" y="80" text-anchor="middle" class="val" font-size="13">胰島</text>
+                    <text x="477" y="102" text-anchor="middle" class="lbl">胰島素 ↑</text>
+                    <text x="477" y="120" text-anchor="middle" class="lbl">升糖素 ↓</text>
+                    <!-- glucose dependent note -->
+                    <path d="M477 135 l0 35" stroke="#2E5E8C" stroke-width="2" marker-end="url(#ar)"/>
+                    <rect x="395" y="175" width="165" height="44" rx="8" fill="rgba(60,122,102,.08)" stroke="#3C7A66" stroke-width="1.5"/>
+                    <text x="477" y="195" text-anchor="middle" fill="#3C7A66" font-weight="600" font-size="12">血糖依賴性調節</text>
+                    <text x="477" y="211" text-anchor="middle" class="lbl">低血糖風險極低</text>
+                    <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+                        <path d="M0 0 L6 3 L0 6 Z" fill="#2E5E8C"/></marker></defs>
+                </svg>
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li>抑制 DPP-4 酵素 → 延長 <strong>GLP-1 與 GIP</strong> 活性（約 2–3 倍）</li>
+                        <li><strong>血糖依賴性</strong>促進胰島素分泌、抑制升糖素</li>
+                        <li>低血糖風險極低、體重中性、口服方便</li>
+                    </ul>
+                    <p class="cite reveal">Deacon CF, et al. <span class="link">Nat Rev Endocrinol. 2020;16:642-653</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 6 — SITAGLIPTIN + METFORMIN SYNERGY
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Combination</p>
+            <h2 class="reveal">Sitagliptin 與 Metformin 的協同機轉</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <p class="lead reveal">兩藥分別針對 T2DM 的多重病理缺陷，機轉互補：</p>
+            <div class="two-col wide-right">
+                <!-- converging mechanism diagram -->
+                <svg class="chart draw reveal" viewBox="0 0 300 230" role="img" aria-label="Metformin 與 Sitagliptin 互補機轉">
+                    <circle cx="95" cy="95" r="72" fill="rgba(46,94,140,.08)" stroke="#2E5E8C" stroke-width="1.5"/>
+                    <circle cx="205" cy="95" r="72" fill="rgba(176,84,63,.07)" stroke="#B0543F" stroke-width="1.5"/>
+                    <text x="60" y="60" text-anchor="middle" fill="#2E5E8C" font-weight="600" font-size="13">Metformin</text>
+                    <text x="245" y="60" text-anchor="middle" fill="#B0543F" font-weight="600" font-size="13">Sitagliptin</text>
+                    <text x="60" y="95" text-anchor="middle" class="lbl">肝糖新生 ↓</text>
+                    <text x="60" y="115" text-anchor="middle" class="lbl">總 GLP-1 ↑</text>
+                    <text x="245" y="95" text-anchor="middle" class="lbl">活性 GLP-1 ↑</text>
+                    <text x="245" y="115" text-anchor="middle" class="lbl">升糖素 ↓</text>
+                    <text x="150" y="92" text-anchor="middle" fill="#1B2A38" font-weight="600" font-size="12">血糖</text>
+                    <text x="150" y="108" text-anchor="middle" fill="#1B2A38" font-weight="600" font-size="12">控制</text>
+                    <text x="150" y="210" text-anchor="middle" class="lbl" font-style="italic">經典互補組合</text>
+                </svg>
+                <div class="reveal">
+                    <table class="data-table">
+                        <thead><tr><th>病理機轉</th><th>Metformin</th><th class="hl">Sitagliptin</th></tr></thead>
+                        <tbody>
+                            <tr><td>β 細胞功能障礙</td><td>增加總 GLP-1</td><td class="hl">增加活性 GLP-1</td></tr>
+                            <tr><td>肝臟葡萄糖輸出過多</td><td>抑制糖質新生</td><td class="hl">抑制升糖素</td></tr>
+                            <tr><td>胰島素阻抗</td><td>改善肝/肌肉敏感性</td><td class="hl">間接改善</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="callout blue reveal" style="margin-top:.7em;">互補機轉使兩藥合併成為 T2DM 治療的經典組合</p>
+                </div>
+            </div>
+            <p class="cite reveal">Vardarli I, et al. <span class="link">Diabetes. 2014;63:663-674</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 7 — UKPDS 88 LEGACY EFFECT
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Legacy Effect · UKPDS 88</p>
+            <h2 class="reveal">早期血糖控制的 Legacy Effect</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col wide-left">
+                <div class="reveal">
+                    <table class="data-table" style="font-size:clamp(.6rem,1.1vw,.86rem);">
+                        <thead><tr><th>Aggregate Endpoint (RRR)</th><th class="center">10.7y<br><span style="font-weight:400;opacity:.7;">1997</span></th><th class="center">17.7y<br><span style="font-weight:400;opacity:.7;">2007</span></th><th class="center">18.0y<br><span style="font-weight:400;opacity:.7;">2021</span></th></tr></thead>
+                        <tbody>
+                            <tr><td>任何糖尿病相關終點</td><td class="center"><strong>32%</strong></td><td class="center">21%</td><td class="center">19%</td></tr>
+                            <tr><td>心肌梗塞</td><td class="center"><strong>39%</strong></td><td class="center">33%</td><td class="center">31%</td></tr>
+                            <tr><td>微血管疾病</td><td class="center">29%</td><td class="center">16%</td><td class="center">10%</td></tr>
+                            <tr><td>全因死亡率</td><td class="center"><strong>36%</strong></td><td class="center">27%</td><td class="center">25%</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="note reveal" style="margin-top:.5em;">RRR = 相對風險降低；效益隨追蹤年限延續（達 18 年）</p>
+                </div>
+                <div class="reveal">
+                    <p class="subhead">診斷時 HbA1c 每降低 1%</p>
+                    <p class="note" style="margin-bottom:.4em;">及早控制 vs. 延後 10 年才控制</p>
+                    <div class="barchart">
+                        <div class="bar-row"><span class="bl">全因死亡率<br><small>及早</small></span><div class="bar-track"><div class="bar-fill" style="--w:94%"></div></div><span class="bv">18.8%</span></div>
+                        <div class="bar-row"><span class="bl">全因死亡率<br><small>延後</small></span><div class="bar-track"><div class="bar-fill gold" style="--w:14%"></div></div><span class="bv">2.7%</span></div>
+                        <div class="bar-row"><span class="bl">心肌梗塞<br><small>及早</small></span><div class="bar-track"><div class="bar-fill" style="--w:99%"></div></div><span class="bv">19.7%</span></div>
+                        <div class="bar-row"><span class="bl">心肌梗塞<br><small>延後</small></span><div class="bar-track"><div class="bar-fill gold" style="--w:33%"></div></div><span class="bv">6.5%</span></div>
+                    </div>
+                    <p class="callout blue" style="margin-top:.6em;">及早發現並積極控制血糖，能最大限度降低長期併發症風險</p>
+                </div>
+            </div>
+            <p class="cite reveal">Lind M, et al. <span class="link">Diabetes Care. 2021;44(10):2231-7</span> · UKPDS 34/80, UKPDS 44-year Follow-up (EASD 2022)</p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 8 — GLYCEMIC CONTROL → COMPLICATION RISK (bar chart)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">UKPDS 35 · BMJ 2000</p>
+            <h2 class="reveal">改善血糖控制可降低長期併發症風險</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body center-wrap">
+            <p class="lead reveal" style="margin-bottom:.4em;">HbA1c 每降低 1% 所減少的長期併發症風險：</p>
+            <div class="barchart reveal maxw" style="width:min(86vw,820px);">
+                <div class="bar-row"><span class="bl">截肢 / 致死性周邊血管疾病</span><div class="bar-track"><div class="bar-fill terra" style="--w:100%"></div></div><span class="bv">43%</span></div>
+                <div class="bar-row"><span class="bl">微血管疾病</span><div class="bar-track"><div class="bar-fill" style="--w:86%"></div></div><span class="bv">37%</span></div>
+                <div class="bar-row"><span class="bl">白內障手術</span><div class="bar-track"><div class="bar-fill" style="--w:44%"></div></div><span class="bv">19%</span></div>
+                <div class="bar-row"><span class="bl">心衰竭</span><div class="bar-track"><div class="bar-fill" style="--w:37%"></div></div><span class="bv">16%</span></div>
+                <div class="bar-row"><span class="bl">心肌梗塞</span><div class="bar-track"><div class="bar-fill" style="--w:33%"></div></div><span class="bv">14%</span></div>
+                <div class="bar-row"><span class="bl">腦中風</span><div class="bar-track"><div class="bar-fill" style="--w:28%"></div></div><span class="bv">12%</span></div>
+            </div>
+            <p class="cite reveal">Stratton IM, et al. <span class="link">BMJ. 2000;321(7258):405-12</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 9 — CVOTs OVERVIEW (table + MACE HR plot)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Cardiovascular Outcome Trials</p>
+            <h2 class="reveal">DPP-4 抑制劑心血管安全性試驗 (CVOTs) 總覽</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col wide-left">
+                <div class="reveal">
+                    <table class="data-table" style="font-size:clamp(.6rem,1.1vw,.85rem);">
+                        <thead><tr><th>試驗</th><th>藥物</th><th class="center">N</th><th class="center">MACE HR</th><th class="center">心衰住院</th><th class="center">心衰訊號</th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>TECOS</strong></td><td><strong>Sitagliptin</strong></td><td class="center">14,671</td><td class="center"><strong>0.98</strong></td><td class="center"><strong>1.00</strong></td><td class="center pos">無</td></tr>
+                            <tr><td>EXAMINE</td><td>Alogliptin</td><td class="center">5,380</td><td class="center">0.96</td><td class="center">邊緣</td><td class="center">不確定</td></tr>
+                            <tr><td>SAVOR-TIMI 53</td><td>Saxagliptin</td><td class="center">16,492</td><td class="center">1.00</td><td class="center neg">1.27</td><td class="center neg">有</td></tr>
+                            <tr><td>CARMELINA</td><td>Linagliptin</td><td class="center">6,979</td><td class="center">1.02</td><td class="center">0.90</td><td class="center pos">無</td></tr>
+                        </tbody>
+                    </table>
+                    <ul class="bullets" style="margin-top:.6em;"><li>Sitagliptin (TECOS) 與 Linagliptin (CARMELINA) 具有<strong>最完整的心血管安全數據</strong></li></ul>
+                </div>
+                <div class="reveal">
+                    <p class="note" style="text-align:center;margin-bottom:.2em;">MACE HR（相對於 1.0 中性線）</p>
+                    <svg class="chart draw" viewBox="0 0 320 220" role="img" aria-label="各試驗 MACE 風險比">
+                        <line class="grid-l" x1="196" y1="20" x2="196" y2="180"/>
+                        <text x="196" y="200" text-anchor="middle" class="lbl">1.0</text>
+                        <line class="axis" x1="70" y1="180" x2="290" y2="180"/>
+                        <text x="76" y="200" class="lbl">0.85</text><text x="276" y="200" class="lbl">1.10</text>
+                        <!-- TECOS 0.98 -->
+                        <text x="64" y="44" text-anchor="end" class="lbl">TECOS</text>
+                        <circle cx="179" cy="40" r="6" fill="#2E5E8C"/>
+                        <!-- EXAMINE 0.96 -->
+                        <text x="64" y="84" text-anchor="end" class="lbl">EXAMINE</text>
+                        <circle cx="162" cy="80" r="6" fill="#51606D"/>
+                        <!-- SAVOR 1.00 -->
+                        <text x="64" y="124" text-anchor="end" class="lbl">SAVOR</text>
+                        <circle cx="196" cy="120" r="6" fill="#51606D"/>
+                        <!-- CARMELINA 1.02 -->
+                        <text x="64" y="164" text-anchor="end" class="lbl">CARMELINA</text>
+                        <circle cx="212.8" cy="160" r="6" fill="#51606D"/>
+                    </svg>
+                    <p class="note" style="text-align:center;">所有試驗 MACE 皆叢集於 1.0 附近 → 心血管中性</p>
+                </div>
+            </div>
+            <p class="cite reveal">Green JB, et al. <span class="link">N Engl J Med. 2015;373:232-242</span> · Scirica BM, et al. <span class="link">N Engl J Med. 2013;369:1317-26</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 10 — TECOS HbA1c CURVE
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">TECOS</p>
+            <h2 class="reveal">TECOS：Sitagliptin 的心血管安全性</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <svg class="chart draw reveal" viewBox="0 0 560 250" role="img" aria-label="TECOS HbA1c 隨時間變化">
+                    <!-- grid -->
+                    <line class="grid-l" x1="60" y1="175" x2="520" y2="175"/>
+                    <line class="grid-l" x1="60" y1="130" x2="520" y2="130"/>
+                    <line class="grid-l" x1="60" y1="85" x2="520" y2="85"/>
+                    <text x="52" y="179" text-anchor="end" class="lbl">6.5</text>
+                    <text x="52" y="134" text-anchor="end" class="lbl">7.0</text>
+                    <text x="52" y="89" text-anchor="end" class="lbl">7.5</text>
+                    <text x="20" y="120" class="lbl" transform="rotate(-90 20 120)" text-anchor="middle">HbA1c (%)</text>
+                    <!-- axis -->
+                    <line class="axis" x1="60" y1="40" x2="60" y2="220"/>
+                    <line class="axis" x1="60" y1="220" x2="520" y2="220"/>
+                    <text x="60" y="238" text-anchor="middle" class="lbl">0</text>
+                    <text x="175" y="238" text-anchor="middle" class="lbl">12</text>
+                    <text x="290" y="238" text-anchor="middle" class="lbl">24</text>
+                    <text x="405" y="238" text-anchor="middle" class="lbl">36</text>
+                    <text x="520" y="238" text-anchor="middle" class="lbl">48</text>
+                    <text x="290" y="252" text-anchor="middle" class="lbl">Study Visit (mo)</text>
+                    <!-- placebo line (higher) -->
+                    <polyline points="60,107.5 98,101 137,99 175,100 290,98 405,99 520,100" fill="none" stroke="#8B94A0" stroke-width="2" stroke-dasharray="6 4"/>
+                    <text x="525" y="100" class="lbl">Placebo</text>
+                    <!-- sitagliptin line (lower) -->
+                    <polyline points="60,107.5 98,134 137,125 175,119 290,116 405,114 520,112" fill="none" stroke="#2E5E8C" stroke-width="2.5"/>
+                    <circle cx="98" cy="134" r="3.5" fill="#2E5E8C"/>
+                    <text x="525" y="116" class="lbl" fill="#2E5E8C">Sitagliptin</text>
+                </svg>
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li>Sitagliptin vs Placebo：<strong>MACE HR 0.98</strong> (95% CI 0.88–1.09)</li>
+                        <li>心衰住院：HR 1.00 (95% CI 0.83–1.20) — <strong>無增加風險</strong></li>
+                        <li>Sitagliptin 組較安慰劑組 <strong>少 28%</strong> 需額外降血糖藥物</li>
+                        <li><strong>少 30%</strong> 需開始長期胰島素治療</li>
+                    </ul>
+                    <p class="cite">Green JB, et al. <span class="link">N Engl J Med. 2015;373(3):232-242</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 11 — 2023 ESC GUIDELINES (risk gauge)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">2023 ESC Guidelines</p>
+            <h2 class="reveal">2023 ESC Guidelines：低至中度 CV 風險患者</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <svg class="chart draw reveal" viewBox="0 0 480 280" role="img" aria-label="T2DM 心血管風險分層與治療建議弧形圖">
+                    <path d="M40,240 A200,200 0 0 1 98.58,98.58 L155.15,155.15 A120,120 0 0 0 120,240 Z" fill="#D8CB94"/>
+                    <path d="M98.58,98.58 A200,200 0 0 1 240,40 L240,120 A120,120 0 0 0 155.15,155.15 Z" fill="#CBA05E"/>
+                    <path d="M240,40 A200,200 0 0 1 381.42,98.58 L324.85,155.15 A120,120 0 0 0 240,120 Z" fill="#BE7250"/>
+                    <path d="M381.42,98.58 A200,200 0 0 1 440,240 L360,240 A120,120 0 0 0 324.85,155.15 Z" fill="#A24632"/>
+                    <text x="92" y="183" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">低</text>
+                    <text x="179" y="96" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">中</text>
+                    <text x="301" y="96" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">高</text>
+                    <text x="388" y="183" text-anchor="middle" fill="#fff" font-size="12" font-weight="600">極高</text>
+                    <!-- person -->
+                    <circle cx="240" cy="196" r="13" fill="#51606D"/>
+                    <path d="M222,240 q18,-28 36,0 Z" fill="#51606D"/>
+                    <text x="240" y="262" text-anchor="middle" class="lbl">T2DM 風險評估</text>
+                    <text x="44" y="262" class="lbl">Metformin IIa</text>
+                    <text x="436" y="262" text-anchor="end" class="lbl">SGLT2i/GLP-1 (Class I)</text>
+                </svg>
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li>低至中度 CV 風險（10 年 CVD 風險 &lt; 10%）的 T2DM 患者</li>
+                        <li>僅 <strong>Metformin</strong> 被列為 <strong>IIa</strong> 推薦</li>
+                        <li>DPP-4 抑制劑在此族群仍有<strong>合理定位</strong></li>
+                        <li>SGLT2i 在無 ASCVD 的亞組中 <strong>MACE 獲益不顯著</strong></li>
+                    </ul>
+                    <p class="callout blue" style="margin-top:.5em;">並非每位 T2DM 患者都需要、或都能從 SGLT2i / GLP-1 RA 得到心血管獲益</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 12 — SELECTIVITY & POTENCY
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Selectivity</p>
+            <h2 class="reveal">DPP-4 抑制劑的選擇性與差異</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="subhead">不是所有 DPP-4 抑制劑都一樣</p>
+                    <ul class="bullets">
+                        <li><strong>Sitagliptin</strong>：高選擇性，對 DPP-8/9 幾乎無抑制活性</li>
+                        <li>Vildagliptin、Saxagliptin：對 DPP-8/9 選擇性較低</li>
+                        <li>Linagliptin：對 FAP-α 選擇性較低</li>
+                    </ul>
+                    <p class="cite">Deacon CF, et al. <span class="link">Diabetes Obes Metab. 2011;13(1):7-18</span> · Tatosian DA, et al. <span class="link">Diabetes Ther. 2013;4:431-442</span></p>
+                </div>
+                <div class="reveal">
+                    <p class="subhead">Sitagliptin 的抑制效能</p>
+                    <svg class="chart draw" viewBox="0 0 380 210" role="img" aria-label="Sitagliptin 24 小時 DPP-4 抑制率曲線">
+                        <line class="grid-l" x1="50" y1="40" x2="360" y2="40"/>
+                        <line class="grid-l" x1="50" y1="70" x2="360" y2="70"/>
+                        <text x="44" y="44" text-anchor="end" class="lbl">90%</text>
+                        <text x="44" y="74" text-anchor="end" class="lbl">80%</text>
+                        <line class="axis" x1="50" y1="30" x2="50" y2="170"/>
+                        <line class="axis" x1="50" y1="170" x2="360" y2="170"/>
+                        <text x="50" y="188" text-anchor="middle" class="lbl">0</text>
+                        <text x="205" y="188" text-anchor="middle" class="lbl">12 h</text>
+                        <text x="360" y="188" text-anchor="middle" class="lbl">24 h</text>
+                        <!-- shaded >80% region -->
+                        <path d="M50,170 L60,40 L205,52 L360,68 L360,170 Z" fill="rgba(46,94,140,.10)"/>
+                        <polyline points="50,170 60,40 120,46 205,52 290,60 360,68" fill="none" stroke="#2E5E8C" stroke-width="2.5"/>
+                        <circle cx="60" cy="40" r="3.5" fill="#2E5E8C"/>
+                        <text x="66" y="34" class="lbl" fill="#2E5E8C">15 min → &gt;90%</text>
+                        <text x="300" y="60" class="lbl" fill="#2E5E8C">24 h &gt;80%</text>
+                    </svg>
+                    <ul class="bullets sub">
+                        <li>給藥後 15 分鐘內達 &gt;90% DPP-4 抑制</li>
+                        <li><strong>24 小時持續維持 &gt;80% 抑制率</strong>（QD 給藥）</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 13 — ADHERENCE / PERSISTENCE (switching rate bars)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Real-World Adherence</p>
+            <h2 class="reveal">Sitagliptin 的用藥持續性最佳</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="lead" style="margin-bottom:.5em;">全國性世代研究：12 個月內的換藥率（% switched）</p>
+                    <div class="barchart">
+                        <div class="bar-row"><span class="bl"><strong>Sitagliptin</strong></span><div class="bar-track"><div class="bar-fill" style="--w:33%"></div></div><span class="bv">2.3%</span></div>
+                        <div class="bar-row"><span class="bl">Vildagliptin</span><div class="bar-track"><div class="bar-fill gold" style="--w:56%"></div></div><span class="bv">3.9%</span></div>
+                        <div class="bar-row"><span class="bl">Linagliptin</span><div class="bar-track"><div class="bar-fill gold" style="--w:57%"></div></div><span class="bv">4.0%</span></div>
+                        <div class="bar-row"><span class="bl">Saxagliptin</span><div class="bar-track"><div class="bar-fill terra" style="--w:80%"></div></div><span class="bv">5.6%</span></div>
+                        <div class="bar-row"><span class="bl">Alogliptin</span><div class="bar-track"><div class="bar-fill terra" style="--w:99%"></div></div><span class="bv">6.9%</span></div>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li>與 Sitagliptin 相比，使用 Vildagliptin、Saxagliptin、Alogliptin、Linagliptin 的患者<strong>更可能換藥</strong>（P&lt;0.001）</li>
+                        <li><strong>Sitagliptin 的換藥率最低</strong>，同時擁有最佳的服藥順從性與持續性</li>
+                    </ul>
+                    <p class="callout blue">真實世界的持續性，是長期血糖控制能否轉化為臨床效益的關鍵</p>
+                    <p class="cite">Ofori-Asenso R, et al. <span class="link">Diabetes Res Clin Pract. 2019;158:107909</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 14 — PART II DIVIDER
+     ===================================================================== -->
+<section class="slide is-dark">
+    <span class="divider-num">II</span>
+    <div class="divider-content">
+        <p class="kicker reveal">Part II</p>
+        <div class="divider-rule reveal"></div>
+        <h2 class="divider-title reveal">案例討論</h2>
+        <p class="divider-sub reveal">在 SGLT2i 與 GLP-1 RA 時代下，Sitagliptin 的保護機制與輔助角色</p>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 15 — CASE 1 DIVIDER
+     ===================================================================== -->
+<section class="slide is-dark">
+    <span class="divider-num terra">1</span>
+    <!-- kidney line-art -->
+    <svg class="line-art draw" style="left:6%;bottom:8%;width:min(22vw,240px);" viewBox="0 0 200 160" fill="none" aria-hidden="true">
+        <path d="M70 30 C30 30 25 70 35 95 C45 125 75 135 80 110 C84 92 70 88 72 70 C74 52 92 50 70 30 Z" stroke="#B0543F" stroke-width="1.6" opacity="0.5"/>
+        <path d="M130 30 C170 30 175 70 165 95 C155 125 125 135 120 110 C116 92 130 88 128 70 C126 52 108 50 130 30 Z" stroke="#B0543F" stroke-width="1.6" opacity="0.5"/>
+    </svg>
+    <div class="divider-content">
+        <p class="case-tag reveal">Case 1</p>
+        <h2 class="divider-title reveal" style="margin-top:.5em;">老年 T2DM 患者<br>合併腎功能不全</h2>
+        <p class="divider-sub reveal" style="font-family:var(--font-body);color:var(--gold);font-weight:600;letter-spacing:.04em;">eGFR 30–60 mL/min/1.73m²</p>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 16 — CASE 1 PRESENTATION (patient profile)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 1 · 病例介紹</p>
+            <h2 class="reveal">患者資料</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="stat-grid reveal">
+                <div class="stat-card terra"><div class="k">年齡 / 性別</div><div class="v">78 <small>歲 女性</small></div></div>
+                <div class="stat-card terra"><div class="k">T2DM 病史</div><div class="v">15 <small>年</small></div></div>
+                <div class="stat-card flag"><div class="k">HbA1c</div><div class="v">8.2<small>%</small></div></div>
+                <div class="stat-card flag"><div class="k">eGFR</div><div class="v">42 <small>CKD 3b</small></div></div>
+                <div class="stat-card terra"><div class="k">BMI</div><div class="v">23.5</div></div>
+                <div class="stat-card terra"><div class="k">目前用藥</div><div class="v" style="font-size:clamp(.85rem,1.6vw,1.15rem);">Metformin<br><small>1000mg BID</small></div></div>
+            </div>
+            <div class="chip-row reveal" style="margin-top:.3rem;">
+                <span class="chip">無 ASCVD 病史</span><span class="chip terra">高血壓</span>
+                <span class="chip terra">近期姿態性低血壓</span><span class="chip terra">跌倒風險增加</span>
+            </div>
+            <p class="callout reveal" style="margin-top:.4rem;">臨床問題：需要加強血糖控制，但需考量腎功能、跌倒風險與整體耐受性。<strong>SGLT2i 或 GLP-1 RA 是否為最佳選擇？</strong></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 17 — CASE 1 WHY SITAGLIPTIN (3-column compare)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 1 · 治療抉擇</p>
+            <h2 class="reveal">為何 Sitagliptin 可能優於 SGLT2i？</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="grid reveal" style="grid-template-columns:repeat(3,1fr);gap:clamp(.8rem,2vw,1.6rem);align-items:start;">
+                <div style="border-top:3px solid var(--warn);padding-top:.5em;">
+                    <p class="subhead terra" style="font-size:var(--h3-size);">SGLT2i 的限制</p>
+                    <ul class="bullets sub terra">
+                        <li>eGFR &lt; 45 時 <strong>降血糖效果明顯減弱</strong></li>
+                        <li>老年：容積減少、姿態性低血壓、<strong>跌倒風險 ↑</strong></li>
+                        <li>起始使用時 eGFR 會有血流動力學性下降</li>
+                    </ul>
+                </div>
+                <div style="border-top:3px solid var(--warn);padding-top:.5em;">
+                    <p class="subhead terra" style="font-size:var(--h3-size);">GLP-1 RA 的顧慮</p>
+                    <ul class="bullets sub terra">
+                        <li><strong>腸胃副作用</strong>（噁心 15–40%）：加重老年營養不良</li>
+                        <li>注射劑型：影響老年用藥順從性</li>
+                        <li>體重減輕可能加速肌少症</li>
+                    </ul>
+                </div>
+                <div style="border-top:3px solid var(--ok);padding-top:.5em;">
+                    <p class="subhead" style="font-size:var(--h3-size);color:var(--ok);">Sitagliptin 的優勢</p>
+                    <ul class="bullets sub tick">
+                        <li>跨 CKD 各階段可用：&gt;45→100mg；30–45→50mg；&lt;30→25mg</li>
+                        <li>體重中性、極低低血糖風險、無容積減少</li>
+                        <li>口服每日一次，高順從性</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 18 — CASE 1 TriMaster (forest plot)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 1 · TriMaster</p>
+            <h2 class="reveal">TriMaster 研究 — eGFR 分層結果</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <p class="lead reveal">三期交叉 RCT (N=525)，比較 Sitagliptin vs Canagliflozin vs Pioglitazone：</p>
+            <div class="two-col">
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li>eGFR 60–90 患者：<strong>Sitagliptin 比 Canagliflozin 多降 1.74 mmol/mol HbA1c</strong></li>
+                        <li>整體分層差異：<strong>2.90</strong> (95% CI 1.19–4.61) mmol/mol</li>
+                        <li>eGFR 越低，Sitagliptin 的相對優勢越大（線性關聯）</li>
+                    </ul>
+                </div>
+                <div class="reveal">
+                    <svg class="chart draw" viewBox="0 0 400 180" role="img" aria-label="TriMaster 分層差異森林圖">
+                        <line class="grid-l" x1="118.3" y1="20" x2="118.3" y2="135"/>
+                        <text x="118.3" y="152" text-anchor="middle" class="lbl">0</text>
+                        <line class="axis" x1="70" y1="135" x2="360" y2="135"/>
+                        <text x="70" y="152" class="lbl">-1</text><text x="360" y="152" text-anchor="end" class="lbl">5</text>
+                        <text x="200" y="170" text-anchor="middle" class="lbl" font-style="italic">← 偏好 Sitagliptin　mmol/mol　偏好對照 →</text>
+                        <!-- H1 BMI strata diff 2.88 (0.98-4.79) -->
+                        <text x="64" y="48" text-anchor="end" class="lbl">BMI 分層</text>
+                        <line x1="165.7" y1="44" x2="349.9" y2="44" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <line x1="165.7" y1="39" x2="165.7" y2="49" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <line x1="349.9" y1="39" x2="349.9" y2="49" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <rect x="251.5" y="38" width="12" height="12" transform="rotate(45 257.5 44)" fill="#2E5E8C"/>
+                        <text x="257.5" y="30" text-anchor="middle" class="val" font-size="11">2.88</text>
+                        <!-- H2 eGFR strata diff 2.90 (1.19-4.61) -->
+                        <text x="64" y="100" text-anchor="end" class="lbl">eGFR 分層</text>
+                        <line x1="175.85" y1="96" x2="341.2" y2="96" stroke="#B0543F" stroke-width="1.6"/>
+                        <line x1="175.85" y1="91" x2="175.85" y2="101" stroke="#B0543F" stroke-width="1.6"/>
+                        <line x1="341.2" y1="91" x2="341.2" y2="101" stroke="#B0543F" stroke-width="1.6"/>
+                        <rect x="252.5" y="90" width="12" height="12" transform="rotate(45 258.5 96)" fill="#B0543F"/>
+                        <text x="258.5" y="82" text-anchor="middle" class="val" font-size="11">2.90</text>
+                    </svg>
+                </div>
+            </div>
+            <p class="cite reveal">Shields BM, et al. <span class="link">Nat Med. 2023;29(2):376-383</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 19 — CASE 1 eGFR vs RESPONSE (scatter)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 1 · 精準治療</p>
+            <h2 class="reveal">eGFR 與治療反應的線性關係</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body center-wrap">
+            <svg class="chart draw reveal" viewBox="0 0 480 250" style="max-height:min(48vh,360px);" role="img" aria-label="eGFR 與治療反應差異散佈圖">
+                <line class="axis" x1="60" y1="30" x2="60" y2="215"/>
+                <line class="axis" x1="60" y1="215" x2="450" y2="215"/>
+                <text x="255" y="238" text-anchor="middle" class="lbl">eGFR （mL/min/1.73m²）越高 →</text>
+                <text x="24" y="60" class="lbl">偏好</text><text x="24" y="74" class="lbl">Cana</text>
+                <text x="24" y="200" class="lbl">偏好</text><text x="24" y="214" class="lbl">Sita</text>
+                <!-- trend line -->
+                <line x1="70" y1="170" x2="440" y2="95" stroke="#B0543F" stroke-width="2" stroke-dasharray="6 4"/>
+                <!-- scatter -->
+                <g fill="#2E5E8C" opacity="0.7">
+                    <circle cx="85" cy="165" r="4"/><circle cx="95" cy="150" r="4"/><circle cx="100" cy="185" r="4"/><circle cx="110" cy="140" r="4"/>
+                    <circle cx="120" cy="170" r="4"/><circle cx="130" cy="155" r="4"/><circle cx="140" cy="190" r="4"/><circle cx="150" cy="130" r="4"/>
+                    <circle cx="158" cy="160" r="4"/><circle cx="168" cy="178" r="4"/><circle cx="178" cy="120" r="4"/><circle cx="188" cy="152" r="4"/>
+                    <circle cx="198" cy="168" r="4"/><circle cx="208" cy="135" r="4"/><circle cx="218" cy="182" r="4"/><circle cx="228" cy="110" r="4"/>
+                    <circle cx="238" cy="148" r="4"/><circle cx="248" cy="162" r="4"/><circle cx="258" cy="125" r="4"/><circle cx="268" cy="152" r="4"/>
+                    <circle cx="278" cy="172" r="4"/><circle cx="288" cy="115" r="4"/><circle cx="298" cy="142" r="4"/><circle cx="308" cy="158" r="4"/>
+                    <circle cx="318" cy="102" r="4"/><circle cx="328" cy="132" r="4"/><circle cx="338" cy="150" r="4"/><circle cx="352" cy="120" r="4"/>
+                    <circle cx="368" cy="140" r="4"/><circle cx="382" cy="98" r="4"/><circle cx="398" cy="126" r="4"/><circle cx="415" cy="112" r="4"/>
+                </g>
+                <text x="430" y="88" text-anchor="end" class="val" font-size="12" fill="#B0543F">r = 0.222</text>
+            </svg>
+            <p class="callout maxw reveal" style="margin-top:.4rem;">eGFR 與 Sitagliptin/Canagliflozin 治療反應差異呈線性關聯 — eGFR 越高，Canagliflozin 越有利；<strong>eGFR 越低，Sitagliptin 越有利</strong>。</p>
+            <p class="cite reveal">Shields BM, et al. <span class="link">Nat Med. 2023;29(2):376-383</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 20 — CASE 1 TECOS SUBGROUP SAFETY
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 1 · TECOS 亞組</p>
+            <h2 class="reveal">老年與腎功能不全亞組的安全性</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal stat-card" style="border:1px solid var(--rule);">
+                    <p class="subhead">老年亞組分析（≥ 75 歲）</p>
+                    <ul class="bullets sub">
+                        <li>Sitagliptin 在老年族群展現<strong>一致的心血管安全性與耐受性</strong></li>
+                        <li>無額外心衰風險</li>
+                    </ul>
+                    <p class="cite">Bethel MA, et al. <span class="link">Diabetes Care. 2017;40(4):494-501</span></p>
+                </div>
+                <div class="reveal stat-card" style="border:1px solid var(--rule);">
+                    <p class="subhead">腎功能亞組分析</p>
+                    <ul class="bullets sub">
+                        <li>Sitagliptin 在各 eGFR 亞組中均安全，<strong>無不良腎臟訊號</strong></li>
+                        <li>eGFR 下降速率與安慰劑組無顯著差異</li>
+                    </ul>
+                    <p class="cite">Cornel JH, et al. <span class="link">Diabetes Care. 2016;39(12):2304-2310</span></p>
+                </div>
+            </div>
+            <p class="callout blue reveal">在最需要安全性保證的老年腎功能不全族群，Sitagliptin 擁有最直接的隨機試驗證據</p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 21 — CASE 1 DECISION
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 1 · 臨床決策與結論</p>
+            <h2 class="reveal">本案最終處方</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="rx-card reveal">
+                <p class="rx-label">℞ Final Prescription</p>
+                <p class="rx-main">Metformin 500mg BID（依腎功能減量）　+　<em>Sitagliptin 50mg QD</em></p>
+            </div>
+            <div class="reveal">
+                <table class="data-table" style="font-size:clamp(.6rem,1.1vw,.85rem);">
+                    <thead><tr><th>考量</th><th class="center">SGLT2i</th><th class="center">GLP-1 RA</th><th class="center hl">Sitagliptin</th></tr></thead>
+                    <tbody>
+                        <tr><td>eGFR 42 降糖效果</td><td class="center neg">減弱</td><td class="center">不受影響</td><td class="center hl">不受影響</td></tr>
+                        <tr><td>容積減少 / 低血壓</td><td class="center neg">風險高</td><td class="center">低</td><td class="center hl">極低</td></tr>
+                        <tr><td>低血糖風險</td><td class="center">低</td><td class="center">低</td><td class="center hl">極低</td></tr>
+                        <tr><td>腸胃耐受性</td><td class="center">良好</td><td class="center neg">差</td><td class="center hl">極好</td></tr>
+                        <tr><td>用藥便利性</td><td class="center">口服</td><td class="center neg">多為注射</td><td class="center hl">口服 QD</td></tr>
+                        <tr><td>跌倒風險</td><td class="center neg">↑</td><td class="center">→</td><td class="center hl">→</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 22 — CASE 2 DIVIDER
+     ===================================================================== -->
+<section class="slide is-dark">
+    <span class="divider-num terra">2</span>
+    <svg class="line-art draw" style="left:6%;bottom:7%;width:min(20vw,210px);" viewBox="0 0 160 200" fill="none" aria-hidden="true">
+        <g stroke="#B0543F" stroke-width="1.6" opacity="0.5">
+            <circle cx="80" cy="28" r="16"/>
+            <path d="M80 44 L80 120 M80 60 L42 96 M80 60 L118 96 M80 120 L56 188 M80 120 L104 188"/>
+        </g>
+    </svg>
+    <div class="divider-content">
+        <p class="case-tag reveal">Case 2</p>
+        <h2 class="divider-title reveal" style="margin-top:.5em;">低 BMI 的 T2DM 患者<br>合併肌少症風險</h2>
+        <p class="divider-sub reveal" style="font-family:var(--font-body);color:var(--gold);font-weight:600;letter-spacing:.04em;">BMI &lt; 24 kg/m²</p>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 23 — CASE 2 PRESENTATION
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 2 · 病例介紹</p>
+            <h2 class="reveal">患者資料</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="stat-grid reveal">
+                <div class="stat-card terra"><div class="k">年齡 / 性別</div><div class="v">72 <small>歲 男性</small></div></div>
+                <div class="stat-card terra"><div class="k">T2DM 病史</div><div class="v">8 <small>年</small></div></div>
+                <div class="stat-card flag"><div class="k">HbA1c</div><div class="v">7.8<small>%</small></div></div>
+                <div class="stat-card terra"><div class="k">eGFR</div><div class="v">75</div></div>
+                <div class="stat-card flag"><div class="k">BMI</div><div class="v">21.2 <small>58 kg</small></div></div>
+                <div class="stat-card terra"><div class="k">目前用藥</div><div class="v" style="font-size:clamp(.85rem,1.6vw,1.15rem);">Metformin<br><small>1500mg/day</small></div></div>
+            </div>
+            <div class="chip-row reveal" style="margin-top:.3rem;">
+                <span class="chip terra">握力下降</span><span class="chip terra">步行速度減慢</span>
+                <span class="chip terra">疑似肌少症</span><span class="chip">無 ASCVD</span>
+                <span class="chip">高血壓</span><span class="chip">高血脂</span>
+            </div>
+            <p class="callout reveal" style="margin-top:.4rem;">臨床問題：低 BMI 患者使用 SGLT2i / GLP-1 RA 的減重效果是否反而有害？<strong>如何在降糖的同時保護肌肉量？</strong></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 24 — CASE 2 DRUGS × SARCOPENIA (diagram)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 2 · 機轉</p>
+            <h2 class="reveal">降血糖藥物對肌少症的影響</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <svg class="chart draw reveal" viewBox="0 0 420 250" role="img" aria-label="各類降糖藥物對肌少症的影響">
+                    <ellipse cx="210" cy="125" rx="78" ry="48" fill="rgba(27,42,56,.06)" stroke="#1B2A38" stroke-width="1.5"/>
+                    <text x="210" y="118" text-anchor="middle" class="val" font-size="13">肌少症</text>
+                    <text x="210" y="136" text-anchor="middle" class="lbl">肌肉量 · 肌力 · 體能</text>
+                    <!-- DPP-4i (protective) top-right -->
+                    <g><rect x="300" y="30" width="110" height="44" rx="7" fill="rgba(60,122,102,.10)" stroke="#3C7A66" stroke-width="1.5"/>
+                    <text x="355" y="50" text-anchor="middle" fill="#3C7A66" font-weight="600" font-size="12">DPP-4i</text>
+                    <text x="355" y="66" text-anchor="middle" class="lbl">肌肉量 ↑ · 抗發炎</text></g>
+                    <line x1="300" y1="62" x2="278" y2="92" stroke="#3C7A66" stroke-width="1.6" marker-end="url(#aro)"/>
+                    <!-- Metformin top-left positive -->
+                    <g><rect x="10" y="30" width="110" height="44" rx="7" fill="rgba(46,94,140,.08)" stroke="#2E5E8C" stroke-width="1.5"/>
+                    <text x="65" y="50" text-anchor="middle" fill="#2E5E8C" font-weight="600" font-size="12">Metformin</text>
+                    <text x="65" y="66" text-anchor="middle" class="lbl">粒線體功能 ↑</text></g>
+                    <line x1="120" y1="62" x2="145" y2="92" stroke="#2E5E8C" stroke-width="1.6"/>
+                    <!-- SGLT2i bottom-left caution -->
+                    <g><rect x="10" y="176" width="110" height="44" rx="7" fill="rgba(176,84,63,.08)" stroke="#B0543F" stroke-width="1.5"/>
+                    <text x="65" y="196" text-anchor="middle" fill="#B0543F" font-weight="600" font-size="12">SGLT2i</text>
+                    <text x="65" y="212" text-anchor="middle" class="lbl">瘦體組織 ↓</text></g>
+                    <line x1="120" y1="190" x2="148" y2="158" stroke="#B0543F" stroke-width="1.6" marker-end="url(#art)"/>
+                    <!-- GLP-1 RA bottom-right caution -->
+                    <g><rect x="300" y="176" width="110" height="44" rx="7" fill="rgba(176,84,63,.08)" stroke="#B0543F" stroke-width="1.5"/>
+                    <text x="355" y="196" text-anchor="middle" fill="#B0543F" font-weight="600" font-size="12">GLP-1 RA</text>
+                    <text x="355" y="212" text-anchor="middle" class="lbl">含肌肉量流失</text></g>
+                    <line x1="300" y1="190" x2="272" y2="158" stroke="#B0543F" stroke-width="1.6" marker-end="url(#art)"/>
+                    <defs>
+                        <marker id="aro" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#3C7A66"/></marker>
+                        <marker id="art" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#B0543F"/></marker>
+                    </defs>
+                </svg>
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li><strong>DPP-4i</strong>：增加肌肉量與肌肉/脂肪比</li>
+                        <li><strong>SGLT2i</strong>：體重減輕中約 1/3 為瘦體組織 — 肌肉量流失的主要顧慮</li>
+                        <li><strong>GLP-1 RA</strong>：減重效果顯著，但也包含肌肉量流失</li>
+                    </ul>
+                    <p class="cite">Massimino E, et al. <span class="link">Cells. 2021;10(8):1958</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 25 — CASE 2 DPP-4i MUSCLE PROTECTION
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 2 · 保護機轉</p>
+            <h2 class="reveal">DPP-4i 的肌肉保護機轉</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <table class="data-table reveal">
+                <thead><tr><th style="width:32%;">途徑</th><th>機制</th></tr></thead>
+                <tbody>
+                    <tr><td><strong>SDF-1α / CXCL12 保存</strong></td><td>DPP-4 抑制 → 保存 SDF-1α → 肌肉衛星細胞動員、支持修復</td></tr>
+                    <tr><td><strong>抗發炎效果</strong></td><td>降低 hsCRP、IL-6、TNF-α（慢性發炎是驅動肌少症的重要因子）</td></tr>
+                    <tr><td><strong>改善肌肉胰島素信號</strong></td><td>增強骨骼肌葡萄糖攝取</td></tr>
+                    <tr><td><strong>體重中性</strong></td><td>不造成瘦體組織流失</td></tr>
+                </tbody>
+            </table>
+            <p class="callout blue reveal">Sitagliptin 不僅體重中性，更可能透過多重路徑<strong>主動保護骨骼肌</strong></p>
+            <p class="cite reveal">Bouchi R, et al. <span class="link">Diabetes Metab. 2018;44(6):543-545</span> · Ishii S, et al. <span class="link">J Clin Med Res. 2020;12(2):122-126</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 26 — CASE 2 SGLT2i LEAN MASS CONCERN
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 2 · 風險證據</p>
+            <h2 class="reveal">SGLT2i 的肌肉量流失顧慮</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="note" style="margin-bottom:.4em;">多項前瞻性研究：SGLT2i 治療後的瘦體組織 / 骨骼肌量變化</p>
+                    <div class="barchart">
+                        <div class="bar-row"><span class="bl">Tofogliflozin<br><small>3 月</small></span><div class="bar-track" style="direction:rtl;"><div class="bar-fill terra" style="--w:100%"></div></div><span class="bv neg">↓1.37 kg</span></div>
+                        <div class="bar-row"><span class="bl">Ipragliflozin<br><small>24 月</small></span><div class="bar-track" style="direction:rtl;"><div class="bar-fill terra" style="--w:64%"></div></div><span class="bv neg">↓0.87 kg</span></div>
+                        <div class="bar-row"><span class="bl">Ipragliflozin<br><small>3 月</small></span><div class="bar-track" style="direction:rtl;"><div class="bar-fill terra" style="--w:42%"></div></div><span class="bv neg">↓0.57 kg</span></div>
+                        <div class="bar-row"><span class="bl">Luseogliflozin<br><small>SMI</small></span><div class="bar-track" style="direction:rtl;"><div class="bar-fill terra" style="--w:30%"></div></div><span class="bv neg">↓SMI</span></div>
+                    </div>
+                    <p class="note" style="margin-top:.3em;">瘦體組織流失比例不成比例（相較脂肪組織）</p>
+                </div>
+                <div class="reveal">
+                    <ul class="bullets terra">
+                        <li>SGLT2i 使用者的<strong>瘦體組織流失比例不成比例</strong></li>
+                        <li>網絡統合分析顯示：<strong>DPP-4i 在保存肌肉量方面效果最佳</strong></li>
+                    </ul>
+                    <p class="callout warn">⚠ 對低 BMI 且有肌少症風險的患者，SGLT2i 的體重減輕可能<strong>弊大於利</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 27 — CASE 2 DIVERSITY-CVR (grouped bars)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 2 · DIVERSITY-CVR</p>
+            <h2 class="reveal">DIVERSITY-CVR — 低 BMI 患者的日本數據</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="note" style="text-align:center;margin-bottom:.2em;">達 &gt;70% TIR (70–180 mg/dL) 的患者比例 @ Week 24</p>
+                    <svg class="chart draw" viewBox="0 0 480 250" role="img" aria-label="DIVERSITY-CVR 各 BMI 組 TIR 達標率">
+                        <line class="axis" x1="55" y1="200" x2="450" y2="200"/>
+                        <line class="grid-l" x1="55" y1="115" x2="450" y2="115"/>
+                        <text x="48" y="204" text-anchor="end" class="lbl">0</text>
+                        <text x="48" y="119" text-anchor="end" class="lbl">50</text>
+                        <text x="48" y="34" text-anchor="end" class="lbl">100</text>
+                        <line class="grid-l" x1="55" y1="30" x2="450" y2="30"/>
+                        <!-- g1 23-25 -->
+                        <rect x="74" y="44" width="34" height="156" fill="#2E5E8C"/>
+                        <rect x="112" y="82" width="34" height="118" fill="#A8854B"/>
+                        <text x="91" y="38" text-anchor="middle" class="val" font-size="11">91.9</text>
+                        <text x="129" y="76" text-anchor="middle" class="lbl" font-size="10">69.4</text>
+                        <text x="110" y="218" text-anchor="middle" class="lbl">23≤BMI&lt;25</text>
+                        <text x="110" y="58" text-anchor="middle" fill="#B0543F" font-size="13" font-weight="700">∗</text>
+                        <!-- g2 25-30 -->
+                        <rect x="199" y="80" width="34" height="120" fill="#2E5E8C"/>
+                        <rect x="237" y="65" width="34" height="135" fill="#A8854B"/>
+                        <text x="216" y="74" text-anchor="middle" class="lbl" font-size="10">70.7</text>
+                        <text x="254" y="59" text-anchor="middle" class="lbl" font-size="10">79.2</text>
+                        <text x="235" y="218" text-anchor="middle" class="lbl">25≤BMI&lt;30</text>
+                        <!-- g3 30+ -->
+                        <rect x="324" y="110" width="34" height="90" fill="#2E5E8C"/>
+                        <rect x="362" y="54" width="34" height="146" fill="#A8854B"/>
+                        <text x="341" y="104" text-anchor="middle" class="lbl" font-size="10">52.9</text>
+                        <text x="379" y="48" text-anchor="middle" class="val" font-size="11">85.7</text>
+                        <text x="360" y="218" text-anchor="middle" class="lbl">30≤BMI</text>
+                        <text x="360" y="40" text-anchor="middle" fill="#B0543F" font-size="13" font-weight="700">∗</text>
+                        <!-- legend -->
+                        <rect x="120" y="232" width="11" height="11" fill="#2E5E8C"/><text x="136" y="241" class="lbl">Sitagliptin</text>
+                        <rect x="240" y="232" width="11" height="11" fill="#A8854B"/><text x="256" y="241" class="lbl">Dapagliflozin</text>
+                    </svg>
+                </div>
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li><strong>DIVERSITY-CVR</strong>：前瞻性 RCT，日本早期 T2DM 患者（N=340）</li>
+                        <li>Sitagliptin vs Dapagliflozin 比較 CGM Time in Range (TIR)</li>
+                        <li>低 BMI 亞組中：<strong>Sitagliptin 與 TIR 改善顯著相關</strong>（∗ P&lt;0.05）</li>
+                    </ul>
+                    <p class="cite">Takuma K, et al. <span class="link">Diabetes Obes Metab. 2023;25:2131-2141</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 28 — CASE 2 TriMaster BMI STRATA
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 2 · TriMaster</p>
+            <h2 class="reveal">TriMaster — BMI 分層的治療反應</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="subhead">BMI ≤ 30 kg/m² 的患者</p>
+                    <ul class="bullets sub">
+                        <li><strong>Sitagliptin 比 Pioglitazone 多降 1.48 mmol/mol HbA1c</strong></li>
+                        <li>整體 BMI 分層差異：2.88 (95% CI 0.98–4.79) mmol/mol</li>
+                    </ul>
+                    <p class="subhead" style="margin-top:.6em;">亞洲患者的特殊考量</p>
+                    <ul class="bullets sub">
+                        <li>亞洲 T2DM 患者 BMI 普遍較低、<strong>β 細胞功能障礙更突出</strong></li>
+                        <li>DPP-4i 增強內源性腸泌素作用 → 特別適合此表型</li>
+                        <li>日本 / 台灣臨床經驗支持 DPP-4i 在低 BMI 族群的角色</li>
+                    </ul>
+                </div>
+                <div class="reveal">
+                    <svg class="chart draw" viewBox="0 0 300 220" role="img" aria-label="BMI 分層 HbA1c 反應">
+                        <text x="150" y="24" text-anchor="middle" class="lbl">HbA1c 反應（越往左 Sitagliptin 越有利）</text>
+                        <line class="grid-l" x1="220" y1="40" x2="220" y2="150"/>
+                        <text x="220" y="166" text-anchor="middle" class="lbl">0</text>
+                        <text x="60" y="68" text-anchor="end" class="lbl">BMI ≤30</text>
+                        <line x1="120" y1="64" x2="270" y2="64" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <line x1="120" y1="59" x2="120" y2="69" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <line x1="270" y1="59" x2="270" y2="69" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <rect x="184" y="58" width="12" height="12" transform="rotate(45 190 64)" fill="#2E5E8C"/>
+                        <text x="190" y="50" text-anchor="middle" class="val" font-size="12">2.88</text>
+                        <text x="150" y="120" text-anchor="middle" fill="#2E5E8C" font-size="13" font-weight="600">低 BMI → DPP-4i 更有利</text>
+                        <text x="150" y="190" text-anchor="middle" class="lbl" font-style="italic" font-size="11">95% CI 0.98–4.79 mmol/mol</text>
+                    </svg>
+                </div>
+            </div>
+            <p class="cite reveal">Shields BM, et al. <span class="link">Nat Med. 2023;29(2):376-383</span></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 29 — CASE 2 DECISION
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 2 · 臨床決策與結論</p>
+            <h2 class="reveal">本案最終處方</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="rx-card reveal">
+                <p class="rx-label">℞ Final Prescription</p>
+                <p class="rx-main">Metformin 1500mg/day　+　<em>Sitagliptin 100mg QD</em></p>
+                <p class="rx-sub">搭配營養介入與阻力運動</p>
+            </div>
+            <div class="reveal">
+                <p class="note" style="margin-bottom:.3em;">藥物對體組成的影響比較</p>
+                <table class="data-table" style="font-size:clamp(.6rem,1.1vw,.85rem);">
+                    <thead><tr><th>指標</th><th class="center">SGLT2i</th><th class="center">GLP-1 RA</th><th class="center hl">DPP-4i</th></tr></thead>
+                    <tbody>
+                        <tr><td>總體重</td><td class="center">↓↓</td><td class="center">↓↓↓</td><td class="center hl">→</td></tr>
+                        <tr><td>脂肪量</td><td class="center">↓↓</td><td class="center">↓↓</td><td class="center hl">→</td></tr>
+                        <tr><td>瘦體組織</td><td class="center neg">↓</td><td class="center neg">↓</td><td class="center hl">→</td></tr>
+                        <tr><td>肌肉 / 脂肪比</td><td class="center">→</td><td class="center">→</td><td class="center hl pos">↑</td></tr>
+                        <tr><td>肌少症風險</td><td class="center neg">⚠ 增加</td><td class="center neg">⚠ 增加</td><td class="center hl pos">低</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="callout blue reveal">對 BMI &lt; 24 且有肌少風險的患者，體重中性且可能保護肌肉的 DPP-4i 是合理的首選加強治療</p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 30 — CASE 3 DIVIDER
+     ===================================================================== -->
+<section class="slide is-dark">
+    <span class="divider-num terra">3</span>
+    <svg class="line-art draw" style="left:6%;bottom:8%;width:min(20vw,210px);" viewBox="0 0 180 160" fill="none" aria-hidden="true">
+        <g stroke="#B0543F" stroke-width="1.6" opacity="0.45" fill="none">
+            <path d="M40 60 a28 28 0 1 1 56 0 v40 a28 28 0 1 1 -56 0 Z"/>
+            <circle cx="120" cy="55" r="26"/><path d="M120 81 v45"/><path d="M104 100 h32"/>
+        </g>
+    </svg>
+    <div class="divider-content">
+        <p class="case-tag reveal">Case 3</p>
+        <h2 class="divider-title reveal" style="margin-top:.5em;">擔心泌尿生殖道感染<br>與腸胃副作用的患者</h2>
+        <p class="divider-sub reveal" style="font-family:var(--font-body);color:var(--gold);font-weight:600;letter-spacing:.04em;">共享決策 · Shared Decision Making</p>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 31 — CASE 3 PRESENTATION
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 3 · 病例介紹</p>
+            <h2 class="reveal">患者資料與主訴</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="stat-grid reveal" style="grid-template-columns:repeat(4,1fr);">
+                <div class="stat-card terra"><div class="k">年齡 / 性別</div><div class="v">55 <small>歲 女性</small></div></div>
+                <div class="stat-card flag"><div class="k">HbA1c</div><div class="v">8.0<small>%</small></div></div>
+                <div class="stat-card terra"><div class="k">eGFR</div><div class="v">88</div></div>
+                <div class="stat-card terra"><div class="k">BMI</div><div class="v">27.5</div></div>
+            </div>
+            <div class="chip-row reveal" style="margin-top:.3rem;">
+                <span class="chip">新診斷 T2DM</span><span class="chip">無 ASCVD</span>
+                <span class="chip terra">反覆念珠菌感染病史</span><span class="chip terra">腸躁症 · 對腸胃不適敏感</span>
+            </div>
+            <p class="callout reveal" style="margin-top:.4rem;">患者主訴：「我聽說新的糖尿病藥會讓私密處感染更嚴重，有的藥會一直拉肚子和噁心。<strong>我希望有效但不要有這些副作用的藥。</strong>」</p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 32 — CASE 3 SGLT2i GU INFECTION
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 3 · 泌尿生殖道感染</p>
+            <h2 class="reveal">SGLT2i 的泌尿生殖道感染風險</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <ul class="bullets terra">
+                        <li>SGLT2i <strong>增加生殖器黴菌感染 3–5 倍</strong>（vs 安慰劑 / 主動對照）</li>
+                        <li>女性發生率：約 <strong>5–12%</strong> (SGLT2i) vs <strong>0.5–1%</strong> (DPP-4i)</li>
+                        <li>男性（包皮未環切者）風險同樣顯著升高</li>
+                    </ul>
+                    <p class="note" style="margin-top:.4em;">Sitagliptin vs Dapagliflozin 整體不良事件 48.9% vs 51.6%；藥物相關不良事件 7.8% vs 13.7%</p>
+                </div>
+                <div class="reveal">
+                    <p class="note" style="text-align:center;margin-bottom:.3em;">生殖器黴菌感染發生率（Scott R, et al. 直接比較）</p>
+                    <div class="barchart">
+                        <div class="bar-row"><span class="bl"><strong>Sitagliptin</strong></span><div class="bar-track"><div class="bar-fill" style="--w:12%"></div></div><span class="bv">0.6%</span></div>
+                        <div class="bar-row"><span class="bl">Dapagliflozin</span><div class="bar-track"><div class="bar-fill terra" style="--w:86%"></div></div><span class="bv">4.3%</span></div>
+                    </div>
+                    <p class="callout warn" style="margin-top:.6em;">對有<strong>反覆念珠菌感染</strong>病史的患者，SGLT2i 顯著增加再發風險</p>
+                    <p class="cite">Scott R, et al. <span class="link">Diabetes Obes Metab. 2018;20:2876-2884</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 33 — CASE 3 GLP-1 RA GI SIDE EFFECTS
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 3 · 腸胃副作用</p>
+            <h2 class="reveal">GLP-1 RA 的腸胃副作用</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="subhead terra">GLP-1 RA 腸胃副作用發生率</p>
+                    <ul class="bullets sub terra">
+                        <li>噁心：<strong>15–40%</strong>（Semaglutide 最高）</li>
+                        <li>嘔吐：5–15%</li>
+                        <li>腹瀉：10–20%</li>
+                    </ul>
+                    <p class="callout blue" style="margin-top:.5em;">DPP-4i 的腸胃副作用率與安慰劑相當（&lt; 5%）</p>
+                </div>
+                <div class="reveal">
+                    <p class="note" style="text-align:center;margin-bottom:.3em;">Liraglutide vs Sitagliptin 直接比較（1860-LIRA-DPP-4）</p>
+                    <div class="barchart">
+                        <div class="bar-row"><span class="bl">噁心 · Sita</span><div class="bar-track"><div class="bar-fill" style="--w:17%"></div></div><span class="bv">5%</span></div>
+                        <div class="bar-row"><span class="bl">噁心 · Lira</span><div class="bar-track"><div class="bar-fill terra" style="--w:97%"></div></div><span class="bv">29%</span></div>
+                        <div class="bar-row"><span class="bl">嘔吐 · Sita</span><div class="bar-track"><div class="bar-fill" style="--w:13%"></div></div><span class="bv">4%</span></div>
+                        <div class="bar-row"><span class="bl">嘔吐 · Lira</span><div class="bar-track"><div class="bar-fill terra" style="--w:33%"></div></div><span class="bv">10%</span></div>
+                    </div>
+                    <p class="cite">Pratley RE, et al. <span class="link">Lancet. 2010;375:1447-1456</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 34 — CASE 3 PATIENT PREFERENCE
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 3 · 患者偏好</p>
+            <h2 class="reveal">患者偏好調查</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="lead" style="margin-bottom:.4em;">Savarese et al. — 553 位美國 T2DM 患者，於<strong>盲化（不知藥名）</strong>下呈現療效/風險特徵後「一定會服用」的比例：</p>
+                    <div class="barchart">
+                        <div class="bar-row"><span class="bl"><strong>Sitagliptin</strong> 100mg</span><div class="bar-track"><div class="bar-fill" style="--w:93%"></div></div><span class="bv">13%</span></div>
+                        <div class="bar-row"><span class="bl">Empagliflozin 25mg</span><div class="bar-track"><div class="bar-fill gold" style="--w:50%"></div></div><span class="bv">7%</span></div>
+                        <div class="bar-row"><span class="bl">Oral Semaglutide 14mg</span><div class="bar-track"><div class="bar-fill gold" style="--w:21%"></div></div><span class="bv">3%</span></div>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <ul class="bullets">
+                        <li><strong>生殖器感染風險</strong>是患者最高度擔憂的項目（特別是女性）</li>
+                        <li>心血管獲益 <strong>不是</strong> 患者的首要優先考量</li>
+                        <li>需要醫病<strong>共享決策模式</strong>與患者教育</li>
+                    </ul>
+                    <p class="cite">Savarese G, et al. <span class="link">Int J Cardiol. 2023;371:526-532</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 35 — CASE 3 BULLOUS PEMPHIGOID SAFETY (forest)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 3 · 天疱瘡安全性</p>
+            <h2 class="reveal">Sitagliptin 與類天疱瘡的關聯</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <table class="data-table" style="font-size:clamp(.6rem,1.1vw,.84rem);">
+                        <thead><tr><th>研究</th><th>Sitagliptin 風險</th></tr></thead>
+                        <tbody>
+                            <tr><td>日本世代研究<br><small>Harano Y, 2023</small></td><td>aHR <strong>0.911</strong> (0.508–1.635) <span class="pos">無顯著</span></td></tr>
+                            <tr><td>RCT 統合分析<br><small>Silverii GA, 2020</small></td><td class="pos">無顯著關聯</td></tr>
+                            <tr><td>觀察性統合分析<br><small>Phan K, 2020</small></td><td class="pos">無顯著關聯</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="cite">Harano Y, et al. <span class="link">J Diabetes Investig. 2023;14(6):756-766</span> · Silverii GA, et al. <span class="link">Endocrine. 2020;69(3):504-507</span></p>
+                </div>
+                <div class="reveal">
+                    <p class="note" style="text-align:center;margin-bottom:.2em;">類天疱瘡風險 aHR（相對 1.0）</p>
+                    <svg class="chart draw" viewBox="0 0 400 180" role="img" aria-label="DPP-4i 與類天疱瘡風險森林圖">
+                        <line class="grid-l" x1="149.2" y1="20" x2="149.2" y2="130"/>
+                        <text x="149.2" y="148" text-anchor="middle" class="lbl">1.0</text>
+                        <line class="axis" x1="80" y1="130" x2="380" y2="130"/>
+                        <text x="80" y="148" class="lbl">0.4</text><text x="380" y="148" text-anchor="end" class="lbl">3.0</text>
+                        <!-- Sitagliptin 0.911 CI 0.508-1.635 -->
+                        <text x="74" y="44" text-anchor="end" class="lbl">Sitagliptin</text>
+                        <line x1="92.5" y1="40" x2="222.5" y2="40" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <line x1="92.5" y1="35" x2="92.5" y2="45" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <line x1="222.5" y1="35" x2="222.5" y2="45" stroke="#2E5E8C" stroke-width="1.6"/>
+                        <circle cx="139" cy="40" r="6" fill="#2E5E8C"/>
+                        <text x="139" y="30" text-anchor="middle" class="val" font-size="11">0.91</text>
+                        <!-- Vildagliptin 2.411 -->
+                        <text x="74" y="80" text-anchor="end" class="lbl">Vildagliptin</text>
+                        <circle cx="312" cy="76" r="6" fill="#B0543F"/>
+                        <text x="312" y="68" text-anchor="middle" class="val" font-size="11" fill="#B0543F">2.41</text>
+                        <!-- Linagliptin 2.550 -->
+                        <text x="74" y="116" text-anchor="end" class="lbl">Linagliptin</text>
+                        <circle cx="328" cy="112" r="6" fill="#B0543F"/>
+                        <text x="328" y="104" text-anchor="middle" class="val" font-size="11" fill="#B0543F">2.55</text>
+                    </svg>
+                    <p class="note" style="text-align:center;">Sitagliptin 的<strong>高選擇性</strong>可能是安全性差異的原因</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 36 — CASE 3 DECISION (SDM)
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow terra reveal">Case 3 · 臨床決策與結論</p>
+            <h2 class="reveal">共享決策過程與最終處方</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal">
+                    <p class="subhead terra">共享決策過程</p>
+                    <ol class="bullets sub" style="counter-reset:s;">
+                        <li>向患者說明三類藥物的療效與副作用特徵</li>
+                        <li>評估患者的個人價值觀與顧慮</li>
+                        <li>考量反覆念珠菌感染與腸躁症病史</li>
+                    </ol>
+                    <p class="callout" style="margin-top:.5em;">「不被服用的藥物不會帶來任何益處」<br>—— <strong>順從性是治療成功的基石</strong></p>
+                </div>
+                <div class="reveal">
+                    <div class="rx-card" style="margin-bottom:.5rem;">
+                        <p class="rx-label">℞ Final Prescription</p>
+                        <p class="rx-main">Metformin 1000mg BID（漸進式增量）　+　<em>Sitagliptin 100mg QD</em></p>
+                    </div>
+                    <table class="data-table" style="font-size:clamp(.58rem,1.05vw,.82rem);">
+                        <thead><tr><th>因素</th><th>本案決策影響</th></tr></thead>
+                        <tbody>
+                            <tr><td>反覆念珠菌感染</td><td class="neg">✕ 排除 SGLT2i</td></tr>
+                            <tr><td>腸躁症病史</td><td class="neg">✕ 排除 GLP-1 RA</td></tr>
+                            <tr><td>無 ASCVD</td><td>不需優先 SGLT2i / GLP-1 RA</td></tr>
+                            <tr><td>患者偏好</td><td class="pos">✓ 偏好口服、低副作用</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 37 — PART III DIVIDER
+     ===================================================================== -->
+<section class="slide is-dark">
+    <span class="divider-num">III</span>
+    <div class="divider-content">
+        <p class="kicker reveal">Part III</p>
+        <div class="divider-rule reveal"></div>
+        <h2 class="divider-title reveal">Take-Home Messages</h2>
+        <p class="divider-sub reveal">在精準醫療的框架下，重新理解 Sitagliptin 不可取代的價值</p>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 38 — TAKE-HOME MESSAGES
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Conclusions</p>
+            <h2 class="reveal">Take-Home Messages</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col">
+                <div class="reveal" style="display:flex;flex-direction:column;gap:clamp(.5rem,1.6vh,1.1rem);">
+                    <div style="display:flex;gap:.7em;align-items:baseline;">
+                        <span style="font-family:var(--font-display);font-size:clamp(1.3rem,3vw,2rem);color:var(--accent);font-weight:600;">1</span>
+                        <div><strong>DPP-4i 在 SGLT2i / GLP-1 RA 時代仍具不可取代的角色</strong>
+                        <p class="note">無 ASCVD 患者：SGLT2i 的 MACE 獲益不顯著；Legacy Effect 不容忽視</p></div>
+                    </div>
+                    <div style="display:flex;gap:.7em;align-items:baseline;">
+                        <span style="font-family:var(--font-display);font-size:clamp(1.3rem,3vw,2rem);color:var(--accent);font-weight:600;">3</span>
+                        <div><strong>共享決策</strong>
+                        <p class="note">患者的價值觀、耐受性與順從性同等重要</p></div>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div style="display:flex;gap:.7em;align-items:baseline;margin-bottom:.4em;">
+                        <span style="font-family:var(--font-display);font-size:clamp(1.3rem,3vw,2rem);color:var(--accent);font-weight:600;">2</span>
+                        <strong>Sitagliptin 的精準治療定位</strong>
+                    </div>
+                    <table class="data-table" style="font-size:clamp(.58rem,1.05vw,.82rem);">
+                        <thead><tr><th>適合族群</th><th>關鍵證據</th></tr></thead>
+                        <tbody>
+                            <tr><td>eGFR &lt; 60 腎功能不全</td><td>TriMaster：eGFR↓ → Sitagliptin 優勢↑</td></tr>
+                            <tr><td>低 BMI / 肌少症風險</td><td>DIVERSITY-CVR + 肌肉保護機轉</td></tr>
+                            <tr><td>不耐受 SGLT2i / GLP-1 RA</td><td>最佳耐受性、最高順從性</td></tr>
+                            <tr><td>老年衰弱患者</td><td>TECOS 老年亞組：安全有效</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 39 — SUMMARY MATRIX
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">Summary</p>
+            <h2 class="reveal">三案例的治療邏輯</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body center-wrap">
+            <table class="data-table reveal" style="font-size:clamp(.6rem,1.1vw,.9rem);">
+                <thead><tr>
+                    <th></th>
+                    <th>Case 1 · 老年 + 腎損傷</th>
+                    <th>Case 2 · 低 BMI + 肌少症</th>
+                    <th>Case 3 · 感染 / GI 顧慮</th>
+                </tr></thead>
+                <tbody>
+                    <tr><td><strong>SGLT2i 顧慮</strong></td><td>降糖效果減弱、容積減少</td><td>肌肉流失風險</td><td>生殖器黴菌感染</td></tr>
+                    <tr><td><strong>GLP-1 RA 顧慮</strong></td><td>GI 副作用、注射不便</td><td>體重減輕加劇肌少症</td><td>GI 副作用</td></tr>
+                    <tr><td class="hl"><strong>最終選擇</strong></td><td class="hl">Sitagliptin 50mg<br><small>（腎功能調整）</small></td><td class="hl">Sitagliptin 100mg<br><small>（體重中性）</small></td><td class="hl">Sitagliptin 100mg<br><small>（高耐受性）</small></td></tr>
+                </tbody>
+            </table>
+            <p class="callout blue reveal maxw" style="margin-top:.7rem;">三個截然不同的臨床情境，最終都指向同一個答案 —— <strong>合適的患者，Sitagliptin 仍是最佳選擇</strong></p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 40 — KEY REFERENCES
+     ===================================================================== -->
+<section class="slide">
+    <div class="slide-content">
+        <div class="slide-head">
+            <p class="eyebrow reveal">References</p>
+            <h2 class="reveal">核心參考文獻</h2>
+            <div class="head-rule reveal"></div>
+        </div>
+        <div class="slide-body">
+            <div class="two-col reveal" style="align-items:start;gap:clamp(1rem,3vw,2.4rem);">
+                <ol style="list-style:none;display:flex;flex-direction:column;gap:clamp(.3rem,1vh,.65rem);font-size:clamp(.62rem,1.15vw,.9rem);color:var(--ink-soft);">
+                    <li><strong style="color:var(--accent);">1.</strong> Green JB, et al. <span class="link">N Engl J Med. 2015;373:232-242</span> — TECOS</li>
+                    <li><strong style="color:var(--accent);">2.</strong> Shields BM, et al. <span class="link">Nat Med. 2023;29(2):376-383</span> — TriMaster</li>
+                    <li><strong style="color:var(--accent);">3.</strong> Lind M, et al. <span class="link">Diabetes Care. 2021;44(10):2231-7</span> — UKPDS 88</li>
+                    <li><strong style="color:var(--accent);">4.</strong> Massimino E, et al. <span class="link">Cells. 2021;10(8):1958</span> — 降糖藥與肌少症</li>
+                    <li><strong style="color:var(--accent);">5.</strong> Takuma K, et al. <span class="link">Diabetes Obes Metab. 2023;25:2131-2141</span> — DIVERSITY-CVR</li>
+                </ol>
+                <ol style="list-style:none;display:flex;flex-direction:column;gap:clamp(.3rem,1vh,.65rem);font-size:clamp(.62rem,1.15vw,.9rem);color:var(--ink-soft);">
+                    <li><strong style="color:var(--accent);">6.</strong> Savarese G, et al. <span class="link">Int J Cardiol. 2023;371:526-532</span> — 患者偏好</li>
+                    <li><strong style="color:var(--accent);">7.</strong> Scott R, et al. <span class="link">Diabetes Obes Metab. 2018;20:2876-2884</span> — Sita vs Dapa</li>
+                    <li><strong style="color:var(--accent);">8.</strong> Deacon CF, et al. <span class="link">Nat Rev Endocrinol. 2020;16:642-653</span> — DPP-4i 綜述</li>
+                    <li><strong style="color:var(--accent);">9.</strong> Scirica BM, et al. <span class="link">N Engl J Med. 2013;369:1317-26</span> — SAVOR-TIMI 53</li>
+                    <li><strong style="color:var(--accent);">10.</strong> Rosenstock J, et al. <span class="link">JAMA. 2019;321(1):69-79</span> — CARMELINA</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 41 — THANK YOU
+     ===================================================================== -->
+<section class="slide is-dark">
+    <svg class="line-art draw" style="right:-2%;bottom:-4%;width:min(40vw,480px);" viewBox="0 0 420 320" fill="none" aria-hidden="true">
+        <g stroke="#7fb0d8" stroke-width="1.3" opacity="0.4">
+            <polygon points="150,80 195,55 240,80 240,130 195,155 150,130"/>
+            <line x1="240" y1="80" x2="285" y2="55"/><line x1="285" y1="55" x2="330" y2="80"/>
+            <line x1="330" y1="80" x2="330" y2="130"/><line x1="330" y1="130" x2="285" y2="155"/><line x1="285" y1="155" x2="240" y2="130"/>
+            <line x1="195" y1="155" x2="195" y2="210"/><line x1="195" y1="210" x2="240" y2="235"/>
+            <circle cx="150" cy="80" r="4" fill="#7fb0d8" stroke="none"/><circle cx="330" cy="80" r="4" fill="#A8854B" stroke="none"/>
+            <circle cx="240" cy="235" r="4" fill="#7fb0d8" stroke="none"/>
+        </g>
+    </svg>
+    <div class="divider-content">
+        <p class="kicker reveal">Thank You</p>
+        <div class="divider-rule reveal"></div>
+        <h2 class="divider-title reveal" style="max-width:24ch;">Sitagliptin：在對的患者、對的時機，仍然是對的選擇</h2>
+        <p class="divider-sub reveal" style="font-family:var(--font-display);font-style:italic;color:var(--gold);font-size:clamp(1rem,2.2vw,1.6rem);margin-top:.8em;">The right drug, for the right patient, at the right time.</p>
+    </div>
+</section>
+
+
+
+<script>
+/* ===========================================================================
+   SLIDE PRESENTATION CONTROLLER
+   - scroll-snap based navigation (keyboard / wheel / touch / dots)
+   - IntersectionObserver toggles .visible to fire CSS reveal animations
+   =========================================================================== */
+class SlidePresentation{
+    constructor(){
+        this.slides=[...document.querySelectorAll('.slide')];
+        this.total=this.slides.length;
+        this.current=0;
+        this.progressBar=document.getElementById('progressBar');
+        this.curNum=document.getElementById('curNum');
+        this.observe();
+        this.keys();
+        this.wheel();
+        this.touch();
+    }
+    observe(){
+        const io=new IntersectionObserver((entries)=>{
+            entries.forEach(e=>{
+                if(e.isIntersecting){
+                    e.target.classList.add('visible');
+                    this.current=this.slides.indexOf(e.target);
+                    this.update();
+                }
+            });
+        },{threshold:0.5});
+        this.slides.forEach(s=>io.observe(s));
+    }
+    update(){
+        const pct=this.total>1?(this.current/(this.total-1))*100:100;
+        this.progressBar.style.width=pct+'%';
+        this.curNum.textContent=String(this.current+1).padStart(2,'0');
+        // tint counter on dark slides
+        document.querySelector('.counter').style.color=
+            this.slides[this.current].classList.contains('is-dark')?'#aab4c0':'';
+    }
+    go(i){
+        i=Math.max(0,Math.min(this.total-1,i));
+        this.slides[i].scrollIntoView({behavior:'smooth'});
+    }
+    keys(){
+        document.addEventListener('keydown',(e)=>{
+            if(e.target.getAttribute('contenteditable')==='true')return;
+            if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();this.go(this.current+1);}
+            else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();this.go(this.current-1);}
+            else if(e.key==='Home'){e.preventDefault();this.go(0);}
+            else if(e.key==='End'){e.preventDefault();this.go(this.total-1);}
+        });
+    }
+    wheel(){
+        let lock=false;
+        window.addEventListener('wheel',(e)=>{
+            if(document.body.classList.contains('editing'))return;
+            if(lock)return;
+            if(Math.abs(e.deltaY)<24)return;
+            lock=true;
+            this.go(this.current+(e.deltaY>0?1:-1));
+            setTimeout(()=>lock=false,650);
+        },{passive:true});
+    }
+    touch(){
+        let y0=null;
+        window.addEventListener('touchstart',e=>{y0=e.touches[0].clientY;},{passive:true});
+        window.addEventListener('touchend',e=>{
+            if(y0===null)return;
+            const dy=y0-e.changedTouches[0].clientY;
+            if(Math.abs(dy)>50)this.go(this.current+(dy>0?1:-1));
+            y0=null;
+        },{passive:true});
+    }
+}
+
+/* ===========================================================================
+   INLINE EDITOR  (opt-in)
+   - toggle via ✏️ button, hotzone, or 'E'
+   - click any text to edit; auto-save to localStorage; Ctrl+S exports file
+   =========================================================================== */
+class InlineEditor{
+    constructor(){
+        this.isActive=false;
+        this.key='sitagliptin_t2dm_deck_v1';
+        this.sel='h1,h2,h3,p,li,td,th,span.divider-sub,strong,.rx-main,.tl-text,.lead,.callout';
+        this.toggle=document.getElementById('editToggle');
+        this.banner=document.getElementById('editBanner');
+        this.restore();
+        this.bind();
+    }
+    editable(){
+        document.querySelectorAll(this.sel).forEach(el=>{
+            if(el.closest('svg'))return;            // never edit SVG labels
+            if(el.querySelector('h1,h2,h3,p,li,ul,table,div,svg'))return; // only leaf text
+            el.setAttribute('contenteditable',this.isActive?'true':'false');
+        });
+    }
+    toggleEditMode(){
+        this.isActive=!this.isActive;
+        document.body.classList.toggle('editing',this.isActive);
+        this.toggle.classList.toggle('active',this.isActive);
+        this.banner.classList.toggle('show',this.isActive);
+        this.editable();
+        if(this.isActive)this.toggle.classList.add('show');
+        if(!this.isActive)this.save();
+    }
+    save(){
+        const data={};
+        document.querySelectorAll(this.sel).forEach((el,i)=>{
+            if(el.getAttribute('contenteditable')!==null)data[i]=el.innerHTML;
+        });
+        try{localStorage.setItem(this.key,JSON.stringify(data));}catch(e){}
+    }
+    restore(){
+        let data;try{data=JSON.parse(localStorage.getItem(this.key));}catch(e){return;}
+        if(!data)return;
+        const els=document.querySelectorAll(this.sel);
+        Object.entries(data).forEach(([i,html])=>{if(els[i])els[i].innerHTML=html;});
+    }
+    exportFile(){
+        this.save();
+        const clone=document.documentElement.cloneNode(true);
+        clone.querySelectorAll('[contenteditable]').forEach(e=>e.removeAttribute('contenteditable'));
+        const html='<!DOCTYPE html>\n'+clone.outerHTML;
+        const blob=new Blob([html],{type:'text/html'});
+        const a=document.createElement('a');
+        a.href=URL.createObjectURL(blob);
+        a.download='Sitagliptin_in_T2DM_Case-Based_Review.html';
+        a.click();
+    }
+    bind(){
+        const hot=document.getElementById('editHotzone');
+        let t=null;
+        const show=()=>{clearTimeout(t);this.toggle.classList.add('show');};
+        const hide=()=>{t=setTimeout(()=>{if(!this.isActive)this.toggle.classList.remove('show');},400);};
+        hot.addEventListener('mouseenter',show);
+        hot.addEventListener('mouseleave',hide);
+        this.toggle.addEventListener('mouseenter',()=>clearTimeout(t));
+        this.toggle.addEventListener('mouseleave',hide);
+        hot.addEventListener('click',()=>this.toggleEditMode());
+        this.toggle.addEventListener('click',()=>this.toggleEditMode());
+        document.addEventListener('keydown',(e)=>{
+            if((e.key==='e'||e.key==='E')&&e.target.getAttribute('contenteditable')!=='true'){this.toggleEditMode();}
+            if((e.ctrlKey||e.metaKey)&&e.key==='s'){e.preventDefault();this.exportFile();}
+        });
+        document.addEventListener('input',()=>{if(this.isActive)this.save();});
+    }
+}
+
+const deck=new SlidePresentation();
+const editor=new InlineEditor();
+</script>
+</body>
+</html>

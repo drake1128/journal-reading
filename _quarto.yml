@@ -219,6 +219,11 @@ website:
           contents:
             - handouts/09-hypertension/index.qmd
             - handouts/09-hypertension/cobra-bps-home-bp-titration/index.qmd
+        - section: "糖尿病 & 代謝 Diabetes/Metabolic"
+          contents:
+            - handouts/14-diabetes-metabolic/index.qmd
+            - text: "Sitagliptin 在 T2DM 的角色 — 案例導向回顧 (簡報)"
+              href: handouts/14-diabetes-metabolic/Sitagliptin_in_T2DM_Case-Based_Review.html
         - section: "ICU 一般照護"
           contents:
             - handouts/10-icu-general/index.qmd
