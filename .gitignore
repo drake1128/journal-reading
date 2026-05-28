@@ -36,6 +36,13 @@ download/*.pdf
 Thumbs.db
 desktop.ini
 
+# R session history
+.Rhistory
+**/.Rhistory
+
+# Claude Code local lock (not for version control)
+.claude/scheduled_tasks.lock
+
 # Environment
 .env
 

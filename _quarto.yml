@@ -37,6 +37,7 @@ website:
         - section: "心衰竭 Heart Failure"
           contents:
             - handouts/02-heart-failure/index.qmd
+            - handouts/02-heart-failure/nejm-biovat-hf-stem-cell-heart-failure-2026/index.qmd
             - handouts/02-heart-failure/journal-pa-pressure-monitor-2025/index.qmd
             - handouts/02-heart-failure/lecture-managing-hf-in-ed/index.qmd
         - section: "心律不整 Arrhythmia"
@@ -60,6 +61,7 @@ website:
         - section: "瓣膜疾病 Valvular"
           contents:
             - handouts/04-valvular-disease/index.qmd
+            - handouts/04-valvular-disease/jacc-adv-valvular-cardiogenic-shock-2024/index.qmd
             - handouts/04-valvular-disease/cath-hemodynamics-aortic-stenosis-as-tavr-hanna/index.qmd
             - handouts/04-valvular-disease/circulation-cvi-t-teer-hemodynamics/index.qmd
             - handouts/04-valvular-disease/eurointervention-m-teer-mitraclip-review/index.qmd
@@ -215,6 +217,7 @@ website:
         - section: "遺傳醫學 Genetics"
           contents:
             - handouts/08-genetic-medicine/index.qmd
+            - handouts/08-genetic-medicine/nejm-verve-102-pcsk9-base-editing-2026/index.qmd
         - section: "高血壓 Hypertension"
           contents:
             - handouts/09-hypertension/index.qmd
@@ -278,6 +281,7 @@ website:
         - section: "肺栓塞 PE"
           contents:
             - handouts/20-pulmonary-embolism/index.qmd
+            - handouts/20-pulmonary-embolism/nejm-hi-peitho-uscdt-intermediate-pe-2026/index.qmd
             - text: "VTE 與 Cancer-Associated VTE 治療管理 (簡報)"
               href: handouts/20-pulmonary-embolism/VTE_Management_standalone.html
             - handouts/20-pulmonary-embolism/circulation-storm-pe-2025/index.qmd

@@ -334,24 +334,29 @@ Handouts are organized by **clinical topic** under `handouts/`:
 
 ```
 handouts/
-├── 01_缺血性心臟病/      # Ischemic Heart Disease (ACS, STEMI, PCI complications)
-├── 02_心衰竭/            # Heart Failure (HFrEF, HFpEF, devices)
-├── 03_心律不整/          # Arrhythmia (AF, ablation, anticoagulation)
-├── 04_瓣膜疾病/          # Valvular Heart Disease (TAVR, SAVR, tricuspid)
-├── 05_心臟影像/          # Cardiac Imaging (CMR, ECG, Echo, AI-ECG)
-├── 06_介入心臟學/        # Interventional Cardiology (PCI, structural)
-├── 07_周邊血管/          # Peripheral Vascular (carotid, PAD)
-├── 10_ICU_一般照護/      # General ICU Care (antibiotics, stress ulcer, governance)
-├── 11_ICU_呼吸系統/      # ICU Respiratory (ventilation, diaphragm, weaning)
-├── 12_ICU_血液動力學/    # ICU Hemodynamics (CO monitoring, ECMO)
-├── 13_ICU_腎臟/          # ICU Renal (AKI, RRT)
-├── 20_肺栓塞/            # Pulmonary Embolism
-├── 21_肺高壓/            # Pulmonary Hypertension
-├── 22_COPD_氣喘/         # COPD & Asthma
-├── 90_AI_科技/           # AI & Technology
-├── 91_Podcast_期刊回顧/  # Podcast & Journal Snapshots
-└── 99_其他/              # Miscellaneous
+├── 01-ischemic-heart-disease/    # Ischemic Heart Disease (ACS, STEMI, PCI complications)
+├── 02-heart-failure/             # Heart Failure (HFrEF, HFpEF, devices)
+├── 03-arrhythmia/                # Arrhythmia (AF, ablation, anticoagulation)
+├── 04-valvular-disease/          # Valvular Heart Disease (TAVR, SAVR, tricuspid)
+├── 05-cardiac-imaging/           # Cardiac Imaging (CMR, ECG, Echo, AI-ECG)
+├── 06-interventional-cardiology/ # Interventional Cardiology (PCI, structural)
+├── 07-peripheral-vascular/       # Peripheral Vascular (carotid, PAD)
+├── 08-genetic-medicine/          # Cardiovascular Genetics
+├── 09-hypertension/              # Hypertension
+├── 10-icu-general/               # General ICU Care (antibiotics, stress ulcer, governance)
+├── 11-icu-respiratory/           # ICU Respiratory (ventilation, diaphragm, weaning)
+├── 12-icu-hemodynamics/          # ICU Hemodynamics (CO monitoring, ECMO)
+├── 13-icu-renal/                 # ICU Renal (AKI, RRT)
+├── 20-pulmonary-embolism/        # Pulmonary Embolism
+├── 21-pulmonary-hypertension/    # Pulmonary Hypertension
+├── 22-copd-asthma/               # COPD & Asthma
+├── 90-ai-technology/             # AI & Technology
+├── 91-podcast-journal-review/    # Podcast & Journal Snapshots
+├── 99-misc/                      # Miscellaneous
+└── nejm-case-records/            # NEJM Case Records
 ```
+
+**Naming convention**: Use **kebab-case English** folder names for cross-platform, git, and Quarto compatibility. Do NOT create new Chinese-named folders.
 
 ### Numbering Convention
 - `01-09`: Cardiology subspecialties
@@ -381,9 +386,9 @@ rm "NEJMoa_original.pdf"
 marp --no-stdin "Esmolol_ICU_Teaching_Marp.md" --pdf -o "Esmolol_ICU_Teaching.pdf" --allow-local-files
 
 # Move to topic folder
-mv "Esmolol 在重症加護的應用 教學講義.md" "handouts/10_ICU_一般照護/"
-mv "Esmolol_ICU_Teaching_Marp.md" "handouts/10_ICU_一般照護/"
-mv "Esmolol_ICU_Teaching.pdf" "handouts/10_ICU_一般照護/"
+mv "Esmolol 在重症加護的應用 教學講義.md" "handouts/10-icu-general/"
+mv "Esmolol_ICU_Teaching_Marp.md" "handouts/10-icu-general/"
+mv "Esmolol_ICU_Teaching.pdf" "handouts/10-icu-general/"
 ```
 
 ---
@@ -527,7 +532,7 @@ gmail_createDraft({
 
 ## Trigger Keywords
 
-This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期刊講義", "journal reading", "教學", "每週期刊回顧", "weekly journal review", or references to medical literature from NEJM, JACC, Circulation, EuroIntervention, European Heart Journal.
+This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期刊講義", "journal reading", "教學", "每週期刊回顧", "weekly journal review", "每週期刊文獻回顧", "weekly CV review", "期刊文獻回顧", or references to medical literature from NEJM, Lancet, JACC, Circulation, EuroIntervention, European Heart Journal.
 
 ## Recurring Tasks
 
@@ -547,7 +552,7 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
    - Case reports of interest
    - Complete reference list with DOI/PubMed hyperlinks
 4. Save as `TEER_Biweekly_Review_YYYY-MM-DD 教學講義.md`
-5. Move to `handouts/04_瓣膜疾病/`
+5. Move to `handouts/04-valvular-disease/`
 
 **Goal**: Drake is developing expertise in TEER (14 cases performed). These reviews support his goal of becoming a TEER expert specializing in MitraClip and Pascal devices.
 
@@ -571,7 +576,7 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
    - Reference pages at the end (use `section.ref` CSS class)
 5. Generate PDF from Marp
 6. Save as `TAVI_Biweekly_Review_YYYY-MM-DD 教學講義.md`
-7. Move to `handouts/04_瓣膜疾病/`
+7. Move to `handouts/04-valvular-disease/`
 
 **Output**: 教學講義 `.md` + Marp `_Marp.md` + PDF `.pdf` (no PPTX)
 
@@ -595,10 +600,10 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
    b. **Circulation** — WebFetch Circulation on the Run + PubMed 本週 Circulation 文章
    c. **EHJ** — 確認是否有新 biweekly issue，有則整理 Issue @ a Glance
    d. **EuroIntervention** — 確認是否有新 issue 或 Turning Point episode
-3. 背景同時用 yt-dlp + Whisper 轉錄 podcast YouTube 音訊為 SRT（存入 `handouts/91_Podcast_期刊回顧/`）
+3. 背景同時用 yt-dlp + Whisper 轉錄 podcast YouTube 音訊為 SRT（存入 `handouts/91-podcast-journal-review/`）
 4. 各期刊產出：教學講義 `.md` + Marp `_Marp.md` + PDF `.pdf`
 5. 額外產出「本週心臟科文獻總覽」整合版（top 3-5 articles across all journals）
-6. 所有檔案移至 `handouts/91_Podcast_期刊回顧/`
+6. 所有檔案移至 `handouts/91-podcast-journal-review/`
 
 **Podcast 來源**：
 | 期刊 | Podcast 頁面 | YouTube |
@@ -625,3 +630,51 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
 - （Circulation、EHJ、EuroIntervention 同理）
 
 **Output**: 每期刊一份講義 + 一份總覽，共 ~5 份文件（PDF only, no PPTX）
+
+### 每週心血管期刊文獻回顧
+
+**Trigger**: User says "每週期刊文獻回顧" or "weekly CV review" or "期刊文獻回顧"
+
+**頻率**: 每週一次（涵蓋過去 7 天）
+
+**Journals covered** (6 journals):
+
+| 期刊 | 搜尋策略 |
+|------|---------|
+| **NEJM** | CV-related original articles, editorials, reviews |
+| **Lancet** | CV-related original articles |
+| **European Heart Journal** | All original articles + editorials |
+| **JACC** (+ 子刊) | Main journal + CV Interv, Heart Fail, CV Imaging, Clin EP |
+| **Circulation** (+ 子刊) | Main journal + CV Interv, Heart Fail, CV Imaging, Arrhythm EP, Genom |
+| **EuroIntervention** | All articles |
+
+**Workflow**:
+1. 確認日期範圍（往回 **7 天**）
+2. 使用 PubMed MCP（或 mcp__pubmed__pubmed_search_articles 備用）搜尋各期刊
+3. 取得重要文章的 metadata 和 abstracts
+4. 用 WebSearch/WebFetch 補充 PubMed 無法取得的試驗結果細節
+5. 依期刊分類，挑選重要文獻
+6. **每週固定欄目（Fixed Sections — 缺一不可）**：
+   - **Top 5 Picks** — 跨期刊精選 5 篇
+   - **🫀 TAVI Section** — 2–3 篇 TAVI 相關研究（Drake 是結構性心臟病介入醫師，TAVI 為主要臨床方向）
+   - **🔧 TEER Section** — 2–3 篇 TEER 相關研究，涵蓋 MitraClip、PASCAL、TriClip（Drake 的 TEER 操作面向）
+   - **📚 Honorable Mentions** — 其他值得一讀（含 ANTHEM-HFrEF、TOWAR、各 negative trial 等）
+   - **🔬 Case Reports** — **3–5 例**值得讀的 case reports，優先從 **JACC Case Reports** 與 **EuroIntervention** case report 欄目
+   - **完整參考文獻**（含 DOI hyperlinks + PMID）
+   - **縮寫對照表**（首次出現用「中文 (Full English Name, Abbr)」格式）
+7. **QR Code on each design/result slide** — 使用 `https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=<URL-encoded DOI>` 嵌入小圖，讓現場聽眾可掃描跳轉原文
+8. 產出 Marp 投影片 + PDF + **Gmail HTML 草稿**
+9. 所有檔案存入 `handouts/91-podcast-journal-review/`
+
+**重要注意事項**:
+- 搜尋到的 abstract 可能不完整 → 用 WebSearch 確認重要試驗的實際結果（HR, CI, p-value）
+- **不要根據 abstract 猜測結論** — 特別是 neutral/negative trial 容易被誤判為 positive
+- 重要試驗務必交叉驗證（WebSearch ACC/tctmd/Cardiology Today 等新聞報導）
+- **Marp 套色注意**：`section.divider` 的 H2/H3 必須明確指定亮色（白／黃）— 否則會落到預設藍／灰造成藍底上對比不足
+
+**檔案命名**：
+- `Weekly_CV_Journal_Review_YYYY-MM-DD 教學講義.md`
+- `Weekly_CV_Journal_Review_YYYY-MM-DD_Marp.md`
+- `Weekly_CV_Journal_Review_YYYY-MM-DD.pdf`
+
+**Output（4 件套）**: 教學講義 `.md` + Marp `_Marp.md` + PDF `.pdf` + **Gmail HTML 草稿** (no PPTX)

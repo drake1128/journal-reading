@@ -7,6 +7,10 @@ description: Create bilingual (Traditional Chinese with English medical terminol
 
 Create comprehensive bilingual medical education documents in Markdown format from journal articles and research papers.
 
+## Specialized sub-skills (defer when applicable)
+
+- **Weekly Cardiology Journal Review** (`.claude/skills/weekly-cv-journal-review/SKILL.md`) — when Drake asks for "每週期刊文獻回顧", "weekly CV review", "weekly cardiology journal review", or "journal review (cardiology)", use the dedicated skill which covers the 6-journal scan workflow, Top 5 Picks structure, DOI hyperlink rules for slide tables, and trial-result verification protocol.
+
 ## Output Specification
 
 - **Primary output**: Markdown handout (`.md`) + Marp slides (`_Marp.md`)

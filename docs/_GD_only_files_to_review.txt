@@ -1,0 +1,182 @@
+# Files only in Google Drive (would be lost if you delete GD)
+# Source: G:\我的雲端硬碟\004 教學資料 at Hsinchu 院內\Journal reading with claude and latex (till 2026-03-25)
+# Total: 175 files, 100,960,775 bytes (96.3 MB)
+
+========== (root)/  (6 files, 3482 KB) ==========
+     180,195  AI_Literature_Review_Workflow.pdf
+     328,609  CLOSURE-AF_LAA_Closure.pdf
+     340,222  DB-OTO_Gene_Therapy_Deafness.pdf
+     328,538  Hypertension_Research_Vol49_Issue3_Review.pdf
+     533,324  NEJM_CLOSURE-AF_LAA_Closure_AF_2026_original.pdf
+   1,854,449  NEJM_DB-OTO_Gene_Therapy_Deafness_2026_original.pdf
+
+========== handouts/  (169 files, 95113 KB) ==========
+      14,483  01_缺血性心臟病/Eur Heart J 2026-01-21.tex
+      19,019  01_缺血性心臟病/FFR During STEMI and NSTEMI 教學講義.md
+      12,936  01_缺血性心臟病/FFR_STEMI_NSTEMI_Marp.md
+      14,187  01_缺血性心臟病/FRAME-AMI vs FLOWER-MI 教學講義.md
+      10,613  01_缺血性心臟病/FRAME-AMI_vs_FLOWER-MI_Marp.md
+       9,789  01_缺血性心臟病/JIC Mother-Child Catheter LM Dissection 2018.tex
+      16,758  01_缺血性心臟病/MI Definition Great Debate 心肌梗塞定義之爭議 教學講義.md
+   4,904,887  01_缺血性心臟病/MI_Definition_Great_Debate.pptx
+      12,551  01_缺血性心臟病/MI_Definition_Great_Debate_Marp.md
+       1,639  01_缺血性心臟病/NEJM CAD Genetics Review 2026 教學講義.log
+      16,139  01_缺血性心臟病/NEJM CAD Genetics Review 2026 教學講義.md
+      26,359  01_缺血性心臟病/NEJM CAD Genetics Review 2026 教學講義.tex
+   4,237,648  01_缺血性心臟病/NEJM_CAD_Genetics_Review_2026.pptx
+      10,745  01_缺血性心臟病/NEJM_CAD_Genetics_Review_2026_Marp.md
+   4,197,183  01_缺血性心臟病/STEMI_Multivessel_Trials_Comparison.pptx
+      18,913  01_缺血性心臟病/STEMI_Multivessel_Trials_Comparison_Marp.md
+   6,246,172  01_缺血性心臟病/STEMI_Multivessel_Trials_PI_Analysis.pptx
+      20,669  01_缺血性心臟病/STEMI_Multivessel_Trials_PI_Analysis_Marp.md
+      16,126  01_缺血性心臟病/STEMI_missed_diagnosis_case_study.tex
+      14,470  01_缺血性心臟病/iMODERN Trial — STEMI 多支血管病變的非罪犯病灶 PCI 時機 教學講義.md
+   3,102,209  01_缺血性心臟病/iMODERN_Trial_STEMI_Nonculprit_PCI.pptx
+       9,332  01_缺血性心臟病/iMODERN_Trial_STEMI_Nonculprit_PCI_Marp.md
+      26,899  02_心衰竭/Entresto_Seminar_2026.md
+       7,232  02_心衰竭/Eur Heart J HNMT Heart Failure 2026.tex
+       4,088  02_心衰竭/HCM vs Fabry vs ATTR Amyloidosis 鑑別診斷 教學講義.md
+      18,187  02_心衰竭/NEJM Physiologic Pacing Heart Failure 2026.tex
+      12,083  03_心律不整/CLOSURE-AF 心房顫動左心耳封堵術 教學講義.md
+       8,657  03_心律不整/CLOSURE-AF_LAA_Closure_Marp.md
+      19,661  03_心律不整/EHJ STAR Study PSGB Electrical Storm 2024 教學講義.tex
+      14,451  03_心律不整/European Heart Journal BEAT PAROX-AF PFA vs RFA 2025 Afib EP.tex
+       7,092  03_心律不整/JACC EQUAL Trial Smartwatch AF 2026 教學講義.tex
+  10,611,210  03_心律不整/JACC_author_vansteijn_012226.mp3
+       7,060  03_心律不整/JACC_author_vansteijn_012226.srt
+      19,772  03_心律不整/NEJM OCEAN Trial AF Ablation Anticoagulation 2026.tex
+     348,388  04_瓣膜疾病/EHJ_Valvular_HD_2026-03.pdf
+      10,215  04_瓣膜疾病/EHJ_Valvular_HD_2026-03_Marp.md
+           0  04_瓣膜疾病/European Heart Journal Top 10 VHD 2025.log
+           0  04_瓣膜疾病/European Heart Journal Top 10 VHD 2025.synctex(busy)
+      15,177  04_瓣膜疾病/European Heart Journal Top 10 VHD 2025.tex
+      11,449  04_瓣膜疾病/European Heart Journal 瓣膜心臟病專題 2026年3月 教學講義.md
+      18,507  04_瓣膜疾病/NEJM Clinical Decisions TAVR vs SAVR 2026.tex
+      54,597  04_瓣膜疾病/PCRonline Top 10 Tricuspid Intervention 2025.pptx
+      14,576  04_瓣膜疾病/PCRonline Top 10 Tricuspid Intervention 2025.tex
+      21,252  04_瓣膜疾病/SDM_PDA_TAVR_vs_SAVR_主動脈瓣膜狹窄治療決策.tex
+      21,966  04_瓣膜疾病/TEER_Biweekly_Review_2026-03-03 教學講義.md
+      36,536  04_瓣膜疾病/TEER_Biweekly_Review_2026-03-03_v2 教學講義.md
+      19,889  04_瓣膜疾病/TEER_Biweekly_Review_2026-03-25 教學講義.md
+     373,052  04_瓣膜疾病/TEER_Biweekly_Review_2026-03-25.pdf
+      18,441  04_瓣膜疾病/TEER_Biweekly_Review_2026-03-25_Marp.md
+      21,206  04_瓣膜疾病/TEER_Biweekly_Review_2026-03_Marp.md
+     482,782  05_心臟影像/CMR_LGE_Patterns.png
+      11,167  05_心臟影像/Cardiac_MRI_LGE_Patterns_心臟磁振造影判讀.tex
+      11,865  05_心臟影像/Circulation AI-ECG Phenotypic Selectivity 2025 教學講義.tex
+     557,929  05_心臟影像/ECG_01_Overview.png
+     680,260  05_心臟影像/ECG_02_Rate_Rhythm_Pwaves.png
+     693,640  05_心臟影像/ECG_03_PR_QRS_QT_ST_Twaves.png
+     398,911  05_心臟影像/ECG_04_Practice_Worksheet.png
+      11,732  05_心臟影像/ECG_Reading_Guide_護理心電圖判讀指南.tex
+      22,661  05_心臟影像/EuroIntervention Intravascular Imaging 2024-2025 教學講義.tex
+   8,358,465  06_介入心臟學/Bifurcation_Literature_Review.pptx
+      20,406  06_介入心臟學/Bifurcation_Literature_Review_Marp.md
+      16,256  06_介入心臟學/CTA 導引 CTO PCI 教學講義.md
+       9,910  06_介入心臟學/CTA_CTO_PCI_Marp.md
+      11,241  06_介入心臟學/EuroIntervention 2026-01-05.tex
+      11,181  06_介入心臟學/EuroIntervention 2026年3月 介入心臟學最新進展 教學講義.md
+      19,310  06_介入心臟學/EuroIntervention Day-case PCI 2026 教學講義.md
+      18,236  06_介入心臟學/EuroIntervention EMB 2026 教學講義.tex
+      16,776  06_介入心臟學/EuroIntervention EMB 2026.tex
+     332,070  06_介入心臟學/EuroIntervention_2026-03.pdf
+       9,283  06_介入心臟學/EuroIntervention_2026-03_Marp.md
+   4,359,485  06_介入心臟學/EuroIntervention_Day-case_PCI_2026.pptx
+      12,711  06_介入心臟學/EuroIntervention_Day-case_PCI_2026_Marp.md
+      22,188  06_介入心臟學/JACC NY Cardiac Registries 2012 教學講義.tex
+      23,657  06_介入心臟學/PISCES_fish_oil_hemodialysis.tex
+     107,232  06_介入心臟學/PSA_CT_axial.png
+     159,064  06_介入心臟學/PSA_angiography.png
+      16,349  06_介入心臟學/Persistent Sciatic Artery 2026-01-10.tex
+       6,536  06_介入心臟學/Persistent Sciatic Artery 持續性坐骨動脈.md
+      21,759  06_介入心臟學/Side Branch Loss Prevention 預防分支血管丟失 教學講義.md
+   4,084,833  06_介入心臟學/Side_Branch_Loss_Prevention.pptx
+      12,469  06_介入心臟學/Side_Branch_Loss_Prevention_Marp.md
+     154,575  06_介入心臟學/bifurcation reference.txt
+      29,845  06_介入心臟學/calcium-intravascular-imaging-literature-review.md
+      12,178  06_介入心臟學/calcium-intravascular-imaging-literature-review_Marp.md
+       9,033  06_介入心臟學/thrombus-aspiration-literature-review.md
+       6,088  06_介入心臟學/thrombus-aspiration-literature-review_Marp.md
+      41,075  06_介入心臟學/冠狀動脈分叉病變治療文獻回顧 教學講義.md
+      14,536  07_周邊血管/Advanced Materials Carotid Artery Chip 3D Printing 2026 教學講義.tex
+      25,192  07_周邊血管/NEJM CREST-2 2026.tex
+      19,822  07_周邊血管/NEJM Ischemic Limb Gangrene with Pulses 2015 教學講義.tex
+       1,642  07_周邊血管/NEJM PAD Review McDermott 2026 教學講義.log
+      22,655  07_周邊血管/NEJM PAD Review McDermott 2026 教學講義.tex
+      12,323  07_周邊血管/NHMRC Carotid Web RBC Thrombosis 2026 教學講義.tex
+      15,863  07_周邊血管/create_crest2_pptx.py
+   6,264,504  08_基因醫學/Genetic_Counseling_Cardiology_Scenarios.pptx
+      16,367  08_基因醫學/Genetic_Counseling_Cardiology_Scenarios_Marp.md
+   6,352,499  08_基因醫學/Genomic_Precision_Medicine_Cardiology.pptx
+      15,524  08_基因醫學/Genomic_Precision_Medicine_Cardiology_Marp.md
+      30,772  08_基因醫學/基因精準醫學與心臟病 教學講義.md
+      36,119  08_基因醫學/基因醫學心臟病學 範例臨床情境分析解析 教學講義.md
+      19,896  08_高血壓/Hypertension_Research_Vol49_Issue3_March2026_期刊回顧 教學講義.md
+       9,423  08_高血壓/Hypertension_Research_Vol49_Issue3_Review_Marp.md
+      20,947  10_ICU_一般照護/CHEST Implementation Science Practice Variability 2026 教學講義.tex
+      20,259  10_ICU_一般照護/Esmolol 在重症加護的應用 教學講義.md
+   6,268,703  10_ICU_一般照護/Esmolol_ICU_Teaching.pptx
+      15,839  10_ICU_一般照護/Esmolol_ICU_Teaching_Marp.md
+      15,697  10_ICU_一般照護/Etomidate vs Ketamine 插管誘導用藥比較 教學講義.md
+   3,974,565  10_ICU_一般照護/Etomidate_vs_Ketamine_Intubation.pptx
+      10,208  10_ICU_一般照護/Etomidate_vs_Ketamine_Intubation_Marp.md
+      13,575  10_ICU_一般照護/ICM Broad-Spectrum Antibiotics 2024 教學講義.tex
+      16,307  10_ICU_一般照護/ICM Clinical Governance 2024 教學講義.tex
+      11,680  10_ICU_一般照護/ICM Metabolic Acidosis Buffering 2024 教學講義.tex
+      14,610  10_ICU_一般照護/ICM Stress Ulcer Prevention 2024 教學講義.tex
+      10,961  11_ICU_呼吸系統/Critical Care 2026 ICUAW Rehabilitation.tex
+      12,749  11_ICU_呼吸系統/ICM Diaphragm Ultrasound 2024 教學講義.tex
+      11,400  12_ICU_血液動力學/ICM 2024 Cardiac Output Monitoring.tex
+      16,783  12_ICU_血液動力學/ICM VA-ECMO Echo Checklist 2024 教學講義.tex
+      21,143  12_ICU_血液動力學/Nature COVID-19 RBC Microangiopathy 2025 教學講義.tex
+      12,216  13_ICU_腎臟/ICM AKI RRT Timing 2025 教學講義.tex
+      14,362  20_肺栓塞/COBRRA Trial Apixaban vs Rivaroxaban 出血風險比較 教學講義.md
+   4,722,873  20_肺栓塞/COBRRA_Apixaban_vs_Rivaroxaban_Bleeding.pptx
+      17,070  20_肺栓塞/COBRRA_Apixaban_vs_Rivaroxaban_Bleeding_Marp.md
+      13,993  20_肺栓塞/Circulation STORM-PE 2025 教學講義.tex
+      10,674  21_肺高壓/CHEST 2026 ILD-PH.tex
+      15,608  22_COPD_氣喘/AJRCCM AIRFLOW-3 COPD 2025 教學講義.tex
+     180,195  90_AI_科技/AI_Literature_Review_Workflow.pdf
+      18,864  90_AI_科技/AI_Literature_Review_Workflow_Marp.md
+      13,139  90_AI_科技/AI_Medical_Education_Marp.md
+      17,105  90_AI_科技/AI數位科技應用於醫學教育 教學講義.md
+      15,047  90_AI_科技/Anthropic AI for Science 2026-01-16.tex
+      13,069  90_AI_科技/NEJM AI ChatGPT Grading 2025 教學講義.tex
+      18,163  90_AI_科技/NEJM_AI_MedAgentBench_2025.tex
+      10,985  91_Podcast_期刊回顧/Circulation 2026-01-06.tex
+      10,946  91_Podcast_期刊回顧/Circulation 2026-01-13.tex
+      12,810  91_Podcast_期刊回顧/Circulation on the Run 2026-02-10 期刊回顧 教學講義.md
+      17,648  91_Podcast_期刊回顧/Circulation on the Run 2026-02-24 期刊回顧 教學講義.md
+      14,870  91_Podcast_期刊回顧/Circulation on the Run 2026年3月10日 教學講義.md
+   3,968,962  91_Podcast_期刊回顧/Circulation_on_the_Run_2026-02-10.pptx
+      10,357  91_Podcast_期刊回顧/Circulation_on_the_Run_2026-02-10_Marp.md
+   4,861,685  91_Podcast_期刊回顧/Circulation_on_the_Run_2026-02-24.pptx
+      12,615  91_Podcast_期刊回顧/Circulation_on_the_Run_2026-02-24_Marp.md
+       8,516  91_Podcast_期刊回顧/Circulation_on_the_Run_2026-03-10_Marp.md
+   4,141,282  91_Podcast_期刊回顧/EHJ_Issue_at_a_Glance_2026-02-21.pptx
+      10,253  91_Podcast_期刊回顧/EHJ_Issue_at_a_Glance_2026-02-21_Marp.md
+      16,323  91_Podcast_期刊回顧/Eur Heart J 2026-01-07.tex
+      14,647  91_Podcast_期刊回顧/Eur Heart J 2026-01-14.tex
+      16,204  91_Podcast_期刊回顧/European Heart Journal Issue at a Glance 2026-02-21 教學講義.md
+      19,896  91_Podcast_期刊回顧/Hypertension_Research_Vol49_Issue3_March2026_期刊回顧 教學講義.md
+       9,423  91_Podcast_期刊回顧/Hypertension_Research_Vol49_Issue3_Review_Marp.md
+      13,487  91_Podcast_期刊回顧/JACC Behind the Science 2026-01-06.tex
+       8,569  91_Podcast_期刊回顧/JACC Medicare COVID-19 Cardiovascular Outcomes 2026 教學講義.tex
+      13,706  91_Podcast_期刊回顧/JACC This Week 2026年3月 教學講義.md
+       9,347  91_Podcast_期刊回顧/JACC_This_Week_2026-03_Marp.md
+      14,023  91_Podcast_期刊回顧/JACC_author_maddox_012126.srt
+       9,386  99_其他/DB-OTO 基因治療先天性耳聾 教學講義.md
+       8,141  99_其他/DB-OTO_Gene_Therapy_Deafness_Marp.md
+      31,827  99_其他/Dan Koe How to Fix Your Life 2026 教學講義.tex
+      24,506  99_其他/Dan Koe How to Fix Your Life 2026 通用版.tex
+      17,540  99_其他/Dietary Natural Approaches Stroke Prevention 2025 教學講義.tex
+      59,173  99_其他/Military_Service_Dongyin_2005.md
+      70,326  99_其他/Military_Service_Dongyin_2005.tex
+      28,961  99_其他/NEJM Case 1-2025.tex
+      20,778  99_其他/NEJM Case 4-2026 HIV PJP 教學講義.tex
+      14,888  99_其他/NEJM Clinical Problem-Solving The Eyes Have It — 肉毒桿菌中毒 教學講義.md
+      12,293  99_其他/NEJM_CPS_Botulism_2026_Marp.md
+      11,956  99_其他/Nature News EAST Fusion 2026 科普講義.tex
+      11,582  99_其他/dietary-intervention-literature-review.md
+       7,079  99_其他/dietary-intervention-literature-review_Marp.md
+       7,879  99_其他/醫法倫_討論_謝慕揚.tex
