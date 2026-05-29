@@ -2393,102 +2393,150 @@ Transfemoral (TF) — first choice (>95%)
 
 ---
 
-## 11. Iatrogenic VSD / Septal injury / Fistula
+## 11. Iatrogenic VSD / Septal injury / Fistula — 醫源性心室中膈缺損與分流
 
-> **教學重點**：TAVR 引起的 iatrogenic VSD、aorto-RV fistula、LVOT-LA fistula 多源於 (1) deep prosthesis implantation 對 membranous septum / mitro-aortic curtain 的 mechanical trauma，(2) bioprosthetic valve fracture 高壓 balloon 後 valvular trauma。Closure 多採 transcatheter approach（AVP II/III, Cardioform Septal Occluder, MVP plug）。
+### 概念與機轉
 
-**案例庫共 4 篇**（已下載 4）。
+TAVR 後的 **acquired intracardiac shunt (AICS)** 發生率約 **0.5–1%**，包含 iatrogenic VSD、aorto-RV fistula (ARVF)、LVOT-to-LA fistula 與 Gerbode (LVOT/LV-to-RA) defect。三大機轉：
+
+1. **Balloon 部署時的 calcium translocation** — 球囊撐脹時把 right coronary cusp / aortic root wall 的 focal calcification 經 basal aortic wall 向外推擠，造成 aortic root / annulus 撕裂 → 多形成 **aorto-RV fistula**（balloon-expandable valve 風險高，self-expanding 在 post-dilation 時亦可）
+2. **Deep implantation 的 mechanical trauma** — Frame 距離 membranous septum / mitro-aortic intervalvular fibrosa（fibrous curtain）過近，frame strut 或 catheter 對脆弱組織造成穿孔
+3. **Bioprosthetic valve fracture (BVF) 的高壓 balloon trauma** — ViV TAVR 為解 patient-prosthesis mismatch 而 fracture 時，高壓球囊可撕裂 mitro-aortic curtain → **LVOT-to-LA fistula**
+
+**處置原則**（依「症狀 + fistula 大小 + 血流動力學」決定）：
+
+- **無症狀 + 小 fistula + RV 正常** → 保守追蹤（利尿、serial echo）
+- **有症狀 / 進展 / RV 擴大** → 介入：transcatheter plug（AVP II / AVP IV）、septal occluder、TAV-in-TAV，或 open surgical patch
+- 裝置選擇強調 **low-profile**，避免干擾鄰近瓣葉活動或冠狀動脈口
+
+> **特殊族群提醒**：**先天性心臟病（CHD）**病人（如曾自發閉合的 perimembranous VSD）即使無典型 iatrogenic VSD 危險因子（無 oversizing、無 post-dilation、low calcium），閉合處的 aneurysmal 組織仍可能在 TAVR 過程被機械力撕開。Pre-TAVR 應特別影像評估 membranous septum；任何 post-TAVR 新發心衰竭都應以 dedicated LVOT imaging 排除 AICS。症狀性未處置者 mortality 約 25–33%。
+
+**案例庫共 6 篇**（已下載 4 / 待下載 2）。
 
 ---
 
 #### 11.1 Sedhom 2026 — Transcatheter Closure of LVOT-to-LA Fistula After Aortic Bioprosthetic Valve Fracture
 
-[PMID 41563190](https://pubmed.ncbi.nlm.nih.gov/41563190/) ｜ JACC Case Rep 2026
+[PMID 41563190](https://pubmed.ncbi.nlm.nih.gov/41563190/) ｜ JACC Case Rep 2026;31:106654
 
-72 歲男 — 之前 SAVR (Mitroflow 21 mm) — 為 ViV TAVR 進行 **bioprosthetic valve fracture (BVF)** with 25 mm True Balloon @ 24 atm。Post-fracture: **iatrogenic LVOT-to-LA fistula** (4 mm jet) at the mitro-aortic curtain — likely 結 BVF high-pressure mechanical trauma。Closure with **Cardioform Septal Occluder 18 mm** via trans-septal — fistula sealed; SAPIEN 3 23 mm ViV deployed subsequently。
+**78 歲男**，病史：13 年前 25 mm St Jude Epic 外科瓣 SAVR（true internal dimension 21 mm），9 年後因 structural valve degeneration 接受 **26 mm Edwards SAPIEN 3 ViV TAVR**（當時未做 valve fracture）。本次發病前 3 個月，因 severe patient-prosthesis mismatch，以 **25 mm True balloon（比瓣內徑大 4 mm）對 TAVR 瓣做 bioprosthetic valve fracture (BVF)**——術中即發生 **LVOT-to-LA fistula**，位於 **mitral-aortic intervalvular fibrosa（fibrous aortomitral curtain）**，posterior aortic cusp 下方、近 lateral trigone，伴 ≥ moderate supra-annular MR（3D vena contracta 0.35 cm²）。因當時無症狀採 watchful waiting。LVEF 40–45%、bioprosthetic AV mean gradient 11 mmHg、無 PVL。其後 **心衰竭症狀復發**（JVD、bibasilar crackles、下肢水腫），invasive 測得 LVEDP 升高。
+
+**處置 — 經皮 transseptal（靜脈側）closure**：10F sheath 經右股靜脈 → TEE 導引 mid/posterior transseptal puncture → telescoping 系統（**8.5F Agilis steerable guide + 5F multipurpose + angled glidewire**）自 LA 跨過 paravalvular defect 進入 LV → 植入 **8 mm Amplatzer IV vascular plug (AVP IV)** → perivalvular leak 消失。術後運動性呼吸困難與心衰竭症狀顯著改善。
 
 **教學重點**:
-> **BVF can rupture the mitro-aortic curtain** — pre-BVF planning should image the intervalvular fibrosa carefully (CT + 3D TEE), particularly in patients with prior MVR/dilated annuli. Cardioform Septal Occluder is well-suited for the geometric demands of mitro-aortic fistulas (asymmetric disc anchoring, low profile).
+
+> **BVF 可撕裂 mitro-aortic intervalvular fibrosa** → LVOT-LA fistula。TAVR 後 fistula 多涉及 interventricular septum 或 aorta-to-RV，**LA 受累屬罕見**。約 50% 病人會出現症狀（心衰竭、溶血、栓塞），closure 適應症為進展性心衰竭、RV 擴大或 Qp:Qs 升高。
+
+> **裝置選擇 — 為何選 AVP IV**：defect 小且緊鄰 native mitral 與 transcatheter aortic 兩組瓣葉。AVP IV 是 low-profile nitinol 裝置，可經任何相容 0.035-inch guidewire 的診斷導管（如 4F multipurpose）輸送，**碟盤小 → 不干擾兩組瓣葉活動**；釋放前可回收重新定位。目前尚無專為 TAVR 後 iatrogenic intracardiac shunt 設計的裝置。
 
 ::: {layout-ncol=3}
-![Pre-BVF: SAVR Mitroflow 21 mm with severe degeneration, planning ViV。](../images/tavi-complications/41563190_Sedhom_2026/fig-01_p2.png)
+![Visual Summary — 病程時間軸：SAVR → ViV TAVR → BVF → LVOT-LA fistula → 經皮 AVP IV closure。](../images/tavi-complications/41563190_Sedhom_2026/fig-01_p2.png)
 
-![BVF with 25 mm True Balloon @ 24 atm — successful frame fracture observed by waist disappearance。](../images/tavi-complications/41563190_Sedhom_2026/fig-02_p3.png)
+![Figure 1 — Balloon valvuloplasty 透視影像：(A) BVF 前 TAVR 瓣、(B) BVF 後 TAVR 瓣。](../images/tavi-complications/41563190_Sedhom_2026/fig-02_p3.png)
 
-![Post-BVF TEE: LVOT-to-LA fistula 4 mm jet at mitro-aortic curtain (red arrow)。](../images/tavi-complications/41563190_Sedhom_2026/fig-03_p4.png)
+![Figure 2 — TEE：經 mitral-aortic intervalvular fibrosa 的 LVOT-LA fistula 與 3D 重建。](../images/tavi-complications/41563190_Sedhom_2026/fig-03_p4.png)
 
-![Cardioform Septal Occluder 18 mm deployment via trans-septal route — both discs seated。](../images/tavi-complications/41563190_Sedhom_2026/fig-04_p5.png)
+![Figure 3 — 跨越 fistula：angled glidewire 經 transseptal、自 LA 跨 fistula 進入 LV。](../images/tavi-complications/41563190_Sedhom_2026/fig-04_p5.png)
 
-![Post-closure 3D TEE: fistula sealed; subsequent SAPIEN 3 23 mm ViV deployed。](../images/tavi-complications/41563190_Sedhom_2026/fig-05_p5.png)
+![Figure 4 — 8 mm Amplatzer IV vascular plug 釋放，TEE 確認位置良好、無殘餘 leak。](../images/tavi-complications/41563190_Sedhom_2026/fig-05_p5.png)
 :::
 
 ---
 
-#### 11.2 Mason 2025 — Iatrogenic Reopening of Congenital VSD After TAVR
+#### 11.2 Mason 2025 — Iatrogenic Reopening of a Congenital VSD After TAVR
 
-[PMID 41005845](https://pubmed.ncbi.nlm.nih.gov/41005845/) ｜ JACC Case Rep 2025
+[PMID 41005845](https://pubmed.ncbi.nlm.nih.gov/41005845/) ｜ JACC Case Rep 2025;30:105228
 
-68 歲女 severe AS + history of **spontaneously closed perimembranous VSD** in childhood (TTE 30 年前 confirmed shut)。TAVR (Evolut Pro+ 26 mm)。Post-deployment **acute LR shunt** — 3D TEE: prior VSD reopened 4 mm — Evolut frame's distal flare mechanically perforated the membranous septum at the closed VSD scar。Trans-catheter closure with **Amplatzer Membranous VSD Occluder 6×4 mm** through retrograde aortic approach — shunt resolved。
+**74 歲女**，severe AS（AVA 0.8 cm²、peak gradient 43、mean 33 mmHg），高手術風險 → **29 mm balloon-expandable Edwards SAPIEN S3** TAVR，**未做 post-dilation、無立即併發症**。病史：permanent AF s/p AVN ablation + dual-chamber PPM、HF with recovered EF；幼時被告知「心臟有洞」且雜音後自行消失——實為 **先天性 perimembranous VSD，由 aneurysmal tricuspid valve tissue 自發閉合**。
+
+術後 3 天即因 encephalopathy / hyponatremia / volume overload 入院；其後 6 週又 5 次因失代償心衰竭入院，出現新的 cirrhotic liver morphology、cannon V waves、pulsatile liver。TTE：新發 **moderate perimembranous VSD with L-R shunt**（peak velocity 3.2 m/s、peak gradient 42 mmHg），TAVR 瓣本身位置良好、功能正常。TEE：VSD 由 aneurysmal TV 組織部分閉合，**LV inlet 端 7 mm、RV outlet 端 4 mm**，並新發 **severe TR**。右心導管：mixed pre-/post-capillary PH，**Qp:Qs 1.5 → 利尿後 2.1**。同時發現一個緊鄰 TAVR frame proximal margin 下方的 **iatrogenic LVOT-to-RA (Gerbode) defect**。
+
+**機轉**：先前閉合 congenital VSD 的 aneurysmal tricuspid 組織在 TAVR 過程被 frame / catheter 撕裂（dehiscence）→ 顯著 L-R shunt → 反覆失代償心衰竭與 TR 惡化。值得注意——**典型 iatrogenic VSD 危險因子全數缺席**（AV calcium 低、無 post-dilation、無顯著 oversizing）。
+
+**處置 — 開心手術**：TAVR 後約 2 個月接受複雜開心修補——**VSD patch closure + 修補 dysplastic 三尖瓣瓣葉 + 移除 transvenous pacing leads + 置放 epicardial pacemaker**，Gerbode defect 一併修補。術後 TTE：VSD 完全閉合、Gerbode 僅 trivial 殘餘、mild TR。術後因反覆 pleural effusion 需雙側引流，約 2 週後轉復健；**30 個月**追蹤已停利尿劑、活動良好。
 
 **教學重點**:
-> Patients with **prior spontaneously closed VSD** carry a healed-scar that is mechanically weaker than virgin myocardium. Self-expanding TAVR frames with low implantation depth can re-open the closed VSD. Pre-procedural CT should specifically inspect the membranous septum in any patient with congenital cardiac history.
+
+> 此為文獻首例「**先天性自發閉合 perimembranous VSD 於 TAVR 後再開放**」所致 AICS。自發閉合處的 aneurysmal TV 組織**機械強度低、隨年齡纖維化變脆**，即使無傳統危險因子也可能被撐開。
+
+> **CHD 病人 pre-TAVR 須詳細結構影像評估 membranous septum**；任何 post-TAVR 新發心衰竭都應立即以 dedicated LVOT imaging 排除 AICS——症狀性未處置者 mortality 約 25–33%，而幾乎所有無症狀者保守觀察預後良好。本例分流被緩慢釐清，致 2 個月內多數時間住院，凸顯早期診斷的重要。
 
 ::: {layout-ncol=2}
-![Pre-procedural CT: membranous septum thinning at site of childhood VSD scar。](../images/tavi-complications/41005845_Mason_2025/fig-01_p2.png)
+![Figure 1 — (A) Pre-TAVR TTE：perimembranous VSD 由一薄帶 aneurysmal 三尖瓣組織閉合；(B) color Doppler 顯示閉合處無血流；(C) TAVR 後 angiogram，無暫時性 RV pacing lead 跨越三尖瓣。](../images/tavi-complications/41005845_Mason_2025/fig-01_p2.png)
 
-![Post-TAVR 3D TEE: reopened VSD with LR shunt (red arrow); Amplatzer membranous VSD occluder closure。](../images/tavi-complications/41005845_Mason_2025/fig-02_p3.png)
+![Figure 2 — TEE：VSD 顯著血流（Vmax 3.2 m/s、peak gradient 42 mmHg）、LV inlet 端 0.7 cm、緊鄰 TAVR 瓣，並見伴隨之三尖瓣逆流。](../images/tavi-complications/41005845_Mason_2025/fig-02_p3.png)
 :::
 
 ---
 
-#### 11.3 Chia 2024 — Management of Aorto-Right Ventricular Fistulas After TAVR
+#### 11.3 Chia 2024 — Management of Aorto-Right Ventricular Fistulas After TAVR（三例系列）
 
-[PMID 39619019](https://pubmed.ncbi.nlm.nih.gov/39619019/) ｜ JACC Case Rep 2024
+[PMID 39619019](https://pubmed.ncbi.nlm.nih.gov/39619019/) ｜ JACC Case Rep 2024;29:102655
 
-**Multiple case series + management algorithm** for post-TAVR aorto-RV fistulas。Mechanism: deep TAVR implantation → frame distal struts pierce the membranous septum → high-pressure aortic communication with RV (high-velocity LR shunt, RV volume overload, HF)。Algorithm: (1) small fistula (<3 mm, no haemodynamic effect) → conservative；(2) moderate (3-6 mm, RV dilation) → trans-catheter closure (AVP II, Amplatzer Duct Occluder)；(3) severe (>6 mm, refractory HF) → surgical closure with patch。
+**3 年內 3 例 aorto-RV fistula (ARVF) 系列**，完整展示「依症狀 + fistula 大小 + 血流動力學」的處置光譜（外科 / 經皮 / 保守）：
+
+| 病人 | 背景 | TAVR 瓣 | Day-1 fistula | Qp:Qs | 處置 | 結果 |
+|------|------|---------|--------------|-------|------|------|
+| **1** | 78 M，無症狀 high-gradient AS | 26 mm SAPIEN 3 Ultra | 5–6 mm（aortic root→RV inflow） | 1.9 | 原擬保守，但進展性呼吸困難 → **外科**：bovine patch + SAPIEN explant + 23 mm Edwards Perimount | 1 mo 無殘餘分流 |
+| **2** | 86 M，症狀性 severe AS | 29 mm SAPIEN 3 Ultra | 5–6 mm（RCC sinus→RV）+ mild PVL | — | 持續呼吸困難 → **經皮 10 mm AVP II plug**（TAV-in-TAV 因恐將鈣化推更深而放棄） | trace 殘餘，1 mo 完全緩解；DAPT 6 mo→ASA |
+| **3** | 80 F，4 年前 29 mm Medtronic CoreValve；本次 severe prosthetic valve stenosis | TAV-in-TAV 23 mm SAPIEN 3 Ultra | 小 2–3 mm（RCC sinus→mid-RV） | — | 無症狀、RV 正常 → **保守** serial TTE | Month 1 & 9 無變化、持續無症狀 |
+
+**機轉**：balloon 部署時 **right coronary cusp / aortic root wall 的 focal calcification 經 basal aortic wall transmural translocation** → aortic root / annulus 受傷 → ARVF。三例皆有 **RCC 不對稱緻密鈣化 + 近 right SoV 的 aortic-root-base 鈣化**。Operator 因素：catheter 操作、高球囊壓力、prosthesis oversizing。
 
 **教學重點**:
-> **Aorto-RV fistula = membranous septum perforation by distal frame strut**. Pre-TAVR CT must measure membranous septum length (typical 5-7 mm); avoid implantation depth >MS length. Closure approach selected by fistula size + symptom. AVP II suitable for small-moderate fistulas via retrograde aortic route.
+
+> **三例對應三種處置策略**——並非「越大越要開刀」的線性規則，而是綜合症狀、fistula 大小、RV 影響與手術風險的個人化決策。無症狀 + 小 fistula + RV 正常可保守追蹤；有症狀 / 進展 / RV 擴大才介入（外科最 definitive、transcatheter plug 較微創、TAV-in-TAV 選擇性使用）。
+
+> **診斷關鍵**：fistula 在 color / spectral Doppler 呈 **systole 與 diastole 皆有的連續血流**（CW Doppler 常 > 4 m/s），藉此與 pulmonic / paravalvular AR 區辨。CTA 評估 fistula 與冠狀動脈口、root 結構之關係；右心導管於 ambiguous 病例可確認分流量。
 
 ::: {layout-ncol=3}
-![Anatomy: membranous septum thinness vs. TAVR frame depth — geometric setup for perforation。](../images/tavi-complications/39619019_Chia_2024/fig-01_p2.jpeg)
+![Figure 1 — Patient 1 pre-TAVR CTA：aortic valve / root 鈣化評估，right coronary cusp 基部 focal calcification（箭頭）。](../images/tavi-complications/39619019_Chia_2024/fig-01_p2.jpeg)
 
-![Case 1 — small aorto-RV fistula (2 mm) detected by post-TAVR TTE colour Doppler。](../images/tavi-complications/39619019_Chia_2024/fig-02_p3.jpeg)
+![Figure 2 — Patient 2 pre-TAVR CTA：RCC 基部與 aortic root wall focal calcification。](../images/tavi-complications/39619019_Chia_2024/fig-02_p3.jpeg)
 
-![Case 2 — moderate fistula (5 mm), RV dilation on CT。](../images/tavi-complications/39619019_Chia_2024/fig-03_p4.jpeg)
+![Figure 3 — Patient 2 經皮封堵中 aortogram（6F pigtail）顯示 aorto-RV fistula。](../images/tavi-complications/39619019_Chia_2024/fig-03_p4.jpeg)
 
-![AVP II 6 mm closure of moderate fistula via retrograde aortic route。](../images/tavi-complications/39619019_Chia_2024/fig-04_p4.jpeg)
+![Figure 4 — Patient 2：5F multipurpose 導管經 fistula 進入 RV 的透視影像。](../images/tavi-complications/39619019_Chia_2024/fig-04_p4.jpeg)
 
-![Case 3 — large fistula (8 mm) requiring surgical patch closure。](../images/tavi-complications/39619019_Chia_2024/fig-05_p5.jpeg)
+![Figure 5 — Patient 2：10 mm AVP 2 vascular plug 釋放、封閉 aorto-RV fistula。](../images/tavi-complications/39619019_Chia_2024/fig-05_p5.jpeg)
 
-![Trans-oesophageal 3D reconstruction of fistula tract for procedural planning。](../images/tavi-complications/39619019_Chia_2024/fig-06_p5.jpeg)
+![Figure 6 — Patient 2：封堵後 aortogram，僅 trivial 殘餘血流。](../images/tavi-complications/39619019_Chia_2024/fig-06_p5.jpeg)
 
-![Closure decision algorithm: size + RV impact + symptom → conservative / TC / surgical。](../images/tavi-complications/39619019_Chia_2024/fig-07_p6.jpeg)
+![Figure 7 — Patient 2 TTE：AVP II 封堵前 (A) / 後 (B)，aortic root 短軸見 fistula 血流消失。](../images/tavi-complications/39619019_Chia_2024/fig-07_p6.jpeg)
 
-![Trans-catheter closure technical steps: arterial wire → AV loop → device deployment。](../images/tavi-complications/39619019_Chia_2024/fig-08_p7.jpeg)
+![Figure 8 — Patient 3 pre-TAVR CTA：原 Medtronic CoreValve stent + ViV S3 前的鈣化與 stent 影像。](../images/tavi-complications/39619019_Chia_2024/fig-08_p7.jpeg)
 
-![Post-closure 30-day follow-up TTE: complete resolution。](../images/tavi-complications/39619019_Chia_2024/fig-09_p8.jpeg)
+![Figure 9 — Patient 3 保守治療追蹤 TTE：month 1 (A) 與 month 9 (B) fistula 血流無變化。](../images/tavi-complications/39619019_Chia_2024/fig-09_p8.jpeg)
 
-![Long-term outcome: RV reverse remodelling at 6 months。](../images/tavi-complications/39619019_Chia_2024/fig-10_p8.jpeg)
+![Figure 10 — 三例 pre-TAVR CTA 鈣化比較：皆呈近 right SoV 壁的相似 focal calcification 型態。](../images/tavi-complications/39619019_Chia_2024/fig-10_p8.jpeg)
 
-![Algorithm summary: pre-TAVR membranous septum measurement + post-TAVR surveillance protocol。](../images/tavi-complications/39619019_Chia_2024/fig-11_p9.jpeg)
+![Figure 11 — Patient 3 post-TAV-in-TAV CW Doppler：跨 fistula 的高速連續血流（systole 與 diastole 皆 > 4 m/s）。](../images/tavi-complications/39619019_Chia_2024/fig-11_p9.jpeg)
 :::
 
 ---
 
-#### 11.4 Masarweh 2024 — TAVR-Aorto-RV Fistula Repaired Via Valve-in-Valve
+#### 11.4 Masarweh 2024 — TAVR-Related Aorto-RV Fistula Repaired Via Valve-in-Valve
 
-[PMID 38264302](https://pubmed.ncbi.nlm.nih.gov/38264302/) ｜ JACC Case Rep 2024
+[PMID 38264302](https://pubmed.ncbi.nlm.nih.gov/38264302/) ｜ JACC Case Rep 2024;29:102165
 
-74 歲男 — TAVR (Evolut Pro+ 29 mm) 後 30 天出現 acute HF — TTE: aorto-RV fistula 6 mm with severe LR shunt + RV dilation + secondary TR severe。Standard plug closure 不可行（fistula tract 在 valve frame distal struts 處，plug 會 impinge on prosthesis）。**Creative rescue**: deploy a **second TAVR (SAPIEN 3 26 mm) inside the existing Evolut** at higher position — the new valve's sealing skirt covered the distal Evolut struts and sealed the fistula。
+**59 歲男**，severe AS 於 **3 年前接受 TAVR（Edwards Sapien 瓣）**；HF with recovered EF（30–35% → 60%）、s/p biventricular ICD、paroxysmal AF、T2DM、CKD 3B。本次以 **NYHA IV 雙側心衰竭 1 個月**表現（全身水腫、腹脹、anasarca、ascites），**BNP 2,955 pg/mL**。
+
+影像：TTE 顯示 AVA 1.3 cm²、peak velocity 2 m/s、EF 60%、mild-to-moderate AI，以及 **aorto-RV communication**；TEE 確認瘻管自 right coronary cusp 鄰近 sinus 通往 RV；CT 量得 annulus 32 × 30.4 mm、面積 772 mm²；心導管見 **oxygen step-up**（RV sat 71%、PA sat 82%）。
+
+**處置 — ViV TAVR 一箭雙鵰**：因手術風險高、同時有 AR 與 aorto-RV fistula，heart team 決定以第二個 TAVR 瓣同時處理瓣膜逆流與瘻管。植入 **Evolut Pro Plus 34 mm（Medtronic）於既有 Edwards Sapien 瓣之內**，以原瓣為 landmark **landing 在原瓣略下方**；pre-CT 冠狀動脈高度 L 19.4 / R 22 mm，確保不擋冠狀動脈口。rapid pacing 下部署並 post-dilate。**瘻管仍 patent，但血流顯著減少**（非完全封閉）。此為文獻首例以 ViV 方式修補 aorto-RV fistula。
+
+追蹤：2 週後 NYHA I–II、BNP 降至 358 pg/mL。計畫持續觀察，若惡化再考慮 percutaneous coiling 或 surgical patch。
 
 **教學重點**:
-> **TAVR-in-TAVR (ViV) is a creative rescue for distal-strut–related complications** when standard plug closure is anatomically prohibited. The second valve's sealing skirt acts as an internal plug. Particularly suited when the fistula tract is at the level of the original frame and cannot be approached without impinging on the prosthesis.
+
+> **ViV TAVR 可作為「同時處理瓣膜逆流 + 瘻管」的創意解法**——第二個瓣的 frame / sealing skirt 可減少瘻管血流，特別適用於 prohibitive surgical risk 且 fistula 位於原 frame 層級、傳統 plug 不易進入者。
+
+> **務必先評估冠狀動脈高度**：ViV 可能擋住冠狀動脈口；本例藉「landing 在原瓣略下方」保護冠狀動脈。ARVF 機轉多為 contained annular rupture / 鈣化位移（以 balloon-expandable 為主）。注意**血流是「減少」而非完全消失** → 需持續影像追蹤。
 
 ::: {layout-ncol=2}
-![Post-TAVR 30-day TEE: aorto-RV fistula 6 mm with severe LR shunt and RV dilation。](../images/tavi-complications/38264302_Masarweh_2024/fig-01_p2.jpeg)
+![Figure 1 — Cardiac CT 矢狀面：連接 aorta（近 right sinus）與 RV 的瘻管（箭頭）。](../images/tavi-complications/38264302_Masarweh_2024/fig-01_p2.jpeg)
 
-![Rescue: TAVR-in-TAVR with SAPIEN 3 26 mm at higher position — sealing skirt covered distal Evolut struts。](../images/tavi-complications/38264302_Masarweh_2024/fig-02_p3.jpeg)
+![Figure 2 — CT 顯示左右冠狀動脈口高度與既有 TAVR 瓣之關係（規劃 ViV landing 深度）。](../images/tavi-complications/38264302_Masarweh_2024/fig-02_p3.jpeg)
 :::
 
 ---
