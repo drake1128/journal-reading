@@ -2,6 +2,13 @@
 title: "基因醫學 — Genetic Medicine"
 ---
 
+## ⭐ 基因體醫學入門系列（讀書會三個月課程）
+
+- [**教材收集中心 & 課程大綱**](genomic-medicine-intro-series/index.qmd) — YouTube、他院 NGS 說明、文獻、共用縮寫表
+- 第一課：[基因用字與縮寫（投影片 PDF）](Genomic_Intro_01_Terminology.pdf)
+- 第二課：[檢測方式與優勢（投影片 PDF）](Genomic_Intro_02_Testing_Methods.pdf)
+- 第三課：[臨床案例應用（投影片 PDF）](Genomic_Intro_03_Clinical_Cases.pdf)
+
 ## 教學講義 Handouts
 
 - [基因精準醫學與心臟病 教學講義.md](基因精準醫學與心臟病 教學講義.md)

@@ -1,0 +1,130 @@
+---
+title: "基因體醫學入門系列 — 教材收集中心 & 課程大綱"
+subtitle: "Genomic Medicine / NGS — Introductory Series for the Journal Reading Group"
+author: "謝慕揚 MD, PhD, FESC（整理）"
+date: 2026-05-30
+lang: zh-TW
+toc: true
+toc-depth: 3
+---
+
+> **這是什麼**：心臟科讀書會「基因體醫學 (Genomic Medicine) / 次世代定序 (next-generation sequencing, NGS)」入門系列的**教材收集中心 + 課程大綱**。內容定位為**心臟科取向的入門認識**（通用概念為骨架，範例以心臟疾病為主）。本頁所有外部連結均經實際查證可開啟，非杜撰。
+>
+> **共筆性質**：個人整理之教學共筆，非專家評論，僅供醫療專業人員教學參考。
+
+---
+
+## 1. 課程規劃 (Curriculum)
+
+利用接下來三個月的 Journal Reading，分三次報告，每次一套投影片、約 20 分鐘；最後邀請總院**莊教授**線上演講壓軸。
+
+| 課次 | 主題 | 形式 | 時長 | 講者 |
+|------|------|------|------|------|
+| **第一課** | 基本基因用字與縮寫 (Terminology & Abbreviations) | Marp 投影片 | ~20 min | （待分配：謝慕揚／新育／凱鈞） |
+| **第二課** | 目前的檢測方式與優勢 (Testing Methods & Advantages) | Marp 投影片 | ~20 min | （待分配） |
+| **第三課** | 臨床實際案例應用 (Clinical Case Applications) | Marp 投影片 | ~20 min | （待分配） |
+| **第四課** | 總院莊教授線上演講 | 線上演講 30 min + 討論 30 min | 60 min | 莊教授（客座） |
+
+- **講者**：謝慕揚、新育、凱鈞，三人各認領一套投影片各報告一次。
+- **審稿人**：**洛嘉**（每套投影片報告前審閱）。
+- **產出**：每套 Marp `.md` + PDF，並接上本 Quarto 網站。
+
+### 三套投影片（本系列產出）
+
+| 課次 | 投影片 PDF | Marp 原始檔 |
+|------|-----------|-------------|
+| 第一課 | [基因用字與縮寫 PDF](../Genomic_Intro_01_Terminology.pdf) | `Genomic_Intro_01_Terminology_Marp.md` |
+| 第二課 | [檢測方式與優勢 PDF](../Genomic_Intro_02_Testing_Methods.pdf) | `Genomic_Intro_02_Testing_Methods_Marp.md` |
+| 第三課 | [臨床案例應用 PDF](../Genomic_Intro_03_Clinical_Cases.pdf) | `Genomic_Intro_03_Clinical_Cases_Marp.md` |
+
+---
+
+## 2. 我們已有的內部教材（交叉索引）
+
+本院讀書會先前已整理的基因／心臟相關講義，可作為三套入門投影片的延伸閱讀：
+
+- [基因精準醫學與心臟病 教學講義](../基因精準醫學與心臟病%20教學講義.md) — 總論、檢測平台、Brugada/LQTS/HCM/Fabry/ATTR、台灣健保現況。（**第二、三課主要重用來源**）
+- [基因醫學心臟病學：範例臨床情境分析解析 教學講義](../基因醫學心臟病學%20範例臨床情境分析解析%20教學講義.md) — 10 個遺傳諮詢情境（VUS 溝通、cascade screening、molecular autopsy…）。（**第三課主要重用來源**）
+- [從外觀看見心臟病：基因症候群的表型與心臟關聯 教學講義](../從外觀看見心臟病：基因症候群的表型與心臟關聯%20教學講義.md) — 表型導向（Holt-Oram、TBX5、症候群）。
+- [VERVE-102 PCSK9 鹼基編輯治療高膽固醇血症 教學講義](../nejm-verve-102-pcsk9-base-editing-2026/) — 基因編輯治療的最新案例（第三課 FH 案例延伸）。
+
+---
+
+## 3. 教材收集中心（外部資源，已查證）
+
+### 3.1 🎬 YouTube 影片
+
+| 影片 | 頻道 | 適合 | 連結 |
+|------|------|------|------|
+| Next Generation Sequencing \| NGS \| Animation | Virology Lab | 第二課：NGS 流程動畫（短、白話） | <https://www.youtube.com/watch?v=cSdyHLm6EQY> |
+| Next Generation Sequencing (Illumina) — An Introduction | Henrik's Lab | 第二課：Illumina sequencing-by-synthesis 入門 | <https://www.youtube.com/watch?v=CZeN-IgjYCo> |
+| NGS 2: Illumina NGS Sample Preparation — Eric Chow (UCSF) | iBiology Techniques | 第二課：library prep 進階補充 | <https://www.youtube.com/watch?v=PFwSe09dJX0> |
+
+> 補充影音平台：Illumina 官方「[NGS for Beginners](https://www.illumina.com/science/technology/next-generation-sequencing/beginners.html)」與 [iBiology Techniques — NGS](https://www.ibiology.org/techniques/next-generation-sequencing/) 皆有系列教學影片。
+
+### 3.2 🏥 其他醫院／機構的 NGS 與基因醫學說明
+
+**台灣（中文）**
+
+- 臺大醫院 **基因醫學部**（遺傳疾病診斷、遺傳諮詢、NGS 臨床服務）：<https://www.ntuh.gov.tw/gene/Index.action>
+- 臺大醫院 **次世代定序分析項目**（檢驗項目、適應症）：<https://www.ntuh.gov.tw/gene-lab-ngs/Fpage.action?muid=7593&fid=8084>
+- 臺北榮總 **精準醫學暨基因體中心 — 次世代定序 (NGS)** 介紹：<https://wd.vghtpe.gov.tw/cpmg/Fpage.action?muid=14440&fid=13251>
+- GeneOnline 專訪陳沛隆醫師：〈「次世代定序」將單基因疾病一網打盡〉：<https://geneonline.news/chen-peilung-interview-ngs/>
+
+**國際（英文，權威機構）**
+
+- **NHGRI** Talking Glossary of Genomic and Genetic Terms（近 250 個名詞，含發音、插圖、專家口述）：<https://www.genome.gov/genetics-glossary> ｜ （**第一課縮寫表的權威來源**）
+- **MedlinePlus Genetics — Help Me Understand Genetics**（NLM 民眾衛教手冊，從 DNA 到精準醫學）：<https://medlineplus.gov/genetics/understanding/> ｜ [可下載 PDF primer](https://medlineplus.gov/download/genetics/understanding/primer.pdf)
+- **British Heart Foundation — Inherited heart conditions**（遺傳性心臟病、基因檢測病人衛教）：<https://www.bhf.org.uk/informationsupport/conditions/inherited-heart-conditions> ｜ [Genetic testing: how it works](https://www.bhf.org.uk/informationsupport/tests/genetic-testing)
+- **NHS Genomics Education Programme**（臨床基因體教育，含 inherited cardiovascular conditions pathway）：<https://www.genomicseducation.hee.nhs.uk/>
+
+### 3.3 🗄️ 變異判讀資料庫（第二、三課實作會用到）
+
+- **ClinVar**（變異—臨床意義公開資料庫）：<https://www.ncbi.nlm.nih.gov/clinvar/>
+- **gnomAD**（族群等位基因頻率，>800,000 人）：<https://gnomad.broadinstitute.org/>
+- **ClinGen — Clinical Genome Resource**（基因／變異專家策展、ACMG 規則細化）：<https://clinicalgenome.org/> ｜ [NHGRI 介紹頁](https://www.genome.gov/Funded-Programs-Projects/ClinGen-Clinical-Genome-Resource)
+- **HGVS 變異命名法**：<https://hgvs-nomenclature.org/>
+
+### 3.4 📚 關鍵文獻與指引（第一～三課引用）
+
+1. Richards S, Aziz N, Bale S, et al. **Standards and guidelines for the interpretation of sequence variants (ACMG/AMP 2015)**. *Genet Med*. 2015;17(5):405-424. [PubMed 25741868](https://pubmed.ncbi.nlm.nih.gov/25741868/)
+2. Arbelo E, Protonotarios A, Gimeno JR, et al. **2023 ESC Guidelines for the management of cardiomyopathies**. *Eur Heart J*. 2023;44(37):3503-3626. [DOI](https://doi.org/10.1093/eurheartj/ehad194) ｜ [全文](https://academic.oup.com/eurheartj/article/44/37/3503/7246608)
+3. Vafai SB, et al. **In Vivo Base Editing of PCSK9 with VERVE-102 (Heart-2)**. *N Engl J Med*. 2026. [DOI](https://doi.org/10.1056/NEJMoa2601283)
+4. Musunuru K, et al. **In vivo CRISPR base editing of PCSK9 durably lowers cholesterol in primates**. *Nature*. 2021;593:429-434. [DOI](https://doi.org/10.1038/s41586-021-03534-y)
+
+---
+
+## 4. 共用縮寫詞彙快速表 (Shared Abbreviation Quick-Reference)
+
+第一課完整講解，三套投影片共用此表。首次出現一律「中文 (Full English Name, ABBR)」。
+
+| 縮寫 | 全名 (English) | 中文 |
+|------|----------------|------|
+| DNA / RNA | deoxyribonucleic / ribonucleic acid | 去氧核糖核酸／核糖核酸 |
+| NGS | next-generation sequencing | 次世代定序 |
+| WES / WGS | whole-exome / whole-genome sequencing | 全外顯子／全基因體定序 |
+| SNV | single-nucleotide variant | 單核苷酸變異 |
+| indel | insertion/deletion | 插入／缺失 |
+| CNV | copy-number variant | 拷貝數變異 |
+| VUS | variant of uncertain significance | 意義未明變異 |
+| P / LP / B / LB | pathogenic / likely pathogenic / benign / likely benign | 致病性／可能致病／良性／可能良性 |
+| ACMG / AMP | American College of Medical Genetics & Genomics / Association for Molecular Pathology | 美國醫學遺傳學會／分子病理學會 |
+| HGVS | Human Genome Variation Society (nomenclature) | 人類基因體變異學會（命名法） |
+| MAF | minor allele frequency | 次要等位基因頻率 |
+| HCM | hypertrophic cardiomyopathy | 肥厚性心肌病變 |
+| LQTS | long QT syndrome | 長 QT 症候群 |
+| ATTR | transthyretin amyloidosis | transthyretin 類澱粉沉積症 |
+| FH | familial hypercholesterolemia | 家族性高膽固醇血症 |
+| PCSK9 | proprotein convertase subtilisin–kexin type 9 | （降膽固醇基因標的） |
+| VAF | variant allele fraction | 變異等位基因比例 |
+
+---
+
+## 5. 製作與報告流程
+
+1. 三位講者各認領一套投影片，依課程順序排入接下來三個月的 Journal Reading。
+2. 內容以本系列既有的 Marp 草稿為起點，講者依自身風格增補。
+3. **報告前交洛嘉審稿**（醫學正確性、版面、引用）。
+4. 報告後若有更新，更新 Marp `.md` 並重新產生 PDF；本網站隨之更新。
+
+> **AI 共筆提醒**：本系列由 AI 協助整理初稿，醫學內容請講者與審稿人務必逐條核對原始文獻與指引後再對外報告。

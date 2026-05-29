@@ -217,6 +217,8 @@ website:
         - section: "遺傳醫學 Genetics"
           contents:
             - handouts/08-genetic-medicine/index.qmd
+            - text: "★ 基因體醫學入門系列 — 教材中心 & 課程大綱"
+              href: handouts/08-genetic-medicine/genomic-medicine-intro-series/index.qmd
             - handouts/08-genetic-medicine/nejm-verve-102-pcsk9-base-editing-2026/index.qmd
         - section: "高血壓 Hypertension"
           contents:
