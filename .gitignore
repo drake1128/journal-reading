@@ -17,6 +17,8 @@ handouts/**/*.html
 
 # Original papers (copyright + large)
 *_original.pdf
+# Publisher-original article PDFs that slip the *_original.pdf rule (Nature s41586… etc.)
+handouts/90-ai-technology/s41586-025-08866-7.pdf
 
 # TAVI case report PDFs (downloadable references — see download/INDEX.md)
 download/*.pdf
@@ -35,6 +37,13 @@ download/*.pdf
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Stray phone photos dropped at repo root (not teaching content)
+/IMG_*.jpeg
+/IMG_*.jpg
+
+# Local design/extraction scratch tooling (not versioned)
+.claude-design/
 
 # R session history
 .Rhistory
