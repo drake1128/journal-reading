@@ -43,6 +43,8 @@ website:
         - section: "心律不整 Arrhythmia"
           contents:
             - handouts/03-arrhythmia/index.qmd
+            - text: "ACLS & PALS 2025 Update — 高級心臟救命術教學 (互動網頁)"
+              href: handouts/03-arrhythmia/ACLS_PALS_2025.html
             - handouts/03-arrhythmia/antithrombotic-therapy-after-successful-catheter-ablation/index.qmd
             - handouts/03-arrhythmia/circulation-ai-ecg-phenotypic-selectivity-2025/index.qmd
             - handouts/03-arrhythmia/ecg-challenge-alternating-rbbb/index.qmd
