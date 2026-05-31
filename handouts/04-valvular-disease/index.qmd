@@ -9,6 +9,7 @@ title: "瓣膜疾病 — Valvular Disease"
 - [TEER_Biweekly_Review_2026-03-03_v2 教學講義.md](TEER_Biweekly_Review_2026-03-03_v2 教學講義.md)
 - [TEER_Biweekly_Review_2026-03-25 教學講義.md](TEER_Biweekly_Review_2026-03-25 教學講義.md)
 - [Valvular Cardiogenic Shock 瓣膜性心源性休克 教學講義.md](Valvular Cardiogenic Shock 瓣膜性心源性休克 教學講義.md)
+- [📗 MitraClip Atlas Ch.4 — Patient Selection（增補版 v2）](mitraclip-atlas-ch04-patient-selection/index.qmd)
 
 ## LaTeX Files
 

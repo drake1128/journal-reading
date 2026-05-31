@@ -61,6 +61,7 @@ website:
         - section: "瓣膜疾病 Valvular"
           contents:
             - handouts/04-valvular-disease/index.qmd
+            - handouts/04-valvular-disease/mitraclip-atlas-ch04-patient-selection/index.qmd
             - handouts/04-valvular-disease/jacc-adv-valvular-cardiogenic-shock-2024/index.qmd
             - handouts/04-valvular-disease/cath-hemodynamics-aortic-stenosis-as-tavr-hanna/index.qmd
             - handouts/04-valvular-disease/circulation-cvi-t-teer-hemodynamics/index.qmd
@@ -320,6 +321,7 @@ website:
         - section: "Podcast 期刊回顧"
           contents:
             - handouts/91-podcast-journal-review/index.qmd
+            - handouts/91-podcast-journal-review/weekly-cv-review-2026-05-30/index.qmd
             - handouts/91-podcast-journal-review/beta-blocker-post-mi-2025/index.qmd
             - handouts/91-podcast-journal-review/circulation-2025-10-14/index.qmd
             - handouts/91-podcast-journal-review/circulation-2025-10-21-2/index.qmd

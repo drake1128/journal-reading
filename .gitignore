@@ -66,3 +66,6 @@ _site/
 #     -Path  handouts/04-valvular-disease/mainz-2024/quarto/images `
 #     -Target ../images
 handouts/04-valvular-disease/mainz-2024/quarto/images
+
+# MitraClip Atlas ch04 — copyrighted reference articles/figures (keep local only)
+handouts/04-valvular-disease/mitraclip-atlas-ch04-patient-selection/references/

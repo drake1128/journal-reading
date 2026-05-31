@@ -1,0 +1,209 @@
+# 📗 MitraClip Atlas Ch.4 — Patient Selection & Clinical Data（增補版 v2）
+
+## 誰能做 TEER？從 EVEREST 學起，用 2023 / 2026 的眼睛重看
+
+**整理：謝慕揚 MD, PhD, FESC（讀書會共筆整理人）**
+**日期：2026-05-31（v2 增補版；v1 原稿 2026-05-02）**
+**書目：Atlas of Percutaneous Edge-to-Edge Mitral Valve Repair · Feldman 2013 · Week 2**
+**新增文獻連結：**
+- [EuroIntervention 2023 — Mitral valve transcatheter edge-to-edge repair (Hausleiter et al.)](https://doi.org/10.4244/EIJ-D-22-00725)
+- [J Cardiovasc Interv 2026 — Ideal Candidates for Mitral TEER (Park & Kim)](https://doi.org/10.54912/jci.2025.0023)
+
+---
+
+## 為什麼要出 v2？
+
+v1（5/2）我們把 Feldman 2013 這一章的 EVEREST 收案標準整理成「五金線」。Abbott Structural Heart 的 **Iris Liu（Therapy Development Manager, Taiwan & HK）** 在 5/30 回信補了兩篇近期文獻，並提醒一個關鍵觀念：
+
+> 「EVEREST 標準至今仍是定義解剖適合度的 gold standard——尤其對經驗較淺的中心；但在真實世界，當代 M-TEER 已經被應用到更廣的解剖光譜，**約 13–29% 的病人是『複雜解剖』**。重點不再是『過不過五金線』，而是能不能辨識出關鍵的 **red-flag** 解剖特徵以確保安全與成效。」
+
+v2 就是把這個觀念補進來：**EVEREST 是地板，不是天花板。** 我們保留五金線（新手建立信心的起點），再疊上 2023 EuroIntervention 的「四階光譜」和 2024 年的新試驗（RESHAPE-HF2、MATTERHORN），讓這份 2013 的書讀起來像 2026 的書。
+
+---
+
+## 目錄
+
+1. [EVEREST 五金線（2013 教科書版）— 這是地板](#1-everest-五金線2013-教科書版-這是地板)
+2. [從「二分法」到「四階光譜」— 2023 EuroIntervention 核心圖](#2-從二分法到四階光譜-2023-eurointervention-核心圖)
+3. [試驗證據更新 — 2013 → 2024 的 SMR 四大 RCT](#3-試驗證據更新-2013--2024-的-smr-四大-rct)
+4. [適應症大爆炸 — 教科書沒寫的 5 個新戰場](#4-適應症大爆炸-教科書沒寫的-5-個新戰場)
+5. [紅旗與禁忌 — Iris 強調的 red-flag](#5-紅旗與禁忌-iris-強調的-red-flag)
+6. [Echo Screening 4 步驟 SOP（v2 升級版）](#6-echo-screening-4-步驟-sopv2-升級版)
+7. [照片任務 / 回家三句話 / References](#7-本週照片任務)
+
+---
+
+## 1. EVEREST 五金線（2013 教科書版）— 這是地板
+
+MitraClip 是**解剖驅動**的手術。Feldman 2013 這一章其實是把 EVEREST 試驗的「收案標準」寫成「適應症」。五條金線記法 **「2-11-15-10-4」**：
+
+| 參數 (Parameter) | 退化型 DMR | 功能型 FMR | 為什麼？ |
+|---|---|---|---|
+| 主要病灶位置 (jet origin) | A2–P2 中段 | A2–P2 中段 | Clip 要抓中央；靠近 commissure 太近環會卡 arms |
+| Coaptation length | — | **≥ 2 mm** | FMR 要有貼合面才抓得住，<2 mm 易 leaflet tear |
+| Coaptation depth | — | **≤ 11 mm** | Tethering >11 mm 抓得到但拉不上來，殘餘 MR 高 |
+| Flail width | **< 15 mm** | — | 太寬一支 clip 蓋不住 → 多 clip 策略 (Ch.15–16) |
+| Flail gap | **< 10 mm** | — | 太大 → 兩葉抓不到一起，等於空抓 |
+| MV area (MVA) | **≥ 4.0 cm²** | ≥ 4.0 cm² | 放完 clip MVA「縮一半」（NTR/XTR 約 −47%）→ 4 cm² 起跳才避免 iatrogenic MS |
+
+> **v2 重點**：這五條線定義的是「**Non-complex / Ideal for TEER**」的族群——也就是下一節四階光譜裡最左邊那一欄。**線內 = 新手安心做；踩線 = 老手敢做，但要知道自己踩在哪一階。**
+
+---
+
+## 2. 從「二分法」到「四階光譜」— 2023 EuroIntervention 核心圖
+
+2013 年的書把病人分成「適合 / 不適合」兩類。**Hausleiter 等人 2023 年的 state-of-the-art（EuroIntervention 2023;18:957-976, Figure 4）** 把它升級成**四階光譜**，而且加上第二條軸線——**中心經驗 (centre experience)**：
+
+```text
+Repair! ───────── 解剖適合度 (Anatomical suitability) 下降 ─────────► Replacement?
+         ◄───────── 中心經驗 (Centre experience) 上升 ──────────
+```
+
+> 同一個解剖，在新手中心可能該轉 surgery / TMVR；在高量中心可能還能漂亮地夾起來。**「能不能做」不是只看瓣膜，也看誰來做、在哪做。**
+
+| ① Non-complex<br>**Ideal for TEER** | ② Complex<br>**Suitable for TEER** | ③ Very complex<br>**Challenging** | ④ Criteria favouring<br>**Replacement** |
+|---|---|---|---|
+| • Central pathology | • Isolated commissural (A1/P1 或 A3/P3) | • Commissural + multiple jets | • Concentric MAC with stenosis |
+| • No calcification | • Annular Ca²⁺ *without* leaflet involvement | • Annular Ca²⁺ *with* leaflet involvement | • MVA <3.0 cm² |
+| • MVA >4.0 cm² | • MVA 3.5–4.0 cm² | • Fibrotic leaflets | • Mitral stenosis (mean gradient >5 mmHg) |
+| • Posterior leaflet >10 mm | • Posterior leaflet 7–10 mm | • Wide jet 涵蓋整個 coaptation | • Posterior leaflet <5 mm |
+| • Tenting height <10 mm | • Tenting height >10 mm | • MVA 3.0–3.5 cm² | • Calcification in **grasping zone** |
+| • Flail gap <10 mm | • Asymmetric tethering | • Posterior leaflet 5–7 mm | • Deep regurgitant cleft |
+| • Flail width <15 mm | • Coaptation reserve <3 mm | • Barlow's disease | • Leaflet perforation |
+| | • Leaflet-to-annulus index <1.2 | • Cleft | • Multiple / wide jets |
+| | • Flail width >15 mm / gap >10 mm | • Failed surgical annuloplasty | • Rheumatic mitral stenosis |
+| | • Two jets from leaflet indentations | | |
+
+**真實世界有多少「複雜解剖」？這就是 Iris 說的 13–29%：**
+
+- **EXPAND 登錄（n=1,041，第三代 NTR/XTR）**：40.5% 為 PMR/混合型；其中 **29% 是複雜 PMR**（嚴重退化葉、大 flail gap/width 62.6%、landing zone 鈣化 35.7%、極寬 jet 29.6%）。即使在這個複雜次群，30 天 MR ≤1+ 仍達 **79.4%**（≤2+ 96.9%）。
+- **複雜 DMR 分析（Hausleiter/Lim, JACC 2023）**：把「解剖複雜」定義為多 jet、雙葉/多 scallop prolapse、小 MVA <4 cm²（13.3%）、大 flail（10.6%）、commissural jet（9.7%）等——這些以前都算 off-label，現在在高量中心是日常。
+
+> **Pearl**：**Barlow's disease 落在第③階**——可以做，但 3 年耐久度較差（MR ≥2+：62% vs 非 Barlow 80%, p=0.01），HF 住院有上升趨勢。教學時別把「能做」講成「該做」。
+
+---
+
+## 3. 試驗證據更新 — 2013 → 2024 的 SMR 四大 RCT
+
+Feldman 2013 出版時**還沒有 COAPT（2018）**，更沒有 2024 年的 RESHAPE-HF2 與 MATTERHORN。功能型 MR (FMR/SMR) 的全部關鍵證據都在書出版之後才到位。把四大 SMR RCT 並排看（數據引自 JCI 2026 Table 3）：
+
+| 試驗 | COAPT (n=614) | MITRA-FR (n=304) | RESHAPE-HF2 (n=505) | MATTERHORN (n=208) |
+|---|---|---|---|---|
+| 對照組 | vs GDMT | vs GDMT | vs GDMT | **vs 外科手術** |
+| LVEF | 31±9% | 33±6% | 31±8% | 43±12% |
+| LVEDV | 192 mL（**小心室**） | 243 mL（**大心室**） | 205 mL | 155 mL |
+| EROA | 0.41 cm²（**大洞**） | 0.31 cm² | 0.23 cm² | 0.20 cm² |
+| 主要終點 | HFH @24mo | death/HFH @12mo | HFH/CV death @24mo | 複合終點 @12mo |
+| 結果 | **HR 0.53 (0.40–0.70), p<0.001 ✅** | **HR 1.16 (0.73–1.84), p=0.53 ❌** | **HR 0.64 (0.48–0.85), p=0.002 ✅** | **16.7% vs 22.5%（非劣於手術）✅** |
+| 1 年死亡 | 19.1 vs 23.2% | 24.3 vs 22.4% | 17.0 vs 18.6% | 8.1 vs 11.2% |
+
+**三句話讀懂這張表：**
+
+1. **COAPT vs MITRA-FR 的分歧 → proportionality 概念**：COAPT 是「小心室、大洞」(disproportionate SMR)——瓣膜是主犯，夾了有效；MITRA-FR 是「大心室、小洞」(proportionate)——心室才是主犯，夾了沒用。比例（EROA / LVEDV）比單看 EF 重要。
+2. **RESHAPE-HF2（NEJM 2024）**：在 optimized GDMT 上加 TEER，**顯著降低 HF 住院、改善生活品質，但不降死亡**——結果落在 COAPT 與 MITRA-FR 之間，再次強調選病人。
+3. **MATTERHORN（NEJM 2024）**：第一個拿 TEER **直接對決外科手術**（可開刀、心室較小、EF 43% 的 SMR 族群）的 RCT → 1 年複合終點**非劣**，安全性更好 → TEER 成為這類病人的微創替代選項。
+
+> **EuroSMR 登錄**：約 **40%** 的真實世界病人符合「COAPT-like」輪廓，且預後較好；用 MITRA-FR 標準反而無法預測預後 → 臨床上請優先套 COAPT 思維選 SMR 病人。
+
+---
+
+## 4. 適應症大爆炸 — 教科書沒寫的 5 個新戰場
+
+JCI 2026 review 整理了 TEER 正在擴張的 5 個方向（多數證據等級仍低、以登錄/小系列為主，務必 Heart Team 個案決策）：
+
+| 新戰場 | 關鍵數據 / 重點 | 注意 |
+|---|---|---|
+| **急性 MR（post-MI / cardiogenic shock）** | 手術成功率 81–86%；穩定後 30 天死亡可低至 14%；IREMMI 登錄 vs 手術院內死亡 20% vs 35%、1 年 29.6% vs 45.2% | TEER 常做得比手術晚（19 vs 12 天）；小心 afterload mismatch |
+| **晚期 HF 的 bridge（to LVAD / 移植）** | 119 人 cohort：26% 因臨床改善而下移植名單 | 進階 HF 2 年死亡仍高 (45–75%) |
+| **心房性 FMR (atrial SMR)** | MR 降至 ≤1+ 約 80%；成功與較小 LA volume、較高 leaflet-to-annulus ratio 相關 | tenting 較淺，技術挑戰不同 |
+| **HCM 的 SAM 相關 MR** | 症狀改善 72–100%；MR ≤1+ 90%；LVOT gradient >100 → <30 mmHg | 僅小系列 (5–15 人)；非單獨解決 LVOT 之道 |
+| **Failed surgical repair（瓣環成形術後復發）** | 急性 MR ≤2+ 達 84–90%；1 年免再介入 75–82% | 環 ≤28 mm 較佳；mean gradient >5 mmHg 增 MS 風險 |
+
+> **afterload mismatch** 值得記：MR 突然消失 → LV 一時撐不住增加的後負荷 → 15–23% 病人會發生短暫 LVEF 下降，但**不影響長期預後**。
+
+---
+
+## 5. 紅旗與禁忌 — Iris 強調的 red-flag
+
+光譜最右邊那一欄（favouring replacement）就是「先停手、想 TMVR / 外科」的訊號。整合 EuroInterv 2023 與 JCI 2026 Table 4：
+
+**絕對禁忌 / 強烈不建議：**
+- 風濕性 mitral stenosis、血流動力學顯著的 MS（mean gradient >5 mmHg）
+- **Grasping zone 內的嚴重鈣化** ← Iris 特別點名的 red-flag
+- MVA <3.0–3.5 cm²（放 clip 後必成 iatrogenic MS）
+- Active endocarditis、intracardiac thrombus（LA/LAA）
+- Posterior leaflet <5–7 mm（葉太短抓不住）
+- Leaflet perforation、deep / cleft 缺損、Type IIIa（rheumatic）restricted motion
+- 嚴重肺高壓（sPAP > 2/3 systemic）
+
+**「中間地帶」(intermediate) 的現實**（單中心 386 人資料）：
+- 18% 判為 non-suitable 者：技術成功率顯著較低、30 天 MAE 25.7%；但**仍有 69% 達到可接受的 MR 降幅而無併發症、52% 一年存活且症狀輕微** → 在高量中心、個案化 risk-benefit 下仍可選擇性地做。
+- 46% 為 intermediate：結果**高度取決於術者經驗**——呼應第 2 節的「centre experience」軸。
+
+---
+
+## 6. Echo Screening 4 步驟 SOP（v2 升級版）
+
+MDT 前自己先過一遍，**最後一步從「過不過五金線」改成「落在四階哪一階」**：
+
+1. **第 1 步：分類 MR mechanism** — Carpentier I/II/III？DMR (prolapse/flail) vs FMR；FMR 再分 **ventricular vs atrial**（tenting 深淺不同）。
+2. **第 2 步：定位 jet origin** — TEE commissural view (~60°)，A1–A3 / P1–P3 哪一段？非 A2–P2 = 警訊，先請主治看。
+3. **第 3 步：量 5 個關鍵數字** — coaptation length / depth、flail width / gap、MVA。**MVA 用 PHT 不準，建議 3D multiplanar planimetry 直接量**（放 clip 後 MVA 約縮 47%）。
+4. **第 4 步：落階 + 排紅旗** — 對照四階光譜把病人放進①②③④；同時掃過第 5 節的 stop sign。**第③/④階的病人 → 直接帶到 Heart Team，並把 TMVR 一起放上桌。**
+
+---
+
+## 7. 本週照片任務
+
+（拍三張上傳讀書會 LINE）
+
+1. **四階光譜手繪卡**：把 EuroInterv 2023 Figure 4 重畫成自己的版本，左到右標①Non-complex →②Complex →③Very complex →④Replacement，並在下方畫兩條軸（解剖適合度↓、中心經驗↑）。
+2. **近期一例 TEER 候選 case 的 TEE 截圖**：標 5 個關鍵數字 + jet origin + mechanism (DMR/atrial FMR/ventricular FMR)，**並標註你判它落在第幾階**（遮 PHI）。
+3. **SMR 四大 RCT 時間軸**：2018 COAPT → 2018 MITRA-FR → 2024 RESHAPE-HF2 → 2024 MATTERHORN，標出各自 N、對照組與 proportionality 位置。
+
+---
+
+## 🎯 回家記得的三句話（v2）
+
+1. **EVEREST 五金線「2-11-15-10-4」是地板，不是天花板** — 它定義的是四階光譜最左邊的「ideal」欄。
+2. **解剖適合度 × 中心經驗 = 兩條軸** — 同一個瓣膜，能不能做要看誰來做；第③/④階請把 TMVR / 外科一起放上 Heart Team 桌面。
+3. **2013 的書要配 2018 的 COAPT + 2024 的 RESHAPE-HF2 / MATTERHORN 一起讀** — Atlas 教你做手術，這些 RCT 教你選病人；SMR 選病人優先用 COAPT 思維（小心室、大洞、disproportionate）。
+
+---
+
+## 📚 References（已 PubMed / DOI 驗證）
+
+**本章 EVEREST 系列（v1 原稿）**
+
+1. Feldman T, Kar S, Rinaldi M, et al. Percutaneous mitral repair with the MitraClip system: safety and midterm durability in the initial EVEREST cohort. [*J Am Coll Cardiol*. 2009;54(8):686-94.](https://pubmed.ncbi.nlm.nih.gov/19679246/)
+2. Feldman T, Foster E, Glower DD, et al. Percutaneous repair or surgery for mitral regurgitation (EVEREST II Pivotal Trial). [*N Engl J Med*. 2011;364(15):1395-406.](https://pubmed.ncbi.nlm.nih.gov/21463154/)
+3. Mauri L, Foster E, Glower DD, et al. 4-year results of a randomized controlled trial of percutaneous repair versus surgery for mitral regurgitation. [*J Am Coll Cardiol*. 2013;62(4):317-28.](https://pubmed.ncbi.nlm.nih.gov/23665364/)
+4. Whitlow PL, Feldman T, Pedersen WR, et al. EVEREST II High Risk Study. [*J Am Coll Cardiol*. 2012;59(2):130-9.](https://pubmed.ncbi.nlm.nih.gov/22222076/)
+5. Maisano F, Franzen O, Baldus S, et al. ACCESS-EU: real-world MitraClip in Europe. [*J Am Coll Cardiol*. 2013;62(12):1052-61.](https://pubmed.ncbi.nlm.nih.gov/23747789/)
+6. Baldus S, Schillinger W, Franzen O, et al. TRAMI registry. [*Eur J Heart Fail*. 2012;14(9):1050-5.](https://pubmed.ncbi.nlm.nih.gov/22685268/)
+
+**v2 新增 — Iris Liu 提供的兩篇核心文獻**
+
+7. **Hausleiter J, Stocker TJ, Adamo M, Karam N, Swaans MJ, Praz F.** Mitral valve transcatheter edge-to-edge repair (State of the Art). [*EuroIntervention*. 2023;18(12):957-976.](https://doi.org/10.4244/EIJ-D-22-00725) — **四階光譜 Figure 4 出處**
+8. **Park JI, Kim U.** Ideal Candidates for Mitral Transcatheter Edge-to-Edge Repair: Anatomic and Clinical Indications. [*J Cardiovasc Interv*. 2026;5(1):23-37.](https://doi.org/10.54912/jci.2025.0023) — **2026 適應症總覽 + Table 3 試驗對照**
+
+**v2 新增 — 補充的當代試驗 / 登錄**
+
+9. Stone GW, Lindenfeld J, Abraham WT, et al. Transcatheter Mitral-Valve Repair in Patients with Heart Failure (COAPT). [*N Engl J Med*. 2018;379(24):2307-18.](https://pubmed.ncbi.nlm.nih.gov/30280640/)
+10. Obadia JF, Messika-Zeitoun D, Leurent G, et al. Percutaneous Repair or Medical Treatment for Secondary Mitral Regurgitation (MITRA-FR). [*N Engl J Med*. 2018;379(24):2297-2306.](https://pubmed.ncbi.nlm.nih.gov/30145927/)
+11. Anker SD, Friede T, von Bardeleben RS, et al. Transcatheter Valve Repair in Heart Failure with Moderate to Severe Mitral Regurgitation (RESHAPE-HF2). [*N Engl J Med*. 2024;391(19):1799-1809.](https://pubmed.ncbi.nlm.nih.gov/39216092/)
+12. Baldus S, Doenst T, Pfister R, et al. Transcatheter Repair versus Mitral-Valve Surgery for Secondary Mitral Regurgitation (MATTERHORN). [*N Engl J Med*. 2024;391(19):1787-1798.](https://pubmed.ncbi.nlm.nih.gov/39216093/)
+13. Kar S, von Bardeleben RS, Rottbauer W, et al. Contemporary Outcomes Following TEER: 1-Year Results From the EXPAND Study. [*JACC Cardiovasc Interv*. 2023;16(5):589-602.](https://pubmed.ncbi.nlm.nih.gov/36922046/)
+14. von Bardeleben RS, Rogers JH, Mahoney P, et al. Real-World Outcomes of Fourth-Generation Mitral Transcatheter Repair: 30-Day Results From EXPAND G4. [*JACC Cardiovasc Interv*. 2023;16(12):1463-1473.](https://pubmed.ncbi.nlm.nih.gov/37380228/)
+15. Hausleiter J, Lim DS, Gillam LD, et al. Transcatheter Edge-to-Edge Repair in Patients With Anatomically Complex Degenerative Mitral Regurgitation. [*J Am Coll Cardiol*. 2023;81(5):431-442.](https://pubmed.ncbi.nlm.nih.gov/36725171/)
+
+---
+
+> **致謝**：感謝 Abbott Structural Heart（Taiwan & HK）Iris Liu 提供 EuroIntervention 2023 與 J Cardiovasc Interv 2026 兩篇文獻與圖表，協助本章從 2013 的二分法更新到當代四階光譜的觀念。
+
+---
+
+*本文件為新竹臺大分院心臟血管科讀書會共筆整理，由謝慕揚醫師彙整，僅供院內醫療專業人員教學與內部討論參考，不代表任何廠商立場，亦非臨床指引或個別病人之診療建議。臨床決策請以最新指引與 Heart Team 個案評估為準。*
+
+**NTUH Hsinchu Branch · Cardiovascular Division — Mu-Yang Hsieh, MD · 讀書會共筆整理人**
+**📗 MitraClip Atlas Reading Club · Week 2 · Ch.4 Patient Selection & Clinical Data · v2 增補版 · 2026-05-31**
