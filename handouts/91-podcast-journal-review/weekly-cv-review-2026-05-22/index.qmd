@@ -1,0 +1,241 @@
+---
+title: "每週心血管期刊文獻回顧 — 2026-05-12 ~ 2026-05-22"
+author: "謝慕揚 MD, PhD, FESC（讀書會共筆整理人）"
+date: 2026-05-22
+lang: zh-TW
+toc: true
+toc-depth: 3
+---
+
+
+## Weekly Cardiovascular Journal Review｜2026-05-12 ~ 2026-05-22
+
+**整理：謝慕揚 MD, PhD, FESC**
+**涵蓋期刊**：NEJM｜Lancet｜European Heart Journal｜JACC 系列｜Circulation 系列｜EuroIntervention
+
+---
+
+## 🎯 本週主題與固定欄目
+
+**主題**：精準化治療的個體化選擇 — TAVI 傳導障礙預防、PCSK9i 適應症擴展、冠狀動脈微血管功能障礙的預後意義。
+
+**本週六大固定欄目**：
+
+1. ⭐ Top 5 Picks — 跨期刊精選
+2. 🫀 TAVI Section — 結構性心臟病主動脈瓣方向
+3. 🔧 TEER Section — MitraClip / PASCAL / TriClip 進展
+4. 📚 Honorable Mentions — 其他值得讀
+5. 🔬 Case Reports — JACC Case Rep × 4
+6. 📖 參考文獻 + 縮寫對照
+
+---
+
+## ⭐ Top 5 Picks
+
+| 試驗／研究 | 期刊 | 關鍵數字 |
+|------------|------|----------|
+| **DOUBLE-CHOICE**（TAVI） | *EuroIntervention* | PPM 11.2% vs 26.5%；主要終點 15.4% vs 30.4%（p<0.001） |
+| **VESALIUS-CV prior PCI 子分析** | *Circulation* | 3-pt MACE HR **0.70**；MI HR **0.50**（LDL-C 41.5 mg/dL） |
+| **TETON-1**（IPF） | *NEJM* | FVC 差異 **+130.1 mL**（p<0.001）；臨床惡化 HR **0.67** |
+| **Aspirin vs Clopidogrel CCS Meta-analysis** | *Eur Heart J* | MACE IRR **0.83**（0.69–0.99）；東亞效益更大 |
+| **FLOW-CMD Registry** | *Lancet* | CMD 盛行率 21.5%；複合終點 HR **1.91**（p=0.0047） |
+
+### 1. DOUBLE-CHOICE — TAVI 瓣膜設計與 PPM 預防
+
+**Feistritzer HJ, et al.** [*EuroIntervention* 2026;22(10):555–564.](https://doi.org/10.4244/EIJ-D-26-00001)
+
+- Investigator-initiated RCT，德國 10 中心，n=835，ACURATE neo2 vs Evolut PRO/PRO+/FX
+- 主要終點（30 天）：死亡 + 腦中風 + 中重度 PVR + PPM
+- 結果：**PPM 11.2% vs 26.5%（p<0.001）**；主要複合終點 15.4% vs 30.4%（p<0.001）
+
+> 💡 ACURATE neo2 已下市（非安全性原因）— 但揭示「短植入深度 + 上到下釋放機制」可大幅減少傳導障礙。
+
+### 2. VESALIUS-CV — Evolocumab in 曾接受 PCI 但無 MI 病史
+
+**VESALIUS-CV Investigators.** [*Circulation* 2026.](https://doi.org/10.1161/CIRCULATIONAHA.126.080616)
+
+- Pre-specified 子分析，n=3,627（佔全體 29.6%），中位追蹤 4.6 年
+- LDL-C 降至中位 **41.5 mg/dL**
+- 3-pt MACE HR **0.70**（0.56–0.89，p=0.004）；MI HR **0.50**（0.36–0.70，p<0.001）
+
+> 💡 「做過 PCI 但沒有 MI」≠ 低風險。LDL-C ≥90 mg/dL 應積極考慮加入 PCSK9i。
+
+### 3. TETON-1 — 吸入型 Treprostinil 治療 IPF
+
+**Nathan SD, et al.** [*N Engl J Med* 2026 May 18.](https://doi.org/10.1056/NEJMoa2501488)
+
+- 雙盲 Phase 3 RCT，n=598，77.6% 接受背景 antifibrotic，追蹤 52 週
+- FVC 變化差異：**+130.1 mL**（95% CI 82.2–178.1，p<0.001）
+- 臨床惡化 HR **0.67**（0.52–0.88，p=0.003）
+- 主要副作用：咳嗽 54.8%（vs 33.1%）
+
+> 💡 與 TETON-2 一致；對 PH + ILD 共病患者尤具臨床意義。
+
+### 4. Aspirin vs Clopidogrel in CCS — Meta-analysis
+
+[*Eur Heart J* 2026.](https://doi.org/10.1093/eurheartj/ehag351)
+
+- 7 個 RCT，n=30,165（75.1% 東亞），中位追蹤 36 個月
+- MACE IRR **0.83**（0.69–0.99）；NACE 亦改善；大出血無增加
+- 東亞族群效益更顯著；Trial Sequential Analysis 確認證據充足
+
+> 💡 台灣 CCS 患者：clopidogrel 75 mg qd 取代 aspirin 為優選；CYP2C19 基因分型優化選擇。
+
+### 5. FLOW-CMD Registry
+
+**Lee JM, et al.** [*Lancet* 2026 May 21.](https://doi.org/10.1016/S0140-6736(26)00666-5)
+
+- 前瞻性多中心，韓國 7 個三級醫院，n=1,003，中位追蹤 1.9 年
+- CMD 定義：CFR < 2.0 且 IMR ≥ 25
+- CMD 盛行率：有阻塞性 CAD 21.5%；無阻塞性 CAD 9.3%
+- 複合終點 HR **1.91**（1.22–2.99，p=0.0047）
+
+> 💡 「Normal angiogram」≠「Normal coronary function」。ICA 時常規加測 CFR/IMR 的呼籲更具循證支持。
+
+---
+
+## 🫀 TAVI Section — 本週 TAVI 相關文獻
+
+### TAVI #1｜FAITAVI Trial — FFR-guided revascularization in TAVI
+
+- Editorial：Aarts HM, et al. *Eur Heart J* 2026. [DOI 10.1093/eurheartj/ehag256](https://doi.org/10.1093/eurheartj/ehag256)
+- Insight：Ribichini FL, et al. *Eur Heart J* 2026. [DOI 10.1093/eurheartj/ehag259](https://doi.org/10.1093/eurheartj/ehag259)
+
+FAITAVI 試驗檢驗 TAVI 病人合併冠狀動脈疾病時，是否該用 FFR 來決定 PCI 適應症。Editorial 認為「**可能太過頭** (one step too far)」。
+
+> 對 TAVI + 冠狀動脈穩定病灶處理策略提供爭辯素材。
+
+### TAVI #2｜TAVI 後神經事件預後 timing 分析
+
+**Tartaglia F, Cao D, Pelliccia F, et al.** [*Can J Cardiol* 2026 May 20. DOI 10.1016/j.cjca.2026.05.007](https://doi.org/10.1016/j.cjca.2026.05.007)
+
+TAVI 後早期 vs 晚期腦中風 / TIA 對死亡率影響差異。對 cerebral embolic protection device (CEPD) 適應症爭辯具實證價值。
+
+### TAVI #3｜簡化版 TAVI 波蘭專家共識
+
+**Dąbrowski M, Wolny R, Parma R, et al.** [*Kardiol Pol* 2026 May 21. DOI 10.33963/v.phj.112757](https://doi.org/10.33963/v.phj.112757)
+
+minimalist TAVI（無 TEE、清醒鎮靜、無 ICU、早期下床、24 小時出院）執行框架。對台灣推動 same-day discharge TAVI 具參考意義。
+
+---
+
+## 🔧 TEER Section — MitraClip × TriClip × PASCAL 進展
+
+### TEER #1｜Mitral TEER 預後預測因子
+
+**Rouleau L, Petersen Saadi M, Al Wazzan A, et al.** [*ESC Heart Fail* 2026 May 22. DOI 10.1093/eschf/xvag149](https://doi.org/10.1093/eschf/xvag149)
+
+左心室功能 + 左心房 remodeling 是 Mitral TEER 術後存活的關鍵預後因子。對病人篩選（MitraClip / PASCAL 適應症）具教育意義。
+
+### TEER #2｜視聽分散降低 Mitral TEER 鎮靜需求
+
+**Rawish E, John M, Lemmer F, et al.** [*JACC Adv* 2026 May 21. DOI 10.1016/j.jacadv.2026.102835](https://doi.org/10.1016/j.jacadv.2026.102835)
+
+RCT 證實虛擬實境 / 視聽分散可減少 Mitral TEER 鎮靜劑用量，提升患者體驗。對 awake TEER 推動具參考。
+
+### TEER #3｜ANTARCTIC — TriClip 前置 annular reduction
+
+**Jabri A, Madanat L, Bloomingdale R, et al.** [*JACC Case Rep* 2026 May 21. DOI 10.1016/j.jaccas.2026.108461](https://doi.org/10.1016/j.jaccas.2026.108461)
+
+對於環徑過大的 tricuspid 病灶，先做 annular reduction 再做 transcatheter tricuspid valve replacement 的新策略。對 TriClip 適應症邊緣病人提供另一條路徑。
+
+---
+
+## 📚 Honorable Mentions — 其他值得一讀
+
+| 研究 | 期刊 | 重點 | 連結 |
+|------|------|------|------|
+| **ANTHEM-HFrEF**（VNS） | *JACC* 2026 | HR 0.84（**p=0.115**）— 未達顯著 | [DOI](https://doi.org/10.1016/j.jacc.2026.03.040)｜[PMID 42159539](https://pubmed.ncbi.nlm.nih.gov/42159539/) |
+| **GLUCO-TAVI** pilot RCT | *EuroIntervention* | 糖皮質素預防 PPM：8% vs 16%（p=0.23） | [DOI](https://doi.org/10.4244/EIJ-D-26-00032)｜[PMID 42137921](https://pubmed.ncbi.nlm.nih.gov/42137921/) |
+| **Ticagrelor vs Clopidogrel** in DOAC+ACS+PCI | *EuroIntervention* | 出血 aHR **1.53** → 優選 clopidogrel | [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=ticagrelor+clopidogrel+DOAC+ACS+PCI+2026) |
+| **TOWAR**（院前全血輸血） | *NEJM* 2026 | 30 天死亡 25.9% vs 20.5%（p=0.24）— **未顯示優越性** | [DOI](https://doi.org/10.1056/NEJMoa2602167)｜[PMID 42150044](https://pubmed.ncbi.nlm.nih.gov/42150044/) |
+| **Micra AV** real-world registry | *Heart Rhythm* | leadless：植入成功 **99.7%** | [DOI](https://doi.org/10.1016/j.hrthm.2024.06.008)｜[PMID 38878939](https://pubmed.ncbi.nlm.nih.gov/38878939/) |
+| **Adolescent CRF & AF**（n=1.1M） | *Circulation* | 高適能 → AF 略增，**淨心血管效益為正** | [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=cardiorespiratory+fitness+adolescent+atrial+fibrillation+twins) |
+
+---
+
+## 🔬 Case Reports — 本週 4 例
+
+### Case #1｜TMVR 球囊瓣膜栓塞搶救
+
+**Koskina L, Kaliyadan A, Wang J.** [*JACC Case Rep* 2026 May 22. DOI 10.1016/j.jaccas.2026.108487](https://doi.org/10.1016/j.jaccas.2026.108487)｜[PMID 42171565](https://pubmed.ncbi.nlm.nih.gov/42171565/)
+
+Novel Technique for Salvaging an Embolized Balloon-Expandable Valve During TMVR — 結構性心臟病介入的併發症搶救實例。
+
+### Case #2｜三尖瓣逆流以腸胃道症狀表現
+
+**Pérez-Soto N, et al.** [*JACC Case Rep* 2026 May 22. DOI 10.1016/j.jaccas.2026.108481](https://doi.org/10.1016/j.jaccas.2026.108481)｜[PMID 42171578](https://pubmed.ncbi.nlm.nih.gov/42171578/)
+
+Tricuspid Valve Regurgitation Manifesting in Gastrointestinal Symptoms — 提醒：腹脹、食慾不振、體重下降的「腸胃科」病人可能是 TR。
+
+### Case #3｜右側 IE 經導管 Vegetectomy
+
+**Srour MO, Ahmed H, Al-Saghir Y, et al.** [*JACC Case Rep* 2026 May 22. DOI 10.1016/j.jaccas.2026.108483](https://doi.org/10.1016/j.jaccas.2026.108483)｜[PMID 42171563](https://pubmed.ncbi.nlm.nih.gov/42171563/)
+
+Percutaneous Vegetectomy for Severe Right-Sided IE Complicated by Cardiac Arrest and Multiorgan Failure — AngioVac 抽吸新路徑。
+
+### Case #4｜PFO Occluder 晚期栓塞經皮取回
+
+**Hamidani FN, Sievert H, Musallam M, et al.** [*JACC Case Rep* 2026 May 22. DOI 10.1016/j.jaccas.2026.108472](https://doi.org/10.1016/j.jaccas.2026.108472)｜[PMID 42171570](https://pubmed.ncbi.nlm.nih.gov/42171570/)
+
+Late Embolization of a PFO Occluder Successfully Retrieved Percutaneously — 不用開心手術，經皮可完整取回。
+
+---
+
+## 💎 本週 Take Home Message
+
+1. **TAVI 的 PPM 預防是下一個優化目標** — 瓣膜設計可使 PPM 率相差逾 15%（NNT≈7）
+2. **PCSK9i 適應症擴展至 PCI 後穩定患者** — MI HR 0.50，6 個月即顯現
+3. **CCS 二次預防：台灣患者優選 Clopidogrel** — 東亞族群效益更顯著
+4. **CMD 是獨立預後預測因子** — 「Normal angiogram」≠「Normal coronary function」
+5. **TAVI Section 三大主題**：FAITAVI、neurologic event timing、simplified TAVI consensus
+6. **TEER Section 三大主題**：LV/LA remodeling 預測、audiovisual distraction 降鎮靜、ANTARCTIC TriClip
+7. **「陽性外觀」試驗必看主要終點** — ANTHEM-HFrEF（p=0.115）、TOWAR（p=0.24）均未達顯著
+
+---
+
+## 縮寫對照
+
+| 縮寫 | 全名 |
+|------|------|
+| TAVI / TAVR | Transcatheter Aortic Valve Implantation / Replacement |
+| TMVR | Transcatheter Mitral Valve Replacement |
+| TEER | Transcatheter Edge-to-Edge Repair |
+| PPM | Permanent Pacemaker Implantation |
+| PVR | Paravalvular Regurgitation |
+| FFR | Fractional Flow Reserve |
+| CEPD | Cerebral Embolic Protection Device |
+| PCSK9i | PCSK9 inhibitor |
+| LDL-C | Low-Density Lipoprotein Cholesterol |
+| MACE | Major Adverse Cardiovascular Events |
+| MI | Myocardial Infarction |
+| PCI | Percutaneous Coronary Intervention |
+| IPF | Idiopathic Pulmonary Fibrosis |
+| FVC | Forced Vital Capacity |
+| ILD | Interstitial Lung Disease |
+| PH | Pulmonary Hypertension |
+| CCS | Chronic Coronary Syndrome |
+| IRR | Incidence Rate Ratio |
+| NACE | Net Adverse Clinical Events |
+| CMD | Coronary Microvascular Dysfunction |
+| CFR | Coronary Flow Reserve |
+| IMR | Index of Microcirculatory Resistance |
+| ICA | Invasive Coronary Angiography |
+| CAD | Coronary Artery Disease |
+| ANOCA | Angina with Non-Obstructive Coronary Arteries |
+| VNS | Vagal Nerve Stimulation |
+| HFrEF | Heart Failure with Reduced Ejection Fraction |
+| AF | Atrial Fibrillation |
+| TR | Tricuspid Regurgitation |
+| PFO | Patent Foramen Ovale |
+| LAA | Left Atrial Appendage |
+| DOAC | Direct Oral Anticoagulant |
+| ACS | Acute Coronary Syndrome |
+| CRF | Cardiorespiratory Fitness |
+| IE | Infective Endocarditis |
+
+---
+
+*本講義為讀書會共筆之教學整理，僅供醫療專業同仁臨床教學交流參考，不作為個案診療依據。臨床決策請依各病人實際情況並參考最新指南。*
+
+**— 謝慕揚 MD, PhD, FESC —**
