@@ -2,7 +2,7 @@
 title: "基因體醫學入門系列 — 教材收集中心 & 課程大綱"
 subtitle: "Genomic Medicine / NGS — Introductory Series for the Journal Reading Group"
 author: "謝慕揚 MD, PhD, FESC（整理）"
-date: 2026-05-30
+date: 2026-06-01
 lang: zh-TW
 toc: true
 toc-depth: 3
@@ -88,9 +88,11 @@ toc-depth: 3
 ### 3.4 📚 關鍵文獻與指引（第一～三課引用）
 
 1. Richards S, Aziz N, Bale S, et al. **Standards and guidelines for the interpretation of sequence variants (ACMG/AMP 2015)**. *Genet Med*. 2015;17(5):405-424. [PubMed 25741868](https://pubmed.ncbi.nlm.nih.gov/25741868/)
-2. Arbelo E, Protonotarios A, Gimeno JR, et al. **2023 ESC Guidelines for the management of cardiomyopathies**. *Eur Heart J*. 2023;44(37):3503-3626. [DOI](https://doi.org/10.1093/eurheartj/ehad194) ｜ [全文](https://academic.oup.com/eurheartj/article/44/37/3503/7246608)
-3. Vafai SB, et al. **In Vivo Base Editing of PCSK9 with VERVE-102 (Heart-2)**. *N Engl J Med*. 2026. [DOI](https://doi.org/10.1056/NEJMoa2601283)
-4. Musunuru K, et al. **In vivo CRISPR base editing of PCSK9 durably lowers cholesterol in primates**. *Nature*. 2021;593:429-434. [DOI](https://doi.org/10.1038/s41586-021-03534-y)
+2. Wilcox EH, Webb RF, Tshering KC, et al. **Updated ACMG/AMP specifications for variant interpretation and gene curations from the ClinGen RASopathy expert panels**. *Genet Med Open*. 2025;3:103430. [PubMed 40496714](https://pubmed.ncbi.nlm.nih.gov/40496714/) ｜ [DOI](https://doi.org/10.1016/j.gimo.2025.103430)
+3. Ingles J, Goldstein J, Thaxton C, et al. **Evaluating the Clinical Validity of Hypertrophic Cardiomyopathy Genes (ClinGen HCM Gene Curation Expert Panel)**. *Circ Genom Precis Med*. 2019;12(2):e002460. [PubMed 30681346](https://pubmed.ncbi.nlm.nih.gov/30681346/) ｜ [DOI](https://doi.org/10.1161/CIRCGEN.119.002460)
+4. Arbelo E, Protonotarios A, Gimeno JR, et al. **2023 ESC Guidelines for the management of cardiomyopathies**. *Eur Heart J*. 2023;44(37):3503-3626. [DOI](https://doi.org/10.1093/eurheartj/ehad194) ｜ [全文](https://academic.oup.com/eurheartj/article/44/37/3503/7246608)
+5. Vafai SB, et al. **In Vivo Base Editing of PCSK9 with VERVE-102 (Heart-2)**. *N Engl J Med*. 2026. [DOI](https://doi.org/10.1056/NEJMoa2601283)
+6. Musunuru K, et al. **In vivo CRISPR base editing of PCSK9 durably lowers cholesterol in primates**. *Nature*. 2021;593:429-434. [DOI](https://doi.org/10.1038/s41586-021-03534-y)
 
 ---
 
@@ -105,7 +107,9 @@ toc-depth: 3
 | WES / WGS | whole-exome / whole-genome sequencing | 全外顯子／全基因體定序 |
 | SNV | single-nucleotide variant | 單核苷酸變異 |
 | indel | insertion/deletion | 插入／缺失 |
-| CNV | copy-number variant | 拷貝數變異 |
+| SV | structural variant | 結構變異（通常 >50 bp） |
+| CNV | copy-number variant | 拷貝數變異（CNV 為 SV 的子類） |
+| VCEP | Variant Curation Expert Panel (ClinGen) | （ClinGen）變異策展專家小組 |
 | VUS | variant of uncertain significance | 意義未明變異 |
 | P / LP / B / LB | pathogenic / likely pathogenic / benign / likely benign | 致病性／可能致病／良性／可能良性 |
 | ACMG / AMP | American College of Medical Genetics & Genomics / Association for Molecular Pathology | 美國醫學遺傳學會／分子病理學會 |
@@ -120,7 +124,51 @@ toc-depth: 3
 
 ---
 
-## 5. 製作與報告流程
+## 5. 用字與判讀進階補充（同事回饋整合）
+
+> 以下為讀書會同事針對第一課（用字與縮寫）提供的回饋，已整合進第一課投影片與 PDF。
+
+### 5.1 書寫慣例
+
+- 人類**基因符號**一律以**大寫、斜體**表示（如 *MYH7*、*LDLR*、*COL4A1*）；對應的**蛋白質**用**正體**（如 β-myosin heavy chain）。
+
+### 5.2 SV 與 CNV 的關係
+
+- **結構變異 (structural variant, SV)** 通常指 **>50 bp** 的大片段改變，包含：deletion、duplication、insertion、inversion、translocation、complex rearrangement。
+- **拷貝數變異 (copy-number variant, CNV)** 指造成某段大片段 DNA 的**缺失 (copy number loss)** 或**重複 (copy number gain)**——因此**嚴格來說 CNV 是 SV 的一個子類**。
+- **家族性高膽固醇 (FH)** 由 *LDLR* 的 **SV/CNV** 致病相當常見；僅偵測點變異的 panel 可能漏診。
+
+### 5.3 基因報告的 allele 層級寫法與 phasing
+
+- 正式報告除了用 **HGVS nomenclature** 表達**單一 variant**，因為一個基因有**兩條 allele**，部分實驗室會更精確地以 **allele 形式**呈現，例如：
+
+  ```
+  NM_004006.2:c.[2376G>C];[3103del]
+  ```
+
+  表示**兩條 allele 各帶一個位點**，且兩位點互為 **in trans**。
+- **phasing（定相）** 對**體染色體隱性 (autosomal recessive, AR)** 疾病的判讀非常重要：兩個致病變異必須 **in trans**（一父一母）才會致病。
+
+### 5.4 容易混淆的詞
+
+| 名詞 | 定義 | 例子 |
+|------|------|------|
+| **variable expressivity** | 同一基因／同一變異，發病者**嚴重度不同** | 同家族同變異：有人輕微肥厚、有人猝死 |
+| **pleiotropy（多效性）** | **同一個基因**造成**多種不同表型** | *COL4A1*：腦小血管病變、眼部異常、腎臟表現、肌肉痙攣——病人可能來自不同門診 entry，最後竟是同一基因致病 |
+| **genetic heterogeneity（遺傳異質性）** | **不同基因**造成**相似表型** | HCM 可由 *MYH7*、*MYBPC3* 等多個基因致病 |
+
+- **expressivity 與 pleiotropy 最常被搞混**：前者「同表型、輕重不同」，後者「同基因、不同表型」。
+
+### 5.5 ACMG 之外：ClinGen 疾病專屬判讀標準
+
+- 除 ACMG/AMP 通用 guideline 外，**ClinGen** 部分**專家小組 (Variant Curation Expert Panel, VCEP)** 會針對特定疾病或基因進行 **curation**，並提供專屬判讀標準與基因—疾病關聯效度。
+- 與謝主任投影片中提及之疾病相關的 Expert Panel：
+  - **RASopathy**：Wilcox EH, et al. *Genet Med Open*. 2025;3:103430. [PubMed 40496714](https://pubmed.ncbi.nlm.nih.gov/40496714/) ｜ [DOI](https://doi.org/10.1016/j.gimo.2025.103430)
+  - **肥厚性心肌病 HCM Gene Curation Expert Panel**：Ingles J, et al. *Circ Genom Precis Med*. 2019;12(2):e002460. [PubMed 30681346](https://pubmed.ncbi.nlm.nih.gov/30681346/) ｜ [DOI](https://doi.org/10.1161/CIRCGEN.119.002460)
+
+---
+
+## 6. 製作與報告流程
 
 1. 三位講者各認領一套投影片，依課程順序排入接下來三個月的 Journal Reading。
 2. 內容以本系列既有的 Marp 草稿為起點，講者依自身風格增補。

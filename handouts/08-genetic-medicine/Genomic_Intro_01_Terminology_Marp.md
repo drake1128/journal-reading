@@ -80,7 +80,9 @@ DNA  ──轉錄(transcription)──▶  mRNA  ──轉譯(translation)──
 - **外顯子 (exon)**：真正轉譯成蛋白質的片段
 - **內含子 (intron)**：基因內不轉譯的片段（會被剪接 splice 掉）
 
-> 心臟例子：`MYH7` 基因 → β-myosin heavy chain 蛋白 → 心肌收縮單位的一部分；出問題 → **肥厚性心肌病變 (HCM)**。
+> **書寫慣例**：人類**基因符號**一律以**大寫、斜體**表示（如 *MYH7*、*LDLR*、*COL4A1*）；對應的**蛋白質**則用**正體**（如 β-myosin heavy chain）。本投影片以等寬字標示基因僅為視覺辨識。
+>
+> 心臟例子：*MYH7* 基因 → β-myosin heavy chain 蛋白 → 心肌收縮單位的一部分；出問題 → **肥厚性心肌病變 (HCM)**。
 
 ---
 
@@ -116,13 +118,15 @@ DNA  ──轉錄(transcription)──▶  mRNA  ──轉譯(translation)──
 
 | 類型 | 英文 | 說明 | 心臟例子 |
 |------|------|------|----------|
-| 單核苷酸變異 | **SNV** (single-nucleotide variant) | 單一鹼基改變（點變異） | `SCN5A` 點變異 → Brugada |
+| 單核苷酸變異 | **SNV** (single-nucleotide variant) | 單一鹼基改變（點變異） | *SCN5A* 點變異 → Brugada |
 | 插入/缺失 | **indel** | 少數鹼基插入或缺失 | 可能造成 frameshift |
-| 拷貝數變異 | **CNV** (copy-number variant) | 大片段重複或缺失 | `LDLR` 大段缺失 → FH |
-| 結構變異 | structural variant | 大規模重排 | 較少見 |
+| 結構變異 | **SV** (structural variant，通常 **>50 bp**) | 大片段改變：deletion、duplication、insertion、inversion、translocation、complex rearrangement | *LDLR* 大段重排 → FH |
+| 拷貝數變異 | **CNV** (copy-number variant) | **SV 的一種**：某段大片段 DNA 的缺失 (copy number loss) 或重複 (copy number gain) | *LDLR* 大段缺失/重複 → FH |
 
 - **同義/錯義/無義**：silent (不改胺基酸)、missense (改胺基酸)、nonsense (提早終止 stop)
 - **frameshift**：indel 造成讀框位移，常使蛋白質截短
+
+> **SV ⊃ CNV**：CNV 嚴格來說是 SV 的一個子類（只涉及套數增減）。**FH 由 *LDLR* 的 SV/CNV 致病相當常見**——若 panel 只偵測點變異而不含 CNV/SV 偵測，可能漏診。
 
 ---
 
@@ -160,6 +164,18 @@ DNA  ──轉錄(transcription)──▶  mRNA  ──轉譯(translation)──
 | **表現度 expressivity** | 發病者「**症狀多重**」的變異程度 | 同一家族同一變異，有人輕微肥厚、有人猝死 |
 
 > 臨床啟示：基因陽性但目前無症狀（**genotype-positive / phenotype-negative**）的家屬，仍需**定期追蹤**，因為外顯可能延遲發生。
+
+---
+
+# 三組最容易混淆的詞：expressivity / pleiotropy / heterogeneity
+
+| 名詞 | 一句話定義 | 例子 |
+|------|------------|------|
+| **表現度差異 variable expressivity** | **同一基因／同一變異**，發病者「**嚴重度不同**」 | 同家族同一變異：有人輕微肥厚、有人猝死 |
+| **多效性 pleiotropy** | **同一個基因**造成**多種不同表型** | *COL4A1*：腦小血管病變、眼部異常、腎臟表現、肌肉痙攣——病人可能來自**不同門診 entry**，查到最後竟是同一基因 |
+| **遺傳異質性 genetic heterogeneity** | **不同基因**造成**相似表型** | HCM 可由 *MYH7*、*MYBPC3* 等多個基因致病 |
+
+> **expressivity vs pleiotropy 最常被搞混**：前者談「**同表型、輕重不同**」；後者談「**同基因、不同表型**」。遺傳異質性則是反過來「不同基因 → 同表型」。
 
 ---
 
@@ -222,6 +238,23 @@ NM_000257.4(MYH7):c.1528G>C   ← c. = 在 DNA(coding)層級
 
 ---
 
+# 進階：allele 層級的寫法與 phasing
+
+正式報告除了用 HGVS 描述**單一變異**外，因為一個基因有**兩條 allele**，部分實驗室會更精確地以 **allele 形式**呈現：
+
+```text
+NM_004006.2:c.[2376G>C];[3103del]
+              └─ allele 1 ─┘ └ allele 2 ┘
+```
+
+- 中括號 `[ ]` 各代表**一條 allele**；上式表示**兩條 allele 各帶一個變異**
+- 兩個變異分屬不同 allele → 互為 **in trans**（若在同一條則為 *in cis*）
+- **phasing（定相）** 對**體染色體隱性 (AR)** 疾病判讀尤其關鍵：兩個致病變異**必須 in trans**（一父一母）才會致病；若 in cis，另一條 allele 仍正常。
+
+> 看到 `c.[...];[...]` 不要當成兩個獨立報告——它在告訴你「**這兩個位點各在哪一條 allele**」。
+
+---
+
 # ACMG/AMP 五級分類（最重要的一張表）
 
 | 分級 | 英文 | 臨床處置 |
@@ -260,16 +293,31 @@ NM_000257.4(MYH7):c.1528G>C   ← c. = 在 DNA(coding)層級
 
 ---
 
+# ACMG 之外：ClinGen 疾病專屬判讀標準
+
+- ACMG/AMP 2015 是**通用框架**；不少證據條目（如 PM1、PP2、BS3）需要**依基因/疾病微調**。
+- **ClinGen 變異策展專家小組 (Variant Curation Expert Panel, VCEP)** 會針對特定疾病/基因發布**專屬判讀規格 (specifications)**，並進行**基因—疾病關聯效度 (gene–disease validity) 策展**。
+- 與謝主任投影片中疾病相關的 Expert Panel：
+
+| 疾病 / 基因群 | Expert Panel 產出 | 文獻 |
+|----------------|-------------------|------|
+| **RASopathy**（Noonan 等） | 更新版 ACMG/AMP 判讀規格 + 基因策展 | Wilcox EH, et al. *Genet Med Open*. 2025;3:103430 [PMID 40496714] |
+| **肥厚性心肌病 HCM** | HCM 基因臨床效度評估（哪些基因證據足夠） | Ingles J, et al. *Circ Genom Precis Med*. 2019;12(2):e002460 [PMID 30681346] |
+
+> 實務：判讀心臟基因變異前，先查該基因/疾病是否有 **ClinGen VCEP 專屬規格**，有則**優先採用**而非僅用通用 ACMG。
+
+---
+
 # 把字彙對到心臟基因（總整理）
 
 | 疾病 | 代表基因 | 遺傳 | 用到的字彙 |
 |------|----------|------|------------|
-| 肥厚性心肌病 HCM | `MYH7`, `MYBPC3` | AD | missense、不完全外顯 |
-| 長 QT 症候群 LQTS | `KCNQ1`, `KCNH2`, `SCN5A` | AD | SNV、離子通道 |
-| Brugada 症候群 | `SCN5A` | AD | SNV、表現度差異大 |
-| Fabry 氏症 | `GLA` | **X-linked** | 半合子（男性） |
-| ATTR 類澱粉沉積 | `TTR` | AD | missense（如 V122I） |
-| 家族性高膽固醇 FH | `LDLR`, `APOB`, `PCSK9` | AD | CNV（LDLR 大段缺失） |
+| 肥厚性心肌病 HCM | *MYH7*, *MYBPC3* | AD | missense、不完全外顯、遺傳異質性 |
+| 長 QT 症候群 LQTS | *KCNQ1*, *KCNH2*, *SCN5A* | AD | SNV、離子通道 |
+| Brugada 症候群 | *SCN5A* | AD | SNV、表現度差異大 |
+| Fabry 氏症 | *GLA* | **X-linked** | 半合子（男性） |
+| ATTR 類澱粉沉積 | *TTR* | AD | missense（如 V122I） |
+| 家族性高膽固醇 FH | *LDLR*, *APOB*, *PCSK9* | AD | SV/CNV（*LDLR* 大段缺失/重複常見） |
 
 ---
 
@@ -279,7 +327,9 @@ NM_000257.4(MYH7):c.1528G>C   ← c. = 在 DNA(coding)層級
 |------|----------------|------|
 | NGS | next-generation sequencing | 次世代定序 |
 | WES / WGS | whole-exome / whole-genome sequencing | 全外顯子／全基因體定序 |
-| SNV / indel / CNV | single-nucleotide variant / insertion-deletion / copy-number variant | 單核苷酸變異／插入缺失／拷貝數變異 |
+| SNV / indel | single-nucleotide variant / insertion-deletion | 單核苷酸變異／插入缺失 |
+| SV / CNV | structural variant / copy-number variant | 結構變異／拷貝數變異（CNV 為 SV 子類） |
+| VCEP | Variant Curation Expert Panel (ClinGen) | （ClinGen）變異策展專家小組 |
 | VUS | variant of uncertain significance | 意義未明變異 |
 | P / LP / B / LB | pathogenic / likely pathogenic / benign / likely benign | 致病／可能致病／良性／可能良性 |
 | ACMG / AMP | Am. College of Medical Genetics / Assoc. for Molecular Pathology | 美國醫學遺傳學會／分子病理學會 |
@@ -307,6 +357,9 @@ NM_000257.4(MYH7):c.1528G>C   ← c. = 在 DNA(coding)層級
 - NHGRI Talking Glossary of Genomic & Genetic Terms：<https://www.genome.gov/genetics-glossary>
 - MedlinePlus — Help Me Understand Genetics：<https://medlineplus.gov/genetics/understanding/>
 - Richards S, et al. ACMG/AMP variant interpretation standards. *Genet Med*. 2015;17:405-424. [PubMed 25741868](https://pubmed.ncbi.nlm.nih.gov/25741868/)
+- Wilcox EH, et al. Updated ACMG/AMP specifications and gene curations from the ClinGen RASopathy expert panels. *Genet Med Open*. 2025;3:103430. [PubMed 40496714](https://pubmed.ncbi.nlm.nih.gov/40496714/) ｜ [DOI](https://doi.org/10.1016/j.gimo.2025.103430)
+- Ingles J, et al. Evaluating the Clinical Validity of Hypertrophic Cardiomyopathy Genes. *Circ Genom Precis Med*. 2019;12(2):e002460. [PubMed 30681346](https://pubmed.ncbi.nlm.nih.gov/30681346/) ｜ [DOI](https://doi.org/10.1161/CIRCGEN.119.002460)
+- HGVS 變異命名法：<https://hgvs-nomenclature.org/>
 - 內部講義：《基因精準醫學與心臟病》《基因醫學心臟病學：範例臨床情境分析》
 
 ---
