@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在 AI 時代運用人工智慧進行文獻回顧 · V2 — ACS / Efient</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+/* ===========================================================================
+   THEME — "CLINICAL BLUEPRINT" (on-brand navy, editorial serif, gold/cyan)
+   Change these variables to retheme the entire deck.
+   =========================================================================== */
+:root{
+  --navy:#0b1422; --navy2:#11203a; --panel:#0e1c30; --panel2:#0a1525;
+  --line:#243d5c; --line2:#1a2c44;
+  --brand:#0072bc; --cyan:#46c7ff; --red:#ff5d63; --gold:#ffd479;
+  --green:#39e3a8; --amber:#ffb454; --purple:#c7a0ff;
+  --txt:#dde7f3; --mut:#8499b3; --dim:#5c7390;
+  --serif:'Noto Serif TC',serif; --sans:'Noto Sans TC',sans-serif; --mono:'JetBrains Mono',monospace;
+  --ease:cubic-bezier(.16,1,.3,1); --dur:.7s;
+}
+
+/* Typography + spacing scale (clamp for viewport fitting) */
+:root{
+  --title-size:clamp(1.7rem,4.6vw,3.4rem);
+  --h2-size:clamp(1.3rem,3.1vw,2.3rem);
+  --h3-size:clamp(1rem,1.9vw,1.4rem);
+  --body-size:clamp(.72rem,1.35vw,1.02rem);
+  --small-size:clamp(.6rem,1.05vw,.8rem);
+  --mono-size:clamp(.6rem,1.15vw,.86rem);
+  --slide-padding:clamp(1.1rem,3.4vw,3.4rem);
+  --content-gap:clamp(.5rem,1.6vw,1.4rem);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* ====== MANDATORY VIEWPORT-BASE (full include) ====== */
+html,body{height:100%;overflow-x:hidden}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth}
+.slide{width:100vw;height:100vh;height:100dvh;overflow:hidden;scroll-snap-align:start;
+  display:flex;flex-direction:column;position:relative}
+.slide-content{flex:1;display:flex;flex-direction:column;justify-content:center;
+  max-height:100%;overflow:hidden;padding:var(--slide-padding)}
+.card,.container,.content-box{max-width:min(92vw,1180px);max-height:min(86vh,760px)}
+img,.image-container{max-width:100%;max-height:min(50vh,400px);object-fit:contain}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:clamp(.5rem,1.5vw,1rem)}
+@media (max-height:700px){:root{--slide-padding:clamp(.75rem,3vw,2rem);--content-gap:clamp(.4rem,1.5vw,1rem);
+  --title-size:clamp(1.3rem,4.4vw,2.5rem);--h2-size:clamp(1.05rem,3vw,1.75rem)}}
+@media (max-height:600px){:root{--slide-padding:clamp(.5rem,2.5vw,1.5rem);--content-gap:.4rem;
+  --title-size:clamp(1.1rem,4vw,2rem);--body-size:clamp(.66rem,1.2vw,.9rem);--mono-size:clamp(.55rem,1vw,.74rem)}
+  .nav-dots,.kbd-hint,.decorative{display:none}}
+@media (max-height:500px){:root{--slide-padding:clamp(.4rem,2vw,1rem);--title-size:clamp(1rem,3.5vw,1.5rem);
+  --h2-size:clamp(.9rem,2.5vw,1.25rem);--body-size:clamp(.62rem,1vw,.82rem)}}
+@media (max-width:640px){:root{--title-size:clamp(1.3rem,7vw,2.4rem)} .grid{grid-template-columns:1fr}
+  .twocol{grid-template-columns:1fr!important} .hide-sm{display:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.2s!important}
+  html{scroll-behavior:auto}}
+
+/* ====== GLOBAL CANVAS ====== */
+body{background:var(--navy);color:var(--txt);font-family:var(--sans);line-height:1.5;
+  -webkit-font-smoothing:antialiased;font-size:var(--body-size)}
+/* Blueprint grid + glow, fixed behind everything */
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:linear-gradient(rgba(70,199,255,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(70,199,255,.045) 1px,transparent 1px);
+  background-size:46px 46px}
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(circle at 82% 8%,rgba(0,114,188,.16),transparent 46%),
+    radial-gradient(circle at 10% 96%,rgba(70,199,255,.10),transparent 44%)}
+.slide>*{position:relative;z-index:1}
+
+/* ====== SHARED HEADINGS ====== */
+.kicker{font-family:var(--mono);font-size:var(--small-size);color:var(--cyan);letter-spacing:.22em;
+  text-transform:uppercase;display:flex;align-items:center;gap:.7em;margin-bottom:.7em}
+.kicker .bar{width:30px;height:1px;background:var(--cyan);flex:none}
+.kicker .num{color:var(--mut)}
+h1,h2,h3{font-family:var(--serif);font-weight:900;line-height:1.22;color:#f2f8ff}
+h2.head{font-size:var(--h2-size);color:#f2f8ff;margin-bottom:.55em;letter-spacing:.5px}
+h2.head .hl{color:var(--gold)} h2.head .cy{color:var(--cyan)} h2.head .rd{color:var(--red)}
+.pane{width:min(94vw,1180px);margin:0 auto}
+.en{font-family:var(--serif);font-style:italic;color:var(--mut);font-weight:500;font-size:var(--h3-size)}
+
+/* ====== LEAD (title/closing) ====== */
+.lead .frame{width:min(92vw,1040px);margin:0 auto;position:relative;
+  padding:clamp(26px,4.6vw,58px);border:1px solid var(--line);border-radius:4px;
+  background:linear-gradient(180deg,rgba(17,32,58,.82),rgba(11,20,34,.92));
+  box-shadow:0 30px 90px rgba(0,0,0,.5)}
+.lead .frame::before,.lead .frame::after{content:"";position:absolute;width:20px;height:20px;border:2px solid var(--cyan)}
+.lead .frame::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
+.lead .frame::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
+.lead h1{font-size:var(--title-size);letter-spacing:1px;color:#f6fbff}
+.lead h1 .hl{color:var(--gold)}
+.lead .rule{height:1px;background:linear-gradient(90deg,var(--brand),transparent);margin:clamp(16px,2.6vw,28px) 0}
+.lead .tags{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(8px,1.6vw,16px)}
+.who{margin-left:auto;text-align:right}
+.who b{display:block;color:#f6fbff;font-size:var(--h3-size);font-family:var(--serif)}
+.who span{font-family:var(--mono);color:var(--mut);font-size:var(--small-size)}
+
+/* ====== DIVIDER (part separators) ====== */
+.divider{justify-content:center;align-items:center;text-align:center}
+.divider .pnum{font-family:var(--mono);font-size:clamp(3rem,12vw,9rem);font-weight:800;
+  color:transparent;-webkit-text-stroke:1.5px var(--cyan);opacity:.5;line-height:.9;letter-spacing:-.04em}
+.divider h2{font-size:clamp(1.6rem,5vw,3.4rem);color:#f6fbff;margin:.1em 0}
+.divider h2 .hl{color:var(--gold)}
+.divider .en{margin-top:.3em;font-size:clamp(.95rem,2.2vw,1.5rem)}
+.divider .tick{width:64px;height:2px;background:var(--gold);margin:clamp(14px,2.4vw,24px) auto 0}
+
+/* ====== TAGS / CHIPS ====== */
+.tag{font-family:var(--mono);font-size:var(--small-size);color:var(--cyan);border:1px solid var(--line);
+  padding:5px 12px;border-radius:3px;background:rgba(70,199,255,.05);white-space:nowrap}
+.tag.gold{color:var(--gold);border-color:#5a4a24;background:rgba(255,212,121,.06)}
+.tag.red{color:var(--red);border-color:#5a2730;background:rgba(255,93,99,.06)}
+
+/* ====== TERMINAL WINDOW (signature recurring element) ====== */
+.term{background:linear-gradient(180deg,#0c1526,#08111f);border:1px solid var(--line);border-radius:9px;
+  overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.5);font-family:var(--mono);font-size:var(--mono-size)}
+.term-bar{display:flex;align-items:center;gap:7px;padding:8px 12px;background:#0a1322;border-bottom:1px solid var(--line2)}
+.term-bar .d{width:11px;height:11px;border-radius:50%}
+.d.r{background:#ff5f56}.d.y{background:#ffbd2e}.d.g{background:#27c93f}
+.term-path{margin-left:8px;color:var(--mut);font-size:.92em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.term-body{padding:clamp(11px,1.5vw,18px) clamp(13px,1.7vw,20px);line-height:1.72;overflow:hidden}
+.term-body .l{white-space:pre-wrap;word-break:break-word}
+.pr{color:var(--green);font-weight:700} .pr2{color:var(--cyan)}
+.cm{color:#eaf2fb} .arg{color:var(--amber)} .flag{color:var(--purple)}
+.out{color:var(--mut)} .ok{color:var(--green)} .warn{color:var(--amber)} .er{color:var(--red)}
+.c{color:#5b7088;font-style:italic} .k{color:var(--purple)} .s{color:var(--green)} .f{color:var(--gold)} .v{color:var(--cyan)} .n{color:var(--amber)}
+.cur{display:inline-block;width:.55em;height:1.05em;background:var(--green);vertical-align:-3px;margin-left:2px;
+  animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+
+/* ====== PROMPT CARD (structured GCFC / PICO prompts) ====== */
+.pcard{border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--panel2);font-family:var(--mono)}
+.pcard-h{display:flex;align-items:center;gap:8px;padding:7px 13px;background:rgba(255,212,121,.07);
+  border-bottom:1px solid var(--line2);color:var(--gold);font-size:var(--small-size);letter-spacing:.12em;text-transform:uppercase}
+.pcard-h::before{content:"⌘";font-size:1em}
+.pcard-b{padding:clamp(11px,1.5vw,17px) clamp(13px,1.7vw,19px);font-size:var(--mono-size);line-height:1.7}
+.seg{margin:.18em 0;white-space:pre-wrap}
+.seg .lab{display:inline-block;min-width:7.4em;color:var(--cyan);font-weight:700}
+.seg .lab.g{color:var(--gold)}.seg .lab.r{color:var(--red)}.seg .lab.p{color:var(--purple)}
+.seg .tx{color:var(--txt)}
+
+/* ====== EVIDENCE TABLE ====== */
+.etable{width:100%;border-collapse:collapse;font-size:clamp(.6rem,1.12vw,.84rem);overflow:hidden;border-radius:8px}
+.etable th{background:#10243c;color:var(--cyan);font-family:var(--mono);font-weight:600;text-align:left;
+  padding:8px 11px;border-bottom:1px solid var(--line);letter-spacing:.02em}
+.etable td{padding:7px 11px;border-bottom:1px solid var(--line2);color:var(--txt);vertical-align:top}
+.etable tr:nth-child(even) td{background:rgba(255,255,255,.018)}
+.etable tr:last-child td{border-bottom:0}
+.etable strong{color:var(--gold)} .etable .pos{color:var(--green)} .etable .neg{color:var(--mut)} .etable .hot{color:var(--red)}
+.etable.compact{font-size:clamp(.56rem,1.02vw,.76rem)}
+
+/* ====== CALLOUTS ====== */
+.pearl{border-left:3px solid var(--red);background:rgba(255,93,99,.07);padding:.55em .9em;border-radius:0 7px 7px 0;
+  font-size:var(--body-size)}
+.note{border-left:3px solid var(--cyan);background:rgba(70,199,255,.07);padding:.55em .9em;border-radius:0 7px 7px 0;
+  font-size:var(--body-size)}
+.pearl b,.note b{color:#f2f8ff} .pearl .em{color:var(--red);font-weight:700} .note .em{color:var(--cyan);font-weight:700}
+
+/* ====== CARDS / GRID ====== */
+.cards{display:grid;gap:clamp(.5rem,1.3vw,1rem)}
+.cards.c2{grid-template-columns:repeat(2,1fr)} .cards.c3{grid-template-columns:repeat(3,1fr)}
+.cell{border:1px solid var(--line);border-radius:9px;background:var(--panel);padding:clamp(.6rem,1.3vw,1.05rem);
+  display:flex;flex-direction:column;gap:.25em}
+.cell .ico{font-family:var(--mono);color:var(--cyan);font-weight:700;font-size:1.05em}
+.cell h4{font-family:var(--mono);color:var(--gold);font-size:var(--small-size);font-weight:700}
+.cell p{font-size:var(--small-size);color:var(--mut);line-height:1.45}
+.cell .big{font-family:var(--mono);font-size:clamp(1.1rem,2.6vw,1.9rem);color:var(--cyan);font-weight:800}
+
+/* ====== LAYOUT HELPERS ====== */
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:clamp(.7rem,2vw,1.6rem);align-items:center}
+.twocol.w6040{grid-template-columns:1.25fr 1fr}
+.twocol.w4060{grid-template-columns:1fr 1.25fr}
+.stack{display:flex;flex-direction:column;gap:var(--content-gap)}
+ul.clean{list-style:none;display:flex;flex-direction:column;gap:.35em}
+ul.clean li{position:relative;padding-left:1.3em;font-size:var(--body-size)}
+ul.clean li::before{content:"▸";position:absolute;left:0;color:var(--cyan)}
+ul.clean li b{color:#f2f8ff} ul.clean li .rd{color:var(--red);font-weight:700} ul.clean li .gd{color:var(--gold);font-weight:700}
+.statrow{display:flex;flex-wrap:wrap;gap:clamp(.6rem,1.8vw,1.5rem)}
+.stat{flex:1;min-width:140px;border:1px solid var(--line);border-radius:9px;background:var(--panel);padding:.7em .9em}
+.stat .v{font-family:var(--mono);font-size:clamp(1.3rem,3.4vw,2.4rem);font-weight:800;color:var(--gold);line-height:1}
+.stat .lb{font-size:var(--small-size);color:var(--mut);margin-top:.35em}
+
+/* ====== REVEAL ANIMATIONS ====== */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.slide.visible .reveal{opacity:1;transform:none}
+.slide.visible .reveal:nth-child(1){transition-delay:.06s}
+.slide.visible .reveal:nth-child(2){transition-delay:.16s}
+.slide.visible .reveal:nth-child(3){transition-delay:.26s}
+.slide.visible .reveal:nth-child(4){transition-delay:.36s}
+.slide.visible .reveal:nth-child(5){transition-delay:.46s}
+.slide.visible .reveal:nth-child(6){transition-delay:.56s}
+.r-scale{opacity:0;transform:scale(.96);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.slide.visible .r-scale{opacity:1;transform:none}
+
+/* ====== CHROME: progress, nav dots, hints, edit ====== */
+.progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--brand),var(--cyan));
+  z-index:9999;transition:width .15s linear;box-shadow:0 0 10px var(--cyan)}
+.nav-dots{position:fixed;right:clamp(8px,1.4vw,18px);top:50%;transform:translateY(-50%);z-index:9000;
+  display:flex;flex-direction:column;gap:9px}
+.nav-dots button{width:9px;height:9px;border-radius:50%;border:1px solid var(--line);background:transparent;
+  padding:0;cursor:pointer;transition:.25s}
+.nav-dots button.active{background:var(--cyan);border-color:var(--cyan);box-shadow:0 0 9px var(--cyan);transform:scale(1.25)}
+.kbd-hint{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:9000;font-family:var(--mono);
+  font-size:.66rem;color:var(--dim);letter-spacing:.05em;display:flex;gap:.7em;align-items:center;
+  background:rgba(10,18,30,.7);padding:5px 12px;border:1px solid var(--line2);border-radius:20px;backdrop-filter:blur(4px)}
+.kbd-hint b{color:var(--mut)}
+.pageno{position:fixed;left:14px;bottom:12px;z-index:9000;font-family:var(--mono);font-size:.66rem;color:var(--dim)}
+.foot{position:absolute;left:var(--slide-padding);bottom:clamp(8px,1.6vh,18px);font-family:var(--mono);
+  font-size:.62rem;color:var(--dim);letter-spacing:.04em}
+/* edit mode */
+.edit-hotzone{position:fixed;top:0;left:0;width:80px;height:80px;z-index:10000;cursor:pointer}
+.edit-toggle{position:fixed;top:14px;left:14px;z-index:10001;width:42px;height:42px;border-radius:10px;
+  border:1px solid var(--line);background:var(--panel);color:var(--cyan);font-size:1.1rem;cursor:pointer;
+  opacity:0;pointer-events:none;transition:opacity .3s,transform .2s;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.edit-toggle.show,.edit-toggle.active{opacity:1;pointer-events:auto}
+.edit-toggle.active{background:var(--cyan);color:#06101e}
+.edit-toggle:hover{transform:translateY(-2px)}
+body.editing [contenteditable]{outline:1px dashed rgba(70,199,255,.5);outline-offset:3px;border-radius:3px}
+body.editing [contenteditable]:focus{outline:2px solid var(--cyan);background:rgba(70,199,255,.06)}
+.edit-toast{position:fixed;bottom:18px;right:18px;z-index:10002;background:var(--panel);border:1px solid var(--line);
+  color:var(--txt);font-family:var(--mono);font-size:.74rem;padding:10px 16px;border-radius:8px;opacity:0;
+  transform:translateY(10px);transition:.3s;pointer-events:none}
+.edit-toast.show{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<nav class="nav-dots" id="navDots" aria-label="Slide navigation"></nav>
+<div class="pageno" id="pageno">01</div>
+<div class="kbd-hint decorative"><b>↑↓ / Space</b> 換頁 &nbsp;·&nbsp; <b>E</b> 編輯 &nbsp;·&nbsp; <b>F</b> 全螢幕</div>
+
+<!-- Edit mode controls (user opted IN) -->
+<div class="edit-hotzone" id="editHotzone" title="編輯模式 (E)"></div>
+<button class="edit-toggle" id="editToggle" title="編輯模式 (E)">✏️</button>
+<div class="edit-toast" id="editToast"></div>
+
+<!-- =====================================================================
+     SLIDE 01 — TITLE (lead)
+     ===================================================================== -->
+<section class="slide lead" data-label="封面">
+  <div class="slide-content">
+    <div class="frame">
+      <div class="kicker reveal"><span class="bar"></span>Journal Reading · V2 · 主軸 ACS / Efient (Prasugrel)</div>
+      <h1 class="reveal" contenteditable="false">在 AI 時代運用人工智慧<br>進行<span class="hl">文獻回顧</span></h1>
+      <div class="en reveal" contenteditable="false">Leveraging Artificial Intelligence for Literature Review in the Age of AI</div>
+      <div class="rule reveal"></div>
+      <div class="tags reveal">
+        <span class="tag">Claude Code</span><span class="tag">MCP</span>
+        <span class="tag">Scientific Skills</span><span class="tag gold">Prompt Engineering</span>
+        <div class="who"><b contenteditable="false">謝慕揚 MD, PhD, FESC</b><span contenteditable="false">新竹臺大分院 心血管中心 · 2026-04-28 (V2)</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">All slides built with Claude Code — an AI agent for medical education</div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 02 — What's New in V2
+     ===================================================================== -->
+<section class="slide" data-label="V2 新版">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>What's New</div>
+    <h2 class="head reveal">為什麼有 <span class="hl">V2</span>？三個重要調整</h2>
+    <div class="twocol w6040">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span>
+          <span class="term-path">~/journal-reading — git log --oneline</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">git log --oneline v1..v2</span></div>
+          <div class="l"><span class="n">a3f1c</span> <span class="out">範例全面換軸：TEER/TAVI → </span><span class="ok">ACS + Efient</span></div>
+          <div class="l"><span class="n">7b9e2</span> <span class="out">三個臨床範例全部與 prasugrel 相關</span></div>
+          <div class="l"><span class="n">c4d80</span> <span class="out">新增 </span><span class="v">Claude 文獻回顧</span><span class="out"> 詳細步驟</span></div>
+          <div class="l"><span class="n">e1a55</span> <span class="out">新增 </span><span class="v">Prompt Engineering</span><span class="out"> 章節</span></div>
+          <div class="l"><span class="n">f8c30</span> <span class="out">大幅擴充 </span><span class="v">Scientific Skills</span></div>
+          <div class="l"><span class="ok">✓</span> <span class="out">V1 完整保留，V2 為臨床工作坊版</span><span class="cur"></span></div>
+        </div>
+      </div>
+      <ul class="clean reveal">
+        <li><b class="gd">範例全面換軸</b>：原 TEER / TAVI / TriClip → 改以 <b>ACS + Efient (prasugrel)</b> 為主軸</li>
+        <li><b class="gd">三個臨床範例</b>：ISAR-REACT 5、de-escalation、special populations</li>
+        <li><b class="gd">重點強化</b>：Claude 文獻回顧步驟、如何寫 prompt、Scientific Skills</li>
+      </ul>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)"><b>V1 仍完整保留</b> — 適合介紹整體框架；<span class="em">V2 適合臨床導向的工作坊</span>。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 03 — Outline
+     ===================================================================== -->
+<section class="slide" data-label="大綱">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Outline · 八個章節</div>
+    <h2 class="head reveal">今天的 <span class="cy">路線圖</span></h2>
+    <div class="twocol w4060">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span>
+          <span class="term-path">~/talk — tree -L 1 outline/</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">tree outline/</span></div>
+          <div class="l"><span class="v">outline/</span></div>
+          <div class="l"><span class="out">├──</span> <span class="f">1_why</span><span class="out">/        年輕醫師的閱讀困境</span></div>
+          <div class="l"><span class="out">├──</span> <span class="f">2_journey</span><span class="out">/    ChatGPT→Claude.ai→Code</span></div>
+          <div class="l"><span class="out">├──</span> <span class="f">3_code_mcp</span><span class="out">/   兩個核心引擎</span></div>
+          <div class="l"><span class="out">├──</span> <span class="f">4_skills</span><span class="out">/  ★ 科研工具箱（擴充）</span></div>
+          <div class="l"><span class="out">├──</span> <span class="f">5_prompts</span><span class="out">/ ★ 提示詞工程（全新）</span></div>
+          <div class="l"><span class="out">├──</span> <span class="f">6_examples</span><span class="out">/ ★ 三個 ACS/Efient 實例</span></div>
+          <div class="l"><span class="out">├──</span> <span class="f">7_pitfalls</span><span class="out">/ 驗證・幻覺・版權</span></div>
+          <div class="l"><span class="out">└──</span> <span class="f">8_takeaways</span><span class="out">/ 你明天就能開始</span><span class="cur"></span></div>
+        </div>
+      </div>
+      <div class="stack reveal">
+        <div class="cards c2">
+          <div class="cell"><span class="ico">01</span><h4>WHY</h4><p>文獻供給 ≫ 人類閱讀速度</p></div>
+          <div class="cell"><span class="ico">02</span><h4>JOURNEY</h4><p>我的 AI 工具演進史</p></div>
+          <div class="cell"><span class="ico">03</span><h4>CODE · MCP</h4><p>agent + 外接資料庫</p></div>
+          <div class="cell"><span class="ico" style="color:var(--gold)">04 ★</span><h4>SKILLS</h4><p>把 Claude 當研究助理</p></div>
+          <div class="cell"><span class="ico" style="color:var(--gold)">05 ★</span><h4>PROMPTS</h4><p>把投影片磨亮</p></div>
+          <div class="cell"><span class="ico" style="color:var(--gold)">06 ★</span><h4>EXAMPLES</h4><p>ISAR-REACT 5 等三例</p></div>
+        </div>
+        <div class="note">★ = V2 全新或大幅擴充的章節</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 04 — DIVIDER Part 1
+     ===================================================================== -->
+<section class="slide divider" data-label="Part 1">
+  <div class="slide-content">
+    <div class="pnum reveal">01</div>
+    <h2 class="reveal">Why AI for <span class="hl">Literature Review</span>?</h2>
+    <div class="en reveal">為什麼年輕醫師需要 AI 幫忙讀文獻</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 05 — 年輕醫師的真實處境
+     ===================================================================== -->
+<section class="slide" data-label="真實處境">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 1 · 真實處境</div>
+    <h2 class="head reveal">文獻產出速度 <span class="rd">≫</span> 人類閱讀速度</h2>
+    <div class="statrow reveal" style="margin-bottom:var(--content-gap)">
+      <div class="stat"><div class="v">80+</div><div class="lb">小時 / 週<br>查房・門診・值班・會議・教學</div></div>
+      <div class="stat"><div class="v">3,600萬+</div><div class="lb">PubMed 已索引生醫文獻</div></div>
+      <div class="stat"><div class="v">150萬</div><div class="lb">每年新增篇數</div></div>
+      <div class="stat"><div class="v">50+</div><div class="lb">六大期刊每週原著論文</div></div>
+    </div>
+    <div class="twocol w6040">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span>
+          <span class="term-path">claude — mcp__pubmed__search (count)</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">pubmed.count</span>(<span class="s">"acute coronary syndrome AND antiplatelet"</span>,</div>
+          <div class="l">          <span class="v">date</span>=<span class="s">"2021:2026"</span>)</div>
+          <div class="l"><span class="out">→ retrieving …</span></div>
+          <div class="l"><span class="ok">⟶ 12,000+ articles</span> <span class="out">過去 5 年，單一主題</span><span class="cur"></span></div>
+        </div>
+      </div>
+      <ul class="clean reveal">
+        <li>剩下讀文獻的時間 → 通勤、睡前、週末</li>
+        <li>想完整跟上 cardiology 文獻 → <span class="rd">完全不可能</span></li>
+        <li>光 ACS / antiplatelet 一個主題就 <b>讀不完</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 06 — Efient 為例
+     ===================================================================== -->
+<section class="slide" data-label="為何 Efient">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 1 · 為什麼選這個藥當主軸</div>
+    <h2 class="head reveal">以 <span class="hl">Efient (Prasugrel)</span> 為例的文獻量壓力</h2>
+    <div class="twocol">
+      <ul class="clean reveal">
+        <li><b>臨床高度相關</b>：所有 cath lab 的 ACS / PCI 病人都會接觸</li>
+        <li><b>文獻爭議多</b>：vs ticagrelor、de-escalation、elderly、Asian dose</li>
+        <li><b>指引快速演進</b>：2023 ESC ACS guideline 已改 default P2Y12 推薦</li>
+        <li><b class="gd">每年新增 ~600 篇</b> prasugrel 相關 paper</li>
+      </ul>
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span>
+          <span class="term-path">三條切片 — three slices to demonstrate</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">slices --drug</span> <span class="arg">prasugrel</span></div>
+          <div class="l"><span class="out">[1]</span> <span class="f">頭對頭比較</span>  <span class="v">ISAR-REACT 5</span></div>
+          <div class="l"><span class="out">[2]</span> <span class="f">降階治療</span>    <span class="v">TROPICAL · TOPIC · HOST-REDUCE</span></div>
+          <div class="l"><span class="out">[3]</span> <span class="f">特殊族群</span>    <span class="v">ELDERLY-ACS 2 · POPular AGE · Asian</span></div>
+          <div class="l"><span class="warn">⚠ 沒有 AI，要串起這三條線 ≥ 兩個週末</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 07 — 傳統 vs AI 時代
+     ===================================================================== -->
+<section class="slide" data-label="傳統 vs AI">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 1 · 典範轉移</div>
+    <h2 class="head reveal">傳統 <span class="rd">vs</span> AI 時代的文獻回顧</h2>
+    <table class="etable reveal">
+      <thead><tr><th>面向</th><th>傳統做法</th><th class="cy">AI 時代做法</th></tr></thead>
+      <tbody>
+        <tr><td><strong>搜尋</strong></td><td>手動 Boolean query，反覆試</td><td class="pos">自然語言描述問題，AI 迭代優化</td></tr>
+        <tr><td><strong>篩選</strong></td><td>一篇篇看標題與摘要</td><td class="pos">批次相關性評分 + 關鍵句擷取</td></tr>
+        <tr><td><strong>閱讀</strong></td><td>單篇深讀，耗時數小時</td><td class="pos">跨篇 synthesize，保留 citation</td></tr>
+        <tr><td><strong>整理</strong></td><td>手動做表格、手寫 summary</td><td class="pos">結構化表格 + 自動 citation export</td></tr>
+        <tr><td><strong>教學</strong></td><td>做 slides → 另一輪工作</td><td class="pos">同一 workflow 自動產出講義 + 投影片</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- =====================================================================
+     SLIDE 08 — mindset shift
+     ===================================================================== -->
+<section class="slide" data-label="角色轉變">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 1 · 關鍵 mindset shift</div>
+    <h2 class="head reveal">醫師：從<span class="rd">搜尋者</span> → <span class="cy">策略師 + 驗證者</span></h2>
+    <div class="twocol reveal">
+      <div class="term">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">before-ai.log</span></div>
+        <div class="term-body">
+          <div class="l"><span class="c"># Before AI</span></div>
+          <div class="l"><span class="out">我 → 花 3 小時讀一篇 ISAR-REACT 5</span></div>
+          <div class="l"><span class="out">  → 勉強弄懂</span></div>
+          <div class="l"><span class="er">  → 沒時間做筆記</span></div>
+        </div>
+      </div>
+      <div class="term">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">after-ai.log</span></div>
+        <div class="term-body">
+          <div class="l"><span class="c"># After AI · ~90 min 完整 workflow</span></div>
+          <div class="l"><span class="pr">❯</span> <span class="cm">ask</span> <span class="s">"Prasugrel vs Ticagrelor in ACS"</span></div>
+          <div class="l"><span class="ok">✓</span> <span class="out">搜尋 · 全文擷取 · 提取 endpoints</span></div>
+          <div class="l"><span class="ok">✓</span> <span class="out">我 review / challenge HR·CI·p</span></div>
+          <div class="l"><span class="ok">✓</span> <span class="out">產出 講義 + 投影片 + 郵件</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">AI 處理 <span class="em">mechanical work</span>，人類專注 <b>clinical judgement</b>。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+<!-- =====================================================================
+     SLIDE 09 — DIVIDER Part 2
+     ===================================================================== -->
+<section class="slide divider" data-label="Part 2">
+  <div class="slide-content">
+    <div class="pnum reveal">02</div>
+    <h2 class="reveal">The <span class="hl">Journey</span></h2>
+    <div class="en reveal">我的 AI 工具演進史：ChatGPT → Claude.ai → Claude Code</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 10 — Stage 1 ChatGPT -->
+<section class="slide" data-label="ChatGPT 2023">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Stage 1 · 2023</div>
+    <h2 class="head reveal">ChatGPT 時代 — <span class="rd">對系統性回顧完全不夠</span></h2>
+    <div class="twocol w6040">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">chat.openai.com — 2023</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr2">你</span><span class="out">：把這段 NEJM abstract 翻譯 + 整理</span></div>
+          <div class="l"><span class="pr">AI</span><span class="out">：好的，以下是整理…</span></div>
+          <div class="l"><span class="er">⚠ 編造了一個不存在的 citation</span></div>
+          <div class="l"><span class="er">⚠ 無法存取真實 PubMed</span></div>
+          <div class="l"><span class="er">⚠ 只能 copy-paste，無法處理檔案</span><span class="cur"></span></div>
+        </div>
+      </div>
+      <div class="stack reveal">
+        <ul class="clean">
+          <li>把 abstract 貼進去 → 翻譯 + 整理</li>
+          <li>請它解釋統計方法（如 hierarchical composite endpoint）</li>
+          <li>問疾病的 differential diagnosis</li>
+        </ul>
+        <div class="pearl">對<b>短問答</b>有用；產出無法直接用於教學（格式要手動重做）。</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 11 — Stage 2 Claude.ai -->
+<section class="slide" data-label="Claude.ai 2024">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Stage 2 · 2024</div>
+    <h2 class="head reveal">Claude.ai 網頁版 — <span class="cy">Projects + Artifacts</span></h2>
+    <div class="twocol">
+      <div class="stack reveal">
+        <div class="note"><b>進步</b>：臨床推理更強；<span class="em">Projects</span> 可上傳多份 PDF（ISAR-REACT 5 + bRIGHT subgroup 一次餵入）；Artifacts 直接產出表格/HTML。</div>
+        <ul class="clean">
+          <li>仍無法真正「搜尋」PubMed，只能處理上傳的 PDF</li>
+          <li>每次對話有 context 限制</li>
+          <li>產出仍要手動整理、存檔、排版</li>
+          <li>無法執行 code / shell command</li>
+        </ul>
+      </div>
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">claude.ai — Project: ACS antiplatelet</span></div>
+        <div class="term-body">
+          <div class="l"><span class="out">📎 ISAR-REACT-5.pdf</span> <span class="ok">uploaded</span></div>
+          <div class="l"><span class="out">📎 bRIGHT-subgroup.pdf</span> <span class="ok">uploaded</span></div>
+          <div class="l"><span class="pr2">你</span><span class="out">：做一張 evidence table</span></div>
+          <div class="l"><span class="ok">▣ Artifact</span><span class="out"> → Markdown table 產生</span></div>
+          <div class="l"><span class="warn">轉捩點：2024-11 Anthropic 推出 MCP</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 12 — Stage 3 Claude Code -->
+<section class="slide" data-label="Claude Code 2025">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Stage 3 · 2025 – 現在</div>
+    <h2 class="head reveal">Claude Code — 從聊天機器人變成 <span class="hl">AI agent</span></h2>
+    <div class="term reveal">
+      <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">drake@cvlab : ~/journal-reading — claude</span></div>
+      <div class="term-body">
+        <div class="l"><span class="pr">❯</span> <span class="cm">claude</span> <span class="s">"每週把當期 Circulation 的 ACS 文章整理成中文講義"</span></div>
+        <div class="l"><span class="ok">✓</span> <span class="out">mcp__pubmed__search</span>  <span class="c"># 搜尋本週 Circulation ACS</span></div>
+        <div class="l"><span class="ok">✓</span> <span class="out">mcp__pubmed__fetch_articles</span>  <span class="c"># 擷取全文 / abstract</span></div>
+        <div class="l"><span class="ok">✓</span> <span class="out">Write</span> handouts/01-ischemic-heart-disease/<span class="v">weekly.md</span></div>
+        <div class="l"><span class="ok">✓</span> <span class="out">Bash</span> marp --pdf weekly_Marp.md  <span class="c"># 投影片 + PDF</span></div>
+        <div class="l"><span class="ok">✓</span> <span class="out">git commit -m</span> <span class="s">"weekly ACS review"</span> <span class="ok">&amp;&amp; push</span><span class="cur"></span></div>
+      </div>
+    </div>
+    <div class="cards c3 reveal" style="margin-top:var(--content-gap)">
+      <div class="cell"><span class="ico">⚙</span><h4>讀寫檔案 · 執行指令</h4><p>直接在電腦上操作，存檔、推 Git</p></div>
+      <div class="cell"><span class="ico">🔌</span><h4>呼叫 MCP servers</h4><p>PubMed · Semantic Scholar · CT.gov · ClinPGx</p></div>
+      <div class="cell"><span class="ico">♻</span><h4>每週一個 workflow</h4><p>搜尋→閱讀→整理→投影片→郵件 全自動</p></div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 13 — DIVIDER Part 3 -->
+<section class="slide divider" data-label="Part 3">
+  <div class="slide-content">
+    <div class="pnum reveal">03</div>
+    <h2 class="reveal">Claude Code <span class="hl">&amp;</span> MCP</h2>
+    <div class="en reveal">兩個核心引擎：agent + 外接的醫學資料庫</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 14 — Claude Code 三句話 -->
+<section class="slide" data-label="Claude Code">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 3 · 三句話說明</div>
+    <h2 class="head reveal">Claude Code — 你<span class="cy">不需要會寫 code</span></h2>
+    <div class="twocol">
+      <ul class="clean reveal">
+        <li><b>Anthropic 官方 CLI</b>，把 Claude 模型直接放進終端機</li>
+        <li>不是聊天框，而是<b>可執行操作</b>的 AI agent</li>
+        <li>你給它一個 <b class="gd">CLAUDE.md</b> → 它自動遵循你的工作流程</li>
+        <li>產出皆<b>可重複、可追蹤、可分享</b>（檔案 / Git / Markdown / PDF）</li>
+      </ul>
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">~/journal-reading — cat CLAUDE.md</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">cat</span> <span class="arg">CLAUDE.md</span></div>
+          <div class="l"><span class="c"># 工作流程：醫學文獻 → 雙語講義</span></div>
+          <div class="l"><span class="k">語言</span>：繁體中文 + 保留英文藥名</div>
+          <div class="l"><span class="k">引用</span>：Vancouver + PubMed/DOI 連結</div>
+          <div class="l"><span class="k">輸出</span>：講義.md + Marp + PDF</div>
+          <div class="l"><span class="k">作者</span>：謝慕揚 MD, PhD, FESC</div>
+          <div class="l"><span class="ok">→ 一次定義，之後每次自動執行</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 15 — 什麼是 MCP -->
+<section class="slide" data-label="什麼是 MCP">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 3 · Model Context Protocol</div>
+    <h2 class="head reveal">MCP = Claude 這位研究助理的 <span class="hl">USB 接口</span></h2>
+    <div class="twocol w4060">
+      <div class="stack reveal">
+        <div class="note">Claude = 聰明的研究助理 · MCP = 它的 <span class="em">USB 接口</span> · 每個 server = 一個外接裝置。</div>
+        <ul class="clean">
+          <li><b>Anthropic 2024-11</b> 發布的開放標準</li>
+          <li>標準化 AI ↔ 外部工具（API、DB、檔案系統）的溝通</li>
+          <li>任何人都能寫 server → 生態系快速膨脹</li>
+        </ul>
+        <div class="pearl">意義：Claude 不再被困在對話框，可直接<span class="em">操作真實世界</span>的醫學資料庫。</div>
+      </div>
+      <!-- USB analogy diagram (CSS) -->
+      <div class="r-scale" style="display:flex;flex-direction:column;align-items:center;gap:.55rem;font-family:var(--mono)">
+        <div style="border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:.7em 1.3em;color:var(--gold);font-weight:700">🤖 Claude（研究助理）</div>
+        <div style="color:var(--cyan)">▏</div>
+        <div style="border:1px dashed var(--cyan);border-radius:8px;padding:.4em 1em;color:var(--cyan);font-size:var(--small-size)">MCP · USB 接口</div>
+        <div style="color:var(--cyan)">╱&nbsp;&nbsp;│&nbsp;&nbsp;╲</div>
+        <div style="display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;max-width:100%">
+          <span class="tag">PubMed</span><span class="tag">Semantic Scholar</span><span class="tag">ClinicalTrials.gov</span>
+          <span class="tag">ClinPGx</span><span class="tag">Zotero</span><span class="tag">Gmail</span><span class="tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 16 — 我每天用的 MCP servers -->
+<section class="slide" data-label="MCP servers">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 3 · 每天在用的 MCP Servers</div>
+    <h2 class="head reveal">我的 <span class="cy">MCP</span> 清單 — 在 ACS / Efient 的角色</h2>
+    <table class="etable reveal">
+      <thead><tr><th>MCP Server</th><th>功能</th><th class="cy">在 Efient 範例的角色</th></tr></thead>
+      <tbody>
+        <tr><td><strong>PubMed</strong></td><td>3,600 萬筆生醫文獻</td><td>ISAR-REACT 5、TROPICAL-ACS 全文檢索</td></tr>
+        <tr><td><strong>Semantic Scholar</strong></td><td>2 億篇 + citation graph</td><td>找 prasugrel 領域 key papers / h-index</td></tr>
+        <tr><td><strong>bioRxiv / medRxiv</strong></td><td>預印本</td><td>最新 ACS guideline、機轉研究</td></tr>
+        <tr><td><strong>ClinicalTrials.gov</strong></td><td>註冊試驗資料</td><td>確認 NCT、追進行中試驗</td></tr>
+        <tr><td><strong>ClinPGx</strong> (PharmGKB)</td><td>CYP2C19 / 藥物基因</td><td>解讀 prasugrel vs clopidogrel 在 LOF 病人</td></tr>
+        <tr><td><strong>Zotero</strong></td><td>書目管理</td><td>匯出 BibTeX、整理 citation</td></tr>
+        <tr><td><strong>Gmail / Calendar / GitHub</strong></td><td>工作流自動化</td><td>草稿 email、行事曆、版本控管</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 17 — DIVIDER Part 4 -->
+<section class="slide divider" data-label="Part 4">
+  <div class="slide-content">
+    <div class="pnum reveal">04</div>
+    <h2 class="reveal">Scientific <span class="hl">Skills</span></h2>
+    <div class="en reveal">Claude 內建的「科研工具箱」 ★ V2 大幅擴充</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 18 — 什麼是 Scientific Skills -->
+<section class="slide" data-label="什麼是 Skills">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 4 · 定義</div>
+    <h2 class="head reveal">Skill = 打包好的<span class="cy">研究流程</span>（結構化 prompt + 工具組合）</h2>
+    <div class="twocol">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">claude — invoke skill</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">skill</span> <span class="arg">literature-review</span></div>
+          <div class="l"><span class="ok">▶ Launching skill: literature-review</span></div>
+          <div class="l"><span class="out">  載入方法論：PICO + PRISMA</span></div>
+          <div class="l"><span class="out">  自動串接：PubMed · CT.gov · S2</span></div>
+          <div class="l"><span class="out">  輸出規格：evidence table + gap analysis</span><span class="cur"></span></div>
+        </div>
+      </div>
+      <ul class="clean reveal">
+        <li>呼叫名字（如 <span class="gd">literature-review</span>）→ 自動套用其方法論</li>
+        <li><b>可重複</b>：每次回顧都遵循同一套流程</li>
+        <li><b>內含領域知識</b>：知道要用 PRISMA / PICO</li>
+        <li><b>與 MCP 自動串接</b>：自帶該領域常用資料庫</li>
+      </ul>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">比喻：<b>MCP 是工具，Skills 是 SOP</b> — Skills 教 Claude 怎麼把工具用得<span class="em">對</span>。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 19 — Skills vs MCP -->
+<section class="slide" data-label="Skills vs MCP">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 4 · 兩者的差別</div>
+    <h2 class="head reveal">Skills <span class="rd">vs</span> MCP</h2>
+    <table class="etable reveal">
+      <thead><tr><th>維度</th><th>MCP</th><th class="cy">Skills</th></tr></thead>
+      <tbody>
+        <tr><td><strong>本質</strong></td><td>工具（資料來源、API）</td><td>流程（方法論、SOP）</td></tr>
+        <tr><td><strong>比喻</strong></td><td>USB 接口</td><td>SOP 手冊</td></tr>
+        <tr><td><strong>範例</strong></td><td>PubMed MCP、Gmail MCP</td><td>literature-review、citation-management</td></tr>
+        <tr><td><strong>誰寫</strong></td><td>Anthropic + 社群 + 自己</td><td>Anthropic + 領域專家</td></tr>
+        <tr><td><strong>何時呼叫</strong></td><td>需要外部資料時</td><td>進入特定 workflow 時</td></tr>
+        <tr><td><strong>對醫師意義</strong></td><td>拓展能接觸的資料</td><td>確保用對的方法做事</td></tr>
+      </tbody>
+    </table>
+    <div class="note reveal" style="margin-top:var(--content-gap)">實務上：<b>Skill 內部會主動呼叫 MCP</b>；你只要呼叫 skill，剩下交給它。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 20 — 核心 Skills 清單 -->
+<section class="slide" data-label="核心 Skills">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 4 · 我在 ACS / Efient workflow 用到的核心 Skills</div>
+    <h2 class="head reveal">十個 <span class="hl">Skills</span>，一條 pipeline</h2>
+    <div class="cards c3 reveal">
+      <div class="cell"><h4>literature-review</h4><p>PRISMA 式系統性搜尋 → ISAR 系列 + de-escalation</p></div>
+      <div class="cell"><h4>citation-management</h4><p>Vancouver / DOI / PubMed link → 30 篇清單</p></div>
+      <div class="cell"><h4>scientific-writing</h4><p>段落式醫學寫作（不只 bullet）</p></div>
+      <div class="cell"><h4>clinical-decision-support</h4><p>病人分層 → Prasugrel 選藥流程</p></div>
+      <div class="cell"><h4>clinical-reports</h4><p>Trial / case 結構化 → TRITON-TIMI 38</p></div>
+      <div class="cell"><h4>statistical-analysis</h4><p>HR / CI / NNT / non-inferiority</p></div>
+      <div class="cell"><h4>scientific-visualization</h4><p>KM 曲線、forest plot（出版級）</p></div>
+      <div class="cell"><h4>pubmed-database</h4><p>進階 PubMed / MeSH 重寫</p></div>
+      <div class="cell"><h4>clinpgx-database</h4><p>CYP2C19 LOF → clopidogrel 失效</p></div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 21 — literature-review skill -->
+<section class="slide" data-label="literature-review">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Skill 01 · literature-review</div>
+    <h2 class="head reveal">進入 <span class="cy">PRISMA</span> 模式</h2>
+    <div class="twocol">
+      <ul class="clean reveal">
+        <li>① 明確界定 <b>PICO</b></li>
+        <li>② 同時查多個資料庫（PubMed · S2 · bioRxiv · CT.gov）</li>
+        <li>③ <b>Boolean / MeSH 重寫</b> query → 提升精準</li>
+        <li>④ 去重 + 評分（相關性、設計階層、年）</li>
+        <li>⑤ 結構化抽取：design · N · endpoint · result · bleeding</li>
+        <li>⑥ 產出 <b class="gd">PRISMA flow + 證據表 + 缺口分析</b></li>
+      </ul>
+      <div class="pcard reveal">
+        <div class="pcard-h">我給它的觸發語 · trigger</div>
+        <div class="pcard-b">
+          <div class="seg"><span class="tx">請用 <span class="v">literature-review</span> skill，做一份</span></div>
+          <div class="seg"><span class="tx">「prasugrel 在 ACS 的 head-to-head trials」</span></div>
+          <div class="seg"><span class="tx">PRISMA-style 回顧；時間 <span class="n">2007–2026</span>；</span></div>
+          <div class="seg"><span class="tx">產出 <span class="f">evidence table</span> + <span class="f">gap analysis</span>。</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 22 — citation-management skill -->
+<section class="slide" data-label="citation-management">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Skill 02 · citation-management</div>
+    <h2 class="head reveal">一次解決<span class="cy">引用格式</span>與幻覺 PMID</h2>
+    <div class="twocol w4060">
+      <ul class="clean reveal">
+        <li>痛點：Vancouver 手排很痛、AI 易<b class="rd">幻覺 PMID</b></li>
+        <li>從 PubMed / Crossref 抓<b>真實 metadata</b></li>
+        <li>驗證 DOI 是否可解析（避免 hallucinated DOI）</li>
+        <li>統一格式（Vancouver / AMA / APA）</li>
+        <li>產出 <b class="gd">BibTeX、RIS</b>（匯入 Zotero / EndNote）</li>
+      </ul>
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">citation-management — verify &amp; export</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">verify</span> <span class="arg">31475799</span> <span class="flag">--format</span> <span class="s">vancouver</span></div>
+          <div class="l"><span class="out">resolving DOI 10.1056/NEJMoa1908973 …</span> <span class="ok">200 OK</span></div>
+          <div class="l"><span class="ok">✓</span> Schüpke S, et al. <span class="v">N Engl J Med</span>. 2019;</div>
+          <div class="l">  381(16):1524-1534.  <span class="ok">link verified</span></div>
+          <div class="l"><span class="pr">❯</span> <span class="cm">export</span> <span class="flag">--bibtex</span> <span class="ok">→ refs.bib (30 entries)</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 23 — scientific-writing skill -->
+<section class="slide" data-label="scientific-writing">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Skill 03 · scientific-writing</div>
+    <h2 class="head reveal">段落式醫學寫作 — <span class="cy">不要 bullet 海</span></h2>
+    <div class="twocol w4060">
+      <ul class="clean reveal">
+        <li>Bullet 適合投影片，<b>講義主文需要連貫敘事</b></li>
+        <li>AI 預設寫 bullet → 不適合期刊 / 教科書風格</li>
+        <li>強制段落結構：<b class="gd">topic sentence → evidence → implication</b></li>
+      </ul>
+      <div class="pcard reveal">
+        <div class="pcard-h">兩階段寫作策略</div>
+        <div class="pcard-b">
+          <div class="seg"><span class="lab g">Stage 1</span><span class="tx">請 Claude 列出每段 outline（3-5 句）</span></div>
+          <div class="seg"><span class="lab g">Stage 2</span><span class="tx">我審核 outline → 再展開為完整段落</span></div>
+          <div class="seg" style="margin-top:.5em;color:var(--mut)">// 對 ACS 講義特別有用：避免把 ISAR-REACT 5</div>
+          <div class="seg" style="color:var(--mut)">// 寫成五個 bullet，而是「背景→設計→結果→限制→臨床意義」</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 24 — clinical-decision-support skill -->
+<section class="slide" data-label="clinical-decision-support">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Skill 04 · clinical-decision-support</div>
+    <h2 class="head reveal">把證據變成 <span class="cy">決策樹</span></h2>
+    <div class="twocol">
+      <div class="stack reveal">
+        <ul class="clean">
+          <li>把「ISAR-REACT 5 → prasugrel 優於 ticagrelor」</li>
+          <li>轉化為 cath lab 實際<b>選藥流程</b></li>
+          <li>兼顧 contraindication（prior stroke）與特殊族群</li>
+        </ul>
+        <div class="note">自動產出：<b>病人分層表</b> · <b>決策流程圖 (mermaid)</b> · <b>red flags</b> · <b>替代方案</b>。接在 scientific-writing 後 → 「文獻摘要 + 臨床建議」雙層講義。</div>
+      </div>
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">clinical-decision-support → decision tree</span></div>
+        <div class="term-body">
+          <div class="l"><span class="v">ACS, invasive planned</span></div>
+          <div class="l"><span class="out">├─</span> prior stroke/TIA? <span class="er">Yes</span> → 避免 prasugrel</div>
+          <div class="l"><span class="out">├─</span> Age ≥ 75?        <span class="warn">Yes</span> → 慎用 / 5 mg</div>
+          <div class="l"><span class="out">├─</span> BW &lt; 60 kg?      <span class="warn">Yes</span> → prasugrel 5 mg</div>
+          <div class="l"><span class="out">└─</span> 無上述           <span class="ok">→ prasugrel 60/10</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 25 — statistical-analysis skill -->
+<section class="slide" data-label="statistical-analysis">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Skill 05 · statistical-analysis</div>
+    <h2 class="head reveal">解讀 trial <span class="cy">統計</span> — 不只看 HR</h2>
+    <table class="etable reveal" style="margin-bottom:var(--content-gap)">
+      <thead><tr><th>Trial</th><th>關鍵統計概念</th><th class="cy">Skill 做什麼</th></tr></thead>
+      <tbody>
+        <tr><td><strong>ISAR-REACT 5</strong></td><td>HR 1.36 (1.09–1.70)</td><td>解釋 ITT vs PP；計算 NNT</td></tr>
+        <tr><td><strong>TROPICAL-ACS</strong></td><td>Non-inferiority margin 30%</td><td>解非劣性檢定閾值意義</td></tr>
+        <tr><td><strong>HOST-REDUCE</strong></td><td>2×2 factorial</td><td>解 factorial design</td></tr>
+      </tbody>
+    </table>
+    <div class="pcard reveal">
+      <div class="pcard-h">我請 skill 做的事</div>
+      <div class="pcard-b">
+        <div class="seg"><span class="tx">解釋 ISAR-REACT 5 為何用 <span class="v">HR</span> 而非 OR；計算 1 年後 <span class="f">ARR</span> 與 <span class="f">NNT</span>；</span></div>
+        <div class="seg"><span class="tx">評估 <span class="n">1.09–1.70</span> 的 CI 是否包含臨床有意義差異。</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 26 — scientific-visualization skill -->
+<section class="slide" data-label="scientific-visualization">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Skill 06 · scientific-visualization</div>
+    <h2 class="head reveal">自動產生<span class="cy">出版級</span>圖表</h2>
+    <div class="twocol">
+      <div class="stack reveal">
+        <ul class="clean">
+          <li><b>Forest plot</b>：ISAR-REACT 5 + TRITON + meta</li>
+          <li><b>Kaplan-Meier</b>：模擬重繪 primary endpoint</li>
+          <li><b>Subgroup forest</b>：ELDERLY-ACS 2 各亞群 HR</li>
+        </ul>
+        <div class="note">工具鏈自動選 <span class="em">matplotlib / seaborn / plotly</span>；300 DPI、色盲友善 → 存 PNG/SVG。</div>
+      </div>
+      <!-- ASCII forest plot mock inside terminal -->
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">forest_plot.py — prasugrel vs comparator</span></div>
+        <div class="term-body" style="line-height:1.6">
+          <div class="l"><span class="out">Trial            HR  </span><span class="c">favours◄─┼─►harm</span></div>
+          <div class="l"><span class="v">TRITON   </span><span class="out">0.81 </span><span class="ok">──■──</span><span class="out">┊</span></div>
+          <div class="l"><span class="v">ISAR-5   </span><span class="out">1.36 </span><span class="out">┊ </span><span class="er">──■──</span></div>
+          <div class="l"><span class="v">TROPICAL </span><span class="out">0.81 </span><span class="ok">──■─</span><span class="out">┊</span></div>
+          <div class="l"><span class="v">HOST-RED </span><span class="out">0.70 </span><span class="ok">─■──</span><span class="out">┊</span></div>
+          <div class="l"><span class="out">              </span><span class="c">0.5    1.0    2.0</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 27 — clinpgx-database skill -->
+<section class="slide" data-label="clinpgx">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Skill 07 · clinpgx-database</div>
+    <h2 class="head reveal">藥物基因組學 — 與 Efient <span class="hl">高度相關</span></h2>
+    <div class="twocol w4060">
+      <ul class="clean reveal">
+        <li>Clopidogrel 是 prodrug → 需 <b>CYP2C19</b> 活化</li>
+        <li><b class="rd">CYP2C19 LOF carrier</b>（亞洲人約 50–60%）→ clopidogrel 失效</li>
+        <li>Prasugrel / ticagrelor <b>不依賴 CYP2C19</b></li>
+        <li>LOF 病人 → 強適應症用 prasugrel / ticagrelor</li>
+      </ul>
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">clinpgx — CPIC guideline lookup</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr">❯</span> <span class="cm">cpic</span> <span class="arg">CYP2C19</span> <span class="flag">--snp</span> <span class="s">rs4244285</span></div>
+          <div class="l"><span class="out">genotype *2/*2 →</span> <span class="er">Poor Metabolizer</span></div>
+          <div class="l"><span class="out">clopidogrel:</span> <span class="er">avoid — 療效不足</span></div>
+          <div class="l"><span class="out">建議:</span> <span class="ok">prasugrel / ticagrelor</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">臨床啟示：在 ISAR-REACT 5 次族群中，<b>prasugrel 的優勢在亞洲族群可能放大</b>。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 28 — Skills pipeline -->
+<section class="slide" data-label="Skills pipeline">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 4 · 把 Skills 串起來</div>
+    <h2 class="head reveal">我的 ACS / Efient <span class="hl">完整 pipeline</span></h2>
+    <div class="term reveal">
+      <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">~/journal-reading — efient_pipeline.sh</span></div>
+      <div class="term-body" style="line-height:1.62">
+        <div class="l"><span class="pr">❯</span> <span class="cm">run</span> efient_pipeline</div>
+        <div class="l"><span class="ok">[1]</span> <span class="f">literature-review</span>   <span class="out">→ ISAR-5 · TRITON · TROPICAL · TOPIC · HOST-REDUCE · ELDERLY-2 · POPular AGE</span></div>
+        <div class="l"><span class="ok">[2]</span> <span class="f">citation-management</span> <span class="out">→ 驗證 PMID/DOI；Vancouver + BibTeX</span></div>
+        <div class="l"><span class="ok">[3]</span> <span class="f">statistical-analysis</span> <span class="out">→ HR / CI / NNT / non-inferiority margin</span></div>
+        <div class="l"><span class="ok">[4]</span> <span class="f">scientific-writing</span>  <span class="out">→ 段落式講義主文</span></div>
+        <div class="l"><span class="ok">[5]</span> <span class="f">clinical-decision-support</span> <span class="out">→ Prasugrel 選藥流程</span></div>
+        <div class="l"><span class="ok">[6]</span> <span class="f">scientific-visualization</span> <span class="out">→ forest plot + KM 曲線</span></div>
+        <div class="l"><span class="ok">[7]</span> <span class="f">pptx + Marp</span>        <span class="out">→ 投影片 + 教學講義 PDF</span></div>
+        <div class="l"><span class="ok">✓ done</span> <span class="out">in ~90 min</span><span class="cur"></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 29 — DIVIDER Part 5 -->
+<section class="slide divider" data-label="Part 5">
+  <div class="slide-content">
+    <div class="pnum reveal">05</div>
+    <h2 class="reveal">Prompt <span class="hl">Engineering</span></h2>
+    <div class="en reveal">寫好提示詞，把投影片磨亮 ★ V2 全新</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 30 — 為什麼 prompt 重要 -->
+<section class="slide" data-label="為何 prompt">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 5 · 同一個 Claude，產出差 10 倍</div>
+    <h2 class="head reveal">壞 prompt <span class="rd">vs</span> 好 prompt</h2>
+    <div class="twocol reveal">
+      <div class="term">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">❌ bad-prompt</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr2">你</span><span class="out">：幫我做 ISAR-REACT 5 的投影片</span></div>
+          <div class="l"><span class="er">→ 模糊、缺數據、沒有引用</span></div>
+          <div class="l"><span class="er">→ 5 張無法上台的投影片</span></div>
+        </div>
+      </div>
+      <div class="term">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">✅ good-prompt</span></div>
+        <div class="term-body">
+          <div class="l"><span class="pr2">你</span><span class="out">：明確 PICO + 輸出格式</span></div>
+          <div class="l"><span class="out">  + 字數限制 + 引用要求</span></div>
+          <div class="l"><span class="ok">→ 可直接上台的 8 張投影片</span><span class="cur"></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="cards c3 reveal" style="margin-top:var(--content-gap)">
+      <div class="cell"><span class="ico">①</span><h4>明確 Specific</h4><p>少用「好的」「漂亮的」抽象詞</p></div>
+      <div class="cell"><span class="ico">②</span><h4>結構化 Structured</h4><p>切成 Goal / Context / Format / Constraint</p></div>
+      <div class="cell"><span class="ico">③</span><h4>可迭代 Iterative</h4><p>每輪只改一個面向</p></div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 31 — GCFC 四段結構 -->
+<section class="slide" data-label="GCFC 結構">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 5 · 好 Prompt 的四段結構</div>
+    <h2 class="head reveal"><span class="cy">GCFC</span> — Goal · Context · Format · Constraint</h2>
+    <div class="pcard reveal">
+      <div class="pcard-h">Efient 投影片實例 · ISAR-REACT 5</div>
+      <div class="pcard-b">
+        <div class="seg"><span class="lab g">[Goal]</span><span class="tx">幫我做一張投影片，總結 ISAR-REACT 5 的主要結果</span></div>
+        <div class="seg"><span class="lab">[Context]</span><span class="tx">對象是新進 fellow（已知 DAPT 概念，未讀原文）；cath conference 5 分鐘</span></div>
+        <div class="seg"><span class="lab p">[Format]</span><span class="tx">Marp，1 張 slide：N、design、primary endpoint、結果(HR + 95% CI + p)、bleeding、結論一句話</span></div>
+        <div class="seg"><span class="lab r">[Constraint]</span><span class="tx">所有數字對照原文；引用附 PubMed link；中英對照</span></div>
+      </div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">四段缺一不可：Goal 說<b>要什麼</b>，Context 給<b>背景</b>，Format 定<b>格式</b>，Constraint 設<b>護欄</b>。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 32 — PICO prompt -->
+<section class="slide" data-label="PICO prompt">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 5 · 用 PICO 寫文獻回顧 prompt</div>
+    <h2 class="head reveal"><span class="cy">PICO</span> 框架 → 精準的搜尋 prompt</h2>
+    <div class="twocol">
+      <table class="etable reveal">
+        <thead><tr><th>元素</th><th class="cy">ISAR-REACT 5 例</th></tr></thead>
+        <tbody>
+          <tr><td><strong>P</strong> Population</td><td>ACS 病人，計畫 invasive</td></tr>
+          <tr><td><strong>I</strong> Intervention</td><td>Prasugrel 60→10 mg</td></tr>
+          <tr><td><strong>C</strong> Comparator</td><td>Ticagrelor 180→90 mg BID</td></tr>
+          <tr><td><strong>O</strong> Outcome</td><td>Death/MI/stroke @ 12m</td></tr>
+        </tbody>
+      </table>
+      <div class="pcard reveal">
+        <div class="pcard-h">寫成 prompt</div>
+        <div class="pcard-b">
+          <div class="seg"><span class="tx">請用 <span class="v">literature-review</span> skill 找 RCT：</span></div>
+          <div class="seg"><span class="lab">P</span><span class="tx">ACS (STEMI/NSTEMI/UA)</span></div>
+          <div class="seg"><span class="lab">I</span><span class="tx">Prasugrel</span></div>
+          <div class="seg"><span class="lab">C</span><span class="tx">Ticagrelor</span></div>
+          <div class="seg"><span class="lab">O</span><span class="tx">12-month MACE</span></div>
+          <div class="seg"><span class="tx" style="color:var(--mut)">2015–2026；只要 RCT/meta；附 PMID + DOI</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 33 — Iterative prompting 五輪 -->
+<section class="slide" data-label="五輪精修">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 5 · Iterative Prompting</div>
+    <h2 class="head reveal">五輪精修<span class="cy">一張</span>投影片 — 每輪只改一個維度</h2>
+    <div class="term reveal">
+      <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">claude — ISAR-REACT-5 slide (iterate)</span></div>
+      <div class="term-body" style="line-height:1.7">
+        <div class="l"><span class="out">R1 起手 </span><span class="pr2">你▸</span> <span class="s">"做 ISAR-REACT 5 的結果投影片"</span> <span class="out">→ 通用、缺細節</span></div>
+        <div class="l"><span class="out">R2 補數據 </span><span class="pr2">你▸</span> <span class="s">"加 N、HR、95% CI、p、BARC 3-5 bleeding"</span></div>
+        <div class="l"><span class="out">R3 補表格 </span><span class="pr2">你▸</span> <span class="s">"把 primary 拆成 death/MI/stroke 各數字做表"</span></div>
+        <div class="l"><span class="out">R4 補引用 </span><span class="pr2">你▸</span> <span class="s">"底部加上 PubMed link 31475799"</span></div>
+        <div class="l"><span class="out">R5 調風格 </span><span class="pr2">你▸</span> <span class="s">"縮成 6 bullet；中英對照；強調 stroke 無差異"</span></div>
+        <div class="l"><span class="ok">✓ 收斂為可上台版本</span><span class="cur"></span></div>
+      </div>
+    </div>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">每輪<span class="em">只改一個維度</span> — 才能看出哪一輪改壞了。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 34 — 修投影片的技巧 -->
+<section class="slide" data-label="修投影片技巧">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 5 · 修「投影片本身」的常用提示詞</div>
+    <h2 class="head reveal">八個<span class="cy">可複製貼上</span>的修改模板</h2>
+    <div class="term reveal">
+      <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">~/prompts — slide_edits.txt</span></div>
+      <div class="term-body" style="line-height:1.62">
+        <div class="l"><span class="n">1</span> <span class="f">簡化</span>  <span class="s">"每個 bullet 不超過 12 字"</span></div>
+        <div class="l"><span class="n">2</span> <span class="f">拆分</span>  <span class="s">"分成兩張，避免文字溢出"</span></div>
+        <div class="l"><span class="n">3</span> <span class="f">補表</span>  <span class="s">"新增對比表：prasugrel vs ticagrelor PK/PD"</span></div>
+        <div class="l"><span class="n">4</span> <span class="f">補圖</span>  <span class="s">"補 KM 曲線示意（mermaid 或 ASCII）"</span></div>
+        <div class="l"><span class="n">5</span> <span class="f">加引用</span> <span class="s">"每張 H2 副標題加 PubMed link"</span></div>
+        <div class="l"><span class="n">6</span> <span class="f">換風格</span> <span class="s">"改成 quote-slide 風格"</span></div>
+        <div class="l"><span class="n">7</span> <span class="f">中英</span>  <span class="s">"英文術語保留原文，前加中文（中文 (English)）"</span></div>
+        <div class="l"><span class="n">8</span> <span class="f">對齊規範</span> <span class="s">"依 CLAUDE.md 的 Marp 規範調 colour scheme"</span></div>
+      </div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">訣竅：把這些 prompt <b>存成模板</b>，下次直接複製貼上。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 35 — 壞 vs 好 prompt 對照 -->
+<section class="slide" data-label="壞 vs 好對照">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 5 · 對照範例</div>
+    <h2 class="head reveal">壞 Prompt <span class="rd">→</span> 好 Prompt</h2>
+    <table class="etable compact reveal">
+      <thead><tr><th>場景</th><th class="hot">❌ 壞</th><th class="cy">✅ 好</th></tr></thead>
+      <tbody>
+        <tr><td><strong>找文獻</strong></td><td>找 prasugrel 的論文</td><td>用 literature-review 找 2019–2026 ACS prasugrel RCT，PRISMA flow，含 PMID</td></tr>
+        <tr><td><strong>做表格</strong></td><td>做個比較表</td><td>Marp 表格，欄位：Trial、N、Design、1° Endpoint、HR(CI)、Bleeding；4 列</td></tr>
+        <tr><td><strong>改投影片</strong></td><td>這張不好看，改一下</td><td>拆成兩張；第一張只放數據、第二張放臨床啟示，每張 ≤ 6 行</td></tr>
+        <tr><td><strong>寫結論</strong></td><td>下個結論</td><td>以 fellow 角度寫 2 句臨床啟示；不要超出原文</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 36 — 存進 CLAUDE.md → workflow -->
+<section class="slide" data-label="存進 CLAUDE.md">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 5 · 把 Prompt 存進 CLAUDE.md</div>
+    <h2 class="head reveal">一次寫好 → <span class="hl">一句話觸發</span> workflow</h2>
+    <div class="twocol w6040">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">CLAUDE.md — Recurring Tasks</span></div>
+        <div class="term-body">
+          <div class="l"><span class="c">### ACS Antiplatelet 文獻雙週回顧</span></div>
+          <div class="l"><span class="k">Trigger</span>: <span class="s">"Antiplatelet 文獻回顧"</span></div>
+          <div class="l"><span class="k">Workflow</span>:</div>
+          <div class="l"> 1. <span class="f">literature-review</span> 搜過去 14 天 PubMed</div>
+          <div class="l">    <span class="s">"P2Y12" OR "prasugrel" OR "ticagrelor"</span></div>
+          <div class="l">    AND <span class="s">("ACS" OR "PCI")</span></div>
+          <div class="l"> 2. 分類 head-to-head / de-escalation / 特殊族群</div>
+          <div class="l"> 3. <span class="f">citation-management</span> → Vancouver</div>
+          <div class="l"> 4. <span class="f">scientific-writing</span> → 段落式講義</div>
+          <div class="l"> 5. Marp 投影片 + PDF</div>
+          <div class="l"> 6. 移至 <span class="v">handouts/01-ischemic-heart-disease/</span><span class="cur"></span></div>
+        </div>
+      </div>
+      <div class="stack reveal">
+        <div class="note">之後只要打 <b class="em">「Antiplatelet 文獻回顧」</b> → 整個流程自動跑。</div>
+        <div class="term">
+          <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">claude</span></div>
+          <div class="term-body">
+            <div class="l"><span class="pr">❯</span> <span class="cm">claude</span> <span class="s">"Antiplatelet 文獻回顧"</span></div>
+            <div class="l"><span class="ok">✓ 觸發 Recurring Task …</span><span class="cur"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 37 — DIVIDER Part 6 -->
+<section class="slide divider" data-label="Part 6">
+  <div class="slide-content">
+    <div class="pnum reveal">06</div>
+    <h2 class="reveal">Three Worked <span class="hl">Examples</span></h2>
+    <div class="en reveal">全部以 ACS / Efient 為核心 ★ V2 替換</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 38 — 三範例設計邏輯 -->
+<section class="slide" data-label="三範例邏輯">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 6 · 設計邏輯</div>
+    <h2 class="head reveal">三個範例，<span class="cy">同一個 toolkit</span></h2>
+    <table class="etable reveal">
+      <thead><tr><th>#</th><th>主題</th><th>核心試驗</th><th class="cy">學習目標</th></tr></thead>
+      <tbody>
+        <tr><td><strong>1</strong></td><td>Head-to-head</td><td>ISAR-REACT 5 (NEJM 2019)</td><td>一篇 RCT 的完整 AI 拆解</td></tr>
+        <tr><td><strong>2</strong></td><td>De-escalation</td><td>TROPICAL-ACS · TOPIC · HOST-REDUCE</td><td>跨試驗 synthesize；non-inferiority</td></tr>
+        <tr><td><strong>3</strong></td><td>Special Populations</td><td>ELDERLY-ACS 2 · POPular AGE</td><td>把證據轉成 CDS；亞洲族群</td></tr>
+      </tbody>
+    </table>
+    <div class="note reveal" style="margin-top:var(--content-gap)">共用：<b>literature-review + citation-management + scientific-writing + clinical-decision-support</b>。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 39 — DIVIDER Example 1 -->
+<section class="slide divider" data-label="Example 1">
+  <div class="slide-content">
+    <div class="kicker reveal" style="justify-content:center"><span class="bar"></span>Example 1<span class="bar"></span></div>
+    <h2 class="reveal">ISAR-REACT 5</h2>
+    <div class="en reveal">Prasugrel vs Ticagrelor — 一篇 NEJM RCT 的完整 AI 拆解</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 40 — Ex1 Step 1 clinical question -->
+<section class="slide" data-label="Ex1 · 定義問題">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 1 · Step 1 — 定義 Clinical Question</div>
+    <h2 class="head reveal">一個 prompt 同時觸發 <span class="cy">2 個 skills</span></h2>
+    <div class="pcard reveal">
+      <div class="pcard-h">我給 Claude Code 的觸發 prompt</div>
+      <div class="pcard-b">
+        <div class="seg" style="color:var(--mut)">請用 <span class="v">literature-review</span> + <span class="v">clinical-reports</span> skill：</div>
+        <div class="seg"><span class="lab g">[Goal]</span><span class="tx">下週 cath conference 報 ISAR-REACT 5 的 15 分鐘</span></div>
+        <div class="seg"><span class="lab">[Context]</span><span class="tx">聽眾：新進 fellow + senior CV staff</span></div>
+        <div class="seg"><span class="lab p">[Format]</span><span class="tx">Marp 投影片 12–15 張 + 中英對照講義</span></div>
+        <div class="seg"><span class="lab r">[Constraint]</span><span class="tx">HR/CI/p 對照原文；附 NCT01944800、PMID 31475799、DOI；含 evidence table、Asian sub-analysis；最後一張 cath lab 選藥決策</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 41 — Ex1 Step 2 PubMed query -->
+<section class="slide" data-label="Ex1 · PubMed query">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 1 · Step 2 — Claude 自動展開的 PubMed Query</div>
+    <h2 class="head reveal">你看得懂 query 邏輯 → <span class="cy">可以挑戰它</span></h2>
+    <div class="twocol w6040">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">mcp__pubmed — expanded query</span></div>
+        <div class="term-body" style="line-height:1.55">
+          <div class="l"><span class="s">("ISAR-REACT 5"[All Fields])</span> <span class="k">OR</span> (</div>
+          <div class="l">  (<span class="s">"prasugrel"[MeSH]</span> <span class="k">OR</span> <span class="s">[tiab]</span>)</div>
+          <div class="l">  <span class="k">AND</span> (<span class="s">"ticagrelor"[MeSH]</span> <span class="k">OR</span> <span class="s">[tiab]</span>)</div>
+          <div class="l">  <span class="k">AND</span> (<span class="s">"acute coronary syndrome"[MeSH]</span></div>
+          <div class="l">       <span class="k">OR</span> <span class="s">"myocardial infarction"[MeSH]</span>)</div>
+          <div class="l">  <span class="k">AND</span> (<span class="s">"randomized controlled trial"[PT]</span>)</div>
+          <div class="l">) <span class="k">AND</span> (<span class="n">"2018"[PDAT] : "2026"[PDAT]</span>)<span class="cur"></span></div>
+        </div>
+      </div>
+      <ul class="clean reveal">
+        <li><b>主篇</b>：Schüpke S, et al. <span class="gd">NEJM 2019;381(16):1524-1534</span></li>
+        <li>sub-analysis：bleeding subgroup (Heart 2021)</li>
+        <li>long-term FU (Eur Heart J 2022)、Asia 次分析</li>
+        <li class="note" style="list-style:none;padding-left:.9em">你不用記 PubMed 語法 — 但<span class="em">看得懂、能挑戰</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 42 — Ex1 Step 3 full-text extraction -->
+<section class="slide" data-label="Ex1 · 全文擷取">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 1 · Step 3 — Full-text 抽取（Verified）</div>
+    <h2 class="head reveal">所有數字已用 <span class="cy">PubMed MCP</span> 驗證原文 <span class="en" style="font-size:.7em">PMID 31475799</span></h2>
+    <table class="etable compact reveal">
+      <tbody>
+        <tr><td><strong>N</strong></td><td>4,018（Prasugrel 2,006；Ticagrelor 2,012）</td><td><strong>HR</strong></td><td class="hot">1.36 (95% CI 1.09–1.70), p = 0.006</td></tr>
+        <tr><td><strong>Population</strong></td><td>ACS (STEMI/NSTEMI/UA), invasive</td><td><strong>MI</strong></td><td>4.8% vs 3.0%</td></tr>
+        <tr><td><strong>Design</strong></td><td>Multicenter RCT, open-label</td><td><strong>Stroke</strong></td><td class="neg">1.1% vs 1.0% (no diff)</td></tr>
+        <tr><td><strong>Primary</strong></td><td>Death/MI/stroke @ 1y</td><td><strong>BARC 3-5</strong></td><td class="neg">5.4% vs 4.8% (p=0.46, NS)</td></tr>
+        <tr><td><strong>Result</strong></td><td class="hot">Ticagrelor 9.3% vs Prasugrel 6.9%</td><td><strong>Stent thromb.</strong></td><td>1.3% vs 1.0%</td></tr>
+      </tbody>
+    </table>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">關鍵：primary 主要由 <span class="em">ischemic events</span> 驅動；bleeding <b>沒有顯著差異</b>（別誤判）。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 43 — Ex1 Step 4 evidence table -->
+<section class="slide" data-label="Ex1 · 證據表">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 1 · Step 4 — 自動產出的 Evidence Table</div>
+    <h2 class="head reveal">ISAR-REACT 5 <span class="rd">vs</span> TRITON-TIMI 38</h2>
+    <table class="etable compact reveal">
+      <thead><tr><th>Trial</th><th>N</th><th>Comparator</th><th>1° Endpoint</th><th>Result</th><th>Bleeding</th></tr></thead>
+      <tbody>
+        <tr><td><strong>ISAR-REACT 5</strong><br>(NEJM 2019)</td><td>4,018</td><td>Prasugrel vs Ticagrelor</td><td>CV death/MI/stroke 1y</td><td class="hot">6.9% vs 9.3%<br>(HR 1.36, p=0.006)</td><td class="neg">BARC 3-5 NS</td></tr>
+        <tr><td><strong>TRITON-TIMI 38</strong><br>(NEJM 2007)</td><td>13,608</td><td>Prasugrel vs Clopidogrel</td><td>CV death/MI/stroke ~14m</td><td class="pos">9.9% vs 12.1%<br>(HR 0.81, p&lt;0.001)</td><td class="hot">TIMI major ↑<br>(2.4% vs 1.8%)</td></tr>
+      </tbody>
+    </table>
+    <div class="twocol reveal" style="margin-top:var(--content-gap)">
+      <div class="note"><b>TRITON</b>：prasugrel 優於 clopidogrel，但 <span class="em">bleeding 增加</span>。</div>
+      <div class="note"><b>ISAR-REACT 5</b>：prasugrel 優於 ticagrelor，<span class="em">bleeding 沒差</span>。</div>
+    </div>
+    <div class="pearl reveal" style="margin-top:.5em">ACS + invasive：prasugrel 是合理 first-line（排除 prior stroke、age ≥75、BW &lt;60 kg）。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 44 — Ex1 Step 5 CDS flowchart -->
+<section class="slide" data-label="Ex1 · 選藥流程">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 1 · Step 5 — clinical-decision-support 流程圖</div>
+    <h2 class="head reveal">Claude 自動產出的 <span class="cy">選藥決策樹</span></h2>
+    <div class="term reveal">
+      <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">prasugrel_decision.mmd — auto-generated</span></div>
+      <div class="term-body" style="line-height:1.8">
+        <div class="l"><span class="v">ACS 病人，計畫 invasive evaluation</span></div>
+        <div class="l"><span class="out">        │</span></div>
+        <div class="l"><span class="out">        ├──</span> 有 prior stroke / TIA?  <span class="er">Yes →</span> Ticagrelor or Clopidogrel</div>
+        <div class="l"><span class="out">        ├──</span> Age ≥ 75?            <span class="warn">Yes →</span> 慎用 prasugrel (考慮 5 mg) 或 ticagrelor</div>
+        <div class="l"><span class="out">        ├──</span> BW &lt; 60 kg?          <span class="warn">Yes →</span> Prasugrel 5 mg 維持劑量</div>
+        <div class="l"><span class="out">        └──</span> 無上述條件           <span class="ok">→ Prasugrel 60/10 mg</span> <span class="c">(ISAR-5: 1° better)</span><span class="cur"></span></div>
+      </div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">這張圖由 Claude 自動產出（mermaid syntax）；我只需 review 是否符合<b>本院 ACS pathway</b>。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 45 — Ex1 Step 6 修投影片對話實錄 -->
+<section class="slide" data-label="Ex1 · 修圖實錄">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 1 · Step 6 — Claude 修投影片的對話實錄</div>
+    <h2 class="head reveal">每一輪<span class="cy">只動一個維度</span>，精準收斂</h2>
+    <div class="term reveal">
+      <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">claude — refine ISAR-REACT-5 slide</span></div>
+      <div class="term-body" style="line-height:1.72">
+        <div class="l"><span class="pr2">R2 我▸</span> <span class="s">"文字太多，拆成兩張；第一張只放數據，第二張放臨床啟示"</span></div>
+        <div class="l"><span class="ok">  ✓</span> <span class="out">拆兩張，臨床啟示自動加上</span> <span class="v">&lt;!-- _class: divider --&gt;</span></div>
+        <div class="l"><span class="pr2">R3 我▸</span> <span class="s">"把 stroke 那一行用 **bold** 強調沒有差異"</span></div>
+        <div class="l"><span class="ok">  ✓</span> <span class="out">改為</span> <span class="cm">Stroke: 1.1% vs 1.0% (NS)</span> <span class="out">並補一句解讀</span></div>
+        <div class="l"><span class="pr2">R4 我▸</span> <span class="s">"把 KM 曲線換成 mermaid 流程圖（沒授權重畫圖）"</span></div>
+        <div class="l"><span class="ok">  ✓</span> <span class="out">換決策樹 + 註明「KM 詳見原文 Figure 1」</span><span class="cur"></span></div>
+      </div>
+    </div>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">版權意識：不重畫受版權保護的原圖，改用<span class="em">自製決策樹</span> + 指向原文 Figure。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 46 — DIVIDER Example 2 -->
+<section class="slide divider" data-label="Example 2">
+  <div class="slide-content">
+    <div class="kicker reveal" style="justify-content:center"><span class="bar"></span>Example 2<span class="bar"></span></div>
+    <h2 class="reveal">De-escalation</h2>
+    <div class="en reveal">TROPICAL-ACS · TOPIC · HOST-REDUCE-POLYTECH-ACS</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 47 — Ex2 why + 3 trials -->
+<section class="slide" data-label="Ex2 · 為何重要">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 2 · 為什麼這個主題重要</div>
+    <h2 class="head reveal">早期強效 → 1 個月後<span class="cy">降階</span></h2>
+    <div class="twocol w4060">
+      <ul class="clean reveal">
+        <li>強效 P2Y12 <b>降低 ischemic events</b></li>
+        <li>但 <b class="rd">bleeding</b> 累積在 chronic phase</li>
+        <li>策略：早期強效 → 1m 後降為 clopidogrel 或低劑量 prasugrel</li>
+      </ul>
+      <table class="etable compact reveal">
+        <thead><tr><th>試驗</th><th>策略</th><th class="cy">引用</th></tr></thead>
+        <tbody>
+          <tr><td><strong>TROPICAL-ACS</strong><br>(Lancet 2017)</td><td>PFT-guided de-escalation</td><td>PMID 28855078</td></tr>
+          <tr><td><strong>TOPIC</strong><br>(EHJ 2017)</td><td>1m 後固定切 clopidogrel</td><td>Cuisset T et al.</td></tr>
+          <tr><td><strong>HOST-REDUCE</strong><br>(Lancet 2020)</td><td>Prasugrel 10→5 mg 降劑量</td><td>PMID 32882163</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 48 — Ex2 evidence table -->
+<section class="slide" data-label="Ex2 · 證據表">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 2 · Evidence Table（已驗證）</div>
+    <h2 class="head reveal">三條<span class="cy">降階</span>證據</h2>
+    <table class="etable compact reveal">
+      <thead><tr><th>Trial</th><th>N</th><th>策略</th><th>1° Endpoint</th><th>Result</th><th>結論</th></tr></thead>
+      <tbody>
+        <tr><td><strong>TROPICAL-ACS</strong></td><td>2,610</td><td>PFT-guided</td><td>NCB @ 1y</td><td>7% vs 9%<br>HR 0.81 (0.62–1.06)</td><td class="pos">Non-inferior<br>(p_NI=0.0004)</td></tr>
+        <tr><td><strong>TOPIC</strong></td><td>646</td><td>1m 切 clopidogrel</td><td>BARC ≥2 bleeding</td><td class="hot">4.0% vs 14.9%<br>HR 0.30, p&lt;0.01</td><td class="pos">Bleeding ↓;<br>ischemic 不變</td></tr>
+        <tr><td><strong>HOST-REDUCE</strong></td><td>2,338</td><td>Prasugrel 10→5 mg</td><td>NCB @ 1y</td><td class="pos">7.2% vs 10.1%<br>HR 0.70 (0.52–0.92)</td><td class="pos">Superior<br>(p=0.012)</td></tr>
+      </tbody>
+    </table>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">HOST-REDUCE 是<span class="em">亞洲（韓國）人群</span>的 dose-reduction 試驗 — 與我們族群高度相關。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 49 — Ex2 non-inferiority stats -->
+<section class="slide" data-label="Ex2 · 非劣性">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 2 · statistical-analysis — 解 non-inferiority</div>
+    <h2 class="head reveal">TROPICAL-ACS 的 <span class="cy">30% margin</span> 怎麼讀</h2>
+    <div class="twocol">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">statistical-analysis — non-inferiority</span></div>
+        <div class="term-body" style="line-height:1.65">
+          <div class="l"><span class="c"># margin = 30% → HR 上限 1.30 內仍算「不劣於」</span></div>
+          <div class="l"><span class="out">結果：</span><span class="n">HR 0.81 (95% CI 0.62–1.06)</span></div>
+          <div class="l"><span class="ok">CI 上限 1.06 &lt; 1.30</span> → 達 non-inferiority (p_NI=0.0004)</div>
+          <div class="l"><span class="warn">CI 上限 &lt; 1.0? 否</span> → 未達 superiority (p=0.12)</div>
+        </div>
+      </div>
+      <ul class="clean reveal">
+        <li>Claude 自動補上：</li>
+        <li><b>NNT for bleeding (TOPIC)</b> ≈ 9（10.9 百分點差距）</li>
+        <li><b>NNT for NCB (HOST-REDUCE)</b> ≈ 35</li>
+        <li class="note" style="list-style:none;padding-left:.9em">看 trial 不只看 HR — 看 <span class="em">margin、CI 上下限</span>的臨床意義</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 50 — Ex2 synthesis -->
+<section class="slide" data-label="Ex2 · 綜合啟示">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 2 · 跨試驗綜合啟示</div>
+    <h2 class="head reveal">AI 提供 synthesis，醫師補上<span class="cy">本院實況</span></h2>
+    <div class="twocol">
+      <div class="note reveal">三試驗從不同角度支持「de-escalation 可行」：<b>TROPICAL</b> 用 PFT 引導切藥；<b>TOPIC</b> 證明 1m 後切 clopidogrel 不增缺血；<b>HOST-REDUCE</b> 證明亞洲人 prasugrel 10→5 mg 更安全。</div>
+      <ul class="clean reveal">
+        <li>本院對 <b>ACS + 出血高風險</b>，1m 後降階是合理選擇</li>
+        <li><b>PFT 引導</b>在台灣不普及 → TOPIC / HOST-REDUCE 模式更實用</li>
+        <li><b class="gd">Asian 病人</b>特別適用 dose reduction（HOST-REDUCE 直接證據）</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 51 — DIVIDER Example 3 -->
+<section class="slide divider" data-label="Example 3">
+  <div class="slide-content">
+    <div class="kicker reveal" style="justify-content:center"><span class="bar"></span>Example 3<span class="bar"></span></div>
+    <h2 class="reveal">Special Populations</h2>
+    <div class="en reveal">Elderly / Low BW / Asian</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 52 — Ex3 prompt + ELDERLY-ACS 2 -->
+<section class="slide" data-label="Ex3 · ELDERLY-ACS 2">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 3 · 場景 + ELDERLY-ACS 2（Verified）</div>
+    <h2 class="head reveal">老年 ACS 用 prasugrel — <span class="cy">有什麼證據？</span></h2>
+    <div class="twocol">
+      <div class="pcard reveal">
+        <div class="pcard-h">prompt · 3 skills 串接</div>
+        <div class="pcard-b" style="font-size:calc(var(--mono-size)*.94)">
+          <div class="seg" style="color:var(--mut)">literature-review + clinpgx + clinical-decision-support：</div>
+          <div class="seg"><span class="lab g">[Goal]</span><span class="tx">≥75y / BW&lt;60 / Asian 證據彙整</span></div>
+          <div class="seg"><span class="lab r">[Must]</span><span class="tx">ELDERLY-ACS 2 (PMID 29459361)、POPular AGE (32334703)、Asian-PrasFit</span></div>
+          <div class="seg"><span class="lab p">[Format]</span><span class="tx">Evidence table + CDS 圖 + Asian dose</span></div>
+        </div>
+      </div>
+      <div class="stack reveal">
+        <table class="etable compact">
+          <thead><tr><th>ELDERLY-ACS 2 · Circ 2018</th><th>Pra 5mg</th><th>Clopi</th></tr></thead>
+          <tbody>
+            <tr><td>Primary composite</td><td>~17.0%</td><td class="neg">~16.6% (HR 1.007, NS)</td></tr>
+            <tr><td>BARC ≥2 bleeding</td><td class="hot">4.1%</td><td>2.7%（numerically ↑）</td></tr>
+          </tbody>
+        </table>
+        <div class="pearl">Reduced-dose prasugrel 在 elderly <span class="em">未顯著優於 clopidogrel</span>，反而 bleeding 偏高。</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 53 — Ex3 POPular AGE -->
+<section class="slide" data-label="Ex3 · POPular AGE">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 3 · POPular AGE（Verified · Lancet 2020）</div>
+    <h2 class="head reveal">≥70y NSTE-ACS：<span class="cy">clopidogrel</span> 出血少、NCB 不劣</h2>
+    <div class="twocol">
+      <table class="etable compact reveal">
+        <thead><tr><th>N=1,002 · ≥70y</th><th>Clopi</th><th>Potent (mainly ticagrelor)</th></tr></thead>
+        <tbody>
+          <tr><td>PLATO major/minor bleeding</td><td class="pos">18%</td><td class="hot">24% (HR 0.71, p=0.02)</td></tr>
+          <tr><td>NCB</td><td>28%</td><td class="neg">32% (non-inferior, p=0.03 NI)</td></tr>
+        </tbody>
+      </table>
+      <ul class="clean reveal">
+        <li>Clopidogrel <b>出血少</b>、總體 NCB <b>不劣於</b>強效藥</li>
+        <li><b class="rd">Bleeding-driven discontinuation</b> 是大問題（47% vs 22%）</li>
+        <li class="note" style="list-style:none;padding-left:.9em">高齡：避免 bleeding 的順從性問題比 ischemic 更關鍵</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 54 — Ex3 Asian prasugrel 3.75 -->
+<section class="slide" data-label="Ex3 · 亞洲劑量">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 3 · 亞洲族群與 Prasugrel 3.75 / 5 mg</div>
+    <h2 class="head reveal">亞洲 ACS：<span class="cy">prasugrel 5 mg 維持</span>是合理選擇</h2>
+    <div class="twocol">
+      <ul class="clean reveal">
+        <li>亞洲人（尤其日本）prasugrel <b>暴露量較高、出血風險較高</b></li>
+        <li>日本 PMDA 核准 <b class="gd">prasugrel 3.75 mg/day</b> 維持（loading 20 mg）</li>
+        <li>韓國 HOST-REDUCE：<b>10→5 mg</b> 降階優於 10 mg</li>
+      </ul>
+      <div class="stack reveal">
+        <table class="etable compact">
+          <thead><tr><th>Claude 自動補上的 evidence</th></tr></thead>
+          <tbody>
+            <tr><td><strong>PRASFIT-ACS</strong>（Saito, Circ J 2014）：日本人 3.75 mg vs clopidogrel</td></tr>
+            <tr><td><strong>HOST-REDUCE</strong>（PMID 32882163）：韓國人 5 mg de-escalation</td></tr>
+          </tbody>
+        </table>
+        <div class="note">高度建議在 <b>BW &lt;60 kg + age ≥75</b> 同時存在時降階。</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 55 — Ex3 CDS flowchart -->
+<section class="slide" data-label="Ex3 · 選藥流程">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 3 · 整合 CDS — Special Populations 選藥</div>
+    <h2 class="head reveal">由 <span class="cy">clinical-decision-support</span> 自動產出</h2>
+    <div class="term reveal">
+      <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">special_pop_decision.mmd</span></div>
+      <div class="term-body" style="line-height:1.72">
+        <div class="l"><span class="v">ACS post-PCI 需要 P2Y12 inhibitor</span></div>
+        <div class="l"><span class="out">   ├──</span> Prior stroke/TIA? <span class="er">Yes →</span> Clopidogrel or Ticagrelor（避免 prasugrel）</div>
+        <div class="l"><span class="out">   ├──</span> Age ≥ 75? <span class="warn">Yes →</span> POPular AGE: Clopi = ticagrelor (NCB), bleeding ↓</div>
+        <div class="l"><span class="out">   │</span>            <span class="out">ELDERLY-2: Pra 5mg ≠ better ⇒ 默認 Clopidogrel</span></div>
+        <div class="l"><span class="out">   ├──</span> BW &lt; 60 kg? <span class="warn">→</span> Prasugrel 5 mg 維持</div>
+        <div class="l"><span class="out">   └──</span> Asian + 標準 ACS: <span class="ok">HOST-REDUCE → 1m 後 10→5 mg</span> / 高出血風險直接 5 mg<span class="cur"></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 56 — Ex3 synthesis -->
+<section class="slide" data-label="Ex3 · 真正價值">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 3 · 真正的價值在 synthesis</div>
+    <h2 class="head reveal">AI 把 <span class="hl">7 個試驗</span>壓縮成一張流程圖</h2>
+    <div class="cards c2 reveal">
+      <div class="cell"><span class="ico">①</span><h4>無 stroke/age/BW 風險</h4><p>ISAR-REACT 5 支持 <b>prasugrel</b></p></div>
+      <div class="cell"><span class="ico">②</span><h4>&gt;70y 想避免 bleeding</h4><p>POPular AGE 支持 <b>clopidogrel</b></p></div>
+      <div class="cell"><span class="ico">③</span><h4>&gt;75y / BW&lt;60 / Asian</h4><p>降階（5 mg 或 1m de-escalation）</p></div>
+      <div class="cell"><span class="ico">④</span><h4>強效 + bleeding 累積</h4><p>1m 後切藥（TROPICAL / TOPIC / HOST-REDUCE）</p></div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">而我用 <b>5 分鐘 review</b> 它的邏輯，補上本院 pathway。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 57 — DIVIDER Part 7 -->
+<section class="slide divider" data-label="Part 7">
+  <div class="slide-content">
+    <div class="pnum reveal">07</div>
+    <h2 class="reveal">Tips <span class="hl">&amp;</span> Pitfalls</h2>
+    <div class="en reveal">驗證 · 幻覺 · 版權</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 58 — Do's -->
+<section class="slide" data-label="Do's">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 7 · Do's</div>
+    <h2 class="head reveal">讓 AI 更<span class="cy">有效</span>的技巧</h2>
+    <div class="cards c2 reveal">
+      <div class="cell"><span class="ico">✓</span><h4>Be specific</h4><p>用 PICO + GCFC 結構描述問題</p></div>
+      <div class="cell"><span class="ico">✓</span><h4>Iterate</h4><p>結果不滿意 → 要求調整策略</p></div>
+      <div class="cell"><span class="ico">✓</span><h4>Cross-reference</h4><p>同時用 PubMed 與 Semantic Scholar</p></div>
+      <div class="cell"><span class="ico">✓</span><h4>Date filters</h4><p>指定時間範圍，避免舊資料淹沒新證據</p></div>
+      <div class="cell"><span class="ico">✓</span><h4>MeSH terms</h4><p>請 Claude 用 MeSH 重寫 query</p></div>
+      <div class="cell"><span class="ico">✓</span><h4>Verify</h4><p>HR、p、N <b>一律對照原文</b></p></div>
+      <div class="cell"><span class="ico">✓</span><h4>Save the prompt</h4><p>好用的存進 CLAUDE.md</p></div>
+      <div class="cell"><span class="ico">✓</span><h4>善用 Skills</h4><p>literature-review 比手寫 prompt 穩定</p></div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 59 — Don'ts -->
+<section class="slide" data-label="Don'ts">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 7 · Don'ts</div>
+    <h2 class="head reveal">四件<span class="rd">不要</span>做的事</h2>
+    <div class="cards c2 reveal">
+      <div class="cell" style="border-color:#5a2730"><h4 style="color:var(--red)">✗ 直接相信 AI 的 citation</h4><p>偶爾 hallucinate 不存在的 PMID/DOI → 每個連結自己點一次；用 citation-management</p></div>
+      <div class="cell" style="border-color:#5a2730"><h4 style="color:var(--red)">✗ 用 abstract 就下結論</h4><p>Neutral trial 常被誤判 positive（POPular AGE NCB non-inferiority）→ 讀 full text、看 NI margin</p></div>
+      <div class="cell" style="border-color:#5a2730"><h4 style="color:var(--red)">✗ 讓 AI 寫你沒讀過的段落</h4><p>它能產出「像專家」的文字，但臨床解讀必須是<b>你自己的判斷</b></p></div>
+      <div class="cell" style="border-color:#5a2730"><h4 style="color:var(--red)">✗ 把病人資料丟進公開 AI</h4><p>HIPAA / 個資法 → 用 Claude for Work 或地端；identifier 絕不進入公開 AI</p></div>
+    </div>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">也不要把 ISAR-REACT 5 直接套到 <b>medically-managed ACS</b>（TRILOGY-ACS 顯示無顯著優勢）。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 60 — Hallucination forms -->
+<section class="slide" data-label="幻覺形式">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 7 · 幻覺 (Hallucination) 最常見的形式</div>
+    <h2 class="head reveal">每個結論都需<span class="cy">親眼看到原文 confirm</span></h2>
+    <table class="etable compact reveal">
+      <thead><tr><th>類型</th><th>具體例子（Efient 相關）</th><th class="cy">防範方法</th></tr></thead>
+      <tbody>
+        <tr><td><strong>假 citation</strong></td><td>編出一個 PMID，文章不存在</td><td>點開 PubMed link 驗證</td></tr>
+        <tr><td><strong>錯 N 或 %</strong></td><td>把 N=4,018 寫成 4,800</td><td>對照原文 abstract</td></tr>
+        <tr><td><strong>誤判顯著性</strong></td><td>把 BARC p=0.46 寫成「ticagrelor 更易出血」</td><td>讀 full text 的 primary result</td></tr>
+        <tr><td><strong>誤植作者</strong></td><td>Schüpke 寫成 Schunkert</td><td>核對第一 / 通訊作者</td></tr>
+        <tr><td><strong>過度推論</strong></td><td>從 ISAR-5 推到 medically-managed ACS</td><td>自己判斷 study population</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 61 — 版權與倫理 -->
+<section class="slide" data-label="版權與倫理">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 7 · 版權與倫理</div>
+    <h2 class="head reveal">永遠強調「<span class="cy">讀書會共筆整理人</span>」</h2>
+    <div class="cards c3 reveal">
+      <div class="cell"><h4>Full text 取得</h4><p>PMC open-access 可自由下載；非 OA 需機構訂閱，Claude 無法跳過 paywall</p></div>
+      <div class="cell"><h4>AI 產出的使用</h4><p>教學自用 OK；對外分享註明「AI 協助整理，僅供教學參考」；投稿依期刊政策揭露</p></div>
+      <div class="cell"><h4>我的做法</h4><p>每份 handout 底部：謝慕揚 MD, PhD, FESC — 讀書會共筆整理</p></div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">原則：<b>讀書會共筆整理人</b>，而非「精選專家」 — 誠實標示 AI 協助與不確定性。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 62 — DIVIDER Part 8 -->
+<section class="slide divider" data-label="Part 8">
+  <div class="slide-content">
+    <div class="pnum reveal">08</div>
+    <h2 class="reveal">Key <span class="hl">Takeaways</span></h2>
+    <div class="en reveal">你明天就能開始</div>
+    <div class="tick reveal"></div>
+  </div>
+</section>
+
+<!-- SLIDE 63 — 5 建議 (1-3) -->
+<section class="slide" data-label="建議 1-3">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 8 · 給年輕醫師的 5 個建議（1–3）</div>
+    <h2 class="head reveal">從<span class="cy">瀏覽器</span>就能開始</h2>
+    <div class="stack reveal">
+      <div class="cell"><h4 style="color:var(--gold)">1 · 先從 Claude.ai 網頁版 + PubMed connector 開始</h4><p>不需要學 CLI，瀏覽器就能用</p></div>
+      <div class="cell"><h4 style="color:var(--gold)">2 · 找一個你每週會做的重複任務試水溫</h4><p>例如：每週把當期 Circulation 的 ACS 文章整理成中文</p></div>
+      <div class="cell"><h4 style="color:var(--gold)">3 · 學 Skills 比學 prompt 重要</h4><p>literature-review + citation-management 兩個就夠你撐很久</p></div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 64 — 5 建議 (4-5) + core -->
+<section class="slide" data-label="建議 4-5">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 8 · 建議（4–5）+ 核心理念</div>
+    <h2 class="head reveal">追求<span class="cy">可重複</span>，而非完美</h2>
+    <div class="stack reveal">
+      <div class="cell"><h4 style="color:var(--gold)">4 · 從一個藥、一個主題開始</h4><p>先把 prasugrel 的 7 個試驗串起來；之後延伸 ticagrelor、cangrelor、DOAC</p></div>
+      <div class="cell"><h4 style="color:var(--gold)">5 · 進階時學 Claude Code + MCP + Git</h4><p>解鎖完整 agent workflow，把 prompt 寫進 CLAUDE.md</p></div>
+    </div>
+    <div class="twocol reveal" style="margin-top:var(--content-gap)">
+      <div class="pearl"><span class="em">不要追求完美</span>，追求<b>可重複</b>。</div>
+      <div class="note"><span class="em">不要取代</span>自己的判斷，而是<b>放大</b>自己的產出。</div>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 65 — 過去一年產出 -->
+<section class="slide" data-label="一年產出">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 8 · 我過去一年的實際產出</div>
+    <h2 class="head reveal">Git repo 成為我的<span class="hl">第二大腦</span></h2>
+    <div class="twocol">
+      <table class="etable reveal">
+        <thead><tr><th>資料夾</th><th>主題</th><th class="cy">產出</th></tr></thead>
+        <tbody>
+          <tr><td><strong>01-ischemic-heart-disease/</strong></td><td>ACS, STEMI, PCI, Antiplatelet</td><td class="pos">25+</td></tr>
+          <tr><td><strong>04-valvular-disease/</strong></td><td>TEER, TAVI</td><td class="pos">15+</td></tr>
+          <tr><td><strong>10-icu-general/</strong></td><td>ICU biweekly</td><td class="pos">30+</td></tr>
+          <tr><td><strong>91-podcast-journal-review/</strong></td><td>每週期刊回顧</td><td class="pos">50+</td></tr>
+        </tbody>
+      </table>
+      <ul class="clean reveal">
+        <li>所有教學材料<b>可搜尋、可版本控管</b></li>
+        <li>新住院醫師可直接讀 repo 學 prasugrel / ACS pathway</li>
+        <li class="note" style="list-style:none;padding-left:.9em">累積效益 — 不是一次性，而是<span class="em">複利</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 66 — 未來展望 -->
+<section class="slide" data-label="未來展望">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Part 8 · 未來展望</div>
+    <h2 class="head reveal">AI 處理<span class="cy">認知勞動</span>，醫師專注<span class="hl">人類判斷</span></h2>
+    <div class="cards c3 reveal">
+      <div class="cell"><span class="ico">短期 · 2026</span><p style="color:var(--txt);margin-top:.3em"><b>Multimodal MCP</b> 分析 ECG/Echo/Angio · <b>Long-context</b> 一次讀完 ESC guideline · <b>Local LLM</b> 病人資料地端</p></div>
+      <div class="cell"><span class="ico">中期 · 2027–28</span><p style="color:var(--txt);margin-top:.3em"><b>AI-assisted CDS</b> 即時選藥（CYP2C19+age+BW）· <b>Peer review</b> 自動結構化 · <b>虛擬研究助理</b></p></div>
+      <div class="cell"><span class="ico" style="color:var(--gold)">長期願景</span><p style="color:var(--txt);margin-top:.3em">AI 處理可自動化的搜尋・閱讀・整理；醫師專注<b>臨床決策・病人溝通・教學</b></p></div>
+    </div>
+    <div class="note reveal" style="margin-top:var(--content-gap)">年輕醫師<b>不需要犧牲睡眠</b>來跟上文獻 — 把認知負擔交給 AI agent。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 67 — Quote slide -->
+<section class="slide" data-label="最後一句">
+  <div class="slide-content" style="align-items:center;text-align:center">
+    <div class="kicker reveal" style="justify-content:center"><span class="bar"></span>最後一句話<span class="bar"></span></div>
+    <h2 class="reveal" style="font-size:clamp(1.5rem,4.4vw,3rem);line-height:1.4;max-width:18em;color:#f6fbff">
+      AI <span style="color:var(--mut)">不會取代醫師，</span><br>但<span class="hl">懂得使用 AI 的醫師</span>，<br><span style="color:var(--mut)">會領先不懂得使用 AI 的醫師。</span></h2>
+    <div class="en reveal" style="margin-top:1em">— 給下一個十年的年輕心臟科醫師</div>
+  </div>
+</section>
+
+<!-- SLIDE 68 — References 1/2 -->
+<section class="slide" data-label="References 1">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>References 1/2 · Trials</div>
+    <h2 class="head reveal" style="font-size:var(--h3-size)">關鍵試驗（已驗證 PubMed / DOI）</h2>
+    <ol class="reveal" style="list-style:decimal;padding-left:1.4em;font-size:clamp(.58rem,1.05vw,.8rem);line-height:1.55;color:var(--mut);columns:1;display:flex;flex-direction:column;gap:.3em">
+      <li><b style="color:var(--txt)">ISAR-REACT 5</b> — Schüpke S, et al. <i>N Engl J Med</i>. 2019;381(16):1524-1534. <a href="https://pubmed.ncbi.nlm.nih.gov/31475799/" style="color:var(--cyan)">PMID 31475799</a> · <a href="https://doi.org/10.1056/NEJMoa1908973" style="color:var(--cyan)">DOI</a></li>
+      <li><b style="color:var(--txt)">TRITON-TIMI 38</b> — Wiviott SD, et al. <i>N Engl J Med</i>. 2007;357(20):2001-2015. <a href="https://pubmed.ncbi.nlm.nih.gov/17982182/" style="color:var(--cyan)">PMID 17982182</a></li>
+      <li><b style="color:var(--txt)">TROPICAL-ACS</b> — Sibbing D, et al. <i>Lancet</i>. 2017;390(10104):1747-1757. <a href="https://pubmed.ncbi.nlm.nih.gov/28855078/" style="color:var(--cyan)">PMID 28855078</a></li>
+      <li><b style="color:var(--txt)">HOST-REDUCE-POLYTECH-ACS</b> — Kim HS, et al. <i>Lancet</i>. 2020;396(10257):1079-1089. <a href="https://pubmed.ncbi.nlm.nih.gov/32882163/" style="color:var(--cyan)">PMID 32882163</a></li>
+      <li><b style="color:var(--txt)">TOPIC</b> — Cuisset T, et al. <i>Eur Heart J</i>. 2017;38(41):3070-3078. <a href="https://doi.org/10.1093/eurheartj/ehx175" style="color:var(--cyan)">DOI</a></li>
+      <li><b style="color:var(--txt)">ELDERLY-ACS 2</b> — Savonitto S, et al. <i>Circulation</i>. 2018;137(23):2435-2445. <a href="https://pubmed.ncbi.nlm.nih.gov/29459361/" style="color:var(--cyan)">PMID 29459361</a></li>
+      <li><b style="color:var(--txt)">POPular AGE</b> — Gimbel M, et al. <i>Lancet</i>. 2020;395(10233):1374-1381. <a href="https://pubmed.ncbi.nlm.nih.gov/32334703/" style="color:var(--cyan)">PMID 32334703</a></li>
+      <li><b style="color:var(--txt)">PRASFIT-ACS</b> — Saito S, et al. <i>Circ J</i>. 2014;78(7):1684-92. <a href="https://doi.org/10.1253/circj.CJ-13-1482" style="color:var(--cyan)">DOI</a></li>
+    </ol>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 69 — References 2/2 -->
+<section class="slide" data-label="References 2">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>References 2/2 · AI / Tools</div>
+    <h2 class="head reveal" style="font-size:var(--h3-size)">AI 與工具資源</h2>
+    <ol class="reveal" start="9" style="list-style:decimal;padding-left:1.4em;font-size:clamp(.58rem,1.05vw,.8rem);line-height:1.55;color:var(--mut);display:flex;flex-direction:column;gap:.28em">
+      <li>Anthropic. Model Context Protocol. <a href="https://www.anthropic.com/news/model-context-protocol" style="color:var(--cyan)">anthropic.com/news/model-context-protocol</a></li>
+      <li>Anthropic. How scientists are using Claude. <a href="https://www.anthropic.com/news/accelerating-scientific-research" style="color:var(--cyan)">accelerating-scientific-research</a></li>
+      <li>Anthropic. Claude for Life Sciences. <a href="https://www.anthropic.com/news/claude-for-life-sciences" style="color:var(--cyan)">claude-for-life-sciences</a></li>
+      <li>Anthropic. Claude Code Docs. <a href="https://docs.claude.com/en/docs/claude-code" style="color:var(--cyan)">docs.claude.com/en/docs/claude-code</a></li>
+      <li>Anthropic. Skills (Scientific Skills). <a href="https://docs.claude.com/en/docs/skills" style="color:var(--cyan)">docs.claude.com/en/docs/skills</a></li>
+      <li>Tay A. MCP Servers and Academic Search. <a href="https://aarontay.substack.com/p/mcp-servers-and-academic-search-the" style="color:var(--cyan)">aarontay.substack.com</a></li>
+      <li>NCBI E-utilities. <a href="https://www.ncbi.nlm.nih.gov/books/NBK25501/" style="color:var(--cyan)">ncbi.nlm.nih.gov/books/NBK25501</a></li>
+      <li>Semantic Scholar API · ClinPGx · Marp · Model Context Protocol spec — <a href="https://modelcontextprotocol.io/" style="color:var(--cyan)">modelcontextprotocol.io</a></li>
+    </ol>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 70 — Closing (lead) -->
+<section class="slide lead" data-label="謝謝聆聽">
+  <div class="slide-content">
+    <div class="frame">
+      <div class="kicker reveal"><span class="bar"></span>Questions &amp; Discussion</div>
+      <h1 class="reveal">謝謝<span class="hl">聆聽</span></h1>
+      <div class="en reveal">本投影片 V2 由 Claude Code + MCP + Scientific Skills 協助製作</div>
+      <div class="rule reveal"></div>
+      <div class="tags reveal">
+        <span class="tag">ACS</span><span class="tag">Efient (Prasugrel)</span><span class="tag gold">Claude Code</span>
+        <div class="who"><b>謝慕揚 MD, PhD, FESC</b><span>新竹臺大分院 心血管中心 · V2 · 2026-04-28</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">All slides built with Claude Code — an AI agent for medical education</div>
+</section>
+
+<!-- =====================================================================
+     END OF SLIDES
+     ===================================================================== -->
+<script id="controller">
+/* ===========================================================================
+   SLIDE CONTROLLER — nav (keyboard / wheel / touch), progress, dots, edit mode
+   =========================================================================== */
+(function(){
+  const slides=[...document.querySelectorAll('.slide')];
+  const dotsWrap=document.getElementById('navDots');
+  const progress=document.getElementById('progress');
+  const pageno=document.getElementById('pageno');
+  let current=0;
+
+  /* --- nav dots --- */
+  slides.forEach((s,i)=>{
+    const b=document.createElement('button');
+    b.setAttribute('aria-label',(s.dataset.label||('Slide '+(i+1))));
+    b.title=s.dataset.label||('Slide '+(i+1));
+    b.addEventListener('click',()=>slides[i].scrollIntoView({behavior:'smooth'}));
+    dotsWrap.appendChild(b);
+  });
+  const dots=[...dotsWrap.children];
+
+  /* --- intersection observer: reveal + active tracking --- */
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('visible');
+        current=slides.indexOf(e.target);
+        dots.forEach((d,i)=>d.classList.toggle('active',i===current));
+        pageno.textContent=String(current+1).padStart(2,'0');
+      }
+    });
+  },{threshold:.55});
+  slides.forEach(s=>io.observe(s));
+
+  /* --- progress bar --- */
+  function updateProgress(){
+    const max=document.documentElement.scrollHeight-window.innerHeight;
+    progress.style.width=(max>0?(window.scrollY/max*100):0)+'%';
+  }
+  window.addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+
+  /* --- keyboard nav --- */
+  function go(d){const n=Math.min(slides.length-1,Math.max(0,current+d));slides[n].scrollIntoView({behavior:'smooth'});}
+  document.addEventListener('keydown',(e)=>{
+    if(e.target.getAttribute && e.target.getAttribute('contenteditable')==='true') return;
+    if(['ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();go(1);}
+    else if(['ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(-1);}
+    else if(e.key==='Home'){e.preventDefault();slides[0].scrollIntoView({behavior:'smooth'});}
+    else if(e.key==='End'){e.preventDefault();slides[slides.length-1].scrollIntoView({behavior:'smooth'});}
+    else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+  });
+
+  /* --- touch swipe --- */
+  let ty=null;
+  window.addEventListener('touchstart',e=>ty=e.touches[0].clientY,{passive:true});
+  window.addEventListener('touchend',e=>{if(ty===null)return;const dy=ty-e.changedTouches[0].clientY;
+    if(Math.abs(dy)>55)go(dy>0?1:-1);ty=null;},{passive:true});
+
+  /* ===== INLINE EDITING (opt-in) ===== */
+  const editor={isActive:false,
+    toggle(){this.isActive=!this.isActive;document.body.classList.toggle('editing',this.isActive);
+      const t=document.getElementById('editToggle');t.classList.toggle('active',this.isActive);
+      document.querySelectorAll('[contenteditable]').forEach(el=>el.setAttribute('contenteditable',this.isActive?'true':'false'));
+      toast(this.isActive?'編輯模式開啟 — 點任意文字編輯，Ctrl+S 儲存':'編輯模式關閉');
+    },
+    save(){const data={};document.querySelectorAll('[data-ed]').forEach(el=>data[el.dataset.ed]=el.innerHTML);
+      localStorage.setItem('alr_v2_edits',JSON.stringify(data));toast('已儲存到瀏覽器 (localStorage)');},
+    load(){try{const d=JSON.parse(localStorage.getItem('alr_v2_edits')||'{}');
+      document.querySelectorAll('[data-ed]').forEach(el=>{if(d[el.dataset.ed]!=null)el.innerHTML=d[el.dataset.ed];});}catch(e){}}
+  };
+  function toast(m){const t=document.getElementById('editToast');t.textContent=m;t.classList.add('show');
+    clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove('show'),2200);}
+
+  /* give every editable element a stable id for persistence */
+  document.querySelectorAll('h1,h2,h3,h4,p,li,.l,.seg,.en,.who b,.who span,td,th,.kicker,.lb,.note,.pearl').forEach((el,i)=>{
+    if(!el.hasAttribute('data-ed'))el.setAttribute('data-ed','n'+i);
+    el.setAttribute('contenteditable','false');
+  });
+  editor.load();
+
+  const hot=document.getElementById('editHotzone'),tog=document.getElementById('editToggle');let hide=null;
+  tog.addEventListener('click',()=>editor.toggle());
+  hot.addEventListener('click',()=>editor.toggle());
+  hot.addEventListener('mouseenter',()=>{clearTimeout(hide);tog.classList.add('show');});
+  hot.addEventListener('mouseleave',()=>{hide=setTimeout(()=>{if(!editor.isActive)tog.classList.remove('show');},400);});
+  tog.addEventListener('mouseenter',()=>clearTimeout(hide));
+  tog.addEventListener('mouseleave',()=>{hide=setTimeout(()=>{if(!editor.isActive)tog.classList.remove('show');},400);});
+  document.addEventListener('keydown',(e)=>{
+    if((e.key==='e'||e.key==='E')&&!(e.target.getAttribute&&e.target.getAttribute('contenteditable')==='true'))editor.toggle();
+    if((e.ctrlKey||e.metaKey)&&e.key==='s'){e.preventDefault();editor.save();}
+  });
+})();
+</script>
+</body>
+</html>

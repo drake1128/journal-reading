@@ -1,11 +1,17 @@
 ---
 title: "AI 科技 — AI & Technology"
 resources:
+  - "AI_Literature_Review_Workflow_V2.html"
+  - "AI_Literature_Review_Workflow_V2.pdf"
   - "AI_Medical_Education.html"
   - "AI_Medical_Education.pdf"
 ---
 
-## 精選簡報 Featured Slide Deck
+## 精選簡報 Featured Slide Decks
+
+- **[在 AI 時代運用人工智慧進行文獻回顧 — V2 (互動簡報，可手機開啟)](AI_Literature_Review_Workflow_V2.html){target="_blank"}**
+  &nbsp;— [PDF 版本](AI_Literature_Review_Workflow_V2.pdf){target="_blank"}
+  *主軸 ACS / Efient (Prasugrel)；終端機模擬畫面 + 提示詞 + 決策流程圖。鍵盤 ← → 或滑動切換，按 `E` 編輯*
 
 - **[AI 數位科技應用於醫學教育 (互動簡報，可手機開啟)](AI_Medical_Education.html){target="_blank"}**
   &nbsp;— [PDF 版本](AI_Medical_Education.pdf){target="_blank"}
