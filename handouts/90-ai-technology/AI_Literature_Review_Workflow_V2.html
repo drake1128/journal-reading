@@ -182,6 +182,14 @@ ul.clean li b{color:#f2f8ff} ul.clean li .rd{color:var(--red);font-weight:700} u
 .stat .v{font-family:var(--mono);font-size:clamp(1.3rem,3.4vw,2.4rem);font-weight:800;color:var(--gold);line-height:1}
 .stat .lb{font-size:var(--small-size);color:var(--mut);margin-top:.35em}
 
+/* ====== REAL SCREENSHOT (framed terminal capture) ====== */
+.shot-wrap{display:flex;justify-content:center;margin:.3rem 0;min-height:0}
+.shot{max-width:100%;max-height:min(60vh,640px);width:auto;height:auto;object-fit:contain;
+  border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 18px 50px rgba(0,0,0,.55),0 0 0 1px rgba(70,199,255,.10)}
+.shot-cap{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin-top:.45rem}
+.shot-cap .tag{font-size:calc(var(--small-size)*.94)}
+
 /* ====== REVEAL ANIMATIONS ====== */
 .reveal{opacity:0;transform:translateY(26px);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease)}
 .slide.visible .reveal{opacity:1;transform:none}
@@ -551,6 +559,24 @@ body.editing [contenteditable]:focus{outline:2px solid var(--cyan);background:rg
     </div>
   </div>
   <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
+<!-- SLIDE 12B — REAL SCREENSHOT: multi-agent parallel + cross-supervision -->
+<section class="slide" data-label="真實畫面 · 多 Agent">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>真實工作畫面 · Real Workflow（非示意圖）</div>
+    <h2 class="head reveal">四個 Claude Terminal <span class="cy">平行作業 · 交叉監督</span></h2>
+    <div class="shot-wrap reveal">
+      <img class="shot" src="AI_Literature_Review_Workflow_V2-assets/multi-agent-terminals.png"
+           alt="四個 Claude Code terminal 同時平行作業，彼此交叉監督文獻產出過程">
+    </div>
+    <div class="shot-cap reveal">
+      <span class="tag">① Cath Lab 排程</span><span class="tag">② CAS 2026 頸動脈網頁校訂</span>
+      <span class="tag">③ 基因醫學講義</span><span class="tag">④ Bifurcation 讀書會</span>
+      <span class="tag gold">全程 Opus 4.8 · 1M context</span>
+    </div>
+  </div>
+  <div class="foot">四個 agent 同時產出不同教材，並互相 review／交叉監督 · 謝慕揚 MD, PhD, FESC</div>
 </section>
 
 <!-- SLIDE 13 — DIVIDER Part 3 -->

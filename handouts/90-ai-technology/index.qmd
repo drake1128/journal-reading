@@ -3,6 +3,7 @@ title: "AI 科技 — AI & Technology"
 resources:
   - "AI_Literature_Review_Workflow_V2.html"
   - "AI_Literature_Review_Workflow_V2.pdf"
+  - "AI_Literature_Review_Workflow_V2-assets/multi-agent-terminals.png"
   - "AI_Medical_Education.html"
   - "AI_Medical_Education.pdf"
 ---
