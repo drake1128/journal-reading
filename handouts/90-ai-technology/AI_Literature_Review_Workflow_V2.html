@@ -849,9 +849,9 @@ body.editing [contenteditable]:focus{outline:2px solid var(--cyan);background:rg
         <div class="term-body">
           <div class="l"><span class="v">ACS, invasive planned</span></div>
           <div class="l"><span class="out">├─</span> prior stroke/TIA? <span class="er">Yes</span> → 避免 prasugrel</div>
-          <div class="l"><span class="out">├─</span> Age ≥ 75?        <span class="warn">Yes</span> → 慎用 / 5 mg</div>
-          <div class="l"><span class="out">├─</span> BW &lt; 60 kg?      <span class="warn">Yes</span> → prasugrel 5 mg</div>
-          <div class="l"><span class="out">└─</span> 無上述           <span class="ok">→ prasugrel 60/10</span><span class="cur"></span></div>
+          <div class="l"><span class="out">├─</span> Age ≥ 75?        <span class="warn">Yes</span> → 慎用 / 3.75 mg</div>
+          <div class="l"><span class="out">├─</span> BW &lt; 60 kg?      <span class="warn">Yes</span> → prasugrel 3.75 mg</div>
+          <div class="l"><span class="out">└─</span> 無上述           <span class="ok">→ prasugrel 20/3.75</span><span class="cur"></span></div>
         </div>
       </div>
     </div>
@@ -1292,9 +1292,9 @@ body.editing [contenteditable]:focus{outline:2px solid var(--cyan);background:rg
         <div class="l"><span class="v">ACS 病人，計畫 invasive evaluation</span></div>
         <div class="l"><span class="out">        │</span></div>
         <div class="l"><span class="out">        ├──</span> 有 prior stroke / TIA?  <span class="er">Yes →</span> Ticagrelor or Clopidogrel</div>
-        <div class="l"><span class="out">        ├──</span> Age ≥ 75?            <span class="warn">Yes →</span> 慎用 prasugrel (考慮 5 mg) 或 ticagrelor</div>
-        <div class="l"><span class="out">        ├──</span> BW &lt; 60 kg?          <span class="warn">Yes →</span> Prasugrel 5 mg 維持劑量</div>
-        <div class="l"><span class="out">        └──</span> 無上述條件           <span class="ok">→ Prasugrel 60/10 mg</span> <span class="c">(ISAR-5: 1° better)</span><span class="cur"></span></div>
+        <div class="l"><span class="out">        ├──</span> Age ≥ 75?            <span class="warn">Yes →</span> 慎用 prasugrel (考慮 3.75 mg) 或 ticagrelor</div>
+        <div class="l"><span class="out">        ├──</span> BW &lt; 60 kg?          <span class="warn">Yes →</span> Prasugrel 3.75 mg 維持劑量</div>
+        <div class="l"><span class="out">        └──</span> 無上述條件           <span class="ok">→ Prasugrel 20/3.75 mg</span> <span class="c">(台灣/亞洲劑量; ISAR-5 原用 60/10)</span><span class="cur"></span></div>
       </div>
     </div>
     <div class="note reveal" style="margin-top:var(--content-gap)">這張圖由 Claude 自動產出（mermaid syntax）；我只需 review 是否符合<b>本院 ACS pathway</b>。</div>
@@ -1481,11 +1481,40 @@ body.editing [contenteditable]:focus{outline:2px solid var(--cyan);background:rg
   <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
 </section>
 
+<!-- SLIDE 53B — Prasugrel dose-conversion rationale (60/10 → 20/3.75) -->
+<section class="slide" data-label="Prasugrel 劑量換算">
+  <div class="slide-content pane">
+    <div class="kicker reveal"><span class="bar"></span>Example 3 · 劑量換算的由來</div>
+    <h2 class="head reveal">Prasugrel：<span class="rd">60/10</span> → <span class="cy">20/3.75</span>（東亞劑量）</h2>
+    <div class="twocol">
+      <div class="term reveal">
+        <div class="term-bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="term-path">prasugrel — dose conversion (East Asia)</span></div>
+        <div class="term-body">
+          <div class="l"><span class="c"># 標準（西方；TRITON / ISAR-REACT 5 採用）</span></div>
+          <div class="l">  Loading  <span class="er">60 mg</span>    Maintenance <span class="er">10 mg</span></div>
+          <div class="l"><span class="c"># 東亞 / 日本（PMDA 核准；台灣沿用）</span></div>
+          <div class="l">  Loading  <span class="ok">20 mg</span>    Maintenance <span class="ok">3.75 mg</span></div>
+          <div class="l"><span class="out">換算　</span>20/60 = <span class="n">1/3</span>　·　3.75/10 = <span class="n">0.375</span></div>
+          <div class="l"><span class="ok">≈ 標準劑量的 ⅓</span><span class="cur"></span></div>
+        </div>
+      </div>
+      <ul class="clean reveal">
+        <li>東亞人（尤其日本）prasugrel <b>active metabolite 暴露較高</b>、體重較低 → 標準劑量 <b class="rd">出血風險偏高</b></li>
+        <li>日本 <b>PK/PD bridging</b> 研究 → 訂出 20/3.75 達 <b>相當血小板抑制</b>、出血可接受</li>
+        <li><b>PRASFIT 系列</b>（PRASFIT-ACS, Saito, Circ J 2014）臨床驗證</li>
+        <li>台灣臨床實務沿用此 <b class="gd">東亞劑量</b></li>
+      </ul>
+    </div>
+    <div class="note reveal">注意：臨床試驗（ISAR-REACT 5、TRITON）<b>本身用 60/10</b>；東亞實務改用 <b>20/3.75</b>。解讀試驗療效時須留意此劑量差異。</div>
+  </div>
+  <div class="foot">謝慕揚 MD, PhD, FESC · V2 · ACS / Efient · 2026</div>
+</section>
+
 <!-- SLIDE 54 — Ex3 Asian prasugrel 3.75 -->
 <section class="slide" data-label="Ex3 · 亞洲劑量">
   <div class="slide-content pane">
     <div class="kicker reveal"><span class="bar"></span>Example 3 · 亞洲族群與 Prasugrel 3.75 / 5 mg</div>
-    <h2 class="head reveal">亞洲 ACS：<span class="cy">prasugrel 5 mg 維持</span>是合理選擇</h2>
+    <h2 class="head reveal">亞洲 ACS：<span class="cy">prasugrel 20 mg 負荷 / 3.75 mg 維持</span>是合理選擇</h2>
     <div class="twocol">
       <ul class="clean reveal">
         <li>亞洲人（尤其日本）prasugrel <b>暴露量較高、出血風險較高</b></li>
@@ -1519,8 +1548,8 @@ body.editing [contenteditable]:focus{outline:2px solid var(--cyan);background:rg
         <div class="l"><span class="out">   ├──</span> Prior stroke/TIA? <span class="er">Yes →</span> Clopidogrel or Ticagrelor（避免 prasugrel）</div>
         <div class="l"><span class="out">   ├──</span> Age ≥ 75? <span class="warn">Yes →</span> POPular AGE: Clopi = ticagrelor (NCB), bleeding ↓</div>
         <div class="l"><span class="out">   │</span>            <span class="out">ELDERLY-2: Pra 5mg ≠ better ⇒ 默認 Clopidogrel</span></div>
-        <div class="l"><span class="out">   ├──</span> BW &lt; 60 kg? <span class="warn">→</span> Prasugrel 5 mg 維持</div>
-        <div class="l"><span class="out">   └──</span> Asian + 標準 ACS: <span class="ok">HOST-REDUCE → 1m 後 10→5 mg</span> / 高出血風險直接 5 mg<span class="cur"></span></div>
+        <div class="l"><span class="out">   ├──</span> BW &lt; 60 kg? <span class="warn">→</span> Prasugrel 3.75 mg 維持</div>
+        <div class="l"><span class="out">   └──</span> Asian + 標準 ACS: <span class="ok">HOST-REDUCE → 1m 後 10→5 mg</span> / 高出血風險直接 3.75 mg<span class="cur"></span></div>
       </div>
     </div>
   </div>
@@ -1535,7 +1564,7 @@ body.editing [contenteditable]:focus{outline:2px solid var(--cyan);background:rg
     <div class="cards c2 reveal">
       <div class="cell"><span class="ico">①</span><h4>無 stroke/age/BW 風險</h4><p>ISAR-REACT 5 支持 <b>prasugrel</b></p></div>
       <div class="cell"><span class="ico">②</span><h4>&gt;70y 想避免 bleeding</h4><p>POPular AGE 支持 <b>clopidogrel</b></p></div>
-      <div class="cell"><span class="ico">③</span><h4>&gt;75y / BW&lt;60 / Asian</h4><p>降階（5 mg 或 1m de-escalation）</p></div>
+      <div class="cell"><span class="ico">③</span><h4>&gt;75y / BW&lt;60 / Asian</h4><p>降階（3.75 mg 或 1m de-escalation）</p></div>
       <div class="cell"><span class="ico">④</span><h4>強效 + bleeding 累積</h4><p>1m 後切藥（TROPICAL / TOPIC / HOST-REDUCE）</p></div>
     </div>
     <div class="note reveal" style="margin-top:var(--content-gap)">而我用 <b>5 分鐘 review</b> 它的邏輯，補上本院 pathway。</div>

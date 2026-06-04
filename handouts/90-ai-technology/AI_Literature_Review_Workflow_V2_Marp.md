@@ -920,12 +920,12 @@ ACS 病人，計畫 invasive evaluation
         │      └── Yes → Avoid prasugrel → Ticagrelor or Clopidogrel
         |
         ├── Age ≥ 75?
-        │      └── Yes → 慎用 prasugrel (考慮 5 mg) 或 ticagrelor
+        │      └── Yes → 慎用 prasugrel (考慮 3.75 mg) 或 ticagrelor
         |
         ├── BW < 60 kg?
-        │      └── Yes → Prasugrel 5 mg 維持劑量
+        │      └── Yes → Prasugrel 3.75 mg 維持劑量
         |
-        └── 無上述條件 → Prasugrel 60/10 mg (ISAR-REACT 5: 1° better than ticagrelor)
+        └── 無上述條件 → Prasugrel 20/3.75 mg（台灣/亞洲劑量; ISAR-REACT 5 原用 60/10）
 ```
 
 > **這張圖由 Claude 自動產出**（mermaid syntax → 投影片可用）
@@ -1129,6 +1129,24 @@ Non-inferiority margin = 30%
 
 ---
 
+# Prasugrel 劑量換算：60/10 → 20/3.75（東亞）
+
+| 區域 | Loading | Maintenance |
+|------|---------|-------------|
+| 標準（西方；TRITON / ISAR-REACT 5 採用） | **60 mg** | **10 mg** |
+| 東亞 / 日本（PMDA 核准；台灣沿用） | **20 mg** | **3.75 mg** |
+| 換算比例 | 20/60 ≈ **1/3** | 3.75/10 = **0.375** |
+
+### 為什麼是約 ⅓ 劑量？
+
+- 東亞人（尤其日本）prasugrel **active metabolite 暴露較高**、體重較低 → 標準劑量**出血風險偏高**
+- 日本 **PK/PD bridging** 研究 → 20/3.75 達相當血小板抑制、出血可接受
+- **PRASFIT 系列**（PRASFIT-ACS, Saito, Circ J 2014）臨床驗證
+
+> 注意：臨床試驗（ISAR-REACT 5、TRITON）本身用 **60/10**；東亞實務改用 **20/3.75**，解讀療效時須留意此劑量差異。
+
+---
+
 # Example 3 ─ 亞洲族群與 Prasugrel 3.75 mg
 
 ### 為什麼要降劑量？
@@ -1144,7 +1162,7 @@ Non-inferiority margin = 30%
 
 ### 結論
 
-- **亞洲 ACS 病人使用 prasugrel 5 mg 維持劑量是合理選擇**
+- **亞洲 ACS 病人使用 prasugrel 20 mg 負荷 / 3.75 mg 維持劑量是合理選擇**
 - 高度建議在 BW <60 kg、age ≥75 同時存在時降階
 
 ---
@@ -1159,13 +1177,13 @@ ACS post-PCI 需要 P2Y12 inhibitor
    ├── Age ≥ 75? ─────────────────────────┐
    |       └── Yes → POPular AGE: Clopidogrel = ticagrelor in NCB; bleeding ↓
    |              ELDERLY-ACS 2: Prasugrel 5mg ≠ better than clopidogrel
-   |              ⇒ 默認 Clopidogrel；若 high ischemic risk, consider Prasugrel 5 mg
+   |              ⇒ 默認 Clopidogrel；若 high ischemic risk, consider Prasugrel 3.75 mg
    |
-   ├── BW < 60 kg? → Prasugrel 5 mg 維持劑量
+   ├── BW < 60 kg? → Prasugrel 3.75 mg 維持劑量
    |
    └── Asian + 標準 ACS:
            ├── HOST-REDUCE 證據 → 1 個月後 10→5 mg 降階
-           └── 高出血風險 → 直接從 5 mg 開始
+           └── 高出血風險 → 直接從 3.75 mg 開始
 ```
 
 > **這張圖由 `clinical-decision-support` skill 自動產出**
@@ -1178,7 +1196,7 @@ ACS post-PCI 需要 P2Y12 inhibitor
 
 1. **沒有 high stroke/age/BW 風險** → ISAR-REACT 5 支持 prasugrel
 2. **>70y 想避免 bleeding** → POPular AGE 支持 clopidogrel
-3. **>75y / BW<60 / Asian** → 降階 (5 mg or 1m de-escalation)
+3. **>75y / BW<60 / Asian** → 降階 (3.75 mg or 1m de-escalation)
 4. **強效 + bleeding 累積** → 1m 後切藥可考慮 (TROPICAL-ACS / TOPIC / HOST-REDUCE)
 
 > **AI 把 7 個試驗的訊息「壓縮」成一張流程圖**
