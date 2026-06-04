@@ -1,0 +1,12 @@
+---
+title: "腫瘤學 — Oncology"
+---
+
+> 讀書會涵蓋之 NEJM 等期刊腫瘤學重要試驗共筆整理（非心臟科核心主題，獨立分流於此）。
+
+## 教學講義 Handouts
+
+- [Daraxonrasib — RASolute 302 轉移性胰臟癌（口服 RAS(ON) 抑制劑）](Daraxonrasib%20RASolute%20302%20轉移性胰臟癌%20教學講義.md)
+  &nbsp;— [投影片 PDF](Daraxonrasib_RASolute302.pdf)
+- [Adjuvant Selpercatinib — LIBRETTO-432 RET 融合早期 NSCLC](Adjuvant%20Selpercatinib%20LIBRETTO-432%20RET肺癌%20教學講義.md)
+  &nbsp;— [投影片 PDF](Adjuvant_Selpercatinib_LIBRETTO432.pdf)
