@@ -56,6 +56,11 @@ desktop.ini
 # Environment
 .env
 
+# Node.js (installed locally for Marp PDF generation via puppeteer)
+node_modules/
+package.json
+package-lock.json
+
 /.quarto/
 **/*.quarto_ipynb
 **/.quarto/
