@@ -260,7 +260,7 @@ Step 7: Cascade family screening — 一等親基因檢測
   - 關鍵試驗：EXPLORER-HCM (2020)、VALOR-HCM (2022)
   - 可減少 LVOT gradient、改善症狀、降低 septal reduction therapy 需求
 - **Aficamten**：第二代 cardiac myosin inhibitor，SEQUOIA-HCM 試驗進行中
-- **台灣現況**：Mavacamten 尚未取得台灣 TFDA 核准（截至 2026 年 3 月），目前僅能透過個案專案進口
+- **台灣現況（2026 更新）**：Mavacamten (Camzyos) 已通過**台灣健保給付**（NYHA II–III 阻塞性 HCM），屬第一類新藥暫予 2 年給付，**需事前審查 (prior authorization)** 後使用
 
 ---
 
@@ -368,7 +368,7 @@ Step 3: TTR 基因定序
 ### 台灣現況
 
 - Patisiran 已於 **2023 年 5 月**獲台灣健保給付用於治療 ATTRv 多發性神經病變
-- Tafamidis 用於 ATTR-CM 的健保給付狀態仍待確認
+- **Tafamidis (Vyndamax) 用於 ATTR-CM 已通過台灣健保給付（2026 更新），需事前審查 (prior authorization) 後使用**
 - 台灣多間醫學中心參與國際 ATTR 相關藥物臨床試驗
 
 ---
@@ -392,8 +392,8 @@ Step 3: TTR 基因定序
 | **Fabry Disease** | Agalsidase alfa/beta (ERT) | ✅ 罕病專案給付 | 需符合臨床條件，定期審查 |
 | **Fabry Disease** | Migalastat | ✅ 有條件給付 | 限特定 amenable mutations |
 | **ATTRv 神經病變** | Patisiran | ✅ 2023/5 起給付 | 限 ATTRv 多發性神經病變 |
-| **ATTR-CM** | Tafamidis | ⚠️ 待確認 | 可能需專案申請 |
-| **HCM** | Mavacamten | ❌ 未核准 | TFDA 尚未核准上市 |
+| **ATTR-CM** | Tafamidis | ✅ 給付（2026） | 需事前審查 (prior authorization) |
+| **HCM** | Mavacamten | ✅ 給付（2026） | NYHA II–III 阻塞性 HCM；需事前審查 (prior authorization) |
 | **BrS/LQTS** | ICD 植入 | ✅ 給付 | 需符合適應症 |
 | **LQTS** | Beta-blocker, mexiletine | ✅ 給付 | 常規藥物 |
 

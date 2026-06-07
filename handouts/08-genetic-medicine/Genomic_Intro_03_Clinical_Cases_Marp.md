@@ -190,7 +190,8 @@ footer: '謝慕揚 MD, PhD, FESC | 基因體醫學入門 第三課：臨床案�
 
 - 35 歲男性，LDL-C 260 mg/dL，**跟腱黃色瘤**，父親 45 歲心肌梗塞
 - FH panel：`LDLR` / `APOB` / `PCSK9`（AD）
-- 注意**盲點**：若點變異陰性但臨床高度懷疑 → 追加 **CNV 偵測（MLPA）**找 `LDLR` 大段缺失
+- 注意**盲點**：**WES／NGS panel 偵測不到 CNV**——臨床上「LDL 很高但 NGS 點變異陰性」的病人確實存在，可能是 `LDLR` 大段缺失/重複
+- 追加 **MLPA（Multiplex Ligation-dependent Probe Amplification，多重連接探針擴增）** 偵測 CNV；實務上可把 **MLPA 與 FH panel 一起設計檢測**
 - **家族 cascade**：FH 是 cascade 篩檢效益最高的疾病之一——早找出、早積極降脂
 
 ---

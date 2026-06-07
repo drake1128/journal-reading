@@ -146,7 +146,7 @@ footer: '謝慕揚 MD, PhD, FESC | 基因體醫學入門 第二課：檢測方�
 | **拷貝數變異 CNV**（大段缺失/重複） | **MLPA**、array CGH、NGS-CNV pipeline | `LDLR` 大段缺失 → FH |
 | 重複序列、偽基因區 | 長讀長定序 (long-read)、特殊設計 | 部分基因難測區 |
 
-> 標準短讀長 NGS 對 **CNV、重複序列、偽基因 (pseudogene)** 區域有盲點——FH 若 panel 陰性但臨床高度懷疑，要追加 CNV 偵測（如 MLPA）。
+> **MLPA = Multiplex Ligation-dependent Probe Amplification（多重連接探針擴增）。** 標準短讀長 NGS／**全外顯子定序 (WES)** 對 **CNV** 偵測不到——臨床上「**LDL 很高但 NGS 點變異陰性**」的 FH 病人並不少見，常是 `LDLR` 大段缺失/重複。此時要追加 **MLPA**；實務上可考慮把 **MLPA 與 NGS panel 一起設計檢測**，補上 CNV 這個盲點。
 
 ---
 

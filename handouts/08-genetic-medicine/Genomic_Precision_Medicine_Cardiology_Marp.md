@@ -310,7 +310,7 @@ footer: '謝慕揚 MD, PhD, FESC | Genomic Precision Medicine in Cardiology | 20
   - EXPLORER-HCM (2020)：減少 LVOT gradient，改善症狀
   - VALOR-HCM (2022)：降低 septal reduction therapy 需求
 - **Aficamten**：第二代 myosin inhibitor（SEQUOIA-HCM 進行中）
-- **台灣**：Mavacamten 尚未取得 TFDA 核准（2026/3）
+- **台灣（2026 更新）**：Mavacamten 已通過**健保給付**（NYHA II–III 阻塞性 HCM），需**事前審查 (prior authorization)** 後使用
 
 ---
 
@@ -405,7 +405,7 @@ Step 3: TTR 基因定序
 
 ### 台灣現況
 - **Patisiran** 2023/5 起健保給付（ATTRv 神經病變）
-- **Tafamidis** 用於 ATTR-CM：健保給付待確認
+- **Tafamidis** 用於 ATTR-CM：已通過健保給付（2026），需**事前審查 (prior authorization)**
 
 ---
 
@@ -441,8 +441,8 @@ Step 3: TTR 基因定序
 | Fabry | ERT (agalsidase) | ✅ 罕病給付 |
 | Fabry | Migalastat | ✅ 有條件 |
 | ATTRv 神經 | Patisiran | ✅ 2023/5 起 |
-| ATTR-CM | Tafamidis | ⚠️ 待確認 |
-| HCM | Mavacamten | ❌ 未核准 |
+| ATTR-CM | Tafamidis | ✅ 給付（2026，需事前審查） |
+| HCM | Mavacamten | ✅ 給付（2026，需事前審查） |
 | BrS/LQTS | ICD | ✅ 符合適應症 |
 | LQTS | BB, mexiletine | ✅ 常規藥物 |
 
