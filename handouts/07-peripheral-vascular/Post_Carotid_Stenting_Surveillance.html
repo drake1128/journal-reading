@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Post-Carotid Stenting Surveillance</title>
+
+<!--
+  ===========================================================================
+  POST-CAROTID STENTING SURVEILLANCE — Teaching deck
+  Author: 謝慕揚 MD, PhD, FESC  |  介入學會 Carotid Stenting course
+  Single self-contained HTML file. No dependencies. Open in any browser.
+
+  HOW TO CUSTOMISE
+  - Colours / fonts: edit the CSS variables in :root below.
+  - Insert your own cases: slides flagged "CASE PLACEHOLDER" are ready for you.
+    Press E (or hover the top-left corner) to enter in-browser edit mode,
+    click any text to edit, then Ctrl+S to save to this browser. Use the
+    💾 button (appears in edit mode) to export an updated .html file.
+  NAVIGATION: → / Space / scroll = next, ← = previous, nav dots on the right.
+  ===========================================================================
+-->
+
+<!-- Fonts: Bricolage Grotesque (display) + IBM Plex Sans (body) + IBM Plex Mono (data) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+/* ===========================================================================
+   THEME TOKENS — change these to restyle the whole deck
+   =========================================================================== */
+:root {
+    /* Clinical palette */
+    --navy:        #14223c;   /* deep navy — dark slides / headings */
+    --navy-2:      #0e1a30;   /* darker navy for gradient depth */
+    --ink:         #1d2733;   /* body text on light slides */
+    --slate:       #5b6b7f;   /* secondary text */
+    --paper:       #f5f7fa;   /* light slide background */
+    --paper-2:     #ffffff;   /* cards */
+    --line:        #d8e0ea;   /* hairlines / borders */
+    --red:         #ba181b;   /* primary accent (alerts, emphasis) */
+    --red-soft:    #fbeced;   /* red wash */
+    --blue:        #0072bc;   /* secondary accent (data, headers) */
+    --blue-soft:   #e7f1fa;   /* blue wash */
+    --teal:        #0e8a86;   /* tertiary accent */
+    --amber:       #c97a12;   /* caution accent */
+    --gold:        #ffd166;   /* on-navy highlight */
+
+    /* Typography */
+    --font-display: 'Bricolage Grotesque', 'IBM Plex Sans', sans-serif;
+    --font-body:    'IBM Plex Sans', system-ui, sans-serif;
+    --font-mono:    'IBM Plex Mono', ui-monospace, monospace;
+
+    /* Type scale (clamped — never fixed) */
+    --title-size:   clamp(2rem, 5.6vw, 4.4rem);
+    --h2-size:      clamp(1.35rem, 3.4vw, 2.6rem);
+    --h3-size:      clamp(1rem, 2vw, 1.5rem);
+    --body-size:    clamp(0.78rem, 1.45vw, 1.08rem);
+    --small-size:   clamp(0.62rem, 1vw, 0.82rem);
+    --kicker-size:  clamp(0.6rem, 0.95vw, 0.8rem);
+
+    /* Spacing */
+    --slide-padding: clamp(1.1rem, 4.2vw, 4.2rem);
+    --content-gap:   clamp(0.6rem, 1.8vw, 1.6rem);
+    --element-gap:   clamp(0.3rem, 1vw, 0.9rem);
+
+    /* Motion */
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    --dur:  0.6s;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ===========================================================================
+   VIEWPORT FITTING — mandatory base (from viewport-base.css, included in full)
+   =========================================================================== */
+html, body { height: 100%; overflow-x: hidden; }
+html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+
+.slide {
+    width: 100vw; height: 100vh; height: 100dvh;
+    overflow: hidden;
+    scroll-snap-align: start;
+    display: flex; flex-direction: column;
+    position: relative;
+}
+.slide-content {
+    flex: 1; display: flex; flex-direction: column; justify-content: center;
+    max-height: 100%; overflow: hidden; padding: var(--slide-padding);
+}
+.card, .container, .content-box { max-width: min(94vw, 1180px); max-height: min(86vh, 760px); }
+.feature-list, .bullet-list { gap: clamp(0.4rem, 1vh, 1rem); }
+.feature-list li, .bullet-list li { font-size: var(--body-size); line-height: 1.4; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: clamp(0.5rem, 1.5vw, 1rem); }
+img, .image-container { max-width: 100%; max-height: min(50vh, 400px); object-fit: contain; }
+
+@media (max-height: 700px) {
+    :root { --slide-padding: clamp(0.75rem, 3vw, 2rem); --content-gap: clamp(0.4rem, 1.5vw, 1rem);
+            --title-size: clamp(1.5rem, 4.8vw, 2.8rem); --h2-size: clamp(1.1rem, 3vw, 1.9rem); }
+}
+@media (max-height: 600px) {
+    :root { --slide-padding: clamp(0.5rem, 2.5vw, 1.5rem); --content-gap: clamp(0.3rem, 1vw, 0.75rem);
+            --title-size: clamp(1.2rem, 4vw, 2.2rem); --body-size: clamp(0.68rem, 1.2vw, 0.92rem); }
+    .nav-dots, .keyboard-hint, .decorative { display: none; }
+}
+@media (max-height: 500px) {
+    :root { --slide-padding: clamp(0.4rem, 2vw, 1rem); --title-size: clamp(1rem, 3.5vw, 1.6rem);
+            --h2-size: clamp(0.9rem, 2.5vw, 1.3rem); --body-size: clamp(0.64rem, 1vw, 0.84rem); }
+}
+@media (max-width: 600px) {
+    :root { --title-size: clamp(1.4rem, 7vw, 2.6rem); }
+    .grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.2s !important; }
+    html { scroll-behavior: auto; }
+}
+
+/* ===========================================================================
+   BASE LOOK
+   =========================================================================== */
+body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--navy);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* Light slide surface with a faint clinical grid + paper tone */
+.slide.light {
+    background:
+        linear-gradient(transparent 0, transparent calc(100% - 1px), rgba(20,34,60,0.035) 100%),
+        linear-gradient(90deg, transparent 0, transparent calc(100% - 1px), rgba(20,34,60,0.035) 100%),
+        var(--paper);
+    background-size: 100% 34px, 34px 100%, auto;
+}
+/* Dark slide surface with layered radial depth */
+.slide.dark {
+    background:
+        radial-gradient(1100px 600px at 82% 12%, rgba(0,114,188,0.20) 0%, transparent 60%),
+        radial-gradient(900px 700px at 8% 92%, rgba(186,24,27,0.18) 0%, transparent 55%),
+        linear-gradient(160deg, var(--navy) 0%, var(--navy-2) 100%);
+    color: #eaf0f8;
+}
+
+/* ===========================================================================
+   SHARED COMPONENTS
+   =========================================================================== */
+/* Kicker = small mono uppercase section label */
+.kicker {
+    font-family: var(--font-mono);
+    font-size: var(--kicker-size);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--blue);
+    display: flex; align-items: center; gap: 0.6em;
+    margin-bottom: clamp(0.5rem, 1.4vw, 1rem);
+}
+.kicker::before { content: ""; width: clamp(18px, 2.4vw, 34px); height: 2px; background: var(--red); display: inline-block; }
+.dark .kicker { color: var(--gold); }
+.dark .kicker::before { background: var(--gold); }
+
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.04; letter-spacing: -0.01em; }
+.slide-content h2 { font-size: var(--h2-size); color: var(--navy); margin-bottom: var(--element-gap); }
+.dark .slide-content h2 { color: #ffffff; }
+.lead { font-size: var(--body-size); color: var(--slate); line-height: 1.5; max-width: 70ch; }
+.dark .lead { color: #b8c6da; }
+
+strong { color: var(--red); font-weight: 600; }
+.dark strong { color: var(--gold); }
+em.k { font-style: normal; color: var(--blue); font-weight: 600; }
+
+/* Two-column layout */
+.cols { display: grid; gap: clamp(0.8rem, 2.4vw, 2.2rem); grid-template-columns: 1fr 1fr; align-items: center; }
+.cols.l { grid-template-columns: 1.05fr 0.95fr; }
+@media (max-width: 820px) { .cols, .cols.l { grid-template-columns: 1fr; } }
+
+/* Bullet list with tick marks */
+ul.ticks { list-style: none; display: flex; flex-direction: column; gap: clamp(0.4rem, 1.1vh, 0.95rem); }
+ul.ticks li { position: relative; padding-left: 1.5em; font-size: var(--body-size); line-height: 1.42; color: var(--ink); }
+ul.ticks li::before {
+    content: ""; position: absolute; left: 0; top: 0.5em;
+    width: 0.6em; height: 0.6em; border-radius: 2px;
+    background: var(--blue); transform: rotate(45deg);
+}
+.dark ul.ticks li { color: #d4def0; }
+.dark ul.ticks li::before { background: var(--gold); }
+ul.ticks li small { color: var(--slate); }
+.dark ul.ticks li small { color: #93a4bd; }
+
+/* Card grid */
+.cards { display: grid; gap: clamp(0.5rem, 1.4vw, 1rem); }
+.cards.c3 { grid-template-columns: repeat(3, 1fr); }
+.cards.c2 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 820px) { .cards.c3, .cards.c2 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .cards.c3, .cards.c2 { grid-template-columns: 1fr; } }
+
+.tile {
+    background: var(--paper-2); border: 1px solid var(--line);
+    border-radius: 12px; padding: clamp(0.7rem, 1.5vw, 1.2rem);
+    position: relative; overflow: hidden;
+}
+.tile::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--blue); }
+.tile.red::before { background: var(--red); }
+.tile.amber::before { background: var(--amber); }
+.tile.teal::before { background: var(--teal); }
+.tile h3 { font-size: var(--h3-size); color: var(--navy); margin-bottom: 0.25em; }
+.tile p { font-size: var(--small-size); color: var(--slate); line-height: 1.4; }
+.tile .ico { font-family: var(--font-mono); font-size: var(--small-size); color: var(--blue); letter-spacing: 0.1em; }
+
+/* Stat block */
+.stat { display: flex; flex-direction: column; }
+.stat .num { font-family: var(--font-mono); font-weight: 600; font-size: clamp(1.6rem, 4.6vw, 3.4rem); color: var(--red); line-height: 1; }
+.dark .stat .num { color: var(--gold); }
+.stat .lbl { font-size: var(--small-size); color: var(--slate); margin-top: 0.35em; line-height: 1.35; }
+.dark .stat .lbl { color: #b8c6da; }
+.statrow { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(0.8rem, 2.2vw, 2rem); }
+@media (max-width: 700px){ .statrow { grid-template-columns: 1fr; gap: 0.7rem; } }
+
+/* Data table */
+.table-wrap { width: 100%; overflow: hidden; border-radius: 12px; border: 1px solid var(--line); }
+table.data { width: 100%; border-collapse: collapse; font-size: clamp(0.66rem, 1.25vw, 0.96rem); background: var(--paper-2); }
+table.data th { background: var(--blue); color: #fff; text-align: left; padding: 0.6em 0.85em; font-weight: 600; font-family: var(--font-body); }
+table.data td { padding: 0.55em 0.85em; border-top: 1px solid var(--line); color: var(--ink); }
+table.data tr:nth-child(even) td { background: #f1f5fa; }
+table.data .mono { font-family: var(--font-mono); color: var(--blue); font-weight: 500; }
+table.data .hi { color: var(--red); font-weight: 600; }
+table.data caption { caption-side: bottom; font-size: var(--small-size); color: var(--slate); text-align: left; padding-top: 0.5em; }
+
+/* Pearl / callout */
+.callout {
+    border-left: 4px solid var(--red); background: var(--red-soft);
+    border-radius: 0 10px 10px 0; padding: clamp(0.6rem, 1.5vw, 1rem) clamp(0.8rem, 1.8vw, 1.2rem);
+    font-size: var(--body-size); color: var(--ink); line-height: 1.45;
+}
+.callout.blue { border-color: var(--blue); background: var(--blue-soft); }
+.callout .tag { font-family: var(--font-mono); font-size: var(--small-size); letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); display:block; margin-bottom: 0.3em; }
+.callout.blue .tag { color: var(--blue); }
+.dark .callout { background: rgba(255,255,255,0.06); border-color: var(--gold); color: #e7eefb; }
+.dark .callout .tag { color: var(--gold); }
+
+/* Timeline phases */
+.phases { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(0.5rem,1.4vw,1rem); }
+@media (max-width:780px){ .phases{ grid-template-columns:1fr; } }
+.phase { border: 1px solid var(--line); border-radius: 12px; background: var(--paper-2); padding: clamp(0.7rem,1.6vw,1.1rem); position: relative; }
+.phase .when { font-family: var(--font-mono); font-size: var(--small-size); color: #fff; background: var(--navy); display:inline-block; padding: 0.18em 0.6em; border-radius: 999px; margin-bottom: 0.5em; }
+.phase.p1 .when { background: var(--red); }
+.phase.p2 .when { background: var(--blue); }
+.phase.p3 .when { background: var(--teal); }
+.phase h3 { font-size: var(--h3-size); color: var(--navy); margin-bottom: 0.25em; }
+.phase p { font-size: var(--small-size); color: var(--slate); line-height: 1.4; }
+
+/* Flow algorithm */
+.flow { display: flex; flex-direction: column; gap: clamp(0.35rem,1vh,0.7rem); width: 100%; max-width: 1050px; }
+.flow .step { display:flex; align-items:center; gap: clamp(0.5rem,1.4vw,1rem); }
+.flow .box { flex:1; background: var(--paper-2); border:1px solid var(--line); border-radius:10px; padding: clamp(0.45rem,1.2vw,0.8rem) clamp(0.7rem,1.6vw,1.1rem); font-size: var(--small-size); line-height:1.35; }
+.flow .box b { color: var(--navy); font-family: var(--font-display); font-weight:700; }
+.flow .node { font-family: var(--font-mono); font-size: var(--small-size); color:#fff; background: var(--blue); min-width: clamp(2rem,4vw,2.6rem); height: clamp(2rem,4vw,2.6rem); display:flex;align-items:center;justify-content:center;border-radius:50%; flex-shrink:0; }
+.flow .arrow { text-align:center; color: var(--line); font-size: 1rem; line-height:0.4; }
+.flow .branch { display:grid; grid-template-columns:1fr 1fr; gap: clamp(0.4rem,1.2vw,0.9rem); }
+.flow .box.ok { border-color: var(--teal); background: #eaf6f5; }
+.flow .box.alert { border-color: var(--red); background: var(--red-soft); }
+
+/* Footer meta on each light slide */
+.foot {
+    position: absolute; bottom: clamp(0.5rem,1.4vw,1.2rem); left: var(--slide-padding); right: var(--slide-padding);
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: var(--font-mono); font-size: clamp(0.55rem,0.85vw,0.72rem);
+    color: var(--slate); letter-spacing: 0.06em; pointer-events: none;
+}
+.dark .foot { color: #7e92ad; }
+.foot .pg { color: var(--blue); }
+.dark .foot .pg { color: var(--gold); }
+
+/* Decorative Doppler spectral waveform (SVG motif) */
+.wave { position:absolute; pointer-events:none; opacity:0.5; }
+.wave path { fill: none; }
+
+/* ===========================================================================
+   TITLE SLIDE
+   =========================================================================== */
+.title-slide .slide-content { justify-content: center; gap: clamp(0.6rem,1.6vw,1.3rem); }
+.title-slide .eyebrow {
+    font-family: var(--font-mono); font-size: var(--kicker-size); letter-spacing: 0.28em;
+    text-transform: uppercase; color: var(--gold); display:flex; align-items:center; gap:0.7em;
+}
+.title-slide .eyebrow::before { content:""; width: clamp(22px,3vw,46px); height:2px; background: var(--red); }
+.title-slide h1 { font-size: var(--title-size); color:#fff; font-weight: 800; max-width: 17ch; }
+.title-slide h1 .accent { color: var(--gold); }
+.title-slide .sub { font-size: clamp(0.95rem,2vw,1.4rem); color:#c4d3e8; font-weight: 500; max-width: 48ch; }
+.title-slide .by { display:flex; flex-wrap:wrap; gap: 0.4em 1.4em; align-items:center; margin-top: clamp(0.4rem,1.2vw,1rem); font-size: var(--small-size); color:#9fb2cd; font-family: var(--font-mono); }
+.title-slide .by .name { color:#fff; font-family: var(--font-display); font-size: var(--body-size); font-weight:700; }
+.title-slide .pill { border:1px solid rgba(255,255,255,0.22); border-radius:999px; padding:0.25em 0.9em; }
+
+/* ===========================================================================
+   DIVIDER SLIDES
+   =========================================================================== */
+.divider .slide-content { justify-content: center; }
+.divider .dnum { font-family: var(--font-mono); font-size: clamp(2rem,7vw,5.5rem); color: rgba(255,255,255,0.10); font-weight:600; line-height:1; }
+.divider h2 { font-size: clamp(1.8rem,5vw,3.6rem); color:#fff; max-width: 18ch; margin-top: clamp(0.2rem,1vw,0.6rem); }
+.divider .dsub { font-size: var(--body-size); color: var(--gold); font-family: var(--font-mono); letter-spacing:0.1em; margin-top: 0.6em; }
+
+/* CASE placeholder styling */
+.caseph .slide-content { justify-content:center; align-items:flex-start; }
+.case-frame {
+    width:100%; max-width: 1050px; border: 2px dashed var(--blue);
+    border-radius: 16px; background: repeating-linear-gradient(135deg, rgba(0,114,188,0.04) 0 14px, transparent 14px 28px);
+    padding: clamp(1rem,3vw,2.4rem); position:relative;
+}
+.case-frame .badge { position:absolute; top:-0.8em; left: clamp(1rem,3vw,2rem); background: var(--blue); color:#fff; font-family: var(--font-mono); font-size: var(--small-size); letter-spacing:0.14em; text-transform:uppercase; padding:0.25em 0.9em; border-radius: 999px; }
+.case-frame h2 { color: var(--navy); font-size: var(--h2-size); }
+.case-frame p { color: var(--slate); font-size: var(--body-size); line-height:1.5; margin-top:0.5em; }
+.case-frame ul.ticks { margin-top: 0.8em; }
+
+/* Reveal animation */
+.reveal { opacity:0; transform: translateY(26px); transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease); }
+.slide.visible .reveal { opacity:1; transform: translateY(0); }
+.slide.visible .reveal:nth-child(1){ transition-delay:.05s; }
+.slide.visible .reveal:nth-child(2){ transition-delay:.13s; }
+.slide.visible .reveal:nth-child(3){ transition-delay:.21s; }
+.slide.visible .reveal:nth-child(4){ transition-delay:.29s; }
+.slide.visible .reveal:nth-child(5){ transition-delay:.37s; }
+.slide.visible .reveal:nth-child(6){ transition-delay:.45s; }
+.r2 .reveal { transition-delay: 0s; }
+
+/* Progress bar */
+.progress-bar { position: fixed; top:0; left:0; height:3px; width:0; background: linear-gradient(90deg,var(--red),var(--blue)); z-index: 9000; transition: width 0.15s linear; }
+
+/* Nav dots */
+.nav-dots { position: fixed; right: clamp(0.5rem,1.4vw,1.4rem); top:50%; transform: translateY(-50%); display:flex; flex-direction:column; gap:0.55rem; z-index: 9000; }
+.nav-dots button { width:9px; height:9px; border-radius:50%; border:1.5px solid rgba(120,140,170,0.6); background:transparent; cursor:pointer; padding:0; transition: all .25s var(--ease); }
+.nav-dots button.active { background: var(--red); border-color: var(--red); transform: scale(1.35); }
+.nav-dots button:hover { border-color: var(--blue); }
+
+/* Keyboard hint */
+.keyboard-hint { position: fixed; bottom: clamp(0.5rem,1.4vw,1rem); right: clamp(0.6rem,1.6vw,1.4rem); font-family: var(--font-mono); font-size: 0.66rem; color: rgba(140,160,190,0.8); z-index: 9000; letter-spacing:0.05em; }
+
+/* Edit mode */
+.edit-hotzone { position: fixed; top:0; left:0; width:80px; height:80px; z-index:10000; cursor:pointer; }
+.edit-toggle { position: fixed; top: 14px; left: 14px; width:42px; height:42px; border-radius:50%; border:none; background: var(--navy); color:#fff; font-size:1.1rem; cursor:pointer; z-index:10001; opacity:0; pointer-events:none; transition: opacity .3s ease, transform .2s ease; box-shadow:0 6px 18px rgba(0,0,0,0.3); }
+.edit-toggle.show, .edit-toggle.active { opacity:1; pointer-events:auto; }
+.edit-toggle.active { background: var(--red); transform: rotate(8deg); }
+.edit-save { position: fixed; top: 14px; left: 66px; height:42px; padding:0 14px; border-radius:21px; border:none; background: var(--blue); color:#fff; font-family:var(--font-mono); font-size:0.75rem; cursor:pointer; z-index:10001; opacity:0; pointer-events:none; transition: opacity .3s ease; box-shadow:0 6px 18px rgba(0,0,0,0.3); }
+.edit-save.show { opacity:1; pointer-events:auto; }
+[contenteditable="true"] { outline: 2px dashed var(--blue); outline-offset: 3px; border-radius: 3px; cursor: text; }
+.edit-banner { position: fixed; top:14px; left:50%; transform: translateX(-50%); background: var(--red); color:#fff; font-family: var(--font-mono); font-size:0.72rem; padding:0.4em 1em; border-radius:999px; z-index:10001; opacity:0; pointer-events:none; transition:opacity .3s; letter-spacing:0.06em; }
+.edit-banner.show { opacity:1; }
+</style>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<nav class="nav-dots" id="navDots" aria-label="Slide navigation"></nav>
+<div class="keyboard-hint">→ / Space &nbsp;·&nbsp; ← back &nbsp;·&nbsp; E edit</div>
+
+<!-- Edit-mode controls -->
+<div class="edit-hotzone" id="editHotzone" title="Edit mode"></div>
+<button class="edit-toggle" id="editToggle" title="Toggle edit mode (E)">✏️</button>
+<button class="edit-save" id="editSave" title="Export edited .html">💾 Export</button>
+<div class="edit-banner" id="editBanner">EDIT MODE · click text to edit · Ctrl+S saves to this browser</div>
+
+<!-- =========================================================================
+     SLIDE 1 — TITLE
+     ========================================================================= -->
+<section class="slide dark title-slide">
+    <!-- Decorative Doppler waveform along the bottom -->
+    <svg class="wave decorative" style="bottom:6%; left:0; width:100%; height:16vh;" viewBox="0 0 1000 140" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,120 L120,120 C140,120 150,30 175,30 C195,30 200,120 230,120 L360,120 C380,120 390,40 415,40 C435,40 442,120 470,120 L600,120 C620,120 630,26 655,26 C675,26 682,120 710,120 L840,120 C860,120 870,46 895,46 C915,46 922,120 950,120 L1000,120"
+              stroke="#ffd166" stroke-width="2.5" opacity="0.65"/>
+        <path d="M0,128 L1000,128" stroke="#3a5a86" stroke-width="1" opacity="0.5"/>
+    </svg>
+    <div class="slide-content">
+        <span class="eyebrow reveal">介入學會 · Carotid Stenting Course</span>
+        <h1 class="reveal">Post-Carotid Stenting <span class="accent">Surveillance</span></h1>
+        <p class="sub reveal">Follow-up imaging, duplex velocity criteria for in-stent restenosis, and when to re-intervene after CAS</p>
+        <div class="by reveal">
+            <span class="name">謝慕揚 MD, PhD, FESC</span>
+            <span class="pill">Structural &amp; Interventional Cardiology</span>
+            <span class="pill">Weekend Course · 2026</span>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 2 — WHY SURVEILLANCE MATTERS
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">01 · The Problem</span>
+        <h2 class="reveal">The stent is placed &mdash; the risk is not over</h2>
+        <p class="lead reveal">CAS treats the lesion of the day. Restenosis, plaque progression and recurrent embolic events develop <em class="k">silently</em> over the following months and years. Structured surveillance is how we catch them before the next stroke.</p>
+        <div class="statrow reveal" style="margin-top: var(--content-gap);">
+            <div class="stat"><span class="num">~5&ndash;6%</span><span class="lbl">significant in-stent restenosis (&ge;70%) within the first 1&ndash;2 years</span></div>
+            <div class="stat"><span class="num">12&ndash;24<small style="font-size:0.4em"> mo</small></span><span class="lbl">window when neointimal hyperplasia &mdash; the dominant mechanism &mdash; peaks</span></div>
+            <div class="stat"><span class="num">&gt;50%</span><span class="lbl">of restenoses are asymptomatic &mdash; imaging, not symptoms, finds them</span></div>
+        </div>
+        <div class="callout blue reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Why it matters</span>
+            Most ISR is clinically silent until it embolises or occludes. Surveillance converts an unpredictable late event into a <strong>scheduled, treatable finding</strong>.
+        </div>
+    </div>
+    <div class="foot"><span>Post-CAS Surveillance</span><span class="pg">02</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 3 — ROADMAP / OBJECTIVES
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">02 · Roadmap</span>
+        <h2 class="reveal">What this talk covers</h2>
+        <div class="cards c3 reveal" style="margin-top: var(--content-gap);">
+            <div class="tile"><span class="ico">A</span><h3>What we watch for</h3><p>ISR, recurrent stroke, contralateral progression, stent &amp; access issues.</p></div>
+            <div class="tile"><span class="ico">B</span><h3>How &amp; when</h3><p>Duplex-first schedule, baseline scans, and the role of CTA / MRA / DSA.</p></div>
+            <div class="tile red"><span class="ico">C</span><h3>Reading the duplex</h3><p>Stent-specific velocity criteria &mdash; why native thresholds mislead.</p></div>
+            <div class="tile"><span class="ico">D</span><h3>Acting on it</h3><p>Medical therapy, thresholds for re-intervention, treatment options.</p></div>
+            <div class="tile teal"><span class="ico">E</span><h3>Guidelines</h3><p>SVS 2022 / ESVS 2023 surveillance recommendations at a glance.</p></div>
+            <div class="tile amber"><span class="ico">F</span><h3>Worked cases</h3><p>Two contrasting examples &mdash; the <em>watch</em> pathway vs the <em>act</em> pathway.</p></div>
+        </div>
+    </div>
+    <div class="foot"><span>Post-CAS Surveillance</span><span class="pg">03</span></div>
+</section>
+
+<!-- =========================================================================
+     DIVIDER — PART 1
+     ========================================================================= -->
+<section class="slide dark divider">
+    <div class="slide-content">
+        <span class="dnum reveal">01</span>
+        <h2 class="reveal">What are we watching for?</h2>
+        <p class="dsub reveal">The targets of surveillance after CAS</p>
+    </div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 5 — WHAT WE WATCH FOR (6-card grid)
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">01 · Targets</span>
+        <h2 class="reveal">Six things to look for at follow-up</h2>
+        <div class="cards c3 reveal" style="margin-top: var(--content-gap);">
+            <div class="tile red"><h3>In-stent restenosis</h3><p>Neointimal hyperplasia &rarr; recurrent narrowing. The #1 surveillance target.</p></div>
+            <div class="tile red"><h3>Recurrent ipsilateral stroke / TIA</h3><p>Embolic or flow-limiting. Symptoms always override imaging.</p></div>
+            <div class="tile"><h3>Contralateral progression</h3><p>Atherosclerosis is bilateral &mdash; the other side can advance silently.</p></div>
+            <div class="tile amber"><h3>Hyperperfusion syndrome</h3><p>Early (hours&ndash;days): headache, seizures, ICH after flow restoration.</p></div>
+            <div class="tile teal"><h3>Stent integrity</h3><p>Fracture, deformation, incomplete apposition &mdash; rare but late risk.</p></div>
+            <div class="tile"><h3>Access &amp; systemic</h3><p>Groin/radial access site, plus global vascular risk-factor control.</p></div>
+        </div>
+        <div class="callout reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Anchor</span> Surveillance has two arms running in parallel: <strong>imaging of the stented vessel</strong> and <strong>clinical neurologic assessment</strong>. Neither alone is enough.
+        </div>
+    </div>
+    <div class="foot"><span>What we watch for</span><span class="pg">05</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 6 — ISR DEFINITION & INCIDENCE
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">01 · In-Stent Restenosis</span>
+        <h2 class="reveal">Definition &amp; incidence</h2>
+        <div class="cols l">
+            <div class="reveal">
+                <ul class="ticks">
+                    <li><strong>Mechanism differs from native disease.</strong> Early/intermediate ISR is <em class="k">neointimal hyperplasia</em> (smooth-muscle proliferation), not lipid-rich plaque &mdash; smoother, more concentric, less embolic than de-novo lesions.</li>
+                    <li><strong>Two clinically used thresholds:</strong> <em class="k">&ge;50%</em> (moderate, watch) and <em class="k">&ge;70&ndash;80%</em> (severe, act).</li>
+                    <li><strong>Timing:</strong> highest hazard in the first <em class="k">12&ndash;24 months</em>; very late restenosis tends to be recurrent atherosclerosis.</li>
+                    <li><strong>Behaviour:</strong> a majority remain asymptomatic; stroke risk from ISR is lower than from primary plaque but not zero.</li>
+                </ul>
+            </div>
+            <div class="reveal">
+                <div class="statrow" style="grid-template-columns:1fr;">
+                    <div class="tile" style="text-align:center;"><div class="stat" style="align-items:center;"><span class="num">3&ndash;6%</span><span class="lbl">severe ISR (&ge;70%) at 1&ndash;2 years in contemporary series</span></div></div>
+                    <div class="tile" style="text-align:center;"><div class="stat" style="align-items:center;"><span class="num">&lt;1&ndash;2%/yr</span><span class="lbl">ISR-attributable ipsilateral stroke &mdash; lower than de-novo disease</span></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="callout blue reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Teaching point</span> Reported ISR rates swing widely (≈3&ndash;30%) <strong>because the definition and the duplex criteria differ between studies</strong>. Always state which threshold you mean.
+        </div>
+    </div>
+    <div class="foot"><span>In-stent restenosis</span><span class="pg">06</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 7 — RISK FACTORS FOR ISR
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">01 · Risk Stratification</span>
+        <h2 class="reveal">Who restenoses? &mdash; risk factors for ISR</h2>
+        <div class="cards c2 reveal" style="margin-top: var(--content-gap);">
+            <div class="tile red">
+                <h3>Patient / biology</h3>
+                <p>Female sex · diabetes · active smoking · dyslipidaemia · chronic kidney disease · <strong>prior neck radiation</strong> (radiation-induced stenosis is high-risk).</p>
+            </div>
+            <div class="tile blue" style="--x:0">
+                <h3>Lesion / anatomy</h3>
+                <p>Small reference diameter · long lesion · severe baseline calcification · recurrent (post-CEA) stenosis.</p>
+            </div>
+            <div class="tile">
+                <h3>Procedure</h3>
+                <p><strong>Residual stenosis</strong> after stenting · stent under-expansion / malapposition · multiple overlapping stents.</p>
+            </div>
+            <div class="tile teal">
+                <h3>Adherence</h3>
+                <p>Antiplatelet non-compliance · uncontrolled risk factors · statin under-treatment.</p>
+            </div>
+        </div>
+        <div class="callout reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Practical use</span> High-risk patients (radiation, residual stenosis, post-CEA, diabetic) earn a <strong>tighter surveillance interval</strong> &mdash; not the same one-size schedule.
+        </div>
+    </div>
+    <div class="foot"><span>Risk factors</span><span class="pg">07</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 8 — TIMELINE OF RISK
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">01 · Natural History</span>
+        <h2 class="reveal">A timeline of risk &mdash; different problems, different windows</h2>
+        <div class="phases reveal" style="margin-top: var(--content-gap);">
+            <div class="phase p1">
+                <span class="when">Early · 0&ndash;30 days</span>
+                <h3>Procedural &amp; haemodynamic</h3>
+                <p>Acute/subacute stent thrombosis, embolic events, <strong>cerebral hyperperfusion syndrome</strong>, access-site complications, bradycardia/hypotension.</p>
+            </div>
+            <div class="phase p2">
+                <span class="when">Intermediate · 1&ndash;24 mo</span>
+                <h3>Neointimal hyperplasia</h3>
+                <p>The dominant ISR mechanism. Smooth-muscle proliferation peaks &mdash; this is the window your duplex surveillance is built around.</p>
+            </div>
+            <div class="phase p3">
+                <span class="when">Late · &gt;2 years</span>
+                <h3>Atherosclerosis &amp; integrity</h3>
+                <p>Recurrent atherosclerotic restenosis, contralateral progression, <strong>stent fracture</strong> / deformation. Justifies indefinite annual follow-up.</p>
+            </div>
+        </div>
+        <div class="callout blue reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Mental model</span> Match the <strong>modality and interval</strong> to the phase: dense early clinical vigilance &rarr; duplex through the hyperplasia window &rarr; lifelong annual checks.
+        </div>
+    </div>
+    <div class="foot"><span>Timeline of risk</span><span class="pg">08</span></div>
+</section>
+
+<!-- =========================================================================
+     DIVIDER — PART 2
+     ========================================================================= -->
+<section class="slide dark divider">
+    <div class="slide-content">
+        <span class="dnum reveal">02</span>
+        <h2 class="reveal">How &amp; when to image</h2>
+        <p class="dsub reveal">The surveillance schedule and the duplex toolkit</p>
+    </div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 10 — SURVEILLANCE SCHEDULE (table)
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">02 · Schedule</span>
+        <h2 class="reveal">A practical surveillance schedule</h2>
+        <div class="table-wrap reveal" style="margin-top: var(--content-gap);">
+            <table class="data">
+                <thead><tr><th>Time point</th><th>Modality</th><th>Purpose</th><th>Action</th></tr></thead>
+                <tbody>
+                    <tr><td><strong style="color:var(--navy)">Baseline &mdash; &le;30 days</strong></td><td class="mono">Duplex US</td><td>Establish <em>this patient's</em> post-stent velocities + check residual stenosis</td><td>Mandatory reference scan</td></tr>
+                    <tr><td>6 months</td><td class="mono">Duplex US</td><td>Catch early neointimal hyperplasia</td><td>Compare to baseline</td></tr>
+                    <tr><td>12 months</td><td class="mono">Duplex US</td><td>Peak-hazard window</td><td>Compare trend</td></tr>
+                    <tr><td>Annually thereafter</td><td class="mono">Duplex US</td><td>Late restenosis, contralateral disease, stent integrity</td><td>Indefinite if stable</td></tr>
+                    <tr><td class="hi">Any new symptom</td><td class="mono">Duplex &plusmn; CTA/DSA</td><td>TIA/stroke in the territory</td><td class="hi">Expedite &mdash; do not wait</td></tr>
+                </tbody>
+                <caption>Representative schedule consistent with SVS 2022 / ESVS 2023; tighten intervals for high-risk anatomy or a rising-velocity trend.</caption>
+            </table>
+        </div>
+        <div class="callout reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Do not skip</span> The <strong>baseline (≤30-day) duplex</strong> is the single most useful scan &mdash; without it, every later velocity is uninterpretable.
+        </div>
+    </div>
+    <div class="foot"><span>Surveillance schedule</span><span class="pg">09</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 11 — DUPLEX FIRST-LINE
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">02 · Modality of choice</span>
+        <h2 class="reveal">Duplex ultrasound is the workhorse</h2>
+        <div class="cols">
+            <div class="reveal">
+                <ul class="ticks">
+                    <li><strong>Non-invasive, no contrast, no radiation</strong> &mdash; ideal for repeated, lifelong follow-up.</li>
+                    <li>Gives both <em class="k">anatomy</em> (B-mode/colour) and <em class="k">physiology</em> (spectral Doppler velocities).</li>
+                    <li>Detects the rising-velocity <em class="k">trend</em> that flags developing ISR.</li>
+                    <li>Cheap, bedside, repeatable &mdash; the basis of every guideline schedule.</li>
+                </ul>
+            </div>
+            <div class="reveal">
+                <div class="callout blue">
+                    <span class="tag">But — one big caveat</span>
+                    A stent <strong>stiffens the artery</strong>. Reduced wall compliance raises measured velocities <em>even with a widely patent stent</em>. Apply native-artery thresholds and you will <strong>over-call restenosis</strong>.
+                </div>
+                <div class="callout" style="margin-top: var(--element-gap);">
+                    <span class="tag">Operator-dependent</span> Results hinge on a <strong>vascular lab that validates its own stented-carotid criteria</strong> and scans consistently.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot"><span>Duplex ultrasound</span><span class="pg">10</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 12 — WHY NATIVE CRITERIA FAIL
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">02 · The Pitfall</span>
+        <h2 class="reveal">Why native-artery velocity thresholds mislead in a stent</h2>
+        <div class="cols">
+            <div class="reveal">
+                <ul class="ticks">
+                    <li><strong>Stent = a rigid tube.</strong> Loss of pulsatile wall expansion increases peak systolic velocity for the <em>same lumen</em>.</li>
+                    <li>The effect is largest <strong>early after deployment</strong> and in long / stiff constructs.</li>
+                    <li>Net result: a normal stented ICA often shows velocities that would mean &ldquo;50% stenosis&rdquo; in a native vessel.</li>
+                    <li><strong>The fix:</strong> use <em class="k">stent-specific, elevated cutoffs</em> and weigh the <em class="k">serial trend</em> over any single absolute number.</li>
+                </ul>
+            </div>
+            <div class="reveal">
+                <div class="callout" style="border-color:var(--blue); background:var(--blue-soft);">
+                    <span class="tag" style="color:var(--blue)">Native ICA (reference)</span>
+                    <span style="font-family:var(--font-mono); font-size:var(--small-size); color:var(--ink); line-height:1.7; display:block;">
+                        &ge;50% &nbsp;&rarr;&nbsp; PSV &gt; 125 cm/s<br/>
+                        &ge;70% &nbsp;&rarr;&nbsp; PSV &gt; 230 cm/s
+                    </span>
+                </div>
+                <div class="callout" style="margin-top: var(--element-gap); border-color:var(--red); background:var(--red-soft);">
+                    <span class="tag">Stented ICA needs higher cutoffs &rarr; next slide</span>
+                    Same degree of stenosis = a substantially higher PSV once a stent is in place.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot"><span>Why native criteria fail</span><span class="pg">11</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 13 — VELOCITY CRITERIA TABLE (the key slide)
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">02 · The Key Slide</span>
+        <h2 class="reveal">Stent-specific duplex criteria for ISR</h2>
+        <div class="table-wrap reveal" style="margin-top: var(--element-gap);">
+            <table class="data">
+                <thead><tr><th>Degree of in-stent restenosis</th><th>Peak systolic velocity (PSV)</th><th>ICA / CCA ratio</th><th>EDV (guide)</th></tr></thead>
+                <tbody>
+                    <tr><td>Normal / &lt;20% (baseline)</td><td class="mono">&lt; 150 cm/s</td><td class="mono">&lt; 2.0</td><td class="mono">&mdash;</td></tr>
+                    <tr><td>&ge; 50% (moderate &mdash; <em>watch closely</em>)</td><td class="mono">&ge; 220 cm/s</td><td class="mono">&ge; 2.7</td><td class="mono">&ge; 70 cm/s</td></tr>
+                    <tr><td class="hi">&ge; 70&ndash;80% (severe &mdash; <em>act</em>)</td><td class="mono hi">&ge; 300&ndash;340 cm/s</td><td class="mono hi">&ge; 4.0</td><td class="mono hi">&ge; 100&ndash;125 cm/s</td></tr>
+                </tbody>
+                <caption>Representative validated cutoffs (e.g. AbuRahma, Lal et&nbsp;al.). Exact thresholds vary by study &mdash; every lab should validate &amp; state its own. Note these run markedly higher than native-ICA criteria.</caption>
+            </table>
+        </div>
+        <div class="cards c3 reveal" style="margin-top: var(--element-gap);">
+            <div class="tile blue"><h3>Use the ratio</h3><p>ICA/CCA ratio is <strong>less stiffness-dependent</strong> than absolute PSV &mdash; a robust tie-breaker.</p></div>
+            <div class="tile red"><h3>Use the trend</h3><p>A velocity <strong>climbing across serial scans</strong> beats any single value for calling early ISR.</p></div>
+            <div class="tile teal"><h3>Confirm before acting</h3><p>Severe by duplex &rarr; confirm with <strong>CTA or DSA</strong> before re-intervention.</p></div>
+        </div>
+    </div>
+    <div class="foot"><span>Duplex velocity criteria</span><span class="pg">12</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 14 — BASELINE & TREND
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">02 · Interpretation</span>
+        <h2 class="reveal">Baseline first, then trust the trend</h2>
+        <div class="cols">
+            <div class="reveal">
+                <ul class="ticks">
+                    <li><strong>Record a baseline PSV/EDV/ratio for each patient</strong> at &le;30 days &mdash; the stent's own &ldquo;normal.&rdquo;</li>
+                    <li>Judge later scans against that baseline, not a population number.</li>
+                    <li><strong>A doubling of PSV</strong> or a clear upward trajectory is a red flag even below the absolute severe cutoff.</li>
+                    <li>Keep <em class="k">the same lab and protocol</em> where possible &mdash; inter-lab variability is real.</li>
+                </ul>
+            </div>
+            <div class="reveal">
+                <!-- Simple inline SVG trend chart: rising velocity over follow-up -->
+                <svg viewBox="0 0 360 220" style="width:100%; max-height:46vh; background:var(--paper-2); border:1px solid var(--line); border-radius:12px;" aria-label="Serial PSV trend">
+                    <line x1="40" y1="180" x2="340" y2="180" stroke="#c3cede" stroke-width="1.5"/>
+                    <line x1="40" y1="20" x2="40" y2="180" stroke="#c3cede" stroke-width="1.5"/>
+                    <text x="20" y="26" font-family="IBM Plex Mono" font-size="11" fill="#5b6b7f">PSV</text>
+                    <text x="300" y="198" font-family="IBM Plex Mono" font-size="11" fill="#5b6b7f">time</text>
+                    <!-- severe threshold -->
+                    <line x1="40" y1="60" x2="340" y2="60" stroke="#ba181b" stroke-width="1.5" stroke-dasharray="5 5"/>
+                    <text x="250" y="54" font-family="IBM Plex Mono" font-size="10" fill="#ba181b">severe ≥300</text>
+                    <!-- moderate threshold -->
+                    <line x1="40" y1="110" x2="340" y2="110" stroke="#0072bc" stroke-width="1.5" stroke-dasharray="5 5"/>
+                    <text x="240" y="104" font-family="IBM Plex Mono" font-size="10" fill="#0072bc">moderate ≥220</text>
+                    <!-- rising trend line -->
+                    <polyline points="60,165 130,158 200,140 270,108 320,66" fill="none" stroke="#14223c" stroke-width="3"/>
+                    <circle cx="60" cy="165" r="4.5" fill="#14223c"/><text x="48" y="200" font-family="IBM Plex Mono" font-size="9" fill="#5b6b7f">base</text>
+                    <circle cx="130" cy="158" r="4.5" fill="#14223c"/><text x="120" y="200" font-family="IBM Plex Mono" font-size="9" fill="#5b6b7f">6m</text>
+                    <circle cx="200" cy="140" r="4.5" fill="#14223c"/><text x="190" y="200" font-family="IBM Plex Mono" font-size="9" fill="#5b6b7f">12m</text>
+                    <circle cx="270" cy="108" r="4.5" fill="#0072bc"/><text x="258" y="200" font-family="IBM Plex Mono" font-size="9" fill="#5b6b7f">24m</text>
+                    <circle cx="320" cy="66" r="5.5" fill="#ba181b"/><text x="306" y="200" font-family="IBM Plex Mono" font-size="9" fill="#ba181b">36m</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="foot"><span>Baseline &amp; trend</span><span class="pg">13</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 15 — CONFIRMATORY IMAGING
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">02 · Escalation</span>
+        <h2 class="reveal">When duplex is not enough &mdash; confirmatory imaging</h2>
+        <div class="cards c3 reveal" style="margin-top: var(--content-gap);">
+            <div class="tile blue">
+                <h3>CT angiography</h3>
+                <p><b>Strengths:</b> fast, anatomic, arch &amp; intracranial run-off. <br/><b>Watch:</b> stent <strong>blooming / artifact</strong> can overstate stenosis; needs contrast.</p>
+            </div>
+            <div class="tile teal">
+                <h3>MR angiography</h3>
+                <p><b>Strengths:</b> no iodinated contrast / radiation. <br/><b>Watch:</b> <strong>susceptibility artifact</strong> from the stent; tends to overestimate.</p>
+            </div>
+            <div class="tile red">
+                <h3>Catheter DSA</h3>
+                <p><b>Gold standard</b> for quantifying ISR and <strong>planning re-intervention</strong>. Invasive &mdash; reserve for equivocal or treatment-bound cases.</p>
+            </div>
+        </div>
+        <div class="callout blue reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Sequence</span> Duplex screens &rarr; CTA/MRA confirms anatomy when duplex is equivocal or severe &rarr; <strong>DSA when you intend to treat</strong>.
+        </div>
+    </div>
+    <div class="foot"><span>Confirmatory imaging</span><span class="pg">14</span></div>
+</section>
+
+<!-- =========================================================================
+     DIVIDER — PART 3
+     ========================================================================= -->
+<section class="slide dark divider">
+    <div class="slide-content">
+        <span class="dnum reveal">03</span>
+        <h2 class="reveal">Acting on the findings</h2>
+        <p class="dsub reveal">Medical therapy, thresholds, and re-intervention</p>
+    </div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 17 — MANAGEMENT OF ISR
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">03 · Decision</span>
+        <h2 class="reveal">Managing in-stent restenosis</h2>
+        <div class="table-wrap reveal" style="margin-top: var(--element-gap);">
+            <table class="data">
+                <thead><tr><th>Scenario</th><th>Default action</th><th>Notes</th></tr></thead>
+                <tbody>
+                    <tr><td>Asymptomatic, &lt; 70%</td><td><strong style="color:var(--navy)">Intensify medical Rx + close surveillance</strong></td><td>Most ISR; re-image in a shortened interval</td></tr>
+                    <tr><td class="hi">Symptomatic (TIA/stroke), any severe</td><td class="hi">Re-intervention</td><td>Symptoms drive the decision</td></tr>
+                    <tr><td>Asymptomatic, &ge; 70&ndash;80%</td><td>Consider re-intervention</td><td>Individualise: progression rate, anatomy, risk</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="cards c3 reveal" style="margin-top: var(--element-gap);">
+            <div class="tile blue"><h3>Balloon angioplasty</h3><p>First-line for ISR; <strong>drug-coated balloons</strong> increasingly used to limit recurrence.</p></div>
+            <div class="tile"><h3>Repeat stenting</h3><p>For elastic recoil or dissection; adds another layer of metal &mdash; weigh carefully.</p></div>
+            <div class="tile teal"><h3>Surgery (CEA / stent explant)</h3><p>Reserved &amp; technically demanding; selected refractory or recurrent cases.</p></div>
+        </div>
+        <div class="callout reveal" style="margin-top: var(--element-gap);">
+            <span class="tag">Honest caveat</span> Evidence for ISR treatment is <strong>limited and largely observational</strong> &mdash; decisions are individualised in a heart/vascular team.
+        </div>
+    </div>
+    <div class="foot"><span>Managing ISR</span><span class="pg">15</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 18 — MEDICAL THERAPY FOUNDATION
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">03 · Foundation</span>
+        <h2 class="reveal">Medical therapy underpins every surveillance plan</h2>
+        <div class="cards c2 reveal" style="margin-top: var(--content-gap);">
+            <div class="tile red">
+                <h3>Antiplatelet therapy</h3>
+                <p><strong>DAPT</strong> (aspirin + clopidogrel) for ~<strong>1 month</strong> post-CAS, then lifelong single agent &mdash; per device &amp; local protocol.</p>
+            </div>
+            <div class="tile blue">
+                <h3>High-intensity statin</h3>
+                <p>Aggressive LDL lowering (&plusmn; ezetimibe / PCSK9i). Plaque stabilisation lowers restenosis &amp; stroke.</p>
+            </div>
+            <div class="tile">
+                <h3>Risk-factor control</h3>
+                <p><strong>BP</strong>, <strong>glycaemic</strong> control, and <strong>smoking cessation</strong> &mdash; each independently drives ISR risk.</p>
+            </div>
+            <div class="tile teal">
+                <h3>Adherence &amp; education</h3>
+                <p>Reinforce at every visit. Teach the patient the <strong>warning symptoms</strong> of TIA/stroke.</p>
+            </div>
+        </div>
+        <div class="callout blue reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Frame</span> Surveillance imaging <strong>detects</strong> trouble; optimised medical therapy is what <strong>prevents</strong> it. Do both.
+        </div>
+    </div>
+    <div class="foot"><span>Medical therapy</span><span class="pg">16</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 19 — GUIDELINE SNAPSHOT
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">03 · Guidelines</span>
+        <h2 class="reveal">Where the guidelines land</h2>
+        <div class="table-wrap reveal" style="margin-top: var(--content-gap);">
+            <table class="data">
+                <thead><tr><th>Source</th><th>Surveillance imaging</th><th>Emphasis</th></tr></thead>
+                <tbody>
+                    <tr><td><strong style="color:var(--navy)">SVS 2022</strong> (Society for Vascular Surgery)</td><td class="mono">Duplex: baseline, ~6 &amp; 12 mo, then annual</td><td>Duplex-led; treat severe/symptomatic ISR</td></tr>
+                    <tr><td><strong style="color:var(--navy)">ESVS 2023</strong> (European Society for Vascular Surgery)</td><td class="mono">Duplex follow-up; investigate rising velocity / symptoms</td><td>Stent-specific criteria; selective re-intervention</td></tr>
+                    <tr><td><strong style="color:var(--navy)">AHA / ASA</strong></td><td class="mono">Periodic non-invasive imaging post-revascularisation</td><td>Best medical therapy + risk-factor control</td></tr>
+                </tbody>
+                <caption>Schedules are broadly concordant; specifics &amp; recommendation grades differ &mdash; consult the current full text for exact wording.</caption>
+            </table>
+        </div>
+        <div class="callout reveal" style="margin-top: var(--content-gap);">
+            <span class="tag">Common thread</span> Every society converges on the same spine: <strong>baseline duplex &rarr; periodic duplex &rarr; escalate on symptoms or a rising-velocity trend</strong>, all on a foundation of optimal medical therapy.
+        </div>
+    </div>
+    <div class="foot"><span>Guidelines</span><span class="pg">17</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 20 — SURVEILLANCE ALGORITHM (flow)
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content r2">
+        <span class="kicker reveal">03 · Putting it together</span>
+        <h2 class="reveal" style="margin-bottom: var(--element-gap);">A one-page surveillance algorithm</h2>
+        <div class="flow reveal" style="margin: 0 auto;">
+            <div class="step"><div class="node">1</div><div class="box"><b>Post-CAS</b> &mdash; baseline duplex at <span style="font-family:var(--font-mono);color:var(--blue)">&le;30 days</span>: record PSV / EDV / ICA-CCA ratio.</div></div>
+            <div class="arrow">▼</div>
+            <div class="step"><div class="node">2</div><div class="box"><b>Serial duplex</b> at 6 &amp; 12 months, then <b>annually</b>. Compare every scan to baseline.</div></div>
+            <div class="arrow">▼</div>
+            <div class="step"><div class="node">3</div><div class="box"><b>Interpret</b> with <b>stent-specific cutoffs</b> + the trend &mdash; not native thresholds.</div></div>
+            <div class="arrow">▼</div>
+            <div class="branch">
+                <div class="box ok"><b>Stable &amp; asymptomatic</b><br/>Continue annual duplex · optimise medical therapy.</div>
+                <div class="box alert"><b>Rising velocity / severe / symptoms</b><br/>Confirm with CTA &plusmn; DSA &rarr; team decision on re-intervention.</div>
+            </div>
+        </div>
+    </div>
+    <div class="foot"><span>Surveillance algorithm</span><span class="pg">18</span></div>
+</section>
+
+<!-- =========================================================================
+     DIVIDER — CASES
+     ========================================================================= -->
+<section class="slide dark divider">
+    <div class="slide-content">
+        <span class="dnum reveal">04</span>
+        <h2 class="reveal">Cases from practice</h2>
+        <p class="dsub reveal">Two worked examples &mdash; the watch pathway vs the act pathway</p>
+    </div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 22 — CASE 1 (worked example: the "watch" pathway)
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">Case 1 · Worked example</span>
+        <h2 class="reveal">Asymptomatic rising velocity at 12 months</h2>
+        <div class="cols reveal" style="margin-top: var(--element-gap);">
+            <div>
+                <ul class="ticks">
+                    <li><strong>68 y/o man</strong>, right ICA CAS 12 months ago for a <em class="k">symptomatic 80%</em> stenosis. Asymptomatic since; adherent to aspirin + high-intensity statin.</li>
+                    <li><strong>Serial duplex trend</strong> (not symptoms) is what triggered work-up &mdash; a steadily climbing PSV.</li>
+                    <li><strong>CTA:</strong> ~55% in-stent neointimal hyperplasia, smooth, no ulceration; stent well-apposed.</li>
+                    <li><strong>Decision:</strong> asymptomatic &amp; &lt;70% &rarr; <strong>intensify medical therapy</strong> (add ezetimibe, reinforce antiplatelet, tighten BP/glucose) and <strong>shorten interval to 6-monthly</strong> &mdash; not the cath lab.</li>
+                </ul>
+            </div>
+            <div>
+                <div class="table-wrap">
+                    <table class="data">
+                        <thead><tr><th>Visit</th><th>PSV</th><th>ratio</th><th>Read</th></tr></thead>
+                        <tbody>
+                            <tr><td>Baseline (1 mo)</td><td class="mono">110</td><td class="mono">1.6</td><td>normal</td></tr>
+                            <tr><td>6 months</td><td class="mono">160</td><td class="mono">2.0</td><td>mild &uarr;</td></tr>
+                            <tr><td>12 months</td><td class="mono hi">240</td><td class="mono hi">2.9</td><td class="hi">&ge;50% ISR</td></tr>
+                            <tr><td>18 months</td><td class="mono">235</td><td class="mono">2.8</td><td>stable</td></tr>
+                        </tbody>
+                        <caption>PSV in cm/s. Stent-specific criteria &rarr; moderate, not severe.</caption>
+                    </table>
+                </div>
+                <div class="callout blue" style="margin-top: var(--element-gap);">
+                    <span class="tag">Teaching point</span> The <strong>trend (110&rarr;160&rarr;240)</strong> made the call. Native criteria would over-call 240 cm/s as severe &mdash; stent criteria correctly read <strong>moderate &rarr; medical management</strong>.
+                </div>
+            </div>
+        </div>
+        <p class="reveal" style="font-family:var(--font-mono); font-size:var(--small-size); color:var(--slate); margin-top: var(--element-gap);">Illustrative teaching case &mdash; press E to edit and swap in your own patient &amp; images.</p>
+    </div>
+    <div class="foot"><span>Case 1 · the &ldquo;watch&rdquo; pathway</span><span class="pg">19</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 23 — CASE 2 (worked example: the "act" pathway)
+     ========================================================================= -->
+<section class="slide light">
+    <div class="slide-content">
+        <span class="kicker reveal">Case 2 · Worked example</span>
+        <h2 class="reveal">Symptomatic severe ISR in a high-risk neck</h2>
+        <div class="cols reveal" style="margin-top: var(--element-gap);">
+            <div>
+                <ul class="ticks">
+                    <li><strong>60 y/o woman</strong>, left ICA CAS 2 years ago for <em class="k">post-radiation</em> stenosis (prior neck RT for laryngeal cancer) &mdash; a high-risk substrate for aggressive ISR.</li>
+                    <li><strong>New symptoms:</strong> two episodes of right-arm TIA over 2 weeks.</li>
+                    <li><strong>Duplex &rarr; DSA:</strong> severe by velocity; <strong>angiography confirmed ~85%</strong> in-stent restenosis.</li>
+                    <li><strong>Decision:</strong> symptomatic + severe &rarr; <strong>re-intervention</strong> &mdash; drug-coated balloon angioplasty under embolic protection.</li>
+                </ul>
+            </div>
+            <div>
+                <div class="table-wrap">
+                    <table class="data">
+                        <thead><tr><th>Parameter</th><th>Pre</th><th>Post-DCB</th></tr></thead>
+                        <tbody>
+                            <tr><td>PSV (cm/s)</td><td class="mono hi">360</td><td class="mono">150</td></tr>
+                            <tr><td>ICA/CCA ratio</td><td class="mono hi">4.6</td><td class="mono">2.0</td></tr>
+                            <tr><td>Stenosis (DSA)</td><td class="mono hi">~85%</td><td class="mono">&lt;20%</td></tr>
+                            <tr><td>Symptoms</td><td class="hi">R-arm TIA &times;2</td><td>none @ 6 mo</td></tr>
+                        </tbody>
+                        <caption>DAPT resumed post-procedure; symptom-free at 6 months.</caption>
+                    </table>
+                </div>
+                <div class="callout" style="margin-top: var(--element-gap);">
+                    <span class="tag">Teaching point</span> <strong>Symptoms drive the decision.</strong> Radiation-induced / post-CEA restenosis is high-risk &mdash; surveil tighter. <strong>DCB</strong> is increasingly favored to limit re-recurrence.
+                </div>
+            </div>
+        </div>
+        <p class="reveal" style="font-family:var(--font-mono); font-size:var(--small-size); color:var(--slate); margin-top: var(--element-gap);">Illustrative teaching case &mdash; press E to edit and swap in your own patient &amp; images.</p>
+    </div>
+    <div class="foot"><span>Case 2 · the &ldquo;act&rdquo; pathway</span><span class="pg">20</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 24 — TAKE-HOME
+     ========================================================================= -->
+<section class="slide dark">
+    <div class="slide-content">
+        <span class="kicker reveal">Summary</span>
+        <h2 class="reveal" style="color:#fff;">Five things to walk out with</h2>
+        <ul class="ticks reveal" style="margin-top: var(--content-gap); max-width: 60ch;">
+            <li><strong>Surveillance is non-negotiable</strong> &mdash; most in-stent restenosis is silent until it causes a stroke.</li>
+            <li><strong>Duplex is the workhorse</strong>, on a baseline &rarr; 6 &amp; 12 mo &rarr; annual schedule.</li>
+            <li><strong>Use stent-specific velocity criteria</strong> (PSV &ge;220 for &ge;50%, &ge;300&ndash;340 for &ge;70%) &mdash; native thresholds over-call.</li>
+            <li><strong>Trend &gt; single number;</strong> a personal baseline makes every later scan interpretable.</li>
+            <li><strong>Symptoms drive re-intervention;</strong> confirm with CTA/DSA, and never stop optimising medical therapy.</li>
+        </ul>
+    </div>
+    <div class="foot"><span>Take-home messages</span><span class="pg">21</span></div>
+</section>
+
+<!-- =========================================================================
+     SLIDE 25 — CLOSING / Q&A
+     ========================================================================= -->
+<section class="slide dark title-slide">
+    <svg class="wave decorative" style="bottom:8%; left:0; width:100%; height:14vh;" viewBox="0 0 1000 140" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,120 L150,120 C170,120 180,34 205,34 C225,34 232,120 260,120 L430,120 C450,120 460,42 485,42 C505,42 512,120 540,120 L700,120 C720,120 730,28 755,28 C775,28 782,120 810,120 L1000,120"
+              stroke="#0072bc" stroke-width="2.5" opacity="0.55"/>
+    </svg>
+    <div class="slide-content" style="align-items:flex-start;">
+        <span class="eyebrow reveal">Thank you</span>
+        <h1 class="reveal" style="font-size: clamp(2rem,5vw,3.8rem);">Questions &amp; <span class="accent">Discussion</span></h1>
+        <p class="sub reveal">Post-Carotid Stenting Surveillance &mdash; baseline duplex, stent-specific criteria, treat the trend.</p>
+        <div class="by reveal">
+            <span class="name">謝慕揚 MD, PhD, FESC</span>
+            <span class="pill">介入學會 · Carotid Stenting Course · 2026</span>
+        </div>
+    </div>
+</section>
+
+<script>
+/* ===========================================================================
+   SLIDE CONTROLLER — nav dots, keyboard / wheel / touch, progress, reveals
+   =========================================================================== */
+class SlidePresentation {
+    constructor() {
+        this.slides = Array.from(document.querySelectorAll('.slide'));
+        this.current = 0;
+        this.bar = document.getElementById('progressBar');
+        this.setupObserver();
+        this.setupDots();
+        this.setupKeys();
+        this.setupTouch();
+        this.updateProgress();
+    }
+    setupObserver() {
+        // Add .visible when a slide is mostly on-screen → triggers reveal animations
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting && e.intersectionRatio > 0.55) {
+                    e.target.classList.add('visible');
+                    this.current = this.slides.indexOf(e.target);
+                    this.syncDots();
+                    this.updateProgress();
+                }
+            });
+        }, { threshold: [0.55] });
+        this.slides.forEach(s => io.observe(s));
+        // First slide visible immediately
+        this.slides[0].classList.add('visible');
+    }
+    setupDots() {
+        const nav = document.getElementById('navDots');
+        this.slides.forEach((s, i) => {
+            const b = document.createElement('button');
+            b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+            b.addEventListener('click', () => this.go(i));
+            nav.appendChild(b);
+        });
+        this.dots = Array.from(nav.children);
+        this.syncDots();
+    }
+    syncDots() { this.dots && this.dots.forEach((d, i) => d.classList.toggle('active', i === this.current)); }
+    go(i) {
+        i = Math.max(0, Math.min(this.slides.length - 1, i));
+        this.slides[i].scrollIntoView({ behavior: 'smooth' });
+    }
+    setupKeys() {
+        document.addEventListener('keydown', (e) => {
+            if (e.target.getAttribute && e.target.getAttribute('contenteditable') === 'true') return;
+            if (['ArrowDown', 'ArrowRight', ' ', 'PageDown'].includes(e.key)) { e.preventDefault(); this.go(this.current + 1); }
+            else if (['ArrowUp', 'ArrowLeft', 'PageUp'].includes(e.key)) { e.preventDefault(); this.go(this.current - 1); }
+            else if (e.key === 'Home') { this.go(0); }
+            else if (e.key === 'End') { this.go(this.slides.length - 1); }
+        });
+    }
+    setupTouch() {
+        let y0 = null;
+        document.addEventListener('touchstart', (e) => { y0 = e.touches[0].clientY; }, { passive: true });
+        document.addEventListener('touchend', (e) => {
+            if (y0 === null) return;
+            const dy = y0 - e.changedTouches[0].clientY;
+            if (Math.abs(dy) > 55) this.go(this.current + (dy > 0 ? 1 : -1));
+            y0 = null;
+        }, { passive: true });
+    }
+    updateProgress() {
+        const pct = this.slides.length > 1 ? (this.current / (this.slides.length - 1)) * 100 : 100;
+        if (this.bar) this.bar.style.width = pct + '%';
+    }
+}
+
+/* ===========================================================================
+   INLINE EDITOR — opt-in. Edit text, autosave to localStorage, export .html
+   =========================================================================== */
+class InlineEditor {
+    constructor() {
+        this.isActive = false;
+        this.KEY = 'pcas_surveillance_edits_v1';
+        this.toggle = document.getElementById('editToggle');
+        this.saveBtn = document.getElementById('editSave');
+        this.banner = document.getElementById('editBanner');
+        // Tag editable text elements with stable indices
+        this.targets = Array.from(document.querySelectorAll(
+            'h1, h2, h3, p, li, .lead, td, th, .tag, .num, .lbl, .when, .dsub, caption, .box, .badge'
+        ));
+        this.targets.forEach((el, i) => el.setAttribute('data-eid', i));
+        this.restore();
+        this.wire();
+    }
+    wire() {
+        const hotzone = document.getElementById('editHotzone');
+        let hideTimeout = null;
+        const show = () => { clearTimeout(hideTimeout); this.toggle.classList.add('show'); };
+        const hideLater = () => { hideTimeout = setTimeout(() => { if (!this.isActive) this.toggle.classList.remove('show'); }, 400); };
+        hotzone.addEventListener('mouseenter', show);
+        hotzone.addEventListener('mouseleave', hideLater);
+        this.toggle.addEventListener('mouseenter', () => clearTimeout(hideTimeout));
+        this.toggle.addEventListener('mouseleave', hideLater);
+        hotzone.addEventListener('click', () => this.toggleMode());
+        this.toggle.addEventListener('click', () => this.toggleMode());
+        this.saveBtn.addEventListener('click', () => this.exportFile());
+        document.addEventListener('keydown', (e) => {
+            if ((e.key === 'e' || e.key === 'E') && !(e.target.getAttribute && e.target.getAttribute('contenteditable') === 'true')) {
+                this.toggleMode();
+            }
+            if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's' && this.isActive) {
+                e.preventDefault(); this.persist(); this.flash('Saved to this browser');
+            }
+        });
+    }
+    toggleMode() {
+        this.isActive = !this.isActive;
+        this.toggle.classList.toggle('active', this.isActive);
+        this.toggle.classList.add('show');
+        this.saveBtn.classList.toggle('show', this.isActive);
+        this.banner.classList.toggle('show', this.isActive);
+        this.targets.forEach(el => {
+            el.setAttribute('contenteditable', this.isActive ? 'true' : 'false');
+            if (this.isActive) {
+                el.addEventListener('input', this._onInput = this._onInput || (() => this.persist()));
+            }
+        });
+        if (!this.isActive) { this.persist(); this.banner.classList.remove('show'); }
+    }
+    persist() {
+        const data = {};
+        this.targets.forEach(el => { data[el.getAttribute('data-eid')] = el.innerHTML; });
+        try { localStorage.setItem(this.KEY, JSON.stringify(data)); } catch (e) {}
+    }
+    restore() {
+        try {
+            const raw = localStorage.getItem(this.KEY);
+            if (!raw) return;
+            const data = JSON.parse(raw);
+            this.targets.forEach(el => {
+                const v = data[el.getAttribute('data-eid')];
+                if (v !== undefined) el.innerHTML = v;
+            });
+        } catch (e) {}
+    }
+    flash(msg) {
+        this.banner.textContent = msg; this.banner.classList.add('show');
+        clearTimeout(this._ft); this._ft = setTimeout(() => {
+            if (this.isActive) { this.banner.textContent = 'EDIT MODE · click text to edit · Ctrl+S saves to this browser'; }
+            else this.banner.classList.remove('show');
+        }, 1400);
+    }
+    exportFile() {
+        // Bake current edits into a fresh standalone .html download
+        const clone = document.documentElement.cloneNode(true);
+        clone.querySelectorAll('[contenteditable]').forEach(el => el.setAttribute('contenteditable', 'false'));
+        const html = '<!DOCTYPE html>\n' + clone.outerHTML;
+        const blob = new Blob([html], { type: 'text/html' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'Post_Carotid_Stenting_Surveillance_edited.html';
+        a.click();
+        URL.revokeObjectURL(a.href);
+        this.flash('Exported .html');
+    }
+}
+
+new SlidePresentation();
+new InlineEditor();
+</script>
+</body>
+</html>

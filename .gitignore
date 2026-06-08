@@ -9,6 +9,7 @@ handouts/**/*.html
 !handouts/20-pulmonary-embolism/VTE_Management_standalone.html
 !handouts/14-diabetes-metabolic/Sitagliptin_in_T2DM_Case-Based_Review.html
 !handouts/03-arrhythmia/ACLS_PALS_2025.html
+!handouts/07-peripheral-vascular/Post_Carotid_Stenting_Surveillance.html
 *.log
 *.aux
 *.out
