@@ -63,6 +63,7 @@ website:
         - section: "瓣膜疾病 Valvular"
           contents:
             - handouts/04-valvular-disease/index.qmd
+            - handouts/04-valvular-disease/pascal-teer-teaching/index.qmd
             - handouts/04-valvular-disease/mitraclip-atlas-ch04-patient-selection/index.qmd
             - handouts/04-valvular-disease/jacc-adv-valvular-cardiogenic-shock-2024/index.qmd
             - handouts/04-valvular-disease/cath-hemodynamics-aortic-stenosis-as-tavr-hanna/index.qmd
