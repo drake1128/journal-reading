@@ -1,7 +1,7 @@
 # PASCAL TEER — 教學資源彙整 (Teaching Resource Index)
 
 **整理：謝慕揚 MD, PhD, FESC** ｜ 用途：PASCAL / PASCAL Ace TEER 操作學習
-**重點聚焦**：① 怎麼操作（step-by-step）② 怎麼控制（knobology / steering）③ 怎麼決定「抓取半頁」（independent / staged leaflet grasping）
+**重點聚焦**：① 怎麼操作（step-by-step）② 怎麼控制（knobology / steering）③ 怎麼決定「抓取瓣葉」（independent / staged leaflet grasping）
 **更新日期**：2026-06-09
 
 > 📁 PDF 檔放在同資料夾的 `pdfs/`（**僅存本機**，因版權未上傳網站）。標 **⬇️** = 已下載 PDF；標 **🔗** = 線上開放全文（一鍵可讀）。所有 DOI/PMID 皆來自 PubMed/PMC 查證。
@@ -38,7 +38,7 @@
 - **⬇️ Knobology & Steering Maneuvers** — 主要出處（見上方第 1 篇）。
 - **⬇️(IFU) FDA P220003D / Edwards Precision IFU** — 原廠對每個旋鈕、clasp slider、actuation wire 的定義與操作限制。
 
-## ③ 怎麼決定「抓取半頁」— Independent / Staged Leaflet Grasping
+## ③ 怎麼決定「抓取瓣葉」— Independent / Staged Leaflet Grasping
 
 > 重點摘要（出處：User's Guide + IFU）
 > - PASCAL 的兩個 **clasp 可同時或獨立操作** → 達成 **staged（分次）leaflet capture**，用於困難解剖。
