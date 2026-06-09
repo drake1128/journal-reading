@@ -12,7 +12,7 @@
 
 | # | 文獻 | 為何必讀 | 連結 |
 |---|------|---------|------|
-| 1 | **⬇️ Mitral TEER With the PASCAL Precision System: Device Knobology and Review of Advanced Steering Maneuvers.** *Structural Heart.* 2024;8(2):100221. | **控制/操舵聖經**——逐一講解 guide sheath flex knob、steerable catheter flex、implant 旋轉，以及進階 steering 手法 | [PMC10818146](https://pmc.ncbi.nlm.nih.gov/articles/PMC10818146/) ｜ [PubMed 38283574](https://pubmed.ncbi.nlm.nih.gov/38283574/) ｜ [eScholarship PDF](https://escholarship.org/uc/item/2765p965) |
+| 1 | **⬇️ Mitral TEER With the PASCAL Precision System: Device Knobology and Review of Advanced Steering Maneuvers.** Garcia S, et al. *Structural Heart.* 2024;8(1):100234. | **控制/操舵聖經**——逐一講解 guide sheath flex knob、steerable catheter flex、implant 旋轉，以及進階 steering 手法 | [PMC10818146](https://pmc.ncbi.nlm.nih.gov/articles/PMC10818146/) ｜ [PubMed 38283574](https://pubmed.ncbi.nlm.nih.gov/38283574/) ｜ [eScholarship PDF](https://escholarship.org/uc/item/2765p965) |
 | 2 | **⬇️(IFU) Edwards PASCAL Precision — Instructions for Use.** | 原廠步驟書：device 組成、clasp 獨立/同時操作、elongation、retrieval | [FDA P220003D PDF](https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220003D.pdf) ｜ [Edwards eIFU](https://eifu.edwards.com/eifu/tmtt-production-eifus/DOC-0227332A.pdf) |
 | 3 | **🔗 The PASCAL Transcatheter Valve Repair System: A User's Guide.** *Structural Heart.* 2023;7(5):100204. | **操作 + 抓取策略**：independent vs simultaneous grasping、leaflet optimization 五步驟 | [PMC10512093](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10512093/) ｜ [Struct Heart 全文](https://www.structuralheartjournal.org/article/S2474-8706(23)00086-6/fulltext) |
 
