@@ -206,6 +206,8 @@ website:
         - section: "周邊血管 Peripheral Vascular"
           contents:
             - handouts/07-peripheral-vascular/index.qmd
+            - text: "頸動脈支架術後追蹤監測 Post-CAS Surveillance (互動網頁)"
+              href: handouts/07-peripheral-vascular/Post_Carotid_Stenting_Surveillance.html
             - handouts/07-peripheral-vascular/cfa-fracking-technique/index.qmd
             - handouts/07-peripheral-vascular/advanced-materials-carotid-artery-chip-3d-printing-2026/index.qmd
             - handouts/07-peripheral-vascular/book-carotid-stenting/index.qmd

@@ -5,6 +5,7 @@ title: "周邊血管 — Peripheral Vascular"
 ## 教學講義 Handouts
 
 - [頸動脈支架（CAS）完整文獻回顧](carotid-stenting-review/index.qmd)
+- [頸動脈支架術後追蹤監測 Post-CAS Surveillance（互動網頁）](Post_Carotid_Stenting_Surveillance.html)
 
 
 ## LaTeX Files
