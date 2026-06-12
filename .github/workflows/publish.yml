@@ -20,7 +20,19 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          lfs: true
+          # lfs: false so an exhausted LFS budget can't fail the checkout and
+          # block the whole deploy. LFS objects are pulled best-effort below.
+          lfs: false
+
+      - name: Best-effort LFS pull (never fail the build)
+        continue-on-error: true
+        run: |
+          # Try to materialise LFS binaries (Mainz 2024 TAVI images/PDFs).
+          # If the LFS budget is exhausted this exits non-zero, but the
+          # `|| echo` + continue-on-error keep the deploy alive — those few
+          # pages render with placeholder images until the budget is restored.
+          git lfs install --local || true
+          git lfs pull || echo "::warning::LFS pull skipped (budget exhausted/unavailable); LFS-backed images may be missing in this build."
 
       - name: Symlink images into Mainz 2024 Quarto project
         # Locally this is a Windows junction (gitignored). On the runner we
