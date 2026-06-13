@@ -171,6 +171,54 @@ This is the **most important** rule of this skill. Slide tables that list multip
 
 For per-paper detail slides (single-paper, 2-column 項目/內容 tables), the link goes in the slide's H2 subtitle: `## [Author, et al. Journal YYYY](https://doi.org/...)`.
 
+### 7b. ⚠️ Render-safety rules — TWO bugs that have shipped before. DO NOT repeat.
+
+**(a) QR codes MUST be embedded as base64 data URIs — NEVER left as remote `https://api.qrserver.com/...` URLs.**
+
+Marp exports the PDF via headless Chromium. Remote `<img src="https://api.qrserver.com/...">` images frequently do **not** finish downloading before the page is rendered → the QR boxes come out **blank** in the PDF. Generate the QR src with `size=200x200`, then — **as the step right before compiling the PDF** — fetch each PNG once and inline it as base64:
+
+```bash
+python - <<'PY'
+import re, base64, subprocess, sys
+path='Weekly_CV_Journal_Review_YYYY-MM-DD_Marp.md'
+s=open(path,encoding='utf-8').read()
+urls=list(dict.fromkeys(re.findall(r'src="(https://api\.qrserver\.com/[^"]+)"', s)))
+for u in urls:
+    png=subprocess.run(['curl','-fsSL','--max-time','30',u],capture_output=True).stdout
+    if png[:8]!=b'\x89PNG\r\n\x1a\n': print('FAIL',u); sys.exit(1)
+    s=s.replace('src="'+u+'"','src="data:image/png;base64,'+base64.b64encode(png).decode()+'"')
+open(path,'w',encoding='utf-8').write(s)
+print('embedded',len(urls),'QR codes; remote refs left:', s.count('api.qrserver.com'))
+PY
+```
+
+After embedding, **0** `api.qrserver.com` references must remain. (This matches the repo's offline-first rule — everything self-contained.)
+
+**(b) Any light-background box on a dark slide MUST set an explicit DARK text colour.**
+
+On `<!-- _class: lead -->` (and `divider`) slides the body text colour is light (`section.lead p { color:#dfe6e9 }`). The disclaimer blockquote has a light background (`#fff5f5`), so without an override it renders **light-on-light = invisible**. The front-matter CSS MUST include:
+
+```css
+section.lead blockquote,
+section.lead blockquote p,
+section.lead blockquote strong { color: #2d3436; }
+```
+
+(The QR `<div class="qr">` and this disclaimer blockquote are the only sanctioned custom-HTML/box exceptions to the general "no custom divs" rule — keep their CSS in the front-matter.)
+
+**(c) Always spot-check the compiled PDF before declaring done.** Rasterise at least one **QR slide** and the **last (disclaimer) slide** and look at them — do not assume the build is correct:
+
+```bash
+python - <<'PY'
+import fitz
+doc=fitz.open('Weekly_CV_Journal_Review_YYYY-MM-DD.pdf')
+doc[doc.page_count-1].get_pixmap(dpi=110).save('_check_last.png')   # disclaimer readable?
+for i in range(doc.page_count):
+    if doc[i].get_images(): doc[i].get_pixmap(dpi=110).save('_check_qr.png'); break  # QR visible?
+PY
+```
+Delete the `_check_*.png` files afterwards.
+
 ### 8. Compile PDF and move files
 
 ```bash
@@ -233,7 +281,10 @@ If only PMID is available:
 - [ ] Negative/neutral trials labeled with ❌ or NS clearly
 - [ ] Drug names in English (never translate)
 - [ ] Reference list grouped by journal with hyperlinks
-- [ ] Marp CSS: no Google Fonts import, no gradients, no custom divs
+- [ ] Marp CSS: no Google Fonts import, no gradients, no custom divs (the QR `div` + disclaimer blockquote are the only exceptions)
+- [ ] **QR codes embedded as base64 — `0` remaining `api.qrserver.com` refs** ⚠️ (§7b-a)
+- [ ] **Lead/divider slides: light boxes (disclaimer) have explicit dark text CSS** ⚠️ (§7b-b)
+- [ ] **PDF spot-checked: rasterised a QR slide + the last slide and eyeballed them** ⚠️ (§7b-c)
 - [ ] PDF compiled with `--no-stdin --allow-local-files`
 - [ ] All 3 files moved to `handouts/91-podcast-journal-review/`
 - [ ] Original abstract sources discarded after parsing (no leftover .pdf in repo root)

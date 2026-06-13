@@ -68,6 +68,12 @@ style: |
     padding: 0.5em 1em;
     font-size: 0.9em;
   }
+  /* Disclaimer blockquote sits on a dark lead slide; force dark text so it
+     stays readable on the light box (otherwise it inherits section.lead's
+     light text colour and becomes invisible). */
+  section.lead blockquote,
+  section.lead blockquote p,
+  section.lead blockquote strong { color: #2d3436; }
   pre {
     background-color: #f5f6fa;
     color: #2d3436;
@@ -156,7 +162,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 Stage ≥2 患者，無論有無糖尿病，均應考慮 SGLT2i 或 GLP-1 RA
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jacc.2026.03.056"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABfElEQVRYhdWXsZGEMAxFxRA4pARKcWfg0iiFEggJPP6nL5ndu9vZGKHAA34ECL6+ZJGvsYIh46nXQ+XGYDstAFnE784JZahpzzAuwckI7Kvougkz0bVOQHkCYT6b8nMGnkNE0pGBKvNHpjGJa6emQ9YmTv6o6kbi1UiSS9Nvvf2r05jkHazDBNXJR8QjzGfnwnxso43HTB6ZqK4PVUr366SK5qPd+cISu4MS9WutRsnFFS+hiQe6U9uz8L9wP6Efs5fQlV/vO6PEJotpo71dWfnUtROX+FwE+rWHVqP+kiKhySLcM0XD6nCFPRudyMR59OV8b+1EJqqd+dqz+Y5Z5dJCkN63TRXOD3U5iU5cIRNnZeso3FijE+0i8Nnewhp5RgtNPIZ6zUiqcQo9OOHrM59TLvfwCV9CE5/9ed7O5NbLe/+5n1wnPa1A2Lf+7SHBic8Z5ic8U1EnTyB0vuHqgwhPxLVM5wO1o6qZ7EwVmfRqNCKSqJqR2olNvsYP74388Nu780YAAAAASUVORK5CYII="><br>📱 Scan DOI</div>
 
 ---
 
@@ -181,7 +187,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 FIND-CKD 涵蓋**非糖尿病** CKD — Finerenone 效益與糖尿病狀態無關，適應症將大幅擴展
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2FS0140-6736%2826%2901009-3"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABk0lEQVRYhdWYPY6FMAyEjSgoOQJH4WYvHI2jcISUFCjemTH7BMWrMZY2Qvm2yM/Ynjyzn1GcYTbUeemOYZu900xLQD5aIOaqmR8D5rqDU8lJ774VfmMnIKt1x+i+vIHg5HELOn5/D7F+x4461/gGEtrxfXQo3ibewk1VD5Jyni+zsfX7tJZ7nuYkZ+DEV6p70niNlIT72TDs42pBWl/FU5MjVh/12iZnTm7STmLCOSsadRfSvf3/d1aCC6ixenbFnXnq3/t5mNilKjdjL6FOfMlN2PVYgxnqgOjhoxSSmqB/TB71OoTRpBPLTQ7TnHbCDlicui65CWI8K1+xu6oSk6L9eHgkuGi4UqQA1f88gROqE7p0eGW6DeurzVh1bkLPpspHnWxUepVCchN8lPBI0osa+ewtNYno1GviDQihX5xdTvL1o07dy4/K4VtqEt4ffyPn4ju6TAISfVvv6XhVX2pIesJsdCmksSq7vYGwXvMXF5CI5ETa0X7c5fAbspHdMDM5sxE+A5VPL1d4pG1ecpOf8Qc+0TXJWiWxPgAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -205,7 +211,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 高容量中心高品質攝影引導可能已達臨床可接受上限；**常規 IVUS 引導 LMCA PCI 尚無 RCT 支持**
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1056%2FNEJMoa2600440"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABmUlEQVRYhdWYMbKDMAxExVC45Ag+im8W+2gchSNQUjAou5LhJ38mNcIFQ3gUyF6t1xH5OapyiKS1qO5pKTrYkyMAedkHDnta+0s67HwUnIyqS+V94bOsbdgn1fYEgplfS+MqsLanEBk3VDTolrkKDyCuHd0mbd6F/1R1I6ldy+jGdoxbnut3n8YkfWDGZzk44/Xb5WIS1rPgsk0zf6KeY1xxjU1MO1CK+zWcpPHVS1VRyQita/frPSmdz1chMsECrPx69+sEBQ16rc/N5CXp05XVdUI/iUx8ZqFr6ffcS0whkYn7tWvDnATdqOqVBibUNfY7gYegKqhGrarYpKIPs7pfMyP9aScycedTKp7Ol1mVLuVMGzeT1FMndWJfPa7wZolNsFfn5nuJcTrfqZ24RKgQJDvpzmcbebHTVFxy1sAi6HysavpIdjFJz6M9RafrXCKhifs1ziUT8yjSEVTzucvcSvpJz1Nnshq6hzyBSE+dVE3mfxrPIO582kdwYtrxPrQ8Wg9043UuCUrObmQetflv1H1pscnP8QZvslINOKyjmgAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -229,7 +235,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 即便在高技術中心＋嚴格最佳化標準下，**常規 IVUS 引導複雜 PCI 仍無強力 RCT 支持**；選擇性應用仍合理
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1056%2FNEJMoa2601521"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABk0lEQVRYhdWYQa7DIAxEjViw5Ag5CjcLHC1H4QhZskC4HkP60y91XQepacrrojbjsVOiryszFlE4E3MPNbHTnWGA7PoDXQ/n+hK7ji3jxDPXjPuEvY2L65G5PIFI5s9UcAqI7SmEfJOIHLcNp/AAMrXDLXKZVfhPVT8keWlZqrEM37Yjf9apTbKWZPyggYznT5ezSRBPlUuLBz5KPMOfcn0AocuvxUnK3BimCdwDmVe/7oHhfPMUTBP0F4K+EzqkKMjxPIXfk923CH9brsxTJ/ATy0RvVn71il5SZ4R2yS6Zr3mQakMkjWqUN0RqmKC/VBqqmqEewhqVbbJrHTp1PvTtm6oMk9wJUrmcTwicT/qkAfI3dcLfQMif4s1km0DXWodwPq1JsemlENNkTkTL+bQlJh6myRWDzsorqnib7GyS9zyqbhfezyVkmszZX14R86jISO6vLvNzsp705tQZNIa7hxgntKZOqGbDfxoPINr14Hy8lnGi2tFnQFW3TBtSjTqPGiarGnEKRfNfoPtUbJOv6wUzGiHQt4HaCAAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -253,7 +259,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 **停藥前先量靜息心率**——心率 ≥68 bpm 的 MI 後患者應維持 β-blocker
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1161%2FCIRCULATIONAHA.125.078635"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnElEQVRYhdWYva3DMAyEaahwqRE0ijaLNJpH8QguXQhi7kjnPSRA6tAshESfC/0cj7RFvkZThsh61L6Mda+62MwMQB62QMwdIsuQoooREZwk1b3xd9WZlPsZWbXfgeDkcQs8/U3uQySddhfc1y2Ia0fPTNVA8f1DVT8kno3Ude0znWVr73kak1yRqI0pK8aPCEm4nx3DmTeO8JCZDuwqNoFTQ8WvW8BjzMmd2olMqPgCpdCvX0/5LUQmbaxYPv9VVkg6n17383PywHoL08/qthTTddEemzTspHQ/XOhE4SEjm0IiEzg1lo9akqFo+LU0V7eEJpzbmZV5c/9rSl232ISKRwzX+vmmnbjkYfsxxeMu6Hl0vmp9yO+JHjhZG69anQ6pturIBJ2bqDnfYlUEzmcKCU9sPzx5uQp51RmaeNBJOHIOiakanHD51o+yYqv3+dmcLzLx3l/M+abfiHiVCUD8TW+QLO51/x4SneCU7a3aVVP4TeMGhF8w2l+vrOGJacc6/OvNdSIbvR+NS17ZCL+m87Fu8+tLj02+xhMdF1IjqU/fpwAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -277,7 +283,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > **臨床 Pearl**：「每個病灶都不夠嚴重，但合起來需要更積極評估。」
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jcmg.2026.04.015"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABiElEQVRYhdWXMZaDMAxEh+eCkiNwFN8M+2gchSNQUvCs1Ug42d281AgVTuKfwjKjkQC+RhEG0qHfh5Mbg+20AGSB/zomqcM5blmMIzhJIluBriuYia7nJFKfQJjPipaOWeQ5BBh3u//5I9OYxLVzjjtKg5M/qrqReDWS5Mq7Xv/VaUzyDt71KGv5dLp4hPlsXJiPbbS0z+SRyZKOaWMdgn49qqL5V3e+uMTzUaJ+Lar1XF3xCE28K8rl1NwYxJ9CBCJ0j0RXfp13lhqbLHbL7e3K6oLTSztRic0ZYlmhV6M+korQBP6pCtJ8WIdFbL6LTZhPdz70mHumUcmiqrl0D5/vaCrZpo37CfTUqmtXBSPtyHbqwMR6iQY9RKyjMLUSnPApFJ/tLay5ZGmhiQed2mck9RNMvya7mITH93m0u4dP+AhNfPbnQuc7rJdf/ed+cr3p0d/E3qpfHvIAwjq0vkLVzNTJA8jZnc/ykfAErmU6n1yz/WTvVJHJVY3izsesdEbaco1NvsYPhwEKPtDN6QEAAAAASUVORK5CYII="><br>📱 Scan DOI</div>
 
 ---
 
@@ -295,7 +301,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 ViV TAVR 與 redoSAVR 短中期結果相當；手術風險較高的女性患者 ViV 是合理選擇
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1002%2Fccd.70693"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABh0lEQVRYhdWYMbKDMAxExbig5Ag+im+WcLQchSNQUmTQ310ZMj8zqREqGPCjwPZqJWP2M57OMBvX5v7mwKCRPQF56AOH97jqpYX3HEpOCh6fvG8O7i8b3pP7fAeClV/bjF2odyJWNsxo8O0uJLTj2+Qz7kT+qepCEtlIXbd5L/jqrzzNSXpgxV8W5MvmUhIZBy7b9MLTCA/ZyyqemSCkmvDrEYqW/9memkDrmNRu8mtovc2heEtNqBplqPxaeep9Fy4nPRu7K0MhjMp3MxP48bSY+gxTBUTdnkI7mYmNmg/9WtpANh77kpdQ15UVGx4CJ4Fqor/LTXq3ISLnO7WTm1A7Ury0z1n50tSHXE7gbFXZSJdTlBUuZ7lJwRiykbWk98oceOYnVR3R0SNpF3xPTSK0C+xEK8+D6JWTk6PKfJwvOnxLTaL3j35UpymoJqpMAtL9LU6mXOuPu6QnqCjScvV+tTuQ8w9GuHZ6Ytb/uzS6Ns9UyEYqKDM5s5HOZyNVU6id3ORn/AHziHoANY1NIwAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -314,7 +320,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 AF 患者 TAVR 圍術期持續抗凝可能安全，甚至可能降低中風，但現有證據仍不足以強力建議
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1186%2Fs12872-026-06116-w"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABj0lEQVRYhdWXMXLEIAxFxbig5Ag+CjcLHI2jcATKLRgUfYndTTLZ2jKFx/g1CH99SUQfV2EsOh7yGiY+BP2yHJAvst0jceUZ++bknBzMvZA8G4UZJZIwE3O9A0E8IHS2ch9CFEeGgk6utyCmnRmHqkbJL1VdSCwbQXJdcur2J099kvfKzFDIP07njyCejofEY9m4jiFR3YDQMr/G9Vf9sLXjlUg2itaFJGg99rwVT66JxDPOqn5dVPEU+PUXLibw466nxi52PbA4iW8CP5Z41JW3h8ykCvFMxK+TVsBXj7QOqJtcE9nJ8YN6CO6/FVbum4jWxyk1Jarzbb827TgmReJRtxuqcenv4HxSJx2Qp0KgCtQSOfUxKP/Qjk8SUT8kqlbsrgNCK87JriXwa+uV9S/wck1swUOsR5J5UMTEzgmOj35UfWPPr0mdzzOx3t+qjE2uSIH3VHApeU56lK0T4peH+Cdz6+RU1ahObkC28+l0oss5Ue2gesPzrLdP3IpvsrNR4yHtjsQFe66+ycf1DSBcco7Qzl22AAAAAElFTkSuQmCC"><br>📱 Scan DOI</div>
 
 ---
 
@@ -340,7 +346,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 重度 TR 所致腎靜脈高壓是可矯正的腎損傷機制；T-TEER 解除充血帶來實質腎保護
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1007%2Fs00392-026-02961-z"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABh0lEQVRYhdWYsZGEMAxFxRAQugSX4s6wS6MUSiDcgLFO/8uwc3ez8QoH7MIjQOLrS0bk46qKJfPL/k8nLky80gOQVfzslbTpuexFySU4mVX3KnbcLJ5FtU1nsuMTCOLZqp6SwZ9CRJajNFPQU4hr51wOueP5paovEq9GkNI6nvpPncYk78U6NPLf6eIRxLPjYPGYh+hW+3yQRybuG939GulvuBXaCU3UrpnzmV9DQXtprngJTbwrdvh1HR6i/ha+T1YjGX074WzZ+bxZW2ziy3U9PORMVEhksgqcmrquPiPhjTDS4CQ3qLsg85ndG0oPTYTx4Jd1aIp/aycuoeKbDt8wv4aOzEl6BIJcq/sxHNqeej6Y99hEEqY19D7PtTnf0E5gwi7CCd8JG3nRHpr4YjUq5lG7ywLU4GTMo4rU335N54tMfPb3fYmOefTqMl8n105v+BuDGO4SnmA3BZ1kqoY6eQC5ne9awQm1Y/lP3LOa83Wrxq3GJlc14msRZiTMd9BObPJx/QCGwR47FxPcTQAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -358,7 +364,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 心房型 SMR（HFpEF＋AF）行 M-TEER 後 FSV 可改善；FSV 為血液動力學適應指標，非獨立預後標記
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1007%2Fs00392-026-02950-2"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABjUlEQVRYhdWYu7WEMAxEtYeAkBIoxZ0tLo1SKMEhAQe9mZGX9zsbr1BgPpfAgvFIxuxtLM6wYcf54+CNh+6cCcjT4mqfvPoxbsXFLTkZ3LfFMK7G0evjmDDegTCflV9h5ngXYja2UvHy70JCO8fYIP6ezy9VfZDEaiQp9Rz2ef2zTnOS7yhVCln+O10+wnw2Do1k9HU5hyaencA3fA8F4ZyPXtpJSrAa28wqM3EFwq9rKN5SExwn5SC/3rlOPb5CAoK3HLOGNjBrTXj2mps8VfW6K4eHHNNLIWkJ9TD7OYSuaR1nfzY10WrEVSv0aOTj4rkJ+qIWtbH79aWdzOQJrW/mdD4E/NrofEV9yMeJjZo1nMSdtQR5NGNXlJpoRyLne/VIePlUSHIybfA8e/XKKuTUeGYSQdcuznywH9QHyU3UbTicBAq6/FrOl5lE78/9duTDWt7rz+dJ3+l59zcl0d3lDkQ6maUa6eQGRP2deuUeyYm08/NfwImHqKDM5FqN+uPCnSA6j63U3ORtfAHtkWviuYooxAAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -405,7 +411,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 STEMI 等效表現的鑑別診斷：記得排除 TAVR 瓣膜功能失常
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108598"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABh0lEQVRYhdWYMbKDMAxE5aGg5AgcxTeLfTSO4iNQUjDer5UMf/7PpI5Q4SF+NBuv1kpEPlYBS6ZDH9PJjWQ7PQB5iX86FtR0zi3DuAQnE9CK6LqpnhmbpHMB6hMI9XBPVuA5RGTeM6DkTWlM4t45551+cfLHVV8k3o0kufbpWLd/fRqT/Fau6hPV9p508Qj1NC6qR3gKpU+7rrEJ06NJZ17bMypfNR/FJvsKy2uMszjHMUQmIksTupxep6qEcQpfJwl+lzCV7w5cUWOTl+uxDLFU1hRc2sjEwGS2GxD7NSN1c7eEJoV75m6djtiHBcZjE85FrXTrQ1x96K4KTNw7PkXz+9+ELZBrj0C0D5vNmxhTsky78F4JTWR2h6gSU8XkM4cEJ/DazCd+kWf00MQrjWmDb6mZgOCkmBZPPk8Pn/AlNPHZn4tmCA67y+/759vEf+mdJP1yy8iQ8AT31EnXrPTJAwiTz+bNPHozODHvjP8C6B11zYKtxCajG02PZghdM9E7scnH+gE3yBqX96mV3QAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -424,7 +430,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 台灣中心案例：高出血風險＋抗凝禁忌的 LAA 血栓 → LAAO 為合理圍堵策略
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108776"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkElEQVRYhdWXvbHEIAyExRAQugRKobOD0lyKSyB0wKCnlfD7u7nYMgFzx+cAwWoliD6OyhgUT/kZBhaCrkwH5EX279y4hZGOwsrJOYnMRyWZd4kn8U5hbMztCQTxYI0y83MIUeqFWchbpD6JaWekDr0Y+aOqG4llI0hpM555/5enPsnPKE10IrG9O50/gngOTBIP4RbqjF1m3wTnn3H+CEE0zg2fQjvOCbQDv+Z1F8NuwTOpopfcll9DOxT4up+7iaz1jLotrvydgZmbc0LwPPMQdWVxwU0V4plILenLN1aPNFXd5JsQyfYlEpLuCHlYWblzEq3KIA95/NaOa2La0fqC898Jzle027ifYJOibmzedh07FVOIXwJdoy8SD9HXCZzvUohfIrpGJOjt1fm0kBd7TbklNoJ2G1Pvwj71TbB9Xu++9XLVDp9cE+v9oRrtR7WWrypzP7GXnnX4lpOXh/gnjBTUrhOqydDJAwh6T+03i0XknZBpGc6n2hHVbLxX32RlIybJwATVRGjHN/k4vgCLvOfiAMN43gAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -443,7 +449,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 TAVR 前冠狀動脈複雜管理的創意解法：Snare 取出凸出支架後再 PCI
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108749"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkklEQVRYhdWYMbKDMAxExVBQcgQfhZvFPhpH4QiUKRiUXcn8zP+Z1H9R4Un8KJC9Wikx+xrVGTY+8XE4uDHEzilAHpbfnrO34Zi2xYObOBndt2pYV+Qz+WrDMbu3OxDmwz0r7vchZtO+uIN8ZKpJUjvHtFMvSX6p6h9JViPJ0s7xWdY/dapJ3rE06AS5fTqdHmE+GxfkY7yFeo47Vm1CpZQWfm10Em98lNpRJtibqRWu/S6Ofg3CJDzEqHJqnVkNnrcgQELCfPfVfiqweNMmqYpw5RauDBecu0J0ScwZ6CLw6z4jnf1ZaXIYXp97mI4oo+rBtQli3mp2Gb8qNLUjTGr0cihoz/Nfjc6HPilAHlB08ezV/a3H3ZaoU2USCqHzWXYUOF8oRJrg/Ev0kjW1HI188VOaZGQ1wv+cfZCmok1qiAa3sF/ukRO+SZOrN3Kyw11EL88uI0Dylx7PGr4xZVWmh+gTnnX2cKqmUCd3IPkPBtWdIU5CO+l8A7UD1cz+nkc1Sa9GzBwx31E1I7WjTb7GC4vMGRCYsXD4AAAAAElFTkSuQmCC"><br>📱 Scan DOI</div>
 
 ---
 
@@ -462,7 +468,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 術中出血 → 先想到肺動脈穿孔，再考慮其他出血來源
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108773"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABiklEQVRYhdWYMZaDMAxExaOg5AgcxTeLfTSOwhEoKfyY1YzCJrt5qaO48HP8UyA0HsmYvR0VHDYevhw6NwbtnAnIzeLXMaMNfdoKxC05GYGtms+rxzNhtaHPQPsGwni4ZwvwPcRs2gvg5CXSnCS006edegnyR1UfJHEaSUo7x2NZ/53TnOQxSnOdeGyvTpePMJ6Nk8djzEI9x93n7ISeB0ZidBKusYV28hK6nWuHHPdc9MhCZiIPsTP8WlENiCwkIGYzawld+fcELmi5CfuMpYWu5crugrMUkpncbFLdfvRIp9RtuYm0I0W7un1ZIZ6b1E6pqG439GftZCbKgsn59P5Xo/OVdmYgI3ZT1wncn3rcrYRCchNVkVUnU853aScvYQQ8h5fzqZCXx20qJYnB+lKobrAOzk+dXU5y9aOKJG6u6vAtNYksUDXF/3Goll9V5uMkbnrq8ONdP3lIdoLrTEo1C3XyFQRQv1kiouwkPAR0voHacdXMWGtuUvX08bXItUPVjNRObvJ2/ACVRx2E2Y+G9wAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
 ---
 
@@ -482,7 +488,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-06-05 ~ 2026-
 
 > 💡 Stent-sparing 策略在炎症性血管病的應用：DCB 避免金屬支架累積
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108817"><br>📱 Scan DOI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABiUlEQVRYhdWYsZGEMAxF5SEgdAkuxZ0tLo1StgRCAg86fcns3d7OxnwUeMCPAI2/vgQiX2NRhEy7XaaOjeQ7BwF5SNztWVvq87OqcyEnk+pzEVtXy2fWVVLPqu0OBPlgT4rqfYjIvFVVIx+ZcpLQTp836CXIm6ouJFGNILUd017Wf3XKSX6jNtOJ5fbpdHwE+TyxWD6CU1iOabOVm0AppSkyETiJNjwK7TAT9JeCLmMlOM6ij2MgJ/b24deeVdI4hesJ/A0BV35VYNHGTZBDaaYN07W7srlgDu0QE+sip8+NGelwdQs3sUxELBOx6Qh1uKhzbpLc+Y6zb79ph5ego5fTN1CtgkfrmDauJvNW9JyVg29S/a2JiTtfeEi4YIJkFn5SNGZ7D2/kFV9TxCTCJzsNPxHJfyY7TrJ4j7GaHE4C/8vufMwkZv/RZXT3Xh5dhoCcX3pegXM08fAQfvJyPldNgU5uQLDlzlcjI3bi2hn/AqAdU01Wn0eJyajGbrfQDlQzQTvc5Gv8AKoS8m/Uh46VAAAAAElFTkSuQmCC"><br>📱 Scan DOI</div>
 
 ---
 

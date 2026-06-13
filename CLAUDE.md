@@ -662,7 +662,7 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
    - **🔬 Case Reports** — **3–5 例**值得讀的 case reports，優先從 **JACC Case Reports** 與 **EuroIntervention** case report 欄目
    - **完整參考文獻**（含 DOI hyperlinks + PMID）
    - **縮寫對照表**（首次出現用「中文 (Full English Name, Abbr)」格式）
-7. **QR Code on each design/result slide** — 使用 `https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=<URL-encoded DOI>` 嵌入小圖，讓現場聽眾可掃描跳轉原文
+7. **QR Code on each design/result slide** — 用 `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=<URL-encoded DOI>` 產生 QR，**但編譯 PDF 前務必把每張 QR 抓下來改成 base64 data URI 內嵌**（remote URL 在 Marp 的 headless Chromium PDF 匯出時常常來不及載入 → PDF 裡 QR 變空白）。編譯後 `api.qrserver.com` 的 remote 參照必須為 0。另：放在 lead/divider 深色投影片上的淺底框（如 disclaimer blockquote）務必加上明確深色字（`section.lead blockquote{color:#2d3436}`），否則淺字配淺底會看不見。詳見 weekly-cv-journal-review skill §7b。
 8. 產出 Marp 投影片 + PDF + **Gmail HTML 草稿**
 9. 所有檔案存入 `handouts/91-podcast-journal-review/`
 
