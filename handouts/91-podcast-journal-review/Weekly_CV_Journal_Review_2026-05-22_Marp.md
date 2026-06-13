@@ -152,7 +152,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 - 主要終點（30 天）：死亡 + 腦中風 + 中重度人工瓣膜旁逆流 (Paravalvular Regurgitation, PVR) + 永久性心律調節器植入 (Permanent Pacemaker Implantation, PPM)
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.4244%2FEIJ-D-26-00001"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkElEQVRYhdWXMZLDIAxFxVC49BE4im8WOJqPwhEoU3is/V8KSXZ3UkdW4cF+LhB8fYTIx6jKkHzHOKn2TZN9OQOQm00w6X3VhlHZJR38FJxkJFEFz13OrB1/HatquwJhPrtwL7ALlyEiy9hUD9uRKxDXzrEME3+Xv6r6IvFqJNname9lr7/rNCZ5BbXBavwf8YgtPR/IR48FznfmgaxikxsqsDTV6ddTQWdsIrL2CtWYXy+oQ1e8hCZ0D6FTP/x6a0l9FwKQbLWXzZVnFDsNY5PhWb25cqdCIhPIeBQ1XVelh1TuCPOJTFzLng/He/WsghN2otVPGTif7m/aiUsq3rr4SQgO1dD5cE4GIDeb5NPZeALmIVuT4GQZ5bHKavkklmcNTniKIB9ZeSMxXdud6gxNZKrGnI/dBn566+xiEk7f+9HpfN7hS2jivb87XzLXZvvxuhV8lcybHipQZ7iHXICwBNm5maILlX4BcrjzQdePrIIT0w7vfXQ+5IP1X9XuJYHJsxpBoCDvkfrWYpOP8QNFp1EkTylZCgAAAABJRU5ErkJggg=="><br>📱 Scan DOI
 </div>
 
 ---
@@ -199,7 +199,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 - Low-Density Lipoprotein Cholesterol (LDL-C) 降至中位 **41.5 mg/dL**
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1161%2FCIRCULATIONAHA.126.080616"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABk0lEQVRYhdWYQa7DIAxEHbHIMkfgKLlZydFylBwhSxZR/GfGyVf7pa6/g1TU8lhgGMamZl9bczazcZ+X4Ri32QeNnAnISwvE2M7eqjt6tOSkuG+N33/jOSb35QkEO89TwO6v9hxipTMk9Y8goR3vk8cpLH9U9Y8kbiN1PS9n6XVtn/c0J7laoTbgJOo/WkrCeDZ0fWIkHR5ylh1RZSfUsl+ngGkLp4Z28pIXb2A7kWVMp+CX4i01gda5fKNfh3YGj1P4f9KwxupyZea+Kl1XX3ITZWwLx4BOHOo+JikkM4F77LiCh03yvw1qkbotNcHOY/kkq3FsbU5dt9zkhXtYGYm03t+0k5k0aKcuPIvZ0UM1dD64YAJyV0K+0+XUyi4/SU30g2N6kSAeON+lkNRkYkWkDMhJSuRzvKbSkmjhf4PGNDU5uerRqKJZebSo8C01idofHzlf1/fIMgnI/dLTG29UDO8ekpocvI3KfVRN5X8aDyAu57trZU9PpJ27shu1/5OvLTe5b6OH8zFvF2onN/nafgDa6UcVRnqxEwAAAABJRU5ErkJggg=="><br>📱 Scan DOI
 </div>
 
 ---
@@ -240,7 +240,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 主要副作用：**咳嗽 54.8%**（vs 33.1%）
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1056%2FNEJMoa2501488"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABnElEQVRYhdWYQY6DMAxFE2WRJUfIUXKzJkfjKBwhSxYo7v92ptOO1PWYSEWUxwI739+GEL6uJlwh5FFFrnxUiXplOiAPfcB45bFuknjxknOSRI7G88prRXq8NpF+B4LMj9q5C4ztLiSkExFFOQt34QbEtCPnJt2q8I+q/pG0pWVUY5/pLHv7rFOfZC1kfA+TGW+fLueTMJ4Dh3Pb+RfxzDRw9E0YCVVjfg0n6byV2vFMHpp5Mb++stD5bBdcE0QSgkZC3UNBUWwXPJCw0d/UlYXqpk6Yffdk1Z9mmb3kWJ7oluh6+TV2AdVoSvdMtAOiJukhUz1ENCrfBKY3ikz1a/btX+24Jnj6or6hzgdC50OfdECsGi2/Yk+dBrw5+CaqEIsHuWZNynjTjlMCvy5CWXBGgk60kVd9m/JLbHHCD6xJRIVteZvsfJKm0yd2YWPHzq/3kuCa2OyPH50vQUbN2s70QH7e9LRjZ41heYh/cr2mTqqm8JvGHYg6H78FrOWcqHboeWsebRMSX/OoW7KqUb9gaP7pf0ftvsnX9QQ9Uj7PIIigogAAAABJRU5ErkJggg=="><br>📱 Scan DOI
 </div>
 
 ---
@@ -278,7 +278,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 ✨ 東亞族群效益更顯著；Trial Sequential Analysis 確認證據充足
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1093%2Feurheartj%2Fehag351"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABjklEQVRYhdWYMZaDMAxE5eeCkiNwFN8s+Gg5io9A6YKHdkYy2c3mpUa4IOBPYaHxSI7I17Eqh8i0FU07J5LNHAHIwxaY9mkTwUQTMS7BScbjyvtSGckTb82q9Q4Ec8gC8KL1PkRyRy5IPiKNSVw72mc+Tcp43lR1IfHdSF2XeuTOVb/t05hkjGyKVpJ/NheSMJ6GS5+fK7OAa96MRyb8/gtVgywwKq3uf0do4tpR+jUi6fS//TcLUQn26dzsbvi1JPUsXE/gbLAzfGW4MtYOIubNsckDWm5j/70qYHNPjEs8HvzOppRGnVDdEp/UYzgfr2r9XWxiWVgZD1X+oZ2gZIVTN/HamEzxzAXqZACCTmizbgPLhDdT4nmDn0h8whislqBu0/lcIaFJhyAoC+uVRyEvPE0FJj686nlP53YSm3jd9i56nFytw5fQxHt/oYfIeTo568/l5Dzpnc6mfzwkOtld15OrZqFObkCU/qfGdag7NBEZ/7sU9Vwc2I2jUw1LXrtRyjhvo/NopcYmX8cPgg9k7hFHTVIAAAAASUVORK5CYII="><br>📱 Scan DOI
 </div>
 
 ---
@@ -317,7 +317,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 **複合終點 HR 1.91**（1.22–2.99，p = 0.0047）
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2FS0140-6736(26)00666-5"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABj0lEQVRYhdWXva3DMAyEaahw6RE8ijaLNJpH0QguXRhieEc9I8FDatMsFENfClE6/on8tKIwkXnPdTrnlnXiTg9AXjyg7e0ies62N53YCk6Saiv4Nk+MbDKdi2p9ArGbt1fg9etziKTDPJqU6xOIa0ePRU3xsuIVvlR1IynjfhGNPR3rVr7jNCYZZje+Qd0r108LSeBPs+VYNnHS004emfyZ52tZFTHZoJ3YxDJ16Vj5FtT99e+opPBXT+ZrPRCnOt7nduIH7AlZ2c6urhOtsQmqHlTh+diI1fCFColNcHxmu3r5pu5PYOLBx/tnBSzQkZTYxH3Q01XzX1UxSTEfVuaNrMbNNTgI9d9PXjwkopFqsRwiaZdsp45OvHPLmE4avncqJDbBLIKuM9ehFrwCp6m4RC5/OFM1eLV8dHYxyehH0UV7bSze4Uto4r0/+1Hv+k01XmUCEJ/0OE/7VH3lkPgE0ViVCulIKqaTBxBMU6jeRtyCE2rHibLD7xaNW4lNRjSyNgonV6s4LdfY5Ke9AZrYC9tyGKedAAAAAElFTkSuQmCC"><br>📱 Scan DOI
 </div>
 
 ---
@@ -355,7 +355,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 > 💡 對 TAVI + 冠狀動脈穩定病灶的處理策略提供爭辯素材
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1093%2Feurheartj%2Fehag259"><br>📱 FAITAVI insight
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABjUlEQVRYhdWXMZKDMAxFxbig5Ag5CjfDPhpH4QiULjxo/5dMsuxOaoRnwsR+FJb1/SVEvo6sHCLjPuvQuDDYyhGALLbBoY27CBY2EeMSnCRMM//PhZGseGtSLU8gWEMWgF9ankMkVeSC5F+kMYlrR+vE2aiM56KqG4nfRup6Lkeq3PXlnsYkfSRTtJL8sbmQhPFseNRpzcwCnmk3HpkMbnf068KotPjCEZosCVq3KiOIpNL/mmchMsntvJvdrxFhz8/tBOe7m0xw1oq3Vm4Y3hyb2FlDFXBleVfAj0KCEhcDfpMZ3kadUN0SmixWWbTJ5E69Zm3+bmzCSA7za5GLdiIT047XxsEUz1zM5YhBsElt5m8ybryfO/xEYpPeF727DTrfL+1EJRQEZWG9ci/kc/+aikp8sMN352M1pJ3EJtlmqI1T7597hy+hiff+1o/K+XXS68/95PzSO51NPx4Sn1TT9eiqeVEnTyDWKbG/U+3qDk1MOx6P5+KAxNccm5y30fzavBs1fJtLbPJ1/AAZiIFJ9hmyOQAAAABJRU5ErkJggg=="><br>📱 FAITAVI insight
 </div>
 
 ---
@@ -371,7 +371,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 **重點**：TAVI 後**早期 vs 晚期**腦中風 / TIA 對死亡率影響差異。對 cerebral embolic protection device (CEPD) 適應症爭辯具實證價值。
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.cjca.2026.05.007"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhUlEQVRYhdWXsZWEMAxExSMgpARKcWdrl0YpLoGQwM86jQaWu9u3McKB366/AwaPxkLk68iKIeNuv4eGhcFXegDyEv7bZy1Dm2pS5xKcjKo1i82rQInNbVYtTyDQs0of90X1OURk2pJqk+VDaUxC77Rpk9yF5I+rbiSsRpBU8K7Xf3Uak1wDdTjpmj+TLh6BnooJenyhj9sCHpmYUyzzzryezNHYCu+EJrq7BuS1VaOkQsdLaII6XcqZ1NzLUwhCcG/PJ/GFEptYHqvf2Ju/ZWRIm90hkUlu1KPbocXcYkdieiITViBIUq/DrN7fxSbZSM2sw/fNslBpYGIZ4nWKU/D+Dqqw637yQrIp3X0887iZAolNRNjbe6+8o0eCtByceNdpDrHkM1WVF3nSHppwwDvskXAi86/OLia5+tEzPdjhS2jC3p/Jx87D9NTrq+BWwi89vwE95fTKkPiETpnomgU+eQTxJDn0aHji3mE/qork67bp7Eejknc1KpMP36/wTmzydfwALQAHAXhwWW0AAAAASUVORK5CYII="><br>📱 Scan DOI
 </div>
 
 ---
@@ -387,7 +387,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 **重點**：minimalist TAVI（無 TEE、清醒鎮靜、無 ICU、早期下床、24 小時出院）的歐洲執行框架。對台灣推動 same-day discharge TAVI 具參考意義。
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.33963%2Fv.phj.112757"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABmUlEQVRYhdWYMXKEMAxFxbig5AgcxTeLfTSOwhFcUnis/C95k50wW0eoYBm/LSz4+pIR+RhFGZIu3A6R/SiLrYwA5Ms2uOi1aZWkJ+47l4KTpHoWrOlRtCMfWfqmWp9AmI89f8vnKURkbVmXvuot05jEtdPXhl/qXv6o6h+JVyNJriNdtzqNSX4jK3UNP7lFPMJ8Tl6gEF8ZqSGr2MSVgmrkn/p6ivCv1E5kAsWj+KAa8+vLnM/zik1WbH/Qr30Nive3EIG8dn1gmf6G2JFBaILe1/ZqHgInsWmjb6aQyMQV7Vd3Pr4R5hOadMH23/NRU1BsUjjTzS7j7vHSTmxC7bhruIeQo08GIPCQhraHGUgrOzaqMTXJVqeRCR4t/Rge4r0EzmcKCU3sHOWeZ/lYI888TQUmHotNGwon4cyxvU12MQm3z2oUK7/L/VpnNYYlPvuz18zJDm/Eu0wAMk96Sn+DrvnEp4c8gNg5yhTC7xic8x9AfpxPq0kmOjG9+Hl6CJyvDFTjnEfDklmN/IIhNm1woj5zjU0+xjcU40ONdb0M5gAAAABJRU5ErkJggg=="><br>📱 Scan DOI
 </div>
 
 ---
@@ -410,7 +410,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 **重點**：**左心室功能 + 左心房 remodeling**是 Mitral TEER 術後存活的關鍵預後因子。對病人篩選（MitraClip / PASCAL 適應症）具教育意義。
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1093%2Feschf%2Fxvag149"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABmklEQVRYhdWYQY6DMAxFjVhkmSPkKLlZydF6FI6QJYsqnv/ttDNo1DXGUhHlscDJ97dB5GtsyhBJvbblxQuLXRkByMMecHmlLtuQtIsYl+BkVd03ntc2cP7EXVm13YFg5XtVZFK03YfIeriYy79MYxLXjh6ZmXg+J1VdSLwaqWsq5OBTn+o0JplBRfO4yybnCEmYz47DkZ9wj4RqHGtHVrEJtJOpYuyCMittvHWqKizZoO+iOv2a/ueKl9AEFSql2TWl1rEX6rtwPaGzFTVX5opT3UyjxSbWsS0rRvIOaAqJTIS6ps+ZXyd4yDB1S2hCFZeGvYCHwEmgGrX5Ljjh+vNfpmqQz692AhN2dObDGUmtTul8dU4bV5PUi0IV098Qa4fLSWwyJzfvJVAInc8UEpvAnt8zEhVijbzqCE086Nfm0Mr3wfxnsotJ5jzqU7RVpk/4Epr47I8fPGRQRzj3LhOA+Jve69Ox9eMh8QlWuar1PqqmUCd3IOZ8K7lHcGLa8Xx8Hh2oxvleEpa8q5HzKOcM+/qy1xabfI0fGFkixVCxtRQAAAAASUVORK5CYII="><br>📱 Scan DOI
 </div>
 
 ---
@@ -426,7 +426,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 **重點**：RCT 證實**虛擬實境 / 視聽分散**可減少 Mitral TEER 鎮靜劑用量，提升患者體驗。對 awake TEER 推動具參考。
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jacadv.2026.102835"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABjElEQVRYhdWYMZKDMAxF5XFB6SNwFN8s9tE4CkegpPDwV18iye5mUiNUeBI/isj++hIR+RoNDMm7fkyDG8l2jgDkIf5tL+hpTGuFcQlOMrA20XXRfCYskkYB+h0I8+GezMB9iMi0VUDJR6YxiWtnTBv14uSPqi4kXo0ktR95n5d/dRqTvKN21Ynm9ul08QjzWbloPsJbaEfedL0BEfNroZOg+8YRmwwp1mW4+l2M8xYiEz1/EWqcWmdWCa9buJjQ2URVQVd+VeCMHpsknnV3XZsrqwsWU0hkovmc1Sju1Job1S2hyUPPf1W9aD5IrMMG47FJM48+2Lc7xm/tRCY2bbjumZVOdnS++pxDLiZ0NlfFWY15k3oqJCzh0Xb3EO8oiRJv4Yl3keIe7S2x+ttUWOJB92Dvm8Cn9NHghD8fdI/tnOmaT/gSmvjsz0U9BLv1cu8yAYi/6dlZs69YvN0lNrEO6ITvVNTJLQhg82b1jKIT1zLYXxK1o6opWFps8qxG/lukt0DVZGonNvkaP5zOEjQnroCzAAAAAElFTkSuQmCC"><br>📱 Scan DOI
 </div>
 
 ---
@@ -442,7 +442,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 **重點**：對於環徑過大的 tricuspid 病灶，**先做 annular reduction** 再做 transcatheter tricuspid valve replacement 的新策略。對 TriClip 適應症邊緣病人提供另一條路徑。
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108461"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABjElEQVRYhdWYQZKEIAxFY7Fw6RE8CjcbOJpH8QguXVBk8hPs7pmuXveXBaU8FwQ+P0GRj60omqTTHqeGgclHOgH5kXg7F61Tm/eszoWcJNW9iPWbxTPrJlNbVOsdCOLBmKyq9yEi85FVjbxFyklCO20+oJcgf1T1RRKnESTXns51+3dOOcmz5Wo6sdjenY6PIJ4dncUj2IXS02E9NxmqgV8LnEQrPoV2mEkx9wgPsVwTe9GuXeAlyIprhcqhdUQ1aezC98nQcoIrP07gqpWbuIfU8BB3ZXPBZX84HykJn0MuuWqk7uoWamIZMPKLWHWEc1jUOT0x5+syduFFO9zkhFTkWv9N4HzZ6xACYpNEvamXs6VDcsyal/hLROK3EzhfKISbWBbpT+fzRJ7jNkVLosG1sfKz+8nyUtlxEvdrjVwzbq5e4Qs1idp/3Ev09FweWYaAxE2voQbqvtZPD+EnqD296oRqVujkBgRD7nw5ImInrp3xLwDaMdUsuhVuUnz2kWVM91BNgna4ycf2C3oSBKrJ03AuAAAAAElFTkSuQmCC"><br>📱 Scan DOI
 </div>
 
 ---
@@ -493,7 +493,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 - 介入新技術示範，對 valve-in-valve 操作者具借鏡價值
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108487"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABh0lEQVRYhdWXMbKDMAxE5aFwyRF8FN8s+GgchSNQpvCg7EoEfn4mNUKFB3gUCK9WssjPmJQhwxOXqfNBsidbAPIQv3uO2lLPS1XjEpwMqsskWGfkk3WW1EfVdgfCfPhMiup9iEheqyrIV6YxiWun55V6cfKhqguJVyNJbdvwLPO/Oo1JzqgNOkFu304XjzCfhQvyEe7CtA0r1tgEul5LU2YidBJtfHV3vrDk6DIowX0v+rkLYUkX9Jfdry2rpPv+XE5Yh8W+epajAgveDU0Qng90ba4MFxxNIaEJdY0uAr/eZ6TN1C2xCXpfgechH02sw0mN34BYPrYLH9qJSx7Q+iLn/5+FzldtDrmc+Fcz3s42rMK+EppA11Z78BA7ndD5TCGhCT0EcTifNfLqp6mwxIP/n3eZ3dBejU28b6c/zucTvoQmPvtzqdwL6+XeZQIQP+n5hG//+nSX8OScOqmaQp3cgPS8O1/1jKIT0w7PfTizUjtQzajzFJu8q9HmO8lUzUDtxCY/4wVVfSELfi62rQAAAABJRU5ErkJggg=="><br>📱 Scan DOI
 </div>
 
 ---
@@ -512,7 +512,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 - 與 TriClip 適應症評估直接相關
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108481"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABiElEQVRYhdWYMbLCMAxE5XGRMkfwUXyz2EfLUXKElBSZLFrJgc9nqBEuAvGj2Xi1UhD5uBq4JN/0azq4kWznDEAW8bvbjJ6OaaswLsFJBrYmel1Vz4RV0jED/RcI9XBPCvA7RGTaK6DkTWlM4t45pp1+cfLiqi8Sr0aS2s98K+u/Oo1Jnqt29Ylqe0+6eIR6Nl5Uj/AU2pl3vcYmdErpoBJhkqDzp/ROaOJPPmteY5zF4acQmqjXSx95baoSrlP4NmlMD3UFU/lRgQU9Nll0ziiawcwQS2VNwXnzvh2XmJdfZqTT3C2hiXaZGa4HiXXYYDw2aeNznMKLq0ITtQr1+PNfhcmnfTIAWSzZOG/iSra8S/VqjEvcIZYh5m4m31/vxCS6t7EOr+SzRl5xhia+EqcNvZuYJyoQwcmYR5U83lxtwpfQxGd/usbmUevlo/98n/ibnk/49qyfGRKfeHrAXVPokx8g3LLkq64oOjHvjP8C6B11zYy1xSajGg+mtnZvuibTO7HJx3UHSO3xrPCImJQAAAAASUVORK5CYII="><br>📱 Scan DOI
 </div>
 
 ---
@@ -531,7 +531,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 - 多專科團隊（心臟科、感染科、CT 外科）合作的範例
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108483"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABi0lEQVRYhdWYMbLDIAxExVC45AgcxTczHM1H4QiUFB7rayUcT34mdWQKEvPcCFYrYaKvozAGxSF/w4GFoCunA7KRPY3ENRxLW1k5OSeRuRWSeZd4Ft4pHIm5PoEgHqxRZn4OIVr6yizkI1KfxLRzLB16MfKmqh8Sy0aQtZ5x5P1fnvok91ir6ERi+3Q6fwTxNEwSD+EUyhm7zL6J7HnHPBCCaJwrXoV2PJMtjtQkBvFrnmdx2Cl4JvjNdfq1RhV4nsLPiaz1jLotrvzKwMzVORE/zjWortWVxQWTKsQ3obs70vlUdZNvAkVX9RAOyMPCyp0TlQpmPYU37fglRbqjRlrRdf93gvNJnXRANnU2ln6TL2eLnVBXvJMmuYcuWW8ncD5ViGtClLQjupxPC/lqtym3xAb2H09yFqyvOiezH0XP8fK/xJaNfon1/qiQcL6htdyqjAMyb3qogLbXt4c8gZB1nVBNhk4eQabzrRaRd0KmZf12Ae2IahLvxTe5shE9h3R5UE2EdnyTr+MPZ+4EjK+OmLAAAAAASUVORK5CYII="><br>📱 Scan DOI
 </div>
 
 ---
@@ -549,7 +549,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-12 ~ 2026-
 - 對 PFO closure / LAA closure 操作者具教學價值
 
 <div class="qr">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jaccas.2026.108472"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABlElEQVRYhdWXMbKDMAxExVC45Ag+im8WfDSOkiNQUjAouyvIn59M6iguPMCjQGi1ks0+rtm5bNxwOex8MOjJkYDcLO62yfuwl3tzcUtORvf7bNgXxFN8sWGf3PsvEMbDZ1bdf4eYlbW5g7xFmpOEdvayUi9B/qnqiySqkaT1Y9zq8lKnOcnfah06QWzvTpePMJ47N8RjzMJ8jCv23IRKqRGJ0Um881VqJzO5ob9Uh2pQgmcu9shCZoIErBVal18rqsGf+fkywVdPVAhd+VmB1XtuYiTUBnQtV4YLTlJIZhK+AbdbrxnpkLotNVEHNKdf+8DL2cVzE4s6RE0qCy/ayUrkIZgt0NH1/xej87V+ZCBmqEZoQ7OyvnlcjX0lNVE1oirhITqd0PlO7SQmVpwK4f+X86mRN52m8pJY/P8NHVBvISGenFzzqCKJk6smfEtNYvY/PcQ39fLoMgnIddIz+kZRDJe7pCc6TWnqpGoqdfIL5HK+FhFlJ9IOz30LJ49KJ5lc82hiclYjN1RgoWpGaic3+bgezLEMX2JIJkgAAAAASUVORK5CYII="><br>📱 Scan DOI
 </div>
 
 ---

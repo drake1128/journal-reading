@@ -159,7 +159,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-29 ~ 2026-
 
 > NS-MRA 的腎保護效益**延伸至非糖尿病 CKD**，補上長期缺口。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1056%2FNEJMoa2604625"><br>FIND-CKD</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMklEQVQ4jaWVsYoDMQxEBS78Uyb+LRULMlyxv2XwT7kw0c04uSvSyTEb2JdCSDMercjHMfcpaj7Gqu7PMKuIqmZ3X0XkEWeb+Mt+eu2lrjPmM3o55twkrbrOGPPYPSnl/3wRpp4Q5Cpo50/fCPNkb1dhufeJsPk0vxu6qWOMHma1liGn9zR8bT9jnO9GRX143w1FWVFQxVpaUnc/QRa7/Z56gYW/KKMcqvEVjrzmizEaYqTqqhTka4Y/eVozpkNSDzMvOBtEc695g4xSkMcwXkLCH2FWKgR/4W6iwwfM+4ULKrVjnji/Isr1tuozzDtT8LfzgnmcaSY84TB0JMxsBhm5sB6lvPdNiLkcke+0N/QhT+Z7P0es2FAd281PmJHA9wF+9DrivPVsenE78Av1LX+cX5/bPghmBqqtAAAAAElFTkSuQmCC"><br>FIND-CKD</div>
 
 ---
 
@@ -182,7 +182,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-29 ~ 2026-
 
 > 出血效益明確，但**不可一體適用於 ACS**——支架血栓風險升高，須個體化。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1093%2Feurheartj%2Fehag381"><br>P2Y12 Meta</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABKUlEQVQ4jaWUMQqDIQyFAw5eSv5cy6EQ4R+8luClHELTF0s7dIvV6XOQvJeXEP0cMVtU5R5U2OwZ5kpUa8UzHoiuOMvyp2RaCusZy5JGPI45t9yolDNGMdLXI9n46ouw+wlDHv7dx98I+8nWb9jx7WmExZZY75qU55wjzDDDO0ps09T1RVk6BGUtaeyCoux/1Z0HYq/ngD0PNpUoKcUZYbBGO48FeqIMwIdmNtgN+ZtlUe69iSkrpRFmgr8N45E++oKMYlpeNU11idcB+3hkRSm7w3HOzTsMc3ngMcxAcUFIqPIzzHumFvrrAbM47/mWhUp8v1CYfb94wMq+V5x9P9qW8+7HAWO9Nwga2HFHLCs7eKjjvCdcbkMieMbZ/ZRWsZ/n1EJ/8895AeeUO83MbANUAAAAAElFTkSuQmCC"><br>P2Y12 Meta</div>
 
 ---
 
@@ -204,7 +204,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-29 ~ 2026-
 
 > 試驗效益成功外推至真實世界——支持臨床推廣。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jacc.2026.04.025"><br>COAPT-T</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABL0lEQVQ4jaWVMQrDMAxFBR58KRNfy0NAhgy+lsCX8mCqfjmlhU6VK5yQl0F86SsK0Vew6oiVglDKqg83F6LCbYTeZyI6/MyjRK1BJxLOPeZWT8A243ZJoj1GPaVEqKF3fR62fuLFmdKnvx5+uXitdn5c/ZlZB045iXLvXdyMWlrDPHTtsORwM3qprQ2WILcgP1fGPMgSJG6OI6q2xRQmuZlrrPCDBYYk89PLzfzEPECOWr4/GQprsSmRPGmp9LE9I+FJr/q8zMhmkSc+0XS42XpTeax05rCbqcTB1aRkWfU4ObYBUaZIZ364eY0k9oOZkdXP6/umqNiv2C/k5rIOXzPZgjn8zLZeCnfV248NNjuwnCRA1Q7jCgDEBq8NUXmmILn72foJxoK6/1D/8lc8AYnLIj480ClHAAAAAElFTkSuQmCC"><br>COAPT-T</div>
 
 ---
 
@@ -220,7 +220,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-29 ~ 2026-
 
 > Finerenone 除腎/心衰益處外，**降低猝死**的訊號值得納入整體獲益考量。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jacc.2026.04.045"><br>FINE-HEART</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMUlEQVQ4jaWVTQoDIQyFAy68lIzXymIgwiy8luClXEjTF6e00FVjgwx+Dkh+XiLRl4nqiIVCo5RVH25mIpY6Qu8zER1+lsFRS9CJC+ceSy0nYJvxuVqiPUY8zBHe0Ds+D1s+cXCm9Mmvh19VvFY6P1X9mUUHFp9Euffe3Ewcq0IPXTtKcrg51qpah7TQlkNeRgQ4KdCjOdTczBF6qvWyP2GSmy0aGaYH2IrHxyZHLdAD3EFC/mYcxFo4aMvTutTL0LcMsvq+4nUyxBEH9nmiRdPhZjT3wHxY11mF3czmQzFXcrN4vCxFCgYcUGd+uNmMMR+sGFn9fPd3VMxXzBdyM68l10w2YA4/m6AKS1e967HDw7KhDaLaY7wPANgGr/elyEyh5e5nyycYA+p+of7lL3sCLGIvto3FUdcAAAAASUVORK5CYII="><br>FINE-HEART</div>
 
 ---
 
@@ -243,7 +243,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-29 ~ 2026-
 
 > TAVI-in-TAVI 短期安全性確立——須留意冠脈再通路與瓣膜選擇規劃。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.4244%2FEIJ-D-25-01268"><br>ReTAVI</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABL0lEQVQ4jaWVQQoCMQxFA130UmV6rS4GWnAx1wrkUl0E40/Vha5M7ejAy0Ka/38i0dfpZjMPSiZaze5hbkStX5Oo4KEjzn22bOOsXErVPe7XoJJ0m/EyprLH6KfhRl549xdh1xOFs+Dn3vpG+OXijcuHqz9zt4lP6yImIhznQf5NxtXU+wlynnl6HlBYN4pyyxN3Qh6Eq98nyijYhTz4SUpx7qBXHgr6iXK+BvTM6KYKBPmfB+IJfzGeSonDDIEhTzu9t9VfkJsLBHuEk2k54pzRz3M/JHc4zB3rqQ8XuDL6CXP2dCOgWG9a72FeMwVJRJSqxfk53+6n7xcKc1sj0W+6FuwRZ9+PCKhv9+XHDruf2HCY0T22CUZlh32/wk9eAx5n1xOB9n8H0UJ/89d5AH+8TvWxn12qAAAAAElFTkSuQmCC"><br>ReTAVI</div>
 
 ---
 

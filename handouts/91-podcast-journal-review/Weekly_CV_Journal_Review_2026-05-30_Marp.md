@@ -159,7 +159,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-23 ~ 2026-
 
 > 由「心肺失代償/休克」下降驅動 → 中危 PE 介入有臨床淨效益。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1056%2FNEJMoa2516567"><br>HI-PEITHO</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABNUlEQVQ4jaWUMa4DIQxELVFwKRRfiwIJpBRcC4lLUaA4Myj/F+lM2N3ibbFrz3gs8nWq2ZJcbc6tZi83Z5GcczSznUQefq4Lr+pz6Ei675j3HOmaY5Owdd8x+ql9Ucr//jxMPSFISSjnT18P80RrJfFzn+Phaqtab6hG55zDz0si5LQRpm3242SISUVt2jgFeVlgBrpoukVZj5djy7S0hC3Cx8scZrgZhsAR9uNkOoCOAuJEQX5mxiP2VuDP5l/c3Lut2ALTyf68jP4w4xXpDngefo7dmsQNcQIddnOuDdcTpehAP25GOhCwolhvW19uPo7A4AQx1Px88h3h59lP4mbuF4x3wXqU9Nk3LsZAQBIJZ0NfsjDf577iuqINbDe7Ye7XVZ/Iw9Dp56On5MLtwJn+lb/OG5HjNZhcsZLJAAAAAElFTkSuQmCC"><br>HI-PEITHO</div>
 
 ---
 
@@ -176,7 +176,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-23 ~ 2026-
 
 > 「再肌肉化 (remuscularization)」的首次人體正向訊號，屬早期、需長期追蹤。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1056%2FNEJMoa2513525"><br>BioVAT-HF</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMUlEQVQ4jaWVsQ7CMAxELWXIT0XktzJUcqQO/a1I+akMEeYuBQY2B6sMrwP4zvYh8lNqNqSo9T6z2dPNRaSUEs1sJpGHn3XglZ4tt5TnHvPpLW1zrBJmnnsMPXoNWvnV52H6CUOOhHY+/nqYFa0eiV/3Lg+rDbWropvce29ujjXWgn1ooduEHi/DDKvYh25tNeRlrXRTa5iSV39OjhcEjXKAhR83oxnYEZpgIkufj4vEEa8RcE405H+GQbBYuZ38FS/zxT3fW5+XcR/Qp1NSwIU//LwqTpgTOGE3R0x36IlWcqM+L1NPLUdGvM38dPPaURx54oKZn3nfynmufBI3M19g6IF4lPTOGxczHLmgK6H3+L7v9ewxEqoh3WyH1wrqiXtouft5+Yl5Mh34D/Uv/9QLA1c/f4BJmOMAAAAASUVORK5CYII="><br>BioVAT-HF</div>
 
 ---
 
@@ -193,7 +193,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-23 ~ 2026-
 
 > "One-and-done" 降脂的概念驗證——單次給藥達持久 LDL 下降。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1056%2FNEJMoa2601283"><br>VERVE-102</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMUlEQVQ4jaWVMa4DIQxELVFwKRSuRbGSkVJwLSQuRYHizLD5v0hn4t3mUbD2jO0V+Qo1m1LUxljZ7OXmIlJKiWa2ksjDzzpxpM+ee8rrjPmOno45VgkrrzNGPdompfyvz8PUE4JcCen86ethRrR6JV73CQ+rTbVWkU0eY3Q3x2YNcloPwxbq8TIEoaI2rN8Jefk+qnlJZj5ejlBz98MSmCpuVljJfugCR+inkzkO0WbAOFGQnznWEmesyungV7wMc6e2Gjiduz4nQ52KB+4ETPjDzzhhh8LdQIfdDIF5J4TJHfW4GYJopb/ZVn65+e4v5AIxsvl5zzdyCns/iZu5X2KrF9ajpM++cbHOLUfYG/qQhfO93zNGR3dsNzvh/X/RJ/zoefiZesLPi9uBPf0rf8UbspEx2PvhmdwAAAAASUVORK5CYII="><br>VERVE-102</div>
 
 ---
 
@@ -216,7 +216,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-23 ~ 2026-
 
 > 史上最嚴格的消融試驗之一——證明 PFA 療效**非安慰劑效應**（限制：n 小、追蹤短）。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1161%2FCIRCULATIONAHA.126.079484"><br>PFA-SHAM</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABLUlEQVQ4jaWVMQrDMAxFBR50KRNfy0NAhg6+lsGX8iCqfrnQQje5TpaXQUj/fytEP0fMFtWa5tRi9gxzJVClNIpmoivOsqp3gXq56Bn7a0rHzI0bmjljzCN9yZzjM1+EXU8IcuecP/pG2A9bb0m/nkZYbAlQ4OZETyfMkLMBIekVZqRhO5rM9aA4Ezd8vDFP8X7CvPMgu9rWJMjSO9LAD8QxZ58vyLzghudhFBfkf0Z16Y2KFsUtCzP6s26Ix3e+IDdkHP6OZJqvMFdGQBq70sk1DnMlhhwPG4SSI864YH3Vm6iYlmeY3xFFPCcCZnHe95sXpMQFVwqz7xfu7c7kzxVnzzfWwzR7+3HA8NN/DnB0HLEs9vWCigfs+xV++nIqM86upzT4mWln+l/+OS9c3E03BipzgQAAAABJRU5ErkJggg=="><br>PFA-SHAM</div>
 
 ---
 
@@ -251,7 +251,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-05-23 ~ 2026-
 
 > ⚠️ 本週「what didn't work」：監測 + 加強利尿直覺合理，實測 **neutral 且帶 harm signal**——策略需 RCT 驗證，不可理論外推。
 
-<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jacc.2026.03.075"><br>ALLEVIATE-HF</div>
+<div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABL0lEQVQ4jaWVQYoEIQxFAy68lJTXctGQQC+8VsBLuZDO/Ng909CriS0i9WpR5P8fU0Qfi81mFkpKpZo9wtyIGveZxliF6Iozz5ZNki18cJ0x9y6AY8ZhWuiMoae1jGroT1+E3U+8uJXy9jfCrxTv2853qv9mtondbkR1jKFhbpS7oR+GDURyhdm97H2yJn0WFGRHQz/oLkjDzJInd2EwpUVhhhxBoqwIpLieIKMXkagrqW7I14wCsVsyrctvaZhhkHiX/uoLMp6y4KgLV7RccWbo6VvQTjjOM1sXL6WiR+KMcFCR+2mrPsK8e7LhfiGManHe95uyYb5ivlCYfb5k4fsqPmCuOGO++YAbZq88DtjzNFM01RnzTACsA94tIbxK0jri7H7yHlDPP9S3/LF+ABjLH1lFvxISAAAAAElFTkSuQmCC"><br>ALLEVIATE-HF</div>
 
 ---
 

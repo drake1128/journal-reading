@@ -144,7 +144,7 @@ Non-inferiority margin = 0.75 mm²
 
 # 主要結果：MSA 非劣性
 
-<img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fdoi.org%2F10.4244%2FEIJ-D-26-00426" alt="DOI QR">
+<img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4AQMAAAADqqSRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABLElEQVQ4jaWVMYrEMAxFBS5yKRNfy8WADCl8LYMv5ULMX30zs7BTrTKOE3guhL/0pYh8LAXW0SRhWgGeYa4iVfsSyf7IGWdd9UB7lJFzsXusvUlOdpv9gyH5Hrue6jfiwVtfhJlPP3hkD/fOb4RfVbxG/lPVf7Ni+a46J+acI84dHfTDKDDqCfPS7n7wg32jMK+jd/phjrLvE+XufnY/cCWTMFdvhvryQ2Z9wwx2lKspEzvelyx0t16wYpJGmBWd/lLG2nqD7P1xeId4qATL5x2ucqzk1eUbZypCY4LL2PqC7A3We0scb1aeYeZiOuY0KYgz+1sb68n5ImGue+tle8CeceZ8bFSF33pEudZdTu5b7D2efLgAd3j/X5qOxAaP884nGv8O07J8zR/rB19bYx2o/5l1AAAAAElFTkSuQmCC" alt="DOI QR">
 
 | 主要終點 | RA (n=86) | IVL (n=83) | 結果 |
 |----------|-----------|------------|------|
