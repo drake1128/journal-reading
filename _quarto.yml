@@ -39,6 +39,8 @@ website:
         - section: "心衰竭 Heart Failure"
           contents:
             - handouts/02-heart-failure/index.qmd
+            - text: "Entresto Journey at 10 — From Landmark Trials to Real-World Outcomes (互動投影片, 37 張)"
+              href: handouts/02-heart-failure/Entresto_Journey_at_10.html
             - handouts/02-heart-failure/nejm-biovat-hf-stem-cell-heart-failure-2026/index.qmd
             - handouts/02-heart-failure/journal-pa-pressure-monitor-2025/index.qmd
             - handouts/02-heart-failure/lecture-managing-hf-in-ed/index.qmd
