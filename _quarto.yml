@@ -23,6 +23,8 @@ website:
         - section: "缺血性心臟病 IHD"
           contents:
             - handouts/01-ischemic-heart-disease/index.qmd
+            - text: "Door-to-Balloon / Door-to-Needle 時間改善（STEMI 系統照護）"
+              href: "handouts/01-ischemic-heart-disease/Door-to-Balloon 與 Door-to-Needle 時間改善 教學講義.md"
             - handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.qmd
             - handouts/01-ischemic-heart-disease/acs-book-early-diagnosis-of-ami/index.qmd
             - handouts/01-ischemic-heart-disease/acs-er-protocol/index.qmd
@@ -149,6 +151,8 @@ website:
         - section: "介入心臟學 Interventional"
           contents:
             - handouts/06-interventional-cardiology/index.qmd
+            - text: "KISS Trial — 分叉病變側枝是否要額外處理"
+              href: "handouts/06-interventional-cardiology/KISS Trial 分叉病變側枝處理 教學講義.md"
             - handouts/06-interventional-cardiology/champion-af-laao-vs-noacs/index.qmd
             - handouts/06-interventional-cardiology/book-6-cag-procedure-and-interpret-eng/index.qmd
             - handouts/06-interventional-cardiology/book-61-cag-a-set-up/index.qmd
