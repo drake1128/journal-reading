@@ -324,6 +324,8 @@ website:
         - section: "AI & 科技"
           contents:
             - handouts/90-ai-technology/index.qmd
+            - text: "通用 LLM 勝過專用臨床 AI 工具（Nature Medicine 2026 盲化評比）"
+              href: "handouts/90-ai-technology/通用 LLM 勝過專用臨床 AI 工具 Nature Medicine 2026 教學講義.md"
             - text: "AI 數位科技應用於醫學教育 (簡報)"
               href: handouts/90-ai-technology/AI_Medical_Education.html
             - handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.qmd
