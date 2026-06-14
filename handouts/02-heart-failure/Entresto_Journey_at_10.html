@@ -264,6 +264,9 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
 .dark .refs em, .deep .refs em { color: var(--gold-soft); }
 .refs strong { color: var(--ink); font-weight: 800; }
 .dark .refs strong, .deep .refs strong { color: var(--on-dark-strong); }
+.refs a.pmid { color: var(--gold); text-decoration: none; font-weight: 700; white-space: nowrap; border-bottom: 1px dotted var(--rule); }
+.refs a.pmid:hover { color: var(--accent); border-bottom-style: solid; }
+.dark .refs a.pmid, .deep .refs a.pmid { color: var(--gold-soft); border-bottom-color: rgba(242,214,128,0.45); }
 
 /* section header slides (dark) */
 .section-num {
@@ -1157,9 +1160,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     #timeline-slide .tl-label strong { color:var(--ink); font-weight:600; }
   </style>
 
-  <div class="refs">
-    <strong>Ref:</strong> McMurray JJV, <em>NEJM</em> 2014;371:993-1004 &nbsp;·&nbsp; Velazquez EJ, <em>NEJM</em> 2019;380:539-548 &nbsp;·&nbsp; Solomon SD, <em>NEJM</em> 2019;381:1609-1620 &nbsp;·&nbsp; 2024 ACC Expert Consensus Decision Pathway &nbsp;·&nbsp; Tanaka A, <em>Eur Heart J</em> 2024;45(42):4482-93.
-  </div>
+  <div class="refs"><strong>Ref:</strong> McMurray JJV. PARADIGM-HF. NEJM 2014;371:993-1004 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a> &nbsp;&middot;&nbsp; Velazquez EJ. PIONEER-HF. NEJM 2019;380:539-548 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30415601/" target="_blank" rel="noopener">PMID&nbsp;30415601</a> &nbsp;&middot;&nbsp; Solomon SD. PARAGON-HF. NEJM 2019;381:1609-1620 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/31475794/" target="_blank" rel="noopener">PMID&nbsp;31475794</a> &nbsp;&middot;&nbsp; Maddox TM. 2024 ACC ECDP. JACC 2024;83(15):1444-88 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38466244/" target="_blank" rel="noopener">PMID&nbsp;38466244</a> &nbsp;&middot;&nbsp; Tanaka A. PREMIER. Eur Heart J 2024;45(42):4482-93 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39215531/" target="_blank" rel="noopener">PMID&nbsp;39215531</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -1288,9 +1289,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     .moa-effect span { color: var(--gold); margin-right: 8px; font-weight: 900; }
   </style>
 
-  <div class="refs">
-    <strong>Ref:</strong> Vardeny O et al. <em>Eur J Heart Fail</em> 2014;16(5):485-94 &nbsp;·&nbsp; McMurray JJV et al. <em>NEJM</em> 2014;371:993-1004.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Vardeny O, Miller R, Solomon SD. Combined neprilysin &amp; RAS inhibition for HF. <em>JACC Heart Fail</em> 2014;2(6):663-70 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25306450/" target="_blank" rel="noopener">PMID&nbsp;25306450</a> &nbsp;&middot;&nbsp; McMurray JJV et al. PARADIGM-HF. NEJM 2014;371:993-1004 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -1358,9 +1357,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Packer M et al. <em>Circulation</em> 2015;131:54-61 &nbsp;·&nbsp; Damman K et al. Renal effects in PARADIGM-HF. <em>JACC Heart Fail</em> 2018;6(6):489-98 &nbsp;·&nbsp; Judge P et al. <em>Am J Kidney Dis</em> 2015;65(3):473-83.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Packer M et al. <em>Circulation</em> 2015;131(1):54-61 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25403646/" target="_blank" rel="noopener">PMID&nbsp;25403646</a> &nbsp;&middot;&nbsp; Damman K et al. Renal effects in PARADIGM-HF. <em>JACC Heart Fail</em> 2018;6(6):489-98 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/29655829/" target="_blank" rel="noopener">PMID&nbsp;29655829</a> &nbsp;&middot;&nbsp; Judge P et al. Neprilysin inhibition in CKD. <em>Nephrol Dial Transplant</em> 2015;30(5):738-43 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25140014/" target="_blank" rel="noopener">PMID&nbsp;25140014</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -1422,7 +1419,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
 
   </div>
 
-  <div class="refs"><strong>Ref:</strong> Packer M et al. <em>Circulation</em> 2002;106:920-6 (OVERTURE) &nbsp;&middot;&nbsp; Kostis JB et al. <em>Am J Hypertens</em> 2004;17(2):103-11 (OCTAVE) &nbsp;&middot;&nbsp; Hubers SA, Brown NJ. <em>Circulation</em> 2016;133:1115-24.</div>
+  <div class="refs"><strong>Ref:</strong> Packer M et al. OVERTURE. <em>Circulation</em> 2002;106(8):920-6 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/12186794/" target="_blank" rel="noopener">PMID&nbsp;12186794</a> &nbsp;&middot;&nbsp; Kostis JB et al. OCTAVE. <em>Am J Hypertens</em> 2004;17(2):103-11 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/14751650/" target="_blank" rel="noopener">PMID&nbsp;14751650</a> &nbsp;&middot;&nbsp; Hubers SA, Brown NJ. <em>Circulation</em> 2016;133(11):1115-24 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/26976916/" target="_blank" rel="noopener">PMID&nbsp;26976916</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
@@ -1479,7 +1476,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
 
   </div>
 
-  <div class="refs"><strong>Ref:</strong> Solomon SD et al. PARAMOUNT. <em>Lancet</em> 2012;380(9851):1387-95 &nbsp;&middot;&nbsp; Eadie A et al. <em>Pharmacol Res Perspect</em> 2021;9(3):e00794.</div>
+  <div class="refs"><strong>Ref:</strong> Solomon SD et al. PARAMOUNT. <em>Lancet</em> 2012;380(9851):1387-95 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/22932717/" target="_blank" rel="noopener">PMID&nbsp;22932717</a> &nbsp;&middot;&nbsp; Eadie AL et al. <em>Pharmacol Res Perspect</em> 2021;9(3):e00794 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/34087050/" target="_blank" rel="noopener">PMID&nbsp;34087050</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
@@ -1543,9 +1540,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> McMurray JJV et al. ARNI vs Enalapril in HF. <em>NEJM</em> 2014;371:993-1004.
-  </div>
+  <div class="refs"><strong>Ref:</strong> McMurray JJV et al. ARNI vs Enalapril in HF (PARADIGM-HF). NEJM 2014;371:993-1004 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -1624,7 +1619,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
 
   </div>
 
-  <div class="refs"><strong>Ref:</strong> McMurray JJV et al. PARADIGM-HF. <em>NEJM</em> 2014;371:993-1004 &nbsp;&middot;&nbsp; Curve schematic redrawn from published primary-endpoint Kaplan-Meier figure.</div>
+  <div class="refs"><strong>Ref:</strong> McMurray JJV et al. PARADIGM-HF. NEJM 2014;371:993-1004 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a> &nbsp;&middot;&nbsp; Curve schematic redrawn from the published primary-endpoint Kaplan-Meier figure.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
@@ -1734,9 +1729,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> McMurray <em>NEJM</em> 2014;371:993-1004 &nbsp;·&nbsp; Velazquez <em>NEJM</em> 2019;380:539-548 &nbsp;·&nbsp; Solomon <em>NEJM</em> 2019;381:1609-1620 &nbsp;·&nbsp; Mentz RJ <em>JACC</em> 2023;82(1):1-12 (PARAGLIDE-HF) &nbsp;·&nbsp; Haynes R <em>Circulation</em> 2018;138(15):1505-14 &nbsp;·&nbsp; Tanaka A <em>Eur Heart J</em> 2024;45(42):4482-93.
-  </div>
+  <div class="refs"><strong>Ref:</strong> McMurray. NEJM 2014;371:993-1004 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a> &nbsp;&middot;&nbsp; Velazquez. NEJM 2019;380:539-548 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30415601/" target="_blank" rel="noopener">PMID&nbsp;30415601</a> &nbsp;&middot;&nbsp; Solomon. NEJM 2019;381:1609-1620 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/31475794/" target="_blank" rel="noopener">PMID&nbsp;31475794</a> &nbsp;&middot;&nbsp; Mentz RJ. PARAGLIDE-HF. JACC 2023;82(1):1-12 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/37212758/" target="_blank" rel="noopener">PMID&nbsp;37212758</a> &nbsp;&middot;&nbsp; Haynes R. UK-HARP-III. Circulation 2018;138(15):1505-14 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30002098/" target="_blank" rel="noopener">PMID&nbsp;30002098</a> &nbsp;&middot;&nbsp; Tanaka A. PREMIER. Eur Heart J 2024;45(42):4482-93 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39215531/" target="_blank" rel="noopener">PMID&nbsp;39215531</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -1907,7 +1900,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
 
   </div>
 
-  <div class="refs"><strong>Ref:</strong> McMurray <em>NEJM</em> 2014 &nbsp;&middot;&nbsp; Velazquez <em>NEJM</em> 2019 &nbsp;&middot;&nbsp; Solomon <em>NEJM</em> 2019 &nbsp;&middot;&nbsp; Pfeffer <em>NEJM</em> 2021 &nbsp;&middot;&nbsp; Mentz <em>JACC</em> 2023 &nbsp;&middot;&nbsp; Tanaka <em>EHJ</em> 2024 &nbsp;&middot;&nbsp; Fu M <em>Clin Res Cardiol</em> 2023;112(1):167-74 (SwedeHF) &nbsp;&middot;&nbsp; Bhatt <em>ESC HF</em> 2025.</div>
+  <div class="refs"><strong>Ref:</strong> McMurray NEJM 2014 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a> &nbsp;&middot;&nbsp; Velazquez NEJM 2019 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30415601/" target="_blank" rel="noopener">PMID&nbsp;30415601</a> &nbsp;&middot;&nbsp; Solomon NEJM 2019 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/31475794/" target="_blank" rel="noopener">PMID&nbsp;31475794</a> &nbsp;&middot;&nbsp; Pfeffer PARADISE-MI NEJM 2021 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/34758252/" target="_blank" rel="noopener">PMID&nbsp;34758252</a> &nbsp;&middot;&nbsp; Mentz JACC 2023 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/37212758/" target="_blank" rel="noopener">PMID&nbsp;37212758</a> &nbsp;&middot;&nbsp; Tanaka EHJ 2024 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39215531/" target="_blank" rel="noopener">PMID&nbsp;39215531</a> &nbsp;&middot;&nbsp; Fu SwedeHF. Clin Res Cardiol 2023;112(1):167-74 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36443599/" target="_blank" rel="noopener">PMID&nbsp;36443599</a> &nbsp;&middot;&nbsp; Bhatt ESC HF 2025;12(3):1682-92 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39888167/" target="_blank" rel="noopener">PMID&nbsp;39888167</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
@@ -1967,9 +1960,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Velazquez EJ et al. PIONEER-HF. <em>NEJM</em> 2019;380:539-548 &nbsp;·&nbsp; DeVore AD et al. PIONEER-HF OLE. <em>JAMA Cardiol</em> 2020;5(2):202-7.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Velazquez EJ et al. PIONEER-HF. NEJM 2019;380:539-548 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30415601/" target="_blank" rel="noopener">PMID&nbsp;30415601</a> &nbsp;&middot;&nbsp; DeVore AD et al. PIONEER-HF OLE. <em>JAMA Cardiol</em> 2020;5(2):202-7 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/31825471/" target="_blank" rel="noopener">PMID&nbsp;31825471</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2041,7 +2032,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
 
   </div>
 
-  <div class="refs"><strong>Ref:</strong> Velazquez EJ et al. PIONEER-HF. <em>NEJM</em> 2019;380:539-548 &nbsp;&middot;&nbsp; Curve schematic redrawn from primary-endpoint Kaplan-Meier.</div>
+  <div class="refs"><strong>Ref:</strong> Velazquez EJ et al. PIONEER-HF. NEJM 2019;380:539-548 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30415601/" target="_blank" rel="noopener">PMID&nbsp;30415601</a> &nbsp;&middot;&nbsp; Curve schematic redrawn from the primary-endpoint Kaplan-Meier.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
@@ -2091,9 +2082,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Tanaka A et al. Japan PREMIER Trial. <em>Eur Heart J</em> 2024;45(42):4482-93.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Tanaka A et al. Japan PREMIER Trial. <em>Eur Heart J</em> 2024;45(42):4482-93 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39215531/" target="_blank" rel="noopener">PMID&nbsp;39215531</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2150,9 +2139,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Tanaka A et al. <em>Eur Heart J</em> 2024;45(42):4482-93 &nbsp;·&nbsp; Doi S et al. PREMIER Up-titration Analysis. <em>J Card Fail</em> 2025.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Tanaka A et al. PREMIER. <em>Eur Heart J</em> 2024;45(42):4482-93 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39215531/" target="_blank" rel="noopener">PMID&nbsp;39215531</a> &nbsp;&middot;&nbsp; Doi S et al. PREMIER up-titration. <em>J Card Fail</em> 2026;32(3):573-82 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40389107/" target="_blank" rel="noopener">PMID&nbsp;40389107</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2200,9 +2187,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Tanaka A et al. Japan PREMIER Trial. <em>Eur Heart J</em> 2024;45(42):4482-93. &nbsp;·&nbsp; Doi S et al. PREMIER Up-titration Analysis. <em>J Card Fail</em> 2025.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Tanaka A et al. Japan PREMIER Trial. <em>Eur Heart J</em> 2024;45(42):4482-93 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39215531/" target="_blank" rel="noopener">PMID&nbsp;39215531</a> &nbsp;&middot;&nbsp; Doi S et al. PREMIER up-titration. <em>J Card Fail</em> 2026;32(3):573-82 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40389107/" target="_blank" rel="noopener">PMID&nbsp;40389107</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2248,7 +2233,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs"><strong>Ref:</strong> Taha HI, Shubietah A, Al Zoubi BM, et al. Angiotensin-neprilysin inhibition in acute decompensated heart failure: a meta-analysis of randomized controlled trials. <em>Future Cardiol</em> 2026;22(1):43-55. &nbsp;&middot;&nbsp; PROSPERO CRD42024618027.</div>
+  <div class="refs"><strong>Ref:</strong> Taha HI, Shubietah A, Al Zoubi BM, et al. Angiotensin-neprilysin inhibition in acute decompensated heart failure: a meta-analysis of RCTs. <em>Future Cardiol</em> 2026;22(1):43-55 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40689605/" target="_blank" rel="noopener">PMID&nbsp;40689605</a> &nbsp;&middot;&nbsp; PROSPERO CRD42024618027.</div>
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
     <div class="mid">Part IV &nbsp;&middot;&nbsp; ADHF Meta-analysis &nbsp;&middot;&nbsp; &nbsp;&middot;&nbsp; 18 / 37</div>
@@ -2293,7 +2278,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs"><strong>Ref:</strong> Taha HI, Shubietah A, Al Zoubi BM, et al. Angiotensin-neprilysin inhibition in acute decompensated heart failure: a meta-analysis of randomized controlled trials. <em>Future Cardiol</em> 2026;22(1):43-55. &nbsp;&middot;&nbsp; PROSPERO CRD42024618027.</div>
+  <div class="refs"><strong>Ref:</strong> Taha HI, Shubietah A, Al Zoubi BM, et al. Angiotensin-neprilysin inhibition in acute decompensated heart failure: a meta-analysis of RCTs. <em>Future Cardiol</em> 2026;22(1):43-55 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40689605/" target="_blank" rel="noopener">PMID&nbsp;40689605</a> &nbsp;&middot;&nbsp; PROSPERO CRD42024618027.</div>
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
     <div class="mid">Part IV &nbsp;&middot;&nbsp; ADHF Meta-analysis &nbsp;&middot;&nbsp; &nbsp;&middot;&nbsp; 19 / 37</div>
@@ -2342,7 +2327,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs"><strong>Ref:</strong> Taha HI, Shubietah A, Al Zoubi BM, et al. Angiotensin-neprilysin inhibition in acute decompensated heart failure: a meta-analysis of randomized controlled trials. <em>Future Cardiol</em> 2026;22(1):43-55. &nbsp;&middot;&nbsp; PROSPERO CRD42024618027.</div>
+  <div class="refs"><strong>Ref:</strong> Taha HI, Shubietah A, Al Zoubi BM, et al. Angiotensin-neprilysin inhibition in acute decompensated heart failure: a meta-analysis of RCTs. <em>Future Cardiol</em> 2026;22(1):43-55 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40689605/" target="_blank" rel="noopener">PMID&nbsp;40689605</a> &nbsp;&middot;&nbsp; PROSPERO CRD42024618027.</div>
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">&reg;</sup> at Ten</div>
     <div class="mid">Part IV &nbsp;&middot;&nbsp; ADHF Meta-analysis &nbsp;&middot;&nbsp; &nbsp;&middot;&nbsp; 20 / 37</div>
@@ -2395,9 +2380,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Fu M, Pivodic A, Käck O, Costa-Scharplatz M, Dahlström U, Lund LH. Real-world comparative effectiveness of ARNI vs. ACEi/ARB in HF with reduced or mildly reduced ejection fraction. <em>Clin Res Cardiol</em> 2023;112(1):167-174. DOI 10.1007/s00392-022-02124-w &nbsp;·&nbsp; PMC9849288.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Fu M, Pivodic A, K&auml;ck O, Costa-Scharplatz M, Dahlstr&ouml;m U, Lund LH. Real-world ARNI vs. ACEi/ARB in HF with reduced or mildly reduced EF (SwedeHF). <em>Clin Res Cardiol</em> 2023;112(1):167-174 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36443599/" target="_blank" rel="noopener">PMID&nbsp;36443599</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2456,9 +2439,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Bhatt AS, Vaduganathan M, Jena BP, Suminska S, Eid C, Schwende H, Senni M. Real-world comparative effectiveness of sacubitril/valsartan vs. RAS inhibition in de novo HF. <em>ESC Heart Fail</em> 2025;12(3):1682-1692. DOI 10.1002/ehf2.15183 &nbsp;·&nbsp; PMC12055388.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Bhatt AS, Vaduganathan M, Jena BP, et al. Real-world Sac/Val vs RAS inhibition in de novo HF (US Optum). <em>ESC Heart Fail</em> 2025;12(3):1682-1692 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39888167/" target="_blank" rel="noopener">PMID&nbsp;39888167</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2508,9 +2489,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Ambrosy AP et al. PIONEER-HF De Novo Subgroup. <em>JACC</em> 2020;76(9):1034-48 &nbsp;·&nbsp; Wachter R et al. TRANSITION. <em>Eur J Heart Fail</em> 2019;21(8):998-1007.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Ambrosy AP et al. PIONEER-HF de novo subgroup. JACC 2020;76(9):1034-48 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/32854838/" target="_blank" rel="noopener">PMID&nbsp;32854838</a> &nbsp;&middot;&nbsp; Wachter R et al. TRANSITION. <em>Eur J Heart Fail</em> 2019;21(8):998-1007 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/31134724/" target="_blank" rel="noopener">PMID&nbsp;31134724</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2556,9 +2535,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Illustrative case (institutional data) &nbsp;·&nbsp; 2024 ACC Expert Consensus Decision Pathway for HF Treatment Optimization &nbsp;·&nbsp; Heidenreich PA et al. <em>Circulation</em> 2022;145(18):e895-e1032.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Illustrative case (institutional data) &nbsp;&middot;&nbsp; 2024 ACC ECDP (Maddox TM et al.). JACC 2024;83(15):1444-88 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38466244/" target="_blank" rel="noopener">PMID&nbsp;38466244</a> &nbsp;&middot;&nbsp; Heidenreich PA et al. <em>Circulation</em> 2022;145(18):e895-e1032 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/35363499/" target="_blank" rel="noopener">PMID&nbsp;35363499</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2647,9 +2624,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     .case-s { font-size: 16px; color: #FFF6E0; line-height: 1.4; margin-top: 6px; grid-column: 1 / -1; font-weight: 500; }
   </style>
 
-  <div class="refs">
-    <strong>Ref:</strong> Chatur S et al. PARADIGM-HF Across KDIGO Tiers. <em>JACC</em> 2024;83(15):1431-43 &nbsp;·&nbsp; Haynes R et al. UK-HARP-III. <em>Circulation</em> 2018;138(15):1505-14 &nbsp;·&nbsp; Nguyen DV et al. Dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Chatur S et al. Sac/Val across the spectrum of renal impairment (KDIGO). JACC 2024;83(22):2148-59 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38588927/" target="_blank" rel="noopener">PMID&nbsp;38588927</a> &nbsp;&middot;&nbsp; Haynes R et al. UK-HARP-III. <em>Circulation</em> 2018;138(15):1505-14 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30002098/" target="_blank" rel="noopener">PMID&nbsp;30002098</a> &nbsp;&middot;&nbsp; Nguyen DV et al. Dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39252524/" target="_blank" rel="noopener">PMID&nbsp;39252524</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2703,9 +2678,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Illustrative case (institutional data) &nbsp;·&nbsp; Greene SJ et al. CHAMP-HF Registry. <em>JACC</em> 2018;72(4):351-66 (overall ARNI target-dose attainment 14%) &nbsp;·&nbsp; Zahir Anjum D et al. HF therapy initiation by kidney function — Danish nationwide. <em>Clin Epidemiol</em> 2023;15:855-66.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Illustrative case (institutional data) &nbsp;&middot;&nbsp; Greene SJ et al. CHAMP-HF Registry. JACC 2018;72(4):351-66 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30025570/" target="_blank" rel="noopener">PMID&nbsp;30025570</a> &nbsp;&middot;&nbsp; Zahir Anjum D et al. HF therapy initiation by kidney function (Danish nationwide). <em>Clin Epidemiol</em> 2023;15:855-66 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/37489222/" target="_blank" rel="noopener">PMID&nbsp;37489222</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2799,9 +2772,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Damman K et al. Renal Effects of ARNI in PARADIGM-HF. <em>JACC Heart Fail</em> 2018;6(6):489-98 &nbsp;·&nbsp; Packer M et al. <em>Circulation</em> 2015;131:54-61 &nbsp;·&nbsp; Judge P et al. <em>Am J Kidney Dis</em> 2015;65(3):473-83.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Damman K et al. Renal effects of ARNI in PARADIGM-HF. <em>JACC Heart Fail</em> 2018;6(6):489-98 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/29655829/" target="_blank" rel="noopener">PMID&nbsp;29655829</a> &nbsp;&middot;&nbsp; Packer M et al. <em>Circulation</em> 2015;131(1):54-61 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25403646/" target="_blank" rel="noopener">PMID&nbsp;25403646</a> &nbsp;&middot;&nbsp; Judge P et al. Neprilysin inhibition in CKD. <em>Nephrol Dial Transplant</em> 2015;30(5):738-43 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25140014/" target="_blank" rel="noopener">PMID&nbsp;25140014</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2855,9 +2826,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Chatur S et al. PARADIGM-HF Across KDIGO Risk Tiers. <em>JACC</em> 2024;83(15):1431-43 &nbsp;·&nbsp; Lee WC et al. Sacubitril/valsartan in HFrEF + CKD. <em>Cardiovasc Drugs Ther</em> 2024;38(3):505-15.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Chatur S et al. PARADIGM-HF across KDIGO risk tiers. JACC 2024;83(22):2148-59 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38588927/" target="_blank" rel="noopener">PMID&nbsp;38588927</a> &nbsp;&middot;&nbsp; Lee WC et al. Sac/Val in HFrEF + CKD. <em>Cardiovasc Drugs Ther</em> 2024;38(3):505-15 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36609948/" target="_blank" rel="noopener">PMID&nbsp;36609948</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2900,9 +2869,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Illustrative case (institutional data) &nbsp;·&nbsp; Le D et al. Sac/Val in Patients Requiring Hemodialysis. <em>JAMA Netw Open</em> 2024;7(8):e2429237 &nbsp;·&nbsp; Nguyen DV et al. ARNI in Dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84 &nbsp;·&nbsp; AVF flow data from same institutional case.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Illustrative case (institutional data) &nbsp;&middot;&nbsp; Le D et al. Sac/Val in patients requiring hemodialysis. <em>JAMA Netw Open</em> 2024;7(8):e2429237 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39163041/" target="_blank" rel="noopener">PMID&nbsp;39163041</a> &nbsp;&middot;&nbsp; Nguyen DV et al. ARNI in dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39252524/" target="_blank" rel="noopener">PMID&nbsp;39252524</a> &nbsp;&middot;&nbsp; AVF flow data from the same institutional case.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -2939,9 +2906,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Chang HY et al. ARNI in HFrEF with Advanced CKD (TSOC-HFrEF + TAROT-HF). <em>Mayo Clin Proc</em> 2023;98(1):88-99 &nbsp;·&nbsp; Le D et al. Sac/Val in Hemodialysis. <em>JAMA Netw Open</em> 2024;7(8):e2429237 &nbsp;·&nbsp; Nguyen DV et al. ARNI in Dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84 &nbsp;·&nbsp; AVF flow data from institutional observation (Case C).
-  </div>
+  <div class="refs"><strong>Ref:</strong> Chang HY et al. ARNI in HFrEF with advanced CKD (TAROT-HF). <em>Mayo Clin Proc</em> 2023;98(1):88-99 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36109207/" target="_blank" rel="noopener">PMID&nbsp;36109207</a> &nbsp;&middot;&nbsp; Le D et al. Sac/Val in hemodialysis. <em>JAMA Netw Open</em> 2024;7(8):e2429237 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39163041/" target="_blank" rel="noopener">PMID&nbsp;39163041</a> &nbsp;&middot;&nbsp; Nguyen DV et al. ARNI in dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39252524/" target="_blank" rel="noopener">PMID&nbsp;39252524</a> &nbsp;&middot;&nbsp; AVF flow data from institutional observation (Case C).</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -3047,9 +3012,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> AVF flow data from institutional observation (Case C; not from a peer-reviewed publication) &nbsp;·&nbsp; Nguyen DV et al. ARNI in Dialysis SRMA (26 studies). <em>Eur J Heart Fail</em> 2025;27(1):72-84.
-  </div>
+  <div class="refs"><strong>Ref:</strong> AVF flow data from institutional observation (Case C; not from a peer-reviewed publication) &nbsp;&middot;&nbsp; Nguyen DV et al. ARNI in dialysis SRMA (26 studies). <em>Eur J Heart Fail</em> 2025;27(1):72-84 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39252524/" target="_blank" rel="noopener">PMID&nbsp;39252524</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -3104,9 +3067,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> McMurray <em>NEJM</em> 2014 &nbsp;·&nbsp; Chatur S et al. PARADIGM-HF Across KDIGO Tiers. <em>JACC</em> 2024;83(15):1431-43 &nbsp;·&nbsp; Nguyen DV et al. ARNI in Dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84 &nbsp;·&nbsp; Le D et al. Sac/Val in Patients Requiring Hemodialysis. <em>JAMA Netw Open</em> 2024;7(8):e2429237 &nbsp;·&nbsp; institutional AVF flow observations (Case C).
-  </div>
+  <div class="refs"><strong>Ref:</strong> McMurray NEJM 2014 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a> &nbsp;&middot;&nbsp; Chatur S et al. KDIGO. JACC 2024;83(22):2148-59 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38588927/" target="_blank" rel="noopener">PMID&nbsp;38588927</a> &nbsp;&middot;&nbsp; Nguyen DV et al. Dialysis SRMA. <em>Eur J Heart Fail</em> 2025;27(1):72-84 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39252524/" target="_blank" rel="noopener">PMID&nbsp;39252524</a> &nbsp;&middot;&nbsp; Le D et al. <em>JAMA Netw Open</em> 2024;7(8):e2429237 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39163041/" target="_blank" rel="noopener">PMID&nbsp;39163041</a> &nbsp;&middot;&nbsp; institutional AVF observations (Case C).</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -3162,9 +3123,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Lee WC et al. <em>Cardiovasc Drugs Ther</em> 2024;38(3):505-15 &nbsp;·&nbsp; Le D et al. <em>JAMA Netw Open</em> 2024;7(8):e2429237 &nbsp;·&nbsp; Fu M et al. SwedeHF. <em>Clin Res Cardiol</em> 2023;112(1):167-74 &nbsp;·&nbsp; Bhatt AS et al. <em>ESC Heart Fail</em> 2025;12(3):1682-92 &nbsp;·&nbsp; Greene SJ et al. CHAMP-HF. <em>JACC</em> 2018;72(4):351-66.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Lee WC et al. <em>Cardiovasc Drugs Ther</em> 2024;38(3):505-15 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36609948/" target="_blank" rel="noopener">PMID&nbsp;36609948</a> &nbsp;&middot;&nbsp; Le D et al. <em>JAMA Netw Open</em> 2024;7(8):e2429237 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39163041/" target="_blank" rel="noopener">PMID&nbsp;39163041</a> &nbsp;&middot;&nbsp; Fu M et al. SwedeHF. <em>Clin Res Cardiol</em> 2023;112(1):167-74 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36443599/" target="_blank" rel="noopener">PMID&nbsp;36443599</a> &nbsp;&middot;&nbsp; Bhatt AS et al. <em>ESC Heart Fail</em> 2025;12(3):1682-92 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39888167/" target="_blank" rel="noopener">PMID&nbsp;39888167</a> &nbsp;&middot;&nbsp; Greene SJ et al. CHAMP-HF. JACC 2018;72(4):351-66 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30025570/" target="_blank" rel="noopener">PMID&nbsp;30025570</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -3218,9 +3177,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     </div>
   </div>
 
-  <div class="refs">
-    <strong>Ref:</strong> Packer M et al. <em>Circulation</em> 2015 &nbsp;·&nbsp; Damman K et al. <em>JACC Heart Fail</em> 2018;6(6):489-98 &nbsp;·&nbsp; Le D et al. <em>JAMA Netw Open</em> 2024;7(8):e2429237 &nbsp;·&nbsp; Entresto® Prescribing Information (Novartis) &nbsp;·&nbsp; 2024 ACC ECDP.
-  </div>
+  <div class="refs"><strong>Ref:</strong> Packer M et al. <em>Circulation</em> 2015;131(1):54-61 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25403646/" target="_blank" rel="noopener">PMID&nbsp;25403646</a> &nbsp;&middot;&nbsp; Damman K et al. <em>JACC Heart Fail</em> 2018;6(6):489-98 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/29655829/" target="_blank" rel="noopener">PMID&nbsp;29655829</a> &nbsp;&middot;&nbsp; Le D et al. <em>JAMA Netw Open</em> 2024;7(8):e2429237 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39163041/" target="_blank" rel="noopener">PMID&nbsp;39163041</a> &nbsp;&middot;&nbsp; Entresto&reg; Prescribing Information (Novartis) &nbsp;&middot;&nbsp; 2024 ACC ECDP <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38466244/" target="_blank" rel="noopener">PMID&nbsp;38466244</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -3287,9 +3244,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     .algo .step strong { color: var(--ink); font-weight: 600; }
   </style>
 
-  <div class="refs">
-    <strong>Ref:</strong> 2024 ACC Expert Consensus Decision Pathway &nbsp;·&nbsp; Heidenreich PA et al. 2022 AHA/ACC/HFSA HF Guideline. <em>Circulation</em> 2022;145:e895-e1032 &nbsp;·&nbsp; Entresto® Prescribing Information (Novartis).
-  </div>
+  <div class="refs"><strong>Ref:</strong> 2024 ACC Expert Consensus Decision Pathway (Maddox TM et al.). JACC 2024;83(15):1444-88 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38466244/" target="_blank" rel="noopener">PMID&nbsp;38466244</a> &nbsp;&middot;&nbsp; Heidenreich PA et al. 2022 AHA/ACC/HFSA HF Guideline. <em>Circulation</em> 2022;145(18):e895-e1032 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/35363499/" target="_blank" rel="noopener">PMID&nbsp;35363499</a> &nbsp;&middot;&nbsp; Entresto&reg; Prescribing Information (Novartis).</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
@@ -3360,9 +3315,7 @@ table.tbl .hi { color: var(--accent); font-weight: 900; }
     .kt-s { font-size: 18px; color: #FFF6E0; line-height: 1.45; margin-top: 8px; }
   </style>
 
-  <div class="refs">
-    <strong>Ref:</strong> McMurray <em>NEJM</em> 2014 &nbsp;·&nbsp; Tanaka <em>Eur Heart J</em> 2024;45(42):4482-93 &nbsp;·&nbsp; Fu M <em>Clin Res Cardiol</em> 2023;112(1):167-74 (SwedeHF) &nbsp;·&nbsp; Bhatt AS <em>ESC Heart Fail</em> 2025;12(3):1682-92 (US Optum) &nbsp;·&nbsp; Nguyen DV <em>Eur J Heart Fail</em> 2025;27(1):72-84 (SRMA) &nbsp;·&nbsp; 2024 ACC ECDP.
-  </div>
+  <div class="refs"><strong>Ref:</strong> McMurray NEJM 2014 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener">PMID&nbsp;25176015</a> &nbsp;&middot;&nbsp; Tanaka Eur Heart J 2024;45(42):4482-93 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39215531/" target="_blank" rel="noopener">PMID&nbsp;39215531</a> &nbsp;&middot;&nbsp; Fu SwedeHF. Clin Res Cardiol 2023;112(1):167-74 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36443599/" target="_blank" rel="noopener">PMID&nbsp;36443599</a> &nbsp;&middot;&nbsp; Bhatt US Optum. ESC Heart Fail 2025;12(3):1682-92 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39888167/" target="_blank" rel="noopener">PMID&nbsp;39888167</a> &nbsp;&middot;&nbsp; Nguyen Eur J Heart Fail 2025;27(1):72-84 <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39252524/" target="_blank" rel="noopener">PMID&nbsp;39252524</a> &nbsp;&middot;&nbsp; 2024 ACC ECDP <a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38466244/" target="_blank" rel="noopener">PMID&nbsp;38466244</a>.</div>
 
   <div class="chrome-bot">
     <div class="brand">Entresto<sup style="font-size:9px;">®</sup> at Ten</div>
