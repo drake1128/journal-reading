@@ -11,6 +11,7 @@ handouts/**/*.html
 !handouts/03-arrhythmia/ACLS_PALS_2025.html
 !handouts/07-peripheral-vascular/Post_Carotid_Stenting_Surveillance.html
 !handouts/02-heart-failure/Entresto_Journey_at_10.html
+!handouts/99-misc/Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html
 *.log
 *.aux
 *.out

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bedside Cardiology 讀書會共筆 — S1：怎麼教心音聽診與心臟理學檢查</title>
+<style>
+  :root{
+    --navy:#1a2740; --navy-2:#22324f;
+    --blue:#0072bc; --blue-soft:#e8f1f9;
+    --red:#ba181b; --red-soft:#fff5f5;
+    --teal:#0b7a75; --teal-soft:#e6f4f3;
+    --gold:#b5892f;
+    --ink:#22303f; --ink-soft:#4a5a6a; --mute:#76828f;
+    --paper:#f6f8fb; --card:#ffffff; --rule:#dde3ea;
+    --ff:"Segoe UI","Microsoft JhengHei","PingFang TC","Noto Sans TC",system-ui,-apple-system,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; font-family:var(--ff); color:var(--ink); background:var(--paper); line-height:1.7; font-size:16px;}
+  a{color:var(--blue); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .wrap{max-width:920px; margin:0 auto; padding:0 20px 80px;}
+
+  /* Header */
+  header.hero{background:var(--navy); color:#fff; padding:38px 0 30px; border-bottom:5px solid var(--gold);}
+  header.hero .wrap{padding-bottom:0;}
+  .eyebrow{font-size:13px; letter-spacing:.22em; text-transform:uppercase; color:#9db4d4; margin:0 0 10px;}
+  header.hero h1{margin:0; font-size:1.9em; line-height:1.25; color:#fff;}
+  header.hero .sub{margin:8px 0 0; color:#c6d3e6; font-size:1.05em;}
+  .meta-row{display:flex; flex-wrap:wrap; gap:8px 22px; margin-top:18px; font-size:.9em; color:#aebfd6;}
+  .meta-row b{color:#fff; font-weight:600;}
+
+  /* Sticky nav */
+  nav.toc{position:sticky; top:0; z-index:20; background:rgba(255,255,255,.96); backdrop-filter:blur(4px);
+    border-bottom:1px solid var(--rule); box-shadow:0 1px 6px rgba(0,0,0,.04);}
+  nav.toc .wrap{display:flex; flex-wrap:wrap; gap:4px 6px; padding:9px 20px; align-items:center;}
+  nav.toc a{font-size:.82em; color:var(--ink-soft); padding:5px 10px; border-radius:20px; white-space:nowrap;}
+  nav.toc a:hover{background:var(--blue-soft); color:var(--blue); text-decoration:none;}
+
+  h2.sec{font-size:1.35em; color:var(--navy); margin:46px 0 6px; padding-bottom:8px; border-bottom:3px solid var(--blue);}
+  h2.sec .n{color:var(--blue); font-weight:800; margin-right:8px;}
+  .sec-lead{color:var(--ink-soft); margin:0 0 18px; font-size:.97em;}
+
+  /* TL;DR / pearls */
+  .tldr{background:var(--navy-2); color:#eef3fb; border-radius:14px; padding:22px 26px; margin:26px 0;}
+  .tldr h3{margin:0 0 10px; color:#fff; font-size:1.1em;}
+  .tldr p{margin:0; color:#d4dded;}
+  .pearls{list-style:none; padding:0; margin:18px 0; display:grid; gap:12px;}
+  .pearls li{background:var(--card); border:1px solid var(--rule); border-left:5px solid var(--red);
+    border-radius:0 10px 10px 0; padding:13px 18px;}
+  .pearls li b{color:var(--red);}
+
+  /* article cards */
+  .card{background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:18px 20px; margin:14px 0;
+    box-shadow:0 1px 3px rgba(20,40,80,.04);}
+  .card .top{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 10px; margin-bottom:4px;}
+  .card .ttl{font-weight:700; color:var(--navy); font-size:1.04em;}
+  .badge{font-size:.7em; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:2px 9px; border-radius:20px; white-space:nowrap;}
+  .b-rev{background:var(--teal-soft); color:var(--teal);}
+  .b-evi{background:#fdeede; color:var(--gold);}
+  .b-cur{background:var(--blue-soft); color:var(--blue);}
+  .b-tool{background:#eee9f7; color:#6b4ea3;}
+  .b-class{background:#eef1f4; color:#5a6a7a;}
+  .cite{font-size:.86em; color:var(--mute); margin:2px 0 10px;}
+  .card .pt{margin:8px 0 0;}
+  .card .pt .lab{display:inline-block; font-size:.74em; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
+    color:#fff; background:var(--blue); padding:1px 8px; border-radius:4px; margin-right:8px; vertical-align:1px;}
+  .card .pt.teach .lab{background:var(--red);}
+  .card .links{margin-top:10px; font-size:.86em;}
+
+  /* discussion */
+  .disc{background:var(--red-soft); border:1px solid #f3d4d4; border-radius:12px; padding:18px 22px;}
+  .disc ol{margin:0; padding-left:22px;}
+  .disc li{margin-bottom:9px;}
+
+  /* syllabus table */
+  table.syl{width:100%; border-collapse:collapse; margin:16px 0; font-size:.93em; background:var(--card); border-radius:10px; overflow:hidden;}
+  table.syl th{background:var(--navy); color:#fff; text-align:left; padding:10px 12px; font-size:.86em; letter-spacing:.03em;}
+  table.syl td{padding:11px 12px; border-top:1px solid var(--rule); vertical-align:top;}
+  table.syl tr.now td{background:var(--blue-soft);}
+  .pill{font-size:.72em; font-weight:700; padding:2px 9px; border-radius:20px;}
+  .pill-now{background:var(--blue); color:#fff;}
+  .pill-next{background:#eef1f4; color:#5a6a7a;}
+
+  /* references */
+  ol.refs{padding-left:22px; font-size:.9em; color:var(--ink-soft);}
+  ol.refs li{margin-bottom:9px;}
+  ol.refs .src{font-style:italic;}
+
+  footer.foot{margin-top:50px; padding:22px 0; border-top:1px solid var(--rule); color:var(--mute); font-size:.85em;}
+  .disclaimer{background:#fff8e1; border:1px solid #f0e2b8; border-radius:10px; padding:12px 16px; font-size:.85em; color:#6a5a20; margin-top:18px;}
+
+  @media print{
+    nav.toc{display:none;} body{background:#fff;} .card{break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Bedside Cardiology · 讀書會共筆 (Reading-Club Co-Notes)</p>
+    <h1>怎麼教心音聽診與心臟理學檢查?<br>教學文獻導讀</h1>
+    <p class="sub">Teaching Cardiac Auscultation &amp; the Cardiovascular Physical Examination — an evidence map</p>
+    <div class="meta-row">
+      <span><b>Session 1</b> / 教學方法導讀</span>
+      <span>共筆整理：<b>謝慕揚 MD, PhD, FESC</b></span>
+      <span>日期：<b>2026-06-17</b></span>
+      <span>主題文獻：<b>16 篇</b>(PubMed 已查證)</span>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="wrap">
+    <a href="#tldr">導讀</a>
+    <a href="#pearls">核心重點</a>
+    <a href="#s1">① 問題現況</a>
+    <a href="#s2">② 有效性證據</a>
+    <a href="#s3">③ 可落地課程</a>
+    <a href="#s4">④ 工具與新科技</a>
+    <a href="#s5">⑤ 角色變遷·POCUS</a>
+    <a href="#s6">⑥ 經典</a>
+    <a href="#disc">討論題</a>
+    <a href="#syl">系列規劃</a>
+    <a href="#refs">參考文獻</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- TL;DR -->
+  <section id="tldr">
+    <div class="tldr">
+      <h3>本期導讀 (Why this matters)</h3>
+      <p>心臟理學檢查與聽診是「最便宜的床邊影像」,卻是公認被低估、且教學成效堪憂的技能。本期不直接教 S1/S2/雜音,而是退一步看 <b style="color:#fff">「我們到底該怎麼教、什麼方法有效」</b>——把過去 50 年的教育研究整理成一張地圖:從<strong style="color:#ffd9a8">問題現況</strong>(技能不隨年資進步、甚至逐年退步)、到<strong style="color:#ffd9a8">有效性證據</strong>(模擬訓練 + 刻意練習)、再到<strong style="color:#ffd9a8">可直接套用的課程教案</strong>與<strong style="color:#ffd9a8">新工具</strong>(數位聽診器、POCUS、AI chatbot)。作為 Bedside Cardiology 系列的開場,替後面幾堂實作課定調。</p>
+    </div>
+  </section>
+
+  <!-- Pearls -->
+  <section id="pearls">
+    <h2 class="sec"><span class="n">§</span>核心重點 (Key Pearls)</h2>
+    <ul class="pearls">
+      <li><b>技能不會自己長出來。</b>跨 860 人的多中心研究顯示,心臟檢查能力在 MS3 之後就<strong>停滯</strong>,執業多年甚至可能<strong>退步</strong>——只有心臟科 fellow 明顯較好(Vukanovic-Criley 2006)。11 年的縱貫資料更顯示分數<strong>逐年下降</strong>(Zhang 2025)。</li>
+      <li><b>有效的教法是有實證的。</b>模擬訓練(simulation-based)對聽診知識與技能皆有大效應量(knowledge ES 1.10、skills ES 0.87),而且<strong>「親手操作模擬器」</strong>是關鍵成分(McKinney 2013 meta-analysis)。</li>
+      <li><b>刻意練習 + 立即回饋 + 大量曝光</b>是共同處方;單靠床邊隨機遇到病人(opportunistic exposure)不足以養成技能(Quinn 2019、Cho 2022)。</li>
+      <li><b>聽診不是診斷的終點。</b>偵測瓣膜病的敏感/特異度跨研究差異極大(sens 30–100%、spec 28–100%);教學要同時教<strong>「能力的極限」</strong>與何時該轉影像(Davidsen 2023)。</li>
+      <li><b>整合視覺+聽覺+影像。</b>現代教法強調 audio–visual 整合(頸靜脈、心尖搏動 + 心音),並把 <strong>POCUS</strong> 當成放大而非取代理學檢查的工具(Kimura 2015)。</li>
+    </ul>
+  </section>
+
+  <!-- Section 1: Problem -->
+  <section id="s1">
+    <h2 class="sec"><span class="n">①</span>問題現況:技能到底教得好不好?</h2>
+    <p class="sec-lead">先建立「為什麼要重新思考教法」的共識——核心訊息:<strong>臨床暴露 ≠ 能力進步</strong>。</p>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Competency in cardiac examination skills（學生→主治多中心研究)</span><span class="badge b-evi">關鍵證據</span></div>
+      <div class="cite">Vukanovic-Criley JM, et al. <span class="src">Arch Intern Med.</span> 2006;166(6):610-6.</div>
+      <div class="pt"><span class="lab">重點</span>860 名受測者,用整合「聽覺+視覺+虛擬病人」的 50 題測驗。分數從 MS1-2 到 MS3-4 進步後就<strong>停滯</strong>(住院醫師、主治、開業醫之間無顯著差異),<strong>只有心臟科 fellow 明顯較高</strong>;收縮期雜音特異度僅 0.35、舒張期雜音敏感度僅 0.49。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>能力不隨年資成長,代表問題出在「教法」而非「時間」;作者主張必須訓練<strong>同步的聽覺+視覺整合</strong>,且 faculty 本身也需要再訓練。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/16567598/" target="_blank" rel="noopener">PubMed 16567598</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Cardiac auscultation skills among medical trainees(11 年縱貫趨勢)</span><span class="badge b-evi">最新</span></div>
+      <div class="cite">Zhang NS, et al. <span class="src">Am Heart J.</span> 2025;286:14-17.</div>
+      <div class="pt"><span class="lab">重點</span>411 次模擬測驗、橫跨 11 年。整體分數<strong>每年下降 0.15 分(P=0.003)</strong>;階層上 fellow &gt; resident &gt; medical student,但連 fellow 也呈下降趨勢。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>退步是「跨世代、進行式」的——呼籲對聽診教學做<strong>廣泛而持續的投資</strong>,而非一次性課程。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/40096938/" target="_blank" rel="noopener">PubMed 40096938</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Diagnostic accuracy of heart auscultation for valve disease(系統回顧)</span><span class="badge b-rev">系統回顧</span></div>
+      <div class="cite">Davidsen AH, et al. <span class="src">BMJ Open.</span> 2023;13(3):e068121.</div>
+      <div class="pt"><span class="lab">重點</span>23 篇研究。聽診偵測瓣膜病的敏感度 30–100%、特異度 28–100%、LR 1.35–26,<strong>差異極大</strong>且基層資料稀少。結論:不應「單靠聽診」。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>教學時要誠實傳達<strong>能力的天花板</strong>與不確定性,並教「何時該升級到 echo」——這也回應了後面 POCUS 整合的主題。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/36963797/" target="_blank" rel="noopener">PubMed 36963797</a></div>
+    </div>
+  </section>
+
+  <!-- Section 2: Evidence -->
+  <section id="s2">
+    <h2 class="sec"><span class="n">②</span>有效性證據:哪種教法有用?</h2>
+    <p class="sec-lead">從問題轉向解方——系統回顧/統合分析的方法學總整理。</p>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Simulation-based training for cardiac auscultation(SR + meta-analysis)</span><span class="badge b-rev">SR/MA ⭐</span></div>
+      <div class="cite">McKinney J, Cook DA, et al. <span class="src">J Gen Intern Med.</span> 2013;28(2):283-91.</div>
+      <div class="pt"><span class="lab">重點</span>18 篇研究。相較無介入,模擬訓練對<strong>知識(pooled ES 1.10)</strong>與<strong>技能(ES 0.87)</strong>皆有大效應;次群組顯示<strong>親手操作模擬器(hands-on practice)</strong>是重要成分。與其他主動式教學成效相當。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>本系列方法學的「定錨文獻」:設計課程時把「動手聽 + 反覆練習」列為不可省略的核心。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/22968795/" target="_blank" rel="noopener">PubMed 22968795</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Utilization of Simulation to Teach Cardiac Auscultation(系統回顧)</span><span class="badge b-rev">系統回顧</span></div>
+      <div class="cite">Patrizio HA, et al. <span class="src">Cureus.</span> 2023;15(7):e41567.</div>
+      <div class="pt"><span class="lab">重點</span>14 篇(2010–2021)。<strong>86%(12/14)</strong>報告正向成果(診斷準確度、知識、能力、學習者滿意度)。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>更新版證據;同時點出待解問題——<strong>標準化、降成本、混合多種模擬法</strong>。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/37554623/" target="_blank" rel="noopener">PubMed 37554623</a></div>
+    </div>
+  </section>
+
+  <!-- Section 3: Curricula -->
+  <section id="s3">
+    <h2 class="sec"><span class="n">③</span>可直接落地的課程與教案</h2>
+    <p class="sec-lead">同儕審查、可複製的現成教材——拿來就能改成我們科內的版本。</p>
+
+    <div class="card">
+      <div class="top"><span class="ttl">ACE：床邊心肺理學診斷課程(Johns Hopkins,內科 PGY-1)</span><span class="badge b-cur">課程 ⭐</span></div>
+      <div class="cite">Garibaldi BT, et al. <span class="src">BMC Med Educ.</span> 2017;17(1):182.</div>
+      <div class="pt"><span class="lab">重點</span>105 名 intern。課程混合<strong>真人/病人示範 + 影像教學 + 高擬真模擬 + 資深醫師床邊帶教</strong>。結果:ACE 組在態度、信心、能力皆提升,且<strong>只有 ACE 組</strong>在年中能力測驗顯著進步。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>完整課程設計藍本(含 JVP、a/v 波、收縮期雜音分類等具體能力指標),最適合直接改寫成住院醫師訓練模組。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/28985729/" target="_blank" rel="noopener">PubMed 28985729</a> · 全文 PMC6389200</div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Cardiac Auscultation Lab(模擬人 + 刻意練習教案)</span><span class="badge b-cur">MedEdPORTAL</span></div>
+      <div class="cite">Quinn A, et al. <span class="src">MedEdPORTAL.</span> 2019;15:10839.</div>
+      <div class="pt"><span class="lab">重點</span>SUNY Downstate,MS2,以臨床情境帶入、用聽診模擬人比對心音;3 年共 549 名學生,基於<strong>deliberate practice</strong>。可大團體或小組進行、適用任何會發出心音的模擬器。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>現成可下載的 facilitator guide + 病例;適合當我們 Session 2/3 的<strong>實作模板</strong>。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/31976362/" target="_blank" rel="noopener">PubMed 31976362</a> · 全文 PMC6974355</div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Web-based multimedia curriculum(網路課程 vs 床邊)</span><span class="badge b-cur">對照研究</span></div>
+      <div class="cite">Criley JM, et al. <span class="src">J Hosp Med.</span> 2008;3(2):124-33.</div>
+      <div class="pt"><span class="lab">重點</span>34 名 intern。網路互動教材 + 3 次 1 小時帶教,分數<strong>54→66(P=0.002)</strong>並維持(63.5);<strong>網路+臨床 優於 單純臨床訓練</strong>。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>支持<strong>翻轉教室</strong>:把心音辨識的「輸入」放線上自學,課堂時間留給動手與回饋。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/18438809/" target="_blank" rel="noopener">PubMed 18438809</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Cardiac Physical Exam &amp; Auscultation Session(兒科 intern)</span><span class="badge b-cur">MedEdPORTAL</span></div>
+      <div class="cite">Sumski CA, et al. <span class="src">MedEdPORTAL.</span> 2022;18:11289.</div>
+      <div class="pt"><span class="lab">重點</span>針對兒科 intern 的心臟理學+聽診課程教案(先天性心臟病情境特別有用)。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>若聽眾含兒科/混合背景,可作為調整素材的參考。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/36605544/" target="_blank" rel="noopener">PubMed 36605544</a> · 全文 PMC9763479</div>
+    </div>
+  </section>
+
+  <!-- Section 4: Tools -->
+  <section id="s4">
+    <h2 class="sec"><span class="n">④</span>工具與新科技:simulator / 數位聽診器 / AI</h2>
+    <p class="sec-lead">從 Harvey 模擬人到 AI chatbot——降低「曝光門檻」與提供即時回饋的工具。</p>
+
+    <div class="card">
+      <div class="top"><span class="ttl">"Harvey" 心臟病人模擬器(評估床邊技能)</span><span class="badge b-class">經典工具</span></div>
+      <div class="cite">Jones JS, et al. <span class="src">Acad Emerg Med.</span> 1997;4(10):980-5.</div>
+      <div class="pt"><span class="lab">重點</span>聽診/床邊心臟教學模擬器的先驅,奠定「以模擬器標準化教學與評估」的基礎。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/9332631/" target="_blank" rel="noopener">PubMed 9332631</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Digital stethoscope 作為聽診教學工具</span><span class="badge b-tool">數位聽診</span></div>
+      <div class="cite">Mesquita CT, et al. <span class="src">Arq Bras Cardiol.</span> 2013;100(2).</div>
+      <div class="pt"><span class="lab">重點</span>數位聽診器可錄音、回放、共享同一段心音,讓「老師聽到的 = 學生聽到的」,解決傳統聽診「無法共享」的根本痛點。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/23503829/" target="_blank" rel="noopener">PubMed 23503829</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Chatbot-mediated learning of cardiac auscultation</span><span class="badge b-tool">AI / 新取向</span></div>
+      <div class="cite">Cho K, et al. <span class="src">Intern Med J.</span> 2022;52(12):2176-2180.</div>
+      <div class="pt"><span class="lab">重點</span>小型 pilot(n=9)。聊天機器人輔助學習具<strong>即時回饋、管理認知負荷、促進刻意練習</strong>等獨特優勢。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>樣本小、屬探索性,但指向「AI 個別化練習夥伴」方向,可與 Drake 的 AI 醫學教育工作流呼應。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/37133367/" target="_blank" rel="noopener">PubMed 37133367</a></div>
+    </div>
+  </section>
+
+  <!-- Section 5: Role / POCUS -->
+  <section id="s5">
+    <h2 class="sec"><span class="n">⑤</span>理學檢查的角色變遷 &amp; POCUS 整合</h2>
+    <p class="sec-lead">在影像時代,理學檢查的定位是什麼?——答案是「整合」而非「淘汰」。</p>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Present role of the precordial examination(現況調查 + 評論)</span><span class="badge b-class">觀點</span></div>
+      <div class="cite">Silverman B, Gertz A. <span class="src">Am J Cardiol.</span> 2015;115(2):253-5.</div>
+      <div class="pt"><span class="lab">重點</span>訪談各科醫師 + 病人問卷:不少醫師<strong>跳過基本心臟檢查</strong>(多數病人未裸露胸部、少用左側臥位或動態手法);但<strong>病人在被確實檢查時對醫師更有信心</strong>。熟練者的床邊檢查具良好 sens/spec。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>很適合當<strong>開場討論素材</strong>:理學檢查同時是診斷工具與醫病關係的儀式。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/25465937/" target="_blank" rel="noopener">PubMed 25465937</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Cardiac Limited Ultrasound 強化床邊心臟理學檢查</span><span class="badge b-tool">POCUS 整合</span></div>
+      <div class="cite">Kimura BJ, et al. <span class="src">J Ultrasound Med.</span> 2015;34(9):1683-90.</div>
+      <div class="pt"><span class="lab">重點</span>提出把「quick-look」超音波徵象整合進現代化心臟理學檢查的框架,並主張這套<strong>可在傳統醫學教育中教授</strong>。</div>
+      <div class="pt teach"><span class="lab">對教學的啟示</span>替後面「聽診 + POCUS + echo 對照」的整合課定方向:超音波<strong>放大</strong>而非取代理學檢查。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/26269293/" target="_blank" rel="noopener">PubMed 26269293</a></div>
+    </div>
+  </section>
+
+  <!-- Section 6: Classics -->
+  <section id="s6">
+    <h2 class="sec"><span class="n">⑥</span>值得一讀的經典(教學的根)</h2>
+    <p class="sec-lead">原則歷久彌新,也適合當課程的人文開場。</p>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Teaching cardiac auscultation</span><span class="badge b-class">經典 1969</span></div>
+      <div class="cite">Ravin A. <span class="src">Am J Cardiol.</span> 1969;24(2).</div>
+      <div class="pt"><span class="lab">重點</span>半世紀前的聽診教學論述;許多「系統化、由淺入深、反覆對照」的原則至今仍適用。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/5799076/" target="_blank" rel="noopener">PubMed 5799076</a></div>
+    </div>
+
+    <div class="card">
+      <div class="top"><span class="ttl">Heart sounds(NEJM Perspective)</span><span class="badge b-class">人文 · NEJM</span></div>
+      <div class="cite">Treadway K. <span class="src">N Engl J Med.</span> 2006;354(11). doi:10.1056/NEJMp058202.</div>
+      <div class="pt"><span class="lab">重點</span>從醫師敘事談聽診的臨床與人文價值——很適合當讀書會<strong>開場破題</strong>,提醒「聽診不只是技術」。</div>
+      <div class="links">🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/16540610/" target="_blank" rel="noopener">PubMed 16540610</a></div>
+    </div>
+  </section>
+
+  <!-- Discussion -->
+  <section id="disc">
+    <h2 class="sec"><span class="n">§</span>讀書會討論題 (Discussion Prompts)</h2>
+    <div class="disc">
+      <ol>
+        <li>既然能力「不隨年資進步」(Vukanovic-Criley 2006、Zhang 2025),我們科內目前是靠什麼在教聽診?是<strong>系統化課程</strong>還是<strong>opportunistic 床邊隨機帶教</strong>?</li>
+        <li>McKinney 統合分析指出「親手操作模擬器」是關鍵成分——我們有哪些可用的模擬資源(Harvey/數位聽診器/手機 app/錄音檔)?最低成本能先做什麼?</li>
+        <li>Davidsen 系統回顧顯示聽診準確度差異極大。我們該如何同時教「技能」與「技能的極限+何時轉 echo/POCUS」,而不讓學員過度自信或過度依賴影像?</li>
+        <li>若要在本院辦一個 4 堂的 Bedside Cardiology 微課程,你會先從哪一個心音/雜音/手法開始?用什麼<strong>評量</strong>確認真的學會(OSCE? 模擬器測驗?)</li>
+        <li>數位聽診器與 AI chatbot(Cho 2022)能解決「無法共享同一段心音」與「缺乏即時回饋」的痛點——值得在我們的訓練中試行嗎?顧慮是什麼?</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Syllabus -->
+  <section id="syl">
+    <h2 class="sec"><span class="n">§</span>Bedside Cardiology 系列規劃(草案)</h2>
+    <p class="sec-lead">以本期(方法學)為起點,後續 3 堂把證據轉成實作。每堂建議:線上自學心音輸入 → 課堂刻意練習 + 即時回饋 → 簡短評量。</p>
+    <table class="syl">
+      <thead><tr><th style="width:16%;">堂次</th><th style="width:30%;">主題</th><th>重點與連結到本期文獻</th></tr></thead>
+      <tbody>
+        <tr class="now">
+          <td><span class="pill pill-now">S1 · 本期</span></td>
+          <td>怎麼教?教學方法導讀</td>
+          <td>問題現況 → 有效性證據 → 可落地課程 → 工具。定調全系列的教學原則(刻意練習、模擬、整合視聽與影像)。</td>
+        </tr>
+        <tr>
+          <td><span class="pill pill-next">S2</span></td>
+          <td>正常與額外心音<br>(S1/S2 分裂、S3/S4)</td>
+          <td>套用 Quinn 2019 的 deliberate-practice lab 模板;用數位聽診器共享音檔;以模擬器辨識正常 vs 病理。</td>
+        </tr>
+        <tr>
+          <td><span class="pill pill-next">S3</span></td>
+          <td>心雜音與動態手法<br>(systolic/diastolic murmurs、JVP)</td>
+          <td>對照 Garibaldi ACE 的能力指標(雜音分類、a/v 波、handgrip/Valsalva/蹲站);強調 Davidsen 的「準確度極限」。</td>
+        </tr>
+        <tr>
+          <td><span class="pill pill-next">S4</span></td>
+          <td>整合與影像對照<br>(POCUS-augmented exam + 評量)</td>
+          <td>採 Kimura 2015 的「quick-look」整合框架;聽診↔echo 對照;以 OSCE/模擬器測驗收尾驗收成效。</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="sec-lead" style="margin-top:10px;">※ 此為共筆建議草案,實際堂次/順序由讀書會共同決定。</p>
+  </section>
+
+  <!-- References -->
+  <section id="refs">
+    <h2 class="sec"><span class="n">§</span>完整參考文獻(PubMed 已查證)</h2>
+    <ol class="refs">
+      <li>Vukanovic-Criley JM, Criley S, Warde CM, et al. Competency in cardiac examination skills in medical students, trainees, physicians, and faculty: a multicenter study. <span class="src">Arch Intern Med.</span> 2006;166(6):610-6. <a href="https://pubmed.ncbi.nlm.nih.gov/16567598/" target="_blank" rel="noopener">PMID 16567598</a></li>
+      <li>Zhang NS, Yang JY, Goldhaber JI, et al. Cardiac auscultation skills among medical trainees. <span class="src">Am Heart J.</span> 2025;286:14-17. <a href="https://pubmed.ncbi.nlm.nih.gov/40096938/" target="_blank" rel="noopener">PMID 40096938</a></li>
+      <li>Davidsen AH, Andersen S, Halvorsen PA, et al. Diagnostic accuracy of heart auscultation for detecting valve disease: a systematic review. <span class="src">BMJ Open.</span> 2023;13(3):e068121. <a href="https://pubmed.ncbi.nlm.nih.gov/36963797/" target="_blank" rel="noopener">PMID 36963797</a></li>
+      <li>McKinney J, Cook DA, Wood D, Hatala R. Simulation-based training for cardiac auscultation skills: systematic review and meta-analysis. <span class="src">J Gen Intern Med.</span> 2013;28(2):283-91. <a href="https://pubmed.ncbi.nlm.nih.gov/22968795/" target="_blank" rel="noopener">PMID 22968795</a></li>
+      <li>Patrizio HA, Phyu R, Kim B, Brolis NV. Utilization of Simulation to Teach Cardiac Auscultation: A Systematic Review. <span class="src">Cureus.</span> 2023;15(7):e41567. <a href="https://pubmed.ncbi.nlm.nih.gov/37554623/" target="_blank" rel="noopener">PMID 37554623</a></li>
+      <li>Garibaldi BT, Niessen T, Gelber AC, et al. A novel bedside cardiopulmonary physical diagnosis curriculum for internal medicine postgraduate training. <span class="src">BMC Med Educ.</span> 2017;17(1):182. <a href="https://pubmed.ncbi.nlm.nih.gov/28985729/" target="_blank" rel="noopener">PMID 28985729</a></li>
+      <li>Quinn A, Kaminsky J, Adler A, Eisner S, Ovitsh R. Cardiac Auscultation Lab Using a Heart Sounds Auscultation Simulation Manikin. <span class="src">MedEdPORTAL.</span> 2019;15:10839. <a href="https://pubmed.ncbi.nlm.nih.gov/31976362/" target="_blank" rel="noopener">PMID 31976362</a></li>
+      <li>Criley JM, Keiner J, Boker JR, Criley SR, Warde CM. Innovative web-based multimedia curriculum improves cardiac examination competency of residents. <span class="src">J Hosp Med.</span> 2008;3(2):124-33. <a href="https://pubmed.ncbi.nlm.nih.gov/18438809/" target="_blank" rel="noopener">PMID 18438809</a></li>
+      <li>Sumski CA, Singh A, Rogers A, et al. Cardiac Physical Exam Skills and Auscultation Session for Pediatric Interns. <span class="src">MedEdPORTAL.</span> 2022;18:11289. <a href="https://pubmed.ncbi.nlm.nih.gov/36605544/" target="_blank" rel="noopener">PMID 36605544</a></li>
+      <li>Jones JS, Hunt SJ, Carlson SA, et al. Assessing bedside cardiologic examination skills using "Harvey," a cardiology patient simulator. <span class="src">Acad Emerg Med.</span> 1997;4(10):980-5. <a href="https://pubmed.ncbi.nlm.nih.gov/9332631/" target="_blank" rel="noopener">PMID 9332631</a></li>
+      <li>Mesquita CT, Reis JC, Simões LS, et al. Digital stethoscope as an innovative tool on the teaching of auscultatory skills. <span class="src">Arq Bras Cardiol.</span> 2013;100(2). <a href="https://pubmed.ncbi.nlm.nih.gov/23503829/" target="_blank" rel="noopener">PMID 23503829</a></li>
+      <li>Cho K, Foo YM, Dalziel B, Hu W. Chatbot-mediated learning of cardiac auscultation. <span class="src">Intern Med J.</span> 2022;52(12):2176-2180. <a href="https://pubmed.ncbi.nlm.nih.gov/37133367/" target="_blank" rel="noopener">PMID 37133367</a></li>
+      <li>Silverman B, Gertz A. Present role of the precordial examination in patient care. <span class="src">Am J Cardiol.</span> 2015;115(2):253-5. <a href="https://pubmed.ncbi.nlm.nih.gov/25465937/" target="_blank" rel="noopener">PMID 25465937</a></li>
+      <li>Kimura BJ, Shaw DJ, Amundson SA, et al. Cardiac Limited Ultrasound Examination Techniques to Augment the Bedside Cardiac Physical Examination. <span class="src">J Ultrasound Med.</span> 2015;34(9):1683-90. <a href="https://pubmed.ncbi.nlm.nih.gov/26269293/" target="_blank" rel="noopener">PMID 26269293</a></li>
+      <li>Ravin A. Teaching cardiac auscultation. <span class="src">Am J Cardiol.</span> 1969;24(2). <a href="https://pubmed.ncbi.nlm.nih.gov/5799076/" target="_blank" rel="noopener">PMID 5799076</a></li>
+      <li>Treadway K. Heart sounds. <span class="src">N Engl J Med.</span> 2006;354(11). <a href="https://pubmed.ncbi.nlm.nih.gov/16540610/" target="_blank" rel="noopener">PMID 16540610</a></li>
+    </ol>
+  </section>
+
+  <div class="disclaimer">
+    本文件為 <strong>Bedside Cardiology 讀書會共筆</strong>,由謝慕揚醫師擔任<strong>共筆整理人</strong>,屬教學討論用途,非臨床指引或正式醫囑。文獻書目與 PubMed 連結均經查證;各篇之解讀為共筆者整理,歡迎讀書會成員指正補充。
+  </div>
+
+  <footer class="foot">
+    共筆整理：謝慕揚 MD, PhD, FESC　·　Bedside Cardiology Reading Club · Session 1　·　2026-06-17<br>
+    主題:Teaching Cardiac Auscultation &amp; Cardiovascular Physical Examination　·　16 references, PubMed-verified
+  </footer>
+
+</div>
+</body>
+</html>

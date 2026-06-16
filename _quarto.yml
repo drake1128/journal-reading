@@ -466,6 +466,10 @@ website:
             - handouts/nejm-case-records/nejm-cps-2025-05-aki/index.qmd
             - handouts/nejm-case-records/nejm-cps-botulism-2026/index.qmd
             - handouts/nejm-case-records/nejm-cps-hiv-2026/index.qmd
+        - section: "Bedside Cardiology 讀書會"
+          contents:
+            - text: "S1 · 怎麼教心音聽診與心臟理學檢查 — 教學文獻導讀 (共筆)"
+              href: handouts/99-misc/Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html
         - section: "其他 Misc"
           contents:
             - handouts/99-misc/index.qmd
