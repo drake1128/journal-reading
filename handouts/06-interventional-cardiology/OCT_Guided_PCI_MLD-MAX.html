@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OCT-Guided PCI：Major Trials & MLD-MAX Sizing</title>
+
+<!--
+  OCT-Guided PCI 教學投影片 (standalone HTML)
+  整理：謝慕揚 MD, PhD, FESC
+  花蓮慈濟演講 2026
+  - 單檔離線可用：QR 以 base64 內嵌，圖以 inline SVG 自製
+  - 字型：線上載入 Latin display；離線自動退回系統字型 + 微軟正黑體
+  - 導覽：← → / Space 翻頁，F 全螢幕，O 總覽，Home/End 首末頁
+-->
+
+<!-- Latin display fonts (graceful fallback to system fonts if offline) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Sora:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+/* ===========================================
+   THEME — 臨床紅藍配色 (與既有 Marp/講義一致)
+   =========================================== */
+:root{
+  --red:#ba181b;        /* h1 / strong / 強調 */
+  --red-soft:#fff5f5;
+  --blue:#0072bc;       /* h2 / 連結 / divider */
+  --blue-soft:#e8f3fb;
+  --navy:#1a2740;       /* lead / 深色頁底 */
+  --navy-2:#22304f;
+  --ink:#2d3436;        /* 內文 */
+  --muted:#6b7280;
+  --paper:#ffffff;
+  --paper-2:#f0f4f8;
+  --line:#dcdde1;
+  --gold:#e6a700;       /* divider 上的亮色強調 */
+  --green:#2e7d32;
+
+  /* 字型 — Latin display + CJK 系統字型(離線安全) */
+  --font-display:'Archivo','Sora','Microsoft JhengHei','PingFang TC',sans-serif;
+  --font-body:'Sora','Noto Sans TC','Microsoft JhengHei','PingFang TC','Segoe UI',sans-serif;
+
+  /* 字級 / 間距 (全部 clamp) */
+  --title-size:clamp(1.6rem,4.6vw,3.6rem);
+  --h2-size:clamp(1.2rem,3vw,2.3rem);
+  --h3-size:clamp(0.95rem,2vw,1.4rem);
+  --body-size:clamp(0.72rem,1.4vw,1.05rem);
+  --small-size:clamp(0.6rem,1vw,0.82rem);
+  --slide-padding:clamp(1rem,3.6vw,3.4rem);
+  --content-gap:clamp(0.5rem,1.8vw,1.5rem);
+  --element-gap:clamp(0.25rem,1vw,0.9rem);
+  --ease:cubic-bezier(0.16,1,0.3,1);
+  --dur:0.6s;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+
+/* ===== viewport-base (mandatory) ===== */
+html,body{height:100%;overflow-x:hidden;}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth;}
+body{font-family:var(--font-body);color:var(--ink);background:var(--navy);}
+.slide{width:100vw;height:100vh;height:100dvh;overflow:hidden;scroll-snap-align:start;display:flex;flex-direction:column;position:relative;background:var(--paper);}
+.slide-content{flex:1;display:flex;flex-direction:column;justify-content:center;max-height:100%;overflow:hidden;padding:var(--slide-padding);}
+.card,.container,.content-box{max-width:min(94vw,1200px);max-height:min(86vh,760px);}
+img,.image-container{max-width:100%;max-height:min(50vh,400px);object-fit:contain;}
+@media (max-height:700px){:root{--slide-padding:clamp(0.75rem,3vw,2rem);--content-gap:clamp(0.4rem,1.5vw,1rem);--title-size:clamp(1.3rem,4.2vw,2.6rem);--h2-size:clamp(1rem,3vw,1.8rem);}}
+@media (max-height:600px){:root{--slide-padding:clamp(0.5rem,2.5vw,1.5rem);--content-gap:clamp(0.3rem,1vw,0.75rem);--title-size:clamp(1.1rem,4vw,2rem);--body-size:clamp(0.66rem,1.2vw,0.92rem);} .nav-dots,.keyboard-hint,.decorative{display:none;}}
+@media (max-height:500px){:root{--slide-padding:clamp(0.4rem,2vw,1rem);--title-size:clamp(1rem,3.5vw,1.5rem);--h2-size:clamp(0.9rem,2.5vw,1.25rem);--body-size:clamp(0.62rem,1vw,0.85rem);}}
+@media (max-width:600px){:root{--title-size:clamp(1.2rem,7vw,2.4rem);}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.2s!important;}html{scroll-behavior:auto;}}
+
+/* ===========================================
+   REVEAL ANIMATIONS
+   =========================================== */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease);}
+.slide.visible .reveal{opacity:1;transform:translateY(0);}
+.slide.visible .reveal:nth-child(1){transition-delay:.06s;}
+.slide.visible .reveal:nth-child(2){transition-delay:.16s;}
+.slide.visible .reveal:nth-child(3){transition-delay:.26s;}
+.slide.visible .reveal:nth-child(4){transition-delay:.36s;}
+.slide.visible .reveal:nth-child(5){transition-delay:.46s;}
+.slide.visible .reveal:nth-child(6){transition-delay:.56s;}
+.slide.visible .reveal:nth-child(7){transition-delay:.66s;}
+
+/* ===========================================
+   TYPOGRAPHY / SHARED
+   =========================================== */
+h1{font-family:var(--font-display);font-weight:800;line-height:1.1;letter-spacing:-.01em;}
+h2{font-family:var(--font-display);font-weight:700;line-height:1.15;}
+h3{font-family:var(--font-body);font-weight:600;}
+p,li,td,th{font-size:var(--body-size);line-height:1.5;}
+strong{color:var(--red);font-weight:700;}
+.en{font-family:var(--font-display);}
+
+/* 內容頁標題列 */
+.slide-head{display:flex;align-items:baseline;gap:.7rem;border-bottom:3px solid var(--red);padding-bottom:.45rem;margin-bottom:var(--content-gap);}
+.slide-head .kicker{font-family:var(--font-display);font-weight:700;color:var(--blue);font-size:var(--small-size);letter-spacing:.12em;text-transform:uppercase;}
+.slide-head h2{color:var(--red);font-size:var(--h2-size);}
+.slide-num{position:absolute;top:clamp(.6rem,2vw,1.4rem);right:clamp(.8rem,2.4vw,1.8rem);font-family:var(--font-display);font-weight:700;font-size:var(--small-size);color:var(--line);z-index:5;}
+.footer-tag{position:absolute;bottom:clamp(.4rem,1.4vw,1rem);left:clamp(.8rem,2.4vw,1.8rem);font-size:.58rem;color:#9aa3ad;letter-spacing:.04em;}
+
+/* Grid / cards */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--content-gap);align-items:center;}
+.two-col.wide-left{grid-template-columns:1.15fr .85fr;}
+.two-col.wide-right{grid-template-columns:.85fr 1.15fr;}
+@media (max-width:780px){.two-col{grid-template-columns:1fr;}}
+.bullets{list-style:none;display:flex;flex-direction:column;gap:clamp(.35rem,1.1vh,.85rem);}
+.bullets li{position:relative;padding-left:1.4em;}
+.bullets li::before{content:"";position:absolute;left:0;top:.5em;width:.6em;height:.6em;background:var(--blue);border-radius:2px;transform:rotate(45deg);}
+.bullets li.r::before{background:var(--red);}
+
+/* Tables */
+table{border-collapse:collapse;width:100%;font-size:clamp(.62rem,1.25vw,.95rem);background:var(--paper);box-shadow:0 2px 12px rgba(26,39,64,.08);border-radius:8px;overflow:hidden;}
+th{background:var(--blue);color:#fff;padding:.5em .7em;text-align:left;font-family:var(--font-display);font-weight:600;font-size:.92em;}
+td{padding:.42em .7em;border-bottom:1px solid var(--line);}
+tr:nth-child(even) td{background:var(--paper-2);}
+td .pos{color:var(--green);font-weight:700;}
+td .neu{color:var(--muted);font-weight:700;}
+td .neg{color:var(--red);font-weight:700;}
+
+/* Stat chips */
+.stat-row{display:flex;gap:var(--element-gap);flex-wrap:wrap;}
+.stat{flex:1;min-width:120px;background:var(--paper-2);border-radius:12px;padding:clamp(.5rem,1.6vw,1.1rem);border-top:4px solid var(--blue);}
+.stat.red{border-top-color:var(--red);}
+.stat.green{border-top-color:var(--green);}
+.stat .v{font-family:var(--font-display);font-weight:800;font-size:clamp(1.1rem,3vw,2.1rem);color:var(--navy);line-height:1;}
+.stat .v.r{color:var(--red);} .stat .v.g{color:var(--green);} .stat .v.b{color:var(--blue);}
+.stat .l{font-size:var(--small-size);color:var(--muted);margin-top:.3em;}
+
+/* Pearl / callout */
+.pearl{background:var(--red-soft);border-left:5px solid var(--red);padding:.7em 1em;border-radius:0 10px 10px 0;font-size:var(--body-size);}
+.pearl.blue{background:var(--blue-soft);border-left-color:var(--blue);}
+.pearl .label{font-family:var(--font-display);font-weight:700;color:var(--red);display:block;margin-bottom:.2em;font-size:.92em;}
+.pearl.blue .label{color:var(--blue);}
+
+/* QR badge */
+.qr{display:flex;align-items:center;gap:.6em;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.5em .7em;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+.qr img{width:clamp(56px,8vw,82px);height:auto;image-rendering:pixelated;}
+.qr .t{font-size:var(--small-size);color:var(--muted);line-height:1.3;}
+.qr .t b{color:var(--ink);display:block;font-family:var(--font-display);}
+
+/* tag / level */
+.tag{display:inline-block;font-family:var(--font-display);font-weight:700;font-size:.78em;padding:.12em .55em;border-radius:6px;background:var(--blue);color:#fff;letter-spacing:.02em;}
+.tag.red{background:var(--red);} .tag.gold{background:var(--gold);color:#2d2300;} .tag.green{background:var(--green);}
+.tag.out{background:transparent;border:2px solid var(--blue);color:var(--blue);}
+
+/* ===========================================
+   LEAD / DIVIDER 深色頁
+   =========================================== */
+.lead,.divider{background:var(--navy);color:#fff;}
+.lead .slide-content,.divider .slide-content{align-items:flex-start;}
+.lead h1{color:#fff;font-size:var(--title-size);}
+.lead .sub{color:#9fc0e6;font-family:var(--font-display);font-weight:600;font-size:var(--h3-size);margin-top:.5em;}
+.lead .by{color:#dfe6e9;margin-top:1.2em;font-size:var(--body-size);}
+.lead a,.divider a{color:#9fc0e6;}
+.lead .disc{margin-top:1.1em;background:rgba(255,255,255,.07);border-left:4px solid var(--gold);padding:.6em .9em;border-radius:0 8px 8px 0;color:#e7edf5;font-size:var(--small-size);max-width:46em;}
+.divider{background:linear-gradient(135deg,#0a4d86 0%,#0072bc 60%,#0a4d86 100%);}
+.divider .slide-content{justify-content:center;}
+.divider .kicker{color:var(--gold);font-family:var(--font-display);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:var(--h3-size);}
+.divider h1{color:#fff;font-size:clamp(1.8rem,5.2vw,4rem);margin-top:.25em;}
+.divider .d-sub{color:#dbe9f7;margin-top:.6em;font-size:var(--h3-size);max-width:30em;}
+.divider .dnum{font-family:var(--font-display);font-weight:800;font-size:clamp(3rem,12vw,9rem);color:rgba(255,255,255,.12);position:absolute;right:.3em;bottom:-.12em;line-height:1;}
+
+/* background accent for content slides */
+.slide::after{content:"";position:absolute;top:0;right:0;width:38%;height:6px;background:linear-gradient(90deg,transparent,var(--blue));opacity:.5;}
+.lead::after,.divider::after{display:none;}
+
+/* progress + nav */
+.progress-bar{position:fixed;top:0;left:0;height:4px;background:var(--red);width:0;z-index:9999;transition:width .25s ease;}
+.nav-dots{position:fixed;right:clamp(.5rem,1.4vw,1rem);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:.5em;z-index:9000;}
+.nav-dots button{width:9px;height:9px;border-radius:50%;border:none;background:rgba(120,130,150,.4);cursor:pointer;padding:0;transition:all .25s;}
+.nav-dots button.active{background:var(--red);transform:scale(1.5);}
+.keyboard-hint{position:fixed;bottom:.6rem;right:.8rem;font-size:.6rem;color:#9aa3ad;z-index:9000;letter-spacing:.03em;}
+
+/* SVG diagram frame */
+.fig{display:flex;flex-direction:column;align-items:center;gap:.4em;}
+.fig svg{width:100%;height:auto;max-height:min(46vh,380px);}
+.fig .cap{font-size:var(--small-size);color:var(--muted);text-align:center;}
+.fig.boxed{background:var(--paper-2);border-radius:14px;padding:clamp(.6rem,1.6vw,1.2rem);border:1px solid var(--line);}
+
+/* journal-figure placeholder */
+.ph{border:2px dashed var(--blue);border-radius:12px;background:var(--blue-soft);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1em;color:var(--blue);min-height:clamp(120px,26vh,220px);}
+.ph .ic{font-size:1.8em;}
+.ph small{color:var(--muted);}
+.mld-strip{display:flex;gap:.4em;flex-wrap:wrap;justify-content:center;}
+.mld-step{flex:1;min-width:90px;background:var(--paper-2);border-radius:10px;padding:.6em .5em;text-align:center;border-bottom:4px solid var(--blue);}
+.mld-step.max{border-bottom-color:var(--red);}
+.mld-step .ltr{font-family:var(--font-display);font-weight:800;font-size:clamp(1.3rem,3.4vw,2.4rem);color:var(--blue);line-height:1;}
+.mld-step.max .ltr{color:var(--red);}
+.mld-step .w{font-size:var(--small-size);color:var(--ink);font-weight:600;margin-top:.2em;}
+.mld-step .z{font-size:.6rem;color:var(--muted);}
+</style>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<nav class="nav-dots" id="navDots"></nav>
+<div class="keyboard-hint">← → 翻頁 · Space 下一頁 · F 全螢幕</div>
+
+<!-- ============================================================
+     SLIDE 1 — TITLE
+     ============================================================ -->
+<section class="slide lead">
+  <div class="slide-content">
+    <h1 class="reveal">光學同調斷層掃描<br>導引冠狀動脈介入</h1>
+    <div class="sub reveal">OCT-Guided PCI：Major Trials &amp; the MLD-MAX Sizing Workflow</div>
+    <div class="by reveal">
+      <strong style="color:#fff">謝慕揚 MD, PhD, FESC</strong><br>
+      花蓮慈濟醫院 教學演講 · 2026
+    </div>
+    <div class="disc reveal">
+      本投影片為讀書會共筆與文獻整理，供醫療專業人員教學討論之用。所有試驗數據均經查證並標註來源 (DOI / PMID)；臨床決策請以最新指引與原始文獻為準。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC · OCT-Guided PCI</div>
+</section>
+
+<!-- ============================================================
+     SLIDE 2 — 大綱
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">02</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Roadmap</span><h2>今天的地圖</h2></div>
+    <div class="two-col reveal">
+      <ul class="bullets">
+        <li><strong>Part 1</strong>　為什麼用 OCT？原理與 vs IVUS</li>
+        <li class="r"><strong>Part 2</strong>　證據主軸：ILUMIEN I → IV</li>
+        <li><strong>Part 3</strong>　近年 RCT：OCTOBER、OCTIVUS</li>
+        <li class="r"><strong>Part 4</strong>　機轉與觀察：CLI-OPCI、EROSION</li>
+      </ul>
+      <ul class="bullets">
+        <li><strong>Part 5</strong>　整合證據：Lancet 2024 網絡統合分析</li>
+        <li class="r"><strong>Part 6</strong>　指引定位 (ESC / ACC，2024 升格)</li>
+        <li><strong>Part 7</strong>　<span style="color:var(--red);font-weight:700">MLD-MAX 支架 Sizing 流程</span>（核心）</li>
+        <li class="r"><strong>Part 8</strong>　一頁速查表 + Take-home</li>
+      </ul>
+    </div>
+    <div class="pearl blue reveal" style="margin-top:var(--content-gap)">
+      <span class="label">本場核心問題</span>
+      面對一條病灶，<strong>OCT 如何一步步決定支架的直徑與長度</strong>，又如何驗收貼附與擴張？
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     DIVIDER — Part 1
+     ============================================================ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 1</span>
+    <h1 class="reveal">為什麼是 OCT？</h1>
+    <div class="d-sub reveal">光的解析度，看見血管造影看不見的細節</div>
+  </div>
+  <span class="dnum">01</span>
+</section>
+
+<!-- ============================================================
+     SLIDE — OCT 原理 30 秒
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">04</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Physics in 30s</span><h2>OCT 原理：用「光」量血管</h2></div>
+    <div class="two-col wide-right reveal">
+      <ul class="bullets">
+        <li>近紅外光 (near-infrared light, ~1300 nm) 取代 IVUS 的<strong>超音波</strong></li>
+        <li>以光的<strong>干涉 (interferometry)</strong> 重建橫切面影像</li>
+        <li>軸向解析度 <strong>~10–20 µm</strong>（IVUS ~100–150 µm，約細 10 倍）</li>
+        <li>影像清晰、可量測 <strong>內膜、管腔、支架 strut</strong></li>
+        <li>代價：光無法穿透血液 → 需<strong>清血 (contrast flush)</strong>，穿透深度較淺 (1–2 mm)</li>
+      </ul>
+      <div class="fig boxed">
+        <!-- OCT cross-section schematic -->
+        <svg viewBox="0 0 360 300" role="img" aria-label="OCT 橫切面示意">
+          <defs>
+            <radialGradient id="lum" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#1a2740"/><stop offset="100%" stop-color="#22304f"/>
+            </radialGradient>
+          </defs>
+          <!-- adventitia -->
+          <circle cx="180" cy="150" r="128" fill="#f5d9b0"/>
+          <!-- media (EEL boundary) -->
+          <circle cx="180" cy="150" r="104" fill="#e9b08a"/>
+          <!-- intima/plaque -->
+          <circle cx="180" cy="150" r="86" fill="#f3c8c8"/>
+          <!-- lumen -->
+          <circle cx="180" cy="150" r="62" fill="url(#lum)"/>
+          <!-- catheter -->
+          <circle cx="180" cy="150" r="13" fill="#0072bc"/>
+          <circle cx="180" cy="150" r="5" fill="#fff"/>
+          <!-- EEL dotted -->
+          <circle cx="180" cy="150" r="104" fill="none" stroke="#ba181b" stroke-width="2.4" stroke-dasharray="5 5"/>
+          <!-- lumen solid -->
+          <circle cx="180" cy="150" r="62" fill="none" stroke="#7fd3ff" stroke-width="2.4"/>
+          <!-- labels -->
+          <text x="180" y="155" fill="#fff" font-size="11" text-anchor="middle" font-family="Archivo,sans-serif">Lumen</text>
+          <line x1="180" y1="88" x2="180" y2="46" stroke="#7fd3ff" stroke-width="1.5"/>
+          <text x="180" y="40" fill="#0072bc" font-size="12" text-anchor="middle" font-weight="700">管腔輪廓 (solid)</text>
+          <line x1="290" y1="98" x2="330" y2="78" stroke="#ba181b" stroke-width="1.5"/>
+          <text x="330" y="72" fill="#ba181b" font-size="12" text-anchor="end" font-weight="700">EEL (dotted)</text>
+          <text x="36" y="232" fill="#8a5a2b" font-size="11" font-weight="700">Adventitia</text>
+          <text x="240" y="250" fill="#b06a4a" font-size="11" font-weight="700">Media</text>
+        </svg>
+        <div class="cap">OCT 可清楚分辨管腔輪廓與外彈性膜 (EEL) — Sizing 的基礎</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — OCT vs IVUS 表
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">05</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Modality</span><h2>OCT vs IVUS：各擅勝場</h2></div>
+    <table class="reveal">
+      <tr><th style="width:26%"></th><th>OCT</th><th>IVUS</th></tr>
+      <tr><td><b>成像介質</b></td><td>近紅外光 (light)</td><td>超音波 (sound)</td></tr>
+      <tr><td><b>軸向解析度</b></td><td><span class="pos">~10–20 µm（高）</span></td><td>~100–150 µm</td></tr>
+      <tr><td><b>穿透深度</b></td><td>1–2 mm（淺）</td><td><span class="pos">5–6 mm（深）</span></td></tr>
+      <tr><td><b>需清血</b></td><td>需 contrast flush</td><td><span class="pos">不需</span></td></tr>
+      <tr><td><b>擅長</b></td><td>strut 貼附、edge dissection、鈣化、血栓、erosion</td><td>大血管 / 開口 LM、腎功能不全 (少顯影劑)</td></tr>
+      <tr><td><b>EEL / 外膜</b></td><td>清楚但深部受限</td><td><span class="pos">可見較深 vessel size</span></td></tr>
+    </table>
+    <div class="pearl blue reveal" style="margin-top:var(--content-gap)">
+      <span class="label">臨床定位</span>
+      OCTIVUS 試驗顯示兩者<strong>臨床預後相當</strong>；選擇取決於病灶與腎功能，而非孰優孰劣。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     DIVIDER — Part 2 ILUMIEN
+     ============================================================ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 2 · The Evidence Arc</span>
+    <h1 class="reveal">ILUMIEN I → IV</h1>
+    <div class="d-sub reveal">從「改變決策」到「隨機對照」— OCT 證據的十年</div>
+  </div>
+  <span class="dnum">02</span>
+</section>
+
+<!-- ============================================================
+     SLIDE — ILUMIEN I
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">07</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2015 · Eur Heart J</span><h2>ILUMIEN I — OCT 會改變決策嗎？</h2></div>
+    <div class="two-col wide-left reveal">
+      <div>
+        <p style="margin-bottom:.6em">前瞻、觀察性研究，418 例 / 35 國際中心，PCI 前後做 OCT + documentary FFR。</p>
+        <div class="stat-row">
+          <div class="stat"><div class="v b">57%</div><div class="l">PCI <b>前</b> OCT 改變了手術策略</div></div>
+          <div class="stat red"><div class="v r">27%</div><div class="l">PCI <b>後</b> OCT 促使進一步最佳化</div></div>
+        </div>
+        <div class="pearl blue" style="margin-top:.8em">
+          <span class="label">定位</span>假說生成 (hypothesis-generating)，非預後試驗 — 但確立「OCT 常改變我們的做法」。
+        </div>
+      </div>
+      <div class="qr reveal">
+        <img alt="ILUMIEN I QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABIUlEQVRYheWX0RHDIAxDvYH339Ib0IAlQdIBcqfQayh+9EdnCRLx4sixRkXWtaj5nJOqtrgChV0LVZ3xVZ1q9DS3zElVd5xYzc4//+SO5YE1fwHvUityut4Yw/N5/zxT0Q7fzrQlDNvi/8hzwtmi8FmMfuwyxoV2L+nQoU+ZbHEy7oeiTg3hjHV/g++7C3Y7WOK+ziD3INIWxBhvZQrH2vZ+OePnmQdxlAemOAV2BDSiDSwxLjFyRNxt4IvRAaXdEom28MQFK5R06gLNb4vXrzPlSklojRkAfZyHer9N4Yo5OgaQ/CXf22IecYz+RxT64sPt2e1xfo1xDry2yPoU6iv48D5bwx8rBamLO0bojdslJ3ptjNn0SL5QdzAIPfGL4wfIX2tMS4QWfwAAAABJRU5ErkJggg==">
+        <div class="t"><b>掃描讀原文</b>Wijns W, et al.<br>EHJ 2015<br>PMID 26242713</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — ILUMIEN II
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">08</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2015 · JACC Cardiovasc Interv</span><h2>ILUMIEN II — OCT 擴張不輸 IVUS</h2></div>
+    <div class="two-col wide-left reveal">
+      <div>
+        <p style="margin-bottom:.6em">觀察性比較 (傾向分數配對 286 對)：OCT 導引 (ILUMIEN I) vs IVUS 導引 (ADAPT-DES)。終點：<b>stent expansion</b> = MSA ÷ 平均參考管腔面積。</p>
+        <div class="stat-row">
+          <div class="stat"><div class="v b">72.8%</div><div class="l">OCT 導引 stent expansion</div></div>
+          <div class="stat"><div class="v">70.6%</div><div class="l">IVUS 導引 (P = 0.29，無差異)</div></div>
+        </div>
+        <div class="pearl" style="margin-top:.8em">
+          <span class="label">承先啟後</span>OCT 達到與 IVUS <strong>相當的擴張</strong> → 催生了頭對頭隨機試驗 ILUMIEN III。
+        </div>
+      </div>
+      <div class="qr reveal">
+        <img alt="ILUMIEN II QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABKElEQVRYheWW0RHDMAhD2YD9t2QDWlsIYi+QOyXtpY2f8xEFIcxePDz3EeaxL2OfZlUW16rn+i4d9l/uFcZ/Cdbl+sHrD3usqmPHCQUS38EsfhTIF3DZACURVvh2iRyuBufn5+6KcvjMNFSEn8uS2CEKpdlKOFUSxiNA512JwyVN3CWfk/Ax98ni1uMQqgpCGTt7X0yfrx2mjCvXyvE73rs1hDSmFeKhlD9CThP387MRcJLnqii2Tror19oGktivScY548EKwhjPfvjCOuqU8UTbkQE0iC7OPFXp0TZ0cb9/dHvvETZTGqPFc4Bln3eKootR9iz+nl8Pi0hiz6oCjHOd8pMG0pi9L7N9UEkgjnnNLeoYNsA0N6av6U4XT9tjD2g/mDB+8fgBp/Gr/W65uqwAAAAASUVORK5CYII=">
+        <div class="t"><b>掃描讀原文</b>Maehara A, et al.<br>JACC Interv 2015<br>PMID 26585621</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — ILUMIEN III RCT
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">09</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2016 · Lancet · RCT</span><h2>ILUMIEN III: OPTIMIZE PCI</h2></div>
+    <p class="reveal" style="margin-bottom:.5em">450 例 1:1:1 隨機 — <b>OCT vs IVUS vs Angiography</b>。主要終點：術後 <b>最小支架面積 (MSA)</b>，OCT 對 IVUS 做非劣性檢定。</p>
+    <table class="reveal">
+      <tr><th>導引方式</th><th>MSA 中位數 (mm²)</th><th>結果</th></tr>
+      <tr><td><b>OCT</b></td><td>5.79</td><td>vs IVUS <span class="pos">非劣性達標 (P = 0.001)</span></td></tr>
+      <tr><td>IVUS</td><td>5.89</td><td>OCT 對 IVUS 優越性未達 (P = 0.42)</td></tr>
+      <tr><td>Angiography</td><td>5.49</td><td>OCT 對 angio 優越性未達 (P = 0.12)</td></tr>
+    </table>
+    <div class="two-col reveal" style="margin-top:var(--content-gap)">
+      <div class="pearl blue">
+        <span class="label">關鍵收穫</span>OCT 在<strong>未處理的 major dissection (14% vs 26%)、malapposition (11% vs 21% vs 31%)</strong> 最少 — 並首次系統化導入 <strong>EEL-based sizing</strong>。
+      </div>
+      <div class="qr">
+        <img alt="ILUMIEN III QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABI0lEQVRYheWWUQ7DMAhDuQH3vyU3YFOwgbb7r+RlU9rk5acWNjF7cXieEd+38DiTZ/SuLo7z9XGggQR3lbHPMksUm1153HPmWuvjUxcQ5ZdqephL/HHu7hI5PAWwf/dUlMO7oVUKOMLg0e+ksJcok/EojahTsvjIwaSPqvw6XWZQxfW2LN9ruy7FMKPPoU2GL5V0ca29o8/Q6PCUxm0JVENHQ+hiSgBBfLSYJqeIqU7fYzsJxx2KeEwPVa42kMUFkXNs8r7DQBSvM9bhv57SuL6fALVQDpHFNn5vB+BqG7qYA2d9RZ80Po+k+ae5t1KquF0/l5tL+5PFPsmP6h95/gCXC7IrgTLJ47rdLGHEcdkAlucNB7MwZtFnsiSCF1sTxi+OD6eMS2w6FnwjAAAAAElFTkSuQmCC">
+        <div class="t"><b>掃描讀原文</b>Ali ZA, et al.<br>Lancet 2016<br>PMID 27806900</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — ILUMIEN IV (誠實框架)
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">10</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2023 · NEJM · RCT (n=2487)</span><h2>ILUMIEN IV: OPTIMAL PCI</h2></div>
+    <p class="reveal" style="margin-bottom:.5em">高風險族群 (藥物治療糖尿病或複雜病灶)，<b>OCT vs Angiography 導引</b>，<b>雙主要終點</b>。</p>
+    <div class="stat-row reveal">
+      <div class="stat green"><div class="v g">5.72 vs 5.36</div><div class="l">① MSA (mm²)　<span class="pos">P&lt;0.001 ✓ OCT 較大</span></div></div>
+      <div class="stat red"><div class="v r">7.4% vs 8.2%</div><div class="l">② 2 年 TVF　HR 0.90 (0.67–1.19)　<span class="neu">P=0.45 ✗ 未達</span></div></div>
+      <div class="stat"><div class="v b">0.5% vs 1.4%</div><div class="l">支架血栓 (次要)　HR 0.36 (0.14–0.91)　P=0.02</div></div>
+    </div>
+    <div class="two-col reveal" style="margin-top:var(--content-gap)">
+      <div class="pearl">
+        <span class="label">⚠ 容易被誤讀</span>影像終點 (MSA) <strong>陽性</strong>，但<strong>臨床主要終點 (2 年 TVF) 中性</strong>。支架血栓下降屬<b>次要</b>發現 → 假說生成。
+      </div>
+      <div class="qr">
+        <img alt="ILUMIEN IV QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABJ0lEQVRYheWW0Q0DMQhDswH7b+kN0iYGh7T9P8lNpdyVx88hYxjjwRNzH7zfsN6xHlDUF2N//Yoqd+Uw6ozj/J3MaVF7HFICWKQ/weNUpqU742yDFYfc7qtL7LAa/vp9uqId1gm6e6CKch83HCzK8fiUBjLTFkMzjkmjv/hiKoCjbUsiZSE9uOIR6vPte3UFagCY4lEuh+imL/P3xFTAHey974vZ+CkE+t8sA/DF+vYc9rXgkfjikn4cRVxtYItnTnnQALm204JnjH+EUySShCsu5WsAlPtZ49b8CC212m9McZ1s+nLBlIgv5kZD22NleJXl22JUMRJMqD3KAzxxdGtXnRRzx1M7XPTbHmdPqOOnO2YbsOXz4sgLa1yiV3GUdLmiG37wvADo/Ftc+tM/XAAAAABJRU5ErkJggg==">
+        <div class="t"><b>掃描讀原文</b>Ali ZA, et al.<br>NEJM 2023<br>PMID 37634188</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — ILUMIEN IV 詮釋
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">11</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Reading the result</span><h2>單一試驗 vs 整體證據</h2></div>
+    <div class="two-col reveal">
+      <ul class="bullets">
+        <li>ILUMIEN IV 是「<strong>較好的支架</strong>」(更大 MSA、更少血栓) 卻<strong>沒有</strong>轉成 2 年 TVF 差異</li>
+        <li>可能原因：<b>對照組已用高品質造影</b>、事件率低、追蹤期短、現代 DES 本就安全</li>
+        <li>單一 RCT 看不到，<strong>統合分析才看得到</strong>（稍後 Lancet 2024）</li>
+        <li>OCTOBER (分叉) 與 OCTIVUS 補上不同情境的證據</li>
+      </ul>
+      <div class="pearl blue">
+        <span class="label">教學重點</span>不要把 ILUMIEN IV 講成「陰性所以 OCT 沒用」，也別講成「完全陽性」。
+        正確語言：<strong>影像終點達標、臨床終點中性、安全性訊號正向</strong>。
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     DIVIDER — Part 3 RCT
+     ============================================================ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 3 · Randomized Trials</span>
+    <h1 class="reveal">OCTOBER &amp; OCTIVUS</h1>
+    <div class="d-sub reveal">複雜分叉的勝利，與對 IVUS 的非劣性</div>
+  </div>
+  <span class="dnum">03</span>
+</section>
+
+<!-- ============================================================
+     SLIDE — OCTOBER
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">13</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2023 · NEJM · RCT (n=1201)</span><h2>OCTOBER — 分叉病灶 OCT 勝出</h2></div>
+    <div class="two-col wide-left reveal">
+      <div>
+        <p style="margin-bottom:.6em">複雜<b>分叉病灶 (含 ~19% 左主幹)</b>，OCT 導引 vs 造影導引；終點為 2 年 MACE (心因死亡 + 標的病灶 MI + 缺血驅動 TLR)。</p>
+        <div class="stat-row">
+          <div class="stat green"><div class="v g">10.1%</div><div class="l">OCT 導引 MACE</div></div>
+          <div class="stat red"><div class="v r">14.1%</div><div class="l">造影導引 MACE</div></div>
+        </div>
+        <div class="pearl blue" style="margin-top:.8em">
+          <span class="label">HR 0.70 (0.50–0.98)，P = 0.035</span>常規 OCT 導引讓複雜分叉 PCI 的 2 年 MACE <strong>相對下降約 30%</strong>。
+        </div>
+      </div>
+      <div class="qr reveal">
+        <img alt="OCTOBER QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABJElEQVRYheWX0RHDMAhD2YD9t2QDtzYS4HaA3CluL3F49KMqCNfsweXrrPjuYu9j36KiujjOt9/Ryt05GVXG3o8rc0ZUHntVQqRIL8HWyox0ZYw22PEot/vrEjlcDX+9fl1RDtfydHcPinIvNewpSns8SiOQqYoZgRGMOd/yiGIvVTwVivqcLvbx7Jh03IUwHo2QjKbfd0ncnXDVB+1PFo/C4NQL/G9BNehiXH0e3amULDaWvq+rQEY7KGLnz56HuCwNX2Mnivm2DlvLI4xJ2+m7NNTx6lGfI6/PN6KYC01P78PQ18XnxkMsVYq2fFkcFIUjrsygPEAT8wBb55gS6h0Ybm+YfLjKY/REdfxSx9kGJwn6pETh0phFT8+zSrpcUQ0/uD7cROu9vEkMiwAAAABJRU5ErkJggg==">
+        <div class="t"><b>掃描讀原文</b>Holm NR, et al.<br>NEJM 2023<br>PMID 37634149</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — OCTIVUS
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">14</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2023 · Circulation · RCT (n=2008)</span><h2>OCTIVUS — OCT 非劣於 IVUS</h2></div>
+    <div class="two-col wide-left reveal">
+      <div>
+        <p style="margin-bottom:.6em">務實型非劣性試驗，OCT 導引 vs IVUS 導引；1 年複合終點 (心因死亡 + 標的血管 MI + 缺血驅動 TVR)。</p>
+        <div class="stat-row">
+          <div class="stat"><div class="v b">2.5%</div><div class="l">OCT 導引</div></div>
+          <div class="stat"><div class="v">3.1%</div><div class="l">IVUS 導引 · <span class="pos">非劣性達標 P&lt;0.001</span></div></div>
+          <div class="stat green"><div class="v g">2.2% vs 3.7%</div><div class="l">主要術中併發症 (P=0.047，OCT 較少)</div></div>
+        </div>
+        <div class="pearl" style="margin-top:.8em">
+          <span class="label">注意</span>整體事件率低 → 解讀受限 (作者自承)。可視為「<strong>兩種影像可互換</strong>」的證據。
+        </div>
+      </div>
+      <div class="qr reveal">
+        <img alt="OCTIVUS QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABI0lEQVRYheWW0RHDMAhDvYH235INaAMISBbIneJeE9vP+SgVUs55ccBj2H9msLjArXd1scWvt4DX5HrAuKuM1zILcZWFu/J4LVMaH8Ghiy0PecxlFOSxK4zL4HD/PF1RDu9AK7I2dTGyKF7eh56j1qqYHrCEkBfGnCbOy0Qds24EoYmfFTgZc77UIolXi5cKeteOMAbbwVfede9r4/rnafjtfVUWSZyK5w35GldPmjAG9V82sOzPjjKuMI/Gd7aFjzJUMcVwc8J+sZfG4IvNdACjTxiP9JnozL3MPE3MsS2fnaCM6XipBuoAowtVbOz2FAdG/+0Bmhj0+6qIs1D2EcxvHZzj0rhcHt5nxDFNL5POmHveHaGJW/S0/C7QzRXV8IvjB0g8K4xU3DAwAAAAAElFTkSuQmCC">
+        <div class="t"><b>掃描讀原文</b>Kang DY, et al.<br>Circulation 2023<br>PMID 37634092</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     DIVIDER — Part 4 機轉/觀察
+     ============================================================ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 4 · Mechanistic Insight</span>
+    <h1 class="reveal">CLI-OPCI &amp; EROSION</h1>
+    <div class="d-sub reveal">OCT 告訴我們「什麼會出事」，以及「何時不放支架」</div>
+  </div>
+  <span class="dnum">04</span>
+</section>
+
+<!-- ============================================================
+     SLIDE — CLI-OPCI II 預測因子
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">16</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2015 · JACC Imaging</span><h2>CLI-OPCI II — 哪些 OCT 發現會出事？</h2></div>
+    <p class="reveal" style="margin-bottom:.4em">1,002 病灶；找出與 MACE 獨立相關的「次佳植入 (suboptimal)」標準。<b>HR (數字越大越危險)</b>：</p>
+    <table class="reveal">
+      <tr><th>OCT 標準</th><th>切點</th><th>HR</th><th>p</th></tr>
+      <tr><td>支架內最小管腔面積 (in-stent MLA)</td><td>&lt; 4.5 mm²</td><td><span class="neg">1.64</span></td><td>0.040</td></tr>
+      <tr><td><b>遠端</b>邊緣 dissection</td><td>&gt; 200 µm</td><td><span class="neg">2.54</span></td><td>0.004</td></tr>
+      <tr><td><b>遠端</b>參考管腔面積</td><td>&lt; 4.5 mm²</td><td><span class="neg">4.65</span></td><td>&lt;0.001</td></tr>
+      <tr><td><b>近端</b>參考管腔面積</td><td>&lt; 4.5 mm²</td><td><span class="neg">5.73</span></td><td>&lt;0.001</td></tr>
+      <tr><td>任一項次佳標準 (composite)</td><td>≥ 1 項</td><td><span class="neg">3.53</span></td><td>&lt;0.001</td></tr>
+    </table>
+    <div class="two-col reveal" style="margin-top:.6em">
+      <div class="pearl">
+        <span class="label">反直覺重點</span><strong>參考節段的面積</strong> (HR 4.65 / 5.73) 比 in-stent MLA 影響更大 → 落點 (landing zone) 要選在夠大的健康血管！惡性的是<strong>遠端</strong>邊緣，近端 dissection 與 malapposition &gt;200µm 在此<b>未</b>達顯著。
+      </div>
+      <div class="qr">
+        <img alt="CLI-OPCI II QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABI0lEQVRYheWX0RHDMAhD2UD7b8kGbg0I7CyQO8XttQ3P+VGFcMxeXFix3OBx6fExVVlcVaz93jrET+4Vxn8J9mV+IcQ4quq4tDj3fQLTEmmQL+Bqg7REKjNZoIsr4HC/nqkoh++Zlu2PuyyJkaJQmlACVEkeR9aFDNn3DH1dzBmemrD/xxCqGOxztBJjCGXs86cPzh0mjNP5bnN+ZeTXXlHc7se4gbHPeyXxTPZKwc5AuDI+WffA1SWqeIa5WeuyeJM0rqPNyEKRlPFYvkO+s0AYV8o5WpU+2querXi2zinxUMdTjjTO49wqU/Tooyi6OG1fpmAGTg/oYmS0r+PxZV1xL44ZeI/HGHU8MVedoY6zDTLt0EWs7gZN3LHXk70uGISa+MX1A1vm280HUkx9AAAAAElFTkSuQmCC">
+        <div class="t"><b>掃描讀原文</b>Prati F, et al.<br>JACC Img 2015<br>PMID 26563859</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — EROSION
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">17</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2017 · Eur Heart J</span><h2>EROSION — OCT 決定「不放支架」</h2></div>
+    <div class="two-col wide-left reveal">
+      <div>
+        <p style="margin-bottom:.6em">60 例 ACS、OCT 確認為<b>斑塊侵蝕 (plaque erosion)</b>、殘餘狹窄 &lt;70%、TIMI 3 → 只給抗血栓 (aspirin + ticagrelor)，<strong>不植入支架</strong>。</p>
+        <div class="stat-row">
+          <div class="stat green"><div class="v g">78.3%</div><div class="l">1 個月血栓體積<b>減少 &gt;50%</b> (主要終點，47/60)</div></div>
+          <div class="stat"><div class="v b">92.5%</div><div class="l">1 年 MACE-free (隨訪研究)</div></div>
+        </div>
+        <div class="pearl blue" style="margin-top:.8em">
+          <span class="label">典範轉移</span>OCT 不只導引支架 — 它能<strong>分辨 erosion vs rupture</strong>，讓部分 ACS 病人<strong>免於支架</strong>。
+        </div>
+      </div>
+      <div class="qr reveal">
+        <img alt="EROSION QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABIklEQVRYheWW0Y3DMAxDtYH235Ib5OqIlJTeAAUYF4hrPeejhEg14ocrr3shEp8DzvNsXbXFCBamFl11xp/qUaO2c+VsXXXHycfp/P2SO24P3Psb8JRKke16Y0zP5/PznYp2+DHTbmHUFv9HnhPOEkVPKPp5yxdDvx+tQ4X+cokjbk004vZL3hjUg2GAGDfYYn3LnnXdFwhnXIJIh5zol/dtcXCsdzdkB4A3zvkzo9RDLFUccRmAZzp/2cAXM+MpUtm/zWCM64ylkzpkXXfEtMFcV08kvLF8oDRg+k0iOGItinGTSoHLGtf5AiNPUThJ6IqX2+WFbQ9fnBXtCvgRCu/A2N5Xa7wBdzdcXN442vDosKsZYI2n6ashRqVHKrrhH64/jmwLrIwTcSsAAAAASUVORK5CYII=">
+        <div class="t"><b>掃描讀原文</b>Jia H, et al.<br>EHJ 2017<br>PMID 27578806</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     DIVIDER — Part 5 統合 + 指引
+     ============================================================ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 5 · The Big Picture</span>
+    <h1 class="reveal">統合分析與指引</h1>
+    <div class="d-sub reveal">把所有 RCT 放在一起 — 然後看指引怎麼說</div>
+  </div>
+  <span class="dnum">05</span>
+</section>
+
+<!-- ============================================================
+     SLIDE — Lancet 2024 meta
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">19</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">2024 · Lancet · 22 RCT, 15,964 人</span><h2>影像導引 vs 造影導引：最強整體證據</h2></div>
+    <p class="reveal" style="margin-bottom:.4em">網絡統合分析 (OCT 或 IVUS vs 造影)。結果以 <b>相對風險 RR</b> 呈現 (非 HR)：</p>
+    <table class="reveal">
+      <tr><th>結果</th><th>RR (影像 vs 造影)</th><th>95% CI</th><th>p</th></tr>
+      <tr><td>標的病灶失敗 (TLF，主要)</td><td><span class="pos">0.71</span></td><td>0.63–0.80</td><td>&lt;0.0001</td></tr>
+      <tr><td><b>心因死亡</b></td><td><span class="pos">0.55</span></td><td>0.41–0.75</td><td>0.0001</td></tr>
+      <tr><td><b>支架血栓</b></td><td><span class="pos">0.52</span></td><td>0.34–0.81</td><td>0.0036</td></tr>
+      <tr><td>標的血管 MI</td><td><span class="pos">0.82</span></td><td>0.68–0.98</td><td>0.030</td></tr>
+      <tr><td>標的病灶再血運重建</td><td><span class="pos">0.72</span></td><td>0.60–0.86</td><td>0.0002</td></tr>
+      <tr><td>全因死亡</td><td><span class="pos">0.75</span></td><td>0.60–0.93</td><td>0.0091</td></tr>
+    </table>
+    <div class="two-col reveal" style="margin-top:.5em">
+      <div class="pearl blue"><span class="label">結論</span>影像導引 (OCT <b>或</b> IVUS) <strong>降低心因死亡、MI、再介入與支架血栓</strong>；<b>OCT 與 IVUS 之間無顯著差異</b>。</div>
+      <div class="qr">
+        <img alt="Meta 2024 QR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwAQMAAAAEm3vRAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABI0lEQVRYheWX0Q0DMQhD2YD9t2QDWmEMSW+Ak9ycFN3x8lNkm8bsxeVZK75v4VGbZ0xVF0f9+ihoTYJVZez7mWiKbVUez555fOtjm860POQxP0sIXXm6RA6vAM7nNxXl8DnQkALeYXAvNexoymZ8SyNwShnHVjDncJo2EMU91BgEPE85qGK7CNrDQR/aOEcFLYjphzqufD/mHb0fwtgw1rCN9H2GnCiuaHM2Bt3xQbqYAuDbwwaieAY7Rh5TLycMVHHwaU9QBYf5VXE7nqKgFtAsXcwLzGY+/9qGLuai2xn7fl/X5LDvNRW9oC1yYk8TB13PpKP+NwM0sU9TqP5p1H9gOIBK6F0eB8x/NEYcwwbeGYerG3dhPKI3+r1EwYoqfnF9ABiKO3z77Ui/AAAAAElFTkSuQmCC">
+        <div class="t"><b>掃描讀原文</b>Stone GW, et al.<br>Lancet 2024<br>PMID 38401549</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — Guidelines
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">20</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Guidelines</span><h2>指引怎麼定位血管內影像？</h2></div>
+    <table class="reveal">
+      <tr><th>指引</th><th>情境</th><th>建議等級</th><th>證據</th></tr>
+      <tr><td>2021 ACC/AHA/SCAI</td><td>IVUS / OCT 導引複雜病灶 PCI</td><td><span class="tag">IIa</span></td><td>B-R</td></tr>
+      <tr><td>2023 ESC ACS</td><td>影像 (IVUS 或 OCT) 導引 PCI</td><td><span class="tag">IIa</span></td><td>A</td></tr>
+      <tr><td>2023 ESC ACS</td><td>OCT 釐清不明確 culprit 病灶</td><td><span class="tag out">IIb</span></td><td>C</td></tr>
+      <tr><td><b>2024 ESC CCS</b></td><td>IVUS / OCT 導引複雜病灶 (LM、真分叉、長病灶)</td><td><span class="tag red">Class I</span></td><td>A</td></tr>
+    </table>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">
+      <span class="label">時間軸的訊息</span>在 ILUMIEN IV、OCTOBER、OCTIVUS、RENOVATE-COMPLEX-PCI 與 Lancet 2024 統合分析之後，<strong>2024 ESC CCS 將複雜病灶的影像導引升格為 Class I / A</strong> — 迄今最強的指引背書。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     DIVIDER — Part 6 MLD-MAX
+     ============================================================ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 6 · The Core Workflow</span>
+    <h1 class="reveal">MLD-MAX</h1>
+    <div class="d-sub reveal">把 OCT 變成一套「可重複」的支架 sizing 流程</div>
+  </div>
+  <span class="dnum">06</span>
+</section>
+
+<!-- ============================================================
+     SLIDE — MLD-MAX 總覽
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">22</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Overview</span><h2>MLD-MAX：植入前 3 步 + 植入後 3 步</h2></div>
+    <h3 class="reveal" style="color:var(--blue);margin-bottom:.3em">植入前 PRE-PCI — <span class="en">M · L · D</span></h3>
+    <div class="mld-strip reveal" style="margin-bottom:.8em">
+      <div class="mld-step"><div class="ltr">M</div><div class="w">Morphology</div><div class="z">斑塊形態 / 鈣化</div></div>
+      <div class="mld-step"><div class="ltr">L</div><div class="w">Length</div><div class="z">落點 + co-registration</div></div>
+      <div class="mld-step"><div class="ltr">D</div><div class="w">Diameter</div><div class="z">EEL / lumen 選徑</div></div>
+    </div>
+    <h3 class="reveal" style="color:var(--red);margin-bottom:.3em">植入後 POST-PCI — <span class="en">M · A · X</span></h3>
+    <div class="mld-strip reveal">
+      <div class="mld-step max"><div class="ltr">M</div><div class="w">Medial dissection</div><div class="z">邊緣剝離</div></div>
+      <div class="mld-step max"><div class="ltr">A</div><div class="w">Apposition</div><div class="z">貼附 (malapposition)</div></div>
+      <div class="mld-step max"><div class="ltr">X</div><div class="w">eXpansion</div><div class="z">擴張 (under-expansion)</div></div>
+    </div>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">
+      <span class="label">注意 — 不要混為一談</span><strong>MLD-MAX 是 Abbott 提出的工作流程</strong> (Shlofmitz 2022)，與 <strong>EAPCI 專家共識</strong> (Räber 2018) 的最佳化「目標數字」彼此相容，但出處不同。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — M Morphology
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">23</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Pre-PCI · 1/3</span><h2><span class="en">M</span> — Morphology 斑塊形態</h2></div>
+    <div class="two-col reveal">
+      <ul class="bullets">
+        <li>判讀主要斑塊：<b>纖維 (fibrous)、脂質 (lipidic)、鈣化 (calcium)、血栓 (thrombus)</b></li>
+        <li class="r"><strong>鈣化是關鍵</strong>：OCT 可量化 <b>鈣化弧度、長度、厚度</b></li>
+        <li>高風險鈣化 (弧度 &gt;180°、長度 &gt;5 mm、厚度 &gt;0.5 mm) → 考慮 <b>IVL / rotational atherectomy</b> 預先處理</li>
+        <li class="r">辨識<strong>無病健康落點 (landing zone)</strong> — 後續 L 與 D 的依據</li>
+      </ul>
+      <div class="fig boxed">
+        <svg viewBox="0 0 300 260" role="img" aria-label="鈣化弧度示意">
+          <circle cx="150" cy="130" r="110" fill="#f3c8c8"/>
+          <!-- calcium arc -->
+          <path d="M150,130 L150,20 A110,110 0 0 1 245,75 Z" fill="#cfe3ef"/>
+          <path d="M150,130 L150,20 A110,110 0 0 1 245,75" fill="none" stroke="#0072bc" stroke-width="3"/>
+          <circle cx="150" cy="130" r="58" fill="#1a2740"/>
+          <circle cx="150" cy="130" r="11" fill="#0072bc"/>
+          <!-- arc angle -->
+          <path d="M150,80 A50,50 0 0 1 192,103" fill="none" stroke="#ba181b" stroke-width="2.2"/>
+          <text x="205" y="92" fill="#ba181b" font-size="14" font-weight="700">弧度 °</text>
+          <text x="150" y="135" fill="#fff" font-size="11" text-anchor="middle" font-family="Archivo">Lumen</text>
+          <text x="210" y="45" fill="#0072bc" font-size="12" font-weight="700">鈣化 Ca²⁺</text>
+        </svg>
+        <div class="cap">OCT 量化鈣化弧度 — 決定是否需要 IVL / 旋磨</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — L Length
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">24</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Pre-PCI · 2/3</span><h2><span class="en">L</span> — Length 支架長度</h2></div>
+    <div class="two-col wide-right reveal">
+      <ul class="bullets">
+        <li>從<strong>遠端健康落點</strong>量到<strong>近端健康落點</strong> = 支架長度</li>
+        <li class="r"><b>務必覆蓋整段病灶</b>，落點要選在<strong>夠大且無明顯斑塊</strong>的節段 (呼應 CLI-OPCI II：參考面積太小 → MACE↑)</li>
+        <li><strong>血管造影共定位 (angiographic co-registration)</strong>：把 OCT 影格對應到造影路徑，精準定位落點，避免 geographic miss</li>
+        <li class="r">過短 → 殘餘病灶 / 邊緣問題；過長 → 多餘金屬與分支風險</li>
+      </ul>
+      <div class="fig boxed">
+        <svg viewBox="0 0 340 200" role="img" aria-label="支架長度落點示意">
+          <!-- vessel -->
+          <path d="M10,70 Q60,70 90,80 L120,108 Q150,124 190,124 L250,118 Q300,112 330,108 L330,150 Q300,148 250,154 L190,160 Q150,160 120,144 L90,116 Q60,106 10,106 Z" fill="#f3c8c8" stroke="#c98" stroke-width="1"/>
+          <!-- lumen -->
+          <path d="M10,82 Q70,82 100,94 L130,114 Q160,124 195,124 L255,120 Q300,118 330,116 L330,120 Q300,122 255,126 L195,130 Q160,130 130,120 L100,100 Q70,90 10,90 Z" fill="#1a2740"/>
+          <!-- landing zones -->
+          <rect x="14" y="74" width="34" height="22" fill="none" stroke="#2e7d32" stroke-width="2.5" rx="3"/>
+          <rect x="292" y="106" width="34" height="20" fill="none" stroke="#2e7d32" stroke-width="2.5" rx="3"/>
+          <text x="31" y="60" fill="#2e7d32" font-size="11" text-anchor="middle" font-weight="700">遠端落點</text>
+          <text x="309" y="98" fill="#2e7d32" font-size="11" text-anchor="middle" font-weight="700">近端落點</text>
+          <!-- length bracket -->
+          <line x1="31" y1="178" x2="309" y2="178" stroke="#ba181b" stroke-width="2"/>
+          <line x1="31" y1="172" x2="31" y2="184" stroke="#ba181b" stroke-width="2"/>
+          <line x1="309" y1="172" x2="309" y2="184" stroke="#ba181b" stroke-width="2"/>
+          <text x="170" y="195" fill="#ba181b" font-size="12" text-anchor="middle" font-weight="700">支架長度 = 落點到落點</text>
+        </svg>
+        <div class="cap">兩端落在健康節段，完整覆蓋病灶</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — D Diameter (EEL vs lumen)
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">25</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Pre-PCI · 3/3 · 核心</span><h2><span class="en">D</span> — Diameter 支架直徑</h2></div>
+    <div class="two-col reveal">
+      <div class="fig boxed">
+        <svg viewBox="0 0 300 240" role="img" aria-label="EEL vs lumen 選徑示意">
+          <circle cx="150" cy="115" r="100" fill="#e9b08a"/>
+          <circle cx="150" cy="115" r="100" fill="none" stroke="#ba181b" stroke-width="3" stroke-dasharray="6 5"/>
+          <circle cx="150" cy="115" r="62" fill="#f3c8c8"/>
+          <circle cx="150" cy="115" r="62" fill="none" stroke="#0072bc" stroke-width="3"/>
+          <circle cx="150" cy="115" r="36" fill="#1a2740"/>
+          <!-- EEL diameter -->
+          <line x1="50" y1="115" x2="250" y2="115" stroke="#ba181b" stroke-width="2"/>
+          <text x="150" y="108" fill="#ba181b" font-size="12" text-anchor="middle" font-weight="700">EEL 直徑</text>
+          <!-- lumen diameter -->
+          <line x1="88" y1="150" x2="212" y2="150" stroke="#0072bc" stroke-width="2"/>
+          <text x="150" y="170" fill="#0072bc" font-size="11" text-anchor="middle" font-weight="700">Lumen 直徑</text>
+          <text x="150" y="232" fill="#6b7280" font-size="10" text-anchor="middle">以「遠端參考」為選徑依據</text>
+        </svg>
+      </div>
+      <div>
+        <div class="pearl blue">
+          <span class="label">EEL 可見時 (首選)</span>量<strong>遠端參考</strong>平均 <b>EEL 直徑</b> → <strong>向下取整</strong>到最接近的 0.25 mm = 支架直徑。
+        </div>
+        <div class="pearl" style="margin-top:.6em">
+          <span class="label">EEL 看不清時 (脂質/鈣化遮蔽)</span>改量<strong>遠端參考</strong>平均 <b>管腔直徑</b> → <strong>向上取整</strong>。
+        </div>
+        <ul class="bullets" style="margin-top:.6em">
+          <li><strong>遠端</strong>參考決定直徑（保護遠端 edge）</li>
+          <li class="r"><strong>近端</strong>節段之後再以其較大參考做 post-dilation</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pearl reveal" style="margin-top:.5em;font-size:var(--small-size)">
+      ⓘ 此 EEL/lumen 選徑規則出自 <b>EAPCI 共識 (Räber 2018)</b> 與 ILUMIEN III/iSIGHT 策略；EEL-based 通常得到比 lumen-based <strong>較大的支架</strong>。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — POST M Medial dissection
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">26</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Post-PCI · 1/3</span><h2><span class="en">M</span> — Medial dissection 邊緣剝離</h2></div>
+    <div class="two-col wide-right reveal">
+      <ul class="bullets">
+        <li>檢查支架<strong>兩端 edge</strong> 是否有延伸入 media 的 dissection</li>
+        <li class="r"><b>EAPCI 顯著切點</b>：flap 厚度 ≥200 µm、弧度 &gt;60°、或長度 &gt;2 mm → 考慮再加支架</li>
+        <li><b>CLI-OPCI II</b>：<strong>遠端</strong>邊緣 dissection &gt;200 µm 是 MACE 獨立預測因子 (HR 2.54)</li>
+        <li class="r">近端邊緣 dissection 預後影響相對小 — 但仍需判斷血流與範圍</li>
+      </ul>
+      <div class="fig boxed">
+        <svg viewBox="0 0 300 220" role="img" aria-label="edge dissection 示意">
+          <circle cx="150" cy="110" r="96" fill="#f3c8c8"/>
+          <circle cx="150" cy="110" r="60" fill="#1a2740"/>
+          <!-- struts -->
+          <g fill="#cfd8e3">
+            <circle cx="150" cy="50" r="4"/><circle cx="201" cy="80" r="4"/><circle cx="201" cy="140" r="4"/>
+            <circle cx="150" cy="170" r="4"/><circle cx="99" cy="140" r="4"/>
+          </g>
+          <!-- dissection flap -->
+          <path d="M99,80 Q120,92 134,108" fill="none" stroke="#ba181b" stroke-width="4" stroke-linecap="round"/>
+          <text x="60" y="70" fill="#ba181b" font-size="12" font-weight="700">flap</text>
+          <line x1="99" y1="80" x2="70" y2="64" stroke="#ba181b" stroke-width="1.4"/>
+          <text x="150" y="115" fill="#fff" font-size="10" text-anchor="middle" font-family="Archivo">Lumen</text>
+        </svg>
+        <div class="cap">深入 media 的 flap → 高風險，尤其在遠端</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — POST A Apposition
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">27</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Post-PCI · 2/3</span><h2><span class="en">A</span> — Apposition 貼附</h2></div>
+    <div class="two-col reveal">
+      <div class="fig boxed">
+        <svg viewBox="0 0 320 200" role="img" aria-label="malapposition 示意">
+          <!-- well apposed (left) -->
+          <g>
+            <circle cx="80" cy="100" r="64" fill="#f3c8c8"/>
+            <circle cx="80" cy="100" r="64" fill="none" stroke="#c98" stroke-width="2"/>
+            <g fill="#2e7d32"><circle cx="80" cy="38" r="4.5"/><circle cx="135" cy="72" r="4.5"/><circle cx="135" cy="128" r="4.5"/><circle cx="80" cy="162" r="4.5"/><circle cx="25" cy="128" r="4.5"/><circle cx="25" cy="72" r="4.5"/></g>
+            <text x="80" y="190" fill="#2e7d32" font-size="12" text-anchor="middle" font-weight="700">✓ 貼附良好</text>
+          </g>
+          <!-- malapposed (right) -->
+          <g>
+            <circle cx="240" cy="100" r="64" fill="#f3c8c8"/>
+            <circle cx="240" cy="100" r="64" fill="none" stroke="#c98" stroke-width="2"/>
+            <g fill="#ba181b"><circle cx="240" cy="48" r="4.5"/><circle cx="285" cy="78" r="4.5"/><circle cx="285" cy="122" r="4.5"/><circle cx="240" cy="152" r="4.5"/></g>
+            <!-- gap arrows -->
+            <line x1="240" y1="38" x2="240" y2="48" stroke="#ba181b" stroke-width="1.6"/>
+            <text x="240" y="190" fill="#ba181b" font-size="12" text-anchor="middle" font-weight="700">✗ malapposition</text>
+          </g>
+        </svg>
+        <div class="cap">strut 與管壁間隙過大 → post-dilation</div>
+      </div>
+      <ul class="bullets">
+        <li><b>EAPCI 顯著切點 (要記的數字)</b>：strut-to-wall <strong>&gt; 0.4 mm (400 µm)</strong> 且縱向範圍 <strong>&gt; 1 mm</strong></li>
+        <li class="r">處理：以適當尺寸 NC balloon <strong>post-dilation</strong></li>
+        <li>注意：CLI-OPCI II 中 malapposition &gt;200 µm <b>未</b>達預後顯著 — 但仍應修正明顯者</li>
+        <li class="r">Ultreon 軟體會以顏色標示貼附不良 strut，輔助判讀</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — POST X eXpansion
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">28</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Post-PCI · 3/3 · 最重要</span><h2><span class="en">X</span> — eXpansion 擴張</h2></div>
+    <div class="two-col wide-right reveal">
+      <ul class="bullets">
+        <li><strong>擴張不足 (under-expansion) 是支架失敗的頭號機轉</strong>（再狹窄 + 血栓）</li>
+        <li class="r"><b>EAPCI 目標</b>：MSA &gt; <strong>80%</strong> 平均參考管腔面積</li>
+        <li><b>ILUMIEN III/IV 協定</b>：近、遠兩半段 MSA 各 ≥ <strong>90%</strong> 鄰近參考 (≥95% 為 optimal)</li>
+        <li class="r"><b>CLI-OPCI II 預後切點</b>：in-stent MLA &lt; <strong>4.5 mm²</strong> (HR 1.64)</li>
+        <li>不足 → 以 NC balloon 高壓 post-dilation 再驗收</li>
+      </ul>
+      <div class="fig boxed">
+        <svg viewBox="0 0 300 210" role="img" aria-label="under-expansion 示意">
+          <!-- reference -->
+          <circle cx="80" cy="95" r="58" fill="none" stroke="#0072bc" stroke-width="2.5" stroke-dasharray="5 4"/>
+          <circle cx="80" cy="95" r="40" fill="#1a2740"/>
+          <text x="80" y="178" fill="#ba181b" font-size="12" text-anchor="middle" font-weight="700">✗ 擴張不足</text>
+          <text x="80" y="98" fill="#fff" font-size="9" text-anchor="middle">small</text>
+          <!-- well expanded -->
+          <circle cx="220" cy="95" r="58" fill="none" stroke="#0072bc" stroke-width="2.5" stroke-dasharray="5 4"/>
+          <circle cx="220" cy="95" r="54" fill="#1a2740"/>
+          <text x="220" y="178" fill="#2e7d32" font-size="12" text-anchor="middle" font-weight="700">✓ 擴張良好</text>
+          <text x="80" y="36" fill="#0072bc" font-size="10" text-anchor="middle">參考面積</text>
+          <text x="220" y="36" fill="#0072bc" font-size="10" text-anchor="middle">參考面積</text>
+        </svg>
+        <div class="cap">MSA 相對參考面積 ≥80–90%</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — 一頁速查表
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">29</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Cheat Sheet</span><h2>一頁速查：OCT 支架 Sizing</h2></div>
+    <table class="reveal">
+      <tr><th style="width:18%">步驟</th><th>做什麼</th><th>目標 / 切點</th></tr>
+      <tr><td><b>M</b> 形態</td><td>判斷鈣化弧度/長度/厚度</td><td>弧度&gt;180° + 長&gt;5mm + 厚&gt;0.5mm → 先 IVL/旋磨</td></tr>
+      <tr><td><b>L</b> 長度</td><td>遠端→近端健康落點；co-registration</td><td>完整覆蓋病灶，落點選夠大節段</td></tr>
+      <tr><td><b>D</b> 直徑</td><td>量<b>遠端</b>參考</td><td>EEL 可見 → 平均 EEL，<b>向下</b>取 0.25mm；否則 lumen <b>向上</b></td></tr>
+      <tr><td><b>M</b> 剝離</td><td>查兩端 edge dissection</td><td>≥200µm / &gt;60° / &gt;2mm → 加支架 (遠端尤甚)</td></tr>
+      <tr><td><b>A</b> 貼附</td><td>查 malapposition</td><td>&gt;400µm 且 &gt;1mm → post-dilation</td></tr>
+      <tr><td><b>X</b> 擴張</td><td>量 MSA vs 參考</td><td>&gt;80% (EAPCI) / 兩半段各 ≥90% (協定)；MLA&gt;4.5mm²</td></tr>
+    </table>
+    <div class="pearl blue reveal" style="margin-top:.6em">
+      <span class="label">一句話</span><strong>植入前用 M-L-D 選對尺寸，植入後用 M-A-X 驗收</strong> — sizing 的核心永遠是「<strong>遠端參考</strong>選直徑、<strong>足夠擴張</strong>定成敗」。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — Take-home
+     ============================================================ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Take-home</span>
+    <h1 class="reveal" style="font-size:clamp(1.5rem,4.4vw,3rem)">五個帶走的重點</h1>
+    <ul class="bullets reveal" style="margin-top:.8em;max-width:50em">
+      <li style="color:#eaf1f8">OCT 以光的高解析度，看清 strut 貼附、dissection、鈣化與 erosion</li>
+      <li style="color:#eaf1f8">ILUMIEN IV：影像終點陽性、<b style="color:#ffd24a">臨床終點中性</b>、安全性正向 — 別過度解讀</li>
+      <li style="color:#eaf1f8">OCTOBER 在<b style="color:#ffd24a">複雜分叉</b>顯示臨床效益；OCTIVUS 證明 OCT 非劣於 IVUS</li>
+      <li style="color:#eaf1f8">Lancet 2024 統合分析：影像導引<b style="color:#ffd24a">降低心因死亡與支架血栓</b>；2024 ESC CCS 升格 Class I</li>
+      <li style="color:#eaf1f8"><b style="color:#ffd24a">MLD-MAX</b>：遠端參考選直徑、足夠擴張定成敗</li>
+    </ul>
+  </div>
+  <span class="dnum">★</span>
+</section>
+
+<!-- ============================================================
+     SLIDE — References 1
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">31</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">References 1/2</span><h2>參考文獻 — 試驗</h2></div>
+    <ol class="reveal" style="font-size:var(--small-size);line-height:1.7;padding-left:1.4em;color:var(--ink)">
+      <li>Wijns W, et al. ILUMIEN I. <i>Eur Heart J</i>. 2015;36(47):3346-55. <a href="https://doi.org/10.1093/eurheartj/ehv367">doi:10.1093/eurheartj/ehv367</a> · PMID 26242713</li>
+      <li>Maehara A, et al. ILUMIEN II. <i>JACC Cardiovasc Interv</i>. 2015;8(13):1704-14. <a href="https://doi.org/10.1016/j.jcin.2015.07.024">doi:10.1016/j.jcin.2015.07.024</a> · PMID 26585621</li>
+      <li>Ali ZA, et al. ILUMIEN III: OPTIMIZE PCI. <i>Lancet</i>. 2016;388(10060):2618-28. <a href="https://doi.org/10.1016/S0140-6736(16)31922-5">doi:10.1016/S0140-6736(16)31922-5</a> · PMID 27806900</li>
+      <li>Ali ZA, et al. ILUMIEN IV: OPTIMAL PCI. <i>N Engl J Med</i>. 2023;389(16):1466-76. <a href="https://doi.org/10.1056/NEJMoa2305861">doi:10.1056/NEJMoa2305861</a> · PMID 37634188</li>
+      <li>Holm NR, et al. OCTOBER. <i>N Engl J Med</i>. 2023;389(16):1477-87. <a href="https://doi.org/10.1056/NEJMoa2307770">doi:10.1056/NEJMoa2307770</a> · PMID 37634149</li>
+      <li>Kang DY, et al. OCTIVUS. <i>Circulation</i>. 2023;148(16):1195-206. <a href="https://doi.org/10.1161/CIRCULATIONAHA.123.066429">doi:10.1161/CIRCULATIONAHA.123.066429</a> · PMID 37634092</li>
+    </ol>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — References 2
+     ============================================================ -->
+<section class="slide">
+  <span class="slide-num">32</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">References 2/2</span><h2>參考文獻 — 機轉、統合、指引</h2></div>
+    <ol class="reveal" start="7" style="font-size:var(--small-size);line-height:1.7;padding-left:1.4em;color:var(--ink)">
+      <li>Prati F, et al. CLI-OPCI. <i>EuroIntervention</i>. 2012;8(7):823-9. <a href="https://doi.org/10.4244/EIJV8I7A125">doi:10.4244/EIJV8I7A125</a> · PMID 23034247</li>
+      <li>Prati F, et al. CLI-OPCI II. <i>JACC Cardiovasc Imaging</i>. 2015;8(11):1297-305. <a href="https://doi.org/10.1016/j.jcmg.2015.08.013">doi:10.1016/j.jcmg.2015.08.013</a> · PMID 26563859</li>
+      <li>Jia H, et al. EROSION. <i>Eur Heart J</i>. 2017;38(11):792-800. <a href="https://doi.org/10.1093/eurheartj/ehw381">doi:10.1093/eurheartj/ehw381</a> · PMID 27578806</li>
+      <li>Stone GW, et al. Imaging-guided DES network meta-analysis. <i>Lancet</i>. 2024;403(10429):824-37. <a href="https://doi.org/10.1016/S0140-6736(23)02454-6">doi:10.1016/S0140-6736(23)02454-6</a> · PMID 38401549</li>
+      <li>Räber L, et al. EAPCI consensus on intracoronary imaging, Part 1. <i>Eur Heart J</i>. 2018;39(35):3281-300. <a href="https://doi.org/10.1093/eurheartj/ehy285">doi:10.1093/eurheartj/ehy285</a> · PMID 29790954</li>
+      <li>Shlofmitz E, et al. MLD MAX OCT-guided PCI algorithm. <i>Catheter Cardiovasc Interv</i>. 2022. <a href="https://doi.org/10.1002/ccd.30395">doi:10.1002/ccd.30395</a></li>
+      <li>Byrne RA, et al. 2023 ESC ACS Guidelines. <i>Eur Heart J</i>. 2023;44(38):3720-826. <a href="https://doi.org/10.1093/eurheartj/ehad191">doi:10.1093/eurheartj/ehad191</a> · PMID 37622654</li>
+      <li>Vrints C, et al. 2024 ESC CCS Guidelines. <i>Eur Heart J</i>. 2024;45(36):3415-537. <a href="https://doi.org/10.1093/eurheartj/ehae177">doi:10.1093/eurheartj/ehae177</a> · PMID 39210710</li>
+    </ol>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============================================================
+     SLIDE — 結束
+     ============================================================ -->
+<section class="slide lead">
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <h1 class="reveal" style="text-align:center">謝謝聆聽</h1>
+    <div class="sub reveal" style="text-align:center">Q &amp; A</div>
+    <div class="by reveal" style="text-align:center">
+      <strong style="color:#fff">謝慕揚 MD, PhD, FESC</strong><br>
+      OCT-Guided PCI · MLD-MAX Sizing Workflow
+    </div>
+    <p class="reveal" style="color:#9fc0e6;margin-top:1em;font-size:var(--small-size)">本投影片為教學共筆整理，臨床決策請依最新指引與原始文獻</p>
+  </div>
+</section>
+
+<script>
+/* ===========================================
+   SLIDE PRESENTATION CONTROLLER
+   - IntersectionObserver: 進場動畫 + 進度
+   - 鍵盤 / 觸控 / 滾輪導覽
+   =========================================== */
+class SlidePresentation{
+  constructor(){
+    this.slides=[...document.querySelectorAll('.slide')];
+    this.current=0;
+    this.bar=document.getElementById('progressBar');
+    this.dotsWrap=document.getElementById('navDots');
+    this.buildDots();
+    this.observe();
+    this.keys();
+    this.touch();
+  }
+  buildDots(){
+    this.slides.forEach((s,i)=>{
+      const b=document.createElement('button');
+      b.setAttribute('aria-label','Slide '+(i+1));
+      b.addEventListener('click',()=>this.go(i));
+      this.dotsWrap.appendChild(b);
+    });
+    this.dots=[...this.dotsWrap.children];
+  }
+  observe(){
+    const io=new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          e.target.classList.add('visible');
+          this.current=this.slides.indexOf(e.target);
+          this.update();
+        }
+      });
+    },{threshold:0.55});
+    this.slides.forEach(s=>io.observe(s));
+  }
+  update(){
+    const pct=(this.current/(this.slides.length-1))*100;
+    this.bar.style.width=pct+'%';
+    this.dots.forEach((d,i)=>d.classList.toggle('active',i===this.current));
+  }
+  go(i){
+    i=Math.max(0,Math.min(this.slides.length-1,i));
+    this.slides[i].scrollIntoView({behavior:'smooth'});
+  }
+  keys(){
+    document.addEventListener('keydown',(e)=>{
+      switch(e.key){
+        case'ArrowRight':case'ArrowDown':case' ':case'PageDown':
+          e.preventDefault();this.go(this.current+1);break;
+        case'ArrowLeft':case'ArrowUp':case'PageUp':
+          e.preventDefault();this.go(this.current-1);break;
+        case'Home':e.preventDefault();this.go(0);break;
+        case'End':e.preventDefault();this.go(this.slides.length-1);break;
+        case'f':case'F':
+          if(!document.fullscreenElement)document.documentElement.requestFullscreen();
+          else document.exitFullscreen();break;
+      }
+    });
+  }
+  touch(){
+    let y0=null;
+    document.addEventListener('touchstart',e=>y0=e.touches[0].clientY,{passive:true});
+    document.addEventListener('touchend',e=>{
+      if(y0===null)return;
+      const dy=y0-e.changedTouches[0].clientY;
+      if(Math.abs(dy)>50)this.go(this.current+(dy>0?1:-1));
+      y0=null;
+    },{passive:true});
+  }
+}
+new SlidePresentation();
+</script>
+
+</body>
+</html>
