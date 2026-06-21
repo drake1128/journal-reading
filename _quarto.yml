@@ -155,6 +155,8 @@ website:
             - handouts/06-interventional-cardiology/index.qmd
             - text: "OCT-Guided PCI — Major Trials & MLD-MAX 支架 Sizing (互動投影片, 33 張)"
               href: handouts/06-interventional-cardiology/OCT_Guided_PCI_MLD-MAX.html
+            - text: "AngioSeal 碰到困難怎麼處理？— Bail-out 與超音波預防 (互動投影片, 32 張)"
+              href: handouts/06-interventional-cardiology/AngioSeal_Bailout_Seminar.html
             - text: "KISS Trial — 分叉病變側枝是否要額外處理"
               href: "handouts/06-interventional-cardiology/KISS Trial 分叉病變側枝處理 教學講義.md"
             - handouts/06-interventional-cardiology/champion-af-laao-vs-noacs/index.qmd
