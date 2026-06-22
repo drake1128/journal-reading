@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>用 AI 處理行政事務：從 Claude Desktop 到 Claude Code</title>
+
+<!--
+  用 AI 處理行政事務 — 從 Claude Desktop 到 Claude Code
+  給只用 Word / Excel / Email 的同事的入門教學
+  整理：謝慕揚 MD, PhD, FESC ｜ 2026
+  - 單檔 standalone HTML，離線可用（icon 用 emoji / CSS，無外部圖片）
+  - 導覽：← → / Space 翻頁，F 全螢幕，E 編輯，Home/End 首末頁
+  - 風格：清新友善科技感（indigo / teal / amber）
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+/* ===========================================
+   THEME — 清新友善科技感
+   =========================================== */
+:root{
+  --indigo:#5145e0; --indigo-2:#6d62f0; --indigo-soft:#eef0ff;
+  --teal:#0ea5a4;  --teal-soft:#e2faf7;
+  --amber:#f59e0b; --amber-soft:#fff5e0;
+  --coral:#fb7185;
+  --ink:#222637; --muted:#6b7280;
+  --paper:#ffffff; --bg:#f6f7fc; --line:#e6e8f2;
+  --green:#16a34a;
+
+  --font-display:'Plus Jakarta Sans','Noto Sans TC','Microsoft JhengHei','PingFang TC',sans-serif;
+  --font-body:'Noto Sans TC','Plus Jakarta Sans','Microsoft JhengHei','PingFang TC','Segoe UI',sans-serif;
+
+  --title-size:clamp(1.7rem,4.8vw,3.7rem);
+  --h2-size:clamp(1.25rem,3vw,2.3rem);
+  --h3-size:clamp(1rem,2vw,1.45rem);
+  --body-size:clamp(0.74rem,1.45vw,1.08rem);
+  --small-size:clamp(0.62rem,1vw,0.84rem);
+  --slide-padding:clamp(1rem,3.6vw,3.4rem);
+  --content-gap:clamp(0.5rem,1.8vw,1.5rem);
+  --element-gap:clamp(0.3rem,1vw,0.95rem);
+  --ease:cubic-bezier(0.16,1,0.3,1);
+  --dur:0.6s;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+
+/* ===== viewport-base (mandatory) ===== */
+html,body{height:100%;overflow-x:hidden;}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth;}
+body{font-family:var(--font-body);color:var(--ink);background:var(--bg);}
+.slide{width:100vw;height:100vh;height:100dvh;overflow:hidden;scroll-snap-align:start;display:flex;flex-direction:column;position:relative;background:var(--bg);}
+.slide-content{flex:1;display:flex;flex-direction:column;justify-content:center;max-height:100%;overflow:hidden;padding:var(--slide-padding);}
+.card,.container{max-width:min(94vw,1180px);max-height:min(88vh,780px);}
+img{max-width:100%;max-height:min(50vh,400px);object-fit:contain;}
+@media (max-height:700px){:root{--slide-padding:clamp(0.75rem,3vw,2rem);--content-gap:clamp(0.4rem,1.5vw,1rem);--title-size:clamp(1.4rem,4.2vw,2.6rem);--h2-size:clamp(1.05rem,3vw,1.8rem);}}
+@media (max-height:600px){:root{--slide-padding:clamp(0.5rem,2.5vw,1.5rem);--content-gap:clamp(0.3rem,1vw,0.75rem);--title-size:clamp(1.15rem,4vw,2rem);--body-size:clamp(0.68rem,1.2vw,0.94rem);} .nav-dots,.keyboard-hint{display:none;}}
+@media (max-height:500px){:root{--slide-padding:clamp(0.4rem,2vw,1rem);--title-size:clamp(1.05rem,3.5vw,1.5rem);--h2-size:clamp(0.92rem,2.5vw,1.25rem);--body-size:clamp(0.64rem,1vw,0.86rem);}}
+@media (max-width:600px){:root{--title-size:clamp(1.3rem,7.5vw,2.5rem);}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.2s!important;}html{scroll-behavior:auto;}}
+
+/* ===== reveal ===== */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease);}
+.slide.visible .reveal{opacity:1;transform:translateY(0);}
+.slide.visible .reveal:nth-child(1){transition-delay:.05s;}
+.slide.visible .reveal:nth-child(2){transition-delay:.14s;}
+.slide.visible .reveal:nth-child(3){transition-delay:.23s;}
+.slide.visible .reveal:nth-child(4){transition-delay:.32s;}
+.slide.visible .reveal:nth-child(5){transition-delay:.41s;}
+.slide.visible .reveal:nth-child(6){transition-delay:.50s;}
+
+/* ===== typography ===== */
+h1{font-family:var(--font-display);font-weight:800;line-height:1.12;letter-spacing:-.01em;}
+h2{font-family:var(--font-display);font-weight:700;line-height:1.16;}
+h3{font-family:var(--font-display);font-weight:600;}
+p,li,td,th{font-size:var(--body-size);line-height:1.55;}
+strong{color:var(--indigo);font-weight:700;}
+.en{font-family:var(--font-display);}
+
+.slide-head{display:flex;align-items:baseline;gap:.7rem;padding-bottom:.5rem;margin-bottom:var(--content-gap);border-bottom:2px solid var(--line);flex-wrap:wrap;}
+.slide-head .kicker{font-family:var(--font-display);font-weight:700;color:var(--teal);font-size:var(--small-size);letter-spacing:.1em;text-transform:uppercase;}
+.slide-head h2{color:var(--ink);font-size:var(--h2-size);}
+.slide-head h2 .hl{color:var(--indigo);}
+.slide-num{position:absolute;top:clamp(.6rem,2vw,1.4rem);right:clamp(.9rem,2.4vw,1.9rem);font-family:var(--font-display);font-weight:700;font-size:var(--small-size);color:#c3c7d6;z-index:5;}
+.footer-tag{position:absolute;bottom:clamp(.4rem,1.4vw,1rem);left:clamp(.9rem,2.4vw,1.9rem);font-size:.58rem;color:#aab0c0;letter-spacing:.04em;}
+
+/* ===== grids / cards ===== */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--content-gap);align-items:stretch;}
+.two-col.wide-left{grid-template-columns:1.1fr .9fr;}
+@media (max-width:820px){.two-col{grid-template-columns:1fr;}}
+.cards{display:grid;gap:var(--element-gap);}
+.cards.c2{grid-template-columns:1fr 1fr;}
+.cards.c3{grid-template-columns:repeat(3,1fr);}
+.cards.c4{grid-template-columns:repeat(4,1fr);}
+@media (max-width:820px){.cards.c3,.cards.c4{grid-template-columns:1fr 1fr;}}
+@media (max-width:560px){.cards.c2,.cards.c3,.cards.c4{grid-template-columns:1fr;}}
+.card-b{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:clamp(.7rem,1.7vw,1.25rem);box-shadow:0 6px 20px rgba(40,46,80,.05);display:flex;flex-direction:column;gap:.4em;}
+.card-b .ic{width:clamp(2.1rem,4vw,2.8rem);height:clamp(2.1rem,4vw,2.8rem);border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:clamp(1.1rem,2.4vw,1.6rem);background:var(--indigo-soft);}
+.card-b.t .ic{background:var(--teal-soft);} .card-b.a .ic{background:var(--amber-soft);}
+.card-b h3{font-size:var(--h3-size);color:var(--ink);}
+.card-b p{font-size:var(--small-size);color:var(--muted);line-height:1.5;}
+.card-b .big{font-family:var(--font-display);font-weight:800;font-size:clamp(1.3rem,3.4vw,2.2rem);color:var(--indigo);line-height:1;}
+
+/* bullets */
+.bullets{list-style:none;display:flex;flex-direction:column;gap:clamp(.4rem,1.2vh,.95rem);}
+.bullets li{position:relative;padding-left:1.5em;}
+.bullets li::before{content:"";position:absolute;left:0;top:.45em;width:.7em;height:.7em;background:var(--indigo);border-radius:50%;}
+.bullets li.t::before{background:var(--teal);} .bullets li.a::before{background:var(--amber);}
+.sub-bullets{list-style:none;margin:.35em 0 0 .2em;display:flex;flex-direction:column;gap:.28em;}
+.sub-bullets li{position:relative;padding-left:1.25em;font-size:.93em;color:#444a5c;}
+.sub-bullets li::before{content:"→";position:absolute;left:0;color:var(--teal);font-weight:700;}
+
+/* tables */
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:clamp(.66rem,1.3vw,.98rem);background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 6px 20px rgba(40,46,80,.06);}
+th{background:var(--indigo);color:#fff;padding:.6em .8em;text-align:left;font-family:var(--font-display);font-weight:600;font-size:.92em;}
+td{padding:.5em .8em;border-bottom:1px solid var(--line);vertical-align:top;}
+tr:last-child td{border-bottom:none;}
+tr:nth-child(even) td{background:#fafbff;}
+td .ok{color:var(--green);font-weight:700;} td .no{color:var(--coral);font-weight:700;}
+
+/* prompt / code box */
+.prompt{background:#1e2030;color:#e8eaf6;border-radius:13px;padding:clamp(.7rem,1.6vw,1.1rem);font-family:'Cascadia Code','Consolas','Noto Sans TC',monospace;font-size:clamp(.66rem,1.25vw,.92rem);line-height:1.55;box-shadow:0 6px 20px rgba(40,46,80,.12);overflow:hidden;}
+.prompt .pre{color:#8a90c0;font-family:var(--font-display);font-size:.82em;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:.35em;}
+.prompt b{color:#ffd479;font-weight:700;}
+.prompt .you{color:#7fe3d4;}
+
+/* pearl callout */
+.pearl{background:var(--indigo-soft);border-left:5px solid var(--indigo);padding:.75em 1.05em;border-radius:0 12px 12px 0;font-size:var(--body-size);}
+.pearl.teal{background:var(--teal-soft);border-left-color:var(--teal);}
+.pearl.amber{background:var(--amber-soft);border-left-color:var(--amber);}
+.pearl.coral{background:#fff0f3;border-left-color:var(--coral);}
+.pearl .label{font-family:var(--font-display);font-weight:700;color:var(--indigo);display:block;margin-bottom:.2em;font-size:.92em;}
+.pearl.teal .label{color:var(--teal);} .pearl.amber .label{color:#b5760a;} .pearl.coral .label{color:#e11d48;}
+
+/* before/after compare */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:var(--element-gap);}
+@media (max-width:700px){.compare{grid-template-columns:1fr;}}
+.compare .box{border-radius:13px;padding:.7em .9em;font-size:var(--small-size);line-height:1.5;border:1px solid var(--line);}
+.compare .before{background:#fff0f3;} .compare .after{background:#ecfdf5;}
+.compare .tag{font-family:var(--font-display);font-weight:700;font-size:.92em;display:block;margin-bottom:.25em;}
+.compare .before .tag{color:#e11d48;} .compare .after .tag{color:var(--green);}
+
+/* chips / steps */
+.steps{display:flex;gap:.5em;flex-wrap:wrap;}
+.step{flex:1;min-width:120px;background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:.6em .75em;border-top:4px solid var(--teal);}
+.step .n{font-family:var(--font-display);font-weight:800;color:var(--teal);font-size:1.05em;}
+.step .x{font-size:var(--small-size);color:var(--ink);margin-top:.2em;display:block;line-height:1.45;}
+.tag-pill{display:inline-block;font-family:var(--font-display);font-weight:700;font-size:.78em;padding:.12em .6em;border-radius:20px;background:var(--indigo);color:#fff;}
+.tag-pill.t{background:var(--teal);} .tag-pill.a{background:var(--amber);color:#3a2700;}
+
+/* ===== lead / divider ===== */
+.lead,.divider{color:#fff;}
+.lead{background:linear-gradient(135deg,#4a3fd6 0%,#5145e0 45%,#0ea5a4 130%);}
+.divider{background:linear-gradient(135deg,#0ea5a4 0%,#3f8fd6 55%,#5145e0 120%);}
+.lead .slide-content,.divider .slide-content{align-items:flex-start;}
+.lead h1{color:#fff;font-size:var(--title-size);}
+.lead .sub{color:#e8e9ff;font-family:var(--font-display);font-weight:600;font-size:var(--h3-size);margin-top:.5em;max-width:24em;}
+.lead .by{color:#dfe0ff;margin-top:1.2em;font-size:var(--body-size);}
+.lead .disc{margin-top:1.1em;background:rgba(255,255,255,.14);border-left:4px solid #ffd479;padding:.65em .95em;border-radius:0 10px 10px 0;color:#fff;font-size:var(--small-size);max-width:42em;}
+.lead a,.divider a{color:#ffe9a8;}
+.divider .slide-content{justify-content:center;}
+.divider .kicker{color:#ffe39b;font-family:var(--font-display);font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:var(--h3-size);}
+.divider h1{color:#fff;font-size:clamp(1.8rem,5.2vw,3.9rem);margin-top:.25em;}
+.divider .d-sub{color:#eafbf9;margin-top:.6em;font-size:var(--h3-size);max-width:32em;}
+.divider .dnum{font-family:var(--font-display);font-weight:800;font-size:clamp(3rem,12vw,9rem);color:rgba(255,255,255,.16);position:absolute;right:.32em;bottom:-.1em;line-height:1;}
+
+/* progress + nav */
+.progress-bar{position:fixed;top:0;left:0;height:4px;background:linear-gradient(90deg,var(--indigo),var(--teal));width:0;z-index:9999;transition:width .25s ease;}
+.nav-dots{position:fixed;right:clamp(.5rem,1.4vw,1rem);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:.45em;z-index:9000;}
+.nav-dots button{width:9px;height:9px;border-radius:50%;border:none;background:rgba(120,128,160,.35);cursor:pointer;padding:0;transition:all .25s;}
+.nav-dots button.active{background:var(--indigo);transform:scale(1.5);}
+.keyboard-hint{position:fixed;bottom:.6rem;right:.85rem;font-size:.6rem;color:#a7adbf;z-index:9000;letter-spacing:.03em;}
+
+/* edit mode */
+.edit-toolbar{position:fixed;left:clamp(.5rem,1.4vw,1rem);bottom:clamp(1.2rem,3vh,2rem);display:flex;gap:.4em;z-index:9500;}
+.edit-toolbar button{font-family:var(--font-body);font-size:.72rem;font-weight:600;padding:.4em .75em;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:9px;cursor:pointer;box-shadow:0 2px 10px rgba(40,46,80,.14);}
+.edit-toolbar button:hover{background:var(--indigo-soft);}
+.edit-toolbar button.on{background:var(--indigo);color:#fff;border-color:var(--indigo);}
+.edit-badge{display:none;position:fixed;top:0;left:0;width:100%;text-align:center;background:var(--indigo);color:#fff;font-size:.7rem;font-weight:600;padding:.3em;z-index:9600;}
+body.edit-mode .edit-badge{display:block;}
+body.edit-mode [contenteditable="true"]{outline:1.5px dashed rgba(81,69,224,.55);outline-offset:3px;border-radius:4px;}
+body.edit-mode [contenteditable="true"]:focus{outline:2px solid var(--teal);background:rgba(14,165,164,.06);}
+@media print{.edit-toolbar,.edit-badge,.nav-dots,.keyboard-hint,.progress-bar{display:none!important;}}
+</style>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<nav class="nav-dots" id="navDots"></nav>
+<div class="keyboard-hint">← → 翻頁 · Space 下一頁 · F 全螢幕 · E 編輯</div>
+<div class="edit-badge">編輯模式 — 點任一段文字即可修改；Esc 結束，⬇ 匯出可下載已編輯版本</div>
+<div class="edit-toolbar" id="editToolbar">
+  <button id="editToggle" title="編輯文字 (E)">✎ 編輯</button>
+  <button id="editExport" title="下載已編輯的 HTML">⬇ 匯出</button>
+</div>
+
+<!-- ============ 1 — COVER ============ -->
+<section class="slide lead">
+  <div class="slide-content">
+    <h1 class="reveal">用 AI 處理你的<br>行政事務</h1>
+    <div class="sub reveal">從 Claude Desktop 到 Claude Code —— 給只用 Word、Excel、Email 的你</div>
+    <div class="by reveal"><strong style="color:#fff">謝慕揚 MD, PhD, FESC</strong>　·　2026 內部教學</div>
+    <div class="disc reveal">
+      你不需要會寫程式。你現在會的 Word／Excel／Email，就足以起步。今天我們一起把 AI 變成你隨叫隨到的行政助理。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC · 用 AI 處理行政事務</div>
+</section>
+
+<!-- ============ 2 — 今天的目標 / roadmap ============ -->
+<section class="slide">
+  <span class="slide-num">02</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Today</span><h2>今天的<span class="hl">目標</span>與路線圖</h2></div>
+    <div class="two-col reveal">
+      <ul class="bullets">
+        <li>把<strong>重複、瑣碎</strong>的行政工作，做得更<strong>快</strong>、更<strong>好</strong></li>
+        <li class="t"><strong>不用寫程式</strong>、不用買新設備 —— 用你現在的電腦就能開始</li>
+        <li class="a">學會後，把省下的時間留給真正需要你判斷的事</li>
+      </ul>
+      <div class="cards c2">
+        <div class="card-b"><div class="ic">💬</div><h3>先用對話</h3><p>Claude Desktop：像聊天一樣交代任務</p></div>
+        <div class="card-b t"><div class="ic">⚙️</div><h3>再自動化</h3><p>Claude Code：讓它直接幫你動手做</p></div>
+      </div>
+    </div>
+    <div class="pearl teal reveal" style="margin-top:var(--content-gap)">
+      <span class="label">路線圖</span>① 建立心智模型 → ② Desktop 入門（Email／會議／Excel／Word）→ ③ Code 進階（自動化）→ ④ 資料安全與落地。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ DIVIDER — Part 1 ============ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 1</span>
+    <h1 class="reveal">先建立心智模型</h1>
+    <div class="d-sub reveal">搞懂「它是什麼、怎麼跟它說話」，後面都很簡單</div>
+  </div>
+  <span class="dnum">01</span>
+</section>
+
+<!-- ============ 3 — Claude 是什麼 ============ -->
+<section class="slide">
+  <span class="slide-num">04</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">What is it</span><h2>Claude 是什麼？一個<span class="hl">隨叫隨到的助理</span></h2></div>
+    <p class="reveal" style="margin-bottom:var(--content-gap)">把它想成一位<strong>讀很多書、打字很快、24 小時待命</strong>的助理。你只要做三件事：</p>
+    <div class="cards c3 reveal">
+      <div class="card-b"><div class="ic">🗣️</div><h3>① 問它</h3><p>問問題、要草稿、想點子、請它解釋。</p></div>
+      <div class="card-b t"><div class="ic">📎</div><h3>② 給它資料</h3><p>貼上文字，或上傳 Word／Excel／PDF 讓它讀。</p></div>
+      <div class="card-b a"><div class="ic">📤</div><h3>③ 要產出</h3><p>請它給你信、表格、摘要、公式、模板。</p></div>
+    </div>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">
+      <span class="label">關鍵心態</span>不必一次到位。<strong>先丟出去、再追加要求</strong> —— 跟交代真人助理一模一樣。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 5 — 兩個工具一條路 ============ -->
+<section class="slide">
+  <span class="slide-num">05</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Two tools</span><h2>兩個工具，<span class="hl">一條學習路徑</span></h2></div>
+    <div class="two-col reveal">
+      <div class="card-b" style="border-top:4px solid var(--indigo)">
+        <div class="ic">💬</div>
+        <h3>Claude Desktop <span class="tag-pill">先學這個</span></h3>
+        <p style="color:var(--ink)">App 或網頁的<strong>對話框</strong>。打字交代、上傳檔案、下載結果。</p>
+        <ul class="sub-bullets">
+          <li>零安裝門檻、最適合起步</li>
+          <li>一次處理一個任務、一份檔</li>
+        </ul>
+      </div>
+      <div class="card-b t" style="border-top:4px solid var(--teal)">
+        <div class="ic">⚙️</div>
+        <h3>Claude Code <span class="tag-pill t">熟了再用</span></h3>
+        <p style="color:var(--ink)">跑在你電腦上，能<strong>直接讀寫資料夾裡的檔</strong>、批次與自動化。</p>
+        <ul class="sub-bullets">
+          <li>適合重複、量大的工作</li>
+          <li>安裝一次（可請 IT／我協助）</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pearl amber reveal" style="margin-top:var(--content-gap)">
+      <span class="label">一句話比喻</span>Desktop ＝ 你跟助理「<strong>對話</strong>」；Code ＝ 助理「<strong>坐到你電腦前</strong>」直接動手做。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 6 — 黃金法則 prompt ============ -->
+<section class="slide">
+  <span class="slide-num">06</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Golden rule</span><h2>黃金法則：把它當成<span class="hl">新進助理</span></h2></div>
+    <div class="two-col wide-left reveal">
+      <div>
+        <p style="margin-bottom:.5em">講不清楚，它就做不好。一句好指令（prompt）有<strong>三要素</strong>：</p>
+        <ul class="bullets">
+          <li><strong>角色</strong>：你是一位資深祕書／護理長…</li>
+          <li class="t"><strong>任務</strong>：幫我把這段話寫成正式通知</li>
+          <li class="a"><strong>格式</strong>：用三段、條列、正式語氣、200 字內</li>
+        </ul>
+        <div class="pearl teal" style="margin-top:.7em"><span class="label">加分技巧</span>給<strong>範例</strong>、給<strong>資料</strong>、請它<strong>先確認再做</strong>。</div>
+      </div>
+      <div class="prompt">
+        <span class="pre">範例 Prompt</span>
+        <span class="you">你是</span>醫院祕書。<b>幫我</b>把下面這段口語，<br>改寫成給全科同仁的<b>正式 Email 通知</b>，<br>語氣客氣、條列重點、<b>100 字內</b>，<br>最後附一行回覆期限。<br><br>「下週三下午兩點科務會議改到會議室B，<br>請大家準時，順便交季報。」
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ DIVIDER — Part 2 ============ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 2</span>
+    <h1 class="reveal">Claude Desktop 入門</h1>
+    <div class="d-sub reveal">四個你每天都會用到的行政工作流程</div>
+  </div>
+  <span class="dnum">02</span>
+</section>
+
+<!-- ============ 8 — 第一步 / 介面 ============ -->
+<section class="slide">
+  <span class="slide-num">08</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">First step</span><h2>第一步：<span class="hl">打開 Claude Desktop</span></h2></div>
+    <div class="steps reveal">
+      <div class="step"><span class="n">1</span><span class="x">下載安裝 <strong>Claude Desktop</strong>（或直接用網頁 claude.ai）</span></div>
+      <div class="step"><span class="n">2</span><span class="x">用公司／個人帳號<strong>登入</strong></span></div>
+      <div class="step"><span class="n">3</span><span class="x">認識畫面：<strong>輸入框、＋上傳、新對話、歷史紀錄</strong></span></div>
+      <div class="step"><span class="n">4</span><span class="x">在輸入框<strong>打字交代任務</strong>，按 Enter</span></div>
+    </div>
+    <div class="cards c2 reveal" style="margin-top:var(--content-gap)">
+      <div class="card-b"><div class="ic">🆕</div><h3>一任務一對話</h3><p>不同的事開新對話，思緒不打架、回答更準。</p></div>
+      <div class="card-b t"><div class="ic">📎</div><h3>善用上傳</h3><p>把 Word／Excel／PDF 直接拖進去，它就能讀。</p></div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 9 — Email ============ -->
+<section class="slide">
+  <span class="slide-num">09</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Workflow ① · Email</span><h2>✉️ Email 撰寫與回覆</h2></div>
+    <div class="two-col reveal">
+      <ul class="bullets">
+        <li><strong>起草</strong>：給幾個重點 → 完整的中／英文信</li>
+        <li class="t"><strong>潤稿</strong>：把草稿改得更客氣／更簡潔／更專業</li>
+        <li class="a"><strong>長信摘要</strong>：貼上長信 → 三行重點 + 建議怎麼回</li>
+        <li><strong>中英互譯</strong>：回覆國外廠商、論文通訊</li>
+      </ul>
+      <div class="compare">
+        <div class="box before"><span class="tag">你給的（口語）</span>跟廠商說下週的 demo 要改期，問他們三月初哪天方便。</div>
+        <div class="box after"><span class="tag">它產出（英文正式信）</span>Dear … We would like to reschedule next week's demo. Could you let us know your availability in early March? …</div>
+      </div>
+    </div>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">
+      <span class="label">小提醒</span>寄出前自己<strong>讀一遍</strong>，確認語氣與事實 —— 它是助理，不是主管。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 10 — 會議記錄 ============ -->
+<section class="slide">
+  <span class="slide-num">10</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Workflow ② · Meeting</span><h2>📝 會議記錄與逐字稿整理</h2></div>
+    <div class="two-col wide-left reveal">
+      <ul class="bullets">
+        <li>把<strong>逐字稿或筆記</strong>貼進去（或先用手機錄音轉文字）</li>
+        <li class="t">請它整理成：<strong>議題 → 討論 → 決議 → 待辦</strong></li>
+        <li class="a">待辦自動標上<strong>負責人與期限</strong></li>
+        <li>太長？再要一份<strong>一頁摘要</strong>給沒到的人</li>
+      </ul>
+      <div class="prompt">
+        <span class="pre">範例 Prompt</span>
+        <span class="you">你是</span>會議祕書。把下面這份逐字稿，<br>整理成<b>正式會議記錄</b>：<br>① 出席　② 各議題的決議<br>③ <b>待辦事項表</b>（事項／負責人／期限）<br>最後加一段 <b>三行摘要</b>。<br><br>〔貼上逐字稿…〕
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 11 — Excel ============ -->
+<section class="slide">
+  <span class="slide-num">11</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Workflow ③ · Excel</span><h2>📊 Excel 資料整理</h2></div>
+    <div class="two-col reveal">
+      <ul class="bullets">
+        <li><strong>清理</strong>：日期／單位格式不一 → 一鍵統一</li>
+        <li class="t"><strong>找公式</strong>：「我要算每月加總／達成率」→ 給你公式並解釋</li>
+        <li class="a"><strong>分析</strong>：建議樞紐分析、找出異常值與重複</li>
+        <li><strong>班表</strong>：給條件 → 產生值班表草稿</li>
+      </ul>
+      <div class="cards c2">
+        <div class="card-b a"><div class="ic">🧮</div><h3>不會公式也行</h3><p>用白話描述要算什麼，它把 Excel 公式寫好給你貼上。</p></div>
+        <div class="card-b t"><div class="ic">📈</div><h3>看懂一堆數字</h3><p>上傳表格 → 「幫我找出本月重點與異常」。</p></div>
+      </div>
+    </div>
+    <div class="pearl amber reveal" style="margin-top:var(--content-gap)">
+      <span class="label">進階預告</span>幾十份檔要一起處理？這正是 <strong>Claude Code</strong> 的強項（稍後 Part 3）。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 12 — Word ============ -->
+<section class="slide">
+  <span class="slide-num">12</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Workflow ④ · Word</span><h2>📄 Word 公文、報告與模板</h2></div>
+    <div class="two-col wide-left reveal">
+      <ul class="bullets">
+        <li>給<strong>要點</strong> → 產出<strong>公文／簽呈／活動報告</strong>草稿</li>
+        <li class="t"><strong>改寫</strong>：把這段改得更精簡／更正式／更白話</li>
+        <li class="a">產生可重複套用的<strong>表單與模板</strong>（同意書、通知、檢核表）</li>
+        <li>長文件 → <strong>大綱與摘要</strong>，再逐段展開</li>
+      </ul>
+      <div class="prompt">
+        <span class="pre">範例 Prompt</span>
+        <span class="you">幫我</span>擬一份<b>請示公文</b>：<br>主旨：申請科內購置一台超音波機。<br>說明：① 現況　② 需求理由　③ 預算<br><b>正式公文格式</b>、條列、語氣得體。
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ DIVIDER — Part 3 ============ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 3</span>
+    <h1 class="reveal">進階到 Claude Code</h1>
+    <div class="d-sub reveal">當工作「重複又量大」，讓 AI 直接幫你動手</div>
+  </div>
+  <span class="dnum">03</span>
+</section>
+
+<!-- ============ 14 — Desktop 的極限 ============ -->
+<section class="slide">
+  <span class="slide-num">14</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Why level up</span><h2>Desktop 的<span class="hl">極限</span>在哪？</h2></div>
+    <div class="cards c3 reveal">
+      <div class="card-b coral" style="border-top:4px solid var(--coral)"><div class="ic">📤</div><h3>要手動搬檔</h3><p>每份都得自己上傳、再下載結果。</p></div>
+      <div class="card-b coral" style="border-top:4px solid var(--coral)"><div class="ic">🗂️</div><h3>不能整批做</h3><p>50 份 Word 要轉 PDF？一份一份來很痛。</p></div>
+      <div class="card-b coral" style="border-top:4px solid var(--coral)"><div class="ic">🔁</div><h3>不能自動重複</h3><p>每個月同一套流程，仍得從頭再做一次。</p></div>
+    </div>
+    <div class="pearl coral reveal" style="margin-top:var(--content-gap)">
+      <span class="label">升級訊號</span>當一件事<strong>「每週／每月都要做、又量大」</strong>，就該讓 <strong>Claude Code</strong> 直接在你電腦上代勞。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 15 — Claude Code 是什麼 ============ -->
+<section class="slide">
+  <span class="slide-num">15</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">What is Code</span><h2>Claude Code：<span class="hl">會動手做</span>的 AI</h2></div>
+    <div class="two-col reveal">
+      <ul class="bullets">
+        <li>能直接<strong>讀寫你電腦資料夾</strong>裡的檔案</li>
+        <li class="t">在一個輸入框，用<strong>中文交代任務</strong>就好 —— <strong>不必寫程式</strong></li>
+        <li class="a">能<strong>批次、重複、自動</strong>地把事情做完</li>
+      </ul>
+      <div class="card-b t" style="border-top:4px solid var(--teal)">
+        <div class="ic">🛡️</div>
+        <h3>安全感是內建的</h3>
+        <p style="color:var(--ink)">它<strong>每個動作前會先問你「可以嗎？」</strong>，你按同意它才動手 —— 不會偷偷改你的檔。</p>
+      </div>
+    </div>
+    <div class="pearl teal reveal" style="margin-top:var(--content-gap)">
+      <span class="label">別被「終端機」嚇到</span>那個黑底視窗，其實就是一個<strong>「打字交代任務」</strong>的對話框而已。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 16 — 安裝第一步 ============ -->
+<section class="slide">
+  <span class="slide-num">16</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Getting started</span><h2>Claude Code：<span class="hl">第一次啟動</span></h2></div>
+    <div class="steps reveal">
+      <div class="step"><span class="n">1</span><span class="x"><strong>安裝一次</strong>（桌面版，或請 IT／我幫你裝）</span></div>
+      <div class="step"><span class="n">2</span><span class="x">在你的<strong>工作資料夾</strong>裡開啟</span></div>
+      <div class="step"><span class="n">3</span><span class="x">用<strong>中文打一句任務</strong>，按 Enter</span></div>
+      <div class="step"><span class="n">4</span><span class="x">它提議做法 → 你<strong>按同意</strong> → 完成</span></div>
+    </div>
+    <div class="prompt reveal" style="margin-top:var(--content-gap)">
+      <span class="pre">你只要打這樣一句</span>
+      <span class="you">請把</span>這個資料夾裡<b>所有 Word 檔轉成 PDF</b>，<br>檔名保持一樣，放到一個新的 <b>PDF 子資料夾</b>。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 17 — Code workflow 批次檔案 ============ -->
+<section class="slide">
+  <span class="slide-num">17</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Code ① · Files</span><h2>🗂️ 批次處理檔案</h2></div>
+    <div class="cards c3 reveal">
+      <div class="card-b"><div class="ic">📑</div><h3>整批轉檔</h3><p>整個資料夾 Word → PDF，一句話幾分鐘完成。</p></div>
+      <div class="card-b t"><div class="ic">🏷️</div><h3>批次改名</h3><p>依日期／科別／編號，一次重新命名上百個檔。</p></div>
+      <div class="card-b a"><div class="ic">📋</div><h3>套用模板</h3><p>把 100 份文件統一換上新表頭／頁尾／格式。</p></div>
+    </div>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">
+      <span class="label">省下的是什麼</span>原本一個下午的<strong>機械式工作</strong>，變成「交代一句、喝杯咖啡」。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 18 — Code workflow Excel ============ -->
+<section class="slide">
+  <span class="slide-num">18</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Code ② · Excel</span><h2>📊 Excel 自動化</h2></div>
+    <div class="two-col wide-left reveal">
+      <ul class="bullets">
+        <li><strong>合併</strong>：把 12 份月報自動併成一張總表</li>
+        <li class="t"><strong>清理</strong>：統一格式、去重複、補缺漏</li>
+        <li class="a"><strong>產出</strong>：自動算統計、做圖表、輸出報表</li>
+        <li><strong>每月重跑</strong>：同一句指令，下個月再用一次</li>
+      </ul>
+      <div class="prompt">
+        <span class="pre">範例任務</span>
+        <span class="you">請把</span>「月報」資料夾裡<b>12 個 Excel</b> 合併，<br>以「科別」彙整<b>每月就診人次</b>，<br>做成一張<b>總表 + 長條圖</b>，<br>輸出成 <b>年度報表.xlsx</b>。
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 19 — Code workflow 重複行政 ============ -->
+<section class="slide">
+  <span class="slide-num">19</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Code ③ · Recurring</span><h2>🔁 重複性行政，一次設定</h2></div>
+    <div class="cards c3 reveal">
+      <div class="card-b"><div class="ic">📅</div><h3>值班表</h3><p>給規則 → 每月自動產生草稿，再微調。</p></div>
+      <div class="card-b t"><div class="ic">📨</div><h3>附件彙整</h3><p>把一堆 Email 附件的數據整理進一張表。</p></div>
+      <div class="card-b a"><div class="ic">🖥️</div><h3>變成簡報／網頁</h3><p>把資料自動做成 HTML 簡報或公告頁。</p></div>
+    </div>
+    <div class="pearl teal reveal" style="margin-top:var(--content-gap)">
+      <span class="label">這份投影片就是例子</span>你正在看的這份教材，正是用同一套工具<strong>產生的單檔網頁</strong>。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ DIVIDER — Part 4 ============ -->
+<section class="slide divider">
+  <div class="slide-content">
+    <span class="kicker reveal">Part 4</span>
+    <h1 class="reveal">安全與落地</h1>
+    <div class="d-sub reveal">怎麼選工具、守住紅線、把 AI 變成你的日常</div>
+  </div>
+  <span class="dnum">04</span>
+</section>
+
+<!-- ============ 21 — Desktop vs Code 速查 ============ -->
+<section class="slide">
+  <span class="slide-num">21</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Cheat sheet</span><h2>該用哪一個？<span class="hl">一頁速查</span></h2></div>
+    <table class="reveal">
+      <tr><th style="width:22%"></th><th>💬 Claude Desktop</th><th>⚙️ Claude Code</th></tr>
+      <tr><td><b>適合場景</b></td><td>一次性、想對話、看草稿</td><td><span class="ok">重複、批次、整資料夾、自動化</span></td></tr>
+      <tr><td><b>檔案</b></td><td>手動上傳／下載</td><td><span class="ok">直接讀寫你電腦的檔</span></td></tr>
+      <tr><td><b>門檻</b></td><td><span class="ok">零，開了就能用</span></td><td>安裝一次（可請人協助）</td></tr>
+      <tr><td><b>每天起步</b></td><td><span class="ok">先用它</span></td><td>熟了、量大了再升級</td></tr>
+    </table>
+    <div class="pearl reveal" style="margin-top:var(--content-gap)">
+      <span class="label">記一句就好</span>「<strong>先對話（Desktop），熟了再自動化（Code）</strong>。」
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 22 — PHI 資料安全 ============ -->
+<section class="slide">
+  <span class="slide-num">22</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">⚠ 最重要</span><h2>🔒 資料安全與<span class="hl">病人隱私 (PHI)</span></h2></div>
+    <div class="compare reveal">
+      <div class="box before"><span class="tag">🚫 絕對不要丟給雲端 AI</span>姓名、病歷號、身分證、生日、聯絡方式、含病人資訊的影像／報告 —— <strong>任何可識別個人的資料</strong>。</div>
+      <div class="box after"><span class="tag">✅ 可以放心使用</span>已<strong>去識別化</strong>的資料、純行政文件（公文、班表、會議記錄、衛教單張）、公開文獻與課本內容。</div>
+    </div>
+    <ul class="bullets reveal" style="margin-top:var(--content-gap)">
+      <li class="a"><strong>三原則</strong>：去識別化、最小揭露、遵循<strong>院內資安政策</strong></li>
+      <li>不確定能不能丟？—— <strong>先問、別猜</strong></li>
+    </ul>
+    <div class="pearl coral reveal" style="margin-top:.6em">
+      <span class="label">紅線一句話</span><strong>先去識別化，再上傳。</strong>涉及病人的判斷，永遠由你負責。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 23 — 變成工作流程 ============ -->
+<section class="slide">
+  <span class="slide-num">23</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Make it a habit</span><h2>把 AI 變成你的<span class="hl">工作流程</span></h2></div>
+    <div class="steps reveal">
+      <div class="step"><span class="n">1</span><span class="x">挑一件<strong>每週都要做、又煩</strong>的小事</span></div>
+      <div class="step"><span class="n">2</span><span class="x"><strong>試一次</strong>；不滿意就<strong>追加指令</strong>（迭代）</span></div>
+      <div class="step"><span class="n">3</span><span class="x">把好用的 prompt <strong>存成你的範本</strong></span></div>
+      <div class="step"><span class="n">4</span><span class="x">量大又重複 → <strong>升級到 Code</strong></span></div>
+    </div>
+    <div class="pearl teal reveal" style="margin-top:var(--content-gap)">
+      <span class="label">一個月後</span>你會有一套屬於自己的「<strong>AI 行政 SOP</strong>」與 prompt 範本庫，越用越省力。
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 24 — 常見迷思 ============ -->
+<section class="slide">
+  <span class="slide-num">24</span>
+  <div class="slide-content">
+    <div class="slide-head reveal"><span class="kicker">Myths</span><h2>常見<span class="hl">疑慮與迷思</span></h2></div>
+    <div class="cards c2 reveal">
+      <div class="card-b"><div class="ic">🤔</div><h3>會不會出錯？</h3><p>會。重要的<strong>數字與事實一定要查證</strong>，把它當草稿產生器。</p></div>
+      <div class="card-b t"><div class="ic">🙅</div><h3>會取代我嗎？</h3><p>不會。它<strong>放大你</strong>，把瑣事拿走，讓你專心做判斷。</p></div>
+      <div class="card-b a"><div class="ic">⌨️</div><h3>要會寫程式嗎？</h3><p>不用。<strong>用中文交代</strong>就好，連 Code 也是。</p></div>
+      <div class="card-b"><div class="ic">💻</div><h3>要買貴設備？</h3><p>不用。<strong>你現在的電腦</strong>就能開始。</p></div>
+    </div>
+  </div>
+  <div class="footer-tag">謝慕揚 MD, PhD, FESC</div>
+</section>
+
+<!-- ============ 25 — Take-home / END ============ -->
+<section class="slide lead">
+  <div class="slide-content" style="justify-content:center">
+    <span class="kicker reveal" style="color:#ffe39b;font-family:var(--font-display);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:var(--h3-size)">Take-home</span>
+    <h1 class="reveal" style="margin-top:.2em">今天就踏出三步</h1>
+    <ul class="bullets reveal" style="margin-top:var(--content-gap);color:#fff;max-width:30em">
+      <li style="color:#fff">今天就裝 <strong style="color:#ffe39b">Claude Desktop</strong>，挑一封 email 讓它幫你寫</li>
+      <li style="color:#fff">把一件<strong style="color:#ffe39b">每週瑣事</strong>交給它，存成你的 prompt 範本</li>
+      <li style="color:#fff">量大又重複時，找我／IT 升級到 <strong style="color:#ffe39b">Claude Code</strong></li>
+    </ul>
+    <div class="disc reveal" style="margin-top:1.1em">
+      一句話帶走：<strong style="color:#fff">先對話、再自動化；先去識別化、再上傳。</strong>
+    </div>
+    <div class="by reveal" style="margin-top:1em">謝謝聆聽 · Q &amp; A　|　謝慕揚 MD, PhD, FESC</div>
+  </div>
+</section>
+
+<script>
+/* ===== slide controller ===== */
+class SlidePresentation{
+  constructor(){
+    this.slides=[...document.querySelectorAll('.slide')];
+    this.current=0;
+    this.bar=document.getElementById('progressBar');
+    this.dotsWrap=document.getElementById('navDots');
+    this.buildDots();this.observe();this.keys();this.touch();
+  }
+  buildDots(){
+    this.slides.forEach((s,i)=>{const b=document.createElement('button');b.setAttribute('aria-label','Slide '+(i+1));b.addEventListener('click',()=>this.go(i));this.dotsWrap.appendChild(b);});
+    this.dots=[...this.dotsWrap.children];
+  }
+  observe(){
+    const io=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');this.current=this.slides.indexOf(e.target);this.update();}});},{threshold:0.55});
+    this.slides.forEach(s=>io.observe(s));
+  }
+  update(){const pct=(this.current/(this.slides.length-1))*100;this.bar.style.width=pct+'%';this.dots.forEach((d,i)=>d.classList.toggle('active',i===this.current));}
+  go(i){i=Math.max(0,Math.min(this.slides.length-1,i));this.slides[i].scrollIntoView({behavior:'smooth'});}
+  keys(){
+    document.addEventListener('keydown',(e)=>{
+      if(document.body.classList.contains('edit-mode')) return;
+      switch(e.key){
+        case'ArrowRight':case'ArrowDown':case' ':case'PageDown':e.preventDefault();this.go(this.current+1);break;
+        case'ArrowLeft':case'ArrowUp':case'PageUp':e.preventDefault();this.go(this.current-1);break;
+        case'Home':e.preventDefault();this.go(0);break;
+        case'End':e.preventDefault();this.go(this.slides.length-1);break;
+        case'f':case'F':if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();break;
+      }
+    });
+  }
+  touch(){
+    let y0=null;
+    document.addEventListener('touchstart',e=>y0=e.touches[0].clientY,{passive:true});
+    document.addEventListener('touchend',e=>{if(y0===null)return;const dy=y0-e.changedTouches[0].clientY;if(Math.abs(dy)>50)this.go(this.current+(dy>0?1:-1));y0=null;},{passive:true});
+  }
+}
+new SlidePresentation();
+
+/* ===== in-browser inline editing ===== */
+class EditMode{
+  constructor(){
+    this.key='ai_admin_deck_edits_v1';
+    this.els=[...document.querySelectorAll('.slide h1,.slide h2,.slide h3,.slide p,.slide li,.slide td,.slide th,.slide .sub,.slide .by,.slide .disc,.slide .d-sub,.slide .kicker,.slide .label,.slide .tag,.slide .x,.slide .pre')].filter(el=>!el.querySelector('img'));
+    this.els.forEach((el,i)=>el.dataset.eid=i);
+    this.data={};this.restore();this.bind();
+  }
+  restore(){try{this.data=JSON.parse(localStorage.getItem(this.key)||'{}')||{};}catch(e){this.data={};}Object.entries(this.data).forEach(([eid,html])=>{const el=this.els[+eid];if(el)el.innerHTML=html;});}
+  save(el){this.data[el.dataset.eid]=el.innerHTML;try{localStorage.setItem(this.key,JSON.stringify(this.data));}catch(e){}}
+  enter(){document.body.classList.add('edit-mode');this.els.forEach(el=>el.setAttribute('contenteditable','true'));const b=document.getElementById('editToggle');b.textContent='✓ 完成';b.classList.add('on');}
+  exit(){document.body.classList.remove('edit-mode');this.els.forEach(el=>el.removeAttribute('contenteditable'));const b=document.getElementById('editToggle');b.textContent='✎ 編輯';b.classList.remove('on');}
+  toggle(){document.body.classList.contains('edit-mode')?this.exit():this.enter();}
+  export(){
+    const wasEditing=document.body.classList.contains('edit-mode');this.exit();
+    const clone=document.documentElement.cloneNode(true);
+    clone.querySelectorAll('[contenteditable]').forEach(el=>el.removeAttribute('contenteditable'));
+    clone.classList.remove('edit-mode');
+    const html='<!DOCTYPE html>\n'+clone.outerHTML;
+    const blob=new Blob([html],{type:'text/html;charset=utf-8'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='AI_Admin_Workflows_Desktop_to_Code.html';
+    document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+    if(wasEditing)this.enter();
+  }
+  bind(){
+    document.getElementById('editToggle').addEventListener('click',()=>this.toggle());
+    document.getElementById('editExport').addEventListener('click',()=>this.export());
+    document.addEventListener('input',e=>{const t=e.target;if(t&&t.dataset&&t.dataset.eid!==undefined)this.save(t);});
+    document.addEventListener('keydown',e=>{
+      const editing=document.body.classList.contains('edit-mode');
+      if(editing&&e.key==='Escape'){this.exit();return;}
+      if(!editing&&(e.key==='e'||e.key==='E')){const a=document.activeElement;if(a&&(a.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)))return;this.toggle();}
+    });
+  }
+}
+new EditMode();
+</script>
+
+</body>
+</html>

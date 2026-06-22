@@ -1,6 +1,7 @@
 ---
 title: "AI 科技 — AI & Technology"
 resources:
+  - "AI_Admin_Workflows_Desktop_to_Code.html"
   - "AI_Literature_Review_Workflow_V2.html"
   - "AI_Literature_Review_Workflow_V2.pdf"
   - "AI_Literature_Review_Workflow_V2-assets/multi-agent-terminals.png"
@@ -9,6 +10,9 @@ resources:
 ---
 
 ## 精選簡報 Featured Slide Decks
+
+- **[用 AI 處理行政事務：從 Claude Desktop 到 Claude Code (互動簡報，可手機開啟)](AI_Admin_Workflows_Desktop_to_Code.html){target="_blank"}**
+  *給只用 Word／Excel／Email 的同事的入門教學：Email／會議記錄／Excel／Word 四大工作流程 + 資料安全 (PHI)。鍵盤 ← → 或滑動切換，按 `E` 編輯*
 
 - **[在 AI 時代運用人工智慧進行文獻回顧 — V2 (互動簡報，可手機開啟)](AI_Literature_Review_Workflow_V2.html){target="_blank"}**
   &nbsp;— [PDF 版本](AI_Literature_Review_Workflow_V2.pdf){target="_blank"}
