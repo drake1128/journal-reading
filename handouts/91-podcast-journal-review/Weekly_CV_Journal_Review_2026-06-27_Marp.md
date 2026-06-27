@@ -18,7 +18,7 @@ style: |
   section.lead h3 { color: #ffffff; font-weight: normal; }
   section.lead p, section.lead strong { color: #dfe6e9; }
   section.lead a { color: #ffd166; text-decoration: underline; }
-  section.lead blockquote { color: #2d3436; }
+  section.lead blockquote, section.lead blockquote * { color: #2d3436; }
   section.divider {
     background-color: #0072bc;
     color: #ffffff;
