@@ -43,6 +43,8 @@ website:
               href: handouts/02-heart-failure/Entresto_Journey_at_10.html
             - text: "Entresto @ 10 — 手機閱讀版 Mobile Reader (直式 / 橫式, iPhone, 40 頁)"
               href: handouts/02-heart-failure/Entresto_Journey_at_10_Mobile.html
+            - text: "HFpEF 診斷陷阱與瓣膜病鑑別（AS/MR 是不是 HFpEF？）"
+              href: "handouts/02-heart-failure/HFpEF 診斷陷阱與瓣膜病鑑別 教學講義.md"
             - handouts/02-heart-failure/nejm-biovat-hf-stem-cell-heart-failure-2026/index.qmd
             - handouts/02-heart-failure/journal-pa-pressure-monitor-2025/index.qmd
             - handouts/02-heart-failure/lecture-managing-hf-in-ed/index.qmd
@@ -155,10 +157,14 @@ website:
         - section: "介入心臟學 Interventional"
           contents:
             - handouts/06-interventional-cardiology/index.qmd
+            - text: "AGENT DCB 藥物塗層氣球 — De Novo 與 ISR 適應症 Panelist 複習稿 (互動網頁)"
+              href: handouts/06-interventional-cardiology/AGENT_DCB_Seminar_Review.html
             - text: "OCT-Guided PCI — Major Trials & MLD-MAX 支架 Sizing (互動投影片, 33 張)"
               href: handouts/06-interventional-cardiology/OCT_Guided_PCI_MLD-MAX.html
             - text: "AngioSeal 碰到困難怎麼處理？— Bail-out 與超音波預防 (互動投影片, 32 張)"
               href: handouts/06-interventional-cardiology/AngioSeal_Bailout_Seminar.html
+            - text: "「Good Enough」的藝術 — Primary PCI 何時該停手 (互動投影片, 42 張)"
+              href: handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI.html
             - text: "KISS Trial — 分叉病變側枝是否要額外處理"
               href: "handouts/06-interventional-cardiology/KISS Trial 分叉病變側枝處理 教學講義.md"
             - handouts/06-interventional-cardiology/champion-af-laao-vs-noacs/index.qmd
