@@ -1,0 +1,228 @@
+---
+title: "EuroIntervention — January 2026 Issue Snapshot"
+subtitle: "2026年1月號期刊精選 (Volume 22, Issue 1)"
+author: "謝慕揚 MD, PhD, FESC"
+date: "2026-01-05"
+format:
+  html:
+    css: tcolorbox.css
+---
+
+> 原文連結：[EuroIntervention 2026;22(1)](https://eurointervention.pcronline.com/issue/volume-22/number-1)　（本頁由 LaTeX 經 Pandoc 轉換示範）
+
+
+::: tcolorbox
+**本期核心重點**
+
+1.  **Expert Review：**Endomyocardial biopsy (EMB)的最佳化臨床應用------從患者選擇到技術步驟
+
+2.  **新技術：**IMR$_{CT}$------基於CCTA的非侵入性冠狀動脈微血管疾病評估
+
+3.  **STEMI預後：**OCT研究顯示non-ruptured thin-cap fibroatheroma（而非non-culprit plaque rupture）是長期不良預後的獨立預測因子
+
+4.  **QFR再現性：**FAVOR III Europe的REPEAT-QFR substudy揭示in-procedure與core lab QFR分析的一致性僅為中等
+:::
+
+# Expert Review：Endomyocardial Biopsy最佳化
+
+## EMB的臨床適應症
+
+Endomyocardial biopsy (EMB)用於診斷多種心臟疾病：
+
+- **心臟移植排斥監測**
+
+- **心肌炎**（包括giant cell myocarditis、eosinophilic myocarditis）
+
+- **浸潤性心肌病**（cardiac amyloidosis、hemochromatosis）
+
+- **心臟腫瘤**
+
+- **Arrhythmogenic cardiomyopathy**
+
+- **不明原因心衰**
+
+## 重要技術考量
+
+  ---------------------------------------------------------------------------------------
+  **項目**     **內容**
+  ------------ --------------------------------------------------------------------------
+  部位選擇     **RV EMB**：較常用、較安全\
+               **LV EMB**：特定情況需要（如LV-predominant disease）
+
+  影像導引     Fluoroscopy、TTE、ICE可輔助定位
+
+  取樣數量     通常4-6個samples以提高診斷率
+
+  主要併發症   心臟穿孔（< 1%）、心律不整、三尖瓣損傷、血管穿刺併發症
+  ---------------------------------------------------------------------------------------
+
+::: tcolorbox
+**未來展望：**EMB結合advanced molecular diagnostics（如gene expression profiling、next-generation sequencing）可提供更精準的診斷與治療指引。
+:::
+
+# 新技術：IMR$_{CT}$------非侵入性微血管功能評估
+
+## 背景
+
+- **Coronary microvascular disease (CMD)**是重要但常被忽略的疾病
+
+- 傳統評估需侵入性方法（如IMR、CFR測量）
+
+- 需要可靠的**非侵入性**評估方法
+
+## IMR$_{CT}$方法學
+
+  **項目**   **內容**
+  ---------- --------------------------------------------------------------------------
+  技術基礎   基於coronary CT angiography (CCTA)
+  資料整合   Multiphase CCTA + retrospective ECG gating
+  評估指標   Computed tomography-based index of microvascular resistance (IMR$_{CT}$)
+  驗證方式   與侵入性IMR測量比較
+
+## 研究結果
+
+::: tcolorbox
+IMR$_{CT}$與侵入性IMR在**vessel level**和**patient level**均呈現良好相關性，提供了一個可行的非侵入性CMD評估工具。
+:::
+
+::: tcolorbox
+- 可能成為CMD篩檢的第一線工具
+
+- 減少不必要的侵入性檢查
+
+- 適用於INOCA（Ischemia with No Obstructive Coronary Arteries）患者評估
+:::
+
+# STEMI研究：Non-Culprit Plaque Rupture的臨床影響
+
+## 研究設計
+
+  **項目**   **內容**
+  ---------- --------------------------------------------
+  研究方法   Optical coherence tomography (OCT)
+  掃描範圍   三條主要心外膜冠狀動脈
+  研究族群   STEMI患者
+  主要分析   Non-culprit plaque rupture對長期預後的影響
+
+## 主要發現
+
+- 有**non-culprit plaque rupture**的患者確實有較高的長期不良事件風險
+
+- 但**關鍵發現**：
+
+::: tcolorbox
+**Non-ruptured thin-cap fibroatheroma (TCFA)**------而非non-culprit plaque rupture------才是長期不良預後的**獨立預測因子**。
+:::
+
+## 臨床意義
+
+- STEMI患者應注意non-culprit lesions的特徵
+
+- TCFA的存在代表「vulnerable patient」而非僅是vulnerable plaque
+
+- 可能需要更積極的藥物治療（如高強度statin、colchicine）
+
+- 是否需要對TCFA進行預防性介入仍需更多研究
+
+# 方法學研究：QFR的再現性------REPEAT-QFR Substudy
+
+## 研究背景
+
+- **Quantitative Flow Ratio (QFR)**是基於血管造影的FFR替代指標
+
+- **FAVOR III Europe**試驗對QFR的可靠性提出質疑
+
+- 需要了解差異的來源
+
+## REPEAT-QFR設計
+
+比較**in-procedure QFR**（術中即時分析）與**core lab QFR**（核心實驗室分析）的一致性。
+
+## 主要發現
+
+  -----------------------------------------------------------------------
+  **發現**         **說明**
+  ---------------- ------------------------------------------------------
+  整體一致性       **中等 (Modest)**
+
+  影響變異的因素   • Angiographic quality（影像品質）\
+                   • Advanced CAD（進展性冠狀動脈疾病）\
+                   • Poor in-procedure QFR analysis（術中分析品質不佳）
+  -----------------------------------------------------------------------
+
+::: tcolorbox
+**Editorial觀點（Lansky）：**此研究揭示QFR在真實世界應用時，操作者經驗與影像品質對結果有重大影響。在複雜病灶或影像品質不佳時，應謹慎解讀QFR結果，考慮使用invasive FFR確認。
+:::
+
+# 其他本期重點
+
+## High-Risk Plaque Interventions
+
+**作者：Gary S. Mintz & Carlos Collet**
+
+- 探討如何識別與處理high-risk plaque
+
+- 結合intravascular imaging的策略
+
+- PCI最佳化與plaque modification技術
+
+## STEMI in Large Coronary Arteries
+
+**作者：Marc Bonnet, Grégoire Rangé等**
+
+- 大血管（large coronary arteries）STEMI的處理挑戰
+
+- Stent sizing考量
+
+- No-reflow現象的預防與處理
+
+- 長期預後分析
+
+# 2025年度審稿人致謝
+
+本期包含對EuroIntervention審稿人的年度致謝名單，表彰其對期刊與介入心臟學領域的貢獻。
+
+**Gold Reviewers（年度10篇以上審稿）**包括：
+
+- Fernando Alfonso, Ziad Ali, Mohamed Abdel-Wahab
+
+- Bernard De Bruyne, Carlos Collet, Giuseppe Tarantini
+
+- Nicolas Van Mieghem, Patrick Serruys, Lorenz Räber
+
+- 以及許多其他國際知名專家
+
+# 縮寫對照表
+
+  **縮寫**     **全名**
+  ------------ -------------------------------------------------------
+  EMB          Endomyocardial Biopsy (心內膜心肌切片)
+  RV           Right Ventricle (右心室)
+  LV           Left Ventricle (左心室)
+  CMD          Coronary Microvascular Disease (冠狀動脈微血管疾病)
+  IMR          Index of Microvascular Resistance (微血管阻力指數)
+  IMR$_{CT}$   CT-based IMR (電腦斷層微血管阻力指數)
+  CCTA         Coronary CT Angiography (冠狀動脈電腦斷層血管攝影)
+  OCT          Optical Coherence Tomography (光學相干斷層掃描)
+  TCFA         Thin-Cap Fibroatheroma (薄帽纖維粥瘤)
+  QFR          Quantitative Flow Ratio (定量血流比值)
+  FFR          Fractional Flow Reserve (血流儲備分數)
+  STEMI        ST-Elevation Myocardial Infarction (ST段上升心肌梗塞)
+  INOCA        Ischemia with No Obstructive Coronary Arteries
+  CAD          Coronary Artery Disease (冠狀動脈疾病)
+  ICE          Intracardiac Echocardiography (心內超音波)
+  TTE          Transthoracic Echocardiography (經胸心臟超音波)
+
+# 參考文獻
+
+1.  Dangas G, et al. Endomyocardial Biopsy: Optimising Clinical Practice. *EuroIntervention*. 2026;22(1). \[[Issue Link](https://eurointervention.pcronline.com/issue/volume-22/number-1)\]
+
+2.  Driessen MMD, et al. IMR$_{CT}$: Non-invasive Assessment of Coronary Microvascular Resistance from CT. *EuroIntervention*. 2026;22(1). \[[Issue Link](https://eurointervention.pcronline.com/issue/volume-22/number-1)\]
+
+3.  Kubo T, et al. Non-Culprit Plaque Rupture and Thin-Cap Fibroatheroma in STEMI: An OCT Study. *EuroIntervention*. 2026;22(1). \[[Issue Link](https://eurointervention.pcronline.com/issue/volume-22/number-1)\]
+
+4.  Tomaniak M, et al. REPEAT-QFR: Reproducibility of Quantitative Flow Ratio in FAVOR III Europe. *EuroIntervention*. 2026;22(1). \[[Issue Link](https://eurointervention.pcronline.com/issue/volume-22/number-1)\]
+
+5.  Mintz GS, Collet C. High-Risk Plaque Interventions: An Expert Review. *EuroIntervention*. 2026;22(1). \[[Issue Link](https://eurointervention.pcronline.com/issue/volume-22/number-1)\]
+
+6.  Bonnet M, Rangé G, et al. STEMI in Large Coronary Arteries: Challenges and Outcomes. *EuroIntervention*. 2026;22(1). \[[Issue Link](https://eurointervention.pcronline.com/issue/volume-22/number-1)\]

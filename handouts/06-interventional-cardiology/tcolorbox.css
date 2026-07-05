@@ -1,0 +1,11 @@
+/* Style Pandoc-converted LaTeX tcolorbox environments as callout boxes */
+.tcolorbox {
+  background-color: #fff8e1;
+  border: 1px solid #e0a800;
+  border-left: 5px solid #e0a800;
+  border-radius: 6px;
+  padding: 0.8em 1.2em;
+  margin: 1.2em 0;
+}
+.tcolorbox > :first-child { margin-top: 0; }
+.tcolorbox > :last-child { margin-bottom: 0; }

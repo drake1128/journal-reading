@@ -169,6 +169,7 @@ website:
               href: handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI_static.html
             - text: "KISS Trial — 分叉病變側枝是否要額外處理"
               href: "handouts/06-interventional-cardiology/KISS Trial 分叉病變側枝處理 教學講義.md"
+            - handouts/06-interventional-cardiology/eurointervention-2026-01-05.qmd
             - handouts/06-interventional-cardiology/champion-af-laao-vs-noacs/index.qmd
             - handouts/06-interventional-cardiology/book-6-cag-procedure-and-interpret-eng/index.qmd
             - handouts/06-interventional-cardiology/book-61-cag-a-set-up/index.qmd

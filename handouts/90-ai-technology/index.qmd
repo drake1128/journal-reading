@@ -31,3 +31,9 @@ resources:
 - Anthropic AI for Science 2026-01-16.tex
 - NEJM AI ChatGPT Grading 2025 教學講義.tex
 - NEJM_AI_MedAgentBench_2025.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Anthropic AI for Science 2026-01-16](anthropic-ai-for-science-2026-01-16.qmd)
+- [NEJM AI ChatGPT Grading 2025](nejm-ai-chatgpt-grading-2025-handout.qmd)
+- [NEJM AI MedAgentBench 2025](nejm-ai-medagentbench-2025.qmd)

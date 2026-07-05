@@ -24,3 +24,12 @@ title: "Podcast 期刊回顧 — Journal Podcast Reviews"
 - Eur Heart J 2026-01-14.tex
 - JACC Behind the Science 2026-01-06.tex
 - JACC Medicare COVID-19 Cardiovascular Outcomes 2026 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Circulation 2026-01-06](circulation-2026-01-06.qmd)
+- [Circulation 2026-01-13](circulation-2026-01-13.qmd)
+- [Eur Heart J 2026-01-07](eur-heart-j-2026-01-07.qmd)
+- [Eur Heart J 2026-01-14](eur-heart-j-2026-01-14.qmd)
+- [JACC Behind the Science 2026-01-06](jacc-behind-the-science-2026-01-06.qmd)
+- [JACC Medicare COVID-19 Cardiovascular Outcomes 2026](jacc-medicare-covid-19-cardiovascular-outcomes-2026-handout.qmd)

@@ -17,3 +17,13 @@ title: "瓣膜疾病 — Valvular Disease"
 - NEJM Clinical Decisions TAVR vs SAVR 2026.tex
 - PCRonline Top 10 Tricuspid Intervention 2025.tex
 - SDM_PDA_TAVR_vs_SAVR_主動脈瓣膜狹窄治療決策.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [European Heart Journal Top 10 VHD 2025](european-heart-journal-top-10-vhd-2025.qmd)
+- [main 01 chest pain](mainz-2024/main-01-chest-pain.qmd)
+- [main CV cardiac rehab](mainz-2024/main-cv-cardiac-rehab.qmd)
+- [main edu book 1 MDT](mainz-2024/main-edu-book-1-mdt.qmd)
+- [NEJM Clinical Decisions TAVR vs SAVR 2026](nejm-clinical-decisions-tavr-vs-savr-2026.qmd)
+- [PCRonline Top 10 Tricuspid Intervention 2025](pcronline-top-10-tricuspid-intervention-2025.qmd)
+- [SDM PDA TAVR vs SAVR as-decision](sdm-pda-tavr-vs-savr-as-decision.qmd)

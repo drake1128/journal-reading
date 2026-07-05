@@ -18,3 +18,11 @@ title: "ICU 一般照護 — ICU General Care"
 - ICM Clinical Governance 2024 教學講義.tex
 - ICM Metabolic Acidosis Buffering 2024 教學講義.tex
 - ICM Stress Ulcer Prevention 2024 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [CHEST Implementation Science Practice Variability 2026](chest-implementation-science-practice-variability-2026-handout.qmd)
+- [ICM Broad-Spectrum Antibiotics 2024](icm-broad-spectrum-antibiotics-2024-handout.qmd)
+- [ICM Clinical Governance 2024](icm-clinical-governance-2024-handout.qmd)
+- [ICM Metabolic Acidosis Buffering 2024](icm-metabolic-acidosis-buffering-2024-handout.qmd)
+- [ICM Stress Ulcer Prevention 2024](icm-stress-ulcer-prevention-2024-handout.qmd)

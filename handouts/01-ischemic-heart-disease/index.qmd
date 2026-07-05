@@ -16,3 +16,10 @@ title: "缺血性心臟病 — Ischemic Heart Disease"
 - JIC Mother-Child Catheter LM Dissection 2018.tex
 - NEJM CAD Genetics Review 2026 教學講義.tex
 - STEMI_missed_diagnosis_case_study.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Eur Heart J 2026-01-21](eur-heart-j-2026-01-21.qmd)
+- [JIC Mother-Child Catheter LM Dissection 2018](jic-mother-child-catheter-lm-dissection-2018.qmd)
+- [NEJM CAD Genetics Review 2026](nejm-cad-genetics-review-2026-handout.qmd)
+- [STEMI missed diagnosis case study](stemi-missed-diagnosis-case-study.qmd)

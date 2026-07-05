@@ -9,3 +9,7 @@ title: "ICU 腎臟 — ICU Renal"
 ## LaTeX Files
 
 - ICM AKI RRT Timing 2025 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [ICM AKI RRT Timing 2025](icm-aki-rrt-timing-2025-handout.qmd)

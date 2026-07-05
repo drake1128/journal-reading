@@ -1,0 +1,354 @@
+---
+title: "ICM Clinical Governance 2024"
+author: "謝慕揚 MD, PhD, FESC"
+---
+
+> 本頁由 LaTeX 原稿經 Pandoc 自動轉換，可能需少量人工微調。
+
+::: center
+**Intensive Care Medicine Editorial**\
+**Clinical Governance in Intensive Care Medicine**\
+加護病房的臨床治理\
+Intensive Care Med 2024;50:2154-2157. DOI: 10.1007/s00134-024-07653-8\
+整理：謝慕揚 MD, PhD, FESC 日期：
+:::
+
+# 文獻概述
+
+本篇為 Intensive Care Medicine 的 Editorial，由義大利 Humanitas Research Hospital 的 Carenzo 等人撰寫，介紹 clinical governance 的概念及其在重症醫學的實務應用。
+
+## 作者資訊
+
+**通訊作者：**Luca Carenzo, MD\
+**機構：**Department of Anesthesia and Intensive Care Medicine, IRCCS Humanitas Research Hospital, Rozzano, Italy
+
+# Clinical Governance 概述
+
+## 定義
+
+- **Clinical Governance (CG)：**醫療機構（包括 ICU）對持續改善服務並提供 safe, effective and compassionate care 所負的責任
+
+- Patient safety 是 healthcare improvement 的首要焦點
+
+- ICU 的複雜性增加 medical errors 風險
+
+## Temple Model
+
+# CG 領域與實用工具
+
+  --------------------------------------------------------------------------------
+  **領域**                               **工具**
+  -------------------------------------- -----------------------------------------
+  **Education, Training & Staff**        • Multidisciplinary simulation\
+                                         • Staff well-being programs\
+                                         • Enhancing teamwork and communication
+
+  **Effective Care**                     • Benchmarking\
+                                         • Checklists\
+                                         • Auditing
+
+  **Risk Management & Openness**         • Morbidity and mortality meetings\
+                                         • Incident reporting\
+                                         • Clinical governance meetings
+
+  **Patient and Family Centered Care**   • Family involvement in patient care\
+                                         • Unrestricted visitation\
+                                         • Family and patient experience surveys
+  --------------------------------------------------------------------------------
+
+# Patient and Family Centered Care (PFCC)
+
+## 定義
+
+- 以病人及家屬的 needs, values, preferences 為中心的照護模式
+
+- 主動將家屬納入 decision-making 及 care process
+
+- 特別是當病人無法自行溝通時
+
+## 有效介入措施
+
+  **介入措施**                  **說明**
+  ----------------------------- -----------------------------------------
+  **Unrestricted Visitation**   鼓勵家屬在場，不限制探視時間
+  **Daily Care Engagement**     讓家屬參與日常照護及 medical rounds
+  **Psychological Support**     ICU diaries、communication enhancements
+
+## PFCC 的效益
+
+- 降低 anxiety
+
+- 提升 patient and family satisfaction
+
+- 降低 delirium 風險
+
+- 降低 post-traumatic stress disorder 風險
+
+- 減少 ICU staff burnout
+
+# Effective Teamwork and Communication
+
+  --------------------------------------------------------------------------------------------
+  **工具**                            **說明**
+  ----------------------------------- --------------------------------------------------------
+  **Interprofessional Ward Rounds**   • 各專業人員共同參與\
+                                      • 做出全面性決策\
+                                      • 增進 patient safety、減少 errors
+
+  **Structured Handovers**            • 傳遞資訊及責任\
+                                      • 使用 memory aids 及 standardized protocols\
+                                      • 最小化 errors
+
+  **Safety Huddles**                  • 班前簡短的跨專業會議\
+                                      • 識別潛在風險\
+                                      • 確保所有成員掌握 critical patient safety information
+  --------------------------------------------------------------------------------------------
+
+# Staff Management and Well-Being
+
+## 重要性
+
+- 確保團隊有效招募、訓練及支持
+
+- 營造正向工作環境
+
+- 處理 staff development needs
+
+- 因應 staff shortages 及 burnout 挑戰
+
+## Iatroref Study 發現
+
+# Checklists
+
+## 功能與效益
+
+- 作為 cognitive aids，確保遵循 best practices
+
+- 標準化流程、改善團隊表現、減少 ICU errors
+
+- 類似航空業的 checklist 應用
+
+## 常見 ICU Checklists
+
+  ------------------------------------------------------------------------------
+  **類別**                                **內容**
+  --------------------------------------- --------------------------------------
+  **有正面效果的 Checklists**             • Delirium screening\
+                                          • CLABSI prevention\
+                                          • Airway management
+
+  **Intensive Care Society Checklists**   • Central venous catheter insertion\
+                                          • Nasogastric tube insertion\
+                                          • Chest drains\
+                                          • Bronchoscopies\
+                                          • Intubations\
+                                          • Tracheostomies
+  ------------------------------------------------------------------------------
+
+# Auditing and Benchmarking
+
+## Auditing 定義
+
+- 系統性審查臨床實務，確保符合既定標準
+
+- 應視為成長機會，而非評判性評估
+
+- 提供 feedback 以強化 guideline compliance 及促進改變
+
+## ICU 主要 Audit 領域
+
+- Ventilation
+
+- Ventilator-associated pneumonia
+
+- Intubation
+
+- Tracheostomy care
+
+- Venous access bundles compliance
+
+- Renal replacement therapy
+
+## Auditing 循環
+
+1.  收集資料
+
+2.  評估資料
+
+3.  重新收集資料以測量改善
+
+4.  在 CG meetings 分享結果
+
+## Benchmarking
+
+- 使用標準化指標比較 ICU 表現
+
+- 可進行內部及跨機構比較
+
+**常用指標：**
+
+- Mortality rates
+
+- Lengths of stay
+
+- Readmission rates
+
+- Adherence to care protocols
+
+- Patient satisfaction
+
+# Incident Reporting
+
+## 定義
+
+公開揭露並記錄臨床實務中發生的 adverse events、errors 及 near misses。
+
+## Incident Reporting Systems (IRS) 的功能
+
+- 收集事件
+
+- 提供資料以反思事件發生原因
+
+- 思考預防方法
+
+- 為 training programs 及 policy changes 提供資訊
+
+## 成功實施的關鍵
+
+- 使用 web-based 或 paper-based 平台
+
+- 確保 confidentiality，無報復風險
+
+- 教育 staff 了解 reporting system 的重要性
+
+- 減少因 fear of blame 造成的 underreporting
+
+- 提供及時 feedback
+
+# Morbidity and Mortality (M&M) Conferences
+
+## 功能
+
+- 系統性審查 adverse events 及 patient deaths
+
+- 識別 preventable errors 或 systemic issues
+
+- 增進 patient safety 及 care quality
+
+## 會議特點
+
+- 鼓勵 staff participation
+
+- 連結 case presentations、discussions 及 action items
+
+- 識別 systemic improvements 機會
+
+## M&M Meetings 的目標
+
+- Quality improvement
+
+- Education
+
+- Legal risk management
+
+- Peer support
+
+# Multidisciplinary Simulation
+
+## 定義
+
+*"Simulation is a technique---not a technology---to replace or amplify real experiences with guided experiences that evoke or replicate substantial aspects of the real world in a fully interactive manner."* --- David Gaba
+
+## In-Situ Simulation
+
+  ---------------------------------------------------------------------
+  **項目**       **說明**
+  -------------- ------------------------------------------------------
+  **定義**       在 ICU 內使用真實設備進行的模擬訓練
+
+  **優點**       • 訓練與真實情境相關\
+                 • 增進 technical 及 non-technical skills\
+                 • 發現 local system errors 及 latent safety threats\
+                 • 發現 faulty equipment 或 inadequate resources
+
+  **情境來源**   • 醫院 incident reporting system\
+                 • 真實 ICU cases
+
+  **常見情境**   • Airway failure\
+                 • Accidental extubation\
+                 • Medication errors\
+                 • Sepsis recognition
+  ---------------------------------------------------------------------
+
+## Debriefing 的重要性
+
+- 將 simulation experiences 轉化為 learning opportunities
+
+- 透過 structured reflection 及 feedback 進行
+
+- 結果應記錄並分享給相關 stakeholders
+
+# Clinical Governance Meetings
+
+## 功能
+
+- Information sharing 的核心場合
+
+- 定期舉行的跨專業會議
+
+## 討論內容
+
+- ICU guidelines
+
+- Innovations
+
+- Complaints
+
+- Incident reports
+
+- Audits
+
+- Morbidity and mortality cases
+
+## 參與人員
+
+- 所有 ICU professionals（開放參與）
+
+- Hospital management
+
+- External stakeholders
+
+- Patient representatives
+
+# Take-Home Message
+
+1.  **系統性應用：**系統性應用 CG 工具可協助 ICU 識別風險並促進 transparency、accountability 及 collective learning 的文化
+
+2.  **整合效果：**結合多種 CG 元素（如 checklists、staff education、regular feedback）可產生 synergistic effect
+
+3.  **Staff Well-Being：**Staff depression 與 medical errors 相關，應積極促進 staff well-being
+
+4.  **持續改善：**透過 auditing、incident reporting、M&M conferences 及 simulation 持續改善照護品質
+
+# 縮寫對照表
+
+  **縮寫**   **全名**
+  ---------- -----------------------------------------------
+  CG         Clinical Governance (臨床治理)
+  ICU        Intensive Care Unit (加護病房)
+  PFCC       Patient and Family Centered Care
+  IRS        Incident Reporting Systems
+  M&M        Morbidity and Mortality
+  CLABSI     Central Line-Associated Bloodstream Infection
+
+# 參考文獻
+
+1.  Carenzo L, Costantini E, Cecconi M. Clinical governance in intensive care medicine. [*Intensive Care Med*. 2024;50:2154-2157.](https://doi.org/10.1007/s00134-024-07653-8)
+
+2.  Pronovost P, Needham D, Berenholtz S, et al. An intervention to decrease catheter-related bloodstream infections in the ICU. [*N Engl J Med*. 2006;355:2725-2732.](https://doi.org/10.1056/NEJMoa061115)
+
+3.  Garrouste-Orgeas M, Perrin M, Soufir L, et al. The Iatroref study: medical errors are associated with symptoms of depression in ICU staff but not burnout or safety culture. [*Intensive Care Med*. 2015;41:273-284.](https://doi.org/10.1007/s00134-014-3601-4)
+
+4.  Rhodes A, Moreno RP, Azoulay E, et al. Prospectively defined indicators to improve the safety and quality of care for critically ill patients: a report from the Task Force on Safety and Quality of the European Society of Intensive Care Medicine (ESICM). [*Intensive Care Med*. 2012;38:598-605.](https://doi.org/10.1007/s00134-011-2462-3)
+
+5.  Ivers N, Jamtvedt G, Flottorp S, et al. Audit and feedback: effects on professional practice and healthcare outcomes. [*Cochrane Database Syst Rev*. 2012;6:CD000259.](https://doi.org/10.1002/14651858.CD000259.pub3)

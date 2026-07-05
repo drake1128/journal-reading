@@ -12,8 +12,14 @@ title: "心衰竭 — Heart Failure"
 - [Entresto_Seminar_2026.md](Entresto_Seminar_2026.md)
 - [HCM vs Fabry vs ATTR Amyloidosis 鑑別診斷 教學講義.md](HCM vs Fabry vs ATTR Amyloidosis 鑑別診斷 教學講義.md)
 - [BioVAT-HF 幹細胞工程心肌組織治療心衰竭 教學講義.md](BioVAT-HF 幹細胞工程心肌組織治療心衰竭 教學講義.md)
+- [HFpEF 診斷陷阱與瓣膜病鑑別 教學講義.md](HFpEF 診斷陷阱與瓣膜病鑑別 教學講義.md)
 
 ## LaTeX Files
 
 - Eur Heart J HNMT Heart Failure 2026.tex
 - NEJM Physiologic Pacing Heart Failure 2026.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Eur Heart J HNMT Heart Failure 2026](eur-heart-j-hnmt-heart-failure-2026.qmd)
+- [NEJM Physiologic Pacing Heart Failure 2026](nejm-physiologic-pacing-heart-failure-2026.qmd)

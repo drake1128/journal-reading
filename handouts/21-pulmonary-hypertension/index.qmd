@@ -9,3 +9,7 @@ title: "肺高壓 — Pulmonary Hypertension"
 ## LaTeX Files
 
 - CHEST 2026 ILD-PH.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [CHEST 2026 ILD-PH](chest-2026-ild-ph.qmd)

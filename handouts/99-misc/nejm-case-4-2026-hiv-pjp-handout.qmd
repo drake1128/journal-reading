@@ -1,0 +1,449 @@
+---
+title: "NEJM Case 4-2026 HIV PJP"
+author: "謝慕揚 MD, PhD, FESC"
+---
+
+> 本頁由 LaTeX 原稿經 Pandoc 自動轉換，可能需少量人工微調。
+
+::: center
+**NEJM Case Records of the Massachusetts General Hospital**\
+**Case 4-2026: An 80-Year-Old Woman with Cough and Hypoxemia**\
+80歲女性，咳嗽合併低血氧\
+[N Engl J Med 2026;394:498-507. DOI: 10.1056/NEJMcpc2513543](https://doi.org/10.1056/NEJMcpc2513543)\
+整理：謝慕揚 MD, PhD, FESC 日期：
+:::
+
+# 病例摘要
+
+## 主訴與現病史
+
+- 80歲女性，因咳嗽及低血氧入院
+
+- 發病前身體狀況良好，可騎腳踏車外出活動
+
+- **8週前**：出現productive cough、rhinorrhea、headache、fatigue、poor appetite
+
+- **5週前**：左側腰部出現帶狀皰疹 (herpes zoster)，接受valacyclovir治療14天
+
+- **6天前**：出現主觀發燒，至診所就醫
+
+  - 體重57.4 kg，9個月內減輕6.1 kg
+
+  - SpO$_2$ 94% (room air)
+
+  - 胸部X光：肺部正常，fissure處可能有少量積液
+
+  - 處方doxycycline 5天療程
+
+- **本次入院**：完成doxycycline療程後隔天出現呼吸困難
+
+## 過去病史
+
+- Allergic rhinitis、anxiety、chronic kidney disease
+
+- **1年前**：診斷metastatic squamous-cell carcinoma of unknown primary site
+
+  - 左腋下淋巴結切除，另7顆淋巴結無癌細胞
+
+  - PET-CT：左頸部淋巴結及左扁桃體區代謝增加
+
+  - 左扁桃體切除後未發現癌症
+
+## 旅遊史與社會史
+
+- 曾至南美洲、中美洲、東非旅行
+
+- **6年前**最近一次國際旅行：肯亞、盧旺達、坦尚尼亞
+
+- 2年前仍有性行為
+
+- 終生不吸菸，不使用毒品，每週飲酒一杯
+
+## 入院身體檢查
+
+- Temperature 37.3°C, BP 158/86 mmHg, HR 93 bpm, RR 16/min
+
+- **SpO$_2$ 83% (room air) → 93% with O$_2$ 4 L/min via nasal cannula**
+
+- 肺部聽診：雙側rhonchi，右下肺葉最明顯
+
+- 心臟檢查：規則心律，無雜音
+
+- 無clubbing或水腫
+
+# 檢驗數據
+
++-------------------------------+----------------------+------------------+
+| **檢驗項目**                  | **結果**             | **參考值**       |
++:==============================+:=====================+:=================+
+| **檢驗項目**                  | **結果**             | **參考值**       |
++-------------------------------+----------------------+------------------+
+| Hematocrit (%)                | 35.3                 | 36--46           |
++-------------------------------+----------------------+------------------+
+| Hemoglobin (g/dL)             | 12.1                 | 12--16           |
++-------------------------------+----------------------+------------------+
+| WBC (per $\mu$L)              | 7810                 | 4000--11000      |
++-------------------------------+----------------------+------------------+
+| Neutrophils                   | 6230                 | 1920--7600       |
++-------------------------------+----------------------+------------------+
+| Lymphocytes                   | **740** $\downarrow$ | 720--4100        |
++-------------------------------+----------------------+------------------+
+| Monocytes                     | 690                  | 160--1100        |
++-------------------------------+----------------------+------------------+
+| Platelet (per $\mu$L)         | 296,000              | 150,000--450,000 |
++-------------------------------+----------------------+------------------+
+| **C-reactive protein (mg/L)** | **52.7** $\uparrow$  | \<8.0            |
++-------------------------------+----------------------+------------------+
+| **ESR (mm/hr)**               | **58** $\uparrow$    | 0--29            |
++-------------------------------+----------------------+------------------+
+| Procalcitonin (ng/mL)         | 0.11                 | \<0.25           |
++-------------------------------+----------------------+------------------+
+| *Venous blood gas*                                                      |
++-------------------------------+----------------------+------------------+
+| pH                            | 7.48                 | 7.30--7.40       |
++-------------------------------+----------------------+------------------+
+| PO$_2$ (mmHg)                 | 49                   | 35--50           |
++-------------------------------+----------------------+------------------+
+| PCO$_2$ (mmHg)                | 32                   | 38--50           |
++-------------------------------+----------------------+------------------+
+
+# 影像學發現
+
+## 胸部X光
+
+- Hazy perihilar opacities，血管紋路模糊
+
+- 肺底部線狀陰影，可能為subsegmental atelectasis
+
+- 心臟輪廓正常，無pleural effusion
+
+## 胸部CT特徵
+
+- **Diffuse ground-glass opacities (GGO)**：雙側肺部
+
+- **Central distribution**（非周邊分布）
+
+- **Apical predominance**（肺尖為主，肺底相對保留）
+
+- Trace interlobular septal thickening
+
+- 無pleural effusion、pulmonary nodules、cysts、bronchiectasis
+
+- 無lymphadenopathy
+
+# 鑑別診斷思路
+
+## 感染性疾病
+
+### 細菌性肺炎
+
+- 症狀進展8週，不符合典型細菌性肺炎病程
+
+- Atypical pneumonia已排除（*C. pneumoniae*、*M. pneumoniae*陰性）
+
+- Doxycycline及azithromycin治療無效
+
+- Procalcitonin正常
+
+### 病毒性肺炎
+
+- SARS-CoV-2、influenza、RSV及extended viral panel均陰性
+
+- Disseminated VZV pneumonia？
+
+  - 通常在皮疹出現後1週內發生，本案為5週後
+
+  - VZV pneumonitis典型表現為diffuse nodular opacities
+
+## 腫瘤相關
+
+- 病人有squamous cell carcinoma病史
+
+- 但已完成lymphadenectomy，無殘餘疾病
+
+- CT無lymphadenopathy、mass、nodular septal thickening
+
+- 不符合lymphoma或lymphangitic carcinomatosis表現
+
+## 自體免疫與結締組織疾病
+
+- ANCA-associated vasculitis可造成GGO（肺出血）
+
+- 但通常有多器官侵犯（腎絲球腎炎、神經病變、紫斑）
+
+- 本案無multisystem involvement，不支持此診斷
+
+## 免疫缺損宿主的考量
+
+### HIV感染相關伺機性感染
+
+依CD4 cell count可能出現的伺機性感染：
+
+  **CD4 Count**                       **可能的伺機性感染**
+  ----------------------------------- ----------------------------------------------
+  Any count                           Tuberculosis, VZV reactivation
+  $\leq$`<!-- -->`{=html}250/$\mu$L   Coccidioidomycosis
+  $\leq$`<!-- -->`{=html}200/$\mu$L   ***Pneumocystis jirovecii* pneumonia (PJP)**
+  $\leq$`<!-- -->`{=html}150/$\mu$L   Histoplasmosis
+  $\leq$`<!-- -->`{=html}100/$\mu$L   Cryptococcus, CMV
+  $\leq$`<!-- -->`{=html}50/$\mu$L    *Mycobacterium avium* complex (MAC)
+
+# 診斷結果
+
+## HIV檢測
+
+- HIV-1/HIV-2 antigen-antibody combination immunoassay：**Reactive**
+
+- Confirmatory testing：**HIV-1 positive**
+
+- **HIV-1 viral load：223,000 copies/mL**
+
+- **CD4 count：33/$\mu$L** $\rightarrow$ Advanced HIV-1 infection
+
+## *Pneumocystis jirovecii* Pneumonia確診
+
+- Induced sputum DFA for *P. jirovecii*：Negative
+
+- **Serum 1,3-$\beta$-D-glucan：\>500 pg/mL**（參考值 \<60）$\rightarrow$ 強烈陽性
+
+- BAL fluid DFA for *P. jirovecii*：**Positive**
+
+## 意外發現：*Cryptococcus neoformans*
+
+- 住院第3天BAL fluid fungal culture長出yeast colonies
+
+- 鑑定為***Cryptococcus neoformans***
+
+- Serum cryptococcal antigen：Negative（可能因fungal burden低）
+
+- Lumbar puncture排除CNS involvement
+
+# PJP診斷方法比較
+
+  ------------------------------------------------------------------------------------
+  **檢測方法**                 **敏感度**                **備註**
+  ---------------------------- ------------------------- -----------------------------
+  Induced sputum DFA           67--99% (HIV+)\           非侵入性，適合初步篩檢
+                               \<50% (immunocompetent)   
+
+  **BAL fluid DFA**            **90--99% (HIV+)**        敏感度最高，為gold standard
+
+  Serum 1,3-$\beta$-D-glucan   High sensitivity          可早期提示，但非特異性
+
+  Nucleic acid amplification   Highest sensitivity       可能偵測到colonization，\
+                                                         判讀需謹慎
+  ------------------------------------------------------------------------------------
+
+# 治療策略
+
+## PJP治療
+
+### Antimicrobial therapy
+
+- **First-line：High-dose trimethoprim-sulfamethoxazole (TMP-SMX)**
+
+  - 療效優於其他替代藥物
+
+  - 需監測potassium及kidney function
+
+  - 療程3週
+
+- Alternative agents：Atovaquone, pentamidine, clindamycin + primaquine
+
+### Adjunctive glucocorticoid therapy
+
+**適應症**（moderate-to-severe PJP）：
+
+- PaO$_2$ \< 70 mmHg (room air)，或
+
+- A-a gradient $\geq$ 35 mmHg
+
+::: importantbox
+**本案病人SpO$_2$ 83% (room air)**，屬clinically significant hypoxemia，符合glucocorticoid使用適應症。
+:::
+
+## Cryptococcal pneumonia治療
+
+- Serum cryptococcal antigen陰性 $\rightarrow$ Localized disease
+
+- Lumbar puncture排除CNS disease
+
+- 治療：**Fluconazole**，總療程6個月
+
+## Antiretroviral Therapy (ART)
+
+### ART啟動時機考量
+
+- 早期啟動ART可減少AIDS-defining diseases及死亡風險
+
+- 可增加viral suppression及patient retention in care
+
+- **例外**：Cryptococcal meningitis患者應延遲ART（研究顯示早期啟動反而增加morbidity/mortality）
+
+### 本案處置
+
+- CSF analysis排除cryptococcal meningitis
+
+- 啟動**bictegravir-emtricitabine-tenofovir alafenamide**
+
+# 病程與預後
+
+- 開始antimicrobial及glucocorticoid治療後症狀明顯改善
+
+- 完成3週高劑量TMP-SMX後轉為prophylactic dose
+
+- Fluconazole持續6個月
+
+- **HIV viral load quickly became undetectable**
+
+- 目前專注於HIV-informed health maintenance
+
+- 病人獲知「**U = U: Undetectable = Untransmissible**」概念
+
+# 教學重點
+
+## 老年人HIV篩檢的重要性
+
+- 2021年美國HIV感染者中，**41%為55歲以上**
+
+- 55歲以上新診斷者中，**34%診斷時已是AIDS**
+
+- 老年人HIV篩檢率低於年輕族群
+
+- 原因：
+
+  - 門診需討論的議題太多
+
+  - 社會觀感/尷尬
+
+  - 臨床醫師對老年人性行為的假設
+
+## CDC建議：性健康史「5 Ps」
+
+1.  **P**artners（性伴侶）
+
+2.  **P**ractices（性行為方式）
+
+3.  **P**rotection（STI預防措施）
+
+4.  **P**ast（STI病史）
+
+5.  **P**regnancy intention（懷孕意願）
+
+## 本案關鍵教訓
+
+::: importantbox
+1.  **Herpes zoster可能暗示underlying immunodeficiency**
+
+2.  **旅遊史及性行為史對任何年齡都重要**
+
+3.  **Subacute respiratory syndrome + ground-glass opacities要考慮PJP**
+
+4.  **1,3-$\beta$-D-glucan是PJP的有用biomarker**
+
+5.  **Severely immunocompromised患者可能同時有多重伺機性感染**
+
+6.  **早期ART啟動有益，但cryptococcal meningitis除外**
+:::
+
+# 考題
+
+## 選擇題
+
+1.  一位80歲女性，有8週的咳嗽、疲勞、體重減輕病史。5週前曾診斷herpes zoster。入院時SpO$_2$ 83% (room air)，胸部CT顯示bilateral ground-glass opacities with central distribution and apical predominance。下列何者最可能是造成此影像表現的病因？
+
+    1.  Bacterial pneumonia
+
+    2.  Pulmonary tuberculosis
+
+    3.  ***Pneumocystis jirovecii* pneumonia**
+
+    4.  ANCA-associated vasculitis
+
+    5.  Lymphangitic carcinomatosis
+
+    *答案：(C)。Central ground-glass opacities with apical predominance是PJP的典型CT表現。*
+
+2.  關於*Pneumocystis jirovecii* pneumonia的診斷，下列敘述何者**錯誤**？
+
+    1.  Induced sputum DFA在HIV感染者的敏感度為67--99%
+
+    2.  BAL fluid DFA是gold standard，敏感度可達90--99%
+
+    3.  Serum 1,3-$\beta$-D-glucan通常會升高
+
+    4.  ***P. jirovecii*可在常規培養基上生長**
+
+    5.  Nucleic acid amplification test敏感度最高但可能偵測到colonization
+
+    *答案：(D)。*P. jirovecii*是一種真菌，無法在常規培養基上生長，因此需要使用immunofluorescence assay進行診斷。*
+
+3.  關於moderate-to-severe *P. jirovecii* pneumonia的治療，下列敘述何者正確？
+
+    1.  Atovaquone是首選藥物
+
+    2.  **High-dose trimethoprim-sulfamethoxazole是首選藥物**
+
+    3.  不需要使用adjunctive glucocorticoid
+
+    4.  Glucocorticoid只用於PaO$_2$ \< 50 mmHg的病人
+
+    5.  療程通常為7天
+
+    *答案：(B)。High-dose TMP-SMX是PJP的首選藥物。當PaO$_2$ \< 70 mmHg或A-a gradient $\geq$ 35 mmHg時，應加上adjunctive glucocorticoid。療程為3週。*
+
+4.  HIV感染者的CD4 count降至何種程度時，較容易發生*Pneumocystis jirovecii* pneumonia？
+
+    1.  $\leq$`<!-- -->`{=html}500/$\mu$L
+
+    2.  $\leq$`<!-- -->`{=html}350/$\mu$L
+
+    3.  **$\leq$`<!-- -->`{=html}200/$\mu$L**
+
+    4.  $\leq$`<!-- -->`{=html}100/$\mu$L
+
+    5.  $\leq$`<!-- -->`{=html}50/$\mu$L
+
+    *答案：(C)。PJP通常發生於CD4 count $\leq$`<!-- -->`{=html}200/$\mu$L的患者。這也是開始PJP prophylaxis的閾值。*
+
+5.  關於HIV感染者開始antiretroviral therapy (ART)的時機，下列敘述何者正確？
+
+    1.  所有伺機性感染都應延遲ART啟動
+
+    2.  **Cryptococcal meningitis患者應延遲ART啟動**
+
+    3.  PJP患者應延遲ART至完成3週治療後
+
+    4.  CD4 count \> 200/$\mu$L時才能開始ART
+
+    5.  需等待所有感染控制後才開始ART
+
+    *答案：(B)。早期啟動ART可減少AIDS progression及死亡，但研究顯示cryptococcal meningitis患者早期啟動ART反而增加morbidity/mortality，因此建議延遲ART。PJP患者則應early initiation of ART。*
+
+## 問答題
+
+1.  請說明為何本案80歲女性出現herpes zoster是一個重要的臨床線索？
+
+    *參考答案：Herpes zoster雖然常見於老年人（因年齡相關的免疫力下降），但也可能暗示underlying immunodeficiency。在本案中，herpes zoster的出現應促使臨床醫師考慮HIV感染的可能性，特別是當病人有相關風險因素時（如旅行史至HIV高盛行區、性行為史）。*
+
+2.  為什麼本案的serum cryptococcal antigen是陰性，但BAL fluid culture卻長出*Cryptococcus neoformans*？
+
+    *參考答案：Serum cryptococcal antigen testing對於disseminated或CNS cryptococcosis的敏感度較高，但在isolated pulmonary infection且fungal burden較低時可能呈陰性。因此，陰性的serum cryptococcal antigen不能排除localized pulmonary cryptococcosis。*
+
+3.  請說明CDC建議的性健康史評估「5 Ps」包含哪些內容？為何這對老年人的HIV篩檢很重要？
+
+    *參考答案：5 Ps包括：Partners（性伴侶）、Practices（性行為方式）、Protection（STI預防措施）、Past（STI病史）、Pregnancy intention（懷孕意願）。這對老年人HIV篩檢很重要，因為2021年美國HIV感染者中41%為55歲以上，且55歲以上新診斷者中34%已是AIDS。老年人的HIV篩檢率偏低，部分原因是臨床醫師可能假設老年人沒有性行為。主動詢問性健康史可以識別需要HIV篩檢的高風險個體。*
+
+# 參考文獻
+
+1.  Shrestha S, Brown T, Chu JT, Donnelly-Morell ML. Case 4-2026: An 80-Year-Old Woman with Cough and Hypoxemia. [*N Engl J Med*. 2026;394:498-507.](https://doi.org/10.1056/NEJMcpc2513543)
+
+2.  Self WH, Balk RA, Grijalva CG, et al. Procalcitonin as a marker of etiology in adults hospitalized with community-acquired pneumonia. [*Clin Infect Dis*. 2017;65:183-90.](https://doi.org/10.1093/cid/cix317)
+
+3.  Kanne JP, Yandow DR, Meyer CA. Pneumocystis jiroveci pneumonia: high-resolution CT findings in patients with and without HIV infection. [*AJR Am J Roentgenol*. 2012;198:W555-W561.](https://doi.org/10.2214/AJR.11.7329)
+
+4.  Bozzette SA, Sattler FR, Chiu J, et al. A controlled trial of early adjunctive treatment with corticosteroids for Pneumocystis carinii pneumonia in the acquired immunodeficiency syndrome. [*N Engl J Med*. 1990;323:1451-7.](https://doi.org/10.1056/NEJM199011223232103)
+
+5.  Boulware DR, Meya DB, Muzoora C, et al. Timing of antiretroviral therapy after diagnosis of cryptococcal meningitis. [*N Engl J Med*. 2014;370:2487-98.](https://doi.org/10.1056/NEJMoa1312884)
+
+6.  Chang CC, Harrison TS, Bicanic TA, et al. Global guideline for the diagnosis and management of cryptococcosis. [*Lancet Infect Dis*. 2024;24(8):e495-e512.](https://doi.org/10.1016/S1473-3099(24)00127-3)

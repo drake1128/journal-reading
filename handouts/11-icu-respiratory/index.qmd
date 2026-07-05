@@ -10,3 +10,8 @@ title: "ICU 呼吸系統 — ICU Respiratory"
 
 - Critical Care 2026 ICUAW Rehabilitation.tex
 - ICM Diaphragm Ultrasound 2024 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Critical Care 2026 ICUAW Rehabilitation](critical-care-2026-icuaw-rehabilitation.qmd)
+- [ICM Diaphragm Ultrasound 2024](icm-diaphragm-ultrasound-2024-handout.qmd)

@@ -14,3 +14,7 @@ title: "肺栓塞 — Pulmonary Embolism"
 ## LaTeX Files
 
 - Circulation STORM-PE 2025 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Circulation STORM-PE 2025](circulation-storm-pe-2025-handout.qmd)

@@ -15,3 +15,11 @@ title: "周邊血管 — Peripheral Vascular"
 - NEJM Ischemic Limb Gangrene with Pulses 2015 教學講義.tex
 - NEJM PAD Review McDermott 2026 教學講義.tex
 - NHMRC Carotid Web RBC Thrombosis 2026 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Advanced Materials Carotid Artery Chip 3D Printing 2026](advanced-materials-carotid-artery-chip-3d-printing-2026-handout.qmd)
+- [NEJM CREST-2 2026](nejm-crest-2-2026.qmd)
+- [NEJM Ischemic Limb Gangrene with Pulses 2015](nejm-ischemic-limb-gangrene-with-pulses-2015-handout.qmd)
+- [NEJM PAD Review McDermott 2026](nejm-pad-review-mcdermott-2026-handout.qmd)
+- [NHMRC Carotid Web RBC Thrombosis 2026](nhmrc-carotid-web-rbc-thrombosis-2026-handout.qmd)

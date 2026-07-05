@@ -12,3 +12,10 @@ title: "心臟影像 — Cardiac Imaging"
 - Circulation AI-ECG Phenotypic Selectivity 2025 教學講義.tex
 - ECG_Reading_Guide_護理心電圖判讀指南.tex
 - EuroIntervention Intravascular Imaging 2024-2025 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Cardiac MRI LGE Patterns cardiac-mri](cardiac-mri-lge-patterns-cardiac-mri.qmd)
+- [Circulation AI-ECG Phenotypic Selectivity 2025](circulation-ai-ecg-phenotypic-selectivity-2025-handout.qmd)
+- [ECG Reading Guide ecg-nursing-guide](ecg-reading-guide-ecg-nursing-guide.qmd)
+- [EuroIntervention Intravascular Imaging 2024-2025](eurointervention-intravascular-imaging-2024-2025-handout.qmd)

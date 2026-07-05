@@ -1,0 +1,424 @@
+---
+title: "JACC NY Cardiac Registries 2012"
+author: "謝慕揚 MD, PhD, FESC"
+---
+
+> 本頁由 LaTeX 原稿經 Pandoc 自動轉換，可能需少量人工微調。
+
+::: center
+**Journal of the American College of Cardiology**\
+**The New York State Cardiac Registries:\
+History, Contributions, Limitations, and Lessons for\
+Future Efforts to Assess and Publicly Report Healthcare Outcomes**\
+紐約州心臟登錄系統：\
+歷史、貢獻、限制與醫療成效公開報告之經驗教訓\
+[J Am Coll Cardiol 2012;59:2309-16. DOI: 10.1016/j.jacc.2011.12.051](https://doi.org/10.1016/j.jacc.2011.12.051)\
+整理：謝慕揚 MD, PhD, FESC 日期：
+:::
+
+::: tcolorbox
+**重大發現：**紐約州於1989年建立全美首個心臟手術臨床登錄系統 (CSRS)，開創醫療成效公開報告之先河。經風險校正後，CABG 手術院內死亡率從1989年的4.17%降至1992年的2.45%，降幅達**41%**。
+
+**臨床意義：**
+
+- 臨床資料庫在風險校正上優於行政資料庫
+
+- 公開報告制度可有效促進醫療品質改善
+
+- 資料準確性、利害關係人參與、outlier 認定為成功關鍵
+:::
+
+# 研究概述
+
+本文為一篇 State-of-the-Art Paper，回顧紐約州心臟登錄系統 (New York State Cardiac Registries) 從1989年建立至2012年的發展歷程，總結20餘年來的經驗與教訓，為未來醫療成效公開報告提供重要參考。
+
+## 歷史背景
+
+1988年，紐約州衛生署長 Dr. David Axelrod 發現州內各醫院 CABG 手術死亡率存在高達**五倍**的差異。然而，當時可用的醫院層級資料無法解釋這些差異是源於：
+
+- 病人術前嚴重度不同 (case mix)
+
+- 醫院照護品質差異 (quality of care)
+
+聯邦醫療保險管理局 (HCFA, 現 CMS) 於1986-1992年間發布的死亡率報告使用行政資料，但因資料品質問題而備受批評。紐約州因此決定建立**病人層級臨床資料庫**，以更準確評估醫院表現。
+
+# 登錄系統發展歷史
+
+  -------------------------------------------------------------------------------------------
+  **年份**   **重要事件**
+  ---------- --------------------------------------------------------------------------------
+  1989       建立 Cardiac Surgery Reporting System (CSRS)，收集 CABG/valve surgery 臨床資料
+
+  1990       首次公開發布醫院風險校正死亡率\
+             • JAMA 發表分析報告\
+             • 同日 Dr. Axelrod 向 New York Times 公布醫院名稱與數據
+
+  1991       建立 Pediatric Cardiac Surgery Reporting System
+
+  1992       • 長島報紙 Newsday 提告要求公開外科醫師個人數據\
+             • 開始以三年累積資料發布外科醫師成果\
+             • 建立 Percutaneous Coronary Interventions Reporting System (PCIRS)
+
+  1997       開始定期發布 PCIRS 年度報告
+
+  2004       結果指標改為院內死亡或手術後30天內死亡 (含出院後)
+
+  2006       Cardiogenic shock 病人從風險校正分析中排除
+  -------------------------------------------------------------------------------------------
+
+# 資料收集與報告方法
+
+## 資料元素與定義
+
+- 由 Cardiac Advisory Committee (CAC) 下設之心臟外科與心臟科次委員會決定
+
+- 包含：人口學資料、風險因子、併發症、手術日期、出院情況
+
+- 定期更新，並提供醫院臨床資料協調員培訓
+
+## 資料準確性確保
+
+  ----------------------------------------------------------------------------------------------------
+  **方法**              **說明**
+  --------------------- ------------------------------------------------------------------------------
+  資料清理 (Cleaning)   與醫院互動減少遺漏資料，比對行政資料庫 (SPARCS) 確保病人完整性與出院結果正確
+
+  稽核 (Auditing)       由 DOH 稽核代理人檢視病歷，選擇標準：\
+                        • 距上次稽核時間\
+                        • 上次稽核發現的問題\
+                        • 高風險因子報告率異常偏高
+
+  即時回饋              醫院可即時了解自身風險校正死亡率\
+                        DOH 在年度報告發布前即發送警示信給高死亡率醫院
+  ----------------------------------------------------------------------------------------------------
+
+## 風險校正方法
+
+1.  使用 **logistic regression model** 計算每位病人的預期死亡機率
+
+2.  採用 backward stepwise elimination 與 training/validation samples 交叉驗證
+
+3.  計算各醫療提供者的 expected mortality rate
+
+4.  **風險校正死亡率** = (Observed / Expected) × Statewide rate
+
+5.  以 95% 信賴區間判定 outlier 狀態：
+
+    - 顯著高於全州平均
+
+    - 顯著低於全州平均
+
+    - 無顯著差異
+
+# 醫院品質改善成功案例
+
+::: tcolorbox
+以下三個案例說明公開報告制度如何促使醫院進行品質改善，達成顯著的死亡率下降。
+:::
+
+## St. Peter's Hospital, Albany
+
+- **問題**：1991-1992年被認定為高死亡率 outlier
+
+- **分析**：緊急手術死亡率 26% (全州 7%)，擇期/緊急但非急診則與全州相當
+
+- **發現**：病人術前未充分穩定即進行手術
+
+- **改善**：多專科團隊審查緊急病人管理流程
+
+- **結果**：1993年54例緊急 CABG **零死亡**
+
+## Winthrop Hospital, Mineola
+
+- **問題**：首次公開報告中風險校正死亡率為全州最高之一
+
+- **行動**：DOH 委託外部審查，心臟手術計畫列入觀察
+
+- **改善措施**：
+
+  - 聘請新心臟外科主任
+
+  - 集中服務於單一樓層
+
+  - 聘用專屬 clinical nurse specialists 與 physician assistants
+
+  - 建立專屬心臟麻醉服務
+
+  - 每例術前審查
+
+- **結果**：風險校正死亡率 **9.2% → 4.6% → 2.3%** (1989-1991)
+
+## Erie County Medical Center, Buffalo
+
+- **問題**：1989上半年全州最高風險校正死亡率
+
+- **行動**：CAC 實地訪查，醫院於1990年自願暫停手術
+
+- **改善措施**：
+
+  - 建立心臟外科品質保證計畫
+
+  - 外科醫師資格審查與持續評估
+
+  - 專屬心臟麻醉科醫師與加護病房
+
+  - 聘請全職專任主任
+
+  - 更新手術室與 ICU 人員
+
+- **結果**：
+
+  - 風險校正死亡率：**7.31% → 2.51%** (1989-91 vs 1993-95)
+
+  - 手術量：約100例/年 → 219例/年 (1996-98)
+
+  - 1996-98死亡率降至 1.77%
+
+# 心臟預後變化
+
+## 紐約州 CABG 死亡率變化
+
+  **指標**              **1989**   **1992**         **變化**
+  -------------------- ---------- ---------- ----------------------
+  院內死亡率 (crude)     3.52%      2.78%       $\downarrow$ 21%
+  風險校正死亡率         4.17%      2.45%     $\downarrow$ **41%**
+
+## 與全美比較
+
+**Peterson et al. (1998) - Medicare 資料 1987-1992：**
+
+- 1992年紐約州風險校正死亡率為**全美最低**
+
+- 1987-1992年死亡率降幅為所有低死亡率州中**最大**
+
+**Hannan et al. (2003) - Medicare 資料 1994-1999：**
+
+- 紐約州 vs 全美其他地區 CABG 死亡率
+
+- 風險校正 Odds Ratio: **0.66** (95% CI: 0.57-0.77)
+
+- 換言之：全美其他地區病人死亡風險比紐約州高 **52%**
+
+# 高風險病人迴避爭議
+
+公開報告制度最受批評的議題之一，是可能導致醫師/醫院拒絕治療高風險病人或將其轉介至州外。
+
+## 支持迴避說的研究
+
+  --------------------------------------------------------------------------------------------
+  **研究**                 **發現**
+  ------------------------ -------------------------------------------------------------------
+  Omoigui et al. (1996)    Cleveland Clinic 收治的紐約州 CABG 病人：\
+                           • 1980-88: 61.4人/年\
+                           • 1989-93: 96.2人/年\
+                           • 紐約州病人比本州病人更重症
+
+  Moscucci et al. (2005)   紐約 vs 密西根 PCI 病人比較：\
+                           紐約病人 AMI、cardiogenic shock、CHF 盛行率較低\
+                           但風險校正後死亡率無顯著差異
+
+  Burack et al. (1999)     調查：67% 紐約州外科醫師過去一年曾拒絕至少1位病人\
+                           18% 拒絕 $\geq$`<!-- -->`{=html}5 位病人
+
+  Narins et al. (2005)     83% 紐約州介入心臟科醫師認為公開報告降低高風險病人接受 PCI 的機會
+  --------------------------------------------------------------------------------------------
+
+## 反駁迴避說的證據
+
+- **Omoigui 研究的問題**：
+
+  - 首次公開資料是1990年且未預期，最早可能影響轉介行為是1991年
+
+  - 1989-90 與 1991-93 期間轉介病人嚴重度變化不大
+
+- **Moscucci 研究的問題**：
+
+  - Shock 定義不同：紐約要求 SBP \<80 mmHg 或 CI \<2.0（即使藥物/機械支持下）
+
+  - 低風險病人比例高可能是因低風險者接受更多 PCI，而非高風險者減少
+
+- **Peterson et al. (1998)**：紐約州 Medicare CABG 病人 AMI、CHF、DM、PVD 盛行率與全美相當
+
+- **Hannan et al. (2003)**：紐約州 CABG 病人在 AMI、年齡 $\geq$`<!-- -->`{=html}80歲、急診入院、女性比例上**顯著高於**全美其他地區
+
+- **州外轉介率**：紐約州 (9.9-10.4%) 實際上**低於**全美平均 (10.4-10.5%)
+
+## Shock 病人政策調整
+
+2006年起，紐約州將 cardiogenic shock 病人從風險校正分析中排除：
+
++-------------------+----------+----------+----------+----------+
+| **指標**          | **2005** | **2006** | **2007** | **2008** |
++:==================+:========:+:========:+:========:+:========:+
+| **指標**          | **2005** | **2006** | **2007** | **2008** |
++-------------------+----------+----------+----------+----------+
+| PCI shock 病人數  | 83       | 133      | 146      | 138      |
++-------------------+----------+----------+----------+----------+
+| PCI 死亡率        | 34%      | 合併 45%                       |
++-------------------+----------+----------+----------+----------+
+| CABG shock 病人數 | 32       | 46       | 41       | 43       |
++-------------------+----------+----------+----------+----------+
+| CABG 死亡率       | 22%      | 合併 38%                       |
++-------------------+----------+--------------------------------+
+
+排除 shock 病人後，PCI 量平均每年增加 **67%**，且接受治療的 shock 病人病情更重。
+
+# 對醫院市場佔有率的影響
+
+研究結果不一致：
+
+- **Hannan et al. (2004)**：1989-1992年間醫院量無實質變化
+
+- **Mukamel & Mushlin (1998)**：1990-1993年間報告對醫院量影響小，對醫師量影響較大
+
+- **Romano & Zhou (2004)**：低死亡率 outlier 醫院在報告發布後首月 CABG 量增加 22%
+
+- **Jha & Epstein (2006)**：1989-2002年間無證據顯示最佳/最差醫院市場佔有率有顯著變化
+
+**使用者行為：**
+
+- 僅 22% 心臟科醫師會與病人討論報告結果
+
+- 僅 38% 心臟科醫師使用報告資訊進行轉介決策
+
+# 對外科醫師的影響
+
+## 低量/高死亡率醫師離開
+
+1989-1992年間，**27位低量外科醫師**停止在紐約州執行心臟手術：
+
+- 部分離開該州
+
+- 部分退休
+
+- 部分改為非心臟手術
+
+這群醫師在最後執業年的風險校正 CABG 死亡率為 **11.9%**，而同期全州平均為 **3.1%**。
+
+## Jha & Epstein (2006) 分析
+
+使用1989-1991至1994-1996的三年累積報告：
+
+- 風險校正死亡率在**最差四分位**的醫師：報告發布後2年內 **\>20%** 停止執行 CABG
+
+- 其他三個四分位的醫師：約 **5%** 停止
+
+- 此差異達統計顯著
+
+# 報告預測未來表現的能力
+
+**Jha & Epstein (2006)**：
+
+- 若1996年病人選擇1993年報告中前10%的醫院：該醫院1996年實際風險校正死亡率為 1.82%
+
+- 若選擇1993年報告中後10%的醫院：該醫院1996年實際死亡率為 2.89%
+
+- 1996-2002年彙整資料：前10%醫院平均 1.59%，後10%醫院平均 2.78%
+
+**Glance et al. (2010)**：
+
+- 2年前的資料可良好預測未來表現
+
+- 3年前的資料可能不足以辨識低表現醫院
+
+# 登錄資料的其他用途
+
+除了製作公開報告外，紐約州心臟登錄資料已被用於研究多項重要議題：
+
+  **研究主題**                    **說明**
+  ------------------------------- ------------------------------------------
+  Volume-mortality relationship   手術量與死亡率的關係
+  Stent 比較                      Drug-eluting stents vs bare-metal stents
+  CABG vs PCI                     不同血管重建策略的比較效果
+  Off-pump vs On-pump CABG        不同手術技術的比較
+  不完全血管重建                  Incomplete revascularization 的影響
+  醫療可近性                      依種族、族裔、性別、保險的差異
+  過程與結果關係                  Processes/structures of care 與 outcomes
+  風險校正方法評估                Clinical vs administrative databases
+  手術適當性                      Appropriateness of cardiac procedures
+
+# 經驗教訓
+
+::: tcolorbox
+無論對公開報告持何種看法，此趨勢將持續發展。以下為紐約州20餘年經驗中最重要的三項教訓。
+:::
+
+## 資料準確性至關重要
+
+- 公開報告時代，刻意或意外的資料不準確將會發生
+
+- **案例**：某醫院報告300例 isolated CABG 零死亡，比對行政資料後發現漏報約50例，其中18例死亡
+
+- **案例**：某醫院將病人「出院」至未認證的院內安寧病房，實際死於 CABG 併發症
+
+- 院外死亡資料需透過 National Death Index 或州生命統計資料取得
+
+- 風險因子準確性只能透過病歷稽核確保
+
+## 利害關係人參與提升接受度
+
+- CAC 包含世界頂尖的臨床醫師與研究者
+
+- 歷任主席包括 John Kirklin、Kenneth Shine、Spencer King
+
+- 定期舉辦全州說明會
+
+- 提供醫師提出建議與問題的管道
+
+- 仍需更多努力教育臨床人員與提升報告可讀性
+
+## Outlier 狀態是強大的動力
+
+- 前述醫院改善案例證明 outlier 認定的激勵效果
+
+- 許多醫院私下承認：若非被認定或接近 outlier，不會仔細檢視照護流程
+
+- **啟示**：
+
+  - 包含極少 outlier 的報告可能無法促進改變
+
+  - 無法區分醫療提供者品質的報告對病人與轉介醫師幫助有限
+
+# 結論
+
+1.  **20年驗證：**紐約州「實驗」在 HCFA 公開報告遭批評後，證明以臨床資料庫進行風險校正的醫療成效公開報告可行且有效。
+
+2.  **典範效應：**此模式已啟發多州類似計畫（Pennsylvania、California、Massachusetts、New Jersey），並成為聯邦與專業學會計畫的參考模型。
+
+3.  **持續挑戰：**如何使公開報告更準確、更具資訊性、更能造福病人、醫療提供者、監管者與政策制定者，仍是未來努力方向。
+
+# 參考文獻
+
+1.  Hannan EL, Kilburn H Jr, O'Donnell JF, Lukacik G, Shields EP. Adult open heart surgery in New York State: an analysis of risk factors and hospital mortality rates. [*JAMA*. 1990;264:2768-74.](https://doi.org/10.1001/jama.1990.03450210068031)
+
+2.  Hannan EL, Kilburn H Jr, Racz M, Shields E, Chassin MR. Improving the outcomes of coronary artery bypass surgery in New York State. [*JAMA*. 1994;271:761-6.](https://doi.org/10.1001/jama.1994.03510300063033)
+
+3.  Peterson ED, DeLong ER, Jollis JG, Muhlbaier LH, Mark DB. The effects of New York's bypass surgery provider profiling on access to care and patient outcomes in the elderly. [*J Am Coll Cardiol*. 1998;32:993-9.](https://doi.org/10.1016/S0735-1097(98)00410-5)
+
+4.  Hannan EL, Sarrazin MSV, Doran DR, Rosenthal GE. Provider profiling and quality improvement efforts in coronary artery bypass graft surgery. [*Med Care*. 2003;41:1164-72.](https://doi.org/10.1097/01.MLR.0000089344.07882.2E)
+
+5.  Chassin MR. Achieving and sustaining improved quality: lessons from New York State and cardiac surgery. [*Health Aff*. 2002;21:40-51.](https://doi.org/10.1377/hlthaff.21.4.40)
+
+6.  Jha A, Epstein AM. The predictive accuracy of the New York State coronary artery bypass surgery report-card system. [*Health Affairs*. 2006;25:844-55.](https://doi.org/10.1377/hlthaff.25.3.844)
+
+7.  Hannan EL, Cozzens K, King SB III, Walford G, Shah NR. The New York State Cardiac Registries: History, Contributions, Limitations, and Lessons for Future Efforts to Assess and Publicly Report Healthcare Outcomes. [*J Am Coll Cardiol*. 2012;59:2309-16.](https://doi.org/10.1016/j.jacc.2011.12.051)
+
+# 縮寫對照表
+
+  **縮寫**   **全名**
+  ---------- ----------------------------------------------------------------------------
+  AMI        Acute Myocardial Infarction (急性心肌梗塞)
+  CABG       Coronary Artery Bypass Graft (冠狀動脈繞道手術)
+  CAC        Cardiac Advisory Committee (心臟諮詢委員會)
+  CHF        Congestive Heart Failure (鬱血性心衰竭)
+  CI         Confidence Interval (信賴區間) / Cardiac Index (心輸出指數)
+  CMS        Center for Medicare and Medicaid Services (聯邦醫療保險暨醫療補助服務中心)
+  CSRS       Cardiac Surgery Reporting System (心臟手術報告系統)
+  DOH        Department of Health (衛生署)
+  HCFA       Health Care Financing Administration (醫療保險管理局，現為CMS)
+  OR         Odds Ratio (勝算比)
+  PCI        Percutaneous Coronary Intervention (經皮冠狀動脈介入術)
+  PCIRS      Percutaneous Coronary Interventions Reporting System (PCI報告系統)
+  PVD        Peripheral Vascular Disease (周邊血管疾病)
+  SBP        Systolic Blood Pressure (收縮壓)
+  SPARCS     Statewide Planning and Research Cooperative System (全州規劃研究合作系統)

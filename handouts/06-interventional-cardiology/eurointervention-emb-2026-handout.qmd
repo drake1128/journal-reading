@@ -1,0 +1,350 @@
+---
+title: "EuroIntervention EMB 2026"
+author: "謝慕揚 MD, PhD, FESC"
+---
+
+> 本頁由 LaTeX 原稿經 Pandoc 自動轉換，可能需少量人工微調。
+
+::: center
+**EuroIntervention Expert Review**\
+**Endomyocardial Biopsy**\
+心內膜心肌切片術\
+EuroIntervention 2026;21:e19-e31. DOI: 10.4244/EIJ-D-25-00263\
+整理：謝慕揚 MD, PhD, FESC 日期：
+:::
+
+# 文獻概述
+
+本篇為 EuroIntervention 發表的專家綜論，由義大利 Trieste 大學 Fabris 等人撰寫，全面回顧 endomyocardial biopsy (EMB) 的適應症、技術步驟、right ventricle (RV) vs left ventricle (LV) 的選擇、併發症處理，以及未來發展方向。
+
+## 作者資訊
+
+**第一作者：**Enrico Fabris, MD, PhD (University of Trieste)\
+**通訊作者：**Gianfranco Sinagra, MD\
+**機構：**Cardiothoracovascular Department, Center for Diagnosis and Treatment of Cardiomyopathies, University of Trieste, Italy
+
+# EMB 適應症
+
+## ESC 心衰竭指引建議
+
+根據 2021 ESC HF Guidelines，EMB 適用於：
+
+- 快速進展心衰竭，對標準治療無反應 (Class IIa)
+
+- 臨床高度懷疑特定診斷，需組織確認才能給予精準治療
+
+- 可透過 myocardial sample 確診的疾病
+
+## 主要臨床適應症
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  **臨床情境**                                **EMB 角色**
+  ------------------------------------------- ----------------------------------------------------------------------------------------------------------
+  **Suspected Fulminant/Acute Myocarditis**   合併 acute HF、ventricular arrhythmia 或 hemodynamic instability\
+                                              可區分 giant cell myocarditis、eosinophilic myocarditis、granulomatous myocarditis (cardiac sarcoidosis)
+
+  **Unexplained DCM**                         New-onset HF 合併 LV dysfunction，對標準治療無反應\
+                                              可排除 inflammatory cardiomyopathy
+
+  **Hypertrophic/Restrictive Phenotype**      鑑別 sarcomeric HCM vs phenocopies (如 cardiac amyloidosis)\
+                                              當 imaging 或 genetic testing 無法確診時
+
+  **Cardiac Amyloidosis**                     當偵測到 monoclonal protein 時，需組織確認 AL-amyloidosis\
+                                              TTR amyloidosis 可透過 bone scintigraphy 非侵入性診斷
+
+  **Cardiac Sarcoidosis**                     Focal disease，建議 biventricular EMB\
+                                              可結合 CMR + PET 提高診斷率
+
+  **ICI-related Cardiotoxicity**              Immune checkpoint inhibitor 相關心肌炎\
+                                              CMR 結果不確定時特別有價值
+
+  **Ventricular Arrhythmias/**\               不明原因 high-degree AV block 或 syncope\
+  **Conduction Disorders**                    排除 infiltrative/inflammatory disease
+
+  **Heart Transplant**                        Rejection status monitoring (傳統適應症)
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## EMB 不適合的情境
+
+- **低風險 acute myocarditis**：chest pain、normal ventricular function、無 arrhythmia、ECG 快速恢復
+
+- **高栓塞風險的 intracardiac mass**：left-sided tumors、typical cardiac myxoma
+
+- **Mobile/small protruding structures**：技術上困難且不安全
+
+# RV vs LV EMB 選擇
+
+## 診斷效能比較
+
+Chimenti et al. 分析超過 4,000 位病人的資料：
+
+  **情境**                                 **LV EMB 診斷率**   **RV EMB 診斷率**
+  --------------------------------------- ------------------- -------------------
+  LV exclusively/predominantly affected          97.8%                53%
+  RV involved along with LV                      98.1%               96.5%
+
+## RV vs LV EMB 特性比較
+
+  **項目**              **RV EMB**                        **LV EMB**
+  --------------------- --------------------------------- -------------------------------
+  首選情境              Biventricular involvement         LV disease with preserved RV
+  技術難度              較低                              較高
+  Cardiac perforation   風險較高但較少 life-threatening   風險較低但更 life-threatening
+  Access site 併發症    Venous (haematoma)                Arterial (pseudoaneurysm)
+  Embolisation 風險     較低 (pulmonary)                  稍高 (stroke, systemic)
+  Conduction injury     較高 AV block 風險                較低 AV block 風險
+  Valve damage          Tricuspid valve                   Mitral valve
+
+## 選擇原則
+
+決定 EMB approach 需考慮三個因素：
+
+1.  **Clinical query**：臨床問題為何？
+
+2.  **Most diseased areas**：哪個心室病變較嚴重？
+
+3.  **Focal vs diffuse**：病灶是局部還是瀰漫性？
+
+# 技術與操作步驟
+
+## 術前評估
+
+- 排除 ventricular thrombus
+
+- 確認 platelet count \>50,000/mm³
+
+- 停止口服抗凝血劑
+
+- 準備 defibrillator patches
+
+## Bioptome 選擇
+
+目前可用的 bioptome 包括：
+
+- **Scholten Novatome**：Single-action cutting jaw，6-9 Fr / 50-100 cm
+
+- **Cordis Biopsy Forceps/BIPAL**：5.5-7 Fr / 50-104 cm
+
+- **Maslanka**：4.5-10 Fr / 51-120 cm，compression spring 設計
+
+- **Argon Jaw**：5-7.5 Fr / 50-105 cm
+
+## LV EMB 操作步驟
+
+  **Step**   **操作內容**
+  ---------- ----------------------------------------------------------------------------------------------
+  1          Femoral artery access（radial artery 為新興替代方案）
+  2          給予 IV heparin 達到 ACT \>200 seconds
+  3          Long sheath (straight tip) 經由 pigtail catheter 送入 LV，pigtail 需 over 0.035\" wire
+  4          執行 ventriculography 協助定位
+  5          在 RAO + LAO projections 確認 sheath tip 位於 mid-LV cavity，避開 apex 和 valvular apparatus
+  6          移除 pigtail，aspirate & flush sheath，確認 ventricular pressure
+  7          插入 bioptome（distal part 預先彎曲），forceps 保持 \"open\" 直到接觸心室壁
+  8          感覺輕微阻力時 close jaws（可能出現 PVC 或 NSVT）
+  9          Close + withdraw 應為 single motion
+  10         保持 jaws closed 退回 sheath（避免 specimen loss 或 embolisation）
+  11         重複取樣至少 5 個不同部位
+  12         執行 focused echocardiography 檢查 pericardial effusion 或 valvular damage
+
+## RV EMB 操作重點
+
+- Access：Jugular、femoral 或 brachial vein
+
+- Heparin 非必要
+
+- 使用 RAO 30° 觀察 RVOT 和 RV free wall
+
+- **LAO 40°**：最常用於引導從 ventricular septum 取樣
+
+- 避免在 outflow tract 附近取樣（可能損傷 right bundle branch）
+
+- LBBB 病人：準備 temporary pacemaker（complete AV block 風險）
+
+# 併發症與風險
+
+## Major Complications（約 1-5%）
+
+- **Cardiac perforation**：最嚴重併發症，LV EMB 發生率較低但更致命
+
+- **Thromboembolism**：LV EMB 風險較高（stroke, systemic embolism）
+
+- **Valvular trauma**：Tricuspid (RV) 或 Mitral (LV) regurgitation
+
+- **Sustained ventricular arrhythmias**：通常為 transient
+
+- **Vascular complications**：Access site haematoma, pseudoaneurysm
+
+## 降低風險策略
+
+1.  **Ultrasound-guided vascular access**：減少穿刺點併發症
+
+2.  **Long sheath technique**：保護 valve leaflets 避免重複暴露於 bioptome
+
+3.  **Pre-bent bioptome tip**：增加靈活性，降低 perforation 風險
+
+4.  **Continuous monitoring**：Heart rhythm + invasive blood pressure
+
+5.  **Post-procedure echo**：15 分鐘內完成，偵測 pericardial effusion
+
+# VA-ECMO 支持下的 EMB
+
+## 特殊考量
+
+- Suspected fulminant myocarditis (FM) 合併 VA-ECMO 支持
+
+- EMB 診斷率可達 78%
+
+- 併發症風險顯著增加（包括 cardiac tamponade）
+
+- 建議轉診至有經驗的專門中心
+
+## 臨床證據
+
+- Early EMB 與較好的 1-year outcomes 相關
+
+- 需要 mechanical support 但未做 EMB 者預後較差（延遲診斷和治療）
+
+- EMB 在此族群仍 underutilized
+
+# 組織處理與分析技術
+
+## Myocarditis 診斷
+
+  ----------------------------------------------------------
+  **分析方法**              **內容**
+  ------------------------- --------------------------------
+  Dallas Criteria (1980s)   傳統標準，sensitivity 較低
+
+  Immunohistochemistry      HLA-DR (immune activation)\
+                            CD3, CD4, CD8 (T cells)\
+                            CD68 (macrophages)
+
+  Viral PCR                 偵測 viral genome presence\
+                            決定是否適合 immunosuppression
+  ----------------------------------------------------------
+
+## Amyloidosis 診斷
+
+- **Congo Red staining**：Apple-green birefringence under polarised light
+
+- **Electron microscopy**：Non-branching 10 nm fibrils
+
+- **Immunohistochemistry**：辨識 precursor proteins (TTR, light chains, apolipoproteins)
+
+- **Mass spectrometry**：目前 amyloid typing 的 preferred technique
+
+# Case Examples
+
+## Case 1：Cardiomyopathy with Cardiogenic Shock
+
+**病人：**32 歲男性，上呼吸道感染後 1 個月出現 palpitations
+
+**表現：**
+
+- Cardiogenic shock + multiorgan failure
+
+- ECG：Atrial tachycardia 200 bpm
+
+- Echo：Biventricular dysfunction, LVEDVi 117 mL/m², EF 12%
+
+**處置：**
+
+1.  Impella CP support → RV EMB
+
+2.  EMB 結果：無 myocardial inflammation，early fibrosis → 符合 dilated cardiomyopathy
+
+3.  加上 VA-ECMO (ECMELLA)
+
+4.  成功 atrial arrhythmia ablation
+
+5.  9 天後移除 devices
+
+**追蹤：**
+
+- 4 個月：EF 改善至 38%
+
+- 1 年：LVEDVi 66 mL/m², EF 55%
+
+- Genetic：Pathogenic TTN mutation
+
+## Case 2：Myocarditis with Cardiogenic Shock
+
+**病人：**40 歲男性，flu-like symptoms 後出現 retrosternal pain
+
+**表現：**
+
+- Cardiogenic shock + multiorgan failure
+
+- ECG：Sinus tachycardia + LBBB
+
+- Echo：Moderate LV dilation, EF 25%, moderate MR
+
+**處置：**
+
+1.  IABP + temporary pacemaker (for AV block)
+
+2.  LV EMB：Severe inflammation dominated by NK CD16+ lymphocytes, viral PCR negative
+
+3.  Immunosuppressive therapy (cortisone + azathioprine)
+
+**結果：**15 天後出院，EF 恢復正常
+
+# 未來發展
+
+1.  **Multimodality imaging integration**：CMR + PET 與 EMB 整合的 hybrid protocols
+
+2.  **EAM-guided EMB**：Electroanatomical mapping 引導，提高 focal disease 診斷率
+
+3.  **Advanced tissue analysis**：結合 molecular 和 genetic analyses
+
+4.  **Gene therapy evaluation**：EMB 用於評估 cardiomyocyte transduction 效果
+
+5.  **Hub-and-spoke network**：建立專門中心網絡
+
+6.  **Training**：將 EMB 納入 interventional fellowship，發展 simulation platforms
+
+# 結論
+
+1.  **EMB 地位：**在 advanced multimodality imaging 時代，EMB 仍是診斷 myocarditis、cardiomyopathy、infiltrative diseases 的黃金標準
+
+2.  **適當病人選擇：**需 Heart Team 討論，評估 risk/benefit ratio
+
+3.  **技術選擇：**根據 clinical query、most diseased areas、focal vs diffuse 選擇 RV 或 LV approach
+
+4.  **安全性：**Major complications 約 1-5%，需由有經驗的操作者執行
+
+# 縮寫對照表
+
+  **縮寫**   **全名**
+  ---------- --------------------------------------------------
+  EMB        Endomyocardial Biopsy (心內膜心肌切片)
+  RV         Right Ventricle (右心室)
+  LV         Left Ventricle (左心室)
+  AM         Acute Myocarditis (急性心肌炎)
+  FM         Fulminant Myocarditis (猛爆性心肌炎)
+  CA         Cardiac Amyloidosis (心臟類澱粉沉積症)
+  CS         Cardiac Sarcoidosis (心臟結節病)
+  CMR        Cardiac Magnetic Resonance (心臟磁振造影)
+  PCR        Polymerase Chain Reaction (聚合酶連鎖反應)
+  VA-ECMO    Venoarterial Extracorporeal Membrane Oxygenation
+  EAM        Electroanatomical Mapping (電生理解剖定位)
+  DCM        Dilated Cardiomyopathy (擴張型心肌病變)
+  HCM        Hypertrophic Cardiomyopathy (肥厚型心肌病變)
+  RCM        Restrictive Cardiomyopathy (限制型心肌病變)
+  ARVC       Arrhythmogenic Right Ventricular Cardiomyopathy
+  ICI        Immune Checkpoint Inhibitor (免疫檢查點抑制劑)
+  TTR        Transthyretin (轉甲狀腺素)
+  AL         Amyloid Light Chain (輕鏈類澱粉)
+  ACT        Activated Clotting Time (活化凝血時間)
+
+# 參考文獻
+
+1.  Fabris E, Porcari A, Bussani R, et al. Endomyocardial biopsy. [*EuroIntervention*. 2026;21:e19-e31.](https://doi.org/10.4244/EIJ-D-25-00263)
+
+2.  McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. [*Eur Heart J*. 2021;42:3599-726.](https://doi.org/10.1093/eurheartj/ehab368)
+
+3.  Seferović PM, Tsutsui H, McNamara DM, et al. Heart Failure Association of the ESC, Heart Failure Society of America and Japanese Heart Failure Society Position statement on endomyocardial biopsy. [*Eur J Heart Fail*. 2021;23:854-71.](https://doi.org/10.1002/ejhf.2190)
+
+4.  Chimenti C, Frustaci A. Contribution and risks of left ventricular endomyocardial biopsy in patients with cardiomyopathies. [*Circulation*. 2013;128:1531-41.](https://doi.org/10.1161/CIRCULATIONAHA.113.001779)
+
+5.  Arbelo E, Protonotarios A, Gimeno JR, et al. 2023 ESC Guidelines for the management of cardiomyopathies. [*Eur Heart J*. 2023;44:3503-626.](https://doi.org/10.1093/eurheartj/ehad194)

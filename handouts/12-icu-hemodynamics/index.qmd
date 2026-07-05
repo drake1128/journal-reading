@@ -11,3 +11,9 @@ title: "ICU 血液動力學 — ICU Hemodynamics"
 - ICM 2024 Cardiac Output Monitoring.tex
 - ICM VA-ECMO Echo Checklist 2024 教學講義.tex
 - Nature COVID-19 RBC Microangiopathy 2025 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [ICM 2024 Cardiac Output Monitoring](icm-2024-cardiac-output-monitoring.qmd)
+- [ICM VA-ECMO Echo Checklist 2024](icm-va-ecmo-echo-checklist-2024-handout.qmd)
+- [Nature COVID-19 RBC Microangiopathy 2025](nature-covid-19-rbc-microangiopathy-2025-handout.qmd)

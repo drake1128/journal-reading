@@ -19,3 +19,15 @@ title: "其他 — Miscellaneous"
 - NEJM Case 4-2026 HIV PJP 教學講義.tex
 - Nature News EAST Fusion 2026 科普講義.tex
 - 醫法倫_討論_謝慕揚.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [Dan Koe How to Fix Your Life 2026 general](dan-koe-how-to-fix-your-life-2026-general.qmd)
+- [Dan Koe How to Fix Your Life 2026](dan-koe-how-to-fix-your-life-2026-handout.qmd)
+- [Dietary Natural Approaches Stroke Prevention 2025](dietary-natural-approaches-stroke-prevention-2025-handout.qmd)
+- [medical-ethics discussion drake](medical-ethics-discussion-drake.qmd)
+- [Military Service Dongyin 2005](military-service-dongyin-2005.qmd)
+- [Nature News EAST Fusion 2026 popular-sciencehandout](nature-news-east-fusion-2026-popular-sciencehandout.qmd)
+- [NEJM Case 1-2025](nejm-case-1-2025.qmd)
+- [NEJM Case 4-2026 HIV PJP](nejm-case-4-2026-hiv-pjp-handout.qmd)
+- [tutorial how to make journal reading summary](tutorial-how-to-make-journal-reading-summary/index.qmd)

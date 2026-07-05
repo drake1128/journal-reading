@@ -16,3 +16,10 @@ title: "心律不整 — Arrhythmia"
 - European Heart Journal BEAT PAROX-AF PFA vs RFA 2025 Afib EP.tex
 - JACC EQUAL Trial Smartwatch AF 2026 教學講義.tex
 - NEJM OCEAN Trial AF Ablation Anticoagulation 2026.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [EHJ STAR Study PSGB Electrical Storm 2024](ehj-star-study-psgb-electrical-storm-2024-handout.qmd)
+- [European Heart Journal BEAT PAROX-AF PFA vs RFA 2025 Afib EP](european-heart-journal-beat-parox-af-pfa-vs-rfa-2025-afib-ep.qmd)
+- [JACC EQUAL Trial Smartwatch AF 2026](jacc-equal-trial-smartwatch-af-2026-handout.qmd)
+- [NEJM OCEAN Trial AF Ablation Anticoagulation 2026](nejm-ocean-trial-af-ablation-anticoagulation-2026.qmd)

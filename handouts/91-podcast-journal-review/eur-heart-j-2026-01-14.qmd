@@ -1,0 +1,319 @@
+---
+title: "Eur Heart J 2026-01-14"
+author: "謝慕揚 MD, PhD, FESC"
+---
+
+> 本頁由 LaTeX 原稿經 Pandoc 自動轉換，可能需少量人工微調。
+
+::: center
+**European Heart Journal**\
+**Improving Prevention: Traditional and Non-Traditional Risk Factors**\
+改善心血管預防：傳統與非傳統危險因子\
+[Eur Heart J 2026;47:279-284. DOI: 10.1093/eurheartj/ehaf1092](https://doi.org/10.1093/eurheartj/ehaf1092)\
+整理：謝慕揚 MD, PhD, FESC 日期：
+:::
+
+::: tcolorbox
+1.  **SMuRF-less but inflamed：**無傳統危險因子但hsCRP升高的女性，30年CV事件風險仍顯著增加，Statin可降低38%風險
+
+2.  **懷孕期間Statin安全性：**挪威全國性研究顯示，第一孕期statin暴露與先天畸形無顯著相關
+
+3.  **年輕人降壓治療：**義大利真實世界研究證實，18-39歲高血壓患者adherence可降低22% CV住院風險
+
+4.  **Troponin與失智：**中年subclinical myocardial injury與25年後失智風險增加10%相關
+:::
+
+# State of the Art Review：社經弱勢與指引落實的障礙
+
+## 重要發現
+
+- **社經弱勢族群**（low socioeconomic position）有較高CVD負擔與死亡率
+
+- 令人擔憂的是：這些族群同時獲得**較差的guideline-recommended care**
+
+- 形成雙重弱勢：疾病風險高、醫療照護品質低
+
+## 建議對策
+
+  ------------------------------------------------
+  **層面**   **建議**
+  ---------- -------------------------------------
+  政府層級   降低心血管健康不平等、改善人口教育
+
+  醫療體系   優先處理可修正的照護障礙
+
+  研究層級   RCT設計應納入社經弱勢族群
+
+  臨床實務   使用quality indicators監測照護品質\
+             調整risk scores納入社經因素
+  ------------------------------------------------
+
+# Fast Track：hsCRP與SMuRF-less女性的心血管風險
+
+## 研究背景
+
+- 傳統預防聚焦於四大**SMuRFs**（Standard Modifiable Risk Factors）：
+
+  - 高血壓
+
+  - 血脂異常
+
+  - 糖尿病
+
+  - 吸菸
+
+- 但大量CV事件發生於**無SMuRF**的個體，尤其是**女性**
+
+- **hsCRP**是敏感的發炎指標，但在SMuRF-less族群的角色不明
+
+## Women's Health Study設計
+
+  **項目**   **內容**
+  ---------- ------------------------------------------------
+  研究族群   12,530位初始健康、無SMuRF的女性
+  追蹤時間   30年
+  基線檢測   hsCRP
+  主要終點   Incident CHD、ischemic stroke、total CV events
+  分析方法   Quintile分析、spline regression
+
+## 主要結果
+
+::: tcolorbox
+30年追蹤中，共973例首次重大CV事件。發生事件者的基線hsCRP顯著較高（中位數2.22 vs 1.50 mg/L，P< 0.0001）。
+:::
+
+  **終點**           **HR (Q5 vs Q1)**          **P-trend**           **每quintile增加HR**
+  ----------------- ------------------- ---------------------------- ----------------------
+  CHD                      2.23          < 0.0001           1.21
+  Ischemic stroke          1.69          < 0.0001            --
+  Total CV events          1.74          < 0.0001            --
+
+**以臨床常用閾值分析（hsCRP > 3 vs < 1 mg/L）：**
+
+- CHD風險增加**77%**
+
+- Ischemic stroke風險增加**39%**
+
+- Total CV events風險增加**52%**
+
+::: tcolorbox
+**Editorial觀點（Arnold & Koenig）：**\
+「SMuRF-less but inflamed」表型挑戰現有預防概念。我們需要重繪預防調色盤：繼續尋找SMuRFs的熟悉藍色，但也要學會辨識低度發炎的隱藏紅色------在它發作前就發出危險信號。\
+**重要：**Statin治療可在此族群降低**38%**風險！
+:::
+
+# Clinical Research：懷孕期間Statin使用與先天畸形
+
+## 研究背景
+
+- Statins傳統上在懷孕期間**禁忌使用**
+
+- 主要顧慮：可能對胎兒有害
+
+- 但實際風險數據有限
+
+## 挪威全國性研究設計
+
+  -----------------------------------------------
+  **項目**   **內容**
+  ---------- ------------------------------------
+  資料來源   挪威全國登錄資料（2005-2018年）
+
+  研究對象   所有懷孕女性
+
+  暴露定義   第一孕期statin處方
+
+  對照組     Statin discontinuers（懷孕前停藥）
+
+  主要終點   Any congenital malformation\
+             Major malformation\
+             Minor malformation
+  -----------------------------------------------
+
+## 主要結果
+
+  **族群**                 **人數**             **畸形率**  
+  -------------- ----------------------------- ------------ --
+  Statin未暴露    > 800,000      4.3%     
+  Statin停藥者     > 1,255       5.9%     
+  Statin暴露                  283                  6.7%     
+
+**調整後Odds Ratios（暴露 vs 未暴露）：**
+
+- Any malformation: OR 1.30（非顯著）
+
+- Major malformation: OR 1.15（非顯著）
+
+- Minor malformation: OR 1.47（非顯著）
+
+**暴露 vs Discontinuers：**
+
+- Any malformation: OR 1.01
+
+- Major malformation: OR 1.08
+
+- Minor malformation: OR 0.94
+
+::: tcolorbox
+- 本研究**未發現**第一孕期statin暴露與先天畸形的顯著關聯
+
+- 不支持statin與先天畸形之間存在強烈或獨立的因果關係
+
+- 對於高風險女性（如familial hypercholesterolemia），懷孕期間LLT的benefit可能outweigh risk
+
+- 有助於informed shared decision-making
+:::
+
+# Clinical Research：血壓、血漿蛋白與心血管疾病
+
+## 研究目的
+
+透過**Mendelian Randomization (MR)**系統性評估血漿蛋白與血壓的因果關係，並探討其與CVD的連結。
+
+## 主要發現
+
+- 分析2,007種血漿蛋白
+
+- 242種蛋白與BP相關
+
+- 其中48種同時與CAD或stroke相關
+
+- **4種蛋白**通過co-localization分析：
+
+  - **ACOX1**
+
+  - **FGF5**
+
+  - **FURIN**
+
+  - **MST1**
+
+## 血壓中介效應
+
+Network MR顯示，這些蛋白對CAD和stroke的效應，有**30.5-77.2%**是透過BP regulation中介。
+
+::: tcolorbox
+**意義：**這項研究辨識出具有因果角色的關鍵血漿蛋白，提供高血壓相關CVD分子機轉的新見解，並指出未來治療標靶的方向。
+:::
+
+# Clinical Research：年輕人降壓治療與心血管風險
+
+## 研究背景
+
+- 降壓治療在老年及中年人的效益已有充分證據
+
+- 但在**年輕人（< 40歲）**的效益從未被直接驗證
+
+## 義大利Lombardy世代研究
+
+  ---------------------------------------------------------------------------------------
+  **項目**        **內容**
+  --------------- -----------------------------------------------------------------------
+  資料來源        Lombardy地區健保資料庫
+
+  研究對象        > 286,000位首次處方降壓藥物者\
+                  年齡18-55歲（2009-2017年）
+
+  Adherence定義   處方覆蓋$\geq$`<!-- -->`{=html}80% vs < 80%追蹤期間
+
+  主要終點        CV住院
+
+  次要終點        CV死亡、全因死亡
+  ---------------------------------------------------------------------------------------
+
+## 主要結果
+
+  **終點**    **HR (18-39歲)**   **HR (40-55歲)**
+  ---------- ------------------ ------------------
+  CV住院            0.78               0.80
+  CV死亡             NS              顯著降低
+  全因死亡           NS              顯著降低
+
+::: tcolorbox
+在真實世界中，adherence to降壓治療可在年輕人（18-39歲）達到與中年人（40-55歲）**同等程度**的CV住院風險降低。即使目前兩組的adherence都偏低，年輕患者的治療教育仍應被強化。
+:::
+
+# Clinical Research：心肌Troponin I與失智風險
+
+## Whitehall II Study設計
+
+  **項目**   **內容**
+  ---------- -------------------------------------------------------
+  研究族群   $\sim$`<!-- -->`{=html}6,000位參與者，基線年齡45-69歲
+  基線檢測   High-sensitivity cardiac troponin I（1997-99年）
+  追蹤至     2023年3月（中位數25年）
+  主要終點   Incident dementia
+  其他評估   認知測試（6波）、MRI神經影像（2012-16年）
+
+## 主要發現
+
+- 606例（10.1%）失智症
+
+- **Cardiac troponin每倍增**，失智風險增加**10%**（95% CI 3-17%）
+
+- 失智者在診斷前7-25年就有較高troponin
+
+- 基線troponin > 5.2 ng/L者，15年後：
+
+  - Grey matter volume較低（相當於老化2.7年）
+
+  - Hippocampal atrophy較嚴重（相當於老化3年）
+
+::: tcolorbox
+**心腦連結：**中年的subclinical myocardial injury與晚年失智風險相關。High-sensitivity troponin不僅可評估心臟健康，也可能成為腦部健康的指標。
+:::
+
+# Rapid Communication：女性健美選手死亡率
+
+## 研究發現
+
+  **項目**      **數據**
+  ------------- ------------------------------------------------------------
+  研究族群      $\sim$`<!-- -->`{=html}10,000位IFBB女性選手（2005-2020年）
+  死亡人數      32例
+  SCD發生率     10.47 per 100,000 athlete-years
+  職業選手SCD   53.98 per 100,000 AY（顯著較高）
+  自殺/他殺     佔所有死亡$\sim$`<!-- -->`{=html}13%（明顯高於男性）
+
+::: tcolorbox
+女性健美選手，尤其職業等級，面臨顯著的心血管與心理風險。建議：
+
+1.  加強心血管篩檢
+
+2.  規範performance-enhancing drugs使用
+
+3.  提供量身訂做的心理健康支持
+:::
+
+# 縮寫對照表
+
+  **縮寫**   **全名**
+  ---------- ---------------------------------------------------------
+  SMuRF      Standard Modifiable Risk Factors (標準可修正危險因子)
+  hsCRP      High-Sensitivity C-Reactive Protein (高敏感度C反應蛋白)
+  CHD        Coronary Heart Disease (冠狀動脈心臟病)
+  LLT        Lipid-Lowering Therapy (降血脂治療)
+  MR         Mendelian Randomization (孟德爾隨機化)
+  CAD        Coronary Artery Disease (冠狀動脈疾病)
+  BP         Blood Pressure (血壓)
+  CV         Cardiovascular (心血管)
+  SCD        Sudden Cardiac Death (心因性猝死)
+  IFBB       International Fitness and Bodybuilding Federation
+  AY         Athlete-Years (運動員年)
+  FH         Familial Hypercholesterolemia (家族性高膽固醇血症)
+
+# 參考文獻
+
+1.  Crea F. Improving prevention: traditional and non-traditional risk factors. [*Eur Heart J*. 2026;47:279-284.](https://doi.org/10.1093/eurheartj/ehaf1092)
+
+2.  Ridker PM, et al. C-reactive protein and cardiovascular risk among women with no standard modifiable risk factors. [*Eur Heart J*. 2026;47:306-314.](https://doi.org/10.1093/eurheartj/ehaf658)
+
+3.  Christensen JJ, et al. Statin use in pregnancy and risk of congenital malformations: a Norwegian nationwide study. [*Eur Heart J*. 2026;47:318-327.](https://doi.org/10.1093/eurheartj/ehaf592)
+
+4.  Meena D, et al. Blood pressure, plasma proteins, and cardiovascular diseases: a network Mendelian randomization and observational study. [*Eur Heart J*. 2026;47:331-342.](https://doi.org/10.1093/eurheartj/ehaf725)
+
+5.  Rea F, et al. Antihypertensive treatment in young adults and cardiovascular risk. [*Eur Heart J*. 2026;47:346-355.](https://doi.org/10.1093/eurheartj/ehaf744)
+
+6.  Chen Y, et al. High-sensitivity cardiac troponin I and risk of dementia: the 25-year longitudinal Whitehall II study. [*Eur Heart J*. 2026;47:359-369.](https://doi.org/10.1093/eurheartj/ehaf834)
+
+7.  Vecchiato M, et al. Mortality in female bodybuilding athletes. [*Eur Heart J*. 2026;47:373-375.](https://doi.org/10.1093/eurheartj/ehaf789)

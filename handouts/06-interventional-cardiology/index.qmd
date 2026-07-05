@@ -27,3 +27,12 @@ title: "介入心臟學 — Interventional Cardiology"
 - JACC NY Cardiac Registries 2012 教學講義.tex
 - PISCES_fish_oil_hemodialysis.tex
 - Persistent Sciatic Artery 2026-01-10.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [EuroIntervention — January 2026 Issue Snapshot](eurointervention-2026-01-05.qmd)
+- [EuroIntervention EMB 2026](eurointervention-emb-2026-handout.qmd)
+- [EuroIntervention EMB 2026](eurointervention-emb-2026.qmd)
+- [JACC NY Cardiac Registries 2012](jacc-ny-cardiac-registries-2012-handout.qmd)
+- [Persistent Sciatic Artery 2026-01-10](persistent-sciatic-artery-2026-01-10.qmd)
+- [PISCES fish oil hemodialysis](pisces-fish-oil-hemodialysis.qmd)

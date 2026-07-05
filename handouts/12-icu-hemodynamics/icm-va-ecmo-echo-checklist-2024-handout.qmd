@@ -1,0 +1,306 @@
+---
+title: "ICM VA-ECMO Echo Checklist 2024"
+author: "謝慕揚 MD, PhD, FESC"
+---
+
+> 本頁由 LaTeX 原稿經 Pandoc 自動轉換，可能需少量人工微調。
+
+::: center
+**Intensive Care Medicine Editorial**\
+**My Echo Checklist in Venoarterial ECMO Patients**\
+VA-ECMO 病人的心臟超音波檢查清單\
+Intensive Care Med 2024;50:2158-2161. DOI: 10.1007/s00134-024-07659-2\
+整理：謝慕揚 MD, PhD, FESC 日期：
+:::
+
+# 文獻概述
+
+本篇為 Intensive Care Medicine 的 Editorial，由法國 Sorbonne 大學 Pitié-Salpêtrière 醫院的 Saura 等人撰寫，提出 VA-ECMO 病人心臟超音波評估的系統性九點檢查清單。
+
+## 作者資訊
+
+**通訊作者：**Ouriel Saura, MD\
+**機構：**Service de Médecine Intensive-Réanimation, Institut de Cardiologie, Hôpital Pitié-Salpêtrière, Sorbonne Université, Paris, France
+
+# 九點檢查清單總覽
+
+  **\#**   **檢查項目**                **重點內容**
+  -------- --------------------------- --------------------------------------------------------------------------------------------------------------
+  1        Drainage cannula position   最佳位置在 RA；若在 IVC 可能造成 suction
+  2        Drainage insufficiency      Subcostal view 評估；排除 tamponade、hypovolemia
+  3        ECMO flow 設定              根據 LVOT VTI、hemodynamic stability、lactate 調整
+  4        Aortic valve opening        預防 LV/aortic thrombosis；評估是否需要 unloading
+  5        Venting device 位置         IABP 或 Impella 定位確認
+  6        Pericardial effusion        區分 true tamponade vs ECMO-induced pseudo-tamponade
+  7        Right-sided ECMO 設定       合併 LV support 時的 flow 調整
+  8        Weaning 評估                LVOT VTI $\geq$`<!-- -->`{=html}12 cm、LVEF $\geq$`<!-- -->`{=html}20%、S wave $\geq$`<!-- -->`{=html}6 cm/s
+  9        Post-ECMO 併發症            IVC/RA thrombosis、arterial pseudoaneurysm
+
+# Point 1：Drainage Cannula 位置
+
+## 最佳位置
+
+- **理想位置：**Drainage cannula tip 位於 **right atrium (RA)** 內
+
+- 若位於 **IVC**：IVC 壁可能被 suction，阻礙血液引流
+
+- 若位於 **SVC**：通常 ECMO flow 不受影響
+
+## 需注意的併發症
+
+- Cannula tip 接觸 **interatrial septum**：
+
+  - 引流不足
+
+  - Endothelial injury
+
+  - Thrombus 形成風險
+
+- **Patent foramen ovale** 穿孔或重新開放：
+
+  - 含氧血從 LA 流向 return cannula
+
+  - 減少 LV preload 及 ejection
+
+# Point 2：Drainage Insufficiency 評估
+
+## 臨床表現
+
+- ECMO lines **chattering**（管路震顫）
+
+- ECMO flow 快速且短暫下降
+
+- 原因：Multistage drainage cannula 吸附 IVC 或 RA 壁
+
+## Subcostal View 評估重點
+
+1.  確認 drainage cannula tip 位置（若在 IVC → 推進至 RA）
+
+2.  排除 significant pericardial effusion causing tamponade
+
+3.  確認 IVC 壁與 cannula 間有足夠空間（virtual space → 需要補液）
+
+## 其他需排除的原因
+
+- Pneumothorax
+
+- Abdominal hypertension
+
+## 處理策略
+
+1.  降低 pump RPM，然後緩慢增加
+
+2.  若仍不足 → 補液後再增加 RPM 及 ECMO flow
+
+# Point 3：ECMO Flow 設定
+
+## Flow 建議
+
+  -----------------------------------------------------------------------
+  **Flow 設定**              **適用情況**
+  -------------------------- --------------------------------------------
+  **High flow (3-4 LPM)**    • Severe hemodynamic instability\
+                             • High vasoactive drugs doses\
+                             • Elevated lactate\
+                             • Poor residual ejection (LVOT VTI \<5 cm)
+
+  **Lower flow (2-3 LPM)**   • Stabilized patients\
+                             • 有 residual LV ejection
+  -----------------------------------------------------------------------
+
+## 每日評估
+
+- 從 ECMO 開始到 recovery，每日評估 **LVEF** 及 **LVOT VTI**
+
+# Point 4：Aortic Valve Opening
+
+## 問題背景
+
+- Severe cases with very low residual cardiac ejection
+
+- 特別是 high ECMO flow（decreased preload + increased afterload）
+
+- Aortic valve 可能持續關閉
+
+## 併發症風險
+
+- Blood stagnation
+
+- **LV thrombus** 形成
+
+- **Aortic root thrombus** 形成
+
+## 維持 Aortic Valve Opening 的策略
+
+1.  **減少 ECMO flow**（前提是 circulatory support 足夠）
+
+2.  **Inotropic support**
+
+3.  **LV unloading**（IABP）
+
+4.  **Fluid challenge**
+
+# Point 5：Venting Device 位置與設定
+
+## IABP (Intra-Aortic Balloon Pump)
+
+  ------------------------------------------------------------------------------
+  **項目**       **內容**
+  -------------- ---------------------------------------------------------------
+  **作用機轉**   • 降低 LV afterload\
+                 • 促進 residual LV ejection\
+                 • 促進 aortic valve opening\
+                 • 降低 pulmonary edema 風險\
+                 • 可能降低死亡率
+
+  **位置確認**   Suprasternal TTE view：tip 位於 left subclavian artery 起始處
+  ------------------------------------------------------------------------------
+
+## Impella
+
+  --------------------------------------------------------------------------
+  **項目**       **內容**
+  -------------- -----------------------------------------------------------
+  **作用機轉**   • 降低 LV end-diastolic volume 及 pressure\
+                 • 降低 pulmonary edema 風險\
+                 • 降低 intracardiac/intra-aortic thrombus 風險
+
+  **正確位置**   Inlet 位於 aortic valve annulus 下方 **3-4 cm**，在 LV 內
+
+  **確認方法**   Color Doppler aliasing 確認血液 return 至 ascending aorta
+
+  **位置不當**   若 positioned too deeply → 血液 reinjected 回 LV\
+                 → 無法提供支持且增加 LV distension 風險
+  --------------------------------------------------------------------------
+
+# Point 6：Pericardial Effusion 與 Tamponade
+
+## 評估挑戰
+
+- VA-ECMO 病人的 pericardial effusion 評估具挑戰性
+
+- **RA collapse** 可能原因：
+
+  - Drainage cannula 的 suction
+
+  - Compressive pericardial effusion（真正 tamponade）
+
+## 區分 True Tamponade vs Pseudo-Tamponade
+
+  **徵象**                                               **解讀**
+  ------------------------------------------------------ -----------------------------------------
+  IVC dilation + RV collapse                             支持 **true tamponade** → 需要 drainage
+  Transient ECMO flow 減少後 tamponade appearance 消失   支持 **ECMO-induced pseudo-tamponade**
+
+# Point 7：Right-Sided ECMO 合併 LV Support
+
+## 適用情況
+
+- RA-PA double-lumen cannula 用於 LVAD 植入後嚴重 RV failure
+
+- Peripheral VA-ECMO 相關併發症（cardiac akinesia、高 thrombosis 風險、嚴重 cannula site infection）轉換為 double central ECMO（RA-PA + LV-AA circuits）
+
+## Right-Sided ECMO Flow 不足的後果
+
+1.  RV dilation
+
+2.  Interventricular septum 向左移位
+
+3.  LV support suction 導致 LV collapse
+
+4.  Intraventricular obstruction
+
+5.  Left-sided low-flow
+
+## 處理策略
+
+- 增加 right-sided ECMO flow（可能需要 fluid challenge）
+
+- 目標：達到 interventricular septum neutral position
+
+- 恢復 left-sided adequate flow
+
+# Point 8：Weaning 評估
+
+## Successful Weaning 預測指標
+
+  **參數**                    **Weaning 成功閾值**
+  --------------------------- -------------------------------
+  **LVOT VTI**                $\geq$`<!-- -->`{=html}12 cm
+  **LVEF**                    $\geq$`<!-- -->`{=html}20%
+  **S mitral wave**           $\geq$`<!-- -->`{=html}6 cm/s
+  **Vasopressor/Inotrope**    低劑量
+  **Hemodynamic stability**   維持穩定
+
+## 其他預測方法
+
+- Ventricular interdependence 評估
+
+- RV systolic function 及 coupling to pulmonary circulation
+
+# Point 9：Post-ECMO 併發症
+
+## 血管併發症
+
+Peripheral ECMO insertion site 常見併發症：
+
+  ------------------------------------------------------------------------
+  **併發症**                    **說明**
+  ----------------------------- ------------------------------------------
+  **IVC Thrombus**              • 「Phantom of the cannula」外觀\
+                                • 或附著於 IVC 壁的 thrombus\
+                                • 有 pulmonary embolism 風險\
+                                • 需要 anticoagulation
+
+  **RA Thrombus**               較少見
+
+  **Arterial Pseudoaneurysm**   Cannulation site；可用 echo-Doppler 偵測
+
+  **Stenosis**                  Arterial cannulation site
+
+  **Dissection**                Arterial cannulation site
+  ------------------------------------------------------------------------
+
+# Take-Home Message
+
+1.  **每日評估：**Doppler echocardiography 結合 clinical evaluation，是 VA-ECMO 病人 real-time management 的必要工具
+
+2.  **系統性檢查：**使用九點檢查清單，systematic daily evaluation 各項 cardiac function 及 potential complications
+
+3.  **Weaning 標準：**LVOT VTI $\geq$`<!-- -->`{=html}12 cm、LVEF $\geq$`<!-- -->`{=html}20%、S mitral wave $\geq$`<!-- -->`{=html}6 cm/s，加上低劑量 vasopressors 及 hemodynamic stability
+
+4.  **Thrombosis 預防：**維持 aortic valve opening；必要時使用 IABP 或 Impella 進行 LV unloading
+
+# 縮寫對照表
+
+  **縮寫**   **全名**
+  ---------- -------------------------------------------------------
+  VA-ECMO    Venoarterial Extracorporeal Membrane Oxygenation
+  TTE        Transthoracic Echocardiography
+  TEE        Transesophageal Echocardiography
+  RA         Right Atrium (右心房)
+  LA         Left Atrium (左心房)
+  LV         Left Ventricle (左心室)
+  RV         Right Ventricle (右心室)
+  IVC        Inferior Vena Cava (下腔靜脈)
+  SVC        Superior Vena Cava (上腔靜脈)
+  LVOT VTI   Left Ventricular Outflow Tract Velocity Time Integral
+  LVEF       Left Ventricular Ejection Fraction (左心室射血分數)
+  IABP       Intra-Aortic Balloon Pump (主動脈內氣球幫浦)
+  LVAD       Left Ventricular Assist Device (左心室輔助裝置)
+  LPM        Liters Per Minute
+  RPM        Revolutions Per Minute
+  PA         Pulmonary Artery (肺動脈)
+  AA         Aortic Artery (主動脈)
+
+# 參考文獻
+
+1.  Saura O, Combes A, Hekimian G. My echo checklist in venoarterial ECMO patients. [*Intensive Care Med*. 2024;50:2158-2161.](https://doi.org/10.1007/s00134-024-07659-2)
+
+2.  Douflé G, Dragoi L, Morales Castro D, et al. Head-to-toe bedside ultrasound for adult patients on extracorporeal membrane oxygenation. [*Intensive Care Med*. 2024;50:632-645.](https://doi.org/10.1007/s00134-024-07333-7)
+
+3.  Ezad SM, Ryan M, Donker DW, et al. Unloading the left ventricle in venoarterial ECMO. In whom, when, and how? [*Circulation*. 2023;147:1237-1250.](https://doi.org/10.1161/CIRCULATIONAHA.122.062371)
+
+4.  Aissaoui N, Luyt C-E, Leprince P, et al. Predictors of successful extracorporeal membrane oxygenation (ECMO) weaning after assistance for refractory cardiogenic shock. [*Intensive Care Med*. 2011;37:1738-1745.](https://doi.org/10.1007/s00134-011-2358-2)
+
+5.  Lorusso R, Shekar K, MacLaren G, et al. ELSO interim guidelines for venoarterial extracorporeal membrane oxygenation in adult cardiac patients. [*ASAIO J*. 2021;67:827-844.](https://doi.org/10.1097/MAT.0000000000001510)

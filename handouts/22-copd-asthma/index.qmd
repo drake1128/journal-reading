@@ -9,3 +9,7 @@ title: "COPD 與氣喘 — COPD & Asthma"
 ## LaTeX Files
 
 - AJRCCM AIRFLOW-3 COPD 2025 教學講義.tex
+
+## 從 LaTeX 轉換的網頁 (Pandoc → Quarto)
+
+- [AJRCCM AIRFLOW-3 COPD 2025](ajrccm-airflow-3-copd-2025-handout.qmd)
