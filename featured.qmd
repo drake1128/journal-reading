@@ -1,0 +1,71 @@
+---
+title: "精選互動教材"
+subtitle: "Featured Interactive Decks"
+listing:
+  id: featured-decks
+  type: grid
+  grid-columns: 3
+  sort-ui: [title]
+  filter-ui: true
+  categories: true
+  sort: false
+  contents:
+    - title: "「Good Enough」的藝術 — Primary PCI 何時該停手"
+      description: "靜態輕量版, 51 張，含實證與導管靜態圖。討論 primary PCI 何時該收手。"
+      path: handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI_static.html
+      categories: [介入 Interventional, PCI]
+    - title: "OCT-Guided PCI — MLD-MAX 支架 Sizing"
+      description: "互動投影片, 33 張。OCT 導引 PCI 的主要試驗與 MLD-MAX 流程。"
+      path: handouts/06-interventional-cardiology/OCT_Guided_PCI_MLD-MAX.html
+      categories: [介入 Interventional, 影像 Imaging]
+    - title: "AngioSeal 碰到困難怎麼處理？"
+      description: "互動投影片, 32 張。Bail-out 技巧與超音波預防。"
+      path: handouts/06-interventional-cardiology/AngioSeal_Bailout_Seminar.html
+      categories: [介入 Interventional]
+    - title: "AGENT DCB 藥物塗層氣球 — De Novo 與 ISR"
+      description: "Panelist 複習稿。DCB 於 de novo 與支架內再狹窄的適應症。"
+      path: handouts/06-interventional-cardiology/AGENT_DCB_Seminar_Review.html
+      categories: [介入 Interventional]
+    - title: "Entresto Journey at 10 — 十年實證回顧"
+      description: "互動投影片, 41 張。從 landmark trials 到 real-world outcomes。"
+      path: handouts/02-heart-failure/Entresto_Journey_at_10.html
+      categories: [心衰竭 HF]
+    - title: "Entresto @ 10 — 手機閱讀版"
+      description: "直式 / 橫式, iPhone 適用, 40 頁。"
+      path: handouts/02-heart-failure/Entresto_Journey_at_10_Mobile.html
+      categories: [心衰竭 HF, 手機 Mobile]
+    - title: "ACLS & PALS 2025 Update"
+      description: "高級心臟救命術教學互動網頁。2025 更新重點。"
+      path: handouts/03-arrhythmia/ACLS_PALS_2025.html
+      categories: [心律 Arrhythmia, 重症 Critical Care]
+    - title: "頸動脈支架術後追蹤監測 Post-CAS Surveillance"
+      description: "互動網頁。CAS 術後影像追蹤與監測策略。"
+      path: handouts/07-peripheral-vascular/Post_Carotid_Stenting_Surveillance.html
+      categories: [周邊血管 Peripheral]
+    - title: "VTE 與 Cancer-Associated VTE 治療管理"
+      description: "簡報。靜脈血栓栓塞與癌症相關 VTE 的抗凝策略。"
+      path: handouts/20-pulmonary-embolism/VTE_Management_standalone.html
+      categories: [肺栓塞 PE]
+    - title: "Sitagliptin 在 T2DM 的角色"
+      description: "案例導向回顧簡報。DPP-4 抑制劑於第二型糖尿病。"
+      path: handouts/14-diabetes-metabolic/Sitagliptin_in_T2DM_Case-Based_Review.html
+      categories: [代謝 Metabolic]
+    - title: "AI 數位科技應用於醫學教育"
+      description: "互動簡報, 手機可開啟。六個實際 AI 工作流程示範。"
+      path: handouts/90-ai-technology/AI_Medical_Education.html
+      categories: [AI 科技, 教學 Teaching]
+    - title: "用 AI 處理行政事務：Claude Desktop 到 Claude Code"
+      description: "互動簡報, 25 張。行政自動化工作流程。"
+      path: handouts/90-ai-technology/AI_Admin_Workflows_Desktop_to_Code.html
+      categories: [AI 科技]
+    - title: "Bedside Cardiology S1 — 怎麼教心音聽診"
+      description: "讀書會共筆。教學文獻導讀：如何教心臟理學檢查。"
+      path: handouts/99-misc/Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html
+      categories: [教學 Teaching]
+---
+
+本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。
+上方可依**分類篩選**、依**標題排序**、或用搜尋框過濾。
+
+::: {#featured-decks}
+:::

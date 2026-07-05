@@ -9,6 +9,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "精選互動教材"
+        href: featured.qmd
       - text: "Mainz 2024"
         href: handouts/04-valvular-disease/mainz-2024/quarto/zh/index.qmd
     right:

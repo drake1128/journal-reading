@@ -62,3 +62,4 @@ date: last-modified
 
 - [Mainz 2024 出國進修報告 — TAVI & TEER](handouts/04-valvular-disease/mainz-2024/quarto/zh/index.qmd)
 - [**AI 數位科技應用於醫學教育** — 互動簡報 (手機可開啟)](handouts/90-ai-technology/AI_Medical_Education.html){target="_blank"}
+- [**「Good Enough」的藝術 — Primary PCI 何時該停手** — 互動投影片 (靜態輕量版, 51 張, 含實證與導管靜態圖)](handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI_static.html){target="_blank"}
