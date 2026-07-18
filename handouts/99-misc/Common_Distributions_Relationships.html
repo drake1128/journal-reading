@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>常見機率分佈之間的關係 · 教學簡報</title>
+<style>
+  :root{
+    --bg:#f7f5ef; --ink:#222; --muted:#5b5b5b; --line:#dcd8cd;
+    --card:#ffffff; --accent:#3b6fb0;
+    --disc:#6aa84f;      /* 離散/計數 */
+    --normal:#3b6fb0;    /* 常態樞紐 */
+    --sampling:#4aa89a;  /* 抽樣分佈 */
+    --life:#c0566e;      /* 等待/存活 */
+    --amber:#e0a94a; --purple:#9b7fc0; --pink:#d98cae; --gold:#e0b64a; --orange:#e08a4a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC","Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); overflow:hidden;
+  }
+  #deck{height:100vh;width:100vw;position:relative}
+  .slide{
+    position:absolute; inset:0; display:none; flex-direction:column;
+    padding:clamp(24px,4vw,64px) clamp(28px,6vw,110px);
+    opacity:0; transition:opacity .35s ease;
+  }
+  .slide.active{display:flex; opacity:1}
+  .slide h1{font-size:clamp(28px,4vw,52px); line-height:1.15; letter-spacing:.5px}
+  .slide h2{font-size:clamp(22px,2.9vw,38px); line-height:1.2; margin-bottom:.35em}
+  .slide h2 .tag{font-size:.5em; vertical-align:middle; margin-left:.6em; padding:.25em .7em;
+    border-radius:999px; color:#fff; font-weight:600; letter-spacing:1px}
+  .kicker{font-size:clamp(13px,1.3vw,16px); font-weight:700; letter-spacing:3px;
+    text-transform:uppercase; color:var(--accent); margin-bottom:.6em}
+  .lead{font-size:clamp(16px,1.7vw,22px); color:var(--muted); line-height:1.7; max-width:60ch}
+  p,li{font-size:clamp(15px,1.5vw,20px); line-height:1.75}
+  .body{margin-top:.6em; display:flex; gap:clamp(20px,3vw,48px); flex:1; min-height:0}
+  .col{flex:1; min-width:0; display:flex; flex-direction:column; gap:14px}
+  ul{margin:.3em 0 .3em 1.2em} li{margin:.35em 0}
+  .muted{color:var(--muted)}
+  .formula{font-family:"Cambria Math","Times New Roman",Georgia,serif; font-style:italic;
+    background:#fff; border:1px solid var(--line); border-radius:10px;
+    padding:.5em .8em; display:inline-block; font-size:1.02em}
+  .note{font-size:.86em; color:var(--muted); border-left:3px solid var(--line); padding-left:.8em}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:clamp(12px,1.4vw,20px); box-shadow:0 1px 0 rgba(0,0,0,.03)}
+  .grid{display:grid; gap:14px}
+  .g2{grid-template-columns:1fr 1fr} .g3{grid-template-columns:1fr 1fr 1fr}
+  .distbox{display:flex; flex-direction:column; align-items:center; gap:6px}
+  .distbox .name{font-weight:700; font-size:.95em}
+  .distbox .sub{font-size:.78em; color:var(--muted)}
+  .arrow{display:inline-flex; align-items:center; gap:.5em; font-weight:700}
+  .arrow.solid::before{content:"───▸"; letter-spacing:-2px; color:#333}
+  .arrow.limit::before{content:"┈┈▸"; color:var(--accent)}
+  .legend{display:flex; gap:24px; flex-wrap:wrap; margin-top:.4em}
+  .legend span{display:inline-flex; align-items:center; gap:.5em; font-size:.9em; color:var(--muted)}
+  .swatch{width:26px; height:0; border-top:3px solid #333}
+  .swatch.dash{border-top:3px dashed var(--accent)}
+  .chain{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin:.5em 0}
+  .chip{padding:.35em .7em; border-radius:10px; color:#fff; font-weight:700; font-size:.9em; white-space:nowrap}
+  .op{font-family:"Cambria Math",serif; font-style:italic; color:var(--muted); font-size:.9em}
+  table{border-collapse:collapse; width:100%; font-size:clamp(12px,1.15vw,15px)}
+  th,td{border:1px solid var(--line); padding:.5em .6em; text-align:left; vertical-align:top}
+  th{background:#efece3}
+  svg.plot{width:100%; height:70px; display:block}
+  .footer{position:absolute; bottom:14px; left:0; right:0; display:flex; justify-content:space-between;
+    padding:0 clamp(28px,6vw,110px); font-size:12px; color:#9a968b}
+  #bar{position:absolute; top:0; left:0; height:4px; background:var(--accent); transition:width .3s}
+  .center{align-items:center; justify-content:center; text-align:center}
+  .pill{display:inline-block; padding:.3em .9em; border-radius:999px; background:#ecece3;
+    color:var(--muted); font-weight:600; font-size:.85em; margin:.2em}
+  .hint{position:absolute; bottom:36px; right:24px; font-size:12px; color:#b7b3a8}
+  .two-tone{display:flex; gap:24px; align-items:stretch}
+  .big{font-size:clamp(20px,2.2vw,30px); font-weight:700}
+  b.k{color:var(--accent)}
+</style>
+</head>
+<body>
+<div id="deck">
+  <div id="bar"></div>
+
+  <!-- 1 · 封面 -->
+  <section class="slide active center">
+    <div class="kicker">生物統計 · 教學簡報草稿</div>
+    <h1>常見機率分佈之間的關係<br><span style="font-size:.55em; color:var(--muted)">Relationships Among Common Distributions</span></h1>
+    <p class="lead" style="margin-top:1.2em">一張看似複雜的關係圖，其實只講三件事：<br><b>怎麼「加起來」、怎麼「取比值」、以及「數量變大時會變成誰」。</b></p>
+    <div class="legend" style="justify-content:center">
+      <span><i class="swatch"></i>實線 = 變換 / 特例（Transformation / Special case）</span>
+      <span><i class="swatch dash"></i>虛線 = 極限（Limit，樣本或參數 →∞）</span>
+    </div>
+    <p class="muted" style="margin-top:1.5em; font-size:.9em">原圖出處：techwith.ram ·　本簡報為教學重製與詳解</p>
+  </section>
+
+  <!-- 2 · 怎麼讀這張圖 -->
+  <section class="slide">
+    <div class="kicker">導讀</div>
+    <h2>這張圖怎麼讀？兩種箭頭、三條主線</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card">
+          <p class="big">兩種箭頭</p>
+          <p><span class="arrow solid">實線</span>：一個分佈經由<b>數學運算或設成特例</b>直接變成另一個。例如把很多個相加、取比值、取平方、取對數。<span class="muted">關係是「精確」的。</span></p>
+          <p style="margin-top:.6em"><span class="arrow limit">虛線</span>：當<b>樣本數或參數趨近無窮大</b>時，一個分佈的形狀「逼近」另一個。<span class="muted">關係是「近似 / 極限」的。</span></p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <p class="big">三條貫穿全圖的主線</p>
+          <ul>
+            <li><b style="color:var(--disc)">計數家族</b>：Bernoulli → Binomial → Poisson（成敗與稀有事件）</li>
+            <li><b style="color:var(--normal)">常態樞紐</b>：中央極限定理讓「很多東西的總和」都趨近常態</li>
+            <li><b style="color:var(--life)">等待 / 存活家族</b>：Exponential → Gamma → Weibull（時間到事件發生）</li>
+          </ul>
+          <p class="note" style="margin-top:.6em">再由常態衍生出統計檢定用的 χ²、t、F —— 這正是你在論文裡天天看到的那組分佈。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · 三個核心動作 -->
+  <section class="slide">
+    <div class="kicker">核心觀念</div>
+    <h2>整張圖只有三個「動作」在重複</h2>
+    <div class="body">
+      <div class="grid g3" style="width:100%">
+        <div class="card center">
+          <div class="pill">動作一</div>
+          <p class="big">相加 ∑Xᵢ</p>
+          <div class="distbox"><svg class="plot" data-dist="poisson"></svg></div>
+          <p>獨立同分佈相加 → 常常變成「同一家族的放大版」或趨近常態。<br><span class="muted">Bernoulli 加成 Binomial；Exponential 加成 Gamma。</span></p>
+        </div>
+        <div class="card center">
+          <div class="pill">動作二</div>
+          <p class="big">取比值 / 變換</p>
+          <div class="distbox"><svg class="plot" data-dist="t"></svg></div>
+          <p>兩個分佈相除、取平方、取對數 → 生出新分佈。<br><span class="muted">常態相除得 Cauchy；常態平方和得 χ²。</span></p>
+        </div>
+        <div class="card center">
+          <div class="pill">動作三</div>
+          <p class="big">趨近極限</p>
+          <div class="distbox"><svg class="plot" data-dist="normal"></svg></div>
+          <p>參數或樣本 →∞ → 形狀逼近另一個分佈。<br><span class="muted">Binomial、Poisson 在數量大時都趨近常態。</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="hint">→ / 空白鍵：下一頁　·　O：總覽　·　F：全螢幕</div>
+  </section>
+
+  <!-- 4 · 計數家族 開場 -->
+  <section class="slide">
+    <div class="kicker">第一部分</div>
+    <h2>計數家族<span class="tag" style="background:var(--disc)">離散 DISCRETE</span></h2>
+    <p class="lead">從「一次成敗」開始，一路長成「多次成敗」「稀有事件計數」。這一族回答的是：<b>在固定條件下，事件會發生幾次？</b></p>
+    <div class="chain">
+      <span class="chip" style="background:var(--pink)">Bernoulli (p)</span><span class="op">∑Xᵢ ▸</span>
+      <span class="chip" style="background:var(--disc)">Binomial (n,p)</span><span class="op">n→∞ ▸</span>
+      <span class="chip" style="background:var(--normal)">Poisson (λ)</span><span class="op">λ→∞ ▸</span>
+      <span class="chip" style="background:var(--normal)">Normal</span>
+    </div>
+    <p class="note">臨床對應：單一病人是否發生 MACE（Bernoulli）→ 一組病人的事件人數（Binomial）→ 每月急診 STEMI 到院次數（Poisson）。</p>
+  </section>
+
+  <!-- 5 · Bernoulli → Binomial -->
+  <section class="slide">
+    <div class="kicker">計數家族 · 1</div>
+    <h2>Bernoulli → Binomial：把成敗加起來</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="bernoulli"></svg><span class="name" style="color:var(--pink)">Bernoulli (p)</span><span class="sub">單次試驗：成功=1、失敗=0</span></div></div>
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="binomial"></svg><span class="name" style="color:var(--disc)">Binomial (n, p)</span><span class="sub">n 次獨立試驗的成功「次數」</span></div></div>
+      </div>
+      <div class="col">
+        <p><b>直覺：</b>丟一次硬幣是 Bernoulli；丟 n 次、數有幾次正面，就是 Binomial。</p>
+        <p><span class="arrow solid">實線（特例）</span>：Binomial 設 <span class="formula">n = 1</span> 就退回 Bernoulli。</p>
+        <p><span class="arrow solid">實線（相加）</span>：<span class="formula">∑ Xᵢ</span> —— n 個獨立 Bernoulli 相加 = Binomial。</p>
+        <p class="note">參數意義：期望值 <span class="formula">E[X]=np</span>，變異數 <span class="formula">Var=np(1−p)</span>。這就是為什麼「事件比例」的標準誤是 √(p(1−p)/n)。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · Binomial → Poisson -->
+  <section class="slide">
+    <div class="kicker">計數家族 · 2</div>
+    <h2>Binomial → Poisson：稀有事件的極限</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="binomial"></svg><span class="name" style="color:var(--disc)">Binomial (n, p)</span></div></div>
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="poisson"></svg><span class="name" style="color:var(--normal)">Poisson (λ)</span></div></div>
+      </div>
+      <div class="col">
+        <p><b>直覺：</b>當「試驗次數 n 很大、但每次成功機率 p 很小」，總次數就服從 Poisson。這叫<b>稀有事件定律</b>（law of rare events）。</p>
+        <p><span class="arrow limit">虛線（極限）</span>：<span class="formula">λ = np</span>，<span class="formula">n → ∞</span>（p→0）。</p>
+        <p><b>Poisson 的特色：</b>只有一個參數 λ，且<b>平均數 = 變異數 = λ</b>。也具可加性：<span class="formula">∑Xᵢ</span> 仍是 Poisson（自迴圈箭頭）。</p>
+        <p class="note">臨床：每 10 萬人年的罕見藥物不良反應、每月導管室緊急到院次數 —— 分母大、單一機率小，就是 Poisson。若資料「變異數 &gt; 平均數」（過度離散），要改用下一頁的 Negative binomial。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 · Geometric → Negative binomial -->
+  <section class="slide">
+    <div class="kicker">計數家族 · 3</div>
+    <h2>Geometric → Negative binomial：等到第幾次才成功</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="geometric"></svg><span class="name" style="color:var(--disc)">Geometric (p)</span><span class="sub">第一次成功前，失敗了幾次</span></div></div>
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="negbinom"></svg><span class="name" style="color:var(--amber)">Negative binomial (n, p)</span><span class="sub">累積到第 n 次成功前的失敗數</span></div></div>
+      </div>
+      <div class="col">
+        <p><b>直覺：</b>Binomial 固定「次數」數成功；Geometric / NegBinom 反過來，<b>固定「成功數」數要等多久</b>。</p>
+        <p><span class="arrow solid">實線（相加）</span>：<span class="formula">∑ Xᵢ</span> —— n 個獨立 Geometric 相加 = Negative binomial。</p>
+        <p><span class="arrow limit">虛線（極限）</span>：Negative binomial 在 <span class="formula">λ = n(1−p), n → ∞</span> 時趨近 <b>Poisson</b>。<br>因此 NegBinom 常被當成<b>「過度離散的 Poisson」</b>來用。</p>
+        <p class="note">研究應用：住院次數、再入院計數這類「變異大於平均」的計數資料，NegBinom 迴歸比 Poisson 迴歸更合適。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 · Hypergeometric / 抽樣 -->
+  <section class="slide">
+    <div class="kicker">計數家族 · 4</div>
+    <h2>Hypergeometric → Binomial：抽出後放不放回</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="hypergeometric"></svg><span class="name" style="color:var(--orange)">Hypergeometric (M, N, K)</span><span class="sub">不放回抽樣</span></div></div>
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="binomial"></svg><span class="name" style="color:var(--disc)">Binomial (n, p)</span><span class="sub">放回（或母體極大）</span></div></div>
+      </div>
+      <div class="col">
+        <p><b>直覺：</b>從 N 個裡有 M 個陽性，抽 K 個看抽到幾個陽性 —— 因為<b>不放回</b>，每抽一次都改變剩下的比例，這是 Hypergeometric。</p>
+        <p><span class="arrow limit">虛線（極限）</span>：<span class="formula">p = M/N, n = K, N → ∞</span>。母體大到「抽走一個幾乎不影響比例」，不放回就≈放回，Hypergeometric → Binomial。</p>
+        <p class="note">應用：Fisher 精確檢定的核心就是 Hypergeometric；小樣本 2×2 表用它，樣本一大就回到卡方（Binomial/常態近似）。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 · Beta-binomial / discrete uniform -->
+  <section class="slide">
+    <div class="kicker">計數家族 · 5</div>
+    <h2>Beta-binomial 與 Discrete uniform：機率本身也會變動</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="betabinom"></svg><span class="name" style="color:var(--sampling)">Beta-binomial (n, α, β)</span></div></div>
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="discuniform"></svg><span class="name" style="color:var(--purple)">Discrete uniform</span></div></div>
+      </div>
+      <div class="col">
+        <p><b>直覺：</b>Binomial 假設成功率 p 固定；但若 <b>p 本身有不確定性</b>（用 Beta 分佈描述），把它混合起來就是 Beta-binomial —— 這是貝氏思維的雛形。</p>
+        <p><span class="arrow limit">虛線</span>：<span class="formula">p = α/(α+β), α+β → ∞</span>（p 幾乎確定）時 → <b>Binomial</b>。</p>
+        <p><span class="arrow solid">實線（特例）</span>：<span class="formula">α = β = 1</span> 時 → <b>Discrete uniform</b>（每個結果等機率）。</p>
+        <p class="note">串接：Beta-binomial 用到的 Beta 分佈，稍後會在「常態衍生家族」再出現一次 —— 它是連續版的「比例」分佈。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 · 常態樞紐 開場 -->
+  <section class="slide">
+    <div class="kicker">第二部分</div>
+    <h2>常態樞紐與中央極限定理<span class="tag" style="background:var(--normal)">HUB</span></h2>
+    <p class="lead">為什麼常態分佈坐在整張圖的正中央？因為它是<b>大量獨立影響加總後的共同歸宿</b> —— 這就是中央極限定理（CLT）。</p>
+    <div class="body">
+      <div class="grid g3" style="width:100%">
+        <div class="card center"><svg class="plot" data-dist="binomial"></svg><p><b>Binomial</b><br><span class="muted">μ=np, σ²=np(1−p), n→∞</span></p></div>
+        <div class="card center"><svg class="plot" data-dist="poisson"></svg><p><b>Poisson</b><br><span class="muted">λ=σ², λ→∞</span></p></div>
+        <div class="card center"><svg class="plot" data-dist="gamma"></svg><p><b>Gamma</b><br><span class="muted">r→∞</span></p></div>
+      </div>
+    </div>
+    <p class="note">上面三個離散/偏態分佈，只要「數量或形狀參數 →∞」，虛線全都指向中間的 <b>Normal (μ, σ²)</b>。</p>
+  </section>
+
+  <!-- 11 · CLT 詳解 -->
+  <section class="slide">
+    <div class="kicker">常態樞紐 · 1</div>
+    <h2>中央極限定理：為什麼「平均」總是常態</h2>
+    <div class="body">
+      <div class="col">
+        <p><b>一句話：</b>不論原始資料長什麼樣，只要把<b>夠多的獨立隨機量加起來（或取平均）</b>，其分佈就會趨近常態。</p>
+        <p><span class="arrow limit">Binomial → Normal</span>：<span class="formula">μ = np, σ² = np(1−p), n → ∞</span>（De Moivre–Laplace）。</p>
+        <p><span class="arrow limit">Poisson → Normal</span>：<span class="formula">λ = σ², λ → ∞</span>。</p>
+        <p class="note">實務門檻：Binomial 近似常態常用 <span class="formula">np ≥ 5 且 n(1−p) ≥ 5</span>；Poisson 約 <span class="formula">λ ≥ 10</span>。</p>
+      </div>
+      <div class="col">
+        <div class="card center">
+          <svg class="plot" data-dist="normal" style="height:120px"></svg>
+          <p class="big" style="color:var(--normal)">Normal (μ, σ²)</p>
+          <p class="muted">整張圖的樞紐：幾乎所有「總和 / 平均」的極限都在這裡交會。</p>
+        </div>
+        <p><b>為什麼臨床重要：</b>樣本平均、迴歸係數、log(OR/HR) 的估計，靠 CLT 才能用常態去算信賴區間與 p 值 —— 即使原始資料不是常態。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12 · Normal ↔ Lognormal / standardize -->
+  <section class="slide">
+    <div class="kicker">常態樞紐 · 2</div>
+    <h2>標準化與對數變換：同一個常態的三種面貌</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="normal"></svg><span class="name" style="color:var(--normal)">Normal (μ, σ²)</span></div></div>
+        <div class="chain" style="justify-content:center">
+          <span class="chip" style="background:var(--normal)">Normal(μ,σ²)</span>
+          <span class="op">(X−μ)/σ ▸</span>
+          <span class="chip" style="background:var(--purple)">Normal(0,1)</span>
+        </div>
+        <p><span class="arrow solid">標準化</span>：<span class="formula">Z = (X − μ)/σ</span> 把任何常態壓成標準常態；反向 <span class="formula">X = μ + σZ</span>。</p>
+      </div>
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="lognormal"></svg><span class="name" style="color:var(--pink)">Lognormal</span><span class="sub">右偏、只取正值</span></div></div>
+        <p><span class="arrow solid">指數 / 對數</span>：若 <span class="formula">X ~ Normal</span>，則 <span class="formula">e^X ~ Lognormal</span>；反過來 <span class="formula">log(Lognormal) ~ Normal</span>。</p>
+        <p class="note">臨床對應：檢驗值如 CRP、三酸甘油酯、病毒量、住院天數常呈右偏 —— 取 log 後接近常態，才適用 t 檢定 / 線性迴歸。這也是報告中「幾何平均數」的由來。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13 · 抽樣分佈 開場 -->
+  <section class="slide">
+    <div class="kicker">第三部分</div>
+    <h2>常態衍生：統計檢定三兄弟<span class="tag" style="background:var(--sampling)">χ² · t · F</span></h2>
+    <p class="lead">把「標準常態」拿去<b>平方、相加、相除</b>，就得到假設檢定裡最常見的三個分佈。這一部分是理解 p 值的關鍵。</p>
+    <div class="body">
+      <div class="grid g3" style="width:100%">
+        <div class="card center"><svg class="plot" data-dist="chisq"></svg><p class="big" style="color:var(--sampling)">χ² (ν)</p><p class="muted">標準常態的<b>平方和</b></p></div>
+        <div class="card center"><svg class="plot" data-dist="t"></svg><p class="big" style="color:var(--disc)">t (ν)</p><p class="muted">常態 ÷ √(χ²/ν)</p></div>
+        <div class="card center"><svg class="plot" data-dist="F"></svg><p class="big" style="color:var(--orange)">F (ν₁, ν₂)</p><p class="muted">兩個 χ² 的<b>比值</b></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14 · Chi-squared -->
+  <section class="slide">
+    <div class="kicker">抽樣分佈 · 1</div>
+    <h2>χ²：標準常態的平方和</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card center"><svg class="plot" data-dist="chisq" style="height:110px"></svg><span class="name" style="color:var(--sampling)">Chi-squared (ν)</span><span class="sub">ν = 自由度</span></div>
+      </div>
+      <div class="col">
+        <p><span class="arrow solid">由常態而來</span>：<span class="formula">χ²(ν) = Z₁² + Z₂² + … + Z_ν²</span>，ν 個獨立標準常態的平方和。</p>
+        <p><span class="arrow solid">可加性</span>：<span class="formula">∑Xᵢ</span> —— 兩個 χ² 相加，自由度相加。</p>
+        <p><b>與 Gamma 的關係：</b><span class="formula">χ²(ν) = Gamma(r = ν/2, λ = ½)</span> —— χ² 只是 Gamma 的一個特例。</p>
+        <p class="note">用途：適合度檢定、列聯表獨立性（卡方檢定）、變異數的信賴區間。自由度越大，χ² 越對稱、越像常態（虛線 →Normal）。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 15 · t -->
+  <section class="slide">
+    <div class="kicker">抽樣分佈 · 2</div>
+    <h2>t 分佈：把「未知的標準差」考慮進去</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card center"><svg class="plot" data-dist="t" style="height:110px"></svg><span class="name" style="color:var(--disc)">Student's t (ν)</span><span class="sub">比常態厚尾</span></div>
+      </div>
+      <div class="col">
+        <p><span class="arrow solid">定義</span>：<span class="formula">t = Z / √(χ²(ν)/ν)</span> —— 分子是標準常態，分母是「用樣本估計的標準差」。因為分母也有誤差，<b>t 比常態尾巴更厚</b>。</p>
+        <p><span class="arrow limit">ν → ∞</span>：自由度越大，估計越準，<b>t → Normal(0,1)</b>。</p>
+        <p><span class="arrow solid">ν = 1</span>：退化成 <b>Cauchy</b>（厚尾到連平均數都不存在）。</p>
+        <p class="note">臨床：小樣本比較兩組平均（t 檢定）、迴歸係數檢定都用 t。樣本一大（&gt;30~50），t 與 z 幾乎沒差。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 16 · F -->
+  <section class="slide">
+    <div class="kicker">抽樣分佈 · 3</div>
+    <h2>F 分佈：兩個變異數的比值</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card center"><svg class="plot" data-dist="F" style="height:110px"></svg><span class="name" style="color:var(--orange)">F (ν₁, ν₂)</span></div>
+      </div>
+      <div class="col">
+        <p><span class="arrow solid">定義</span>：<span class="formula">F = (χ²₁/ν₁) / (χ²₂/ν₂)</span> —— 兩個「標準化後的變異數」相除。</p>
+        <p><span class="arrow solid">與 t 的關係</span>：<span class="formula">t(ν)² = F(1, ν)</span>。t 檢定平方後就是 F 檢定。</p>
+        <p><span class="arrow limit">ν₂ → ∞</span>：<span class="formula">ν₁·F → χ²(ν₁)</span>。</p>
+        <p class="note">用途：ANOVA（比較多組平均，其實是在比「組間 vs 組內」變異數）、迴歸整體顯著性檢定。這解釋了為何 ANOVA 的統計量叫 F 值。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 17 · Cauchy -->
+  <section class="slide">
+    <div class="kicker">抽樣分佈 · 4</div>
+    <h2>Cauchy：反例警示 —— 平均數不會收斂</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card center"><svg class="plot" data-dist="cauchy" style="height:110px"></svg><span class="name" style="color:var(--gold)">Cauchy</span><span class="sub">= t(ν=1)</span></div>
+      </div>
+      <div class="col">
+        <p><span class="arrow solid">兩個常態相除</span>：<span class="formula">X₁ / X₂</span>（兩個獨立標準常態的比值）= Cauchy。</p>
+        <p><span class="arrow solid">倒數不變</span>：<span class="formula">1/X</span> 仍是 Cauchy；<span class="formula">t(1)</span> 也是 Cauchy。</p>
+        <p><b>為什麼重要：</b>Cauchy 尾巴太厚，<b>期望值與變異數都不存在</b>。所以它的樣本平均<b>不會</b>因為 n 變大而收斂 —— <span class="formula">∑Xᵢ</span> 的平均還是 Cauchy。</p>
+        <p class="note">教學價值：它是「中央極限定理不成立」的經典反例，提醒我們 CLT 需要有限變異數這個前提。比值型指標（如某些劑量比、風險比在極端情形）要小心厚尾。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 18 · 等待/存活 開場 -->
+  <section class="slide">
+    <div class="kicker">第四部分</div>
+    <h2>等待 / 存活家族<span class="tag" style="background:var(--life)">TIME-TO-EVENT</span></h2>
+    <p class="lead">這一族回答：<b>「到事件發生要等多久？」</b> —— 正是存活分析的數學核心。</p>
+    <div class="chain">
+      <span class="chip" style="background:var(--normal)">Exponential (λ)</span><span class="op">∑Xᵢ ▸</span>
+      <span class="chip" style="background:var(--life)">Gamma (r, λ)</span>
+      <span class="op">　γ 變換 ▸</span>
+      <span class="chip" style="background:var(--gold)">Weibull (γ, λ)</span>
+    </div>
+    <p class="note">Exponential 假設「風險率固定」；Weibull 允許風險隨時間上升或下降（老化 vs 早夭）—— 這就是 Cox 迴歸之外最常用的參數存活模型。</p>
+  </section>
+
+  <!-- 19 · Exponential → Gamma -->
+  <section class="slide">
+    <div class="kicker">等待 / 存活 · 1</div>
+    <h2>Exponential → Gamma：等第 1 次 vs 等第 r 次</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="exponential"></svg><span class="name" style="color:var(--normal)">Exponential (λ)</span><span class="sub">到「下一次」事件的等待時間</span></div></div>
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="gamma"></svg><span class="name" style="color:var(--life)">Gamma (r, λ)</span><span class="sub">到「第 r 次」事件的等待時間</span></div></div>
+      </div>
+      <div class="col">
+        <p><b>直覺：</b>Poisson 數「單位時間內幾次」；Exponential 是它的另一面 —— 「兩次事件之間隔多久」。</p>
+        <p><span class="arrow solid">相加</span>：<span class="formula">∑ Xᵢ</span> —— r 個獨立 Exponential 相加 = Gamma；<span class="formula">r = 1</span> 時 Gamma 退回 Exponential。</p>
+        <p><b>無記憶性：</b>Exponential 的 <span class="formula">min Xᵢ</span> 仍是 Exponential（自迴圈）—— 「已經等了多久」不影響「還要再等多久」。</p>
+        <p><span class="arrow limit">r → ∞</span>：Gamma 趨近 <b>Normal</b>（μ=rλ, σ²=rλ²）。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 20 · Weibull / Laplace -->
+  <section class="slide">
+    <div class="kicker">等待 / 存活 · 2</div>
+    <h2>Weibull 與 Double exponential：放寬與對稱化</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="weibull"></svg><span class="name" style="color:var(--gold)">Weibull (γ, λ)</span></div></div>
+        <p><span class="arrow solid">γ 變換</span>：Exponential 取 <span class="formula">X^{1/γ}</span> 型變換 → Weibull；<span class="formula">γ = 1</span> 時就是 Exponential。</p>
+        <p class="note">γ&gt;1：風險隨時間上升（老化、磨損）；γ&lt;1：風險遞減（術後早期高危、之後趨穩）。存活分析首選參數模型。</p>
+      </div>
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="laplace"></svg><span class="name" style="color:var(--pink)">Double exponential（Laplace）</span></div></div>
+        <p><span class="arrow solid">相減</span>：<span class="formula">X₁ − X₂</span>（兩個獨立 Exponential 相減）= Laplace（對稱雙尾）。</p>
+        <p><span class="arrow solid">取絕對值</span>：<span class="formula">|Laplace|</span> = Exponential。</p>
+        <p class="note">Laplace 是 L1 正則化（LASSO）的貝氏先驗，尖峰厚尾、能把係數壓到 0。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 21 · Beta / Uniform -->
+  <section class="slide">
+    <div class="kicker">等待 / 存活 · 3</div>
+    <h2>Gamma → Beta → Uniform：把兩個等待時間「正規化」</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="beta"></svg><span class="name" style="color:var(--gold)">Beta (α, β)</span><span class="sub">介於 0~1 的「比例」</span></div></div>
+        <div class="card"><div class="distbox"><svg class="plot" data-dist="uniform"></svg><span class="name" style="color:var(--sampling)">Uniform (0, 1)</span></div></div>
+      </div>
+      <div class="col">
+        <p><span class="arrow solid">Gamma → Beta</span>：<span class="formula">X₁ / (X₁ + X₂)</span>，兩個 Gamma 的「佔比」= Beta(α, β)。Beta 天生活在 0~1 之間，是描述<b>機率 / 比例</b>的分佈。</p>
+        <p><span class="arrow solid">Beta → Uniform</span>：<span class="formula">α = β = 1</span> 時 Beta 變成 Uniform(0,1)（完全無資訊）。</p>
+        <p><span class="arrow solid">Uniform → Exponential</span>：<span class="formula">−ln(U)/λ ~ Exponential</span>（反函數取樣法）；反向 <span class="formula">e^{−λX}</span> 把 Exponential 映回 Uniform。</p>
+        <p class="note">貝氏收尾：Beta 是 Binomial 的共軛先驗 —— 這把我們帶回第一部分的 Beta-binomial。整張圖在此閉環。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 22 · 臨床/研究對照 -->
+  <section class="slide">
+    <div class="kicker">為什麼要懂</div>
+    <h2>一張表：每個分佈在臨床 / 研究裡做什麼</h2>
+    <div class="body">
+      <div style="width:100%; overflow:auto">
+      <table>
+        <tr><th>分佈</th><th>回答的問題</th><th>臨床 / 研究例子</th></tr>
+        <tr><td><b>Bernoulli / Binomial</b></td><td>成敗、比例</td><td>手術成功率、事件發生率、療效反應比例</td></tr>
+        <tr><td><b>Poisson / Neg-binomial</b></td><td>單位時間的計數</td><td>每月急診 STEMI 數、再入院次數（過度離散用 NB）</td></tr>
+        <tr><td><b>Normal</b></td><td>連續測量、估計量</td><td>血壓、平均數與迴歸係數的信賴區間（靠 CLT）</td></tr>
+        <tr><td><b>Lognormal</b></td><td>右偏的正值</td><td>CRP、病毒量、住院天數（取 log 後分析）</td></tr>
+        <tr><td><b>Exponential / Weibull / Gamma</b></td><td>到事件的時間</td><td>存活分析、裝置壽命、風險率隨時間變化</td></tr>
+        <tr><td><b>χ² / t / F</b></td><td>假設檢定</td><td>卡方檢定、t 檢定、ANOVA / 迴歸整體檢定</td></tr>
+        <tr><td><b>Beta</b></td><td>0~1 的比例</td><td>敏感度/特異度的貝氏估計、Binomial 的共軛先驗</td></tr>
+        <tr><td><b>Hypergeometric</b></td><td>不放回抽樣</td><td>Fisher 精確檢定（小樣本 2×2 表）</td></tr>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 23 · 速查總覽 -->
+  <section class="slide">
+    <div class="kicker">總覽</div>
+    <h2>一頁速查：把全圖濃縮成幾句話</h2>
+    <div class="body">
+      <div class="col">
+        <div class="card"><p class="big" style="color:var(--disc)">計數家族</p>
+          <p>Bernoulli <span class="op">∑▸</span> Binomial <span class="op">n→∞▸</span> Poisson <span class="op">λ→∞▸</span> Normal</p>
+          <p>Geometric <span class="op">∑▸</span> Neg-binomial <span class="op">→▸</span> Poisson</p>
+          <p>Hypergeometric <span class="op">N→∞▸</span> Binomial</p>
+        </div>
+        <div class="card"><p class="big" style="color:var(--life)">等待 / 存活家族</p>
+          <p>Exponential <span class="op">∑▸</span> Gamma <span class="op">r→∞▸</span> Normal</p>
+          <p>Exponential <span class="op">γ▸</span> Weibull；　X₁−X₂ <span class="op">▸</span> Laplace</p>
+          <p>Gamma <span class="op">X₁/(X₁+X₂)▸</span> Beta <span class="op">α=β=1▸</span> Uniform</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card"><p class="big" style="color:var(--normal)">常態樞紐</p>
+          <p>任何「總和 / 平均」 <span class="op">→▸</span> Normal（CLT）</p>
+          <p>Normal <span class="op">e^X▸</span> Lognormal；　(X−μ)/σ <span class="op">▸</span> Normal(0,1)</p>
+        </div>
+        <div class="card"><p class="big" style="color:var(--sampling)">檢定三兄弟</p>
+          <p>Z² 相加 <span class="op">▸</span> χ²；　Z / √(χ²/ν) <span class="op">▸</span> t</p>
+          <p>(χ²/ν)÷(χ²/ν) <span class="op">▸</span> F；　t² = F(1,ν)；　t(1)=Cauchy</p>
+          <p>Normal ÷ Normal <span class="op">▸</span> Cauchy（厚尾、無平均）</p>
+        </div>
+        <p class="note">記憶口訣：<b>加成家族、比出檢定、大則常態</b>。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 24 · 附錄：箭頭全表 -->
+  <section class="slide">
+    <div class="kicker">附錄</div>
+    <h2>附錄：全圖箭頭一覽（含公式）</h2>
+    <div class="body">
+      <div style="width:100%; overflow:auto">
+      <table>
+        <tr><th>從</th><th>到</th><th>類型</th><th>關係</th></tr>
+        <tr><td>Bernoulli(p)</td><td>Binomial(n,p)</td><td>特例/相加</td><td>∑Xᵢ；n=1 反向</td></tr>
+        <tr><td>Binomial(n,p)</td><td>Poisson(λ)</td><td>極限</td><td>λ=np, n→∞</td></tr>
+        <tr><td>Binomial(n,p)</td><td>Normal</td><td>極限</td><td>μ=np, σ²=np(1−p), n→∞</td></tr>
+        <tr><td>Poisson(λ)</td><td>Normal</td><td>極限</td><td>λ=σ², λ→∞；∑Xᵢ 仍為 Poisson</td></tr>
+        <tr><td>Geometric(p)</td><td>Neg-binomial(n,p)</td><td>相加</td><td>∑Xᵢ；min Xᵢ 仍為 Geometric</td></tr>
+        <tr><td>Neg-binomial(n,p)</td><td>Poisson(λ)</td><td>極限</td><td>λ=n(1−p), n→∞</td></tr>
+        <tr><td>Hypergeometric(M,N,K)</td><td>Binomial(n,p)</td><td>極限</td><td>p=M/N, n=K, N→∞</td></tr>
+        <tr><td>Beta-binomial(n,α,β)</td><td>Binomial</td><td>極限</td><td>p=α/(α+β), α+β→∞</td></tr>
+        <tr><td>Beta-binomial(n,α,β)</td><td>Discrete uniform</td><td>特例</td><td>α=β=1</td></tr>
+        <tr><td>Normal(μ,σ²)</td><td>Normal(0,1)</td><td>變換</td><td>Z=(X−μ)/σ；反向 μ+σZ</td></tr>
+        <tr><td>Normal</td><td>Lognormal</td><td>變換</td><td>e^X；反向 log X</td></tr>
+        <tr><td>Normal(0,1)×ν</td><td>χ²(ν)</td><td>變換</td><td>∑Zᵢ²；∑Xᵢ 自由度相加</td></tr>
+        <tr><td>χ²(ν)</td><td>Gamma(r,λ)</td><td>特例</td><td>r=ν/2, λ=½</td></tr>
+        <tr><td>Gamma(r,λ)</td><td>Normal</td><td>極限</td><td>μ=rλ, σ²=rλ², r→∞</td></tr>
+        <tr><td>Normal(0,1), χ²</td><td>t(ν)</td><td>變換</td><td>t=Z/√(χ²/ν)；ν→∞→Normal；ν=1→Cauchy</td></tr>
+        <tr><td>χ², χ²</td><td>F(ν₁,ν₂)</td><td>變換</td><td>(χ²₁/ν₁)/(χ²₂/ν₂)；t²=F(1,ν)；ν₂→∞→χ²</td></tr>
+        <tr><td>Normal(0,1)÷Normal(0,1)</td><td>Cauchy</td><td>變換</td><td>X₁/X₂；1/X 不變；=t(1)</td></tr>
+        <tr><td>Exponential(λ)</td><td>Gamma(r,λ)</td><td>相加</td><td>∑Xᵢ；r=1 反向；min Xᵢ 仍為 Exponential</td></tr>
+        <tr><td>Exponential(λ)</td><td>Weibull(γ,λ)</td><td>變換</td><td>X^{1/γ}；γ=1 反向</td></tr>
+        <tr><td>Exponential, Exponential</td><td>Double exp.（Laplace）</td><td>變換</td><td>X₁−X₂；|X| 反向為 Exponential</td></tr>
+        <tr><td>Gamma, Gamma</td><td>Beta(α,β)</td><td>變換</td><td>X₁/(X₁+X₂)</td></tr>
+        <tr><td>Beta(α,β)</td><td>Uniform(0,1)</td><td>特例</td><td>α=β=1</td></tr>
+        <tr><td>Uniform(0,1)</td><td>Exponential(λ)</td><td>變換</td><td>−ln(U)/λ；反向 e^{−λX}</td></tr>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 25 · 結尾 -->
+  <section class="slide center">
+    <div class="kicker">結語</div>
+    <h1 style="font-size:clamp(26px,3.6vw,46px)">別背關係圖，理解三個動作就好</h1>
+    <p class="lead" style="margin-top:1em"><b>加起來</b>會走向常態（CLT）；<b>取比值 / 平方</b>生出檢定用的 χ²、t、F；<b>數量變大</b>時大家都逼近常態。</p>
+    <p class="muted" style="margin-top:1.4em">教學簡報草稿 · 繁體中文重製<br>依原圖「Relationships Among Common Distributions」(techwith.ram) 詳解</p>
+    <div class="legend" style="justify-content:center; margin-top:1.2em">
+      <span class="pill">可再調整：深度、頁數、加入院內案例</span>
+      <span class="pill">可輸出成 PPT / PDF</span>
+    </div>
+  </section>
+
+  <div class="footer"><span>常見機率分佈之間的關係</span><span id="pageno"></span></div>
+</div>
+
+<script>
+/* ---------- 分佈迷你圖：自成一檔，無外部相依 ---------- */
+function linspace(a,b,n){const o=[];for(let i=0;i<n;i++)o.push(a+(b-a)*i/(n-1));return o;}
+const C={disc:'#6aa84f',normal:'#3b6fb0',sampling:'#4aa89a',life:'#c0566e',amber:'#e0a94a',
+  purple:'#9b7fc0',pink:'#d98cae',gold:'#e0b64a',orange:'#e08a4a'};
+// 連續型：回傳未正規化 pdf 形狀函數 + 範圍 + 顏色
+const CONT={
+  normal:[x=>Math.exp(-x*x/2),[-4,4],C.normal],
+  lognormal:[x=>x>0?Math.exp(-Math.pow(Math.log(x),2)/2)/x:0,[0.02,5],C.pink],
+  exponential:[x=>x>=0?Math.exp(-x):0,[0,5],C.normal],
+  gamma:[x=>x>0?x*x*Math.exp(-x):0,[0,10],C.life],           // shape≈3
+  beta:[x=>(x>0&&x<1)?Math.pow(x,1.6)*Math.pow(1-x,1.6):0,[0,1],C.gold],
+  chisq:[x=>x>0?x*Math.exp(-x/2):0,[0,13],C.sampling],        // k≈4
+  t:[x=>Math.pow(1+x*x/3,-2),[-4,4],C.disc],                  // ν=3
+  cauchy:[x=>1/(1+x*x),[-5,5],C.gold],
+  weibull:[x=>x>0?1.5*Math.pow(x,0.5)*Math.exp(-Math.pow(x,1.5)):0,[0,3],C.gold],
+  uniform:[x=>(x>=0&&x<=1)?1:0,[-0.35,1.35],C.sampling],
+  laplace:[x=>Math.exp(-Math.abs(x)),[-5,5],C.pink],
+  F:[x=>x>0?Math.sqrt(x)*Math.pow(1+0.4*x,-7):0,[0,5.5],C.orange]
+};
+// 離散型：長條高度
+function binom(n,p){const o=[];let c=1;for(let k=0;k<=n;k++){o.push(c*Math.pow(p,k)*Math.pow(1-p,n-k));c=c*(n-k)/(k+1);}return o;}
+function pois(l,m=12){const o=[];let f=1;for(let k=0;k<=m;k++){if(k>0)f*=k;o.push(Math.exp(-l)*Math.pow(l,k)/f);}return o;}
+function nb(r,p,m=12){const o=[];for(let k=0;k<=m;k++){let c=1;for(let i=0;i<k;i++)c=c*(r+i)/(i+1);o.push(c*Math.pow(p,r)*Math.pow(1-p,k));}return o;}
+const DISC={
+  bernoulli:[[0.38,0.62],C.pink],
+  binomial:[binom(10,0.4),C.disc],
+  poisson:[pois(3),C.normal],
+  geometric:[[0.5,0.25,0.125,0.0625,0.031,0.016,0.008],C.disc],
+  negbinom:[nb(3,0.55),C.amber],
+  hypergeometric:[[0.04,0.18,0.34,0.28,0.13,0.03],C.orange],
+  discuniform:[[0.2,0.2,0.2,0.2,0.2],C.purple],
+  betabinom:[[0.19,0.14,0.115,0.11,0.115,0.14,0.19],C.sampling]
+};
+function pathContinuous(fn,range){
+  const [a,b]=range, xs=linspace(a,b,64), ys=xs.map(fn);
+  const my=Math.max(...ys)||1;
+  const W=100,H=40,pad=3;
+  let d="M0,"+H;
+  xs.forEach((x,i)=>{const px=((x-a)/(b-a))*W; const py=H-pad-(ys[i]/my)*(H-2*pad); d+=" L"+px.toFixed(2)+","+py.toFixed(2);});
+  d+=" L"+W+","+H+" Z"; return d;
+}
+function renderPlot(el){
+  const key=el.getAttribute('data-dist');
+  const NS="http://www.w3.org/2000/svg";
+  el.setAttribute('viewBox','0 0 100 40'); el.setAttribute('preserveAspectRatio','none');
+  if(CONT[key]){
+    const [fn,range,color]=CONT[key];
+    const p=document.createElementNS(NS,'path');
+    p.setAttribute('d',pathContinuous(fn,range));
+    p.setAttribute('fill',color); p.setAttribute('fill-opacity','0.35');
+    p.setAttribute('stroke',color); p.setAttribute('stroke-width','1'); p.setAttribute('vector-effect','non-scaling-stroke');
+    el.appendChild(p);
+    const base=document.createElementNS(NS,'line');
+    base.setAttribute('x1',0);base.setAttribute('y1',40);base.setAttribute('x2',100);base.setAttribute('y2',40);
+    base.setAttribute('stroke',color);base.setAttribute('stroke-width','1');base.setAttribute('vector-effect','non-scaling-stroke');
+    el.appendChild(base);
+  } else if(DISC[key]){
+    const [bars,color]=DISC[key], n=bars.length, my=Math.max(...bars)||1;
+    const W=100,H=40,pad=3, slot=W/n, bw=slot*0.6;
+    bars.forEach((v,i)=>{
+      const h=(v/my)*(H-2*pad); const x=i*slot+(slot-bw)/2; const y=H-h;
+      const r=document.createElementNS(NS,'rect');
+      r.setAttribute('x',x.toFixed(2));r.setAttribute('y',y.toFixed(2));
+      r.setAttribute('width',bw.toFixed(2));r.setAttribute('height',h.toFixed(2));
+      r.setAttribute('fill',color);r.setAttribute('fill-opacity','0.75');
+      el.appendChild(r);
+    });
+  }
+}
+document.querySelectorAll('svg.plot').forEach(renderPlot);
+
+/* ---------- 投影片導覽 ---------- */
+const slides=[...document.querySelectorAll('.slide')];
+let idx=0;
+const bar=document.getElementById('bar'), pageno=document.getElementById('pageno');
+function show(i){
+  idx=Math.max(0,Math.min(slides.length-1,i));
+  slides.forEach((s,k)=>s.classList.toggle('active',k===idx));
+  bar.style.width=((idx+1)/slides.length*100)+'%';
+  pageno.textContent=(idx+1)+' / '+slides.length;
+}
+function next(){show(idx+1);} function prev(){show(idx-1);}
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();next();}
+  else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();prev();}
+  else if(e.key==='Home'){show(0);} else if(e.key==='End'){show(slides.length-1);}
+  else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+  else if(e.key==='o'||e.key==='O'){document.body.classList.toggle('overview');}
+});
+document.addEventListener('click',e=>{if(e.target.closest('a'))return; if(e.clientX>window.innerWidth*0.35)next();else prev();});
+show(0);
+</script>
+</body>
+</html>

@@ -490,6 +490,8 @@ website:
         - section: "其他 Misc"
           contents:
             - handouts/99-misc/index.qmd
+            - text: "常見機率分佈之間的關係 — Common Distributions (互動投影片, 25 張, 生物統計)"
+              href: handouts/99-misc/Common_Distributions_Relationships.html
             - handouts/99-misc/acls-team-work/index.qmd
             - handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.qmd
             - handouts/99-misc/book-cardiovascular-care-for-neurologists/index.qmd

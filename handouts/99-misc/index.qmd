@@ -1,6 +1,13 @@
 ---
 title: "其他 — Miscellaneous"
+resources:
+  - "Common_Distributions_Relationships.html"
 ---
+
+## 精選簡報 Featured Slide Decks
+
+- **[常見機率分佈之間的關係 — Relationships Among Common Distributions (互動投影片, 25 張)](Common_Distributions_Relationships.html){target="_blank"}**
+  *生物統計教學：把「常見機率分佈關係圖」拆成三個動作（相加 ∑Xᵢ／取比值變換／趨近極限），詳解計數家族、常態樞紐與 CLT、χ²·t·F 檢定三兄弟、等待/存活家族，並附臨床對照與全圖箭頭速查。每張投影片即時繪出分佈曲線。鍵盤 ← → 或滑動切換，`F` 全螢幕、`O` 總覽*
 
 ## 教學講義 Handouts
 
