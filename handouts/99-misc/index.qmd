@@ -2,12 +2,17 @@
 title: "其他 — Miscellaneous"
 resources:
   - "Common_Distributions_Relationships.html"
+  - "Decisional_Conflict_in_Medicine.html"
+  - "Decisional_Conflict_assets/"
 ---
 
 ## 精選簡報 Featured Slide Decks
 
 - **[常見機率分佈之間的關係 — Relationships Among Common Distributions (互動投影片, 25 張)](Common_Distributions_Relationships.html){target="_blank"}**
   *生物統計教學：把「常見機率分佈關係圖」拆成三個動作（相加 ∑Xᵢ／取比值變換／趨近極限），詳解計數家族、常態樞紐與 CLT、χ²·t·F 檢定三兄弟、等待/存活家族，並附臨床對照與全圖箭頭速查。每張投影片即時繪出分佈曲線。鍵盤 ← → 或滑動切換，`F` 全螢幕、`O` 總覽*
+
+- **[醫療決策衝突 — Decisional Conflict in Medicine (互動投影片, 51 張)](Decisional_Conflict_in_Medicine.html){target="_blank"}**
+  *醫學人文／溝通教學：以兩個真實案例（NSTEMI 心因性休克連鎖決策、OHCA 之 ECMO 與跨院 ICU 資源衝突）貫穿多層次醫療決策衝突。含 O'Connor 決策衝突量表與 SURE、Elwyn 三談 SDM、Edmondson 心理安全、SPIKES／NURSE／VALUE 溝通工具、資源分配倫理，並還原「如何讓團隊更糟 vs 如何突破」九宮格對話矩陣，附去識別化案例影像。文獻均附可點 DOI。鍵盤 ↓→／↑← 或滑動切換，`E` 就地編輯*
 
 ## 教學講義 Handouts
 

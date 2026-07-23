@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>醫療決策衝突 · Decisional Conflict in Medicine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+/* ===========================================
+   THEME — Clinical Mono (Swiss-minimal, clinical)
+   =========================================== */
+:root{
+  --bg:#e8ebe7; --panel:#ffffff; --ink:#15232c; --ink2:#38474f; --muted:#6b7880;
+  --accent:#c0392b; --accent-soft:#f6e5e2; --teal:#0e6f6e; --teal-soft:#e0efee;
+  --line:#d6ddd7; --line2:#e9ece9; --dark:#132029; --imgbg:#0d1620;
+  --mono:'IBM Plex Mono',monospace;
+  --sans:'IBM Plex Sans','Noto Sans TC',sans-serif;
+  --serif:'Fraunces','Noto Serif TC',serif;
+  --title:clamp(2.2rem,6vw,5.2rem);
+  --h2:clamp(1.4rem,3.4vw,2.7rem);
+  --h3:clamp(1rem,1.9vw,1.45rem);
+  --body:clamp(.82rem,1.35vw,1.08rem);
+  --small:clamp(.66rem,1vw,.85rem);
+  --micro:clamp(.58rem,.85vw,.74rem);
+  --pad:clamp(1.3rem,4vw,3.4rem);
+  --gap:clamp(.5rem,2vw,1.6rem);
+}
+/* ===== viewport-base.css (mandatory) ===== */
+html,body{height:100%;overflow-x:hidden}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth}
+.slide{width:100vw;height:100vh;height:100dvh;overflow:hidden;scroll-snap-align:start;
+  display:flex;flex-direction:column;position:relative}
+img,.image-container{max-width:100%;max-height:min(50vh,400px);object-fit:contain}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;
+  transition-duration:.2s!important}html{scroll-behavior:auto}}
+/* ===== base ===== */
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+.slide{padding:clamp(2.5rem,5vw,3.2rem) var(--pad) clamp(2.6rem,4vw,3.2rem)}
+.wrap{flex:1;display:flex;flex-direction:column;justify-content:center;
+  max-width:1120px;width:100%;margin:0 auto;max-height:100%;overflow:hidden}
+.kick{font-family:var(--mono);font-size:var(--micro);letter-spacing:.22em;text-transform:uppercase;
+  color:var(--accent);display:flex;align-items:center;gap:.6rem}
+.kick::before{content:"";width:clamp(16px,2.4vw,30px);height:2px;background:var(--accent)}
+.kick.teal{color:var(--teal)}.kick.teal::before{background:var(--teal)}
+h2.st{font-weight:700;font-size:var(--h2);line-height:1.06;letter-spacing:-.01em;margin:.5rem 0}
+h3{font-weight:600;font-size:var(--h3);line-height:1.2}
+p{font-size:var(--body);line-height:1.55;color:var(--ink2)}
+.lead{font-family:var(--serif);font-weight:500;font-size:clamp(1.15rem,2.6vw,2rem);line-height:1.34;color:var(--ink)}
+.lead .ac{color:var(--accent);font-style:italic}
+.mut{color:var(--muted)} .small{font-size:var(--small)} .micro{font-size:var(--micro)}
+.em{color:var(--accent);font-weight:600}.emt{color:var(--teal);font-weight:600}
+b,strong{color:var(--ink);font-weight:600}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;
+  align-items:center;padding:clamp(.6rem,1.4vw,1rem) var(--pad);font-family:var(--mono);
+  font-size:var(--micro);letter-spacing:.06em;color:var(--muted);pointer-events:none;
+  background:linear-gradient(var(--bg),rgba(232,235,231,0))}
+.bar .b1{color:var(--ink);font-weight:500} .bar .sec{color:var(--teal)}
+.prog{position:fixed;left:0;bottom:0;height:3px;background:var(--accent);width:0;z-index:60;transition:width .3s ease}
+.count{position:fixed;right:var(--pad);bottom:clamp(.6rem,1.4vw,1rem);z-index:60;font-family:var(--mono);font-size:var(--micro);color:var(--muted)}
+.count b{color:var(--ink)}
+.hint{position:fixed;left:var(--pad);bottom:clamp(.6rem,1.4vw,1rem);z-index:60;font-family:var(--mono);font-size:var(--micro);color:var(--muted);opacity:.8}
+.navbtns{position:fixed;right:calc(var(--pad) + 4.6rem);bottom:clamp(.5rem,1.2vw,.9rem);z-index:61;display:flex;gap:.4rem}
+.navbtns button{font-family:var(--mono);font-size:var(--micro);color:var(--ink2);background:var(--panel);
+  border:1px solid var(--line);border-radius:5px;width:1.9rem;height:1.5rem;cursor:pointer;line-height:1}
+.navbtns button:hover{border-color:var(--accent);color:var(--accent)}
+.r{opacity:0;transform:translateY(18px);
+  transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1);
+  transition-delay:calc(var(--i,0)*80ms)}
+.slide.active .r{opacity:1;transform:none}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(.4rem,1vw,.9rem)}
+@media(max-width:720px){.grid2,.grid3,.grid4{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:clamp(.9rem,1.8vw,1.5rem);position:relative}
+.card.tick{border-left:4px solid var(--accent)} .card.tickt{border-left:4px solid var(--teal)}
+.card h3{margin-bottom:.35rem} .card p{font-size:var(--small);line-height:1.5}
+.num-badge{font-family:var(--mono);font-weight:600;color:var(--accent);font-size:var(--small)}
+.stat{font-family:var(--mono);font-weight:600;font-size:clamp(2.4rem,7vw,5rem);line-height:.9;color:var(--ink)}
+.stat .u{font-size:.4em;color:var(--muted)}
+.chip{display:inline-flex;align-items:center;font-family:var(--mono);font-size:var(--micro);
+  border:1px solid var(--line);border-radius:999px;padding:.28em .75em;color:var(--muted);background:var(--panel)}
+.chip b{color:var(--ink)}
+ul.f{list-style:none;display:flex;flex-direction:column;gap:clamp(.35rem,1.1vh,.85rem)}
+ul.f li{font-size:var(--body);line-height:1.4;color:var(--ink2);padding-left:1.3em;position:relative}
+ul.f li::before{content:"›";position:absolute;left:0;color:var(--accent);font-family:var(--mono);font-weight:600}
+ul.f li b{color:var(--ink)}
+.cite{font-family:var(--mono);font-size:var(--micro);color:var(--teal);background:var(--teal-soft);border-radius:4px;padding:.12em .5em;white-space:nowrap}
+/* clinical images */
+.imgbox{background:var(--imgbg);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.imgbox img{width:100%;height:100%;max-height:min(50vh,420px);object-fit:contain;display:block}
+.cap{font-family:var(--mono);font-size:var(--micro);color:var(--muted);margin-top:.4rem;line-height:1.4}
+/* per-slide references pinned to the bottom */
+.srefs{max-width:1120px;width:100%;margin:.4rem auto 0;font-family:var(--mono);font-size:var(--micro);
+  color:var(--muted);border-top:1px solid var(--line);padding-top:.5rem;line-height:1.5;
+  display:flex;flex-direction:column;gap:.15rem}
+.srefs .rr{padding-left:1.1em;position:relative}
+.srefs .rr::before{content:"▍";position:absolute;left:0;color:var(--accent)}
+.srefs b{color:var(--ink2)} .srefs a{color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal-soft)}
+.srefs a:hover{border-bottom-color:var(--teal)}
+/* dialogue bubbles */
+.talk{display:flex;flex-direction:column;gap:clamp(.4rem,1.1vh,.8rem)}
+.line{display:grid;grid-template-columns:clamp(4.4rem,10vw,7rem) 1fr;gap:.7rem;align-items:start}
+.who{font-family:var(--mono);font-size:var(--micro);color:var(--muted);text-align:right;padding-top:.2em}
+.say{font-size:var(--small);line-height:1.4;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:4px 12px 12px 12px;padding:.5em .8em}
+.say.bad{border-left:3px solid var(--accent);background:var(--accent-soft)}
+.say.good{border-left:3px solid var(--teal);background:var(--teal-soft)}
+/* 9-grid dialogue matrix */
+.matrix{display:grid;grid-template-columns:clamp(2.8rem,6vw,4.4rem) repeat(4,1fr);
+  gap:clamp(3px,.5vw,6px);font-size:clamp(.46rem,.86vw,.7rem);line-height:1.26;margin-top:.5rem}
+.matrix .h{font-family:var(--mono);font-size:clamp(.44rem,.8vw,.64rem);text-transform:uppercase;letter-spacing:.03em;
+  color:#fff;background:var(--ink);padding:.4em .3em;border-radius:4px;display:flex;align-items:center;justify-content:center;text-align:center}
+.matrix .rh{font-family:var(--mono);color:#fff;background:var(--ink2);padding:.4em .2em;border-radius:4px;
+  display:flex;align-items:center;justify-content:center;text-align:center;font-weight:600;font-size:clamp(.44rem,.8vw,.62rem)}
+.matrix .c{padding:.4em .5em;border-radius:4px;color:var(--ink)}
+.matrix.worse .c{background:var(--accent-soft);border:1px solid #eccfca}
+.matrix.good .c{background:var(--teal-soft);border:1px solid #cfe6e4}
+.matrix .c.mute{color:var(--muted);font-style:italic}
+.mcorner{background:transparent}
+.tl{display:flex;flex-direction:column;gap:clamp(.35rem,1vh,.7rem);border-left:2px solid var(--line);padding-left:clamp(.9rem,2vw,1.4rem);margin-left:.4rem}
+.tl .ev{position:relative;font-size:var(--small);line-height:1.4;color:var(--ink2)}
+.tl .ev::before{content:"";position:absolute;left:calc(-1 * clamp(.9rem,2vw,1.4rem) - 6px);top:.45em;width:9px;height:9px;border-radius:50%;background:var(--panel);border:2px solid var(--accent)}
+.tl .ev .d{font-family:var(--mono);color:var(--teal);font-size:var(--micro);margin-right:.5em} .tl .ev b{color:var(--ink)}
+/* title */
+.title-slide{justify-content:center}
+.title-slide .statusrow{display:flex;justify-content:space-between;font-family:var(--mono);font-size:var(--micro);color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:.7rem;margin-bottom:auto}
+.title-slide .statusrow b{color:var(--teal)}
+.title-slide .center{margin:auto 0;display:flex;flex-direction:column;justify-content:center}
+.t-tag{font-family:var(--mono);font-size:var(--micro);letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
+.t-title{font-weight:900;font-size:var(--title);line-height:.98;letter-spacing:-.01em}
+.t-en{font-family:var(--sans);font-weight:600;font-size:var(--h3);color:var(--muted);margin-top:.6rem}
+.t-sub{margin-top:clamp(1rem,2.5vw,1.6rem);font-size:var(--body);color:var(--ink2);max-width:44ch;line-height:1.55}
+.t-chips{margin-top:clamp(1rem,2.5vw,1.6rem);display:flex;flex-wrap:wrap;gap:.5rem}
+.t-foot{display:flex;justify-content:space-between;align-items:flex-end;margin-top:auto;padding-top:1rem;font-family:var(--mono);font-size:var(--micro);color:var(--muted)}
+.t-foot b{color:var(--ink)}
+.t-accent{position:absolute;right:var(--pad);top:38%;width:clamp(60px,9vw,120px);height:clamp(60px,9vw,120px);background:var(--accent);opacity:.9}
+.t-accent2{position:absolute;right:calc(var(--pad) + clamp(28px,4.5vw,58px));top:calc(38% + clamp(28px,4.5vw,58px));width:clamp(60px,9vw,120px);height:clamp(60px,9vw,120px);border:2px solid var(--ink)}
+.divider{background:var(--dark);color:#eef2f0;justify-content:center}
+.divider .wrap{max-width:1000px}
+.divider .dnum{font-family:var(--mono);font-weight:600;font-size:clamp(3rem,12vw,9rem);line-height:.85;color:var(--teal)}
+.divider .dt{font-weight:900;font-size:clamp(1.8rem,5vw,3.6rem);line-height:1.05;margin-top:.4rem;color:#fff}
+.divider .de{font-family:var(--mono);font-size:var(--small);color:#8aa0a0;margin-top:.8rem;letter-spacing:.08em}
+.divider .kick{color:#e0b4ad}.divider .kick::before{background:#e0b4ad}
+.qslide{justify-content:center}
+.qbig{font-family:var(--serif);font-weight:500;font-size:clamp(1.5rem,4vw,3rem);line-height:1.3;color:var(--ink)}
+.qbig .ac{color:var(--accent);font-style:italic}
+.qby{font-family:var(--mono);font-size:var(--small);color:var(--muted);margin-top:1.2rem}
+.refs{display:flex;flex-direction:column;gap:clamp(.3rem,.9vh,.6rem)}
+.ref{font-size:var(--micro);line-height:1.4;color:var(--ink2);padding-left:1.6em;position:relative}
+.ref .n{position:absolute;left:0;font-family:var(--mono);color:var(--accent);font-weight:600}
+.ref a{color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal-soft)} .ref a:hover{border-bottom-color:var(--teal)} .ref b{color:var(--ink)}
+.disc{font-size:var(--micro);color:var(--muted);border-top:1px solid var(--line);padding-top:.8rem;margin-top:.4rem;line-height:1.5}
+@media (max-height:600px){.t-accent,.t-accent2,.hint{display:none}}
+</style>
+</head>
+<body>
+<div class="bar"><span class="b1">醫療決策衝突 · Decisional Conflict</span><span><span class="sec" id="sec">序</span> &nbsp;/&nbsp; 謝慕揚 MD·PhD·FESC</span></div>
+<div class="prog" id="prog"></div>
+<div class="count"><b id="cnum">01</b> / <span id="ctot">51</span></div>
+<div class="hint">↓ / → 前進 · ↑ / ← 後退 · E 編輯</div>
+<div class="navbtns"><button id="prev" aria-label="上一頁">↑</button><button id="next" aria-label="下一頁">↓</button></div>
+
+<!-- 01 TITLE -->
+<section class="slide title-slide" data-sec="序">
+  <div class="statusrow r"><span>CASE REVIEW · CLINICAL COMMUNICATION</span><span><b>2 CASES</b> · 4 EVIDENCE LENSES</span></div>
+  <div class="t-accent r" style="--i:2"></div><div class="t-accent2 r" style="--i:3"></div>
+  <div class="center">
+    <div class="t-tag r" style="--i:1">// 臨床教學 · 醫學溝通</div>
+    <h1 class="t-title r" style="--i:2">醫療決策衝突</h1>
+    <div class="t-en r" style="--i:3">Decisional Conflict in Medicine</div>
+    <p class="t-sub r" style="--i:4">病家 × 團隊 × 時間壓力——從加護病房、導管室到跨院轉送，衝突如何發生，又如何被化解。</p>
+    <div class="t-chips r" style="--i:5"><span class="chip"><b>2</b>&nbsp;真實案例</span><span class="chip"><b>4</b>&nbsp;文獻視角</span><span class="chip">O'Connor · SURE · SDM</span></div>
+  </div>
+  <div class="t-foot r" style="--i:6"><span>整理／講者　<b>謝慕揚 MD, PhD, FESC</b></span><span>Clinical Mono · 2026</span></div>
+</section>
+
+<!-- 02 HOOK -->
+<section class="slide qslide" data-sec="序">
+  <div class="wrap">
+    <div class="kick r">開場提問 · Warm-up</div>
+    <p class="qbig r" style="--i:1">你有沒有過——跟病患、家屬，或<span class="ac">團隊成員</span>發生決策衝突，然後一整天<span class="ac">情緒低落</span>的經驗？</p>
+    <p class="qby r" style="--i:2">◍ 現場互動：請想一個最近的例子，我們待會回來對照。</p>
+  </div>
+</section>
+
+<!-- 03 ROADMAP -->
+<section class="slide" data-sec="序">
+  <div class="wrap">
+    <div class="kick r">本場地圖 · Roadmap</div>
+    <h2 class="st r" style="--i:1">今天走這七站</h2>
+    <div class="grid4 r" style="--i:2">
+      <div class="card tick"><div class="num-badge">01</div><h3>認識衝突</h3><p class="mut">定義、來源、層次</p></div>
+      <div class="card tick"><div class="num-badge">02</div><h3>案例一</h3><p class="mut">心因性休克連鎖決策</p></div>
+      <div class="card tick"><div class="num-badge">03</div><h3>案例二</h3><p class="mut">ECMO 與資源衝突</p></div>
+      <div class="card tick"><div class="num-badge">04</div><h3>惡化 vs 突破</h3><p class="mut">語言如何翻轉</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">05</div><h3>工具與量表</h3><p class="mut">DCS · SURE · 決策輔具</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">06</div><h3>溝通技巧</h3><p class="mut">SPIKES · NURSE · VALUE</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">07</div><h3>團隊與自我</h3><p class="mut">心理安全 · 臨床推理</p></div>
+      <div class="card"><div class="num-badge" style="color:var(--muted)">↳</div><h3>總結</h3><p class="mut">不畏懼衝突，從中學習</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 DIVIDER 1 -->
+<section class="slide divider" data-sec="一 · 認識衝突">
+  <div class="wrap"><div class="kick r">Part One</div><div class="dnum r" style="--i:1">01</div><div class="dt r" style="--i:2">什麼是決策衝突？</div><div class="de r" style="--i:3">定義 · 來源 · 多層次結構</div></div>
+</section>
+
+<!-- 05 DEFINITION -->
+<section class="slide qslide" data-sec="一 · 認識衝突">
+  <div class="wrap">
+    <div class="kick r">定義 · Definition</div>
+    <p class="qbig r" style="--i:1">決策衝突，是採取行動前的一種<span class="ac">不確定狀態</span>——當彼此競爭的選項，涉及<span class="ac">風險、損失，或挑戰個人價值</span>。</p>
+    <p class="qby r" style="--i:2">Decisional conflict — a state of uncertainty about the course of action to be taken.</p>
+  </div>
+  <div class="srefs r" style="--i:3"><span class="rr"><b>O'Connor AM.</b> Validation of a decisional conflict scale. Med Decis Making 1995;15(1):25-30. <a href="https://doi.org/10.1177/0272989X9501500105">doi:10.1177/0272989X9501500105</a></span></div>
+</section>
+
+<!-- 06 SOURCES -->
+<section class="slide" data-sec="一 · 認識衝突">
+  <div class="wrap">
+    <div class="kick r">來源 · 病家對上醫療團隊</div>
+    <h2 class="st r" style="--i:1">決策衝突的七個來源</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li><b>不確定感</b>　對治療決策本身沒有把握</li><li><b>資訊不足</b>　疾病與治療的了解不夠</li><li><b>價值/選項衝突</b>　選項與個人價值相牴觸</li><li><b>缺乏支持</b>　感覺孤立、沒有人陪著決定</li></ul>
+      <ul class="f"><li><b>溝通不良</b>　訊息傳遞失真或不足</li><li><b>角色期待落差</b>　期待共享決策卻被單方主導</li><li><b>壓力與時間</b>　急重症下被迫快速抉擇</li></ul>
+    </div>
+    <p class="small mut r" style="--i:3;margin-top:.7rem">當病人期待「共享決策」，實際卻由醫師單方主導，角色落差會讓病人感受到<b>更大的</b>決策衝突。</p>
+  </div>
+  <div class="srefs r" style="--i:4"><span class="rr"><b>O'Connor AM.</b> Validation of a decisional conflict scale. Med Decis Making 1995;15(1):25-30. <a href="https://doi.org/10.1177/0272989X9501500105">doi:10.1177/0272989X9501500105</a></span></div>
+</section>
+
+<!-- 07 LAYERS -->
+<section class="slide" data-sec="一 · 認識衝突">
+  <div class="wrap">
+    <div class="kick r">結構 · 不只醫病之間</div>
+    <h2 class="st r" style="--i:1">多層次的醫療決策衝突</h2>
+    <div class="grid3 r" style="--i:2">
+      <div class="card tick"><div class="num-badge">01</div><h3>病家 ↔ 醫師</h3><p>最常被談論，卻不是最多發生的一層。</p></div>
+      <div class="card tick"><div class="num-badge">02</div><h3>醫師 ↔ 醫師</h3><p>跨專科、跨職級之間——本場的重點。</p></div>
+      <div class="card tick"><div class="num-badge">03</div><h3>好轉 ↔ 惡化</h3><p>病情走向本身，就在拉扯每個決定。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 CONFLICUS -->
+<section class="slide" data-sec="一 · 認識衝突">
+  <div class="wrap">
+    <div class="kick teal r">實證 · 團隊內衝突有多常見</div>
+    <div class="grid2 r" style="--i:1;align-items:center">
+      <div><div class="stat">71.6<span class="u">%</span></div><p style="margin-top:.6rem">加護病房工作人員，在一週內<b>感受到至少一次衝突</b>；其中最常見的是<b class="emt">護理師—醫師</b>之間。</p></div>
+      <div class="card tickt"><h3>Conflicus study</h3><p>323 間 ICU、24 國、逾 7,000 名醫護。衝突與<b>高工作量、溝通不良、末期照護決策</b>高度相關。</p></div>
+    </div>
+    <p class="small mut r" style="--i:2;margin-top:.7rem">→ 諸多醫療決策衝突，其實<b>更多發生在醫療團隊成員之間</b>。</p>
+  </div>
+  <div class="srefs r" style="--i:3"><span class="rr"><b>Azoulay E, et al.</b> Prevalence and factors of ICU conflicts: the Conflicus study. Am J Respir Crit Care Med 2009;180(9):853-60. <a href="https://doi.org/10.1164/rccm.200810-1614OC">doi:10.1164/rccm.200810-1614OC</a></span></div>
+</section>
+
+<!-- 09 DIVIDER 2 -->
+<section class="slide divider" data-sec="二 · 案例一">
+  <div class="wrap"><div class="kick r">Part Two · Case 1</div><div class="dnum r" style="--i:1">02</div><div class="dt r" style="--i:2">心因性休克的連鎖決策</div><div class="de r" style="--i:3">NSTEMI · CAD 3VD · PAOD · 82 歲男性</div></div>
+</section>
+
+<!-- 10 CASE1 INTRO -->
+<section class="slide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick r">Case 1 · 病人背景</div>
+    <h2 class="st r" style="--i:1">82 歲男性 · 穩定型冠心病多年</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li><b>診斷</b>　Cardiogenic shock due to NSTEMI，CAD 三條血管病變 (3VD)</li><li><b>2016</b>　Thallium scan 確診 CAD，長期最佳藥物治療 (OMT)</li><li><b>合併</b>　高血壓；後續發現周邊動脈阻塞 (PAOD)</li></ul>
+      <ul class="f"><li><b>基礎功能</b>　可自行活動、生活自理</li><li><b>2019</b>　一個月內反覆呼吸衰竭（肺水腫、肺炎）</li><li><b>關鍵</b>　多年來<b>拒絕心導管</b>，直到反覆插管</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 11 CASE1 IMAGING (thallium + CXR) -->
+<section class="slide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick r">Case 1 · 影像時間軸</div>
+    <h2 class="st r" style="--i:1">從穩定到失代償</h2>
+    <div class="grid2 r" style="--i:2">
+      <div><div class="imgbox"><img src="Decisional_Conflict_assets/thallium.jpg" alt="Thallium-201 SPECT"></div><div class="cap">TL-201 心肌灌注掃描（2016-03-22）：可逆性缺血，支持 CAD。</div></div>
+      <div><div class="imgbox"><img src="Decisional_Conflict_assets/cxr-acute.jpg" alt="Chest X-ray, acute pulmonary edema"></div><div class="cap">急性事件 CXR：雙側肺水腫、中央線與導管留置。</div></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3"><span class="rr">臨床影像為本案例教學資料，已去識別化。</span></div>
+</section>
+
+<!-- 12 CASE1 FAMILY CONFLICT + angio -->
+<section class="slide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick r">Case 1 · 第一層衝突：病家 ↔ 醫師</div>
+    <h2 class="st r" style="--i:1">兩次插管之間的猶豫</h2>
+    <div class="grid2 r" style="--i:2;align-items:center">
+      <div class="tl">
+        <div class="ev"><span class="d">第一次插管</span>CAG 見 <b>CAD 3VD</b>，主責心臟科建議 <b>CABG</b>。</div>
+        <div class="ev"><span class="d">家屬</span>遲遲無法決定；藥物治療下穩定，拔管。</div>
+        <div class="ev"><span class="d">拔管後 2 天</span>再次插管。</div>
+        <div class="ev"><span class="d">第二次插管</span>心臟科反覆溝通<b>三次</b>，家屬最終決定 <b>PCI</b>（並談妥自費）。</div>
+      </div>
+      <div><div class="imgbox"><img src="Decisional_Conflict_assets/cad-pad.jpg" alt="Coronary and peripheral angiography"></div><div class="cap">冠脈多處狹窄（左）與周邊動脈病變（右，箭頭）。</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 SDM THREE-TALK -->
+<section class="slide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick teal r">插播 · 共享決策 (SDM) 是有步驟的</div>
+    <h2 class="st r" style="--i:1">Elwyn 三談模型 (Three-Talk)</h2>
+    <div class="grid3 r" style="--i:2">
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">Team talk</div><h3>團隊對話</h3><p>「我們一起決定」——說明有選擇、承諾支持、先問病人在意什麼。</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">Option talk</div><h3>選項對話</h3><p>比較選項的風險與益處，善用決策輔具與圖解。</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">Decision talk</div><h3>決定對話</h3><p>引出並整合病人偏好，形成可執行的決定。</p></div>
+    </div>
+    <p class="small mut r" style="--i:3;margin-top:.6rem">醫院推行 SDM 是有目的的：把「單方告知」變成「三段式協作」。</p>
+  </div>
+  <div class="srefs r" style="--i:4">
+    <span class="rr"><b>Elwyn G, et al.</b> Shared decision making: a model for clinical practice. J Gen Intern Med 2012;27(10):1361-7. <a href="https://doi.org/10.1007/s11606-012-2077-6">doi:10.1007/s11606-012-2077-6</a> ｜ A three-talk model. BMJ 2017;359:j4891. <a href="https://doi.org/10.1136/bmj.j4891">doi:10.1136/bmj.j4891</a></span>
+    <span class="rr"><b>Charles C, et al.</b> Shared decision-making in the medical encounter. Soc Sci Med 1997;44(5):681-92. <a href="https://doi.org/10.1016/s0277-9536(96)00221-3">doi:10.1016/s0277-9536(96)00221-3</a></span>
+  </div>
+</section>
+
+<!-- 14 CASE1 PCI (angiogram) -->
+<section class="slide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick r">Case 1 · 介入</div>
+    <h2 class="st r" style="--i:1">PCI done under IABP support</h2>
+    <div class="grid2 r" style="--i:2;align-items:center">
+      <div><div class="imgbox"><img src="Decisional_Conflict_assets/cag.jpg" alt="Coronary angiography, left coronary artery"></div><div class="cap">冠狀動脈攝影（左冠脈系統）— 3VD 之介入標的。</div></div>
+      <ul class="f"><li><b>治療非常成功</b>，歷時約 <b>120 分鐘</b></li><li>在 <b>IABP</b> 支持下完成 PCI</li><li>技術上「修好了心臟的血管」——但故事還沒結束</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 15 CASE1 24H + ALI -->
+<section class="slide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick r">Case 1 · 術後 24 小時</div>
+    <h2 class="st r" style="--i:1">看似成功，卻急轉直下</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li>機械通氣 + <b>CVVH</b> + <b>IABP</b></li><li>持續性<b>乳酸中毒</b>與低血壓</li><li>需 norepinephrine (Levophed) 維持血壓</li></ul>
+      <div class="card tick"><h3 class="em">床邊血管 Duplex</h3><p><b>雙側下肢休息痛</b> → 急做超音波：<b class="em">急性肢體缺血 (ALI)</b>。</p><p style="margin-top:.4rem" class="mut">冠脈修好了，腳卻缺血了——新的衝突正要引爆。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 16 CASE1 MULTI CONFLICT -->
+<section class="slide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick r">Case 1 · 衝突全面引爆</div>
+    <h2 class="st r" style="--i:1">同一張病床，五種聲音</h2>
+    <div class="talk r" style="--i:2">
+      <div class="line"><div class="who">家屬</div><div class="say bad">「怎麼會這樣？不是把心臟的血管修好了嗎？」</div></div>
+      <div class="line"><div class="who">胸腔重症</div><div class="say bad">「冠脈修完還有腳的問題？現在休克這麼厲害，還能再做導管嗎？」</div></div>
+      <div class="line"><div class="who">住院醫師 R2</div><div class="say bad">「老師，現在在洗 CVVH、lactate 很高，要不要跟 CV 問一問簽 DNR？」</div></div>
+      <div class="line"><div class="who">心臟科</div><div class="say bad">「要簽 DNR，早知道就不要做支架了！家屬怎麼講都聽不懂……（煩）」</div></div>
+      <div class="line"><div class="who">住院醫師 R3</div><div class="say bad">「病人大夜 shock、NG coffee ground，接下來會大出血，要不要停 Aspirin＋Plavix？」</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 17 MULTIVERSE -->
+<section class="slide qslide" data-sec="二 · 案例一">
+  <div class="wrap">
+    <div class="kick r">平行時空 · 兩手一攤的版本</div>
+    <p class="qbig r" style="--i:1">如果每個人都<span class="ac">兩手一攤</span>——</p>
+    <ul class="f r" style="--i:2;margin-top:1rem;max-width:40ch"><li>Shock 太厲害，出不了加護病房的門</li><li>CVVH 關不掉</li><li>GI bleeding，不能再做導管</li><li><b class="em">病人在 48 小時後 mortality。</b></li></ul>
+    <p class="qby r" style="--i:3">同一個病人，兩種結局。差別，往往在<b>團隊怎麼對話</b>。</p>
+  </div>
+</section>
+
+<!-- 18 DIVIDER 3 -->
+<section class="slide divider" data-sec="三 · 案例二">
+  <div class="wrap"><div class="kick r">Part Three · Case 2</div><div class="dnum r" style="--i:1">03</div><div class="dt r" style="--i:2">ECMO 與 ICU 資源衝突</div><div class="de r" style="--i:3">OHCA · 跨院轉送 · 2024-08</div></div>
+</section>
+
+<!-- 19 CASE2 INTRO -->
+<section class="slide" data-sec="三 · 案例二">
+  <div class="wrap">
+    <div class="kick r">Case 2 · 病人背景</div>
+    <h2 class="st r" style="--i:1">59 歲男性 · 家中 OHCA</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li>廁所突發 <b>OHCA</b>，急救中多次 VT/VF，到院仍無法 ROSC</li><li>兩個月前 recent MI：LAD 中度狹窄、<b>RCA CTO 打不通</b>，轉藥物治療</li><li>同時發現<b>大腸癌</b>，兩週後手術切除、化療中</li></ul>
+      <ul class="f"><li>與家屬討論後放上 <b>ECMO</b>，達成 ROSC</li><li>床邊超音波：<b>EF &lt; 30%</b>，無法排除心因性 OHCA</li><li>理論上應盡快檢查（含心導管）——然而……</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 20 CASE2 DILEMMA1 -->
+<section class="slide" data-sec="三 · 案例二">
+  <div class="wrap">
+    <div class="kick r">Case 2 · 困境一：資源分配</div>
+    <h2 class="st r" style="--i:1">有導管，沒有床</h2>
+    <div class="grid2 r" style="--i:2">
+      <div class="card tick"><h3>新竹醫院</h3><p>24 小時待命心導管，但當天<b>全院 ICU 滿床</b>，連緊急加床額度（SICU/RCC 2 床）也用罄。</p></div>
+      <div class="card tick"><h3>竹北生醫</h3><p>當日可執行夜間緊急心導管、<b>有 ICU 床位</b>；但病人需 ECMO＋升壓劑，<b class="em">跨院運送有風險</b>。</p></div>
+    </div>
+    <div class="card tickt r" style="--i:3;margin-top:.7rem"><h3 class="emt">下一步？</h3><p>(A) 轉竹北，外科/體循跟車，承擔運送風險　·　(B) 留新竹，嘗試協調擠床（不一定可行）</p></div>
+  </div>
+</section>
+
+<!-- 21 CASE2 FOLLOW -->
+<section class="slide" data-sec="三 · 案例二">
+  <div class="wrap">
+    <div class="kick r">Case 2 · 後續</div>
+    <h2 class="st r" style="--i:1">帶著 ECMO 轉院</h2>
+    <div class="tl r" style="--i:1">
+      <div class="ev"><span class="d">轉送</span>帶 ECMO＋升壓劑，新竹 → 竹北生醫。</div>
+      <div class="ev"><span class="d">CT</span>無腦出血、內臟出血、主動脈剝離。</div>
+      <div class="ev"><span class="d">CAG</span>冠脈與兩個月前相似，<b>無新發生的嚴重狹窄</b>。</div>
+      <div class="ev"><span class="d">入 ICU</span>OHCA 病因仍未明、狀況不穩，持續檢查治療——然而……</div>
+    </div>
+  </div>
+</section>
+
+<!-- 22 CASE2 DILEMMA2 -->
+<section class="slide" data-sec="三 · 案例二">
+  <div class="wrap">
+    <div class="kick r">Case 2 · 困境二：治療目標</div>
+    <h2 class="st r" style="--i:1">撤除，還是再等幾天？</h2>
+    <div class="grid2 r" style="--i:2">
+      <div class="card tick"><h3>家屬</h3><p>意識 <b>E1VTM1</b>、瞳孔小、間歇肌肉抽搐，腦損傷程度未知。家屬當天即表示：若身體疾病無法處理，<b>希望不要讓病人太辛苦</b>，甚至想盡速撤除 ECMO。</p></div>
+      <div class="card tickt"><h3>心外醫師</h3><p>依急診的評估與討論，<b>預後尚無法釐清</b>；當初正是為了「再給幾天機會」，才冒運送風險轉院。應再觀察幾天。</p></div>
+    </div>
+    <div class="card r" style="--i:3;margin-top:.6rem;border-left:4px solid var(--muted)"><h3 class="mut">下一步？</h3><p>(A) 確認 DNR 後直接撤除 ECMO　·　(B) 轉達家屬想法，召開<b>跨科部家庭會議</b>再議</p></div>
+  </div>
+</section>
+
+<!-- 23 RESOURCE ETHICS -->
+<section class="slide" data-sec="三 · 案例二">
+  <div class="wrap">
+    <div class="kick teal r">實證 · 稀缺資源分配倫理</div>
+    <h2 class="st r" style="--i:1">當資源有限，決定不該只靠先來後到</h2>
+    <div class="grid2 r" style="--i:2">
+      <div class="card tickt"><h3>公平分配原則</h3><p>最大化整體效益、優先救可救者、程序透明一致、避免個別醫師獨自承擔配給抉擇。</p></div>
+      <div class="card tickt"><h3>可操作框架</h3><p>以事先制定的評分與<b>分診團隊 (triage committee)</b> 做呼吸器/ICU 床位配給，讓床邊醫師不必獨自背負。</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3">
+    <span class="rr"><b>Emanuel EJ, et al.</b> Fair allocation of scarce medical resources in the time of Covid-19. N Engl J Med 2020;382(21):2049-55. <a href="https://doi.org/10.1056/NEJMsb2005114">doi:10.1056/NEJMsb2005114</a></span>
+    <span class="rr"><b>White DB, Lo B.</b> A framework for rationing ventilators and critical care beds during Covid-19. JAMA 2020;323(18):1773-4. <a href="https://pubmed.ncbi.nlm.nih.gov/32219367/">PMID 32219367</a></span>
+  </div>
+</section>
+
+<!-- 24 DIVIDER 4 -->
+<section class="slide divider" data-sec="四 · 惡化 vs 突破">
+  <div class="wrap"><div class="kick r">Part Four</div><div class="dnum r" style="--i:1">04</div><div class="dt r" style="--i:2">衝突如何惡化，又如何突破</div><div class="de r" style="--i:3">同一情境 · 兩種語言</div></div>
+</section>
+
+<!-- 25 MATRIX WORSE (9-grid) -->
+<section class="slide" data-sec="四 · 惡化 vs 突破">
+  <div class="wrap">
+    <div class="kick r">反面教材 · 如何讓團隊更糟（九宮格）</div>
+    <h2 class="st r" style="--i:1;margin:.3rem 0">推諉、指責、不敢發聲</h2>
+    <div class="matrix worse r" style="--i:2">
+      <div class="mcorner"></div><div class="h">對 胸腔</div><div class="h">對 心臟科</div><div class="h">對 NP·R</div><div class="h">對 家屬</div>
+      <div class="rh">胸腔</div><div class="c">再找一個 CV 來看看吧</div><div class="c">不關我的事，是敗血症！</div><div class="c">CV 說沒空來病解…</div><div class="c mute">（難以說明現況）</div>
+      <div class="rh">心臟科</div><div class="c mute">不敢打，叫 NP／R 去找別的 CV</div><div class="c">這台該 CABG，你能收尾？</div><div class="c mute">（不敢打電話）</div><div class="c">被問：支架做完怎麼更差？</div>
+      <div class="rh">NP·R</div><div class="c">快打 A-line！（無視 PAOD）</div><div class="c">別找我，不能再治了</div><div class="c mute">R 聽不懂、NP 不敢提醒</div><div class="c">同意書好像有問題…</div>
+      <div class="rh">家屬</div><div class="c">我不知道，要問心臟科</div><div class="c">惡化跟我的手術無關</div><div class="c mute">這個…我也不知道</div><div class="c">早知道不要做，誰決定的？</div>
+    </div>
+    <p class="micro mut r" style="--i:3;margin-top:.5rem">共同點：<b>切割責任、否認關聯、階層壓抑發聲</b>。（列＝發話者，欄＝對象；還原自原簡報對話表）</p>
+  </div>
+</section>
+
+<!-- 26 HURTFUL POLL -->
+<section class="slide qslide" data-sec="四 · 惡化 vs 突破">
+  <div class="wrap">
+    <div class="kick r">現場互動 · Poll</div>
+    <p class="qbig r" style="--i:1">在類似情境下，你聽過<span class="ac">最傷人的一句話</span>是什麼？</p>
+    <p class="qby r" style="--i:2">◍ 這些話為什麼傷人？多半因為它<b>切斷了連結</b>，而不是解決問題。</p>
+  </div>
+</section>
+
+<!-- 27 MATRIX BREAKTHROUGH (9-grid) -->
+<section class="slide" data-sec="四 · 惡化 vs 突破">
+  <div class="wrap">
+    <div class="kick teal r">正面示範 · 如何突破（九宮格）</div>
+    <h2 class="st r" style="--i:1;margin:.3rem 0">接手、支援、替彼此擋壓力</h2>
+    <div class="matrix good r" style="--i:2">
+      <div class="mcorner"></div><div class="h">對 胸腔</div><div class="h">對 心臟科</div><div class="h">對 NP·R</div><div class="h">對 家屬</div>
+      <div class="rh">胸腔</div><div class="c">CV 累了，問他要不要找 CV B 幫忙</div><div class="c">交給我，我來跟家屬談</div><div class="c">我來推血超，看了回報你</div><div class="c">我知道你們盡力了，別有壓力</div>
+      <div class="rh">心臟科</div><div class="c">我先約家屬解釋，你上台就好，sheath 我幫壓</div><div class="c">病況變了我解釋，上台我負責</div><div class="c">回報清楚，一起判斷下一步</div><div class="c">謝謝昨天幫忙，病情難預測</div>
+      <div class="rh">NP·R</div><div class="c">先別 DNR，先聯絡 CV 或找人幫看</div><div class="c">coffee ground 還好，Hb 沒掉&gt;4，拼一下</div><div class="c">右腳冰冷，用 Doppler 聽一下？</div><div class="c">你辛苦了，替爺爺謝謝你</div>
+      <div class="rh">家屬</div><div class="c">這是 ALI，可能需再手術，1–2%</div><div class="c mute">（畫圖再次病情說明）</div><div class="c">已有緊急治療計畫，正在處理</div><div class="c">還好先跟爸爸說好了（牽手）</div>
+    </div>
+    <p class="micro mut r" style="--i:3;margin-top:.5rem">共同點：<b>承接、支援、發聲、分擔</b>——把責任接起來，而不是推出去。</p>
+  </div>
+</section>
+
+<!-- 28 CONTRAST -->
+<section class="slide" data-sec="四 · 惡化 vs 突破">
+  <div class="wrap">
+    <div class="kick r">關鍵翻轉 · What changed</div>
+    <h2 class="st r" style="--i:1">同樣的病情，換了四種語言</h2>
+    <div class="grid4 r" style="--i:2">
+      <div class="card tick"><h3 class="em">切割 →</h3><p class="emt">承接</p></div>
+      <div class="card tick"><h3 class="em">指責 →</h3><p class="emt">支援</p></div>
+      <div class="card tick"><h3 class="em">沉默 →</h3><p class="emt">發聲</p></div>
+      <div class="card tick"><h3 class="em">獨撐 →</h3><p class="emt">分擔</p></div>
+    </div>
+    <p class="small mut r" style="--i:3;margin-top:.8rem">這不是天生的個性，而是<b>可以設計的團隊文化</b>——它有個名字：<b class="emt">心理安全感</b>。</p>
+  </div>
+</section>
+
+<!-- 29 PSYCH SAFETY -->
+<section class="slide" data-sec="四 · 惡化 vs 突破">
+  <div class="wrap">
+    <div class="kick teal r">實證 · 心理安全 (Psychological Safety)</div>
+    <div class="grid2 r" style="--i:1;align-items:center">
+      <div><div class="stat">30<span class="u">%</span> <span style="color:var(--muted)">→</span> 82<span class="u">%</span></div><p style="margin-top:.6rem">當資深醫師<b>主動鼓勵發聲</b>，受訓者願意在術中 speak up 的比例，從 30% 升到 82%。</p></div>
+      <div class="card tickt"><h3>Edmondson 的核心洞見</h3><p>心理安全＝相信「說出疑慮、承認錯誤、提問，不會被羞辱或懲罰」。它是<b>學習行為</b>與病人安全的前提。</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:2">
+    <span class="rr"><b>Edmondson AC.</b> Psychological safety and learning behavior in work teams. Adm Sci Q 1999;44(2):350-83. <a href="https://doi.org/10.2307/2666999">doi:10.2307/2666999</a></span>
+    <span class="rr"><b>Barzallo Salazar MJ, et al.</b> Influence of surgeon behavior on trainee willingness to speak up (RCT). J Am Coll Surg 2014;219(5):1001-7. <a href="https://doi.org/10.1016/j.jamcollsurg.2014.07.933">doi:10.1016/j.jamcollsurg.2014.07.933</a></span>
+  </div>
+</section>
+
+<!-- 30 TKI -->
+<section class="slide" data-sec="四 · 惡化 vs 突破">
+  <div class="wrap">
+    <div class="kick r">工具 · 認識自己的衝突風格</div>
+    <h2 class="st r" style="--i:1">Thomas–Kilmann 五種衝突模式</h2>
+    <div class="grid3 r" style="--i:2">
+      <div class="card"><h3>競爭 Competing</h3><p class="mut">高堅持、低合作</p></div>
+      <div class="card tickt"><h3 class="emt">協作 Collaborating</h3><p class="mut">高堅持、高合作（雙贏）</p></div>
+      <div class="card"><h3>妥協 Compromising</h3><p class="mut">各退一步</p></div>
+      <div class="card"><h3>迴避 Avoiding</h3><p class="mut">低堅持、低合作</p></div>
+      <div class="card"><h3>順應 Accommodating</h3><p class="mut">低堅持、高合作</p></div>
+      <div class="card" style="border-style:dashed"><h3 class="mut">沒有萬用解</h3><p class="mut">看情境選用；危急當下也可能需清楚主導。</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3"><span class="rr"><b>Kilmann RH, Thomas KW.</b> Developing a forced-choice measure of conflict-handling behavior (MODE). Educ Psychol Meas 1977;37(2):309-25. <a href="https://doi.org/10.1177/001316447703700204">doi:10.1177/001316447703700204</a></span></div>
+</section>
+
+<!-- 31 DIVIDER 5 -->
+<section class="slide divider" data-sec="五 · 工具與量表">
+  <div class="wrap"><div class="kick r">Part Five</div><div class="dnum r" style="--i:1">05</div><div class="dt r" style="--i:2">把衝突「量」出來</div><div class="de r" style="--i:3">DCS · SURE · 決策輔具</div></div>
+</section>
+
+<!-- 32 DCS -->
+<section class="slide" data-sec="五 · 工具與量表">
+  <div class="wrap">
+    <div class="kick r">量表 · Decisional Conflict Scale</div>
+    <h2 class="st r" style="--i:1">決策衝突量表 (DCS)</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li>量化病人「做決定的困難程度」</li><li>涵蓋：知情、價值澄清、支持、不確定、決定品質</li><li>test–retest 信度 0.81，能區分「已決定 vs 猶豫者」</li></ul>
+      <div class="card tick"><h3>臨床用途</h3><p>找出「卡住」的病人與家屬；追蹤衛教/決策輔具介入前後的變化。</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3">
+    <span class="rr"><b>O'Connor AM.</b> Validation of a decisional conflict scale. Med Decis Making 1995;15(1):25-30. <a href="https://doi.org/10.1177/0272989X9501500105">doi:10.1177/0272989X9501500105</a></span>
+    <span class="rr"><b>Stacey D, et al.</b> 20th Anniversary Ottawa Decision Support Framework, Part 3. Med Decis Making 2020;40(3):379-98. <a href="https://doi.org/10.1177/0272989X20911870">doi:10.1177/0272989X20911870</a></span>
+  </div>
+</section>
+
+<!-- 33 SURE -->
+<section class="slide" data-sec="五 · 工具與量表">
+  <div class="wrap">
+    <div class="kick r">快篩 · 四題就能問</div>
+    <h2 class="st r" style="--i:1">SURE 量表</h2>
+    <div class="grid4 r" style="--i:2">
+      <div class="card tick"><div class="num-badge">S</div><h3>Sure</h3><p>我清楚各選項的利與弊嗎？</p></div>
+      <div class="card tick"><div class="num-badge">U</div><h3>Understand</h3><p>我了解可用的資訊嗎？</p></div>
+      <div class="card tick"><div class="num-badge">R</div><h3>Risk-benefit</h3><p>我清楚哪些利弊對我最重要嗎？</p></div>
+      <div class="card tick"><div class="num-badge">E</div><h3>Encouragement</h3><p>我有足夠的支持與建議來做選擇嗎？</p></div>
+    </div>
+    <p class="small mut r" style="--i:3;margin-top:.6rem">四題皆「是」得 4 分；<b class="em">≤ 3 分</b>即提示可能有決策衝突。</p>
+  </div>
+  <div class="srefs r" style="--i:4"><span class="rr"><b>Légaré F, et al.</b> Are you SURE?: a 4-item screening test for decisional conflict. Can Fam Physician 2010;56(8):e308-14. <a href="https://pubmed.ncbi.nlm.nih.gov/20705870/">PMID 20705870</a></span></div>
+</section>
+
+<!-- 34 DECISION AIDS -->
+<section class="slide" data-sec="五 · 工具與量表">
+  <div class="wrap">
+    <div class="kick teal r">實證 · 決策輔具有效嗎？</div>
+    <div class="grid2 r" style="--i:1;align-items:center">
+      <div><div class="stat">209</div><p style="margin-top:.6rem">項隨機試驗的 Cochrane 統合分析：<b>決策輔具 (decision aids)</b> 能提升知識與風險認知，並<b class="emt">降低決策衝突</b>、減少「被動決定」。</p></div>
+      <div class="card tickt"><h3>臨床啟示</h3><p>不是多講幾句，而是<b>給對的工具</b>：圖表、選項比較、價值澄清。</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:2"><span class="rr"><b>Stacey D, et al.</b> Decision aids for people facing health treatment or screening decisions. Cochrane Database Syst Rev 2024;1(1):CD001431. <a href="https://doi.org/10.1002/14651858.CD001431.pub6">doi:10.1002/14651858.CD001431.pub6</a></span></div>
+</section>
+
+<!-- 35 DIVIDER 6 -->
+<section class="slide divider" data-sec="六 · 溝通技巧">
+  <div class="wrap"><div class="kick r">Part Six</div><div class="dnum r" style="--i:1">06</div><div class="dt r" style="--i:2">把知識，好好交出去</div><div class="de r" style="--i:3">SPIKES · NURSE · VALUE</div></div>
+</section>
+
+<!-- 36 DRAKE TIPS -->
+<section class="slide" data-sec="六 · 溝通技巧">
+  <div class="wrap">
+    <div class="kick r">技術面 · 促進了解</div>
+    <h2 class="st r" style="--i:1">不要「用講的」——用畫的</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li><b>用圖解</b>，不要只用口頭說明</li><li>白板加畫圖，<b>用中文寫出診斷</b></li><li>門診善用 <b>YouTube 影片</b>（配合快轉）</li></ul>
+      <ul class="f"><li>要不要接受<b>錄音</b>？更進一步接受<b>錄影</b>！</li><li>有能力<b>用口語描述 Kaplan–Meier curve</b></li><li>家庭會議記錄單：開完會請病患與所有與會家屬<b>簽名</b></li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 37 SPIKES -->
+<section class="slide" data-sec="六 · 溝通技巧">
+  <div class="wrap">
+    <div class="kick teal r">工具 · 傳遞壞消息</div>
+    <h2 class="st r" style="--i:1">SPIKES 六步驟</h2>
+    <div class="grid3 r" style="--i:2">
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">S</div><h3>Setting</h3><p>安排隱私與在場者</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">P</div><h3>Perception</h3><p>先問「你了解多少？」</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">I</div><h3>Invitation</h3><p>徵得告知的意願</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">K</div><h3>Knowledge</h3><p>預警後，簡明說明</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">E</div><h3>Emotions</h3><p>以同理回應情緒</p></div>
+      <div class="card tickt"><div class="num-badge" style="color:var(--teal)">S</div><h3>Strategy</h3><p>總結並定下計畫</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3"><span class="rr"><b>Baile WF, et al.</b> SPIKES—a six-step protocol for delivering bad news. The Oncologist 2000;5(4):302-11. <a href="https://doi.org/10.1634/theoncologist.5-4-302">doi:10.1634/theoncologist.5-4-302</a></span></div>
+</section>
+
+<!-- 38 NURSE -->
+<section class="slide" data-sec="六 · 溝通技巧">
+  <div class="wrap">
+    <div class="kick r">工具 · 回應情緒</div>
+    <h2 class="st r" style="--i:1">NURSE 同理陳述</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li><b>N</b>ame　「你看起來很擔心。」——說出情緒</li><li><b>U</b>nderstand　「難怪你會這麼想。」——表達理解</li><li><b>R</b>espect　「你們照顧他真的很用心。」——肯定</li></ul>
+      <ul class="f"><li><b>S</b>upport　「我們會一起陪你面對。」——支持</li><li><b>E</b>xplore　「可以多說說你最在意什麼嗎？」——探問</li></ul>
+    </div>
+    <p class="small mut r" style="--i:3;margin-top:.5rem">VitalTalk 教材基礎；先接住情緒，資訊才進得去。</p>
+  </div>
+  <div class="srefs r" style="--i:4"><span class="rr"><b>Back AL, et al.</b> Approaching difficult communication tasks in oncology (NURSE). CA Cancer J Clin 2005;55(3):164-77. <a href="https://pubmed.ncbi.nlm.nih.gov/15890639/">PMID 15890639</a></span></div>
+</section>
+
+<!-- 39 SERIOUS ILLNESS / VALUE -->
+<section class="slide" data-sec="六 · 溝通技巧">
+  <div class="wrap">
+    <div class="kick teal r">工具 · 重症與家庭會議</div>
+    <h2 class="st r" style="--i:1">先問目標，再談維生</h2>
+    <div class="grid2 r" style="--i:2">
+      <div class="card tickt"><h3>Serious Illness Conversation</h3><p>結構化引導：探詢病人對病情的理解、資訊偏好、目標、恐懼、可接受的取捨。</p></div>
+      <div class="card tickt"><h3>ICU 家庭會議：VALUE + 主動</h3><p>Value 家屬發言、Acknowledge 情緒、Listen、Understand 病人、Elicit 問題。主動式會議＋手冊<b>降低家屬 PTSD/焦慮/憂鬱</b>。</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3">
+    <span class="rr"><b>Bernacki RE, Block SD.</b> Communication about serious illness care goals. JAMA Intern Med 2014;174(12):1994-2003. <a href="https://doi.org/10.1001/jamainternmed.2014.5271">doi:10.1001/jamainternmed.2014.5271</a></span>
+    <span class="rr"><b>Lautrette A, et al.</b> A communication strategy and brochure for relatives of patients dying in the ICU. N Engl J Med 2007;356(5):469-78. <a href="https://doi.org/10.1056/NEJMoa063446">doi:10.1056/NEJMoa063446</a></span>
+  </div>
+</section>
+
+<!-- 40 RESOURCES -->
+<section class="slide" data-sec="六 · 溝通技巧">
+  <div class="wrap">
+    <div class="kick r">落地 · 用現有資源就能做</div>
+    <h2 class="st r" style="--i:1">不必等新工具，今天就能改</h2>
+    <ul class="f r" style="--i:2">
+      <li><b>白板 + 畫圖</b>，把診斷用中文寫出來，留在床邊</li>
+      <li><b>YouTube 衛教影片</b>：門診播放、配合快轉，統一訊息</li>
+      <li><b>護理站家庭會議記錄單</b>：開完會，病患與所有與會家屬一起簽名</li>
+      <li>把「同一套說法」固定下來，減少團隊間訊息落差</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 41 DIVIDER 7 -->
+<section class="slide divider" data-sec="七 · 團隊與自我">
+  <div class="wrap"><div class="kick r">Part Seven</div><div class="dnum r" style="--i:1">07</div><div class="dt r" style="--i:2">團隊、導管室，與自己</div><div class="de r" style="--i:3">性格 · 壓力 · 臨床推理</div></div>
+</section>
+
+<!-- 42 DECISION MAKERS -->
+<section class="slide" data-sec="七 · 團隊與自我">
+  <div class="wrap">
+    <div class="kick r">知己知彼 · 了解決策者</div>
+    <h2 class="st r" style="--i:1">誰在做決定？特性與需求</h2>
+    <div class="grid2 r" style="--i:2">
+      <div class="card tick"><h3>病患與家屬</h3><p>理性 vs 情緒 · 經濟條件 · 在家中的角色與地位 · 學歷與理解力 · 個性與自主性。</p></div>
+      <div class="card tickt"><h3>醫療團隊</h3><p>成員的<b>知識斷層</b> · VS vs Resident vs NP · 專業技術 · 判斷與經驗 · 行政聯絡 · 四種性格。</p></div>
+    </div>
+    <p class="small mut r" style="--i:3;margin-top:.6rem">從「認識決策衝突」，走到「理解自己團隊成員個性上的衝突」。</p>
+  </div>
+</section>
+
+<!-- 43 CATH LAB -->
+<section class="slide" data-sec="七 · 團隊與自我">
+  <div class="wrap">
+    <div class="kick r">高壓現場 · 導管室裡的衝突</div>
+    <h2 class="st r" style="--i:1">Die on table，或成為英雄</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li>「你這術式不該做這麼複雜！」（我是學長，你該聽我的）</li><li>「這是 LM bifurcation，該做 Culotte！」——另一位學長說該 DK crush</li><li>「這狀況不太可能兩腳一起打通！」</li></ul>
+      <ul class="f"><li>Operator A 要不要聽 B？術式變複雜、時間拉長，接近失敗——<b>歸責誰</b>？</li><li>更重的<b>時間壓力</b>、更即時的後果</li><li>→ <b>責任區分與溝通</b>更顯關鍵</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 44 RESIDENTS -->
+<section class="slide" data-sec="七 · 團隊與自我">
+  <div class="wrap">
+    <div class="kick r">住院醫師常見困境</div>
+    <h2 class="st r" style="--i:1">卡住的時候，先界定問題</h2>
+    <div class="grid2 r" style="--i:2">
+      <ul class="f"><li>想做的檢查/用藥，帶教老師不支持</li><li>開了一堆抽血，卻沒有診斷</li><li>檢查做了，判讀不出來 → 治療計畫產不出</li></ul>
+      <div class="card tickt"><h3>對策</h3><p>先<b>界定好問題</b> · 多跟 seniors 討論 · <b>每天下午 debriefing</b>。急重症的教學，要在<b>成功救援後</b>把握時間做；也別忘了照顧照顧者。</p></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3">
+    <span class="rr"><b>Wu AW.</b> Medical error: the second victim. BMJ 2000;320(7237):726-7. <a href="https://doi.org/10.1136/bmj.320.7237.726">doi:10.1136/bmj.320.7237.726</a> ｜ <b>Epstein EG, Hamric AB.</b> Moral distress, moral residue, and the crescendo effect. J Clin Ethics 2009;20(4):330-42. <a href="https://pubmed.ncbi.nlm.nih.gov/20120853/">PMID 20120853</a></span>
+    <span class="rr"><b>Dean W, Talbot S, Dean A.</b> Reframing clinician distress: moral injury not burnout. Fed Pract 2019;36(9):400-2. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6752815/">PMC6752815</a></span>
+  </div>
+</section>
+
+<!-- 45 CLINICAL REASONING -->
+<section class="slide" data-sec="七 · 團隊與自我">
+  <div class="wrap">
+    <div class="kick r">病患照護 · 提升知識面能力</div>
+    <h2 class="st r" style="--i:1">三種一定要練的能力</h2>
+    <div class="grid3 r" style="--i:2">
+      <div class="card tick"><div class="num-badge">01</div><h3>描述問題</h3><p>把臨床問題講清楚、講準確。</p></div>
+      <div class="card tick"><div class="num-badge">02</div><h3>鑑別診斷</h3><p><b>Clinical Reasoning</b>——衝突常源於推理沒到位。</p></div>
+      <div class="card tick"><div class="num-badge">03</div><h3>擬訂計畫</h3><p>把診斷轉成可執行的治療計畫。</p></div>
+    </div>
+    <p class="small mut r" style="--i:3;margin-top:.8rem">很多「決策衝突」，其實是「臨床推理不清」偽裝出來的。</p>
+  </div>
+</section>
+
+<!-- 46 CASE1 OUTCOME + limb angio -->
+<section class="slide" data-sec="七 · 團隊與自我">
+  <div class="wrap">
+    <div class="kick teal r">回到案例一 · 真實結局</div>
+    <h2 class="st r" style="--i:1;margin:.3rem 0">另一個時空：他活著回家了</h2>
+    <div class="grid2 r" style="--i:2;align-items:center">
+      <div class="tl">
+        <div class="ev"><span class="d">06-12</span>PCI with IABP support</div>
+        <div class="ev"><span class="d">06-13</span>急性肢體缺血 → <b>緊急搶救性 iliac 血管成形/支架</b></div>
+        <div class="ev"><span class="d">之後</span>解決乳酸中毒來源 (PAOD)：脫離呼吸器、<b>存活出院</b></div>
+        <div class="ev"><span class="d">11-04</span>重建左側 SFA；<b class="emt">雙腳保肢、無截肢、90 天存活</b></div>
+      </div>
+      <div class="grid2" style="gap:.5rem">
+        <div><div class="imgbox"><img src="Decisional_Conflict_assets/limb-before.jpg" alt="Iliac angiography before"></div><div class="cap">Before：Rt CIA-EIA 狹窄</div></div>
+        <div><div class="imgbox"><img src="Decisional_Conflict_assets/limb-after.jpg" alt="Iliac angiography after stenting"></div><div class="cap">After：支架後管腔通暢</div></div>
+      </div>
+    </div>
+    <p class="micro mut r" style="--i:3;margin-top:.4rem">與第 17 張的「48 小時 mortality」是同一個病人——差別在團隊選擇了<b>承接而非切割</b>。</p>
+  </div>
+</section>
+
+<!-- 47 ECG comparison -->
+<section class="slide" data-sec="七 · 團隊與自我">
+  <div class="wrap">
+    <div class="kick r">Case 1 · ECG 對照</div>
+    <h2 class="st r" style="--i:1">事件當下 vs 三個月後</h2>
+    <div class="grid2 r" style="--i:2">
+      <div><div class="imgbox"><img src="Decisional_Conflict_assets/ecg-event.jpg" alt="ECG during event"></div><div class="cap">事件當下 ECG</div></div>
+      <div><div class="imgbox"><img src="Decisional_Conflict_assets/ecg-3mo.jpg" alt="ECG three months after PCI"></div><div class="cap">PCI 後三個月 ECG</div></div>
+    </div>
+  </div>
+  <div class="srefs r" style="--i:3"><span class="rr">臨床影像為本案例教學資料，已去識別化。</span></div>
+</section>
+
+<!-- 48 OSLER / SUMMARY -->
+<section class="slide qslide" data-sec="總結">
+  <div class="wrap">
+    <div class="kick r">總結 · In Closing</div>
+    <p class="qbig r" style="--i:1">「讀醫學而不讀書，如同<span class="ac">航行於未知之海</span>；但讀醫學而不看病人，則<span class="ac">根本未曾出海</span>。」</p>
+    <p class="qby r" style="--i:2">— William Osler</p>
+    <p class="lead r" style="--i:3;margin-top:1.2rem">不畏懼衝突，友善溝通，團隊合作，<span class="ac">從中學習</span>。</p>
+  </div>
+</section>
+
+<!-- 49 REFERENCES A -->
+<section class="slide" data-sec="參考文獻">
+  <div class="wrap">
+    <div class="kick r">參考文獻 · References (1/3) — 決策衝突與 SDM</div>
+    <div class="refs r" style="--i:1;margin-top:.5rem">
+      <div class="ref"><span class="n">1</span>O'Connor AM. Validation of a decisional conflict scale. <b>Med Decis Making.</b> 1995;15(1):25-30. <a href="https://doi.org/10.1177/0272989X9501500105">doi:10.1177/0272989X9501500105</a></div>
+      <div class="ref"><span class="n">2</span>Légaré F, et al. Are you SURE? A 4-item screening test for decisional conflict. <b>Can Fam Physician.</b> 2010;56(8):e308-14. <a href="https://pubmed.ncbi.nlm.nih.gov/20705870/">PMID 20705870</a></div>
+      <div class="ref"><span class="n">3</span>Stacey D, et al. 20th Anniversary Ottawa Decision Support Framework, Part 3. <b>Med Decis Making.</b> 2020;40(3):379-98. <a href="https://doi.org/10.1177/0272989X20911870">doi:10.1177/0272989X20911870</a></div>
+      <div class="ref"><span class="n">4</span>Elwyn G, et al. Shared decision making: a model for clinical practice. <b>J Gen Intern Med.</b> 2012;27(10):1361-7. <a href="https://doi.org/10.1007/s11606-012-2077-6">doi:10.1007/s11606-012-2077-6</a></div>
+      <div class="ref"><span class="n">5</span>Elwyn G, et al. A three-talk model for shared decision making. <b>BMJ.</b> 2017;359:j4891. <a href="https://doi.org/10.1136/bmj.j4891">doi:10.1136/bmj.j4891</a></div>
+      <div class="ref"><span class="n">6</span>Charles C, et al. Shared decision-making in the medical encounter. <b>Soc Sci Med.</b> 1997;44(5):681-92. <a href="https://doi.org/10.1016/s0277-9536(96)00221-3">doi:10.1016/s0277-9536(96)00221-3</a></div>
+      <div class="ref"><span class="n">7</span>Stacey D, et al. Decision aids for people facing health treatment or screening decisions. <b>Cochrane Database Syst Rev.</b> 2024;1(1):CD001431. <a href="https://doi.org/10.1002/14651858.CD001431.pub6">doi:10.1002/14651858.CD001431.pub6</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- 50 REFERENCES B -->
+<section class="slide" data-sec="參考文獻">
+  <div class="wrap">
+    <div class="kick r">參考文獻 · References (2/3) — 團隊/心理安全 · 溝通</div>
+    <div class="refs r" style="--i:1;margin-top:.5rem">
+      <div class="ref"><span class="n">8</span>Azoulay E, et al. Prevalence and factors of ICU conflicts: the Conflicus study. <b>Am J Respir Crit Care Med.</b> 2009;180(9):853-60. <a href="https://doi.org/10.1164/rccm.200810-1614OC">doi:10.1164/rccm.200810-1614OC</a></div>
+      <div class="ref"><span class="n">9</span>Edmondson AC. Psychological safety and learning behavior in work teams. <b>Adm Sci Q.</b> 1999;44(2):350-83. <a href="https://doi.org/10.2307/2666999">doi:10.2307/2666999</a></div>
+      <div class="ref"><span class="n">10</span>Kilmann RH, Thomas KW. Developing a forced-choice measure of conflict-handling behavior (MODE). <b>Educ Psychol Meas.</b> 1977;37(2):309-25. <a href="https://doi.org/10.1177/001316447703700204">doi:10.1177/001316447703700204</a></div>
+      <div class="ref"><span class="n">11</span>King HB, et al. TeamSTEPPS: Strategies and Tools to Enhance Performance and Patient Safety. <b>AHRQ;</b> 2008. <a href="https://www.ncbi.nlm.nih.gov/books/NBK43686/">NCBI Bookshelf NBK43686</a></div>
+      <div class="ref"><span class="n">12</span>Barzallo Salazar MJ, et al. Influence of surgeon behavior on trainee willingness to speak up: an RCT. <b>J Am Coll Surg.</b> 2014;219(5):1001-7. <a href="https://doi.org/10.1016/j.jamcollsurg.2014.07.933">doi:10.1016/j.jamcollsurg.2014.07.933</a></div>
+      <div class="ref"><span class="n">13</span>Baile WF, et al. SPIKES—a six-step protocol for delivering bad news. <b>The Oncologist.</b> 2000;5(4):302-11. <a href="https://doi.org/10.1634/theoncologist.5-4-302">doi:10.1634/theoncologist.5-4-302</a></div>
+      <div class="ref"><span class="n">14</span>Back AL, et al. Approaching difficult communication tasks in oncology (NURSE). <b>CA Cancer J Clin.</b> 2005;55(3):164-77. <a href="https://pubmed.ncbi.nlm.nih.gov/15890639/">PMID 15890639</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- 51 REFERENCES C + DISCLAIMER -->
+<section class="slide" data-sec="參考文獻">
+  <div class="wrap">
+    <div class="kick r">參考文獻 · References (3/3) — 重症溝通 · 道德困擾 · 資源倫理</div>
+    <div class="refs r" style="--i:1;margin-top:.5rem">
+      <div class="ref"><span class="n">15</span>Bernacki RE, Block SD. Communication about serious illness care goals. <b>JAMA Intern Med.</b> 2014;174(12):1994-2003. <a href="https://doi.org/10.1001/jamainternmed.2014.5271">doi:10.1001/jamainternmed.2014.5271</a></div>
+      <div class="ref"><span class="n">16</span>Lautrette A, et al. A communication strategy and brochure for relatives of patients dying in the ICU. <b>N Engl J Med.</b> 2007;356(5):469-78. <a href="https://doi.org/10.1056/NEJMoa063446">doi:10.1056/NEJMoa063446</a></div>
+      <div class="ref"><span class="n">17</span>Wu AW. Medical error: the second victim. <b>BMJ.</b> 2000;320(7237):726-7. <a href="https://doi.org/10.1136/bmj.320.7237.726">doi:10.1136/bmj.320.7237.726</a></div>
+      <div class="ref"><span class="n">18</span>Epstein EG, Hamric AB. Moral distress, moral residue, and the crescendo effect. <b>J Clin Ethics.</b> 2009;20(4):330-42. <a href="https://pubmed.ncbi.nlm.nih.gov/20120853/">PMID 20120853</a></div>
+      <div class="ref"><span class="n">19</span>Dean W, Talbot S, Dean A. Reframing clinician distress: moral injury not burnout. <b>Fed Pract.</b> 2019;36(9):400-2. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6752815/">PMC6752815</a></div>
+      <div class="ref"><span class="n">20</span>Emanuel EJ, et al. Fair allocation of scarce medical resources in the time of Covid-19. <b>N Engl J Med.</b> 2020;382(21):2049-55. <a href="https://doi.org/10.1056/NEJMsb2005114">doi:10.1056/NEJMsb2005114</a></div>
+      <div class="ref"><span class="n">21</span>White DB, Lo B. A framework for rationing ventilators and critical care beds during Covid-19. <b>JAMA.</b> 2020;323(18):1773-4. <a href="https://pubmed.ncbi.nlm.nih.gov/32219367/">PMID 32219367</a></div>
+    </div>
+    <p class="disc r" style="--i:2">整理／講者：<b>謝慕揚 MD, PhD, FESC</b>。本教材為讀書會共筆整理，僅供醫療專業人員教學參考；臨床影像取自本案例、已去識別化。文獻 DOI/PMID 均經 PubMed 查證。</p>
+  </div>
+</section>
+
+<script>
+(function(){
+  const slides=[...document.querySelectorAll('.slide')];
+  const prog=document.getElementById('prog'),cnum=document.getElementById('cnum'),ctot=document.getElementById('ctot'),sec=document.getElementById('sec');
+  ctot.textContent=String(slides.length).padStart(2,'0');
+  let cur=0;
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{
+    if(e.isIntersecting && e.intersectionRatio>=0.55){
+      e.target.classList.add('active');cur=slides.indexOf(e.target);
+      cnum.textContent=String(cur+1).padStart(2,'0');
+      prog.style.width=((cur+1)/slides.length*100)+'%';
+      sec.textContent=e.target.dataset.sec||'';
+    } else { e.target.classList.remove('active'); }
+  });},{threshold:[0,0.55,1]});
+  slides.forEach(s=>io.observe(s));
+  function go(i){i=Math.max(0,Math.min(slides.length-1,i));slides[i].scrollIntoView({behavior:'smooth'});}
+  document.addEventListener('keydown',(e)=>{
+    if(e.target.isContentEditable)return;
+    if(['ArrowDown','ArrowRight',' ','PageDown'].includes(e.key)){e.preventDefault();go(cur+1);}
+    else if(['ArrowUp','ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(cur-1);}
+    else if(e.key==='Home'){e.preventDefault();go(0);}
+    else if(e.key==='End'){e.preventDefault();go(slides.length-1);}
+  });
+  document.getElementById('next').addEventListener('click',()=>go(cur+1));
+  document.getElementById('prev').addEventListener('click',()=>go(cur-1));
+  let ty=null;
+  addEventListener('touchstart',e=>{ty=e.changedTouches[0].clientY;},{passive:true});
+  addEventListener('touchend',e=>{if(ty===null)return;const dy=e.changedTouches[0].clientY-ty;if(Math.abs(dy)>60){go(cur+(dy<0?1:-1));}ty=null;},{passive:true});
+  let editing=false;
+  document.addEventListener('keydown',(e)=>{
+    if((e.key==='e'||e.key==='E') && !e.target.isContentEditable){
+      editing=!editing;
+      document.querySelectorAll('.wrap, .center').forEach(el=>el.contentEditable=editing);
+      document.body.style.outline=editing?'3px solid #0e6f6e':'';
+    }
+    if((e.ctrlKey||e.metaKey) && (e.key==='s'||e.key==='S')){e.preventDefault();
+      const blob=new Blob([document.documentElement.outerHTML],{type:'text/html'});
+      const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='醫療決策衝突 教學投影片.html';a.click();}
+  });
+})();
+</script>
+</body>
+</html>
