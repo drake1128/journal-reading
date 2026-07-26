@@ -1,0 +1,7 @@
+# Render emoji as native text (system emoji font) instead of remote Twemoji <img>,
+# which break (broken-thumbnail) during headless-Chromium PDF export when the CDN
+# is unreachable. Fixes missing emoji thumbnails in Marp PDFs.
+options:
+  emoji:
+    shortcode: true
+    unicode: false

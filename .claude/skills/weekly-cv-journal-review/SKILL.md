@@ -194,6 +194,19 @@ PY
 
 After embedding, **0** `api.qrserver.com` references must remain. (This matches the repo's offline-first rule — everything self-contained.)
 
+**(a2) Emoji MUST render as native text, NOT remote Twemoji images.**
+
+Marp Core converts every literal emoji (🎯 ⭐ 🫀 🔧 📚 …) into a **remote** `<img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji/.../svg/xxxx.svg">`. Same failure mode as the QR codes: in headless-Chromium PDF export these frequently do not load → each emoji shows a **broken-image thumbnail** next to the fallback glyph. The fix is the repo-root **`.marprc.yml`**:
+
+```yaml
+options:
+  emoji:
+    shortcode: true
+    unicode: false   # keep emoji as native text; do NOT emit remote Twemoji <img>
+```
+
+**Marp only auto-loads `.marprc.yml` from the current working directory — NOT parent folders.** Therefore **compile from the repo root** (as §8 does: build in root, then `mv` into `handouts/…`). If you ever `cd` into the handout folder to build, the emoji break again — either stay at repo root or pass `-c <repo>/.marprc.yml` explicitly. Verify with `grep -c data-marp-twemoji` on a test HTML render (should be ≤1, the injected CSS rule only).
+
 **(b) Any light-background box on a dark slide MUST set an explicit DARK text colour.**
 
 On `<!-- _class: lead -->` (and `divider`) slides the body text colour is light (`section.lead p { color:#dfe6e9 }`). The disclaimer blockquote has a light background (`#fff5f5`), so without an override it renders **light-on-light = invisible**. The front-matter CSS MUST include:
@@ -206,22 +219,25 @@ section.lead blockquote strong { color: #2d3436; }
 
 (The QR `<div class="qr">` and this disclaimer blockquote are the only sanctioned custom-HTML/box exceptions to the general "no custom divs" rule — keep their CSS in the front-matter.)
 
-**(c) Always spot-check the compiled PDF before declaring done.** Rasterise at least one **QR slide** and the **last (disclaimer) slide** and look at them — do not assume the build is correct:
+**(c) Always spot-check the compiled PDF before declaring done.** Rasterise at least one **QR slide**, the **last (disclaimer) slide**, and one **emoji slide** (e.g. the 本週主題/固定欄目 page) and look at them — do not assume the build is correct:
 
 ```bash
 python - <<'PY'
 import fitz
 doc=fitz.open('Weekly_CV_Journal_Review_YYYY-MM-DD.pdf')
 doc[doc.page_count-1].get_pixmap(dpi=110).save('_check_last.png')   # disclaimer readable?
+doc[1].get_pixmap(dpi=110).save('_check_emoji.png')                 # emoji = glyphs, NOT broken thumbnails
 for i in range(doc.page_count):
     if doc[i].get_images(): doc[i].get_pixmap(dpi=110).save('_check_qr.png'); break  # QR visible?
 PY
 ```
-Delete the `_check_*.png` files afterwards.
+Delete the `_check_*.png` files afterwards. (Broken emoji look like a small torn-image icon before each emoji — if you see those, `.marprc.yml` was not picked up; you built from the wrong directory.)
 
 ### 8. Compile PDF and move files
 
 ```bash
+# Run from the REPO ROOT so repo-root .marprc.yml auto-loads (emoji fix, §7b-a2).
+# Build here first, then mv into handouts/ — do NOT cd into the handout folder to build.
 marp --no-stdin "Weekly_CV_Journal_Review_YYYY-MM-DD_Marp.md" \
      --pdf -o "Weekly_CV_Journal_Review_YYYY-MM-DD.pdf" \
      --allow-local-files
@@ -284,8 +300,8 @@ If only PMID is available:
 - [ ] Marp CSS: no Google Fonts import, no gradients, no custom divs (the QR `div` + disclaimer blockquote are the only exceptions)
 - [ ] **QR codes embedded as base64 — `0` remaining `api.qrserver.com` refs** ⚠️ (§7b-a)
 - [ ] **Lead/divider slides: light boxes (disclaimer) have explicit dark text CSS** ⚠️ (§7b-b)
-- [ ] **PDF spot-checked: rasterised a QR slide + the last slide and eyeballed them** ⚠️ (§7b-c)
-- [ ] PDF compiled with `--no-stdin --allow-local-files`
+- [ ] **PDF spot-checked: rasterised a QR slide + last slide + an emoji slide and eyeballed them** ⚠️ (§7b-c) — no broken-image thumbnails before emoji
+- [ ] PDF compiled **from the repo root** with `--no-stdin --allow-local-files` (so `.marprc.yml` emoji fix auto-loads)
 - [ ] All 3 files moved to `handouts/91-podcast-journal-review/`
 - [ ] Original abstract sources discarded after parsing (no leftover .pdf in repo root)
 

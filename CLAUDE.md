@@ -41,6 +41,7 @@ marp --no-stdin "Filename_Marp.md" --pdf -o "Filename.pdf" --allow-local-files
 
 **Note:** Always use `--no-stdin` flag to prevent Marp from hanging on stdin.
 **Note:** Do NOT generate PPTX — PDF is the only compiled output format.
+**Note (emoji / broken thumbnails):** Marp Core turns literal emoji (🎯 ⭐ 🫀 …) into **remote Twemoji `<img>`** that fail to load in headless-Chromium PDF export → each emoji becomes a **broken-image thumbnail**. The repo-root **`.marprc.yml`** (`options.emoji.unicode: false`) disables Twemoji so emoji render as native text. Marp only auto-loads `.marprc.yml` from the **current working directory**, so **run `marp` from the repo root** (not from inside `handouts/…`).
 
 ### Legacy LaTeX (when explicitly requested)
 
