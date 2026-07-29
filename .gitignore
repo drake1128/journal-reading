@@ -21,6 +21,7 @@ handouts/**/*.html
 !handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI.html
 !handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI_static.html
 !handouts/06-interventional-cardiology/AGENT_DCB_Seminar_Review.html
+!handouts/99-misc/Self_Directed_Learning_Plan_2026.html
 *.log
 *.aux
 *.out

@@ -490,6 +490,8 @@ website:
         - section: "其他 Misc"
           contents:
             - handouts/99-misc/index.qmd
+            - text: "台大內科住院醫師之如何訂定自我進修計劃 (互動簡報, 46 張)"
+              href: handouts/99-misc/Self_Directed_Learning_Plan_2026.html
             - text: "常見機率分佈之間的關係 — Common Distributions (互動投影片, 25 張, 生物統計)"
               href: handouts/99-misc/Common_Distributions_Relationships.html
             - text: "醫療決策衝突 — 兩個真實案例的團隊溝通 (互動投影片, 51 張)"

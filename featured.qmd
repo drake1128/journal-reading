@@ -58,6 +58,10 @@ listing:
       description: "互動簡報, 25 張。行政自動化工作流程。"
       path: handouts/90-ai-technology/AI_Admin_Workflows_Desktop_to_Code.html
       categories: [AI 科技]
+    - title: "台大內科住院醫師之如何訂定自我進修計劃"
+      description: "互動簡報, 46 張，手機可開啟。ILP 個人化學習計劃、自我調節學習循環、六大核心能力 (Drake's Version 1.0)、FOAM 與 AI 使用界線、刻意練習與 SNAPPS、POCUS 分級路徑、寫作與研究工具鏈、90 天啟動清單。"
+      path: handouts/99-misc/Self_Directed_Learning_Plan_2026.html
+      categories: [教學 Teaching, 醫學教育 Medical Education, 手機 Mobile]
     - title: "Bedside Cardiology S1 — 怎麼教心音聽診"
       description: "讀書會共筆。教學文獻導讀：如何教心臟理學檢查。"
       path: handouts/99-misc/Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html

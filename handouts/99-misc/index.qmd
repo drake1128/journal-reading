@@ -4,15 +4,21 @@ resources:
   - "Common_Distributions_Relationships.html"
   - "Decisional_Conflict_in_Medicine.html"
   - "Decisional_Conflict_assets/"
+  - "Self_Directed_Learning_Plan_2026.html"
+  - "Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html"
 ---
 
 ## 精選簡報 Featured Slide Decks
+
+- **[台大內科住院醫師之如何訂定自我進修計劃 (互動簡報，可手機開啟)](Self_Directed_Learning_Plan_2026.html){target="_blank"}**
+  *46 張投影片：ILP 個人化學習計劃、自我調節學習循環、六大核心能力（Drake's Version 1.0）、FOAM 與 AI 使用界線、刻意練習與 SNAPPS、POCUS 分級路徑、寫作與研究工具鏈、時間管理、90 天啟動清單。鍵盤 ← → 或滑動切換投影片*
 
 - **[常見機率分佈之間的關係 — Relationships Among Common Distributions (互動投影片, 25 張)](Common_Distributions_Relationships.html){target="_blank"}**
   *生物統計教學：把「常見機率分佈關係圖」拆成三個動作（相加 ∑Xᵢ／取比值變換／趨近極限），詳解計數家族、常態樞紐與 CLT、χ²·t·F 檢定三兄弟、等待/存活家族，並附臨床對照與全圖箭頭速查。每張投影片即時繪出分佈曲線。鍵盤 ← → 或滑動切換，`F` 全螢幕、`O` 總覽*
 
 - **[醫療決策衝突 — Decisional Conflict in Medicine (互動投影片, 51 張)](Decisional_Conflict_in_Medicine.html){target="_blank"}**
   *醫學人文／溝通教學：以兩個真實案例（NSTEMI 心因性休克連鎖決策、OHCA 之 ECMO 與跨院 ICU 資源衝突）貫穿多層次醫療決策衝突。含 O'Connor 決策衝突量表與 SURE、Elwyn 三談 SDM、Edmondson 心理安全、SPIKES／NURSE／VALUE 溝通工具、資源分配倫理，並還原「如何讓團隊更糟 vs 如何突破」九宮格對話矩陣，附去識別化案例影像。文獻均附可點 DOI。鍵盤 ↓→／↑← 或滑動切換，`E` 就地編輯*
+- **[Bedside Cardiology Reading Club S1 — 心音聽診教學 (互動簡報)](Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html){target="_blank"}**
 
 ## 教學講義 Handouts
 
