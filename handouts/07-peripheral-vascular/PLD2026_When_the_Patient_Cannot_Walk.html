@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>When the patient cannot walk — Minimizing muscle pain in CV risk control</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===========================================
+   VIEWPORT FITTING: MANDATORY BASE STYLES
+   =========================================== */
+html, body { height: 100%; overflow-x: hidden; }
+html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+.slide {
+    width: 100vw; height: 100vh; height: 100dvh;
+    overflow: hidden; scroll-snap-align: start;
+    display: flex; flex-direction: column; position: relative;
+}
+.slide-content {
+    flex: 1; display: flex; flex-direction: column; justify-content: center;
+    max-height: 100%; overflow: hidden; padding: var(--slide-padding);
+}
+:root {
+    --title-size: clamp(1.5rem, 5vw, 4rem);
+    --h2-size: clamp(1.25rem, 3.5vw, 2.5rem);
+    --h3-size: clamp(1rem, 2.5vw, 1.75rem);
+    --body-size: clamp(0.75rem, 1.5vw, 1.125rem);
+    --small-size: clamp(0.65rem, 1vw, 0.875rem);
+    --slide-padding: clamp(1rem, 4vw, 4rem);
+    --content-gap: clamp(0.5rem, 2vw, 2rem);
+    --element-gap: clamp(0.25rem, 1vw, 1rem);
+}
+.card, .container, .content-box { max-width: min(90vw, 1000px); max-height: min(80vh, 700px); }
+.feature-list, .bullet-list { gap: clamp(0.4rem, 1vh, 1rem); }
+.feature-list li, .bullet-list li { font-size: var(--body-size); line-height: 1.4; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: clamp(0.5rem, 1.5vw, 1rem); }
+img, .image-container { max-width: 100%; max-height: min(50vh, 400px); object-fit: contain; }
+@media (max-height: 700px) { :root { --slide-padding: clamp(0.75rem, 3vw, 2rem); --content-gap: clamp(0.4rem, 1.5vw, 1rem); --title-size: clamp(1.25rem, 4.5vw, 2.5rem); --h2-size: clamp(1rem, 3vw, 1.75rem); } }
+@media (max-height: 600px) { :root { --slide-padding: clamp(0.5rem, 2.5vw, 1.5rem); --content-gap: clamp(0.3rem, 1vw, 0.75rem); --title-size: clamp(1.1rem, 4vw, 2rem); --body-size: clamp(0.7rem, 1.2vw, 0.95rem); } .nav-dots, .keyboard-hint, .decorative { display: none; } }
+@media (max-height: 500px) { :root { --slide-padding: clamp(0.4rem, 2vw, 1rem); --title-size: clamp(1rem, 3.5vw, 1.5rem); --h2-size: clamp(0.9rem, 2.5vw, 1.25rem); --body-size: clamp(0.65rem, 1vw, 0.85rem); } }
+@media (max-width: 600px) { :root { --title-size: clamp(1.25rem, 7vw, 2.5rem); } .grid { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.2s !important; } html { scroll-behavior: auto; } }
+
+/* ===========================================
+   THEME — "CLINICAL INK"
+   Dark editorial-clinical palette
+   =========================================== */
+:root {
+    --ink:      #0d1420;   /* deep background */
+    --ink-2:    #131d2c;   /* panel */
+    --ink-3:    #1b2838;   /* raised panel */
+    --line:     #2a3a4d;   /* hairline / borders */
+    --hair:     rgba(180,200,220,.14);
+    --paper:    #eaf1f8;   /* primary text */
+    --muted:    #93a6ba;   /* secondary text */
+    --faint:    #64758a;
+    --crimson:  #ff4d6d;   /* risk / arterial */
+    --crimson-d:#c81e43;
+    --amber:    #f4b860;   /* muscle pain / barrier */
+    --teal:     #33d6c0;   /* solution / drug */
+    --teal-d:   #159e8c;
+    --violet:   #9d8cff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'Archivo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/* Atmospheric background: vascular gradient wash + fine grid */
+body::before {
+    content: ""; position: fixed; inset: 0; z-index: -2;
+    background:
+      radial-gradient(1100px 700px at 82% -10%, rgba(255,77,109,.13), transparent 60%),
+      radial-gradient(900px 680px at 8% 112%, rgba(51,214,192,.10), transparent 60%),
+      linear-gradient(160deg, #0c121d 0%, #0d1420 55%, #0a1017 100%);
+}
+body::after {
+    content: ""; position: fixed; inset: 0; z-index: -1; opacity: .5;
+    background-image: linear-gradient(var(--hair) 1px, transparent 1px), linear-gradient(90deg, var(--hair) 1px, transparent 1px);
+    background-size: 46px 46px;
+    -webkit-mask-image: radial-gradient(ellipse at 50% 40%, #000 30%, transparent 85%);
+            mask-image: radial-gradient(ellipse at 50% 40%, #000 30%, transparent 85%);
+}
+
+/* ---- Common slide scaffolding ---- */
+.slide-content { gap: var(--content-gap); }
+.kicker {
+    display: inline-flex; align-items: center; gap: .55em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: var(--small-size); letter-spacing: .22em; text-transform: uppercase;
+    color: var(--muted); font-weight: 500;
+}
+.kicker::before {
+    content: ""; width: clamp(18px,2.4vw,34px); height: 2px; background: var(--accent, var(--crimson));
+    display: inline-block;
+}
+.slide[data-accent="crimson"] { --accent: var(--crimson); }
+.slide[data-accent="amber"]   { --accent: var(--amber); }
+.slide[data-accent="teal"]    { --accent: var(--teal); }
+h1, h2, h3 { font-family: 'Fraunces', serif; font-weight: 600; line-height: 1.05; letter-spacing: -.01em; }
+.slide h2.headline { font-size: var(--h2-size); margin-bottom: .1em; }
+.slide h2.headline .em { color: var(--accent, var(--crimson)); font-style: italic; font-weight: 500; }
+.lead { font-size: var(--body-size); color: var(--muted); max-width: 62ch; line-height: 1.5; }
+
+/* ---- Reference footer ---- */
+.refbar {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: clamp(.4rem,1vh,.7rem) var(--slide-padding);
+    font-size: clamp(.58rem,.95vw,.78rem); color: var(--faint);
+    border-top: 1px solid var(--hair);
+    background: linear-gradient(0deg, rgba(8,12,18,.7), transparent);
+    display: flex; gap: 1.4em; flex-wrap: wrap; align-items: baseline;
+    font-family: 'IBM Plex Mono', monospace; line-height: 1.35;
+}
+.refbar .rlbl { color: var(--accent, var(--crimson)); font-weight: 600; letter-spacing: .1em; }
+.refbar a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--faint); }
+.refbar a:hover { color: var(--teal); border-color: var(--teal); }
+.slide-content { padding-bottom: clamp(3rem, 7vh, 4.5rem); }
+
+/* ---- Slide number ---- */
+.snum {
+    position: absolute; top: clamp(.8rem,2.5vh,1.6rem); right: clamp(1rem,4vw,3rem);
+    font-family: 'IBM Plex Mono', monospace; font-size: var(--small-size); color: var(--faint); letter-spacing: .15em;
+}
+.snum b { color: var(--accent, var(--paper)); }
+
+/* ===========================================
+   REVEAL ANIMATIONS
+   =========================================== */
+.reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
+.slide.active .reveal { opacity: 1; transform: none; }
+.slide.active .reveal.d1 { transition-delay: .08s; }
+.slide.active .reveal.d2 { transition-delay: .18s; }
+.slide.active .reveal.d3 { transition-delay: .30s; }
+.slide.active .reveal.d4 { transition-delay: .42s; }
+.slide.active .reveal.d5 { transition-delay: .54s; }
+.slide.active .reveal.d6 { transition-delay: .66s; }
+
+/* ===========================================
+   TITLE SLIDE
+   =========================================== */
+.title-slide .slide-content { justify-content: center; }
+.pulse-line { position: absolute; inset: 0; overflow: hidden; z-index: 0; opacity: .5; pointer-events: none; }
+.pulse-line svg { position: absolute; top: 46%; left: -5%; width: 110%; height: 180px; }
+.ecg-path { fill: none; stroke: var(--crimson); stroke-width: 2.2; filter: drop-shadow(0 0 8px rgba(255,77,109,.55));
+    stroke-dasharray: 2400; stroke-dashoffset: 2400; }
+.slide.active .ecg-path { animation: ecg 3.2s cubic-bezier(.3,.1,.2,1) .3s forwards; }
+@keyframes ecg { to { stroke-dashoffset: 0; } }
+.title-wrap { position: relative; z-index: 2; }
+.event-tag { font-family:'IBM Plex Mono',monospace; font-size: var(--small-size); color: var(--muted); letter-spacing:.18em; text-transform:uppercase; }
+.title-slide h1 { font-size: clamp(2rem, 5.6vw, 4.6rem); margin: .28em 0 .1em; }
+.title-slide h1 .em { font-style: italic; color: var(--crimson); font-weight: 500; }
+.title-slide .sub { font-size: clamp(1rem,2vw,1.6rem); color: var(--paper); font-family:'Fraunces',serif; font-weight: 400; opacity:.9; }
+.byline { margin-top: clamp(1rem,3vh,2.2rem); display:flex; flex-wrap: wrap; gap: .5em 1.4em; align-items:center; font-size: var(--body-size); color: var(--muted); }
+.byline b { color: var(--paper); font-weight: 600; }
+.byline .dot { width:5px;height:5px;border-radius:50%;background:var(--teal); display:inline-block; }
+
+/* ===========================================
+   GENERIC COMPONENTS
+   =========================================== */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1rem,3vw,2.4rem); align-items: center; }
+@media (max-width: 820px){ .two-col { grid-template-columns: 1fr; } }
+.panel {
+    background: linear-gradient(160deg, var(--ink-2), var(--ink-3));
+    border: 1px solid var(--hair); border-radius: 16px;
+    padding: clamp(.9rem,2.2vw,1.6rem);
+}
+.stat-row { display:flex; gap: clamp(.6rem,2vw,1.4rem); flex-wrap: wrap; }
+.stat { flex: 1 1 0; min-width: 130px; }
+.stat .big { font-family:'IBM Plex Mono',monospace; font-weight:700; font-size: clamp(1.7rem,4.4vw,3.1rem); line-height:1; color: var(--accent,var(--crimson)); }
+.stat .lbl { font-size: var(--small-size); color: var(--muted); margin-top:.35em; line-height:1.35; }
+.stat .unit { font-size: .5em; color: var(--muted); font-weight:500; }
+
+ul.ticks { list-style:none; display:flex; flex-direction:column; gap: clamp(.5rem,1.5vh,1rem); }
+ul.ticks li { position: relative; padding-left: 1.7em; font-size: var(--body-size); line-height:1.45; color: var(--paper); }
+ul.ticks li::before { content:""; position:absolute; left:0; top:.55em; width:.7em; height:.7em; border:2px solid var(--accent,var(--crimson)); border-radius:2px; transform: rotate(45deg); }
+ul.ticks li b { color: var(--accent,var(--crimson)); }
+ul.ticks li .s { color: var(--muted); font-size:.9em; }
+
+.chip { display:inline-block; padding:.28em .7em; border-radius: 999px; font-size: var(--small-size); font-family:'IBM Plex Mono',monospace; letter-spacing:.05em; border:1px solid var(--hair); color: var(--muted); }
+.chip.crimson { color:var(--crimson); border-color: rgba(255,77,109,.4); background: rgba(255,77,109,.08); }
+.chip.teal { color:var(--teal); border-color: rgba(51,214,192,.4); background: rgba(51,214,192,.08); }
+.chip.amber { color:var(--amber); border-color: rgba(244,184,96,.4); background: rgba(244,184,96,.08); }
+
+/* Chart wrappers */
+.chart { width:100%; }
+.chart svg { width:100%; height:auto; max-height: min(52vh, 440px); display:block; }
+.cap { font-size: var(--small-size); color: var(--faint); font-family:'IBM Plex Mono',monospace; margin-top:.5em; }
+.cap b { color: var(--muted); }
+
+/* Comparison table (claudication vs SAMS) */
+.ctable { width:100%; border-collapse: collapse; font-size: clamp(.7rem,1.35vw,1rem); }
+.ctable th, .ctable td { text-align:left; padding: clamp(.4rem,1.1vh,.75rem) clamp(.5rem,1.2vw,1rem); border-bottom:1px solid var(--hair); vertical-align: top; line-height:1.35; }
+.ctable thead th { font-family:'IBM Plex Mono',monospace; font-size: var(--small-size); text-transform:uppercase; letter-spacing:.1em; color: var(--muted); border-bottom:1px solid var(--hair); }
+.ctable .feat { color: var(--muted); font-weight:600; width: 22%; }
+.ctable .clau { color: var(--amber); }
+.ctable .sams { color: var(--crimson); }
+.ctable tbody tr:hover { background: rgba(255,255,255,.02); }
+
+/* Algorithm flow */
+.flow { display:flex; flex-direction:column; gap: clamp(.4rem,1.2vh,.8rem); }
+.frow { display:flex; align-items:center; gap: clamp(.5rem,1.5vw,1rem); }
+.fstep { flex:1; background: linear-gradient(160deg,var(--ink-2),var(--ink-3)); border:1px solid var(--hair); border-left:3px solid var(--accent,var(--crimson)); border-radius:10px; padding: clamp(.5rem,1.3vh,.85rem) clamp(.7rem,1.6vw,1.1rem); }
+.fstep .t { font-weight:700; font-size: var(--body-size); }
+.fstep .d { font-size: var(--small-size); color: var(--muted); margin-top:.2em; }
+.fnum { font-family:'IBM Plex Mono',monospace; font-weight:700; color:var(--accent,var(--crimson)); font-size: var(--body-size); width:1.6em; text-align:center; flex:none; }
+
+/* Pictograph */
+.picto { display:grid; grid-template-columns: repeat(15, 1fr); gap: clamp(3px,.6vw,7px); max-width: 520px; }
+.picto span { aspect-ratio: 1/1.6; border-radius:3px; background: var(--teal); opacity:.32; }
+.picto span.hot { background: var(--crimson); opacity:1; box-shadow: 0 0 12px rgba(255,77,109,.7); }
+
+/* ===========================================
+   NAV
+   =========================================== */
+.nav-dots { position: fixed; right: clamp(.6rem,1.5vw,1.2rem); top:50%; transform: translateY(-50%); z-index: 50; display:flex; flex-direction:column; gap:.6rem; }
+.nav-dots button { width:9px; height:9px; border-radius:50%; border:1.5px solid var(--faint); background:transparent; cursor:pointer; padding:0; transition: all .3s; }
+.nav-dots button.active { background: var(--crimson); border-color: var(--crimson); transform: scale(1.35); box-shadow:0 0 10px rgba(255,77,109,.6); }
+.progress { position: fixed; top:0; left:0; height:3px; background: linear-gradient(90deg,var(--crimson),var(--amber),var(--teal)); z-index:60; transition: width .25s; }
+.keyboard-hint { position: fixed; bottom: clamp(.5rem,1.5vh,1rem); left: 50%; transform: translateX(-50%); font-family:'IBM Plex Mono',monospace; font-size:.66rem; color: var(--faint); z-index:40; letter-spacing:.1em; opacity:.6; }
+
+/* References slide */
+.reflist { display:grid; grid-template-columns: 1fr 1fr; gap: clamp(.4rem,1.2vh,.75rem) clamp(1rem,3vw,2.4rem); max-height:72vh; overflow:hidden; }
+@media (max-width: 820px){ .reflist { grid-template-columns:1fr; } }
+.refitem { font-size: clamp(.62rem,1.05vw,.82rem); line-height:1.4; color: var(--muted); padding-left: 1.9em; position:relative; }
+.refitem .n { position:absolute; left:0; top:0; font-family:'IBM Plex Mono',monospace; color: var(--crimson); font-weight:600; }
+.refitem b { color: var(--paper); font-weight:600; }
+.refitem a { color: var(--teal); text-decoration:none; border-bottom:1px dotted var(--teal-d); word-break: break-all; }
+.refitem a:hover { color:#fff; }
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<nav class="nav-dots" id="navDots"></nav>
+<div class="keyboard-hint">← → · Space · scroll</div>
+
+<!-- ============ SLIDE 1 — TITLE ============ -->
+<section class="slide title-slide active" data-accent="crimson">
+  <div class="pulse-line">
+    <svg viewBox="0 0 2400 180" preserveAspectRatio="none">
+      <path class="ecg-path" d="M0,90 L520,90 L560,90 L580,40 L600,140 L620,90 L900,90 L940,90 L960,20 L985,90 L1000,90 L1300,90 L1340,90 L1360,45 L1380,135 L1400,90 L1700,90 L1740,90 L1760,25 L1785,90 L1800,90 L2100,90 L2140,90 L2160,45 L2180,135 L2200,90 L2400,90"/>
+    </svg>
+  </div>
+  <div class="snum"><b>01</b> / 13</div>
+  <div class="slide-content">
+    <div class="title-wrap">
+      <div class="event-tag">Lunch Symposium · Peripheral Live Demonstration 2026 · Room B</div>
+      <h1>When the patient <span class="em">cannot walk</span></h1>
+      <div class="sub">Minimizing muscle pain in cardiovascular risk control</div>
+      <div class="byline">
+        <span><b>謝慕揚 醫師</b>　Speaker</span>
+        <span class="dot"></span>
+        <span>新竹臺大分院 心臟血管內科</span>
+        <span class="dot"></span>
+        <span>2026 / 11 / 08 · 新光吳火獅紀念醫院</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SLIDE 2 — THE DOUBLE BIND ============ -->
+<section class="slide" data-accent="crimson">
+  <div class="snum"><b>02</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">The clinical dilemma</div>
+    <h2 class="headline reveal d1">兩難：走不動的腿，<span class="em">同時需要積極降脂、又抱怨肌肉痛</span></h2>
+    <div class="two-col" style="margin-top:.6em">
+      <div class="panel reveal d2" style="border-left:3px solid var(--crimson)">
+        <div class="chip crimson">需求</div>
+        <h3 style="font-size:var(--h3-size);margin:.4em 0 .3em">周邊動脈疾病 = 極高心血管風險</h3>
+        <p class="lead">PAD 病人的 MACE 與截肢風險名列前茅，指引要求 LDL-C &lt; 55 mg/dL 且較基準下降 ≥ 50%。降得越低、心血管與<b style="color:var(--paper)">肢體</b>結局越好。</p>
+      </div>
+      <div class="panel reveal d3" style="border-left:3px solid var(--amber)">
+        <div class="chip amber">阻礙</div>
+        <h3 style="font-size:var(--h3-size);margin:.4em 0 .3em">肌肉痛讓 statin 難以維持</h3>
+        <p class="lead">「肌肉症狀」是停用 statin 的頭號原因——但其中真正由藥物造成的比例極低，且在 PAD 病人身上還會與<b style="color:var(--amber)">跛行的腿痛</b>混淆。</p>
+      </div>
+    </div>
+    <p class="lead reveal d4" style="margin-top:.4em;text-align:center;max-width:none">本場核心命題：<b style="color:var(--paper)">如何在「不加重肌肉痛」的前提下，把 PAD 病人的 LDL 壓到目標，同時保護心臟與肢體。</b></p>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Garagoli F, et al. <i>Eur Heart J</i> 2026. <a href="https://doi.org/10.1093/eurheartj/ehag516" target="_blank">doi:10.1093/eurheartj/ehag516</a></span>
+    <span>Bolden DM, et al. <i>J Clin Lipidol</i> 2026. <a href="https://doi.org/10.1016/j.jacl.2026.04.016" target="_blank">doi:10.1016/j.jacl.2026.04.016</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 3 — PAD RISK & UNMET NEED ============ -->
+<section class="slide" data-accent="crimson">
+  <div class="snum"><b>03</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">Why it matters</div>
+    <h2 class="headline reveal d1">PAD 是<span class="em">極高風險</span>族群，但降脂達標率長期不足</h2>
+    <div class="stat-row reveal d2" style="margin:.5em 0">
+      <div class="stat"><div class="big">&lt;55<span class="unit"> mg/dL</span></div><div class="lbl">指引 LDL-C 目標（且較基準 ≥50% 降幅）</div></div>
+      <div class="stat"><div class="big">↑ MACE<span class="unit"> ＋肢體</span></div><div class="lbl">依指引風險控管可同時改善心血管與肢體結局</div></div>
+      <div class="stat"><div class="big" style="color:var(--amber)">Gap</div><div class="lbl">真實世界 PAD 病人降脂治療常不足、達標率偏低</div></div>
+    </div>
+    <ul class="ticks reveal d3" style="margin-top:.3em">
+      <li><b>風險放大器：</b>PAD 病人一旦發生事件，絕對風險高於單純冠心病，代表<span class="s">同樣的相對降幅 → 更大的絕對獲益</span>。</li>
+      <li><b>治療落差：</b>近期回顧直指 PAD 的 lipid management 是「未被滿足的需求」——處方強度不足、非 statin 藥物使用率低。</li>
+      <li><b>可改變：</b>落實指引式風險控管方案，已被證實同時降低心血管與肢體不良事件。</li>
+    </ul>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Bolden DM, et al. <i>J Clin Lipidol</i> 2026. <a href="https://doi.org/10.1016/j.jacl.2026.04.016" target="_blank">doi:10.1016/j.jacl.2026.04.016</a></span>
+    <span>Hussain MA, et al. <i>JAMA Surg</i> 2016;151(8). <a href="https://doi.org/10.1001/jamasurg.2016.0415" target="_blank">doi:10.1001/jamasurg.2016.0415</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 4 — THE BARRIER: TWO KINDS OF MUSCLE PAIN ============ -->
+<section class="slide" data-accent="amber">
+  <div class="snum"><b>04</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">The barrier</div>
+    <h2 class="headline reveal d1">「肌肉痛」其實有<span class="em">兩張面孔</span></h2>
+    <div class="grid reveal d2" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));margin-top:.4em">
+      <div class="panel"><div class="chip crimson">① 真性 SAMS</div><p class="lead" style="margin-top:.5em">真正由 statin 引起的肌肉症狀——存在，但<b style="color:var(--paper)">遠比病人歸因的少</b>；多為輕度、第一年出現。</p></div>
+      <div class="panel"><div class="chip amber">② Nocebo</div><p class="lead" style="margin-top:.5em">「預期會有副作用」而產生的症狀——占了絕大多數，吃安慰劑一樣痛。</p></div>
+      <div class="panel"><div class="chip teal">③ 跛行（PAD 特有）</div><p class="lead" style="margin-top:.5em">缺血性運動誘發腿痛，與 SAMS 在同一雙腿上重疊，<b style="color:var(--teal)">最容易被誤判為藥物副作用</b>。</p></div>
+    </div>
+    <p class="lead reveal d3" style="text-align:center;max-width:none;margin-top:.3em">先分清楚是哪一種，才不會把「能救命的降脂治療」誤停在 nocebo 或跛行上。</p>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Wood FA, et al. (SAMSON) <i>N Engl J Med</i> 2020;383:2182. <a href="https://doi.org/10.1056/NEJMc2031173" target="_blank">doi:10.1056/NEJMc2031173</a></span>
+    <span>CTT Collaboration. <i>Lancet</i> 2022;400:832. <a href="https://doi.org/10.1016/S0140-6736(22)01545-8" target="_blank">doi:10.1016/S0140-6736(22)01545-8</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 5 — SAMSON NOCEBO ============ -->
+<section class="slide" data-accent="amber">
+  <div class="snum"><b>05</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">Evidence · the nocebo effect</div>
+    <h2 class="headline reveal d1">SAMSON：肌肉症狀的 <span class="em">90% 來自「吃藥這件事」</span>，而非藥</h2>
+    <div class="two-col" style="margin-top:.3em">
+      <div class="chart reveal d2" id="samsonChart"></div>
+      <div class="reveal d3">
+        <div class="stat" style="margin-bottom:.7em"><div class="big" style="color:var(--amber)">0.90</div><div class="lbl">Nocebo ratio — statin 期間的症狀負擔，有 <b style="color:var(--paper)">90%</b> 在安慰劑期一樣出現</div></div>
+        <ul class="ticks">
+          <li>N-of-1 設計：每位病人輪流服用 statin／安慰劑／不服藥，逐日記錄症狀強度（0–100）。</li>
+          <li>不服藥 <b>8.0</b>　安慰劑 <b>15.4</b>　statin <b>16.3</b>：<span class="s">statin 與安慰劑幾乎無差異。</span></li>
+          <li>臨床啟示：多數「statin 肌肉痛」可透過<b>再挑戰、去標籤化</b>而非直接放棄降脂。</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cap reveal d4">重繪自公布數據 · Data from Wood FA, et al. <i>N Engl J Med</i> 2020;383:2182–2184.</div>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Wood FA, Howard JP, Francis DP, et al. N-of-1 Trial to Assess Statin Side Effects (SAMSON). <i>N Engl J Med</i> 2020;383:2182–2184. <a href="https://doi.org/10.1056/NEJMc2031173" target="_blank">doi:10.1056/NEJMc2031173</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 6 — CTT META-ANALYSIS ============ -->
+<section class="slide" data-accent="amber">
+  <div class="snum"><b>06</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">Evidence · the definitive meta-analysis</div>
+    <h2 class="headline reveal d1">CTT 統合分析：主訴肌肉痛者，僅約 <span class="em">1／15</span> 真的來自 statin</h2>
+    <div class="two-col" style="margin-top:.3em">
+      <div class="reveal d2">
+        <div class="picto" id="ctPicto" aria-label="15 人中 1 人"></div>
+        <div class="cap" style="margin-top:.8em"><b style="color:var(--crimson)">●</b> 真正歸因於 statin　<b style="color:var(--teal)">●</b> 與藥物無關（nocebo／背景症狀）</div>
+      </div>
+      <div class="reveal d3">
+        <div class="stat-row" style="flex-direction:column;gap:.7em">
+          <div class="stat"><div class="big">123,940</div><div class="lbl">19 項雙盲安慰劑對照試驗個別受試者資料</div></div>
+          <div class="stat"><div class="big">RR 1.03</div><div class="lbl">肌肉痛/無力 statin vs 安慰劑（95% CI 1.01–1.06）</div></div>
+        </div>
+        <ul class="ticks" style="margin-top:.7em">
+          <li><b>第 1 年：</b>相對風險 +7%，絕對超額僅 <b>11／1000 人年</b>，且多為輕度。</li>
+          <li><b>第 1 年之後：</b>首次肌肉症狀<b>無顯著超額</b>（RR 0.99）。</li>
+          <li>CK 僅上升約 0.02×ULN — 臨床上可忽略。獲益遠大於此微小風險。</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cap reveal d4">重繪自公布數據 · Data from Cholesterol Treatment Trialists' Collaboration. <i>Lancet</i> 2022;400:832–845.</div>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Cholesterol Treatment Trialists' Collaboration. Effect of statin therapy on muscle symptoms: IPD meta-analysis. <i>Lancet</i> 2022;400:832–845. <a href="https://doi.org/10.1016/S0140-6736(22)01545-8" target="_blank">doi:10.1016/S0140-6736(22)01545-8</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 7 — CLAUDICATION vs SAMS ============ -->
+<section class="slide" data-accent="teal">
+  <div class="snum"><b>07</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">Bedside pearl · unique to the PAD patient</div>
+    <h2 class="headline reveal d1">床邊鑑別：<span class="em">跛行腿痛</span> vs <span style="color:var(--crimson);font-style:italic">statin 肌肉痛</span></h2>
+    <table class="ctable reveal d2" style="margin-top:.3em">
+      <thead><tr><th class="feat">特徵</th><th class="clau">間歇性跛行（缺血）</th><th class="sams">SAMS（肌肉症狀）</th></tr></thead>
+      <tbody>
+        <tr><td class="feat">誘發</td><td class="clau">固定距離的<b>運動</b>誘發</td><td class="sams">與活動無明確關係，休息時也可有</td></tr>
+        <tr><td class="feat">緩解</td><td class="clau"><b>站著休息數分鐘</b>即緩解</td><td class="sams">休息不一定緩解；停藥後才漸退</td></tr>
+        <tr><td class="feat">分布</td><td class="clau">病灶下游肌群（小腿/臀），常<b>單側或不對稱</b></td><td class="sams">典型<b>雙側、對稱</b>、近端大肌群</td></tr>
+        <tr><td class="feat">性質</td><td class="clau">緊繃、痙攣、無力感</td><td class="sams">痠痛、僵硬、壓痛</td></tr>
+        <tr><td class="feat">佐證</td><td class="clau">ABI 下降、脈搏減弱、傷口</td><td class="sams">CK、時序與用藥相關、去激發/再激發</td></tr>
+      </tbody>
+    </table>
+    <p class="lead reveal d3" style="text-align:center;max-width:none;margin-top:.2em">在 PAD 病人身上，先問「是走路才痛，還是本來就痛？」— 這一句往往就分開了缺血與藥物。</p>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>臨床鑑別綜整自：Garagoli F, et al. <i>Eur Heart J</i> 2026 <a href="https://doi.org/10.1093/eurheartj/ehag516" target="_blank">doi:10.1093/eurheartj/ehag516</a>；CTT <i>Lancet</i> 2022 <a href="https://doi.org/10.1016/S0140-6736(22)01545-8" target="_blank">doi:…01545-8</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 8 — THE TOOLBOX ============ -->
+<section class="slide" data-accent="teal">
+  <div class="snum"><b>08</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">The solution · non-statin toolbox</div>
+    <h2 class="headline reveal d1">不加重肌肉負擔的<span class="em">降脂工具箱</span></h2>
+    <div class="flow reveal d2" style="margin-top:.4em">
+      <div class="frow"><div class="fnum">1</div><div class="fstep" style="border-left-color:var(--teal)"><div class="t">最大可耐受 statin ＋ 去除 nocebo</div><div class="d">再挑戰、換藥、隔日或低劑量；先排除 nocebo 與跛行</div></div></div>
+      <div class="frow"><div class="fnum">2</div><div class="fstep" style="border-left-color:var(--teal)"><div class="t">Ezetimibe</div><div class="d">口服、無肌肉負擔，合併治療進一步降 LDL</div></div></div>
+      <div class="frow"><div class="fnum">3</div><div class="fstep" style="border-left-color:var(--amber)"><div class="t">Bempedoic acid（前驅藥，肌肉不活化）</div><div class="d">唯一在「statin 不耐」族群做出 CV outcome 的口服藥</div></div></div>
+      <div class="frow"><div class="fnum">4</div><div class="fstep" style="border-left-color:var(--crimson)"><div class="t">PCSK9 抑制劑（注射）</div><div class="d">強效降 LDL，且在 PAD 同時降低<b>肢體</b>事件</div></div></div>
+    </div>
+    <p class="lead reveal d3" style="text-align:center;max-width:none;margin-top:.2em">重點不是「有沒有 statin」，而是<b style="color:var(--paper)">有沒有把 LDL 壓到目標</b>——多種路徑都能達標。</p>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Nissen SE, et al. (CLEAR Outcomes) <i>N Engl J Med</i> 2023;388:1353. <a href="https://doi.org/10.1056/NEJMoa2215024" target="_blank">doi:10.1056/NEJMoa2215024</a></span>
+    <span>Bonaca MP, et al. (FOURIER-PAD) <i>Circulation</i> 2018;137:338. <a href="https://doi.org/10.1161/CIRCULATIONAHA.117.032235" target="_blank">doi:…032235</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 9 — CLEAR OUTCOMES ============ -->
+<section class="slide" data-accent="teal">
+  <div class="snum"><b>09</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">Bempedoic acid · CLEAR Outcomes</div>
+    <h2 class="headline reveal d1">在 statin 不耐者，Bempedoic acid <span class="em">降 LDL 21%、降 MACE 13%</span></h2>
+    <div class="two-col" style="margin-top:.2em">
+      <div class="chart reveal d2" id="clearChart"></div>
+      <div class="reveal d3">
+        <div class="stat-row" style="gap:.6em;margin-bottom:.6em">
+          <div class="stat"><div class="big">13,970</div><div class="lbl">statin 不耐病人，隨機雙盲</div></div>
+          <div class="stat"><div class="big">−21<span class="unit">%</span></div><div class="lbl">LDL-C 相對降幅 vs 安慰劑（6 個月，−29 mg/dL）</div></div>
+        </div>
+        <ul class="ticks">
+          <li>主要 MACE <b>HR 0.87</b> <span class="s">(0.79–0.96), P=0.004</span></li>
+          <li>心肌梗塞 <b>HR 0.77</b>　冠脈再灌流 <b>HR 0.81</b></li>
+          <li>中位追蹤 40.6 個月；注意痛風、膽結石略增。</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cap reveal d4">重繪自公布數據 · Data from Nissen SE, et al. <i>N Engl J Med</i> 2023;388:1353–1364. 方框=HR、橫線=95% CI。</div>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Nissen SE, Lincoff AM, Brennan D, et al. Bempedoic Acid and CV Outcomes in Statin-Intolerant Patients (CLEAR Outcomes). <i>N Engl J Med</i> 2023;388:1353–1364. <a href="https://doi.org/10.1056/NEJMoa2215024" target="_blank">doi:10.1056/NEJMoa2215024</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 10 — BEMPEDOIC SAFETY ============ -->
+<section class="slide" data-accent="teal">
+  <div class="snum"><b>10</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">Bempedoic acid · muscle safety</div>
+    <h2 class="headline reveal d1">為何「minimizing muscle pain」？<span class="em">肌肉不表達活化酵素</span></h2>
+    <div class="two-col" style="margin-top:.2em">
+      <div class="reveal d2">
+        <p class="lead" style="margin-bottom:.6em">Bempedoic acid 是前驅藥，需經<b style="color:var(--paper)">肝臟 ACSVL1</b> 活化；<b style="color:var(--teal)">骨骼肌不表達此酵素</b>，因此肌肉暴露極低 — 機轉上就避開了肌肉副作用。</p>
+        <div class="chart" id="baSafetyChart"></div>
+      </div>
+      <div class="reveal d3">
+        <ul class="ticks">
+          <li>因肌痛而停藥：<b>1.5</b> vs 安慰劑 2.0（/100 人年）— <span class="s">bempedoic acid 反而較低。</span></li>
+          <li>新發糖尿病/高血糖：<b>4.7</b> vs 6.4 — <span class="s">同樣較低（statin 常見的血糖疑慮不明顯）。</span></li>
+          <li>需留意：<b style="color:var(--amber)">痛風 1.6 vs 0.5</b>、尿酸/肌酸酐輕度上升。</li>
+          <li>四項第三期試驗、3,621 人 pooled 安全性分析。</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cap reveal d4">重繪自公布數據 · Data from Bays HE, et al. <i>J Clin Lipidol</i> 2020;14:649–659（事件率／100 人年）。</div>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Bays HE, Banach M, Catapano AL, et al. Bempedoic acid safety analysis: pooled data from four phase 3 trials. <i>J Clin Lipidol</i> 2020;14:649–659. <a href="https://doi.org/10.1016/j.jacl.2020.08.009" target="_blank">doi:10.1016/j.jacl.2020.08.009</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 11 — FOURIER PAD (王牌) ============ -->
+<section class="slide" data-accent="crimson">
+  <div class="snum"><b>11</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">PCSK9 inhibition · the limb story</div>
+    <h2 class="headline reveal d1">FOURIER-PAD：Evolocumab 同時降 <span class="em">心血管事件</span>與<span style="color:var(--teal);font-style:italic"> 肢體事件</span></h2>
+    <div class="two-col" style="margin-top:.2em">
+      <div class="chart reveal d2" id="fourierChart"></div>
+      <div class="reveal d3">
+        <div class="stat" style="margin-bottom:.6em"><div class="big" style="color:var(--teal)">MALE ↓42%</div><div class="lbl">主要不良肢體事件 <b style="color:var(--paper)">HR 0.58</b>（0.38–0.88, P=0.009）— 急性肢體缺血／大截肢／緊急血管再通</div></div>
+        <ul class="ticks">
+          <li>3,642 位 PAD（占 13.2%）；主要終點 PAD 亞群 <b>HR 0.79</b>。</li>
+          <li>因基準風險高，PAD 的<b>絕對</b>降幅更大：<b>3.5%</b> vs 非 PAD 1.6%。</li>
+          <li>LDL 越低、肢體事件越少 — 連續關係一路延伸到 <b>&lt;10 mg/dL</b>，無下限。</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cap reveal d4">重繪自公布數據 · Data from Bonaca MP, et al. <i>Circulation</i> 2018;137:338–350（FOURIER PAD 亞群）。</div>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">REF</span>
+    <span>Bonaca MP, Nault P, Giugliano RP, et al. LDL-C Lowering With Evolocumab and Outcomes in PAD (FOURIER). <i>Circulation</i> 2018;137:338–350. <a href="https://doi.org/10.1161/CIRCULATIONAHA.117.032235" target="_blank">doi:10.1161/CIRCULATIONAHA.117.032235</a></span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 12 — PUTTING IT TOGETHER ============ -->
+<section class="slide" data-accent="teal">
+  <div class="snum"><b>12</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">Take-home · a practical algorithm</div>
+    <h2 class="headline reveal d1">走不動的病人，這樣<span class="em">把 LDL 壓到目標</span></h2>
+    <div class="flow reveal d2" style="margin-top:.3em">
+      <div class="frow"><div class="fnum">A</div><div class="fstep"><div class="t">定位風險：PAD = 極高風險 → LDL &lt; 55 且降幅 ≥ 50%</div></div></div>
+      <div class="frow"><div class="fnum">B</div><div class="fstep" style="border-left-color:var(--amber)"><div class="t">鑑別腿痛：跛行？nocebo？真性 SAMS？</div><div class="d">運動誘發＋休息緩解＋不對稱 → 想缺血，不是急著停 statin</div></div></div>
+      <div class="frow"><div class="fnum">C</div><div class="fstep"><div class="t">最大可耐受 statin ＋ ezetimibe</div></div></div>
+      <div class="frow"><div class="fnum">D</div><div class="fstep" style="border-left-color:var(--crimson)"><div class="t">未達標 → Bempedoic acid／PCSK9 抑制劑</div><div class="d">兼顧「不加重肌肉痛」與「心血管＋肢體」雙重保護</div></div></div>
+    </div>
+    <div class="stat-row reveal d3" style="margin-top:.5em">
+      <div class="stat"><div class="big" style="color:var(--amber)">&gt;90%</div><div class="lbl">主訴的 statin 肌肉痛其實非藥物所致</div></div>
+      <div class="stat"><div class="big">HR 0.87</div><div class="lbl">Bempedoic acid 降 MACE（statin 不耐者）</div></div>
+      <div class="stat"><div class="big" style="color:var(--teal)">HR 0.58</div><div class="lbl">PCSK9i 降主要不良肢體事件</div></div>
+    </div>
+  </div>
+  <div class="refbar">
+    <span class="rlbl">KEY</span>
+    <span>CTT <i>Lancet</i> 2022 · CLEAR Outcomes <i>NEJM</i> 2023 · FOURIER-PAD <i>Circulation</i> 2018 — 完整引用見次頁</span>
+  </div>
+</section>
+
+<!-- ============ SLIDE 13 — REFERENCES ============ -->
+<section class="slide" data-accent="crimson">
+  <div class="snum"><b>13</b> / 13</div>
+  <div class="slide-content">
+    <div class="kicker reveal">References · DOI hyperlinked</div>
+    <h2 class="headline reveal d1" style="margin-bottom:.3em">參考文獻</h2>
+    <div class="reflist reveal d2">
+      <div class="refitem"><span class="n">1</span><b>Wood FA, Howard JP, Finegold JA, et al.</b> N-of-1 Trial of a Statin, Placebo, or No Treatment to Assess Side Effects (SAMSON). <i>N Engl J Med</i> 2020;383:2182–2184. <a href="https://doi.org/10.1056/NEJMc2031173" target="_blank">https://doi.org/10.1056/NEJMc2031173</a></div>
+      <div class="refitem"><span class="n">2</span><b>Cholesterol Treatment Trialists' Collaboration.</b> Effect of statin therapy on muscle symptoms: an IPD meta-analysis of randomised, double-blind trials. <i>Lancet</i> 2022;400:832–845. <a href="https://doi.org/10.1016/S0140-6736(22)01545-8" target="_blank">https://doi.org/10.1016/S0140-6736(22)01545-8</a></div>
+      <div class="refitem"><span class="n">3</span><b>Nissen SE, Lincoff AM, Brennan D, et al.</b> Bempedoic Acid and Cardiovascular Outcomes in Statin-Intolerant Patients (CLEAR Outcomes). <i>N Engl J Med</i> 2023;388:1353–1364. <a href="https://doi.org/10.1056/NEJMoa2215024" target="_blank">https://doi.org/10.1056/NEJMoa2215024</a></div>
+      <div class="refitem"><span class="n">4</span><b>Bays HE, Banach M, Catapano AL, et al.</b> Bempedoic acid safety analysis: pooled data from four phase 3 clinical trials. <i>J Clin Lipidol</i> 2020;14:649–659. <a href="https://doi.org/10.1016/j.jacl.2020.08.009" target="_blank">https://doi.org/10.1016/j.jacl.2020.08.009</a></div>
+      <div class="refitem"><span class="n">5</span><b>Bonaca MP, Nault P, Giugliano RP, et al.</b> LDL-C Lowering With Evolocumab and Outcomes in Peripheral Artery Disease (FOURIER). <i>Circulation</i> 2018;137:338–350. <a href="https://doi.org/10.1161/CIRCULATIONAHA.117.032235" target="_blank">https://doi.org/10.1161/CIRCULATIONAHA.117.032235</a></div>
+      <div class="refitem"><span class="n">6</span><b>Garagoli F, Slipczuk L, Shapiro MD, et al.</b> Peripheral artery disease: advances in medical therapy. <i>Eur Heart J</i> 2026. <a href="https://doi.org/10.1093/eurheartj/ehag516" target="_blank">https://doi.org/10.1093/eurheartj/ehag516</a></div>
+      <div class="refitem"><span class="n">7</span><b>Bolden DM, Cheeley MK, Tedder BC.</b> Unmet needs for lipid management in patients with peripheral arterial disease: a narrative review. <i>J Clin Lipidol</i> 2026. <a href="https://doi.org/10.1016/j.jacl.2026.04.016" target="_blank">https://doi.org/10.1016/j.jacl.2026.04.016</a></div>
+      <div class="refitem"><span class="n">8</span><b>Hussain MA, Al-Omran M, Mamdani M, et al.</b> Efficacy of a guideline-recommended risk-reduction program to improve CV and limb outcomes in PAD. <i>JAMA Surg</i> 2016;151(8). <a href="https://doi.org/10.1001/jamasurg.2016.0415" target="_blank">https://doi.org/10.1001/jamasurg.2016.0415</a></div>
+      <div class="refitem"><span class="n">9</span><b>Nissen SE, Menon V, Nicholls SJ, et al.</b> Bempedoic Acid for Primary Prevention in Statin-Intolerant Patients. <i>JAMA</i> 2023;330:131–140. <a href="https://doi.org/10.1001/jama.2023.9696" target="_blank">https://doi.org/10.1001/jama.2023.9696</a></div>
+      <div class="refitem"><span class="n">10</span><b>Lincoff AM, Ray KK, Sasiela WJ, et al.</b> Comparative Cardiovascular Benefits of Bempedoic Acid and Statin Drugs. <i>J Am Coll Cardiol</i> 2024. <a href="https://doi.org/10.1016/j.jacc.2024.04.048" target="_blank">https://doi.org/10.1016/j.jacc.2024.04.048</a></div>
+      <div class="refitem"><span class="n">11</span><b>Mohyeldin M, Abuelgasim AS, Mustafa AM.</b> PCSK9 inhibitors in peripheral artery disease: efficacy, safety, and outcomes. <i>World J Cardiol</i> 2024;16(7):397. <a href="https://doi.org/10.4330/wjc.v16.i7.397" target="_blank">https://doi.org/10.4330/wjc.v16.i7.397</a></div>
+      <div class="refitem"><span class="n">12</span><span style="color:var(--faint)">所有圖表均為依上述原始文獻公布數據之原創重繪（data-driven），非期刊原圖擷取；數字以各原文為準。</span></div>
+    </div>
+  </div>
+</section>
+
+<script>
+/* ===========================================
+   NAVIGATION — dots, keyboard, progress
+   =========================================== */
+const slides = Array.from(document.querySelectorAll('.slide'));
+const navDots = document.getElementById('navDots');
+const progress = document.getElementById('progress');
+let current = -1;
+
+slides.forEach((s, i) => {
+  const b = document.createElement('button');
+  b.setAttribute('aria-label', 'Slide ' + (i+1));
+  b.addEventListener('click', () => slides[i].scrollIntoView({behavior:'smooth'}));
+  navDots.appendChild(b);
+});
+const dots = Array.from(navDots.children);
+
+/* Activation is driven by scroll position (viewport mid-line), NOT by
+   IntersectionObserver timing — this stays reliable even when the deck is
+   jumped to a slide instantly (nav-dot click, deep-link, programmatic scroll). */
+function activate(i){
+  if (i < 0 || i >= slides.length) return;
+  if (i !== current){
+    current = i;
+    slides.forEach((s,si) => s.classList.toggle('active', si===i));
+    dots.forEach((d,di) => d.classList.toggle('active', di===i));
+    progress.style.width = ((i+1)/slides.length*100) + '%';
+  }
+  renderCharts(slides[i]); // idempotent (guarded by `drawn` set)
+}
+function currentByViewport(){
+  const mid = window.innerHeight / 2;
+  for (let i=0;i<slides.length;i++){
+    const r = slides[i].getBoundingClientRect();
+    if (r.top <= mid && r.bottom > mid) return i;
+  }
+  return current < 0 ? 0 : current;
+}
+/* Body-as-scroller quirk mode means 'scroll' events don't always reach window.
+   A rAF ticker that only reacts when the scroll offset changes is bulletproof
+   and idle-cheap (no work when the deck is still). */
+function scrollTop(){ return document.body.scrollTop || document.documentElement.scrollTop || window.scrollY || 0; }
+let lastTop = -1;
+function tick(){
+  const t = scrollTop();
+  if (t !== lastTop){ lastTop = t; activate(currentByViewport()); }
+  requestAnimationFrame(tick);
+}
+requestAnimationFrame(tick);
+window.addEventListener('resize', ()=>activate(currentByViewport()));
+/* Backup path: scroll events still fire when rAF is throttled (e.g. background tab). */
+document.addEventListener('scroll', ()=>activate(currentByViewport()), true);
+window.addEventListener('scroll', ()=>activate(currentByViewport()), true);
+
+document.addEventListener('keydown', (ev) => {
+  if (ev.key === 'ArrowDown' || ev.key === 'ArrowRight' || ev.key === ' ') {
+    ev.preventDefault();
+    if (current < slides.length-1) slides[current+1].scrollIntoView({behavior:'smooth'});
+  } else if (ev.key === 'ArrowUp' || ev.key === 'ArrowLeft') {
+    ev.preventDefault();
+    if (current > 0) slides[current-1].scrollIntoView({behavior:'smooth'});
+  }
+});
+
+/* ===========================================
+   CHART RENDERERS (original, data-driven SVG)
+   =========================================== */
+const NS = 'http://www.w3.org/2000/svg';
+const drawn = new Set();
+function el(tag, attrs){ const n=document.createElementNS(NS,tag); for(const k in attrs) n.setAttribute(k,attrs[k]); return n; }
+
+/* ---- Forest plot ---- */
+function forest(mountId, cfg){
+  const mount = document.getElementById(mountId);
+  if(!mount) return;
+  const W=900, rowH=cfg.rowH||58, top=54, bottom=44;
+  const H = top + cfg.rows.length*rowH + bottom;
+  const x0=cfg.plotLeft||300, x1=cfg.plotRight||560;
+  const [dMin,dMax]=cfg.domain;
+  const X = v => x0 + (v-dMin)/(dMax-dMin)*(x1-x0);
+  const svg = el('svg',{viewBox:`0 0 ${W} ${H}`, role:'img'});
+  // axis ticks
+  cfg.ticks.forEach(t=>{
+    const gx=X(t);
+    svg.appendChild(el('line',{x1:gx,y1:top-8,x2:gx,y2:top+cfg.rows.length*rowH-10,stroke:'rgba(180,200,220,.10)','stroke-width':1}));
+    const tl=el('text',{x:gx,y:top+cfg.rows.length*rowH+18,fill:'#64758a','font-size':16,'text-anchor':'middle','font-family':'IBM Plex Mono, monospace'});
+    tl.textContent=t.toFixed(1); svg.appendChild(tl);
+  });
+  // reference line at 1.0
+  const rx=X(1.0);
+  svg.appendChild(el('line',{x1:rx,y1:top-14,x2:rx,y2:top+cfg.rows.length*rowH-6,stroke:'#93a6ba','stroke-width':1.4,'stroke-dasharray':'5 5'}));
+  const rt=el('text',{x:rx,y:top-20,fill:'#93a6ba','font-size':13,'text-anchor':'middle','font-family':'IBM Plex Mono, monospace'});
+  rt.textContent='HR 1.0'; svg.appendChild(rt);
+  // rows
+  cfg.rows.forEach((r,i)=>{
+    const cy = top + i*rowH + rowH/2 - 6;
+    const c=r.color||'#33d6c0';
+    // label
+    const lb=el('text',{x:16,y:cy-4,fill:'#eaf1f8','font-size':18,'font-family':'Archivo, sans-serif','font-weight':600});
+    lb.textContent=r.label; svg.appendChild(lb);
+    if(r.sub){ const sb=el('text',{x:16,y:cy+16,fill:'#64758a','font-size':13,'font-family':'IBM Plex Mono, monospace'}); sb.textContent=r.sub; svg.appendChild(sb); }
+    // CI line (animated grow from center)
+    const cx=X(r.hr), lo=X(r.lo), hi=X(r.hi);
+    const ci=el('line',{x1:cx,y1:cy,x2:cx,y2:cy,stroke:c,'stroke-width':3,'stroke-linecap':'round',opacity:.85});
+    svg.appendChild(ci);
+    // whisker caps
+    const capT=el('line',{x1:lo,y1:cy-7,x2:lo,y2:cy+7,stroke:c,'stroke-width':2,opacity:0});
+    const capB=el('line',{x1:hi,y1:cy-7,x2:hi,y2:cy+7,stroke:c,'stroke-width':2,opacity:0});
+    svg.appendChild(capT); svg.appendChild(capB);
+    // marker box
+    const bs=13;
+    const box=el('rect',{x:cx-bs/2,y:cy-bs/2,width:bs,height:bs,fill:c,rx:2,transform:`rotate(45 ${cx} ${cy})`,opacity:0});
+    svg.appendChild(box);
+    // value label
+    const vt=el('text',{x:hi+14,y:cy+5,fill:c,'font-size':16,'font-family':'IBM Plex Mono, monospace','font-weight':600,opacity:0});
+    vt.textContent = r.hr.toFixed(2)+'  ('+r.lo.toFixed(2)+'–'+r.hi.toFixed(2)+')';
+    svg.appendChild(vt);
+    // animate
+    setTimeout(()=>{
+      ci.style.transition='all .7s cubic-bezier(.2,.7,.2,1)';
+      ci.setAttribute('x1',lo); ci.setAttribute('x2',hi);
+      [capT,capB,box,vt].forEach(n=>{ n.style.transition='opacity .5s ease .35s'; n.setAttribute('opacity',n===box||n===vt?1:.9); });
+    }, 220 + i*140);
+  });
+  mount.appendChild(svg);
+}
+
+/* ---- Grouped / simple bar chart ---- */
+function bars(mountId, cfg){
+  const mount=document.getElementById(mountId); if(!mount) return;
+  const W=720, H=cfg.H||360, padL=54, padR=24, padT=24, padB=64;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'});
+  const max=cfg.max, plotH=H-padT-padB, plotW=W-padL-padR;
+  const groups=cfg.groups, gw=plotW/groups.length;
+  // y grid
+  const steps=cfg.ySteps||4;
+  for(let s=0;s<=steps;s++){
+    const val=max*s/steps, gy=padT+plotH-(val/max)*plotH;
+    svg.appendChild(el('line',{x1:padL,y1:gy,x2:W-padR,y2:gy,stroke:'rgba(180,200,220,.10)','stroke-width':1}));
+    const yl=el('text',{x:padL-10,y:gy+5,fill:'#64758a','font-size':14,'text-anchor':'end','font-family':'IBM Plex Mono, monospace'});
+    yl.textContent=val.toFixed(cfg.dec!=null?cfg.dec:0); svg.appendChild(yl);
+  }
+  groups.forEach((g,gi)=>{
+    const gx=padL+gi*gw, n=g.vals.length, bw=Math.min(cfg.barW||64,(gw-24)/n);
+    const inner=(gw-bw*n-(n-1)*10)/2;
+    g.vals.forEach((v,vi)=>{
+      const bx=gx+inner+vi*(bw+10);
+      const bh=(v.v/max)*plotH, by=padT+plotH;
+      const rect=el('rect',{x:bx,y:by,width:bw,height:0,fill:v.color,rx:4,opacity:.92});
+      svg.appendChild(rect);
+      const vt=el('text',{x:bx+bw/2,y:by-8,fill:v.color,'font-size':16,'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-weight':600,opacity:0});
+      vt.textContent=(cfg.dec!=null?v.v.toFixed(cfg.dec):v.v); svg.appendChild(vt);
+      setTimeout(()=>{
+        rect.style.transition='all .8s cubic-bezier(.2,.7,.2,1)';
+        rect.setAttribute('y',by-bh); rect.setAttribute('height',bh);
+        vt.style.transition='opacity .5s ease .5s';
+        vt.setAttribute('y',by-bh-8); vt.setAttribute('opacity',1);
+      }, 200+gi*180+vi*90);
+    });
+    // group label
+    const gl=el('text',{x:gx+gw/2,y:H-padB+28,fill:'#93a6ba','font-size':15,'text-anchor':'middle','font-family':'Archivo, sans-serif','font-weight':600});
+    gl.textContent=g.label; svg.appendChild(gl);
+    if(g.sub){ const gs=el('text',{x:gx+gw/2,y:H-padB+48,fill:'#64758a','font-size':12,'text-anchor':'middle','font-family':'IBM Plex Mono, monospace'}); gs.textContent=g.sub; svg.appendChild(gs);}
+  });
+  // legend
+  if(cfg.legend){
+    let lx=padL;
+    cfg.legend.forEach(L=>{
+      svg.appendChild(el('rect',{x:lx,y:6,width:14,height:14,fill:L.color,rx:3}));
+      const t=el('text',{x:lx+20,y:18,fill:'#93a6ba','font-size':14,'font-family':'Archivo, sans-serif'}); t.textContent=L.label; svg.appendChild(t);
+      lx += 40 + L.label.length*10;
+    });
+  }
+  mount.appendChild(svg);
+}
+
+function renderCharts(slide){
+  const id=slide.querySelector('[id]')?.id;
+  // SAMSON
+  if(slide.querySelector('#samsonChart') && !drawn.has('samson')){ drawn.add('samson');
+    bars('samsonChart',{H:360,max:20,ySteps:4,dec:1,barW:96,
+      legend:null,
+      groups:[
+        {label:'不服藥', sub:'No tablet', vals:[{v:8.0,color:'#64758a'}]},
+        {label:'安慰劑', sub:'Placebo', vals:[{v:15.4,color:'#f4b860'}]},
+        {label:'Statin', sub:'Atorvastatin', vals:[{v:16.3,color:'#ff4d6d'}]}
+      ]});
+  }
+  // CTT pictograph
+  if(slide.querySelector('#ctPicto') && !drawn.has('ctt')){ drawn.add('ctt');
+    const p=document.getElementById('ctPicto');
+    for(let i=0;i<15;i++){ const s=document.createElement('span'); if(i===0) s.className='hot'; s.style.transitionDelay=(i*40)+'ms'; p.appendChild(s); }
+  }
+  // CLEAR forest
+  if(slide.querySelector('#clearChart') && !drawn.has('clear')){ drawn.add('clear');
+    forest('clearChart',{domain:[0.5,1.15],ticks:[0.6,0.8,1.0],plotLeft:360,rowH:60,rows:[
+      {label:'主要 MACE', sub:'4-component', hr:0.87,lo:0.79,hi:0.96,color:'#33d6c0'},
+      {label:'CV死亡/MI/中風', sub:'key secondary', hr:0.85,lo:0.76,hi:0.96,color:'#33d6c0'},
+      {label:'心肌梗塞', sub:'MI', hr:0.77,lo:0.66,hi:0.91,color:'#33d6c0'},
+      {label:'冠脈再灌流', sub:'coronary revasc.', hr:0.81,lo:0.72,hi:0.92,color:'#33d6c0'}
+    ]});
+  }
+  // Bempedoic safety
+  if(slide.querySelector('#baSafetyChart') && !drawn.has('basafe')){ drawn.add('basafe');
+    bars('baSafetyChart',{H:340,max:7,ySteps:7,dec:1,barW:34,
+      legend:[{label:'Bempedoic acid',color:'#33d6c0'},{label:'Placebo',color:'#64758a'}],
+      groups:[
+        {label:'肌痛致停藥', vals:[{v:1.5,color:'#33d6c0'},{v:2.0,color:'#64758a'}]},
+        {label:'新發糖尿病', vals:[{v:4.7,color:'#33d6c0'},{v:6.4,color:'#64758a'}]},
+        {label:'痛風', vals:[{v:1.6,color:'#f4b860'},{v:0.5,color:'#64758a'}]}
+      ]});
+  }
+  // FOURIER forest
+  if(slide.querySelector('#fourierChart') && !drawn.has('fourier')){ drawn.add('fourier');
+    forest('fourierChart',{domain:[0.3,1.05],ticks:[0.4,0.6,0.8,1.0],plotLeft:330,rowH:58,rows:[
+      {label:'主要終點 · PAD', sub:'primary, PAD', hr:0.79,lo:0.66,hi:0.94,color:'#ff4d6d'},
+      {label:'主要終點 · 無PAD', sub:'primary, no PAD', hr:0.86,lo:0.80,hi:0.93,color:'#93a6ba'},
+      {label:'CV死亡/MI/中風·PAD', sub:'key secondary', hr:0.73,lo:0.59,hi:0.91,color:'#ff4d6d'},
+      {label:'主要不良肢體事件', sub:'MALE, all', hr:0.58,lo:0.38,hi:0.88,color:'#33d6c0'}
+    ]});
+  }
+}
+// initial — activate whichever slide the viewport currently shows
+activate(currentByViewport());
+setTimeout(()=>activate(currentByViewport()), 60);
+</script>
+</body>
+</html>

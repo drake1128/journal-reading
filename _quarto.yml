@@ -233,6 +233,8 @@ website:
               href: "handouts/07-peripheral-vascular/TRACK Trial 洗腎病人低劑量 Rivaroxaban 教學講義.md"
             - text: "頸動脈支架術後追蹤監測 Post-CAS Surveillance (互動網頁)"
               href: handouts/07-peripheral-vascular/Post_Carotid_Stenting_Surveillance.html
+            - text: "走不動的腿 — PAD 降脂達標 × statin 肌肉痛鑑別 (SAMS/nocebo/跛行) (互動投影片, 12 張)"
+              href: handouts/07-peripheral-vascular/PLD2026_When_the_Patient_Cannot_Walk.html
             - handouts/07-peripheral-vascular/cfa-fracking-technique/index.qmd
             - handouts/07-peripheral-vascular/advanced-materials-carotid-artery-chip-3d-printing-2026/index.qmd
             - handouts/07-peripheral-vascular/book-carotid-stenting/index.qmd
