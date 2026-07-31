@@ -10,6 +10,10 @@ title: "缺血性心臟病 — Ischemic Heart Disease"
 - [NEJM CAD Genetics Review 2026 教學講義.md](NEJM CAD Genetics Review 2026 教學講義.md)
 - [iMODERN Trial — STEMI 多支血管病變的非罪犯病灶 PCI 時機 教學講義.md](iMODERN Trial — STEMI 多支血管病變的非罪犯病灶 PCI 時機 教學講義.md)
 
+## 互動投影片 Interactive Slides
+
+- [From A to A⁺ — STEMI Door-to-Balloon / Door-to-ECG 品質改善 (英文, 互動投影片, 39 張)](STEMI_D2B_Improvement.html)
+
 ## LaTeX Files
 
 - Eur Heart J 2026-01-21.tex
