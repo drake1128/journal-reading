@@ -1,0 +1,25 @@
+---
+title: "管理與領導 — Management & Leadership"
+subtitle: "醫務管理、制度診斷與團隊領導的教學模組"
+---
+
+本區收錄**管理學 (Management)** 取向的教學模組 —— 制度診斷、組織設計、團隊領導與醫務管理。與臨床講義不同，這裡整理的是**「怎麼把制度與團隊做好」**這門同樣有學問的功課。
+
+## 互動教學模組 Interactive Modules
+
+- [管理學 — 制度診斷模組 (Institutional Diagnosis)](Management_Institutional_Diagnosis_Module.html)
+  - 以「制度診斷」為主軸的互動教學：如何系統性檢視一個制度／流程的病灶與改善槓桿。含互動評分與自我檢核元件。
+
+## 問卷與量表 Surveys & Instruments
+
+開會與帶團隊時要讓組員**匿名填寫並自動彙整**的問卷，走 **Google Forms**（靜態網站本身不能收回覆）。做法是用一支可重用的產生器一鍵生出「表單＋連動試算表」：
+
+**工作流程**
+
+1. 用 [`google-form-generator.gs`](google-form-generator.gs) 這支 Apps Script 範本（改 `CONFIG` 與 `QUESTIONS` 即可換問卷）。
+2. 到 [script.google.com](https://script.google.com) 貼上 → 執行 `buildForm` → 取得「填寫網址／編輯網址／回覆試算表」三個連結。
+3. 把填寫網址做成 QR，開會現場投影讓組員手機填；回覆自動進 Google Sheet。
+
+> **首發範例：制度診斷 · 團隊感知快篩** — 把上方模組的「生命徵象＋五個核心動作」轉成 13 題匿名量表（資訊流動、心理安全、誘因／權限／資源、繞過行為、Exit 訊號、開放意見），可直接用或改題。
+
+*（待你執行產生器、把填寫網址給我後，這裡會放上「📲 點我填寫」按鈕與 QR。）*

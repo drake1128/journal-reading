@@ -1,0 +1,40 @@
+---
+title: "課堂教學精選 · Classroom Teaching"
+subtitle: "導管室與病房的跨模組互動教材 — 給技術員、專師、住院醫師的課堂用投影片"
+listing:
+  id: classroom-decks
+  type: grid
+  grid-columns: 3
+  sort-ui: [title]
+  filter-ui: true
+  categories: true
+  sort: false
+  contents:
+    - title: "PCI 冠脈介入概論 — 深度互動版"
+      description: "深度互動投影片。從『為什麼要做 PCI』出發，貫穿適應症、器械、步驟與併發症，適合導管室新進人員與病房照護團隊。"
+      path: pci/PCI_Introduction_Interactive.html
+      categories: [PCI 冠脈, 導管室教學]
+    - title: "認識支架失敗 Stent Failure — 導管室與病房教學模組"
+      description: "互動教學模組。支架內再狹窄與支架血栓的機轉、影像辨識與處置，導管室與病房共用。"
+      path: pci/Stent_Failure_Module.html
+      categories: [PCI 冠脈, 導管室教學]
+---
+
+本頁收錄**課堂教學 (Classroom Teaching)** 用的互動式 HTML 教材 —— 對象是**導管室技術員、心血管專師、住院醫師**的課堂／床邊教學，可在手機、平板、投影機直接開啟。
+
+與「[精選互動教材](../../featured.qmd)」全站卡片牆不同，本區聚焦**操作與照護導向的課堂模組**，並以**模組 (modality)** 分區管理：目前以 **PCI 冠脈介入**為主，後續將陸續納入 **頸動脈 (Carotid)**、**經導管動脈栓塞 (TAE)** 等其他介入課程。
+
+上方可依**模組分類篩選**、依**標題排序**、或用搜尋框過濾。
+
+::: {#classroom-decks}
+:::
+
+---
+
+### 模組導覽 Modules
+
+- **🫀 PCI 冠脈介入** — 已上線（見上方卡片）
+- **🧠 頸動脈 Carotid** — 課程陸續建置中
+- **🩸 經導管動脈栓塞 TAE** — 課程陸續建置中
+
+> 新的課堂教材放入 `handouts/classroom-teaching/<模組>/` 對應子資料夾，並在本頁 `listing` 的 `contents:` 新增一張卡片即可自動上牆。

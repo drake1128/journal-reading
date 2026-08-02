@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>管理學 — 制度診斷模組</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;900&family=Noto+Sans+TC:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#12293f;
+  --ink-deep:#0a1826;
+  --ink-soft:#3d5468;
+  --muted:#7c8b98;
+  --gold:#b8901f;
+  --gold-light:#d9b451;
+  --paper:#f4f1e8;
+  --paper-warm:#ebe6d9;
+  --card:#ffffff;
+  --rule:#d8d2c2;
+  --alert:#8c3a2e;
+  --ok:#3f6b4a;
+  --radius:3px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Noto Sans TC",system-ui,sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.85;
+  font-size:16px;
+  -webkit-text-size-adjust:100%;
+}
+
+/* ---------- 版頭 ---------- */
+.masthead{
+  background:var(--ink-deep);
+  color:var(--paper);
+  padding:56px 24px 44px;
+  position:relative;
+  overflow:hidden;
+}
+.masthead::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
+  background:linear-gradient(90deg,var(--gold) 0%,var(--gold-light) 40%,transparent 90%);
+}
+.mast-inner{max-width:820px;margin:0 auto}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace;
+  font-size:11px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gold-light);margin-bottom:20px;
+}
+.masthead h1{
+  font-family:"Noto Serif TC",serif;font-weight:900;
+  font-size:clamp(2.6rem,10vw,4.2rem);
+  letter-spacing:.16em;line-height:1.1;margin-bottom:18px;
+}
+.mast-sub{
+  font-family:"Noto Serif TC",serif;font-size:1.02rem;
+  color:#c3d0da;max-width:44em;font-weight:400;
+}
+.mast-meta{
+  margin-top:26px;padding-top:18px;
+  border-top:1px solid rgba(255,255,255,.14);
+  font-size:12.5px;color:#8fa2b1;
+  font-family:"IBM Plex Mono",monospace;letter-spacing:.05em;
+}
+
+/* ---------- 導覽 ---------- */
+nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(244,241,232,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--rule);
+}
+.nav-inner{
+  max-width:820px;margin:0 auto;
+  display:flex;gap:2px;overflow-x:auto;
+  padding:0 12px;-webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.nav-inner::-webkit-scrollbar{display:none}
+nav a{
+  flex:0 0 auto;padding:14px 13px;
+  font-size:13px;color:var(--ink-soft);text-decoration:none;
+  border-bottom:2px solid transparent;white-space:nowrap;font-weight:500;
+}
+nav a:hover,nav a:focus-visible{color:var(--ink);border-bottom-color:var(--gold)}
+
+/* ---------- 版面 ---------- */
+main{max-width:820px;margin:0 auto;padding:0 20px 100px}
+section{padding:56px 0 8px;scroll-margin-top:60px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px}
+.sec-num{
+  font-family:"IBM Plex Mono",monospace;font-size:12px;
+  color:var(--gold);letter-spacing:.12em;flex:0 0 auto;padding-top:6px;
+}
+h2{
+  font-family:"Noto Serif TC",serif;font-weight:900;
+  font-size:clamp(1.5rem,5.5vw,2rem);letter-spacing:.05em;line-height:1.35;
+}
+.sec-lead{
+  color:var(--ink-soft);margin:14px 0 26px;
+  padding-left:2px;font-size:15.5px;
+}
+h3{
+  font-family:"Noto Serif TC",serif;font-size:1.12rem;font-weight:600;
+  margin:32px 0 12px;letter-spacing:.03em;
+}
+p{margin-bottom:15px}
+strong{font-weight:700;color:var(--ink-deep)}
+.en{font-family:"IBM Plex Mono",monospace;font-size:.88em;color:var(--ink-soft)}
+
+/* ---------- 綱要卡 ---------- */
+.takehome{
+  background:var(--ink);color:#e8eef3;
+  padding:28px 26px;border-radius:var(--radius);
+  border-left:4px solid var(--gold);margin:8px 0 12px;
+}
+.takehome .label{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;
+  letter-spacing:.24em;color:var(--gold-light);margin-bottom:14px;
+}
+.takehome p{margin-bottom:0;font-size:15.5px}
+.takehome strong{color:#fff}
+
+/* ---------- 動作卡 ---------- */
+.moves{display:grid;gap:2px;background:var(--rule);border:1px solid var(--rule);border-radius:var(--radius);overflow:hidden}
+.move{background:var(--card);padding:22px 22px 20px}
+.move-top{display:flex;gap:14px;align-items:baseline;margin-bottom:8px}
+.move-n{
+  font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;
+  color:var(--gold);flex:0 0 auto;line-height:1;
+}
+.move-t{font-family:"Noto Serif TC",serif;font-weight:600;font-size:1.08rem;letter-spacing:.02em}
+.move p{font-size:15px;color:var(--ink-soft);margin-bottom:0}
+.move p+p{margin-top:10px}
+.ask{
+  display:block;margin:12px 0 0;padding:12px 16px;
+  background:var(--paper-warm);border-left:3px solid var(--gold);
+  font-family:"Noto Serif TC",serif;font-size:15px;color:var(--ink);
+}
+
+/* ---------- 表格 ---------- */
+.tbl-wrap{overflow-x:auto;margin:18px 0;border:1px solid var(--rule);border-radius:var(--radius);background:var(--card)}
+table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:520px}
+th{
+  background:var(--ink);color:var(--paper);text-align:left;
+  padding:13px 15px;font-weight:500;font-size:13px;letter-spacing:.06em;
+}
+td{padding:13px 15px;border-top:1px solid var(--rule);vertical-align:top}
+tbody tr:nth-child(even){background:#fbfaf6}
+.cause{font-weight:700;color:var(--ink-deep);white-space:nowrap}
+.bad{color:var(--alert);font-weight:500}
+.good{color:var(--ok);font-weight:500}
+
+/* ---------- 鑑別診斷互動 ---------- */
+.dx-tool{
+  background:var(--card);border:1px solid var(--rule);
+  border-radius:var(--radius);padding:24px 22px;margin:20px 0;
+}
+.dx-hint{font-size:14px;color:var(--muted);margin-bottom:18px}
+.clue{
+  display:flex;gap:12px;align-items:flex-start;
+  padding:12px 14px;margin-bottom:6px;
+  border:1px solid var(--rule);border-radius:var(--radius);
+  cursor:pointer;min-height:48px;
+  transition:background .15s,border-color .15s;
+}
+.clue:hover{background:var(--paper-warm)}
+.clue.on{background:#eef3ee;border-color:var(--ok)}
+.clue input{
+  width:20px;height:20px;flex:0 0 auto;margin-top:3px;
+  accent-color:var(--ok);cursor:pointer;
+}
+.clue span{font-size:14.5px;line-height:1.6}
+.dx-out{margin-top:22px;padding-top:20px;border-top:1px dashed var(--rule)}
+.bar-row{display:flex;align-items:center;gap:12px;margin-bottom:9px}
+.bar-lab{
+  flex:0 0 68px;font-size:13.5px;font-weight:700;text-align:right;
+  font-family:"Noto Serif TC",serif;
+}
+.bar-track{flex:1;height:22px;background:var(--paper-warm);border-radius:2px;overflow:hidden}
+.bar-fill{height:100%;background:var(--ink-soft);width:0;transition:width .45s cubic-bezier(.2,.8,.3,1)}
+.bar-row.lead .bar-fill{background:var(--gold)}
+.bar-row.lead .bar-lab{color:var(--gold)}
+.bar-n{flex:0 0 30px;font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--muted)}
+.dx-verdict{
+  margin-top:18px;padding:16px 18px;background:var(--paper-warm);
+  border-left:3px solid var(--gold);font-size:14.5px;
+}
+
+/* ---------- 徵象 ---------- */
+.vitals{display:grid;gap:12px;margin:18px 0}
+@media(min-width:640px){.vitals{grid-template-columns:1fr 1fr}}
+.vital{
+  background:var(--card);border:1px solid var(--rule);
+  border-left:3px solid var(--ink-soft);
+  border-radius:var(--radius);padding:16px 18px;
+}
+.vital h4{font-family:"Noto Serif TC",serif;font-size:1rem;margin-bottom:6px;font-weight:600}
+.vital p{font-size:14px;color:var(--ink-soft);margin:0}
+
+/* ---------- 警語 ---------- */
+.caution{
+  background:#fdf6f4;border:1px solid #e3cdc7;border-left:4px solid var(--alert);
+  border-radius:var(--radius);padding:22px 24px;margin:20px 0;
+}
+.caution h3{margin-top:0;color:var(--alert)}
+.caution p:last-child{margin-bottom:0}
+
+/* ---------- 查核表 ---------- */
+.form-bar{
+  position:sticky;top:47px;z-index:40;
+  background:var(--ink);color:var(--paper);
+  padding:12px 16px;border-radius:var(--radius);
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  margin-bottom:20px;
+}
+.prog-wrap{flex:1;min-width:130px}
+.prog-txt{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--gold-light);margin-bottom:5px}
+.prog-track{height:5px;background:rgba(255,255,255,.16);border-radius:3px;overflow:hidden}
+.prog-fill{height:100%;background:var(--gold);width:0;transition:width .35s}
+.btn{
+  font-family:"Noto Sans TC",sans-serif;font-size:13px;font-weight:500;
+  padding:10px 15px;min-height:44px;border-radius:var(--radius);
+  border:1px solid var(--gold);background:transparent;color:var(--gold-light);
+  cursor:pointer;transition:background .15s,color .15s;
+}
+.btn:hover,.btn:focus-visible{background:var(--gold);color:var(--ink-deep)}
+.btn-solid{background:var(--gold);color:var(--ink-deep);border-color:var(--gold)}
+.btn-solid:hover{background:var(--gold-light)}
+
+.cl-block{
+  background:var(--card);border:1px solid var(--rule);
+  border-radius:var(--radius);margin-bottom:16px;overflow:hidden;
+}
+.cl-head{
+  background:var(--paper-warm);padding:14px 18px;
+  border-bottom:1px solid var(--rule);
+  display:flex;gap:12px;align-items:baseline;
+}
+.cl-tag{
+  font-family:"IBM Plex Mono",monospace;font-size:12px;
+  color:var(--gold);font-weight:600;flex:0 0 auto;
+}
+.cl-head h3{margin:0;font-size:1.02rem}
+.cl-head .sub{font-size:12.5px;color:var(--muted);margin-left:auto;text-align:right}
+.cl-body{padding:6px 18px 18px}
+.cl-item{padding:14px 0;border-bottom:1px solid #f0ece1}
+.cl-item:last-child{border-bottom:none}
+.cl-q{display:flex;gap:12px;align-items:flex-start;cursor:pointer;min-height:44px}
+.cl-q input{width:20px;height:20px;flex:0 0 auto;margin-top:4px;accent-color:var(--ok);cursor:pointer}
+.cl-q .qt{font-size:15px;line-height:1.65}
+.cl-q .qt em{display:block;font-style:normal;font-size:13px;color:var(--muted);margin-top:3px}
+.cl-item textarea,.cl-item input[type=text]{
+  width:100%;margin-top:10px;padding:10px 12px;
+  font-family:"Noto Sans TC",sans-serif;font-size:16px;
+  border:1px solid var(--rule);border-radius:var(--radius);
+  background:#fdfcf9;color:var(--ink);resize:vertical;line-height:1.6;
+}
+.cl-item textarea{min-height:62px}
+.cl-item textarea:focus,.cl-item input[type=text]:focus{
+  outline:2px solid var(--gold);outline-offset:1px;border-color:var(--gold);
+}
+.field-lab{font-size:12px;color:var(--muted);margin-top:10px;font-family:"IBM Plex Mono",monospace;letter-spacing:.06em}
+
+.toast{
+  position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(18px);
+  background:var(--ink-deep);color:var(--paper);
+  padding:13px 22px;border-radius:var(--radius);
+  font-size:14px;border-left:3px solid var(--gold);
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:99;
+  box-shadow:0 6px 24px rgba(0,0,0,.22);
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ---------- 書單 ---------- */
+.book{
+  display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--rule);
+}
+.book:last-child{border-bottom:none}
+.book-mark{
+  flex:0 0 4px;background:var(--gold);border-radius:2px;align-self:stretch;
+}
+.book h4{font-family:"Noto Serif TC",serif;font-size:1.02rem;font-weight:600;margin-bottom:4px}
+.book p{font-size:14px;color:var(--ink-soft);margin:0}
+
+footer{
+  background:var(--ink-deep);color:#8fa2b1;
+  padding:34px 24px;font-size:12.5px;line-height:1.9;
+}
+.foot-inner{max-width:820px;margin:0 auto}
+.foot-sig{color:var(--paper);font-family:"Noto Serif TC",serif;font-size:14px;margin-bottom:4px}
+
+@media(prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important}
+}
+@media print{
+  nav,.form-bar,.masthead::after{display:none}
+  body{background:#fff}
+  .cl-block{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="mast-inner">
+    <div class="eyebrow">Institutional Diagnosis · Module 01</div>
+    <h1>管理學</h1>
+    <p class="mast-sub">診斷制度，而不是診斷人。<br>把「誰的問題」暫時關掉，改問：在這個結構裡，這樣做是不是理性的？</p>
+    <div class="mast-meta">臨床推理框架 · 主訴 → 鑑別 → 檢查 → 診斷 → 處置</div>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#s1">主訴</a>
+    <a href="#s2">五個動作</a>
+    <a href="#s3">鑑別診斷</a>
+    <a href="#s4">生命徵象</a>
+    <a href="#s5">處置原則</a>
+    <a href="#s6">失效模式</a>
+    <a href="#s7">查核表</a>
+    <a href="#s8">延伸閱讀</a>
+  </div>
+</nav>
+
+<main>
+
+<!-- 1 -->
+<section id="s1">
+  <div class="sec-head"><span class="sec-num">I</span><h2>主訴不是診斷</h2></div>
+  <div class="takehome">
+    <div class="label">TAKE HOME</div>
+    <p>制度診斷的核心動作只有一個：<strong>先把「誰的問題」這個問題暫時關掉，改問「在這個結構裡，這樣做是不是理性的？」</strong>如果答案是「是」，那就不是人的問題，是設計的問題。</p>
+  </div>
+  <p>臨床上，「胸痛」是主訴不是診斷。制度上，「大家都不配合」「風氣不好」「某某人很難搞」也全都是主訴。</p>
+  <p>主訴的功能是<strong>指出哪裡痛</strong>，不是告訴你病灶在哪。制度診斷的第一步，就是拒絕停在主訴層次——尤其當主訴已經自帶一個歸因（「因為他自私」）時，<strong>那個歸因通常就是最需要被檢查的東西</strong>。</p>
+</section>
+
+<!-- 2 -->
+<section id="s2">
+  <div class="sec-head"><span class="sec-num">II</span><h2>五個核心動作</h2></div>
+  <p class="sec-lead">這五個動作是問診的順序。做完，你手上就有足夠的資料進入鑑別診斷。</p>
+
+  <div class="moves">
+    <div class="move">
+      <div class="move-top"><span class="move-n">1</span><span class="move-t">看誘因，不看動機</span></div>
+      <p>動機不可觀察、不可驗證、爭論不會收斂。誘因可以查。</p>
+      <span class="ask">做這件事，他得到什麼？<br>不做，他失去什麼？<br>被發現，會怎樣？</span>
+      <p>黃仁宇對文官集團的「陰／陽」分析就是這個動作：不去問他們是否真心崇尚道德，而是問——在那個誘因結構下，維持道德姿態的收益是什麼，實話實說的代價是什麼。</p>
+    </div>
+
+    <div class="move">
+      <div class="move-top"><span class="move-n">2</span><span class="move-t">可置換性測試</span></div>
+      <span class="ask">把這個人換掉，換一個正常人來，他會不會做一樣的事？</span>
+      <p>會 → 結構問題，換人無效。不會 → 才可能是個人問題。</p>
+      <p>這一刀最鋒利，因為它能擋掉最常見的誤診：<strong>把系統性行為當成人格缺陷</strong>。交接不完整、free-riding、搶功勞——這些在特定結構下都是理性行為。換人只會產生下一個。</p>
+    </div>
+
+    <div class="move">
+      <div class="move-top"><span class="move-n">3</span><span class="move-t">看均衡，不看意圖</span></div>
+      <p>不要問「大家應該怎麼做」，問<strong>「大家最後穩定停在哪裡」</strong>。</p>
+      <p>均衡點才是制度的真實輸出。你會發現很多制度的均衡是「表面遵守、實際規避」——那不是道德淪喪，那是設計出來的結果。</p>
+    </div>
+
+    <div class="move">
+      <div class="move-top"><span class="move-n">4</span><span class="move-t">追問責任與後果的錯配</span></div>
+      <span class="ask">誰做決定？誰承擔失敗？兩者是不是同一個人？</span>
+      <p>不是的話，一定會壞：決定的人不承擔後果 → 過度冒險，或為了避責而過度保守；承擔後果的人沒有決定權 → 消極、離開、或表面配合。</p>
+    </div>
+
+    <div class="move">
+      <div class="move-top"><span class="move-n">5</span><span class="move-t">看資訊怎麼流動——特別是壞消息</span></div>
+      <span class="ask">一個壞消息從發現到最高決策者知道，要多久？<br>中間會不會有人有動機把它壓下來？</span>
+      <p>壞消息傳不上去的組織，制度永遠不會被修正，因為決策者手上的資料是假的。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3 -->
+<section id="s3">
+  <div class="sec-head"><span class="sec-num">III</span><h2>鑑別診斷</h2></div>
+  <p class="sec-lead">同一個現象——「事情推不動」——至少有五種病因，而且用錯藥完全無效。</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>病因</th><th>診斷線索</th><th>正確處置</th><th>用錯藥的典型</th></tr></thead>
+      <tbody>
+        <tr><td class="cause">能力</td><td>想做、也被允許，但做不出來</td><td class="good">教育訓練、SOP、示範</td><td>—</td></tr>
+        <tr><td class="cause">誘因</td><td>做得到，但做了對自己不利</td><td class="good">改變誘因、改變後果</td><td class="bad">一直辦教育訓練</td></tr>
+        <tr><td class="cause">資訊</td><td>不知道該做、不知道怎麼算做好</td><td class="good">明確標準、回饋機制</td><td class="bad">究責</td></tr>
+        <tr><td class="cause">權限</td><td>想做、會做，但沒權決定</td><td class="good">授權、調整決策層級</td><td class="bad">要求「多負一點責任」</td></tr>
+        <tr><td class="cause">資源</td><td>全都有，就是沒時間沒人沒錢</td><td class="good">調配資源、砍需求、委外</td><td class="bad">加強考核</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>最常見的誤診是把誘因問題當能力問題治。</strong>症狀很好認：辦了三輪教育訓練，滿意度都很高，行為完全沒變。第二常見的是把資源問題當態度問題治。</p>
+
+  <h3>互動鑑別工具</h3>
+  <div class="dx-tool">
+    <p class="dx-hint">勾選你在現場實際觀察到的線索（可複選）。工具只做加權提示，不取代你的判斷。</p>
+    <div id="clueList"></div>
+    <div class="dx-out">
+      <div id="bars"></div>
+      <div class="dx-verdict" id="verdict">尚未勾選任何線索。</div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 -->
+<section id="s4">
+  <div class="sec-head"><span class="sec-num">IV</span><h2>制度的生命徵象</h2></div>
+  <p class="sec-lead">診斷不能只靠感覺。這六個是可以量的。</p>
+
+  <div class="vitals">
+    <div class="vital"><h4>例外率</h4><p>制度的真相不在正常流程，在例外。誰有權開例外？開了有沒有紀錄？<strong>超過兩成，等於沒有制度。</strong></p></div>
+    <div class="vital"><h4>問題 → 規則修改的時間</h4><p>如果每次危機只產出一個替罪者、不產出新規則，這個制度不會學習。</p></div>
+    <div class="vital"><h4>壞消息的傳遞時間</h4><p>從基層發現到決策者知道。中間每一層都要問：有沒有人有動機壓下來？</p></div>
+    <div class="vital"><h4>會議上誰發言、誰不發言</h4><p>長期沉默的人不是沒意見，是計算過發言的代價。</p></div>
+    <div class="vital"><h4>人員流向</h4><p>誰走了、走去哪、留下的是哪一種人。留下的人的類型，就是制度真正在篩選的東西。</p></div>
+    <div class="vital"><h4>Exit 訊號</h4><p>自己找廠商、自己用 Excel 做、乾脆不做。這是最容易被誤讀成「改善」的惡化訊號。</p></div>
+  </div>
+
+  <div class="caution">
+    <h3>沒有人抱怨，不代表沒問題</h3>
+    <p>Hirschman 的框架很好用：面對不滿，人有三種反應——<strong>離開（exit）、發聲（voice）、忍耐（loyalty）</strong>。當發聲的成本太高，人會直接離開。</p>
+    <p>放在服務單位：<strong>使用端不再報工單，可能不是問題解決了，而是他們已經 exit 了。</strong>工單數下降在這種情況下是惡化訊號，不是改善訊號——這也是為什麼工單量不能當 KPI。</p>
+  </div>
+</section>
+
+<!-- 5 -->
+<section id="s5">
+  <div class="sec-head"><span class="sec-num">V</span><h2>處置原則</h2></div>
+  <div class="moves">
+    <div class="move"><div class="move-top"><span class="move-n">i</span><span class="move-t">診斷不明時不要大改</span></div><p>制度變更有醫源性傷害，而且不可逆的比可逆的多。</p></div>
+    <div class="move"><div class="move-top"><span class="move-n">ii</span><span class="move-t">最小可行變更</span></div><p>改一個地方，然後觀察均衡有沒有移動。同時改五件事，你不會知道哪一件有效。</p></div>
+    <div class="move"><div class="move-top"><span class="move-n">iii</span><span class="move-t">預先設想規避路徑</span></div><p>新規則上路前，先問「如果我是被管的人，我會怎麼繞過它？」<strong>想不出來就是你想得不夠。</strong></p></div>
+    <div class="move"><div class="move-top"><span class="move-n">iv</span><span class="move-t">改結構優於改人，改誘因優於改宣導</span></div><p>宣導只對「能力／資訊」型病因有效，對「誘因／權限／資源」型病因幾乎無效。</p></div>
+    <div class="move"><div class="move-top"><span class="move-n">v</span><span class="move-t">Goodhart's law</span></div><p><span class="en">"When a measure becomes a target, it ceases to be a good measure."</span> 任何指標一旦變成目標，就不再是好指標。所以要配平衡指標。</p></div>
+    <div class="move"><div class="move-top"><span class="move-n">vi</span><span class="move-t">留退場機制</span></div><p>明確寫「若六個月後 X 未達成則廢止」。沒有退場機制的制度會永遠累積，最後把組織塞死。</p></div>
+  </div>
+
+  <h3>指標設計的三個判準</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>判準</th><th>要求</th><th>失敗時會發生什麼</th></tr></thead>
+      <tbody>
+        <tr><td class="cause">可稽核</td><td>定義、資料來源、量測頻率、負責人都寫明</td><td class="bad">標準隨人解釋，變成人治</td></tr>
+        <tr><td class="cause">可預期</td><td>目標值來自 baseline × 合理進步幅度</td><td class="bad">行為者無法事前知道自己是否合格</td></tr>
+        <tr><td class="cause">有邊界</td><td>只對自己能控制的部分負責</td><td class="bad">責任無限延伸，人人皆可入罪</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- 6 -->
+<section id="s6">
+  <div class="sec-head"><span class="sec-num">VI</span><h2>兩個失效模式</h2></div>
+  <div class="caution">
+    <h3>制度診斷會上癮</h3>
+    <p><strong>失效一：不是所有事都是結構問題。</strong>有些人真的就是有問題。結構解釋是理解行為的工具，不是免責的理由。</p>
+    <p><strong>失效二：過度結構化會讓沒有人需要負責。</strong>「這是制度的錯」如果變成萬用句，就會產生另一種癱瘓。</p>
+    <p>比較穩的立場是：<strong>解釋行為時看結構，處理當下時看人；改制度是為了以後，但眼前的責任還是要有人擔。</strong></p>
+  </div>
+</section>
+
+<!-- 7 -->
+<section id="s7">
+  <div class="sec-head"><span class="sec-num">VII</span><h2>制度診斷查核表</h2></div>
+  <p class="sec-lead">五份表，對應五個階段。可以線上填、下載成報告，或存檔之後再載回來繼續填。</p>
+
+  <div class="form-bar">
+    <div class="prog-wrap">
+      <div class="prog-txt" id="progTxt">已完成 0 / 0 項</div>
+      <div class="prog-track"><div class="prog-fill" id="progFill"></div></div>
+    </div>
+    <button class="btn btn-solid" id="btnMd">下載報告 (.md)</button>
+    <button class="btn" id="btnJson">存檔 (.json)</button>
+    <button class="btn" id="btnLoad">載入存檔</button>
+    <input type="file" id="fileIn" accept=".json" hidden>
+  </div>
+
+  <div id="checklists"></div>
+</section>
+
+<!-- 8 -->
+<section id="s8">
+  <div class="sec-head"><span class="sec-num">VIII</span><h2>延伸閱讀</h2></div>
+  <div class="book"><div class="book-mark"></div><div>
+    <h4>《萬曆十五年》— 黃仁宇</h4>
+    <p>本模組的起點。以道德替代法律的功能錯置，以及它如何阻斷制度學習。讀時保留一點懷疑：明代法制其實不薄，作者真正要說的是「法制須依附道德話語取得正當性」。</p></div></div>
+  <div class="book"><div class="book-mark"></div><div>
+    <h4>《心理安全感的力量》— Amy Edmondson</h4>
+    <p>對應第五個動作（壞消息為什麼上不去）。醫療案例多，是《萬曆十五年》問題的現代解答版。</p></div></div>
+  <div class="book"><div class="book-mark"></div><div>
+    <h4>《Just Culture》— Sidney Dekker</h4>
+    <p>醫界的制度診斷經典，處理「什麼時候該歸咎個人、什麼時候該歸咎系統」這條界線，與病人安全直接相關。</p></div></div>
+  <div class="book"><div class="book-mark"></div><div>
+    <h4>《國家為什麼會失敗》— Acemoglu &amp; Robinson</h4>
+    <p>誘因與制度的大尺度版本，和《萬曆十五年》互相對照很有意思。</p></div></div>
+  <div class="book"><div class="book-mark"></div><div>
+    <h4>《國家的視角》— James C. Scott</h4>
+    <p>反面教材。由上而下的制度設計為什麼常常失敗——動制度之前值得先讀。</p></div></div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-sig">讀書會共筆整理人</div>
+    <div>謝慕揚 醫師　MD, PhD, FESC</div>
+    <div style="margin-bottom:14px">組織治理與制度分析</div>
+    <div style="border-top:1px solid rgba(255,255,255,.12);padding-top:14px">
+      本內容為讀書會共筆整理，未必涵蓋所有相關文獻。<br>
+      僅供學術與教育用途，不代表任何單位之官方立場。<br>
+      本內容未涉及任何利益衝突。
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+"use strict";
+
+/* ============ 鑑別診斷工具 ============ */
+var CAUSES = ["能力","誘因","資訊","權限","資源"];
+var CLUES = [
+  {t:"他明顯想做，也被允許做，但成品品質不到位",w:{能力:3}},
+  {t:"教育訓練辦過不只一輪，滿意度高，行為完全沒變",w:{誘因:3,權限:1,資源:1}},
+  {t:"做這件事對他個人沒有好處，甚至會多背風險",w:{誘因:3}},
+  {t:"不做也不會有任何後果，沒有人會發現",w:{誘因:3}},
+  {t:"他說不知道標準在哪裡，或不確定怎樣算做好了",w:{資訊:3}},
+  {t:"回饋要等很久才來，或根本沒有回饋",w:{資訊:2}},
+  {t:"他要先問過上面才能決定，而上面常常不回",w:{權限:3}},
+  {t:"承擔後果的人，跟做決定的人不是同一個",w:{權限:3,誘因:1}},
+  {t:"日常維運已經吃掉幾乎全部工時，沒有餘裕",w:{資源:3}},
+  {t:"人力或預算明顯低於同類單位",w:{資源:2}},
+  {t:"換一個人來做，八成也會是同樣結果",w:{誘因:2,權限:2,資源:2,資訊:1}},
+  {t:"表面上大家都遵守，私下都有一套繞過去的做法",w:{誘因:3,資訊:1}},
+  {t:"沒有人抱怨，但也沒有人再提出需求了",w:{誘因:2,權限:2}},
+  {t:"新人做得比資深的還積極，一段時間後就變一樣",w:{誘因:3}}
+];
+
+var clueState = {};
+var clueList = document.getElementById("clueList");
+CLUES.forEach(function(c,i){
+  var lab = document.createElement("label");
+  lab.className = "clue";
+  lab.innerHTML = '<input type="checkbox" data-i="'+i+'"><span>'+c.t+'</span>';
+  clueList.appendChild(lab);
+});
+
+var barsEl = document.getElementById("bars");
+CAUSES.forEach(function(c){
+  var row = document.createElement("div");
+  row.className = "bar-row";
+  row.setAttribute("data-c", c);
+  row.innerHTML = '<div class="bar-lab">'+c+'</div><div class="bar-track"><div class="bar-fill"></div></div><div class="bar-n">0</div>';
+  barsEl.appendChild(row);
+});
+
+var ADVICE = {
+  能力:"以能力不足為主：用教育訓練、SOP 與示範。注意——若同時有誘因線索，先處理誘因，否則訓練白做。",
+  誘因:"以誘因錯置為主：不要再辦訓練。去改「做了得到什麼／不做失去什麼／被發現會怎樣」這三件事。",
+  資訊:"以資訊缺口為主：先把標準寫清楚、把回饋縮短。究責在這裡完全無效，只會讓人更不敢動。",
+  權限:"以權限不足為主：調整決策層級或明確授權。要求他「多負一點責任」只會製造消極。",
+  資源:"以資源不足為主：調配資源、砍需求或委外。加強考核只會加速人員流失。"
+};
+
+function recalc(){
+  var score = {}, total = 0;
+  CAUSES.forEach(function(c){ score[c] = 0; });
+  Object.keys(clueState).forEach(function(i){
+    if(!clueState[i]) return;
+    var w = CLUES[i].w;
+    Object.keys(w).forEach(function(k){ score[k] += w[k]; total += w[k]; });
+  });
+  var max = Math.max.apply(null, CAUSES.map(function(c){ return score[c]; }));
+  CAUSES.forEach(function(c){
+    var row = barsEl.querySelector('[data-c="'+c+'"]');
+    var pct = max > 0 ? (score[c]/max*100) : 0;
+    row.querySelector(".bar-fill").style.width = pct + "%";
+    row.querySelector(".bar-n").textContent = score[c];
+    row.classList.toggle("lead", max > 0 && score[c] === max);
+  });
+  var v = document.getElementById("verdict");
+  if(total === 0){ v.textContent = "尚未勾選任何線索。"; return; }
+  var leads = CAUSES.filter(function(c){ return score[c] === max; });
+  if(leads.length > 1){
+    v.innerHTML = "<strong>目前分不出主因（"+leads.join(" / ")+" 並列）。</strong>這通常代表證據還不夠。回到現場再蒐集，不要在這個狀態下動制度。";
+  } else {
+    v.innerHTML = "<strong>提示："+ADVICE[leads[0]]+"</strong>";
+  }
+}
+
+clueList.addEventListener("change", function(e){
+  var cb = e.target;
+  if(cb.tagName !== "INPUT") return;
+  clueState[cb.dataset.i] = cb.checked;
+  cb.closest(".clue").classList.toggle("on", cb.checked);
+  recalc();
+});
+recalc();
+
+/* ============ 查核表 ============ */
+var FORM = [
+  {tag:"表 A", title:"現象登錄", sub:"先描述，不要先歸因",
+   items:[
+    {id:"a1", q:"現象是什麼？用行為描述，不要用形容詞。", hint:"「排程需求平均等 12 天才回覆」而不是「配合度差」", note:"現象描述"},
+    {id:"a2", q:"誰在痛？痛多久了？", note:"受影響者與持續時間"},
+    {id:"a3", q:"我目前心裡的歸因是什麼？把它寫下來。", hint:"寫下來是為了讓它可以被檢查，不是為了確認它", note:"我的初始假設"}
+   ]},
+  {tag:"表 B", title:"五個核心動作", sub:"問診",
+   items:[
+    {id:"b1", q:"我有把主訴和診斷分開嗎？", hint:"主訴自帶的歸因，是最需要被檢查的東西"},
+    {id:"b2", q:"誘因三問已經問過：做了得到什麼？不做失去什麼？被發現會怎樣？", note:"三問的答案"},
+    {id:"b3", q:"可置換性測試：換一個正常人來，他會不會做一樣的事？", note:"測試結果與理由"},
+    {id:"b4", q:"均衡點在哪裡？大家最後穩定停在什麼行為上？", note:"觀察到的均衡"},
+    {id:"b5", q:"誰做決定？誰承擔失敗？兩者是不是同一個人？", note:"責任與後果的配置"},
+    {id:"b6", q:"壞消息從發現到決策者知道要多久？中間誰有動機壓下來？", note:"資訊流動路徑"}
+   ]},
+  {tag:"表 C", title:"鑑別診斷", sub:"五選一或多，附證據",
+   items:[
+    {id:"c1", q:"能力：想做、被允許，但做不出來", note:"支持或排除的證據"},
+    {id:"c2", q:"誘因：做得到，但做了對自己不利", note:"支持或排除的證據"},
+    {id:"c3", q:"資訊：不知道該做、不知道怎麼算做好", note:"支持或排除的證據"},
+    {id:"c4", q:"權限：想做、會做，但沒權決定", note:"支持或排除的證據"},
+    {id:"c5", q:"資源：全都有，就是沒時間沒人沒錢", note:"支持或排除的證據"},
+    {id:"c6", q:"我的主要診斷是＿＿＿，理由是＿＿＿", hint:"如果分不出來，代表證據不夠，回去再蒐集", note:"診斷與理由"}
+   ]},
+  {tag:"表 D", title:"生命徵象", sub:"填數值，不要填印象",
+   items:[
+    {id:"d1", q:"例外率：______%（誰有權開？有無紀錄？）", hint:"超過兩成等於沒有制度", note:"數值與來源", short:true},
+    {id:"d2", q:"最近一次問題發生 → 規則修改的時間：______", hint:"若只產出替罪者不產出規則，制度不會學習", note:"事件與時距", short:true},
+    {id:"d3", q:"壞消息從發現到決策者知道：______", note:"路徑與時距", short:true},
+    {id:"d4", q:"會議發言分布：誰長期沉默？", note:"名單與推測原因"},
+    {id:"d5", q:"人員流向：誰走了？走去哪？留下的是哪一種人？", note:"觀察"},
+    {id:"d6", q:"Exit 訊號：有沒有人已經繞過這個系統自己來？", hint:"需求量下降可能是惡化訊號，不是改善訊號", note:"觀察"}
+   ]},
+  {tag:"表 E", title:"處置前檢查", sub:"動制度之前必須全部通過",
+   items:[
+    {id:"e1", q:"診斷夠明確了嗎？不明確就不要大改。"},
+    {id:"e2", q:"這是最小可行變更嗎？我只改了一個地方嗎？", note:"變更內容"},
+    {id:"e3", q:"規避路徑：如果我是被管的人，我會怎麼繞過它？", hint:"想不出來就是想得不夠", note:"至少寫出兩條"},
+    {id:"e4", q:"平衡指標是什麼？（防止 Goodhart's law）", note:"主指標 + 平衡指標"},
+    {id:"e5", q:"退場機制：若＿＿＿月後未達成＿＿＿則廢止。", note:"條件與日期", short:true},
+    {id:"e6", q:"三判準都過了嗎？可稽核、可預期、有邊界。", note:"逐項說明"},
+    {id:"e7", q:"這是改結構還是改人？改誘因還是改宣導？", note:"自我檢查"}
+   ]}
+];
+
+var state = {}; // id -> {checked:bool, note:string}
+var container = document.getElementById("checklists");
+var totalItems = 0;
+
+FORM.forEach(function(block){
+  var el = document.createElement("div");
+  el.className = "cl-block";
+  var head = '<div class="cl-head"><span class="cl-tag">'+block.tag+'</span><h3>'+block.title+'</h3><span class="sub">'+block.sub+'</span></div>';
+  var body = '<div class="cl-body">';
+  block.items.forEach(function(it){
+    totalItems++;
+    state[it.id] = {checked:false, note:""};
+    body += '<div class="cl-item">';
+    body += '<label class="cl-q"><input type="checkbox" data-id="'+it.id+'"><span class="qt">'+it.q+(it.hint?'<em>'+it.hint+'</em>':'')+'</span></label>';
+    if(it.note){
+      body += '<div class="field-lab">'+it.note+'</div>';
+      body += it.short
+        ? '<input type="text" data-note="'+it.id+'" placeholder="填寫…">'
+        : '<textarea data-note="'+it.id+'" placeholder="填寫…"></textarea>';
+    }
+    body += '</div>';
+  });
+  body += '</div>';
+  el.innerHTML = head + body;
+  container.appendChild(el);
+});
+
+var progFill = document.getElementById("progFill");
+var progTxt = document.getElementById("progTxt");
+
+function updateProgress(){
+  var done = 0;
+  Object.keys(state).forEach(function(k){ if(state[k].checked) done++; });
+  progTxt.textContent = "已完成 " + done + " / " + totalItems + " 項";
+  progFill.style.width = (totalItems ? done/totalItems*100 : 0) + "%";
+}
+updateProgress();
+
+container.addEventListener("change", function(e){
+  var t = e.target;
+  if(t.dataset.id){ state[t.dataset.id].checked = t.checked; updateProgress(); }
+});
+container.addEventListener("input", function(e){
+  var t = e.target;
+  if(t.dataset.note){ state[t.dataset.note].note = t.value; }
+});
+
+/* ============ 匯出 / 存檔 ============ */
+function toast(msg){
+  var el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  setTimeout(function(){ el.classList.remove("show"); }, 2400);
+}
+
+function stamp(){
+  var d = new Date();
+  function p(n){ return (n<10?"0":"")+n; }
+  return d.getFullYear()+"-"+p(d.getMonth()+1)+"-"+p(d.getDate());
+}
+
+function download(name, text, mime){
+  var blob = new Blob([text], {type: mime + ";charset=utf-8"});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(url); }, 1500);
+}
+
+function buildMarkdown(){
+  var L = [];
+  L.push("# 制度診斷查核表");
+  L.push("");
+  L.push("填表日期：" + stamp());
+  L.push("");
+  var done = 0;
+  Object.keys(state).forEach(function(k){ if(state[k].checked) done++; });
+  L.push("完成度：" + done + " / " + totalItems + " 項");
+  L.push("");
+  L.push("---");
+  L.push("");
+
+  // 鑑別診斷工具結果
+  var picked = CLUES.filter(function(c,i){ return clueState[i]; });
+  if(picked.length){
+    L.push("## 鑑別診斷工具紀錄");
+    L.push("");
+    L.push("**勾選的線索**");
+    L.push("");
+    picked.forEach(function(c){ L.push("- " + c.t); });
+    L.push("");
+    var score = {}; CAUSES.forEach(function(c){ score[c]=0; });
+    picked.forEach(function(c){ Object.keys(c.w).forEach(function(k){ score[k]+=c.w[k]; }); });
+    L.push("**加權結果**");
+    L.push("");
+    L.push("| 病因 | 分數 |");
+    L.push("|---|---|");
+    CAUSES.forEach(function(c){ L.push("| " + c + " | " + score[c] + " |"); });
+    L.push("");
+    L.push("---");
+    L.push("");
+  }
+
+  FORM.forEach(function(block){
+    L.push("## " + block.tag + "　" + block.title);
+    L.push("");
+    L.push("*" + block.sub + "*");
+    L.push("");
+    block.items.forEach(function(it){
+      var s = state[it.id];
+      L.push("- [" + (s.checked ? "x" : " ") + "] " + it.q);
+      if(it.hint) L.push("  - 提示：" + it.hint);
+      if(it.note){
+        L.push("  - **" + it.note + "**：" + (s.note.trim() ? s.note.replace(/\n/g, "\n    ") : "（未填）"));
+      }
+    });
+    L.push("");
+  });
+
+  L.push("---");
+  L.push("");
+  L.push("讀書會共筆整理人　謝慕揚 醫師 MD, PhD, FESC");
+  L.push("組織治理與制度分析");
+  L.push("");
+  L.push("本內容為讀書會共筆整理，未必涵蓋所有相關文獻。僅供學術與教育用途，不代表任何單位之官方立場。本內容未涉及任何利益衝突。");
+  return L.join("\n");
+}
+
+document.getElementById("btnMd").addEventListener("click", function(){
+  download("制度診斷查核表_" + stamp() + ".md", buildMarkdown(), "text/markdown");
+  toast("報告已下載");
+});
+
+document.getElementById("btnJson").addEventListener("click", function(){
+  var payload = {version:1, savedAt:new Date().toISOString(), clues:clueState, state:state};
+  download("制度診斷_存檔_" + stamp() + ".json", JSON.stringify(payload, null, 2), "application/json");
+  toast("存檔已下載");
+});
+
+document.getElementById("btnLoad").addEventListener("click", function(){
+  document.getElementById("fileIn").click();
+});
+
+document.getElementById("fileIn").addEventListener("change", function(e){
+  var f = e.target.files && e.target.files[0];
+  if(!f) return;
+  var r = new FileReader();
+  r.onload = function(){
+    try{
+      var data = JSON.parse(r.result);
+      if(data.state){
+        Object.keys(data.state).forEach(function(k){
+          if(!state[k]) return;
+          state[k].checked = !!data.state[k].checked;
+          state[k].note = data.state[k].note || "";
+          var cb = container.querySelector('[data-id="'+k+'"]');
+          if(cb) cb.checked = state[k].checked;
+          var nf = container.querySelector('[data-note="'+k+'"]');
+          if(nf) nf.value = state[k].note;
+        });
+      }
+      if(data.clues){
+        clueState = data.clues;
+        Object.keys(clueState).forEach(function(i){
+          var cb = clueList.querySelector('[data-i="'+i+'"]');
+          if(cb){ cb.checked = !!clueState[i]; cb.closest(".clue").classList.toggle("on", !!clueState[i]); }
+        });
+        recalc();
+      }
+      updateProgress();
+      toast("存檔已載入");
+    }catch(err){
+      toast("這個檔案讀不出來，請確認是本模組匯出的 .json");
+    }
+    e.target.value = "";
+  };
+  r.readAsText(f);
+});
+
+})();
+</script>
+</body>
+</html>

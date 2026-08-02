@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PCI 冠脈介入概論 — 深度互動版</title>
+
+<!-- 字型：Latin 用 Sora（幾何技術感）與 Space Mono（數字/標籤）；CJK 用 Noto Sans TC，離線 fallback 微軟正黑 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Space+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
+
+<style>
+/* ===========================================
+   主題變數（改這裡就能換整體風格）
+   =========================================== */
+:root{
+  --bg:#070b12; --bg2:#0c1420; --panel:#101a29; --panel2:#16233699;
+  --ink:#eaf2ff; --muted:#8ea3bd; --faint:#5b6f8a;
+  --line:rgba(140,170,210,.16);
+  --cyan:#3fe0c8;         /* 血管攝影青：結構/血流 */
+  --cyan-soft:rgba(63,224,200,.14);
+  --red:#ff5064;          /* 冠脈紅：血管/血液/危險 */
+  --amber:#ffb020;        /* 警告 */
+  --green:#39d98a;        /* 基礎（技術員/NP） */
+  --blue:#4aa8ff;         /* 進階（Fellow） */
+  --purple:#b98cff;       /* 跨科 */
+
+  --font-display:'Sora','Noto Sans TC','Microsoft JhengHei',sans-serif;
+  --font-body:'Noto Sans TC','Microsoft JhengHei','Sora',sans-serif;
+  --font-mono:'Space Mono',ui-monospace,'Noto Sans TC',monospace;
+
+  --title-size:clamp(1.6rem,4.4vw,3.4rem);
+  --h2-size:clamp(1.25rem,3vw,2.3rem);
+  --h3-size:clamp(1rem,2vw,1.5rem);
+  --body-size:clamp(.78rem,1.35vw,1.06rem);
+  --small-size:clamp(.66rem,1vw,.86rem);
+  --slide-padding:clamp(1.1rem,3.6vw,3.4rem);
+  --content-gap:clamp(.6rem,1.8vw,1.6rem);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --dur:.6s;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* ===== viewport 基礎（採 frontend-slides 版型規範，改為離散翻頁疊層） ===== */
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--font-body)}
+img,.image-container{max-width:100%;max-height:min(50vh,400px);object-fit:contain}
+
+.deck{position:fixed;inset:0}
+.slide{
+  position:absolute;inset:0;width:100vw;height:100vh;height:100dvh;overflow:hidden;
+  display:flex;flex-direction:column;
+  padding:var(--slide-padding);
+  opacity:0;visibility:hidden;transform:scale(.985);
+  transition:opacity .55s var(--ease),transform .55s var(--ease),visibility .55s;
+  background:
+    radial-gradient(120% 80% at 82% -10%,rgba(63,224,200,.06),transparent 55%),
+    radial-gradient(90% 70% at -10% 110%,rgba(255,80,100,.05),transparent 55%),
+    var(--bg);
+}
+.slide.active{opacity:1;visibility:visible;transform:none;z-index:2}
+.slide.prev{transform:scale(1.01)}
+.slide-inner{flex:1;display:flex;flex-direction:column;justify-content:center;max-height:100%;overflow:hidden;gap:var(--content-gap)}
+
+/* 細格線 + 底部 ECG 裝飾，營造監視器氛圍 */
+.slide::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:clamp(34px,4vw,60px) clamp(34px,4vw,60px);
+  -webkit-mask-image:radial-gradient(120% 100% at 50% 40%,#000 40%,transparent 92%);
+          mask-image:radial-gradient(120% 100% at 50% 40%,#000 40%,transparent 92%);}
+
+/* ===== 文字 ===== */
+h1{font-family:var(--font-display);font-weight:800;font-size:var(--title-size);line-height:1.08;letter-spacing:-.01em}
+h2{font-family:var(--font-display);font-weight:700;font-size:var(--h2-size);line-height:1.14;letter-spacing:-.01em}
+h3{font-family:var(--font-display);font-weight:600;font-size:var(--h3-size);line-height:1.2}
+p,li{font-size:var(--body-size);line-height:1.62;color:#d6e2f2}
+strong{color:#fff}
+.mono{font-family:var(--font-mono)}
+.dim{color:var(--muted)}
+.accent{color:var(--cyan)} .red{color:var(--red)} .amber{color:var(--amber)}
+
+/* 眉標：章節 + 主題 */
+.eyebrow{display:flex;align-items:center;gap:.6rem;font-family:var(--font-mono);font-size:var(--small-size);color:var(--cyan);letter-spacing:.14em;text-transform:uppercase}
+.eyebrow::before{content:"";width:clamp(22px,3vw,44px);height:2px;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}
+
+/* 觀眾層級標籤 */
+.tags{position:absolute;top:calc(var(--slide-padding) * .62);right:calc(var(--slide-padding) * .7);display:flex;gap:.4rem;z-index:5}
+.tag{font-family:var(--font-mono);font-size:clamp(.56rem,.9vw,.72rem);padding:.24em .7em;border-radius:999px;border:1px solid;letter-spacing:.06em;background:rgba(0,0,0,.25);backdrop-filter:blur(4px)}
+.t-base{color:var(--green);border-color:rgba(57,217,138,.5)}
+.t-adv{color:var(--blue);border-color:rgba(74,168,255,.5)}
+.t-cross{color:var(--purple);border-color:rgba(185,140,255,.5)}
+
+/* ===== 進場動畫 ===== */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.slide.active .reveal{opacity:1;transform:none}
+.slide.active .reveal:nth-child(1){transition-delay:.06s}
+.slide.active .reveal:nth-child(2){transition-delay:.14s}
+.slide.active .reveal:nth-child(3){transition-delay:.22s}
+.slide.active .reveal:nth-child(4){transition-delay:.30s}
+.slide.active .reveal:nth-child(5){transition-delay:.38s}
+.slide.active .reveal:nth-child(6){transition-delay:.46s}
+
+/* ===== 封面 ===== */
+.cover{justify-content:center;align-items:flex-start}
+.cover .kicker{font-family:var(--font-mono);color:var(--cyan);letter-spacing:.3em;font-size:var(--small-size);text-transform:uppercase}
+.cover h1{font-size:clamp(2.1rem,7vw,5.4rem);margin:.2em 0 .1em}
+.cover h1 .sub{display:block;font-weight:400;font-size:.42em;color:var(--muted);letter-spacing:.02em;margin-top:.3em}
+.cover .byline{margin-top:1.2rem;color:var(--muted);font-size:var(--body-size)}
+.cover .byline b{color:var(--ink)}
+.heartbeat{position:absolute;left:0;right:0;bottom:0;height:22%;opacity:.5}
+
+/* ===== 卡片/格線 ===== */
+.grid{display:grid;gap:clamp(.5rem,1.4vw,1rem)}
+.card{background:linear-gradient(180deg,var(--panel),#0c1522);border:1px solid var(--line);border-radius:16px;padding:clamp(.7rem,1.6vw,1.3rem)}
+.card h3{margin-bottom:.35em}
+.card .ic{font-size:clamp(1.1rem,2.4vw,1.7rem);margin-bottom:.2em}
+
+/* 條列 */
+ul.clean{list-style:none;display:flex;flex-direction:column;gap:clamp(.35rem,1vh,.7rem)}
+ul.clean li{position:relative;padding-left:1.5em}
+ul.clean li::before{content:"▸";position:absolute;left:0;color:var(--cyan)}
+
+/* ===== 同頁展開方塊（Fellow 深入 / 深度分層核心元件） ===== */
+.expandbox{border:1px solid rgba(74,168,255,.4);border-radius:14px;overflow:hidden;background:linear-gradient(180deg,rgba(74,168,255,.10),rgba(74,168,255,.03))}
+.exp-head{display:flex;align-items:center;gap:.6em;cursor:pointer;padding:clamp(.55rem,1.3vw,.9rem) clamp(.7rem,1.5vw,1.1rem);user-select:none}
+.exp-head .badge{font-family:var(--font-mono);font-size:var(--small-size);color:var(--blue);border:1px solid rgba(74,168,255,.5);padding:.1em .6em;border-radius:999px;letter-spacing:.05em}
+.exp-head .exp-title{font-weight:700;color:#dcecff;font-size:var(--body-size)}
+.exp-head .chev{margin-left:auto;color:var(--blue);transition:transform .35s var(--ease)}
+.expandbox.open .chev{transform:rotate(180deg)}
+.exp-body{max-height:0;opacity:0;transition:max-height .45s var(--ease),opacity .35s;}
+.expandbox.open .exp-body{max-height:44vh;opacity:1}
+.exp-body-inner{padding:0 clamp(.7rem,1.5vw,1.1rem) clamp(.7rem,1.5vw,1.1rem);border-top:1px solid rgba(74,168,255,.2);font-size:var(--small-size);line-height:1.6;color:#cfe0f5}
+.exp-body-inner p+p{margin-top:.5em}
+
+/* ===== GIF 插槽（具名真實影片位置） ===== */
+.gifslot{position:relative;border:2px dashed rgba(255,80,100,.5);border-radius:16px;background:
+  repeating-linear-gradient(45deg,rgba(255,80,100,.04),rgba(255,80,100,.04) 12px,transparent 12px,transparent 24px);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1rem;gap:.4em;min-height:clamp(120px,26vh,260px)}
+.gifslot .cam{font-size:clamp(1.4rem,3vw,2.2rem);filter:drop-shadow(0 0 10px rgba(255,80,100,.5))}
+.gifslot .lbl{font-family:var(--font-mono);color:var(--red);font-size:var(--small-size);letter-spacing:.04em}
+.gifslot .desc{color:#f0c6cc;font-size:var(--body-size);font-weight:700;max-width:26ch}
+.gifslot .hint{color:var(--faint);font-size:clamp(.6rem,.9vw,.72rem)}
+.gifslot::after{content:"REC ●";position:absolute;top:.6em;right:.8em;font-family:var(--font-mono);font-size:.6rem;color:var(--red);letter-spacing:.1em;animation:blink 1.4s steps(1) infinite}
+@keyframes blink{50%{opacity:.15}}
+
+/* ===== 章節分隔頁 ===== */
+.divider{justify-content:center}
+.divider .num{font-family:var(--font-mono);font-size:clamp(4rem,20vw,16rem);font-weight:700;line-height:.8;color:transparent;-webkit-text-stroke:2px rgba(63,224,200,.45);letter-spacing:-.03em}
+.divider h1{margin-top:.1em}
+.divider .lead{color:var(--muted);max-width:40ch;margin-top:.6em;font-size:var(--h3-size)}
+.chapter-list{margin-top:1.4rem;display:flex;flex-wrap:wrap;gap:.5rem}
+.chapter-list span{font-family:var(--font-mono);font-size:var(--small-size);color:var(--muted);border:1px solid var(--line);padding:.3em .8em;border-radius:999px}
+
+/* ===== 兩欄版面 ===== */
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(1rem,2.4vw,2.2rem);align-items:center;flex:1;min-height:0}
+.two .col{min-height:0;display:flex;flex-direction:column;gap:var(--content-gap);justify-content:center}
+@media(max-width:820px){.two{grid-template-columns:1fr;overflow:auto}}
+
+/* ===== SVG 舞台 ===== */
+.stage{width:100%;max-height:52vh;display:block}
+.figcap{font-family:var(--font-mono);font-size:var(--small-size);color:var(--faint);text-align:center;margin-top:.4em}
+
+/* 血流粒子動畫（沿血管流動的點） */
+.flow-dot{fill:var(--red)}
+@keyframes flow{from{offset-distance:0%}to{offset-distance:100%}}
+
+/* 氣球擴張 */
+@keyframes inflate{0%,15%{transform:scaleY(.18)}55%,75%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+/* 支架撐開 */
+@keyframes stentopen{0%,25%{transform:scaleY(.25);opacity:.6}70%,100%{transform:scaleY(1);opacity:1}}
+/* 狹窄處管壁 */
+@keyframes widen{0%,20%{d:path(var(--narrow))}70%,100%{d:path(var(--wide))}}
+
+/* ===== 步驟流程（Ch2 overview） ===== */
+.pipe{display:grid;grid-template-columns:repeat(7,1fr);gap:.5rem;align-items:stretch}
+.pstep{background:linear-gradient(180deg,var(--panel),#0b1420);border:1px solid var(--line);border-radius:12px;padding:clamp(.5rem,1.1vw,.9rem);display:flex;flex-direction:column;gap:.3em;position:relative}
+.pstep .n{font-family:var(--font-mono);color:var(--cyan);font-size:var(--small-size)}
+.pstep .t{font-weight:700;font-size:clamp(.72rem,1.15vw,.95rem);line-height:1.2}
+.pstep .d{font-size:clamp(.6rem,.92vw,.78rem);color:var(--muted);line-height:1.35}
+.pstep:not(:last-child)::after{content:"→";position:absolute;right:-.5rem;top:50%;transform:translateY(-50%);color:var(--faint);z-index:3;font-size:.9rem}
+@media(max-width:820px){.pipe{grid-template-columns:1fr 1fr}.pstep::after{display:none}}
+
+/* 徽章/量表 */
+.pill{display:inline-flex;align-items:center;gap:.4em;font-family:var(--font-mono);font-size:var(--small-size);padding:.25em .7em;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.timibar{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}
+.timibar .lvl{border:1px solid var(--line);border-radius:10px;padding:.5em .6em;background:var(--panel)}
+.timibar .lvl b{font-family:var(--font-mono);color:var(--cyan)}
+.timibar .lvl small{display:block;color:var(--muted);font-size:clamp(.6rem,.9vw,.74rem);margin-top:.2em}
+
+/* ===== 導覽 UI ===== */
+.progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--cyan),var(--red));width:0;z-index:50;box-shadow:0 0 12px var(--cyan);transition:width .4s var(--ease)}
+.hud{position:fixed;bottom:clamp(.5rem,1.5vh,1rem);left:0;right:0;display:flex;align-items:center;justify-content:center;gap:1rem;z-index:40;pointer-events:none;font-family:var(--font-mono);font-size:var(--small-size);color:var(--faint)}
+.hud .chapname{color:var(--muted)}
+.hud .count{color:var(--cyan)}
+.navbtn{position:fixed;top:50%;transform:translateY(-50%);z-index:45;width:clamp(34px,4vw,46px);height:clamp(34px,4vw,46px);border-radius:50%;border:1px solid var(--line);background:rgba(10,16,26,.6);color:var(--ink);cursor:pointer;font-size:1.1rem;backdrop-filter:blur(6px);transition:.25s}
+.navbtn:hover{border-color:var(--cyan);color:var(--cyan)}
+.navbtn.left{left:clamp(.4rem,1.5vw,1rem)} .navbtn.right{right:clamp(.4rem,1.5vw,1rem)}
+.hint{position:fixed;bottom:clamp(.5rem,1.5vh,1rem);right:clamp(.6rem,1.5vw,1.2rem);z-index:40;font-family:var(--font-mono);font-size:clamp(.6rem,.9vw,.72rem);color:var(--faint)}
+
+/* 總覽格 (按 O) */
+.overview{position:fixed;inset:0;z-index:60;background:rgba(5,8,14,.96);backdrop-filter:blur(8px);padding:clamp(1rem,3vw,2.4rem);overflow:auto;display:none}
+.overview.show{display:block}
+.overview h2{margin-bottom:1rem}
+.ovgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.7rem}
+.ovcard{border:1px solid var(--line);border-radius:10px;padding:.7rem;cursor:pointer;background:var(--panel);transition:.2s;min-height:78px}
+.ovcard:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.ovcard .oc-n{font-family:var(--font-mono);color:var(--cyan);font-size:.72rem}
+.ovcard .oc-t{font-size:.82rem;margin-top:.3em;color:#dbe6f5;line-height:1.3}
+.ovcard .oc-ch{font-size:.62rem;color:var(--faint);margin-top:.35em;font-family:var(--font-mono)}
+
+/* 註腳/引用 */
+.src{font-size:clamp(.58rem,.85vw,.7rem);color:var(--faint);font-family:var(--font-mono)}
+
+/* ===== 互動 MCQ ===== */
+.mcq{border:1px solid var(--line);border-radius:14px;padding:clamp(.65rem,1.5vw,1.1rem);background:var(--panel);display:flex;flex-direction:column;gap:.45rem}
+.mcq .q{font-weight:700;color:#eaf2ff;font-size:var(--body-size)}
+.mcq .opt{text-align:left;font-family:var(--font-body);font-size:var(--small-size);color:#d6e2f2;background:#0e1826;border:1px solid var(--line);border-radius:10px;padding:.5em .8em;cursor:pointer;transition:.2s}
+.mcq .opt::before{content:attr(data-k);font-family:var(--font-mono);color:var(--cyan);margin-right:.6em}
+.mcq .opt:hover{border-color:var(--cyan)}
+.mcq.answered .opt{cursor:default}
+.mcq.answered .opt[data-correct]{border-color:var(--green);background:rgba(57,217,138,.14);color:#d7ffe9}
+.mcq .opt.wrong{border-color:var(--red);background:rgba(255,80,100,.12)}
+.mcq .explain{display:none;font-size:var(--small-size);color:#cfe0f5;border-top:1px solid var(--line);padding-top:.45em;line-height:1.5}
+.mcq.answered .explain{display:block}
+.reflect{border-left:3px solid var(--purple);background:rgba(185,140,255,.08);border-radius:0 12px 12px 0;padding:.7rem 1rem;font-size:var(--body-size);color:#e7dcff}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.2s!important}
+}
+@media (max-height:600px){.tags{display:none}.hint{display:none}}
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<div class="deck" id="deck">
+
+  <!-- ============ 封面 ============ -->
+  <section class="slide cover" data-chap="封面">
+    <div class="slide-inner reveal-wrap">
+      <div class="kicker reveal">NTUH Hsinchu · Cath Room Teaching · 3-01</div>
+      <h1 class="reveal">PCI 冠脈介入概論
+        <span class="sub">Percutaneous Coronary Intervention — 從穿刺到支架，一台導管怎麼走</span>
+      </h1>
+      <div class="byline reveal">
+        深度互動教學版 · 繁體中文　|　對象：<b>新進技術員</b> · <b>專科護理師</b> · <b>Fellow</b> · <b>跨科同仁</b><br>
+        <span class="dim">謝慕揚 Drake Mu-Yang Hsieh, MD PhD　·　新竹臺大醫院 心血管中心</span>
+      </div>
+    </div>
+    <!-- 底部 ECG 心跳線 -->
+    <svg class="heartbeat" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,140 L360,140 L390,140 L410,60 L430,180 L450,20 L470,140 L520,140 L900,140 L930,140 L950,90 L970,160 L990,140 L1200,140"
+            fill="none" stroke="var(--red)" stroke-width="3" opacity=".9">
+        <animate attributeName="stroke-dasharray" from="0,2000" to="2000,0" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </svg>
+  </section>
+
+  <!-- ============ 圖例 / 使用說明 ============ -->
+  <section class="slide" data-chap="使用說明">
+    <div class="slide-inner">
+      <div class="eyebrow reveal">如何使用這份講義</div>
+      <h2 class="reveal">三種標籤、一頁三層深度</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><div class="ic">🟢</div><h3 style="color:var(--green)">基礎</h3><p>技術員 / 專科護理師必備。名詞、流程、照護、警訊。</p></div>
+        <div class="card"><div class="ic">🔵</div><h3 style="color:var(--blue)">進階</h3><p>Fellow 深入。機轉、實證、指引、判讀決策。</p></div>
+        <div class="card"><div class="ic">🟣</div><h3 style="color:var(--purple)">跨科</h3><p>跨科同仁。適應症、藥物、制度與轉介重點。</p></div>
+      </div>
+      <div class="expandbox reveal" style="margin-top:.4rem">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">點我展開 —— 每張投影片的藍色方塊都可這樣打開</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>核心訊息所有人都看得到；需要更深的機轉、試驗數據、指引級別時，點開藍色方塊即可，不干擾第一次接觸的新手。紅色虛線框則是 <b class="red">真實 cath 影片插槽</b>，標好了要放哪一段動態影像，之後把檔案丟進去就位。</p>
+        </div></div>
+      </div>
+      <p class="src reveal">鍵盤：← → 或空白鍵翻頁　·　按 O 開總覽　·　按 F 全螢幕</p>
+    </div>
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+  </section>
+
+  <!-- ============ 第 0 章 分隔 ============ -->
+  <section class="slide divider" data-chap="0 導論">
+    <div class="slide-inner">
+      <div class="num reveal">00</div>
+      <div class="eyebrow reveal">Chapter 0</div>
+      <h1 class="reveal">導論：為什麼要做 PCI？</h1>
+      <p class="lead reveal">從一塊斑塊，到一條缺血的心肌——先看懂「敵人」，再談怎麼打。</p>
+      <div class="chapter-list reveal"><span>冠心病病生理</span><span>缺血的血流動力學</span><span>OMT vs PCI vs CABG</span></div>
+    </div>
+  </section>
+
+  <!-- 0-1 病生理 + 血管狹窄 SVG -->
+  <section class="slide" data-chap="0 導論">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">0-1　冠心病病生理</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">動脈粥狀硬化：管腔是怎麼變窄的</h2>
+          <ul class="clean reveal">
+            <li>脂質沉積 → 發炎細胞浸潤 → 形成<strong>斑塊 (plaque)</strong></li>
+            <li>斑塊使管腔<strong>狹窄 (stenosis)</strong>，冠脈血流受限</li>
+            <li>需氧 &gt; 供氧 → 心肌<strong class="red">缺血 (ischemia)</strong> → 心絞痛</li>
+            <li>斑塊破裂 + 血栓 → <strong class="red">急性冠心症 (ACS)</strong></li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">穩定斑塊 vs 易損斑塊（vulnerable plaque）</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>造成 ACS 的常是<b>非阻塞性</b>但富脂質核心、薄纖維帽（TCFA）的易損斑塊，其破裂/侵蝕觸發血栓；這與「穩定型狹窄程度」不一定成正比，也是為何影像（OCT/IVUS）與生理（FFR）互補的原因。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- SVG：血管縱切，斑塊使管腔變窄，紅色血流粒子受阻 -->
+          <svg class="stage" viewBox="0 0 520 260" role="img" aria-label="血管狹窄示意">
+            <defs>
+              <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ff8a97"/><stop offset="1" stop-color="#b0313f"/>
+              </linearGradient>
+              <path id="lumen" d="M20,130 C160,130 180,175 260,175 C340,175 360,130 500,130" />
+            </defs>
+            <!-- 血管外壁 -->
+            <path d="M20,70 C160,70 180,40 260,40 C340,40 360,70 500,70 L500,190 C360,190 340,220 260,220 C180,220 160,190 20,190 Z"
+                  fill="#241016" stroke="url(#wall)" stroke-width="5"/>
+            <!-- 斑塊（上下對稱使中段收窄） -->
+            <path d="M150,72 C210,72 235,120 260,120 C285,120 310,72 370,72 C340,96 300,104 260,104 C220,104 180,96 150,72Z" fill="#f2c14e" opacity=".92"/>
+            <path d="M150,188 C210,188 235,140 260,140 C285,140 310,188 370,188 C340,164 300,156 260,156 C220,156 180,164 150,188Z" fill="#f2c14e" opacity=".92"/>
+            <text x="260" y="30" fill="#f2c14e" font-family="Space Mono" font-size="13" text-anchor="middle">斑塊 plaque</text>
+            <!-- 血流粒子沿管腔中線流動，經狹窄處 -->
+            <g>
+              <circle class="flow-dot" r="6"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#lumen"/></animateMotion></circle>
+              <circle class="flow-dot" r="6" opacity=".7"><animateMotion dur="2.4s" begin="-.8s" repeatCount="indefinite"><mpath href="#lumen"/></animateMotion></circle>
+              <circle class="flow-dot" r="6" opacity=".45"><animateMotion dur="2.4s" begin="-1.6s" repeatCount="indefinite"><mpath href="#lumen"/></animateMotion></circle>
+            </g>
+          </svg>
+          <div class="figcap reveal">SVG 機制動畫 · 紅點＝受阻的冠脈血流</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 0-2 缺血的血流動力學 -->
+  <section class="slide" data-chap="0 導論">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">0-2　缺血的血流動力學</div>
+      <h2 class="reveal">狹窄到什麼程度，才會「缺血」？</h2>
+      <ul class="clean reveal" style="max-width:80ch">
+        <li>心肌缺血＝<strong>供氧 &lt; 需氧</strong>；狹窄限制了最大血流（flow reserve）</li>
+        <li>靜息時輕度狹窄可代償；<strong>運動/壓力</strong>下需求上升才顯現缺血</li>
+        <li>「看起來很窄」不等於「造成缺血」——這正是 <strong class="accent">FFR/iFR 生理評估</strong>的價值</li>
+      </ul>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">狹窄嚴重度—血流關係、CFR 與微血管疾病</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>狹窄與血流呈<b>非線性</b>關係：直徑狹窄超過約 70% 才明顯影響<b>充血血流</b>（靜息血流通常到 &gt;85–90% 才降）。<b>CFR（coronary flow reserve）</b>整合心外膜與微血管；<b>微血管疾病（CMD/INOCA）</b>可在無阻塞性狹窄下造成缺血，需 CFR/IMR 評估。這串起 3-2 的 FFR/iFR 判讀。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 0-3 治療光譜定位 -->
+  <section class="slide" data-chap="0 導論">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">0-3　PCI 在治療光譜的定位</div>
+      <h2 class="reveal">同樣是冠心病，為什麼有人吃藥、有人放支架、有人開刀？</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><div class="ic accent">💊</div><h3>OMT 藥物治療</h3><p>最佳藥物治療是<strong>所有人的地基</strong>：抗血小板、statin、控制危險因子。穩定型冠心病常先 OMT。</p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><div class="ic accent">🎈</div><h3>PCI 導管介入</h3><p>經皮、局麻、恢復快。缺血症狀頑固、ACS、或高風險狹窄時進場。<strong>本講義主角。</strong></p></div>
+        <div class="card"><div class="ic red">🫀</div><h3>CABG 繞道手術</h3><p>多血管/左主幹合併糖尿病、複雜解剖（高 SYNTAX）時，外科繞道長期效益較佳。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow / 🟣 跨科</span><span class="exp-title">決策依據：2021 ACC/AHA/SCAI 血運重建指引 + Heart Team</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>左主幹與三血管病變、尤其合併糖尿病，需 <b>Heart Team</b> 討論；SYNTAX score 量化解剖複雜度。ISCHEMIA 試驗顯示穩定型病人在 OMT 之上常規侵入性處置未降低硬終點，故「先 OMT、症狀/缺血導向再介入」是現行主流；ACS 則相反，及時血運重建改善預後。</p>
+        </div></div>
+      </div>
+      <p class="src reveal">來源標註：2021 ACC/AHA/SCAI Revascularization · ISCHEMIA (NEJM 2020)　※數據以最新版指引為準</p>
+    </div>
+  </section>
+
+  <!-- ============ 第 1 章 分隔 ============ -->
+  <section class="slide divider" data-chap="1 名詞與器械">
+    <div class="slide-inner">
+      <div class="num reveal">01</div>
+      <div class="eyebrow reveal">Chapter 1</div>
+      <h1 class="reveal">名詞與器械</h1>
+      <p class="lead reveal">先把導管室的「語言」與「工具箱」搞懂——這是技術員與專師每天都要用的地基。</p>
+      <div class="chapter-list reveal"><span>核心名詞</span><span>支架演進</span><span>器械家族</span><span>Sheath 大小</span><span>止血閥</span><span>團隊流程</span></div>
+    </div>
+  </section>
+
+  <!-- 1-1 核心名詞 glossary -->
+  <section class="slide" data-chap="1 名詞與器械">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-1　導管室的語言</div>
+      <h2 class="reveal">先聽懂這些縮寫，交班才接得上</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><h3 class="accent">CAG</h3><p>冠狀動脈攝影（診斷用「照相」）。<span class="dim">只看不治療。</span></p></div>
+        <div class="card"><h3 class="accent">PCI</h3><p>經皮冠狀動脈介入（治療）。<br><span class="mono dim">PTCA = POBA = 純氣球擴張術</span></p></div>
+        <div class="card"><h3 class="accent">Sheath 血管鞘</h3><p>器械進出的通道；又叫「導引鞘」。</p></div>
+        <div class="card"><h3 class="accent">Guiding</h3><p>導引導管——支撐與運送器械到冠脈開口。</p></div>
+        <div class="card"><h3 class="accent">Wire 導絲</h3><p>先鋒，越過病灶當作器械的軌道。</p></div>
+        <div class="card"><h3 class="accent">局麻 LA</h3><p>穿刺處局部麻醉；病人全程清醒可對話。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">CAG 與 PCI 常同一台完成？「ad hoc PCI」的取捨</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>診斷造影後若病灶明確、資訊充分，常於同一台直接介入（<b>ad hoc PCI</b>），省一次穿刺與住院。但左主幹、多血管、需 Heart Team 討論或需 CABG 評估者，宜先停下、完整討論再擇期處置。穩定型病人 ad hoc 前應確認缺血證據（症狀／功能性檢查／FFR）。</p>
+          <p>顯影劑（contrast）用量與術後腎功能相關，導管報告都會記錄總量——併發症章（Ch4）會談 CA-AKI 的預防與 contrast-sparing 策略。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1-2 支架演進 BMS→DES→DCB -->
+  <section class="slide" data-chap="1 名詞與器械">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-2　支架的演進</div>
+      <h2 class="reveal">從裸金屬到塗藥，再到「什麼都不留」</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><h3>BMS 裸金屬支架</h3><p>便宜，但<strong class="red">再狹窄率高</strong>（新生內膜增生）。現已少用。</p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><h3 class="accent">DES 塗藥支架</h3><p>釋放抗增生藥物，<strong>再狹窄率低</strong>。當代首選。<br><span class="dim">健保給付有條件；超規格為全額自費或差額。</span></p></div>
+        <div class="card"><h3>DCB 藥物球囊</h3><p>「leave nothing behind」：只送藥不留金屬。用於再狹窄、小血管、分叉。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">DES 世代與 DAPT：strut 越薄越好？聚合物之爭</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>第一代 DES</b>（SES/PES，永久聚合物）降低再狹窄，但有<b class="red">晚期/極晚期支架血栓</b>疑慮，需長 DAPT。<b>第二代</b>（EES/ZES，含氟聚合物、鈷鉻薄支柱）安全性大幅提升，成為主流。<b>當代</b>趨勢：ultrathin struts（&lt;70 µm）與<b>生物可降解聚合物</b>／無聚合物設計，兼顧內皮化與縮短 DAPT 彈性。</p>
+          <p>薄支柱與良好貼壁降低血栓與再狹窄；但過薄在重度鈣化未充分準備下仍可 underexpansion。<b>DCB</b> 實證：支架內再狹窄（ISR）為 I 類考量、小血管與高出血風險族群「金屬最小化」策略漸增。</p>
+        </div></div>
+      </div>
+      <p class="src reveal">健保「血管支架給付規定」全文與適應症見 Ch7 · DCB/DES 實證見 Ch6</p>
+    </div>
+  </section>
+
+  <!-- 1-3 器械家族 + SVG toolchain -->
+  <section class="slide" data-chap="1 名詞與器械">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-3　器械家族</div>
+      <h2 class="reveal">從皮膚到病灶，器械是一層套一層的</h2>
+      <!-- SVG：同軸器械鏈 skin→sheath→guiding→wire→balloon/stent -->
+      <svg class="stage reveal" viewBox="0 0 900 200" role="img" aria-label="同軸器械鏈示意" style="max-height:34vh">
+        <!-- 皮膚 -->
+        <rect x="0" y="70" width="70" height="60" fill="#3a2a24"/><text x="35" y="150" fill="#c9a" font-family="Space Mono" font-size="13" text-anchor="middle">皮膚</text>
+        <!-- sheath -->
+        <rect x="70" y="80" width="180" height="40" rx="8" fill="rgba(63,224,200,.15)" stroke="var(--cyan)" stroke-width="2"/><text x="160" y="150" fill="var(--cyan)" font-family="Space Mono" font-size="13" text-anchor="middle">Sheath 鞘</text>
+        <!-- guiding catheter -->
+        <path d="M120,100 H520 Q560,100 560,90" fill="none" stroke="#9fe8ff" stroke-width="10" stroke-linecap="round"/><text x="360" y="78" fill="#9fe8ff" font-family="Space Mono" font-size="13" text-anchor="middle">Guiding 導引導管</text>
+        <!-- guidewire -->
+        <path d="M130,100 H760" fill="none" stroke="#ffd166" stroke-width="3"/><circle cx="762" cy="100" r="4" fill="#ffd166"/><text x="660" y="128" fill="#ffd166" font-family="Space Mono" font-size="13" text-anchor="middle">Guidewire 導絲</text>
+        <!-- balloon/stent 位置 -->
+        <rect x="600" y="88" width="90" height="24" rx="12" fill="rgba(255,80,100,.25)" stroke="var(--red)" stroke-width="2"/><text x="645" y="72" fill="var(--red)" font-family="Space Mono" font-size="13" text-anchor="middle">Balloon / Stent</text>
+        <!-- 冠脈開口 -->
+        <path d="M560,90 Q700,40 820,60" fill="none" stroke="url(#wall)" stroke-width="6"/><text x="820" y="50" fill="#ff9aa6" font-family="Space Mono" font-size="12" text-anchor="middle">冠脈</text>
+        <defs><linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff8a97"/><stop offset="1" stop-color="#b0313f"/></linearGradient></defs>
+      </svg>
+      <ul class="clean reveal" style="max-width:70ch">
+        <li><strong>Sheath</strong> 固定通道 → <strong>Guiding</strong> 咬合冠脈開口、給支撐 → <strong>Wire</strong> 越過病灶 → <strong>Balloon/Stent</strong> 沿導絲上去治療</li>
+        <li>器械尺寸環環相扣：guiding 的內徑（Fr）決定能塞哪些器械</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 1-4 Sheath 大小怎麼分 + French -->
+  <section class="slide" data-chap="1 名詞與器械">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-4　Sheath 大小怎麼分</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">顏色、French，與那條「不能用顏色分」的 Cook</h2>
+          <ul class="clean reveal">
+            <li><strong>Terumo sheath 用顏色分</strong>：4 / 5 / 6 / 7 / 8 / 10 / 12 Fr 各一色</li>
+            <li><strong class="amber">Cook Shuttle sheath 沒辦法用顏色分</strong>——要看包裝與標示確認尺寸</li>
+            <li>拿錯尺寸＝器械進不去或止血困難，<strong>上台前務必對號</strong></li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">French 換算與「內徑 vs 外徑」的陷阱</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>Sheath 標示的是<b>內徑（可通過器械的大小）</b>，實際在血管內的<b>外徑</b>更大（約大 1.5–2 Fr，依廠牌）。橈動脈細者選 slender/thin-wall sheath 可用較小外徑通過同樣內徑，降低痙攣與橈動脈阻塞。Sheathless guiding 亦為極細橈路徑選項。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card reveal" style="text-align:center;padding:1.4rem">
+            <div class="mono dim" style="font-size:var(--small-size)">French 定義</div>
+            <div style="font-family:var(--font-display);font-weight:800;font-size:clamp(1.6rem,4vw,3rem);color:var(--cyan);margin:.3em 0">3 Fr = 1 mm</div>
+            <p class="dim">以 mm 為單位的直徑 × 3 ＝ French 數<br>例：2 mm 導管 ≈ 6 Fr</p>
+          </div>
+          <p class="src reveal" style="text-align:center">週邊各適應症的 sheath 長度/Fr 對照表見 Ch2 快速參考卡</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1-5 止血閥與器材小抄 Copilot/Goodtec -->
+  <section class="slide" data-chap="1 名詞與器械">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-5　止血閥與導管室器材小抄</div>
+      <h2 class="reveal">Y 型接頭上的「止血閥」是誰在用哪一款</h2>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="card" style="border-color:#444"><h3>Copilot（黑）</h3><p>使用者：<strong>楊、廖、小林</strong></p><p class="dim">止血閥（hemostatic valve）裝在 Y-connector 上，讓導絲/器械進出時不噴血。</p></div>
+        <div class="card" style="border-color:var(--amber)"><h3 class="amber">Goodtec（黃）</h3><p>使用者：<strong>其他人</strong></p><p class="dim">不同品牌手感/鎖定方式略異，備台前先確認該操作者慣用款。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">Y-connector / manifold / insertion tool 的角色</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>Y-connector</b> 一端接 guiding、側臂接壓力/顯影，主孔經<b>止血閥</b>進器械；<b>manifold</b> 管理生理食鹽水沖洗、顯影劑與壓力監測的多向切換；<b>introducer/insertion tool</b> 幫導絲順利穿過止血閥不損傷塗層。備台時把這條「液路與器械路」理順，可大幅減少術中換手與空氣栓塞風險。</p>
+        </div></div>
+      </div>
+      <p class="src reveal">此為新竹臺大導管室慣例分配，實際以現場公告與操作者為準</p>
+    </div>
+  </section>
+
+  <!-- 1-6 團隊與流程總覽 -->
+  <section class="slide" data-chap="1 名詞與器械">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-6　團隊與流程</div>
+      <h2 class="reveal">一台 PCI，誰在做什麼</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(2,1fr)">
+        <div class="card"><h3 class="accent">術者 Operator</h3><p>穿刺、操作導管器械、決策。</p></div>
+        <div class="card"><h3 class="accent">技術員 / 放射師</h3><p>備台、遞器械、影像機台（投照角度）、輻射管控。</p></div>
+        <div class="card"><h3 class="accent">專科護理師 / 護理</h3><p>給藥、監測生命徵象與 ECG、病人安撫、記錄、術後照護與衛教。</p></div>
+        <div class="card"><h3 class="accent">跨科支援</h3><p>麻醉/CVS/腎臟/急診——高風險或併發症時的後盾。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow / 🟣 跨科</span><span class="exp-title">Time-out 與團隊溝通：安全從「開口確認」開始</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>上台前 <b>time-out</b> 核對病人、部位、過敏、抗凝狀態、腎功能與同意書；術中以標準用語回報 ACT、顯影劑量、生命徵象變化。良好的閉環溝通（closed-loop）能讓 no-reflow、低血壓、心律不整等狀況被<b>提早半步</b>發現——這正是技術員與專師的價值所在。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 2 章 分隔 ============ -->
+  <section class="slide divider" data-chap="2 一台 PCI 怎麼走">
+    <div class="slide-inner">
+      <div class="num reveal">02</div>
+      <div class="eyebrow reveal">Chapter 2 · Pilot</div>
+      <h1 class="reveal">一台 PCI 怎麼走</h1>
+      <p class="lead reveal">七個步驟，從皮膚到最終血流。每一步都配機制動畫與真實影片插槽。</p>
+      <div class="chapter-list reveal"><span>Access</span><span>Engage</span><span>Wiring</span><span>Predilate</span><span>Stent</span><span>Post-dilate</span><span>Final</span></div>
+    </div>
+  </section>
+
+  <!-- 2-0 七步驟 overview -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-0　流程總覽</div>
+      <h2 class="reveal">PCI 七步驟 — 先有全圖，再拆解</h2>
+      <div class="pipe reveal">
+        <div class="pstep"><span class="n">01</span><span class="t">Access 血管路徑</span><span class="d">橈動脈優先，置入 sheath</span></div>
+        <div class="pstep"><span class="n">02</span><span class="t">Engage 置放導管</span><span class="d">導引導管咬合冠脈開口</span></div>
+        <div class="pstep"><span class="n">03</span><span class="t">Wiring 導絲通過</span><span class="d">導絲越過病灶到遠端</span></div>
+        <div class="pstep"><span class="n">04</span><span class="t">Predilate 預擴張</span><span class="d">小氣球先撐開病灶</span></div>
+        <div class="pstep"><span class="n">05</span><span class="t">Stent 支架釋放</span><span class="d">支架定位、加壓撐開</span></div>
+        <div class="pstep"><span class="n">06</span><span class="t">Post-dilate 後擴張</span><span class="d">高壓球貼合支架</span></div>
+        <div class="pstep"><span class="n">07</span><span class="t">Final 完成確認</span><span class="d">最終造影 / 影像確認</span></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">流程不是死板的——什麼時候可以 direct stenting、什麼時候要 rota？</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>病灶軟、可通過性佳者可 <b>direct stenting</b>（省略預擴）；鈣化嚴重、球囊無法擴張則需病灶準備（NC balloon、cutting/scoring、<b>rotational atherectomy</b>、IVL）。詳見 5-07~5-16 Rotablation 系列與影像導引章。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-1 Access + GIF slot -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-1　Step 1 · Access 血管路徑</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">橈動脈優先 (radial-first)</h2>
+          <ul class="clean reveal">
+            <li>相較股動脈，<strong>出血與穿刺併發症更少</strong>、可早下床</li>
+            <li>超音波導引 + micropuncture 降低併發症</li>
+            <li>置入 <strong>sheath（血管鞘）</strong>作為器械進出通道</li>
+            <li>遠端橈動脈 (distal radial / snuffbox) 為新選項</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">實證：為何 radial 成為預設？</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>RIVAL、MATRIX、RIVER 等試驗顯示橈動脈路徑降低大出血與血管併發症，ACS 病人甚至有存活率獲益。需注意 Barbeau/Allen 評估、痙攣預防（雞尾酒）、與 radial artery occlusion 之預防（適當抗凝、patent hemostasis）。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gifslot reveal">
+            <div class="cam">🎥</div>
+            <div class="lbl">CATH GIF 插槽 · 2-1</div>
+            <div class="desc">此處放：橈動脈超音波導引穿刺 + sheath 置入 的實拍影片</div>
+            <div class="hint">建議 6–10 秒 · 之後用 AVI→壓縮 GIF 流程轉檔崁入</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-2 Engage guiding catheter -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-2　Step 2 · Engage 置放導引導管</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">導引導管「咬合」冠脈開口</h2>
+          <ul class="clean reveal">
+            <li>不同形狀對應不同開口：<strong>JL</strong>（左冠）、<strong>JR</strong>（右冠）等</li>
+            <li>要<strong>同軸（co-axial）</strong>，才能給支撐又不傷開口</li>
+            <li>提供 <strong>backup support</strong> 讓器械上得去</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">Damping / ventricularization：開口的警訊</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>導管咬合後若壓力波形出現 <b>damping（壓幅變小）</b>或 <b>ventricularization</b>，代表開口狹窄或導管過深堵住血流——<b>缺血/心律不整風險</b>。處置：退出、換 side-hole 導管或更適形狀，必要時先處理開口病灶。左主幹尤其謹慎。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gifslot reveal">
+            <div class="cam">🎥</div>
+            <div class="lbl">CATH GIF 插槽 · 2-2</div>
+            <div class="desc">此處放：導引導管咬合左/右冠開口的實拍</div>
+            <div class="hint">可並排壓力波形，示範 damping</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-3 Wiring -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-3　Step 3 · Wiring 導絲通過</div>
+      <div class="two">
+        <div class="col">
+          <div class="gifslot reveal">
+            <div class="cam">🎥</div>
+            <div class="lbl">CATH GIF 插槽 · 2-3</div>
+            <div class="desc">此處放：導絲越過病灶、抵達遠端的實拍</div>
+          </div>
+        </div>
+        <div class="col">
+          <h2 class="reveal">導絲當「軌道」，先鋒越過病灶</h2>
+          <ul class="clean reveal">
+            <li>workhorse wire 通過狹窄、送到<strong>遠端血管</strong></li>
+            <li>導絲是後續氣球/支架的<strong>單軌</strong></li>
+            <li>要確認走在<strong>真腔</strong>、勿造成剝離或穿孔</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">導絲家族與 accordion pseudo-lesion</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>依 tip load 與塗層分 workhorse／polymer-jacketed／CTO 高穿透導絲。硬導絲在彎曲血管可造成 <b>accordion phenomenon（假性病灶）</b>——退導絲即回復，勿誤當真狹窄再放支架（見 8-8）。CTO 與分叉的進階 wiring 見 Ch8。</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-4 Predilatation：氣球擴張 SVG -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-4　Step 4 · Predilatation 氣球預擴張</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">用氣球把病灶先撐開</h2>
+          <ul class="clean reveal">
+            <li>球囊沿導絲送到病灶，<strong>加壓充盈 (inflation)</strong></li>
+            <li>壓力單位 <span class="mono">atm</span>；依 compliance chart 對照直徑</li>
+            <li>PTCA = POBA = 純氣球擴張術（支架前的準備）</li>
+            <li>撐開後洩壓退出，評估是否可放支架</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">Nominal vs RBP、dissection 風險與病灶準備策略</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>Nominal pressure 達標稱直徑，RBP（rated burst pressure）為安全上限。過度預擴可致 <b class="red">dissection</b>；鈣化病灶宜用 NC/cutting/scoring 或 IVL、rota 做準備，避免 stent underexpansion。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- SVG：氣球在狹窄處充盈 -->
+          <svg class="stage" viewBox="0 0 520 220" role="img" aria-label="氣球擴張示意">
+            <path d="M20,60 H500 M20,160 H500" stroke="url(#wall)" stroke-width="5" fill="none"/>
+            <rect x="20" y="60" width="480" height="100" fill="#241016"/>
+            <!-- 導絲 -->
+            <line x1="20" y1="110" x2="500" y2="110" stroke="#7fe9ff" stroke-width="2" stroke-dasharray="4 4"/>
+            <!-- 氣球（垂直方向 scale 動畫模擬充盈） -->
+            <g style="transform-origin:260px 110px;animation:inflate 3.2s var(--ease) infinite">
+              <rect x="180" y="78" width="160" height="64" rx="30" fill="rgba(63,224,200,.28)" stroke="var(--cyan)" stroke-width="3"/>
+            </g>
+            <text x="260" y="34" fill="var(--cyan)" font-family="Space Mono" font-size="13" text-anchor="middle">balloon inflation</text>
+          </svg>
+          <div class="figcap reveal">SVG 機制動畫 · 之後可並排真實充盈 GIF</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-5 Stent 釋放：主秀 SVG + GIF slot -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-5　Step 5 · Stent 支架釋放</div>
+      <div class="two">
+        <div class="col">
+          <!-- SVG：支架網格在管腔內撐開 -->
+          <svg class="stage" viewBox="0 0 520 220" role="img" aria-label="支架撐開示意">
+            <path d="M20,55 H500 M20,165 H500" stroke="url(#wall)" stroke-width="5" fill="none"/>
+            <rect x="20" y="55" width="480" height="110" fill="#241016"/>
+            <line x1="20" y1="110" x2="500" y2="110" stroke="#7fe9ff" stroke-width="2" stroke-dasharray="4 4"/>
+            <!-- 支架網格：整體垂直撐開 -->
+            <g style="transform-origin:260px 110px;animation:stentopen 3.4s var(--ease) infinite">
+              <g stroke="var(--cyan)" stroke-width="2.4" fill="none">
+                <path d="M170,74 l24,18 l-24,18 l24,18 M194,74 l24,18 l-24,18 l24,18 M218,74 l24,18 l-24,18 l24,18 M242,74 l24,18 l-24,18 l24,18 M266,74 l24,18 l-24,18 l24,18 M290,74 l24,18 l-24,18 l24,18 M314,74 l24,18 l-24,18 l24,18"/>
+                <rect x="170" y="74" width="192" height="72" rx="6" opacity=".55"/>
+              </g>
+            </g>
+            <text x="266" y="36" fill="var(--cyan)" font-family="Space Mono" font-size="13" text-anchor="middle">stent deployment</text>
+          </svg>
+          <div class="figcap reveal">SVG · 支架加壓撐開、貼合血管壁</div>
+        </div>
+        <div class="col">
+          <h2 class="reveal">支架撐開，重建管腔</h2>
+          <ul class="clean reveal">
+            <li>支架預載於球囊，定位後<strong>加壓撐開並貼壁</strong></li>
+            <li><strong>DES 塗藥支架</strong>釋放抗增生藥物，降低再狹窄</li>
+            <li>當代薄支柱 DES 為<strong>絕大多數病灶首選</strong></li>
+          </ul>
+          <div class="gifslot reveal" style="min-height:clamp(100px,20vh,180px)">
+            <div class="cam">🎥</div>
+            <div class="lbl">CATH GIF 插槽 · 2-5</div>
+            <div class="desc">此處放：支架定位 + 釋放 的血管攝影實拍</div>
+          </div>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">BMS→DES 世代 · DCB 藥物球囊的定位</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>從 BMS（高再狹窄）→ 第一代 DES（晚期血栓疑慮）→ 當代薄支柱含氟聚合物/生物可降解聚合物 DES（安全性與 DAPT 彈性大幅改善）。<b>DCB</b> 對支架內再狹窄與小血管「leave nothing behind」策略漸增。</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-6 Post-dilatation -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-6　Step 6 · Post-dilatation 後擴張</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">用高壓 NC 球把支架「貼死」</h2>
+          <ul class="clean reveal">
+            <li>以 <strong>NC（non-compliant）球</strong>在支架內高壓後擴</li>
+            <li>目的：完全<strong>擴張（expansion）</strong>與<strong>貼壁（apposition）</strong></li>
+            <li>球徑不超出支架、勿延伸到 stent 外造成 edge dissection</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">PSP 的最後一步——為何 post-dilation 決定長期通暢</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p><b>PSP＝Predilation, Sizing, Post-dilation</b>。充分後擴達成足夠 <b>MSA</b>，是預防支架內再狹窄與血栓的關鍵（見 3-4）；但過度或延伸至健康段會造成 <b>edge dissection／geographic miss</b>。影像（IVUS/OCT）確認 expansion 與 apposition 最可靠。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gifslot reveal">
+            <div class="cam">🎥</div>
+            <div class="lbl">CATH GIF 插槽 · 2-6</div>
+            <div class="desc">此處放：支架內 NC 球高壓後擴的實拍</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-7 判讀基礎：狹窄% 與 TIMI flow -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-7　判讀基礎</div>
+      <h2 class="reveal">兩個現場必懂的數字：狹窄 % 與 TIMI 血流分級</h2>
+      <p class="reveal dim">最終造影後，團隊會用這兩組語言溝通結果——技術員/NP 聽得懂，才接得上照護與記錄。</p>
+      <div class="timibar reveal">
+        <div class="lvl"><b>TIMI 0</b><small>完全阻塞，遠端無顯影</small></div>
+        <div class="lvl"><b>TIMI 1</b><small>顯影劑滲入但無法充盈遠端</small></div>
+        <div class="lvl"><b>TIMI 2</b><small>可充盈但速度較慢</small></div>
+        <div class="lvl"><b>TIMI 3</b><small>正常、完全且快速充盈 ✓</small></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">no-reflow：血管通了，血流卻回不來</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>心外膜血管已開通（造影通暢）但 TIMI ≤2、微血管灌流不足＝<b class="red">no-reflow / slow-flow</b>，見於高血栓負荷、AMI。處理：血管擴張劑（adenosine、nicorandil、nitroprusside、verapamil）冠脈內給藥、避免遠端栓塞，詳見 3-07。</p>
+        </div></div>
+      </div>
+      <p class="src reveal">串連：FFR/iFR 與腔內影像判讀見 4-01~4-08 · no-reflow 見 3-07</p>
+    </div>
+  </section>
+
+  <!-- 2-8 快速參考卡：週邊 sheath 適應症（保留原檔對照表） -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-8　快速參考卡 · 週邊 sheath 適應症</div>
+      <h2 class="reveal">不同案子，配不同的鞘（Cook / Terumo）</h2>
+      <table class="reveal" style="width:100%;border-collapse:collapse;font-size:var(--small-size);line-height:1.4">
+        <thead><tr>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">適應症</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">廠牌</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Fr</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">長度</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">說明</td>
+        </tr></thead>
+        <tbody>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>Carotid stenting</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">6</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">用 JR4 4–6 Fr 配 Stiff Terumo 260 cm</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>PAOD</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">4, 6, 7, 8</td><td style="border:1px solid var(--line);padding:.4em .6em">45 cm；45/55 有 curve、90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">45 cm 同側 antegrade；45/55 curve 與 90 cm 對側 cross-over</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>PAOD + TurboHawk</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">8</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">TurboHawk：directional atherectomy</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>Subclavian stenting</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">6, 7, 8</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">要注意 Express LD 支架的大小</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>DVT / PE</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">6</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">—</td></tr>
+        </tbody>
+      </table>
+      <p class="src reveal">承襲原講義快速參考卡（Vascular Access & Sheaths：Drake／林語鈴／郭睿成）· 週邊介入細節見資料夾 7-01~7-24</p>
+    </div>
+  </section>
+
+  <!-- 2-9 Sheath 長度與 routines（保留原檔全表） -->
+  <section class="slide" data-chap="2 一台 PCI 怎麼走">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-9　Sheath 長度 (length) 與 routines</div>
+      <div class="two">
+        <div class="col">
+          <h3 class="reveal accent">Terumo（可用顏色分）</h3>
+          <table class="reveal" style="width:100%;border-collapse:collapse;font-size:clamp(.62rem,.95vw,.8rem);line-height:1.35">
+            <tbody>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">5 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">AV shunt PTA 專用（短一點好操作）</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">10 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">CAG / PCI / 診斷導管 一般用</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">16 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">從手（radial）作 CAG/PCI 標準長度</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">25 / 45 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">iliac 很彎時跨過 tortuous iliac；45 cm 增加 support</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">65 / 90 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">PAOD 跨對側、carotid、pulmonary embolism</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col">
+          <h3 class="reveal accent">Cook（Shuttle，無法顏色分）</h3>
+          <table class="reveal" style="width:100%;border-collapse:collapse;font-size:clamp(.62rem,.95vw,.8rem);line-height:1.35">
+            <tbody>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">45 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">PAOD 同側作（usually 4 Fr）</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">55 / 80 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">依路徑與 support 需求選用</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">90 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">PAOD 跨對側、carotid、pulmonary embolism</td></tr>
+            </tbody>
+          </table>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">長 sheath 的意義：support 與 co-axial</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>越彎、越遠的目標，越需要長 sheath 拉直路徑、提供 backup support 與同軸性；但長 sheath 也增加摩擦與缺血風險（尤其細橈）。策略：以最短能達成 support 的長度為原則，必要時用 guide extension（如 GuideZilla/Guidezilla II）補足遠端支撐。</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 3 章 分隔 ============ -->
+  <section class="slide divider" data-chap="3 影像與生理導引">
+    <div class="slide-inner">
+      <div class="num reveal">03</div>
+      <div class="eyebrow reveal">Chapter 3</div>
+      <h1 class="reveal">影像與生理導引</h1>
+      <p class="lead reveal">造影只給你「管腔的影子」。要看清管壁、量出功能，得靠 FFR/iFR 與 IVUS/OCT。</p>
+      <div class="chapter-list reveal"><span>為何需要</span><span>FFR / iFR</span><span>IVUS vs OCT</span><span>支架優化標準</span><span>CTO 影像導引</span></div>
+    </div>
+  </section>
+
+  <!-- 3-1 為何需要 -->
+  <section class="slide" data-chap="3 影像與生理導引">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">3-1　為什麼光看造影不夠</div>
+      <h2 class="reveal">造影 = 管腔輪廓；看不到管壁，也量不到血流意義</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><div class="ic">🩻</div><h3>造影 Angiography</h3><p>顯影劑填出<strong>管腔剪影</strong>。斑塊組成、真實管徑、貼壁與否都看不清。</p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><div class="ic accent">📏</div><h3>生理 FFR/iFR</h3><p>回答「這個狹窄<strong>會不會造成缺血</strong>」——功能，不只外觀。</p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><div class="ic accent">🔬</div><h3>腔內影像 IVUS/OCT</h3><p>從血管<strong>內部</strong>量管徑、看鈣化、確認支架貼壁與擴張。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">造影的三大盲點：foreshortening、overlap、diffuse disease</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>造影受<b>投照角度</b>影響（foreshortening、血管重疊），且對<b>瀰漫性病變</b>會低估——因為「正常參考段」本身也病變了。開口與分叉更難判讀。這是 IVUS/OCT 量測 reference/MLA、以及 FFR 判功能的價值所在；串連腔內影像深入見資料夾 <b>4-01~4-08</b>。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-2 FFR/iFR -->
+  <section class="slide" data-chap="3 影像與生理導引">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">3-2　生理導引 FFR / iFR</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">用壓力導絲量「跨狹窄的壓力比」</h2>
+          <ul class="clean reveal">
+            <li><strong>FFR</strong>：充血狀態（adenosine）下的遠端/主動脈壓力比</li>
+            <li>判讀切點 <strong class="accent">FFR ≤ 0.80</strong> 代表有意義缺血，值得處理</li>
+            <li><strong>iFR</strong>：不需充血劑的靜息指標，切點約 <strong class="accent">≤ 0.89</strong></li>
+          </ul>
+          <div class="card reveal" style="text-align:center">
+            <div class="mono dim" style="font-size:var(--small-size)">健保情境常見門檻</div>
+            <div style="font-family:var(--font-display);font-weight:800;font-size:clamp(1.4rem,3.4vw,2.4rem);color:var(--cyan)">FFR ≤ 0.8 → 支架給付要件之一</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="expandbox reveal open">
+            <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">實證與陷阱（FAME、iFR-SWEDEHEART、DEFINE-FLAIR）</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p><b>FAME / FAME 2</b>：FFR 導引比單看造影改善預後、減少不必要支架。<b>DEFINE-FLAIR、iFR-SWEDEHEART</b>：iFR 對 FFR 非劣性且免用 adenosine。</p>
+              <p>陷阱：serial lesions、彌漫病變、微血管疾病（CMD）會影響判讀；<b>回撤 pullback</b> 找壓力落差點很重要。近年 <b>非充血比值（NHPR）</b>家族與 angio-derived FFR（QFR）亦逐漸普及。穩定型病人以缺血/功能為導向處置，呼應 ISCHEMIA 精神。</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-3 IVUS vs OCT -->
+  <section class="slide" data-chap="3 影像與生理導引">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">3-3　腔內影像：IVUS vs OCT</div>
+      <h2 class="reveal">超音波看得深，光學看得細</h2>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="card"><h3 class="accent">IVUS（超音波）</h3><ul class="clean" style="margin-top:.3em"><li>穿透深、<strong>不必清空血液</strong></li><li>看 <strong>EEM/plaque burden</strong>、開口、大血管與腎功能不佳者友善（可少打顯影）</li><li>鈣化為聲影，厚度較難量</li></ul></div>
+        <div class="card"><h3 class="accent">OCT（光學）</h3><ul class="clean" style="margin-top:.3em"><li>解析度極高，看 <strong>dissection、貼壁、血栓、鈣化厚度</strong></li><li>需 <strong>顯影劑清血</strong>取像</li><li>開口/大血管與腎功能不佳者較受限</li></ul></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">實證：影像導引改善硬終點（ILUMIEN IV、OCTOBER、RENOVATE-COMPLEX PCI）</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>RENOVATE-COMPLEX PCI</b>（複雜病灶）與 <b>OCTOBER</b>（分叉）顯示影像導引降低心臟不良事件；<b>ILUMIEN IV</b> OCT 導引達成更大 MSA、降低支架相關事件。鈣化評估決定病灶準備策略（NC/cutting/IVL/rota）。詳見資料夾 4-02~4-08。</p>
+        </div></div>
+      </div>
+      <p class="src reveal">串連：4-02 IVUS vs OCT · 4-04 OCT · 4-07 PCI optimization with IVUS & OCT</p>
+    </div>
+  </section>
+
+  <!-- 3-4 IVUS 支架優化標準（保留原檔數字） -->
+  <section class="slide" data-chap="3 影像與生理導引">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">3-4　支架優化：影像上的三個「達標」</div>
+      <h2 class="reveal">放完支架，怎樣才算「做好了」</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><div class="ic accent">①</div><h3>足夠擴張</h3><p><strong>MLA &gt; 5 mm²</strong>（最好 5.5）<br>或 <strong>&gt; 90%</strong> 遠端參考管腔面積</p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><div class="ic accent">②</div><h3>邊緣無剝離</h3><p>支架 <strong>edge 3 mm 內不要有 dissection</strong></p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><div class="ic accent">③</div><h3>落在健康段</h3><p>normal-to-normal，<strong>edge plaque burden &lt; 50%</strong></p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">為什麼 underexpansion 是再狹窄與血栓的頭號元兇</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>Stent underexpansion</b> 與 <b>MSA 不足</b>是支架內再狹窄（ISR）與支架血栓最強的機械性預測因子；邊緣剝離與 geographic miss 造成 edge restenosis。故「PSP」原則——<b>Predilation、Stent sizing、Post-dilation</b>——與影像確認缺一不可。左主幹的 MSA 門檻更高（分段各有標準）。這組數字直接呼應分叉章（Ch8）的 napkin ring／underexpansion。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-5 CTO 影像導引 -->
+  <section class="slide" data-chap="3 影像與生理導引">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">3-5　CTO 的影像導引</div>
+      <h2 class="reveal">慢性完全阻塞：用 IVUS 找入口、確認走在真腔</h2>
+      <ul class="clean reveal" style="max-width:74ch">
+        <li><strong>IVUS + microcatheter</strong> 執行 IVUS-guided PCI：協助 <strong>近端纖維帽入針點</strong>（proximal cap puncture）</li>
+        <li>確認導絲在 <strong>真腔（true lumen）</strong>還是走進 subintimal space</li>
+        <li>指引 re-entry、評估分支保護與支架 landing zone</li>
+      </ul>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">CTO 演算法與 IVUS 的角色（antegrade / retrograde / ADR）</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>現代 CTO 以 hybrid algorithm 決策：antegrade wiring、antegrade dissection re-entry（ADR，CrossBoss/Stingray）、retrograde（經側枝）。IVUS 於 <b>ambiguous/flush ostial cap</b> 幫忙定位入口、於 ADR 指引 re-entry、並確認全程真腔以避免長段 subintimal 造成分支喪失。詳細 wiring 技巧見 Ch8 與資料夾 <b>4-08 IVUS-guided wiring (Dr. Nakamura)</b>。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 4 章 分隔 ============ -->
+  <section class="slide divider" data-chap="4 併發症與處置">
+    <div class="slide-inner">
+      <div class="num reveal">04</div>
+      <div class="eyebrow reveal">Chapter 4</div>
+      <h1 class="reveal">併發症與處置</h1>
+      <p class="lead reveal">絕大多數 PCI 平安順利。但「認得出、反應快」是技術員與專師的核心價值。</p>
+      <div class="chapter-list reveal"><span>併發症全景</span><span>術中冠脈</span><span>穿刺部位</span><span>緊急處置</span><span>顯影劑腎病變</span></div>
+    </div>
+  </section>
+
+  <!-- 4-1 併發症全景 + 死亡率（保留原檔清單與數字） -->
+  <section class="slide" data-chap="4 併發症與處置">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-1　併發症全景</div>
+      <h2 class="reveal">機率低，但要全部認得——與病情嚴重度相關</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(4,1fr)">
+        <div class="card"><h3 class="accent" style="font-size:var(--body-size)">藥物 / 過敏</h3><ul class="clean" style="font-size:var(--small-size)"><li>藥物過敏</li></ul></div>
+        <div class="card"><h3 class="accent" style="font-size:var(--body-size)">出血 / 血管</h3><ul class="clean" style="font-size:var(--small-size)"><li>局部出血、血腫</li><li>冠狀動脈剝離</li><li>血管痙攣</li><li>血管或心臟破裂</li></ul></div>
+        <div class="card"><h3 class="accent" style="font-size:var(--body-size)">心血管</h3><ul class="clean" style="font-size:var(--small-size)"><li>心律不整</li><li>低血壓、休克</li><li>心絞痛</li><li>急性心肌梗塞</li></ul></div>
+        <div class="card"><h3 class="accent" style="font-size:var(--body-size)">全身 / 器官</h3><ul class="clean" style="font-size:var(--small-size)"><li>急性腎衰竭</li><li>急性肺水腫</li><li>中風</li><li>死亡</li></ul></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">原講義死亡率數字與現代風險分層</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>原講義記載：<b>診斷性心導管死亡併發症機率 &lt; 0.001；冠狀動脈氣球擴張術死亡率 &lt; 0.01</b>——強調「合併症與病人病情嚴重度有關」。現代以 <b>Mehran 出血風險</b>、<b>NCDR CathPCI</b> 風險模型與臨床情境（穩定 vs ACS、休克、腎功能）分層；橈路徑與影像導引進一步降低併發症。數字以最新院內統計與文獻為準。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-2 術中冠脈併發症 -->
+  <section class="slide" data-chap="4 併發症與處置">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-2　術中冠脈併發症</div>
+      <h2 class="reveal">在台上就要處理的四大狀況</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(2,1fr)">
+        <div class="card"><h3 class="red">Dissection 剝離</h3><p>球囊/器械造成內膜撕裂；可致急性阻塞。多以支架覆蓋處理。</p></div>
+        <div class="card"><h3 class="red">Perforation 穿孔</h3><p>血管破孔，可致心包填塞。依 Ellis 分級處置，嚴重需 covered stent／心包引流。</p></div>
+        <div class="card"><h3 class="red">No-reflow / slow-flow</h3><p>血管通了但微循環灌流不足（TIMI ≤2）。冠脈內血管擴張劑處置。</p></div>
+        <div class="card"><h3 class="red">心律不整 / 空氣・血栓栓塞</h3><p>缺血或再灌流致心律不整；注意排氣與血栓遠端栓塞。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">Perforation Ellis 分級 · no-reflow 用藥組合</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>Perforation（Ellis I–III）</b>：I 型（管腔外 crater）多保守；II 型（心肌/心包染色）觀察 ± 長時間球囊封堵；<b>III 型（噴流 into pericardium）</b>危急，需球囊封堵、逆轉抗凝、<b>covered stent（如 Graftmaster/PK Papyrus）</b>、心包穿刺引流，備外科。</p>
+          <p><b>No-reflow</b>：冠脈內 adenosine、nicorandil、nitroprusside、verapamil；確保灌注壓、避免遠端栓塞。詳見資料夾 <b>3-07 No Reflow</b>、<b>3-08 Coronary Perforation</b>。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-3 穿刺部位併發症（保留原檔清單） -->
+  <section class="slide" data-chap="4 併發症與處置">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-3　穿刺部位併發症</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">Sheath 沒顧好會發生什麼</h2>
+          <ul class="clean reveal">
+            <li><strong>Hematoma</strong> 血腫、<strong>Ecchymosis</strong> 瘀斑</li>
+            <li><strong>滲血、出血</strong></li>
+            <li><strong>Pseudoaneurysm</strong> 假性動脈瘤</li>
+            <li><strong>AV fistula</strong> 動靜脈廔管</li>
+            <li><strong class="red">Retroperitoneal hematoma</strong> 腹膜後血腫（高位股穿刺，致命）</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">怎麼早一步認出 RP hematoma 與假性動脈瘤</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p><b>RP hematoma</b>：股穿刺點過高（腹壁下動脈以上）為危險因子；表現為<b>不明原因低血壓、心搏過速、背/腹痛、血比容下降</b>而表面看不到血腫——警覺心＋影像（CT）。<b>假性動脈瘤</b>：搏動性腫塊 + 收縮期雜音，超音波確診，可加壓/凝血酶注射/外科。橈路徑大幅降低這些風險。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card reveal" style="border-color:var(--amber)">
+            <h3 class="amber">Cath lab 裡怎麼降低穿刺併發症</h3>
+            <ul class="clean" style="margin-top:.4em">
+              <li>常見由<strong>手肘及鼠蹊</strong>穿刺</li>
+              <li>利用<strong>超音波</strong>導引</li>
+              <li><strong>X 光顯影下</strong>穿刺定位</li>
+            </ul>
+          </div>
+          <div class="card reveal" style="border-color:rgba(63,224,200,.5)">
+            <h3 class="accent">新竹臺大導管室的作法</h3>
+            <ul class="clean" style="margin-top:.4em">
+              <li>超音波穿刺</li>
+              <li>micro puncture（微穿刺針）</li>
+              <li>OP side 固定</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-4 緊急處置（保留原檔） -->
+  <section class="slide" data-chap="4 併發症與處置">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-4　發生併發症後，緊急處置</div>
+      <h2 class="reveal">四個立即動作</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(4,1fr)">
+        <div class="card"><div class="ic">✋</div><h3 style="font-size:var(--body-size)">止血點加壓</h3><p>直接、確實地壓迫穿刺點。</p></div>
+        <div class="card"><div class="ic">📈</div><h3 style="font-size:var(--body-size)">Check V/S</h3><p>監測生命徵象、意識、末梢。</p></div>
+        <div class="card"><div class="ic">🩸</div><h3 style="font-size:var(--body-size)">輸血</h3><p>依失血與血比容評估補液/輸血。</p></div>
+        <div class="card"><div class="ic">📞</div><h3 style="font-size:var(--body-size)">會診血管外科</h3><p>假性動脈瘤/廔管/大出血時。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow / 🟣 跨科</span><span class="exp-title">團隊層級升級：從加壓到 CVS / IR / 麻醉 / 心外</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>依嚴重度階梯升級：局部加壓 → 逆轉抗凝（protamine 對 heparin）→ 影像確認（US/CT）→ 介入（covered stent、coil、balloon tamponade）→ 會診 <b>血管外科 / IR / 麻醉 / 心臟外科</b>。填塞時同步心包穿刺與備血。技術員與專師的<b>及早通報</b>是縮短反應時間的關鍵。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-5 顯影劑腎病變 CA-AKI -->
+  <section class="slide" data-chap="4 併發症與處置">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-5　顯影劑與腎功能</div>
+      <h2 class="reveal">顯影劑用量 = 導管報告會記錄的數字，與術後腎功能相關</h2>
+      <ul class="clean reveal" style="max-width:76ch">
+        <li><strong>顯影劑總量（contrast volume）</strong>導管報告都會記錄——這不只是流水帳，是腎損傷風險指標</li>
+        <li>高風險：慢性腎病、糖尿病、脫水、心衰、高齡</li>
+        <li>現代命名為 <strong>CA-AKI</strong>（contrast-associated AKI），強調因果需審慎</li>
+      </ul>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">預防：水化、contrast-sparing、與 PRESERVE 試驗</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>核心是<b>足量等張晶體液水化</b>；<b>PRESERVE</b> 顯示高風險族群 sodium bicarbonate 未優於 saline、口服 NAC 無益。策略：<b>限制顯影劑量</b>（contrast/eGFR 比值）、IVUS 導引「ultra-low contrast PCI」、術前停用腎毒性藥、術後追蹤 Cr。顯影劑過敏另需 premedication（類固醇＋抗組織胺）。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 5 章 分隔 ============ -->
+  <section class="slide divider" data-chap="5 術後照護與衛教">
+    <div class="slide-inner">
+      <div class="num reveal">05</div>
+      <div class="eyebrow reveal">Chapter 5</div>
+      <h1 class="reveal">術後照護與衛教</h1>
+      <p class="lead reveal">導管做完，照護才開始——這一章是病房與專師的主場。</p>
+      <div class="chapter-list reveal"><span>病房照護重點</span><span>股動脈術後</span><span>橈動脈術後</span><span>衛教與警訊</span><span>用藥不可自停</span></div>
+    </div>
+  </section>
+
+  <!-- 5-1 導管後病房照護重點（保留原檔） -->
+  <section class="slide" data-chap="5 術後照護與衛教">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">5-1　導管後病房照護重點</div>
+      <h2 class="reveal">回病房，盯三件事</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><div class="ic accent">🩹</div><h3>Puncture site 穿刺部位</h3><p>出血、血腫、滲血、末梢循環。<br><span class="mono dim">LRA＝left radial artery<br>RFA＝right (common) femoral artery</span></p></div>
+        <div class="card"><div class="ic accent">💓</div><h3>ECG</h3><p>心律、缺血變化。</p></div>
+        <div class="card"><div class="ic accent">🗣️</div><h3>胸悶症狀指數</h3><p>主動詢問胸悶/胸痛程度並記錄。</p></div>
+      </div>
+      <div class="pill reveal" style="margin-top:.4rem">Post-cath 追蹤　·　<span class="accent">3D</span>（第 3 天）　·　<span class="accent">7D</span>（第 7 天）</div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">Sheath 還沒拔？拔鞘時機與抗凝的關係</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>股路徑若留置 sheath，拔鞘時機需視 <b>ACT/抗凝</b>回復；拔鞘可能引發<b>迷走神經反射（低血壓、心搏過緩）</b>，備 atropine 與輸液。橈路徑多用 <b>TR band</b> 即時止血、可早期活動，減少留鞘與臥床。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5-2 股動脈術後照護（原檔全文保留） -->
+  <section class="slide" data-chap="5 術後照護與衛教">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">5-2　穿刺部位照護 · 股動脈（femoral）</div>
+      <h2 class="reveal">由股動靜脈（鼠蹊）接受檢查者</h2>
+      <ul class="clean reveal" style="max-width:88ch">
+        <li>檢查部位一定要<strong>伸直、勿彎曲</strong>，身體其他部位可自由活動</li>
+        <li>導管完全移除後，用 <strong class="amber">2 公斤砂袋加壓止血 6～8 小時、平躺 12 小時</strong>，使血管完全癒合、防出血及血腫；臥床期間請勿下床</li>
+        <li>密集監測生命徵象：血壓、脈搏、檢查部位皮膚溫度、<strong>足背動脈搏動是否對稱或消失</strong>；注意局部腫脹、疼痛、出血</li>
+        <li>可利用<strong>床上便盆或包尿布</strong>如廁；無法解出可由醫護協助導尿</li>
+      </ul>
+      <p class="src reveal">原講義衛教全文保留 · 實際壓迫時間/方式依止血裝置與抗凝狀態調整</p>
+    </div>
+  </section>
+
+  <!-- 5-3 橈動脈術後照護（原檔全文保留）+ Fellow -->
+  <section class="slide" data-chap="5 術後照護與衛教">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">5-3　穿刺部位照護 · 橈動脈（radial）</div>
+      <h2 class="reveal">由橈骨動脈（手）接受檢查者</h2>
+      <ul class="clean reveal" style="max-width:88ch">
+        <li>穿刺部位以 <strong>2 層布膠加壓止血</strong></li>
+        <li>經短暫臥床休息、無不適即可<strong>下床活動</strong></li>
+        <li>檢查後的手腕，<strong class="amber">3 天內勿用力、勿提重物、勿內彎或作扭毛巾動作</strong>，以防內部血管再出血腫脹</li>
+        <li>密集監測：血壓、脈搏、傷口有無出血、皮膚溫度與顏色變化</li>
+        <li>穿刺傷口<strong>保持清潔乾燥、勿直接淋濕</strong>直至癒合，預防感染</li>
+      </ul>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">TR Band 漸進式減壓與「patent hemostasis」防橈動脈阻塞</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>Radial artery occlusion (RAO)</b> 是橈路徑主要遲發併發症。<b>Patent hemostasis</b>（維持橈動脈血流下的最小止血壓力）＋足量術中抗凝可顯著降低 RAO。TR band 應<b>階梯式減壓（逐步放氣）</b>，避免長時間完全阻斷。保護橈動脈＝保留未來再次通路與 CABG radial graft 的可能。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5-4 術後基本衛教 + warning signs（原檔保留） -->
+  <section class="slide" data-chap="5 術後照護與衛教">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">5-4　術後基本衛教</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">飲食與水分</h2>
+          <ul class="clean reveal">
+            <li>檢查後<strong>就可以吃東西</strong></li>
+            <li><strong>多喝水</strong>幫助顯影劑排出（<strong class="amber">水分限制者除外</strong>）</li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="card reveal" style="border-color:var(--red)">
+            <h3 class="red">出現這些情形，立即告知醫護</h3>
+            <ul class="clean" style="margin-top:.4em">
+              <li>胸口悶、胸口痛</li>
+              <li>呼吸不順</li>
+              <li>檢查部位傷口<strong>濕熱感、出血、疼痛</strong></li>
+              <li>末梢皮膚<strong>冰冷、刺麻</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="src reveal">原講義 warning signs 全文保留——這是病房交班與出院衛教的必講清單</p>
+    </div>
+  </section>
+
+  <!-- 5-5 用藥衛教：DAPT 不可自行停 -->
+  <section class="slide" data-chap="5 術後照護與衛教">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">5-5　用藥衛教（銜接 Ch6）</div>
+      <h2 class="reveal">放了支架，最重要的一句衛教：<span class="red">不可自行停藥</span></h2>
+      <ul class="clean reveal" style="max-width:80ch">
+        <li>支架術後需<strong>雙抗血小板治療（DAPT）</strong>：aspirin ＋ 一種 P2Y12 抑制劑</li>
+        <li><strong class="red">自行停藥可能導致支架血栓</strong>，猝發心肌梗塞、死亡</li>
+        <li>要拔牙、內視鏡、手術前，<strong>先與心臟科醫師討論</strong>，勿擅自停</li>
+      </ul>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow / 🟣 跨科</span><span class="exp-title">DAPT 療程、去階梯與跨科停藥決策</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>標準 DAPT 約 <b>12 個月</b>（ACS），穩定型 CAD 常 6 個月；高出血風險可縮短、高缺血風險可延長，並有<b>去階梯（de-escalation）</b>策略。跨科手術前的停藥須權衡<b>支架血栓 vs 出血</b>，由心臟科與手術科共同決策，切勿病房自行停。完整實證見下一章 Ch6。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 6 章 分隔 ============ -->
+  <section class="slide divider" data-chap="6 藥物與實證">
+    <div class="slide-inner">
+      <div class="num reveal">06</div>
+      <div class="eyebrow reveal">Chapter 6</div>
+      <h1 class="reveal">藥物與實證</h1>
+      <p class="lead reveal">支架只是硬體，藥物是讓它長久通暢的軟體。這一章給 Fellow 與跨科同仁。</p>
+      <div class="chapter-list reveal"><span>抗血小板 DAPT</span><span>術中抗凝</span><span>完全血運重建</span><span>二級預防</span></div>
+    </div>
+  </section>
+
+  <!-- 6-1 DAPT -->
+  <section class="slide" data-chap="6 藥物與實證">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">6-1　抗血小板與 DAPT</div>
+      <h2 class="reveal">Aspirin ＋ 一種 P2Y12 抑制劑</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><h3 class="accent">Clopidogrel</h3><p>經典 P2Y12；受基因代謝影響、起效較慢。穩定型常用。</p></div>
+        <div class="card"><h3 class="accent">Ticagrelor</h3><p>強效可逆；ACS 優先之一。呼吸困難副作用需衛教。</p></div>
+        <div class="card"><h3 class="accent">Prasugrel</h3><p>強效；ACS 且擬 PCI 者。<strong class="red">中風史禁忌、高齡/低體重慎用</strong>。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">療程與去階梯：PLATO、TWILIGHT、TICO、MASTER-DAPT</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>PLATO</b>：ticagrelor 優於 clopidogrel（ACS）。<b>ISAR-REACT 5</b>：prasugrel 於 ACS 侵入策略優於 ticagrelor。療程：ACS 約 12 個月、穩定 CAD 約 6 個月，依缺血/出血風險調整。</p>
+          <p><b>短 DAPT + P2Y12 單藥</b>（TWILIGHT、TICO）於高出血風險降低出血不增缺血；<b>MASTER-DAPT</b> 支持 HBR 病人 1 個月 DAPT。<b>去階梯</b>（強效→clopidogrel）為省費/降出血選項。2023 ESC ACS 指引整合這些策略。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6-2 術中抗凝 -->
+  <section class="slide" data-chap="6 藥物與實證">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">6-2　術中抗凝與抗栓</div>
+      <h2 class="reveal">台上防血栓：heparin 為主，ACT 導引</h2>
+      <ul class="clean reveal" style="max-width:78ch">
+        <li><strong>UFH（未分段肝素）</strong>是 PCI 標準抗凝，依 <strong>ACT</strong> 調整劑量</li>
+        <li><strong>Bivalirudin</strong>：直接凝血酶抑制劑，出血風險考量時的選項</li>
+        <li><strong>GP IIb/IIIa 抑制劑（GPI）</strong>：高血栓負荷 / bailout 時加用</li>
+      </ul>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">Bivalirudin vs UFH、與橈路徑的交互作用</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>MATRIX、VALIDATE-SWEDEHEART、BRIGHT-4</b> 等對 bivalirudin vs UFH 結果不一，出血優勢在橈路徑普及、GPI 少用後縮小；bivalirudin 需注意術後急性支架血栓（延長輸注可減）。ACT 目標一般 250–300 秒（未用 GPI）。抗凝與拔鞘/止血時機直接相關（見 Ch5）。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6-3 完全血運重建 -->
+  <section class="slide" data-chap="6 藥物與實證">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">6-3　完全 vs culprit-only 血運重建</div>
+      <h2 class="reveal">多血管 STEMI：只處理元兇，還是全部處理？</h2>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="card"><h3>Culprit-only</h3><p>急性期只處理罪犯血管；其餘擇期評估。</p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><h3 class="accent">Complete 完全</h3><p><strong>COMPLETE 試驗</strong>：多血管 STEMI 完全血運重建降低心血管死亡/再梗塞。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">分次 vs 同次、FFR 導引，與心因性休克的例外</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>COMPLETE</b> 支持非罪犯血管完全處理（可分次）；<b>FFR 導引</b>可精準選擇病灶（FAME 精神）。但 <b>CULPRIT-SHOCK</b> 顯示<b>心因性休克</b>時「只處理罪犯血管」較佳、常規多血管處置增死亡。因此策略需分情境：穩定多血管 STEMI → 傾向完全；休克 → culprit-only。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6-4 二級預防 -->
+  <section class="slide" data-chap="6 藥物與實證">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">6-4　二級預防（別忘了地基 OMT）</div>
+      <h2 class="reveal">支架之外，這些藥決定長期預後</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(2,1fr)">
+        <div class="card"><h3 class="accent">降血脂 statin</h3><p>高強度 statin；<strong>LDL-C 目標 &lt; 55 mg/dL</strong>（極高風險），必要時加 ezetimibe / PCSK9i。</p></div>
+        <div class="card"><h3 class="accent">危險因子控制</h3><p>血壓、血糖（SGLT2i/GLP-1 心腎獲益）、戒菸、體重與運動、心臟復健。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow / 🟣 跨科</span><span class="exp-title">PCI 不是終點：ISCHEMIA 的提醒</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>ISCHEMIA</b>：穩定型冠心病在強效 OMT 之上，常規侵入策略未降低硬終點——PCI 主要改善<b>症狀與生活品質</b>。因此支架後的二級預防與生活型態改變，才是長期存活的關鍵；跨科（新陳代謝、腎臟、復健）共管價值高。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 7 章 分隔 ============ -->
+  <section class="slide divider" data-chap="7 制度與安全">
+    <div class="slide-inner">
+      <div class="num reveal">07</div>
+      <div class="eyebrow reveal">Chapter 7</div>
+      <h1 class="reveal">制度與安全</h1>
+      <p class="lead reveal">健保支架給付規定、輻射防護、品質指標——這些「非醫療」細節，決定案子能不能順利完成與核銷。</p>
+      <div class="chapter-list reveal"><span>健保適應症</span><span>使用數量與申請</span><span>輻射安全與品質</span></div>
+    </div>
+  </section>
+
+  <!-- 7-1 健保支架給付：適應症（原檔全文重點保留） -->
+  <section class="slide" data-chap="7 制度與安全">
+    <div class="tags"><span class="tag t-cross">🟣 跨科</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">7-1　健保血管支架給付 · 適應症範圍</div>
+      <h2 class="reveal">哪些情況健保給付冠脈支架（101/10/01 起修訂）</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><h3 style="font-size:var(--body-size)" class="accent">① 急性/瀕臨阻塞</h3><p style="font-size:var(--small-size)">PTCA 中或術後 24h 內急性阻塞；瀕臨阻塞需符三標準之一：剝離&gt;15mm、對比劑外滲 Type B 以上、血流 TIMI≤2。</p></div>
+        <div class="card"><h3 style="font-size:var(--body-size)" class="accent">② 原發病灶 de novo</h3><p style="font-size:var(--small-size)">血管內徑 ≥2.5mm，經 1:1 氣球擴張後<strong>殘餘狹窄&gt;40%</strong>或 <strong>FFR≤0.8</strong>。</p></div>
+        <div class="card"><h3 style="font-size:var(--body-size)" class="accent">③ 再狹窄</h3><p style="font-size:var(--small-size)">PTCA 後原病灶再狹窄&gt;50%，或再狹窄 FFR≤0.8。</p></div>
+        <div class="card"><h3 style="font-size:var(--body-size)" class="accent">④ CABG 繞道血管</h3><p style="font-size:var(--small-size)">繞道血管狹窄 ≥70% 病灶。</p></div>
+        <div class="card"><h3 style="font-size:var(--body-size)" class="accent">⑤ 特異病灶</h3><p style="font-size:var(--small-size)">開口/左主幹 ≥2.75mm 狹窄≥70%（或50-70%+FFR≤0.8）；CTO ≥2 個月；AMI ≤12h；繞道術後 graft 完全阻塞之原冠脈介入。</p></div>
+        <div class="card"><h3 style="font-size:var(--body-size)" class="accent">⑥ 心臟移植後</h3><p style="font-size:var(--small-size)">植入心臟冠脈 de novo ≥2.5mm，1:1 氣球後殘餘&gt;30% 或 FFR≤0.8。</p></div>
+      </div>
+      <p class="src reveal amber">⚠ 此為原講義所載 101/10/01 版重點；健保規定會修訂，實際以<strong>最新公告版本</strong>為準。【註】開口病灶＝LM、LAD、LCX、RCA 開口。</p>
+    </div>
+  </section>
+
+  <!-- 7-2 健保給付：數量與申請（原檔保留） -->
+  <section class="slide" data-chap="7 制度與安全">
+    <div class="tags"><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">7-2　健保給付 · 使用數量 · 申請 · 檢附</div>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><h3 class="accent">使用數量</h3><p>每人每年給付 <strong>4 個支架</strong>為限（以置放第一個支架日起算）；<strong>內膜剝離&gt;50mm 除外</strong>。使用規範：需同設心臟內外科之特約醫院、心臟學會認可之專科醫師施行。</p></div>
+        <div class="card"><h3 class="accent">申請方式</h3><p>採<strong>事後逐案審查</strong>。</p></div>
+        <div class="card"><h3 class="accent">檢附資料</h3><p style="font-size:var(--small-size)">完整工作紀錄單、病灶與血管圖照片及數據；<strong>術前病灶清晰影像</strong>；<strong>1:1 氣球擴張後病灶影像</strong>；以再狹窄適應症者另附首次 PTCA 完整紀錄與術前後影像。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow / 🟣 跨科</span><span class="exp-title">為什麼要留「1:1 氣球擴張後」的那張影像？</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>健保要件的核心邏輯：以 <b>1:1 氣球（球徑≈血管徑）正常壓力擴張</b>後的殘餘狹窄或 FFR，證明「氣球不夠、需要支架」。所以術中要<b>特意保留</b>預擴後、放支架前的那張造影——這是核銷成敗的關鍵影像，技術員/專師可協助提醒操作者存檔。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7-3 輻射安全與品質指標 -->
+  <section class="slide" data-chap="7 制度與安全">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">7-3　輻射安全與品質指標</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">ALARA：合理抑低劑量</h2>
+          <ul class="clean reveal">
+            <li><strong>時間</strong>短、<strong>距離</strong>遠、<strong>屏蔽</strong>足（鉛衣、甲狀腺護、鉛玻璃）</li>
+            <li>降 frame rate、收 collimation、少用 steep angle 與放大</li>
+            <li>人員配戴劑量計，定期監測</li>
+          </ul>
+          <p class="src reveal">詳見資料夾 0-06 輻射防護</p>
+        </div>
+        <div class="col">
+          <div class="card reveal" style="border-color:rgba(63,224,200,.5)">
+            <h3 class="accent">導管室品質指標</h3>
+            <ul class="clean" style="margin-top:.4em">
+              <li>STEMI door-to-balloon 時間</li>
+              <li>橈路徑比例、輻射與顯影劑量</li>
+              <li>併發症率、影像/生理導引使用率</li>
+            </ul>
+          </div>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">D2B ≤ 90 分鐘與系統流程</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>STEMI 以 <b>door-to-balloon ≤ 90 分鐘</b>為目標，仰賴急診啟動、導管室待命、團隊演練的系統性流程。串資料夾 <b>3-09 D2B 經驗分享</b>。</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 8 章 分隔 ============ -->
+  <section class="slide divider" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="slide-inner">
+      <div class="num reveal">08</div>
+      <div class="eyebrow reveal">Chapter 8 · Fellow 深水區</div>
+      <h1 class="reveal">複雜病灶：分叉與 CTO</h1>
+      <p class="lead reveal">原講義最精華的進階內容——分叉術式與 CTO 導絲技巧，全數保留、逐步拆解。</p>
+      <div class="chapter-list reveal"><span>分叉語言</span><span>Provisional</span><span>Stent 順序</span><span>TAP</span><span>DK Crush</span><span>Culotte</span><span>優化細節</span><span>CTO 導絲</span></div>
+    </div>
+  </section>
+
+  <!-- 8-1 分叉語言 -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-1　分叉病灶的語言</div>
+      <h2 class="reveal">先講清楚：MB、SB、carina，與「能省則省」</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><h3 class="accent">MB / SB</h3><p>Main branch（主支）與 Side branch（分支）；carina＝分叉脊。</p></div>
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><h3 class="accent">Provisional 優先</h3><p>多數分叉：<strong>單支架跨越（provisional）</strong>即可，必要時才補 SB。</p></div>
+        <div class="card"><h3 class="accent">ABC / EBC</h3><p>Asian / European Bifurcation Club——分叉技術的共識來源。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">carinal shift、spiky carina 與 Medina 分類</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>Spiky carina（eyebrow sign）</b>：左主幹分叉在 LCX 開口的尖脊；MB 置放支架後可<b>carinal shift</b>造成 LCX 開口狹窄（並非真正斑塊位移，而是脊被推擠）。<b>Medina 分類</b>（MB proximal, MB distal, SB 三位 0/1）描述斑塊分布，決定策略。TIMI＝Thrombolysis In Myocardial Infarction（血流分級語言，見 2-7）。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8-2 Provisional -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-2　Provisional Stenting（single stent crossover）</div>
+      <h2 class="reveal">單支架跨越——分叉的預設解</h2>
+      <ul class="clean reveal" style="max-width:90ch">
+        <li>置放導絲到<strong>主支與分支</strong>；MB 支架直徑<strong class="amber">以主支（distal MB／LAD）決定，非以主幹決定</strong></li>
+        <li><strong>POT（近端最佳化）</strong>：用短球（8–10 mm，故支架要進主幹 8–10 mm）後擴主幹</li>
+        <li>若需治療 SB：先<strong>導絲交換</strong>，交換導絲要從<strong>支架遠端網眼</strong>穿出；被夾住的 jailed wire 先移除，以免器械撞壞支架近端</li>
+        <li>氣球對吻（kissing）建議用<strong>兩個短的 NC balloon</strong>；結束前 <strong class="red">re-POT 一定要做</strong>（不能只做 KBT 就下台）</li>
+      </ul>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">PSP 原則、proximal vs distal strut rewiring、Final：POT &gt; KBI</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>PSP＝Predilation, Scaffold sizing, Post-dilation</b>——分叉成功三要素。SB rewiring 要走<b>靠近 carina 的 distal strut</b>（覆蓋 SB 開口較完整）；若從較近端 strut 進入，KBI 後 SB 開口未被覆蓋，需 SB 支架時應採 TAP 或 Culotte。</p>
+          <p>步驟：①放 MV stent ②POT ③SB rewiring（distal/proximal strut）④KBI ⑤（必要時）放 SB stent ⑥KBI。<b>Final 一定要 POT，KBI 相較次要</b>。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8-3 Stent 順序 -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-3　需要兩支架時：順序決定技術</div>
+      <h2 class="reveal">先做誰，決定叫什麼技術</h2>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="card" style="border-color:rgba(63,224,200,.5)"><h3 class="accent">MB → SB</h3><p>先主支、後分支：<strong>TAP</strong>、<strong>Reverse T</strong></p></div>
+        <div class="card" style="border-color:var(--red)"><h3 class="red">SB → MB</h3><p>先分支、後主支：<strong>T-stent</strong>、<strong>Crush</strong>、<strong>DK Crush</strong>、<strong>Culotte</strong></p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">怎麼選？角度、SB 大小、病灶長度</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>選擇依 <b>分叉角度</b>（銳角利於 T/TAP；廣角利於 Culotte）、<b>SB 管徑與病灶長度</b>、兩支血管口徑差（差大不利 Culotte）。真正左主幹分叉、SB 大且病灶長者，<b>DK Crush（DKCRUSH-II/V）</b>較 provisional 降低事件。共通原則：務求 SB 開口覆蓋完整、避免 gap 與 underexpansion。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8-4 TAP -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-4　TAP（T-stenting And minimal Protrusion）</div>
+      <h2 class="reveal">在 provisional 之上，補一支「最小凸出」的 SB 支架</h2>
+      <ol class="reveal" style="columns:2;column-gap:2rem;font-size:var(--small-size);line-height:1.55;padding-left:1.3em;max-width:96ch">
+        <li>每支血管各置一導絲</li>
+        <li>MB 支架（LM→LAD），直徑依 LAD</li>
+        <li>POT：短球依 LM 徑，tip 停在 carina 前</li>
+        <li>需處理 SB → 導絲交換</li>
+        <li>jailed wire 退出、送入 LAD</li>
+        <li>用 MB wire 於<strong>最靠 carina</strong>的 strut distal recross</li>
+        <li>KBI 或單球打開 SB struts</li>
+        <li>SB 支架經打開的 struts 送入，<strong>最小凸出</strong>進 LM</li>
+        <li>SB 支架高壓擴張 + KBI</li>
+        <li>Final：SB 支架最小凸出於 LM</li>
+      </ol>
+      <p class="src reveal">原講義 TAP 十步驟逐字保留 · 影像示意見資料夾內分叉圖檔</p>
+    </div>
+  </section>
+
+  <!-- 8-5 DK Crush -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-5　DK Crush（Double Kissing Crush）</div>
+      <h2 class="reveal">兩次 kissing、兩次 POT——左主幹分叉的強棒</h2>
+      <ol class="reveal" style="columns:2;column-gap:2rem;font-size:var(--small-size);line-height:1.5;padding-left:1.3em;max-width:98ch">
+        <li>SB 支架，主支內凸出 2–3 mm；球留在 MB 跨過 SB 開口</li>
+        <li>用 MV 球把 SB 支架球 <strong>crush</strong></li>
+        <li>SB wire 退出</li>
+        <li>SB wire 近端 recross</li>
+        <li>SB 開口高壓擴張 + <strong>第一次 KBI</strong></li>
+        <li>移除 SB wire 後，MB 跨 SB 置放支架</li>
+        <li><strong>POT</strong></li>
+        <li>第二條 SB wire 穿過 MB 支架與被壓扁的 SB 支架 recross</li>
+        <li>依序 16 atm 擴張，再<strong>第二次 KBI</strong>（各 12 atm）後同時洩壓</li>
+        <li><strong>Re-POT</strong></li>
+        <li>Final result　<span class="dim">（DK Crush → MV wire 不用動）</span></li>
+      </ol>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">實證：DKCRUSH-II / V</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p><b>DKCRUSH-V</b>：真正左主幹遠端分叉，DK crush 較 provisional 降低 target lesion failure 與支架血栓；<b>DKCRUSH-II</b>：非左主幹複雜分叉 DK crush 優於 provisional。關鍵在兩次 crush/KBI 讓 SB 開口貼壁完整、減少 gap。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8-6 Culotte -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-6　Culotte</div>
+      <h2 class="reveal">兩支架完整覆蓋分叉——2 POT ＋ 2 次導絲交換</h2>
+      <ol class="reveal" style="columns:2;column-gap:2rem;font-size:var(--small-size);line-height:1.5;padding-left:1.3em;max-width:98ch">
+        <li>每支遠端血管各置導絲</li>
+        <li>第一支支架放主支，依 LAD 定徑</li>
+        <li>第一次 POT</li>
+        <li>導絲交換（4,5）</li>
+        <li>球囊把支架 struts 撐入 SB</li>
+        <li>第二支支架由 SB 進主支，依<strong>遠端 SB 參考</strong>定徑</li>
+        <li>第二次 POT</li>
+        <li>第二次導絲交換（9,10）</li>
+        <li>KBI</li>
+        <li>Final result</li>
+      </ol>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">先放彎的那支、napkin ring、DK-Mini-Culotte</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>口訣：<b>2 POT ＆ 2 wire exchange → Culotte</b>。Cullotte <b>先放比較彎的血管支架（如 LCX）</b>，再放另一支（LM-LAD）。缺點：Culotte 在 SB 或 MB 開口易 <b class="red">napkin ring（stent underexpansion）</b>；與 DK crush 相比，final KBI 後 Culotte 的 underexpansion 較明顯。改良式 <b>DK-Mini-Culotte</b> 減少雙層金屬與 underexpansion。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8-7 分叉優化細節 -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-7　分叉優化的關鍵細節</div>
+      <h2 class="reveal">同樣的技術，成敗在這些小地方</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(2,1fr)">
+        <div class="card"><h3 class="accent">Kissing balloon 尺寸</h3><p>一般 balloon size ≈ <strong>血管徑 × 0.6～0.7</strong>，避免過大致近端撕裂。</p></div>
+        <div class="card"><h3 class="accent">re-POT / final POT</h3><p><strong>re-POT 一定要做</strong>；Final 以 <strong>POT 為主，KBI 次要</strong>。</p></div>
+        <div class="card"><h3 class="red">避免 napkin ring</h3><p>napkin ring＝<strong>stent underexpansion</strong>；影像確認 MSA（見 3-4）。</p></div>
+        <div class="card"><h3 class="accent">distal strut rewiring</h3><p>SB 交換導絲走<strong>靠 carina 的遠端網眼</strong>，覆蓋較完整。</p></div>
+      </div>
+      <p class="src reveal">分叉技術實作與案例見資料夾 5-xx 複雜冠脈系列（Rota/cutting balloon 等病灶準備）</p>
+    </div>
+  </section>
+
+  <!-- 8-8 CTO 與導絲技巧 -->
+  <section class="slide" data-chap="8 複雜病灶：分叉與 CTO">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">8-8　CTO 與特殊導絲技巧</div>
+      <h2 class="reveal">慢性完全阻塞：讓導絲走對路</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(2,1fr)">
+        <div class="card"><h3 class="accent">Floating wire technique</h3><p>在分支/開口以「浮動導絲」保護與定位，維持路徑辨識。</p></div>
+        <div class="card"><h3 class="accent">Reverse wire</h3><p>銳角分支以反轉導絲塑形進入難以正向進入的 SB。</p></div>
+        <div class="card"><h3 class="amber">Accordion phenomenon</h3><p><strong>導絲造成的假性病灶（pseudo-lesion）</strong>——血管被硬導絲拉皺，非真狹窄；退導絲即回復。</p></div>
+        <div class="card"><h3 class="accent">IVUS + microcatheter</h3><p>CTO IVUS-guided PCI：定位<strong>近端纖維帽入針</strong>、確認真腔、指引 re-entry（見 3-5）。</p></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">CTO hybrid algorithm 與 spiky carina 的提醒</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>Hybrid：antegrade wiring → ADR（CrossBoss/Stingray）→ retrograde（經側枝 collateral）。<b>Accordion</b> 要與真 dissection 區分（打顯影、退導絲觀察）。左主幹分叉時警覺 <b>spiky carina / carinal shift</b> 造成 LCX 開口受壓。實作見資料夾 <b>4-08 IVUS-guided wiring (Dr. Nakamura)</b> 與 5-xx。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 附錄 分隔 ============ -->
+  <section class="slide divider" data-chap="附錄 · 動手練習">
+    <div class="slide-inner">
+      <div class="num reveal">＋</div>
+      <div class="eyebrow reveal">Appendix</div>
+      <h1 class="reveal">附錄 · 動手練習</h1>
+      <p class="lead reveal">承襲原講義「動手查、寫心得」的精神——點選作答、即時解析，最後留幾題給你思考。</p>
+      <div class="chapter-list reveal"><span>基礎 MCQ</span><span>照護 / 併發症 MCQ</span><span>Fellow 進階 MCQ</span><span>情境反思</span></div>
+    </div>
+  </section>
+
+  <!-- A-1 基礎 MCQ -->
+  <section class="slide" data-chap="附錄 · 動手練習">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">A-1　基礎 MCQ · 點選作答</div>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="mcq">
+          <div class="q">一條標示 6 Fr 的 sheath，內徑大約幾 mm？</div>
+          <button class="opt" data-k="A">1 mm</button>
+          <button class="opt" data-k="B" data-correct>2 mm</button>
+          <button class="opt" data-k="C">6 mm</button>
+          <div class="explain">3 Fr = 1 mm，故 6 Fr ≈ 2 mm 內徑（實際外徑更大約 1.5–2 Fr）。</div>
+        </div>
+        <div class="mcq">
+          <div class="q">最終造影 TIMI 3 代表什麼？</div>
+          <button class="opt" data-k="A">完全阻塞、遠端無顯影</button>
+          <button class="opt" data-k="B">通了但充盈較慢</button>
+          <button class="opt" data-k="C" data-correct>正常、完全且快速充盈</button>
+          <div class="explain">TIMI 3 = 正常灌流；TIMI ≤ 2 要警覺 no-reflow／slow-flow（見 2-7、4-2）。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A-2 照護/併發症 MCQ -->
+  <section class="slide" data-chap="附錄 · 動手練習">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">A-2　照護 / 併發症 MCQ</div>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="mcq">
+          <div class="q">股動脈術後，原講義的標準止血與臥床是？</div>
+          <button class="opt" data-k="A">不需壓迫、立即下床</button>
+          <button class="opt" data-k="B" data-correct>2 公斤砂袋加壓 6–8 小時、平躺 12 小時</button>
+          <button class="opt" data-k="C">1 公斤 2 小時即可</button>
+          <div class="explain">見 5-2：檢查部位伸直勿彎、監測足背動脈搏動對稱與否（依止血裝置/抗凝可調整）。</div>
+        </div>
+        <div class="mcq">
+          <div class="q">術後不明原因低血壓＋心搏過速＋背痛，穿刺處卻看不到血腫，最該警覺？</div>
+          <button class="opt" data-k="A" data-correct>腹膜後血腫（RP hematoma）</button>
+          <button class="opt" data-k="B">正常術後反應</button>
+          <button class="opt" data-k="C">顯影劑過敏</button>
+          <div class="explain">高位股穿刺可致隱匿而致命的 RP hematoma；血比容下降是線索（見 4-3）。橈路徑可大幅降低此風險。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A-3 Fellow 進階 MCQ -->
+  <section class="slide" data-chap="附錄 · 動手練習">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">A-3　Fellow 進階 MCQ</div>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="mcq">
+          <div class="q">分叉技術「DK Crush」的 DK 指的是？</div>
+          <button class="opt" data-k="A">兩支導管</button>
+          <button class="opt" data-k="B" data-correct>兩次 kissing balloon（Double Kissing）</button>
+          <button class="opt" data-k="C">雙層塗藥</button>
+          <div class="explain">DK Crush 特徵＝兩次 KBI ＋ 兩次 POT（含 re-POT）；MV wire 不用動（見 8-5）。DKCRUSH-V 支持真左主幹分叉。</div>
+        </div>
+        <div class="mcq">
+          <div class="q">原講義的 IVUS 支架優化，MLA 目標為？</div>
+          <button class="opt" data-k="A">&gt; 2 mm²</button>
+          <button class="opt" data-k="B">不需量測</button>
+          <button class="opt" data-k="C" data-correct>&gt; 5（最好 5.5）mm²，或 &gt; 90% 遠端參考</button>
+          <div class="explain">另需 edge 3 mm 無 dissection、edge plaque burden &lt; 50%（見 3-4）。underexpansion 是再狹窄/血栓頭號機械因子。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A-4 情境反思 -->
+  <section class="slide" data-chap="附錄 · 動手練習">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">A-4　情境反思（承襲「寫心得」）</div>
+      <h2 class="reveal">一位 CKD ＋ 糖尿病病人，多血管病變擬行 PCI</h2>
+      <div class="reveal reflect" style="margin-bottom:.6rem">🤔 <strong>顯影劑</strong>：你會怎麼把顯影劑用量降到最低？（提示：水化、contrast/eGFR 比、IVUS 導引 ultra-low contrast → 見 4-5、3-3）</div>
+      <div class="reveal reflect" style="margin-bottom:.6rem">🤔 <strong>血運重建範圍</strong>：穩定多血管 vs 心因性休克，完全還是 culprit-only？（提示：COMPLETE vs CULPRIT-SHOCK → 見 6-3）</div>
+      <div class="reveal reflect">🤔 <strong>術後衛教</strong>：出院前你會對這位病人與家屬強調哪三件事？（提示：DAPT 不可自停、warning signs、二級預防 → 見 5-4、5-5、6-4）</div>
+      <p class="src reveal">把你的想法寫下來、與同仁討論——這就是原講義「動手查、寫心得」的初衷。</p>
+    </div>
+  </section>
+
+  <!-- ============ 總結 / 謝謝 ============ -->
+  <section class="slide cover" data-chap="總結">
+    <div class="slide-inner">
+      <div class="kicker reveal">Wrap-up · 3-01</div>
+      <h1 class="reveal">從穿刺到支架，你已經走完一整台 PCI
+        <span class="sub">名詞器械 → 流程 → 影像生理 → 併發症 → 照護 → 藥物實證 → 制度 → 分叉/CTO</span>
+      </h1>
+      <div class="byline reveal">
+        <strong>這份講義串連整個 Cath Room 教學夾：</strong><br>
+        0-06 輻射防護　·　2-01 Vascular Access　·　3-07 No Reflow　·　3-08 Coronary Perforation　·　4-02~4-08 腔內影像　·　5-xx 複雜冠脈（Rota/cutting balloon）　·　7-xx 週邊介入<br>
+        <span class="dim">🎥 紅色 GIF 插槽待填真實 cath 影片　·　⚠ 健保與器材數字以最新公告為準</span>
+      </div>
+      <p class="reveal" style="margin-top:1.2rem;color:var(--muted)">按 <span class="mono accent">O</span> 開總覽跳章　·　感謝聆聽　— 謝慕揚 Drake Mu-Yang Hsieh</p>
+    </div>
+    <svg class="heartbeat" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,140 L360,140 L390,140 L410,60 L430,180 L450,20 L470,140 L520,140 L900,140 L930,140 L950,90 L970,160 L990,140 L1200,140" fill="none" stroke="var(--red)" stroke-width="3" opacity=".9">
+        <animate attributeName="stroke-dasharray" from="0,2000" to="2000,0" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </svg>
+    <div class="tags"><span class="tag t-base">🟢</span><span class="tag t-adv">🔵</span><span class="tag t-cross">🟣</span></div>
+  </section>
+
+</div><!-- /deck -->
+
+<!-- 導覽 UI -->
+<button class="navbtn left" id="prevBtn" aria-label="上一張">‹</button>
+<button class="navbtn right" id="nextBtn" aria-label="下一張">›</button>
+<div class="hud"><span class="chapname" id="chapName">封面</span><span class="count"><span id="cur">1</span> / <span id="total">1</span></span></div>
+<div class="hint">← → 翻頁　·　O 總覽　·　F 全螢幕</div>
+
+<!-- 總覽 -->
+<div class="overview" id="overview">
+  <h2>總覽 · 點卡片跳頁</h2>
+  <div class="ovgrid" id="ovgrid"></div>
+</div>
+
+<script>
+/* ===========================================
+   離散翻頁控制器（一次顯示一張、鍵盤/觸控/點擊）
+   =========================================== */
+class Deck{
+  constructor(){
+    this.slides=[...document.querySelectorAll('.slide')];
+    this.i=0;
+    document.getElementById('total').textContent=this.slides.length;
+    this.progress=document.getElementById('progress');
+    this.chapName=document.getElementById('chapName');
+    this.cur=document.getElementById('cur');
+    this.buildOverview();
+    this.bind();
+    this.go(0,true);
+  }
+  go(n,instant){
+    n=Math.max(0,Math.min(this.slides.length-1,n));
+    this.slides.forEach((s,k)=>{
+      s.classList.toggle('active',k===n);
+      s.classList.toggle('prev',k<n);
+    });
+    this.i=n;
+    this.progress.style.width=((n)/(this.slides.length-1)*100)+'%';
+    this.chapName.textContent=this.slides[n].dataset.chap||'';
+    this.cur.textContent=n+1;
+  }
+  next(){this.go(this.i+1)}
+  prev(){this.go(this.i-1)}
+  buildOverview(){
+    const g=document.getElementById('ovgrid');
+    this.slides.forEach((s,k)=>{
+      const h=s.querySelector('h1,h2')||s.querySelector('.eyebrow');
+      const c=document.createElement('div');c.className='ovcard';
+      c.innerHTML=`<div class="oc-n">${String(k+1).padStart(2,'0')}</div>
+        <div class="oc-t">${h?h.textContent.trim().slice(0,40):'—'}</div>
+        <div class="oc-ch">${s.dataset.chap||''}</div>`;
+      c.onclick=()=>{this.go(k);this.toggleOverview(false)};
+      g.appendChild(c);
+    });
+  }
+  toggleOverview(force){
+    const o=document.getElementById('overview');
+    const show=force!==undefined?force:!o.classList.contains('show');
+    o.classList.toggle('show',show);
+  }
+  bind(){
+    document.getElementById('nextBtn').onclick=()=>this.next();
+    document.getElementById('prevBtn').onclick=()=>this.prev();
+    // 展開方塊（事件委派）
+    document.addEventListener('click',e=>{
+      const head=e.target.closest('.exp-head');
+      if(head){head.parentElement.classList.toggle('open');return;}
+      const opt=e.target.closest('.mcq .opt');
+      if(opt){const mcq=opt.closest('.mcq');if(mcq.classList.contains('answered'))return;
+        mcq.classList.add('answered');
+        if(!opt.hasAttribute('data-correct'))opt.classList.add('wrong');}
+    });
+    // 鍵盤
+    document.addEventListener('keydown',e=>{
+      if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();this.next();}
+      else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();this.prev();}
+      else if(e.key==='Home'){this.go(0);}
+      else if(e.key==='End'){this.go(this.slides.length-1);}
+      else if(e.key==='o'||e.key==='O'){this.toggleOverview();}
+      else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+      else if(e.key==='Escape'){this.toggleOverview(false);}
+    });
+    // 觸控
+    let x0=null;
+    document.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
+    document.addEventListener('touchend',e=>{
+      if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;
+      if(Math.abs(dx)>50){dx<0?this.next():this.prev();}x0=null;
+    },{passive:true});
+    // 滑鼠滾輪（節流）
+    let wlock=false;
+    document.addEventListener('wheel',e=>{
+      if(wlock)return;if(Math.abs(e.deltaY)<20)return;
+      wlock=true;e.deltaY>0?this.next():this.prev();
+      setTimeout(()=>wlock=false,700);
+    },{passive:true});
+  }
+}
+new Deck();
+</script>
+</body>
+</html>

@@ -11,6 +11,8 @@ website:
         href: index.qmd
       - text: "精選互動教材"
         href: featured.qmd
+      - text: "課堂教學"
+        href: handouts/classroom-teaching/index.qmd
       - text: "Mainz 2024"
         href: handouts/04-valvular-disease/mainz-2024/quarto/zh/index.qmd
     right:
@@ -22,6 +24,18 @@ website:
       style: docked
       contents:
         - index.qmd
+        - section: "課堂教學 Classroom Teaching"
+          contents:
+            - handouts/classroom-teaching/index.qmd
+            - text: "PCI 冠脈介入概論 — 深度互動版"
+              href: handouts/classroom-teaching/pci/PCI_Introduction_Interactive.html
+            - text: "認識支架失敗 Stent Failure — 導管室與病房教學模組"
+              href: handouts/classroom-teaching/pci/Stent_Failure_Module.html
+        - section: "管理與領導 Management"
+          contents:
+            - handouts/95-management-leadership/index.qmd
+            - text: "管理學 — 制度診斷模組 (Institutional Diagnosis)"
+              href: handouts/95-management-leadership/Management_Institutional_Diagnosis_Module.html
         - section: "缺血性心臟病 IHD"
           contents:
             - handouts/01-ischemic-heart-disease/index.qmd
