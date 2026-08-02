@@ -10,6 +10,10 @@ listing:
   categories: true
   sort: false
   contents:
+    - title: "血管路徑與鞘管 Vascular Access & Sheaths — 深度互動版"
+      description: "深度互動投影片。動靜脈路徑選擇、穿刺技巧、鞘管與止血，導管室新進人員的第一堂基本功。"
+      path: vascular-access/Vascular_Access_and_Sheaths_Interactive.html
+      categories: [血管路徑 Access, 導管室教學]
     - title: "PCI 冠脈介入概論 — 深度互動版"
       description: "深度互動投影片。從『為什麼要做 PCI』出發，貫穿適應症、器械、步驟與併發症，適合導管室新進人員與病房照護團隊。"
       path: pci/PCI_Introduction_Interactive.html
@@ -33,6 +37,7 @@ listing:
 
 ### 模組導覽 Modules
 
+- **🩹 血管路徑與鞘管 Vascular Access** — 已上線（見上方卡片）
 - **🫀 PCI 冠脈介入** — 已上線（見上方卡片）
 - **🧠 頸動脈 Carotid** — 課程陸續建置中
 - **🩸 經導管動脈栓塞 TAE** — 課程陸續建置中

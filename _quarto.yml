@@ -27,6 +27,8 @@ website:
         - section: "課堂教學 Classroom Teaching"
           contents:
             - handouts/classroom-teaching/index.qmd
+            - text: "血管路徑與鞘管 Vascular Access & Sheaths — 深度互動版"
+              href: handouts/classroom-teaching/vascular-access/Vascular_Access_and_Sheaths_Interactive.html
             - text: "PCI 冠脈介入概論 — 深度互動版"
               href: handouts/classroom-teaching/pci/PCI_Introduction_Interactive.html
             - text: "認識支架失敗 Stent Failure — 導管室與病房教學模組"
