@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>血管鞘 Sheath 一站式總整理 — 深度互動版</title>
+
+<!-- 字型：Latin 用 Sora（幾何技術感）與 Space Mono（數字/標籤）；CJK 用 Noto Sans TC，離線 fallback 微軟正黑 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Space+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
+
+<style>
+/* ===========================================
+   主題變數（改這裡就能換整體風格）
+   =========================================== */
+:root{
+  --bg:#070b12; --bg2:#0c1420; --panel:#101a29; --panel2:#16233699;
+  --ink:#eaf2ff; --muted:#8ea3bd; --faint:#5b6f8a;
+  --line:rgba(140,170,210,.16);
+  --cyan:#3fe0c8;         /* 血管攝影青：結構/血流 */
+  --cyan-soft:rgba(63,224,200,.14);
+  --red:#ff5064;          /* 冠脈紅：血管/血液/危險 */
+  --amber:#ffb020;        /* 警告 */
+  --green:#39d98a;        /* 基礎（技術員/NP） */
+  --blue:#4aa8ff;         /* 進階（Fellow） */
+  --purple:#b98cff;       /* 跨科 */
+
+  --font-display:'Sora','Noto Sans TC','Microsoft JhengHei',sans-serif;
+  --font-body:'Noto Sans TC','Microsoft JhengHei','Sora',sans-serif;
+  --font-mono:'Space Mono',ui-monospace,'Noto Sans TC',monospace;
+
+  --title-size:clamp(1.6rem,4.4vw,3.4rem);
+  --h2-size:clamp(1.25rem,3vw,2.3rem);
+  --h3-size:clamp(1rem,2vw,1.5rem);
+  --body-size:clamp(.78rem,1.35vw,1.06rem);
+  --small-size:clamp(.66rem,1vw,.86rem);
+  --slide-padding:clamp(1.1rem,3.6vw,3.4rem);
+  --content-gap:clamp(.6rem,1.8vw,1.6rem);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --dur:.6s;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* ===== viewport 基礎（採 frontend-slides 版型規範，改為離散翻頁疊層） ===== */
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--font-body)}
+img,.image-container{max-width:100%;max-height:min(50vh,400px);object-fit:contain}
+
+.deck{position:fixed;inset:0}
+.slide{
+  position:absolute;inset:0;width:100vw;height:100vh;height:100dvh;overflow:hidden;
+  display:flex;flex-direction:column;
+  padding:var(--slide-padding);
+  opacity:0;visibility:hidden;transform:scale(.985);
+  transition:opacity .55s var(--ease),transform .55s var(--ease),visibility .55s;
+  background:
+    radial-gradient(120% 80% at 82% -10%,rgba(63,224,200,.06),transparent 55%),
+    radial-gradient(90% 70% at -10% 110%,rgba(255,80,100,.05),transparent 55%),
+    var(--bg);
+}
+.slide.active{opacity:1;visibility:visible;transform:none;z-index:2}
+.slide.prev{transform:scale(1.01)}
+.slide-inner{flex:1;display:flex;flex-direction:column;justify-content:center;max-height:100%;overflow:hidden;gap:var(--content-gap)}
+
+/* 細格線 + 底部 ECG 裝飾，營造監視器氛圍 */
+.slide::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:clamp(34px,4vw,60px) clamp(34px,4vw,60px);
+  -webkit-mask-image:radial-gradient(120% 100% at 50% 40%,#000 40%,transparent 92%);
+          mask-image:radial-gradient(120% 100% at 50% 40%,#000 40%,transparent 92%);}
+
+/* ===== 文字 ===== */
+h1{font-family:var(--font-display);font-weight:800;font-size:var(--title-size);line-height:1.08;letter-spacing:-.01em}
+h2{font-family:var(--font-display);font-weight:700;font-size:var(--h2-size);line-height:1.14;letter-spacing:-.01em}
+h3{font-family:var(--font-display);font-weight:600;font-size:var(--h3-size);line-height:1.2}
+p,li{font-size:var(--body-size);line-height:1.62;color:#d6e2f2}
+strong{color:#fff}
+.mono{font-family:var(--font-mono)}
+.dim{color:var(--muted)}
+.accent{color:var(--cyan)} .red{color:var(--red)} .amber{color:var(--amber)}
+
+/* 眉標：章節 + 主題 */
+.eyebrow{display:flex;align-items:center;gap:.6rem;font-family:var(--font-mono);font-size:var(--small-size);color:var(--cyan);letter-spacing:.14em;text-transform:uppercase}
+.eyebrow::before{content:"";width:clamp(22px,3vw,44px);height:2px;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}
+
+/* 觀眾層級標籤 */
+.tags{position:absolute;top:calc(var(--slide-padding) * .62);right:calc(var(--slide-padding) * .7);display:flex;gap:.4rem;z-index:5}
+.tag{font-family:var(--font-mono);font-size:clamp(.56rem,.9vw,.72rem);padding:.24em .7em;border-radius:999px;border:1px solid;letter-spacing:.06em;background:rgba(0,0,0,.25);backdrop-filter:blur(4px)}
+.t-base{color:var(--green);border-color:rgba(57,217,138,.5)}
+.t-adv{color:var(--blue);border-color:rgba(74,168,255,.5)}
+.t-cross{color:var(--purple);border-color:rgba(185,140,255,.5)}
+
+/* ===== 進場動畫 ===== */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.slide.active .reveal{opacity:1;transform:none}
+.slide.active .reveal:nth-child(1){transition-delay:.06s}
+.slide.active .reveal:nth-child(2){transition-delay:.14s}
+.slide.active .reveal:nth-child(3){transition-delay:.22s}
+.slide.active .reveal:nth-child(4){transition-delay:.30s}
+.slide.active .reveal:nth-child(5){transition-delay:.38s}
+.slide.active .reveal:nth-child(6){transition-delay:.46s}
+
+/* ===== 封面 ===== */
+.cover{justify-content:center;align-items:flex-start}
+.cover .kicker{font-family:var(--font-mono);color:var(--cyan);letter-spacing:.3em;font-size:var(--small-size);text-transform:uppercase}
+.cover h1{font-size:clamp(2.1rem,7vw,5.4rem);margin:.2em 0 .1em}
+.cover h1 .sub{display:block;font-weight:400;font-size:.42em;color:var(--muted);letter-spacing:.02em;margin-top:.3em}
+.cover .byline{margin-top:1.2rem;color:var(--muted);font-size:var(--body-size)}
+.cover .byline b{color:var(--ink)}
+.heartbeat{position:absolute;left:0;right:0;bottom:0;height:22%;opacity:.5}
+
+/* ===== 卡片/格線 ===== */
+.grid{display:grid;gap:clamp(.5rem,1.4vw,1rem)}
+.card{background:linear-gradient(180deg,var(--panel),#0c1522);border:1px solid var(--line);border-radius:16px;padding:clamp(.7rem,1.6vw,1.3rem)}
+.card h3{margin-bottom:.35em}
+.card .ic{font-size:clamp(1.1rem,2.4vw,1.7rem);margin-bottom:.2em}
+
+/* 條列 */
+ul.clean{list-style:none;display:flex;flex-direction:column;gap:clamp(.35rem,1vh,.7rem)}
+ul.clean li{position:relative;padding-left:1.5em}
+ul.clean li::before{content:"▸";position:absolute;left:0;color:var(--cyan)}
+
+/* ===== 同頁展開方塊（Fellow 深入 / 深度分層核心元件） ===== */
+.expandbox{border:1px solid rgba(74,168,255,.4);border-radius:14px;overflow:hidden;background:linear-gradient(180deg,rgba(74,168,255,.10),rgba(74,168,255,.03))}
+.exp-head{display:flex;align-items:center;gap:.6em;cursor:pointer;padding:clamp(.55rem,1.3vw,.9rem) clamp(.7rem,1.5vw,1.1rem);user-select:none}
+.exp-head .badge{font-family:var(--font-mono);font-size:var(--small-size);color:var(--blue);border:1px solid rgba(74,168,255,.5);padding:.1em .6em;border-radius:999px;letter-spacing:.05em}
+.exp-head .exp-title{font-weight:700;color:#dcecff;font-size:var(--body-size)}
+.exp-head .chev{margin-left:auto;color:var(--blue);transition:transform .35s var(--ease)}
+.expandbox.open .chev{transform:rotate(180deg)}
+.exp-body{max-height:0;opacity:0;transition:max-height .45s var(--ease),opacity .35s;}
+.expandbox.open .exp-body{max-height:44vh;opacity:1}
+.exp-body-inner{padding:0 clamp(.7rem,1.5vw,1.1rem) clamp(.7rem,1.5vw,1.1rem);border-top:1px solid rgba(74,168,255,.2);font-size:var(--small-size);line-height:1.6;color:#cfe0f5}
+.exp-body-inner p+p{margin-top:.5em}
+
+/* ===== GIF 插槽（具名真實影片位置） ===== */
+.gifslot{position:relative;border:2px dashed rgba(255,80,100,.5);border-radius:16px;background:
+  repeating-linear-gradient(45deg,rgba(255,80,100,.04),rgba(255,80,100,.04) 12px,transparent 12px,transparent 24px);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1rem;gap:.4em;min-height:clamp(120px,26vh,260px)}
+.gifslot .cam{font-size:clamp(1.4rem,3vw,2.2rem);filter:drop-shadow(0 0 10px rgba(255,80,100,.5))}
+.gifslot .lbl{font-family:var(--font-mono);color:var(--red);font-size:var(--small-size);letter-spacing:.04em}
+.gifslot .desc{color:#f0c6cc;font-size:var(--body-size);font-weight:700;max-width:26ch}
+.gifslot .hint{color:var(--faint);font-size:clamp(.6rem,.9vw,.72rem)}
+.gifslot::after{content:"REC ●";position:absolute;top:.6em;right:.8em;font-family:var(--font-mono);font-size:.6rem;color:var(--red);letter-spacing:.1em;animation:blink 1.4s steps(1) infinite}
+@keyframes blink{50%{opacity:.15}}
+
+/* ===== 章節分隔頁 ===== */
+.divider{justify-content:center}
+.divider .num{font-family:var(--font-mono);font-size:clamp(4rem,20vw,16rem);font-weight:700;line-height:.8;color:transparent;-webkit-text-stroke:2px rgba(63,224,200,.45);letter-spacing:-.03em}
+.divider h1{margin-top:.1em}
+.divider .lead{color:var(--muted);max-width:40ch;margin-top:.6em;font-size:var(--h3-size)}
+.chapter-list{margin-top:1.4rem;display:flex;flex-wrap:wrap;gap:.5rem}
+.chapter-list span{font-family:var(--font-mono);font-size:var(--small-size);color:var(--muted);border:1px solid var(--line);padding:.3em .8em;border-radius:999px}
+
+/* ===== 兩欄版面 ===== */
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(1rem,2.4vw,2.2rem);align-items:center;flex:1;min-height:0}
+.two .col{min-height:0;display:flex;flex-direction:column;gap:var(--content-gap);justify-content:center}
+@media(max-width:820px){.two{grid-template-columns:1fr;overflow:auto}}
+
+/* ===== SVG 舞台 ===== */
+.stage{width:100%;max-height:52vh;display:block}
+.figcap{font-family:var(--font-mono);font-size:var(--small-size);color:var(--faint);text-align:center;margin-top:.4em}
+
+/* 血流粒子動畫（沿血管流動的點） */
+.flow-dot{fill:var(--red)}
+@keyframes flow{from{offset-distance:0%}to{offset-distance:100%}}
+
+/* 氣球擴張 */
+@keyframes inflate{0%,15%{transform:scaleY(.18)}55%,75%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+/* 支架撐開 */
+@keyframes stentopen{0%,25%{transform:scaleY(.25);opacity:.6}70%,100%{transform:scaleY(1);opacity:1}}
+/* 狹窄處管壁 */
+@keyframes widen{0%,20%{d:path(var(--narrow))}70%,100%{d:path(var(--wide))}}
+
+/* ===== 步驟流程（Ch2 overview） ===== */
+.pipe{display:grid;grid-template-columns:repeat(7,1fr);gap:.5rem;align-items:stretch}
+.pstep{background:linear-gradient(180deg,var(--panel),#0b1420);border:1px solid var(--line);border-radius:12px;padding:clamp(.5rem,1.1vw,.9rem);display:flex;flex-direction:column;gap:.3em;position:relative}
+.pstep .n{font-family:var(--font-mono);color:var(--cyan);font-size:var(--small-size)}
+.pstep .t{font-weight:700;font-size:clamp(.72rem,1.15vw,.95rem);line-height:1.2}
+.pstep .d{font-size:clamp(.6rem,.92vw,.78rem);color:var(--muted);line-height:1.35}
+.pstep:not(:last-child)::after{content:"→";position:absolute;right:-.5rem;top:50%;transform:translateY(-50%);color:var(--faint);z-index:3;font-size:.9rem}
+@media(max-width:820px){.pipe{grid-template-columns:1fr 1fr}.pstep::after{display:none}}
+
+/* 徽章/量表 */
+.pill{display:inline-flex;align-items:center;gap:.4em;font-family:var(--font-mono);font-size:var(--small-size);padding:.25em .7em;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.timibar{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}
+.timibar .lvl{border:1px solid var(--line);border-radius:10px;padding:.5em .6em;background:var(--panel)}
+.timibar .lvl b{font-family:var(--font-mono);color:var(--cyan)}
+.timibar .lvl small{display:block;color:var(--muted);font-size:clamp(.6rem,.9vw,.74rem);margin-top:.2em}
+
+/* ===== 導覽 UI ===== */
+.progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--cyan),var(--red));width:0;z-index:50;box-shadow:0 0 12px var(--cyan);transition:width .4s var(--ease)}
+.hud{position:fixed;bottom:clamp(.5rem,1.5vh,1rem);left:0;right:0;display:flex;align-items:center;justify-content:center;gap:1rem;z-index:40;pointer-events:none;font-family:var(--font-mono);font-size:var(--small-size);color:var(--faint)}
+.hud .chapname{color:var(--muted)}
+.hud .count{color:var(--cyan)}
+.navbtn{position:fixed;top:50%;transform:translateY(-50%);z-index:45;width:clamp(34px,4vw,46px);height:clamp(34px,4vw,46px);border-radius:50%;border:1px solid var(--line);background:rgba(10,16,26,.6);color:var(--ink);cursor:pointer;font-size:1.1rem;backdrop-filter:blur(6px);transition:.25s}
+.navbtn:hover{border-color:var(--cyan);color:var(--cyan)}
+.navbtn.left{left:clamp(.4rem,1.5vw,1rem)} .navbtn.right{right:clamp(.4rem,1.5vw,1rem)}
+.hint{position:fixed;bottom:clamp(.5rem,1.5vh,1rem);right:clamp(.6rem,1.5vw,1.2rem);z-index:40;font-family:var(--font-mono);font-size:clamp(.6rem,.9vw,.72rem);color:var(--faint)}
+
+/* 總覽格 (按 O) */
+.overview{position:fixed;inset:0;z-index:60;background:rgba(5,8,14,.96);backdrop-filter:blur(8px);padding:clamp(1rem,3vw,2.4rem);overflow:auto;display:none}
+.overview.show{display:block}
+.overview h2{margin-bottom:1rem}
+.ovgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.7rem}
+.ovcard{border:1px solid var(--line);border-radius:10px;padding:.7rem;cursor:pointer;background:var(--panel);transition:.2s;min-height:78px}
+.ovcard:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.ovcard .oc-n{font-family:var(--font-mono);color:var(--cyan);font-size:.72rem}
+.ovcard .oc-t{font-size:.82rem;margin-top:.3em;color:#dbe6f5;line-height:1.3}
+.ovcard .oc-ch{font-size:.62rem;color:var(--faint);margin-top:.35em;font-family:var(--font-mono)}
+
+/* 註腳/引用 */
+.src{font-size:clamp(.58rem,.85vw,.7rem);color:var(--faint);font-family:var(--font-mono)}
+
+/* ===== 互動 MCQ ===== */
+.mcq{border:1px solid var(--line);border-radius:14px;padding:clamp(.65rem,1.5vw,1.1rem);background:var(--panel);display:flex;flex-direction:column;gap:.45rem}
+.mcq .q{font-weight:700;color:#eaf2ff;font-size:var(--body-size)}
+.mcq .opt{text-align:left;font-family:var(--font-body);font-size:var(--small-size);color:#d6e2f2;background:#0e1826;border:1px solid var(--line);border-radius:10px;padding:.5em .8em;cursor:pointer;transition:.2s}
+.mcq .opt::before{content:attr(data-k);font-family:var(--font-mono);color:var(--cyan);margin-right:.6em}
+.mcq .opt:hover{border-color:var(--cyan)}
+.mcq.answered .opt{cursor:default}
+.mcq.answered .opt[data-correct]{border-color:var(--green);background:rgba(57,217,138,.14);color:#d7ffe9}
+.mcq .opt.wrong{border-color:var(--red);background:rgba(255,80,100,.12)}
+.mcq .explain{display:none;font-size:var(--small-size);color:#cfe0f5;border-top:1px solid var(--line);padding-top:.45em;line-height:1.5}
+.mcq.answered .explain{display:block}
+.reflect{border-left:3px solid var(--purple);background:rgba(185,140,255,.08);border-radius:0 12px 12px 0;padding:.7rem 1rem;font-size:var(--body-size);color:#e7dcff}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.2s!important}
+}
+@media (max-height:600px){.tags{display:none}.hint{display:none}}
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<div class="deck" id="deck">
+  <!-- ============ 封面 ============ -->
+  <section class="slide cover" data-chap="封面">
+    <div class="slide-inner">
+      <div class="kicker reveal">NTUH Hsinchu · Cath Room Teaching · 2-02</div>
+      <h1 class="reveal">血管鞘 Sheath 一站式總整理
+        <span class="sub">從規格、選用，到照護與移除 —— sheath 的所有事，一份搞定</span>
+      </h1>
+      <div class="byline reveal">
+        深度互動教學版 · 繁體中文　|　對象：<b>新進技術員</b> · <b>專科護理師</b> · <b>Fellow</b> · <b>跨科同仁</b><br>
+        <span class="dim">整併自 2-01 Vascular Access · 2-02 Sheath 鞘管介紹 · 2-03 竹北 sheath 照護 · sheath 移除流程圖</span>
+      </div>
+    </div>
+    <svg class="heartbeat" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,140 L360,140 L390,140 L410,60 L430,180 L450,20 L470,140 L520,140 L900,140 L930,140 L950,90 L970,160 L990,140 L1200,140" fill="none" stroke="var(--red)" stroke-width="3" opacity=".9">
+        <animate attributeName="stroke-dasharray" from="0,2000" to="2000,0" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </svg>
+  </section>
+
+  <!-- ============ 使用說明 ============ -->
+  <section class="slide" data-chap="使用說明">
+    <div class="slide-inner">
+      <div class="eyebrow reveal">如何使用這份講義</div>
+      <h2 class="reveal">三種標籤、一頁三層深度</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><div class="ic">🟢</div><h3 style="color:var(--green)">基礎</h3><p>技術員 / 專科護理師必備：規格、備台、拔鞘、照護。</p></div>
+        <div class="card"><div class="ic">🔵</div><h3 style="color:var(--blue)">進階</h3><p>Fellow 深入：器材原理、ACT、protamine 政策。</p></div>
+        <div class="card"><div class="ic">🟣</div><h3 style="color:var(--purple)">跨科</h3><p>跨科同仁：病房流程與轉介。</p></div>
+      </div>
+      <div class="reveal reflect" style="margin-top:.5rem">🧭 這份把散在 <strong>2-01 / 2-02 / 2-03 / 拔鞘流程圖</strong> 的 sheath 內容整併去重；各原檔仍保留，本份為單一總整理。</div>
+      <p class="src reveal">鍵盤：← → 或空白鍵翻頁　·　按 O 開總覽　·　按 F 全螢幕</p>
+    </div>
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+  </section>
+
+  <!-- ============ 第 1 章 認識血管鞘 ============ -->
+  <section class="slide divider" data-chap="1 認識血管鞘">
+    <div class="slide-inner">
+      <div class="num reveal">01</div>
+      <div class="eyebrow reveal">Chapter 1</div>
+      <h1 class="reveal">認識血管鞘</h1>
+      <p class="lead reveal">它是什麼、怎麼分大小、French 到底是直徑還是圓周。</p>
+      <div class="chapter-list reveal"><span>什麼是 sheath</span><span>顏色 / Cook Shuttle</span><span>French 定義</span></div>
+    </div>
+  </section>
+
+  <!-- 1-1 什麼是 sheath -->
+  <section class="slide" data-chap="1 認識血管鞘">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-1　什麼是血管鞘 sheath</div>
+      <h2 class="reveal">三步驟建立一條通道</h2>
+      <div class="grid reveal" style="grid-template-columns:repeat(3,1fr)">
+        <div class="card"><div class="ic accent">①</div><h3>局部麻醉</h3><p>穿刺處局麻；病人清醒。</p></div>
+        <div class="card"><div class="ic accent">②</div><h3>導針穿刺</h3><p>穿刺針進血管、送入導絲。</p></div>
+        <div class="card"><div class="ic accent">③</div><h3>置放 sheath</h3><p>沿導絲置入血管鞘。</p></div>
+      </div>
+      <div class="reveal reflect" style="margin-top:.4rem">🩺 <strong>Sheath ＝「血管鞘」</strong>，是進出器械的通道。它顧好與否，直接關係到出血與併發症。</div>
+    </div>
+  </section>
+
+  <!-- 1-2 顏色 / Cook Shuttle -->
+  <section class="slide" data-chap="1 認識血管鞘">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-2　怎麼知道 sheath 多大</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">Terumo 看顏色，Cook Shuttle 看標示</h2>
+          <ul class="clean reveal">
+            <li><strong>Terumo sheath 用顏色分</strong>：4 / 5 / 6 / 7 / 8 / 10 / 12 Fr</li>
+            <li><strong class="amber">Cook Shuttle sheath 沒辦法用顏色分</strong>——讀包裝標示</li>
+            <li>上台前<strong>對號</strong>，拿錯尺寸器械進不去或止血困難</li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="card reveal">
+            <h3 class="accent">Terumo 顏色速記</h3>
+            <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5em">
+              <span class="pill">4 Fr</span><span class="pill">5 Fr</span><span class="pill">6 Fr</span><span class="pill">7 Fr</span><span class="pill">8 Fr</span><span class="pill">10 Fr</span><span class="pill">12 Fr</span>
+            </div>
+            <p class="dim" style="margin-top:.6em">顏色以現場包裝為準；Cook Shuttle 請讀標示。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1-3 French + SVG -->
+  <section class="slide" data-chap="1 認識血管鞘">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">1-3　French 的定義</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">French ＝ 圓周（不是直徑！）</h2>
+          <ul class="clean reveal">
+            <li><strong>3 Fr = 直徑 1 mm = 圓周 3 mm</strong></li>
+            <li>直徑(mm) × 3 ＝ Fr（＝圓周 mm 數）</li>
+            <li><strong>6 Fr</strong> → 圓周 6 mm、直徑 <strong>2 mm</strong></li>
+            <li><strong>8 Fr</strong> → 圓周 8 mm、直徑 <strong>2.6 mm</strong>（8/3）</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">內徑 vs 外徑：這正是「薄壁 / slender」的價值</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>Sheath 標示<b>內徑（可過器械）</b>；血管內<b>外徑</b>更大。薄壁設計可用較小外徑通過同內徑——下一章 Glidesheath Slender 的三尺寸表就是這個道理。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <svg class="stage reveal" viewBox="0 0 300 260" role="img" aria-label="French 圓周與直徑示意" style="max-height:44vh">
+            <circle cx="150" cy="120" r="80" fill="rgba(63,224,200,.10)" stroke="var(--cyan)" stroke-width="3"/>
+            <line x1="70" y1="120" x2="230" y2="120" stroke="#ffd166" stroke-width="2" stroke-dasharray="5 4"/>
+            <text x="150" y="112" fill="#ffd166" font-family="Space Mono" font-size="13" text-anchor="middle">直徑 = Fr / 3 (mm)</text>
+            <path d="M150,40 A80,80 0 0,1 230,120" fill="none" stroke="var(--red)" stroke-width="5"/>
+            <text x="235" y="70" fill="var(--red)" font-family="Space Mono" font-size="12">圓周 = Fr (mm)</text>
+            <text x="150" y="235" fill="var(--muted)" font-family="Space Mono" font-size="12" text-anchor="middle">6 Fr → ⌀ 2.0 mm ｜ 8 Fr → ⌀ 2.6 mm</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 2 章 規格與器材（2-02） ============ -->
+  <section class="slide divider" data-chap="2 規格與器材">
+    <div class="slide-inner">
+      <div class="num reveal">02</div>
+      <div class="eyebrow reveal">Chapter 2 · 器材深水區</div>
+      <h1 class="reveal">規格與器材</h1>
+      <p class="lead reveal">尺寸、mini wire、薄壁 slender、guiding 外徑、還有那個「一定要對準中心」的 valve。</p>
+      <div class="chapter-list reveal"><span>規格總覽</span><span>Glidesheath Slender</span><span>Guiding O.D</span><span>Cross-cut valve</span></div>
+    </div>
+  </section>
+
+  <!-- 2-1 規格總覽 -->
+  <section class="slide" data-chap="2 規格與器材">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-1　Sheath 規格總覽（Specifications）</div>
+      <div class="two">
+        <div class="col">
+          <div class="card reveal" style="border-color:rgba(63,224,200,.5)">
+            <h3 class="accent">Sheath</h3>
+            <p><strong>Length</strong>：5 / 7 / 10 / 16 / 25 cm　·　<strong>Size</strong>：4 ~ 11 F</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="accent">Mini wire</h3>
+            <p><strong>Plastic type</strong>：45 / 80 cm；.018″ / .021″ / .025″ / .035″ / .038″；Angled / Straight</p>
+            <p style="margin-top:.3em"><strong>Spring type</strong>：45 & 80 cm；.021″ / .035″ / .038″ J curve</p>
+          </div>
+        </div>
+        <div class="col">
+          <ul class="clean reveal">
+            <li>Transradial Introducer Kit / Destination / Guiding sheath 各有其位</li>
+            <li>備台時對應<strong>路徑（radial/femoral）與器械尺寸</strong>選長度與 Fr</li>
+            <li>導絲角度（Angled/Straight）與 J curve 影響通過性</li>
+          </ul>
+          <p class="src reveal">整併自 2-02 Sheath 鞘管介紹（器材規格頁）</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-2 Glidesheath Slender -->
+  <section class="slide" data-chap="2 規格與器材">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-2　Glidesheath Slender (GSS)</div>
+      <h2 class="reveal">薄壁：同內徑、更小外徑——橈動脈的好朋友</h2>
+      <table class="reveal" style="width:100%;border-collapse:collapse;font-size:var(--small-size);line-height:1.4">
+        <thead><tr>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Size</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Tip ID (mm)</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Body ID (mm)</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Length (mm)</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Coating</td>
+        </tr></thead>
+        <tbody>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>5 Fr</b></td><td style="border:1px solid var(--line);padding:.4em .6em">1.78</td><td style="border:1px solid var(--line);padding:.4em .6em">1.89</td><td style="border:1px solid var(--line);padding:.4em .6em">160</td><td style="border:1px solid var(--line);padding:.4em .6em">M Coating</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>6 Fr</b></td><td style="border:1px solid var(--line);padding:.4em .6em">2.10</td><td style="border:1px solid var(--line);padding:.4em .6em">2.22</td><td style="border:1px solid var(--line);padding:.4em .6em">160</td><td style="border:1px solid var(--line);padding:.4em .6em">M Coating</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>7 Fr</b></td><td style="border:1px solid var(--line);padding:.4em .6em">2.45</td><td style="border:1px solid var(--line);padding:.4em .6em">2.55</td><td style="border:1px solid var(--line);padding:.4em .6em">160</td><td style="border:1px solid var(--line);padding:.4em .6em">M Coating</td></tr>
+        </tbody>
+      </table>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">為什麼 slender 能降痙攣與 RAO</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>薄壁使<b>外徑</b>接近小一號 sheath，卻保有原 Fr 的<b>內徑</b>可過器械——降低橈動脈張力、<b>痙攣</b>與 <b>radial artery occlusion</b>。親水（M coating）進一步減摩擦。細橈者可考慮 slender 或 sheathless guiding。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-3 Guiding O.D 比較 -->
+  <section class="slide" data-chap="2 規格與器材">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-3　Guiding 導管外徑（O.D）比較</div>
+      <div class="two">
+        <div class="col">
+          <table class="reveal" style="width:100%;border-collapse:collapse;font-size:var(--small-size);line-height:1.4">
+            <thead><tr>
+              <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Guiding</td>
+              <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">O.D</td>
+              <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">表面</td>
+            </tr></thead>
+            <tbody>
+              <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>Heartrail Ⅱ</b></td><td style="border:1px solid var(--line);padding:.4em .6em">2.07 mm</td><td style="border:1px solid var(--line);padding:.4em .6em">Dimple</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>Mach 1</b></td><td style="border:1px solid var(--line);padding:.4em .6em">2.08 mm</td><td style="border:1px solid var(--line);padding:.4em .6em">—</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>Launcher</b></td><td style="border:1px solid var(--line);padding:.4em .6em">2.10 mm</td><td style="border:1px solid var(--line);padding:.4em .6em">Dimple</td></tr>
+            </tbody>
+          </table>
+          <p class="src reveal">另：Terumo Radifocus Introducer ⅡH 6Fr、Glidesheath Slender 為常搭配組合</p>
+        </div>
+        <div class="col">
+          <ul class="clean reveal">
+            <li>管壁薄 → 鞘尖<strong>靈活性強</strong>、降低導管操控<strong>摩擦力</strong>、兼容性增加</li>
+            <li><strong class="amber">從托盤取出鞘管要小心</strong>，避免損傷（<strong>kinking、collapse、damaged sheath</strong>）</li>
+            <li>添付文書注意：薄壁鞘取出需慎，以免破損</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-4 Cross-cut valve 眉角 -->
+  <section class="slide" data-chap="2 規格與器材">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">2-4　Cross-cut valve：dilator 一定要對準中心</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">插歪了，止血閥就破了</h2>
+          <ul class="clean reveal">
+            <li>dilator 沒對準 valve 中心 → 可能<strong class="red">刺破 valve</strong> → 產生 flaw</li>
+            <li>flaw 使<strong>止血功能受損 → 漏血（blood leakage）</strong></li>
+            <li>dilator 尖端也可能撞 valve 或 housing 內壁而<strong>變形</strong></li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="card reveal" style="border-color:var(--green)">
+            <h3 style="color:var(--green)">✔ 正確做法</h3>
+            <p><strong>對準狹縫（slit）正中心</strong>、<strong>垂直</strong>插入 dilator 進 valve。</p>
+            <p class="dim" style="margin-top:.4em">flaw 的位置與形狀，會依 dilator 插入的位置與角度而不同。</p>
+          </div>
+          <p class="src reveal">整併自 2-02（cross cut valve / dilator 組裝注意）</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 3 章 快速參考卡 ============ -->
+  <section class="slide divider" data-chap="3 快速參考卡">
+    <div class="slide-inner">
+      <div class="num reveal">03</div>
+      <div class="eyebrow reveal">Chapter 3</div>
+      <h1 class="reveal">快速參考卡：週邊 sheath 選用</h1>
+      <p class="lead reveal">不同案子配不同的鞘——這兩張表印在腦裡，備台快又準。</p>
+      <div class="chapter-list reveal"><span>適應症表</span><span>長度 routines</span></div>
+    </div>
+  </section>
+
+  <!-- 3-1 適應症表 -->
+  <section class="slide" data-chap="3 快速參考卡">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">3-1　快速參考卡 · 週邊 sheath 適應症</div>
+      <table class="reveal" style="width:100%;border-collapse:collapse;font-size:var(--small-size);line-height:1.4">
+        <thead><tr>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">適應症</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">廠牌</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">Fr</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">長度</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.45em .6em;font-family:var(--font-mono)">說明</td>
+        </tr></thead>
+        <tbody>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>Carotid stenting</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">6</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">用 JR4 4–6 Fr 配 Stiff Terumo 260 cm</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>PAOD</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">4, 6, 7, 8</td><td style="border:1px solid var(--line);padding:.4em .6em">45；45/55 curve、90</td><td style="border:1px solid var(--line);padding:.4em .6em">45 cm 同側 antegrade（可 4 Fr）；45/55 curve 與 90 cm 對側 cross-over</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>PAOD + TurboHawk</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">8</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">TurboHawk：directional atherectomy</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>Subclavian stenting</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">6, 7, 8</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">要注意 Express LD 支架的大小</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.4em .6em"><b>DVT / PE</b></td><td style="border:1px solid var(--line);padding:.4em .6em">Cook, Terumo</td><td style="border:1px solid var(--line);padding:.4em .6em">6</td><td style="border:1px solid var(--line);padding:.4em .6em">90 cm</td><td style="border:1px solid var(--line);padding:.4em .6em">—</td></tr>
+        </tbody>
+      </table>
+      <p class="src reveal">整併自 2-01 快速參考卡 · 週邊介入細節見資料夾 7-01~7-24</p>
+    </div>
+  </section>
+
+  <!-- 3-2 長度 routines -->
+  <section class="slide" data-chap="3 快速參考卡">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">3-2　Sheath 長度 (length) 與 routines</div>
+      <div class="two">
+        <div class="col">
+          <h3 class="reveal accent">Terumo</h3>
+          <table class="reveal" style="width:100%;border-collapse:collapse;font-size:clamp(.62rem,.95vw,.8rem);line-height:1.35">
+            <tbody>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">5 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">AV shunt PTA 專用（短一點好操作）</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">10 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">CAG / PCI / 診斷導管 一般用</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">16 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">從手（radial）CAG/PCI 標準長度</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">25 / 45 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">tortuous iliac；45 cm 增加 support</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">65 / 90 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">PAOD 對側、carotid、PE</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col">
+          <h3 class="reveal accent">Cook（Shuttle）</h3>
+          <table class="reveal" style="width:100%;border-collapse:collapse;font-size:clamp(.62rem,.95vw,.8rem);line-height:1.35">
+            <tbody>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">45 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">PAOD 同側作（usually 4 Fr）</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">55 / 80 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">依路徑與 support 需求</td></tr>
+              <tr><td style="border:1px solid var(--line);padding:.35em .5em;font-family:var(--font-mono);color:var(--cyan)">90 cm</td><td style="border:1px solid var(--line);padding:.35em .5em">PAOD 對側、carotid、PE</td></tr>
+            </tbody>
+          </table>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">長 sheath＝support；guide extension 補遠端</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>越彎越遠越需要長 sheath 拉直路徑；但增加摩擦與缺血（尤其細橈）。以最短能達成 support 為原則，必要時 guide extension 補遠端支撐。</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 4 章 照護與移除（2-03 + 流程圖） ============ -->
+  <section class="slide divider" data-chap="4 照護與移除">
+    <div class="slide-inner">
+      <div class="num reveal">04</div>
+      <div class="eyebrow reveal">Chapter 4 · 病房主場</div>
+      <h1 class="reveal">Sheath 照護與移除 protocol</h1>
+      <p class="lead reveal">ACT 門檻、幾 Fr 能在病房拔、幾點量一次血壓、小夜怎麼辦、protamine 給不給。</p>
+      <div class="chapter-list reveal"><span>拔鞘決策</span><span>ACT 門檻</span><span>地點與 Fr</span><span>術後監測</span><span>小夜 / protamine</span></div>
+    </div>
+  </section>
+
+  <!-- 4-1 拔鞘決策流程 -->
+  <section class="slide" data-chap="4 照護與移除">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-1　拔 sheath 的決策流程</div>
+      <h2 class="reveal">先問一句：這台有沒有用抗凝血劑？</h2>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="card" style="border-color:rgba(63,224,200,.5)">
+          <h3 class="accent">沒用抗凝血劑</h3>
+          <p><strong>當日移除 sheath</strong>；radial / brachial / femoral 皆<strong>在導管室拔除並加壓止血</strong>。</p>
+        </div>
+        <div class="card" style="border-color:var(--amber)">
+          <h3 class="amber">有用抗凝血劑（heparin）</h3>
+          <p>視胸痛與病況回加護觀察；<strong>依 ACT 決定移除時機</strong>（見 4-2）。隔天早上依醫師指定時間停 heparin。</p>
+        </div>
+      </div>
+      <p class="src reveal">整併自 sheath 移除流程圖（護理師交班 → 醫師決定抗凝 → 拔除路線）</p>
+    </div>
+  </section>
+
+  <!-- 4-2 ACT 門檻 -->
+  <section class="slide" data-chap="4 照護與移除">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-2　ACT 門檻：什麼時候可以拔</div>
+      <h2 class="reveal">用 ACT 當紅綠燈（用 heparin 者，術後 2 小時起測）</h2>
+      <div class="timibar reveal">
+        <div class="lvl"><b>ACT &lt; 150 秒</b><small>可 1 小時內移除 sheath ✓</small></div>
+        <div class="lvl"><b>ACT 150–200 秒</b><small>0.5 小時後再 check ACT</small></div>
+        <div class="lvl"><b>ACT &gt; 200 秒</b><small>1 小時後再 check ACT</small></div>
+      </div>
+      <div class="expandbox reveal">
+        <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">為什麼要等 ACT 掉下來才拔</span><span class="chev">▾</span></div>
+        <div class="exp-body"><div class="exp-body-inner">
+          <p>抗凝未回復就拔鞘＝<b>出血、血腫、假性動脈瘤</b>風險大增。ACT &lt; 150 秒代表凝血接近正常、加壓可有效止血。加壓後仍需觀察；股路徑尤其注意隱匿的<b>腹膜後血腫</b>。隔天停 heparin 的時間由醫師指定。</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-3 地點與 Fr 規則 -->
+  <section class="slide" data-chap="4 照護與移除">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-3　在哪裡拔、誰來拔（依位置與 Fr）</div>
+      <ul class="clean reveal" style="max-width:92ch">
+        <li>Radial / Brachial / Femoral：原則<strong>導管室拔除</strong>，轉加護病房觀察；<strong>8 小時內</strong>要拔除，拔除 8 小時後無血腫可轉出加護</li>
+        <li><strong>4 Fr &amp; 5 Fr</strong>：可在<strong>病房拔除</strong></li>
+        <li><strong>6 Fr</strong>：由<strong>主治醫師決定</strong>是否在病房拔除</li>
+        <li><strong>≥ 6 Fr</strong>：加壓兩小時後，評估<strong>是否使用 Angioseal</strong></li>
+        <li><strong>AV fistula（洗腎廔管）</strong>：洗腎後由<strong>洗腎護理師</strong>拔除</li>
+      </ul>
+      <p class="src reveal">整併自 sheath 移除流程圖 2 · 止血裝置實作見資料夾 2-04 ProGlide / 2-05~2-07 AngioSeal</p>
+    </div>
+  </section>
+
+  <!-- 4-4 術後監測 -->
+  <section class="slide" data-chap="4 照護與移除">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-4　術後 vital signs 監測頻率（各單位現況）</div>
+      <table class="reveal" style="width:100%;border-collapse:collapse;font-size:clamp(.62rem,.95vw,.82rem);line-height:1.4">
+        <thead><tr>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.4em .6em;font-family:var(--font-mono)">單位</td>
+          <td bgcolor="#12324a" style="background-color:#12324a;color:#eaf4ff;border:1px solid var(--line);padding:.4em .6em;font-family:var(--font-mono)">監測頻率</td>
+        </tr></thead>
+        <tbody>
+          <tr><td style="border:1px solid var(--line);padding:.35em .6em"><b>總院</b></td><td style="border:1px solid var(--line);padding:.35em .6em">回病房第一小時 Q15min，then Q30min ×2</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.35em .6em"><b>CCU</b></td><td style="border:1px solid var(--line);padding:.35em .6em">q15m ×4，q30m ×2，routine q1h</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.35em .6em"><b>2A</b></td><td style="border:1px solid var(--line);padding:.35em .6em">q30m ×2，q1h ×1，q2h ×1，routine q4h</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.35em .6em"><b>3A</b></td><td style="border:1px solid var(--line);padding:.35em .6em">q30m ×2，then ward routine</td></tr>
+          <tr><td style="border:1px solid var(--line);padding:.35em .6em"><b>竹北</b></td><td style="border:1px solid var(--line);padding:.35em .6em">曾遇 puncture site 出血性休克 → 建議統一加密（如 Q15min）</td></tr>
+        </tbody>
+      </table>
+      <p class="src reveal amber">⚠ 各單位現況討論紀錄（2-03），非最終定案；監測頻率請以最新科部共識為準</p>
+    </div>
+  </section>
+
+  <!-- 4-5 小夜 / protamine -->
+  <section class="slide" data-chap="4 照護與移除">
+    <div class="tags"><span class="tag t-adv">🔵 進階</span><span class="tag t-cross">🟣 跨科</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">4-5　小夜班拔 sheath 與 protamine 政策</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">兩個常出事的議題</h2>
+          <ul class="clean reveal">
+            <li>小夜才下台的 femoral sheath，<strong>誰拔、何時拔</strong>要事先安排——導管執行醫師應找好協助，避免丟給忙亂的小夜病房</li>
+            <li>過去新竹作法（2011–2013）：夜間打一次 <strong>Clexane SC，隔天早上拔</strong></li>
+            <li>值班時段 sheath 責任歸屬要明確（非心臟科 ICU duty VS 時尤其）</li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="expandbox reveal open">
+            <div class="exp-head"><span class="badge">🔵 Fellow 深入</span><span class="exp-title">Protamine：週邊可、冠脈不可（有前車之鑑）</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p><b>週邊</b>介入可給 <b>protamine reversal</b> 後在導管室拔 sheath；<b>冠脈（CAD/PCI）不可</b>常規給 protamine。原因：2011–2013 曾有一例 <b class="red">protamine 後發生 coronary stent thrombosis</b>。之後訓練共識：<b>冠脈除非併發症合併出血須立即止血，否則不給 protamine</b>；CAD 給 protamine 僅限 coronary perforation 等併發症的緊急救援。</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 第 5 章 併發症與安全 ============ -->
+  <section class="slide divider" data-chap="5 併發症與安全">
+    <div class="slide-inner">
+      <div class="num reveal">05</div>
+      <div class="eyebrow reveal">Chapter 5</div>
+      <h1 class="reveal">併發症與安全</h1>
+      <p class="lead reveal">Sheath 沒顧好會怎樣、認得出哪些、緊急怎麼處理。</p>
+      <div class="chapter-list reveal"><span>穿刺併發症</span><span>緊急處置</span></div>
+    </div>
+  </section>
+
+  <!-- 5-1 併發症 + 緊急處置 -->
+  <section class="slide" data-chap="5 併發症與安全">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">5-1　Sheath 沒顧好 · 穿刺併發症 · 緊急處置</div>
+      <div class="two">
+        <div class="col">
+          <h2 class="reveal">認得出，才處理得了</h2>
+          <ul class="clean reveal">
+            <li>沒顧好：<strong>血腫、滲血、出血、動靜脈廔管</strong></li>
+            <li>Hematoma、Ecchymosis、<strong>Pseudoaneurysm</strong>、AV fistula</li>
+            <li><strong class="red">Retroperitoneal hematoma</strong>（高位股穿刺，致命）</li>
+          </ul>
+          <div class="expandbox reveal">
+            <div class="exp-head"><span class="badge">🔵 Fellow</span><span class="exp-title">RP hematoma 的隱匿警訊</span><span class="chev">▾</span></div>
+            <div class="exp-body"><div class="exp-body-inner">
+              <p>不明原因<b>低血壓、心搏過速、背/腹痛、血比容下降</b>而表面看不到血腫——警覺 RP hematoma，影像（CT）確認。橈路徑大幅降低這些風險。</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card reveal" style="border-color:var(--red)">
+            <h3 class="red">緊急處置四動作</h3>
+            <ul class="clean" style="margin-top:.4em">
+              <li>止血點加壓</li>
+              <li>Check vital signs</li>
+              <li>輸血</li>
+              <li>會診血管外科</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 附錄 ============ -->
+  <section class="slide divider" data-chap="附錄 · 動手練習">
+    <div class="slide-inner">
+      <div class="num reveal">＋</div>
+      <div class="eyebrow reveal">Appendix</div>
+      <h1 class="reveal">附錄 · 動手練習</h1>
+      <p class="lead reveal">點選作答、即時解析。</p>
+      <div class="chapter-list reveal"><span>規格 / French</span><span>拔鞘 / ACT / protamine</span></div>
+    </div>
+  </section>
+
+  <!-- A-1 MCQ -->
+  <section class="slide" data-chap="附錄 · 動手練習">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span><span class="tag t-adv">🔵 進階</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">A-1　MCQ · 點選作答</div>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="mcq">
+          <div class="q">用 heparin 的病人術後測 ACT，數值多少可以在 1 小時內拔 sheath？</div>
+          <button class="opt" data-k="A" data-correct>ACT &lt; 150 秒</button>
+          <button class="opt" data-k="B">ACT 150–200 秒</button>
+          <button class="opt" data-k="C">ACT &gt; 200 秒</button>
+          <div class="explain">&lt; 150 秒→1 小時內移除；150–200→0.5hr 後再測；&gt;200→1hr 後再測（見 4-2）。</div>
+        </div>
+        <div class="mcq">
+          <div class="q">冠脈 PCI 後為了提早拔 sheath，常規給 protamine 逆轉抗凝，對嗎？</div>
+          <button class="opt" data-k="A">對，快又方便</button>
+          <button class="opt" data-k="B" data-correct>不對——冠脈不常規給，曾有 protamine 後支架血栓</button>
+          <button class="opt" data-k="C">對，但只在 radial</button>
+          <div class="explain">週邊可 protamine reversal；冠脈不可常規給（2011–2013 曾一例 protamine 後 stent thrombosis），僅限併發症緊急救援（見 4-5）。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A-2 MCQ -->
+  <section class="slide" data-chap="附錄 · 動手練習">
+    <div class="tags"><span class="tag t-base">🟢 基礎</span></div>
+    <div class="slide-inner">
+      <div class="eyebrow reveal">A-2　MCQ · 規格</div>
+      <div class="grid reveal" style="grid-template-columns:1fr 1fr">
+        <div class="mcq">
+          <div class="q">幾 Fr 的 sheath 通常可以在「病房」拔除？</div>
+          <button class="opt" data-k="A" data-correct>4 Fr &amp; 5 Fr</button>
+          <button class="opt" data-k="B">8 Fr 以上</button>
+          <button class="opt" data-k="C">都不行，一律導管室</button>
+          <div class="explain">4/5 Fr 可病房拔；6 Fr 由主治決定；≥6 Fr 加壓 2hr 後評估 Angioseal（見 4-3）。</div>
+        </div>
+        <div class="mcq">
+          <div class="q">Glidesheath Slender 的「薄壁」主要好處是？</div>
+          <button class="opt" data-k="A">內徑變大能過更大器械</button>
+          <button class="opt" data-k="B" data-correct>同內徑、外徑更小 → 降痙攣與 RAO</button>
+          <button class="opt" data-k="C">更硬、支撐更強</button>
+          <div class="explain">薄壁讓外徑接近小一號，保有原 Fr 內徑；降低橈動脈張力、痙攣與阻塞（見 2-2）。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 總結 ============ -->
+  <section class="slide cover" data-chap="總結">
+    <div class="slide-inner">
+      <div class="kicker reveal">Wrap-up · 2-02</div>
+      <h1 class="reveal">Sheath 的所有事，都在這一份
+        <span class="sub">認識 → 規格器材 → 選用參考卡 → 照護與移除 → 併發症</span>
+      </h1>
+      <div class="byline reveal">
+        <strong>整併來源：</strong>2-01 Vascular Access · 2-02 Sheath 鞘管介紹 · 2-03 竹北 sheath 照護 · sheath 移除流程圖 1/2<br>
+        <strong>延伸：</strong>2-04 ProGlide · 2-05~2-07 AngioSeal（止血裝置）· 3-01 PCI 概論<br>
+        <span class="dim">⚠ 監測頻率/劑量/院內作法以最新科部共識為準</span>
+      </div>
+      <p class="reveal" style="margin-top:1.2rem;color:var(--muted)">按 <span class="mono accent">O</span> 開總覽跳章　·　感謝聆聽　— 謝慕揚 · 林語鈴 · 郭睿成</p>
+    </div>
+    <svg class="heartbeat" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,140 L360,140 L390,140 L410,60 L430,180 L450,20 L470,140 L520,140 L900,140 L930,140 L950,90 L970,160 L990,140 L1200,140" fill="none" stroke="var(--red)" stroke-width="3" opacity=".9">
+        <animate attributeName="stroke-dasharray" from="0,2000" to="2000,0" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </svg>
+    <div class="tags"><span class="tag t-base">🟢</span><span class="tag t-adv">🔵</span><span class="tag t-cross">🟣</span></div>
+  </section>
+
+</div><!-- /deck -->
+
+<!-- 導覽 UI -->
+<button class="navbtn left" id="prevBtn" aria-label="上一張">‹</button>
+<button class="navbtn right" id="nextBtn" aria-label="下一張">›</button>
+<div class="hud"><span class="chapname" id="chapName">封面</span><span class="count"><span id="cur">1</span> / <span id="total">1</span></span></div>
+<div class="hint">← → 翻頁　·　O 總覽　·　F 全螢幕</div>
+
+<!-- 總覽 -->
+<div class="overview" id="overview">
+  <h2>總覽 · 點卡片跳頁</h2>
+  <div class="ovgrid" id="ovgrid"></div>
+</div>
+
+<script>
+/* ===========================================
+   離散翻頁控制器（一次顯示一張、鍵盤/觸控/點擊）
+   =========================================== */
+class Deck{
+  constructor(){
+    this.slides=[...document.querySelectorAll('.slide')];
+    this.i=0;
+    document.getElementById('total').textContent=this.slides.length;
+    this.progress=document.getElementById('progress');
+    this.chapName=document.getElementById('chapName');
+    this.cur=document.getElementById('cur');
+    this.buildOverview();
+    this.bind();
+    this.go(0,true);
+  }
+  go(n,instant){
+    n=Math.max(0,Math.min(this.slides.length-1,n));
+    this.slides.forEach((s,k)=>{
+      s.classList.toggle('active',k===n);
+      s.classList.toggle('prev',k<n);
+    });
+    this.i=n;
+    this.progress.style.width=((n)/(this.slides.length-1)*100)+'%';
+    this.chapName.textContent=this.slides[n].dataset.chap||'';
+    this.cur.textContent=n+1;
+  }
+  next(){this.go(this.i+1)}
+  prev(){this.go(this.i-1)}
+  buildOverview(){
+    const g=document.getElementById('ovgrid');
+    this.slides.forEach((s,k)=>{
+      const h=s.querySelector('h1,h2')||s.querySelector('.eyebrow');
+      const c=document.createElement('div');c.className='ovcard';
+      c.innerHTML=`<div class="oc-n">${String(k+1).padStart(2,'0')}</div>
+        <div class="oc-t">${h?h.textContent.trim().slice(0,40):'—'}</div>
+        <div class="oc-ch">${s.dataset.chap||''}</div>`;
+      c.onclick=()=>{this.go(k);this.toggleOverview(false)};
+      g.appendChild(c);
+    });
+  }
+  toggleOverview(force){
+    const o=document.getElementById('overview');
+    const show=force!==undefined?force:!o.classList.contains('show');
+    o.classList.toggle('show',show);
+  }
+  bind(){
+    document.getElementById('nextBtn').onclick=()=>this.next();
+    document.getElementById('prevBtn').onclick=()=>this.prev();
+    // 展開方塊（事件委派）
+    document.addEventListener('click',e=>{
+      const head=e.target.closest('.exp-head');
+      if(head){head.parentElement.classList.toggle('open');return;}
+      const opt=e.target.closest('.mcq .opt');
+      if(opt){const mcq=opt.closest('.mcq');if(mcq.classList.contains('answered'))return;
+        mcq.classList.add('answered');
+        if(!opt.hasAttribute('data-correct'))opt.classList.add('wrong');}
+    });
+    // 鍵盤
+    document.addEventListener('keydown',e=>{
+      if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();this.next();}
+      else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();this.prev();}
+      else if(e.key==='Home'){this.go(0);}
+      else if(e.key==='End'){this.go(this.slides.length-1);}
+      else if(e.key==='o'||e.key==='O'){this.toggleOverview();}
+      else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+      else if(e.key==='Escape'){this.toggleOverview(false);}
+    });
+    // 觸控
+    let x0=null;
+    document.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
+    document.addEventListener('touchend',e=>{
+      if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;
+      if(Math.abs(dx)>50){dx<0?this.next():this.prev();}x0=null;
+    },{passive:true});
+    // 滑鼠滾輪（節流）
+    let wlock=false;
+    document.addEventListener('wheel',e=>{
+      if(wlock)return;if(Math.abs(e.deltaY)<20)return;
+      wlock=true;e.deltaY>0?this.next():this.prev();
+      setTimeout(()=>wlock=false,700);
+    },{passive:true});
+  }
+}
+new Deck();
+</script>
+</body>
+</html>

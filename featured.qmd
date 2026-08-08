@@ -10,6 +10,10 @@ listing:
   categories: true
   sort: false
   contents:
+    - title: "血管鞘 Sheath 一站式總整理 — 深度互動版"
+      description: "深度互動投影片。鞘管尺寸選擇、止血裝置比較與拔管照護的一站式整理，導管室新進人員與病房共用。"
+      path: handouts/classroom-teaching/vascular-access/Sheath_Comprehensive_Overview_Interactive.html
+      categories: [課堂教學 Classroom, 血管路徑 Access]
     - title: "「Good Enough」的藝術 — Primary PCI 何時該停手"
       description: "靜態輕量版, 51 張，含實證與導管靜態圖。討論 primary PCI 何時該收手。"
       path: handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI_static.html
