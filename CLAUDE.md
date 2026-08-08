@@ -679,3 +679,42 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
 - `Weekly_CV_Journal_Review_YYYY-MM-DD.pdf`
 
 **Output（4 件套）**: 教學講義 `.md` + Marp `_Marp.md` + PDF `.pdf` + **Gmail HTML 草稿** (no PPTX)
+
+### 每雙週高血壓期刊回顧
+
+**Trigger**: User says "高血壓期刊回顧"、"高血壓雙週期刊"、"hypertension journal review"、"HTN journal review"、"每雙週高血壓期刊" or "高血壓期刊文獻回顧"
+
+**頻率**: 每 **2 週**一次（涵蓋過去 **14 天**）。可手動觸發，或由雲端排程自動執行。
+
+**對象**: 台灣醫師（心臟科、腎臟科、一般內科住院醫師、NP）。
+
+**Journals covered**:
+
+| 期刊群 | 搜尋策略 |
+|------|---------|
+| **General medicine（固定）** | NEJM、Lancet、BMJ、JAMA — HTN/BP/CV/renal 相關原始研究 + editorials |
+| **高血壓專科（固定）** | Hypertension (AHA)、J Hypertens (ESH)、Hypertension Research (JSH)、Am J Hypertens、J Clin Hypertens |
+| **心臟科主刊（HTN 過濾）** | Circulation、Eur Heart J、JACC、JAMA Cardiology |
+| **JAMA 家族（族群/真實世界）** | JAMA Intern Med、JAMA Network Open |
+| **腎臟/次發性（僅取 HTN 相關）** | JASN、CJASN、Kidney Int |
+
+**每期固定欄目（缺一不可）**:
+- **Top 5 Picks**（跨期刊精選，含 ✅/❌/💡/➰ 結果方向）
+- **🎯 頑固型 & 次發性高血壓**（Drake 臨床主力：PA/aldosterone、RDN candidacy、adherence、內分泌性 HTN）
+- **💊 藥物治療 & 新藥**（baxdrostat / lorundrostat aldosterone synthase inhibitor、zilebesiran siRNA、ARNI、SGLT2i-BP、SPC）
+- **🔧 器械 / 介入治療**（renal denervation、baroreflex activation）
+- **👥 特殊族群 & 亞洲/台灣資料**（CKD、糖尿病、孕婦/子癇前症、長者、亞洲/NHI cohort）
+- **📚 其他焦點**（Honorable Mentions，每則附 DOI 連結）
+- **🔬 Case Reports**（2–3 例：次發性 HTN、hypertensive emergency、罕見病因）
+- **指引與共識更新**（僅在該區間有新/更新指引時）
+- **完整參考文獻**（DOI hyperlinks + PMID）+ **縮寫對照表**（首次「中文 (Full English Name, Abbr)」）
+
+**重要注意事項**（同 CV 週報）:
+- 不要根據 abstract 猜結論；重要試驗一律 WebSearch 確認實際 mmHg + CI + P（office vs ambulatory BP 要分清）
+- 每個 DOI 與作者名務必查證，避免 honorable/case 幻覺引用
+- Marp render 安全：QR 內嵌 base64（0 個 remote）、emoji 走 `.marprc.yml`（**從 repo root 編譯**）、divider H1/H2/H3 亮色、lead 淺底框加深色字
+- **專屬套色（僅限本 routine）**：Marp 一律用**台灣高血壓學會珊瑚紅／粉色主題**（學會紅 `#c4304a`、粉底 `#fff9fa`／`#fbe9ec`、H1 珊瑚紅、lead/divider 珊瑚底白字、標題頁 🫀）。**此配色只用於高血壓雙週報，其他 routine（CV 週報／TAVI／TEER／podcast…）維持各自預設主題，勿套用。** 完整 `style:` 區塊見 SKILL.md §6。
+- **檔案命名**：`Hypertension_Biweekly_Review_YYYY-MM-DD 教學講義.md` / `_Marp.md` / `.pdf`
+- **存放**：`handouts/09-hypertension/biweekly-review/`
+
+**Output（3 件套）**: 教學講義 `.md` + Marp `_Marp.md` + PDF `.pdf`（如額外要求則加 Gmail HTML 草稿）。詳見 `.claude/skills/biweekly-hypertension-journal-review/SKILL.md`。

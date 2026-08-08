@@ -72,7 +72,14 @@
       "Bash(rm \"$ROOT/DB-OTO_Gene_Therapy_Deafness_Marp.md\")",
       "Bash(find 'G:/我的雲端硬碟/004 教學資料 at Hsinchu 院內/Journal reading with claude and latex' -name *.pdf -type f -printf '%s %p\\\\n')",
       "Bash(python -c \":*)",
-      "Bash(__NEW_LINE_45116e6d8e58cb45__ mv:*)"
+      "Bash(__NEW_LINE_45116e6d8e58cb45__ mv:*)",
+      "mcp__claude_ai_Gmail__create_draft",
+      "mcp__claude_ai_PubMed__get_article_metadata",
+      "Bash(exit 1)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "gmail",
+    "semantic-scholar"
+  ]
 }
