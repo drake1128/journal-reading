@@ -16,10 +16,11 @@
 4. [劑量澄清：不要用 30 mg QD](#4-劑量澄清不要用-30-mg-qd)
 5. [為什麼首選 LMWH 而非 UFH](#5-為什麼首選-lmwh-而非-ufh)
 6. [療程：截肢的特別之處 — 要延長](#6-療程截肢的特別之處--要延長)
-7. [特殊考量與安全性](#7-特殊考量與安全性)
-8. [Take Home Message](#8-take-home-message)
-9. [縮寫對照](#縮寫對照)
-10. [參考文獻](#參考文獻)
+7. [延長期可否改口服 DOAC](#7-延長期可否改口服-doac)
+8. [特殊考量與安全性](#8-特殊考量與安全性)
+9. [Take Home Message](#9-take-home-message)
+10. [縮寫對照](#縮寫對照)
+11. [參考文獻](#參考文獻)
 
 ---
 
@@ -109,7 +110,42 @@
 
 ---
 
-## 7. 特殊考量與安全性
+## 7. 延長期可否改口服 DOAC
+
+> **核心觀念：可「考慮」在傷口穩定後把延長期由 LMWH 針劑轉換為口服 DOAC，以改善門診順從性——但截肢族群本身沒有任何 DOAC 隨機試驗證據，屬 off-label 外推。**
+
+**為什麼站得住腳**：本講義的預防劑量本來就是外推自 major orthopedic surgery（THA／TKA／髖部骨折），而在那個「被外推的骨科族群」裡，DOAC 正是指引首選的延長預防藥物（ASH 2019 甚至建議 DOAC 優於 LMWH，ACCP 亦列為可接受選項）。因此「住院期打 LMWH → 出院後轉口服 DOAC 打完 28–35 天」在藥理與指引邏輯上合理。
+
+### 口服選項與劑量（延用骨科延長預防仿單）
+
+| 口服藥 | 預防劑量 | 骨科核准延長療程 | 腎功能注意 |
+|--------|---------|----------------|-----------|
+| **Rivaroxaban** ★ | **10 mg PO QD** | THA 35 天 / TKA 12 天（RECORD）| CrCl <30 避免（預防適應症）|
+| **Apixaban** ★ | **2.5 mg PO BID** | THA 35 天 / TKA 12 天（ADVANCE）| 三者中對輕中度腎損最寬容 |
+| Dabigatran | **220 mg PO QD**（術後 1–4h 先給 110 mg 起始）| THA 28–35 天 / TKA 10 天（RE-NOVATE／RE-MODEL，歐洲核准，美國未核准）| **CrCl <30 禁忌**；腎排除依賴最高 |
+| Edoxaban | 30 mg PO QD | 日本 STARS | 台灣此適應症未列 |
+| Aspirin 81–100 mg | 低強度替代 | EPCAT II：先打一段抗凝後改 aspirin 非劣於 rivaroxaban（THA/TKA）| 對截肢高風險族群強度偏弱 |
+
+★ 台灣最好取得、最實用者為 **rivaroxaban 10 mg QD** 或 **apixaban 2.5 mg BID**。
+
+### Dabigatran 220 mg 的特別提醒
+
+- **220 mg QD 是骨科「預防」專用劑量**（術後先給 110 mg，之後每日一次 2 顆 110 mg），與 AF／VTE **治療**用的 150 mg BID 是兩回事，別記混。
+- 符合下列任一者減量為 **150 mg QD**（起始 75 mg）：**CrCl 30–50、年齡 > 75、併用 amiodarone／verapamil／quinidine**；**CrCl < 30 直接禁忌**。
+- 因高度依賴腎排除、且截肢／PAD 病人常合併腎功能不佳，dabigatran 在此情境**非理想選擇**，此處為完整性列出。
+
+### 轉換的臨床 caveat（缺一不可考量）
+
+1. **殘肢傷口是出血點**：新鮮截肢殘端頭幾天滲血／血腫風險最高 → **住院早期先用 LMWH**（劑量好調控、可依傷口彈性停打），待**傷口穩定後再轉口服 DOAC** 接手打完門診那一段。
+2. **腎功能**：CrCl <30 是關鍵分水嶺——dabigatran 禁忌、rivaroxaban 預防劑量多建議避免 → 此時回到 LMWH 減量或 UFH 較安全。
+3. **交互作用**：rivaroxaban／apixaban 走 **CYP3A4 + P-gp**，注意 azole 類抗黴菌、某些抗癲癇藥、HIV 蛋白酶抑制劑。
+4. **無截肢 head-to-head 資料**：最佳藥物與療程在截肢族群均未經 RCT 驗證，決策須個別化（腎功能、體重、出血、傷口）。
+
+> **一句話建議**：延長期（術後 28–35 天）可於**傷口穩定後由 LMWH 轉為口服 DOAC**（rivaroxaban 10 mg QD 或 apixaban 2.5 mg BID，劑量外推自 THA/TKA），以改善門診順從性；**CrCl <30 或高滲血／出血風險者仍以 LMWH 為宜**。此為 off-label 外推，截肢族群無 DOAC 隨機試驗證據。
+
+---
+
+## 8. 特殊考量與安全性
 
 - **腎功能不全**：CrCl <30 mL/min → enoxaparin 減量 30 mg QD，或改用不經腎代謝的 UFH。
 - **機械性預防**：IPC／彈性襪對殘肢與 PAD 病人常為**禁忌**；僅對側肢體可用，且效益有限。
@@ -119,9 +155,9 @@
 
 ---
 
-## 8. Take Home Message
+## 9. Take Home Message
 
-> 下肢截肢屬 VTE 高風險。建議 **Enoxaparin 40 mg SC QD（或 30 mg BID）**，選擇性手術術前約 12h 起始，**延長至術後 28–35 天**；腎功能不全者減量。優先 LMWH 而非 UFH；機械預防受 PAD 限制。避免使用偏低的 30 mg QD。
+> 下肢截肢屬 VTE 高風險。建議 **Enoxaparin 40 mg SC QD（或 30 mg BID）**，選擇性手術術前約 12h 起始，**延長至術後 28–35 天**；腎功能不全者減量。優先 LMWH 而非 UFH；機械預防受 PAD 限制。避免使用偏低的 30 mg QD。**延長期可於傷口穩定後由 LMWH 轉為口服 DOAC（rivaroxaban 10 mg QD 或 apixaban 2.5 mg BID，外推自骨科）以改善順從性；CrCl <30 或高出血風險者仍用 LMWH——此屬 off-label 外推。**
 
 ---
 
@@ -141,6 +177,9 @@
 | SC | Subcutaneous | 皮下注射 |
 | QD / BID / TID | Once / Twice / Three times daily | 每日一次／兩次／三次 |
 | HIT | Heparin-Induced Thrombocytopenia | 肝素引起血小板低下 |
+| DOAC | Direct Oral Anticoagulant | 直接口服抗凝劑 |
+| ASH | American Society of Hematology | 美國血液學會 |
+| ACCP | American College of Chest Physicians | 美國胸腔醫師學會 |
 | THA / TKA | Total Hip / Knee Arthroplasty | 全髖／全膝關節置換 |
 | ISS | Injury Severity Score | 傷害嚴重度分數 |
 | TQIP | Trauma Quality Improvement Program | 創傷品質改善計畫（ACS） |
@@ -154,3 +193,8 @@
 3. Herlihy DR, Thomas M, Tran QH, Puttaswamy V. Primary prophylaxis for venous thromboembolism in people undergoing major amputation of the lower extremity. [*Cochrane Database Syst Rev*. 2020;7:CD010525.](https://doi.org/10.1002/14651858.CD010525.pub3)
 4. Lastória S, Rollo HA, Yoshida WB, et al. Prophylaxis of deep-vein thrombosis after lower extremity amputation: comparison of low molecular weight heparin with unfractionated heparin. [*Acta Cir Bras*. 2006;21(3):184-6.](https://doi.org/10.1590/s0102-86502006000300011)
 5. McGarry K, Kennedy G, McQuaid M, Harkin DW. Introducing extended venous thromboembolism prophylaxis for high-risk vascular patients undergoing lower limb amputation — a quality improvement project. [*Ulster Med J*. 2021;90(2):119-120.](https://pubmed.ncbi.nlm.nih.gov/34276093/)
+6. Anderson DR, Morgano GP, Bennett C, et al. American Society of Hematology 2019 guidelines for management of venous thromboembolism: prevention of VTE in surgical hospitalized patients. [*Blood Adv*. 2019;3(23):3898-3944.](https://pubmed.ncbi.nlm.nih.gov/31794602/)
+7. Falck-Ytter Y, Francis CW, Johanson NA, et al. Prevention of VTE in orthopedic surgery patients: ACCP Evidence-Based Clinical Practice Guidelines (9th ed). [*Chest*. 2012;141(2 Suppl):e278S-e325S.](https://pubmed.ncbi.nlm.nih.gov/22315265/)
+8. Anderson DR, Dunbar M, Murnaghan J, et al. Aspirin or rivaroxaban for VTE prophylaxis after hip or knee arthroplasty (EPCAT II). [*N Engl J Med*. 2018;378(8):699-707.](https://pubmed.ncbi.nlm.nih.gov/29466159/)
+9. Eriksson BI, Borris LC, Friedman RJ, et al. Rivaroxaban versus enoxaparin for thromboprophylaxis after hip arthroplasty (RECORD1). [*N Engl J Med*. 2008;358(26):2765-2775.](https://pubmed.ncbi.nlm.nih.gov/18579811/)
+10. Lassen MR, Raskob GE, Gallus A, et al. Apixaban versus enoxaparin for thromboprophylaxis after knee replacement (ADVANCE-2). [*Lancet*. 2010;375(9717):807-815.](https://pubmed.ncbi.nlm.nih.gov/20206776/)

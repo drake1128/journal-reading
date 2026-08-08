@@ -123,6 +123,34 @@ footer: '謝慕揚 MD, PhD, FESC | 下肢截肢 VTE 預防 | 2026'
 
 ---
 
+# 延長期可否改口服 DOAC?
+
+> **可「考慮」在傷口穩定後由 LMWH 轉口服 DOAC 改善順從性 — 但截肢族群無 DOAC 隨機試驗,屬 off-label 外推。**
+
+劑量本就外推自骨科(THA/TKA);而骨科正是 DOAC 首選延長預防(ASH 2019 建議 DOAC 優於 LMWH)。
+
+| 口服藥 | 預防劑量 | 腎功能 |
+|--------|---------|--------|
+| **Rivaroxaban** ★ | **10 mg PO QD** | CrCl <30 避免 |
+| **Apixaban** ★ | **2.5 mg PO BID** | 對輕中度腎損最寬容 |
+| Dabigatran | **220 mg PO QD**(起始 110 mg)| **CrCl <30 禁忌** |
+| Aspirin 81–100 mg | 低強度替代(EPCAT II)| 高風險族群強度偏弱 |
+
+★ 台灣最實用:**rivaroxaban 10 mg QD** 或 **apixaban 2.5 mg BID**
+
+---
+
+# 轉口服的提醒與 Dabigatran 220 mg
+
+- **Dabigatran 220 mg QD 是骨科「預防」專用劑量**(術後先 110 mg),≠ 治療用 150 mg BID
+  - 減量 150 mg QD:**CrCl 30–50、>75 歲、併 amiodarone/verapamil**;CrCl<30 禁忌
+  - 高度腎排除依賴 → 截肢/PAD 常腎損,**非理想選擇**
+- **殘肢傷口是出血點** → 早期先 LMWH,**傷口穩定後再轉口服**
+- **CrCl <30** → 回到 LMWH 減量或 UFH
+- rivaroxaban/apixaban 走 **CYP3A4 + P-gp**,注意 azole/抗癲癇/HIV 藥
+
+---
+
 # 特殊考量與安全性
 
 - **腎功能不全**:CrCl <30 mL/min → enoxaparin 減量 30 mg QD,或改 UFH(不經腎代謝)
@@ -138,6 +166,8 @@ footer: '謝慕揚 MD, PhD, FESC | 下肢截肢 VTE 預防 | 2026'
 # Take Home Message
 
 > **下肢截肢屬 VTE 高風險。首選 Enoxaparin 40 mg SC QD(或 30 mg BID),選擇性手術術前 ~12h 起始,延長至術後 28–35 天;CrCl<30 減量。避免用偏低的 30 mg QD。**
+>
+> **延長期可於傷口穩定後轉口服 DOAC(rivaroxaban 10 mg QD 或 apixaban 2.5 mg BID,外推自骨科)以改善順從性;CrCl<30 或高出血風險仍用 LMWH — off-label 外推。**
 
 ---
 
@@ -149,6 +179,11 @@ footer: '謝慕揚 MD, PhD, FESC | 下肢截肢 VTE 預防 | 2026'
 3. Herlihy DR, et al. Primary prophylaxis for VTE in people undergoing major amputation of the lower extremity. *Cochrane Database Syst Rev*. 2020;7:CD010525. [doi:10.1002/14651858.CD010525.pub3](https://doi.org/10.1002/14651858.CD010525.pub3)
 4. Lastória S, et al. Prophylaxis of DVT after lower extremity amputation: LMWH vs unfractionated heparin. *Acta Cir Bras*. 2006;21(3):184-6. [doi:10.1590/s0102-86502006000300011](https://doi.org/10.1590/s0102-86502006000300011)
 5. McGarry K, et al. Introducing extended VTE prophylaxis for high-risk vascular patients undergoing lower limb amputation — a QIP. *Ulster Med J*. 2021;90(2):119-120. [PMID:34276093](https://pubmed.ncbi.nlm.nih.gov/34276093/)
+6. Anderson DR, et al. ASH 2019 guidelines: prevention of VTE in surgical hospitalized patients. *Blood Adv*. 2019;3(23):3898-3944. [PMID:31794602](https://pubmed.ncbi.nlm.nih.gov/31794602/)
+7. Falck-Ytter Y, et al. Prevention of VTE in orthopedic surgery patients: ACCP Guidelines (9th ed). *Chest*. 2012;141(2 Suppl):e278S-e325S. [PMID:22315265](https://pubmed.ncbi.nlm.nih.gov/22315265/)
+8. Anderson DR, et al. Aspirin or rivaroxaban for VTE prophylaxis after hip or knee arthroplasty (EPCAT II). *N Engl J Med*. 2018;378(8):699-707. [PMID:29466159](https://pubmed.ncbi.nlm.nih.gov/29466159/)
+9. Eriksson BI, et al. Rivaroxaban vs enoxaparin for thromboprophylaxis after hip arthroplasty (RECORD1). *N Engl J Med*. 2008;358(26):2765-2775. [PMID:18579811](https://pubmed.ncbi.nlm.nih.gov/18579811/)
+10. Lassen MR, et al. Apixaban vs enoxaparin for thromboprophylaxis after knee replacement (ADVANCE-2). *Lancet*. 2010;375(9717):807-815. [PMID:20206776](https://pubmed.ncbi.nlm.nih.gov/20206776/)
 
 ---
 
