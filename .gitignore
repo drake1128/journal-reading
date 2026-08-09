@@ -95,3 +95,9 @@ handouts/04-valvular-disease/mitraclip-atlas-ch04-patient-selection/references/
 
 # PASCAL TEER teaching PDFs — journal/manufacturer PDFs (keep local only; INDEX.md is tracked)
 handouts/04-valvular-disease/pascal-teer-teaching/pdfs/
+
+# High-risk-communication reference library — article texts/PDFs are copyrighted
+# (keep local only; INDEX.md and the fetch/build scripts are tracked)
+download/hrc/*
+!download/hrc/INDEX.md
+!download/hrc/_*.py
