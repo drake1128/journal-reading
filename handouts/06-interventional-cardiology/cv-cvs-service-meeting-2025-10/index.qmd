@@ -18,10 +18,10 @@ frame{本次討論案例}
 frame
 
 
-## Case 1: ***REDACTED*** - 20M with dilated cardiomyopathy
+## Case 1: P08 - 20M with dilated cardiomyopathy
 
 
-frame{Case 1: ***REDACTED*** - 20歲男性 (住院 A - 竹北生醫)}
+frame{Case 1: P08 - 20歲男性 (住院 A - 竹北生醫)}
 block{基本資料}
 
 - 20歲男性，大學生
@@ -40,7 +40,7 @@ block{家族史}
 block
 frame
 
-frame{Case 1: ***REDACTED*** (20M) - 入院診斷 (住院 A)}
+frame{Case 1: P08 (20M) - 入院診斷 (住院 A)}
 
 1. Left ventricular thrombus with renal infarction
 2. Atrial fibrillation with frequent ventricular premature complexes
@@ -59,7 +59,7 @@ block{重要檢查發現}
 block
 frame
 
-frame{Case 1: ***REDACTED*** (20M) - 初步處置}
+frame{Case 1: P08 (20M) - 初步處置}
 block{藥物治療}
 
 - Clexane (LMWH) for anticoagulation
@@ -75,7 +75,7 @@ block{轉院}
 block
 frame
 
-frame{Case 1: ***REDACTED*** (20M) - 住院 B (新竹台大)}
+frame{Case 1: P08 (20M) - 住院 B (新竹台大)}
 block{入院診斷}
 HFrEF (EF 14.7
 
@@ -88,7 +88,7 @@ HFrEF (EF 14.7
 block
 frame
 
-frame{Case 1: ***REDACTED*** (20M) - 病程演進}
+frame{Case 1: P08 (20M) - 病程演進}
 block{重症處置}
 
 - 2025/6/24: ETT + MV, VA-ECMO support
@@ -110,7 +110,7 @@ block{手術治療 (2025/7/14)}
 block
 frame
 
-frame{Case 1: ***REDACTED*** (20M) - 術後恢復}
+frame{Case 1: P08 (20M) - 術後恢復}
 block{併發症處理}
 
 - Infection episodes
@@ -131,7 +131,7 @@ block{恢復進展}
 block
 frame
 
-frame{Case 1: ***REDACTED*** (20M) - 討論重點}
+frame{Case 1: P08 (20M) - 討論重點}
 block{臨床問題}
 
 1. 20歲年輕男性發生嚴重心臟衰竭的病因？  - Dilated cardiomyopathy vs. Tachycardia-induced cardiomyopathy - Myocarditis？ - 家族遺傳因素？
@@ -144,13 +144,13 @@ block
 frame
 
 
-## Case 2: ***REDACTED*** - 73M with in-hospital cardiac arrest
+## Case 2: P01 - 73M with in-hospital cardiac arrest
 
 
-frame{Case 2: ***REDACTED*** - 73歲男性}
+frame{Case 2: P01 - 73歲男性}
 block{基本資料與主訴}
 
-- 病歷號: ***REDACTED***
+- 病歷號: P01
 - 73歲男性，重度吸菸者
 - In-hospital cardiac arrest
 - Initial rhythm: Pulseless ventricular tachycardia
@@ -169,7 +169,7 @@ block{入院診斷}
 block
 frame
 
-frame{Case 2: ***REDACTED*** (73M) - 急救與處置}
+frame{Case 2: P01 (73M) - 急救與處置}
 block{Cardiac arrest management}
 
 - CPR for total 10 minutes
@@ -190,7 +190,7 @@ block{手術治療}
 block
 frame
 
-frame{Case 2: ***REDACTED*** (73M) - 討論重點}
+frame{Case 2: P01 (73M) - 討論重點}
 block{臨床問題}
 
 1. Refractory VT in ischemic cardiomyopathy 的處理策略
@@ -204,13 +204,13 @@ block
 frame
 
 
-## Case 3: ***REDACTED*** - 68F with NSTEMI and ESRD
+## Case 3: P02 - 68F with NSTEMI and ESRD
 
 
-frame{Case 3: ***REDACTED*** - 68歲女性}
+frame{Case 3: P02 - 68歲女性}
 block{基本資料}
 
-- 病歷號: ***REDACTED***
+- 病歷號: P02
 - 68歲女性
 
 
@@ -226,7 +226,7 @@ block{入院診斷}
 block
 frame
 
-frame{Case 3: ***REDACTED*** (68F) - 病程演進}
+frame{Case 3: P02 (68F) - 病程演進}
 block{出院診斷}
 
 1. In-hospital cardiac arrest with heart failure s/p CPCR
@@ -246,7 +246,7 @@ block{手術治療}
 block
 frame
 
-frame{Case 3: ***REDACTED*** (68F) - 討論重點}
+frame{Case 3: P02 (68F) - 討論重點}
 block{臨床問題}
 
 1. ESRD patient with NSTEMI 的處理策略
@@ -260,13 +260,13 @@ block
 frame
 
 
-## Case 4: ***REDACTED*** - 54F with CAD, severe AS and ESRD
+## Case 4: P03 - 54F with CAD, severe AS and ESRD
 
 
-frame{Case 4: ***REDACTED*** - 54歲女性}
+frame{Case 4: P03 - 54歲女性}
 block{基本資料}
 
-- 病歷號: ***REDACTED***
+- 病歷號: P03
 - 54歲女性
 
 
@@ -282,7 +282,7 @@ block{入院診斷}
 block
 frame
 
-frame{Case 4: ***REDACTED*** (54F) - 手術治療}
+frame{Case 4: P03 (54F) - 手術治療}
 block{出院診斷}
 
 1. CAD, triple vessel disease with ischemic cardiomyopathy
@@ -303,7 +303,7 @@ block{手術 (2025/9/12)}
 block
 frame
 
-frame{Case 4: ***REDACTED*** (54F) - 討論重點}
+frame{Case 4: P03 (54F) - 討論重點}
 block{臨床問題}
 
 1. Combined CABG + AVR 的決策
@@ -318,13 +318,13 @@ block
 frame
 
 
-## Case 5: ***REDACTED*** - 56M with acute type A aortic dissection
+## Case 5: P04 - 56M with acute type A aortic dissection
 
 
-frame{Case 5: ***REDACTED*** - 56歲男性}
+frame{Case 5: P04 - 56歲男性}
 block{基本資料}
 
-- 病歷號: ***REDACTED***
+- 病歷號: P04
 - 56歲男性
 - Past history: Old CVA, hypertension
 
@@ -357,7 +357,7 @@ block{術後併發症}
 block
 frame
 
-frame{Case 5: ***REDACTED*** (56M) - 病程演進}
+frame{Case 5: P04 (56M) - 病程演進}
 block{出院診斷}
 Multiple organ failure (liver, renal, brain)
 
@@ -375,7 +375,7 @@ block{術前檢查}
 block
 frame
 
-frame{Case 5: ***REDACTED*** (56M) - 討論重點}
+frame{Case 5: P04 (56M) - 討論重點}
 block{臨床問題}
 
 1. Type A dissection with STEMI 的處理策略
@@ -391,13 +391,13 @@ block
 frame
 
 
-## Case 6: ***REDACTED*** - 77M with ACS and cardiogenic shock
+## Case 6: P05 - 77M with ACS and cardiogenic shock
 
 
-frame{Case 6: ***REDACTED*** - 77歲男性}
+frame{Case 6: P05 - 77歲男性}
 block{基本資料}
 
-- 病歷號: ***REDACTED***
+- 病歷號: P05
 - 77歲男性，重度吸菸者
 - Underlying: Hypertension
 
@@ -423,7 +423,7 @@ block{出院診斷}
 block
 frame
 
-frame{Case 6: ***REDACTED*** (77M) - 手術治療}
+frame{Case 6: P05 (77M) - 手術治療}
 block{手術}
 **Emergent CABG**
 
@@ -445,13 +445,13 @@ block
 frame
 
 
-## Case 7: ***REDACTED*** - 57F with chronic type A PAU
+## Case 7: P06 - 57F with chronic type A PAU
 
 
-frame{Case 7: ***REDACTED*** - 57歲女性}
+frame{Case 7: P06 - 57歲女性}
 block{基本資料}
 
-- 病歷號: ***REDACTED***
+- 病歷號: P06
 - 57歲女性
 
 
@@ -467,7 +467,7 @@ block{入院診斷}
 block
 frame
 
-frame{Case 7: ***REDACTED*** (57F) - 手術治療}
+frame{Case 7: P06 (57F) - 手術治療}
 block{出院診斷}
 
 - Chronic type A PAU, s/p AsAo grafting
@@ -489,7 +489,7 @@ itemize
 block
 frame
 
-frame{Case 7: ***REDACTED*** (57F) - 討論重點}
+frame{Case 7: P06 (57F) - 討論重點}
 block{臨床問題}
 
 1. Chronic PAU vs. acute dissection 的鑑別診斷
@@ -511,11 +511,11 @@ frame
 frame{案例總結}
 block{手術類型分布}
 
-- CABG: 4 cases (***REDACTED***, ***REDACTED***, ***REDACTED***, ***REDACTED***)
-- LVAD: 1 case (***REDACTED***)
-- Aortic surgery: 2 cases (***REDACTED***, ***REDACTED***)
-- AVR: 1 case (***REDACTED***)
-- VA-ECMO: 4 cases (***REDACTED***, ***REDACTED***, ***REDACTED***, ***REDACTED***)
+- CABG: 4 cases (P02, P03, P04, P05)
+- LVAD: 1 case (P08)
+- Aortic surgery: 2 cases (P04, P06)
+- AVR: 1 case (P03)
+- VA-ECMO: 4 cases (P08, P01, P03, P04)
 
 
 block

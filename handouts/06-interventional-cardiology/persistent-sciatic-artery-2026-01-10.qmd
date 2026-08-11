@@ -16,7 +16,7 @@ author: "謝慕揚 MD, PhD, FESC"
 ::: tcolorbox
 - 持續性坐骨動脈 (Persistent Sciatic Artery, PSA) 發生率僅 0.025-0.04%，極為罕見
 
-- 本案為 82 歲女性（MRN: ***REDACTED***），右側 PSA，介入治療時器械位於 internal iliac artery 內
+- 本案為 82 歲女性（MRN: P07），右側 PSA，介入治療時器械位於 internal iliac artery 內
 
 - PSA 動脈瘤發生率高達 48%，需特別注意血栓栓塞併發症
 
@@ -32,7 +32,7 @@ author: "謝慕揚 MD, PhD, FESC"
   **項目**         **內容**
   ---------------- ----------------------------------------------------------------------------------------------------
   患者             82 歲女性
-  病歷號碼 (MRN)   ***REDACTED***
+  病歷號碼 (MRN)   P07
   診斷             Right-sided Persistent Sciatic Artery
   發現方式         周邊血管介入治療時發現
   關鍵發現         介入器械位於 internal iliac artery 內，而非一般的 external iliac $\rightarrow$ femoral artery 路徑
@@ -285,7 +285,7 @@ PSA 從 internal iliac artery 發出，依序經過：
 
 # 本病例討論
 
-- 本案為 82 歲女性（MRN: ***REDACTED***），右側 PSA，在周邊血管介入治療時發現
+- 本案為 82 歲女性（MRN: P07），右側 PSA，在周邊血管介入治療時發現
 
 - 關鍵發現：介入器械皆位於 internal iliac artery 內
 

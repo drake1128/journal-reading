@@ -10,7 +10,7 @@
 frame{Case Overview}
 
 - **Patient:** 83-year-old male
-- **ID:** ***REDACTED***
+- **ID:** P10
 - **Admission Date:** October 11, 2024
 - **Indication:** Stable CAD with LAD CTO
 - **Previous Procedure:** Primary PCI to RCA (September 7, 2024)

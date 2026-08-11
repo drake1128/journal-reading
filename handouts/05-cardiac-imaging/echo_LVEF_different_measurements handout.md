@@ -50,7 +50,7 @@ titlepage
 figure
     
     [Image]
-    院內報告系統關於LVEF的區塊，非常複雜。Sampled from ***REDACTED***, echo performed on 2025-06-30. 
+    院內報告系統關於LVEF的區塊，非常複雜。Sampled from P09, echo performed on 2025-06-30. 
     
 
 

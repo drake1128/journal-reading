@@ -10,7 +10,7 @@
 frame{Case Overview}
 
 - **Patient:** 73-year-old male
-- **ID:** ***REDACTED*** (***REDACTED***)
+- **ID:** P11
 - **Admission Date:** June 20, 2025
 - **Indication:** Suspected in-stent restenosis
 - **Previous PCI:** LAD stent in 2016 (Li Shin Hospital)
