@@ -74,6 +74,10 @@ listing:
       description: "互動投影片, 51 張。從心因性休克到 ECMO 跨院資源衝突；含 SDM、心理安全、SPIKES/NURSE/VALUE 與九宮格對話矩陣，附去識別化案例影像。"
       path: handouts/99-misc/Decisional_Conflict_in_Medicine.html
       categories: [教學 Teaching, 溝通 Communication, 重症 Critical Care]
+    - title: "臨床不確定性教學模組 — 導師 × 學員雙軌"
+      description: "互動網頁，含分享 QR code。把學員的『我不確定』當成可判讀的教學訊號：訊號判讀條、epistemic/aleatoric 分流、四大教學動作、話術對照庫與四個心臟科情境演練；另設學員端句型庫與自我檢查。改編自 NEJM 2025 臨床不確定性教學文獻。"
+      path: handouts/99-misc/Clinical_Uncertainty_Teaching_Module.html
+      categories: [教學 Teaching, 醫學教育 Medical Education, 溝通 Communication]
     - title: "血管路徑與鞘管 Vascular Access & Sheaths — 深度互動版"
       description: "深度互動投影片。動靜脈路徑選擇、穿刺技巧、鞘管與止血，導管室新進人員的第一堂基本功。"
       path: handouts/classroom-teaching/vascular-access/Vascular_Access_and_Sheaths_Interactive.html

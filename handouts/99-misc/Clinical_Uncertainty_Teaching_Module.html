@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinical Uncertainty Teaching Module — Cardiology｜臨床不確定性教學模組</title>
+<style>
+:root{
+  --ground:#F1F4F4;
+  --paper:#FFFFFF;
+  --ink:#16232B;
+  --body:#33424B;
+  --muted:#6D7C84;
+  --line:#D5DCDC;
+  --hair:#E6EBEA;
+
+  /* 語意色：全篇只在對應意義上使用，不做裝飾 */
+  --flag:#C0402A;        /* 不確定性線索的標記 */
+  --epi:#12658F;         /* Epistemic 認識論：查得到 */
+  --alea:#A65D12;        /* Aleatoric 偶然性：查不到 */
+  --trace:#0D6B5E;       /* 基線／已掌握 */
+
+  --epi-bg:#E9F2F8;
+  --alea-bg:#FAF1E6;
+  --flag-bg:#FBEDEA;
+  --trace-bg:#E7F2F0;
+
+  --serif:'Songti TC','Songti SC','Noto Serif TC',STSong,'Times New Roman',serif;
+  --sans:'PingFang TC','PingFang SC','Noto Sans TC','Helvetica Neue',Arial,sans-serif;
+  --mono:'SF Mono',Menlo,'Roboto Mono',ui-monospace,monospace;
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;background:var(--ground);color:var(--body);
+  font-family:var(--sans);font-size:16px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:var(--serif);color:var(--ink);font-weight:600;line-height:1.35;margin:0;}
+p{margin:0 0 1em;}
+ul,ol{margin:0 0 1em;padding-left:1.35em;}
+li{margin-bottom:.4em;}
+strong{color:var(--ink);font-weight:600;}
+button{font-family:inherit;cursor:pointer;}
+:focus-visible{outline:2px solid var(--epi);outline-offset:3px;}
+
+/* 中英混排：英文小標另設樣式，避免宋體襯線英文的違和 */
+.en{
+  font-family:var(--mono);font-size:.62em;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);font-weight:400;
+  display:block;margin-top:.35em;
+}
+
+/* ---------- 頂列 ---------- */
+.topbar{
+  position:sticky;top:0;z-index:60;background:var(--ink);color:#E7ECEC;
+  border-bottom:1px solid rgba(255,255,255,.09);
+}
+.topbar-in{
+  max-width:1180px;margin:0 auto;padding:11px 22px;
+  display:flex;align-items:center;gap:20px;flex-wrap:wrap;
+}
+.mark{font-family:var(--serif);font-size:17px;font-weight:600;color:#fff;letter-spacing:.02em;}
+.mark small{
+  display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
+  color:#8FA3A7;font-weight:400;margin-top:2px;
+}
+.track-switch{display:flex;gap:0;margin-left:auto;border:1px solid rgba(255,255,255,.22);border-radius:3px;overflow:hidden;}
+.track-switch button{
+  background:none;border:none;color:#A8B8BC;font-size:13.5px;
+  padding:8px 17px;letter-spacing:.02em;transition:background .18s,color .18s;
+}
+.track-switch button + button{border-left:1px solid rgba(255,255,255,.22);}
+.track-switch button[aria-selected="true"]{background:#E7ECEC;color:var(--ink);font-weight:600;}
+.track-switch button:hover:not([aria-selected="true"]){color:#fff;}
+
+/* ---------- 版面骨架 ---------- */
+.shell{max-width:1180px;margin:0 auto;padding:0 22px 90px;}
+.cols{display:grid;grid-template-columns:190px 1fr;gap:44px;align-items:start;}
+.sidenav{position:sticky;top:74px;padding-top:38px;}
+.sidenav ol{list-style:none;margin:0;padding:0;}
+.sidenav a{
+  display:block;text-decoration:none;color:var(--muted);font-size:13.5px;
+  padding:6px 0 6px 13px;border-left:2px solid var(--hair);line-height:1.45;
+  transition:color .18s,border-color .18s;
+}
+.sidenav a:hover{color:var(--ink);border-left-color:var(--line);}
+.sidenav a.on{color:var(--ink);border-left-color:var(--flag);font-weight:600;}
+.sidenav .navlab{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;color:var(--muted);
+  text-transform:uppercase;margin-bottom:10px;
+}
+
+/* ---------- 區塊 ---------- */
+.sec{padding-top:38px;scroll-margin-top:70px;}
+.sec-head{border-top:2px solid var(--ink);padding-top:12px;margin-bottom:22px;}
+.sec-num{
+  font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--flag);
+  display:block;margin-bottom:6px;
+}
+.sec-head h2{font-size:27px;letter-spacing:.01em;}
+.sec-head .lede{margin:11px 0 0;color:var(--muted);font-size:15px;max-width:62ch;}
+
+.card{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:22px 24px;margin-bottom:16px;}
+.card h3{font-size:19px;margin-bottom:9px;}
+.card h4{font-size:15.5px;margin:16px 0 6px;font-family:var(--sans);font-weight:600;}
+.card > :last-child{margin-bottom:0;}
+
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
+
+/* ---------- 開場 ---------- */
+.hero{padding:52px 0 8px;}
+.hero-quote{
+  font-family:var(--serif);font-size:clamp(32px,6vw,60px);color:var(--ink);
+  line-height:1.22;letter-spacing:.005em;margin:0 0 20px;
+}
+.hero-quote > span,.hero-quote{white-space:nowrap;}
+.hero-quote .dim{color:var(--muted);}
+.hero-sub{font-size:17px;max-width:56ch;color:var(--body);margin-bottom:6px;}
+.hero-sub strong{color:var(--flag);}
+
+/* ---------- 訊號判讀條（signature） ---------- */
+.strip{
+  background:var(--paper);border:1px solid var(--line);border-radius:4px;
+  margin:30px 0 8px;overflow:hidden;
+}
+.strip-cap{
+  display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  padding:13px 20px;border-bottom:1px solid var(--hair);background:#FAFCFC;
+}
+.strip-cap b{font-family:var(--sans);font-size:14px;color:var(--ink);}
+.strip-cap span{font-family:var(--mono);font-size:10.5px;letter-spacing:.11em;color:var(--muted);text-transform:uppercase;}
+.strip-cap em{font-style:normal;font-size:13px;color:var(--muted);margin-left:auto;}
+
+.lane{
+  display:grid;grid-template-columns:128px 1fr;align-items:center;gap:0;
+  width:100%;background:none;border:none;border-top:1px solid var(--hair);
+  padding:0;text-align:left;transition:background .18s;
+}
+.strip .lane:first-of-type{border-top:none;}
+.lane:hover{background:#F7FAFA;}
+.lane[aria-expanded="true"]{background:var(--flag-bg);}
+.lane-lab{padding:14px 0 14px 20px;}
+.lane-lab b{display:block;font-family:var(--sans);font-size:14.5px;color:var(--ink);font-weight:600;}
+.lane-lab span{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;}
+.lane svg{display:block;width:100%;height:52px;}
+.lane .base{fill:none;stroke:var(--trace);stroke-width:1.6;}
+.lane .defl{fill:none;stroke:var(--flag);stroke-width:2.2;}
+.lane .tick{stroke:var(--flag);stroke-width:1;stroke-dasharray:2 3;opacity:.75;}
+.lane .dot{fill:var(--flag);}
+.lane .grid{stroke:var(--hair);stroke-width:.7;}
+
+.lane-body{
+  display:none;padding:2px 20px 22px 148px;border-top:1px solid var(--hair);
+  background:var(--flag-bg);
+}
+.lane-body.open{display:block;}
+.lane-body .said{
+  font-family:var(--serif);font-size:19px;color:var(--ink);
+  border-left:3px solid var(--flag);padding:2px 0 2px 14px;margin:16px 0 14px;
+}
+.lane-body dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:15px;}
+.lane-body dt{font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.04em;color:var(--flag);padding-top:5px;white-space:nowrap;}
+.lane-body dd{margin:0;}
+.lane-body .first-line{background:var(--paper);border:1px solid #E8CFC9;border-radius:3px;padding:10px 14px;color:var(--ink);}
+
+/* ---------- 兩型不確定性 ---------- */
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;}
+.type-card{border-radius:4px;padding:22px 24px;border:1px solid;}
+.type-epi{background:var(--epi-bg);border-color:#BBD5E5;}
+.type-alea{background:var(--alea-bg);border-color:#E5CDA9;}
+.type-card .tag{
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  display:inline-block;padding:3px 9px;border-radius:2px;color:#fff;margin-bottom:11px;
+}
+.type-epi .tag{background:var(--epi);}
+.type-alea .tag{background:var(--alea);}
+.type-card h3{font-size:20px;margin-bottom:4px;}
+.type-epi h3{color:var(--epi);}
+.type-alea h3{color:var(--alea);}
+.type-card .move{
+  font-family:var(--sans);font-weight:600;font-size:15px;color:var(--ink);
+  background:rgba(255,255,255,.75);border-radius:3px;padding:11px 14px;margin:14px 0 0;
+}
+.eg{font-size:14.5px;border-top:1px dashed rgba(0,0,0,.16);margin-top:14px;padding-top:12px;}
+.eg b{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;}
+
+/* ---------- 話術對照 ---------- */
+.script{background:var(--paper);border:1px solid var(--line);border-radius:4px;margin-bottom:14px;overflow:hidden;}
+.script-said{padding:16px 22px 14px;border-bottom:1px solid var(--hair);}
+.script-said .who{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:5px;}
+.script-said q{font-family:var(--serif);font-size:19px;color:var(--ink);quotes:'「' '」';}
+.script-said .ctx{font-size:14px;color:var(--muted);margin:7px 0 0;}
+.script-rows{display:grid;grid-template-columns:1fr 1fr;}
+.row-x,.row-o{padding:16px 22px;font-size:15px;}
+.row-x{background:#FCF7F6;border-right:1px solid var(--hair);}
+.row-o{background:#F5FAF9;}
+.row-x .mk,.row-o .mk{
+  font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  display:block;margin-bottom:7px;font-weight:600;
+}
+.row-x .mk{color:var(--flag);}
+.row-o .mk{color:var(--trace);}
+.row-x q,.row-o q{color:var(--ink);quotes:'「' '」';}
+.script-why{
+  padding:12px 22px;background:#FAFCFC;border-top:1px solid var(--hair);
+  font-size:13.5px;color:var(--muted);
+}
+.script-why b{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);margin-right:8px;}
+
+/* ---------- 情境演練 ---------- */
+.case{background:var(--paper);border:1px solid var(--line);border-radius:4px;margin-bottom:14px;}
+.case > summary{
+  padding:17px 22px;cursor:pointer;list-style:none;
+  display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+}
+.case > summary::-webkit-details-marker{display:none;}
+.case > summary::after{
+  content:'展開';margin-left:auto;font-family:var(--mono);font-size:10px;
+  letter-spacing:.12em;color:var(--muted);text-transform:uppercase;
+}
+.case[open] > summary::after{content:'收合';}
+.case[open] > summary{border-bottom:1px solid var(--hair);}
+.case-id{font-family:var(--mono);font-size:11px;letter-spacing:.13em;color:var(--flag);}
+.case > summary b{font-family:var(--serif);font-size:19px;color:var(--ink);font-weight:600;}
+.case-in{padding:20px 22px 22px;}
+.beat{border-left:2px solid var(--hair);padding:0 0 18px 18px;position:relative;}
+.beat:last-child{padding-bottom:0;}
+.beat::before{
+  content:'';position:absolute;left:-5px;top:7px;width:8px;height:8px;
+  border-radius:50%;background:var(--paper);border:2px solid var(--line);
+}
+.beat.hot::before{background:var(--flag);border-color:var(--flag);}
+.beat .bl{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted);display:block;margin-bottom:4px;
+}
+.beat.hot .bl{color:var(--flag);}
+.beat p{margin:0 0 .5em;}
+.beat q{font-family:var(--serif);font-size:17px;color:var(--ink);quotes:'「' '」';}
+.beat-teach{background:var(--trace-bg);border-radius:3px;padding:12px 16px;font-size:14.5px;margin-top:4px;}
+.beat-teach b{color:var(--trace);}
+.pill{
+  display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;
+  text-transform:uppercase;padding:2px 8px;border-radius:2px;color:#fff;vertical-align:2px;
+}
+.pill-epi{background:var(--epi);}
+.pill-alea{background:var(--alea);}
+
+/* ---------- 教育診斷對照 ---------- */
+.dx{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:20px 22px;margin-bottom:14px;}
+.dx-skill{font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--trace);display:block;margin-bottom:9px;}
+.dx-seen{font-family:var(--serif);font-size:18px;color:var(--ink);margin-bottom:12px;}
+.dx-flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;font-size:14.5px;}
+.dx-flow > div{border-top:1px solid var(--hair);padding-top:9px;}
+.dx-flow b{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:5px;}
+.dx-say{margin-top:13px;background:#F7FAFA;border-left:2px solid var(--trace);padding:10px 15px;font-size:15px;color:var(--ink);}
+
+/* ---------- 學員端 ---------- */
+.sent{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:18px 22px;margin-bottom:12px;}
+.sent .slot{font-family:var(--serif);font-size:18px;color:var(--ink);line-height:1.6;}
+.sent .slot u{
+  text-decoration:none;background:var(--epi-bg);border-bottom:1.5px solid var(--epi);
+  padding:1px 5px;border-radius:2px;color:var(--epi);
+}
+.sent .note{font-size:13.5px;color:var(--muted);margin:9px 0 0;}
+.sent .demo{font-size:14.5px;margin:11px 0 0;padding-top:11px;border-top:1px dashed var(--line);}
+.sent .demo b{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:4px;}
+
+/* ---------- 雙循環圖 ---------- */
+.loop-wrap{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:24px;text-align:center;}
+.loop-wrap svg{max-width:560px;width:100%;height:auto;}
+.loop-wrap figcaption{font-size:14px;color:var(--muted);margin-top:14px;max-width:60ch;margin-left:auto;margin-right:auto;}
+
+/* ---------- 術語 ---------- */
+.term{border-top:1px solid var(--hair);padding:14px 0;display:grid;grid-template-columns:200px 1fr;gap:20px;}
+.term:first-child{border-top:none;}
+.term b{font-family:var(--serif);font-size:16.5px;color:var(--ink);}
+.term b span{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+.term p{margin:0;font-size:15px;}
+
+/* ---------- 註腳 ---------- */
+.src{border-top:2px solid var(--ink);margin-top:44px;padding-top:16px;font-size:13.5px;color:var(--muted);}
+.src p{margin:0 0 .5em;}
+.src a{color:var(--epi);}
+
+.callout{
+  background:var(--ink);color:#DCE4E4;border-radius:4px;padding:24px 26px;margin-bottom:16px;
+}
+.callout h3{color:#fff;font-size:19px;margin-bottom:9px;}
+.callout p:last-child{margin-bottom:0;}
+.callout .hl{color:#F0B9AC;}
+
+/* 含中文的小標：等寬字在 10px 下的中文字面太小，改用無襯線並加大 */
+.script-said .who,
+.row-x .mk,.row-o .mk,
+.script-why b,
+.beat .bl,
+.dx-flow b,
+.dx-skill,
+.eg b,
+.sent .demo b{
+  font-family:var(--sans);font-size:11.5px;letter-spacing:.06em;
+  text-transform:none;font-weight:600;
+}
+
+.track{display:none;}
+.track.on{display:block;}
+
+@media (max-width:880px){
+  .cols{grid-template-columns:1fr;gap:0;}
+  .sidenav{display:none;}
+  .script-rows{grid-template-columns:1fr;}
+  .row-x{border-right:none;border-bottom:1px solid var(--hair);}
+  .lane{grid-template-columns:104px 1fr;}
+  .lane-lab{padding-left:14px;}
+  .lane-body{padding-left:14px;padding-right:14px;}
+  .term{grid-template-columns:1fr;gap:4px;}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important;animation:none !important;}
+  html{scroll-behavior:auto;}
+}
+
+@media print{
+  body{background:#fff;font-size:11.5pt;}
+  .topbar,.sidenav,.case > summary::after{display:none;}
+  .shell{max-width:none;padding:0;}
+  .cols{display:block;}
+  .track{display:block !important;}
+  .track#track-learner{page-break-before:always;}
+  .lane-body{display:block !important;}
+  .card,.script,.case,.dx,.type-card,.strip,.sent{page-break-inside:avoid;border-color:#999;}
+  .callout{background:#fff;color:#000;border:1.5pt solid #000;}
+  .callout h3{color:#000;}
+  .callout .hl{color:#000;font-weight:700;}
+  .sec{page-break-before:auto;padding-top:20pt;}
+  a{text-decoration:none;color:#000;}
+}
+
+/* ---------- 分享按鈕 Share ---------- */
+.share-fab{
+  position:fixed;right:20px;bottom:20px;z-index:120;
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--ink);color:#fff;border:none;border-radius:100px;
+  padding:12px 20px;font-size:14px;font-weight:600;letter-spacing:.02em;
+  box-shadow:0 4px 16px rgba(22,35,43,.28);transition:background .18s;
+}
+.share-fab:hover{background:#22343e;}
+.share-fab svg{width:17px;height:17px;stroke:#fff;fill:none;stroke-width:2;}
+.share-ovl{
+  position:fixed;inset:0;z-index:130;display:none;
+  align-items:center;justify-content:center;padding:20px;
+  background:rgba(22,35,43,.55);
+}
+.share-ovl.open{display:flex;}
+.share-box{
+  background:var(--paper);border-radius:8px;max-width:360px;width:100%;
+  padding:28px 26px 24px;text-align:center;position:relative;
+  box-shadow:0 20px 60px rgba(0,0,0,.3);
+}
+.share-box h3{font-size:20px;margin-bottom:2px;}
+.share-box .en{margin-top:2px;margin-bottom:18px;}
+.share-close{
+  position:absolute;top:10px;right:13px;background:none;border:none;
+  font-size:23px;line-height:1;color:var(--muted);padding:4px;
+}
+.share-close:hover{color:var(--ink);}
+.share-qr{
+  width:196px;height:196px;display:block;margin:0 auto 12px;
+  border:1px solid var(--line);border-radius:6px;padding:8px;background:#fff;
+}
+.share-cap{font-size:13.5px;color:var(--muted);margin:0 0 16px;}
+.share-url{
+  display:block;width:100%;font-family:var(--mono);font-size:11.5px;
+  color:var(--body);background:#F7FAFA;border:1px solid var(--line);
+  border-radius:4px;padding:9px 11px;margin-bottom:12px;text-align:left;
+  word-break:break-all;line-height:1.5;
+}
+.share-btns{display:flex;gap:8px;}
+.share-btn{
+  flex:1;border:1px solid var(--ink);background:var(--ink);color:#fff;
+  border-radius:5px;padding:11px 12px;font-size:14px;font-weight:600;
+  transition:opacity .18s,background .18s;
+}
+.share-btn.ghost{background:var(--paper);color:var(--ink);}
+.share-btn:hover{opacity:.9;}
+.share-btn.ok{background:var(--trace);border-color:var(--trace);color:#fff;}
+@media (max-width:880px){
+  .share-fab{right:14px;bottom:14px;padding:11px 17px;}
+}
+@media print{ .share-fab,.share-ovl{display:none !important;} }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="mark">臨床不確定性教學模組<small>CLINICAL UNCERTAINTY · CARDIOLOGY</small></div>
+    <div class="track-switch" role="tablist" aria-label="選擇身分">
+      <button role="tab" id="tab-teacher" aria-controls="track-teacher" aria-selected="true">總醫師／導師</button>
+      <button role="tab" id="tab-learner" aria-controls="track-learner" aria-selected="false">學員</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+
+<!-- ══════════════════════ 總醫師／導師端 ══════════════════════ -->
+<div class="track on" id="track-teacher" role="tabpanel" aria-labelledby="tab-teacher">
+
+  <section class="hero">
+    <h1 class="hero-quote">「我不太<span class="dim">確定</span>…」</h1>
+    <p class="hero-sub">學員講出這句話之後的三秒鐘，決定了這次教學的走向。多數人會把它讀成「沒準備好」，然後接管、或給答案、或叫他回去查。</p>
+    <p class="hero-sub"><strong>但這句話通常不是準備不足的證據，而是臨床推理正在發生的聲音。</strong>本模組要練的，是把它當成可判讀的訊號。</p>
+  </section>
+
+  <div class="strip">
+    <div class="strip-cap">
+      <b>訊號判讀條</b>
+      <span>4 channels · uncertainty cues</span>
+      <em>點任一頻道展開</em>
+    </div>
+
+    <button class="lane" aria-expanded="false" data-lane="cog">
+      <span class="lane-lab"><b>認知</b><span>Cognitive</span></span>
+      <svg viewBox="0 0 760 52" preserveAspectRatio="none" aria-hidden="true">
+        <line class="grid" x1="0" y1="26" x2="760" y2="26"/>
+        <path class="base" d="M0 26 H300"/>
+        <path class="defl" d="M300 26 L318 26 L318 12 L420 12 L438 26"/>
+        <path class="base" d="M438 26 H760"/>
+        <line class="tick" x1="318" y1="4" x2="318" y2="48"/>
+        <circle class="dot" cx="318" cy="12" r="3.4"/>
+      </svg>
+    </button>
+    <div class="lane-body" data-body="cog">
+      <p class="said">我不確定發生了什麼事，也不知道下一步要做什麼。</p>
+      <dl>
+        <dt>看起來像</dt>
+        <dd>講到 impression 就開始繞回病史、鑑別診斷列了一長串卻沒有排序、同一句話講兩次。</dd>
+        <dt>不是</dt>
+        <dd>不是他沒讀書。是他手上的資訊撐不起一個乾淨的結論——而他不敢這樣講。</dd>
+        <dt>第一句話</dt>
+        <dd class="first-line">「你先講你最有把握的那一件事，我們從那裡往外推。」</dd>
+      </dl>
+    </div>
+
+    <button class="lane" aria-expanded="false" data-lane="som">
+      <span class="lane-lab"><b>身體</b><span>Somatic</span></span>
+      <svg viewBox="0 0 760 52" preserveAspectRatio="none" aria-hidden="true">
+        <line class="grid" x1="0" y1="26" x2="760" y2="26"/>
+        <path class="base" d="M0 26 H330"/>
+        <path class="defl" d="M330 26 C352 26 356 44 384 44 C412 44 416 30 440 27"/>
+        <path class="base" d="M440 27 H760"/>
+        <line class="tick" x1="384" y1="4" x2="384" y2="48"/>
+        <circle class="dot" cx="384" cy="44" r="3.4"/>
+      </svg>
+    </button>
+    <div class="lane-body" data-body="som">
+      <p class="said">我的胃有「下沉」的感覺。</p>
+      <dl>
+        <dt>看起來像</dt>
+        <dd>站姿變僵、手一直翻資料、講話速度變快、報告完了還站著不走。</dd>
+        <dt>不是</dt>
+        <dd>不是緊張而已。原文明講，身體反應是有效的不確定性訊號，值得被驗證而不是被忽略。</dd>
+        <dt>第一句話</dt>
+        <dd class="first-line">「你看起來不太放心。是這個病人的哪一點讓你不放心？」</dd>
+      </dl>
+    </div>
+
+    <button class="lane" aria-expanded="false" data-lane="emo">
+      <span class="lane-lab"><b>情緒</b><span>Emotional</span></span>
+      <svg viewBox="0 0 760 52" preserveAspectRatio="none" aria-hidden="true">
+        <line class="grid" x1="0" y1="26" x2="760" y2="26"/>
+        <path class="base" d="M0 26 H340"/>
+        <path class="defl" d="M340 26 L362 26 L372 6 L386 46 L398 26 L420 26"/>
+        <path class="base" d="M420 26 H760"/>
+        <line class="tick" x1="379" y1="2" x2="379" y2="50"/>
+        <circle class="dot" cx="372" cy="6" r="3.4"/>
+      </svg>
+    </button>
+    <div class="lane-body" data-body="emo">
+      <p class="said">這裡有什麼感覺不太對勁。</p>
+      <dl>
+        <dt>看起來像</dt>
+        <dd>反覆回去看同一張 ECG、對某個數值一直「再確認一下」、用「怪怪的」這種模糊詞。</dd>
+        <dt>不是</dt>
+        <dd>不是他在瞎猜。「怪怪的」通常指得到一個具體發現，只是他還沒能力把它命名——命名是你的工作。</dd>
+        <dt>第一句話</dt>
+        <dd class="first-line">「你剛剛說『怪怪的』。那個怪怪的，指的是哪一個發現？」</dd>
+      </dl>
+    </div>
+
+    <button class="lane" aria-expanded="false" data-lane="beh">
+      <span class="lane-lab"><b>行為</b><span>Behavioral</span></span>
+      <svg viewBox="0 0 760 52" preserveAspectRatio="none" aria-hidden="true">
+        <line class="grid" x1="0" y1="26" x2="760" y2="26"/>
+        <path class="base" d="M0 26 H310"/>
+        <path class="defl" d="M310 26 L330 26" stroke-dasharray="0"/>
+        <path class="defl" d="M330 26 H470" stroke-dasharray="4 7"/>
+        <path class="defl" d="M470 26 L490 26"/>
+        <path class="base" d="M490 26 H760"/>
+        <line class="tick" x1="330" y1="8" x2="330" y2="44"/>
+        <line class="tick" x1="470" y1="8" x2="470" y2="44"/>
+        <circle class="dot" cx="400" cy="26" r="3.4"/>
+      </svg>
+    </button>
+    <div class="lane-body" data-body="beh">
+      <p class="said">我注意到自己放慢了速度。</p>
+      <dl>
+        <dt>看起來像</dt>
+        <dd>該下的 order 沒下、一直說「再觀察看看」、把決定往後推到下一班。</dd>
+        <dt>不是</dt>
+        <dd>不是他偷懶。放慢是有經驗的臨床醫師從常規切換到費力思考時的正常動作——問題在他還沒學會怎麼結束這個停頓。</dd>
+        <dt>第一句話</dt>
+        <dd class="first-line">「你在等什麼出現？等到了要做什麼，沒等到又要做什麼？」</dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="cols">
+    <nav class="sidenav" aria-label="章節">
+      <div class="navlab">Teacher track</div>
+      <ol id="nav-teacher">
+        <li><a href="#t1">1 — 為什麼你會不耐煩</a></li>
+        <li><a href="#t2">2 — 先分流：查得到／查不到</a></li>
+        <li><a href="#t3">3 — 四個教學動作</a></li>
+        <li><a href="#t4">4 — 話術對照庫</a></li>
+        <li><a href="#t5">5 — 心臟科情境演練</a></li>
+        <li><a href="#t6">6 — 教育診斷對照</a></li>
+        <li><a href="#t7">7 — 雙循環：規劃與監測</a></li>
+        <li><a href="#t8">8 — 術語與出處</a></li>
+      </ol>
+    </nav>
+
+    <main>
+
+      <!-- ── 1 ── -->
+      <section class="sec" id="t1">
+        <div class="sec-head">
+          <span class="sec-num">01</span>
+          <h2>為什麼你會不耐煩<span class="en">The frustration is rational — and it's a misread</span></h2>
+          <p class="lede">先承認一件事：這個不耐煩不是脾氣問題，它有三個合理的來源。看懂來源，才知道要改哪一個動作。</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>一、你在跟時間賽跑</h3>
+            <p>查房剩四床、CV room 在等、家屬在門口。學員一含糊，你的直覺是「我自己講比較快」。</p>
+            <h4>要改的動作</h4>
+            <p>不是花更多時間，是<strong>把時間換位置</strong>。接管一個病人要五分鐘，問一句「哪個地方讓你停住？」要二十秒，而且下次他自己會處理。</p>
+          </div>
+          <div class="card">
+            <h3>二、你其實也不確定</h3>
+            <p>學員的不確定會照出你的不確定。這種時候接管、或用資深的語氣壓過去，是最省力的防衛。</p>
+            <h4>要改的動作</h4>
+            <p>原文的建議是反向的：<strong>把自己的不確定講出來</strong>。「這題我也沒把握，我們一起拆」——這一句能同時解決你的壓力和他的恐懼。</p>
+          </div>
+          <div class="card">
+            <h3>三、你怕他的不確定變成病人的風險</h3>
+            <p>這個擔心是對的，尤其在心臟科。但「叫他不要不確定」不會降低風險，只會讓他下次把不確定藏起來——那才是真的危險。</p>
+            <h4>要改的動作</h4>
+            <p>把目標從「消除不確定」換成<strong>「讓不確定被說出來、被分類、被安排備案」</strong>。安全來自被講出來的不確定，不是被掩蓋的確定。</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>那個最該警覺的訊號</h3>
+          <p>不是學員報告得含糊，而是<strong>學員報告得太乾淨</strong>。</p>
+          <p>原文寫得很直接：學員可能為了在你面前表現出確定和信心而過度簡化。一份完美、明確、沒有任何不一致的報告，配上一個複雜的病人，通常代表他把不合的東西默默丟掉了。</p>
+          <p style="margin-bottom:0;">含糊的學員在跟你求助；乾淨的學員可能在跟你演戲。</p>
+        </div>
+
+        <div class="callout">
+          <h3>這個模組要換掉的那一句話</h3>
+          <p>舊的預設：「你不確定，代表你還沒準備好。」</p>
+          <p class="hl">新的預設：「你不確定，代表我們找到今天要教的東西了。」</p>
+          <p style="margin-top:14px;font-size:14.5px;opacity:.85;">原文的原話是：教師應該將不確定性重新定義為有學習機會的訊號。整份模組其餘部分，都只是這一句的操作方法。</p>
+        </div>
+      </section>
+
+      <!-- ── 2 ── -->
+      <section class="sec" id="t2">
+        <div class="sec-head">
+          <span class="sec-num">02</span>
+          <h2>先分流：查得到，還是查不到<span class="en">Epistemic vs. aleatoric</span></h2>
+          <p class="lede">這是投資報酬率最高的一個動作。學員把所有不確定混成一團焦慮；你只要幫他分成兩堆，一半的焦慮當場消失，另一半變成可執行的計畫。</p>
+        </div>
+
+        <div class="split">
+          <div class="type-card type-epi">
+            <span class="tag">Epistemic</span>
+            <h3>認識論不確定性</h3>
+            <p style="font-size:15px;margin-top:6px;">資訊不夠、知識有缺口、或同一份資料可以有兩種讀法。<strong>再多知道一點，就會變清楚。</strong></p>
+            <p class="move">你的動作：給資訊、指方向、講你的經驗。「這個查得到，我告訴你去哪裡查／我以前遇過。」</p>
+            <div class="eg">
+              <b>心臟科例子</b>
+              這個 NSTEMI 病人 DAPT 要選 ticagrelor 還是 clopidogrel？<br>
+              這張 ECG 的 ST 抬高是 STEMI 還是早期再極化？<br>
+              這個雜音該不該排心臟超音波？
+            </div>
+            <div class="eg">
+              <b>常見誤判</b>
+              學員把它當成「我很笨」。其實只是還沒查。指出這一點本身就有治療效果。
+            </div>
+          </div>
+
+          <div class="type-card type-alea">
+            <span class="tag">Aleatoric</span>
+            <h3>偶然性不確定性</h3>
+            <p style="font-size:15px;margin-top:6px;">生物本身就是隨機的，健康系統也是。<strong>再查也不會變清楚。</strong></p>
+            <p class="move">你的動作：停止查詢，改成估機率、排最壞情況、設監測點、寫備案。「這個查不到，所以我們要準備。」</p>
+            <div class="eg">
+              <b>心臟科例子</b>
+              這個 EF 25% 的病人今晚會不會跑出 sustained VT？<br>
+              這條 CTO 打得通嗎？<br>
+              這個 TAVI 病人術後會不會需要永久性節律器？<br>
+              加了利尿劑之後腎功能會往哪走？
+            </div>
+            <div class="eg">
+              <b>常見誤判</b>
+              學員（和你）會一直加做檢查來緩解焦慮。那是把 aleatoric 當 epistemic 在處理——檢查做完了，不確定還在，病人多挨了針。
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>操作方式：一句話分流</h3>
+          <p>不需要跟學員解釋這兩個英文字。查房時只要問這一句：</p>
+          <p class="dx-say" style="margin-top:0;">「你剛剛講的這幾件不確定，哪些是<strong>現在查得到</strong>的，哪些是<strong>查不到、只能盯</strong>的？」</p>
+          <p style="margin-top:14px;">然後照著分類走：查得到的，指方向；查不到的，直接進第三節的「前瞻性規劃」——三個可能結果、各自的第一步、打給誰。</p>
+          <p style="margin-bottom:0;color:var(--muted);font-size:14.5px;">附帶效果：這一句同時處理了「學員問太多」和「學員不敢問」兩種學員，因為它把問題從「你該不該不確定」轉成「這個不確定屬於哪一類」。</p>
+        </div>
+
+        <div class="callout">
+          <h3>順帶一提：AI 和新檢查不會解決這件事</h3>
+          <p>原文的結論之一：科技不會解決不確定性，它只是轉移了不確定性的焦點。</p>
+          <p style="margin-bottom:0;">高敏感度 troponin、CT-FFR、AI 判讀 ECG——每一項都把舊的不確定縮小，同時製造新的：這個輕微上升算不算？這個 borderline 要不要做？模型說 85%，那 15% 怎麼辦？學員需要的不是等一個沒有不確定的未來，是現在就學會怎麼在裡面工作。</p>
+        </div>
+      </section>
+
+      <!-- ── 3 ── -->
+      <section class="sec" id="t3">
+        <div class="sec-head">
+          <span class="sec-num">03</span>
+          <h2>四個教學動作<span class="en">Narrate · Frame · Simulate · Communicate</span></h2>
+          <p class="lede">原文提供的四個策略。前兩個每天查房就能做，第三個排在 case conference，第四個在病人床邊示範。</p>
+        </div>
+
+        <div class="card">
+          <h3>敘述 — 把你自己的不確定講出來</h3>
+          <p>大聲思考。分享「我不確定這個診斷」或「這裡有些事情感覺不對勁」，然後描述你怎麼利用這個反應去做規劃和監測。原文說，這種例行性的揭露可以把不確定性正常化。</p>
+          <h4>兩個現成工具</h4>
+          <ul>
+            <li><strong>不確定性檢查</strong>：問學員「你對這個診斷／計畫的信心大概幾成？」——一句話就把不確定攤開來討論。</li>
+            <li><strong>「如果…那麼…」計畫</strong>：示範你在哪裡設停止點。<br>
+            <span style="color:var(--ink);">例：「腎盂腎炎打抗生素前一兩天還在燒是典型的，但我對 72 小時還在燒很不放心——到那個點我會安排 CT 排除結石或膿瘍。」</span><br>
+            <span style="color:var(--ink);">心臟科版：「急性心衰竭利尿後 Cr 上升 0.3 以內我可以接受，但如果 24 小時內尿量沒起來、Cr 又跳 0.5，我就會重新想是不是 low output 而不是容積過多。」</span></li>
+          </ul>
+          <p style="margin-bottom:0;color:var(--muted);font-size:14.5px;">關鍵在角色轉換：不是「這個病人是主動脈剝離，處理包括…」，而是「我以前遇過這種棘手的病例，以下是當我努力理清發生了什麼時幫助我的幾種策略」。</p>
+        </div>
+
+        <div class="card">
+          <h3>框架 — 幫他把一團焦慮排成清單</h3>
+          <p>兩層框架。第一層問「這個不確定是關於什麼」：診斷？治療？預後？還是工作場所動態（找不到人、儀器不在、團隊意見不合）？第二層就是第二節的查得到／查不到。</p>
+          <p style="margin-bottom:0;">學員常把「我不知道要開什麼藥」和「我不知道要打給誰」混在同一個「我不會」裡面。前者是知識，後者是系統——分開之後兩個都變得可解。</p>
+        </div>
+
+        <div class="card">
+          <h3>模擬 — 刻意設計沒有標準答案的病例</h3>
+          <p>傳統的 case conference 被設計成線性的、邏輯的、可解決的，那適合傳遞基礎知識。但到了進階訓練階段，原文建議把病例討論轉向<strong>有一系列合理選項、和多個無法解決的困境</strong>的情境。</p>
+          <h4>怎麼改一場 conference</h4>
+          <ul>
+            <li>選一個結局不漂亮、或當時真的沒決定好的病例。</li>
+            <li>在關鍵時間點<strong>凍結</strong>，不要往下講。問：現在你注意到自己身上、和其他人身上有什麼線索？</li>
+            <li>不要問「診斷是什麼」，問「你會怎麼準備接下來三種可能的走向」。</li>
+            <li>把「當時我很不安」「我不敢半夜打給主治」這種話放進討論——原文特別把「在深夜聯繫顧問的不安」列為值得討論的困境。</li>
+          </ul>
+          <p style="margin-bottom:0;color:var(--muted);font-size:14.5px;">心臟科現成素材：導管室中途變化、borderline 的 severe AS 要不要轉介、家屬要求「不要再插管」的 cardiogenic shock。</p>
+        </div>
+
+        <div class="card">
+          <h3>溝通 — 三個方向都要教</h3>
+          <div class="dx-flow" style="margin-top:12px;">
+            <div><b>向上（對督導）</b>病例呈報的模板裡直接嵌入提問的步驟，讓學員有正當機會問。例如固定留一句「我想知道為什麼這個病人還在喘」。</div>
+            <div><b>橫向（對同事）</b>交班時把不確定的程度講出來——一點點不確定／明顯不確定／高度不確定。交班工具能促使這件事發生。</div>
+            <div><b>向下（對病人）</b>研究顯示家屬偏好<strong>包含鑑別診斷</strong>的不確定溝通，而不是籠統的「我不確定」。</div>
+          </div>
+          <p class="dx-say">示範版本：「痛最可能是踝關節扭傷引起的，儘管痛風是一種可能性」——比「我不確定是什麼引起的疼痛」好。<br>心臟科版：「這個胸痛我認為最可能是逆流，但我還沒完全排除心臟，所以我要再抽一次心肌酵素。」</p>
+        </div>
+      </section>
+
+      <!-- ── 4 ── -->
+      <section class="sec" id="t4">
+        <div class="sec-head">
+          <span class="sec-num">04</span>
+          <h2>話術對照庫<span class="en">What not to say · what to say instead</span></h2>
+          <p class="lede">左邊那些話不是壞人講的，是趕時間的人講的。差別在於左邊結束了對話，右邊讓對話往前走一步。</p>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">學員</span>
+            <q>我不確定他是不是心衰竭。</q>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>那你去看一下 BNP 再來跟我講。</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>先不要急著定案。你現在手上哪一項發現最<em>不</em>符合心衰竭？我們從那個不符合的地方開始。</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>重新整合不一致的病史或體檢發現，比要求學員給答案更能推進推理。不合的那一項通常就是關鍵。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">學員</span>
+            <q>呃…我覺得應該是…可能是…</q>
+            <p class="ctx">聲音變小、眼神往下</p>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>所以你的 impression 到底是什麼？</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>你剛剛猶豫了一下。是哪個地方讓你停住的？</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>猶豫本身是線索。指名它，比逼出一個他自己都不相信的答案有用——而且指名的動作會讓他知道你在聽。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">學員</span>
+            <q>Impression：Acute decompensated heart failure。Plan：Lasix 40 mg IV q12h，限水，追 I/O。</q>
+            <p class="ctx">報告乾淨俐落，但病人是 85 歲、Cr 2.1、剛換過抗生素</p>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>好，就這樣做。</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>你講得很清楚。那我問反方向的：有沒有哪個發現其實不太支持這個診斷？</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>學員可能為了表現出確定和信心而過度簡化。太乾淨的報告配複雜的病人，值得一個反向提問。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">學員</span>
+            <q>那我先開這些 order。</q>
+            <p class="ctx">沒有提到萬一惡化怎麼辦</p>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>嗯，去開吧。</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>假設半夜他血壓掉到 80，你的第一步是什麼？第二步呢？那個時候你會打給誰？</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>學員常結束討論而沒有規劃不良結果的應變措施。這三個問句就是完整的一次前瞻性規劃訓練，花不到一分鐘。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">學員</span>
+            <q>學長，這個我真的不會。</q>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>這個很基本吧。</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>這題我當年也卡過。我先講我會怎麼想，你聽完再告訴我你會改哪裡。</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>這是「敘述不確定性」的標準用法——不給標準答案，而是把自己的思考過程當成教材，然後把主導權還給他。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">你自己</span>
+            <q>（心裡）這個我也不知道。</q>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>（用資深的語氣含糊帶過，或直接跳到下一床）</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>老實說我也不確定。我們一起把它拆成兩塊：哪些是現在查得到的，哪些是查不到、只能盯的。</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>例行性的自我揭露能把不確定正常化。你以為這樣會失去威信——實際上這是學員最記得住的示範。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">情境</span>
+            <q>學員向病人解釋病情，完全沒提到還在確認中的部分。</q>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>（事後才說）你剛剛講得太肯定了。</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>等一下我進去講的時候你注意聽，我會怎麼講「我們還在確認」這一段。出來我們對一下。</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>學員不敢揭露不確定，是怕破壞病人對他的信心。用示範解決，比用糾正解決快。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said">
+            <span class="who">情境</span>
+            <q>護理師今天第三次來反應這個病人，學員沒有理會。</q>
+          </div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 結束對話</span><q>護理師講的你要聽一下。</q></div>
+            <div class="row-o"><span class="mk">✓ 往前一步</span><q>護理師今天來三次了，她的語氣跟頻率都在表達擔心。她在擔心什麼？你要用什麼方法問出她的想法？</q></div>
+          </div>
+          <div class="script-why"><b>為什麼</b>學員可能不知道跨專業團隊怎麼共同工作，包括別人試圖表達關切的時刻。監測他人是可以教的技能，不是情商。</div>
+        </div>
+      </section>
+
+      <!-- ── 5 ── -->
+      <section class="sec" id="t5">
+        <div class="sec-head">
+          <span class="sec-num">05</span>
+          <h2>心臟科情境演練<span class="en">Four cardiology walkthroughs</span></h2>
+          <p class="lede">四個查房會遇到的場景，每個都標出線索出現在哪裡、該分到哪一類、你的三句話是什麼。可以直接當 morning round 的教學腳本。</p>
+        </div>
+
+        <details class="case">
+          <summary><span class="case-id">CASE 01</span><b>胸痛、ECG 邊緣、troponin 輕微上升</b></summary>
+          <div class="case-in">
+            <div class="beat">
+              <span class="bl">學員的呈現</span>
+              <p>「52 歲男性，胸悶兩小時。ECG 我看 V2-V3 好像有一點 ST 抬高，但也可能是 early repolarization。Troponin 0.06，有一點高。我想…先收起來觀察？」</p>
+            </div>
+            <div class="beat hot">
+              <span class="bl">你注意到的線索</span>
+              <p><strong>認知</strong>（兩種讀法並列，沒有排序）＋<strong>行為</strong>（「先觀察」是把決定往後推）。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">分流</span>
+              <p><span class="pill pill-epi">Epistemic</span> ECG 判讀、troponin 的解讀閾值——查得到、教得會。</p>
+              <p><span class="pill pill-alea">Aleatoric</span> 這兩小時內他會不會演變成完全阻塞——查不到，只能監測加備案。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">你的三句話</span>
+              <p><q>你說「好像」有一點抬高。把 V2 和 V3 的 J point 跟 T 波形狀講給我聽，我們一起判。</q>（處理 epistemic）</p>
+              <p><q>假設這是真的在演變，接下來兩小時你要看到什麼會讓你叫導管室？</q>（轉成 If-Then）</p>
+              <p><q>如果他在你手上突然開始冒冷汗、血壓掉，你的第一步、第二步是什麼？</q>（前瞻性規劃）</p>
+            </div>
+            <div class="beat">
+              <span class="bl">這一段你教了什麼</span>
+              <div class="beat-teach"><b>把「觀察」變成有內容的計畫。</b>「先觀察」在學員嘴裡通常是「我不知道」的委婉說法。三句話之後，它變成「兩小時後追第二套心肌酵素＋連續 ECG，出現 X 就啟動 Y」。同一個決定，差別在有沒有停止點。</div>
+            </div>
+          </div>
+        </details>
+
+        <details class="case">
+          <summary><span class="case-id">CASE 02</span><b>心衰竭調藥：血壓偏低、腎功能在動</b></summary>
+          <div class="case-in">
+            <div class="beat">
+              <span class="bl">學員的呈現</span>
+              <p>「EF 30%，這兩天利尿還可以，可是 BP 92/58、Cr 從 1.3 上到 1.7。GDMT 那些…我不太敢加。」</p>
+            </div>
+            <div class="beat hot">
+              <span class="bl">你注意到的線索</span>
+              <p><strong>身體／情緒</strong>（「不太敢」是感覺，不是數據）＋<strong>行為</strong>（停在原地，沒有往任一方向動）。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">分流</span>
+              <p><span class="pill pill-epi">Epistemic</span> 這個血壓範圍的 GDMT 起始與加量原則、Cr 上升可接受的幅度——有證據、有指引。</p>
+              <p><span class="pill pill-alea">Aleatoric</span> 這一位病人加藥後腎功能會往哪走——沒有人查得到。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">你的三句話</span>
+              <p><q>你講「不太敢」。是怕血壓再掉，還是怕腎功能再壞？先選一個。</q>（把模糊感覺命名成具體風險）</p>
+              <p><q>利尿之後 Cr 上升到什麼程度你會覺得可以接受、到什麼程度你會停手？先給我一個數字。</q>（設停止點）</p>
+              <p><q>如果三天後 Cr 到 2.2 但體重降了 3 公斤、也不喘了，你會怎麼解讀？</q>（練習面對不會有標準答案的情況）</p>
+            </div>
+            <div class="beat">
+              <span class="bl">這一段你教了什麼</span>
+              <div class="beat-teach"><b>不敢動，通常不是知識不足，是沒有停止點。</b>學員一旦有了「Cr 到 2.0 我就重新評估」這個數字，他就敢動了——因為他知道自己什麼時候可以喊停。給閾值比給答案更能解除癱瘓。</div>
+            </div>
+          </div>
+        </details>
+
+        <details class="case">
+          <summary><span class="case-id">CASE 03</span><b>導管室中途：血壓掉、影像看不清楚</b></summary>
+          <div class="case-in">
+            <div class="beat">
+              <span class="bl">現場</span>
+              <p>PCI 打到一半，血壓從 130 掉到 85，影像上遠端顯影變慢。Fellow 沒說話，手停住，回頭看你。</p>
+            </div>
+            <div class="beat hot">
+              <span class="bl">你注意到的線索</span>
+              <p><strong>行為</strong>（動作停止、回頭求援）——在導管室裡這是最清楚也最容易被罵掉的訊號。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">分流</span>
+              <p><span class="pill pill-alea">Aleatoric</span> 幾乎全部。是 no-reflow、dissection、還是迷走反射，此刻無法立刻確定。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">你的三句話</span>
+              <p><q>你停下來是對的。講出你現在最擔心的兩件事。</q>（第一句先肯定停頓，不然他下次會硬撐）</p>
+              <p><q>這兩件事分別要做什麼不一樣的動作？我們同時準備。</q></p>
+              <p><q>三十秒後如果血壓沒回來，我們就走 A；回來了，走 B。</q>（在高壓下示範 If-Then）</p>
+            </div>
+            <div class="beat">
+              <span class="bl">這一段你教了什麼</span>
+              <div class="beat-teach"><b>在最緊張的場合肯定「停下來」，比在教室講一百次都有效。</b>高風險場景裡的第一句話會被記很久。如果那一句是「你在幹嘛」，你等於教會他：不確定的時候要裝作確定。事後補的檢討救不回來。</div>
+            </div>
+          </div>
+        </details>
+
+        <details class="case">
+          <summary><span class="case-id">CASE 04</span><b>心律判讀：你和學員看法不同</b></summary>
+          <div class="case-in">
+            <div class="beat">
+              <span class="bl">學員的呈現</span>
+              <p>「我覺得這是 AF with RVR。」你看是 atrial flutter with variable block。</p>
+            </div>
+            <div class="beat hot">
+              <span class="bl">你注意到的線索</span>
+              <p>沒有含糊的線索——他很確定。<strong>這時候不確定的人是你們兩個之間的差距。</strong>原文特別提到：學員對臨床不確定性的看法與教師不同，即使照護同一位病人。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">分流</span>
+              <p><span class="pill pill-epi">Epistemic</span> 完全是。多一條 lead、多一段 rhythm strip、或壓一下頸動脈竇就會變清楚。</p>
+            </div>
+            <div class="beat">
+              <span class="bl">你的三句話</span>
+              <p><q>我看到的跟你不一樣。先不要改，講你根據哪一點判 AF。</q>（讓他先講完，不要用資歷壓過去）</p>
+              <p><q>我根據的是這裡——你看 II 和 V1 這段基線。我們哪一個證據比較硬？</q>（比較證據，不是比較誰資深）</p>
+              <p><q>如果現在還分不出來，有什麼動作可以讓它變清楚？</q>（把爭論導向可執行的下一步）</p>
+            </div>
+            <div class="beat">
+              <span class="bl">這一段你教了什麼</span>
+              <div class="beat-teach"><b>意見不同是最好的教材，前提是你不用職級解決它。</b>「我是主治我說了算」會結束這一次的爭論，也會結束他往後所有的主動判讀。把它變成證據強度的比較，你不會失去權威——你示範了權威是怎麼來的。</div>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <!-- ── 6 ── -->
+      <section class="sec" id="t6">
+        <div class="sec-head">
+          <span class="sec-num">06</span>
+          <h2>教育診斷對照<span class="en">What you see → what it means → what to do</span></h2>
+          <p class="lede">原文 Table 的整理版。用法跟臨床一樣：看到徵象，做出診斷，再選處置——不要跳過中間那一格。</p>
+        </div>
+
+        <div class="dx">
+          <span class="dx-skill">敘述不確定性 · Narrating</span>
+          <p class="dx-seen">學員呈報的評估看似完美且明確，沒有提及來自病史和體檢的不確定。</p>
+          <div class="dx-flow">
+            <div><b>教育診斷</b>學員可能為了表現出更大的確定性和信心而過度簡化。</div>
+            <div><b>教學策略</b>重新整合不一致的病史或體檢發現，以提出對工作假設的疑問。</div>
+          </div>
+          <p class="dx-say">「我想知道這個皮疹如何改變我們的思考。對我們的工作診斷有不符合的事情是正常的。」</p>
+        </div>
+
+        <div class="dx">
+          <span class="dx-skill">框架不確定性 · Framing</span>
+          <p class="dx-seen">學員呈報廣泛的不確定，從診斷和管理的具體問題到關於證據或實務變異的大哉問。</p>
+          <div class="dx-flow">
+            <div><b>教育診斷</b>學員可能受益於組織這些不確定的策略——他有一堆問題，但沒有分類的方法。</div>
+            <div><b>教學策略</b>幫他分層為認識論（額外資訊可能重新框架或降低不確定）或偶然性（結果本質上是可變的）。</div>
+          </div>
+          <p class="dx-say">「你強調了關於這個病例的幾個重要問題。我們應該在哪裡尋求資訊以降低此時的不確定？這個病例的哪些方面無論我們做什麼都可能仍然未知或不可預測？」</p>
+        </div>
+
+        <div class="dx">
+          <span class="dx-skill">前瞻性規劃 · Forward planning</span>
+          <p class="dx-seen">學員結束了關於病人的討論，卻沒有規劃不良結果的應變措施。</p>
+          <div class="dx-flow">
+            <div><b>教育診斷</b>學員可能沒有教師心中的同一份鑑別診斷，或不分享同樣的風險關切，也可能缺乏該問題的經驗。</div>
+            <div><b>教學策略</b>挑戰他思考病例可能展開的不同方式，以及他將如何應對。</div>
+          </div>
+          <p class="dx-say">「我們正在制定的計畫可能有哪三種不同的潛在結果？你現在可以做些什麼來為這些可能性做準備？」</p>
+        </div>
+
+        <div class="dx">
+          <span class="dx-skill">患者監測 · Monitoring the patient</span>
+          <p class="dx-seen">學員結束了關於病人的討論，卻沒有具體的監測計畫。</p>
+          <div class="dx-flow">
+            <div><b>教育診斷</b>學員可能不知道隨著病例演變或開始治療，應該尋找哪些發現。</div>
+            <div><b>教學策略</b>強調要監測的關鍵發現，以確定診斷和管理是否在正軌上。</div>
+          </div>
+          <p class="dx-say">「你計畫何時再次評估這位病人？你在尋找什麼樣的訊號？發燒的出現會如何改變你的思考或管理？」</p>
+        </div>
+
+        <div class="dx">
+          <span class="dx-skill">自我監測 · Monitoring the self</span>
+          <p class="dx-seen">學員在病例呈報期間表達擔憂，或你注意到表明他可能對病例感到擔心或焦慮的行為。</p>
+          <div class="dx-flow">
+            <div><b>教育診斷</b>學員可能沒有把情緒或身體線索視為有用的不確定性訊號——他覺得那只是自己太緊張。</div>
+            <div><b>教學策略</b>探究他的反應，並驗證它們是可用於管理不確定性的有價值訊號。</div>
+          </div>
+          <p class="dx-say">「我在你的病例呈報中聽到你說『擔心』，我對這個病例也有同樣的反應。讓我們比較一下讓我們每個人不確定的因素，以及它們為什麼引起關切。」</p>
+        </div>
+
+        <div class="dx">
+          <span class="dx-skill">監測他人 · Monitoring others</span>
+          <p class="dx-seen">學員忽視其他醫療專業人員的行為或語言，這些行為或語言表明他們對情況的思考不同。</p>
+          <div class="dx-flow">
+            <div><b>教育診斷</b>學員可能不知道特定醫療團隊如何共同工作，包括其他人試圖表達關切的時刻。</div>
+            <div><b>教學策略</b>分享你對其他醫療專業人員使用的行為和語言的解釋。</div>
+          </div>
+          <p class="dx-say">「護理師的語氣和頻繁更新表明對這位病人的擔憂。你可以使用什麼策略來探究護理師的思考？」</p>
+        </div>
+
+        <div class="dx">
+          <span class="dx-skill">溝通不確定性 · Communicating</span>
+          <p class="dx-seen">你注意到學員沒有向病人揭露不確定性。</p>
+          <div class="dx-flow">
+            <div><b>教育診斷</b>學員可能擔心揭露不確定性會破壞病人對他能力的信心。</div>
+            <div><b>教學策略</b>示範如何與病人分享不確定性，包括邀請病人幫忙執行監測計畫。</div>
+          </div>
+          <p class="dx-say">「注意我如何通過說明我們認為診斷是痛風、但我們將繼續考慮蜂窩組織炎作為替代診斷來開始對話。然後我會詢問病人分享他的理解和關切。病人和我將討論一系列選項，以幫助建立一個我們都可以接受的計畫。」</p>
+        </div>
+      </section>
+
+      <!-- ── 7 ── -->
+      <section class="sec" id="t7">
+        <div class="sec-head">
+          <span class="sec-num">07</span>
+          <h2>雙循環：規劃與監測<span class="en">Forward planning ⇄ Monitoring</span></h2>
+          <p class="lede">原文對「有經驗的臨床醫師到底在做什麼」的核心回答。學員缺的往往不是知識，是這個循環還沒轉起來。</p>
+        </div>
+
+        <figure class="loop-wrap">
+          <svg viewBox="0 0 560 300" role="img" aria-label="前瞻性規劃與監測的雙循環示意圖">
+            <defs>
+              <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0 L10 5 L0 10 z" fill="#0D6B5E"/>
+              </marker>
+            </defs>
+            <circle cx="150" cy="150" r="82" fill="#F1F7F6" stroke="#A9D2CB" stroke-width="1.5"/>
+            <circle cx="410" cy="150" r="82" fill="#DFEDEA" stroke="#A9D2CB" stroke-width="1.5"/>
+
+            <text x="150" y="128" text-anchor="middle" font-family="Songti TC, serif" font-size="21" fill="#16232B" font-weight="600">前瞻性規劃</text>
+            <text x="150" y="147" text-anchor="middle" font-family="SF Mono, Menlo, monospace" font-size="9.5" letter-spacing="1.4" fill="#6D7C84">FORWARD PLANNING</text>
+            <text x="150" y="170" text-anchor="middle" font-family="PingFang TC, sans-serif" font-size="12.5" fill="#33424B">接下來可能怎麼變？</text>
+            <text x="150" y="188" text-anchor="middle" font-family="PingFang TC, sans-serif" font-size="12.5" fill="#33424B">風險是什麼？打給誰？</text>
+
+            <text x="410" y="128" text-anchor="middle" font-family="Songti TC, serif" font-size="21" fill="#16232B" font-weight="600">監測</text>
+            <text x="410" y="147" text-anchor="middle" font-family="SF Mono, Menlo, monospace" font-size="9.5" letter-spacing="1.4" fill="#6D7C84">MONITORING</text>
+            <text x="410" y="170" text-anchor="middle" font-family="PingFang TC, sans-serif" font-size="12.5" fill="#33424B">自己／病人／情境</text>
+            <text x="410" y="188" text-anchor="middle" font-family="PingFang TC, sans-serif" font-size="12.5" fill="#33424B">有什麼改變了？</text>
+
+            <path d="M235 118 C285 96 325 96 372 112" fill="none" stroke="#0D6B5E" stroke-width="2" marker-end="url(#ah)"/>
+            <path d="M372 190 C325 208 285 208 238 190" fill="none" stroke="#0D6B5E" stroke-width="2" marker-end="url(#ah)"/>
+            <text x="280" y="90" text-anchor="middle" font-family="PingFang TC, sans-serif" font-size="12" fill="#0D6B5E">設定要盯的訊號</text>
+            <text x="280" y="228" text-anchor="middle" font-family="PingFang TC, sans-serif" font-size="12" fill="#0D6B5E">看到改變，重新規劃</text>
+
+            <text x="280" y="278" text-anchor="middle" font-family="PingFang TC, sans-serif" font-size="12.5" fill="#6D7C84">不確定性不是循環的障礙——它是啟動循環的訊號</text>
+          </svg>
+          <figcaption>學員的典型故障有兩種：<strong>只規劃不監測</strong>（計畫訂得很漂亮，之後不再回頭看），或<strong>只監測不規劃</strong>（一直追數值，但沒想過數值變壞要做什麼）。查房時可以直接問是哪一種。</figcaption>
+        </figure>
+
+        <div class="card" style="margin-top:16px;">
+          <h3>監測的三個面向 — 查房可以逐項問</h3>
+          <div class="dx-flow" style="margin-top:12px;">
+            <div><b>監測自己</b>我的假設如何演變？我對管理這種情況感到舒適嗎？</div>
+            <div><b>監測病人</b>哪些發現改變了？病人理解治療計畫嗎？</div>
+            <div><b>監測情境</b>其他人似乎在擔心什麼？我有合適的資源嗎？</div>
+          </div>
+          <p style="margin:16px 0 0;color:var(--muted);font-size:14.5px;">第三項最常被跳過，也最常出事。學員很少想到「今晚值班的是誰」「這台機器在不在」也屬於臨床判斷的一部分。</p>
+        </div>
+      </section>
+
+      <!-- ── 8 ── -->
+      <section class="sec" id="t8">
+        <div class="sec-head">
+          <span class="sec-num">08</span>
+          <h2>術語與出處<span class="en">Definitions &amp; source</span></h2>
+        </div>
+
+        <div class="card">
+          <div class="term"><b>Uncertainty<span>不確定性</span></b><p>不確定或懷疑的感覺。風險（通常是無法計算的）、模糊性和複雜性都會導致這種感覺。</p></div>
+          <div class="term"><b>Clinical uncertainty<span>臨床不確定性</span></b><p>對臨床情況的理解缺乏完全的信心，常伴隨著「發生了什麼事？」或「我該怎麼做？」的想法。</p></div>
+          <div class="term"><b>Ambiguity<span>模糊性</span></b><p>決策所需的資訊缺失、不精確或相互衝突，或資訊可以用兩種以上不同的方式解釋。例如：胸部 X 光片上是否存在浸潤。</p></div>
+          <div class="term"><b>Complexity<span>複雜性</span></b><p>情況中多個組成部分以多種方式交互作用，可能導致不可預測的結果，或難以理解的模式。</p></div>
+          <div class="term"><b>Epistemic uncertainty<span>認識論不確定性</span></b><p>額外資訊可能重新框架或降低的不確定性。有限知識或資訊的問題，可以被解決。</p></div>
+          <div class="term"><b>Aleatoric uncertainty<span>偶然性不確定性</span></b><p>結果本質上是可變的。反映生物醫學和健康系統中不可簡化的隨機性。</p></div>
+          <div class="term"><b>Uncertainty tolerance<span>不確定性耐受度</span></b><p>特質觀點下可量表測量的個人差異。較低的耐受度與較高的倦怠率、較低的職業滿意度和專科選擇有關。但原文更強調狀態觀點——不確定性在當下產生，反映知識與情境的交互作用，因此可以教。</p></div>
+        </div>
+
+        <div class="src">
+          <p><strong>本模組改編自：</strong>Ilgen JS, Dhaliwal G. Educational Strategies to Prepare Trainees for Clinical Uncertainty. <em>N Engl J Med</em> 2025;393(16):1624-1632. DOI: <a href="https://doi.org/10.1056/NEJMra2408797">10.1056/NEJMra2408797</a></p>
+          <p>原文的定義、四大策略架構、教育診斷對照表與示範語句均直接取自該文；心臟科情境、話術對照庫與「為什麼你會不耐煩」一節為本院教學需要另行編寫，不屬原文內容。原文的腎盂腎炎、關節炎、痛風等例子保留在第三、六節，以便對照查閱。</p>
+          <p><strong>延伸閱讀：</strong>Simpkin AL, Schwartzstein RM. Tolerating uncertainty — the next medical revolution? <em>N Engl J Med</em> 2016;375:1713-5.　·　Ilgen JS, et al. Comfort with uncertainty. <em>Adv Health Sci Educ</em> 2019;24:797-809.　·　Stephens GC, Lazarus MD. Twelve tips for developing healthcare learners' uncertainty tolerance. <em>Med Teach</em> 2024;46:1035-43.</p>
+          <p style="margin-top:14px;">教材整理：謝慕揚 醫師　·　新竹臺大分院 心臟內科</p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<!-- ══════════════════════ 學員端 ══════════════════════ -->
+<div class="track" id="track-learner" role="tabpanel" aria-labelledby="tab-learner">
+
+  <section class="hero">
+    <h1 class="hero-quote">不確定，<br><span class="dim">不等於</span>沒準備。</h1>
+    <p class="hero-sub">你以為要等到什麼都清楚了才能開口。實際上，資深醫師每天都在不清楚的狀態下做決定——差別只在他們會<strong>把不確定講清楚</strong>。</p>
+    <p class="hero-sub">這一頁教的就是那個技術：怎麼把「我不知道」講成一份有結構、對方接得住的報告。</p>
+  </section>
+
+  <div class="cols">
+    <nav class="sidenav" aria-label="章節">
+      <div class="navlab">Learner track</div>
+      <ol id="nav-learner">
+        <li><a href="#s1">1 — 先搞懂你被期待什麼</a></li>
+        <li><a href="#s2">2 — 報告不確定的句型</a></li>
+        <li><a href="#s3">3 — 上場前的自我檢查</a></li>
+        <li><a href="#s4">4 — 求助怎麼開口</a></li>
+        <li><a href="#s5">5 — 被兇了怎麼辦</a></li>
+        <li><a href="#s6">6 — 術語與出處</a></li>
+      </ol>
+    </nav>
+
+    <main>
+
+      <section class="sec" id="s1">
+        <div class="sec-head">
+          <span class="sec-num">01</span>
+          <h2>先搞懂你被期待什麼<span class="en">What good actually looks like</span></h2>
+          <p class="lede">學員最常見的兩個誤解，兩個都會讓報告變糟。</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>誤解一：不確定要藏起來</h3>
+            <p>你怕講出來會被覺得沒準備，於是把不合的發現默默丟掉，給出一個乾淨的 impression。</p>
+            <p style="margin-bottom:0;"><strong>實際上：</strong>一份太乾淨的報告配一個複雜的病人，資深醫師一眼就看得出來，而且會更不放心——因為他不知道你漏掉了什麼。<strong>被藏起來的不確定是病人真正的風險。</strong></p>
+          </div>
+          <div class="card">
+            <h3>誤解二：不確定就等於「我不會」</h3>
+            <p>於是你只講「我不確定」四個字，然後停住，等對方接。</p>
+            <p style="margin-bottom:0;"><strong>實際上：</strong>「我不確定」是起點不是終點。有用的版本是：我不確定<em>哪一件事</em>、我為什麼不確定、以及我打算怎麼辦。這三樣講出來，你就從「不會」變成「正在推理」。</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <h3>一個判準</h3>
+          <p>報告完之後，對方如果知道<strong>該盯什麼</strong>、以及<strong>什麼時候該擔心</strong>，你就報告成功了——即使診斷還沒定案。</p>
+          <p class="hl" style="margin-bottom:0;">目標不是消除不確定，是讓不確定變得可以被處理。</p>
+        </div>
+      </section>
+
+      <section class="sec" id="s2">
+        <div class="sec-head">
+          <span class="sec-num">02</span>
+          <h2>報告不確定的句型<span class="en">Sentence frames you can use today</span></h2>
+          <p class="lede">把藍色的部分換成你的內容就可以用。不用背，第一次照著念也沒關係。</p>
+        </div>
+
+        <div class="sent">
+          <p class="slot">我目前最有可能的診斷是 <u>A</u>，但我對 <u>B</u> 這一項還不確定，因為 <u>理由</u>。</p>
+          <p class="note">最常用的一句。先給立場，再標出不確定的位置，最後給理由——順序不要顛倒，先講一串理由會讓人失去耐性。</p>
+          <p class="demo"><b>示範</b>我目前最有可能的診斷是急性心衰竭，但我對「是不是同時有感染」還不確定，因為他有發燒但 CXR 看不出明顯浸潤。</p>
+        </div>
+
+        <div class="sent">
+          <p class="slot">有一個發現我覺得不太符合：<u>發現</u>。我還沒想清楚要怎麼解釋它。</p>
+          <p class="note">主動說出那個不合的東西。這一句幾乎一定會換到有品質的討論，因為你替對方省下了找漏洞的力氣。</p>
+          <p class="demo"><b>示範</b>有一個發現我覺得不太符合：他的 BNP 只有 180。我還沒想清楚要怎麼解釋它。</p>
+        </div>
+
+        <div class="sent">
+          <p class="slot">如果 <u>訊號</u> 出現，我會 <u>動作</u>；如果沒有，我會 <u>另一個動作</u>。</p>
+          <p class="note">「如果…那麼…」計畫。這一句是分水嶺——講出來，你的報告就從描述變成了計畫。強烈建議每次報告都帶一句。</p>
+          <p class="demo"><b>示範</b>如果他今晚尿量還是小於 500 cc、體重沒降，我會把 Lasix 改成 continuous infusion 並重新評估是不是 low output；如果尿出來了，我就維持現在的劑量再觀察一天。</p>
+        </div>
+
+        <div class="sent">
+          <p class="slot">我對這個計畫的信心大概 <u>幾成</u>。讓我信心不夠的是 <u>原因</u>。</p>
+          <p class="note">直接把信心量化。聽起來很直白，但這正是資深醫師之間的講法，而且它會立刻把討論帶到重點上。</p>
+          <p class="demo"><b>示範</b>我對這個計畫的信心大概七成。讓我信心不夠的是我沒看過他之前的心臟超音波。</p>
+        </div>
+
+        <div class="sent">
+          <p class="slot">這件事我覺得<u>查得到</u>／<u>查不到</u>。</p>
+          <p class="note">分類的動作。查得到的（epistemic）就去查、或問哪裡查；查不到的（aleatoric）就不要再查了，改成講你要盯什麼、備案是什麼。用錯類別會讓你一直加做沒有意義的檢查。</p>
+          <p class="demo"><b>示範</b>他的 DAPT 要用哪一種，我覺得查得到，我等一下去看 guideline。但他今晚會不會再跑出 VT，我覺得查不到，所以我想先確認 telemetry 有在盯、除顫器在哪裡。</p>
+        </div>
+      </section>
+
+      <section class="sec" id="s3">
+        <div class="sec-head">
+          <span class="sec-num">03</span>
+          <h2>上場前的自我檢查<span class="en">Pre-round self-check</span></h2>
+          <p class="lede">報告前花九十秒跑一次。這五題不是考試，是資深醫師心裡實際在跑的清單。</p>
+        </div>
+
+        <div class="card">
+          <h3>五個問題</h3>
+          <ol style="font-size:15.5px;">
+            <li><strong>我最有把握的是哪一件事？</strong>——報告從這裡開始，不要從最不確定的地方開始。</li>
+            <li><strong>有哪個發現不符合我的診斷？</strong>——如果答案是「沒有」，再想一次。複雜的病人幾乎不可能全部吻合。</li>
+            <li><strong>我的不確定，哪些查得到、哪些查不到？</strong>——分兩堆。</li>
+            <li><strong>如果他今晚變壞，會是怎麼變？我的第一步是什麼？</strong>——這題答不出來，代表你只有診斷沒有計畫。</li>
+            <li><strong>我現在身體上有什麼感覺？</strong>——胃往下沉、一直想回去看同一張 ECG、報告完不想走。這些不是你想太多，是訊號。把它翻譯成一句具體的話。</li>
+          </ol>
+          <p style="margin-bottom:0;color:var(--muted);font-size:14.5px;">第五題最常被跳過，卻最常是對的。原文明講：身體和情緒反應是可以用來管理不確定性的有價值訊號。</p>
+        </div>
+
+        <div class="card">
+          <h3>把「怪怪的」翻譯出來</h3>
+          <p>「我覺得怪怪的」對聽的人沒有用，但那個感覺通常是對的。翻譯的方法是問自己：</p>
+          <ul style="margin-bottom:0;">
+            <li>我是在擔心<strong>診斷錯了</strong>，還是<strong>診斷對但會惡化</strong>？（兩者的下一步完全不同）</li>
+            <li>如果一定要指一個發現當作「怪」的來源，我會指哪一個？</li>
+            <li>我希望有誰現在在這裡？——這一題的答案，通常就是你該打電話的人。</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sec" id="s4">
+        <div class="sec-head">
+          <span class="sec-num">04</span>
+          <h2>求助怎麼開口<span class="en">Asking for help without losing the room</span></h2>
+          <p class="lede">大部分人不敢求助，是因為不知道怎麼講才不像在推卸。關鍵是：先給你已經做的判斷，再講你卡在哪。</p>
+        </div>
+
+        <div class="script">
+          <div class="script-said"><span class="who">情況</span><q>你想找人幫忙，但怕被覺得沒能力。</q></div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 聽起來像推卸</span><q>學長這個我不會，你來看一下。</q></div>
+            <div class="row-o"><span class="mk">✓ 聽起來像推理</span><q>我判斷是 A，計畫是 B，我卡在 C 這一點。想聽你怎麼看 C。</q></div>
+          </div>
+          <div class="script-why"><b>差別</b>右邊那句話裡有你的三個判斷。對方會知道你做了功課，而且只需要回答一個具體問題——這對趕時間的人是恩惠。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said"><span class="who">情況</span><q>半夜，你不敢打電話。</q></div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 拖到天亮</span><q>（自己撐著，想說再觀察看看）</q></div>
+            <div class="row-o"><span class="mk">✓ 三十秒講完</span><q>不好意思這麼晚。X 床血壓從 130 掉到 85，我最擔心的是 A 和 B，我已經做了 C。我需要你幫我決定的是要不要 D。</q></div>
+          </div>
+          <div class="script-why"><b>差別</b>「在深夜聯繫顧問的不安」是原文明確列出、值得公開討論的困境——不是你特別膽小。用這個結構把電話壓在三十秒內，你會發現大部分人其實不介意被叫醒，介意的是被叫醒後聽不懂發生什麼事。</div>
+        </div>
+
+        <div class="script">
+          <div class="script-said"><span class="who">情況</span><q>你跟資深的人看法不一樣。</q></div>
+          <div class="script-rows">
+            <div class="row-x"><span class="mk">✕ 吞下去</span><q>（想說算了，他比較資深）</q></div>
+            <div class="row-o"><span class="mk">✓ 講出來</span><q>我原本判斷是 A，是根據 X 這一點。可以請你講你看到的是哪裡嗎？我想知道我漏了什麼。</q></div>
+          </div>
+          <div class="script-why"><b>差別</b>右邊不是在挑戰，是在請教——但它把你的證據留在桌上。你可能是對的；就算不是，你會知道自己錯在哪，這比默默改掉有價值太多。</div>
+        </div>
+
+        <div class="card">
+          <h3>跟病人怎麼講</h3>
+          <p>研究顯示，病人和家屬<strong>偏好帶有鑑別診斷的不確定溝通</strong>，而不是籠統的「我不確定」。</p>
+          <div class="script-rows" style="border:1px solid var(--line);border-radius:3px;overflow:hidden;margin-top:12px;">
+            <div class="row-x"><span class="mk">✕ 太籠統</span><q>我不確定是什麼引起的疼痛。</q></div>
+            <div class="row-o"><span class="mk">✓ 有內容</span><q>這個痛最可能是踝關節扭傷引起的，儘管痛風也是一種可能性。</q></div>
+          </div>
+          <p style="margin:14px 0 0;">加一句邀請，效果更好：「所以我會請你注意，如果<strong>紅腫變得更厲害</strong>，要馬上讓我們知道。」——把病人變成監測計畫的一部分。</p>
+        </div>
+      </section>
+
+      <section class="sec" id="s5">
+        <div class="sec-head">
+          <span class="sec-num">05</span>
+          <h2>被兇了怎麼辦<span class="en">When the response is impatience</span></h2>
+          <p class="lede">會發生。這一節講怎麼讓它不要變成你以後藏起不確定的理由。</p>
+        </div>
+
+        <div class="card">
+          <h3>先知道那通常不是針對你</h3>
+          <p>資深醫師的不耐煩，多半來自三件事：他在趕時間、他自己也不確定、或他怕你的不確定變成病人的風險。三個都跟你的能力無關。</p>
+          <p style="margin-bottom:0;">知道這件事的用處不是原諒誰，是讓你不要從一次不耐煩推論出「我以後不要講不確定」——那個推論會跟著你很多年，而且會傷到病人。</p>
+        </div>
+
+        <div class="card">
+          <h3>當下可以做的一件事</h3>
+          <p>把發散的不確定收成一個具體的問題再問一次。多數不耐煩是被「我不知道要怎麼辦」引發的，不是被「我不確定」引發的。</p>
+          <p class="dx-say" style="margin-bottom:0;">「抱歉我剛剛講得太散。我具體想問的是這一個：<strong>要不要現在追第二套心肌酵素？</strong>」</p>
+        </div>
+
+        <div class="card">
+          <h3>事後值得做的一件事</h3>
+          <p>找個不趕時間的時候回去問。這不是討公道，是拿回那次沒學到的東西：</p>
+          <p class="dx-say">「早上那個病人，你當時是怎麼判斷的？我想知道我漏了哪一步。」</p>
+          <p style="margin-bottom:0;color:var(--muted);font-size:14.5px;">絕大多數人在不趕時間的時候，會給你一個很好的答案——而且會記得你有回來問。</p>
+        </div>
+
+        <div class="callout">
+          <h3>唯一不能妥協的一條</h3>
+          <p class="hl">不管當下的反應多難看，你都不可以為了避免被兇，而在報告裡把不確定藏起來。</p>
+          <p style="margin-bottom:0;">被藏起來的不確定，最後付代價的是病人。如果環境讓你覺得講出不確定是危險的，那是環境要修，不是你要閉嘴——這也是這份教材同時發給導師的原因。</p>
+        </div>
+      </section>
+
+      <section class="sec" id="s6">
+        <div class="sec-head">
+          <span class="sec-num">06</span>
+          <h2>術語與出處<span class="en">Definitions &amp; source</span></h2>
+        </div>
+
+        <div class="card">
+          <div class="term"><b>Epistemic uncertainty<span>認識論不確定性</span></b><p>額外資訊可能重新框架或降低的不確定性。<strong>查得到</strong>——去找資料、問人、加做檢查會有幫助。</p></div>
+          <div class="term"><b>Aleatoric uncertainty<span>偶然性不確定性</span></b><p>結果本質上是可變的。<strong>查不到</strong>——再多檢查也不會變清楚，改成估機率、設監測點、寫備案。</p></div>
+          <div class="term"><b>Forward planning<span>前瞻性規劃</span></b><p>模擬問題可能怎麼演變、預測可能發生什麼、思考應變措施、制定安全計畫。</p></div>
+          <div class="term"><b>Monitoring<span>監測</span></b><p>持續注意來自病人、自己的反應和環境的線索，重新審視正在發生的事。</p></div>
+        </div>
+
+        <div class="src">
+          <p><strong>本模組改編自：</strong>Ilgen JS, Dhaliwal G. Educational Strategies to Prepare Trainees for Clinical Uncertainty. <em>N Engl J Med</em> 2025;393(16):1624-1632. DOI: <a href="https://doi.org/10.1056/NEJMra2408797">10.1056/NEJMra2408797</a></p>
+          <p>句型庫、自我檢查清單與「被兇了怎麼辦」一節為本院教學需要另行編寫，不屬原文內容。</p>
+          <p style="margin-top:14px;">教材整理：謝慕揚 醫師　·　新竹臺大分院 心臟內科</p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+</div>
+
+<script>
+(function(){
+  /* ---- 身分切換 ---- */
+  var tabs = [
+    {btn:document.getElementById('tab-teacher'), panel:document.getElementById('track-teacher')},
+    {btn:document.getElementById('tab-learner'), panel:document.getElementById('track-learner')}
+  ];
+  tabs.forEach(function(t, i){
+    t.btn.addEventListener('click', function(){
+      tabs.forEach(function(o){
+        var on = (o === t);
+        o.btn.setAttribute('aria-selected', on ? 'true' : 'false');
+        o.panel.classList.toggle('on', on);
+      });
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+    t.btn.addEventListener('keydown', function(e){
+      if(e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      e.preventDefault();
+      tabs[(i + 1) % tabs.length].btn.focus();
+      tabs[(i + 1) % tabs.length].btn.click();
+    });
+  });
+
+  /* ---- 訊號判讀條 ---- */
+  document.querySelectorAll('.lane').forEach(function(lane){
+    lane.addEventListener('click', function(){
+      var key = lane.getAttribute('data-lane');
+      var body = document.querySelector('[data-body="' + key + '"]');
+      var open = lane.getAttribute('aria-expanded') === 'true';
+      document.querySelectorAll('.lane').forEach(function(l){ l.setAttribute('aria-expanded','false'); });
+      document.querySelectorAll('.lane-body').forEach(function(b){ b.classList.remove('open'); });
+      if(!open){
+        lane.setAttribute('aria-expanded','true');
+        body.classList.add('open');
+      }
+    });
+  });
+
+  /* ---- 側欄跟隨捲動 ---- */
+  var secs = Array.prototype.slice.call(document.querySelectorAll('.sec'));
+  var links = {};
+  document.querySelectorAll('.sidenav a').forEach(function(a){
+    links[a.getAttribute('href').slice(1)] = a;
+  });
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(!en.isIntersecting) return;
+        var a = links[en.target.id];
+        if(!a) return;
+        var nav = a.closest('.sidenav');
+        nav.querySelectorAll('a').forEach(function(x){ x.classList.remove('on'); });
+        a.classList.add('on');
+      });
+    }, {rootMargin:'-70px 0px -70% 0px'});
+    secs.forEach(function(s){ io.observe(s); });
+  }
+})();
+</script>
+
+<!-- ══════════════════════ 分享 Share ══════════════════════ -->
+<button class="share-fab" id="shareFab" aria-haspopup="dialog" aria-controls="shareOvl">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.5" x2="15.4" y2="6.5"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/></svg>
+  分享
+</button>
+
+<div class="share-ovl" id="shareOvl" role="dialog" aria-modal="true" aria-labelledby="shareTitle">
+  <div class="share-box">
+    <button class="share-close" id="shareClose" aria-label="關閉">×</button>
+    <h3 id="shareTitle">分享這份教材</h3>
+    <span class="en">Scan · Copy · Share</span>
+    <img class="share-qr" alt="教材連結 QR code" src="data:image/png;base64,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">
+    <p class="share-cap">用手機相機掃描 QR code，即可開啟並分享這份教材</p>
+    <code class="share-url" id="shareUrl">https://drake1128.github.io/journal-reading/handouts/99-misc/Clinical_Uncertainty_Teaching_Module.html</code>
+    <div class="share-btns">
+      <button class="share-btn" id="shareCopy">複製連結</button>
+      <button class="share-btn ghost" id="shareSys" hidden>系統分享</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var CANON = "https://drake1128.github.io/journal-reading/handouts/99-misc/Clinical_Uncertainty_Teaching_Module.html";
+  var fab=document.getElementById('shareFab'),
+      ovl=document.getElementById('shareOvl'),
+      closeBtn=document.getElementById('shareClose'),
+      copyBtn=document.getElementById('shareCopy'),
+      sysBtn=document.getElementById('shareSys');
+  function openBox(){ ovl.classList.add('open'); }
+  function closeBox(){ ovl.classList.remove('open'); }
+  fab.addEventListener('click', openBox);
+  closeBtn.addEventListener('click', closeBox);
+  ovl.addEventListener('click', function(e){ if(e.target===ovl) closeBox(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeBox(); });
+
+  function copied(){
+    copyBtn.textContent='已複製 ✓'; copyBtn.classList.add('ok');
+    setTimeout(function(){ copyBtn.textContent='複製連結'; copyBtn.classList.remove('ok'); }, 1800);
+  }
+  function fallbackCopy(){
+    var t=document.createElement('textarea'); t.value=CANON;
+    t.style.position='fixed'; t.style.top='-9999px'; document.body.appendChild(t);
+    t.focus(); t.select();
+    try{ document.execCommand('copy'); copied(); }catch(_){}
+    document.body.removeChild(t);
+  }
+  copyBtn.addEventListener('click', function(){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(CANON).then(copied).catch(fallbackCopy);
+    } else { fallbackCopy(); }
+  });
+
+  if(navigator.share){
+    sysBtn.hidden=false;
+    sysBtn.addEventListener('click', function(){
+      navigator.share({
+        title:'臨床不確定性教學模組',
+        text:'臨床不確定性教學模組 — 心臟內科教學',
+        url:CANON
+      }).catch(function(){});
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

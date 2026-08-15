@@ -247,6 +247,8 @@ website:
         - section: "周邊血管 Peripheral Vascular"
           contents:
             - handouts/07-peripheral-vascular/index.qmd
+            - text: "PCB 血液透析血管通路狹窄 — 26 篇 RCT 統合分析（含本人 Hsieh 2023 RCT）"
+              href: handouts/07-peripheral-vascular/pcb-hd-access-meta-analysis-handout.qmd
             - text: "多血管床動脈硬化 Polyvascular Disease — 極高風險族群"
               href: "handouts/07-peripheral-vascular/Polyvascular Disease 多血管床動脈硬化 教學講義.md"
             - text: "TRACK 試驗 — 洗腎/進階 CKD 病人低劑量 Rivaroxaban（陰性）"
@@ -516,6 +518,8 @@ website:
               href: handouts/99-misc/Common_Distributions_Relationships.html
             - text: "醫療決策衝突 — 兩個真實案例的團隊溝通 (互動投影片, 51 張)"
               href: handouts/99-misc/Decisional_Conflict_in_Medicine.html
+            - text: "臨床不確定性教學模組 — 導師×學員雙軌 (互動網頁, 含分享 QR)"
+              href: handouts/99-misc/Clinical_Uncertainty_Teaching_Module.html
             - handouts/99-misc/acls-team-work/index.qmd
             - handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.qmd
             - handouts/99-misc/book-cardiovascular-care-for-neurologists/index.qmd
