@@ -24,6 +24,7 @@ handouts/**/*.html
 !handouts/06-interventional-cardiology/Art_of_Good_Enough_Primary_PCI_static.html
 !handouts/06-interventional-cardiology/AGENT_DCB_Seminar_Review.html
 !handouts/01-ischemic-heart-disease/STEMI_D2B_Improvement.html
+!handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
 # Curated portals — allow all HTML in these dedicated folders (drop new decks in freely)
 !handouts/classroom-teaching/**/*.html
 !handouts/95-management-leadership/**/*.html

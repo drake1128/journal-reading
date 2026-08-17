@@ -127,6 +127,8 @@ website:
         - section: "心臟影像 Imaging"
           contents:
             - handouts/05-cardiac-imaging/index.qmd
+            - text: "左心室壁貼壁血栓與中風 — 反覆中風卻沒有 Afib (互動投影片, 35 張)"
+              href: handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns/index.qmd
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-2/index.qmd
             - handouts/05-cardiac-imaging/checklist-icu-pocus/index.qmd

@@ -94,6 +94,10 @@ listing:
       description: "互動教學模組。以『制度診斷』系統性檢視制度／流程的病灶與改善槓桿，含互動評分與自我檢核。"
       path: handouts/95-management-leadership/Management_Institutional_Diagnosis_Module.html
       categories: [管理 Management, 教學 Teaching]
+    - title: "左心室壁貼壁血栓與中風 — 反覆中風卻沒有 Afib"
+      description: "互動投影片, 35 張。陳舊性前壁 STEMI、心尖動脈瘤合併左心室血栓，兩次後循環中風卻始終竇性心律。破解『沒有 Afib 就不是心因性』與『TEE 陰性就能排除心臟血栓』兩個迷思；含梗塞區域對不上的推理、TTE/顯影 TTE/TEE/CMR 影像策略、warfarin 療程與三重打擊出血代價。心臟內科 × 神經內科案例，已去識別化。"
+      path: handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
+      categories: [影像 Imaging, 缺血性心臟病 IHD, 教學 Teaching]
 ---
 
 本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。
