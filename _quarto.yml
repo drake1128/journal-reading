@@ -322,6 +322,8 @@ website:
         - section: "ICU 血液動力學"
           contents:
             - handouts/12-icu-hemodynamics/index.qmd
+            - text: "心臟腔室正常壓力 — 導管走過的壓力階梯 (互動教學頁)"
+              href: handouts/12-icu-hemodynamics/Cardiac_Chamber_Pressures_Hemodynamics.html
             - text: "心因性休克 — 超音波導引 × 升壓/強心新策略"
               href: "handouts/12-icu-hemodynamics/Cardiogenic Shock 超音波導引與新藥組合 教學講義.md"
             - handouts/12-icu-hemodynamics/cardiogenic-shock-esc/index.qmd

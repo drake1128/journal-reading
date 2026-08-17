@@ -98,6 +98,10 @@ listing:
       description: "互動投影片, 35 張。陳舊性前壁 STEMI、心尖動脈瘤合併左心室血栓，兩次後循環中風卻始終竇性心律。破解『沒有 Afib 就不是心因性』與『TEE 陰性就能排除心臟血栓』兩個迷思；含梗塞區域對不上的推理、TTE/顯影 TTE/TEE/CMR 影像策略、warfarin 療程與三重打擊出血代價。心臟內科 × 神經內科案例，已去識別化。"
       path: handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
       categories: [影像 Imaging, 缺血性心臟病 IHD, 教學 Teaching]
+    - title: "心臟腔室正常壓力 — 導管走過的壓力階梯"
+      description: "互動教學頁。跟著 Swan-Ganz 從 RA、RV、PA、PCW 到 LA、LV、主動脈七個位置，逐站拆解正常壓力與波形轉折；核心是四組『本來應該相等』（PCWP≈LAP≈LVEDP、PAd≈PCWP、RVs≈PAs、LVs≈Aos）——壓差出現在哪裡，阻塞就在哪裡。含全刻度／放大右心刻度切換與四題自我檢核。"
+      path: handouts/12-icu-hemodynamics/Cardiac_Chamber_Pressures_Hemodynamics.html
+      categories: [血液動力學 Hemodynamics, 重症 Critical Care, 教學 Teaching]
 ---
 
 本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。
