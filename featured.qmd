@@ -102,6 +102,10 @@ listing:
       description: "互動教學頁。跟著 Swan-Ganz 從 RA、RV、PA、PCW 到 LA、LV、主動脈七個位置，逐站拆解正常壓力與波形轉折；核心是四組『本來應該相等』（PCWP≈LAP≈LVEDP、PAd≈PCWP、RVs≈PAs、LVs≈Aos）——壓差出現在哪裡，阻塞就在哪裡。含全刻度／放大右心刻度切換與四題自我檢核。"
       path: handouts/12-icu-hemodynamics/Cardiac_Chamber_Pressures_Hemodynamics.html
       categories: [血液動力學 Hemodynamics, 重症 Critical Care, 教學 Teaching]
+    - title: "M-TEER 術中影像導引 — 2026 ASE Guidelines"
+      description: "互動網頁, 27 張原文圖。依 ASE 的九個步驟拆解 M-TEER 術中 TEE 導引：每步附該轉到的 multiplane angle 轉盤與該喊出口的溝通用語。核心是指引反覆強調的三件事——trajectory／position／orientation 必須分開講、鐘面以 commissure（2 點與 10 點）而非主動脈為基準、TSP 高度從 coaptation point 而非 annulus 量起。含 TSP 4.5–5.0 cm、tissue bridge 基部 2 倍寬、殘餘 <5 mmHg／≥2.0 cm² 等數字速查。"
+      path: handouts/04-valvular-disease/M-TEER_Intraprocedural_Imaging_ASE2026.html
+      categories: [瓣膜 Valvular, TEER, 影像 Imaging, 教學 Teaching]
 ---
 
 本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。
