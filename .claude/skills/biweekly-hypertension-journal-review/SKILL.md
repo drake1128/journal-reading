@@ -1,6 +1,6 @@
 ---
 name: biweekly-hypertension-journal-review
-description: Generate the dedicated Biweekly Hypertension Journal Review handout (markdown), Marp slide deck, and PDF for the past 14 days across the major general-medicine journals (NEJM, Lancet, BMJ, JAMA family) plus the hypertension-specialty journals (Hypertension, J Hypertens, Hypertension Research, Am J Hypertens, J Clin Hypertens) and the cardiology majors that carry large HTN trials (Circulation, EHJ, JACC, JAMA Cardiology). Use when Drake (謝慕揚醫師) says "高血壓期刊回顧", "高血壓雙週期刊", "hypertension journal review", "HTN journal review", "每雙週高血壓期刊", or "高血壓期刊文獻回顧". Output goes to handouts/09-hypertension/biweekly-review/. Tailored for a Taiwan physician audience (residents, NPs, cardiology/nephrology/IM). CRITICAL: every "其他焦點/Other highlights" table in Marp slides MUST include a 連結 column with clickable DOI hyperlinks.
+description: Generate the dedicated Biweekly Hypertension Journal Review handout (markdown), Marp slide deck, and PDF for the past 14 days across the major general-medicine journals (NEJM, Lancet, BMJ, JAMA family) plus the hypertension-specialty journals (Hypertension, J Hypertens, Hypertension Research, Am J Hypertens, J Clin Hypertens) and the cardiology majors that carry large HTN trials (Circulation, EHJ, JACC, JAMA Cardiology). Use when Drake (謝慕揚醫師) says "高血壓期刊回顧", "高血壓雙週期刊", "hypertension journal review", "HTN journal review", "每雙週高血壓期刊", or "高血壓期刊文獻回顧". Two modes: Mode A (default) = full handout + Marp + PDF to handouts/09-hypertension/biweekly-review/; Mode B (checklist) = tick-box article list over the 7 journals NEJM/Lancet/JAMA/BMJ/Circulation/EHJ/JACC saved to handouts/09-hypertension/monthly-checklist/ plus a Gmail DRAFT (never send) addressed to 吳志成 副院長 chihchengwumd@gmail.com — triggered by "高血壓文章清單", "勾選清單", "寄給吳副院長". Tailored for a Taiwan physician audience (residents, NPs, cardiology/nephrology/IM). CRITICAL: every "其他焦點/Other highlights" table in Marp slides MUST include a 連結 column with clickable DOI hyperlinks.
 ---
 
 # Biweekly Hypertension Journal Review Skill
@@ -17,10 +17,94 @@ Produce a comprehensive **biweekly** review covering the **past 14 days** of hyp
 - "高血壓期刊文獻回顧"
 - "幫我整理最近兩週的高血壓期刊"
 
+**Mode B（勾選清單）觸發語**：
+
+- "高血壓文章清單"
+- "勾選清單"
+- "寄給吳副院長" / "吳志成副院長的清單"
+- "四大期刊高血壓清單"
+- "整理〇月份的高血壓文章"
+
 ## Cadence
 
 - **Every 2 weeks**, covering the **past 14 days** (run date minus 14 → run date).
 - A cloud routine (see CLAUDE.md → 「每雙週高血壓期刊回顧」) may trigger this autonomously; it can also be run manually via any trigger phrase.
+
+## 兩種輸出模式 (Modes) — 開工前先判斷
+
+| Mode | 觸發語 | 產出 | 對象 |
+|------|--------|------|------|
+| **A. 完整講義（預設）** | 「高血壓期刊回顧」「hypertension journal review」等 | 教學講義 `.md` + Marp `_Marp.md` + PDF | 院內教學（住院醫師／NP） |
+| **B. 勾選清單 (Checklist)** | 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」 | 勾選用 `.md` + **Gmail HTML 草稿** | **吳志成 副院長** (chihchengwumd@gmail.com) |
+
+兩種模式的檢索邏輯共用，差別只在**收錄範圍、輸出格式與收件人**。以下 §Mode B 專章規範 Mode B；其餘章節（§Journals 起）為 Mode A 規範。
+
+---
+
+## Mode B — 勾選清單專章
+
+### B1. 期刊範圍（**只有 7 本**，不要擴充）
+
+四大期刊 **NEJM · Lancet · JAMA · BMJ** ＋ 三大心臟科 **Circulation · European Heart Journal · JACC**。
+不含高血壓專科刊、不含 JAMA 子刊、不含腎臟科刊 —— 那是 Mode A 的範圍。
+
+### B2. 時間區間
+
+- 預設：過去 **14 天**（每兩週跑一次）。
+- 使用者指定月份（如「七月份」「上個月」）→ 改為該月 **1 日至月底**，檔名用 `YYYY-MM`。
+
+### B3. 三重檢索（缺一不可，去重後人工篩選）
+
+```text
+J = ("N Engl J Med"[Journal] OR "Lancet"[Journal] OR "JAMA"[Journal] OR "BMJ"[Journal]
+     OR "Circulation"[Journal] OR "Eur Heart J"[Journal] OR "J Am Coll Cardiol"[Journal])
+
+Q1 (TIAB, pdat) : J AND (hypertension[TIAB] OR "blood pressure"[TIAB] OR antihypertensive[TIAB] OR hypertensive[TIAB])
+Q2 (MeSH, pdat) : J AND ("hypertension"[MeSH] OR "blood pressure"[MeSH] OR "antihypertensive agents"[MeSH] OR "hypertension, pregnancy-induced"[MeSH])
+Q3 (Title, edat): J AND (hypertension[Title] OR "blood pressure"[Title] OR antihypertensive[Title] OR hypertensive[Title] OR "renal denervation"[TIAB] OR aldosterone[TIAB])
+```
+
+Q3 用 `datetype: "edat"`，專門補抓「該月入庫、但線上刊期掛前一個月」的文章（例如社論、research letter）。
+反向注意：Q3 也會抓到**下個月號**的文章（entry date 落在本月），這些要剔除並在說明段落註明「將併入下月清單」。
+
+### B4. 清單分區（固定 6 區，空的區塊直接省略）
+
+- **A. 系統性高血壓 — 原始研究與重要分析**（最重要，放最前）
+- **B. 綜述 · 指引 · 科學聲明**
+- **C. 社論 · 通訊 · 新聞短訊**（同主題的多則通訊合併成一條）
+- **D. 基礎／轉譯（高血壓機轉）**
+- **E. 肺高壓 (PAH / PH)** — 標明「若副院長也想涵蓋」
+- **F. 血壓為次要終點（相關但非主軸）**
+
+### B5. 條目格式（**每條都要能打勾**）
+
+```markdown
+- [ ] **期刊** — 英文原標題
+  一到兩句繁中結論（有數字就寫數字：Δ mmHg、HR、95% CI、P）。
+  [DOI: 10.xxxx/xxxx](https://doi.org/10.xxxx/xxxx) · PMID 12345678
+```
+
+- 每條**必附 DOI 超連結 + PMID**，DOI 一律取自 PubMed 回傳值，**絕不自行拼湊**。
+- 摘要缺漏（`[Abstract not available]`）就照實寫「PubMed 未附摘要，需取原文」，不要編故事。
+- 值得優先讀的加 ⭐ 並說明理由。
+
+### B6. 結尾必附「檢索與篩選說明」
+
+列出三個檢索式各自命中筆數、去重後總數、**被人工剔除的文章（含 PMID 與剔除理由）**，以及被延到下期的文章。副院長要能複核你篩掉了什麼。
+
+### B7. 輸出與寄送
+
+- 檔案：`handouts/09-hypertension/monthly-checklist/Hypertension_Checklist_YYYY-MM 勾選清單.md`
+  （雙週版用 `Hypertension_Checklist_YYYY-MM-DD 勾選清單.md`）
+- **Gmail：一律只建草稿，絕不直接寄出。**
+  - `mcp__claude_ai_Gmail__create_draft`，`to: ["chihchengwumd@gmail.com"]`
+  - 主旨：`[高血壓文獻清單] YYYY 年 M 月 — 四大期刊 + Circulation / EHJ / JACC`
+  - 內文用 CLAUDE.md 的 Gmail HTML inline-style 規範；每條文章標題做成 DOI 超連結
+  - 信末署名 `謝慕揚 MD, PhD, FESC` + 「本清單僅供醫療專業人員教學參考」
+  - **不 CC 任何人**，草稿建立後回報草稿連結給 Drake 自行確認送出
+- Mode B **不產 Marp、不產 PDF**（除非 Drake 另外要求）。
+
+---
 
 ## Journals
 

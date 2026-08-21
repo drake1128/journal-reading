@@ -718,3 +718,18 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
 - **存放**：`handouts/09-hypertension/biweekly-review/`
 
 **Output（3 件套）**: 教學講義 `.md` + Marp `_Marp.md` + PDF `.pdf`（如額外要求則加 Gmail HTML 草稿）。詳見 `.claude/skills/biweekly-hypertension-journal-review/SKILL.md`。
+
+#### Mode B：高血壓文章勾選清單（寄吳志成副院長）
+
+**Trigger**: 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」「整理〇月份的高血壓文章」
+
+**頻率**: 每 2 週（雲端 routine `trig_012BqTLBWQh9Et9pjnyggm6E` 於每月 2 日、16 日 03:00 台北自動跑（cron `0 19 1,15 * *`，UTC）），亦可手動指定月份。
+
+**期刊（只有 7 本）**: NEJM、Lancet、JAMA、BMJ、Circulation、European Heart Journal、JACC。
+
+**檢索**: PubMed 三重檢索去重 —— Q1 TIAB+pdat、Q2 MeSH+pdat、Q3 Title+**edat**（補抓本月入庫但掛上月刊期者；下月號文章要剔除並註明延期）。
+
+**輸出**:
+- `handouts/09-hypertension/monthly-checklist/Hypertension_Checklist_YYYY-MM 勾選清單.md`（6 區分類、每條 `- [ ]` 可打勾、每條必附 DOI 超連結 + PMID、結尾附「檢索與篩選說明」含剔除清單）
+- **Gmail 草稿**（`to: chihchengwumd@gmail.com`）—— **只建草稿，絕不直接寄出**，不 CC 任何人，建立後回報草稿連結給 Drake 自行送出。
+- Mode B **不產 Marp、不產 PDF**。
