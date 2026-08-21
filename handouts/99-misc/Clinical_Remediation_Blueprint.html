@@ -1,0 +1,684 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>臨床補救教學藍圖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap">
+
+<style>
+:root{
+  --paper:#F1F4F3; --surface:#FFFFFF; --surface-2:#E7ECEA; --surface-3:#DCE3E0;
+  --ink:#131C1A; --ink-2:#3A4744; --muted:#6A7975; --rule:#D3DBD8; --rule-strong:#B4C0BC;
+  --teal:#155C6C; --teal-ink:#0E4451; --teal-soft:#DAE9EC; --teal-line:#8FBAC3;
+  --sienna:#8A4522; --sienna-ink:#6B3419; --sienna-soft:#F2E2D6; --sienna-line:#CFA98C;
+  --red:#992026; --red-soft:#F3DEDD; --green:#2B6741; --green-soft:#DDEBE1;
+  --shadow:0 1px 2px rgba(19,28,26,.05), 0 10px 30px -22px rgba(19,28,26,.45);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1513; --surface:#151F1D; --surface-2:#1C2825; --surface-3:#243330;
+    --ink:#E7EDEA; --ink-2:#B6C3BF; --muted:#87968F; --rule:#293733; --rule-strong:#3A4A46;
+    --teal:#77BECE; --teal-ink:#A6D8E3; --teal-soft:#10303A; --teal-line:#2F5D68;
+    --sienna:#E09A69; --sienna-ink:#EFB98E; --sienna-soft:#38220F; --sienna-line:#6B4429;
+    --red:#EA9290; --red-soft:#3A1B1C; --green:#82C398; --green-soft:#17301F;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1513; --surface:#151F1D; --surface-2:#1C2825; --surface-3:#243330;
+  --ink:#E7EDEA; --ink-2:#B6C3BF; --muted:#87968F; --rule:#293733; --rule-strong:#3A4A46;
+  --teal:#77BECE; --teal-ink:#A6D8E3; --teal-soft:#10303A; --teal-line:#2F5D68;
+  --sienna:#E09A69; --sienna-ink:#EFB98E; --sienna-soft:#38220F; --sienna-line:#6B4429;
+  --red:#EA9290; --red-soft:#3A1B1C; --green:#82C398; --green-soft:#17301F;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  font-weight:400; font-size:16.5px; line-height:1.78;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:920px; margin:0 auto; padding:0 22px 96px}
+h1,h2,h3,h4{font-family:"Noto Serif TC",Georgia,"Songti TC",serif; font-weight:700; text-wrap:balance; line-height:1.35; margin:0}
+p{margin:0}
+a{color:var(--teal)}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace; font-variant-numeric:tabular-nums}
+
+/* ---------- masthead ---------- */
+.masthead{padding:56px 0 34px; border-bottom:2px solid var(--ink)}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 14px}
+h1{font-size:clamp(30px,5.4vw,46px); margin:16px 0 0; letter-spacing:-.01em}
+.lede{margin-top:18px; font-size:18px; color:var(--ink-2); max-width:62ch}
+.lede strong{color:var(--ink); font-weight:500; box-shadow:inset 0 -.5em 0 var(--teal-soft)}
+.meta{display:flex; flex-wrap:wrap; gap:8px; margin-top:26px}
+.meta span{font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.04em; color:var(--ink-2); background:var(--surface); border:1px solid var(--rule); border-radius:2px; padding:5px 10px}
+
+/* ---------- nav ---------- */
+nav.toc{position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter:blur(8px); border-bottom:1px solid var(--rule); margin-bottom:0}
+nav.toc ol{display:flex; gap:0; list-style:none; margin:0; padding:0; overflow-x:auto; scrollbar-width:thin}
+nav.toc a{display:block; white-space:nowrap; padding:11px 14px; font-size:13px; color:var(--ink-2); text-decoration:none; border-bottom:2px solid transparent}
+nav.toc a:hover,nav.toc a:focus-visible{color:var(--ink); border-bottom-color:var(--rule-strong); background:var(--surface-2)}
+nav.toc .n{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted); margin-right:6px}
+
+/* ---------- section ---------- */
+section{padding-top:64px; scroll-margin-top:52px}
+.sec-head{display:flex; align-items:baseline; gap:14px; border-bottom:1px solid var(--rule-strong); padding-bottom:10px; margin-bottom:26px}
+.sec-num{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.1em; color:var(--muted); flex:none; padding-top:4px}
+h2{font-size:clamp(22px,3.4vw,29px)}
+.sec-sub{color:var(--muted); font-size:14px; margin-top:6px; margin-left:auto; flex:none; align-self:flex-end}
+h3{font-size:19px; margin:38px 0 12px}
+h3:first-child{margin-top:0}
+h4{font-size:15.5px; font-family:"Noto Sans TC",sans-serif; font-weight:700; margin:0 0 8px}
+.p{margin:14px 0; max-width:66ch}
+.p.wide{max-width:none}
+
+/* ---------- track chips ---------- */
+.track{display:inline-flex; align-items:center; gap:8px; font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; padding:4px 10px; border-radius:2px; font-weight:500}
+.track.a{background:var(--teal-soft); color:var(--teal-ink)}
+.track.b{background:var(--sienna-soft); color:var(--sienna-ink)}
+section.trk-a .sec-head{border-bottom-color:var(--teal)}
+section.trk-b .sec-head{border-bottom-color:var(--sienna)}
+
+/* ---------- cards ---------- */
+.card{background:var(--surface); border:1px solid var(--rule); border-radius:3px; padding:22px 24px; box-shadow:var(--shadow)}
+.grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+.grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+@media(max-width:760px){.grid2,.grid3{grid-template-columns:1fr}}
+
+/* the core paired component: teacher column vs learner column */
+.duo{display:grid; grid-template-columns:1fr 1fr; gap:0; border:1px solid var(--rule); border-radius:3px; overflow:hidden; background:var(--surface); box-shadow:var(--shadow); margin:22px 0}
+.duo > div{padding:22px 24px}
+.duo > div + div{border-left:1px solid var(--rule)}
+@media(max-width:760px){.duo{grid-template-columns:1fr} .duo > div + div{border-left:0; border-top:1px solid var(--rule)}}
+.duo-h{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; padding-bottom:10px; margin-bottom:16px; border-bottom:1px solid var(--rule); display:flex; align-items:center; gap:8px}
+.duo-h .who{font-family:"Noto Sans TC",sans-serif; font-size:14px; font-weight:700; letter-spacing:0; text-transform:none}
+.duo .teach{color:var(--teal)} .duo .learn{color:var(--sienna)}
+
+/* action list */
+ul.acts{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:15px}
+ul.acts > li{position:relative; padding-left:22px}
+ul.acts > li::before{content:"▸"; position:absolute; left:0; top:0; color:var(--rule-strong); font-size:13px}
+ul.acts b{font-weight:700; display:block; margin-bottom:2px}
+ul.acts .how{color:var(--ink-2); font-size:14.5px; display:block}
+.tag{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.06em; color:var(--muted); border:1px solid var(--rule); border-radius:2px; padding:1px 6px; margin-left:6px; white-space:nowrap; vertical-align:2px}
+
+/* plain bullets */
+ul.plain{margin:12px 0; padding-left:20px; max-width:66ch}
+ul.plain li{margin-bottom:7px}
+ol.plain{margin:12px 0; padding-left:22px; max-width:66ch}
+ol.plain li{margin-bottom:7px}
+
+/* ---------- steps ---------- */
+.steps{counter-reset:s; display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden; margin:24px 0}
+@media(max-width:820px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}}
+.step{background:var(--surface); padding:16px 16px 18px}
+.step .k{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--teal); letter-spacing:.1em; display:block; margin-bottom:7px}
+.step b{display:block; font-size:15px; margin-bottom:5px}
+.step span.d{font-size:13.5px; color:var(--ink-2); line-height:1.6}
+
+/* ---------- pipeline (deficit layers) ---------- */
+.pipe{display:flex; flex-direction:column; gap:0; margin:22px 0; border:1px solid var(--rule); border-radius:3px; overflow:hidden; background:var(--surface); box-shadow:var(--shadow)}
+.lyr{display:grid; grid-template-columns:170px 1fr 1fr; gap:18px; padding:16px 20px; align-items:start}
+.lyr + .lyr{border-top:1px solid var(--rule)}
+.lyr.hd{background:var(--surface-2); font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); padding:9px 20px}
+.lyr .nm{font-weight:700; font-size:15px}
+.lyr .nm em{display:block; font-style:normal; font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted); font-weight:400; letter-spacing:.02em; margin-top:2px}
+.lyr .t{font-size:14.5px; color:var(--ink-2)}
+@media(max-width:760px){.lyr{grid-template-columns:1fr; gap:8px} .lyr.hd{display:none} .lyr .t::before{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.1em; color:var(--muted); display:block}
+ .lyr .t1::before{content:"你會看到"} .lyr .t2::before{content:"怎麼驗證"}}
+
+/* ---------- callouts ---------- */
+.note{border-left:3px solid var(--rule-strong); background:var(--surface-2); padding:16px 20px; border-radius:0 3px 3px 0; margin:22px 0; font-size:15px}
+.note.red{border-left-color:var(--red); background:var(--red-soft)}
+.note.green{border-left-color:var(--green); background:var(--green-soft)}
+.note.teal{border-left-color:var(--teal); background:var(--teal-soft)}
+.note h4{margin-bottom:6px}
+.note.red h4{color:var(--red)}
+
+/* ---------- script (dialogue) ---------- */
+.script{margin:20px 0; border:1px solid var(--rule); border-radius:3px; background:var(--surface); overflow:hidden; box-shadow:var(--shadow)}
+.script > div{padding:18px 22px}
+.script > div + div{border-top:1px solid var(--rule)}
+.script .ph{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--teal); margin-bottom:4px}
+.script .goal{font-size:13.5px; color:var(--muted); margin-bottom:12px}
+.script q{display:block; font-family:"Noto Serif TC",serif; font-size:16.5px; line-height:1.8; color:var(--ink); quotes:"「" "」"; margin-bottom:9px}
+.script q:last-child{margin-bottom:0}
+
+/* ---------- say/don't say ---------- */
+.swap{width:100%; border-collapse:collapse; margin:20px 0; font-size:14.5px}
+.swap th{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); text-align:left; padding:8px 14px; border-bottom:1px solid var(--rule-strong); font-weight:500}
+.swap td{padding:12px 14px; border-bottom:1px solid var(--rule); vertical-align:top; line-height:1.65}
+.swap td:first-child{color:var(--muted); width:32%; text-decoration:line-through; text-decoration-color:var(--rule-strong)}
+.swap td:last-child{color:var(--ink)}
+.tblwrap{overflow-x:auto; -webkit-overflow-scrolling:touch}
+
+/* ---------- schedule ---------- */
+.sched{width:100%; border-collapse:collapse; font-size:14px; min-width:560px}
+.sched th{background:var(--surface-2); font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-align:left; padding:9px 13px; font-weight:500; border-bottom:1px solid var(--rule-strong)}
+.sched td{padding:11px 13px; border-bottom:1px solid var(--rule); vertical-align:top}
+.sched tr td:first-child{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--teal); white-space:nowrap}
+
+/* ---------- form / IRP ---------- */
+.form{background:var(--surface); border:1px solid var(--rule-strong); border-radius:3px; padding:0; box-shadow:var(--shadow); margin:24px 0}
+.form-hd{background:var(--surface-2); border-bottom:1px solid var(--rule-strong); padding:14px 22px; display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px}
+.form-hd b{font-family:"Noto Serif TC",serif; font-size:17px}
+.form-hd span{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted); letter-spacing:.08em}
+.fld{padding:14px 22px; border-bottom:1px solid var(--rule); display:grid; grid-template-columns:180px 1fr; gap:16px; align-items:start}
+.fld:last-child{border-bottom:0}
+@media(max-width:700px){.fld{grid-template-columns:1fr; gap:6px}}
+.fld .lbl{font-size:13.5px; font-weight:700; color:var(--ink-2)}
+.fld .lbl em{display:block; font-style:normal; font-weight:400; font-size:12px; color:var(--muted); margin-top:2px}
+.fld .line{border-bottom:1px dashed var(--rule-strong); min-height:1.9em; font-size:14px; color:var(--muted)}
+.fld .line.tall{min-height:4.2em}
+
+/* ---------- refs ---------- */
+.refs{list-style:none; margin:0; padding:0; counter-reset:r; font-size:14px}
+.refs li{counter-increment:r; padding:12px 0 12px 34px; border-bottom:1px solid var(--rule); position:relative; line-height:1.65; color:var(--ink-2)}
+.refs li::before{content:counter(r); position:absolute; left:0; top:12px; font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--muted)}
+.refs em{font-style:italic}
+.refs b{color:var(--ink); font-weight:500}
+
+footer{margin-top:72px; padding-top:24px; border-top:2px solid var(--ink); font-size:13px; color:var(--muted); display:flex; flex-wrap:wrap; gap:10px 26px; justify-content:space-between}
+
+:focus-visible{outline:2px solid var(--teal); outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+
+@media print{
+  nav.toc{display:none} body{background:#fff; color:#000; font-size:11pt}
+  .card,.duo,.form,.script,.pipe{box-shadow:none; break-inside:avoid}
+  section{break-before:auto; padding-top:24px}
+  .fld .line{border-bottom:1px solid #999}
+}
+</style>
+
+<nav class="toc" aria-label="章節">
+  <ol>
+    <li><a href="#quick"><span class="n">00</span>三分鐘口袋卡</a></li>
+    <li><a href="#dx"><span class="n">01</span>先診斷再補救</a></li>
+    <li><a href="#cr"><span class="n">02</span>臨床推理</a></li>
+    <li><a href="#prof"><span class="n">03</span>專業素養</a></li>
+    <li><a href="#talk"><span class="n">04</span>對話腳本</a></li>
+    <li><a href="#voice"><span class="n">05</span>學生怎麼開口</a></li>
+    <li><a href="#irp"><span class="n">06</span>IRP 模板</a></li>
+    <li><a href="#close"><span class="n">07</span>追蹤與結案</a></li>
+    <li><a href="#refs"><span class="n">08</span>文獻依據</a></li>
+  </ol>
+</nav>
+
+<div class="wrap">
+
+<header class="masthead">
+  <div class="eyebrow"><span>教學部 · 補救教學讀書會</span><span>Kalet &amp; Chou 2e · Wk1–Wk8 實作彙整</span></div>
+  <h1>臨床補救教學藍圖</h1>
+  <p class="lede">給明天早上要帶學生的主治醫師：<strong>先分清是哪一種「不行」，再決定怎麼補</strong>。本版先做兩個最弱、也最耗神的領域——臨床推理與專業素養。附學生端的求助腳本，讓學生知道怎麼把困難說出口。</p>
+  <div class="meta">
+    <span>適用：實習醫學生／PGY／住院醫師</span>
+    <span>教師閱讀時間 約 8 分鐘</span>
+    <span>口袋卡 §00 可單頁列印</span>
+    <span>版本 v1 · 2026-08-20</span>
+  </div>
+</header>
+
+<!-- ============ 00 ============ -->
+<section id="quick">
+  <div class="sec-head"><span class="sec-num">00</span><h2>三分鐘口袋卡</h2><span class="sec-sub">來不及讀完就先看這頁</span></div>
+
+  <h3>啟動補救前，先問三個前置問題</h3>
+  <p class="p">Ellaway 在第 1 章講得很直白：補救不是「有問題就自動要做的善行」，而是<strong>一個需要被辯護的專業判斷</strong>。動手之前先過這三關。</p>
+  <div class="grid3">
+    <div class="card">
+      <h4>① 這是波動還是跨線？</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">人人都有小跌小晃，那是正常學習曲線。只有<b>跨過「可接受→不可接受」的門檻</b>才該啟動補救。把正常波動當缺陷，是過度反應。</p>
+    </div>
+    <div class="card">
+      <h4>② 合乎比例嗎？</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">補救很花師資時間——臨床推理平均要 <b class="mono">29.6</b> 小時／人。誠實估算：投入的心力與成功機率相稱嗎？我們科的人力承受得住嗎？</p>
+    </div>
+    <div class="card">
+      <h4>③ 病人安全這條線呢？</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">「再給一次機會」的善意有時會被病安蓋過。若已涉及安全或誠信紅線，直接走 §03 的升級路徑，不要在床邊自己扛。</p>
+    </div>
+  </div>
+
+  <h3>八步驟：貼在白袍口袋的流程</h3>
+  <div class="steps">
+    <div class="step"><span class="k">STEP 1</span><b>及早察覺</b><span class="d">別等期末評量。「怪怪的感覺」就值得記下來。</span></div>
+    <div class="step"><span class="k">STEP 2</span><b>直接觀察</b><span class="d">親自看一次病史、理學、報告病例。要具體事例，不要印象。</span></div>
+    <div class="step"><span class="k">STEP 3</span><b>診斷缺失類型</b><span class="d">知識／推理／技能／專業素養／溝通／時間管理／身心健康。</span></div>
+    <div class="step"><span class="k">STEP 4</span><b>回饋並取得認同</b><span class="d">說清楚、去汙名、共同定義問題。沒有 buy-in 就沒有改變。</span></div>
+    <div class="step"><span class="k">STEP 5</span><b>個別化學習計畫</b><span class="d">具體、可測量、有時程。小而明確勝過大而空泛。</span></div>
+    <div class="step"><span class="k">STEP 6</span><b>刻意練習＋回饋</b><span class="d">練習→回饋→反思→再練習。這是補救的引擎。</span></div>
+    <div class="step"><span class="k">STEP 7</span><b>獨立再評估</b><span class="d">換一位不帶偏見的老師、換一個情境驗證，避開月暈效應。</span></div>
+    <div class="step"><span class="k">STEP 8</span><b>知道何時升級</b><span class="d">留紀錄。成效不足或涉安全／專業紅線時，交給正式方案。</span></div>
+  </div>
+
+  <div class="note teal">
+    <h4>做完這一輪，你手上就有可交接的材料</h4>
+    <p>而不只是一句「他不太行」。這句話沒辦法交班、沒辦法討論、也保護不了任何人——包括你自己。</p>
+  </div>
+</section>
+
+<!-- ============ 01 ============ -->
+<section id="dx">
+  <div class="sec-head"><span class="sec-num">01</span><h2>先診斷，再補救</h2><span class="sec-sub">為什麼分類這一步不能跳</span></div>
+
+  <p class="p">科羅拉多大學 2006–2012 年轉介補救的 151 名學員資料（涵蓋醫學生到主治）給了幾個必須記住的數字：</p>
+
+  <div class="grid2">
+    <div class="card">
+      <h4>多數人不只一種缺失</h4>
+      <p style="font-size:14.5px;color:var(--ink-2);margin-bottom:14px">最常見的三類是<b>醫學知識、臨床推理、專業素養</b>。訓練層級愈高，專業素養缺失的比例愈高；醫學生則較多身心健康議題。</p>
+      <h4>專業素養是唯一的預測因子</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">在所有缺失類型中，<b>只有專業素養不佳能預測「被留察（probation）」</b>，而留察又預測其他負面結果。這是本藍圖把它列為優先軌道的理由。</p>
+    </div>
+    <div class="card">
+      <h4>投入是有回報的</h4>
+      <p style="font-size:14.5px;color:var(--ink-2);margin-bottom:14px">每多投入 <b class="mono">1 小時</b>師生面對面時間，留察機率降 <b class="mono">3.1%</b>、所有負面結果降 <b class="mono">2.6%</b>。</p>
+      <h4>結構化補救確實有效</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">十步驟臨床推理補救計畫用在 53 位有推理缺失的學員身上，<b class="mono">96%</b> 通過再評估、多數順利完訓；代價是平均每人約 <b class="mono">30</b> 小時教師時間。</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <h4>但要誠實：補救常「有效卻不持久」</h4>
+    <p>31 篇研究的系統性回顧指出，多數補救介入只為了「通過下一次重考」而設計，缺對照組、缺概念架構、缺長期追蹤；少數有長期追蹤的研究顯示<b>改善往往無法維持</b>。所以補救的目標不該是「過關」，而是真正的行為改變——這也是為什麼 §07 的追蹤與結案不能省。</p>
+  </div>
+
+  <h3>三分鐘鑑別：把「他不行」拆開</h3>
+  <div class="tblwrap">
+  <table class="sched">
+    <thead><tr><th>缺失類型</th><th>典型現場線索</th><th>補救難度</th><th>本藍圖</th></tr></thead>
+    <tbody>
+      <tr><td>知識缺口</td><td>特定領域整片空白；紙筆或口試就看得出來</td><td>較易，可補課</td><td>§02 第 1 層</td></tr>
+      <tr><td>臨床推理</td><td>資料齊全卻結論錯；反覆過早收斂</td><td>難、最耗師資</td><td>§02 主軌</td></tr>
+      <tr><td>臨床技能</td><td>病史／理學漏關鍵步驟</td><td>較易，直接觀察＋示範</td><td>§02 第 2 層</td></tr>
+      <tr><td>溝通與人際</td><td>「態度沒問題、就是講不好」</td><td>難，需錄影回看</td><td>Wk8 另冊</td></tr>
+      <tr><td>專業素養</td><td>可靠性、責任、界線、誠信出問題</td><td>最難，尤其無病識感者</td><td>§03 主軌</td></tr>
+      <tr><td>身心健康</td><td>缺勤、情緒、功能明顯下滑</td><td>最耗時，需轉介</td><td>§03 紅線</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============ 02 ============ -->
+<section id="cr" class="trk-a">
+  <div class="sec-head"><span class="sec-num">02</span><h2>軌道 A：臨床推理</h2><span class="sec-sub"><span class="track a">Clinical Reasoning</span></span></div>
+
+  <p class="p">「這個住院醫師常誤診」可能有五種完全不同的根因。<b>不定位到層，補救就會亂投藥。</b>診斷推理是一條管線——愈上游壞掉，下游全錯；先找出哪一節漏水。</p>
+
+  <div class="pipe">
+    <div class="lyr hd"><div>推理管線</div><div>你會看到什麼</div><div>怎麼驗證</div></div>
+    <div class="lyr"><div class="nm">1 · 知識缺口<em>knowledge gap</em></div><div class="t t1">知識零散、不完整，特定領域整片空洞</div><div class="t t2">口試三個該領域的核心問題；看他能不能列出常見原因</div></div>
+    <div class="lyr"><div class="nm">2 · 資料蒐集<em>data gathering</em></div><div class="t t1">病史／理學不完整，漏掉關鍵線索——推理的「原料」就錯了</div><div class="t t2">親自跟一次床邊，對照他問了什麼、漏了什麼</div></div>
+    <div class="lyr"><div class="nm">3 · 問題表徵<em>problem representation</em></div><div class="t t1">無法把病人濃縮成一句摘要，抓不到鑑別方向</div><div class="t t2">要求一句話：「急性／亞急性、發燒、單關節腫的中年男性」——說不出來就是這一層</div></div>
+    <div class="lyr"><div class="nm">4 · 疾病腳本<em>illness script</em></div><div class="t t1">知識沒組織成可用的腳本，臨床當下提取不出來</div><div class="t t2">問「這個病典型長什麼樣？誰會得？怎麼發作？」看他能不能講出完整腳本</div></div>
+    <div class="lyr"><div class="nm">5 · 推理歷程<em>reasoning process</em></div><div class="t t1">過早收斂、錨定、確認偏誤——資料齊全卻鎖死在第一個答案</div><div class="t t2">放聲思考（think-aloud）：讓他邊做邊說，你才看得到管線哪一節漏水</div></div>
+  </div>
+
+  <h3>15 分鐘診斷會談：放聲思考的問句</h3>
+  <p class="p">拿一份他經手過的病歷，坐下來，照這個順序問。不要打斷、不要糾正，先聽完——你要的是他的思考歷程，不是正確答案。</p>
+  <div class="script">
+    <div>
+      <div class="ph">1 · 問題表徵</div>
+      <q>用一句話告訴我這個病人是誰、發生了什麼事。</q>
+      <q>如果只能講三個關鍵字，你會挑哪三個？</q>
+    </div>
+    <div>
+      <div class="ph">2 · 鑑別的產生</div>
+      <q>你當下腦中跳出來的前三個可能是什麼？依序講。</q>
+      <q>還有什麼是「不能漏掉、漏掉會出事」的？</q>
+    </div>
+    <div>
+      <div class="ph">3 · 證據的權重</div>
+      <q>哪一項發現最支持你的第一名？哪一項最不支持？</q>
+      <q>如果我告訴你這個檢查是正常的，你的排序會怎麼變？</q>
+    </div>
+    <div>
+      <div class="ph">4 · 後設認知</div>
+      <q>你在哪一個時間點就決定了答案？那之後你還有再想別的可能嗎？</q>
+      <q>回頭看，你會希望自己當時多做哪一件事？</q>
+    </div>
+  </div>
+
+  <h3>兩邊各自要做什麼</h3>
+  <div class="duo">
+    <div>
+      <div class="duo-h teach"><span>Attending</span><span class="who">主治醫師可以做的事</span></div>
+      <ul class="acts">
+        <li><b>每天一個 one-liner<span class="tag">2 min</span></b><span class="how">查房時固定要他用一句話總結一位新病人。連續兩週，這是練「問題表徵」最省時的方法。</span></li>
+        <li><b>放聲思考跟一次<span class="tag">15 min／週</span></b><span class="how">看一個病人，全程要他邊想邊說。你只記錄，不糾正。事後才回饋。</span></li>
+        <li><b>教「診斷暫停」<span class="tag">1 min</span></b><span class="how">在下 order 前問三句：我還漏了什麼？有什麼證據不支持我？如果我錯了，最可能錯在哪？</span></li>
+        <li><b>做 must-not-miss 清單<span class="tag">10 min</span></b><span class="how">針對他負責的三個常見主訴，一起列出「絕對不能漏」的鑑別，貼在他手機備忘錄。</span></li>
+        <li><b>給 worked example<span class="tag">15 min</span></b><span class="how">你自己示範一次從線索走到診斷的完整過程，再讓他仿作同類型病例，比對兩者差在哪一步。</span></li>
+        <li><b>降低情境複雜度<span class="tag">初期</span></b><span class="how">補救初期先給單純病人、拆解步驟；精熟後再把真實情境的干擾加回來。</span></li>
+        <li><b>回饋要有座標<span class="tag">每次</span></b><span class="how">說「你在第 3 層問題表徵這裡卡住」，不要說「你要多讀書」。</span></li>
+        <li><b>把它掛在病安底下<span class="tag">對外</span></b><span class="how">向科內爭取資源時，說這是在預防診斷錯誤，不是在幫某個人補課——比較容易得到支持。</span></li>
+      </ul>
+    </div>
+    <div>
+      <div class="duo-h learn"><span>Learner</span><span class="who">學生可以做的事</span></div>
+      <ul class="acts">
+        <li><b>每天寫一句 one-liner<span class="tag">3 min</span></b><span class="how">收一個病人就寫一句：年齡＋急緩＋核心症候群。寫完拿給老師看，問「我抓對重點了嗎」。</span></li>
+        <li><b>寫下前三名，再寫為什麼<span class="tag">5 min</span></b><span class="how">不是只寫診斷，要寫「支持的證據／反對的證據」各一條。事後回頭看自己錯在哪。</span></li>
+        <li><b>主動要求被聽<span class="tag">每週</span></b><span class="how">跟老師說：「可以請您聽我想一次嗎？我想知道我卡在哪。」這句話比等老師發現快得多。</span></li>
+        <li><b>建自己的疾病腳本本<span class="tag">持續</span></b><span class="how">一頁一個病：典型的人、典型的發作、典型的檢查、最容易被誤認成什麼。用寫的，不要只用讀的。</span></li>
+        <li><b>用提取取代重讀<span class="tag">持續</span></b><span class="how">闔上書自己講一遍，再打開對答案。間隔幾天再來一次——比反覆重讀牢固得多。</span></li>
+        <li><b>追每一個結局<span class="tag">出院後</span></b><span class="how">病人最後診斷是什麼？跟你當初想的差在哪？沒有回饋迴路，推理不會進步。</span></li>
+        <li><b>誠實回報你猜的<span class="tag">當下</span></b><span class="how">不要只講你有把握的。把不確定講出來，老師才有辦法修正你——藏起來就沒人幫得了你。</span></li>
+        <li><b>兩週後自評一次<span class="tag">第 14 天</span></b><span class="how">對照計畫上的目標，自己先打分數再跟老師對。落差本身就是最有用的資訊。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>兩週刻意練習排程（可直接抄進 IRP）</h3>
+  <div class="tblwrap">
+  <table class="sched">
+    <thead><tr><th>時間</th><th>做什麼</th><th>誰主導</th><th>產出</th></tr></thead>
+    <tbody>
+      <tr><td>Day 0</td><td>放聲思考診斷會談＋回饋對話（§04）</td><td>主治</td><td>定位到哪一層＋雙方簽名的 IRP</td></tr>
+      <tr><td>Day 1–14</td><td>每日 one-liner；每日前三名鑑別＋各一條正反證據</td><td>學生</td><td>每日一頁筆記</td></tr>
+      <tr><td>Day 3</td><td>worked example 示範＋仿作</td><td>主治</td><td>比對表：專家與我差在哪一步</td></tr>
+      <tr><td>Day 7</td><td>第二次放聲思考；針對第 5 層練診斷暫停</td><td>主治</td><td>中期回饋，必要時改目標</td></tr>
+      <tr><td>Day 10</td><td>三個主訴的 must-not-miss 清單完成</td><td>學生</td><td>口袋清單</td></tr>
+      <tr><td>Day 14</td><td><b>換一位老師</b>做獨立再評估</td><td>第三方</td><td>過關／延長／升級的決定</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="note green">
+    <h4>怎麼算修好了</h4>
+    <p>不是「他這次答對了」，而是：<b>能在沒有提示下說出可用的 one-liner</b>、<b>能主動提出至少一個不支持自己首選的證據</b>、<b>能列出該主訴的 must-not-miss</b>，而且是在<b>換人、換情境</b>下做到。三項都達成才結案。</p>
+  </div>
+</section>
+
+<!-- ============ 03 ============ -->
+<section id="prof" class="trk-b">
+  <div class="sec-head"><span class="sec-num">03</span><h2>軌道 B：專業素養</h2><span class="sec-sub"><span class="track b">Professionalism</span></span></div>
+
+  <p class="p">這是最難的一塊，難在兩件事：一、它常被講成人格評語（「態度不好」），學員無從改起；二、<b>最難補救的是缺乏病識感的人</b>——他不覺得自己有問題。所以順序必須是：先具體化行為 → 再建立病識感 → 才談改變。</p>
+
+  <h3>第一步：把「態度不好」換成一個可觀察的行為</h3>
+  <div class="tblwrap">
+  <table class="sched">
+    <thead><tr><th>類別</th><th>可觀察的行為（要能舉出時間地點）</th><th>先想想的系統因素</th></tr></thead>
+    <tbody>
+      <tr><td>可靠性</td><td>遲到、交班未到、call 不回、記錄拖延</td><td>班表過載？通訊管道混亂？</td></tr>
+      <tr><td>責任承擔</td><td>把錯歸給別人、事情沒接完就走、不追結局</td><td>職責邊界從沒講清楚？</td></tr>
+      <tr><td>尊重與界線</td><td>對護理／技術同仁言語不佳、打斷病人、不當肢體或言語界線</td><td>科內文化本身就這樣？</td></tr>
+      <tr><td>誠信</td><td>病歷寫了沒做的事、代簽、抄襲、隱瞞失誤</td><td>——這一格沒有系統藉口，見下方紅線</td></tr>
+      <tr><td>自我覺察</td><td>對回饋防衛、反覆同一錯誤、自評與他評落差極大</td><td>過去給的回饋是否從未具體？</td></tr>
+      <tr><td>求助行為</td><td>該問不問、硬撐、超出能力範圍仍不通報</td><td>問了會被罵的環境？</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="note">
+    <h4>先檢視系統，再檢視人</h4>
+    <p>公平這一章提醒我們：辨識「困難學員」高度依賴主觀評分與敘述性評語，而那正是偏誤最容易滲入的地方——不同背景學員被用不同詞彙描述，看似微小的差距經層層加權會造成很大落差。動手貼標籤之前，先誠實問一次：<b>我們的評量與環境哪裡出了問題？</b>把「不同」誤判成「不足」，是把系統的問題扣在學員頭上。</p>
+  </div>
+
+  <h3>第二步：分岔點——他知道自己有問題嗎？</h3>
+  <div class="grid2">
+    <div class="card" style="border-left:3px solid var(--green)">
+      <h4>有病識感 · 走教練路線</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">他自己也覺得不對勁。這條路成功率高：直接進入具體行為的刻意練習，用成長語言，強項導向，把方向盤交給他。多數可以在四到六週內看到改變。</p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--sienna)">
+      <h4>無病識感 · 先建立覺察</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">他覺得是別人的問題。<b>不要直接進入練習</b>——會全部反彈。先用具體事例、多源回饋（含護理與同儕）、必要時錄影回看，讓他自己看見落差。這一步做不到，後面全部無效。</p>
+    </div>
+  </div>
+
+  <h3>兩邊各自要做什麼</h3>
+  <div class="duo">
+    <div>
+      <div class="duo-h teach"><span>Attending</span><span class="who">主治醫師可以做的事</span></div>
+      <ul class="acts">
+        <li><b>先記事例，不記評語<span class="tag">當下</span></b><span class="how">「8/12 交班會議晚到 20 分鐘，未事先告知」——寫得下時間地點的才叫證據。「態度差」不是。</span></li>
+        <li><b>私下、儘早、當面說<span class="tag">48 hr 內</span></b><span class="how">不要在眾人前處理，不要等到期末評量。愈晚說，可補救的時間愈短，也愈像秋後算帳。</span></li>
+        <li><b>用多源回饋建立病識感<span class="tag">1–2 週</span></b><span class="how">收集護理、技術同仁、同儕的具體觀察（去識別化）。第三方的一致訊號比你一個人講十次有效。</span></li>
+        <li><b>把期待寫成白紙黑字<span class="tag">30 min</span></b><span class="how">明確標準＋書面計畫＋時程。專業素養這條軌道特別需要程序保障——保護學員，也保護你。</span></li>
+        <li><b>用行為契約，不用道德訓話<span class="tag">IRP</span></b><span class="how">「未來四週交班全到、遲到需事前告知」是可驗證的。「請你更有責任感」不是。</span></li>
+        <li><b>模擬情境練難場面<span class="tag">45 min</span></b><span class="how">針對衝突、道歉、通報失誤這些具體場面做角色扮演＋立即回饋，比空談有效。</span></li>
+        <li><b>安排第三方再評估<span class="tag">4–6 週</span></b><span class="how">你已經有先入之見了。換一位不涉入的老師在新情境獨立看一次。</span></li>
+        <li><b>不確定就升級，別自己扛<span class="tag">隨時</span></b><span class="how">專業素養缺失是唯一能預測留察與後續負面結果的因子。留紀錄、往上報，不是背叛學生，是保護所有人。</span></li>
+      </ul>
+    </div>
+    <div>
+      <div class="duo-h learn"><span>Learner</span><span class="who">學生可以做的事</span></div>
+      <ul class="acts">
+        <li><b>先聽完，不要當場辯解<span class="tag">當下</span></b><span class="how">你可以說：「我需要一點時間消化，可以明天再跟您談嗎？」這是成熟，不是逃避。防衛是可預期的情緒反應，但別讓它替你回話。</span></li>
+        <li><b>把回饋要到具體<span class="tag">當下</span></b><span class="how">「可以請您給我一個具體的例子嗎？那個場合我可以怎麼做比較好？」模糊的回饋你改不了，你有權要求座標。</span></li>
+        <li><b>自己複述一次<span class="tag">當下</span></b><span class="how">「所以我理解的是……我這樣說對嗎？」確保你和老師談的是同一件事。</span></li>
+        <li><b>挑一件事先改<span class="tag">兩週</span></b><span class="how">不要一次改五件。挑最容易驗證的那一件（例如交班準時），連續做到兩週，先把信任存回來。</span></li>
+        <li><b>主動回報進度<span class="tag">每週</span></b><span class="how">不要等老師來查。每週一則訊息：「這週交班五次全到，其中一次提前告知會晚到。」讓改變被看見。</span></li>
+        <li><b>問三個人<span class="tag">一次</span></b><span class="how">找一位護理同仁、一位同儕、一位你信任的學長，問「跟我共事最讓你困擾的是什麼」。這是最快的病識感來源。</span></li>
+        <li><b>身心不行就要說<span class="tag">隨時</span></b><span class="how">睡眠、情緒、家庭壓力會直接表現成「專業素養問題」。這不是藉口，是需要被處理的原因。說出來才有人能幫。</span></li>
+        <li><b>知道你的程序權利<span class="tag">全程</span></b><span class="how">你有權知道明確標準、拿到書面計畫、由獨立第三方再評估、以及申訴。這些不是恩惠。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="note red">
+    <h4>紅線：以下情況不做床邊補救，直接升級</h4>
+    <ul class="plain" style="margin-bottom:0">
+      <li><b>病人安全已受威脅</b>——超出能力範圍仍不通報、明知有害仍執行。</li>
+      <li><b>誠信造假</b>——病歷記載未執行之事、代簽、竄改、隱匿不良事件。</li>
+      <li><b>騷擾或界線違反</b>——對病人、同仁的言語或肢體界線問題。</li>
+      <li><b>物質使用或明顯身心失能</b>——這是健康問題，需要的是轉介與治療，不是補救。</li>
+      <li><b>已補救但無改善且無病識感</b>——補救有時效邊界，終點只有兩個：回到常軌，或誠實而有尊嚴地退出。</li>
+    </ul>
+  </div>
+
+  <div class="note green">
+    <h4>怎麼算修好了</h4>
+    <p>專業素養不能只看自評問卷——<b>自認為進步和行為真的改變，常是兩回事</b>。要看：連續四到六週的<b>可觀察行為紀錄</b>、<b>第二次多源回饋</b>是否轉向、以及在<b>新科別／新團隊</b>是否維持。三項齊備才結案。</p>
+  </div>
+</section>
+
+<!-- ============ 04 ============ -->
+<section id="talk">
+  <div class="sec-head"><span class="sec-num">04</span><h2>那一場對話怎麼開</h2><span class="sec-sub">回饋沒被接受，後面全是白做</span></div>
+
+  <p class="p">被轉介補救的學員會同時承受三種衝擊：<b>身分威脅</b>（我是不是不夠格當醫師）、<b>羞恥與汙名</b>（怕被同儕看見）、以及隨之而來的<b>防衛與否認</b>。這些不是「態度不佳」，是可預期的心理歷程。把防衛誤讀成抗拒，關係就會斷，回饋就失效。<strong>先接住情緒，再處理能力。</strong></p>
+
+  <div class="script">
+    <div>
+      <div class="ph">階段 1 · 建立關係 Relationship</div>
+      <div class="goal">目標：讓他知道你為什麼找他，以及這不是懲罰。約 3 分鐘。</div>
+      <q>我找你不是因為出了什麼大事，是因為我最近直接看了你幾次照顧病人，有些觀察想跟你談，也想聽你自己的感覺。</q>
+      <q>我們今天談的目的是幫你把某一塊補起來，不是評分，也不會傳出這個房間以外。</q>
+    </div>
+    <div>
+      <div class="ph">階段 2 · 探索反應 Reaction</div>
+      <div class="goal">目標：先讓他說。不要急著給資料。約 5 分鐘。</div>
+      <q>你自己覺得這段時間哪裡順、哪裡卡？</q>
+      <q>如果讓你挑一件最想變強的事，會是什麼？</q>
+      <q>（給完觀察後）聽到這些，你的第一個反應是什麼？跟你自己的感覺差多少？</q>
+    </div>
+    <div>
+      <div class="ph">階段 3 · 探索內容 Content</div>
+      <div class="goal">目標：把觀察攤開，共同定義問題。用事例，不用形容詞。約 10 分鐘。</div>
+      <q>我舉三個具體的場合。上週三那位下壁梗塞的病人，你在還沒聽完就決定了方向——我想跟你一起回看那個當下你在想什麼。</q>
+      <q>我的假設是，問題不在你知識不夠，而在你太早收斂。你覺得這個說法貼近事實嗎？哪裡不對可以直接告訴我。</q>
+    </div>
+    <div>
+      <div class="ph">階段 4 · 共擬行動 Coach</div>
+      <div class="goal">目標：把方向盤交回去。目標由他說出口，你只負責讓它具體。約 10 分鐘。</div>
+      <q>接下來兩週，你想先練哪一件？</q>
+      <q>怎麼樣我們兩個都會同意「這件事你做到了」？——把它寫下來。</q>
+      <q>我這邊要提供什麼你才做得到？時間、病人數、還是我跟你一起跟床？</q>
+      <q>兩週後我請另一位老師獨立看一次，這樣結果對你比較公平。可以嗎？</q>
+    </div>
+  </div>
+
+  <h3>三句話，換個說法就完全不同</h3>
+  <div class="tblwrap">
+  <table class="swap">
+    <thead><tr><th>不要說</th><th>改說</th></tr></thead>
+    <tbody>
+      <tr><td>你的臨床推理有問題，要多讀書。</td><td>你的知識是夠的，卡住的是把病人濃縮成一句話這一步。我們兩週就練這一件。</td></tr>
+      <tr><td>大家都覺得你態度不太好。</td><td>我手上有三個具體場合，我一個一個講給你聽，你聽完告訴我你的版本。</td></tr>
+      <tr><td>你這樣下去會有問題喔。</td><td>我要把我們今天講的寫成一份計畫，包含目標、時程、和「怎樣算做到」。兩週後由另一位老師獨立評，結果會比較公平。</td></tr>
+      <tr><td>你要對自己有信心一點。</td><td>你在做操作的時候其實很穩，我想把那個穩，搬到你講病人的時候。</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============ 05 ============ -->
+<section id="voice">
+  <div class="sec-head"><span class="sec-num">05</span><h2>學生怎麼開口</h2><span class="sec-sub">這一頁請直接轉給學生</span></div>
+
+  <p class="p">補救不是「對你做的事」，是「跟你一起做的事」。<b>你怎麼理解與感受這段歷程，直接決定它成不成功。</b>而其中你能主導的最大一件事，就是主動把困難說出口——愈早說，可以補救的時間愈長，代價也愈小。</p>
+
+  <h3>為什麼你不想開口，以及為什麼還是要說</h3>
+  <div class="grid3">
+    <div class="card"><h4>怕被貼標籤</h4><p style="font-size:14.5px;color:var(--ink-2)">「說了會不會被記起來？」——愈晚說，問題只會從「需要幫忙」變成「需要補救」。主動求助在紀錄上的樣子，和被動被發現完全不同。</p></div>
+    <div class="card"><h4>怕不夠格</h4><p style="font-size:14.5px;color:var(--ink-2)">卡住不代表不適合當醫師。多數被轉介的人不只一種困難，而其中大部分是可以修好的——前提是要先知道卡在哪一層。</p></div>
+    <div class="card"><h4>覺得沒人有空</h4><p style="font-size:14.5px;color:var(--ink-2)">老師確實忙。但一次 15 分鐘、目標明確的請求，比一句「老師我好像怪怪的」容易被答應太多了。所以請照下面的公式講。</p></div>
+  </div>
+
+  <h3>求助三句話公式</h3>
+  <div class="script">
+    <div>
+      <div class="ph">句 1 · 情境</div>
+      <div class="goal">具體到哪一天、哪個病人、哪一個步驟。不要講「最近」。</div>
+      <q>老師，昨天 12 床那個腹痛的病人，我報 case 的時候被您問到就答不出來。</q>
+    </div>
+    <div>
+      <div class="ph">句 2 · 我自己猜卡在哪</div>
+      <div class="goal">用 §02 的分層講。講不出來就說「我不確定是知識不夠還是想的方法不對」——這句本身就很有用。</div>
+      <q>我覺得我不是不知道那些病，是資料都在但我串不起來，不知道要先看哪一個。</q>
+    </div>
+    <div>
+      <div class="ph">句 3 · 我想要什麼</div>
+      <div class="goal">給老師一個可以答應的具體請求，包含要多久。</div>
+      <q>可以請您花 15 分鐘聽我想一次嗎？我想知道我是卡在哪一步。</q>
+    </div>
+  </div>
+
+  <h3>六種常見情況的說法</h3>
+  <div class="tblwrap">
+  <table class="swap">
+    <thead><tr><th>不要說（老師沒辦法幫你）</th><th>改說（老師知道怎麼幫）</th></tr></thead>
+    <tbody>
+      <tr><td>老師我覺得我最近狀況不太好。</td><td>老師，我這兩週報 case 有三次都抓錯重點。可以請您聽我想一次，看我是卡在哪嗎？</td></tr>
+      <tr><td>我看不懂心電圖。</td><td>我可以認出 STEMI，但軸偏移和傳導阻滯我一直分不清。可以給我五份片子讓我練，然後對答案嗎？</td></tr>
+      <tr><td>我不知道要做什麼。</td><td>我不確定我這個層級應該自己決定到哪裡、什麼時候該打給您。可以請您幫我畫一條線嗎？</td></tr>
+      <tr><td>（被念之後沉默）</td><td>我需要一點時間消化。可以請您給我一個具體的例子嗎？那個場合我可以怎麼做比較好？</td></tr>
+      <tr><td>（家裡有事但硬撐）</td><td>我最近家裡有狀況，睡眠很差，我擔心會影響病人。可以跟您談排班或需要協助的部分嗎？</td></tr>
+      <tr><td>（覺得評語不公平但不說）</td><td>我對這次的評語有不同的理解，可以約時間談嗎？我想知道具體是哪些場合，也想說明我的版本。</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="note teal">
+    <h4>你在這個過程裡的權利</h4>
+    <ul class="plain" style="margin-bottom:0">
+      <li><b>明確的標準</b>——你有權知道「怎樣算做到」，而不是模糊的期待。</li>
+      <li><b>書面的計畫</b>——目標、時程、資源、誰負責，應該寫下來，你也應該拿到一份。</li>
+      <li><b>具體的回饋</b>——你可以要求老師舉出時間、地點、具體行為，而不是人格評語。</li>
+      <li><b>獨立的再評估</b>——由不涉入的第三方在新情境評，避免月暈效應。</li>
+      <li><b>隱私與尊嚴</b>——補救過程應該私下進行，不該被公開標籤。</li>
+      <li><b>申訴與復核</b>——你有權表達不同意見並要求複核。</li>
+    </ul>
+  </div>
+
+  <div class="form">
+    <div class="form-hd"><b>「我卡住了」一頁自陳表</b><span>填完 5 分鐘 · 帶去找老師</span></div>
+    <div class="fld"><div class="lbl">最近三次讓我不安的場合<em>寫日期＋病人＋發生什麼</em></div><div class="line tall"></div></div>
+    <div class="fld"><div class="lbl">我猜我卡在哪一層<em>知識／資料蒐集／一句話總結／疾病腳本／想的方法／不確定</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">我已經試過什麼<em>以及為什麼沒有用</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">我希望老師提供什麼<em>要多久、要幾次、要什麼形式</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">有沒有跟能力無關但正在影響我的事<em>睡眠、情緒、家庭、班表——可以不寫細節，寫「有，想私下談」也可以</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">兩週後，我希望自己能做到<em>一件就好，要能驗證</em></div><div class="line"></div></div>
+  </div>
+</section>
+
+<!-- ============ 06 ============ -->
+<section id="irp">
+  <div class="sec-head"><span class="sec-num">06</span><h2>個別化補救計畫</h2><span class="sec-sub">IRP · 一頁、可列印、雙方各執一份</span></div>
+
+  <p class="p">計畫要小而明確，不要大而空泛。<b>如果一份 IRP 上的目標無法在兩週內被第三方驗證，它就寫得太大了。</b></p>
+
+  <div class="form">
+    <div class="form-hd"><b>個別化補救計畫 Individualized Remediation Plan</b><span>科別 ______ · 起始日 ______ · 版本 ______</span></div>
+    <div class="fld"><div class="lbl">學員／層級</div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">主責教師 · 獨立評估者<em>再評估者必須不是主責教師</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">觸發事由<em>具體事例，含日期，至少兩件</em></div><div class="line tall"></div></div>
+    <div class="fld"><div class="lbl">缺失定位<em>臨床推理第 __ 層／專業素養 __ 類別；可複選</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">學員的理解<em>由學員自己寫。沒有這一格就沒有 buy-in</em></div><div class="line tall"></div></div>
+    <div class="fld"><div class="lbl">目標 1<em>可測量、兩週內可驗證</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">目標 2<em>最多兩個目標</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">刻意練習安排<em>做什麼、多久一次、誰帶</em></div><div class="line tall"></div></div>
+    <div class="fld"><div class="lbl">教師需投入的時數<em>誠實估算，並取得科內同意</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">「怎樣算做到」<em>雙方共同定義的通過標準</em></div><div class="line tall"></div></div>
+    <div class="fld"><div class="lbl">再評估日期與方式<em>換人、換情境</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">升級條件<em>什麼情況下交給正式方案</em></div><div class="line"></div></div>
+    <div class="fld"><div class="lbl">簽名<em>學員 ______________ 教師 ______________ 日期 ______</em></div><div class="line"></div></div>
+  </div>
+</section>
+
+<!-- ============ 07 ============ -->
+<section id="close">
+  <div class="sec-head"><span class="sec-num">07</span><h2>追蹤、結案與升級</h2><span class="sec-sub">補救有時效邊界</span></div>
+
+  <div class="grid3">
+    <div class="card" style="border-left:3px solid var(--green)">
+      <h4>過關</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">三項標準（§02／§03 綠框）在<b>換人、換情境</b>下達成。結案要寫下來，並排一次 <b>4–8 週後的追蹤</b>——證據顯示補救的改善常無法維持，不追蹤就不知道。</p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--rule-strong)">
+      <h4>延長</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">有進步但未達標。<b>只延長一次</b>，並且要重新檢視：是目標訂錯層？還是投入的時數根本不夠？延長不等於重來一遍同樣的東西。</p>
+    </div>
+    <div class="card" style="border-left:3px solid var(--red)">
+      <h4>升級</h4>
+      <p style="font-size:14.5px;color:var(--ink-2)">無進步、無病識感，或觸及紅線。交給正式方案，附上你所有的書面紀錄。<b>該當掉的就該當掉</b>——不斷給機會可能背叛社會契約與病人安全。</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <h4>給科內的三件事</h4>
+    <ol class="plain" style="margin-bottom:0">
+      <li><b>把流程寫成共識</b>：誰辨識、誰負責、何時再評、何時升級——避免每次重造輪子。</li>
+      <li><b>把時數認列成教學任務</b>：補救很花師資時間（推理與身心健康最耗），它不該是義務加班。</li>
+      <li><b>建去識別化案例庫</b>：每季回顧，累積成可交代的成果，也才有資格說「我們的補救有沒有效」。</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 08 ============ -->
+<section id="refs">
+  <div class="sec-head"><span class="sec-num">08</span><h2>文獻依據</h2><span class="sec-sub">本藍圖每一個數字的出處</span></div>
+
+  <p class="p">主教材：Kalet A, Chou CL (eds). <em>Remediation in Medical Education: A Mid-Course Correction</em>. 2nd ed. Springer; 2023. ISBN 978-3-031-32404-8。本藍圖對應讀書會 Wk1–Wk8（第 1–8 章）。以下文獻均經 PubMed 查證。</p>
+
+  <ol class="refs">
+    <li>Ellaway RH. Remediation: The Measure of a Profession. In: <em>Remediation in Medical Education</em>, 2e. Springer; 2023: Ch.1. — <b>§00 三個前置問題、§07 時效邊界</b></li>
+    <li>Guerrasio J, Garrity MJ, Aagaard EM. Learner deficits and academic outcomes of medical students, residents, fellows, and attending physicians referred to a remediation program, 2006–2012. <em>Acad Med.</em> 2014;89(2):352–358. PMID 24362382 — <b>§01 全部數字、專業素養為唯一預測因子</b></li>
+    <li>Guerrasio J, Aagaard EM. Methods and outcomes for the remediation of clinical reasoning. <em>J Gen Intern Med.</em> 2014;29(12):1607–1614. PMID 25092006 — <b>§01 53 人 96% 通過、約 30 小時師資</b></li>
+    <li>Hauer KE, et al. Remediation of the deficiencies of physicians across the continuum from medical school to practice. <em>Acad Med.</em> 2009;84(12):1822–1832. PMID 19940595 — <b>§00 五步驟補救循環的原型</b></li>
+    <li>Cleland J, et al. The remediation challenge: theoretical and methodological insights from a systematic review. <em>Med Educ.</em> 2013;47(3):242–251. PMID 23398010 — <b>§01「有效卻不持久」、§07 追蹤</b></li>
+    <li>Chou CL, Kalet A, Costa MJ, Cleland J, Winston K. Guidelines: The dos, don'ts and don't knows of remediation in medical education. <em>Perspect Med Educ.</em> 2019;8(6):322–338. PMID 31696439 — <b>§04 回饋原則、§05 學員權利</b></li>
+    <li>Ericsson KA. Deliberate practice and the acquisition and maintenance of expert performance in medicine and related domains. <em>Acad Med.</em> 2004;79(10 Suppl):S70–S81. PMID 15383395 — <b>§02 刻意練習</b></li>
+    <li>Swan Sein A, et al. Identifying and Supporting Students to Prevent USMLE Step 1 Failures When Testing Follows Clerkships. <em>Acad Med.</em> 2020;95(9):1338–1345. PMID 32134786 — <b>§00 及早辨識</b></li>
+    <li>Dudek NL, Marks MB, Regehr G. Failure to fail: the perspectives of clinical supervisors. <em>Acad Med.</em> 2005;80(10 Suppl):S84–S87. PMID 16199466 — <b>§07 該當掉的就該當掉</b></li>
+    <li>Teherani A, et al. How Small Differences in Assessed Clinical Performance Amplify to Large Differences in Grades and Awards. <em>Acad Med.</em> 2018;93(9):1286–1292. PMID 29923892 — <b>§03 先檢視系統再檢視人</b></li>
+    <li>Warburton KM, Goren E, Dine CJ. Comprehensive Assessment of Struggling Learners Referred to a Graduate Medical Education Remediation Program. <em>J Grad Med Educ.</em> 2017;9(6):763–767. PMID 29270269 — <b>§03 自評與行為改變是兩回事</b></li>
+    <li>Guerrasio J, Aagaard EM. Long-Term Outcomes of a Simulation-Based Remediation for Residents and Faculty With Unprofessional Behavior. <em>J Grad Med Educ.</em> 2018;10(6):693–697. — <b>§03 模擬情境練難場面</b></li>
+    <li>Parsons AS, Warburton KM, Martindale JR, Rosenberg IL. Characterization of Clinical Skills Remediation: A National Survey of Medical Schools. <em>South Med J.</em> 2022;115(3):202–207. PMID 35237839 — <b>§07 多數機構找得到卻不會處理</b></li>
+    <li>van der Vleuten CPM, et al. A model for programmatic assessment fit for purpose. <em>Med Teach.</em> 2012;34(3):205–214. PMID 22364452 — <b>§07 把補救設計進評量系統</b></li>
+  </ol>
+</section>
+
+<footer>
+  <span>教學部 · 醫學教育補救教學讀書會｜彙整自 Wk1–Wk8 讀書會共筆</span>
+  <span class="mono">v1 · 2026-08-20 · 院內教學用</span>
+</footer>
+
+</div>

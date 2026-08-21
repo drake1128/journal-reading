@@ -6,6 +6,8 @@ resources:
   - "Decisional_Conflict_assets/"
   - "Self_Directed_Learning_Plan_2026.html"
   - "Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html"
+  - "Clinical_Uncertainty_Teaching_Module.html"
+  - "Clinical_Remediation_Blueprint.html"
 ---
 
 ## 精選簡報 Featured Slide Decks
@@ -18,6 +20,9 @@ resources:
 
 - **[醫療決策衝突 — Decisional Conflict in Medicine (互動投影片, 51 張)](Decisional_Conflict_in_Medicine.html){target="_blank"}**
   *醫學人文／溝通教學：以兩個真實案例（NSTEMI 心因性休克連鎖決策、OHCA 之 ECMO 與跨院 ICU 資源衝突）貫穿多層次醫療決策衝突。含 O'Connor 決策衝突量表與 SURE、Elwyn 三談 SDM、Edmondson 心理安全、SPIKES／NURSE／VALUE 溝通工具、資源分配倫理，並還原「如何讓團隊更糟 vs 如何突破」九宮格對話矩陣，附去識別化案例影像。文獻均附可點 DOI。鍵盤 ↓→／↑← 或滑動切換，`E` 就地編輯*
+- **[臨床補救教學藍圖 — Clinical Remediation Blueprint (互動網頁)](Clinical_Remediation_Blueprint.html){target="_blank"}**
+  *醫學教育／補救教學：給明天早上就要帶學生的主治醫師。先分清是哪一種「不行」（三分鐘鑑別），再走兩條最耗神的軌道 —— 軌道 A 臨床推理（15 分鐘放聲思考診斷會談、兩週刻意練習排程）與軌道 B 專業素養（把「態度不好」換成可觀察行為、有無病識感的分岔、升級紅線）。另附回饋對話開場的三句話對照、學生端求助腳本（六種情境說法）、個別化補救計畫 (IRP) 範本與追蹤／結案／升級標準。附 §00 可單頁列印口袋卡。改編自 Kalet & Chou, Remediation in Medical Education 2e 讀書會 Wk1–Wk8*
+
 - **[Bedside Cardiology Reading Club S1 — 心音聽診教學 (互動簡報)](Bedside_Cardiology_Reading_Club_S1_Teaching_Auscultation.html){target="_blank"}**
 
 ## 教學講義 Handouts

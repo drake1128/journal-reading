@@ -526,6 +526,8 @@ website:
               href: handouts/99-misc/Decisional_Conflict_in_Medicine.html
             - text: "臨床不確定性教學模組 — 導師×學員雙軌 (互動網頁, 含分享 QR)"
               href: handouts/99-misc/Clinical_Uncertainty_Teaching_Module.html
+            - text: "臨床補救教學藍圖 — 臨床推理 × 專業素養雙軌 (互動網頁)"
+              href: handouts/99-misc/Clinical_Remediation_Blueprint.html
             - handouts/99-misc/acls-team-work/index.qmd
             - handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.qmd
             - handouts/99-misc/book-cardiovascular-care-for-neurologists/index.qmd
