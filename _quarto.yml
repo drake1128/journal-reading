@@ -129,6 +129,8 @@ website:
         - section: "心臟影像 Imaging"
           contents:
             - handouts/05-cardiac-imaging/index.qmd
+            - text: "只有 I 和 aVL 抬起來 — 高側壁 STEMI 心電圖判讀 (互動教學頁)"
+              href: handouts/05-cardiac-imaging/High_Lateral_STEMI_ECG_Teaching.html
             - text: "左心室壁貼壁血栓與中風 — 反覆中風卻沒有 Afib (互動投影片, 35 張)"
               href: handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns/index.qmd
@@ -369,6 +371,8 @@ website:
         - section: "AI & 科技"
           contents:
             - handouts/90-ai-technology/index.qmd
+            - text: "機組資源管理 CRM — 駕馭 AI 的自動化悖論（NEJM 2026 Perspective）"
+              href: "handouts/90-ai-technology/機組資源管理 CRM — 駕馭 AI 的自動化悖論 教學講義.md"
             - text: "通用 LLM 勝過專用臨床 AI 工具（Nature Medicine 2026 盲化評比）"
               href: "handouts/90-ai-technology/通用 LLM 勝過專用臨床 AI 工具 Nature Medicine 2026 教學講義.md"
             - text: "用 AI 處理行政事務：從 Claude Desktop 到 Claude Code (互動簡報, 25 張)"

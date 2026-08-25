@@ -106,6 +106,10 @@ listing:
       description: "互動教學網頁。給明天早上要帶學生的主治醫師：先用三分鐘鑑別把『他不行』拆開，再走兩條最耗神的軌道 —— 臨床推理（15 分鐘放聲思考診斷會談、兩週刻意練習排程）與專業素養（把『態度不好』換成可觀察行為、病識感分岔、升級紅線）。含回饋開場三句話對照、學生端求助腳本、個別化補救計畫 (IRP) 範本與結案／升級標準，附可單頁列印口袋卡。改編自 Kalet & Chou, Remediation in Medical Education 2e。"
       path: handouts/99-misc/Clinical_Remediation_Blueprint.html
       categories: [教學 Teaching, 醫學教育 Medical Education, 溝通 Communication]
+    - title: "只有 I 和 aVL 抬起來 — 高側壁 STEMI 心電圖判讀"
+      description: "互動教學頁。從一張真實去識別化心電圖出發，先給 60 秒自己判讀，再逐條導程放大對答案。核心是最容易被放回候診區的那型 STEMI：高側壁只佔 I、aVL 兩條導程，抬高幅度小、又常被 LVH 當藉口帶過——所以要把 I 和 aVL 當一組看，並且主動去找 III／aVF 的 reciprocal 壓低（南非國旗徵象）。含 D1／OM／ramus intermedius 的罪犯血管推理、de Winter、Wellens、正後壁、aVR 抬高、鯊魚鰭、超急性 T 波等困難型態，以及早期再極化、心包炎、LVH strain、心室動脈瘤、Brugada、高血鉀六種假象鑑別；附六步驟行動清單與八題自測。"
+      path: handouts/05-cardiac-imaging/High_Lateral_STEMI_ECG_Teaching.html
+      categories: [影像 Imaging, 心電圖 ECG, 缺血性心臟病 IHD, 教學 Teaching]
     - title: "M-TEER 術中影像導引 — 2026 ASE Guidelines"
       description: "互動網頁, 27 張原文圖。依 ASE 的九個步驟拆解 M-TEER 術中 TEE 導引：每步附該轉到的 multiplane angle 轉盤與該喊出口的溝通用語。核心是指引反覆強調的三件事——trajectory／position／orientation 必須分開講、鐘面以 commissure（2 點與 10 點）而非主動脈為基準、TSP 高度從 coaptation point 而非 annulus 量起。含 TSP 4.5–5.0 cm、tissue bridge 基部 2 倍寬、殘餘 <5 mmHg／≥2.0 cm² 等數字速查。"
       path: handouts/04-valvular-disease/M-TEER_Intraprocedural_Imaging_ASE2026.html

@@ -26,6 +26,7 @@ handouts/**/*.html
 !handouts/06-interventional-cardiology/AGENT_DCB_Seminar_Review.html
 !handouts/01-ischemic-heart-disease/STEMI_D2B_Improvement.html
 !handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
+!handouts/05-cardiac-imaging/High_Lateral_STEMI_ECG_Teaching.html
 !handouts/04-valvular-disease/M-TEER_Intraprocedural_Imaging_ASE2026.html
 !handouts/12-icu-hemodynamics/Cardiac_Chamber_Pressures_Hemodynamics.html
 # Curated portals — allow all HTML in these dedicated folders (drop new decks in freely)
