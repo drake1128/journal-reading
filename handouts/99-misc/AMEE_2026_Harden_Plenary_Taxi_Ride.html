@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Come with Me on a Taxi Ride｜AMEE 2026 Ronald Harden Plenary 共筆</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87;
+  --accent:#e74c3c; --accent-light:#ff6b5b;
+  --success:#27ae60; --warning:#f39c12;
+  --purple:#6c4ab6; --teal:#0f8b8d;
+  --bg-cream:#faf8f5; --bg-card:#ffffff;
+  --text-dark:#2c3e50; --text-muted:#7f8c8d;
+  --border:#ecf0f1; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg-cream);color:var(--text-dark);
+  font-family:'Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  line-height:1.75;font-size:16px}
+.app{max-width:820px;margin:0 auto;padding-bottom:calc(48px + env(safe-area-inset-bottom))}
+
+header{background:linear-gradient(135deg,var(--primary),var(--purple));color:#fff;padding:28px 20px 22px}
+header .kicker{font-size:12px;letter-spacing:.18em;opacity:.85;margin-bottom:8px}
+header h1{margin:0 0 6px;font-size:23px;font-weight:700;line-height:1.4}
+header h2{margin:0 0 14px;font-size:14px;font-weight:400;opacity:.9}
+.meta{font-size:12.5px;opacity:.92;border-top:1px solid rgba(255,255,255,.25);padding-top:12px}
+.meta div{margin:2px 0}
+
+nav{position:sticky;top:0;z-index:20;background:var(--bg-card);border-bottom:1px solid var(--border);
+  display:flex;overflow-x:auto;scrollbar-width:none;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+nav::-webkit-scrollbar{display:none}
+nav button{flex:0 0 auto;min-height:48px;padding:12px 14px;border:0;background:none;font-family:inherit;
+  font-size:14px;font-weight:500;color:var(--text-muted);border-bottom:3px solid transparent;
+  cursor:pointer;white-space:nowrap}
+nav button.active{color:var(--primary);border-bottom-color:var(--accent);font-weight:600}
+
+main{padding:18px 16px}
+section{display:none;animation:fade .25s ease}
+section.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+.card{background:var(--bg-card);border-radius:14px;padding:18px;margin-bottom:16px;box-shadow:var(--shadow)}
+.card h3{margin:0 0 12px;font-size:17px;color:var(--primary);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.card h4{margin:16px 0 8px;font-size:15px;color:var(--primary-light)}
+.card p{margin:0 0 10px}
+.badge{display:inline-block;font-size:11px;font-weight:600;padding:3px 9px;border-radius:999px;color:#fff;letter-spacing:.03em}
+.b-uk{background:var(--teal)} .b-ca{background:var(--accent)} .b-fr{background:var(--primary-light)}
+.b-se{background:var(--success)} .b-key{background:var(--warning)} .b-new{background:var(--purple)}
+.stop{font-size:12px;color:var(--text-muted);letter-spacing:.1em;margin-bottom:4px}
+
+.takehome{background:linear-gradient(135deg,#fff6f4,#fff);border-left:5px solid var(--accent)}
+.th-item{display:flex;gap:11px;padding:9px 0;border-bottom:1px dashed var(--border)}
+.th-item:last-child{border-bottom:0}
+.th-num{flex:0 0 25px;height:25px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;
+  font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:3px}
+.th-item div:last-child{flex:1}
+
+.country{border-left:5px solid var(--border)}
+.country.uk{border-left-color:var(--teal)}
+.country.ca{border-left-color:var(--accent)}
+.country.fr{border-left-color:var(--primary-light)}
+.country.se{border-left-color:var(--success)}
+.flagline{font-size:20px;margin-right:4px}
+ul{margin:6px 0 10px;padding-left:20px}
+li{margin-bottom:6px}
+.quote{background:#f4f6f9;border-left:4px solid var(--primary-light);padding:11px 14px;
+  border-radius:0 8px 8px 0;margin:12px 0;font-size:14.5px}
+.quote .src{display:block;margin-top:6px;font-size:12px;color:var(--text-muted)}
+.callout{background:#fff8e8;border:1px solid #f6dfae;border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14.5px}
+.callout strong{color:#a06400}
+
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -4px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:13.5px}
+th,td{border:1px solid var(--border);padding:10px;vertical-align:top;text-align:left}
+th{background:var(--primary);color:#fff;font-weight:600}
+td:first-child{background:#f7f9fb;font-weight:600;white-space:nowrap}
+.hint{font-size:12px;color:var(--text-muted);margin-top:6px}
+
+.map-row{display:flex;gap:10px;align-items:stretch;margin-bottom:10px}
+.map-box{flex:1;background:#f7f9fb;border-radius:10px;padding:11px 12px;font-size:14px}
+.map-box.b{background:#eef5ff}
+.map-arrow{display:flex;align-items:center;color:var(--accent);font-size:18px;font-weight:700}
+
+.tech{display:flex;gap:12px;padding:12px;border-radius:12px;background:#f7f9fb;margin-bottom:10px}
+.tech .n{flex:0 0 30px;height:30px;border-radius:8px;background:var(--purple);color:#fff;font-weight:700;
+  display:flex;align-items:center;justify-content:center}
+.tech .t{font-weight:600;color:var(--primary)}
+.tech .s{font-size:14px;color:var(--text-muted)}
+.tech .c{font-size:13.5px;margin-top:5px}
+
+.q{margin-bottom:18px}
+.q .qtext{font-weight:600;margin-bottom:10px}
+.opt{display:block;width:100%;text-align:left;min-height:48px;padding:12px 14px;margin-bottom:8px;
+  border:1.5px solid var(--border);border-radius:10px;background:#fff;font-family:inherit;font-size:15px;
+  color:var(--text-dark);cursor:pointer;transition:.15s}
+.opt:active{transform:scale(.99)}
+.opt.correct{border-color:var(--success);background:#eafaf0}
+.opt.wrong{border-color:var(--accent);background:#fdeeec}
+.exp{display:none;background:#f4f6f9;border-radius:10px;padding:11px 13px;font-size:14px;margin-top:4px}
+.exp.show{display:block}
+.score{background:var(--primary);color:#fff;border-radius:12px;padding:14px;text-align:center;font-weight:600}
+
+.refl li{margin-bottom:10px}
+footer{margin:22px 16px;padding:16px;background:var(--bg-card);border-radius:12px;box-shadow:var(--shadow);
+  font-size:13px;color:var(--text-muted)}
+footer .sig{color:var(--text-dark);font-weight:600;margin-bottom:2px}
+footer ul{padding-left:18px;margin:10px 0 0}
+footer li{margin-bottom:3px;font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="app">
+
+<header>
+  <div class="kicker">THE 2026 RONALD HARDEN PLENARY · AMEE VIENNA</div>
+  <h1>Come with Me on a Taxi Ride<br>四座城市的計程車考試，與醫學考試的未來</h1>
+  <h2>Raising the Stakes: The Power and Potential of Examination for Learning</h2>
+  <div class="meta">
+    <div>講者：Professor Brian David Hodges — Executive Vice-President &amp; Chief Medical Officer, University Health Network；Professor, Temerty Faculty of Medicine, University of Toronto</div>
+    <div>場合：The AMEE Conference 2026, featuring the Integrated Ottawa Event · Austria Center Vienna · 2026/8/22–26</div>
+    <div>相關著作：<em>EXAMINED: How Tests Shape What We Learn and Who We Are</em>（Brian D. Hodges with Sarah Whyte, McGill-Queen's Press, 預計 2027 年 4 月出版）</div>
+  </div>
+</header>
+
+<nav>
+  <button class="active" data-t="home">Take Home</button>
+  <button data-t="intro">導論</button>
+  <button data-t="uk">🇬🇧 倫敦</button>
+  <button data-t="ca">🇨🇦 多倫多</button>
+  <button data-t="fr">🇫🇷 巴黎</button>
+  <button data-t="se">🇸🇪 瑞典</button>
+  <button data-t="cmp">四站比較</button>
+  <button data-t="med">醫學意涵</button>
+  <button data-t="tech">6 大工具</button>
+  <button data-t="quiz">自我測驗</button>
+</nav>
+
+<main>
+
+<!-- ===== HOME ===== -->
+<section id="home" class="active">
+  <div class="card takehome">
+    <h3>Take Home Message</h3>
+    <div class="th-item"><div class="th-num">1</div><div>講者用「陪我坐一趟計程車」帶大家走過<strong>四座城市</strong>：倫敦、多倫多、巴黎、瑞典。同一個行業，四種完全不同的考試哲學。差異不是技術問題，而是各自社會對「這個專業該是什麼」的價值選擇。</div></div>
+    <div class="th-item"><div class="th-num">2</div><div><strong>倫敦＝考試會改變大腦。</strong> Eleanor Maguire 的研究顯示，倫敦計程車司機的海馬迴顯著大於非司機；不需背地圖的公車司機則沒有這個現象。考試不只測量能力，它<strong>塑造</strong>能力。</div></div>
+    <div class="th-item"><div class="th-num">3</div><div><strong>多倫多＝從 OSCE 之鄉到 Cancel。</strong> 加拿大自 1996 年起以培養人際溝通能力為傲（講者本人推動溝通技巧、模擬與 OSCE 三十年）；但 2022 年面對平台叫車，教學與考試外包給駕訓學校，表現評量外包給消費者評分。</div></div>
+    <div class="th-item"><div class="th-num">4</div><div><strong>巴黎＝專業自主控制。</strong> 1907 年起的職業身分、強勢工會、workplace-based examination、三位考官、還要考語言。先強力抗爭，最後妥協——巴黎計程車進入 Uber 平台。</div></div>
+    <div class="th-item"><div class="th-num">5</div><div><strong>瑞典＝一致標準＋判斷力。</strong> 國家考試對所有人強制，Uber 司機也要考；考環境影響、乘客疾病與身心障礙、司機自身風險。路考同時要求「會用 GPS 規劃」與「沒有 GPS 也找得到路」。核心字 <em>Omdöme</em>（判斷力／明智）。</div></div>
+    <div class="th-item"><div class="th-num">6</div><div><strong>AI 的典範轉移是「雙向評分」。</strong> 平台不只評司機，也評乘客——講者秀出自己的 Uber 評分。真正的轉變不只是誰在評你，而是<strong>即時表現資料的所有權移轉到科技公司手上</strong>。</div></div>
+    <div class="th-item"><div class="th-num">7</div><div><strong>醫學的 Uber moment 是 EHR。</strong> 電子病歷內嵌即時、縱貫的醫療人員表現資料。能不能把它轉成有意義的 lifelong learning，而不只是稽核？</div></div>
+    <div class="th-item"><div class="th-num">8</div><div><strong>核心論點：</strong>考試技術強力被拉去做分類/選才、執照與規範、專業權力控制。這三項都很重要，但它們與「學習」的關係<strong>間接而薄弱</strong>。</div></div>
+    <div class="th-item"><div class="th-num">9</div><div><strong>結論不是廢掉哪個工具。</strong> 先把我們所服務的社群與專業的核心價值講清楚，再問哪種考試能強化這些價值。考什麼、怎麼考，先是社會／哲學問題，其次才是技術問題。</div></div>
+    <div class="th-item"><div class="th-num">10</div><div><strong>可以立刻做的六件事：</strong>Test-Enhanced Learning、Progress Testing、Spaced Repetition（可用 LLM）、Learning Analytics、Productive Struggle、Metacognition。詳見「6 大工具」頁。</div></div>
+  </div>
+</section>
+
+<!-- ===== INTRO ===== -->
+<section id="intro">
+  <div class="card">
+    <h3>方法論：Making Strange（陌生化）</h3>
+    <p>講者開場的一張投影片是「<strong>Come with Me on a Taxi Ride</strong>」，並註明方法來自 <strong>Making Strange</strong>，感謝 Ayelet Kuper 與 Bertold Brecht。</p>
+    <p>布萊希特的「陌生化效果」（Verfremdungseffekt）是刻意讓熟悉的事物顯得陌生，好讓觀眾重新看見它。用計程車談醫學考試，正是這個手法：<strong>當我們太熟悉 OSCE、筆試、專科考，就看不見它們的預設。換一個受規範、需執照、直接面對民眾、剛被平台科技全面衝擊的行業來看，預設才會現形。</strong></p>
+  </div>
+
+  <div class="card">
+    <h3><span class="badge b-key">貫串全場的提問</span></h3>
+    <div class="quote">
+      任何高度倚賴「某個時間點測驗」的高風險決定，都不足以有效反映真正的能力。（大意）
+      <span class="src">Kevin Eva &amp; Beth Cummings, <em>Medical Education</em> 2026 — 講者引用</span>
+    </div>
+    <p>由此，講者拋出兩個問題：</p>
+    <ul>
+      <li>我們應該<strong>力保</strong>現行的 point-in-time exams 嗎？</li>
+      <li>還是我們可以<strong>另建一套持續學習與持續測驗知識的模式</strong>？</li>
+    </ul>
+    <p>另一條並行的提問線是：既然 Medical Council of Canada 與 USMLE Step 2 CS 都停考了，<strong>新科技要如何幫我們發展並評量卓越的人際關係能力 (human relational skills)？</strong></p>
+  </div>
+</section>
+
+<!-- ===== LONDON ===== -->
+<section id="uk">
+  <div class="card country uk">
+    <div class="stop">STOP 1</div>
+    <h3><span class="flagline">🇬🇧</span>倫敦：考試會長進你的腦子裡</h3>
+    <p><strong>London Cabbies develop Bigger Brains.</strong></p>
+    <ul>
+      <li>倫敦計程車司機的<strong>海馬迴 (hippocampus) 顯著大於</strong>非計程車司機。</li>
+      <li>對照研究中，<strong>不需要背整張倫敦地圖的公車司機並沒有這個發現</strong>——差異來自「The Knowledge」這場惡名昭彰的記憶考試本身，而不是開車這件事。</li>
+      <li>研究者為 <strong>Prof. Eleanor Maguire（1970–2025）</strong>，投影片上以紀念的形式呈現。</li>
+    </ul>
+    <div class="callout">
+      <strong>這一站的功能是把整場演講的前提立起來：</strong>考試不是中立的測量工具。它決定了人們把時間花在哪裡、練什麼、記什麼——最後<strong>連神經解剖都被改變</strong>。這正是講題「Examination for Learning」與書名副標「How Tests Shape What We Learn and <em>Who We Are</em>」的字面意義。
+    </div>
+    <p>對我們的直接推論：<strong>你考什麼，住院醫師就長成什麼樣子。</strong>如果專科考只考記憶題，訓練出來的就是海馬迴很大、但判斷力未必跟上的醫師。</p>
+  </div>
+</section>
+
+<!-- ===== TORONTO ===== -->
+<section id="ca">
+  <div class="card country ca">
+    <div class="stop">STOP 2</div>
+    <h3><span class="flagline">🇨🇦</span>多倫多：A Canadian Passion since 1996</h3>
+    <p>投影片標題是「<strong>A trip to TORONTO — A Canadian Passion: Fostering Strong Interpersonal Skills since 1996</strong>」，講者的自我定位是「<strong>推動溝通技巧、模擬教學與 OSCE 三十年的倡議者</strong>」。</p>
+    <p>也就是說，加拿大這一站原本是<strong>「以人際能力為核心價值」的正面典範</strong>——投入三十年，把溝通能力做成可教、可測、可認證的東西。</p>
+  </div>
+
+  <div class="card country ca">
+    <h3>然後，The Response? <span class="badge b-ca">Cancel</span></h3>
+    <ul>
+      <li>面對平台叫車衝擊，市政層級的反應是<strong>放棄原有的公部門考試把關</strong>。</li>
+      <li><strong>2022 年起</strong>，教學與考試<strong>外包給商業駕訓學校</strong>。廣告訴求直白：「幾小時、不是幾週，就能成為 PTC 司機」——全線上、含數次免費考試機會、明碼標價。</li>
+      <li>更關鍵的一步：<strong>表現評量外包給消費者</strong>，品質由乘客星等決定。</li>
+    </ul>
+    <div class="callout">
+      <strong>這一站的張力就是整場演講的痛點：</strong>同一個社會，一邊花三十年把人際能力打造成專業核心，一邊在科技衝擊來臨時，一夕之間把「誰有資格評斷專業品質」讓渡給平台上的匿名評分。<strong>價值講得再好，只要考試制度換手，價值就跟著換手。</strong>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="badge b-key">醫學平行</span> 我們也在 Cancel</h3>
+    <ul>
+      <li><strong>Medical Council of Canada</strong> 放棄了具爭議的臨床技能考試。</li>
+      <li><strong>USMLE Step 2 Clinical Skills</strong> 停考（DISCONTINUED）。</li>
+    </ul>
+    <div class="quote">
+      並無證據支持現行執照考試能確保病人安全，反而可能排擠了更有意義的目標——為獨立執業做準備。（大意）
+      <span class="src">Thoma, Monteiro, Pardhan, Waters, Chan. <em>CMAJ</em> 2022 — 講者引用</span>
+    </div>
+    <p>取消之後，我們補上了什麼？這是講者留給全場的空白。</p>
+  </div>
+</section>
+
+<!-- ===== PARIS ===== -->
+<section id="fr">
+  <div class="card country fr">
+    <div class="stop">STOP 3</div>
+    <h3><span class="flagline">🇫🇷</span>巴黎：專業自主控制</h3>
+    <p><strong>Developing Professional Identity since 1907.</strong> 巴黎計程車有超過一世紀的職業身分傳統。講者在這一站的自我定位是 <em>Chief Medical Officer</em>——從管理者的角度看專業自治。</p>
+    <ul>
+      <li>產業<strong>由國家規範</strong>，加上<strong>強勢職業工會控制執業</strong>。</li>
+      <li>教育與考試形式<strong>持續隨情境調整</strong>——不是不變，而是由專業自己主導改變。</li>
+    </ul>
+    <h4>職業能力 (Professional Competencies)</h4>
+    <ul>
+      <li>經營與會計 (management and accounting)</li>
+      <li>計程車業務之法規 (regulation of taxi activity)</li>
+      <li>議價與商業誠信／顧客忠誠 (negotiation &amp; commercial loyalty)</li>
+    </ul>
+    <div class="callout">
+      會計、法規、商業倫理全都被寫進職業能力——就像醫學把 professionalism、leadership、health advocacy 寫進 CanMEDS。<strong>能力框架本身就是價值宣示。</strong>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>考試方式：Workplace-based examination</h3>
+    <p>考試情境是一個真實的乘客請求，例如「我想先看巴士底，然後搭火車去布魯塞爾」——不是選擇題，是一個需要規劃、溝通與判斷的完整任務。</p>
+    <h4>三位考官，各自負責不同面向</h4>
+    <ul>
+      <li>駕駛技術 (Driving technique)</li>
+      <li>對交通法規的遵守 (Respect for traffic laws)</li>
+      <li>決策與導航 (Decision-making and navigation)</li>
+    </ul>
+    <p>另外還考：<strong>法語與英語的掌握</strong>。語言＝服務國際旅客的核心能力，被視為專業條件而非加分項。</p>
+  </div>
+
+  <div class="card">
+    <h3>面對 Uber：抗爭 → 妥協</h3>
+    <ul>
+      <li>第一階段是<strong>對專業工作與資料控制權的鬥爭</strong>：街頭抗爭、「UBER DÉGAGE!」。</li>
+      <li>最終的妥協形式是<strong>整合對方的專有 AI 技術</strong>——巴黎計程車現在可以在 Uber 平台上叫到。</li>
+    </ul>
+    <div class="callout">
+      <strong>值得醫界深思：</strong>抵抗到最後，往往不是勝或敗，而是<strong>「在對方的技術平台上繼續維持自己的專業標準」</strong>。問題在於進場時我們保住了多少定義權與資料權。
+    </div>
+  </div>
+</section>
+
+<!-- ===== SWEDEN ===== -->
+<section id="se">
+  <div class="card country se">
+    <div class="stop">STOP 4</div>
+    <h3><span class="flagline">🇸🇪</span>瑞典：Uber 司機也要考</h3>
+    <p><strong>Sweden DOES have a taxi exam!</strong>——由 Trafikverket（瑞典交通管理局）主管，<strong>對所有人強制，包含 Uber 司機</strong>。沒有平台豁免這回事。</p>
+    <h4>筆試的優先順序（順序本身就是價值宣示）</h4>
+    <ul>
+      <li>不同車輛對<strong>環境</strong>的影響</li>
+      <li>確保旅程<strong>安全、有保障、舒適</strong>的責任</li>
+      <li><strong>乘客的疾病與身心障礙</strong></li>
+      <li><strong>從事計程車工作本身的風險</strong>（司機自身的職業風險）</li>
+    </ul>
+    <div class="callout">
+      <strong>這份考綱裡有兩件事在其他城市看不到：</strong>把<strong>弱勢乘客的需求</strong>放進必考，以及把<strong>從業者自身的安全與風險</strong>放進必考。等同於醫學考試裡正式納入「病人多樣性」與「醫療人員自身的職業健康與 well-being」。
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>路考 (The Driving Test)：考的是判斷，不是操作</h3>
+    <ul>
+      <li>展現與其他用路人的<strong>合作</strong></li>
+      <li>處理<strong>非預期的偏離狀況</strong> (handle deviations)</li>
+      <li>理解<strong>自己的行為對整體交通造成的影響</strong></li>
+      <li>使用技術設備但<strong>不影響行車安全</strong></li>
+    </ul>
+    <div class="quote">
+      <strong>Plan a journey <em>with</em> GPS</strong>　—　會善用科技<br>
+      <strong>Find a destination <em>without</em> GPS</strong>　—　科技失效時仍能完成任務
+      <span class="src">瑞典路考項目</span>
+    </div>
+    <div class="callout">
+      <strong>這對 AI 時代的醫學教育是最直接的答案：</strong>不是「禁止用 AI」也不是「全面交給 AI」，而是<strong>兩者都要考</strong>。
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="badge b-se">關鍵字</span> Omdöme</h3>
+    <p>瑞典語 <strong>Omdöme</strong>：discerning、wise、judicious；showing wisdom and good sense。中文最接近的是<strong>「判斷力／識見」</strong>——不是知識量，不是操作熟練度，而是在不確定情境中做出明智選擇的整體素養。</p>
+    <p>整份瑞典考綱其實都在測這一個字。這也是講者認為醫學考試最該回去測、卻最難測的東西。</p>
+  </div>
+</section>
+
+<!-- ===== COMPARISON ===== -->
+<section id="cmp">
+  <div class="card">
+    <h3>四站比較表</h3>
+    <div class="tablewrap">
+    <table>
+      <tr>
+        <th>面向</th>
+        <th>🇬🇧 倫敦</th>
+        <th>🇨🇦 多倫多</th>
+        <th>🇫🇷 巴黎</th>
+        <th>🇸🇪 瑞典</th>
+      </tr>
+      <tr><td>這一站在講什麼</td>
+        <td>考試會塑造人（連大腦都改變）</td>
+        <td>價值可以被建立三十年，也可以一夕讓渡</td>
+        <td>專業如何守住自己的定義權</td>
+        <td>如何把新科技納入同一套公共標準</td></tr>
+      <tr><td>代表性事實</td>
+        <td>The Knowledge：司機海馬迴大於非司機；公車司機無此現象</td>
+        <td>1996 起以人際能力為傲；2022 起外包考試與評量</td>
+        <td>1907 起的職業身分；工會主導</td>
+        <td>國家考試，Uber 司機也強制</td></tr>
+      <tr><td>考試形式</td>
+        <td>極高強度的記憶／空間導航測驗</td>
+        <td>快速線上課程 + 多次補考機會</td>
+        <td>workplace-based，真實乘客任務，三位考官</td>
+        <td>筆試 + 路考，全國一致</td></tr>
+      <tr><td>考什麼</td>
+        <td>整座城市的路網</td>
+        <td>最低門檻合規</td>
+        <td>駕駛技術、法規、決策導航、語言、經營與商業倫理</td>
+        <td>環境、乘客安全舒適、乘客疾病與身心障礙、從業者自身風險、判斷力</td></tr>
+      <tr><td>品質由誰認定</td>
+        <td>專業考試機構</td>
+        <td><strong>消費者星等評分</strong></td>
+        <td>專業社群（工會 + 考官）</td>
+        <td>國家標準，對所有從業者一致</td></tr>
+      <tr><td>對科技的立場</td>
+        <td>（GPS 出現後，The Knowledge 的正當性本身受挑戰）</td>
+        <td>接受平台定義品質</td>
+        <td>先抵抗，後在對方平台上維持標準</td>
+        <td>科技納入考試：有 GPS 要會用，沒 GPS 也要會找</td></tr>
+      <tr><td>底層價值</td>
+        <td>專精與職人養成</td>
+        <td>市場效率、消費者選擇</td>
+        <td>專業自主與職業身分</td>
+        <td>公共安全、平等、弱勢照顧、判斷力</td></tr>
+    </table>
+    </div>
+    <p class="hint">← 表格可左右滑動</p>
+  </div>
+
+  <div class="card">
+    <h3>一句話總結</h3>
+    <ul>
+      <li><strong>倫敦：</strong>考試會把人塑造成它所測量的樣子——所以考什麼非同小可。</li>
+      <li><strong>多倫多：</strong>把定義權讓給市場。</li>
+      <li><strong>巴黎：</strong>把定義權留在專業手上，代價是持續的政治鬥爭。</li>
+      <li><strong>瑞典：</strong>把定義權留在公共標準，並用標準去約束新進的科技玩家。</li>
+    </ul>
+    <p>四者都可行，也都有代價。<strong>但沒有一個是「純技術決定」的結果。</strong></p>
+  </div>
+</section>
+
+<!-- ===== MEDICINE ===== -->
+<section id="med">
+  <div class="card">
+    <h3><span class="badge b-new">AI 典範轉移</span> 雙向評分與資料所有權</h3>
+    <p>講者在 AI 這一段秀出兩張自己的 Uber 畫面：</p>
+    <ul>
+      <li><strong>Real Time Digital Performance Data（owned by tech companies）</strong>——行程細節、路線、時間，全部即時記錄，而且<strong>資料所有權在科技公司</strong>。</li>
+      <li><strong>Mutual Driver–Passenger Performance Ratings</strong>——「You rode with JAVEED　4.58」，而下面是「Brian Hodges　★4.97」。<strong>司機評你，你也評司機。</strong></li>
+    </ul>
+    <div class="callout">
+      <strong>雙向評分是最容易被略過、卻最尖銳的一點：</strong>當評量變成雙向、即時、演算法彙整，「誰是專業、誰是被服務者」的界線就模糊了。醫療的對應版本，就是病人評分、線上評價與 EHR 表現指標同時作用在醫師身上——而彙整規則不在我們手上。
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>從計程車回到醫學：對照表</h3>
+    <div class="map-row">
+      <div class="map-box">The Knowledge 把司機的海馬迴練大</div>
+      <div class="map-arrow">→</div>
+      <div class="map-box b">我們考什麼，住院醫師就練成什麼；考試是課程的隱形主人</div>
+    </div>
+    <div class="map-row">
+      <div class="map-box">多倫多取消 PTC 考試，改由消費者評分</div>
+      <div class="map-arrow">→</div>
+      <div class="map-box b">MCC / USMLE Step 2 CS 停考；病人滿意度評分權重上升</div>
+    </div>
+    <div class="map-row">
+      <div class="map-box">Uber 掌握即時行程與雙向評分資料</div>
+      <div class="map-arrow">→</div>
+      <div class="map-box b"><strong>EHR 是我們的 Uber moment</strong>：內嵌即時、縱貫的專業表現資料</div>
+    </div>
+    <div class="map-row">
+      <div class="map-box">巴黎的 workplace-based examination</div>
+      <div class="map-arrow">→</div>
+      <div class="map-box b">WBA / EPA / mini-CEX：在真實工作場域評量</div>
+    </div>
+    <div class="map-row">
+      <div class="map-box">有 GPS 要會用，沒 GPS 也要會找</div>
+      <div class="map-arrow">→</div>
+      <div class="map-box b">有 AI 輔助要會用，AI 不在或給錯答案時仍要能獨立判斷</div>
+    </div>
+    <div class="map-row">
+      <div class="map-box">Omdöme（判斷力）</div>
+      <div class="map-arrow">→</div>
+      <div class="map-box b">clinical judgment / professional identity —— 最重要、最難測</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="badge b-key">核心論點</span> 考試的四種功能，只有一種跟學習有關</h3>
+    <p>考試技術一直被強力拉往<strong>分類與合規</strong>的方向：</p>
+    <ul>
+      <li>分類 / 選才 (Classification &amp; Selection)</li>
+      <li>執照與專業規範 (Licensure &amp; Professional Regulation)</li>
+      <li>專業專門知識的控制 (Control of Professional Expertise)</li>
+    </ul>
+    <p>這三項<strong>都是重要功能，不該否定</strong>。但用來達成它們的考試形式，與<strong>「學習 (Learning...?)」的關係其實間接而薄弱</strong>——學習被放在最後一格，還帶著一個問號。</p>
+  </div>
+
+  <div class="card">
+    <h3>結論：先問價值，再問工具</h3>
+    <div class="quote">
+      重點不在「廢掉」某一種考試工具。<br>
+      而是先把我們作為專業所服務的社群與文化的<strong>核心價值</strong>講清楚，<br>
+      再問：哪些考試工具與制度能夠強化這些價值？<br>
+      <strong>考什麼、怎麼考，先是社會／哲學問題，技術問題是其次。</strong>（大意）
+      <span class="src">Hodges &amp; Whyte, <em>EXAMINED: How Tests Shape What We Learn and Who We Are</em>（McGill-Queen's Press, 2027/4 出版）</span>
+    </div>
+    <p>另引 UNESCO《AI in Education: Change at the Speed of Learning》政策簡報大意：AI 帶來豐富與轉化教育經驗的機會，但推進時必須把<strong>倫理考量</strong>與<strong>教育作為一項社會性、以人為本的事業</strong>放在優先位置。</p>
+    <p>再加上 Ursula Franklin《The Real World of Technology》的大意：技術從特定的社會、經濟與政治脈絡中長出來，再被嫁接回既有的社會結構；它可能強化那個結構，也可能摧毀它，而且往往以無法預見的方式發生。</p>
+  </div>
+
+  <div class="card">
+    <h3>可以帶回討論的問題</h3>
+    <ol class="refl">
+      <li>我們的專科／科部訓練，考試主要在做<strong>分類</strong>還是<strong>促進學習</strong>？誠實回答，比例是多少？</li>
+      <li>如果現在必須寫出「本院訓練最核心的三個價值」，我們寫得出來嗎？現行考核制度有在強化它們嗎？</li>
+      <li>倫敦的啟示反過來問：我們現行的考試，正在把住院醫師的哪一塊「練大」？那是我們想要的嗎？</li>
+      <li>醫院資訊系統（EHR、PACS、導管室紀錄）已累積大量表現資料。這些資料現在被用來<strong>稽核</strong>，還是被用來<strong>回饋與學習</strong>？</li>
+      <li>瑞典把「乘客的疾病與身心障礙」和「從業者自身的風險」列入必考。我們的訓練有沒有正式評量對多元病人的照顧能力，以及醫療人員自身的職業安全？</li>
+      <li>AI 輔助之下，我們的評量有沒有同時測「會用 AI」與「AI 不可用時仍能作業」這兩件事？</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 6 TECHNOLOGIES ===== -->
+<section id="tech">
+  <div class="card">
+    <h3>6 項有實證、對學習友善的技術</h3>
+    <p>這是講者給全場的行動清單——<strong>6 Evidence-Based, Learning-Friendly Technologies to explore at AMEE 2026</strong>。也是整場演講從批判轉向建設的落點。</p>
+
+    <div class="tech"><div class="n">1</div><div>
+      <div class="t">Test-Enhanced Learning</div>
+      <div class="s">Continuous Low-Stakes Testing</div>
+      <div class="c">用<strong>持續、低風險</strong>的小測驗取代單點高風險大考。測驗本身就是學習事件（testing effect），而不只是評分事件。</div>
+    </div></div>
+
+    <div class="tech"><div class="n">2</div><div>
+      <div class="t">Scaffolding Knowledge</div>
+      <div class="s">Progress Testing with Growth Curves</div>
+      <div class="c">用<strong>進展測驗與成長曲線</strong>看個人隨時間的軌跡，而非某一天的橫斷分數。關注的是斜率，不是切點。</div>
+    </div></div>
+
+    <div class="tech"><div class="n">3</div><div>
+      <div class="t">Practice with Spaced Repetition</div>
+      <div class="s">Large Language Models (LLMs)</div>
+      <div class="c">用 <strong>LLM 做間隔重複練習</strong>——這是講者少數正面肯定 AI 的位置：把 LLM 當成無限量的練習夥伴與出題者，而不是代寫答案的工具。</div>
+    </div></div>
+
+    <div class="tech"><div class="n">4</div><div>
+      <div class="t">Precision Education</div>
+      <div class="s">Learning Analytics</div>
+      <div class="c">用<strong>學習分析</strong>做因材施教，對應到前面 EHR 那個問題：既然資料已經存在，就把它從稽核用途轉為個人化回饋用途。</div>
+    </div></div>
+
+    <div class="tech"><div class="n">5</div><div>
+      <div class="t">Productive Struggle</div>
+      <div class="s">Cognitive Friction</div>
+      <div class="c"><strong>刻意保留「認知摩擦」</strong>。學習需要適度的困難；AI 把一切變得太順滑時，學習反而消失。這一條其實是對 AI 最重要的警告。</div>
+    </div></div>
+
+    <div class="tech"><div class="n">6</div><div>
+      <div class="t">Self-Awareness</div>
+      <div class="s">Metacognition and Critical Reflection</div>
+      <div class="c"><strong>後設認知與批判反思</strong>——知道自己知道什麼、不知道什麼。這是 Omdöme 的可教版本，也是最難被平台演算法取代的一塊。</div>
+    </div></div>
+
+    <div class="callout">
+      <strong>注意這六項的共同結構：</strong>全部都是<strong>連續的、低風險的、以回饋為導向的</strong>，沒有一項是單點高風險考試。這正好回應 Eva &amp; Cummings 的提問——與其力保 point-in-time exams，不如另建持續學習與持續測驗的模式。
+    </div>
+  </div>
+</section>
+
+<!-- ===== QUIZ ===== -->
+<section id="quiz">
+  <div class="card">
+    <h3>自我測驗（7 題）</h3>
+    <div id="quizbox"></div>
+    <div id="scorebox"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="sig">讀書會共筆整理人</div>
+  <div class="sig">謝慕揚 醫師 MD, PhD, FESC</div>
+  <div>醫學教育與專業評量</div>
+  <ul>
+    <li>本內容為讀書會共筆整理，未必涵蓋所有相關文獻</li>
+    <li>僅供學術與教育用途，不代表任何單位之官方立場</li>
+    <li>本內容未涉及任何利益衝突</li>
+  </ul>
+  <div style="margin-top:10px;font-size:12px">
+    現場筆記整理自 The 2026 Ronald Harden Plenary，AMEE Conference 2026（Vienna, Austria, 22–26 August 2026）。
+    引文均為大意摘述，原始內容以講者投影片與原始出處為準。
+  </div>
+</footer>
+
+</div>
+
+<script>
+var btns = document.querySelectorAll('nav button');
+btns.forEach(function(b){
+  b.addEventListener('click', function(){
+    btns.forEach(function(x){x.classList.remove('active')});
+    b.classList.add('active');
+    document.querySelectorAll('section').forEach(function(s){s.classList.remove('active')});
+    document.getElementById(b.dataset.t).classList.add('active');
+    window.scrollTo({top:0, behavior:'smooth'});
+    try{ localStorage.setItem('amee2026-tab', b.dataset.t); }catch(e){}
+  });
+});
+try{
+  var saved = localStorage.getItem('amee2026-tab');
+  if(saved && document.getElementById(saved)){
+    document.querySelector('nav button[data-t="'+saved+'"]').click();
+  }
+}catch(e){}
+
+var questions = [
+  { q:'倫敦計程車司機的腦部研究（Eleanor Maguire）中，最關鍵的對照組設計是什麼？',
+    o:['與其他城市的計程車司機比較','與不需背地圖的倫敦公車司機比較','與使用 GPS 的司機比較','與非駕駛職業的一般民眾比較'],
+    a:1,
+    e:'公車司機同樣長時間開車、同樣熟悉倫敦，但不需要記憶整張路網，結果沒有海馬迴增大的發現。這讓差異可以歸因於「The Knowledge」這場考試本身，而非開車這件事。'},
+  { q:'講者在多倫多這一站，先鋪陳的「加拿大式熱情」是什麼？',
+    o:['自 1996 年起致力培養強大的人際互動能力','自 1996 年起推動全面數位化考試','自 1996 年起取消所有臨床技能考試','自 1996 年起以消費者評分作為品質標準'],
+    a:0,
+    e:'投影片標明 A Canadian Passion: Fostering Strong Interpersonal Skills since 1996，講者自陳推動溝通技巧、模擬與 OSCE 三十年。這個鋪陳讓後面 2022 年的 Cancel 更有張力——價值建立三十年，制度可以一夕讓渡。'},
+  { q:'巴黎計程車考試的 workplace-based examination，除了駕駛技術、法規遵守、決策與導航外，還特別評量什麼？',
+    o:['車輛保養知識','法語與英語的語言掌握','急救技術','里程與油耗計算'],
+    a:1,
+    e:'語言能力被視為服務國際旅客的核心職業條件，而非加分項；職業能力另含經營會計、法規與商業誠信。'},
+  { q:'瑞典計程車筆試的必考範圍，下列何者「不」在講者列出的優先項目中？',
+    o:['不同車輛對環境的影響','乘客的疾病與身心障礙','從事計程車工作本身的風險','平台演算法與派單機制'],
+    a:3,
+    e:'四項優先為：車輛的環境影響、確保安全舒適旅程的責任、乘客疾病與身心障礙、以及從業者自身的職業風險。把弱勢乘客與從業者安全放進必考，是瑞典模式最特別之處。'},
+  { q:'講者用自己的 Uber 畫面說明「AI 典範轉移」，其中最關鍵的一點是？',
+    o:['演算法可以精準預測到達時間','評分是雙向的——司機評乘客，乘客也評司機，且資料由科技公司持有','乘客可以自行選擇路線','司機評分低於 4.5 會被停權'],
+    a:1,
+    e:'投影片同時秀出司機 4.58 與講者本人 4.97 的分數。雙向、即時、由平台彙整的表現資料，模糊了「誰是專業、誰是被服務者」的界線，而彙整規則不在專業手上。'},
+  { q:'Eva 與 Cummings（Medical Education 2026）的論點，被講者用來提出哪一組問題？',
+    o:['是否該廢除所有評量制度','是否該力保 point-in-time exams，或另建持續學習與持續測驗的模式','是否該將考試委外給商業機構','是否該由 AI 全面接手評分'],
+    a:1,
+    e:'其論點大意是：高度倚賴單一時間點測驗的高風險決定，不足以有效反映真正能力。講者據此提出 point-in-time exam 的去留，以及建立 continuous learning and testing 模式的可能。'},
+  { q:'講者提出的 6 項「對學習友善的技術」中，屬於對 AI 最重要警告的是哪一項？',
+    o:['Test-Enhanced Learning：持續低風險測驗','Precision Education：學習分析','Productive Struggle：刻意保留認知摩擦','Scaffolding Knowledge：進展測驗與成長曲線'],
+    a:2,
+    e:'Productive Struggle / Cognitive Friction 提醒我們學習需要適度的困難。當 AI 把一切變得太順滑，摩擦消失，學習也跟著消失。六項的共同結構都是連續、低風險、回饋導向，沒有一項是單點高風險考試。'}
+];
+
+var score = 0, answered = 0;
+var box = document.getElementById('quizbox');
+questions.forEach(function(item, qi){
+  var d = document.createElement('div');
+  d.className = 'q';
+  var h = '<div class="qtext">Q'+(qi+1)+'. '+item.q+'</div>';
+  item.o.forEach(function(op, oi){
+    h += '<button class="opt" data-q="'+qi+'" data-o="'+oi+'">'+String.fromCharCode(65+oi)+'. '+op+'</button>';
+  });
+  h += '<div class="exp" id="exp'+qi+'"></div>';
+  d.innerHTML = h;
+  box.appendChild(d);
+});
+
+box.addEventListener('click', function(ev){
+  var t = ev.target.closest('.opt');
+  if(!t) return;
+  var qi = +t.dataset.q, oi = +t.dataset.o;
+  var opts = box.querySelectorAll('.opt[data-q="'+qi+'"]');
+  if(opts[0].disabled) return;
+  opts.forEach(function(o){ o.disabled = true; });
+  var correct = questions[qi].a;
+  opts[correct].classList.add('correct');
+  if(oi !== correct){ t.classList.add('wrong'); } else { score++; }
+  var exp = document.getElementById('exp'+qi);
+  exp.innerHTML = (oi===correct ? '✅ 正確！' : '❌ 正確答案為 '+String.fromCharCode(65+correct))+'　'+questions[qi].e;
+  exp.classList.add('show');
+  answered++;
+  if(answered === questions.length){
+    document.getElementById('scorebox').innerHTML =
+      '<div class="score">答對 '+score+' / '+questions.length+' 題</div>';
+  }
+});
+</script>
+</body>
+</html>

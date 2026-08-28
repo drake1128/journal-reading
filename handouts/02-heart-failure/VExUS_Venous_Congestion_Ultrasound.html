@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>VExUS 靜脈鬱血超音波 · 實作教學</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#e74c3c; --accent-light:#ff6b5b;
+  --success:#27ae60; --warning:#f39c12; --danger:#c0392b;
+  --bg-cream:#faf8f5; --bg-card:#ffffff; --text-dark:#2c3e50; --text-muted:#7f8c8d;
+  --border:#ecf0f1; --shadow:0 4px 20px rgba(0,0,0,.08); --wave:#1e3a5f; --grid:#dfe6ec;
+}
+html.dark{
+  --bg-cream:#12182b; --bg-card:#1b2540; --text-dark:#e8ecf3; --text-muted:#9aa7bd;
+  --border:#2d3a55; --shadow:0 4px 20px rgba(0,0,0,.4); --wave:#7fb3ff; --grid:#2d3a55;
+  --primary:#7fb3ff; --primary-light:#5a8fd8;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;font-family:'Noto Sans TC',system-ui,-apple-system,sans-serif;background:var(--bg-cream);color:var(--text-dark);line-height:1.65;font-size:15px}
+.app{max-width:820px;margin:0 auto;padding:0 14px calc(84px + env(safe-area-inset-bottom))}
+header.hero{background:linear-gradient(135deg,#1e3a5f,#b3202c);color:#fff;margin:0 -14px 16px;padding:26px 18px 22px;border-radius:0 0 22px 22px}
+header.hero h1{margin:0 0 4px;font-size:22px;font-weight:700;letter-spacing:.5px}
+header.hero p{margin:0;font-size:13px;opacity:.9}
+.theme-btn{position:absolute;top:14px;right:16px;background:rgba(255,255,255,.18);border:none;color:#fff;border-radius:20px;padding:8px 14px;font-size:13px;font-family:inherit;min-height:40px}
+.wrap-rel{position:relative}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:16px;margin-bottom:14px;box-shadow:var(--shadow)}
+.card h2{font-size:17px;margin:0 0 10px;color:var(--primary);display:flex;align-items:center;gap:8px}
+.card h3{font-size:15px;margin:16px 0 8px;color:var(--text-dark)}
+.badge{display:inline-block;background:var(--primary);color:#fff;border-radius:8px;width:26px;height:26px;line-height:26px;text-align:center;font-size:14px;font-weight:700;flex:none}
+.tag{display:inline-block;font-size:12px;padding:3px 9px;border-radius:999px;background:var(--border);color:var(--text-muted);margin:2px 4px 2px 0}
+.tag.en{font-family:ui-monospace,Menlo,monospace}
+nav.tabs{position:fixed;bottom:0;left:0;right:0;background:var(--bg-card);border-top:1px solid var(--border);display:flex;padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:50}
+nav.tabs button{flex:1;background:none;border:none;font-family:inherit;font-size:11px;color:var(--text-muted);padding:6px 2px;min-height:52px;border-radius:12px;display:flex;flex-direction:column;align-items:center;gap:3px}
+nav.tabs button.on{color:#fff;background:var(--primary)}
+nav.tabs .ic{font-size:17px;line-height:1}
+ul.pts{list-style:none;padding:0;margin:0}
+ul.pts li{padding:8px 0 8px 26px;position:relative;border-bottom:1px dashed var(--border);font-size:14.5px}
+ul.pts li:last-child{border-bottom:none}
+ul.pts li:before{content:"▸";position:absolute;left:6px;color:var(--accent);font-weight:700}
+.callout{border-left:4px solid var(--warning);background:rgba(243,156,18,.09);border-radius:0 12px 12px 0;padding:10px 12px;margin:12px 0;font-size:13.5px}
+.callout.red{border-color:var(--danger);background:rgba(192,57,43,.09)}
+.callout.green{border-color:var(--success);background:rgba(39,174,96,.09)}
+.callout b{color:var(--text-dark)}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th,td{border:1px solid var(--border);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:rgba(30,58,95,.08);font-weight:600}
+.wavebox{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:8px;margin:8px 0}
+.wavebox .lbl{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;margin-bottom:2px}
+.pill{font-size:11px;padding:2px 9px;border-radius:999px;color:#fff}
+.pill.n{background:var(--success)} .pill.m{background:var(--warning)} .pill.s{background:var(--danger)}
+.wavebox p{margin:4px 0 0;font-size:12.5px;color:var(--text-muted)}
+svg.wf{width:100%;height:auto;display:block}
+.grid2{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:620px){.grid2{grid-template-columns:1fr 1fr}}
+.opt{display:block;width:100%;text-align:left;font-family:inherit;font-size:14px;padding:12px 14px;margin:7px 0;min-height:48px;border:2px solid var(--border);background:var(--bg-card);color:var(--text-dark);border-radius:12px}
+.opt.sel{border-color:var(--primary);background:rgba(30,58,95,.08);font-weight:600}
+.opt.correct{border-color:var(--success);background:rgba(39,174,96,.12)}
+.opt.wrong{border-color:var(--danger);background:rgba(192,57,43,.12)}
+.btn{display:inline-block;background:var(--primary);color:#fff;border:none;border-radius:12px;padding:12px 20px;font-size:15px;font-family:inherit;min-height:48px;font-weight:600}
+.btn.ghost{background:transparent;border:2px solid var(--primary);color:var(--primary)}
+.result{margin-top:14px;padding:16px;border-radius:14px;color:#fff;text-align:center}
+.result h3{margin:0 0 4px;font-size:26px;color:#fff}
+.result p{margin:0;font-size:13.5px;opacity:.95}
+.g0{background:#27ae60}.g1{background:#f39c12}.g2{background:#e67e22}.g3{background:#c0392b}
+label.fl{display:block;font-size:13px;font-weight:600;margin:14px 0 6px}
+select,input{width:100%;font-size:16px;font-family:inherit;padding:11px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-dark);min-height:48px}
+.progress{height:6px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:10px}
+.progress div{height:100%;background:var(--primary);transition:width .3s}
+.ref{font-size:12.5px;color:var(--text-muted);padding:8px 0;border-bottom:1px dashed var(--border)}
+.ref a{color:var(--primary-light);word-break:break-all}
+footer.sig{margin-top:20px;padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:16px;font-size:12.5px;color:var(--text-muted)}
+footer.sig b{color:var(--text-dark);font-size:13.5px}
+.stepnum{display:flex;gap:10px;align-items:flex-start;margin:14px 0}
+.stepnum .n{background:var(--accent);color:#fff;border-radius:50%;width:28px;height:28px;line-height:28px;text-align:center;font-weight:700;font-size:14px;flex:none}
+.stepnum .t{flex:1}
+.stepnum .t b{display:block;font-size:15px;margin-bottom:3px}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState,useEffect} = React;
+
+/* ---------------- SVG 波形元件 ---------------- */
+const Frame = ({children,ecg}) => (
+  <svg className="wf" viewBox="0 0 320 130" xmlns="http://www.w3.org/2000/svg">
+    <line x1="8" y1="70" x2="312" y2="70" stroke="var(--grid)" strokeWidth="1.5" strokeDasharray="3 3"/>
+    <text x="10" y="16" fontSize="9" fill="var(--text-muted)">逆流 retrograde ↑</text>
+    <text x="10" y="126" fontSize="9" fill="var(--text-muted)">順流 antegrade ↓</text>
+    {ecg && <path d={ecg} fill="none" stroke="var(--accent)" strokeWidth="1.3" opacity=".75"/>}
+    {children}
+  </svg>
+);
+const ECG = "M8,20 L38,20 L42,14 L46,26 L50,20 L148,20 L152,14 L156,26 L160,20 L258,20 L262,14 L266,26 L270,20 L312,20";
+const W = ({d,label}) => (<g><path d={d} fill="none" stroke="var(--wave)" strokeWidth="2.2" strokeLinejoin="round"/>{label}</g>);
+const L = (x,y,t,c) => <text key={x+t} x={x} y={y} fontSize="11" fontWeight="700" fill={c||"var(--wave)"} textAnchor="middle">{t}</text>;
+
+/* 肝靜脈 Hepatic vein */
+const HV_normal = "M8,70 Q22,58 34,70 Q52,116 72,70 Q82,60 92,70 Q110,100 130,70 L148,70 Q162,58 174,70 Q192,116 212,70 Q222,60 232,70 Q250,100 270,70 L312,70";
+const HV_sd     = "M8,70 Q22,58 34,70 Q50,92 66,70 Q78,60 90,70 Q110,116 132,70 L148,70 Q162,58 174,70 Q190,92 206,70 Q218,60 230,70 Q250,116 272,70 L312,70";
+const HV_rev    = "M8,70 Q22,56 34,70 Q52,26 72,70 Q82,62 92,70 Q112,118 134,70 L148,70 Q162,56 174,70 Q192,26 212,70 Q222,62 232,70 Q252,118 274,70 L312,70";
+/* 門靜脈 Portal vein（順流以基線上方顯示，重點在 pulsatility） */
+const PV_cont = "M8,44 C40,42 70,46 100,44 C140,42 180,46 220,44 C260,42 290,46 312,44";
+const PV_mild = "M8,44 C28,32 44,56 62,44 C82,32 98,56 116,44 C136,32 152,56 170,44 C190,32 206,56 224,44 C244,32 260,56 278,44 C294,36 304,50 312,44";
+const PV_sev  = "M8,40 C26,18 42,66 60,40 C78,18 94,66 112,40 C130,18 146,66 164,40 C182,18 198,66 216,40 C234,18 250,66 268,40 C284,22 300,60 312,44";
+/* 腎內靜脈 Intrarenal vein（下方為靜脈，上方細線為動脈） */
+const IRV_art = "M8,58 C24,32 34,32 46,58 C60,58 60,58 72,58 C88,32 98,32 110,58 C124,58 124,58 136,58 C152,32 162,32 174,58 C188,58 188,58 200,58 C216,32 226,32 238,58 C252,58 252,58 264,58 C280,32 290,32 302,58 L312,58";
+const IRV_cont= "M8,92 C40,90 70,94 100,92 C140,90 180,94 220,92 C260,90 290,94 312,92";
+const IRV_bi  = "M8,70 Q20,104 32,70 Q44,70 50,70 Q60,96 70,70 L100,70 Q112,104 124,70 Q136,70 142,70 Q152,96 162,70 L192,70 Q204,104 216,70 Q228,70 234,70 Q244,96 254,70 L312,70";
+const IRV_mono= "M8,70 L40,70 Q56,110 72,70 L132,70 Q148,110 164,70 L224,70 Q240,110 256,70 L312,70";
+
+const WaveCard = ({title,sev,path,extra,note,ecg,marks}) => (
+  <div className="wavebox">
+    <div className="lbl"><span>{title}</span><span className={"pill "+sev.c}>{sev.t}</span></div>
+    <Frame ecg={ecg}>{extra}<W d={path}/>{marks}</Frame>
+    <p>{note}</p>
+  </div>
+);
+
+/* ---------------- 內容 ---------------- */
+const Home = () => (
+  <div>
+    <div className="card">
+      <h2><span className="badge">!</span>Take Home（先記這五點）</h2>
+      <ul className="pts">
+        <li><b>VExUS 量的是「鬱血 congestion」，不是「容積 volume」。</b>它回答的是「這個病人還能不能給水」，不是「給水會不會升壓」。</li>
+        <li><b>兩步驟：先篩檢，再分級。</b>IVC 直徑 &lt; 2 cm → 直接 Grade 0，不必再打 Doppler。</li>
+        <li><b>IVC ≥ 2 cm 才進入三條 Doppler</b>：肝靜脈 (HV)、門靜脈 (PV)、腎內靜脈 (IRV)。每條分成 normal / mild / severe。</li>
+        <li><b>分級看「幾條 severe」</b>：0 條 = Grade 1、1 條 = Grade 2、≥2 條 = Grade 3。</li>
+        <li><b>IRV 是對治療反應最敏感、也最晚恢復的一條。</b>減充血時 PV 通常最早改善，腎間質水腫會讓 IRV 波形恢復落後。</li>
+      </ul>
+      <div className="callout">
+        <b>為什麼心臟科要會這個？</b>右心房壓 (RAP) 往後傳到有包膜的器官（腎臟）會造成間質壓上升、腎絲球過濾停止，也就是所謂 congestive nephropathy。這解釋了為什麼很多 cardiorenal syndrome 的 Cr 上升，是「太塞」而不是「太乾」。
+      </div>
+    </div>
+    <div className="card">
+      <h2><span className="badge">◈</span>臨床連結：ESC 2026 這張 poster</h2>
+      <p style={{fontSize:'14px',margin:'0 0 8px'}}>Sapienza / Policlinico Umberto I 的 single-center prospective study（n = 42，worsening HFrEF，用 vericiguat 治療 6 個月）：</p>
+      <ul className="pts">
+        <li>只有 <b>IRVF（intrarenal venous flow）</b>在 6 個月顯著改善（continuous pattern 66.7% → 85.7%，p = 0.021），其他 VExUS 參數沒有。</li>
+        <li>NT-proBNP 1462 → 942 pg/mL（p = 0.047）。</li>
+        <li>Multivariate：baseline RRI ≥ 0.70 或 abnormal hepatic flow → 較不利的腎靜脈型態（OR 0.26 / 0.07，p &lt; 0.001）。</li>
+      </ul>
+      <div className="callout red">
+        <b>讀這張 poster 的態度：</b>n = 42、single-arm、無對照組、無 hard endpoint。作者自己寫的是 <i>hypothesis-generating</i>。可以拿來說「IRVF 是敏感的追蹤指標」，<b>不能</b>說「vericiguat 改善腎靜脈血流動力學」。這是典型 association ≠ causation 的教學素材。
+      </div>
+    </div>
+  </div>
+);
+
+const HowTo = () => (
+  <div>
+    <div className="card">
+      <h2><span className="badge">0</span>掃描前準備 Set-up</h2>
+      <table><tbody>
+        <tr><th style={{width:'32%'}}>探頭 Probe</th><td>Phased array (心臟探頭) 或 curvilinear (腹部探頭)。腎內靜脈用 curvilinear 較好。</td></tr>
+        <tr><th>模式</th><td><b>Pulsed-wave (PW) Doppler</b>。Color Doppler 只用來定位血管。</td></tr>
+        <tr><th>ECG</th><td><b>強烈建議接上同步心電圖</b>。沒有 ECG 會分不出 S 波和 D 波，是最常見的判讀錯誤來源。</td></tr>
+        <tr><th>Sample gate</th><td>2–4 mm，放在血管中央；入射角 (angle of insonation) 盡量 &lt; 60°。</td></tr>
+        <tr><th>Sweep speed</th><td>調慢一點（50–75 mm/s）比較容易看出波形週期。</td></tr>
+        <tr><th>呼吸</th><td>請病人 <b>吐氣末閉氣</b> 再取樣；喘的病人取平靜呼吸中最穩定的 2–3 個週期。</td></tr>
+        <tr><th>Velocity scale</th><td>靜脈流速慢，把 scale 調低（約 20–40 cm/s），wall filter 調低才看得到低速訊號。</td></tr>
+      </tbody></table>
+    </div>
+
+    <div className="card">
+      <h2><span className="badge">1</span>Step 1 — IVC 篩檢（決定要不要繼續）</h2>
+      <div className="stepnum"><div className="n">A</div><div className="t"><b>取像</b>劍突下 (subxiphoid) 縱切，找到 IVC 進入右心房處，往下 1–2 cm 或肝內段測量。</div></div>
+      <div className="stepnum"><div className="n">B</div><div className="t"><b>建議長軸 + 短軸都看</b>，避免 cylinder effect（探頭切偏測到假性狹小）造成低估。</div></div>
+      <div className="stepnum"><div className="n">C</div><div className="t"><b>判讀</b>IVC &gt; 20 mm 代表 RAP 上升。腹部窗不好時可改用 internal jugular vein 評估 RAP。</div></div>
+      <div className="callout green"><b>分流點：</b>IVC &lt; 2 cm → VExUS Grade 0，結束。IVC ≥ 2 cm → 繼續做以下三條 Doppler。</div>
+    </div>
+
+    <div className="card">
+      <h2><span className="badge">2</span>Step 2 — 肝靜脈 Hepatic Vein</h2>
+      <div className="stepnum"><div className="n">A</div><div className="t"><b>視窗</b>右肋間或劍突下，找中肝靜脈 (middle hepatic vein) 匯入 IVC 前 1–2 cm。</div></div>
+      <div className="stepnum"><div className="n">B</div><div className="t"><b>取樣</b>PW gate 放在血管中段，避開匯流口的亂流。</div></div>
+      <div className="stepnum"><div className="n">C</div><div className="t"><b>認波</b>正常有四個波：A、S、V、D。<b>S 和 D 是順流（基線下方）</b>，A 和 V 是逆流（基線上方）。S 對應 CVP 的 x descent、D 對應 y descent。</div></div>
+      <div className="callout"><b>重點：肝靜脈本來就是搏動性的</b>（緊鄰右心房），所以判讀的不是「有沒有搏動」，而是 <b>S 波相對 D 波的高度</b>。</div>
+    </div>
+
+    <div className="card">
+      <h2><span className="badge">3</span>Step 3 — 門靜脈 Portal Vein</h2>
+      <div className="stepnum"><div className="n">A</div><div className="t"><b>視窗</b>右肋間斜切，找肝門 (porta hepatis) 的主門靜脈；門靜脈壁高回音、旁邊有肝動脈與膽管。</div></div>
+      <div className="stepnum"><div className="n">B</div><div className="t"><b>測量</b>量 Vmax 與 Vmin，計算 <b>Portal Vein Pulsatility Fraction (PVPF)</b> = (Vmax − Vmin) / Vmax × 100%。</div></div>
+      <div className="stepnum"><div className="n">C</div><div className="t"><b>判讀</b>正常門靜脈血流是<b>連續、幾乎不搏動</b>的。RAP 逆傳穿過肝竇到達門脈循環，才會出現搏動。</div></div>
+      <table><tbody>
+        <tr><th>PVPF &lt; 30%</th><td>Normal</td></tr>
+        <tr><th>30–49%</th><td>Mild</td></tr>
+        <tr><th>≥ 50%</th><td>Severe</td></tr>
+      </tbody></table>
+    </div>
+
+    <div className="card">
+      <h2><span className="badge">4</span>Step 4 — 腎內靜脈 Intrarenal Vein</h2>
+      <div className="stepnum"><div className="n">A</div><div className="t"><b>視窗</b>右腎（左腎受腸氣干擾較多）冠狀切面，開 color Doppler，<b>把 scale 調到很低</b>才看得到皮髓質交界的 interlobar vessels。</div></div>
+      <div className="stepnum"><div className="n">B</div><div className="t"><b>取樣</b>PW gate 放在 interlobar 區，<b>刻意把動脈和靜脈一起框進來</b>——用上方的動脈波當時間標記，才知道下方的靜脈波落在收縮期還是舒張期。</div></div>
+      <div className="stepnum"><div className="n">C</div><div className="t"><b>順便量 RRI</b>（Renal Resistive Index）=(PSV − EDV)/PSV。ESC 這張 poster 用 <b>RRI ≥ 0.70</b> 當作不利的門檻。</div></div>
+      <div className="callout"><b>波形分級：</b>continuous（正常）→ pulsatile → discontinuous biphasic（S + D 兩個分離的波，中度）→ discontinuous monophasic（只剩 D 波，重度）。</div>
+    </div>
+  </div>
+);
+
+const Waves = () => (
+  <div>
+    <div className="card">
+      <h2><span className="badge">HV</span>肝靜脈 Hepatic Vein</h2>
+      <WaveCard title="Normal：S &gt; D" sev={{c:'n',t:'Normal'}} path={HV_normal} ecg={ECG}
+        marks={[L(24,64,'A','var(--text-muted)'),L(54,100,'S'),L(88,64,'V','var(--text-muted)'),L(112,92,'D')]}
+        note="S 波與 D 波都在基線下方（順流），且 S 波比 D 波深。" />
+      <WaveCard title="Mild：S &lt; D（S 仍在基線下）" sev={{c:'m',t:'Mild'}} path={HV_sd} ecg={ECG}
+        marks={[L(52,86,'S'),L(112,102,'D')]}
+        note="RAP 上升使收縮期回流的壓力梯度變小，S 波變淺但仍為順流。" />
+      <WaveCard title="Severe：S 反轉（S 在基線上方）或 D-only" sev={{c:'s',t:'Severe'}} path={HV_rev} ecg={ECG}
+        marks={[L(54,22,'S 反轉','var(--danger)'),L(116,104,'D')]}
+        note="S 波消失或逆轉；A、S、V 可能融合成單一逆流波，只剩 D 波在基線下方。" />
+      <div className="callout red"><b>陷阱：</b>severe TR 本身就會造成 S 波反轉、RV systolic dysfunction 或中度 TR 會讓 S 波變低——這些與 RAP 高低無關。肝靜脈是三條裡面<b>最容易被右心疾病本身干擾</b>的一條。</div>
+    </div>
+
+    <div className="card">
+      <h2><span className="badge">PV</span>門靜脈 Portal Vein</h2>
+      <WaveCard title="Normal：連續，PVPF &lt; 30%" sev={{c:'n',t:'Normal'}} path={PV_cont}
+        marks={[L(160,36,'幾乎平坦','var(--text-muted)')]}
+        note="正常門靜脈血流連續或僅極輕微搏動。" />
+      <WaveCard title="Mild：PVPF 30–49%" sev={{c:'m',t:'Mild'}} path={PV_mild}
+        note="開始出現週期性起伏，Vmax 與 Vmin 差距擴大。" />
+      <WaveCard title="Severe：PVPF ≥ 50%" sev={{c:'s',t:'Severe'}} path={PV_sev}
+        marks={[L(60,14,'Vmax','var(--danger)'),L(60,78,'Vmin','var(--danger)')]}
+        note="搏動幅度接近或超過一半；極重度可出現舒張期血流反轉 (to-and-fro)。" />
+      <div className="callout"><b>陷阱：</b>瘦的健康年輕人門靜脈本來就可能有搏動（偽陽性）；肝硬化病人即使嚴重鬱血，門靜脈也可能維持不搏動（偽陰性）。</div>
+    </div>
+
+    <div className="card">
+      <h2><span className="badge">IRV</span>腎內靜脈 Intrarenal Vein</h2>
+      <p style={{fontSize:'12.5px',color:'var(--text-muted)',margin:'0 0 6px'}}>上方細波 = 動脈（時間參考），下方 = 靜脈。</p>
+      <WaveCard title="Normal：Continuous" sev={{c:'n',t:'Normal'}} path={IRV_cont}
+        extra={<path d={IRV_art} fill="none" stroke="var(--accent)" strokeWidth="1.5" opacity=".6"/>}
+        note="靜脈血流連續不中斷，整個心動週期都有血流。" />
+      <WaveCard title="Mild：Discontinuous biphasic（S + D）" sev={{c:'m',t:'Mild'}} path={IRV_bi} ecg={ECG}
+        marks={[L(26,116,'S'),L(66,110,'D')]}
+        note="血流被切斷成收縮期與舒張期兩個分離的波。" />
+      <WaveCard title="Severe：Discontinuous monophasic（D-only）" sev={{c:'s',t:'Severe'}} path={IRV_mono} ecg={ECG}
+        marks={[L(56,122,'只剩 D 波','var(--danger)')]}
+        note="每個心動週期只剩一個舒張期波，收縮期完全沒有腎靜脈回流。" />
+      <div className="callout"><b>陷阱：</b>阻塞性尿路病變、慢性腎病本身就會改變腎內血流型態。這也是為什麼 VExUS 要看三條血管——單一條容易被誤導。</div>
+    </div>
+  </div>
+);
+
+const opts = {
+  hv:[['normal','S > D（正常）'],['mild','S < D，S 仍順流（mild）'],['severe','S 反轉或 D-only（severe）'],['na','影像取不到 / 不可判讀']],
+  pv:[['normal','PVPF < 30%（正常）'],['mild','PVPF 30–49%（mild）'],['severe','PVPF ≥ 50%（severe）'],['na','影像取不到 / 不可判讀']],
+  irv:[['normal','Continuous（正常）'],['mild','Discontinuous biphasic（mild）'],['severe','Discontinuous monophasic（severe）'],['na','影像取不到 / 不可判讀']]
+};
+const Calc = () => {
+  const [ivc,setIvc]=useState(''),[hv,setHv]=useState(''),[pv,setPv]=useState(''),[irv,setIrv]=useState('');
+  const [vmax,setVmax]=useState(''),[vmin,setVmin]=useState('');
+  const done = ivc && (ivc==='small' || (hv&&pv&&irv));
+  let grade=null,txt='';
+  if(done){
+    if(ivc==='small'){grade=0;txt='IVC < 2 cm：無明顯全身靜脈鬱血。';}
+    else{
+      const sev=[hv,pv,irv].filter(x=>x==='severe').length;
+      grade = sev>=2?3:(sev===1?2:1);
+      txt = grade===1?'IVC ≥ 2 cm，但無任何 severe 波形 → 輕度鬱血。'
+          : grade===2?'IVC ≥ 2 cm + 1 條 severe → 中度鬱血。'
+          : 'IVC ≥ 2 cm + ≥2 條 severe → 重度鬱血，器官損傷風險高。';
+    }
+  }
+  const advice=['臨床上可視需要給液體，仍需整合其他血行動力學參數。','建議追蹤；給液體前需謹慎評估。','已達中度鬱血：避免常規給液，應考慮減充血 (decongestion)。','重度鬱血 = fluid intolerance。給液體很可能惡化器官功能；優先考慮 diuretics / ultrafiltration / inotropes / 針對病因處理。'];
+  const pvpf = (vmax&&vmin&&parseFloat(vmax)>0)?(((parseFloat(vmax)-parseFloat(vmin))/parseFloat(vmax))*100):null;
+  return (
+    <div>
+      <div className="card">
+        <h2><span className="badge">Σ</span>VExUS 分級計算</h2>
+        <label className="fl">1. IVC 直徑（劍突下長軸）</label>
+        <select value={ivc} onChange={e=>{setIvc(e.target.value);}}>
+          <option value="">-- 請選擇 --</option>
+          <option value="small">&lt; 2 cm</option>
+          <option value="big">≥ 2 cm</option>
+        </select>
+        {ivc==='big' && <div>
+          <label className="fl">2. 肝靜脈 Hepatic vein</label>
+          <select value={hv} onChange={e=>setHv(e.target.value)}><option value="">-- 請選擇 --</option>{opts.hv.map(o=><option key={o[0]} value={o[0]}>{o[1]}</option>)}</select>
+          <label className="fl">3. 門靜脈 Portal vein</label>
+          <select value={pv} onChange={e=>setPv(e.target.value)}><option value="">-- 請選擇 --</option>{opts.pv.map(o=><option key={o[0]} value={o[0]}>{o[1]}</option>)}</select>
+          <label className="fl">4. 腎內靜脈 Intrarenal vein</label>
+          <select value={irv} onChange={e=>setIrv(e.target.value)}><option value="">-- 請選擇 --</option>{opts.irv.map(o=><option key={o[0]} value={o[0]}>{o[1]}</option>)}</select>
+        </div>}
+        {ivc==='small' && <div className="callout green">IVC &lt; 2 cm 直接判定 Grade 0，不需再做三條 Doppler。</div>}
+        {done && <div className={"result g"+grade}>
+          <h3>VExUS Grade {grade}</h3>
+          <p>{txt}</p>
+          <p style={{marginTop:'8px',fontWeight:600}}>{advice[grade]}</p>
+        </div>}
+        {done && [hv,pv,irv].includes('na') && <div className="callout"><b>注意：</b>有血管無法判讀時，原始評分系統並未定義處理方式。實務上建議記錄「無法評估」並以可判讀的血管加上臨床脈絡解讀，不要當作 normal 計分。</div>}
+      </div>
+
+      <div className="card">
+        <h2><span className="badge">%</span>PVPF 計算器</h2>
+        <p style={{fontSize:'13px',margin:'0'}}>PVPF = (Vmax − Vmin) / Vmax × 100%</p>
+        <label className="fl">Vmax (cm/s)</label>
+        <input type="number" inputMode="decimal" value={vmax} onChange={e=>setVmax(e.target.value)} placeholder="例如 28"/>
+        <label className="fl">Vmin (cm/s)</label>
+        <input type="number" inputMode="decimal" value={vmin} onChange={e=>setVmin(e.target.value)} placeholder="例如 12"/>
+        {pvpf!==null && !isNaN(pvpf) && <div className={"result "+(pvpf>=50?'g3':(pvpf>=30?'g1':'g0'))}>
+          <h3>{pvpf.toFixed(1)}%</h3>
+          <p>{pvpf>=50?'Severe（≥ 50%）':(pvpf>=30?'Mild（30–49%）':'Normal（< 30%）')}</p>
+        </div>}
+      </div>
+
+      <div className="card">
+        <h2><span className="badge">☰</span>分級對照表</h2>
+        <table><tbody>
+          <tr><th>Grade 0</th><td>IVC &lt; 2 cm（無鬱血）</td></tr>
+          <tr><th>Grade 1</th><td>IVC ≥ 2 cm + 波形正常或僅 mild</td></tr>
+          <tr><th>Grade 2</th><td>IVC ≥ 2 cm + <b>1 條</b> severe</td></tr>
+          <tr><th>Grade 3</th><td>IVC ≥ 2 cm + <b>≥ 2 條</b> severe</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+  );
+};
+
+const Pitfalls = () => (
+  <div>
+    <div className="card">
+      <h2><span className="badge">⚠</span>常見錯誤與陷阱</h2>
+      <table><tbody>
+        <tr><th style={{width:'30%'}}>沒接 ECG</th><td>分不出 S 波與 D 波，會把 S&lt;D 誤判成正常，或把 biphasic 誤判成 monophasic。<b>這是最常見的錯誤。</b></td></tr>
+        <tr><th>Severe TR</th><td>不論 RAP 多少，都會造成肝靜脈 S 波反轉 → 高估鬱血。做 VExUS 前先看 TR 嚴重度。</td></tr>
+        <tr><th>心房顫動 AF</th><td>沒有 A 波、心律不整使波形每拍不同；取多個週期並描述典型型態。</td></tr>
+        <tr><th>肝硬化 / 門脈高壓</th><td>門靜脈可能維持不搏動 → <b>低估</b>鬱血。</td></tr>
+        <tr><th>瘦的健康人</th><td>門靜脈可有生理性搏動 → <b>高估</b>鬱血。</td></tr>
+        <tr><th>CKD / 阻塞性尿路病變</th><td>腎內靜脈波形本身即異常，難以歸因於鬱血。</td></tr>
+        <tr><th>IVC 切偏 (cylinder effect)</th><td>長軸切偏會低估直徑；長短軸都要看。</td></tr>
+        <tr><th>把 VExUS 當 volume status</th><td>肺高壓、RV infarct、心包填塞造成的是<b>壓力超載</b>而非容積過多，利尿反而可能有害。</td></tr>
+      </tbody></table>
+    </div>
+    <div className="card">
+      <h2><span className="badge">◎</span>怎麼把結果用在臨床</h2>
+      <ul className="pts">
+        <li><b>Grade 2–3 = fluid intolerance 的訊號。</b>此時給液體很可能惡化器官功能，應轉向減充血策略。</li>
+        <li><b>減充血 ≠ 一定要脫水。</b>依病因選擇：diuretics / ultrafiltration、inotropes（右心衰竭）、pulmonary vasodilator（肺高壓）、pericardiocentesis（填塞）。</li>
+        <li><b>連續追蹤比單次數值有價值。</b>波形是動態的，利尿數小時內就可能改變。</li>
+        <li><b>恢復順序：</b>門靜脈通常最早改善，腎內靜脈因腎間質水腫恢復最慢。</li>
+        <li><b>永遠要放回臨床脈絡。</b>VExUS 是拼圖的一片，不是取代病史、理學檢查、心超與實驗室數據。</li>
+      </ul>
+    </div>
+  </div>
+);
+
+const QUESTIONS=[
+ {q:'一位 HFrEF 病人，IVC 測得 1.6 cm。接下來應該？',
+  o:['直接判定 VExUS Grade 0，不必做三條 Doppler','仍需做肝、門、腎靜脈 Doppler 才能分級','若肝靜脈 S<D 則升為 Grade 1','改測 internal jugular vein 才能分級'],
+  a:0,e:'IVC < 2 cm 即為 Grade 0。IVC 是篩檢步驟，未達 2 cm 就不進入 Doppler 分級。'},
+ {q:'肝靜脈 Doppler 判讀時，為什麼強烈建議同步接上 ECG？',
+  o:['為了計算心輸出量','為了偵測心律不整','為了正確辨認 S 波與 D 波','為了同步測量 RRI'],
+  a:2,e:'沒有 ECG 時間參考，S 波與 D 波極易誤認，是判讀錯誤最常見的來源。'},
+ {q:'門靜脈 Vmax = 30 cm/s、Vmin = 18 cm/s，PVPF 與分級為何？',
+  o:['40%，mild','60%，severe','25%，normal','12%，normal'],
+  a:0,e:'PVPF = (30 − 18) / 30 × 100 = 40%，落在 30–49% 區間，屬於 mild。'},
+ {q:'IVC 2.4 cm、肝靜脈 S<D（mild）、門靜脈 PVPF 55%（severe）、腎內靜脈 monophasic（severe）。VExUS grade？',
+  o:['Grade 1','Grade 2','Grade 3','Grade 0'],
+  a:2,e:'IVC ≥ 2 cm 且有 2 條 severe（PV 與 IRV）→ Grade 3。'},
+ {q:'下列哪一種情況會造成肝靜脈 S 波反轉，但與 RAP 高低無關？',
+  o:['嚴重三尖瓣逆流 severe TR','慢性腎病','肥胖','低白蛋白血症'],
+  a:0,e:'Severe TR 本身就造成收縮期逆流，會高估鬱血程度。做 VExUS 前應先確認 TR 嚴重度。'},
+ {q:'一位肝硬化併腹水的病人，門靜脈呈現連續無搏動波形。最合理的解讀是？',
+  o:['確定沒有靜脈鬱血','門靜脈訊號在肝硬化可能失去搏動，需以肝、腎靜脈與臨床脈絡綜合判斷','應改測左腎','代表 VExUS Grade 3'],
+  a:1,e:'肝硬化會使門靜脈即使在嚴重鬱血下仍不搏動（偽陰性）。多血管評估正是為了抵銷單一血管的限制。'},
+ {q:'關於 ESC 2026 那份 vericiguat + VExUS 研究，最恰當的結論是？',
+  o:['證明 vericiguat 改善腎靜脈血流動力學','證明 IRVF 可作為預後指標','屬於 hypothesis-generating 的單中心無對照研究，僅顯示 6 個月時 IRVF 有改善之關聯','應改變現行 HFrEF 治療流程'],
+  a:2,e:'n = 42、單中心、無對照組、無 hard endpoint，作者自己也定位為 hypothesis-generating，需要多中心對照研究確認。'},
+ {q:'減充血治療後，哪一條血管的波形通常最晚恢復正常？',
+  o:['肝靜脈','門靜脈','腎內靜脈','IVC'],
+  a:2,e:'門靜脈通常最早改善；腎間質水腫會使腎內靜脈波形恢復落後。'}
+];
+const Quiz = () => {
+  const [i,setI]=useState(0),[sel,setSel]=useState(null),[show,setShow]=useState(false),[score,setScore]=useState(0),[fin,setFin]=useState(false);
+  const q=QUESTIONS[i];
+  const pick=(n)=>{if(show)return;setSel(n);setShow(true);if(n===q.a)setScore(s=>s+1);};
+  const next=()=>{if(i<QUESTIONS.length-1){setI(i+1);setSel(null);setShow(false);}else setFin(true);};
+  const reset=()=>{setI(0);setSel(null);setShow(false);setScore(0);setFin(false);};
+  if(fin) return (<div className="card"><h2><span className="badge">✓</span>測驗結果</h2>
+    <div className={"result "+(score>=6?'g0':score>=4?'g1':'g3')}><h3>{score} / {QUESTIONS.length}</h3>
+    <p>{score>=6?'掌握良好，可以上機實作了。':score>=4?'基本觀念有了，建議再看一次波形與陷阱。':'建議重讀「掃描步驟」與「波形判讀」兩節。'}</p></div>
+    <button className="btn" style={{marginTop:'14px'}} onClick={reset}>重新測驗</button></div>);
+  return (<div className="card">
+    <div className="progress"><div style={{width:((i+1)/QUESTIONS.length*100)+'%'}}/></div>
+    <p style={{fontSize:'12.5px',color:'var(--text-muted)',margin:'0 0 6px'}}>第 {i+1} / {QUESTIONS.length} 題</p>
+    <p style={{fontWeight:600,fontSize:'15px',margin:'0 0 10px'}}>{q.q}</p>
+    {q.o.map((o,n)=><button key={n} className={"opt "+(show?(n===q.a?'correct':(n===sel?'wrong':'')):(n===sel?'sel':''))} onClick={()=>pick(n)}>{o}</button>)}
+    {show && <div className="callout" style={{marginTop:'12px'}}>
+      <b>{sel===q.a?'✅ 正確':'❌ 再想一下'}</b><br/>{q.e}
+      <div style={{marginTop:'10px'}}><button className="btn" onClick={next}>{i<QUESTIONS.length-1?'下一題':'看結果'}</button></div>
+    </div>}
+  </div>);
+};
+
+const Refs = () => (
+  <div className="card">
+    <h2><span className="badge">§</span>參考文獻</h2>
+    <div className="ref">Beaubien-Souligny W, et al. Quantifying systemic congestion with point-of-care ultrasound: development of the venous excess ultrasound grading system. <i>Ultrasound J</i> 2020;12:16. <a href="https://doi.org/10.1186/s13089-020-00163-w">doi:10.1186/s13089-020-00163-w</a></div>
+    <div className="ref">Rola P, et al. Clinical applications of the venous excess ultrasound (VExUS) score: conceptual review and case series. <i>Ultrasound J</i> 2021;13:32. <a href="https://doi.org/10.1186/s13089-021-00232-8">doi:10.1186/s13089-021-00232-8</a></div>
+    <div className="ref">Argaiz ER, Miralles F, Koratala A. POCUS spotlight: venous excess ultrasound score (VExUS). <i>ASRA Pain Medicine News</i> 2023;48. <a href="https://doi.org/10.52211/asra080123.010">doi:10.52211/asra080123.010</a></div>
+    <div className="ref">Beaubien-Souligny W, et al. Alterations in portal vein flow and intrarenal venous flow are associated with acute kidney injury after cardiac surgery. <i>J Am Heart Assoc</i> 2018;7:e009961. <a href="https://doi.org/10.1161/JAHA.118.009961">doi:10.1161/JAHA.118.009961</a></div>
+    <div className="ref">Iida N, et al. Clinical implications of intrarenal hemodynamic evaluation by Doppler ultrasonography in heart failure. <i>JACC Heart Fail</i> 2016;4:674-82. <a href="https://doi.org/10.1016/j.jchf.2016.03.016">doi:10.1016/j.jchf.2016.03.016</a></div>
+    <div className="ref">Husain-Syed F, et al. Doppler-derived renal venous stasis index in the prognosis of right heart failure. <i>J Am Heart Assoc</i> 2019;8:e013584. <a href="https://doi.org/10.1161/JAHA.119.013584">doi:10.1161/JAHA.119.013584</a></div>
+    <div className="ref">Argaiz ER, Rola P, Haycock KH, et al. Fluid management in acute kidney injury: from evaluating fluid responsiveness towards assessment of fluid tolerance. <i>Eur Heart J Acute Cardiovasc Care</i> 2022;11:786-93. <a href="https://doi.org/10.1093/ehjacc/zuac104">doi:10.1093/ehjacc/zuac104</a></div>
+    <div className="ref">D'Amato A, Ferranti F, et al. Assessment of venous congestion in HFrEF using VExUS in a cohort of patients treated with vericiguat. Poster, <i>ESC Congress 2026, Munich</i>.</div>
+    <div className="callout" style={{marginTop:'14px'}}>本頁的 Doppler 波形皆為<b>示意圖 (schematic)</b>，用於說明型態差異，非實際超音波影像。實際判讀請以床邊影像為準。</div>
+  </div>
+);
+
+const TABS=[['home','🏠','Take Home'],['how','🔍','掃描步驟'],['wave','〰️','波形判讀'],['calc','🧮','分級'],['pit','⚠️','陷阱'],['quiz','✏️','測驗'],['ref','📚','文獻']];
+const App = () => {
+  const [tab,setTab]=useState('home');
+  const [dark,setDark]=useState(false);
+  useEffect(()=>{const s=localStorage.getItem('vexus-tab');if(s)setTab(s);const d=localStorage.getItem('vexus-dark');if(d==='1'){setDark(true);}},[]);
+  useEffect(()=>{localStorage.setItem('vexus-tab',tab);window.scrollTo(0,0);},[tab]);
+  useEffect(()=>{document.documentElement.classList.toggle('dark',dark);localStorage.setItem('vexus-dark',dark?'1':'0');},[dark]);
+  return (<div className="app">
+    <div className="wrap-rel">
+      <header className="hero">
+        <h1>VExUS 靜脈鬱血超音波</h1>
+        <p>Venous Excess Ultrasound · 從掃描手法到分級判讀</p>
+        <div style={{marginTop:'8px'}}>
+          <span className="tag en" style={{background:'rgba(255,255,255,.2)',color:'#fff'}}>Heart Failure</span>
+          <span className="tag en" style={{background:'rgba(255,255,255,.2)',color:'#fff'}}>Cardiorenal</span>
+          <span className="tag en" style={{background:'rgba(255,255,255,.2)',color:'#fff'}}>POCUS</span>
+        </div>
+      </header>
+      <button className="theme-btn" onClick={()=>setDark(d=>!d)}>{dark?'☀️ 亮':'🌙 暗'}</button>
+    </div>
+    {tab==='home'&&<Home/>}{tab==='how'&&<HowTo/>}{tab==='wave'&&<Waves/>}
+    {tab==='calc'&&<Calc/>}{tab==='pit'&&<Pitfalls/>}{tab==='quiz'&&<Quiz/>}{tab==='ref'&&<Refs/>}
+    <footer className="sig">
+      讀書會共筆整理人<br/><b>謝慕揚 醫師 MD, PhD, FESC</b><br/>心臟衰竭與重症超音波<br/><br/>
+      · 本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br/>
+      · 僅供學術與教育用途，不代表任何單位之官方立場<br/>
+      · 本內容未涉及任何利益衝突
+    </footer>
+    <nav className="tabs">
+      {TABS.map(t=><button key={t[0]} className={tab===t[0]?'on':''} onClick={()=>setTab(t[0])}>
+        <span className="ic">{t[1]}</span><span>{t[2]}</span></button>)}
+    </nav>
+  </div>);
+};
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>
