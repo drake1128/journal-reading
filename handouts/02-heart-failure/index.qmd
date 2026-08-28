@@ -1,8 +1,15 @@
 ---
 title: "心衰竭 — Heart Failure"
+resources:
+  - "Entresto_Journey_at_10.html"
+  - "Entresto_Journey_at_10_Mobile.html"
+  - "VExUS_Venous_Congestion_Ultrasound.html"
 ---
 
 ## 互動投影片 Interactive Slides
+
+- **[VExUS 靜脈鬱血超音波 — Venous Excess Ultrasound (互動網頁，可手機開啟)](VExUS_Venous_Congestion_Ultrasound.html){target="_blank"}**
+  *從掃描手法到分級判讀：IVC 篩檢 → 肝靜脈／門靜脈／腎內靜脈三條 Doppler 的取像與判讀，附 SVG 示意波形（normal / mild / severe）、VExUS 分級計算器與 PVPF 計算器、常見陷阱（severe TR、肝硬化、CKD、cylinder effect）與 8 題自我測驗。含 ESC 2026 vericiguat + IRVF poster 的批判性導讀。*
 
 - [Entresto Journey at 10 — 投影片 (16:9, 41 張)](Entresto_Journey_at_10.html)
 - [Entresto @ 10 — 手機閱讀版 Mobile Reader (直式 / 橫式, iPhone)](Entresto_Journey_at_10_Mobile.html)

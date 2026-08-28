@@ -65,6 +65,8 @@ website:
               href: handouts/02-heart-failure/Entresto_Journey_at_10.html
             - text: "Entresto @ 10 — 手機閱讀版 Mobile Reader (直式 / 橫式, iPhone, 40 頁)"
               href: handouts/02-heart-failure/Entresto_Journey_at_10_Mobile.html
+            - text: "VExUS 靜脈鬱血超音波 — 從掃描手法到分級判讀 (互動網頁, 手機可開啟)"
+              href: handouts/02-heart-failure/VExUS_Venous_Congestion_Ultrasound.html
             - text: "HFpEF 診斷陷阱與瓣膜病鑑別（AS/MR 是不是 HFpEF？）"
               href: "handouts/02-heart-failure/HFpEF 診斷陷阱與瓣膜病鑑別 教學講義.md"
             - handouts/02-heart-failure/nejm-biovat-hf-stem-cell-heart-failure-2026/index.qmd
@@ -532,6 +534,8 @@ website:
               href: handouts/99-misc/Clinical_Uncertainty_Teaching_Module.html
             - text: "臨床補救教學藍圖 — 臨床推理 × 專業素養雙軌 (互動網頁)"
               href: handouts/99-misc/Clinical_Remediation_Blueprint.html
+            - text: "Come with Me on a Taxi Ride — AMEE 2026 Ronald Harden Plenary 共筆 (互動網頁)"
+              href: handouts/99-misc/AMEE_2026_Harden_Plenary_Taxi_Ride.html
             - handouts/99-misc/acls-team-work/index.qmd
             - handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.qmd
             - handouts/99-misc/book-cardiovascular-care-for-neurologists/index.qmd
