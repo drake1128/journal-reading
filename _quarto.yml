@@ -47,6 +47,8 @@ website:
               href: "handouts/01-ischemic-heart-disease/Door-to-Balloon 與 Door-to-Needle 時間改善 教學講義.md"
             - text: "From A to A⁺ — STEMI Door-to-Balloon / Door-to-ECG 品質改善（互動投影片, 英文, 39 張）"
               href: handouts/01-ischemic-heart-disease/STEMI_D2B_Improvement.html
+            - text: "PCI 後氧化磷脂與 Lp(a) 的急性上升（Tsimikas, Circulation 2004 機轉導讀）"
+              href: "handouts/01-ischemic-heart-disease/PCI 後 OxPL 與 Lp(a) 急性上升 教學講義.md"
             - handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.qmd
             - handouts/01-ischemic-heart-disease/acs-book-early-diagnosis-of-ami/index.qmd
             - handouts/01-ischemic-heart-disease/acs-er-protocol/index.qmd
@@ -67,6 +69,14 @@ website:
               href: handouts/02-heart-failure/Entresto_Journey_at_10_Mobile.html
             - text: "VExUS 靜脈鬱血超音波 — 從掃描手法到分級判讀 (互動網頁, 手機可開啟)"
               href: handouts/02-heart-failure/VExUS_Venous_Congestion_Ultrasound.html
+            - text: "心衰竭 14 天整合照護 Pathway — Pathway × 心臟復健 (互動網頁, 護理／復健／家屬三種讀法)"
+              href: handouts/02-heart-failure/HF_14Day_Integrated_Care_Pathway.html
+            - text: "運動訓練與 Frailty 逆轉 — 心衰竭復健文獻導讀 (讀書會共筆, 互動網頁)"
+              href: handouts/02-heart-failure/HF_Exercise_Training_Frailty_Reversal.html
+            - text: "藥師主導的遠距 GDMT 優化 — 品質改善計畫 (投影片式互動網頁, 20 張)"
+              href: handouts/02-heart-failure/Pharmacist_Led_Remote_GDMT_QI.html
+            - text: "懷孕期肺水腫的鑑別診斷 (2025 ESC Pregnancy 指引, 互動網頁, 手機可開啟)"
+              href: handouts/02-heart-failure/Pulmonary_Oedema_in_Pregnancy_DDx.html
             - text: "HFpEF 診斷陷阱與瓣膜病鑑別（AS/MR 是不是 HFpEF？）"
               href: "handouts/02-heart-failure/HFpEF 診斷陷阱與瓣膜病鑑別 教學講義.md"
             - handouts/02-heart-failure/nejm-biovat-hf-stem-cell-heart-failure-2026/index.qmd
@@ -97,6 +107,8 @@ website:
             - handouts/04-valvular-disease/index.qmd
             - text: "M-TEER 術中影像導引 — 2026 ASE Guidelines (互動網頁, 27 圖)"
               href: handouts/04-valvular-disease/M-TEER_Intraprocedural_Imaging_ASE2026.html
+            - text: "M-TEER 後的 Strain Imaging — 執行與判讀 (ESC 2026 共筆, 互動網頁)"
+              href: handouts/04-valvular-disease/M-TEER_Strain_Imaging.html
             - handouts/04-valvular-disease/pascal-teer-teaching/index.qmd
             - handouts/04-valvular-disease/mitraclip-atlas-ch04-patient-selection/index.qmd
             - handouts/04-valvular-disease/jacc-adv-valvular-cardiogenic-shock-2024/index.qmd
@@ -135,6 +147,10 @@ website:
               href: handouts/05-cardiac-imaging/High_Lateral_STEMI_ECG_Teaching.html
             - text: "左心室壁貼壁血栓與中風 — 反覆中風卻沒有 Afib (互動投影片, 35 張)"
               href: handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
+            - text: "LVEF 不是全部 — 心超室教學：從 Echo 到 CPET (互動教學網頁)"
+              href: handouts/05-cardiac-imaging/LVEF_Not_Everything_Echo_to_CPET.html
+            - text: "MAD 辨識與量測 Mitral Annular Disjunction (超音波室教學, 互動網頁)"
+              href: handouts/05-cardiac-imaging/MAD_Mitral_Annular_Disjunction.html
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns/index.qmd
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-2/index.qmd
             - handouts/05-cardiac-imaging/checklist-icu-pocus/index.qmd
@@ -282,6 +298,8 @@ website:
             - handouts/08-genetic-medicine/index.qmd
             - text: "★ 基因體醫學入門系列 — 教材中心 & 課程大綱"
               href: handouts/08-genetic-medicine/genomic-medicine-intro-series/index.qmd
+            - text: "心肌病變的基因檢測 — 病人家屬 × 臨床同仁雙軌 (互動衛教／教學網頁)"
+              href: handouts/08-genetic-medicine/Cardiomyopathy_Genetic_Testing.html
             - handouts/08-genetic-medicine/nejm-verve-102-pcsk9-base-editing-2026/index.qmd
         - section: "高血壓 Hypertension"
           contents:
@@ -377,6 +395,8 @@ website:
               href: "handouts/90-ai-technology/機組資源管理 CRM — 駕馭 AI 的自動化悖論 教學講義.md"
             - text: "通用 LLM 勝過專用臨床 AI 工具（Nature Medicine 2026 盲化評比）"
               href: "handouts/90-ai-technology/通用 LLM 勝過專用臨床 AI 工具 Nature Medicine 2026 教學講義.md"
+            - text: "醫學研究使用大型語言模型的實務指引（NIH/NLM, Nature Protocols 2026 Tutorial）"
+              href: "handouts/90-ai-technology/醫學研究使用大型語言模型 實務指引 教學講義.md"
             - text: "用 AI 處理行政事務：從 Claude Desktop 到 Claude Code (互動簡報, 25 張)"
               href: handouts/90-ai-technology/AI_Admin_Workflows_Desktop_to_Code.html
             - text: "AI 數位科技應用於醫學教育 (簡報)"

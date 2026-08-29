@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>心肌病變基因檢測 — 病人、家屬與臨床同仁教學</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#e74c3c; --accent-light:#ff6b5b;
+  --success:#27ae60; --warning:#f39c12; --bg-cream:#faf8f5; --bg-card:#ffffff;
+  --text-dark:#2c3e50; --text-muted:#7f8c8d; --border:#ecf0f1; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;font-family:'Noto Sans TC',system-ui,sans-serif;background:var(--bg-cream);color:var(--text-dark);line-height:1.75}
+.app{max-width:860px;margin:0 auto;padding:0 0 env(safe-area-inset-bottom)}
+header{background:linear-gradient(135deg,var(--primary),var(--primary-light));color:#fff;padding:26px 20px 22px}
+header h1{margin:0 0 6px;font-size:20px;font-weight:700;line-height:1.4}
+header p{margin:0;font-size:13px;opacity:.85}
+.tabs{display:flex;background:var(--bg-card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:20}
+.tab{flex:1;min-height:52px;border:0;background:none;font-family:inherit;font-size:15px;font-weight:600;
+  color:var(--text-muted);cursor:pointer;border-bottom:3px solid transparent;padding:10px 6px}
+.tab.on{color:var(--primary);border-bottom-color:var(--accent)}
+main{padding:18px 16px 60px}
+.card{background:var(--bg-card);border-radius:14px;padding:18px;margin-bottom:16px;box-shadow:var(--shadow)}
+.card h2{margin:0 0 12px;font-size:17px;color:var(--primary);display:flex;align-items:center;gap:8px}
+.card h3{margin:18px 0 8px;font-size:15px;color:var(--primary-light)}
+.card p{margin:0 0 12px;font-size:15px}
+.lead{font-size:16px;font-weight:500}
+.muted{color:var(--text-muted);font-size:13.5px}
+.pill{display:inline-block;background:#eef3f8;color:var(--primary);border-radius:999px;
+  padding:3px 11px;font-size:12px;font-weight:600;margin:0 6px 6px 0}
+.pill.red{background:#fdecea;color:#c0392b}
+.pill.green{background:#e8f8f0;color:#1e8449}
+.pill.amber{background:#fef5e7;color:#b9770e}
+.step{display:flex;gap:13px;margin-bottom:16px;align-items:flex-start}
+.step .n{flex:0 0 32px;height:32px;border-radius:50%;background:var(--primary);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px}
+.step .b{flex:1}
+.step .b strong{display:block;margin-bottom:3px;font-size:15px}
+.step .b span{font-size:14px;color:var(--text-muted)}
+.note{border-left:4px solid var(--warning);background:#fffbf2;padding:12px 14px;border-radius:0 10px 10px 0;
+  font-size:14px;margin:14px 0}
+.note.red{border-left-color:var(--accent);background:#fef6f5}
+.note.green{border-left-color:var(--success);background:#f2fbf6}
+.note strong{color:var(--primary)}
+.item{min-height:48px;display:flex;gap:11px;align-items:flex-start;padding:12px;border:1px solid var(--border);
+  border-radius:10px;margin-bottom:9px;cursor:pointer;transition:.15s;font-size:14.5px;background:#fff}
+.item:active{transform:scale(.99)}
+.item.on{border-color:var(--success);background:#f2fbf6}
+.box{flex:0 0 22px;height:22px;border:2px solid #cfd8dc;border-radius:6px;margin-top:1px;
+  display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff}
+.item.on .box{background:var(--success);border-color:var(--success)}
+.gene{border:1px solid var(--border);border-radius:11px;padding:14px;margin-bottom:11px}
+.gene .g{font-size:16px;font-weight:700;color:var(--accent);letter-spacing:.4px}
+.gene .sub{font-size:12.5px;color:var(--text-muted);margin-bottom:8px}
+.gene p{font-size:14px;margin:0 0 8px}
+.gene .ref{font-size:12px;color:var(--text-muted)}
+.gene .ref a{color:var(--primary-light)}
+details{border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin-bottom:9px;background:#fff}
+summary{cursor:pointer;font-weight:600;font-size:14.5px;min-height:24px}
+details p{margin:10px 0 0;font-size:14px}
+.q{margin-bottom:12px;font-size:15.5px;font-weight:500}
+.opt{display:block;width:100%;text-align:left;min-height:48px;padding:12px 14px;margin-bottom:8px;
+  border:1px solid var(--border);border-radius:10px;background:#fff;font-family:inherit;font-size:14.5px;cursor:pointer}
+.opt.ok{border-color:var(--success);background:#e8f8f0}
+.opt.no{border-color:var(--accent);background:#fdecea}
+.exp{background:#f4f7fa;border-radius:10px;padding:13px;font-size:14px;margin-top:6px}
+.bar{height:6px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:14px}
+.bar div{height:100%;background:var(--accent);transition:.3s}
+.btn{min-height:48px;padding:12px 22px;border:0;border-radius:10px;background:var(--primary);color:#fff;
+  font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;margin-top:10px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0}
+th,td{border:1px solid var(--border);padding:9px;text-align:left;vertical-align:top}
+th{background:#f4f7fa;color:var(--primary);font-weight:600}
+.flow{width:100%;height:auto;display:block;margin:6px 0 4px}
+footer{background:var(--primary);color:#fff;padding:22px 18px 30px;font-size:12.5px;line-height:1.9}
+footer .sig{font-weight:600;margin-bottom:10px;font-size:13.5px}
+footer .dis{opacity:.8}
+ul{margin:0 0 12px;padding-left:20px;font-size:14.5px}
+li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState} = React;
+
+/* ---------------- 病人與家屬版 ---------------- */
+const PatientView = () => (
+<div>
+  <div className="card">
+    <h2>這份說明是給誰看的</h2>
+    <p className="lead">如果您或您的家人被診斷為「心肌病變 (cardiomyopathy)」，特別是<strong>擴張型心肌病變 (dilated cardiomyopathy, DCM)</strong>，醫師可能會和您討論基因檢測。</p>
+    <p>這份說明會告訴您：為什麼要驗、怎麼驗、驗出來的結果代表什麼，以及家人需要做什麼。</p>
+    <div className="note">
+      <strong>先說明最重要的一點：</strong>基因檢測是一個「選項」，不是每位心臟衰竭的病人都需要做。是否適合，要由您的主治醫師依照您的診斷與家族史來判斷。
+    </div>
+  </div>
+
+  <div className="card">
+    <h2>什麼是心肌病變</h2>
+    <p>心臟的肌肉本身出現問題，導致心臟變大、收縮力下降，或心跳節律不穩定。</p>
+    <p>造成心肌病變的原因很多——冠狀動脈阻塞、長期高血壓、瓣膜疾病、病毒感染、化學治療藥物、酒精等等。<strong>其中有一部分，是由遺傳基因的變異所引起的。</strong></p>
+    <p className="muted">遺傳性的心肌病變可能在家族中一代傳一代，有些家人已經發病，有些家人則帶有基因但還沒有症狀。</p>
+  </div>
+
+  <div className="card">
+    <h2>為什麼醫師建議做基因檢測</h2>
+    <div className="step"><div className="n">1</div><div className="b">
+      <strong>讓家人可以及早發現</strong>
+      <span>這是最主要的理由。若找到明確的致病基因，兄弟姊妹、子女、父母就能用一個簡單而便宜的檢測確認自己有沒有帶到，及早追蹤。</span></div></div>
+    <div className="step"><div className="n">2</div><div className="b">
+      <strong>影響治療的決策</strong>
+      <span>有少數幾個基因，帶因者發生嚴重心律不整的風險特別高，即使心臟收縮功能還沒有明顯下降。若驗到這些基因，醫師會更早考慮裝置去顫器 (ICD) 來預防猝死。</span></div></div>
+    <div className="step"><div className="n">3</div><div className="b">
+      <strong>找到真正的病因</strong>
+      <span>有時候基因檢測會解釋為什麼病情和一般的心臟衰竭不太一樣，也可能改變追蹤與用藥的方式。</span></div></div>
+  </div>
+
+  <div className="card">
+    <h2>檢查的流程</h2>
+    <div className="step"><div className="n">1</div><div className="b">
+      <strong>先確認診斷</strong>
+      <span>心臟超音波確認心臟擴大與收縮功能，必要時安排心臟磁振造影 (Cardiac MRI) 看心肌有沒有纖維化。</span></div></div>
+    <div className="step"><div className="n">2</div><div className="b">
+      <strong>排除冠狀動脈阻塞</strong>
+      <span>因為血管阻塞造成的心臟衰竭最常見，必須先排除。醫師會依您的年齡與風險，安排電腦斷層血管攝影 (CCTA) 或心導管檢查。</span></div></div>
+    <div className="step"><div className="n">3</div><div className="b">
+      <strong>由已經生病的那一位先驗</strong>
+      <span>這一步很關鍵。<strong>要從已經確診的病人開始檢測</strong>，不是從健康的家屬開始。因為只有在病人身上找到明確的變異，家屬的檢測才有意義。</span></div></div>
+    <div className="step"><div className="n">4</div><div className="b">
+      <strong>找到了，家人才需要驗</strong>
+      <span>若病人身上找到明確的致病基因，家人只需要針對「那一個點」做檢測，快速、便宜、結果明確。</span></div></div>
+    <div className="note green">
+      <strong>抽血就可以：</strong>基因檢測本身只需要抽一管血，不需要住院，也沒有侵入性的風險。
+    </div>
+  </div>
+
+  <div className="card">
+    <h2>結果可能有三種</h2>
+    <p><span className="pill red">陽性</span>找到明確的致病變異。可以據此安排家屬篩檢，醫師也會依據是哪一個基因調整追蹤與治療策略。</p>
+    <p><span className="pill green">陰性</span>沒有找到已知的致病變異。<strong>這不代表一定不是遺傳性的</strong>——可能是目前的技術還檢測不到，或是致病基因尚未被發現。所以就算陰性，有家族病史的家人仍建議定期做心電圖與心臟超音波追蹤。</p>
+    <p><span className="pill amber">意義不明 (VUS)</span>找到一個變異，但目前的證據還不足以判斷它到底會不會致病。<strong>VUS 不能用來做家屬篩檢，也不會改變治療。</strong>它可能在未來幾年被重新分類，所以醫師會保留紀錄、定期回顧。</p>
+    <div className="note">
+      拿到 VUS 是很常見的情形，請不要因此過度擔心。這代表「還不知道」，不代表「有問題」。
+    </div>
+  </div>
+
+  <div className="card">
+    <h2>常見問題</h2>
+    <details><summary>我的孩子需要驗嗎？</summary>
+      <p>如果在您身上找到明確的致病基因，孩子確實建議檢測。但檢測的時機需要和醫師與遺傳諮詢師討論——有些基因建議在青少年時期就開始追蹤，有些則可以等到成年。未成年人的基因檢測有額外的倫理考量，會個別評估。</p></details>
+    <details><summary>如果我帶有基因但沒有症狀，需要吃藥嗎？</summary>
+      <p>不一定。多數情況下是先進入定期追蹤（心電圖、心臟超音波，必要時 24 小時心電圖或心臟磁振造影）。若追蹤中出現心臟功能下降或心律不整的跡象，就會開始治療。及早發現的意義正在於此。</p></details>
+    <details><summary>多久要追蹤一次？</summary>
+      <p>通常是每一到兩年一次，依基因類型與年齡調整。醫師會為您安排個別的追蹤計畫。</p></details>
+    <details><summary>基因檢測會不會影響我的保險？</summary>
+      <p>這是合理的顧慮，建議在受檢前先向醫師或遺傳諮詢師詢問。若您有既有保單或正在考慮投保，可以在做決定前把這個因素納入考量。</p></details>
+    <details><summary>健保有給付嗎？</summary>
+      <p>目前這類心肌病變基因套組多數需要自費，費用與涵蓋範圍請向您的主治醫師或檢驗單位確認。給付規定可能隨時間調整。</p></details>
+    <details><summary>我可以拒絕嗎？</summary>
+      <p>可以。基因檢測完全出於自願，您可以選擇不做，也可以之後再做。拒絕檢測不會影響您接受其他治療的權益。</p></details>
+  </div>
+
+  <div className="card">
+    <h2>給家屬的提醒</h2>
+    <p>即使還沒有做基因檢測，或檢測結果為陰性，如果家族中有人罹患心肌病變，<strong>一等親（父母、兄弟姊妹、子女）仍建議接受基本的心臟評估</strong>：</p>
+    <ul>
+      <li>心電圖 (ECG)</li>
+      <li>心臟超音波 (Echocardiography)</li>
+      <li>由醫師評估後決定的追蹤頻率</li>
+    </ul>
+    <p className="muted">若家族中曾有人在 50 歲以前不明原因猝死，請主動告訴醫師，這是重要的線索。</p>
+  </div>
+</div>
+);
+
+/* ---------------- 臨床同仁版 ---------------- */
+const genes = [
+  {g:'LMNA', sub:'lamin A/C・nuclear envelope',
+   t:'DCM 合併傳導系統疾病——sinus bradycardia、AV block、atrial arrhythmia，家系中心衰竭與猝死頻繁，且無 joint contracture 或 skeletal myopathy。ESC 2023 建議直接使用 LMNA risk calculator（lmna-risk-vta.fr）取代傳統臨床條件：預測因子為男性、non-missense mutation、≥first-degree AV block、NSVT、LVEF；C-index 0.776，5 年風險 ≥7% 作為 ICD 門檻。',
+   r:[['Fatkin, NEJM 1999;341:1715-24','https://doi.org/10.1056/NEJM199912023412302'],
+      ['Wahbi, Circulation 2019;140:293-302','https://doi.org/10.1161/CIRCULATIONAHA.118.039410']]},
+  {g:'FLNC (truncating only)', sub:'filamin C・sarcomere-membrane anchoring',
+   t:'2,877 位遺傳性心血管疾病病人 NGS 中，28 個 probands 帶 truncating FLNC：ventricular arrhythmia 82%、28 個家系中 21 個發生猝死（共 40 例）、40 歲以上 penetrance >97%；ECG 可見 inferolateral 負向 T 波與 low QRS voltage (33%)。1,078 位 HCM 中完全沒有 truncating FLNC。重點：missense FLNC 不屬於 high-risk，判讀時務必區分。',
+   r:[['Ortiz-Genga, JACC 2016;68:2440-51','https://doi.org/10.1016/j.jacc.2016.09.927']]},
+  {g:'DSP', sub:'desmoplakin・desmosome',
+   t:'107 位 DSP vs 81 位 PKP2：LV-predominant 表現 55% vs 0%；40% 有 subepicardial LGE，且 LGE 常先於 systolic dysfunction 出現；15% 以急性心肌損傷發作表現（胸痛 + troponin 上升 + 冠狀動脈正常），部分一開始被誤診為 myocarditis 或 cardiac sarcoidosis。ARVC 診斷準則對 DSP 敏感度差。LVEF <55% 與嚴重心律不整相關（sensitivity 85%, specificity 53%）。',
+   r:[['Smith, Circulation 2020;141:1872-84','https://doi.org/10.1161/CIRCULATIONAHA.119.044934']]},
+  {g:'PLN', sub:'phospholamban・主要為 p.Arg14del',
+   t:'荷蘭 founder mutation，見於 15% DCM 與 12% ARVC。R14del 陽性 vs 陰性的 DCM：appropriate ICD discharge 47% vs 10% (P<0.001)、心臟移植 18% vs 2%、家族 50 歲前猝死史 36% vs 16% (P=0.007)；家屬猝死平均年齡 37.7 歲；46% 帶因者有 low voltage ECG。注意這是荷蘭 founder，台灣族群盛行率預期極低。',
+   r:[['van der Zwaag, Eur J Heart Fail 2012;14:1199-207','https://doi.org/10.1093/eurjhf/hfs119']]},
+  {g:'RBM20', sub:'RNA binding motif protein 20・splicing factor',
+   t:'突變集中在 exon 9 的 RS domain hotspot。表現型為早發、快速進展至 end-stage heart failure、高死亡率。',
+   r:[['Brauch, JACC 2009;54:930-41','https://doi.org/10.1016/j.jacc.2009.05.038']]},
+  {g:'EMD', sub:'emerin・X-linked',
+   t:'X-linked recessive 的 Emery-Dreifuss muscular dystrophy：漸進性攣縮、骨骼肌萎縮、心肌病變，heart block 是常見死因。六個基因中最常由神經科先發現、心臟科接手處理傳導問題者。多數 cardiomyopathy panel 未必涵蓋，送檢前需確認。',
+   r:[['Bione, Nat Genet 1994;8:323-7','https://doi.org/10.1038/ng1294-323']]},
+];
+
+const flags = [
+  {id:1,t:'家族史：DCM 或 50 歲前不明原因猝死'},
+  {id:2,t:'發病年齡偏輕（例如 <50 歲）'},
+  {id:3,t:'心衰竭合併傳導障礙（AV block、sinus node disease）→ 高度指向 LMNA'},
+  {id:4,t:'Low QRS voltage → PLN、FLNC'},
+  {id:5,t:'Arrhythmia burden 與 LVEF 不成比例（NSVT、頻發 PVC）'},
+  {id:6,t:'CMR 顯示 subepicardial 或 ring-like LGE → DSP、FLNC、PLN'},
+  {id:7,t:'骨骼肌症狀或 CK 上升'},
+  {id:8,t:'反覆發作的不明原因 MINOCA'},
+];
+
+const quiz = [
+  {q:'一位 62 歲男性，LVEF 28%，三條血管嚴重狹窄且與心肌損傷區域相符。是否適合安排心肌病變基因檢測？',
+   o:['適合，凡 LVEF <40% 都應該驗','不適合，這是 ischemic cardiomyopathy','適合，但只驗 LMNA'],c:1,
+   e:'典型的 ischemic cardiomyopathy，基因檢測 yield 接近零。收案前必須先排除冠狀動脈疾病作為病因。但要注意反向情況：若 LV dysfunction 的嚴重度與冠狀動脈病灶明顯不成比例，genetic cardiomyopathy 仍可能與 CAD 並存。'},
+  {q:'一位 34 歲女性 DCM，父親 48 歲猝死。應該先為誰安排基因檢測？',
+   o:['同時檢測病人與所有一等親','先檢測病人本人 (proband-first)','先檢測病人的子女'],c:1,
+   e:'Proband-first 是核心原則。先在有表現型的病人身上找到 P/LP variant，家屬才做單點 cascade screening——便宜、快速、判讀明確。直接對家屬開 panel 會產生大量無法解釋的 VUS。'},
+  {q:'關於 FLNC，下列何者正確？',
+   o:['所有 FLNC 變異都屬 high-risk genotype','僅 truncating variants 屬 high-risk','FLNC 主要造成 HCM'],c:1,
+   e:'只有 truncating FLNC 屬於 high-risk。Ortiz-Genga 的研究中，1,078 位 HCM 病人完全沒有 truncating FLNC。判讀報告時若未區分 truncating 與 missense，會直接影響 ICD 決策的正確性。'},
+  {q:'一位 29 歲男性反覆胸痛、troponin 上升、冠狀動脈攝影正常，CMR 顯示 subepicardial LGE。最該懷疑哪一個基因？',
+   o:['LMNA','DSP','RBM20'],c:1,
+   e:'DSP cardiomyopathy 可以急性心肌損傷發作表現，常被誤診為 myocarditis 或 cardiac sarcoidosis。特徵是 LV-predominant、subepicardial LGE，且 LGE 常先於 systolic dysfunction 出現。'},
+  {q:'基因檢測報告為 VUS，接下來應該？',
+   o:['依 VUS 安排家屬 cascade screening','不用 VUS 做家屬篩檢，保留紀錄並定期重新評估','將 VUS 視為陽性並提早植入 ICD'],c:1,
+   e:'VUS 不可用於 cascade screening，也不應改變治療決策。正確做法是保留紀錄、定期回顧重新分類，家屬則依臨床表現型（ECG、Echo）持續追蹤。'},
+];
+
+const DoctorView = () => {
+  const [ck,setCk] = useState({});
+  const [qi,setQi] = useState(0); const [sel,setSel] = useState(null);
+  const [sc,setSc] = useState(0); const [done,setDone] = useState(false);
+  const q = quiz[qi];
+  const answer = i => { if(sel!==null) return; setSel(i); if(i===q.c) setSc(s=>s+1); };
+  const next = () => { if(qi<quiz.length-1){setQi(qi+1);setSel(null);} else setDone(true); };
+  const reset = () => {setQi(0);setSel(null);setSc(0);setDone(false);};
+
+  return (
+  <div>
+    <div className="card">
+      <h2>Take Home</h2>
+      <p className="lead">1. 收案對象是 <strong>DCM / NDLVC</strong>，不是所有 LVEF &lt;40% 的心臟衰竭病人。</p>
+      <p className="lead">2. <strong>Proband-first</strong>：先驗有表現型的病人，找到 P/LP 才對家屬做單點 cascade screening。</p>
+      <p className="lead">3. High-risk genotype 的價值在於 <strong>arrhythmic risk 與 LVEF 脫鉤</strong>——猝死可能發生在 EF 掉下來之前。</p>
+      <div className="note">
+        ESC 2023 對 genetic testing 的建議是 Class I，但條件是「當檢測會影響病人照護或有助於家族評估時」。這句限定詞決定了收案標準，不能略過。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>收案流程</h2>
+      <svg className="flow" viewBox="0 0 340 430" xmlns="http://www.w3.org/2000/svg">
+        <defs><marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L7,3 z" fill="#2d5a87"/></marker></defs>
+        <rect x="45" y="8" width="250" height="42" rx="9" fill="#1e3a5f"/>
+        <text x="170" y="26" textAnchor="middle" fill="#fff" fontSize="12.5" fontWeight="600">心臟衰竭 / 心室功能異常</text>
+        <text x="170" y="41" textAnchor="middle" fill="#cfe0ef" fontSize="10.5">Echo ± Cardiac MRI 確認表現型</text>
+        <line x1="170" y1="50" x2="170" y2="70" stroke="#2d5a87" strokeWidth="2" markerEnd="url(#ar)"/>
+        <rect x="30" y="74" width="280" height="46" rx="9" fill="#fff" stroke="#2d5a87" strokeWidth="2"/>
+        <text x="170" y="93" textAnchor="middle" fill="#1e3a5f" fontSize="12.5" fontWeight="600">排除 ischemic aetiology</text>
+        <text x="170" y="109" textAnchor="middle" fill="#7f8c8d" fontSize="10.5">依風險選擇 CCTA 或 ICA，非一律 ICA</text>
+        <line x1="170" y1="120" x2="170" y2="140" stroke="#2d5a87" strokeWidth="2" markerEnd="url(#ar)"/>
+        <rect x="30" y="144" width="280" height="46" rx="9" fill="#fff" stroke="#2d5a87" strokeWidth="2"/>
+        <text x="170" y="163" textAnchor="middle" fill="#1e3a5f" fontSize="12.5" fontWeight="600">確認為 DCM / NDLVC 表現型</text>
+        <text x="170" y="179" textAnchor="middle" fill="#7f8c8d" fontSize="10.5">誘發因子不構成排除條件</text>
+        <line x1="170" y1="190" x2="170" y2="210" stroke="#2d5a87" strokeWidth="2" markerEnd="url(#ar)"/>
+        <rect x="30" y="214" width="280" height="46" rx="9" fill="#fef5e7" stroke="#f39c12" strokeWidth="2"/>
+        <text x="170" y="233" textAnchor="middle" fill="#b9770e" fontSize="12.5" fontWeight="600">評估紅旗特徵</text>
+        <text x="170" y="249" textAnchor="middle" fill="#b9770e" fontSize="10.5">家族史、年輕發病、傳導障礙、LGE 型態⋯</text>
+        <line x1="170" y1="260" x2="170" y2="280" stroke="#2d5a87" strokeWidth="2" markerEnd="url(#ar)"/>
+        <rect x="30" y="284" width="280" height="46" rx="9" fill="#e74c3c"/>
+        <text x="170" y="303" textAnchor="middle" fill="#fff" fontSize="12.5" fontWeight="600">Proband 基因檢測 + 遺傳諮詢</text>
+        <text x="170" y="319" textAnchor="middle" fill="#ffd9d4" fontSize="10.5">受檢前需說明三種可能結果</text>
+        <line x1="170" y1="330" x2="170" y2="350" stroke="#2d5a87" strokeWidth="2" markerEnd="url(#ar)"/>
+        <rect x="30" y="354" width="280" height="60" rx="9" fill="#e8f8f0" stroke="#27ae60" strokeWidth="2"/>
+        <text x="170" y="373" textAnchor="middle" fill="#1e8449" fontSize="12.5" fontWeight="600">P/LP 陽性 → 家屬 cascade screening</text>
+        <text x="170" y="390" textAnchor="middle" fill="#1e8449" fontSize="10.5">陰性或 VUS → 不做家屬基因篩檢</text>
+        <text x="170" y="405" textAnchor="middle" fill="#1e8449" fontSize="10.5">但一等親仍應以 ECG + Echo 定期追蹤</text>
+      </svg>
+    </div>
+
+    <div className="card">
+      <h2>三個容易做錯的地方</h2>
+      <p><strong>1. 把 ICA 設為強制關卡。</strong>排除 ischemic 是必要的，但年輕、無危險因子的 DCM 病人用 CCTA 即可，不需要為了驗基因先做侵入性檢查。</p>
+      <p><strong>2. 把「冠脈通」當成充分條件。</strong>有 CAD 不代表可以排除 genetic cardiomyopathy，兩者可並存。當 LV dysfunction 嚴重度與冠狀動脈病灶不成比例時仍應懷疑。</p>
+      <p><strong>3. 把誘發因子當成排除條件。</strong>Peripartum、alcohol、chemotherapy、myocarditis <strong>不是</strong>排除條件——ESC 明確指出這些常只是把既有的 genetic substrate 誘發出來。</p>
+      <div className="note red">
+        <strong>另一個前提：</strong>這套風險分層的另一半是 CMR。LGE 的有無與分布是 ICD 決策的關鍵變數之一，若院內 CMR 量能未同步建立，只驗基因會拿到無法完整判讀的結果。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>紅旗 Checklist</h2>
+      <p className="muted">前提：已確認 DCM / NDLVC 且已排除 ischemic aetiology。以下任一項成立即建議轉介遺傳諮詢。</p>
+      {flags.map(f=>(
+        <div key={f.id} className={'item'+(ck[f.id]?' on':'')} onClick={()=>setCk({...ck,[f.id]:!ck[f.id]})}>
+          <div className="box">{ck[f.id]?'✓':''}</div><span>{f.t}</span>
+        </div>
+      ))}
+    </div>
+
+    <div className="card">
+      <h2>2023 ESC 高風險基因型</h2>
+      <p className="muted">高風險基因型會影響 ICD 的 primary prevention 決策：帶 P/LP variant 且合併其他風險因子（如 syncope、CMR 上的 LGE）時，即使 LVEF &gt;35% 亦可考慮植入。</p>
+      {genes.map(x=>(
+        <div className="gene" key={x.g}>
+          <div className="g">{x.g}</div>
+          <div className="sub">{x.sub}</div>
+          <p>{x.t}</p>
+          <div className="ref">{x.r.map((r,i)=>(
+            <div key={i}>{r[0]} · <a href={r[1]} target="_blank" rel="noopener">DOI</a></div>))}</div>
+        </div>
+      ))}
+      <div className="note">
+        ESC 2023 的高風險名單通常還一併列入 <strong>TMEM43</strong>（p.S358L，Newfoundland founder）。低風險基因型則包含 TTN、BAG3、TNNT2、MYH7 及其他——其中 TTN truncating variants 是 DCM 最常見的基因原因，但不屬於這個高風險分層。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>送檢前的實務確認</h2>
+      <table>
+        <thead><tr><th>項目</th><th>要確認什麼</th></tr></thead>
+        <tbody>
+          <tr><td>Panel 涵蓋範圍</td><td>六個高風險基因是否齊全，特別是 <strong>EMD</strong>（常被歸在 neuromuscular panel）與 TMEM43</td></tr>
+          <tr><td>報告格式</td><td>FLNC 與 DSP 是否明確區分 truncating vs. missense</td></tr>
+          <tr><td>變異分類</td><td>是否依 ACMG 標準分級，VUS 是否會定期重新評估</td></tr>
+          <tr><td>遺傳諮詢</td><td>受檢前後的諮詢窗口、知情同意流程</td></tr>
+          <tr><td>費用與給付</td><td>自費金額、TAT、家屬單點檢測的計價方式</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div className="card">
+      <h2>自我測驗</h2>
+      {!done ? (
+        <div>
+          <div className="bar"><div style={{width:((qi+1)/quiz.length*100)+'%'}}/></div>
+          <p className="muted">第 {qi+1} 題 / 共 {quiz.length} 題</p>
+          <p className="q">{q.q}</p>
+          {q.o.map((o,i)=>(
+            <button key={i} className={'opt'+(sel===null?'':(i===q.c?' ok':(i===sel?' no':'')))}
+              onClick={()=>answer(i)}>{o}</button>
+          ))}
+          {sel!==null && (
+            <div className="exp">
+              <p style={{margin:'0 0 8px',fontWeight:600}}>{sel===q.c?'✅ 正確':'❌ 再看一次'}</p>
+              <p style={{margin:0}}>{q.e}</p>
+              <button className="btn" onClick={next}>{qi<quiz.length-1?'下一題':'查看結果'}</button>
+            </div>
+          )}
+        </div>
+      ) : (
+        <div>
+          <p className="lead">答對 {sc} / {quiz.length} 題</p>
+          <button className="btn" onClick={reset}>重新測驗</button>
+        </div>
+      )}
+    </div>
+
+    <div className="card">
+      <h2>參考文獻</h2>
+      <p className="muted">以下文獻資料檢索自 PubMed。</p>
+      <ul>
+        <li>Arbelo E, et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J 2023;44:3503-3626.</li>
+        <li>Fatkin D, et al. NEJM 1999;341:1715-24. <a href="https://doi.org/10.1056/NEJM199912023412302" target="_blank" rel="noopener">DOI</a></li>
+        <li>Wahbi K, et al. Circulation 2019;140:293-302. <a href="https://doi.org/10.1161/CIRCULATIONAHA.118.039410" target="_blank" rel="noopener">DOI</a></li>
+        <li>Ortiz-Genga MF, et al. JACC 2016;68:2440-51. <a href="https://doi.org/10.1016/j.jacc.2016.09.927" target="_blank" rel="noopener">DOI</a></li>
+        <li>Smith ED, et al. Circulation 2020;141:1872-84. <a href="https://doi.org/10.1161/CIRCULATIONAHA.119.044934" target="_blank" rel="noopener">DOI</a></li>
+        <li>van der Zwaag PA, et al. Eur J Heart Fail 2012;14:1199-207. <a href="https://doi.org/10.1093/eurjhf/hfs119" target="_blank" rel="noopener">DOI</a></li>
+        <li>Brauch KM, et al. JACC 2009;54:930-41. <a href="https://doi.org/10.1016/j.jacc.2009.05.038" target="_blank" rel="noopener">DOI</a></li>
+        <li>Bione S, et al. Nat Genet 1994;8:323-7. <a href="https://doi.org/10.1038/ng1294-323" target="_blank" rel="noopener">DOI</a></li>
+      </ul>
+    </div>
+  </div>
+  );
+};
+
+const App = () => {
+  const [tab,setTab] = useState('p');
+  return (
+    <div className="app">
+      <header>
+        <h1>心肌病變的基因檢測</h1>
+        <p>Genetic testing in cardiomyopathy — 病人與家屬說明・臨床同仁教學</p>
+      </header>
+      <div className="tabs">
+        <button className={'tab'+(tab==='p'?' on':'')} onClick={()=>setTab('p')}>病人與家屬</button>
+        <button className={'tab'+(tab==='d'?' on':'')} onClick={()=>setTab('d')}>臨床同仁</button>
+      </div>
+      <main>{tab==='p'?<PatientView/>:<DoctorView/>}</main>
+      <footer>
+        <div className="sig">
+          讀書會共筆整理人<br/>
+          謝慕揚 醫師 MD, PhD, FESC<br/>
+          結構性心臟病與介入心臟學
+        </div>
+        <div className="dis">
+          本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br/>
+          僅供學術與教育用途，不代表任何單位之官方立場<br/>
+          本內容未涉及任何利益衝突<br/><br/>
+          本說明不能取代個別的醫療諮詢。是否適合接受基因檢測，請與您的主治醫師討論。
+        </div>
+      </footer>
+    </div>
+  );
+};
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

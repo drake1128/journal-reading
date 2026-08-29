@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>MAD 辨識與量測教學 | Mitral Annular Disjunction</title>
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#e74c3c;
+  --success:#27ae60; --warning:#f39c12; --bg-cream:#faf8f5; --bg-card:#ffffff;
+  --text-dark:#2c3e50; --text-muted:#7f8c8d; --border:#ecf0f1; --shadow:0 4px 20px rgba(0,0,0,.08);
+  --myo:#b4b2a9; --atr:#ED93B1; --leaf:#D4537E;
+}
+html.dark-theme{
+  --bg-cream:#1a1a2e; --bg-card:#16213e; --text-dark:#eaeaea; --text-muted:#a0a0a0;
+  --border:#2d3748; --shadow:0 4px 20px rgba(0,0,0,.4); --primary-light:#5b8fc7;
+  --myo:#5F5E5A; --atr:#993556;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;background:var(--bg-cream);color:var(--text-dark);line-height:1.65;
+  font-family:"Noto Sans TC","PingFang TC","Heiti TC","Microsoft JhengHei",-apple-system,
+  BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+.app{max-width:820px;margin:0 auto;padding-bottom:calc(84px + env(safe-area-inset-bottom));}
+header{background:linear-gradient(135deg,var(--primary),#2d5a87);color:#fff;
+  padding:20px 108px 18px 16px;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.15);}
+header h1{margin:0;font-size:19px;font-weight:700;letter-spacing:.3px;}
+header .sub{font-size:12.5px;opacity:.85;margin-top:3px;}
+.hbtn{position:absolute;top:18px;background:rgba(255,255,255,.18);border:none;color:#fff;
+  width:42px;height:42px;border-radius:50%;font-size:18px;cursor:pointer;line-height:1;}
+#themeBtn{right:14px;} #shareBtn{right:64px;}
+main{padding:16px;}
+.card{background:var(--bg-card);border-radius:14px;padding:16px;margin-bottom:14px;
+  box-shadow:var(--shadow);border:1px solid var(--border);}
+h2.sec{font-size:17px;margin:4px 0 12px;color:var(--primary-light);}
+h3{font-size:15px;margin:16px 0 8px;}
+p{margin:8px 0;font-size:14.5px;}
+.small{font-size:13px;color:var(--text-muted);}
+.takehome{background:linear-gradient(135deg,#fff5f3,#fdecea);border-left:5px solid var(--accent);}
+html.dark-theme .takehome{background:linear-gradient(135deg,#2a1f2e,#3a2020);}
+.takehome ol{margin:6px 0 0;padding-left:20px;} .takehome li{margin-bottom:9px;font-size:14.5px;}
+.step{display:flex;gap:12px;margin-bottom:14px;}
+.step-n{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--primary-light);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;}
+.step b{font-size:14.5px;} .step .d{font-size:13.5px;color:var(--text-muted);}
+.chk{display:flex;gap:11px;align-items:flex-start;padding:12px;min-height:48px;cursor:pointer;
+  border:1px solid var(--border);border-radius:10px;margin-bottom:8px;font-size:14px;}
+.chk .bx{flex-shrink:0;width:22px;height:22px;border:2px solid var(--border);border-radius:6px;
+  display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;margin-top:1px;}
+.chk.on{border-color:var(--success);}
+.chk.on .bx{background:var(--success);border-color:var(--success);}
+.chk.on .tx{text-decoration:line-through;color:var(--text-muted);}
+.pit{background:#fef5e7;border-radius:9px;padding:11px 13px;margin:10px 0;font-size:14px;
+  border-left:4px solid var(--warning);}
+html.dark-theme .pit{background:#3d3116;}
+.key{background:#eafaf1;border-radius:9px;padding:11px 13px;margin:10px 0;font-size:14px;
+  border-left:4px solid var(--success);}
+html.dark-theme .key{background:#153a28;}
+.red{background:#fdecea;border-radius:9px;padding:11px 13px;margin:10px 0;font-size:14px;
+  border-left:4px solid var(--accent);}
+html.dark-theme .red{background:#3d1d1a;}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px;}
+th,td{border:1px solid var(--border);padding:8px 9px;text-align:left;vertical-align:top;}
+th{background:var(--bg-cream);font-weight:600;font-size:12.5px;}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+svg.fig{width:100%;height:auto;display:block;margin:6px 0 4px;}
+.figcap{font-size:12.5px;color:var(--text-muted);text-align:center;margin-bottom:4px;}
+.lit{border:1px solid var(--border);border-radius:11px;padding:13px;margin-bottom:10px;}
+.lit .t{font-weight:600;font-size:14.5px;}
+.lit .j{font-size:12.5px;color:var(--text-muted);margin:3px 0 6px;}
+.lit .w{font-size:13.5px;}
+.lit a{display:inline-block;margin-top:8px;font-size:13px;color:var(--primary-light);
+  text-decoration:none;border:1px solid var(--border);padding:7px 12px;border-radius:8px;min-height:36px;}
+pre{background:var(--bg-cream);border:1px solid var(--border);border-radius:10px;padding:13px;
+  font-size:12.5px;line-height:1.75;white-space:pre-wrap;word-break:break-word;
+  font-family:"SFMono-Regular",Menlo,Consolas,monospace;margin:8px 0;}
+.qq{font-size:15.5px;font-weight:600;margin:10px 0 14px;}
+.opt{display:block;width:100%;text-align:left;padding:13px 15px;margin-bottom:9px;min-height:48px;
+  border:2px solid var(--border);background:var(--bg-card);color:var(--text-dark);border-radius:10px;
+  font-size:14.5px;font-family:inherit;cursor:pointer;}
+.opt.correct{border-color:var(--success);background:#eafaf1;}
+.opt.wrong{border-color:var(--accent);background:#fdecea;}
+.opt.reveal{border-color:var(--success);}
+html.dark-theme .opt.correct{background:#153a28;} html.dark-theme .opt.wrong{background:#3d1d1a;}
+.explain{background:var(--bg-cream);border-radius:10px;padding:13px;margin-top:6px;font-size:14px;
+  border:1px solid var(--border);}
+.btn{background:var(--primary-light);color:#fff;border:none;padding:13px 20px;border-radius:10px;
+  font-size:15px;font-weight:600;font-family:inherit;min-height:48px;cursor:pointer;width:100%;margin-top:12px;}
+.pbar{height:6px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:14px;}
+.pbar div{height:100%;background:var(--success);transition:width .3s;}
+nav{position:fixed;bottom:0;left:0;right:0;background:var(--bg-card);border-top:1px solid var(--border);
+  display:flex;padding-bottom:env(safe-area-inset-bottom);z-index:60;box-shadow:0 -2px 14px rgba(0,0,0,.07);
+  max-width:820px;margin:0 auto;}
+nav button{flex:1;background:none;border:none;padding:9px 1px 10px;font-size:10px;font-family:inherit;
+  color:var(--text-muted);cursor:pointer;min-height:56px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:3px;}
+nav button.active{color:var(--primary-light);font-weight:700;}
+nav .ico{font-size:18px;line-height:1;}
+footer{padding:20px 18px 26px;font-size:11.5px;color:var(--text-muted);text-align:center;line-height:1.9;}
+footer .sig{color:var(--text-dark);font-weight:600;font-size:13px;margin-bottom:8px;}
+.mask{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100;display:flex;
+  align-items:flex-end;justify-content:center;}
+.mask[hidden]{display:none;}
+.sheet{background:var(--bg-card);width:100%;max-width:820px;border-radius:18px 18px 0 0;
+  padding:20px 18px calc(22px + env(safe-area-inset-bottom));}
+.sheet h3{margin:0 0 4px;font-size:17px;}
+.sheet .btn{background:var(--bg-cream);color:var(--text-dark);border:1px solid var(--border);text-align:left;}
+.sheet .btn b{display:block;font-size:15px;}
+.sheet .btn span{font-size:12.5px;color:var(--text-muted);font-weight:400;}
+.toast{position:fixed;bottom:96px;left:50%;transform:translateX(-50%);background:var(--primary);
+  color:#fff;padding:11px 20px;border-radius:24px;font-size:13.5px;z-index:200;}
+.toast[hidden]{display:none;}
+@media print{header,nav,.mask,.btn{display:none!important}.app{padding-bottom:0}
+  .card{break-inside:avoid;box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>MAD 辨識與量測</h1>
+    <div class="sub">Mitral annular disjunction · 超音波室教學 · 讀書會共筆</div>
+    <button class="hbtn" id="shareBtn" aria-label="分享">⤴</button>
+    <button class="hbtn" id="themeBtn" aria-label="切換深色模式">🌙</button>
+  </header>
+  <main id="main"></main>
+  <nav id="nav"></nav>
+</div>
+<div class="mask" id="mask" hidden>
+  <div class="sheet">
+    <h3>分享這份教材</h3>
+    <p class="small" style="margin:0 0 12px">整份內容都在這一個 HTML 檔裡，離線也能開。</p>
+    <button class="btn" id="sysShare"><b>分享連結 / 傳送</b><span>使用手機內建分享（LINE、Email、AirDrop）</span></button>
+    <button class="btn" id="copyLink"><b>複製連結</b><span>複製目前網址</span></button>
+    <button class="btn" id="dlFile"><b>下載 HTML 檔</b><span>存成單一檔案，可直接傳給同仁或離線使用</span></button>
+    <button class="btn" id="printBtn"><b>列印 / 存成 PDF</b><span>用瀏覽器列印功能輸出講義</span></button>
+    <button class="btn" id="closeSheet" style="background:var(--primary-light);color:#fff;border:none;text-align:center"><b>關閉</b></button>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+"use strict";
+
+var STEPS=[
+{t:"選對切面",d:"經胸以 parasternal long-axis 為主，三腔面（apical long-axis）可補強。MAD 有環周分布，單一切面會低估，CMR 建議取六個長軸切面、每 30 度一個。"},
+{t:"停在收縮末期",d:"MAD 在收縮期最明顯。務必逐格捲動找到收縮末期那一格，不要用即時影像目測。"},
+{t:"認出三個解剖點",d:"左心房壁、後葉的鉸鏈點、左心室下基底部心肌的頂端。正常時三者相接。"},
+{t:"量這一條線",d:"從「左心房壁與後葉交界處」量到「左心室下基底部心肌頂端」的縱向長度，即 MAD 距離。"},
+{t:"再看舒張期",d:"回放到舒張期。若分離仍在，是 True-MAD；若只有收縮期看得到，是 Pseudo-MAD。這一步決定報告的份量。"},
+{t:"量 curling",d:"沿上述那條線做垂線，量出瓣環在收縮期向外翻的距離。curling 與脫垂高度相關。"},
+{t:"打 TDI",d:"心尖切面對側壁瓣環打脈衝式組織都卜勒。收縮中期波峰超過 16 cm/s 即為 Pickelhaube sign。"},
+{t:"記錄位置",d:"註明分離的位置（下側壁或其他）。位置比長度更能決定臨床意義。"}
+];
+
+var CHECK=[
+{id:"c1",t:"脫垂型態：單葉或 bileaflet"},
+{id:"c2",t:"瓣葉舒張期厚度（>5 mm 提示 myxomatous）"},
+{id:"c3",t:"脫垂距離（收縮末期，瓣環平面上方 ≥2 mm）"},
+{id:"c4",t:"MAD 長度（收縮末期，PLAX 或三腔面）"},
+{id:"c5",t:"MAD 位置（下側壁 vs 其他）"},
+{id:"c6",t:"舒張期是否仍見分離（True vs Pseudo-MAD）"},
+{id:"c7",t:"Systolic curling 有無與距離"},
+{id:"c8",t:"側壁瓣環 TDI 收縮中期波峰速度"},
+{id:"c9",t:"MR 嚴重度、左心房大小、LVEF"},
+{id:"c10",t:"心電圖下壁導程 T 波是否倒置"}
+];
+
+var LIT=[
+{t:"How to assess mitral valve prolapse and mitral annular disjunction",
+ j:"ESC Cardiovascular Genomics Insight, Volume 7（免費）",
+ w:"最貼近實作的一篇。列出報告該記錄的完整項目，並說明六個長軸切面、每 30 度一個的取像原則。",
+ u:"https://www.escardio.org/communities/councils/genomics/scientific-documents-and-publications/cardiogenomics-insights/volume-7/how-to-assess-mitral-valve-prolapse-and-mitral-annular-disjunction-how-to-look/"},
+{t:"Mitral annular disjunction in myxomatous mitral valve disease",
+ j:"Carmo et al., Cardiovascular Ultrasound 2010（open access）",
+ w:"TTE 量測法的原始出處。篇幅短，適合當超音波技術員的入門教材。",
+ u:"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3014886/"},
+{t:"Mitral Annular Disjunction: Review of an Increasingly Recognized Mitral Valve Entity",
+ j:"Radiology: Cardiothoracic Imaging 2024",
+ w:"圖最好。有鉸鏈點正常位置與 MAD 的對照示意圖、caliper 放大圖，以及 Pickelhaube 的 TDI 波形。",
+ u:"https://pubs.rsna.org/doi/abs/10.1148/ryct.230131"},
+{t:"MAD Assessed Using CMR Imaging: Insights From the UK Biobank Population Study",
+ j:"Zugwitz et al., JACC Cardiovascular Imaging 2022",
+ w:"一般族群 76% 找得到 MAD，但下側壁只有 5%。判讀時最該先讀的一篇。建議搭配同期社論一起看。",
+ u:"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9640354/"},
+{t:"Multimodality imaging assessment of mitral annular disjunction in mitral valve prolapse",
+ j:"Mantegazza et al., Heart 2021",
+ w:"同一批病人 TTE、TOE、CMR 的偵測率與一致性比較。說明為什麼 TTE 沒看到不等於沒有。",
+ u:"https://pubmed.ncbi.nlm.nih.gov/32723759/"},
+{t:"EHRA expert consensus statement on arrhythmic MVP and MAD complex",
+ j:"Europace 2022（PMID 35951656）",
+ w:"風險分層的主文件。兩階段流程與表型風險特徵清單都在這裡。",
+ u:"https://pubmed.ncbi.nlm.nih.gov/35951656/"},
+{t:"Arrhythmic mitral valve prolapse and mitral annular disjunction",
+ j:"European Heart Journal 2023;44:3121",
+ w:"從病生理到處置的完整回顧，適合當讀書會主軸文獻。",
+ u:"https://academic.oup.com/eurheartj/article/44/33/3121/7240667"},
+{t:"Arrhythmic risk in MVP with MAD: meta-analysis of longitudinal studies",
+ j:"Chianese et al., Scientific Reports 2026",
+ w:"MAD 單獨預測心律不整事件的 AUC 只有 0.561。提醒不要把單一影像特徵當成決策依據。",
+ u:"https://www.nature.com/articles/s41598-025-32285-3"}
+];
+
+var QUIZ=[
+{q:"量測 MAD 時，應該停在心動週期的哪一個時相？",
+ o:["舒張末期","收縮中期","收縮末期","等容收縮期"],c:2,
+ e:"MAD 在收縮期最明顯，標準量測是在收縮末期進行。但別忘了接著回放舒張期，用來區分 True-MAD 與 Pseudo-MAD。"},
+{q:"MAD 距離的兩個量測端點是？",
+ o:["前葉尖端到後葉尖端","左心房壁與後葉交界處，到左心室下基底部心肌頂端","瓣環前後徑的兩端","乳頭肌尖端到瓣環平面"],c:1,
+ e:"這是 Carmo 等人提出並沿用至今的 TTE 量測法：在收縮末期，從左心房壁與後葉的交界量到左心室下基底部心肌的頂端。"},
+{q:"UK Biobank 研究中，一般族群以 CMR 檢查在瓣環任一位置找到 MAD 的比例約為？",
+ o:["約 5%","約 20%","約 40%","約 76%"],c:3,
+ e:"2,607 位受試者中有 76% 在某個位置找得到分離，最常見於前壁與下壁；但被認為具臨床意義的下側壁分離只有 5%。所以位置比「有沒有」更重要。"},
+{q:"Pickelhaube sign 的定義是？",
+ o:["側壁瓣環組織都卜勒收縮中期波峰 > 16 cm/s","二尖瓣 E/A 比值 > 2","收縮期瓣環向外翻超過 5 mm","後葉超過瓣環平面 2 mm"],c:0,
+ e:"以心尖切面對側壁瓣環打脈衝式組織都卜勒，收縮中期出現超過 16 cm/s 的高速尖峰，波形像普魯士尖頂盔。它與 curling、pseudo-MAD 相關。"},
+{q:"關於 Pseudo-MAD，正確的敘述是？",
+ o:["舒張期即可見分離，是較嚴重的型態","僅收縮期可見，在傳統定義下的 MAD 中佔多數","只出現在沒有 MR 的病人","與 MR 嚴重度無關"],c:1,
+ e:"一項再分類研究中，263 位傳統定義的 MAD 有 221 位（84%）其實是 Pseudo-MAD。其盛行率與長度會隨 MR 嚴重度上升（輕度 23%、中度 36%、重度 44%）。True-MAD 在 MVP 病人中反而少見。"},
+{q:"TTE 報告寫「未見 MAD」，臨床上應如何解讀？",
+ o:["可確定排除 MAD","偵測率低於 CMR，不能據此排除","代表病人無心律不整風險","代表不需要追蹤"],c:1,
+ e:"同一批 131 位 MVP 病人中，MAD 偵測率 TTE 17.3%、TOE 25.5%、CMR 42%；TTE 與 CMR 的一致性僅中等（κ=0.54）。臨床高度懷疑時應進一步安排 CMR。"},
+{q:"依 EHRA 共識，風險分層第一階段用來辨識高風險病人的臨床特徵是？",
+ o:["MR 嚴重度達重度","不明原因的暈厥或前暈厥","左心房擴大","瓣葉厚度 > 5 mm"],c:1,
+ e:"第一階段以臨床評估為主，高風險定義為不明原因的前暈厥或暈厥。第二階段才用植入式心律記錄器尋找高風險心室性心律不整（VT ≥180 bpm，或曾有持續性 VT／VF）。"},
+{q:"Arrhythmic MVP (AMVP) 的共識定義中，關於 MR 嚴重度的敘述是？",
+ o:["必須合併重度 MR","必須至少中度 MR","與 MR 嚴重度無關","僅適用於無 MR 者"],c:2,
+ e:"2022 年共識定義 AMVP 為：MVP（有無 MAD 皆可）合併頻繁或複雜的心室性心律不整，且無其他明確心律不整基質，與 MR 嚴重度無關。這是獨立於瓣膜嚴重度的一條軸線。"},
+{q:"關於 MAD 作為心律不整風險預測指標，最新的整合分析結論是？",
+ o:["AUC 約 0.95，可單獨用於決策","AUC 約 0.561，不應單獨用於決策","與心律不整完全無關","僅在兒童族群有效"],c:1,
+ e:"2026 年整合縱貫性研究的 meta-analysis 顯示 MAD 單獨辨識心律不整病人的 AUC 僅 0.561。它是風險拼圖的一塊，不是決策依據。"}
+];
+
+var TEMPLATE=
+"【二尖瓣脫垂補充評估】\n"+
+"1. 脫垂型態：□ 單葉（□前 □後） □ 雙葉 bileaflet\n"+
+"2. 瓣葉舒張期厚度：____ mm（>5 mm 提示 myxomatous）\n"+
+"3. 脫垂距離：____ mm（收縮末期，瓣環平面上方 ≥2 mm 為異常）\n"+
+"4. MAD：□ 無 □ 有，長度 ____ mm\n"+
+"   量測方式：PLAX／三腔面收縮末期，自左心房壁與後葉交界\n"+
+"   至左心室下基底部心肌頂端\n"+
+"5. MAD 位置：□ 下側壁 □ 其他（________）\n"+
+"6. 舒張期仍見分離：□ 是（True-MAD） □ 否（Pseudo-MAD）\n"+
+"7. Systolic curling：□ 無 □ 有，____ mm\n"+
+"8. 側壁瓣環 TDI 收縮中期波峰：____ cm/s（>16 為 Pickelhaube sign）\n"+
+"9. MR 嚴重度：________　左心房大小：________　LVEF：____ %\n\n"+
+"【建議】\n"+
+"若合併不明原因暈厥或前暈厥、下壁導程 T 波倒置、頻繁或多形性\n"+
+"心室早期收縮，建議安排 24 小時 Holter 並轉介心律不整門診評估；\n"+
+"必要時安排心臟磁振造影評估乳頭肌與下基底部纖維化。";
+
+var TABS=[{id:"home",ico:"🎯",t:"重點"},{id:"anat",ico:"🫀",t:"解剖"},
+ {id:"how",ico:"📏",t:"量測"},{id:"trap",ico:"⚠️",t:"陷阱"},
+ {id:"risk",ico:"🚨",t:"分層"},{id:"rep",ico:"📝",t:"報告"},{id:"quiz",ico:"✅",t:"測驗"}];
+
+var S={tab:"home",qi:0,qsel:null,qshow:false,qscore:0,qdone:false,dark:false,chk:{}};
+
+function save(){try{localStorage.setItem("madApp",JSON.stringify({tab:S.tab,dark:S.dark,chk:S.chk}));}catch(e){}}
+function load(){try{var s=localStorage.getItem("madApp");if(s){var p=JSON.parse(s);
+ if(p.tab)S.tab=p.tab;if(p.dark)S.dark=p.dark;if(p.chk)S.chk=p.chk;}}catch(e){}}
+
+var FOOT='<footer><div class="sig">讀書會共筆整理人<br>謝慕揚 醫師 MD, PhD, FESC<br>結構性心臟病與介入心臟學 · 心臟影像</div>'+
+ '主要參考：EHRA expert consensus statement on arrhythmic MVP and MAD complex, Europace 2022；'+
+ 'Zugwitz et al., JACC Cardiovasc Imaging 2022;15:1856-1866<br><br>'+
+ '本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br>僅供學術與教育用途，不代表任何單位之官方立場<br>本內容未涉及任何利益衝突</footer>';
+
+function figMAD(){
+ return '<svg class="fig" viewBox="0 0 380 400" role="img" aria-label="正常瓣環與 MAD 對照示意圖">'+
+ '<text x="20" y="26" font-size="14" font-weight="600" fill="currentColor">A. 正常瓣環</text>'+
+ '<rect x="105" y="46" width="115" height="42" rx="4" fill="var(--atr)" opacity="0.55"/>'+
+ '<text x="162" y="72" font-size="13" text-anchor="middle" fill="currentColor">左心房壁</text>'+
+ '<rect x="105" y="88" width="115" height="52" rx="4" fill="var(--myo)" opacity="0.6"/>'+
+ '<text x="162" y="119" font-size="13" text-anchor="middle" fill="currentColor">LV 心肌</text>'+
+ '<path d="M105 88 C 88 86, 70 82, 52 78" fill="none" stroke="var(--leaf)" stroke-width="3.5" stroke-linecap="round"/>'+
+ '<line x1="222" y1="88" x2="242" y2="88" stroke="var(--text-muted)" stroke-width="1" stroke-dasharray="3 3"/>'+
+ '<text x="247" y="92" font-size="12.5" fill="currentColor">鉸鏈點貼合心肌</text>'+
+ '<text x="20" y="196" font-size="14" font-weight="600" fill="currentColor">B. MAD（合併瓣葉脫垂）</text>'+
+ '<rect x="105" y="216" width="115" height="40" rx="4" fill="var(--atr)" opacity="0.55"/>'+
+ '<text x="162" y="240" font-size="13" text-anchor="middle" fill="currentColor">左心房壁</text>'+
+ '<rect x="105" y="256" width="115" height="30" rx="4" fill="none" stroke="var(--text-muted)" stroke-width="1" stroke-dasharray="4 3"/>'+
+ '<rect x="105" y="286" width="115" height="52" rx="4" fill="var(--myo)" opacity="0.6"/>'+
+ '<text x="162" y="317" font-size="13" text-anchor="middle" fill="currentColor">LV 心肌</text>'+
+ '<path d="M105 256 C 88 240, 72 226, 52 232" fill="none" stroke="var(--leaf)" stroke-width="3.5" stroke-linecap="round"/>'+
+ '<line x1="234" y1="256" x2="234" y2="286" stroke="var(--accent)" stroke-width="1.5"/>'+
+ '<line x1="228" y1="256" x2="240" y2="256" stroke="var(--accent)" stroke-width="1.5"/>'+
+ '<line x1="228" y1="286" x2="240" y2="286" stroke="var(--accent)" stroke-width="1.5"/>'+
+ '<text x="247" y="276" font-size="12.5" fill="currentColor">MAD 距離</text>'+
+ '<text x="20" y="372" font-size="12.5" fill="currentColor">收縮末期量測；瓣葉向左心房突出即為脫垂</text>'+
+ '</svg><div class="figcap">圖一　鉸鏈點的相對位置</div>';
+}
+
+function figLoc(){
+ return '<svg class="fig" viewBox="0 0 380 250" role="img" aria-label="瓣環四個位置的分離盛行率">'+
+ '<ellipse cx="150" cy="120" rx="86" ry="72" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>'+
+ '<text x="150" y="42" font-size="12.5" text-anchor="middle" fill="currentColor">前壁　98% 區</text>'+
+ '<text x="150" y="208" font-size="12.5" text-anchor="middle" fill="currentColor">下壁　98% 區</text>'+
+ '<text x="44" y="124" font-size="12.5" text-anchor="middle" fill="currentColor">前側壁</text>'+
+ '<circle cx="236" cy="120" r="15" fill="var(--accent)" opacity="0.75"/>'+
+ '<text x="262" y="116" font-size="13" font-weight="600" fill="currentColor">下側壁</text>'+
+ '<text x="262" y="134" font-size="12.5" fill="currentColor">僅 5%，關鍵區</text>'+
+ '<text x="150" y="124" font-size="13" text-anchor="middle" fill="currentColor">二尖瓣環</text>'+
+ '</svg><div class="figcap">圖二　位置比長度更決定臨床意義</div>';
+}
+
+function viewHome(){
+ return '<div class="card takehome"><h2 class="sec">🎯 Take Home Message</h2><ol>'+
+ '<li>MAD 是<b>瓣葉鉸鏈點往心房側移位</b>，在收縮末期量：從左心房壁與後葉交界，到左心室下基底部心肌頂端。</li>'+
+ '<li><b>位置比長度重要</b>。一般族群 76% 在某處找得到分離，但下側壁只有 5%——只有下側壁值得進一步追。</li>'+
+ '<li><b>一定要看舒張期</b>。只有收縮期可見的是 Pseudo-MAD，在傳統定義下佔了 84%。</li>'+
+ '<li>TTE 報「沒有」不等於沒有：偵測率 TTE 17.3%、TOE 25.5%、CMR 42%。</li>'+
+ '<li>兩個伴隨徵象要一起看：<b>systolic curling</b> 與 <b>Pickelhaube sign</b>（側壁瓣環 TDI 收縮中期 > 16 cm/s）。</li>'+
+ '<li>MAD 單獨預測心律不整的 AUC 只有 0.561，<b>不能單獨用來決策</b>。</li>'+
+ '<li>真正該轉診的是「MVP 合併不明原因暈厥或前暈厥」，不是每一位報告寫著 MVP 的年輕女性。</li>'+
+ '</ol></div>'+
+ '<div class="card"><h2 class="sec">📚 建議閱讀順序</h2>'+
+ '<div class="step"><div class="step-n">1</div><div><b>ESC how-to</b><div class="d">先學會怎麼量、報告該寫哪些欄位</div></div></div>'+
+ '<div class="step"><div class="step-n">2</div><div><b>UK Biobank + 同期社論</b><div class="d">學會不要亂報，理解位置的意義</div></div></div>'+
+ '<div class="step"><div class="step-n">3</div><div><b>EHRA consensus</b><div class="d">學會誰該轉診、誰該裝 ILR</div></div></div>'+
+ '<p class="small">完整文獻清單與連結在「分層」頁最下方。</p></div>';
+}
+
+function viewAnat(){
+ return '<div class="card"><h2 class="sec">🫀 MAD 是什麼</h2>'+
+ '<p>正常情況下，後葉的鉸鏈點（hinge point）、左心房壁與左心室下基底部心肌是連在一起的。'+
+ 'MAD 指的是這個鉸鏈點往心房側移位，使左心房壁與瓣葉的附著點高於真正的瓣環，'+
+ '中間留下一段<b>沒有心肌的間隙</b>。</p>'+
+ figMAD()+
+ '<div class="key"><b>為什麼重要：</b>這段間隙讓瓣環在收縮期可以反常地向外擴張（systolic curling），'+
+ '對乳頭肌與下基底部心肌造成反覆機械牽拉，久而久之形成纖維化基質——這就是 arrhythmic MVP 的解剖起點。</div>'+
+ '<h3>兩個相關名詞</h3>'+
+ '<div class="scroll"><table><thead><tr><th>名詞</th><th>定義</th><th>怎麼看</th></tr></thead><tbody>'+
+ '<tr><td>Systolic curling</td><td>瓣環在收縮期向外翻</td><td>沿 MAD 那條線做垂線量距離</td></tr>'+
+ '<tr><td>Pickelhaube sign</td><td>側壁瓣環收縮中期高速尖峰 > 16 cm/s</td><td>心尖切面對側壁瓣環打脈衝式 TDI</td></tr>'+
+ '<tr><td>MVP</td><td>瓣葉於收縮期超過瓣環平面 ≥ 2 mm</td><td>長軸（矢狀）切面，非四腔面</td></tr>'+
+ '<tr><td>Myxomatous</td><td>瓣葉組織過多、舒張期厚度 > 5 mm</td><td>舒張期量瓣葉最厚處</td></tr>'+
+ '</tbody></table></div>'+
+ '<div class="pit"><b>注意：</b>MVP 本身就不能用四腔面判定。二尖瓣環是馬鞍形的，四腔面會造成假性突出——'+
+ '這是 1999 年前盛行率被灌到 5–15% 的主因，改用長軸切面後真實盛行率只有 1–3%。</div></div>';
+}
+
+function viewHow(){
+ var h='<div class="card"><h2 class="sec">📏 量測八步驟</h2>';
+ STEPS.forEach(function(s,i){
+  h+='<div class="step"><div class="step-n">'+(i+1)+'</div><div><b>'+s.t+'</b>'+
+     '<div class="d">'+s.d+'</div></div></div>';
+ });
+ h+='</div><div class="card"><h2 class="sec">🗒 掃描時的檢查清單</h2>'+
+ '<p class="small">可勾選，進度會留在這台裝置上。</p>';
+ CHECK.forEach(function(c){
+  var on=S.chk[c.id];
+  h+='<div class="chk'+(on?" on":"")+'" data-chk="'+c.id+'"><div class="bx">'+(on?"✓":"")+'</div>'+
+     '<span class="tx">'+c.t+'</span></div>';
+ });
+ var done=CHECK.filter(function(c){return S.chk[c.id];}).length;
+ h+='<p class="small" style="text-align:center;margin-top:12px">已完成 '+done+' / '+CHECK.length+'</p>';
+ h+='<button class="btn" id="resetChk">清除勾選</button></div>';
+ return h;
+}
+
+function viewTrap(){
+ return '<div class="card"><h2 class="sec">⚠️ 判讀的四個陷阱</h2>'+
+ '<h3>陷阱一：只看有沒有，不看位置</h3>'+
+ '<p>UK Biobank 以 CMR 檢查 2,607 位一般族群，<b>76%</b> 在瓣環某處找得到分離，'+
+ '最常見於前壁與下壁；但被認為具臨床意義的<b>下側壁分離只有 5%</b>。'+
+ '研究結論直接寫明：只有廣泛的下側壁 disjunction 值得進一步檢查，其他位置應視為正常變異。</p>'+
+ figLoc()+
+ '<h3>陷阱二：沒回放舒張期</h3>'+
+ '<p>一項再分類研究中，263 位依傳統收縮期定義判定的 MAD，有 <b>221 位（84%）</b>其實是 Pseudo-MAD。'+
+ 'Pseudo-MAD 的盛行率與長度會隨 MR 嚴重度上升（輕度 23%、中度 36%、重度 44%；'+
+ '長度 6±2、8±2、10±2 mm），並與 curling 及 Pickelhaube 相關。True-MAD 在 MVP 病人中其實少見。</p>'+
+ '<div class="pit"><b>實務作法：</b>報告寫 MAD 時，加註「舒張期仍可見／不可見」。'+
+ '沒有這一句，接收報告的醫師無法判斷該不該當一回事。</div>'+
+ '<h3>陷阱三：把 TTE 陰性當成排除</h3>'+
+ '<p>同一批 131 位 MVP 合併顯著 MR 的病人，MAD 偵測率 <b>TTE 17.3%、TOE 25.5%、CMR 42%</b>；'+
+ 'TTE 與 CMR 的一致性僅中等（κ=0.54, 95% CI 0.49–0.59），TOE 與 CMR 才算良好（κ=0.79, 95% CI 0.74–0.84）。'+
+ 'CMR 對短長度的 MAD 與心肌纖維化都更敏感。</p>'+
+ '<h3>陷阱四：把 MAD 當成單一決策指標</h3>'+
+ '<p>2026 年整合縱貫性研究的 meta-analysis 顯示，MAD 單獨辨識心律不整病人的 <b>AUC 僅 0.561</b>，'+
+ '明確指出不應單獨用來指導臨床決策。</p>'+
+ '<div class="key"><b>一句話總結：</b>MAD 是風險拼圖的一塊，不是拼圖本身。'+
+ '報告要寫得夠細，臨床要判讀得夠保守。</div></div>';
+}
+
+function viewRisk(){
+ var h='<div class="card"><h2 class="sec">🚨 Arrhythmic MVP 的風險分層</h2>'+
+ '<p><b>AMVP 定義（2022 共識）：</b>MVP（有無 MAD 皆可）合併頻繁或複雜的心室性心律不整，'+
+ '且無其他明確的心律不整基質（原發性心肌病變、離子通道病、活動性缺血、其他成因的心室疤痕），'+
+ '<b>且與 MR 嚴重度無關</b>。</p>'+
+ '<h3>EHRA 兩階段流程</h3>'+
+ '<div class="step"><div class="step-n">1</div><div><b>臨床評估</b>'+
+ '<div class="d">高風險定義為<b>不明原因的前暈厥或暈厥</b>。曾發生心臟停止者，暈厥常是先行症狀。</div></div></div>'+
+ '<div class="step"><div class="step-n">2</div><div><b>心律監測</b>'+
+ '<div class="d">以植入式心律記錄器（ILR）記錄高風險心室性心律不整：VT ≥ 180 bpm，或曾有持續性 VT／VF。'+
+ '這是篩選 ICD 候選人的關鍵步驟。</div></div></div>'+
+ '<h3>未記錄到 VT 時的表型風險特徵</h3>'+
+ '<div class="red"><b>共識列出的七項：</b><br>'+
+ '① 下壁導程 T 波倒置　② 多形性心室早期收縮　③ MAD<br>'+
+ '④ 瓣葉冗餘　⑤ 左心房擴大　⑥ LVEF &lt; 50%　⑦ 心臟磁振造影 LGE</div>'+
+ '<p class="small">這些特徵決定的是「篩檢的密度」，不是直接的治療決策。</p>'+
+ '<h3>處置要點</h3>'+
+ '<ul style="font-size:14px;padding-left:20px">'+
+ '<li>曾復甦成功的心因性猝死 → 次級預防 ICD 屬合理。</li>'+
+ '<li>VT 電燒在 AMVP 已有經驗，標的多為乳頭肌或 Purkinje 系統病灶。</li>'+
+ '<li>瓣膜手術能否降低心律不整風險，目前仍無定論。</li></ul></div>'+
+ '<div class="card"><h2 class="sec">📖 文獻清單</h2>';
+ LIT.forEach(function(l){
+  h+='<div class="lit"><div class="t">'+l.t+'</div><div class="j">'+l.j+'</div>'+
+     '<div class="w">'+l.w+'</div><a href="'+l.u+'" target="_blank" rel="noopener">開啟連結 ↗</a></div>';
+ });
+ return h+'</div>';
+}
+
+function viewRep(){
+ return '<div class="card"><h2 class="sec">📝 報告書寫範本</h2>'+
+ '<p class="small">貼進超音波報告系統後直接填空。目的是讓接收報告的醫師能自行判斷輕重，而不是只看到「MVP」兩個字。</p>'+
+ '<pre id="tpl">'+TEMPLATE.replace(/</g,"&lt;")+'</pre>'+
+ '<button class="btn" id="copyTpl">複製範本</button></div>'+
+ '<div class="card"><h2 class="sec">🔴 轉診時機</h2>'+
+ '<div class="red"><b>建議轉介心律不整門診：</b><br>'+
+ 'MVP 病人出現不明原因暈厥或前暈厥（最重要的一項）<br>'+
+ '下壁導程 T 波倒置<br>'+
+ '頻繁或多形性心室早期收縮、Holter 見 NSVT<br>'+
+ '下側壁 MAD 且舒張期仍可見<br>'+
+ '曾有心臟停止病史者，一律轉介</div>'+
+ '<div class="key"><b>不需要特別處置：</b>單純 MVP、無症狀、無上述特徵者。'+
+ '可以明確告訴病人這是良性的，並約定固定追蹤即可。'+
+ '過度標籤化本身就是傷害。</div></div>';
+}
+
+function viewQuiz(){
+ if(S.qdone){
+  var msg=S.qscore===QUIZ.length?"全對，可以直接拿去帶超音波室的教學了。":
+   (S.qscore>=QUIZ.length*0.7?"掌握良好，回頭看一次錯的那幾題。":"建議重看「量測」與「陷阱」兩節。");
+  return '<div class="card" style="text-align:center"><h2 class="sec">測驗結果</h2>'+
+   '<p style="font-size:38px;font-weight:700;color:var(--primary-light);margin:8px 0">'+S.qscore+' / '+QUIZ.length+'</p>'+
+   '<p class="small">'+msg+'</p><button class="btn" id="restart">重新測驗</button></div>';
+ }
+ var q=QUIZ[S.qi];
+ var h='<div class="card"><div class="pbar"><div style="width:'+((S.qi+1)/QUIZ.length*100)+'%"></div></div>'+
+  '<div class="small">第 '+(S.qi+1)+' 題 / 共 '+QUIZ.length+' 題　·　目前得分 '+S.qscore+'</div>'+
+  '<div class="qq">'+q.q+'</div>';
+ q.o.forEach(function(o,k){
+  var cls="opt";
+  if(S.qshow){ if(k===S.qsel)cls+=(k===q.c?" correct":" wrong"); else if(k===q.c)cls+=" reveal"; }
+  h+='<button class="'+cls+'" data-opt="'+k+'">'+String.fromCharCode(65+k)+'. '+o+'</button>';
+ });
+ if(S.qshow){
+  h+='<div class="explain"><p style="margin:0 0 6px;font-weight:700">'+
+   (S.qsel===q.c?"✅ 正確":"❌ 錯誤，正確答案為 "+String.fromCharCode(65+q.c))+'</p>'+
+   '<p style="margin:0">'+q.e+'</p><button class="btn" id="nextQ">'+
+   (S.qi<QUIZ.length-1?"下一題":"查看結果")+'</button></div>';
+ }
+ return h+'</div>';
+}
+
+function render(){
+ var v={home:viewHome,anat:viewAnat,how:viewHow,trap:viewTrap,risk:viewRisk,rep:viewRep,quiz:viewQuiz}[S.tab];
+ document.getElementById("main").innerHTML=v()+FOOT;
+ document.getElementById("nav").innerHTML=TABS.map(function(t){
+  return '<button data-tab="'+t.id+'" class="'+(S.tab===t.id?"active":"")+'">'+
+   '<span class="ico">'+t.ico+'</span>'+t.t+'</button>';
+ }).join("");
+ document.documentElement.classList.toggle("dark-theme",S.dark);
+ document.getElementById("themeBtn").textContent=S.dark?"☀":"🌙";
+}
+
+function toast(m){var t=document.getElementById("toast");t.textContent=m;t.hidden=false;
+ clearTimeout(t._h);t._h=setTimeout(function(){t.hidden=true;},2200);}
+
+function copy(txt,msg){
+ function done(){toast(msg||"已複製");}
+ function fb(){var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";
+  ta.style.opacity="0";document.body.appendChild(ta);ta.select();
+  try{document.execCommand("copy");done();}catch(e){toast("複製失敗，請手動選取");}
+  document.body.removeChild(ta);}
+ if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(txt).then(done).catch(fb);}else{fb();}
+}
+
+document.addEventListener("click",function(e){
+ var el;
+ if((el=e.target.closest("[data-tab]"))){S.tab=el.getAttribute("data-tab");save();render();window.scrollTo(0,0);return;}
+ if((el=e.target.closest("[data-chk]"))){var id=el.getAttribute("data-chk");
+  S.chk[id]=!S.chk[id];save();render();return;}
+ if(e.target.closest("#resetChk")){S.chk={};save();render();return;}
+ if(e.target.closest("#copyTpl")){copy(TEMPLATE,"範本已複製");return;}
+ if((el=e.target.closest("[data-opt]"))){
+  if(S.qshow)return;
+  var k=parseInt(el.getAttribute("data-opt"),10);
+  S.qsel=k;S.qshow=true;if(k===QUIZ[S.qi].c)S.qscore++;render();return;}
+ if(e.target.closest("#nextQ")){
+  if(S.qi<QUIZ.length-1){S.qi++;S.qsel=null;S.qshow=false;}else{S.qdone=true;}
+  render();window.scrollTo(0,0);return;}
+ if(e.target.closest("#restart")){S.qi=0;S.qsel=null;S.qshow=false;S.qscore=0;S.qdone=false;render();return;}
+});
+
+document.getElementById("themeBtn").addEventListener("click",function(){S.dark=!S.dark;save();render();});
+
+var mask=document.getElementById("mask");
+document.getElementById("shareBtn").addEventListener("click",function(){mask.hidden=false;});
+document.getElementById("closeSheet").addEventListener("click",function(){mask.hidden=true;});
+mask.addEventListener("click",function(e){if(e.target===mask)mask.hidden=true;});
+document.getElementById("sysShare").addEventListener("click",function(){
+ var d={title:"MAD 辨識與量測教學",text:"Mitral annular disjunction 辨識與量測（讀書會共筆）",url:location.href};
+ if(navigator.share){navigator.share(d).then(function(){mask.hidden=true;}).catch(function(){});}
+ else{mask.hidden=true;copy(location.href,"此裝置不支援系統分享，已複製連結");}
+});
+document.getElementById("copyLink").addEventListener("click",function(){mask.hidden=true;copy(location.href,"連結已複製");});
+document.getElementById("dlFile").addEventListener("click",function(){
+ try{
+  var c=document.documentElement.cloneNode(true);
+  var m=c.querySelector("#main"); if(m)m.innerHTML="";
+  var n=c.querySelector("#nav"); if(n)n.innerHTML="";
+  var k=c.querySelector("#mask"); if(k)k.setAttribute("hidden","");
+  c.classList.remove("dark-theme");
+  var blob=new Blob(["<!DOCTYPE html>\n"+c.outerHTML],{type:"text/html;charset=utf-8"});
+  var a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download="MAD辨識與量測教學.html";
+  document.body.appendChild(a);a.click();document.body.removeChild(a);
+  setTimeout(function(){URL.revokeObjectURL(a.href);},4000);
+  mask.hidden=true;toast("已下載，可直接傳給同仁");
+ }catch(err){toast("下載失敗，請改用瀏覽器的「儲存頁面」");}
+});
+document.getElementById("printBtn").addEventListener("click",function(){
+ mask.hidden=true;setTimeout(function(){window.print();},250);
+});
+
+load();render();
+})();
+</script>
+</body>
+</html>

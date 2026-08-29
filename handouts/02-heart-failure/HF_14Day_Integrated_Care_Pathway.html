@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>心衰竭 14 天整合照護 Pathway 教學｜Pathway × 心臟復健</title>
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#e74c3c;
+  --success:#27ae60; --warning:#f39c12; --info:#2980b9;
+  --bg-cream:#faf8f5; --bg-card:#ffffff; --text-dark:#2c3e50; --text-muted:#7f8c8d;
+  --border:#ecf0f1; --shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;background:var(--bg-cream);color:var(--text-dark);
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",
+    -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.75;font-size:16px;}
+#app{max-width:860px;margin:0 auto;padding-bottom:calc(90px + env(safe-area-inset-bottom));}
+
+.hero{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-light) 100%);
+  color:#fff;padding:26px 20px 22px;}
+.hero h1{margin:0 0 6px;font-size:1.32rem;font-weight:700;line-height:1.45;}
+.hero .sub{font-size:.86rem;opacity:.9;margin:0;}
+.hero .tagrow{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;}
+.tag{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);
+  border-radius:999px;padding:4px 12px;font-size:.75rem;}
+
+nav.tabs{position:sticky;top:0;z-index:50;background:var(--bg-card);
+  border-bottom:1px solid var(--border);display:flex;overflow-x:auto;
+  scrollbar-width:none;box-shadow:0 2px 10px rgba(0,0,0,.04);}
+nav.tabs::-webkit-scrollbar{display:none;}
+nav.tabs button{flex:0 0 auto;min-height:50px;padding:12px 15px;border:none;background:none;
+  font-family:inherit;font-size:.87rem;font-weight:500;color:var(--text-muted);
+  border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;}
+nav.tabs button.active{color:var(--primary);border-bottom-color:var(--accent);font-weight:700;}
+
+.wrap{padding:18px 16px 30px;}
+.card{background:var(--bg-card);border-radius:14px;padding:18px;margin-bottom:16px;
+  box-shadow:var(--shadow);border:1px solid var(--border);}
+.card h2{margin:0 0 12px;font-size:1.08rem;color:var(--primary);font-weight:700;}
+.card h3{margin:18px 0 8px;font-size:.98rem;color:var(--primary-light);font-weight:600;}
+.card p{margin:0 0 10px;font-size:.93rem;}
+.muted{color:var(--text-muted);font-size:.82rem;}
+
+.takehome{border-left:5px solid var(--accent);background:#fff5f3;}
+.takehome ol{margin:0;padding-left:20px;}
+.takehome li{margin-bottom:9px;font-size:.94rem;}
+
+.callout{border-radius:10px;padding:13px 15px;margin:12px 0;font-size:.89rem;}
+.callout.warn{background:#fef6e7;border-left:4px solid var(--warning);}
+.callout.danger{background:#fdedec;border-left:4px solid var(--accent);}
+.callout.good{background:#eafaf1;border-left:4px solid var(--success);}
+.callout.info{background:#eaf2fa;border-left:4px solid var(--info);}
+.callout b{color:var(--primary);}
+
+table{width:100%;border-collapse:collapse;font-size:.85rem;margin:10px 0;}
+th{background:var(--primary);color:#fff;padding:9px 7px;text-align:left;font-weight:600;font-size:.8rem;}
+td{padding:9px 7px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:last-child td{border-bottom:none;}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+
+.grouprow{display:flex;gap:10px;align-items:center;padding:12px;border-radius:11px;
+  border:2px solid var(--border);margin-bottom:9px;cursor:pointer;background:#fff;
+  transition:.16s;min-height:56px;}
+.grouprow.sel{border-color:var(--primary-light);background:#f4f8fc;}
+.gbadge{flex:0 0 74px;text-align:center;font-weight:700;font-size:.82rem;color:#fff;
+  border-radius:8px;padding:7px 4px;}
+.gmeta{flex:1;font-size:.83rem;line-height:1.5;}
+.ghr{flex:0 0 auto;font-weight:700;font-size:.9rem;text-align:right;}
+
+.cibar-row{display:flex;align-items:center;gap:8px;margin-bottom:11px;font-size:.78rem;}
+.cibar-label{flex:0 0 68px;font-weight:600;}
+.cibar-track{flex:1;height:26px;position:relative;background:#f3f5f7;border-radius:5px;}
+.cibar-one{position:absolute;top:0;bottom:0;width:2px;background:#b0b8c0;}
+.cibar-seg{position:absolute;top:8px;height:10px;border-radius:5px;opacity:.75;}
+.cibar-dot{position:absolute;top:5px;width:16px;height:16px;border-radius:50%;
+  transform:translateX(-8px);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.25);}
+.cibar-val{flex:0 0 100px;text-align:right;font-weight:600;}
+
+.day{border-radius:12px;margin-bottom:11px;overflow:hidden;border:1px solid var(--border);
+  background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.05);}
+.dayhead{display:flex;align-items:center;gap:12px;padding:14px;cursor:pointer;min-height:60px;}
+.daychip{flex:0 0 84px;color:#fff;border-radius:8px;padding:7px 5px;text-align:center;
+  font-weight:700;font-size:.8rem;line-height:1.3;}
+.daytitle{flex:1;}
+.daytitle b{display:block;font-size:.98rem;}
+.daytitle span{font-size:.78rem;color:var(--text-muted);}
+.daypct{flex:0 0 auto;font-size:.75rem;color:var(--text-muted);font-weight:600;}
+.daybody{padding:0 14px 14px;border-top:1px dashed var(--border);}
+
+.rolehead{margin:14px 0 6px;font-size:.85rem;font-weight:700;display:flex;align-items:center;gap:7px;}
+.roledot{width:9px;height:9px;border-radius:50%;flex:0 0 auto;}
+.chk{display:flex;gap:11px;align-items:flex-start;padding:11px 12px;border-radius:9px;
+  background:#fafbfc;border:1px solid var(--border);margin-bottom:7px;cursor:pointer;
+  min-height:48px;transition:.15s;}
+.chk.done{background:#eafaf1;border-color:#a9e0c1;}
+.chk.done .chktxt{color:var(--text-muted);}
+.box{flex:0 0 21px;height:21px;border-radius:6px;border:2px solid #cfd8dd;background:#fff;
+  display:flex;align-items:center;justify-content:center;margin-top:1px;font-size:13px;color:#fff;}
+.chk.done .box{background:var(--success);border-color:var(--success);}
+.chktxt{font-size:.87rem;line-height:1.6;}
+
+.progressbar{height:9px;background:var(--border);border-radius:99px;overflow:hidden;margin:10px 0 4px;}
+.progressbar > div{height:100%;background:linear-gradient(90deg,var(--success),#5ec98a);transition:width .3s;}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:48px;
+  padding:12px 18px;border-radius:10px;border:none;background:var(--primary);color:#fff;
+  font-family:inherit;font-size:.9rem;font-weight:600;cursor:pointer;}
+.btn.ghost{background:#fff;color:var(--primary);border:1.5px solid var(--primary-light);}
+.btn.sm{min-height:40px;padding:8px 14px;font-size:.82rem;}
+.btnrow{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px;}
+
+.opt{display:block;width:100%;text-align:left;padding:13px 15px;margin-bottom:9px;border-radius:10px;
+  border:2px solid var(--border);background:#fff;font-family:inherit;font-size:.9rem;
+  cursor:pointer;min-height:48px;line-height:1.6;color:inherit;}
+.opt.correct{border-color:var(--success);background:#eafaf1;}
+.opt.wrong{border-color:var(--accent);background:#fdedec;}
+.opt:disabled{cursor:default;}
+
+.ref{padding:12px 0;border-bottom:1px solid var(--border);font-size:.85rem;}
+.ref:last-child{border-bottom:none;}
+.ref a{color:var(--info);text-decoration:none;word-break:break-all;font-size:.8rem;}
+.reftag{display:inline-block;background:var(--primary);color:#fff;border-radius:5px;
+  padding:1px 8px;font-size:.7rem;margin-right:7px;font-weight:600;}
+
+footer.sig{background:var(--primary);color:#fff;padding:22px 18px 26px;font-size:.8rem;line-height:1.85;}
+footer.sig b{font-size:.92rem;}
+footer.sig .disc{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.22);
+  opacity:.85;font-size:.75rem;}
+
+.fab{position:fixed;bottom:calc(16px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);
+  z-index:60;display:flex;gap:9px;}
+.fab button{border:none;border-radius:999px;padding:12px 20px;min-height:48px;
+  background:var(--primary);color:#fff;font-family:inherit;font-size:.85rem;font-weight:600;
+  box-shadow:0 6px 22px rgba(30,58,95,.35);cursor:pointer;}
+.fab button.alt{background:#fff;color:var(--primary);border:1.5px solid var(--border);}
+
+@media print{
+  nav.tabs,.fab{display:none!important;}
+  .card{box-shadow:none;page-break-inside:avoid;}
+  body{background:#fff;}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+"use strict";
+
+/* ============ 資料 ============ */
+
+var GROUPS = [
+ {id:"PmRm",label:"P−/R−",color:"#7f8c8d",name:"兩者都沒有",n:397,d:92,hr:"Reference",lo:null,hi:null,p:"—",
+  desc:"沒有走整合 pathway，也沒有住院期間心臟復健。這是比較的基準組。",
+  note:"未校正存活曲線中最差的一組，1 年死亡 92/397 ≈ 23.2%。"},
+ {id:"PmRp",label:"P−/R+",color:"#e67e22",name:"只有復健",n:706,d:94,hr:"0.61",lo:0.42,hi:0.87,p:"0.007",
+  desc:"沒有走 pathway，但有做住院期間心臟復健 (inpatient CR)。這是本研究最大的一組。",
+  note:"IPTW 校正後死亡風險低於基準組，統計上達顯著 (p=0.007)。"},
+ {id:"PpRm",label:"P+/R−",color:"#2980b9",name:"只有 pathway",n:136,d:16,hr:"0.44",lo:0.21,hi:0.94,p:"0.034",
+  desc:"有走整合 pathway，但沒有登錄住院心臟復健。這是四組中人數最少的一組。",
+  note:"點估計看起來最低 — 但只有 16 個死亡事件，CI 從 0.21 到 0.94 跨了 4.5 倍，上緣幾乎碰到 1。請看「解讀陷阱」分頁。"},
+ {id:"PpRp",label:"P+/R+",color:"#27ae60",name:"兩者都有",n:255,d:31,hr:"0.62",lo:0.37,hi:1.04,p:"0.072",
+  desc:"有走整合 pathway，也有做住院心臟復健。",
+  note:"方向與其他介入組一致，但 95% CI 包含 1.0，未達統計顯著。"}
+];
+
+var PATHWAY = [
+ {id:"d1",days:"Day 1–2",color:"#3b7dd8",title:"穩定期 Stabilization",sub:"檢查、急性期治療、床邊早期活動",
+  why:"目標是把鬱血 (congestion) 壓下來，同時避免臥床太久造成的失能。這兩件事要同時做，不是先後做。",
+  roles:{
+   nurse:["每日固定時間、固定條件量體重（同一台磅秤、晨起排尿後、同一件衣物）",
+     "嚴格記錄 I/O；標註利尿劑給藥時間與尿量反應",
+     "每班評估鬱血徵象：頸靜脈怒張 (JVD)、肺囉音、下肢水腫、端坐呼吸 (orthopnea)",
+     "記錄 baseline 生命徵象與 SpO₂，作為活動時的比較基準",
+     "確認並登錄入院前活動能力 (pre-admission mobility)：自己走／助行器／輪椅／臥床"],
+   rehab:["入院 24–48 小時內完成第一次床邊評估（不必等「完全穩定」）",
+     "床邊被動／主動關節活動、床上踝泵運動、坐床沿耐受度測試",
+     "確認活動安全門檻，與護理站共同張貼於床頭",
+     "評估跌倒風險與譫妄風險"],
+   family:["學會看每天的體重數字，知道「今天比昨天重多少」才是重點",
+     "知道臥床太久會讓長輩越躺越沒力，鼓勵床上活動不是折磨他",
+     "準備平常在家吃的所有藥（含成藥、保健品）給醫療團隊看"]},
+  gdmt:"鬱血改善後即可開始／續用四本柱 (ARNI/ACEI/ARB、beta-blocker、MRA、SGLT2i)。SGLT2i 與 MRA 通常可以最早導入。"},
+
+ {id:"d2",days:"Day 2–4",color:"#2e9e63",title:"活動進展 Mobilization",sub:"漸進式活動、SPPB、鹽分與水分計畫",
+  why:"從床邊坐 → 站 → 走廊行走，逐級推進。同時把 SPPB (Short Physical Performance Battery) 做出來，量化衰弱程度。REHAB-HF 研究就是用 SPPB 當主要指標。",
+  roles:{
+   nurse:["每次下床活動前後記錄：HR、BP、SpO₂、Borg 自覺費力程度",
+     "衛教鹽分限制與水分計畫，並請病人／家屬複誦「每天可以喝多少」",
+     "評估是否可移除留置導尿，以利活動",
+     "把活動進度寫在交班單，讓下一班知道昨天走到哪裡"],
+   rehab:["執行 SPPB（平衡、4 公尺步行速度、五次坐站）並登錄分數",
+     "依 REHAB-HF 架構分四面向漸進：肌力 strength、平衡 balance、行動 mobility、耐力 endurance",
+     "耐力訓練放最後 — 前三項達標才加上去",
+     "訂出每日行走目標距離並張貼於床頭"],
+   family:["陪走廊散步時注意有沒有喘、頭暈、冒冷汗，有就停下來休息",
+     "學習「說話測試」：走路時還能講短句 = 強度剛好；講不出話 = 太喘了",
+     "不要因為心疼而不讓長輩下床"]},
+  gdmt:"血壓、腎功能、鉀離子穩定就開始 up-titration。STRONG-HF 顯示積極上調劑量可降低 180 天死亡或再住院 (RR 0.66, 95% CI 0.50–0.86)。"},
+
+ {id:"d3",days:"Day 3–6",color:"#d97a45",title:"衛教與規劃 Education & planning",sub:"心衰竭手冊、IPOS、出院／社福規劃",
+  why:"這一段最容易被跳過，卻最可能影響再住院。衛教不是發一張單張，是確認病人真的懂。",
+  roles:{
+   nurse:["發放心衰竭自我照護手冊，並逐項帶讀（不是放在床頭就算）",
+     "使用 teach-back：請病人／家屬用自己的話說一次「體重增加幾公斤要打電話」",
+     "完成 IPOS 症狀與心理社會需求評估（喘、痛、焦慮、家庭負擔）",
+     "確認出院後回診時間已排定於 7–14 天內",
+     "啟動出院準備服務轉介：居家護理、長照 2.0、社工評估"],
+   rehab:["訂定居家運動處方（頻率、強度、時間、型態）並帶病人實際演練一次",
+     "評估居家環境障礙：樓梯、浴室、有無扶手",
+     "評估輔具需求"],
+   family:["一起參加衛教，因為出院後執行的人常常是家屬",
+     "拿到並看懂紅黃綠燈自我監測表",
+     "確認家裡有一台可靠的體重計"]},
+  gdmt:"把「為什麼要吃這些藥、吃多久、副作用怎麼看」講清楚。藥師介入是多專科 pathway 的核心成分之一。"},
+
+ {id:"d4",days:"Day 7–10",color:"#2c3e6b",title:"再評估 Reassessment",sub:"重複檢查、營養與衰弱評估",
+  why:"重新確認：鬱血真的解除了嗎？體能有進步嗎？營養狀態是不是限制因子？",
+  roles:{
+   nurse:["複查 BNP／NT-proBNP、電解質、腎功能",
+     "重新評估鬱血徵象，與入院時對照",
+     "追蹤體重下降幅度是否合理（過快也是問題）",
+     "確認藥物調整後有無低血壓、頭暈、高血鉀症狀"],
+   rehab:["重測 SPPB，與 Day 2–4 對照",
+     "依進步幅度調整運動處方強度",
+     "重新評估跌倒風險"],
+   family:["觀察長輩吃得下多少，把實際進食量告訴營養師",
+     "討論出院後誰負責量體重、誰負責給藥"]},
+  gdmt:"再次檢視四本柱是否已達可耐受的最大劑量；有缺口就在住院中補上，不要留到門診。"},
+
+ {id:"d5",days:"Day 11–14",color:"#1e6b47",title:"出院準備 Discharge readiness",sub:"6 分鐘走路測試、居家氧氣確認、最後衛教",
+  why:"出院不是症狀好了就走，而是要通過一組可以逐項核對的準備度條件。",
+  roles:{
+   nurse:["完成出院衛教核對表並簽名",
+     "確認出院用藥清單與病人手上舊藥的差異已排除",
+     "確認 7–14 天內回診已掛號、病人知道日期與地點",
+     "確認緊急聯絡管道（哪支電話、幾點打）",
+     "完成最後一次 teach-back"],
+   rehab:["執行 6 分鐘行走測試 (6MWT) 並記錄距離",
+     "確認居家氧氣需求與設備操作",
+     "交付書面居家運動計畫，並轉介門診心臟復健"],
+   family:["帶回家的三樣東西：藥、體重紀錄表、紅黃綠燈警示卡",
+     "知道回診日期，並寫進手機行事曆",
+     "知道什麼情況要直接掛急診、不要等回診"]},
+  gdmt:"2023 ESC 焦點更新：所有心衰竭住院病人應於出院後 6 週內完成 GDMT 起始與快速上調（Class I, Level B）；出院後 7–14 天內的早期回診為 Class I。"}
+];
+
+var STOPFLAGS = ["自覺費力程度 Borg &gt; 13（覺得有點喘到很喘）",
+ "SpO₂ 下降至 90% 以下","收縮壓在活動中反而下降（尤其下降超過 10–20 mmHg）",
+ "新出現胸痛、冷汗、臉色蒼白","新出現或惡化的心律不整",
+ "頭暈、快昏倒、步態不穩","病人自己說「不對勁」"];
+
+var CALLFLAGS = ["3 天內體重增加 ≥ 2 公斤","需要墊高枕頭才能睡，或夜間被喘醒",
+ "下肢水腫明顯變嚴重、鞋子穿不下","休息時就會喘",
+ "心跳持續過快或不規則","暈厥或接近暈厥"];
+
+var QUIZ = [
+ {q:"海報顯示 P+/R−（只有 pathway、沒做復健）的 HR 是 0.44 (95% CI 0.21–0.94)，比 P+/R+（兩者都做）的 0.62 還低。這是否代表「不用做復健、走 pathway 就好」？",
+  options:["是，數字比較低就代表比較好","否，這是觀察性研究，且信賴區間大幅重疊、事件數極少","是，因為 p=0.034 已達統計顯著","否，因為 p 值大於 0.05"],
+  correct:1,
+  exp:"P+/R− 只有 136 人、16 個死亡事件，CI 從 0.21 到 0.94 橫跨 4.5 倍寬度，且與 P+/R+ 的 CI (0.37–1.04) 大幅重疊，統計上無法宣稱兩組有差別。加上這是回溯性、單中心、以住院次數為分析單位的觀察研究，存在 confounding by indication（誰被開復健醫囑，本身就不是隨機的）。"},
+ {q:"依 2023 年 Cochrane 統合分析（60 篇 RCT、8728 位心衰竭病人），運動型心臟復健 (ExCR) 對全因死亡率的效果是？",
+  options:["顯著降低死亡率","短期未達統計顯著 (RR 0.93, 95% CI 0.71–1.21)","顯著增加死亡率","完全沒有相關研究"],
+  correct:1,
+  exp:"ExCR 的實證強項本來就不是死亡率，而是降低全因住院 (RR 0.69, 95% CI 0.56–0.86, NNT 13) 與明顯改善生活品質 (MLWHF 平均差 −7.39)。拿一張觀察性海報的死亡率結果來否定心臟復健，方向本身就用錯了指標。"},
+ {q:"REHAB-HF 試驗 (NEJM 2021) 收的是什麼病人、主要指標是什麼？",
+  options:["穩定慢性心衰竭、主要指標為死亡率","急性失代償心衰竭住院的高齡衰弱病人、主要指標為 3 個月 SPPB","心肌梗塞後病人、主要指標為再梗塞","心臟移植後病人、主要指標為排斥率"],
+  correct:1,
+  exp:"REHAB-HF 收 349 位因急性失代償心衰竭住院的高齡病人（平均 72.7 歲），介入涵蓋肌力、平衡、行動、耐力四面向，自住院中開始、出院後延續 36 次。3 個月 SPPB 顯著優於常規照護；但該研究本身沒有 power 看臨床事件。"},
+ {q:"活動訓練進行到一半，病人 SpO₂ 從 96% 掉到 88%、開始冒冷汗。正確處置是？",
+  options:["鼓勵他撐完預定距離","立即停止活動、協助坐下休息、監測生命徵象並通報","減速但繼續走","讓家屬扶著繼續"],
+  correct:1,
+  exp:"SpO₂ 低於 90%、新出現冷汗都是明確的終止指標。心臟復健的安全性建立在「有明確的停止條件、而且大家都認得」，不是建立在「不敢動」。"},
+ {q:"STRONG-HF 試驗支持的做法，在 2023 ESC 焦點更新中被列為？",
+  options:["Class III，不建議","Class IIb，可以考慮","Class I, Level B：出院後 6 週內起始並快速上調 GDMT","沒有被納入指引"],
+  correct:2,
+  exp:"STRONG-HF 顯示積極上調 GDMT 併密集追蹤，可降低 180 天心衰竭再住院或全因死亡（RR 0.66, 95% CI 0.50–0.86）。這正是「pathway 要把藥物治療綁進去」的實證基礎 — pathway 不只是排復健，是把 GDMT 的執行變成有時程的流程。"},
+ {q:"這份 ESC 2026 海報最合理的 take-home 是？",
+  options:["心臟復健沒有用，改推 pathway 就好","pathway 和復健都不重要","有系統優於沒系統；pathway 是載體，復健是其中一個成分，兩者不是互相取代的選項","應立即停辦住院心臟復健"],
+  correct:2,
+  exp:"四組中，只要有任何一種結構化介入，1 年死亡率都低於兩者皆無的基準組（未校正粗死亡率 23.2% vs 11.8–13.3%）。整體 Wald χ²(3)=9.72, p=0.021 說的是「四組之間有差異」，不是「復健可以省略」。"}
+];
+
+var REFS = [
+ {tag:"本次海報",t:"Fujimoto R, et al. Association of an early multidisciplinary HF pathway and inpatient rehabilitation with 1-year survival: a four-group real-world analysis (2020–2025).",s:"ESC Congress 2026, Moderated Poster. Tsuyama Chuo Hospital / Okayama University.",u:""},
+ {tag:"指引",t:"2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure — 多專科心衰竭管理計畫、自我照護策略、運動訓練皆為 Class I。",s:"Eur Heart J 2021;42:3599–3726.",u:"https://academic.oup.com/eurheartj/article/42/36/3599/6358045"},
+ {tag:"指引",t:"2023 Focused Update of the 2021 ESC HF Guidelines — 所有心衰竭住院病人於出院後 6 週內起始並快速上調 GDMT (Class I, Level B)；出院後 7–14 天早期回診 (Class I)。",s:"Eur Heart J 2023.",u:"https://www.revespcardiol.org/en-comments-on-the--update-of-the--esc-guid-articulo-S188558572300333X"},
+ {tag:"RCT",t:"Kitzman DW, et al. Physical Rehabilitation for Older Patients Hospitalized for Heart Failure (REHAB-HF) — 349 位高齡 ADHF 病人，早期、漸進、多面向復健顯著改善 3 個月 SPPB。",s:"N Engl J Med 2021;385:203–216.",u:"https://pubmed.ncbi.nlm.nih.gov/33999544/"},
+ {tag:"RCT",t:"Mebazaa A, et al. STRONG-HF — 快速上調 GDMT 併密集追蹤，180 天心衰竭再住院或全因死亡 15.2% vs 23.3%（adjusted risk difference 8.1%, 95% CI 2.9–13.2；RR 0.66, 95% CI 0.50–0.86；p=0.0021）。",s:"Lancet 2022.",u:"https://pubmed.ncbi.nlm.nih.gov/36356631/"},
+ {tag:"統合分析",t:"Molloy C, et al. Exercise-based cardiac rehabilitation for adults with heart failure — 2023 Cochrane systematic review and meta-analysis（60 RCT、8728 人）。短期：全因死亡 RR 0.93 (0.71–1.21，未達顯著)；全因住院 RR 0.69 (0.56–0.86, NNT 13)；MLWHF −7.39 (−10.30 至 −4.47)。",s:"Eur J Heart Fail 2023;25:2263–2273.",u:"https://pubmed.ncbi.nlm.nih.gov/37850321/"},
+ {tag:"原始 pathway",t:"Amioka N, et al. Innovative clinical pathway shortened the length of hospital stay and prevented readmission in patients with acute decompensated heart failure — 本次海報引用的日本 pathway 原型（Mitoyo General Hospital）。",s:"J Cardiol 2022;80:232–239.",u:"https://pubmed.ncbi.nlm.nih.gov/35428556/"},
+ {tag:"系統性回顧",t:"Early mobilization for acute heart failure: a scoping and a systematic review — early mobilization 與較低再住院率相關，但納入研究品質為 low/very low、confounding 風險高。",s:"J Cardiol 2023.",u:"https://www.journal-of-cardiology.com/article/S0914-5087(23)00239-3/fulltext"},
+ {tag:"指引",t:"Makita S, et al. JCS/JACR 2021 Guideline on Rehabilitation in Patients with Cardiovascular Disease.",s:"Circ J 2022;87:155–235.",u:""}
+];
+
+var TABS = [["home","總覽"],["trap","解讀陷阱"],["pathway","14天 Pathway"],
+            ["safety","紅旗與衛教"],["family","家屬版"],["quiz","小測驗"],["refs","文獻"]];
+
+var ROLES = {nurse:{n:"護理師",c:"#e74c3c"},rehab:{n:"復健／物理治療師",c:"#2980b9"},family:{n:"家屬／病人",c:"#27ae60"}};
+
+/* ============ 狀態 ============ */
+
+var S = {tab:"home", group:"PpRm", role:"nurse", openDay:"d1",
+         done:{}, qi:0, qsel:null, qscore:0, qfin:false};
+
+try{ var saved=localStorage.getItem("hf-pathway-v1"); if(saved) S.done=JSON.parse(saved)||{}; }catch(e){}
+function persist(){ try{ localStorage.setItem("hf-pathway-v1",JSON.stringify(S.done)); }catch(e){} }
+
+/* ============ 版面 ============ */
+
+function ciBar(){
+  var lo=Math.log(0.15), hi=Math.log(1.6);
+  function pos(v){ return ((Math.log(v)-lo)/(hi-lo))*100; }
+  var h="";
+  GROUPS.filter(function(g){return g.lo!==null;}).forEach(function(g){
+    h+='<div class="cibar-row"><div class="cibar-label" style="color:'+g.color+'">'+g.label+'</div>'+
+       '<div class="cibar-track"><div class="cibar-one" style="left:'+pos(1)+'%"></div>'+
+       '<div class="cibar-seg" style="left:'+pos(g.lo)+'%;width:'+(pos(g.hi)-pos(g.lo))+'%;background:'+g.color+'"></div>'+
+       '<div class="cibar-dot" style="left:'+pos(parseFloat(g.hr))+'%;background:'+g.color+'"></div></div>'+
+       '<div class="cibar-val">'+g.hr+' ('+g.lo+'–'+g.hi+')</div></div>';
+  });
+  h+='<div style="display:flex;font-size:.7rem;color:var(--text-muted);margin-top:-4px">'+
+     '<div style="flex:0 0 68px"></div><div style="flex:1;position:relative;height:16px">'+
+     '<span style="position:absolute;left:'+pos(0.2)+'%">0.2</span>'+
+     '<span style="position:absolute;left:'+pos(0.5)+'%">0.5</span>'+
+     '<span style="position:absolute;left:'+pos(1)+'%;font-weight:700;color:#c0392b">1.0</span>'+
+     '<span style="position:absolute;left:'+pos(1.5)+'%">1.5</span>'+
+     '</div><div style="flex:0 0 100px"></div></div>';
+  return h;
+}
+
+function viewHome(){
+  var rows="";
+  GROUPS.forEach(function(g){
+    rows+='<tr><td><b style="color:'+g.color+'">'+g.label+'</b></td>'+
+      '<td>'+(g.label.indexOf("P+")===0?"✅":"—")+'</td>'+
+      '<td>'+(g.label.slice(-2)==="R+"?"✅":"—")+'</td>'+
+      '<td>'+g.n+' ('+g.d+')</td><td>'+(g.d/g.n*100).toFixed(1)+'%</td></tr>';
+  });
+  return '<div class="wrap">'+
+  '<div class="card takehome"><h2>🎯 Take Home Message</h2><ol>'+
+  '<li><b>「有系統」明顯優於「沒系統」。</b>四組裡只要有任何一種結構化介入（pathway 或住院復健），1 年死亡率都低於兩者皆無的基準組。未校正粗死亡率：兩者皆無 23.2%，其餘三組 11.8–13.3%。</li>'+
+  '<li><b>但不能得出「不必做復健」的結論。</b>「只有 pathway」那組 HR 0.44 看似最低，然而只有 136 人、16 個死亡事件，95% CI 0.21–0.94 極寬，且與「兩者都做」的 CI 大幅重疊。這是回溯性觀察研究，不能推論因果。</li>'+
+  '<li><b>用錯指標了。</b>心臟復健在 RCT 中被證實的強項是降低再住院 (Cochrane RR 0.69) 與改善生活品質，死亡率本來就未達顯著 (RR 0.93, 95% CI 0.71–1.21)。用死亡率去否定復健，方向不對。</li>'+
+  '<li><b>正確的做法：把 pathway 當載體，把復健和 GDMT 一起裝進去。</b>pathway 的價值在於它強迫每一天都有人負責某件事 — 包含把藥調上去（STRONG-HF、2023 ESC Class I）與把人扶起來走（REHAB-HF）。</li>'+
+  '</ol></div>'+
+
+  '<div class="card"><h2>📖 這份教材要給誰用</h2>'+
+  '<div class="callout info"><b>病房護理師</b> — 每日 checklist、teach-back 重點、紅旗辨識<br>'+
+  '<b>復健／物理治療師</b> — 分期運動處方、SPPB／6MWT 時機、終止指標<br>'+
+  '<b>家屬與病人</b> — 白話版每日該做什麼、什麼時候要打電話</div>'+
+  '<div class="btnrow"><button class="btn" data-go="pathway">▶ 開始 14 天 Pathway</button>'+
+  '<button class="btn ghost" data-go="trap">🔍 先看解讀陷阱</button></div></div>'+
+
+  '<div class="card"><h2>🧩 四組設計一眼看懂</h2>'+
+  '<p class="muted">P = HF pathway（整合照護流程）；R = inpatient cardiac rehabilitation（住院期間心臟復健）。兩個二分變項交叉，得到四組。</p>'+
+  '<div class="tbl-scroll"><table><thead><tr><th>組別</th><th>走 pathway</th><th>做住院復健</th><th>人數 (死亡)</th><th>粗死亡率</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+  '<p class="muted">未校正分析 N=1,494 住院次、233 死亡；log-rank χ²(3)=22.16, p &lt; 0.001。IPTW 完整資料世代 N=990、150 死亡。</p></div>'+
+  '</div>';
+}
+
+function viewTrap(){
+  var g=GROUPS.filter(function(x){return x.id===S.group;})[0];
+  var rows="";
+  GROUPS.forEach(function(x){
+    rows+='<div class="grouprow'+(S.group===x.id?" sel":"")+'" data-group="'+x.id+'">'+
+      '<div class="gbadge" style="background:'+x.color+'">'+x.label+'</div>'+
+      '<div class="gmeta"><b>'+x.name+'</b><br><span class="muted">n='+x.n+'，死亡 '+x.d+'</span></div>'+
+      '<div class="ghr" style="color:'+x.color+'">'+x.hr+
+      (x.lo!==null?'<div class="muted" style="font-weight:400;font-size:.72rem">p='+x.p+'</div>':'')+'</div></div>';
+  });
+  return '<div class="wrap">'+
+  '<div class="card"><h2>📊 IPTW 校正後結果（點選任一組）</h2>'+
+  '<p class="muted">以 P−/R− 為對照組的四組 IPTW Cox 模型；Global Wald χ²(3)=9.72, p=0.021。</p>'+rows+
+  '<div class="callout info" style="margin-top:14px"><b>'+g.label+'｜'+g.name+'</b><br>'+g.desc+'<br><br>'+g.note+'</div></div>'+
+
+  '<div class="card"><h2>⚠️ 解讀陷阱：為什麼不能說「復健可以不做」</h2>'+
+  '<p>把三組的 95% 信賴區間畫在同一條對數軸上，一眼就看得出來：</p>'+ciBar()+
+  '<div class="callout danger"><b>陷阱一：信賴區間大幅重疊。</b>P+/R− 的 CI (0.21–0.94) 幾乎完全包住 P+/R+ 的 CI (0.37–1.04)。點估計 0.44 vs 0.62 的差距，在統計上完全無法區辨。看點估計排名而忽略區間，是最常見的誤讀。</div>'+
+  '<div class="callout danger"><b>陷阱二：事件數太少。</b>P+/R− 只有 <b>16 個死亡事件</b>。Cox 模型的穩定度取決於事件數而非人數；16 個事件配上多變項 PS 校正，估計值極不穩定，CI 才會寬到跨 4.5 倍。</div>'+
+  '<div class="callout danger"><b>陷阱三：confounding by indication。</b>誰被開了復健醫囑，本身就不是隨機的。在日本，住院心臟復健開立率很高（本研究 706+255=961/1494 ≈ 64%）。<b>沒有</b>被開復健的病人可能是兩種極端：一種是本來就能自己走、住幾天就出院的相對輕症；另一種是重症到根本無法動。這兩種相反方向的選擇偏差，都會扭曲 P+/R− 這一組的結果。</div>'+
+  '<div class="callout warn"><b>陷阱四：用錯了指標。</b>ExCR 在 RCT 中的實證強項是<b>再住院與生活品質</b>，不是死亡率。Cochrane 2023：全因死亡 RR 0.93 (95% CI 0.71–1.21，未達顯著)，但全因住院 RR 0.69 (0.56–0.86, NNT 13)、MLWHF 改善 −7.39 分。用一個復健本來就沒被證實能改善的指標去否定復健，邏輯上不成立。</div>'+
+  '<div class="callout warn"><b>陷阱五：其他方法學限制。</b>回溯性、單中心；分析單位是<b>住院次</b>而非病人（同一人可重複計入）；IPTW 用完整資料世代 N=990，等於從 1,494 中排除約 34%；殘餘干擾、選擇偏差、日曆時間效應（2020–2025 橫跨 COVID 期間，GDMT 也在這五年大幅演進）皆可能存在。海報自己也寫明結論屬 associative and hypothesis-generating。</div></div>'+
+
+  '<div class="card"><h2>✅ 那這份研究到底教了我們什麼</h2>'+
+  '<div class="callout good"><b>可以說的：</b>在真實世界中，<b>接受任何一種結構化介入的病人，1 年存活都比兩者皆無的病人好</b>；整體四組之間存在差異 (Wald p=0.021)；這支持把心衰竭住院照護流程化的方向。</div>'+
+  '<div class="callout danger"><b>不能說的：</b>不能說 pathway 優於復健、不能說復健可省略、不能說任何一組「造成」死亡率下降。這是觀察性資料。</div>'+
+  '<div class="callout info"><b>對我們的實務意義：</b>不要把 pathway 和復健當成兩個競爭選項去二選一。Pathway 是<b>載體</b>，復健、GDMT 上調、營養、衛教、出院準備都是裝在裡面的<b>成分</b>。真正要做的事，是把這些成分綁定時程、綁定負責人，讓它每一床都跑得起來。</div></div>'+
+  '</div>';
+}
+
+function viewPathway(){
+  var role=S.role, meta=ROLES[role], total=0, dn=0;
+  PATHWAY.forEach(function(d){
+    total+=d.roles[role].length;
+    d.roles[role].forEach(function(_,i){ if(S.done[role+"-"+d.id+"-"+i]) dn++; });
+  });
+
+  var btns="";
+  Object.keys(ROLES).forEach(function(k){
+    btns+='<button class="btn '+(role===k?"":"ghost")+'" data-role="'+k+'"'+
+      (role===k?' style="background:'+ROLES[k].c+'"':'')+'>'+ROLES[k].n+'</button>';
+  });
+
+  var days="";
+  PATHWAY.forEach(function(d){
+    var items=d.roles[role], c=0, body="";
+    items.forEach(function(t,i){
+      var key=role+"-"+d.id+"-"+i, on=!!S.done[key];
+      if(on) c++;
+      body+='<div class="chk'+(on?" done":"")+'" data-chk="'+key+'">'+
+        '<div class="box">'+(on?"✓":"")+'</div><div class="chktxt">'+t+'</div></div>';
+    });
+    var open=(S.openDay===d.id);
+    days+='<div class="day"><div class="dayhead" data-day="'+d.id+'">'+
+      '<div class="daychip" style="background:'+d.color+'">'+d.days+'</div>'+
+      '<div class="daytitle"><b>'+d.title+'</b><span>'+d.sub+'</span></div>'+
+      '<div class="daypct">'+c+'/'+items.length+' '+(open?"▲":"▼")+'</div></div>'+
+      (open?'<div class="daybody">'+
+        '<div class="callout info" style="margin-top:12px"><b>為什麼要做這一段：</b>'+d.why+'</div>'+
+        '<div class="rolehead"><span class="roledot" style="background:'+meta.c+'"></span>'+meta.n+' 執行項目</div>'+
+        body+'<div class="callout good"><b>💊 這一段的 GDMT 任務：</b>'+d.gdmt+'</div></div>':'')+
+      '</div>';
+  });
+
+  return '<div class="wrap">'+
+  '<div class="card"><h2>👤 選擇你的角色</h2><div class="btnrow">'+btns+'</div>'+
+  '<div class="progressbar"><div style="width:'+(total?dn/total*100:0)+'%"></div></div>'+
+  '<p class="muted">'+meta.n+' 完成度：'+dn+' / '+total+' 項</p></div>'+
+  '<div class="callout info" style="margin:0 0 16px">這是<b>教學用 checklist</b>，不是醫囑。實際執行請依主治醫師醫囑與本院既有規範；勾選紀錄只存在這台裝置的瀏覽器裡，不會上傳。</div>'+
+  days+
+  '<div class="card"><h2>🧱 五大核心領域（貫穿全程）</h2>'+
+  '<p class="muted">監測 monitoring ・ 治療 treatment ・ 復健 rehabilitation ・ 營養 nutrition ・ 衛教與出院規劃 education / discharge planning</p>'+
+  '<div class="callout warn">Pathway 的核心不是「第幾天做什麼」這張表本身，而是<b>每一項都有指定的人負責、有時程、有紀錄</b>。沒有負責人的 pathway 等於沒有 pathway。</div></div>'+
+  '</div>';
+}
+
+function viewSafety(){
+  var s="",c="";
+  STOPFLAGS.forEach(function(t){
+    s+='<div class="chk" style="cursor:default"><div class="box" style="background:var(--accent);border-color:var(--accent)">!</div><div class="chktxt">'+t+'</div></div>';
+  });
+  CALLFLAGS.forEach(function(t){
+    c+='<div class="chk" style="cursor:default;background:#fef6e7;border-color:#f5d99a"><div class="box" style="background:var(--warning);border-color:var(--warning)">!</div><div class="chktxt">'+t+'</div></div>';
+  });
+  return '<div class="wrap">'+
+  '<div class="card"><h2>🛑 活動中必須立即停止的訊號</h2>'+
+  '<p class="muted">給護理師與復健師。心臟復健的安全性建立在「大家都認得停止條件」，不是建立在「不敢讓病人動」。</p>'+s+
+  '<div class="callout danger">停止後：協助坐下、監測 HR／BP／SpO₂、通報負責護理師與醫師、記錄當下的活動強度與症狀。下一次活動的強度依此下修，而不是直接停掉所有活動。</div>'+
+  '<p class="muted">以上為通用原則，實際門檻請依本院心臟復健作業規範與 JCS/JACR 2021 rehabilitation guideline 調整。</p></div>'+
+
+  '<div class="card"><h2>📞 出院後家屬要打電話的六個情況</h2>'+
+  '<p class="muted">請印出來貼在冰箱上，並在出院前用 teach-back 讓家屬複誦一次。</p>'+c+
+  '<div class="callout good"><b>綠燈（正常）：</b>體重穩定、活動量跟平常一樣、能平躺睡覺。<br>'+
+  '<b>黃燈（要聯絡）：</b>上列任一項出現 → 打電話問，不要自己加減藥。<br>'+
+  '<b>紅燈（直接掛急診）：</b>休息時嚴重喘不過氣、胸痛、暈倒、意識改變。</div></div>'+
+
+  '<div class="card"><h2>🗣️ Teach-back 三句話</h2>'+
+  '<p>衛教有沒有做到，不是看有沒有發單張，是看病人／家屬能不能自己說出這三句：</p>'+
+  '<div class="callout info">1.「我每天早上_____的時候量體重。」<br>2.「三天內胖_____公斤，我要打_____這支電話。」<br>3.「我下一次回診是_____月_____日。」</div></div>'+
+  '</div>';
+}
+
+function viewFamily(){
+  return '<div class="wrap">'+
+  '<div class="card"><h2>👨‍👩‍👧 給家屬：住院這兩週會發生什麼</h2>'+
+  '<p>心臟衰竭住院，不是「打針把水排掉就好」。這兩週醫療團隊其實同時在做五件事：</p>'+
+  '<div class="callout info"><b>1. 把身體多餘的水排掉</b> — 所以要每天量體重、記錄尿量。<br>'+
+  '<b>2. 把藥調到該有的劑量</b> — 心臟衰竭的藥需要慢慢往上加，這是能讓人活得更久的關鍵。<br>'+
+  '<b>3. 讓長輩趕快下床動</b> — 躺越久肌肉掉越快，出院後會走不動。<br>'+
+  '<b>4. 顧營養</b> — 吃不下的話，前面三件事都會打折。<br>'+
+  '<b>5. 教會你們回家後怎麼照顧</b> — 這件事決定了會不會很快再住院。</div></div>'+
+
+  '<div class="card"><h2>❓ 常見疑問</h2>'+
+  '<h3>Q：長輩很喘，讓他下床走會不會有危險？</h3>'+
+  '<p>在有評估、有監測的情況下進行是安全的，而且對恢復有幫助。研究顯示，因急性心衰竭住院的高齡衰弱病人接受早期、漸進式復健，3 個月後的體能（平衡、走路速度、坐站能力）明顯比沒做的人好 (REHAB-HF, NEJM 2021)。復健師會從床上運動開始，一步一步加，不會一開始就叫他走遠路。</p>'+
+  '<h3>Q：我怕他跌倒，是不是躺著比較安全？</h3>'+
+  '<p>躺著的風險其實更高。長期臥床會造成肌肉快速流失、平衡變差、出院後更容易跌倒，也更容易產生譫妄與壓瘡。安全的做法是「有人陪、有監測、循序漸進」，而不是不動。</p>'+
+  '<h3>Q：為什麼藥一直加？之前吃得好好的。</h3>'+
+  '<p>心臟衰竭的四類核心藥物需要加到能耐受的最大劑量才有完整效果。國際研究顯示，出院後積極把藥調上去併密集追蹤，可降低 180 天內再住院或死亡的風險（STRONG-HF：15.2% vs 23.3%）。歐洲心臟學會建議在出院後 6 週內完成，並於出院後 7–14 天內回診一次。</p>'+
+  '<h3>Q：出院後還要繼續復健嗎？</h3>'+
+  '<p>要。住院期間只是開始。門診心臟復健被證實可降低再住院率、明顯改善生活品質。如果交通不便，也有居家型方案，效果相近。</p></div>'+
+
+  '<div class="card"><h2>📋 回家要帶走的三樣東西</h2>'+
+  '<div class="callout good"><b>1. 完整用藥清單</b>（並把家裡舊的、重複的藥清掉）<br>'+
+  '<b>2. 體重紀錄表</b>（每天同一時間、同一台磅秤）<br>'+
+  '<b>3. 紅黃綠燈警示卡</b>（貼冰箱，全家人都要看過）</div></div>'+
+  '</div>';
+}
+
+function viewQuiz(){
+  if(S.qfin){
+    return '<div class="wrap"><div class="card" style="text-align:center">'+
+      '<h2>🎓 測驗完成</h2>'+
+      '<p style="font-size:2.4rem;font-weight:700;color:var(--primary);margin:8px 0">'+S.qscore+' / '+QUIZ.length+'</p>'+
+      '<p class="muted">'+(S.qscore>=5?"很好 — 尤其是統計解讀那幾題。":"建議回「解讀陷阱」分頁再看一次信賴區間那段。")+'</p>'+
+      '<button class="btn" data-quiz="reset">重新測驗</button></div></div>';
+  }
+  var q=QUIZ[S.qi], opts="";
+  q.options.forEach(function(o,k){
+    var cls="opt";
+    if(S.qsel!==null){ if(k===q.correct) cls+=" correct"; else if(k===S.qsel) cls+=" wrong"; }
+    opts+='<button class="'+cls+'"'+(S.qsel!==null?" disabled":"")+' data-ans="'+k+'">'+o+'</button>';
+  });
+  var fb="";
+  if(S.qsel!==null){
+    fb='<div class="callout '+(S.qsel===q.correct?"good":"danger")+'"><b>'+
+      (S.qsel===q.correct?"✅ 正確":"❌ 再想一次")+'</b><br>'+q.exp+
+      '<div class="btnrow"><button class="btn sm" data-quiz="next">'+
+      (S.qi<QUIZ.length-1?"下一題":"看結果")+'</button></div></div>';
+  }
+  return '<div class="wrap"><div class="card">'+
+    '<div class="progressbar"><div style="width:'+((S.qi+1)/QUIZ.length*100)+'%"></div></div>'+
+    '<p class="muted">第 '+(S.qi+1)+' 題 / 共 '+QUIZ.length+' 題</p>'+
+    '<p style="font-weight:600;font-size:.96rem">'+q.q+'</p>'+opts+fb+'</div></div>';
+}
+
+function viewRefs(){
+  var h="";
+  REFS.forEach(function(r){
+    h+='<div class="ref"><span class="reftag">'+r.tag+'</span>'+r.t+
+      '<div class="muted" style="margin-top:4px">'+r.s+'</div>'+
+      (r.u?'<a href="'+r.u+'" target="_blank" rel="noopener">'+r.u+'</a>':'')+'</div>';
+  });
+  return '<div class="wrap"><div class="card"><h2>📚 文獻佐證</h2>'+
+    '<p class="muted">數值均以原始文獻／指引為準；使用前建議自行核對最新版本。</p>'+h+
+    '<div class="callout warn"><b>方向確認：</b>本次海報為<b>觀察性、假說產生性</b>研究（海報自述 associative and hypothesis-generating），非隨機分派試驗，不可作為改變復健開立政策的依據。REHAB-HF 為 positive（主要指標 SPPB）但未 power 於臨床事件；STRONG-HF 為 positive；Cochrane 2023 ExCR 對死亡率為 neutral、對再住院與生活品質為 positive。</div>'+
+    '</div></div>';
+}
+
+var VIEWS={home:viewHome,trap:viewTrap,pathway:viewPathway,safety:viewSafety,
+           family:viewFamily,quiz:viewQuiz,refs:viewRefs};
+
+function render(){
+  var tabs="";
+  TABS.forEach(function(t){
+    tabs+='<button class="'+(S.tab===t[0]?"active":"")+'" data-go="'+t[0]+'">'+t[1]+'</button>';
+  });
+  document.getElementById("app").innerHTML =
+  '<div class="hero"><h1>心衰竭 14 天整合照護 Pathway<br>— Pathway × 心臟復健，該怎麼讀這份資料</h1>'+
+  '<p class="sub">依 ESC Congress 2026 moderated poster 與現行指引整理｜病房護理師・復健師・家屬適用</p>'+
+  '<div class="tagrow"><span class="tag">心臟衰竭整合照護</span><span class="tag">心臟復健</span>'+
+  '<span class="tag">GDMT</span><span class="tag">臨床路徑</span></div></div>'+
+  '<nav class="tabs">'+tabs+'</nav>'+
+  VIEWS[S.tab]()+
+  '<footer class="sig">讀書會共筆整理人<br><b>謝慕揚 醫師 MD, PhD, FESC</b><br>心臟衰竭整合照護與心臟復健'+
+  '<div class="disc">・本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br>'+
+  '・僅供學術與教育用途，不代表任何單位之官方立場<br>'+
+  '・本內容未涉及任何利益衝突<br>'+
+  '・checklist 為教學用途，實際執行依主治醫師醫囑與院內規範</div></footer>'+
+  '<div class="fab"><button data-act="share">🔗 分享</button>'+
+  '<button class="alt" data-act="print">🖨 列印／存 PDF</button></div>';
+}
+
+/* ============ 事件 ============ */
+
+document.addEventListener("click", function(ev){
+  var el = ev.target.closest ? ev.target.closest("[data-go],[data-group],[data-role],[data-day],[data-chk],[data-ans],[data-quiz],[data-act]") : null;
+  if(!el) return;
+
+  if(el.hasAttribute("data-go")){ S.tab=el.getAttribute("data-go"); render(); window.scrollTo(0,0); return; }
+  if(el.hasAttribute("data-group")){ S.group=el.getAttribute("data-group"); render(); return; }
+  if(el.hasAttribute("data-role")){ S.role=el.getAttribute("data-role"); render(); return; }
+  if(el.hasAttribute("data-day")){ var d=el.getAttribute("data-day"); S.openDay=(S.openDay===d?"":d); render(); return; }
+  if(el.hasAttribute("data-chk")){ var k=el.getAttribute("data-chk"); S.done[k]=!S.done[k]; persist(); render(); return; }
+  if(el.hasAttribute("data-ans")){
+    if(S.qsel!==null) return;
+    S.qsel=parseInt(el.getAttribute("data-ans"),10);
+    if(S.qsel===QUIZ[S.qi].correct) S.qscore++;
+    render(); return;
+  }
+  if(el.hasAttribute("data-quiz")){
+    var a=el.getAttribute("data-quiz");
+    if(a==="reset"){ S.qi=0;S.qsel=null;S.qscore=0;S.qfin=false; }
+    else if(S.qi<QUIZ.length-1){ S.qi++; S.qsel=null; }
+    else { S.qfin=true; }
+    render(); window.scrollTo(0,0); return;
+  }
+  if(el.hasAttribute("data-act")){
+    var act=el.getAttribute("data-act");
+    if(act==="print"){ window.print(); return; }
+    var txt="心衰竭 14 天整合照護 Pathway 教學（讀書會共筆整理）";
+    if(navigator.share){ navigator.share({title:txt,text:txt,url:location.href}).catch(function(){}); }
+    else if(navigator.clipboard){ navigator.clipboard.writeText(location.href).then(function(){alert("連結已複製");},function(){}); }
+    else { alert("請直接分享這個 HTML 檔案"); }
+    return;
+  }
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>藥師主導遠距 GDMT 優化｜品質改善計畫共筆</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#e74c3c; --accent-light:#ff6b5b;
+  --success:#27ae60; --warning:#f39c12; --info:#2980b9;
+  --bg-cream:#faf8f5; --bg-card:#ffffff; --text-dark:#2c3e50; --text-muted:#7f8c8d;
+  --border:#e5e9ec; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;background:var(--bg-cream);color:var(--text-dark);
+  font-family:'Noto Sans TC',-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+body{padding-bottom:env(safe-area-inset-bottom)}
+
+/* ---------- top bar ---------- */
+.topbar{position:sticky;top:0;z-index:50;background:var(--primary);color:#fff;
+  display:flex;align-items:center;gap:10px;padding:10px 14px}
+.topbar h1{font-size:14px;font-weight:500;margin:0;flex:1;line-height:1.3;opacity:.95}
+.iconbtn{background:rgba(255,255,255,.14);border:0;color:#fff;border-radius:8px;
+  min-width:40px;height:40px;font-size:15px;cursor:pointer}
+.progress{height:3px;background:rgba(255,255,255,.2)}
+.progress > div{height:100%;background:var(--accent-light);transition:width .25s}
+
+/* ---------- deck ---------- */
+.deck{max-width:960px;margin:0 auto;padding:16px 14px 110px}
+.slide{display:none;background:var(--bg-card);border-radius:16px;box-shadow:var(--shadow);
+  padding:22px 20px 26px;animation:fade .28s ease}
+.slide.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.kicker{font-size:12px;letter-spacing:.12em;color:var(--primary-light);font-weight:700;
+  text-transform:uppercase;margin-bottom:6px}
+h2.stitle{font-size:21px;margin:0 0 4px;color:var(--primary);line-height:1.35}
+.sub{color:var(--text-muted);font-size:14px;margin:0 0 16px}
+p{font-size:15px}
+ul{padding-left:20px;margin:10px 0}
+li{margin-bottom:8px;font-size:15px}
+.en{font-family:"Segoe UI",system-ui,sans-serif}
+strong{color:var(--primary)}
+.small{font-size:13px;color:var(--text-muted)}
+
+/* cover */
+.cover{background:linear-gradient(150deg,var(--primary) 0%,var(--primary-light) 100%);color:#fff}
+.cover h2.stitle,.cover strong{color:#fff}
+.cover .sub{color:rgba(255,255,255,.8)}
+.cover .kicker{color:rgba(255,255,255,.7)}
+.cover .badge{display:inline-block;background:rgba(255,255,255,.15);border-radius:20px;
+  padding:5px 13px;font-size:12px;margin:4px 6px 0 0}
+
+/* blocks */
+.box{border-radius:12px;padding:14px 16px;margin:12px 0;border-left:4px solid var(--primary-light);
+  background:#f4f7fa}
+.box.warn{background:#fff6e8;border-left-color:var(--warning)}
+.box.danger{background:#fdeceb;border-left-color:var(--accent)}
+.box.ok{background:#eaf7f0;border-left-color:var(--success)}
+.box h4{margin:0 0 8px;font-size:15px;color:var(--primary)}
+.box.warn h4{color:#a76a00}.box.danger h4{color:#b13a2e}.box.ok h4{color:#1d7a45}
+.box p,.box li{font-size:14px}
+.box ul{margin:6px 0}
+
+.grid{display:grid;grid-template-columns:1fr;gap:10px;margin:14px 0}
+@media(min-width:640px){.grid.two{grid-template-columns:1fr 1fr}}
+.card{border:1px solid var(--border);border-radius:12px;padding:13px 15px;background:#fff}
+.card .n{font-size:26px;font-weight:700;color:var(--accent);line-height:1.1}
+.card .n.blue{color:var(--info)}
+.card .l{font-size:13px;color:var(--text-muted);margin-top:3px}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}
+th{background:var(--primary);color:#fff;padding:9px 8px;text-align:left;font-weight:500}
+td{padding:9px 8px;border-bottom:1px solid var(--border);vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+/* bar compare */
+.bars{margin:14px 0}
+.bar-row{margin-bottom:12px}
+.bar-label{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px}
+.bar-track{height:26px;background:#eef1f4;border-radius:6px;overflow:hidden}
+.bar-fill{height:100%;border-radius:6px;display:flex;align-items:center;justify-content:flex-end;
+  padding-right:8px;color:#fff;font-size:12px;font-weight:600}
+
+.tag{display:inline-block;font-size:11px;padding:3px 9px;border-radius:20px;margin:2px 4px 2px 0;
+  background:#eef2f6;color:var(--primary-light);font-weight:500}
+.tag.red{background:#fdeceb;color:#b13a2e}
+.tag.green{background:#eaf7f0;color:#1d7a45}
+
+.flow{display:flex;flex-direction:column;gap:0;margin:14px 0}
+.step{display:flex;gap:12px}
+.step .rail{display:flex;flex-direction:column;align-items:center}
+.step .dot{width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex:0 0 auto}
+.step .line{width:2px;flex:1;background:var(--border);min-height:14px}
+.step .body{padding-bottom:16px;flex:1}
+.step .body h5{margin:4px 0 4px;font-size:15px;color:var(--primary)}
+.step .body p{margin:0;font-size:14px;color:var(--text-dark)}
+
+/* quiz */
+.q{margin-bottom:6px;font-size:15px;font-weight:500}
+.opt{display:block;width:100%;text-align:left;min-height:48px;padding:12px 14px;margin-bottom:9px;
+  border:1.5px solid var(--border);background:#fff;border-radius:10px;font-size:14px;
+  font-family:inherit;color:var(--text-dark);cursor:pointer;transition:.15s}
+.opt:hover{border-color:var(--primary-light)}
+.opt.correct{border-color:var(--success);background:#eaf7f0}
+.opt.wrong{border-color:var(--accent);background:#fdeceb}
+.exp{background:#f4f7fa;border-radius:10px;padding:12px 14px;font-size:14px;margin-top:8px}
+
+/* nav */
+.nav{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.97);
+  border-top:1px solid var(--border);display:flex;gap:10px;align-items:center;
+  padding:10px 14px calc(10px + env(safe-area-inset-bottom));z-index:60;
+  backdrop-filter:blur(8px)}
+.nav button{flex:1;min-height:48px;border-radius:10px;border:0;font-size:15px;font-weight:500;
+  font-family:inherit;cursor:pointer;background:var(--primary);color:#fff}
+.nav button:disabled{background:#dfe4e8;color:#9aa5ad}
+.counter{font-size:13px;color:var(--text-muted);min-width:56px;text-align:center}
+
+/* TOC */
+.toc{position:fixed;inset:0;background:rgba(30,58,95,.55);z-index:100;display:none}
+.toc.open{display:block}
+.toc-panel{position:absolute;top:0;bottom:0;left:0;width:min(320px,86%);background:#fff;
+  overflow-y:auto;padding:16px 0 30px}
+.toc-panel h3{margin:0;padding:0 18px 12px;font-size:16px;color:var(--primary)}
+.toc-item{display:block;width:100%;text-align:left;border:0;background:none;font-family:inherit;
+  padding:12px 18px;font-size:14px;color:var(--text-dark);border-bottom:1px solid var(--border);cursor:pointer}
+.toc-item.cur{background:#f0f5fa;color:var(--primary);font-weight:600}
+.toc-item span{color:var(--text-muted);margin-right:8px;font-size:12px}
+
+.footer-note{margin-top:18px;padding-top:14px;border-top:1px dashed var(--border);
+  font-size:12px;color:var(--text-muted);line-height:1.7}
+.sig{font-size:14px;line-height:1.9}
+.sig b{color:var(--primary)}
+.ref{font-size:12px;color:var(--text-muted);margin-top:14px;line-height:1.7;
+  border-top:1px solid var(--border);padding-top:10px}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <button class="iconbtn" onclick="toggleToc()" aria-label="目錄">☰</button>
+  <h1>藥師主導遠距 GDMT 優化 — 品質改善計畫</h1>
+</div>
+<div class="progress"><div id="pbar" style="width:0%"></div></div>
+
+<div class="toc" id="toc" onclick="if(event.target.id==='toc')toggleToc()">
+  <div class="toc-panel" id="tocPanel"><h3>投影片目錄</h3></div>
+</div>
+
+<div class="deck" id="deck">
+
+<!-- 1 COVER -->
+<section class="slide cover active" data-title="封面">
+  <div class="kicker">讀書會共筆整理</div>
+  <h2 class="stitle">藥師主導的遠距 GDMT 優化</h2>
+  <p class="sub">從 Barts Health 的 poster 到我們可以做的品質改善計畫（QI Project）</p>
+  <div>
+    <span class="badge">Heart Failure with reduced EF</span>
+    <span class="badge">Pharmacist-led remote titration</span>
+    <span class="badge">STRONG-HF</span>
+    <span class="badge">品質改善 PDSA</span>
+  </div>
+  <p class="small" style="color:rgba(255,255,255,.75);margin-top:20px">
+    對象：藥劑部藥師、心臟科醫師、住院醫師、專科護理師、個管師<br>
+    形式：先給 Take Home，再展開細節；最後有 5 題自我測驗
+  </p>
+</section>
+
+<!-- 2 TAKE HOME -->
+<section class="slide" data-title="Take Home Message">
+  <div class="kicker">Take Home Message</div>
+  <h2 class="stitle">四句話先講完</h2>
+  <p class="sub">後面的投影片都是在補這四句的證據與作法</p>
+
+  <div class="box ok">
+    <h4>① 快速 up-titration 本身是 Class I 證據</h4>
+    <p>STRONG-HF 是隨機分派試驗（RCT），結果為 <b>positive</b>：180 天死亡或 HF 再住院 15.2% vs 23.3%，
+    <span class="en">RR 0.66 (95% CI 0.50–0.86), p = 0.0021</span>。2023 ESC focused update 因此給出
+    <span class="en">Class I, LOE B</span>。</p>
+  </div>
+
+  <div class="box warn">
+    <h4>② Barts 這張 poster 是「可行性示範」，不是療效證據</h4>
+    <p>它是 <span class="en">multicentre observational study with historical control</span>。
+    數字很漂亮（51 天 vs 179 天），但 <b>不能</b> 拿來當作「藥師主導可以降低死亡率」的證據等級使用。
+    它真正的價值是：<b>證明這個流程跑得動</b>。</p>
+  </div>
+
+  <div class="box">
+    <h4>③ 真正的瓶頸是「回診容量」，不是「醫師不知道藥」</h4>
+    <p>四大類藥物要 up-titrate 到目標劑量，需要 4–6 次密集接觸。門診塞不下這些次數，
+    所以藥師 + 遠距數據回傳，是在解決 <b>系統瓶頸</b>，不是取代醫師判斷。</p>
+  </div>
+
+  <div class="box danger">
+    <h4>④ 安全性靠的是明確的 stop / hold 規則</h4>
+    <p>STRONG-HF 的 adverse events 是 <b>41% vs 29%</b>（高強度組較高），主要是低血壓、高血鉀、腎功能惡化。
+    沒有事先寫死的 safety indicator 與回報路徑，就不要開始這個計畫。</p>
+  </div>
+</section>
+
+<!-- 3 問題陳述 -->
+<section class="slide" data-title="問題：GDMT 的落差">
+  <div class="kicker">Problem Statement</div>
+  <h2 class="stitle">為什麼 HFrEF 病人拿不到目標劑量？</h2>
+  <p class="sub">Clinical inertia 只是表象，底下是三個結構性問題</p>
+
+  <div class="grid two">
+    <div class="card"><div class="n blue">4</div><div class="l">四大類基礎藥物<br><span class="en">ARNI/ACEi · BB · MRA · SGLT2i</span></div></div>
+    <div class="card"><div class="n blue">4–6</div><div class="l">達到目標劑量所需的<br>密集接觸次數</div></div>
+  </div>
+
+  <ul>
+    <li><strong>門診容量限制</strong>：出院後回診常排到 4–8 週，一次回診只能加一種藥、加半階。
+    等於一年才勉強調完。</li>
+    <li><strong>數據不足以做決定</strong>：門診只有當下一次血壓、心跳，看不到病人在家的趨勢，
+    醫師傾向保守不加量。</li>
+    <li><strong>安全顧慮無處歸屬</strong>：加量後如果出現低血壓、K<span class="en">+</span> 上升、Cr 上升，
+    誰負責接？沒有人接，就沒有人敢加。</li>
+  </ul>
+
+  <div class="box">
+    <h4>轉個念頭</h4>
+    <p>以上三點都不是「醫學知識問題」，是 <b>流程問題</b>。流程問題就適合用
+    <b>品質改善計畫（QI）</b> 的方法處理，而不是再辦一場藥物治療的演講。</p>
+  </div>
+</section>
+
+<!-- 4 STRONG-HF 設計 -->
+<section class="slide" data-title="STRONG-HF 設計">
+  <div class="kicker">證據基礎 ①</div>
+  <h2 class="stitle">STRONG-HF：試驗設計</h2>
+  <p class="sub"><span class="en">Mebazaa A, et al. Lancet 2022</span> — 目前 rapid up-titration 最主要的證據來源</p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th style="width:28%">項目</th><th>內容</th></tr>
+    <tr><td>設計</td><td><span class="en">Multinational, randomised, open-label, parallel-group</span></td></tr>
+    <tr><td>收案</td><td>1,078 位因 acute HF 住院、出院前血液動力學穩定、<b>尚未</b>使用最適化 GDMT 的病人；14 個國家</td></tr>
+    <tr><td>分組</td><td><span class="en">High-intensity care (HIC)</span> vs <span class="en">Usual care (UC)</span></td></tr>
+    <tr><td>介入</td><td>出院前先給 <b>50% 目標劑量</b>；出院後 <b>2 週內</b>衝到 100% 目標劑量；
+      第 1、2、3、6 週密集追蹤，含 NT-proBNP、eGFR、K<span class="en">+</span> 監測</td></tr>
+    <tr><td>主要終點</td><td><span class="en">180-day all-cause death or HF readmission</span></td></tr>
+    <tr><td>結果</td><td>因療效顯著<b>提前中止</b></td></tr>
+  </table>
+  </div>
+
+  <div class="box">
+    <h4>要注意的設計細節</h4>
+    <p>主要終點在試驗中途由 <b>90 天改為 180 天</b>（事件率低於預期），且 180 天分析只納入
+    倫理委員會通過修訂案的中心。讀這篇時要知道這件事。</p>
+  </div>
+</section>
+
+<!-- 5 STRONG-HF 結果 -->
+<section class="slide" data-title="STRONG-HF 結果">
+  <div class="kicker">證據基礎 ①</div>
+  <h2 class="stitle">STRONG-HF：結果是 positive trial</h2>
+  <p class="sub">主要終點：180 天 all-cause death or HF readmission</p>
+
+  <div class="bars">
+    <div class="bar-row">
+      <div class="bar-label"><span>High-intensity care</span><b style="color:var(--success)">15.2%</b></div>
+      <div class="bar-track"><div class="bar-fill" style="width:15.2%;min-width:60px;background:var(--success)">15.2%</div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><span>Usual care</span><b style="color:var(--accent)">23.3%</b></div>
+      <div class="bar-track"><div class="bar-fill" style="width:23.3%;min-width:60px;background:var(--accent)">23.3%</div></div>
+    </div>
+  </div>
+
+  <div class="grid two">
+    <div class="card"><div class="n">RR 0.66</div><div class="l"><span class="en">95% CI 0.50–0.86<br>p = 0.0021</span></div></div>
+    <div class="card"><div class="n blue">NNT ≈ 12–13</div><div class="l">預防 1 次事件所需治療人數<br>（6 個月）</div></div>
+  </div>
+
+  <ul>
+    <li>效益 <strong>主要由 HF 再住院下降</strong> 驅動；all-cause death 為 numerically lower，
+    但複合終點並未針對單獨死亡率提供檢定力。</li>
+    <li>次要終點：<strong>生活品質改善</strong>（<span class="en">EQ-5D VAS</span>）、症狀負擔下降。</li>
+    <li>另一篇 dose-response 分析：2 週時每多達到 <b>10%</b> 的目標劑量，
+    死亡風險下降（<span class="en">adjusted HR 0.84, 95% CI 0.73–0.95</span>）。</li>
+  </ul>
+</section>
+
+<!-- 6 STRONG-HF 限制 -->
+<section class="slide" data-title="STRONG-HF 的限制">
+  <div class="kicker">證據基礎 ①</div>
+  <h2 class="stitle">STRONG-HF 的四個限制</h2>
+  <p class="sub">這些限制會直接影響我們的 protocol 怎麼設計</p>
+
+  <div class="box danger">
+    <h4>① 不良事件確實比較多</h4>
+    <p><b>41% vs 29%</b>，集中在低血壓、hyperkalaemia、renal impairment。
+    但 serious adverse events 兩組無顯著差異 — 前提是<b>有人在密集監測並即時處理</b>。</p>
+  </div>
+
+  <div class="box warn">
+    <h4>② 用藥組成與現行台灣實務不同</h4>
+    <p>主要使用 <span class="en">ACEi/ARB</span> 而非 <span class="en">ARNI</span>，
+    也 <b>未</b> 把 <span class="en">SGLT2 inhibitor</span> 納入優先。
+    我們現在的四大類配方（含 ARNI、SGLT2i）與試驗並不完全對應。</p>
+  </div>
+
+  <div class="box warn">
+    <h4>③ 族群外推性</h4>
+    <p>近九成收案來自非洲與俄羅斯；且未依 LVEF 排除，約三分之一病人 LVEF &gt; 40%。
+    直接外推到台灣三高共病、腎功能較差的高齡族群要保守。</p>
+  </div>
+
+  <div class="box">
+    <h4>④ 提前中止的試驗</h4>
+    <p>因療效提前中止的試驗，通常會<b>高估</b>治療效果的幅度。方向可信，幅度打折看。</p>
+  </div>
+</section>
+
+<!-- 7 指引地位 -->
+<section class="slide" data-title="指引地位">
+  <div class="kicker">Guideline</div>
+  <h2 class="stitle">2023 ESC Focused Update 的立場</h2>
+  <p class="sub">這是我們做這個 QI 計畫的正當性來源</p>
+
+  <div class="box ok">
+    <h4>Class I, Level of Evidence B</h4>
+    <p>對於因心衰竭住院的病人，建議採取 <b>intensive strategy</b>：
+    出院前即開始並快速調升實證治療劑量，並於出院後 <b>6 週內</b>安排密集且謹慎的追蹤，
+    以降低 HF 再住院或死亡風險。</p>
+  </div>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>時間點</th><th>該完成什麼</th></tr>
+    <tr><td>住院中 / 出院前</td><td>四大類藥物啟動；目標 day 4–6 達到 <b>≥ 50%</b> 目標劑量</td></tr>
+    <tr><td>第 1、2 週</td><td>血壓、心跳、症狀評估；eGFR、K<span class="en">+</span>、NT-proBNP</td></tr>
+    <tr><td>第 3 週</td><td>持續 up-titration，處理耐受性問題</td></tr>
+    <tr><td>第 6 週</td><td>目標：達到最大耐受劑量並完成 safety 確認</td></tr>
+  </table>
+  </div>
+
+  <p class="small">補充：不同學會對「快速 up-titration」的建議強度並不完全一致，
+  ACC/AHA 系統的措辭較 ESC 保守。討論時值得把這個差異講清楚。</p>
+</section>
+
+<!-- 8 Barts 做法 -->
+<section class="slide" data-title="Barts 經驗：做法">
+  <div class="kicker">案例分析 ②</div>
+  <h2 class="stitle">Barts Health NHS Trust 的做法</h2>
+  <p class="sub"><span class="en">Centralised Pharmacist-Led Remote Care Accelerates Achievement of GDMT in HFrEF</span></p>
+
+  <div class="grid two">
+    <div class="card"><div class="n blue">5</div><div class="l">倫敦 5 家醫院<br>組成 regional network</div></div>
+    <div class="card"><div class="n blue">1</div><div class="l">1 位 specialist HF pharmacist<br>作為 central digital hub</div></div>
+  </div>
+
+  <div class="flow">
+    <div class="step"><div class="rail"><div class="dot">1</div><div class="line"></div></div>
+      <div class="body"><h5>病人端每日回傳</h5><p>透過數位平台每天上傳血壓、心跳、症狀資料。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">2</div><div class="line"></div></div>
+      <div class="body"><h5>藥師每週檢視 2 次</h5><p>心衰竭專科藥師 review 趨勢資料，非即時、非同步（<span class="en">asynchronous</span>）。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">3</div><div class="line"></div></div>
+      <div class="body"><h5>依 protocol 調藥</h5><p>藥師執行 medication up-titration，不需每次都排回診。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">4</div></div>
+      <div class="body"><h5>主治醫師 MDT 監督</h5><p><span class="en">Consultant MDT oversight</span> — 授權範圍外的決定回到團隊。</p></div></div>
+  </div>
+
+  <div class="box">
+    <h4>整個設計的核心巧思</h4>
+    <p><b>非同步</b>。藥師不需要跟病人「同時在線」，也不需要病人到院。
+    這是把 4–6 次密集接觸從「門診時段」中解放出來的關鍵。</p>
+  </div>
+</section>
+
+<!-- 9 Barts 結果 -->
+<section class="slide" data-title="Barts 經驗：結果">
+  <div class="kicker">案例分析 ②</div>
+  <h2 class="stitle">結果：速度差了 127 天</h2>
+  <p class="sub">介入期 2024/09–2025/09；歷史對照 2023/01–2024/08</p>
+
+  <div class="grid two">
+    <div class="card"><div class="n">51 天</div><div class="l">Remote optimisation<br>達最大耐受 GDMT 中位時間</div></div>
+    <div class="card"><div class="n blue">179 天</div><div class="l">Historical care<br>同一終點</div></div>
+  </div>
+  <p style="text-align:center;font-size:15px"><strong>縮短 127 天</strong>，<span class="en">p &lt; 0.001</span></p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>指標</th><th>遠距</th><th>歷史</th><th>p</th></tr>
+    <tr><td>90 天內完成優化</td><td><b>92.5%</b></td><td>28.7%</td><td class="en">&lt;0.001</td></tr>
+    <tr><td>≥3 類藥達目標劑量</td><td><b>50.0%</b></td><td>24.1%</td><td class="en">&lt;0.001</td></tr>
+    <tr><td>四類全達目標劑量</td><td><b>16.7%</b></td><td>5.7%</td><td class="en">0.002</td></tr>
+    <tr><td>180 天 HF 再住院</td><td><b>0.0%</b></td><td>2.9%</td><td class="en">0.026</td></tr>
+  </table>
+  </div>
+
+  <div class="box warn">
+    <h4>先看懂一件事再談臨床意義</h4>
+    <p>四類全達目標劑量只有 <b>16.7%</b>。也就是說，即使流程加速到這種程度，
+    <b>八成以上病人仍然沒有拿到全部目標劑量</b>。這才是真實世界的樣子。
+    「加速」與「達標」是兩件事。</p>
+  </div>
+</section>
+
+<!-- 10 Barts 方法學 -->
+<section class="slide" data-title="怎麼讀這張 poster">
+  <div class="kicker">Critical Appraisal</div>
+  <h2 class="stitle">這張 poster 該怎麼讀</h2>
+  <p class="sub">在拿去說服長官之前，先把弱點自己講出來</p>
+
+  <div class="box danger">
+    <h4>① Historical control 是最大弱點</h4>
+    <p>對照組來自 2023–2024 年。這兩年之間 <span class="en">SGLT2i</span> 的使用、
+    ARNI 的給付與熟悉度、心衰竭照護意識都在快速變化。
+    <b>時間本身</b>就可能造成一部分差異，無法歸因於藥師介入。</p>
+  </div>
+
+  <div class="box warn">
+    <h4>② 180 天再住院 0.0% 要非常小心</h4>
+    <p>這是 <b>observational、非隨機</b>的次要結果，樣本數不大。
+    「零事件」通常反映的是追蹤時間、族群選擇與樣本量，而不是療效。
+    <b>不要</b>把這個數字當成「藥師主導可以消滅再住院」來引用。</p>
+  </div>
+
+  <div class="box">
+    <h4>③ 數字內部有需要釐清處</h4>
+    <p>Poster 標示 <b>186 patients</b>，但存活曲線的 number at risk 顯示
+    historical control 174、remote optimisation 192。這是共筆時該向作者確認的地方，
+    也提醒我們自己的計畫要把「分母定義」寫清楚。</p>
+  </div>
+
+  <div class="box ok">
+    <h4>那它的價值在哪裡？</h4>
+    <p>在 <b>可行性（feasibility）與流程設計</b>。它告訴我們：一位專科藥師 + 非同步審閱 + MDT 監督，
+    可以覆蓋 5 家醫院。這正是我們要學的部分。療效請引用 STRONG-HF。</p>
+  </div>
+</section>
+
+<!-- 11 QI aim -->
+<section class="slide" data-title="我們的 QI：目標">
+  <div class="kicker">品質改善計畫</div>
+  <h2 class="stitle">計畫目標（SMART Aim）</h2>
+  <p class="sub">草案，供藥劑部與心臟科共同討論後定案</p>
+
+  <div class="box ok">
+    <h4>Aim Statement</h4>
+    <p>自計畫啟動起 <b>12 個月內</b>，將本院因 HFrEF（LVEF &lt; 40%）住院出院之病人，
+    達到 <b>最大耐受四類 GDMT</b> 的中位時間，從目前基線縮短至 <b>90 天以內</b>；
+    並將 90 天內「≥3 類藥物達目標或最大耐受劑量」的比例提升至 <b>50%</b>。</p>
+  </div>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th style="width:26%">要素</th><th>內容</th></tr>
+    <tr><td>納入</td><td>成人、LVEF &lt; 40%、因 HF 住院後出院或門診轉介、
+      出院前血液動力學穩定、能使用手機或有家屬協助回報</td></tr>
+    <tr><td>排除</td><td>eGFR &lt; 30、K<span class="en">+</span> &gt; 5.0、SBP &lt; 90、
+      預期餘命 &lt; 6 個月、已列入移植或機械輔助評估、無法回報數據且無照顧者</td></tr>
+    <tr><td>基線</td><td>啟動前先做 <b>3 個月回溯</b>，取得本院自己的基線數字。
+      <b>不要</b>直接引用 Barts 的 179 天。</td></tr>
+  </table>
+  </div>
+
+  <div class="box warn">
+    <h4>先量測，再改變</h4>
+    <p>沒有本院基線，一年後無法證明改善。這是 QI 計畫最常失敗的地方。</p>
+  </div>
+</section>
+
+<!-- 12 流程 -->
+<section class="slide" data-title="流程設計">
+  <div class="kicker">Process Design</div>
+  <h2 class="stitle">六週流程</h2>
+  <p class="sub">以 ESC 建議的 6 週窗口為骨幹，加上非同步審閱</p>
+
+  <div class="flow">
+    <div class="step"><div class="rail"><div class="dot">D0</div><div class="line"></div></div>
+      <div class="body"><h5>出院前收案</h5>
+      <p>心臟科主治確認納入；四類藥物啟動至 <b>≥50% 目標劑量</b>；藥師完成衛教與回報工具設定；
+      抽 baseline eGFR、K<span class="en">+</span>、NT-proBNP。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">W1</div><div class="line"></div></div>
+      <div class="body"><h5>第 1 週</h5><p>每日回報 SBP / HR / 體重 / 症狀。藥師檢視，抽血確認腎功能與電解質，第一次加量。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">W2</div><div class="line"></div></div>
+      <div class="body"><h5>第 2 週</h5><p>第二次加量。此時應有兩類以上藥物達 ≥50% 目標劑量。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">W3</div><div class="line"></div></div>
+      <div class="body"><h5>第 3 週</h5><p>處理耐受性問題（頭暈、低血壓、K<span class="en">+</span> 上升）。必要時降階或換順序，不是直接放棄。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">W6</div><div class="line"></div></div>
+      <div class="body"><h5>第 6 週｜心臟科回診</h5><p>由醫師確認最大耐受劑量、重新評估 LVEF 與症狀、決定是否需要 device 評估。</p></div></div>
+    <div class="step"><div class="rail"><div class="dot">✓</div></div>
+      <div class="body"><h5>結案交回常規照護</h5><p>完成表單登錄，資料進入 QI 資料庫。</p></div></div>
+  </div>
+
+  <p class="small">藥師端節奏：<b>每週固定兩個時段</b>批次審閱（非同步），
+  不要設計成「隨時待命」——那會讓計畫在三個月內崩潰。</p>
+</section>
+
+<!-- 13 藥物表 -->
+<section class="slide" data-title="四大類藥物與目標劑量">
+  <div class="kicker">Protocol</div>
+  <h2 class="stitle">四大類藥物：起始與目標劑量</h2>
+  <p class="sub">供藥師端 titration 參考；實際處方仍依醫師醫囑與健保規範</p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>類別</th><th>起始</th><th>目標劑量</th></tr>
+    <tr><td><b>ARNI</b><br><span class="en">Sacubitril/valsartan</span></td>
+      <td class="en">24/26 或 49/51 mg BID</td><td class="en"><b>97/103 mg BID</b></td></tr>
+    <tr><td><b>ACEi / ARB</b><br>（無法用 ARNI 時）</td>
+      <td class="en">Ramipril 2.5 mg QD<br>Valsartan 40 mg BID</td>
+      <td class="en"><b>Ramipril 5 mg BID</b><br><b>Valsartan 160 mg BID</b></td></tr>
+    <tr><td><b>Beta-blocker</b></td>
+      <td class="en">Bisoprolol 1.25 mg QD<br>Carvedilol 3.125 mg BID</td>
+      <td class="en"><b>Bisoprolol 10 mg QD</b><br><b>Carvedilol 25 mg BID</b></td></tr>
+    <tr><td><b>MRA</b></td>
+      <td class="en">Spironolactone 12.5–25 mg QD</td><td class="en"><b>25–50 mg QD</b></td></tr>
+    <tr><td><b>SGLT2i</b></td>
+      <td class="en">Dapagliflozin 10 mg QD<br>Empagliflozin 10 mg QD</td>
+      <td>同起始劑量<br><b>不需 titration</b></td></tr>
+  </table>
+  </div>
+
+  <div class="box">
+    <h4>加量原則</h4>
+    <ul>
+      <li>每次加量間隔 <b>≥ 1 週</b>；每次原則上<b>加倍</b>一種藥物。</li>
+      <li>順序上 <span class="en">SGLT2i</span> 可以最早全量給（不需 titration），先把它拿下。</li>
+      <li>血壓有限時，優先保留 <span class="en">ARNI</span> 與 <span class="en">beta-blocker</span> 的劑量空間，
+      考慮先減 loop diuretic（在無鬱血的前提下）。</li>
+      <li>ARNI 由 ACEi 轉換需 <b>停藥 36 小時</b> washout。這是藥師最該把關的一點。</li>
+    </ul>
+  </div>
+
+  <p class="small">健保給付條件（ARNI、SGLT2i 用於 HF）請以最新公告為準，計畫啟動前請藥劑部再確認一次。</p>
+</section>
+
+<!-- 14 安全性 -->
+<section class="slide" data-title="安全性指標">
+  <div class="kicker">Safety</div>
+  <h2 class="stitle">Safety Indicators 與處置規則</h2>
+  <p class="sub">參考 STRONG-HF 的 protocol-specified safety indicators</p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>指標</th><th>閾值</th><th>處置</th></tr>
+    <tr><td>收縮壓</td><td class="en">SBP &lt; 95 mmHg</td><td>暫不加量；有症狀則減量並通知醫師</td></tr>
+    <tr><td>心跳</td><td class="en">HR &lt; 55 bpm</td><td>暫不加 beta-blocker；有症狀則減量</td></tr>
+    <tr><td>血鉀</td><td class="en">K+ &gt; 5.0 mmol/L</td><td>暫停加 MRA / ARNI，3–7 天內複檢</td></tr>
+    <tr><td>腎功能</td><td class="en">eGFR &lt; 30 mL/min/1.73m²</td><td>停止加量，<b>直接照會醫師</b></td></tr>
+    <tr><td>NT-proBNP</td><td>較 baseline 上升</td><td>重新評估鬱血狀態，先處理利尿</td></tr>
+  </table>
+  </div>
+
+  <div class="box danger">
+    <h4>立即通報主治醫師（不經非同步流程）</h4>
+    <p>症狀性低血壓合併暈厥 · <span class="en">K+ &gt; 5.5</span> ·
+    eGFR 較 baseline 下降 <span class="en">&gt; 30%</span> ·
+    體重 3 天內增加 <span class="en">&gt; 2 kg</span> · 新發生的端坐呼吸或夜間陣發性呼吸困難。</p>
+  </div>
+
+  <div class="box ok">
+    <h4>來自 STRONG-HF 的重要觀察</h4>
+    <p>HIC 組有 <b>57.7%</b> 的病人在追蹤期間曾觸發 ≥1 項 safety indicator，
+    但只要被<b>妥善處理</b>，180 天死亡或再住院並未增加
+    （<span class="en">adjusted HR 0.84, 95% CI 0.48–1.46, p = 0.54</span>）。<br>
+    換句話說：<b>觸發警訊是常態，不是失敗</b>。重點是有沒有人接住。</p>
+  </div>
+</section>
+
+<!-- 15 分工 -->
+<section class="slide" data-title="分工與授權界線">
+  <div class="kicker">Governance</div>
+  <h2 class="stitle">分工與授權界線</h2>
+  <p class="sub">這一頁比藥物劑量表更需要事先談定</p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>角色</th><th>負責</th></tr>
+    <tr><td><b>心臟科主治醫師</b></td><td>收案決定、開立 titration 授權醫囑、
+      安全警訊處置、第 6 週回診評估、最終處方責任</td></tr>
+    <tr><td><b>臨床藥師</b></td><td>每週兩次批次審閱、依 protocol 建議加量、
+      交互作用與禁忌審核、ARNI washout 把關、病人用藥衛教與依從性追蹤</td></tr>
+    <tr><td><b>個管師 / 專科護理師</b></td><td>回報資料完整性追蹤、失聯個案聯繫、
+      抽血安排、症狀初篩</td></tr>
+    <tr><td><b>病人 / 家屬</b></td><td>每日回報 SBP、HR、體重、症狀</td></tr>
+  </table>
+  </div>
+
+  <div class="box warn">
+    <h4>台灣執業環境的關鍵差異</h4>
+    <p>英國的 specialist pharmacist 有 <span class="en">independent prescriber</span> 制度，
+    可以自行調整處方。<b>台灣沒有對應制度</b>。<br><br>
+    因此本計畫中藥師的角色定位必須是：<b>依醫師事先授權之 protocol 提出調整建議，
+    由醫師確認後生效</b>。實務上可用「預先開立含 titration 條件的醫囑」或
+    「藥師建議 + 醫師同日確認」的方式處理。<br><br>
+    這一點請在計畫書送出前，先與藥劑部主任及醫務室確認流程的法規適切性。</p>
+  </div>
+</section>
+
+<!-- 16 指標 -->
+<section class="slide" data-title="成效指標">
+  <div class="kicker">Measurement</div>
+  <h2 class="stitle">三類指標</h2>
+  <p class="sub">QI 計畫一定要有 balancing measure，否則只會看到想看的東西</p>
+
+  <div class="box">
+    <h4>Outcome Measures（結果指標）</h4>
+    <ul>
+      <li>達到最大耐受四類 GDMT 的<b>中位天數</b>（主要指標）</li>
+      <li>90 天內 ≥3 類藥達目標／最大耐受劑量之比例</li>
+      <li>90 天內四類全達目標劑量之比例</li>
+      <li>180 天 HF 再住院率與全因死亡率（<span class="en">exploratory</span>，樣本數不足以做結論）</li>
+    </ul>
+  </div>
+
+  <div class="box ok">
+    <h4>Process Measures（過程指標）</h4>
+    <ul>
+      <li>出院前達 ≥50% 目標劑量之比例</li>
+      <li>第 1、2、3、6 週追蹤完成率</li>
+      <li>病人每日資料回報依從率</li>
+      <li>藥師建議至醫師確認的<b>中位時間</b></li>
+    </ul>
+  </div>
+
+  <div class="box danger">
+    <h4>Balancing Measures（平衡指標）— 不能省略</h4>
+    <ul>
+      <li>症狀性低血壓、hyperkalaemia、AKI 的發生率</li>
+      <li><b>非計畫性</b>急診就診次數</li>
+      <li>藥師每案投入工時（人力可持續性）</li>
+      <li>病人退出計畫的比例與原因</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 17 時程 -->
+<section class="slide" data-title="12 個月時程">
+  <div class="kicker">Timeline</div>
+  <h2 class="stitle">12 個月 PDSA 時程</h2>
+  <p class="sub">小規模開始，不要一次全院上線</p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>期間</th><th>工作</th></tr>
+    <tr><td><b>M1–M2</b><br>Plan</td><td>回溯 3 個月基線資料；訂定 protocol 與授權範圍；
+      藥師教育訓練；資料回報工具選定（可先用最簡單的方式，不必先開發 app）</td></tr>
+    <tr><td><b>M3–M4</b><br>Do — PDSA 1</td><td><b>先做 10 位病人</b>。目的不是看療效，
+      是找出流程斷點：誰忘了抽血、資料回報漏了哪些、醫師確認卡在哪</td></tr>
+    <tr><td><b>M5</b><br>Study / Act</td><td>修正 protocol 與表單；決定是否擴大</td></tr>
+    <tr><td><b>M6–M9</b><br>PDSA 2</td><td>擴大至 40–50 位；加入個管師分流；月度指標回顧</td></tr>
+    <tr><td><b>M10–M12</b><br>PDSA 3</td><td>穩定運作與資料分析；成果報告；評估是否納入常規照護流程</td></tr>
+  </table>
+  </div>
+
+  <div class="box">
+    <h4>第一輪只做 10 位的理由</h4>
+    <p>Barts 是 5 家醫院、1 位藥師。這種覆蓋率是<b>流程成熟之後</b>的結果，不是起點。
+    第一輪的成功定義是「找到 5 個以上流程問題」，不是「10 位病人都達標」。</p>
+  </div>
+</section>
+
+<!-- 18 風險 -->
+<section class="slide" data-title="風險與對策">
+  <div class="kicker">Risk</div>
+  <h2 class="stitle">預期風險與對策</h2>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th style="width:38%">風險</th><th>對策</th></tr>
+    <tr><td>病人回報依從性下降<br>（通常在第 3 週後）</td>
+      <td>降低回報負擔（只要 SBP/HR/體重三項）；個管師在第 10 天主動聯繫一次</td></tr>
+    <tr><td>藥師工時無法負荷</td>
+      <td>固定批次時段、設收案上限、記錄每案工時作為擴編依據</td></tr>
+    <tr><td>醫師確認延遲成為瓶頸</td>
+      <td>事先授權的 protocol 範圍要夠明確；設定 48 小時未確認的升級路徑</td></tr>
+    <tr><td>高齡、腎功能不佳者<br>不良事件較多</td>
+      <td>此族群加量間隔延長為 2 週；抽血頻率加密；必要時排除於第一輪</td></tr>
+    <tr><td>健保給付條件變動</td>
+      <td>藥劑部每季確認一次；protocol 保留 ACEi/ARB 的替代路徑</td></tr>
+    <tr><td>資料保護與個資</td>
+      <td>回報平台需通過院內資安審查；避免使用個人通訊軟體傳送臨床數據</td></tr>
+  </table>
+  </div>
+</section>
+
+<!-- 19 QUIZ -->
+<section class="slide" data-title="自我測驗">
+  <div class="kicker">自我測驗</div>
+  <h2 class="stitle">五題快速確認</h2>
+  <p class="sub">答錯會顯示說明，可以直接往下</p>
+  <div id="quiz"></div>
+</section>
+
+<!-- 20 結語 -->
+<section class="slide" data-title="結語與署名">
+  <div class="kicker">結語</div>
+  <h2 class="stitle">回到一開始的四句話</h2>
+
+  <ul>
+    <li>療效證據引用 <strong>STRONG-HF</strong>（RCT, positive, <span class="en">RR 0.66</span>）與
+    <strong>2023 ESC Class I, LOE B</strong>。</li>
+    <li>流程設計參考 <strong>Barts Health 的 poster</strong>，但清楚說明它是
+    observational + historical control，屬於 <b>可行性示範</b>。</li>
+    <li>我們要解決的是 <strong>回診容量</strong>這個系統瓶頸，藥師的價值在於
+    把密集接觸從門診時段裡解放出來。</li>
+    <li>安全性靠 <strong>寫死的 safety indicators 與通報路徑</strong>；
+    警訊會頻繁觸發（STRONG-HF 中 57.7%），這是常態。</li>
+  </ul>
+
+  <div class="box ok">
+    <h4>下一步建議</h4>
+    <p>① 先跑本院 3 個月基線回溯　② 與藥劑部、醫務室確認授權模式的法規適切性　
+    ③ 第一輪只做 10 位病人</p>
+  </div>
+
+  <div class="footer-note">
+    <div class="sig">
+      讀書會共筆整理人<br>
+      <b>謝慕揚 醫師 MD, PhD, FESC</b><br>
+      結構性心臟病與介入心臟學
+    </div>
+    <br>
+    · 本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br>
+    · 僅供學術與教育用途，不代表任何單位之官方立場<br>
+    · 本內容未涉及任何利益衝突
+  </div>
+
+  <div class="ref">
+    <b>參考資料</b><br>
+    1. Mebazaa A, et al. Safety, tolerability and efficacy of up-titration of guideline-directed
+    medical therapies for acute heart failure (STRONG-HF). <i>Lancet</i> 2022.<br>
+    2. McDonagh TA, et al. 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and
+    treatment of acute and chronic heart failure. <i>Eur Heart J</i> 2023.<br>
+    3. Chioncel O, et al. Safety indicators in patients receiving high-intensity care after
+    hospital admission for acute heart failure: the STRONG-HF trial. <i>J Card Fail</i> 2023.<br>
+    4. Kirupananthavel A, Abdel-gadir A, Fortune M, et al. Centralised pharmacist-led remote care
+    accelerates achievement of guideline-directed medical therapy in HFrEF.
+    Barts Health NHS Trust — congress poster（會議海報，尚未見全文發表）。
+  </div>
+</section>
+
+</div>
+
+<div class="nav">
+  <button id="prev" onclick="go(-1)">← 上一頁</button>
+  <span class="counter" id="counter">1 / 20</span>
+  <button id="next" onclick="go(1)">下一頁 →</button>
+</div>
+
+<script>
+var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+var cur = 0;
+
+/* restore position */
+try{ var s = localStorage.getItem('gdmt-qi-slide'); if(s!==null){ cur = Math.min(parseInt(s,10)||0, slides.length-1);} }catch(e){}
+
+function render(){
+  slides.forEach(function(el,i){ el.classList.toggle('active', i===cur); });
+  document.getElementById('counter').textContent = (cur+1)+' / '+slides.length;
+  document.getElementById('prev').disabled = (cur===0);
+  document.getElementById('next').disabled = (cur===slides.length-1);
+  document.getElementById('pbar').style.width = ((cur+1)/slides.length*100)+'%';
+  window.scrollTo({top:0,behavior:'instant'});
+  buildToc();
+  try{ localStorage.setItem('gdmt-qi-slide', cur); }catch(e){}
+}
+function go(d){ var n=cur+d; if(n<0||n>=slides.length) return; cur=n; render(); }
+function jump(i){ cur=i; render(); toggleToc(); }
+
+function buildToc(){
+  var p = document.getElementById('tocPanel');
+  p.innerHTML = '<h3>投影片目錄</h3>';
+  slides.forEach(function(el,i){
+    var b = document.createElement('button');
+    b.className = 'toc-item' + (i===cur?' cur':'');
+    b.innerHTML = '<span>'+(i+1)+'</span>'+el.dataset.title;
+    b.onclick = function(){ jump(i); };
+    p.appendChild(b);
+  });
+}
+function toggleToc(){ document.getElementById('toc').classList.toggle('open'); }
+
+document.addEventListener('keydown', function(e){
+  if(e.key==='ArrowRight'||e.key===' ') go(1);
+  if(e.key==='ArrowLeft') go(-1);
+});
+
+/* swipe */
+var x0=null,y0=null;
+document.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; y0=e.touches[0].clientY; },{passive:true});
+document.addEventListener('touchend',function(e){
+  if(x0===null) return;
+  var dx=e.changedTouches[0].clientX-x0, dy=e.changedTouches[0].clientY-y0;
+  if(Math.abs(dx)>60 && Math.abs(dx)>Math.abs(dy)*1.6){ go(dx<0?1:-1); }
+  x0=null;y0=null;
+},{passive:true});
+
+/* ---------- quiz ---------- */
+var QS = [
+ { q:'關於 STRONG-HF，下列敘述何者正確？',
+   o:['這是一個 neutral trial，主要終點未達統計顯著',
+      '主要終點 180 天死亡或 HF 再住院為 15.2% vs 23.3%，RR 0.66 (0.50–0.86)，為 positive trial',
+      '這是 observational study，因此證據等級較低',
+      '試驗完成全部預定收案後才結束'],
+   c:1,
+   e:'STRONG-HF 是隨機分派試驗且結果為 positive：RR 0.66 (95% CI 0.50–0.86), p = 0.0021。並且因療效顯著而提前中止，這也代表效果幅度可能被高估。' },
+
+ { q:'Barts Health 這張 poster 最主要的方法學限制是什麼？',
+   o:['樣本數太小，無法計算 p 值',
+      '使用 historical control（2023–2024 年的歷史對照），時間趨勢本身可能造成差異',
+      '沒有描述介入內容',
+      '只在單一醫院進行'],
+   c:1,
+   e:'Historical control 是最大弱點。對照期間正好是 SGLT2i 與 ARNI 使用快速普及的時期，部分差異可能來自時間趨勢而非藥師介入。因此這張 poster 應定位為「可行性示範」，療效證據請引用 STRONG-HF。' },
+
+ { q:'2023 ESC Focused Update 對於出院後快速 up-titration 的建議是？',
+   o:['Class IIa, LOE B，出院後 3 個月內',
+      'Class I, LOE B，出院後 6 週內密集追蹤並快速調升劑量',
+      'Class I, LOE A，僅適用於 LVEF < 30% 者',
+      'Class IIb，證據不足'],
+   c:1,
+   e:'2023 ESC Focused Update 給予 Class I, LOE B：出院前開始並快速調升實證治療，並於出院後 6 週內密集且謹慎追蹤，以降低再住院或死亡風險。' },
+
+ { q:'在 STRONG-HF 的高強度照護組，曾觸發至少一項 safety indicator 的比例約為多少？該如何解讀？',
+   o:['約 5%，代表這個策略幾乎沒有風險',
+      '約 57.7%，且妥善處理後 180 天主要終點並未增加',
+      '約 95%，代表這個策略不可行',
+      '試驗未記錄 safety indicator'],
+   c:1,
+   e:'HIC 組有 57.7% 曾觸發 ≥1 項 safety indicator，但妥善處理後主要終點未增加（adjusted HR 0.84, 95% CI 0.48–1.46, p = 0.54）。觸發警訊是常態，關鍵在於有沒有明確的接手路徑。' },
+
+ { q:'在台灣執行藥師主導 titration 計畫時，最需要事先確認的是？',
+   o:['藥師是否熟悉四大類藥物的目標劑量',
+      '藥師調整劑量的授權模式與法規適切性（台灣無 independent prescriber 制度）',
+      '是否有足夠的門診診間',
+      '病人是否願意每天量血壓'],
+   c:1,
+   e:'英國的 specialist pharmacist 具 independent prescriber 資格，台灣沒有對應制度。因此本計畫中藥師須定位為「依醫師事先授權之 protocol 提出建議、由醫師確認後生效」，此流程應於計畫送出前與藥劑部及醫務室確認。' }
+];
+
+(function(){
+  var wrap = document.getElementById('quiz');
+  QS.forEach(function(item, qi){
+    var d = document.createElement('div');
+    d.style.marginBottom = '22px';
+    var h = document.createElement('div');
+    h.className = 'q';
+    h.textContent = 'Q' + (qi+1) + '. ' + item.q;
+    d.appendChild(h);
+    var exp = document.createElement('div');
+    exp.className = 'exp';
+    exp.style.display = 'none';
+    item.o.forEach(function(txt, oi){
+      var b = document.createElement('button');
+      b.className = 'opt';
+      b.textContent = txt;
+      b.onclick = function(){
+        if(d.dataset.done) return;
+        d.dataset.done = '1';
+        Array.prototype.forEach.call(d.querySelectorAll('.opt'), function(x,k){
+          if(k===item.c) x.classList.add('correct');
+          else if(k===oi) x.classList.add('wrong');
+        });
+        exp.innerHTML = (oi===item.c ? '✅ 正確　' : '❌ 再看一次　') + item.e;
+        exp.style.display = 'block';
+      };
+      d.appendChild(b);
+    });
+    d.appendChild(exp);
+    wrap.appendChild(d);
+  });
+})();
+
+render();
+</script>
+</body>
+</html>

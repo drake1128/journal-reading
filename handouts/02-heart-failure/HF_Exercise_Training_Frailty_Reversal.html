@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>運動訓練與 Frailty 逆轉：心衰竭復健文獻導讀</title>
+<style>
+:root{
+  --navy:#1a3a5c; --navy-light:#2d5a87; --gold:#c9a227; --gold-light:#e5c76b;
+  --accent:#c0392b; --success:#27ae60; --neutral:#7f8c8d;
+  --bg:#faf8f5; --card:#ffffff; --text:#2c3e50; --muted:#7f8c8d; --border:#e6e9ec;
+  --shadow:0 4px 20px rgba(26,58,92,.08);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.65;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",
+    -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}
+.wrap{max-width:820px;margin:0 auto}
+header{background:linear-gradient(135deg,#1a3a5c,#2d5a87);color:#fff;padding:22px 18px 18px}
+header .kicker{font-size:12px;letter-spacing:2px;color:var(--gold-light);font-weight:600}
+header h1{font-size:19px;margin:8px 0 6px;line-height:1.45;font-weight:700}
+header .sub{font-size:12.5px;opacity:.86;line-height:1.6}
+header .badge{display:inline-block;margin-top:10px;background:rgba(201,162,39,.2);
+  border:1px solid var(--gold);color:var(--gold-light);font-size:11px;padding:3px 9px;border-radius:11px}
+nav{display:flex;overflow-x:auto;background:var(--card);border-bottom:2px solid var(--border);
+  position:sticky;top:0;z-index:20;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+nav::-webkit-scrollbar{display:none}
+nav button{flex:0 0 auto;min-height:48px;padding:12px 15px;border:none;background:none;
+  font-family:inherit;font-size:13.5px;font-weight:600;color:var(--muted);cursor:pointer;
+  border-bottom:3px solid transparent;white-space:nowrap}
+nav button.on{color:var(--navy);border-bottom-color:var(--gold)}
+main{padding:16px 14px 60px}
+section[hidden]{display:none}
+.card{background:var(--card);border-radius:12px;padding:16px;margin-bottom:14px;box-shadow:var(--shadow)}
+.card h2{font-size:16px;margin:0 0 12px;color:var(--navy);display:flex;align-items:center;gap:8px}
+.card h2::before{content:'';width:4px;height:17px;background:var(--gold);border-radius:2px;flex:0 0 4px}
+.card h3{font-size:14px;margin:16px 0 8px;color:var(--navy-light)}
+p{margin:0 0 10px;font-size:14px}
+.small{font-size:12.5px;color:var(--muted);line-height:1.6}
+ul{margin:0 0 10px;padding-left:19px;font-size:14px}
+li{margin-bottom:7px}
+.en{font-family:-apple-system,"Segoe UI",Arial,sans-serif}
+.th{background:linear-gradient(135deg,#1a3a5c,#264c74);color:#fff;border-radius:12px;padding:16px;
+  margin-bottom:14px;box-shadow:var(--shadow)}
+.th h2{color:#fff;font-size:16px;margin:0 0 12px;display:flex;align-items:center;gap:8px}
+.th h2::before{content:'';width:4px;height:17px;background:var(--gold-light);border-radius:2px;flex:0 0 4px}
+.th .item{display:flex;gap:10px;margin-bottom:12px;align-items:flex-start}
+.th .num{flex:0 0 24px;height:24px;border-radius:50%;background:var(--gold);color:var(--navy);
+  font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.th .txt{font-size:13.5px;line-height:1.65;opacity:.95}
+.tblwrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0;min-width:420px}
+th,td{padding:8px 6px;text-align:left;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:#f4f6f8;color:var(--navy);font-weight:600;font-size:12.5px}
+.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.t-pos{background:#e8f6ee;color:#1e7e46}
+.t-neu{background:#eef1f4;color:#5d6d7e}
+.t-warn{background:#fdf1e3;color:#a05a12}
+.flow{display:flex;flex-direction:column;align-items:center}
+.fbox{width:100%;background:#f6f8fa;border:1.5px solid var(--border);border-radius:9px;
+  padding:10px 12px;text-align:center;font-size:13px}
+.fbox.hl{background:#fdf8e8;border-color:var(--gold)}
+.fbox b{color:var(--navy)}
+.arrow{width:2px;height:16px;background:var(--border)}
+.split{display:flex;gap:8px;width:100%}
+.split .fbox{flex:1;min-width:0}
+.metric{border:1px solid var(--border);border-radius:10px;padding:11px;margin-bottom:9px}
+.metric .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.metric .name{font-size:13.5px;font-weight:600;color:var(--navy)}
+.metric .vals{display:flex;align-items:baseline;gap:8px;margin-top:6px;font-size:13px;flex-wrap:wrap}
+.metric .b{color:var(--muted)}
+.metric .a{font-weight:700;color:var(--navy)}
+.metric .d{margin-left:auto;font-weight:700}
+.bar{height:6px;background:var(--border);border-radius:3px;margin-top:8px;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:3px}
+.note{background:#fdf8e8;border-left:3px solid var(--gold);padding:10px 12px;border-radius:0 8px 8px 0;font-size:13px;margin:10px 0}
+.alert{background:#fbeae8;border-left:3px solid var(--accent);padding:10px 12px;border-radius:0 8px 8px 0;font-size:13px;margin:10px 0}
+.ok{background:#e8f6ee;border-left:3px solid var(--success);padding:10px 12px;border-radius:0 8px 8px 0;font-size:13px;margin:10px 0}
+.acc{border:1px solid var(--border);border-radius:10px;padding:11px;margin-bottom:9px;cursor:pointer}
+.acc .body{display:none;background:#f4f6f8;border-radius:9px;padding:12px;font-size:13px;margin-top:10px}
+.acc.open .body{display:block}
+button.opt{display:block;width:100%;min-height:48px;text-align:left;padding:12px 14px;margin-bottom:8px;
+  border:1.5px solid var(--border);background:var(--card);border-radius:9px;font-family:inherit;
+  font-size:13.5px;color:var(--text);cursor:pointer;line-height:1.5}
+button.opt.correct{border-color:var(--success);background:#e8f6ee}
+button.opt.wrong{border-color:var(--accent);background:#fbeae8}
+.qprog{height:5px;background:var(--border);border-radius:3px;margin-bottom:12px;overflow:hidden}
+.qprog i{display:block;height:100%;background:var(--gold);transition:width .3s;width:0}
+.nextbtn{min-height:48px;width:100%;background:var(--navy);color:#fff;border:none;border-radius:9px;
+  font-family:inherit;font-size:14px;font-weight:600;cursor:pointer;margin-top:10px}
+.expl{background:#f4f6f8;border-radius:9px;padding:12px;font-size:13px;margin-top:10px}
+.pill{display:inline-block;background:#eef1f4;color:var(--navy);font-size:11.5px;padding:3px 9px;border-radius:10px;margin:0 5px 5px 0}
+footer{background:var(--navy);color:#cfd8e0;padding:18px 16px 26px;font-size:11.5px;line-height:1.75}
+footer .sig{color:#fff;font-weight:600;font-size:13px;margin-bottom:2px}
+footer .gold{color:var(--gold-light)}
+footer hr{border:none;border-top:1px solid rgba(255,255,255,.15);margin:12px 0}
+@media print{nav{display:none}section[hidden]{display:block !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">讀書會共筆 · JOURNAL REVIEW</div>
+  <h1>Inpatient-Initiated and Home-Based Exercise Training Reduces Heart Failure Hospitalization and Reverses Frailty</h1>
+  <div class="sub">
+    Kyung-Hee Kim (Incheon Sejong Hospital), Jin Wi (Gachon University Gil Medical Center)<br>
+    Prospective randomized study · n = 100 · Abstract 89149
+  </div>
+  <span class="badge">Congress abstract／尚未檢索到全文發表</span>
+</header>
+
+<nav id="nav">
+  <button class="on" data-t="th">Take Home</button>
+  <button data-t="ds">研究設計</button>
+  <button data-t="rs">結果數據</button>
+  <button data-t="ap">判讀重點</button>
+  <button data-t="fr">Frailty 工具</button>
+  <button data-t="cl">臨床應用</button>
+  <button data-t="qz">自我測驗</button>
+</nav>
+
+<main>
+
+<!-- ===== Take Home ===== -->
+<section id="th">
+  <div class="th">
+    <h2>Take Home Message</h2>
+    <div class="item"><div class="num">1</div><div class="txt">
+      <b>住院期間啟動、出院後銜接居家的運動訓練</b>，在 6 個月時使 HF-related hospitalisation 顯著低於 standard care（p = 0.01）。方向與現有 cardiac rehabilitation 證據一致。</div></div>
+    <div class="item"><div class="num">2</div><div class="txt">
+      運動組的 frailty score 由 1.63 降至 1.23（Δ −0.40, p = 0.001），握力 +3.07 kg（p = 0.013）——<b>frailty 在 6 個月內是可逆的</b>，這是本篇最值得帶回病房的訊息。</div></div>
+    <div class="item"><div class="num">3</div><div class="txt">
+      Peak VO₂ 在運動組 <b>preserved</b>，對照組下降約 ≥20%。臨床意義可能不是「變好」，而是<b>阻止了功能滑落的軌跡</b>。</div></div>
+    <div class="item"><div class="num">4</div><div class="txt">
+      ⚠️ 判讀關鍵：海報上多數數字是<b>運動組自身的 paired change（within-arm）</b>，不是組間比較；對照組握力標示為 Not reported，primary endpoint 也只給 p value 而無 HR 與 95% CI。</div></div>
+    <div class="item"><div class="num">5</div><div class="txt">
+      Gait speed 未達顯著（p = 0.737）、K-MMSE 僅 +0.81 分（低於一般 MCID）。<b>統計顯著 ≠ 臨床顯著</b>，引用時請寫成「訊號一致的小型 RCT」而非 practice-changing。</div></div>
+  </div>
+
+  <div class="card">
+    <h2>一句話總結</h2>
+    <p>這是一篇 <span class="en">n = 100</span> 的單中心 prospective RCT abstract：<b>把心臟復健的起點從「出院後門診」往前移到「住院當下」，並用居家訓練接住出院後的斷點</b>，6 個月時 frailty 逆轉、體適能保留、HF 再住院下降。結論方向合理，但效果量尚未完整揭露，適合作為<b>臨床作法的支持論據</b>，不適合作為指引級證據引用。</p>
+    <div class="small" style="margin-top:10px">
+      <span class="pill">Heart failure</span>
+      <span class="pill">Cardiac rehabilitation</span>
+      <span class="pill">Frailty</span>
+      <span class="pill">Sarcopenia</span>
+      <span class="pill">Cognition</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 研究設計 ===== -->
+<section id="ds" hidden>
+  <div class="card">
+    <h2>研究設計 Study design</h2>
+    <div class="flow">
+      <div class="fbox hl"><b>100 patients with chronic heart failure</b></div>
+      <div class="arrow"></div>
+      <div class="small">1 : 1 randomisation</div>
+      <div class="arrow"></div>
+      <div class="split">
+        <div class="fbox"><b>Exercise programme</b><br>n = 50<br>
+          <span class="small">住院期間啟動訓練<br>↓<br>supervised home-based training</span></div>
+        <div class="fbox"><b>Standard care</b><br>n = 50<br>
+          <span class="small">usual HF care<br>無結構化運動方案</span></div>
+      </div>
+      <div class="arrow"></div>
+      <div class="fbox">Baseline 與 6 個月評估<br>
+        <span class="small">Grip strength · 2.5-m gait speed · Frailty status · Peak VO₂ · K-MMSE</span></div>
+      <div class="arrow"></div>
+      <div class="fbox hl"><b>Primary clinical endpoint</b><br>
+        <span class="small">Heart failure-related hospitalisation at 6 months</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>設計上值得注意的三件事</h2>
+    <h3>① 介入的「時間點」才是新意</h3>
+    <p>過去多數心臟復健試驗從門診收案。本研究把起點放在 <b>index hospitalisation</b>，再以居家訓練延續——對應的正是臨床上最容易斷掉的 transition period。</p>
+    <h3>② 同時量測 body / function / cognition</h3>
+    <p>把 frailty score、握力、步速、peak VO₂、K-MMSE 放在同一組面板，讓「運動 → 肌力 → frailty → 事件」的路徑得以整體呈現，而不是只看 exercise capacity。</p>
+    <h3>③ 但這也是 open-label 的軟肋</h3>
+    <p>運動介入無法 blinding，握力、步速、MMSE 這類 <b>effort-dependent 或有 practice effect</b> 的指標容易受期待效應影響；HF hospitalisation 相對客觀，但仍受照護接觸頻率不同的影響（運動組被看得更頻繁）。</p>
+  </div>
+</section>
+
+<!-- ===== 結果 ===== -->
+<section id="rs" hidden>
+  <div class="card">
+    <h2>運動組 6 個月 paired change（n = 50）</h2>
+    <p class="small" style="margin-bottom:12px">以下四項皆為<b>運動組自身</b> baseline vs 6 months 的配對分析，不是與對照組的比較。</p>
+
+    <div class="metric">
+      <div class="top"><span class="name">握力 Grip strength (kg)</span><span class="tag t-pos">p = 0.013</span></div>
+      <div class="vals"><span class="b">28.93</span><span class="b">→</span><span class="a">32.00</span>
+        <span class="d" style="color:var(--success)">Δ +3.07</span></div>
+      <div class="bar"><i style="width:42%;background:var(--success)"></i></div>
+      <div class="small" style="margin-top:6px">AWGS 2019 亞洲肌少症切點：男 &lt;28 kg、女 &lt;18 kg</div>
+    </div>
+
+    <div class="metric">
+      <div class="top"><span class="name">2.5-m 步行時間 Gait speed (sec)</span><span class="tag t-neu">p = 0.737</span></div>
+      <div class="vals"><span class="b">2.05</span><span class="b">→</span><span class="a">1.99</span>
+        <span class="d" style="color:var(--neutral)">Δ −0.06</span></div>
+      <div class="bar"><i style="width:14%;background:var(--neutral)"></i></div>
+      <div class="small" style="margin-top:6px">換算約 1.22 → 1.26 m/s，兩個時間點都已優於 1.0 m/s 切點</div>
+    </div>
+
+    <div class="metric">
+      <div class="top"><span class="name">Frailty score (1–3)</span><span class="tag t-pos">p = 0.001</span></div>
+      <div class="vals"><span class="b">1.63</span><span class="b">→</span><span class="a">1.23</span>
+        <span class="d" style="color:var(--success)">Δ −0.40</span></div>
+      <div class="bar"><i style="width:62%;background:var(--success)"></i></div>
+      <div class="small" style="margin-top:6px">1 = not frail、2 = pre-frail、3 = frail；平均由 pre-frail 往 not frail 移動</div>
+    </div>
+
+    <div class="metric">
+      <div class="top"><span class="name">K-MMSE (0–30)</span><span class="tag t-pos">p = 0.004</span></div>
+      <div class="vals"><span class="b">27.98</span><span class="b">→</span><span class="a">28.79</span>
+        <span class="d" style="color:var(--success)">Δ +0.81</span></div>
+      <div class="bar"><i style="width:20%;background:var(--success)"></i></div>
+      <div class="small" style="margin-top:6px">基線已接近天花板，+0.81 分低於一般認定的 MMSE MCID（約 1.4–3 分）</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Outcome summary：exercise vs standard care</h2>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>指標</th><th>Exercise</th><th>Standard care</th><th>備註</th></tr></thead>
+      <tbody>
+        <tr><td><b>握力 Grip strength</b></td><td class="en">↑ +3.07 kg (p = 0.013)</td>
+            <td class="en" style="color:var(--muted)">Not reported</td><td><span class="tag t-warn">對照組未報告</span></td></tr>
+        <tr><td><b>Frailty score</b></td><td class="en">↓ −0.40 (p = 0.001)</td>
+            <td class="en" style="color:var(--muted)">No improvement</td><td><span class="tag t-pos">方向有利</span></td></tr>
+        <tr><td><b>Cognition (K-MMSE)</b></td><td class="en">↑ +0.81 (p = 0.004)</td>
+            <td class="en" style="color:var(--muted)">No improvement</td><td><span class="tag t-neu">幅度小</span></td></tr>
+        <tr><td><b>Peak VO₂</b></td><td class="en">Preserved</td>
+            <td class="en" style="color:var(--muted)">Decline ≈ ≥20%</td><td><span class="tag t-pos">質性描述</span></td></tr>
+        <tr><td><b>HF hospitalisation（primary）</b></td><td class="en">Lower than standard care</td>
+            <td class="en" style="color:var(--muted)">Reference (p = 0.01)</td><td><span class="tag t-pos">未報 HR/CI</span></td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="note">
+      海報自註：<span class="en">values as reported in the abstract；peak VO₂ 與 hospitalisation 為質性描述</span>。對照組在 frailty 與認知參數<b>未見改善</b>。
+    </div>
+    <div class="alert">
+      <b>最重要的一句話：</b>整份海報唯一明確的<b>組間</b>陳述是 primary endpoint（<span class="en">p = 0.01</span>），但沒有事件數、HR 或 95% CI。在共筆或簡報中請勿把 within-arm 的 Δ 值講成「運動組比對照組多改善 3.07 kg」。
+    </div>
+  </div>
+</section>
+
+<!-- ===== 判讀 ===== -->
+<section id="ap" hidden>
+  <div class="card">
+    <h2>Critical appraisal：怎麼讀才不會過度解讀</h2>
+    <h3>試驗方向判定</h3>
+    <p>Primary endpoint（6 個月 HF-related hospitalisation）<b>達到統計顯著（p = 0.01）→ 方向為 positive</b>。但這是 <b>abstract / poster 階段</b>的資訊，效果量未揭露，強度上僅屬 hypothesis-supporting。</p>
+
+    <h3>五個必須標註的限制</h3>
+    <ul>
+      <li><b>樣本小、單中心</b>：n = 100，對 hospitalisation 這種事件型 endpoint，事件數很可能只有數十件，估計極不精確。</li>
+      <li><b>無 HR 與 95% CI</b>：只有 p value 無法判斷臨床效果大小，也無法做跨試驗比較。</li>
+      <li><b>Within-arm vs between-group 混用</b>：握力、frailty、MMSE、gait speed 的數字都是運動組自身變化；對照組握力甚至 not reported。</li>
+      <li><b>Open-label</b>：effort-dependent 指標（握力、步速）與 MMSE（practice effect）易受影響；未提及 blinded outcome adjudication。</li>
+      <li><b>族群未定義</b>：HFrEF / HFpEF 比例、NYHA class、年齡、GDMT 使用情況未在海報呈現，外推到台灣族群需保留。</li>
+    </ul>
+
+    <h3>兩個「看起來很強但要小心」的數字</h3>
+    <div class="alert">
+      <b>Peak VO₂：對照組下降 ≈ ≥20%</b> — 6 個月內 20% 的下滑幅度相當大。若屬實，代表這是一個特別脆弱、functional decline 很快的族群（因此運動的相對效益被放大）；也可能反映測量或依從性差異。全文出來前，這個數字要標註為質性描述。
+    </div>
+    <div class="alert">
+      <b>K-MMSE +0.81 分</b> — 基線 27.98/30 已近天花板，改善幅度低於一般引用的 MMSE MCID（約 1.4–3 分）。可以說「認知未惡化」，不宜說「改善認知功能」。
+    </div>
+
+    <h3>與既有證據的位置</h3>
+    <p>REHAB-HF（2021, NEJM）已顯示急性心衰竭住院後的早期、多面向（肌力、平衡、行動、耐力）復健可改善身體功能；HF-ACTION 則顯示門診運動訓練對硬終點的效果溫和。本研究的定位是<b>把 REHAB-HF 的概念延伸到 frailty 逆轉與再住院</b>，屬於一致性補強而非新方向。</p>
+    <div class="ok">
+      <b>建議引用語句：</b>「一篇 n = 100 的單中心隨機試驗（congress abstract）顯示，住院期間啟動並銜接居家的運動訓練，在 6 個月時改善握力與 frailty score、保留 peak VO₂，且 HF 相關再住院低於標準照護（p = 0.01）；效果量與組間比較尚待全文發表。」
+    </div>
+  </div>
+</section>
+
+<!-- ===== Frailty 工具 ===== -->
+<section id="fr" hidden>
+  <div class="card">
+    <h2>Frailty score 怎麼看</h2>
+    <p>本研究使用 <b>1–3 分制</b>：<span class="en">1 = not frail、2 = pre-frail、3 = frail</span>。運動組平均由 <b>1.63 → 1.23</b>，也就是整體族群<b>從「偏 pre-frail」往「接近 not frail」移動</b>。</p>
+    <svg viewBox="0 0 340 90" style="width:100%;height:auto;margin-top:6px" xmlns="http://www.w3.org/2000/svg">
+      <defs><marker id="ar" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#27ae60"/></marker></defs>
+      <rect x="20" y="38" width="300" height="10" rx="5" fill="#e6e9ec"/>
+      <rect x="20" y="38" width="150" height="10" rx="5" fill="#c9a227" opacity=".35"/>
+      <line x1="20" y1="30" x2="20" y2="56" stroke="#7f8c8d" stroke-width="1"/>
+      <line x1="170" y1="30" x2="170" y2="56" stroke="#7f8c8d" stroke-width="1"/>
+      <line x1="320" y1="30" x2="320" y2="56" stroke="#7f8c8d" stroke-width="1"/>
+      <text x="20" y="72" font-size="10" fill="#7f8c8d" text-anchor="middle">1 not frail</text>
+      <text x="170" y="72" font-size="10" fill="#7f8c8d" text-anchor="middle">2 pre-frail</text>
+      <text x="320" y="72" font-size="10" fill="#7f8c8d" text-anchor="middle">3 frail</text>
+      <path d="M105 60 L64 60" stroke="#27ae60" stroke-width="1.5" marker-end="url(#ar)"/>
+      <circle cx="114.5" cy="43" r="7" fill="#c0392b"/>
+      <text x="114.5" y="24" font-size="11" fill="#c0392b" text-anchor="middle" font-weight="700">1.63</text>
+      <circle cx="54.5" cy="43" r="7" fill="#27ae60"/>
+      <text x="54.5" y="24" font-size="11" fill="#27ae60" text-anchor="middle" font-weight="700">1.23</text>
+    </svg>
+    <div class="note">
+      Δ −0.40 分聽起來很小，但在 3 分制上代表<b>約 40% 的病人往前跨了一個分類</b>。這也是為什麼 frailty 這類粗刻度量表，報告時應同時給「分類轉移比例」而非只給平均差。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>常用 frailty / sarcopenia 評估工具對照</h2>
+    <p class="small">點擊展開使用時機。海報未明講採用哪一套，但 1–3 分制最接近 Fried phenotype 的三分類。</p>
+
+    <div class="acc"><div class="top" style="display:flex;justify-content:space-between;gap:8px">
+      <span class="name" style="font-size:13.5px;font-weight:600;color:var(--navy)">Fried physical phenotype</span>
+      <span class="tag t-neu">展開</span></div>
+      <div class="small" style="margin-top:4px">5 項：體重減輕、疲憊感、活動量低、步行變慢、握力下降</div>
+      <div class="body"><b>分級：</b>0 = robust；1–2 = pre-frail；≥3 = frail<br><b>使用時機：</b>本研究 1–3 分制與此三分類對應最接近</div>
+    </div>
+
+    <div class="acc"><div class="top" style="display:flex;justify-content:space-between;gap:8px">
+      <span class="name" style="font-size:13.5px;font-weight:600;color:var(--navy)">FRAIL scale</span>
+      <span class="tag t-neu">展開</span></div>
+      <div class="small" style="margin-top:4px">Fatigue、Resistance、Ambulation、Illnesses、Loss of weight</div>
+      <div class="body"><b>分級：</b>0 = robust；1–2 = pre-frail；3–5 = frail<br><b>使用時機：</b>問卷式，門診 2 分鐘可完成</div>
+    </div>
+
+    <div class="acc"><div class="top" style="display:flex;justify-content:space-between;gap:8px">
+      <span class="name" style="font-size:13.5px;font-weight:600;color:var(--navy)">Clinical Frailty Scale (CFS)</span>
+      <span class="tag t-neu">展開</span></div>
+      <div class="small" style="margin-top:4px">依整體功能與依賴程度的 9 級量表</div>
+      <div class="body"><b>分級：</b>1–3 健壯～管理良好；4 vulnerable；≥5 frail<br><b>使用時機：</b>ICU 與 TAVI / TEER 術前風險溝通常用</div>
+    </div>
+
+    <div class="acc"><div class="top" style="display:flex;justify-content:space-between;gap:8px">
+      <span class="name" style="font-size:13.5px;font-weight:600;color:var(--navy)">SPPB</span>
+      <span class="tag t-neu">展開</span></div>
+      <div class="small" style="margin-top:4px">平衡、4-m 步行、5 次起立坐下</div>
+      <div class="body"><b>分級：</b>0–12 分，≤8 分提示功能受限<br><b>使用時機：</b>比單一 gait speed 更少天花板效應</div>
+    </div>
+
+    <div class="acc"><div class="top" style="display:flex;justify-content:space-between;gap:8px">
+      <span class="name" style="font-size:13.5px;font-weight:600;color:var(--navy)">AWGS 2019（肌少症）</span>
+      <span class="tag t-neu">展開</span></div>
+      <div class="small" style="margin-top:4px">握力 + 步速 + 肌肉量</div>
+      <div class="body"><b>分級：</b>握力男 &lt;28 kg / 女 &lt;18 kg；步速 &lt;1.0 m/s<br><b>使用時機：</b>亞洲族群切點，與本研究握力數字可對照</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>為什麼 2.5-m gait speed 沒有動？</h2>
+    <p>把秒數換算成速度：<span class="en">2.5 m ÷ 2.05 s ≈ <b>1.22 m/s</b></span>，6 個月後 <span class="en">2.5 ÷ 1.99 ≈ <b>1.26 m/s</b></span>。</p>
+    <ul>
+      <li>兩個時間點都<b>遠優於 AWGS 的 1.0 m/s 切點</b>——這群病人步速本來就不慢，改善空間有限。</li>
+      <li>2.5 m 的距離太短，起步與減速佔比高，<b>測量誤差相對於真實變化太大</b>。</li>
+      <li>建議替代方案：<b>4-m gait speed、SPPB、6MWT</b>，或直接看 peak VO₂。</li>
+    </ul>
+    <div class="ok">
+      臨床啟示：<b>選錯測量工具會讓有效的介入看起來無效</b>。設計本院 PROM 或復健成效追蹤時，要先確認量表在自己的族群裡有沒有天花板／地板效應。
+    </div>
+  </div>
+</section>
+
+<!-- ===== 臨床應用 ===== -->
+<section id="cl" hidden>
+  <div class="card">
+    <h2>帶回病房可以做什麼</h2>
+    <h3>住院期（inpatient-initiated）</h3>
+    <ul>
+      <li>心衰竭住院<b>穩定後即開始</b>低強度活動：床邊坐立、行走、彈力帶阻抗訓練，而非等到出院。</li>
+      <li>入院時同步記錄 <b>baseline 握力 + frailty 分級</b>，作為出院規劃與再住院風險溝通的依據。</li>
+      <li>ICU 病人可套用 early mobilization 的分級啟動原則，由 RT／PT／護理共同執行。</li>
+    </ul>
+    <h3>出院銜接（transition）</h3>
+    <ul>
+      <li>出院前完成<b>居家運動處方 + 家屬教學 + 追蹤時程</b>，這是本研究設計的核心，也是實務上最常斷掉的一段。</li>
+      <li>台灣現行心臟復健多以門診 Phase II 為主，銜接率是關鍵瓶頸；可思考以遠距或電話追蹤補位。</li>
+      <li>安全門檻：<b>急性代償未穩定、症狀性低血壓、未控制心律不整、活動性缺血</b>時延後啟動。</li>
+    </ul>
+    <h3>可以拿來做院內研究的缺口</h3>
+    <ul>
+      <li>本研究未報告的：<b>依從性、不良事件、HFrEF/HFpEF 分層、GDMT optimization 的貢獻</b>。</li>
+      <li>本院若已有 PROM 資料庫，可加入 <b>frailty 分級 + 握力</b> 作為常規欄位，建立本土對照。</li>
+      <li>建議 outcome 用<b>分類轉移比例</b>（pre-frail → not frail 的百分比）而非只報平均差。</li>
+    </ul>
+    <div class="note">
+      討論用問題：在我們的病房，<b>誰</b>負責啟動住院期運動訓練？如果沒有明確 owner，這個介入就無法複製。
+    </div>
+  </div>
+</section>
+
+<!-- ===== 測驗 ===== -->
+<section id="qz" hidden>
+  <div class="card" id="quizCard">
+    <h2>自我測驗</h2>
+    <div class="qprog"><i id="qbar"></i></div>
+    <div class="small" id="qcount"></div>
+    <p style="font-weight:600;margin:10px 0 12px" id="qtext"></p>
+    <div id="qopts"></div>
+    <div id="qexpl"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="sig">讀書會共筆整理人</div>
+  <div class="sig">謝慕揚 醫師　MD, PhD, FESC</div>
+  <div class="gold">結構性心臟病與介入心臟學 · 重症醫學</div>
+  <hr>
+  <div>· 本內容為讀書會共筆整理，未必涵蓋所有相關文獻</div>
+  <div>· 僅供學術與教育用途，不代表任何單位之官方立場</div>
+  <div>· 本內容未涉及任何利益衝突</div>
+  <hr>
+  <div style="opacity:.75">資料來源：Kyung-Hee Kim, Jin Wi. Inpatient-Initiated and Home-Based Exercise Training Reduces Heart Failure Hospitalization and Reverses Frailty: A Prospective Randomized Study. Abstract 89149（congress poster）。所有數值依海報所載，peak VO₂ 與 hospitalisation 為質性描述；截至整理時未檢索到對應全文發表，效果量請以正式論文為準。</div>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  /* ---- 分頁 ---- */
+  var nav = document.getElementById('nav');
+  var btns = nav.getElementsByTagName('button');
+  function show(id){
+    for(var i=0;i<btns.length;i++){
+      var t = btns[i].getAttribute('data-t');
+      btns[i].className = (t===id) ? 'on' : '';
+      document.getElementById(t).hidden = (t!==id);
+    }
+    window.scrollTo(0,0);
+  }
+  nav.addEventListener('click', function(e){
+    var b = e.target.closest ? e.target.closest('button') : null;
+    if(b && b.getAttribute('data-t')) show(b.getAttribute('data-t'));
+  });
+
+  /* ---- 手風琴 ---- */
+  var accs = document.getElementsByClassName('acc');
+  for(var i=0;i<accs.length;i++){
+    (function(el){
+      el.addEventListener('click', function(){
+        var open = el.className.indexOf('open') > -1;
+        el.className = open ? 'acc' : 'acc open';
+        var tag = el.querySelector('.tag');
+        if(tag) tag.textContent = open ? '展開' : '收合';
+      });
+    })(accs[i]);
+  }
+
+  /* ---- 測驗 ---- */
+  var QUIZ = [
+    {q:'本研究的 primary clinical endpoint 是什麼？',
+     o:['6 個月的握力變化','6 個月的 HF-related hospitalisation','6 個月的 peak VO₂','6 個月的 K-MMSE 變化'],
+     c:1,
+     e:'Primary endpoint 為 6 個月內的 heart failure-related hospitalisation。握力、gait speed、frailty status、peak VO₂、K-MMSE 皆為功能性與認知面向的次要評估。'},
+    {q:'海報上「+3.07 kg, p = 0.013」這個握力數字，正確的解讀是？',
+     o:['運動組比對照組多 3.07 kg，具統計顯著','運動組自身 6 個月內的 paired change，非組間比較','對照組下降 3.07 kg','兩組差異的 95% CI 為 3.07'],
+     c:1,
+     e:'這是運動組 n = 50 的 within-arm paired analysis（baseline → 6 months）。對照組握力在海報上標示為 Not reported，因此無法據此宣稱組間差異。這是海報型資料最常被過度解讀的地方。'},
+    {q:'2.5-m gait speed 的 p = 0.737，最可能的原因是？',
+     o:['運動訓練對步態一定無效','基線步速已接近正常，存在天花板效應且距離過短、變化幅度小','測量錯誤','樣本數太大'],
+     c:1,
+     e:'2.05 秒 ÷ 2.5 m ≈ 1.22 m/s，已優於 AWGS 的 1.0 m/s 切點；短距離 (2.5 m) 測量對小幅改善的鑑別力低。這是 measurement ceiling 而非單純「無效」，但在 abstract 階段也不能反過來宣稱有效。'},
+    {q:'關於 K-MMSE 增加 0.81 分，下列敘述何者最適當？',
+     o:['代表認知功能顯著臨床改善，可作為運動處方的主要理由','統計上顯著但幅度小於一般 MCID，且無 blinding 與學習效應校正，應保守解讀','證實運動可預防失智','可取代正式神經心理學評估'],
+     c:1,
+     e:'基線 27.98/30 已近天花板，+0.81 分低於文獻常用的 MMSE MCID（約 1.4–3 分），且重複施測本身有 practice effect。統計顯著 ≠ 臨床顯著。'},
+    {q:'依海報資訊，最恰當的 take home 說法是？',
+     o:['已證實住院啟動的運動訓練可降低死亡率','此為 congress abstract 階段的小型 RCT，訊號一致但需等全文與組間效果量','應立即改寫指引','結果為 neutral trial，不需採用'],
+     c:1,
+     e:'n = 100 單中心、open-label、abstract-only，primary endpoint 僅提供 p = 0.01 而無 HR 與 95% CI。方向與現有 cardiac rehabilitation 證據一致，可支持「早期啟動、銜接居家」的臨床作法，但不宜當作 practice-changing evidence 引用。'},
+    {q:'把這個概念落地到病房，最務實的第一步是？',
+     o:['等病人出院後再轉介門診心臟復健','住院期間即由 HF team 啟動低強度阻抗與行走訓練，並在出院前銜接居家方案','只做衛教單張','所有病人一律使用 CPET 才能開始運動'],
+     c:1,
+     e:'本研究的核心設計是 inpatient-initiated → home-based 的連續性。臨床上最容易斷掉的環節就是出院後的 transition，出院前完成銜接（含家屬教學與追蹤時程）比追加評估工具更關鍵。'}
+  ];
+
+  var idx=0, score=0, answered=false;
+  var elCount=document.getElementById('qcount'), elText=document.getElementById('qtext'),
+      elOpts=document.getElementById('qopts'), elExpl=document.getElementById('qexpl'),
+      elBar=document.getElementById('qbar');
+
+  function render(){
+    var q = QUIZ[idx];
+    answered = false;
+    elBar.style.width = (idx/QUIZ.length*100)+'%';
+    elCount.textContent = '第 '+(idx+1)+' 題 / 共 '+QUIZ.length+' 題';
+    elText.textContent = q.q;
+    elOpts.innerHTML = '';
+    elExpl.innerHTML = '';
+    for(var k=0;k<q.o.length;k++){
+      (function(k){
+        var b = document.createElement('button');
+        b.className = 'opt';
+        b.textContent = String.fromCharCode(65+k)+'. '+q.o[k];
+        b.onclick = function(){ answer(k); };
+        elOpts.appendChild(b);
+      })(k);
+    }
+  }
+
+  function answer(k){
+    if(answered) return;
+    answered = true;
+    var q = QUIZ[idx];
+    var opts = elOpts.getElementsByTagName('button');
+    for(var i=0;i<opts.length;i++){
+      if(i===q.c) opts[i].className = 'opt correct';
+      else if(i===k) opts[i].className = 'opt wrong';
+    }
+    if(k===q.c) score++;
+    var d = document.createElement('div');
+    d.className = 'expl';
+    var h = document.createElement('b');
+    h.style.color = (k===q.c) ? 'var(--success)' : 'var(--accent)';
+    h.textContent = (k===q.c) ? '✅ 正確' : '❌ 再看一次';
+    var p = document.createElement('p');
+    p.style.margin = '6px 0 0';
+    p.textContent = q.e;
+    var nb = document.createElement('button');
+    nb.className = 'nextbtn';
+    nb.textContent = (idx < QUIZ.length-1) ? '下一題' : '查看結果';
+    nb.onclick = function(){
+      if(idx < QUIZ.length-1){ idx++; render(); } else { finish(); }
+    };
+    d.appendChild(h); d.appendChild(p); d.appendChild(nb);
+    elExpl.innerHTML = '';
+    elExpl.appendChild(d);
+  }
+
+  function finish(){
+    var msg = score>=5 ? '判讀觀念清楚，可以直接帶讀書會。'
+            : score>=3 ? '方向正確，建議再看一次「判讀重點」分頁。'
+            : '建議從 Take Home 與判讀分頁重讀一次。';
+    var c = document.getElementById('quizCard');
+    c.innerHTML = '<h2>測驗結果</h2>'+
+      '<div style="text-align:center"><div style="font-size:42px;font-weight:700;color:var(--navy)">'+
+      score+'<span style="font-size:20px;color:var(--muted)"> / '+QUIZ.length+'</span></div>'+
+      '<p class="small">'+msg+'</p>'+
+      '<button class="nextbtn" id="again">重新測驗</button></div>';
+    document.getElementById('again').onclick = function(){
+      idx=0; score=0;
+      c.innerHTML = '<h2>自我測驗</h2><div class="qprog"><i id="qbar"></i></div>'+
+        '<div class="small" id="qcount"></div><p style="font-weight:600;margin:10px 0 12px" id="qtext"></p>'+
+        '<div id="qopts"></div><div id="qexpl"></div>';
+      elCount=document.getElementById('qcount'); elText=document.getElementById('qtext');
+      elOpts=document.getElementById('qopts'); elExpl=document.getElementById('qexpl');
+      elBar=document.getElementById('qbar');
+      render();
+    };
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

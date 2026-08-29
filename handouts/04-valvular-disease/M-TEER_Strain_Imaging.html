@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>M-TEER 後的 Strain Imaging 實作教學</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#c0392b; --accent-light:#e74c3c;
+  --success:#27ae60; --warning:#f39c12; --info:#2980b9;
+  --bg-cream:#faf8f5; --bg-card:#ffffff; --text-dark:#2c3e50; --text-muted:#7f8c8d;
+  --border:#e6e9ec; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+:root.dark-theme{
+  --bg-cream:#141b26; --bg-card:#1c2634; --text-dark:#e8eaed; --text-muted:#9aa5b1;
+  --border:#2d3748; --shadow:0 4px 20px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;font-family:'Noto Sans TC',system-ui,-apple-system,sans-serif;
+  background:var(--bg-cream);color:var(--text-dark);line-height:1.75;font-size:15.5px;}
+#root{max-width:820px;margin:0 auto;}
+.app{padding:0 14px 96px;padding-bottom:calc(96px + env(safe-area-inset-bottom));}
+
+/* Header */
+.hdr{background:linear-gradient(135deg,var(--primary),var(--primary-light));
+  color:#fff;margin:0 -14px 16px;padding:20px 18px 18px;border-radius:0 0 20px 20px;}
+.hdr .tag{display:inline-block;background:rgba(255,255,255,.18);padding:3px 10px;
+  border-radius:20px;font-size:11.5px;letter-spacing:.4px;margin-bottom:8px;}
+.hdr h1{margin:0 0 4px;font-size:20px;font-weight:700;line-height:1.4;}
+.hdr p{margin:0;font-size:12.5px;opacity:.88;}
+.theme-btn{position:absolute;right:20px;top:20px;background:rgba(255,255,255,.2);border:0;
+  color:#fff;width:36px;height:36px;border-radius:50%;font-size:16px;cursor:pointer;}
+.hdr-wrap{position:relative;}
+
+/* Nav */
+.nav{position:fixed;bottom:0;left:0;right:0;background:var(--bg-card);border-top:1px solid var(--border);
+  display:flex;justify-content:space-around;padding:6px 2px calc(6px + env(safe-area-inset-bottom));
+  z-index:50;box-shadow:0 -2px 14px rgba(0,0,0,.06);}
+.nav button{flex:1;background:none;border:0;color:var(--text-muted);font-size:10.5px;
+  font-family:inherit;padding:6px 2px;min-height:48px;cursor:pointer;display:flex;
+  flex-direction:column;align-items:center;gap:3px;border-radius:10px;}
+.nav button.on{color:var(--accent);font-weight:600;background:rgba(192,57,43,.07);}
+.nav .ico{font-size:17px;line-height:1;}
+
+/* Cards */
+.card{background:var(--bg-card);border-radius:14px;padding:16px;margin-bottom:14px;
+  box-shadow:var(--shadow);border:1px solid var(--border);}
+.card h2{margin:0 0 10px;font-size:17px;color:var(--primary);font-weight:700;
+  display:flex;align-items:center;gap:8px;}
+:root.dark-theme .card h2{color:#7fb2e8;}
+.card h3{margin:16px 0 8px;font-size:15px;color:var(--accent);font-weight:600;}
+.card p{margin:0 0 10px;}
+.sub{font-size:12.5px;color:var(--text-muted);margin-top:-4px;margin-bottom:12px;}
+
+.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:6px;
+  background:var(--border);color:var(--text-dark);margin-right:6px;font-weight:500;}
+.badge.red{background:rgba(192,57,43,.12);color:var(--accent);}
+.badge.green{background:rgba(39,174,96,.14);color:var(--success);}
+.badge.blue{background:rgba(41,128,185,.14);color:var(--info);}
+.badge.amber{background:rgba(243,156,18,.16);color:#b9770e;}
+
+.kv{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px dashed var(--border);font-size:14px;}
+.kv:last-child{border-bottom:0;}
+.kv b{font-weight:600;color:var(--primary);white-space:nowrap;}
+:root.dark-theme .kv b{color:#7fb2e8;}
+
+.note{border-left:4px solid var(--info);background:rgba(41,128,185,.07);
+  padding:10px 12px;border-radius:0 10px 10px 0;margin:12px 0;font-size:13.8px;}
+.warn{border-left:4px solid var(--warning);background:rgba(243,156,18,.09);
+  padding:10px 12px;border-radius:0 10px 10px 0;margin:12px 0;font-size:13.8px;}
+.danger{border-left:4px solid var(--accent);background:rgba(192,57,43,.07);
+  padding:10px 12px;border-radius:0 10px 10px 0;margin:12px 0;font-size:13.8px;}
+.note b,.warn b,.danger b{display:block;margin-bottom:3px;}
+
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0 4px;}
+th,td{padding:7px 6px;text-align:right;border-bottom:1px solid var(--border);}
+th:first-child,td:first-child{text-align:left;}
+th{background:rgba(30,58,95,.06);color:var(--primary);font-weight:600;font-size:12.5px;}
+:root.dark-theme th{background:rgba(127,178,232,.12);color:#7fb2e8;}
+.tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+td.num{font-variant-numeric:tabular-nums;}
+
+/* Steps */
+.step{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid var(--border);}
+.step:last-child{border-bottom:0;}
+.step .n{flex:0 0 26px;height:26px;border-radius:50%;background:var(--primary);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;margin-top:2px;}
+.step .b{flex:1;}
+.step .b strong{display:block;font-size:14.5px;margin-bottom:2px;}
+.step .b span{font-size:13.5px;color:var(--text-muted);display:block;}
+
+/* Checklist */
+.ck{display:flex;align-items:flex-start;gap:11px;padding:11px 12px;margin-bottom:8px;
+  background:var(--bg-cream);border:1px solid var(--border);border-radius:11px;
+  min-height:48px;cursor:pointer;transition:.15s;font-size:14px;}
+.ck.on{background:rgba(39,174,96,.1);border-color:rgba(39,174,96,.4);}
+.ck .box{flex:0 0 21px;height:21px;border:2px solid var(--text-muted);border-radius:6px;
+  display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;margin-top:1px;}
+.ck.on .box{background:var(--success);border-color:var(--success);}
+.prog{height:7px;background:var(--border);border-radius:99px;overflow:hidden;margin:6px 0 14px;}
+.prog i{display:block;height:100%;background:var(--success);transition:.3s;}
+
+/* Accordion */
+.acc{border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden;background:var(--bg-card);}
+.acc>button{width:100%;text-align:left;background:none;border:0;font-family:inherit;
+  font-size:14.5px;font-weight:600;color:var(--text-dark);padding:13px 14px;min-height:48px;
+  display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer;}
+.acc .body{padding:0 14px 14px;font-size:14px;border-top:1px solid var(--border);padding-top:12px;}
+.acc .arrow{color:var(--accent);font-size:13px;}
+
+ul.tight{margin:6px 0 6px 2px;padding-left:18px;}
+ul.tight li{margin-bottom:6px;font-size:14px;}
+.en{color:var(--text-muted);font-size:.92em;}
+
+/* Quiz */
+.opt{display:block;width:100%;text-align:left;padding:12px 14px;margin-bottom:8px;
+  background:var(--bg-cream);border:1.5px solid var(--border);border-radius:11px;
+  font-family:inherit;font-size:14px;color:var(--text-dark);min-height:48px;cursor:pointer;}
+.opt.correct{background:rgba(39,174,96,.14);border-color:var(--success);}
+.opt.wrong{background:rgba(192,57,43,.1);border-color:var(--accent);}
+.btn{background:var(--primary);color:#fff;border:0;border-radius:11px;padding:12px 18px;
+  font-family:inherit;font-size:14.5px;font-weight:600;min-height:48px;cursor:pointer;width:100%;}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent);}
+
+svg{max-width:100%;height:auto;display:block;}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--text-muted);margin-top:8px;}
+.legend i{width:11px;height:11px;border-radius:3px;display:inline-block;margin-right:4px;vertical-align:-1px;}
+.foot{font-size:12px;color:var(--text-muted);text-align:center;padding:8px 4px 0;line-height:1.9;}
+.foot b{color:var(--text-dark);display:block;font-size:13px;}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState,useEffect} = React;
+
+/* ============ 資料 ============ */
+
+const NAV = [
+  {id:'home', ico:'🏠', label:'Take Home'},
+  {id:'why',  ico:'📈', label:'為什麼做'},
+  {id:'how',  ico:'🎯', label:'怎麼做'},
+  {id:'pit',  ico:'⚠️', label:'陷阱'},
+  {id:'data', ico:'📊', label:'本研究'},
+  {id:'quiz', ico:'✏️', label:'測驗'},
+];
+
+const NORMALS = [
+  ['LV GLS', '≈ −20%（−16 ~ −22%）', '絕對值 <16% 為異常；報告請帶負號'],
+  ['LA reservoir strain (LARS)', '≈ 35–40%', '<23% 明顯異常；<18% 屬嚴重受損'],
+  ['LA conduit (LAScd)', '≈ −18 ~ −22%（負值）', 'R-R gating 下為負向段'],
+  ['LA contractile (LASct)', '≈ −14 ~ −17%（負值）', 'AF 病人不存在此段'],
+  ['RV free wall strain (RV-FWS)', '絕對值 >20%', '<17% 為異常；勿把 septum 算進去'],
+  ['LAVI', '<34 mL/m²', '本研究 baseline 55 ± 14，屬重度擴大'],
+];
+
+const T3 = [
+  ['LVEF, %','42 ± 11','43 ± 10','43 ± 10','0.41'],
+  ['LVEDV, mL','182 ± 48','170 ± 45','165 ± 43','<0.001'],
+  ['LVESV, mL','104 ± 39','98 ± 35','94 ± 36','<0.001'],
+  ['LAVI, mL/m²','55 ± 14','49 ± 13','46 ± 12','<0.001'],
+  ['PASP, mmHg','48 ± 12','41 ± 11','38 ± 10','<0.001'],
+  ['LV GLS, %','−11.8 ± 3.2','−13.6 ± 3.1','−14.1 ± 3.3','<0.001'],
+  ['RV-FWS, %','−15.4 ± 4.1','−17.1 ± 4.0','−18.2 ± 4.3','<0.001'],
+  ['LARS, %','13.2 ± 5.1','18.6 ± 5.4','21.1 ± 5.9','<0.001'],
+];
+
+const T4 = [
+  ['ΔLV GLS vs NYHA improvement','0.42 (0.24–0.58)','<0.001'],
+  ['ΔLV GLS vs ΔKCCQ-OS','0.39 (0.20–0.55)','<0.001'],
+  ['ΔLARS vs NYHA improvement','0.48 (0.31–0.62)','<0.001'],
+  ['ΔLARS vs ΔKCCQ-OS','0.51 (0.34–0.65)','<0.001'],
+  ['ΔRV-FWS vs NYHA improvement','0.34 (0.15–0.51)','0.001'],
+  ['ΔRV-FWS vs ΔKCCQ-OS','0.36 (0.17–0.52)','<0.001'],
+  ['ΔLV GLS → ΔKCCQ-OS','2.6','0.002'],
+  ['ΔLARS → ΔKCCQ-OS','1.9','<0.001'],
+  ['ΔRV-FWS → ΔKCCQ-OS','1.5','0.002'],
+];
+
+const T1 = [
+  ['Age, years','73 (67–78)','75 (69–80)','71 (66–77)','0.048'],
+  ['Female, n (%)','41 (44.6)','14 (50.0)','27 (42.2)','0.48'],
+  ['Diabetes mellitus','31 (33.7)','5 (17.9)','26 (40.6)','0.03'],
+  ['AF / flutter','48 (52.2)','17 (60.7)','31 (48.4)','0.27'],
+  ['Prior MI','29 (31.5)','4 (14.3)','25 (39.1)','0.02'],
+  ['NYHA IV','68 (73.9)','19 (67.9)','49 (76.6)','0.38'],
+  ['NT-proBNP, pg/mL','2560 (1600–4300)','1950 (1300–3100)','2920 (1900–4850)','0.02'],
+  ['EuroSCORE II, %','5.7 (3.9–8.0)','4.9 (3.3–6.9)','6.2 (4.4–8.5)','0.03'],
+  ['MR grade 4+','56 (60.9)','17 (60.7)','39 (60.9)','0.98'],
+  ['EROA, mm²','42 ± 12','45 ± 13','40 ± 11','0.047'],
+  ['LVEF, %','42 ± 11','51 ± 8','38 ± 10','<0.001'],
+  ['LAVI, mL/m²','55 ± 14','47 ± 12','59 ± 14','<0.001'],
+  ['TAPSE, mm','17.6 ± 3.4','19.6 ± 3.2','16.8 ± 3.2','<0.001'],
+  ['PASP, mmHg','48 ± 12','40 ± 10','52 ± 12','<0.001'],
+];
+
+const QUIZ = [
+  {q:'測量 LA strain 時，EACVI/ASE/Industry Task Force 建議的 zero-reference（歸零點）是？',
+   o:['P 波起點（P-P gating）','R 波上升支（R-R gating）','二尖瓣開啟時刻','主動脈瓣關閉時刻 (AVC)'],
+   c:1, e:'共識建議以 R 波上升支為 zero reference（R-R gating），在各種節律（含 AF）下一致性與再現性較佳。P-P gating 雖能更貼近心房收縮，但需要乾淨的 P 波，AF 病人不適用。'},
+  {q:'替一位 M-TEER 術後、LAVI 55 mL/m² 的病人量 LARS，最常見的技術錯誤是？',
+   o:['直接沿用測 LV GLS 的 apical 4C 影像','frame rate 設太高','使用同一台機器追蹤','屏氣在吐氣末'],
+   c:0, e:'LV-focused 的 apical view 為了把心尖放好，常把擴大的 LA 切掉或 foreshorten。LA strain 必須另外抓 LA-focused apical 4C 與 2C（加大深度／調整角度讓整個 LA 入鏡），否則 LARS 會被系統性低估。'},
+  {q:'關於 RV free wall strain (RV-FWS) 的節段選取，正確的是？',
+   o:['取 RV 游離壁 + interventricular septum 共 6 節段平均','只取 RV 游離壁 basal / mid / apical 3 節段',
+       '只取 basal 節段','取 RV 游離壁 + RA 側壁'],
+   c:1, e:'RV-FWS 只平均游離壁的 basal、mid、apical 三個節段。若把 septum 一起平均即為 RV global longitudinal strain，兩者數值不同、正常值也不同，報告必須註明用的是哪一個。'},
+  {q:'本次 ESC 2026 報告中，1 年 LVEF 由 42% → 43%（p trend = 0.41），但 LV GLS 由 −11.8% → −14.1%（p<0.001）。最合理的解讀是？',
+   o:['GLS 一定是量錯了','LVEF 對 MR 矯正後的心肌功能變化較不敏感','病人心肌其實惡化','兩個參數必須一致才可信'],
+   c:1, e:'MR 減少後 preload 下降、afterload 上升，LVEF 常「看起來沒進步」甚至下降；GLS 為較敏感的長軸收縮指標，能偵測到 EF 抓不到的 chamber-level recovery。這正是強調 deformation imaging 的核心論點。'},
+  {q:'一位 permanent AF 病人要做 serial strain 追蹤，最合適的做法是？',
+   o:['只取一個 beat，選 RR 最長的','平均至少 3–5 個心跳（或用 index-beat 法：前一個 RR ≈ 前前一個 RR）',
+       '改用 3D EF 取代 strain','等轉為 sinus rhythm 再測'],
+   c:1, e:'AF 因 beat-to-beat 變異大，建議平均 ≥3–5 個連續心跳，或採 index-beat 法挑選 RR 前後相近的心跳。另外 AF 病人沒有 LASct（心房收縮期），只報 LASr（與 LAScd）。'},
+  {q:'關於 serial strain 追蹤的品質控管，下列何者最重要？',
+   o:['每次可換不同廠牌機器以互相驗證','baseline 與追蹤使用同一廠牌、同版本軟體、盡量同一操作者',
+       '只要 LVEF 一致即可','只要影像清楚，廠牌不重要'],
+   c:1, e:'不同廠牌／版本之間 GLS 與 LA strain 存在系統性差異（LA strain 絕對值差可達 2–4%）。序列比較必須固定平台與軟體版本，否則「進步」可能只是換機器造成的假象。'},
+  {q:'本研究（單中心 92 例、無對照組）Table 4 顯示 ΔLARS 與 ΔKCCQ-OS 相關（0.51, p<0.001）。最恰當的結論是？',
+   o:['證明 LARS 改善「導致」症狀改善','兩者存在關聯，但無法推論因果',
+       '可用來取代 KCCQ 問卷','代表 M-TEER 優於藥物治療'],
+   c:1, e:'這是單臂觀察性研究，只能說 association。投影片上這幾個 effect estimate 也未標示單位（相關係數 vs 迴歸係數），引用前應回查全文。要談因果或與 GDMT 比較，需要 randomized 設計。'},
+  {q:'M-TEER 術後做 strain，下列哪一項是這個族群「特有」的技術陷阱？',
+   o:['clip 造成的 acoustic shadow / dropout 影響基部節段追蹤','需要屏氣','需要好的 ECG 訊號','需要足夠 frame rate'],
+   c:0, e:'clip 的金屬回音與 shadowing 常干擾 basal inferoseptal / anterolateral 節段的 speckle tracking；此外 transseptal 後的 iASD 會改變 RV 負荷、殘餘 MR 與 iatrogenic MS 也會改變 loading，判讀時都要一併記錄。'},
+];
+
+const CK_ITEMS = [
+  {id:'c1', t:'影像已用高 frame rate 擷取（40–80 fps；frame rate ÷ heart rate ≈ 0.7–0.9）'},
+  {id:'c2', t:'ECG 訊號乾淨、R 波可辨識，無干擾雜訊'},
+  {id:'c3', t:'吐氣末屏氣，影像無明顯 translational motion'},
+  {id:'c4', t:'apical views 無 foreshortening（LV 長軸取到最長）'},
+  {id:'c5', t:'LA strain 使用另外擷取的 LA-focused 4C / 2C（非沿用 LV view）'},
+  {id:'c6', t:'RV-FWS 使用 RV-focused apical 4C，只取游離壁 3 節段'},
+  {id:'c7', t:'sinus rhythm 存 3 個心跳；AF 存 ≥5 個心跳供平均'},
+  {id:'c8', t:'ROI 寬度貼合心肌厚度；LA 用薄 ROI，並排除 LAA 與肺靜脈開口'},
+  {id:'c9', t:'GLS 已用 APLAX 的 AVC timing 定義 end-systole'},
+  {id:'c10',t:'逐節段目視確認追蹤品質，剔除追蹤不良節段（單一 view >2 節段失敗則整段捨棄）'},
+  {id:'c11',t:'與 baseline 使用相同廠牌、相同軟體版本'},
+  {id:'c12',t:'同步記錄殘餘 MR grade、mean transmitral gradient、心律、血壓'},
+];
+
+/* ============ 小元件 ============ */
+
+const Acc = ({title, badge, children, open0}) => {
+  const [o,setO] = useState(!!open0);
+  return (
+    <div className="acc">
+      <button onClick={()=>setO(!o)}>
+        <span>{title} {badge && <span className={'badge '+badge.c}>{badge.t}</span>}</span>
+        <span className="arrow">{o?'▲':'▼'}</span>
+      </button>
+      {o && <div className="body">{children}</div>}
+    </div>
+  );
+};
+
+const Steps = ({items}) => (
+  <div>{items.map((s,i)=>(
+    <div className="step" key={i}>
+      <div className="n">{i+1}</div>
+      <div className="b"><strong>{s[0]}</strong><span>{s[1]}</span></div>
+    </div>
+  ))}</div>
+);
+
+/* 堆疊長條圖 */
+const StackBar = ({title, cats, series, colors, labels}) => {
+  const W=320,H=180,pad=28,bw=52,gap=(W-pad-14-bw*cats.length)/(cats.length-1||1);
+  return (
+    <div>
+      <div style={{fontSize:'13.5px',fontWeight:600,marginBottom:'6px'}}>{title}</div>
+      <svg viewBox={`0 0 ${W} ${H}`}>
+        {[0,25,50,75,100].map(v=>(
+          <g key={v}>
+            <line x1={pad} x2={W-8} y1={H-24-(v/100)*(H-46)} y2={H-24-(v/100)*(H-46)}
+              stroke="var(--border)" strokeWidth="1" strokeDasharray="3 3"/>
+            <text x={pad-4} y={H-21-(v/100)*(H-46)} fontSize="8" fill="var(--text-muted)" textAnchor="end">{v}</text>
+          </g>
+        ))}
+        {cats.map((c,ci)=>{
+          let acc=0;
+          return (
+            <g key={ci}>
+              {series.map((s,si)=>{
+                const v=s[ci]; if(!v) return null;
+                const h=(v/100)*(H-46); const y=H-24-acc-h; acc+=h;
+                return (
+                  <g key={si}>
+                    <rect x={pad+6+ci*(bw+gap)} y={y} width={bw} height={h} fill={colors[si]} rx="2"/>
+                    {v>=8 && <text x={pad+6+ci*(bw+gap)+bw/2} y={y+h/2+3} fontSize="8.5"
+                      fill="#fff" textAnchor="middle" fontWeight="600">{v}%</text>}
+                  </g>
+                );
+              })}
+              <text x={pad+6+ci*(bw+gap)+bw/2} y={H-10} fontSize="9" fill="var(--text-muted)" textAnchor="middle">{c}</text>
+            </g>
+          );
+        })}
+      </svg>
+      <div className="legend">{labels.map((l,i)=>(
+        <span key={i}><i style={{background:colors[i]}}></i>{l}</span>))}
+      </div>
+    </div>
+  );
+};
+
+/* LA strain 曲線示意（R-R gating） */
+const LAStrainCurve = () => (
+  <div>
+    <svg viewBox="0 0 340 210">
+      <line x1="34" y1="150" x2="330" y2="150" stroke="var(--text-muted)" strokeWidth="1"/>
+      <line x1="34" y1="20" x2="34" y2="165" stroke="var(--text-muted)" strokeWidth="1"/>
+      <text x="30" y="153" fontSize="8" fill="var(--text-muted)" textAnchor="end">0</text>
+      <text x="30" y="45" fontSize="8" fill="var(--text-muted)" textAnchor="end">+40%</text>
+      <text x="8" y="95" fontSize="8.5" fill="var(--text-muted)" transform="rotate(-90 12,95)">LA strain (%)</text>
+      {/* ECG 示意 */}
+      <path d="M34 185 L60 185 L66 172 L72 198 L78 185 L150 185 L156 178 L162 185 L250 185 L256 172 L262 198 L268 185 L330 185"
+        fill="none" stroke="var(--text-muted)" strokeWidth="1.2" opacity=".65"/>
+      <text x="60" y="205" fontSize="8" fill="var(--text-muted)">R</text>
+      <text x="152" y="205" fontSize="8" fill="var(--text-muted)">P</text>
+      <text x="250" y="205" fontSize="8" fill="var(--text-muted)">R</text>
+      {/* strain 曲線 */}
+      <path d="M60 150 C80 120, 95 70, 118 55 C126 50, 132 52, 138 62 C144 72, 148 88, 156 96 C170 110, 190 118, 210 132 C225 142, 240 149, 262 150"
+        fill="none" stroke="var(--accent)" strokeWidth="2.6"/>
+      <circle cx="122" cy="54" r="3.5" fill="var(--accent)"/>
+      <circle cx="156" cy="96" r="3.5" fill="var(--info)"/>
+      {/* 標註 */}
+      <line x1="122" y1="54" x2="122" y2="150" stroke="var(--accent)" strokeWidth="1" strokeDasharray="3 3"/>
+      <text x="128" y="42" fontSize="9.5" fill="var(--accent)" fontWeight="700">LASr（reservoir）＝峰值</text>
+      <line x1="156" y1="96" x2="230" y2="96" stroke="var(--info)" strokeWidth="1" strokeDasharray="3 3"/>
+      <text x="176" y="88" fontSize="9" fill="var(--info)" fontWeight="600">心房收縮起點</text>
+      <text x="196" y="128" fontSize="9" fill="var(--text-muted)">LASct</text>
+      <text x="96" y="118" fontSize="9" fill="var(--text-muted)">LAScd</text>
+    </svg>
+    <div className="note" style={{marginTop:'4px'}}>
+      <b>R-R gating 下的三段</b>
+      LASr（reservoir，正值峰值）＝ |LAScd| ＋ |LASct|。本研究報告的 LARS 即為 reservoir strain。
+      AF 病人沒有心房收縮段，只報 LASr。
+    </div>
+  </div>
+);
+
+/* 17/18 節段 bullseye 示意 */
+const polar=(cx,cy,r,a)=>{const t=(a-90)*Math.PI/180;return [cx+r*Math.cos(t), cy+r*Math.sin(t)];};
+const sector=(cx,cy,r1,r2,a1,a2)=>{
+  const [x1,y1]=polar(cx,cy,r2,a2),[x2,y2]=polar(cx,cy,r2,a1),
+        [x3,y3]=polar(cx,cy,r1,a1),[x4,y4]=polar(cx,cy,r1,a2);
+  const lg=(a2-a1)<=180?0:1;
+  return `M${x1} ${y1} A${r2} ${r2} 0 ${lg} 0 ${x2} ${y2} L${x3} ${y3} A${r1} ${r1} 0 ${lg} 1 ${x4} ${y4} Z`;
+};
+const BullsEye = () => {
+  const cx=110,cy=110;
+  const rings=[[78,100,'#c0392b'],[52,78,'#e67e22'],[26,52,'#2980b9']];
+  const names=['basal','mid','apical'];
+  return (
+    <div>
+      <svg viewBox="0 0 220 220" style={{margin:'0 auto'}}>
+        {rings.map((r,ri)=>(
+          Array.from({length:6}).map((_,i)=>(
+            <path key={ri+'-'+i} d={sector(cx,cy,r[0],r[1],i*60,(i+1)*60)}
+              fill={r[2]} opacity={0.22+ri*0.14} stroke="var(--bg-card)" strokeWidth="2"/>
+          ))
+        ))}
+        <circle cx={cx} cy={cy} r="24" fill="#8e44ad" opacity=".3" stroke="var(--bg-card)" strokeWidth="2"/>
+        <text x={cx} y={cy+4} fontSize="10" textAnchor="middle" fill="var(--text-dark)">apex</text>
+        {rings.map((r,ri)=>(
+          <text key={ri} x={cx} y={cy-(r[0]+r[1])/2+4} fontSize="9.5" textAnchor="middle"
+            fill="var(--text-dark)" fontWeight="600">{names[ri]}</text>
+        ))}
+      </svg>
+      <div className="sub" style={{textAlign:'center'}}>
+        GLS 由 4C / 2C / APLAX 三個切面共 17–18 節段平均而得；任一切面若 &gt;2 節段追蹤失敗，該切面應捨棄重取。
+      </div>
+    </div>
+  );
+};
+
+/* ============ 頁面 ============ */
+
+const Home = () => (
+  <div>
+    <div className="card">
+      <h2>🎯 Take Home Message</h2>
+      <div className="danger">
+        <b>1. Strain 是 M-TEER 術後追蹤最敏感的功能指標</b>
+        本研究中 LVEF 從 baseline 到 1 年幾乎沒動（42% → 43%，p trend = 0.41），
+        但 LV GLS（−11.8% → −14.1%）、RV-FWS（−15.4% → −18.2%）、LARS（13.2% → 21.1%）都顯著改善（皆 p&lt;0.001）。
+        <b style={{marginTop:'8px'}}>EF 沒進步 ≠ 心肌沒進步。</b>
+      </div>
+      <div className="note">
+        <b>2. 三腔室一起看（multichamber）</b>
+        LV GLS＋LA reservoir strain（LARS）＋RV free wall strain（RV-FWS）三者同步改善，
+        代表 M-TEER 後的 reverse remodeling 不只發生在左心室。
+      </div>
+      <div className="note">
+        <b>3. Deformation 恢復與症狀／生活品質改善相關</b>
+        ΔLV GLS、ΔLARS、ΔRV-FWS 都與 1 年的 NYHA 改善及 ΔKCCQ-OS 相關（effect estimate 0.34–0.51，p ≤ 0.001）。
+        其中 <b style={{display:'inline'}}>ΔLARS 與 ΔKCCQ-OS 的關聯最強（0.51）</b>。
+      </div>
+      <div className="warn">
+        <b>4. 但這是單中心、單臂觀察性研究（n = 92）</b>
+        沒有對照組，只能談 association、不能談 causation。
+        投影片 Table 4 的 effect estimate 未標示單位（相關係數 vs 迴歸係數），引用數字前務必回查全文。
+      </div>
+      <div className="danger">
+        <b>5. 執行面才是勝負關鍵</b>
+        Strain 的臨床價值完全建立在「可重複性」上。
+        序列追蹤必須固定<b style={{display:'inline'}}>同一廠牌、同版本軟體</b>，LA 要用<b style={{display:'inline'}}>獨立擷取的 LA-focused view</b>，
+        RV 只取<b style={{display:'inline'}}>游離壁三節段</b>——做不到這幾點，1 年的「進步」可能只是測量誤差。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>📌 這份共筆的來源</h2>
+      <div className="kv"><span>會議</span><b>ESC Congress 2026, Munich（Science Box）</b></div>
+      <div className="kv"><span>講題</span><b>Atrial and ventricular strain remodeling after M-TEER</b></div>
+      <div className="kv"><span>報告者</span><b>Georgios E. Papadopoulos, MD, MSc, PhD(c)</b></div>
+      <div className="kv"><span>單位</span><b>Interbalkan Medical Center, Thessaloniki, Greece</b></div>
+      <div className="kv"><span>族群</span><b>MitraClip G4 M-TEER，2022/01–2025/01，n = 92</b></div>
+      <p className="sub" style={{marginTop:'10px'}}>
+        本頁為現場投影片整理，數值以拍攝之投影片為準；背景兩篇 COAPT 分析已另行以文獻交叉查核。
+      </p>
+    </div>
+  </div>
+);
+
+const Why = () => (
+  <div>
+    <div className="card">
+      <h2>📈 為什麼要在 TEER 病人做 strain？</h2>
+      <p>兩篇 COAPT 的 landmark 分析先鋪了路：<b>不是看 baseline，而是看「6 個月有沒有改善」</b>。</p>
+
+      <h3>① LV GLS：COAPT（JAHA 2023）</h3>
+      <ul className="tight">
+        <li>設計：LV GLS 於 <b>baseline 與 6 個月</b>測量，評估 6 個月的改善與其後 <b>6–24 個月</b> all-cause death or HFH 的關係（landmark analysis）。</li>
+        <li>結果：GLS improvers vs non-improvers ＝ <b>28.7% vs 41.5%</b>；<b>AdjHR 0.55 (95% CI 0.36–0.86)，p = 0.009</b>。</li>
+        <li>Number at risk：improvers 174 → 91；non-improvers 209 → 94。</li>
+      </ul>
+
+      <h3>② LA reservoir strain：COAPT（JACC Imaging 2024）</h3>
+      <ul className="tight">
+        <li>結果：LA strain improvers vs non-improvers ＝ <b>23.7% vs 38.6%</b>；<b>HR 0.58 (95% CI 0.36–0.93)，log-rank p = 0.02</b>。</li>
+        <li><b>重要 nuance</b>：該分析中 LA strain 改善帶來的較佳預後，在 <b>TEER 組與 GDMT-alone 組都成立</b>。
+          也就是說 LA strain 改善是<b>預後標記</b>，不是 TEER 專屬的療效指標。</li>
+      </ul>
+
+      <div className="warn">
+        <b>解讀時的方向確認</b>
+        這兩篇都是 COAPT 的 <b>post-hoc / landmark 次分析</b>，不是隨機分組的比較，
+        本身不能用來宣稱「把 strain 做好就會改善預後」。它們的價值是：
+        支持在 TEER 後<b>序列測量 strain</b> 具有風險分層意義。
+      </div>
+
+      <h3>③ 這場 ESC 2026 報告補了什麼？</h3>
+      <p>把 COAPT 的觀察延伸為 <b>real-world、三腔室、含 DMR 與 FMR</b> 的 1 年追蹤，
+      並把 deformation 的變化直接連到 <b>NYHA 與 KCCQ-OS</b> 這種病人真正感受得到的終點。</p>
+    </div>
+
+    <div className="card">
+      <h2>🧠 生理學：為什麼 MR 矯正後 GLS 反而會「進步」</h2>
+      <div className="note">
+        <b>負荷改變的方向是相反的</b>
+        MR 減少 → <b>preload ↓、effective afterload ↑</b>。單就負荷而言，這會讓 GLS 變差、EF 下降。
+        因此術後 GLS 仍然改善，較能支持是<b>真正的心肌功能恢復</b>，而非單純負荷效應。
+      </div>
+      <div className="warn">
+        <b>反過來也要小心</b>
+        Baseline 有嚴重 MR 時，volume overload 會讓 GLS 與 EF「看起來比較好」（假性正常化）。
+        所以 baseline strain 本身的解讀要保守，<b>Δ（變化量）比單一時間點更有意義</b>。
+      </div>
+      <p>LA 端也一樣：MR 減少 → LA 壓力與容積負荷下降 → LA 順應性與 reservoir 功能恢復 →
+      LARS 上升、LAVI 縮小（本研究 55 → 46 mL/m²）。</p>
+    </div>
+  </div>
+);
+
+const How = () => {
+  const [ck,setCk] = useState({});
+  useEffect(()=>{ try{const s=localStorage.getItem('mteer-strain-ck'); if(s) setCk(JSON.parse(s));}catch(e){} },[]);
+  useEffect(()=>{ try{localStorage.setItem('mteer-strain-ck',JSON.stringify(ck));}catch(e){} },[ck]);
+  const done = CK_ITEMS.filter(i=>ck[i.id]).length;
+
+  return (
+  <div>
+    <div className="card">
+      <h2>🎬 通用原則：影像擷取（所有 strain 共用）</h2>
+      <p className="sub">Speckle tracking 的品質 90% 決定在「按下 store 之前」。</p>
+      <Steps items={[
+        ['Frame rate 40–80 fps','建議 frame rate ÷ heart rate ≈ 0.7–0.9。太低會漏掉 peak、太高則 line density 下降、speckle 變差。心跳快時要往上調。'],
+        ['ECG 訊號必須乾淨','R 波是 LV 與 LA strain 的共同 zero reference；ECG 有雜訊 = 分段錯誤 = 數值全錯。'],
+        ['吐氣末屏氣、避免 translational motion','影像平移會讓 ROI 追到別的組織；請病人吐氣末停住 2–3 個心跳。'],
+        ['縮小深度、調整 sector 寬度','只要涵蓋目標腔室即可，縮小 sector 可換到更高 frame rate。'],
+        ['避免 foreshortening','apical view 要取到「最長」的心室長軸；縮短的心尖會系統性高估 GLS。'],
+        ['存夠心跳數','Sinus rhythm 存 3 個；AF 存 ≥5 個（或用 index-beat：前一個 RR ≈ 前前一個 RR）。'],
+        ['DICOM 原始影像保存','序列比較時常需要重新分析，僅存截圖無法回溯。'],
+      ]}/>
+    </div>
+
+    <div className="card">
+      <h2>🫀 LV GLS 實作步驟</h2>
+      <BullsEye/>
+      <Steps items={[
+        ['擷取三個 apical 切面','4-chamber、2-chamber、APLAX（3-chamber），同一次屏氣、同樣心律狀態下取得。'],
+        ['先在 APLAX 定義 AVC','以 PW/CW Doppler 抓 aortic valve closure，作為 end-systole 的時間點；讓軟體用同一個 AVC 套到三個切面。'],
+        ['描 endocardial border','在 end-systole 描（多數廠商預設），沿心內膜緣，包含乳突肌基部但不進入 trabeculation。'],
+        ['調整 ROI 寬度','ROI 要貼合心肌厚度，不可含入 pericardium 或 LV 腔內血液。薄壁區域要手動縮窄。'],
+        ['逐節段目視檢查追蹤','不要只看軟體給的綠燈。實際看 ROI 是否隨心肌移動；追蹤不良節段剔除。'],
+        ['品質門檻','單一切面若 >2 節段追蹤失敗，整個切面重取；GLS 至少需 17 節段可分析。'],
+        ['報告 GLS','以負值報告（例：GLS −14.1%）。同時註明廠牌與軟體版本。'],
+      ]}/>
+      <div className="warn">
+        <b>M-TEER 特別注意</b>
+        Clip 造成的回音與 shadowing 常落在 <b>basal inferoseptal / anterolateral</b> 節段，
+        這正是 4C 切面 GLS 的主要來源之一。這些節段若追蹤不良，寧可剔除也不要硬留。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>🫁 LA reservoir strain (LARS) 實作步驟</h2>
+      <LAStrainCurve/>
+      <Steps items={[
+        ['另外擷取 LA-focused apical 4C 與 2C','這是最常被跳過的一步。不要沿用 LV 的 apical view——為了對準心尖，LA 常被切掉或 foreshorten，LARS 會被低估。'],
+        ['加大深度、調整探頭角度','確保整個 LA 含 LA roof 都在扇形內；本族群 LAVI 平均 55 mL/m²，LA 很大。'],
+        ['使用 R-R gating（R 波上升支為 0）','EACVI/ASE/Industry Task Force 共識建議，在各種節律下一致性最佳。P-P gating 需乾淨 P 波，AF 不適用。'],
+        ['描 LA 心內膜緣','沿 LA 邊界描，在 mitral annulus 兩端跨過瓣環連成一線；LA 壁很薄，ROI 要調到最窄（約 3 mm）。'],
+        ['排除 LAA 與肺靜脈開口','這兩處沒有心房壁組織，納入會造成追蹤錯誤。'],
+        ['取 4C 與 2C 平均','報告 LASr（reservoir）為主要指標；有 sinus rhythm 才報 LAScd 與 LASct。'],
+        ['AF 病人','沒有 LASct；平均 ≥5 個心跳；報告要註明節律。'],
+      ]}/>
+      <div className="note">
+        <b>數值感覺</b>
+        正常 LARS ≈ 35–40%。本研究 baseline 13.2% → 1 年 21.1%，
+        <b>改善顯著，但距離正常仍很遠</b>——這點在跟病人與團隊溝通時要說清楚。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>💪 RV free wall strain (RV-FWS) 實作步驟</h2>
+      <Steps items={[
+        ['擷取 RV-focused apical 4C','旋轉／傾斜探頭讓 RV 最大化，但不能 foreshorten RV apex；這是獨立於標準 4C 的另一段影像。'],
+        ['同樣的 frame rate 與屏氣原則','40–80 fps，吐氣末屏氣。'],
+        ['描 RV 心內膜緣','從 tricuspid annulus 側壁 → apex → septum，讓軟體切成 6 節段。'],
+        ['只取游離壁 3 節段平均','basal / mid / apical free wall。這才是 RV-FWS。'],
+        ['不要把 septum 平均進去','含 septum 者為 RV global longitudinal strain，數值與正常值都不同，兩者不可混用。'],
+        ['報告時註明用的是哪一個','報告寫「RV free wall strain −18.2%」而非只寫「RV strain」。'],
+      ]}/>
+      <div className="warn">
+        <b>TEER 後的 RV 特殊性</b>
+        Transseptal puncture 後的 <b>iatrogenic ASD</b> 會增加 RV volume load；
+        同時 MR 減少後 PASP 下降（本研究 48 → 38 mmHg）又會減輕 RV afterload。
+        兩股力量方向相反，解讀 ΔRV-FWS 時應同時記錄 PASP 與有無殘餘 shunt。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>📅 序列追蹤 Protocol 建議</h2>
+      <div className="tbl-wrap"><table>
+        <thead><tr><th>時間點</th><th>目的</th><th>必測</th></tr></thead>
+        <tbody>
+          <tr><td>Baseline（術前）</td><td>基準值</td><td>LV GLS、LARS、RV-FWS、LVEF/EDV/ESV、LAVI、PASP、MR grade</td></tr>
+          <tr><td>30 天</td><td>早期 remodeling</td><td>同上 ＋ 殘餘 MR、mean transmitral gradient</td></tr>
+          <tr><td>1 年</td><td>持續恢復與風險分層</td><td>同上 ＋ NYHA、KCCQ-OS</td></tr>
+        </tbody>
+      </table></div>
+      <div className="danger">
+        <b>不要在術後 24–72 小時做「基準」strain</b>
+        急性期的容積轉移、麻醉／鎮靜影響、心律變動都會讓數值不穩定。
+        本研究採 30 天作為第一個追蹤點，是合理的臨床節奏。
+      </div>
+      <p style={{marginTop:'10px'}}><b>報告書寫範本：</b></p>
+      <div style={{background:'var(--bg-cream)',border:'1px solid var(--border)',borderRadius:'10px',
+        padding:'12px',fontSize:'13.5px',fontFamily:'monospace',lineHeight:'1.9'}}>
+        LV GLS −14.1% (GE EchoPAD v2xx, 18 segments, AVC from APLAX)<br/>
+        LA reservoir strain 21.1% (R-R gating, LA-focused 4C/2C, AF — LASct N/A)<br/>
+        RV free wall strain −18.2% (3 free-wall segments only)<br/>
+        Δ vs baseline: GLS +2.3, LARS +7.9, RV-FWS +2.8<br/>
+        Residual MR 1+, mean transmitral gradient 3 mmHg, PASP 38 mmHg
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>✅ 上機前 QC Checklist</h2>
+      <div className="prog"><i style={{width:(done/CK_ITEMS.length*100)+'%'}}></i></div>
+      <p className="sub">{done} / {CK_ITEMS.length} 項完成（進度會存在本機）</p>
+      {CK_ITEMS.map(it=>(
+        <div key={it.id} className={'ck '+(ck[it.id]?'on':'')}
+          onClick={()=>setCk({...ck,[it.id]:!ck[it.id]})}>
+          <div className="box">{ck[it.id]?'✓':''}</div>
+          <span>{it.t}</span>
+        </div>
+      ))}
+      {done===CK_ITEMS.length && <div className="note" style={{marginTop:'10px'}}>
+        <b>全部完成 👍</b>可以開始分析了。</div>}
+    </div>
+
+    <div className="card">
+      <h2>📏 正常值與判讀速查</h2>
+      <div className="tbl-wrap"><table>
+        <thead><tr><th>參數</th><th>正常參考</th><th>備註</th></tr></thead>
+        <tbody>{NORMALS.map((r,i)=>(
+          <tr key={i}><td>{r[0]}</td><td className="num">{r[1]}</td><td style={{textAlign:'left',fontSize:'12px'}}>{r[2]}</td></tr>
+        ))}</tbody>
+      </table></div>
+      <p className="sub" style={{marginTop:'8px'}}>
+        正常值隨廠牌與軟體版本而異（LA strain 廠牌間絕對值差可達 2–4%）。
+        建議各單位以自家平台建立內部參考範圍，勿直接跨平台套用 cut-off。
+      </p>
+    </div>
+  </div>
+  );
+};
+
+const Pit = () => (
+  <div>
+    <div className="card">
+      <h2>⚠️ 常見陷阱與破解</h2>
+      <Acc title="① LA strain 沿用 LV apical view" badge={{c:'red',t:'最常見'}} open0={true}>
+        <p><b>後果：</b>LA foreshortening → LARS 系統性低估，且 baseline 與追蹤的低估程度不一致 → Δ 不可信。</p>
+        <p><b>破解：</b>把「LA-focused 4C / 2C」寫進 protocol 的固定影像清單，讓技術員在同一次檢查一定會存到。</p>
+      </Acc>
+      <Acc title="② 換機器 / 換軟體版本做序列比較" badge={{c:'red',t:'致命'}}>
+        <p><b>後果：</b>inter-vendor 差異可能大於真正的生物性變化，「進步」變成假象。</p>
+        <p><b>破解：</b>在報告固定欄位註明廠牌與版本；同一病人的追蹤盡量綁定同一台機器。</p>
+      </Acc>
+      <Acc title="③ Clip artifact 造成基部節段追蹤失敗" badge={{c:'amber',t:'TEER 特有'}}>
+        <p><b>後果：</b>軟體照樣給出數值，但那幾個節段其實是在追金屬回音。</p>
+        <p><b>破解：</b>逐節段目視確認；追蹤不良就剔除，並在報告註明可分析節段數。</p>
+      </Acc>
+      <Acc title="④ 忽略負荷條件的改變" badge={{c:'amber',t:'解讀'}}>
+        <p><b>後果：</b>把負荷變化誤判為心肌功能變化。MR 減少後 preload ↓、afterload ↑。</p>
+        <p><b>破解：</b>每次 strain 都同步記錄殘餘 MR grade、transmitral gradient、血壓、心率、節律。</p>
+      </Acc>
+      <Acc title="⑤ AF 只取一個心跳" badge={{c:'amber',t:'本族群 52% 有 AF'}}>
+        <p><b>後果：</b>beat-to-beat 變異讓數值飄動可達數個百分點。</p>
+        <p><b>破解：</b>平均 ≥3–5 個心跳，或用 index-beat 法。AF 不報 LASct。</p>
+      </Acc>
+      <Acc title="⑥ 只看 LVEF 判斷有沒有進步" badge={{c:'blue',t:'觀念'}}>
+        <p><b>後果：</b>本研究 LVEF p trend = 0.41（無變化），若只看 EF 會結論「沒有 reverse remodeling」，
+        但 LVEDV、LVESV、LAVI、PASP、三個 strain 全都顯著改善。</p>
+        <p><b>破解：</b>把 volumes ＋ strain 一起放進追蹤報告。</p>
+      </Acc>
+      <Acc title="⑦ 把 RV global strain 當成 RV free wall strain" badge={{c:'blue',t:'定義'}}>
+        <p><b>後果：</b>含 septum 的數值通常較「好看」，跨研究比較會出錯。</p>
+        <p><b>破解：</b>報告一律寫全名，並固定單位內部的計算方式。</p>
+      </Acc>
+      <Acc title="⑧ 把 association 說成 causation" badge={{c:'red',t:'文獻判讀'}}>
+        <p><b>後果：</b>本研究為單中心、單臂、n = 92 的觀察性研究，無對照組。
+        COAPT 的兩篇也是 post-hoc landmark 分析。</p>
+        <p><b>破解：</b>對外報告時明確講：「deformation 恢復與症狀改善<b>相關</b>」，
+        而非「strain 改善<b>造成</b>症狀改善」。</p>
+      </Acc>
+    </div>
+
+    <div className="card">
+      <h2>🗣 跟團隊溝通的三句話</h2>
+      <div className="note">「EF 沒變不代表沒進步，請把 GLS、LARS、RV-FWS 一起看。」</div>
+      <div className="note">「LA strain 要另外抓 LA-focused view，不要用心室那組。」</div>
+      <div className="note">「追蹤請用同一台機器、同一版軟體，不然 Δ 沒有意義。」</div>
+    </div>
+  </div>
+);
+
+const Data = () => (
+  <div>
+    <div className="card">
+      <h2>📊 研究族群（Table 1，n = 92）</h2>
+      <p className="sub">MitraClip G4，Interbalkan Medical Center，2022/01–2025/01。納入 3+/4+ DMR 或 FMR ＋ NYHA III/IV。DMR 28 例、FMR 64 例。</p>
+      <div className="tbl-wrap"><table>
+        <thead><tr><th>Variable</th><th>Overall (92)</th><th>DMR (28)</th><th>FMR (64)</th><th>p</th></tr></thead>
+        <tbody>{T1.map((r,i)=>(
+          <tr key={i}><td>{r[0]}</td><td className="num">{r[1]}</td><td className="num">{r[2]}</td>
+            <td className="num">{r[3]}</td><td className="num">{r[4]}</td></tr>
+        ))}</tbody>
+      </table></div>
+      <div className="note"><b>臨床印象</b>高齡（中位 73 歲）、高手術風險（EuroSCORE II 5.7%）、
+      NYHA IV 佔 73.9%、AF 52.2%——這是相當 sick 的真實世界族群，也解釋了為何 strain 影像品質的把關特別重要。</div>
+    </div>
+
+    <div className="card">
+      <h2>🔧 治療效果</h2>
+      <StackBar title="MR grade（p < 0.0001）"
+        cats={['Baseline','30 days','1 year']}
+        series={[[0,35.9,26.1],[0,64.1,72.8],[39.1,0,1.1],[60.9,0,0]]}
+        colors={['#2c5f9e','#27853f','#e67e22','#c0392b']}
+        labels={['1+','2+','3+','4+']}/>
+      <div style={{height:'18px'}}></div>
+      <StackBar title="NYHA class（p < 0.0001）"
+        cats={['Baseline','30 days','1 year']}
+        series={[[0,39.1,44.6],[0,60.9,53.3],[26.1,0,2.2],[73.9,0,0]]}
+        colors={['#2c5f9e','#27853f','#e67e22','#6b4a9e']}
+        labels={['I','II','III','IV']}/>
+      <div className="note" style={{marginTop:'14px'}}>
+        <b>KCCQ-OS</b>52 ± 19（baseline）→ 70 ± 14（30 天）→ 71 ± 15（1 年），overall p trend &lt; 0.001。
+        Baseline vs 30 天 p &lt; 0.001；baseline vs 1 年 p &lt; 0.001；<b>30 天 vs 1 年 p = 0.71</b>。
+        <br/>→ 生活品質的改善在 <b>30 天就到位</b>，之後維持而非持續上升；但 strain 在 30 天到 1 年之間仍持續改善。
+        兩者的時間曲線不同步，這是值得注意的觀察。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>🫀 Table 3：Longitudinal echo remodeling</h2>
+      <div className="tbl-wrap"><table>
+        <thead><tr><th>Parameter</th><th>Baseline</th><th>30 days</th><th>1 year</th><th>p trend</th></tr></thead>
+        <tbody>{T3.map((r,i)=>(
+          <tr key={i} style={r[0].includes('GLS')||r[0].includes('FWS')||r[0].includes('LARS')
+            ?{background:'rgba(192,57,43,.06)'}:{}}>
+            <td>{r[0]}</td><td className="num">{r[1]}</td><td className="num">{r[2]}</td>
+            <td className="num">{r[3]}</td><td className="num">{r[4]}</td></tr>
+        ))}</tbody>
+      </table></div>
+      <div className="danger"><b>整張表最重要的一行是 LVEF</b>
+      p trend = 0.41——唯一沒有顯著變化的參數，偏偏是臨床上最常用的那一個。</div>
+    </div>
+
+    <div className="card">
+      <h2>🔗 Table 4：Deformation 變化與 1 年症狀／健康狀態的關聯</h2>
+      <div className="tbl-wrap"><table>
+        <thead><tr><th>Association</th><th>Effect estimate</th><th>p</th></tr></thead>
+        <tbody>{T4.map((r,i)=>(
+          <tr key={i}><td>{r[0]}</td><td className="num">{r[1]}</td><td className="num">{r[2]}</td></tr>
+        ))}</tbody>
+      </table></div>
+      <div className="warn">
+        <b>判讀保留</b>
+        投影片<b>未標示 effect estimate 的單位</b>：上半部（0.34–0.51，附 95% CI）看起來像相關係數，
+        下半部（2.6 / 1.9 / 1.5）像是每單位變化的迴歸係數。
+        兩者意義不同，引用前請取得全文確認。
+      </div>
+      <div className="note">
+        <b>臨床可用的訊號</b>三個腔室的 Δ 都與症狀改善相關，其中
+        <b> ΔLARS 的關聯強度最高</b>（vs NYHA 0.48；vs KCCQ-OS 0.51）。
+        若資源有限只能加測一項，LA reservoir strain 可能是 CP 值最高的選擇。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>🏁 講者結論（原文三點）</h2>
+      <ul className="tight">
+        <li>Multichamber myocardial deformation improved significantly through 1 year.</li>
+        <li>Deformation recovery was associated with symptom and health-status improvement.</li>
+        <li>These findings support deformation imaging as a useful tool for characterizing chamber-level recovery after M-TEER.</li>
+      </ul>
+      <div className="warn"><b>共筆整理人補充</b>
+      三點結論用字都很克制（"associated with"、"useful tool"），沒有過度延伸為因果或治療建議——
+      這在單臂觀察性研究是正確的表述方式。</div>
+    </div>
+  </div>
+);
+
+const Quiz = () => {
+  const [i,setI]=useState(0),[sel,setSel]=useState(null),[show,setShow]=useState(false),
+        [score,setScore]=useState(0),[fin,setFin]=useState(false);
+  const q=QUIZ[i];
+  const pick=(k)=>{ if(show) return; setSel(k); setShow(true); if(k===q.c) setScore(s=>s+1); };
+  const next=()=>{ if(i<QUIZ.length-1){setI(i+1);setSel(null);setShow(false);} else setFin(true); };
+  const reset=()=>{setI(0);setSel(null);setShow(false);setScore(0);setFin(false);};
+
+  if(fin) return (
+    <div className="card" style={{textAlign:'center'}}>
+      <h2 style={{justifyContent:'center'}}>🎉 完成</h2>
+      <p style={{fontSize:'34px',fontWeight:700,color:'var(--accent)',margin:'10px 0'}}>{score} / {QUIZ.length}</p>
+      <p className="sub">{score===QUIZ.length?'滿分，可以帶 fellow 上機了。'
+        :score>=QUIZ.length*0.7?'不錯，建議再看一次「怎麼做」與「陷阱」。'
+        :'建議重讀「怎麼做」章節的三個腔室 SOP。'}</p>
+      <button className="btn" onClick={reset}>再測一次</button>
+    </div>
+  );
+
+  return (
+    <div className="card">
+      <div className="prog"><i style={{width:((i)/QUIZ.length*100)+'%'}}></i></div>
+      <p className="sub">第 {i+1} 題 / 共 {QUIZ.length} 題 　目前 {score} 分</p>
+      <p style={{fontWeight:600,fontSize:'15.5px'}}>{q.q}</p>
+      {q.o.map((o,k)=>(
+        <button key={k} className={'opt '+(show?(k===q.c?'correct':(k===sel?'wrong':'')):'')}
+          onClick={()=>pick(k)}>{String.fromCharCode(65+k)}. {o}</button>
+      ))}
+      {show && <div className={sel===q.c?'note':'danger'} style={{marginTop:'12px'}}>
+        <b>{sel===q.c?'✅ 正確':'❌ 再看一次'}</b>{q.e}
+        <button className="btn" style={{marginTop:'12px'}} onClick={next}>
+          {i<QUIZ.length-1?'下一題':'看結果'}</button>
+      </div>}
+    </div>
+  );
+};
+
+const Refs = () => (
+  <div className="card">
+    <h2>📚 參考文獻</h2>
+    <ul className="tight" style={{fontSize:'13px'}}>
+      <li>Papadopoulos GE. <i>Atrial and ventricular strain remodeling after M-TEER.</i> ESC Congress 2026, Munich（Science Box 現場投影片）。</li>
+      <li>Pio SM, Medvedofsky D, Stassen J, et al. Changes in Left Ventricular Global Longitudinal Strain in Patients With Heart Failure and Secondary Mitral Regurgitation: The COAPT Trial. <i>J Am Heart Assoc.</i> 2023;12(17):e029956. doi:10.1161/JAHA.122.029956</li>
+      <li>Pio SM, Medvedofsky D, Delgado V, et al. Left Atrial Improvement in Patients With Secondary Mitral Regurgitation and Heart Failure: The COAPT Trial. <i>JACC Cardiovasc Imaging.</i> 2024;17(9):1015–1027. doi:10.1016/j.jcmg.2024.03.016</li>
+      <li>Medvedofsky D, Milhorini Pio S, Weissman NJ, et al. LV GLS as a Predictor of Outcomes in HF with Secondary MR: The COAPT Trial. <i>J Am Soc Echocardiogr.</i> 2021;34:955–965.</li>
+      <li>Voigt JU, Pedrizzetti G, Lysyansky P, et al. Definitions for a common standard for 2D speckle tracking echocardiography: EACVI/ASE/Industry Task Force. <i>Eur Heart J Cardiovasc Imaging.</i> 2015;16:1–11.</li>
+      <li>Badano LP, Kolias TJ, Muraru D, et al. Standardization of left atrial, right ventricular, and right atrial deformation imaging using 2D speckle tracking echocardiography: EACVI/ASE/Industry Task Force consensus. <i>Eur Heart J Cardiovasc Imaging.</i> 2018;19:591–600.</li>
+      <li>Pathan F, D'Elia N, Nolan MT, et al. Normal ranges of left atrial strain by speckle-tracking echocardiography: a systematic review and meta-analysis. <i>J Am Soc Echocardiogr.</i> 2017;30:59–70.</li>
+    </ul>
+    <div className="foot" style={{marginTop:'18px',borderTop:'1px solid var(--border)',paddingTop:'14px'}}>
+      <b>讀書會共筆整理人</b>
+      謝慕揚 醫師 MD, PhD, FESC<br/>
+      結構性心臟病與介入心臟學<br/><br/>
+      本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br/>
+      僅供學術與教育用途，不代表任何單位之官方立場<br/>
+      本內容未涉及任何利益衝突
+    </div>
+  </div>
+);
+
+/* ============ App ============ */
+const App = () => {
+  const [tab,setTab]=useState('home');
+  const [dark,setDark]=useState(false);
+  useEffect(()=>{ document.documentElement.classList.toggle('dark-theme',dark); },[dark]);
+  useEffect(()=>{ window.scrollTo(0,0); },[tab]);
+
+  return (
+    <div className="app">
+      <div className="hdr-wrap">
+        <div className="hdr">
+          <span className="tag">ESC CONGRESS 2026 MUNICH · 讀書會共筆</span>
+          <h1>M-TEER 後的 Strain Imaging<br/>執行與判讀</h1>
+          <p>Atrial and ventricular strain remodeling after M-TEER · 結構性心臟病與介入心臟學</p>
+          <button className="theme-btn" onClick={()=>setDark(!dark)}>{dark?'☀️':'🌙'}</button>
+        </div>
+      </div>
+
+      {tab==='home' && <Home/>}
+      {tab==='why'  && <Why/>}
+      {tab==='how'  && <How/>}
+      {tab==='pit'  && <Pit/>}
+      {tab==='data' && <Data/>}
+      {tab==='quiz' && <Quiz/>}
+      {tab!=='quiz' && <Refs/>}
+
+      <div className="nav">
+        {NAV.map(n=>(
+          <button key={n.id} className={tab===n.id?'on':''} onClick={()=>setTab(n.id)}>
+            <span className="ico">{n.ico}</span>{n.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+};
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

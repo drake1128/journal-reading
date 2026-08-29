@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>懷孕期肺水腫鑑別診斷 | Pulmonary Oedema in Pregnancy</title>
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#e74c3c;
+  --success:#27ae60; --warning:#f39c12; --bg-cream:#faf8f5; --bg-card:#ffffff;
+  --text-dark:#2c3e50; --text-muted:#7f8c8d; --border:#ecf0f1; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+html.dark-theme{
+  --bg-cream:#1a1a2e; --bg-card:#16213e; --text-dark:#eaeaea; --text-muted:#a0a0a0;
+  --border:#2d3748; --shadow:0 4px 20px rgba(0,0,0,.4); --primary-light:#5b8fc7;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;background:var(--bg-cream);color:var(--text-dark);line-height:1.65;
+  font-family:"Noto Sans TC","PingFang TC","Heiti TC","Microsoft JhengHei",-apple-system,
+  BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+.app{max-width:820px;margin:0 auto;padding-bottom:calc(84px + env(safe-area-inset-bottom));}
+header{background:linear-gradient(135deg,var(--primary),#2d5a87);color:#fff;
+  padding:20px 108px 18px 16px;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.15);}
+header h1{margin:0;font-size:19px;font-weight:700;letter-spacing:.3px;}
+header .sub{font-size:12.5px;opacity:.85;margin-top:3px;}
+.hbtn{position:absolute;top:18px;background:rgba(255,255,255,.18);border:none;color:#fff;
+  width:42px;height:42px;border-radius:50%;font-size:18px;cursor:pointer;line-height:1;}
+#themeBtn{right:14px;} #shareBtn{right:64px;}
+main{padding:16px;}
+.card{background:var(--bg-card);border-radius:14px;padding:16px;margin-bottom:14px;
+  box-shadow:var(--shadow);border:1px solid var(--border);}
+h2.sec{font-size:17px;margin:4px 0 12px;color:var(--primary-light);}
+h3{font-size:15px;margin:14px 0 8px;}
+p{margin:8px 0;font-size:14.5px;}
+.small{font-size:13px;color:var(--text-muted);}
+.tag{display:inline-block;font-size:11px;padding:3px 9px;border-radius:20px;font-weight:600;}
+.tag-card{background:#fdecea;color:#c0392b;} .tag-noncard{background:#e8f4fd;color:#1f6aa5;}
+.tag-mixed{background:#fef5e7;color:#b9770e;}
+.dark-theme .tag-card{background:#4a1f1a;color:#ff9b8f;}
+.dark-theme .tag-noncard{background:#16324a;color:#8ec7f0;}
+.dark-theme .tag-mixed{background:#4a3a16;color:#f5cd79;}
+.takehome{background:linear-gradient(135deg,#fff5f3,#fdecea);border-left:5px solid var(--accent);}
+.dark-theme .takehome{background:linear-gradient(135deg,#2a1f2e,#3a2020);}
+.takehome ol{margin:6px 0 0;padding-left:20px;} .takehome li{margin-bottom:9px;font-size:14.5px;}
+.ddx{border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden;background:var(--bg-card);}
+.ddx-head{padding:14px;min-height:48px;cursor:pointer;display:flex;justify-content:space-between;
+  align-items:center;gap:10px;}
+.ddx-head:active{background:rgba(125,125,125,.08);}
+.ddx-title{font-weight:600;font-size:15px;}
+.ddx-en{font-size:12px;color:var(--text-muted);display:block;font-weight:400;margin-top:2px;}
+.chev{color:var(--text-muted);font-size:13px;flex-shrink:0;}
+.ddx-body{padding:0 14px 14px;border-top:1px dashed var(--border);}
+.row{margin-top:11px;}
+.lbl{font-size:11.5px;font-weight:700;letter-spacing:.6px;color:var(--primary-light);text-transform:uppercase;}
+.row ul{margin:5px 0 0;padding-left:19px;} .row li{font-size:14px;margin-bottom:4px;}
+.pitfall{background:#fef5e7;border-radius:8px;padding:9px 11px;margin-top:11px;font-size:13.5px;}
+.dark-theme .pitfall{background:#3d3116;}
+.timing{display:flex;gap:8px;margin:10px 0 4px;flex-wrap:wrap;}
+.timing span{font-size:11.5px;background:var(--border);padding:4px 10px;border-radius:6px;}
+.flow{display:flex;gap:12px;margin-bottom:12px;}
+.flow-n{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--primary-light);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;}
+.do,.dont{padding:11px 13px;border-radius:9px;font-size:14px;margin-bottom:8px;}
+.do{background:#eafaf1;border-left:4px solid var(--success);}
+.dont{background:#fdecea;border-left:4px solid var(--accent);}
+.dark-theme .do{background:#153a28;} .dark-theme .dont{background:#3d1d1a;}
+.tl{border-left:2px solid var(--primary-light);margin-left:8px;padding-left:16px;}
+.tl-i{position:relative;padding-bottom:14px;font-size:14px;}
+.tl-i:before{content:'';position:absolute;left:-22px;top:5px;width:10px;height:10px;
+  border-radius:50%;background:var(--accent);}
+.tl-t{font-weight:700;font-size:13px;color:var(--accent);}
+.qq{font-size:15.5px;font-weight:600;margin:10px 0 14px;}
+.opt{display:block;width:100%;text-align:left;padding:13px 15px;margin-bottom:9px;min-height:48px;
+  border:2px solid var(--border);background:var(--bg-card);color:var(--text-dark);border-radius:10px;
+  font-size:14.5px;font-family:inherit;cursor:pointer;}
+.opt.correct{border-color:var(--success);background:#eafaf1;}
+.opt.wrong{border-color:var(--accent);background:#fdecea;}
+.opt.reveal{border-color:var(--success);}
+.dark-theme .opt.correct{background:#153a28;} .dark-theme .opt.wrong{background:#3d1d1a;}
+.explain{background:var(--bg-cream);border-radius:10px;padding:13px;margin-top:6px;font-size:14px;
+  border:1px solid var(--border);}
+.btn{background:var(--primary-light);color:#fff;border:none;padding:13px 20px;border-radius:10px;
+  font-size:15px;font-weight:600;font-family:inherit;min-height:48px;cursor:pointer;width:100%;margin-top:12px;}
+.pbar{height:6px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:14px;}
+.pbar div{height:100%;background:var(--success);transition:width .3s;}
+nav{position:fixed;bottom:0;left:0;right:0;background:var(--bg-card);border-top:1px solid var(--border);
+  display:flex;padding-bottom:env(safe-area-inset-bottom);z-index:60;box-shadow:0 -2px 14px rgba(0,0,0,.07);
+  max-width:820px;margin:0 auto;}
+nav button{flex:1;background:none;border:none;padding:9px 2px 10px;font-size:10.5px;font-family:inherit;
+  color:var(--text-muted);cursor:pointer;min-height:56px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:3px;}
+nav button.active{color:var(--primary-light);font-weight:700;}
+nav .ico{font-size:19px;line-height:1;}
+footer{padding:20px 18px 26px;font-size:11.5px;color:var(--text-muted);text-align:center;line-height:1.9;}
+footer .sig{color:var(--text-dark);font-weight:600;font-size:13px;margin-bottom:8px;}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px;}
+th,td{border:1px solid var(--border);padding:8px 9px;text-align:left;vertical-align:top;}
+th{background:var(--bg-cream);font-weight:600;font-size:12.5px;}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.mask{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100;display:flex;
+  align-items:flex-end;justify-content:center;}
+.mask[hidden]{display:none;}
+.sheet{background:var(--bg-card);width:100%;max-width:820px;border-radius:18px 18px 0 0;
+  padding:20px 18px calc(22px + env(safe-area-inset-bottom));}
+.sheet h3{margin:0 0 4px;font-size:17px;}
+.sheet .btn{background:var(--bg-cream);color:var(--text-dark);border:1px solid var(--border);
+  text-align:left;padding:14px 16px;}
+.sheet .btn b{display:block;font-size:15px;} .sheet .btn span{font-size:12.5px;color:var(--text-muted);font-weight:400;}
+.toast{position:fixed;bottom:96px;left:50%;transform:translateX(-50%);background:var(--primary);
+  color:#fff;padding:11px 20px;border-radius:24px;font-size:13.5px;z-index:200;}
+.toast[hidden]{display:none;}
+@media print{header,nav,.mask,#shareBtn,#themeBtn{display:none!important}
+  .app{padding-bottom:0}.card{break-inside:avoid;box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>懷孕期肺水腫的鑑別診斷</h1>
+    <div class="sub">Pulmonary Oedema in Pregnancy · 讀書會共筆 · 心臟內科／重症教學</div>
+    <button class="hbtn" id="shareBtn" aria-label="分享">⤴</button>
+    <button class="hbtn" id="themeBtn" aria-label="切換深色模式">🌙</button>
+  </header>
+  <main id="main"></main>
+  <nav id="nav"></nav>
+</div>
+<div class="mask" id="mask" hidden>
+  <div class="sheet">
+    <h3>分享這份教材</h3>
+    <p class="small" style="margin:0 0 12px">整份內容都在這一個 HTML 檔裡，離線也能開。</p>
+    <button class="btn" id="sysShare"><b>分享連結 / 傳送</b><span>使用手機內建分享（LINE、Email、AirDrop）</span></button>
+    <button class="btn" id="copyLink"><b>複製連結</b><span>複製目前網址</span></button>
+    <button class="btn" id="dlFile"><b>下載 HTML 檔</b><span>存成單一檔案，可直接傳給同仁或離線使用</span></button>
+    <button class="btn" id="printBtn"><b>列印 / 存成 PDF</b><span>用瀏覽器列印功能輸出講義</span></button>
+    <button class="btn" id="closeSheet" style="background:var(--primary-light);color:#fff;border:none;text-align:center"><b>關閉</b></button>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+"use strict";
+
+var DDX=[
+{id:"pe",name:"子癇前症／HELLP 相關肺水腫",en:"Pre-eclampsia / HELLP-associated pulmonary oedema",
+ type:"mixed",timing:["> 20 週","產後 48–72 小時"],
+ clues:["血壓 ≥160/110 mmHg 合併蛋白尿或器官損傷","頭痛、視力模糊、上腹（RUQ）痛、反射亢進",
+  "Platelet 下降、AST/ALT 上升、LDH 上升、溶血 → HELLP","常合併大量點滴輸液或 oxytocin 使用"],
+ workup:["尿蛋白／protein-creatinine ratio","CBC、LFT、LDH、peripheral smear","sFlt-1/PlGF ratio（若可得）",
+  "Echo：多為 preserved EF 合併 diastolic dysfunction"],
+ mech:"後負荷急升 + 低 oncotic pressure（albumin 下降）+ 內皮受損微血管滲漏，三者疊加。EF 正常不代表不是心因性。",
+ pit:"最常見的孕期肺水腫原因。EF 正常常讓人誤判為「非心因性」而放掉降壓與限水。"},
+
+{id:"ppcm",name:"週產期心肌病變",en:"Peripartum cardiomyopathy (PPCM)",
+ type:"card",timing:["妊娠末期","產後 5 個月內（最多見於產後第一個月）"],
+ clues:["排除性診斷：新發 HF、EF 低於 45%、無其他可解釋病因","危險因子：多胎、高齡、子癇前症、非裔族群、家族史",
+  "NT-proBNP 顯著上升（正常值幾乎可排除）","可合併 LV thrombus、心室性心律不整"],
+ workup:["Echo（EF、LV 大小、thrombus）","NT-proBNP、troponin","排除 SCAD、瓣膜病、既有心肌病變",
+  "基因諮詢／檢測（2025 ESC 建議考慮）"],
+ mech:"prolactin 16-kDa 裂解片段等因子造成血管毒性與心肌損傷。",
+ pit:"產後喘常被歸因於「產後虛弱」而延遲診斷。EF 恢復後 HF 藥物建議續用 12 個月以上。"},
+
+{id:"toco",name:"安胎藥物誘發肺水腫",en:"Tocolytic-induced pulmonary oedema",
+ type:"noncard",timing:["用藥後 24–72 小時"],
+ clues:["使用 β-agonist（ritodrine, terbutaline）安胎中","常合併 corticosteroid 促胎肺成熟與大量輸液",
+  "心搏過速、低血鉀、高血糖","多胎妊娠風險更高"],
+ workup:["停藥後多在 12–24 小時內快速改善","Echo 通常正常 → 支持非心因性","電解質、血糖"],
+ mech:"β-agonist 造成鈉水滯留、心搏過速與微血管通透性上升；再加上輸液，屬容量與滲漏的混合機轉。",
+ pit:"處置的第一步是「停藥」，不是加藥。台灣仍常用 ritodrine，這一項務必列入病史詢問。"},
+
+{id:"valve",name:"既有瓣膜性心臟病失代償（尤其 mitral stenosis）",en:"Decompensated valvular heart disease",
+ type:"card",timing:["妊娠 20–28 週（CO 高峰）","生產中與產後即刻"],
+ clues:["風濕性心臟病史；新住民族群要特別想到","心尖舒張期雜音、opening snap、新發 AF",
+  "心跳加快即惡化（MS 依賴舒張期充盈時間）","過去未追蹤或未曾做過 echo"],
+ workup:["Echo：MVA、mean gradient、PASP","ECG：AF、LA enlargement",
+  "必要時 PTMC 可於孕期執行（腹部屏蔽、盡量縮短透視時間）"],
+ mech:"孕期血漿容積增加 40–50%、CO 上升、心搏加快，跨瓣壓差急升使肺靜脈壓上升。",
+ pit:"心跳控制（β-blocker）比利尿更關鍵。此類病人在產後 autotransfusion 那一刻最危險。"},
+
+{id:"pheo",name:"嗜鉻細胞瘤危象",en:"Pheochromocytoma crisis",
+ type:"card",timing:["任何週數","生產、麻醉誘導、腹壓上升時可被誘發"],
+ clues:["陣發性（非持續性）高血壓合併頭痛、盜汗、心悸三聯徵","血壓極度 labile、姿勢性低血壓","20 週前即出現高血壓",
+  "蛋白尿常缺乏，不像子癇前症","可表現為 takotsubo-like 心肌病變與心因性休克"],
+ workup:["Plasma free metanephrines 或 24 小時尿液 metanephrines","MRI（孕期避免 CT 與 MIBG）",
+  "Echo：apical ballooning 或瀰漫性收縮功能低下"],
+ mech:"兒茶酚胺風暴造成心肌頓抑與後負荷急升，屬 catecholamine-induced cardiomyopathy，切除腫瘤後心功能多可回復。",
+ pit:"先給 β-blocker 而未先做 α-blockade（phenoxybenzamine / doxazosin）會因 unopposed α 造成血壓爆衝。"},
+
+{id:"afe",name:"羊水栓塞",en:"Amniotic fluid embolism (AFE)",
+ type:"mixed",timing:["生產中或產後 30 分鐘內"],
+ clues:["突發低血壓、缺氧、意識改變三聯徵","緊接著出現 DIC 與大量出血","常在破水、子宮收縮強烈或器械生產後"],
+ workup:["臨床診斷，無特異檢查","DIC panel：fibrinogen、D-dimer、PT/aPTT","Echo：急性 RV 衰竭與 D-shape"],
+ mech:"初期為肺血管收縮與急性右心衰竭，之後轉為左心衰竭與非心因性肺水腫加 DIC。",
+ pit:"死亡率極高。需立即啟動大量輸血流程與 ECMO 評估，不是單純利尿的問題。"},
+
+{id:"iatro",name:"醫源性容積過載",en:"Iatrogenic fluid overload",
+ type:"card",timing:["生產中與產後 24 小時內"],
+ clues:["Oxytocin 長時間高劑量輸注（具 ADH 樣作用，造成水滯留與低血鈉）","區域麻醉前預先大量輸液",
+  "產後出血復甦後輸液總量偏高","入出量表明顯正平衡"],
+ workup:["嚴格記錄輸出入量與體重","Na、osmolality","Lung ultrasound：雙側 B-lines"],
+ mech:"孕期血漿膠體滲透壓本就下降，容忍過載的餘裕比非孕者小很多。",
+ pit:"這是最容易預防、也最容易被忽略的一項。產科大量輸液後的喘，先想這個。"},
+
+{id:"acs",name:"孕產期心肌梗塞／SCAD",en:"Pregnancy-associated MI / spontaneous coronary artery dissection",
+ type:"card",timing:["妊娠末期與產後 6 週內為高峰"],
+ clues:["胸痛合併肺水腫","SCAD 是孕產期 MI 最常見機轉，好發於無傳統危險因子的年輕女性",
+  "ECG ST 變化、troponin 上升","可合併纖維肌性發育不良 (FMD)"],
+ workup:["12-lead ECG、troponin 系列","Echo：局部壁動異常","必要時冠狀動脈攝影（腹部屏蔽，優先橈動脈路徑）"],
+ mech:"荷爾蒙造成血管中層變化，加上生產時剪應力，導致自發性剝離。",
+ pit:"SCAD 多數以保守治療為主，貿然 PCI 可能使剝離延伸；但合併心因性休克時例外。"},
+
+{id:"ards",name:"感染／敗血症相關 ARDS",en:"Sepsis-related ARDS",
+ type:"noncard",timing:["任何週數"],
+ clues:["腎盂腎炎（孕期最常見的敗血症來源）、絨毛膜羊膜炎、流感或肺炎","發燒、白血球上升、乳酸上升","需氧量高、對利尿無反應"],
+ workup:["血液與尿液培養、胸部影像","Lactate、procalcitonin","Echo 通常收縮功能正常或呈高動力"],
+ mech:"微血管通透性上升造成的非心因性肺水腫。",
+ pit:"孕婦耗氧量高、FRC 低，去飽和速度比非孕者快很多，插管窗口要提早評估。"},
+
+{id:"other",name:"其他不可漏的原因",en:"Other must-not-miss causes",
+ type:"mixed",timing:["視病因而定"],
+ clues:["肺栓塞（孕產期風險升高，表現為低血氧但胸片相對乾淨）","甲狀腺風暴","嚴重貧血或輸血相關 TACO／TRALI",
+  "心律不整（尤其 MS 合併新發 AF）","先天性心臟病（Eisenmenger、系統性右心室）"],
+ workup:["依懷疑病因選擇：CTPA（孕期可做）、TSH／free T4、CBC、ECG／Holter"],
+ mech:"",
+ pit:"孕期 D-dimer 生理性上升，不能用來排除肺栓塞。"}
+];
+
+var WORKUP=[
+{t:"第一分鐘：辨識與穩定",d:"坐起、給氧（目標 SpO₂ 95% 以上）、左側臥位解除 aortocaval compression、建立監視與雙管路。同時通知產科與新生兒科。"},
+{t:"床邊超音波",d:"Lung ultrasound 看 B-lines 與 pleural effusion；POCUS 心臟看 EF、RV 大小、瓣膜、IVC。這一步最快分出心因性與非心因性。"},
+{t:"快速血液檢查",d:"NT-proBNP（正常值幾乎可排除 HF）、troponin、CBC、LFT、LDH、creatinine、electrolytes、lactate、DIC panel。"},
+{t:"ECG 與胸部 X 光",d:"孕期胸部 X 光胎兒劑量極低，遠低於致畸閾值，不應因懷孕而拖延。腹部屏蔽即可。"},
+{t:"針對性檢查",d:"尿蛋白（子癇前症）、metanephrines（pheochromocytoma）、TSH（甲狀腺風暴）、培養（敗血症）、CTPA（肺栓塞）。"},
+{t:"決定要不要生",d:"血流動力學無法穩定時，生產本身就是治療的一部分。需由 Pregnancy Heart Team 共同決策，並提前評估轉送具 MCS 能力中心的時機。"}
+];
+
+var QUIZ=[
+{q:"34 週孕婦，突發呼吸困難，BP 176/112 mmHg，尿蛋白 3+，platelet 92,000，AST 180。Echo 顯示 EF 60%。最可能的診斷是？",
+ o:["週產期心肌病變 (PPCM)","子癇前症／HELLP 相關肺水腫","羊水栓塞","安胎藥物誘發肺水腫"],c:1,
+ e:"EF 正常不代表不是心因性。子癇前症的肺水腫來自後負荷急升、低 oncotic pressure 與微血管滲漏，典型呈現 preserved EF 合併 diastolic dysfunction。血小板下降與肝功能上升提示已進展到 HELLP。"},
+{q:"使用 ritodrine 安胎第 3 天，合併 betamethasone 與大量點滴，病人出現呼吸困難與雙側囉音。第一步最重要的處置是？",
+ o:["立即給 dobutamine","停用 ritodrine","緊急剖腹產","給予 ACE inhibitor 降後負荷"],c:1,
+ e:"β-agonist 誘發的肺水腫，停藥加上限水與適度利尿，多在 12–24 小時內改善。ACE-I／ARB／ARNI 在孕期禁用。緊急生產不是第一線處置。"},
+{q:"26 歲孕婦 22 週，反覆發作性高血壓合併頭痛、盜汗、心悸，發作間血壓正常，尿蛋白陰性。最該安排的檢查是？",
+ o:["sFlt-1/PlGF ratio","Plasma free metanephrines","CT pulmonary angiography","24 小時心電圖"],c:1,
+ e:"20 週前出現高血壓、陣發性型態、三聯徵且無蛋白尿，都指向 pheochromocytoma 而非子癇前症。孕期影像優先選 MRI，避免 CT 與 MIBG。"},
+{q:"承上題，若確診 pheochromocytoma 並出現高血壓危象，藥物順序的原則是？",
+ o:["先 β-blocker 再 α-blocker","只用 β-blocker","先 α-blocker（phenoxybenzamine／doxazosin），之後才加 β-blocker","直接使用 ACE inhibitor"],c:2,
+ e:"未先做 α-blockade 就給 β-blocker，會因 unopposed α-mediated vasoconstriction 造成血壓進一步爆衝。這是 pheochromocytoma 處置最經典也最危險的錯誤。"},
+{q:"對於既有 severe mitral stenosis 的孕婦，血流動力學負荷最大、最容易失代償的時間點是？",
+ o:["妊娠第 8–12 週","妊娠 20–28 週與產後即刻","妊娠 14–16 週","產後 3 個月"],c:1,
+ e:"CO 在 20–28 週達高峰；生產後子宮收縮把血液擠回體循環（autotransfusion），前負荷瞬間再上升一次。這兩個窗口是 MS 最危險的時刻。關鍵處置是控制心跳以保留舒張期充盈時間。"},
+{q:"生產過程中病人突發低血壓、嚴重缺氧與意識改變，隨即出現無法止住的出血與 fibrinogen 急降。最可能的診斷是？",
+ o:["羊水栓塞 (AFE)","醫源性容積過載","敗血症相關 ARDS","甲狀腺風暴"],c:0,
+ e:"低血壓、缺氧與意識改變的三聯徵，緊接 DIC，是 AFE 的典型病程，初期以急性右心衰竭為主。處置重點是大量輸血流程與早期 ECMO 評估。"},
+{q:"關於孕婦的胸部 X 光檢查，正確的敘述是？",
+ o:["孕期絕對禁忌","胎兒輻射劑量遠低於致畸閾值，臨床有需要時不應延遲","僅能在第三孕期執行","必須先取得胎兒超音波正常才可執行"],c:1,
+ e:"單張胸部 X 光的胎兒暴露劑量極微。因懷疑而延遲影像檢查造成的診斷延誤，風險遠大於輻射本身。腹部屏蔽並記錄劑量即可。"},
+{q:"孕婦發生心因性休克時，以下哪一類藥物在 2025 ESC 指引中屬於孕期不建議使用？",
+ o:["Dobutamine","Levosimendan","ACE-I / ARB / ARNI / MRA / SGLT2 inhibitor / ivabradine","Milrinone"],c:2,
+ e:"2025 ESC 指引建議孕婦心因性休克可使用 levosimendan、dobutamine、milrinone 等 inotrope 與 vasopressor（Class I C）；而 ACE-I、ARB、ARNI、MRA、ivabradine 與 SGLT2 inhibitor 因胎兒不良影響，孕期不建議使用。"}
+];
+
+var TABS=[{id:"home",ico:"🎯",t:"重點"},{id:"ddx",ico:"🔍",t:"鑑別"},
+  {id:"workup",ico:"🧭",t:"流程"},{id:"case",ico:"📋",t:"案例"},{id:"quiz",ico:"📝",t:"測驗"}];
+
+var S={tab:"home",open:"pe",qi:0,qsel:null,qshow:false,qscore:0,qdone:false,dark:false};
+
+function save(){try{localStorage.setItem("pregOedema",JSON.stringify({tab:S.tab,dark:S.dark}));}catch(e){}}
+function load(){try{var s=localStorage.getItem("pregOedema");if(s){var p=JSON.parse(s);
+  if(p.tab)S.tab=p.tab;if(p.dark)S.dark=p.dark;}}catch(e){}}
+
+var FOOT='<footer><div class="sig">讀書會共筆整理人<br>謝慕揚 醫師 MD, PhD, FESC<br>結構性心臟病與介入心臟學 · 重症醫學</div>'+
+ '參考：2025 ESC Guidelines for the Management of Cardiovascular Disease and Pregnancy.<br>'+
+ 'Eur Heart J 2025;46:4462-4568<br><br>'+
+ '本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br>僅供學術與教育用途，不代表任何單位之官方立場<br>本內容未涉及任何利益衝突</footer>';
+
+function tagHtml(t){
+  var m={card:["心因性 Cardiogenic","tag-card"],noncard:["非心因性 Non-cardiogenic","tag-noncard"],
+    mixed:["混合機轉 Mixed","tag-mixed"]}[t];
+  return '<span class="tag '+m[1]+'">'+m[0]+'</span>';
+}
+function li(a){return a.map(function(x){return "<li>"+x+"</li>";}).join("");}
+
+function viewHome(){
+ return '<div class="card takehome"><h2 class="sec">🎯 Take Home Message</h2><ol>'+
+ '<li>孕婦肺水腫最常見的原因是<b>子癇前症相關</b>，但<b>EF 正常不等於非心因性</b>。</li>'+
+ '<li>兩個高風險時間窗：<b>妊娠 20–28 週</b>（CO 高峰）與<b>產後即刻</b>（autotransfusion）。</li>'+
+ '<li>四個必問病史：<b>安胎藥物</b>、<b>輸液總量與 oxytocin</b>、<b>過去心臟病史與風濕熱</b>、<b>高血壓是持續還是陣發</b>。</li>'+
+ '<li><b>陣發性高血壓＋頭痛盜汗心悸＋無蛋白尿</b>，要想 pheochromocytoma，先 α-blockade 再 β-blocker。</li>'+
+ '<li>Lung ultrasound 加 POCUS 是最快的分流工具；<b>NT-proBNP 正常幾乎可排除心衰竭</b>。</li>'+
+ '<li>孕期禁用 <b>ACE-I / ARB / ARNI / MRA / ivabradine / SGLT2i</b>；心因性休克可用 levosimendan、dobutamine、milrinone。</li>'+
+ '<li>血流動力學無法穩定時，<b>生產本身就是治療</b>；並提早評估轉送具 MCS 能力的中心。</li></ol></div>'+
+ '<div class="card"><h2 class="sec">🩺 為什麼孕婦特別容易肺水腫</h2><div class="scroll"><table>'+
+ '<thead><tr><th>生理變化</th><th>幅度</th><th>臨床意義</th></tr></thead><tbody>'+
+ '<tr><td>血漿容積</td><td>↑ 40–50%</td><td>前負荷儲備空間變小</td></tr>'+
+ '<tr><td>心輸出量 (CO)</td><td>↑ 30–50%，20–28 週高峰</td><td>瓣膜狹窄壓差急升</td></tr>'+
+ '<tr><td>心跳</td><td>↑ 10–20 bpm</td><td>MS 舒張期充盈時間縮短</td></tr>'+
+ '<tr><td>血漿膠體滲透壓</td><td>↓（albumin 稀釋）</td><td>相同壓力下更易滲出</td></tr>'+
+ '<tr><td>全身血管阻力</td><td>↓，子癇前症時反轉為 ↑</td><td>後負荷急升誘發 flash oedema</td></tr>'+
+ '<tr><td>功能性肺餘容積 (FRC)</td><td>↓ 約 20%</td><td>去飽和速度快，插管窗口要提早</td></tr>'+
+ '</tbody></table></div><p class="small" style="margin-top:10px">產後子宮收縮造成 autotransfusion，前負荷在數分鐘內再上一個台階，這是心臟病孕婦最危險的一刻。</p></div>';
+}
+
+function viewDdx(){
+ var h='<div class="card"><h2 class="sec">🔍 鑑別診斷清單</h2><p class="small">依機轉與時間軸排列。點擊每一項展開臨床線索、確認方式與陷阱。</p></div>';
+ DDX.forEach(function(d){
+  var open=S.open===d.id;
+  h+='<div class="ddx"><div class="ddx-head" data-ddx="'+d.id+'"><div>'+
+   '<div class="ddx-title">'+d.name+'<span class="ddx-en">'+d.en+'</span></div>'+
+   '<div style="margin-top:6px">'+tagHtml(d.type)+'</div></div><span class="chev">'+(open?"▲":"▼")+'</span></div>';
+  if(open){
+   h+='<div class="ddx-body"><div class="timing">'+d.timing.map(function(t){return "<span>⏱ "+t+"</span>";}).join("")+'</div>'+
+    '<div class="row"><div class="lbl">臨床線索 Clues</div><ul>'+li(d.clues)+'</ul></div>'+
+    '<div class="row"><div class="lbl">確認方式 Work-up</div><ul>'+li(d.workup)+'</ul></div>'+
+    (d.mech?'<div class="row"><div class="lbl">機轉 Mechanism</div><p style="margin:5px 0 0;font-size:14px">'+d.mech+'</p></div>':'')+
+    '<div class="pitfall"><b>⚠ 陷阱：</b>'+d.pit+'</div></div>';
+  }
+  h+='</div>';
+ });
+ return h;
+}
+
+function viewWorkup(){
+ var h='<div class="card"><h2 class="sec">🧭 診斷流程</h2>';
+ WORKUP.forEach(function(w,i){
+  h+='<div class="flow"><div class="flow-n">'+(i+1)+'</div><div><b>'+w.t+'</b><br>'+
+     '<span class="small" style="font-size:13.5px">'+w.d+'</span></div></div>';
+ });
+ h+='</div><div class="card"><h2 class="sec">💊 初步處置：該做與不該做</h2>'+
+ '<div class="do"><b>坐起、給氧、左側臥位</b>：解除 aortocaval compression 是零成本的第一招。</div>'+
+ '<div class="do"><b>Furosemide 靜脈給予</b>：容積過載時使用，注意胎盤灌流，避免過度利尿。</div>'+
+ '<div class="do"><b>血管擴張劑</b>：nitroglycerin 用於後負荷升高的 flash oedema；降壓可用 labetalol、hydralazine、nifedipine。</div>'+
+ '<div class="do"><b>NIV／HFNC</b>：可使用，但需嚴密監測意識與嘔吐風險（孕婦吸入性肺炎風險高）。</div>'+
+ '<div class="do"><b>Magnesium sulfate</b>：子癇前症預防抽搐。</div>'+
+ '<div class="do"><b>啟動 Pregnancy Heart Team</b>：心臟科、產科、麻醉科、新生兒科、重症同時到位，不是接力。</div>'+
+ '<div class="dont"><b>禁用 ACE-I / ARB / ARNI / MRA / ivabradine / SGLT2 inhibitor</b>：孕期胎兒不良影響。</div>'+
+ '<div class="dont"><b>Pheochromocytoma 未先 α-blockade 就給 β-blocker</b>：unopposed α 造成血壓爆衝。</div>'+
+ '<div class="dont"><b>因為「怕輻射」而延遲胸部 X 光或 CTPA</b>：診斷延誤的風險遠大於輻射。</div>'+
+ '<div class="dont"><b>安胎藥誘發的肺水腫還繼續給藥</b>：第一步是停藥。</div>'+
+ '<div class="dont"><b>MS 病人只利尿不控制心跳</b>：心跳才是壓差的主要驅動因子。</div></div>'+
+ '<div class="card"><h2 class="sec">🚨 心因性休克時的決策</h2><p>當升壓與 inotrope 仍無法穩定時，需同時處理三件事：</p>'+
+ '<ul style="font-size:14px;padding-left:20px">'+
+ '<li><b>Inotrope／vasopressor</b>：2025 ESC 指引建議 levosimendan、dobutamine、milrinone（Class I C）。</li>'+
+ '<li><b>生產時機</b>：生產可解除 aortocaval compression、降低心輸出需求；且<b>先生產再上 ECMO</b>，可避開肝素化後子宮切口大出血。</li>'+
+ '<li><b>轉送 MCS 中心</b>：不穩定病人搬動風險高，應在惡化前就啟動聯繫，而非等到需要 cannulation 才開始找。</li></ul>'+
+ '<p class="small">註：2025 ESC 指引中「生產」與「轉送 MCS 中心」兩項的確切建議等級，請以 Eur Heart J 2025;46:4462-4568 原文之 recommendation table 為準。</p></div>';
+ return h;
+}
+
+function viewCase(){
+ return '<div class="card"><h2 class="sec">📋 案例：孕期急性肺水腫（ESC Congress, Erasmus MC）</h2>'+
+ '<p class="small">此案例最終診斷為 <b>pheochromocytoma of the left adrenal gland</b>，是「陣發性高血壓加心因性休克」路徑的教科書級示範。</p>'+
+ '<div class="tl" style="margin-top:14px">'+
+ '<div class="tl-i"><div class="tl-t">T = 0</div>孕期急性肺水腫，進展為心因性休克</div>'+
+ '<div class="tl-i"><div class="tl-t">T = 120 min</div>於<b>導管室內</b>施行緊急剖腹產 (emergent caesarean section at the cathlab)</div>'+
+ '<div class="tl-i"><div class="tl-t">T = 150 min</div>新生兒轉入 neonatal ICU</div>'+
+ '<div class="tl-i"><div class="tl-t">T = 180 min</div>導管室內置入 VA-ECMO，轉入 ICU</div>'+
+ '<div class="tl-i"><div class="tl-t">T = 7 days</div>VA-ECMO explantation</div>'+
+ '<div class="tl-i"><div class="tl-t">T = 3 months</div>進一步檢查發現左側腎上腺 pheochromocytoma，接受單側 adrenalectomy</div>'+
+ '</div></div>'+
+ '<div class="card"><h2 class="sec">💡 這個案例的三個教學點</h2>'+
+ '<h3>1. 為什麼在導管室生產？</h3><p style="font-size:14px">不穩定病人搬不動；生產可立即解除 aortocaval compression 並降低心輸出需求；而且先完成生產再肝素化上 ECMO，可避免 gravid uterus 與子宮切口在抗凝下大出血。導管室同時具備透視與立即 cannulation 的能力。</p>'+
+ '<h3>2. 時序反映的是團隊同步啟動</h3><p style="font-size:14px">120 → 150 → 180 分鐘的間隔，代表產科、新生兒科與 ECMO team 是<b>同時 activate</b>，不是依序呼叫。這是流程設計的問題，不是個人反應速度的問題。</p>'+
+ '<h3>3. 診斷可以是後來才浮現的</h3><p style="font-size:14px">急性期的目標是穩定血流動力學，病因診斷在 ECMO 撤除後才確立。但如果急性期完全沒把 pheochromocytoma 放進鑑別清單，後續的 metanephrines 與影像也不會被安排。catecholamine cardiomyopathy 在腫瘤切除後心功能通常可回復，這正是值得積極支持的理由。</p></div>';
+}
+
+function viewQuiz(){
+ if(S.qdone){
+  var msg=S.qscore===QUIZ.length?"全對，可以直接拿去帶 case discussion 了。":
+    (S.qscore>=QUIZ.length*0.7?"掌握良好，再回頭看一次錯的那幾題的陷阱說明。":"建議重看「鑑別診斷」與「診斷流程」兩節。");
+  return '<div class="card" style="text-align:center"><h2 class="sec">測驗結果</h2>'+
+   '<p style="font-size:38px;font-weight:700;color:var(--primary-light);margin:8px 0">'+S.qscore+' / '+QUIZ.length+'</p>'+
+   '<p class="small">'+msg+'</p><button class="btn" id="restart">重新測驗</button></div>';
+ }
+ var q=QUIZ[S.qi];
+ var h='<div class="card"><div class="pbar"><div style="width:'+((S.qi+1)/QUIZ.length*100)+'%"></div></div>'+
+  '<div class="small">第 '+(S.qi+1)+' 題 / 共 '+QUIZ.length+' 題　·　目前得分 '+S.qscore+'</div>'+
+  '<div class="qq">'+q.q+'</div>';
+ q.o.forEach(function(o,k){
+  var cls="opt";
+  if(S.qshow){ if(k===S.qsel)cls+=(k===q.c?" correct":" wrong"); else if(k===q.c)cls+=" reveal"; }
+  h+='<button class="'+cls+'" data-opt="'+k+'">'+String.fromCharCode(65+k)+'. '+o+'</button>';
+ });
+ if(S.qshow){
+  h+='<div class="explain"><p style="margin:0 0 6px;font-weight:700">'+
+   (S.qsel===q.c?"✅ 正確":"❌ 錯誤，正確答案為 "+String.fromCharCode(65+q.c))+'</p>'+
+   '<p style="margin:0">'+q.e+'</p><button class="btn" id="nextQ">'+
+   (S.qi<QUIZ.length-1?"下一題":"查看結果")+'</button></div>';
+ }
+ return h+'</div>';
+}
+
+function render(){
+ var v={home:viewHome,ddx:viewDdx,workup:viewWorkup,case:viewCase,quiz:viewQuiz}[S.tab];
+ document.getElementById("main").innerHTML=v()+FOOT;
+ document.getElementById("nav").innerHTML=TABS.map(function(t){
+  return '<button data-tab="'+t.id+'" class="'+(S.tab===t.id?"active":"")+'">'+
+   '<span class="ico">'+t.ico+'</span>'+t.t+'</button>';
+ }).join("");
+ document.documentElement.classList.toggle("dark-theme",S.dark);
+ document.getElementById("themeBtn").textContent=S.dark?"☀":"🌙";
+}
+
+function toast(msg){
+ var t=document.getElementById("toast");
+ t.textContent=msg; t.hidden=false;
+ clearTimeout(t._h); t._h=setTimeout(function(){t.hidden=true;},2200);
+}
+
+document.addEventListener("click",function(e){
+ var el;
+ if((el=e.target.closest("[data-tab]"))){S.tab=el.getAttribute("data-tab");save();render();window.scrollTo(0,0);return;}
+ if((el=e.target.closest("[data-ddx]"))){var id=el.getAttribute("data-ddx");S.open=(S.open===id?null:id);render();return;}
+ if((el=e.target.closest("[data-opt]"))){
+  if(S.qshow)return;
+  var k=parseInt(el.getAttribute("data-opt"),10);
+  S.qsel=k;S.qshow=true;if(k===QUIZ[S.qi].c)S.qscore++;render();return;}
+ if(e.target.closest("#nextQ")){
+  if(S.qi<QUIZ.length-1){S.qi++;S.qsel=null;S.qshow=false;}else{S.qdone=true;}
+  render();window.scrollTo(0,0);return;}
+ if(e.target.closest("#restart")){S.qi=0;S.qsel=null;S.qshow=false;S.qscore=0;S.qdone=false;render();return;}
+});
+
+document.getElementById("themeBtn").addEventListener("click",function(){S.dark=!S.dark;save();render();});
+
+/* ---- 分享 ---- */
+var mask=document.getElementById("mask");
+document.getElementById("shareBtn").addEventListener("click",function(){mask.hidden=false;});
+document.getElementById("closeSheet").addEventListener("click",function(){mask.hidden=true;});
+mask.addEventListener("click",function(e){if(e.target===mask)mask.hidden=true;});
+
+document.getElementById("sysShare").addEventListener("click",function(){
+ var data={title:"懷孕期肺水腫的鑑別診斷",text:"懷孕期肺水腫鑑別診斷教學（讀書會共筆）",url:location.href};
+ if(navigator.share){
+  navigator.share(data).then(function(){mask.hidden=true;}).catch(function(){});
+ }else{
+  copy(location.href,"此裝置不支援系統分享，已複製連結");
+ }
+});
+
+function copy(txt,msg){
+ function done(){mask.hidden=true;toast(msg||"已複製");}
+ if(navigator.clipboard&&window.isSecureContext){
+  navigator.clipboard.writeText(txt).then(done).catch(fallback);
+ }else{fallback();}
+ function fallback(){
+  var ta=document.createElement("textarea");
+  ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";
+  document.body.appendChild(ta);ta.select();
+  try{document.execCommand("copy");done();}catch(err){toast("複製失敗，請手動複製網址");}
+  document.body.removeChild(ta);
+ }
+}
+document.getElementById("copyLink").addEventListener("click",function(){copy(location.href,"連結已複製");});
+
+document.getElementById("dlFile").addEventListener("click",function(){
+ try{
+  var clone=document.documentElement.cloneNode(true);
+  var m=clone.querySelector("#main"); if(m)m.innerHTML="";
+  var n=clone.querySelector("#nav"); if(n)n.innerHTML="";
+  var mk=clone.querySelector("#mask"); if(mk)mk.setAttribute("hidden","");
+  clone.classList.remove("dark-theme");
+  var html="<!DOCTYPE html>\n"+clone.outerHTML;
+  var blob=new Blob([html],{type:"text/html;charset=utf-8"});
+  var a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="懷孕期肺水腫鑑別診斷.html";
+  document.body.appendChild(a);a.click();document.body.removeChild(a);
+  setTimeout(function(){URL.revokeObjectURL(a.href);},4000);
+  mask.hidden=true;toast("已下載，可直接傳給同仁");
+ }catch(err){toast("下載失敗，請改用瀏覽器的「儲存頁面」");}
+});
+
+document.getElementById("printBtn").addEventListener("click",function(){
+ mask.hidden=true;setTimeout(function(){window.print();},250);
+});
+
+load();render();
+})();
+</script>
+</body>
+</html>

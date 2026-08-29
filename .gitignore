@@ -31,6 +31,15 @@ handouts/**/*.html
 !handouts/05-cardiac-imaging/High_Lateral_STEMI_ECG_Teaching.html
 !handouts/04-valvular-disease/M-TEER_Intraprocedural_Imaging_ASE2026.html
 !handouts/12-icu-hemodynamics/Cardiac_Chamber_Pressures_Hemodynamics.html
+# 2026-08 interactive teaching modules (featured 精選互動教材)
+!handouts/02-heart-failure/HF_Exercise_Training_Frailty_Reversal.html
+!handouts/02-heart-failure/HF_14Day_Integrated_Care_Pathway.html
+!handouts/02-heart-failure/Pharmacist_Led_Remote_GDMT_QI.html
+!handouts/02-heart-failure/Pulmonary_Oedema_in_Pregnancy_DDx.html
+!handouts/04-valvular-disease/M-TEER_Strain_Imaging.html
+!handouts/05-cardiac-imaging/LVEF_Not_Everything_Echo_to_CPET.html
+!handouts/05-cardiac-imaging/MAD_Mitral_Annular_Disjunction.html
+!handouts/08-genetic-medicine/Cardiomyopathy_Genetic_Testing.html
 # Curated portals — allow all HTML in these dedicated folders (drop new decks in freely)
 !handouts/classroom-teaching/**/*.html
 !handouts/95-management-leadership/**/*.html

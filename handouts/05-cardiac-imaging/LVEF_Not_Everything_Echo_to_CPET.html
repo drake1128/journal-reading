@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>LVEF 不是全部 — 心超室教學：從 Echo 到 CPET</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#e74c3c; --accent-light:#ff6b5b;
+  --success:#27ae60; --warning:#f39c12; --bg-cream:#faf8f5; --bg-card:#ffffff;
+  --text-dark:#2c3e50; --text-muted:#7f8c8d; --border:#ecf0f1; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;font-family:'Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  background:var(--bg-cream);color:var(--text-dark);line-height:1.7;}
+.app{max-width:900px;margin:0 auto;padding-bottom:env(safe-area-inset-bottom);}
+header{background:linear-gradient(135deg,var(--primary),var(--primary-light));color:#fff;padding:22px 18px 16px;}
+header .kicker{font-size:12px;letter-spacing:.18em;opacity:.8;text-transform:uppercase;}
+header h1{margin:6px 0 4px;font-size:24px;font-weight:700;line-height:1.35;}
+header p{margin:0;font-size:13px;opacity:.9;}
+nav{position:sticky;top:0;z-index:20;background:var(--bg-card);border-bottom:1px solid var(--border);
+  display:flex;overflow-x:auto;scrollbar-width:none;box-shadow:0 2px 8px rgba(0,0,0,.04);}
+nav::-webkit-scrollbar{display:none;}
+nav button{flex:0 0 auto;min-height:48px;padding:12px 15px;border:0;background:none;font-family:inherit;
+  font-size:14px;font-weight:500;color:var(--text-muted);cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap;}
+nav button.active{color:var(--primary);border-bottom-color:var(--accent);font-weight:700;}
+main{padding:16px 14px 40px;}
+.card{background:var(--bg-card);border-radius:14px;box-shadow:var(--shadow);padding:18px;margin-bottom:16px;}
+.card h2{margin:0 0 4px;font-size:20px;color:var(--primary);}
+.card h3{margin:20px 0 8px;font-size:16px;color:var(--primary-light);}
+.card h3:first-child{margin-top:0;}
+.sub{color:var(--text-muted);font-size:13px;margin:0 0 14px;}
+p{font-size:15px;}
+.msg{border-left:5px solid var(--primary-light);background:#f4f8fc;border-radius:0 10px 10px 0;padding:12px 14px;margin-bottom:12px;}
+.msg strong{color:var(--primary);}
+.msg .n{display:inline-block;background:var(--primary);color:#fff;border-radius:50%;width:22px;height:22px;
+  line-height:22px;text-align:center;font-size:12px;font-weight:700;margin-right:8px;}
+.box{border-radius:10px;padding:13px 15px;margin:12px 0;font-size:14.5px;}
+.box.green{background:#eaf7ef;border-left:5px solid var(--success);}
+.box.red{background:#fdeeec;border-left:5px solid var(--accent);}
+.box.amber{background:#fff6e6;border-left:5px solid var(--warning);}
+.box.grey{background:#f2f4f6;border-left:5px solid var(--text-muted);}
+.box b{display:block;margin-bottom:4px;}
+table{width:100%;border-collapse:collapse;font-size:12.5px;}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -4px;}
+th,td{padding:7px 6px;text-align:center;border-bottom:1px solid var(--border);white-space:nowrap;}
+th{background:var(--primary);color:#fff;font-weight:600;font-size:12px;}
+td.param{text-align:left;background:#f4f8fc;font-weight:600;position:sticky;left:0;z-index:1;}
+tr.hl td{background:#fdeeec;}
+td.good{background:#eaf7ef;color:#1d7a45;font-weight:700;}
+td.same{background:#fdeeec;color:#b03a2e;font-weight:700;}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--text-muted);margin-top:10px;}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px;}
+ul{padding-left:20px;margin:8px 0;}
+li{font-size:14.5px;margin-bottom:6px;}
+.term{color:var(--primary-light);font-weight:600;}
+.chart{width:100%;height:auto;display:block;}
+.tl{border-left:3px solid var(--border);margin-left:8px;padding-left:16px;}
+.tl .item{position:relative;margin-bottom:16px;}
+.tl .item::before{content:'';position:absolute;left:-24px;top:5px;width:13px;height:13px;border-radius:50%;
+  background:var(--primary-light);border:3px solid var(--bg-card);}
+.tl .date{font-size:12px;color:var(--accent);font-weight:700;letter-spacing:.05em;}
+.tl .body{font-size:14.5px;}
+.calc label{display:block;font-size:13px;color:var(--text-muted);margin:10px 0 4px;}
+.calc input[type=range]{width:100%;}
+.calc .val{font-size:15px;font-weight:600;color:var(--primary);}
+.efbox{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;}
+.efbox>div{flex:1;min-width:120px;background:#f4f8fc;border-radius:10px;padding:12px;text-align:center;}
+.efbox .big{font-size:30px;font-weight:700;color:var(--primary);line-height:1.2;}
+.efbox .lbl{font-size:12px;color:var(--text-muted);}
+.chk{display:flex;align-items:flex-start;gap:11px;min-height:48px;padding:11px 12px;border:1px solid var(--border);
+  border-radius:10px;margin-bottom:9px;cursor:pointer;transition:.15s;font-size:14.5px;}
+.chk.on{background:#eaf7ef;border-color:var(--success);}
+.chk .bx{flex:0 0 auto;width:22px;height:22px;border:2px solid var(--text-muted);border-radius:6px;margin-top:2px;
+  display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;font-weight:700;}
+.chk.on .bx{background:var(--success);border-color:var(--success);}
+.opt{display:block;width:100%;text-align:left;min-height:48px;padding:13px 15px;margin-bottom:9px;border-radius:10px;
+  border:2px solid var(--border);background:var(--bg-card);font-family:inherit;font-size:14.5px;color:var(--text-dark);cursor:pointer;}
+.opt:disabled{cursor:default;}
+.opt.correct{border-color:var(--success);background:#eaf7ef;}
+.opt.wrong{border-color:var(--accent);background:#fdeeec;}
+.pbar{height:7px;background:var(--border);border-radius:4px;overflow:hidden;margin-bottom:14px;}
+.pbar div{height:100%;background:var(--primary-light);transition:.3s;}
+.btn{min-height:48px;padding:12px 22px;border:0;border-radius:10px;background:var(--primary);color:#fff;
+  font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;margin-top:12px;}
+.btn.ghost{background:none;color:var(--primary);border:2px solid var(--primary);}
+footer{background:var(--primary);color:#fff;padding:20px 18px 26px;font-size:12.5px;line-height:1.8;}
+footer .sig{font-weight:600;margin-bottom:10px;}
+footer .dis{opacity:.78;font-size:11.5px;}
+.pill{display:inline-block;background:#eef3f8;color:var(--primary);border-radius:20px;padding:3px 11px;
+  font-size:12px;font-weight:600;margin:0 6px 6px 0;}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState} = React;
+
+/* ---------- 資料 ---------- */
+const ECHO = {
+  cols:["Jul 2023 (Baseline)","Jan 2024","Sep 2024","Sep 2025","Feb 2026 (Final)"],
+  rows:[
+    {p:"LVEF — Simpson (%)", v:["27","27","25–30","27","26"], mark:[,,,,"same"], key:true},
+    {p:"LVEDD (mm)", v:["64.2","60","60","61","62.9"]},
+    {p:"LAVi (ml/m²)", v:["40.1 ↑","37.1 ↑","34.1 ↑","30.2","21.4 ✓"], mark:[,,,,"good"]},
+    {p:"PASP (mmHg)", v:["46 ↑","43 ↑","42 ↑","Normal","24 ✓"], mark:[,,,,"good"]},
+    {p:"Diastolic dysfunction", v:["Grade II","Grade II","Grade II","Grade II","Grade II"]},
+    {p:"TAPSE (mm)", v:["17","12 ↓","20.8","19.7","22 ✓"], mark:[,,,,"good"]},
+    {p:"Estimated RAP (mmHg)", v:["~5–8","~8","5","—","3 ✓"], mark:[,,,,"good"]},
+  ]
+};
+const CPET_X = ["Oct 2023","Mar 2025","Sep 2025","Feb 2026"];
+const VO2 = [{v:20.0,p:65},{v:23.4,p:78},{v:22.0,p:74},{v:25.6,p:86}];
+const OUES = [58,76,77,91];
+const O2P  = [63,77,77,104];
+
+const QUESTIONS = [
+  { q:"經過 2.5 年 CPET 導引的心臟復健與最佳化 GDMT，此病人 LVEF 仍是 26%，但 VO₂ peak 上升 28%（達 86% predicted），O₂ pulse、OUES、肺動脈壓與左心房容積均已正常化。依 ESC guidelines 與現有證據，下列何者正確？",
+    o:["Peak VO₂ 的預後價值獨立於 LVEF；運動為主的心臟復健在 HFrEF 屬 Class I 建議",
+       "因為 LVEF 沒有改善，VO₂ peak 的上升在心衰竭並無已確立的預後意義",
+       "監督式運動訓練必須等 LVEF 回升到 > 40% 之後才屬 Class I 建議",
+       "肺動脈壓上升時運動訓練是禁忌，必須等壓力正常後才能開始"],
+    a:0,
+    e:"Peak VO₂ 是心衰竭中強而獨立的預後指標，能捕捉 LVEF 抓不到的治療反應。2021 ESC HF Guidelines 對「規律運動」給 Class I, Level A，且不以 EF 門檻為前提。B 錯在功能性進步本身就有預後意義；C 錯在建議並非由 EF 門檻決定；D 錯在肺高壓本身不是運動禁忌，本例監督式復健反而參與了肺壓的正常化。"},
+  { q:"心超報告上 LVEF 從 27% 變成 26%。最合理的判讀是？",
+    o:["病人惡化了，需要通知醫師調整藥物","這個差異落在測量誤差範圍內，視為「沒有變化」",
+       "表示 GDMT 失效","代表右心功能同時惡化"],
+    a:1,
+    e:"Biplane Simpson's LVEF 的觀察者間變異度通常有數個百分點；1% 的差異遠小於重複測量的誤差。真正有意義的變化通常需要更大的幅度，並且要對照同一位操作者、同樣的切面品質。這正是本個案的核心：不要用一個位在雜訊裡的數字下臨床結論。"},
+  { q:"下列哪一組心超參數，最能反映本個案「血流動力學逆向重塑 (hemodynamic reverse remodeling)」？",
+    o:["LVEF 與 LVEDD","LAVi、PASP、TAPSE、estimated RAP","LVEF 與 LV mass","僅有 E/A ratio"],
+    a:1,
+    e:"本例 LVEF 26–27% 未變、LVEDD 64.2 → 62.9 mm 也幾乎沒變（沒有結構性逆向重塑）；但 LAVi 40.1 → 21.4 ml/m²、PASP 46 → 24 mmHg、TAPSE 17 → 22 mm、RAP → 3 mmHg 全數正常化。充填壓與右心功能的指標，才是這個病人真正改善的地方。"},
+  { q:"O₂ pulse (VO₂/HR) 從 63% 上升到 104% predicted。下列敘述何者最正確？",
+    o:["等於證明 stroke volume 大幅上升","反映 stroke volume × 週邊組織攝氧差 (a-vO₂ difference)，兩者皆可貢獻",
+       "只反映心跳的變化","與心超的 LVOT VTI 完全無關"],
+    a:1,
+    e:"O₂ pulse = VO₂/HR ≈ stroke volume × (a-v)O₂ difference。它是 SV 的替代指標，但不是 SV 本身；週邊肌肉的氧氣萃取能力提升同樣會把它推高。本例在 LVEF 不變的情況下 O₂ pulse 正常化，投影片也把功勞歸給下肢阻力訓練後的週邊氧化能力，這是合理的解讀方向。"},
+  { q:"關於 OUES (Oxygen Uptake Efficiency Slope)，下列何者正確？",
+    o:["必須做到最大運動 (maximal effort) 才能計算","即使次最大運動也能計算，較不依賴病人是否盡全力",
+       "與 VE/VCO₂ slope 是同一個參數","只在 HFpEF 有意義"],
+    a:1,
+    e:"OUES 由 VO₂ 對 log VE 的斜率求得，相對不依賴 maximal effort，對做不到最大運動的心衰竭病人特別有用。本例的關鍵轉折就是「早期偵測到 OUES 進入平原期」，據此把訓練處方改成強化下肢阻力訓練，之後 OUES 58% → 91%、O₂ pulse → 104%。"},
+];
+
+const PRACTICE = [
+  {id:1,t:"LVEF 用 biplane Simpson's，避免 apical foreshortening；同一位病人盡量同一位操作者追蹤。"},
+  {id:2,t:"影像品質不佳時主動註記，必要時建議 contrast (LVO) 或轉 CMR，不要硬報一個不可靠的 EF。"},
+  {id:3,t:"LAVi 每次都量、都寫（正常 ≤ 34 ml/m²）；本例它是最漂亮的進步指標。"},
+  {id:4,t:"TR Vmax 要抓到完整包絡線 (envelope)，並用 IVC 直徑與塌陷度估 RAP，PASP = 4 × TRVmax² + RAP。TR 訊號不足就註明「無法估計」，不要外插。"},
+  {id:5,t:"TAPSE 對準 lateral tricuspid annulus，M-mode 角度偏了會低估；正常 ≥ 17 mm。"},
+  {id:6,t:"舒張功能分級請把 E/e′、TR Vmax、LAVi 一起呈現，而不是只給一個 Grade——本例 LAVi 與 TR 都正常化了，分級是否仍為 Grade II 值得回頭討論。"},
+  {id:7,t:"報告的結論欄，除了 EF，記得寫出「充填壓、肺壓、右心功能」的趨勢；臨床醫師要的是趨勢，不是單點。"},
+  {id:8,t:"看到 EF 沒進步的心衰竭病人，別預設「復健沒有用」——去看 CPET 報告的 VO₂ peak、OUES、O₂ pulse。"},
+];
+
+/* ---------- 圖表元件 ---------- */
+const BarChart = ({title,ylabel,max,series,refLine,refLabel,unitFmt}) => {
+  const W=340,H=210,L=38,R=8,T=18,B=38;
+  const pw=W-L-R, ph=H-T-B, n=CPET_X.length, g=pw/n;
+  const y=v=>T+ph-(v/max)*ph;
+  const bw=series.length>1? g*0.28 : g*0.42;
+  return (
+    <div style={{marginBottom:18}}>
+      <div style={{fontSize:13,fontWeight:700,color:'var(--primary)',marginBottom:4}}>{title}</div>
+      <svg className="chart" viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg">
+        <line x1={L} y1={T} x2={L} y2={T+ph} stroke="#ccc"/>
+        <line x1={L} y1={T+ph} x2={W-R} y2={T+ph} stroke="#ccc"/>
+        {[0,.25,.5,.75,1].map((f,i)=>(
+          <g key={i}>
+            <line x1={L} y1={T+ph-f*ph} x2={W-R} y2={T+ph-f*ph} stroke="#eee"/>
+            <text x={L-5} y={T+ph-f*ph+3} fontSize="8" fill="#888" textAnchor="end">{Math.round(max*f)}</text>
+          </g>))}
+        {refLine && <g>
+          <line x1={L} y1={y(refLine)} x2={W-R} y2={y(refLine)} stroke="#e74c3c" strokeDasharray="4 3"/>
+          <text x={W-R} y={y(refLine)-4} fontSize="8" fill="#e74c3c" textAnchor="end">{refLabel}</text>
+        </g>}
+        {series.map((s,si)=> s.data.map((d,i)=>{
+          const cx=L+g*i+g/2, x = series.length>1 ? cx-bw+si*(bw+2) : cx-bw/2;
+          return (
+            <g key={si+'-'+i}>
+              <rect x={x} y={y(d)} width={bw} height={T+ph-y(d)} fill={s.color} opacity={0.45+0.55*(i/(n-1))} rx="2"/>
+              <text x={x+bw/2} y={y(d)-4} fontSize="8.5" fill="var(--text-dark)" textAnchor="middle" fontWeight="700">
+                {unitFmt? unitFmt(d,i,si): d+'%'}
+              </text>
+            </g>);
+        }))}
+        {CPET_X.map((c,i)=>(
+          <text key={i} x={L+g*i+g/2} y={T+ph+13} fontSize="8.5" fill="#666" textAnchor="middle">{c}</text>))}
+        <text x={10} y={T+ph/2} fontSize="8.5" fill="#888" textAnchor="middle"
+              transform={`rotate(-90 10 ${T+ph/2})`}>{ylabel}</text>
+      </svg>
+      {series.length>1 &&
+        <div className="legend">
+          {series.map((s,i)=>(<span key={i}><i style={{background:s.color}}></i>{s.name}</span>))}
+        </div>}
+    </div>
+  );
+};
+
+/* ---------- 各分頁 ---------- */
+const Home = () => (
+  <div>
+    <div className="card">
+      <h2>Take Home（先看這四點）</h2>
+      <p className="sub">ESC Congress 2026 · Clinical Case Corner 4 個案改編教學</p>
+      <div className="msg"><span className="n">1</span><strong>功能與 LVEF 會脫鉤。</strong>在 PPCM（peripartum cardiomyopathy）這位病人身上，2.5 年後 LVEF 仍是 26%，但運動能力進步 28%。不要只用 ejection fraction 判斷復健成功與否。</div>
+      <div className="msg"><span className="n">2</span><strong>CPET 看得到 echo 看不到的東西。</strong>它同時用來「開運動處方」(VT1–VT2) 和「監測反應」(VO₂ peak、OUES、O₂ pulse)。</div>
+      <div className="msg"><span className="n">3</span><strong>長期監督式心臟復健是安全且會持續進步的。</strong>即使有廣泛中膈纖維化與嚴重左心室功能不全，本例 2.5 年持續改善且未因運動而惡化。</div>
+      <div className="msg"><span className="n">4</span><strong>個別化、依數據調整目標，才不會卡在平原期。</strong>本例在 OUES 提早出現 plateau 時就加強下肢阻力訓練，隨後 VO₂ peak、O₂ pulse、OUES 再次上升。</div>
+      <div className="box green">
+        <b>對心超室最重要的一句話</b>
+        LVEF 是「收縮功能的一個數字」，不是「病人好不好的總分」。當你發現 EF 沒動，請往下看 LAVi、PASP、TAPSE、RAP——這個病人真正的進步，全都寫在那幾行裡。
+      </div>
+    </div>
+    <div className="card">
+      <h3>這份教材會回答的問題</h3>
+      <ul>
+        <li>LVEF 為什麼「不動」不代表「沒進步」？</li>
+        <li>心超報告上哪些數字，才抓得到血流動力學的逆向重塑？</li>
+        <li>VO₂ peak、OUES、O₂ pulse、VT1/VT2 是什麼？跟我們量的東西怎麼對話？</li>
+        <li>心超室在追蹤這類病人時，實務上該加強哪些量測？</li>
+      </ul>
+      <span className="pill">心臟衰竭</span><span className="pill">運動生理</span><span className="pill">心臟影像判讀</span><span className="pill">心臟復健</span>
+    </div>
+  </div>
+);
+
+const CaseTab = () => (
+  <div className="card">
+    <h2>個案時間軸</h2>
+    <p className="sub">產後心肌病變 (PPCM)，合併廣泛中膈纖維化、嚴重左心室功能不全</p>
+    <div className="tl">
+      <div className="item"><div className="date">JUL 2023 · Baseline</div>
+        <div className="body">LVEF 27%、LVEDD 64.2 mm、LAVi 40.1 ml/m²、PASP 46 mmHg、TAPSE 17 mm。診斷 PPCM，開始 GDMT。</div></div>
+      <div className="item"><div className="date">OCT 2023 · 首次 CPET</div>
+        <div className="body">VO₂ peak 20.0 ml/kg/min（65% predicted）、OUES 58%、O₂ pulse 63%。開始監督式、CPET 導引的心臟復健。</div></div>
+      <div className="item"><div className="date">JAN 2024</div>
+        <div className="body">LVEF 27%（未變）；TAPSE 一度掉到 12 mm。</div></div>
+      <div className="item"><div className="date">MAR 2025</div>
+        <div className="body">VO₂ peak 23.4（78%），OUES 76%、O₂ pulse 77% — 明顯進步。</div></div>
+      <div className="item"><div className="date">SEP 2025 · 平原期</div>
+        <div className="body">VO₂ peak 回落到 22.0（74%），OUES 停在 77%。<b>偵測到 OUES plateau → 加強下肢阻力訓練</b>（針對週邊肌肉與氧化能力）。</div></div>
+      <div className="item"><div className="date">FEB 2026 · Final</div>
+        <div className="body">VO₂ peak 25.6（86% predicted，自 baseline +28%）、OUES 91%、O₂ pulse 104%。PASP 24 mmHg、LAVi 21.4 ml/m²、TAPSE 22 mm、RAP 3 mmHg。<b>LVEF 仍是 26%。</b></div></div>
+    </div>
+    <div className="box amber">
+      <b>值得注意的對比</b>
+      LVEDD 64.2 → 62.9 mm，幾乎沒變。也就是說，這個病人有的是「血流動力學的逆向重塑」，而不是「結構性的逆向重塑」——心室大小和收縮分率都沒回來，但充填壓、肺壓、右心功能回來了，運動能力也回來了。
+    </div>
+  </div>
+);
+
+const EchoTab = () => (
+  <div>
+    <div className="card">
+      <h2>心超數據：五次追蹤</h2>
+      <p className="sub">Echocardiographic and hemodynamic evolution（左右可滑動）</p>
+      <div className="scroll">
+        <table>
+          <thead><tr><th style={{textAlign:'left'}}>Parameter</th>{ECHO.cols.map(c=><th key={c}>{c}</th>)}</tr></thead>
+          <tbody>
+            {ECHO.rows.map(r=>(
+              <tr key={r.p} className={r.key?'hl':''}>
+                <td className="param">{r.p}</td>
+                {r.v.map((v,i)=><td key={i} className={(r.mark&&r.mark[i])||''}>{v}</td>)}
+              </tr>))}
+          </tbody>
+        </table>
+      </div>
+      <div className="legend">
+        <span><i style={{background:'#eaf7ef'}}></i>改善（血流動力學逆向重塑）</span>
+        <span><i style={{background:'#fdeeec'}}></i>未變（LVEF — 關鍵發現）</span>
+      </div>
+      <div className="box red">
+        <b>LVEF 全程 26–27%</b>
+        即使 GDMT 已最佳化、復健做滿 2.5 年，收縮分率沒有回升。若只看這一行，會得到「治療失敗」的結論。
+      </div>
+      <div className="box green">
+        <b>但血流動力學正常化了</b>
+        PASP 46 → 24 mmHg · LAVi 40.1 → 21.4 ml/m² · TAPSE 17 → 22 mm · RAP → 3 mmHg。這叫 systolic–functional dissociation（收縮功能與功能表現的脫鉤）。
+      </div>
+    </div>
+    <div className="card">
+      <h3>量測上的提醒</h3>
+      <ul>
+        <li><span className="term">LVEF</span>：biplane Simpson's 的觀察者間變異度有數個百分點。27% → 26% 落在雜訊裡，正確的判讀是「沒有變化」，不是「稍微變差」。</li>
+        <li><span className="term">LAVi</span>：正常上限約 34 ml/m²。本例 40.1 → 21.4，是這張表裡進步幅度最大的參數之一，前提是每次都認真量、認真寫。</li>
+        <li><span className="term">PASP</span>：= 4 × TRVmax² + RAP。需要完整的 TR 包絡線 + IVC 評估 RAP。訊號不足時請直接註明無法估計。</li>
+        <li><span className="term">TAPSE</span>：正常 ≥ 17 mm，M-mode 角度沒對準 lateral tricuspid annulus 會低估——本例 Jan 2024 掉到 12 mm，之後又回到 20.8，這種上下跳動時值得回頭確認取樣角度。</li>
+      </ul>
+      <div className="box grey">
+        <b>一個可以在讀書會討論的點</b>
+        表中舒張功能全程都標 Grade II。但 2016 ASE/EACVI 的分級演算法會參考 LAVi、TR Vmax、E/e′；當 LAVi 與 TR 都已正常化，分級是否仍應維持 Grade II，值得回去看原始影像與 E/e′ 數據再確認。教材不預設誰對誰錯，但這正是心超室該提出來的問題。
+      </div>
+    </div>
+  </div>
+);
+
+const CpetTab = () => (
+  <div>
+    <div className="card">
+      <h2>CPET 的四個數字</h2>
+      <p className="sub">Cardiopulmonary exercise testing — 心超室同仁的白話版</p>
+      <div className="box grey">
+        <b>VO₂ peak（峰值攝氧量，ml/kg/min）</b>
+        病人運動到極限時每公斤每分鐘能用掉多少氧氣。它是心衰竭中最強的預後指標之一，而且獨立於 LVEF。臨床上常用的參考：低於約 30 ml/kg/min 已在正常下限之下；持續偏低（例如有服用 beta-blocker 者 ≤ 12、未服用者 ≤ 14 ml/kg/min）是考慮進階心衰竭治療評估的訊號之一。
+      </div>
+      <div className="box grey">
+        <b>O₂ pulse（氧脈搏 = VO₂ / HR）</b>
+        每一次心跳所輸送、並被組織用掉的氧氣量 ≈ stroke volume × 動靜脈含氧差。它是 SV 的替代指標，但不等於 SV——週邊肌肉的萃取能力變好，它也會上升。本例正是如此：LVEF 沒動，O₂ pulse 卻到 104% predicted。
+      </div>
+      <div className="box grey">
+        <b>OUES（Oxygen Uptake Efficiency Slope）</b>
+        VO₂ 對 log VE 的斜率，代表「每分通氣量換到多少氧氣」的效率。最大的優點是相對不依賴病人有沒有拚到極限，對做不到 maximal effort 的心衰竭病人特別實用。
+      </div>
+      <div className="box grey">
+        <b>VT1 / VT2（第一、第二換氣閾值）</b>
+        用來「開運動處方」的兩個門檻，決定訓練強度區間。這是 CPET 不只是「測驗」而是「治療工具」的原因。
+      </div>
+      <div className="box amber">
+        <b>延伸</b>
+        VE/VCO₂ slope（通氣效率）在心衰竭同樣有很強的預後意義，常與 VO₂ peak 一起判讀；本個案的投影片沒有列出，但實務上值得一併看。
+      </div>
+    </div>
+    <div className="card">
+      <h3>2.5 年的變化</h3>
+      <BarChart title="Peak Oxygen Uptake (VO₂ peak)" ylabel="ml/kg/min" max={30}
+        series={[{name:"VO₂ peak",color:"#2d5a87",data:VO2.map(d=>d.v)}]}
+        refLine={30} refLabel="正常下限 ~30"
+        unitFmt={(d,i)=>`${d} (${VO2[i].p}%)`} />
+      <BarChart title="Peripheral O₂ Efficiency (OUES & O₂ pulse)" ylabel="% of predicted" max={120}
+        series={[{name:"OUES (% pred)",color:"#2d5a87",data:OUES},
+                 {name:"O₂ pulse (% pred)",color:"#27ae60",data:O2P}]}
+        refLine={85} refLabel="正常下限 85%" />
+      <div className="box green">
+        <b>轉折點：Sep 2025</b>
+        OUES 卡在 77%、VO₂ peak 甚至回落。團隊沒有等下一次再說，而是即時把處方改成強化下肢阻力訓練（週邊肌肉 + 氧化能力）。四個月後 OUES 91%、O₂ pulse 104%、VO₂ peak 25.6（86% pred）。這就是「data-driven target reassessment」。
+      </div>
+    </div>
+  </div>
+);
+
+const WhyTab = () => {
+  const [edv,setEdv]=useState(180),[esv,setEsv]=useState(132);
+  const ef=v=>Math.round(((edv-v)/edv)*100);
+  return (
+    <div>
+      <div className="card">
+        <h2>為什麼 LVEF 不是全部</h2>
+        <h3>1. EF 只是一個比值</h3>
+        <p>LVEF = (EDV − ESV) / EDV。它描述的是「這一次心跳打出去容積的百分比」，不包含心跳、充填壓、肺壓、右心功能、週邊肌肉攝氧能力——而這些全都決定病人能不能走完一段樓梯。</p>
+        <h3>2. EF 有測量誤差，小變化沒有意義</h3>
+        <p>拉動下面的滑桿，看看 ESV 只差幾毫升，EF 會跑掉多少：</p>
+        <div className="calc">
+          <label>EDV（舒張末期容積）：<span className="val">{edv} ml</span></label>
+          <input type="range" min="120" max="260" value={edv} onChange={e=>setEdv(+e.target.value)}/>
+          <label>ESV（收縮末期容積）：<span className="val">{esv} ml</span></label>
+          <input type="range" min="60" max="220" value={esv} onChange={e=>setEsv(+e.target.value)}/>
+        </div>
+        <div className="efbox">
+          <div><div className="big">{ef(esv)}%</div><div className="lbl">目前描記的 LVEF</div></div>
+          <div><div className="big">{ef(Math.max(1,esv-8))}%</div><div className="lbl">ESV 少描 8 ml</div></div>
+          <div><div className="big">{ef(esv+8)}%</div><div className="lbl">ESV 多描 8 ml</div></div>
+        </div>
+        <div className="box amber" style={{marginTop:14}}>
+          光是心內膜描記差幾毫升，EF 就能差好幾個百分點。所以 27% → 26% 這種變化，臨床上等同於「沒有變化」；反過來說，也不該用這種幅度去宣稱病人「進步了」。
+        </div>
+      </div>
+      <div className="card">
+        <h3>3. 這個病人真正改善的是什麼？</h3>
+        <ul>
+          <li><b>充填壓下降</b>：LAVi 40.1 → 21.4 ml/m²（左心房是慢性充填壓的記錄器）。</li>
+          <li><b>後負荷／肺循環改善</b>：PASP 46 → 24 mmHg。</li>
+          <li><b>右心功能改善</b>：TAPSE 17 → 22 mm，RAP → 3 mmHg。</li>
+          <li><b>週邊氧化能力提升</b>：O₂ pulse 63% → 104% predicted，OUES 58% → 91%。</li>
+        </ul>
+        <p>心衰竭的運動不耐從來不只是心臟的問題——骨骼肌質量、微血管密度、粒線體氧化能力、通氣效率都佔了很大比重。這也是為什麼「加強下肢阻力訓練」能在 LVEF 完全沒動的情況下，把 VO₂ peak 再推上去。</p>
+        <div className="box green">
+          <b>一句話帶走</b>
+          EF 測的是幫浦的一個切面；VO₂ peak 測的是整個系統（心臟 + 肺 + 血管 + 肌肉）真正能交付的效能。兩者不一致時，不是數據錯了，而是它們本來就在講不同的事。
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const PracticeTab = () => {
+  const [on,setOn]=useState({});
+  const done=Object.values(on).filter(Boolean).length;
+  return (
+    <div className="card">
+      <h2>心超室實務建議</h2>
+      <p className="sub">追蹤 HFrEF / PPCM 病人時的自我檢核（{done}/{PRACTICE.length}）</p>
+      <div className="pbar"><div style={{width:`${done/PRACTICE.length*100}%`}}/></div>
+      {PRACTICE.map(i=>(
+        <div key={i.id} className={`chk ${on[i.id]?'on':''}`} onClick={()=>setOn({...on,[i.id]:!on[i.id]})}>
+          <div className="bx">{on[i.id]?'✓':''}</div><span>{i.t}</span>
+        </div>))}
+      <div className="box grey">
+        <b>報告寫法的小建議</b>
+        結論欄除了 EF，加一句趨勢描述，例如：「LVEF 較前次無顯著變化（在測量誤差範圍內）；LAVi 與估計肺動脈收縮壓較前次明顯下降，TAPSE 改善。」臨床端要的就是這句話。
+      </div>
+    </div>
+  );
+};
+
+const QuizTab = () => {
+  const [i,setI]=useState(0),[sel,setSel]=useState(null),[show,setShow]=useState(false),[score,setScore]=useState(0),[end,setEnd]=useState(false);
+  const q=QUESTIONS[i];
+  const pick=k=>{ if(show)return; setSel(k); setShow(true); if(k===q.a) setScore(s=>s+1); };
+  const next=()=>{ if(i<QUESTIONS.length-1){setI(i+1);setSel(null);setShow(false);} else setEnd(true); };
+  const reset=()=>{setI(0);setSel(null);setShow(false);setScore(0);setEnd(false);};
+  if(end) return (
+    <div className="card" style={{textAlign:'center'}}>
+      <h2>測驗完成</h2>
+      <div style={{fontSize:52,fontWeight:700,color:'var(--primary)'}}>{score}/{QUESTIONS.length}</div>
+      <p className="sub">{score===QUESTIONS.length?'全對——可以去教別人了。':score>=3?'不錯，回頭把錯的那題的解析再看一次。':'建議先回到「為什麼 LVEF 不是全部」與「CPET 的四個數字」兩節。'}</p>
+      <button className="btn ghost" onClick={reset}>再測一次</button>
+    </div>);
+  return (
+    <div className="card">
+      <h2>小測驗</h2>
+      <p className="sub">第 {i+1} 題 / 共 {QUESTIONS.length} 題</p>
+      <div className="pbar"><div style={{width:`${(i+1)/QUESTIONS.length*100}%`}}/></div>
+      <p style={{fontWeight:500}}>{q.q}</p>
+      {q.o.map((o,k)=>(
+        <button key={k} className={`opt ${show&&k===q.a?'correct':''} ${show&&sel===k&&k!==q.a?'wrong':''}`}
+          disabled={show} onClick={()=>pick(k)}>
+          <b style={{marginRight:8,color:'var(--primary-light)'}}>{'ABCD'[k]}</b>{o}
+        </button>))}
+      {show && (
+        <div className={`box ${sel===q.a?'green':'red'}`}>
+          <b>{sel===q.a?'✅ 正確':'❌ 正確答案是 '+'ABCD'[q.a]}</b>
+          {q.e}
+          <div><button className="btn" onClick={next}>{i<QUESTIONS.length-1?'下一題':'看結果'}</button></div>
+        </div>)}
+    </div>
+  );
+};
+
+const EvidenceTab = () => (
+  <div className="card">
+    <h2>證據等級與使用前提</h2>
+    <p className="sub">用教材前請先讀完這一頁</p>
+    <div className="box red">
+      <b>這是 n = 1 的個案</b>
+      本教材改編自 ESC Congress 2026 Clinical Case Corner 的單一病例報告。個案報告能示範概念、產生假說，但不能證明因果，也不能外推成族群層級的療效宣稱。「復健讓肺壓正常化」在本例是合理推論，不是被證明的因果。
+    </div>
+    <div className="box amber">
+      <b>Guideline class 的精確說法</b>
+      2021 ESC HF Guidelines：對所有能運動的心衰竭病人，<b>規律運動為 Class I</b>（改善運動能力與生活品質、降低心衰竭住院）。至於<b>「監督式、運動為主的心臟復健計畫」</b>，指引的措辭是針對疾病較嚴重、衰弱或多共病者「應予考慮」，屬 <b>Class IIa</b>。投影片把兩者合併寫成 Class I，方向沒錯，但用在正式教材或報告時建議分開陳述。
+    </div>
+    <div className="box grey">
+      <b>時效提醒</b>
+      2026 ESC Congress（8/28–31，Munich）預定發表 <b>2026 ESC Guidelines for the Management of Heart Failure</b> 與 <b>2026 ESC Guidelines on Cardiac Rehabilitation</b>。上述 class 的引用以 2021 版為準，正式文件公布後應重新核對再更新本教材。
+    </div>
+    <h3>延伸閱讀方向</h3>
+    <ul>
+      <li>Peak VO₂ 在心衰竭的預後價值與進階治療轉介門檻（ISHLT 相關文件）</li>
+      <li>ExTraMATCH II 等運動訓練在 HFrEF 的統合分析——功能改善明確，死亡率效益的解讀需謹慎</li>
+      <li>2016 ASE/EACVI 舒張功能評估建議（LVEF 下降者的分級演算法）</li>
+      <li>PPCM 的 CMR 纖維化與 LVEF 恢復的關聯</li>
+    </ul>
+  </div>
+);
+
+/* ---------- 主體 ---------- */
+const TABS=[
+  {id:'home',n:'重點',C:Home},
+  {id:'case',n:'個案',C:CaseTab},
+  {id:'echo',n:'心超判讀',C:EchoTab},
+  {id:'cpet',n:'CPET',C:CpetTab},
+  {id:'why',n:'為何 EF 不是全部',C:WhyTab},
+  {id:'practice',n:'實務建議',C:PracticeTab},
+  {id:'quiz',n:'小測驗',C:QuizTab},
+  {id:'evidence',n:'證據備註',C:EvidenceTab},
+];
+
+const App = () => {
+  const [tab,setTab]=useState('home');
+  const Cur=(TABS.find(t=>t.id===tab)||TABS[0]).C;
+  const go=id=>{setTab(id);window.scrollTo({top:0,behavior:'smooth'});};
+  return (
+    <div className="app">
+      <header>
+        <div className="kicker">心超室教學 · Echo Lab Teaching</div>
+        <h1>LVEF 不是全部</h1>
+        <p>當收縮分率不動，病人卻進步了 28% — 從 Echo 到 CPET 的判讀</p>
+      </header>
+      <nav>{TABS.map(t=>(
+        <button key={t.id} className={tab===t.id?'active':''} onClick={()=>go(t.id)}>{t.n}</button>))}
+      </nav>
+      <main><Cur/></main>
+      <footer>
+        <div className="sig">
+          讀書會共筆整理人<br/>
+          謝慕揚 醫師 MD, PhD, FESC<br/>
+          心臟衰竭與運動生理／心臟影像判讀
+        </div>
+        <div className="dis">
+          本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br/>
+          僅供學術與教育用途，不代表任何單位之官方立場<br/>
+          本內容未涉及任何利益衝突
+        </div>
+      </footer>
+    </div>
+  );
+};
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>
