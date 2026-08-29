@@ -1,5 +1,8 @@
 ---
 title: "缺血性心臟病 — Ischemic Heart Disease"
+resources:
+  - "STEMI_D2B_Improvement.html"
+  - "PCI_OxPL_Lipoprotein_a.pdf"
 ---
 
 ## 教學講義 Handouts
@@ -9,6 +12,9 @@ title: "缺血性心臟病 — Ischemic Heart Disease"
 - [MI Definition Great Debate 心肌梗塞定義之爭議 教學講義.md](MI Definition Great Debate 心肌梗塞定義之爭議 教學講義.md)
 - [NEJM CAD Genetics Review 2026 教學講義.md](NEJM CAD Genetics Review 2026 教學講義.md)
 - [iMODERN Trial — STEMI 多支血管病變的非罪犯病灶 PCI 時機 教學講義.md](iMODERN Trial — STEMI 多支血管病變的非罪犯病灶 PCI 時機 教學講義.md)
+- [PCI 後 OxPL 與 Lp(a) 急性上升 教學講義.md](PCI 後 OxPL 與 Lp(a) 急性上升 教學講義.md)
+  &nbsp;— [投影片 PDF](PCI_OxPL_Lipoprotein_a.pdf){target="_blank"}
+  *Tsimikas, Circulation 2004;109:3164–3170 機轉導讀：PCI 後 OxLDL-E06 ↑36%、Lp(a) ↑64%，6 小時回基準；血管攝影對照組無變化。含 OxPL 與 Lp(a) 急性解離／再結合、Lp(a) 作為 OxPL「接收槽」假說與六個月免疫足跡*
 
 ## 互動投影片 Interactive Slides
 
