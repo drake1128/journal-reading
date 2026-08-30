@@ -9,6 +9,7 @@ resources:
   - "Clinical_Uncertainty_Teaching_Module.html"
   - "Clinical_Remediation_Blueprint.html"
   - "AMEE_2026_Harden_Plenary_Taxi_Ride.html"
+  - "AMEE_2026_Preconference_Workshops_Literature_Review.pdf"
 ---
 
 ## 精選簡報 Featured Slide Decks
@@ -31,6 +32,9 @@ resources:
 
 ## 教學講義 Handouts
 
+- [AMEE 2026 會前工作坊主題文獻回顧 教學講義.md](AMEE_2026_Preconference_Workshops_Literature_Review 教學講義.md)
+  &nbsp;— [投影片 PDF](AMEE_2026_Preconference_Workshops_Literature_Review.pdf){target="_blank"}
+  *2021–2026 PubMed 檢索。把 AMEE 2026 九個會前工作坊（臨床督導與工作場域學習可視化、職涯教練、AI chatbot 與同理心、專業認同形成與歸屬感、縱貫質性研究方法、Future Literacy、AI 與評量、Mixed Methods、學生端 AI 技能）各自的文獻底盤攤開，另附跨主題綜合觀察與檢索限制*
 - [DB-OTO 基因治療先天性耳聾 教學講義.md](DB-OTO 基因治療先天性耳聾 教學講義.md)
 - [Military_Service_Dongyin_2005.md](Military_Service_Dongyin_2005.md)
 - [NEJM Clinical Problem-Solving The Eyes Have It — 肉毒桿菌中毒 教學講義.md](NEJM Clinical Problem-Solving The Eyes Have It — 肉毒桿菌中毒 教學講義.md)

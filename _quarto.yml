@@ -413,6 +413,8 @@ website:
               href: handouts/90-ai-technology/AI_Admin_Workflows_Desktop_to_Code.html
             - text: "AI 數位科技應用於醫學教育 (簡報)"
               href: handouts/90-ai-technology/AI_Medical_Education.html
+            - text: "AMEE / BEME 的 AI 指引 — 七份官方指引全景導讀 2023–2026 (投影片 PDF, 33 張)"
+              href: handouts/90-ai-technology/AMEE_BEME_AI_Guides_Overview.pdf
             - handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial_zh/index.qmd
@@ -568,6 +570,8 @@ website:
               href: handouts/99-misc/Clinical_Remediation_Blueprint.html
             - text: "Come with Me on a Taxi Ride — AMEE 2026 Ronald Harden Plenary 共筆 (互動網頁)"
               href: handouts/99-misc/AMEE_2026_Harden_Plenary_Taxi_Ride.html
+            - text: "AMEE 2026 會前工作坊主題文獻回顧 2021–2026 (投影片 PDF, 47 張)"
+              href: handouts/99-misc/AMEE_2026_Preconference_Workshops_Literature_Review.pdf
             - handouts/99-misc/acls-team-work/index.qmd
             - handouts/99-misc/ajrccm-pttm-swan-ganz-cytology/index.qmd
             - handouts/99-misc/book-cardiovascular-care-for-neurologists/index.qmd

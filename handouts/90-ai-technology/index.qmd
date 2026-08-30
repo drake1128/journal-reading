@@ -9,6 +9,7 @@ resources:
   - "AI_Medical_Education.pdf"
   - "CRM_AI_Automation_Paradox.pdf"
   - "LLM_for_Medical_Research_Tutorial.pdf"
+  - "AMEE_BEME_AI_Guides_Overview.pdf"
 ---
 
 ## 精選簡報 Featured Slide Decks
@@ -30,6 +31,9 @@ resources:
   &nbsp;— [投影片 PDF](CRM_AI_Automation_Paradox.pdf){target="_blank"}
   *NEJM 2026 Perspective 導讀：AI 是副駕不是自動駕駛。自動化悖論、流暢陷阱、CRM 五大能力與可評量的教學設計*
 - [AI數位科技應用於醫學教育 教學講義.md](AI數位科技應用於醫學教育 教學講義.md)
+- **AMEE / BEME 的 AI 指引 — 七份官方指引全景導讀 2023–2026**
+  &nbsp;— [投影片 PDF](AMEE_BEME_AI_Guides_Overview.pdf){target="_blank"}
+  *33 張。把 AMEE Guide 156（AI 於醫學教育研究的基礎）、158（倫理使用）、172（為 AGI 做準備）、178（AI 於評量）、190（教育共創）、192 與 BEME Guide 84（278 篇文獻的實證地圖）串成三條主軸一次讀完，看清七份指引各自補了哪一塊空白*
 - [醫學研究使用大型語言模型 實務指引 教學講義.md](醫學研究使用大型語言模型 實務指引 教學講義.md)
   &nbsp;— [投影片 PDF](LLM_for_Medical_Research_Tutorial.pdf){target="_blank"}
   *NIH／NLM (PubMed 維護者) 發表於 Nature Protocols 2026 的操作指引：任務形成 → 模型選擇 → 提示工程 → 微調 → 部署，含 10 條最佳實務。三個紅線：先建 ~100 題測試集、病人資料勿進非合規服務、不要用 MCQ 成績挑模型*
