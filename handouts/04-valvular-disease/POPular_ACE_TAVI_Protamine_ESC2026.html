@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POPular ACE TAVI — ESC 2026 讀書會共筆</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1a3a5c; --navy-light:#2d5a87; --gold:#c9a227; --gold-light:#e8d59a;
+  --accent:#c0392b; --success:#1e8449; --warn:#b9770e; --neutral:#7f8c8d;
+  --routine:#e8912d; --selective:#5b3a8e;
+  --bg:#faf8f5; --card:#ffffff; --text:#26323d; --muted:#6b7a88; --border:#e5e0d8;
+  --shadow:0 2px 14px rgba(26,58,92,.08);
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:"Noto Sans TC",-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;
+  line-height:1.75;font-size:16px;-webkit-text-size-adjust:100%;}
+.wrap{max-width:920px;margin:0 auto;padding:0 15px 70px;}
+
+header{background:linear-gradient(150deg,var(--navy) 0%,#12283f 100%);color:#fff;padding:26px 0 22px;}
+header .wrap{padding-bottom:0;}
+.eyebrow{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;opacity:.8;}
+h1{font-family:"Noto Serif TC",serif;font-size:23px;margin:7px 0 5px;line-height:1.35;}
+.sub{font-size:14px;opacity:.9;margin:0 0 4px;}
+.tagrow{margin-top:12px;display:flex;flex-wrap:wrap;gap:7px;}
+.tag{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);
+  font-size:12px;padding:4px 10px;border-radius:999px;}
+.tag.gold{background:var(--gold);color:#1a1a1a;border-color:var(--gold);font-weight:700;}
+
+nav{position:sticky;top:0;z-index:30;background:rgba(250,248,245,.97);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--border);
+  overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap;}
+nav .inner{max-width:920px;margin:0 auto;padding:0 8px;}
+nav button{background:none;border:none;font-family:inherit;font-size:14px;color:var(--muted);
+  padding:13px 11px;min-height:48px;cursor:pointer;border-bottom:3px solid transparent;}
+nav button.active{color:var(--navy);font-weight:700;border-bottom-color:var(--gold);}
+
+section{display:none;padding-top:22px;}
+section.active{display:block;animation:fade .25s ease;}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+h2{font-family:"Noto Serif TC",serif;font-size:20px;color:var(--navy);
+  margin:26px 0 12px;padding-left:11px;border-left:4px solid var(--gold);}
+h2:first-of-type{margin-top:4px;}
+h3{font-size:16.5px;color:var(--navy-light);margin:20px 0 8px;}
+p{margin:9px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+  padding:16px 17px;margin:14px 0;box-shadow:var(--shadow);}
+.card h3{margin-top:0;}
+
+.th{background:linear-gradient(135deg,#fffdf7,#fdf6e3);border:1px solid var(--gold-light);
+  border-left:5px solid var(--gold);border-radius:12px;padding:16px 18px;margin:14px 0;}
+.th ol{margin:8px 0 0;padding-left:20px;}
+.th li{margin-bottom:11px;}
+.th li:last-child{margin-bottom:0;}
+
+.callout{border-radius:10px;padding:13px 15px;margin:14px 0;font-size:15px;border-left:5px solid;}
+.warn{background:#fef6e9;border-color:var(--warn);}
+.danger{background:#fdeceb;border-color:var(--accent);}
+.ok{background:#ecf7f0;border-color:var(--success);}
+.info{background:#eef3f9;border-color:var(--navy-light);}
+.callout b{color:var(--navy);}
+
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;
+  border:1px solid var(--border);border-radius:10px;background:#fff;}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px;}
+th,td{padding:9px 11px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top;}
+thead th{background:var(--navy);color:#fff;font-weight:500;font-size:13.5px;white-space:nowrap;}
+tbody tr:last-child td{border-bottom:none;}
+tbody tr:nth-child(even){background:#fbfaf8;}
+td.num{text-align:center;white-space:nowrap;}
+th.rt{background:var(--routine);color:#fff;}
+th.sel{background:var(--selective);color:#fff;}
+.sig{color:var(--accent);font-weight:700;}
+.ns{color:var(--neutral);}
+
+.bars{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px 16px;margin:14px 0;}
+.bar{margin:14px 0;}
+.bar .lab{display:flex;justify-content:space-between;font-size:14px;margin-bottom:5px;}
+.bar .lab b{font-size:17px;}
+.track{background:#f0ece5;border-radius:6px;height:26px;overflow:hidden;}
+.fill{height:100%;border-radius:6px;display:flex;align-items:center;justify-content:flex-end;
+  padding-right:9px;color:#fff;font-size:13px;font-weight:700;}
+.fill.rt{background:var(--routine);}
+.fill.sel{background:var(--selective);}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin:14px 0;}
+.stat{background:#fff;border:1px solid var(--border);border-radius:10px;padding:13px;text-align:center;}
+.stat .v{font-size:23px;font-weight:700;color:var(--navy);line-height:1.25;}
+.stat .k{font-size:12.5px;color:var(--muted);margin-top:3px;}
+
+ul.clean{padding-left:20px;margin:9px 0;}
+ul.clean li{margin-bottom:7px;}
+.en{color:var(--muted);font-size:13.5px;}
+
+.flow{display:flex;flex-direction:column;gap:9px;margin:14px 0;}
+.step{background:#fff;border:1px solid var(--border);border-left:5px solid var(--navy-light);
+  border-radius:9px;padding:11px 14px;font-size:14.5px;}
+.step.rtb{border-left-color:var(--routine);}
+.step.selb{border-left-color:var(--selective);}
+
+/* quiz */
+.q{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px;margin:14px 0;box-shadow:var(--shadow);}
+.q .qn{font-size:12px;color:var(--gold);font-weight:700;letter-spacing:.08em;}
+.q .qt{font-weight:500;margin:6px 0 12px;}
+.opt{display:block;width:100%;text-align:left;font-family:inherit;font-size:15px;
+  background:#faf8f5;border:1.5px solid var(--border);border-radius:9px;
+  padding:12px 14px;margin-bottom:9px;min-height:48px;cursor:pointer;transition:.15s;}
+.opt:hover{border-color:var(--navy-light);}
+.opt.correct{background:#e8f6ee;border-color:var(--success);font-weight:500;}
+.opt.wrong{background:#fdecea;border-color:var(--accent);}
+.exp{display:none;background:#eef3f9;border-left:4px solid var(--navy-light);
+  border-radius:8px;padding:11px 13px;margin-top:8px;font-size:14.5px;}
+.exp.show{display:block;}
+
+footer{border-top:1px solid var(--border);margin-top:36px;padding-top:20px;font-size:14px;}
+.sign{margin:14px 0;}
+.sign b{color:var(--navy);}
+.disc{font-size:12.5px;color:var(--muted);line-height:1.6;margin-top:18px;}
+.refs{font-size:13px;color:var(--muted);padding-left:20px;}
+.refs li{margin-bottom:6px;}
+@media(max-width:520px){h1{font-size:20px;}h2{font-size:18px;}body{font-size:15.5px;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">ESC Congress 2026 · Munich · Hot Line 7</div>
+    <h1>POPular ACE TAVI<br>TAVI 術後常規 vs. 選擇性 Protamine</h1>
+    <p class="sub">Christiaan (Daniël) Overduin, St. Antonius Hospital, The Netherlands<br>
+    NCT05774691｜Investigator-initiated, double-blind, superiority RCT</p>
+    <div class="tagrow">
+      <span class="tag gold">Primary endpoint 達標 (Positive)</span>
+      <span class="tag">結構性心臟病與介入心臟學</span>
+      <span class="tag">n = 1,000 / mITT 966</span>
+      <span class="tag">讀書會共筆</span>
+    </div>
+  </div>
+</header>
+
+<nav><div class="inner" id="navbar"></div></nav>
+
+<div class="wrap">
+
+<!-- ============ 1. TAKE HOME ============ -->
+<section id="s0" class="active">
+  <h2>Take Home Message</h2>
+  <div class="th">
+    <ol>
+      <li><b>這是一個 positive trial，但方向要看清楚。</b>常規 protamine 顯著降低 30 天「全因死亡或 clinically relevant bleeding」複合終點：<b>18.5% vs. 29.4%</b>，RD <b>−10.9%</b>（95% CI −17.0 to −4.8），<b>p&lt;0.001</b>，NNT ≈ 9。</li>
+      <li><b>效益幾乎全部來自 VARC-3 type 1（minor）bleeding。</b>Major bleeding（type 2–4）兩組完全一樣：<b>2.9% vs. 2.9%</b>，RD 0.0（−2.6 to 2.6）；major vascular complications 亦無差異（4.0% vs. 2.7%）。死亡事件數極少（1 vs. 5），無法解讀。</li>
+      <li><b>Thromboembolic 事件沒有增加（4.2% vs. 4.3%），但這是 underpowered 的安慰。</b>Discussant Nicole Karam 明確指出：study not powered to assess thromboembolic risk。</li>
+      <li><b>Anaphylaxis 是真實代價，且高於文獻預期。</b>6 例 (1.3%) vs. 0 例，RD <b>1.3%（95% CI 0.2 to 3.0）</b>——CI 不跨 0。文獻中 protamine anaphylaxis 約 0.19–0.69%，此處偏高，NNH ≈ 77。與 NNT 9 併看，仍偏向使用，但不應說「安全無虞」。</li>
+      <li><b>選擇性策略下，只有 17.7% 真的需要 bail-out protamine。</b>換句話說，常規給藥＝為了 9% 的絕對減少（且多為 minor bleeding），讓約 82% 不需要的病人暴露於 protamine。這是本試驗真正的臨床決策爭點。</li>
+      <li><b>外推限制明確：</b>純 transfemoral、排除 surgical cutdown、排除 TAVI 前 3 個月內 PCI（＝排除高血栓風險族群）。這些病人的 risk–benefit 不能直接套用。</li>
+    </ol>
+  </div>
+
+  <div class="callout info">
+    <b>一句話總結：</b>POPular ACE TAVI 把 ACE-PROTAVI 的「hemostasis 替代終點」升級成 1,000 人的臨床終點試驗，結論站得住腳——但獲益的本質是「少一些 minor bleeding、早點下床」，而不是「少死人、少大出血」。
+  </div>
+
+  <h2>快速數據卡</h2>
+  <div class="grid">
+    <div class="stat"><div class="v">18.5%<br><span style="font-size:15px;font-weight:400">vs. 29.4%</span></div><div class="k">Primary composite<br>(30-day death or CRB)</div></div>
+    <div class="stat"><div class="v">−10.9%</div><div class="k">Risk difference<br>95% CI −17.0 ~ −4.8</div></div>
+    <div class="stat"><div class="v">≈ 9</div><div class="k">NNT<br>(primary composite)</div></div>
+    <div class="stat"><div class="v">2.9%<br><span style="font-size:15px;font-weight:400">vs. 2.9%</span></div><div class="k">Major bleeding<br>(VARC-3 type 2–4)</div></div>
+    <div class="stat"><div class="v">1.3%<br><span style="font-size:15px;font-weight:400">vs. 0%</span></div><div class="k">Anaphylaxis<br>RD 1.3 (0.2–3.0)</div></div>
+    <div class="stat"><div class="v">17.7%</div><div class="k">Selective 組實際<br>需要 bail-out protamine</div></div>
+  </div>
+</section>
+
+<!-- ============ 2. 背景 ============ -->
+<section id="s1">
+  <h2>臨床問題與 Rationale</h2>
+  <p>Transfemoral TAVI 全程使用 unfractionated heparin 以避免 catheter thrombosis 與 thromboembolism，但 <b>vascular access site 出血與血管併發症</b>仍是 procedure-related morbidity 的主因。Protamine 可逆轉 heparin，理論上改善止血——問題是：<b>要不要常規給？還是只在止不住血時 bail-out？</b></p>
+
+  <h3>前置證據：ACE-PROTAVI (JAMA Cardiol 2024)</h3>
+  <div class="card">
+    <ul class="clean">
+      <li>澳洲 3 家醫院、double-blind RCT，n = 410。</li>
+      <li><b>Hemostasis success 97.9% vs. 91.6%</b>（絕對差 6.3%，95% CI 2.0–10.6，p = .006）。</li>
+      <li><b>Time to hemostasis 中位數 181 秒 vs. 279 秒</b>（p = .002）。</li>
+      <li>次要複合終點 5.2% vs. 12.8%（OR 0.37, 95% CI 0.1–0.8），主要由 <b>minor vascular complications</b> 驅動。</li>
+    </ul>
+    <div class="callout warn" style="margin-bottom:0">
+      <b>關鍵限制（講者第一張投影片就點名）：</b>ACE-PROTAVI 的 co-primary 是 hemostasis 的替代終點，<b>not powered for clinical endpoints</b>。POPular ACE TAVI 就是為了補這一塊而設計。
+    </div>
+  </div>
+
+  <h3>反方顧慮：為什麼不乾脆全部都給？</h3>
+  <div class="card">
+    <ul class="clean">
+      <li><b>Anaphylactic reaction</b>——protamine 的過敏反應可以是致命的（尤其 NPH insulin 使用者、魚類過敏、既往 protamine 暴露、vasectomy 男性）。</li>
+      <li><b>Potentially pro-thrombotic</b>——逆轉抗凝在剛植入 bioprosthesis、剛做完 large-bore access 的病人身上，是否會增加 stroke / MI / distal embolization？這正是本試驗設 safety outcome 的原因。</li>
+    </ul>
+  </div>
+
+  <h3>Objective &amp; Hypothesis（原文）</h3>
+  <div class="callout info">
+    <b>Objective：</b>To investigate the safety and efficacy of routine versus selective protamine administration after transfemoral TAVI.<br><br>
+    <b>Hypothesis：</b>Routine administration of protamine at the end of transfemoral TAVI is <b>superior</b> to selective (bail-out only) administration in reducing the 30-day composite of all-cause mortality and clinically relevant bleeding, as defined by VARC-3.
+  </div>
+</section>
+
+<!-- ============ 3. 設計 ============ -->
+<section id="s2">
+  <h2>試驗設計 Trial Design</h2>
+  <div class="card">
+    <ul class="clean">
+      <li><b>Design：</b>Investigator-initiated, randomised, <b>double-blind, superiority</b> trial</li>
+      <li><b>Sites：</b>六家中心（Netherlands + Belgium）— St. Antonius, Amsterdam UMC, LUMC, Maastricht UMC+, UZ Leuven, OLV Aalst (ASZ/AZORG)</li>
+      <li><b>收案期間：</b>Nov 2023 – Sept 2025</li>
+      <li><b>Randomization：</b>1:1，<b>於 TAVI 前</b>隨機分配</li>
+      <li><b>Stratification：</b>study site + antithrombotic therapy（stratum 1: OAC 或 DAPT；stratum 2: SAPT）</li>
+      <li><b>Primary analysis：</b>modified ITT — 實際接受任何 study medication 的病人</li>
+    </ul>
+  </div>
+
+  <h3>Sample size 計算</h3>
+  <div class="callout info">
+    Superiority、power 80%、α = 0.05 → n = 914；預留非納入 mITT 者 → <b>n = 1,000</b>。<br>
+    預期事件率 routine vs. selective：<b>9.0% vs. 15.0%</b>（引用 Zbronski 2021、Nijenhuis NEJM 2020、Brouwer NEJM 2020）。<br>
+    <span class="en">⚠️ 實際觀察到的事件率（18.5% vs. 29.4%）遠高於設計時的預期，這通常代表事件定義（納入 VARC-3 type 1）比原本假設更寬鬆。</span>
+  </div>
+
+  <h3>Study population</h3>
+  <div class="tblwrap">
+  <table>
+    <thead><tr><th>Inclusion criteria</th><th>Exclusion criteria</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>• Planned <b>transfemoral</b> TAVI<br>• Written informed consent</td>
+        <td>• <b>Protamine allergy</b><br>• <b>PCI &lt; 3 months</b> before TAVI<br>• Access by <b>surgical cutdown</b></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>Study procedures（雙盲設計的巧妙處）</h3>
+  <div class="flow">
+    <div class="step rtb"><b>Routine Protamine 組</b> → 術末給 <b>blinded protamine</b>；若 ≤10 分鐘仍未止血 → bail-out 給 <b>placebo</b></div>
+    <div class="step selb"><b>Selective Protamine 組</b> → 術末給 <b>blinded placebo</b>；若 ≤10 分鐘仍未止血 → bail-out 給 <b>protamine</b></div>
+  </div>
+  <div class="callout ok">
+    <b>設計亮點：</b>兩組都打兩次針、都有 bail-out 流程，術者完全看不出分組，是真正的 double-blind。這比單純 protamine vs. placebo 更貼近臨床決策（「常規 vs. 需要才給」），也避免了 selective 組被 undertreated 的倫理疑慮。
+  </div>
+
+  <h3>Outcomes（全部依 VARC-3 定義）</h3>
+  <div class="card">
+    <p><b>Primary outcome：</b>Death from any cause <b>or</b> clinically relevant bleeding within 30 days after TAVI</p>
+    <p><b>Secondary outcomes（ranked）：</b></p>
+    <ul class="clean">
+      <li>Clinically relevant bleeding (VARC-3 type 1–4)</li>
+      <li>Major bleeding (VARC-3 type 2–4)</li>
+      <li>Major vascular complications</li>
+      <li>Death from cardiovascular cause</li>
+      <li>Death from any cause</li>
+    </ul>
+    <p><b>Safety outcomes：</b></p>
+    <ul class="clean">
+      <li>Thromboembolic composite：MI、ischaemic stroke、TIA、noncerebral distal embolization</li>
+      <li>Anaphylaxis（NIAID criteria；單一器官表現未達完整診斷標準者不計入）</li>
+    </ul>
+  </div>
+
+  <h3>VARC-3 bleeding criteria（複習用）</h3>
+  <div class="tblwrap">
+  <table>
+    <thead><tr><th style="width:80px">Type</th><th>定義（overt bleeding 符合下列之一）</th></tr></thead>
+    <tbody>
+      <tr><td><b>Type 1</b></td><td>需要 medical intervention（住院、提高照護等級、medical evaluation）<b>或</b>輸 1 unit RBC/whole blood</td></tr>
+      <tr><td><b>Type 2</b></td><td>Hb 下降 &gt;3 至 &lt;5 g/dL <b>或</b>輸 2–4 units RBC/whole blood</td></tr>
+      <tr><td><b>Type 3</b></td><td>Critical organ 出血；hypovolemic shock 或 severe hypotension；為止血而再手術/外科探查/再介入；輸 ≥5 units（BARC 3a）；Hb 下降 ≥5 g/dL（≥3.1 mmol/L，BARC 3b）</td></tr>
+      <tr><td><b>Type 4</b></td><td>Bleeding leading to death</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="callout warn">
+    <b>解讀關鍵：</b>Primary endpoint 用的是 <b>type 1–4</b>。Type 1 只要「輸一袋血」或「需要 medical evaluation」就算數——這是本試驗絕大部分事件的來源，也是為什麼結果看起來很漂亮、但 major bleeding 完全沒動的原因。
+  </div>
+</section>
+
+<!-- ============ 4. 病人 ============ -->
+<section id="s3">
+  <h2>Patient flow</h2>
+  <div class="card">
+    <ul class="clean">
+      <li>Randomized <b>N = 1,000</b>（Routine 501 / Selective 499）</li>
+      <li>Routine 排除 21 例：1 consent withdrawn、3 randomisation in error、<b>4 intraprocedural death</b>、13 no study medication</li>
+      <li>Selective 排除 13 例：3 consent withdrawn、2 randomisation in error、<b>1 intraprocedural death</b>、7 no study medication</li>
+      <li><b>mITT：Routine 480 / Selective 486</b>，追蹤 30 天</li>
+    </ul>
+    <div class="callout warn" style="margin-bottom:0">
+      <b>值得注意：</b>mITT 排除了 intraprocedural death（4 vs. 1）。這些是死亡事件，卻因為「未接受 study medication」而不計入 primary endpoint。排除數量小且方向不利於 routine 組，不太可能翻轉結論，但正式全文出來時值得看 sensitivity analysis / full ITT。
+    </div>
+  </div>
+
+  <h2>Baseline characteristics</h2>
+  <div class="tblwrap">
+  <table>
+    <thead><tr><th></th><th class="rt">Routine (n=480)</th><th class="sel">Selective (n=486)</th></tr></thead>
+    <tbody>
+      <tr><td>Age, median [IQR]</td><td class="num">81 [77–84]</td><td class="num">81 [77–85]</td></tr>
+      <tr><td>Female</td><td class="num">196 (40.8%)</td><td class="num">207 (42.6%)</td></tr>
+      <tr><td>Atrial fibrillation</td><td class="num">175 (36.5%)</td><td class="num">184 (37.9%)</td></tr>
+      <tr><td><i>VARC-HBR</i> moderate bleeding risk</td><td class="num">192 (40.0%)</td><td class="num">201 (41.4%)</td></tr>
+      <tr><td><i>VARC-HBR</i> high bleeding risk</td><td class="num">224 (46.7%)</td><td class="num">239 (49.2%)</td></tr>
+      <tr><td><i>VARC-HBR</i> very high bleeding risk</td><td class="num">64 (13.3%)</td><td class="num">46 (9.5%)</td></tr>
+      <tr><td>Antiplatelet therapy</td><td class="num">298 (62.1%)</td><td class="num">284 (58.4%)</td></tr>
+      <tr><td>Oral anticoagulation</td><td class="num">182 (37.9%)</td><td class="num">202 (41.6%)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="callout info">
+    典型的當代 TAVI 族群：中位年齡 81 歲、約 37% AF、<b>約 60% 屬 high 或 very high bleeding risk</b>、近 40% 使用 OAC。<br>
+    <span class="en">小提醒：very high bleeding risk 在 routine 組略多（13.3% vs. 9.5%），方向上不利於 routine 組，因此不會誇大其效益。</span>
+  </div>
+
+  <h2>Procedural characteristics</h2>
+  <div class="tblwrap">
+  <table>
+    <thead><tr><th></th><th class="rt">Routine (n=480)</th><th class="sel">Selective (n=486)</th></tr></thead>
+    <tbody>
+      <tr><td>Sheath size ≥16 Fr</td><td class="num">151 (31.5%)</td><td class="num">156 (32.1%)</td></tr>
+      <tr><td>Femoral secondary access</td><td class="num">391 (81.5%)</td><td class="num">376 (77.4%)</td></tr>
+      <tr><td>Temporary pacemaker lead</td><td class="num">182 (37.9%)</td><td class="num">166 (34.2%)</td></tr>
+      <tr><td>Median heparin dose (IQR), IU</td><td class="num">7,500 [6,000–9,000]</td><td class="num">7,500 [6,000–9,875]</td></tr>
+      <tr><td>Suture-based closure</td><td class="num">157 (32.7%)</td><td class="num">170 (35.0%)</td></tr>
+      <tr><td>Plug-based closure</td><td class="num">104 (21.7%)</td><td class="num">98 (20.2%)</td></tr>
+      <tr><td>Combined suture + plug</td><td class="num">219 (45.6%)</td><td class="num">218 (44.9%)</td></tr>
+      <tr><td><b>Protamine bail-out</b></td><td class="num">—</td><td class="num sig">86 (17.7%)</td></tr>
+      <tr><td>Placebo bail-out</td><td class="num">38 (7.9%)</td><td class="num">—</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="callout warn">
+    <b>兩個很有意思的數字：</b><br>
+    ① Selective 組 <b>17.7%</b> 需要 bail-out protamine → 反過來說，<b>82.3% 的病人根本不需要 protamine</b>。<br>
+    ② Routine 組仍有 <b>7.9%</b> 在給了 protamine 之後 10 分鐘內止不住血（觸發 placebo bail-out）→ protamine 不是萬靈丹，closure device 技術與 access 品質仍是主角。<br>
+    ③ 約 <b>81%</b> 使用 femoral secondary access，近 <b>46%</b> 採 combined suture + plug closure——這是荷比中心的做法，與台灣各家中心習慣未必相同，外推時要放在心上。
+  </div>
+</section>
+
+<!-- ============ 5. 結果 ============ -->
+<section id="s4">
+  <h2>Primary outcome</h2>
+  <p><i>Death from any cause or clinically relevant bleeding within 30 days after TAVI</i></p>
+  <div class="bars">
+    <div class="bar">
+      <div class="lab"><span style="color:var(--routine);font-weight:700">Routine protamine</span><b>18.5%</b></div>
+      <div class="track"><div class="fill rt" style="width:52.7%">89 / 480</div></div>
+    </div>
+    <div class="bar">
+      <div class="lab"><span style="color:var(--selective);font-weight:700">Selective protamine</span><b>29.4%</b></div>
+      <div class="track"><div class="fill sel" style="width:83.8%">143 / 486</div></div>
+    </div>
+    <div class="callout ok" style="margin-bottom:0">
+      <b>RD −10.9%（95% CI −17.0 to −4.8），p &lt; 0.001</b>　→　達到 superiority，<b>NNT ≈ 9</b>
+    </div>
+  </div>
+
+  <h2>Secondary outcomes</h2>
+  <div class="tblwrap">
+  <table>
+    <thead><tr><th>Secondary outcome</th><th class="rt">Routine<br>(n=480)</th><th class="sel">Selective<br>(n=486)</th><th>Risk difference, %<br>(95% CI)</th><th>P</th></tr></thead>
+    <tbody>
+      <tr><td>Clinically relevant bleeding<br>(VARC-3 type 1–4)</td><td class="num">88 (18.3)</td><td class="num">142 (29.2)</td><td class="num sig">−10.9 (−17.0 to −4.8)</td><td class="num sig">&lt;0.001</td></tr>
+      <tr><td>Major bleeding (VARC-3 type 2–4)</td><td class="num">14 (2.9)</td><td class="num">14 (2.9)</td><td class="num ns">0.0 (−2.6 to 2.6)</td><td class="num ns">ns</td></tr>
+      <tr><td>Major vascular complications</td><td class="num">19 (4.0)</td><td class="num">13 (2.7)</td><td class="num ns">1.3 (−1.4 to 4.1)</td><td class="num ns">ns</td></tr>
+      <tr><td>Death from cardiovascular cause</td><td class="num">1 (0.2)</td><td class="num">5 (1.0)</td><td class="num ns">−0.8 (−2.5 to 0.5)</td><td class="num ns">ns</td></tr>
+      <tr><td>Death from any cause</td><td class="num">1 (0.2)</td><td class="num">5 (1.0)</td><td class="num ns">−0.8 (−2.5 to 0.5)</td><td class="num ns">ns</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="callout danger">
+    <b>這張表是整個試驗最重要的一張。</b>把它拆開看：<br><br>
+    • Primary composite RD −10.9%，CRB 單獨也是 −10.9% → <b>複合終點幾乎完全由出血驅動，死亡貢獻趨近於零</b>（89 = 88 CRB + 1 death）。<br>
+    • CRB (type 1–4) 差 10.9%，但 major bleeding (type 2–4) <b>完全沒有差異（14 vs. 14）</b> → <b>全部的效益都落在 type 1（minor）bleeding</b>，也就是「需要輸 1 袋血或需要臨床處置」的那一層。<br>
+    • Major vascular complications <b>數字上反而是 routine 組略多</b>（4.0% vs. 2.7%，CI 跨 0，不具統計意義），與 ACE-PROTAVI 的方向不完全一致。<br>
+    • 死亡 1 vs. 5：事件太少，且 ranked secondary 在 primary 之後才依序檢定，不可當成 mortality benefit 宣稱。<br><br>
+    <b>→ 講者自己的結論用詞是誠實的：「Benefit driven by reduction in minor bleeding」。轉述時請不要簡化成「protamine 降低 TAVI 出血與死亡」。</b>
+  </div>
+
+  <h2>講者結論（原文）</h2>
+  <div class="card">
+    <ul class="clean">
+      <li>Routine protamine administration was <b>superior</b> to selective protamine</li>
+      <li>Benefit <b>driven by reduction in minor bleeding</b></li>
+      <li><b>No increase</b> in thromboembolic risk</li>
+      <li><b>Low incidence of anaphylaxis</b> observed</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 6. 安全性 ============ -->
+<section id="s5">
+  <h2>Safety outcomes</h2>
+  <div class="tblwrap">
+  <table>
+    <thead><tr><th>Safety outcome</th><th class="rt">Routine (n=480)</th><th class="sel">Selective (n=486)</th><th>Risk difference %<br>(95% CI)</th></tr></thead>
+    <tbody>
+      <tr><td>Thromboembolic events<br><span class="en">MI / ischaemic stroke / TIA / noncerebral distal embolization</span></td><td class="num">20 (4.2)</td><td class="num">21 (4.3)</td><td class="num ns">−0.2 (−3.2 to 2.9)</td></tr>
+      <tr><td><b>Anaphylaxis</b>（NIAID criteria）</td><td class="num sig">6 (1.3)</td><td class="num">0 (0.0)</td><td class="num sig">1.3 (0.2 to 3.0)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="en">* NIAID criteria；isolated single-organ involvement without fulfillment of a complete diagnostic criterion was not classified as anaphylaxis.</p>
+
+  <div class="callout danger">
+    <b>Anaphylaxis 值得單獨拉出來講。</b><br><br>
+    講者的措辭是「low incidence of anaphylaxis observed」，字面沒錯——但 <b>1.3% vs. 0%，95% CI 0.2 to 3.0，下界不跨 0</b>，這在統計上是一個明確的 excess risk 訊號，不是「沒有差別」。<br><br>
+    • 文獻中 protamine anaphylaxis 的發生率約 <b>0.19–0.69%</b>（ACE-PROTAVI 討論段引用）。本試驗 1.3% 約為其 2–7 倍，可能與 <b>前瞻性系統性 adjudication</b>（而非回溯登錄）有關，也提醒我們過去可能低估。<br>
+    • <b>NNH ≈ 77</b>，對照 <b>NNT ≈ 9</b>：以群體平均而言仍偏向使用 protamine，但換來的是 minor bleeding 的減少，付出的是 anaphylaxis（可能致命）的增加。這是一個「用罕見重症換常見輕症」的交換，值得在每個中心自己討論。<br>
+    • 高風險族群（既往 protamine 暴露、NPH insulin 使用者、魚類過敏、vasectomy 男性）本試驗未做 subgroup 分析，臨床上仍應個別評估。
+  </div>
+
+  <div class="callout warn">
+    <b>Thromboembolic events：</b>4.2% vs. 4.3%，看起來完全中性。但 discussant 直接指出 <b>study not powered to assess thromboembolic risk</b>——41 個事件的 CI（−3.2 to 2.9）寬到可以容納臨床上有意義的差異。這是「沒有證據顯示有害」，不是「證據顯示無害」。
+  </div>
+</section>
+
+<!-- ============ 7. Discussant ============ -->
+<section id="s6">
+  <h2>Discussant review — Nicole Karam (Lebanon)</h2>
+  <div class="card">
+    <h3>Study population / limitations</h3>
+    <ul class="clean">
+      <li><b>Transfemoral TAVI 才納入</b>——transapical、transaxillary、transcarotid 等 alternative access 無資料</li>
+      <li><b>No access by surgical cutdown</b>——外科切開直視止血的病人被排除</li>
+      <li><b>No PCI within the last 3 months</b>——把 stent thrombosis 風險最高的族群整批排除</li>
+      <li><b style="color:var(--accent)">Study not powered to assess thromboembolic risk</b></li>
+    </ul>
+  </div>
+
+  <h2>共筆整理人的補充評論</h2>
+  <div class="card">
+    <h3>1. 排除近期 PCI 的代價</h3>
+    <p>「PCI &lt; 3 months」是最關鍵的排除條件。實務上，<b>合併 CAD 需要 PCI 的重度 AS 病人非常常見</b>（TAVI PCI trial 正是在探討這個族群）。而這群人恰恰是最擔心逆轉抗凝會誘發 stent thrombosis 的人。本試驗刻意迴避了最需要答案的族群。</p>
+
+    <h3>2. Composite endpoint 的組成失衡</h3>
+    <p>把 all-cause death（硬）和 VARC-3 type 1 bleeding（相對軟）放進同一個複合終點，當死亡只有 6 例、出血有 230 例時，複合終點實際上就等於出血終點。統計上合法，但解讀時必須拆開講。這與 OPTIMAL、IVUS-CHIP 這類試驗常見的誤讀模式類似——<b>不同的是這一次方向確實是 positive，只是 magnitude 的臨床意義需要打折</b>。</p>
+
+    <h3>3. 那 minor bleeding 有沒有意義？有，但要誠實說</h3>
+    <p>ACE-PROTAVI 已顯示 minor vascular complications 的減少可轉換為<b>更早下床、較少護理負擔、縮短住院天數</b>（該試驗 median LOS 3 天 vs. 3 天，p = .02）。這在 <b>same-day / next-day discharge TAVI</b> 的趨勢下有實質價值。POPular ACE TAVI 若後續全文報告 LOS 與 mobilization 數據，臨床說服力會更完整。</p>
+
+    <h3>4. 還沒回答的問題</h3>
+    <ul class="clean">
+      <li>最佳劑量比例？（本試驗 median heparin 7,500 IU，protamine 劑量未在投影片呈現）</li>
+      <li>Plug-based（MANTA/Perclose ProGlide 組合）不同 closure 策略是否有 interaction？</li>
+      <li>30 天以後（valve thrombosis、HALT）有無影響？可與同場 NOTION-4、ACASA-TAVI 併讀</li>
+      <li>Anaphylaxis 高風險族群能否事先辨識？</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 8. 臨床應用 ============ -->
+<section id="s7">
+  <h2>臨床應用（台灣情境）</h2>
+  <div class="card">
+    <h3>可以怎麼做</h3>
+    <ul class="clean">
+      <li><b>Protamine 在台灣取得容易、成本極低</b>，不涉及健保給付障礙，所以這個試驗的結論在台灣落地幾乎沒有制度阻力——真正的門檻是<b>科內共識</b>與<b>過敏風險把關</b>。</li>
+      <li>對於 <b>純 transfemoral、無近期 PCI、高出血風險（VARC-HBR high/very high）、使用 OAC</b> 的病人，常規 protamine 是合理的預設做法。</li>
+      <li>建議在 TAVI checklist 中加入 <b>protamine 過敏風險篩檢</b>：既往 protamine 暴露史（含心臟外科）、NPH insulin 使用、魚類/海鮮嚴重過敏、vasectomy。有任一項者建議改採 selective (bail-out) 策略。</li>
+      <li>給藥時應在<b>備妥 epinephrine、有完整監測</b>的狀態下緩慢給予，並記錄給藥後 15 分鐘的血壓與皮膚變化。</li>
+    </ul>
+
+    <h3>應保留判斷的情境</h3>
+    <ul class="clean">
+      <li><b>TAVI 前 3 個月內做過 PCI</b>——本試驗排除，缺乏證據，建議個別評估或維持 selective。</li>
+      <li><b>Alternative access / surgical cutdown</b>——無資料。</li>
+      <li><b>Concomitant PCI during TAVI</b>——同樣缺乏證據。</li>
+      <li>Protamine 過敏高風險者——absolute 排除。</li>
+    </ul>
+
+    <div class="callout info" style="margin-bottom:0">
+      <b>給導管室團隊 / 專科護理師的一句話：</b>常規 protamine 主要讓病人「少一次輸血、少一次傷口處置、早一點下床」，不是「救命」。因此給藥後最需要盯的不是止血，而是<b>過敏反應（皮膚、血壓、支氣管痙攣）</b>。
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. QUIZ ============ -->
+<section id="s8">
+  <h2>自我測驗（6 題）</h2>
+  <div id="quiz"></div>
+  <div id="score" class="callout ok" style="display:none;text-align:center;font-size:17px;"></div>
+</section>
+
+<footer>
+  <h3 style="margin-top:0">參考文獻</h3>
+  <ol class="refs">
+    <li>Overduin DC, et al. The POPular ACE TAVI trial: routine or selective protamine administration after TAVI? Presented at ESC Congress 2026, Munich, Hot Line 7（本共筆數據來源）。ClinicalTrials.gov NCT05774691.</li>
+    <li>Overduin DC, van Ginkel DJ, Dubois C, et al. Routine versus selective protamine administration to reduce bleeding after TAVI: Rationale and design of the POPular ACE TAVI trial. <i>Am Heart J</i>. 2026;293:107296. doi:10.1016/j.ahj.2025.107296</li>
+    <li>Vriesendorp PA, et al. Routine Protamine Administration for Bleeding in Transcatheter Aortic Valve Implantation: The ACE-PROTAVI Randomized Clinical Trial. <i>JAMA Cardiol</i>. 2024. doi:10.1001/jamacardio.2024.2454</li>
+    <li>VARC-3 WRITING COMMITTEE. Valve Academic Research Consortium 3: Updated Endpoint Definitions for Aortic Valve Clinical Research. <i>Eur Heart J</i>. 2021;42:1825–1857.</li>
+    <li>Sampson HA, et al. Second symposium on the definition and management of anaphylaxis (NIAID/FAAN). <i>J Allergy Clin Immunol</i>. 2006;117:391–397.</li>
+    <li>Nijenhuis VJ, et al. <i>N Engl J Med</i>. 2020;382:1696–1707.｜Brouwer J, et al. <i>N Engl J Med</i>. 2020;383:1447–1457.</li>
+  </ol>
+
+  <div class="sign">
+    讀書會共筆整理人<br>
+    <b>謝慕揚 醫師 MD, PhD, FESC</b><br>
+    結構性心臟病與介入心臟學
+  </div>
+
+  <div class="disc">
+    — 聲明 —<br>
+    本內容為讀書會共筆整理，未必涵蓋所有相關文獻。<br>
+    僅供學術與教育用途，不代表任何單位之官方立場。<br>
+    本內容未涉及任何利益衝突。<br><br>
+    數據來源為 ESC Congress 2026 Hot Line 現場投影片，正式全文發表後請以期刊版本為準。
+  </div>
+</footer>
+
+</div>
+
+<script>
+const SECTIONS = ["Take Home","背景","設計","病人","結果","安全性","Discussant","臨床應用","測驗"];
+const nb = document.getElementById('navbar');
+SECTIONS.forEach((name,i)=>{
+  const b=document.createElement('button');
+  b.textContent=name; b.dataset.i=i; if(i===0)b.className='active';
+  b.onclick=()=>{
+    document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('section').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    document.getElementById('s'+i).classList.add('active');
+    window.scrollTo({top:0,behavior:'smooth'});
+  };
+  nb.appendChild(b);
+});
+
+const QUESTIONS=[
+ {q:"POPular ACE TAVI 的 primary outcome 為何？",
+  o:["30 天內 hemostasis success rate","30 天內全因死亡或 clinically relevant bleeding (VARC-3 type 1–4)","30 天內 major bleeding (VARC-3 type 2–4)","1 年 all-cause mortality"],
+  a:1,
+  e:"Primary outcome 是 30 天內 death from any cause 或 clinically relevant bleeding（VARC-3 type 1–4）。Hemostasis success 是前置試驗 ACE-PROTAVI 的 co-primary，本試驗刻意升級成臨床終點。"},
+ {q:"Primary outcome 的結果與效果量是？",
+  o:["18.5% vs. 29.4%，RD −10.9%（95% CI −17.0 to −4.8），p<0.001","18.5% vs. 29.4%，但 CI 跨 0，為 neutral trial","29.4% vs. 18.5%，routine 組較差","兩組無差異"],
+  a:0,
+  e:"Routine 18.5% vs. Selective 29.4%，RD −10.9%（95% CI −17.0 to −4.8），p<0.001，達到 superiority，NNT 約 9。這是一個 positive trial。"},
+ {q:"以下哪一項最能正確描述本試驗獲益的「來源」？",
+  o:["主要來自全因死亡率下降","主要來自 major bleeding（type 2–4）減少","主要來自 minor bleeding（VARC-3 type 1）減少","主要來自 major vascular complications 減少"],
+  a:2,
+  e:"Major bleeding 兩組完全相同（14 vs. 14，RD 0.0）；major vascular complications 甚至 routine 組略多（4.0% vs. 2.7%，ns）；死亡只有 1 vs. 5。所有效益都落在 VARC-3 type 1 minor bleeding。講者自己的結論也寫「benefit driven by reduction in minor bleeding」。"},
+ {q:"關於 anaphylaxis 的結果，下列敘述何者最正確？",
+  o:["兩組皆無 anaphylaxis 事件","Routine 6 例 (1.3%) vs. Selective 0 例，RD 1.3（95% CI 0.2 to 3.0），CI 不跨 0，屬明確 excess risk","Selective 組 anaphylaxis 較多","事件數太少，RD 的 CI 跨 0，無法解讀"],
+  a:1,
+  e:"RD 1.3%（95% CI 0.2 to 3.0），下界不跨 0，是統計上明確的訊號，且高於文獻報告的 0.19–0.69%。NNH 約 77。講者說「low incidence」字面沒錯，但不等於「沒有差別」。"},
+ {q:"Selective protamine 組實際有多少比例需要 bail-out protamine？",
+  o:["約 7.9%","約 17.7%","約 45.6%","約 62.1%"],
+  a:1,
+  e:"17.7%（86/486）需要 bail-out protamine，代表 82.3% 的病人根本不需要 protamine。這正是「常規給藥 vs. 需要才給」的核心取捨。另外 routine 組仍有 7.9% 給了 protamine 後 10 分鐘內止不住血。"},
+ {q:"Discussant Nicole Karam 指出的關鍵限制中，下列何者為真？",
+  o:["試驗僅納入 transfemoral、排除 surgical cutdown 與 3 個月內 PCI，且 not powered to assess thromboembolic risk","試驗為 open-label，缺乏盲性","試驗僅在單一中心進行","試驗未使用 VARC-3 定義"],
+  a:0,
+  e:"本試驗是 double-blind、六中心、全程使用 VARC-3 定義。Discussant 的批評集中在族群外推性（TF only、無 cutdown、排除近期 PCI）與 thromboembolic risk 的統計檢定力不足。"}
+];
+
+const qc=document.getElementById('quiz'); let answered=0,score=0;
+QUESTIONS.forEach((item,i)=>{
+  const d=document.createElement('div'); d.className='q';
+  d.innerHTML='<div class="qn">Q'+(i+1)+' / '+QUESTIONS.length+'</div><div class="qt">'+item.q+'</div>';
+  const box=document.createElement('div');
+  item.o.forEach((opt,j)=>{
+    const b=document.createElement('button'); b.className='opt'; b.textContent=opt;
+    b.onclick=()=>{
+      if(d.dataset.done)return; d.dataset.done='1'; answered++;
+      box.querySelectorAll('.opt').forEach((x,k)=>{ if(k===item.a)x.classList.add('correct'); });
+      if(j!==item.a) b.classList.add('wrong'); else score++;
+      const ex=d.querySelector('.exp'); ex.classList.add('show');
+      ex.innerHTML='<b>'+(j===item.a?'✅ 正確':'❌ 再想想')+'</b><br>'+item.e;
+      if(answered===QUESTIONS.length){
+        const s=document.getElementById('score'); s.style.display='block';
+        s.innerHTML='<b>完成！答對 '+score+' / '+QUESTIONS.length+' 題</b>';
+      }
+    };
+    box.appendChild(b);
+  });
+  d.appendChild(box);
+  const ex=document.createElement('div'); ex.className='exp'; d.appendChild(ex);
+  qc.appendChild(d);
+});
+</script>
+</body>
+</html>

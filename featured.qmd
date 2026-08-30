@@ -150,10 +150,34 @@ listing:
       description: "超音波室教學互動網頁，含深色模式。核心是把 MAD 量對、報對、轉診對：MAD 是瓣葉鉸鏈點往心房側移位，要在收縮末期從左心房壁與後葉交界量到左心室下基底部心肌頂端。位置比長度重要——一般族群 76% 在某處找得到分離，但下側壁只有 5%，只有下側壁值得追。一定要看舒張期，只有收縮期可見的 Pseudo-MAD 在傳統定義下佔了 84%。TTE 報「沒有」不等於沒有（偵測率 TTE 17.3%、TOE 25.5%、CMR 42%）。兩個伴隨徵象要一起看：systolic curling 與 Pickelhaube sign（側壁瓣環 TDI 收縮中期 > 16 cm/s）。MAD 單獨預測心律不整 AUC 只有 0.561，不能單獨決策；真正該轉診的是 MVP 合併不明原因暈厥或前暈厥。依 EHRA 2022 consensus 與 Zugwitz et al., JACC CV Imaging 2022 整理，附建議閱讀順序與測驗。"
       path: handouts/05-cardiac-imaging/MAD_Mitral_Annular_Disjunction.html
       categories: [影像 Imaging, 瓣膜 Valvular, 心律 Arrhythmia, 教學 Teaching]
+    - title: "ESC 2026 Munich — 急性心肌梗塞 11 篇海報導讀"
+      description: "互動網頁，手機可開啟，含深色模式。ESC Congress 2026 Munich 急性心肌梗塞相關電子海報現場共筆，逐篇拆解「創新在哪裡」與「方法怎麼做的」。四個主題：AI 心電圖與影像判讀 5 篇（院前 OMI 分流把偽發現率從 58% 壓到 16%、心搏過速下 STEMI criteria 敏感度僅 28% 而 AI 達 76%、Takotsubo 與前壁 STEMI 鑑別 AUC 0.970、自動 STEMI 偵測的三層驗證、全自動 strain 定位阻塞血管）；心肌保護藥物 3 篇（GLP-1 RA vs SGLT2i 真實世界配對、GLP-1 RA 縮小梗塞面積 RCT 統合分析、SGLT2i 粒線體機轉的陰性結果）；Impella 與心因性休克 2 篇（J-PVAD 全國登錄：該問的不是「有沒有洗腎」而是「腎功能第幾期」）；乳突肌斷裂併休克統合分析 1 篇。另設「怎麼讀」分頁講八個判讀重點——驗證階梯、校準 vs 判別、傾向分數的界線、單臂統合分析不能做組間比較、競爭風險模型、小樣本次族群的完美數字、替代終點。11 篇中有 9 篇為回溯性或觀察性設計，全頁標註證據界線；附 10 題自我測驗。"
+      path: handouts/01-ischemic-heart-disease/ESC2026_Munich_AMI_Poster_Digest.html
+      categories: [缺血性心臟病 IHD, AI 科技, 文獻判讀 Critical Appraisal, 重症 Critical Care, 教學 Teaching, 手機 Mobile]
     - title: "心肌病變的基因檢測 — 病人家屬 × 臨床同仁雙軌"
       description: "互動衛教／教學網頁，手機可開啟，雙分頁設計。「病人與家屬」頁用白話講清楚為什麼要驗、怎麼驗、結果代表什麼：三種結果（陽性／陰性／VUS）分別該怎麼理解——特別是 VUS 代表「還不知道」而不是「有問題」，不能用來做家屬篩檢；以及檢測順序的關鍵一步是從已確診的病人先驗，不是從健康家屬開始。「臨床同仁」頁走 DCM 基因 panel 與臨床決策：TTN、LMNA、FLNC、RBM20、DSP、PLN、BAG3、MYH7、TNNT2、TMEM43、PKP2、EMD 等基因各自的表現型與 ICD 決策意涵（部分基因即使 LVEF 未明顯下降仍應提早考慮去顫器）、ACMG 變異分級、cascade screening 與 ESC 2023 建議。含常見問題（保險、健保給付、孩子要不要驗）、一等親基本評估建議與自我測驗。"
       path: handouts/08-genetic-medicine/Cardiomyopathy_Genetic_Testing.html
       categories: [遺傳醫學 Genetics, 心衰竭 HF, 衛教 Patient Education, 教學 Teaching, 手機 Mobile]
+    - title: "TRIC-I-HF-DZHK24 — 三尖瓣介入首度看到硬終點訊號"
+      description: "ESC Congress 2026 Munich Hot Line 讀書會共筆（Jörg Hausleiter 報告、Rebecca Hahn discussant）。六分頁互動網頁，含深色模式與 7 題自我測驗。兩個 co-primary 都達標：12 個月 hierarchical win ratio 2.42 (1.76–3.33), P < 0.0001；HF 住院 HR 0.35 (0.25–0.51)。這是 TR 領域第一個看到 hard endpoint 訊號的隨機試驗，但本頁的重點是「為什麼是這一次」——TRILUMINATE Pivotal 與 Tri.Fr 只證明 QoL 改善，差別在族群選擇：本試驗刻意只收已有右心衰竭表現者（12 個月內 HFH、cardio-renal eGFR < 60、或 cardio-hepatic 兩項膽汁鬱積指標上升）。同時標好界線：open-label、win ratio 主要由 HFH 貢獻 22.0 個百分點驅動，死亡率 HR 0.62 (0.40–0.96) 屬 secondary endpoint 且 3 年時 at risk 僅 32 vs 12，不宜過度解讀。30 天 MAE 5.9%、死亡 0.4%、無 device embolization。實務上 98.3% 為 T-TEER。"
+      path: handouts/04-valvular-disease/TRIC-I-HF_Tricuspid_Intervention_ESC2026.html
+      categories: [瓣膜 Valvular, TEER, 心衰竭 HF, 文獻判讀 Critical Appraisal, 教學 Teaching, 手機 Mobile]
+    - title: "POPular ACE TAVI — 常規還是選擇性給 Protamine？"
+      description: "ESC Congress 2026 Munich Hot Line 7 讀書會共筆，互動網頁含 6 題自我測驗。n = 1,000 的 double-blind superiority RCT：常規 protamine 讓 30 天「全因死亡或 clinically relevant bleeding」由 29.4% 降到 18.5%，RD −10.9%（−17.0 to −4.8），p < 0.001，NNT ≈ 9——是 positive trial，但本頁教的是把 positive 拆開看。效益幾乎全部來自 VARC-3 type 1（minor）bleeding：major bleeding 兩組完全一樣（2.9% vs 2.9%），major vascular complications 無差異，死亡事件僅 1 vs 5 無法解讀。代價是 anaphylaxis 6 例 (1.3%) vs 0 例，CI 不跨 0 且高於文獻的 0.19–0.69%，NNH ≈ 77。真正的決策爭點：選擇性策略下只有 17.7% 需要 bail-out，常規給藥等於讓 82% 不需要的病人暴露。另標明外推限制（純 transfemoral、排除 surgical cutdown 與術前 3 個月內 PCI）與前置試驗 ACE-PROTAVI 的替代終點問題。"
+      path: handouts/04-valvular-disease/POPular_ACE_TAVI_Protamine_ESC2026.html
+      categories: [瓣膜 Valvular, TAVI, 介入 Interventional, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "TAVI 後抗栓治療 — ACASA-TAVI × NOTION-4 與 HALT"
+      description: "ESC Congress 2026 Munich Hot Line 讀書會共筆（討論者 Stephan Windecker）。八分頁互動網頁，含 19 張現場投影片圖與 6 題自我檢核。兩個試驗結果 discordant：ACASA-TAVI（n = 360）NOAC monotherapy 12 個月把 HALT 由 28.6% 壓到 16.2%，RR 0.55 (0.37–0.82), p = 0.004，安全性 non-inferiority 達標；NOTION-4（n = 347）DOAC 只給 3 個月再轉 SAPT，12 個月 HALT 28.3% vs 32.2%, p = 0.54 為 neutral，且 3 個月時明明有效（12% vs 32%）——停藥就回來。核心結論是抗凝「壓得住 HALT，壓不住臨床事件，一停就回來」，而 HALT 與硬終點之間的因果鏈仍未證實。因此無 OAC 適應症的 TAVR 病人 SAPT 仍是預設（2025 ESC VHD Guideline COR I / LOE A）、不建議常規篩檢 HALT，該做的是優化植入技術。含 HALT 的 VARC-3 分級、ARTE／POPular TAVI／GALILEO／ATLANTIS／ADAPT-TAVR 既有隨機證據版圖與 PARTNER 3 七年終身出血血栓風險。"
+      path: handouts/04-valvular-disease/TAVI_Antithrombotic_ACASA_NOTION-4_ESC2026.html
+      categories: [瓣膜 Valvular, TAVI, 抗栓 Antithrombotic, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "Met-HeFT (DANHEART) — Metformin 用於 HFrEF 的中性結果"
+      description: "ESC Congress 2026 Munich Hot Line 讀書會共筆，九分頁互動網頁含 7 題小測驗。丹麥 23 院、投資者發起的 2×2 factorial RCT（n = 940，平均追蹤 3.7 年）：HFrEF 合併 T2D／prediabetes／BMI ≥ 30 的病人，metformin 未降低主要複合終點，HR 1.10 (0.85–1.42), P = 0.48；同步發表的 systematic review & meta-analysis 完全一致（HFrEF major CV events RR 1.05, I² = 0.0%）。最值得帶走的一句是「代謝有效、心血管無轉譯」——HbA1c −1.8 mmol/mol、體重 −2.2 kg、總膽固醇都改善，卻沒有換到事件減少；且 T2D 有無、HOMA-IR、BMI、HbA1c 各次族群皆無交互作用，找不到任何該用的亞群。另教兩件判讀事：placebo 組事件率僅 11.8% 遠低於 DAPA-HF／EMPEROR-Reduced／VICTORIA，這是極低風險族群；以及收案因經費提前結束、實際 power 只夠偵測 HR 0.75，所以正確寫法是「未顯示效益」而非「證實有害」。"
+      path: handouts/02-heart-failure/Met-HeFT_Metformin_in_HFrEF_ESC2026.html
+      categories: [心衰竭 HF, 代謝 Metabolic, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "PADN-PH-LHD — 肺動脈去神經術治療左心疾病相關肺高壓"
+      description: "ESC Congress 2026 Munich Hot Line 讀書會共筆（Shao-Liang Chen 報告，同步發表 NEJM）。長捲軸互動網頁，十一個章節加 4 題自我測驗。PH-LHD 佔所有肺高壓的 65–80%，卻是唯一沒有核准治療的族群，這是該領域第一個以臨床事件為主要終點的 registration trial：PADN + GDMT 相較單純 GDMT，clinical worsening 25.7% vs 51.5%，HR 0.49 (0.30–0.82), p = 0.006。但本頁把 positive 拆得很細：這是 open-label 且取消了 sham（前代 PADN-5 反而有 sham），而複合終點中權重最大的兩個成分——門診 HF 惡化與 6MWD 下降——正是最容易受知情偏差影響的軟性終點；死亡（HR 0.83）、HF 住院（HR 0.56, p = 0.07）等硬終點全部中性，效益主要來自「門診口服利尿劑加強」。6MWD 組間差約 16 m、KCCQ-OSS 約 4 分，兩者都低於 MCID。結論是在 sham-controlled 的 PULSE-LHD 出爐前仍應視為 investigational，台灣亦無此適應症與給付。"
+      path: handouts/21-pulmonary-hypertension/PADN_PH_LHD_Pulmonary_Denervation_ESC2026.html
+      categories: [肺高壓 PH, 心衰竭 HF, 介入 Interventional, 文獻判讀 Critical Appraisal, 教學 Teaching]
 ---
 
 本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。

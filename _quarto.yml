@@ -47,6 +47,8 @@ website:
               href: "handouts/01-ischemic-heart-disease/Door-to-Balloon 與 Door-to-Needle 時間改善 教學講義.md"
             - text: "From A to A⁺ — STEMI Door-to-Balloon / Door-to-ECG 品質改善（互動投影片, 英文, 39 張）"
               href: handouts/01-ischemic-heart-disease/STEMI_D2B_Improvement.html
+            - text: "ESC 2026 Munich — 急性心肌梗塞 11 篇海報導讀（互動網頁, 手機可開啟）"
+              href: handouts/01-ischemic-heart-disease/ESC2026_Munich_AMI_Poster_Digest.html
             - text: "PCI 後氧化磷脂與 Lp(a) 的急性上升（Tsimikas, Circulation 2004 機轉導讀）"
               href: "handouts/01-ischemic-heart-disease/PCI 後 OxPL 與 Lp(a) 急性上升 教學講義.md"
             - handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.qmd
@@ -77,6 +79,8 @@ website:
               href: handouts/02-heart-failure/Pharmacist_Led_Remote_GDMT_QI.html
             - text: "懷孕期肺水腫的鑑別診斷 (2025 ESC Pregnancy 指引, 互動網頁, 手機可開啟)"
               href: handouts/02-heart-failure/Pulmonary_Oedema_in_Pregnancy_DDx.html
+            - text: "Met-HeFT (DANHEART) — Metformin 用於 HFrEF 是中性結果 (ESC 2026 共筆, 互動網頁)"
+              href: handouts/02-heart-failure/Met-HeFT_Metformin_in_HFrEF_ESC2026.html
             - text: "HFpEF 診斷陷阱與瓣膜病鑑別（AS/MR 是不是 HFpEF？）"
               href: "handouts/02-heart-failure/HFpEF 診斷陷阱與瓣膜病鑑別 教學講義.md"
             - handouts/02-heart-failure/nejm-biovat-hf-stem-cell-heart-failure-2026/index.qmd
@@ -109,6 +113,12 @@ website:
               href: handouts/04-valvular-disease/M-TEER_Intraprocedural_Imaging_ASE2026.html
             - text: "M-TEER 後的 Strain Imaging — 執行與判讀 (ESC 2026 共筆, 互動網頁)"
               href: handouts/04-valvular-disease/M-TEER_Strain_Imaging.html
+            - text: "TRIC-I-HF-DZHK24 — 三尖瓣介入首度看到硬終點訊號 (ESC 2026 共筆, 互動網頁)"
+              href: handouts/04-valvular-disease/TRIC-I-HF_Tricuspid_Intervention_ESC2026.html
+            - text: "POPular ACE TAVI — TAVI 後常規 vs 選擇性 Protamine (ESC 2026 共筆, 互動網頁)"
+              href: handouts/04-valvular-disease/POPular_ACE_TAVI_Protamine_ESC2026.html
+            - text: "TAVI 後抗栓治療 ACASA-TAVI × NOTION-4 — DOAC vs SAPT 與 HALT (ESC 2026 共筆, 互動網頁)"
+              href: handouts/04-valvular-disease/TAVI_Antithrombotic_ACASA_NOTION-4_ESC2026.html
             - handouts/04-valvular-disease/pascal-teer-teaching/index.qmd
             - handouts/04-valvular-disease/mitraclip-atlas-ch04-patient-selection/index.qmd
             - handouts/04-valvular-disease/jacc-adv-valvular-cardiogenic-shock-2024/index.qmd
@@ -380,6 +390,8 @@ website:
         - section: "肺高壓 PH"
           contents:
             - handouts/21-pulmonary-hypertension/index.qmd
+            - text: "PADN-PH-LHD — 肺動脈去神經術治療 PH-LHD (ESC 2026 共筆, 互動網頁)"
+              href: handouts/21-pulmonary-hypertension/PADN_PH_LHD_Pulmonary_Denervation_ESC2026.html
             - handouts/21-pulmonary-hypertension/ajrccm-pulmonary-catheter-cytology/index.qmd
             - handouts/21-pulmonary-hypertension/checklist-pulmonary-hypertension/index.qmd
             - handouts/21-pulmonary-hypertension/chest-2026-ild-ph/index.qmd

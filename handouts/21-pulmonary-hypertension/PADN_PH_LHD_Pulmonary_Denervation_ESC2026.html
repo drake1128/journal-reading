@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PADN-PH-LHD 讀書會共筆｜ESC Congress 2026 Munich</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1a3a5c; --navy-light:#2d5a87; --gold:#c9a227; --gold-light:#e8d59a;
+  --accent:#c0392b; --success:#1e8449; --warn:#b9770e;
+  --bg:#faf8f5; --card:#ffffff; --text:#26323d; --muted:#6b7a88; --border:#e5e0d8;
+  --shadow:0 2px 14px rgba(26,58,92,.08);
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:"Noto Sans TC",-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;
+  line-height:1.75;font-size:16px;-webkit-text-size-adjust:100%;}
+.wrap{max-width:940px;margin:0 auto;padding:0 16px 64px;}
+
+/* Header */
+header{background:linear-gradient(150deg,var(--navy) 0%,#12283f 100%);color:#fff;padding:30px 0 26px;}
+header .wrap{padding-bottom:0;}
+.badge{display:inline-block;background:var(--gold);color:#1a1a1a;font-size:12px;font-weight:700;
+  letter-spacing:.06em;padding:4px 11px;border-radius:3px;margin-bottom:12px;}
+header h1{font-family:"Noto Serif TC",serif;font-size:25px;line-height:1.35;margin:0 0 6px;}
+header h2{font-size:15px;font-weight:400;color:var(--gold-light);margin:0 0 14px;}
+.meta{font-size:13px;color:#c3d2e0;line-height:2;border-top:1px solid rgba(255,255,255,.18);padding-top:12px;}
+.meta b{color:#fff;font-weight:500;}
+
+/* Nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(250,248,245,.97);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--border);}
+nav .inner{max-width:940px;margin:0 auto;padding:8px 10px;display:flex;gap:6px;overflow-x:auto;
+  -webkit-overflow-scrolling:touch;scrollbar-width:none;}
+nav .inner::-webkit-scrollbar{display:none;}
+nav a{flex:0 0 auto;font-size:13px;color:var(--navy);text-decoration:none;padding:8px 12px;
+  border-radius:20px;border:1px solid var(--border);background:#fff;white-space:nowrap;min-height:36px;
+  display:flex;align-items:center;}
+nav a:active{background:var(--navy);color:#fff;}
+
+/* Sections */
+section{margin-top:34px;scroll-margin-top:60px;}
+h3.sec{font-family:"Noto Serif TC",serif;font-size:20px;color:var(--navy);margin:0 0 4px;
+  padding-left:12px;border-left:5px solid var(--gold);}
+h3.sec small{display:block;font-family:"Noto Sans TC";font-size:12px;color:var(--muted);
+  font-weight:400;letter-spacing:.04em;}
+h4{font-size:16px;color:var(--navy-light);margin:22px 0 8px;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;
+  padding:18px;margin-top:14px;box-shadow:var(--shadow);}
+
+/* Verdict */
+.verdict{border-left:6px solid var(--success);background:#f2f9f4;}
+.verdict .tag{display:inline-block;background:var(--success);color:#fff;font-weight:700;
+  font-size:13px;padding:3px 12px;border-radius:4px;letter-spacing:.05em;}
+.verdict .tag.caution{background:var(--warn);}
+
+/* Take home */
+.takehome{background:linear-gradient(160deg,#fffdf6,#fdf7e6);border:1px solid var(--gold-light);}
+.takehome ol{margin:6px 0 0;padding-left:22px;}
+.takehome li{margin-bottom:11px;}
+.takehome li::marker{color:var(--gold);font-weight:700;}
+
+/* Key figures */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px;}
+.kpi{background:#fff;border:1px solid var(--border);border-top:3px solid var(--navy);
+  border-radius:8px;padding:12px;text-align:center;}
+.kpi .v{font-size:22px;font-weight:700;color:var(--navy);line-height:1.2;}
+.kpi .v.red{color:var(--accent);}
+.kpi .l{font-size:12px;color:var(--muted);margin-top:3px;}
+
+/* Tables */
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:12px;
+  border:1px solid var(--border);border-radius:8px;background:#fff;}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px;}
+th{background:var(--navy);color:#fff;font-weight:500;text-align:left;padding:10px 12px;
+  font-size:13px;white-space:nowrap;}
+td{padding:9px 12px;border-top:1px solid var(--border);vertical-align:top;}
+tbody tr:nth-child(even){background:#fbfaf8;}
+tr.hl td{background:#fdf3e7;font-weight:600;}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+.sig{color:var(--success);font-weight:700;}
+.ns{color:var(--muted);}
+.cap{font-size:12px;color:var(--muted);margin-top:7px;}
+
+/* Notes */
+.note{border-left:4px solid var(--navy-light);background:#f3f6fa;padding:12px 14px;
+  border-radius:0 8px 8px 0;font-size:14.5px;margin-top:12px;}
+.note.warn{border-left-color:var(--accent);background:#fdf2f0;}
+.note b{color:var(--navy);}
+.note.warn b{color:var(--accent);}
+ul.tight{margin:8px 0 0;padding-left:20px;}
+ul.tight li{margin-bottom:7px;}
+
+/* Flow */
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px;}
+.node{background:#fff;border:1px solid var(--border);border-left:4px solid var(--navy-light);
+  border-radius:6px;padding:9px 13px;font-size:13.5px;flex:1 1 150px;}
+.node b{display:block;color:var(--navy);font-size:14px;}
+.arrow{color:var(--gold);font-weight:700;}
+
+/* Quiz */
+.q{border:1px solid var(--border);border-radius:8px;background:#fff;padding:16px;margin-top:14px;}
+.q .stem{font-weight:500;margin-bottom:10px;}
+.opt{display:block;width:100%;text-align:left;background:#fbfaf8;border:1px solid var(--border);
+  border-radius:6px;padding:11px 14px;margin-bottom:8px;font-size:15px;cursor:pointer;
+  font-family:inherit;color:var(--text);min-height:46px;transition:.15s;}
+.opt:hover{border-color:var(--navy-light);}
+.opt.correct{background:#e8f6ed;border-color:var(--success);color:#14532d;font-weight:600;}
+.opt.wrong{background:#fdeceb;border-color:var(--accent);color:#7f1d1d;}
+.exp{display:none;margin-top:10px;padding:12px;background:#f3f6fa;border-radius:6px;font-size:14px;
+  border-left:4px solid var(--navy-light);}
+.exp.show{display:block;}
+
+/* Footer */
+footer{margin-top:44px;border-top:2px solid var(--gold);padding-top:20px;font-size:13.5px;}
+.sign{background:#fff;border:1px solid var(--border);border-radius:8px;padding:16px;}
+.sign .name{font-family:"Noto Serif TC",serif;font-size:17px;color:var(--navy);font-weight:700;}
+.sign .role{font-size:13px;color:var(--muted);}
+.disc{font-size:12.5px;color:var(--muted);margin-top:14px;line-height:1.9;}
+.disc li{margin-bottom:2px;}
+a.ref{color:var(--navy-light);word-break:break-all;}
+.abbr{font-size:12.5px;color:var(--muted);line-height:1.9;margin-top:10px;}
+@media(max-width:600px){
+  header h1{font-size:21px;}
+  h3.sec{font-size:18px;}
+  body{font-size:15.5px;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="badge">ESC CONGRESS 2026 · MUNICH · HOT LINE</span>
+    <h1>PADN-PH-LHD：肺動脈去神經術治療左心疾病相關肺高壓</h1>
+    <h2>Pulmonary Denervation for Heart Failure–Related Pulmonary Hypertension（PADN-HF-PH）</h2>
+    <div class="meta">
+      <b>發表者：</b>Shao-Liang Chen（南京市第一醫院，中國）<br>
+      <b>同步發表：</b>New England Journal of Medicine（DOI 10.1056/NEJMoa2609056）<br>
+      <b>註冊編號：</b>NCT05824923｜<b>裝置：</b>PADN system（Pulnovo Medical）<br>
+      <b>共筆日期：</b>2026 年 8 月 30 日
+    </div>
+  </div>
+</header>
+
+<nav><div class="inner">
+  <a href="#takehome">Take Home</a>
+  <a href="#verdict">試驗方向</a>
+  <a href="#bg">背景</a>
+  <a href="#design">設計</a>
+  <a href="#hemo">急性血液動力學</a>
+  <a href="#primary">主要終點</a>
+  <a href="#func">功能與生物標記</a>
+  <a href="#sub">次族群</a>
+  <a href="#limit">限制</a>
+  <a href="#clinic">臨床解讀</a>
+  <a href="#quiz">自我測驗</a>
+</div></nav>
+
+<div class="wrap">
+
+<!-- TAKE HOME -->
+<section id="takehome">
+  <h3 class="sec">Take Home Message<small>先看結論，細節在下面</small></h3>
+  <div class="card takehome">
+    <ol>
+      <li><b>主要終點達標。</b>在 RHC 確診的 HF-PH 病人，PADN + GDMT 相較單純 GDMT 顯著降低 clinical worsening：25.7% vs 51.5%，<b>HR 0.49（95% CI 0.30–0.82，p = 0.006）</b>。這是 PADN 領域第一個以臨床事件為主要終點的 registration trial。</li>
+      <li><b>但這是 open-label，沒有 sham control。</b>操作者、研究人員、病人皆未盲化；主要複合終點中權重最大的兩個成分（門診 HF 惡化、6MWD 下降）恰好是最容易受知情偏差影響的軟性終點。</li>
+      <li><b>硬終點皆為中性。</b>全因死亡 4.5% vs 5.4%（HR 0.83，p = 0.32）、HF 住院 24.8% vs 33.0%（HR 0.56，<b>p = 0.07，未達統計顯著</b>）。差異主要來自「門診口服利尿劑加強」（HR 0.48，p &lt; 0.001）。</li>
+      <li><b>次要終點未做 multiplicity adjustment、也未做 power 計算</b>，所有次要與次族群數值僅供假說生成（hypothesis-generating），不可當作療效證據引用。</li>
+      <li><b>臨床意義幅度需要保守解讀。</b>6MWD 組間中位數差約 16 m、KCCQ-OSS 差約 4 分，兩者都低於一般認定的 MCID（6MWD 約 30 m、KCCQ 約 5 分），統計顯著不等於病人有感。</li>
+      <li><b>下一步看 PULSE-LHD（NCT07214376）</b>——國際多中心、sham-controlled、FDA IDE 試驗，2026 年 8 月已在美國收案。在該試驗結果出爐前，PADN 在 PH-LHD 仍應視為 <b>investigational</b>，台灣目前無此適應症與健保給付。</li>
+    </ol>
+  </div>
+</section>
+
+<!-- VERDICT -->
+<section id="verdict">
+  <h3 class="sec">試驗方向判定<small>Positive / Neutral / Negative — 引用前先確認</small></h3>
+  <div class="card verdict">
+    <p style="margin-top:0"><span class="tag">PRIMARY ENDPOINT：POSITIVE</span>　<span class="tag caution">HARD ENDPOINTS：NEUTRAL</span></p>
+    <p style="margin-bottom:0">主要終點在統計上明確為 <b>positive</b>（HR 0.49，95% CI 上界 0.82 未跨過 1，p = 0.006）。
+    但若把複合終點拆解，<b>死亡、心/肺移植、HF 住院三個硬終點全部落在中性區間</b>，
+    治療效益由「門診 HF 惡化 / 利尿劑加強」與「6MWD 下降」這類在未盲化設計中判定彈性較大的成分驅動。
+    因此正確的描述是：<b>「open-label 條件下主要複合終點為陽性，硬終點中性，待 sham-controlled 試驗驗證」</b>，
+    而非「PADN 降低心衰竭住院與死亡」。</p>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><div class="v red">0.49</div><div class="l">Primary HR<br>(0.30–0.82)</div></div>
+    <div class="kpi"><div class="v">264</div><div class="l">隨機分派人數<br>25 centers, China</div></div>
+    <div class="kpi"><div class="v">338 d</div><div class="l">中位追蹤<br>(IQR 218–467)</div></div>
+    <div class="kpi"><div class="v">−4 mmHg</div><div class="l">急性 mPAP 下降<br>(10 分鐘)</div></div>
+  </div>
+</section>
+
+<!-- BACKGROUND -->
+<section id="bg">
+  <h3 class="sec">背景<small>為什麼要對肺動脈做去神經</small></h3>
+  <div class="card">
+    <p style="margin-top:0"><b>PH-LHD（WHO Group 2）是最常見的肺高壓型態</b>，佔所有 PH 的 65–80%，
+    卻是唯一<b>沒有任何核准治療</b>的族群。PDE-5 inhibitor 在 IpcPH 反而可能有害，
+    臨床上只能回頭最佳化 GDMT 與利尿劑。</p>
+    <p><b>PADN 的機轉假說：</b>肺動脈分叉處（bifurcation area）存在壓力感受器與交感神經纖維，
+    左心充填壓長期升高會經由此路徑造成反射性肺血管收縮。以射頻能量消融該區域，理論上可打斷此反射弧，
+    降低 PVR 與 PAWP。</p>
+    <p style="margin-bottom:0"><b>先前證據鏈：</b>PADN-1（first-in-man, JACC 2013）→ PADN-5（CpcPH，6MWD 陽性，JACC Intv 2019；
+    3 年追蹤 clinical worsening 37.5% vs 62.0%）→ HFpEF-IpcPH proof-of-principle cohort（AsiaIntervention 2026，
+    急性 mPAP ↓16.9%、PAWP ↓22.9%，dP/dt<sub>min</sub> 改善）→ <b>PADN-HF-PH（本試驗）</b>。</p>
+    <div class="note warn"><b>注意：</b>PADN-5 使用的是 <b>sham + sildenafil</b> 對照，本次 PADN-HF-PH 反而<b>取消了 sham</b>，
+    對照組僅為 GDMT。從方法學角度，這是相對於前作的<b>退步</b>，也是本試驗最主要的爭議點。</div>
+  </div>
+</section>
+
+<!-- DESIGN -->
+<section id="design">
+  <h3 class="sec">試驗設計與病人流程<small>Trial design and patient flow</small></h3>
+  <div class="card">
+    <div class="flow">
+      <div class="node"><b>Screened</b>RHC-confirmed HF-PH<br>n = 363</div>
+      <span class="arrow">→</span>
+      <div class="node"><b>Randomized 1:1</b>n = 264<br>Stratified by IpcPH vs CpcPH &amp; site</div>
+      <span class="arrow">→</span>
+      <div class="node"><b>PADN + GDMT</b>n = 134<br><span style="color:var(--muted)">vs</span> <b style="display:inline">GDMT alone</b> n = 130</div>
+    </div>
+    <h4>關鍵設計要素</h4>
+    <ul class="tight">
+      <li><b>收案期間：</b>2023 年 8 月 14 日至 2025 年 2 月 18 日，中國 <b>25 個中心</b>。</li>
+      <li><b>納入條件：</b>慢性 HF ≥ 3 個月、依 2023 ESC HF Guidelines 接受 GDMT ≥ 1 個月且臨床穩定；
+      經 <b>right heart catheterization (RHC)</b> 確診 PH-LHD。</li>
+      <li><b>對照組：</b>維持原劑量 GDMT（ACEI/ARB/ARNI + BB + MRA + SGLT2i + diuretics），除非臨床必要否則不調整。</li>
+      <li><b>Database lock：</b>最後一位收案病人完成 6 個月追蹤時鎖定主要分析資料庫。</li>
+      <li><b>追蹤時程：</b>Baseline → 1 / 3 / 6 / 12 / 24 / 36 months（長期資料尚未成熟）。</li>
+      <li><b>盲化：</b>CEC 與 core lab 盲化；<b>操作者、研究人員、病人均未盲化</b>。</li>
+    </ul>
+    <h4>終點定義</h4>
+    <div class="note"><b>Primary endpoint — Time to clinical worsening（複合）</b><br>
+    ① 死亡　② 心臟或肺臟移植　③ HF 住院　④ 門診 HF 惡化（需靜脈給藥）　
+    ⑤ 6MWD 下降 ≥ 10% 或 &gt; 30 m</div>
+    <p class="cap">Key secondary endpoints：all-cause death、heart/lung transplantation、HF hospitalization、
+    outpatient worsening HF、6MWD decline、health status (KCCQ)、NT-proBNP change。</p>
+  </div>
+</section>
+
+<!-- HEMODYNAMICS -->
+<section id="hemo">
+  <h3 class="sec">急性血液動力學反應<small>Acute (10-minute) hemodynamic changes</small></h3>
+  <div class="card">
+    <div class="tw"><table>
+      <thead><tr><th>Parameter</th><th class="num">方向</th><th class="num">P value</th></tr></thead>
+      <tbody>
+        <tr><td>RAP (mmHg)</td><td class="num">↓</td><td class="num sig">0.002</td></tr>
+        <tr><td>sPAP (mmHg)</td><td class="num">↓↓（幅度最大）</td><td class="num sig">&lt;0.0001</td></tr>
+        <tr class="hl"><td>mPAP (mmHg)</td><td class="num">↓ 約 −4</td><td class="num sig">&lt;0.0001</td></tr>
+        <tr class="hl"><td>PAWP (mmHg)</td><td class="num">↓ 約 −3</td><td class="num sig">&lt;0.0001</td></tr>
+        <tr><td>PVR (Wood Units)</td><td class="num">↓（相對 −17%）</td><td class="num sig">0.0006</td></tr>
+        <tr><td>Cardiac output (L/min)</td><td class="num">↑ +0.26</td><td class="num sig">0.02</td></tr>
+        <tr><td>Cardiac index (L/min/m²)</td><td class="num">↑（幅度小）</td><td class="num sig">0.02</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note"><b>解讀：</b>PADN 在術後 10 分鐘即產生可測得的血液動力學改變，且方向一致
+    （前後負荷同時下降、CO 上升），支持機轉的<b>生物可信度（biological plausibility）</b>。
+    這是本試驗最不受盲化問題影響的一組資料。<br>
+    但要留意：<b>PAWP 也同步下降</b>意味著效果不只在肺血管床，可能反映左心舒張功能改變
+    （與 AsiaIntervention 的 dP/dt<sub>min</sub> 結果一致）；同時也提醒此為<b>單臂術中比較</b>，
+    無對照組同時段數值可校正。絕對變化量（mPAP −4、PAWP −3 mmHg）在臨床上屬<b>中等偏小</b>。</div>
+  </div>
+</section>
+
+<!-- PRIMARY -->
+<section id="primary">
+  <h3 class="sec">主要與次要終點<small>Primary and secondary endpoints</small></h3>
+  <div class="card">
+    <div class="tw"><table>
+      <thead><tr>
+        <th>Outcome — n (Kaplan-Meier %)</th>
+        <th class="num">PADN + GDMT<br>(N=134)</th>
+        <th class="num">GDMT alone<br>(N=130)</th>
+        <th class="num">HR (95% CI)</th>
+        <th class="num">P</th>
+      </tr></thead>
+      <tbody>
+        <tr class="hl"><td><b>Primary：clinical worsening</b></td><td class="num">25 (25.7)</td><td class="num">42 (51.5)</td><td class="num">0.49 (0.30–0.82)</td><td class="num sig">0.006</td></tr>
+        <tr><td>Events/patient-yr（年化率）</td><td class="num">47/129.5 (36.3)</td><td class="num">71/126.2 (56.3)</td><td class="num">0.59 (0.39–0.89)</td><td class="num sig">0.01</td></tr>
+        <tr><td colspan="5" style="background:#f0f4f8;font-weight:600;color:var(--navy)">Secondary outcomes（未做 multiplicity 校正）</td></tr>
+        <tr><td>Clinical worsening without 6MWD decline</td><td class="num">19 (20.8)</td><td class="num">33 (40.3)</td><td class="num">0.48 (0.27–0.86)</td><td class="num sig">0.01</td></tr>
+        <tr><td>Death from any cause</td><td class="num">6 (4.5)</td><td class="num">7 (5.4)</td><td class="num">0.83 (0.19–1.74)</td><td class="num ns">0.32</td></tr>
+        <tr><td>Heart or lung transplantation</td><td class="num">1 (0.7)</td><td class="num">0</td><td class="num">—</td><td class="num ns">0.99</td></tr>
+        <tr><td>Hospitalization for heart failure</td><td class="num">17 (24.8)</td><td class="num">26 (33.0)</td><td class="num">0.56 (0.30–1.04)</td><td class="num ns">0.07</td></tr>
+        <tr><td>Outpatient worsening treated with IV medication</td><td class="num">16 (16.5)</td><td class="num">24 (32.2)</td><td class="num">0.58 (0.31–1.11)</td><td class="num ns">0.10</td></tr>
+        <tr><td>6MWD decrease ≥10% or &gt;30 m</td><td class="num">9 (14.8)</td><td class="num">17 (26.8)</td><td class="num">0.50 (0.21–1.15)</td><td class="num ns">0.10</td></tr>
+        <tr><td>Outpatient worsening — oral diuretic intensification</td><td class="num">28 (27.1)</td><td class="num">49 (41.8)</td><td class="num">0.48 (0.30–0.78)</td><td class="num sig">&lt;0.001</td></tr>
+      </tbody>
+    </table></div>
+    <p class="cap">追蹤於全體病人完成，中位 338 天（IQR 218–467）。KM 曲線上 GDMT 組終點事件率標示為 51.1%，
+    與表格 51.5% 之微小差異來自不同時間點的 KM 估計，不影響結論。</p>
+
+    <div class="note warn"><b>共筆重點——複合終點的拆解：</b>
+    <ul class="tight" style="margin-bottom:0">
+      <li>唯二達到 p &lt; 0.05 的個別成分是 <b>「clinical worsening without 6MWD decline」</b>（本身仍是複合）與
+      <b>「門診口服利尿劑加強」</b>（HR 0.48，p &lt; 0.001）。</li>
+      <li><b>利尿劑加強</b>是由未盲化的照護醫師自行判斷的處置，在 open-label 設計中屬於偏差風險最高的終點。</li>
+      <li>HF 住院 HR 0.56 但 <b>95% CI 1.04 跨過 1（p = 0.07）</b>——這是趨勢，不可寫成「顯著降低住院」。</li>
+      <li>死亡事件數僅 6 vs 7，<b>試驗完全沒有 power 檢測存活差異</b>。</li>
+    </ul></div>
+
+    <h4>KM 曲線的形狀值得注意</h4>
+    <p style="margin-bottom:0">兩條曲線在前 180 天幾乎重疊，<b>約 270 天後才開始明顯分離</b>，
+    且 540 天以後 at-risk 人數已降至 27 vs 27、720 天僅剩 0 vs 1。
+    曲線尾端的分離（51.1% vs 25.7%）是建立在極少數殘存病人上，<b>統計上不穩定</b>。
+    這也呼應講者自己承認的第 3 項限制：需要長期追蹤才能評估效果的持久性。</p>
+  </div>
+</section>
+
+<!-- FUNCTIONAL -->
+<section id="func">
+  <h3 class="sec">功能能力、健康狀態與生物標記<small>Changes from baseline to 6 months</small></h3>
+  <div class="card">
+    <div class="tw"><table>
+      <thead><tr><th>指標</th><th class="num">PADN + GDMT<br>(n=134)</th><th class="num">GDMT alone<br>(n=130)</th><th class="num">組間差</th><th class="num">P<sub>Δ</sub></th></tr></thead>
+      <tbody>
+        <tr><td><b>6MWD</b>（median change, m）<br><span class="cap">Functional capacity</span></td><td class="num">+55.2</td><td class="num">+39.0</td><td class="num">約 +16 m</td><td class="num sig">0.005</td></tr>
+        <tr><td><b>KCCQ-OSS</b>（median change, points）<br><span class="cap">Health status</span></td><td class="num">+9</td><td class="num">+5</td><td class="num">約 +4 分</td><td class="num sig">0.04</td></tr>
+        <tr><td><b>NT-proBNP</b>（median change, pg/mL）<br><span class="cap">Biomarker</span></td><td class="num">−148</td><td class="num">−54</td><td class="num">約 −94 pg/mL</td><td class="num sig">0.03</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note warn"><b>統計顯著 ≠ 臨床有感。</b>
+    <ul class="tight" style="margin-bottom:0">
+      <li>6MWD 組間差 <b>約 16 m</b>，低於 HF 族群常用的 MCID（約 30 m）。注意<b>兩組都改善</b>，
+      對照組也進步 39 m——這正是未盲化試驗中典型的 placebo / Hawthorne effect 幅度。</li>
+      <li>KCCQ-OSS 組間差 <b>約 4 分</b>，低於一般認定的 5 分 clinically meaningful 門檻。
+      KCCQ 是<b>病人自填問卷</b>，在知道自己接受了侵入性手術的情況下，最易受期待效應影響。</li>
+      <li>NT-proBNP 是三者中<b>唯一相對客觀</b>的指標，core lab 盲化測量，
+      這也是講者在限制頁特別強調的一點（結構、功能與 natriuretic peptide 較不易受偏差影響）。
+      但 −94 pg/mL 的絕對差在 HF 族群中屬<b>小幅度</b>，且未提供基期值供百分比換算。</li>
+    </ul></div>
+  </div>
+</section>
+
+<!-- SUBGROUP -->
+<section id="sub">
+  <h3 class="sec">次族群分析<small>Clinical worsening: key subgroups（hypothesis-generating only）</small></h3>
+  <div class="card">
+    <div class="tw"><table>
+      <thead><tr><th>Subgroup</th><th class="num">PADN + GDMT</th><th class="num">GDMT alone</th><th class="num">HR (95% CI)</th><th class="num">P<sub>int</sub></th></tr></thead>
+      <tbody>
+        <tr class="hl"><td><b>Overall</b></td><td class="num">25/134 (25.7%)</td><td class="num">42/130 (51.5%)</td><td class="num">0.49 (0.30–0.82)</td><td class="num">—</td></tr>
+        <tr><td>Age ≥75 y</td><td class="num">0/8 (0.0%)</td><td class="num">6/9 (79.2%)</td><td class="num">—</td><td class="num" rowspan="2">1.0</td></tr>
+        <tr><td>Age &lt;75 y</td><td class="num">25/126 (27.6%)</td><td class="num">36/121 (48.8%)</td><td class="num ns">0.65 (0.39–1.08)</td></tr>
+        <tr><td>Female</td><td class="num">7/65 (15.5%)</td><td class="num">21/65 (55.1%)</td><td class="num sig">0.28 (0.12–0.66)</td><td class="num" rowspan="2">—</td></tr>
+        <tr><td>Male</td><td class="num">18/69 (34.9%)</td><td class="num">21/65 (48.6%)</td><td class="num ns">0.85 (0.45–1.59)</td></tr>
+        <tr><td>LVEF ≤40%</td><td class="num">15/54 (27.8%)</td><td class="num">15/41 (36.6%)</td><td class="num ns">0.76 (0.37–1.55)</td><td class="num" rowspan="2">0.18</td></tr>
+        <tr><td>LVEF &gt;40%</td><td class="num">10/80 (12.5%)</td><td class="num">27/89 (30.3%)</td><td class="num sig">0.37 (0.18–0.77)</td></tr>
+        <tr><td>Ischemic HF — Yes</td><td class="num">7/44 (20.1%)</td><td class="num">16/38 (66.8%)</td><td class="num sig">0.39 (0.16–0.95)</td><td class="num" rowspan="2">0.32</td></tr>
+        <tr><td>Ischemic HF — No</td><td class="num">18/90 (26.9%)</td><td class="num">26/92 (42.0%)</td><td class="num ns">0.66 (0.36–1.20)</td></tr>
+        <tr><td>AF — Yes</td><td class="num">13/80 (21.7%)</td><td class="num">27/86 (50.2%)</td><td class="num sig">0.49 (0.25–0.94)</td><td class="num" rowspan="2">0.70</td></tr>
+        <tr><td>AF — No</td><td class="num">12/54 (32.3%)</td><td class="num">15/44 (54.6%)</td><td class="num ns">0.60 (0.28–1.27)</td></tr>
+        <tr><td>CKD — Yes</td><td class="num">8/28 (43.6%)</td><td class="num">7/18 (58.7%)</td><td class="num ns">0.88 (0.31–2.47)</td><td class="num" rowspan="2">0.41</td></tr>
+        <tr><td>CKD — No</td><td class="num">17/106 (22.0%)</td><td class="num">35/112 (50.2%)</td><td class="num sig">0.47 (0.26–0.83)</td></tr>
+        <tr><td>IpcPH</td><td class="num">6/60 (13.9%)</td><td class="num">17/58 (50.3%)</td><td class="num sig">0.31 (0.12–0.79)</td><td class="num" rowspan="2">0.16</td></tr>
+        <tr><td>CpcPH</td><td class="num">19/74 (36.6%)</td><td class="num">25/72 (51.1%)</td><td class="num ns">0.71 (0.39–1.28)</td></tr>
+        <tr><td>mPAP &gt;25 mmHg</td><td class="num">20/100 (28.4%)</td><td class="num">35/99 (57.3%)</td><td class="num sig">0.50 (0.29–0.87)</td><td class="num" rowspan="2">0.58</td></tr>
+        <tr><td>mPAP ≤25 mmHg</td><td class="num">5/34 (15.4%)</td><td class="num">7/31 (37.3%)</td><td class="num ns">0.70 (0.22–2.21)</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note warn"><b>次族群解讀的三個陷阱：</b>
+    <ul class="tight" style="margin-bottom:0">
+      <li><b>所有 P<sub>int</sub> 皆不顯著（最小 0.16）</b>——沒有任何一個次族群交互作用達到統計標準。
+      表面上看起來「有效」的 subgroup 差異都可用機率解釋。</li>
+      <li><b>≥75 歲組完全無法解讀：</b>8 人 vs 9 人，PADN 組 0 事件，HR 不可估計。
+      對照組 79.2% 的事件率是 KM 外推值，不是實際比例。</li>
+      <li><b>IpcPH 看似效果較好（HR 0.31）而 CpcPH 中性（HR 0.71）——這與機轉預期方向相反</b>，
+      且與 PADN-5 選擇 CpcPH 的邏輯不一致。值得注意的是，正在進行的
+      <b>PULSE-LHD 只收 CpcPH-LHD</b>，恰好是本試驗中效果較弱的那一群。</li>
+    </ul></div>
+  </div>
+</section>
+
+<!-- LIMITATIONS -->
+<section id="limit">
+  <h3 class="sec">研究者自述限制<small>Limitations（講者投影片原文重點）</small></h3>
+  <div class="card">
+    <ul class="tight">
+      <li><b>未盲化：</b>操作者、研究人員、病人皆未盲化。CEC 與 core lab 為盲化；研究者主張追蹤期間的
+      心臟結構功能變化與 natriuretic peptide 較不易受偏差影響。</li>
+      <li><b>次要終點未經 power 計算，亦未做 multiplicity 校正。</b></li>
+      <li><b>需長期追蹤</b>以評估效果持久性（試驗設計已規劃至 36 個月）。</li>
+      <li><b>全部病人於中國收案</b>（25 個中心）。外推性與盲化問題將由國際 sham-controlled 的
+      <b>PULSE-LHD trial（NCT07214376）</b>回答。</li>
+    </ul>
+    <h4>共筆補充的其他考量</h4>
+    <ul class="tight">
+      <li><b>對照組 GDMT 被要求維持原劑量</b>——這在方法學上是為了控制變因，但也代表對照組失去了在追蹤期間
+      up-titration 的機會，可能<b>放大組間差異</b>。</li>
+      <li>投影片未呈現<b>手術安全性與併發症資料</b>（肺動脈剝離、穿孔、心律不整、對比劑腎病變等），
+      引用時務必回查 NEJM 全文的 safety table。</li>
+      <li>裝置廠商 Pulnovo Medical 為贊助者，資深作者為 PADN 導管發明人，
+      <b>利益衝突需在教學場合揭露</b>。</li>
+      <li>2026 ESC HF Guidelines 已將 HFmrEF 併入 HFrEF（LVEF &lt;50%），
+      本試驗以 <b>LVEF 40% 為切點</b>分層，與新分類不完全對應，跨試驗比較時要留意。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CLINICAL -->
+<section id="clinic">
+  <h3 class="sec">臨床解讀與台灣觀點<small>What it means for our practice</small></h3>
+  <div class="card">
+    <h4 style="margin-top:0">現階段可以怎麼說</h4>
+    <ul class="tight">
+      <li>PADN 在 PH-LHD 這個<b>長期無藥可用</b>的族群，首度提出以臨床事件為主要終點的陽性隨機資料，
+      並有一致的急性血液動力學支持——<b>這是重要的概念驗證</b>。</li>
+      <li>但在 sham-controlled 資料出現前，這仍屬 <b>investigational therapy</b>。
+      2022 ESC/ERS PH Guidelines 對 PADN 的定位是「potentially promising but should be considered experimental」，
+      本試驗尚不足以改變此定位。</li>
+      <li><b>台灣現況：</b>PADN 裝置未取得本地適應症，無健保給付，亦無本土操作經驗與訓練路徑。
+      對 PH-LHD 病人，實務上仍以<b>最佳化 GDMT、精準利尿劑調整、處理可矯正的左心病因</b>
+      （包含 TEER、TAVI、AF ablation）為主軸。</li>
+    </ul>
+    <h4>與我們結構性心臟病工作的交集</h4>
+    <p style="margin-bottom:0">PH-LHD 在 TEER 與 TAVI 術前評估中是常見的共病，也是預後不良的獨立因子。
+    本試驗提醒兩件事：第一，<b>PAWP 與 mPAP 是可介入的目標，而非只是嚴重度標記</b>；
+    第二，<b>先處理原發左心病灶（MR、AS、AF）本身就是最有效的「肺高壓治療」</b>。
+    在把病人轉介至任何 PH 導向的實驗性治療前，應先確認左心端的可矯正病灶已被充分處理。
+    值得追蹤的是 PADN 與 transcatheter valve therapy 併用的個案報告（如 PADN + TTVR 治療嚴重 TR 合併 PH），
+    這可能是未來 structural + PH 交界的發展方向。</p>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+  <h3 class="sec">自我測驗<small>4 題，點選選項即顯示解析</small></h3>
+
+  <div class="q">
+    <div class="stem">Q1. 關於 PADN-PH-LHD 的主要終點，下列敘述何者最正確？</div>
+    <button class="opt" data-c="0">PADN 顯著降低全因死亡率</button>
+    <button class="opt" data-c="1">主要複合終點達到統計顯著（HR 0.49，p = 0.006），但死亡與 HF 住院為中性</button>
+    <button class="opt" data-c="0">試驗為 neutral trial，主要終點未達標</button>
+    <button class="opt" data-c="0">PADN 顯著降低 HF 住院（p &lt; 0.05）</button>
+    <div class="exp"><b>答案：B。</b>主要終點 clinical worsening 25.7% vs 51.5%，HR 0.49（95% CI 0.30–0.82），p = 0.006，
+    確實達標。但全因死亡 HR 0.83（p = 0.32）、HF 住院 HR 0.56（<b>p = 0.07</b>，CI 上界 1.04 跨過 1）皆為中性。
+    這是「positive primary endpoint + neutral hard endpoints」的典型組合。</div>
+  </div>
+
+  <div class="q">
+    <div class="stem">Q2. 本試驗最主要的方法學弱點是什麼？</div>
+    <button class="opt" data-c="0">樣本數過小，未達 100 人</button>
+    <button class="opt" data-c="0">未使用右心導管確診肺高壓</button>
+    <button class="opt" data-c="1">無 sham control 且操作者、病人、研究人員皆未盲化</button>
+    <button class="opt" data-c="0">追蹤時間僅 30 天</button>
+    <div class="exp"><b>答案：C。</b>試驗收案 264 人、以 RHC 確診、中位追蹤 338 天，這些都不是問題。
+    關鍵在於<b>沒有 sham 對照且完全未盲化</b>。這一點特別重要，因為主要複合終點中貢獻最大的成分
+    （門診 HF 惡化 / 利尿劑加強、6MWD 下降）都是判定彈性大、易受知情偏差影響的軟性終點。
+    值得對照的是：前作 PADN-5 反而有 sham 對照。</div>
+  </div>
+
+  <div class="q">
+    <div class="stem">Q3. 6 個月時 6MWD 中位變化為 PADN 組 +55.2 m、對照組 +39.0 m（P<sub>Δ</sub> = 0.005）。最恰當的解讀是？</div>
+    <button class="opt" data-c="0">PADN 使病人 6MWD 增加 55 m，臨床效益顯著</button>
+    <button class="opt" data-c="1">組間差僅約 16 m，低於一般 MCID（約 30 m），且對照組亦大幅改善，需保守解讀</button>
+    <button class="opt" data-c="0">對照組無改善，證明 GDMT 無效</button>
+    <button class="opt" data-c="0">此為主要終點，可直接改變臨床實務</button>
+    <div class="exp"><b>答案：B。</b>常見錯誤是直接引用治療組的組內變化（+55.2 m）當作療效。
+    真正的療效是<b>組間差約 16 m</b>，低於 HF 族群常用的 MCID。
+    對照組也進步 39 m，正說明未盲化試驗中 placebo/Hawthorne effect 的幅度可觀。
+    KCCQ 同理：組間差約 4 分，低於 5 分門檻。</div>
+  </div>
+
+  <div class="q">
+    <div class="stem">Q4. 次族群分析顯示 IpcPH 的 HR 為 0.31（0.12–0.79），CpcPH 為 0.71（0.39–1.28），P<sub>int</sub> = 0.16。應如何在讀書會中呈現？</div>
+    <button class="opt" data-c="0">建議未來 PADN 只用於 IpcPH 病人</button>
+    <button class="opt" data-c="1">交互作用不顯著，屬 hypothesis-generating；且此方向與機轉預期及 PULSE-LHD 收案族群不一致，值得後續觀察</button>
+    <button class="opt" data-c="0">證明 PADN 對 CpcPH 無效</button>
+    <button class="opt" data-c="0">因 P<sub>int</sub> &gt; 0.05，此結果應完全略去不提</button>
+    <div class="exp"><b>答案：B。</b>所有次族群的 P<sub>int</sub> 都不顯著（最小 0.16），加上次要終點未做 multiplicity 校正，
+    任何次族群差異都只能當作假說生成。有趣之處在於：正在進行的
+    <b>PULSE-LHD 專收 CpcPH-LHD</b>，也就是本試驗中效果較弱的那一群——這個張力值得在討論時點出，
+    但不能當成「PADN 對 CpcPH 無效」的結論（HR 0.71 的 CI 仍包含實質效益）。</div>
+  </div>
+</section>
+
+<!-- REFERENCES -->
+<section id="ref">
+  <h3 class="sec">參考資料<small>References</small></h3>
+  <div class="card">
+    <ul class="tight" style="font-size:14px">
+      <li>Zhang H, Wang Q, Liang M, et al., for the PADN-HF-PH Investigators.
+      Pulmonary Denervation for Heart Failure–Related Pulmonary Hypertension.
+      <i>N Engl J Med</i>. 2026. DOI:
+      <a class="ref" href="https://doi.org/10.1056/NEJMoa2609056">10.1056/NEJMoa2609056</a></li>
+      <li>Chen SL. PADN-PH-LHD. Hot Line presentation, ESC Congress 2026, Munich.</li>
+      <li>ClinicalTrials.gov <a class="ref" href="https://clinicaltrials.gov/study/NCT05824923">NCT05824923</a>（PADN-HF-PH，中國 registration trial）</li>
+      <li>ClinicalTrials.gov <a class="ref" href="https://clinicaltrials.gov/study/NCT07214376">NCT07214376</a>（PULSE-LHD，國際 sham-controlled FDA IDE trial）</li>
+      <li>Wang Q, Zhang J, Zhang H, et al. Rationale and Design of the Randomized Controlled PADN-HF-PH Trial.
+      <i>Cardiology Discovery</i>. 2026. DOI: 10.1097/CD9.0000000000000181</li>
+      <li>Zhang H, et al. PADN Significantly Increases 6-Min Walk Distance in CpcPH: the PADN-5 Study.
+      <i>JACC Cardiovasc Interv</i>. 2019;12:274-284.</li>
+      <li>Jiang X, et al. PADN improves LV diastolic function in HFpEF-induced IpcPH.
+      <i>AsiaIntervention</i>. 2026;12(1):41-49.</li>
+      <li>Khan MS, Borlaug BA, Butler J, et al. Pulmonary Hypertension Associated With Left Heart Disease.
+      <i>JACC</i>. 2026. DOI: 10.1016/j.jacc.2026.01.024</li>
+      <li>Humbert M, Kovacs G, Hoeper MM, et al. 2022 ESC/ERS Guidelines for the diagnosis and treatment of
+      pulmonary hypertension. <i>Eur Heart J</i>. 2022;43(38):3618-3731.</li>
+    </ul>
+    <div class="abbr">
+      <b>縮寫｜Abbreviations：</b>
+      6MWD = 6-minute walk distance；AF = atrial fibrillation；CEC = clinical events committee；
+      CI = confidence interval；CKD = chronic kidney disease；CO = cardiac output；
+      CpcPH = combined pre- and post-capillary pulmonary hypertension；
+      GDMT = guideline-directed medical therapy；HF = heart failure；HR = hazard ratio；
+      IpcPH = isolated post-capillary pulmonary hypertension；
+      KCCQ-OSS = Kansas City Cardiomyopathy Questionnaire Overall Summary Score；
+      KM = Kaplan-Meier；LVEF = left ventricular ejection fraction；MCID = minimal clinically important difference；
+      mPAP = mean pulmonary arterial pressure；NT-proBNP = N-terminal pro–B-type natriuretic peptide；
+      PADN = pulmonary artery denervation；PAWP = pulmonary artery wedge pressure；
+      PH-LHD = pulmonary hypertension associated with left heart disease；
+      P<sub>int</sub> = P for interaction；PVR = pulmonary vascular resistance；
+      RAP = right atrial pressure；RHC = right heart catheterization；
+      sPAP = systolic pulmonary arterial pressure。
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="sign">
+    <div class="role">讀書會共筆整理人</div>
+    <div class="name">謝慕揚 醫師　MD, PhD, FESC</div>
+    <div class="role">結構性心臟病與介入心臟學</div>
+  </div>
+  <ul class="disc">
+    <li>本內容為讀書會共筆整理，未必涵蓋所有相關文獻。</li>
+    <li>僅供學術與教育用途，不代表任何單位之官方立場。</li>
+    <li>本內容未涉及任何利益衝突。</li>
+    <li>數據來源為 ESC Congress 2026 現場投影片與公開註冊資訊；NEJM 全文之安全性資料與完整統計方法請以原文為準。</li>
+  </ul>
+</footer>
+
+</div>
+
+<script>
+document.querySelectorAll('.q').forEach(function(q){
+  var opts = q.querySelectorAll('.opt');
+  var exp = q.querySelector('.exp');
+  opts.forEach(function(o){
+    o.addEventListener('click', function(){
+      if (exp.classList.contains('show')) return;
+      opts.forEach(function(x){
+        if (x.dataset.c === '1') x.classList.add('correct');
+      });
+      if (o.dataset.c !== '1') o.classList.add('wrong');
+      exp.classList.add('show');
+    });
+  });
+});
+</script>
+</body>
+</html>

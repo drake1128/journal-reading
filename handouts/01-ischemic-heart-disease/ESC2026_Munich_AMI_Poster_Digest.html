@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ESC 2026 Munich — 急性心肌梗塞海報導讀</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#c0392b; --accent-light:#e74c3c;
+  --success:#27ae60; --warning:#f39c12; --info:#2980b9; --purple:#6c5ce7;
+  --bg-cream:#faf8f5; --bg-card:#ffffff; --text-dark:#2c3e50; --text-muted:#7f8c8d;
+  --border:#e6e9ec; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+:root.dark-theme{
+  --bg-cream:#141b26; --bg-card:#1c2634; --text-dark:#e8eaed; --text-muted:#9aa5b1;
+  --border:#2d3748; --shadow:0 4px 20px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;font-family:'Noto Sans TC',system-ui,-apple-system,sans-serif;
+  background:var(--bg-cream);color:var(--text-dark);line-height:1.75;font-size:15.5px;}
+#root{max-width:820px;margin:0 auto;}
+.app{padding:0 14px 96px;padding-bottom:calc(96px + env(safe-area-inset-bottom));}
+
+/* Header */
+.hdr{background:linear-gradient(135deg,var(--primary),var(--primary-light));
+  color:#fff;margin:0 -14px 16px;padding:20px 18px 18px;border-radius:0 0 20px 20px;}
+.hdr .tag{display:inline-block;background:rgba(255,255,255,.18);padding:3px 10px;
+  border-radius:20px;font-size:11.5px;letter-spacing:.4px;margin-bottom:8px;}
+.hdr h1{margin:0 0 4px;font-size:20px;font-weight:700;line-height:1.4;}
+.hdr p{margin:0;font-size:12.5px;opacity:.88;}
+.theme-btn{position:absolute;right:20px;top:20px;background:rgba(255,255,255,.2);border:0;
+  color:#fff;width:36px;height:36px;border-radius:50%;font-size:16px;cursor:pointer;}
+.hdr-wrap{position:relative;}
+
+/* Nav */
+.nav{position:fixed;bottom:0;left:0;right:0;background:var(--bg-card);border-top:1px solid var(--border);
+  display:flex;justify-content:space-around;padding:6px 2px calc(6px + env(safe-area-inset-bottom));
+  z-index:50;box-shadow:0 -2px 14px rgba(0,0,0,.06);}
+.nav button{flex:1;background:none;border:0;color:var(--text-muted);font-size:10.5px;
+  font-family:inherit;padding:6px 2px;min-height:48px;cursor:pointer;display:flex;
+  flex-direction:column;align-items:center;gap:3px;border-radius:10px;}
+.nav button.on{color:var(--accent);font-weight:600;background:rgba(192,57,43,.07);}
+.nav .ico{font-size:17px;line-height:1;}
+
+/* Cards */
+.card{background:var(--bg-card);border-radius:14px;padding:16px;margin-bottom:14px;
+  box-shadow:var(--shadow);border:1px solid var(--border);}
+.card h2{margin:0 0 10px;font-size:17px;color:var(--primary);font-weight:700;
+  display:flex;align-items:center;gap:8px;}
+:root.dark-theme .card h2{color:#7fb2e8;}
+.card h3{margin:16px 0 8px;font-size:15px;color:var(--accent);font-weight:600;}
+.card p{margin:0 0 10px;}
+.sub{font-size:12.5px;color:var(--text-muted);margin-top:-4px;margin-bottom:12px;}
+
+.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:6px;
+  background:var(--border);color:var(--text-dark);margin-right:6px;font-weight:500;}
+.badge.red{background:rgba(192,57,43,.12);color:var(--accent);}
+.badge.green{background:rgba(39,174,96,.14);color:var(--success);}
+.badge.blue{background:rgba(41,128,185,.14);color:var(--info);}
+.badge.amber{background:rgba(243,156,18,.16);color:#b9770e;}
+.badge.purple{background:rgba(108,92,231,.14);color:var(--purple);}
+:root.dark-theme .badge.amber{color:#e0a94a;}
+:root.dark-theme .badge.purple{color:#a29bfe;}
+
+.kv{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px dashed var(--border);font-size:14px;}
+.kv:last-child{border-bottom:0;}
+.kv b{font-weight:600;color:var(--primary);white-space:nowrap;}
+:root.dark-theme .kv b{color:#7fb2e8;}
+
+.note{border-left:4px solid var(--info);background:rgba(41,128,185,.07);
+  padding:10px 12px;border-radius:0 10px 10px 0;margin:12px 0;font-size:13.8px;}
+.warn{border-left:4px solid var(--warning);background:rgba(243,156,18,.09);
+  padding:10px 12px;border-radius:0 10px 10px 0;margin:12px 0;font-size:13.8px;}
+.danger{border-left:4px solid var(--accent);background:rgba(192,57,43,.07);
+  padding:10px 12px;border-radius:0 10px 10px 0;margin:12px 0;font-size:13.8px;}
+.good{border-left:4px solid var(--success);background:rgba(39,174,96,.08);
+  padding:10px 12px;border-radius:0 10px 10px 0;margin:12px 0;font-size:13.8px;}
+.note b,.warn b,.danger b,.good b{display:block;margin-bottom:3px;}
+
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0 4px;}
+th,td{padding:7px 6px;text-align:right;border-bottom:1px solid var(--border);}
+th:first-child,td:first-child{text-align:left;}
+th{background:rgba(30,58,95,.06);color:var(--primary);font-weight:600;font-size:12.5px;}
+:root.dark-theme th{background:rgba(127,178,232,.12);color:#7fb2e8;}
+.tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+td.num{font-variant-numeric:tabular-nums;}
+td.win{color:var(--accent);font-weight:600;}
+:root.dark-theme td.win{color:#e88b80;}
+tr.grp td{background:rgba(30,58,95,.05);font-weight:600;font-size:12px;color:var(--text-muted);text-align:left;}
+:root.dark-theme tr.grp td{background:rgba(127,178,232,.08);}
+
+/* Steps */
+.step{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid var(--border);}
+.step:last-child{border-bottom:0;}
+.step .n{flex:0 0 26px;height:26px;border-radius:50%;background:var(--primary);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;margin-top:2px;}
+.step .b{flex:1;}
+.step .b strong{display:block;font-size:14.5px;margin-bottom:2px;}
+.step .b span{font-size:13.5px;color:var(--text-muted);display:block;}
+
+/* Stat strip */
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px;}
+.stat{flex:1 1 96px;background:var(--bg-cream);border:1px solid var(--border);
+  border-radius:11px;padding:9px 10px;}
+.stat .v{font-size:17px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;line-height:1.3;}
+:root.dark-theme .stat .v{color:#e88b80;}
+.stat .k{font-size:11px;color:var(--text-muted);line-height:1.5;display:block;margin-top:1px;}
+
+/* Accordion */
+.acc{border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden;background:var(--bg-card);}
+.acc>button{width:100%;text-align:left;background:none;border:0;font-family:inherit;
+  font-size:14.5px;font-weight:600;color:var(--text-dark);padding:13px 14px;min-height:48px;
+  display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer;}
+.acc .body{padding:0 14px 14px;font-size:14px;border-top:1px solid var(--border);padding-top:12px;}
+.acc .arrow{color:var(--accent);font-size:13px;}
+
+/* Poster card */
+.pc{background:var(--bg-card);border-radius:14px;margin-bottom:14px;box-shadow:var(--shadow);
+  border:1px solid var(--border);overflow:hidden;}
+.pc .top{padding:14px 16px 12px;border-top:4px solid var(--accent);}
+.pc.ai .top{border-top-color:var(--info);}
+.pc.drug .top{border-top-color:var(--warning);}
+.pc.mcs .top{border-top-color:var(--accent);}
+.pc.meta .top{border-top-color:var(--purple);}
+.pc .idx{font-size:11.5px;color:var(--text-muted);font-weight:600;letter-spacing:.5px;}
+.pc h3{margin:5px 0 6px;font-size:15.5px;font-weight:700;line-height:1.5;color:var(--primary);}
+:root.dark-theme .pc h3{color:#7fb2e8;}
+.pc .en{font-size:12.5px;color:var(--text-muted);line-height:1.55;margin:0 0 8px;font-style:italic;}
+.pc .aff{font-size:12px;color:var(--text-muted);margin:0;}
+.pc .verdict{background:var(--bg-cream);border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);padding:12px 16px;font-size:14.2px;}
+.pc .verdict .lbl{display:block;font-size:10.5px;letter-spacing:1px;color:var(--text-muted);
+  font-weight:600;margin-bottom:4px;}
+.pc .verdict b{color:var(--accent);}
+:root.dark-theme .pc .verdict b{color:#e88b80;}
+.pc .inner{padding:14px 16px 16px;}
+.pc h4{margin:14px 0 7px;font-size:14px;font-weight:700;color:var(--accent);
+  display:flex;align-items:center;gap:6px;}
+:root.dark-theme .pc h4{color:#e88b80;}
+.pc h4:first-child{margin-top:0;}
+
+ul.tight{margin:6px 0 6px 2px;padding-left:18px;}
+ul.tight li{margin-bottom:6px;font-size:14px;}
+.enw{color:var(--text-muted);font-size:.92em;}
+
+/* Quiz */
+.opt{display:block;width:100%;text-align:left;padding:12px 14px;margin-bottom:8px;
+  background:var(--bg-cream);border:1.5px solid var(--border);border-radius:11px;
+  font-family:inherit;font-size:14px;color:var(--text-dark);min-height:48px;cursor:pointer;}
+.opt.correct{background:rgba(39,174,96,.14);border-color:var(--success);}
+.opt.wrong{background:rgba(192,57,43,.1);border-color:var(--accent);}
+.btn{background:var(--primary);color:#fff;border:0;border-radius:11px;padding:12px 18px;
+  font-family:inherit;font-size:14.5px;font-weight:600;min-height:48px;cursor:pointer;width:100%;}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent);}
+
+svg{max-width:100%;height:auto;display:block;}
+.foot{font-size:12px;color:var(--text-muted);text-align:center;padding:8px 4px 0;line-height:1.9;}
+.foot b{color:var(--text-dark);display:block;font-size:13px;}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState,useEffect} = React;
+
+/* ============ 導覽 ============ */
+const NAV = [
+  {id:'home', ico:'🏠', label:'Take Home'},
+  {id:'ai',   ico:'🤖', label:'AI 判讀'},
+  {id:'drug', ico:'💊', label:'藥物'},
+  {id:'mcs',  ico:'⚙️', label:'機械支持'},
+  {id:'meta', ico:'📚', label:'統合分析'},
+  {id:'read', ico:'🔍', label:'怎麼讀'},
+  {id:'quiz', ico:'✏️', label:'測驗'},
+];
+
+/* ============ 共用元件 ============ */
+const Stats = ({items}) => (
+  <div className="stats">
+    {items.map((s,i)=>(
+      <div className="stat" key={i}>
+        <div className="v">{s[0]}</div>
+        <span className="k" dangerouslySetInnerHTML={{__html:s[1]}}/>
+      </div>
+    ))}
+  </div>
+);
+
+const Tbl = ({head, rows}) => (
+  <div className="tbl-wrap">
+    <table>
+      <thead><tr>{head.map((h,i)=><th key={i}>{h}</th>)}</tr></thead>
+      <tbody>
+        {rows.map((r,i)=>{
+          if(r.grp) return <tr className="grp" key={i}><td colSpan={head.length}>{r.grp}</td></tr>;
+          return (
+            <tr key={i}>
+              {r.map((c,j)=>(
+                <td key={j} className={(j>0?'num ':'')+(r.win&&j===0?'win':'')}>{c}</td>
+              ))}
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+);
+
+const Steps = ({items}) => (
+  <div>
+    {items.map((s,i)=>(
+      <div className="step" key={i}>
+        <div className="n">{i+1}</div>
+        <div className="b"><strong>{s[0]}</strong><span dangerouslySetInnerHTML={{__html:s[1]}}/></div>
+      </div>
+    ))}
+  </div>
+);
+
+const Poster = ({p}) => (
+  <div className={'pc '+p.kind}>
+    <div className="top">
+      <div className="idx">POSTER {p.no} · {p.design}</div>
+      <h3>{p.zh}</h3>
+      <p className="en">{p.en}</p>
+      <p className="aff">{p.aff}</p>
+      <div style={{marginTop:'8px'}}>
+        {p.tags.map((t,i)=><span className={'badge '+t[1]} key={i}>{t[0]}</span>)}
+      </div>
+    </div>
+    <div className="verdict">
+      <span className="lbl">一句話結論</span>
+      <span dangerouslySetInnerHTML={{__html:p.verdict}}/>
+    </div>
+    <div className="inner">
+      <Stats items={p.stats}/>
+
+      <h4>背景缺口</h4>
+      <p style={{fontSize:'14px',margin:0}} dangerouslySetInnerHTML={{__html:p.gap}}/>
+
+      <h4>創新點</h4>
+      <ul className="tight">
+        {p.novel.map((n,i)=><li key={i} dangerouslySetInnerHTML={{__html:n}}/>)}
+      </ul>
+
+      <h4>研究方法</h4>
+      <Steps items={p.methods}/>
+
+      {p.table && <><h4>{p.table.title}</h4><Tbl head={p.table.head} rows={p.table.rows}/></>}
+      {p.table2 && <><h4>{p.table2.title}</h4><Tbl head={p.table2.head} rows={p.table2.rows}/></>}
+
+      {p.impl && <><h4>臨床意涵</h4>
+        <div className="good" dangerouslySetInnerHTML={{__html:p.impl}}/></>}
+
+      <div className="warn" dangerouslySetInnerHTML={{__html:'<b>讀者請注意</b>'+p.caveat}}/>
+    </div>
+  </div>
+);
+
+/* ============ 11 篇資料 ============ */
+
+const P01 = {
+  no:'01', kind:'drug', design:'傾向分數配對 · 真實世界',
+  zh:'GLP-1 RA 對決 SGLT2i — AMI 術後心腎保護',
+  en:'GLP-1 receptor agonists outperform SGLT2 inhibitors in cardiorenal protection following acute myocardial infarction treated with PCI: a large-scale propensity score-matched real-world analysis',
+  aff:'I. Zahan 等 · Guy’s and St Thomas’ NHS Trust（英國）／Dhaka Medical College（孟加拉）／WVU Heart and Vascular Institute（美國）',
+  tags:[['心肌保護藥物','amber'],['TriNetX','blue'],['配對後 n=3,504','blue']],
+  verdict:'AMI 接受 PCI 後，<b>GLP-1 RA 在幾乎所有心腎終點都優於 SGLT2i</b>，且效果在術後 30 天就出現、維持到 1 年；一年全因死亡率也開始浮現差異（HR 0.70）。',
+  stats:[['0.22','30 天急性心衰 HR<br>(0.16–0.32)'],['0.29','30 天全因住院 HR<br>(0.24–0.35)'],
+         ['0.63','30 天 MACE HR<br>(0.53–0.74)'],['0.35','30 天 AKI HR<br>(0.24–0.50)'],
+         ['0.70','1 年全因死亡 HR<br>(0.51–0.97)']],
+  gap:'GLP-1 RA 與 SGLT2i 各自都有心腎保護證據，但<b>從來沒有頭對頭的隨機試驗</b>直接比較兩者，在「AMI 剛做完 PCI」這個高風險早期窗口更是空白。臨床上該先加哪一個，目前純靠推論。',
+  novel:[
+    '<b>切進沒人做過的比較</b>：不是各自對安慰劑，而是兩個新一代降糖藥的直接對決。',
+    '<b>不限糖尿病病人</b>（irrespective of diabetes status），把兩藥當作心臟保護藥而非降糖藥來評估。',
+    '<b>時間軸雙切點</b>：同時看 30 天與 1 年，證明 GLP-1 RA 的優勢是「早期就出現且能維持」，而不是長期才慢慢拉開。',
+  ],
+  methods:[
+    ['資料來源','TriNetX US Collaborative Network 去識別化電子病歷（擷取至 2026 年 1 月），多中心回溯性世代。'],
+    ['族群定義','成人 AMI（ICD-10: I21）且接受 PCI，事件後<i>新啟用</i>（new-user design）GLP-1 RA（semaglutide 或 tirzepatide，n=7,201）或 SGLT2i（dapagliflozin 或 empagliflozin，n=4,252）。新使用者設計可避免「已長期用藥者存活偏差」。'],
+    ['配對','一對一貪婪最近鄰傾向分數配對（caliper 0.1），涵蓋<b>逾 50 個共變數</b>——人口學、共病、用藥、關鍵檢驗值，配對後各 1,752 人。配對後多數 SMD &lt; 0.10。'],
+    ['統計','Kaplan–Meier + log-rank + Cox 比例風險模型，觀察期<i>自 PCI 後第 1 天起算</i>（排除術中／當日事件干擾），分別看 30 天與 1 年。'],
+    ['終點','全因死亡、急性心衰、全因住院、再發心梗、中風、心房顫動、MACE、AKI、心跳停止共 9 項。'],
+  ],
+  table:{title:'GLP-1 RA vs SGLT2i（HR < 1 表示 GLP-1 RA 較佳）',
+    head:['終點','30 天 HR','1 年 HR'],
+    rows:[
+      Object.assign(['急性心衰','0.22 (0.16–0.32)','0.42 (0.34–0.50)'],{win:1}),
+      Object.assign(['全因住院','0.29 (0.24–0.35)','0.56 (0.50–0.63)'],{win:1}),
+      Object.assign(['再發心肌梗塞','0.63 (0.53–0.75)','0.80 (0.71–0.90)'],{win:1}),
+      Object.assign(['中風','0.59 (0.43–0.81)','0.80 (0.67–0.96)'],{win:1}),
+      Object.assign(['心房顫動','0.57 (0.46–0.71)','0.80 (0.69–0.93)'],{win:1}),
+      Object.assign(['MACE','0.63 (0.53–0.74)','0.79 (0.71–0.88)'],{win:1}),
+      Object.assign(['急性腎損傷','0.35 (0.24–0.50)','0.53 (0.44–0.64)'],{win:1}),
+      ['全因死亡','無顯著差異','0.70 (0.51–0.97)'],
+      ['心跳停止','趨勢有利未顯著','0.65 (0.41–1.02)'],
+    ]},
+  impl:'效果量大到不太尋常（30 天心衰 HR 0.22 意味風險下降近八成），這既是最吸引人之處也是最該保留的地方。合理讀法是：<b>它提出一個值得用 RCT 驗證的假說</b> —— AMI 後早期啟用 GLP-1 RA 可能比 SGLT2i 帶來更快的心衰與腎損傷保護，而不是直接改變現行處方順序。',
+  caveat:'回溯性 EHR 研究，殘餘干擾無法排除：選擇用 GLP-1 RA 的病人可能本來就比較「適合」（體重、腎功能、醫師偏好）。傾向分數只能平衡「有記錄的」變項。配對後每組僅 1,752 人卻得到極強效果量，需警惕 immortal time bias 與適應症干擾。',
+};
+
+const P02 = {
+  no:'02', kind:'ai', design:'自監督預訓練 · 外部驗證',
+  zh:'深度學習鑑別 Takotsubo 與前壁 AMI',
+  en:'Deep learning-based differentiation of Takotsubo syndrome and anterior acute myocardial infarction using electrocardiograms',
+  aff:'Eisuke Kagawa 等 · Hiroshima City Asa Hospital／Asa Medical Association Hospital（日本廣島）',
+  tags:[['AI 心電圖','blue'],['MAE 自監督','purple'],['n=831 + 96','blue']],
+  verdict:'只靠<b>一張心電圖影像</b>，深度學習集成模型就能把 Takotsubo 症候群與前壁 STEMI 分開，外部驗證 AUC 0.970、敏感度 0.950，且校準良好（ECE 0.025）。',
+  stats:[['0.970','集成模型 AUC'],['0.984','AUPRC'],['0.950','敏感度'],['0.846','特異度'],['0.025','ECE 校準誤差']],
+  gap:'Takotsubo 在心電圖上經常「長得像」前壁 STEMI，尤其在自發性再通或血管重建之後更難分辨。現行以規則為基礎的心電圖判讀準則在真實世界表現一直不理想，而誤判的代價是不必要的緊急導管或延誤的正確處置。',
+  novel:[
+    '<b>自監督預訓練（masked autoencoder, MAE）</b>：先用 1,754,276 張公開心電圖影像做無標註預訓練，再用院內資料微調。這解決了「罕見病標註樣本太少」的根本困境。',
+    '<b>用「影像」而非訊號</b>：模型吃的是心電圖圖片，代表現場拍一張紙本心電圖就能跑，不需要原始波形數位訊號串接。',
+    '<b>兩階段分類設計</b>：先做 3 類（TS／AMI／健康），再收斂成 2 類，讓模型先學會「什麼是正常」再學鑑別。',
+    '<b>集成 + 測試時增強（TTA）</b>：ViT、ConvNeXtV2、MLP-Mixer 三種架構集成，單一模型 AUC 0.951–0.963，集成後拉到 0.970。',
+    '<b>報告校準指標</b>：多數 AI 論文只報 AUC，本研究同時報 ECE 0.025 與 Brier Skill Score 0.712 —— 代表模型輸出的機率值可以直接當臨床信心度使用，不是只有排序能力。',
+  ],
+  methods:[
+    ['設計','回溯性、雙中心。Takotsubo 收案 1996–2024，前壁 STEMI 收案 2010–2024，另納入健康志願者作為第三類。心電圖需在指標事件<i>兩週內</i>取得。'],
+    ['預訓練','以 masked autoencoder 在四個公開資料庫自監督學習 —— MIMIC-IV-ECG、PTB-XL、Georgia 12-Lead ECG Challenge、A Large Scale 12-Lead ECG Database for Arrhythmia Study，共 175 萬張心電圖影像。'],
+    ['資料擴增','發展集 831 人的 7,651 張原始心電圖，經影像擷取擴增為 68,805 張訓練影像；外部驗證集 96 人擴增為 13,131 張。'],
+    ['微調與推論','Stage 1 三類分類 → Stage 2 二類分類；推論時使用 TTA 並以 logit 平均集成三個骨幹網路。'],
+    ['評估','ROC／PR 曲線、校準曲線、混淆矩陣，全部在<b>獨立外部資料集</b>（n=96，來自另一家醫院）上呈現。'],
+  ],
+  table:{title:'族群組成（注意這裡藏著一個關鍵特徵）',
+    head:['','TS 發展集','AMI 發展集','健康','TS 外部','AMI 外部'],
+    rows:[
+      ['人數','308','321','203','35','41'],
+      ['年齡中位數','77','65','47','79','74'],
+      Object.assign(['男性 %','16','74','66','31','76'],{win:1}),
+    ]},
+  impl:'注意 TS 組壓倒性是高齡女性（男性僅 16%），AMI 組則以男性為主（74%）。這是 Takotsubo 的真實流行病學特徵，但也意味<b>模型有可能部分「學到」與年齡／性別相關的心電圖特徵</b>，而非純粹的病理生理差異 —— 這是所有此類研究都需要以敏感度分析釐清的地方。',
+  caveat:'作者自陳：回溯性設計、僅兩家機構、需要前瞻性驗證。外部驗證集僅 76 位病人（35 TS + 41 AMI），信賴區間必然偏寬。',
+};
+
+const P03 = {
+  no:'03', kind:'drug', design:'隨機分派 · 機轉轉譯研究',
+  zh:'SGLT2i 對 STEMI 病人粒線體功能的影響',
+  en:'Sodium-glucose cotransporter 2 inhibitor enhances mitochondrial stress resistance without altering ATP production in patients with ST-elevation myocardial infarction',
+  aff:'Nattayaporn Apaijai 等 · Cardiac Electrophysiology Research and Training Center, Chiang Mai University（泰國）',
+  tags:[['心肌保護藥物','amber'],['機轉研究','purple'],['n=44','blue'],['陰性為主','red']],
+  verdict:'SGLT2i 在 STEMI 病人身上<b>12 週內並未改善 LVEF 或 ATP 產量</b>，但確實提升了粒線體的「壓力儲備能力」（最大呼吸與備用呼吸容量），是一個誠實的<b>陰性為主結果</b>。',
+  stats:[['44','STEMI 病人'],['22 / 22','安慰劑 / SGLT2i'],['10 mg','每日劑量 12 週<br>術前負荷 20 mg'],
+         ['5','採血時間點'],['2 週','粒線體短暫上升的時點']],
+  gap:'SGLT2i 在心衰與急性冠心症的心臟保護效果已被證實，且<b>與降血糖無關</b>。前臨床研究提出「改善粒線體功能」是關鍵機轉，但這個假說<b>從未在 STEMI 病人身上直接驗證過</b> —— 人體的循環粒線體功能到底有沒有變化？沒人知道。',
+  novel:[
+    '<b>把前臨床機轉帶進人體</b>：這是機轉轉譯研究（mechanistic translational study），不是又一個療效試驗。',
+    '<b>用周邊血單核球（PBMC）當粒線體功能的活體視窗</b>：心肌切片不可行，PBMC 提供了可重複、可縱貫採樣的替代組織。',
+    '<b>密集縱貫採樣</b>：基線、3 天、2 週、6 週、12 週多點取樣，因此才「抓到」2 週那個短暫的上升 —— 單一終點時間的設計會完全錯過這個訊號。',
+    '<b>拆解粒線體功能為多個獨立參數</b>：基礎呼吸、ATP 產量、最大呼吸、備用呼吸容量、非粒線體呼吸、質子洩漏、偶聯效率，而不是籠統的「粒線體功能」。',
+  ],
+  methods:[
+    ['設計','44 位 STEMI 病人，安慰劑組 22 人 vs SGLT2i 組 22 人。'],
+    ['給藥時機','再灌流<i>前</i>給予負荷劑量 20 mg，隨後每日 10 mg 持續 12 週。「再灌流前給藥」是為了涵蓋缺血再灌流傷害的關鍵窗口。'],
+    ['粒線體測定','靜脈血分離 PBMC，以耗氧率（OCR, pMol/min）測定呼吸功能，時間點為基線、術後 3 天、2 週、6 週、12 週。'],
+    ['心功能測定','心臟磁振造影（CMR）測 %LVEF，基線與 12 週各一次 —— 用 CMR 而非心臟超音波，測量精確度較高。'],
+  ],
+  impl:'這篇值得注意的是它的<b>學術誠實度</b>：標題直接寫出 “without altering ATP production”，結論明講 12 週內看不到 LVEF 或 ATP 改善，並推測需要更長治療期間。在充斥正面結果的會議海報中，這種寫法反而提高可信度。結果三層次：① 兩組 %LVEF 12 週後仍無差異；② 基礎呼吸、ATP 產量、最大呼吸、備用呼吸容量僅在<b>第 2 週短暫上升</b>；③ 非粒線體呼吸、質子洩漏、偶聯效率各時間點皆相當，代表<b>粒線體膜完整性沒有改變</b>，變的是儲備容量。',
+  caveat:'樣本數僅 44 人，對於「無差異」的結論其實檢定力不足（第二型錯誤風險高）。第 2 週的短暫上升在多時間點、多參數比較下，也需要考量多重比較的偽陽性風險。海報未說明雙盲與隨機化細節。',
+};
+
+const P04 = {
+  no:'04', kind:'ai', design:'多中心 · 盲性獨立判定',
+  zh:'英國多中心 AI-ECG 偵測阻塞型心梗（OMI）',
+  en:'Multi-centre study of an artificial intelligence electrocardiogram model for the detection of occlusive myocardial infarction within the UK',
+  aff:'A. Yazdi 等 · Barts Heart Centre（倫敦）／Essex Cardiothoracic Centre／Anglia Ruskin University（英國）',
+  tags:[['AI 心電圖','blue'],['院前分流','green'],['n=295','blue']],
+  verdict:'在<b>院前分流</b>這個真正決定病人去向的場景，AI-ECG（PMcardio OMI v1.0）把偽發現率從救護員判讀的 <b>58% 壓到 16%</b>，同時偽陰性率僅 5.5% —— 而且不需要遠端心臟科醫師介入。',
+  stats:[['94.5%','AI 敏感度<br>(88.5–98.0)'],['89.2%','AI 特異度<br>(83.8–93.3)'],
+         ['0.96','AI 連續輸出 AUC<br>電腦判讀僅 0.72'],['16.1%','AI 偽發現率<br>救護員 57.6%'],['91.2%','整體準確度']],
+  gap:'院前 PPCI 啟動流程各家差異極大：有的讓救護員自主啟動導管室，有的要遠端心臟科醫師覆核。自主啟動快但偽陽性高（本研究 Centre A 偽發現率 58%，且 38% 病人到院後還得二次轉送）；遠端覆核準但塞住心臟科人力。<b>AI 能不能兩者兼得？</b>',
+  novel:[
+    '<b>選對了比較對象</b>：不是跟「標準答案」比，而是跟<i>兩種真實存在的臨床流程</i>比 —— 自主救護員啟動（Centre A）與護理師主導遠端覆核（Centre B）。這讓結果可以直接對應到政策決策。',
+    '<b>目標是「減少偽陽性而不增加偽陰性」</b>：這是院前分流的真正痛點。多數 AI 研究只追求高敏感度，本研究明確把偽發現率當成主要價值。',
+    '<b>偵測 OMI 而非 STEMI</b>：以血管造影 TIMI flow 0/1，或 TIMI 3 併確認犯罪血管加肌鈣蛋白上升為金標準，而不是心電圖上的 ST 上升 —— 這是心電圖判讀典範的重要轉向。',
+    '<b>雙輸出設計</b>：模型同時給連續值（0–1）與二元判讀（閾值 0.5），連續輸出 AUC 0.96 高於二元 0.92，暗示未來可依情境調整閾值。',
+  ],
+  methods:[
+    ['設計','2024–2025 年兩家英國大型心臟中心的院前 PPCI 轉診回溯分析。<b>Centre A</b>（177 人）採自主救護員啟動、無院前心臟科覆核；<b>Centre B</b>（118 人）採護理師主導的遠端電子心電圖 + 病史覆核。'],
+    ['指標檢驗','AI-ECG（PMcardio OMI v1.0）回傳 0–1 連續值，套用預設閾值 0.5 得到二元預測。'],
+    ['參考標準','<i>盲性獨立判定</i> —— 由不知 AI 結果的判讀者審閱全部臨床紀錄與血管造影。'],
+    ['比較組','實際臨床決策、印出的電腦判讀心電圖聲明（Glasgow algorithm v.27，僅 Centre A）、以及 AI 模型三者對照。'],
+  ],
+  table:{title:'三種判讀方式的正面對決',
+    head:['判讀方式','n','敏感度','特異度','偽陰性率','偽發現率'],
+    rows:[
+      {grp:'Centre A — 救護員自主啟動'},
+      ['救護員啟動','177','—','—','—','57.6%'],
+      ['電腦判讀 ECG','177','84.0%','60.8%','16.0%','38.8%'],
+      Object.assign(['AI-ECG','177','94.7%','89.2%','5.3%','13.4%'],{win:1}),
+      {grp:'Centre B — 護理師遠端覆核'},
+      ['轉診（覆核前）','118','—','—','—','70.3%'],
+      ['覆核後接受啟動','118','100.0%','80.7%','0.0%','31.4%'],
+      Object.assign(['AI-ECG','118','94.3%','89.2%','5.7%','21.4%'],{win:1}),
+    ]},
+  impl:'關鍵讀法：AI 在 Centre B 的表現<b>與有心臟科遠端覆核的流程相當</b>，卻不需要額外的臨床資料或人力；在 Centre A 則<b>明顯優於既有的電腦判讀演算法</b>（AUC 0.96 vs 0.72）。這正是可以拿來討論我們自己院前流程的模板。',
+  caveat:'回溯性研究 —— AI 是事後跑的，並未真正影響當時的決策。作者明講需要前瞻性研究。另外 Centre B 覆核後敏感度是 100%，AI 的 94.3% 在此其實略遜一籌，不能只讀「AI 全面勝出」。',
+};
+
+const P05 = {
+  no:'05', kind:'ai', design:'利基族群 · 盲性判定',
+  zh:'心搏過速下的 AI-ECG 冠脈阻塞偵測',
+  en:'Artificial intelligence–enhanced detection of acute coronary occlusion in tachycardic patients using surface ECG',
+  aff:'S. Macherey-Meyer 等 · Uniklinik Köln, Klinik III für Innere Medizin／Leverkusen Hospital 急診醫學部（德國）',
+  tags:[['AI 心電圖','blue'],['心搏過速','red'],['n=639'],['單中心回溯','amber']],
+  verdict:'專攻一個最棘手的利基：<b>心跳過速（&gt;100 bpm）的胸痛病人</b>。在這群人身上 STEMI criteria 幾乎失效（敏感度僅 28%），AI-ECG 拉到 76%，AUC 0.987 vs 0.607。',
+  stats:[['0.987','AI AUC<br>(0.978–0.996)'],['0.607','STEMI criteria AUC<br>(0.480–0.735)'],
+         ['76.0%','AI 敏感度<br>STEMI 僅 28.0%'],['97.9%','AI 特異度'],['15','可避免的<br>不必要緊急冠脈造影']],
+  gap:'心搏過速時，ST 段變化可能來自三種完全不同的原因：<b>心律干擾造成的假象、供需失衡（demand ischemia）、或真正的急性冠脈阻塞</b>。三者處置天差地別，但傳統 STEMI criteria 無法區分 —— 這正是急診胸痛單位最常誤判的一群病人。',
+  novel:[
+    '<b>用「族群選擇」創造價值</b>：不是又做一次全體胸痛病人的 AI-ECG 驗證，而是刻意鎖定既有工具已知失效的次族群。這種「在標準工具最弱的地方測試 AI」的設計，比在容易的族群上刷高 AUC 有價值得多。',
+    '<b>雙向的臨床效益</b>：同時證明 STEMI criteria 會<i>漏掉</i>阻塞（敏感度 28%）<i>也會</i>造成不必要的手術。作者估算 AI 可避免 15 例不必要的緊急冠脈造影。',
+    '<b>依 QRS 寬窄做次族群分析</b>：窄 QRS（n=590）與寬 QRS（n=49）分開報告，寬 QRS 群傳統準則表現最差。',
+    '<b>把心律組成攤開來</b>：竇性頻脈 47.7%、心房顫動 18.6%、心房撲動 7.1%、其他室上頻脈 11.7%、節律器心律 9.4%、心室頻脈 4.1% —— 讓讀者能判斷自己的病人族群是否適用。',
+  ],
+  methods:[
+    ['族群','2018 年 11 月至 2021 年 6 月，入院心電圖心跳 &gt;100 bpm 的胸痛病人，收治於專責胸痛單位，共 639 人。'],
+    ['終點定義','急性冠脈阻塞（ACO），由<i>不知 AI 預測結果的獨立醫師</i>判定，依據冠脈造影、生物標記動力學與心臟超音波三方面綜合認定。共 25 例 ACO。'],
+    ['比較','以 ROC 分析比較 AI-ECG 模型與傳統 STEMI criteria，並依 QRS 寬度做次族群分析。'],
+    ['臨床效益換算','另外報告整體族群與排除族群（n=431）的偽陽性率，直接換算成可避免的手術數量。'],
+  ],
+  table:{title:'診斷表現對照',
+    head:['模型／族群','n','AUC','準確度','敏感度','特異度','NPV'],
+    rows:[
+      Object.assign(['AI — 全體','639','0.987','0.970','0.760','0.979','0.990'],{win:1}),
+      Object.assign(['AI — 窄 QRS','590','0.985','0.968','0.727','0.977','0.989'],{win:1}),
+      Object.assign(['AI — 寬 QRS','49','1.000','1.000','1.000','1.000','1.000'],{win:1}),
+      ['STEMI — 全體','639','0.607','0.909','0.280','0.935','0.971'],
+      ['STEMI — 窄 QRS','590','0.610','0.922','0.273','0.947','0.971'],
+      ['STEMI — 寬 QRS','49','0.558','0.755','0.333','0.783','0.947'],
+    ]},
+  caveat:'寬 QRS 次族群僅 49 人、AUC 完美的 1.000，這個數字幾乎必然<b>過度樂觀</b>（對照組信賴區間 0.205–0.911 已顯示樣本量嚴重不足）。整體 ACO 事件僅 25 例，敏感度 76% 建立在 19 例正確判讀上。單中心回溯設計，需外部驗證。',
+};
+
+const P06 = {
+  no:'06', kind:'meta', design:'PRISMA 2020 · 單臂比例統合分析',
+  zh:'乳突肌斷裂併心因性休克 — 系統性回顧與統合分析',
+  en:'Cardiogenic Shock in patients with Papillary Muscle Rupture post-Acute Myocardial Infarction: A Systematic Review and Meta-Analysis',
+  aff:'R. Filipescu 等 · Emergency Institute for Cardiovascular Diseases “Prof. Dr. C. C. Iliescu”（布加勒斯特）／Vanderbilt University／Kaiser Permanente Northern California',
+  tags:[['系統性回顧','purple'],['10 篇研究','purple'],['n=933','blue']],
+  verdict:'乳突肌斷裂併心因性休克的<b>院內死亡率合併估計為 31%</b>，且高達 <b>90% 需要機械循環支持</b>；一旦需要支持，死亡率就跳到 <b>50%</b>。外科手術數字上優於 M-TEER，但<b>沒有任何直接比較的證據</b>。',
+  stats:[['31%','院內死亡率<br>(28–35%)'],['29%','1 年死亡率<br>(16–46%)'],['90%','需要 MCS<br>(65–98%)'],
+         ['50%','MCS 使用者死亡<br>(34–66%)'],['933','納入分析總人數']],
+  gap:'乳突肌斷裂（PMR）的標準治療是<b>緊急二尖瓣手術（MVS）</b>，但合併心因性休克的病人常因手術風險過高而被拒於門外。M-TEER 近年被當作橋接或永久替代方案使用，但這是個罕見到不可能做隨機試驗的疾病 —— 所以「證據到底有多少」本身就是一個值得回答的問題。',
+  novel:[
+    '<b>把 M-TEER 與 MVS 放在同一個分析框架下量化</b>：這是第一次針對「PMR + CS」這個極窄族群做系統性的證據整合。',
+    '<b>誠實處理無法比較的困境</b>：因為缺乏直接比較研究，作者<i>刻意選擇單臂比例統合分析</i>，而不是硬做組間比較製造假的效果量。',
+    '<b>額外量化 MCS 的使用強度與代價</b>：不只報死亡率，還報「多少人需要機械循環支持」與「用了之後死亡率多少」，把疾病嚴重度講清楚。',
+    '<b>方法學嚴謹</b>：使用 Hartung–Knapp 校正的隨機效果模型，這在研究數量少（每個次分析僅 3–5 篇）時能避免信賴區間過窄的常見錯誤。',
+  ],
+  methods:[
+    ['檢索','PubMed、Web of Science、SCOPUS，1990 年 1 月至 2026 年 2 月。共識別 1,068 筆，去除重複 523 筆後篩選 543 筆。'],
+    ['納入','報告 PMR post-AMI 併心因性休克病人、以死亡率為主要結果的研究。次要結果為 MCS 使用及其相關死亡率。'],
+    ['排除','48 篇全文評估後排除 38 篇 —— CS 資料不足（24）、PMR 資料不足（8）、AMI 資料不足（1）、無介入資料（1）、同中心重複發表（4）。最終納入 10 篇。'],
+    ['統計','R (v.4.5.2) 執行隨機效果模型單臂比例統合分析，採 Hartung–Knapp 校正。異質性以 I² 評估。'],
+    ['納入組成','3 篇 M-TEER、5 篇 MVS、1 篇 ECLS；另 1 篇同時含介入與非介入病人者因無法分離資料而排除。分析基礎為 9 篇、933 位成人病人。'],
+  ],
+  table:{title:'次族群結果',
+    head:['族群','n','院內死亡率 (95% CI)','異質性'],
+    rows:[
+      ['整體（7 篇）','875','31% (28–35%)','I² = 43%'],
+      ['MVS 外科手術','839','26–36%','I² = 54%'],
+      Object.assign(['M-TEER 導管修補','36','42% (27–58%)','I² = 29%'],{win:1}),
+      ['1 年死亡（4 篇）','87','29% (16–46%)','I² = 27%'],
+      ['需要 MCS','173','90% (65–98%)','—'],
+      ['MCS 使用者死亡','100','50% (34–66%)','I² = 41%'],
+    ]},
+  impl:'M-TEER 組僅 36 人，這是整份分析最脆弱的一環。「MVS 數字上較好」很可能只是<b>選擇偏差</b> —— 能上手術檯的病人本來就比較穩定，太不穩定的才被送去做 M-TEER。作者在結論中明確警告這一點。',
+  caveat:'作者自陳：「這些發現代表跨非隨機世代的<b>間接比較</b>，應謹慎解讀。」整體預後在當代治療下仍然很差，需要直接比較外科與導管策略的研究。',
+};
+
+const P07 = {
+  no:'07', kind:'drug', design:'RCT 統合分析',
+  zh:'GLP-1 RA 縮小梗塞面積 — RCT 統合分析',
+  en:'GLP-1 receptor agonists reduce infarct size relative to area at risk in myocardial infarction: a meta-analysis of randomized controlled trials',
+  aff:'Jasmin Kaur Bhullar, Christopher Walters · University of North Carolina Health Southeastern（美國）',
+  tags:[['心肌保護藥物','amber'],['3 篇 RCT','green'],['n=205','blue']],
+  verdict:'彙整 3 篇 RCT，GLP-1 RA 讓<b>最終梗塞面積佔風險區域的百分比降低 10.14%</b>（95% CI −14.11 到 −6.17，p &lt; 0.001），三篇研究方向一致，異質性為零（I² = 0%）。',
+  stats:[['−10.14%','合併平均差<br>(−14.11 到 −6.17)'],['<0.001','p 值'],['0%','I² 異質性<br>(p = 0.8566)'],
+         ['3','納入 RCT 篇數'],['205','總病人數']],
+  gap:'GLP-1 RA 降低糖尿病病人心血管事件已有大型試驗支持，但它對<b>急性心肌梗塞當下的心肌傷害</b>有沒有直接保護作用仍不明確。過去的個別小型 RCT 各自結果分歧且檢定力不足。',
+  novel:[
+    '<b>選了一個「機轉純度高」的終點</b>：以「梗塞面積佔風險區域（AAR）的百分比」為主要結果，而非絕對梗塞大小。這個標準化做法能校正掉不同病人冠脈解剖與阻塞位置造成的先天差異，讓組間比較真正反映心肌挽救（myocardial salvage）。',
+    '<b>把 GLP-1 RA 的作用推前到急性期</b>：從「長期降低事件」轉向「急性期直接限縮梗塞」的證據，這是完全不同的機轉主張。',
+    '<b>異質性為零</b>：三篇研究方向完全一致，I² = 0%、τ² = 0，隨機效果與固定效果模型結果相同，這在小規模統合分析中相當難得。',
+  ],
+  methods:[
+    ['檢索','MEDLINE、Embase、CENTRAL、ClinicalTrials.gov、Google Scholar，尋找評估 GLP-1 RA 對梗塞面積影響的 RCT。'],
+    ['主要結果','梗塞面積佔 AAR 的百分比（以公克計）。'],
+    ['納入研究','Lønborg 2012（54 vs 51）、Bernink 2013（12 vs 11）、Chen 2016（39 vs 38），全部聚焦 STEMI 病人。'],
+    ['統計','計算平均差（mean difference），採隨機效果模型為主分析，固定效果模型做敏感度分析，結果一致。'],
+  ],
+  table:{title:'各研究結果（Forest plot 數據）',
+    head:['研究','GLP-1 RA','安慰劑','MD (95% CI)','權重'],
+    rows:[
+      ['Lønborg 2012','54 / 30.0±15.0','51 / 39.0±15.0','−9.00 (−14.74, −3.26)','47.8%'],
+      ['Bernink 2013','12 / 35.0±14.0','11 / 47.0±17.0','−12.00 (−24.79, 0.79)','9.6%'],
+      ['Chen 2016','39 / 35.0±12.0','38 / 46.0±15.0','−11.00 (−17.08, −4.92)','42.6%'],
+      Object.assign(['合併（隨機效果）','105','100','−10.14 (−14.11, −6.17)','100%'],{win:1}),
+    ]},
+  impl:'與第 01 篇（真實世界 GLP-1 RA vs SGLT2i）合看，本篇提供了<b>機轉層面的支撐</b>：如果 GLP-1 RA 真能在急性期縮小梗塞，那麼真實世界看到的早期心衰下降就有了合理的生物學解釋。',
+  caveat:'僅 3 篇研究、205 人，且皆為 2016 年以前的舊試驗 —— 當時使用的 GLP-1 RA 藥物與當代 semaglutide／tirzepatide 不同。「梗塞面積縮小」是替代終點，不等於死亡率或心衰改善。作者自己也結論需要大型隨機試驗確認。',
+};
+
+const P08 = {
+  no:'08', kind:'ai', design:'前瞻性多中心外部驗證 · NCT06939738',
+  zh:'AI-ECG 平台加裝自動 STEMI 偵測',
+  en:'Augmenting an AI-ECG platform with automated STEMI detection: multicenter and prospective external validation',
+  aff:'Jon Zubiaur 等 · Hospital Universitario La Paz（馬德里）／IDOVEN／Leiden University Medical Center（荷蘭）',
+  tags:[['AI 心電圖','blue'],['三層驗證','green'],['前瞻註冊','green']],
+  verdict:'這篇的價值不在單一數字，而在<b>驗證的層層遞進</b>：內部 AUC 0.963 → 四個公開資料庫外部驗證 0.819–0.926 → <b>前瞻性多中心</b> 0.906。效能有下滑但仍穩健，且 NPV 一路維持高檔。',
+  stats:[['0.963','內部驗證 AUC'],['0.906','前瞻多中心 AUC'],['1,226','開發世代人數<br>(34.91% STEMI)'],
+         ['604 + 339','公開／前瞻外部驗證'],['100×','Monte Carlo 迭代']],
+  gap:'AI-ECG 平台已經能做很多事（心律不整、結構性心臟病篩檢），但<b>缺少自動 STEMI 偵測這塊</b>。而 AI 模型最常見的失敗模式是「在開發資料上很漂亮，換一家醫院就垮掉」—— 所以真正的問題不是「AUC 多高」，而是「泛化能力有多強」。',
+  novel:[
+    '<b>三層驗證階梯</b>：內部單中心 → 四個異質性公開資料庫 → 前瞻性多中心臨床世代。這是 AI 醫療模型驗證的黃金標準路徑，很少有海報能三層都做完。',
+    '<b>刻意選擇資料組成不同的外部資料庫</b>：Chapman、Georgia、PTB-XL、SPH 四個資料庫的類別分布與資料組成都與開發集不同，這是在<i>主動壓力測試</i>模型，而非挑軟柿子。',
+    '<b>Monte Carlo 交叉驗證（100 次迭代）</b>：以重複的病人層級隨機子抽樣估計效能，報告<b>平均值與 95% CI</b>，而非單次分割的幸運數字。',
+    '<b>已註冊的前瞻性研究</b>：ASSIST 研究（NCT06939738）—— 前瞻註冊代表分析計畫預先設定，可信度高於事後回溯分析。',
+    '<b>坦白說出下一步</b>：作者明言未來要擴展到 OMI 與 NOMI，承認純 STEMI 定義本身的侷限。',
+  ],
+  methods:[
+    ['模型開發','回溯性單中心世代 1,226 位病人（428 STEMI／798 對照）及其 12 導程心電圖。訓練目標為以標準 12 導程紀錄辨識 STEMI 的有無。'],
+    ['外部驗證（公開）','604 份心電圖，來自 Chapman、Georgia、PTB-XL、SPH 四個獨立公開資料庫。'],
+    ['外部驗證（前瞻）','ASSIST 研究期中分析，5 個中心、339 位病人（109 STEMI／230 對照）。'],
+    ['效能估計','100 次 Monte Carlo 交叉驗證，每次做病人層級隨機子抽樣，所有指標報告為 100 次迭代的平均值與 95% CI。'],
+  ],
+  table:{title:'三層驗證的效能軌跡',
+    head:['層級','資料集','AUC','敏感度','特異度'],
+    rows:[
+      Object.assign(['內部','單中心 (n=1,226)','0.963','91.96%','90.72%'],{win:1}),
+      ['外部（公開）','Chapman','0.904','—','—'],
+      ['外部（公開）','Georgia','0.819','—','—'],
+      ['外部（公開）','PTB-XL','0.926','—','—'],
+      ['外部（公開）','SPH','0.895','—','—'],
+      Object.assign(['外部（前瞻）','ASSIST 多中心 (n=339)','0.906','65.12%','95.07%'],{win:1}),
+    ]},
+  impl:'關鍵發現藏在前瞻性那一列：<b>敏感度掉到 65%</b>，而特異度維持 95%。換句話說，在真實前瞻情境下模型變得「保守」—— 它很少誤報，但會漏掉三分之一的 STEMI。NPV 在所有外部世代都穩定維持高檔，意味這個模型目前<b>更適合當作排除工具（rule-out），而非確診工具</b>。',
+  caveat:'開發世代 STEMI 盛行率高達 34.91%，遠高於真實急診族群，這會讓內部驗證的 PPV 顯得過於樂觀。前瞻性外部驗證是期中分析，尚未完成收案。本研究由 EIT Health 資助，作者群包含 AI 平台商 IDOVEN 的人員。',
+};
+
+const P09 = {
+  no:'09', kind:'mcs', design:'全國登錄資料庫 · J-PVAD',
+  zh:'透析病人使用 Impella 的下肢缺血風險',
+  en:'Impella Use in Elderly Dialysis Patients is Associated with Increased Risk of Lower Extremity Ischemia',
+  aff:'K. Ikeoka 等 · National Hospital Organization Osaka National Hospital 心血管醫學部（日本大阪）· 代表 J-PVAD 研究群',
+  tags:[['機械循環支持','red'],['全國登錄','green'],['n=4,032','blue']],
+  verdict:'用日本全國 Impella 登錄資料回答一個很具體的問題：透析病人的下肢缺血率是非透析者的<b>兩倍以上</b>（10.8% vs 4.5%），而<b>年齡 ≥70 歲是唯一的獨立預測因子</b>（OR 6.58）。',
+  stats:[['10.8%','透析組下肢缺血<br>非透析 4.5%'],['<0.001','組間 p 值'],['6.58','年齡 ≥70 多變項 OR<br>(2.28–19.00)'],
+         ['212 / 3,820','透析 / 非透析'],['4,032','總登錄人數']],
+  gap:'Impella 可能改善心因性休克的預後，但裝置相關併發症頻繁且偶爾致命。<b>透析病人的併發症發生率與預測因子過去從未被完整描述過</b> —— 而這正是最可能出問題的一群（血管鈣化、周邊動脈疾病負擔重）。',
+  novel:[
+    '<b>用全國性登錄資料回答罕見併發症問題</b>：J-PVAD 涵蓋日本全國 Impella 使用，這種登錄設計對「事件率低但後果嚴重」的併發症研究幾乎是唯一可行途徑。',
+    '<b>問題聚焦到可操作的層次</b>：不只是「透析病人風險高」，而是進一步在透析次族群內找出<i>誰</i>最危險 —— 結果是年齡 ≥70 歲。這直接可轉化為術前評估的分流標準。',
+    '<b>把併發症逐項攤開比較</b>：出血、主動脈瓣逆流、腦血管事件、溶血、肝衰竭、插管處感染、敗血症、血小板低下、血栓共 10 項全部列出 p 值 —— 讓讀者看見「只有下肢缺血與腦血管事件有顯著差異」，其他併發症兩組其實相當。',
+    '<b>誠實報告一個反直覺的發現</b>：下肢缺血在<i>整體</i>世代與較差的 30 天存活相關，但<b>在透析次族群中這個關聯消失了</b>。作者推測是樣本數受限加上透析病人本身基線死亡率就很高，把訊號蓋掉了。',
+  ],
+  methods:[
+    ['資料來源','Japanese Registry for Percutaneous Ventricular Assist Device（J-PVAD），2020 年 2 月至 2022 年 12 月登錄的 4,032 位病人。'],
+    ['分層','依透析狀態分為透析組（n=212）與非透析組（n=3,820），比較兩組併發症發生率。'],
+    ['預測因子分析','在<i>透析次族群內</i>以邏輯迴歸做單變項與多變項分析。候選變項含年齡、性別、BMI、急性冠心症、心律不整、心因性休克、心衰、到院前心跳停止、高血壓、血脂異常、糖尿病、冠心病、心梗、中風、SBP &lt;90 mmHg、INTERMACS profile 1、股動脈路徑、ECMO 使用、IABP 使用等。'],
+    ['存活分析','Kaplan–Meier 法估計累積存活並以 log-rank 檢定比較（依透析狀態 × 下肢缺血分四組，觀察 30 天）。'],
+  ],
+  table:{title:'Impella 相關併發症比較',
+    head:['併發症','透析 (n=212)','非透析 (n=3,820)','p'],
+    rows:[
+      ['出血','55 (25.9%)','968 (25.3%)','0.844'],
+      Object.assign(['下肢缺血','23 (10.8%)','172 (4.5%)','<0.001'],{win:1}),
+      Object.assign(['腦血管事件','4 (1.9%)','255 (6.7%)','0.006'],{win:1}),
+      ['溶血','29 (13.7%)','537 (14.1%)','0.877'],
+      ['敗血症','14 (6.6%)','213 (5.6%)','0.527'],
+      ['血小板低下','21 (9.9%)','315 (8.2%)','—'],
+      ['主動脈瓣逆流','1 (0.5%)','16 (0.4%)','0.602'],
+    ]},
+  impl:'多變項分析中，<b>年齡 ≥70 歲 OR 6.58（2.28–19.00, p&lt;0.001）是唯一達顯著的獨立預測因子</b>；到院前心跳停止（OR 3.54, p=0.068）與糖尿病（OR 2.69, p=0.094）僅呈趨勢。可操作的三件事：① 透析病人術前<b>周邊血管評估應視為必要而非選配</b>；② <b>路徑選擇</b>要更審慎，高齡加上大口徑動脈路徑會疊加風險；③ 術後需<b>嚴格的下肢缺血監測</b>，特別是 ≥70 歲的透析病人。',
+  caveat:'登錄資料庫研究，併發症通報可能不完整，且無法排除未測量的干擾（例如術前周邊動脈疾病嚴重度分級）。多變項模型的 OR 信賴區間極寬（2.28–19.00），反映透析組僅 23 個下肢缺血事件 —— 這個點估計值本身應保守看待。',
+};
+
+const P10 = {
+  no:'10', kind:'mcs', design:'全國登錄 · 競爭風險分析',
+  zh:'AMI-CS 中透析與 CKD 病人的 Impella 預後',
+  en:'Mortality and complications of Impella use in dialysis patients with acute myocardial infarction complicated by cardiogenic shock: insights from the J-PVAD Registry',
+  aff:'T. Takeuchi、K. Ikeoka 等 · NHO Osaka National Hospital（日本大阪）',
+  tags:[['機械循環支持','red'],['Fine–Gray 競爭風險','purple'],['n=1,920','blue']],
+  verdict:'同一個登錄資料庫的姊妹研究，但問的是更根本的問題：預後差的到底是「透析」還是「腎病本身」？答案是 —— <b>透析與 CKD 病人的死亡率相當</b>（HR 0.72，未達顯著），<b>兩者都明顯差於沒有 CKD 的病人</b>（HR 0.37）。',
+  stats:[['0.72','CKD vs 透析<br>全因死亡 HR (0.50–1.04)'],['0.37','非 CKD vs 透析<br>全因死亡 HR (0.26–0.54)'],
+         ['0.66','CKD vs 透析<br>心因死亡 SHR'],['12.3%','透析組下肢缺血<br>CKD 4.7% / 非CKD 4.5%'],
+         ['65/824/1,031','透析／CKD／非 CKD']],
+  gap:'AMI 併心因性休克（AMI-CS）即使有現代血管重建，死亡率仍居高不下。Impella 越來越常用於暫時性支持，但預後隨病人特徵差異很大。透析病人血管疾病與出血／血栓風險負擔重，AMI 後預後普遍較差 —— 但<b>透析狀態本身對 Impella 治療結果的影響並不清楚</b>。',
+  novel:[
+    '<b>三分法而非二分法</b>：把病人分成透析／CKD（非透析）／非 CKD 三組，而不是簡單的「有無透析」。正是這個設計才揭露出「CKD 病人的預後與透析病人一樣差」這個關鍵發現 —— 用二分法會完全看不到。',
+    '<b>使用競爭風險模型</b>：心因性死亡以 Fine–Gray 次分布風險模型分析，把<i>非心血管死亡當作競爭事件</i>。在 AMI-CS 這種多重死因並存的族群，這比單純的 Cox 模型正確得多，否則會系統性高估心因死亡風險。',
+    '<b>改變臨床風險分層的邏輯</b>：結論明確指出是<b>進展的 CKD 本身</b>，而非透析依賴，界定了高風險病人。這意味術前評估不該只問「有沒有洗腎」，而要看腎功能分期。',
+    '<b>與第 09 篇形成互補</b>：09 篇聚焦下肢缺血這個併發症，本篇聚焦死亡率與腎功能分層 —— 兩篇合看，才是完整的透析／CKD 病人 Impella 使用圖像。',
+  ],
+  methods:[
+    ['族群篩選','J-PVAD 登錄（2020 年 2 月至 2022 年 12 月）中的 AMI-CS 病人 N=1,937，排除 17 位缺 eGFR 資料的非透析病人後，研究族群 N=1,920。'],
+    ['分組','透析（n=65）／CKD 非透析（n=824）／非 CKD（n=1,031）。CKD 定義為 eGFR &lt; 60 mL/min/1.73 m²。'],
+    ['主要結果','Impella 植入後 30 天的全因死亡與心因死亡。'],
+    ['統計','多變項 Cox 比例風險模型比較三組全因死亡；心因死亡改用 <b>Fine–Gray 次分布風險模型</b>，以非心血管死亡為競爭事件。模型校正年齡、性別、抽菸史、高血壓、高血脂、糖尿病、心梗病史，以及臨床表現（NSTEMI 或 STEMI）。'],
+    ['次要結果','依 CKD 分組的併發症發生率。'],
+  ],
+  table:{title:'死亡率比較（以透析組為參考）',
+    head:['結果','CKD vs 透析','非 CKD vs 透析'],
+    rows:[
+      ['全因死亡（Cox HR）','0.72 (0.50–1.04)','0.37 (0.26–0.54)'],
+      ['心因死亡（Fine–Gray SHR）','0.66 (0.42–1.04)','0.34 (0.21–0.54)'],
+    ]},
+  table2:{title:'併發症（依 CKD 分組）',
+    head:['併發症','透析 (65)','CKD (824)','非 CKD (1,031)','p'],
+    rows:[
+      ['出血','17 (26.2%)','200 (24.3%)','270 (26.2%)','0.63'],
+      Object.assign(['下肢缺血','8 (12.3%)','39 (4.7%)','46 (4.5%)','0.02'],{win:1}),
+      ['溶血','11 (16.9%)','113 (13.7%)','179 (17.4%)','0.10'],
+      ['感染','2 (3.1%)','23 (2.8%)','24 (2.3%)','0.79'],
+      ['敗血症','3 (4.6%)','49 (5.9%)','49 (4.8%)','0.51'],
+      ['心包填塞','1 (1.5%)','29 (3.5%)','26 (2.5%)','0.36'],
+    ]},
+  impl:'再次驗證第 09 篇：<b>下肢缺血是唯一在透析組明顯偏高的併發症</b>（12.3% vs 4.7% vs 4.5%），出血、溶血、感染等三組並無差異。作者的討論寫得很清楚：CKD 伴隨血管鈣化、慢性發炎與高心血管共病負擔，這些因素<b>共同</b>導致機械循環支持下的不良預後。因此挑選 AMI-CS 病人使用 Impella 時，腎功能分期應與年齡、休克嚴重度一樣被納入決策。',
+  caveat:'透析組僅 65 人，是三組中最小的一組，多數比較的統計檢定力有限。「CKD 與透析無顯著差異」的結論，部分可能來自檢定力不足而非真正相等（HR 0.72，信賴區間上限 1.04，接近顯著）。登錄資料無法排除適應症干擾 —— 醫師若選擇對某些腎病病人不上 Impella，這些人不會出現在資料中。',
+};
+
+const P11 = {
+  no:'11', kind:'ai', design:'全自動深度學習 strain',
+  zh:'全自動深度學習 strain 定位阻塞血管',
+  en:'Fully automated deep learning echocardiographic strain model for vessel-specific detection of coronary occlusion',
+  aff:'L. van Drunen 等 · NTNU／St. Olav University Hospital／Oslo University Hospital Rikshospitalet／Sørlandet Hospital（挪威）',
+  tags:[['AI 影像','blue'],['NSTEMI 為主','green'],['n=1,232','blue']],
+  verdict:'把心臟超音波 strain 自動化，並用它<b>預測是哪一條血管阻塞</b> —— 且刻意<b>不預設固定的血管支配區域</b>。三條血管 AUC 0.80–0.84，全面優於傳統的區域性 strain（0.59–0.79），在 RCA 差距最大。',
+  stats:[['0.84','LAD AUC<br>區域 strain 0.79'],['0.83','CX AUC<br>區域 strain 0.67'],['0.80','RCA AUC<br>區域 strain 0.59'],
+         ['53%','確認完全阻塞 (n=654)'],['1,232','納入病人<br>73±12 歲, 77% 男']],
+  gap:'Strain 心臟超音波非常適合急性冠心症的早期風險分層，但傳統做法有兩個瓶頸：<b>分析耗時、且高度依賴操作者</b>。更深層的問題是 —— 傳統區域性縱向 strain（RLS）依賴<i>固定的節段血管支配假設</i>，但真實世界的冠脈解剖變異極大，這個假設本身就是誤差來源。',
+  novel:[
+    '<b>放棄固定的血管支配區域假設</b>：這是本研究最核心的方法學主張（“without assuming fixed territorial boundaries”）。讓模型自己從 strain 分布中學習血管與心肌區域的對應關係，而不是套用教科書上的節段圖。RCA 的 AUC 從 0.59 提升到 0.80，正是這個設計的直接證據 —— RCA 支配區域的個體差異本來就最大。',
+    '<b>兩階段串接：自動化 + 預測</b>：先用 DL 演算法全自動分析心臟超音波產出 RLS，再把 RLS 餵進血管別阻塞預測模型。前段解決可重複性問題，後段解決臨床決策問題。',
+    '<b>輸出設計具可解釋性</b>：模型不只給答案，還輸出 bullseye strain 圖與三條血管各自的阻塞機率長條（範例中 LAD 96.2%、CX 4.0%、RCA 3.9%）。臨床醫師可同時看到「模型說 LAD」與「strain 圖上為什麼」。',
+    '<b>納入 NSTEMI 為主的族群</b>：STEMI 佔 42%、<b>NSTEMI 佔 58%</b>。NSTEMI 正是心電圖幫不上忙、最需要影像輔助判斷「要不要緊急導管」的族群 —— 這個族群選擇讓研究直接對準未被滿足的臨床需求。',
+  ],
+  methods:[
+    ['族群','1,232 位急性心肌梗塞病人，平均年齡 73±12 歲，77% 男性。STEMI 42%、NSTEMI 58%。經冠脈造影確認完全阻塞者 53%（n=654）。'],
+    ['自動化 strain','以院內自行開發的深度學習演算法分析心臟超音波，自動產出區域性縱向 strain（RLS）測值，無需人工描邊。'],
+    ['預測模型','將 DL-RLS 測值整合進「血管別阻塞預測模型」（Vessel-Specific Occlusion Prediction Model），不預設固定的血管支配邊界。'],
+    ['評估','以 ROC 曲線評估預測表現，並與傳統區域性 strain（territorial RLS）逐一血管對照。'],
+  ],
+  table:{title:'血管別表現對照',
+    head:['方法','LAD AUC','LAD 敏/特','CX AUC','CX 敏/特','RCA AUC','RCA 敏/特'],
+    rows:[
+      Object.assign(['血管別預測模型','0.84','0.78/0.78','0.83','0.81/0.68','0.80','0.76/0.69'],{win:1}),
+      ['傳統區域性 RLS','0.79','0.71/0.74','0.67','0.55/0.75','0.59','0.63/0.63'],
+    ]},
+  impl:'提升幅度依血管而異，模式很有說服力：LAD +0.05（本來就好判斷）、CX +0.16、<b>RCA +0.21</b>。越是解剖變異大、傳統節段圖越不可靠的血管，放棄固定邊界的收益就越大 —— 這個梯度本身就是方法學主張最好的內部驗證。對臨床的意義：在 NSTEMI 病人身上，如果一台床邊心臟超音波幾分鐘內就能告訴你「有 96% 機率是 LAD 完全阻塞」，這對「立刻送導管室還是可以等」有實質影響。',
+  caveat:'海報未報告是否有獨立外部驗證世代 —— AUC 若來自同一資料集的內部評估，實際表現可能較低。族群平均 73 歲、77% 男性，年輕族群與女性的表現需另行確認。Strain 分析品質仍受影像窗口限制，急性期影像不佳者可能無法適用。',
+};
+
+const AI_POSTERS   = [P02,P04,P05,P08,P11];
+const DRUG_POSTERS = [P01,P03,P07];
+const MCS_POSTERS  = [P09,P10];
+const META_POSTERS = [P06];
+
+/* ============ 分頁 ============ */
+
+const Home = () => (
+  <div>
+    <div className="card">
+      <h2>🫀 這 11 篇在講同一條軸線</h2>
+      <p className="sub">ESC Congress 2026 Munich · 急性心肌梗塞相關海報現場共筆</p>
+      <p>從救護車上的第一張心電圖，到再灌流後的心肌保護，再到休克時的機械支持 —— 這批海報剛好把急性心肌梗塞的照護鏈從頭到尾走了一遍。</p>
+      <div className="stats">
+        <div className="stat"><div className="v">11</div><span className="k">收錄海報</span></div>
+        <div className="stat"><div className="v">&gt;20,000</div><span className="k">受試者合計人次</span></div>
+        <div className="stat"><div className="v">9 / 11</div><span className="k">為回溯性或觀察性設計</span></div>
+      </div>
+    </div>
+
+    <div className="card">
+      <h2>📌 四個主題</h2>
+      <div className="kv"><b>🤖 AI 判讀（5 篇）</b><span>院前分流、心搏過速、Takotsubo 鑑別、血管別 strain</span></div>
+      <div className="kv"><b>💊 心肌保護藥物（3 篇）</b><span>GLP-1 RA 與 SGLT2i 在 AMI 後的角色</span></div>
+      <div className="kv"><b>⚙️ 機械循環支持（2 篇）</b><span>日本 J-PVAD 全國登錄：透析與 CKD</span></div>
+      <div className="kv"><b>📚 統合分析（1 篇）</b><span>乳突肌斷裂併休克：外科 vs 導管</span></div>
+    </div>
+
+    <div className="card">
+      <h2>🎯 五個 Take Home</h2>
+
+      <h3>1. 心電圖判讀的典範正在轉移</h3>
+      <p style={{fontSize:'14.2px'}}>第 04、05、08 篇都在做同一件事：<b>把「ST 段上升」換成「血管阻塞（OMI）」當作偵測目標</b>。STEMI criteria 是 1990 年代的產物，在心搏過速（05 篇敏感度僅 28%）與院前分流（04 篇偽發現率 58%）這兩個場景已明顯不敷使用。值得注意的是三篇的 AI 都指向「減少不必要導管」而非「多抓幾例」。</p>
+
+      <h3>2. AI 論文要先看驗證架構，再看 AUC</h3>
+      <p style={{fontSize:'14.2px'}}>這批海報正好示範了驗證品質的光譜：08 篇有三層驗證＋前瞻註冊，02 篇有外部驗證＋校準指標，05 篇是單中心回溯，11 篇未見外部驗證。08 篇前瞻性敏感度掉到 65% 這個誠實揭露，<b>比任何 0.99 的 AUC 都更有參考價值</b>。</p>
+
+      <h3>3. GLP-1 RA 的證據鏈開始成形</h3>
+      <p style={{fontSize:'14.2px'}}>第 07 篇（RCT 統合分析：縮小梗塞面積 10.14%）提供機轉層面的證據，第 01 篇（真實世界配對：30 天心衰 HR 0.22）提供臨床終點的訊號。兩者方向一致，但都還不是決定性證據 —— <b>缺的是一個直接比較 GLP-1 RA 與 SGLT2i 的隨機試驗</b>。</p>
+
+      <h3>4. 陰性結果同樣重要</h3>
+      <p style={{fontSize:'14.2px'}}>第 03 篇（SGLT2i 未改善 LVEF 或 ATP 產量）與第 06 篇（PMR 併休克死亡率仍達 31%、90% 需要 MCS）都在提醒：<b>不是每個機轉假說都能在人體驗證，也不是每個新技術都改善了預後</b>。這兩篇的價值在於劃出目前知識的邊界。</p>
+
+      <h3>5. 腎功能是機械支持的關鍵分層因子</h3>
+      <p style={{fontSize:'14.2px'}}>第 09、10 篇來自同一個日本登錄資料庫，合看的結論很清楚：<b>該問的不是「有沒有洗腎」，而是「腎功能第幾期」</b>（CKD 與透析病人死亡率相當，都明顯差於非 CKD）。而下肢缺血是唯一在透析組明顯偏高的併發症，高齡（≥70 歲）更把風險放大六倍以上 —— 術前周邊血管評估不應是選配。</p>
+    </div>
+
+    <div className="warn">
+      <b>整批閱讀的最大保留</b>
+      除了第 03 與第 07 篇之外，<b>其餘 9 篇全部是回溯性或觀察性設計</b>。幾乎每一篇的結論段都寫著「需要前瞻性驗證」。閱讀時請把這些數字當作<i>值得驗證的假說</i>，而不是可以直接改變臨床實務的結論。
+    </div>
+  </div>
+);
+
+const Section = ({title, sub, posters, intro}) => (
+  <div>
+    <div className="card">
+      <h2>{title}</h2>
+      <p className="sub">{sub}</p>
+      <p style={{margin:0,fontSize:'14.2px'}} dangerouslySetInnerHTML={{__html:intro}}/>
+    </div>
+    {posters.map(p=><Poster p={p} key={p.no}/>)}
+  </div>
+);
+
+const AiTab = () => <Section
+  title="🤖 AI 心電圖與影像判讀"
+  sub="5 篇 · Poster 02 / 04 / 05 / 08 / 11"
+  posters={AI_POSTERS}
+  intro="這五篇合起來剛好覆蓋了診斷鏈的每一段：<b>救護車上（04）→ 急診分流（05、08）→ 鑑別診斷（02）→ 心導管室前定位（11）</b>。共同主題是把判讀目標從『心電圖上的 ST 變化』改成『血管到底有沒有阻塞』，並且把價值主張放在減少不必要的緊急處置。"
+/>;
+
+const DrugTab = () => <Section
+  title="💊 心肌保護藥物"
+  sub="3 篇 · Poster 01 / 03 / 07"
+  posters={DRUG_POSTERS}
+  intro="三篇構成一個完整的證據光譜：<b>機轉（03，陰性）→ 替代終點 RCT（07，正向）→ 真實世界臨床終點（01，強烈正向）</b>。建議照這個順序讀，會比較容易看出哪一層的證據其實還很薄。"
+/>;
+
+const McsTab = () => <Section
+  title="⚙️ Impella 與心因性休克"
+  sub="2 篇 · Poster 09 / 10 · 同一個 J-PVAD 全國登錄資料庫"
+  posters={MCS_POSTERS}
+  intro="兩篇來自同一團隊、同一資料庫，但問了兩個不同層次的問題：<b>09 篇問「哪個併發症特別高、誰最危險」，10 篇問「預後差的到底是透析還是腎病本身」</b>。合看才完整，單看任一篇都會漏掉另一半的臨床訊息。"
+/>;
+
+const MetaTab = () => <Section
+  title="📚 系統性回顧與統合分析"
+  sub="1 篇 · Poster 06"
+  posters={META_POSTERS}
+  intro="這篇處理的是一個罕見到無法做隨機試驗的疾病。它的方法學選擇（單臂比例統合分析、Hartung–Knapp 校正）值得學習：<b>當證據不足以比較時，誠實地量化「我們知道多少」本身就是貢獻。</b>"
+/>;
+
+/* ============ 怎麼讀這類海報 ============ */
+const ReadTab = () => {
+  const [open,setOpen] = useState(null);
+  const items = [
+    ['AI 診斷研究：先看驗證階梯，再看 AUC',
+     '<p>同一個模型在不同驗證層級的表現落差，往往比 AUC 的絕對值更有訊息量。優先順序：</p><ul class="tight"><li><b>前瞻性多中心外部驗證</b>（最強，如 08 篇的 ASSIST）</li><li><b>獨立外部資料集</b>（02 篇的第二家醫院、08 篇的四個公開資料庫）</li><li><b>內部交叉驗證</b>（可接受，但要看是否用 Monte Carlo 等重複抽樣）</li><li><b>只有內部單次分割</b>（最弱，效能通常被高估）</li></ul><p>另外要問：<b>盛行率是多少？</b>08 篇開發世代 STEMI 佔 34.91%，遠高於真實急診族群，PPV 因此被系統性高估。</p>'],
+    ['敏感度與特異度：問清楚這個工具是要 rule-in 還是 rule-out',
+     '<p>08 篇前瞻驗證中敏感度 65%、特異度 95% —— 這樣的模型<b>只能當排除工具</b>，不能當確診工具。相反地，04 篇 AI 敏感度 94.5%、特異度 89.2%，兩邊都可用。</p><p>看到「準確度 97%」這種單一數字要特別警覺：當事件率只有 4%（如 05 篇的 25/639），全部猜「沒有」就有 96% 準確度。<b>務必去找敏感度與 NPV。</b></p>'],
+    ['校準（calibration）比判別（discrimination）更少被報告，但更重要',
+     '<p>AUC 只告訴你模型能不能「排序」，不告訴你輸出的機率值可不可信。02 篇同時報 <b>ECE 0.025</b> 與 <b>Brier Skill Score 0.712</b>，代表模型說「80% 是 AMI」時，實際大約真的就是 80%。</p><p>沒有報告校準的 AI 論文，其機率輸出不應直接當臨床信心度使用。</p>'],
+    ['傾向分數配對：平衡的只有「有記錄的」變項',
+     '<p>01 篇配對了逾 50 個共變數、SMD &lt; 0.10，看起來很紮實。但傾向分數<b>無法平衡未被記錄的因素</b> —— 醫師為什麼選 GLP-1 RA 而不是 SGLT2i？可能是體重、腎功能趨勢、甚至保險給付，這些未必都在資料裡。</p><p>效果量異常大（HR 0.22）時，第一個該懷疑的不是「藥真的很神」，而是<b>殘餘干擾與 immortal time bias</b>。</p>'],
+    ['單臂統合分析：不能拿來做組間比較',
+     '<p>06 篇的 MVS（31%）與 M-TEER（42%）死亡率看起來可以比較，但這是<b>跨研究的間接比較</b>，且 M-TEER 組僅 36 人。能上手術檯的病人本來就比較穩定 —— 這是典型的選擇偏差。</p><p>作者自己在結論中明確警告，引用時務必一併帶上這個限制。</p>'],
+    ['競爭風險：AMI-CS 這種族群不能只用 Cox',
+     '<p>10 篇用 Fine–Gray 次分布風險模型分析心因死亡，把非心血管死亡當競爭事件。在死亡率高、死因多元的族群，若只用標準 Cox，會把「還沒發生心因死亡就先因其他原因過世」的病人錯誤處理，<b>系統性高估心因死亡風險</b>。</p><p>看到 AMI-CS、重症、老年族群的「特定死因」分析時，記得檢查有沒有做競爭風險處理。</p>'],
+    ['小樣本次族群的完美數字，通常是假的',
+     '<p>05 篇寬 QRS 次族群 n=49，AI 的 AUC、敏感度、特異度全部 1.000。這不是模型很神，是<b>樣本太小</b>。同一表格中對照組的信賴區間 0.205–0.911 已經說明了問題。</p><p>經驗法則：事件數少於 10–20 的次族群分析，看趨勢即可，不要引用點估計值。</p>'],
+    ['替代終點 ≠ 臨床終點',
+     '<p>07 篇的「梗塞面積縮小 10.14%」是<b>替代終點</b>，不等於死亡率或再住院改善。03 篇則更直接示範了替代終點的侷限：粒線體儲備能力改善了，但 LVEF 與 ATP 產量沒有。</p><p>心臟科史上有太多替代終點漂亮、臨床終點卻失敗的例子（如 CAST 研究）。引用時請寫清楚測的是哪一層。</p>'],
+  ];
+  return (
+    <div>
+      <div className="card">
+        <h2>🔍 怎麼讀這批海報</h2>
+        <p className="sub">八個判讀重點 · 點開展看細節</p>
+        <p style={{margin:0,fontSize:'14.2px'}}>會議海報的資訊密度高但方法學細節少，容易讀出過強的結論。以下八點是讀這批海報時最該先問的問題，也適用於一般的 AI 診斷研究與觀察性研究判讀。</p>
+      </div>
+      {items.map((it,i)=>(
+        <div className="acc" key={i}>
+          <button onClick={()=>setOpen(open===i?null:i)}>
+            <span>{i+1}. {it[0]}</span>
+            <span className="arrow">{open===i?'▲':'▼'}</span>
+          </button>
+          {open===i && <div className="body" dangerouslySetInnerHTML={{__html:it[1]}}/>}
+        </div>
+      ))}
+      <div className="note">
+        <b>一句話</b>
+        這 11 篇裡有 9 篇是回溯性或觀察性設計 —— 它們適合用來<b>形成假說與調整警覺度</b>，不適合單獨用來改變處置流程。
+      </div>
+    </div>
+  );
+};
+
+/* ============ 測驗 ============ */
+const QUIZ = [
+  {q:'第 08 篇 AI-ECG 在前瞻性多中心驗證中，敏感度 65.12%、特異度 95.07%。最合理的臨床定位是？',
+   o:['當作 STEMI 確診工具，陽性即啟動導管室','當作排除工具（rule-out），陰性時可較安心觀察',
+      '取代心臟科醫師判讀','因為敏感度低所以完全不可用'],
+   c:1, e:'高特異度、高 NPV、但敏感度僅 65% 的模型會漏掉約三分之一的 STEMI，不能用來確診或排除緊急處置的必要性；但陰性結果的參考價值較高。作者也強調 NPV 在所有外部世代維持高檔。要注意的是即使當 rule-out，65% 的敏感度仍偏低，臨床判斷不能被取代。'},
+
+  {q:'第 05 篇中，寬 QRS 次族群（n=49）AI 的 AUC、敏感度、特異度皆為 1.000。最恰當的解讀是？',
+   o:['證明 AI 在寬 QRS 病人身上完美無缺','樣本數過小造成的過度樂觀估計，僅能看趨勢',
+      '代表傳統 STEMI criteria 完全無用','應立即在寬 QRS 病人身上改用 AI 單獨決策'],
+   c:1, e:'n=49 且 ACO 事件數極少時，完美的效能指標幾乎必然是過度配適或抽樣運氣。同一張表中對照組的信賴區間 0.205–0.911 已顯示樣本量嚴重不足。經驗法則：事件數少於 10–20 的次族群只看趨勢，不引用點估計值。'},
+
+  {q:'第 01 篇顯示 GLP-1 RA vs SGLT2i 的 30 天急性心衰 HR 為 0.22。看到這個數字，第一個該懷疑的是？',
+   o:['GLP-1 RA 確實有極強的心臟保護作用','資料計算錯誤','殘餘干擾與 immortal time bias 等觀察性研究偏差',
+      'SGLT2i 其實會傷害心臟'],
+   c:2, e:'HR 0.22 代表風險下降近八成，這個效果量在心血管藥物中極為罕見。傾向分數只能平衡「有記錄的」共變數，醫師選藥的真實理由（體重、腎功能趨勢、給付條件）未必進入資料。新使用者設計有助減少偏差，但無法完全消除。合理定位是「值得用 RCT 驗證的假說」。'},
+
+  {q:'第 02 篇報告了 ECE 0.025 與 Brier Skill Score 0.712。這兩個指標告訴我們什麼 AUC 沒告訴我們的事？',
+   o:['模型的運算速度','模型輸出的機率值本身是否可信（校準）','模型的訓練資料量','模型的外部泛化能力'],
+   c:1, e:'AUC 只反映判別（discrimination）—— 模型能不能正確排序。校準（calibration）才回答「模型說 80% 時，實際是不是真的接近 80%」。ECE 越小越好；沒有報告校準的模型，其機率輸出不應直接當臨床信心度使用。'},
+
+  {q:'第 10 篇使用 Fine–Gray 次分布風險模型分析心因死亡，主要理由是？',
+   o:['樣本數太小','把非心血管死亡當作競爭事件，避免高估心因死亡風險',
+      '因為資料不符合常態分布','為了處理遺漏值'],
+   c:1, e:'在 AMI-CS 這種死亡率高、死因多元的族群，病人可能在發生心因死亡前就先因其他原因過世。若用標準 Cox 把這些人當作單純的 censoring，會系統性高估心因死亡的累積發生率。競爭風險模型是正確處理方式。'},
+
+  {q:'第 09 與第 10 篇合看，關於透析／CKD 病人使用 Impella，最重要的臨床訊息是？',
+   o:['透析病人絕對不應使用 Impella','應該只問「有沒有洗腎」來分層風險',
+      '進展的 CKD 本身（非透析依賴）就界定了高風險，且透析病人下肢缺血風險特別高',
+      '下肢缺血在所有腎病病人都同樣高'],
+   c:2, e:'第 10 篇顯示 CKD 與透析病人的死亡率相當（HR 0.72，未達顯著），兩者都明顯差於非 CKD（HR 0.37）—— 所以風險分層要看腎功能分期而不只是透析狀態。第 09 與第 10 篇都顯示下肢缺血是唯一在透析組明顯偏高的併發症（10.8% vs 4.5%；12.3% vs 4.7% vs 4.5%），且年齡 ≥70 歲 OR 6.58。'},
+
+  {q:'第 06 篇報告 MVS 死亡率 26–36%、M-TEER 42%。可以據此說「外科優於導管」嗎？',
+   o:['可以，數字差距明顯','不可以，這是跨非隨機世代的間接比較，且 M-TEER 組僅 36 人',
+      '可以，因為統合分析證據等級最高','不可以，因為兩者都太高'],
+   c:1, e:'這是單臂比例統合分析，不是直接比較。能接受外科手術的病人通常血流動力學較穩定，太不穩定的才被送去做 M-TEER —— 典型的選擇偏差。作者自己在結論中明確警告「應謹慎解讀」。引用時務必帶上這個限制。'},
+
+  {q:'第 11 篇放棄「固定血管支配區域」假設後，三條血管的 AUC 提升幅度分別為 LAD +0.05、CX +0.16、RCA +0.21。這個梯度說明什麼？',
+   o:['模型對 RCA 特別最佳化','解剖變異越大的血管，放棄固定節段圖的收益越大',
+      'LAD 的 strain 訊號品質最差','三條血管的樣本數不同'],
+   c:1, e:'LAD 的支配區域相對固定、傳統節段圖本來就準，所以提升有限；RCA 與 CX 的支配範圍（尤其是 dominance 的差異）個體變異最大，固定節段圖誤差也最大，因此改用資料驅動的方式收益最顯著。這個梯度本身就是方法學主張最好的內部驗證。'},
+
+  {q:'第 03 篇標題直接寫出「without altering ATP production」，結論也說 12 週內未見 LVEF 改善。這對讀者的意義是？',
+   o:['這是失敗的研究，不值得閱讀','陰性結果劃出了機轉假說的邊界，且提高了研究的可信度',
+      '應該延長追蹤直到出現正面結果再發表','代表 SGLT2i 沒有心臟保護作用'],
+   c:1, e:'前臨床提出的「改善粒線體功能」假說在人體 12 週內未獲支持，但粒線體壓力儲備能力確有提升 —— 這劃清了機轉的邊界。在充斥正面結果的會議海報中，誠實報告陰性結果反而提高可信度。要注意的是 n=44 對「無差異」的檢定力不足，不能反推 SGLT2i 無效（其臨床效益已有大型 RCT 支持）。'},
+
+  {q:'第 04 篇中，Centre B 的護理師遠端覆核流程敏感度 100%、AI 為 94.3%。這提醒我們什麼？',
+   o:['AI 在所有場景都優於人類判讀','AI 的價值在減少偽陽性與人力負擔，但未必在每個指標都勝過既有流程',
+      '應該廢除遠端覆核流程','敏感度差異不重要'],
+   c:1, e:'AI 的主要賣點是把偽發現率從 70.3%（轉診）壓到 21.4%，且不需額外臨床資料或心臟科人力；但在敏感度上，有心臟科覆核的流程仍是 100%。讀 AI 研究時要看它在「哪一個指標」勝出、代價是什麼，而不是籠統地說 AI 較優。'},
+];
+
+const Quiz = () => {
+  const [i,setI] = useState(0);
+  const [pick,setPick] = useState(null);
+  const [score,setScore] = useState(0);
+  const [done,setDone] = useState(false);
+
+  if(done){
+    const pct = Math.round(score/QUIZ.length*100);
+    return (
+      <div className="card">
+        <h2>✏️ 測驗結果</h2>
+        <div style={{textAlign:'center',padding:'18px 0'}}>
+          <div style={{fontSize:'42px',fontWeight:700,color:'var(--accent)'}}>{score} / {QUIZ.length}</div>
+          <div style={{color:'var(--text-muted)',fontSize:'14px'}}>正確率 {pct}%</div>
+        </div>
+        <p style={{fontSize:'14px'}}>
+          {pct>=80 ? '很好 —— 你已經掌握這批海報的方法學界線，可以放心拿去跟同事討論。'
+           : pct>=50 ? '不錯 —— 建議再回「怎麼讀」分頁複習驗證階梯與偏差來源。'
+           : '建議先讀「怎麼讀」分頁的八個判讀重點，再回來作答。'}
+        </p>
+        <button className="btn" onClick={()=>{setI(0);setPick(null);setScore(0);setDone(false);}}>再作一次</button>
+      </div>
+    );
+  }
+
+  const q = QUIZ[i];
+  return (
+    <div className="card">
+      <h2>✏️ 自我測驗</h2>
+      <p className="sub">第 {i+1} / {QUIZ.length} 題 · 目前 {score} 題正確</p>
+      <p style={{fontWeight:600,fontSize:'15px'}}>{q.q}</p>
+      {q.o.map((o,j)=>(
+        <button key={j}
+          className={'opt'+(pick===null?'':(j===q.c?' correct':(j===pick?' wrong':'')))}
+          onClick={()=>{ if(pick===null){ setPick(j); if(j===q.c) setScore(score+1); } }}>
+          {String.fromCharCode(65+j)}. {o}
+        </button>
+      ))}
+      {pick!==null && (
+        <>
+          <div className={pick===q.c?'good':'danger'}>
+            <b>{pick===q.c?'答對了':'再想一下'}</b>
+            {q.e}
+          </div>
+          <button className="btn" onClick={()=>{
+            if(i+1<QUIZ.length){ setI(i+1); setPick(null); } else { setDone(true); }
+          }}>{i+1<QUIZ.length?'下一題':'看結果'}</button>
+        </>
+      )}
+    </div>
+  );
+};
+
+/* ============ 來源與聲明 ============ */
+const Refs = () => (
+  <div className="card">
+    <h2>📄 來源與聲明</h2>
+    <p style={{fontSize:'13.5px'}}>
+      本頁整理自 ESC Congress 2026（Munich）電子海報現場記錄，共 11 篇急性心肌梗塞相關研究。
+      各篇的作者、單位與主要數值均依海報原文轉錄。
+    </p>
+    <div className="note">
+      <b>引用前請注意</b>
+      會議海報屬<b>初步發表</b>，數據與結論可能於正式期刊發表時修改。引用前請查證正式發表版本；
+      多數海報尚未經同儕審查。
+    </div>
+    <div className="danger">
+      <b>評註的分際</b>
+      各篇的「創新點」「臨床意涵」「讀者請注意」以及「怎麼讀」分頁的全部內容，
+      為整理者依據海報內容所作之<b>教學評註，非原作者陳述</b>。
+    </div>
+    <div className="foot" style={{marginTop:'18px',borderTop:'1px solid var(--border)',paddingTop:'14px'}}>
+      <b>共筆整理人</b>
+      謝慕揚 醫師 MD, PhD, FESC<br/>
+      介入心臟學與重症照護<br/><br/>
+      本內容為會議共筆整理，未必涵蓋所有相關文獻<br/>
+      僅供學術與教育用途，不代表任何單位之官方立場<br/>
+      本內容未涉及任何利益衝突
+    </div>
+  </div>
+);
+
+/* ============ App ============ */
+const App = () => {
+  const [tab,setTab]=useState('home');
+  const [dark,setDark]=useState(false);
+  useEffect(()=>{ document.documentElement.classList.toggle('dark-theme',dark); },[dark]);
+  useEffect(()=>{ window.scrollTo(0,0); },[tab]);
+
+  return (
+    <div className="app">
+      <div className="hdr-wrap">
+        <div className="hdr">
+          <span className="tag">ESC CONGRESS 2026 MUNICH · 會議共筆</span>
+          <h1>急性心肌梗塞的下一個十年<br/>11 篇海報導讀</h1>
+          <p>AI 心電圖 · 心肌保護藥物 · 機械循環支持 · 統合分析 —— 逐篇拆解創新點與研究方法</p>
+          <button className="theme-btn" onClick={()=>setDark(!dark)}>{dark?'☀️':'🌙'}</button>
+        </div>
+      </div>
+
+      {tab==='home' && <Home/>}
+      {tab==='ai'   && <AiTab/>}
+      {tab==='drug' && <DrugTab/>}
+      {tab==='mcs'  && <McsTab/>}
+      {tab==='meta' && <MetaTab/>}
+      {tab==='read' && <ReadTab/>}
+      {tab==='quiz' && <Quiz/>}
+      {tab!=='quiz' && <Refs/>}
+
+      <div className="nav">
+        {NAV.map(n=>(
+          <button key={n.id} className={tab===n.id?'on':''} onClick={()=>setTab(n.id)}>
+            <span className="ico">{n.ico}</span>{n.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+};
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

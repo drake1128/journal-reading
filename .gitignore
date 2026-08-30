@@ -40,6 +40,13 @@ handouts/**/*.html
 !handouts/05-cardiac-imaging/LVEF_Not_Everything_Echo_to_CPET.html
 !handouts/05-cardiac-imaging/MAD_Mitral_Annular_Disjunction.html
 !handouts/08-genetic-medicine/Cardiomyopathy_Genetic_Testing.html
+!handouts/01-ischemic-heart-disease/ESC2026_Munich_AMI_Poster_Digest.html
+# ESC Congress 2026 Munich Hot Line 讀書會共筆（互動網頁）
+!handouts/02-heart-failure/Met-HeFT_Metformin_in_HFrEF_ESC2026.html
+!handouts/04-valvular-disease/POPular_ACE_TAVI_Protamine_ESC2026.html
+!handouts/04-valvular-disease/TAVI_Antithrombotic_ACASA_NOTION-4_ESC2026.html
+!handouts/04-valvular-disease/TRIC-I-HF_Tricuspid_Intervention_ESC2026.html
+!handouts/21-pulmonary-hypertension/PADN_PH_LHD_Pulmonary_Denervation_ESC2026.html
 # Curated portals — allow all HTML in these dedicated folders (drop new decks in freely)
 !handouts/classroom-teaching/**/*.html
 !handouts/95-management-leadership/**/*.html

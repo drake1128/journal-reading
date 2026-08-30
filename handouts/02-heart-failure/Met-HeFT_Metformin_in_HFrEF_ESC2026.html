@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Met-HeFT (DANHEART) + Meta-analysis — ESC 2026 讀書會共筆</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#c0202f; --accent-light:#e74c3c;
+  --blue:#1f5fa8; --success:#27ae60; --warning:#f39c12;
+  --bg:#faf8f5; --card:#ffffff; --text:#22303f; --muted:#6b7b8c; --border:#e6e9ed;
+  --shadow:0 2px 14px rgba(20,40,70,.07);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+ font-family:"Noto Sans TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ line-height:1.7;-webkit-text-size-adjust:100%}
+.wrap{max-width:900px;margin:0 auto;padding:0 14px 60px;}
+header{background:linear-gradient(135deg,var(--primary),var(--primary-light));color:#fff;padding:22px 0 18px;}
+header .wrap{padding-bottom:0}
+.eyebrow{font-size:12px;letter-spacing:.14em;opacity:.85;text-transform:uppercase}
+h1{font-size:21px;margin:6px 0 4px;font-weight:700;line-height:1.35}
+.sub{font-size:13.5px;opacity:.9;margin:0}
+.badge{display:inline-block;background:#fff;color:var(--accent);font-weight:700;
+ font-size:13px;padding:5px 12px;border-radius:999px;margin-top:12px}
+nav{position:sticky;top:0;z-index:20;background:rgba(250,248,245,.96);backdrop-filter:blur(8px);
+ border-bottom:1px solid var(--border);overflow-x:auto;-webkit-overflow-scrolling:touch}
+nav .inner{display:flex;gap:6px;max-width:900px;margin:0 auto;padding:8px 12px;white-space:nowrap}
+nav button{flex:0 0 auto;min-height:40px;padding:8px 14px;border:1px solid var(--border);
+ background:#fff;color:var(--muted);border-radius:999px;font-size:14px;font-family:inherit;cursor:pointer}
+nav button.on{background:var(--primary);color:#fff;border-color:var(--primary);font-weight:500}
+section{display:none;padding-top:18px}
+section.on{display:block}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+ padding:16px;margin:0 0 14px;box-shadow:var(--shadow)}
+.card h2{font-size:18px;margin:0 0 10px;color:var(--primary)}
+.card h2.b{color:var(--blue)}
+.card h3{font-size:15px;margin:16px 0 6px;color:var(--primary-light)}
+.card h3:first-child{margin-top:0}
+p{margin:8px 0}
+ul{margin:8px 0;padding-left:20px}
+li{margin:5px 0}
+.kv{font-size:14px}
+.hl{background:#fff4f3;border-left:4px solid var(--accent);padding:12px 14px;border-radius:0 10px 10px 0;margin:12px 0}
+.hl.info{background:#f2f7fc;border-left-color:var(--primary-light)}
+.hl.warn{background:#fff8ec;border-left-color:var(--warning)}
+.hl.ok{background:#f0faf3;border-left-color:var(--success)}
+.hl b{color:var(--accent)}
+.hl.info b{color:var(--primary)} .hl.warn b{color:#b4750a} .hl.ok b{color:#1d7c46}
+.take .item{display:flex;gap:12px;padding:12px 0;border-bottom:1px dashed var(--border)}
+.take .item:last-child{border-bottom:0}
+.take .n{flex:0 0 28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;
+ display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700}
+.take .tx{flex:1;font-size:15px}
+.stat{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:12px 0}
+.stat div{background:#f6f8fa;border-radius:10px;padding:12px;text-align:center}
+.stat .big{font-size:20px;font-weight:700;color:var(--primary);display:block}
+.stat .lab{font-size:12px;color:var(--muted)}
+.tbl{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0;display:block;overflow-x:auto}
+.tbl th,.tbl td{border:1px solid var(--border);padding:7px 9px;text-align:center;white-space:nowrap}
+.tbl th{background:var(--primary);color:#fff;font-weight:500}
+.tbl.b th{background:var(--blue)}
+.tbl td:first-child,.tbl th:first-child{text-align:left}
+.tbl tr:nth-child(even) td{background:#fafbfc}
+.tbl .grp td{background:#eef2f6;font-weight:500;text-align:left}
+.tbl .tot td{background:#fdf3f3;font-weight:700}
+.mark{color:var(--accent);font-weight:700}
+.forest{font-size:13px;margin:10px 0}
+.frow{display:grid;grid-template-columns:1.4fr 2.2fr 1.4fr;gap:8px;align-items:center;
+ padding:6px 0;border-bottom:1px solid var(--border)}
+.frow.head{font-weight:500;color:var(--muted);font-size:12px;border-bottom:2px solid var(--border)}
+.fbar{position:relative;height:20px;background:#f4f6f8;border-radius:4px}
+.fbar .mid{position:absolute;top:0;bottom:0;width:1px;background:#aab4bf}
+.fbar .ci{position:absolute;top:9px;height:2px;background:var(--primary)}
+.fbar .pt{position:absolute;top:5.5px;width:9px;height:9px;background:var(--primary);border-radius:2px;margin-left:-4.5px}
+.frow.sum .fbar .ci,.frow.sum .fbar .pt{background:var(--accent)}
+.frow.sum{font-weight:700}
+.fval{text-align:right;font-variant-numeric:tabular-nums;font-size:12.5px}
+.q{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px;margin-bottom:12px}
+.q .stem{font-weight:500;margin-bottom:10px}
+.opt{display:block;width:100%;text-align:left;min-height:48px;padding:11px 14px;margin:6px 0;
+ border:1px solid var(--border);background:#fff;border-radius:10px;font-size:15px;
+ font-family:inherit;color:var(--text);cursor:pointer;line-height:1.5}
+.opt.right{border-color:var(--success);background:#eefbf3}
+.opt.wrong{border-color:var(--accent);background:#fdf0f0}
+.exp{display:none;margin-top:10px;padding:11px 13px;background:#f2f7fc;border-radius:10px;font-size:14px}
+.exp.on{display:block}
+footer{margin-top:26px;padding:18px 16px;background:#fff;border:1px solid var(--border);border-radius:14px;
+ font-size:13px;color:var(--muted)}
+footer .sig{color:var(--text);font-weight:500;line-height:1.9}
+footer ul{padding-left:18px;margin:8px 0 0}
+.ref{font-size:12.5px;color:var(--muted)}
+.small{font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">ESC Congress 2026 · Munich · Hot Line · 2026/08/30</div>
+    <h1>Met-HeFT：Metformin 用於慢性心衰竭 (HFrEF)</h1>
+    <p class="sub">DANHEART 2×2 factorial (H. Wiggers)｜Systematic review &amp; meta-analyses (A. H. Larsen)｜Discussant (K. Marx-Schuett)</p>
+    <span class="badge">結果方向：NEUTRAL（試驗與 meta-analysis 一致）</span>
+  </div>
+</header>
+
+<nav><div class="inner">
+  <button class="on" data-t="s1">Take Home</button>
+  <button data-t="s2">試驗設計</button>
+  <button data-t="s3">病人族群</button>
+  <button data-t="s4">結果</button>
+  <button data-t="s5">次族群</button>
+  <button data-t="s6">Meta-analysis</button>
+  <button data-t="s7">討論人觀點</button>
+  <button data-t="s8">臨床解讀</button>
+  <button data-t="s9">小測驗</button>
+</div></nav>
+
+<div class="wrap">
+
+<!-- ============ TAKE HOME ============ -->
+<section id="s1" class="on">
+  <div class="card">
+    <h2>Take Home Message</h2>
+    <div class="take">
+      <div class="item"><div class="n">1</div><div class="tx">
+        HFrEF 合併 T2D、prediabetes 或糖尿病高風險的病人，<b>metformin 未降低</b>主要複合終點
+        （all-cause death / worsening HF / acute MI / stroke）：
+        <span class="mark">HR 1.10 (95% CI 0.85–1.42), P=0.48</span>。</div></div>
+      <div class="item"><div class="n">2</div><div class="tx">
+        同步發表的 systematic review &amp; meta-analysis 得到<b>完全一致</b>的結論：HFrEF synthesis
+        major CV events <span class="mark">RR 1.05 (0.83–1.32), P=0.69</span>，I²=0.0%，無異質性；
+        IHD synthesis 亦無效益，且 HFrEF status <b>無交互作用</b>（P for interaction 0.783）。</div></div>
+      <div class="item"><div class="n">3</div><div class="tx">
+        <b>代謝有效、心血管無轉譯</b>（metabolic effects without cardiovascular translation）：
+        metformin 確實降低 HbA1c（−1.8 mmol/mol）、體重（−2.2 kg）與 total cholesterol，
+        但這些改善<b>沒有轉換成臨床事件的減少</b>。這是本次會議最重要的一句話。</div></div>
+      <div class="item"><div class="n">4</div><div class="tx">
+        次族群（T2D 有無、HOMA-IR、BMI、HbA1c）皆無交互作用；
+        meta-analysis 中 diabetes status 對 HbA1c/weight 的效果也無交互作用
+        （P for interaction 0.275 / 0.358）。<b>找不到任何「該用 metformin」的亞群</b>。</div></div>
+      <div class="item"><div class="n">5</div><div class="tx">
+        討論人 (K. Marx-Schuett) 的關鍵提醒：Met-HeFT 的 placebo 組事件率僅 <b>11.8%（追蹤 3.7 年）</b>，
+        遠低於 DAPA-HF (13.7%/18.2 月)、EMPEROR-Reduced (18.3%/16 月)、VICTORIA (29.6%/10.8 月)、
+        DIGIT-HF (30.3%/3 年)。<b>這是一個極低風險的 HFrEF 族群</b>。</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>一眼看完數字</h2>
+    <div class="stat">
+      <div><span class="big">940</span><span class="lab">Met-HeFT 隨機分派<br>(Met 475 / PBO 465)</span></div>
+      <div><span class="big">3.7 y</span><span class="lab">平均追蹤</span></div>
+      <div><span class="big">1.10</span><span class="lab">RCT primary HR<br>(0.85–1.42), P=0.48</span></div>
+      <div><span class="big">1.05</span><span class="lab">Meta RR (HFrEF)<br>(0.83–1.32), P=0.69</span></div>
+    </div>
+    <div class="hl warn">
+      <b>方向判讀：</b>RCT 為 <b>neutral</b>（未達顯著、亦非證實有害，CI 跨過 1）；
+      meta-analysis 的作者用詞是 <b>"No cardiovascular benefit"</b>。
+      共筆行文請區分兩者：「未顯示效益」≠「證實有害」。
+    </div>
+  </div>
+</section>
+
+<!-- ============ 設計 ============ -->
+<section id="s2">
+  <div class="card">
+    <h2>研究背景：為什麼要做這個試驗</h2>
+    <p>Metformin 被提出的 HFrEF 保護機轉（proposed beneficial mechanisms）：</p>
+    <ul class="kv">
+      <li>↑ <b>AMPK activation</b> → 改善粒線體功能、降低 ROS</li>
+      <li>↑ <b>GDF-15</b>、↓ 體重（腸道途徑）</li>
+      <li>Metabolic effects：延緩 prediabetes → T2D、↓ new-onset T2D</li>
+      <li>↑ Stroke work / myocardial VO<sub>2</sub>（心肌工作效率）</li>
+      <li>↑ CPET 運動能力</li>
+    </ul>
+    <div class="hl info">
+      <b>Objective：</b>在 HFrEF 且合併 T2D、prediabetes 或糖尿病高風險的病人，
+      adjunctive metformin 是否能改善臨床預後。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>試驗設計 (Design)</h2>
+    <ul class="kv">
+      <li><b>Randomized, double-blind, placebo-controlled</b></li>
+      <li><b>DANHEART</b> 2×2 factorial：Met-HeFT（metformin）＋ H-HeFT（hydralazine-ISDN）</li>
+      <li>丹麥 23 家醫院、全國性收案；DANHEART 原計畫 N=1,500</li>
+      <li><b>Investigator initiated</b>，無藥廠資助（Danish Heart Foundation 為主要 funder；
+        Novo Nordisk Foundation、Danish Health Regions Research Fund、
+        Independent Research Fund Denmark、Aase and Ejnar Danielsen's Foundation）</li>
+      <li>病人可只進入 Met-HeFT、只進入 H-HeFT，或同時進入兩者</li>
+    </ul>
+
+    <h3>Inclusion criteria</h3>
+    <ul class="kv">
+      <li>Chronic heart failure，<b>LVEF ≤ 40%</b>，<b>NYHA II–IV</b></li>
+      <li>Maximally tolerated GDMT；有指徵者已置放 ICD 及/或 CRT</li>
+      <li><b>加上</b>：T2D <b>或</b> prediabetes <b>或</b> BMI ≥ 30 kg/m²</li>
+      <li><b>加上</b>：eGFR ≥ 35 mL/min/1.73 m²</li>
+    </ul>
+
+    <h3>Exclusion criteria</h3>
+    <ul class="kv">
+      <li>過去 3 個月內曾使用 metformin</li>
+      <li>Type 1 diabetes</li>
+    </ul>
+
+    <h3>Intervention</h3>
+    <ul class="kv">
+      <li>Metformin 或 matching placebo <b>1,000 mg BID</b></li>
+      <li>eGFR 35–60 mL/min/1.73 m²：<b>500 mg BID</b></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Outcomes</h2>
+    <p><b>Main outcome：</b>複合終點 = all-cause death + worsening heart failure + acute MI + stroke。</p>
+    <p><b>Key secondary outcomes：</b></p>
+    <ul class="kv">
+      <li>Total number of first and recurrent primary endpoint events</li>
+      <li>All-cause death</li>
+      <li>Hospitalization for worsening heart failure</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Sample size 與 statistical power（重要！）</h2>
+    <ul class="kv">
+      <li>原設計：<b>80% power</b> 偵測主要終點 <b>23% 相對下降</b>，計畫收案 <b>1,100 人</b></li>
+      <li>延長收案期後<b>無法再募得經費</b>；Steering Committee 決定 last patient last visit = 2025/12/31</li>
+      <li>實際約 <b>950 人</b>、<b>200 個主要終點事件</b>；在 proportional hazards 假設下，
+        <b>HR 0.75</b> 才會達到統計顯著</li>
+      <li>由於觀察性資料報告 metformin 在 HFrEF 有 20–25% 死亡率下降，Steering Committee 接受此設定</li>
+    </ul>
+    <div class="hl warn">
+      <b>共筆註記：</b>這是「以觀察性資料的效果量去設計 RCT」的經典情境。
+      本試驗只能排除 <b>≥25% 的大幅療效</b>；小幅療效（10–15%）在單一試驗中無法排除。
+      但點估計 &gt; 1、各終點方向一致，加上 meta-analysis 的 RR 1.05 (0.83–1.32)，
+      讓「被 power 掩蓋的真實療效」這個解釋變得非常不吸引人。
+    </div>
+  </div>
+</section>
+
+<!-- ============ 病人族群 ============ -->
+<section id="s3">
+  <div class="card">
+    <h2>Baseline characteristics I</h2>
+    <table class="tbl">
+      <tr><th>Characteristic</th><th>Metformin (N=475)</th><th>Placebo (N=465)</th></tr>
+      <tr><td>Age, years</td><td>69 (62–75)</td><td>70 (61–76)</td></tr>
+      <tr><td>Men, n (%)</td><td>399 (84%)</td><td>391 (84%)</td></tr>
+      <tr><td>Non-ischemic cardiomyopathy</td><td>220 (46%)</td><td>198 (43%)</td></tr>
+      <tr><td>Atrial fibrillation</td><td>83 (17%)</td><td>68 (15%)</td></tr>
+      <tr><td><span class="mark">NYHA III or IV</span></td><td>22 (5%)</td><td>22 (5%)</td></tr>
+      <tr><td>Systolic BP, mmHg</td><td>116 (104–129)</td><td>116 (104–129)</td></tr>
+      <tr><td>Heart rate, bpm</td><td>67 (60–74)</td><td>66 (60–72)</td></tr>
+      <tr><td>LVEF, %</td><td>35 (30–39)</td><td>35 (30–38)</td></tr>
+      <tr><td>NT-proBNP, pg/mL</td><td>617 (293–1446)</td><td>636 (307–1340)</td></tr>
+      <tr><td>eGFR, mL/min/1.73 m²</td><td>69 (55–84)</td><td>70 (56–84)</td></tr>
+    </table>
+    <p class="small">數值為 median (IQR) 或 n (%)。</p>
+    <div class="hl info">
+      <b>族群特徵：</b>NYHA III/IV 僅 5%、NT-proBNP 中位數約 600 pg/mL、LVEF 35%、eGFR 約 70 —
+      這是一群<b>穩定、症狀輕、腎功能尚可</b>的門診 HFrEF 病人。
+      討論人以此為主要 critique（見「討論人觀點」頁）。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Baseline characteristics II</h2>
+    <table class="tbl">
+      <tr><th>Characteristic</th><th>Metformin (N=475)</th><th>Placebo (N=465)</th></tr>
+      <tr class="grp"><td colspan="3">Heart failure treatment</td></tr>
+      <tr><td>ACEI or ARB</td><td>263 (55%)</td><td>263 (57%)</td></tr>
+      <tr><td>ARNI</td><td>198 (42%)</td><td>193 (42%)</td></tr>
+      <tr><td>Beta-blocker</td><td>456 (96%)</td><td>439 (94%)</td></tr>
+      <tr><td>MRA</td><td>369 (78%)</td><td>363 (78%)</td></tr>
+      <tr><td>Diuretics</td><td>294 (62%)</td><td>266 (57%)</td></tr>
+      <tr><td><span class="mark">SGLT2 inhibitor</span></td><td>206 (43%)</td><td>205 (44%)</td></tr>
+      <tr><td>Digoxin</td><td>31 (7%)</td><td>24 (5%)</td></tr>
+      <tr><td>Device: ICD / CRT-P / CRT-D</td><td>215 (45%)</td><td>235 (51%)</td></tr>
+      <tr class="grp"><td colspan="3">Diabetes, prediabetes, and insulin resistance</td></tr>
+      <tr><td><span class="mark">Type 2 diabetes</span></td><td>48 (10%)</td><td>42 (9.0%)</td></tr>
+      <tr><td>P-HbA1c, mmol/mol</td><td>40 (38–43)</td><td>40 (38–43)</td></tr>
+      <tr><td>Fasting plasma glucose, mmol/L</td><td>6.1 (5.6–6.7)</td><td>6.0 (5.6–6.6)</td></tr>
+      <tr><td>HOMA-IR index</td><td>3.7 (2.2–6.8)</td><td>3.5 (2.2–5.5)</td></tr>
+    </table>
+    <div class="hl">
+      <b>兩個關鍵解讀限制：</b>
+      <ul>
+        <li><b>只有約 10% 是 T2D</b>。HbA1c 中位數 40 mmol/mol（≈5.8%）、FPG 約 6.0 mmol/L
+          → 這其實是一個以 <b>prediabetes / insulin resistance / 肥胖</b> 為主的族群
+          （meta-analysis 的 study table 顯示 prediabetes 佔 75%），不是「糖尿病心衰竭族群」。</li>
+        <li><b>SGLT2i 使用率僅 43–44%</b>（收案橫跨 SGLT2i 進入指引前後）。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 結果 ============ -->
+<section id="s4">
+  <div class="card">
+    <h2>Primary outcome</h2>
+    <p class="small">複合終點：death + worsening heart failure + acute MI + stroke</p>
+    <div class="stat">
+      <div><span class="big">1.10</span><span class="lab">Hazard ratio</span></div>
+      <div><span class="big">0.85–1.42</span><span class="lab">95% CI</span></div>
+      <div><span class="big">0.48</span><span class="lab">P value</span></div>
+    </div>
+    <table class="tbl">
+      <tr><th></th><th>Metformin (N=475)</th><th>Placebo (N=465)</th></tr>
+      <tr><td>主要終點事件數</td><td>119</td><td>109</td></tr>
+    </table>
+    <p>Kaplan–Meier 曲線在整個追蹤期<b>幾乎完全重疊</b>；7 年時 at-risk 人數僅剩 9 vs 11，
+      尾端曲線分離不具解釋力。</p>
+    <div class="hl warn">
+      <b>數字交叉比對：</b>投影片為 HR 1.10 (95% CI <b>0.85</b>–1.42)；
+      會後報導寫 95% CI <b>0.84</b>–1.42、事件率 25.1% vs 23.4%。結論一致，
+      正式全文發表後請以 publication 為準。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>First and recurrent events（key secondary）</h2>
+    <div class="stat">
+      <div><span class="big">1.13</span><span class="lab">Mean event ratio</span></div>
+      <div><span class="big">0.86–1.48</span><span class="lab">95% CI</span></div>
+    </div>
+    <table class="tbl">
+      <tr><th></th><th>Metformin</th><th>Placebo</th></tr>
+      <tr><td>總事件數（含 recurrent）</td><td>199</td><td>172</td></tr>
+    </table>
+    <p class="small">納入 recurrent events（統計效率較高的分析）後結論不變，方向仍偏向 placebo。</p>
+  </div>
+
+  <div class="card">
+    <h2>All-cause death / Worsening heart failure</h2>
+    <table class="tbl">
+      <tr><th>Outcome</th><th>Hazard ratio (95% CI)</th><th>方向</th></tr>
+      <tr><td>All-cause death</td><td>1.07 (0.77–1.48)</td><td>Neutral</td></tr>
+      <tr><td>Worsening heart failure（non-fatal）</td><td>1.02 (0.70–1.50)</td><td>Neutral</td></tr>
+    </table>
+    <div class="hl">
+      <b>重點：</b>觀察性研究最強的訊號就是「死亡率下降 20–25%」，
+      而本 RCT 的 all-cause death <b>HR 1.07</b>。這是本試驗最有價值的一筆資料。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Conclusions &amp; Perspectives（原作者）</h2>
+    <div class="hl info">
+      在 HFrEF 合併 T2D、prediabetes 或糖尿病高風險的病人，metformin 並未降低
+      all-cause death、worsening heart failure、acute MI 或 stroke 之複合終點的風險。
+    </div>
+    <ul class="kv">
+      <li>Met-HeFT 是<b>目前規模最大</b>、在已確立心血管疾病病人中進行的 metformin
+        randomized placebo-controlled outcome trial。</li>
+      <li>Met-HeFT <b>不支持</b> metformin 在心衰竭有 pleiotropic effects，
+        也不支持「早期代謝介入（early metabolic intervention）可改善 HFrEF 心血管預後」的假說。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 次族群 ============ -->
+<section id="s5">
+  <div class="card">
+    <h2>Subgroup analysis（Met-HeFT）</h2>
+    <p class="small">主要終點 HR (95% CI)。<b>與 diabetes status、HOMA-IR、HbA1c 均無交互作用。</b></p>
+    <div class="forest">
+      <div class="frow head"><div>Subgroup</div><div>← Metformin better ｜ Placebo better →</div><div class="fval">HR (95% CI)</div></div>
+      <div id="forest1"></div>
+    </div>
+    <table class="tbl">
+      <tr><th>Subgroup</th><th>Metformin n/N (%)</th><th>Placebo n/N (%)</th><th>HR (95% CI)</th></tr>
+      <tr class="grp"><td colspan="4">Type 2 diabetes</td></tr>
+      <tr><td>Yes</td><td>15/48 (31.2)</td><td>12/42 (28.6)</td><td>1.30 (0.61–2.79)</td></tr>
+      <tr><td>No</td><td>104/427 (24.4)</td><td>97/423 (22.9)</td><td>1.06 (0.80–1.40)</td></tr>
+      <tr class="grp"><td colspan="4">HOMA-IR index</td></tr>
+      <tr><td>&lt; Median</td><td>50/210 (23.8)</td><td>50/213 (23.5)</td><td>0.97 (0.66–1.44)</td></tr>
+      <tr><td>≥ Median</td><td>49/219 (22.4)</td><td>44/204 (21.6)</td><td>1.12 (0.75–1.69)</td></tr>
+      <tr class="grp"><td colspan="4">BMI</td></tr>
+      <tr><td>&lt; Median</td><td>58/230 (25.2)</td><td>51/240 (21.2)</td><td>1.14 (0.78–1.67)</td></tr>
+      <tr><td>≥ Median</td><td>61/245 (24.9)</td><td>58/225 (25.8)</td><td>1.07 (0.75–1.53)</td></tr>
+      <tr class="grp"><td colspan="4">HbA1c (median split)</td></tr>
+      <tr><td>&lt; Median</td><td>55/205 (26.8)</td><td>46/219 (21.0)</td><td>1.32 (0.89–1.95)</td></tr>
+      <tr><td>≥ Median</td><td>64/267 (24.0)</td><td>63/244 (25.8)</td><td>0.95 (0.67–1.35)</td></tr>
+      <tr class="grp"><td colspan="4">HbA1c (absolute)</td></tr>
+      <tr><td>&lt; 42 mmol/mol (&lt;6.0%)</td><td>75/303 (24.8)</td><td>70/298 (23.5)</td><td>1.07 (0.78–1.49)</td></tr>
+      <tr><td>42–47 mmol/mol (6.0–6.4%)</td><td>28/121 (23.1)</td><td>27/126 (21.4)</td><td>1.01 (0.60–1.72)</td></tr>
+      <tr><td>≥ 48 mmol/mol (≥6.5%)</td><td>16/48 (33.3)</td><td>12/39 (30.8)</td><td>1.26 (0.59–2.67)</td></tr>
+    </table>
+    <div class="hl">
+      <b>解讀：</b>所有次族群 CI 都寬且跨越 1，沒有任何一組出現 metformin 有利的訊號。
+      T2D 組與 HbA1c ≥ 48 mmol/mol 組事件數都極少（n=48/42、48/39），
+      CI 幾乎無法排除任何效果 — <b>不可拿來做正向宣稱</b>。
+    </div>
+  </div>
+</section>
+
+<!-- ============ META ============ -->
+<section id="s6">
+  <div class="card">
+    <h2 class="b">Met-HeFT meta-analysis</h2>
+    <p class="small">Metformin in Heart Failure and Ischemic Heart Disease: A Systematic Review and
+      Meta-Analyses of Randomized Placebo-Controlled Trials｜Anders Hostrup Larsen
+      (Aarhus University Hospital &amp; Gødstrup Hospital)｜on behalf of the DANHEART investigators｜2026/08/30</p>
+
+    <h3>Methods</h3>
+    <ul class="kv">
+      <li>Systematic review（PROSPERO <b>CRD420261400242</b>）：randomized placebo-controlled trials of
+        metformin in HFrEF 或 IHD；排除 open-label 或無 placebo arm 的 active comparator trials</li>
+      <li>Prespecified primary outcome：<b>Major cardiovascular event</b>
+        （all-cause death、worsening HF event、MI、stroke、HTx 或 LVAD）</li>
+      <li>Prespecified primary analysis：<b>random-effects model</b>；
+        sensitivity：fixed-effects model、依 T2DM 與 ischemic etiology status 比較</li>
+      <li>檢索至 2026/05/20：1,510 筆 → 1,243 篇 title/abstract → 36 篇全文 →
+        <b>7 篇納入</b>（22 reports）；HFrEF synthesis 3 trials + Met-HeFT，IHD synthesis 4 trials</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 class="b">HFrEF Synthesis：Primary outcome — Major CV Events</h2>
+    <div class="forest">
+      <div class="frow head"><div>Trial</div><div>← Favours metformin ｜ Favours placebo →</div><div class="fval">RR (95% CI)</div></div>
+      <div id="forest2"></div>
+    </div>
+    <table class="tbl b">
+      <tr><th>Trial</th><th>Metformin n/N</th><th>Placebo n/N</th><th>Weight</th><th>Risk ratio (95% CI)</th></tr>
+      <tr><td>TAYSIDE, 2012</td><td>0/39</td><td>0/23</td><td>—</td><td>—</td></tr>
+      <tr><td>METRONOME, 2019</td><td>1/19</td><td>0/17</td><td>1%</td><td>2.57 (0.11–59.30)</td></tr>
+      <tr><td>CARMET, 2025</td><td>1/39</td><td>3/39</td><td>1%</td><td>0.35 (0.04–3.23)</td></tr>
+      <tr><td>Met-HeFT, 2026</td><td>119/475</td><td>109/465</td><td><b>98%</b></td><td>1.06 (0.84–1.33)</td></tr>
+      <tr class="tot"><td>Overall</td><td>121/572</td><td>112/544</td><td>100%</td><td><b>1.05 (0.83–1.32)</b></td></tr>
+    </table>
+    <p><b>Effect of metformin vs. placebo: RR 1.05, 95% CI 0.83–1.32, P = 0.69</b><br>
+      <span class="small">I² = 0.0%; P = 0.694 — no significant heterogeneity</span></p>
+    <div class="hl info">
+      <b>權重的意義：</b>Met-HeFT 佔 <b>98%</b> 的權重。其餘三個試驗都是小型、短期
+      （3–6 個月）、以 surrogate endpoint 為主要終點的研究（peak VO₂、myocardial efficiency、
+      insulin sensitivity），事件數個位數。因此這個 meta-analysis 的功能是
+      <b>「確認一致性、排除異質性」</b>，而不是「增加證據強度」。
+    </div>
+    <div class="hl warn">
+      <b>數字內部不一致，待全文確認：</b>study characteristics 表列 CARMET <b>N=39</b>，
+      但 forest plot 顯示 39 vs 39（=78）。若採前者，HFrEF synthesis 總人數為 1,077
+      （與會後報導一致）；若採後者則為 1,116。<b>不影響結論方向</b>，但引用人數時要小心。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 class="b">HFrEF Synthesis：Sensitivity Analysis（代謝終點）</h2>
+    <p class="small">Prespecified fixed-effects analyses：所有心血管與代謝終點結果一致。
+      <b>Diabetes status 與 HbA1c / weight 的變化無交互作用。</b></p>
+
+    <h3>HbA1c (mmol/mol) — mean difference</h3>
+    <table class="tbl b">
+      <tr><th>Trial</th><th>Met (n)</th><th>PBO (n)</th><th>Weight</th><th>Mean difference (95% CI)</th></tr>
+      <tr class="grp"><td colspan="5">Diabetes</td></tr>
+      <tr><td>CARMET, 2025</td><td>39</td><td>39</td><td>79%</td><td>−3.3 (−6.6 to 0.0)</td></tr>
+      <tr><td>Met-HeFT, 2026</td><td>48</td><td>42</td><td>21%</td><td>−5.1 (−11.6 to 1.4)</td></tr>
+      <tr class="tot"><td>Overall</td><td>87</td><td>81</td><td>100%</td><td>−3.7 (−6.6 to −0.7)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 0.0%; P = 0.016</td></tr>
+      <tr class="grp"><td colspan="5">No diabetes</td></tr>
+      <tr><td>TAYSIDE, 2012</td><td>36</td><td>22</td><td>29%</td><td>−2.2 (−3.2 to −1.2)</td></tr>
+      <tr><td>METRONOME, 2019</td><td>19</td><td>17</td><td>19%</td><td>−1.7 (−3.0 to −0.3)</td></tr>
+      <tr><td>Met-HeFT, 2026</td><td>316</td><td>332</td><td>52%</td><td>−1.2 (−1.8 to −0.5)</td></tr>
+      <tr class="tot"><td>Overall</td><td>371</td><td>371</td><td>100%</td><td>−1.5 (−2.2 to −0.9)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 32.4%; P &lt; 0.001｜<b>P for interaction = 0.275</b></td></tr>
+    </table>
+
+    <h3>Weight (kg) — mean difference</h3>
+    <table class="tbl b">
+      <tr><th>Trial</th><th>Met (n)</th><th>PBO (n)</th><th>Weight</th><th>Mean difference (95% CI)</th></tr>
+      <tr class="grp"><td colspan="5">Diabetes</td></tr>
+      <tr><td>CARMET, 2025</td><td>39</td><td>39</td><td>66%</td><td>−1.2 (−2.4 to 0.0)</td></tr>
+      <tr><td>Met-HeFT, 2026</td><td>48</td><td>42</td><td>34%</td><td>−5.4 (−10.3 to −0.5)</td></tr>
+      <tr class="tot"><td>Overall</td><td>87</td><td>81</td><td>100%</td><td>−2.6 (−6.5 to 1.3)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 63.1%; P = 0.188</td></tr>
+      <tr class="grp"><td colspan="5">No diabetes</td></tr>
+      <tr><td>TAYSIDE, 2012</td><td>36</td><td>22</td><td>31%</td><td>−3.0 (−4.3 to −1.7)</td></tr>
+      <tr><td>METRONOME, 2019</td><td>19</td><td>17</td><td>27%</td><td>−2.2 (−3.6 to −0.8)</td></tr>
+      <tr><td>Met-HeFT, 2026</td><td>326</td><td>342</td><td>42%</td><td>−2.0 (−3.1 to −0.9)</td></tr>
+      <tr class="tot"><td>Overall</td><td>381</td><td>381</td><td>100%</td><td>−2.4 (−3.1 to −1.6)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 0.0%; P &lt; 0.001｜<b>P for interaction = 0.358</b></td></tr>
+    </table>
+    <div class="hl ok">
+      <b>藥理學是有作用的：</b>metformin 在 HFrEF 病人身上確實降 HbA1c、確實降體重，
+      而且在有/沒有糖尿病的族群都一樣有效（無交互作用）。
+      <b>問題不在藥物沒作用，而在這些代謝改善沒有轉譯成心血管事件的減少。</b>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 class="b">IHD Synthesis：Sensitivity Analysis</h2>
+    <p class="small">Prespecified fixed-effects analyses 結果一致。
+      <b>HFrEF status 與心血管終點之間無交互作用。</b></p>
+
+    <h3>Major cardiovascular events</h3>
+    <table class="tbl b">
+      <tr><th>Trial</th><th>Metformin n/N</th><th>Placebo n/N</th><th>Weight</th><th>Risk ratio (95% CI)</th></tr>
+      <tr class="grp"><td colspan="5">No HFrEF</td></tr>
+      <tr><td>CAMERA, 2014</td><td>4/86</td><td>6/87</td><td>54%</td><td>0.69 (0.20–2.36)</td></tr>
+      <tr><td>GIPS-III, 2014</td><td>6/191</td><td>2/189</td><td>36%</td><td>2.91 (0.59–14.23)</td></tr>
+      <tr><td>MET-REMODEL, 2019</td><td>1/34</td><td>0/34</td><td>10%</td><td>2.92 (0.12–69.20)</td></tr>
+      <tr class="tot"><td>Overall</td><td>11/311</td><td>8/310</td><td>100%</td><td>1.33 (0.48–3.70)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 11.4%; P = 0.584</td></tr>
+      <tr class="grp"><td colspan="5">HFrEF</td></tr>
+      <tr><td>Met-HeFT, 2026</td><td>73/228</td><td>70/241</td><td>100%</td><td>1.08 (0.81–1.44)</td></tr>
+      <tr class="tot"><td>Overall</td><td>73/228</td><td>70/241</td><td>100%</td><td>1.08 (0.81–1.44)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 0.0%; P = 0.610｜<b>P for interaction = 0.783</b></td></tr>
+    </table>
+
+    <h3>All-cause hospitalizations</h3>
+    <table class="tbl b">
+      <tr><th>Trial</th><th>Metformin n/N</th><th>Placebo n/N</th><th>Weight</th><th>Risk ratio (95% CI)</th></tr>
+      <tr class="grp"><td colspan="5">No HFrEF</td></tr>
+      <tr><td>CAMERA, 2014</td><td>11/86</td><td>18/87</td><td>42%</td><td>0.66 (0.32–1.33)</td></tr>
+      <tr><td>GIPS-III, 2014</td><td>16/191</td><td>10/189</td><td>38%</td><td>1.36 (0.62–2.99)</td></tr>
+      <tr><td>MET-REMODEL, 2019</td><td>6/34</td><td>4/34</td><td>20%</td><td>1.43 (0.44–4.66)</td></tr>
+      <tr class="tot"><td>Overall</td><td>33/311</td><td>32/310</td><td>100%</td><td>1.06 (0.59–1.90)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 30.8%; P = 0.847</td></tr>
+      <tr class="grp"><td colspan="5">HFrEF</td></tr>
+      <tr><td>Met-HeFT, 2026</td><td>112/228</td><td>119/241</td><td>100%</td><td>1.00 (0.81–1.23)</td></tr>
+      <tr class="tot"><td>Overall</td><td>112/228</td><td>119/241</td><td>100%</td><td>1.00 (0.81–1.23)</td></tr>
+      <tr><td colspan="5" class="small" style="text-align:left">I² = 0.0%; P = 0.974｜<b>P for interaction = 0.987</b></td></tr>
+    </table>
+    <div class="hl info">
+      <b>注意分母：</b>IHD synthesis 中的 Met-HeFT 使用的是 <b>ischemic etiology 亞群</b>
+      （228 vs 241），不是全部 940 人。CAMERA、GIPS-III、MET-REMODEL 三個 IHD trials
+      事件數極少（總共 11 vs 8），CI 極寬，實質上無法提供資訊。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 class="b">Meta-analysis Conclusions（作者原文三點）</h2>
+    <p class="small">Across all available randomized placebo-controlled evidence in HFrEF or IHD:</p>
+    <div class="take">
+      <div class="item"><div class="n" style="background:var(--blue)">1</div><div class="tx">
+        <b>No cardiovascular benefit</b><br>
+        Metformin did not reduce major cardiovascular events or hospitalizations in HFrEF or IHD.</div></div>
+      <div class="item"><div class="n" style="background:var(--blue)">2</div><div class="tx">
+        <b>Metabolic effects without cardiovascular translation</b><br>
+        Metformin reduced HbA1c, body weight, and total cholesterol.</div></div>
+      <div class="item"><div class="n" style="background:var(--blue)">3</div><div class="tx">
+        <b>Clinical implication</b><br>
+        不支持 metformin 作為 HFrEF 或 IHD 的心血管治療，
+        <b>超出其既有的代謝適應症之外</b>（beyond its established metabolic indications）。</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISCUSSANT ============ -->
+<section id="s7">
+  <div class="card">
+    <h2>Discussant review｜Katharina Marx-Schuett (Germany)</h2>
+    <p class="small">討論人沒有反駁結論，而是提出三個「為什麼是 neutral」的可能解釋。
+      這部分對讀書會的討論價值最高。</p>
+  </div>
+
+  <div class="card">
+    <h2>① 族群風險太低：與其他 EF&lt;40% 試驗的 placebo 組比較</h2>
+    <table class="tbl">
+      <tr><th>Placebo subgroup</th><th>DAPA-HF</th><th>EMPEROR-Reduced</th><th>VICTORIA</th><th>DIGIT-HF</th><th>Met-HeFT</th></tr>
+      <tr><td>N</td><td>2371</td><td>1867</td><td>2524</td><td>599</td><td>465</td></tr>
+      <tr><td>Age, yr</td><td>66.5±10.8</td><td>66.5±11.2</td><td>67.2±12.2</td><td>65.8±11.4</td><td>70 (61–67)</td></tr>
+      <tr><td>BMI</td><td>28.1±5.9</td><td>27.8±5.3</td><td>27.9±6.1</td><td>28.9±6.7</td><td>N/A</td></tr>
+      <tr><td><span class="mark">LVEF (%)</span></td><td>30.9±6.9</td><td>27.2±6.1</td><td>28.8±8.3</td><td>28.9±6.7</td><td><b>35 (30–38)</b></td></tr>
+      <tr><td><span class="mark">NT-proBNP (pg/mL)</span></td><td>1446 (857–2641)</td><td>1926 (1153–3525)</td><td>2821</td><td>N/A</td><td><b>636 (307–1340)</b></td></tr>
+      <tr><td><span class="mark">NYHA III/IV (%)</span></td><td>32.7</td><td>25</td><td>40.6</td><td>70.3</td><td><b>5</b></td></tr>
+      <tr><td><span class="mark">Diabetes (%)</span></td><td>41.8</td><td>49.8</td><td>45.3</td><td>38.6</td><td><b>9</b></td></tr>
+      <tr><td>eGFR</td><td>65.5±19.3</td><td>62.2±21.5</td><td>61.7±27.3</td><td>65.2±23.7</td><td>70 (56–84)</td></tr>
+      <tr><td>Device (ICD+CRT, %)</td><td>33</td><td>43.7</td><td>42.5</td><td>85</td><td>51</td></tr>
+      <tr class="grp"><td colspan="6">Heart failure medication (%)</td></tr>
+      <tr><td>RAS inhibition</td><td>93.7</td><td>89.6</td><td>88.3</td><td>93.4</td><td>99</td></tr>
+      <tr><td>Beta-blocker</td><td>96.2</td><td>94.7</td><td>93</td><td>94.7</td><td>94</td></tr>
+      <tr><td>MRA</td><td>70.6</td><td>72.6</td><td>71.4</td><td>76.5</td><td>78</td></tr>
+      <tr class="tot"><td>Event rate<br>(% with HF event)</td><td>13.7<br>(FU 18.2 mo)</td><td>18.3<br>(FU 16 mo)</td><td>29.6<br>(FU 10.8 mo)</td><td>30.3<br>(FU 3 y)</td><td><b>11.8<br>(FU 3.7 y)</b></td></tr>
+    </table>
+    <div class="hl">
+      <b>這張表是整場最有殺傷力的一張。</b>Met-HeFT 的 placebo 組在 3.7 年只有 11.8% 發生 HF event，
+      而 VICTORIA 在 10.8 個月就有 29.6%。LVEF 最高（35% vs 27–31%）、NT-proBNP 最低（636 vs 1446–2821）、
+      NYHA III/IV 最少（5% vs 25–70%）、糖尿病比例最低（9% vs 39–50%）。
+      <b>在事件率這麼低的族群中，任何藥物都很難展現效益。</b>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>② 代謝效果是真的，只是沒有轉譯 — 但時間可能不夠</h2>
+    <p class="small">Key learning from the Meta-Analysis：HFrEF synthesis secondary outcomes</p>
+    <table class="tbl">
+      <tr><th>Outcome</th><th>Overall treatment effect</th><th>異質性</th></tr>
+      <tr><td>HbA1c (mmol/mol)</td><td><b>−1.8 (95% CI −2.4 to −1.3)</b>, P &lt; 0.001</td><td>I² = 0.0%</td></tr>
+      <tr><td>Weight (kg)</td><td><b>−2.2 (95% CI −2.9 to −1.4)</b>, P = 0.001</td><td>I² = 26.1%</td></tr>
+    </table>
+    <p class="small">各試驗貢獻：HbA1c — TAYSIDE −2.2、METRONOME −1.7、CARMET −3.3、Met-HeFT −1.6；
+      Weight — TAYSIDE −3.0、METRONOME −2.2、CARMET −1.2、Met-HeFT −2.3。</p>
+    <div class="hl info">
+      <b>討論人的論證：</b>metformin 降 HbA1c 與體重 → 這可以造成
+      <b>prediabetes remission</b>。而 prediabetes remission 已被證實與心血管預後改善相關：
+      合併 US DPPOS (n=2,402) 與中國大慶 DaQingDPOS (n=540) 的分析顯示，
+      達到 remission 者的 CV death 或 HF hospitalization
+      <b>HR 0.41 (95% CI 0.20–0.84), p=0.014</b>
+      （Vazquez Arreola E, et al. <i>Lancet Diabetes Endocrinol</i> 2025）。
+    </div>
+    <div class="hl warn">
+      <b>但要小心過度延伸：</b>DPPOS/DaQing 的曲線在<b>追蹤 10 年後才開始分離</b>，
+      而 Met-HeFT 平均追蹤 3.7 年。這是「時間尺度不匹配」的合理質疑 —
+      <b>但它仍是 hypothesis，不是 Met-HeFT 的結果</b>。
+      共筆中請明確標示這是討論人的推論，不可寫成 Met-HeFT 的發現。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>③ 為什麼心衰竭特別難：糖尿病族群的 HF 負擔沒有跟著下降</h2>
+    <p class="small">Standardized incidence rates for cardiovascular outcomes among individuals with T2D
+      and matched controls（Sattar N, et al. <i>Circulation</i> 2023;147）</p>
+    <table class="tbl">
+      <tr><th>Outcome（每 10,000 person-years）</th><th>2001–02 → 2017–19<br>糖尿病組</th><th>2001–02 → 2017–19<br>對照組</th><th>下降幅度</th></tr>
+      <tr><td>Coronary artery disease</td><td>205 → 80</td><td>107 → 37</td><td>−61%</td></tr>
+      <tr><td>Acute myocardial infarction</td><td>73 → 41</td><td>50 → 19</td><td>−44%</td></tr>
+      <tr><td>Cerebrovascular disease</td><td>83 → 46</td><td>66 → 27</td><td>−45%</td></tr>
+      <tr class="tot"><td>Heart failure</td><td>98 → 75</td><td>71 → 35</td><td><b>−23%（最小）</b></td></tr>
+    </table>
+    <div class="hl">
+      <b>訊息：</b>過去 20 年 T2D 病人的動脈硬化性事件大幅下降，
+      但<b>心衰竭的下降幅度最小、與對照組的差距最持久</b>。
+      這支持「HF 在糖尿病族群是一個相對獨立、未被現有代謝治療解決的問題」，
+      也解釋了為何單純的血糖／體重改善不足以改善 HF 預後。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>討論人的最終結論</h2>
+    <div class="hl info">
+      在 HFrEF 合併 T2D、prediabetes 或糖尿病高風險的病人，metformin 未降低複合終點的風險。
+      <b>These findings do not support adding metformin to improve cardiovascular outcomes in this population.</b>
+    </div>
+    <p class="small">討論人接受主要結論，但主張這不是「metformin 無用」的最終定論，
+      而是「在低風險 HFrEF 族群、3.7 年的時間尺度內、以代謝路徑改善心血管預後」這個特定假說未被支持。</p>
+  </div>
+</section>
+
+<!-- ============ 臨床解讀 ============ -->
+<section id="s8">
+  <div class="card">
+    <h2>臨床實務怎麼調整</h2>
+    <h3>✔ 這套證據支持的推論</h3>
+    <ul class="kv">
+      <li><b>不要</b>為了「治療心衰竭」或「改善心血管預後」而在 HFrEF / IHD 病人加開 metformin。</li>
+      <li>HFrEF 的減事件治療仍是 <b>ARNI/ACEI/ARB + beta-blocker + MRA + SGLT2i</b>，加上 device therapy。</li>
+      <li>Metformin 保留其<b>既有的代謝適應症</b>（血糖控制）— meta-analysis 的原文措辭就是
+        "beyond its established metabolic indications"。</li>
+      <li>安全性可接受（未見顯著危害訊號），但安全性不等於效益。</li>
+    </ul>
+
+    <h3>✘ 這套證據<b>不</b>支持的推論</h3>
+    <ul class="kv">
+      <li>不代表 T2D + HFrEF 的病人要<b>停掉</b> metformin — 停藥從未被檢驗，且本試驗只有 10% 是 T2D。</li>
+      <li>不代表 metformin 有害（所有 CI 都跨過 1）。</li>
+      <li>不能外推到 <b>HFpEF</b>（本試驗 LVEF ≤40%），也不能外推到<b>高風險／進階心衰竭</b>
+        （NYHA III/IV 僅 5%、NT-proBNP 中位數僅 636）。</li>
+      <li>不能斷言「prediabetes remission 對心血管無用」— 那是另一個假說，時間尺度不同。</li>
+    </ul>
+
+    <h3>讀書會可以討論的四個問題</h3>
+    <ul class="kv">
+      <li>觀察性資料顯示 20–25% 死亡率下降，RCT 卻是 HR 1.07、meta RR 1.05 —
+        這個落差還可以在哪些藥物上重演？（比較：HRT、vitamin E、beta-carotene）</li>
+      <li>當 trial 因經費提前結束（950 vs 計畫 1,100），我們該用什麼語言描述？
+        「neutral, underpowered for modest effects」比「no benefit」更精確。</li>
+      <li>「代謝改善但心血管無轉譯」— SGLT2i 剛好相反（心血管效益遠大於降糖效益）。
+        這對「代謝路徑 vs 直接心肌／腎臟路徑」的機轉思考有什麼啟示？</li>
+      <li>Met-HeFT 的 placebo 事件率只有 11.8%／3.7 年。
+        未來 HFrEF trial 的收案標準是否應強制設 NT-proBNP 門檻？</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>資料來源與查證</h2>
+    <ul class="ref">
+      <li>Met-HeFT 主要簡報：Henrik Wiggers, ESC Congress 2026, Munich（Hot Line, 2026/08/30）。</li>
+      <li>Meta-analysis：Anders Hostrup Larsen（Aarhus University Hospital &amp; Gødstrup Hospital），
+        on behalf of the DANHEART investigators；PROSPERO CRD420261400242。</li>
+      <li>Discussant review：Katharina Marx-Schuett（Germany）。</li>
+      <li>試驗設計原始論文：Wiggers H, et al. <i>Am Heart J</i>. 2021;231:137-146；
+        ClinicalTrials.gov NCT03514108。</li>
+      <li>討論人引用文獻：Vazquez Arreola E, et al. <i>Lancet Diabetes Endocrinol</i> 2025（DPPOS + DaQingDPOS）；
+        Sattar N, et al. <i>Circulation</i> 2023;147。</li>
+      <li>會後報導交叉比對（HR、事件率）：HCPLive, 2026/08/30。</li>
+    </ul>
+    <p class="small">本共筆以會場投影片為主要依據、會後報導為輔。
+      正式全文發表後應再核對 HR、95% CI、event rate、meta-analysis pooled estimate
+      與 CARMET 的樣本數。</p>
+  </div>
+</section>
+
+<!-- ============ QUIZ ============ -->
+<section id="s9">
+  <div class="card">
+    <h2>小測驗（7 題）</h2>
+    <div id="quiz"></div>
+    <p id="score" class="small"></p>
+  </div>
+</section>
+
+<footer>
+  <div class="sig">
+    讀書會共筆整理人<br>
+    謝慕揚 醫師 MD, PhD, FESC<br>
+    結構性心臟病與介入心臟學
+  </div>
+  <ul>
+    <li>本內容為讀書會共筆整理，未必涵蓋所有相關文獻</li>
+    <li>僅供學術與教育用途，不代表任何單位之官方立場</li>
+    <li>本內容未涉及任何利益衝突</li>
+  </ul>
+</footer>
+
+</div>
+
+<script>
+document.querySelectorAll('nav button').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('nav button').forEach(function(x){x.classList.remove('on')});
+    document.querySelectorAll('section').forEach(function(x){x.classList.remove('on')});
+    b.classList.add('on');
+    document.getElementById(b.dataset.t).classList.add('on');
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+});
+
+function drawForest(el,rows,lo,hi){
+  var L=Math.log(lo),H=Math.log(hi);
+  function pos(v){return Math.max(0,Math.min(100,(Math.log(v)-L)/(H-L)*100));}
+  document.getElementById(el).innerHTML=rows.map(function(r){
+    if(r[1]===null){
+      return '<div class="frow"><div>'+r[0]+'</div><div class="fbar">'+
+      '<div class="mid" style="left:'+pos(1)+'%"></div></div><div class="fval">—</div></div>';
+    }
+    var l=pos(r[2]),u=pos(r[3]),p=pos(r[1]);
+    return '<div class="frow'+(r[4]?' sum':'')+'"><div>'+r[0]+'</div>'+
+      '<div class="fbar"><div class="mid" style="left:'+pos(1)+'%"></div>'+
+      '<div class="ci" style="left:'+l+'%;width:'+Math.max(u-l,0.5)+'%"></div>'+
+      '<div class="pt" style="left:'+p+'%"></div></div>'+
+      '<div class="fval">'+r[1].toFixed(2)+' ('+r[2].toFixed(2)+'–'+r[3].toFixed(2)+')</div></div>';
+  }).join('');
+}
+
+drawForest('forest1',[
+ ['T2D: Yes',1.30,0.61,2.79],['T2D: No',1.06,0.80,1.40],
+ ['HOMA-IR &lt;med',0.97,0.66,1.44],['HOMA-IR ≥med',1.12,0.75,1.69],
+ ['BMI &lt;med',1.14,0.78,1.67],['BMI ≥med',1.07,0.75,1.53],
+ ['HbA1c &lt;med',1.32,0.89,1.95],['HbA1c ≥med',0.95,0.67,1.35],
+ ['HbA1c &lt;42',1.07,0.78,1.49],['HbA1c 42–47',1.01,0.60,1.72],['HbA1c ≥48',1.26,0.59,2.67]
+],0.25,4);
+
+drawForest('forest2',[
+ ['TAYSIDE 2012',null],
+ ['METRONOME 2019',2.57,0.11,59.30],
+ ['CARMET 2025',0.35,0.04,3.23],
+ ['Met-HeFT 2026',1.06,0.84,1.33],
+ ['Overall',1.05,0.83,1.32,true]
+],0.1,10);
+
+var Q=[
+ {q:'Met-HeFT 主要終點的結果方向是？',
+  o:['Positive：metformin 顯著降低事件','Neutral：未達統計顯著差異','Negative：metformin 顯著增加事件','因提前終止而無法判讀'],
+  a:1,e:'HR 1.10 (95% CI 0.85–1.42), P=0.48 — CI 跨過 1，屬 neutral trial。既非有效，也未證實有害。'},
+ {q:'HFrEF synthesis meta-analysis 中，Met-HeFT 佔多少權重？',
+  o:['約 25%','約 50%','約 75%','約 98%'],
+  a:3,e:'Met-HeFT 佔 98% 權重（119/475 vs 109/465）。其餘三個試驗事件數為個位數。Overall RR 1.05 (0.83–1.32), P=0.69, I²=0.0%。這個 meta-analysis 的功能是確認一致性，不是增加證據強度。'},
+ {q:'Meta-analysis 的第二個結論「Metabolic effects without cardiovascular translation」指的是？',
+  o:['metformin 對代謝也無效','metformin 降 HbA1c、體重、total cholesterol，但未減少心血管事件','代謝終點的結果有異質性','只有糖尿病病人有代謝效果'],
+  a:1,e:'HbA1c 整體 −1.8 mmol/mol (−2.4 to −1.3)、體重 −2.2 kg (−2.9 to −1.4)，且 diabetes status 無交互作用（P for interaction 0.275 / 0.358）。藥理作用真實存在，只是沒轉譯成臨床事件減少。'},
+ {q:'本試驗族群中，type 2 diabetes 的比例約為？',
+  o:['約 10%','約 43%','約 75%','100%'],
+  a:0,e:'T2D 僅 10%（48/475 與 42/465），prediabetes 佔 75%。HbA1c 中位數 40 mmol/mol、FPG 約 6.0 mmol/L — 是以 prediabetes / insulin resistance 為主的族群。'},
+ {q:'討論人比較 Met-HeFT 與 DAPA-HF / EMPEROR-Reduced / VICTORIA / DIGIT-HF 的 placebo 組，最主要的觀察是？',
+  o:['Met-HeFT 的 GDMT 使用率明顯偏低','Met-HeFT 的族群風險明顯最低（事件率 11.8%／3.7 年）','Met-HeFT 的追蹤時間最短','Met-HeFT 的年齡最年輕'],
+  a:1,e:'Met-HeFT placebo 組 LVEF 最高 (35%)、NT-proBNP 最低 (636)、NYHA III/IV 僅 5%、糖尿病僅 9%，3.7 年事件率 11.8%；VICTORIA 在 10.8 個月就有 29.6%。GDMT 使用率其實不低（RAS 99%、BB 94%、MRA 78%）。'},
+ {q:'關於 prediabetes remission 與心血管預後（HR 0.41, 95% CI 0.20–0.84）這筆資料，正確的描述是？',
+  o:['這是 Met-HeFT 的次要終點結果','這是 meta-analysis 的 pooled estimate','這是討論人引用的外部觀察性追蹤資料 (DPPOS + DaQingDPOS)，屬 hypothesis','這證明 metformin 可降低 CV death'],
+  a:2,e:'來自 Vazquez Arreola et al., Lancet Diabetes Endocrinol 2025，合併 US DPPOS (n=2402) 與大慶 DaQingDPOS (n=540)。曲線約 10 年後才分離，而 Met-HeFT 只追蹤 3.7 年。這是討論人的推論，不是 Met-HeFT 的發現。'},
+ {q:'根據這整套證據，臨床上最合理的做法是？',
+  o:['所有 HFrEF 病人停用 metformin','為心衰竭本身加開 metformin','不因心血管適應症加開 metformin；既有的代謝適應症（血糖控制）維持不變','改用 metformin 取代 SGLT2i'],
+  a:2,e:'Meta-analysis 原文結論即為「不支持 metformin 作為 HFrEF 或 IHD 的心血管治療，超出其既有代謝適應症之外」。停藥從未被檢驗，且本試驗只有 10% 是 T2D。'}
+];
+var right=0,answered=0;
+document.getElementById('quiz').innerHTML=Q.map(function(x,i){
+  return '<div class="q"><div class="stem">Q'+(i+1)+'. '+x.q+'</div>'+
+   x.o.map(function(o,j){return '<button class="opt" data-q="'+i+'" data-o="'+j+'">'+
+     String.fromCharCode(65+j)+'. '+o+'</button>';}).join('')+
+   '<div class="exp" id="e'+i+'"></div></div>';
+}).join('');
+document.querySelectorAll('.opt').forEach(function(b){
+  b.addEventListener('click',function(){
+    var i=+b.dataset.q,j=+b.dataset.o,ex=document.getElementById('e'+i);
+    if(ex.classList.contains('on'))return;
+    var ok=(j===Q[i].a); if(ok)right++; answered++;
+    b.classList.add(ok?'right':'wrong');
+    if(!ok){document.querySelectorAll('.opt[data-q="'+i+'"]')[Q[i].a].classList.add('right');}
+    ex.innerHTML='<b>'+(ok?'✅ 正確':'❌ 再看一次')+'</b><br>'+Q[i].e;
+    ex.classList.add('on');
+    document.getElementById('score').textContent='已作答 '+answered+' / '+Q.length+'，答對 '+right+' 題。';
+  });
+});
+</script>
+</body>
+</html>

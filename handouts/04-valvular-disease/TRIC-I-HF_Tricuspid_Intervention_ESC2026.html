@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRIC-I-HF-DZHK24 讀書會共筆 | ESC 2026 Munich</title>
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87; --accent:#c0392b;
+  --success:#27ae60; --warning:#f39c12; --bg:#faf8f5; --card:#ffffff;
+  --text:#2c3e50; --muted:#7f8c8d; --border:#e6ebef; --shadow:0 4px 20px rgba(0,0,0,.08);
+  --device:#2778a8; --control:#8d9499;
+}
+html.dark{
+  --bg:#12182a; --card:#1b2437; --text:#e9edf2; --muted:#9aa7b5;
+  --border:#2d3748; --shadow:0 4px 20px rgba(0,0,0,.35); --primary:#7fb3d9; --primary-light:#a8cbe6;
+  --accent:#ef6a5a;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.75;font-size:15px;
+  -webkit-text-size-adjust:100%}
+.app{max-width:820px;margin:0 auto;padding:0 14px 60px;position:relative}
+header{padding:20px 0 12px}
+.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:600}
+h1{font-size:22px;margin:6px 0 2px;line-height:1.35;color:var(--primary)}
+h1 small{display:block;font-size:16px;font-weight:500;margin-top:2px}
+.sub{font-size:13px;color:var(--muted);margin:2px 0}
+.themetog{position:absolute;top:16px;right:12px;background:var(--card);border:1px solid var(--border);
+  border-radius:999px;width:44px;height:44px;font-size:18px;cursor:pointer;color:var(--text)}
+nav{position:sticky;top:0;z-index:20;background:var(--bg);display:flex;gap:6px;
+  overflow-x:auto;padding:10px 0;border-bottom:1px solid var(--border);scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;min-height:44px;padding:9px 14px;border-radius:999px;border:1px solid var(--border);
+  background:var(--card);color:var(--muted);font-size:14px;font-weight:500;cursor:pointer;
+  white-space:nowrap;font-family:inherit}
+.tab.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+html.dark .tab.on{color:#0f1626}
+section[hidden]{display:none}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;
+  margin:14px 0;box-shadow:var(--shadow)}
+.card h2{font-size:17px;margin:0 0 10px;color:var(--primary)}
+.card h3{font-size:15px;margin:18px 0 6px}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;
+  background:rgba(39,174,96,.14);color:var(--success);vertical-align:middle;margin-left:6px}
+ul{padding-left:20px;margin:8px 0}
+li{margin:6px 0}
+ul ul{margin:4px 0}
+p{margin:8px 0}
+.kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:14px 0 4px}
+.kpi div{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px;text-align:center}
+.kpi .v{font-size:22px;font-weight:700;color:var(--accent);line-height:1.2}
+.kpi .ci{font-size:11px;color:var(--muted)}
+.kpi .l{font-size:12px;color:var(--muted);margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0}
+th,td{padding:8px 6px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12.5px}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.hi{color:var(--accent);font-weight:600}
+.bar{margin:10px 0}
+.bar b{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;font-weight:400}
+.bar b i{font-style:normal;font-weight:600}
+.track{background:var(--border);border-radius:6px;height:22px;overflow:hidden}
+.fill{height:100%;border-radius:6px}
+.stat{text-align:center;font-weight:700;color:var(--accent);margin:12px 0 4px;font-size:16px}
+.small{font-size:12.5px;color:var(--muted)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:8px 0}
+.legend span i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;
+  vertical-align:-1px;font-style:normal}
+.stack{display:flex;height:150px;gap:4px;align-items:flex-end;margin-top:10px}
+.col{flex:1;display:flex;flex-direction:column-reverse;height:100%;border-radius:4px;overflow:hidden}
+.col span{display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;font-weight:600}
+.slab{display:flex;gap:4px;margin-top:6px}
+.slab div{flex:1;text-align:center;font-size:11px;color:var(--muted);line-height:1.35}
+.q{border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;
+  padding:11px 13px;margin:10px 0;background:var(--bg)}
+.q b{color:var(--accent);display:block;font-size:13px;margin-bottom:3px}
+.note{background:rgba(243,156,18,.1);border-left:4px solid var(--warning);padding:11px 13px;
+  border-radius:0 10px 10px 0;font-size:13.5px;margin:12px 0}
+html.dark .note{background:rgba(243,156,18,.08)}
+.opt{display:block;width:100%;text-align:left;min-height:48px;padding:12px 14px;margin:8px 0;
+  border-radius:10px;border:1px solid var(--border);background:var(--bg);color:var(--text);
+  font-size:15px;font-family:inherit;cursor:pointer;line-height:1.5}
+.opt.correct{border-color:var(--success);background:rgba(39,174,96,.13)}
+.opt.wrong{border-color:var(--accent);background:rgba(192,57,43,.11)}
+.opt:disabled{cursor:default}
+.prog{height:6px;background:var(--border);border-radius:99px;overflow:hidden;margin-bottom:12px}
+.prog i{display:block;height:100%;background:var(--primary-light);transition:width .3s}
+.btn{min-height:48px;padding:12px 22px;border-radius:10px;border:none;background:var(--primary);
+  color:#fff;font-size:15px;font-weight:600;font-family:inherit;cursor:pointer;margin-top:12px}
+html.dark .btn{color:#0f1626}
+.exp{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px;margin-top:12px;font-size:14px}
+footer{border-top:1px solid var(--border);margin-top:26px;padding:18px 0;font-size:12.5px;color:var(--muted)}
+footer b{color:var(--text);display:block;font-size:13.5px}
+.ref{font-size:12px;color:var(--muted);margin-top:10px;line-height:1.7}
+@media(min-width:560px){.kpi{grid-template-columns:repeat(4,1fr)}}
+@media print{
+  nav,.themetog,.btn{display:none!important}
+  section[hidden]{display:block!important}
+  .card{break-inside:avoid;box-shadow:none}
+  body{background:#fff}
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+<button class="themetog" id="themetog" aria-label="切換深色模式">&#9790;</button>
+
+<header>
+  <div class="eyebrow">ESC CONGRESS 2026 &middot; MUNICH &middot; HOT LINE</div>
+  <h1>TRIC-I-HF-DZHK24
+    <small>Transcatheter Tricuspid Intervention in Heart Failure</small></h1>
+  <p class="sub">報告：J&ouml;rg Hausleiter (LMU M&uuml;nchen)　&middot;　Discussant：Rebecca Hahn (USA)</p>
+  <p class="sub">結構性心臟病與介入心臟學 &middot; 讀書會共筆</p>
+</header>
+
+<nav id="nav">
+  <button class="tab on" data-t="home">重點摘要</button>
+  <button class="tab" data-t="design">試驗設計</button>
+  <button class="tab" data-t="result">結果數據</button>
+  <button class="tab" data-t="disc">討論與解讀</button>
+  <button class="tab" data-t="clin">臨床應用</button>
+  <button class="tab" data-t="quiz">自我測驗</button>
+</nav>
+
+<!-- ===================== 重點摘要 ===================== -->
+<section id="home">
+  <div class="card">
+    <h2>Take Home Message <span class="pill">POSITIVE TRIAL</span></h2>
+    <ul>
+      <li><b>兩個 co-primary endpoints 都達標。</b>第一主要終點 hierarchical win ratio
+        <span class="hi">2.42 (95% CI 1.76&ndash;3.33), P &lt; 0.0001</span>；第二主要終點 all-cause mortality 或 HFH
+        亦顯著優於單純藥物治療。</li>
+      <li><b>這是 TR 領域第一個看到 hard endpoint 訊號的隨機試驗。</b>過去 TRILUMINATE Pivotal 與 Tri.Fr
+        只證明 QoL 改善，死亡與 HFH 無差異；TRIC-I-HF 的關鍵差別在於
+        <span class="hi">刻意挑選「已有右心衰竭表現」的高事件率族群</span>。</li>
+      <li><b>驅動力主要來自 HFH。</b>Win ratio 拆解：HFH 貢獻 22.0 個百分點、KCCQ 8.0、mortality 4.1。
+        HFH-free survival <span class="hi">HR 0.35 (0.25&ndash;0.51), P &lt; 0.0001</span>。</li>
+      <li><b>死亡率獲益方向一致，但屬 secondary endpoint</b>：HR 0.62 (0.40&ndash;0.96), P = 0.027，
+        曲線在 1 年後才明顯分開，3 年時 at risk 僅 32 vs 12&mdash;&mdash;不宜過度解讀。</li>
+      <li><b>安全性佳</b>：30 天任何主要不良事件 5.9%，死亡 0.4%，無 device embolization、無 MCS 使用。</li>
+    </ul>
+    <div class="kpi">
+      <div><div class="v">2.42</div><div class="ci">1.76&ndash;3.33</div><div class="l">Win Ratio<br>1st primary</div></div>
+      <div><div class="v">0.35</div><div class="ci">0.25&ndash;0.51</div><div class="l">HR，HF 住院</div></div>
+      <div><div class="v">0.62</div><div class="ci">0.40&ndash;0.96</div><div class="l">HR，全因死亡</div></div>
+      <div><div class="v">5.9%</div><div class="ci">14/237</div><div class="l">30 天 MAE</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>一句話總結</h2>
+    <p>在<b>已有右心衰竭表現（HFH 病史／cardio-renal／cardio-hepatic syndrome）</b>的 severe TR 病人，
+      於最佳藥物治療之上加做 transcatheter tricuspid repair（實務上 98.3% 為 T-TEER），
+      可同時改善生活品質並降低 hard clinical events。
+      <b>族群選擇（patient selection）是本試驗與前代試驗結果分歧的最關鍵變數。</b></p>
+    <div class="note"><b>共筆註記：</b>本教材數據來自 ESC Congress 2026 Munich Hot Line 現場投影片
+      （J&ouml;rg Hausleiter 報告、Rebecca Hahn discussant）。完整結果論文發表後，
+      應再核對 HR、95% CI 與 P value。設計論文：Stocker TJ, et al.
+      <i>Eur J Heart Fail</i> 2025;27:1895&ndash;1904（NCT04634266）。</div>
+  </div>
+</section>
+
+<!-- ===================== 試驗設計 ===================== -->
+<section id="design" hidden>
+  <div class="card">
+    <h2>試驗設計 (Trial Design)</h2>
+    <table>
+      <tr><th>試驗性質</th><td>Investigator-initiated、prospective、multicenter、<b>open-label</b>、randomized controlled <b>strategy trial</b></td></tr>
+      <tr><th>場域</th><td>德國 29 家 high-volume heart valve centers（收案前平均已累積 176 例 T-TEER／4.5 年）</td></tr>
+      <tr><th>介入</th><td>TTVI（任何 CE-marked tricuspid repair device）+ OMT　vs　OMT alone</td></tr>
+      <tr><th>裝置選擇</th><td>由 local Heart Team 決定，不綁定單一廠牌</td></tr>
+      <tr><th>隨機分派</th><td><b>2:1</b> 偏向 tricuspid repair（N = 360；237 vs 123）</td></tr>
+      <tr><th>追蹤</th><td>30 天（safety）／1 年（primary）／2 年／3 年（final）；mean FU 1.6 年</td></tr>
+      <tr><th>收案期間</th><td>2022 年 3 月 &ndash; 2025 年 6 月</td></tr>
+    </table>
+    <h3>Primary endpoints（階層式檢定）</h3>
+    <ul>
+      <li><b>1st：</b>12 個月 hierarchical composite &mdash; all-cause mortality → HFH → QoL (KCCQ) improvement，以 win ratio 分析</li>
+      <li><b>2nd：</b>若第一項 positive，再檢定 time to all-cause mortality or HFH</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>主要收案條件 (Main Inclusion Criteria)</h2>
+    <ul>
+      <li>有症狀且至少 <b>severe TR</b></li>
+      <li>穩定藥物治療（含利尿劑）<b>&ge; 30 天</b></li>
+      <li><b>Advanced risk for future HF events</b>（下列至少一項）：
+        <ul>
+          <li>過去 12 個月內 <b>heart failure hospitalization</b></li>
+          <li><b>Cardio-renal syndrome</b>：eGFR &lt; 60 mL/min/1.73 m&sup2;</li>
+          <li><b>Cardio-hepatic syndrome</b>：至少 2 項 cholestasis marker 上升（bilirubin、alkaline phosphatase、&gamma;-GT）</li>
+        </ul>
+      </li>
+      <li>解剖條件適合 transcatheter tricuspid repair</li>
+      <li><b>排除</b> severe 或 pre-capillary pulmonary hypertension（以 RHC 評估）</li>
+    </ul>
+    <div class="note">這三條「進展期」條件就是 TRIC-I-HF 與 TRILUMINATE Pivotal / Tri.Fr 最大的分野。
+      前代試驗只要求「有症狀」，1 年死亡率分別僅 8.6% 與 3.4%，事件數太少，本來就難以測到 hard endpoint 差異。</div>
+  </div>
+
+  <div class="card">
+    <h2>Cross-over 規則（很重要）</h2>
+    <p>為了讓病人在「裝置已商品化」的環境下仍願意被隨機分派，設計上允許 medical therapy 組跨組，
+      但條件嚴格&mdash;&mdash;<b>必須全部符合</b>：</p>
+    <ul>
+      <li>距隨機分派 <b>&ge; 30 天</b></li>
+      <li>發生 <b>heart failure decompensation 且導致住院</b></li>
+      <li>該次住院期間有 <b>IV diuretic</b> 治療</li>
+    </ul>
+    <p>換言之，<b>病人必須先「撞到」一個試驗終點才能跨組</b>；cross-over 手術本身的住院不另計為 endpoint。分析採 ITT。</p>
+  </div>
+
+  <div class="card">
+    <h2>Flow Chart</h2>
+    <table>
+      <tr><th>收案</th><td>360 patients</td></tr>
+      <tr><th>Tricuspid Repair</th><td>237（ITT 237）<br>
+        231 實際接受 TTVI：227 T-TEER、3 annuloplasty (Cardioband)、1 other (TTVR, protocol deviation)；
+        6 未接受介入；1 人撤回同意</td></tr>
+      <tr><th>Medical Therapy</th><td>123（ITT 123）；4 人撤回同意</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Baseline 藥物治療（兩組平衡）</h2>
+    <table>
+      <tr><th>藥物</th><th class="n">Repair (n=237)</th><th class="n">Medical (n=123)</th></tr>
+      <tr><td class="hi">Loop diuretic</td><td class="n">93.2%</td><td class="n">95.9%</td></tr>
+      <tr><td>Thiazide diuretic</td><td class="n">15.2%</td><td class="n">17.9%</td></tr>
+      <tr><td class="hi">MRA</td><td class="n">43.5%</td><td class="n">42.3%</td></tr>
+      <tr><td>RAS inhibitor</td><td class="n">68.8%</td><td class="n">65.0%</td></tr>
+      <tr><td>Beta-blocker</td><td class="n">89.0%</td><td class="n">86.2%</td></tr>
+      <tr><td class="hi">SGLT2i</td><td class="n">52.7%</td><td class="n">51.2%</td></tr>
+    </table>
+    <p class="small">兩組基礎藥物相當，但以 2026 年標準看，<b>MRA 43% 與 SGLT2i 52% 仍有優化空間</b>&mdash;&mdash;
+      這也是 Hahn 提出「是否還有藥物治療角色」的立論基礎之一。</p>
+  </div>
+</section>
+
+<!-- ===================== 結果數據 ===================== -->
+<section id="result" hidden>
+  <div class="card">
+    <h2>1st Primary Endpoint：Win Ratio 分析</h2>
+    <p class="small">29,151 個 patient pairs，依 mortality → HFH → KCCQ 順序階層比較。</p>
+    <table>
+      <tr><th>層級</th><th class="n">Repair 勝</th><th class="n">平手</th><th class="n">Medical 勝</th><th class="n">差距</th></tr>
+      <tr><td>Mortality</td><td class="n">15.0%</td><td class="n">74.2%</td><td class="n">10.9%</td><td class="n hi">+4.1</td></tr>
+      <tr><td>HF hospitalization</td><td class="n">31.8%</td><td class="n">43.7%</td><td class="n">9.8%</td><td class="n hi">+22.0</td></tr>
+      <tr><td>KCCQ improvement</td><td class="n">11.2%</td><td class="n">55.6%</td><td class="n">3.2%</td><td class="n hi">+8.0</td></tr>
+      <tr><td><b>Total wins</b></td><td class="n"><b>58.0%</b></td><td class="n">&mdash;</td><td class="n"><b>23.9%</b></td><td class="n hi"><b>+34.1</b></td></tr>
+    </table>
+    <p class="stat">Win Ratio 2.42 (95% CI 1.76&ndash;3.33)　P &lt; 0.0001</p>
+    <div class="note"><b>判讀重點：</b>TRILUMINATE Pivotal 的 win ratio 1.48 幾乎完全由 KCCQ 撐起；
+      TRIC-I-HF 的 2.42 <b>主要由 HFH 驅動（22.0 個百分點）</b>，死亡也貢獻正向 4.1 個百分點&mdash;&mdash;這是本質差異。</div>
+  </div>
+
+  <div class="card">
+    <h2>2nd Primary Endpoint：Mortality or HFH</h2>
+    <p class="small">Event-free survival（mean FU 1.6 年）</p>
+    <div class="bar"><b>1 年 &mdash; Tricuspid Repair <i style="color:var(--device)">73.9%</i></b>
+      <div class="track"><div class="fill" style="width:73.9%;background:var(--device)"></div></div></div>
+    <div class="bar"><b>1 年 &mdash; Medical Therapy <i style="color:var(--control)">48.4%</i></b>
+      <div class="track"><div class="fill" style="width:48.4%;background:var(--control)"></div></div></div>
+    <div class="bar"><b>3 年 &mdash; Tricuspid Repair <i style="color:var(--device)">52.4%</i></b>
+      <div class="track"><div class="fill" style="width:52.4%;background:var(--device)"></div></div></div>
+    <div class="bar"><b>3 年 &mdash; Medical Therapy <i style="color:var(--control)">21.0%</i></b>
+      <div class="track"><div class="fill" style="width:21%;background:var(--control)"></div></div></div>
+    <p class="small">Number at risk（0 / 365 / 730 / 1095 天）：Repair 237 → 152 → 86 → 23；Medical 123 → 52 → 24 → 5</p>
+  </div>
+
+  <div class="card">
+    <h2>Secondary：All-Cause Mortality</h2>
+    <div class="bar"><b>1 年 &mdash; Tricuspid Repair <i style="color:var(--device)">86.5%</i></b>
+      <div class="track"><div class="fill" style="width:86.5%;background:var(--device)"></div></div></div>
+    <div class="bar"><b>1 年 &mdash; Medical Therapy <i style="color:var(--control)">82.5%</i></b>
+      <div class="track"><div class="fill" style="width:82.5%;background:var(--control)"></div></div></div>
+    <div class="bar"><b>3 年 &mdash; Tricuspid Repair <i style="color:var(--device)">72.3%</i></b>
+      <div class="track"><div class="fill" style="width:72.3%;background:var(--device)"></div></div></div>
+    <div class="bar"><b>3 年 &mdash; Medical Therapy <i style="color:var(--control)">53.9%</i></b>
+      <div class="track"><div class="fill" style="width:53.9%;background:var(--control)"></div></div></div>
+    <p class="stat">HR 0.62 (95% CI 0.40&ndash;0.96)　P = 0.027</p>
+    <p class="small">At risk：Repair 237 → 178 → 102 → 32；Medical 123 → 85 → 47 → 12。
+      <b>1 年時兩組僅差 4 個百分點</b>，曲線在第 2&ndash;3 年才明顯分離。</p>
+  </div>
+
+  <div class="card">
+    <h2>Secondary：HF Hospitalization</h2>
+    <div class="bar"><b>1 年 &mdash; Tricuspid Repair <i style="color:var(--device)">79.6%</i></b>
+      <div class="track"><div class="fill" style="width:79.6%;background:var(--device)"></div></div></div>
+    <div class="bar"><b>1 年 &mdash; Medical Therapy <i style="color:var(--control)">51.3%</i></b>
+      <div class="track"><div class="fill" style="width:51.3%;background:var(--control)"></div></div></div>
+    <div class="bar"><b>3 年 &mdash; Tricuspid Repair <i style="color:var(--device)">62.4%</i></b>
+      <div class="track"><div class="fill" style="width:62.4%;background:var(--device)"></div></div></div>
+    <div class="bar"><b>3 年 &mdash; Medical Therapy <i style="color:var(--control)">31.0%</i></b>
+      <div class="track"><div class="fill" style="width:31%;background:var(--control)"></div></div></div>
+    <p class="stat">HR 0.35 (95% CI 0.25&ndash;0.51)　P &lt; 0.0001</p>
+    <p class="small">HFH-free survival；效果<b>早期即出現且持續分離</b>，是本試驗最穩健的訊號。</p>
+  </div>
+
+  <div class="card">
+    <h2>Secondary：Echocardiographic TR Severity</h2>
+    <div class="legend">
+      <span><i style="background:#a52121"></i>torrential</span>
+      <span><i style="background:#e74c3c"></i>massive</span>
+      <span><i style="background:#f0a30a"></i>severe</span>
+      <span><i style="background:#7dc67d"></i>moderate</span>
+      <span><i style="background:#1e9e57"></i>&le; mild</span>
+    </div>
+
+    <h3>Tricuspid Repair</h3>
+    <div class="stack">
+      <div class="col">
+        <span style="height:1.6%;background:#1e9e57"></span>
+        <span style="height:3.5%;background:#7dc67d"></span>
+        <span style="height:50.2%;background:#f0a30a">50.2%</span>
+        <span style="height:34.2%;background:#e74c3c">34.2%</span>
+        <span style="height:10.5%;background:#a52121">10.5%</span>
+      </div>
+      <div class="col">
+        <span style="height:53.6%;background:#1e9e57">53.6%</span>
+        <span style="height:16.7%;background:#7dc67d">16.7%</span>
+        <span style="height:27.6%;background:#f0a30a">27.6%</span>
+        <span style="height:2.1%;background:#e74c3c"></span>
+      </div>
+      <div class="col">
+        <span style="height:56.3%;background:#1e9e57">56.3%</span>
+        <span style="height:21.5%;background:#7dc67d">21.5%</span>
+        <span style="height:20.9%;background:#f0a30a">20.9%</span>
+        <span style="height:1.3%;background:#e74c3c"></span>
+      </div>
+    </div>
+    <div class="slab"><div>Baseline<br>(237 pts)</div><div>1 month<br>(192 pts)</div><div>1 year<br>(158 pts)</div></div>
+
+    <h3>Medical Therapy</h3>
+    <div class="stack">
+      <div class="col">
+        <span style="height:1.6%;background:#1e9e57"></span>
+        <span style="height:2.5%;background:#7dc67d"></span>
+        <span style="height:52.0%;background:#f0a30a">52.0%</span>
+        <span style="height:34.1%;background:#e74c3c">34.1%</span>
+        <span style="height:9.8%;background:#a52121">9.8%</span>
+      </div>
+      <div class="col">
+        <span style="height:8.2%;background:#1e9e57"></span>
+        <span style="height:21.4%;background:#7dc67d">21.4%</span>
+        <span style="height:48.0%;background:#f0a30a">48.0%</span>
+        <span style="height:19.4%;background:#e74c3c">19.4%</span>
+      </div>
+      <div class="col">
+        <span style="height:19.2%;background:#1e9e57">19.2%</span>
+        <span style="height:15.4%;background:#7dc67d">15.4%</span>
+        <span style="height:46.2%;background:#f0a30a">46.2%</span>
+        <span style="height:14.1%;background:#e74c3c">14.1%</span>
+      </div>
+    </div>
+    <div class="slab"><div>Baseline<br>(123 pts)</div><div>1 month<br>(98 pts)</div><div>1 year<br>(78 pts)</div></div>
+
+    <div class="note"><b>三個必須注意的現象：</b><br>
+      &#9312; Repair 組 1 年時 &le;mild 達 56.3%，但仍有 20.9% 停留在 severe&mdash;&mdash;
+      <b>residual TR 的預後意義是後續分析重點</b>。<br>
+      &#9313; <b>Medical therapy 組也有明顯自發回歸</b>：1 年時 &le;mild 19.2%、moderate 15.4%。這正是 Hahn 的 Question 2。<br>
+      &#9314; 追蹤 echo 的樣本流失（158/237、78/123）本身帶有存活者偏差，判讀百分比時要留意分母。</div>
+  </div>
+
+  <div class="card">
+    <h2>Procedural Characteristics（N = 237）</h2>
+    <table>
+      <tr><td>實際接受 TTVI</td><td class="n">231 (97.5%)</td></tr>
+      <tr><td class="hi">T-TEER</td><td class="n hi">98.3%</td></tr>
+      <tr><td>Transcatheter annuloplasty</td><td class="n">1.3%</td></tr>
+      <tr><td>Other</td><td class="n">0.4%</td></tr>
+      <tr><td class="hi">PASCAL</td><td class="n hi">65.6%</td></tr>
+      <tr><td>TriClip</td><td class="n">33.0%</td></tr>
+      <tr><td>No device implantation</td><td class="n">1.3%</td></tr>
+      <tr><td>1 device strategy</td><td class="n">28.6%</td></tr>
+      <tr><td class="hi">2 device strategy</td><td class="n hi">62.0%</td></tr>
+      <tr><td>&ge;3 device strategy</td><td class="n">9.4%</td></tr>
+    </table>
+    <p>對做 TEER 的人最實用的一點：<b>超過 70% 的病人用了 &ge;2 個 device</b>。
+      三尖瓣不是「一個 clip 解決」的瓣膜，術前的器材與時間規劃要照這個比例準備。</p>
+  </div>
+
+  <div class="card">
+    <h2>30-Day Safety Events</h2>
+    <table>
+      <tr><td>All-cause mortality</td><td class="n">1 (0.4%)</td></tr>
+      <tr><td>Major bleeding</td><td class="n">6 (2.5%)</td></tr>
+      <tr><td>Mechanical circulatory support</td><td class="n">0 (0.0%)</td></tr>
+      <tr><td>Device embolization</td><td class="n">0 (0.0%)</td></tr>
+      <tr><td>Single leaflet device attachment</td><td class="n">4 (1.7%)</td></tr>
+      <tr><td>Tricuspid valve reintervention</td><td class="n">2 (0.8%)</td></tr>
+      <tr><td>Tricuspid valve surgery</td><td class="n">1 (0.4%)</td></tr>
+      <tr><td>New pacemaker implantation</td><td class="n">1 (0.4%)</td></tr>
+      <tr><td>New onset of renal failure</td><td class="n">4 (1.7%)</td></tr>
+      <tr><td class="hi"><b>Any major adverse event</b></td><td class="n hi"><b>14 (5.9%)</b></td></tr>
+    </table>
+    <p>在這種 advanced HF 族群裡，5.9% 的 30 天 MAE 相當可接受；但別忘了這是
+      <b>德國 29 家高量中心</b>的成績，不能直接外推到起步階段的團隊。</p>
+  </div>
+</section>
+
+<!-- ===================== 討論與解讀 ===================== -->
+<section id="disc" hidden>
+  <div class="card">
+    <h2>Discussant 觀點：Rebecca Hahn (USA)</h2>
+    <p>Hahn 對本試驗的定位是「landmark study」&mdash;&mdash;第一次證明
+      <b>TR reduction 可以轉譯為 mortality 與 HFH 的獲益</b>。她整理的四項設計優點：</p>
+    <ul>
+      <li>族群以 advanced disease 條件加以 enrich</li>
+      <li>要求 experienced site，且裝置由 Heart Team 選擇</li>
+      <li>Co-primary outcomes 確認 hard outcomes，追蹤達 3 年</li>
+      <li>Cross-over 僅允許在 30 天後、且已達到試驗終點時</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>NYHA I/II @ 1 年：三個試驗對照</h2>
+    <div class="bar"><b>TRILUMINATE Pivotal &mdash; device <i style="color:#1f6f9e">84%</i></b>
+      <div class="track"><div class="fill" style="width:84%;background:#1f6f9e"></div></div></div>
+    <div class="bar"><b>TRILUMINATE Pivotal &mdash; control <i style="color:var(--control)">60%</i></b>
+      <div class="track"><div class="fill" style="width:60%;background:var(--control)"></div></div></div>
+    <div class="bar"><b>TRISCEND II &mdash; device <i style="color:#12817e">84.5%</i></b>
+      <div class="track"><div class="fill" style="width:84.5%;background:#12817e"></div></div></div>
+    <div class="bar"><b>TRISCEND II &mdash; control <i style="color:var(--control)">40%</i></b>
+      <div class="track"><div class="fill" style="width:40%;background:var(--control)"></div></div></div>
+    <div class="bar"><b>TRIC-I-HF &mdash; device <i style="color:var(--accent)">73%</i></b>
+      <div class="track"><div class="fill" style="width:73%;background:var(--accent)"></div></div></div>
+    <div class="bar"><b>TRIC-I-HF &mdash; control <i style="color:var(--control)">57%</i></b>
+      <div class="track"><div class="fill" style="width:57%;background:var(--control)"></div></div></div>
+    <div class="note">TRIC-I-HF 的 T-TEER 組 NYHA I/II 只有 73%，<b>症狀改善幅度明顯不如前兩個試驗</b>，
+      且現場<b>未報告 KCCQ change</b>。Hahn 由此提問：這群病人是不是「太晚了」，
+      症狀與 QoL 的獲益反而要看比較早期／低風險的族群？</div>
+    <p class="ref">Sorajja P, et al. N Engl J Med. 2023 May 18;388(20):1833-1842.　
+      Hahn RT, et al. N Engl J Med. 2025 Jan 9;392(2):115-126.</p>
+  </div>
+
+  <div class="card">
+    <h2>Hahn 的四個問題</h2>
+    <div class="q"><b>Question 1</b>假設 cross-over 病人「豐富化」了 HFH 的獲益，
+      若只比較 T-TEER 與<b>未跨組</b>的病人，結果會相同嗎？沒跨組的是哪些人？watchful waiting 是否合理？</div>
+    <div class="q"><b>Question 2</b>控制組有相當比例的 TR 自發回歸，那麼在 advanced HF + TR 的病人身上，
+      <b>藥物治療</b>是否仍有一席之地？</div>
+    <div class="q"><b>Question 3</b>T-TEER 後 NYHA I/II 比例偏低，TRIC-I-HF 的病人是否
+      <b>已進展到無法獲得症狀改善</b>的階段？低風險族群才是症狀與 QoL 獲益的目標嗎？</div>
+    <div class="q"><b>Question 4</b>隨著 baseline 或 residual TR 嚴重度增加，<b>獲益是否會被衰減</b>？</div>
+    <p>她也強調：依 etiology、共病、right heart remodeling 程度做 subgroup analysis，
+      才能回答「誰治療、何時治療、怎麼治療」。</p>
+  </div>
+
+  <div class="card">
+    <h2>共筆整理人的批判性解讀</h2>
+    <p><b>試驗方向：POSITIVE</b>（兩個 co-primary 皆達標）。但下列幾點在引用時要一併說明：</p>
+    <ul>
+      <li><b>Open-label、無 sham。</b>KCCQ 與 NYHA 是主觀終點，必然帶有 placebo 與 expectation bias；
+        HFH 的判定也會受「知道自己有無接受手術」影響（住院門檻不同）。死亡是唯一完全不受影響的終點。</li>
+      <li><b>死亡率是 secondary endpoint。</b>HR 0.62 的 95% CI 上界 0.96 已相當貼近 1，
+        且 3 年時 at risk 只剩 32 vs 12，尾端曲線的落差建立在極少數事件上。
+        <b>正確說法是「死亡率呈現一致的有利趨勢」，而非「證實可降低死亡率」。</b></li>
+      <li><b>Cross-over 的方向性。</b>只允許 OMT → repair，且必須先發生 HFH。
+        ITT 下不會造假 HFH 的差異（跨組前的事件已計入），但會使控制組後段的死亡率被「治療」修飾，
+        理論上<b>低估</b>長期死亡差異；Hahn 則提醒也可能反向豐富化效果&mdash;&mdash;
+        需 per-protocol 與 non-crossover 分析才能釐清。</li>
+      <li><b>族群限定。</b>排除 severe 或 pre-capillary PH（RHC 評估）。臨床上很多 severe TR 病人正卡在這一條，
+        <b>本試驗結果不能外推到高 PVR 病人</b>。</li>
+      <li><b>術者經驗。</b>29 家德國高量中心、術前平均 176 例經驗、70% 以上使用 &ge;2 個 device。
+        5.9% MAE 是「最佳狀態」的數字。</li>
+      <li><b>Echo 追蹤流失</b>（1 年 158/237、78/123）使 TR 嚴重度百分比的解讀需保守。</li>
+    </ul>
+    <div class="note"><b>臨床操作面的一句話：</b>TRIC-I-HF 把 TTVI 的證據從「症狀治療」推向「改變病程」，
+      但同時也定義了一個相當窄的適用族群&mdash;&mdash;
+      <b>severe TR + 已顯現的右心衰竭 + 沒有 severe/pre-capillary PH + 解剖適合</b>。
+      離開這個框架，證據強度立刻下降。</div>
+  </div>
+</section>
+
+<!-- ===================== 臨床應用 ===================== -->
+<section id="clin" hidden>
+  <div class="card">
+    <h2>三個 TR 隨機試驗放在一起看</h2>
+    <table>
+      <tr><th></th><th>TRILUMINATE Pivotal</th><th>Tri.Fr</th><th class="hi">TRIC-I-HF</th></tr>
+      <tr><th>族群</th><td>有症狀 severe TR</td><td>有症狀 severe TR</td><td class="hi">severe TR + 進展期右心衰竭條件</td></tr>
+      <tr><th>1 年死亡率<br>（族群脈絡）</th><td>約 8.6%</td><td>約 3.4%</td><td class="hi">事件率明顯較高</td></tr>
+      <tr><th>Win ratio</th><td>1.48 (1.06&ndash;2.13)</td><td>QoL 為主要終點</td><td class="hi">2.42 (1.76&ndash;3.33)</td></tr>
+      <tr><th>驅動來源</th><td>幾乎全由 KCCQ</td><td>QoL</td><td class="hi">HFH 為主 + mortality</td></tr>
+      <tr><th>Hard endpoint</th><td>無差異</td><td>無差異</td><td class="hi">達標</td></tr>
+    </table>
+    <p>同一個手術、不同的病人，得到完全不同的結論。
+      <b>「治療的是瓣膜，決定結果的是病程階段」</b>&mdash;&mdash;這是三個試驗合起來最重要的教訓。</p>
+  </div>
+
+  <div class="card">
+    <h2>誰是 TRIC-I-HF 型的病人？（門診篩選思路）</h2>
+    <ul>
+      <li>Echo 確認 <b>at least severe TR</b>（severe / massive / torrential）</li>
+      <li>穩定利尿劑與 GDMT <b>&ge; 30 天</b>後仍有症狀&mdash;&mdash;先確認利尿劑真的到位、MRA 與 SGLT2i 有沒有漏掉</li>
+      <li>具備至少一項「已顯現的右心衰竭」證據：
+        <ul>
+          <li>過去一年 <b>HF 住院</b></li>
+          <li><b>eGFR &lt; 60</b>（cardio-renal）</li>
+          <li><b>Bilirubin / ALP / &gamma;-GT 至少兩項上升</b>（cardio-hepatic）&mdash;&mdash;
+            這一項門診最容易被忽略，抽血時要主動加驗</li>
+        </ul>
+      </li>
+      <li><b>RHC 評估</b>：排除 severe 或 pre-capillary pulmonary hypertension</li>
+      <li>TEE 評估解剖是否適合 T-TEER（leaflet 位置、coaptation gap、tethering、pacemaker lead 干擾）</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>對結構性心臟病團隊的實務啟示</h2>
+    <ul>
+      <li><b>器材規劃</b>：以 62% 需要 2 個 device、9.4% 需要 &ge;3 個為基準，估算庫存與手術時間。</li>
+      <li><b>影像團隊</b>：T-TEER 成敗高度依賴 TEE；三尖瓣影像難度高於二尖瓣，
+        intraprocedural imaging 的訓練要同步投資。</li>
+      <li><b>跨科合作</b>：cardio-hepatic / cardio-renal syndrome 的病人需與 HF 團隊、腎臟科共管；
+        本試驗的獲益族群本質上是「重症心衰竭病人」而非單純瓣膜病人。</li>
+      <li><b>轉介時機的張力</b>：hard endpoint 的獲益出現在 advanced 族群，
+        但症狀與 QoL 的獲益反而在較早期族群更明顯（Hahn Q3）。
+        臨床上兩者都要顧，不要因為「等到夠嚴重才轉介」而錯過症狀改善的窗口。</li>
+      <li><b>病人溝通</b>：可以說「降低心衰竭住院的證據強」；死亡率則應說明為「趨勢有利、需更長期資料確認」。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===================== 自我測驗 ===================== -->
+<section id="quiz" hidden>
+  <div class="card" id="quizbox"></div>
+</section>
+
+<footer>
+  <b>讀書會共筆整理人</b>
+  謝慕揚 醫師 MD, PhD, FESC<br>
+  結構性心臟病與介入心臟學
+  <p style="margin-top:12px">
+    &middot; 本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br>
+    &middot; 僅供學術與教育用途，不代表任何單位之官方立場<br>
+    &middot; 本內容未涉及任何利益衝突
+  </p>
+  <p class="ref">
+    數據來源：ESC Congress 2026 Munich 現場 Hot Line 報告投影片。<br>
+    Stocker TJ, et al. Rationale and design of the TRIC-I-HF-DZHK24 trial.
+    <i>Eur J Heart Fail</i> 2025;27:1895&ndash;1904.（NCT04634266）<br>
+    Sorajja P, et al. <i>N Engl J Med</i> 2023;388(20):1833-1842.　
+    Hahn RT, et al. <i>N Engl J Med</i> 2025;392(2):115-126.<br>
+    完整結果論文發表後，請再核對 HR、95% CI 與 P value。
+  </p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 分頁切換 ---------- */
+  var nav = document.getElementById('nav');
+  var tabs = nav.querySelectorAll('.tab');
+  nav.addEventListener('click', function(e){
+    var b = e.target.closest('.tab');
+    if(!b) return;
+    for(var i=0;i<tabs.length;i++){
+      tabs[i].classList.toggle('on', tabs[i]===b);
+      document.getElementById(tabs[i].dataset.t).hidden = (tabs[i]!==b);
+    }
+    window.scrollTo(0,0);
+  });
+
+  /* ---------- 深色模式 ---------- */
+  var tog = document.getElementById('themetog');
+  function setDark(on){
+    document.documentElement.classList.toggle('dark', on);
+    tog.innerHTML = on ? '\u2600' : '\u263E';
+    try{ localStorage.setItem('tricihf-dark', on ? '1' : '0'); }catch(err){}
+  }
+  var saved = null;
+  try{ saved = localStorage.getItem('tricihf-dark'); }catch(err){}
+  setDark(saved === '1');
+  tog.addEventListener('click', function(){
+    setDark(!document.documentElement.classList.contains('dark'));
+  });
+
+  /* ---------- 測驗 ---------- */
+  var QUIZ = [
+    {q:'TRIC-I-HF 與 TRILUMINATE Pivotal 最關鍵的設計差異是什麼？',
+     o:['使用的裝置不同（PASCAL vs TriClip）',
+        '收案限定已有右心衰竭表現的高事件率族群',
+        '採用 sham 對照',
+        '追蹤時間只有 1 年'],
+     a:1,
+     e:'TRIC-I-HF 要求至少一項進展期條件：過去 12 個月 HFH、cardio-renal syndrome (eGFR<60)、或 cardio-hepatic syndrome。前代試驗只要求「有症狀」，事件率太低。兩者都是 open-label，並非 sham 對照。'},
+    {q:'第一主要終點的 win ratio 及其主要驅動來源為何？',
+     o:['1.48，由 KCCQ 驅動',
+        '2.42，由 HF hospitalization 驅動',
+        '2.42，由全因死亡驅動',
+        '0.35，由 HFH 驅動'],
+     a:1,
+     e:'Win ratio 2.42 (95% CI 1.76–3.33), P<0.0001。拆解後 HFH 貢獻 22.0 個百分點、KCCQ 8.0、mortality 4.1。1.48 是 TRILUMINATE Pivotal 的數字，且幾乎全由 KCCQ 撐起；0.35 是 HFH 的 HR。'},
+    {q:'關於全因死亡的結果，下列敘述何者最正確？',
+     o:['HR 0.62 (0.40–0.96), P=0.027，屬 secondary endpoint，3 年時 at risk 僅 32 vs 12',
+        'HR 0.62，是預設的第一主要終點，證據等級最高',
+        '兩組死亡率無統計差異',
+        '1 年死亡率即出現超過 20 個百分點的差距'],
+     a:0,
+     e:'死亡是 secondary endpoint（第二主要終點是 mortality 或 HFH 的複合）。1 年存活率 86.5% vs 82.5%，僅差 4 個百分點，曲線在第 2–3 年才分離，而該時段 at risk 極少。正確說法是「一致的有利趨勢」。'},
+    {q:'Medical therapy 組要跨組接受 tricuspid repair，需符合哪些條件？',
+     o:['只要病人要求即可',
+        '隨機分派滿 30 天即可',
+        '須同時符合：≥30 天、發生導致住院的心衰竭惡化、且住院期間使用 IV diuretic',
+        '需 TR 惡化至 torrential'],
+     a:2,
+     e:'三個條件必須全部符合。設計上等於「病人必須先撞到一個試驗終點才能跨組」，且 cross-over 手術本身的住院不另計為 endpoint。'},
+    {q:'關於裝置使用，下列何者正確？',
+     o:['T-TEER 佔 98.3%，PASCAL 65.6%、TriClip 33.0%，且 62% 使用 2 個 device',
+        '以 transcatheter annuloplasty 為主',
+        '全部使用單一 clip 即完成',
+        '以 TTVR（瓣膜置換）為主'],
+     a:0,
+     e:'實際接受 TTVI 者 231/237 (97.5%)，其中 T-TEER 98.3%。裝置數量：1 個 28.6%、2 個 62.0%、≥3 個 9.4%——超過 70% 需要多個 device，術前規劃要據此準備。'},
+    {q:'Medical therapy 組 1 年時仍有 19.2% 為 ≤mild TR，這個現象在討論中的意義是什麼？',
+     o:['代表 echo 判讀錯誤',
+        '代表對照組有 TR 自發回歸，Hahn 據此提問藥物治療是否仍有角色',
+        '代表對照組偷偷接受了手術',
+        '代表 TR 嚴重度與預後無關'],
+     a:1,
+     e:'這正是 Hahn 的 Question 2。同時要注意追蹤 echo 的樣本流失（78/123），百分比的分母已與 baseline 不同，判讀需保守。'},
+    {q:'本試驗的收案排除了下列哪一項？',
+     o:['eGFR < 60 的病人',
+        '心房顫動病人',
+        '以 RHC 評估的 severe 或 pre-capillary pulmonary hypertension',
+        '曾住院的心衰竭病人'],
+     a:2,
+     e:'eGFR<60 與過去 12 個月 HFH 反而是「納入」條件。排除 severe/pre-capillary PH 是很重要的界線——結果不能外推到高 PVR 的病人。'}
+  ];
+
+  var box = document.getElementById('quizbox');
+  var idx = 0, score = 0, answered = false;
+
+  function esc(s){
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function renderQ(){
+    var q = QUIZ[idx];
+    var html = '<div class="prog"><i style="width:' + ((idx+1)/QUIZ.length*100) + '%"></i></div>' +
+               '<h2>第 ' + (idx+1) + ' 題 / 共 ' + QUIZ.length + ' 題</h2>' +
+               '<p style="font-weight:600">' + esc(q.q) + '</p>';
+    for(var k=0;k<q.o.length;k++){
+      html += '<button class="opt" data-k="' + k + '">' + esc(q.o[k]) + '</button>';
+    }
+    html += '<div id="fb"></div>';
+    box.innerHTML = html;
+    answered = false;
+  }
+
+  function renderResult(){
+    var msg = score === QUIZ.length ? '全對！這份共筆的重點都掌握了。'
+            : score >= QUIZ.length - 2 ? '很好，建議再回顧「批判性解讀」一節。'
+            : '建議重看「試驗設計」與「結果數據」兩節後再測一次。';
+    box.innerHTML = '<h2>測驗結果</h2>' +
+      '<p style="font-size:30px;font-weight:700;color:var(--accent);margin:8px 0">' +
+      score + ' / ' + QUIZ.length + '</p><p>' + msg +
+      '</p><button class="btn" id="again">重新測驗</button>';
+    document.getElementById('again').addEventListener('click', function(){
+      idx = 0; score = 0; renderQ();
+    });
+  }
+
+  box.addEventListener('click', function(e){
+    var b = e.target.closest('.opt');
+    if(!b || answered) return;
+    answered = true;
+    var q = QUIZ[idx];
+    var pick = parseInt(b.dataset.k, 10);
+    if(pick === q.a) score++;
+    var opts = box.querySelectorAll('.opt');
+    for(var i=0;i<opts.length;i++){
+      opts[i].disabled = true;
+      if(i === q.a) opts[i].classList.add('correct');
+      else if(i === pick) opts[i].classList.add('wrong');
+    }
+    document.getElementById('fb').innerHTML =
+      '<div class="exp"><p style="margin:0 0 6px;font-weight:600">' +
+      (pick === q.a ? '\u2705 正確' : '\u274C 再看一次') + '</p><p style="margin:0">' +
+      esc(q.e) + '</p><button class="btn" id="next">' +
+      (idx < QUIZ.length - 1 ? '下一題' : '查看結果') + '</button></div>';
+    document.getElementById('next').addEventListener('click', function(){
+      if(idx < QUIZ.length - 1){ idx++; renderQ(); } else { renderResult(); }
+    });
+  });
+
+  renderQ();
+})();
+</script>
+</body>
+</html>
