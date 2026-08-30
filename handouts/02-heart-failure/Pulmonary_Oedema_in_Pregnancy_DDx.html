@@ -193,6 +193,22 @@ var DDX=[
  mech:"初期為肺血管收縮與急性右心衰竭，之後轉為左心衰竭與非心因性肺水腫加 DIC。",
  pit:"死亡率極高。需立即啟動大量輸血流程與 ECMO 評估，不是單純利尿的問題。"},
 
+{id:"vte",name:"深部靜脈血栓與血栓性肺栓塞",en:"DVT and thrombotic pulmonary embolism (VTE)",
+ type:"mixed",timing:["任何週數，第一孕期起風險即上升","產後 6 週內為最高峰（尤以產後 1–2 週）"],
+ clues:["<b>喘與低血氧，但胸片相對乾淨</b>——沒有 B-lines、沒有肺水腫，這是與本清單其他項目最重要的分界",
+  "肋膜性胸痛、咳血、不明原因的持續心搏過速或暈厥",
+  "單側下肢腫脹疼痛；孕期 DVT <b>約 85–90% 發生在左腿</b>（左髂總靜脈受右髂總動脈與妊娠子宮壓迫）",
+  "以 <b>iliofemoral 近端</b>為主，可只表現為臀部、腹股溝或下背痛，小腿反而不腫",
+  "大量 PE 時為急性右心衰竭與<b>阻塞型休克</b>：頸靜脈怒張、RV 擴大、D-shape、低血壓",
+  "風險加成：剖腹產、子癇前症、臥床安胎、肥胖、多胞胎、產後出血與輸血、既往 VTE 或 thrombophilia"],
+ workup:["<b>疑似 DVT 先做下肢加壓超音波（CUS）</b>；一旦確診即開始抗凝，不必再為了找 PE 加照胸部影像",
+  "疑似 PE：先照胸部 X 光；搭配 pregnancy-adapted YEARS 演算法可安全省下部分 CTPA",
+  "CTPA 與 V/Q scan 孕期都可執行；CTPA 胎兒劑量較低但母體乳房劑量較高，V/Q 大致相反",
+  "Echo：RV 擴大、D-shape、TAPSE 下降、McConnell sign；LV 收縮功能通常正常",
+  "Lung ultrasound 以 <b>A-lines</b> 為主而非 B-lines，是與心因性肺水腫最快的分野"],
+ mech:"孕期 Virchow 三要素同時成立：凝血因子 VII／VIII／X 與 fibrinogen 上升、protein S 下降、PAI-1／PAI-2 上升造成高凝狀態；黃體素使靜脈擴張、妊娠子宮壓迫髂靜脈造成鬱滯；生產與剖腹造成內皮損傷。大量 PE 的血流動力學崩潰來自右心室後負荷急升，本質是阻塞型休克，不是肺水腫。",
+ pit:"<b>孕期 D-dimer 生理性上升，非孕期參考值不適用，不能用來排除 VTE。</b>抗凝以 <b>LMWH</b> 為主（不通過胎盤）；warfarin 於妊娠 6–12 週有致畸風險，<b>DOAC 於孕期與哺乳期禁用</b>。危及生命的大量 PE，thrombolysis 並非絕對禁忌，並應同時評估導管取栓、外科取栓與 ECMO。另需提前規劃麻醉時間：治療劑量 LMWH 通常需停藥 24 小時以上才能執行 neuraxial 麻醉。"},
+
 {id:"iatro",name:"醫源性容積過載",en:"Iatrogenic fluid overload",
  type:"card",timing:["生產中與產後 24 小時內"],
  clues:["Oxytocin 長時間高劑量輸注（具 ADH 樣作用，造成水滯留與低血鈉）","區域麻醉前預先大量輸液",
@@ -218,11 +234,11 @@ var DDX=[
 
 {id:"other",name:"其他不可漏的原因",en:"Other must-not-miss causes",
  type:"mixed",timing:["視病因而定"],
- clues:["肺栓塞（孕產期風險升高，表現為低血氧但胸片相對乾淨）","甲狀腺風暴","嚴重貧血或輸血相關 TACO／TRALI",
+ clues:["甲狀腺風暴","嚴重貧血或輸血相關 TACO／TRALI",
   "心律不整（尤其 MS 合併新發 AF）","先天性心臟病（Eisenmenger、系統性右心室）"],
- workup:["依懷疑病因選擇：CTPA（孕期可做）、TSH／free T4、CBC、ECG／Holter"],
+ workup:["依懷疑病因選擇：TSH／free T4、CBC、ECG／Holter、輸血紀錄與時序"],
  mech:"",
- pit:"孕期 D-dimer 生理性上升，不能用來排除肺栓塞。"}
+ pit:"輸血後 6 小時內新發的肺水腫，要主動分辨 TACO（容積過載，對利尿有反應）與 TRALI（免疫性，利尿無效），不要一句「輸血後喘」帶過。"}
 ];
 
 var WORKUP=[
@@ -230,7 +246,7 @@ var WORKUP=[
 {t:"床邊超音波",d:"Lung ultrasound 看 B-lines 與 pleural effusion；POCUS 心臟看 EF、RV 大小、瓣膜、IVC。這一步最快分出心因性與非心因性。"},
 {t:"快速血液檢查",d:"NT-proBNP（正常值幾乎可排除 HF）、troponin、CBC、LFT、LDH、creatinine、electrolytes、lactate、DIC panel。"},
 {t:"ECG 與胸部 X 光",d:"孕期胸部 X 光胎兒劑量極低，遠低於致畸閾值，不應因懷孕而拖延。腹部屏蔽即可。"},
-{t:"針對性檢查",d:"尿蛋白（子癇前症）、metanephrines（pheochromocytoma）、TSH（甲狀腺風暴）、培養（敗血症）、CTPA（肺栓塞）。"},
+{t:"針對性檢查",d:"尿蛋白（子癇前症）、metanephrines（pheochromocytoma）、TSH（甲狀腺風暴）、培養（敗血症）。懷疑 VTE 時：<b>下肢加壓超音波（CUS）優先</b>，必要時 CTPA 或 V/Q scan——孕期 D-dimer 不能用來排除。"},
 {t:"決定要不要生",d:"血流動力學無法穩定時，生產本身就是治療的一部分。需由 Pregnancy Heart Team 共同決策，並提前評估轉送具 MCS 能力中心的時機。"}
 ];
 
@@ -256,6 +272,12 @@ var QUIZ=[
 {q:"關於孕婦的胸部 X 光檢查，正確的敘述是？",
  o:["孕期絕對禁忌","胎兒輻射劑量遠低於致畸閾值，臨床有需要時不應延遲","僅能在第三孕期執行","必須先取得胎兒超音波正常才可執行"],c:1,
  e:"單張胸部 X 光的胎兒暴露劑量極微。因懷疑而延遲影像檢查造成的診斷延誤，風險遠大於輻射本身。腹部屏蔽並記錄劑量即可。"},
+{q:"產後第 5 天，突發呼吸困難與心搏過速，SpO₂ 88%，胸部 X 光相對乾淨，肺部超音波以 A-lines 為主、無 B-lines。D-dimer 明顯上升。下一步最恰當的是？",
+ o:["以 D-dimer 上升即診斷肺栓塞並開始抗凝","認定為容積過載，先給利尿劑觀察反應","評估 VTE：下肢加壓超音波與胸部影像（CTPA 或 V/Q），並考慮先給治療劑量 LMWH","因 D-dimer 在孕產期本來就高，可排除肺栓塞"],c:2,
+ e:"胸片乾淨、肺超音波以 A-lines 為主，等於把心因性肺水腫往外推——低血氧卻沒有肺水腫，正是血栓性肺栓塞的樣子。孕期與產後 D-dimer 生理性上升：既<b>不能用來排除</b>，單看上升也<b>不足以確診</b>。正確做法是走影像路徑（CUS 優先，確診 DVT 即可開始治療而不必再照胸部影像），臨床高度懷疑且出血風險可接受時，可在檢查完成前先給治療劑量 LMWH。產後 6 週是 VTE 風險最高的窗口。"},
+{q:"關於孕期靜脈血栓栓塞症（VTE）的抗凝治療，正確的是？",
+ o:["DOAC 方便且不需監測，是孕期首選","LMWH 不通過胎盤，是孕期抗凝的主力","Warfarin 在整個孕期都安全","確診大量肺栓塞併休克時，thrombolysis 為絕對禁忌"],c:1,
+ e:"LMWH 不通過胎盤，是孕期抗凝首選。DOAC 於孕期與哺乳期禁用；warfarin 在妊娠 6–12 週有 warfarin embryopathy 風險。危及生命的大量 PE，thrombolysis <b>並非絕對禁忌</b>，應與導管取栓、外科取栓及 ECMO 一併評估。另外要提前規劃麻醉：治療劑量 LMWH 通常需停藥 24 小時以上才能執行 neuraxial 麻醉。"},
 {q:"孕婦發生心因性休克時，以下哪一類藥物在 2025 ESC 指引中屬於孕期不建議使用？",
  o:["Dobutamine","Levosimendan","ACE-I / ARB / ARNI / MRA / SGLT2 inhibitor / ivabradine","Milrinone"],c:2,
  e:"2025 ESC 指引建議孕婦心因性休克可使用 levosimendan、dobutamine、milrinone 等 inotrope 與 vasopressor（Class I C）；而 ACE-I、ARB、ARNI、MRA、ivabradine 與 SGLT2 inhibitor 因胎兒不良影響，孕期不建議使用。"}
@@ -290,6 +312,7 @@ function viewHome(){
  '<li><b>陣發性高血壓＋頭痛盜汗心悸＋無蛋白尿</b>，要想 pheochromocytoma，先 α-blockade 再 β-blocker。</li>'+
  '<li>Lung ultrasound 加 POCUS 是最快的分流工具；<b>NT-proBNP 正常幾乎可排除心衰竭</b>。</li>'+
  '<li>孕期禁用 <b>ACE-I / ARB / ARNI / MRA / ivabradine / SGLT2i</b>；心因性休克可用 levosimendan、dobutamine、milrinone。</li>'+
+ '<li><b>喘＋低血氧但胸片乾淨</b>，要想血栓性肺栓塞；孕期 VTE 風險以<b>產後 6 週內</b>最高，DVT 約 85–90% 在左腿，<b>D-dimer 不能用來排除</b>，抗凝用 LMWH（DOAC 禁用）。</li>'+
  '<li>血流動力學無法穩定時，<b>生產本身就是治療</b>；並提早評估轉送具 MCS 能力的中心。</li></ol></div>'+
  '<div class="card"><h2 class="sec">🩺 為什麼孕婦特別容易肺水腫</h2><div class="scroll"><table>'+
  '<thead><tr><th>生理變化</th><th>幅度</th><th>臨床意義</th></tr></thead><tbody>'+
