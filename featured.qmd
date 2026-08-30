@@ -107,7 +107,7 @@ listing:
       path: handouts/99-misc/Clinical_Remediation_Blueprint.html
       categories: [教學 Teaching, 醫學教育 Medical Education, 溝通 Communication]
     - title: "只有 I 和 aVL 抬起來 — 高側壁 STEMI 心電圖判讀"
-      description: "互動教學頁。從一張真實去識別化心電圖出發，先給 60 秒自己判讀，再逐條導程放大對答案。核心是最容易被放回候診區的那型 STEMI：高側壁只佔 I、aVL 兩條導程，抬高幅度小、又常被 LVH 當藉口帶過——所以要把 I 和 aVL 當一組看，並且主動去找 III／aVF 的 reciprocal 壓低（南非國旗徵象）。含 D1／OM／ramus intermedius 的罪犯血管推理、de Winter、Wellens、正後壁、aVR 抬高、鯊魚鰭、超急性 T 波等困難型態，以及早期再極化、心包炎、LVH strain、心室動脈瘤、Brugada、高血鉀六種假象鑑別；附六步驟行動清單與八題自測。"
+      description: "互動教學頁，兩個真實去識別化病例。Case 1 先給 60 秒自己判讀，再逐條導程放大對答案；Case 2 是另一位 47 歲男性（3VD，PCI 至 mid-LAD 與 proximal LCX），I、aVL、V2 三個抬高配 II、III、aVF 三個壓低，是南非國旗徵象「完整版」，正好對照 Case 1 缺了 V2 的不完整版，並附血管攝影對照與罪犯血管推論的界線標註。核心是最容易被放回候診區的那型 STEMI：高側壁只佔 I、aVL 兩條導程，抬高幅度小、又常被 LVH 當藉口帶過——所以要把 I 和 aVL 當一組看，並且主動去找 III／aVF 的 reciprocal 壓低（南非國旗徵象）。含 D1／OM／ramus intermedius 的罪犯血管推理、de Winter、Wellens、正後壁、aVR 抬高、鯊魚鰭、超急性 T 波等困難型態，以及早期再極化、心包炎、LVH strain、心室動脈瘤、Brugada、高血鉀六種假象鑑別；附六步驟行動清單與八題自測。"
       path: handouts/05-cardiac-imaging/High_Lateral_STEMI_ECG_Teaching.html
       categories: [影像 Imaging, 心電圖 ECG, 缺血性心臟病 IHD, 教學 Teaching]
     - title: "M-TEER 術中影像導引 — 2026 ASE Guidelines"

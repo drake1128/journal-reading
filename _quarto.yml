@@ -153,7 +153,7 @@ website:
         - section: "心臟影像 Imaging"
           contents:
             - handouts/05-cardiac-imaging/index.qmd
-            - text: "只有 I 和 aVL 抬起來 — 高側壁 STEMI 心電圖判讀 (互動教學頁)"
+            - text: "只有 I 和 aVL 抬起來 — 高側壁 STEMI 心電圖判讀 (互動教學頁, 兩個病例)"
               href: handouts/05-cardiac-imaging/High_Lateral_STEMI_ECG_Teaching.html
             - text: "左心室壁貼壁血栓與中風 — 反覆中風卻沒有 Afib (互動投影片, 35 張)"
               href: handouts/05-cardiac-imaging/LV_Mural_Thrombus_Case_Teaching.html
