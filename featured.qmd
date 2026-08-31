@@ -206,6 +206,10 @@ listing:
       description: "ESC Congress 2026 Munich Hot Line 讀書會共筆，七分頁互動網頁含深色模式與 8 題測驗，同步發表於 NEJM。南韓 19 中心、3,203 人，DES 置放滿 12 個月且具高缺血風險者，隨機分派 clopidogrel 單藥 vs 延長 DAPT 24 個月。主要終點 NACE 5.0% vs 5.1% 達 non-inferiority——但本頁的核心是把這個「打平」拆開：缺血終點 3.7% vs 1.6%（HR 2.33, 95% CI 1.47–3.69）不利單藥、出血 BARC 2/3/5 為 1.8% vs 4.1%（HR 0.43, 0.27–0.67）有利單藥，NACE 之所以持平，正是因為它把方向相反的缺血與出血放進同一個複合終點。死亡訊號也標得很清楚：全因死亡 HR 3.01 (1.28–7.09)、心血管死亡 HR 4.68 (1.35–16.3)，方向一致且 CI 不跨 1 不能忽略，但屬次要終點、事件數極少（CV death 約 14 vs 3 例）、CI 寬到 16.3，只能寫成「需驗證的訊號」。另含與 HOST、SMART-CHOICE 3、DAPT、DAPT-MVD、OPT-BIRISK 的證據版圖對照，並解釋 A-CLOSE 與 OPT-BIRISK 結論相反的原因就在收案（後者收缺血＋出血雙高風險，前者排除高出血風險），以及純南韓族群、open-label、clopidogrel non-responder 等外推限制。"
       path: handouts/01-ischemic-heart-disease/ACLOSE_Clopidogrel_vs_Extended_DAPT_ESC2026.html
       categories: [缺血性心臟病 IHD, 介入 Interventional, 抗栓 Antithrombotic, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "2026 ESC 心臟衰竭指引 — 分類精簡與 M-TEER 升級"
+      description: "讀書會共筆互動網頁，七個章節。2026 ESC HF 指引（Køber 等，EHJ 2026-08-28）最重要的兩件事：LVEF 分類由三類縮成兩類——刪除 HFmrEF、HFrEF 擴大為 LVEF < 50%、HFpEF 為 ≥ 50%，並新增 Stage A–D 分期、acute HF 改稱 decompensated HF (DHF)；以及 M-TEER 由 IIa B 升為 Class I B1。治療名詞也重寫：GDMT 拆成 FMT（foundational）＋ AMT（additional），器械與介入另立 GDIT，於是「optimal FMT 之後仍有症狀 → 考慮 GDIT」成為新的標準敘事線。本頁刻意標好兩個最容易被過度延伸的地方：M-TEER 升到 Class I，但條文寫的效益是「降低 HFH 並改善 QoL」，沒有寫 mortality；而 Level B1 是本版首次啟用的新分級（A/B1/B2/C），不能直接與舊版 Level B 或 2025 VHD 指引的 Level A 比強弱。含 COAPT／RESHAPE-HF2／MITRA-FR／MATTERHORN 四試驗對照與 RESHAPE-HF2 的方法學批評、Figure 20 的五步決策路徑（FMT → 有指徵先做 CRT → 確認 persistent severe SMR 且血行動力學穩定 → 對照 Table 19 → Heart Team）、新分類讓 LVEF 41–49% 的 SMR 病人正式納入 Class I 敘述範圍，以及 ICU 相關的住院中 SGLT2-I 早啟動 (I B1)、Shock Team (I C)、未經篩選 AMI-CS 用 temporary MCS 列 Class III B1。Table 19／Figure 20 的逐項切點無法從公開頁面取得，頁面已明確標為推論而非原文條列。"
+      path: handouts/02-heart-failure/ESC2026_HF_Guideline_and_MTEER_Upgrade.html
+      categories: [心衰竭 HF, 瓣膜 Valvular, TEER, 指引 Guidelines, 重症 Critical Care, 教學 Teaching]
 ---
 
 本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。
