@@ -49,6 +49,8 @@ website:
               href: handouts/01-ischemic-heart-disease/STEMI_D2B_Improvement.html
             - text: "ESC 2026 Munich — 急性心肌梗塞 11 篇海報導讀（互動網頁, 手機可開啟）"
               href: handouts/01-ischemic-heart-disease/ESC2026_Munich_AMI_Poster_Digest.html
+            - text: "A-CLOSE — Clopidogrel 單藥 vs 延長 DAPT 於高缺血風險（ESC 2026 共筆, 互動網頁）"
+              href: handouts/01-ischemic-heart-disease/ACLOSE_Clopidogrel_vs_Extended_DAPT_ESC2026.html
             - text: "PCI 後氧化磷脂與 Lp(a) 的急性上升（Tsimikas, Circulation 2004 機轉導讀）"
               href: "handouts/01-ischemic-heart-disease/PCI 後 OxPL 與 Lp(a) 急性上升 教學講義.md"
             - handouts/01-ischemic-heart-disease/acs-book-dc-shock/index.qmd

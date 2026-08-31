@@ -202,6 +202,10 @@ listing:
       description: "ESC Congress 2026 Munich 讀書會共筆，七分頁互動網頁（預防心臟學與數位健康）。2022 年全球有 31.3%（約 18 億成人）未達建議身體活動量且趨勢仍在上升，照此走勢 WHO 2030 年「相對下降 15%」的目標將無法達成。步數方面 7,000 steps/day 是務實門檻：相較 2,000 步，all-cause mortality HR 0.53、CVD incidence HR 0.75，多數 outcome 的轉折落在 5,000–7,000 步，10,000 步並非必要目標。強度比總量更關鍵——在不運動族群中任何量的 VIPA 或 MIPA 都與較低 CVD 風險相關、LIPA 關聯很弱，健康等效比約為 1 分鐘 VIPA ≒ 3.0–3.5 分鐘 MIPA ≒ 35–49 分鐘 LIPA。並把裝置誤差當成判讀的一部分：research-grade 步數演算法誤差可達 9.6–62%、consumer-grade 約 −9% 至 12%，強度分類誤差更大到 29–80%。另標出兩個引用陷阱：講者投影片寫的 7,000–8,000 plateau 與 Ding 2025 原文的 5,000–7,000 不一致，且 Stamatakis 2025 的族群是不運動者，不能直接外推到已規律運動的病人。"
       path: handouts/90-ai-technology/Wearables_and_Physical_Activity_ESC2026.html
       categories: [AI 科技, 預防醫學 Prevention, 運動生理 Exercise Physiology, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "A-CLOSE — Clopidogrel 單藥能不能取代延長 DAPT"
+      description: "ESC Congress 2026 Munich Hot Line 讀書會共筆，七分頁互動網頁含深色模式與 8 題測驗，同步發表於 NEJM。南韓 19 中心、3,203 人，DES 置放滿 12 個月且具高缺血風險者，隨機分派 clopidogrel 單藥 vs 延長 DAPT 24 個月。主要終點 NACE 5.0% vs 5.1% 達 non-inferiority——但本頁的核心是把這個「打平」拆開：缺血終點 3.7% vs 1.6%（HR 2.33, 95% CI 1.47–3.69）不利單藥、出血 BARC 2/3/5 為 1.8% vs 4.1%（HR 0.43, 0.27–0.67）有利單藥，NACE 之所以持平，正是因為它把方向相反的缺血與出血放進同一個複合終點。死亡訊號也標得很清楚：全因死亡 HR 3.01 (1.28–7.09)、心血管死亡 HR 4.68 (1.35–16.3)，方向一致且 CI 不跨 1 不能忽略，但屬次要終點、事件數極少（CV death 約 14 vs 3 例）、CI 寬到 16.3，只能寫成「需驗證的訊號」。另含與 HOST、SMART-CHOICE 3、DAPT、DAPT-MVD、OPT-BIRISK 的證據版圖對照，並解釋 A-CLOSE 與 OPT-BIRISK 結論相反的原因就在收案（後者收缺血＋出血雙高風險，前者排除高出血風險），以及純南韓族群、open-label、clopidogrel non-responder 等外推限制。"
+      path: handouts/01-ischemic-heart-disease/ACLOSE_Clopidogrel_vs_Extended_DAPT_ESC2026.html
+      categories: [缺血性心臟病 IHD, 介入 Interventional, 抗栓 Antithrombotic, 文獻判讀 Critical Appraisal, 教學 Teaching]
 ---
 
 本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。

@@ -54,6 +54,7 @@ handouts/**/*.html
 !handouts/05-cardiac-imaging/Cardiac_Sarcoidosis_CMR_PET_Imaging.html
 !handouts/90-ai-technology/AI_in_Academic_Writing_and_Publishing_ESC2026.html
 !handouts/90-ai-technology/Wearables_and_Physical_Activity_ESC2026.html
+!handouts/01-ischemic-heart-disease/ACLOSE_Clopidogrel_vs_Extended_DAPT_ESC2026.html
 # Curated portals — allow all HTML in these dedicated folders (drop new decks in freely)
 !handouts/classroom-teaching/**/*.html
 !handouts/95-management-leadership/**/*.html

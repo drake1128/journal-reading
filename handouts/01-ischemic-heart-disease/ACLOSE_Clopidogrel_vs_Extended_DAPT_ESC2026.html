@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A-CLOSE｜Clopidogrel 單藥 vs 延長 DAPT（ESC 2026 讀書會共筆）</title>
+<style>
+:root{
+  --bg:#0e1420; --card:#161f2e; --card2:#1c2738; --line:#26344a; --line2:#33445e;
+  --text:#e8edf4; --mute:#93a3b8; --dim:#6b7d94;
+  --key:#5fb8d4; --clop:#f0883e; --dapt:#5b9bd5;
+  --bad:#e5534b; --good:#4ec9a0; --warn:#e3b341;
+  --shadow:0 6px 24px rgba(0,0,0,.35);
+}
+html[data-t="light"]{
+  --bg:#f6f8fb; --card:#ffffff; --card2:#eef2f7; --line:#dde4ed; --line2:#c6d2e0;
+  --text:#16202e; --mute:#54637a; --dim:#77879c;
+  --key:#0e7490; --clop:#c2560f; --dapt:#1f5fa8;
+  --bad:#b3261e; --good:#0f7a5a; --warn:#8a6300;
+  --shadow:0 4px 18px rgba(20,35,60,.10);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.75;font-size:15.5px;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px 72px}
+header{padding:30px 0 16px;position:relative}
+.eyebrow{font:600 11.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--key);margin:0 0 10px}
+h1{font-size:clamp(1.55rem,4.6vw,2.15rem);line-height:1.3;margin:0 0 6px;letter-spacing:-.01em}
+h1 small{display:block;font-size:.5em;font-weight:500;color:var(--mute);margin-top:10px;letter-spacing:0;line-height:1.6}
+.byline{color:var(--dim);font-size:13.5px;margin:14px 0 0}
+.byline a{color:var(--key)}
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 0}
+.pill{font:600 11.5px/1 ui-monospace,monospace;letter-spacing:.05em;padding:7px 11px;border-radius:999px;
+  border:1px solid var(--line2);color:var(--mute)}
+.pill.ni{color:var(--good);border-color:var(--good)}
+.pill.tr{color:var(--warn);border-color:var(--warn)}
+.themetog{position:absolute;top:26px;right:0;background:var(--card);border:1px solid var(--line2);
+  border-radius:999px;width:42px;height:42px;font-size:17px;cursor:pointer;color:var(--text)}
+nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);
+  margin:20px -16px 0;padding:0 16px}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;background:none;border:none;border-bottom:2.5px solid transparent;
+  color:var(--mute);font:600 14px/1 inherit;padding:14px 12px;cursor:pointer;white-space:nowrap}
+.tab.on{color:var(--key);border-bottom-color:var(--key)}
+section{display:none;padding-top:24px;animation:fade .28s ease}
+section.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+h2{font-size:1.16rem;margin:30px 0 12px;letter-spacing:-.01em}
+h2:first-child{margin-top:4px}
+h3{font-size:1.02rem;margin:22px 0 8px;color:var(--key)}
+p{margin:0 0 13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 15px}
+.card.tight{padding:14px 17px}
+ol,ul{margin:0 0 13px;padding-left:1.3em}
+li{margin:0 0 9px}
+b,strong{color:var(--text);font-weight:700}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+/* take home numbered list */
+.th{counter-reset:th}
+.th .item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.th .item:last-child{border-bottom:none}
+.th .item::before{counter-increment:th;content:counter(th);flex:0 0 27px;height:27px;border-radius:50%;
+  background:var(--key);color:var(--bg);font:700 13.5px/27px ui-monospace,monospace;text-align:center}
+html[data-t="light"] .th .item::before{color:#fff}
+.th .item p{margin:0}
+/* stat grid */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin:0 0 15px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px}
+.stat .v{font:700 1.5rem/1.15 ui-monospace,monospace;letter-spacing:-.02em}
+.stat .l{font-size:12.5px;color:var(--mute);margin-top:6px;line-height:1.5}
+.stat.clop .v{color:var(--clop)} .stat.dapt .v{color:var(--dapt)}
+.stat.bad .v{color:var(--bad)} .stat.good .v{color:var(--good)}
+/* comparison rows */
+.cmp{background:var(--card);border:1px solid var(--line);border-radius:13px;overflow:hidden;margin:0 0 15px}
+.cmp .row{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+  padding:12px 16px;border-bottom:1px solid var(--line)}
+.cmp .row:last-child{border-bottom:none}
+.cmp .row.hd{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.cmp .n{font-family:ui-monospace,monospace;font-weight:700;min-width:64px;text-align:right}
+.cmp .n.clop{color:var(--clop)} .cmp .n.dapt{color:var(--dapt)}
+.cmp .lbl{font-size:14px}
+.cmp .sub{display:block;font-size:12px;color:var(--dim);font-family:ui-monospace,monospace;margin-top:3px}
+/* callouts */
+.note{border-left:3px solid var(--key);background:var(--card);border-radius:0 11px 11px 0;
+  padding:14px 17px;margin:0 0 15px;font-size:14.6px}
+.note.warn{border-left-color:var(--warn)}
+.note.bad{border-left-color:var(--bad)}
+.note.good{border-left-color:var(--good)}
+.note .t{display:block;font-weight:700;margin-bottom:6px}
+.note.warn .t{color:var(--warn)} .note.bad .t{color:var(--bad)}
+.note.good .t{color:var(--good)} .note .t{color:var(--key)}
+/* table */
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 15px}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:13.8px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--mute);white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+/* two-col */
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:13px;margin:0 0 15px}
+.tag{display:inline-block;font:600 10.5px/1 ui-monospace,monospace;letter-spacing:.12em;
+  text-transform:uppercase;padding:5px 8px;border-radius:5px;margin-bottom:9px}
+.tag.clop{background:rgba(240,136,62,.14);color:var(--clop)}
+.tag.dapt{background:rgba(91,155,213,.14);color:var(--dapt)}
+.tag.k{background:rgba(95,184,212,.14);color:var(--key)}
+/* quiz */
+.q{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 14px}
+.q .qt{font-weight:600;margin:0 0 12px}
+.opt{display:block;width:100%;text-align:left;background:var(--card2);border:1px solid var(--line2);
+  color:var(--text);border-radius:9px;padding:11px 14px;margin:0 0 8px;cursor:pointer;font:inherit;font-size:14.4px}
+.opt:hover:not(:disabled){border-color:var(--key)}
+.opt:disabled{cursor:default;opacity:.92}
+.opt.ok{border-color:var(--good);background:rgba(78,201,160,.12)}
+.opt.no{border-color:var(--bad);background:rgba(229,83,75,.12)}
+.exp{display:none;margin-top:10px;padding:12px 14px;background:var(--card2);
+  border-left:3px solid var(--key);border-radius:0 9px 9px 0;font-size:14.2px}
+.exp.on{display:block}
+footer{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+footer b{color:var(--mute)}
+a{color:var(--key)}
+@media(max-width:560px){
+  .cmp .row{grid-template-columns:1fr auto;row-gap:6px}
+  .cmp .row .n:first-of-type{grid-column:2}
+  .cmp .row.hd{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <button class="themetog" id="tt" aria-label="切換深色淺色">☾</button>
+  <p class="eyebrow">ESC Congress 2026 · Munich · Hot Line</p>
+  <h1>A-CLOSE
+    <small>Clopidogrel 單藥 vs 延長雙抗血小板治療<br>高缺血風險病人 DES 置放 12 個月之後，接下來怎麼走</small>
+  </h1>
+  <p class="byline">
+    發表者 Byeong-Keuk Kim（Severance Cardiovascular Hospital, Yonsei University）<br>
+    第一作者 Seung-Jun Lee　·　同步發表於 <i>New England Journal of Medicine</i><br>
+    原文連結：<a href="https://doi.org/10.1056/NEJMoa2608533" target="_blank" rel="noopener">Lee SJ, et al. Clopidogrel or Dual Antiplatelet Therapy in High-Ischemic-Risk Patients. <i>N Engl J Med.</i> 2026 Aug 29. doi:10.1056/NEJMoa2608533</a>
+  </p>
+  <div class="pills">
+    <span class="pill">RCT · n = 3,203</span>
+    <span class="pill ni">Non-inferiority 達標</span>
+    <span class="pill tr">但存在 trade-off</span>
+    <span class="pill">24 個月追蹤</span>
+  </div>
+</header>
+
+<nav>
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-s="s1">重點</button>
+    <button class="tab" data-s="s2">背景</button>
+    <button class="tab" data-s="s3">設計</button>
+    <button class="tab" data-s="s4">結果</button>
+    <button class="tab" data-s="s5">試驗對照</button>
+    <button class="tab" data-s="s6">臨床應用</button>
+    <button class="tab" data-s="s7">自我測驗</button>
+  </div>
+</nav>
+
+<!-- ================= 1 重點 ================= -->
+<section id="s1" class="on">
+  <h2>Take Home Message</h2>
+  <div class="card th">
+    <div class="item"><p><b>主要終點達到 non-inferiority，但這句話只說了一半。</b>NACE 在 24 個月為 <span class="mono">5.0% vs 5.1%</span>，clopidogrel 單藥不劣於延長 DAPT（p = 0.001 for non-inferiority）。問題是這個複合終點<b>同時包含缺血與出血</b>——兩個方向相反的東西加在一起，剛好互相抵銷。</p></div>
+    <div class="item"><p><b>拆開來看，兩個關鍵次要終點方向完全相反。</b>缺血終點 <span class="mono">3.7% vs 1.6%，HR 2.33 (95% CI 1.47–3.69)</span>，延長 DAPT 明顯較好；出血終點（BARC 2/3/5）<span class="mono">1.8% vs 4.1%，HR 0.43 (0.27–0.67)</span>，clopidogrel 單藥明顯較好。<b>NACE 打平＝兩邊各贏一半，不是「兩種策略一樣好」。</b></p></div>
+    <div class="item"><p><b>死亡率的訊號站在延長 DAPT 這一邊。</b>全因死亡 <span class="mono">1.3% vs 0.4%，HR 3.01 (1.28–7.09)</span>；心血管死亡 <span class="mono">0.9% vs 0.2%，HR 4.68 (1.35–16.3)</span>。方向一致且 CI 不跨 1——但這是<b>次要終點</b>，事件數極少（CV death 僅約 14 vs 3 例），<span class="mono">CI 上界到 16.3</span> 就是在告訴你這個估計有多不精確。</p></div>
+    <div class="item"><p><b>收案只挑「高缺血風險」，沒有挑「高出血風險」。</b>這是它和 OPT-BIRISK 最大的不同（後者收的是雙高風險）。所以本試驗的結論只能套用在<b>缺血風險高、出血風險不高</b>的病人身上。</p></div>
+    <div class="item"><p><b>實務結論：這一群病人，延長 DAPT 仍值得優先考慮。</b>Nicola Ryan 的評述很直接——真正高缺血風險而出血風險不高者，應「strong consideration」給延長 DAPT，因為 clopidogrel 單藥要付出缺血代價，還帶著一個雖小但方向明確的死亡訊號。</p></div>
+    <div class="item"><p><b>外推有明確界線。</b>19 家中心<b>全在南韓</b>，東亞族群的出血／缺血平衡本就與西方不同；且 clopidogrel non-responder 在單藥策略下風險更被放大。整體事件率偏低，個別終點的差異解讀要保守。</p></div>
+  </div>
+
+  <h2>一眼看完的數字</h2>
+  <div class="stats">
+    <div class="stat"><div class="v">5.0<span style="font-size:.6em"> vs </span>5.1<span style="font-size:.55em">%</span></div><div class="l">主要終點 NACE<br>non-inferiority 達標</div></div>
+    <div class="stat bad"><div class="v">2.33</div><div class="l">缺血終點 HR<br>1.47–3.69，不利單藥</div></div>
+    <div class="stat good"><div class="v">0.43</div><div class="l">出血終點 HR<br>0.27–0.67，有利單藥</div></div>
+    <div class="stat bad"><div class="v">3.01</div><div class="l">全因死亡 HR<br>1.28–7.09（次要終點）</div></div>
+    <div class="stat"><div class="v">3,203</div><div class="l">隨機分派人數<br>19 家南韓中心</div></div>
+    <div class="stat"><div class="v">79<span style="font-size:.55em">%</span></div><div class="l">index 事件為 ACS<br>糖尿病 40%</div></div>
+  </div>
+
+  <div class="note warn">
+    <span class="t">這張投影片最該被正確引用的一句話</span>
+    不是「clopidogrel 單藥不劣於延長 DAPT」，而是<b>「在高缺血風險族群，clopidogrel 單藥以較多的缺血事件換取較少的出血事件，整體 NACE 打平，且死亡率的方向不利於單藥。」</b>
+    把 non-inferiority 直接講成「兩者一樣好」，會把這個試驗最重要的訊息丟掉。
+  </div>
+</section>
+
+<!-- ================= 2 背景 ================= -->
+<section id="s2">
+  <h2>為什麼要做這個試驗</h2>
+  <p>PCI 後的抗血小板治療永遠是同一個拉鋸：<b>壓缺血，就得付出出血代價</b>。目前指引的預設路徑是慢性冠心症 PCI 後 DAPT 6 個月、急性冠心症後 12 個月，之後多數人轉為 aspirin 單藥。</p>
+  <p>但這條路徑留下兩個沒被回答好的問題：</p>
+
+  <div class="two">
+    <div class="card">
+      <span class="tag k">問題一</span>
+      <p><b>高缺血風險的人，DAPT 要不要延長？</b>指引允許「可考慮」延長，但延長 DAPT 過去主要是拿來和 <b>aspirin 單藥</b>比，而不是和 <b>clopidogrel 單藥</b>比。</p>
+    </div>
+    <div class="card">
+      <span class="tag k">問題二</span>
+      <p><b>DAPT 結束後，單藥該用誰？</b>HOST 系列與 SMART-CHOICE 3 等試驗顯示 clopidogrel 單藥優於 aspirin 單藥——缺血更少，而且沒有付出出血代價。</p>
+    </div>
+  </div>
+
+  <p>把這兩件事接起來，就會冒出 A-CLOSE 要問的問題：<b>既然 clopidogrel 單藥已經被證明比 aspirin 單藥好，那在高缺血風險的人身上，它能不能直接取代「延長 DAPT」？</b>換句話說——能不能少吃一顆藥，卻不多出事？</p>
+
+  <div class="note">
+    <span class="t">先想清楚這個試驗的位置</span>
+    過去的比較多半是「延長 DAPT vs aspirin 單藥」或「clopidogrel 單藥 vs aspirin 單藥」。
+    A-CLOSE 補的是一直空著的那一格：<b>clopidogrel 單藥 vs 延長 DAPT</b>，而且指定在高缺血風險族群裡比。
+  </div>
+</section>
+
+<!-- ================= 3 設計 ================= -->
+<section id="s3">
+  <h2>試驗設計</h2>
+  <div class="scroll">
+    <table>
+      <tbody>
+        <tr><th>試驗性質</th><td>Prospective、randomised、<b>open-label</b>、investigator-initiated、<b>non-inferiority</b> trial</td></tr>
+        <tr><th>場域</th><td>南韓 19 家中心；收案期間 2019 年 8 月 – 2023 年 8 月</td></tr>
+        <tr><th>族群</th><td>DES 置放後<b>已滿 12 個月</b>、期間無事件，且具備至少一項高缺血風險特徵</td></tr>
+        <tr><th>隨機</th><td>1:1 分派為 clopidogrel 單藥 或 延長 DAPT（aspirin + clopidogrel），為期 24 個月<br><span class="mono" style="color:var(--dim)">分層：index 血管重建是否為 ACS；年齡 &lt; 75 或 ≥ 75 歲</span></td></tr>
+        <tr><th>人數</th><td>3,203 人（clopidogrel 1,601 / 延長 DAPT 1,602）</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>高缺血風險怎麼定義（至少符合一項）</h3>
+  <div class="two">
+    <div class="card">
+      <span class="tag k">臨床特徵</span>
+      <ul style="margin-bottom:0">
+        <li>急性冠心症 (ACS)</li>
+        <li>需藥物治療的糖尿病</li>
+        <li>慢性腎臟病</li>
+        <li>心衰竭</li>
+        <li>既往中風</li>
+        <li>既往周邊動脈血管重建</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag k">血管攝影／術式特徵</span>
+      <ul style="margin-bottom:0">
+        <li>左主幹 (LMS)</li>
+        <li>分叉病變 (bifurcation)</li>
+        <li>慢性全阻塞 (CTO)</li>
+        <li>支架內再狹窄 (ISR)</li>
+        <li>繞道血管 (bypass graft) 病變</li>
+        <li>瀰漫長病變（支架長度 ≥ 28 mm）</li>
+        <li>需 atherectomy 的鈣化病變</li>
+        <li>多支血管病變合併多支支架</li>
+        <li>小血管（支架直徑 ≤ 2.5 mm）</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="note warn">
+    <span class="t">排除條件——這決定了結論能套用到誰</span>
+    需口服抗凝藥者、隨機前 3 個月內曾發生大出血者、<b>年齡 &gt; 80 歲</b>者皆排除。
+    也就是說，這個試驗<b>沒有納入高出血風險族群</b>，收的是「缺血風險高、但出血風險不特別高」的人。
+  </div>
+
+  <h3>終點定義</h3>
+  <div class="cmp">
+    <div class="row hd"><div class="lbl">終點</div><div class="n">組成</div><div class="n"></div></div>
+    <div class="row"><div class="lbl"><b>主要終點：NACE</b><span class="sub">net adverse clinical events @ 24 mo</span></div><div class="n" style="text-align:left;font-weight:400;font-size:13.5px;font-family:inherit">全因死亡 ＋ MI ＋ 支架血栓 ＋ 中風 ＋ <b>BARC 2/3/5 出血</b></div><div class="n"></div></div>
+    <div class="row"><div class="lbl"><b>關鍵次要：缺血</b></div><div class="n" style="text-align:left;font-weight:400;font-size:13.5px;font-family:inherit">全因死亡 ＋ MI ＋ 支架血栓 ＋ 中風</div><div class="n"></div></div>
+    <div class="row"><div class="lbl"><b>關鍵次要：出血</b></div><div class="n" style="text-align:left;font-weight:400;font-size:13.5px;font-family:inherit">BARC type 2、3 或 5</div><div class="n"></div></div>
+  </div>
+
+  <div class="note bad">
+    <span class="t">設計層面最該注意的一件事</span>
+    主要終點把<b>缺血事件與出血事件放進同一個複合終點</b>。當一種策略減少缺血、另一種減少出血時，
+    NACE 幾乎注定會「打平」——這個設計本身就傾向產生 non-inferiority 的結果。
+    所以讀這篇論文，<b>次要終點不是配角，而是真正的訊息所在</b>。
+  </div>
+</section>
+
+<!-- ================= 4 結果 ================= -->
+<section id="s4">
+  <h2>族群樣貌</h2>
+  <div class="stats">
+    <div class="stat"><div class="v">62.6</div><div class="l">平均年齡（± 9.6 歲）</div></div>
+    <div class="stat"><div class="v">81.6<span style="font-size:.55em">%</span></div><div class="l">男性（女性 18.4%）</div></div>
+    <div class="stat"><div class="v">79<span style="font-size:.55em">%</span></div><div class="l">index 事件為 ACS</div></div>
+    <div class="stat"><div class="v">40<span style="font-size:.55em">%</span></div><div class="l">糖尿病</div></div>
+    <div class="stat"><div class="v">68<span style="font-size:.55em">%</span></div><div class="l">瀰漫長病變</div></div>
+    <div class="stat"><div class="v">35<span style="font-size:.55em">%</span></div><div class="l">多支血管病變（分叉 26%）</div></div>
+  </div>
+  <p style="color:var(--mute);font-size:14px">這是一個<b>以 ACS 為主體、病變複雜度高</b>的族群——換句話說，是真正會讓人猶豫「要不要繼續兩顆」的那種病人。</p>
+
+  <h2>主要與次要終點（24 個月）</h2>
+  <div class="cmp">
+    <div class="row hd"><div class="lbl">終點</div><div class="n">Clopidogrel</div><div class="n">延長 DAPT</div></div>
+    <div class="row">
+      <div class="lbl"><b>NACE（主要終點）</b><span class="sub">p = 0.001 for non-inferiority</span></div>
+      <div class="n clop">5.0%</div><div class="n dapt">5.1%</div>
+    </div>
+    <div class="row">
+      <div class="lbl"><b>缺血複合終點</b><span class="sub">HR 2.33 (95% CI 1.47–3.69), p &lt; 0.001</span></div>
+      <div class="n clop">3.7%</div><div class="n dapt">1.6%</div>
+    </div>
+    <div class="row">
+      <div class="lbl"><b>出血 BARC 2/3/5</b><span class="sub">HR 0.43 (95% CI 0.27–0.67), p &lt; 0.001</span></div>
+      <div class="n clop">1.8%</div><div class="n dapt">4.1%</div>
+    </div>
+    <div class="row">
+      <div class="lbl">全因死亡<span class="sub">HR 3.01 (95% CI 1.28–7.09)</span></div>
+      <div class="n clop">1.3%</div><div class="n dapt">0.4%</div>
+    </div>
+    <div class="row">
+      <div class="lbl">心血管死亡<span class="sub">HR 4.68 (95% CI 1.35–16.3)</span></div>
+      <div class="n clop">0.9%</div><div class="n dapt">0.2%</div>
+    </div>
+  </div>
+
+  <div class="note good">
+    <span class="t">怎麼把這張表講給同事聽</span>
+    「整體算下來一樣，但<b>不是因為兩邊都沒事，而是因為出事的種類不同</b>。
+    延長 DAPT 少了缺血事件、多了出血事件；clopidogrel 單藥反過來。
+    差別在於——<b>缺血那一側包含死亡，出血那一側大多不包含。</b>」
+  </div>
+
+  <div class="note bad">
+    <span class="t">死亡率訊號：方向要講，不確定性也要講</span>
+    全因死亡與心血管死亡都不利於 clopidogrel 單藥，方向一致、CI 也不跨 1，<b>不能當作沒看到</b>。
+    但同時必須說清楚：這是<b>次要終點</b>、沒有為此做 multiplicity 校正、絕對事件數極少
+    （心血管死亡約 <span class="mono">14 例 vs 3 例</span>）。<span class="mono">HR 4.68 的 95% CI 一路開到 16.3</span>，
+    這種寬度本身就是在說「點估計不要當真」。<br>
+    正確講法是<b>「觀察到不利於單藥的死亡訊號，需要更大規模的資料確認」</b>，
+    而不是「clopidogrel 單藥會讓病人多死四倍」。
+  </div>
+
+  <div class="note warn">
+    <span class="t">一個引用時的技術性提醒</span>
+    會場與二手報導對主要終點的呈現為「risk difference −0.1 個百分點，90% CI 0.72–1.34」。
+    百分點差值搭配 0.72–1.34 這種<b>比值尺度</b>的信賴區間並不相稱，推測是二手整理時的單位混用。
+    正式數值請以 <a href="https://doi.org/10.1056/NEJMoa2608533" target="_blank" rel="noopener">NEJM 原文</a>為準，
+    本頁其餘 HR 與 CI 則與 PCR / ESC 官方發布一致。
+  </div>
+</section>
+
+<!-- ================= 5 試驗對照 ================= -->
+<section id="s5">
+  <h2>放進整個證據版圖看</h2>
+  <p>要理解 A-CLOSE 的份量，得先知道它填的是哪一格。以下是 DAPT 期滿之後、長期策略的幾條主要證據線：</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>試驗</th><th>比較</th><th>族群</th><th>結果方向</th></tr></thead>
+      <tbody>
+        <tr><td><b>HOST 系列</b></td><td>Clopidogrel 單藥 vs aspirin 單藥</td><td>含大量高缺血風險</td><td>Clopidogrel 缺血與出血<b>雙贏</b></td></tr>
+        <tr><td><b>SMART-CHOICE 3</b></td><td>Clopidogrel 單藥 vs aspirin 單藥</td><td>全為高缺血風險</td><td>Clopidogrel 缺血較少，<b>未增加出血</b></td></tr>
+        <tr><td><b>DAPT trial</b></td><td>延長 DAPT vs aspirin 單藥</td><td>整體族群</td><td>缺血／支架血栓較少，<b>出血較多</b>；次族群分析顯示高缺血風險者較可能獲益</td></tr>
+        <tr><td><b>DAPT-MVD</b></td><td>延長 DAPT vs aspirin 單藥</td><td>多支血管病變</td><td>缺血較少，<b>未顯著增加出血</b></td></tr>
+        <tr><td><b>OPT-BIRISK</b></td><td>Clopidogrel 單藥 vs 延長 DAPT</td><td><b>缺血與出血皆高風險</b></td><td>Clopidogrel 缺血與出血<b>皆較低</b></td></tr>
+        <tr style="background:var(--card2)"><td><b>A-CLOSE</b></td><td>Clopidogrel 單藥 vs 延長 DAPT</td><td><b>僅高缺血風險</b></td><td>NACE non-inferior，但<b>缺血較多、出血較少</b>，死亡訊號不利單藥</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <span class="t">A-CLOSE 與 OPT-BIRISK 為什麼結論不同？看收案就懂</span>
+    兩者問的是同一個比較（clopidogrel 單藥 vs 延長 DAPT），結果卻不同——關鍵在族群。
+    <b>OPT-BIRISK 收的是「缺血＋出血雙高風險」</b>，這種病人本來就承受不起兩顆藥的出血代價，
+    所以減藥能同時改善兩端。<b>A-CLOSE 只收「缺血高風險」，並把高出血風險排除在外</b>，
+    這種病人比較扛得住 DAPT，於是延長 DAPT 的缺血好處就顯現出來了。<br>
+    <b>同一個問題，換一群病人，答案就翻面——這正是「風險分層」在抗栓決策裡的意義。</b>
+  </div>
+
+  <div class="note warn">
+    <span class="t">不要把 A-CLOSE 拿來否定 clopidogrel 單藥</span>
+    A-CLOSE 沒有推翻 HOST 與 SMART-CHOICE 3。那些試驗說的是
+    <b>「如果你要用單藥，clopidogrel 比 aspirin 好」</b>——這個結論依然成立。
+    A-CLOSE 回答的是另一個問題：<b>「在高缺血風險的人，該用單藥還是繼續兩顆？」</b>
+    兩者不衝突，是接續的兩層決策。
+  </div>
+</section>
+
+<!-- ================= 6 臨床應用 ================= -->
+<section id="s6">
+  <h2>這個試驗改變什麼、不改變什麼</h2>
+
+  <div class="two">
+    <div class="card">
+      <span class="tag dapt">會影響決策的地方</span>
+      <p>面對<b>缺血風險高、出血風險不高</b>的病人（尤其 ACS 後、病變複雜、糖尿病），
+      DAPT 滿 12 個月時如果原本打算「降階成 clopidogrel 單藥」，
+      現在應該<b>把延長 DAPT 重新拉回選項</b>，而不是預設減藥。</p>
+    </div>
+    <div class="card">
+      <span class="tag clop">不會改變的地方</span>
+      <p>高出血風險、年紀大（&gt; 80 歲被排除）、需口服抗凝、近期大出血的病人，
+      本試驗<b>沒有納入</b>，不能拿這個結果去支持在他們身上延長 DAPT。</p>
+    </div>
+  </div>
+
+  <h3>臨床上該怎麼談</h3>
+  <div class="card">
+    <p>這是一個<b>適合做共享決策 (shared decision-making) 的典型情境</b>——因為沒有一個策略在所有面向都贏。
+    可以這樣攤開給病人聽：</p>
+    <ul style="margin-bottom:0">
+      <li><b>繼續兩顆藥：</b>約每 100 人少 2 個缺血事件（含心肌梗塞、支架血栓、中風），但多約 2.3 個出血事件（多數為非致命性）。</li>
+      <li><b>減為一顆 clopidogrel：</b>出血明顯減少，代價是缺血事件增加，且本試驗觀察到不利於單藥的死亡訊號（不確定性大）。</li>
+      <li><b>兩個都不是錯的選擇</b>，取決於這位病人怕的是哪一邊，以及他的出血風險有多高。</li>
+    </ul>
+  </div>
+
+  <h3>誠實標註的限制</h3>
+  <div class="card">
+    <ul style="margin-bottom:0">
+      <li><b>族群限於南韓 19 家中心。</b>東亞族群的出血傾向較高、缺血事件型態也不同，
+        「東亞矛盾 (East Asian paradox)」使得這個缺血／出血的平衡點不宜直接外推到非東亞人。</li>
+      <li><b>Open-label 設計。</b>雖然死亡與 MI 屬硬終點受影響較小，但出血事件的通報與判定在未盲化下仍可能受影響。</li>
+      <li><b>整體事件率偏低</b>（NACE 僅約 5%），使個別終點的差異在絕對值上都很小，估計的不精確度高。</li>
+      <li><b>Clopidogrel non-responder 未被處理。</b>在單藥策略下，CYP2C19 功能缺失者等於幾乎沒有有效的抗血小板保護，
+        這可能是缺血終點差異的來源之一，但本試驗未以基因型或血小板功能分層。</li>
+      <li><b>死亡率為次要終點</b>，未做 multiplicity 校正，事件數極少。</li>
+    </ul>
+  </div>
+
+  <div class="note good">
+    <span class="t">一句話總結</span>
+    在 DES 置放滿一年、缺血風險高而出血風險不高的病人，把兩顆藥減成 clopidogrel 一顆，
+    <b>整體不良事件總量是打平的，但你是用「多一點缺血」去換「少一點出血」</b>。
+    對這一群人，延長 DAPT 仍值得優先考慮；真正的工作在於<b>誠實評估每個病人的出血風險</b>，
+    而不是把 non-inferiority 當成可以放心減藥的通行證。
+  </div>
+</section>
+
+<!-- ================= 7 測驗 ================= -->
+<section id="s7">
+  <h2>自我測驗</h2>
+  <div id="quiz"></div>
+</section>
+
+<footer>
+  <p><b>讀書會共筆整理人</b><br>謝慕揚 醫師 MD, PhD, FESC<br>結構性心臟病與介入心臟學</p>
+  <p style="margin-top:14px">
+    資料來源：ESC Congress 2026 Munich Hot Line 現場發表、ESC 官方新聞稿，
+    以及 PCRonline 由 Nicola Ryan 撰寫之 trial commentary。<br>
+    原始論文：<a href="https://doi.org/10.1056/NEJMoa2608533" target="_blank" rel="noopener">Lee SJ, Lee YJ, Lee K, et al. <i>N Engl J Med.</i> 2026. doi:10.1056/NEJMoa2608533</a>　·
+    試驗註冊：<a href="https://clinicaltrials.gov/study/NCT03947229" target="_blank" rel="noopener">NCT03947229</a>
+  </p>
+  <p style="margin-top:14px">
+    · 本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br>
+    · 僅供學術與教育用途，不代表任何單位之官方立場<br>
+    · 本內容未涉及任何利益衝突<br>
+    · 數據取自會議發表與二手報導，正式數值請以 NEJM 原文為準
+  </p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+  /* 主題切換 */
+  var tt=document.getElementById('tt'), root=document.documentElement;
+  try{ if(localStorage.getItem('aclose-theme')==='light') root.setAttribute('data-t','light'); }catch(e){}
+  function sync(){ tt.textContent = root.getAttribute('data-t')==='light' ? '☀' : '☾'; }
+  sync();
+  tt.addEventListener('click',function(){
+    var light = root.getAttribute('data-t')==='light';
+    if(light) root.removeAttribute('data-t'); else root.setAttribute('data-t','light');
+    try{ localStorage.setItem('aclose-theme', light?'dark':'light'); }catch(e){}
+    sync();
+  });
+
+  /* 分頁 */
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  tabs.forEach(function(b){
+    b.addEventListener('click',function(){
+      tabs.forEach(function(x){ x.classList.remove('on'); });
+      [].forEach.call(document.querySelectorAll('section'),function(s){ s.classList.remove('on'); });
+      b.classList.add('on');
+      document.getElementById(b.getAttribute('data-s')).classList.add('on');
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  });
+
+  /* 測驗 */
+  var Q=[
+   {q:"A-CLOSE 的主要終點 NACE 達到 non-inferiority（5.0% vs 5.1%）。以下哪個解讀最正確？",
+    o:["兩種策略在所有面向上表現相同，可依偏好任選",
+       "Clopidogrel 單藥以較多缺血事件換取較少出血事件，總量剛好打平",
+       "Clopidogrel 單藥優於延長 DAPT",
+       "因為未達顯著，本試驗為 negative trial"],
+    c:1,
+    e:"NACE 同時包含缺血與出血。當一種策略減少缺血、另一種減少出血，複合終點很容易互相抵銷而「打平」。拆開看：缺血 HR 2.33 不利單藥、出血 HR 0.43 有利單藥。所以 non-inferiority 的正確語意是「總量相當」，而不是「兩者一樣好」。"},
+
+   {q:"關於本試驗觀察到的死亡率差異（全因死亡 HR 3.01, 95% CI 1.28–7.09；心血管死亡 HR 4.68, 95% CI 1.35–16.3），最恰當的描述是？",
+    o:["證實 clopidogrel 單藥會增加死亡率約三到四倍",
+       "CI 跨過 1，屬於中性結果，可以忽略",
+       "方向一致且 CI 不跨 1，但屬次要終點、事件數極少、CI 極寬，應描述為需要驗證的訊號",
+       "因為是次要終點，完全不應該在共筆中提及"],
+    c:2,
+    e:"兩個方向一致且 CI 不跨 1，不能當作沒看到；但它是次要終點、未做 multiplicity 校正，且絕對事件數極少（心血管死亡約 14 vs 3 例），CI 上界達 16.3。正確寫法是「觀察到不利於單藥的死亡訊號，需要更大規模資料確認」。既不誇大、也不隱藏。"},
+
+   {q:"A-CLOSE 與 OPT-BIRISK 都比較 clopidogrel 單藥與延長 DAPT，結論卻不同。最主要的原因是？",
+    o:["OPT-BIRISK 樣本數大很多",
+       "收案族群不同：OPT-BIRISK 收缺血與出血皆高風險，A-CLOSE 只收高缺血風險並排除高出血風險",
+       "兩者使用的 clopidogrel 劑量不同",
+       "OPT-BIRISK 是雙盲而 A-CLOSE 是開放標籤"],
+    c:1,
+    e:"關鍵在族群。OPT-BIRISK 的病人同時有高出血風險，本來就承受不起兩顆藥，減藥能同時改善缺血與出血；A-CLOSE 排除了高出血風險者，這群人扛得住 DAPT，於是延長 DAPT 的缺血好處顯現。同一個比較，換一群病人，答案就翻面。"},
+
+   {q:"以下哪一類病人，A-CLOSE 的結果「不能」直接套用？",
+    o:["ACS 後置放 DES、合併糖尿病的 62 歲男性",
+       "DES 後一年、有 CTO 與分叉病變的 58 歲病人",
+       "83 歲、三個月前曾有消化道大出血、正在服用抗凝藥的病人",
+       "DES 後一年、支架長度 34 mm 的多支血管病變病人"],
+    c:2,
+    e:"本試驗排除了年齡 > 80 歲、隨機前 3 個月內大出血、以及需口服抗凝藥者。選項 C 三項全中，完全落在排除條件之外。其餘三位都符合高缺血風險的收案定義。"},
+
+   {q:"關於本試驗的外推性，最重要的限制是？",
+    o:["收案期間橫跨 COVID-19 疫情",
+       "19 家中心全在南韓，東亞族群的出血／缺血平衡與非東亞人不同",
+       "使用的是第一代藥物塗層支架",
+       "追蹤期只有 6 個月"],
+    c:1,
+    e:"這是評述中被列為「最重要」的限制。東亞族群出血傾向較高、缺血事件型態不同（East Asian paradox），使得缺血與出血的取捨點本身就與西方族群不同，因此結果不宜直接外推。追蹤期實為 24 個月。"},
+
+   {q:"為什麼說 A-CLOSE 的主要終點設計「本身就傾向產生 non-inferiority」？",
+    o:["因為採用了過寬的 non-inferiority margin",
+       "因為 NACE 把方向相反的缺血事件與出血事件放進同一個複合終點",
+       "因為採用 open-label 設計",
+       "因為事件率被刻意低估"],
+    c:1,
+    e:"當兩種策略各自減少複合終點中的不同成分（一邊少缺血、一邊少出血），加總後很容易互相抵銷。這不是設計錯誤，而是 NACE 這類 net benefit 終點的固有特性——也正因如此，讀這種試驗時次要終點才是真正的訊息所在。"},
+
+   {q:"A-CLOSE 的結果是否推翻了 HOST 與 SMART-CHOICE 3 關於 clopidogrel 單藥的結論？",
+    o:["是，clopidogrel 單藥已不再建議使用",
+       "否，那些試驗比較的是 clopidogrel 單藥 vs aspirin 單藥，與本試驗問的是不同層次的問題",
+       "是，因為 A-CLOSE 樣本數更大",
+       "無法判斷，因為族群完全不同"],
+    c:1,
+    e:"兩者不衝突，是接續的兩層決策。HOST／SMART-CHOICE 3 回答「若要用單藥，選 clopidogrel 還是 aspirin」——答案仍是 clopidogrel。A-CLOSE 回答的是上一層：「在高缺血風險的人，該用單藥還是繼續兩顆」。"},
+
+   {q:"依據本試驗，面對一位 ACS 後一年、糖尿病、支架長度 32 mm、無出血病史的 60 歲病人，最合理的做法是？",
+    o:["一律延長 DAPT，不需討論",
+       "一律降階為 clopidogrel 單藥",
+       "把延長 DAPT 列為優先考慮，並與病人討論缺血與出血的取捨後共同決定",
+       "改為 aspirin 單藥"],
+    c:2,
+    e:"這位病人符合高缺血風險、且無明顯出血風險，正是 A-CLOSE 的目標族群——評述建議對這類病人「strong consideration」給延長 DAPT。但因為兩種策略各有代價、且沒有一方全面獲勝，這正是適合共享決策的情境，而非單方面決定。"}
+  ];
+
+  var box=document.getElementById('quiz'), html='';
+  Q.forEach(function(x,i){
+    html+='<div class="q" data-a="'+x.c+'"><p class="qt">'+(i+1)+'. '+x.q+'</p>';
+    x.o.forEach(function(o,j){
+      html+='<button class="opt">'+String.fromCharCode(65+j)+'. '+o+'</button>';
+    });
+    html+='<div class="exp"><b>解析：</b>'+x.e+'</div></div>';
+  });
+  box.innerHTML=html;
+
+  [].forEach.call(box.querySelectorAll('.q'),function(q){
+    var ans=parseInt(q.getAttribute('data-a'),10);
+    var opts=[].slice.call(q.querySelectorAll('.opt'));
+    opts.forEach(function(b,i){
+      b.addEventListener('click',function(){
+        if(q.dataset.done) return;
+        q.dataset.done='1';
+        opts.forEach(function(o,j){
+          o.disabled=true;
+          if(j===ans) o.classList.add('ok');
+          else if(j===i) o.classList.add('no');
+        });
+        q.querySelector('.exp').classList.add('on');
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>
