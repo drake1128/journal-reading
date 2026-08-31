@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESC 2026 ACS 海報四篇｜發炎指標・晚期 PCI・床邊超音波・ANOCA（讀書會共筆）</title>
+<style>
+:root{
+  --bg:#0e1420; --card:#161f2e; --card2:#1c2738; --line:#26344a; --line2:#33445e;
+  --text:#e8edf4; --mute:#93a3b8; --dim:#6b7d94;
+  --key:#5fb8d4; --a:#f0883e; --b:#5b9bd5;
+  --bad:#e5534b; --good:#4ec9a0; --warn:#e3b341;
+  --shadow:0 6px 24px rgba(0,0,0,.35);
+}
+html[data-t="light"]{
+  --bg:#f6f8fb; --card:#ffffff; --card2:#eef2f7; --line:#dde4ed; --line2:#c6d2e0;
+  --text:#16202e; --mute:#54637a; --dim:#77879c;
+  --key:#0e7490; --a:#c2560f; --b:#1f5fa8;
+  --bad:#b3261e; --good:#0f7a5a; --warn:#8a6300;
+  --shadow:0 4px 18px rgba(20,35,60,.10);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.75;font-size:15.5px;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px 72px}
+header{padding:30px 0 16px;position:relative}
+.eyebrow{font:600 11.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--key);margin:0 0 10px}
+h1{font-size:clamp(1.55rem,4.6vw,2.15rem);line-height:1.3;margin:0 0 6px;letter-spacing:-.01em}
+h1 small{display:block;font-size:.5em;font-weight:500;color:var(--mute);margin-top:10px;letter-spacing:0;line-height:1.6}
+.byline{color:var(--dim);font-size:13.5px;margin:14px 0 0}
+.byline a{color:var(--key)}
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 0}
+.pill{font:600 11.5px/1 ui-monospace,monospace;letter-spacing:.05em;padding:7px 11px;border-radius:999px;
+  border:1px solid var(--line2);color:var(--mute)}
+.pill.ni{color:var(--good);border-color:var(--good)}
+.pill.tr{color:var(--warn);border-color:var(--warn)}
+.pill.no{color:var(--bad);border-color:var(--bad)}
+.themetog{position:absolute;top:26px;right:0;background:var(--card);border:1px solid var(--line2);
+  border-radius:999px;width:42px;height:42px;font-size:17px;cursor:pointer;color:var(--text)}
+nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);
+  margin:20px -16px 0;padding:0 16px}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;background:none;border:none;border-bottom:2.5px solid transparent;
+  color:var(--mute);font:600 14px/1 inherit;padding:14px 12px;cursor:pointer;white-space:nowrap}
+.tab.on{color:var(--key);border-bottom-color:var(--key)}
+section{display:none;padding-top:24px;animation:fade .28s ease}
+section.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+h2{font-size:1.16rem;margin:30px 0 12px;letter-spacing:-.01em}
+h2:first-child{margin-top:4px}
+h3{font-size:1.02rem;margin:22px 0 8px;color:var(--key)}
+p{margin:0 0 13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 15px}
+.card.tight{padding:14px 17px}
+ol,ul{margin:0 0 13px;padding-left:1.3em}
+li{margin:0 0 9px}
+b,strong{color:var(--text);font-weight:700}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.th{counter-reset:th}
+.th .item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.th .item:last-child{border-bottom:none}
+.th .item::before{counter-increment:th;content:counter(th);flex:0 0 27px;height:27px;border-radius:50%;
+  background:var(--key);color:var(--bg);font:700 13.5px/27px ui-monospace,monospace;text-align:center}
+html[data-t="light"] .th .item::before{color:#fff}
+.th .item p{margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin:0 0 15px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px}
+.stat .v{font:700 1.5rem/1.15 ui-monospace,monospace;letter-spacing:-.02em}
+.stat .l{font-size:12.5px;color:var(--mute);margin-top:6px;line-height:1.5}
+.stat.a .v{color:var(--a)} .stat.b .v{color:var(--b)}
+.stat.bad .v{color:var(--bad)} .stat.good .v{color:var(--good)} .stat.warn .v{color:var(--warn)}
+.cmp{background:var(--card);border:1px solid var(--line);border-radius:13px;overflow:hidden;margin:0 0 15px}
+.cmp .row{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+  padding:12px 16px;border-bottom:1px solid var(--line)}
+.cmp .row:last-child{border-bottom:none}
+.cmp .row.hd{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.cmp .n{font-family:ui-monospace,monospace;font-weight:700;min-width:64px;text-align:right}
+.cmp .n.a{color:var(--a)} .cmp .n.b{color:var(--b)}
+.cmp .lbl{font-size:14px}
+.cmp .sub{display:block;font-size:12px;color:var(--dim);font-family:ui-monospace,monospace;margin-top:3px}
+.note{border-left:3px solid var(--key);background:var(--card);border-radius:0 11px 11px 0;
+  padding:14px 17px;margin:0 0 15px;font-size:14.6px}
+.note.warn{border-left-color:var(--warn)}
+.note.bad{border-left-color:var(--bad)}
+.note.good{border-left-color:var(--good)}
+.note .t{display:block;font-weight:700;margin-bottom:6px;color:var(--key)}
+.note.warn .t{color:var(--warn)} .note.bad .t{color:var(--bad)} .note.good .t{color:var(--good)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 15px}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:13.8px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--mute);white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+td.num{font-family:ui-monospace,monospace;white-space:nowrap}
+tr.hi td{background:var(--card2)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:13px;margin:0 0 15px}
+.tag{display:inline-block;font:600 10.5px/1 ui-monospace,monospace;letter-spacing:.12em;
+  text-transform:uppercase;padding:5px 8px;border-radius:5px;margin-bottom:9px}
+.tag.a{background:rgba(240,136,62,.14);color:var(--a)}
+.tag.b{background:rgba(91,155,213,.14);color:var(--b)}
+.tag.k{background:rgba(95,184,212,.14);color:var(--key)}
+.tag.good{background:rgba(78,201,160,.14);color:var(--good)}
+.tag.bad{background:rgba(229,83,75,.14);color:var(--bad)}
+.flow{margin:0 0 15px}
+.flow .n{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px 16px;font-size:14.2px}
+.flow .arw{text-align:center;color:var(--dim);font-size:17px;line-height:1;padding:6px 0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 14px}
+.q .qt{font-weight:600;margin:0 0 12px}
+.opt{display:block;width:100%;text-align:left;background:var(--card2);border:1px solid var(--line2);
+  color:var(--text);border-radius:9px;padding:11px 14px;margin:0 0 8px;cursor:pointer;font:inherit;font-size:14.4px}
+.opt:hover:not(:disabled){border-color:var(--key)}
+.opt:disabled{cursor:default;opacity:.92}
+.opt.ok{border-color:var(--good);background:rgba(78,201,160,.12)}
+.opt.no{border-color:var(--bad);background:rgba(229,83,75,.12)}
+.exp{display:none;margin-top:10px;padding:12px 14px;background:var(--card2);
+  border-left:3px solid var(--key);border-radius:0 9px 9px 0;font-size:14.2px}
+.exp.on{display:block}
+footer{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+footer b{color:var(--mute)}
+a{color:var(--key)}
+@media(max-width:560px){
+  .cmp .row{grid-template-columns:1fr auto;row-gap:6px}
+  .cmp .row .n:first-of-type{grid-column:2}
+  .cmp .row.hd{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <button class="themetog" id="tt" aria-label="切換深色淺色">☾</button>
+  <p class="eyebrow">ESC Congress 2026 · Munich · Moderated Posters</p>
+  <h1>ACS 海報四篇
+    <small>從入院抽血、到何時打通、到床邊超音波分流、<br>到血管乾淨之後——一條完整的急性冠心症決策軸線</small>
+  </h1>
+  <p class="byline">
+    ESC Congress 2026, Munich · Acute Coronary Syndromes 主題區<br>
+    四篇獨立海報摘要彙整
+  </p>
+  <div class="pills">
+    <span class="pill">4 篇海報</span>
+    <span class="pill">n = 44,802 / 2,730 / 510 / 622</span>
+    <span class="pill tr">全為觀察性研究</span>
+    <span class="pill">含 1 篇病人自述調查</span>
+  </div>
+</header>
+
+<nav>
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-s="s1">總覽</button>
+    <button class="tab" data-s="s2">① 發炎指標</button>
+    <button class="tab" data-s="s3">② 晚期 PCI</button>
+    <button class="tab" data-s="s4">③ 床邊超音波</button>
+    <button class="tab" data-s="s5">④ ANOCA</button>
+    <button class="tab" data-s="s6">怎麼讀這批</button>
+    <button class="tab" data-s="s7">自我測驗</button>
+  </div>
+</nav>
+
+<!-- ============ 1 總覽 ============ -->
+<section id="s1" class="on">
+  <h2>這四篇串起來是同一條線</h2>
+  <p>單看每一篇，是四個沒關係的題目。但把它們按照病人在急診的時間軸排開，剛好走完一個急性冠心症病人會遇到的四道決策關卡：</p>
+
+  <div class="flow">
+    <div class="n"><span class="tag k">① 入院當下</span><b>抽血能不能幫我分層？</b><br>44,802 位 STEMI 的發炎指標 — 便宜、現成，但增益有限</div>
+    <div class="arw">↓</div>
+    <div class="n"><span class="tag k">② 已經確診 STEMI，但來晚了</span><b>12–48 小時才來，還要不要打通？</b><br>2,730 位穩定晚到 STEMI — 好處集中在 25–48 小時，這件事本身很可疑</div>
+    <div class="arw">↓</div>
+    <div class="n"><span class="tag k">③ 還沒確診，只有胸痛</span><b>床邊超音波能不能幫我分流？</b><br>EPIC-ACS 510 人 — RWMA 與心外膜脂肪加進模型，AUC 0.788 → 0.927</div>
+    <div class="arw">↓</div>
+    <div class="n"><span class="tag k">④ 導管做完，血管是乾淨的</span><b>然後呢？</b><br>ANOCA 全球調查 622 人 — 五分之四放棄了原本的興趣與運動</div>
+  </div>
+
+  <h2>四篇的一句話結論</h2>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>#</th><th>主題</th><th>規模</th><th>一句話結論</th><th>證據強度</th></tr></thead>
+    <tbody>
+      <tr><td class="num">①</td><td>STEMI 發炎指標預測 1 年死亡</td><td class="num">44,802</td><td>NLR / MLR 是獨立預測因子，但單獨 AUC 僅 0.59，加入模型後 C-index 只增加 0.019–0.025</td><td>大規模但<b>增益微小</b></td></tr>
+      <tr><td class="num">②</td><td>穩定 STEMI 晚期 PCI（12–48h）</td><td class="num">2,730</td><td>整體 OR 0.54 有利 PCI，但好處<b>只出現在 25–48h</b>（OR 0.30），12–24h 無差異（OR 1.06）</td><td>觀察性，<b>時間梯度反直覺</b></td></tr>
+      <tr><td class="num">③</td><td>急性胸痛的床邊超音波（EPIC-ACS）</td><td class="num">510</td><td>RWMA 與心外膜脂肪組織可再分層，模型 AUC 從 0.788 提升至 0.927</td><td>單中心，<b>未外部驗證</b></td></tr>
+      <tr><td class="num">④</td><td>ANOCA 病人的生活衝擊</td><td class="num">622</td><td>4/5 放棄嗜好運動、1/3 完全停止工作；80% 了解自己的病，但只有 40% 認為醫師了解</td><td>自願參與調查，<b>但問題真實</b></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="note warn">
+    <span class="t">一個貫穿四篇的共同教訓</span>
+    這四篇裡有三篇（①②③）都在做同一件事：<b>找一個便宜、現成的東西來改善預測或決策</b>——抽血、時間窗、床邊超音波。三篇都報告了漂亮的統計顯著性，但只要往下追一層就會發現：<br>
+    ① 的 AUC 0.59 幾乎等於擲硬幣；② 的時間梯度指向存活者偏差；③ 的 AUC 0.927 是在同一批資料上建模又測試。<br>
+    <b>統計顯著 ≠ 臨床有用</b>，尤其在 n = 44,802 的資料庫裡，幾乎任何東西都會顯著。而第 ④ 篇沒有任何 P 值，卻可能是四篇裡最該改變我們行為的一篇。
+  </div>
+</section>
+
+<!-- ============ 2 發炎指標 ============ -->
+<section id="s2">
+  <h2>① 發炎指標顯著改善 STEMI 一年死亡率預測：大規模多中心研究</h2>
+  <p class="byline" style="margin:0 0 16px">
+    Fang-Jie Ji, Jun-Yu Liu, Rong-Xin Guo, Zheng-Kai Xue, Xian Shao, Hao Zhang, Xing Liu, Tong Liu, Kang-Yin Chen<br>
+    2nd Hospital of Tianjin Medical University, Tianjin, China；Nanfang Hospital, Division of Nephrology, Guangzhou, China
+  </p>
+
+  <h3>研究設計</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li><b>多中心回溯性世代研究</b>：82 家醫院，2010–2024 年</li>
+      <li><b>44,802 位連續收案的 STEMI 病人</b>，追蹤 1 年死亡率</li>
+      <li>預測因子：入院抽血算出的四個發炎指標
+        <ul>
+          <li><b>NLR</b>（neutrophil-to-lymphocyte ratio）中性球／淋巴球比</li>
+          <li><b>PLR</b>（platelet-to-lymphocyte ratio）血小板／淋巴球比</li>
+          <li><b>SII</b>（systemic immune-inflammation index）系統性免疫發炎指數</li>
+          <li><b>MLR</b>（monocyte-to-lymphocyte ratio）單核球／淋巴球比</li>
+        </ul>
+      </li>
+      <li>三個 Cox 比例風險模型：<b>Model 0</b> 基線臨床變項　·　<b>Model 1</b> Model 0 + NLR　·　<b>Model 2</b> Model 0 + 四個指標</li>
+      <li>以 Harrell's C-index 與 AUC 評估區辨力（R 軟體，雙尾 P &lt; 0.05）</li>
+    </ul>
+  </div>
+
+  <h3>結果</h3>
+  <div class="stats">
+    <div class="stat"><div class="v">15.85<span style="font-size:.55em">%</span></div><div class="l">1 年死亡率<br>7,103 例死亡</div></div>
+    <div class="stat warn"><div class="v">0.593</div><div class="l">NLR 與 MLR 的 AUC<br>PLR 0.587 · SII 0.573</div></div>
+    <div class="stat"><div class="v">1.192</div><div class="l">MLR 的 HR<br>1.160–1.224, P&lt;0.001</div></div>
+    <div class="stat"><div class="v">1.016</div><div class="l">NLR 的 HR<br>1.014–1.019, P&lt;0.001</div></div>
+  </div>
+  <div class="cmp">
+    <div class="row hd"><div>模型</div><div class="n">C-index</div><div class="n">Δ</div></div>
+    <div class="row"><div class="lbl">Model 0：基線臨床變項</div><div class="n">0.663</div><div class="n">—</div></div>
+    <div class="row"><div class="lbl">Model 1：+ NLR</div><div class="n">0.682</div><div class="n warn">+0.019</div></div>
+    <div class="row"><div class="lbl">Model 2：+ 全部四個指標</div><div class="n">0.688</div><div class="n warn">+0.025</div></div>
+  </div>
+  <p>作者結論：發炎指標（尤其 NLR 與 MLR）獨立預測 STEMI 的 1 年死亡，具顯著的增量預後價值；NLR 單獨即可改善風險分層，是便宜且容易取得的早期評估工具。</p>
+
+  <h3 style="color:var(--warn)">批判性閱讀</h3>
+  <div class="note warn">
+    <span class="t">「顯著改善」這四個字撐不起這些數字</span>
+    <b>1. AUC 0.593 幾乎等於擲硬幣。</b>AUC 0.5 是完全隨機，0.7 才勉強稱得上有區辨力。四個指標全部落在 0.57–0.59，作者自己也用了「modest」這個字。<br>
+    <b>2. C-index 增益 +0.019 / +0.025 在臨床上幾乎不可察覺。</b>在 44,802 人的資料裡，這種幅度必然「統計顯著」——但沒有一個 85 歲的 STEMI 病人的處置會因為 C-index 從 0.663 變成 0.688 而改變。<br>
+    <b>3. 加了四個指標只比加一個 NLR 多 0.006。</b>這說明四個指標高度共線（都以淋巴球為分母），彼此提供的資訊幾乎重疊。<br>
+    <b>4. 缺少判斷臨床效用的關鍵分析</b>：沒有 NRI / IDI（重新分類指標）、沒有校準度（calibration）評估、沒有決策曲線分析（DCA）。只有 C-index 無法回答「這會不會改變任何一個治療決定」。<br>
+    <b>5. NLR 的 HR 1.016 要看單位。</b>每上升 1 個單位風險增 1.6%——NLR 從 3 升到 10 才累積成有意義的差距。這種呈現方式容易讓人高估效應。
+  </div>
+  <div class="note">
+    <span class="t">那這篇還有什麼價值</span>
+    它的價值在於<b>規模與一致性</b>：82 家醫院、14 年、44,802 人，四個指標的方向完全一致，這確立了<b>「入院時的發炎程度確實與 STEMI 預後獨立相關」</b>這個生物學事實。<br>
+    真正該接下去問的是：<b>發炎是可以介入的目標嗎？</b>——這才是 CANTOS、COLCOT、LoDoCo2 那條線在做的事。把 NLR 當成預測工具，價值有限；把它當成<b>「這個病人可能適合抗發炎治療」的訊號</b>，才是更有前景的方向。
+  </div>
+</section>
+
+<!-- ============ 3 晚期 PCI ============ -->
+<section id="s3">
+  <h2>② 穩定 STEMI 晚期 PCI 的時間依存存活益處：12–48 小時窗口的傾向分數加權分析</h2>
+  <p class="byline" style="margin:0 0 16px">
+    E. Cenko, J. Yoon, M. Bergami, Z. Vasiljevic, S. Kedev, M. Vavlukis, M. Zdravkovic, D. Milicic, O. Manfrini, R. Bugiardini<br>
+    University of Bologna, Italy；Google Cloud AI, Sunnyvale, USA；University of Belgrade, Serbia；University Clinic of Cardiology, Skopje, North Macedonia；University Hospital Medical Center Bezanijska Kosa, Belgrade；University of Zagreb, Croatia
+  </p>
+
+  <h3>研究設計</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li><b>2,730 位 STEMI 病人</b>，症狀發作後 <b>12–48 小時</b>才到院且臨床穩定</li>
+      <li>比較 <b>PCI</b> vs <b>常規藥物治療（routine medical treatment, RMT）</b></li>
+      <li><b>排除</b>：心因性休克、心跳停止、嚴重心衰竭、持續性心絞痛、早期血管重建</li>
+      <li><b>主要終點</b>：30 天死亡率</li>
+      <li><b>分析</b>：IPTW（傾向分數加權）+ 依時間窗做交互作用檢定；校正性別、年齡、心血管風險因子、病史與到院生命徵象</li>
+    </ul>
+  </div>
+
+  <h3>基線特徵</h3>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>特徵</th><th>RMT</th><th>PCI</th></tr></thead>
+    <tbody>
+      <tr><td>女性</td><td class="num">37%</td><td class="num">30%</td></tr>
+      <tr><td>年齡</td><td class="num">66 (13)</td><td class="num">61 (12)</td></tr>
+      <tr><td>第二型糖尿病</td><td class="num">27%</td><td class="num">23%</td></tr>
+      <tr><td>吸菸</td><td class="num">28%</td><td class="num">39%</td></tr>
+      <tr><td>高血壓</td><td class="num">67%</td><td class="num">64%</td></tr>
+      <tr><td>高血脂</td><td class="num">30%</td><td class="num">35%</td></tr>
+      <tr><td>Aspirin</td><td class="num">94%</td><td class="num">99%</td></tr>
+      <tr class="hi"><td><b>乙型阻斷劑</b></td><td class="num">25%</td><td class="num">44%</td></tr>
+      <tr class="hi"><td><b>ACE 抑制劑</b></td><td class="num">25%</td><td class="num">45%</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>結果</h3>
+  <div class="stats">
+    <div class="stat good"><div class="v">3.1<span style="font-size:.6em"> vs </span>5.5<span style="font-size:.55em">%</span></div><div class="l">整體 30 天死亡率<br>PCI vs RMT</div></div>
+    <div class="stat"><div class="v">6.3<span style="font-size:.55em">%</span></div><div class="l">PCI 後死亡率<br>12–24 小時窗口</div></div>
+    <div class="stat good"><div class="v">1.8<span style="font-size:.55em">%</span></div><div class="l">PCI 後死亡率<br>25–48 小時窗口</div></div>
+  </div>
+  <div class="cmp">
+    <div class="row hd"><div>IPTW 校正後的勝算比</div><div class="n">OR (95% CI)</div><div class="n"></div></div>
+    <div class="row"><div class="lbl"><b>整體</b></div><div class="n good">0.54 (0.36–0.84)</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">12–24 小時</div><div class="n">1.06 (0.66–1.70)</div><div class="n"></div></div>
+    <div class="row"><div class="lbl"><b>25–48 小時</b></div><div class="n good">0.30 (0.16–0.58)</div><div class="n"></div></div>
+  </div>
+  <p>作者結論：在 12–48 小時到院的穩定 STEMI 病人，PCI 的益處<b>高度依賴時間</b>，且集中在 <b>25–48 小時窗口</b>（OR 0.30）。應採取「量身訂做」而非「一體適用」的晚期血管重建策略。</p>
+
+  <h3 style="color:var(--bad)">批判性閱讀</h3>
+  <div class="note bad">
+    <span class="t">時間梯度的方向反直覺，這正是最大的警訊</span>
+    幾乎所有心肌梗塞的生物學都指向<b>「越早打通越好」</b>。這篇卻說 <b>12–24 小時沒有好處（OR 1.06），25–48 小時才有巨大好處（OR 0.30）</b>——來得越晚，PCI 的效果越好。這在生理上很難解釋，最可能的解釋是<b>方法學而非生物學</b>：<br><br>
+    <b>1. 存活者偏差（immortal time / survivor bias）。</b>能撐到發病後 25–48 小時還「臨床穩定」才來就醫的人，本身就是一群被自然篩選過的低風險族群——梗塞面積小、沒有惡性心律不整、血行動力學穩定。他們的低死亡率可能與 PCI 無關。<br>
+    <b>2. 12–24 小時窗口混雜了真正的高風險病人。</b>這個時間點來的人，比較可能是症狀持續加重才來的——雖然被歸為「穩定」，實質風險更高。<br>
+    <b>3. 基線嚴重失衡，且方向一致偏向 PCI 組。</b>PCI 組年輕 5 歲、女性較少、<b>乙型阻斷劑 44% vs 25%、ACE 抑制劑 45% vs 25%</b>。用藥率差了將近一倍——這不只是藥物本身的效果，更代表 PCI 組整體接受的是<b>更完整、更積極的照護</b>。IPTW 可以校正有測量到的變項，但校正不了「這家醫院／這位醫師對這個病人有多積極」這種未測量的混淆。<br>
+    <b>4. 排除條件本身製造了選擇。</b>排除持續性心絞痛與早期血管重建，等於把「有理由趕快打通的人」都排除掉了——剩下的是一群本來就不太需要 PCI 的人。
+  </div>
+  <div class="note">
+    <span class="t">這篇該怎麼被使用</span>
+    <b>不要</b>拿它來支持「晚到的 STEMI 可以再等一等」——這是最危險的誤讀。<br>
+    <b>可以</b>拿它來支持「12–48 小時到院的穩定 STEMI，血管重建仍是合理選項」，這與 ESC 指引對此族群的建議方向一致。<br>
+    至於「25–48 小時比 12–24 小時更好」這個特定發現，<b>在有隨機分派資料之前應視為假說</b>——而且是一個帶著明顯偏差指紋的假說。
+  </div>
+</section>
+
+<!-- ============ 4 床邊超音波 ============ -->
+<section id="s4">
+  <h2>③ 急性胸痛病人決策用的即時心臟超音波：EPIC-ACS 研究</h2>
+  <p class="byline" style="margin:0 0 16px">
+    B. Jurgeleit, J. Kampf, I. Dykun, S. Jehn, A. Roggel, C. Kill, T. Rassaf, A.A. Mahabadi<br>
+    West German Heart and Vascular Center, Department of Cardiology and Vascular Medicine, University Hospital Essen, Germany
+  </p>
+
+  <h3>為什麼做這個研究</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li>急性冠心症是急診最常見的工作診斷之一；2023 ESC 指引建議以<b>心電圖與連續 troponin</b> 做初始評估。</li>
+      <li>心臟超音波是低成本技術，臨床上已廣泛使用——但<b>指引只給了緊急心臟超音波 IIa 級建議，證據等級僅 C</b>。</li>
+      <li>本研究要問：<b>初始的 point-of-care（POC）心臟超音波，能不能在心電圖與 troponin 之上，額外改善阻塞型冠心症（CAD）的預測？</b></li>
+    </ul>
+  </div>
+
+  <h3>研究設計</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li><b>前瞻性單中心觀察性世代研究</b>，2019–2020 年共納入 511 位病人（分析 n = 510）</li>
+      <li>納入：以疑似急性冠心症症狀至急診就診者</li>
+      <li>排除：血行動力學不穩定 <span class="mono">n = 6</span>、STEMI <span class="mono">n = 15</span>、已知 CAD <span class="mono">n = 143</span></li>
+      <li>由<b>盲化的心臟科醫師</b>判讀四項超音波參數：
+        <ul>
+          <li><b>LVEF</b>（≥50% vs &lt;50%）</li>
+          <li><b>左心房直徑</b>（≥3.7 cm vs &lt;3.7 cm）</li>
+          <li><b>局部室壁運動異常（RWMA）</b></li>
+          <li><b>心外膜脂肪組織（EAT）</b>（≥5.5 mm vs &lt;5.5 mm）</li>
+        </ul>
+      </li>
+      <li>病人依指引建議的 troponin 路徑分為 <b>rule-in / observe / rule-out</b> 三組</li>
+      <li>214 位轉介侵入性冠狀動脈攝影，其中 <b>97 位有需要血管重建的阻塞型 CAD</b></li>
+    </ul>
+  </div>
+
+  <h3>基線特徵</h3>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>特徵</th><th>整體 (n=510)</th><th>CAD (n=97)</th><th>No CAD (n=413)</th><th>P</th></tr></thead>
+    <tbody>
+      <tr><td>年齡（歲）</td><td class="num">58 ± 18.1</td><td class="num">67.3 ± 11.9</td><td class="num">55.8 ± 18.6</td><td class="num">&lt;0.001</td></tr>
+      <tr><td>男性</td><td class="num">243 (47.6)</td><td class="num">33 (34.0)</td><td class="num">210 (50.8)</td><td class="num">0.004</td></tr>
+      <tr><td>高膽固醇血症</td><td class="num">141 (27.6)</td><td class="num">45 (46.4)</td><td class="num">96 (23.2)</td><td class="num">&lt;0.001</td></tr>
+      <tr><td>NT-proBNP (pg/mL)</td><td class="num">139 (42.5–761)</td><td class="num">344 (72.0–1913)</td><td class="num">122 (35.0–524)</td><td class="num">&lt;0.001</td></tr>
+      <tr><td>BMI (kg/m²)</td><td class="num">26.4 (23.9–29.9)</td><td class="num">27.7 (25.0–31.1)</td><td class="num">26.2 (23.7–29.7)</td><td class="num">0.011</td></tr>
+      <tr><td>目前吸菸</td><td class="num">234 (45.9)</td><td class="num">35 (36.1)</td><td class="num">199 (48.2)</td><td class="num">0.046</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>結果</h3>
+  <div class="cmp">
+    <div class="row hd"><div>超音波參數</div><div class="n">阻塞型 CAD</div><div class="n">無 CAD</div></div>
+    <div class="row"><div class="lbl"><b>局部室壁運動異常（RWMA）</b><span class="sub">P &lt; 0.001</span></div><div class="n a">26.8%</div><div class="n b">6.1%</div></div>
+    <div class="row"><div class="lbl"><b>心外膜脂肪組織 ≥ 5.5 mm</b><span class="sub">P &lt; 0.001</span></div><div class="n a">88.7%</div><div class="n b">11.3%</div></div>
+    <div class="row"><div class="lbl">LVEF ≥ 50%<span class="sub">P = 0.48 — 無區辨力</span></div><div class="n">81.4%</div><div class="n">87.7%</div></div>
+    <div class="row"><div class="lbl">左心房直徑 ≥ 4.5 cm<span class="sub">P = 0.44 — 無區辨力</span></div><div class="n">5.2%</div><div class="n">6.3%</div></div>
+  </div>
+
+  <p><b>依 troponin 路徑分層後：</b></p>
+  <div class="card">
+    <ul style="margin:0">
+      <li><b>EAT ≥ 5.5 mm</b> 在阻塞型 CAD 病人中明顯更常見，且<b>在三條路徑（rule-in / observe / rule-out）中皆成立</b>（P &lt; 0.001）。</li>
+      <li><b>RWMA</b> 在 <b>rule-in 路徑</b>（76% vs 40%, P = 0.003）與 <b>rule-out 路徑</b>（26% vs 6%, P = 0.028）能區辨有無阻塞型 CAD；但在 <b>observe 組無區辨力</b>（P = 0.173）。</li>
+      <li><b>LVEF</b>（rule-in P = 0.313、observe P = 0.441、rule-out P = 0.685）與<b>左心房直徑</b>（rule-in P = 0.084、observe P = 0.832、rule-out P = 0.531）<b>皆不具區辨力</b>。</li>
+    </ul>
+  </div>
+
+  <div class="stats">
+    <div class="stat b"><div class="v">0.788</div><div class="l">Model 1 AUC<br>ACS 路徑 + 年齡 + 性別<br>(0.741–0.835)</div></div>
+    <div class="stat good"><div class="v">0.927</div><div class="l">Model 2 AUC<br>+ LVEF、LA、EAT、RWMA<br>(0.900–0.955)</div></div>
+  </div>
+  <p>作者結論：POC 心臟超音波可在指引建議的 rule-in / rule-out 路徑之外，對急性胸痛病人再分層，改善急診中阻塞型 CAD 的偵測，支持將 POC 心臟超音波納入疑似急性冠心症的臨床決策。</p>
+
+  <h3 style="color:var(--warn)">批判性閱讀</h3>
+  <div class="note warn">
+    <span class="t">AUC 從 0.788 跳到 0.927 太漂亮了</span>
+    <b>1. 在同一批資料建模又測試。</b>沒有交叉驗證、沒有外部驗證世代——在 510 人的樣本裡加四個變項，AUC 上升 0.14 有相當部分是<b>過度配適（overfitting）</b>。真正的外部效能幾乎必然比 0.927 低。<br>
+    <b>2. EAT 的 88.7% vs 11.3% 需要進一步釐清。</b>這個分離程度異常乾淨——單一超音波參數幾乎完美區分有無阻塞型 CAD，這在臨床上罕見。海報上的呈現方式無法確認分母定義，讀者應對這個數字保留判斷，等待全文發表。<br>
+    <b>3. 選擇偏差：只有 214/510 做了侵入性攝影。</b>沒做攝影的 296 人被歸類為「無阻塞型 CAD」，但他們從未被驗證過——這是典型的 <b>verification bias（驗證偏差）</b>，會系統性高估診斷效能。而決定誰去做攝影的臨床判斷，本身就可能受到超音波結果影響。<br>
+    <b>4. 排除了 143 位已知 CAD 的病人。</b>這正好把急診中最常見、也最難判斷的一群人排除在外，大幅限制了外推性。<br>
+    <b>5. 一個值得注意的反直覺基線：CAD 組男性只有 34%，無 CAD 組 50.8%。</b>在阻塞型 CAD 中女性佔多數，與絕大多數冠心症世代相反，暗示這個單中心族群的組成相當特殊。
+  </div>
+  <div class="note good">
+    <span class="t">但有兩個發現是穩健且有用的</span>
+    <b>1. RWMA 有用，LVEF 沒用。</b>這一點與臨床直覺完全吻合——急性缺血造成的是<b>局部</b>而非<b>整體</b>收縮異常，整體 LVEF 在單一血管的缺血中往往完全正常。急診做 POC echo 時，把注意力放在分段室壁運動，而不是眼估 EF，這是直接可以帶回床邊的操作建議。<br>
+    <b>2. RWMA 在 rule-out 路徑仍有區辨力（26% vs 6%）。</b>這是臨床上最有價值的位置——當 troponin 說「可以放走」時，看到 RWMA 應該讓你停下來。相對地，<b>在 observe 組沒有區辨力</b>（P = 0.173），這正是最需要幫助卻沒得到幫助的一群。
+  </div>
+</section>
+
+<!-- ============ 5 ANOCA ============ -->
+<section id="s5">
+  <h2>④ Your Heart Speaks 調查計畫：ANOCA 病人生活衝擊的全球調查</h2>
+  <p class="byline" style="margin:0 0 16px">
+    Sarena La, Rosanna Tavella, Sarah Brown, Cindy McCall, Annette Pompa, John F Beltrame<br>
+    Adelaide University, Australia；The Queen Elizabeth Hospital, Adelaide；International Heart Spasms Alliance (IHSA)
+  </p>
+
+  <h3>背景</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li><b>ANOCA</b>（Angina with Non-Obstructive Coronary Arteries，非阻塞性冠狀動脈之心絞痛）長期被低估，且<b>以女性為主</b>。</li>
+      <li>沒有阻塞性動脈粥狀硬化，常被<b>直接解讀成「胸痛不是心臟造成的」</b>。</li>
+      <li>但<b>冠狀動脈血管運動障礙</b>（冠狀動脈痙攣與／或微血管功能障礙）是關鍵的潛在機轉，卻經常沒有被診斷出來。</li>
+      <li>這些病人日常生活受到的影響，至今幾乎沒有被探討過。</li>
+    </ul>
+  </div>
+
+  <h3>方法</h3>
+  <div class="card">
+    <p style="margin:0 0 8px"><b>International Heart Spasm Alliance（IHSA）</b>——全球性、病人主導的組織，支持冠狀動脈血管運動障礙患者。</p>
+    <ul style="margin:0">
+      <li><b>Your Heart Speaks Program</b> 是 IHSA 與 Adelaide University 的合作計畫</li>
+      <li>自 2025 年 1 月起進行系列性、主題聚焦、彼此連結的問卷調查</li>
+      <li>本分析為 <b>Survey-4（2025 年 10 月上線）</b>，聚焦生活衝擊，收錄至 2026 年 4 月的回覆</li>
+      <li><b>n = 622</b></li>
+    </ul>
+  </div>
+
+  <h3>受訪者輪廓</h3>
+  <div class="stats">
+    <div class="stat"><div class="v">88<span style="font-size:.55em">%</span></div><div class="l">女性</div></div>
+    <div class="stat"><div class="v">~58</div><div class="l">平均年齡（歲）</div></div>
+    <div class="stat"><div class="v">92<span style="font-size:.55em">%</span></div><div class="l">白種人</div></div>
+    <div class="stat"><div class="v">622</div><div class="l">參與人數<br>44% 歐洲/英國 · 37% 北美 · 18% 澳洲/大洋洲</div></div>
+  </div>
+
+  <h3>生活衝擊：這個病影響了什麼</h3>
+  <div class="cmp">
+    <div class="row hd"><div>受影響的面向</div><div class="n">比例</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">社交生活</div><div class="n a">74%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">體能活動</div><div class="n a">74%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">睡眠與休息</div><div class="n a">67%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">心理健康</div><div class="n a">65%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">對人生與目標的看法</div><div class="n a">61%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">日常生活活動</div><div class="n a">60%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">工作</div><div class="n a">52%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">與伴侶的關係</div><div class="n a">46%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">與家人朋友的關係</div><div class="n a">45%</div><div class="n"></div></div>
+    <div class="row"><div class="lbl">目標感與自我認同</div><div class="n a">40%</div><div class="n"></div></div>
+  </div>
+
+  <div class="two">
+    <div class="card">
+      <span class="tag k">日常與活動</span>
+      <ul style="margin:0">
+        <li><b>37%</b> 每天因症狀而無法做自己喜歡的事</li>
+        <li><b>43%</b> 每週會因症狀改變或取消計畫</li>
+        <li><b>5 人中有 4 人</b>已經放棄了嗜好、運動或規律活動</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag k">工作與經濟</span>
+      <ul style="margin:0">
+        <li><b>3 人中有 1 人</b>完全停止工作</li>
+        <li><b>3 人中有 1 人</b>減少工時</li>
+        <li><b>5 人中有 1 人</b>申請或領取身心障礙給付</li>
+        <li><b>36%</b> 每月至少請一次病假</li>
+        <li><b>40%</b> 每週至少一次帶著不舒服仍去上班</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag k">心理與社會</span>
+      <ul style="margin:0">
+        <li><b>2 人中有 1 人</b>每週至少一次為症狀感到擔憂</li>
+        <li><b>2 人中有 1 人</b>感到社交孤立或被排除在外</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag k">病人自己的優先順序</span>
+      <p style="margin:0">前三名依序是：</p>
+      <ol style="margin:6px 0 0">
+        <li>減少胸痛</li>
+        <li>改善生活品質與生活樂趣</li>
+        <li><b>被醫療人員聽見與相信</b></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="note bad">
+    <span class="t">整份調查最刺眼的一組數字</span>
+    <span class="mono" style="font-size:1.1em">80% 的病人認為自己了解這個疾病　—　但只有 40% 認為他們的醫師了解</span><br>
+    這個落差是整篇海報的核心。病人的第三大優先事項不是任何一種治療，而是<b>「被聽見與相信」</b>——這在心臟科的優先順序清單裡幾乎從來沒有出現過。
+  </div>
+
+  <h3>結論與後續</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li>ANOCA 造成<b>實質且多面向的生活功能損害</b>，涵蓋體能功能、社會參與、就業與心理健康。</li>
+      <li>臨床醫師、研究者與病人倡議團體的持續合作，是推動改變的關鍵——透過<b>提高臨床醫師的認識</b>與<b>以病人為中心的處置策略</b>來改善預後。</li>
+      <li>目前已推出共 <b>5 份調查</b>；參與者的回饋將用於發展針對性的衛教資源、填補知識落差。</li>
+    </ul>
+    <p style="margin:10px 0 0;font-size:13.5px;color:var(--dim)">聯絡：sarena.la@adelaide.edu.au　·　Dr Sarena La 由 Heart Foundation South Australian KickStart Fellowship 資助</p>
+  </div>
+
+  <h3 style="color:var(--warn)">批判性閱讀</h3>
+  <div class="note warn">
+    <span class="t">方法學上的限制很明確，但不減損它的價值</span>
+    <b>1. 這是自願參與的線上調查，選樣偏差是必然的。</b>會加入病友組織、會填問卷的人，通常是症狀較嚴重、對現有照護較不滿意的一群。真實 ANOCA 族群的整體衝擊很可能沒有這麼極端。<br>
+    <b>2. 族群組成極度單一</b>：92% 白種人、88% 女性、亞洲人 &lt; 1%、非洲 &lt; 1%。對台灣族群的直接外推應該保守——但要注意，這也反映了 ANOCA 研究本身的全球分布不均。<br>
+    <b>3. 沒有對照組。</b>「74% 社交生活受影響」缺少比較基準——其他慢性胸痛或慢性病族群的數字是多少？沒有這個對照，很難判斷 ANOCA 的衝擊是否特別大。<br>
+    <b>4. 診斷未經標準化驗證。</b>ANOCA 的身分由參與者自述，沒有經過冠狀動脈功能檢測（acetylcholine provocation、CFR、IMR）確認。
+  </div>
+  <div class="note good">
+    <span class="t">但這篇可能是四篇裡最該改變我們行為的一篇</span>
+    前三篇談的是<b>怎麼把預測做得更準</b>——而每一篇的答案都是「有限的改善」。這一篇談的是<b>當我們的檢查說「一切正常」之後，病人的人生發生了什麼</b>。<br>
+    「1/3 完全停止工作」「4/5 放棄了嗜好與運動」「1/2 感到社交孤立」——這些不是次要終點，這是這些病人的實際人生。而<b>「只有 40% 認為醫師了解自己的病」</b>直接指向一個我們可以立刻改變的東西：不是新的藥，而是<b>在導管報告乾淨的時候，不要說「你的心臟沒問題」</b>。<br>
+    正確的說法是：「你的冠狀動脈沒有阻塞，但這不代表你的胸痛不是心臟造成的——我們接下來要檢查的是血管的功能，不是它的管徑。」
+  </div>
+</section>
+
+<!-- ============ 6 怎麼讀 ============ -->
+<section id="s6">
+  <h2>怎麼讀這一批海報</h2>
+
+  <div class="card th">
+    <div class="item"><p><b>大資料庫裡，統計顯著幾乎是免費的。</b>第①篇有 44,802 人——在這個規模下，任何有一點點相關性的變項都會 P &lt; 0.001。判斷有沒有用要看<b>效應大小</b>（AUC 0.593）與<b>增益</b>（C-index +0.019），而不是 P 值。看到「顯著改善」四個字，永遠追問「改善了多少」。</p></div>
+
+    <div class="item"><p><b>反直覺的結果，先懷疑方法而不是先推翻生理學。</b>第②篇說「來得越晚，PCI 效果越好」。當一個結果與強固的生物學機轉相反時，最可能的解釋是選擇偏差——這裡是存活者偏差加上基線嚴重失衡（乙型阻斷劑 44% vs 25%）。IPTW 只能校正你測量到的東西。</p></div>
+
+    <div class="item"><p><b>AUC 大幅跳升要先問「在哪裡驗證的」。</b>第③篇 0.788 → 0.927 是在同一批 510 人的資料上建模又測試，沒有外部驗證。這種增幅有相當部分來自過度配適。同樣要警覺的是 verification bias——只有 214/510 做了攝影，其餘被預設為陰性。</p></div>
+
+    <div class="item"><p><b>「哪些變項沒用」往往比「哪些有用」更有教學價值。</b>第③篇最實用的訊息是 <b>RWMA 有用、LVEF 沒用、左心房直徑沒用</b>。這符合機轉——急性缺血造成局部而非整體收縮異常。急診做 POC echo 時看分段室壁運動，不要眼估 EF。</p></div>
+
+    <div class="item"><p><b>沒有 P 值的研究不代表證據等級低。</b>第④篇沒有任何統計檢定，但「80% 病人了解自己的病 vs 40% 認為醫師了解」這組數字，可能比前三篇任何一個 HR 都更該改變我們明天的行為。<b>病人自述結果（PRO）是終點，不是配菜。</b></p></div>
+
+    <div class="item"><p><b>四篇合起來說的是同一件事：診斷工具的邊際報酬在遞減，而照護的品質還有很大空間。</b>發炎指標加 0.019、床邊超音波可能加不了它宣稱的那麼多、晚期 PCI 的時間窗還沒定論——但「不要對 ANOCA 病人說你的心臟沒問題」這件事，不需要任何新技術就能做到。</p></div>
+  </div>
+
+  <h2>可以直接帶回臨床的三件事</h2>
+  <div class="card">
+    <ol style="margin:0">
+      <li><b>急診做 POC echo 時，看分段室壁運動而不是眼估 EF。</b>尤其在 troponin 說「可以 rule out」的病人身上看到 RWMA，應該讓你停下來重新想一次。</li>
+      <li><b>12–48 小時到院的穩定 STEMI，血管重建仍是合理選項</b>——但不要因為第②篇而覺得「可以再等一等」；那個時間梯度帶著明顯的偏差指紋。</li>
+      <li><b>導管報告乾淨的時候，換一種說法。</b>不說「你的心臟沒問題」，改說「你的冠狀動脈沒有阻塞，但這不代表胸痛不是心臟造成的——接下來我們要看的是血管的功能」。這一句話的成本是零。</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 7 測驗 ============ -->
+<section id="s7">
+  <h2>自我測驗</h2>
+  <p style="color:var(--mute);font-size:14px">點選答案後會顯示解析。</p>
+  <div id="quiz"></div>
+</section>
+
+<footer>
+  <p><b>資料來源</b>　ESC Congress 2026, Munich — Acute Coronary Syndromes 主題海報區。本頁內容整理自現場海報摘要。</p>
+  <p><b>本頁收錄</b><br>
+  ① Ji FJ, Liu JY, Guo RX, Xue ZK, Shao X, Zhang H, Liu X, Liu T, Chen KY. <i>Inflammatory Indices Significantly Improve One-Year Mortality Prediction in STEMI Patients: A Large-Scale Multi-Center Study.</i><br>
+  ② Cenko E, Yoon J, Bergami M, Vasiljevic Z, Kedev S, Vavlukis M, Zdravkovic M, Milicic D, Manfrini O, Bugiardini R. <i>Time-Dependent Survival Benefit of Late PCI in Stable STEMI: A Propensity-Weighted Analysis of the 12–48 Hour Window.</i><br>
+  ③ Jurgeleit B, Kampf J, Dykun I, Jehn S, Roggel A, Kill C, Rassaf T, Mahabadi AA. <i>Point-of-care echocardiography for decision making in patients with acute chest pain – the EPIC-ACS-Study.</i><br>
+  ④ La S, Tavella R, Brown S, McCall C, Pompa A, Beltrame JF. <i>Your Heart Speaks Survey Program: a global survey on the lifestyle impact of ANOCA patients.</i></p>
+  <p><b>注意</b>　會議海報摘要尚未經過完整同儕審查，部分數值可能於全文發表時修正。本頁的批判性評註為整理者的判讀，非原作者立場。</p>
+  <p><b>整理</b>　謝慕揚 MD, PhD, FESC　·　2026-08-31　·　本頁僅供醫療專業人員教學參考，非臨床指引</p>
+</footer>
+
+</div>
+
+<script>
+var Q=[
+ {q:"第①篇中，加入四個發炎指標後 C-index 從 0.663 提升至 0.688（Δ+0.025），且各指標 P < 0.003。最合理的評價是？",
+  o:["發炎指標大幅改善預測，應納入常規風險分層",
+     "在 44,802 人的樣本中，這種幅度的增益必然統計顯著，但 AUC 僅 0.59、C-index 增益 0.025 的臨床意義有限，且缺乏 NRI/IDI 與決策曲線分析",
+     "C-index 下降，代表模型變差",
+     "應改用邏輯迴歸重新分析"],
+  c:1,
+  e:"AUC 0.5 是完全隨機，0.593 幾乎等於擲硬幣；作者自己也用了 modest 這個字。C-index 從 0.663 到 0.688 在臨床上難以察覺，而且加四個指標只比加一個 NLR 多 0.006，說明這些指標高度共線（都以淋巴球為分母）。要判斷臨床效用需要 NRI/IDI、校準度與決策曲線分析，只看 C-index 無法回答「這會不會改變任何治療決定」。"},
+
+ {q:"第②篇顯示 PCI 的存活益處集中在 25–48 小時窗口（OR 0.30），而 12–24 小時無差異（OR 1.06）。這個時間梯度最可能的解釋是？",
+  o:["晚期心肌處於冬眠狀態，較晚打通反而效果更好",
+     "存活者偏差——能撐到 25–48 小時仍臨床穩定的病人本身是低風險族群；加上基線嚴重失衡（乙型阻斷劑 44% vs 25%、ACE-i 45% vs 25%）",
+     "12–24 小時的病人接受了較差的支架",
+     "統計功效在 12–24 小時組不足"],
+  c:1,
+  e:"這個時間梯度與心肌梗塞的核心生物學（越早打通越好）相反，當結果與強固機轉衝突時應先懷疑方法。能撐到發病 25–48 小時還「臨床穩定」的人是被自然篩選過的低風險族群。而 PCI 組年輕 5 歲、乙型阻斷劑與 ACE-i 使用率接近兩倍——這反映的是整體照護積極度的差異，IPTW 校正不了未測量的混淆。"},
+
+ {q:"第③篇 EPIC-ACS 中，Model 2 的 AUC 為 0.927（0.900–0.955）。關於這個數字，下列何者是最重要的方法學保留？",
+  o:["樣本數 510 太小，AUC 不可信",
+     "AUC 高於 0.9 在醫學上不可能",
+     "模型在同一批資料上建立又測試，沒有交叉驗證或外部驗證世代，存在過度配適；且僅 214/510 接受攝影，其餘預設為陰性造成 verification bias",
+     "應改用敏感度與特異度呈現"],
+  c:2,
+  e:"在 510 人樣本中加入四個變項後 AUC 上升 0.14，其中相當部分來自過度配適——真正的外部效能幾乎必然較低。更嚴重的是 verification bias：只有 214 人接受侵入性攝影驗證，其餘 296 人被歸為「無阻塞型 CAD」卻從未被證實，而決定誰去做攝影的臨床判斷本身可能受超音波結果影響，這會系統性高估診斷效能。"},
+
+ {q:"第③篇中，LVEF（各路徑 P = 0.313/0.441/0.685）與左心房直徑均不具區辨力，但 RWMA 在 rule-in（76% vs 40%）與 rule-out（26% vs 6%）路徑均可區辨。這個型態最符合下列哪個機轉？",
+  o:["LVEF 測量誤差太大",
+     "急性缺血造成的是局部而非整體收縮異常，單一血管缺血時整體 LVEF 常完全正常",
+     "左心房直徑與冠心症無關，因此不應測量",
+     "RWMA 判讀者未被盲化"],
+  c:1,
+  e:"這正是本研究最穩健、也最能直接帶回床邊的發現。單一冠狀動脈的急性缺血造成的是該供應區域的分段室壁運動異常，整體 LVEF 往往完全正常——所以急診 POC echo 應該看分段室壁運動，而不是眼估 EF。RWMA 在 rule-out 路徑仍有區辨力（26% vs 6%）特別有價值：當 troponin 說可以放走時，看到 RWMA 應該讓你停下來。"},
+
+ {q:"第④篇 ANOCA 調查中，80% 的病人認為自己了解這個疾病，但只有 40% 認為他們的醫師了解。同時病人的第三大優先事項是「被醫療人員聽見與相信」。這組資料最直接的臨床意涵是？",
+  o:["應立即為所有 ANOCA 病人安排冠狀動脈功能檢測",
+     "自願參與的調查偏差太大，不具臨床意涵",
+     "在導管報告乾淨時，避免說「你的心臟沒問題」，改為說明冠狀動脈沒有阻塞但仍需評估血管功能",
+     "應轉介精神科評估"],
+  c:2,
+  e:"這篇確實有明顯的選樣偏差（自願參與、92% 白種人、88% 女性、無對照組、診斷未經功能檢測驗證），但這不減損那組落差數字的意涵。病人的第三大優先事項不是任何治療，而是「被聽見與相信」——而改變說法的成本是零。正確的措辭是：冠狀動脈沒有阻塞，但這不代表胸痛不是心臟造成的，接下來要看的是血管的功能而不是管徑。選項 A 方向正確但過度，並非所有病人都需要立即侵入性功能檢測。"},
+
+ {q:"綜合這四篇海報，關於「會議海報摘要」的證據定位，下列敘述何者最恰當？",
+  o:["海報摘要已通過同儕審查，可直接改變臨床實務",
+     "海報摘要尚未經完整同儕審查，數值可能於全文發表時修正；應視為值得追蹤的訊號而非定論，其中無 P 值的病人自述研究也可能具高度臨床意涵",
+     "只有隨機分派試驗的海報值得閱讀",
+     "海報摘要因篇幅限制，統計結果一律不可信"],
+  c:1,
+  e:"會議摘要通常僅經簡要審查，樣本數、終點定義與統計結果都可能在全文發表時修正——例如第③篇 EAT 88.7% vs 11.3% 這種異常乾淨的分離就值得等全文釐清。同時要避免另一個極端：第④篇沒有任何 P 值，卻可能比前三篇任何一個 HR 都更該改變明天的行為。病人自述結果是終點，不是配菜。"}
+];
+</script>
+
+<script>
+(function(){
+  var tt=document.getElementById('tt');
+  function set(t){document.documentElement.setAttribute('data-t',t);tt.textContent=t==='light'?'☀':'☾';}
+  set('dark');
+  tt.addEventListener('click',function(){
+    set(document.documentElement.getAttribute('data-t')==='light'?'dark':'light');
+  });
+
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(x){x.classList.remove('on')});
+      [].forEach.call(document.querySelectorAll('section'),function(s){s.classList.remove('on')});
+      t.classList.add('on');
+      document.getElementById(t.dataset.s).classList.add('on');
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  });
+
+  var box=document.getElementById('quiz');
+  if(box && window.Q){
+    var html='';
+    Q.forEach(function(x,i){
+      html+='<div class="q" data-a="'+x.c+'"><p class="qt">'+(i+1)+'. '+x.q+'</p>';
+      x.o.forEach(function(o,j){
+        html+='<button class="opt">'+String.fromCharCode(65+j)+'. '+o+'</button>';
+      });
+      html+='<div class="exp"><b>解析：</b>'+x.e+'</div></div>';
+    });
+    box.innerHTML=html;
+    [].forEach.call(box.querySelectorAll('.q'),function(q){
+      var ans=parseInt(q.getAttribute('data-a'),10);
+      var opts=[].slice.call(q.querySelectorAll('.opt'));
+      opts.forEach(function(b,i){
+        b.addEventListener('click',function(){
+          if(q.dataset.done) return;
+          q.dataset.done='1';
+          opts.forEach(function(o,j){
+            o.disabled=true;
+            if(j===ans) o.classList.add('ok');
+            else if(j===i) o.classList.add('no');
+          });
+          q.querySelector('.exp').classList.add('on');
+        });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>
