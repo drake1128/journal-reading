@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISOLEDS｜遠端左主幹分岔 PCI：OCT vs IVUS 導引（ESC 2026 讀書會共筆）</title>
+<style>
+:root{
+  --bg:#0e1420; --card:#161f2e; --card2:#1c2738; --line:#26344a; --line2:#33445e;
+  --text:#e8edf4; --mute:#93a3b8; --dim:#6b7d94;
+  --key:#5fb8d4; --a:#f0883e; --b:#5b9bd5;
+  --bad:#e5534b; --good:#4ec9a0; --warn:#e3b341;
+  --shadow:0 6px 24px rgba(0,0,0,.35);
+}
+html[data-t="light"]{
+  --bg:#f6f8fb; --card:#ffffff; --card2:#eef2f7; --line:#dde4ed; --line2:#c6d2e0;
+  --text:#16202e; --mute:#54637a; --dim:#77879c;
+  --key:#0e7490; --a:#c2560f; --b:#1f5fa8;
+  --bad:#b3261e; --good:#0f7a5a; --warn:#8a6300;
+  --shadow:0 4px 18px rgba(20,35,60,.10);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.75;font-size:15.5px;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px 72px}
+header{padding:30px 0 16px;position:relative}
+.eyebrow{font:600 11.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--key);margin:0 0 10px}
+h1{font-size:clamp(1.55rem,4.6vw,2.15rem);line-height:1.3;margin:0 0 6px;letter-spacing:-.01em}
+h1 small{display:block;font-size:.5em;font-weight:500;color:var(--mute);margin-top:10px;letter-spacing:0;line-height:1.6}
+.byline{color:var(--dim);font-size:13.5px;margin:14px 0 0}
+.byline a{color:var(--key)}
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 0}
+.pill{font:600 11.5px/1 ui-monospace,monospace;letter-spacing:.05em;padding:7px 11px;border-radius:999px;
+  border:1px solid var(--line2);color:var(--mute)}
+.pill.ni{color:var(--good);border-color:var(--good)}
+.pill.tr{color:var(--warn);border-color:var(--warn)}
+.pill.no{color:var(--bad);border-color:var(--bad)}
+.themetog{position:absolute;top:26px;right:0;background:var(--card);border:1px solid var(--line2);
+  border-radius:999px;width:42px;height:42px;font-size:17px;cursor:pointer;color:var(--text)}
+nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);
+  margin:20px -16px 0;padding:0 16px}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;background:none;border:none;border-bottom:2.5px solid transparent;
+  color:var(--mute);font:600 14px/1 inherit;padding:14px 12px;cursor:pointer;white-space:nowrap}
+.tab.on{color:var(--key);border-bottom-color:var(--key)}
+section{display:none;padding-top:24px;animation:fade .28s ease}
+section.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+h2{font-size:1.16rem;margin:30px 0 12px;letter-spacing:-.01em}
+h2:first-child{margin-top:4px}
+h3{font-size:1.02rem;margin:22px 0 8px;color:var(--key)}
+p{margin:0 0 13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 15px}
+.card.tight{padding:14px 17px}
+ol,ul{margin:0 0 13px;padding-left:1.3em}
+li{margin:0 0 9px}
+b,strong{color:var(--text);font-weight:700}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.th{counter-reset:th}
+.th .item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.th .item:last-child{border-bottom:none}
+.th .item::before{counter-increment:th;content:counter(th);flex:0 0 27px;height:27px;border-radius:50%;
+  background:var(--key);color:var(--bg);font:700 13.5px/27px ui-monospace,monospace;text-align:center}
+html[data-t="light"] .th .item::before{color:#fff}
+.th .item p{margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin:0 0 15px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px}
+.stat .v{font:700 1.5rem/1.15 ui-monospace,monospace;letter-spacing:-.02em}
+.stat .l{font-size:12.5px;color:var(--mute);margin-top:6px;line-height:1.5}
+.stat.a .v{color:var(--a)} .stat.b .v{color:var(--b)}
+.stat.bad .v{color:var(--bad)} .stat.good .v{color:var(--good)} .stat.warn .v{color:var(--warn)}
+.cmp{background:var(--card);border:1px solid var(--line);border-radius:13px;overflow:hidden;margin:0 0 15px}
+.cmp .row{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+  padding:12px 16px;border-bottom:1px solid var(--line)}
+.cmp .row:last-child{border-bottom:none}
+.cmp .row.hd{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.cmp .n{font-family:ui-monospace,monospace;font-weight:700;min-width:64px;text-align:right}
+.cmp .n.a{color:var(--a)} .cmp .n.b{color:var(--b)}
+.cmp .lbl{font-size:14px}
+.cmp .sub{display:block;font-size:12px;color:var(--dim);font-family:ui-monospace,monospace;margin-top:3px}
+.note{border-left:3px solid var(--key);background:var(--card);border-radius:0 11px 11px 0;
+  padding:14px 17px;margin:0 0 15px;font-size:14.6px}
+.note.warn{border-left-color:var(--warn)}
+.note.bad{border-left-color:var(--bad)}
+.note.good{border-left-color:var(--good)}
+.note .t{display:block;font-weight:700;margin-bottom:6px;color:var(--key)}
+.note.warn .t{color:var(--warn)} .note.bad .t{color:var(--bad)} .note.good .t{color:var(--good)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 15px}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:13.8px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--mute);white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+td.num{font-family:ui-monospace,monospace;white-space:nowrap}
+tr.hi td{background:var(--card2)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:13px;margin:0 0 15px}
+.tag{display:inline-block;font:600 10.5px/1 ui-monospace,monospace;letter-spacing:.12em;
+  text-transform:uppercase;padding:5px 8px;border-radius:5px;margin-bottom:9px}
+.tag.a{background:rgba(240,136,62,.14);color:var(--a)}
+.tag.b{background:rgba(91,155,213,.14);color:var(--b)}
+.tag.k{background:rgba(95,184,212,.14);color:var(--key)}
+.tag.good{background:rgba(78,201,160,.14);color:var(--good)}
+.tag.bad{background:rgba(229,83,75,.14);color:var(--bad)}
+.flow{margin:0 0 15px}
+.flow .n{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px 16px;font-size:14.2px}
+.flow .arw{text-align:center;color:var(--dim);font-size:17px;line-height:1;padding:6px 0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 14px}
+.q .qt{font-weight:600;margin:0 0 12px}
+.opt{display:block;width:100%;text-align:left;background:var(--card2);border:1px solid var(--line2);
+  color:var(--text);border-radius:9px;padding:11px 14px;margin:0 0 8px;cursor:pointer;font:inherit;font-size:14.4px}
+.opt:hover:not(:disabled){border-color:var(--key)}
+.opt:disabled{cursor:default;opacity:.92}
+.opt.ok{border-color:var(--good);background:rgba(78,201,160,.12)}
+.opt.no{border-color:var(--bad);background:rgba(229,83,75,.12)}
+.exp{display:none;margin-top:10px;padding:12px 14px;background:var(--card2);
+  border-left:3px solid var(--key);border-radius:0 9px 9px 0;font-size:14.2px}
+.exp.on{display:block}
+footer{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+footer b{color:var(--mute)}
+a{color:var(--key)}
+@media(max-width:560px){
+  .cmp .row{grid-template-columns:1fr auto;row-gap:6px}
+  .cmp .row .n:first-of-type{grid-column:2}
+  .cmp .row.hd{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <button class="themetog" id="tt" aria-label="切換深色淺色">☾</button>
+  <p class="eyebrow">ESC Congress 2026 · Munich · Hot Line</p>
+  <h1>ISOLEDS
+    <small>真正的遠端左主幹分岔病灶 PCI，<br>OCT 導引能不能取代 IVUS 導引？</small>
+  </h1>
+  <p class="byline">
+    發表者 Yong Zeng（China）<br>
+    <i>Is OCT-guided PCI noninferior to IVUS-guided PCI in true distal left main bifurcation lesions?</i>
+  </p>
+  <div class="pills">
+    <span class="pill">RCT · N = 664</span>
+    <span class="pill">1:1 · 12 個月追蹤</span>
+    <span class="pill ni">Non-inferiority 達標</span>
+    <span class="pill tr">margin HR 1.85（寬）</span>
+    <span class="pill">主要終點 TLF</span>
+  </div>
+</header>
+
+<nav>
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-s="s1">重點</button>
+    <button class="tab" data-s="s2">背景</button>
+    <button class="tab" data-s="s3">設計</button>
+    <button class="tab" data-s="s4">影像操作</button>
+    <button class="tab" data-s="s5">結果</button>
+    <button class="tab" data-s="s6">怎麼讀</button>
+    <button class="tab" data-s="s7">臨床應用</button>
+    <button class="tab" data-s="s8">自我測驗</button>
+  </div>
+</nav>
+
+<!-- ============ 1 重點 ============ -->
+<section id="s1" class="on">
+  <h2>Take Home Message</h2>
+  <div class="card th">
+    <div class="item"><p><b>主要終點達成非劣性。</b>12 個月 target lesion failure（TLF）OCT <span class="mono">42 例（14.4%）</span> vs IVUS <span class="mono">47 例（19.6%）</span>，<span class="mono">adjusted HR 0.90（95% CI 0.59–1.36），P for noninferiority = 0.0003</span>。在真正的遠端左主幹分岔病灶，<b>OCT 導引不劣於 IVUS 導引</b>。</p></div>
+    <div class="item"><p><b>但非劣性 margin 設在 HR 1.85，非常寬。</b>這代表試驗一開始就接受「OCT 差到 85%」仍算非劣。以 645 人的規模要在左主幹這種低事件率病灶上檢定，這是現實妥協——但引用時必須把 margin 一起講出來，否則「非劣」兩個字會被過度放大。</p></div>
+    <div class="item"><p><b>所有次要終點方向一致偏向 OCT，但沒有一個達到顯著。</b>臨床驅動的血管重建 <span class="mono">HR 0.62（0.36–1.09），P = 0.095</span>；TVR <span class="mono">0.57（0.29–1.09），P = 0.088</span>；TLR <span class="mono">0.65（0.32–1.31）</span>。方向一致是有意思的訊號，但 CI 全部跨過 1——<b>這是 hypothesis-generating，不是結論</b>。</p></div>
+    <div class="item"><p><b>兩組的 periprocedural MI 幾乎一模一樣：8.1% vs 8.4%（HR 0.97）。</b>而且它幾乎壟斷了整個 MI 終點——任何 MI 8.7% vs 9.6%，其中 spontaneous MI 只有 0.6% vs 1.2%。也就是說，<b>TLF 主要是被手術當下的心肌酶上升撐起來的</b>，不是後續真正的臨床事件。</p></div>
+    <div class="item"><p><b>把 periprocedural MI 拿掉之後，兩組差距反而拉開。</b>TLF without periprocedural MI：<span class="mono">6.2% vs 12.5%，HR 0.69（0.36–1.32），P for noninferiority = 0.0015</span>。這是本試驗最值得注意的一組數字——但 CI 依然跨 1，仍屬探索性。</p></div>
+    <div class="item"><p><b>對比劑腎病變沒有差異：1.5% vs 1.2%（HR 1.27, 0.34–4.72）。</b>這對 OCT 是重要的安全性訊息——OCT 需要顯影劑沖洗血液，在左主幹大口徑血管更耗顯影劑，臨床上最常被拿來反對 OCT 的理由，在這個試驗裡沒有兌現。</p></div>
+  </div>
+
+  <h2>一眼看完的數字</h2>
+  <div class="stats">
+    <div class="stat"><div class="v">14.4<span style="font-size:.6em"> vs </span>19.6<span style="font-size:.55em">%</span></div><div class="l">12 個月 TLF<br>OCT vs IVUS</div></div>
+    <div class="stat good"><div class="v">0.90</div><div class="l">主要終點 adj. HR<br>0.59–1.36</div></div>
+    <div class="stat good"><div class="v">0.0003</div><div class="l">P for noninferiority<br>margin HR 1.85</div></div>
+    <div class="stat b"><div class="v">6.2<span style="font-size:.6em"> vs </span>12.5<span style="font-size:.55em">%</span></div><div class="l">TLF 排除手術相關 MI<br>HR 0.69 (0.36–1.32)</div></div>
+    <div class="stat"><div class="v">8.1<span style="font-size:.6em"> vs </span>8.4<span style="font-size:.55em">%</span></div><div class="l">Periprocedural MI<br>HR 0.97 — 完全一致</div></div>
+    <div class="stat"><div class="v">664</div><div class="l">隨機分派人數<br>每組 332</div></div>
+    <div class="stat good"><div class="v">99.1<span style="font-size:.55em">/</span>99.7<span style="font-size:.55em">%</span></div><div class="l">追蹤完成率<br>OCT / IVUS</div></div>
+    <div class="stat"><div class="v">1.5<span style="font-size:.6em"> vs </span>1.2<span style="font-size:.55em">%</span></div><div class="l">對比劑腎病變<br>無差異</div></div>
+  </div>
+
+  <div class="note warn">
+    <span class="t">這張投影片最該被正確引用的一句話</span>
+    <b>「在真正的遠端左主幹分岔病灶 PCI，OCT 導引在 12 個月 TLF 上非劣於 IVUS 導引（HR 0.90, 0.59–1.36；non-inferiority margin HR 1.85）；所有次要終點方向一致偏向 OCT 但均未達顯著。」</b><br>
+    不要簡化成「OCT 優於 IVUS」——沒有任何一個終點證明了優越性。也不要簡化成「兩者一樣」——CI 寬到 1.36，這只是「沒有證據說 OCT 明顯較差」。
+  </div>
+</section>
+
+<!-- ============ 2 背景 ============ -->
+<section id="s2">
+  <h2>為什麼要問這個問題</h2>
+  <div class="card">
+    <ul style="margin:0">
+      <li>血管內影像可以改善複雜 PCI 的術中最佳化與臨床預後；<b>指引已支持在特定複雜病灶（包含左主幹疾病）使用</b>。</li>
+      <li><b>IVUS 擁有最廣的隨機試驗證據基礎</b>；而 OCT 在複雜病灶與分岔 PCI 也已證明優於單純血管攝影導引。</li>
+      <li>在廣泛族群與複雜病灶族群，OCT 已被證明<b>非劣於 IVUS</b>——但在<b>真正的遠端左主幹分岔</b>，證據僅限於次族群分析。</li>
+    </ul>
+  </div>
+
+  <h2>兩種影像的先天差異</h2>
+  <div class="two">
+    <div class="card">
+      <span class="tag a">OCT　光學同調斷層掃描</span>
+      <p style="margin:0"><b>優勢：</b>更高解析度的<b>管腔與支架評估</b>——支架貼壁、組織脫垂、邊緣剝離看得比 IVUS 清楚得多。</p>
+      <p style="margin:8px 0 0"><b>限制：</b>必須<b>有效清除血液</b>才能成像，代表需要顯影劑沖洗；穿透深度較淺。</p>
+    </div>
+    <div class="card">
+      <span class="tag b">IVUS　血管內超音波</span>
+      <p style="margin:0"><b>優勢：</b><b>組織穿透力與視野更大</b>，可以看到 EEM 與整個血管外緣；<b>不需要清除血液</b>。</p>
+      <p style="margin:8px 0 0"><b>限制：</b>解析度較低，支架細節（貼壁、脫垂、微剝離）判讀不如 OCT。</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <span class="t">為什麼在「真正的遠端左主幹分岔」這件事會被放大</span>
+    這個位置同時觸發了三個問題：<br>
+    <b>1. 大口徑</b>——左主幹直徑常超過 OCT 的舒適成像範圍，且需要更多顯影劑才能清乾淨血液。<br>
+    <b>2. 血管尺寸不匹配</b>——左主幹、LAD、LCX 三段直徑落差大，支架尺寸選擇的容錯空間很小。<br>
+    <b>3. 三段式複雜解剖</b>——分岔角度、carina 位移、side branch ostium 的評估都比一般病灶困難。<br>
+    在這種地方，<b>兩種影像各自的強項與弱點都會被放到最大</b>——OCT 的解析度優勢最有用，但它的血液清除弱點也最致命。ISOLEDS 就是要看這場拉鋸最後誰勝出。
+  </div>
+</section>
+
+<!-- ============ 3 設計 ============ -->
+<section id="s3">
+  <h2>終點設計</h2>
+  <div class="card">
+    <span class="tag k">主要終點</span>
+    <p style="margin:0;font-size:1.05em"><b>12 個月 Target Lesion Failure（TLF）</b></p>
+    <p style="margin:6px 0 0">心因性死亡　·　標的病灶相關心肌梗塞　·　臨床驅動的標的病灶血管重建（TLR）</p>
+  </div>
+  <div class="card">
+    <span class="tag k">12 個月主要次要終點</span>
+    <ul style="margin:0">
+      <li>TLF <b>排除手術相關心肌梗塞</b></li>
+      <li>全因死亡與心因性死亡</li>
+      <li>任何心肌梗塞與標的病灶相關心肌梗塞</li>
+      <li>臨床驅動的血管重建：TLR、TVR、非標的血管</li>
+      <li>確定或可能的<b>支架血栓</b></li>
+      <li>支架內再狹窄</li>
+      <li>中風</li>
+      <li><b>對比劑腎病變</b></li>
+    </ul>
+  </div>
+
+  <h2>樣本數假設</h2>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>參數</th><th>設定值</th></tr></thead>
+    <tbody>
+      <tr><td>預期 IVUS 組 12 個月 TLF</td><td class="num">10.7%</td></tr>
+      <tr class="hi"><td><b>非劣性 margin</b></td><td class="num"><b>HR 1.85</b></td></tr>
+      <tr><td>單尾 type I error</td><td class="num">0.025</td></tr>
+      <tr><td>統計功效</td><td class="num">80%</td></tr>
+      <tr><td>隨機分派比</td><td class="num">1:1</td></tr>
+      <tr><td>所需人數</td><td class="num">645（+ 約 3% 預期流失）</td></tr>
+      <tr class="hi"><td><b>計畫總樣本數</b></td><td class="num"><b>N = 664</b></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note warn">
+    <span class="t">margin HR 1.85 是本試驗最需要被誠實揭露的一件事</span>
+    非劣性 margin 決定了「什麼樣的劣勢我們願意接受」。<b>HR 1.85 意味著：即使 OCT 導引的 TLF 風險比 IVUS 高出 85%，這個試驗仍會宣告「非劣」。</b><br>
+    這種寬 margin 在低事件率、難收案的病灶（左主幹）中很常見——若要用 HR 1.2 這種嚴格 margin，樣本數會膨脹到不可行的規模。所以它是可以理解的設計妥協，<b>但不能在引用時被省略</b>。<br>
+    比較令人放心的是：實際觀察到的 CI 上界是 <span class="mono">1.36</span>，離 margin 1.85 還有距離；而點估計 <span class="mono">0.90</span> 甚至落在 1 以下。也就是說結果比 margin 要求的還要好一些。
+  </div>
+
+  <h2>試驗流程</h2>
+  <div class="flow">
+    <div class="n" style="text-align:center"><b>隨機分派 N = 664</b></div>
+    <div class="arw">↓</div>
+    <div class="two" style="margin:0">
+      <div class="card tight"><span class="tag a">分派至 OCT 導引 PCI　n = 332</span>
+        <p style="margin:0">實際接受 OCT 導引 PCI　<b>n = 316</b><br>
+        未接受　n = 16：<br>
+        · 未執行標的病灶 PCI n = 4（CABG 2、未做 index 血管重建 1、僅做非標的病灶 PCI 1）<br>
+        · 改用其他導引 n = 12（IVUS 10、血管攝影 2）</p>
+        <p style="margin:8px 0 0">完成追蹤 <b>329（99.1%）</b>　·　未完成 3<br>
+        <b>ITT/FAS n = 332　|　Per-protocol n = 316</b></p>
+      </div>
+      <div class="card tight"><span class="tag b">分派至 IVUS 導引 PCI　n = 332</span>
+        <p style="margin:0">實際接受 IVUS 導引 PCI　<b>n = 322</b><br>
+        未接受　n = 10：<br>
+        · 未執行標的病灶 PCI n = 6（CABG 2、未做 index 血管重建 4*）<br>
+        · 改用其他導引 n = 4（OCT 1、血管攝影 3）</p>
+        <p style="margin:8px 0 0">完成追蹤 <b>331（99.7%）</b>　·　未完成 1<br>
+        <b>ITT/FAS n = 332　|　Per-protocol n = 322</b></p>
+      </div>
+    </div>
+  </div>
+  <p style="font-size:12.5px;color:var(--dim)">* 其中一位病人在手術前撤回同意。</p>
+  <div class="note good">
+    <span class="t">執行品質相當好</span>
+    追蹤完成率 <b>99.1% / 99.7%</b>，交叉率也低（OCT 組 12/332 = 3.6% 改用其他導引，IVUS 組 4/332 = 1.2%）。在血管內影像試驗中，交叉是最常見的偏差來源——因為術者常在術中改變主意。這裡的交叉率低，讓 ITT 分析的解讀比較單純。<br>
+    值得注意的是<b>交叉方向不對稱</b>：從 OCT 換成 IVUS 的有 10 例，反向只有 1 例。這符合直覺——當 OCT 清不乾淨血液時，術者會退回 IVUS。
+  </div>
+</section>
+
+<!-- ============ 4 影像操作 ============ -->
+<section id="s4">
+  <h2>影像操作準則：這是本試驗真正的技術核心</h2>
+  <p>兩種影像不是「隨便照一下」，而是各自有明確的<b>參考節段選擇（reference selection）</b>與<b>支架尺寸決定（stent sizing）</b>規則。這一頁比結果頁更值得帶回導管室。</p>
+
+  <div class="two">
+    <div class="card">
+      <span class="tag a">OCT 導引 PCI</span>
+      <p style="margin:0"><b>參考節段：</b>目視正常、<b>不含 lipid-rich plaque</b> 的節段</p>
+      <p style="margin:8px 0 0"><b>支架尺寸：</b>以<b>遠端管腔（distal lumen）</b>為準；當 <b>EEL（external elastic lamina）可清楚顯影時，以 EEL 為準</b></p>
+    </div>
+    <div class="card">
+      <span class="tag b">IVUS 導引 PCI</span>
+      <p style="margin:0"><b>參考節段：</b>相鄰<b>管腔最大</b>且 <b>plaque burden &lt; 50%</b> 的節段</p>
+      <p style="margin:8px 0 0"><b>支架尺寸：</b>以<b>遠端管腔或 EEM</b> 為準</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <span class="t">兩者參考節段定義的哲學差異</span>
+    <b>OCT 看「成分」，IVUS 看「負荷」。</b><br>
+    OCT 的參考節段是「沒有脂質斑塊」——因為 OCT 的高解析度讓它可以直接辨認斑塊性質，而 lipid-rich 節段做 landing zone 容易造成邊緣剝離。<br>
+    IVUS 的參考節段是「plaque burden &lt; 50%」——因為 IVUS 看得到 EEM，可以量化斑塊負荷，而 &lt; 50% 是 landing zone 的經典閾值（源自 MUSIC、AVIO 等一系列研究）。<br>
+    兩者都是為了同一件事：<b>把支架邊緣放在一個不會出事的地方</b>，只是用不同的語言描述「不會出事」。
+  </div>
+
+  <h2>術後最佳化目標（兩組共通）</h2>
+  <div class="card">
+    <p style="margin:0 0 8px"><b>PCI 完成後，兩組都必須用各自的影像確認以下四點：</b></p>
+    <ul style="margin:0">
+      <li>可接受的<b>支架擴張（stent expansion）</b></li>
+      <li><b>無支架貼壁不良（malapposition）</b></li>
+      <li><b>無明顯組織脫垂（tissue protrusion）</b></li>
+      <li><b>無明顯邊緣剝離（edge dissection）</b></li>
+    </ul>
+  </div>
+  <div class="note good">
+    <span class="t">這四點才是血管內影像真正在做的事</span>
+    影像本身不會改善預後——<b>「看到問題之後把它修好」才會</b>。這也是為什麼 ISOLEDS 把兩組的最佳化目標訂成同一套：試驗比較的不是「哪個影像比較漂亮」，而是<b>「用哪個影像去達成同一套最佳化目標，結果比較好」</b>。<br>
+    臨床上如果只做影像而不依影像修正結果（不做 post-dilatation、不修邊緣剝離），那影像帶來的預後好處基本上會消失——這是 ILUMIEN、ULTIMATE 等試驗一再重複的教訓。
+  </div>
+</section>
+
+<!-- ============ 5 結果 ============ -->
+<section id="s5">
+  <h2>主要結果</h2>
+  <div class="cmp">
+    <div class="row hd"><div>終點</div><div class="n">OCT</div><div class="n">IVUS</div></div>
+    <div class="row"><div class="lbl"><b>Target lesion failure（主要終點）</b><span class="sub">adj. HR 0.90 (0.59–1.36) · P noninferiority = 0.0003</span></div><div class="n a">14.4%</div><div class="n b">19.6%</div></div>
+    <div class="row"><div class="lbl"><b>TLF 排除手術相關 MI</b><span class="sub">adj. HR 0.69 (0.36–1.32) · P noninferiority = 0.0015</span></div><div class="n a">6.2%</div><div class="n b">12.5%</div></div>
+  </div>
+
+  <h2>12 個月完整臨床結果</h2>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>終點</th><th>OCT 導引 (n=332)</th><th>IVUS 導引 (n=332)</th><th>Adjusted HR (95% CI)</th><th>P</th></tr></thead>
+    <tbody>
+      <tr class="hi"><td><b>Target lesion failure</b>（主要）</td><td class="num">42 (14.4)</td><td class="num">47 (19.6)</td><td class="num">0.90 (0.59–1.36)</td><td class="num"><b>0.0003</b></td></tr>
+      <tr class="hi"><td><b>TLF 排除手術相關 MI</b></td><td class="num">15 (6.2)</td><td class="num">22 (12.5)</td><td class="num">0.69 (0.36–1.32)</td><td class="num"><b>0.0015</b></td></tr>
+      <tr><td>全因死亡</td><td class="num">2 (0.7)</td><td class="num">3 (0.9)</td><td class="num">0.66 (0.11–3.94)</td><td class="num">0.646</td></tr>
+      <tr><td>心因性死亡</td><td class="num">2 (0.7)</td><td class="num">2 (0.6)</td><td class="num">1.00 (0.14–7.14)</td><td class="num">0.997</td></tr>
+      <tr><td>任何心肌梗塞</td><td class="num">29 (8.7)</td><td class="num">32 (9.6)</td><td class="num">0.91 (0.55–1.50)</td><td class="num">0.705</td></tr>
+      <tr><td>　標的病灶相關 MI</td><td class="num">29 (8.7)</td><td class="num">31 (9.3)</td><td class="num">0.94 (0.56–1.55)</td><td class="num">0.801</td></tr>
+      <tr><td>　<b>手術相關 MI</b></td><td class="num">27 (8.1)</td><td class="num">28 (8.4)</td><td class="num">0.97 (0.57–1.64)</td><td class="num">0.905</td></tr>
+      <tr><td>　自發性 MI</td><td class="num">2 (0.6)</td><td class="num">4 (1.2)</td><td class="num">0.51 (0.09–2.77)</td><td class="num">0.432</td></tr>
+      <tr><td>任何臨床驅動的血管重建</td><td class="num">20 (10.2)</td><td class="num">32 (17.4)</td><td class="num">0.62 (0.36–1.09)</td><td class="num">0.095</td></tr>
+      <tr><td>　臨床驅動 TVR</td><td class="num">14 (6.5)</td><td class="num">25 (15.2)</td><td class="num">0.57 (0.29–1.09)</td><td class="num">0.088</td></tr>
+      <tr><td>　臨床驅動 TLR</td><td class="num">13 (5.6)</td><td class="num">20 (12.0)</td><td class="num">0.65 (0.32–1.31)</td><td class="num">0.232</td></tr>
+      <tr><td>　非標的血管血管重建</td><td class="num">6 (3.8)</td><td class="num">7 (2.1)</td><td class="num">0.85 (0.29–2.53)</td><td class="num">0.772</td></tr>
+      <tr><td><b>對比劑腎病變</b></td><td class="num">5 (1.5)</td><td class="num">4 (1.2)</td><td class="num">1.27 (0.34–4.72)</td><td class="num">0.724</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:12.5px;color:var(--dim);margin-top:-8px">數值為 n (%)。百分比為 Kaplan-Meier 估計值，因此與 n / 332 的直接相除不一致。</p>
+  </div>
+
+  <div class="note warn">
+    <span class="t">為什麼 n 和 % 對不起來</span>
+    表上很多列的百分比明顯不等於 <span class="mono">n ÷ 332</span>——例如「臨床驅動 TVR」IVUS 組 25 例卻標 15.2%。這是因為<b>百分比是 Kaplan-Meier 事件率估計，會把追蹤時間不完整的病人（censoring）納入計算</b>，而不是單純的比例。<br>
+    讀這種表要記得：<b>看 HR 和 CI，不要自己拿 n 去除。</b>HR 才是校正後、考慮時間因素的效應估計。
+  </div>
+</section>
+
+<!-- ============ 6 怎麼讀 ============ -->
+<section id="s6">
+  <h2>三個必須看懂的地方</h2>
+
+  <h3>一、TLF 幾乎完全由手術相關 MI 撐起來</h3>
+  <div class="stats">
+    <div class="stat"><div class="v">8.1<span style="font-size:.6em"> vs </span>8.4<span style="font-size:.55em">%</span></div><div class="l">手術相關 MI<br>HR 0.97 — 完全重疊</div></div>
+    <div class="stat"><div class="v">0.6<span style="font-size:.6em"> vs </span>1.2<span style="font-size:.55em">%</span></div><div class="l">自發性 MI<br>事件極少</div></div>
+  </div>
+  <p>任何 MI 8.7% vs 9.6%，其中<b>手術相關 MI 就佔了 8.1% 和 8.4%</b>——自發性 MI 只有 0.6% 和 1.2%。也就是說，主要終點 TLF 裡的 MI 成分幾乎全是<b>手術當下的心肌酶上升</b>。</p>
+  <div class="note">
+    <span class="t">這對解讀的意義</span>
+    手術相關 MI 的定義本身就對「複雜、分岔、side branch 受影響」的病灶不友善——左主幹分岔 PCI 幾乎必然造成某種程度的心肌酶上升。而<b>兩種影像都無法改變這件事</b>（HR 0.97）：影像可以幫你把支架放好，但擋不住 side branch 受壓、slow flow、遠端栓塞。<br>
+    所以真正反映「影像有沒有幫上忙」的終點，其實是<b>排除手術相關 MI 之後的 TLF</b>——而那組數字是 6.2% vs 12.5%，差距大得多。
+  </div>
+
+  <h3>二、次要終點方向一致偏向 OCT，但沒有一個顯著</h3>
+  <div class="cmp">
+    <div class="row hd"><div>終點</div><div class="n">HR</div><div class="n">P</div></div>
+    <div class="row"><div class="lbl">任何臨床驅動的血管重建</div><div class="n">0.62</div><div class="n">0.095</div></div>
+    <div class="row"><div class="lbl">臨床驅動 TVR</div><div class="n">0.57</div><div class="n">0.088</div></div>
+    <div class="row"><div class="lbl">臨床驅動 TLR</div><div class="n">0.65</div><div class="n">0.232</div></div>
+    <div class="row"><div class="lbl">TLF 排除手術相關 MI</div><div class="n">0.69</div><div class="n">—</div></div>
+    <div class="row"><div class="lbl">自發性 MI</div><div class="n">0.51</div><div class="n">0.432</div></div>
+  </div>
+  <div class="note warn">
+    <span class="t">方向一致性有價值，但不是證據</span>
+    五個獨立終點的 HR 全部落在 0.51–0.69 之間，方向完全一致——這比「一堆隨機散佈在 1 附近的 HR」要有意思得多，符合<b>「OCT 的高解析度真的減少了後續需要再處理的問題」</b>這個機轉假說。<br>
+    但這些 P 值都在 0.088–0.43 之間，CI 全部跨 1，而且<b>沒有做多重比較校正</b>。正確的說法是：<b>這是一個值得用足夠功效的試驗去驗證的假說，不是一個已經成立的結論。</b>
+  </div>
+
+  <h3>三、對比劑腎病變沒有增加</h3>
+  <p><span class="mono">OCT 5 (1.5%) vs IVUS 4 (1.2%)，HR 1.27（0.34–4.72），P = 0.724</span></p>
+  <div class="note good">
+    <span class="t">臨床上最常被拿來反對 OCT 的理由，在這裡沒有兌現</span>
+    OCT 需要用顯影劑沖洗血液成像，在左主幹這種大口徑血管更耗顯影劑——「OCT 會傷腎」是導管室裡最常聽到的反對意見。本試驗的數字顯示這個顧慮至少在<b>腎功能大致正常的族群</b>沒有實現。<br>
+    但要注意：CI 從 0.34 到 4.72，事件只有 5 vs 4 例——<b>這個試驗根本沒有功效去偵測腎病變的差異</b>。而且左主幹 PCI 試驗通常會排除嚴重腎功能不全的病人。<b>在 eGFR 30–45 的病人身上，這個結論不能直接套用。</b>
+  </div>
+</section>
+
+<!-- ============ 7 臨床應用 ============ -->
+<section id="s7">
+  <h2>回到導管室，這個試驗改變了什麼</h2>
+  <div class="two">
+    <div class="card">
+      <span class="tag good">可以帶走的</span>
+      <ul style="margin:0">
+        <li><b>在真正的遠端左主幹分岔病灶，OCT 是一個可接受的選擇</b>，不必為了「證據比較多」而勉強在 OCT 更擅長的情境下改用 IVUS。</li>
+        <li><b>顯影劑用量的顧慮被部分緩解</b>（腎功能正常者），雖然功效不足。</li>
+        <li><b>OCT 的參考節段規則值得記住</b>：目視正常、無 lipid-rich plaque 的節段；EEL 清楚可見時以 EEL 定尺寸。</li>
+        <li><b>兩組共通的四項最佳化目標</b>（擴張、貼壁、脫垂、邊緣剝離）才是影像真正發揮作用的地方。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag bad">不能帶走的</span>
+      <ul style="margin:0">
+        <li><b>不能說「OCT 優於 IVUS」</b>——沒有任何終點證明優越性，次要終點全部不顯著。</li>
+        <li><b>不能省略 margin HR 1.85</b>。引用「非劣」時必須交代這個 margin 有多寬。</li>
+        <li><b>不能外推到腎功能不全的病人</b>。CIN 的結論建立在 5 vs 4 例事件上。</li>
+        <li><b>不能外推到 ostial / shaft 左主幹病灶</b>。本試驗收的是<b>真正的遠端分岔</b>，那正是 OCT 最吃力也最有價值的地方。</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>實務上該怎麼選</h2>
+  <div class="card">
+    <p style="margin:0 0 10px"><b>ISOLEDS 之後，選擇的邏輯可以從「哪個證據多」轉為「哪個更適合這個病灶」：</b></p>
+    <div class="cmp" style="margin:0">
+      <div class="row hd"><div>情境</div><div class="n">傾向</div><div class="n"></div></div>
+      <div class="row"><div class="lbl">需要精細評估支架貼壁、組織脫垂、邊緣剝離<span class="sub">分岔重建後的 side branch ostium、鈣化環評估</span></div><div class="n a">OCT</div><div class="n"></div></div>
+      <div class="row"><div class="lbl">左主幹 ostium 或需要看到 aorto-ostial 交界<span class="sub">OCT 在 ostium 難以清除血液</span></div><div class="n b">IVUS</div><div class="n"></div></div>
+      <div class="row"><div class="lbl">腎功能不全、顯影劑預算緊<span class="sub">ISOLEDS 未證明差異，但也沒有功效證明安全</span></div><div class="n b">IVUS</div><div class="n"></div></div>
+      <div class="row"><div class="lbl">需要 EEM/EEL 做正向重塑血管的尺寸判斷<span class="sub">兩者皆可，IVUS 穿透較深</span></div><div class="n">兩者皆可</div><div class="n"></div></div>
+      <div class="row"><div class="lbl">大量血栓、急性冠心症罪犯病灶<span class="sub">血栓阻礙 OCT 成像</span></div><div class="n b">IVUS</div><div class="n"></div></div>
+    </div>
+  </div>
+
+  <div class="note">
+    <span class="t">台灣情境的提醒</span>
+    <b>1. 給付與耗材成本</b>——OCT catheter 的成本與健保給付條件在台灣仍是實務上的主要決定因素，這件事不會因為一個非劣性試驗而改變。<br>
+    <b>2. 學習曲線</b>——OCT 在左主幹要成功清除血液需要技巧（適當的 guiding 支撐、足夠的注射速率、正確的 pullback 起點）。ISOLEDS 中 OCT 組有 10 例術中改用 IVUS，反向只有 1 例，這個不對稱就是學習曲線的具體表現。<br>
+    <b>3. 這個試驗來自中國的族群</b>——左主幹解剖與斑塊型態的族群差異、以及術者習慣，在外推到台灣時大致可比，但仍應留意單一國家試驗的一般性限制。
+  </div>
+</section>
+
+<!-- ============ 8 測驗 ============ -->
+<section id="s8">
+  <h2>自我測驗</h2>
+  <p style="color:var(--mute);font-size:14px">點選答案後會顯示解析。</p>
+  <div id="quiz"></div>
+</section>
+
+<footer>
+  <p><b>資料來源</b>　ESC Congress 2026, Munich — Hot Line session。ISOLEDS: IVUS vs OCT Guidance for PCI of Distal Left Main Bifurcation Lesions。發表者 Yong Zeng（China）。本頁內容整理自現場投影片。</p>
+  <p><b>相關試驗（背景參考）</b>　ILUMIEN IV、OCTOBER、OCTIVUS、ULTIMATE、EXCEL、NOBLE 等血管內影像與左主幹 PCI 試驗。</p>
+  <p><b>整理</b>　謝慕揚 MD, PhD, FESC　·　2026-08-31　·　本頁僅供醫療專業人員教學參考，非臨床指引</p>
+</footer>
+
+</div>
+
+<script>
+var Q=[
+ {q:"ISOLEDS 的主要終點結果為 adjusted HR 0.90（95% CI 0.59–1.36），P for noninferiority = 0.0003，non-inferiority margin 為 HR 1.85。下列敘述何者最正確？",
+  o:["OCT 導引優於 IVUS 導引",
+     "OCT 導引非劣於 IVUS 導引，但 margin HR 1.85 相當寬鬆，引用時應一併說明",
+     "因為 CI 跨過 1，非劣性未達成",
+     "P = 0.0003 代表 OCT 顯著優於 IVUS"],
+  c:1,
+  e:"非劣性判定看 95% CI 上界（1.36）是否小於 margin（1.85）——是的，所以非劣性達成。但 margin 1.85 意味著試驗一開始就接受「OCT 差到 85%」仍算非劣，這在引用時必須揭露。CI 跨 1 只表示沒有證明優越性，不影響非劣性判定。P = 0.0003 是非劣性檢定的 P 值，不是優越性檢定的。"},
+
+ {q:"ISOLEDS 中任何 MI 為 8.7% vs 9.6%，其中手術相關 MI 為 8.1% vs 8.4%（HR 0.97），自發性 MI 僅 0.6% vs 1.2%。這個結構對主要終點的解讀有何意義？",
+  o:["顯示 OCT 導引可有效預防手術相關 MI",
+     "主要終點 TLF 中的 MI 成分幾乎全由手術相關 MI 構成，而兩種影像對此均無影響；排除後兩組差距反而拉開",
+     "顯示本試驗的 MI 定義過於寬鬆，結果不可信",
+     "自發性 MI 太少代表追蹤時間不足"],
+  c:1,
+  e:"手術相關 MI 幾乎壟斷整個 MI 終點，而兩組完全相同（HR 0.97）。左主幹分岔 PCI 必然造成某種程度的心肌酶上升，這是 side branch 受壓、slow flow、遠端栓塞造成的，影像改善不了。真正反映「影像有沒有幫上忙」的是排除手術相關 MI 之後的 TLF：6.2% vs 12.5%（HR 0.69），差距明顯大得多——但 CI 仍跨 1，屬探索性。"},
+
+ {q:"表中「臨床驅動 TVR」IVUS 組為 25 例卻標示 15.2%，而 25/332 = 7.5%。最可能的原因是？",
+  o:["印刷錯誤",
+     "分母使用 per-protocol 族群",
+     "百分比為 Kaplan-Meier 事件率估計，已納入 censoring 的影響",
+     "該終點採用複合計數，同一病人可重複計入"],
+  c:2,
+  e:"時間至事件分析中的百分比是 Kaplan-Meier 估計值，會把追蹤時間不完整的病人（censoring）納入風險集合的計算，因此不等於單純的 n ÷ N。讀這類表格時應以 HR 與 CI 為準，不要自行用 n 去除分母——那會系統性低估事件率。"},
+
+ {q:"ISOLEDS 中對比劑腎病變為 OCT 5 (1.5%) vs IVUS 4 (1.2%)，HR 1.27（95% CI 0.34–4.72），P = 0.724。下列推論何者最恰當？",
+  o:["已證明 OCT 不會增加對比劑腎病變風險，可安全用於任何腎功能的病人",
+     "在本試驗族群未觀察到差異，但事件數極少、CI 極寬，對腎功能不全者不能外推",
+     "HR 1.27 顯示 OCT 增加腎病變風險",
+     "應改以 eGFR 變化量作為終點才有意義"],
+  c:1,
+  e:"5 vs 4 例事件，CI 從 0.34 到 4.72——這個試驗根本沒有功效去偵測 CIN 的差異，「未觀察到差異」不等於「證明沒有差異」。而且左主幹 PCI 試驗通常會排除嚴重腎功能不全者，所以在 eGFR 30–45 的病人身上，這個結論不能直接套用。這是典型的 absence of evidence 而非 evidence of absence。"},
+
+ {q:"ISOLEDS 中，OCT 組有 12 例術中改用其他導引（IVUS 10、血管攝影 2），IVUS 組僅 4 例（OCT 1、血管攝影 3）。這個不對稱最合理的解釋是？",
+  o:["OCT 設備故障率較高",
+     "隨機分派失敗",
+     "OCT 需要有效清除血液才能成像，在左主幹大口徑血管較易失敗而退回 IVUS，反映的是技術可行性與學習曲線",
+     "研究者刻意違反分派"],
+  c:2,
+  e:"OCT 成像的先決條件是有效的血液清除，而左主幹口徑大、尤其 ostial 位置更難清乾淨。當 OCT 影像品質不足時，術者自然退回不需清血的 IVUS——所以交叉方向必然不對稱。這也提醒臨床：把 OCT 用在左主幹需要技巧（guiding 支撐、注射速率、pullback 起點），不是換根 catheter 就行。"},
+
+ {q:"面對一位左主幹遠端真分岔病灶、eGFR 38 mL/min/1.73m²、需要精細評估分岔重建後 side branch ostium 的病人，依據本試驗最合理的做法是？",
+  o:["一律使用 OCT，因為 ISOLEDS 已證明非劣",
+     "一律使用 IVUS，因為證據基礎較廣",
+     "考量 eGFR 38 不在試驗族群範圍內，權衡顯影劑負荷後決定；若選 IVUS 仍應完整執行四項最佳化評估",
+     "不使用血管內影像，以血管攝影導引即可"],
+  c:2,
+  e:"ISOLEDS 的 CIN 結果建立在 5 vs 4 例事件上、CI 極寬，且試驗族群通常不含嚴重腎功能不全者——eGFR 38 已超出可安全外推的範圍。此時顯影劑負荷是真實的臨床考量。但無論選哪一種影像，關鍵都在於執行那四項術後最佳化評估（擴張、貼壁、脫垂、邊緣剝離）；只做影像而不依影像修正結果，預後好處會消失。選項 D 明確違反指引對複雜左主幹 PCI 的建議。"}
+];
+</script>
+
+<script>
+(function(){
+  var tt=document.getElementById('tt');
+  function set(t){document.documentElement.setAttribute('data-t',t);tt.textContent=t==='light'?'☀':'☾';}
+  set('dark');
+  tt.addEventListener('click',function(){
+    set(document.documentElement.getAttribute('data-t')==='light'?'dark':'light');
+  });
+
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(x){x.classList.remove('on')});
+      [].forEach.call(document.querySelectorAll('section'),function(s){s.classList.remove('on')});
+      t.classList.add('on');
+      document.getElementById(t.dataset.s).classList.add('on');
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  });
+
+  var box=document.getElementById('quiz');
+  if(box && window.Q){
+    var html='';
+    Q.forEach(function(x,i){
+      html+='<div class="q" data-a="'+x.c+'"><p class="qt">'+(i+1)+'. '+x.q+'</p>';
+      x.o.forEach(function(o,j){
+        html+='<button class="opt">'+String.fromCharCode(65+j)+'. '+o+'</button>';
+      });
+      html+='<div class="exp"><b>解析：</b>'+x.e+'</div></div>';
+    });
+    box.innerHTML=html;
+    [].forEach.call(box.querySelectorAll('.q'),function(q){
+      var ans=parseInt(q.getAttribute('data-a'),10);
+      var opts=[].slice.call(q.querySelectorAll('.opt'));
+      opts.forEach(function(b,i){
+        b.addEventListener('click',function(){
+          if(q.dataset.done) return;
+          q.dataset.done='1';
+          opts.forEach(function(o,j){
+            o.disabled=true;
+            if(j===ans) o.classList.add('ok');
+            else if(j===i) o.classList.add('no');
+          });
+          q.querySelector('.exp').classList.add('on');
+        });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>
