@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EVAOLD｜高齡 NSTEMI 壓力影像導引 vs 常規侵入策略（ESC 2026 讀書會共筆）</title>
+<style>
+:root{
+  --bg:#0e1420; --card:#161f2e; --card2:#1c2738; --line:#26344a; --line2:#33445e;
+  --text:#e8edf4; --mute:#93a3b8; --dim:#6b7d94;
+  --key:#5fb8d4; --a:#f0883e; --b:#5b9bd5;
+  --bad:#e5534b; --good:#4ec9a0; --warn:#e3b341;
+  --shadow:0 6px 24px rgba(0,0,0,.35);
+}
+html[data-t="light"]{
+  --bg:#f6f8fb; --card:#ffffff; --card2:#eef2f7; --line:#dde4ed; --line2:#c6d2e0;
+  --text:#16202e; --mute:#54637a; --dim:#77879c;
+  --key:#0e7490; --a:#c2560f; --b:#1f5fa8;
+  --bad:#b3261e; --good:#0f7a5a; --warn:#8a6300;
+  --shadow:0 4px 18px rgba(20,35,60,.10);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.75;font-size:15.5px;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px 72px}
+header{padding:30px 0 16px;position:relative}
+.eyebrow{font:600 11.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--key);margin:0 0 10px}
+h1{font-size:clamp(1.55rem,4.6vw,2.15rem);line-height:1.3;margin:0 0 6px;letter-spacing:-.01em}
+h1 small{display:block;font-size:.5em;font-weight:500;color:var(--mute);margin-top:10px;letter-spacing:0;line-height:1.6}
+.byline{color:var(--dim);font-size:13.5px;margin:14px 0 0}
+.byline a{color:var(--key)}
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 0}
+.pill{font:600 11.5px/1 ui-monospace,monospace;letter-spacing:.05em;padding:7px 11px;border-radius:999px;
+  border:1px solid var(--line2);color:var(--mute)}
+.pill.ni{color:var(--good);border-color:var(--good)}
+.pill.tr{color:var(--warn);border-color:var(--warn)}
+.pill.no{color:var(--bad);border-color:var(--bad)}
+.themetog{position:absolute;top:26px;right:0;background:var(--card);border:1px solid var(--line2);
+  border-radius:999px;width:42px;height:42px;font-size:17px;cursor:pointer;color:var(--text)}
+nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);
+  margin:20px -16px 0;padding:0 16px}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;background:none;border:none;border-bottom:2.5px solid transparent;
+  color:var(--mute);font:600 14px/1 inherit;padding:14px 12px;cursor:pointer;white-space:nowrap}
+.tab.on{color:var(--key);border-bottom-color:var(--key)}
+section{display:none;padding-top:24px;animation:fade .28s ease}
+section.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+h2{font-size:1.16rem;margin:30px 0 12px;letter-spacing:-.01em}
+h2:first-child{margin-top:4px}
+h3{font-size:1.02rem;margin:22px 0 8px;color:var(--key)}
+p{margin:0 0 13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 15px}
+.card.tight{padding:14px 17px}
+ol,ul{margin:0 0 13px;padding-left:1.3em}
+li{margin:0 0 9px}
+b,strong{color:var(--text);font-weight:700}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.th{counter-reset:th}
+.th .item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.th .item:last-child{border-bottom:none}
+.th .item::before{counter-increment:th;content:counter(th);flex:0 0 27px;height:27px;border-radius:50%;
+  background:var(--key);color:var(--bg);font:700 13.5px/27px ui-monospace,monospace;text-align:center}
+html[data-t="light"] .th .item::before{color:#fff}
+.th .item p{margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin:0 0 15px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px}
+.stat .v{font:700 1.5rem/1.15 ui-monospace,monospace;letter-spacing:-.02em}
+.stat .l{font-size:12.5px;color:var(--mute);margin-top:6px;line-height:1.5}
+.stat.a .v{color:var(--a)} .stat.b .v{color:var(--b)}
+.stat.bad .v{color:var(--bad)} .stat.good .v{color:var(--good)} .stat.warn .v{color:var(--warn)}
+.cmp{background:var(--card);border:1px solid var(--line);border-radius:13px;overflow:hidden;margin:0 0 15px}
+.cmp .row{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+  padding:12px 16px;border-bottom:1px solid var(--line)}
+.cmp .row:last-child{border-bottom:none}
+.cmp .row.hd{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.cmp .n{font-family:ui-monospace,monospace;font-weight:700;min-width:64px;text-align:right}
+.cmp .n.a{color:var(--a)} .cmp .n.b{color:var(--b)}
+.cmp .lbl{font-size:14px}
+.cmp .sub{display:block;font-size:12px;color:var(--dim);font-family:ui-monospace,monospace;margin-top:3px}
+.note{border-left:3px solid var(--key);background:var(--card);border-radius:0 11px 11px 0;
+  padding:14px 17px;margin:0 0 15px;font-size:14.6px}
+.note.warn{border-left-color:var(--warn)}
+.note.bad{border-left-color:var(--bad)}
+.note.good{border-left-color:var(--good)}
+.note .t{display:block;font-weight:700;margin-bottom:6px;color:var(--key)}
+.note.warn .t{color:var(--warn)} .note.bad .t{color:var(--bad)} .note.good .t{color:var(--good)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 15px}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:13.8px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--card2);font:600 12px/1.4 ui-monospace,monospace;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--mute);white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+td.num{font-family:ui-monospace,monospace;white-space:nowrap}
+tr.hi td{background:var(--card2)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:13px;margin:0 0 15px}
+.tag{display:inline-block;font:600 10.5px/1 ui-monospace,monospace;letter-spacing:.12em;
+  text-transform:uppercase;padding:5px 8px;border-radius:5px;margin-bottom:9px}
+.tag.a{background:rgba(240,136,62,.14);color:var(--a)}
+.tag.b{background:rgba(91,155,213,.14);color:var(--b)}
+.tag.k{background:rgba(95,184,212,.14);color:var(--key)}
+.tag.good{background:rgba(78,201,160,.14);color:var(--good)}
+.tag.bad{background:rgba(229,83,75,.14);color:var(--bad)}
+.flow{margin:0 0 15px}
+.flow .n{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px 16px;font-size:14.2px}
+.flow .arw{text-align:center;color:var(--dim);font-size:17px;line-height:1;padding:6px 0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px 19px;margin:0 0 14px}
+.q .qt{font-weight:600;margin:0 0 12px}
+.opt{display:block;width:100%;text-align:left;background:var(--card2);border:1px solid var(--line2);
+  color:var(--text);border-radius:9px;padding:11px 14px;margin:0 0 8px;cursor:pointer;font:inherit;font-size:14.4px}
+.opt:hover:not(:disabled){border-color:var(--key)}
+.opt:disabled{cursor:default;opacity:.92}
+.opt.ok{border-color:var(--good);background:rgba(78,201,160,.12)}
+.opt.no{border-color:var(--bad);background:rgba(229,83,75,.12)}
+.exp{display:none;margin-top:10px;padding:12px 14px;background:var(--card2);
+  border-left:3px solid var(--key);border-radius:0 9px 9px 0;font-size:14.2px}
+.exp.on{display:block}
+footer{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+footer b{color:var(--mute)}
+a{color:var(--key)}
+@media(max-width:560px){
+  .cmp .row{grid-template-columns:1fr auto;row-gap:6px}
+  .cmp .row .n:first-of-type{grid-column:2}
+  .cmp .row.hd{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <button class="themetog" id="tt" aria-label="切換深色淺色">☾</button>
+  <p class="eyebrow">ESC Congress 2026 · Munich · Hot Line</p>
+  <h1>EVAOLD
+    <small>≥80 歲 NSTEMI：先做壓力影像再決定要不要導管，<br>還是直接全部送導管室？</small>
+  </h1>
+  <p class="byline">
+    發表者 Gilles Barone-Rochette（France）　·　評述 David Newby（University of Edinburgh, UK）<br>
+    試驗設計原文：<a href="https://doi.org/10.1016/j.ahj.2024.10.008" target="_blank" rel="noopener">Barone-Rochette G, et al. <i>Am Heart J</i>. 2025;279:94–103</a>
+  </p>
+  <div class="pills">
+    <span class="pill">RCT · 隨機 587 人</span>
+    <span class="pill">mITT n = 572</span>
+    <span class="pill no">Non-inferiority 未達成</span>
+    <span class="pill tr">因無效性提前中止</span>
+    <span class="pill">1 年 MACCE</span>
+  </div>
+</header>
+
+<nav>
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-s="s1">重點</button>
+    <button class="tab" data-s="s2">背景</button>
+    <button class="tab" data-s="s3">設計</button>
+    <button class="tab" data-s="s4">結果</button>
+    <button class="tab" data-s="s5">安全性</button>
+    <button class="tab" data-s="s6">評述</button>
+    <button class="tab" data-s="s7">臨床應用</button>
+    <button class="tab" data-s="s8">自我測驗</button>
+  </div>
+</nav>
+
+<!-- ============ 1 重點 ============ -->
+<section id="s1" class="on">
+  <h2>Take Home Message</h2>
+  <div class="card th">
+    <div class="item"><p><b>這是一個「沒有結論」的陰性試驗，但沒有結論本身就是結論。</b>1 年 MACCE 影像導引組（IMG）<span class="mono">24.1%</span> vs 常規侵入組（INV）<span class="mono">20.7%</span>，<span class="mono">HR 1.22（95% CI 0.86–1.72），P = 0.27</span>。預設 non-inferiority margin 是 HR 1.24，<b>CI 上界 1.72 遠遠越過去了——非劣性沒有被證明</b>。</p></div>
+    <div class="item"><p><b>試驗是被「無效性」而不是被「有效性」叫停的。</b>期中分析算出的 conditional power 只剩 <span class="mono">mITT 4.3%、per-protocol 2.4%</span>——就算把剩下的人全收滿，證明非劣性的機會也不到 5%。目標 1,756 人，實際只收到 587 人（<b>33%</b>），跑了 7 年。</p></div>
+    <div class="item"><p><b>但這個試驗真正有價值的資料，是安全性那一頁。</b>導管／PCI 相關併發症 IMG <span class="mono">6/282（2.1%）</span> vs INV <span class="mono">27/290（9.3%），P &lt; 0.001</span>；其中<b>手術相關心肌梗塞 0 vs 8（2.8%），P = 0.007</b>。在 85 歲這個族群，常規侵入策略的代價是實實在在可以量化的。</p></div>
+    <div class="item"><p><b>「做壓力影像」在急性 NSTEMI 是安全的——這點反而被證明了。</b>影像在中位數 <span class="mono">2 天 [1–7]</span> 內完成，沒有出現安全性訊號。Newby 認為這推翻了教科書上「AMI 後 2 天內是壓力測試禁忌」的直覺，至少在穩定下來的老年 NSTEMI 是如此。</p></div>
+    <div class="item"><p><b>臨床上真正的訊息：老年 NSTEMI 的預設策略仍然是保守治療。</b>常規壓力影像分流<b>沒有</b>在這裡找到自己的位置——它既沒能證明不劣，也沒有省下事件；而先前 SENIOR-RITA、After Eighty 等試驗也沒能證明常規侵入策略優於保守。Newby 的結論是：<b>conservative management remains the default</b>。</p></div>
+    <div class="item"><p><b>把這個試驗解讀成「壓力影像比較差」是過度解讀。</b>試驗只收到三分之一的人、CI 很寬、事件率遠低於當初 After Eighty 的假設（假設 INV 組 40%，實際 20.7%）。正確說法是<b>「無法排除影像導引策略比常規侵入策略差」</b>，而不是「已經證明它比較差」。</p></div>
+  </div>
+
+  <h2>一眼看完的數字</h2>
+  <div class="stats">
+    <div class="stat"><div class="v">24.1<span style="font-size:.6em"> vs </span>20.7<span style="font-size:.55em">%</span></div><div class="l">1 年 MACCE<br>IMG vs INV</div></div>
+    <div class="stat bad"><div class="v">1.22</div><div class="l">主要終點 HR<br>0.86–1.72，margin 1.24</div></div>
+    <div class="stat good"><div class="v">2.1<span style="font-size:.6em"> vs </span>9.3<span style="font-size:.55em">%</span></div><div class="l">導管／PCI 併發症<br>P &lt; 0.001，有利 IMG</div></div>
+    <div class="stat good"><div class="v">0<span style="font-size:.6em"> vs </span>8</div><div class="l">手術相關 MI<br>P = 0.007</div></div>
+    <div class="stat warn"><div class="v">33<span style="font-size:.55em">%</span></div><div class="l">收案達成率<br>587 / 1,756</div></div>
+    <div class="stat warn"><div class="v">4.3<span style="font-size:.55em">%</span></div><div class="l">期中 conditional power<br>→ 因無效性中止</div></div>
+    <div class="stat"><div class="v">85.7</div><div class="l">平均年齡（歲）<br>GRACE ~162</div></div>
+    <div class="stat"><div class="v">1 / 6</div><div class="l">壓力影像做不成的比例<br>中位 2 [1–7] 天完成</div></div>
+  </div>
+
+  <div class="note warn">
+    <span class="t">這張投影片最容易被誤引的一句話</span>
+    不是「壓力影像導引策略不劣於常規侵入策略」（<b>這句話是錯的，非劣性未達成</b>），也不是「壓力影像比較差」（<b>這句話證據不足</b>）。
+    正確的引用是：<b>「在 ≥80 歲穩定 NSTEMI，壓力影像導引策略未能證明非劣於常規侵入策略，試驗因無效性提前中止；但影像導引策略顯著減少了導管相關併發症，且在急性期做壓力影像是安全的。」</b>
+  </div>
+</section>
+
+<!-- ============ 2 背景 ============ -->
+<section id="s2">
+  <h2>這個臨床問題有多重要</h2>
+  <p><b>約 40% 的 NSTEMI 病人年齡超過 75 歲</b>，而且 75–94 歲這一群的 6 個月死亡率明顯高於 65–74 歲與 20–54 歲——年齡本身就是最強的預後因子之一。</p>
+  <p>但這群人實際被怎麼治療？以 75–94 歲的真實世界資料看（Nedkoff et al. <i>Heart Lung Circ</i> 2024）：</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>處置</th><th>女性 (n=1,391)</th><th>男性 (n=2,055)</th></tr></thead>
+    <tbody>
+      <tr><td>冠狀動脈攝影</td><td class="num">833 (59.9%)</td><td class="num">1,342 (65.3%)</td></tr>
+      <tr><td>PCI</td><td class="num">394 (28.3%)</td><td class="num">673 (32.7%)</td></tr>
+      <tr><td>CABG</td><td class="num">56 (4.0%)</td><td class="num">186 (9.1%)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note">
+    <span class="t">Newby 的歸納：三分之一法則</span>
+    在高齡 NSTEMI，大致<b>三分之一完全沒有侵入處置、三分之一只做了攝影、三分之一做了攝影加血管重建</b>。也就是說，現實中已經有大量的「選擇性侵入」在發生了——只是它靠的是臨床醫師的直覺，而不是一個可驗證的分流工具。EVAOLD 想問的正是：<b>能不能用壓力影像把這個直覺變成一個規則？</b>
+  </div>
+
+  <h2>既有證據站在哪一邊</h2>
+  <h3>六個 RCT 的個別病人資料整合（Kotanidis et al. <i>EHJ</i> 2024;45:2052–2062）</h3>
+  <p>納入 Italian Elderly ACS (313)、After Eighty (457)、MOSCA (106)、80+ study (186)、RINCAL (250)、MOSCA-FRAIL (167)，共 <b>1,479 人</b>：常規侵入 736 vs 初始保守 743。1 年結果：</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>終點</th><th>HR (95% CI)</th><th>方向</th></tr></thead>
+    <tbody>
+      <tr><td>全因死亡 + MI 複合（random effects）</td><td class="num">0.87 (0.63–1.22)</td><td>無差異</td></tr>
+      <tr><td>全因死亡 + MI 複合（fixed effects）</td><td class="num">0.82 (0.67–1.00)</td><td>臨界</td></tr>
+      <tr><td>全因死亡</td><td class="num">1.03 (0.69–1.53)</td><td>無差異</td></tr>
+      <tr><td>心血管死亡</td><td class="num">0.89 (0.57–1.40)</td><td>無差異</td></tr>
+      <tr class="hi"><td>心肌梗塞</td><td class="num">0.62 (0.44–0.87)</td><td>有利侵入</td></tr>
+      <tr class="hi"><td>緊急血管重建</td><td class="num">0.41 (0.18–0.95)</td><td>有利侵入</td></tr>
+      <tr><td>複合終點・troponin 陽性</td><td class="num">0.81 (0.58–1.12)</td><td>無差異</td></tr>
+      <tr><td>複合終點・troponin 陰性</td><td class="num">1.71 (0.69–4.25)</td><td>無差異（極不精確）</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>結論很一致：<b>在高齡族群，常規侵入策略減少的是 MI 和再次血管重建，不是死亡。</b>這正是 EVAOLD 敢設計「選擇性侵入」的立論基礎——如果侵入策略換不到存活，那為什麼要讓每個 85 歲的病人都承擔導管的風險？</p>
+
+  <h3>一個必須看懂的陷阱：Mehta et al. <i>EHJ</i> 2008;29:880–887</h3>
+  <p>這張表在講「有做壓力測試 vs 沒做壓力測試」的病人預後，數字驚人：</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>結果</th><th>有做壓力測試 (n=1,878)</th><th>沒做 (n=6,127)</th><th>P</th></tr></thead>
+    <tbody>
+      <tr><td>心導管</td><td class="num">817 (44%)</td><td class="num">3,714 (61%)</td><td class="num">&lt;0.001</td></tr>
+      <tr><td>PCI（30 天）</td><td class="num">274 (15%)</td><td class="num">1,401 (23%)</td><td class="num">&lt;0.001</td></tr>
+      <tr><td>CABG（30 天）</td><td class="num">132 (7%)</td><td class="num">1,150 (19%)</td><td class="num">&lt;0.001</td></tr>
+      <tr><td>MI（30 天）</td><td class="num">65 (3.5%)</td><td class="num">415 (6.8%)</td><td class="num">&lt;0.001</td></tr>
+      <tr class="hi"><td>死亡（30 天）</td><td class="num">11 (0.6%)</td><td class="num">295 (4.8%)</td><td class="num">&lt;0.001</td></tr>
+      <tr class="hi"><td>死亡（1 年）</td><td class="num">55 (3.2%)</td><td class="num">589 (11%)</td><td class="num">&lt;0.001</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note bad">
+    <span class="t">不要把這張表讀成「壓力測試會救命」</span>
+    這是<b>典型的適應症偏差（indication bias）</b>：能被推去做壓力測試的病人，本來就是比較穩定、比較不虛弱、預後比較好的那一群。死亡率 0.6% vs 4.8% 反映的是<b>「誰被選去做檢查」</b>，而不是<b>「檢查做了什麼」</b>。這正是為什麼需要 EVAOLD 這種隨機分派試驗——把選擇的權力從醫師手上拿走，交給隨機亂數。
+  </div>
+</section>
+
+<!-- ============ 3 設計 ============ -->
+<section id="s3">
+  <h2>試驗設計</h2>
+  <div class="flow">
+    <div class="n"><b>年齡 ≥ 80 歲　·　因 NSTEMI 住院　·　經藥物治療後穩定</b></div>
+    <div class="arw">↓</div>
+    <div class="n">符合資格、取得同意 → <b>1:1 隨機分派</b></div>
+    <div class="arw">↓</div>
+    <div class="two" style="margin:0">
+      <div class="card tight"><span class="tag a">IMG 影像導引策略</span>
+        <p style="margin:0">先做壓力影像 →<br>
+        · 缺血 <b>≥ 中度至重度</b> → 冠狀動脈攝影 → 藥物治療 或 藥物＋血管重建<br>
+        · 缺血 <b>&lt; 中度</b> → 單純藥物治療</p></div>
+      <div class="card tight"><span class="tag b">INV 常規侵入策略</span>
+        <p style="margin:0">全部直接接受冠狀動脈攝影 →<br>
+        藥物治療 或 藥物＋血管重建</p></div>
+    </div>
+    <div class="arw">↓</div>
+    <div class="n">出院 → <b>電話追蹤 1、6、12 個月</b></div>
+  </div>
+
+  <h2>收案與排除條件</h2>
+  <div class="two">
+    <div class="card">
+      <span class="tag good">主要納入條件</span>
+      <ul style="margin:0">
+        <li>年齡 <b>80 歲以上</b></li>
+        <li>因 NSTEMI 住院，<b>有或沒有 ST 段壓低皆可</b></li>
+        <li>由當地心臟科醫師判定資格，<b>優先收 type 1 NSTEMI</b></li>
+        <li>Troponin T 或 I <b>高於 99th percentile URL</b></li>
+        <li>初步藥物治療後<b>臨床適合且穩定</b></li>
+        <li>病人本人或法定代理人書面同意</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag bad">主要排除條件</span>
+      <ul style="margin:0">
+        <li>反覆或持續胸痛且藥物無法緩解</li>
+        <li>血行動力學不穩定或心因性休克</li>
+        <li>致命性心律不整或心跳停止</li>
+        <li>冠狀動脈攝影禁忌：<span class="mono">CrCl &lt; 15 mL/min</span>（慢性透析除外）、持續出血</li>
+        <li>心肌梗塞的機械性併發症</li>
+        <li><b>重度主動脈瓣狹窄或重度失智</b></li>
+        <li>法律／行政監護狀態，或無健康保險</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note">
+    <span class="t">留意這份排除清單長什麼樣子</span>
+    它把<b>所有真正「不穩定」的高齡 NSTEMI 都排掉了</b>——休克、心跳停止、持續胸痛、機械性併發症。剩下的是一群相對穩定、可以等得起一個壓力影像的病人。所以本試驗的結果<b>只能套用在穩定的老年 NSTEMI</b>，不能拿來替不穩定病人拖延導管的決定。
+  </div>
+
+  <h2>終點與統計架構</h2>
+  <div class="two">
+    <div class="card"><span class="tag k">主要終點</span>
+      <p style="margin:0"><b>1 年 MACCE</b><br>全因死亡<br>非致死性心肌梗塞<br>非致死性中風</p></div>
+    <div class="card"><span class="tag k">非劣性設計</span>
+      <p style="margin:0">Margin：<b>HR 1.24</b><br>需 95% CI 上界 &lt; 1.24<br>且要求 <b>mITT 與 per-protocol 一致</b></p></div>
+    <div class="card"><span class="tag k">計畫收案數</span>
+      <p style="margin:0"><b>1,756 人</b>（每組 878）<br>80% power<br>預計 10% 失聯</p></div>
+  </div>
+  <div class="note">
+    <span class="t">收案數的假設從哪裡來</span>
+    根據 <b>After Eighty</b> 試驗（Tegn N, et al. <i>Lancet</i> 2016;387:1057–1065）：假設 INV 組 1 年事件率 <b>40%</b>，IMG 組最高可接受 <b>47%</b>。<br>
+    <b>但實際觀察到的 INV 事件率只有 20.7%</b>——只有假設的一半。事件率遠低於預期，等於整個試驗的統計功效從一開始就被腰斬，這是後來 conditional power 崩掉的直接原因之一。
+  </div>
+  <div class="card">
+    <span class="tag k">主要次要終點</span>
+    <ul style="margin:0">
+      <li>MACCE 及其各組成：住院期間、1 / 6 / 12 個月</li>
+      <li><b>12 個月複合終點</b>：全因死亡、非致死性 MI、非致死性中風、心衰竭住院、成功復甦的心跳停止、缺血驅動的血管重建</li>
+      <li><b>嚴重出血</b>：BARC type 3 以上</li>
+    </ul>
+    <p style="margin:10px 0 0">另設有<b>兩次預先指定的期中分析</b>，評估療效、無效性、安全性與樣本數重估——這正是本試驗最後被中止的機制。</p>
+  </div>
+</section>
+
+<!-- ============ 4 結果 ============ -->
+<section id="s4">
+  <h2>基線特徵（mITT n = 572）</h2>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>特徵</th><th>IMG 組 (n=282)</th><th>INV 組 (n=290)</th></tr></thead>
+    <tbody>
+      <tr><td>年齡（歲）</td><td class="num">85.78 ± 3.98</td><td class="num">85.66 ± 3.89</td></tr>
+      <tr><td>女性</td><td class="num">137 (48.6%)</td><td class="num">164 (56.6%)</td></tr>
+      <tr><td>BMI (kg/m²)</td><td class="num">25.57 ± 4.63</td><td class="num">25.80 ± 4.89</td></tr>
+      <tr><td>高血壓</td><td class="num">209 (74.1%)</td><td class="num">240 (82.8%)</td></tr>
+      <tr><td>糖尿病</td><td class="num">72 (25.5%)</td><td class="num">70 (24.1%)</td></tr>
+      <tr><td>血脂異常</td><td class="num">123 (43.6%)</td><td class="num">141 (48.6%)</td></tr>
+      <tr><td>既往心肌梗塞</td><td class="num">60 (21.3%)</td><td class="num">69 (23.8%)</td></tr>
+      <tr><td>既往 PCI</td><td class="num">68 (24.1%)</td><td class="num">80 (27.6%)</td></tr>
+      <tr><td>既往中風／TIA</td><td class="num">28 (9.9%)</td><td class="num">30 (10.3%)</td></tr>
+      <tr><td>周邊動脈疾病</td><td class="num">36 (12.8%)</td><td class="num">26 (9.0%)</td></tr>
+      <tr><td>eGFR (mL/min/1.73m²)</td><td class="num">66.9 ± 25.8</td><td class="num">65.4 ± 24.1</td></tr>
+      <tr><td>左心室射出分率 (%)</td><td class="num">53.2 ± 11.0</td><td class="num">53.7 ± 11.0</td></tr>
+      <tr class="hi"><td><b>GRACE risk score</b></td><td class="num">163.7 ± 25.9</td><td class="num">161.4 ± 26.6</td></tr>
+      <tr><td>Charlson comorbidity index</td><td class="num">6 [5–7]</td><td class="num">6 [5–7.5]</td></tr>
+      <tr><td>ADL score</td><td class="num">5.5 [5–6]</td><td class="num">6 [5.5–6]</td></tr>
+      <tr><td>IADL score</td><td class="num">4 [2–4]</td><td class="num">4 [3–4]</td></tr>
+      <tr class="hi"><td>出院時衰弱（SEGA-A &gt; 8）</td><td class="num">83/249 (33.3%)</td><td class="num">67/256 (26.2%)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="note warn">
+    <span class="t">兩個值得注意的不平衡</span>
+    <b>女性比例 48.6% vs 56.6%</b>、<b>出院時衰弱 33.3% vs 26.2%</b>——IMG 組的衰弱比例高了 7 個百分點。在 n 只有 572 的試驗裡，這種程度的失衡是隨機化的正常變異，但因為<b>衰弱是這個年齡層最強的預後因子</b>，它會讓已經不利於 IMG 的 HR 1.22 更難解讀：究竟有多少是策略造成的，多少是族群造成的？<br>
+    另一方面 GRACE score 兩組幾乎一樣（163.7 vs 161.4，皆屬高風險），LVEF 也一致。
+  </div>
+
+  <h2>主要終點：1 年 MACCE</h2>
+  <div class="cmp">
+    <div class="row hd"><div>終點</div><div class="n">IMG</div><div class="n">INV</div></div>
+    <div class="row"><div class="lbl"><b>1 年 MACCE</b><span class="sub">全因死亡 + 非致死性 MI + 非致死性中風</span></div><div class="n a">24.1%</div><div class="n b">20.7%</div></div>
+  </div>
+  <div class="stats">
+    <div class="stat bad"><div class="v">1.22</div><div class="l">HR（mITT）<br>95% CI 0.86–1.72</div></div>
+    <div class="stat"><div class="v">0.27</div><div class="l">P value<br>兩組差異不顯著</div></div>
+    <div class="stat bad"><div class="v">1.24</div><div class="l">預設非劣性 margin<br>CI 上界 1.72 &gt; 1.24</div></div>
+  </div>
+  <div class="note bad">
+    <span class="t">非劣性沒有被證明（Noninferiority was not demonstrated）</span>
+    這裡有一個常被搞混的地方：<b>P = 0.27 代表「兩組沒有顯著差異」，但這不等於「非劣性成立」。</b>
+    非劣性要看的是 <b>95% CI 的上界有沒有落在 margin 1.24 之內</b>——實際上界是 <span class="mono">1.72</span>，遠遠超過。也就是說，資料<b>無法排除</b>影像導引策略比常規侵入策略差到 72% 的可能性。<br>
+    Per-protocol 分析結果一致：<span class="mono">HR 1.24（0.88–1.76）</span>。兩種分析都指向同一件事：試驗沒有回答出它想回答的問題。
+  </div>
+
+  <h2>為什麼提前中止</h2>
+  <div class="stats">
+    <div class="stat warn"><div class="v">4.3<span style="font-size:.55em">%</span></div><div class="l">conditional power（mITT）</div></div>
+    <div class="stat warn"><div class="v">2.4<span style="font-size:.55em">%</span></div><div class="l">conditional power（PP）</div></div>
+  </div>
+  <p>Conditional power 的意思是：<b>「以目前累積的資料推估，如果把試驗做完，最後能達到既定結論的機率有多高？」</b>4.3% 和 2.4% 意味著即使再收 1,000 多人，證明非劣性的機會仍然微乎其微。委員會據此判定<b>無效性（futility）</b>並中止試驗。這是負責任的決定——繼續收案只是讓更多 85 歲的病人白白承擔研究風險。</p>
+</section>
+
+<!-- ============ 5 安全性 ============ -->
+<section id="s5">
+  <h2>安全性結果：這才是本試驗最紮實的資料</h2>
+  <div class="note good">
+    <span class="t">至少發生一次導管或 PCI 相關併發症</span>
+    <span class="mono" style="font-size:1.15em">IMG 6/282（2.1%）　vs　INV 27/290（9.3%）　P &lt; 0.001</span><br>
+    絕對風險差約 <b>7.2 個百分點</b>，NNT ≈ 14——每讓 14 位 85 歲 NSTEMI 病人走影像導引路徑，就少一個人發生導管相關併發症。
+  </div>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>手術相關併發症</th><th>IMG (n=282)</th><th>INV (n=290)</th><th>P value</th></tr></thead>
+    <tbody>
+      <tr><td>主要血管併發症</td><td class="num">1 (0.4%)</td><td class="num">4 (1.4%)</td><td class="num">0.373</td></tr>
+      <tr><td>急性腎損傷</td><td class="num">3 (1.1%)</td><td class="num">9 (3.1%)</td><td class="num">0.142</td></tr>
+      <tr><td>中風</td><td class="num">1 (0.4%)</td><td class="num">3 (1.0%)</td><td class="num">0.624</td></tr>
+      <tr class="hi"><td><b>心肌梗塞</b></td><td class="num">0</td><td class="num">8 (2.8%)</td><td class="num"><b>0.007</b></td></tr>
+      <tr><td>手術相關死亡</td><td class="num">1 (0.4%)</td><td class="num">3 (1.0%)</td><td class="num">0.624</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:12.5px;color:var(--dim);margin-top:-8px">數值為 n (%)，P 值來自雙尾 Fisher 精確檢定。</p>
+  </div>
+  <div class="note">
+    <span class="t">怎麼讀這張表</span>
+    單看每一列，只有<b>心肌梗塞（0 vs 8, P = 0.007）</b>達到統計顯著；其餘各項的 P 值都不顯著。<b>但方向完全一致——五項併發症全部偏向 IMG 組較少</b>，而且合起來的複合安全終點 P &lt; 0.001。<br>
+    這裡的邏輯是可以理解的：IMG 組有相當比例的病人因為缺血 &lt; 中度而<b>根本沒進導管室</b>，沒暴露就沒有暴露相關的風險。所以這個安全性差異與其說是「影像比較安全」，不如說是<b>「少做導管，就少一些導管的併發症」</b>——一個接近同義反覆但仍然臨床上很重要的事實。
+  </div>
+  <div class="note warn">
+    <span class="t">代價的另一面</span>
+    問題在於：少掉的這 7.2% 併發症，<b>並沒有轉換成更好的 1 年 MACCE</b>（24.1% vs 20.7%，方向反而略差）。也就是說，避免的併發症被別的東西抵銷掉了——可能是漏掉的缺血、可能是延遲的血管重建、也可能只是統計雜訊。這正是為什麼這個試驗無法給出「該用哪個策略」的答案。
+  </div>
+
+  <h2>壓力影像在急性期安全嗎？</h2>
+  <p>傳統上，<b>「急性心肌梗塞後 2 天內」被列為壓力影像／壓力測試的禁忌</b>，同列的還有：不穩定型心絞痛、嚴重心律不整、未控制的心衰竭、重度主動脈瓣狹窄、急性主動脈剝離、肺栓塞。</p>
+  <div class="note good">
+    <span class="t">EVAOLD 提供的實證</span>
+    本試驗的壓力影像在<b>中位數 2 天（IQR 1–7 天）</b>完成——正好落在傳統禁忌的時間窗內，而且沒有出現安全性訊號。Newby 的評述直接寫出：<b>「Stress imaging in NSTEMI appears to be safe – even in the elderly!」</b><br>
+    這可能是 EVAOLD 對後續研究最有用的貢獻：它讓「穩定後的急性期壓力影像」這件事，從理論禁忌變成有隨機分派資料支持的可行選項。
+  </div>
+</section>
+
+<!-- ============ 6 評述 ============ -->
+<section id="s6">
+  <h2>David Newby 的評述（University of Edinburgh）</h2>
+  <h3>試驗進程：一個關於「收不到人」的故事</h3>
+  <div class="card">
+    <ul style="margin:0">
+      <li>2018 年開始收案，2025 年關閉收案</li>
+      <li>中間遇上 <b>COVID 疫情</b></li>
+      <li><b>做了 7 年，因無效性中止</b></li>
+      <li>目標 1,756 人，<b>實際隨機 587 人（33%）</b></li>
+      <li>「被收進來的人」和「符合資格卻沒被收進來的人」有什麼不同？—— 這個問題沒有答案</li>
+      <li>這是一個出了名難收的族群：
+        <ul>
+          <li>After Eighty 只收到符合資格者的 <b>23%</b>（457/1,973）</li>
+          <li>SENIOR-RITA 只收到 <b>22%</b>（1,518/6,977）</li>
+        </ul>
+      </li>
+      <li><b>每 6 人就有 1 人做不成壓力影像</b></li>
+      <li>壓力影像在中位 <b>2 [1–7] 天</b>完成</li>
+    </ul>
+  </div>
+  <div class="note warn">
+    <span class="t">「1 in 6 做不成」為什麼重要</span>
+    這不只是執行面的瑕疵，它是<b>策略本身的可行性上限</b>。一個分流工具如果在真實世界有 17% 的病人根本用不上，那它就不可能成為預設路徑——這些人最後還是得回到臨床判斷或直接導管。在 85 歲、衰弱、認知功能下降的族群，這個比例只會更高。
+  </div>
+
+  <h3>Newby 的五點結論</h3>
+  <div class="card th">
+    <div class="item"><p><b>老年族群的心血管研究非常難做。</b>收案率普遍只有兩成出頭，這是整個領域共同的困境，不是 EVAOLD 特有的失敗。</p></div>
+    <div class="item"><p><b>試驗設計本身很紮實，問題出在收案。</b>非劣性架構、雙分析一致性要求、兩次期中分析——設計沒有問題，是統計功效被現實消耗掉了。</p></div>
+    <div class="item"><p><b style="color:var(--good)">NSTEMI 做壓力影像看來是安全的——即使在老年人。</b>這是本試驗少數被明確證明的事。</p></div>
+    <div class="item"><p><b>常規壓力影像在（老年）NSTEMI 病人身上，仍然沒有角色。</b>它沒能證明非劣，也沒有省下事件。</p></div>
+    <div class="item"><p><b style="color:var(--good)">保守治療仍然是老年 NSTEMI 病人的預設策略。</b>這與 Kotanidis 的 IPD 統合分析（侵入策略減少 MI 與再血管重建，但不減少死亡）方向一致。</p></div>
+  </div>
+
+  <div class="note">
+    <span class="t">值得注意的一個張力</span>
+    Newby 說「conservative management remains the default」，但 EVAOLD 的對照組（INV）事件率其實比較低（20.7% vs 24.1%）。這兩件事不矛盾——因為 EVAOLD 比較的<b>不是「侵入 vs 保守」，而是「影像分流 vs 全部導管」</b>。「保守是預設」這個結論來自 EVAOLD 以外的證據（After Eighty、SENIOR-RITA、Kotanidis IPD），EVAOLD 只是沒有推翻它。
+  </div>
+</section>
+
+<!-- ============ 7 臨床應用 ============ -->
+<section id="s7">
+  <h2>回到病房，這個試驗改變了什麼</h2>
+  <div class="two">
+    <div class="card">
+      <span class="tag good">可以帶走的</span>
+      <ul style="margin:0">
+        <li><b>穩定後的老年 NSTEMI 做壓力影像是安全的</b>，中位 2 天內即可執行，不必因為「AMI 後 2 天內是禁忌」而一律排除。</li>
+        <li><b>常規侵入策略在 85 歲族群的代價是可量化的</b>：導管相關併發症 9.3%，其中手術相關 MI 2.8%。跟病人和家屬解釋風險時，這是可以直接引用的數字。</li>
+        <li><b>保守治療仍是預設</b>。既有 IPD 統合分析顯示侵入策略減少 MI 與緊急血管重建，但不改變死亡率。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag bad">不能帶走的</span>
+      <ul style="margin:0">
+        <li><b>不能說「壓力影像導引比較差」</b>——試驗只完成 33% 收案，CI 寬到 1.72，這是資訊不足，不是證據反對。</li>
+        <li><b>不能把結論外推到不穩定病人</b>。休克、心跳停止、持續胸痛、機械性併發症全被排除在外，這些人仍應盡快導管。</li>
+        <li><b>不能拿來當作「不做導管」的正當理由</b>。EVAOLD 沒有證明少做導管比較好，只證明少做導管少一些併發症。</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>台灣情境的三個提醒</h2>
+  <div class="card">
+    <ol style="margin:0">
+      <li><b>我們的高齡 NSTEMI 也在快速增加</b>，而且家屬對「85 歲要不要做心導管」的猶豫，往往比醫師更多。EVAOLD 的安全性數字（併發症 9.3%、手術相關 MI 2.8%、手術相關死亡 1.0%）給了共享決策一個具體的分母。</li>
+      <li><b>壓力影像的可近性是關鍵瓶頸</b>。EVAOLD 在資源充足的法國仍有 1/6 做不成；在台灣要在 NSTEMI 住院期間安排壓力影像（負荷心臟超音波、核醫、壓力 CMR），排程與人力的現實限制只會更緊。這條路在台灣落地的難度高於試驗本身。</li>
+      <li><b>衰弱評估比年齡更值得投資</b>。EVAOLD 用了 SEGA-A、ADL、IADL、Charlson——決定 85 歲病人預後的是這些，不是出生年份。與其糾結「幾歲以上不做導管」，不如把衰弱評估做進標準流程。</li>
+    </ol>
+  </div>
+
+  <h2>下一步該問什麼</h2>
+  <div class="note">
+    <span class="t">這個領域真正缺的資料</span>
+    EVAOLD 之後，「常規壓力影像分流」這條路大致可以收起來了。剩下更值得問的是：<br>
+    · <b>CCTA</b> 而不是壓力影像，能不能在老年 NSTEMI 當分流工具？（解剖資訊、執行門檻低、不需運動或藥物負荷）<br>
+    · 能不能用<b>衰弱／功能狀態</b>而不是缺血程度來分流？<br>
+    · 以<b>生活品質、獨立生活能力</b>而不是 MACCE 當主要終點，答案會不會不一樣？——對 85 歲的病人來說，這可能才是他真正在意的終點。
+  </div>
+</section>
+
+<!-- ============ 8 測驗 ============ -->
+<section id="s8">
+  <h2>自我測驗</h2>
+  <p style="color:var(--mute);font-size:14px">點選答案後會顯示解析。</p>
+  <div id="quiz"></div>
+</section>
+
+<footer>
+  <p><b>資料來源</b>　ESC Congress 2026, Munich — Hot Line session。發表者 Gilles Barone-Rochette（France）；評述人 David Newby（University of Edinburgh, UK）。本頁內容整理自現場投影片。</p>
+  <p><b>設計原文</b>　Barone-Rochette G, et al. Stress imaging–guided selective invasive management versus routine invasive management in older adults with NSTEMI: rationale and design of the EVAOLD trial. <a href="https://doi.org/10.1016/j.ahj.2024.10.008" target="_blank" rel="noopener"><i>Am Heart J</i>. 2025;279:94–103</a></p>
+  <p><b>延伸文獻</b>
+    Tegn N, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/26794722/" target="_blank" rel="noopener"><i>Lancet</i>. 2016;387(10023):1057–1065</a>（After Eighty）　·
+    Kotanidis CP, et al. <a href="https://doi.org/10.1093/eurheartj/ehae151" target="_blank" rel="noopener"><i>Eur Heart J</i>. 2024;45:2052–2062</a>　·
+    Mehta SR, et al. <a href="https://doi.org/10.1093/eurheartj/ehn016" target="_blank" rel="noopener"><i>Eur Heart J</i>. 2008;29:880–887</a>　·
+    Nedkoff L, et al. <i>Heart Lung Circ</i>. 2024;33:332–341
+  </p>
+  <p><b>整理</b>　謝慕揚 MD, PhD, FESC　·　2026-08-31　·　本頁僅供醫療專業人員教學參考，非臨床指引</p>
+</footer>
+
+</div>
+
+<script>
+var Q=[
+ {q:"EVAOLD 的主要終點 HR 1.22（95% CI 0.86–1.72），P = 0.27，預設非劣性 margin 為 HR 1.24。下列敘述何者正確？",
+  o:["P = 0.27 代表兩組沒有差異，因此非劣性成立",
+     "95% CI 上界 1.72 超過 margin 1.24，非劣性未被證明",
+     "HR 1.22 小於 margin 1.24，因此非劣性成立",
+     "應改用優越性檢定重新分析"],
+  c:1,
+  e:"非劣性判定看的是 95% CI 的上界有沒有落在 margin 之內，不是看點估計值、也不是看 P 值是否顯著。上界 1.72 遠超過 1.24，資料無法排除影像導引策略明顯較差的可能性。P = 0.27 只說明「沒有偵測到顯著差異」，在樣本不足時這句話幾乎沒有資訊量——這正是「absence of evidence ≠ evidence of absence」的教科書範例。"},
+
+ {q:"EVAOLD 因為期中分析的 conditional power 僅 4.3%（mITT）而中止。這個數字的意思是？",
+  o:["目前資料已顯示影像導引策略明顯較差",
+     "有 4.3% 的病人失去追蹤",
+     "若把試驗依原計畫做完，最終能達成既定結論的機率只有 4.3%",
+     "第一型錯誤率被膨脹到 4.3%"],
+  c:2,
+  e:"Conditional power 是「在已觀察到的資料條件下，繼續收案到底、最終達成預設結論的機率」。4.3%（PP 更低，只有 2.4%）代表再收 1,000 多位 85 歲病人也幾乎不可能證明非劣性，繼續下去只是讓病人白白承擔研究風險。因無效性中止是負責任的決定，不等於證明了任一策略較差。"},
+
+ {q:"EVAOLD 的安全性結果顯示導管／PCI 相關併發症 IMG 2.1% vs INV 9.3%（P < 0.001），其中手術相關心肌梗塞 0 vs 8（P = 0.007）。最合理的解讀是？",
+  o:["壓力影像本身具有心臟保護作用",
+     "影像導引組有相當比例病人未進入導管室，減少了暴露相關的併發症；但這並未轉換成更好的 1 年 MACCE",
+     "常規侵入策略應被禁止用於 80 歲以上病人",
+     "此差異純屬統計偶然，不具臨床意義"],
+  c:1,
+  e:"IMG 組中缺血 < 中度者不做冠狀動脈攝影，沒有暴露就沒有暴露相關併發症——這是機轉層面的必然，而非影像的保護效果。重點在於：少掉的 7.2% 併發症並沒有換來更好的 1 年 MACCE（24.1% vs 20.7%，方向反而略差），所以不能據此宣稱影像導引策略較優。"},
+
+ {q:"Mehta 等人的資料顯示「有做壓力測試」的病人 1 年死亡率 3.2%，「沒做」的是 11%（P < 0.001）。這張表最主要的方法學問題是？",
+  o:["樣本數太小，功效不足",
+     "追蹤時間太短",
+     "適應症偏差——能被推去做壓力測試的病人本來就比較穩定、預後較好",
+     "終點定義不一致"],
+  c:2,
+  e:"這是觀察性資料中最經典的 indication bias（或稱 confounding by indication）。醫師會挑相對穩定、不虛弱的病人去做壓力測試，不穩定的病人直接送導管室或只給藥物治療。死亡率 0.6% vs 4.8%（30 天）反映的是「誰被選去做檢查」，而不是「檢查做了什麼」。這正是需要隨機分派的理由。"},
+
+ {q:"綜合 EVAOLD 與 Kotanidis 等人六個 RCT 的 IPD 統合分析，關於高齡 NSTEMI 的處置，下列何者最貼近目前的證據狀態？",
+  o:["常規侵入策略可顯著降低高齡 NSTEMI 的全因死亡，應為所有病人的標準治療",
+     "常規壓力影像分流已證明優於常規侵入策略，應改為預設路徑",
+     "侵入策略減少 MI 與緊急血管重建但不改變死亡率；保守治療仍為預設，而壓力影像分流未能證明非劣",
+     "80 歲以上病人不應接受任何侵入性檢查"],
+  c:2,
+  e:"IPD 統合分析（n=1,479）顯示侵入策略減少 MI（HR 0.62, 0.44–0.87）與緊急血管重建（HR 0.41, 0.18–0.95），但全因死亡 HR 1.03（0.69–1.53）、心血管死亡 HR 0.89（0.57–1.40）皆無差異。EVAOLD 則未能證明影像分流策略非劣。Newby 的結論——保守治療仍是預設——正是建立在這個證據結構上。但這不代表「不做任何侵入檢查」，個別高風險、症狀持續的病人仍應接受導管。"},
+
+ {q:"面對一位 86 歲、type 1 NSTEMI、經藥物治療後穩定、GRACE 165、ADL 尚可、無失智的病人，依據本試驗最合理的做法是？",
+  o:["一律安排常規冠狀動脈攝影，不需討論",
+     "一律先做壓力影像，缺血 < 中度就不做導管",
+     "評估衰弱與功能狀態，並用具體併發症風險數字與病人／家屬共同決策",
+     "一律保守治療，不做任何檢查"],
+  c:2,
+  e:"EVAOLD 沒有支持任何一條路徑成為機械式的預設。它提供的是決策所需的素材：常規侵入策略在此族群的併發症率約 9.3%、手術相關 MI 2.8%、手術相關死亡 1.0%；而侵入策略在既有證據中減少 MI 但不減少死亡。加上試驗本身用 SEGA-A、ADL、IADL、Charlson 評估衰弱——決定 85 歲病人預後的是功能狀態而非年齡。這正是共享決策的典型場景。"}
+];
+</script>
+
+<script>
+(function(){
+  var tt=document.getElementById('tt');
+  function set(t){document.documentElement.setAttribute('data-t',t);tt.textContent=t==='light'?'☀':'☾';}
+  set('dark');
+  tt.addEventListener('click',function(){
+    set(document.documentElement.getAttribute('data-t')==='light'?'dark':'light');
+  });
+
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(x){x.classList.remove('on')});
+      [].forEach.call(document.querySelectorAll('section'),function(s){s.classList.remove('on')});
+      t.classList.add('on');
+      document.getElementById(t.dataset.s).classList.add('on');
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  });
+
+  var box=document.getElementById('quiz');
+  if(box && window.Q){
+    var html='';
+    Q.forEach(function(x,i){
+      html+='<div class="q" data-a="'+x.c+'"><p class="qt">'+(i+1)+'. '+x.q+'</p>';
+      x.o.forEach(function(o,j){
+        html+='<button class="opt">'+String.fromCharCode(65+j)+'. '+o+'</button>';
+      });
+      html+='<div class="exp"><b>解析：</b>'+x.e+'</div></div>';
+    });
+    box.innerHTML=html;
+    [].forEach.call(box.querySelectorAll('.q'),function(q){
+      var ans=parseInt(q.getAttribute('data-a'),10);
+      var opts=[].slice.call(q.querySelectorAll('.opt'));
+      opts.forEach(function(b,i){
+        b.addEventListener('click',function(){
+          if(q.dataset.done) return;
+          q.dataset.done='1';
+          opts.forEach(function(o,j){
+            o.disabled=true;
+            if(j===ans) o.classList.add('ok');
+            else if(j===i) o.classList.add('no');
+          });
+          q.querySelector('.exp').classList.add('on');
+        });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>
