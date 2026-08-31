@@ -427,7 +427,7 @@ website:
               href: handouts/90-ai-technology/AMEE_BEME_AI_Guides_Overview.pdf
             - text: "AI 進入學術寫作與出版 — 編輯部立場與作者責任 (ESC / EHJ-Digital Health 論壇共筆, 互動網頁)"
               href: handouts/90-ai-technology/AI_in_Academic_Writing_and_Publishing_ESC2026.html
-            - text: "穿戴式裝置與身體活動量測 (ESC 2026 共筆, 互動網頁)"
+            - text: "穿戴式裝置與身體活動量測 (ESC 2026 共筆, 互動網頁, 含 MVPA／VIPA 等縮寫名詞對照)"
               href: handouts/90-ai-technology/Wearables_and_Physical_Activity_ESC2026.html
             - handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial/index.qmd
