@@ -47,6 +47,13 @@ handouts/**/*.html
 !handouts/04-valvular-disease/TAVI_Antithrombotic_ACASA_NOTION-4_ESC2026.html
 !handouts/04-valvular-disease/TRIC-I-HF_Tricuspid_Intervention_ESC2026.html
 !handouts/21-pulmonary-hypertension/PADN_PH_LHD_Pulmonary_Denervation_ESC2026.html
+# 2026-08-31 讀書會共筆互動網頁（ESC 2026 Munich 與影像／EP 教學）
+!handouts/03-arrhythmia/Comparative_Cardiac_EP_Mouse_to_Whale.html
+!handouts/03-arrhythmia/His-Alternative_II_CSP_vs_BiV_CRT_ESC2026.html
+!handouts/03-arrhythmia/Syncope-Stopper_DROP_Score_ESC2026.html
+!handouts/05-cardiac-imaging/Cardiac_Sarcoidosis_CMR_PET_Imaging.html
+!handouts/90-ai-technology/AI_in_Academic_Writing_and_Publishing_ESC2026.html
+!handouts/90-ai-technology/Wearables_and_Physical_Activity_ESC2026.html
 # Curated portals — allow all HTML in these dedicated folders (drop new decks in freely)
 !handouts/classroom-teaching/**/*.html
 !handouts/95-management-leadership/**/*.html

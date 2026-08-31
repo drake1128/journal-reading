@@ -178,6 +178,30 @@ listing:
       description: "ESC Congress 2026 Munich Hot Line 讀書會共筆（Shao-Liang Chen 報告，同步發表 NEJM）。長捲軸互動網頁，十一個章節加 4 題自我測驗。PH-LHD 佔所有肺高壓的 65–80%，卻是唯一沒有核准治療的族群，這是該領域第一個以臨床事件為主要終點的 registration trial：PADN + GDMT 相較單純 GDMT，clinical worsening 25.7% vs 51.5%，HR 0.49 (0.30–0.82), p = 0.006。但本頁把 positive 拆得很細：這是 open-label 且取消了 sham（前代 PADN-5 反而有 sham），而複合終點中權重最大的兩個成分——門診 HF 惡化與 6MWD 下降——正是最容易受知情偏差影響的軟性終點；死亡（HR 0.83）、HF 住院（HR 0.56, p = 0.07）等硬終點全部中性，效益主要來自「門診口服利尿劑加強」。6MWD 組間差約 16 m、KCCQ-OSS 約 4 分，兩者都低於 MCID。結論是在 sham-controlled 的 PULSE-LHD 出爐前仍應視為 investigational，台灣亦無此適應症與給付。"
       path: handouts/21-pulmonary-hypertension/PADN_PH_LHD_Pulmonary_Denervation_ESC2026.html
       categories: [肺高壓 PH, 心衰竭 HF, 介入 Interventional, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "Syncope-Stopper 與 DROP Score — 高風險暈厥要不要直接裝節律器"
+      description: "ESC 2026 Munich Hot Line 10 讀書會共筆，互動網頁含 DROP Score 計算器與自我測驗。unexplained syncope 且 DROP ≥2 者，upfront pacemaker 顯著降低主要複合終點（相對風險降低 51%），recurrent syncope 11.1% vs 21.8%、HR 0.47 (0.23–0.97), P = 0.037, NNT 9.3——但這是 fragile positive：n 只有 200、事件僅 33 件，CI 上緣 0.97 貼著 1。本頁的重點在把獲益來源拆開：好處完全來自 bradycardic syncope（0 vs 11 例），non-bradycardic（OH、vasovagal、psychogenic）是 11 vs 10，一點差別都沒有——節律器只解決它能解決的那一半。另一個該講給病人聽的數字：standard care 組 12 個月內只有 18.8% 最終真的需要 PPM，代表 DROP ≥2 仍會讓約八成的人接受不必要的裝置；且無 mortality benefit，PPM 組總併發症 12.1%。含 DROP 四項（distal conduction disease／無誘因／>65 歲／PR 延長）的推導由來、與 San Francisco／Canadian／OESIL 的定位差異，以及「這是治療決策工具、不是急診分流工具」的界線。"
+      path: handouts/03-arrhythmia/Syncope-Stopper_DROP_Score_ESC2026.html
+      categories: [心律 Arrhythmia, 器械 Devices, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "His-Alternative II — CSP 對上 BiV-CRT"
+      description: "ESC Congress 2026 Munich Late-Breaking Science 讀書會共筆（Michael Vinther 報告、Haran Burri discussant）。七分頁互動網頁。HFrEF 合併 typical LBBB（Strauss criteria）或 RV pacing > 90% 的 CRT 候選者，CSP-CRT 於 6 個月 LVESV 縮減 non-inferior to BiV-CRT：ITT 組間差 0.9%（95% CI −6.9 到 8.7），P = 0.003 for non-inferiority、p = 0.8 for superiority——達標的是 non-inferiority，不是 superiority，所有次要與安全終點皆無差異。真正的臨床訊息在 crossover：CSP 組 15/99（15%）轉為 BiV，反向只有 2%，「做得成」比「做得好」才是目前 CSP 的瓶頸。本頁附一組判讀三檢核（ITT 還是 on-treatment？non-inferiority 還是 superiority？crossover 多少？），因為多數「CSP 看起來很好」的結論來自 on-treatment，而 crossover 一高就等於把做失敗的人挑掉、系統性偏向 CSP。並列出 LEVEL-AT、CONSYST-CRT、LBBP-RESYNC、PhysioSync-HF、LEFT-BUNDLE-CRT 等既有試驗的不一致結果。"
+      path: handouts/03-arrhythmia/His-Alternative_II_CSP_vs_BiV_CRT_ESC2026.html
+      categories: [心律 Arrhythmia, 心衰竭 HF, 器械 Devices, 文獻判讀 Critical Appraisal, 教學 Teaching]
+    - title: "從老鼠到鯨魚 — 跨物種心跳與傳導的縮放法則"
+      description: "互動教材，含深色模式與同尺度跨物種 ECG 比較。心跳數隨體重呈 1/4 次方縮放（HR ∝ BM⁻⁰·²⁵），一生總心跳數在數量級內大致守恆（約 7.3 ± 5.6 × 10⁸ 次）；但傳導時間並不等比例——從小鼠到鯨魚體重差約 10⁶ 倍，PR interval 只差約 10 倍（PR = 53 × BM⁰·²⁴），30 噸座頭鯨的 QRS 更只有約 200 ms。解釋是心室壁內有緻密且貫穿全層的 His-Purkinje network，而 2025 年的人類組織學顯示我們可能也是如此。這不是動物趣聞：它把三個臨床問題的底層邏輯攤開——AV delay 存在的理由（於是 pacemaker 的 AV interval optimization、CRT 的 AV delay 設定、first-degree AV block 的 pacemaker syndrome-like 生理都有了演化解釋）、窄 QRS 的價值（鯨魚付出極大解剖代價維持窄 QRS，正是 conduction system pacing 優於 RV apical pacing 的生理邏輯），以及動物模型的極限（小鼠動作電位幾無 plateau、復極由 I_to 主導，QT 研究無法外推到人類的 I_Kr／I_Ks 藥物效應）。"
+      path: handouts/03-arrhythmia/Comparative_Cardiac_EP_Mouse_to_Whale.html
+      categories: [心律 Arrhythmia, 心臟生理 Physiology, 教學 Teaching]
+    - title: "Cardiac Sarcoidosis 影像判讀 — CMR 看疤痕、PET 看活性"
+      description: "互動網頁，從一張 ESC Congress 現場 interactive session 的 LGE 影像出發（現場投票 A 佔多數 48 票，但仍有 24 票選 amyloidosis、27 票選 severe multivessel CAD——這三者的 LGE 分布其實差異很大）。判讀分三層缺一不可：先想到它、CMR 看疤痕分布、PET 看活性決定治療。CMR 上最有力的線索是 non-coronary distribution 加上 subepicardial／mid-wall 為主、subendocardium 相對倖免，好發 basal septum 與 basal inferolateral，並留意 RV 側受累、RV insertion point 的 hook sign 與代表活動性的 T2 高訊號。含 sarcoidosis／amyloidosis／ischaemic／DCM 四種 LGE 分布的同切面對照圖與速查表。兩個決策重點：LGE 是最強的預後指標，且 LVEF > 35% 時仍具意義，這是 CS 與一般 non-ischaemic cardiomyopathy 在 ICD 決策上最大的分歧點；以及 PET 的成敗取決於飲食準備，準備不足造成的 false positive 是最常見的判讀陷阱。全頁標明單一影像不能診斷 CS，診斷仍須回到 HRS 2014／JCS 2016 架構。"
+      path: handouts/05-cardiac-imaging/Cardiac_Sarcoidosis_CMR_PET_Imaging.html
+      categories: [影像 Imaging, 心衰竭 HF, 心律 Arrhythmia, 教學 Teaching]
+    - title: "AI 進入學術寫作與出版 — 編輯部怎麼看、作者負什麼責任"
+      description: "ESC Congress／European Heart Journal – Digital Health／Oxford University Press 論壇現場共筆，十個分頁互動網頁。核心一句是投影片原文：expertise remains the final authority on clinical and scientific correctness——AI 可以找資料，但正確性的責任在人。四條紀律的第一條是每一則 AI 給的 reference 都要回 PubMed／Crossref 對過才能用；AI 一律不能掛名作者（無法承擔 accuracy、integrity、originality 的責任）。期刊 AI Policy (Summer 2026) 的揭露分三層：文字潤飾不用揭露；改寫、翻譯、數據分析、產圖必須揭露；把 AI 產出當成原創研究發現、或用 AI 生成／修改原始科學影像則完全不允許。未揭露的代價是真的——從要求修改、退稿到 post-publication retraction，arXiv 已對使用 hallucinated references 的作者祭出封鎖。另含做 review 的 AI 工具地圖（Consensus、SciSpace、NotebookLM／Elicit／Covidence、Rayyan、ASReview）、心臟超音波從 analog 到 AI 的演進、與投稿前自查清單。並提醒：不要把未發表的 manuscript 丟進 public AI tool。"
+      path: handouts/90-ai-technology/AI_in_Academic_Writing_and_Publishing_ESC2026.html
+      categories: [AI 科技, 醫學教育 Medical Education, 研究方法 Research, 教學 Teaching]
+    - title: "穿戴式裝置與身體活動量測 — 步數、強度與裝置誤差"
+      description: "ESC Congress 2026 Munich 讀書會共筆，七分頁互動網頁（預防心臟學與數位健康）。2022 年全球有 31.3%（約 18 億成人）未達建議身體活動量且趨勢仍在上升，照此走勢 WHO 2030 年「相對下降 15%」的目標將無法達成。步數方面 7,000 steps/day 是務實門檻：相較 2,000 步，all-cause mortality HR 0.53、CVD incidence HR 0.75，多數 outcome 的轉折落在 5,000–7,000 步，10,000 步並非必要目標。強度比總量更關鍵——在不運動族群中任何量的 VIPA 或 MIPA 都與較低 CVD 風險相關、LIPA 關聯很弱，健康等效比約為 1 分鐘 VIPA ≒ 3.0–3.5 分鐘 MIPA ≒ 35–49 分鐘 LIPA。並把裝置誤差當成判讀的一部分：research-grade 步數演算法誤差可達 9.6–62%、consumer-grade 約 −9% 至 12%，強度分類誤差更大到 29–80%。另標出兩個引用陷阱：講者投影片寫的 7,000–8,000 plateau 與 Ding 2025 原文的 5,000–7,000 不一致，且 Stamatakis 2025 的族群是不運動者，不能直接外推到已規律運動的病人。"
+      path: handouts/90-ai-technology/Wearables_and_Physical_Activity_ESC2026.html
+      categories: [AI 科技, 預防醫學 Prevention, 運動生理 Exercise Physiology, 文獻判讀 Critical Appraisal, 教學 Teaching]
 ---
 
 本頁用 Quarto 的 **`listing`** 功能自動生成卡片牆，收錄站內所有**互動式 HTML 教材**（可在手機/平板直接開啟）。

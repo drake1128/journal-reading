@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>從老鼠到鯨魚：跨物種心跳與傳導 | 讀書會共筆</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f;
+  --primary-light:#2d5a87;
+  --abyss:#0d2233;
+  --accent:#e74c3c;
+  --accent-light:#ff6b5b;
+  --success:#27ae60;
+  --warning:#f39c12;
+  --bg-cream:#faf8f5;
+  --bg-card:#ffffff;
+  --text-dark:#2c3e50;
+  --text-muted:#7f8c8d;
+  --border:#ecf0f1;
+  --shadow:0 4px 20px rgba(0,0,0,.08);
+  --trace:#1e3a5f;
+}
+:root.dark-theme{
+  --bg-cream:#101a26;
+  --bg-card:#17263a;
+  --abyss:#0a1522;
+  --text-dark:#e8eef4;
+  --text-muted:#93a5b5;
+  --border:#26384f;
+  --shadow:0 4px 20px rgba(0,0,0,.4);
+  --trace:#7fd4ff;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{
+  margin:0;font-family:'Noto Sans TC',system-ui,sans-serif;
+  background:var(--bg-cream);color:var(--text-dark);
+  line-height:1.7;font-size:16px;
+}
+.app{max-width:820px;margin:0 auto;padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+code,.mono{font-family:'IBM Plex Mono',monospace}
+
+/* ---------- hero ---------- */
+.hero{
+  background:linear-gradient(180deg,var(--abyss) 0%,var(--primary) 100%);
+  color:#fff;padding:32px 20px 26px;position:relative;overflow:hidden;
+}
+.hero h1{font-size:26px;font-weight:700;margin:0 0 6px;letter-spacing:.5px;line-height:1.35}
+.hero .sub{font-size:14px;opacity:.72;margin:0 0 20px;font-weight:300}
+.hero .beatwrap{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.beat-dot{
+  width:16px;height:16px;border-radius:50%;background:var(--accent-light);
+  box-shadow:0 0 0 0 rgba(255,107,91,.7);flex:none;
+}
+.beat-label{font-size:13px;opacity:.85}
+.beat-label b{font-size:22px;font-weight:500}
+.hero-toggle{
+  display:flex;gap:8px;margin-top:16px;flex-wrap:wrap;
+}
+.hero-toggle button{
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);
+  color:#fff;border-radius:999px;padding:8px 14px;font-size:13px;
+  font-family:inherit;cursor:pointer;min-height:40px;
+}
+.hero-toggle button.on{background:var(--accent);border-color:var(--accent)}
+
+/* ---------- nav ---------- */
+.nav{
+  position:fixed;bottom:0;left:0;right:0;background:var(--bg-card);
+  border-top:1px solid var(--border);display:flex;z-index:40;
+  padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -2px 16px rgba(0,0,0,.06);
+}
+.nav button{
+  flex:1;background:none;border:none;padding:9px 2px;font-family:inherit;
+  font-size:11px;color:var(--text-muted);cursor:pointer;min-height:56px;
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+}
+.nav button.on{color:var(--accent)}
+.nav svg{width:21px;height:21px}
+
+/* ---------- cards ---------- */
+.wrap{padding:18px 16px}
+.card{
+  background:var(--bg-card);border-radius:14px;padding:18px;
+  box-shadow:var(--shadow);margin-bottom:16px;
+}
+.card h2{font-size:19px;margin:0 0 4px;color:var(--primary);font-weight:700}
+.card h3{font-size:15px;margin:20px 0 8px;color:var(--primary-light);font-weight:500}
+.card p{font-size:15px;margin:8px 0}
+.eng{color:var(--text-muted);font-weight:400}
+.lead{font-size:13px;color:var(--text-muted);margin:0 0 14px}
+
+.takehome{border-left:4px solid var(--accent)}
+.th-item{display:flex;gap:12px;margin:14px 0;align-items:flex-start}
+.th-num{
+  flex:none;width:26px;height:26px;border-radius:50%;background:var(--accent);
+  color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center;
+  margin-top:3px;font-weight:500;
+}
+.th-item p{margin:0;font-size:14.5px}
+
+/* ---------- table ---------- */
+.tbl{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:8px}
+.tbl th{
+  text-align:left;padding:8px 6px;border-bottom:2px solid var(--primary);
+  color:var(--primary);font-weight:500;font-size:12.5px;
+}
+.tbl td{padding:9px 6px;border-bottom:1px solid var(--border);vertical-align:top}
+.tbl tr.hi td{background:rgba(231,76,60,.07);font-weight:500}
+.tbl .num{font-family:'IBM Plex Mono',monospace;white-space:nowrap}
+
+/* ---------- ECG comparator ---------- */
+.ecg-row{margin:16px 0 4px}
+.ecg-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:2px}
+.ecg-name{font-size:14px;font-weight:500}
+.ecg-meta{font-size:11.5px;color:var(--text-muted);font-family:'IBM Plex Mono',monospace}
+.ecg-svg{width:100%;height:auto;display:block;background:transparent;border-radius:6px}
+.axis-note{font-size:11.5px;color:var(--text-muted);text-align:right;margin-top:2px}
+.zoombar{display:flex;gap:8px;align-items:center;margin:10px 0 2px;font-size:12.5px;color:var(--text-muted)}
+.zoombar input{flex:1}
+
+/* ---------- conduction map ---------- */
+.cond-svg{width:100%;height:auto;display:block;margin:6px 0}
+.cond-hit{cursor:pointer}
+.cond-info{
+  background:var(--bg-cream);border-radius:10px;padding:12px 14px;
+  border:1px solid var(--border);min-height:96px;
+}
+.cond-info h4{margin:0 0 4px;font-size:15px;color:var(--accent)}
+.cond-cv{font-family:'IBM Plex Mono',monospace;font-size:20px;color:var(--primary);margin:2px 0}
+.cond-info p{font-size:13.5px;margin:6px 0 0}
+
+/* ---------- calculator ---------- */
+.calc label{font-size:13px;color:var(--text-muted);display:block;margin-bottom:5px}
+.calc input[type=number]{
+  width:100%;font-size:16px;padding:11px 12px;border:1px solid var(--border);
+  border-radius:9px;font-family:'IBM Plex Mono',monospace;background:var(--bg-cream);
+  color:var(--text-dark);
+}
+.calc input[type=range]{width:100%}
+.res-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.res-box{background:var(--bg-cream);border-radius:10px;padding:12px;text-align:center;border:1px solid var(--border)}
+.res-box .v{font-family:'IBM Plex Mono',monospace;font-size:23px;color:var(--accent);font-weight:500;line-height:1.2}
+.res-box .l{font-size:11.5px;color:var(--text-muted);margin-top:3px}
+
+/* ---------- quiz ---------- */
+.qbar{height:5px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:14px}
+.qbar div{height:100%;background:var(--accent);transition:width .3s}
+.qtext{font-size:15.5px;font-weight:500;margin:6px 0 14px}
+.opt{
+  display:block;width:100%;text-align:left;background:var(--bg-cream);
+  border:1.5px solid var(--border);border-radius:10px;padding:12px 14px;
+  margin-bottom:9px;font-family:inherit;font-size:14.5px;cursor:pointer;
+  min-height:48px;color:var(--text-dark);transition:.15s;
+}
+.opt:active{transform:scale(.99)}
+.opt.correct{border-color:var(--success);background:rgba(39,174,96,.1)}
+.opt.wrong{border-color:var(--accent);background:rgba(231,76,60,.1)}
+.opt.reveal{border-color:var(--success)}
+.expl{background:var(--bg-cream);border-left:3px solid var(--primary-light);padding:12px 14px;border-radius:0 9px 9px 0;font-size:14px;margin-top:12px}
+.btn{
+  background:var(--primary);color:#fff;border:none;border-radius:10px;
+  padding:13px 20px;font-family:inherit;font-size:15px;cursor:pointer;
+  min-height:48px;width:100%;margin-top:12px;
+}
+.btn.ghost{background:transparent;color:var(--primary-light);border:1.5px solid var(--border)}
+
+/* ---------- refs ---------- */
+.ref{padding:12px 0;border-bottom:1px solid var(--border);font-size:13.5px}
+.ref:last-child{border-bottom:none}
+.ref .t{font-weight:500;display:block;margin-bottom:3px}
+.ref .j{color:var(--text-muted);font-size:12.5px}
+.ref a{color:var(--accent);text-decoration:none;font-family:'IBM Plex Mono',monospace;font-size:12px}
+
+.note{background:rgba(243,156,18,.1);border-left:3px solid var(--warning);padding:11px 13px;border-radius:0 9px 9px 0;font-size:13.5px;margin:14px 0}
+
+/* ---------- footer ---------- */
+.foot{padding:26px 20px 34px;text-align:center;color:var(--text-muted);font-size:12.5px;line-height:1.9}
+.foot .sig{color:var(--text-dark);font-size:14px;font-weight:500;margin-bottom:2px}
+.foot .dis{margin-top:14px;font-size:11.5px;opacity:.8}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const {useState,useEffect,useRef} = React;
+
+/* ============ 資料 ============ */
+const SPECIES = [
+  {id:'shrew', zh:'小臭鼩',   en:'Etruscan shrew', mass:0.002,  hr:835,  hrTxt:'835 ± 107（受驚可達 ~1,500）'},
+  {id:'hbird', zh:'蜂鳥',     en:'Hummingbird',    mass:0.005,  hr:1200, hrTxt:'飛行時 ~1,200'},
+  {id:'mouse', zh:'小鼠',     en:'Mouse',          mass:0.025,  hr:600,  hrTxt:'500–780'},
+  {id:'rat',   zh:'大鼠',     en:'Rat',            mass:0.3,    hr:400,  hrTxt:'350–450'},
+  {id:'rabbit',zh:'兔',       en:'Rabbit',         mass:3,      hr:250,  hrTxt:'200–300'},
+  {id:'cat',   zh:'貓',       en:'Cat',            mass:4,      hr:170,  hrTxt:'150–200'},
+  {id:'dog',   zh:'狗',       en:'Dog',            mass:20,     hr:95,   hrTxt:'70–120'},
+  {id:'human', zh:'人',       en:'Human',          mass:70,     hr:70,   hrTxt:'60–100'},
+  {id:'horse', zh:'馬',       en:'Horse',          mass:500,    hr:34,   hrTxt:'28–40'},
+  {id:'eleph', zh:'大象',     en:'Elephant',       mass:4000,   hr:28,   hrTxt:'25–30'},
+  {id:'gray',  zh:'灰鯨',     en:'Gray whale',     mass:8000,   hr:37,   hrTxt:'換氣 34–40 / 閉氣 15–25'},
+  {id:'blue',  zh:'藍鯨',     en:'Blue whale',     mass:100000, hr:6,    hrTxt:'潛水 4–8（最低 2）/ 上浮 25–37'}
+];
+
+const ECG = [
+  {id:'mouse', zh:'小鼠 Mouse',       mass:'25 g',      rr:100,  pr:35,  qrs:10,  qt:55,  src:'NEJM 1953'},
+  {id:'human', zh:'人 Human',         mass:'70 kg',     rr:857,  pr:160, qrs:90,  qt:400, src:'臨床常規值'},
+  {id:'gray',  zh:'灰鯨 Gray whale',  mass:'~8,000 kg', rr:1620, pr:475, qrs:208, qt:800, src:'Ponganis 1999'}
+];
+
+const CONDUCTION = [
+  {id:'sa',  zh:'竇房結',   en:'SA node',              cv:'~0.05 m/s',
+   txt:'起搏點。傳導慢，但因為體積小，不構成延遲問題。抹香鯨的 SA node 明顯大於其他哺乳類（James 1995）。'},
+  {id:'atr', zh:'心房肌',   en:'Atrial myocardium',    cv:'0.5–1.0 m/s',
+   txt:'人類從右心房上部到二尖瓣環約 70 ms。座頭鯨心房尺度是人類數十倍，傳導時間卻只約兩倍。'},
+  {id:'av',  zh:'房室結',   en:'AV node',              cv:'0.02–0.05 m/s',
+   txt:'全心最慢，也是 PR interval 的主要來源（rate-limiting step）。跨物種的 PR 差異幾乎都發生在這裡。'},
+  {id:'his', zh:'希氏束／浦金氏纖維', en:'His-Purkinje', cv:'2–4 m/s',
+   txt:'全心最快，比心室肌快 4–8 倍。鯨魚窄 QRS 的解釋，就是這個網路特別緻密且深入心室壁全層。'},
+  {id:'myo', zh:'心室肌',   en:'Ventricular myocardium', cv:'縱向 0.5–0.7 / 橫向 0.2–0.3 m/s',
+   txt:'各向異性（anisotropic）。實測：epicardial array 0.5–0.6 m/s；intramural plunge needle 0.3–0.8 m/s。'}
+];
+
+const QUIZ = [
+  {q:'從小鼠到鯨魚，體重相差約 10⁶ 倍。PR interval 大約相差幾倍？',
+   opts:['約 10 倍','約 100 倍','約 1,000 倍','與體重同步，約 10⁶ 倍'],correct:0,
+   ex:'Noujaim 等人（Circulation 2004）以 33 物種、541 隻哺乳類資料分析，PR = 53 × BM^0.24，指數接近 1/4。體重差 10⁶ 倍時，PR 只差約 10 倍。'},
+  {q:'30 噸重的座頭鯨，QRS duration 出乎意料地窄。Meijler 提出的主要解釋是什麼？',
+   opts:['心室肌傳導速率特別快','心室壁內有極緻密、貫穿全層的 His-Purkinje 網路','鯨魚心室壁很薄','有多條額外的 accessory pathway'],correct:1,
+   ex:'Meijler（JACC 1992）指出窄 QRS 可能來自鯨魚心室壁中極緻密的 His-Purkinje network。2025 年 JACC EP 用 MYL4 標記發現人類也有大量跨壁 intramural Purkinje（佔心肌 Purkinje 含量 >60%），呼應這個假說。'},
+  {q:'關於「AV delay 與心臟大小不成比例（Meijler mismatch）」，Meijler 在 2005 年 Heart Rhythm 提出的解答是：',
+   opts:['其實是量測誤差','AV node 在大型動物退化了','晚期舒張期左心室充盈時間與心臟長度（心臟質量的三次方根）成正比，因此根本沒有 mismatch','大型動物的 AV node 有旁路繞道'],correct:2,
+   ex:'他量測 48 物種、138 顆屍體心臟的二尖瓣口徑加上人類 MRI 跨瓣血流，發現心房收縮固定在心動週期約 80% 處、貢獻 31 ± 5% 充盈；晚期舒張期充盈時間與心臟長度成正比。結論是血流動力學需求在指揮電生理行為。'},
+  {q:'Goldbogen 等人（PNAS 2019）用 ECG-depth tag 直接量測藍鯨，覓食潛水期間的心率是：',
+   opts:['20–30 bpm','4–8 bpm，最低可到 2 bpm','約 1 bpm','無法測得'],correct:1,
+   ex:'在深達 184 m、長達 16.5 分鐘的潛水中，潛水期心率典型 4–8 bpm、最低 2 bpm；上浮後表面心率 25–37 bpm，已接近該體型的理論最大值。'},
+  {q:'關於 Levine（JACC 1997）「一生總心跳數守恆」的說法，下列敘述何者最正確？',
+   opts:['是嚴格定律，可用來預測個體壽命','平均約 7.3 × 10⁸ 次，但 SD 高達 ±5.6 × 10⁸，人類是明顯 outlier','證明減慢心率必然延長壽命','僅適用於海洋哺乳類'],correct:1,
+   ex:'Levine 自己就強調心率只是 metabolic rate 的 marker（epiphenomenon），「減慢心率能否延長人類壽命」仍未定論。教學時務必說清楚變異度，避免過度推論到 ivabradine / beta-blocker 的預後效果。'},
+  {q:'為什麼 mouse 不是研究 QT 延長與致命性心律不整的理想模型？',
+   opts:['小鼠沒有 AV node','小鼠 action potential 幾乎沒有 plateau，復極主要由 I_to 主導而非 I_Kr / I_Ks','小鼠心率太慢','小鼠沒有 Purkinje 系統'],correct:1,
+   ex:'小鼠心率約 600 bpm、AP 極短且無明顯 plateau，復極由 I_to（Kv4.2/4.3、Kv1.5）主導。人類的 I_Kr / I_Ks 藥物效應無法直接外推，這是 preclinical QT 研究的重要限制。'}
+];
+
+const REFS = [
+  {t:'Electrocardiogram of the humpback whale (Megaptera novaeangliae), with specific reference to atrioventricular transmission and ventricular excitation',
+   a:'Meijler FL, Wittkampf FH, Brennen KR, et al.',j:'J Am Coll Cardiol 1992;20:475–9',doi:'10.1016/0735-1097(92)90120-c'},
+  {t:'From mouse to whale: a universal scaling relation for the PR interval of the electrocardiogram of mammals',
+   a:'Noujaim SF, Lucca E, Muñoz V, et al.',j:'Circulation 2004;110:2802–8',doi:'10.1161/01.CIR.0000146785.15995.67'},
+  {t:'Atrioventricular conduction in mammalian species: hemodynamic and electrical scaling',
+   a:'Meijler FL, Billette J, Jalife J, et al.',j:'Heart Rhythm 2005;2:188–96',doi:'10.1016/j.hrthm.2004.11.018'},
+  {t:'Comparative aspects of the dual role of the human atrioventricular node',
+   a:'Meijler FL',j:'Br Heart J 1986;55:286–90',doi:'10.1136/hrt.55.3.286'},
+  {t:'Anatomy of the sinus node, AV node, and His bundle of the heart of the sperm whale (Physeter macrocephalus)',
+   a:'James TN, Kawamura K, Meijler FL, et al.',j:'Anat Rec 1995;242:355–73',doi:'10.1002/ar.1092420309'},
+  {t:'Extreme bradycardia and tachycardia in the world\u2019s largest animal',
+   a:'Goldbogen JA, Cade DE, Calambokidis J, et al.',j:'Proc Natl Acad Sci USA 2019;116:25329–32',doi:'10.1073/pnas.1914273116'},
+  {t:'Rest heart rate and life expectancy',
+   a:'Levine HJ',j:'J Am Coll Cardiol 1997;30:1104–6',doi:'10.1016/s0735-1097(97)00246-5'},
+  {t:'MYL4 identifies intramural anatomy of Purkinje fibers in human hearts',
+   a:'Hillestad ML, Amontree M, Mahlberg RC, et al.',j:'JACC Clin Electrophysiol 2025;11:1718–35',doi:'10.1016/j.jacep.2025.03.039'},
+  {t:'Archetype, adaptation and the mammalian heart',
+   a:'Meijler FL, Meijler TD',j:'Neth Heart J 2011;19:142–8',doi:'10.1007/s12471-011-0086-4'}
+];
+
+/* ============ 工具 ============ */
+const store = {
+  get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+  set(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+};
+const predHR = m => 241*Math.pow(m,-0.25);
+const predPR = m => 53*Math.pow(m,0.24);
+
+function gauss(t,mu,sd,amp){const d=t-mu;return amp*Math.exp(-(d*d)/(2*sd*sd));}
+function ecgAt(t,p){
+  const ph=((t%p.rr)+p.rr)%p.rr;
+  let v=0;
+  const pDur=p.pr*0.6;
+  v+=gauss(ph,pDur*0.5,pDur/5,0.16);
+  const q=p.pr;
+  v+=gauss(ph,q+p.qrs*0.15,p.qrs*0.09,-0.09);
+  v+=gauss(ph,q+p.qrs*0.42,p.qrs*0.13,1.0);
+  v+=gauss(ph,q+p.qrs*0.72,p.qrs*0.13,-0.22);
+  v+=gauss(ph,q+p.qt*0.78,p.qt*0.13,0.26);
+  return v;
+}
+
+/* ============ Icons ============ */
+const I = {
+  home:()=><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 10l9-7 9 7v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>,
+  pulse:()=><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12h4l3-8 4 16 3-8h6"/></svg>,
+  wave:()=><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 16h3l2-9 3 13 3-16 2 12h7"/></svg>,
+  node:()=><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="5" r="2.5"/><path d="M12 7.5v4M12 11.5l-5 5M12 11.5l5 5"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg>,
+  quiz:()=><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 115 .5c0 1.5-2.5 2-2.5 3.5M12 17h.01"/></svg>,
+  book:()=><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h9a3 3 0 013 3v13a2.5 2.5 0 00-2.5-2.5H4z"/><path d="M20 4h-4v13.5"/></svg>
+};
+
+/* ============ Hero 心跳 ============ */
+function Hero({dark,setDark}){
+  const [sel,setSel]=useState('human');
+  const dotRef=useRef(null);
+  const sp=SPECIES.find(s=>s.id===sel);
+  useEffect(()=>{
+    const el=dotRef.current;if(!el)return;
+    const period=60000/sp.hr;
+    let raf,t0=performance.now();
+    const loop=(t)=>{
+      const ph=((t-t0)%period)/period;
+      const s=1+0.55*Math.exp(-Math.pow((ph-0.1)/0.09,2));
+      el.style.transform=`scale(${s.toFixed(3)})`;
+      el.style.opacity=(0.6+0.4*(s-1)/0.55).toFixed(3);
+      raf=requestAnimationFrame(loop);
+    };
+    raf=requestAnimationFrame(loop);
+    return ()=>cancelAnimationFrame(raf);
+  },[sel]);
+  const quick=['shrew','mouse','human','eleph','blue'];
+  return (
+    <div className="hero">
+      <h1>從老鼠到鯨魚<br/>心跳數與傳導速率的縮放法則</h1>
+      <p className="sub">Cardiac scaling from mouse to whale · 讀書會共筆互動教材</p>
+      <div className="beatwrap">
+        <div className="beat-dot" ref={dotRef}></div>
+        <div className="beat-label">
+          <b>{sp.hr}</b> bpm　<span style={{opacity:.7}}>{sp.zh}（{sp.en}）</span>
+        </div>
+      </div>
+      <div className="hero-toggle">
+        {quick.map(id=>{
+          const s=SPECIES.find(x=>x.id===id);
+          return <button key={id} className={sel===id?'on':''} onClick={()=>setSel(id)}>{s.zh}</button>;
+        })}
+        <button onClick={()=>setDark(!dark)}>{dark?'☀ 亮色':'☾ 暗色'}</button>
+      </div>
+    </div>
+  );
+}
+
+/* ============ 首頁 ============ */
+function Home({go}){
+  return (
+    <div className="wrap">
+      <div className="card takehome">
+        <h2>Take Home</h2>
+        <p className="lead">三句話講完整個主題</p>
+        <div className="th-item"><div className="th-num">1</div>
+          <p><b>心跳數</b>隨體重呈 1/4 次方縮放（HR ∝ BM<sup>−0.25</sup>）。一生總心跳數在數量級內大致守恆，約 <span className="mono">7.3 ± 5.6 × 10⁸</span> 次。</p></div>
+        <div className="th-item"><div className="th-num">2</div>
+          <p><b>傳導時間卻不成比例</b>。從 mouse 到 whale 體重差約 10⁶ 倍，PR interval 只差約 10 倍：<span className="mono">PR = 53 × BM<sup>0.24</sup></span>。</p></div>
+        <div className="th-item"><div className="th-num">3</div>
+          <p><b>QRS 更誇張</b>。30 噸座頭鯨的 QRS 只有約 200 ms，解釋是心室壁內有緻密且貫穿全層的 His-Purkinje network——2025 年的人類組織學顯示，我們自己可能也是如此。</p></div>
+      </div>
+
+      <div className="card">
+        <h2>為什麼這件事值得講</h2>
+        <p>這不是動物趣聞。跨物種比較把三個臨床問題的底層邏輯攤開來看：</p>
+        <h3>AV delay 存在的理由</h3>
+        <p>如果 AV delay 的功能是「配合心房收縮完成晚期舒張期充盈」，那 pacemaker 的 AV interval optimization、CRT 的 AV delay 設定、first-degree AV block 造成的 pacemaker syndrome-like 生理，就都有了演化上的解釋。</p>
+        <h3>窄 QRS 的價值</h3>
+        <p>鯨魚花了極大的解剖代價去維持窄 QRS。這正是 conduction system pacing（LBBAP）優於 RV apical pacing 的生理邏輯。</p>
+        <h3>動物模型的極限</h3>
+        <p>小鼠 AP 幾無 plateau、復極由 I_to 主導；牠的 QT 研究無法外推到人類的 I_Kr / I_Ks 藥物效應。</p>
+        <button className="btn" onClick={()=>go('ecg')}>看同尺度 ECG 比較 →</button>
+      </div>
+    </div>
+  );
+}
+
+/* ============ 心跳數 ============ */
+function HeartRate(){
+  const [mass,setMass]=useState(70);
+  const [logM,setLogM]=useState(Math.log10(70));
+  const setBoth=v=>{setLogM(v);setMass(Math.pow(10,v));};
+  const hr=predHR(mass), pr=predPR(mass);
+
+  // log-log plot
+  const W=340,H=210,PL=42,PB=30,PT=12,PR_=10;
+  const xMin=-3,xMax=5.2,yMin=0,yMax=3.3;
+  const px=lx=>PL+(lx-xMin)/(xMax-xMin)*(W-PL-PR_);
+  const py=ly=>PT+(1-(ly-yMin)/(yMax-yMin))*(H-PT-PB);
+  const line=[];
+  for(let lx=xMin;lx<=xMax;lx+=0.2){line.push(`${px(lx).toFixed(1)},${py(Math.log10(predHR(Math.pow(10,lx)))).toFixed(1)}`);}
+
+  return (
+    <div className="wrap">
+      <div className="card">
+        <h2>一、心跳數 <span className="eng">Heart rate</span></h2>
+        <p className="lead">體重跨越 5 千萬倍，心率落在同一條直線上</p>
+        <svg viewBox={`0 0 ${W} ${H}`} className="cond-svg" role="img" aria-label="體重與心率的雙對數關係圖">
+          {[0,1,2,3].map(g=>(
+            <g key={g}>
+              <line x1={PL} y1={py(g)} x2={W-PR_} y2={py(g)} stroke="var(--border)" strokeWidth="1"/>
+              <text x={PL-6} y={py(g)+4} textAnchor="end" fontSize="9" fill="var(--text-muted)">{Math.pow(10,g)}</text>
+            </g>
+          ))}
+          {[-3,-1,1,3,5].map(g=>(
+            <text key={g} x={px(g)} y={H-12} textAnchor="middle" fontSize="9" fill="var(--text-muted)">
+              {g<0?`10${g===-3?'⁻³':'⁻¹'}`:`10${g===1?'¹':g===3?'³':'⁵'}`}
+            </text>
+          ))}
+          <text x={PL-30} y={PT+8} fontSize="9" fill="var(--text-muted)">bpm</text>
+          <text x={W-PR_} y={H-1} textAnchor="end" fontSize="9" fill="var(--text-muted)">體重 kg</text>
+          <polyline points={line.join(' ')} fill="none" stroke="var(--primary-light)" strokeWidth="1.8" strokeDasharray="5 3"/>
+          {SPECIES.map(s=>(
+            <g key={s.id}>
+              <circle cx={px(Math.log10(s.mass))} cy={py(Math.log10(s.hr))} r="4.5" fill="var(--accent)" opacity=".85"/>
+              <text x={px(Math.log10(s.mass))} y={py(Math.log10(s.hr))-8} textAnchor="middle" fontSize="8.5" fill="var(--text-dark)">{s.zh}</text>
+            </g>
+          ))}
+        </svg>
+        <p style={{fontSize:'13px',color:'var(--text-muted)',textAlign:'center',margin:'2px 0 0'}}>
+          虛線為 <span className="mono">HR = 241 × M<sup>−0.25</sup></span>（Kleiber 1/4 次方法則的心血管版本）
+        </p>
+      </div>
+
+      <div className="card calc">
+        <h2>縮放法則計算機</h2>
+        <p className="lead">拉動體重，看預測心率與 PR interval</p>
+        <label>體重（kg）</label>
+        <input type="range" min="-3" max="5.2" step="0.01" value={logM} onChange={e=>setBoth(parseFloat(e.target.value))}/>
+        <div className="mono" style={{textAlign:'center',fontSize:'19px',color:'var(--primary)',margin:'2px 0 6px'}}>
+          {mass<1?`${(mass*1000).toFixed(mass<0.01?1:0)} g`:mass<1000?`${mass.toFixed(1)} kg`:`${(mass/1000).toFixed(1)} 噸`}
+        </div>
+        <div className="res-grid">
+          <div className="res-box"><div className="v">{hr.toFixed(0)}</div><div className="l">預測心率 bpm<br/>241 × M<sup>−0.25</sup></div></div>
+          <div className="res-box"><div className="v">{pr.toFixed(0)}</div><div className="l">預測 PR ms<br/>53 × M<sup>0.24</sup></div></div>
+        </div>
+        <div className="note">
+          兩個公式的指數都接近 <b>1/4</b>，但方向相反：體型越大，心跳越慢、PR 越長。Noujaim 等人以「fractal-like branching network 需在最短傳導時間下維持最佳房室激動順序」推導出 PR ∝ BM<sup>1/4</sup>，實測指數 0.24。
+        </div>
+      </div>
+
+      <div className="card">
+        <h3 style={{marginTop:0}}>各物種靜息心率</h3>
+        <table className="tbl">
+          <thead><tr><th>物種</th><th>體重</th><th>靜息 HR（bpm）</th></tr></thead>
+          <tbody>
+            {SPECIES.map(s=>(
+              <tr key={s.id} className={s.id==='human'?'hi':''}>
+                <td>{s.zh}<br/><span className="eng" style={{fontSize:'11.5px'}}>{s.en}</span></td>
+                <td className="num">{s.mass<1?`${s.mass*1000} g`:s.mass<1000?`${s.mass} kg`:`${(s.mass/1000).toFixed(0)} t`}</td>
+                <td className="num">{s.hrTxt}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <div className="note">
+          <b>藍鯨資料是直接量測的。</b>Goldbogen 等人（PNAS 2019）用 ECG-depth tag，在深達 184 m、長 16.5 分鐘的覓食潛水中記錄到潛水期心率 4–8 bpm、最低 2 bpm；上浮後表面心率 25–37 bpm，已接近該體型的理論最大心率。Lunge feeding 時心率由低點上升 2.5 倍，靠 rorqual 特有的大口徑、高順應性彈性主動脈弓在長間隔之間維持血流。
+        </div>
+      </div>
+
+      <div className="card">
+        <h3 style={{marginTop:0}}>一生心跳守恆？</h3>
+        <p>Levine（JACC 1997）指出哺乳類心率與壽命呈反向半對數關係，每生心跳數平均 <span className="mono">7.3 ± 5.6 × 10⁸</span> 次。</p>
+        <div className="note">
+          <b>教學時務必加註。</b>SD 高達 ±5.6 × 10⁸，人類約 3 × 10⁹ 是明顯 outlier。Levine 自己強調心率只是 metabolic rate 的 marker（epiphenomenon），「減慢心率能否延長人類壽命」仍未定論——不要直接推論到 ivabradine 或 beta-blocker 的預後效果。
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ============ ECG 比較器 ============ */
+function EcgCompare(){
+  const [win,setWin]=useState(1800);
+  const W=880,H=110,PADL=6;
+  const build=(p)=>{
+    const pts=[];
+    const step=win/700;
+    for(let t=0;t<=win;t+=step){
+      const v=ecgAt(t,p);
+      const x=PADL+(t/win)*(W-PADL*2);
+      const y=H*0.72-v*H*0.52;
+      pts.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+    }
+    return pts.join(' ');
+  };
+  const grid=[];
+  for(let t=0;t<=win;t+=200){grid.push(t);}
+  return (
+    <div className="wrap">
+      <div className="card">
+        <h2>二、同一時間軸上的 ECG</h2>
+        <p className="lead">三個物種，同一毫秒尺度。這張圖就是整個主題的重點。</p>
+        <div className="zoombar">
+          <span>時間窗</span>
+          <input type="range" min="400" max="3600" step="100" value={win} onChange={e=>setWin(parseInt(e.target.value))}/>
+          <span className="mono">{win} ms</span>
+        </div>
+        {ECG.map(p=>(
+          <div className="ecg-row" key={p.id}>
+            <div className="ecg-head">
+              <span className="ecg-name">{p.zh} <span className="eng" style={{fontSize:'12px'}}>{p.mass}</span></span>
+              <span className="ecg-meta">HR {Math.round(60000/p.rr)} · PR {p.pr} · QRS {p.qrs}</span>
+            </div>
+            <svg viewBox={`0 0 ${W} ${H}`} className="ecg-svg" preserveAspectRatio="none" role="img" aria-label={`${p.zh} 心電圖示意`}>
+              {grid.map(t=>(
+                <line key={t} x1={PADL+(t/win)*(W-PADL*2)} y1="4" x2={PADL+(t/win)*(W-PADL*2)} y2={H-4}
+                      stroke="var(--border)" strokeWidth="1"/>
+              ))}
+              <polyline points={build(p)} fill="none" stroke="var(--trace)" strokeWidth="2.2"
+                        strokeLinejoin="round" vectorEffect="non-scaling-stroke"/>
+            </svg>
+          </div>
+        ))}
+        <p className="axis-note">格線間距 200 ms</p>
+        <div className="note">
+          波形為<b>示意圖</b>：RR、PR、QRS 使用實測值（小鼠 NEJM 1953；灰鯨 Ponganis 1999，PR 475 ± 35 ms、QRS 208 ± 24 ms），T 波形態與 QT 為教學示意，非實測。
+        </div>
+      </div>
+
+      <div className="card">
+        <h2>Meijler's mismatch</h2>
+        <table className="tbl">
+          <thead><tr><th>物種</th><th>心臟重量</th><th>PR</th><th>QRS</th></tr></thead>
+          <tbody>
+            <tr><td>小鼠 Mouse</td><td className="num">~0.15 g</td><td className="num">30–40 ms</td><td className="num">~10 ms</td></tr>
+            <tr className="hi"><td>人 Human</td><td className="num">300 g</td><td className="num">120–200 ms</td><td className="num">&lt;120 ms</td></tr>
+            <tr><td>灰鯨 Gray whale</td><td className="num">~30 kg</td><td className="num">475 ± 35 ms</td><td className="num">208 ± 24 ms</td></tr>
+            <tr><td>座頭鯨 Humpback<br/><span className="eng" style={{fontSize:'11.5px'}}>30,000 kg</span></td><td className="num">~150 kg</td><td colSpan="2" style={{fontSize:'13px'}}>「以體型而言極短」<br/><span className="eng">Meijler 1992</span></td></tr>
+          </tbody>
+        </table>
+        <h3>問題</h3>
+        <p>竇律下鯨魚 AV 傳導時間約 500 ms，是大鼠（50 ms）的 10 倍；但鯨魚心臟重量約為大鼠的 <b>100,000 倍</b>。Meijler 稱這個落差為 mismatch，並在 1992 年寫下：這些發現用目前公認的電生理理論難以解釋。</p>
+        <h3>解答（Heart Rhythm 2005）</h3>
+        <p>他量測 48 個物種、138 顆屍體心臟（17 g 至 250 kg）的二尖瓣口徑，加上 10 位健康人的 MRI 跨瓣血流，發現：</p>
+        <ul style={{fontSize:'14.5px',paddingLeft:'20px'}}>
+          <li>心房收縮固定發生在心動週期約 80% 處</li>
+          <li>心房收縮貢獻 31 ± 5% 的左心室充盈</li>
+          <li>晚期舒張期充盈時間與<b>心臟長度</b>（心臟質量的三次方根）成正比</li>
+        </ul>
+        <p>結論：AV delay 與心臟大小之間<b>根本沒有 mismatch</b>——是血流動力學需求在指揮電生理行為。</p>
+      </div>
+
+      <div className="card">
+        <h2>窄 QRS 之謎</h2>
+        <p>Meijler 在 1992 年提出：鯨魚的窄 QRS 可能來自心室壁中極為緻密的 His-Purkinje network。</p>
+        <p>James 等人（Anat Rec 1995）解剖七顆抹香鯨心臟，發現 SA node、AV node、His bundle 的細胞大小與組織結構與多數哺乳類相似，只是 <b>SA node 明顯較大</b>；心房與心室中隔之間沒有 central fibrous body，也沒有 os cordis。</p>
+        <div className="note" style={{borderLeftColor:'var(--success)',background:'rgba(39,174,96,.1)'}}>
+          <b>2025 年的回響。</b>Hillestad 等人（JACC Clin Electrophysiol 2025）以 MYL4 作為人類 Purkinje marker，對整個人類心室做橫切組織學，發現一個過去未被認識、跨壁交錯分布的深層 Purkinje 網路，佔人類心肌 Purkinje 含量 <b>超過 60%</b>。Meijler 當年為鯨魚提出的假說，在人類身上也部分成立——對 VT ablation 與 conduction system pacing 有直接臨床意涵。
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ============ 傳導速率 ============ */
+function Conduction(){
+  const [sel,setSel]=useState('av');
+  const c=CONDUCTION.find(x=>x.id===sel);
+  const on=id=>sel===id?'var(--accent)':'var(--primary-light)';
+  const w=id=>sel===id?4.5:2.5;
+  return (
+    <div className="wrap">
+      <div className="card">
+        <h2>三、傳導速率 <span className="eng">Conduction velocity</span></h2>
+        <p className="lead">點選構造查看速率。CV 跨物種幾乎不變。</p>
+        <svg viewBox="0 0 300 260" className="cond-svg" role="img" aria-label="心臟傳導系統示意圖">
+          {/* heart outline */}
+          <path d="M150 22 C205 22 240 62 240 112 C240 176 190 218 150 244 C110 218 60 176 60 112 C60 62 95 22 150 22 Z"
+                fill="var(--bg-cream)" stroke="var(--border)" strokeWidth="2"/>
+          {/* atrial mass */}
+          <g className="cond-hit" onClick={()=>setSel('atr')}>
+            <path d="M78 92 C78 52 112 34 150 34 C188 34 222 52 222 92" fill="none"
+                  stroke={on('atr')} strokeWidth={w('atr')} opacity=".85"/>
+            <text x="150" y="30" textAnchor="middle" fontSize="10" fill="var(--text-muted)">心房肌 Atrium</text>
+          </g>
+          {/* ventricular myocardium */}
+          <g className="cond-hit" onClick={()=>setSel('myo')}>
+            <path d="M84 132 C84 190 120 214 150 234 C180 214 216 190 216 132" fill="none"
+                  stroke={on('myo')} strokeWidth={w('myo')} opacity=".5"/>
+            <text x="150" y="252" textAnchor="middle" fontSize="10" fill="var(--text-muted)">心室肌 Ventricle</text>
+          </g>
+          {/* SA node */}
+          <g className="cond-hit" onClick={()=>setSel('sa')}>
+            <circle cx="203" cy="60" r={sel==='sa'?11:8} fill={on('sa')}/>
+            <text x="222" y="56" fontSize="10" fill="var(--text-dark)">SA</text>
+          </g>
+          {/* AV node */}
+          <g className="cond-hit" onClick={()=>setSel('av')}>
+            <circle cx="150" cy="106" r={sel==='av'?11:8} fill={on('av')}/>
+            <text x="164" y="102" fontSize="10" fill="var(--text-dark)">AV</text>
+          </g>
+          {/* His + bundles + purkinje */}
+          <g className="cond-hit" onClick={()=>setSel('his')}>
+            <path d="M150 114 L150 146" stroke={on('his')} strokeWidth={w('his')+1} fill="none"/>
+            <path d="M150 146 L108 186 M150 146 L192 186" stroke={on('his')} strokeWidth={w('his')} fill="none"/>
+            <path d="M108 186 L92 206 M108 186 L120 210 M192 186 L208 206 M192 186 L180 210
+                     M92 206 L86 218 M120 210 L124 222 M208 206 L214 218 M180 210 L176 222"
+                  stroke={on('his')} strokeWidth={Math.max(1.4,w('his')-1.4)} fill="none" opacity=".9"/>
+            <text x="150" y="140" textAnchor="middle" fontSize="10" fill="var(--text-dark)">His</text>
+          </g>
+        </svg>
+        <div className="cond-info">
+          <h4>{c.zh} <span className="eng" style={{fontSize:'13px'}}>{c.en}</span></h4>
+          <div className="cond-cv">{c.cv}</div>
+          <p>{c.txt}</p>
+        </div>
+      </div>
+
+      <div className="card">
+        <h3 style={{marginTop:0}}>速率總表</h3>
+        <table className="tbl">
+          <thead><tr><th>組織</th><th>CV（m/s）</th></tr></thead>
+          <tbody>
+            {CONDUCTION.map(x=>(
+              <tr key={x.id} className={x.id==='av'?'hi':''}>
+                <td>{x.zh}<br/><span className="eng" style={{fontSize:'11.5px'}}>{x.en}</span></td>
+                <td className="num">{x.cv}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <h3>關鍵觀念</h3>
+        <p>CV 由 I_Na 密度、Cx43 gap junction 分布、細胞幾何決定，<b>不隨體型縮放</b>。跨物種真正改變的是兩件事：</p>
+        <ul style={{fontSize:'14.5px',paddingLeft:'20px'}}>
+          <li><b>路徑長度</b>——鯨魚心臟 1.5 m、重約 180 kg</li>
+          <li><b>Purkinje 網路密度與分布深度</b>——這是大型心臟維持窄 QRS 的唯一辦法</li>
+        </ul>
+        <p className="eng" style={{fontSize:'13px'}}>模擬常用參數：心室肌 0.6 / 0.4 / 0.2 m/s（fiber / sheet / normal 三方向）搭配 Purkinje 4 m/s。</p>
+      </div>
+    </div>
+  );
+}
+
+/* ============ Quiz ============ */
+function Quiz(){
+  const [i,setI]=useState(0);
+  const [sel,setSel]=useState(null);
+  const [score,setScore]=useState(0);
+  const [done,setDone]=useState(false);
+  const q=QUIZ[i];
+  const pick=(n)=>{
+    if(sel!==null)return;
+    setSel(n);
+    if(n===q.correct)setScore(s=>s+1);
+  };
+  const next=()=>{
+    if(i<QUIZ.length-1){setI(i+1);setSel(null);}
+    else{setDone(true);store.set('cvep-quiz-score',String(score));}
+  };
+  const restart=()=>{setI(0);setSel(null);setScore(0);setDone(false);};
+
+  if(done){
+    const pct=Math.round(score/QUIZ.length*100);
+    return (
+      <div className="wrap"><div className="card" style={{textAlign:'center'}}>
+        <h2>完成</h2>
+        <div className="mono" style={{fontSize:'46px',color:'var(--accent)',lineHeight:1.2,margin:'10px 0'}}>{score}/{QUIZ.length}</div>
+        <p>{pct>=80?'很穩，可以直接拿去帶讀書會。':pct>=50?'觀念大致到位，建議回看「同尺度 ECG」那一節。':'建議從 Take Home 三點重新看一次。'}</p>
+        <button className="btn" onClick={restart}>再測一次</button>
+      </div></div>
+    );
+  }
+  return (
+    <div className="wrap"><div className="card">
+      <div className="qbar"><div style={{width:`${(i+1)/QUIZ.length*100}%`}}/></div>
+      <p style={{fontSize:'12.5px',color:'var(--text-muted)',margin:0}}>第 {i+1} 題 / 共 {QUIZ.length} 題</p>
+      <p className="qtext">{q.q}</p>
+      {q.opts.map((o,n)=>{
+        let cls='opt';
+        if(sel!==null){
+          if(n===sel)cls+=n===q.correct?' correct':' wrong';
+          else if(n===q.correct)cls+=' reveal';
+        }
+        return <button key={n} className={cls} onClick={()=>pick(n)}>{o}</button>;
+      })}
+      {sel!==null&&(
+        <div>
+          <div className="expl">
+            <b>{sel===q.correct?'✅ 正確':'❌ 正解為：'+q.opts[q.correct]}</b>
+            <p style={{margin:'6px 0 0'}}>{q.ex}</p>
+          </div>
+          <button className="btn" onClick={next}>{i<QUIZ.length-1?'下一題':'查看結果'}</button>
+        </div>
+      )}
+    </div></div>
+  );
+}
+
+/* ============ 文獻 ============ */
+function Refs(){
+  return (
+    <div className="wrap">
+      <div className="card">
+        <h2>文獻</h2>
+        <p className="lead">檢索來源：PubMed；已交叉查證原始論文</p>
+        {REFS.map((r,i)=>(
+          <div className="ref" key={i}>
+            <span className="t">{r.t}</span>
+            <span className="j">{r.a}<br/>{r.j}</span><br/>
+            <a href={`https://doi.org/${r.doi}`} target="_blank" rel="noopener noreferrer">doi:{r.doi}</a>
+          </div>
+        ))}
+        <div className="note">
+          <b>歷史彩蛋。</b>這個問題最早見於 <i>NEJM</i> 1953 「The Relation of Heart Size to the Time Intervals of the Heart Beat, with Particular Reference to the Elephant and the Whale」，比 Meijler 早了 30 年。
+        </div>
+        <div className="note">
+          <b>待查證。</b>表格中小臭鼩與蜂鳥的心率取自二次文獻。若要正式使用，建議回查 Jürgens KD, <i>J Exp Biol</i> 2002（Etruscan shrew 靜息 835 ± 107 bpm）原文確認。
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ============ App ============ */
+function App(){
+  const [tab,setTab]=useState('home');
+  const [dark,setDark]=useState(false);
+  useEffect(()=>{
+    const s=store.get('cvep-dark');
+    if(s==='1')setDark(true);
+  },[]);
+  useEffect(()=>{
+    document.documentElement.classList.toggle('dark-theme',dark);
+    store.set('cvep-dark',dark?'1':'0');
+  },[dark]);
+  useEffect(()=>{window.scrollTo(0,0)},[tab]);
+
+  const tabs=[
+    {id:'home',label:'總覽',icon:I.home},
+    {id:'hr',  label:'心跳數',icon:I.pulse},
+    {id:'ecg', label:'ECG',  icon:I.wave},
+    {id:'cv',  label:'傳導',  icon:I.node},
+    {id:'quiz',label:'測驗',  icon:I.quiz},
+    {id:'ref', label:'文獻',  icon:I.book}
+  ];
+
+  return (
+    <div className="app">
+      <Hero dark={dark} setDark={setDark}/>
+      {tab==='home'&&<Home go={setTab}/>}
+      {tab==='hr'&&<HeartRate/>}
+      {tab==='ecg'&&<EcgCompare/>}
+      {tab==='cv'&&<Conduction/>}
+      {tab==='quiz'&&<Quiz/>}
+      {tab==='ref'&&<Refs/>}
+
+      <div className="foot">
+        <div className="sig">讀書會共筆整理人</div>
+        <div>謝慕揚 醫師 MD, PhD, FESC</div>
+        <div>結構性心臟病與介入心臟學</div>
+        <div className="dis">
+          本內容為讀書會共筆整理，未必涵蓋所有相關文獻<br/>
+          僅供學術與教育用途，不代表任何單位之官方立場<br/>
+          本內容未涉及任何利益衝突
+        </div>
+      </div>
+
+      <nav className="nav">
+        {tabs.map(t=>{
+          const Ic=t.icon;
+          return (
+            <button key={t.id} className={tab===t.id?'on':''} onClick={()=>setTab(t.id)} aria-label={t.label}>
+              <Ic/><span>{t.label}</span>
+            </button>
+          );
+        })}
+      </nav>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

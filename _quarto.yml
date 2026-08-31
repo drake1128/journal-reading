@@ -91,6 +91,12 @@ website:
             - handouts/03-arrhythmia/index.qmd
             - text: "ACLS & PALS 2025 Update — 高級心臟救命術教學 (互動網頁)"
               href: handouts/03-arrhythmia/ACLS_PALS_2025.html
+            - text: "Syncope-Stopper 與 DROP Score — 高風險不明原因暈厥的 upfront pacing (ESC 2026 共筆, 互動網頁含計算器)"
+              href: handouts/03-arrhythmia/Syncope-Stopper_DROP_Score_ESC2026.html
+            - text: "His-Alternative II — CSP vs BiV-CRT 於 HFrEF (ESC 2026 共筆, 互動網頁)"
+              href: handouts/03-arrhythmia/His-Alternative_II_CSP_vs_BiV_CRT_ESC2026.html
+            - text: "從老鼠到鯨魚 — 跨物種心跳與傳導的縮放法則 (互動教材)"
+              href: handouts/03-arrhythmia/Comparative_Cardiac_EP_Mouse_to_Whale.html
             - handouts/03-arrhythmia/antithrombotic-therapy-after-successful-catheter-ablation/index.qmd
             - handouts/03-arrhythmia/circulation-ai-ecg-phenotypic-selectivity-2025/index.qmd
             - handouts/03-arrhythmia/ecg-challenge-alternating-rbbb/index.qmd
@@ -161,6 +167,8 @@ website:
               href: handouts/05-cardiac-imaging/LVEF_Not_Everything_Echo_to_CPET.html
             - text: "MAD 辨識與量測 Mitral Annular Disjunction (超音波室教學, 互動網頁)"
               href: handouts/05-cardiac-imaging/MAD_Mitral_Annular_Disjunction.html
+            - text: "Cardiac Sarcoidosis 影像判讀 — CMR 看疤痕、PET 看活性 (互動網頁)"
+              href: handouts/05-cardiac-imaging/Cardiac_Sarcoidosis_CMR_PET_Imaging.html
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns/index.qmd
             - handouts/05-cardiac-imaging/cardiac-mri-lge-patterns-2/index.qmd
             - handouts/05-cardiac-imaging/checklist-icu-pocus/index.qmd
@@ -415,6 +423,10 @@ website:
               href: handouts/90-ai-technology/AI_Medical_Education.html
             - text: "AMEE / BEME 的 AI 指引 — 七份官方指引全景導讀 2023–2026 (投影片 PDF, 33 張)"
               href: handouts/90-ai-technology/AMEE_BEME_AI_Guides_Overview.pdf
+            - text: "AI 進入學術寫作與出版 — 編輯部立場與作者責任 (ESC / EHJ-Digital Health 論壇共筆, 互動網頁)"
+              href: handouts/90-ai-technology/AI_in_Academic_Writing_and_Publishing_ESC2026.html
+            - text: "穿戴式裝置與身體活動量測 (ESC 2026 共筆, 互動網頁)"
+              href: handouts/90-ai-technology/Wearables_and_Physical_Activity_ESC2026.html
             - handouts/90-ai-technology/anthropic-ai-for-science-2026-01-16/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial/index.qmd
             - handouts/90-ai-technology/claude_code_tutorial_zh/index.qmd

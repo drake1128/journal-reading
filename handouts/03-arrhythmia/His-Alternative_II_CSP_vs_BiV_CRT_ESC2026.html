@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>His-Alternative II｜CSP vs BiV-CRT 讀書會共筆</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#1e3a5f; --primary-light:#2d5a87;
+  --accent:#ba181b; --accent-light:#e05658;
+  --success:#27ae60; --warning:#f39c12; --info:#0072bc;
+  --bg-cream:#faf8f5; --bg-card:#ffffff;
+  --text-dark:#2c3e50; --text-muted:#7f8c8d;
+  --border:#e6e9ea; --shadow:0 4px 20px rgba(0,0,0,.08);
+}
+:root.dark-theme{
+  --bg-cream:#141a24; --bg-card:#1c2635;
+  --text-dark:#e9edf2; --text-muted:#9aa7b5; --border:#2d3748;
+  --primary:#7fb3e8; --primary-light:#a8cdf3; --accent:#ff6b6b; --info:#5aa9e6;
+  --shadow:0 4px 20px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg-cream);color:var(--text-dark);
+ font-family:'Noto Sans TC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+ font-size:16px;line-height:1.75}
+.app{max-width:820px;margin:0 auto;padding-bottom:calc(28px + env(safe-area-inset-bottom))}
+
+header.hero{background:linear-gradient(135deg,var(--primary) 0%,#0f2033 100%);color:#fff;
+ padding:26px 18px 20px;border-radius:0 0 20px 20px}
+.dark-theme header.hero{background:linear-gradient(135deg,#1c2b40 0%,#0d1520 100%)}
+.hero h1{margin:0 0 4px;font-size:22px;font-weight:700;letter-spacing:.3px}
+.hero .zh{margin:0 0 12px;font-size:15px;opacity:.9;font-weight:400}
+.hero .meta{font-size:12.5px;opacity:.78;line-height:1.6}
+.badge-row{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 0}
+.badge{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);
+ padding:4px 10px;border-radius:99px;font-size:11.5px;font-weight:500}
+.theme-btn{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.15);
+ border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:99px;
+ min-height:36px;padding:0 14px;font-size:13px;font-family:inherit;cursor:pointer}
+.hero-wrap{position:relative}
+
+nav.tabs{display:flex;gap:6px;overflow-x:auto;padding:14px 12px 8px;
+ -webkit-overflow-scrolling:touch;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;min-height:44px;padding:0 16px;border-radius:99px;border:1px solid var(--border);
+ background:var(--bg-card);color:var(--text-muted);font-size:14px;font-weight:500;
+ font-family:inherit;cursor:pointer;white-space:nowrap;transition:.15s}
+.tab.active{background:var(--primary);border-color:var(--primary);color:#fff;font-weight:600}
+.dark-theme .tab.active{color:#0d1520}
+
+main{padding:6px 14px 0}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;
+ padding:18px;margin-bottom:14px;box-shadow:var(--shadow)}
+h2.sec{font-size:19px;color:var(--accent);margin:4px 0 14px;font-weight:700}
+h3.sub{font-size:16px;color:var(--info);margin:20px 0 8px;font-weight:600}
+p{margin:0 0 12px}
+.small{font-size:13.5px;color:var(--text-muted)}
+
+.takehome{border-left:5px solid var(--warning);background:linear-gradient(180deg,rgba(243,156,18,.09),transparent 60%)}
+.note{border-left:5px solid var(--info);background:rgba(0,114,188,.07);
+ border-radius:12px;padding:14px 16px;margin:14px 0}
+.note .t{font-weight:700;color:var(--info);font-size:14px;margin-bottom:6px}
+.warn{border-left:5px solid var(--accent);background:rgba(186,24,27,.07);
+ border-radius:12px;padding:14px 16px;margin:14px 0}
+.warn .t{font-weight:700;color:var(--accent);font-size:14px;margin-bottom:6px}
+
+ol.th{margin:0;padding-left:22px}
+ol.th li{margin-bottom:12px}
+ul.pt{margin:0;padding-left:20px}
+ul.pt li{margin-bottom:8px}
+
+.kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:14px 0}
+.kpi .box{background:var(--bg-cream);border:1px solid var(--border);border-radius:12px;padding:12px}
+.kpi .lab{font-size:11.5px;color:var(--text-muted);font-weight:500}
+.kpi .val{font-size:20px;font-weight:700;color:var(--primary);line-height:1.3;margin-top:2px}
+.kpi .sub{font-size:12px;color:var(--text-muted);margin-top:2px}
+
+.tbl{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0 4px;display:block;overflow-x:auto}
+.tbl th{text-align:left;background:var(--bg-cream);color:var(--primary);font-weight:600;
+ padding:9px 10px;border-bottom:2px solid var(--border);white-space:nowrap}
+.tbl td{padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+.tbl tr:last-child td{border-bottom:none}
+.en{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+
+.bar-row{display:flex;align-items:center;gap:10px;margin:9px 0}
+.bar-lab{flex:0 0 96px;font-size:13px;font-weight:500}
+.bar-track{flex:1;height:22px;background:var(--bg-cream);border-radius:6px;overflow:hidden;border:1px solid var(--border)}
+.bar-fill{height:100%;border-radius:5px 0 0 5px;display:flex;align-items:center;justify-content:flex-end;
+ padding-right:7px;color:#fff;font-size:12px;font-weight:600}
+
+.acc{border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden;background:var(--bg-card)}
+.acc-h{min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:10px;
+ padding:12px 14px;cursor:pointer;font-weight:600;font-size:15px}
+.acc-b{padding:0 14px 14px;font-size:14.5px}
+.chev{color:var(--text-muted);font-size:13px;flex:0 0 auto}
+
+.q-prog{height:6px;background:var(--border);border-radius:99px;overflow:hidden;margin-bottom:14px}
+.q-prog>div{height:100%;background:var(--info);transition:width .3s}
+.opt{display:block;width:100%;text-align:left;min-height:52px;padding:13px 15px;margin-bottom:9px;
+ border:1.5px solid var(--border);border-radius:12px;background:var(--bg-card);color:var(--text-dark);
+ font-family:inherit;font-size:14.5px;line-height:1.55;cursor:pointer;transition:.15s}
+.opt:active{transform:scale(.99)}
+.opt.correct{border-color:var(--success);background:rgba(39,174,96,.12);font-weight:600}
+.opt.wrong{border-color:var(--accent);background:rgba(186,24,27,.1)}
+.opt:disabled{cursor:default}
+.exp{margin-top:12px;padding:13px 15px;border-radius:12px;background:var(--bg-cream);
+ border:1px solid var(--border);font-size:14px}
+.btn{min-height:48px;padding:0 22px;border:none;border-radius:12px;background:var(--primary);
+ color:#fff;font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;margin-top:12px}
+.dark-theme .btn{color:#0d1520}
+.btn.ghost{background:transparent;border:1.5px solid var(--border);color:var(--text-muted)}
+.score{text-align:center;padding:14px 0}
+.score .n{font-size:42px;font-weight:700;color:var(--primary)}
+
+ol.ref{padding-left:20px;font-size:13.5px;margin:0}
+ol.ref li{margin-bottom:11px;line-height:1.65}
+ol.ref a{color:var(--info)}
+
+footer.disc{margin:8px 14px 0;padding:16px;border-top:1px solid var(--border);
+ font-size:12.5px;color:var(--text-muted);line-height:1.8}
+.sig{font-size:13.5px;color:var(--text-dark);font-weight:500;margin-bottom:10px;line-height:1.8}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState} = React;
+
+/* ---------------- data ---------------- */
+
+const TABS = [
+  {id:'home',  label:'Take Home'},
+  {id:'method',label:'Methods'},
+  {id:'result',label:'Results'},
+  {id:'disc',  label:'Discussant'},
+  {id:'clin',  label:'臨床意義'},
+  {id:'quiz',  label:'測驗'},
+  {id:'ref',   label:'文獻'},
+];
+
+const QUESTIONS = [
+  {q:'本試驗 ITT 分析：P = 0.003 for non-inferiority、p = 0.8 for superiority。正確解讀是？',
+   options:['CSP-CRT 顯著優於 BiV-CRT','CSP-CRT 不劣於 BiV-CRT，但未證明比較好','試驗失敗，兩組差異太大','BiV-CRT 顯著優於 CSP-CRT'],
+   correct:1,
+   exp:'Non-inferiority 達標代表 95% CI 下界（−6.9%）未跨越預設的 −10% margin；但 CI 同時涵蓋 0、superiority p = 0.8，因此完全不能說 CSP 比較好。介入試驗最常見的誤讀就是把 non-inferior 講成 superior。'},
+
+  {q:'CSP 組有 15/99（15%）crossover 到 BiV。為什麼 on-treatment 分析的 p 值（<0.001）看起來比 ITT（0.003）更漂亮？',
+   options:['On-treatment 樣本數較大','把 CSP 植入失敗者移出分析，系統性偏向 CSP','隨機化被破壞，結果偏向 BiV','兩種分析在數學上等價，純屬巧合'],
+   correct:1,
+   exp:'On-treatment 只納入「真的做成 CSP」的病人，等於把技術失敗者排除。Crossover 率越高，這個偏差越大。LEFT-BUNDLE-CRT（crossover 20.7%）就是 ITT 未達 non-inferiority、on-treatment 才達標的典型例子。'},
+
+  {q:'本試驗的 LBBAP 判定僅要求「V1 出現 r′ 且 QRS narrowing」。最可能的後果是？',
+   options:['高估 BiV-CRT 的療效','CSP 組中可能混入 LVSP／deep septal pacing，而非真正的 left bundle capture','會低估 CSP 組的併發症','對結果沒有任何影響'],
+   correct:1,
+   exp:'2023 EHRA consensus 採階層式判準（V6RWPT cut-off、V6−V1 interpeak > 44 ms、programmed stimulation 下的 QRS transition 等）。本試驗啟動早於該共識，定義偏寬鬆，CSP 組組成可能較異質——這也呼應了 DSP 次族群反應率偏低的觀察。'},
+
+  {q:'Tan 等人（JACC EP 2023）顯示 loss of conduction system capture：HBP 23.5% vs LBBP 13.5%。臨床上最合理的因應是？',
+   options:['HBP 不應再使用','放寬 HBP 的閾值標準即可','考慮 backup lead，並在追蹤時主動確認是否仍維持 conduction system capture','LBBP 無此問題，不需追蹤'],
+   correct:2,
+   exp:'重點不是廢掉 HBP，而是「掉了怎麼辦」要事先規劃。追蹤時除了 threshold 與 impedance，還要看 paced QRS 形態與 V6RWPT；必要時可轉為 LOT-CRT／HOT-CRT 或加上 CS lead。His-Alternative II 的 safety 表中也確實出現 loss of capture on His lead。'},
+
+  {q:'依照現行 ESC 立場，對於 typical LBBB 的 CRT 候選者，first-line 治療是？',
+   options:['LBBAP','HBP','BiV pacing','LOT-CRT'],
+   correct:2,
+   exp:'ESC pacing/CRT guideline 明確指出，特別是在 LBBB 的 CRT 候選者，biventricular pacing 有較穩固的療效與安全性證據，仍為 first-line。所有已發表的 CSP RCT 都是數十至百餘人、以 echo surrogate 為主要終點。'},
+
+  {q:'關於 therapy delivered 次族群（BiV 78%、HIS 88%、LBBa 83%、DSP 40%），最適當的結論是？',
+   options:['DSP 明確較差，應完全避免','HBP 是最好的 CSP 模式','DSP n=5，僅能視為與機轉一致的方向性訊號，不能下結論','四組間差異達統計顯著'],
+   correct:2,
+   exp:'DSP 只有 5 人，95% CI 極寬。真正值得記住的是方向：有 capture 到傳導系統者反應率高、落在 deep septal 未 capture 者反應率低——與機轉假說一致，但本試驗無法證明因果。'},
+];
+
+/* ---------------- small components ---------------- */
+
+const Bar = ({label,pct,n,color}) => (
+  <div className="bar-row">
+    <div className="bar-lab">{label}<br/><span className="small">n = {n}</span></div>
+    <div className="bar-track">
+      <div className="bar-fill" style={{width:pct+'%',background:color}}>{pct}%</div>
+    </div>
+  </div>
+);
+
+const Acc = ({title,children}) => {
+  const [open,setOpen] = useState(false);
+  return (
+    <div className="acc">
+      <div className="acc-h" onClick={()=>setOpen(!open)}>
+        <span>{title}</span><span className="chev">{open?'▲':'▼'}</span>
+      </div>
+      {open && <div className="acc-b">{children}</div>}
+    </div>
+  );
+};
+
+/* ---------------- sections ---------------- */
+
+const Home = () => (
+  <div>
+    <div className="card takehome">
+      <h2 className="sec">Take Home Message</h2>
+      <ol className="th">
+        <li><b>試驗方向：non-inferiority 達標（positive for non-inferiority），但<u>不是</u> superiority trial。</b><br/>
+          在 HFrEF + typical LBBB（Strauss criteria）或 RV pacing &gt; 90% 的 CRT 候選者，CSP-CRT 於 6 個月 LVESV 相對縮減 non-inferior to BiV-CRT。</li>
+        <li><b>ITT：</b>between-group difference 0.9%（95% CI −6.9% 到 8.7%），<span className="en">P = 0.003</span> for non-inferiority、<span className="en">p = 0.8</span> for superiority。<br/>
+          <b>On-treatment：</b>difference 2.7%（95% CI −4.6% 到 10.0%），<span className="en">p &lt; 0.001</span> for non-inferiority、<span className="en">p = 0.6</span> for superiority。</li>
+        <li><b>所有 secondary endpoints</b>（ΔLVEF、NT-proBNP、6MWT、NYHA、MLHFQ）<b>與 safety endpoints 皆無顯著差異。</b></li>
+        <li><b>最大的臨床訊息在 crossover：</b>CSP 組 15/99（15%）跨組轉為 BiV，反向只有 1（2%）。「做得成」比「做得好」才是目前 CSP 的瓶頸。</li>
+        <li><b>尚不足以改寫 first-line 建議：</b>分析人數僅 139、LBBAP 定義寬鬆、且<b>沒有追蹤期間 conduction system capture retention 的資料</b>。現行 ESC 立場仍以 BiV pacing 為 LBBB CRT 候選者的 first-line。</li>
+      </ol>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">一眼看數字</h2>
+      <div className="kpi">
+        <div className="box"><div className="lab">Primary endpoint（ITT）</div><div className="val">+0.9%</div><div className="sub">95% CI −6.9 ~ 8.7；NI margin 10%</div></div>
+        <div className="box"><div className="lab">LVESV 縮減（6 個月）</div><div className="val">35% / 34%</div><div className="sub">CSP-CRT / BiV-CRT</div></div>
+        <div className="box"><div className="lab">CSP → BiV crossover</div><div className="val">15%</div><div className="sub">反向僅 2%</div></div>
+        <div className="box"><div className="lab">CRT response（ITT）</div><div className="val">80% / 79%</div><div className="sub">ΔLVESV ≥ 15%</div></div>
+      </div>
+      <div className="warn">
+        <div className="t">判讀三檢核</div>
+        看任何一篇 CSP vs BiV 的文獻，先確認三件事：<b>(1) ITT 還是 on-treatment？(2) non-inferiority 還是 superiority？(3) crossover 多少？</b>
+        多數「CSP 看起來很好」的結論來自 on-treatment；crossover 一高，on-treatment 等於把 CSP 做失敗的人挑掉，會系統性偏向 CSP。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">為什麼要做這個試驗</h2>
+      <p>CRT 以 BiV pacing 累積了二十年以上的 outcome 證據，但仍有約三分之一病人 non-response，且 coronary sinus (CS) lead 受限於解剖、閾值與 phrenic nerve capture。CSP（HBP 與 LBBAP）理論上直接矯正 LBBB 造成的 electromechanical dyssynchrony，回復生理性心室活化。</p>
+      <p>既有 RCT 規模都不大、結果也不一致：LEVEL-AT (70)、CONSYST-CRT (134)、LBBP-RESYNC (40)、CSP-SYNC (62)、His-SYNC (41)、His-Alternative I (50) 多顯示 non-inferiority；但 PhysioSync-HF (173) 未達 non-inferiority、LEFT-BUNDLE-CRT (176) 在 ITT 亦未達標。His-Alternative II 是在此脈絡下的丹麥 randomized trial。</p>
+    </div>
+  </div>
+);
+
+const Methods = () => (
+  <div>
+    <div className="card">
+      <h2 className="sec">研究設計</h2>
+      <table className="tbl"><tbody>
+        <tr><th>納入條件</th><td>LVEF ≤ 35%；NYHA II–IV 且已在 optimal medical therapy (OMT)；LBBB（Strauss criteria）或 RV pacing &gt; 90%</td></tr>
+        <tr><th>收案</th><td>150 人納入 → 2 人植入前撤回同意 → <b>148 人隨機分派</b></td></tr>
+        <tr><th>隨機比例</th><td><b>1:2</b>（BiV-CRT 49 : CSP-CRT 99）</td></tr>
+        <tr><th>追蹤</th><td>6 個月（echo 為主要評估時間點）</td></tr>
+        <tr><th>Primary endpoints</th><td>(1) Non-inferiority of relative change in LVESV，baseline → 6 months，<b>NI margin 10%</b><br/>(2) Success rate of implanting CSP-CRT</td></tr>
+        <tr><th>Secondary endpoints</th><td>CRT response = LVESV 縮減 ≥ 15%；QRS duration、LVEF、NT-proBNP；NYHA、MLHFQ；6-minute walk test</td></tr>
+      </tbody></table>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">植入技術標準</h2>
+      <p className="small">這一段決定了結果怎麼解讀——兩組的 procedural criteria 都很嚴格，唯獨 LBBAP 的定義偏寬鬆。</p>
+      <table className="tbl"><tbody>
+        <tr><th>BiV-CRT</th><td>Coronary sinus lead 須符合：<br/>(1) QLV 落在 QRS 的 last third<br/>(2) Threshold &lt; 4 V @ 1 ms<br/>(3) Phrenic nerve capture threshold &gt; 2× myocardial capture threshold</td></tr>
+        <tr><th>CSP-CRT</th><td>(1) <b>HBP</b>：threshold &lt; 2.5 V @ 1 ms，需 capture His 與 LBB<br/>(2) <b>LBBAP</b>：V1 出現 r′ 且 QRS narrowing</td></tr>
+      </tbody></table>
+      <div className="note">
+        <div className="t">Discussant 指出的關鍵方法學問題</div>
+        CSP 組的 LBBAP 定義（僅 r′ in V1 + QRS narrowing）相對寬鬆，未採用 2023 EHRA clinical consensus statement 的階層式判定（V6RWPT cut-off、V6−V1 interpeak interval &gt; 44 ms、programmed stimulation 下 QRS transition 等）。原因是本試驗啟動早於該共識。實務意義：CSP 組中可能混有 LVSP 而非真正的 left bundle capture——但也可以反過來說，這反映了「真實世界的 CSP」。
+      </div>
+    </div>
+  </div>
+);
+
+const Results = () => (
+  <div>
+    <div className="card">
+      <h2 className="sec">病人流向</h2>
+      <p className="small">注意 ITT 與 on-treatment 的人數差很多，這是後面所有解讀的關鍵。</p>
+      <table className="tbl">
+        <thead><tr><th>階段</th><th>BiV-CRT</th><th>CSP-CRT</th></tr></thead>
+        <tbody>
+          <tr><td>Randomization (1:2)</td><td>49</td><td>99</td></tr>
+          <tr><td>Crossover</td><td>接收 15 人（來自 CSP）</td><td>送出 15 人（15%）<br/>接收 1 人（2%）</td></tr>
+          <tr><td>Implantation, ITT</td><td>49</td><td>99</td></tr>
+          <tr><td>Implantation, on-treatment</td><td>63</td><td>85</td></tr>
+          <tr><td>死亡（ITT）</td><td>2</td><td>7</td></tr>
+          <tr><td>死亡（on-treatment）</td><td>3</td><td>6</td></tr>
+          <tr><td>6-month FU, ITT</td><td>47</td><td>92</td></tr>
+          <tr><td>6-month FU, on-treatment</td><td>60</td><td>79</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">Primary endpoint</h2>
+      <table className="tbl">
+        <thead><tr><th>分析</th><th>結果</th><th>統計</th></tr></thead>
+        <tbody>
+          <tr><td><b>Intention-to-treat</b></td>
+              <td>CSP-CRT −35 ± 22%<br/>BiV-CRT −34 ± 22%<br/>difference 0.9%</td>
+              <td className="en">95% CI −6.9 ~ 8.7%<br/>P = 0.003 (NI)<br/>p = 0.8 (superiority)</td></tr>
+          <tr><td><b>On-treatment</b></td>
+              <td>difference 2.7%</td>
+              <td className="en">95% CI −4.6 ~ 10.0%<br/>p &lt; 0.001 (NI)<br/>p = 0.6 (superiority)</td></tr>
+        </tbody>
+      </table>
+      <div className="warn">
+        <div className="t">解讀提醒</div>
+        兩組 LVESV reverse remodeling 幅度（約 34–35%）在 CRT 試驗中都算相當好，代表<b>兩組植入品質都很高</b>（BiV 組有嚴格的 QLV 與 phrenic 標準）。ITT 的 CI 下界 −6.9% 沒有跨過 −10% 的 margin，故 non-inferiority 成立；但 CI 同時涵蓋 0，superiority 完全不成立。<b>請勿把「non-inferior」講成「更好」。</b>
+      </div>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">Secondary endpoints（ITT）</h2>
+      <table className="tbl">
+        <thead><tr><th>Endpoint</th><th>BiV-CRT (47)</th><th>CSP-CRT (92)</th></tr></thead>
+        <tbody>
+          <tr><td>ΔLVESV ≥ 15%（CRT response）</td><td>37 (79%)</td><td>74 (80%)</td></tr>
+          <tr><td>ΔLVEF (%)</td><td>14 ± 9</td><td>14 ± 8</td></tr>
+          <tr><td>ΔNT-proBNP (pmol/L)</td><td>−110 ± 116</td><td>−72 ± 152</td></tr>
+          <tr><td>Δ6-min hall walk (m)</td><td>24 ± 48</td><td>37 ± 53</td></tr>
+          <tr><td>ΔNYHA class</td><td>−0.6 ± 0.7</td><td>−0.6 ± 0.6</td></tr>
+          <tr><td>ΔMLHFQ score</td><td>−13 ± 15</td><td>−16 ± 18</td></tr>
+        </tbody>
+      </table>
+      <p className="small">全部 secondary endpoints 在兩組間<b>無顯著差異</b>。</p>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">依實際遞送 modality 分層（on-treatment）</h2>
+      <p className="small">CRT response = ΔLVESV ≥ 15%</p>
+      <Bar label="BiV"  pct={78} n={60} color="#2d6cb5"/>
+      <Bar label="HBP"  pct={88} n={26} color="#e8791f"/>
+      <Bar label="LBBa" pct={83} n={48} color="#8d95a0"/>
+      <Bar label="DSP"  pct={40} n={5}  color="#f0b429"/>
+      <div className="note">
+        <div className="t">別被 DSP 的 40% 帶走</div>
+        分母只有 5 人，95% CI 極寬。值得記住的是<b>方向性</b>：捕捉到傳導系統（HBP／LBBa）反應率高，落在 deep septal 而未捕捉到傳導系統（DSP）反應率低。這與「CSP 的效果取決於是否真的 capture 到 conduction system」的機轉假說一致，但本試驗無法證明。<br/><br/>
+        <span className="small">註：presenter 與 discussant 兩份投影片在 BiV 的分母略有出入——presenter 標 n = 60（on-treatment），discussant 版本標 n = 47（ITT），百分比同為 78%。正式論文出版後應以論文為準。</span>
+      </div>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">Safety（on-treatment）</h2>
+      <table className="tbl">
+        <thead><tr><th>項目</th><th>BiV-CRT (63)</th><th>CSP-CRT (79)</th></tr></thead>
+        <tbody>
+          <tr><td>Deaths</td><td>3</td><td>6</td></tr>
+          <tr><td>Unplanned hospital admission</td><td>1（AF and worsening HF）</td><td>0</td></tr>
+          <tr><td>Periprocedural（PE、tamponade、pneumothorax 等）</td><td>0</td><td>0</td></tr>
+          <tr><td>&lt; 30 days</td><td>3<br/>Perforation by atrial lead<br/>Displaced ICD lead<br/>Displaced LV lead</td><td>2<br/>Late perforation of LBB lead<br/>Displaced RV lead</td></tr>
+          <tr><td>30 days – 6 months</td><td>3<br/>Pocket infection<br/>Displaced LV lead<br/>Phrenic nerve capture</td><td>3<br/>Loss of capture on His lead<br/>Displaced atrial lead<br/>Displaced LBB lead</td></tr>
+        </tbody>
+      </table>
+      <p className="small">兩組 safety profile 相似。值得注意的是 CSP 組出現 <b>late perforation of LBB lead</b> 與 <b>loss of capture on His lead</b>——正好是 discussant 最擔心的問題。</p>
+    </div>
+  </div>
+);
+
+const Disc = () => (
+  <div>
+    <div className="card">
+      <h2 className="sec">Discussant 評論</h2>
+      <p className="small">Haran Burri（University Hospital of Geneva, Switzerland）</p>
+      <p>Discussant 認同 primary endpoint 的 non-inferiority 與 secondary／safety 的無差異，但提出三項 caveats：</p>
+      <ul className="pt">
+        <li><b>Limited sample size</b>（分析人數 n = 139）</li>
+        <li><b>Lenient definition of LBBAP</b>（研究啟動早於 2023 EHRA consensus）</li>
+        <li><b>No data on retention of conduction system capture over follow-up</b></li>
+      </ul>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">Crossover：CSP 的真正瓶頸</h2>
+      <table className="tbl">
+        <thead><tr><th>來源</th><th>數據</th></tr></thead>
+        <tbody>
+          <tr><td>MELOS registry<br/><span className="small">Jastrzębski, Eur Heart J 2022</span></td><td>HF 病人 LBBP implant failure <b>17.8%</b></td></tr>
+          <tr><td>LEFT-BUNDLE-CRT<br/><span className="small">Cano, Eur Heart J 2026</span></td><td>Crossover CSP → BiV <b>20.7%</b>；ITT 未達 non-inferiority，on-treatment 才達標</td></tr>
+          <tr><td>His-Alternative II</td><td>Crossover CSP → BiV <b>15%</b>；BiV → CSP 僅 2%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">Conduction system capture 能維持多久？</h2>
+      <table className="tbl">
+        <thead><tr><th>研究</th><th>結果</th></tr></thead>
+        <tbody>
+          <tr><td>Herbert J, … Burri H.<br/><span className="small">Europace 2024</span></td><td>Probability of maintaining HBP 隨時間下降，median follow-up 830 天（IQR 238–1317）時約 <b>0.74</b>；因此討論 backup lead 的價值</td></tr>
+          <tr><td>Tan ESJ, et al.<br/><span className="small">JACC Clin Electrophysiol 2023</span></td><td>Loss of conduction system capture：<b>HBP 28/119 (23.5%)</b> vs <b>LBBP 22/163 (13.5%)</b></td></tr>
+        </tbody>
+      </table>
+      <div className="note">
+        <div className="t">臨床操作上的直接意涵</div>
+        做 CSP-CRT 時要事先想好「掉了怎麼辦」：<br/>
+        (1) HBP 的 backup RV lead 策略；<br/>
+        (2) 追蹤時主動檢查是否仍為 conduction system capture——不只看 threshold 與 impedance，還要看 paced QRS 形態與 V6RWPT；<br/>
+        (3) 若 capture 喪失，是否可切換為 LOT-CRT／HOT-CRT 或加 CS lead。
+      </div>
+    </div>
+
+    <div className="card">
+      <h2 className="sec">領域全貌：BiV vs CSP 的 RCT 地圖</h2>
+      <Acc title="已發表 — CRT">
+        LEFT-BUNDLE-CRT (N=176)、His-SYNC (N=41)、His-Alternative (N=50)、CSP-SYNC (N=62)、PhysioSync-HF (N=173)、LBBP-RESYNC (N=40)、HeartSync-LBBP (N=200)
+      </Acc>
+      <Acc title="已發表 — CRT and pacing">
+        LEVEL-AT (N=70)、CONSYST-CRT (N=134)、HOPE-HF (N=167)、HOT-CRT (N=100)、<b>HIS-ALT II (N=150)</b>
+      </Acc>
+      <Acc title="進行中 — CRT">
+        SYNCHRONICITY (N=850)、LeCaRT (N=170)、DA VINCI (N=194)、ACHIEVED LBBAP (N=110)、BATTLE (N=86)、HIS-CRT (N=120)
+      </Acc>
+      <Acc title="進行中 — CRT and pacing">
+        <b>LEFT vs LEFT (N=2136)</b>、CONSYST-CRT II (N=320)、<b>NORDIC-CSP (N=1100)</b>
+      </Acc>
+      <p className="small" style={{marginTop:'12px'}}>真正能改寫 guideline 的，會是 LEFT vs LEFT、NORDIC-CSP、SYNCHRONICITY 這幾個以 <b>hard clinical endpoints</b> 為主、數千人規模的試驗。目前所有已發表 RCT 都是以 surrogate endpoint（echo remodeling）為主、數十至百餘人的規模。</p>
+    </div>
+  </div>
+);
+
+const Clin = () => (
+  <div className="card">
+    <h2 className="sec">對臨床的實務意義</h2>
+    <ol className="th">
+      <li><b>CSP 不是 BiV 的替代品，是工具箱裡多出來的一把工具。</b> 現行 ESC 立場：LBBB 的 CRT 候選者，BiV pacing 證據最完整，仍為 first-line。</li>
+      <li><b>CS lead 做得好，BiV 的成績非常好。</b> 本試驗 BiV 組 response 率 78–79%、LVESV 縮減 34%，前提是嚴格執行 QLV 與 phrenic threshold 標準。不要因為「CSP 比較潮」而放棄把 CS lead 做到位。</li>
+      <li><b>最適合考慮 CSP 的情境：</b>CS lead 植入失敗或解剖不佳、CS lead 高閾值或無法避免的 phrenic capture、已知 BiV non-responder、需高比例心室起搏且合併 LV 功能不良者。</li>
+      <li><b>Follow-up 要納入 CSP-specific 的檢查項目：</b>paced QRS morphology、V6RWPT、threshold 上升趨勢、是否仍維持 conduction system capture。</li>
+      <li><b>閱讀後續文獻時的檢核點：</b>ITT 還是 on-treatment？crossover 多少？LBBAP 用哪一版定義？primary endpoint 是 surrogate 還是 hard endpoint？</li>
+    </ol>
+  </div>
+);
+
+const Quiz = () => {
+  const [i,setI] = useState(0);
+  const [sel,setSel] = useState(null);
+  const [score,setScore] = useState(0);
+  const [done,setDone] = useState(false);
+
+  const answer = (k) => {
+    if(sel!==null) return;
+    setSel(k);
+    if(k===QUESTIONS[i].correct) setScore(s=>s+1);
+  };
+  const next = () => {
+    if(i < QUESTIONS.length-1){ setI(i+1); setSel(null); }
+    else setDone(true);
+  };
+  const reset = () => { setI(0); setSel(null); setScore(0); setDone(false); };
+
+  if(done) return (
+    <div className="card">
+      <h2 className="sec">測驗結果</h2>
+      <div className="score">
+        <div className="n">{score} / {QUESTIONS.length}</div>
+        <p className="small">{score===QUESTIONS.length?'全對——可以帶讀書會了。':score>=QUESTIONS.length-2?'不錯，回頭再看一次 Results 的 CI 解讀。':'建議重讀 Take Home 與 Discussant 兩節。'}</p>
+      </div>
+      <button className="btn" onClick={reset}>再測一次</button>
+    </div>
+  );
+
+  const q = QUESTIONS[i];
+  return (
+    <div className="card">
+      <h2 className="sec">讀書會測驗</h2>
+      <div className="q-prog"><div style={{width:((i+1)/QUESTIONS.length*100)+'%'}}/></div>
+      <p className="small">第 {i+1} 題 / 共 {QUESTIONS.length} 題</p>
+      <p style={{fontWeight:600,fontSize:'15.5px'}}>{q.q}</p>
+      {q.options.map((o,k)=>(
+        <button key={k} disabled={sel!==null}
+          className={'opt '+(sel===null?'':(k===q.correct?'correct':(k===sel?'wrong':'')))}
+          onClick={()=>answer(k)}>
+          {String.fromCharCode(65+k)}. {o}
+        </button>
+      ))}
+      {sel!==null && (
+        <div className="exp">
+          <p style={{fontWeight:700,margin:'0 0 8px'}}>{sel===q.correct?'✅ 正確':'❌ 正解為 '+String.fromCharCode(65+q.correct)}</p>
+          <p style={{margin:0}}>{q.exp}</p>
+          <button className="btn" onClick={next}>{i<QUESTIONS.length-1?'下一題':'查看結果'}</button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+const Ref = () => (
+  <div className="card">
+    <h2 className="sec">參考文獻</h2>
+    <ol className="ref">
+      <li>Vinther M, et al. His-Alternative II: A randomized, controlled clinical study on conduction system pacing versus biventricular pacing for HFrEF patients who are candidates for CRT. <i>Presented at ESC Congress 2026, Munich, 31 August 2026.</i>（正式論文尚未出版，數據引自現場投影片）</li>
+      <li>Risum N, Philbert BT, Svendsen JH, et al. Direct His/LBB pacing as an alternative to biventricular pacing in patients with HFrEF and a typical LBBB: design and rationale for the His-Alternative II trial. <a href="https://doi.org/10.1016/j.ahj.2026.107491" target="_blank"><i>Am Heart J</i>. 2026:107491.</a></li>
+      <li>Vinther M, Risum N, Svendsen JH, Møgelvang R, Philbert BT. A randomized trial of His pacing versus biventricular pacing in symptomatic HF patients with left bundle branch block (His-Alternative). <i>JACC Clin Electrophysiol</i>. 2021;7(11):1422-1432.（DOI 待核對）</li>
+      <li>Burri H, Jastrzebski M, Cano Ó, et al. EHRA clinical consensus statement on conduction system pacing implantation. <a href="https://doi.org/10.1093/europace/euad043" target="_blank"><i>Europace</i>. 2023;25(4):1208-1236.</a></li>
+      <li>Jastrzębski M, Kiełbasa G, Cano O, et al. Left bundle branch area pacing outcomes: the multicentre European MELOS study. <a href="https://doi.org/10.1093/eurheartj/ehac445" target="_blank"><i>Eur Heart J</i>. 2022;43(40):4161-4173.</a></li>
+      <li>Cano Ó, et al. Left bundle branch area versus biventricular pacing for cardiac resynchronization therapy: the LEFT-BUNDLE-CRT randomized trial. <a href="https://doi.org/10.1093/eurheartj/ehag225" target="_blank"><i>Eur Heart J</i>. 2026.</a></li>
+      <li>Herbert J, Kovacsovics A, Brito R, Masson N, Burri H. Mid-term performance of His bundle pacing and usefulness of backup leads. <a href="https://doi.org/10.1093/europace/euae168" target="_blank"><i>Europace</i>. 2024;26(7):euae168.</a></li>
+      <li>Tan ESJ, Soh R, Boey E, et al. Comparison of pacing performance and clinical outcomes between left bundle branch and His bundle pacing. <a href="https://doi.org/10.1016/j.jacep.2022.12.022" target="_blank"><i>JACC Clin Electrophysiol</i>. 2023;9(8 Pt 1):1393-1403.</a></li>
+    </ol>
+  </div>
+);
+
+/* ---------------- app ---------------- */
+
+const App = () => {
+  const [tab,setTab] = useState('home');
+  const [dark,setDark] = useState(false);
+
+  const toggle = () => {
+    const d = !dark; setDark(d);
+    document.documentElement.classList.toggle('dark-theme', d);
+  };
+
+  const go = (id) => { setTab(id); window.scrollTo({top:0,behavior:'smooth'}); };
+
+  return (
+    <div className="app">
+      <div className="hero-wrap">
+        <header className="hero">
+          <button className="theme-btn" onClick={toggle}>{dark?'☀︎ 亮':'☾ 暗'}</button>
+          <h1>His-Alternative II</h1>
+          <p className="zh">Conduction System Pacing vs. Biventricular Pacing for CRT in HFrEF<br/>傳導系統節律調控 vs. 雙心室節律調控</p>
+          <div className="meta">
+            資料來源：ESC Congress 2026, Munich（Late-Breaking Science）<br/>
+            發表者 Michael Vinther（Denmark）／Discussant Haran Burri（Geneva, Switzerland）
+          </div>
+          <div className="badge-row">
+            <span className="badge">RCT · n = 148</span>
+            <span className="badge">Non-inferiority 達標</span>
+            <span className="badge">未證明 superiority</span>
+          </div>
+        </header>
+      </div>
+
+      <nav className="tabs">
+        {TABS.map(t=>(
+          <button key={t.id} className={'tab'+(tab===t.id?' active':'')} onClick={()=>go(t.id)}>{t.label}</button>
+        ))}
+      </nav>
+
+      <main>
+        {tab==='home'   && <Home/>}
+        {tab==='method' && <Methods/>}
+        {tab==='result' && <Results/>}
+        {tab==='disc'   && <Disc/>}
+        {tab==='clin'   && <Clin/>}
+        {tab==='quiz'   && <Quiz/>}
+        {tab==='ref'    && <Ref/>}
+      </main>
+
+      <footer className="disc">
+        <div className="sig">
+          讀書會共筆整理人<br/>
+          謝慕揚 醫師 MD, PhD, FESC<br/>
+          心律學與心臟衰竭器械治療
+        </div>
+        本內容為讀書會共筆整理，未必涵蓋所有相關文獻。<br/>
+        僅供學術與教育用途，不代表任何單位之官方立場。<br/>
+        本內容未涉及任何利益衝突。<br/>
+        數據來源為 ESC Congress 2026 現場發表投影片，正式論文出版後請以論文為準。
+      </footer>
+    </div>
+  );
+};
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

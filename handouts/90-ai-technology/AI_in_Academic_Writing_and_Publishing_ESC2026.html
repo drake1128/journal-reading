@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 與學術出版共筆｜ESC・European Heart Journal – Digital Health</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#151A21;
+  --ink-soft:#4A545F;
+  --paper:#F6F4EF;
+  --card:#FFFFFF;
+  --crimson:#B01235;
+  --crimson-soft:#F6E4E8;
+  --slate:#2C5560;
+  --slate-soft:#E4EDEE;
+  --amber:#8A6408;
+  --amber-soft:#FBF0D8;
+  --rule:#DDD8CE;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:64px;}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Noto Sans TC",system-ui,-apple-system,sans-serif;
+  font-size:16px;
+  line-height:1.75;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px 64px;}
+
+/* ---------- hero ---------- */
+header.hero{
+  background:var(--ink);
+  color:#F6F4EF;
+  padding:56px 0 40px;
+  border-bottom:6px solid var(--crimson);
+}
+.hero .wrap{padding-bottom:0;}
+.hero .meta{
+  font-size:13px;letter-spacing:.06em;color:#B9C0C8;margin:0 0 18px;
+}
+.hero h1{
+  font-family:"Noto Serif TC",serif;
+  font-size:clamp(28px,6.5vw,42px);
+  line-height:1.3;margin:0 0 14px;font-weight:700;
+}
+.hero p.sub{margin:0;color:#D8DCE1;font-size:15px;max-width:44em;}
+.hero .tagline{
+  margin-top:22px;padding-top:18px;border-top:1px solid #333B45;
+  font-size:14px;color:#9FA8B2;
+}
+
+/* ---------- nav ---------- */
+nav.jump{
+  position:sticky;top:0;z-index:20;
+  background:rgba(246,244,239,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--rule);
+  overflow-x:auto;white-space:nowrap;
+  -webkit-overflow-scrolling:touch;
+}
+nav.jump a{
+  display:inline-block;padding:14px 14px;min-height:48px;
+  color:var(--ink-soft);text-decoration:none;font-size:14px;font-weight:500;
+}
+nav.jump a:hover,nav.jump a:focus-visible{color:var(--crimson);}
+
+/* ---------- sections ---------- */
+section{margin-top:48px;}
+h2{
+  font-family:"Noto Serif TC",serif;
+  font-size:23px;line-height:1.4;margin:0 0 6px;font-weight:700;
+}
+h2 .slide{
+  display:block;font-family:"Noto Sans TC",sans-serif;
+  font-size:12.5px;font-weight:400;color:var(--ink-soft);letter-spacing:.04em;
+}
+h3{font-size:17px;margin:26px 0 8px;font-weight:700;}
+p{margin:10px 0;}
+.en{color:var(--ink-soft);}
+
+.takehome{
+  background:var(--card);
+  border-left:5px solid var(--crimson);
+  padding:22px 22px 18px;
+  margin-top:34px;
+  box-shadow:0 1px 0 var(--rule);
+}
+.takehome h2{margin-bottom:12px;}
+.takehome ol{margin:0;padding-left:1.25em;}
+.takehome li{margin-bottom:10px;}
+.takehome li strong{color:var(--crimson);}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--rule);
+  padding:20px;
+  margin-top:16px;
+}
+.card h3{margin-top:0;}
+
+/* timeline */
+ul.timeline{list-style:none;margin:18px 0 0;padding:0;border-left:2px solid var(--rule);}
+ul.timeline li{position:relative;padding:0 0 20px 22px;}
+ul.timeline li::before{
+  content:"";position:absolute;left:-7px;top:9px;
+  width:12px;height:12px;border-radius:50%;
+  background:var(--paper);border:2px solid var(--slate);
+}
+ul.timeline li.now::before{background:var(--crimson);border-color:var(--crimson);}
+ul.timeline .era{font-weight:700;font-size:15px;}
+ul.timeline .what{display:block;font-size:14.5px;color:var(--ink-soft);}
+
+/* rule tiers */
+.tier{border:1px solid var(--rule);border-left-width:5px;background:var(--card);padding:16px 18px;margin-top:14px;}
+.tier.green{border-left-color:var(--slate);}
+.tier.amber{border-left-color:var(--amber);}
+.tier.red{border-left-color:var(--crimson);}
+.tier h4{margin:0 0 8px;font-size:16px;}
+.tier ul{margin:0;padding-left:1.2em;}
+.tier li{margin-bottom:5px;}
+.badge{
+  display:inline-block;font-size:12px;padding:2px 9px;border-radius:2px;
+  margin-left:8px;vertical-align:2px;font-weight:500;
+}
+.badge.g{background:var(--slate-soft);color:var(--slate);}
+.badge.a{background:var(--amber-soft);color:var(--amber);}
+.badge.r{background:var(--crimson-soft);color:var(--crimson);}
+
+/* numbers */
+.stats{display:grid;grid-template-columns:1fr;gap:12px;margin-top:16px;}
+@media(min-width:560px){.stats{grid-template-columns:1fr 1fr;}}
+.stat{background:var(--card);border:1px solid var(--rule);padding:16px 18px;}
+.stat b{display:block;font-family:"Noto Serif TC",serif;font-size:26px;line-height:1.2;color:var(--crimson);}
+.stat span{font-size:14px;color:var(--ink-soft);}
+
+/* checklist */
+.check-item{
+  display:flex;gap:12px;align-items:flex-start;
+  background:var(--card);border:1px solid var(--rule);
+  padding:12px 14px;margin-top:8px;min-height:48px;
+  cursor:pointer;transition:background .15s,border-color .15s;
+}
+.check-item:hover{border-color:var(--slate);}
+.check-item.done{background:var(--slate-soft);border-color:var(--slate);}
+.check-item.done .label{text-decoration:line-through;color:var(--ink-soft);}
+.box{
+  flex:0 0 22px;width:22px;height:22px;margin-top:2px;
+  border:2px solid var(--slate);border-radius:3px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;color:#fff;background:transparent;
+}
+.check-item.done .box{background:var(--slate);}
+.label{font-size:15px;line-height:1.6;}
+.reset{
+  margin-top:14px;min-height:48px;padding:12px 18px;
+  background:transparent;border:1px solid var(--slate);color:var(--slate);
+  font-family:inherit;font-size:14px;cursor:pointer;
+}
+.reset:hover{background:var(--slate);color:#fff;}
+
+.note{
+  background:var(--amber-soft);border:1px solid #E7D5A8;
+  padding:14px 16px;margin-top:16px;font-size:14.5px;color:#5C4405;
+}
+
+/* footer */
+footer{
+  margin-top:56px;padding-top:24px;border-top:2px solid var(--ink);
+  font-size:14px;color:var(--ink-soft);
+}
+footer .sig{color:var(--ink);font-size:15px;line-height:1.9;}
+footer .sig strong{font-size:16px;}
+footer ul{padding-left:1.2em;margin:14px 0 0;font-size:13px;}
+a{color:var(--crimson);}
+@media print{
+  nav.jump{display:none;}
+  header.hero{background:#fff;color:#000;border-bottom:2px solid #000;}
+  .hero h1,.hero p.sub,.hero .meta,.hero .tagline{color:#000;}
+  body{font-size:12px;}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="meta">ESC Congress ・ European Heart Journal – Digital Health ・ Oxford University Press</p>
+    <h1>AI 進入學術寫作與出版<br>編輯部怎麼看、作者要負什麼責任</h1>
+    <p class="sub">論壇現場投影片共筆整理。涵蓋 AI 文獻工具地圖、把 AI 當 sparring partner 的四條紀律、期刊 AI Policy (Summer 2026) 的三層揭露規則，以及 ghost reference 造成的實際後果。</p>
+    <p class="tagline">閱讀對象：主治醫師、住院醫師、研究人員、專科護理師｜先看 Take Home，再展開細節</p>
+  </div>
+</header>
+
+<nav class="jump">
+  <div style="max-width:820px;margin:0 auto;padding:0 8px;">
+    <a href="#takehome">Take Home</a>
+    <a href="#evolution">影像演進</a>
+    <a href="#tools">AI 工具</a>
+    <a href="#sparring">四條紀律</a>
+    <a href="#responsible">作者責任</a>
+    <a href="#allowed">揭露規則</a>
+    <a href="#jama">JAMA 對照</a>
+    <a href="#consequences">實際後果</a>
+    <a href="#checklist">投稿自查</a>
+    <a href="#emailhf">EMAIL-HF</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- ========== TAKE HOME ========== -->
+<section id="takehome" class="takehome">
+  <h2>Take Home Message</h2>
+  <ol>
+    <li><strong>AI 可以找資料，但臨床與科學正確性的最終責任在人。</strong>投影片原句：expertise remains the final authority on clinical and scientific correctness。</li>
+    <li><strong>每一條 AI 給的 reference 都要回 PubMed / Crossref 對過才能用。</strong>這是四條紀律裡列第一的一條，不是客套話。</li>
+    <li><strong>AI 不能掛名作者。</strong>ChatGPT、Claude、Gemini 都不行；AI 無法承擔 accuracy、integrity、originality 的責任。</li>
+    <li><strong>揭露分三層：不用揭露 / 必須揭露 / 完全不允許。</strong>文字潤飾不用揭露；改寫、翻譯、數據分析、產圖必須揭露；把 AI 產出當成原創研究發現、或用 AI 生成／修改原始科學影像，直接不允許。</li>
+    <li><strong>未揭露的代價是真的。</strong>從要求修改、退稿，到 post-publication retraction；arXiv 已對使用 hallucinated references 的作者祭出封鎖。</li>
+    <li><strong>不要把未發表的 manuscript 丟進 public AI tool。</strong>保密義務不因為工具方便而消失。</li>
+  </ol>
+</section>
+
+<!-- ========== SLIDE 6 ========== -->
+<section id="evolution">
+  <h2>心臟超音波的演進：從 analog 到 AI
+    <span class="slide">投影片 6｜Infographic by AI — 這張圖本身就是 AI 生成的示範</span>
+  </h2>
+  <p>講者用一張 AI 產生的 infographic 當開場，同時說明兩件事：AI 已經能做出堪用的教學圖，以及這類圖仍需要人來檢查（圖中「1990s」重複出現、標籤層級不一致，正是需要人審的地方）。</p>
+  <ul class="timeline">
+    <li><span class="era">1970s — Analog echocardiography (M-mode)</span>
+      <span class="what">視野有限，real-time 單線掃描。</span></li>
+    <li><span class="era">1980s — Computer-assisted analysis &amp; Doppler</span>
+      <span class="what">早期數位處理、color flow mapping、可量化血流速度。</span></li>
+    <li><span class="era">Early 1990s — 3D reconstruction &amp; TEE</span>
+      <span class="what">由堆疊 2D 平面重建三維影像；經食道超音波登場。</span></li>
+    <li><span class="era">End of 1990s — Full digital echo (2D &amp; color)</span>
+      <span class="what">全數位影像、儲存與傳輸，解析度提升；DICOM 標準。</span></li>
+    <li><span class="era">Early 2000s — Miniaturization &amp; pocket echo</span>
+      <span class="what">可攜式裝置、POCUS、床邊可近性。</span></li>
+    <li><span class="era">2010s — Advanced speckle tracking &amp; strain imaging</span>
+      <span class="what">量化心肌力學，抓早期功能變化。</span></li>
+    <li class="now"><span class="era">2020s — Artificial intelligence &amp; automation</span>
+      <span class="what">自動標準切面、自動測量、診斷輔助、machine learning 整合。</span></li>
+  </ul>
+</section>
+
+<!-- ========== SLIDE 7 ========== -->
+<section id="tools">
+  <h2>做 review 時的 AI 工具地圖
+    <span class="slide">投影片 7｜AI Tools for creating Reviews</span>
+  </h2>
+
+  <div class="card">
+    <h3>探索與整合 (Discovery &amp; Synthesis)</h3>
+    <p>Consensus、SciSpace、NotebookLM（現稱 notebook）。用途是快速抓到一個題目的文獻輪廓與主要論點。</p>
+  </div>
+
+  <div class="card">
+    <h3>深度擷取與比較表 (Deep extraction &amp; Comparison Tables)</h3>
+    <p>Elicit。可以把多篇研究的 PICO、樣本數、endpoint 拉成表格 — 但講者特別強調，這種表要回原文核對過才算數。</p>
+  </div>
+
+  <div class="card">
+    <h3>系統性回顧的流程管理 (Full-Scale Workflow Management)</h3>
+    <p>Covidence / Rayyan（篩選與雙人審查流程）、ASReview（active learning 輔助 screening）。</p>
+  </div>
+
+  <div class="note">
+    講者結語：這些是很好的「找資訊」工具，但臨床與科學正確性的最終判準仍然是你自己的專業。工具負責召回率，人負責正確率。
+  </div>
+</section>
+
+<!-- ========== SLIDE 8 ========== -->
+<section id="sparring">
+  <h2>把 AI 當 sparring partner 的四條紀律
+    <span class="slide">投影片 8｜Using AI as a sparring partner</span>
+  </h2>
+
+  <div class="card">
+    <h3>1. 每一條 reference 都要驗 (Verify every reference)</h3>
+    <p>AI 建議的每一筆 citation，都要回 PubMed / Crossref 交叉核對後才能採信。</p>
+  </div>
+  <div class="card">
+    <h3>2. 讓 AI 負責結構 (Let AI structure)</h3>
+    <p>用它來組織架構、排列邏輯；臨床詮釋 (clinical interpretation) 保留給人。</p>
+  </div>
+  <div class="card">
+    <h3>3. 比對，不要照抄 (Compare, don't copy)</h3>
+    <p>像 Elicit 這類工具產出的 extraction table，仍需對照原始論文驗證。</p>
+  </div>
+  <div class="card">
+    <h3>4. 守住保密 (Protect confidentiality)</h3>
+    <p>絕不把未發表的 manuscript 上傳到 public AI tool。審稿中的稿件、未公開的院內資料同理。</p>
+  </div>
+</section>
+
+<!-- ========== SLIDE 13 ========== -->
+<section id="responsible">
+  <h2>核心原則：責任在人類作者
+    <span class="slide">投影片 13｜Human Authors Are Responsible・AI Policy Summer 2026</span>
+  </h2>
+
+  <div class="tier red">
+    <h4>AI 不能做的事<span class="badge r">What AI Cannot Do</span></h4>
+    <ul>
+      <li>AI 工具（ChatGPT、Claude、Gemini 等）不得列為作者。</li>
+      <li>AI 無法為研究的正確性 (accuracy)、完整性 (integrity)、原創性 (originality) 負責。</li>
+    </ul>
+  </div>
+
+  <div class="tier green">
+    <h4>作者必須做的事<span class="badge g">What Authors Must Do</span></h4>
+    <ul>
+      <li>確保所有內容正確、引用完備。</li>
+      <li>驗證所有 AI 生成的文字、citations、分析與結論。</li>
+      <li>對最終稿件負全責。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ========== SLIDE 15 + 16 ========== -->
+<section id="allowed">
+  <h2>什麼樣的 AI 使用被允許？三層規則
+    <span class="slide">投影片 15 &amp; 16｜What AI use is Allowed? I &amp; II・AI Policy Summer 2026</span>
+  </h2>
+
+  <div class="tier green">
+    <h4>不需揭露<span class="badge g">No Disclosure Required</span></h4>
+    <ul>
+      <li>文法與拼字修正</li>
+      <li>語言清晰度改善</li>
+      <li>Reference 格式整理（前提是作者已自行驗證過內容）</li>
+    </ul>
+  </div>
+
+  <div class="tier amber">
+    <h4>必須揭露<span class="badge a">Disclosure Required</span></h4>
+    <ul>
+      <li>改寫或重組文字 (rewriting / reorganizing)</li>
+      <li>翻譯</li>
+      <li>資料分析或視覺化</li>
+      <li>程式碼生成</li>
+      <li>AI 生成的插圖或 graphical abstract</li>
+    </ul>
+  </div>
+
+  <div class="tier red">
+    <h4>不被允許<span class="badge r">Not Allowed</span></h4>
+    <ul>
+      <li>把 AI 生成的內容當作原創研究發現呈現</li>
+      <li>用 AI 生成或竄改原始的科學、臨床或事實影像</li>
+    </ul>
+  </div>
+
+  <h3>要揭露的話，寫在哪裡</h3>
+  <div class="card">
+    <ul style="margin:0;padding-left:1.2em;">
+      <li>Cover letter</li>
+      <li>Acknowledgements section</li>
+      <li>Methods section — 當 AI 本身是研究方法的一部分時</li>
+    </ul>
+  </div>
+
+  <h3>揭露必須包含的三項資訊</h3>
+  <div class="card">
+    <ul style="margin:0;padding-left:1.2em;">
+      <li>AI 工具名稱與版本 (tool name and version)</li>
+      <li>如何使用</li>
+      <li>作者在指導與審閱產出上扮演的角色</li>
+    </ul>
+  </div>
+
+  <div class="note">
+    <strong>未揭露的後果：</strong>從要求修改 (revision request)、退稿 (rejection)，嚴重者可能導致刊登後撤稿 (post-publication retraction)。
+  </div>
+</section>
+
+<!-- ========== JAMA ========== -->
+<section id="jama">
+  <h2>對照組：JAMA Network 先前的 AI 作者身分指引
+    <span class="slide">投影片｜Prior JAMA Network's guidance on AI, LLM, &amp; chatbots as authors</span>
+  </h2>
+  <p>講者用 JAMA Network 的三篇 editorial 說明：這不是 2026 年才有的新規範，而是主要期刊自 ChatGPT 問世後兩年內三度修訂、逐步收斂的結果。三篇的結論方向與今天 EHJ 的 AI Policy 一致。</p>
+
+  <div class="card">
+    <h3>2023 年 1 月 31 日 — 非人類「作者」與科學出版誠信</h3>
+    <p><em>Nonhuman "Authors" and Implications for the Integrity of Scientific Publication and Medical Knowledge.</em><br>
+    Flanagin A, Bibbins-Domingo K, Berkwits M, Christiansen SL.<br>
+    <span class="en">JAMA. 2023;329(8):637-639. <a href="https://doi.org/10.1001/jama.2023.1344">doi:10.1001/jama.2023.1344</a></span></p>
+    <p>ChatGPT 公開後第一波回應：確立 AI 不能列為作者。投影片截圖顯示這篇當時已累積約 8.4 萬次瀏覽、218 次引用。</p>
+  </div>
+
+  <div class="card">
+    <h3>2023 年 7 月 27 日 — 給作者、審稿人與編輯的操作指引</h3>
+    <p><em>Guidance for Authors, Peer Reviewers, and Editors on Use of AI, Language Models, and Chatbots.</em><br>
+    Flanagin A, Kendall-Taylor J, Bibbins-Domingo K.<br>
+    <span class="en">JAMA. 2023;330(8):702-703. <a href="https://doi.org/10.1001/jama.2023.12500">doi:10.1001/jama.2023.12500</a></span></p>
+    <p>從「不能掛名」進一步寫成三方（作者／審稿人／編輯）各自的行為準則。</p>
+  </div>
+
+  <div class="card">
+    <h3>2024 年 3 月 7 日 — 如何具體申報 AI 使用</h3>
+    <p><em>Reporting Use of AI in Research and Scholarly Publication—JAMA Network Guidance.</em><br>
+    Flanagin A, Pirracchio R, Khera R, Berkwits M, Hswen Y, Bibbins-Domingo K.<br>
+    <span class="en">JAMA. 2024;331(13):1096-1098. <a href="https://doi.org/10.1001/jama.2024.3471">doi:10.1001/jama.2024.3471</a></span></p>
+    <p>進入 reporting 層次：要寫在哪、要寫什麼。與 EHJ AI Policy 要求的「工具名稱與版本、使用方式、作者審閱角色」互相呼應。</p>
+  </div>
+
+  <div class="note">
+    <strong>整理人註記：</strong>以上三筆書目資料（卷期、頁碼、DOI）已回 PubMed 逐筆核對，與投影片截圖相符。這正好示範了投影片 8 的第一條紀律 — 引用前先驗證。
+  </div>
+</section>
+
+<!-- ========== SLIDE 20 ========== -->
+<section id="consequences">
+  <h2>這不是假設題：ghost references 的實際規模
+    <span class="slide">投影片 20｜Possible Consequences</span>
+  </h2>
+
+  <p>講者引用 De Groene Amsterdammer 的調查報導（標題大意：數百位荷蘭科學家引用了不存在的來源），調查對象為有 peer review 的期刊：</p>
+
+  <div class="stats">
+    <div class="stat"><b>130,000</b><span>納入調查的論文數</span></div>
+    <div class="stat"><b>1 / 1,400</b><span>2023 年含 ghost reference 的論文比例</span></div>
+    <div class="stat"><b>7×</b><span>2026 年較前述基準的增幅</span></div>
+    <div class="stat"><b>Reputable journals</b><span>高聲譽期刊同樣出現 ghost references</span></div>
+  </div>
+
+  <div class="card" style="margin-top:20px;">
+    <h3>arXiv 對使用 hallucinated references 的作者祭出封鎖</h3>
+    <p>該 preprint server 是最新一個對製造 AI「slop」的作者施以嚴厲處分的平台。<br>
+    <span class="en">來源連結（投影片所列）：<a href="https://www.nature.com/articles/d41586-026-01595-5">nature.com/articles/d41586-026-01595-5</a></span></p>
+  </div>
+
+  <div class="note">
+    <strong>整理人註記：</strong>以上數字取自現場投影片拍攝畫面，尚未回原始報導與 Nature 新聞逐項核對。依本共筆一貫做法，引用前建議自行回原文確認實際定義（何謂 ghost reference、分母口徑、統計年份）。這一點本身就是今天這場論壇的主題。
+  </div>
+</section>
+
+<!-- ========== CHECKLIST ========== -->
+<section id="checklist">
+  <h2>投稿前 AI 使用自查清單
+    <span class="slide">整理人依上述規則整理，非投影片原文｜勾選狀態會存在本機瀏覽器</span>
+  </h2>
+  <div id="list"></div>
+  <button class="reset" id="reset">清除勾選</button>
+</section>
+
+<!-- ========== EMAIL-HF ========== -->
+<section id="emailhf">
+  <h2>同場加映：EMAIL-HF
+    <span class="slide">ESC Congress 2026 Munich・Hot Line 5（8 月 29 日）｜與上述 AI 論壇為不同場次</span>
+  </h2>
+  <p>這張是另一場 Hot Line 的 Methods 投影片。主題不是 AI 寫作，而是數位健康的另一面：用全國登錄資料主動找出「該吃卻沒吃 SGLT2 inhibitor」的心衰竭病人，並直接寄信邀請他們接受專科評估。</p>
+
+  <div class="tier green">
+    <h4>Take Home<span class="badge g">先看這裡</span></h4>
+    <ul>
+      <li>Implementation endpoint 是 <strong>positive</strong>：六個月內起始 SGLT2 inhibitor 的比例，數位策略組 18.6% vs 常規照護組 8.2%（p&lt;0.001），24 個月時差距維持。</li>
+      <li>Clinical outcome 是 <strong>neutral</strong>：心衰竭住院或全因死亡 13.0% vs 14.0%（p=0.276）。試驗主持人自述，因為只有部分病人回應並開始治療，兩組實際用藥差距有限，要偵測臨床終點差異需要更大的樣本數。</li>
+      <li>因此正確的敘述是「數位策略提升了藥物使用率」，不是「數位策略改善了預後」。</li>
+    </ul>
+  </div>
+
+  <h3>研究設計 (Methods: Design of EMAIL-HF)</h3>
+  <div class="card">
+    <ul style="margin:0;padding-left:1.2em;">
+      <li>Investigator-initiated、randomised clinical implementation trial</li>
+      <li>以登錄資料 (registry-based) 進行病人辨識與追蹤</li>
+      <li>丹麥首都區與 Roskilde 市所有病人皆納入篩選，涵蓋約 200 萬居民</li>
+      <li>隨機分派至 usual care 或 digital strategy（數位主動聯繫 + 專科評估）</li>
+      <li>丹麥境內 6 個中心</li>
+      <li>收案期間：2023 年 5 月 – 2024 年 6 月</li>
+    </ul>
+  </div>
+
+  <h3>介入方式與族群</h3>
+  <div class="card">
+    <p>數位策略組透過丹麥政府的 Digital Post 系統收到一封說明 SGLT2 inhibitor 的信函，並獲邀與心衰竭專科醫師進行電話諮詢；諮詢時醫師調閱電子病歷，依現行 ESC Guidelines 判斷是否適合起始治療。常規照護組不寄信。</p>
+    <p>共隨機分派 5,996 位病人，平均年齡 71 歲，女性佔 33%，平均心衰竭病史約 5 年，40% 曾因心衰竭住院。數位策略組中有 60% 回應邀請並完成平台註冊。安全性事件少見，數位策略組未見過多事件。</p>
+  </div>
+
+  <div class="note">
+    <strong>整理人註記：</strong>投影片本身只有 Methods，結果數字取自 ESC 官方新聞稿（2026-08-29，Hot Line 5，主講 Mariam Elmegaard，Herlev and Gentofte University Hospital）。設計論文另見 ESC Heart Failure：<a href="https://doi.org/10.1002/ehf2.15398">doi:10.1002/ehf2.15398</a>。<br>
+    利益揭露（依原始資料）：試驗由 Copenhagen University Hospital – Herlev and Gentofte、Novo Nordisk Foundation 與 Boehringer Ingelheim 資助；主講者申報與本試驗無關之 AstraZeneca 演講費。<br>
+    正式全文發表後建議回原文確認 primary endpoint 定義與 24 個月數據。
+  </div>
+
+  <h3>對我們的意義</h3>
+  <div class="card">
+    <p>這是把「指引落地」當成可隨機分派的介入來測試。台灣有健保資料與院內電子病歷，理論上可以做類似的主動召回，但兩個前提在丹麥是現成的、在我們這裡需要另外建：可信賴的全國藥物暴露資料，以及病人願意開啟的官方數位通道。</p>
+  </div>
+</section>
+
+<footer>
+  <p class="sig">
+    讀書會共筆整理人<br>
+    <strong>謝慕揚 醫師 MD, PhD, FESC</strong><br>
+    數位健康與學術出版倫理
+  </p>
+  <ul>
+    <li>本內容為讀書會共筆整理，未必涵蓋所有相關文獻</li>
+    <li>僅供學術與教育用途，不代表任何單位之官方立場</li>
+    <li>本內容未涉及任何利益衝突</li>
+    <li>資料來源：ESC Congress 2026 Munich・European Heart Journal – Digital Health / Oxford University Press 論壇現場投影片（投影片 6、7、8、13、15、16、20 及 JAMA Network 指引對照片），AI Policy Summer 2026</li>
+    <li>EMAIL-HF 段落為同次年會 Hot Line 5 之另一場次，結果數字引自 ESC 官方新聞稿；書目資料經 PubMed 核對</li>
+  </ul>
+</footer>
+
+</div>
+
+<script>
+var ITEMS = [
+  "所有 AI 建議的 reference 都已回 PubMed / Crossref 驗證存在且內容相符",
+  "extraction table 或摘要數字已對照原始論文核對（含 HR、95% CI、p-value）",
+  "試驗方向已確認（positive / neutral / negative），未把 neutral trial 寫成 positive",
+  "臨床詮釋與結論由人撰寫，非 AI 直接產出",
+  "未把未發表的 manuscript 或未公開資料上傳到 public AI tool",
+  "若使用了改寫、翻譯、數據分析、程式碼或 AI 生成圖，已在 cover letter / acknowledgements / methods 揭露",
+  "揭露內容含工具名稱與版本、使用方式、作者審閱角色",
+  "未以 AI 生成或修改任何原始科學、臨床影像",
+  "AI 未被列為作者，最終稿件責任歸屬明確"
+];
+var KEY = "esc-ai-forum-checklist";
+var state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { state = {}; }
+
+var list = document.getElementById("list");
+ITEMS.forEach(function (text, i) {
+  var el = document.createElement("div");
+  el.className = "check-item" + (state[i] ? " done" : "");
+  el.setAttribute("role", "checkbox");
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("aria-checked", state[i] ? "true" : "false");
+  el.innerHTML = '<div class="box">' + (state[i] ? "✓" : "") + '</div><div class="label"></div>';
+  el.querySelector(".label").textContent = text;
+  function toggle() {
+    state[i] = !state[i];
+    el.classList.toggle("done", !!state[i]);
+    el.setAttribute("aria-checked", state[i] ? "true" : "false");
+    el.querySelector(".box").textContent = state[i] ? "✓" : "";
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+  el.addEventListener("click", toggle);
+  el.addEventListener("keydown", function (e) {
+    if (e.key === " " || e.key === "Enter") { e.preventDefault(); toggle(); }
+  });
+  list.appendChild(el);
+});
+
+document.getElementById("reset").addEventListener("click", function () {
+  state = {};
+  try { localStorage.removeItem(KEY); } catch (e) {}
+  Array.prototype.forEach.call(document.querySelectorAll(".check-item"), function (el) {
+    el.classList.remove("done");
+    el.setAttribute("aria-checked", "false");
+    el.querySelector(".box").textContent = "";
+  });
+});
+</script>
+</body>
+</html>
