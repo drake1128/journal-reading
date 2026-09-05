@@ -14,11 +14,18 @@ style: |
     color: #ffffff;
   }
   section.lead h1 { color: #ffffff; font-size: 2.0em; border-bottom: none; }
-  section.lead h2 { color: #b0c4de; }
+  section.lead h2 { color: #9ec5ff; }
   section.lead h3 { color: #ffffff; font-weight: normal; }
-  section.lead p, section.lead strong { color: #dfe6e9; }
+  section.lead p { color: #f1f3f5; }
+  section.lead strong { color: #ffe082; }
   section.lead a { color: #ffd166; text-decoration: underline; }
-  section.lead blockquote { color: #2d3436; }
+  section.lead blockquote {
+    background-color: #fff5f5;
+    border-left: 5px solid #ba181b;
+    color: #1a2740;
+  }
+  section.lead blockquote p { color: #1a2740; }
+  section.lead blockquote strong { color: #ba181b; }
   section.divider {
     background-color: #0072bc;
     color: #ffffff;
@@ -60,9 +67,6 @@ style: |
   .qr { position: absolute; right: 40px; bottom: 80px; text-align: center; font-size: 0.65em; color: #555; }
   .qr img { width: 110px; height: 110px; border: 1px solid #dcdde1; }
 footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-08-28 ~ 2026-09-04'
----
-
-
 ---
 
 <!-- _class: lead -->
