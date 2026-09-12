@@ -249,6 +249,29 @@ mv "Weekly_CV_Journal_Review_YYYY-MM-DD.pdf"         handouts/91-podcast-journal
 
 Always pass `--no-stdin` (Marp will hang on stdin otherwise).
 
+### 9. Publish to the Quarto site (weekly page + listing) — REQUIRED
+
+After the 3 files are in `handouts/91-podcast-journal-review/` **and after the Gmail 導讀信 draft
+is written**, generate the website page so the listing at
+`https://drake1128.github.io/journal-reading/handouts/91-podcast-journal-review/weekly-cv-review.html`
+picks it up automatically (no `_quarto.yml` edit):
+
+```bash
+# 1) save the 導讀信 (the same HTML you put in the Gmail draft body) as Markdown next to the page
+mkdir -p "handouts/91-podcast-journal-review/weekly-cv-review-YYYY-MM-DD"
+python3 .claude/scripts/gmail_letter_to_md.py /path/to/letter.html \
+   > "handouts/91-podcast-journal-review/weekly-cv-review-YYYY-MM-DD/_letter.md"
+#    (write the draft's HTML body to a temp .html first; the leading underscore keeps Quarto
+#     from rendering the letter as a stand-alone page)
+
+# 2) build index.qmd = YAML + 📬 導讀信 + 📖 完整講義 (from the 教學講義.md)
+python3 .claude/scripts/publish_weekly_reviews.py cv YYYY-MM-DD
+```
+
+Commit `weekly-cv-review-YYYY-MM-DD/index.qmd` + `_letter.md` together with the 3 handout files.
+The GitHub Action (`.github/workflows/publish.yml`) renders and deploys on push to `master`.
+PDFs are **not** published to the site (too large) — the page links to the `.md` only.
+
 ## Top 5 Picks selection criteria
 
 In priority order:
@@ -303,6 +326,7 @@ If only PMID is available:
 - [ ] **PDF spot-checked: rasterised a QR slide + last slide + an emoji slide and eyeballed them** ⚠️ (§7b-c) — no broken-image thumbnails before emoji
 - [ ] PDF compiled **from the repo root** with `--no-stdin --allow-local-files` (so `.marprc.yml` emoji fix auto-loads)
 - [ ] All 3 files moved to `handouts/91-podcast-journal-review/`
+- [ ] **Quarto page generated**: `weekly-cv-review-YYYY-MM-DD/index.qmd` + `_letter.md` exist and are committed (§9)
 - [ ] Original abstract sources discarded after parsing (no leftover .pdf in repo root)
 
 ## Cross-references

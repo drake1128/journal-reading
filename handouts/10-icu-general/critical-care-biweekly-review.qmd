@@ -1,0 +1,30 @@
+---
+title: "Critical Care 雙週期刊回顧"
+subtitle: "Biweekly Critical Care Literature Review — ICM · Critical Care · CCM · Chest · Lancet Respir Med · AJRCCM · Resuscitation · Shock"
+lang: zh-TW
+page-layout: full
+toc: false
+listing:
+  id: cc-biweekly
+  contents:
+    - "critical-care-biweekly-review-*/index.qmd"
+  type: table
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: [title, description]
+  fields: [date, title, description]
+  field-display-names:
+    date: "日期"
+    title: "期別"
+    description: "本期重點"
+  date-format: "YYYY-MM-DD"
+  table-hover: true
+  page-size: 30
+---
+
+每兩週掃描重症醫學核心期刊過去 14 天的文獻；每期回查主要終點實際數據，**不以 abstract 字面判定正負向**。
+
+每一期頁面包含 **📬 本期導讀信**（讀書會寄出的原始導讀）與 **📖 完整教學講義**（Key Pearls、分節詳述、縮寫對照、含 DOI / PMID 的參考文獻）。
+
+::: {#cc-biweekly}
+:::

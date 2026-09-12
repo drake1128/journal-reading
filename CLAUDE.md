@@ -394,6 +394,34 @@ mv "Esmolol_ICU_Teaching.pdf" "handouts/10-icu-general/"
 
 ---
 
+## Quarto 網站發佈：CV 週報 & Critical Care 雙週報
+
+網站 `https://drake1128.github.io/journal-reading/`（push 到 `master` 後由 GitHub Action 自動 render + deploy，本機不需裝 Quarto）。
+兩個 routine 的每一期都要在網站上有一頁，並由 **listing 頁自動列出**（不再手改 `_quarto.yml` 側邊欄）：
+
+| Routine | 講義來源 | 網頁資料夾 (slug) | Listing 頁 |
+|---|---|---|---|
+| 每週心血管期刊文獻回顧 | `handouts/91-podcast-journal-review/Weekly_CV_Journal_Review_YYYY-MM-DD 教學講義.md` | `weekly-cv-review-YYYY-MM-DD/` | `handouts/91-podcast-journal-review/weekly-cv-review.qmd` |
+| Critical Care 雙週期刊回顧 | `handouts/10-icu-general/Critical_Care_Biweekly_Review_YYYY-MM-DD 教學講義.md` | `critical-care-biweekly-review-YYYY-MM-DD/` | `handouts/10-icu-general/critical-care-biweekly-review.qmd` |
+
+每期頁面 = YAML（title/date/description/categories）＋ **📬 導讀信**（Gmail 草稿的整封內容）＋ **📖 完整講義**。
+
+**每期完成講義與 Gmail 草稿後，務必執行：**
+
+```bash
+# (a) 導讀信：把 Gmail 草稿的 HTML body 存成 letter.html，轉成 Markdown（檔名底線開頭，Quarto 不會另外渲染）
+python3 .claude/scripts/gmail_letter_to_md.py letter.html > "handouts/<folder>/<slug>-YYYY-MM-DD/_letter.md"
+# (b) 產生該期 index.qmd（cv 或 cc；省略日期則重建全部）
+python3 .claude/scripts/publish_weekly_reviews.py cv YYYY-MM-DD
+python3 .claude/scripts/publish_weekly_reviews.py cc YYYY-MM-DD
+# (c) 連同 3 件套一起 commit + push
+```
+
+規則：**PDF 不進網站**（太大）；只放 Markdown。`_letter.md` 要 commit（之後重建不必再讀 Gmail）。
+`publish_weekly_reviews.py` 會自動去掉講義的 `# 標題` 與手寫 `## 目錄`（Quarto 自帶 TOC）。
+
+---
+
 ## Gmail HTML Email Draft
 
 When creating email drafts for sharing handouts, use the `gmail_createDraft` MCP tool with HTML formatting.

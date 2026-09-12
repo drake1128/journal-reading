@@ -1,0 +1,30 @@
+---
+title: "每週心血管期刊文獻回顧"
+subtitle: "Weekly Cardiovascular Journal Review — NEJM · Lancet · EHJ · JACC · Circulation · EuroIntervention"
+lang: zh-TW
+page-layout: full
+toc: false
+listing:
+  id: cv-weekly
+  contents:
+    - "weekly-cv-review-*/index.qmd"
+  type: table
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: [title, description]
+  fields: [date, title, description]
+  field-display-names:
+    date: "日期"
+    title: "期別"
+    description: "本週主題"
+  date-format: "YYYY-MM-DD"
+  table-hover: true
+  page-size: 30
+---
+
+每週掃描六大期刊（NEJM、Lancet、European Heart Journal、JACC 系列、Circulation 系列、EuroIntervention）過去 7 天的心血管文獻，固定六大欄目：**Top 5 Picks・🫀 TAVI・🔧 TEER・📚 Honorable Mentions・🔬 Case Reports・💎 Take Home**。
+
+每一期頁面包含 **📬 本週導讀信**（讀書會寄出的原始導讀）與 **📖 完整教學講義**（含 DOI / PMID 連結、縮寫對照與參考文獻）。
+
+::: {#cv-weekly}
+:::

@@ -1,0 +1,16 @@
+/* Weekly / biweekly review pages: the reproduced Gmail 導讀信 block */
+.letter {
+  background: #f8f9fa;
+  border-left: 5px solid #1a2740;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+  margin: 0.5rem 0 2rem 0;
+  font-size: 0.95em;
+}
+.letter h3 { color: #0072bc; border-bottom: 2px solid #0072bc; padding-bottom: .25rem; margin-top: 1.4rem; }
+.letter table { font-size: 0.9em; }
+.letter table th { background: #0072bc; color: #fff; }
+.letter code { font-size: 0.9em; }
+/* listing tables: keep the description column readable */
+.quarto-listing-table td:nth-child(3) { max-width: 46rem; }
+.letter table td:last-child, .letter table th:last-child { white-space: nowrap; }

@@ -11,6 +11,10 @@ website:
         href: index.qmd
       - text: "精選互動教材"
         href: featured.qmd
+      - text: "CV 週報"
+        href: handouts/91-podcast-journal-review/weekly-cv-review.qmd
+      - text: "重症雙週報"
+        href: handouts/10-icu-general/critical-care-biweekly-review.qmd
       - text: "課堂教學"
         href: handouts/classroom-teaching/index.qmd
       - text: "Mainz 2024"
@@ -335,7 +339,8 @@ website:
         - section: "ICU 一般照護"
           contents:
             - handouts/10-icu-general/index.qmd
-            - handouts/10-icu-general/critical-care-biweekly-review-2026-05-15/index.qmd
+            - text: "🩺 Critical Care 雙週期刊回顧（全部期別）"
+              href: handouts/10-icu-general/critical-care-biweekly-review.qmd
             - handouts/10-icu-general/acls-team-work/index.qmd
             - handouts/10-icu-general/ccu-book-reading-project/index.qmd
             - handouts/10-icu-general/ccu-micu-r-lecture-01/index.qmd
@@ -444,8 +449,8 @@ website:
         - section: "Podcast 期刊回顧"
           contents:
             - handouts/91-podcast-journal-review/index.qmd
-            - handouts/91-podcast-journal-review/weekly-cv-review-2026-05-30/index.qmd
-            - handouts/91-podcast-journal-review/weekly-cv-review-2026-05-22/index.qmd
+            - text: "📈 每週心血管期刊文獻回顧（全部期別）"
+              href: handouts/91-podcast-journal-review/weekly-cv-review.qmd
             - handouts/91-podcast-journal-review/beta-blocker-post-mi-2025/index.qmd
             - handouts/91-podcast-journal-review/circulation-2025-10-14/index.qmd
             - handouts/91-podcast-journal-review/circulation-2025-10-21-2/index.qmd
@@ -661,6 +666,7 @@ website:
 format:
   html:
     theme: default
+    css: styles.css
     toc: true
     toc-depth: 3
     number-sections: true
