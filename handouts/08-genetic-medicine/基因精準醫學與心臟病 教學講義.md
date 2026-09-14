@@ -2,7 +2,7 @@
 
 **整理：謝慕揚 MD, PhD, FESC**
 **日期：2026-03-11**
-**原文連結：[EHRA/HRS/APHRS/LAHRS Expert Consensus Statement on Genetic Testing — *Heart Rhythm*. 2022;19(10):e1-e54.](https://doi.org/10.1016/j.hrthm.2022.03.025)**
+**原文連結：[EHRA/HRS/APHRS/LAHRS Expert Consensus Statement on Genetic Testing — *Heart Rhythm*. 2022;19(7):e1-e60.](https://doi.org/10.1016/j.hrthm.2022.03.1225)**
 
 ---
 
@@ -464,7 +464,7 @@ Step 3: TTR 基因定序
 
 ## 參考文獻
 
-1. Wilde AAM, Semsarian C, Márquez MF, et al. European Heart Rhythm Association (EHRA)/Heart Rhythm Society (HRS)/Asia Pacific Heart Rhythm Society (APHRS)/Latin American Heart Rhythm Society (LAHRS) Expert Consensus Statement on the State of Genetic Testing for Cardiac Diseases. [*Heart Rhythm*. 2022;19(7):e1-e54.](https://doi.org/10.1016/j.hrthm.2022.03.025)
+1. Wilde AAM, Semsarian C, Márquez MF, et al. European Heart Rhythm Association (EHRA)/Heart Rhythm Society (HRS)/Asia Pacific Heart Rhythm Society (APHRS)/Latin American Heart Rhythm Society (LAHRS) Expert Consensus Statement on the State of Genetic Testing for Cardiac Diseases. [*Heart Rhythm*. 2022;19(7):e1-e60.](https://doi.org/10.1016/j.hrthm.2022.03.1225)
 
 2. Ackerman MJ, Priori SG, Willems S, et al. HRS/EHRA Expert Consensus Statement on the State of Genetic Testing for the Channelopathies and Cardiomyopathies. [*Heart Rhythm*. 2011;8(8):1308-1339.](https://doi.org/10.1016/j.hrthm.2011.05.020)
 
