@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Left Main Imaging 講義與測驗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --surface-2:#e9edf3;
+  --ink:#1c2230; --ink-2:#4a5468; --ink-3:#7a8497;
+  --line:#d5dbe6;
+  --navy:#16305c; --navy-soft:#dfe7f5;
+  --red:#b3202e; --red-soft:#f7e3e5;
+  --gold:#a8741c; --gold-soft:#f6ecd6;
+  --green:#2b6e4a; --green-soft:#dfeee5;
+  --on-navy:#ffffff;
+  --shadow:0 1px 2px rgba(22,48,92,.08),0 8px 24px -12px rgba(22,48,92,.18);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#111621; --surface:#1a2130; --surface-2:#232c3d;
+    --ink:#e8ecf3; --ink-2:#b4bccb; --ink-3:#8590a4;
+    --line:#2f3a4f;
+    --navy:#8fb0e8; --navy-soft:#1e2c47;
+    --red:#ef7f8a; --red-soft:#3a1f25;
+    --gold:#e0b45c; --gold-soft:#3a3020;
+    --green:#7fc79c; --green-soft:#1d3327;
+    --on-navy:#111621;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111621; --surface:#1a2130; --surface-2:#232c3d;
+  --ink:#e8ecf3; --ink-2:#b4bccb; --ink-3:#8590a4;
+  --line:#2f3a4f;
+  --navy:#8fb0e8; --navy-soft:#1e2c47;
+  --red:#ef7f8a; --red-soft:#3a1f25;
+  --gold:#e0b45c; --gold-soft:#3a3020;
+  --green:#7fc79c; --green-soft:#1d3327;
+  --on-navy:#111621;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:"IBM Plex Sans","PingFang TC","Noto Sans TC",system-ui,sans-serif;
+  font-size:16px; line-height:1.7;
+  padding-inline:20px; padding-block:0 64px;
+}
+h1,h2,h3{font-family:"Source Serif 4","Noto Serif TC",Georgia,serif;text-wrap:balance;margin:0}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:860px;margin-inline:auto}
+
+/* header */
+.hdr{padding-block:40px 24px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);font-weight:600}
+.hdr h1{font-size:clamp(28px,4.5vw,40px);line-height:1.15;margin-top:8px;color:var(--navy)}
+.hdr p{color:var(--ink-2);margin:10px 0 0;max-width:62ch}
+.cite{font-size:13px;color:var(--ink-3);margin-top:12px}
+.cite a{color:var(--navy)}
+
+/* tabs */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:6px;padding-block:12px;border-bottom:1px solid var(--line)}
+.tab{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);padding:8px 18px;border-radius:999px;font:inherit;font-weight:500;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--navy);border-color:var(--navy);color:var(--on-navy)}
+.tab:focus-visible,.opt:focus-visible,.btn:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.panel[hidden]{display:none}
+
+/* handout */
+.sec{margin-top:36px}
+.sec h2{font-size:22px;color:var(--navy);display:flex;align-items:baseline;gap:12px}
+.sec h2 .n{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-3);font-weight:500}
+.sec h3{font-size:16px;margin-top:18px;color:var(--ink)}
+.sec p{margin:8px 0;max-width:68ch}
+.sec ul{margin:6px 0 0;padding-left:22px}
+.sec li{margin:3px 0}
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:14px}
+.flow div{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--navy);padding:10px 12px;font-size:13px;border-radius:4px}
+.flow div b{display:block;color:var(--navy);margin-bottom:4px;font-size:13px}
+.flow div:nth-child(4){border-top-color:var(--red)}
+.flow div:nth-child(5){border-top-color:var(--gold)}
+@media (max-width:640px){.flow{grid-template-columns:1fr 1fr}}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
+@media (max-width:640px){.grid2{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.card h4{margin:0 0 6px;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.card.ivus h4{color:var(--navy)} .card.oct h4{color:var(--red)}
+.mla{display:grid;grid-template-columns:110px 1fr;gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:12px}
+.mla>div{padding:10px 14px;border-bottom:1px solid var(--line)}
+.mla>div:nth-last-child(-n+2){border-bottom:0}
+.mla .k{font-family:"IBM Plex Mono",monospace;font-weight:500;background:var(--surface-2)}
+.mla .r{color:var(--red)} .mla .g{color:var(--gold)} .mla .ok{color:var(--green)}
+.callout{border-left:4px solid var(--red);background:var(--red-soft);padding:10px 14px;border-radius:0 6px 6px 0;margin-top:12px}
+.callout.gold{border-color:var(--gold);background:var(--gold-soft)}
+.callout.navy{border-color:var(--navy);background:var(--navy-soft)}
+.msa{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:12px}
+.msa div{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 12px;text-align:center}
+.msa .v{font-family:"IBM Plex Mono",monospace;font-size:22px;color:var(--navy);font-weight:500}
+.msa .l{font-size:12px;color:var(--ink-3)}
+.trial{display:grid;grid-template-columns:150px 1fr;gap:4px 14px;font-size:14.5px;margin-top:10px}
+.trial b{color:var(--red)}
+.trial .neg b{color:var(--ink-3)}
+@media (max-width:560px){.trial{grid-template-columns:1fr}}
+
+/* quiz */
+.qintro{margin-top:24px;color:var(--ink-2);max-width:66ch}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;font-size:12px}
+.chip{border-radius:999px;padding:2px 10px;font-weight:500;letter-spacing:.02em}
+.chip.mem{background:var(--navy-soft);color:var(--navy)}
+.chip.und{background:var(--gold-soft);color:var(--gold)}
+.chip.app{background:var(--green-soft);color:var(--green)}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 20px;margin-top:18px;box-shadow:var(--shadow)}
+.q .top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.q .num{font-family:"IBM Plex Mono",monospace;color:var(--ink-3);font-size:13px}
+.q .stem{font-weight:500;margin-top:10px;font-size:16.5px}
+.q .stem .sc{display:block;font-weight:400;color:var(--ink-2);margin-top:6px;font-size:15px}
+.opts{display:grid;gap:8px;margin-top:14px}
+.opt{appearance:none;text-align:left;font:inherit;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 14px;color:var(--ink);cursor:pointer;display:grid;grid-template-columns:26px 1fr;gap:10px;line-height:1.55}
+.opt .k{font-family:"IBM Plex Mono",monospace;color:var(--ink-3)}
+.opt:hover:not(:disabled){border-color:var(--navy)}
+.opt:disabled{cursor:default}
+.opt.correct{background:var(--green-soft);border-color:var(--green)}
+.opt.wrong{background:var(--red-soft);border-color:var(--red)}
+.opt.picked .k{color:var(--ink)}
+.fb{margin-top:12px;padding:12px 14px;border-radius:6px;font-size:15px;display:none}
+.fb.show{display:block}
+.fb.ok{background:var(--green-soft);border-left:4px solid var(--green)}
+.fb.no{background:var(--red-soft);border-left:4px solid var(--red)}
+.fb b{display:block;margin-bottom:4px}
+.fb .ref{color:var(--ink-3);font-size:13px;margin-top:6px}
+.bar{position:sticky;bottom:0;background:var(--surface);border-top:1px solid var(--line);margin-top:24px;padding:12px 0 calc(12px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.score{font-family:"IBM Plex Mono",monospace;font-size:15px}
+.score span{color:var(--navy);font-weight:500}
+.btn{appearance:none;font:inherit;font-weight:500;border:1px solid var(--navy);background:var(--navy);color:var(--on-navy);padding:8px 16px;border-radius:6px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--navy)}
+.result{display:none;margin-top:18px;padding:18px 20px;border-radius:8px;background:var(--navy-soft);border:1px solid var(--line)}
+.result.show{display:block}
+.result h3{font-size:20px;color:var(--navy)}
+.result p{margin:6px 0 0;color:var(--ink-2)}
+@media (prefers-reduced-motion:no-preference){.opt,.tab{transition:border-color .15s,background .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hdr">
+  <div class="eyebrow">EAPCI × EBC Clinical Consensus Statement · 2026</div>
+  <h1>Intracoronary Imaging for Left Main PCI</h1>
+  <p>教學講義整理與十題測驗。講義依原始四頁投影片重新分節；測驗涵蓋記憶、理解與臨床應用三層次，難度設定為中上。</p>
+  <div class="cite">Johnson TW, et al. <i>Eur Heart J</i> 2026; ehag353. <a href="https://doi.org/10.1093/eurheartj/ehag353" target="_blank" rel="noopener">doi:10.1093/eurheartj/ehag353</a> ｜ 講義製作：炆輝（2026-09-16）</div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab" role="tab" id="tab-notes" aria-selected="true" aria-controls="panel-notes">講義整理</button>
+  <button class="tab" role="tab" id="tab-quiz" aria-selected="false" aria-controls="panel-quiz">十題測驗</button>
+</nav>
+
+<!-- ================= HANDOUT ================= -->
+<section class="panel" id="panel-notes" role="tabpanel" aria-labelledby="tab-notes">
+
+<div class="sec">
+  <h2><span class="n">01</span>背景與目的</h2>
+  <p>Left main（LM）病變是 PCI 中最複雜、風險最高的 lesion 之一，與較高的晚期不良事件相關。單靠 angiography 的侷限：</p>
+  <ul>
+    <li>難以準確評估 plaque burden 與血管真實大小</li>
+    <li>LAD / LCX 重疊、支架變形、潛在鈣化、stent edge dissection 容易被低估</li>
+  </ul>
+  <p>ESC / ACC 指南已建議 LM PCI 以 IVUS / OCT 導引。本共識由 EAPCI 與 EBC 整合 RCT、次族群分析、registry（OPTIMAL / OCCUPI / OCTOBER / RENOVATE）與既有共識，提出標準流程：</p>
+  <div class="callout navy"><b>“Assess – Plan – Treat – Optimize”</b>：影像要融入 LM PCI 的整個流程，而非術後的確認工具。</div>
+</div>
+
+<div class="sec">
+  <h2><span class="n">02</span>Imaging Workflow 五階段</h2>
+  <div class="flow">
+    <div><b>Pre-PCI Assessment</b>病變評估、血管尺寸、鈣化程度、side branch / LCX 風險</div>
+    <div><b>PCI Planning</b>決定支架長度與直徑、是否需 plaque modification、Provisional vs 2-stent</div>
+    <div><b>Stent Implantation</b>依影像資訊置放支架</div>
+    <div><b>Post-PCI Optimization</b>stent expansion、貼壁、edge dissection、支架變形、side branch opening</div>
+    <div><b>Final Check</b>手術完成後再次影像，確認最終結果</div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2><span class="n">03</span>Pre-PCI Imaging：五個決策點</h2>
+  <h3>① Landing zone</h3>
+  <ul>
+    <li>理想 landing zone：IVUS <b>plaque burden &lt; 50%</b></li>
+    <li>避免落在高 plaque burden / lipid-rich plaque 區域 → 降低 edge dissection 與 restenosis</li>
+  </ul>
+  <h3>② Stent length</h3>
+  <ul>
+    <li>影像確認 plaque 真正延伸範圍，避免 geographical miss</li>
+    <li>Ostial LAD 病灶 <b>&gt; 90%</b> 已延伸至 distal LM；ostial LCX 病灶 <b>&gt; 80%</b> 已延伸至 distal LM</li>
+  </ul>
+  <h3>③ Stent diameter</h3>
+  <ul>
+    <li>LM → LAD crossover：支架尺寸依 <b>distal main vessel</b> 選擇，proximal LM 再以 <b>POT</b> 擴張</li>
+  </ul>
+  <h3>④ 鈣化評估（需 plaque modification 的三項）</h3>
+  <ul>
+    <li>Calcium arc <b>&gt; 180°</b>　·　Calcium length <b>&gt; 5 mm</b>　·　Calcium thickness <b>&gt; 0.5 mm</b></li>
+    <li>Plaque modification 後可再次影像確認是否充分準備</li>
+  </ul>
+  <h3>⑤ LCX 高風險評估（決定 Provisional vs upfront 2-stent）</h3>
+  <ul>
+    <li>Angiographic DS ≥ 70%　·　MLA &lt; 4 mm²　·　Plaque burden &gt; 55%</li>
+    <li>Lesion length ≥ 10 mm　·　Significant calcification　·　Unstable plaque / thrombus</li>
+  </ul>
+</div>
+
+<div class="sec">
+  <h2><span class="n">04</span>為什麼要從 LAD 與 LCX 各 pullback 一次？</h2>
+  <p>LM bifurcation 是三維結構。IVUS 從 LAD → LM 與從 LCX → LM 回拉時，catheter 在 LM 內的角度可能完全不同，量到的 MLA 也不同。</p>
+  <div class="callout">LM 評估應 <b>從 LAD 與 LCX 都 pullback</b>，並採用 <b>兩者之中較小的 MLA</b> 作為 clinical decision-making 依據。</div>
+</div>
+
+<div class="sec">
+  <h2><span class="n">05</span>Intermediate LM 該不該治療？</h2>
+  <p>過去最熟悉的 IVUS LM MLA 閾值是 6 mm²；不同研究得到的 cut-off 約 4.5–8.0 mm²。本共識把決策分為三區：</p>
+  <div class="mla">
+    <div class="k r">&lt; 4.5 mm²</div><div>Revascularization</div>
+    <div class="k g">4.5–6.0 mm²</div><div>Gray zone：加入 FFR / iFR（&lt; 0.80 / ≤ 0.89 傾向治療）、ECG / echo、high-risk plaque、CABG eligibility、patient profile（age, frailty, bleeding risk）綜合判斷</div>
+    <div class="k ok">&gt; 6.0 mm²</div><div>Conservative / defer</div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2><span class="n">06</span>IVUS vs OCT：各自擅長什麼</h2>
+  <div class="grid2">
+    <div class="card ivus">
+      <h4>IVUS 較佳</h4>
+      <ul>
+        <li>穿透性佳，可評估 EEM</li>
+        <li>不需大量 contrast → 適合腎功能不佳者</li>
+        <li>Vessel size、aorto-ostial LM、plaque burden、calcium severity、large vessel、stent sizing（EEM）</li>
+      </ul>
+    </div>
+    <div class="card oct">
+      <h4>OCT 較佳</h4>
+      <ul>
+        <li>高解析度，清楚顯示 stent struts</li>
+        <li>Malapposition、edge dissection、tissue protrusion、stent deformation</li>
+        <li>限制：ostial LM 受 guide catheter 與 blood clearance 影響</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2><span class="n">07</span>LM PCI 後 IVUS Optimization：MSA 目標</h2>
+  <div class="msa">
+    <div><div class="v">10–12</div><div class="l">mm² · LM（兩種術式相同）</div></div>
+    <div><div class="v">7–8</div><div class="l">mm² · LAD（兩種術式相同）</div></div>
+    <div><div class="v">≥ 4</div><div class="l">mm² · LCX ostium（Provisional crossover）</div></div>
+    <div><div class="v">6–7</div><div class="l">mm² · LCX（2-stent bifurcation）</div></div>
+  </div>
+  <p style="margin-top:12px">圓形 lumen 面積換算直徑（Area = πr²）：<span class="mono">2.75 mm → 5.9　3.0 → 7.1　3.5 → 9.6　4.0 → 12.5　4.5 → 15.9 mm²</span>。非 LM 的 MSA cut-off：IVUS 4.9 mm²（2.5 mm）、OCT 4.5 mm²（2.4 mm）。</p>
+  <div class="callout gold">這些 MSA 是 <b>optimization target range，並非愈大愈好</b>。應搭配 relative expansion 約 <b>80–90%</b> 與病人實際血管尺寸判斷；不應為追求絕對 MSA 而過度擴張 LM——<b>LM perforation 可能致命</b>。</div>
+</div>
+
+<div class="sec">
+  <h2><span class="n">08</span>常見 pitfalls</h2>
+  <h3>Guide catheter collision</h3>
+  <ul>
+    <li>即使支架已 POT 且初步 IVUS 良好，後續撤出 jailed wire 或操作 guide 時仍可能撞到 proximal stent</li>
+    <li>造成 stent shortening、distortion、malapposition（longitudinal deformation）</li>
+    <li>處理：必要時 <b>re-POT</b>，並以影像重新確認</li>
+  </ul>
+  <h3>Abluminal wiring</h3>
+  <ul>
+    <li>Rewiring 時 wire 可能位於 stent 外側而非 lumen 內（常續發於 POT 不足）</li>
+    <li>未辨識即 balloon inflation → stent deformation、malapposition、thrombosis 風險上升</li>
+    <li><b>OCT（尤其 3D OCT）</b>有助辨識 wire position</li>
+  </ul>
+</div>
+
+<div class="sec">
+  <h2><span class="n">09</span>影像導引 LM PCI 的證據</h2>
+  <div class="trial">
+    <div><b>RENOVATE</b> LM sub-study</div><div>IVUS/OCT vs Angio，unprotected LM：6.8% vs 25.0%；HR 0.31（0.13–0.76）→ 影像導引顯著較佳</div>
+    <div><b>OCCUPI</b> LM bifurcation subgroup</div><div>IVUS/OCT vs Angio：5% vs 14%；HR 0.37（0.14–0.94）→ 影像導引顯著較佳</div>
+    <div><b>OCTOBER</b> one-stent subgroup</div><div>OCT vs Angio：6% vs 12%；HR 0.47（0.24–0.93）→ OCT 導引顯著較佳</div>
+    <div class="neg"><b>OPTIMAL</b> dedicated LM RCT</div><div class="neg">IVUS vs Angio：33.7% vs 30.9%；HR 1.11（0.87–1.47）→ <b>未顯示顯著差異</b></div>
+  </div>
+</div>
+
+</section>
+
+<!-- ================= QUIZ ================= -->
+<section class="panel" id="panel-quiz" role="tabpanel" aria-labelledby="tab-quiz" hidden>
+  <p class="qintro">十題單選。每題作答後立即顯示解析與講義出處。題型標示如下：</p>
+  <div class="legend">
+    <span class="chip mem">記憶</span><span class="chip und">理解</span><span class="chip app">應用</span>
+  </div>
+  <div id="quiz"></div>
+  <div class="result" id="result"></div>
+  <div class="bar">
+    <div class="score">得分 <span id="sc">0</span> / 10　已作答 <span id="done">0</span></div>
+    <div style="display:flex;gap:8px">
+      <button class="btn ghost" id="reset">重新作答</button>
+      <button class="btn" id="finish">結算</button>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<script>
+const Q=[
+{t:'mem',s:'依本共識，關於 ostial LAD 與 ostial LCX 病灶「其實已延伸至 distal LM」的比例，下列何者正確？',
+ o:['ostial LAD > 90%，ostial LCX > 80%','ostial LAD > 80%，ostial LCX > 90%','兩者皆約 50%','ostial LAD > 90%，ostial LCX < 30%'],
+ a:0,e:'影像可揭露看似 isolated 的 ostial 病灶多已延伸進 distal LM：ostial LAD > 90%、ostial LCX > 80%。這是決定支架長度、避免 geographical miss 的核心理由。',r:'講義 03-②'},
+{t:'und',s:'共識建議理想 landing zone 的 IVUS plaque burden < 50%。其主要臨床目的為何？',
+ o:['降低 edge dissection 與 restenosis 風險','避免 stent 直徑選擇過大','減少 contrast 使用量','確保 LCX ostium 不被 jail'],
+ a:0,e:'支架邊緣若落在高 plaque burden 或 lipid-rich 區域，容易發生 edge dissection 及後續 restenosis；plaque burden < 50% 的 landing zone 正是為了避開這些。',r:'講義 03-①'},
+{t:'mem',s:'下列鈣化參數中，何者「未」達到本共識建議考慮 plaque modification 的閾值？',
+ o:['Calcium thickness 0.3 mm','Calcium arc 200°','Calcium length 6 mm','三者皆已達閾值'],
+ a:0,e:'三項閾值為 arc > 180°、length > 5 mm、thickness > 0.5 mm。0.3 mm 未達厚度閾值；200° 與 6 mm 則分別超過 arc 與 length 閾值。',r:'講義 03-④'},
+{t:'app',s:'一位 distal LM bifurcation 病人，術前 IVUS 顯示 LCX ostium MLA 3.6 mm²、plaque burden 62%、病灶長度 12 mm，並有明顯鈣化。依本共識，此影像結果最應影響哪一項決策？',
+ o:['Provisional 改為 upfront 2-stent strategy','提早使用 OCT 取代 IVUS','LM 支架直徑依 proximal LM 而非 distal main vessel 選擇','跳過 final check 以縮短手術時間'],
+ a:0,e:'LCX 高風險特徵：DS ≥ 70%、MLA < 4 mm²、plaque burden > 55%、length ≥ 10 mm、significant calcification、unstable plaque。此例符合四項，影像結果應引導術式選擇為 upfront 2-stent。',r:'講義 03-⑤'},
+{t:'und',s:'共識為何要求 LM 評估必須從 LAD 與 LCX 各做一次 pullback，並採用較小的 MLA？',
+ o:['LM bifurcation 為三維結構，catheter 由不同分支進入 LM 時角度不同，所測 MLA 可能不同','IVUS 單次 pullback 的解析度不足，需兩次平均','為了同時取得 LAD 與 LCX 的 plaque burden 數值','因為 OCT 無法從 LCX pullback'],
+ a:0,e:'catheter 在 LM 內的角度會因來自 LAD 或 LCX 而異，導致 MLA 量測差異；為避免高估 lumen，採兩者中較小者做臨床決策。',r:'講義 04'},
+{t:'app',s:'68 歲男性，穩定型心絞痛，IVUS 兩次 pullback 的 LM MLA 分別為 5.6 與 5.2 mm²，FFR 0.76，CABG 可行性中等。依本共識最合理的處置為？',
+ o:['MLA 落在 gray zone，FFR < 0.80 支持 revascularization','MLA > 4.5 mm²，直接 conservative / defer','MLA 平均 5.4 mm²，屬 gray zone，應再做一次 IVUS 決定','FFR 在 LM 不可靠，僅依 MLA 判斷即可'],
+ a:0,e:'採較小 MLA 5.2 mm²，落在 4.5–6.0 mm² gray zone，需結合生理學（FFR < 0.80 / iFR ≤ 0.89）與臨床背景；FFR 0.76 支持 revascularization。注意不是取平均，也不是只看 MLA。',r:'講義 05'},
+{t:'app',s:'eGFR 28 mL/min 的病人，需評估 aorto-ostial LM 病灶的血管真實尺寸與 plaque burden。依本共識，何種影像工具最合適，理由為何？',
+ o:['IVUS：穿透性佳可評估 EEM、不需大量 contrast，且 ostial LM 不受 blood clearance 限制','OCT：解析度高，最能顯示 EEM 與 plaque burden','OCT：contrast 用量少於 IVUS','兩者相同，依術者習慣即可'],
+ a:0,e:'IVUS 擅長 vessel size、aorto-ostial LM、plaque burden、stent sizing（EEM），且不需大量 contrast；OCT 在 ostial LM 受 guide catheter 與 blood clearance 限制，並需 contrast 沖洗。',r:'講義 06'},
+{t:'und',s:'2-stent LM bifurcation 後，共識建議 LCX 支架 MSA 目標為 6–7 mm²。若 lumen 為圓形，此面積約對應多少直徑？（Area = πr²）',
+ o:['約 2.8–3.0 mm','約 2.0–2.2 mm','約 3.5–3.7 mm','約 4.0 mm'],
+ a:0,e:'3.0 mm 直徑 → π×1.5² ≈ 7.1 mm²；2.75 mm → 5.9 mm²。故 6–7 mm² 約對應 2.8–3.0 mm。提醒：MSA 是 target range，應搭配 relative expansion 80–90%，勿為追求絕對值過度擴張 LM。',r:'講義 07'},
+{t:'app',s:'LM→LAD crossover 支架已完成 POT，IVUS 初步結果良好。撤出 jailed LCX wire 後，再次 IVUS 發現 proximal stent 縮短、變形與 malapposition。最可能的原因與正確處置為？',
+ o:['Guide catheter collision；再次 POT 並以影像重新確認','Abluminal wiring；直接以 kissing balloon 修正','支架選擇過小；重疊置放第二支支架','Stent recoil；立即給予 GP IIb/IIIa inhibitor'],
+ a:0,e:'撤出 jailed wire 或操作 guide 時可能撞擊 proximal stent 造成 longitudinal deformation（shortening、distortion、malapposition）。處置為 re-POT 並重新影像確認。abluminal wiring 的線索是 rewiring 後 wire 位於 stent 外側，需 OCT/3D OCT 辨識。',r:'講義 08'},
+{t:'mem',s:'下列影像導引 LM PCI 的研究中，何者「未」顯示影像導引優於 angiography 導引？',
+ o:['OPTIMAL（dedicated LM RCT，IVUS vs Angio，HR 1.11）','RENOVATE LM sub-study（HR 0.31）','OCCUPI LM bifurcation subgroup（HR 0.37）','OCTOBER one-stent subgroup（HR 0.47）'],
+ a:0,e:'OPTIMAL 為專門針對 LM 的 RCT，IVUS vs Angio 為 33.7% vs 30.9%，HR 1.11（0.87–1.47），未達顯著差異；其餘三者皆顯示影像導引顯著較佳。解讀時須注意 OPTIMAL 是唯一 dedicated LM RCT，其餘為 sub-study / subgroup。',r:'講義 09'}
+];
+const label={mem:'記憶',und:'理解',app:'應用'};
+const K='ABCD';
+let state=Array(Q.length).fill(null);
+
+let order=[];
+function shuffle(n){const a=[...Array(n).keys()];for(let i=n-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function render(){
+  const root=document.getElementById('quiz');root.innerHTML='';
+  order=Q.map(q=>shuffle(q.o.length));
+  Q.forEach((q,i)=>{
+    const d=document.createElement('div');d.className='q';d.id='q'+i;
+    d.innerHTML=`<div class="top"><span class="num">Q${String(i+1).padStart(2,'0')}</span><span class="chip ${q.t}">${label[q.t]}</span></div>
+      <div class="stem">${q.s}</div>
+      <div class="opts">${order[i].map((oi,j)=>`<button class="opt" data-q="${i}" data-j="${oi}" id="q${i}o${j}"><span class="k">${K[j]}</span><span>${q.o[oi]}</span></button>`).join('')}</div>
+      <div class="fb" id="fb${i}"></div>`;
+    root.appendChild(d);
+  });
+  root.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',pick));
+}
+function pick(e){
+  const b=e.currentTarget,i=+b.dataset.q,j=+b.dataset.j;
+  if(state[i]!==null)return;
+  state[i]=j;
+  const q=Q[i];
+  document.querySelectorAll(`#q${i} .opt`).forEach(o=>{
+    o.disabled=true;const jj=+o.dataset.j;
+    if(jj===q.a)o.classList.add('correct');
+    if(jj===j){o.classList.add('picked');if(j!==q.a)o.classList.add('wrong');}
+  });
+  const fb=document.getElementById('fb'+i);
+  const ok=j===q.a;
+  fb.className='fb show '+(ok?'ok':'no');
+  fb.innerHTML=`<b>${ok?'正確':'不正確，正解為 '+K[order[i].indexOf(q.a)]}</b>${q.e}<div class="ref">出處：${q.r}</div>`;
+  update();
+}
+function update(){
+  const done=state.filter(x=>x!==null).length;
+  const sc=state.reduce((n,x,i)=>n+(x===Q[i].a?1:0),0);
+  document.getElementById('sc').textContent=sc;
+  document.getElementById('done').textContent=done;
+  return {done,sc};
+}
+document.getElementById('finish').addEventListener('click',()=>{
+  const {done,sc}=update();
+  const r=document.getElementById('result');
+  const wrong=state.map((x,i)=>x===Q[i].a?null:i+1).filter(Boolean);
+  let msg;
+  if(done<Q.length)msg=`尚有 ${Q.length-done} 題未作答。`;
+  else if(sc===10)msg='全對。LM imaging 的決策邏輯已掌握。';
+  else if(sc>=8)msg='穩固。建議回頭複習錯題對應的講義段落。';
+  else if(sc>=6)msg='基本概念在，但閾值與試驗結果仍需加強記憶。';
+  else msg='建議先重讀講義 03、05、07，再重新作答。';
+  r.className='result show';
+  r.innerHTML=`<h3>${sc} / 10</h3><p>${msg}</p>${wrong.length?`<p>錯題：Q${wrong.join('、Q')}</p>`:''}`;
+  r.scrollIntoView({behavior:'smooth',block:'center'});
+});
+document.getElementById('reset').addEventListener('click',()=>{
+  state=Array(Q.length).fill(null);render();update();
+  document.getElementById('result').className='result';
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===t));
+  document.querySelectorAll('.panel').forEach(p=>p.hidden=(p.id!==t.getAttribute('aria-controls')));
+  window.scrollTo({top:0});
+}));
+render();update();
+</script>
+</body>
+</html>
