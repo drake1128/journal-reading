@@ -256,10 +256,12 @@
 
 **Prevention of Left Ventricular Outflow Tract Obstruction During High-Risk Transcatheter Mitral Valve Replacement.** Bashir H, Seshiah P, Guddeti R, et al.（The Christ Hospital, Cincinnati） [*JACC Case Rep* 2026 Sep 17:110266.](https://doi.org/10.1016/j.jaccas.2026.110266) PMID: [42752081](https://pubmed.ncbi.nlm.nih.gov/42752081/)
 
-74 歲女性、退化的 27-mm 外科二尖瓣生物瓣，重度症狀性二尖瓣狹窄合併雙心室衰竭，redo 手術高風險。在 **ECMO 支撐**下行 valve-in-valve TMVR，採**球囊輔助前葉移位改良 (balloon-assisted translocation of the anterior mitral leaflet)**＋葉內部署 26-mm 球擴瓣，使用**左心室起搏導絲**與 13-F 可調彎鞘（避免右心室器械化）。
+74 歲女性、退化的 27-mm 外科二尖瓣生物瓣，重度症狀性二尖瓣狹窄合併雙心室衰竭，redo 手術高風險。在 **ECMO 支撐**下行 valve-in-valve TMVR，採**球囊輔助前葉移位瓣葉改造術 (balloon-assisted translocation of the anterior mitral leaflet, BATMAN, modification)**＋葉內部署 26-mm 球擴瓣，使用**左心室起搏導絲 (LV pacing guidewire)**與 13-F 可調彎鞘（免置放右心室暫時性起搏導線）。
+
+> **原文（abstract）**：*"She underwent extracorporeal membrane oxygenation-supported valve-in-valve transcatheter mitral valve replacement with balloon-assisted translocation of the anterior mitral leaflet modification and intraleaflet deployment of a 26-mm balloon-expandable valve using a left ventricular pacing guidewire and 13-F steerable sheath. … A left ventricular pacing guidewire can facilitate valve delivery and rapid pacing while avoiding right ventricular instrumentation, while a steerable sheath supports controlled traversal of a calcified leaflet."*
 
 **為什麼值得讀**
-> 小 neo-LVOT 是 TMVR 的致命併發症來源。本例示範一套**防 LVOT 阻塞的組合技**：（1）**BATMAN／LAMPOON 概念**——移位或撕開前葉以擴大 neo-LVOT；（2）**MCS（ECMO）先穩住血流動力**，爭取操作空間；（3）**左心室起搏導絲**同時提供快速起搏與遞送軌道，避免右心室穿孔風險；（4）**可調彎鞘**協助通過鈣化瓣葉。對 Drake 的結構主力，這是二尖瓣介入「解剖高風險」時的實用戰術地圖。
+> 小 neo-LVOT 是 TMVR 的致命併發症來源。本例示範一套**防 LVOT 阻塞的組合技**：（1）**BATMAN／LAMPOON 概念**——移位或撕開前葉以擴大 neo-LVOT；（2）**MCS（ECMO）先穩住血流動力**，爭取操作空間；（3）**左心室起搏導絲**同時提供快速起搏與遞送軌道，免置放右心室暫時性起搏導線、避免 RV 穿孔風險；（4）**可調彎鞘**協助通過鈣化瓣葉。對 Drake 的結構主力，這是二尖瓣介入「解剖高風險」時的實用戰術地圖。
 
 ---
 

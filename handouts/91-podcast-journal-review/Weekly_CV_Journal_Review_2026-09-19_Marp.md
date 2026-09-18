@@ -309,9 +309,10 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-09-12 ~ 2026-
 - 74 歲女性，退化 27-mm 外科二尖瓣生物瓣、重度 MS＋雙心室衰竭，redo 高風險
 - **ECMO 支撐**下 valve-in-valve TMVR
 - **球囊輔助前葉移位 (BATMAN)** ＋葉內部署 26-mm 球擴瓣
-- **左心室起搏導絲**（避免右心室器械化）＋13-F 可調彎鞘通過鈣化瓣葉
+- **左心室起搏導絲**（免置放 RV 暫時性起搏導線）＋13-F 可調彎鞘通過鈣化瓣葉
+  <small>原文：*LV pacing guidewire … rapid pacing while avoiding right ventricular instrumentation*</small>
 
-> **教訓**：小 neo-LVOT 的**組合技**——葉部改良＋MCS＋LV 起搏導絲＋可調彎鞘。
+> **教訓**：小 neo-LVOT 的**組合技**——BATMAN＋MCS＋LV 起搏導絲＋可調彎鞘。
 
 <div class="qr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeAQAAAAB6HIMaAAABk0lEQVR42u2Yy20EMQxDhbgAleTWXZILMKCYpD3IJXvZAOFhBwOsMb4QWurpE/X7s+Jz+d7ljP202VuNFX3liCx82uevePH8x+VW27fqBumDmkvv/u6pdoexIcz9RDirTUTbWS3kSba/2rndPeq611ktfLtzLRlVOtbYt5cJP15fJjwwS+TXithOOF8c1Q78JPB1IMZ0M3UC2bX412/3LrpX4k3VnuSKJizMrkRzdQIKLm0QrA6jbAnG/BIESuDa6UaymRIsi9QdPEP56XAs1bLvGsTsqRSwQZZnLQMKALE6gWWETbOMYUSfMEOYfQ6eTFBXIN8yxbovb9l9teMH9GCqF+Hp2yowoZBoYleb4TzpNJhhsJ+hyNvb2Pa30swIl0YJ27ls5XgKrnhbxrwN6GQHnqrC0m+r9i4Qkl345Nl5djgcu225enLfuYxeZbG4i4UynnnR0pAG8G257xM07ARtgIMvE6QW4wPbsBzGvj27Guos7cGcO8ZnV3N8mxrQypcJpcG8hC9tmZx3NZ99/F9ffgOWfYpaXupEeQAAAABJRU5ErkJggg=="><br>📱 Scan DOI</div>
 
