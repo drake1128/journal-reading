@@ -1,0 +1,505 @@
+# Critical Care 雙週期刊回顧 / Biweekly Critical Care Literature Review
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-10-01**
+**期間：2026-09-17 ～ 2026-10-01**
+**涵蓋期刊：** Intensive Care Medicine (ICM)、Critical Care、Chest、Resuscitation、Shock、Critical Care Medicine (CCM)（本期間 CCM 以 errata／letters 為主）。Lancet Respiratory Medicine 本期以結核預防性治療與 Global Burden of Disease 等非重症核心主題為主；American Journal of Respiratory and Critical Care Medicine (AJRCCM) 以 ILD／門診呼吸議題為主；Annals of Intensive Care 本期間 PubMed 無新刊。本期已排除上一期（2026-09-15）已收錄之文章。
+
+---
+
+## 重點摘要 (Key Pearls)
+
+> **Pearl 1 — Ilofotase alfa 無法預防開心手術後急性腎損傷（phase 2 RCT，NEGATIVE）**：鹼性磷酸酶製劑 ilofotase alfa 於 on-pump 複雜心臟手術高風險病人（術前 estimated glomerular filtration rate [eGFR] 25-65），兩劑靜脈注射 (intravenous, IV) vs placebo。主要終點術後 5 天內最高血清肌酸酐 (serum creatinine, sCr) 比值 **1.21 vs 1.27（p=0.31）**，major adverse kidney events up to day 60 (MAKE60) **15.9% vs 15.4%（p=0.87）** — **無效但安全**。
+
+> **Pearl 2 — 吸入性鎮靜 sevoflurane 在中-重度 ARDS 造成傷害**：ICM 回顧整理近期 SESAR RCT（JAMA 2025，n=687）—— sevoflurane 相較 propofol **ventilator-free days (VFD) 較少（median difference −2.1 天）、90 天存活較低（47.1% vs 55.7%；hazard ratio [HR] 1.31，95% confidence interval [CI] 1.05-1.62）**，7 天死亡亦較高。**acute respiratory distress syndrome (ARDS) 不應常規使用揮發性吸入鎮靜**。
+
+> **Pearl 3 — 急性腦損傷通氣：用「呼吸系統彈性 (elastance, E)」而非固定 tidal volume (V_T)**：VENTIBRAIN post hoc（n=1,158）—— 高 V_T 在 **低 E** 肺降低 intensive care unit (ICU) 死亡（odds ratio [OR] 0.52），在 **高 E** 肺則否（OR 1.16）。最適 V_T 隨 E 上升而下降（11.4 → 4.4 mL/kg）；driving pressure (ΔP) 每增 1 cmH₂O 的預後衝擊 ≈ 呼吸次數每增 3 次/分。
+
+> **Pearl 4 — 肺泡上皮損傷標記 soluble receptor for advanced glycation end-products (sRAGE) 可指引 ARDS 個人化肺復張**：LIVE trial 次分析（n=259）—— **高 sRAGE** 者肺復張策略降 90 天死亡（HR 0.41），**低 sRAGE** 者反而升高（HR 3.27，p-for-interaction=0.006）。發炎表型只具預後價值、不預測治療反應。
+
+> **Pearl 5 — Ondansetron 可降低 ARDS 病人呼吸驅動 (respiratory drive)**：單中心交叉試驗（n=9）—— 5-HT₃ 拮抗劑 ondansetron 0.15 mg/kg 使食道壓 pressure-time product (PTP) 下降（mean difference −23 cmH₂O·s/min，p<0.001）、PaO₂/FiO₂ 改善 +23；代價為 PaCO₂ 微升 +3.2 mmHg。**概念驗證**：血清素途徑可調控呼吸驅動，或有助減緩 patient self-inflicted lung injury (P-SILI)。
+
+> **Pearl 6 — 難治型敗血性休克：加入「組織低灌流」比單看升壓劑劑量更能分辨高風險**：ANDROMEDA-SHOCK-2 次分析（n=1,363）—— norepinephrine equivalent (NEE) >0.5 µg/kg/min 再加上 capillary refill time (CRT) >3 秒 + lactate 未下降（雙低灌流條件）者，28 天死亡 **73.6% vs 23.7%（adjusted HR [aHR] 4.68）**，預後富集能力優於單看升壓劑劑量。
+
+> **Pearl 7 — 非心因性院外心臟驟停 (out-of-hospital cardiac arrest, OHCA)：旁觀者「口對口人工呼吸」仍有益，尤其兒童與溺水／窒息**：全日本 Utstein 世代（n=154,137）—— rescue-breathing CPR (RB-CPR) vs compression-only CPR (CO-CPR)，30 天死亡 adjusted risk ratio (RR) **0.98**、不良神經預後 RR 0.99；益處集中在**兒童、溺水、窒息**族群。
+
+> **Pearl 8 — Post-ROSC 心電圖 (electrocardiogram, ECG)：無 ST 上升的冠脈阻塞 (NST-OMI) 常被漏做冠脈攝影、死亡率最高**：單中心 n=214，CAG 確診 occlusive myocardial infarction (OMI) 101 人。NST-OMI 型態（left-main equivalent、Smith-modified Sgarbossa 等）**接受 coronary angiography (CAG) 較少（78% vs 98%）**，未做 CAG 的 NST-OMI 30 天死亡達 **75%**；PR-segment 延長獨立預測死亡。
+
+> **Pearl 9 — 重症藥師「每日完整藥物管理 (comprehensive medication management, CMM)」與較低院內死亡相關**：64 中心 observational（n=28,795）—— 藥師對病人比每增 1 人、院內死亡勝算升 1%（OR 1.01）；**任一天缺乏藥師 CMM 者死亡勝算高 20%（OR 1.20，p=0.02）**。重症照護中藥師人力是病人安全議題。
+
+> **Pearl 10 — 適應性 D-dimer 閾值 rule-out 肺栓塞 (pulmonary embolism, PE) 安全**：6 研究、12,194 人系統性回顧 —— 以 age-adjusted／clinical probability-adjusted D-dimer 排除 PE，整體 3 個月診斷失誤率僅 **0.12%**，即使落在「adaptive window」（>500 但低於調整後閾值）也僅 0.50%，且可省下約 60.8% 的 computed tomography pulmonary angiography (CTPA)。
+
+---
+
+## 目錄
+
+1. [Sepsis 與血流動力學](#1-sepsis-與血流動力學)
+2. [Mechanical Ventilation 與呼吸支持](#2-mechanical-ventilation-與呼吸支持)
+3. [神經重症 (Neurocritical Care)](#3-神經重症-neurocritical-care)
+4. [AKI / Renal](#4-aki--renal)
+5. [心臟驟停與復甦 (Resuscitation)](#5-心臟驟停與復甦-resuscitation)
+6. [肺栓塞 (Pulmonary Embolism)](#6-肺栓塞-pulmonary-embolism)
+7. [其他值得關注 (Honorable Mentions)](#7-其他值得關注-honorable-mentions)
+8. [常用縮寫整理](#常用縮寫整理)
+9. [參考文獻](#參考文獻)
+
+---
+
+## 1. Sepsis 與血流動力學
+
+### 1.1 ANDROMEDA-SHOCK-2 次分析：持續性組織低灌流改善難治型敗血性休克的風險分層
+
+**Kattan E, Ospina-Tascón GA, Orozco N, et al. Intensive Care Med 2026.**
+
+- **設計**：ANDROMEDA-SHOCK-2 trial 的探索性次分析（secondary analysis）
+- **族群**：敗血性休克，經 6 小時 protocolised 復甦後評估「難治性 (refractory)」
+- **定義**：
+  - **雙低灌流條件**：NEE >0.5 µg/kg/min **且** CRT >3 秒 **且** lactate 未下降
+  - **≥1 低灌流條件**：NEE >0.5 µg/kg/min **且** 任一組織灌流異常
+- **N**：1,363（完整資料）
+- **結果**：
+  - 單看 NEE >0.5：188 人（13.8%），死亡 47.9%
+  - **雙低灌流條件者（53 人，3.9%）：28 天死亡 73.6% vs 非難治 23.7%；aHR 4.68（95% CI 3.31-6.64）**
+  - ≥1 低灌流條件者（124 人，9.1%）：死亡 55.0% vs 22.7%；aHR 2.62
+  - 雙低灌流條件的預後富集（prognostic enrichment）優於單看升壓劑劑量（likelihood ratio positive [LR+] 8.12 vs 2.71）
+- **判讀**：hypothesis-generating，需前瞻驗證；呼應 refractory septic shock 的 Delphi 共識方向
+
+> **臨床啟示**：定義「難治型敗血性休克」不應只看升壓劑劑量；併入 CRT 與 lactate 動態（組織灌流）能更準確辨識出死亡率逾 70% 的極高風險族群，作為未來 rescue therapy 試驗的入選標準。
+
+---
+
+### 1.2 NLRP3 發炎體 (inflammasome) 在敗血症的雙面角色（Review）
+
+**（Critical Care 2026；narrative review）**
+
+- NLR family pyrin domain containing 3 (NLRP3) inflammasome 透過 caspase-1 促成 interleukin (IL)-1β、IL-18 成熟與 gasdermin D 介導的 pyroptosis
+- **雙面性**：適度活化是宿主防禦所需；過度活化 → hyperinflammation、內皮功能障礙、immunothrombosis、多重器官衰竭；**耗竭/不足**則削弱清除病原、易生次發感染
+- 治療方向：IL-1 阻斷（如 anakinra）、上游訊號抑制；但臨床轉譯仍需病人分層與生物標記導向
+- 強調角色具**時間動態性與情境依賴性**
+
+> **臨床啟示**：敗血症的免疫調控不是「一味抗發炎」；成功的免疫調節療法將取決於能否即時辨識病人處於「過度發炎」或「免疫麻痺」階段。
+
+---
+
+## 2. Mechanical Ventilation 與呼吸支持
+
+### 2.1 揮發性吸入鎮靜 (volatile anesthetic sedation) 在 ARDS — 從期待到傷害（Review）
+
+**Daoud T, et al.（主題回顧，含 SESAR 解讀）Intensive Care Med 2026.**
+
+- 揮發性麻醉劑（如 sevoflurane）理論上兼具抗發炎、鎮靜、支氣管擴張、維持呼吸驅動等優點；早期小型資料顯示可降發炎介質、改善氧合
+- **關鍵反轉**：近期多中心 SESAR RCT（JAMA 2025，n=687，中-重度 ARDS）——
+  - sevoflurane vs propofol：**day 28 VFD 較少（median difference −2.1 天，95% CI −3.6 to −0.7）**
+  - **90 天存活較低：47.1% vs 55.7%（HR 1.31，95% CI 1.05-1.62）**
+  - 7 天死亡較高（19.4% vs 13.5%，RR 1.44）
+- 回顧建議未來若要再探討 volatile sedation，需重新檢視**劑量、藥劑選擇、使用時程與 ARDS 次表型異質性**
+
+> **臨床啟示**：目前證據下，**ARDS 不建議於臨床試驗外常規使用揮發性吸入鎮靜**；「生理上合理」不等於「臨床有益」——SESAR 是又一個提醒。
+
+---
+
+### 2.2 急性腦損傷通氣：呼吸系統彈性 (elastance) 改變通氣設定與預後的關係
+
+**Grieco DL, Stronati A, Robba C, et al. Intensive Care Med 2026.**（VENTIBRAIN post hoc）
+
+- **設計**：VENTIBRAIN study 的 post hoc 分析；E = ΔP ÷（V_T/predicted body weight [PBW]）
+- **N**：1,158 機械通氣之 acute brain injury 病人
+- **結果**：
+  - 各 E 分組 V_T 相近（7.9 / 7.6 / 7.1 mL/kg），但 ΔP 梯度明顯（5 / 9 / 12 cmH₂O）
+  - 高 V_T：**低 E 者降 ICU 死亡（OR 0.52，95% CI 0.36-0.74）**；**高 E 者無益（OR 1.16）**（交互作用 p<0.001）
+  - 高呼吸次數在低 E 者有害、在高 E 者衰減
+  - Bayesian 最適 V_T/PBW 隨 E 上升而下降：E 0.5 → 11.4 mL/kg；E 2.5 → 4.4 mL/kg；最適呼吸次數 15 → 19 次/分
+  - **ΔP 每增 1 cmH₂O ≈ 呼吸次數每增 3 次/分** 的預後衝擊（等肺泡通氣下）
+  - 不論是否符合 ARDS 皆一致
+- **判讀**：腦損傷病人需兼顧肺保護與二氧化碳控制；單一 V_T 目標不足
+
+> **臨床啟示**：腦損傷病人設定 V_T 時應參考 E（或 ΔP）與維持 isocapnia 所需的呼吸次數，在 ΔP 與呼吸速率之間做權衡（約 3 次/分 換 1 cmH₂O ΔP），而非盲目套用 6 mL/kg。
+
+---
+
+### 2.3 肺泡上皮損傷標記 sRAGE 指引 ARDS 個人化肺復張 — LIVE trial 次分析
+
+**（Chest 2026；LIVE trial secondary analysis）**
+
+- **背景**：指引不建議對 ARDS 常規施行肺復張 (lung recruitment)；但 soluble RAGE (sRAGE，肺泡上皮損傷標記) 與發炎表型或可指引個人化
+- **N**：259（有血漿 sRAGE 的 LIVE trial 病人；比較 lung recruitment + high positive end-expiratory pressure [PEEP] vs low-PEEP）
+- **結果**：
+  - 以 sRAGE 2,440 pg/mL 分高/低；高 sRAGE 與 non-focal ARDS 中度相關
+  - **治療效果隨 baseline sRAGE 而異（p-for-interaction=0.006）**：
+    - **高 sRAGE**：肺復張降 90 天死亡（HR 0.41，95% CI 0.18-0.93）
+    - **低 sRAGE**：肺復張反而升死亡（HR 3.27，95% CI 1.06-10.1）
+  - 發炎表型**不**預測治療反應（p-for-interaction=0.56），但 hyperinflammatory 表型與較高 90 天死亡相關（57% vs 26%）
+- **判讀**：sRAGE（反映上皮損傷/肺型態）比發炎表型更能辨識誰會從肺復張獲益
+
+> **臨床啟示**：ARDS 的肺復張不是「全有或全無」；高 sRAGE（偏 non-focal、瀰漫性）者或可獲益，低 sRAGE 者可能受害。期待前瞻生物標記導向試驗。
+
+---
+
+### 2.4 Ondansetron 降低 ARDS 病人呼吸驅動 — 概念驗證交叉試驗
+
+**（Chest 2026；單中心、單盲、非隨機 crossover）**
+
+- **機轉假說**：肺部發炎刺激並敏化 pulmonary vagal afferent C-fibers；血清素 (serotonin) 經 5-HT₃ receptor 增強呼吸努力。阻斷 5-HT₃ 或可讓自主呼吸更安全
+- **族群**：ARDS（Berlin criteria）、通氣 >48 小時、pressure-support mode；n=10（完成 9）
+- **介入**：IV placebo → 3 小時後 IV ondansetron 0.15 mg/kg（最高 16 mg）
+- **結果**：
+  - 吸氣 PTP：108 → 85 cmH₂O·s/min，**mean difference −23（95% CI −28 to −18，p<0.001）**
+  - 呼吸次數 −1.7 次/分、minute ventilation −1.0 L/min、diaphragm electrical activity (E_di) 峰值 −2.4 µV；V_T 無顯著變化
+  - PaCO₂ 微升 +3.2 mmHg；**PaO₂/FiO₂ 改善 +23（p=0.009）**
+- **判讀**：樣本極小、非隨機；僅為生理概念驗證
+
+> **臨床啟示**：血清素–5-HT₃ 途徑是調控過高呼吸驅動的新標的；ondansetron 或可成為減少深度鎮靜/neuromuscular blockade 需求的輔助工具，但須大型 RCT 驗證臨床終點。
+
+---
+
+### 2.5 機械通氣期間的咳嗽功能 (cough function)（Review）
+
+**（Chest 2026；narrative review）**
+
+- 咳嗽清除氣道分泌物、維持有效氣體交換；ICU 病人常因呼吸肌功能障礙與氣管內管阻礙聲門閉合而**咳嗽無效**
+- **無效咳嗽是 extubation failure 的獨立危險因子**，也與 post-extubation pneumonia、ICU 停留延長、長期呼吸功能受損相關
+- 現行指引已將無效咳嗽列為脫離 (weaning) 關鍵評估項，但**臨床量測缺乏標準化**
+- 回顧咳嗽反射機轉、重症病人的病生理變化與咳嗽量化方法
+
+> **臨床啟示**：脫離評估不應只看氧合與呼吸力學；客觀量化咳嗽能力（如 peak cough flow）有助於辨識高拔管失敗風險者，值得納入標準化脫離流程。
+
+---
+
+## 3. 神經重症 (Neurocritical Care)
+
+### 3.1 顱內壓 (intracranial pressure, ICP)：生理、監測與個人化管理（Review）
+
+**Taccone FS, Arabi Y, Baggiani M, et al. Intensive Care Med 2026.**
+
+- 急性腦損傷 (acute brain injury, ABI) 的死亡與失能不只來自原發損傷，也來自繼發性腦傷害；**raised ICP** 居核心
+- **挑戰傳統固定閾值**：以 ICP >22 mmHg 作統一階梯式治療啟動點已受質疑——病人對 ICP 升高的耐受度因人、因病因、因生理情境而異
+- 整理 ICP 生理決定因子：intracranial compliance、cerebrospinal fluid (CSF) dynamics、cerebral blood volume、全身因素
+- 新概念：**ICP burden**、波形型態 (waveform morphology)、cerebral autoregulation、功能性腦監測
+- 非侵襲性 ICP (non-invasive ICP, nICP) 在無法/禁忌放置侵襲性監測時的互補價值；整合入 multimodal neuromonitoring（灌流、氧合、代謝）
+- 未來：人工智慧 (artificial intelligence, AI) 分析複雜神經監測資料、預測繼發損傷
+
+> **臨床啟示**：ICP 管理正從「單一閾值、統一階梯」轉向「生理導向、個人化」；臨床判讀應結合 ICP 波形、自我調節狀態與 multimodal 監測，而非僅看單一數值。
+
+---
+
+## 4. AKI / Renal
+
+### 4.1 Ilofotase alfa 預防開心手術後急性腎損傷 — phase 2 RCT（NEGATIVE）
+
+**（Intensive Care Med 2026；multicenter, double-blind, placebo-controlled phase 2 RCT）**
+
+- **藥理**：ilofotase alfa 為重組人類 alkaline phosphatase，具免疫調節、減輕腎損傷之潛力
+- **設計**：多中心、雙盲、安慰劑對照、兩臂平行 phase 2 RCT
+- **族群**：術前 eGFR 25-65 mL/min/1.73m²、接受複雜 on-pump 心臟手術之高風險成人
+- **介入**：圍手術期兩劑 IV ilofotase alfa（128 mg）vs placebo
+- **N**：244 隨機、204 接受兩劑納入分析（109 ilofotase / 95 placebo）
+- **主要終點**：術後 5 天內最高 sCr 相對術前之比值 (sCrRatio)
+- **結果**：
+  - sCrRatio **1.21±0.42 vs 1.27±0.50（p=0.31）** — 無差異
+  - **MAKE60 15.9% vs 15.4%（p=0.87）** — 無差異
+  - 無安全疑慮
+- **判讀**：延續 alkaline phosphatase 在 sepsis-AKI（STOP-AKI、REVIVAL）之混合訊號，此心臟手術族群為 negative
+
+> **臨床啟示**：目前**沒有藥物能常規預防心臟手術後 AKI**；仍以 Kidney Disease: Improving Global Outcomes (KDIGO) bundle（血流動力學與體液最佳化、避免腎毒物、監測）為核心。不應將 ilofotase alfa 用於此適應症。
+
+---
+
+## 5. 心臟驟停與復甦 (Resuscitation)
+
+### 5.1 非心因性 OHCA：旁觀者口對口人工呼吸 vs 僅壓胸
+
+**Iida Y, Obara T, Nojima T, et al. Resuscitation 2026.**
+
+- **設計**：全日本 Utstein Registry、2012-2023、retrospective nationwide cohort
+- **族群**：**非心因性 (non-cardiac)** OHCA、已接受旁觀者 CPR 且有壓胸與人工呼吸資訊者（排除心因性、創傷、未施救者）
+- **N**：154,137（RB-CPR 20,124 [13.1%]；CO-CPR 134,013 [86.9%]）
+- **結果**：
+  - 30 天死亡 **adjusted RR 0.98（95% CI 0.98-0.99）**
+  - 30 天不良神經預後 adjusted RR 0.99（95% CI 0.99-0.99）
+  - 益處最明顯於**兒童、溺水 (drowning)、窒息 (asphyxia)** 相關驟停；成人/高齡無明顯差異
+- **判讀**：對呼吸性（缺氧性）病因的心臟驟停，通氣仍重要
+
+> **臨床啟示**：對一般（多為心因性）OHCA，CO-CPR 仍是旁觀者首選；但在**兒童、溺水、窒息**等非心因性情境，加入人工呼吸可能帶來額外益處——教學時應依情境區分。
+
+---
+
+### 5.2 Post-ROSC 心電圖：無 ST 上升的冠脈阻塞 (NST-OMI) 型態與預後
+
+**（Resuscitation 2026；單中心 retrospective，2020-2025）**
+
+- **族群**：return of spontaneous circulation (ROSC) 後入 ICU 之心臟驟停存活者，評估首張 post-ROSC ECG；以 CAG 為 OMI 參考標準
+- **N**：214（101 人 CAG 確診 OMI）
+- **結果**：
+  - NST-OMI 型態以 **left-main equivalent** 與 **Smith-modified Sgarbossa**（各 8%）最常見，其次 Aslanger（5%）、lateral OMI／shark-fin／hyperacute T-wave（各 4%）
+  - NST-OMI 在 OMI 中佔比高（48%），卻**較少接受 CAG（78% vs 98%，p=0.002）**
+  - **未做 CAG 的 NST-OMI 30 天死亡達 75%（p=0.005）**
+  - 非存活者 PR-segment 較長（74 vs 57 ms）、QRS 較寬（130 vs 108 ms）；**PR-segment 延長獨立預測 30 天死亡下降（aOR 0.977，p=0.032）**
+- **判讀**：OMI 常以非 STEMI 型態出現於 post-ROSC ECG，易被漏做 CAG
+
+> **臨床啟示**：post-ROSC ECG 判讀不應只看 ST 上升；熟悉 NST-OMI 型態（left-main equivalent、Smith-modified Sgarbossa、Aslanger）有助於不漏掉需要緊急冠脈介入的病人。
+
+---
+
+### 5.3 EMS 機構層級在「不啟動復甦」與「終止復甦」決策的巨大差異
+
+**（Resuscitation 2026；ESO Data Collaborative 2018-2024）**
+
+- **族群**：非創傷性 OHCA；終止復甦 (termination of resuscitation, TOR) 分析限符合 Universal TOR rule 者
+- **N**：560,240；不啟動復甦 76,859（13.7%）；符合 TOR rule 者 309,048 中 175,826（56.9%）執行 TOR
+- **結果（校正病人層級因素後）**：
+  - 不啟動復甦 median odds ratio (MOR) **2.30**
+  - TOR MOR **4.13**（兩家隨機 EMS 機構對相似病人做出不同 TOR 決策的中位勝算差距可達 4 倍）
+- **判讀**：決策差異無法由病人特徵解釋，反映系統/文化差異
+
+> **臨床啟示**：院前「救或不救／何時停」存在巨大且非病人因素造成的機構間差異；需標準化流程與教育以提升一致性、公平性與品質。
+
+---
+
+## 6. 肺栓塞 (Pulmonary Embolism)
+
+### 6.1 適應性 D-dimer 閾值排除 PE 的安全性 — 系統性回顧與統合分析
+
+**（Chest 2026；systematic review & meta-analysis）**
+
+- **問題**：age-adjusted／clinical probability-adjusted D-dimer（相對固定 500 ng/mL）能否安全提升效率？特別是落在「adaptive window」（>500 但低於調整後閾值）者
+- **納入**：6 個前瞻診斷管理研究、12,194 人；PE 盛行率 7.0-19.2%
+- **結果**：
+  - 以適應性策略排除 PE（未做 CTPA）者，整體 3 個月診斷失誤率 **0.12%（95% CI 0.06-0.26%；I²=0%）**
+  - adaptive window 內失誤率 **0.50%（95% CI 0.20-1.11%）**
+  - 演算法效率（免 CTPA 比例）**60.8%**
+- **判讀**：失誤率低於公認的安全閾值
+
+> **臨床啟示**：對疑似 PE 病人，採用年齡或臨床機率調整之 D-dimer 閾值安全可行，可顯著減少不必要的 CTPA、降低輻射與顯影劑暴露。
+
+---
+
+### 6.2 2026 AHA/ACC vs 2019 ESC 肺栓塞風險分類之預後鑑別力
+
+**（Chest 2026；retrospective two-campus cohort，2013-2025）**
+
+- **背景**：2026 American Heart Association/American College of Cardiology (AHA/ACC) 分類涵蓋 subclinical PE 到 cardiopulmonary failure 全光譜；2019 European Society of Cardiology (ESC) 以 hemodynamic instability 定義高風險
+- **N**：2,251（住院急性 PE）；30 天全因死亡 127（5.6%）、PE 相關死亡 80（3.6%）
+- **結果**：
+  - 30 天死亡 area under the curve (AUC)：**AHA/ACC 0.885 vs ESC 0.763（差 0.122，p<0.001）**
+  - PE 相關死亡 AUC：0.942 vs 0.826
+  - AHA/ACC D-E 類別對 PE 相關死亡 sensitivity 83.8% vs ESC 高風險 58.8%（specificity 皆 ~95%）
+  - 在 AHA/ACC D-E 但 ESC 中風險的 37 人中，**75.7% 於 30 天死亡**
+  - 去除 AHA/ACC 極端類別（A、E）後差距縮小（AUC 差 0.112）→ 差異具「光譜依賴性」
+- **判讀**：retrospective、單一中國醫學中心；AHA/ACC 的全光譜分層能抓出 ESC 低估的高風險族群
+
+> **臨床啟示**：2026 AHA/ACC 的全光譜嚴重度分類，能辨識出被 ESC 歸為中風險、實際早期死亡率很高的病人；臨床分流時值得參考其更細緻的分層。
+
+---
+
+## 7. 其他值得關注 (Honorable Mentions)
+
+### 7.1 重症藥師人力與院內死亡 — 多中心 observational
+
+**（Chest 2026；64 中心，美國／約旦／沙烏地阿拉伯）**
+
+- N=28,795；藥師對病人比中位數 1:17
+- 每增 1 位病人 → 院內死亡勝算升 1%（OR 1.01，p=0.04）
+- **任一天缺乏藥師 comprehensive medication management (CMM) → 死亡勝算高 20%（OR 1.20，95% CI 1.03-1.40，p=0.02）**
+- 比值 1:15.1-46 相較 1:7-15，死亡勝算高 10%
+- **臨床意義**：重症藥師每日完整藥物管理是病人安全的一環；人力配置應視為品質指標
+
+### 7.2 無復原、無移植、無裝置可能時，是否該停止 ECMO？（倫理 Review）
+
+**（Chest 2026；ethics review）**
+
+- extracorporeal membrane oxygenation (ECMO) 作為 bridge to recovery/transplant/device 已被接受；但若病人已無上述出路，是否可**單方面撤除 (unilateral withdrawal)**（即使家屬反對）引發爭議
+- 回顧並批判四項支持單方撤除的倫理論據（ECMO 的原始設計目的、醫療不適當性、withholding=withdrawing 的等價論、資源與分配正義），提出反論與衝突解決的實務步驟與法律議題
+- **臨床意義**：「ECMO to nowhere」是結構性心臟/呼吸重症日益常見的困境；需事前溝通 goals of care 與院內倫理/衝突解決機制
+
+### 7.3 非 HIV 的 Pneumocystis jirovecii 肺炎 (PJP)：以 LDH + 淋巴球數分表型預測死亡
+
+**（Chest 2026；西班牙多中心，2019-2024）**
+
+- N=78，院內死亡 50.0%
+- 以入院 lactate dehydrogenase (LDH) ≥400 U/L 與淋巴球 <700/µL 分四表型（F1-F4）
+- 30 天累積死亡隨表型上升：F1 12.5% → F4 64.0%（Gray's test p=0.008）
+- **F4（細胞溶解+免疫低下匯聚型）獨立預測死亡（subdistribution HR 6.15）**；模型 optimism-corrected AUC 0.88
+- **臨床意義**：兩個普遍可得的入院指標即可床邊風險分層，辨識非 HIV PJP 高死亡族群
+
+### 7.4 數十年重症醫學 RCT 回顧：改變了什麼、修正了什麼、還有什麼未解（Review）
+
+**Martin-Loeches I, Leone M, Coopersmith CM, et al. Intensive Care Med 2026.**
+
+- 回顧 1990 年代以來成人重症 landmark 多中心 RCT（血流動力學、通氣、renal replacement therapy [RRT]、抗生素、營養、血糖、輸血、鎮靜）
+- 核心訊息：許多「生理上合理」的介入未改善病人終點；真正持久的進步常來自**支持性照護最佳化、避免醫源性傷害、重新檢視既有做法**
+- 近年試驗挑戰「介入越強越好」的假設，強調時機、疾病階段、baseline risk、異質性、病人選擇與治療相關傷害
+- **臨床意義**：「可以減少、延後、避免或選擇性使用什麼」與「什麼有效」同等重要——SESAR、ilofotase 等本期 negative 試驗正是此主題的延續
+
+### 7.5 治療性血漿置換 (TPE) 期間抗感染藥物的劑量（Review）
+
+**（Critical Care 2026；narrative review）**
+
+- therapeutic plasma exchange (TPE) 可移除治療所需藥物；**低 volume of distribution (Vd)、高蛋白結合**之藥物（如 aminoglycosides、glycopeptides）受影響最大
+- 目前敗血症族群 TPE 對抗感染藥物藥動學的直接證據仍有限；無法支持特定給藥時機/劑量規則，應個別化
+- 兩項多中心試驗正探討 TPE 於早期敗血性休克的角色
+- **臨床意義**：對接受 TPE 的重症病人，抗生素劑量應依藥物藥動學特性（Vd、蛋白結合）、TPE 模式與臨床情境個別調整，必要時監測血中濃度
+
+### 7.6 Venovenous ECMO 的細胞激素縱向圖譜與免疫表型
+
+**Hagiwara J, Liu Q, DellaVolpe JD, et al. Shock 2026.**
+
+- 前瞻納入 35 位因難治性呼吸衰竭接受 venovenous (VV) ECMO 之成人；ECMO 前與 Day 1-4/7 及每週量測 48 種 cytokine/chemokine
+- ECMO 前高 TNF-β、RANTES 與較低存活相關；多項 cytokine 與延長呼吸器依賴相關；cluster 分析顯示不同免疫表型
+- **臨床意義**：ECMO 前細胞激素圖譜或有助預後分層與個人化管理，但樣本小、需大型多中心驗證
+
+---
+
+## 常用縮寫整理
+
+### 一般 / 統計
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| RCT | Randomized Controlled Trial | 隨機對照試驗 |
+| RR | Risk Ratio | 風險比（相對危險） |
+| OR / aOR | (Adjusted) Odds Ratio | （校正）勝算比 |
+| HR / aHR | (Adjusted) Hazard Ratio | （校正）風險比 |
+| CI | Confidence Interval | 信賴區間 |
+| AUC | Area Under the Curve | 曲線下面積 |
+| LR+ | Positive Likelihood Ratio | 陽性概似比 |
+| MOR | Median Odds Ratio | 中位勝算比（群集變異） |
+| I² | Heterogeneity statistic | 異質性指標 |
+| n / N | sample size | 樣本數 |
+| p | p-value | p 值 |
+| IQR | Interquartile Range | 四分位距 |
+
+### 加護單位 / 照護
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ICU | Intensive Care Unit | 加護病房 |
+| EMS | Emergency Medical Service | 緊急醫療服務 |
+| CMM | Comprehensive Medication Management | 完整藥物管理（藥師） |
+| CAG | Coronary Angiography | 冠狀動脈攝影 |
+
+### 期刊
+
+| 縮寫 | 全名 |
+|------|------|
+| ICM | Intensive Care Medicine |
+| CCM | Critical Care Medicine |
+| AJRCCM | American Journal of Respiratory and Critical Care Medicine |
+| Lancet Respir Med | The Lancet Respiratory Medicine |
+
+### Sepsis / Hemodynamics
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| NEE | Norepinephrine Equivalent (dose) | 正腎上腺素等效劑量 |
+| CRT | Capillary Refill Time | 微血管再充填時間 |
+| NLRP3 | NLR Family Pyrin Domain Containing 3 | NLRP3 發炎體 |
+| IL | Interleukin | 介白素 |
+
+### 呼吸 / 氧療
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ARDS | Acute Respiratory Distress Syndrome | 急性呼吸窘迫症候群 |
+| V_T | Tidal Volume | 潮氣容積 |
+| PBW | Predicted Body Weight | 預測體重 |
+| ΔP | Driving Pressure | 驅動壓 |
+| E | (Respiratory system) Elastance | 呼吸系統彈性 |
+| PEEP | Positive End-Expiratory Pressure | 吐氣末正壓 |
+| PTP | Pressure-Time Product | 壓力–時間乘積 |
+| E_di | Electrical Activity of the Diaphragm | 橫膈電活性 |
+| VFD | Ventilator-Free Days | 無呼吸器天數 |
+| P-SILI | Patient Self-Inflicted Lung Injury | 病人自發性肺損傷 |
+| sRAGE | Soluble Receptor for Advanced Glycation End-products | 可溶性 RAGE（肺泡上皮損傷標記） |
+| PaCO₂ / PaO₂ / FiO₂ | Arterial CO₂ / O₂ partial pressure / Fraction of inspired O₂ | 動脈 CO₂、O₂ 分壓／吸入氧濃度 |
+
+### 腎臟
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| AKI | Acute Kidney Injury | 急性腎損傷 |
+| eGFR | estimated Glomerular Filtration Rate | 估算腎絲球過濾率 |
+| sCr | serum Creatinine | 血清肌酸酐 |
+| MAKE60 | Major Adverse Kidney Events up to day 60 | 60 天重大腎臟不良事件 |
+| KDIGO | Kidney Disease: Improving Global Outcomes | 腎臟病改善全球預後 |
+| RRT | Renal Replacement Therapy | 腎臟替代療法 |
+| TPE | Therapeutic Plasma Exchange | 治療性血漿置換 |
+
+### 神經 / 心臟驟停
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ABI | Acute Brain Injury | 急性腦損傷 |
+| ICP / nICP | (non-invasive) Intracranial Pressure | （非侵襲性）顱內壓 |
+| CSF | Cerebrospinal Fluid | 腦脊髓液 |
+| OHCA | Out-of-Hospital Cardiac Arrest | 院外心臟驟停 |
+| ROSC | Return of Spontaneous Circulation | 自發循環恢復 |
+| CPR | Cardiopulmonary Resuscitation | 心肺復甦術 |
+| RB-CPR / CO-CPR | Rescue-Breathing / Compression-Only CPR | 含人工呼吸／僅壓胸 CPR |
+| TOR | Termination of Resuscitation | 終止復甦 |
+| OMI / NST-OMI | (Non-ST-Elevation) Occlusive Myocardial Infarction | （無 ST 上升之）阻塞性心肌梗塞 |
+
+### 其他
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| PE | Pulmonary Embolism | 肺栓塞 |
+| CTPA | Computed Tomography Pulmonary Angiography | 電腦斷層肺動脈攝影 |
+| AHA/ACC | American Heart Association / American College of Cardiology | 美國心臟協會／美國心臟學院 |
+| ESC | European Society of Cardiology | 歐洲心臟學會 |
+| ECMO / VV ECMO | (Venovenous) Extracorporeal Membrane Oxygenation | （靜脈–靜脈）體外膜氧合 |
+| PJP | Pneumocystis jirovecii Pneumonia | 肺囊蟲肺炎 |
+| LDH | Lactate Dehydrogenase | 乳酸脫氫酶 |
+| IV | Intravenous | 靜脈注射 |
+
+---
+
+## 參考文獻
+
+### Sepsis & 血流動力學
+
+1. Kattan E, Ospina-Tascón GA, Orozco N, et al. Persistent tissue hypoperfusion improves risk stratification beyond vasopressor dose in refractory septic shock: a secondary analysis of the ANDROMEDA-SHOCK-2 trial. [*Intensive Care Med*. 2026;52(10):2058-2070.](https://doi.org/10.1007/s00134-026-08551-x) PMID: 42467247.
+2. The NLRP3 inflammasome in physiological and dysfunctional host response in human sepsis and critical illness: a narrative review. [*Crit Care*. 2026;30(1).](https://doi.org/10.1186/s13054-026-06315-z) PMID: 42778957.
+
+### Mechanical Ventilation & 呼吸支持
+
+3. Volatile anesthetic sedation in acute respiratory distress syndrome. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08613-0) PMID: 42803955.
+4. Grieco DL, Stronati A, Robba C, et al. Respiratory mechanics modifies the impact of ventilator settings on clinical outcome in patients with acute brain injury. [*Intensive Care Med*. 2026;52(10):2071-2084.](https://doi.org/10.1007/s00134-026-08562-8) PMID: 42618770.
+5. Epithelial injury and inflammatory phenotypes for personalized ventilation in ARDS: secondary analysis of the LIVE trial. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.08.054) PMID: 42777910.
+6. Effect of ondansetron on respiratory drive in patients with acute respiratory distress syndrome. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.09.086) PMID: 42810428.
+7. Cough function during mechanical ventilation. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.09.023) PMID: 42790625.
+
+### 神經重症
+
+8. Taccone FS, Arabi Y, Baggiani M, et al. Intracranial pressure physiology, monitoring and individualized management in the acute brain injured patient. [*Intensive Care Med*. 2026;52(10):2108-2128.](https://doi.org/10.1007/s00134-026-08558-4) PMID: 42525086.
+
+### AKI / Renal
+
+9. A multicenter randomized, double-blinded placebo-controlled phase 2 trial to evaluate safety and efficacy of ilofotase alfa in patients at risk for kidney injury following open heart surgery. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08596-y) PMID: 42766022.
+
+### 心臟驟停與復甦
+
+10. Iida Y, Obara T, Nojima T, et al. Rescue-breathing versus chest compression-only bystander cardiopulmonary resuscitation in non-cardiac out-of-hospital cardiac arrest: a nationwide retrospective cohort study. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111332) PMID: 42790858.
+11. The post-ROSC ECG: morphological spectrum of non-ST-elevation occlusion and prognostic markers after cardiac arrest. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111334) PMID: 42790861.
+12. Emergency medical services agency-level variation in non-initiation of resuscitation and termination of resuscitation in out-of-hospital cardiac arrest. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111333) PMID: 42790860.
+
+### 肺栓塞
+
+13. Safety of age-adjusted and clinical probability-adjusted D-dimer cut-offs in suspected pulmonary embolism: a systematic review and meta-analysis. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.09.030) PMID: 42790624.
+14. Comparative short-term prognostic discrimination of the 2026 AHA/ACC and 2019 ESC risk classifications in hospitalized acute pulmonary embolism: a retrospective two-campus cohort study. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.09.028) PMID: 42810427.
+
+### 其他
+
+15. Optimization of pharmacist medication management and mortality in the intensive care unit. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.09.027) PMID: 42810430.
+16. Continuing ECMO without potential recovery, transplant, or device. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.09.022) PMID: 42785423.
+17. Biological phenotypes of alveolar injury and immune failure predict mortality in non-HIV Pneumocystis jirovecii pneumonia: a Spanish multicentre cohort study. [*Chest*. 2026.](https://doi.org/10.1016/j.chest.2026.09.011) PMID: 42805328.
+18. Martin-Loeches I, Leone M, Coopersmith CM, et al. Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve. [*Intensive Care Med*. 2026;52(10):2178-2193.](https://doi.org/10.1007/s00134-026-08579-z) PMID: 42593537.
+19. Dosing of anti-infective drugs in patients undergoing therapeutic plasma exchange — considerations for practical application: a narrative review. [*Crit Care*. 2026.](https://doi.org/10.1186/s13054-026-06306-0) PMID: 42786518.
+20. Hagiwara J, Liu Q, DellaVolpe JD, et al. Comprehensive longitudinal cytokine profiling and their associations with distinct immunologic phenotypes and outcomes: a prospective clinical study in venovenous ECMO. [*Shock*. 2026.](https://doi.org/10.1097/SHK.0000000000002943) PMID: 42752598.
+
+### 引用之關鍵對照試驗（supporting trial）
+
+21. Jabaudon M, et al. Inhaled sedation in acute respiratory distress syndrome: the SESAR randomized clinical trial. [*JAMA*. 2025;333(17):1488-1499.](https://doi.org/10.1001/jama.2025.3169) PMID: 40111326.
+
+---
+
+**註**：本回顧涵蓋 2026-09-17 ～ 2026-10-01，並已排除上一期（2026-09-15）已收錄之文章。本期間 Critical Care Medicine 多為 errata／letters、Lancet Respiratory Medicine 以結核與 Global Burden of Disease 等非重症核心主題為主，故重點取自 ICM（2026 年 10 月號）、Critical Care、Chest、Resuscitation 與 Shock。文獻來源：PubMed。
