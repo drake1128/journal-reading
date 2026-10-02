@@ -1,6 +1,6 @@
 ---
 name: biweekly-hypertension-journal-review
-description: Generate the dedicated Biweekly Hypertension Journal Review handout (markdown), Marp slide deck, and PDF for the past 14 days across the major general-medicine journals (NEJM, Lancet, BMJ, JAMA family) plus the hypertension-specialty journals (Hypertension, J Hypertens, Hypertension Research, Am J Hypertens, J Clin Hypertens) and the cardiology majors that carry large HTN trials (Circulation, EHJ, JACC, JAMA Cardiology). Use when Drake (謝慕揚醫師) says "高血壓期刊回顧", "高血壓雙週期刊", "hypertension journal review", "HTN journal review", "每雙週高血壓期刊", or "高血壓期刊文獻回顧". Two modes: Mode A (default) = full handout + Marp + PDF to handouts/09-hypertension/biweekly-review/; Mode B (checklist, MONTHLY, no pulmonary hypertension) = tick-box article list over the 7 journals NEJM/Lancet/JAMA/BMJ/Circulation/EHJ/JACC saved to handouts/09-hypertension/monthly-checklist/ plus a THS member-ready HTML file attached to a Gmail DRAFT (never send) addressed to 吳志成 副院長 chihchengwumd@gmail.com — triggered by "高血壓文章清單", "勾選清單", "寄給吳副院長". Tailored for a Taiwan physician audience (residents, NPs, cardiology/nephrology/IM). CRITICAL: every "其他焦點/Other highlights" table in Marp slides MUST include a 連結 column with clickable DOI hyperlinks.
+description: Generate the dedicated Biweekly Hypertension Journal Review handout (markdown), Marp slide deck, and PDF for the past 14 days across the major general-medicine journals (NEJM, Lancet, BMJ, JAMA family) plus the hypertension-specialty journals (Hypertension, J Hypertens, Hypertension Research, Am J Hypertens, J Clin Hypertens) and the cardiology majors that carry large HTN trials (Circulation, EHJ, JACC, JAMA Cardiology). Use when Drake (謝慕揚醫師) says "高血壓期刊回顧", "高血壓雙週期刊", "hypertension journal review", "HTN journal review", "每雙週高血壓期刊", or "高血壓期刊文獻回顧". Two modes: Mode A (default) = full handout + Marp + PDF to handouts/09-hypertension/biweekly-review/; Mode B (THS member bulletin 高血壓文獻速報, MONTHLY, no pulmonary hypertension, NO tick boxes) = article list over the 7 journals NEJM/Lancet/JAMA/BMJ/Circulation/EHJ/JACC saved to handouts/09-hypertension/monthly-checklist/ plus a Gmail DRAFT (never send) whose body is the Taiwan Hypertension Society Education Committee bulletin with the same HTML attached, addressed to 吳志成 副院長 chihchengwumd@gmail.com — triggered by "高血壓文章清單", "勾選清單", "寄給吳副院長". Tailored for a Taiwan physician audience (residents, NPs, cardiology/nephrology/IM). CRITICAL: every "其他焦點/Other highlights" table in Marp slides MUST include a 連結 column with clickable DOI hyperlinks.
 ---
 
 # Biweekly Hypertension Journal Review Skill
@@ -35,7 +35,7 @@ Produce a comprehensive **biweekly** review covering the **past 14 days** of hyp
 | Mode | 觸發語 | 產出 | 對象 |
 |------|--------|------|------|
 | **A. 完整講義（預設）** | 「高血壓期刊回顧」「hypertension journal review」等 | 教學講義 `.md` + Marp `_Marp.md` + PDF | 院內教學（住院醫師／NP） |
-| **B. 勾選清單 (Checklist，每月一期)** | 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」 | 勾選用 `.md` + 學會版 HTML 成品 + **Gmail HTML 草稿（HTML 附在草稿裡）** | **吳志成 副院長** (chihchengwumd@gmail.com) |
+| **B. THS 高血壓文獻速報（每月一期，舊稱勾選清單）** | 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」「高血壓文獻速報」 | 紀錄用 `.md` + HTML 成品 + **Gmail HTML 草稿（內文即速報，HTML 另附）** | **吳志成 副院長** (chihchengwumd@gmail.com) → 學會會員 |
 
 兩種模式的檢索邏輯共用，差別只在**收錄範圍、輸出格式與收件人**。以下 §Mode B 專章規範 Mode B；其餘章節（§Journals 起）為 Mode A 規範。
 
@@ -43,7 +43,7 @@ Produce a comprehensive **biweekly** review covering the **past 14 days** of hyp
 
 ## Mode B — 勾選清單專章
 
-> 2026-10 改版（吳志成副院長回饋）：**每月一期**、**不再納入肺高壓**、每期另產**學會版 HTML 成品**並附在草稿裡。
+> 2026-10 改版（吳志成副院長回饋）：**每月一期**、**不納入肺高壓**、**不再勾選**。產出就是台灣高血壓學會（THS）教育委員會寄給會員的「高血壓文獻速報」，表頭表尾照 2026-09-03 定案、09-08 秘書處寄給會員的版本。Mode B 的舊名「勾選清單」只保留作觸發語。
 
 ### B1. 期刊範圍（**只有 7 本**，不要擴充）
 
@@ -73,51 +73,55 @@ Q3 用 `datetype: "edat"`，專門補抓「該月入庫、但線上刊期掛前�
 
 **與前期去重**：先讀 `handouts/09-hypertension/monthly-checklist/` 最新一份清單（master 上沒有時，也看 `origin/*checklist*` 分支），已列過的 PMID 不再收錄，並在說明段落列出。
 
-### B4. 清單分區（固定 5 區，空的區塊直接省略）
+### B4. 分區（固定 5 區，順序照會員版；空的區塊直接省略）
 
 - **A. 系統性高血壓 — 原始研究與重要分析**（最重要，放最前）
 - **B. 綜述 · 指引 · 科學聲明**
-- **C. 社論 · 通訊 · 新聞短訊**（同主題的多則通訊合併成一條）
-- **D. 基礎／轉譯（高血壓機轉）**
-- **E. 血壓為次要／非主軸終點（相關但非主軸）**
+- **C. 基礎／轉譯 — 高血壓機轉**
+- **D. 社論 · 通訊 · 新聞短訊（快速掃描用）**（同主題的多則通訊合併成一條）
+- **E. 血壓為次要／非主軸終點（延伸閱讀）**
 
 🚫 **不收肺高壓**（PAH／PH／CTEPH）。檢索命中的肺高壓文章一律剔除，PMID 列在「檢索與篩選說明」。
 
-### B5. 條目格式（**每條都要能打勾**）
+### B5. 條目格式（**不要勾選框**，`- [ ]` 與 ☐ 都不用）
 
 ```markdown
-- [ ] **期刊** — 英文原標題
+- **期刊** — 英文原標題
   一到兩句繁中結論（有數字就寫數字：Δ mmHg、HR、95% CI、P）。
   [DOI: 10.xxxx/xxxx](https://doi.org/10.xxxx/xxxx) · PMID 12345678
 ```
 
 - 每條**必附 DOI 超連結 + PMID**，DOI 一律取自 PubMed 回傳值，**絕不自行拼湊**。
 - 摘要缺漏（`[Abstract not available]`）就照實寫「PubMed 未附摘要，需取原文」，不要編故事。
-- 值得優先讀的加 ⭐ 並說明理由。
+- 值得優先讀的加 ⭐。
 
-### B6. 結尾必附「檢索與篩選說明」
+### B6. 紀錄檔結尾必附「檢索與篩選說明」
 
 列出三個檢索式各自命中筆數、去重後總數、**未收錄的文章（含 PMID 與理由：肺高壓／已列於前期／主題無關）**，以及被延到下期的文章。副院長要能複核你篩掉了什麼。
 
-### B7. 輸出（每期 3 件：清單 `.md`、學會版 HTML 成品、Gmail 草稿）
+### B7. 輸出（每期 3 件：紀錄用 `.md`、HTML 成品、Gmail 草稿）
 
-只有清單 `.md` 要 commit。
+只有 `.md` 要 commit。
 
-1. **清單檔**：`handouts/09-hypertension/monthly-checklist/Hypertension_Checklist_YYYY-MM 勾選清單.md`
-2. **學會版 HTML 成品**：`THS_Hypertension_Literature_YYYY-MM.html`
-   - 給台灣高血壓學會（THS）教育委員會直接轉寄會員／放網站用，內容與清單相同（A–E 區）。
-   - **只附在 Gmail 草稿裡，不放進 repo、不 commit**（repo 是公開的，學會尚未審過的當期成品不要先公開）。雲端寫在 `/tmp/`；本機寫在 `~/Downloads/`。
-   - 版型照 `.claude/assets/ths-literature-bulletin-template.html`：頁首與頁尾都寫「台灣高血壓學會（THS）　教育委員會」，頁尾加「本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC」；稱謂「各位會員 您好」；**沒有 ☐ 勾選框**；藍色 `#0072bc` 分區列、紅色 `#ba181b` 期刊名。
-   - 完整獨立 HTML 檔（`<meta charset="utf-8">`），樣式全部 inline（要能直接貼進郵件系統）。
-3. **Gmail 草稿：一律只建草稿，絕不直接寄出。**
-   - `create_draft`，`to: ["chihchengwumd@gmail.com"]`，**不 CC 任何人**，建立後回報草稿連結給 Drake 自行確認送出。
-   - 主旨：`[高血壓文獻清單] YYYY 年 M 月 — 四大期刊 + Circulation / EHJ / JACC`
-   - 內文維持原本的勾選版風格：深藍頁首／頁尾、珊瑚紅 `#c4304a` 分區列、每篇前面 ☐、標題為 DOI 超連結；全部 inline style，深底白字區塊用單格表格 + `bgcolor`。
-   - 信末署名 `謝慕揚 MD, PhD, FESC` + 「本清單僅供醫療專業人員教學參考」。
-   - **附件**：把學會版 HTML 成品以 base64 放進 `attachments`，檔名 `THS_Hypertension_Literature_YYYY-MM.html`。
+1. **紀錄檔**：`handouts/09-hypertension/monthly-checklist/Hypertension_Literature_YYYY-MM 文獻速報.md`（條目 + 檔尾「檢索與篩選說明」）。
+2. **HTML 成品**：`THS_Hypertension_Literature_YYYY-MM.html`，完整獨立 HTML 檔（`<meta charset="utf-8">`、樣式全部 inline），版型照 `.claude/assets/ths-literature-bulletin-template.html`。
+   - **只附在 Gmail 草稿裡，不放進 repo、不 commit**（repo 是公開的）。雲端寫在 `/tmp/`；本機寫在 `~/Downloads/`。
+3. **Gmail 草稿：一律只建草稿，絕不直接寄出。** 信件內文**本身就是給會員的速報**（秘書處會直接轉寄內文），內容與 HTML 成品相同。
+   - `create_draft`，`to: ["chihchengwumd@gmail.com"]`，**不 CC 任何人**；新信，不要回覆在舊討論串裡（回覆會帶引文，秘書處不好轉寄）。
+   - 主旨：`[THS 教育委員會] 高血壓文獻速報 YYYY 年 M 月 — NEJM / Lancet / JAMA / BMJ / Circulation / EHJ / JACC`
+   - 內文不要寫給吳副院長的私人說明；要說明就另外回報給 Drake。
+   - **附件**：HTML 成品以 base64 放進 `attachments`，檔名 `THS_Hypertension_Literature_YYYY-MM.html`。
      - ⚠️ `mimeType` 必須用 **`application/octet-stream`**。用 `text/html` 時 Gmail 連接器會把內容轉成 Latin-1，中文全部變成 `?`。
-     - ⚠️ 內文與附件要在**同一次 `create_draft`** 完成。事後用 `update_draft` 補附件會讓回覆草稿脫離原討論串。
-     - 建立後用 `get_draft`（RAW）確認附件位元組與本機檔案一致。附件失敗時草稿內文仍要完成，並回報 HTML 檔路徑請 Drake 手動附加。
+     - ⚠️ 內文與附件要在**同一次 `create_draft`** 完成；事後用 `update_draft` 補附件會弄丟討論串。
+     - 建立後用 `get_draft`（RAW）確認附件位元組與本機檔案一致。附件失敗時草稿內文仍要完成，並回報請 Drake 手動附加。
+
+**定案版型（表頭、表尾不可自行改動）**
+
+- 表頭（深藍 `#1a2740`）三行：`台灣高血壓學會（THS）　教育委員會`／`高血壓文獻速報　YYYY 年 M 月`／七本期刊名。
+- 開頭：`各位會員 您好：`＋「本刊由台灣高血壓學會教育委員會編製。本期為 … 七大期刊高血壓相關文獻整理，共 N 條目…」。
+- `⭐ 本期建議優先閱讀` 三則 → A–E 分區（藍色 `#0072bc` 分區列、紅色 `#ba181b` 期刊名、標題為 DOI 超連結）→ `檢索說明`。
+- 表尾（深藍）四行：`台灣高血壓學會（THS）　教育委員會`／`Taiwan Hypertension Society — Education Committee`／`本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC`／`本清單由本會教育委員會編製，僅供醫療專業人員教學參考`。
+- 深底白字區塊用單格表格 + `bgcolor`（Gmail 會剝掉 div 背景）。
 - Mode B **不產 Marp、不產 PDF**（除非 Drake 另外要求）。
 
 ---

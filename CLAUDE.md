@@ -747,20 +747,24 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
 
 **Output（3 件套）**: 教學講義 `.md` + Marp `_Marp.md` + PDF `.pdf`（如額外要求則加 Gmail HTML 草稿）。詳見 `.claude/skills/biweekly-hypertension-journal-review/SKILL.md`。
 
-#### Mode B：高血壓文章勾選清單（寄吳志成副院長）
+#### Mode B：THS 高血壓文獻速報（寄吳志成副院長，舊稱勾選清單）
 
-**Trigger**: 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」「整理〇月份的高血壓文章」
+**Trigger**: 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」「高血壓文獻速報」「整理〇月份的高血壓文章」
+
+**性質**: 台灣高血壓學會（THS）教育委員會每月寄給會員的「高血壓文獻速報」。草稿先給吳志成副院長看，他再轉秘書處寄會員。**不要勾選框**。
 
 **頻率**: **每月一期**（整月 1 日至月底）。雲端 routine `trig_012BqTLBWQh9Et9pjnyggm6E` 於**每月最後一天 20:00 台北**自動跑（cron `0 12 28-31 * *`，UTC；routine 自行判斷是否月底，非月底即結束）。手動觸發或指定月份時整理上一個完整月份／指定月份。
 
 **期刊（只有 7 本）**: NEJM、Lancet、JAMA、BMJ、Circulation、European Heart Journal、JACC。
 
-**檢索**: PubMed 三重檢索去重 —— Q1 TIAB+pdat、Q2 MeSH+pdat、Q3 Title+**edat**（補抓本月入庫但掛上月刊期者；下月號文章要剔除並註明延期）。已列於前期清單的 PMID 不重複收錄。
+**檢索**: PubMed 三重檢索去重 —— Q1 TIAB+pdat、Q2 MeSH+pdat、Q3 Title+**edat**（補抓本月入庫但掛上月刊期者；下月號文章要剔除並註明延期）。已列於前期的 PMID 不重複收錄。
 
-**分區（5 區）**: A 原始研究與重要分析／B 綜述·指引·科學聲明／C 社論·通訊·新聞短訊／D 基礎·轉譯／E 血壓為次要終點。**不收肺高壓（PAH／PH／CTEPH）**，命中者列入剔除清單。
+**分區（5 區，順序照會員版）**: A 原始研究與重要分析／B 綜述·指引·科學聲明／C 基礎·轉譯／D 社論·通訊·新聞短訊（快速掃描用）／E 血壓為次要終點（延伸閱讀）。**不收肺高壓（PAH／PH／CTEPH）**。
+
+**表頭表尾（2026-09-03 定案，不可自行改動）**: 表頭「台灣高血壓學會（THS）　教育委員會／高血壓文獻速報　YYYY 年 M 月」；表尾「台灣高血壓學會（THS）　教育委員會／Taiwan Hypertension Society — Education Committee／本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC／本清單由本會教育委員會編製，僅供醫療專業人員教學參考」；稱謂「各位會員 您好」。版型見 `.claude/assets/ths-literature-bulletin-template.html`。
 
 **輸出**:
-- `handouts/09-hypertension/monthly-checklist/Hypertension_Checklist_YYYY-MM 勾選清單.md`（每條 `- [ ]` 可打勾、每條必附 DOI 超連結 + PMID、結尾附「檢索與篩選說明」含剔除清單）
-- `THS_Hypertension_Literature_YYYY-MM.html` —— **學會版 HTML 成品**（THS 教育委員會頁首／頁尾、「各位會員」、無勾選框、inline style；版型見 `.claude/assets/ths-literature-bulletin-template.html`），供學會轉寄會員／放網站。**只附在 Gmail 草稿裡，不放進 repo**（repo 公開，未經學會審過的當期成品不先公開）。
-- **Gmail 草稿**（`to: chihchengwumd@gmail.com`）—— **只建草稿，絕不直接寄出**，不 CC 任何人，內文維持原本的勾選版風格，HTML 成品以附件掛上（`mimeType: application/octet-stream`，`text/html` 會讓中文變亂碼；內文與附件同一次 `create_draft` 完成）。建立後回報草稿連結給 Drake 自行送出。
+- `handouts/09-hypertension/monthly-checklist/Hypertension_Literature_YYYY-MM 文獻速報.md`（紀錄用，每條附 DOI 超連結 + PMID，結尾附「檢索與篩選說明」含未收錄清單）
+- `THS_Hypertension_Literature_YYYY-MM.html` —— HTML 成品，**只附在 Gmail 草稿裡，不放進 repo**（repo 公開）。
+- **Gmail 草稿**（新信，`to: chihchengwumd@gmail.com`，不 CC）—— **只建草稿，絕不直接寄出**。主旨 `[THS 教育委員會] 高血壓文獻速報 YYYY 年 M 月 — NEJM / Lancet / JAMA / BMJ / Circulation / EHJ / JACC`；**內文本身就是速報**（秘書處直接轉寄），HTML 成品以附件掛上（`mimeType: application/octet-stream`，`text/html` 會讓中文變亂碼；內文與附件同一次 `create_draft` 完成）。
 - Mode B **不產 Marp、不產 PDF**。
