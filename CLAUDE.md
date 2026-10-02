@@ -751,13 +751,16 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
 
 **Trigger**: 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」「整理〇月份的高血壓文章」
 
-**頻率**: 每 2 週（雲端 routine `trig_012BqTLBWQh9Et9pjnyggm6E` 於每月 2 日、16 日 03:00 台北自動跑（cron `0 19 1,15 * *`，UTC）），亦可手動指定月份。
+**頻率**: **每月一期**（整月 1 日至月底）。雲端 routine `trig_012BqTLBWQh9Et9pjnyggm6E` 於**每月最後一天 20:00 台北**自動跑（cron `0 12 28-31 * *`，UTC；routine 自行判斷是否月底，非月底即結束）。手動觸發或指定月份時整理上一個完整月份／指定月份。
 
 **期刊（只有 7 本）**: NEJM、Lancet、JAMA、BMJ、Circulation、European Heart Journal、JACC。
 
-**檢索**: PubMed 三重檢索去重 —— Q1 TIAB+pdat、Q2 MeSH+pdat、Q3 Title+**edat**（補抓本月入庫但掛上月刊期者；下月號文章要剔除並註明延期）。
+**檢索**: PubMed 三重檢索去重 —— Q1 TIAB+pdat、Q2 MeSH+pdat、Q3 Title+**edat**（補抓本月入庫但掛上月刊期者；下月號文章要剔除並註明延期）。已列於前期清單的 PMID 不重複收錄。
+
+**分區（5 區）**: A 原始研究與重要分析／B 綜述·指引·科學聲明／C 社論·通訊·新聞短訊／D 基礎·轉譯／E 血壓為次要終點。**不收肺高壓（PAH／PH／CTEPH）**，命中者列入剔除清單。
 
 **輸出**:
-- `handouts/09-hypertension/monthly-checklist/Hypertension_Checklist_YYYY-MM 勾選清單.md`（6 區分類、每條 `- [ ]` 可打勾、每條必附 DOI 超連結 + PMID、結尾附「檢索與篩選說明」含剔除清單）
-- **Gmail 草稿**（`to: chihchengwumd@gmail.com`）—— **只建草稿，絕不直接寄出**，不 CC 任何人，建立後回報草稿連結給 Drake 自行送出。
+- `handouts/09-hypertension/monthly-checklist/Hypertension_Checklist_YYYY-MM 勾選清單.md`（每條 `- [ ]` 可打勾、每條必附 DOI 超連結 + PMID、結尾附「檢索與篩選說明」含剔除清單）
+- `THS_Hypertension_Literature_YYYY-MM.html` —— **學會版 HTML 成品**（THS 教育委員會頁首／頁尾、「各位會員」、無勾選框、inline style；版型見 `.claude/assets/ths-literature-bulletin-template.html`），供學會轉寄會員／放網站。**只附在 Gmail 草稿裡，不放進 repo**（repo 公開，未經學會審過的當期成品不先公開）。
+- **Gmail 草稿**（`to: chihchengwumd@gmail.com`）—— **只建草稿，絕不直接寄出**，不 CC 任何人，內文維持原本的勾選版風格，HTML 成品以附件掛上（`mimeType: application/octet-stream`，`text/html` 會讓中文變亂碼；內文與附件同一次 `create_draft` 完成）。建立後回報草稿連結給 Drake 自行送出。
 - Mode B **不產 Marp、不產 PDF**。
