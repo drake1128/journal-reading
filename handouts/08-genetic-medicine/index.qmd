@@ -2,17 +2,41 @@
 title: "基因醫學 — Genetic Medicine"
 ---
 
-## ⭐ 基因體醫學入門系列（讀書會三個月課程）
+## 🧬 心血管精準醫學遺傳性疾病中心 — 教材庫
+
+「一科一疾病」旗艦計畫（遺傳性心肌病變精準醫療模式之建立）之教學與規劃資源總表。
+計畫書附錄 D 引用本頁；新增教材請同步更新本頁。
+
+### 規劃文件與互動教學網頁（心血管照護教學資源中心）
+
+- [**心血管精準醫學遺傳性疾病中心 — 規劃手稿整理**](https://drake1128.github.io/saq-questionnaire/gene-medicine-cv-center-plan.html) — 四個分頁：① 規劃手稿（六大支柱、四大配套、KPI、流程圖與三年甘特圖）② 轉介醫師說明（轉介閾值逐條附指引出處）③ 診間開單速查（WES／WGS／Level 3／Fabry／ATTR-CM 醫令與費用）④ 病人 SDM 說明與 FAQ。**計畫書的直接前身。**
+- [心肌病變基因檢測 — 病人、家屬與臨床同仁教學](Cardiomyopathy_Genetic_Testing.html) — 給誰看、為何檢測、流程、三種結果（P/LP、VUS、陰性）、家屬提醒。
+- [Fabry Disease 診斷查檢表](https://drake1128.github.io/saq-questionnaire/fabry-disease-checklist.html) — LVH 鑑別、red flags、篩檢流程、ERT。
+- [阻塞性肥厚型心肌病變 HOCM 教學](https://drake1128.github.io/saq-questionnaire/hocm-education-app.html) — 病生理、LVOTO 評估、mavacamten／aficamten。
+- [心肌病變超音波教學（DCM／HCM／RCM）](https://drake1128.github.io/saq-questionnaire/echo-cardiomyopathy.html)
+- [心內膜心肌切片 EMB 教學系統](https://drake1128.github.io/saq-questionnaire/emb-teaching-app.html) — ATTR-CM 確診流程（PYP → 切片）、病理送檢。
+
+### 基因體醫學入門系列（讀書會三個月課程）
 
 - [**教材收集中心 & 課程大綱**](genomic-medicine-intro-series/index.qmd) — YouTube、他院 NGS 說明、文獻、共用縮寫表
 - 第一課：[基因用字與縮寫（投影片 PDF）](Genomic_Intro_01_Terminology.pdf)
 - 第二課：[檢測方式與優勢（投影片 PDF）](Genomic_Intro_02_Testing_Methods.pdf)
 - 第三課：[臨床案例應用（投影片 PDF）](Genomic_Intro_03_Clinical_Cases.pdf)
 
-## 教學講義 Handouts
+### 基因檢測與遺傳諮詢
 
-- [基因精準醫學與心臟病 教學講義.md](基因精準醫學與心臟病 教學講義.md)
-- [基因醫學心臟病學 範例臨床情境分析解析 教學講義.md](基因醫學心臟病學 範例臨床情境分析解析 教學講義.md)
-- [VERVE-102 PCSK9 鹼基編輯治療高膽固醇血症 教學講義.md](VERVE-102 PCSK9 鹼基編輯治療高膽固醇血症 教學講義.md)
+- [基因精準醫學與心臟病 教學講義](基因精準醫學與心臟病 教學講義.md) — 2026-03-11；檢測方法比較、Brugada／LQTS／HCM／Fabry／ATTR、台灣健保給付現況（2022 EHRA/HRS/APHRS/LAHRS 共識）
+- [基因醫學心臟病學 範例臨床情境分析解析 教學講義](基因醫學心臟病學 範例臨床情境分析解析 教學講義.md) — 2026-03-11；10 個遺傳諮詢情境（VUS 溝通、cascade screening、molecular autopsy、生育諮詢）
+- [從外觀看見心臟病：基因症候群的表型與心臟關聯 教學講義](從外觀看見心臟病：基因症候群的表型與心臟關聯 教學講義.md) — 2026-04-19 ｜ [投影片 PDF](Phenotype_to_Cardiac_Disease_Genetic_Syndromes.pdf)
+- [常見基因變異的臨床應用：多基因風險分數（NEJM Review）教學講義](常見基因變異的臨床應用 多基因風險分數 (NEJM Review) 教學講義.md) — 2026-09-24 ｜ [投影片 PDF](Polygenic_Risk_Score_Clinical_Use_NEJM_Review.pdf)
+- [端粒長度異常疾病（Disorders of Telomere Length）教學講義](端粒長度異常疾病 (Disorders of Telomere Length) 教學講義.md) — 2026-07-23 ｜ [投影片 PDF](Disorders_of_Telomere_Length.pdf)
 
+### 肥厚性心肌病變 HCM 系列
 
+- [HCM 左心室流出道阻塞五十年史 教學講義](HCM 左心室流出道阻塞五十年史 教學講義.md) — 2026-07-21 ｜ [投影片 PDF](HCM_LVOT_Obstruction_History.pdf)
+- [SCOUT-HCM Mavacamten 青少年阻塞性 HCM 教學講義](SCOUT-HCM Mavacamten 青少年阻塞性 HCM 教學講義.md) — 2026-07-23 ｜ [投影片 PDF](SCOUT_HCM_Mavacamten_Adolescent.pdf)
+- [阻塞性肥厚型心肌病影像（NEJM ICM）教學講義](阻塞性肥厚型心肌病影像 (NEJM ICM) 教學講義.md) — 2026-08-08 ｜ [投影片 PDF](Obstructive_HCM_NEJM_ICM.pdf)
+
+### 基因治療與精準預防
+
+- [VERVE-102 PCSK9 鹼基編輯治療高膽固醇血症 教學講義](VERVE-102 PCSK9 鹼基編輯治療高膽固醇血症 教學講義.md) — 2026-05-29 ｜ [投影片 PDF](VERVE_102.pdf) ｜ [網頁版](nejm-verve-102-pcsk9-base-editing-2026/index.qmd)
