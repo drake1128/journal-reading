@@ -1,0 +1,393 @@
+# 每週心血管期刊文獻回顧
+
+## Weekly Cardiovascular Journal Review｜2026-10-10 ~ 2026-10-16
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-10-16**
+**涵蓋期刊**：NEJM｜Lancet｜European Heart Journal｜JACC 系列｜Circulation 系列｜EuroIntervention
+
+> 📌 **本期已與上一期（2026-10-09，涵蓋 10-03～10-09）及更早各期交叉去重**：上期收錄之 STORM-PE、PREVENT NIRS 子分析、CONDUCT-AF、SELUTION DeNovo HBR、LINK-HF2、GLAM-TAVI、Octapro MyPro 登錄、ASCoP、TRI-FR 血流動力學、PADN post-M-TEER、AFR 救援案例，以及各 case reports，一律不再納入。本期選文皆為 **10-09 後新刊出**之文獻。
+>
+> 🔍 **本週定位：「表型與場域的精準化週 — 把治療放對場域、放對表型、放對病人」**。本週無跨期刊超大型 RCT，火力落在**心衰竭照護模式**（JACC 刊出 **SUBCUT-HF II**：皮下 furosemide 微幫浦讓心衰病人提早出院）、**裝置治療的表型分流**（JACC Heart Fail 的 **RELIEVE-HF** 長期安全性子分析：心房分流在 HFrEF 安全、在 HFpEF 反而有害）、**影像與基因導向的風險分層**（JACC Imaging 的 **CAUGHT-CAD**：鈣化密度作為斑塊穩定化標記；EHJ 的 **DCM 基因型**：高致心律不整基因 MVA HR 3.25），以及重症腎替代療法（NEJM 的 **ICRAKI**：間歇性血液透析死亡率高於連續性）。結構面以 **TAVI 表型化（DapaTAVI frailty 子分析、瓣膜擴張技術、新舊世代瓣膜比較）** 與 **二尖瓣 TEER 的場域／表型（有無現場外科、重度左室功能不良、殘餘左房高壓）** 為主。
+
+---
+
+## 目錄
+
+1. [🎯 本週主題與固定欄目](#-本週主題與固定欄目)
+2. [⭐ Top 5 Picks](#-top-5-picks)
+3. [🫀 TAVI Section](#-tavi-section--結構性主動脈瓣方向)
+4. [🔧 TEER Section](#-teer-section--二尖瓣緣對緣與瓣膜介入)
+5. [📚 Honorable Mentions](#-honorable-mentions--其他值得一讀)
+6. [🔬 Case Reports](#-case-reports--本週-5-例結構冠脈介入ep-方向)
+7. [💎 Take Home Message](#-本週-take-home-message)
+8. [縮寫對照](#縮寫對照)
+
+> 本回顧之文獻資訊來源為 PubMed（Based on articles retrieved from PubMed），每篇均附 DOI 連結與 PMID。
+
+---
+
+## 🎯 本週主題與固定欄目
+
+**主題**：**表型與場域的精準化**——當沒有單一「改寫指南」的大型試驗時，本週的訊息匯聚成一句話：**同樣的治療，用在對的場域、對的表型、對的病人身上才有益，放錯了反而有害**。
+
+本週最重要的四條主線：
+
+**主線一：心衰竭的「去住院化」有了隨機證據**
+- **SUBCUT-HF II**（*JACC*）——仍需靜脈利尿劑的住院心衰病人，隨機接受**可穿戴皮下 furosemide 微幫浦**提早出院 vs 常規住院。30 天**存活且不在院天數（Days Alive and Out of Hospital, DAOH）多 4.0 天**（p<0.001），住院天數縮短 5.5 天；再住院數值上略多但不顯著，裝置相關問題僅 3% 且無嚴重事件。把「排水」從病房搬到家裡，是心衰照護模式的一次轉向。
+
+**主線二：裝置治療要「分表型」，不是人人適用**
+- **RELIEVE-HF 長期安全性子分析**（*JACC Heart Fail*）——心房分流器（interatrial shunt）植入成功率 99.7%、2 年通暢率 99.4%、無裝置／手術相關 MACNE。但**安全性依表型分歧**：在 **HFrEF** 無超額不良事件、嚴重事件反而較少；在 **HFpEF** 則**出血、腎功能惡化與全因 MACNE 都較高**。呼應主試驗（整體中性、win ratio 0.86、p=0.20）——**心房分流不是「心衰通用」裝置，HFpEF 要特別小心**。
+
+**主線三：影像與基因把「誰高風險」量化**
+- **CAUGHT-CAD 子分析**（*JACC Imaging*）——無症狀中風險者服 statin 後，冠狀動脈斑塊**朝高密度鈣化位移**（高密度鈣 β=0.79、p=0.001；非鈣化斑塊退縮 β=−9.83、p<0.001），LDL-C 降幅 ≥30% 者更明顯——**鈣化密度上升是斑塊穩定化的影像標記，而非風險惡化**。
+- **DCM 基因型與心律不整風險**（*EHJ*，SHaRe 登錄）——帶**高致心律不整基因**（LMNA、DSP、FLNC、RBM20、PLN、SCN5A、DES、TMEM43）者，主要心室心律不整 (MVA) **HR 3.25**，且**即使 LVEF ≥50% 仍 HR 2.36**——基因型獨立於 LVEF 之外做風險分層。
+
+**主線四：重症腎替代療法的「模式」會影響存活**
+- **ICRAKI**（*NEJM*）——急性腎損傷 (AKI) 重症病人，**間歇性血液透析 (Intermittent Hemodialysis, IHD)** 對**連續性腎替代療法 (Continuous Renal-Replacement Therapy, CRRT)** 在 90 天主要不良腎事件上**未能證明非劣**，且**死亡率較高（HR 1.30，1.04–1.63）**，試驗因此提早中止。對心臟重症併 AKI 的血流動力學不穩病人，CRRT 可能是較安全的起始模式。
+
+**本週六大固定欄目**：
+
+1. ⭐ Top 5 Picks — 跨期刊精選（皮下利尿劑去住院化＋心房分流表型分流＋重症 RRT 模式＋DCM 基因風險＋鈣化密度影像）
+2. 🫀 TAVI Section — 結構性主動脈瓣方向（DapaTAVI frailty × 延長球囊擴張 × 新舊世代瓣膜）
+3. 🔧 TEER Section — 二尖瓣緣對緣與瓣膜介入（有無現場外科 × 重度左室功能不良 × 殘餘左房高壓）
+4. 📚 Honorable Mentions — 其他值得讀（asundexian 出血、AHA 抗血小板聲明、ACC 運動處方聲明、血管內影像統合、HFpEF 大 V 波、ESC 機械循環支持共識）
+5. 🔬 Case Reports — 結構／冠脈介入／EP × 5
+6. 📖 參考文獻 + 縮寫對照
+
+---
+
+## ⭐ Top 5 Picks
+
+| # | 試驗／研究 | 期刊 | 結果方向 | 關鍵數字 |
+|---|------------|------|---------|----------|
+| 1 | **SUBCUT-HF II**（皮下 furosemide 微幫浦提早出院） | *JACC* | ✅ 改善 DAOH、縮短住院 | n=172；30 天 DAOH **多 4.0 天**（2.1–5.8，**p<0.001**）；住院縮短 5.5 天；裝置問題 3%、無嚴重事件 |
+| 2 | **RELIEVE-HF 長期安全性/表型**（心房分流器） | *JACC Heart Fail* | ➰ 表型分歧：HFrEF 安全、HFpEF 有害 | 植入成功 99.7%、2 年通暢 99.4%、裝置相關 MACNE **0%**；但 HFpEF 出血／腎惡化／MACNE 較高 |
+| 3 | **ICRAKI**（重症 AKI：IHD vs CRRT） | *NEJM* | ❌ IHD 未達非劣、死亡率較高 | n=535；90 天 MAKE 78.1% vs 71.6%（差 6.28%，CI −1.22~13.79）；死亡 **HR 1.30（1.04–1.63）**，試驗提早中止 |
+| 4 | **DCM 基因型與心律不整**（SHaRe 登錄） | *Eur Heart J* | ✅ 基因型獨立風險分層 | n=2,660；高致心律不整基因 MVA **HR 3.25**；**LVEF≥50% 仍 HR 2.36** |
+| 5 | **CAUGHT-CAD 子分析**（鈣化密度 × statin） | *JACC Imaging* | ✅ 鈣化密度上升＝斑塊穩定化 | n=338／840 病灶；statin 使高密度鈣進展（β=0.79，p=0.001）、非鈣化斑塊退縮（β=−9.83，p<0.001） |
+
+> **Pearl of the Week**：本週關鍵字是**「對的地方、對的表型、對的模式」**。**SUBCUT-HF II** 把利尿劑治療從病房搬回家，用 DAOH 證明「去住院化」可行——但別忽略它由裝置／藥廠（SQ Innovation）支持、再住院數值略高，適合**嚴選、能被密切追蹤**的病人。**RELIEVE-HF** 的長期安全性分析是本週最重要的「表型提醒」：**同一個心房分流器，在 HFrEF 安全、在 HFpEF 反而增加出血與腎惡化**——裝置治療不能「一體適用」。**ICRAKI** 則提醒重症 AKI 的**模式選擇**本身就是療效變數：血流動力學不穩者，**CRRT 起始可能比 IHD 安全**。基因（DCM）與影像（鈣化密度）兩篇，分別把「誰會心律不整猝死」與「斑塊是否已被穩定」量化——**都讓風險分層更精準、更少靠印象**。
+
+---
+
+### 1. SUBCUT-HF II：皮下 furosemide 微幫浦讓心衰病人提早出院
+
+**Early Discharge Strategy Including Subcutaneous Furosemide in Hospitalized Heart Failure.** Campbell RT, Osmanska J, Docherty KF, et al. [*J Am Coll Cardiol* 2026;88(15):1781-1793.](https://doi.org/10.1016/j.jacc.2026.07.047) PMID: [42872757](https://pubmed.ncbi.nlm.nih.gov/42872757/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | 多中心、開放標籤、隨機、active-controlled；英國；因心衰竭住院、仍需腸胃外利尿劑者，隨機「提早出院策略」（可穿戴、病人自操作之 pH 中性皮下 furosemide 微幫浦）vs 常規照護；n=172（提早出院 92、常規 80） |
+| **主要終點** | 隨機後 30 天**存活且不在院天數（DAOH）** |
+| **關鍵結果** | 提早出院組 30 天 DAOH **多 4.0 天（95% CI 2.1–5.8，p<0.001）**；指標住院縮短平均 5.5 天（p<0.001）；60 天 DAOH 效益維持（差 4.2 天）。**心衰再住院數值上較多（14% vs 6%，OR 2.45，CI 0.81–7.43，NS）**；嚴重不良事件 25% vs 23%；裝置相關問題 3%、無嚴重者 |
+| **Take home** | 以皮下 furosemide 微幫浦提早出院，可在不犧牲安全性下**換回更多「活著且在家」的天數**——為心衰竭「去住院化」提供隨機證據 |
+
+> 💡 **臨床解讀**：心衰住院的尾段常卡在「還要再打幾天靜脈利尿劑」，拖長住院、增加成本與院內風險。SUBCUT-HF II 讓**提早出院 + 家用皮下利尿劑**第一次有隨機背書，主要終點（DAOH）具病人中心意義。對台灣的實務訊息是：**對利尿反應良好、能被密切追蹤（每 3 天 review）的住院心衰病人，皮下微幫浦可望把病房時間換成居家時間**。務實界限：**由裝置／藥廠支持、開放標籤、樣本 172 人、再住院數值略高（雖未顯著）**——需要配套的居家追蹤與病人篩選，不是人人適用，且台灣尚無此給付路徑。
+
+---
+
+### 2. RELIEVE-HF：心房分流器長期安全——HFrEF 安全、HFpEF 反而有害
+
+**Long-Term Safety and Procedural Performance of an Interatrial Shunt for Heart Failure According to Ejection Fraction.** Rodés-Cabau J, Stone GW, Kar S, et al. [*JACC Heart Fail* 2026.](https://doi.org/10.1016/j.jchf.2026.103375) PMID: [42886087](https://pubmed.ncbi.nlm.nih.gov/42886087/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | RELIEVE-HF 隨機試驗（心房分流器 vs sham；主試驗整體中性，win ratio 0.86、p=0.20）之**預設 LVEF 分層安全性／耐久性分析**；依 LVEF≤40%（HFrEF）vs >40%（HFpEF）分層 |
+| **族群** | 605 收案（508 隨機、97 roll-in）；嘗試植入 370、成功 369（**99.7%**）；追蹤 2 年（n=348） |
+| **關鍵結果** | **無裝置／手術相關 MACNE（0%，CI 0–0.9%）**、分流通暢 99.4%。**表型分歧**：HFrEF 無超額全因 MACNE／大出血／腎惡化、嚴重事件負擔較低；**HFpEF 則全因 MACNE、嚴重事件、大出血與腎功能惡化皆較高** |
+| **Take home** | 心房分流器**機械上可靠、2 年耐久**，但**安全性依心衰表型分歧**——HFrEF 無超額風險，**HFpEF 增加不良事件**；支持以表型為基礎的個體化評估 |
+
+> 💡 **臨床解讀**：RELIEVE-HF 主試驗整體未達效益，但 EF 次群「方向相反」一直是討論焦點。本安全性分析把這件事說得更清楚：**裝置本身耐久可靠，問題在「用在誰身上」**——HFrEF 安全、HFpEF 反而出血與腎惡化增加。對 Drake 與心衰／結構團隊，實務訊息是：**心房分流不是「心衰通用減壓裝置」**，在把它視為 HFpEF 選項前要格外審慎，並優先等待專為表型設計的試驗。務實界限：**次群分析、整體試驗為中性**，不可解讀為「HFrEF 該裝分流器」——只是說「若要研究，HFrEF 的安全訊號較好」。
+
+---
+
+### 3. ICRAKI：重症 AKI 的間歇性血液透析死亡率高於連續性
+
+**Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.** Gaudry S, Boubaya M, Louis G, et al. [*N Engl J Med* 2026 Oct 14.](https://doi.org/10.1056/NEJMoa2608397) PMID: [42873070](https://pubmed.ncbi.nlm.nih.gov/42873070/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | 多中心、開放標籤、非劣性 RCT（法國）；重症成人 AKI 且有腎替代療法 (Renal-Replacement Therapy, RRT) 指徵者，隨機以**間歇性血液透析 (IHD)** 或**連續性腎替代療法 (CRRT)** 為起始治療 |
+| **主要終點** | 90 天主要不良腎事件 (Major Adverse Kidney Event, MAKE)：死亡、RRT 依賴或 serum creatinine 較基線升高 >25% |
+| **關鍵結果** | 554 隨機／535 ITT；90 天 MAKE **IHD 78.1% vs CRRT 71.6%**（校正絕對差 6.28%，CI −1.22~13.79）；90 天死亡 **63.1% vs 53.5%**，Kaplan-Meier **HR 1.30（1.04–1.63）**；因死亡率訊號**提早中止** |
+| **Take home** | 重症 AKI 以 IHD 起始**未能證明非劣於 CRRT**，且**死亡率較高**——血流動力學不穩的重症病人，起始模式傾向 CRRT |
+
+> 💡 **臨床解讀**：IHD 與 CRRT 孰優爭論已久，過去多認為對存活無差異。ICRAKI 在「起始模式」這個問題上給了偏向 CRRT 的隨機訊號——且因死亡率差異提早中止。對 Drake 的心臟重症實務（心因性休克、術後低心輸出合併 AKI）訊息是：**血流動力學脆弱、對容量移除耐受差的病人，CRRT 作為起始模式可能較安全**。務實界限：**開放標籤、單國、主要終點未達非劣（而非證明 CRRT 優越的優越性設計）、提早中止可能高估效應**；穩定病人仍可個體化選擇 IHD。這是重症腎的核心實證，與心臟重症高度相關，故列入本週。
+
+---
+
+### 4. DCM 基因型與心律不整風險：基因獨立於 LVEF 之外做風險分層
+
+**Genotype and arrhythmic risk in dilated cardiomyopathy.** Padalia K, Fornaro A, Claggett B, et al. [*Eur Heart J* 2026 Oct 13.](https://doi.org/10.1093/eurheartj/ehag648) PMID: [42864989](https://pubmed.ncbi.nlm.nih.gov/42864989/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | 國際 Sarcomeric Human Cardiomyopathy Registry (SHaRe) 之擴張型心肌病 (Dilated Cardiomyopathy, DCM) 世代分析；依致病／可能致病 (P/LP) 變異分為高致心律不整基因、低致心律不整基因、gene-elusive |
+| **族群** | 2,660 名基因型確定之成人 DCM（平均 47 歲、39.8% 女）；高致心律不整基因 16%、低致 17%、gene-elusive 67% |
+| **關鍵結果** | 相較 gene-elusive，**高致心律不整基因**（LMNA、DSP、FLNC、RBM20、PLN、SCN5A、DES、TMEM43）者：主要心室心律不整 (MVA) **HR 3.25**、AF HR 2.42、HF HR 2.46，校正年齡／性別／LVEF 後仍顯著；**即使 LVEF≥50%，MVA 仍 HR 2.36** |
+| **Take home** | DCM 的基因型能在**獨立於年齡、性別與 LVEF** 之外，強力分層心律不整與心衰風險——支持把基因檢測納入猝死預防決策 |
+
+> 💡 **臨床解讀**：DCM 的 ICD 一級預防長期以 LVEF≤35% 為門檻，但不少猝死發生在 LVEF 尚可的病人身上。本大型登錄證明**高致心律不整基因（尤其 LMNA、FLNC、PLN、DSP 等）即使 LVEF 保留仍帶高 MVA 風險**。對 Drake 與心衰／EP 團隊，實務訊息是：**DCM 病人應積極基因檢測**，帶高致心律不整基因者即使 LVEF>35% 也要加強心律監測、提前討論一級預防 ICD。務實界限：觀察性登錄、各基因事件數不均、仍需前瞻驗證具體基因的 ICD 門檻。
+
+---
+
+### 5. CAUGHT-CAD：鈣化密度上升是斑塊穩定化的影像標記
+
+**Calcium Density as a Marker of Coronary Plaque Stabilization in Primary Prevention: The CAUGHT-CAD Trial.** Vasanthakumar SA, Nicholls SJ, Nerlekar N, et al. [*JACC Cardiovasc Imaging* 2026 Oct 15.](https://doi.org/10.1016/j.jcmg.2026.07.029) PMID: [42886154](https://pubmed.ncbi.nlm.nih.gov/42886154/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | CAUGHT-CAD 試驗（無症狀、statin-naive、中風險者隨機 statin 為主之一級預防 vs 常規照護）之事後分析；基線與 3 年各做一次冠狀動脈電腦斷層血管攝影 (CTA)，量化 5 種斑塊亞型密度 |
+| **族群** | 338 人／840 病灶（平均 58.3 歲、57.1% 男、47.6% 接受 statin） |
+| **關鍵結果** | statin 使**中密度（β=0.89，p=0.02）與高密度鈣（β=0.79，p=0.001）進展**、**非鈣化斑塊退縮（β=−9.83，p<0.001）**；LDL-C 降幅 **≥30%** 者，高密度（β=1.11）與極高密度鈣（β=1.68）進展更明顯 |
+| **Take home** | 在無症狀中風險者，statin 讓斑塊**朝高密度鈣化位移**、非鈣化成分退縮——**鈣化密度上升代表斑塊穩定化，而非風險惡化**，有效降 LDL-C 時最明顯 |
+
+> 💡 **臨床解讀**：臨床常見病人（與醫師）看到「鈣化分數上升」就焦慮，誤以為病情惡化。CAUGHT-CAD 把機轉說清楚：**statin 下鈣化「密度」上升、非鈣化斑塊退縮，是斑塊被穩定化的表現**，與密度越高、事件越少的流行病學一致。對 Drake 與門診，實務訊息是：**追蹤 CTA 時別只看 Agatston 總分——高密度鈣增加 + 非鈣化退縮是好事**，應據此強化（而非動搖）降脂治療。務實界限：事後分析、影像替代終點（非臨床事件）、一級預防中風險族群，不可外推到急性斑塊。
+
+---
+
+## 🫀 TAVI Section — 結構性主動脈瓣方向
+
+### TAVI #1｜DapaTAVI frailty 子分析：dapagliflozin 的效益不因衰弱程度而異
+
+**Dapagliflozin After Transcatheter Aortic Valve Implantation According to Frailty in DapaTAVI Trial.** [*J Am Heart Assoc* 2026 Oct.](https://doi.org/10.1161/JAHA.126.051379) PMID: [42885795](https://pubmed.ncbi.nlm.nih.gov/42885795/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | DapaTAVI 試驗（TAVI 後 dapagliflozin vs 常規）之事後分析；以 FRAIL 量表分 robust/prefrail/frail 探討效益是否因衰弱而異；主要終點為 1 年全因死亡或心衰惡化 |
+| **核心** | 衰弱在重度 AS／TAVI 病人常見且預後更差；本分析檢驗 SGLT2 抑制劑的益處是否在衰弱者同樣成立 |
+| **臨床關聯** | 若效益跨衰弱分層一致，則**衰弱不應成為 TAVI 後開立 dapagliflozin 的阻礙** |
+| **Take home** | TAVI 後 dapagliflozin 的益處**不因基線衰弱程度而減損**——支持在衰弱的 TAVI 病人也積極使用 SGLT2 抑制劑 |
+
+> **臨床重點**：TAVI 族群高齡、衰弱比例高，臨床常擔心「這麼虛弱的病人還值不值得加藥」。DapaTAVI 主試驗已顯示 TAVI 後 dapagliflozin 減少死亡／心衰惡化，本子分析進一步說明**衰弱者同樣獲益**。對 Drake 的結構團隊，實務訊息是：**TAVI 後的 GDMT（含 SGLT2i）不應因衰弱而省略**。務實界限：事後分析、衰弱以簡易量表評估、需留意低血壓／脫水等在衰弱者的安全監測。
+
+---
+
+### TAVI #2｜延長球囊充氣改善球擴瓣擴張與早期結果
+
+**Impact of prolonged balloon inflation on valve expansion and early clinical outcomes following contemporary balloon-expandable transcatheter aortic valve implantation.** [*EuroIntervention* 2026 Oct.](https://doi.org/10.4244/EIJ-D-26-00494) PMID: [42885346](https://pubmed.ncbi.nlm.nih.gov/42885346/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | 單中心研究；原生三葉瓣主動脈狹窄以 **SAPIEN 3 Ultra RESILIA** 球擴瓣行 TAVI，採**延長球囊充氣（8 秒）策略**，評估瓣膜擴張、血流動力學與早期結果 |
+| **核心** | 球擴瓣擴張不全可能影響瓣膜性能與耐久性；常規後擴張（「double-tap」）可優化擴張但增加程序複雜度，本研究檢驗延長充氣是否為替代方案 |
+| **臨床關聯** | 延長充氣有望在**不增加額外後擴張**下改善瓣膜擴張與血流動力學 |
+| **Take home** | **延長球囊充氣**是優化當代球擴瓣擴張的簡單策略，可能減少對額外後擴張的需求 |
+
+> **臨床重點**：瓣膜擴張不全與未來耐久性、瓣旁漏相關，是 Drake 日常操作的技術細節。本研究提供一個**低成本、可操作**的技巧——把充氣時間延長到 8 秒。務實界限：**單中心、無隨機對照、僅早期結果**，長期耐久與瓣旁漏進展未知；延長充氣在快速起搏下也需權衡血流動力學耐受。
+
+---
+
+### TAVI #3｜當代自膨 vs 球擴瓣：9 中心真實世界比較
+
+**Current Generation Self-Expanding and Balloon-Expandable Transcatheter Aortic Valve Replacement: A Retrospective Multicenter Analysis.** [*Ann Thorac Surg* 2026 Oct.](https://doi.org/10.1016/j.athoracsur.2026.09.056) PMID: [42880619](https://pubmed.ncbi.nlm.nih.gov/42880619/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | 9 中心回溯分析；2021–2024 TAVR 病人，以傾向分數配對分為當代**自膨瓣 (Self-Expanding, SE)** 與**球擴瓣 (Balloon-Expandable, BE)**；主要結果：全因與心血管死亡、中風、永久性節律器 (PPM)；次要：瓣旁漏 (PVL)、急性腎損傷，評估圍術期、30 天與 400 天 |
+| **核心** | 隨瓣膜技術演進，更新當代 SE vs BE 的直接比較；並在 LVEF、瓣口面積與中心層級做次群分析 |
+| **臨床關聯** | 補充當代瓣膜在真實世界的死亡、中風、PPM 與 PVL 差異，供 heart team 選瓣參考 |
+| **Take home** | 當代 SE 與 BE 瓣膜之真實世界多中心比較，為選瓣決策提供更新的實證基準 |
+
+> **臨床重點**：SE 與 BE 的取捨（PPM 風險、PVL、血流動力學、冠脈再進入）是 Drake 每位 TAVI 病人都要面對的決定。本多中心傾向配對分析提供當代瓣膜的比較基準。務實界限：**回溯觀察性、殘餘干擾難免、傾向配對無法取代 RCT**；選瓣仍應依解剖（瓣環大小、鈣化分布、冠脈高度、是否需日後冠脈再進入）個體化。
+
+---
+
+## 🔧 TEER Section — 二尖瓣緣對緣與瓣膜介入
+
+### TEER #1｜M-TEER 在「有無現場心臟外科」中心的早期結果
+
+**Mitral Transcatheter Edge-to-Edge Repair at Centers With and Without On-Site Cardiac Surgery: A Comparative Registry With a Shared Interventional Team.** [*Catheter Cardiovasc Interv* 2026 Oct.](https://doi.org/10.1002/ccd.70874) PMID: [42876391](https://pubmed.ncbi.nlm.nih.gov/42876391/)
+
+| 項目 | 內容 |
+|------|------|
+| **設計** | 回溯分析前瞻登錄；**同一組介入操作團隊**分別在「無現場心臟外科（no-CCH）」與「有現場心臟外科（CCH）」兩中心執行 M-TEER；重度（4+）MR，n=64（no-CCH 21、CCH 43） |
+| **核心** | M-TEER 是否必須在有現場外科的中心進行，一直缺比較證據；no-CCH 中心以共享 heart team 與正式緊急轉送路徑提供外科後援 |
+| **臨床關聯** | 若兩者早期結果相當，將支持**在無現場外科但有完善轉送路徑的中心**開展 M-TEER，擴大可近性 |
+| **Take home** | 在**共享操作團隊 + 正式緊急轉送**的前提下，無現場外科中心的 M-TEER 早期結果可與有現場外科中心相比——為擴展服務網絡提供初步依據 |
+
+> **臨床重點**：對台灣許多區域醫院而言，「沒有現場心臟外科能不能做 M-TEER」是推廣的現實門檻。本登錄顯示**關鍵不在建築物裡有沒有外科，而在有沒有共享的 heart team 與制度化的緊急轉送**。對 Drake 與結構團隊，是建立區域 TEER 網絡的參考。務實界限：**單一操作團隊、樣本極小（n=64）、回溯、僅早期結果**，不可外推到操作量低或無正式轉送路徑的中心。
+
+---
+
+### TEER #2｜重度左室功能不良／心因性休克的 TEER：演進中的 heart team 策略
+
+**Transcatheter Edge-to-Edge Repair in Advanced Heart Failure and Ventricular Dysfunction: An Evolving Heart Team Strategy.** [*JACC Case Rep* 2026 Oct.](https://doi.org/10.1016/j.jaccas.2026.110759) PMID: [42886123](https://pubmed.ncbi.nlm.nih.gov/42886123/)
+
+| 項目 | 內容 |
+|------|------|
+| **形式** | 病例系列／heart team 策略教學 |
+| **族群** | 6 位年齡 38–82 歲、**LVEF 10–20%**、重度（4+）至torrential（5+）MR 者，其中 4 位接近或處於心因性休克、需正性肌力／升壓劑或主動脈氣球幫浦支持 |
+| **核心** | 這類重度左室功能不良＋重度 MR 病人在關鍵 TEER 試驗中代表性不足，又常不適合移植或左心室輔助裝置 (LVAD)；隨 heart team 經驗累積，逐步把 TEER 用於此族群 |
+| **Take home** | 在藥物治療失敗、又無移植／LVAD 選項的重度左室功能不良＋重度 MR 病人，**M-TEER 可作為 heart team 經驗導向的救援策略** |
+
+> **臨床重點**：這群「EF 10–20%、重度 MR、瀕臨休克」的病人過去幾乎無處著力。本系列示範**在審慎的 heart team 評估與機械支持備援下，TEER 可作為橋接或緩和的選項**。對 Drake，是「最難的 MR 病人要不要夾」的經驗分享。務實界限：**6 例病例系列、無對照、選擇偏差**，屬經驗累積而非實證指引；此族群風險極高，需個別化決策。
+
+---
+
+### TEER #3｜M-TEER 後的右至左心房分流：該治中隔還是治疾病？（Editorial）
+
+**Right-to-Left Interatrial Shunting After Mitral TEER: Treat the Septum or the Disease?** [*JACC Case Rep* 2026 Oct.](https://doi.org/10.1016/j.jaccas.2026.110354) PMID: [42878375](https://pubmed.ncbi.nlm.nih.gov/42878375/)
+
+| 項目 | 內容 |
+|------|------|
+| **形式** | 評論（editorial），延續「M-TEER 後醫源性心房中隔缺損 (iatrogenic ASD) 與左房血流動力學」的討論 |
+| **核心** | M-TEER 經中隔操作後可能殘留心房分流；當出現**右至左分流**（常伴右心壓力升高／右心衰竭）導致低血氧時，臨床要決定**關中隔（治標）還是處理底層疾病（治本）** |
+| **臨床關聯** | 呼應上期的 stiff-LA／左房高壓與心房血流調節器（AFR）主題——M-TEER 後的血流動力學並非夾好瓣膜就結束 |
+| **Take home** | M-TEER 後若出現右至左分流與低血氧，**要先釐清是中隔問題還是右心疾病進展**，再決定封堵或治療底層病理 |
+
+> **臨床重點**：這與上期 AFR 救援案例互為鏡像——**上期是左房高壓需要「造分流減壓」，本期是右心壓力升高造成「右至左分流」要不要關**。核心教訓：**M-TEER 後的殘餘中隔分流方向，反映的是底層血流動力學**；盲目封堵可能無益甚至有害。對 Drake 的結構團隊，是「夾完瓣膜後中隔怎麼處理」的思路。務實界限：評論性文章，個案層級，無系統性證據。
+
+---
+
+## 📚 Honorable Mentions — 其他值得一讀
+
+| 研究 | 期刊 | 重點 | 連結 |
+|------|------|------|------|
+| **OCEANIC-STROKE 出血分析**（asundexian factor XIa 抑制劑） | *Circulation* 2026 | 非心源性缺血性中風／高危 TIA 加用 asundexian，**減少缺血性中風而未顯著增加出血**；本文細分出血類型／部位與次群 | [DOI](https://doi.org/10.1161/CIRCULATIONAHA.126.081836)｜[PMID 42866879](https://pubmed.ncbi.nlm.nih.gov/42866879/) |
+| **AHA 抗血小板管理科學聲明** | *Circulation* 2026 | 冠心症抗血小板治療的多專科共識：依病人／手術／疾病個體化選擇藥物、強度與療程，平衡血栓與出血 | [DOI](https://doi.org/10.1161/CIR.0000000000001478)｜[PMID 42866888](https://pubmed.ncbi.nlm.nih.gov/42866888/) |
+| **2026 ACC 運動處方科學聲明** | *JACC* 2026 | 把運動處方納入心血管常規照護的實用指引：有氧／阻力／平衡訓練、心臟復健各模式，及各類心血管疾病的個別化處方 | [DOI](https://doi.org/10.1016/j.jacc.2026.09.008)｜[PMID 42878712](https://pubmed.ncbi.nlm.nih.gov/42878712/) |
+| **血管內影像導引 PCI 統合分析**（18 RCT） | *JACC Adv* 2026 | n=18,975；影像導引 PCI 降 MACE（RR **0.67**）、心因死亡（RR 0.72）、支架血栓（RR 0.52）；達影像優化者事件更低（RR 0.41）；效益偏亞洲族群 | [DOI](https://doi.org/10.1016/j.jacadv.2026.103340)｜[PMID 42879937](https://pubmed.ncbi.nlm.nih.gov/42879937/) |
+| **HFpEF 大 V 波增加右心後負荷** | *Circulation* 2026 | 左房僵硬產生的高大 V 波可「不成比例」地加壓肺動脈、增加右心後負荷——影響肺血管疾病的臨床判讀 | [DOI](https://doi.org/10.1161/CIRCULATIONAHA.126.081799)｜[PMID 42860037](https://pubmed.ncbi.nlm.nih.gov/42860037/) |
+| **ESC/EAPCI 暫時性機械循環支持共識** | *Eur Heart J* 2026 | 更新 2020 版；強調表型導向（SCAI/SHARC）選病人、多專科 shock team、hub-and-spoke 分流與升階／撤階流程 | [DOI](https://doi.org/10.1093/eurheartj/ehag708)｜[PMID 42870411](https://pubmed.ncbi.nlm.nih.gov/42870411/) |
+
+> ⚠️ **解讀提醒**：兩份科學聲明（AHA 抗血小板、ACC 運動處方）與 ESC 機械循環支持共識為**專家共識／聲明**，彙整現有證據供臨床落地，非新試驗數據。血管內影像統合分析的效益「偏亞洲族群」與「達影像優化者事件更低」——提醒**影像導引的價值在於真的做到優化**，而非只是把探頭放進去。
+
+---
+
+## 🔬 Case Reports — 本週 5 例（結構／冠脈介入／EP 方向）
+
+### Case #1｜全程無導線的左心室中隔心內膜節律 — 首例人體應用
+
+**First-in-Human Permanent Totally Leadless Left Ventricular Septal Endocardial Pacing With Atrioventricular Synchrony.** Dababneh E, Brown P, Ahmad W, et al. [*JACC Case Rep* 2026 Oct 16.](https://doi.org/10.1016/j.jaccas.2026.110628) PMID: [42886148](https://pubmed.ncbi.nlm.nih.gov/42886148/)
+
+86 歲男性完全性房室阻斷併心肌病，植入雙腔無導線節律器（AVEIR DR）加上 WiSE 系統超音波驅動之**左心室中隔心內膜電極**。以新的「sync-to-pace」延遲設定，讓**心房節律脈衝觸發左心室刺激**，達 QRS 142 ms——首例完全無導線、房室同步、不依賴右心室節律的左心室中隔心內膜節律。
+
+**為什麼值得讀**
+> 這是生理性節律「去導線化」的概念里程碑。核心教訓：（1）**WiSE 超音波左室心內膜電極 + 雙腔無導線節律器**可組成完全無經靜脈導線的房室同步系統，避開導線相關併發症；（2）「以心房脈衝觸發左室刺激」的巧妙時序設計，繞過對右室節律的依賴；（3）屬 proof-of-concept，適用族群與長期可靠性待驗證。對 Drake 與 EP／裝置團隊，是「無導線 CRT／生理性節律」未來方向的預覽。
+
+---
+
+### Case #2｜突出的開口支架 — IVUS 導引尖端偵測 + 遠端錨定推送
+
+**IVUS-Guided Tip Detection and Distal Anchor Assisted Stent Push for a Protruding Ostial Stent.** Tsutsui Y, Tanaka K, Yamasaki T, et al. [*JACC Case Rep* 2026 Oct 16.](https://doi.org/10.1016/j.jaccas.2026.110771) PMID: [42886149](https://pubmed.ncbi.nlm.nih.gov/42886149/)
+
+右冠狀動脈 (RCA) 開口支架過度突入主動脈，造成導引導管脫位。團隊以**血管內超音波 (IVUS) 導引尖端偵測 (tip detection)** 即時看到近端支架緣與導絲尖端，精準重新穿越支架腔；再在**遠端錨定球囊 (distal anchor balloon)** 支撐下，用**支架推送技術 (stent push)** 把突出段縱向變形、推回理想位置。
+
+**為什麼值得讀**
+> 開口支架突出是棘手併發症（導管無法同軸、再介入困難）。核心教訓：（1）**IVUS 導引尖端偵測**讓「盲目重新穿越突出支架」變成可視化操作；（2）**遠端錨定球囊**提供足夠後援以完成縱向支架變形；（3）這是純導管、不需外科的 troubleshooting。對 Drake 的冠脈介入，是開口病灶與支架定位不良的實用救援技巧。
+
+---
+
+### Case #3｜M-TEER 後遲發性瓣葉穿孔 — 血管塞封堵
+
+**Vascular Plug Closure of Delayed Leaflet Perforation Post-TEER in Patient With Multiple Implantable Devices.** [*JACC Case Rep* 2026 Oct.](https://doi.org/10.1016/j.jaccas.2026.110745) PMID: [42886136](https://pubmed.ncbi.nlm.nih.gov/42886136/)
+
+63 歲多瓣膜疾病、慢性心衰、多個植入裝置、透析依賴末期腎病男性，因 M-TEER 後**前葉遲發性穿孔**造成症狀性重度復發 MR。在透視 + 3D 經食道超音波導引下，以**血管塞 (vascular plug)** 封堵穿孔，避免高風險再手術。
+
+**為什麼值得讀**
+> M-TEER 後約 10% 一年內復發 MR，而術後解剖扭曲讓再介入格外困難。核心教訓：（1）**遲發性瓣葉穿孔**是 M-TEER 後復發 MR 的少見但可處理機轉；（2）**血管塞封堵**為多重共病、不宜再開胸者提供微創救援；（3）需精準的多模影像定位穿孔。對 Drake 的 TEER 實務，是「夾後復發 MR」鑑別與經導管補救的實例。
+
+---
+
+### Case #4｜鄰近 LAD 的心外膜 PVC — 導絲導引酒精消融
+
+**Successful Guidewire-Guided Ethanol Ablation for PVCs Originating From Epicardial Anterior Interventricular Groove Adjacent to LAD.** Guo C, Xiong X, Yi H, et al. [*JACC Case Rep* 2026 Oct 16.](https://doi.org/10.1016/j.jaccas.2026.110992) PMID: [42886147](https://pubmed.ncbi.nlm.nih.gov/42886147/)
+
+30 歲男性高負荷心室早期收縮 (PVC)，起源於**前室間溝心外膜、緊鄰左前降支 (LAD)**，傳統射頻消融有傷及／阻塞冠脈的高風險。團隊經前室間靜脈小分支行**導絲導引無水酒精消融**，成功消除 PVC，術後冠脈攝影無損傷，2 個月無復發。
+
+**為什麼值得讀**
+> 前室間溝（LAD 走行處）是公認最難、最危險的消融部位之一。核心教訓：（1）當射頻因鄰近冠脈而不安全時，**經靜脈導絲導引酒精消融**是可行替代；（2）術後冠脈攝影確認無損傷是關鍵安全步驟；（3）需精準的靜脈解剖與起源定位。對 EP 團隊，是「冠脈旁難治 PVC」的能量選擇教學。
+
+---
+
+### Case #5｜嗜鉻細胞瘤危象合併 Takotsubo／休克 — 經導管腎上腺動脈栓塞救援
+
+**Transcatheter Adrenal Arterial Embolization for Life-Threatening Pheochromocytoma Crisis.** Wu K, Jin Z, Kang H, et al. [*JACC Case Rep* 2026 Oct 16.](https://doi.org/10.1016/j.jaccas.2026.110993) PMID: [42886145](https://pubmed.ncbi.nlm.nih.gov/42886145/)
+
+50 歲女性急性胸痛、de Winter sign、basal-type Takotsubo 症候群 (TTS) 併難治性心因性休克、血壓極度不穩；影像見 6.5×4.7 cm 腎上腺腫瘤疑嗜鉻細胞瘤。藥物無法穩定血流動力學，遂行**緊急經導管腎上腺動脈栓塞 (TAAE)** 作為救援，此後血流動力學持續穩定；1 個月 α 阻斷劑準備後擇期切除腎上腺，1 年無症狀、心功能正常、無復發。
+
+**為什麼值得讀**
+> 嗜鉻細胞瘤危象常以 Takotsubo 與心因性休克表現，單靠藥物難穩定、急診手術死亡率高。核心教訓：（1）**極度血壓不穩 + TTS** 要警覺隱匿嗜鉻細胞瘤；（2）**經導管腎上腺動脈栓塞**可作為難治危象的微創橋接，爭取時間到擇期手術；（3）分階段（TAAE → α 阻斷 → 擇期切除）策略預後佳。對 Drake 與心臟重症／介入團隊，是「Takotsubo／休克背後找病因 + 介入救援」的跨科教學。
+
+---
+
+## 💎 本週 Take Home Message
+
+1. **SUBCUT-HF II ✅——心衰竭「去住院化」有了隨機證據**：皮下 furosemide 微幫浦讓提早出院組 30 天 DAOH 多 4.0 天、住院縮短 5.5 天，裝置安全。臨床行動：**對利尿反應良好、能被密切追蹤的住院心衰病人，可考慮家用皮下利尿劑換回居家天數**；但由裝置／藥廠支持、再住院略多，需嚴選病人與配套追蹤。
+
+2. **RELIEVE-HF ➰——心房分流器要「分表型」**：裝置 2 年耐久可靠（通暢 99.4%、裝置相關 MACNE 0%），但**HFrEF 安全、HFpEF 反而增加出血／腎惡化**（主試驗整體中性）。臨床行動：**不要把心房分流當「心衰通用」裝置，HFpEF 尤其審慎**。
+
+3. **ICRAKI ❌（for IHD）——重症 AKI 的 RRT 模式會影響存活**：間歇性血液透析未達非劣、死亡率較高（HR 1.30）。臨床行動：**血流動力學不穩的心臟重症併 AKI，CRRT 作為起始模式可能較安全**（開放標籤、提早中止，謹慎解讀）。
+
+4. **DCM 基因型 ✅——基因獨立於 LVEF 做猝死風險分層**：高致心律不整基因 MVA HR 3.25，**LVEF≥50% 仍 HR 2.36**。臨床行動：**DCM 病人積極基因檢測**，帶 LMNA／FLNC／PLN／DSP 等者即使 LVEF 保留也要加強監測、提前討論一級預防 ICD。
+
+5. **CAUGHT-CAD ✅——鈣化密度上升 = 斑塊穩定化**：statin 使高密度鈣進展、非鈣化斑塊退縮，降 LDL-C 越多越明顯。臨床行動：**追蹤 CTA 別只看 Agatston 總分——高密度鈣增加 + 非鈣化退縮是好事**，應強化而非動搖降脂。
+
+6. **TAVI 表型化（Drake 主力）🫀**：DapaTAVI frailty 子分析顯示**衰弱者同樣受益於 dapagliflozin**（TAVI 後 GDMT 別因衰弱省略）；延長球囊充氣（8 秒）可優化球擴瓣擴張；當代 SE vs BE 多中心比較供選瓣參考。
+
+7. **TEER 的場域與表型 🔧**：**有無現場外科不是絕對門檻**（關鍵在共享 heart team + 緊急轉送，n=64 謹慎看待）；**重度左室功能不良（EF 10–20%）＋重度 MR** 可在經驗導向下以 TEER 救援；**M-TEER 後右至左分流**要先辨明是中隔問題還是右心疾病進展再決定封堵——與上期 stiff-LA／AFR 互為鏡像。
+
+---
+
+## 縮寫對照
+
+> 原則：首次出現以「全英文 (縮寫)」呈現，之後使用縮寫。
+
+| 縮寫 | 全名 (英文) | 中文 |
+|------|------------|------|
+| NEJM | New England Journal of Medicine | 新英格蘭醫學期刊 |
+| EHJ | European Heart Journal | 歐洲心臟期刊 |
+| JACC | Journal of the American College of Cardiology | 美國心臟學院期刊 |
+| RCT | Randomized Controlled Trial | 隨機對照試驗 |
+| HR / OR / aHR | Hazard / Odds / adjusted Hazard Ratio | 風險比／勝算比／校正風險比 |
+| CI | Confidence Interval | 信賴區間 |
+| NS | Not Significant | 未達統計顯著 |
+| MACE / MACCE | Major Adverse Cardiovascular (and Cerebrovascular) Events | 重大不良心血管（腦血管）事件 |
+| MACNE | Major Adverse Cardiovascular or Neurological Events | 重大不良心血管或神經事件 |
+| HF | Heart Failure | 心衰竭 |
+| HFrEF / HFpEF | Heart Failure with reduced / preserved Ejection Fraction | 射血分數降低／保留之心衰竭 |
+| LVEF | Left Ventricular Ejection Fraction | 左心室射血分數 |
+| DAOH | Days Alive and Out of Hospital | 存活且不在院天數 |
+| GDMT | Guideline-Directed Medical Therapy | 指引導向藥物治療 |
+| SGLT2i | Sodium-Glucose Cotransporter 2 inhibitor | 鈉-葡萄糖共同運輸蛋白 2 抑制劑 |
+| AKI | Acute Kidney Injury | 急性腎損傷 |
+| RRT | Renal-Replacement Therapy | 腎替代療法 |
+| IHD | Intermittent Hemodialysis | 間歇性血液透析 |
+| CRRT | Continuous Renal-Replacement Therapy | 連續性腎替代療法 |
+| MAKE | Major Adverse Kidney Event | 主要不良腎事件 |
+| DCM | Dilated Cardiomyopathy | 擴張型心肌病 |
+| P/LP | Pathogenic / Likely Pathogenic (variant) | 致病／可能致病（變異） |
+| MVA | Major Ventricular Arrhythmia | 重大心室心律不整 |
+| ICD | Implantable Cardioverter-Defibrillator | 植入式心臟去顫器 |
+| AF | Atrial Fibrillation | 心房顫動 |
+| CTA | Computed Tomographic Angiography | 電腦斷層血管攝影 |
+| LDL-C | Low-Density Lipoprotein Cholesterol | 低密度脂蛋白膽固醇 |
+| TAVI / TAVR | Transcatheter Aortic Valve Implantation / Replacement | 經導管主動脈瓣置換 |
+| AS | Aortic Stenosis | 主動脈瓣狹窄 |
+| SE / BE | Self-Expanding / Balloon-Expandable (valve) | 自膨／球囊擴張（瓣膜） |
+| PPM | Permanent Pacemaker Implantation | 永久性心律調節器植入 |
+| PVL / PVR | Paravalvular Leak / Regurgitation | 瓣旁漏／瓣旁逆流 |
+| TEER / M-TEER | (Mitral) Transcatheter Edge-to-Edge Repair | （二尖瓣）經導管緣對緣修復 |
+| MR | Mitral Regurgitation | 二尖瓣逆流 |
+| LVAD | Left Ventricular Assist Device | 左心室輔助裝置 |
+| ASD | Atrial Septal Defect | 心房中隔缺損 |
+| PCI | Percutaneous Coronary Intervention | 經皮冠狀動脈介入 |
+| IVUS | Intravascular Ultrasound | 血管內超音波 |
+| OCT | Optical Coherence Tomography | 光學同調斷層 |
+| RCA / LAD | Right Coronary Artery / Left Anterior Descending | 右冠狀動脈／左前降支 |
+| DAPT | Dual Antiplatelet Therapy | 雙重抗血小板治療 |
+| LAAO | Left Atrial Appendage Occlusion | 左心耳封堵 |
+| DOAC | Direct Oral Anticoagulant | 直接口服抗凝劑 |
+| TIA | Transient Ischemic Attack | 短暫性腦缺血發作 |
+| MCS | Mechanical Circulatory Support | 機械循環支持 |
+| PVC | Premature Ventricular Complex | 心室早期收縮 |
+| TTS | Takotsubo Syndrome | 章魚壺（Takotsubo）症候群 |
+| TAAE | Transcatheter Adrenal Arterial Embolization | 經導管腎上腺動脈栓塞 |
+| WiSE | Wireless Stimulation Endocardially (system) | 無線心內膜刺激（系統） |
+
+---
+
+*本講義為讀書會共筆之教學整理，僅供醫療專業同仁臨床教學交流參考，不作為個案診療依據。臨床決策請依各病人實際情況並參考最新指南。*
+
+**— 謝慕揚 MD, PhD, FESC —**
