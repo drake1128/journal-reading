@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    # 3D 血管解剖：viewer.html 以程式動態載入模型與資料，需整個資料夾原樣複製
+    - "interactive/anatomy3d/**"
 
 website:
   title: "Journal Reading — Dr. Drake Hsieh"
@@ -11,6 +14,8 @@ website:
         href: index.qmd
       - text: "精選互動教材"
         href: featured.qmd
+      - text: "3D 解剖"
+        href: anatomy-3d.qmd
       - text: "CV 週報"
         href: handouts/91-podcast-journal-review/weekly-cv-review.qmd
       - text: "重症雙週報"
@@ -28,6 +33,15 @@ website:
       style: docked
       contents:
         - index.qmd
+        - section: "3D 血管解剖 Anatomy 3D"
+          contents:
+            - anatomy-3d.qmd
+            - text: "3D 心臟（全螢幕）"
+              href: interactive/anatomy3d/viewer.html?r=heart
+            - text: "3D 下肢周邊血管（全螢幕）"
+              href: interactive/anatomy3d/viewer.html?r=lower-limb
+            - text: "3D 頭頸部血管（全螢幕）"
+              href: interactive/anatomy3d/viewer.html?r=head-neck
         - section: "課堂教學 Classroom Teaching"
           contents:
             - handouts/classroom-teaching/index.qmd

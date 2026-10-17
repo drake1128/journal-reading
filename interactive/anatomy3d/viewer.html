@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>3D 血管解剖</title>
+<link rel="stylesheet" href="assets/viewer.css">
+<script type="importmap">
+{ "imports": { "three": "./assets/vendor/three.module.js", "three/addons/": "./assets/vendor/addons/" } }
+</script>
+</head>
+<body>
+<header class="top">
+  <button class="icon-btn" id="btnPanel" title="構造清單" aria-label="構造清單">☰</button>
+  <a class="brand" href="index.html">3D 血管解剖</a>
+  <nav class="tabs" id="tabs">
+    <a data-r="heart" href="viewer.html?r=heart">心臟</a>
+    <a data-r="lower-limb" href="viewer.html?r=lower-limb">下肢周邊血管</a>
+    <a data-r="head-neck" href="viewer.html?r=head-neck">頭頸部血管</a>
+  </nav>
+  <div class="spacer"></div>
+  <div class="seg" id="lang" role="group" aria-label="語言">
+    <button data-lang="zh">中</button><button data-lang="both">中＋EN</button><button data-lang="en">EN</button>
+  </div>
+  <button class="icon-btn" id="btnAbout" title="來源與授權" aria-label="來源與授權">ⓘ</button>
+</header>
+
+<main class="layout">
+  <aside class="panel" id="panel">
+    <div class="intro" id="intro"></div>
+    <input type="search" id="search" placeholder="搜尋構造（中文或英文）">
+    <div class="quick">
+      <button id="btnShowAll">全部顯示</button>
+      <button id="btnXray">透視模式</button>
+      <button id="btnReset">重設</button>
+    </div>
+    <div id="groups"></div>
+  </aside>
+
+  <section class="stage" id="stage">
+    <div class="loading" id="loading">模型載入中...</div>
+    <svg class="gizmo" id="gizmo" viewBox="-50 -50 100 100" aria-hidden="true"></svg>
+    <div class="views" id="views"></div>
+    <div class="toolbar">
+      <button id="btnLabels" class="on" title="顯示或隱藏標籤">標籤</button>
+      <button id="btnAllLabels" title="顯示所有構造的標籤">全部標籤</button>
+      <button id="btnIsolate" title="只顯示目前選取的構造">只看選取</button>
+      <button id="btnShot" title="下載目前畫面（含標籤）">截圖</button>
+      <button id="btnFull" title="全螢幕">全螢幕</button>
+    </div>
+    <div class="info" id="info" hidden>
+      <button class="close" id="infoClose" aria-label="關閉">×</button>
+      <div class="info-title" id="infoTitle"></div>
+      <div class="info-sub" id="infoSub"></div>
+      <p class="info-note" id="infoNote"></p>
+      <div class="info-actions">
+        <button id="actFocus">置中</button>
+        <button id="actHide">隱藏</button>
+        <button id="actFade">半透明</button>
+        <button id="actSolo">只看這個</button>
+      </div>
+    </div>
+    <div class="hint" id="hint">拖曳旋轉・右鍵或雙指平移・滾輪縮放・點選構造看說明・雙擊置中</div>
+  </section>
+</main>
+
+<dialog id="about">
+  <h2>來源與授權</h2>
+  <p><b>3D 模型</b></p>
+  <ul>
+    <li>Z-Anatomy（Gauthier Kervyn、Lluís Vinent 等），CC BY-SA 4.0 — <a href="https://github.com/LluisV/Z-Anatomy" target="_blank" rel="noopener">github.com/LluisV/Z-Anatomy</a></li>
+    <li>BodyParts3D © The Database Center for Life Science (DBCLS)，CC BY-SA 2.1 Japan — <a href="https://lifesciencedb.jp/bp3d/" target="_blank" rel="noopener">lifesciencedb.jp/bp3d</a></li>
+  </ul>
+  <p>本站已將上述模型擷取、合併、減面並重新定位（二尖瓣前葉、三尖瓣前葉、前外側乳頭肌、對角支與 PDA 取自 BodyParts3D 並對齊到 Z-Anatomy 心臟）。改作後的模型檔（models/*.glb）依相同條件以 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant" target="_blank" rel="noopener">CC BY-SA 4.0</a> 釋出。</p>
+  <p><b>程式</b>：Three.js（MIT License）。</p>
+  <p><b>教學說明文字</b>：謝慕揚醫師撰寫，供院內教學使用。</p>
+  <p class="muted">模型為一般成人解剖的示意，個別病人的分支型態、分叉高度與優勢側都有變異，臨床判讀仍以影像為準。</p>
+  <form method="dialog"><button>關閉</button></form>
+</dialog>
+
+<script type="module" src="assets/viewer.js"></script>
+</body>
+</html>

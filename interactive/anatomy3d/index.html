@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3D 血管解剖｜心臟・下肢・頭頸部</title>
+<style>
+  :root { --accent: #9b1c31; --ink: #1f2933; --muted: #6b7280; --line: #e3ddd2; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f4f1ec; color: var(--ink); font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif; line-height: 1.65; }
+  main { max-width: 980px; margin: 0 auto; padding: 36px 20px 48px; }
+  h1 { margin: 0 0 6px; font-size: 28px; color: var(--accent); }
+  .lead { color: #4b5563; margin: 0 0 26px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 12px; padding: 18px 20px; text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,0,0,.08); }
+  .card h2 { margin: 0 0 4px; font-size: 20px; }
+  .card .en { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+  .card p { margin: 0 0 10px; font-size: 14.5px; }
+  .card ul { margin: 0; padding-left: 18px; font-size: 13.5px; color: #4b5563; }
+  h3 { margin: 32px 0 8px; font-size: 17px; }
+  .how { font-size: 14.5px; }
+  footer { margin-top: 34px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>3D 血管解剖</h1>
+  <p class="lead">給技術員、住院醫師與進修醫師的互動教材。可旋轉、勾選、調透明度，點選構造看中英名稱與臨床重點；導管室與超音波常用的角度都做成一鍵視角。</p>
+
+  <div class="cards">
+    <a class="card" href="viewer.html?r=heart">
+      <h2>心臟</h2><div class="en">Heart</div>
+      <p>心腔、四組瓣膜、乳頭肌、冠狀動脈與冠狀靜脈。</p>
+      <ul><li>RAO／LAO、spider view 等導管室投影</li><li>二尖瓣裝置與冠狀竇、LCx 的關係</li><li>從主動脈看主動脈瓣與冠脈開口</li></ul>
+    </a>
+    <a class="card" href="viewer.html?r=lower-limb">
+      <h2>下肢周邊血管</h2><div class="en">Lower-limb vessels</div>
+      <p>腹主動脈分叉到足背、足底，深、淺靜脈可另外打開。</p>
+      <ul><li>CFA 分叉同側斜位、主動脈分叉對側斜位</li><li>股骨頭、腹股溝韌帶、內收肌管地標</li><li>膝窩與膝下三分支</li></ul>
+    </a>
+    <a class="card" href="viewer.html?r=head-neck">
+      <h2>頭頸部血管</h2><div class="en">Head &amp; neck vessels</div>
+      <p>主動脈弓分支、頸動脈分叉、椎動脈與 Willis 環。</p>
+      <ul><li>甲狀軟骨、舌骨、頸椎對照分叉高度</li><li>胸鎖乳突肌與甲狀腺聲窗</li><li>Willis 環上下兩個方向</li></ul>
+    </a>
+  </div>
+
+  <h3>操作方式</h3>
+  <p class="how">滑鼠拖曳旋轉、右鍵（或雙指）平移、滾輪縮放；點一下構造看說明，雙擊把它移到畫面中央。左側清單可整組開關、調整透明度；「透視模式」把心肌壁與骨骼調成半透明。「截圖」會連同標籤一起下載，可以直接放進投影片。</p>
+
+  <footer>
+    3D 模型改作自 <a href="https://github.com/LluisV/Z-Anatomy" target="_blank" rel="noopener">Z-Anatomy</a>（CC BY-SA 4.0）與
+    <a href="https://lifesciencedb.jp/bp3d/" target="_blank" rel="noopener">BodyParts3D</a> © DBCLS（CC BY-SA 2.1 JP）；改作後的模型檔以 CC BY-SA 4.0 釋出。
+    程式使用 Three.js（MIT）。詳見 <a href="LICENSES.md">授權說明</a>。模型為一般成人解剖示意，個別病人的變異仍以影像為準。
+  </footer>
+</main>
+</body>
+</html>

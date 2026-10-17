@@ -1,0 +1,1597 @@
+{
+ "id": "lower-limb",
+ "title": {
+  "zh": "下肢周邊血管",
+  "en": "Lower-limb vessels"
+ },
+ "intro": "從腹主動脈分叉到足背、足底。可對照股骨頭、腹股溝韌帶、內收肌管與膝窩等穿刺及超音波地標。",
+ "groups": [
+  {
+   "id": "aortoiliac",
+   "zh": "主動脈與髂動脈",
+   "en": "Aorto-iliac",
+   "opacity": 1
+  },
+  {
+   "id": "femoral",
+   "zh": "股動脈",
+   "en": "Femoral",
+   "opacity": 1
+  },
+  {
+   "id": "bk",
+   "zh": "膝窩與膝下動脈",
+   "en": "Popliteal & below-knee",
+   "opacity": 1
+  },
+  {
+   "id": "foot",
+   "zh": "足部動脈",
+   "en": "Foot arteries",
+   "opacity": 1
+  },
+  {
+   "id": "deepv",
+   "zh": "深靜脈",
+   "en": "Deep veins",
+   "opacity": 1,
+   "hidden": true
+  },
+  {
+   "id": "supv",
+   "zh": "淺靜脈",
+   "en": "Superficial veins",
+   "opacity": 1,
+   "hidden": true
+  },
+  {
+   "id": "bone",
+   "zh": "骨骼",
+   "en": "Bones",
+   "opacity": 0.35
+  },
+  {
+   "id": "muscle",
+   "zh": "肌肉與韌帶地標",
+   "en": "Muscle landmarks",
+   "opacity": 0.45,
+   "hidden": true
+  }
+ ],
+ "views": [
+  {
+   "id": "ap",
+   "zh": "正面 AP",
+   "dir": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "pa",
+   "zh": "後面",
+   "dir": [
+    0,
+    0,
+    -1
+   ]
+  },
+  {
+   "id": "rlat",
+   "zh": "右側面",
+   "dir": [
+    -1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "rmed",
+   "zh": "右腿內側面",
+   "dir": [
+    1,
+    0,
+    0
+   ],
+   "hide": [
+    "fa_l",
+    "pfa_l",
+    "femur_l",
+    "tib_l",
+    "fib_l",
+    "pop_l",
+    "ata_l",
+    "pta_l",
+    "pea_l",
+    "footb_l",
+    "hip_l",
+    "gsv_l",
+    "fv_l",
+    "popv_l",
+    "tibv_l",
+    "ssv_l",
+    "dp_l",
+    "pat_l",
+    "gen_l",
+    "perf_l",
+    "mcfa_l",
+    "lcfa_l",
+    "arc_l",
+    "mpa_l",
+    "lpa_l",
+    "parch_l",
+    "perfv_l",
+    "dvarch_l",
+    "dfv_l",
+    "sart_l",
+    "addl_l",
+    "addm_l",
+    "gast_l",
+    "sol_l",
+    "poplm_l"
+   ]
+  },
+  {
+   "id": "aobif",
+   "zh": "主動脈分叉 對側斜 LAO 25°",
+   "dir": {
+    "lr": 25,
+    "cc": 0
+   },
+   "target": "cia_r",
+   "span": 280
+  },
+  {
+   "id": "cfabif",
+   "zh": "右 CFA 分叉 同側斜 RAO 30°",
+   "dir": {
+    "lr": -30,
+    "cc": 0
+   },
+   "target": "pfa_r",
+   "tpos": "top",
+   "span": 240
+  },
+  {
+   "id": "popl",
+   "zh": "右膝窩（後面）",
+   "dir": [
+    0,
+    0,
+    -1
+   ],
+   "target": "pop_r",
+   "span": 300
+  },
+  {
+   "id": "trif",
+   "zh": "右膝下三分支 AP",
+   "dir": [
+    0,
+    0,
+    1
+   ],
+   "target": "pea_r",
+   "tpos": "top",
+   "span": 330
+  },
+  {
+   "id": "foot",
+   "zh": "右足（外上方）",
+   "dir": [
+    -0.5,
+    0.8,
+    0.6
+   ],
+   "target": "dp_r",
+   "span": 230
+  }
+ ],
+ "items": [
+  {
+   "k": "aa",
+   "zh": "腹主動脈",
+   "en": "Abdominal aorta",
+   "g": "aortoiliac",
+   "c": "#c62828",
+   "note": "約在 L4 高度（臍部附近）分叉成左右髂總動脈。腹主動脈瘤篩檢以外徑 ≥ 3.0 cm 為定義。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    6.5,
+    552.2,
+    -15.9
+   ]
+  },
+  {
+   "k": "cia_r",
+   "zh": "右髂總動脈",
+   "en": "Common iliac artery (R)",
+   "g": "aortoiliac",
+   "c": "#c62828",
+   "note": "在薦髂關節前方分成髂內與髂外動脈。看對側髂動脈分叉時用對側斜位 (contralateral oblique)。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -16.2,
+    398.2,
+    15.6
+   ]
+  },
+  {
+   "k": "cia_l",
+   "zh": "左髂總動脈",
+   "en": "Common iliac artery (L)",
+   "g": "aortoiliac",
+   "c": "#c62828",
+   "note": "在薦髂關節前方分成髂內與髂外動脈。看對側髂動脈分叉時用對側斜位 (contralateral oblique)。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    7.8,
+    394.8,
+    7.7
+   ]
+  },
+  {
+   "k": "iia_r",
+   "zh": "右髂內動脈",
+   "en": "Internal iliac artery (R)",
+   "g": "aortoiliac",
+   "c": "#e53935",
+   "note": "供應骨盆腔與臀部。EVAR 若需覆蓋髂內動脈，要評估臀部跛行 (buttock claudication) 與腸缺血風險。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -58.3,
+    304.4,
+    -66.4
+   ]
+  },
+  {
+   "k": "iia_l",
+   "zh": "左髂內動脈",
+   "en": "Internal iliac artery (L)",
+   "g": "aortoiliac",
+   "c": "#e53935",
+   "note": "供應骨盆腔與臀部。EVAR 若需覆蓋髂內動脈，要評估臀部跛行 (buttock claudication) 與腸缺血風險。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    58.1,
+    304.2,
+    -66.4
+   ]
+  },
+  {
+   "k": "eia_r",
+   "zh": "右髂外動脈",
+   "en": "External iliac artery (R)",
+   "g": "aortoiliac",
+   "c": "#c62828",
+   "note": "穿過腹股溝韌帶後改名為總股動脈。在韌帶上方穿刺（high stick）容易造成後腹腔出血。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -42.7,
+    328.8,
+    -10.7
+   ]
+  },
+  {
+   "k": "eia_l",
+   "zh": "左髂外動脈",
+   "en": "External iliac artery (L)",
+   "g": "aortoiliac",
+   "c": "#c62828",
+   "note": "穿過腹股溝韌帶後改名為總股動脈。在韌帶上方穿刺（high stick）容易造成後腹腔出血。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    42.7,
+    328.8,
+    -10.7
+   ]
+  },
+  {
+   "k": "fa_r",
+   "zh": "右股動脈（CFA→SFA）",
+   "en": "Femoral artery (CFA → SFA) (R)",
+   "g": "femoral",
+   "c": "#c62828",
+   "note": "腹股溝韌帶到分叉之間為總股動脈 (CFA)，理想穿刺點在股骨頭中下 1/3 的正前方。分叉後的 SFA 經內收肌管 (Hunter canal) 下行，是 PAD 最常見的病灶處。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -67.8,
+    104.6,
+    19.9
+   ]
+  },
+  {
+   "k": "fa_l",
+   "zh": "左股動脈（CFA→SFA）",
+   "en": "Femoral artery (CFA → SFA) (L)",
+   "g": "femoral",
+   "c": "#c62828",
+   "note": "腹股溝韌帶到分叉之間為總股動脈 (CFA)，理想穿刺點在股骨頭中下 1/3 的正前方。分叉後的 SFA 經內收肌管 (Hunter canal) 下行，是 PAD 最常見的病灶處。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    67.8,
+    104.6,
+    19.9
+   ]
+  },
+  {
+   "k": "pfa_r",
+   "zh": "右股深動脈 PFA",
+   "en": "Profunda femoris artery (R)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "通常在韌帶下 3–5 cm 由 CFA 後外側發出。看 CFA 分叉用同側斜位 (ipsilateral oblique)；SFA 閉塞時 PFA 是重要側枝。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -92,
+    111.2,
+    -12.5
+   ]
+  },
+  {
+   "k": "pfa_l",
+   "zh": "左股深動脈 PFA",
+   "en": "Profunda femoris artery (L)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "通常在韌帶下 3–5 cm 由 CFA 後外側發出。看 CFA 分叉用同側斜位 (ipsilateral oblique)；SFA 閉塞時 PFA 是重要側枝。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    92,
+    111.2,
+    -12.5
+   ]
+  },
+  {
+   "k": "mcfa_r",
+   "zh": "右旋股內側動脈",
+   "en": "Medial circumflex femoral artery (R)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "繞到股骨頸後方，是股骨頭的主要血流來源。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -75.3,
+    210.9,
+    -15.3
+   ]
+  },
+  {
+   "k": "mcfa_l",
+   "zh": "左旋股內側動脈",
+   "en": "Medial circumflex femoral artery (L)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "繞到股骨頸後方，是股骨頭的主要血流來源。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    75.3,
+    210.9,
+    -15.3
+   ]
+  },
+  {
+   "k": "lcfa_r",
+   "zh": "右旋股外側動脈",
+   "en": "Lateral circumflex femoral artery (R)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "其下行支沿大腿外側往膝部走，與膝部動脈形成側枝網。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -124.5,
+    68.8,
+    -11.5
+   ]
+  },
+  {
+   "k": "lcfa_l",
+   "zh": "左旋股外側動脈",
+   "en": "Lateral circumflex femoral artery (L)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "其下行支沿大腿外側往膝部走，與膝部動脈形成側枝網。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    124.5,
+    68.8,
+    -11.5
+   ]
+  },
+  {
+   "k": "perf_r",
+   "zh": "右穿通動脈",
+   "en": "Perforating arteries (R)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "PFA 穿過內收大肌到大腿後方的分支，SFA 閉塞時與膝部側枝相連。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -94,
+    67.4,
+    -5.6
+   ]
+  },
+  {
+   "k": "perf_l",
+   "zh": "左穿通動脈",
+   "en": "Perforating arteries (L)",
+   "g": "femoral",
+   "c": "#e53935",
+   "note": "PFA 穿過內收大肌到大腿後方的分支，SFA 閉塞時與膝部側枝相連。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    94,
+    67.4,
+    -5.6
+   ]
+  },
+  {
+   "k": "pop_r",
+   "zh": "右膕動脈",
+   "en": "Popliteal artery (R)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "從內收肌裂孔 (adductor hiatus) 開始，到膕肌下緣分成脛前動脈與脛腓幹 (TPT)。膕動脈瘤常為雙側，要一起檢查。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -71.1,
+    -142.4,
+    -67.2
+   ]
+  },
+  {
+   "k": "pop_l",
+   "zh": "左膕動脈",
+   "en": "Popliteal artery (L)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "從內收肌裂孔 (adductor hiatus) 開始，到膕肌下緣分成脛前動脈與脛腓幹 (TPT)。膕動脈瘤常為雙側，要一起檢查。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    71.1,
+    -142.4,
+    -67.2
+   ]
+  },
+  {
+   "k": "gen_r",
+   "zh": "右膝部動脈",
+   "en": "Genicular arteries (R)",
+   "g": "bk",
+   "c": "#e53935",
+   "note": "膝關節周圍的側枝網，膕動脈閉塞時維持遠端血流。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -67.4,
+    -130.4,
+    -61.8
+   ]
+  },
+  {
+   "k": "gen_l",
+   "zh": "左膝部動脈",
+   "en": "Genicular arteries (L)",
+   "g": "bk",
+   "c": "#e53935",
+   "note": "膝關節周圍的側枝網，膕動脈閉塞時維持遠端血流。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    67.8,
+    -129.8,
+    -62.2
+   ]
+  },
+  {
+   "k": "ata_r",
+   "zh": "右脛前動脈 ATA",
+   "en": "Anterior tibial artery (R)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "穿過骨間膜到小腿前腔室，沿脛骨外側下行，過踝關節後延續為足背動脈。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -100.7,
+    -403.2,
+    -37
+   ]
+  },
+  {
+   "k": "ata_l",
+   "zh": "左脛前動脈 ATA",
+   "en": "Anterior tibial artery (L)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "穿過骨間膜到小腿前腔室，沿脛骨外側下行，過踝關節後延續為足背動脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    100.7,
+    -403.2,
+    -37
+   ]
+  },
+  {
+   "k": "pta_r",
+   "zh": "右脛後動脈 PTA",
+   "en": "Posterior tibial artery (R)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "由脛腓幹延續，走在小腿深層後腔室，經內踝後方進入足底。內踝後方是觸診與都卜勒的位置。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -72.9,
+    -370.8,
+    -63.6
+   ]
+  },
+  {
+   "k": "pta_l",
+   "zh": "左脛後動脈 PTA",
+   "en": "Posterior tibial artery (L)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "由脛腓幹延續，走在小腿深層後腔室，經內踝後方進入足底。內踝後方是觸診與都卜勒的位置。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    72.9,
+    -370.8,
+    -63.6
+   ]
+  },
+  {
+   "k": "pea_r",
+   "zh": "右腓動脈 Peroneal",
+   "en": "Peroneal (fibular) artery (R)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "由脛腓幹發出，沿腓骨內側下行，止於踝部。糖尿病 PAD 常見 ATA、PTA 閉塞而腓動脈相對保留。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -101.3,
+    -393.1,
+    -83.3
+   ]
+  },
+  {
+   "k": "pea_l",
+   "zh": "左腓動脈 Peroneal",
+   "en": "Peroneal (fibular) artery (L)",
+   "g": "bk",
+   "c": "#c62828",
+   "note": "由脛腓幹發出，沿腓骨內側下行，止於踝部。糖尿病 PAD 常見 ATA、PTA 閉塞而腓動脈相對保留。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    101.3,
+    -393.1,
+    -83.3
+   ]
+  },
+  {
+   "k": "dp_r",
+   "zh": "右足背動脈 DP",
+   "en": "Dorsalis pedis artery (R)",
+   "g": "foot",
+   "c": "#c62828",
+   "note": "位於伸拇長肌腱外側的足背上，是 ABI 量測與觸診點之一。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -78.5,
+    -541.1,
+    1.7
+   ]
+  },
+  {
+   "k": "dp_l",
+   "zh": "左足背動脈 DP",
+   "en": "Dorsalis pedis artery (L)",
+   "g": "foot",
+   "c": "#c62828",
+   "note": "位於伸拇長肌腱外側的足背上，是 ABI 量測與觸診點之一。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    78.5,
+    -541.1,
+    1.7
+   ]
+  },
+  {
+   "k": "arc_r",
+   "zh": "右弓狀動脈與足底深支",
+   "en": "Arcuate & deep plantar arteries (R)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "足底深支穿過第一、二蹠骨間與足底弓相連，構成足背與足底之間的迴路 (pedal loop)。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -100.8,
+    -549.4,
+    -3.4
+   ]
+  },
+  {
+   "k": "arc_l",
+   "zh": "左弓狀動脈與足底深支",
+   "en": "Arcuate & deep plantar arteries (L)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "足底深支穿過第一、二蹠骨間與足底弓相連，構成足背與足底之間的迴路 (pedal loop)。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    100.8,
+    -549.4,
+    -3.4
+   ]
+  },
+  {
+   "k": "mpa_r",
+   "zh": "右足底內側動脈",
+   "en": "Medial plantar artery (R)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "脛後動脈在足底的分支之一，走在足底內側。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -60,
+    -572.4,
+    5.7
+   ]
+  },
+  {
+   "k": "mpa_l",
+   "zh": "左足底內側動脈",
+   "en": "Medial plantar artery (L)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "脛後動脈在足底的分支之一，走在足底內側。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    60,
+    -572.4,
+    5.7
+   ]
+  },
+  {
+   "k": "lpa_r",
+   "zh": "右足底外側動脈",
+   "en": "Lateral plantar artery (R)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "脛後動脈較大的足底分支，延續成足底弓。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -83.5,
+    -580.9,
+    -39.1
+   ]
+  },
+  {
+   "k": "lpa_l",
+   "zh": "左足底外側動脈",
+   "en": "Lateral plantar artery (L)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "脛後動脈較大的足底分支，延續成足底弓。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    83.5,
+    -580.9,
+    -39.1
+   ]
+  },
+  {
+   "k": "parch_r",
+   "zh": "右足底弓",
+   "en": "Plantar arch (R)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "依血管供應區 (angiosome) 概念，足底弓是否完整影響 BTK 介入後的傷口癒合。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -97.6,
+    -574.4,
+    11.5
+   ]
+  },
+  {
+   "k": "parch_l",
+   "zh": "左足底弓",
+   "en": "Plantar arch (L)",
+   "g": "foot",
+   "c": "#e53935",
+   "note": "依血管供應區 (angiosome) 概念，足底弓是否完整影響 BTK 介入後的傷口癒合。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    97.6,
+    -574.4,
+    11.5
+   ]
+  },
+  {
+   "k": "civ_r",
+   "zh": "右髂總靜脈",
+   "en": "Common iliac vein (R)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "左髂總靜脈被右髂總動脈壓在腰椎上，形成 May-Thurner 症候群，左下肢 DVT 較多與此有關。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -17.1,
+    395.9,
+    -1.9
+   ]
+  },
+  {
+   "k": "civ_l",
+   "zh": "左髂總靜脈",
+   "en": "Common iliac vein (L)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "左髂總靜脈被右髂總動脈壓在腰椎上，形成 May-Thurner 症候群，左下肢 DVT 較多與此有關。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    1.5,
+    394.7,
+    2.3
+   ]
+  },
+  {
+   "k": "eiv_r",
+   "zh": "右髂外靜脈",
+   "en": "External iliac vein (R)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "位在髂外動脈內側，穿過腹股溝韌帶後成為總股靜脈。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -37.5,
+    325,
+    -3.6
+   ]
+  },
+  {
+   "k": "eiv_l",
+   "zh": "左髂外靜脈",
+   "en": "External iliac vein (L)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "位在髂外動脈內側，穿過腹股溝韌帶後成為總股靜脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    37.5,
+    325,
+    -3.6
+   ]
+  },
+  {
+   "k": "iiv_r",
+   "zh": "右髂內靜脈",
+   "en": "Internal iliac vein (R)",
+   "g": "deepv",
+   "c": "#4f83c9",
+   "note": "匯集骨盆腔靜脈。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -27,
+    350.6,
+    -16.9
+   ]
+  },
+  {
+   "k": "iiv_l",
+   "zh": "左髂內靜脈",
+   "en": "Internal iliac vein (L)",
+   "g": "deepv",
+   "c": "#4f83c9",
+   "note": "匯集骨盆腔靜脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    27,
+    350.6,
+    -16.9
+   ]
+  },
+  {
+   "k": "fv_r",
+   "zh": "右股靜脈",
+   "en": "Femoral vein (R)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "在腹股溝位於股動脈內側（由外往內：神經、動脈、靜脈 NAV）。雖名為「淺」股靜脈，其實是深靜脈，DVT 報告不要寫 superficial femoral vein。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -62.3,
+    113.2,
+    19.2
+   ]
+  },
+  {
+   "k": "fv_l",
+   "zh": "左股靜脈",
+   "en": "Femoral vein (L)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "在腹股溝位於股動脈內側（由外往內：神經、動脈、靜脈 NAV）。雖名為「淺」股靜脈，其實是深靜脈，DVT 報告不要寫 superficial femoral vein。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    62.3,
+    113.2,
+    19.2
+   ]
+  },
+  {
+   "k": "dfv_r",
+   "zh": "右股深靜脈",
+   "en": "Deep femoral vein (R)",
+   "g": "deepv",
+   "c": "#4f83c9",
+   "note": "伴隨股深動脈，於腹股溝下方匯入股靜脈。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -85.6,
+    108.2,
+    11.6
+   ]
+  },
+  {
+   "k": "dfv_l",
+   "zh": "左股深靜脈",
+   "en": "Deep femoral vein (L)",
+   "g": "deepv",
+   "c": "#4f83c9",
+   "note": "伴隨股深動脈，於腹股溝下方匯入股靜脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    85.6,
+    108.2,
+    11.6
+   ]
+  },
+  {
+   "k": "popv_r",
+   "zh": "右膕靜脈",
+   "en": "Popliteal vein (R)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "在膝窩位於膕動脈淺層（靠近探頭）。壓迫超音波 (compression US) 檢查 DVT 的必看位置。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -78.6,
+    -123,
+    -57.8
+   ]
+  },
+  {
+   "k": "popv_l",
+   "zh": "左膕靜脈",
+   "en": "Popliteal vein (L)",
+   "g": "deepv",
+   "c": "#1e5aa8",
+   "note": "在膝窩位於膕動脈淺層（靠近探頭）。壓迫超音波 (compression US) 檢查 DVT 的必看位置。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    78.6,
+    -123,
+    -57.8
+   ]
+  },
+  {
+   "k": "tibv_r",
+   "zh": "右脛前、脛後與腓靜脈",
+   "en": "Tibial & peroneal veins (R)",
+   "g": "deepv",
+   "c": "#4f83c9",
+   "note": "小腿深靜脈多為成對伴行靜脈 (venae comitantes)，夾在同名動脈兩側。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -96.8,
+    -392.1,
+    -78.7
+   ]
+  },
+  {
+   "k": "tibv_l",
+   "zh": "左脛前、脛後與腓靜脈",
+   "en": "Tibial & peroneal veins (L)",
+   "g": "deepv",
+   "c": "#4f83c9",
+   "note": "小腿深靜脈多為成對伴行靜脈 (venae comitantes)，夾在同名動脈兩側。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    96.8,
+    -392.1,
+    -78.7
+   ]
+  },
+  {
+   "k": "gsv_r",
+   "zh": "右大隱靜脈 GSV",
+   "en": "Great saphenous vein (R)",
+   "g": "supv",
+   "c": "#3949ab",
+   "note": "從內踝前方沿小腿、大腿內側上行，在隱股交界 (SFJ) 注入總股靜脈，超音波上呈「米老鼠」(Mickey Mouse) 圖形。也是 CABG 的常用血管。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -35.3,
+    -309.8,
+    -73.1
+   ]
+  },
+  {
+   "k": "gsv_l",
+   "zh": "左大隱靜脈 GSV",
+   "en": "Great saphenous vein (L)",
+   "g": "supv",
+   "c": "#3949ab",
+   "note": "從內踝前方沿小腿、大腿內側上行，在隱股交界 (SFJ) 注入總股靜脈，超音波上呈「米老鼠」(Mickey Mouse) 圖形。也是 CABG 的常用血管。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    35.3,
+    -309.8,
+    -73.1
+   ]
+  },
+  {
+   "k": "ssv_r",
+   "zh": "右小隱靜脈 SSV",
+   "en": "Small saphenous vein (R)",
+   "g": "supv",
+   "c": "#3949ab",
+   "note": "從外踝後方沿小腿後側中線上行，在膝窩隱膕交界 (SPJ) 注入膕靜脈，位置變異大。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -86.8,
+    -349.4,
+    -111
+   ]
+  },
+  {
+   "k": "ssv_l",
+   "zh": "左小隱靜脈 SSV",
+   "en": "Small saphenous vein (L)",
+   "g": "supv",
+   "c": "#3949ab",
+   "note": "從外踝後方沿小腿後側中線上行，在膝窩隱膕交界 (SPJ) 注入膕靜脈，位置變異大。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    86.8,
+    -349.4,
+    -111
+   ]
+  },
+  {
+   "k": "perfv_r",
+   "zh": "右穿通靜脈",
+   "en": "Perforating veins (R)",
+   "g": "supv",
+   "c": "#5c6bc0",
+   "note": "連接淺、深靜脈。逆流的穿通靜脈與靜脈潰瘍有關。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -100.6,
+    60,
+    -2.8
+   ]
+  },
+  {
+   "k": "perfv_l",
+   "zh": "左穿通靜脈",
+   "en": "Perforating veins (L)",
+   "g": "supv",
+   "c": "#5c6bc0",
+   "note": "連接淺、深靜脈。逆流的穿通靜脈與靜脈潰瘍有關。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    100.6,
+    60,
+    -2.8
+   ]
+  },
+  {
+   "k": "dvarch_r",
+   "zh": "右足背靜脈弓",
+   "en": "Dorsal venous arch (R)",
+   "g": "supv",
+   "c": "#5c6bc0",
+   "note": "內側延續為大隱靜脈、外側延續為小隱靜脈。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -110.5,
+    -558.3,
+    -13.2
+   ]
+  },
+  {
+   "k": "dvarch_l",
+   "zh": "左足背靜脈弓",
+   "en": "Dorsal venous arch (L)",
+   "g": "supv",
+   "c": "#5c6bc0",
+   "note": "內側延續為大隱靜脈、外側延續為小隱靜脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    110.5,
+    -558.3,
+    -13.2
+   ]
+  },
+  {
+   "k": "l45",
+   "zh": "第 4–5 腰椎",
+   "en": "L4–L5 vertebrae",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "主動脈分叉約在 L4 高度。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    389.1,
+    -64.5
+   ]
+  },
+  {
+   "k": "sac",
+   "zh": "薦骨",
+   "en": "Sacrum",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    313.3,
+    -83.2
+   ]
+  },
+  {
+   "k": "hip_r",
+   "zh": "右髖骨",
+   "en": "Hip bone (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "腹股溝韌帶由髂前上棘 (ASIS) 拉到恥骨結節，是區分髂外與股動脈的界線。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -84.1,
+    302.5,
+    -35.1
+   ]
+  },
+  {
+   "k": "hip_l",
+   "zh": "左髖骨",
+   "en": "Hip bone (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "腹股溝韌帶由髂前上棘 (ASIS) 拉到恥骨結節，是區分髂外與股動脈的界線。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    84.1,
+    302.5,
+    -35.1
+   ]
+  },
+  {
+   "k": "femur_r",
+   "zh": "右股骨",
+   "en": "Femur (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "透視下以股骨頭定位 CFA 穿刺點，可降低 high stick 與 low stick 的機會。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -95,
+    49.1,
+    -31.7
+   ]
+  },
+  {
+   "k": "femur_l",
+   "zh": "左股骨",
+   "en": "Femur (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "透視下以股骨頭定位 CFA 穿刺點，可降低 high stick 與 low stick 的機會。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    95,
+    49.1,
+    -31.7
+   ]
+  },
+  {
+   "k": "pat_r",
+   "zh": "右髕骨",
+   "en": "Patella (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -84.2,
+    -167.2,
+    -16.2
+   ]
+  },
+  {
+   "k": "pat_l",
+   "zh": "左髕骨",
+   "en": "Patella (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    84.2,
+    -167.2,
+    -16.2
+   ]
+  },
+  {
+   "k": "tib_r",
+   "zh": "右脛骨",
+   "en": "Tibia (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -72,
+    -354.6,
+    -47
+   ]
+  },
+  {
+   "k": "tib_l",
+   "zh": "左脛骨",
+   "en": "Tibia (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    72,
+    -354.6,
+    -47
+   ]
+  },
+  {
+   "k": "fib_r",
+   "zh": "右腓骨",
+   "en": "Fibula (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -99.9,
+    -374.9,
+    -60
+   ]
+  },
+  {
+   "k": "fib_l",
+   "zh": "左腓骨",
+   "en": "Fibula (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    99.9,
+    -374.9,
+    -60
+   ]
+  },
+  {
+   "k": "footb_r",
+   "zh": "右足部骨骼",
+   "en": "Foot bones (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -91.7,
+    -561.4,
+    8.5
+   ]
+  },
+  {
+   "k": "footb_l",
+   "zh": "左足部骨骼",
+   "en": "Foot bones (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    91.7,
+    -561.4,
+    8.5
+   ]
+  },
+  {
+   "k": "ingl_r",
+   "zh": "右腹股溝韌帶",
+   "en": "Inguinal ligament (R)",
+   "g": "muscle",
+   "c": "#d8c39a",
+   "note": "體表由 ASIS 到恥骨結節。它是解剖界線，但皮膚皺摺不一定在韌帶上，穿刺仍以股骨頭為準。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -82.8,
+    285.3,
+    34.7
+   ]
+  },
+  {
+   "k": "ingl_l",
+   "zh": "左腹股溝韌帶",
+   "en": "Inguinal ligament (L)",
+   "g": "muscle",
+   "c": "#d8c39a",
+   "note": "體表由 ASIS 到恥骨結節。它是解剖界線，但皮膚皺摺不一定在韌帶上，穿刺仍以股骨頭為準。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    82.8,
+    285.3,
+    34.7
+   ]
+  },
+  {
+   "k": "sart_r",
+   "zh": "右縫匠肌",
+   "en": "Sartorius (R)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "構成內收肌管的頂，SFA 在大腿中段走在縫匠肌深層。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -49.2,
+    37.1,
+    9.8
+   ]
+  },
+  {
+   "k": "sart_l",
+   "zh": "左縫匠肌",
+   "en": "Sartorius (L)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "構成內收肌管的頂，SFA 在大腿中段走在縫匠肌深層。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    49.2,
+    37.1,
+    9.8
+   ]
+  },
+  {
+   "k": "addl_r",
+   "zh": "右內收長肌",
+   "en": "Adductor longus (R)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "構成股三角內側界與內收肌管的後壁。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -66.8,
+    98.1,
+    16.2
+   ]
+  },
+  {
+   "k": "addl_l",
+   "zh": "左內收長肌",
+   "en": "Adductor longus (L)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "構成股三角內側界與內收肌管的後壁。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    66.8,
+    98.1,
+    16.2
+   ]
+  },
+  {
+   "k": "addm_r",
+   "zh": "右內收大肌",
+   "en": "Adductor magnus (R)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "其肌腱上的裂孔 (adductor hiatus) 是 SFA 與膕動脈的分界。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -70.6,
+    26.6,
+    -16.8
+   ]
+  },
+  {
+   "k": "addm_l",
+   "zh": "左內收大肌",
+   "en": "Adductor magnus (L)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "其肌腱上的裂孔 (adductor hiatus) 是 SFA 與膕動脈的分界。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    70.6,
+    26.6,
+    -16.8
+   ]
+  },
+  {
+   "k": "poplm_r",
+   "zh": "右膕肌",
+   "en": "Popliteus (R)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "膕動脈在膕肌下緣分叉。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -87.6,
+    -204.8,
+    -64.4
+   ]
+  },
+  {
+   "k": "poplm_l",
+   "zh": "左膕肌",
+   "en": "Popliteus (L)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "膕動脈在膕肌下緣分叉。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    87.6,
+    -204.8,
+    -64.4
+   ]
+  },
+  {
+   "k": "gast_r",
+   "zh": "右腓腸肌",
+   "en": "Gastrocnemius (R)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "膕動脈壓迫症候群 (popliteal entrapment) 與腓腸肌內側頭位置異常有關。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -78.7,
+    -253.8,
+    -88.7
+   ]
+  },
+  {
+   "k": "gast_l",
+   "zh": "左腓腸肌",
+   "en": "Gastrocnemius (L)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "膕動脈壓迫症候群 (popliteal entrapment) 與腓腸肌內側頭位置異常有關。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    78.7,
+    -253.8,
+    -88.7
+   ]
+  },
+  {
+   "k": "sol_r",
+   "zh": "右比目魚肌",
+   "en": "Soleus (R)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "比目魚肌靜脈竇是小腿 DVT 常見起點。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -76.5,
+    -340.7,
+    -62
+   ]
+  },
+  {
+   "k": "sol_l",
+   "zh": "左比目魚肌",
+   "en": "Soleus (L)",
+   "g": "muscle",
+   "c": "#a8574f",
+   "note": "比目魚肌靜脈竇是小腿 DVT 常見起點。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    76.5,
+    -340.7,
+    -62
+   ]
+  }
+ ],
+ "bbox": {
+  "min": [
+   -148.5309066772461,
+   -600.6838936805725,
+   -121.86508178710938
+  ],
+  "max": [
+   148.5309066772461,
+   600.6838936805725,
+   121.86508178710938
+  ]
+ }
+}

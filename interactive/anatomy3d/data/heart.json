@@ -1,0 +1,907 @@
+{
+ "id": "heart",
+ "title": {
+  "zh": "心臟",
+  "en": "Heart"
+ },
+ "intro": "心腔、瓣膜、乳頭肌、冠狀動脈與冠狀靜脈。視角可切換成導管室常用的 RAO／LAO 投影，也可單獨看二尖瓣裝置與冠狀竇、LCx 的關係，或從主動脈往下看主動脈瓣。",
+ "groups": [
+  {
+   "id": "chamber",
+   "zh": "心腔（心肌壁）",
+   "en": "Chambers",
+   "opacity": 1
+  },
+  {
+   "id": "valve",
+   "zh": "瓣膜",
+   "en": "Valves",
+   "opacity": 1
+  },
+  {
+   "id": "papillary",
+   "zh": "乳頭肌",
+   "en": "Papillary muscles",
+   "opacity": 1
+  },
+  {
+   "id": "coro",
+   "zh": "冠狀動脈",
+   "en": "Coronary arteries",
+   "opacity": 1
+  },
+  {
+   "id": "cvein",
+   "zh": "冠狀靜脈",
+   "en": "Cardiac veins",
+   "opacity": 1
+  },
+  {
+   "id": "great",
+   "zh": "大血管",
+   "en": "Great vessels",
+   "opacity": 1
+  },
+  {
+   "id": "pv",
+   "zh": "肺靜脈",
+   "en": "Pulmonary veins",
+   "opacity": 1
+  }
+ ],
+ "views": [
+  {
+   "id": "ap",
+   "zh": "正面 AP",
+   "dir": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "rao30",
+   "zh": "RAO 30°",
+   "dir": {
+    "lr": -30,
+    "cc": 0
+   }
+  },
+  {
+   "id": "lao45",
+   "zh": "LAO 45°",
+   "dir": {
+    "lr": 45,
+    "cc": 0
+   }
+  },
+  {
+   "id": "spider",
+   "zh": "LAO 45° Caudal 30°（spider）",
+   "dir": {
+    "lr": 45,
+    "cc": -30
+   }
+  },
+  {
+   "id": "raocaud",
+   "zh": "RAO 30° Caudal 25°",
+   "dir": {
+    "lr": -30,
+    "cc": -25
+   }
+  },
+  {
+   "id": "aocran",
+   "zh": "AP Cranial 30°",
+   "dir": {
+    "lr": 0,
+    "cc": 30
+   }
+  },
+  {
+   "id": "laocran",
+   "zh": "LAO 30° Cranial 25°",
+   "dir": {
+    "lr": 30,
+    "cc": 25
+   }
+  },
+  {
+   "id": "inf",
+   "zh": "下面（橫膈面）",
+   "dir": [
+    0,
+    -1,
+    0.02
+   ],
+   "up": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "post",
+   "zh": "後面",
+   "dir": [
+    0,
+    0,
+    -1
+   ]
+  },
+  {
+   "id": "mvsurg",
+   "zh": "二尖瓣裝置（左心房側）",
+   "from": "la",
+   "target": "mv_a",
+   "upTo": "av_n",
+   "solo": [
+    "mv_a",
+    "mv_p",
+    "pm_al",
+    "pm_pm",
+    "lcx",
+    "cs",
+    "gcv"
+   ],
+   "span": 95
+  },
+  {
+   "id": "avtavi",
+   "zh": "從升主動脈看主動脈瓣",
+   "from": "aao",
+   "target": "av_n",
+   "upTo": "pv_r",
+   "solo": [
+    "av_l",
+    "av_r",
+    "av_n",
+    "mv_a",
+    "mv_p",
+    "lm",
+    "rca",
+    "lad",
+    "lcx",
+    "pv_a",
+    "pv_l",
+    "pv_r"
+   ],
+   "span": 80
+  }
+ ],
+ "items": [
+  {
+   "k": "ra",
+   "zh": "右心房",
+   "en": "Right atrium",
+   "g": "chamber",
+   "c": "#8aa4d6",
+   "note": "接收上、下腔靜脈與冠狀竇的回流。冠狀竇開口位在三尖瓣中隔葉附近，是 CRT 左心室導線的入口。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -54.7,
+    2.1,
+    9.3
+   ]
+  },
+  {
+   "k": "rv",
+   "zh": "右心室",
+   "en": "Right ventricle",
+   "g": "chamber",
+   "c": "#6f8fd0",
+   "note": "位在最前方、緊貼胸骨後。新月形包著左心室，所以 PLAX 切面上看到的是右心室流出道 (RVOT)。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    5.2,
+    -6.5,
+    28.4
+   ]
+  },
+  {
+   "k": "la",
+   "zh": "左心房",
+   "en": "Left atrium",
+   "g": "chamber",
+   "c": "#e09a9a",
+   "note": "位置最後方，緊貼食道，所以 TEE 看左心房與二尖瓣最清楚。左心耳 (LAA) 是心房顫動血栓的好發處。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -0.2,
+    14.3,
+    -13.7
+   ]
+  },
+  {
+   "k": "lv",
+   "zh": "左心室",
+   "en": "Left ventricle",
+   "g": "chamber",
+   "c": "#c86a6a",
+   "note": "心尖朝左前下。17 節段分區對應三條冠狀動脈的灌流區，是判讀 wall motion 的基礎。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    46.7,
+    -8.4,
+    6.1
+   ]
+  },
+  {
+   "k": "av_l",
+   "zh": "主動脈瓣 左冠瓣",
+   "en": "Aortic valve – left coronary cusp",
+   "g": "valve",
+   "c": "#f1dfae",
+   "note": "左主幹 (LM) 由此瓣上方的竇開口。TAVI 時要評估瓣葉高度與冠脈開口距離，預防冠脈阻塞。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0.6,
+    18.8,
+    5.9
+   ]
+  },
+  {
+   "k": "av_r",
+   "zh": "主動脈瓣 右冠瓣",
+   "en": "Aortic valve – right coronary cusp",
+   "g": "valve",
+   "c": "#f1dfae",
+   "note": "最前方的瓣葉，右冠狀動脈由此竇開口。三個瓣葉合稱主動脈瓣，交界處 (commissure) 對位是 TAVI 的重點。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -10.3,
+    18.7,
+    10.6
+   ]
+  },
+  {
+   "k": "av_n",
+   "zh": "主動脈瓣 無冠瓣",
+   "en": "Aortic valve – non-coronary cusp",
+   "g": "valve",
+   "c": "#f1dfae",
+   "note": "位置最後方，貼近心房中隔。與左冠瓣之間經由主動脈－二尖瓣簾 (aortomitral curtain) 連到二尖瓣前葉。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -12.1,
+    15.1,
+    2.7
+   ]
+  },
+  {
+   "k": "pv_a",
+   "zh": "肺動脈瓣 前瓣",
+   "en": "Pulmonary valve – anterior cusp",
+   "g": "valve",
+   "c": "#e8d9b4",
+   "note": "肺動脈瓣位置比主動脈瓣更前、更高，兩者瓣環平面幾乎互相垂直。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    11.1,
+    18.1,
+    37.4
+   ]
+  },
+  {
+   "k": "pv_l",
+   "zh": "肺動脈瓣 左瓣",
+   "en": "Pulmonary valve – left cusp",
+   "g": "valve",
+   "c": "#e8d9b4",
+   "note": "肺動脈瓣三個瓣葉，於 PSAX 主動脈瓣層面可在主動脈的右前方看到。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    10.7,
+    21.8,
+    17.5
+   ]
+  },
+  {
+   "k": "pv_r",
+   "zh": "肺動脈瓣",
+   "en": "Pulmonary valve – right cusp",
+   "g": "valve",
+   "c": "#e8d9b4",
+   "note": "肺動脈瓣三個瓣葉，於 PSAX 主動脈瓣層面可在主動脈的右前方看到。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -10.4,
+    26.6,
+    33.8
+   ]
+  },
+  {
+   "k": "mv_a",
+   "zh": "二尖瓣前葉",
+   "en": "Mitral valve – anterior leaflet (A1–A3)",
+   "g": "valve",
+   "c": "#f6e3b0",
+   "note": "面積大、瓣環附著短，與主動脈瓣以纖維連續。分 A1／A2／A3 三段；MitraClip／TEER 最常夾 A2–P2。（模型取自 BodyParts3D，已對齊）",
+   "lab": true,
+   "side": null,
+   "src": "BodyParts3D",
+   "anchor": [
+    8.4,
+    -10,
+    4.2
+   ]
+  },
+  {
+   "k": "mv_p",
+   "zh": "二尖瓣後葉",
+   "en": "Mitral valve – posterior leaflet (P1–P3)",
+   "g": "valve",
+   "c": "#f6e3b0",
+   "note": "瓣環附著長、分 P1／P2／P3 三個 scallop。退化性 MR 以 P2 脫垂 (prolapse／flail) 最常見。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    17.5,
+    -9.7,
+    -14.3
+   ]
+  },
+  {
+   "k": "tv_a",
+   "zh": "三尖瓣前葉",
+   "en": "Tricuspid valve – anterior leaflet",
+   "g": "valve",
+   "c": "#efdcae",
+   "note": "三尖瓣最大的瓣葉。三尖瓣位置比二尖瓣更靠心尖（apical displacement 正常約 < 8 mm/m²）。（模型取自 BodyParts3D，已對齊）",
+   "lab": true,
+   "side": null,
+   "src": "BodyParts3D",
+   "anchor": [
+    -21.2,
+    -13.4,
+    28.4
+   ]
+  },
+  {
+   "k": "tv_s",
+   "zh": "三尖瓣中隔葉",
+   "en": "Tricuspid valve – septal leaflet",
+   "g": "valve",
+   "c": "#efdcae",
+   "note": "附著於心室中隔。旁邊有房室結與希氏束 (Koch 三角)，節律器導線與 TEER 操作都要留意。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -10.3,
+    -2.2,
+    20.9
+   ]
+  },
+  {
+   "k": "tv_p",
+   "zh": "三尖瓣後（下）葉",
+   "en": "Tricuspid valve – posterior (inferior) leaflet",
+   "g": "valve",
+   "c": "#efdcae",
+   "note": "Z-Anatomy 稱 inferior leaflet，臨床多稱 posterior leaflet。RV inflow 切面可同時看到前葉與後葉。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -22.8,
+    -19.6,
+    12.6
+   ]
+  },
+  {
+   "k": "pm_al",
+   "zh": "前外側乳頭肌",
+   "en": "Anterolateral papillary muscle (LV)",
+   "g": "papillary",
+   "c": "#b4585a",
+   "note": "雙重血流供應（LAD 的對角支＋LCx 的鈍緣支），所以心肌梗塞後斷裂較少見。（模型取自 BodyParts3D）",
+   "lab": true,
+   "side": null,
+   "src": "BodyParts3D",
+   "anchor": [
+    27.1,
+    -21,
+    29.3
+   ]
+  },
+  {
+   "k": "pm_pm",
+   "zh": "後內側乳頭肌",
+   "en": "Posteromedial papillary muscle (LV)",
+   "g": "papillary",
+   "c": "#b4585a",
+   "note": "多半只由 PDA 單一供血，下壁梗塞後較容易斷裂，造成急性嚴重 MR。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    42.1,
+    -29.6,
+    14.8
+   ]
+  },
+  {
+   "k": "pm_ra",
+   "zh": "右心室前乳頭肌",
+   "en": "RV anterior papillary muscle",
+   "g": "papillary",
+   "c": "#9b6b8a",
+   "note": "最大的右心室乳頭肌，經調節束 (moderator band) 連到中隔，右束支走在調節束內。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    9,
+    -33.9,
+    49.3
+   ]
+  },
+  {
+   "k": "pm_rp",
+   "zh": "右心室後乳頭肌",
+   "en": "RV posterior (inferior) papillary muscle",
+   "g": "papillary",
+   "c": "#9b6b8a",
+   "note": "支撐三尖瓣後葉與中隔葉的腱索。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    1,
+    -45,
+    33.5
+   ]
+  },
+  {
+   "k": "pm_rs",
+   "zh": "右心室中隔乳頭肌",
+   "en": "RV septal papillary muscle",
+   "g": "papillary",
+   "c": "#9b6b8a",
+   "note": "細小、直接從中隔長出，三尖瓣中隔葉有腱索直接附著於中隔，是與二尖瓣的重要差異。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0.9,
+    -1,
+    23.8
+   ]
+  },
+  {
+   "k": "lm",
+   "zh": "左主幹 LM",
+   "en": "Left main coronary artery",
+   "g": "coro",
+   "c": "#d84315",
+   "note": "由左冠竇發出，走在肺動脈幹後方，分成 LAD 與 LCx。導管室看 LM 常用 AP caudal 或 LAO caudal (spider view)。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    6.9,
+    36.2,
+    8.5
+   ]
+  },
+  {
+   "k": "lad",
+   "zh": "左前降支 LAD",
+   "en": "Left anterior descending artery",
+   "g": "coro",
+   "c": "#d84315",
+   "note": "沿前室間溝下行，供應前壁、心尖與前 2/3 中隔。看 LAD 與對角支分叉常用 LAO cranial 與 AP cranial。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    31.3,
+    -17.3,
+    56.9
+   ]
+  },
+  {
+   "k": "sep",
+   "zh": "LAD 中隔支",
+   "en": "Septal perforators",
+   "g": "coro",
+   "c": "#ef6c00",
+   "note": "垂直穿入室中隔，RAO 看得最清楚。HOCM 酒精中隔消融 (ASA) 與 CTO 逆向路徑 (retrograde) 都會用到。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    25.3,
+    -4.2,
+    41.5
+   ]
+  },
+  {
+   "k": "diag",
+   "zh": "對角支 Diagonal",
+   "en": "Diagonal branches",
+   "g": "coro",
+   "c": "#ef6c00",
+   "note": "LAD 走向左心室側壁的分支。LAD／Diagonal 分叉病灶 (Medina 分類) 是 bifurcation PCI 的經典題目。（模型取自 BodyParts3D）",
+   "lab": true,
+   "side": null,
+   "src": "BodyParts3D",
+   "anchor": [
+    58.1,
+    -12.7,
+    36.9
+   ]
+  },
+  {
+   "k": "lcx",
+   "zh": "左迴旋支 LCx",
+   "en": "Left circumflex artery",
+   "g": "coro",
+   "c": "#d84315",
+   "note": "沿左房室溝往後走，發出鈍緣支 (OM) 供應側壁。看 LCx／OM 常用 RAO caudal；左優勢時 PDA 由 LCx 發出。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    29.7,
+    -5,
+    -25.6
+   ]
+  },
+  {
+   "k": "rca",
+   "zh": "右冠狀動脈 RCA",
+   "en": "Right coronary artery",
+   "g": "coro",
+   "c": "#d84315",
+   "note": "由右冠竇發出，沿右房室溝往下、往後繞到 crux。約 85% 為右優勢，供應下壁、竇房結與房室結。看 RCA 常用 LAO 30–45°。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -17.5,
+    8.9,
+    55.8
+   ]
+  },
+  {
+   "k": "pl",
+   "zh": "RCA 後側支 PL",
+   "en": "Posterolateral branch (RCA)",
+   "g": "coro",
+   "c": "#ef6c00",
+   "note": "RCA 越過 crux 後走向左心室下側壁的分支 (PLV)。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    25.3,
+    -51.4,
+    -4
+   ]
+  },
+  {
+   "k": "pda",
+   "zh": "後降支 PDA",
+   "en": "Posterior descending artery",
+   "g": "coro",
+   "c": "#ef6c00",
+   "note": "沿後室間溝走，供應下壁與後 1/3 中隔。由誰發出 PDA 決定冠脈優勢 (dominance)。（模型取自 BodyParts3D）",
+   "lab": true,
+   "side": null,
+   "src": "BodyParts3D",
+   "anchor": [
+    11.3,
+    -51.3,
+    20.3
+   ]
+  },
+  {
+   "k": "cs",
+   "zh": "冠狀竇 CS",
+   "en": "Coronary sinus",
+   "g": "cvein",
+   "c": "#3f51b5",
+   "note": "走在左房室溝後方，開口於右心房。PLAX 上在左心房後下方的小圓形結構；擴張時要想到 persistent left SVC。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -2.2,
+    -27.5,
+    -23.9
+   ]
+  },
+  {
+   "k": "gcv",
+   "zh": "心大靜脈",
+   "en": "Great cardiac vein",
+   "g": "cvein",
+   "c": "#5c6bc0",
+   "note": "伴隨 LAD 上行，再沿房室溝與 LCx 併行注入冠狀竇。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    30.8,
+    20.8,
+    18.6
+   ]
+  },
+  {
+   "k": "mcv",
+   "zh": "心中靜脈",
+   "en": "Middle cardiac vein",
+   "g": "cvein",
+   "c": "#5c6bc0",
+   "note": "伴隨 PDA 走在後室間溝，靠近冠狀竇開口處匯入。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    18,
+    -53.7,
+    31.4
+   ]
+  },
+  {
+   "k": "plv",
+   "zh": "左心室後（下）靜脈",
+   "en": "Posterior vein of LV",
+   "g": "cvein",
+   "c": "#5c6bc0",
+   "note": "與外側（緣）靜脈同為 CRT 左心室導線的目標分支，理想位置在側壁或後側壁、避開心尖。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    38.3,
+    -50.1,
+    -1.1
+   ]
+  },
+  {
+   "k": "aao",
+   "zh": "升主動脈",
+   "en": "Ascending aorta",
+   "g": "great",
+   "c": "#c62828",
+   "note": "PLAX 測量主動脈根部：瓣環、竇部 (sinus of Valsalva)、竇管交界 (STJ)、升主動脈四個位置。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -5.2,
+    43.8,
+    2.5
+   ]
+  },
+  {
+   "k": "arch",
+   "zh": "主動脈弓",
+   "en": "Aortic arch",
+   "g": "great",
+   "c": "#c62828",
+   "note": "依序發出頭臂幹、左頸總動脈、左鎖骨下動脈。胸骨上窩切面 (SSN) 可看到主動脈弓與降主動脈。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -10.2,
+    80.8,
+    -19.1
+   ]
+  },
+  {
+   "k": "dao",
+   "zh": "降主動脈（胸段）",
+   "en": "Descending thoracic aorta",
+   "g": "great",
+   "c": "#c62828",
+   "note": "PLAX 上位在左心房後方的圓形結構，可用來區分心包積液（在降主動脈前方）與肋膜積液（在後方）。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0.7,
+    -10.1,
+    -53.1
+   ]
+  },
+  {
+   "k": "bct",
+   "zh": "頭臂幹",
+   "en": "Brachiocephalic trunk",
+   "g": "great",
+   "c": "#c62828",
+   "note": "主動脈弓第一個分支，再分成右鎖骨下動脈與右頸總動脈。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -24.6,
+    105.2,
+    3.5
+   ]
+  },
+  {
+   "k": "pt",
+   "zh": "肺動脈幹",
+   "en": "Pulmonary trunk",
+   "g": "great",
+   "c": "#5e7fc7",
+   "note": "由右心室流出道往左後上走，在主動脈弓下方分成左、右肺動脈。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    3.8,
+    41.6,
+    9.8
+   ]
+  },
+  {
+   "k": "rpa",
+   "zh": "右肺動脈",
+   "en": "Right pulmonary artery",
+   "g": "great",
+   "c": "#5e7fc7",
+   "note": "從升主動脈後方、上腔靜脈後方穿過到右肺門。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -36.4,
+    52.3,
+    -24.2
+   ]
+  },
+  {
+   "k": "lpa",
+   "zh": "左肺動脈",
+   "en": "Left pulmonary artery",
+   "g": "great",
+   "c": "#5e7fc7",
+   "note": "跨過左主支氣管上方到左肺門，連接動脈韌帶 (ligamentum arteriosum)。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    38.5,
+    16.9,
+    -51.3
+   ]
+  },
+  {
+   "k": "svc",
+   "zh": "上腔靜脈",
+   "en": "Superior vena cava",
+   "g": "great",
+   "c": "#1e5aa8",
+   "note": "由左右頭臂靜脈匯合而成，注入右心房。中心靜脈導管尖端理想位置在 SVC 與右心房交界附近。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -40.2,
+    64.1,
+    15.1
+   ]
+  },
+  {
+   "k": "ivc",
+   "zh": "下腔靜脈",
+   "en": "Inferior vena cava",
+   "g": "great",
+   "c": "#1e5aa8",
+   "note": "肋下切面測 IVC 直徑與吸氣塌陷率，用來估計右心房壓。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -23.4,
+    -75.2,
+    -5.3
+   ]
+  },
+  {
+   "k": "rspv",
+   "zh": "右上肺靜脈",
+   "en": "Right superior pulmonary vein",
+   "g": "pv",
+   "c": "#b04a6a",
+   "note": "緊貼上腔靜脈後方，與 sinus venosus ASD 關係密切。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -51.6,
+    30.6,
+    -18.1
+   ]
+  },
+  {
+   "k": "ripv",
+   "zh": "右下肺靜脈",
+   "en": "Right inferior pulmonary vein",
+   "g": "pv",
+   "c": "#b04a6a",
+   "note": "四條肺靜脈注入左心房後壁，是心房顫動肺靜脈隔離術 (PVI) 的目標。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -36.3,
+    0.6,
+    -39.6
+   ]
+  },
+  {
+   "k": "lspv",
+   "zh": "左上肺靜脈",
+   "en": "Left superior pulmonary vein",
+   "g": "pv",
+   "c": "#b04a6a",
+   "note": "與左心耳之間隔著 Coumadin ridge（左側脊），TEE 上常被誤認為血栓。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    24.8,
+    24.7,
+    -23.8
+   ]
+  },
+  {
+   "k": "lipv",
+   "zh": "左下肺靜脈",
+   "en": "Left inferior pulmonary vein",
+   "g": "pv",
+   "c": "#b04a6a",
+   "note": "四條肺靜脈注入左心房後壁，是心房顫動肺靜脈隔離術 (PVI) 的目標。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    22.5,
+    0,
+    -37.7
+   ]
+  }
+ ],
+ "bbox": {
+  "min": [
+   -67.5002212524414,
+   -122.391845703125,
+   -65.32475471496582
+  ],
+  "max": [
+   67.5002212524414,
+   122.391845703125,
+   65.32475471496582
+  ]
+ }
+}

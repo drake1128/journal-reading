@@ -1,0 +1,30 @@
+---
+title: "3D 血管解剖"
+subtitle: "心臟・下肢周邊血管・頭頸部血管"
+page-layout: full
+toc: false
+---
+
+給技術員、住院醫師與進修醫師的互動教材。可旋轉、勾選、調透明度，點選構造看中英名稱與臨床重點。
+
+::: {.panel-tabset}
+
+## 心臟
+
+<iframe src="interactive/anatomy3d/viewer.html?r=heart" style="width:100%; height:78vh; border:1px solid #e3ddd2; border-radius:10px;" allowfullscreen loading="lazy" title="3D 心臟"></iframe>
+
+## 下肢周邊血管
+
+<iframe src="interactive/anatomy3d/viewer.html?r=lower-limb" style="width:100%; height:78vh; border:1px solid #e3ddd2; border-radius:10px;" allowfullscreen loading="lazy" title="3D 下肢周邊血管"></iframe>
+
+## 頭頸部血管
+
+<iframe src="interactive/anatomy3d/viewer.html?r=head-neck" style="width:100%; height:78vh; border:1px solid #e3ddd2; border-radius:10px;" allowfullscreen loading="lazy" title="3D 頭頸部血管"></iframe>
+
+:::
+
+[另開全螢幕版本](interactive/anatomy3d/index.html){target="_blank"}
+
+::: {.small .text-muted}
+3D 模型改作自 Z-Anatomy（CC BY-SA 4.0）與 BodyParts3D © DBCLS（CC BY-SA 2.1 JP），改作後的模型檔以 CC BY-SA 4.0 釋出；程式使用 Three.js（MIT）。模型為一般成人解剖示意，個別病人的變異仍以影像為準。
+:::

@@ -10,6 +10,10 @@ listing:
   categories: true
   sort: false
   contents:
+    - title: "3D 血管解剖 — 心臟・下肢周邊血管・頭頸部血管"
+      description: "可旋轉、勾選、調透明度的 3D 互動解剖。導管室 RAO／LAO 投影、CFA 分叉同側斜位、頸動脈分叉與 Willis 環一鍵切換，點選構造看臨床重點。"
+      path: anatomy-3d.qmd
+      categories: [3D 解剖 Anatomy, 周邊血管 Peripheral, 介入 Interventional]
     - title: "血管鞘 Sheath 一站式總整理 — 深度互動版"
       description: "深度互動投影片。鞘管尺寸選擇、止血裝置比較與拔管照護的一站式整理，導管室新進人員與病房共用。"
       path: handouts/classroom-teaching/vascular-access/Sheath_Comprehensive_Overview_Interactive.html

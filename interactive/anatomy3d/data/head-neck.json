@@ -1,0 +1,1564 @@
+{
+ "id": "head-neck",
+ "title": {
+  "zh": "頭頸部血管",
+  "en": "Head & neck vessels"
+ },
+ "intro": "主動脈弓分支、頸動脈分叉、椎動脈 V1–V4 與 Willis 環。可對照甲狀軟骨、舌骨、頸椎與胸鎖乳突肌，練習頸動脈超音波的定位。",
+ "groups": [
+  {
+   "id": "arch",
+   "zh": "主動脈弓與分支",
+   "en": "Arch & branches",
+   "opacity": 1
+  },
+  {
+   "id": "carotid",
+   "zh": "頸動脈",
+   "en": "Carotid arteries",
+   "opacity": 1
+  },
+  {
+   "id": "eca",
+   "zh": "外頸動脈分支",
+   "en": "ECA branches",
+   "opacity": 1
+  },
+  {
+   "id": "vb",
+   "zh": "椎基底動脈",
+   "en": "Vertebrobasilar",
+   "opacity": 1
+  },
+  {
+   "id": "willis",
+   "zh": "Willis 環與腦動脈",
+   "en": "Circle of Willis",
+   "opacity": 1
+  },
+  {
+   "id": "veins",
+   "zh": "頸部靜脈",
+   "en": "Neck veins",
+   "opacity": 1,
+   "hidden": true
+  },
+  {
+   "id": "sinus",
+   "zh": "硬腦膜靜脈竇",
+   "en": "Dural sinuses",
+   "opacity": 1,
+   "hidden": true
+  },
+  {
+   "id": "bone",
+   "zh": "骨骼與軟骨",
+   "en": "Bones & cartilage",
+   "opacity": 0.35
+  },
+  {
+   "id": "soft",
+   "zh": "肌肉與甲狀腺",
+   "en": "Muscles & thyroid",
+   "opacity": 0.4,
+   "hidden": true
+  }
+ ],
+ "views": [
+  {
+   "id": "ap",
+   "zh": "正面 AP",
+   "dir": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "id": "rlat",
+   "zh": "右側面",
+   "dir": [
+    -1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "llat",
+   "zh": "左側面",
+   "dir": [
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "rcarus",
+   "zh": "右頸動脈分叉（前外側掃描角度）",
+   "dir": [
+    -0.75,
+    0.05,
+    0.65
+   ],
+   "target": "ica_r",
+   "tpos": "bottom",
+   "span": 150
+  },
+  {
+   "id": "arch",
+   "zh": "主動脈弓 LAO 30°",
+   "dir": {
+    "lr": 30,
+    "cc": 0
+   },
+   "target": "arch",
+   "tpos": "top",
+   "span": 190
+  },
+  {
+   "id": "willisinf",
+   "zh": "Willis 環（由下往上看）",
+   "dir": [
+    0,
+    -1,
+    0.05
+   ],
+   "up": [
+    0,
+    0,
+    1
+   ],
+   "target": "acom",
+   "span": 150,
+   "solo": [
+    "willis",
+    "vb",
+    "oph_r",
+    "oph_l"
+   ]
+  },
+  {
+   "id": "willissup",
+   "zh": "Willis 環（由上往下看）",
+   "dir": [
+    0,
+    1,
+    0.05
+   ],
+   "up": [
+    0,
+    0,
+    1
+   ],
+   "target": "acom",
+   "span": 150,
+   "solo": [
+    "acom",
+    "aca_r",
+    "aca_l",
+    "mca_r",
+    "mca_l",
+    "pcom_r",
+    "pcom_l",
+    "pca_r",
+    "pca_l",
+    "ba",
+    "sca2_r",
+    "sca2_l",
+    "ica_r",
+    "ica_l",
+    "va_r",
+    "va_l",
+    "pica_r",
+    "pica_l",
+    "aica_r",
+    "aica_l"
+   ]
+  },
+  {
+   "id": "vert",
+   "zh": "椎動脈 V1–V4（後面）",
+   "dir": [
+    0,
+    0,
+    -1
+   ],
+   "span": 330
+  }
+ ],
+ "items": [
+  {
+   "k": "aao",
+   "zh": "升主動脈",
+   "en": "Ascending aorta",
+   "g": "arch",
+   "c": "#c62828",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    17.2,
+    -170.1,
+    19.9
+   ]
+  },
+  {
+   "k": "arch",
+   "zh": "主動脈弓",
+   "en": "Aortic arch",
+   "g": "arch",
+   "c": "#c62828",
+   "note": "標準型依序發出頭臂幹、左頸總、左鎖骨下動脈。常見變異是 bovine arch（頭臂幹與左頸總共幹），經股動脈做頸動脈支架時影響導管選擇。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    12.2,
+    -133.1,
+    -1.7
+   ]
+  },
+  {
+   "k": "bct",
+   "zh": "頭臂幹",
+   "en": "Brachiocephalic trunk",
+   "g": "arch",
+   "c": "#c62828",
+   "note": "在右胸鎖關節後方分成右鎖骨下與右頸總動脈。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -2.3,
+    -108.6,
+    21
+   ]
+  },
+  {
+   "k": "sca_r",
+   "zh": "右鎖骨下動脈",
+   "en": "Subclavian artery (R)",
+   "g": "arch",
+   "c": "#c62828",
+   "note": "近端狹窄時，同側椎動脈可能逆流供應手臂 (subclavian steal)。兩手血壓差 > 15–20 mmHg 要懷疑。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -31.6,
+    -87.8,
+    -2.7
+   ]
+  },
+  {
+   "k": "sca_l",
+   "zh": "左鎖骨下動脈",
+   "en": "Subclavian artery (L)",
+   "g": "arch",
+   "c": "#c62828",
+   "note": "近端狹窄時，同側椎動脈可能逆流供應手臂 (subclavian steal)。兩手血壓差 > 15–20 mmHg 要懷疑。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    62,
+    -86.5,
+    1.3
+   ]
+  },
+  {
+   "k": "tct_r",
+   "zh": "右甲狀頸幹",
+   "en": "Thyrocervical trunk (R)",
+   "g": "arch",
+   "c": "#e53935",
+   "note": "在椎動脈外側由鎖骨下動脈發出，超音波上可能與椎動脈混淆，追蹤是否進入橫突孔即可分辨。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -41.9,
+    -64.1,
+    2.5
+   ]
+  },
+  {
+   "k": "tct_l",
+   "zh": "左甲狀頸幹",
+   "en": "Thyrocervical trunk (L)",
+   "g": "arch",
+   "c": "#e53935",
+   "note": "在椎動脈外側由鎖骨下動脈發出，超音波上可能與椎動脈混淆，追蹤是否進入橫突孔即可分辨。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    41.9,
+    -64.1,
+    2.5
+   ]
+  },
+  {
+   "k": "cca_r",
+   "zh": "右頸總動脈 CCA",
+   "en": "Common carotid artery (R)",
+   "g": "carotid",
+   "c": "#c62828",
+   "note": "右側起自頭臂幹、左側直接起自主動脈弓。頸部沒有分支，IMT 量測取 CCA 遠端遠側壁、分叉下 1 cm 處。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -19.8,
+    -48.9,
+    6.4
+   ]
+  },
+  {
+   "k": "cca_l",
+   "zh": "左頸總動脈 CCA",
+   "en": "Common carotid artery (L)",
+   "g": "carotid",
+   "c": "#c62828",
+   "note": "右側起自頭臂幹、左側直接起自主動脈弓。頸部沒有分支，IMT 量測取 CCA 遠端遠側壁、分叉下 1 cm 處。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    23.1,
+    -57.2,
+    4.2
+   ]
+  },
+  {
+   "k": "ica_r",
+   "zh": "右內頸動脈 ICA",
+   "en": "Internal carotid artery (R)",
+   "g": "carotid",
+   "c": "#c62828",
+   "note": "多在 ECA 的後外側、管徑較大、頸部無分支、低阻力波形（舒張期血流持續）。起始處的 carotid bulb 是斑塊好發處。狹窄分級參考 SRU 共識：PSV 125–230 cm/s 為 50–69%，> 230 cm/s 為 ≥ 70%。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -21.3,
+    68.3,
+    4.9
+   ]
+  },
+  {
+   "k": "ica_l",
+   "zh": "左內頸動脈 ICA",
+   "en": "Internal carotid artery (L)",
+   "g": "carotid",
+   "c": "#c62828",
+   "note": "多在 ECA 的後外側、管徑較大、頸部無分支、低阻力波形（舒張期血流持續）。起始處的 carotid bulb 是斑塊好發處。狹窄分級參考 SRU 共識：PSV 125–230 cm/s 為 50–69%，> 230 cm/s 為 ≥ 70%。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    21.3,
+    68.3,
+    4.9
+   ]
+  },
+  {
+   "k": "eca_r",
+   "zh": "右外頸動脈 ECA",
+   "en": "External carotid artery (R)",
+   "g": "carotid",
+   "c": "#e53935",
+   "note": "多在 ICA 的前內側、頸部有分支、高阻力波形。輕敲顳淺動脈 (temporal tap) 時波形出現鋸齒狀震盪可協助辨認。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -38.5,
+    32.3,
+    3.6
+   ]
+  },
+  {
+   "k": "eca_l",
+   "zh": "左外頸動脈 ECA",
+   "en": "External carotid artery (L)",
+   "g": "carotid",
+   "c": "#e53935",
+   "note": "多在 ICA 的前內側、頸部有分支、高阻力波形。輕敲顳淺動脈 (temporal tap) 時波形出現鋸齒狀震盪可協助辨認。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    38.5,
+    32.3,
+    3.6
+   ]
+  },
+  {
+   "k": "oph_r",
+   "zh": "右眼動脈",
+   "en": "Ophthalmic artery (R)",
+   "g": "carotid",
+   "c": "#e53935",
+   "note": "ICA 進入顱內後第一個主要分支。ICA 嚴重狹窄時，ECA 可經眼動脈逆流形成側枝。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -16.9,
+    93.5,
+    40.2
+   ]
+  },
+  {
+   "k": "oph_l",
+   "zh": "左眼動脈",
+   "en": "Ophthalmic artery (L)",
+   "g": "carotid",
+   "c": "#e53935",
+   "note": "ICA 進入顱內後第一個主要分支。ICA 嚴重狹窄時，ECA 可經眼動脈逆流形成側枝。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    16.9,
+    93.5,
+    40.2
+   ]
+  },
+  {
+   "k": "fac_r",
+   "zh": "右顏面動脈",
+   "en": "Facial artery (R)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "繞過下頜骨下緣，在咬肌前緣可摸到脈搏。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -11.7,
+    76.3,
+    82.6
+   ]
+  },
+  {
+   "k": "fac_l",
+   "zh": "左顏面動脈",
+   "en": "Facial artery (L)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "繞過下頜骨下緣，在咬肌前緣可摸到脈搏。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    10.7,
+    76.9,
+    82.6
+   ]
+  },
+  {
+   "k": "occ_r",
+   "zh": "右枕動脈",
+   "en": "Occipital artery (R)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "由 ECA 後方發出，走向枕部。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -42.8,
+    106.5,
+    -91.5
+   ]
+  },
+  {
+   "k": "occ_l",
+   "zh": "左枕動脈",
+   "en": "Occipital artery (L)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "由 ECA 後方發出，走向枕部。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    42.8,
+    106.5,
+    -91.5
+   ]
+  },
+  {
+   "k": "asp_r",
+   "zh": "右咽升動脈",
+   "en": "Ascending pharyngeal artery (R)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "由 ECA 根部內側發出的細小分支。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -22.5,
+    42.1,
+    28.1
+   ]
+  },
+  {
+   "k": "asp_l",
+   "zh": "左咽升動脈",
+   "en": "Ascending pharyngeal artery (L)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "由 ECA 根部內側發出的細小分支。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    22.5,
+    42.1,
+    28.1
+   ]
+  },
+  {
+   "k": "sta_r",
+   "zh": "右顳淺動脈",
+   "en": "Superficial temporal artery (R)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "ECA 的終末分支之一，在耳前可摸到。巨細胞動脈炎 (GCA) 超音波可見 halo sign。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -66.9,
+    125.2,
+    15.1
+   ]
+  },
+  {
+   "k": "sta_l",
+   "zh": "左顳淺動脈",
+   "en": "Superficial temporal artery (L)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "ECA 的終末分支之一，在耳前可摸到。巨細胞動脈炎 (GCA) 超音波可見 halo sign。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    67.3,
+    126,
+    14.5
+   ]
+  },
+  {
+   "k": "max_r",
+   "zh": "右上頜動脈",
+   "en": "Maxillary artery (R)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "ECA 的另一個終末分支，供應深部顏面，其分支也參與鼻出血。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -41.8,
+    74.8,
+    32.4
+   ]
+  },
+  {
+   "k": "max_l",
+   "zh": "左上頜動脈",
+   "en": "Maxillary artery (L)",
+   "g": "eca",
+   "c": "#e53935",
+   "note": "ECA 的另一個終末分支，供應深部顏面，其分支也參與鼻出血。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    44.7,
+    73.8,
+    26.9
+   ]
+  },
+  {
+   "k": "va_r",
+   "zh": "右椎動脈",
+   "en": "Vertebral artery (R)",
+   "g": "vb",
+   "c": "#c62828",
+   "note": "V1 由鎖骨下動脈到 C6 橫突孔；V2 在 C6–C2 橫突孔內；V3 繞過寰椎；V4 進入顱內，左右匯合成基底動脈。超音波在橫突間「一段一段」出現是辨認特徵。左側常較粗 (dominant)。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -19.2,
+    17.7,
+    -12.8
+   ]
+  },
+  {
+   "k": "va_l",
+   "zh": "左椎動脈",
+   "en": "Vertebral artery (L)",
+   "g": "vb",
+   "c": "#c62828",
+   "note": "V1 由鎖骨下動脈到 C6 橫突孔；V2 在 C6–C2 橫突孔內；V3 繞過寰椎；V4 進入顱內，左右匯合成基底動脈。超音波在橫突間「一段一段」出現是辨認特徵。左側常較粗 (dominant)。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    19.2,
+    17.7,
+    -12.8
+   ]
+  },
+  {
+   "k": "ba",
+   "zh": "基底動脈",
+   "en": "Basilar artery",
+   "g": "vb",
+   "c": "#c62828",
+   "note": "由兩側椎動脈在延腦橋腦交界匯合，沿橋腦前方上行，末端分成兩側大腦後動脈。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    83.6,
+    5.6
+   ]
+  },
+  {
+   "k": "pica_r",
+   "zh": "右小腦後下動脈 PICA",
+   "en": "PICA (R)",
+   "g": "vb",
+   "c": "#e53935",
+   "note": "由椎動脈 V4 發出。阻塞造成 Wallenberg 症候群（延腦外側梗塞）。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -22.8,
+    59.7,
+    -42.5
+   ]
+  },
+  {
+   "k": "pica_l",
+   "zh": "左小腦後下動脈 PICA",
+   "en": "PICA (L)",
+   "g": "vb",
+   "c": "#e53935",
+   "note": "由椎動脈 V4 發出。阻塞造成 Wallenberg 症候群（延腦外側梗塞）。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    22.8,
+    59.7,
+    -42.5
+   ]
+  },
+  {
+   "k": "aica_r",
+   "zh": "右小腦前下動脈 AICA",
+   "en": "AICA (R)",
+   "g": "vb",
+   "c": "#e53935",
+   "note": "由基底動脈下段發出。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -17.1,
+    70.7,
+    -18
+   ]
+  },
+  {
+   "k": "aica_l",
+   "zh": "左小腦前下動脈 AICA",
+   "en": "AICA (L)",
+   "g": "vb",
+   "c": "#e53935",
+   "note": "由基底動脈下段發出。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    17.1,
+    70.7,
+    -18
+   ]
+  },
+  {
+   "k": "sca2_r",
+   "zh": "右小腦上動脈 SCA",
+   "en": "Superior cerebellar artery (R)",
+   "g": "vb",
+   "c": "#e53935",
+   "note": "由基底動脈末端、PCA 下方發出。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -10.9,
+    98.5,
+    -26.2
+   ]
+  },
+  {
+   "k": "sca2_l",
+   "zh": "左小腦上動脈 SCA",
+   "en": "Superior cerebellar artery (L)",
+   "g": "vb",
+   "c": "#e53935",
+   "note": "由基底動脈末端、PCA 下方發出。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    10.9,
+    98.5,
+    -26.2
+   ]
+  },
+  {
+   "k": "pons",
+   "zh": "橋腦分支",
+   "en": "Pontine branches",
+   "g": "vb",
+   "c": "#e53935",
+   "note": "基底動脈的穿通分支，阻塞造成橋腦小洞梗塞。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -0.2,
+    82.8,
+    6.8
+   ]
+  },
+  {
+   "k": "aca_r",
+   "zh": "右大腦前動脈 ACA",
+   "en": "Anterior cerebral artery (R)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "兩側 ACA 以前交通動脈相連，沿胼胝體上方往後走，供應內側額葉與頂葉（對側下肢運動區）。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -3,
+    146.4,
+    50.9
+   ]
+  },
+  {
+   "k": "aca_l",
+   "zh": "左大腦前動脈 ACA",
+   "en": "Anterior cerebral artery (L)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "兩側 ACA 以前交通動脈相連，沿胼胝體上方往後走，供應內側額葉與頂葉（對側下肢運動區）。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    2.7,
+    145,
+    52
+   ]
+  },
+  {
+   "k": "acom",
+   "zh": "前交通動脈 ACom",
+   "en": "Anterior communicating artery",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "顱內動脈瘤最常見的位置之一。一側 ICA 嚴重狹窄時，經 ACom 由對側代償。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0.2,
+    103.6,
+    24.5
+   ]
+  },
+  {
+   "k": "mca_r",
+   "zh": "右大腦中動脈 M1",
+   "en": "Middle cerebral artery (M1) (R)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "ICA 最大的終末分支。M1 發出豆紋動脈 (lenticulostriate)；經顱都卜勒 (TCD) 由顳窗測 MCA 流速。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -23.7,
+    101.7,
+    25.2
+   ]
+  },
+  {
+   "k": "mca_l",
+   "zh": "左大腦中動脈 M1",
+   "en": "Middle cerebral artery (M1) (L)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "ICA 最大的終末分支。M1 發出豆紋動脈 (lenticulostriate)；經顱都卜勒 (TCD) 由顳窗測 MCA 流速。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    23.7,
+    101.7,
+    25.2
+   ]
+  },
+  {
+   "k": "mcab_r",
+   "zh": "右MCA 分支 M2–M3",
+   "en": "MCA branches (M2–M3) (R)",
+   "g": "willis",
+   "c": "#e53935",
+   "note": "經腦島 (M2) 到大腦外側面 (M3)，供應大部分外側皮質，包含上肢與臉部運動區及語言區。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -66.8,
+    137.6,
+    -6.5
+   ]
+  },
+  {
+   "k": "mcab_l",
+   "zh": "左MCA 分支 M2–M3",
+   "en": "MCA branches (M2–M3) (L)",
+   "g": "willis",
+   "c": "#e53935",
+   "note": "經腦島 (M2) 到大腦外側面 (M3)，供應大部分外側皮質，包含上肢與臉部運動區及語言區。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    66.8,
+    137,
+    -6.4
+   ]
+  },
+  {
+   "k": "pcom_r",
+   "zh": "右後交通動脈 PCom",
+   "en": "Posterior communicating artery (R)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "連接 ICA 與 PCA，是前、後循環的橋樑。PCom 動脈瘤可壓迫動眼神經（瞳孔放大）。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -8.7,
+    97.6,
+    17
+   ]
+  },
+  {
+   "k": "pcom_l",
+   "zh": "左後交通動脈 PCom",
+   "en": "Posterior communicating artery (L)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "連接 ICA 與 PCA，是前、後循環的橋樑。PCom 動脈瘤可壓迫動眼神經（瞳孔放大）。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    8.7,
+    97.6,
+    17
+   ]
+  },
+  {
+   "k": "pca_r",
+   "zh": "右大腦後動脈 PCA",
+   "en": "Posterior cerebral artery (R)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "基底動脈的終末分支，供應枕葉與視覺皮質。約兩成人為 fetal PCA，主要由 ICA 經 PCom 供血。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -22.8,
+    101.4,
+    -0.2
+   ]
+  },
+  {
+   "k": "pca_l",
+   "zh": "左大腦後動脈 PCA",
+   "en": "Posterior cerebral artery (L)",
+   "g": "willis",
+   "c": "#c62828",
+   "note": "基底動脈的終末分支，供應枕葉與視覺皮質。約兩成人為 fetal PCA，主要由 ICA 經 PCom 供血。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    22.4,
+    101.1,
+    0
+   ]
+  },
+  {
+   "k": "ijv_r",
+   "zh": "右內頸靜脈 IJV",
+   "en": "Internal jugular vein (R)",
+   "g": "veins",
+   "c": "#1e5aa8",
+   "note": "在 CCA 的前外側，可壓扁、隨呼吸變化。中心靜脈導管穿刺前先確認 IJV 與 CCA 的相對位置與通暢。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -26.1,
+    -13.3,
+    6.2
+   ]
+  },
+  {
+   "k": "ijv_l",
+   "zh": "左內頸靜脈 IJV",
+   "en": "Internal jugular vein (L)",
+   "g": "veins",
+   "c": "#1e5aa8",
+   "note": "在 CCA 的前外側，可壓扁、隨呼吸變化。中心靜脈導管穿刺前先確認 IJV 與 CCA 的相對位置與通暢。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    26.1,
+    -13.3,
+    6.2
+   ]
+  },
+  {
+   "k": "ejv_r",
+   "zh": "右外頸靜脈",
+   "en": "External jugular vein (R)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "跨過胸鎖乳突肌表面，注入鎖骨下靜脈。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -43.4,
+    -34.2,
+    2.5
+   ]
+  },
+  {
+   "k": "ejv_l",
+   "zh": "左外頸靜脈",
+   "en": "External jugular vein (L)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "跨過胸鎖乳突肌表面，注入鎖骨下靜脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    43.4,
+    -34.2,
+    2.5
+   ]
+  },
+  {
+   "k": "vv_r",
+   "zh": "右椎靜脈",
+   "en": "Vertebral vein (R)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "與椎動脈伴行於橫突孔內，超音波上常在椎動脈前方，血流方向相反。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -20.2,
+    -16.7,
+    -11.7
+   ]
+  },
+  {
+   "k": "vv_l",
+   "zh": "左椎靜脈",
+   "en": "Vertebral vein (L)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "與椎動脈伴行於橫突孔內，超音波上常在椎動脈前方，血流方向相反。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    20.2,
+    -16.7,
+    -11.7
+   ]
+  },
+  {
+   "k": "facv_r",
+   "zh": "右顏面與下頜後靜脈",
+   "en": "Facial & retromandibular veins (R)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "總顏面靜脈常在頸動脈分叉附近注入 IJV，可作為分叉高度的參考。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -31.6,
+    7.4,
+    36.1
+   ]
+  },
+  {
+   "k": "facv_l",
+   "zh": "左顏面與下頜後靜脈",
+   "en": "Facial & retromandibular veins (L)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "總顏面靜脈常在頸動脈分叉附近注入 IJV，可作為分叉高度的參考。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    31.6,
+    7.4,
+    36.1
+   ]
+  },
+  {
+   "k": "bcv_r",
+   "zh": "右頭臂靜脈",
+   "en": "Brachiocephalic vein (R)",
+   "g": "veins",
+   "c": "#1e5aa8",
+   "note": "左頭臂靜脈橫越主動脈弓分支前方，兩側匯合成上腔靜脈。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -17.6,
+    -113.6,
+    27.8
+   ]
+  },
+  {
+   "k": "bcv_l",
+   "zh": "左頭臂靜脈",
+   "en": "Brachiocephalic vein (L)",
+   "g": "veins",
+   "c": "#1e5aa8",
+   "note": "左頭臂靜脈橫越主動脈弓分支前方，兩側匯合成上腔靜脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    1.3,
+    -114.4,
+    36.7
+   ]
+  },
+  {
+   "k": "subv_r",
+   "zh": "右鎖骨下靜脈",
+   "en": "Subclavian vein (R)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "走在前斜角肌前方（動脈在後方）。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -58,
+    -92.1,
+    13.9
+   ]
+  },
+  {
+   "k": "subv_l",
+   "zh": "左鎖骨下靜脈",
+   "en": "Subclavian vein (L)",
+   "g": "veins",
+   "c": "#4f83c9",
+   "note": "走在前斜角肌前方（動脈在後方）。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    58.8,
+    -96.4,
+    12.2
+   ]
+  },
+  {
+   "k": "svc",
+   "zh": "上腔靜脈",
+   "en": "Superior vena cava",
+   "g": "veins",
+   "c": "#1e5aa8",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -17.8,
+    -149.7,
+    32.5
+   ]
+  },
+  {
+   "k": "dsin",
+   "zh": "硬腦膜靜脈竇",
+   "en": "Dural venous sinuses",
+   "g": "sinus",
+   "c": "#3f51b5",
+   "note": "上矢狀竇→竇匯→橫竇→乙狀竇→內頸靜脈。ICA 海綿竇段 (cavernous segment) 就走在海綿竇內。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    94.2,
+    -14.6
+   ]
+  },
+  {
+   "k": "skull",
+   "zh": "顱骨",
+   "en": "Skull",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "預設很透明，方便看 Willis 環。",
+   "lab": false,
+   "op": 0.18,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    80.9,
+    5.1
+   ]
+  },
+  {
+   "k": "mand",
+   "zh": "下頜骨",
+   "en": "Mandible",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "高位分叉時下頜角會擋住探頭，需調整角度或改用凸陣探頭。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    1.4,
+    4.2,
+    76.3
+   ]
+  },
+  {
+   "k": "c1",
+   "zh": "C1 寰椎",
+   "en": "Atlas (C1)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "椎動脈 V3 在寰椎後弓上方繞行。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    32.2,
+    -35.6
+   ]
+  },
+  {
+   "k": "c2",
+   "zh": "C2 樞椎",
+   "en": "Axis (C2)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    17.4,
+    -33.6
+   ]
+  },
+  {
+   "k": "c3",
+   "zh": "C3",
+   "en": "C3",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    -3.6,
+    -31
+   ]
+  },
+  {
+   "k": "c4",
+   "zh": "C4",
+   "en": "C4",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "頸動脈分叉多在 C3–C4、甲狀軟骨上緣的高度，但變異範圍從 C2 到 C6。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0.1,
+    -20,
+    -33.2
+   ]
+  },
+  {
+   "k": "c5",
+   "zh": "C5",
+   "en": "C5",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    -32.5,
+    -38.8
+   ]
+  },
+  {
+   "k": "c6",
+   "zh": "C6",
+   "en": "C6",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "椎動脈通常由 C6 橫突孔進入 (V1→V2)。少數由 C5 或 C7 進入。C6 前結節 (Chassaignac tubercle) 也是臨床地標。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    -41,
+    -32.3
+   ]
+  },
+  {
+   "k": "c7",
+   "zh": "C7",
+   "en": "C7",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    -58.4,
+    -47.2
+   ]
+  },
+  {
+   "k": "hyoid",
+   "zh": "舌骨",
+   "en": "Hyoid bone",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "約在 C3 高度，頸動脈分叉常在舌骨與甲狀軟骨上緣之間。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    -8.4,
+    40.4
+   ]
+  },
+  {
+   "k": "thyc",
+   "zh": "甲狀軟骨",
+   "en": "Thyroid cartilage",
+   "g": "bone",
+   "c": "#a9c7d8",
+   "note": "上緣約 C4。體表找喉結即可估計頸動脈分叉高度。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    1.1,
+    -36.9,
+    28.8
+   ]
+  },
+  {
+   "k": "cric",
+   "zh": "環狀軟骨",
+   "en": "Cricoid cartilage",
+   "g": "bone",
+   "c": "#a9c7d8",
+   "note": "約 C6 高度。",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    -42.4,
+    6.2
+   ]
+  },
+  {
+   "k": "clav_r",
+   "zh": "右鎖骨",
+   "en": "Clavicle (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -83.7,
+    -98.8,
+    9.2
+   ]
+  },
+  {
+   "k": "clav_l",
+   "zh": "左鎖骨",
+   "en": "Clavicle (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    83.7,
+    -98.8,
+    9.2
+   ]
+  },
+  {
+   "k": "manu",
+   "zh": "胸骨柄",
+   "en": "Manubrium",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -0.1,
+    -138.3,
+    56.6
+   ]
+  },
+  {
+   "k": "rib1_r",
+   "zh": "右第一肋骨",
+   "en": "First rib (R)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "鎖骨下動脈越過第一肋外緣後改名為腋動脈。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -61.7,
+    -92.7,
+    3.9
+   ]
+  },
+  {
+   "k": "rib1_l",
+   "zh": "左第一肋骨",
+   "en": "First rib (L)",
+   "g": "bone",
+   "c": "#e6dcc6",
+   "note": "鎖骨下動脈越過第一肋外緣後改名為腋動脈。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    61.7,
+    -92.7,
+    3.9
+   ]
+  },
+  {
+   "k": "scm_r",
+   "zh": "右胸鎖乳突肌",
+   "en": "Sternocleidomastoid (R)",
+   "g": "soft",
+   "c": "#a8574f",
+   "note": "頸動脈超音波的主要聲窗：可從 SCM 前方、經 SCM 或從 SCM 後方掃描，分別適合看不同深度的分叉。",
+   "lab": true,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -30.3,
+    -29.9,
+    8.8
+   ]
+  },
+  {
+   "k": "scm_l",
+   "zh": "左胸鎖乳突肌",
+   "en": "Sternocleidomastoid (L)",
+   "g": "soft",
+   "c": "#a8574f",
+   "note": "頸動脈超音波的主要聲窗：可從 SCM 前方、經 SCM 或從 SCM 後方掃描，分別適合看不同深度的分叉。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    30.3,
+    -29.9,
+    8.8
+   ]
+  },
+  {
+   "k": "omo_r",
+   "zh": "右肩胛舌骨肌",
+   "en": "Omohyoid (R)",
+   "g": "soft",
+   "c": "#a8574f",
+   "note": "上腹斜跨 IJV 與 CCA 前方，橫切面上是一條細長的肌肉帶。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -34,
+    -62.4,
+    10.8
+   ]
+  },
+  {
+   "k": "omo_l",
+   "zh": "左肩胛舌骨肌",
+   "en": "Omohyoid (L)",
+   "g": "soft",
+   "c": "#a8574f",
+   "note": "上腹斜跨 IJV 與 CCA 前方，橫切面上是一條細長的肌肉帶。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    34,
+    -62.4,
+    10.8
+   ]
+  },
+  {
+   "k": "scal_r",
+   "zh": "右前斜角肌",
+   "en": "Anterior scalene (R)",
+   "g": "soft",
+   "c": "#a8574f",
+   "note": "鎖骨下動脈走在前斜角肌後方、靜脈在前方，胸廓出口症候群的重要結構。",
+   "lab": false,
+   "side": "r",
+   "src": "Z-Anatomy",
+   "anchor": [
+    -32.8,
+    -54.4,
+    0.4
+   ]
+  },
+  {
+   "k": "scal_l",
+   "zh": "左前斜角肌",
+   "en": "Anterior scalene (L)",
+   "g": "soft",
+   "c": "#a8574f",
+   "note": "鎖骨下動脈走在前斜角肌後方、靜脈在前方，胸廓出口症候群的重要結構。",
+   "lab": false,
+   "side": "l",
+   "src": "Z-Anatomy",
+   "anchor": [
+    32.8,
+    -54.4,
+    0.4
+   ]
+  },
+  {
+   "k": "thy",
+   "zh": "甲狀腺",
+   "en": "Thyroid gland",
+   "g": "soft",
+   "c": "#b9773a",
+   "note": "位在 CCA 內側。頸動脈掃描時常順便看到甲狀腺結節，要記得在報告中提及。",
+   "lab": true,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    0,
+    -32.1,
+    33.4
+   ]
+  },
+  {
+   "k": "trach",
+   "zh": "氣管",
+   "en": "Trachea",
+   "g": "soft",
+   "c": "#a9c7d8",
+   "note": "",
+   "lab": false,
+   "side": null,
+   "src": "Z-Anatomy",
+   "anchor": [
+    -1.7,
+    -101,
+    8.4
+   ]
+  }
+ ],
+ "bbox": {
+  "min": [
+   -154.33062744140625,
+   -198.71722412109375,
+   -101.82342910766602
+  ],
+  "max": [
+   154.33062744140625,
+   198.71722412109375,
+   101.82342910766602
+  ]
+ }
+}
