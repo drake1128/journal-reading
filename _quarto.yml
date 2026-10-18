@@ -58,11 +58,8 @@ website:
             - handouts/95-management-leadership/index.qmd
             - text: "管理學 — 制度診斷模組 (Institutional Diagnosis)"
               href: handouts/95-management-leadership/Management_Institutional_Diagnosis_Module.html
-        - section: "個人閱讀 Personal"
-          contents:
-            - handouts/96-personal/index.qmd
-            - text: "俠、義、墨 — 遊俠、墨家三表法、義理與 integrity 的跨文明比較"
-              href: handouts/96-personal/Xia_Yi_Mo_Chivalry_Mohism_Integrity.html
+            - text: "俠、義、墨 — 義、義理與 integrity 的跨文明比較（專業素養）"
+              href: handouts/95-management-leadership/Xia_Yi_Mo_Chivalry_Mohism_Integrity.html
         - section: "缺血性心臟病 IHD"
           contents:
             - handouts/01-ischemic-heart-disease/index.qmd

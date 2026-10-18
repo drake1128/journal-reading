@@ -1,14 +1,21 @@
 ---
 title: "管理與領導 — Management & Leadership"
-subtitle: "醫務管理、制度診斷與團隊領導的教學模組"
+subtitle: "醫務管理、制度診斷、團隊領導與專業倫理的教學模組"
+resources:
+  - "Xia_Yi_Mo_Chivalry_Mohism_Integrity.html"
 ---
 
-本區收錄**管理學 (Management)** 取向的教學模組 —— 制度診斷、組織設計、團隊領導與醫務管理。與臨床講義不同，這裡整理的是**「怎麼把制度與團隊做好」**這門同樣有學問的功課。
+本區收錄**管理學 (Management)** 取向的教學模組 —— 制度診斷、組織設計、團隊領導與醫務管理，以及支撐這些事情的**專業素養 (professionalism)**。與臨床講義不同，這裡整理的是**「怎麼把制度與團隊做好」**這門同樣有學問的功課。
 
 ## 互動教學模組 Interactive Modules
 
 - [管理學 — 制度診斷模組 (Institutional Diagnosis)](Management_Institutional_Diagnosis_Module.html)
   - 以「制度診斷」為主軸的互動教學：如何系統性檢視一個制度／流程的病灶與改善槓桿。含互動評分與自我檢核元件。
+
+## 專業素養與倫理 Professionalism & Ethics
+
+- **[俠、義、墨 — 從遊俠精神到墨家三表法，再對照日本「義理」與西方 integrity](Xia_Yi_Mo_Chivalry_Mohism_Integrity.html){target="_blank"}**
+  *對話整理，2026-10-18。七章：俠與騎士（體制外 vs 體制內的英雄）、俠出於墨（馮友蘭 thesis）、墨家為何在漢代消失、三表法（本／原／用 ＝ past evidence + present observation + outcome，與 EBM 對照）、民國初年的墨家重啟（孫詒讓→梁啟超→胡適）、義不容辭與義無反顧（Cicero officium vs Caesar at Rubicon，附半夜 primary PCI 的臨床對照）、義／義理／integrity 三個文明的道德語彙。結尾以「學長轉介但臨床判斷不該收」的情境，示範義、義理、integrity 三者衝突時如何定義臨床工作者的品格。僅供個人閱讀與教育用途。*
 
 ## 問卷與量表 Surveys & Instruments
 

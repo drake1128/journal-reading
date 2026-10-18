@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>俠、義、墨</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* Layout: single-column reading essay, 680px measure, warm paper + ink */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap');
+
+  :root {
+    /* Palette — light (warm paper, deep ink, muted qing accent) */
+    --bg: #F5F1E6;
+    --surface: #FBF7EC;
+    --fg: #1E1912;
+    --fg-muted: #665C4D;
+    --fg-faint: #938876;
+    --rule: #DDD2BB;
+    --rule-strong: #BFB29A;
+    --accent: #2E4A3F;       /* 翠青 */
+    --mark: #8E2F23;         /* 印泥朱 — used sparingly */
+    --mark-soft: #B5604F;
+
+    /* Type */
+    --font-body: 'Spectral', 'Noto Serif TC', ui-serif, 'Songti TC', 'PingFang TC', Georgia, serif;
+    --font-display: 'Noto Serif TC', 'Spectral', ui-serif, 'Songti TC', Georgia, serif;
+    --font-ui: 'Noto Sans TC', ui-sans-serif, 'PingFang TC', system-ui, sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14110C;
+      --surface: #1D1914;
+      --fg: #E8E0CF;
+      --fg-muted: #A69D8A;
+      --fg-faint: #6E6554;
+      --rule: #2D2820;
+      --rule-strong: #413A2E;
+      --accent: #8FC0AF;
+      --mark: #D27966;
+      --mark-soft: #B5604F;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14110C;
+    --surface: #1D1914;
+    --fg: #E8E0CF;
+    --fg-muted: #A69D8A;
+    --fg-faint: #6E6554;
+    --rule: #2D2820;
+    --rule-strong: #413A2E;
+    --accent: #8FC0AF;
+    --mark: #D27966;
+    --mark-soft: #B5604F;
+    color-scheme: dark;
+  }
+
+  html, body { background: var(--bg); color: var(--fg); }
+  body {
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.78;
+    padding-left: max(20px, env(safe-area-inset-left, 0px));
+    padding-right: max(20px, env(safe-area-inset-right, 0px));
+    padding-block: 56px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto;
+    height: env(safe-area-inset-top, 0px);
+    background: var(--bg);
+    z-index: 10;
+  }
+
+  .wrap { max-width: 680px; margin: 0 auto; }
+
+  /* Masthead */
+  header.masthead {
+    border-bottom: 1px solid var(--rule-strong);
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+  }
+  .eyebrow {
+    font-family: var(--font-ui);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--mark);
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+  h1.title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(40px, 8vw, 60px);
+    line-height: 1.05;
+    letter-spacing: 0.08em;
+    margin: 0 0 20px;
+    color: var(--fg);
+  }
+  .subtitle {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 17px;
+    color: var(--fg-muted);
+    line-height: 1.55;
+    margin: 0 0 32px;
+    text-wrap: balance;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-family: var(--font-ui);
+    font-size: 12px;
+    color: var(--fg-faint);
+    letter-spacing: 0.04em;
+  }
+  .meta b {
+    color: var(--fg-muted);
+    font-weight: 500;
+    margin-right: 4px;
+  }
+
+  /* TOC */
+  nav.toc {
+    background: var(--surface);
+    border-left: 2px solid var(--accent);
+    padding: 22px 28px;
+    margin-bottom: 64px;
+  }
+  nav.toc h2 {
+    font-family: var(--font-ui);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    font-weight: 500;
+    margin: 0 0 16px;
+  }
+  nav.toc ol { list-style: none; counter-reset: toc; padding: 0; margin: 0; }
+  nav.toc li {
+    counter-increment: toc;
+    display: flex;
+    gap: 14px;
+    padding: 7px 0;
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.4;
+    border-bottom: 1px dotted transparent;
+  }
+  nav.toc li::before {
+    content: counter(toc, decimal-leading-zero);
+    font-family: var(--font-ui);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+    color: var(--mark);
+    letter-spacing: 0.1em;
+    padding-top: 4px;
+    flex-shrink: 0;
+    min-width: 20px;
+  }
+  nav.toc a {
+    color: var(--fg);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  nav.toc a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+  /* Prologue */
+  .prologue {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.75;
+    color: var(--fg);
+    margin-bottom: 56px;
+    padding: 0 0 36px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .prologue p { margin: 0 0 14px; }
+  .prologue p:last-child { margin-bottom: 0; }
+  .prologue p:first-child::first-letter {
+    font-family: var(--font-display);
+    font-weight: 700;
+    float: left;
+    font-size: 3.4em;
+    line-height: 0.9;
+    padding: 6px 10px 0 0;
+    color: var(--mark);
+  }
+
+  /* Chapters */
+  section.chapter {
+    margin-bottom: 72px;
+    scroll-margin-top: 24px;
+  }
+  .chapter-num {
+    font-family: var(--font-ui);
+    font-size: 11px;
+    letter-spacing: 0.26em;
+    color: var(--mark);
+    font-variant-numeric: tabular-nums;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  h2.chapter-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(24px, 4.5vw, 30px);
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    text-wrap: balance;
+    margin: 0 0 28px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--rule-strong);
+    color: var(--fg);
+  }
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.4;
+    margin: 40px 0 14px;
+    color: var(--fg);
+    letter-spacing: 0.01em;
+  }
+  h4 {
+    font-family: var(--font-ui);
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--mark);
+    margin: 28px 0 10px;
+  }
+
+  p { margin: 0 0 18px; }
+  strong, b { font-weight: 700; color: var(--fg); }
+  em, i, cite { font-style: italic; }
+  cite { font-style: italic; }
+
+  /* Lists */
+  ul, ol { padding-left: 0; margin: 0 0 22px; }
+  ul { list-style: none; }
+  ul li {
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 10px;
+    line-height: 1.7;
+  }
+  ul li::before {
+    content: "·";
+    position: absolute;
+    left: 0.5em;
+    top: -0.15em;
+    color: var(--mark);
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  ol {
+    padding-left: 1.8em;
+    counter-reset: list;
+  }
+  ol li {
+    margin-bottom: 10px;
+    padding-left: 6px;
+    line-height: 1.7;
+  }
+  ol li::marker {
+    color: var(--fg-faint);
+    font-family: var(--font-ui);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.9em;
+  }
+  li > ul, li > ol { margin: 10px 0 4px; }
+
+  /* Blockquote (classical passage) */
+  blockquote.classical {
+    margin: 28px 0;
+    padding: 20px 24px;
+    background: var(--surface);
+    border-left: 3px solid var(--mark);
+    font-family: var(--font-display);
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: var(--fg);
+    letter-spacing: 0.02em;
+  }
+  blockquote.classical p { margin: 0 0 6px; }
+  blockquote.classical p:last-child { margin-bottom: 0; }
+  blockquote.classical cite {
+    display: block;
+    font-style: normal;
+    font-family: var(--font-ui);
+    font-size: 11px;
+    color: var(--fg-faint);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-top: 12px;
+  }
+
+  /* Callout */
+  aside.callout {
+    background: var(--surface);
+    border-left: 3px solid var(--accent);
+    padding: 20px 24px;
+    margin: 32px 0;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+  aside.callout .callout-label {
+    font-family: var(--font-ui);
+    font-size: 10px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+  }
+  aside.callout p:last-child { margin-bottom: 0; }
+
+  /* Tables */
+  .table-wrap {
+    overflow-x: auto;
+    margin: 24px 0;
+    border-top: 1px solid var(--rule-strong);
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5px;
+    line-height: 1.55;
+    min-width: 100%;
+  }
+  th {
+    font-family: var(--font-ui);
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: left;
+    padding: 14px 18px 10px 0;
+    color: var(--fg-faint);
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  th:last-child, td:last-child { padding-right: 0; }
+  td {
+    padding: 14px 18px 14px 0;
+    vertical-align: top;
+    border-bottom: 1px solid var(--rule);
+    min-width: 0;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td:first-child, th:first-child {
+    font-weight: 500;
+    color: var(--fg);
+    font-family: var(--font-display);
+  }
+  td code {
+    font-family: var(--font-ui);
+    font-size: 13px;
+    color: var(--fg-muted);
+  }
+
+  /* Three-column compare grid */
+  .compare-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 28px 0;
+  }
+  .compare-cell {
+    background: var(--surface);
+    padding: 22px 20px;
+    min-width: 0;
+  }
+  .compare-cell .cell-label {
+    font-family: var(--font-ui);
+    font-size: 10px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--mark);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .compare-cell h4.cell-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 14px;
+    color: var(--fg);
+    letter-spacing: 0.04em;
+    text-transform: none;
+    padding: 0;
+  }
+  .compare-cell dl {
+    margin: 0;
+    font-size: 13.5px;
+    line-height: 1.5;
+  }
+  .compare-cell dt {
+    font-family: var(--font-ui);
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  .compare-cell dt:first-of-type { margin-top: 0; }
+  .compare-cell dd {
+    margin: 3px 0 0;
+    color: var(--fg);
+  }
+  @media (max-width: 620px) {
+    .compare-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Section section intro paragraph (lead) */
+  p.section-lead {
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--fg);
+    margin-bottom: 24px;
+  }
+
+  /* Footer */
+  footer.colophon {
+    margin-top: 88px;
+    padding-top: 36px;
+    border-top: 2px solid var(--rule-strong);
+    font-family: var(--font-ui);
+    font-size: 12.5px;
+    line-height: 1.75;
+    color: var(--fg-muted);
+  }
+  footer.colophon .signoff {
+    font-family: var(--font-display);
+    font-size: 14px;
+    color: var(--fg);
+    font-weight: 500;
+    margin-bottom: 4px;
+    letter-spacing: 0.04em;
+  }
+  footer.colophon .credential {
+    margin-bottom: 2px;
+    color: var(--fg-muted);
+  }
+  footer.colophon .tag {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--fg-faint);
+    border: 1px solid var(--rule-strong);
+    padding: 3px 10px;
+    margin: 10px 0 24px;
+    border-radius: 2px;
+  }
+  footer.colophon .notes {
+    font-size: 11.5px;
+    color: var(--fg-faint);
+    line-height: 1.7;
+  }
+  footer.colophon .notes p { margin: 0 0 4px; }
+
+  /* Theme toggle */
+  .theme-toggle {
+    position: fixed;
+    top: calc(16px + env(safe-area-inset-top, 0px));
+    right: calc(16px + env(safe-area-inset-right, 0px));
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--rule-strong);
+    background: var(--surface);
+    color: var(--fg);
+    cursor: pointer;
+    font-family: var(--font-ui);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    transition: border-color 0.15s;
+  }
+  .theme-toggle:hover { border-color: var(--accent); }
+  .theme-toggle:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* Prose links */
+  .wrap a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  nav.toc a { text-decoration: none; }
+</style>
+</head>
+<body>
+
+<button class="theme-toggle" type="button" aria-label="切換深淺色" id="themeBtn">◐</button>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">對話整理 — Dialogue · 2026</div>
+    <h1 class="title">俠、義、墨</h1>
+    <p class="subtitle">從遊俠精神追索到墨家、三表法，再對照日本的「義理」與西方的 integrity——一場道德語彙的跨文明比較。</p>
+    <div class="meta">
+      <span><b>整理</b>謝慕揚（Drake）× Claude</span>
+      <span><b>日期</b>2026-10-18</span>
+      <span><b>讀者</b>個人閱讀 · 教育用途</span>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="目次">
+    <h2>目次</h2>
+    <ol>
+      <li><a href="#ch1">俠與騎士：兩種截然不同的英雄</a></li>
+      <li><a href="#ch2">俠出於墨：一個被切斷的傳統</a></li>
+      <li><a href="#ch3">墨家為何在漢代消失</a></li>
+      <li><a href="#ch4">三表法：公元前五世紀的經驗論雛形</a></li>
+      <li><a href="#ch5">民國初年的墨家重啟</a></li>
+      <li><a href="#ch6">義不容辭與義無反顧</a></li>
+      <li><a href="#ch7">義、義理、Integrity——三個文明的道德語彙</a></li>
+      <li><a href="#reading">延伸閱讀</a></li>
+    </ol>
+  </nav>
+
+  <div class="prologue">
+    <p>這份整理從一個簡單的問題展開：「什麼是俠義精神？」——這條線往下追，連著墨家這個失落的中國傳統，連著一套公元前就存在的 evidence-based 方法雛形（三表法），連著民國初年知識分子重新發現自己文化資源的那段故事。</p>
+    <p>再橫向展開，就撞進了「義」、「義理」、integrity 這三個不同文明對「什麼是正確行為」的不同回答——各自錨定在情境、關係、或自我，構成三種道德戲劇。</p>
+    <p>這是那場對話的濃縮版，保留關鍵的論證結構與史料，刪去枝節。</p>
+  </div>
+
+  <!-- Chapter 1 -->
+  <section class="chapter" id="ch1">
+    <span class="chapter-num">Chapter 01</span>
+    <h2 class="chapter-title">俠與騎士：兩種截然不同的英雄</h2>
+
+    <p class="section-lead">很多人把俠義精神與西方騎士精神劃等號，其實是誤導——兩者在制度位置、階級、宗教底色上幾乎處處相反。中國的俠是體制<em>外</em>的個人正義執行者；歐洲的騎士則是封建體制<em>內</em>的執行者。</p>
+
+    <h3>俠的源頭</h3>
+    <p>有兩個關鍵文本。韓非子《五蠹》把「儒以文亂法，俠以武犯禁」並列——俠在 Legalist 眼中是社會問題，是「犯禁」者。司馬遷《史記・遊俠列傳》才正面定義俠的氣質：</p>
+    <blockquote class="classical">
+      <p>其言必信，其行必果，已諾必誠，不愛其軀，赴士之阨困。</p>
+      <cite>《史記・遊俠列傳》</cite>
+    </blockquote>
+    <p>重然諾、輕生死、急人之難。俠的位置是關鍵：體制之外，甚至對抗體制。「路見不平，拔刀相助」之所以是俠，正因為官方司法沒處理或處理不了。朱家、郭解多是中下層出身，不是貴族。</p>
+    <p>後來的紅線、聶隱娘，再到金庸「為國為民，俠之大者」，是把俠不斷向上提升、政治化的過程，但底層核心一直是「個人化的正義」。</p>
+
+    <h3>騎士精神 (Chivalry)</h3>
+    <p>歐洲騎士是封建制度<em>內</em>的產物，11–13 世紀成形。三大支柱是對 God、對 liege lord、對 lady 的忠誠——宗教、封建、宮廷愛情三線交織。代表文本是亞瑟王傳奇、Chrétien de Troyes、《羅蘭之歌》、Malory 的 <cite>Le Morte d'Arthur</cite>。騎士是貴族階級，受過冊封，是體制的 <strong>enforcer</strong>，不是反叛者。十字軍就是這個邏輯的極致。</p>
+
+    <h3>真正有趣的對比</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>面向</th><th>俠（中國）</th><th>騎士（歐洲）</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>與體制的關係</td><td>體制外，甚至對抗體制</td><td>體制內的 enforcer</td></tr>
+          <tr><td>正當性來源</td><td>個人良知、「知己」—— 水平、個人化</td><td>God + lord + lady —— 垂直</td></tr>
+          <tr><td>宗教向度</td><td>世俗，偶帶道/佛色彩</td><td>基督教為核心</td></tr>
+          <tr><td>階級</td><td>市井（屠戶、博徒、遊民）</td><td>貴族</td></tr>
+          <tr><td>女性位置</td><td>俠女或兒女私情常與大義衝突</td><td>courtly love 是核心</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <aside class="callout">
+      <span class="callout-label">關鍵觀察</span>
+      <p>俠在西方文化裡的近親其實不是 knight，而是 <strong>outlaw hero</strong>——Robin Hood、美國西部 gunslinger、Chandler 筆下的 Philip Marlowe。他們都是體制外的個人正義執行者，這個結構才跟俠同構。騎士反而比較像中國的「將」或「忠臣」。</p>
+    </aside>
+
+    <h3>第三軸：日本的武士道</h3>
+    <p>武士道是另一個值得並陳的軸。它有騎士的階級性與制度性，但「忠」與「義」之間的張力（赤穗浪士、坂本龍馬脫藩）讓它在某些時刻倒向俠那一端。龍馬某種程度上比較像「俠」而非「武士」，這也是司馬遼太郎把他寫得那麼活的原因之一。</p>
+  </section>
+
+  <!-- Chapter 2 -->
+  <section class="chapter" id="ch2">
+    <span class="chapter-num">Chapter 02</span>
+    <h2 class="chapter-title">俠出於墨：一個被切斷的傳統</h2>
+
+    <p class="section-lead">這條線索由<strong>馮友蘭</strong>在《中國哲學史》正式提出：「俠出於墨」。雖然後來有爭論，但骨架極有說服力。</p>
+
+    <h3>墨家不只是學派，是準軍事組織</h3>
+    <p>先講一個常被忽略的事實：墨家是戰國時期一個紀律化的組織。領袖叫「<strong>鉅子</strong>」，擁有對成員的生殺大權。《呂氏春秋・去私》記載鉅子<strong>腹䵍</strong>的兒子殺了人，秦惠王因腹䵍年老只有一子要赦免他，腹䵍拒絕，依墨家之法把兒子處死。這個紀律強度，先秦諸子裡找不到第二家。</p>
+    <blockquote class="classical">
+      <p>墨子服役者百八十人，皆可使赴火蹈刃，死不旋踵。</p>
+      <cite>《淮南子》</cite>
+    </blockquote>
+    <p>這已經不是讀書人，是死士。</p>
+
+    <h3>墨家的核心主張怎麼接到俠</h3>
+    <ul>
+      <li><strong>兼愛</strong>：無差別的愛，對應俠的「為素不相識者拔刀」</li>
+      <li><strong>非攻</strong>：反對侵略，但支持防禦戰——墨者實際跑去幫被攻打的小國守城（「止楚攻宋」，墨子親自說服楚王，同時派禽滑釐帶 300 弟子去宋國準備守城）</li>
+      <li><strong>摩頂放踵利天下</strong>：孟子罵墨子「摩頂放踵利天下，為之」——這個自我犧牲的結構，跟俠「不愛其軀，赴士之阨困」幾乎一樣</li>
+      <li><strong>貴義</strong>：《墨子・貴義》把義抬到極高位置——「萬事莫貴於義」</li>
+    </ul>
+
+    <h3>馮友蘭的論證</h3>
+    <p>核心觀察是：戰國末到漢初，墨家作為「學派」突然消失了——這是中國思想史的 mystery，因為墨家在戰國中期跟儒家並稱「顯學」（《韓非子》：「世之顯學，儒墨也」），但到漢代幾乎絕跡。馮友蘭的解釋：墨家<strong>沒有真的消失，而是「下沉」了</strong>。知識精英部分（談辯、邏輯——《墨經》那塊）斷絕，但組織遺產與行動倫理滲入民間，變成了「俠」這個社會階層。</p>
+
+    <aside class="callout">
+      <span class="callout-label">證據鏈</span>
+      <p>（1）司馬遷筆下俠的準則——重信、輕生、赴難、急人之困——與墨家倫理高度重疊。（2）墨家「鉅子」制度與後世幫派領袖結構同構。（3）漢初「布衣之俠」興起的時間點剛好接在墨家組織解體之後。（4）階級背景（工匠、武人、平民）一致。</p>
+    </aside>
+
+    <p>這個 thesis 不是定論。錢穆認為俠的源頭更早，可以上溯到春秋「士」階層分化；也有學者指出，兼愛是普世的、有組織的，俠的「義」是個人的、針對「知己」的——兩者在哲學結構上確有差異。比較穩妥的說法是：<strong>墨家是俠的精神源頭之一，而且是組織形態與行動倫理上最直接的前身，但不是唯一源頭。</strong></p>
+  </section>
+
+  <!-- Chapter 3 -->
+  <section class="chapter" id="ch3">
+    <span class="chapter-num">Chapter 03</span>
+    <h2 class="chapter-title">墨家為何在漢代消失</h2>
+
+    <p class="section-lead">這是中國思想史最大的謎團之一。墨家在戰國中期是「顯學」，但到漢代中期幾乎人間蒸發，連《墨子》都差點失傳（現存版本是從《道藏》裡撿回來的，因為道士把它當道教文獻保存）。原因是多重打擊的合流。</p>
+
+    <h3>一、政治環境的變化（最直接）</h3>
+    <p>墨家是戰國的產物。整套主張預設列國林立、戰爭頻仍、小國隨時被吞併的環境。墨者跑去幫宋國守城這種事，是因為當時真的有宋國這種小國需要被守。秦統一之後，這個環境消失了：</p>
+    <ul>
+      <li>沒有列國，「非攻」失去具體對象</li>
+      <li>大一統帝國不能容忍一個有自己鉅子、有自己法律（鉅子可以殺人）、有武裝弟子的跨地域組織——這在任何帝國眼中都是叛亂溫床</li>
+      <li>漢武帝時郭解被族誅，就是中央政府清理這類有組織的民間力量。墨家若還以組織形式存在，下場不會比郭解好</li>
+    </ul>
+
+    <h3>二、思想內容與帝國需求不合（核心）</h3>
+    <p>把墨家十大主張一條條對照漢代帝國的需求，會發現幾乎每一條都「政治不正確」：</p>
+    <ul>
+      <li><strong>兼愛</strong>直接挑戰宗法制度。儒家「愛有差等」才符合宗族社會與孝道倫理。孟子罵墨子「無父」不是隨便罵的——兼愛邏輯上確實會稀釋父子關係的特殊性，在以孝治天下的漢代是致命傷</li>
+      <li><strong>尚同</strong>於「義」、於「天志」，而不是同於皇帝。這個凌駕於君主之上的結構，帝國不會喜歡</li>
+      <li><strong>非攻</strong>：漢武帝要打匈奴、開西域，這套沒人要聽</li>
+      <li><strong>節葬、節用、非樂</strong>：直接打臉禮樂制度與厚葬傳統。看看馬王堆、海昏侯墓就知道，墨家這套在那個時代是反文化的</li>
+      <li><strong>明鬼、天志</strong>：訴諸超越性的「天」與鬼神來約束統治者——比董仲舒「天人感應」更激進，墨家的天是會懲罰不義君主的</li>
+    </ul>
+    <p>對比之下，儒家經過董仲舒改造後，提供了帝國最需要的東西：<strong>一套讓階級秩序、皇權、宗族倫理都神聖化的意識形態</strong>。這場意識形態競爭，墨家輸得很徹底。</p>
+
+    <h3>三、墨家內部的問題</h3>
+    <ul>
+      <li><strong>要求太高</strong>。莊子《天下篇》評：「其生也勤，其死也薄，其道大觳；使人憂，使人悲，其行難為也……反天下之心，天下不堪。」太苦了，逆人性，和平年代沒人想加入</li>
+      <li><strong>組織紀律的脆弱性</strong>。鉅子制度高度依賴領袖個人魅力。墨子之後分裂為「相里氏、相夫氏、鄧陵氏」三派，三派還互相指責對方是「別墨」</li>
+      <li><strong>知識傳承的斷裂</strong>。《墨經》〈經上〉〈經下〉〈經說上〉〈經說下〉〈大取〉〈小取〉是中國古代邏輯學、幾何光學、力學的高峰，但這套需要長期師徒訓練。組織瓦解後，從漢到清兩千年幾乎沒有像樣的注釋，要到清末孫詒讓《墨子閒詁》才算重新整理出來</li>
+    </ul>
+
+    <h3>四、被儒家吸收與污名化雙管齊下</h3>
+    <ul>
+      <li><strong>吸收</strong>：墨家好的部分被儒家偷偷拿走。「兼善天下」「民胞物與」「先天下之憂而憂」骨子裡有墨家精神，但被包裝成儒家的</li>
+      <li><strong>污名化</strong>：孟子「墨氏兼愛，是無父也；無父無君，是禽獸也」——這個「禽獸」的判決影響極大，後世士大夫不太敢公開親近墨家</li>
+    </ul>
+
+    <h3>五、書寫材料與經典化</h3>
+    <p>漢代經學制度化（設博士、立官學），儒家經典被反覆抄寫、注釋、考試，自我強化。墨家失去組織後，沒有官方支持也沒有師承，文本傳抄就停了。<strong>竹簡時代，沒有持續抄寫的書就會物理性消失。</strong>《墨子》能存下來真的是奇蹟。</p>
+
+    <aside class="callout">
+      <span class="callout-label">整合</span>
+      <p>墨家沒有完全死——倫理透過「俠」滲入民間，技術傳統散入工匠群體，邏輯傳統沉睡兩千年，直到清末民初梁啟超、胡適、孫詒讓重新發現《墨經》時才驚覺：原來中國本來有自己的邏輯學、幾何學、力學傳統。這條線如果沒被切斷，中國思想史會非常不一樣。</p>
+    </aside>
+  </section>
+
+  <!-- Chapter 4 -->
+  <section class="chapter" id="ch4">
+    <span class="chapter-num">Chapter 04</span>
+    <h2 class="chapter-title">三表法：公元前五世紀的經驗論雛形</h2>
+
+    <p class="section-lead">三表法出自《墨子・非命上》。這是先秦諸子裡最接近現代科學方法論的一套結構——判斷一個主張（「言」）是否成立，要過三關。</p>
+
+    <blockquote class="classical">
+      <p>言必有三表。何謂三表？子墨子言曰：有本之者，有原之者，有用之者。</p>
+      <p>於何本之？上本之於古者聖王之事。</p>
+      <p>於何原之？下原察百姓耳目之實。</p>
+      <p>於何用之？廢以為刑政，觀其中國家百姓人民之利。</p>
+      <cite>《墨子・非命上》</cite>
+    </blockquote>
+
+    <h3>第一表：本 — Historical precedent</h3>
+    <p>「本之於古者聖王之事」——這個主張在過去的經驗中有沒有先例？墨子的「古者聖王」其實是一個 empirical reference class——他要的是<strong>過去的案例</strong>，不是聖人的道德權威。比較接近「過去類似情況下發生過什麼」。</p>
+
+    <h3>第二表：原 — Empirical observation</h3>
+    <p>「原察百姓耳目之實」——這是三表法最革命性的一條。墨子主張：<strong>判斷真假要看一般人能否親眼見、親耳聞</strong>。「耳目之實」就是 sensory evidence。</p>
+    <p>這一條在中國思想史是極罕見的。儒家訴諸經典與聖人之言，道家訴諸體悟與直觀，<strong>只有墨家明確說「要看老百姓能不能觀察到」</strong>——這是 empirical epistemology 的雛形。</p>
+
+    <h3>第三表：用 — Pragmatic consequences</h3>
+    <p>「廢以為刑政，觀其中國家百姓人民之利」——把主張落實為政策，看對國家百姓的實際效益。這是 consequentialist 的判準，而且明確指向<strong>「百姓人民之利」</strong>——不是君王之利、不是聖人之道，是 public welfare。</p>
+
+    <h3>三表合起來：past evidence + present observation + future consequences</h3>
+    <p>三個時間維度都涵蓋了。墨子用這個方法在《非命》論證「沒有命定論」：歷史上聖王不靠命；百姓沒人真的看過命；信命的政策會讓人懈怠不利於民——三表都不支持「有命」，所以這個主張是錯的。</p>
+
+    <h3>與現代 evidence-based thinking 的對照</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>三表法</th><th>Evidence-based medicine 對應</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>第一表（本）</td><td>Historical evidence / 過往臨床經驗 / case series</td></tr>
+          <tr><td>第二表（原）</td><td>Empirical observation / 可重複觀察的臨床數據（EBM 核心）</td></tr>
+          <tr><td>第三表（用）</td><td>Outcome / patient-relevant endpoint —— 不是 surrogate marker，是真正的 hard outcome</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <aside class="callout">
+      <span class="callout-label">臨床對照</span>
+      <p>「Neutral trial 容易被誤判為 positive」這個 pitfall，其實就是第二表與第三表的張力：surrogate endpoint 看起來達標（第二表的某種形式），但 hard outcome 沒有改善（第三表沒過）。<strong>墨子在兩千五百年前就把這個結構講清楚了。</strong></p>
+    </aside>
+
+    <p>當然不要過度浪漫化——三表法粗糙之處很多：沒有對照組概念、沒有量化、沒有統計、「耳目之實」沒辦法處理機率性現象、「百姓之利」缺乏明確操作定義。但作為 method 的雛形，公元前五世紀的世界是極為先進的。同時代的希臘有 Aristotle 的邏輯學，但訴諸 sensory evidence + public welfare 這個組合，墨家是獨立發展出來的。</p>
+  </section>
+
+  <!-- Chapter 5 -->
+  <section class="chapter" id="ch5">
+    <span class="chapter-num">Chapter 05</span>
+    <h2 class="chapter-title">民國初年的墨家重啟</h2>
+
+    <p class="section-lead">墨家從兩千年的沉睡中被叫醒，背後有幾條線。這是中國學術史一段很動人的故事。</p>
+
+    <h3>前奏：清代樸學鋪路</h3>
+    <ul>
+      <li><strong>畢沅</strong>（乾隆時期）做了第一個系統校勘《墨子注》（1783），是兩千年來第一個像樣的《墨子》注本</li>
+      <li><strong>孫詒讓</strong>（1848–1908）的《墨子閒詁》（1893 完稿，1907 定稿）——劃時代的工作。孫詒讓花了三十年，把《墨子》尤其是難讀的《墨經》逐字疏解。沒有這部書，後面民初的墨家研究無從談起。他校到後來發現裡面有邏輯學、幾何學、光學——對一個傳統樸學家來說是震撼的</li>
+    </ul>
+
+    <h3>第一波：梁啟超的政治性重啟（1904–1922）</h3>
+    <p>梁啟超是第一個把墨家從學術圈拉到公共領域的人。動機<strong>不純粹是學術</strong>，而是要為中國找一條救亡圖存的思想資源。1904 年《子墨子學說》，1921 年《墨子學案》，1922 年《墨經校釋》。核心論點：</p>
+    <ol>
+      <li>墨子是中國的「<strong>實踐家</strong>」，跟孔子的教育家、老子的哲學家並列。中國不是只有空談道德的傳統</li>
+      <li>兼愛 ≈ 博愛，可以接軌西方人道主義與基督教倫理</li>
+      <li>非攻 = 國際法精神，對應當時剛興起的國際聯盟理念</li>
+      <li>三表法 = 科學方法，證明中國本土有科學精神</li>
+      <li>墨子的苦行與紀律 = 中國版的清教徒精神</li>
+    </ol>
+    <p>這套詮釋有強烈的時代色彩——要用墨家證明中國要現代化不必全盤西化，可以從傳統找到對應資源。《墨子學案》當時是暢銷書，影響極大。很多五四青年是透過梁啟超才知道有墨子這個人。</p>
+
+    <h3>第二波：胡適的學術性重啟（1917–1922）</h3>
+    <p>胡適 1917 年博士論文 <cite>The Development of the Logical Method in Ancient China</cite>（《先秦名學史》），1919 年《中國哲學史大綱》上卷，把墨家研究推到另一個高度。切入點完全不同於梁啟超——<strong>不關心墨家的倫理或政治，關心墨家的邏輯學與科學方法</strong>。核心論點：</p>
+    <ol>
+      <li>中國哲學史不是只有儒家。先秦真正有方法論意識的是<strong>墨家與名家</strong></li>
+      <li>《墨經》〈經上〉〈經下〉〈經說〉〈大取〉〈小取〉是中國古代邏輯學的高峰</li>
+      <li>三表法、《小取》篇講的「辟、侔、援、推」構成了一套相當完整的論證理論</li>
+      <li>這套傳統如果延續下去，中國本來可以有自己的科學發展</li>
+    </ol>
+    <aside class="callout">
+      <span class="callout-label">胡適的 Thesis</span>
+      <p>這個論點給了五四知識分子很大的精神鼓舞——<strong>中國科學落後不是因為「中國人不行」，而是因為墨家這條線被斬斷了。</strong>中國的問題不是基因問題，是歷史偶然問題，可以補救。胡適《中國哲學史大綱》上卷裡，講墨子的篇幅幾乎跟孔子一樣多——這在傳統哲學史寫作裡是不可想像的。</p>
+    </aside>
+
+    <h3>第三波：科學史視角（1930s–1940s）</h3>
+    <ul>
+      <li><strong>錢臨照</strong>研究《墨經》的物理學內容，特別是光學（《墨經》裡有小孔成像、平面鏡反射、凹凸鏡的記載——比 Euclid 的《光學》早一些）</li>
+      <li><strong>譚戒甫</strong>《墨經分類譯注》系統整理科學內容</li>
+      <li><strong>沈有鼎</strong>從現代邏輯角度分析《墨經》的邏輯學</li>
+    </ul>
+    <p>這一階段把墨家從「思想遺產」變成「科學史研究對象」。中國有了「李約瑟難題」的雛形，墨家是這個問題的核心案例。</p>
+
+    <h3>1949 之後的轉折</h3>
+    <p>大陸有過一波<strong>意識形態化</strong>的重啟：墨子是「平民出身」、「代表勞動人民」、「反對戰爭」、「批判等級制」，被官方詮釋為「先秦進步思想家」，跟孔子（封建代表）對立起來。文革時甚至有「批孔揚墨」浪潮。有政治扭曲，但也產出了一些扎實成果（任繼愈主編的《墨子大全》是大工程）。台灣這邊則由錢穆、勞思光等延續較傳統的研究路徑。</p>
+
+    <h3>現代墨家研究的位置</h3>
+    <p>要承認：墨家從來沒有真的「復活」。它沒有變成像儒家、道家那樣的活傳統，沒有當代墨家信徒、沒有墨家組織。它是一個<strong>被研究的對象</strong>，而不是<strong>被實踐的傳統</strong>。但它的影響滲入了現代中國的某些精神底層：「為人民服務」的論述結構與兼愛+貴義+利天下的同構性；知識分子下鄉、犧牲奉獻的倫理；工程師治國的傾向——都是墨家精神的當代回聲。</p>
+
+    <aside class="callout">
+      <span class="callout-label">整合觀察</span>
+      <p>民初墨家復興的真正意義，不在於恢復了一個學派，而在於<strong>讓中國知識分子重新發現：傳統是多元的、可選擇的</strong>。兩千年來「中國思想 = 儒家 + 道家 + 佛教」的格局被打破。當你知道中國本來有墨家、有名家、有法家、有陰陽家，而且這些傳統各有不同的方法論與世界觀，你對「中國」這個概念就會更靈活、更有 agency——你可以選擇要繼承什麼。</p>
+    </aside>
+  </section>
+
+  <!-- Chapter 6 -->
+  <section class="chapter" id="ch6">
+    <span class="chapter-num">Chapter 06</span>
+    <h2 class="chapter-title">義不容辭與義無反顧</h2>
+
+    <p class="section-lead">這組詞常被連用，但其實指向兩個不同的道德時刻——一個在行動之前，一個在行動之中。</p>
+
+    <h3>義不容辭</h3>
+    <p>出處可溯到宋代，但骨架在《孟子》就有。「義」是外在的道德要求，「不容辭」是<strong>沒有拒絕的空間</strong>。這個詞描寫<strong>責任召喚的那一刻</strong>：根據我的身分、位置、能力，我是那個該出手的人，所以不能推辭。重點在「不容」——不是我選擇不辭，是在道義結構裡根本沒有「辭」這個選項。</p>
+    <p>核心是<strong>位置倫理 (role-based ethics)</strong>：你是誰決定了你該做什麼。孟子「人皆有不忍人之心」，看到孺子將入於井必會去救，就是這個結構的原型——不是計算利害之後的決定，是道德位置的自動反應。</p>
+
+    <h3>義無反顧</h3>
+    <p>出自司馬相如〈喻巴蜀檄〉：</p>
+    <blockquote class="classical">
+      <p>觸白刃，冒流矢，義不反顧，計不旋踵。</p>
+      <cite>司馬相如〈喻巴蜀檄〉</cite>
+    </blockquote>
+    <p>「反顧」字面是回頭看。「義無反顧」描寫<strong>行動啟動之後的狀態</strong>：既然為義而上路，就不回頭、不後悔、不計算退路。核心是<strong>不可逆性</strong>與心理的純粹性。它不處理「要不要做」，處理「做了之後怎麼走下去」。墨家「赴火蹈刃，死不旋踵」——「不旋踵」就是「無反顧」的身體版。</p>
+
+    <h3>兩者的差異</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th></th><th>時間點</th><th>核心</th><th>對應心理</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>義不容辭</td><td>行動<strong>之前</strong></td><td>無法推辭</td><td>承擔 (acceptance)</td></tr>
+          <tr><td>義無反顧</td><td>行動<strong>之中 / 之後</strong></td><td>無法回頭</td><td>決絕 (resolve)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>一個完整的道德行動常常是兩者接續：先義不容辭地接下來，再義無反顧地做下去。「義不容辭」偏被動（責任找上你），道德重量在外在召喚；「義無反顧」偏主動（主動選擇不回頭），道德重量在主體意志。</p>
+
+    <h3>西方文學的對應</h3>
+
+    <h4>義不容辭 — Duty / Noblesse Oblige 這條線</h4>
+    <ul>
+      <li><strong>Cicero, <cite>De Officiis</cite></strong>：這本書在西方倫理史的地位類似於中國的《孝經》+《孟子》。Cicero 把義務分為 <em>officium</em>（職責所在之事）——跟「義不容辭」的結構幾乎一致。社會角色（父親、公民、朋友、執政官）決定了你的 officia</li>
+      <li><strong>Kant 的 <em>Pflicht</em>（義務）</strong>：「出於義務而行」的道德價值高於「出於傾向而行」。Categorical imperative——「無條件的命令」——這個「無條件」就是「不容辭」</li>
+      <li><strong><cite>The Iliad</cite></strong>：Hector 明知出戰必死，但「我是特洛伊的王子，我必須出去」。他跟妻子 Andromache 告別那一幕（Book VI）是西方文學裡「義不容辭」的經典原型：「如果我像個懦夫一樣躲在城裡，我會無法面對特洛伊的男人和女人」——這就是位置倫理</li>
+      <li><strong><cite>Antigone</cite>（Sophocles）</strong>：Antigone 堅持埋葬哥哥 Polyneices，因為「作為妹妹，神法要求我這樣做」——義不容辭的極致版本</li>
+      <li><strong>"Noblesse oblige"</strong>：直譯是「貴族身分帶來義務」——你的位置決定了你不能推辭的事</li>
+    </ul>
+
+    <h4>義無反顧 — Point of No Return / Burning the Ships 這條線</h4>
+    <ul>
+      <li><strong>Caesar 渡 Rubicon 河</strong>："Alea iacta est"（骰子已擲下）。公元前 49 年 Caesar 帶兵越過 Rubicon 河進入義大利本土——這是叛國行為，一過河就不能回頭。這句話成為西方文化裡「義無反顧」的標誌性表達。"Crossing the Rubicon" 至今是英文慣用語</li>
+      <li><strong>Cortés 焚船 (1519)</strong>：Hernán Cortés 登陸墨西哥後下令燒掉船隻，讓士兵知道沒有退路，只能前進。「斷其歸路」的典型</li>
+      <li><strong>Luther at Worms (1521)</strong>：馬丁路德在 Worms 帝國會議上被要求撤回主張，他的回答："Hier stehe ich, ich kann nicht anders"（我站在這裡，我不能有別的選擇）。西方良心史上「義無反顧」的經典瞬間</li>
+      <li><strong><cite>Macbeth</cite></strong>：「I am in blood / Stepp'd in so far that, should I wade no more, / Returning were as tedious as go o'er」——我已經涉血太深，回頭跟向前一樣難。<strong>墮落版的義無反顧</strong>，結構一樣但道德方向反了</li>
+      <li><strong><cite>Henry V</cite> 的 St. Crispin's Day speech</strong>：「We few, we happy few, we band of brothers」——義無反顧的戰場版，跟司馬相如的檄文結構幾乎一樣</li>
+      <li><strong>Tennyson, "The Charge of the Light Brigade"</strong>：「Theirs not to reason why, / Theirs but to do and die」——義無反顧的英國軍隊版（雖然 Tennyson 在反諷這個命令的錯誤）</li>
+    </ul>
+
+    <aside class="callout">
+      <span class="callout-label">深層對比</span>
+      <p>西方的 duty 與 resolve 通常需要一個<strong>外在的錨點</strong>——God、King、Country、Honor、Law。義務感是垂直的，向上錨定在一個超越性或制度性的來源。</p>
+      <p>中國的「義」則錨定在「義」這個概念本身，而義是<strong>內在化的、關係性的、情境性的</strong>道德感。它不訴諸神、不訴諸王（甚至常常對抗王），它訴諸「這件事在這個情境裡是該做的」。孟子「羞惡之心，義之端也」——義的起點是內在的道德反應，不是外在命令。</p>
+      <p>這也是為什麼中國傳統裡「義」常常跟「俠」掛勾（情境化、個人化），而西方的 duty 常常跟 "law" 或 "office" 掛勾（制度化、位置化）。</p>
+    </aside>
+
+    <h3>一個臨床對照</h3>
+    <p>半夜被 call 回醫院處理 cardiogenic shock 的病人：</p>
+    <ul>
+      <li><strong>義不容辭</strong>：你是 on-call 的 interventional cardiologist，這個 case 需要 primary PCI，你是該出場的人——沒有推辭的空間。role-based duty，對應 Cicero 的 <em>officium</em></li>
+      <li><strong>義無反顧</strong>：決定做 complex PCI、知道可能 complication、知道可能半夜四點還在 cath lab、知道明天門診還要照常——but you go ahead and start the case。resolve，對應 Caesar at Rubicon</li>
+    </ul>
+    <p>兩者缺一不可。只有義不容辭沒有義無反顧，會接了案子中途退縮；只有義無反顧沒有義不容辭，會變成蠻幹或英雄主義。好的臨床判斷是兩者的 integration——這跟 Hector 出戰、Luther 站在 Worms、墨者赴火蹈刃，結構是一樣的。</p>
+  </section>
+
+  <!-- Chapter 7 -->
+  <section class="chapter" id="ch7">
+    <span class="chapter-num">Chapter 07</span>
+    <h2 class="chapter-title">義、義理、Integrity——三個文明的道德語彙</h2>
+
+    <p class="section-lead">把中國的「義」、日本的「義理」、西方的 integrity 排在一起看，可以看到三個文明對同一個問題（什麼是正確的行為？）給出了三種不同的解法。</p>
+
+    <div class="compare-grid">
+      <div class="compare-cell">
+        <div class="cell-label">中國</div>
+        <h4 class="cell-title">義</h4>
+        <dl>
+          <dt>錨定於</dt><dd>情境中的正當性</dd>
+          <dt>核心單位</dt><dd>行動</dd>
+          <dt>要求你</dt><dd>判斷：這個情境裡什麼是對的？</dd>
+        </dl>
+      </div>
+      <div class="compare-cell">
+        <div class="cell-label">日本</div>
+        <h4 class="cell-title">義理 Giri</h4>
+        <dl>
+          <dt>錨定於</dt><dd>關係中的回報</dd>
+          <dt>核心單位</dt><dd>人際結構</dd>
+          <dt>要求你</dt><dd>記得：我欠誰什麼、我在哪個位置？</dd>
+        </dl>
+      </div>
+      <div class="compare-cell">
+        <div class="cell-label">西方</div>
+        <h4 class="cell-title">Integrity</h4>
+        <dl>
+          <dt>錨定於</dt><dd>自我的完整</dd>
+          <dt>核心單位</dt><dd>人格</dd>
+          <dt>要求你</dt><dd>保持：我是不是還是我自己？</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3>中國的「義」</h3>
+    <p>「義者，宜也」——字源直接指向「適宜」，是情境判斷的結果，不是外在規範的執行。孔子「君子喻於義，小人喻於利」把義與利對立；孟子「羞惡之心，義之端也」把起點定在內在的道德反應。四個特徵：</p>
+    <ul>
+      <li><strong>情境性</strong>：在這個情境下什麼是對的，需要判斷，不是套用規則</li>
+      <li><strong>內在化</strong>：源於內心的羞惡之心，不是外在命令</li>
+      <li><strong>可以對抗制度</strong>：「大義滅親」「捨生取義」——當義與君、與親衝突時，義可以優先</li>
+      <li><strong>普遍性</strong>：對象可以是任何人，包括陌生人（俠的「路見不平」就是這個結構）</li>
+    </ul>
+
+    <h3>日本的「義理 (giri)」</h3>
+    <p>日本從中國接收了「義」這個字，但發展出完全不同的概念。義理的核心意思是：<strong>對特定對象、因為過去的恩或關係而產生的、必須回報的義務</strong>。</p>
+    <p>Ruth Benedict 在 <cite>The Chrysanthemum and the Sword</cite>（1946）把義理翻譯為 "the most difficult thing to bear"——因為它是不能拒絕、也不能忘記的人情債。</p>
+    <p>四個關鍵區別：</p>
+    <ol>
+      <li><strong>關係性而非普遍性</strong>：義理永遠針對特定對象（主君、父母、恩師、幫助過你的人），不會對陌生人有義理——與中國俠「為素不相識者拔刀」的普遍性完全相反</li>
+      <li><strong>兩個方向</strong>：
+        <ul>
+          <li>義理對世間 (giri to seken)：對恩人、親族的回報義務（收禮要還、受恩要報）</li>
+          <li>義理對名譽 (giri to na)：維護自己名聲的義務（被侮辱要洗刷、失敗要負責）</li>
+        </ul>
+      </li>
+      <li><strong>義理 vs 人情 (ninjō) 的張力</strong>：義理是你「必須做」的，人情是你「想做」的——兩者經常衝突。近松門左衛門《曾根崎心中》就是典型：對朋友的義理 vs 對戀人的人情，無法調和，最後只能殉情。這種「義理人情劇 (giri-ninjō mono)」在中國傳統戲曲裡找不到對應結構</li>
+      <li><strong>可以沒有道德內容</strong>：這是最關鍵的差異。中國的「義」預設了「對」；日本的義理<strong>本身不預設道德對錯，只預設「關係存在」</strong>。赤穗浪士替主君淺野復仇殺吉良，從現代道德看是私刑、是殺人，但從義理角度這是必須的——「義理已盡」而非「做對了」</li>
+    </ol>
+
+    <h3>「義」vs「義理」——報恩場景的對照</h3>
+    <ul>
+      <li><strong>中國版「義」</strong>：韓信漂母一飯之恩，功成後千金相報——故事強調的是韓信「不忘本」與感恩的道德品質</li>
+      <li><strong>日本版「義理」</strong>：《忠臣藏》赤穗四十七士替主君復仇——強調的是義理不可違背的制度性力量，不管主君本身對不對</li>
+    </ul>
+    <p>一句話總結：<strong>中國的「義」是道德判斷之後的行動；日本的「義理」是關係結構決定的行動。</strong></p>
+
+    <aside class="callout">
+      <span class="callout-label">歷史解釋</span>
+      <p>中國從漢代就是科舉官僚體系，人際關係相對流動；日本從鎌倉到江戶是嚴格的身分制封建社會，每個人終身嵌在固定的垂直關係裡（主從、師徒、家族）。在流動社會裡，道德需要普遍性原則（「義」）；在固定關係社會裡，道德變成特定關係的回報義務（「義理」）。這個差異影響到今天的日本職場文化：對公司的忠誠、對上司的服從、對同事的「借貸」記帳——都是義理在現代的延伸。</p>
+    </aside>
+
+    <h3>西方的 Integrity</h3>
+    <p>字源：拉丁文 <em>integritas</em>，字根 <em>integer</em>——「完整的、未分割的、未被觸碰的」。數學 integer（整數）跟它同源。核心意象是<strong>「一個人作為一個整體是完整的、未分裂的」</strong>。它不預設你做什麼事是對的，它預設你<strong>不管做什麼都保持一致</strong>。</p>
+    <p>三個主要面向：</p>
+    <ol>
+      <li><strong>內在一致性 (internal consistency)</strong>：你說的跟你做的一致，你今天跟明天一致，你人前跟人後一致</li>
+      <li><strong>價值整合 (integration of values)</strong>：你的信念、情感、行動是一個整體，不會各自為政</li>
+      <li><strong>抗拒妥協 (incorruptibility)</strong>：不被外在壓力（金錢、權力、恐懼）腐蝕</li>
+    </ol>
+
+    <h3>Integrity 與「義」的四個差異</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>維度</th><th>義</th><th>Integrity</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>參照點</td><td>外部情境——「這件事該怎麼做？」</td><td>內部自我——「我的行動符合我自己嗎？」</td></tr>
+          <tr><td>時間結構</td><td>時刻性——特定情境中被實現</td><td>持續性——跨時間的人格特質</td></tr>
+          <tr><td>社會性</td><td>社會性——總在人與事的關係中展開</td><td>個體性——無人見證仍然如此</td></tr>
+          <tr><td>道德內容</td><td>實質倫理——預設「對」</td><td>形式倫理——納粹也可以有 integrity（Bernard Williams 曾討論過）</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>關鍵觀察：<strong>一個貪官如果堅定不移、言行一致、不被規勸所動，他有 integrity 但完全沒有「義」</strong>——中文會說他「頑固不化」，不會說他「有義」。反之，一個普通人在正確的時刻做了正確的事，他有「義」但不必然需要 integrity 這個整體狀態。義是<strong>實質倫理</strong>，告訴你內容；integrity 是<strong>形式倫理</strong>，只規範結構。</p>
+
+    <h3>中文裡誰最接近 integrity？</h3>
+    <p>不是「義」，而是<strong>「誠」+「慎獨」+「操守」</strong>的組合：</p>
+    <ul>
+      <li><strong>誠</strong>：《中庸》「誠者，天之道也；誠之者，人之道也」——內外一致、不自欺</li>
+      <li><strong>慎獨</strong>：《中庸》「君子慎其獨也」——獨處時仍然保持原則，對應 integrity 的「無人見證仍然如此」</li>
+      <li><strong>操守 / 氣節</strong>：長期的、不被外在壓力扭曲的品格，對應 integrity 的 incorruptibility</li>
+    </ul>
+    <p>中文需要三個詞才能表達 integrity；英文需要多個情境才能展開「義」——反映了兩個傳統對道德的 carving up 不同，不是誰豐富誰貧乏，是切割方式不同。</p>
+
+    <h3>三者整合：衝突時刻的 Drama</h3>
+    <p>最有趣的是當三者衝突時，各文明的戲劇如何處理——這構成了三個文明的道德戲劇核心：</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>文明</th><th>核心衝突</th><th>代表作品</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>日本</td><td>義理 vs 人情</td><td>近松門左衛門《曾根崎心中》、《忠臣藏》</td></tr>
+          <tr><td>西方</td><td>Integrity vs survival</td><td>Robert Bolt <cite>A Man for All Seasons</cite> 的 Thomas More</td></tr>
+          <tr><td>中國</td><td>義 vs 情</td><td>《趙氏孤兒》、關羽華容道釋曹操</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>一個觀察：<strong>日本文化擅長義理、西方文化擅長 integrity、中國文化擅長義</strong>。這跟三個社會的歷史結構有關——日本的封建關係網、西方的個體主義傳統、中國的情境主義倫理，各自孕育出最適合自己的道德概念。</p>
+
+    <aside class="callout">
+      <span class="callout-label">臨床尾聲</span>
+      <p>作為醫師，日常其實三者都需要：對病人的「義」（判斷此刻該做什麼）、對同事與老師的「義理」（記得誰幫過你、哪些關係要維護）、對自己的 integrity（不被 pressure 或 incentive 扭曲判斷）。</p>
+      <p>這三者有時會打架——比如一個 referral 來自曾經幫過你的學長，但你的 clinical judgment 認為這個 case 不該收。義理說該收，義說該誠實告知，integrity 說不能違背自己的判斷。<strong>這種時刻的處理方式，其實定義了一個臨床工作者的品格。</strong></p>
+    </aside>
+  </section>
+
+  <!-- Further Reading -->
+  <section class="chapter" id="reading">
+    <span class="chapter-num">Appendix</span>
+    <h2 class="chapter-title">延伸閱讀</h2>
+
+    <h3>原典與中文研究</h3>
+    <ul>
+      <li>《墨子》——〈兼愛〉〈非攻〉〈貴義〉〈公輸〉〈非命上〉幾篇即可，不必全讀</li>
+      <li>孫詒讓《墨子閒詁》——墨家研究的基石</li>
+      <li>馮友蘭《中國哲學史》上冊——談墨家章，俠出於墨的 thesis 出處</li>
+      <li>胡適《中國哲學史大綱》上卷、《先秦名學史》</li>
+      <li>梁啟超《墨子學案》、《墨經校釋》</li>
+      <li>余英時《俠與中國文化》——俠的專論</li>
+    </ul>
+
+    <h3>比較文化</h3>
+    <ul>
+      <li>Ruth Benedict, <cite>The Chrysanthemum and the Sword</cite> (1946)——「義理」的經典英文詮釋</li>
+      <li>Cicero, <cite>De Officiis</cite>——西方倫理學的 duty 傳統源頭</li>
+      <li>Robert Bolt, <cite>A Man for All Seasons</cite>——Thomas More 的 integrity 戲劇</li>
+      <li>Bernard Williams, <cite>Moral Luck</cite>（整合性批判文集）——integrity 的哲學討論</li>
+    </ul>
+  </section>
+
+  <footer class="colophon">
+    <div class="signoff">對話整理</div>
+    <div class="credential">謝慕揚 醫師 &nbsp;MD, PhD, FESC</div>
+    <div class="tag">哲學閱讀 · 跨文明比較</div>
+    <div class="notes">
+      <p>本內容為個人與 Claude 的對話整理，未必涵蓋所有相關文獻。</p>
+      <p>僅供個人閱讀與教育用途，不代表任何單位之官方立場。</p>
+      <p>本內容未涉及任何利益衝突。</p>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  // Theme toggle: cycle system → light → dark → system
+  (function() {
+    const KEY = 'xyz-theme';
+    const root = document.documentElement;
+    const btn = document.getElementById('themeBtn');
+    const states = [null, 'light', 'dark'];
+    const icons = { null: '◐', light: '☀', dark: '☾' };
+
+    let saved = null;
+    try { saved = localStorage.getItem(KEY); } catch (e) {}
+    if (saved === 'light' || saved === 'dark') {
+      root.setAttribute('data-theme', saved);
+    }
+    updateIcon();
+
+    btn.addEventListener('click', function() {
+      const cur = root.getAttribute('data-theme');
+      const idx = states.indexOf(cur);
+      const next = states[(idx + 1) % states.length];
+      if (next === null) {
+        root.removeAttribute('data-theme');
+        try { localStorage.removeItem(KEY); } catch (e) {}
+      } else {
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem(KEY, next); } catch (e) {}
+      }
+      updateIcon();
+    });
+
+    function updateIcon() {
+      const cur = root.getAttribute('data-theme');
+      btn.textContent = icons[cur] || icons.null;
+      btn.setAttribute('aria-label',
+        cur === 'light' ? '切換為深色' :
+        cur === 'dark' ? '切換為系統預設' :
+        '切換為淺色');
+    }
+  })();
+
+  // Smooth scroll for TOC
+  document.querySelectorAll('nav.toc a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const id = a.getAttribute('href').slice(1);
+      const el = document.getElementById(id);
+      if (el) {
+        e.preventDefault();
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        history.replaceState(null, '', '#' + id);
+      }
+    });
+  });
+</script>
+</body>
+</html>
