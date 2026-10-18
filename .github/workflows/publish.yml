@@ -23,6 +23,9 @@ jobs:
           # lfs: false so an exhausted LFS budget can't fail the checkout and
           # block the whole deploy. LFS objects are pulled best-effort below.
           lfs: false
+          # Full history so the pre-render script can build the home-page
+          #「最近新增」list from git log (it keeps the committed file on a shallow clone).
+          fetch-depth: 0
 
       - name: Best-effort LFS pull (never fail the build)
         continue-on-error: true

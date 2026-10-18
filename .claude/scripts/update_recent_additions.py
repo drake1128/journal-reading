@@ -1,0 +1,160 @@
+#!/usr/bin/env python3
+"""Build data/recent-additions.yml for the home-page「最近新增」listing.
+
+Reads git history for handout pages that were *added* (renames don't count),
+keeps the newest N that still exist, and writes them as a Quarto listing
+contents file. Runs as a Quarto pre-render hook, so the list refreshes on
+every deploy. It never fails the build: on a shallow clone or any git error
+it leaves the existing YAML untouched.
+
+Manual run:  python3 .claude/scripts/update_recent_additions.py
+"""
+import html
+import os
+import re
+import subprocess
+import sys
+
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+OUT = os.path.join(ROOT, "data", "recent-additions.yml")
+LIMIT = 12
+
+SECTIONS = {
+    "01-ischemic-heart-disease": "缺血性心臟病",
+    "02-heart-failure": "心衰竭",
+    "03-arrhythmia": "心律不整",
+    "04-valvular-disease": "瓣膜疾病",
+    "05-cardiac-imaging": "心臟影像",
+    "06-interventional-cardiology": "介入心臟學",
+    "07-peripheral-vascular": "周邊血管",
+    "08-genetic-medicine": "基因醫學",
+    "09-hypertension": "高血壓",
+    "10-icu-general": "ICU 一般照護",
+    "11-icu-respiratory": "ICU 呼吸系統",
+    "12-icu-hemodynamics": "ICU 血液動力學",
+    "13-icu-renal": "ICU 腎臟",
+    "14-diabetes-metabolic": "糖尿病/代謝",
+    "15-oncology": "腫瘤心臟學",
+    "20-pulmonary-embolism": "肺栓塞",
+    "21-pulmonary-hypertension": "肺高壓",
+    "22-copd-asthma": "COPD/氣喘",
+    "90-ai-technology": "AI 科技",
+    "91-podcast-journal-review": "期刊回顧",
+    "95-management-leadership": "管理與領導",
+    "99-misc": "其他",
+    "classroom-teaching": "課堂教學",
+    "nejm-case-records": "NEJM Case Records",
+}
+
+# Raw weekly-review handouts are superseded by their published slug pages.
+DUPLICATE_RAW = re.compile(r"^(Weekly_CV_Journal_Review|Critical_Care_Biweekly_Review)_.*教學講義\.md$")
+
+
+def git(*args):
+    return subprocess.run(
+        ["git", "-c", "core.quotepath=off", *args],
+        cwd=ROOT, capture_output=True, text=True, check=True,
+    ).stdout
+
+
+ROOT_SKIP = {"index.qmd", "featured.qmd"}
+
+
+def wanted(path):
+    if "/" not in path:                                   # site-root pages, e.g. anatomy-3d.qmd
+        return path.endswith(".qmd") and path not in ROOT_SKIP and os.path.isfile(os.path.join(ROOT, path))
+    if not path.startswith("handouts/") or not path.endswith((".html", ".md", ".qmd")):
+        return False
+    parts = path.split("/")
+    name = parts[-1]
+    if len(parts) <= 3 and name == "index.qmd":      # section landing pages
+        return False
+    if name.startswith("_") or name.endswith("_Marp.md") or "/figures/" in path:
+        return False
+    if name.endswith(".md") and name.lower() in ("readme.md",):
+        return False
+    if DUPLICATE_RAW.match(name):
+        return False
+    if "/quarto/" in path and not path.endswith("index.qmd"):  # Mainz sub-project chapters
+        return False
+    return os.path.isfile(os.path.join(ROOT, path))
+
+
+def title_of(path):
+    full = os.path.join(ROOT, path)
+    try:
+        with open(full, encoding="utf-8") as f:
+            text = f.read(200_000)
+    except (OSError, UnicodeDecodeError):
+        text = ""
+    if path.endswith(".html"):
+        m = re.search(r"<title[^>]*>(.*?)</title>", text, re.S | re.I)
+        if m and m.group(1).strip():
+            return html.unescape(re.sub(r"\s+", " ", m.group(1)).strip())
+    else:
+        m = re.match(r"---\s*\n(.*?)\n---", text, re.S)
+        if m:
+            t = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', m.group(1), re.M)
+            if t:
+                return t.group(1).strip()
+        h1 = re.search(r"^#\s+(.+)$", text, re.M)
+        if h1:
+            return h1.group(1).strip()
+    return None
+
+
+def short_title(path):
+    """Title for the listing; for 'English / 中文' titles keep the Chinese half."""
+    t = title_of(path) or os.path.splitext(os.path.basename(path))[0].replace("_", " ")
+    if " / " in t:
+        halves = [h.strip() for h in t.split(" / ", 1)]
+        cjk = [h for h in halves if re.search(r"[\u4e00-\u9fff]", h)]
+        t = cjk[0] if cjk else halves[0]
+    return t
+
+
+def yq(s):
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def main():
+    try:
+        if git("rev-parse", "--is-shallow-repository").strip() == "true":
+            print("recent-additions: shallow clone, keeping existing file", file=sys.stderr)
+            return
+        log = git("log", "--diff-filter=A", "--name-only", "--format=@@%cs", "--", "handouts", ":(glob)*.qmd")
+    except (OSError, subprocess.CalledProcessError) as e:
+        print(f"recent-additions: git unavailable ({e}), keeping existing file", file=sys.stderr)
+        return
+
+    items, seen, date = [], set(), None
+    for line in log.splitlines():
+        if line.startswith("@@"):
+            date = line[2:]
+            continue
+        path = line.strip()
+        if not path or path in seen or not wanted(path):
+            continue
+        seen.add(path)
+        items.append((date, path))
+        if len(items) >= LIMIT:
+            break
+
+    out = ["# Generated by .claude/scripts/update_recent_additions.py — do not edit by hand"]
+    for date, path in items:
+        folder = path.split("/")[1] if "/" in path else ""
+        kind = "互動網頁" if path.endswith(".html") else "講義"
+        out += [
+            f"- title: {yq(short_title(path))}",
+            f"  path: {yq(path)}",
+            f"  date: {date}",
+            f"  description: {yq(SECTIONS.get(folder, folder or '精選') + ' · ' + kind)}",
+        ]
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as f:
+        f.write("\n".join(out) + "\n")
+    print(f"recent-additions: wrote {len(items)} items", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

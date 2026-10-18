@@ -3,11 +3,31 @@ title: "Journal Reading"
 subtitle: "Cardiology Teaching Materials & Literature Reviews"
 author: "謝慕揚 MD, PhD, FESC (Drake Hsieh)"
 date: last-modified
+listing:
+  id: recent-additions
+  contents: data/recent-additions.yml
+  type: table
+  sort: "date desc"
+  fields: [date, title, description]
+  field-display-names:
+    date: "日期"
+    title: "標題"
+    description: "分類"
+  date-format: "YYYY-MM-DD"
+  sort-ui: false
+  filter-ui: false
 ---
 
 ## 關於本站
 
 本站收錄新竹臺大分院心血管中心的教學講義、文獻回顧，以及出國進修報告。
+
+## 最近新增 Recently Added
+
+最新放上網站的 12 篇講義與互動網頁，每次網站更新時自動產生。要找更早的檔案，請用右上角搜尋（鍵盤 `/`）或下方目錄。
+
+::: {#recent-additions}
+:::
 
 ## 目錄
 
@@ -54,6 +74,7 @@ date: last-modified
 |---|------|-------|
 | 90 | [AI 科技](handouts/90-ai-technology/index.qmd) | AI & Technology |
 | 91 | [Podcast 期刊回顧](handouts/91-podcast-journal-review/index.qmd) | Journal Podcast Reviews |
+| 95 | [管理與領導](handouts/95-management-leadership/index.qmd) | Management & Leadership |
 | 99 | [其他](handouts/99-misc/index.qmd) | Miscellaneous |
 
 ---
