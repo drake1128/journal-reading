@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: _site
-  # 首頁「最近新增」：從 git 歷史產生 data/recent-additions.yml（淺層 clone 時保留原檔）
+  # 首頁「最近新增」：從 git 歷史產生根目錄 recent-additions.yml（淺層 clone 時保留原檔）
   pre-render: .claude/scripts/update_recent_additions.py
   resources:
     # 3D 血管解剖：viewer.html 以程式動態載入模型與資料，需整個資料夾原樣複製
