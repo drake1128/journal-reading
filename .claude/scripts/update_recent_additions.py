@@ -146,7 +146,8 @@ def main():
         kind = "互動網頁" if path.endswith(".html") else "講義"
         out += [
             f"- title: {yq(short_title(path))}",
-            f"  path: {yq(path)}",
+            # Quarto resolves listing paths relative to this YAML file (data/), hence "../".
+            f"  path: {yq('../' + path)}",
             f"  date: {date}",
             f"  description: {yq(SECTIONS.get(folder, folder or '精選') + ' · ' + kind)}",
         ]
