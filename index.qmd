@@ -54,6 +54,7 @@ date: last-modified
 |---|------|-------|
 | 90 | [AI 科技](handouts/90-ai-technology/index.qmd) | AI & Technology |
 | 91 | [Podcast 期刊回顧](handouts/91-podcast-journal-review/index.qmd) | Journal Podcast Reviews |
+| 96 | [個人閱讀](handouts/96-personal/index.qmd) | Personal Reading |
 | 99 | [其他](handouts/99-misc/index.qmd) | Miscellaneous |
 
 ---
