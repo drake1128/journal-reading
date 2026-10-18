@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build data/recent-additions.yml for the home-page「最近新增」listing.
+"""Build recent-additions.yml for the home-page「最近新增」listing.
 
 Reads git history for handout pages that were *added* (renames don't count),
 keeps the newest N that still exist, and writes them as a Quarto listing
@@ -16,7 +16,9 @@ import subprocess
 import sys
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-OUT = os.path.join(ROOT, "data", "recent-additions.yml")
+# Lives at the site root: Quarto resolves rendered-page paths relative to this
+# file but passes .html paths through as-is, so root is the only place both work.
+OUT = os.path.join(ROOT, "recent-additions.yml")
 LIMIT = 12
 
 SECTIONS = {
@@ -146,12 +148,10 @@ def main():
         kind = "互動網頁" if path.endswith(".html") else "講義"
         out += [
             f"- title: {yq(short_title(path))}",
-            # Quarto resolves listing paths relative to this YAML file (data/), hence "../".
-            f"  path: {yq('../' + path)}",
+            f"  path: {yq(path)}",
             f"  date: {date}",
             f"  description: {yq(SECTIONS.get(folder, folder or '精選') + ' · ' + kind)}",
         ]
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
     print(f"recent-additions: wrote {len(items)} items", file=sys.stderr)

@@ -417,7 +417,7 @@ python3 .claude/scripts/publish_weekly_reviews.py cc YYYY-MM-DD
 # (c) 連同 3 件套一起 commit + push
 ```
 
-**首頁「最近新增」**：`data/recent-additions.yml` 由 `.claude/scripts/update_recent_additions.py` 從 git 歷史產生（Quarto pre-render 自動跑，CI 用 full-history checkout）。只列「新增」的網頁（.md/.qmd/手工 .html），不列 Marp、`_letter.md`、各區 index 與被 slug 頁取代的週報原始講義。不要手改這個 YAML；本機跑一次腳本再 commit 即可同步。另外，手工 `.html` 要先在 `.gitignore` 白名單加 `!handouts/...` 才會被追蹤，否則既不上網也不會出現在清單。
+**首頁「最近新增」**：`recent-additions.yml`（repo 根目錄）由 `.claude/scripts/update_recent_additions.py` 從 git 歷史產生（Quarto pre-render 自動跑，CI 用 full-history checkout）。只列「新增」的網頁（.md/.qmd/手工 .html），不列 Marp、`_letter.md`、各區 index 與被 slug 頁取代的週報原始講義。不要手改這個 YAML；本機跑一次腳本再 commit 即可同步。另外，手工 `.html` 要先在 `.gitignore` 白名單加 `!handouts/...` 才會被追蹤，否則既不上網也不會出現在清單。
 
 規則：**PDF 不進網站**（太大）；只放 Markdown。`_letter.md` 要 commit（之後重建不必再讀 Gmail）。
 `publish_weekly_reviews.py` 會自動去掉講義的 `# 標題` 與手寫 `## 目錄`（Quarto 自帶 TOC）。

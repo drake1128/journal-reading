@@ -5,7 +5,7 @@ author: "謝慕揚 MD, PhD, FESC (Drake Hsieh)"
 date: last-modified
 listing:
   id: recent-additions
-  contents: data/recent-additions.yml
+  contents: recent-additions.yml
   type: table
   sort: "date desc"
   fields: [date, title, description]
