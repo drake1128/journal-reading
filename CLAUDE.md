@@ -576,6 +576,7 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
    - "transcatheter edge-to-edge repair" OR "TEER"
    - "MitraClip" OR "PASCAL" OR "edge-to-edge repair"
    - "TriClip" OR "tricuspid TEER"
+   - `"Struct Heart"[ta]`（Structural Heart 期刊，原 Structural Heart Monthly 月報併入；全部掃過，只收 TEER／二尖瓣／三尖瓣相關者）
 2. Compile all unique articles, remove duplicates
 3. Generate a structured Markdown review document with:
    - 重點摘要 (Key Pearls)
@@ -596,6 +597,7 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
    - "transcatheter aortic valve implantation" OR "TAVI" OR "TAVR"
    - "balloon-expandable" OR "self-expanding" OR "aortic stenosis transcatheter"
    - "SAPIEN" OR "Evolut" OR "ACURATE" OR "Navitor" OR "JenaValve"
+   - `"Struct Heart"[ta]`（Structural Heart 期刊，原 Structural Heart Monthly 月報併入；全部掃過，只收 TAVI／主動脈瓣相關者）
 2. Compile all unique articles, remove duplicates
 3. Generate a structured Markdown review document with:
    - 重點摘要 (Key Pearls)
