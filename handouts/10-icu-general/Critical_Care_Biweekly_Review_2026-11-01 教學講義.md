@@ -1,0 +1,466 @@
+# Critical Care 雙週期刊回顧 / Biweekly Critical Care Literature Review
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-11-01**
+**期間：2026-10-18 ～ 2026-11-01**
+**涵蓋期刊：** Intensive Care Medicine (ICM)、Critical Care、Critical Care Medicine (CCM)、Chest、Resuscitation、Shock。Lancet Respiratory Medicine 本期間以肺部疾病（EFZO-FIT 肺部類肉瘤、depemokimab 氣喘、中國 COPD Commission）等非重症核心主題為主；American Journal of Respiratory and Critical Care Medicine (AJRCCM) 以間質性肺病與門診呼吸議題為主；Annals of Intensive Care 本期間 PubMed 僅見一篇 corrigendum。本期已排除上一期（2026-10-15）已收錄之文章。文獻來源：PubMed。
+
+---
+
+## 重點摘要 (Key Pearls)
+
+> **Pearl 1 — 念珠菌敗血性休克 (Candida septic shock)：每延遲一小時給「對的」抗黴菌藥，死亡風險就上升**：32 家醫院、850 位培養陽性 Candida septic shock 的回溯世代研究顯示，自持續性低血壓發生起算，延遲給 pathogen-appropriate antifungal (PAA) 每多一小時，死亡 adjusted odds ratio (aOR) **1.045（95% CI 1.035–1.056；p<0.0001）**。2 小時內投藥存活率 86%，其後每小時約掉 5%。但實際上中位延遲 **32.3 小時**，只有 16.9% 的人在 6 小時內拿到對的藥——**真正的問題是「想不到」而不是「來不及」**。
+
+> **Pearl 2 — Chlorhexidine (CHX, 氯己定) 加進口腔照護 bundle 並不能再多預防呼吸器相關肺炎 (Ventilator-Associated Pneumonia, VAP)**：印度 6 家內科 ICU 的 pragmatic cluster-randomized crossover 試驗 (n=1,035)，在標準口腔照護 bundle 之外加 0.12% CHX，VAP incidence rate ratio **1.08（95% CI 0.84–1.38；p=0.56）**、28 天死亡率無差異，ICU 住院反而多 0.89 天。**這是一個 negative 試驗**，呼應近年對非心臟手術族群 CHX 效益的質疑。
+
+> **Pearl 3 — 音樂治療 (music therapy) 脫離呼吸器試驗：主要終點 negative，但次要訊號值得看**：西班牙單中心 randomized controlled trial (RCT, n=100)，主要終點「脫離呼吸器時間」**無差異（p=0.97）**；但音樂治療組躁動與鎮靜程度較低、propofol 使用較少，**氣切率顯著下降（14%，p=0.025）**。結論：別把它當縮短脫機的工具，而是當作減少躁動、鎮靜與人性化照護的輔助。
+
+> **Pearl 4 — 非侵襲性通氣 (Non-Invasive Ventilation, NIV) 的高潮氣量 (tidal volume, Vt) 是失敗與死亡的警訊**：11 篇、1,136 人的統合分析顯示，NIV 失敗組的 Vt/預測體重 (predicted body weight, PBW) 較高（mean difference, MD +1.02 mL/kg），且高 Vt/PBW 與死亡相關 (odds ratio, OR **9.11**)。背後機轉指向高 respiratory drive 與病人自發性肺損傷 (patient self-inflicted lung injury, P-SILI)——**NIV 不是只看壓力，更要盯住潮氣量**。
+
+> **Pearl 5 — Furosemide Stress Test (FST, 呋塞米壓力試驗) 是便宜的分流工具，但不是救命療法**：20 篇、1,979 人的統合分析顯示，FST 預測 acute kidney injury (AKI) 惡化 (AUC 0.89) 與預測 kidney replacement therapy (KRT) 脫離 (AUC 0.89) 表現不錯；但「以 FST 引導提早啟動 KRT」對短期死亡率**無效（pooled risk ratio, RR 1.00；95% CI 0.79–1.27）**。定位：資源有限、拿不到新型生物標記時的 bedside 風險分層工具。
+
+> **Pearl 6 — 免疫低下病人 ICU 內感染：血液腫瘤與「其他免疫抑制」風險高，實體癌不然**：巴西 50 家 ICU、38,126 人的世代研究，以競爭風險校正後，血液惡性腫瘤 (subdistribution hazard ratio, sHR 1.64) 與其他免疫抑制狀態 (sHR 1.61) 的 ICU-acquired infection 風險顯著較高，而實體癌 (sHR 0.88) 與非免疫低下者無異。**感控強度應依免疫抑制「類別」分層，而非一視同仁。**
+
+> **Pearl 7 — 打升壓劑時，橈動脈 (radial) 的血壓可能被低估**：波蘭 13 家 ICU、303 位用 vasoactive 藥物病人的前瞻觀察，約 **1/5（18.4%）** 出現臨床顯著的 brachial-to-radial 壓力差 (>11 mmHg)。此族群升壓劑劑量更高、lactate 更高、ICU 死亡率更高（48.0% vs 30.1%）。**在高劑量升壓劑下，橈動脈導管的 MAP 可能偏低，別據此一直加藥。**
+
+> **Pearl 8 — AI 判讀心電圖 (electrocardiogram, ECG) 可在 OHCA 後 ROSC 病人「排除」急性冠心症**：單中心研究用深度學習 ECG 生物標記建構規則式決策樹，在零偽陰性約束下，把約一半 (52.0% / 45.1%) 的 post-ROSC 病人判為「ACS 不太可能」且無任何經判定的 ACS 被漏判；效益集中在 non-shockable 族群 (AUROC 0.824)。可望減少不必要的緊急冠狀動脈攝影，待前瞻多中心驗證。
+
+> **Pearl 9 — 心臟驟停給氣：即時回饋優於只看 end-tidal CO₂ (ETCO₂)**：威斯康辛州 EMS 的 before/after 研究 (278 人)，使用 Real BVM Help® 即時回饋後，同時達標的通氣速率與潮氣量比例從 7.5% 升到 **39.0%（p<0.0001）**。只用 ETCO₂ 監測時，最常見的錯誤是**給氣量不足（58.2% 偏低）**。CPR 期間應加入速率＋潮氣量的即時回饋。
+
+> **Pearl 10 — ESICM 發表「以人為本的 ICU 夥伴關係」共識**：歐洲重症醫學會 (European Society of Intensive Care Medicine, ESICM) 46 人專家團，經 eDelphi 產出 **43 條共識**，涵蓋彈性探視、結構化跨團隊溝通、同理心訓練、病人與醫護的心理支持、改善睡眠與減少譫妄 (delirium) 的環境介入，以及負責任地整合數位科技。把「人性化」列為與呼吸器、抗生素同等重要的照護面向。
+
+---
+
+## 目錄
+
+1. [Sepsis 與感染](#1-sepsis-與感染)
+2. [Mechanical Ventilation 與呼吸支持](#2-mechanical-ventilation-與呼吸支持)
+3. [AKI / Renal](#3-aki--renal)
+4. [Resuscitation 與心臟驟停](#4-resuscitation-與心臟驟停)
+5. [Hemodynamics 與監測](#5-hemodynamics-與監測)
+6. [ICU 復健、組織與藥學](#6-icu-復健組織與藥學)
+7. [其他值得關注 (Honorable Mentions)](#7-其他值得關注-honorable-mentions)
+8. [常用縮寫整理](#常用縮寫整理)
+9. [參考文獻](#參考文獻)
+
+---
+
+## 1. Sepsis 與感染
+
+### 1.1 念珠菌敗血性休克：延遲給對的抗黴菌藥是最強的預後決定因子
+
+**Abhishek A, Mashhadiagha G, Ramezani A, et al. Crit Care Med 2026.**（附評論 Gupta S, Rhee C, Klompas M.）
+
+- **設計**：回溯世代，32 家學術與社區醫院（加拿大、美國、沙烏地阿拉伯，1989/07–2018/06）
+- **族群**：850 位培養陽性 Candida septic shock 成人
+- **主要發現**：
+  - 69.2%（589 人）在持續性低血壓發生後才拿到 pathogen-appropriate antifungal (PAA)
+  - 自持續性低血壓起算，**每延遲 1 小時給 PAA，死亡 aOR 1.045（95% CI 1.035–1.056；p<0.0001）**
+  - 2 小時內投藥 → 住院存活率 **86%**；之後每小時約下降 5%（延至 10–12 小時）
+  - 多變項分析（含 APACHE II）中，**抗黴菌投藥時間是最強的單一預後預測因子**
+  - 效果在不同感染型態、病原、抗黴菌藥物類別間一致
+  - **現實落差**：中位投藥延遲 **32.3 小時**（IQR 11.2–66.0），只有 **16.9%** 在 6 小時內接受對的藥
+
+> **臨床啟示**：對高風險病人（長期中心靜脈導管、全靜脈營養、腹部手術、長時間廣效抗生素、多部位 Candida 移生）的不明原因 septic shock，應**及早考慮經驗性抗黴菌治療**並積極 source control。本研究的核心訊息不是「要更快」，而是「要先想到」——大多數延遲來自診斷未納入念珠菌。
+
+---
+
+### 1.2 免疫低下病人的 ICU 內感染：依免疫抑制「類別」分層風險
+
+**Daltro-Oliveira R, Dos Santos SS, Sanches LC, et al. Crit Care Med 2026.**
+
+- **設計**：巴西 50 家 ICU、前瞻收集資料的回溯世代
+- **族群**：38,126 位住 ICU >48 小時、前 48 小時無感染的成人
+- **方法**：以 Fine-Gray 競爭風險（死亡與出院為競爭事件）分析首次 ICU-acquired infection (ICU-AI)
+- **結果（校正後 sHR，對比非免疫低下）**：
+
+| 免疫抑制類別 | sHR (95% CI) | 解讀 |
+|------|------|------|
+| 血液惡性腫瘤 | **1.64 (1.01–2.65)** ↑ | 顯著較高 |
+| 其他免疫抑制狀態 | **1.61 (1.02–2.54)** ↑ | 顯著較高 |
+| 實體癌 (solid cancer) | 0.88 (0.68–1.14) — | 與非免疫低下無異 |
+
+> **臨床啟示**：並非所有「免疫低下」風險相同。血液腫瘤與使用免疫抑制劑者的 ICU-AI 風險明顯較高，感控 bundle 與監測強度應針對這兩類加強；實體癌病人則不需要過度去升級感控。
+
+---
+
+### 1.3 跨六國世代：以共識分群法描繪 sepsis 的臨床表型
+
+**Shen YY, Yi RQ, Chen W, et al. Shock 2026.**
+
+- **設計**：62,458 位成人、四國六個重症資料庫。MIMIC-IV 為發現世代 (n=28,733)，六種分群演算法對 24 個常規臨床變項做共識分群，再以固定模板套用於其餘五個外部世代
+- **結果**：選出 3 個 profile（佔比 32.6% / 20.0% / 47.4%；院內死亡率 30.3% / 13.8% / 9.3%）
+  - **Profile 1**：多重器官衰竭最重，死亡率最高（五個外部世代一致）
+  - **Profile 2**：血行動力相對穩定
+  - **Profile 3**：以呼吸支持為主、肺外器官衰竭較少
+  - 校正年齡與 Sequential Organ Failure Assessment (SOFA) 後，Profile 3 比 Profile 1 的 1 年死亡率低（hazard ratio, HR 0.62；95% CI 0.57–0.67）
+  - 治療—預後關聯屬探索性
+
+> **臨床啟示**：以常規變項就能得到可解釋、跨國可重現的 sepsis 表型，為未來「表型導向」的臨床試驗與風險分層鋪路；但目前仍屬研究工具，尚不足以直接改變床邊治療。
+
+---
+
+### 1.4 腹部實體器官移植者得 sepsis 反而活得好？——免疫表型線索
+
+**Witowski A, Bracht T, Kröger L, et al. Intensive Care Med 2026.**
+
+- **設計**：德國 SepsisDataNet.NRW 前瞻多中心世代 (n=538) 之 post hoc 分析，另以非 sepsis 腎移植世代 (e:KID) 做探索
+- **族群**：敗血症病人，比較有無腹部實體器官移植 (solid organ transplant, SOT) 病史
+- **結果**：
+  - SOT 病人 30 天存活**較佳**：84% vs 66%（adjusted HR 0.49；95% CI 0.26–0.95）
+  - 免疫圖譜：IL-6、TNF-α 較低、IL-18 較高；adaptive 免疫細胞減少但 innate 功能相對保留（monocytic HLA-DR 較高）；免疫代謝標記 (GLUT1、TFAM/TFB2M) 改變
+- **解讀**：慢性免疫抑制下反而呈現「較不失控」的發炎反應，可能是存活較佳的原因之一；屬假說生成，勿據此改變移植病人的 sepsis 處置。
+
+---
+
+## 2. Mechanical Ventilation 與呼吸支持
+
+### 2.1 Chlorhexidine 加進口腔照護 bundle 預防 VAP — Negative 試驗
+
+**Anushapreethi S, Chhotray P, Samal S, et al. Crit Care 2026.**
+
+- **設計**：印度單一醫學中心 6 家成人內科 ICU、pragmatic cluster-randomized crossover (AB/BA) 試驗，各 9 個月、含 1 個月 wash-in／再訓練
+- **介入**：標準多元口腔照護 bundle ± 0.12% chlorhexidine
+- **族群**：連續、插管 ≥48 小時的成人，n=1,035（637 無 CHX / 398 CHX），共 10,024 ventilator-days
+- **主要終點**：VAP incidence density（Clinical Pulmonary Infection Score, CPIS >6，每 1,000 ventilator-days）
+- **結果**：
+  - VAP：16.9 vs 18.8 /1,000 ventilator-days；adjusted incidence rate ratio **1.08（95% CI 0.84–1.38；p=0.56）** — **無差異**
+  - 28 天死亡率：28.7% vs 26.4%（adjusted OR 0.87；95% CI 0.65–1.15；p=0.33）— 無差異
+  - ICU 住院天數：CHX 組反而**多 0.89 天**（95% CI +0.19 ~ +1.58；p=0.013）
+  - Beck Oral Assessment Scale (BOAS)、Critical-Care Pain Observation Tool (CPOT) 無差異
+
+> **臨床啟示**：在混合型內科 ICU，於已有完整口腔照護 bundle 之上**再加 0.12% CHX 無額外防 VAP 效益**，且可能延長 ICU 住院。呼應近年對非心臟手術族群 CHX 的質疑；口腔照護的重點在 bundle 的落實（刷牙、抽吸、口腔評估），而非 CHX 本身。
+
+---
+
+### 2.2 NIV 的潮氣量是失敗與死亡的警訊
+
+**Santa Cruz R, Matesa A, Jara M, et al. Crit Care Med 2026.**（附評論 Mavignier N, Mauri T.）
+
+- **設計**：統合分析，11 篇觀察性研究、1,136 位急性呼吸衰竭 (acute respiratory failure, ARF) 成人
+- **結果**：
+  - NIV 失敗組 **Vt/PBW 較高**：MD +1.02 mL/kg（95% CI 0.60–1.45）；而**絕對 Vt 無差異**（MD 1.30，95% CI −33.31 ~ 35.91）→ 必須用 Vt/PBW 而非絕對值
+  - 低氧型 ARF 同樣成立（MD +0.89 mL/kg）；缺乏高碳酸型資料
+  - Post hoc：高 Vt/PBW 與死亡相關（OR **9.11**；95% CI 3.88–21.37）、呼吸速率較高、PaCO₂ 較低；與 pressure support 程度無關
+- **機轉**：高 Vt/PBW ＋高呼吸速率＋低 PaCO₂、卻與壓力支持無關 → 指向**高 respiratory drive 驅動**的 P-SILI
+
+> **臨床啟示**：NIV 不是「設好壓力就好」——要**監測並盯住 Vt/PBW**（理想約 ≤8–9 mL/kg PBW）。若在合理壓力下 Vt/PBW 仍偏高、呼吸速率快，代表 drive 過強、NIV 失敗與死亡風險上升，應考慮及早插管而非一味延長 NIV。注意此為**關聯而非因果**。
+
+---
+
+### 2.3 音樂治療於脫離呼吸器：主要終點 negative，次要訊號正向
+
+**Pereiro S, Corral E, Del Campo P, et al. Crit Care Med 2026.**
+
+- **設計**：單中心、兩組平行 RCT，n=100（插管 ≥48 小時的成人）
+- **介入**：標準照護 vs 標準照護＋每日個別化音樂治療（平均 25 分鐘：放鬆、聆聽、臨床即興）
+- **結果**：
+  - **主要終點「脫離呼吸器時間」無差異（p=0.97）**
+  - 次要：第 1、3 天 Richmond Agitation-Sedation Scale (RASS) 躁動／鎮靜改善（p=0.048、0.005、0.024）、需用 propofol 比例較低（p=0.028）
+  - **氣切率顯著下降 14%（p=0.025）**
+  - 總插管與 ICU 天數較短但未達顯著；生命徵象前後無差異
+
+> **臨床啟示**：音樂治療**不是縮短脫機的工具**（主要終點陰性），但作為非藥物輔助，有助於減少躁動與鎮靜藥物、可能降低氣切率，符合 ICU 人性化與 light sedation 的方向。可低成本導入，但別過度詮釋其對硬終點的效果。
+
+---
+
+### 2.4 機器學習判讀胸片的「ARDS 影像分數」可獨立預測預後
+
+**Zhong Y, Nuppnau M, Farzaneh N, et al. Crit Care Med 2026.**
+
+- **設計**：單中心回溯世代，6,591 位接受侵襲性機械通氣 (invasive mechanical ventilation, IMV) 成人；將既有深度學習模型（辨識雙側肺泡浸潤）套用於插管當下胸片，產出 ARDS-CXR 分數
+- **結果**：
+  - 分數陽性 (ARDS 機率 >50%) 者佔 17%，28 天死亡率 **35.1% vs 13.5%**（陰性者）
+  - 即使在 ARDS 閾值以下，分數仍可分層（−2 → 0 時死亡率由 12.8% 升至 27.5%）
+  - 預測 28 天死亡 AUROC **0.68**，優於 PaO₂/FiO₂ 的 0.64
+  - 校正 PaO₂/FiO₂ 或 APACHE-IV 後，分數每 +1 分仍與較高死亡率與較長拔管時間相關
+
+> **臨床啟示**：胸片的「ARDS 影像嚴重度」可量化，且提供**超越低氧與疾病嚴重度**的預後資訊，未來可用於臨床決策輔助、研究的 predictive enrichment，或納入新版 ARDS 定義。目前為單中心、回溯，待外部驗證。
+
+---
+
+## 3. AKI / Renal
+
+### 3.1 Furosemide Stress Test：好用的分層工具，但不是治療
+
+**Tran PNT, Luong HM, Doan ND, et al. Crit Care Med 2026.**
+
+- **設計**：系統性回顧與統合分析，20 篇、1,979 人（11 國，2013–2025）
+- **結果（診斷效能）**：
+
+| 問題 | Sensitivity | Specificity | AUC | GRADE |
+|------|:---:|:---:|:---:|------|
+| AKI 進展至 stage 3 | 0.69 | 0.88 | **0.89** | low |
+| 預測需 KRT | 0.81 | 0.75 | 0.79 | very low |
+| 短期死亡 | 0.56 | 0.76 | 0.75 | very low |
+| 成功脫離 KRT | 0.81 | 0.87 | **0.89** | low/very low |
+
+  - **關鍵**：以 FST 引導「提早啟動 KRT」對短期死亡率**無效**（pooled RR 1.00；95% CI 0.79–1.27；2 個 RCT，n=212；GRADE very low）
+  - 兒科：預測 KRT AUC 0.81、死亡 0.63
+
+> **臨床啟示**：FST 是**便宜的 bedside 風險分層工具**，對預測 AKI 惡化與 KRT 脫離有參考價值，特別適合拿不到新型生物標記的資源有限情境；但**不要**把 FST 當作「提早洗腎能救命」的依據——證據等級低、對死亡率無效。
+
+---
+
+### 3.2 重新思考少尿 (oliguria)：從「閾值」到「軌跡」
+
+**Tenhunen AB, Mossberg R, Lipcsey M, et al. Crit Care 2026.**（並見評論 Honoré PM, Boer W, Redant S. *Crit Care Med* 2026：*Rethinking Oliguria in the ICU: From Threshold to Trajectory*.）
+
+- **主題**：重新校準 AKI 的尿量判準，使各 stage 的尿量閾值對應到由血清肌酸酐 (creatinine) stage 推導出的死亡率
+- **概念**：現行 KDIGO 尿量判準（<0.5 mL/kg/h 持續 6–12 小時）是歷史沿用、非以預後校準；新分析主張**分 stage 設定尿量閾值**，並重視尿量的**時間軌跡**而非單一切點
+- **評論觀點**：少尿的意義在於趨勢與對 fluid challenge 的反應，而非跨過某個門檻的瞬間
+
+> **臨床啟示**：解讀少尿時，看的是**趨勢與對治療的反應**，而非死守 0.5 mL/kg/h 的切點；尿量判準未來可能依 stage 重新校準以更貼近預後。
+
+---
+
+## 4. Resuscitation 與心臟驟停
+
+### 4.1 AI 心電圖決策樹：在 OHCA 後 ROSC 病人「排除」急性冠心症
+
+**Choi A, Yoon H, Won Lee SG, et al. Resuscitation 2026.**
+
+- **設計**：單中心回溯，院外心臟驟停 (out-of-hospital cardiac arrest, OHCA) 成人；發展世代 (2020–2024, n=329)、時間驗證世代 (2025, n=71)
+- **方法**：post-ROSC 12 導程 ECG 經深度學習平台產出 10 個數位生物標記，取 5 個組成「依節律分層」的規則式序列決策樹，設**零偽陰性**約束
+- **結果**：
+  - 分別將 52.0% / 45.1% 的病人判為「ACS 不太可能」，且**無任何經判定的 ACS 被誤判**
+  - 效益集中在 **non-shockable** 族群：排除 169/261 (64.8%) 的非 ACS 病例（AUROC 0.824），優於任一單一生物標記
+  - **shockable** 族群（ACS 前測機率高）：38/40 (95.0%) 仍保留為「未排除 ACS」
+
+> **臨床啟示**：對無 ST 上升、ROSC 後的 OHCA 病人，AI-ECG 或可協助**安全地排除**約一半病人的 ACS 病因、減少不必要的緊急冠狀動脈攝影，尤其是 non-shockable 族群。仍屬單中心、需前瞻多中心驗證，不可單憑此停做臨床判斷。
+
+---
+
+### 4.2 心臟驟停給氣：即時回饋 (Real BVM Help®) 優於只看 ETCO₂
+
+**Aufderheide TP, Colella MR, Weston BW, et al. Resuscitation 2026.**
+
+- **設計**：威斯康辛州 (Milwaukee County EMS、Kenosha Fire) 成人 OHCA 的前瞻 before/after 品質改善研究，依 AHA 2020 指引，n=278（148 before / 130 after）
+- **介入**：Before = 以 end-tidal CO₂ (ETCO₂) 監測給氣（Real BVM Help® 已裝但遮蔽）；After = 開啟 Real BVM Help® 即時回饋
+- **結果（每人達標通氣比例）**：
+  - 速率達標：47.7% → **74.4%**（p<0.0001）
+  - 潮氣量達標：15.3% → **45.4%**（p<0.0001）
+  - 速率＋潮氣量同時達標：7.5% → **39.0%**（p<0.0001）
+  - 只用 ETCO₂ 時（22,037 次給氣）：僅 43.8% 速率達標、13.5% 潮氣量達標、6.8% 兩者達標；**58.2% 給氣量偏低**
+
+> **臨床啟示**：CPR 期間徒手給氣極難達標，最常見錯誤是**給氣量不足**；單靠 ETCO₂ 無法掌握速率與潮氣量。應導入**速率＋潮氣量的即時回饋裝置**以改善給氣品質。
+
+---
+
+## 5. Hemodynamics 與監測
+
+### 5.1 升壓劑下的 Brachial-to-Radial 壓力差：橈動脈可能低估中央血壓
+
+**Putowski Z, Gawda R, Czarnik T, et al. Crit Care Med 2026.**
+
+- **設計**：波蘭 13 家 ICU、前瞻多中心觀察，303 位有橈動脈導管且使用 vasoactive 藥物的成人（2025/04–07）
+- **方法**：比較侵襲性橈動脈 mean arterial pressure (MAP) 與非侵襲性 brachial MAP；預設 brachial-to-radial 壓力差 (NIBR-APG) >11 mmHg 為臨床顯著
+- **結果**：
+  - 中位 NIBR-APG 4.5 mmHg（IQR 0.0–10.0）；**18.4%（56 人）>11 mmHg**
+  - 有顯著壓差者：norepinephrine-equivalent 劑量較高（0.23 vs 0.10 µg/kg/min）、SOFA 較高（11 vs 10）、capillary refill 較長、lactate 較高（2.7 vs 1.3 mmol/L）
+  - 多變項中，**僅升壓劑劑量**與 NIBR-APG >11 mmHg 獨立相關（OR 1.68；95% CI 1.12–2.52）
+  - ICU 死亡率：**48.0% vs 30.1%**
+
+> **臨床啟示**：高劑量升壓劑下，約**五分之一**病人的橈動脈 MAP 明顯低於上臂——此時依橈動脈讀值一直加壓可能過度治療。對高升壓劑需求、周邊灌流差的病人，可用上臂非侵襲量測交叉比對，必要時考慮更中央的動脈監測。
+
+---
+
+## 6. ICU 復健、組織與藥學
+
+### 6.1 重症康復者的肌肉「合成能力」其實保留——支持運動＋營養復健
+
+**Fischer-Hammerschmied A, Tardif N, Mandić M, et al. Crit Care 2026.**
+
+- **設計**：前瞻機轉研究（NCT05261984），20 位 ICU 出院 3–6 個月的康復者 vs 20 位年齡性別配對對照；以 flywheel 阻力運動＋24 g 水解蛋白後取肌肉切片，測 muscle protein fractional synthetic rate
+- **結果**：
+  - 康復者四頭肌厚度、握力較低
+  - 基礎肌肉蛋白合成率反而**較高**（0.041 vs 0.030 %/hr，p=0.009），但介入後增幅較小（Δ0.031 vs Δ0.040，p=0.04）
+  - **介入後的合成率兩組相當**（0.071 vs 0.070 %/hr，p=0.70）
+  - 介入在兩組都提升合成訊號、降低 autophagy 啟動
+
+> **臨床啟示**：ICU 康復者對「阻力運動＋蛋白質」仍有良好的合成反應——提供**結構化運動—營養復健**可促進肌肉恢復的首個機轉證據。把復健與營養當作治療的一環，別因「重症後肌肉合成失能」而消極。
+
+---
+
+### 6.2 ESICM「以人為本的 ICU 夥伴關係」共識聲明
+
+**Latour JM, Rodriguez-Ruiz E, Arabi YM, et al. Intensive Care Med 2026.**
+
+- **設計**：ESICM 46 人國際多專業團（含病人與家屬代表），針對 6 大領域、20 個 PICO 問題做 rapid review，經兩輪 eDelphi（201 → 149 人）與共識會議，最終**通過 43 條共識**
+- **六大領域**：以人為本的照護、溝通與透明、情緒福祉、公平多元共融、ICU 環境、科技與創新
+- **重點建議**：彈性家屬探視、結構化跨團隊溝通、同理心導向的人員訓練、病人與醫護的心理支持、文化敏感照護、改善睡眠與減少 delirium 的環境介入、負責任整合數位科技
+
+> **臨床啟示**：把「人性化」提升到與呼吸器、抗生素同等的核心地位。可作為單位盤點 family engagement、溝通流程、睡眠／譫妄環境與醫護支持的架構。
+
+---
+
+### 6.3 肥胖重症病人的用藥原則（實用回顧）
+
+**Barletta JF, Erstad BL. Intensive Care Med 2026.**
+
+- **主題**：嚴重肥胖 ICU 病人的藥物劑量
+- **核心概念**：
+  - 仿單劑量多半未納入肥胖造成的藥物動力學 (pharmacokinetics) / 藥效學 (pharmacodynamics) 變異 → 易治療失敗或過量
+  - 肥胖改變 volume of distribution 與 clearance；**選對體重**（total body weight、ideal body weight、adjusted body weight）做體重計算，或選對固定劑量，是達標關鍵
+  - 應**個別化**並評估能否達 PD 目標；建議諮詢臨床藥師
+
+> **臨床啟示**：肥胖病人用藥別直接套仿單；依藥物特性選擇正確計算體重（如親脂性藥 vs 親水性藥），抗生素尤需注意達標濃度。善用臨床藥師會診。
+
+---
+
+## 7. 其他值得關注 (Honorable Mentions)
+
+### 7.1 Cluster vs Individual 隨機化：統合分析時別混為一談
+
+**Lønstrup S, Petersen PL, Bruun NH, et al. Crit Care Med 2026.** — Meta-epidemiological 研究（65 篇統合分析、212 個試驗、315,276 人）。cluster-RCT 與 individual-RCT 在**死亡率**效果量無系統差異，但在**住院天數／days-alive 類**終點，cluster-RCT 的效果量**較小**（Hedges' g MD −0.202）。僅不到半數統合分析有標明隨機化型態——提醒閱讀與做統合分析時留意。
+
+### 7.2 Sepsis-induced coagulopathy (SIC) 會扭曲 HALP 分數
+
+**Dong X, Liu X, Ma X, et al. Shock 2026.** — MIMIC-IV 6,218 位 Sepsis-3 病人。HALP (hemoglobin-albumin-lymphocyte-platelet) 分數最低四分位獨立預測死亡，但此關聯**在 SIC 病人被削弱**（interaction p=0.006）：無 SIC 者 albumin 主導預測力、SIC 者 platelet 主導。建議**先評估凝血狀態再用 HALP** 分層，或改用 m-HALP。
+
+### 7.3 Sepsis 的粒線體功能障礙驅動血小板活化（基礎）
+
+**Greco E, Schiavello M, Bosco O, et al. Crit Care Med 2026.** — 體外研究顯示 septic plasma 降低血小板粒線體耗氧與 Complex I 活性、增強腎上腺素誘發的血小板活化；mitochondria-targeted 抗氧化劑 MitoTEMPO 可逆轉。為「以粒線體為標的」預防 sepsis 器官損傷提供假說。
+
+---
+
+## 常用縮寫整理
+
+### 一般 / 統計
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| RCT | Randomized Controlled Trial | 隨機對照試驗 |
+| cRCT / iRCT | Cluster- / Individually Randomized Controlled Trial | 叢集 / 個體隨機對照試驗 |
+| OR | Odds Ratio | 勝算比 |
+| aOR | Adjusted Odds Ratio | 校正勝算比 |
+| HR | Hazard Ratio | 風險比 |
+| sHR | Subdistribution Hazard Ratio | 次分布風險比（競爭風險） |
+| RR | Risk Ratio / Rate Ratio | 風險比 / 比率比 |
+| MD | Mean Difference | 平均差 |
+| CI | Confidence Interval | 信賴區間 |
+| AUC / AUROC | Area Under the (ROC) Curve | 曲線下面積 |
+| GRADE | Grading of Recommendations Assessment, Development and Evaluation | 證據等級評估系統 |
+| IQR | Interquartile Range | 四分位距 |
+| n / N | sample size | 樣本數 |
+| p | p-value | p 值 |
+
+### 加護單位 / 評分
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ICU | Intensive Care Unit | 加護病房 |
+| EMS | Emergency Medical Services | 緊急醫療救護 |
+| APACHE II/IV | Acute Physiology And Chronic Health Evaluation | 急性生理與慢性健康評估 |
+| SOFA | Sequential Organ Failure Assessment | 連續器官衰竭評估 |
+| RASS | Richmond Agitation-Sedation Scale | Richmond 躁動鎮靜量表 |
+| CPIS | Clinical Pulmonary Infection Score | 臨床肺部感染評分 |
+| BOAS / CPOT | Beck Oral Assessment Scale / Critical-Care Pain Observation Tool | 口腔評估量表 / 重症疼痛觀察工具 |
+| PICO | Population, Intervention, Comparator, Outcome | 族群-介入-對照-結果 |
+
+### Sepsis / 感染
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| VAP | Ventilator-Associated Pneumonia | 呼吸器相關肺炎 |
+| ICU-AI | ICU-Acquired Infection | 加護病房內感染 |
+| PAA | Pathogen-Appropriate Antifungal | 對應病原的抗黴菌藥 |
+| CHX | Chlorhexidine | 氯己定 |
+| SOT | Solid Organ Transplant | 實體器官移植 |
+| SIC | Sepsis-Induced Coagulopathy | 敗血症誘發凝血病變 |
+| HALP | Hemoglobin-Albumin-Lymphocyte-Platelet score | 血紅素-白蛋白-淋巴球-血小板評分 |
+
+### 呼吸 / 氧療
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ARF | Acute Respiratory Failure | 急性呼吸衰竭 |
+| ARDS | Acute Respiratory Distress Syndrome | 急性呼吸窘迫症候群 |
+| IMV | Invasive Mechanical Ventilation | 侵襲性機械通氣 |
+| NIV | Non-Invasive Ventilation | 非侵襲性通氣 |
+| Vt / PBW | Tidal Volume / Predicted Body Weight | 潮氣量 / 預測體重 |
+| P-SILI | Patient Self-Inflicted Lung Injury | 病人自發性肺損傷 |
+| CXR | Chest X-Ray | 胸部 X 光 |
+| ETCO₂ | End-Tidal CO₂ | 吐氣末二氧化碳 |
+| PaCO₂ / PaO₂ / FiO₂ | Arterial CO₂ / O₂ partial pressure / Fraction of inspired O₂ | 動脈 CO₂、O₂ 分壓 / 吸入氧濃度 |
+
+### 腎臟
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| AKI | Acute Kidney Injury | 急性腎損傷 |
+| KRT / RRT | Kidney / Renal Replacement Therapy | 腎臟替代療法 |
+| FST | Furosemide Stress Test | 呋塞米壓力試驗 |
+| KDIGO | Kidney Disease: Improving Global Outcomes | 腎臟病改善全球預後 |
+
+### 心臟驟停 / 血行動力
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| OHCA | Out-of-Hospital Cardiac Arrest | 院外心臟驟停 |
+| ROSC | Return of Spontaneous Circulation | 自發性循環恢復 |
+| ACS | Acute Coronary Syndrome | 急性冠心症 |
+| ECG | Electrocardiogram | 心電圖 |
+| BVM | Bag-Valve-Mask | 甦醒球面罩 |
+| MAP | Mean Arterial Pressure | 平均動脈壓 |
+| NIBR-APG | Non-Invasive Brachial-to-Radial Arterial Pressure Gradient | 非侵襲上臂-橈動脈壓力差 |
+
+### 其他
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ESICM | European Society of Intensive Care Medicine | 歐洲重症醫學會 |
+| AHA | American Heart Association | 美國心臟協會 |
+| HLA-DR | Human Leukocyte Antigen-DR | 人類白血球抗原 DR |
+| PK / PD | Pharmacokinetics / Pharmacodynamics | 藥物動力學 / 藥效學 |
+
+---
+
+## 參考文獻
+
+### Sepsis & 感染
+
+1. Abhishek A, Mashhadiagha G, Ramezani A, et al. Delay From Hypotension Onset to Appropriate Antifungal Therapy Initiation Is the Critical Determinant of Outcome in Candida Septic Shock. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007395) PMID: 42904906.
+2. Gupta S, Rhee C, Klompas M. Candida Septic Shock: If Every Hour Matters, Who Requires Empiric Therapy? [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007411) PMID: 42951887.
+3. Daltro-Oliveira R, Dos Santos SS, Sanches LC, et al. Infections Acquired in the ICU Among Cancer and Other Immunosuppressed Patients: A Nationwide Cohort Study. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007388) PMID: 42895439.
+4. Shen YY, Yi RQ, Chen W, et al. Consensus-derived clinical sepsis profiles and mortality across six international cohorts. [*Shock*. 2026.](https://doi.org/10.1097/SHK.0000000000002954) PMID: 42954722.
+5. Witowski A, Bracht T, Kröger L, et al. Immunological signatures of sepsis in abdominal solid organ transplant recipients: a multilayer and multicentric prospective cohort study. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08612-1) PMID: 42955323.
+
+### Mechanical Ventilation & Respiratory Support
+
+6. Anushapreethi S, Chhotray P, Samal S, et al. Chlorhexidine within a standardized oral-care bundle for the prevention of ventilator-associated pneumonia: a pragmatic cluster-randomized crossover trial in six medical intensive care units. [*Crit Care*. 2026;30(1).](https://doi.org/10.1186/s13054-026-06217-0) PMID: 42958418.
+7. Santa Cruz R, Matesa A, Jara M, et al. Assessment of Tidal Volume in Patients Undergoing Noninvasive Ventilation: Systematic Review and Meta-Analysis. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007387) PMID: 42900697.
+8. Mavignier N, Mauri T. Excessive Tidal Volume During Noninvasive Ventilation: Mechanisms of Harm Leading to Worse Clinical Outcomes. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007410) PMID: 42957594.
+9. Pereiro S, Corral E, Del Campo P, et al. Music Therapy During Weaning From Invasive Mechanical Ventilation in the ICU: A Randomized Controlled Trial. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007372) PMID: 42904879.
+10. Zhong Y, Nuppnau M, Farzaneh N, et al. Association of Acute Respiratory Distress Syndrome Radiographic Findings Identified by Machine Learning and Outcomes of Patients Receiving Invasive Mechanical Ventilation. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007384) PMID: 42919460.
+
+### AKI / Renal
+
+11. Tran PNT, Luong HM, Doan ND, et al. Furosemide Stress Test in Adults and Children With Acute Kidney Injury: A Systematic Review and Meta-Analysis. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007392) PMID: 42904937.
+12. Tenhunen AB, Mossberg R, Lipcsey M, et al. Recalibrating the urine output criteria for acute kidney injury: stage-specific thresholds matched to creatinine-stage-derived mortality. [*Crit Care*. 2026;30(1).](https://doi.org/10.1186/s13054-026-06436-5) PMID: 42958591.
+13. Honoré PM, Boer W, Redant S. Rethinking Oliguria in the ICU: From Threshold to Trajectory. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007399) PMID: 42904903.
+
+### Resuscitation & Cardiac Arrest
+
+14. Choi A, Yoon H, Won Lee SG, et al. Artificial Intelligence-Assisted, Electrocardiogram-Derived, Sequential Rule-Based Decision Tree for Exclusion of Acute Coronary Syndrome as the Etiology of Out-of-Hospital Cardiac Arrest: A Single-Center Retrospective Cohort Study. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111373) PMID: 42956925.
+15. Aufderheide TP, Colella MR, Weston BW, et al. Ventilation Monitoring in Out-of-Hospital Cardiac Arrest Care. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111372) PMID: 42956924.
+
+### Hemodynamics & Monitoring
+
+16. Putowski Z, Gawda R, Czarnik T, et al. Brachial-to-Radial Pressure Gradient in Critically Ill Patients Treated With Vasoactive Agents: A Prospective Observational Study. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007391) PMID: 42919451.
+
+### ICU 復健、組織與藥學
+
+17. Fischer-Hammerschmied A, Tardif N, Mandić M, et al. Preserved anabolic skeletal muscle capacity in response to exercise and protein intake after critical illness. [*Crit Care*. 2026;30(1).](https://doi.org/10.1186/s13054-026-06418-7) PMID: 42934773.
+18. Latour JM, Rodriguez-Ruiz E, Arabi YM, et al. European Society of Intensive Care Medicine consensus statement on human-centred partnership in the intensive care unit. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08626-9) PMID: 42931902.
+19. Barletta JF, Erstad BL. Principles of drug dosing for obese patients in the intensive care unit. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08628-7) PMID: 42911397.
+
+### 其他值得關注
+
+20. Lønstrup S, Petersen PL, Bruun NH, et al. Cluster Versus Individual Randomization in Prehospital, Emergency and Critical Care Trials: A Meta-Epidemiological Study. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007386) PMID: 42904944.
+21. Dong X, Liu X, Ma X, et al. Sepsis-Induced Coagulopathy Attenuates the Prognostic Value of the Hemoglobin-Albumin-Lymphocyte-Platelet (HALP) Score in Sepsis. [*Shock*. 2026.](https://doi.org/10.1097/SHK.0000000000002956) PMID: 42954754.
+22. Greco E, Schiavello M, Bosco O, et al. Role of Mitochondrial Impairment in Sepsis-Induced Platelet Activation. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007407) PMID: 42925135.
+
+---
+
+**註**：本回顧涵蓋 2026-10-18 ～ 2026-11-01，延續每月 1 號與 15 號的雙週節奏。所有結論以各篇摘要所載之主要終點與統計數據為準；念珠菌敗血性休克延遲投藥的方向與既往文獻一致（延遲→死亡上升），本篇新貢獻為「每小時」量化風險。氯己定 VAP 與音樂治療脫機兩篇之主要終點均為陰性，已於文中明確標示，請勿過度詮釋其次要終點。
