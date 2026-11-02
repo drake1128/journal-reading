@@ -1,0 +1,150 @@
+{
+ "Derkenne2017": {
+  "pmc": "PMC5720263",
+  "figs": [
+   {
+    "file": "Derkenne2017_fig1.jpg",
+    "caption": "ECG 1 performed at home: note the ST-segment elevation and T-negative waves from leads V1 to V5."
+   },
+   {
+    "file": "Derkenne2017_fig2.jpg",
+    "caption": "ECG 2 performed at the emergency care unit: note the pseudonormal repolarisation from V1 to V5 leads."
+   },
+   {
+    "file": "Derkenne2017_fig3.jpg",
+    "caption": "ECG 3 performed after correction of the leads’ misplacement at the emergency care unit: note the ST-segment elevation and T-negative waves from leads V1 to V5."
+   },
+   {
+    "file": "Derkenne2017_fig4.jpg",
+    "caption": "Electrode positioning sites associated with the successive ECGs. Note the importance of the ribs references to avoid lead misplacement: breast tissues are fake friends and definitively not a good point of reference."
+   }
+  ],
+  "license": null
+ },
+ "Karur2013": {
+  "pmc": "PMC3849288",
+  "figs": [
+   {
+    "file": "Karur2013_fig1.jpg",
+    "caption": "12 leads ECG showing features of evolved IWMI."
+   },
+   {
+    "file": "Karur2013_fig2.jpg",
+    "caption": "12 leads ECG showed ST elevation in lead I & aVL with ST depression in inferior leads after left arm–left leg lead reversal."
+   },
+   {
+    "file": "Karur2013_fig3.jpg",
+    "caption": "Coronary angiogram revealed the presence of 80% stenosis in the proximal RCA."
+   }
+  ],
+  "license": null
+ },
+ "Krasteva2019": {
+  "pmc": "PMC6651562",
+  "figs": [
+   {
+    "file": "Krasteva2019_fig1.jpg",
+    "caption": "Acquisition of 12-lead ECG via a 10-electrode cable with standard IEC color coding, recording 8 independent leads I, II, V1-V6 (denoted as Vx) in the ECG device. The flow diagram shows the simulation of reversals between LL, RA, LA and one chest electrode (denoted as Cx) by conversion of the recorded leads (I, II, Vx) to reordered leads (I^, II^,V^X) using the matrix transformations M˜inv, S, M . The specific example shows an identity S matrix that corresponds to the correct order of LL, RA, LA, Cx electrodes. Other estimates of the S matrix are presented on Figure 2 and Section 4.1 in the des"
+   },
+   {
+    "file": "Krasteva2019_fig2.jpg",
+    "caption": "Classic depiction of the Einthoven’s triangle, WCT and lead vectors (I, II, Vx), projected in the frontal plane for correct electrode position (a) and their displacement (I^, II^,V^X) in case of four types of limb electrode reversals: (b) CW rotation of 3 active limb electrodes (RA^ →LA^→LL^→RA^); (c) CW rotation of 4 limb electrodes, including RL (RL^→RA^→LA^→LL^→RL^); (d) swap of an active limb electrode and chest electrode, illustrated for the green couple (LL^↔C3^); (e) swap of the grounded and chest electrode, illustrated for the black couple (RL^↔C5^). The text with red font color highli"
+   },
+   {
+    "file": "Krasteva2019_fig3.jpg",
+    "caption": "The average beat of 8 independent leads (I, II, V1-V6) taken from the same subject in two scenarios: (1) Red trace: Recorded ECG with swapped unicolor electrodes; (2) Blue trace: Simulated ECG with swapped unicolor electrodes, applying Forward ‘MSMinv’ transformation on the ECG recorded with the correct lead set."
+   }
+  ],
+  "license": "creativecommons.org/licenses/by/4.0/"
+ },
+ "Ravi2021": {
+  "pmc": "PMC8289645",
+  "figs": [
+   {
+    "file": "Ravi2021_fig1.jpg",
+    "caption": "(a) ECG with lead reversal and suspected NSTEMI. (b): Normal ECG"
+   }
+  ],
+  "license": null
+ },
+ "Glancy2016": {
+  "pmc": "PMC4677869",
+  "figs": [
+   {
+    "file": "Glancy2016_fig1.jpg",
+    "caption": "Electrocardiogram recorded with the leads in the usual locations. See text for explication."
+   },
+   {
+    "file": "Glancy2016_fig2.jpg",
+    "caption": "Electrocardiogram recorded with the limb leads reversed and the precordial leads on the right side of the chest. See text for explication."
+   }
+  ],
+  "license": null
+ },
+ "Li2024": {
+  "pmc": "PMC11031905",
+  "figs": [
+   {
+    "file": "Li2024_fig1.jpg",
+    "caption": "Patient’s initial 12-lead ECG"
+   },
+   {
+    "file": "Li2024_fig2.jpg",
+    "caption": "The 12-lead ECG with correct limb leads placement shows sinus rhythm with complete right bundle branch block"
+   }
+  ],
+  "license": "creativecommons.org/licenses/by/4.0/"
+ },
+ "Sukumaran2024": {
+  "pmc": "PMC11010442",
+  "figs": [
+   {
+    "file": "Sukumaran2024_fig1.jpg",
+    "caption": "ECG at presentation ECG on presentation shows a heart rate of 70 beats per minute. P waves are small in amplitude with a frontal P wave axis of about +120°. P waves are inverted in all the precordial leads. QRS complexes are narrow with a frontal axis of +225°, qR pattern in lead V1 and Qr in V6. T wave inversion is seen in all the precordial leads."
+   },
+   {
+    "file": "Sukumaran2024_fig2.jpg",
+    "caption": "Repeat ECG Repeat ECG shows sinus rhythm at 80 beats per minute, PR interval 110 ms, narrow QRS with a normal frontal axis, no abnormal q waves and no significant ST-T abnormalities."
+   },
+   {
+    "file": "Sukumaran2024_fig3.jpg",
+    "caption": "Cable connections of the Mortara Eli 150c ECG machine Panel A - Lead junction box of Mortara Eli 150c ECG machine showing two different cable connections. Panel B - Reversal of cables at the lead junction box of Mortara Eli 150c machine leading to incorrect connections."
+   },
+   {
+    "file": "Sukumaran2024_fig4.jpg",
+    "caption": "Schematic representation of the lead connections – normal and reversed. Panel A - Diagrammatic representation of normal Einthoven's triangle with the three standard limb leads and the imaginary position of precordial leads Panel B - Incorrect lead connections due to cable reversal leading to altered Wilson central terminal and uninterpretable electrocardiogram."
+   }
+  ],
+  "license": "creativecommons.org/licenses/by-nc-nd/4.0/).</p>"
+ },
+ "Ramadurai2025": {
+  "pmc": "PMC12522010",
+  "figs": [
+   {
+    "file": "Ramadurai2025_fig1.jpg",
+    "caption": "Image credit: Dr Srinivasan Ramadurai. Graph generated by R software using the ggplot2 module."
+   },
+   {
+    "file": "Ramadurai2025_fig2.jpg",
+    "caption": "Patient ECG digitsed and anonymised using PMCardio app. Image credit: Dr Srinivasan Ramadurai"
+   },
+   {
+    "file": "Ramadurai2025_fig3.jpg",
+    "caption": "Patient ECG digitsed and anonymised using PMCardio app. Image credit: Dr Srinivasan Ramadurai"
+   },
+   {
+    "file": "Ramadurai2025_fig4.jpg",
+    "caption": "1-3: Three discernible patterns of reversal of two limb leads without involvement of the neutral lead. 4-6: Three discernible patterns of reversal of two limb leads, of which one is the neutral lead. 7-9: Three other discernible lead misplacement patterns involving the complex exchange of multiple leads. 10-12: Three difficult-to-discern lead misplacement patterns involving the complex exchange of multiple leads. As per IEC conventions, left arm (LA) is represented by a yellow circle, right arm (RA) by a red circle, left leg (LL) by a green circle, and right leg (RL) by a black circle. Image c"
+   },
+   {
+    "file": "Ramadurai2025_fig5.jpg",
+    "caption": "Image credit: Dr Srinivasan Ramadurai LA: left arm (LA); RA: right arm; LL: left leg; RL: right leg"
+   },
+   {
+    "file": "Ramadurai2025_fig6.jpg",
+    "caption": "Image credit: Dr Srinivasan Ramadurai. ECG digitised with the PMCardio app."
+   }
+  ],
+  "license": null
+ }
+}
