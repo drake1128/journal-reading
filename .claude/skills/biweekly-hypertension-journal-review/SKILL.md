@@ -1,6 +1,6 @@
 ---
 name: biweekly-hypertension-journal-review
-description: Generate the dedicated Biweekly Hypertension Journal Review handout (markdown), Marp slide deck, and PDF for the past 14 days across the major general-medicine journals (NEJM, Lancet, BMJ, JAMA family) plus the hypertension-specialty journals (Hypertension, J Hypertens, Hypertension Research, Am J Hypertens, J Clin Hypertens) and the cardiology majors that carry large HTN trials (Circulation, EHJ, JACC, JAMA Cardiology). Use when Drake (謝慕揚醫師) says "高血壓期刊回顧", "高血壓雙週期刊", "hypertension journal review", "HTN journal review", "每雙週高血壓期刊", or "高血壓期刊文獻回顧". Two modes: Mode A (default) = full handout + Marp + PDF to handouts/09-hypertension/biweekly-review/; Mode B (THS member bulletin 高血壓文獻速報, MONTHLY, no pulmonary hypertension, NO tick boxes) = article list over the 7 journals NEJM/Lancet/JAMA/BMJ/Circulation/EHJ/JACC saved to handouts/09-hypertension/monthly-checklist/ plus a Gmail DRAFT (never send) whose body is the Taiwan Hypertension Society Education Committee bulletin with the same HTML attached, addressed to 吳志成 副院長 chihchengwumd@gmail.com — triggered by "高血壓文章清單", "勾選清單", "寄給吳副院長". Tailored for a Taiwan physician audience (residents, NPs, cardiology/nephrology/IM). CRITICAL: every "其他焦點/Other highlights" table in Marp slides MUST include a 連結 column with clickable DOI hyperlinks.
+description: Generate the dedicated Biweekly Hypertension Journal Review handout (markdown), Marp slide deck, and PDF for the past 14 days across the major general-medicine journals (NEJM, Lancet, BMJ, JAMA family) plus the hypertension-specialty journals (Hypertension, J Hypertens, Hypertension Research, Am J Hypertens, J Clin Hypertens) and the cardiology majors that carry large HTN trials (Circulation, EHJ, JACC, JAMA Cardiology). Use when Drake (謝慕揚醫師) says "高血壓期刊回顧", "高血壓雙週期刊", "hypertension journal review", "HTN journal review", "每雙週高血壓期刊", or "高血壓期刊文獻回顧". Two modes: Mode A (default) = full handout + Marp + PDF to handouts/09-hypertension/biweekly-review/; Mode B (THS member bulletin 高血壓文獻速報, MONTHLY, no pulmonary hypertension, NO tick boxes) = article list over the 7 journals NEJM/Lancet/JAMA/BMJ/Circulation/EHJ/JACC saved to handouts/09-hypertension/monthly-checklist/ plus a Gmail DRAFT (never send) whose body is the Taiwan Hypertension Society Education Committee bulletin with the same HTML attached, addressed to 吳志成 副院長 chihchengwumd@gmail.com and Dr. Cheng-Wei Lien liencwmd@gmail.com; background-colour-free layout because the THS mass-mail system strips all background colours — triggered by "高血壓文章清單", "勾選清單", "寄給吳副院長". Tailored for a Taiwan physician audience (residents, NPs, cardiology/nephrology/IM). CRITICAL: every "其他焦點/Other highlights" table in Marp slides MUST include a 連結 column with clickable DOI hyperlinks.
 ---
 
 # Biweekly Hypertension Journal Review Skill
@@ -35,7 +35,7 @@ Produce a comprehensive **biweekly** review covering the **past 14 days** of hyp
 | Mode | 觸發語 | 產出 | 對象 |
 |------|--------|------|------|
 | **A. 完整講義（預設）** | 「高血壓期刊回顧」「hypertension journal review」等 | 教學講義 `.md` + Marp `_Marp.md` + PDF | 院內教學（住院醫師／NP） |
-| **B. THS 高血壓文獻速報（每月一期，舊稱勾選清單）** | 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」「高血壓文獻速報」 | 紀錄用 `.md` + HTML 成品 + **Gmail HTML 草稿（內文即速報，HTML 另附）** | **吳志成 副院長** (chihchengwumd@gmail.com) → 學會會員 |
+| **B. THS 高血壓文獻速報（每月一期，舊稱勾選清單）** | 「高血壓文章清單」「勾選清單」「寄給吳副院長」「四大期刊高血壓清單」「高血壓文獻速報」 | 紀錄用 `.md` + HTML 成品 + **Gmail HTML 草稿（內文即速報，HTML 另附）** | **吳志成 副院長** (chihchengwumd@gmail.com) ＋ Cheng-Wei Lien 醫師 (liencwmd@gmail.com) → 秘書處 → 學會會員 |
 
 兩種模式的檢索邏輯共用，差別只在**收錄範圍、輸出格式與收件人**。以下 §Mode B 專章規範 Mode B；其餘章節（§Journals 起）為 Mode A 規範。
 
@@ -93,7 +93,7 @@ Q3 用 `datetype: "edat"`，專門補抓「該月入庫、但線上刊期掛前�
 
 - 每條**必附 DOI 超連結 + PMID**，DOI 一律取自 PubMed 回傳值，**絕不自行拼湊**。
 - 摘要缺漏（`[Abstract not available]`）就照實寫「PubMed 未附摘要，需取原文」，不要編故事。
-- 值得優先讀的加 ⭐。
+- 值得優先讀的加 ★（文字符號，不用 emoji ⭐）。
 
 ### B6. 紀錄檔結尾必附「檢索與篩選說明」
 
@@ -107,7 +107,7 @@ Q3 用 `datetype: "edat"`，專門補抓「該月入庫、但線上刊期掛前�
 2. **HTML 成品**：`THS_Hypertension_Literature_YYYY-MM.html`，完整獨立 HTML 檔（`<meta charset="utf-8">`、樣式全部 inline），版型照 `.claude/assets/ths-literature-bulletin-template.html`。
    - **只附在 Gmail 草稿裡，不放進 repo、不 commit**（repo 是公開的）。雲端寫在 `/tmp/`；本機寫在 `~/Downloads/`。
 3. **Gmail 草稿：一律只建草稿，絕不直接寄出。** 信件內文**本身就是給會員的速報**（秘書處會直接轉寄內文），內容與 HTML 成品相同。
-   - `create_draft`，`to: ["chihchengwumd@gmail.com"]`，**不 CC 任何人**；新信，不要回覆在舊討論串裡（回覆會帶引文，秘書處不好轉寄）。
+   - `create_draft`，`to: ["chihchengwumd@gmail.com", "liencwmd@gmail.com"]`（吳志成副院長＋ Cheng-Wei Lien 醫師；2026-09、10 兩期實際都寄給這兩位，9 月號由 Lien 醫師轉給秘書處），**不 CC**；新信，不要回覆在舊討論串裡（回覆會帶引文，秘書處不好轉寄）。
    - 主旨：`[THS 教育委員會] 高血壓文獻速報 YYYY 年 M 月 — NEJM / Lancet / JAMA / BMJ / Circulation / EHJ / JACC`
    - 內文不要寫給吳副院長的私人說明；要說明就另外回報給 Drake。
    - **附件**：HTML 成品以 base64 放進 `attachments`，檔名 `THS_Hypertension_Literature_YYYY-MM.html`。
@@ -117,11 +117,14 @@ Q3 用 `datetype: "edat"`，專門補抓「該月入庫、但線上刊期掛前�
 
 **定案版型（表頭、表尾不可自行改動）**
 
-- 表頭（深藍 `#1a2740`）三行：`台灣高血壓學會（THS）　教育委員會`／`高血壓文獻速報　YYYY 年 M 月`／七本期刊名。
+> 2026-11 改版（耐剝色版）：10 月號由秘書處貼進群發系統後，**所有背景色都被剝掉**（刊頭深藍底白字變成白底淺字、A–E 分區列只剩灰字、優先閱讀框只剩左邊紅線），吳志成副院長來信問「你的格式會跑掉?」。群發時保留下來的只有文字色、粗體與框線（border）。所以版型改成**完全不依賴背景色**。
+
+- 表頭三行（深藍 `#1a2740` 粗體字，上 6px、下 2px 深藍框線夾住）：`台灣高血壓學會（THS）　教育委員會`／`高血壓文獻速報　YYYY 年 M 月`／七本期刊名。
 - 開頭：`各位會員 您好：`＋「本刊由台灣高血壓學會教育委員會編製。本期為 … 七大期刊高血壓相關文獻整理，共 N 條目…」。
-- `⭐ 本期建議優先閱讀` 三則 → A–E 分區（藍色 `#0072bc` 分區列、紅色 `#ba181b` 期刊名、標題為 DOI 超連結）→ `檢索說明`。
-- 表尾（深藍）四行：`台灣高血壓學會（THS）　教育委員會`／`Taiwan Hypertension Society — Education Committee`／`本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC`／`本清單由本會教育委員會編製，僅供醫療專業人員教學參考`。
-- 深底白字區塊用單格表格 + `bgcolor`（Gmail 會剝掉 div 背景）。
+- `★ 本期建議優先閱讀` 三則（紅色 `#ba181b` 全框＋左側粗線）→ A–E 分區（藍色 `#0072bc` 粗體字＋3px 藍色底線、紅色期刊名、標題為 DOI 超連結）→ `檢索說明`（藍色細框）。
+- 表尾四行（置中深色字，上 2px、下 6px 深藍框線）：`台灣高血壓學會（THS）　教育委員會`／`Taiwan Hypertension Society — Education Committee`／`本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC`／`本清單由本會教育委員會編製，僅供醫療專業人員教學參考`。表頭表尾的**文字**不可改；改的只有樣式。
+- 🚫 **禁用**：`bgcolor`、任何 `background`／`background-color`、白色或淺色字（`#fff`、`#ffffff`、`white`、`#b0c4de` 等）、emoji ⭐（改用文字符號 ★）。
+- 成品完成後自檢：`grep -nE 'bgcolor|background|color:\s*(#fff\b|#ffffff|white|#b0c4de)|⭐' 檔案` 必須零命中。
 - Mode B **不產 Marp、不產 PDF**（除非 Drake 另外要求）。
 
 ---

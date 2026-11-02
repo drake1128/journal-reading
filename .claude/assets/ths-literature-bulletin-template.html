@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<!-- THS 高血壓文獻速報版型（Mode B）。表頭表尾為 2026-09-03 與吳志成副院長定案的版本，不可自行改動。
+<!-- THS 高血壓文獻速報版型（Mode B）。表頭表尾「文字」為 2026-09-03 與吳志成副院長定案的版本，不可自行改動。
+     2026-11 改版（耐剝色版）：秘書處把內文貼進群發系統時，所有背景色（bgcolor、background-color）都會被剝掉，
+     連結也會被換成追蹤網址；保留下來的只有文字色、粗體、框線（border）。所以本版型：
+       1. 不用任何背景色，也不用白色或淺色字；所有文字都是深色字配白底。
+       2. 表頭、分區列、優先閱讀框、表尾的層次，一律用「深色文字 + 框線」做出來。
+       3. 星號用文字符號 ★（不用 emoji ⭐）。
      {{...}} 為要替換的欄位；條目區塊依實際篇數重複；沒有勾選框。Gmail 內文用 <div style="max-width:760px"> 以內的部分，
      HTML 成品用整份；成品只附在 Gmail 草稿裡，不放進 repo。 -->
 <html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>THS 高血壓文獻速報 {{YYYY 年 M 月}}</title></head>
-<body style="margin:0;padding:0;background-color:#fff;font-family:Arial,'Microsoft JhengHei',sans-serif;line-height:1.6;color:#212121">
-<div style="max-width:760px;margin:0 auto">
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse"><tr><td bgcolor="#1a2740" style="background-color:#1a2740;color:#fff;padding:24px 20px;border-radius:8px 8px 0 0"><div style="font-size:.95em;letter-spacing:1px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid #3d5379">台灣高血壓學會（THS）　教育委員會</div><div style="font-size:1.35em;font-weight:bold">高血壓文獻速報　{{YYYY 年 M 月}}</div><div style="color:#b0c4de;margin-top:8px">NEJM · Lancet · JAMA · BMJ · Circulation · European Heart Journal · JACC</div></td></tr></table>
-<div style="padding:22px 20px;background-color:#f8f9fa">
+<body style="margin:0;padding:0;font-family:Arial,'Microsoft JhengHei',sans-serif;line-height:1.6;color:#212121">
+<div style="max-width:760px;margin:0 auto;padding:0 4px">
+<!-- 表頭：深藍粗框線上下夾住，深藍字 -->
+<div style="border-top:6px solid #1a2740;border-bottom:2px solid #1a2740;padding:16px 4px 14px;margin-bottom:18px"><div style="color:#1a2740;font-size:.95em;font-weight:bold;letter-spacing:1px;margin-bottom:6px">台灣高血壓學會（THS）　教育委員會</div><div style="color:#1a2740;font-size:1.45em;font-weight:bold">高血壓文獻速報　{{YYYY 年 M 月}}</div><div style="color:#555555;margin-top:6px">NEJM · Lancet · JAMA · BMJ · Circulation · European Heart Journal · JACC</div></div>
 <p style="margin:0 0 14px">各位會員 您好：</p>
 <p style="margin:0 0 14px">本刊由<b>台灣高血壓學會教育委員會</b>編製。本期為 <b style="color:#ba181b">{{YYYY-MM-01 至 MM-DD}}</b> 七大期刊高血壓相關文獻整理，共 <b style="color:#ba181b">{{N}} 條目</b>（部分同主題文章已合併）。標題均附原文連結與 PMID，可直接點閱。</p>
-<div style="background-color:#fff5f5;border-left:5px solid #ba181b;padding:14px 18px;margin:20px 0;border-radius:0 8px 8px 0"><div style="color:#ba181b;font-weight:bold;margin-bottom:8px">⭐ 本期建議優先閱讀</div><p style="margin:0 0 8px"><b style="color:#ba181b">1. {{期刊}}</b>——{{一句話重點}}</p><p style="margin:0 0 8px"><b style="color:#ba181b">2. {{期刊}}</b>——{{一句話重點}}</p><p style="margin:0"><b style="color:#ba181b">3. {{期刊}}</b>——{{一句話重點}}</p></div>
-<!-- 分區列：A–E 各一個，空的區塊省略 -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;margin:26px 0 12px"><tr><td bgcolor="#0072bc" style="background-color:#0072bc;color:#fff;font-weight:bold;padding:11px 16px;border-radius:6px">A. 系統性高血壓 — 原始研究與重要分析（{{n}} 篇）</td></tr></table>
-<div style="background-color:#fff;padding:16px 18px;border:1px solid #dcdde1;border-radius:8px">
-<!-- 單篇條目（優先閱讀者前面加 ⭐；區塊最後一條 margin 改 0） -->
-<p style="margin:0 0 14px">⭐ <b style="color:#ba181b">{{期刊（類型）}}</b> — <a href="https://doi.org/{{DOI}}" style="color:#0072bc">{{英文原標題}}</a><br><span style="color:#555;font-size:.94em">{{一到兩句繁中結論，重點用 <strong style="color:#ba181b">…</strong>}}PMID {{PMID}}</span></p>
+<!-- 優先閱讀：紅色全框 + 左側粗紅線，紅色標題 -->
+<div style="border:1px solid #ba181b;border-left:5px solid #ba181b;padding:12px 16px;margin:20px 0"><div style="color:#ba181b;font-weight:bold;margin-bottom:8px">★ 本期建議優先閱讀</div><p style="margin:0 0 8px"><b style="color:#ba181b">1. {{期刊}}</b>——{{一句話重點}}</p><p style="margin:0 0 8px"><b style="color:#ba181b">2. {{期刊}}</b>——{{一句話重點}}</p><p style="margin:0"><b style="color:#ba181b">3. {{期刊}}</b>——{{一句話重點}}</p></div>
+<!-- 分區列：A–E 各一個，空的區塊省略；藍色粗體字 + 藍色粗底線 -->
+<div style="color:#0072bc;font-weight:bold;font-size:1.1em;border-bottom:3px solid #0072bc;padding:0 0 6px;margin:28px 0 12px">A. 系統性高血壓 — 原始研究與重要分析（{{n}} 篇）</div>
+<div style="padding:0 4px">
+<!-- 單篇條目（優先閱讀者前面加 ★；區塊最後一條 margin 改 0） -->
+<p style="margin:0 0 14px">★ <b style="color:#ba181b">{{期刊（類型）}}</b> — <a href="https://doi.org/{{DOI}}" style="color:#0072bc">{{英文原標題}}</a><br><span style="color:#444444;font-size:.94em">{{一到兩句繁中結論，重點用 <strong style="color:#ba181b">…</strong>}}PMID {{PMID}}</span></p>
 <!-- 同主題合併條目 -->
-<p style="margin:0"><b style="color:#ba181b">{{期刊}}</b> — {{合併標題，例：產後妊娠高血壓照護 2 則（同主題合併）}}<br><span style="color:#555;font-size:.94em"><a href="https://doi.org/{{DOI1}}" style="color:#0072bc">{{標題 1}}</a> · <a href="https://doi.org/{{DOI2}}" style="color:#0072bc">{{標題 2}}</a><br>{{說明}}PMID {{PMID1}}、{{PMID2}}</span></p>
+<p style="margin:0"><b style="color:#ba181b">{{期刊}}</b> — {{合併標題，例：產後妊娠高血壓照護 2 則（同主題合併）}}<br><span style="color:#444444;font-size:.94em"><a href="https://doi.org/{{DOI1}}" style="color:#0072bc">{{標題 1}}</a> · <a href="https://doi.org/{{DOI2}}" style="color:#0072bc">{{標題 2}}</a><br>{{說明}}PMID {{PMID1}}、{{PMID2}}</span></p>
 </div>
 <!-- B. 綜述 · 指引 · 科學聲明／C. 基礎／轉譯 — 高血壓機轉／D. 社論 · 通訊 · 新聞短訊（快速掃描用）／E. 血壓為次要／非主軸終點（延伸閱讀）：結構同上 -->
-<div style="background-color:#e3f2fd;border-left:5px solid #0072bc;padding:15px 20px;margin:26px 0 10px;border-radius:0 8px 8px 0;font-size:.95em"><div style="color:#0072bc;font-weight:bold;margin-bottom:10px;font-size:1.05em">檢索說明</div><p style="margin:0 0 8px">檢索區間 {{起訖日}}。PubMed 三重檢索（TIAB + MeSH + Title/入庫日 edat）去重後 {{N}} 筆，收錄 {{n}} 筆；其餘為已列於前期者、肺高壓相關或主題無關者。</p><p style="margin:0 0 8px">本速報不納入肺高壓（PAH／PH）文章；E 區為血壓僅屬次要或非主軸終點之文章，供延伸閱讀。</p><p style="margin:0">部分條目 PubMed 未附摘要（社論、通訊、新聞短訊居多），已逐一標註，未作任何推測性結論。</p></div>
-</div>
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse"><tr><td bgcolor="#1a2740" style="background-color:#1a2740;color:#b0c4de;padding:22px 20px;text-align:center;border-radius:0 0 8px 8px"><div style="color:#fff;font-weight:bold;font-size:1.05em;margin-bottom:6px">台灣高血壓學會（THS）　教育委員會</div><div style="font-size:.9em;margin-bottom:6px">Taiwan Hypertension Society — Education Committee</div><div style="color:#fff;font-size:.95em;margin:10px 0 6px;padding-top:10px;border-top:1px solid #3d5379">本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC</div><div style="font-size:.9em">本清單由本會教育委員會編製，僅供醫療專業人員教學參考</div></td></tr></table>
+<!-- 檢索說明：藍色細框 -->
+<div style="border:1px solid #0072bc;padding:12px 16px;margin:28px 0 10px;font-size:.95em"><div style="color:#0072bc;font-weight:bold;margin-bottom:8px;font-size:1.05em">檢索說明</div><p style="margin:0 0 8px">檢索區間 {{起訖日}}。PubMed 三重檢索（TIAB + MeSH + Title／入庫日 edat）命中 {{q1}}、{{q2}}、{{q3}} 筆，去重後 {{N}} 筆；其中 {{k}} 筆已列於前期，收錄 {{n}} 筆。未收錄 {{m}} 筆：{{理由分類}}。</p><p style="margin:0 0 8px">本速報不納入肺高壓（PAH／PH）文章；E 區為血壓僅屬次要或非主軸終點之文章，供延伸閱讀。</p><p style="margin:0">部分條目 PubMed 未附摘要（社論、通訊、新聞短訊居多），已逐一標註，未作任何推測性結論。</p></div>
+<!-- 表尾：深藍粗框線上下夾住，置中深色字 -->
+<div style="border-top:2px solid #1a2740;border-bottom:6px solid #1a2740;padding:16px 4px;margin-top:22px;text-align:center"><div style="color:#1a2740;font-weight:bold;font-size:1.05em;margin-bottom:4px">台灣高血壓學會（THS）　教育委員會</div><div style="color:#1a2740;font-size:.9em;margin-bottom:8px">Taiwan Hypertension Society — Education Committee</div><div style="color:#212121;font-size:.95em;margin-bottom:4px">本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC</div><div style="color:#555555;font-size:.9em">本清單由本會教育委員會編製，僅供醫療專業人員教學參考</div></div>
 </div></body></html>

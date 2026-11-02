@@ -765,10 +765,12 @@ This skill activates on: "整理", "請幫我整理", "markdown", "marp", "期�
 
 **分區（5 區，順序照會員版）**: A 原始研究與重要分析／B 綜述·指引·科學聲明／C 基礎·轉譯／D 社論·通訊·新聞短訊（快速掃描用）／E 血壓為次要終點（延伸閱讀）。**不收肺高壓（PAH／PH／CTEPH）**。
 
+**版型不用任何背景色（2026-11 起）**：學會群發系統會剝掉所有背景色（10 月號刊頭變白底淺字，吳副院長來信反映），只能用深色字＋框線做層次，禁用 bgcolor／background／白色淺色字／emoji ⭐（改 ★）。
+
 **表頭表尾（2026-09-03 定案，不可自行改動）**: 表頭「台灣高血壓學會（THS）　教育委員會／高血壓文獻速報　YYYY 年 M 月」；表尾「台灣高血壓學會（THS）　教育委員會／Taiwan Hypertension Society — Education Committee／本期整理：謝慕揚 醫師　Mu-Yang Hsieh, MD, PhD, FESC／本清單由本會教育委員會編製，僅供醫療專業人員教學參考」；稱謂「各位會員 您好」。版型見 `.claude/assets/ths-literature-bulletin-template.html`。
 
 **輸出**:
 - `handouts/09-hypertension/monthly-checklist/Hypertension_Literature_YYYY-MM 文獻速報.md`（紀錄用，每條附 DOI 超連結 + PMID，結尾附「檢索與篩選說明」含未收錄清單）
 - `THS_Hypertension_Literature_YYYY-MM.html` —— HTML 成品，**只附在 Gmail 草稿裡，不放進 repo**（repo 公開）。
-- **Gmail 草稿**（新信，`to: chihchengwumd@gmail.com`，不 CC）—— **只建草稿，絕不直接寄出**。主旨 `[THS 教育委員會] 高血壓文獻速報 YYYY 年 M 月 — NEJM / Lancet / JAMA / BMJ / Circulation / EHJ / JACC`；**內文本身就是速報**（秘書處直接轉寄），HTML 成品以附件掛上（`mimeType: application/octet-stream`，`text/html` 會讓中文變亂碼；內文與附件同一次 `create_draft` 完成）。
+- **Gmail 草稿**（新信，`to: chihchengwumd@gmail.com, liencwmd@gmail.com`，不 CC）—— **只建草稿，絕不直接寄出**。主旨 `[THS 教育委員會] 高血壓文獻速報 YYYY 年 M 月 — NEJM / Lancet / JAMA / BMJ / Circulation / EHJ / JACC`；**內文本身就是速報**（秘書處直接轉寄），HTML 成品以附件掛上（`mimeType: application/octet-stream`，`text/html` 會讓中文變亂碼；內文與附件同一次 `create_draft` 完成）。
 - Mode B **不產 Marp、不產 PDF**。
