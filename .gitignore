@@ -136,3 +136,25 @@ handouts/04-valvular-disease/pascal-teer-teaching/pdfs/
 download/hrc/*
 !download/hrc/INDEX.md
 !download/hrc/_*.py
+
+# PDFs stay local (repo size). Only PDFs linked from site pages are tracked.
+handouts/**/*.pdf
+!handouts/01-ischemic-heart-disease/PCI_OxPL_Lipoprotein_a.pdf
+!handouts/08-genetic-medicine/Disorders_of_Telomere_Length.pdf
+!handouts/08-genetic-medicine/Genomic_Intro_01_Terminology.pdf
+!handouts/08-genetic-medicine/Genomic_Intro_02_Testing_Methods.pdf
+!handouts/08-genetic-medicine/Genomic_Intro_03_Clinical_Cases.pdf
+!handouts/08-genetic-medicine/HCM_LVOT_Obstruction_History.pdf
+!handouts/08-genetic-medicine/Obstructive_HCM_NEJM_ICM.pdf
+!handouts/08-genetic-medicine/Phenotype_to_Cardiac_Disease_Genetic_Syndromes.pdf
+!handouts/08-genetic-medicine/Polygenic_Risk_Score_Clinical_Use_NEJM_Review.pdf
+!handouts/08-genetic-medicine/SCOUT_HCM_Mavacamten_Adolescent.pdf
+!handouts/08-genetic-medicine/VERVE_102.pdf
+!handouts/15-oncology/Adjuvant_Selpercatinib_LIBRETTO432.pdf
+!handouts/15-oncology/Daraxonrasib_RASolute302.pdf
+!handouts/90-ai-technology/AI_Literature_Review_Workflow_V2.pdf
+!handouts/90-ai-technology/AI_Medical_Education.pdf
+!handouts/90-ai-technology/AMEE_BEME_AI_Guides_Overview.pdf
+!handouts/90-ai-technology/CRM_AI_Automation_Paradox.pdf
+!handouts/90-ai-technology/LLM_for_Medical_Research_Tutorial.pdf
+!handouts/99-misc/AMEE_2026_Preconference_Workshops_Literature_Review.pdf
