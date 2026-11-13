@@ -1,0 +1,386 @@
+---
+title: "每週心血管期刊文獻回顧 — 2026-11-06 ~ 2026-11-13 — 2026-11-13"
+date: 2026-11-13
+author: "謝慕揚 MD, PhD, FESC（讀書會共筆整理人）"
+description: "漂亮的機轉，失望的終點。為什麼這樣說？因為這一週接連三記重拳落空——把 lipoprotein(a) 壓到地板、把 C-reactive protein (CRP) 打到谷底、把糖尿病患者的血壓逼到收縮壓 <120，硬終點全都沒動。總結一句：生物標記漂亮地改善，不等於臨床事件就會跟著減少。不過同一週…"
+categories: ["每週心血管期刊文獻回顧"]
+lang: zh-TW
+toc: true
+toc-depth: 3
+toc-expand: 2
+number-sections: false
+format:
+  html:
+    page-layout: article
+---
+
+::: {.callout-note appearance="minimal" icon=false}
+**原始講義**：[`Weekly_CV_Journal_Review_2026-11-13 教學講義.md`](../Weekly_CV_Journal_Review_2026-11-13%20教學講義.md)　｜　整理：謝慕揚 MD, PhD, FESC　｜　本頁由 `publish_weekly_reviews.py` 自動產生
+:::
+
+## 📬 本週導讀信
+
+::: {.letter}
+各位同仁 您好：
+
+這是 2026-11-06 至 2026-11-13 的每週心血管期刊文獻回顧。本週適逢 American Heart Association Scientific Sessions 2026（AHA 2026），NEJM 一口氣刊出多篇 late-breaking 原始試驗，所以 Top 5 幾乎全是這批重磅 randomized controlled trial (RCT)。涵蓋 NEJM、Lancet、European Heart Journal、JACC 系列、Circulation 系列、EuroIntervention；本週 EuroIntervention 無新上線文章。
+
+先講本週主題：**漂亮的機轉，失望的終點**。為什麼這樣說？因為這一週接連三記重拳落空——把 lipoprotein(a) 壓到地板、把 C-reactive protein (CRP) 打到谷底、把糖尿病患者的血壓逼到收縮壓 <120，硬終點全都沒動。總結一句：生物標記漂亮地改善，不等於臨床事件就會跟著減少。不過同一週也有兩個正面教材——曾中風的人把血壓降到 <120 真的有用，房室阻斷改用 left bundle-branch pacing (LBBP) 也真的有用。差別說穿了就是「選對族群、改對生理」。
+
+## ⭐ Top 5 Picks
+
+| # | 試驗 | 期刊 | 方向 | 一句話 |
+|---|------|------|------|--------|
+| 1 | [Lp(a)HORIZON（pelacarsen）](https://doi.org/10.1056/NEJMoa2610159) | NEJM | ❌ | Lp(a) 降約 73%，MACE **HR 1.02（P=0.76）**，連高 Lp(a) 次群也沒差 |
+| 2 | [ZEUS（ziltivekimab）](https://doi.org/10.1056/NEJMoa2612126) | NEJM | ❌ | CRP↓64%、IL-6↓76%，3-point MACE **HR 0.99（P=0.84）**，嚴重感染偏多 |
+| 3 | [OPTIMAL-DIABETES](https://doi.org/10.1056/NEJMoa2612922)／[OPTIMAL-STROKE](https://doi.org/10.1056/NEJMoa2612924) | NEJM | 💡 | 同一 <120 目標：糖尿病 **HR 0.90（NS）**；曾中風 **HR 0.79（P=0.007）** |
+| 4 | [OptimPacing（LBBP vs 右室起搏）](https://doi.org/10.1056/NEJMoa2612972) | NEJM | ✅ | 房室阻斷複合終點 **HR 0.41（P=0.003）**，因效益顯著提前中止 |
+| 5 | [SWITCH-SWEDEHEART](https://doi.org/10.1056/NEJMoa2609057) | NEJM | ❌ | 17,095 名 acute coronary syndrome (ACS)：prasugrel 缺血事件不優於 ticagrelor（OR 0.90） |
+
+先把三個 negative 的重點講清楚。Lp(a)HORIZON 收 8,322 名既有心血管病、lipoprotein(a) ≥ 70 mg/dL 的病人，pelacarsen 把 Lp(a) 壓到中位 64 nmol/L，但主要 major adverse cardiovascular event (MACE) 是 12.3% vs 12.1%，完全重疊。study chair 是 Steven Nissen，他強調單一 negative 不等於關閉整個假說，而且這試驗只收次級預防，OCEAN(a)、ACCLAIM-Lp(a) 仍在跑。ZEUS 用 ziltivekimab 抑制 interleukin-6，把發炎標記打到谷底，3-point MACE 仍 HR 0.99；Ridker 認為和 CANTOS 的落差在於這次收的族群風險高得多。比較特別的是那對巴西姊妹試驗：同一個 <120 的目標，糖尿病族群沒好處（OPTIMAL-DIABETES），曾中風族群卻有好處（OPTIMAL-STROKE，但腎臟終點代價上升）。總之，SPRINT 式的強化降壓不宜一體適用。
+
+正面的兩篇：OptimPacing 證實房室阻斷改用 LBBP，把「死亡＋心衰住院＋起搏誘發心肌病」降了 59%，因效益太明顯提前中止。SWITCH-SWEDEHEART 則是打平手——prasugrel 與 ticagrelor 的缺血事件沒有差別，出血略少但信賴區間貼近 1。
+
+## 🫀 TAVI Section
+
+- [早期職涯操作者的 TAVR 成績](https://doi.org/10.1161/CIRCINTERVENTIONS.126.016960)（Circ Cardiovasc Interv）：全美 634,723 例，獨立執業 ≤5 年者 30 天死亡與資深者相當（2.38% vs 2.44%），複合終點甚至略低。說穿了，當代團隊化流程下資淺本身不等於成績差。
+- [DOUBLE-CHOICE BMI 次分析](https://doi.org/10.1007/s00392-026-03042-x)（Clin Res Cardiol）：肥胖者 30 天複合終點反而較低（adjusted OR 0.48），**過瘦（BMI <20）才是被低估的高風險表型**（OR 3.74）。
+- [二葉瓣 vs 三葉瓣的自膨瓣展開幾何](https://doi.org/10.1161/JAHA.126.049690)（J Am Heart Assoc）：bicuspid 殘餘跨瓣壓差較高（12.0 vs 10.0 mmHg）、橢圓度較大；術前 sizing 要算進去。
+
+## 🔧 TEER Section
+
+- [T-TEER 後右心重塑（EuroTR，n=699）](https://doi.org/10.1161/JAHA.125.048944)（J Am Heart Assoc）：tricuspid transcatheter edge-to-edge repair (T-TEER) 成功後右心室會逆重塑（中段徑 40.2→37.1 mm），手術成功與正向重塑相關（OR 1.82）。倒是 fractional area change、tricuspid annular plane systolic excursion 略降，多屬容積卸載後的正常化，別誤當惡化。
+- [T-TEER vs TTVR 怎麼選](https://doi.org/10.1097/HCO.0000000000001359)（Curr Opin Cardiol）：先用三尖瓣解剖與影像可行性決定 T-TEER 或 transcatheter tricuspid valve replacement (TTVR)，再談裝置。
+
+## 📚 Honorable Mentions
+
+- [DAPT-SHOCK-AMI](https://doi.org/10.1016/S0140-6736(26)00976-1)（Lancet，❌）：心因性休克的急性心肌梗塞，cangrelor 血小板抑制更佳（100% vs 22%），但 30 天硬終點非劣性未達（P=0.13）。
+- [SYNCHRONIZE-CVOT（survodutide）](https://doi.org/10.1016/S0140-6736(26)02140-9)（Lancet，✅ CV 安全）：心血管複合終點 HR 0.89，非劣達標；腸胃道副作用偏多。
+- [TYDAL-TIMI 78（ANGPTL4）](https://doi.org/10.1056/NEJMoa2612463)（NEJM，✅ 替代終點）：抗 ANGPTL4 的 MAR001 把三酸甘油酯降 39–45%，硬終點待 phase 3。
+- [STREAM 停 statin](https://doi.org/10.1056/NEJMoa2606634)（NEJM，💡）：≥70 歲初級預防停 statin 2 年非劣，但事件數值上偏多（12.7% vs 9.2%），解讀要留意。
+- [ARC 急性主動脈症候群排除準則](https://doi.org/10.1093/eurheartj/ehag875)（EHJ，✅）：7 變數床邊規則，外部驗證 sensitivity 100%，可安全排除 36% 病人免進一步檢查。
+- [左心耳封堵 vs 抗凝 JACC Evidence Review](https://doi.org/10.1016/j.jacc.2026.09.018)（JACC）：主張把 OPTION／CLOSURE-AF／CHAMPION-AF 當各自獨立的實驗、以表型判讀適應症。
+
+## 🔬 Case Reports（本週偏結構介入救援）
+
+1. [TMVR in incomplete ring + LAMPOON](https://doi.org/10.1016/j.jaccas.2026.111216)：借鄰近主動脈人工瓣當錨定點，讓不完整軟環的 transcatheter mitral valve replacement (TMVR) 變得可行。
+2. [Sutureless 主動脈瓣移位的 bailout](https://doi.org/10.1016/j.jaccas.2026.111211)：先預置經心尖瓣膜、再用 wire-loop 復位，把空環時間壓到最短。
+3. [TAVR 後 LBBB 用 LOT-CRTD 救回](https://doi.org/10.1016/j.jaccas.2026.111159)：複雜 percutaneous coronary intervention (PCI)＋TAVR 後持續左心室功能不良，left bundle branch-optimized CRT-D 3 個月完全恢復。正好跟本週 OptimPacing 呼應。
+4. [TAVR 釋放球囊縱向破裂、順利回收](https://doi.org/10.1002/ccd.71020)：回收前先確認塌陷是否完全、幾何正常、抽吸反應與退出阻力。
+5. [三瓣同時衰敗的分階段 valve-in-valve](https://doi.org/10.1016/j.jaccas.2026.110544)：禁忌再開刀時，ViV-TAVR→ViV-TMVR→ViV-TTVR 分階段完成，關鍵在影像與順序安排。
+
+## 💎 Take Home（7 點）
+
+1. 降 lipoprotein(a) ≠ 降事件（至少在次級預防）：Lp(a)HORIZON 乾淨的 negative，提醒療效標記漂亮不保證臨床獲益。
+2. 殘餘發炎假說再受挫：ZEUS 把 IL-6／CRP 打到谷底，MACE 仍沒動，嚴重感染偏多。
+3. 降壓目標要看族群：糖尿病追 <120 無益，曾中風追 <120 有益但要盯腎功能。
+4. 房室阻斷改用 LBBP 真的有用（HR 0.41），新植入應優先考慮；Case 3 的 LOT-CRTD 是同一主題的延伸。
+5. prasugrel 與 ticagrelor 打平手，選藥仍以耐受性、順從性與成本個別化。
+6. 結構介入三個實用訊號：資淺操作者成績不輸資深、過瘦是 TAVI 隱藏高風險、三尖瓣 T-TEER 後右心會逆重塑。
+7. 看主要終點與信賴區間，不要看摘要用語：DAPT-SHOCK-AMI（非劣未達）、SYNCHRONIZE-CVOT（CV 安全達標）、TYDAL（替代終點）、STREAM（非劣但事件偏多）各有陷阱。
+
+---
+
+檔案位置：`handouts/91-podcast-journal-review/`（教學講義 .md、Marp .md 已 commit 並 push 到 master；PDF 依 repo 政策不進 git，可由 Marp .md 重新產生，另附於信中／本次 session）。
+
+網頁：<https://drake1128.github.io/journal-reading/handouts/91-podcast-journal-review/weekly-cv-review-2026-11-13/>
+
+讀書會共筆整理人：謝慕揚 MD, PhD, FESC（心臟內科｜結構性心臟病介入）
+
+本文件為讀書會共筆之教學整理，僅供醫療專業人員教學與學術討論參考，不構成個別臨床決策建議。所有試驗數據以原始文獻為準；用藥與處置請依最新仿單與臨床指引，並結合個別病人情況判斷。
+:::
+
+## 📖 完整教學講義
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-11-13**
+**涵蓋期刊**：NEJM、Lancet、European Heart Journal、JACC family、Circulation family、EuroIntervention
+
+---
+
+## 1. 本週重點摘要 (Top 5 Picks)
+
+| # | 試驗 / 主題 | 期刊 | 結果方向 | 一句話總結 |
+|---|------------|------|---------|-----------|
+| 1 | **Lp(a)HORIZON**：pelacarsen 降 lipoprotein(a) | NEJM | ❌ Negative | Lipoprotein(a) 壓低約 73–78%，但 major adverse cardiovascular event (MACE) 完全沒差（HR 1.02，P=0.76）——第一個 Lp(a)-lowering 的硬終點 CVOT，希望落空 |
+| 2 | **ZEUS**：ziltivekimab 抑制 interleukin-6 | NEJM | ❌ Negative | 高敏 C-reactive protein (CRP) 降 64%、IL-6 降 76%，3-point MACE 仍 HR 0.99（P=0.84）；嚴重感染反而偏多——發炎假說再受挫 |
+| 3 | **OPTIMAL-DIABETES vs OPTIMAL-STROKE**：收縮壓 <120 vs <140 | NEJM | 💡 分流（一 ❌ 一 ✅） | 同一巴西計畫、同一個 <120 目標：糖尿病族群**沒有**好處（HR 0.90，P=0.20）；但曾中風族群**有**好處（HR 0.79，P=0.007）——降壓目標要看族群 |
+| 4 | **OptimPacing**：left bundle-branch pacing vs 右心室起搏 | NEJM | ✅ Positive | 房室傳導阻斷患者，left bundle-branch pacing (LBBP) 讓「死亡＋心衰住院＋起搏誘發心肌病」降 59%（HR 0.41，P=0.003），因效益顯著提前中止 |
+| 5 | **SWITCH-SWEDEHEART**：prasugrel vs ticagrelor | NEJM | ❌ Neutral | 17,095 名 acute coronary syndrome (ACS) 接受 percutaneous coronary intervention (PCI)：預設 prasugrel 與預設 ticagrelor 缺血事件**無差異**（OR 0.90），大出血略少（OR 0.80） |
+
+> **Pearl of the Week**：這是「**漂亮的機轉、失望的終點**」的一週。AHA 2026 連續三記重拳落空——把 lipoprotein(a) 壓到地板（Lp(a)HORIZON）、把 IL-6／CRP 打到谷底（ZEUS）、把糖尿病患者的血壓逼到 <120（OPTIMAL-DIABETES），硬終點全都沒動。它們共同的提醒是：**生物標記漂亮地改善，不等於臨床事件就會跟著減少。** 但同一週也有兩個正面教材——曾中風的人把血壓降到 <120 真的有用（OPTIMAL-STROKE），房室阻斷改用 left bundle-branch pacing 也真的有用（OptimPacing）。差別在哪？在於「選對族群、改對生理」。先問「為什麼」再問「怎麼做」，本週每一篇都在示範這件事。
+
+---
+
+## 2. NEJM（AHA 2026 Late-Breakers）
+
+本週 NEJM 幾乎是 AHA 2026 開幕 late-breaking science 的集中刊載。以下依臨床衝擊排序，Top 5 中前四項（Lp(a)HORIZON、ZEUS、OPTIMAL 雙試驗、OptimPacing）與第五項（SWITCH-SWEDEHEART）都出自此。
+
+### 2.1 ⭐ Lp(a)HORIZON — 把 lipoprotein(a) 壓到地板，心血管事件卻沒動
+
+> 先講結論：**這是一個乾淨的 negative trial。** Pelacarsen 把 Lp(a) 壓低約 73–78%，是目前所有 Lp(a)-lowering 藥物中降幅最漂亮的之一，但主要終點（心血管死亡＋非致死 MI＋非致死中風＋緊急冠狀動脈再灌流）幾乎與安慰劑重疊。
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | 國際、隨機、安慰劑對照、雙盲 phase 3 CVOT（study chair：Steven Nissen） |
+| 族群 | 既有心血管疾病 + lipoprotein(a) ≥ 70 mg/dL；n = 8,322（分析族群），女性 27% |
+| 介入 | Pelacarsen 80 mg 皮下每月一次 vs 安慰劑；median 追蹤 4.7 年 |
+| 藥效 | 12 個月時 Lp(a) 中位數：pelacarsen 組 64.4 nmol/L vs 安慰劑 233.4 nmol/L（約降 73%；外部報導以「vs 安慰劑」計約降 77.7%） |
+| Primary endpoint | MACE：pelacarsen 12.3% vs 安慰劑 12.1%，**HR 1.02（95% CI 0.90–1.15，P=0.76）** |
+| 高 Lp(a) 次群（≥90 mg/dL） | 12.3% vs 12.3%，**HR 1.00（0.87–1.15，P=0.99）**——連最該獲益的族群都沒差 |
+| 安全性 | 嚴重不良事件 pelacarsen 37.3% vs 安慰劑 41.1%（藥物安全性無疑慮） |
+| Take home | 「把 Lp(a) 降下來」本身並未轉化為事件減少。研究者（Nissen）強調：單一 negative trial 不等於關閉整個假說，且本試驗只收**次級預防**族群、無法回答初級預防；OCEAN(a)（olpasiran）、ACCLAIM-Lp(a)（lepodisiran）仍進行中 |
+
+原文：Cho L, Nissen SE, et al. (Lp[a]HORIZON). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2610159)（PMID 43001734）
+
+### 2.2 ⭐ ZEUS — IL-6 抑制把發炎打到谷底，MACE 仍沒動
+
+> 這是「殘餘發炎風險（residual inflammatory risk）」假說近年最受矚目的一次檢驗。結論同樣冷峻：**ziltivekimab 把 IL-6 降 76%、CRP 降 64%，3-point MACE 仍 HR 0.99。**
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | 多國、雙盲、隨機、安慰劑對照 phase 3（Paul Ridker 主導） |
+| 族群 | 既有 atherosclerotic cardiovascular disease (ASCVD) + chronic kidney disease (CKD) + 發炎（hs-CRP ≥ 2 mg/L）；n = 6,376，平均 69.4 歲 |
+| 介入 | Ziltivekimab 15 mg 皮下每月一次 vs 安慰劑；median 追蹤 33 個月 |
+| 藥效 | 24 個月時（vs 安慰劑）free IL-6 −76 個百分點、hs-CRP −64 個百分點 |
+| Primary endpoint | 3-point MACE（心血管死亡＋非致死 MI＋非致死中風）：17.6% vs 17.7%，**HR 0.99（0.88–1.11，P=0.84）** |
+| 安全性 | 嚴重不良事件相當（54.6% vs 54.8%）；**嚴重感染 20.4% vs 17.9%**（偏高） |
+| Take home | 與 CANTOS（canakinumab 抑制 IL-1β 曾顯著降事件）形成對照——Ridker 認為 ZEUS 收的是「風險高得多」的 ASCVD+CKD 族群，可能稀釋了效益。IL-6 路徑的 HERMES（心衰）、ARTEMIS（MI 後）仍在進行，預計 2027 上半年揭曉 |
+
+原文：Ridker PM, et al. (ZEUS). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612126)（PMID 43001751）
+
+### 2.3 ⭐ OPTIMAL-DIABETES & OPTIMAL-STROKE — 同一個 <120，兩種族群，兩種答案
+
+> 這對來自巴西 Hospital Israelita Albert Einstein 的姊妹試驗最有教學價值：**同樣把收縮壓目標設 <120 vs <140，糖尿病族群沒好處、曾中風族群有好處。** 這正是把 SPRINT-type 強化降壓「一體適用」想法打上問號的實證。
+
+| 項目 | OPTIMAL-DIABETES | OPTIMAL-STROKE |
+|------|------------------|----------------|
+| 族群 | 第二型糖尿病 (type 2 diabetes mellitus, T2DM) + 高心血管風險，n=9,476 | 曾缺血性中風 / transient ischemic attack (TIA)，n=4,368 |
+| 達成血壓（排除前 3 個月） | 121.8 vs 135.4 mmHg | 122.0 vs 135.2 mmHg（差 13.1 mmHg） |
+| Primary（心血管死亡＋非致死 MI／中風＋不穩定心絞痛／心衰住院） | 6.0% vs 6.7%，**HR 0.90（0.77–1.06，P=0.20）** ❌ | 10.9% vs 13.5%，**HR 0.79（0.67–0.94，P=0.007）** ✅ |
+| 安全性 | 嚴重不良事件相當（14.9% vs 14.6%） | 嚴重不良事件相當，但**複合腎臟終點（eGFR 降≥50% 或進入末期腎病）在強化組較多** |
+| Take home | 糖尿病患者追 <120 未見事件益處——應權衡個別風險，而非一律逼到 <120 | 曾中風／TIA 者追 <120 有明確益處，但要盯住腎功能惡化的代價 |
+
+原文（糖尿病）：Santo K, et al. (OPTIMAL-DIABETES). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612922)（PMID 43001746）
+原文（中風）：Sampaio Silva G, et al. (OPTIMAL-STROKE). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612924)（PMID 43001741）
+
+### 2.4 ⭐ OptimPacing — Left bundle-branch pacing 勝右心室起搏（房室阻斷）
+
+> 本週少數乾脆的 positive trial，而且因效益太明顯被 data monitoring committee 建議**提前中止**。對需要長期起搏的房室阻斷患者，這是把 LBBP 推向首選的硬終點證據。
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | Investigator-initiated、國際、開放標籤、隨機 RCT；期中分析即提前中止 |
+| 族群 | 房室傳導阻斷需起搏，n=685（modified ITT），平均 68.4 歲 |
+| 介入 | LBBP（n=342）vs 右心室起搏（n=343）；median 追蹤 35.1 個月 |
+| Primary endpoint | 死亡＋心衰住院＋起搏誘發心肌病：**4 年累積 8.5% vs 19.2%，HR 0.41（0.23–0.75，P=0.003）** |
+| 安全性 | 與植入無關的嚴重不良事件：11.8% vs 9.3%（P=0.32，無顯著差） |
+| Take home | 傳統右心室起搏造成的 dyssynchrony 與長期心室功能惡化是真實的代價；LBBP 在房室阻斷族群能大幅減少硬終點，值得作為新植入的優先策略（需術者熟悉導線定位技術） |
+
+原文：Qian Z, et al. (OptimPacing). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612972)（PMID 43001763）
+
+### 2.5 ⭐ SWITCH-SWEDEHEART — Prasugrel 與 ticagrelor 打平手
+
+> 困擾臨床多年的問題：ACS 做完 PCI，預設 P2Y12 inhibitor 該選 prasugrel 還是 ticagrelor？瑞典用全國登錄做 stepped-wedge cluster RCT，答案是：**缺血事件沒差。**
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | 瑞典 registry-based、開放標籤、stepped-wedge、cluster-randomized；7 區 3 群，2021–2024 輪替切換預設藥 |
+| 族群 | ACS 接受 PCI 的未篩選真實世界族群，n=17,095（ticagrelor 政策 9,444；prasugrel 政策 7,651）；39.4% STEMI |
+| Primary endpoint（1 年死亡＋致死/非致死 MI＋致死/非致死中風） | ticagrelor 政策 11.8% vs prasugrel 政策 11.1%，**adjusted OR 0.90（0.77–1.06）**——無顯著差 |
+| 大出血 | 4.4% vs 4.2%，**adjusted OR 0.80（0.64–0.99）**（prasugrel 政策略少） |
+| Take home | 在「政策層級（default policy）」的比較下，缺血事件 prasugrel 不優於 ticagrelor；出血略少但 CI 貼近 1。兩者仍可依病人耐受性、順從性與成本個別選擇 |
+
+原文：Omerovic E, et al. (SWITCH-SWEDEHEART). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2609057)（PMID 42670968）
+
+> ⚠️ 判讀提醒：本週多為 negative／neutral，容易被摘要用語誤讀。務必抓三件事——(1) Lp(a)HORIZON 與 ZEUS 都是「藥效達標、終點落空」；(2) OPTIMAL 兩試驗方向相反，別把 STROKE 的 positive 外推到 DIABETES；(3) SWITCH-SWEDEHEART 的 OR 貼近 1，是 neutral 不是 positive。外部佐證：TCTMD、Novartis、Novo Nordisk 公司新聞稿與 AHA 2026 late-breaking 報導均與上述方向一致。
+
+---
+
+## 3. 🫀 TAVI Section
+
+本週無新裝置隨機試驗，但有三篇對結構性介入醫師（Drake 的主要臨床方向）直接有用的資料：操作者學習曲線、體位（BMI）風險分層、以及二葉瓣（bicuspid）展開幾何。
+
+### 3.1 美國全國登錄：早期職涯操作者的 TAVR 成績不輸資深者
+
+- 資料來源：STS/ACC TVT Registry，2011/10–2024/3，**634,723 例 TAVR、3,126 位操作者、847 家中心**；其中 14.2% 由「早期職涯（獨立執業 ≤5 年）」操作者執行。
+- 早期職涯者年均案量較低（中位 13 vs 19 例）；校正後 **30 天死亡相當（2.38% vs 2.44%，RR 0.97，95% CI 0.92–1.01，P=0.293）**，**複合終點（死亡／中風／大出血／stage III acute kidney injury／中重度 paravalvular leak）反而略低（11.19% vs 11.77%，RR 0.95，0.93–0.98，P<0.001）**。
+- 臨床意涵：在當代「團隊化、結構化」的 TAVR 流程下，資淺本身不等於成績較差——對台灣新進結構介入醫師的養成與獨立執業授權，是正面的實證。
+- Salah HM, et al. [*Circ Cardiovasc Interv*. 2026:e016960.](https://doi.org/10.1161/CIRCINTERVENTIONS.126.016960)（PMID 43012117）
+
+### 3.2 DOUBLE-CHOICE BMI 次分析：肥胖「悖論」與過瘦高風險
+
+- 來自隨機 DOUBLE-CHOICE 試驗的預設次群分析（n=752）；主要終點為 30 天複合（死亡／血管／出血／需抗生素感染／神經事件）。
+- **肥胖（BMI ≥30）者 30 天複合終點較低（15.2% vs 27.6%；校正後 adjusted OR 0.48，0.30–0.75，P=0.002）**；**過瘦（BMI <20，n=23）則風險大增（55.0% vs 23.4%；adjusted OR 3.74，1.30–9.52，P=0.005）**。
+- 臨床意涵：TAVI 術前評估別只看「胖＝高風險」的直覺——**過瘦才是容易被忽略的高風險表型**，值得納入 frailty／body composition 的更細評估。
+- Buske M, Feistritzer HJ, et al. [*Clin Res Cardiol*. 2026.](https://doi.org/10.1007/s00392-026-03042-x)（PMID 43018714）
+
+### 3.3 二葉瓣 vs 三葉瓣：自膨瓣的展開幾何與殘餘壓差
+
+- 回溯 212 例（bicuspid 106、tricuspid 106）接受 Venus-A 自膨瓣的患者，術後一年內有 CT。
+- Bicuspid 者 oversizing 較低、較常需 pre-/post-dilation；**殘餘跨瓣壓差較高（中位 12.0 vs 10.0 mmHg，P=0.014）、人工瓣橢圓度（ellipticity）較大**；中重度 paravalvular leak、植入深度、不對稱展開、hypoattenuated leaflet thickening (HALT) 發生率則無顯著差。
+- 臨床意涵：二葉瓣解剖對自膨瓣的「展開對稱性／殘餘壓差」挑戰更大，術前計畫與 sizing 要把這件事算進去。
+- Feng D, et al. [*J Am Heart Assoc*. 2026:e049690.](https://doi.org/10.1161/JAHA.126.049690)（PMID 43018038）
+
+---
+
+## 4. 🔧 TEER Section
+
+本週 TEER 焦點在**三尖瓣**（tricuspid）：T-TEER 後的右心重塑實證，以及 T-TEER 與 transcatheter tricuspid valve replacement (TTVR) 的選擇邏輯。與 Drake 的 MitraClip／PASCAL／TriClip 面向高度相關。
+
+### 4.1 ⭐ T-TEER 後右心重塑（EuroTR，n=699）
+
+- 國際 EuroTR 登錄，18 家歐洲中心 2016–2024，納入有基線與 ≥90 天追蹤影像者，共 **699 人**（平均 78 歲，56% 女性）；median 影像追蹤 407 天。
+- 結果：**右心室中段徑 40.2→37.1 mm、舒張末面積 28.7→26.2 cm²（皆 P<0.001）**；**手術成功與正向右心室重塑相關（OR 1.82，1.07–3.09）**。右心室功能指標（fractional area change 37.8%→33.3%、tricuspid annular plane systolic excursion 17.4→16.6 mm）略降——作者認為多反映容積卸載後的「正常化」而非真的惡化。
+- 臨床意涵：T-TEER 成功降低 tricuspid regurgitation (TR) 後，右心室會逆重塑；功能指標的小幅下降要放在「卸載後正常化」的脈絡裡判讀，別誤當成右心衰退。
+- Stolz L, et al. (EuroTR). [*J Am Heart Assoc*. 2026:e048944.](https://doi.org/10.1161/JAHA.125.048944)（PMID 43018056）
+
+### 4.2 T-TEER vs TTVR：怎麼選？
+
+- 綜述整理最新證據與實務選擇：T-TEER 的治療目標是達到「殘餘 TR ≤ 輕度」，而能否達標主要取決於三尖瓣解剖與經食道超音波影像品質；T-TEER 安全性極佳但在特定解剖下療效受限，此時 TTVR 可能更合適。
+- 臨床意涵：三尖瓣介入不是「一種裝置打天下」——先用解剖與影像可行性決定 T-TEER 或 TTVR，再談裝置品牌。對正在累積 TriClip 經驗的團隊是很好的病例選擇框架。
+- Hahn RT, et al. [*Curr Opin Cardiol*. 2026.](https://doi.org/10.1097/HCO.0000000000001359)（PMID 42989943）
+
+---
+
+## 5. 📚 Honorable Mentions（Lancet／EHJ／JACC／Circulation）
+
+| 主題 | 摘要 | 連結 |
+|------|------|------|
+| **DAPT-SHOCK-AMI**（Lancet，❌ 非劣未達） | AMI 合併 cardiogenic shock：cangrelor 達成有效血小板抑制遠多於 crushed ticagrelor（100% vs 22%），但 30 天「死亡／MI／中風」**非劣性未達標**（差 −4 pp，90% CI −10 至 3，P=0.13）；大出血相當 | [DOI](https://doi.org/10.1016/S0140-6736(26)00976-1)｜[PMID 42998670](https://pubmed.ncbi.nlm.nih.gov/42998670/) |
+| **SYNCHRONIZE-CVOT**（Lancet，✅ CV 安全） | survodutide（GCGR/GLP-1 雙促效）在肥胖高心血管風險者，複合心血管終點 **HR 0.89（0.67–1.18），非劣性 P<0.0001**；腸胃道副作用顯著較多 | [DOI](https://doi.org/10.1016/S0140-6736(26)02140-9)｜[PMID 43003106](https://pubmed.ncbi.nlm.nih.gov/43003106/) |
+| **TYDAL-TIMI 78 / ANGPTL4（MAR001）**（NEJM，✅ 替代終點） | phase 2b：抗 ANGPTL4 單株抗體 12 週把空腹三酸甘油酯**降 39–45%（vs 安慰劑，P<0.001）**；硬終點待 phase 3 | [DOI](https://doi.org/10.1056/NEJMoa2612463)｜[PMID 43002172](https://pubmed.ncbi.nlm.nih.gov/43002172/) |
+| **STREAM 停 statin**（NEJM，💡 noninferior） | ≥70 歲、無心血管病、初級預防者停 statin：2 年 event-free survival 差 −2.0 週（在 −5.2 週非劣界內，P<0.001 非劣）；但事件數**數值上較多（12.7% vs 9.2%）** | [DOI](https://doi.org/10.1056/NEJMoa2606634)｜[PMID 43001742](https://pubmed.ncbi.nlm.nih.gov/43001742/) |
+| **ARC 急性主動脈症候群排除準則**（EHJ，✅ 外部驗證） | 7 變數床邊規則（>60 歲、突發痛、劇痛、低血壓、神經缺損、脈搏缺損、已知主動脈疾病）；外部驗證 **sensitivity 100%**，可安全排除 36% 病人免進一步檢查 | [DOI](https://doi.org/10.1093/eurheartj/ehag875)｜[PMID 43006790](https://pubmed.ncbi.nlm.nih.gov/43006790/) |
+| **LAAC vs 抗凝（JACC Evidence Review）** | 把 OPTION／CLOSURE-AF／CHAMPION-AF 當「各自獨立的實驗」而非一個可合併的證據池，提出以表型（phenotype）判讀左心耳封堵適應症的框架 | [DOI](https://doi.org/10.1016/j.jacc.2026.09.018)｜[PMID 43018506](https://pubmed.ncbi.nlm.nih.gov/43018506/) |
+| **FRAGILE**（Circulation，RCT） | 前虛弱／虛弱者 CABG：off-pump vs on-pump 的 30 天與 1 年結果比較（≥60 歲、2018–2024 隨機） | [DOI](https://doi.org/10.1161/CIRCULATIONAHA.125.078842)｜[PMID 43006184](https://pubmed.ncbi.nlm.nih.gov/43006184/) |
+| **二尖瓣 cerclage 心室成形術 5 年**（Circ Interv，➰） | NHLBI early feasibility：18 人 5 年存活 57%，MR 下降、LVEF 改善，但**6 人發生完全房室阻斷（4 人需植入 CIED）致試驗暫停**；症狀益處第一年最明顯、之後衰減 | [DOI](https://doi.org/10.1161/CIRCINTERVENTIONS.126.017202)｜[PMID 43012111](https://pubmed.ncbi.nlm.nih.gov/43012111/) |
+
+---
+
+## 6. 🔬 Case Reports
+
+本週精選 5 例，皆偏向**結構性介入救援／困難解剖的個別化策略**，與 Drake 的結構心臟病介入路線直接相關。
+
+1. **TMVR in incomplete ring + LAMPOON（借主動脈人工瓣錨定）** — 54 歲缺血性心肌病、曾 CABG、aortic valve-in-valve TAVR、二尖瓣 31 mm Duran AnCore band 修補後嚴重復發 MR。因 band 為不完整軟環、前葉過長、neo-LVOT 阻塞風險高，先行 antegrade base-to-tip 前葉撕裂（LAMPOON）再做 valve-in-ring transcatheter mitral valve replacement (TMVR)，術後無 paravalvular leak、無明顯 LVOT 壓差。**教學點**：鄰近的主動脈人工瓣解剖可被「借來」當錨定點，讓原本不利於錨定的不完整軟環 TMVR 變得可行——複雜 valve-in-ring 要靠 multimodality 規劃。
+   Ozdemir D, et al. [*JACC Case Rep*. 2026:111216.](https://doi.org/10.1016/j.jaccas.2026.111216)（PMID 43023947）
+2. **Sutureless 主動脈瓣移位的 wire-loop 復位＋經心尖瓣置換（bailout）** — 78 歲洗腎病人，微創雙瓣置換用 sutureless 主動脈生物瓣，脫離體外循環失敗、角度過高導致雙側冠狀動脈灌流不足。團隊**先預置一枚經心尖 transcatheter 瓣膜**，再經股動脈 wire-loop 把移位瓣復位，恢復冠狀動脈血流、即刻完成瓣膜置換，5 個月追蹤心室功能保留、支架位置穩定。**教學點**：sutureless 瓣移位雖罕見卻可致命；「先預置、再復位」能把空環時間壓到最短。
+   Hamada Y, Kawamura T, et al. [*JACC Case Rep*. 2026:111211.](https://doi.org/10.1016/j.jaccas.2026.111211)（PMID 43023942）
+3. **複雜 PCI + TAVR 後持續左心室功能不良，改以 LOT-CRTD 救回** — 67 歲高風險左主幹-LAD PCI 併心因性休克、嚴重左心室功能不良；TAVR 後新發 left bundle branch block (LBBB) 且 LV 功能持續低下。單純 left bundle branch pacing 僅在高輸出下才能完全矯正，遂加冠狀竇導線做 **left bundle branch-optimized CRT-D (LOT-CRTD)**，3 個月後 LV 功能完全恢復、逆重塑。**教學點**：TAVR 後 LBBB 合併 LV 功能不良的最佳裝置策略指引仍空白——與本週 OptimPacing 的 LBBP 主題互相呼應。
+   Chin EYH, et al. [*JACC Case Rep*. 2026:111159.](https://doi.org/10.1016/j.jaccas.2026.111159)（PMID 43023951）
+4. **TAVR 中釋放球囊縱向破裂、順利回收** — 八旬女性接受 23-mm SAPIEN 3 Ultra RESILIA；球囊在接近標稱充盈量時、於 sinotubular junction 鈣化處破裂。立即抽吸使球囊完全塌陷、無殘餘對比劑與異常幾何，順利無阻力回收進 14-F eSheath；檢視見縱向（而非環向）撕裂、無碎片殘留。**教學點**：球囊破裂時「回收前先確認塌陷是否完全、幾何是否正常、抽吸反應與退出阻力」是關鍵決策依據；破裂型態（縱向 vs 環向）可能影響可回收性。
+   Iwata R, et al. [*Catheter Cardiovasc Interv*. 2026.](https://doi.org/10.1002/ccd.71020)（PMID 43016117）
+5. **一次三枚瓣同時衰敗的分階段 valve-in-valve** — 78 歲紅斑性狼瘡、第 4 期 CKD、永久性心房顫動、嚴重虛弱，8 年前做過三瓣外科生物瓣置換，如今主動脈／二尖瓣／三尖瓣生物瓣同時嚴重衰敗、手術風險過高。採**分階段全經導管策略**：先 valve-in-valve TAVR（23-mm 自膨瓣＋bioprosthetic valve fracture），再 ViV-TMVR 與 ViV-TTVR（皆 26-mm 球擴瓣），全程無併發症，2 個月 NYHA III→II。**教學點**：對禁忌再開刀的多瓣衰敗，分階段 triple ViV 是可行替代；關鍵在 multimodality 影像與「個別化的順序安排」。
+   Del Castillo DV, Wang Y. [*JACC Case Rep*. 2026;31(45):110544.](https://doi.org/10.1016/j.jaccas.2026.110544)（PMID 43018208）
+
+---
+
+## 7. 💎 Take Home Message
+
+1. **降 Lp(a) ≠ 降事件（至少在次級預防）**：Lp(a)HORIZON 把 lipoprotein(a) 壓低約 73–78%，MACE 仍 HR 1.02（P=0.76），連高 Lp(a) 次群也沒差。這不否定 Lp(a) 作為風險因子，但提醒療效標記漂亮不保證臨床獲益；OCEAN(a)、ACCLAIM-Lp(a) 仍待揭曉。
+2. **殘餘發炎假說再受挫**：ZEUS 的 ziltivekimab 把 IL-6 降 76%、CRP 降 64%，3-point MACE 仍 HR 0.99（P=0.84），且嚴重感染偏多。與 CANTOS 的落差可能在於族群風險太高——IL-6 路徑的定位要等 HERMES／ARTEMIS。
+3. **降壓目標要看族群**：同一巴西計畫、同一 <120 目標，糖尿病族群沒好處（OPTIMAL-DIABETES，HR 0.90，P=0.20），曾中風族群有好處（OPTIMAL-STROKE，HR 0.79，P=0.007，但腎臟終點代價上升）。別把 SPRINT-type 的強化降壓一體適用。
+4. **房室阻斷改用 LBBP 真的有用**：OptimPacing 顯示 left bundle-branch pacing 讓死亡／心衰住院／起搏誘發心肌病降 59%（HR 0.41，P=0.003），因效益顯著提前中止；新植入應優先考慮。相關 Case 3（LOT-CRTD 救 TAVR 後 LBBB）正好對照。
+5. **Prasugrel 與 ticagrelor 打平手**：SWITCH-SWEDEHEART（n=17,095）顯示預設 prasugrel 的缺血事件不優於預設 ticagrelor（OR 0.90），出血略少（OR 0.80）——選藥仍以耐受性、順從性與成本個別化。
+6. **結構介入的三個實用訊號**：早期職涯操作者的 TAVR 成績不輸資深者（團隊化流程的功勞）；TAVI 要特別留意「過瘦」這個被低估的高風險表型（DOUBLE-CHOICE，OR 3.74）；二葉瓣對自膨瓣展開幾何與殘餘壓差挑戰更大。三尖瓣 T-TEER 成功後右心會逆重塑，功能指標小降多屬卸載後正常化。
+7. **看主要終點與 CI，不要看摘要用語**：本週 DAPT-SHOCK-AMI（非劣未達）、SYNCHRONIZE-CVOT（CV 安全達標）、TYDAL-TIMI 78（替代終點 positive、硬終點未測）、STREAM（2 年非劣但事件數值上偏多）各有陷阱——先問「這是 superiority 還是 non-inferiority？終點方向與 CI 落在哪？」再下判斷。
+
+---
+
+## 8. 縮寫對照
+
+| 縮寫 | 全稱（English） | 中文 |
+|------|----------------|------|
+| AHA | American Heart Association | 美國心臟協會 |
+| RCT | Randomized Controlled Trial | 隨機對照試驗 |
+| CVOT | Cardiovascular Outcomes Trial | 心血管結果試驗 |
+| MACE | Major Adverse Cardiovascular Event | 重大不良心血管事件 |
+| HR / OR / RR | Hazard / Odds / Risk Ratio | 風險比／勝算比／相對風險 |
+| CI | Confidence Interval | 信賴區間 |
+| Lp(a) | Lipoprotein(a) | 脂蛋白(a) |
+| LDL-C | Low-Density Lipoprotein Cholesterol | 低密度脂蛋白膽固醇 |
+| IL-6 | Interleukin-6 | 介白素-6 |
+| CRP | C-Reactive Protein | C 反應蛋白 |
+| ASCVD | Atherosclerotic Cardiovascular Disease | 動脈粥樣硬化性心血管疾病 |
+| CKD | Chronic Kidney Disease | 慢性腎臟病 |
+| eGFR | estimated Glomerular Filtration Rate | 估算腎絲球過濾率 |
+| T2DM | Type 2 Diabetes Mellitus | 第二型糖尿病 |
+| TIA | Transient Ischemic Attack | 短暫性腦缺血發作 |
+| LBBP | Left Bundle-Branch Pacing | 左束支起搏 |
+| LBBB | Left Bundle Branch Block | 左束支傳導阻斷 |
+| CRT-D / LOT-CRTD | (LBB-Optimized) Cardiac Resynchronization Therapy with Defibrillator | （左束支優化）心臟再同步化治療併去顫器 |
+| CIED | Cardiac Implantable Electronic Device | 心臟植入式電子裝置 |
+| ACS | Acute Coronary Syndrome | 急性冠心症 |
+| STEMI | ST-Elevation Myocardial Infarction | ST 段上升型心肌梗塞 |
+| MI | Myocardial Infarction | 心肌梗塞 |
+| PCI | Percutaneous Coronary Intervention | 經皮冠狀動脈介入 |
+| CABG | Coronary Artery Bypass Grafting | 冠狀動脈繞道手術 |
+| P2Y12 inhibitor | P2Y12 receptor inhibitor | P2Y12 受體抑制劑 |
+| TAVR / TAVI | Transcatheter Aortic Valve Replacement / Implantation | 經導管主動脈瓣置換／植入 |
+| TMVR | Transcatheter Mitral Valve Replacement | 經導管二尖瓣置換 |
+| TTVR | Transcatheter Tricuspid Valve Replacement | 經導管三尖瓣置換 |
+| TEER / T-TEER | (Tricuspid) Transcatheter Edge-to-Edge Repair | （三尖瓣）經導管緣對緣修補 |
+| ViV | Valve-in-Valve | 瓣中瓣 |
+| MR / TR | Mitral / Tricuspid Regurgitation | 二尖瓣／三尖瓣逆流 |
+| LVOT | Left Ventricular Outflow Tract | 左心室流出道 |
+| LAMPOON | Laceration of the Anterior Mitral leaflet to Prevent Outflow Obstruction | 前二尖瓣葉撕裂以預防流出道阻塞 |
+| PVL | Paravalvular Leak | 人工瓣膜旁漏 |
+| HALT | Hypoattenuated Leaflet Thickening | 低衰減瓣葉增厚 |
+| LVEF | Left Ventricular Ejection Fraction | 左心室射出分率 |
+| LAAC | Left Atrial Appendage Closure | 左心耳封堵 |
+| AMI-CS | Acute Myocardial Infarction–Cardiogenic Shock | 急性心肌梗塞併心因性休克 |
+| GLP-1 / GCGR | Glucagon-Like Peptide-1 / Glucagon Receptor | 升糖素類似胜肽-1／升糖素受體 |
+| ANGPTL4 | Angiopoietin-Like Protein 4 | 血管生成素樣蛋白 4 |
+| AKI | Acute Kidney Injury | 急性腎損傷 |
+
+---
+
+## 9. 參考文獻
+
+### NEJM（AHA 2026 Late-Breakers）
+1. Cho L, Nissen SE, et al. Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a) (Lp[a]HORIZON). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2610159)（PMID 43001734）
+2. Ridker PM, et al. Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease (ZEUS). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612126)（PMID 43001751）
+3. Santo K, et al. Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes (OPTIMAL-DIABETES). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612922)（PMID 43001746）
+4. Sampaio Silva G, et al. Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke (OPTIMAL-STROKE). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612924)（PMID 43001741）
+5. Qian Z, et al. Left Bundle-Branch Pacing versus Right Ventricular Pacing for Atrioventricular Block (OptimPacing). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612972)（PMID 43001763）
+6. Omerovic E, et al. Prasugrel versus Ticagrelor in Acute Coronary Syndromes (SWITCH-SWEDEHEART). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2609057)（PMID 42670968）
+7. O'Donoghue ML, et al. ANGPTL4 Inhibition in Adults with Elevated Triglyceride Levels (TYDAL-TIMI 78). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2612463)（PMID 43002172）
+8. Rodondi N, et al. Discontinuing Statins in Older Adults without Cardiovascular Disease (STREAM). [*N Engl J Med*. 2026.](https://doi.org/10.1056/NEJMoa2606634)（PMID 43001742）
+
+### Lancet
+9. Motovska Z, et al. Cangrelor versus crushed ticagrelor in AMI complicated by cardiogenic shock (DAPT-SHOCK-AMI). [*Lancet*. 2026.](https://doi.org/10.1016/S0140-6736(26)00976-1)（PMID 42998670）
+10. Bozkurt B, et al. Cardiovascular outcomes with survodutide in adults with obesity at increased cardiovascular risk (SYNCHRONIZE-CVOT). [*Lancet*. 2026.](https://doi.org/10.1016/S0140-6736(26)02140-9)（PMID 43003106）
+
+### European Heart Journal
+11. Ohle R, et al. Acute aortic syndrome rule-out criteria: development and external validation (ARC). [*Eur Heart J*. 2026.](https://doi.org/10.1093/eurheartj/ehag875)（PMID 43006790）
+12. de Castro D, et al. Incremental yield of genetic retesting in hypertrophic cardiomyopathy. [*Eur Heart J*. 2026.](https://doi.org/10.1093/eurheartj/ehag825)（PMID 43004584）
+13. Mendieta G, et al. Inflammation and early atherosclerosis beyond traditional risk factors: an imaging study (PESA). [*Eur Heart J*. 2026.](https://doi.org/10.1093/eurheartj/ehag846)（PMID 43004579）
+
+### JACC Family
+14. Left Atrial Appendage Closure or Anticoagulation for Atrial Fibrillation: JACC Evidence Review. [*J Am Coll Cardiol*. 2026.](https://doi.org/10.1016/j.jacc.2026.09.018)（PMID 43018506）
+
+### Circulation Family
+15. Salah HM, et al. Case Volumes and Outcomes of Early-Career Operators Performing TAVR in the United States. [*Circ Cardiovasc Interv*. 2026:e016960.](https://doi.org/10.1161/CIRCINTERVENTIONS.126.016960)（PMID 43012117）
+16. Rogers T, et al. Transcatheter Mitral Cerclage Ventriculoplasty: 5-Year Outcomes. [*Circ Cardiovasc Interv*. 2026:e017202.](https://doi.org/10.1161/CIRCINTERVENTIONS.126.017202)（PMID 43012111）
+17. FRAGILE Investigators. Off-Pump versus On-Pump CABG in Prefrail and Frail Patients (FRAGILE). [*Circulation*. 2026.](https://doi.org/10.1161/CIRCULATIONAHA.125.078842)（PMID 43006184）
+
+### TAVI / TEER（期刊外補充）
+18. Buske M, Feistritzer HJ, et al. Underweight and obesity as outcome predictors after TAVI: insights from DOUBLE-CHOICE. [*Clin Res Cardiol*. 2026.](https://doi.org/10.1007/s00392-026-03042-x)（PMID 43018714）
+19. Feng D, et al. Prosthetic Valve Deformation and Hemodynamic Performance: Bicuspid versus Tricuspid Anatomy After TAVR. [*J Am Heart Assoc*. 2026:e049690.](https://doi.org/10.1161/JAHA.126.049690)（PMID 43018038）
+20. Stolz L, et al. Effects of Transcatheter Tricuspid Edge-to-Edge Repair on Right Heart Dimension and Function (EuroTR). [*J Am Heart Assoc*. 2026:e048944.](https://doi.org/10.1161/JAHA.125.048944)（PMID 43018056）
+21. Hahn RT, et al. Tricuspid TEER versus transcatheter tricuspid valve replacement — what are the key issues? [*Curr Opin Cardiol*. 2026.](https://doi.org/10.1097/HCO.0000000000001359)（PMID 42989943）
+
+### Case Reports
+22. Ozdemir D, et al. TMVR in an Incomplete Ring With LAMPOON Facilitated By Aortic Prosthesis. [*JACC Case Rep*. 2026:111216.](https://doi.org/10.1016/j.jaccas.2026.111216)（PMID 43023947）
+23. Hamada Y, Kawamura T, et al. Concomitant Wire-Loop Repositioning and Transapical Valve Replacement for a Migrated Sutureless Aortic Valve. [*JACC Case Rep*. 2026:111211.](https://doi.org/10.1016/j.jaccas.2026.111211)（PMID 43023942）
+24. Chin EYH, et al. LBB-Optimized Resynchronization Therapy for Persistent Ventricular Dysfunction After Complex PCI and TAVR. [*JACC Case Rep*. 2026:111159.](https://doi.org/10.1016/j.jaccas.2026.111159)（PMID 43023951）
+25. Iwata R, et al. Longitudinal Deployment Balloon Rupture With Uncomplicated Retrieval During TAVR. [*Catheter Cardiovasc Interv*. 2026.](https://doi.org/10.1002/ccd.71020)（PMID 43016117）
+26. Del Castillo DV, Wang Y. Staged Transcatheter Valve-in-Valve Replacement for Simultaneous Failure of 3 Surgical Bioprosthetic Valves. [*JACC Case Rep*. 2026;31(45):110544.](https://doi.org/10.1016/j.jaccas.2026.110544)（PMID 43018208）
+
+### 補充（外部報導 — 試驗結果交叉驗證）
+27. TCTMD. Lp(a)HORIZON: Top-line Results Dash Hopes for Pelacarsen. 2026. https://www.tctmd.com/
+28. Healio / ACC.org. ZEUS at AHA 2026: Ziltivekimab cuts inflammation but not CV events. 2026. https://www.acc.org/
+
+---
+
+> **免責聲明**：本講義為讀書會共筆之教學整理，由 **謝慕揚 MD, PhD, FESC** 整理，僅供醫療專業人員教學與學術討論參考，不構成個別臨床決策建議。所有試驗數據以原始文獻為準；用藥與處置請依最新仿單與臨床指引，並結合個別病人情況判斷。
