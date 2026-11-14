@@ -1,0 +1,1413 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>頸動脈支架 Step-by-Step</title>
+<style>
+/* === FONTS（本機檔，離線可用） === */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400 800;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  src: url(assets/fonts/Archivo-400_800.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/JetBrainsMono-400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/JetBrainsMono-600.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* ============================================================
+   TSVS 2026 — 第二版投影片共用樣式
+   舞台固定 1280×720（16:9），整體等比縮放到視窗。
+   字級依講者規範：內文 28px、標題 40px、表格 27px、
+   卡片標題 34px、大數字 45px、標籤 18px、註解 17px、頁尾 15px。
+   ============================================================ */
+
+/* === TOKENS === */
+:root {
+  --bg: #0a0d12;
+  --bg2: #0f141b;
+  --panel: #131a23;
+  --panel2: #18212c;
+  --line: rgba(255, 255, 255, 0.09);
+  --line2: rgba(255, 255, 255, 0.16);
+  --ink: #eef2f6;
+  --ink2: #c9d2dc;
+  --muted: #8d9aa8;
+  --mint: #6fd6bf;          /* 基礎 Basic */
+  --alert: #ff6b5e;         /* 警示 */
+  --accent: #e0607e;        /* 由各份投影片覆寫 */
+  --accent-soft: rgba(224, 96, 126, 0.14);
+  --accent-line: rgba(224, 96, 126, 0.45);
+  --sans: "Archivo", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+  --mono: "JetBrains Mono", "Menlo", "Consolas", "PingFang TC", "Microsoft JhengHei", monospace;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+}
+
+/* === BASE / VIEWPORT === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 100%; height: 100%;
+  background: #05070a;
+  overflow: hidden;
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+#viewport {
+  position: fixed; inset: 0;
+  display: grid; place-items: center;
+  overflow: hidden;
+}
+#stage {
+  position: relative;
+  width: 1280px; height: 720px;
+  flex: none;
+  transform-origin: center center;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+/* === ATMOSPHERE：網格與光暈 === */
+#stage::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 90% 80% at 70% 0%, #000 0%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 80% at 70% 0%, #000 0%, transparent 75%);
+  opacity: .55;
+}
+.glow {
+  position: absolute; z-index: 0; pointer-events: none;
+  width: 760px; height: 760px; border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-soft) 0%, transparent 65%);
+  top: -380px; right: -220px;
+  filter: blur(10px);
+}
+
+/* === SLIDES === */
+.slide {
+  position: absolute; inset: 0; z-index: 1;
+  padding: 34px 52px 40px;
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  visibility: hidden; opacity: 0;
+}
+.slide.active { visibility: visible; opacity: 1; z-index: 2; }
+.slide.leaving { visibility: visible; z-index: 1; }
+
+/* === HEADER === */
+.hd { position: relative; flex: none; margin-bottom: 18px; padding-right: 230px; }
+.kicker {
+  font-family: var(--mono); font-size: 18px; font-weight: 600;
+  letter-spacing: .08em; color: var(--accent);
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 6px;
+}
+.kicker::before { content: ""; width: 22px; height: 2px; background: var(--accent); }
+h1 {
+  font-size: 40px; line-height: 1.18; font-weight: 700;
+  font-stretch: 106%; letter-spacing: -.005em;
+}
+.sub {
+  margin-top: 6px; font-size: 19px; color: var(--muted);
+  font-stretch: 100%; line-height: 1.35;
+}
+.tags { position: absolute; top: 2px; right: 0; display: flex; gap: 8px; }
+.tag {
+  font-family: var(--mono); font-size: 17px; font-weight: 600;
+  padding: 4px 12px; border-radius: 999px; white-space: nowrap;
+  border: 1.5px solid var(--line2); color: var(--ink2);
+}
+.tag.basic { color: var(--mint); border-color: rgba(111, 214, 191, .5); }
+.tag.adv { color: #0a0d12; background: var(--accent); border-color: var(--accent); }
+.tag.skip { border-style: dashed; color: var(--muted); }
+
+/* === LAYOUT HELPERS === */
+.body { flex: 1; min-height: 0; display: flex; gap: 26px; position: relative; }
+.body:not(.col) { align-items: center; }
+.body.col { justify-content: center; }
+.body.top { align-items: flex-start; justify-content: flex-start; }
+.col { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.grow { flex: 1; }
+.row { display: flex; gap: 18px; }
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.g3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.g4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.center { align-items: center; justify-content: center; }
+
+/* === TEXT BLOCKS === */
+.lbl {
+  font-family: var(--mono); font-size: 18px; font-weight: 600;
+  letter-spacing: .06em; color: var(--accent);
+  text-transform: uppercase;
+}
+.pts { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.pts li {
+  position: relative; padding-left: 24px;
+  font-size: 28px; line-height: 1.32; color: var(--ink);
+}
+.pts li::before {
+  content: ""; position: absolute; left: 0; top: .52em;
+  width: 10px; height: 10px; border-radius: 2px;
+  background: var(--accent); transform: rotate(45deg);
+}
+.pts li b, .em { color: var(--accent); font-weight: 700; }
+.pts.tight { gap: 8px; }
+p.txt { font-size: 28px; line-height: 1.4; }
+.small { font-size: 22px !important; }
+.muted { color: var(--muted); }
+.mint { color: var(--mint); }
+.alert { color: var(--alert); }
+
+/* === CARDS === */
+.card {
+  background: linear-gradient(180deg, var(--panel2), var(--panel));
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 22px;
+  display: flex; flex-direction: column; gap: 10px;
+  min-width: 0;
+}
+.card h3 {
+  font-size: 34px; line-height: 1.15; font-weight: 700; font-stretch: 104%;
+  display: flex; align-items: baseline; gap: 12px;
+}
+.card h3 .n {
+  font-family: var(--mono); font-size: 18px; color: var(--accent);
+  border: 1.5px solid var(--accent-line); border-radius: 6px;
+  padding: 1px 7px; transform: translateY(-4px);
+}
+.card.hl { border-color: var(--accent-line); box-shadow: inset 0 0 0 1px var(--accent-soft); }
+.card.warn { border-color: rgba(255, 107, 94, .45); }
+.card.warn h3, .card.warn .lbl { color: var(--alert); }
+.card .meta { font-family: var(--mono); font-size: 17px; color: var(--muted); margin-top: auto; }
+
+/* === CALLOUT === */
+.callout {
+  flex: none;
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(90deg, var(--accent-soft), transparent 85%);
+  padding: 12px 20px; border-radius: 0 12px 12px 0;
+  font-size: 28px; line-height: 1.35;
+}
+.callout.warn { border-color: var(--alert); background: linear-gradient(90deg, rgba(255,107,94,.13), transparent 85%); }
+
+/* === VIDEO / IMAGE TILES === */
+.vid { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.vid .frame {
+  position: relative; border-radius: 12px; overflow: hidden;
+  background: #000; border: 1px solid var(--line2);
+  cursor: zoom-in;
+}
+.vid video, .vid img { display: block; width: 100%; height: 100%; object-fit: contain; background: #000; }
+.vid .frame::after {
+  content: attr(data-idx);
+  position: absolute; top: 8px; left: 8px;
+  font-family: var(--mono); font-size: 15px; font-weight: 600;
+  color: #fff; background: rgba(0,0,0,.55); padding: 1px 7px; border-radius: 5px;
+}
+.vid .frame[data-idx=""]::after { display: none; }
+.vid figcaption { font-size: 19px; line-height: 1.3; color: var(--ink2); }
+.plate { background: #fff; border-radius: 12px; padding: 10px; overflow: hidden; }
+.plate img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.cap { font-size: 19px; color: var(--ink2); line-height: 1.3; }
+
+/* 影片放大檢視 */
+#zoom {
+  position: absolute; inset: 0; z-index: 50;
+  background: rgba(5, 7, 10, .92);
+  display: none; align-items: center; justify-content: center;
+  cursor: zoom-out;
+}
+#zoom.on { display: flex; }
+#zoom video, #zoom img { max-width: 92%; max-height: 92%; border-radius: 10px; background: #000; }
+
+/* === TABLE === */
+table.t { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 27px; line-height: 1.3; }
+.t th {
+  font-family: var(--sans); font-weight: 700; text-align: left;
+  font-size: 22px; letter-spacing: .02em;
+  color: var(--accent); padding: 8px 14px;
+  border-bottom: 2px solid var(--accent-line);
+}
+.t td { padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--ink); }
+.t td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.t tr:nth-child(even) td { background: rgba(255,255,255,.025); }
+.t td.who { font-family: var(--mono); font-size: 20px; color: var(--muted); white-space: nowrap; }
+
+/* === STATS === */
+.stat { display: flex; flex-direction: column; gap: 2px; }
+.stat .num { white-space: nowrap;
+
+  font-size: 45px; font-weight: 800; font-stretch: 112%;
+  color: var(--accent); line-height: 1.05; font-variant-numeric: tabular-nums;
+}
+.stat .what { font-size: 19px; color: var(--ink2); line-height: 1.3; }
+
+/* === STEPS（序號列） === */
+.steps { display: flex; flex-direction: column; gap: 14px; }
+.step { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: start; }
+.step .k {
+  width: 56px; height: 56px; border-radius: 14px;
+  display: grid; place-items: center;
+  font-family: var(--mono); font-size: 26px; font-weight: 600;
+  color: var(--accent); border: 1.5px solid var(--accent-line); background: var(--accent-soft);
+}
+.step .v { font-size: 28px; line-height: 1.3; }
+.step .v small { display: block; font-size: 22px; color: var(--muted); margin-top: 2px; }
+
+/* === REFERENCES / FOOTER === */
+.ref {
+  flex: none; margin-top: 12px;
+  font-size: 15px; line-height: 1.4; color: var(--muted);
+}
+.reflist { font-size: 15.5px; line-height: 1.45; color: var(--ink2); columns: 2; column-gap: 34px; }
+.reflist li { margin-bottom: 7px; break-inside: avoid; list-style: none; }
+.reflist a { color: var(--ink2); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+#stage.is-cover #chrome { display: none; }
+#chrome {
+  position: absolute; left: 52px; right: 52px; bottom: 12px; z-index: 20;
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--mono); font-size: 15px; color: var(--muted);
+  pointer-events: none;
+}
+#chrome .pg b { color: var(--ink); }
+#bar { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--accent); z-index: 21; width: 0; }
+#mode {
+  position: absolute; top: 10px; left: 50%; transform: translateX(-50%); z-index: 30;
+  font-family: var(--mono); font-size: 15px; padding: 3px 12px; border-radius: 999px;
+  background: var(--accent); color: #0a0d12; display: none;
+}
+#mode.on { display: block; }
+
+/* === NOTES 講者備忘 === */
+.notes { display: none; }
+#notes {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 40;
+  max-height: 46%; overflow: auto;
+  background: rgba(10, 13, 18, .96); border-top: 2px solid var(--accent);
+  padding: 16px 52px 30px; font-size: 20px; line-height: 1.5; color: var(--ink2);
+  display: none; white-space: pre-line;
+}
+#notes.on { display: block; }
+
+/* === TITLE / CHAPTER / END === */
+.slide.cover { padding: 0; }
+.cover .inner { position: relative; z-index: 2; padding: 70px 64px 0; height: 100%; display: flex; flex-direction: column; }
+.cover .eyebrow { font-family: var(--mono); font-size: 18px; letter-spacing: .14em; color: var(--accent); }
+.cover .title {
+  font-size: 66px; line-height: 1.04; font-weight: 800; font-stretch: 118%;
+  letter-spacing: -.015em; margin-top: 18px; max-width: 900px;
+}
+.cover .title .thin { font-weight: 400; color: var(--ink2); }
+.cover .zh { font-size: 28px; line-height: 1.45; color: var(--ink2); margin-top: 22px; max-width: 820px; }
+.cover .who { margin-top: auto; padding-bottom: 46px; display: flex; gap: 40px; align-items: flex-end; }
+.cover .who .name { font-size: 30px; font-weight: 700; }
+.cover .who .name span { font-size: 20px; font-weight: 400; color: var(--muted); margin-left: 8px; }
+.cover .who .aff { font-size: 19px; color: var(--ink2); line-height: 1.5; }
+.cover .disc { font-size: 15px; color: var(--muted); position: absolute; bottom: 18px; left: 64px; }
+.vessel { position: absolute; right: -10px; top: 0; height: 100%; width: 520px; z-index: 1; opacity: .95; }
+.vessel path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+
+.chapter { justify-content: center; padding-left: 96px; }
+.chapter .no {
+  font-size: 200px; font-weight: 800; font-stretch: 125%; line-height: .9;
+  color: transparent; -webkit-text-stroke: 2px var(--accent-line);
+  position: absolute; right: 70px; bottom: 40px;
+}
+.chapter .lbl { margin-bottom: 14px; }
+.chapter h2 { font-size: 58px; font-weight: 800; font-stretch: 112%; line-height: 1.1; }
+.chapter .sub2 { font-size: 28px; color: var(--ink2); margin-top: 16px; max-width: 900px; line-height: 1.4; }
+.chapter .time { font-family: var(--mono); font-size: 18px; color: var(--muted); margin-top: 26px; }
+
+/* === MOTION 前置狀態（Motion 載入失敗時仍可見） === */
+.js-motion .slide:not(.active) .r { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* === 本份投影片主色 === */
+:root { --accent: #e0607e; --accent-soft: rgba(224, 96, 126, 0.14); --accent-line: rgba(224, 96, 126, 0.45); }
+</style>
+</head>
+<body>
+<div id="viewport"><div id="stage">
+<div class="glow"></div>
+<!-- ============ 01 封面 ============ -->
+<section class="slide cover">
+  <svg class="vessel" viewBox="0 0 520 720" aria-hidden="true">
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#26313e" stroke-width="58"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#26313e" stroke-width="40"/>
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#121821" stroke-width="50"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#121821" stroke-width="32"/>
+    <path data-draw d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="var(--accent)" stroke-width="2.5"/>
+    <path data-draw d="M226 226 L250 196 L258 232" stroke="var(--accent)" stroke-width="2.5"/>
+    <path data-draw d="M282 540 L262 470 L248 420 M296 540 L276 470 L262 420 M282 540 L296 520 L278 500 L292 480 L272 460 L284 440 L262 420" stroke="#eef2f6" stroke-opacity=".7" stroke-width="2"/>
+  </svg>
+  <div class="inner">
+    <div class="eyebrow r">TSVS 頸動脈支架臨床訓練課程 · 2026-11-14</div>
+    <div class="title r">Step-by-Step:<br><span class="thin">Stenting Troubleshooting<br>and Medication</span></div>
+    <div class="zh r">頸動脈支架：從一個順利的案例走一遍，再談常見錯誤、difficult arch、嚴重鈣化、filter 與支架選擇</div>
+    <div class="who r">
+      <div>
+        <div class="name">謝慕揚<span>Mu-Yang Hsieh, MD, PhD, FESC</span></div>
+        <div class="aff">新竹臺大分院 心臟血管科 ｜ 集思台中烏日會議中心</div>
+      </div>
+    </div>
+  </div>
+  <div class="disc">影片均為講者病例（另註明者除外）；本課程僅供醫療專業人員教學使用</div>
+  <aside class="notes">30 分鐘版本。20 分鐘版：按 S 鍵，自動略過標示「◇ 20 分鐘版可略」的頁面。
+開場 1 分鐘：今天不講指引、不講 trial，只講台上會發生的事。</aside>
+</section>
+
+<!-- ============ 02 路線圖 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">ROADMAP</div>
+    <h1>今天的路線圖</h1>
+    <div class="sub">案例 → 四個高風險步驟 → 弓與鈣化 → filter 與支架 → 用藥</div>
+    <div class="tags"><span class="tag">基礎 → 進階</span></div>
+  </div>
+  <div class="body col">
+    <div class="g4">
+      <div class="card r"><h3><span class="n">1</span>案例</h3><ul class="pts tight"><li>TFA 到 stent 走一遍</li><li>每步該看什麼</li></ul><div class="meta">約 7 分</div></div>
+      <div class="card r"><h3><span class="n">2</span>常見錯誤</h3><ul class="pts tight"><li>四個高栓塞風險步驟</li></ul><div class="meta">約 7 分</div></div>
+      <div class="card r"><h3><span class="n">3</span>弓與鈣化</h3><ul class="pts tight"><li>JR4 + 3 wires</li><li>何時換路、何時不做</li></ul><div class="meta">約 7 分</div></div>
+      <div class="card r"><h3><span class="n">4</span>Filter 支架</h3><ul class="pts tight"><li>Landing zone</li><li>Cell 設計</li></ul><div class="meta">約 6 分</div></div>
+    </div>
+    <div class="row r" style="align-items:stretch">
+      <div class="card hl grow" style="flex-direction:row;align-items:center;gap:16px"><h3><span class="n">5</span>Medication 用藥</h3><span class="muted" style="font-size:22px">術前／術中／術後 · 約 3 分</span></div>
+      <div class="card" style="gap:6px;justify-content:center">
+        <div style="font-size:19px"><span class="tag basic">基礎</span>&nbsp; 外科入門：先把流程走順</div>
+        <div style="font-size:19px"><span class="tag adv">進階</span>&nbsp; 中階以上：技術還能怎麼長</div>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">路線圖：告訴聽眾今天的結構。外科醫師最在意的是「我上台怎麼不出事」與「工具卡住怎麼辦」，所以案例擺第一、錯誤擺第二。每頁右上角標示適合的程度。</aside>
+</section>
+
+<!-- ============ 03 章節 1 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 1 · 案例</div>
+  <h2 class="r">一個順利的案例，<br>每一步都有確認</h2>
+  <div class="sub2 r">TFA → 診斷 → JR4 → Filter → Stent → 收傘</div>
+  <div class="time r">約 7 分鐘</div>
+  <div class="no">01</div>
+</section>
+
+<!-- ============ 04 Step 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STEP 01</div>
+    <h1>Access 與診斷順序</h1>
+    <div class="sub">Trans-femoral access, ultrasound-guided micro-puncture</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:470px"><div class="frame" data-idx="" style="height:470px"><video src="assets/media/media-3-1.mp4" poster="assets/media/image-3-3.png" muted loop playsinline preload="auto"></video></div></figure>
+    <div class="col grow">
+      <div class="lbl r">這一步該看什麼</div>
+      <ul class="pts">
+        <li class="r">超音波導引 micro-puncture（4 Fr）到 CFA，<b>立刻打 CFA angiography</b>，再換 6 Fr sheath</li>
+        <li class="r">順序：CAG → aortic arch → 雙側 carotid → 顱內 DSA</li>
+        <li class="r">上 arch 前先確認 arch plaque、thrombus、ostium stenosis</li>
+        <li class="r">此病人 stroke IA，術前已有 arch-to-brain CTA</li>
+      </ul>
+    </div>
+  </div>
+  <div class="callout r">穿刺與止血是外科醫師最熟的一段。這段做乾淨，後面才有餘裕。</div>
+  <aside class="notes">案例：2025-06 新竹教學案例（Basic procedures 投影片 s2）。
+強調：每一步都要有「確認」的動作。CFA angio 確認穿刺點、CTA 確認 arch。
+6 Fr 10 cm sheath。</aside>
+</section>
+
+<!-- ============ 05 Step 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STEP 02</div>
+    <h1>Engaging Lt CCA</h1>
+    <div class="sub">LAO 60° separates the arch branches; frontal view depends on experience</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="1" style="height:390px"><video src="assets/media/media-4-1.mp4" poster="assets/media/image-4-3.png" muted loop playsinline preload="auto"></video></div><figcaption>Engaging Lt CCA（LAO 60°）</figcaption></figure>
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="2" style="height:390px"><video src="assets/media/media-4-4.mp4" poster="assets/media/image-4-6.png" muted loop playsinline preload="auto"></video></div><figcaption>Innominate artery angiography</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">原則</div>
+      <ul class="pts">
+        <li class="r"><b>Wire 永遠在 catheter 前面</b></li>
+        <li class="r">LAO 60° 分開弓上三支</li>
+        <li class="r">小角度轉，等 torque 傳到尖端</li>
+        <li class="r">不在弓內反覆進出</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">Caution: wire precedes catheter always.
+Frontal view 很依賴經驗，LAO 60° 可以把 innominate、Lt CCA、Lt subclavian 分開，減少在弓內盲目操作。</aside>
+</section>
+
+<!-- ============ 06 Step 3 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STEP 03</div>
+    <h1>對位與顱內 DSA</h1>
+    <div class="sub">Mandibular angle at the center of the field; intracranial run always in DSA</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="1" style="height:390px"><video src="assets/media/media-5-1.mp4" poster="assets/media/image-5-3.png" muted loop playsinline preload="auto"></video></div><figcaption>Lt CCA–ICA bifurcation</figcaption></figure>
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="2" style="height:390px"><video src="assets/media/media-5-4.mp4" poster="assets/media/image-5-6.png" muted loop playsinline preload="auto"></video></div><figcaption>Intracranial DSA</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">該看什麼</div>
+      <ul class="pts">
+        <li class="r">Mandibular angle 放畫面正中</li>
+        <li class="r">分清 ECA：superior thyroid artery 是第一支</li>
+        <li class="r"><b>顱內一律 DSA</b></li>
+        <li class="r">Ground-glass、ophthalmic flow 方向、ACA / AComm</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">這裡的造影目的：把 CCA 看清楚、區分 ECA 分支。
+顱內 DSA 是術後比對的 baseline，一定要有。</aside>
+</section>
+
+<!-- ============ 07 Step 4 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STEP 04</div>
+    <h1>Guiding catheter 與 Wiring</h1>
+    <div class="sub">JR4 8 Fr guiding catheter + soft Terumo; keep the wire tip simple</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="1" style="height:390px"><video src="assets/media/media-6-1.mp4" poster="assets/media/image-6-3.png" muted loop playsinline preload="auto"></video></div><figcaption>JR4 8 Fr GC ／ soft Terumo</figcaption></figure>
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="2" style="height:390px"><video src="assets/media/media-6-4.mp4" poster="assets/media/image-6-6.png" muted loop playsinline preload="auto"></video></div><figcaption>Wiring the lesion</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">原則</div>
+      <ul class="pts">
+        <li class="r">Wire tip：一個 30–45° 的彎就好</li>
+        <li class="r">Tip-to-bend 看血管直徑</li>
+        <li class="r">JR4 GC 很難扭，硬轉會 kinking</li>
+        <li class="r"><b>GC kink → 支架推不上</b></li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">Wiring 常見問題（2025 s15）：wire tip shaping 越單純越好，不要太花俏。
+影片中的 JR4 guiding catheter 已經很難扭轉，小心扭轉造成 GC kinking，使得支架推送困難。</aside>
+</section>
+
+<!-- ============ 08 Step 5 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STEP 05</div>
+    <h1>Filter → Stent → Post-dilate</h1>
+    <div class="sub">Three actions, a check after each</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g3">
+      <figure class="vid r"><div class="frame" data-idx="1" style="height:365px"><video src="assets/media/media-7-1.mp4" poster="assets/media/image-7-3.png" muted loop playsinline preload="auto"></video></div><figcaption>① Filter deploy 後：立刻造影確認位置</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="2" style="height:365px"><video src="assets/media/media-7-4.mp4" poster="assets/media/image-7-6.png" muted loop playsinline preload="auto"></video></div><figcaption>② Stent：system 拉直再釋放</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="3" style="height:365px"><video src="assets/media/media-7-7.mp4" poster="assets/media/image-7-9.png" muted loop playsinline preload="auto"></video></div><figcaption>③ Post-dilate：快撐快放，先備好 atropine</figcaption></figure>
+    </div>
+    <div class="callout r">Filter 位置 → system 已拉直、沒有 air → bradycardia／hypotension 的準備已到位</div>
+  </div>
+  <aside class="notes">Filter：deploy 完就該照像確認位置。
+Stent：每家釋放機制不同，WallStent 可以 resheath before 85%；deploy 時 system 要拉直，體外不要有 curve。
+Post-dilate：balloon 快速撐起並 deflate，不需要 inflate 過久；optional atropine 0.5 mg IV stat。</aside>
+</section>
+
+<!-- ============ 09 Step 6 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STEP 06</div>
+    <h1>收傘前後</h1>
+    <div class="sub">Re-angiography before filter retrieval; when the retrieval catheter is stuck</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:420px">
+      <div class="row" style="gap:8px">
+        <div class="frame" data-idx="" style="height:330px;width:168px"><img src="assets/media/image-8-1.png" alt="頸部造影"></div>
+        <div class="frame" data-idx="" style="height:330px;width:244px"><img src="assets/media/image-8-2.png" alt="顱內造影"></div>
+      </div>
+      <figcaption>收傘前再次造影：頸部 + 顱內</figcaption>
+    </figure>
+    <figure class="vid r" style="width:280px"><div class="frame" data-idx="" style="height:280px"><video src="assets/media/media-8-3.mp4" poster="assets/media/image-8-5.png" muted loop playsinline preload="auto"></video></div><figcaption>Retrieval catheter 卡在 stent 近端</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">原則</div>
+      <ul class="pts">
+        <li class="r">No-reflow：<b>不收傘，先抽吸</b></li>
+        <li class="r">抽吸：coronary aspiration 或 stroke catheter</li>
+        <li class="r">卡在 stent edge：neck flexion／rotation，或體外壓迫</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">此 case 為 distal protection 再加上 proximal protection（Spider + MoMa）。
+Filter retrieval device 被支架 proximal edge 卡住，只要讓病人 neck flexion／extension／rotation，或是體外 manual compression，就可以通過。</aside>
+</section>
+
+<!-- ============ 10 章節 2 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 2 · 常見錯誤</div>
+  <h2 class="r">錯誤多半發生在<br>這四步</h2>
+  <div class="sub2 r">弓上斑塊、filter、支架定位、post-dilate</div>
+  <div class="time r">約 7 分鐘</div>
+  <div class="no">02</div>
+</section>
+
+<!-- ============ 11 四個高風險步驟 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">HIGH-RISK STEPS</div>
+    <h1>錯誤多半發生在這四步</h1>
+    <div class="sub">Critical steps with the highest risk of distal embolization</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g4">
+      <div class="card r"><h3><span class="n">1</span>Engage</h3><ul class="pts tight"><li>Catheter 在 arch 刮下斑塊</li><li>弓型差、鈣化時更危險</li></ul></div>
+      <div class="card r"><h3><span class="n">2</span>Wiring</h3><ul class="pts tight"><li>Wire 穿過硬斑塊刮出碎屑</li><li>血栓多風險更高</li></ul></div>
+      <div class="card r"><h3><span class="n">3</span>Pre-dilate</h3><ul class="pts tight"><li>斑塊被徑向壓力裂解</li><li>Open-cell 前必做</li></ul></div>
+      <div class="card r"><h3><span class="n">4</span>Post-dilate</h3><ul class="pts tight"><li>殘留斑塊從網孔擠出</li><li>Submaximal</li></ul></div>
+    </div>
+    <div class="callout r">造影、交換器材、收傘同樣會出事：只要工具在動，就有碎屑在動</div>
+    <div class="ref r">整理自 2025 新竹教學投影片「Critical steps during carotid stenting with risk of distal embolization」</div>
+  </div>
+  <aside class="notes">接下來四個錯誤各對應一步：弓上斑塊（engagement）、filter（wiring／landing）、支架定位與釋放、post-dilate 後 no-reflow。
+Post-dilate：submaximal，避免 plaque eruption。</aside>
+</section>
+
+<!-- ============ 12 錯誤 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">錯誤 01</div>
+    <h1>碰下主動脈弓斑塊</h1>
+    <div class="sub">Shaking aortic plaque from catheter manipulation · video courtesy of Dr. Sheng-Fu Liu</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g3">
+      <figure class="vid r"><div class="frame" data-idx="1" style="height:365px"><video src="assets/media/media-10-1.mp4" poster="assets/media/image-10-3.png" muted loop playsinline preload="auto"></video></div><figcaption>GC 反覆操作 → 斑塊在晃</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="2" style="height:365px"><video src="assets/media/media-10-4.mp4" poster="assets/media/image-10-6.png" muted loop playsinline preload="auto"></video></div><figcaption>Aortic plaque embolization</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="3" style="height:365px"><video src="assets/media/media-10-7.mp4" poster="assets/media/image-10-9.png" muted loop playsinline preload="auto"></video></div><figcaption>Lt MCA M1 occlusion（TICI 2）</figcaption></figure>
+    </div>
+    <div class="callout warn r">每次只轉 5–10°，等 torque 傳到尖端；推拉配合，不用蠻力</div>
+  </div>
+  <aside class="notes">劉聖甫醫師提供影片（subclavian stent restenosis 案例），catheter 已多次進出 aortic arch。用這組影像說明：主動脈上的斑塊是可以碰下來的。
+手勢重點（2025 s30）：1. 耐心等待 torque transmission；2. 精細轉動 5–10°，推拉配合；3. 感受回饋，任何異常阻力都停下重新評估；4. 配合呼吸與心跳。
+後續以 Penumbra 抽吸處理。</aside>
+</section>
+
+<!-- ============ 13 錯誤 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">錯誤 02</div>
+    <h1>Filter 放了，但沒確認</h1>
+    <div class="sub">Filter placement pitfalls</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:430px"><div class="frame" data-idx="" style="height:430px"><video src="assets/media/media-11-1.mp4" poster="assets/media/image-11-3.png" muted loop playsinline preload="auto"></video></div><figcaption>發現 filter 位置不好時，支架已經就位</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">Filter 置放常見問題</div>
+      <ul class="pts">
+        <li class="r">走不過 tight stenosis → 換 Spider（用自己的 wire）</li>
+        <li class="r">真的 good wall contact 嗎？<b>Deploy 完就照像</b></li>
+        <li class="r">推送阻力大：先在透視下找阻力點，再拉緊 wire 或扭 GC／sheath</li>
+        <li class="r">Spider 推不上 → wire 換 V18（0.018″）</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">2025 s16 原文。重點是「確認」這個動作：filter deploy 完就造影，不要等支架上去才發現。</aside>
+</section>
+
+<!-- ============ 14 錯誤 3 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">錯誤 03</div>
+    <h1>支架定位與釋放</h1>
+    <div class="sub">Geographic miss, air, and the point of no return</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:400px"><div class="frame" data-idx="" style="height:400px"><video src="assets/media/media-12-1.mp4" poster="assets/media/image-12-3.png" muted loop playsinline preload="auto"></video></div></figure>
+    <div class="col grow" style="gap:16px">
+      <div class="card r"><div class="lbl">定位</div><ul class="pts tight"><li>病人頭一轉，位置就變 → 放尺協助定位</li><li>不能造影 = 倒吸 air → 5-way 持續 N/S flush</li></ul></div>
+      <div class="card r"><div class="lbl">釋放</div><ul class="pts tight"><li>WallStent 在 85% 前可 resheath</li><li>System 拉直，體外不要有 curve</li></ul></div>
+    </div>
+  </div>
+  <aside class="notes">2025 s17–s18 原文。
+Geographic miss：病人頭轉了、位置就變了，放尺協助定位。
+不能造影常是倒吸 air（stent profile 比 lumen 大）。進支架時在 Tuohy-Borst adapter 同時以 N/S 從 5-way 沖水，聽聲音，確保沒有 air 進 GC／sheath。
+Point of no return 每家不同。Re-constrainability = re-sheath = 可重新收回到外鞘中的能力。Deploy 時 system 若有 curve，支架會彈跳。</aside>
+</section>
+
+<!-- ============ 15 錯誤 4 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">錯誤 04</div>
+    <h1>Post-dilate 之後：No-reflow</h1>
+    <div class="sub">66 y/o man, vulnerable plaque; profound Lt arm weakness during no-reflow, recovered</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g3">
+      <figure class="vid r"><div class="frame" data-idx="1" style="height:365px"><video src="assets/media/media-13-1.mp4" poster="assets/media/image-13-3.png" muted loop playsinline preload="auto"></video></div><figcaption>No-reflow：atropine 0.5 mg IV</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="2" style="height:365px"><video src="assets/media/media-13-4.mp4" poster="assets/media/image-13-6.png" muted loop playsinline preload="auto"></video></div><figcaption>Thrombo-suction（no yield）</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="3" style="height:365px"><video src="assets/media/media-13-7.mp4" poster="assets/media/image-13-9.png" muted loop playsinline preload="auto"></video></div><figcaption>血流恢復；Lt arm power 0 → 恢復</figcaption></figure>
+    </div>
+    <div class="callout warn r">先備好 atropine 與升壓藥；no-reflow 時不收傘、立刻抽吸，再看顱內 DSA</div>
+  </div>
+  <aside class="notes">2024-04 教學／2025 隱藏頁案例：66 歲男性，63 歲首次中風，高血壓、活躍吸菸。
+Pre-med aspirin 100／clopidogrel 75／atorvastatin 20 ×14 天，6 Fr 90 cm shuttle sheath，FilterWire。
+No-reflow 時 atropine 0.5 mg IV，thrombosuction 無抽出物，Lt arm 肌力 0，之後逐漸恢復。
+Can I do better next time? 這是 vulnerable plaque 的典型：考慮 proximal protection／雙重保護。
+用藥：atropine 風險 delirium、urine retention；NTG 100–400 µg IA for spasm；hypotension：hydration + norepinephrine。</aside>
+</section>
+
+<!-- ============ 16 查核表 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">CHECKLIST</div>
+    <h1>新竹工作查核表</h1>
+    <div class="sub">把「確認」交給制度，不交給記憶</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th>項目</th><th>內容</th><th>誰確認</th></tr>
+      <tr><td>術前藥物</td><td>Aspirin + Clopidogrel + Statin 缺一不可</td><td class="who">病房 NP</td></tr>
+      <tr><td>器材</td><td>前一天確認 shuttle sheath／EPD／stent</td><td class="who">導管室書記</td></tr>
+      <tr><td>NS 與 Neuro</td><td>治療前 1 小時確認神外有人值班</td><td class="who">病房 NP</td></tr>
+      <tr><td>血壓</td><td>Perdipine 或 Levophed；SBP 140–160</td><td class="who">1st assistant</td></tr>
+      <tr><td>Heparin</td><td>3000 U → ACT 250–300，每 30 分 recheck</td><td class="who">Pruka 人員</td></tr>
+      <tr><td>保護裝置</td><td>單套或雙套？雙側同時只能 filter</td><td class="who">術者</td></tr>
+      <tr><td>支架前後</td><td>Flush；atropine 0.5 mg；暫停／回開 Perdipine</td><td class="who">1st assistant</td></tr>
+      <tr><td>神經學</td><td>術中每 15 分鐘看表情與瞳孔</td><td class="who">Pruka 人員</td></tr>
+    </table>
+    <div class="ref r">完整 14 項查核表見講者備忘（按 N）</div>
+  </div>
+  <aside class="notes">完整查核表（2025 s32）：
+1 術前溝通：所有家屬一起聽說明，手術當天到場。
+2 術前藥物：Plavix、Bokey、Lipitor 缺一不可（急性中風不限）。
+3 器材：前一天確認 shuttle sheath、EPD、stent。
+4 通知 NS 與 Neuro：治療前一小時確認 NS 值班。
+5 文件：手術同意書、ICU 同意書。
+6 CCU／ICU 床位：做完一定去 ICU；是否洗腎？
+7 血壓：Perdipine 4 amp 或 Levophed，術中 SBP 140–160。
+8 抗凝：heparin 3000 U，5 分後 recheck，ACT 250–300 每 30 分。
+9 保護裝置：單套或雙套？雙側同時只能 filter；狹窄＋血塊或正在中風中考慮雙套。
+10 支架置放前：saline flush。
+11 支架進入中：atropine 0.5 mg，暫停 Perdipine。
+12 支架置放後：回開 Perdipine。
+13 神經學：每 15 分鐘表情與瞳孔。
+14 術後血壓：N/S 500 + Levophed 治低血壓；Perdipine 治高血壓。血壓過高 + heparin → ICH；太低 → stent thrombosis。</aside>
+</section>
+
+<!-- ============ 17 章節 3 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 3 · 弓與鈣化</div>
+  <h2 class="r">工具怎麼往上送，<br>何時換路、何時不做</h2>
+  <div class="sub2 r">弓型 → JR4 + 3 wires → 三招 → TFA／TRA／TCAR → 鈣化</div>
+  <div class="time r">約 7 分鐘</div>
+  <div class="no">03</div>
+</section>
+
+<!-- ============ 18 弓型 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">ARCH ANATOMY</div>
+    <h1>先看弓型：Type I／II／III 與 Bovine</h1>
+    <div class="sub">Pre-procedural CTA of the whole arch, before the first catheter</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:640px">
+      <div class="plate r" style="height:242px"><img src="assets/media/image-15-1.png" alt="弓型示意圖"></div>
+      <div class="plate r" style="height:242px"><img src="assets/media/image-15-2.png" alt="弓型血管攝影"></div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">以 CCA 直徑為尺</div>
+      <ul class="pts tight">
+        <li class="r">Type I：起點在弓頂</li>
+        <li class="r">Type II：低 1–2 個 CCA 直徑</li>
+        <li class="r">Type III：低 &gt; 2 個，CCA 幾乎垂直</li>
+      </ul>
+      <div class="plate r" style="height:150px;margin-top:auto"><img src="assets/media/image-15-3.png" alt="Bovine arch"></div>
+      <div class="cap r">Bovine arch（10–22%）：左 CCA 起自無名動脈</div>
+    </div>
+  </div>
+  <aside class="notes">圖：2025 新竹投影片 Aortic arch anatomy；變異圖取自方修御醫師 2024 課程（neuroangio.org）。
+術前 CTA 全弓重建，量 CCA 起始角度與 ICA 走行，先決定入路與導管，而不是上台才發現。</aside>
+</section>
+
+<!-- ============ 19 JR4 + 3 wires ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">DIFFICULT ARCH</div>
+    <h1>工具怎麼往上送：JR4 + 3 wires</h1>
+    <div class="sub">Getting an 8 Fr guiding catheter into the CCA</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:450px"><div class="frame" data-idx="" style="height:450px"><video src="assets/media/media-16-1.mp4" poster="assets/media/image-16-3.png" muted loop playsinline preload="auto"></video></div></figure>
+    <div class="col grow" style="gap:18px">
+      <div class="steps">
+        <div class="step r"><div class="k">1</div><div class="v">Soft GlideWire 0.035<small>先找到 CCA，建立路徑</small></div></div>
+        <div class="step r"><div class="k">2</div><div class="v">Stiff GlideWire 0.035<small>換硬絲，給 JR4 支撐往上走</small></div></div>
+        <div class="step r"><div class="k">3</div><div class="v">V18 200 cm 0.018<small>最後用 V18 把 GC 送到位、穩住</small></div></div>
+      </div>
+      <div class="callout r">只推不夠：要持續給旋轉力，手不能放</div>
+    </div>
+  </div>
+  <aside class="notes">2025 s14 原文：1st wire soft GlideWire 0.035；2nd stiff GlideWire 0.035；3rd V18 200 cm 0.018；GC JR4 8 Fr。
+Pushing alone is NOT enough, needs to be assisted with constant rotational force (not let go)。
+對外科醫師：TCAR 以外，經股動脈把 sheath 送上去，靠的就是這個手感。</aside>
+</section>
+
+<!-- ============ 20 三招 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">TECHNIQUES</div>
+    <h1>三招：Direct／Double／Anchoring</h1>
+    <div class="sub">From Dr. Hsiu-Yu Fang, 2024 TSCI carotid stenting course</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag adv">進階</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:300px">
+      <div class="plate r" style="height:260px"><img src="assets/media/image-17-1.png" alt="右橈入路 wire 走向"></div>
+      <div class="cap r">① 無名動脈 ② 右冠竇 ③ 左 CCA；右橈入路時 wire 的走向</div>
+    </div>
+    <div class="col grow" style="gap:12px">
+      <div class="card r"><h3>Direct</h3><p class="txt">硬頭 wire 頂住主動脈壁當反作用力，tip 對準 CCA 開口</p></div>
+      <div class="card r"><h3>Double wire</h3><p class="txt">第 1 根佔住 CCA；第 2 根加硬絲（Amplatz extra-stiff）給支撐</p></div>
+      <div class="card r"><h3>Anchoring</h3><p class="txt">球囊 1–2 atm 錨定遠端 CCA／ECA，再順軌送長鞘</p></div>
+    </div>
+  </div>
+  <aside class="notes">方修御醫師 2024（高雄長庚）。
+Double wire 第二根不可用普通軟絲，否則支撐有限。
+Anchoring 時若以 ECA 錨定，確認 ECA 無嚴重鈣化或狹窄；球囊低壓，避免 CCA 夾層。
+Type III 弓：加硬導絲 + 長鞘（到升主動脈），或直接考慮非股動脈入路。</aside>
+</section>
+
+<!-- ============ 21 換路 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">ACCESS</div>
+    <h1>換路，不硬上：TFA／TRA／TCAR</h1>
+    <div class="sub">Choose the access by arch anatomy</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th>入路</th><th>優點</th><th>代價</th><th>適合</th></tr>
+      <tr><td>TFA 經股</td><td>最熟、空間大</td><td>要過 arch</td><td>弓型正常</td></tr>
+      <tr><td>TRA 經橈</td><td>不經弓頂；右 ICA 最順</td><td>學習曲線；大器材受限</td><td>Type III／Bovine</td></tr>
+      <tr><td>TCAR 經頸</td><td>完全不碰 arch</td><td>頸部切口；需設備</td><td>Type III + 鈣化</td></tr>
+    </table>
+    <div class="callout r">CIRSE 2024：Type III arch 合併嚴重鈣化，列為 transfemoral CAS 禁忌</div>
+    <div class="ref r">Spiliopoulos S, et al. Cardiovasc Intervent Radiol 2024;47:705-716.</div>
+  </div>
+  <aside class="notes">表格完整版：
+TFA：最熟、空間大、保護裝置齊全；代價是要過 arch，弓型差就是栓塞風險；適合弓型正常、沒有嚴重 PAD。
+TRA：不經弓頂，右側 ICA 最順；學習曲線、6% 改回 TFA、大器材受限；適合 Type III／Bovine、肥胖、高出血風險。
+TCAR：完全不碰 arch、flow reversal；頸部切口、需訓練與設備；適合 Type III + 鈣化、TFA／TRA 失敗。
+CIRSE 2024：Type III arch 合併嚴重鈣化 → 改 TR-CAS、TB-CAS 或 TCAR。</aside>
+</section>
+
+<!-- ============ 22 TR-CAS 數字 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">ACCESS · TRA</div>
+    <h1>經橈動脈 CAS 的數字</h1>
+    <div class="sub">Transradial CAS, pooled analysis</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col" style="gap:24px">
+    <div class="g3">
+      <div class="card r stat"><div class="num" data-count="95" data-suf="%">95%</div><div class="what">TR-CAS 手術成功率</div></div>
+      <div class="card r stat"><div class="num" data-count="2" data-suf="%">2%</div><div class="what">30 天腦血管事件</div></div>
+      <div class="card r stat"><div class="num" data-count="6" data-suf="%">6%</div><div class="what">改回股動脈入路</div></div>
+    </div>
+    <ul class="pts">
+      <li class="r">右 ICA 走右橈最直接</li>
+      <li class="r">左 ICA 走右橈要多 10–15 cm：備 ≥ 125 cm 長鞘</li>
+      <li class="r">常規 verapamil + NTG 防痙攣</li>
+    </ul>
+    <div class="ref r">Batista S, et al. Neuroradiol J 2024;37:546-555.  Batista S, et al. Interv Neuroradiol 2023.</div>
+  </div>
+  <aside class="notes">TR-CAS pooled analysis（Batista 2024）：成功 95%（92–98），crossover 6%，橈動脈無症狀閉塞 2%，前臂血腫 1%，30 天 CVA 2%。
+TRA vs TFA meta-analysis（Batista 2023, n=7,513）：成功率、併發症、住院天數無差，但 TRA crossover 較多（OR 10.4）。</aside>
+</section>
+
+<!-- ============ 23 鈣化判讀 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">CALCIFICATION</div>
+    <h1>嚴重鈣化：先判讀，再決定</h1>
+    <div class="sub">Calcification burden on CTA and stroke/death after CAS</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:660px">
+      <div class="g3">
+        <div class="card r stat" style="align-items:center"><svg width="96" height="96" viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" stroke="#26313e" stroke-width="14" fill="none"/><circle data-draw cx="50" cy="50" r="38" stroke="var(--ink2)" stroke-width="14" fill="none" stroke-dasharray="100 239" transform="rotate(-90 50 50)"/></svg><div class="num" style="font-size:34px;color:var(--ink2)">&lt; 50%</div><div class="what">基準</div></div>
+        <div class="card r stat" style="align-items:center"><svg width="96" height="96" viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" stroke="#26313e" stroke-width="14" fill="none"/><circle cx="50" cy="50" r="38" stroke="var(--accent)" stroke-opacity=".7" stroke-width="14" fill="none" stroke-dasharray="180 239" transform="rotate(-90 50 50)"/></svg><div class="num" style="font-size:34px">51–99%</div><div class="what">OR 1.3</div></div>
+        <div class="card r stat hl" style="align-items:center"><svg width="96" height="96" viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" stroke="var(--accent)" stroke-width="14" fill="none"/></svg><div class="num" style="font-size:34px">100%</div><div class="what">環形／突出 OR 1.9</div></div>
+      </div>
+      <div class="cap r">院內 stroke/death 的勝算比（VQI, n = 21,860）</div>
+      <div class="callout r" style="margin-top:6px">環形鈣化：1 年同側 stroke/death 12.4% vs 6.6%</div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">CTA 要量三件事</div>
+      <ul class="pts">
+        <li class="r">鈣化弧度（% 周長）</li>
+        <li class="r">厚度：≥ 2 mm 要警覺</li>
+        <li class="r">長度，有沒有突入管腔</li>
+      </ul>
+      <div class="callout r" style="margin-top:10px">加上 Type III arch → 不走股動脈：CEA、TCAR</div>
+    </div>
+  </div>
+  <div class="ref r">Mota L, et al. J Vasc Surg 2024;79:305-315 (VQI).  Spiliopoulos S, et al. CIRSE 2024.</div>
+  <aside class="notes">VQI 分析（Mota 2023／2024）：51–99% 鈣化 OR 1.3（1.02–1.6）；環形／突出 OR 1.9（1.1–2.9），院內 MI OR 3.5；tfCAS 僅環形／突出與 stroke/death 相關（OR 2.0）；TCAR 51–99% 即相關（OR 1.5）。1 年同側 stroke/death 12.4% vs 6.6%（HR 1.64）。
+單中心 TCAR 資料（AbuRahma 2026, n=313）：鈣化弧度／厚度／長度對 TCAR 早晚期結果無顯著影響。
+Tsutsumi 2010：&gt;75% 環形鈣化 18 例 CAS 全部成功，6 個月再狹窄 5.6%。
+訊息：鈣化本身不是絕對禁忌，但要先量、先想替代方案，而不是上台硬撐。嚴重環形鈣化本來就是 CEA 的強項。IVL 輔助為 off-label。</aside>
+</section>
+
+<!-- ============ 24 鈣化怎麼做 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">CALCIFICATION</div>
+    <h1>嚴重鈣化：怎麼做</h1>
+    <div class="sub">If CAS is still the choice for a calcified lesion</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag adv">進階</span></div>
+  </div>
+  <div class="body col">
+    <div class="g2" style="flex:1">
+      <div class="card r"><h3><span class="n">1</span>保護先想好</h3><ul class="pts tight"><li>斑塊會碎：proximal 或雙重保護</li><li>Filter 落在鈣化段外的直段</li></ul></div>
+      <div class="card r"><h3><span class="n">2</span>Pre-dilatation 必做</h3><ul class="pts tight"><li>小球囊漸進 2.0 → 3.0 → 4.0 mm</li><li>不一次用大球囊硬撐</li></ul></div>
+      <div class="card r"><h3><span class="n">3</span>支架與後擴張</h3><ul class="pts tight"><li>Radial force 高的 laser-cut 支架</li><li>後擴到 nominal，接受殘餘 20–30%</li></ul></div>
+      <div class="card r"><h3><span class="n">4</span>IVL（off-label）</h3><ul class="pts tight"><li>96 例：技術成功 99%</li><li>stroke/TIA 4%；先當備案</li></ul></div>
+    </div>
+    <div class="ref r">Da Silva AMP, et al. Minerva Med 2026;117:88-95.  Mitchell M, et al. Front Neurol 2025;16:1634201.</div>
+  </div>
+  <aside class="notes">Braided WallStent 在鈣化段撐不開。Open-cell stent 前更是必做 pre-dilatation。
+IVL 在頸動脈仍為 off-label，文獻為 case series 與小型 meta-analysis（3 篇 96 例）：技術成功 99%，殘餘狹窄 &lt;30% 91%，再狹窄 3%，TIA 6%，stroke/TIA 4%，MI 2%，死亡 2%。
+支架選擇邏輯：鈣化段需要 radial force，laser-cut closed-cell（Xact）或 open-cell（Protégé）比 braided WallStent 更能撐開；但斑塊保護又希望 cell 小，這時考慮 dual-layer stent（見第 4 段）。
+殘餘狹窄：Tsutsumi 系列接受 ≤30% 殘餘，6 個月再狹窄僅 5.6%。不要為了零殘餘用高壓反覆後擴張。</aside>
+</section>
+
+<!-- ============ 25 章節 4 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 4 · Filter 與支架</div>
+  <h2 class="r">Landing zone、<br>三款 filter、cell 設計</h2>
+  <div class="sub2 r">Closed／Open／Hybrid／Dual-layer</div>
+  <div class="time r">約 6 分鐘</div>
+  <div class="no">04</div>
+</section>
+
+<!-- ============ 26 Landing zone ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">FILTER</div>
+    <h1>Filter 置放：先找 Landing zone</h1>
+    <div class="sub">4–5 cm of straight ICA beyond the lesion</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:520px">
+      <svg class="r" viewBox="0 0 520 260" width="520" height="260" aria-label="Landing zone 示意">
+        <rect x="10" y="90" width="500" height="80" rx="40" fill="#18212c" stroke="#3a4757" stroke-width="2"/>
+        <ellipse cx="95" cy="104" rx="46" ry="14" fill="var(--accent)" opacity=".85"/>
+        <ellipse cx="95" cy="156" rx="46" ry="14" fill="var(--accent)" opacity=".85"/>
+        <line x1="10" y1="130" x2="510" y2="130" stroke="#eef2f6" stroke-width="2"/>
+        <path data-draw d="M300 130 L400 98 L400 162 Z" fill="none" stroke="var(--mint)" stroke-width="3"/>
+        <text x="95" y="70" fill="#c9d2dc" font-size="20" text-anchor="middle">Lesion</text>
+        <text x="350" y="205" fill="var(--mint)" font-size="20" text-anchor="middle">Filter</text>
+        <path d="M141 60 L300 60" stroke="#8d9aa8" stroke-width="1.5" stroke-dasharray="5 5"/>
+        <text x="220" y="50" fill="#c9d2dc" font-size="19" text-anchor="middle">≥ 1.5–2 cm</text>
+        <path d="M141 235 L460 235" stroke="var(--accent)" stroke-width="3"/>
+        <text x="300" y="258" fill="var(--accent)" font-size="19" text-anchor="middle">Landing zone 4–5 cm</text>
+      </svg>
+      <div class="row r" style="align-items:center;gap:14px;margin-top:14px">
+        <div class="plate" style="width:250px;height:80px;padding:4px"><img src="assets/media/image-21-1.jpg" alt="Spider FX"></div>
+        <div class="cap">Spider FX：nitinol weave，貼壁面積大</div>
+      </div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">六個原則</div>
+      <ul class="pts tight">
+        <li class="r">直段：避開 ICA 迂曲、彎折</li>
+        <li class="r">距離：marker 在病灶遠端 ≥ 1.5–2 cm</li>
+        <li class="r">尺寸：依血管直徑</li>
+        <li class="r"><b>Deploy 完立刻造影</b></li>
+        <li class="r">ACT ≥ 275 秒</li>
+        <li class="r">Filter 到位後 wire 不動</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">取自 TSCI 2025 EPD 課程（Spider FX 原廠教材：4–5 cm landing zone = 1.5 cm distance + filter collapse length；marker ≥2.0 cm distal to lesion）與 FilterWire IFU（ACT ≥275 s for carotid）。
+尺寸：Spider 3–7 mm；NAV6 兩種。
+Wire 不要動：filter 到位後固定 wire，所有器材沿 wire 走。</aside>
+</section>
+
+<!-- ============ 27 三款 filter ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">FILTER</div>
+    <h1>三款 Filter：送法不一樣</h1>
+    <div class="sub">FilterWire EZ (Boston Sci) · Spider FX (Medtronic) · Emboshield NAV6 (Abbott)</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th></th><th>FilterWire EZ</th><th>Spider FX</th><th>Emboshield NAV6</th></tr>
+      <tr><td>Wire</td><td>與 filter 一體</td><td>任選 0.014–0.018</td><td>獨立 BareWire</td></tr>
+      <tr><td>送法</td><td>整組一起過</td><td>RX catheter 送入</td><td>三種送法</td></tr>
+      <tr><td>尺寸</td><td>單一（110 µm 孔）</td><td>3–7 mm 五種</td><td>兩種</td></tr>
+      <tr><td>過不去</td><td>Buddy wire、轉頭</td><td>換 wire；或 V18</td><td>Catheter 進 CCA</td></tr>
+    </table>
+    <div class="row r" style="align-items:center;margin-top:4px">
+      <div class="plate" style="width:200px;height:140px;padding:4px"><img src="assets/media/image-22-1.png" alt="FilterWire EZ"></div>
+      <div class="plate" style="width:140px;height:140px;padding:4px"><img src="assets/media/image-22-2.jpg" alt="Spider FX"></div>
+      <div class="cap" style="font-size:20px">講者經驗：2013 第一例 FilterWire EZ；2014 Spider FX（急性中風）；2022 Emboshield NAV6</div>
+    </div>
+  </div>
+  <aside class="notes">TSCI 2025 EPD 課程重點。
+FilterWire：fixed wire，整組一起過 lesion，peel-away sheath；crossing 困難時 try buddy wire 或讓病人頭轉向。
+Spider：唯一可用自選 wire 的 filter，dual-end RX catheter 送入，weave 設計貼壁面積大；過不去可換 V18。
+NAV6：BareWire 可獨立操作，filter 可沿 wire 移動；三種 delivery methods（together／bare wire first／telescope）；過不去時 delivery catheter 進 CCA 增加支撐。</aside>
+</section>
+
+<!-- ============ 28 NAV6 動畫 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">FILTER · ANIMATION</div>
+    <h1>Emboshield NAV6：動畫（1.5 分鐘）</h1>
+    <div class="sub">Abbott animation: XACT stent with NAV6 filter</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:760px"><div class="frame" data-idx="" style="height:475px"><video src="assets/media/media-23-1.mp4" poster="assets/media/image-23-3.png" muted playsinline preload="auto"></video></div></figure>
+    <div class="col grow">
+      <div class="lbl r">看什麼</div>
+      <div class="steps" style="gap:10px">
+        <div class="step r"><div class="k">1</div><div class="v">BareWire 先過</div></div>
+        <div class="step r"><div class="k">2</div><div class="v">沿 wire 到 landing zone</div></div>
+        <div class="step r"><div class="k">3</div><div class="v">展開後 wire 不動</div></div>
+        <div class="step r"><div class="k">4</div><div class="v">支架、後擴沿同一條</div></div>
+        <div class="step r"><div class="k">5</div><div class="v">Retrieval 收傘</div></div>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">原廠動畫（Google Drive 教學素材）。可視時間跳過。點影片可放大並出現播放控制列。</aside>
+</section>
+
+<!-- ============ 29 走不過 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">FILTER · TROUBLESHOOTING</div>
+    <h1>Filter 走不過、推不上</h1>
+    <div class="sub">Tight stenosis: micro-wire, small balloon, then the filter, under proximal protection</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="1" style="height:390px"><video src="assets/media/media-24-1.mp4" poster="assets/media/image-24-3.png" muted loop playsinline preload="auto"></video></div><figcaption>Finecross + UB3 0.014 wire 先過</figcaption></figure>
+    <figure class="vid r" style="width:390px"><div class="frame" data-idx="2" style="height:390px"><video src="assets/media/media-24-4.mp4" poster="assets/media/image-24-6.png" muted loop playsinline preload="auto"></video></div><figcaption>2.0 mm balloon 8 atm → 再送 Spider</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">順序</div>
+      <div class="steps" style="gap:10px">
+        <div class="step r"><div class="k">1</div><div class="v">Micro-catheter + 0.014 wire</div></div>
+        <div class="step r"><div class="k">2</div><div class="v">2.0 mm 小球囊</div></div>
+        <div class="step r"><div class="k">3</div><div class="v">再送 filter<small>MoMa 已在上游擋著</small></div></div>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">2024-04 教學案例（Rt ICA critical stenosis with string sign，thrombus suspected）。
+推不上：找阻力點、拉緊 wire、換 V18。
+沒有 proximal protection 時，先 pre-dilate 再放 filter 等於無保護擴張。所以走不過的 tight lesion，正是雙重保護或 proximal protection 的適應症。</aside>
+</section>
+
+<!-- ============ 30 雙重保護 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">DUAL PROTECTION</div>
+    <h1>雙重保護 MoMa + Spider</h1>
+    <div class="sub">Proximal balloon occlusion + distal filter for thrombus or very tight lesions</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag adv">進階</span></div>
+  </div>
+  <div class="body col" style="gap:14px">
+    <div class="g4">
+      <figure class="vid r"><div class="frame" data-idx="1" style="height:250px"><video src="assets/media/media-25-1.mp4" poster="assets/media/image-25-3.png" muted loop playsinline preload="auto"></video></div><figcaption>MoMa 到位（JR4 5 Fr）</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="2" style="height:250px"><video src="assets/media/media-25-4.mp4" poster="assets/media/image-25-6.png" muted loop playsinline preload="auto"></video></div><figcaption>雙重保護完成</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="3" style="height:250px"><video src="assets/media/media-25-7.mp4" poster="assets/media/image-25-9.png" muted loop playsinline preload="auto"></video></div><figcaption>WallStent 9 × 39 mm</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="4" style="height:250px"><video src="assets/media/media-25-10.mp4" poster="assets/media/image-25-12.png" muted loop playsinline preload="auto"></video></div><figcaption>收傘、放氣、造影</figcaption></figure>
+    </div>
+    <div class="g2">
+      <div class="card r"><div class="lbl">適應症</div><p class="txt">狹窄 + 血塊、中風進行中、極不穩定斑塊</p></div>
+      <div class="card r"><div class="lbl">MoMa 要確認</div><p class="txt">STA 開口低會封不住；先確認對側代償</p></div>
+    </div>
+  </div>
+  <aside class="notes">2019 TCTAP／2024 教學案例（79 歲男性，雙側 ICA + 雙側 VA 病變，分期處理）。
+步驟：MoMa step 1 用 JR4 5 Fr + 260 cm Terumo 到位；step 2 撐起 ECA 與 CCA balloon；Finecross + UB3 wiring；2.0 mm 球囊 pre-dilate；Spider；WallStent 9×39；收傘後 off balloons，等 30 分鐘觀察意識與神經學再造影。
+雙側同時處理時只能用 filter。
+MoMa：ECA balloon 若 superior thyroid artery（STA）開口低會封不住；打對比劑確認 flow suspension。
+證據：Giannopoulos 2022 network meta-analysis（45 篇，n=7,600）：proximal balloon 比 distal filter 少 DWI 新病灶（OR 3.15），但臨床 stroke/TIA 無顯著差異。Layered protection：EPD + dual-layer stent。</aside>
+</section>
+
+<!-- ============ 31 Cell 設計 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STENT</div>
+    <h1>支架選擇：Cell 設計</h1>
+    <div class="sub">Closed-cell · Open-cell · Hybrid · Dual-layer (mesh)</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th>設計</th><th>代表</th><th>長處</th><th>短處</th></tr>
+      <tr><td>Closed</td><td>WallStent、Xact</td><td>斑塊覆蓋好</td><td>順應性差；會拉直血管</td></tr>
+      <tr><td>Open</td><td>Protégé、Acculink</td><td>順應性好</td><td>網孔大；fish-scaling</td></tr>
+      <tr><td>Hybrid</td><td>兩端 open、中段 closed</td><td>送得進、蓋得住</td><td>中段要蓋住病灶</td></tr>
+      <tr><td>Dual-layer</td><td>CGuard、Roadsaver</td><td>微網蓋斑塊</td><td>不是 class effect</td></tr>
+    </table>
+    <div class="callout r">Mesh stent 30 天 D/S/MI 1.30% vs 4.11%</div>
+    <div class="ref r">Mazurek A, et al. J Clin Med 2022;11:4819 (112 studies, n = 68,422)；蔡翰林醫師 2022/2024 TSCI 課程。</div>
+  </div>
+  <aside class="notes">Free cell area：Wallstent 1.08、Xact 2.74、Protégé 10.71、Acculink 11.48 mm²。
+WallStent 可 resheath；但會 foreshortening。
+Mazurek 2022：second-generation（mesh）stents 30 天 death/stroke/MI 1.30% vs 4.11%；Casper／Roadsaver 與 CGuard 皆降低 30 天 DSM，Gore 中性；12 個月 Roadsaver ISR +3.19%，CGuard IS 與 ISR 皆降低。所以 mesh stent 不是 class effect。
+WallStent 的 unconstrained diameter 要比血管大 10–20%，10 mm × 24 mm fully open 置入 8–9 mm 血管後有效長度約 30 mm（reverse foreshortening）。</aside>
+</section>
+
+<!-- ============ 32 支架怎麼選 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">STENT</div>
+    <h1>支架怎麼選：斑塊、血管、弓</h1>
+    <div class="sub">依病灶選，不依品牌選</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag adv">進階</span></div>
+  </div>
+  <div class="body col">
+    <div class="g2" style="flex:1">
+      <div class="card r"><h3><span class="n">1</span>Soft／ulcerated</h3><ul class="pts tight"><li>Closed-cell 或 dual-layer</li><li>加 proximal 或雙重保護</li></ul></div>
+      <div class="card r"><h3><span class="n">2</span>迂曲、角度大</h3><ul class="pts tight"><li>Open-cell 或 hybrid</li><li>WallStent 在 &gt;60° 會拉直血管</li></ul></div>
+      <div class="card r"><h3><span class="n">3</span>嚴重鈣化</h3><ul class="pts tight"><li>Radial force 優先：laser-cut</li><li>殘餘 20–30% 可接受</li></ul></div>
+      <div class="card r"><h3><span class="n">4</span>WallStent 尺寸</h3><ul class="pts tight"><li>Unconstrained 通常 10 mm</li><li>10 × 24 置入約 30 mm 長</li></ul></div>
+    </div>
+    <div class="ref r">整理自蔡翰林醫師 2022/2024 TSCI 課程、Mazurek 2022、Micciche 2023（layered protection）。</div>
+  </div>
+  <aside class="notes">Soft／ulcerated：layered protection = EPD + dual-layer。
+迂曲：filter 要先有直段 landing zone。
+嚴重鈣化：小球囊漸進 pre-dilate。
+WallStent 尺寸三問：要多大？unconstrained 通常 10 mm；要多長？implanted 通常 30 mm；查表：10 × 24 fully open ≈ 30 mm 置入長。
+CGuard 與 Roadsaver 不可互換：輸送系統、尺寸、展開方式、foreshortening 都不同；新術者先熟一款。Hybrid 中段 closed-cell 區段要確認完整覆蓋狹窄。</aside>
+</section>
+
+<!-- ============ 33 章節 5 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 5 · 用藥</div>
+  <h2 class="r">Medication：<br>術前、術中、術後</h2>
+  <div class="sub2 r">最重要的兩個數字：ACT 與 SBP</div>
+  <div class="time r">約 3 分鐘</div>
+  <div class="no">05</div>
+</section>
+
+<!-- ============ 34 用藥 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">MEDICATION</div>
+    <h1>術前、術中、術後</h1>
+    <div class="sub">劑量以各院常規為準</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body" style="flex:0 0 auto;align-items:stretch;margin:auto 0">
+    <div class="card r" style="flex:1"><div class="lbl">術前（≥ 7 天）</div><ul class="pts tight"><li>Aspirin 100 + Clopidogrel 75</li><li>Atorvastatin 40</li><li>當天 reloading</li></ul></div>
+    <div class="card hl r" style="flex:1.15"><div class="lbl">術中</div><ul class="pts tight"><li>Heparin 3000 U，<b>ACT 250–300</b></li><li>Atropine 0.5 mg</li><li><b>SBP 140–160</b></li></ul></div>
+    <div class="card r" style="flex:1"><div class="lbl">術後（CCU 1–2 天）</div><ul class="pts tight"><li>DAPT ≥ 1 個月</li><li>Statin 終身</li><li>每小時神經學</li></ul></div>
+  </div>
+  <div class="ref r">整理自 2025 新竹查核表、2024 併發症教學與術後 CCU 醫囑。</div>
+  <aside class="notes">術前：急性中風不受 7 天限制；NPO 6–8 小時；確認 ECG／CXR。
+術中：ACT 每 30 分 recheck；atropine 在支架進入前，長者注意 delirium；SBP 140–160，Perdipine 降、Levophed 升；spasm：NTG 100–400 µg IA；hypotension：N/S + norepinephrine 50 µg IA。
+術後：DAPT ≥ 1 個月（部分 6 個月）；SBP 目標同術中，高血壓 + heparin → ICH，低血壓 → stent thrombosis；hyperperfusion（頭痛、癲癇、GCS 變化）→ 立刻 CT；入路部位平直 6 小時。
+術後 CCU（2024 s213）：GCS 下降 &gt;2 分或局部無力 → 立刻 brain CT；IV N/S 維持 SBP 在 reference 的 ±10%；避免 SBP 過高（ICH 0.3–2.7%）。</aside>
+</section>
+
+<!-- ============ 35 術中血壓與急救藥 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">MEDICATION · 術中</div>
+    <h1>血壓太高、太低，各有代價</h1>
+    <div class="sub">SBP 140–160 during the procedure</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="flex:1">
+      <div class="card warn r"><div class="lbl">太高 + heparin</div><p class="txt">ICH、hyperperfusion<br>→ Perdipine</p></div>
+      <div class="card warn r"><div class="lbl">太低</div><p class="txt">Stent thrombosis<br>→ N/S + Levophed</p></div>
+    </div>
+    <div class="col" style="flex:1.1">
+      <div class="lbl r">桌上要有的藥</div>
+      <ul class="pts">
+        <li class="r">Atropine 0.5 mg（長者 delirium）</li>
+        <li class="r">NTG 100–400 µg IA（spasm）</li>
+        <li class="r">Norepinephrine 50 µg IA</li>
+        <li class="r">Hyperperfusion 徵兆 → 立刻 CT</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">Hyperperfusion：頭痛、癲癇、GCS 變化。預防：術中積極控制血壓；MoMa 可即時控制血流。Atropine 大劑量在長者可致混亂。</aside>
+</section>
+
+<!-- ============ 36 Take Home ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">TAKE HOME</div>
+    <h1>Take Home Message</h1>
+    <div class="sub">入門先做到什麼，進階還能長出什麼</div>
+    <div class="tags"><span class="tag">基礎 → 進階</span></div>
+  </div>
+  <div class="body" style="flex:0 0 auto;align-items:stretch;margin:auto 0">
+    <div class="card hl r" style="flex:1.25">
+      <div class="lbl">講者的四句話</div>
+      <ul class="pts tight">
+        <li>膽大心細加上耐心，仔細觀察、果決執行</li>
+        <li>台上每個錯誤都無法遮掩</li>
+        <li>沒有容錯空間，做好一切準備</li>
+        <li>Success depends not only on skills but also on character</li>
+      </ul>
+    </div>
+    <div class="card r" style="flex:1">
+      <div class="lbl mint">入門：先做到</div>
+      <ul class="pts tight"><li>照查核表走</li><li>每一步都確認</li><li>認得 Type III 與環形鈣化</li></ul>
+    </div>
+    <div class="card r" style="flex:1">
+      <div class="lbl">進階：再長出</div>
+      <ul class="pts tight"><li>JR4 + 3 wires</li><li>換路 TRA／TCAR</li><li>雙重保護</li></ul>
+    </div>
+  </div>
+  <aside class="notes">結尾 1 分鐘。回到開頭：今天的案例之所以順利，是因為每一步都有確認；困難案例之所以困難，是因為解剖替你決定了路。你要做的是提早看見，然後換路。
+講者原句：台上犯的每個錯誤都無法遮掩，病患的神經學後遺症會讓你永遠記得。頸動脈支架沒有容錯空間，請做好一切準備。
+入門：Filter 直段、距離，放完造影；會認 Type III 與環形鈣化，知道要停。
+進階：Double wire、Anchoring；dual-layer stent 與 layered protection。</aside>
+</section>
+
+<!-- ============ 37 參考文獻 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">REFERENCES</div>
+    <h1>參考文獻</h1>
+  </div>
+  <div class="body r">
+    <ol class="reflist">
+      <li>1. Spiliopoulos S, et al. CIRSE Standards of Practice on Carotid Artery Stenting. Cardiovasc Intervent Radiol 2024;47(6):705-716. doi:10.1007/s00270-024-03707-y</li>
+      <li>2. Batista S, et al. Transradial artery access for carotid artery stenting: a pooled analysis. Neuroradiol J 2024;37(5):546-555. doi:10.1177/19714009231224410</li>
+      <li>3. Batista S, et al. Transradial versus transfemoral access in carotid artery stenting: a meta-analysis. Interv Neuroradiol 2023;32(3):821-828. doi:10.1177/15910199231194665</li>
+      <li>4. Mota L, et al. Association of stroke or death with severity of carotid lesion calcification in patients undergoing CAS. J Vasc Surg 2024;79(2):305-315.e3. doi:10.1016/j.jvs.2023.10.046</li>
+      <li>5. AbuRahma A, et al. The effect of calcium circumference, thickness, and length on the outcomes of TCAR. J Vasc Surg 2026;84(1):96-108. doi:10.1016/j.jvs.2026.02.031</li>
+      <li>6. Tsutsumi M, et al. Fragmentation of calcified plaque after CAS in heavily calcified circumferential stenosis. Neuroradiology 2010;52(9):831-836. doi:10.1007/s00234-009-0630-8</li>
+      <li>7. Da Silva AMP, et al. Intravascular lithotripsy-assisted CAS for calcified carotid stenosis: systematic review and meta-analysis. Minerva Med 2026;117(2):88-95. doi:10.23736/S0026-4806.26.09869-1</li>
+      <li>8. Mazurek A, et al. Clinical outcomes of second- versus first-generation carotid stents. J Clin Med 2022;11(16):4819. doi:10.3390/jcm11164819</li>
+      <li>9. Giannopoulos S, et al. Embolic protection devices for CAS: a network meta-analysis. Vascular 2024;32(2):447-457. doi:10.1177/17085381221140616</li>
+      <li>10. Naylor R, et al. ESVS 2023 Clinical Practice Guidelines on Atherosclerotic Carotid and Vertebral Artery Disease. Eur J Vasc Endovasc Surg 2023;65(1):7-111. doi:10.1016/j.ejvs.2022.04.011</li>
+      <li>素材：謝慕揚 2016–2025 新竹臺大分院教學投影片與病例影片；劉聖甫醫師（shaking aortic plaque 影片）；方修御醫師 2024、蔡翰林醫師 2022/2024、黃成偉醫師 2022/2024 TSCI 頸動脈支架課程講義；Boston Scientific／Medtronic／Abbott 原廠教材。</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 38 結尾 ============ -->
+<section class="slide cover">
+  <svg class="vessel" viewBox="0 0 520 720" aria-hidden="true">
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#26313e" stroke-width="58"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#26313e" stroke-width="40"/>
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#121821" stroke-width="50"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#121821" stroke-width="32"/>
+    <path data-draw d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="var(--accent)" stroke-width="2.5"/>
+  </svg>
+  <div class="inner" style="justify-content:center;padding-top:0">
+    <div class="eyebrow r">Q &amp; A</div>
+    <div class="title r" style="font-size:80px">謝謝聆聽</div>
+    <div class="zh r">頸動脈支架沒有容錯空間，請做好一切準備</div>
+    <div class="who r" style="margin-top:60px;padding-bottom:0">
+      <div><div class="name">謝慕揚<span>Mu-Yang Hsieh, MD, PhD, FESC</span></div>
+      <div class="aff">新竹臺大分院 心臟血管科 ｜ drake1128@gmail.com</div></div>
+    </div>
+  </div>
+</section>
+
+<div id="chrome"><span>謝慕揚 ｜ TSVS 頸動脈支架臨床訓練課程 ｜ Step-by-Step</span><span class="pg" id="pg"></span></div>
+<div id="bar"></div>
+<div id="mode">20 分鐘版：略過 ◇ 頁</div>
+<div id="notes"></div>
+<div id="zoom"></div>
+</div></div>
+<script src="assets/motion.js"></script>
+<script>
+/* ============================================================
+   TSVS 2026 — 第二版投影片共用腳本
+   轉場與進場動畫使用 Motion（assets/motion.js，離線可用）。
+   鍵盤：→ / PageDown / 空白鍵 下一頁；← / PageUp 上一頁
+         F 全螢幕　N 講者備忘　S 20 分鐘版（略過 ◇ 頁）　P 影片暫停／播放
+         Home / End 第一頁／最後一頁；點影片可放大
+   ============================================================ */
+(function () {
+  const M = window.Motion || null;
+  const stage = document.getElementById('stage');
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const bar = document.getElementById('bar');
+  const pg = document.getElementById('pg');
+  const notesBox = document.getElementById('notes');
+  const modeBox = document.getElementById('mode');
+  const zoom = document.getElementById('zoom');
+  let cur = -1, busy = false, shortMode = false;
+  if (M) document.documentElement.classList.add('js-motion');
+
+  /* === 等比縮放舞台 === */
+  function fit() {
+    const s = Math.min(window.innerWidth / 1280, window.innerHeight / 720);
+    stage.style.transform = 'scale(' + s + ')';
+  }
+  window.addEventListener('resize', fit); fit();
+
+  /* === 影片控制 === */
+  function playIn(sl) {
+    sl.querySelectorAll('video').forEach(v => { try { v.currentTime = 0; v.play().catch(() => {}); } catch (e) {} });
+  }
+  function pauseIn(sl) { sl.querySelectorAll('video').forEach(v => v.pause()); }
+
+  /* === 數字跳動 === */
+  function countUp(sl) {
+    if (!M) return;
+    sl.querySelectorAll('[data-count]').forEach(el => {
+      const target = parseFloat(el.dataset.count);
+      const dec = (el.dataset.count.split('.')[1] || '').length;
+      const pre = el.dataset.pre || '', suf = el.dataset.suf || '';
+      M.animate(0, target, {
+        duration: 1.1, delay: 0.35, ease: [0.22, 1, 0.36, 1],
+        onUpdate: v => { el.textContent = pre + v.toFixed(dec) + suf; }
+      });
+    });
+  }
+
+  /* === 線條繪製（封面血管） === */
+  function drawPaths(sl) {
+    const paths = sl.querySelectorAll('svg [data-draw]');
+    paths.forEach((p, i) => {
+      const L = p.getTotalLength();
+      p.style.strokeDasharray = L; p.style.strokeDashoffset = L;
+      if (M) M.animate(p, { strokeDashoffset: [L, 0] }, { duration: 1.6, delay: 0.25 + i * 0.18, ease: [0.65, 0, 0.35, 1] });
+      else p.style.strokeDashoffset = 0;
+    });
+  }
+
+  /* === 進場：逐層揭示 === */
+  function reveal(sl) {
+    const els = sl.querySelectorAll('.r');
+    if (!M || !els.length) { els.forEach(e => e.style.opacity = 1); return; }
+    els.forEach(e => { e.style.opacity = 0; });
+    M.animate(els, { opacity: [0, 1], y: [22, 0], filter: ['blur(6px)', 'blur(0px)'] },
+      { duration: 0.6, delay: M.stagger(0.07, { startDelay: 0.12 }), ease: [0.22, 1, 0.36, 1] });
+  }
+
+  /* === 換頁 === */
+  function go(n, dir) {
+    if (n < 0 || n >= slides.length || n === cur) return;
+    slides.forEach(s => { if (s.classList.contains('leaving')) { s.classList.remove('leaving'); s.style.opacity = ''; s.style.transform = ''; s.style.filter = ''; } });
+    const prev = slides[cur], next = slides[n];
+    dir = dir || (n > cur ? 1 : -1);
+    busy = true;
+    if (prev) { pauseIn(prev); prev.classList.remove('active'); prev.classList.add('leaving'); }
+    next.querySelectorAll('.r').forEach(e => { e.style.opacity = 0; });
+    next.classList.add('active');
+    cur = n;
+    const done = () => { if (prev && !prev.classList.contains('active')) { prev.classList.remove('leaving'); prev.style.opacity = ''; prev.style.transform = ''; prev.style.filter = ''; } busy = false; };
+    if (M && prev) {
+      M.animate(prev, { opacity: [1, 0], x: [0, -70 * dir], filter: ['blur(0px)', 'blur(8px)'] }, { duration: 0.42, ease: [0.4, 0, 0.2, 1] });
+      M.animate(next, { opacity: [0, 1], x: [70 * dir, 0], scale: [0.985, 1] }, { duration: 0.55, ease: [0.22, 1, 0.36, 1] }).then(done);
+      setTimeout(done, 700);
+    } else { next.style.opacity = 1; done(); }
+    reveal(next); countUp(next); drawPaths(next); playIn(next);
+    stage.classList.toggle('is-cover', next.classList.contains('cover'));
+    bar.style.width = ((n + 1) / slides.length * 100) + '%';
+    pg.innerHTML = '<b>' + String(n + 1).padStart(2, '0') + '</b> / ' + String(slides.length).padStart(2, '0');
+    const nt = next.querySelector('.notes');
+    notesBox.textContent = nt ? nt.textContent.trim() : '（本頁無備忘）';
+    history.replaceState(null, '', '#' + (n + 1));
+  }
+  function step(d) {
+    let n = cur + d;
+    if (shortMode) while (n >= 0 && n < slides.length && slides[n].dataset.skip !== undefined) n += d;
+    go(n, d);
+  }
+
+  /* === 鍵盤 === */
+  document.addEventListener('keydown', e => {
+    if (zoom.classList.contains('on') && (e.key === 'Escape' || e.key === ' ')) { closeZoom(); e.preventDefault(); return; }
+    switch (e.key) {
+      case 'ArrowRight': case 'PageDown': case ' ': case 'Enter': case 'ArrowDown': step(1); e.preventDefault(); break;
+      case 'ArrowLeft': case 'PageUp': case 'Backspace': case 'ArrowUp': step(-1); e.preventDefault(); break;
+      case 'Home': go(0, -1); break;
+      case 'End': go(slides.length - 1, 1); break;
+      case 'f': case 'F':
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(() => {});
+        else document.exitFullscreen(); break;
+      case 'n': case 'N': notesBox.classList.toggle('on'); break;
+      case 's': case 'S':
+        shortMode = !shortMode; modeBox.classList.toggle('on', shortMode); break;
+      case 'p': case 'P':
+        slides[cur].querySelectorAll('video').forEach(v => v.paused ? v.play() : v.pause()); break;
+    }
+  });
+
+  /* === 觸控滑動 === */
+  let tx = null;
+  document.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (tx === null) return; const dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1); tx = null;
+  });
+
+  /* === 影片／圖片放大 === */
+  function closeZoom() { zoom.classList.remove('on'); zoom.innerHTML = ''; }
+  stage.addEventListener('click', e => {
+    const f = e.target.closest('.frame, .plate');
+    if (!f) return;
+    const media = f.querySelector('video, img'); if (!media) return;
+    const c = media.cloneNode(true);
+    if (c.tagName === 'VIDEO') { c.muted = true; c.loop = true; c.controls = true; c.currentTime = media.currentTime; }
+    zoom.innerHTML = ''; zoom.appendChild(c); zoom.classList.add('on');
+    if (c.tagName === 'VIDEO') c.play().catch(() => {});
+    if (M) M.animate(c, { scale: [0.6, 1], opacity: [0, 1] }, { type: 'spring', stiffness: 260, damping: 26 });
+    e.stopPropagation();
+  });
+  zoom.addEventListener('click', e => { if (e.target === zoom) closeZoom(); });
+
+  /* === 起始頁 === */
+  const h = parseInt(location.hash.slice(1), 10);
+  go(isNaN(h) ? 0 : Math.min(Math.max(h - 1, 0), slides.length - 1), 1);
+})();
+
+</script>
+</body>
+</html>

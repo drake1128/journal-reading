@@ -1,0 +1,1694 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>頸動脈介入的風險與併發症</title>
+<style>
+/* === FONTS（本機檔，離線可用） === */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400 800;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  src: url(assets/fonts/Archivo-400_800.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/JetBrainsMono-400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/JetBrainsMono-600.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* ============================================================
+   TSVS 2026 — 第二版投影片共用樣式
+   舞台固定 1280×720（16:9），整體等比縮放到視窗。
+   字級依講者規範：內文 28px、標題 40px、表格 27px、
+   卡片標題 34px、大數字 45px、標籤 18px、註解 17px、頁尾 15px。
+   ============================================================ */
+
+/* === TOKENS === */
+:root {
+  --bg: #0a0d12;
+  --bg2: #0f141b;
+  --panel: #131a23;
+  --panel2: #18212c;
+  --line: rgba(255, 255, 255, 0.09);
+  --line2: rgba(255, 255, 255, 0.16);
+  --ink: #eef2f6;
+  --ink2: #c9d2dc;
+  --muted: #8d9aa8;
+  --mint: #6fd6bf;          /* 基礎 Basic */
+  --alert: #ff6b5e;         /* 警示 */
+  --accent: #e0607e;        /* 由各份投影片覆寫 */
+  --accent-soft: rgba(224, 96, 126, 0.14);
+  --accent-line: rgba(224, 96, 126, 0.45);
+  --sans: "Archivo", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+  --mono: "JetBrains Mono", "Menlo", "Consolas", "PingFang TC", "Microsoft JhengHei", monospace;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+}
+
+/* === BASE / VIEWPORT === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 100%; height: 100%;
+  background: #05070a;
+  overflow: hidden;
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+#viewport {
+  position: fixed; inset: 0;
+  display: grid; place-items: center;
+  overflow: hidden;
+}
+#stage {
+  position: relative;
+  width: 1280px; height: 720px;
+  flex: none;
+  transform-origin: center center;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+/* === ATMOSPHERE：網格與光暈 === */
+#stage::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 90% 80% at 70% 0%, #000 0%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 80% at 70% 0%, #000 0%, transparent 75%);
+  opacity: .55;
+}
+.glow {
+  position: absolute; z-index: 0; pointer-events: none;
+  width: 760px; height: 760px; border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-soft) 0%, transparent 65%);
+  top: -380px; right: -220px;
+  filter: blur(10px);
+}
+
+/* === SLIDES === */
+.slide {
+  position: absolute; inset: 0; z-index: 1;
+  padding: 34px 52px 40px;
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  visibility: hidden; opacity: 0;
+}
+.slide.active { visibility: visible; opacity: 1; z-index: 2; }
+.slide.leaving { visibility: visible; z-index: 1; }
+
+/* === HEADER === */
+.hd { position: relative; flex: none; margin-bottom: 18px; padding-right: 230px; }
+.kicker {
+  font-family: var(--mono); font-size: 18px; font-weight: 600;
+  letter-spacing: .08em; color: var(--accent);
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 6px;
+}
+.kicker::before { content: ""; width: 22px; height: 2px; background: var(--accent); }
+h1 {
+  font-size: 40px; line-height: 1.18; font-weight: 700;
+  font-stretch: 106%; letter-spacing: -.005em;
+}
+.sub {
+  margin-top: 6px; font-size: 19px; color: var(--muted);
+  font-stretch: 100%; line-height: 1.35;
+}
+.tags { position: absolute; top: 2px; right: 0; display: flex; gap: 8px; }
+.tag {
+  font-family: var(--mono); font-size: 17px; font-weight: 600;
+  padding: 4px 12px; border-radius: 999px; white-space: nowrap;
+  border: 1.5px solid var(--line2); color: var(--ink2);
+}
+.tag.basic { color: var(--mint); border-color: rgba(111, 214, 191, .5); }
+.tag.adv { color: #0a0d12; background: var(--accent); border-color: var(--accent); }
+.tag.skip { border-style: dashed; color: var(--muted); }
+
+/* === LAYOUT HELPERS === */
+.body { flex: 1; min-height: 0; display: flex; gap: 26px; position: relative; }
+.body:not(.col) { align-items: center; }
+.body.col { justify-content: center; }
+.body.top { align-items: flex-start; justify-content: flex-start; }
+.col { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.grow { flex: 1; }
+.row { display: flex; gap: 18px; }
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.g3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.g4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.center { align-items: center; justify-content: center; }
+
+/* === TEXT BLOCKS === */
+.lbl {
+  font-family: var(--mono); font-size: 18px; font-weight: 600;
+  letter-spacing: .06em; color: var(--accent);
+  text-transform: uppercase;
+}
+.pts { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.pts li {
+  position: relative; padding-left: 24px;
+  font-size: 28px; line-height: 1.32; color: var(--ink);
+}
+.pts li::before {
+  content: ""; position: absolute; left: 0; top: .52em;
+  width: 10px; height: 10px; border-radius: 2px;
+  background: var(--accent); transform: rotate(45deg);
+}
+.pts li b, .em { color: var(--accent); font-weight: 700; }
+.pts.tight { gap: 8px; }
+p.txt { font-size: 28px; line-height: 1.4; }
+.small { font-size: 22px !important; }
+.muted { color: var(--muted); }
+.mint { color: var(--mint); }
+.alert { color: var(--alert); }
+
+/* === CARDS === */
+.card {
+  background: linear-gradient(180deg, var(--panel2), var(--panel));
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 22px;
+  display: flex; flex-direction: column; gap: 10px;
+  min-width: 0;
+}
+.card h3 {
+  font-size: 34px; line-height: 1.15; font-weight: 700; font-stretch: 104%;
+  display: flex; align-items: baseline; gap: 12px;
+}
+.card h3 .n {
+  font-family: var(--mono); font-size: 18px; color: var(--accent);
+  border: 1.5px solid var(--accent-line); border-radius: 6px;
+  padding: 1px 7px; transform: translateY(-4px);
+}
+.card.hl { border-color: var(--accent-line); box-shadow: inset 0 0 0 1px var(--accent-soft); }
+.card.warn { border-color: rgba(255, 107, 94, .45); }
+.card.warn h3, .card.warn .lbl { color: var(--alert); }
+.card .meta { font-family: var(--mono); font-size: 17px; color: var(--muted); margin-top: auto; }
+
+/* === CALLOUT === */
+.callout {
+  flex: none;
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(90deg, var(--accent-soft), transparent 85%);
+  padding: 12px 20px; border-radius: 0 12px 12px 0;
+  font-size: 28px; line-height: 1.35;
+}
+.callout.warn { border-color: var(--alert); background: linear-gradient(90deg, rgba(255,107,94,.13), transparent 85%); }
+
+/* === VIDEO / IMAGE TILES === */
+.vid { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.vid .frame {
+  position: relative; border-radius: 12px; overflow: hidden;
+  background: #000; border: 1px solid var(--line2);
+  cursor: zoom-in;
+}
+.vid video, .vid img { display: block; width: 100%; height: 100%; object-fit: contain; background: #000; }
+.vid .frame::after {
+  content: attr(data-idx);
+  position: absolute; top: 8px; left: 8px;
+  font-family: var(--mono); font-size: 15px; font-weight: 600;
+  color: #fff; background: rgba(0,0,0,.55); padding: 1px 7px; border-radius: 5px;
+}
+.vid .frame[data-idx=""]::after { display: none; }
+.vid figcaption { font-size: 19px; line-height: 1.3; color: var(--ink2); }
+.plate { background: #fff; border-radius: 12px; padding: 10px; overflow: hidden; }
+.plate img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.cap { font-size: 19px; color: var(--ink2); line-height: 1.3; }
+
+/* 影片放大檢視 */
+#zoom {
+  position: absolute; inset: 0; z-index: 50;
+  background: rgba(5, 7, 10, .92);
+  display: none; align-items: center; justify-content: center;
+  cursor: zoom-out;
+}
+#zoom.on { display: flex; }
+#zoom video, #zoom img { max-width: 92%; max-height: 92%; border-radius: 10px; background: #000; }
+
+/* === TABLE === */
+table.t { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 27px; line-height: 1.3; }
+.t th {
+  font-family: var(--sans); font-weight: 700; text-align: left;
+  font-size: 22px; letter-spacing: .02em;
+  color: var(--accent); padding: 8px 14px;
+  border-bottom: 2px solid var(--accent-line);
+}
+.t td { padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--ink); }
+.t td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.t tr:nth-child(even) td { background: rgba(255,255,255,.025); }
+.t td.who { font-family: var(--mono); font-size: 20px; color: var(--muted); white-space: nowrap; }
+
+/* === STATS === */
+.stat { display: flex; flex-direction: column; gap: 2px; }
+.stat .num { white-space: nowrap;
+
+  font-size: 45px; font-weight: 800; font-stretch: 112%;
+  color: var(--accent); line-height: 1.05; font-variant-numeric: tabular-nums;
+}
+.stat .what { font-size: 19px; color: var(--ink2); line-height: 1.3; }
+
+/* === STEPS（序號列） === */
+.steps { display: flex; flex-direction: column; gap: 14px; }
+.step { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: start; }
+.step .k {
+  width: 56px; height: 56px; border-radius: 14px;
+  display: grid; place-items: center;
+  font-family: var(--mono); font-size: 26px; font-weight: 600;
+  color: var(--accent); border: 1.5px solid var(--accent-line); background: var(--accent-soft);
+}
+.step .v { font-size: 28px; line-height: 1.3; }
+.step .v small { display: block; font-size: 22px; color: var(--muted); margin-top: 2px; }
+
+/* === REFERENCES / FOOTER === */
+.ref {
+  flex: none; margin-top: 12px;
+  font-size: 15px; line-height: 1.4; color: var(--muted);
+}
+.reflist { font-size: 15.5px; line-height: 1.45; color: var(--ink2); columns: 2; column-gap: 34px; }
+.reflist li { margin-bottom: 7px; break-inside: avoid; list-style: none; }
+.reflist a { color: var(--ink2); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+#stage.is-cover #chrome { display: none; }
+#chrome {
+  position: absolute; left: 52px; right: 52px; bottom: 12px; z-index: 20;
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--mono); font-size: 15px; color: var(--muted);
+  pointer-events: none;
+}
+#chrome .pg b { color: var(--ink); }
+#bar { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--accent); z-index: 21; width: 0; }
+#mode {
+  position: absolute; top: 10px; left: 50%; transform: translateX(-50%); z-index: 30;
+  font-family: var(--mono); font-size: 15px; padding: 3px 12px; border-radius: 999px;
+  background: var(--accent); color: #0a0d12; display: none;
+}
+#mode.on { display: block; }
+
+/* === NOTES 講者備忘 === */
+.notes { display: none; }
+#notes {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 40;
+  max-height: 46%; overflow: auto;
+  background: rgba(10, 13, 18, .96); border-top: 2px solid var(--accent);
+  padding: 16px 52px 30px; font-size: 20px; line-height: 1.5; color: var(--ink2);
+  display: none; white-space: pre-line;
+}
+#notes.on { display: block; }
+
+/* === TITLE / CHAPTER / END === */
+.slide.cover { padding: 0; }
+.cover .inner { position: relative; z-index: 2; padding: 70px 64px 0; height: 100%; display: flex; flex-direction: column; }
+.cover .eyebrow { font-family: var(--mono); font-size: 18px; letter-spacing: .14em; color: var(--accent); }
+.cover .title {
+  font-size: 66px; line-height: 1.04; font-weight: 800; font-stretch: 118%;
+  letter-spacing: -.015em; margin-top: 18px; max-width: 900px;
+}
+.cover .title .thin { font-weight: 400; color: var(--ink2); }
+.cover .zh { font-size: 28px; line-height: 1.45; color: var(--ink2); margin-top: 22px; max-width: 820px; }
+.cover .who { margin-top: auto; padding-bottom: 46px; display: flex; gap: 40px; align-items: flex-end; }
+.cover .who .name { font-size: 30px; font-weight: 700; }
+.cover .who .name span { font-size: 20px; font-weight: 400; color: var(--muted); margin-left: 8px; }
+.cover .who .aff { font-size: 19px; color: var(--ink2); line-height: 1.5; }
+.cover .disc { font-size: 15px; color: var(--muted); position: absolute; bottom: 18px; left: 64px; }
+.vessel { position: absolute; right: -10px; top: 0; height: 100%; width: 520px; z-index: 1; opacity: .95; }
+.vessel path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+
+.chapter { justify-content: center; padding-left: 96px; }
+.chapter .no {
+  font-size: 200px; font-weight: 800; font-stretch: 125%; line-height: .9;
+  color: transparent; -webkit-text-stroke: 2px var(--accent-line);
+  position: absolute; right: 70px; bottom: 40px;
+}
+.chapter .lbl { margin-bottom: 14px; }
+.chapter h2 { font-size: 58px; font-weight: 800; font-stretch: 112%; line-height: 1.1; }
+.chapter .sub2 { font-size: 28px; color: var(--ink2); margin-top: 16px; max-width: 900px; line-height: 1.4; }
+.chapter .time { font-family: var(--mono); font-size: 18px; color: var(--muted); margin-top: 26px; }
+
+/* === MOTION 前置狀態（Motion 載入失敗時仍可見） === */
+.js-motion .slide:not(.active) .r { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* === 本份投影片主色 === */
+:root { --accent: #f2a33a; --accent-soft: rgba(242, 163, 58, 0.14); --accent-line: rgba(242, 163, 58, 0.48); }
+</style>
+</head>
+<body>
+<div id="viewport"><div id="stage">
+<div class="glow"></div>
+<!-- ============ 封面 ============ -->
+<section class="slide cover">
+  <svg class="vessel" viewBox="0 0 520 720" aria-hidden="true">
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#26313e" stroke-width="58"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#26313e" stroke-width="40"/>
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#121821" stroke-width="50"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#121821" stroke-width="32"/>
+    <path data-draw d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="var(--accent)" stroke-width="2.5"/>
+    <path data-draw d="M226 226 L250 196 L258 232" stroke="var(--accent)" stroke-width="2.5"/>
+    <path data-draw d="M282 540 L262 470 L248 420 M296 540 L276 470 L262 420 M282 540 L296 520 L278 500 L292 480 L272 460 L284 440 L262 420" stroke="#eef2f6" stroke-opacity=".7" stroke-width="2"/>
+  </svg>
+  <div class="inner">
+    <div class="eyebrow r">TSVS 頸動脈支架臨床訓練課程 · 2026-11-14</div>
+    <div class="title r">Managing Risks<br><span class="thin">and Complications<br>in Carotid Procedures</span></div>
+    <div class="zh r">頸動脈介入的風險管理與併發症處理：先預防、早辨識、快處置</div>
+    <div class="who r">
+      <div>
+        <div class="name">謝慕揚<span>Mu-Yang Hsieh, MD, PhD, FESC</span></div>
+        <div class="aff">新竹臺大分院 心臟血管科 ｜ 集思台中烏日會議中心</div>
+      </div>
+    </div>
+  </div>
+  <div class="disc">影片與影像均為講者病例（另註明者除外）；本課程僅供醫療專業人員教學使用</div>
+  <aside class="notes">30 分鐘版本。20 分鐘版：按 S 鍵，自動略過標示「◇ 20 分鐘版可略」的頁面。
+開場 1 分鐘：這一堂不談 CAS 要不要做，也不談 trial 贏誰。只談三件事：風險在哪裡、怎麼事先把它拿掉、真的發生時下一步是什麼。</aside>
+</section>
+
+<!-- ============ 路線圖 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">ROADMAP</div>
+    <h1>今天的路線圖</h1>
+    <div class="sub">數字 → 術前 → 術中 → 術後 24 小時 → 制度</div>
+    <div class="tags"><span class="tag">基礎 → 進階</span></div>
+  </div>
+  <div class="body col">
+    <div class="g4">
+      <div class="card r"><h3><span class="n">1</span>風險全貌</h3><ul class="pts tight"><li>數字與時間軸</li><li>Minor vs Major</li></ul><div class="meta">約 4 分</div></div>
+      <div class="card r"><h3><span class="n">2</span>術前管理</h3><ul class="pts tight"><li>病人、解剖、藥物</li><li>溝通與團隊</li></ul><div class="meta">約 6 分</div></div>
+      <div class="card hl r"><h3><span class="n">3</span>術中</h3><ul class="pts tight"><li>血流動力學、spasm、dissection</li><li>栓塞救援</li></ul><div class="meta">約 11 分</div></div>
+      <div class="card r"><h3><span class="n">4</span>術後</h3><ul class="pts tight"><li>Hyperperfusion／ICH</li><li>Stent thrombosis、入路</li></ul><div class="meta">約 6 分</div></div>
+    </div>
+    <div class="row r" style="align-items:stretch">
+      <div class="card hl grow" style="flex-direction:row;align-items:center;gap:16px"><h3><span class="n">5</span>系統</h3><span class="muted" style="font-size:22px">查核表、救援準備、Take Home · 約 3 分</span></div>
+      <div class="card" style="gap:6px;justify-content:center">
+        <div style="font-size:19px"><span class="tag basic">基礎</span>&nbsp; 外科入門：先會認、會停</div>
+        <div style="font-size:19px"><span class="tag adv">進階</span>&nbsp; 中階以上：救援與決策</div>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">路線圖。外科醫師最在意：台上出事怎麼辦、怎麼不出事。所以把「術中辨識與處置」放最重（11 分），影片都集中在那一段。每頁右上角標示適合的程度。</aside>
+</section>
+
+<!-- ============ 章節 1 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 1 · 風險全貌</div>
+  <h2 class="r">併發症有多常見，<br>什麼時候發生</h2>
+  <div class="sub2 r">Trial 與登錄的數字 → 時間軸 → Minor 與 Major</div>
+  <div class="time r">約 4 分鐘</div>
+  <div class="no">01</div>
+</section>
+
+<!-- ============ 數字：RCT ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">NUMBERS · RCT</div>
+    <h1>先看數字：隨機試驗</h1>
+    <div class="sub">CAS vs CEA in randomised trials</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g2">
+      <div class="card r">
+        <div class="lbl">ACST-2（2021，n = 3,625）</div>
+        <div class="cap">無症狀，CAS vs CEA</div>
+        <ul class="pts tight"><li>30 天失能中風／死亡：兩組約 1%</li><li>非失能中風 2.7% vs 1.6%</li></ul>
+      </div>
+      <div class="card r">
+        <div class="lbl">CREST（2010／2016）</div>
+        <div class="cap">有症狀 + 無症狀，CAS vs CEA</div>
+        <ul class="pts tight"><li>圍術期中風 4.1% vs 2.3%</li><li>心肌梗塞 1.1% vs 2.3%</li><li>10 年結果相當</li></ul>
+      </div>
+    </div>
+    <div class="ref r">Halliday A, et al. Lancet 2021;398:1065-1073.  Brott TG, et al. N Engl J Med 2010;363:11-23; 2016;374:1021-1031.</div>
+  </div>
+  <aside class="notes">ACST-2：1,811 CAS vs 1,814 CEA，術後 30 天失能性中風或死亡各約 1%（15 vs 18 例），非失能性中風 48 vs 29 例；5 年非圍術期中風 CAS 5.3% vs CEA 4.5%（無差異）。
+CREST 2010：圍術期任何中風 4.1% vs 2.3%、MI 1.1% vs 2.3%；年齡 ≥70 歲 CAS 較差。10 年追蹤（2016）primary endpoint 11.8% vs 9.9%，無差異。
+給外科醫師的訊息：這些數字就是同意書要講的數字；你的個人數字要能對得上。</aside>
+</section>
+
+<!-- ============ 數字：登錄 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">NUMBERS · REGISTRY</div>
+    <h1>先看數字：真實世界登錄</h1>
+    <div class="sub">Nationwide and VQI registries</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g2">
+      <div class="card r">
+        <div class="lbl">日本全國登錄（2024，n = 9,792）</div>
+        <div class="cap">99% 用 EPD，專科醫師執行</div>
+        <ul class="pts tight"><li>30 天中風／死亡：有症狀 2.2%、無症狀 1.5%</li><li>ICH 0.9% vs 0.2%</li></ul>
+      </div>
+      <div class="card r">
+        <div class="lbl">VQI（2019，配對 3,286 對）</div>
+        <div class="cap">tfCAS vs TCAR</div>
+        <ul class="pts tight"><li>院內中風／死亡 3.1% vs 1.6%</li><li>1 年同側 9.6% vs 5.1%</li></ul>
+      </div>
+    </div>
+    <div class="callout r">好手的 CAS：30 天 stroke/death 約 1.5–3%，一半以上發生在術中與術後 24 小時內</div>
+    <div class="ref r">Uchida K, et al. JACC Cardiovasc Interv 2024;17:1148-1159.  Schermerhorn ML, et al. JAMA 2019;322:2313-2322.</div>
+  </div>
+  <aside class="notes">日本登錄（Uchida 2024）：有症狀組 symptomatic ICH 0.9%、acute in-stent occlusion 0.8%、hyperperfusion 1.9%；無症狀組分別 0.2%、0.4%、0.8%。
+VQI（Schermerhorn 2019）：TCAR 院內 stroke/death 1.6% vs tfCAS 3.1%；但 TCAR 入路併發症較高（1.3% vs 0.8%）。
+術中與術後 24 小時，就是今天要管的範圍。</aside>
+</section>
+
+<!-- ============ 時間軸 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">TIMELINE</div>
+    <h1>併發症的時間軸</h1>
+    <div class="sub">When it happens decides who is watching</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g4">
+      <div class="card hl r"><div class="lbl">術中</div><ul class="pts tight"><li>Brady／低血壓</li><li>栓塞</li><li>No-reflow</li><li>Spasm、dissection</li></ul></div>
+      <div class="card r"><div class="lbl">0–24 小時</div><ul class="pts tight"><li>Hyperperfusion</li><li>ICH 0.3–2.7%</li><li>Stent thrombosis</li><li>入路出血</li></ul></div>
+      <div class="card r"><div class="lbl">1–30 天</div><ul class="pts tight"><li>延遲 TIA／stroke</li><li>MI（CREST 1.1%）</li><li>停 DAPT 後血栓</li></ul></div>
+      <div class="card r"><div class="lbl">&gt; 30 天</div><ul class="pts tight"><li>Restenosis</li><li>支架斷裂（罕見）</li></ul></div>
+    </div>
+    <div class="callout r">術中看術者 ｜ 24 小時內看 CCU ｜ 之後看 DAPT 與超音波</div>
+    <div class="ref r">Huibers AE, et al. Eur J Vasc Endovasc Surg 2018;56:322-333.  Uchida K, et al. JACC Cardiovasc Interv 2024.  講者 2024-04 新竹教學投影片。</div>
+  </div>
+  <aside class="notes">術中：bradycardia／hypotension；栓塞（弓、wiring、dilatation）；no-reflow、filter 問題；spasm、dissection、air。
+0–24 小時：hyperperfusion（中位數 12 小時）；ICH 0.3–2.7%；acute stent thrombosis 0.4–0.8%；持續性低血壓、入路出血。
+1–30 天：延遲性 TIA／stroke；心肌梗塞（CREST 1.1%）；contrast encephalopathy（罕見）；subacute stent thrombosis（停 DAPT）。
+&gt; 30 天：restenosis，6 個月、1 年、之後每年追蹤；支架斷裂（罕見）；長期中風風險與 CEA 相當。
+把併發症依時間排開，就知道誰在什麼時候要看什麼：術中靠術者與第一助手；0–24 小時靠 CCU 護理師的血壓與每小時神經學；之後靠藥物遵從性與超音波。
+Hyperperfusion 的中位發病時間是術後 12 小時（IQR 8–36），所以「做完沒事」不等於沒事，一定要住 ICU。</aside>
+</section>
+
+<!-- ============ Minor / Major ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">CLASSIFICATION</div>
+    <h1>Minor 與 Major：先會分類</h1>
+    <div class="sub">Classification used in my teaching since 2016</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card r" style="flex:1">
+      <div class="lbl mint">A · Minor（多半可逆）</div>
+      <ul class="pts tight"><li>Spasm</li><li>持續低血壓／bradycardia</li><li>非 flow-limiting dissection</li><li>Contrast encephalopathy</li><li>TIA</li></ul>
+    </div>
+    <div class="card warn r" style="flex:1">
+      <div class="lbl">B · Major（會留後遺症）</div>
+      <ul class="pts tight"><li>Major embolic stroke</li><li>ICH、hyperperfusion</li><li>Perforation（very rare）</li><li>Acute stent thrombosis</li><li>入路大出血</li></ul>
+    </div></div>
+  </div>  <aside class="notes">這是我 2016 年第一次教頸動脈併發症時就用的分類（2024 教學投影片 s16–s46）。
+Minor：carotid artery spasm、sustained hypotension／bradycardia、carotid artery dissection（非 flow-limiting）、contrast encephalopathy（very rare）、minor embolic events（TIA）。
+Major：major embolic stroke、intracranial hemorrhage、hyperperfusion syndrome、carotid perforation（very rare）、acute stent thrombosis（very rare）、入路部位的大出血。
+Minor 不代表不嚴重，而是處理得當多半可逆；Major 會留下神經學後遺症或致死。</aside>
+</section>
+
+<!-- ============ 四條原則 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">PRINCIPLES</div>
+    <h1>處理併發症的四條原則</h1>
+    <div class="sub">2024 teaching slides, s50</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g2">
+      <div class="card hl r"><h3><span class="n">1</span>Prevention at all cost</h3></div>
+      <div class="card r"><h3><span class="n">2</span>Work-flow 練到熟、練到準</h3></div>
+      <div class="card r"><h3><span class="n">3</span>Rapid recognition and response</h3></div>
+      <div class="card warn r"><h3><span class="n">4</span>容錯空間極小</h3><p class="txt">頸動脈會把每個錯誤放到最大</p></div>
+    </div>
+  </div>
+  <aside class="notes">四條原則（2024 s50）：Prevention at all cost；work-flow should be practiced and perfected；rapid recognition and response are crucial；little marginal zone of error, amplified in carotid stenting at maximal。</aside>
+</section>
+
+<!-- ============ 章節 2 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 2 · 術前管理</div>
+  <h2 class="r">把風險<br>在術前拿掉一半</h2>
+  <div class="sub2 r">病人、解剖、藥物、溝通</div>
+  <div class="time r">約 6 分鐘</div>
+  <div class="no">02</div>
+</section>
+
+<!-- ============ 病人紅旗 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">RED FLAGS · PATIENT</div>
+    <h1>病人層面的紅旗（1/2）</h1>
+    <div class="sub">Who will bleed, drop the pressure, or hyperperfuse</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th>紅旗</th><th>會發生什麼</th><th>怎麼處理</th></tr>
+      <tr><td>≥ 90%、側枝差</td><td>HICH 3.1%；≥ 90% OR 13.6</td><td>壓低 SBP、MoMa 控流、ICU</td></tr>
+      <tr><td>剛打過 tPA</td><td>Stroke/death 14.9%、ICH 5.5%</td><td>能等就等；延後 DAPT</td></tr>
+      <tr><td>心衰竭、高齡</td><td>Hemodynamic depression（RR 2.4）</td><td>備 atropine、升壓藥</td></tr>
+    </table>
+    <div class="ref r">Xu S, et al. World Neurosurg 2021;155:e353-e361.  Kakkos SK, et al. EJVES 2021;62:340-349.  Altinbas A, et al. Int J Stroke 2014;9:284-290（ICSS）.</div>
+  </div>
+  <aside class="notes">完整表格：
+有症狀、≥ 90%、側枝差：hyperperfusion／ICH（HICH 3.1%；≥90% OR 13.6）。對策：術中 SBP 壓低、MoMa 控流、術後 ICU 嚴格降壓。
+剛打過 tPA（&lt; 6–7 天）：CAS 後 stroke/death 14.9%、ICH 5.5%。對策：能等就等；急做則 heparin 3000 U 即可、延後 DAPT loading。
+心衰竭、年齡 ≥ 70–75：hemodynamic depression（HF：RR 2.4）；高齡 CAS 風險上升。對策：預備 atropine、升壓藥；高齡考慮 CEA／TCAR。
+Xu 2021（446 例有症狀重度狹窄）：hyperperfusion-induced ICH 3.14%，13/14 狹窄 ≥90%，13/14 側枝代償差；≥90% 狹窄 OR 13.6。
+Kakkos 2021 meta-analysis：溶栓後 CAS pooled stroke/death 14.9%、ICH 5.5%；CEA 延到 6–7 天後風險才回到 6% 門檻以下。
+ICSS（Altinbas）：CAS hemodynamic depression 13.8% vs CEA 7.2%；心衰竭病史是最強預測因子（RR 2.4）。</aside>
+</section>
+
+<!-- ============ 病人紅旗 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">RED FLAGS · PATIENT</div>
+    <h1>病人層面的紅旗（2/2）</h1>
+    <div class="sub">Poor cerebral reserve, bilateral disease, CKD, cardiac disease</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th>紅旗</th><th>會發生什麼</th><th>怎麼處理</th></tr>
+      <tr><td>對側 ICA 閉塞</td><td>缺血耐受低、易 hyperperfusion</td><td>縮短 flow suspension</td></tr>
+      <tr><td>雙側病變、CKD</td><td>對比劑、圍術期 MI</td><td>分期；水化；心臟科評估</td></tr>
+    </table>
+    <div class="callout r">紅旗不是禁忌：術前就把對策寫進計畫</div>
+    <div class="ref r">Huibers AE, et al. EJVES 2018;56:322-333（CVR 受損 RR 5.2）.</div>
+  </div>
+  <aside class="notes">對側 ICA 閉塞、椎基底動脈病變：腦血流儲備差 → 缺血耐受低、hyperperfusion 高。對策：flow suspension 時間縮短；先確認代償。
+雙側病變、CKD、不穩定心臟病：雙側同時只能 filter；對比劑；圍術期 MI。對策：分期處理；水化、減少對比劑；心臟科共同評估。
+Huibers 2018：腦血流儲備（CVR）受損者 CHS 風險 RR 5.2。</aside>
+</section>
+
+<!-- ============ 解剖紅旗：弓 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">RED FLAGS · ANATOMY</div>
+    <h1>解剖層面的紅旗：弓型</h1>
+    <div class="sub">Read the arch on CTA before the first catheter</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:680px">
+      <div class="plate r" style="height:255px"><img src="assets/media/image-7-1.png" alt="弓型示意圖"></div>
+      <div class="plate r" style="height:150px"><img src="assets/media/image-7-2.png" alt="Bovine arch"></div>
+    </div>
+    <div class="col grow">
+      <ul class="pts">
+        <li class="r">Type III 弓、bovine arch</li>
+        <li class="r">導管在弓內越久，弓上斑塊越容易被刮下</li>
+        <li class="r"><b>CIRSE 2024：Type III + 重度鈣化 = tfCAS 禁忌</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ref r">Spiliopoulos S, et al. CIRSE 2024;47:705-716.  弓型變異圖：方修御醫師 2024 課程（neuroangio.org）。</div>
+  <aside class="notes">CIRSE 2024 把 Type III 弓合併重度鈣化列為 tfCAS 禁忌。</aside>
+</section>
+
+<!-- ============ 解剖紅旗：表 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">RED FLAGS · ANATOMY</div>
+    <h1>解剖層面的紅旗：斑塊與血管</h1>
+    <div class="sub">Arch, plaque and vessel decide the route</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th>解剖</th><th>風險</th><th>對策</th></tr>
+      <tr><td>Type III／bovine</td><td>弓上栓塞、GC 卡住</td><td>TRA、TCAR；不硬上</td></tr>
+      <tr><td>環形鈣化</td><td>Stroke/death OR 1.9</td><td>CEA 優先；TCAR</td></tr>
+      <tr><td>血栓、string sign</td><td>Wiring、filter 時栓塞</td><td>Proximal／雙重保護</td></tr>
+      <tr><td>ICA 迂曲、kink</td><td>Spasm、dissection</td><td>Open-cell 或 CEA</td></tr>
+      <tr><td>放射後長段</td><td>Cheese-cutting 栓塞</td><td>少後擴、dual-layer</td></tr>
+    </table>
+    <div class="ref r">Mota L, et al. J Vasc Surg 2024;79:305-315 (VQI).  Spiliopoulos S, et al. CIRSE 2024;47:705-716.</div>
+  </div>
+  <aside class="notes">Mota 2024（VQI）：環形或突出鈣化院內 stroke/death OR 1.9；tfCAS 組 OR 2.0；1 年同側 stroke/death 12.4% vs 6.6%。
+ICA 迂曲、kink、高位：spasm、dissection、無 landing zone。
+對外科醫師：這一頁的每一列，右欄都有 CEA 或 TCAR。解剖不好時，交給 CEA 或 TCAR，不必為了做 CAS 而做 CAS。</aside>
+</section>
+
+<!-- ============ 藥物 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">MEDICATION</div>
+    <h1>藥物：術前就決定了一半</h1>
+    <div class="sub">tfCAS in-hospital stroke/death by antiplatelet regimen (VQI, n = 18,570)</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:470px">
+      <div class="card hl r stat"><div class="num" data-count="2.2" data-suf="%">2.2%</div><div class="what">DAPT</div></div>
+      <div class="card r stat"><div class="num" data-count="4.1" data-suf="%">4.1%</div><div class="what">只吃 aspirin</div></div>
+      <div class="card warn r stat"><div class="num" style="color:var(--alert)" data-count="6.8" data-suf="%">6.8%</div><div class="what">完全沒有抗血小板</div></div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">新竹常規</div>
+      <ul class="pts tight">
+        <li class="r">Aspirin 100 + Clopidogrel 75 ≥ 7 天，當天 reloading</li>
+        <li class="r">Atorvastatin 40 mg</li>
+        <li class="r">Heparin 3000 U → ACT 250–300</li>
+        <li class="r">Atropine 0.5–1.0 mg：後擴張前</li>
+        <li class="r">Perdipine、Levophed 都備在桌上</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ref r">Marcaccio CL, et al. J Vasc Surg 2023;77:1434-1446（VQI 2016–2021）.</div>
+  <aside class="notes">Marcaccio 2023（VQI）：tfCAS 院內 stroke/death：DAPT 2.2%、無抗血小板 6.8%（RR 2.3）、aspirin 單用 4.1%（RR 1.6）、P2Y12 單用 2.4%（RR 0.99）；術前 4 小時內加 loading 沒有額外好處。
+新竹常規：ACT 每 30 分 recheck；atropine 長者減量。</aside>
+</section>
+
+<!-- ============ 藥物 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">MEDICATION</div>
+    <h1>要三思的藥、沒吃到的藥</h1>
+    <div class="sub">GP IIb/IIIa, thrombolysis, ticagrelor, missed clopidogrel</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card warn r" style="flex:1">
+      <div class="lbl">要三思的藥</div>
+      <ul class="pts tight">
+        <li>GP IIb/IIIa：stroke/death OR 1.77、ICH OR 2.13</li>
+        <li>tPA 後 6 小時再 CT，陰性才 load DAPT</li>
+        <li>Ticagrelor：有 protamine 才與 clopidogrel 相當</li>
+      </ul>
+    </div>
+    <div class="card r" style="flex:1">
+      <div class="lbl">Clopidogrel 沒吃到</div>
+      <ul class="pts tight">
+        <li>確認病房真的有吃</li>
+        <li>沒吃：延期，或 600 mg loading 後等 ≥ 6 小時</li>
+        <li>P2Y12 單用 ≈ DAPT；aspirin 單用不行</li>
+      </ul>
+    </div></div>
+  </div>  <div class="ref r">Locham S, et al. Ann Vasc Surg 2024;103:151-158.  Marcaccio CL, et al. J Vasc Surg 2022;75:1293-1303（ticagrelor）.</div>
+  <aside class="notes">Locham 2024：GP IIb/IIIa 使用者多為有症狀、未優化用藥；tfCAS 用 GPI → stroke/death OR 1.77、ICH/seizure OR 2.13；TCAR 無差。
+Marcaccio 2022：aspirin/ticagrelor 在 tfCAS 出血較多（5.8% vs 2.8%），有 protamine 時差異消失。
+急性中風用藥（2024 s207）：never GP IIb/IIIa；tPA 後等 6 小時重複 CT 再 load；heparin 3000 U 不必追 ACT &gt; 250。
+確認病房有吃：查核表第 2 項。</aside>
+</section>
+
+<!-- ============ 溝通 1 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">COMMUNICATION</div>
+    <h1>溝通與同意：家屬</h1>
+    <div class="sub">Good communication is a basic procedure</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:620px">
+      <div class="plate r" style="height:280px"><img src="assets/media/image-9-1.png" alt="中風後遺症與預估損害 mRS 表"></div>
+      <div class="cap r">中風後遺症與預估損害（mRS）：術前就讓家屬看到這張表</div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">家屬</div>
+      <ul class="pts">
+        <li class="r">全家一起聽；畫圖、講經濟面</li>
+        <li class="r">中風 2–4%、出血 1%</li>
+        <li class="r">當天到場；簽 OP + ICU 同意書</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">2025 新竹投影片「Basic procedures include good communication」（s24）。</aside>
+</section>
+
+<!-- ============ 溝通 2 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">COMMUNICATION</div>
+    <h1>溝通：神經內科與神經外科</h1>
+    <div class="sub">Who takes the stroke, who opens the bleed</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body col">
+    <div class="g2">
+      <div class="card r"><div class="lbl">神經內科</div><ul class="pts tight"><li>Baseline NIHSS、共同判讀影像</li><li>術後中風誰接手，先講好</li></ul></div>
+      <div class="card r"><div class="lbl">神經外科</div><ul class="pts tight"><li>術前一小時確認值班</li><li>CAS 失敗，CEA 可行嗎？</li></ul></div>
+    </div>
+    <div class="callout r">我的第一例高風險手術前：回顧所有併發症、備好救援器材、跟神經內外科講好</div>
+  </div>
+  <aside class="notes">神經內科：baseline NIHSS；影像共同判讀；抗血小板銜接；術後中風誰接手先講好。
+神經外科：術前一小時確認值班；ICH 怎麼開、有無動脈瘤；CAS 失敗 → CEA 可行嗎？先評估。
+2024 s215「How did I start my first high-risk procedure」：回顧所有併發症的預防、處理、數字；備好救援器材；跟神經內外科講好。
+給外科醫師：你們做 CEA 時神經科與神外本來就是夥伴；CAS 也一樣。術前把「中風了誰接、出血了誰開」講好，術中才敢做決定。</aside>
+</section>
+
+<!-- ============ 章節 3 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 3 · 術中併發症</div>
+  <h2 class="r">辨識與處置：<br>影片都在這一段</h2>
+  <div class="sub2 r">栓塞、血流動力學、spasm、dissection、no-reflow、filter、air</div>
+  <div class="time r">約 11 分鐘</div>
+  <div class="no">03</div>
+</section>
+
+<!-- ============ 四個高風險步驟 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">EMBOLIZATION</div>
+    <h1>栓塞的四個高風險步驟：怎麼防</h1>
+    <div class="sub">Critical steps with the highest risk of distal embolization</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="g4">
+      <div class="card r"><h3><span class="n">1</span>Engage</h3><ul class="pts tight"><li>GC 刮下弓上斑塊</li><li><b>LAO 60°、小角度轉</b></li></ul></div>
+      <div class="card r"><h3><span class="n">2</span>Wiring</h3><ul class="pts tight"><li>Wire 刮下斑塊、血栓</li><li><b>血栓多先 proximal</b></li></ul></div>
+      <div class="card r"><h3><span class="n">3</span>Pre-dilate</h3><ul class="pts tight"><li>碎屑衝破濾網</li><li><b>小球囊漸進</b></li></ul></div>
+      <div class="card r"><h3><span class="n">4</span>Post-dilate</h3><ul class="pts tight"><li>斑塊從網孔擠出</li><li><b>6–8 atm，殘餘 20–30%</b></li></ul></div>
+    </div>
+    <div class="callout r">造影、交換器材、收傘也會出事：只要工具在動，就有碎屑在動</div>
+    <div class="ref r">整理自 2025 新竹教學投影片；CAS 2026 學員模組 Ch4（後擴張 6–8 atm）。</div>
+  </div>
+  <aside class="notes">這張是 Step-by-Step 那堂的延伸：同樣四步，這次每張卡片的第二行是對策。
+Engage：不在弓內反覆進出。Wiring：tip 單純。Pre-dilate：open-cell 前必做。Post-dilate：submaximal。
+後擴張壓力 &gt;10 atm 可能讓鈣化斑塊碎裂、碎片小到穿過濾網孔徑（約 100 µm）。</aside>
+</section>
+
+<!-- ============ 血流動力學 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">HEMODYNAMICS</div>
+    <h1>Bradycardia 與 Hypotension</h1>
+    <div class="sub">Carotid sinus stimulation: expected, usually benign</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:440px">
+      <div class="card r stat"><div class="num" data-count="13.8" data-suf="%">13.8%</div><div class="what">CAS hemodynamic depression（ICSS）</div></div>
+      <div class="card r stat"><div class="num" data-count="25" data-suf="%">25%</div><div class="what">持續 &gt; 24 小時（單中心）</div></div>
+      <div class="card r stat"><div class="num" data-count="52" data-suf="%">52%</div><div class="what">術後任何低血壓（VQI 單中心）</div></div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">預測因子</div>
+      <ul class="pts">
+        <li class="r">病灶在 bulb、鈣化重</li>
+        <li class="r">Pre-dilate 5 mm 或 &gt; 7 atm</li>
+        <li class="r">心衰竭（RR 2.4）、全身麻醉</li>
+        <li class="r">持續 &gt; 24 小時 → TIA 增加</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ref r">Altinbas A, et al. Int J Stroke 2014;9:284-290.  Li B, et al. Vascular 2023;31:892-901.  Chen AX, et al. Ann Vasc Surg 2026;133:223-228.</div>
+  <aside class="notes">ICSS：hemodynamic depression（嚴重 bradycardia、asystole 或需治療的低血壓）CAS 13.8% vs CEA 7.2%；心衰竭病史 RR 2.4；與 30 天 MACE 無顯著相關。
+Li 2023（168 例）：&gt;24 小時持續不穩 25%；pre-dilate &gt;7 atm OR 7.4、5 mm 球囊 OR 3.5；持續不穩者 TIA 較多。其他預測因子：vulnerable plaque、支架尺寸大。
+Chen 2026（VQI 單一體系 236 例，69% TCAR）：術後低血壓 51.7%，其中 57% 需升壓藥、52% 進 ICU；全身麻醉是危險因子。</aside>
+</section>
+
+<!-- ============ 血流動力學 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">HEMODYNAMICS</div>
+    <h1>處置，以及 atropine 的另一面</h1>
+    <div class="sub">Hsinchu practice; central anticholinergic syndrome</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card r" style="flex:1.1">
+      <div class="lbl">處置（新竹）</div>
+      <ul class="pts tight">
+        <li>後擴張前 atropine 0.5–1.0 mg IV</li>
+        <li>暫停 Perdipine；N/S 加壓</li>
+        <li>Norepinephrine 50 µg IA</li>
+        <li>持續低血壓：infusion，進 ICU</li>
+      </ul>
+    </div>
+    <div class="card warn r" style="flex:1">
+      <div class="lbl">Atropine 的另一面</div>
+      <ul class="pts tight">
+        <li>長者：delirium、尿滯留</li>
+        <li>0.25 mg 就可能出事</li>
+        <li>躁動、雙側瞳孔放大 → 先想到藥</li>
+      </ul>
+    </div></div>
+  </div>  <div class="ref r">Baek JH. Neurointervention 2026.</div>
+  <aside class="notes">處置：球囊快撐快放；N/S pumping bag；norepinephrine 50 µg IA（1 mg / 10 mL = 100 µg/mL）；持續低血壓：Levophed 或 dopamine infusion，進 ICU。
+Baek 2026：70 多歲病人 atropine 0.25 mg 後 15 分鐘出現 hyperactive delirium、雙側瞳孔放大、臉潮紅，影像全部陰性，16 小時自行恢復：central anticholinergic syndrome。突然躁動、雙側瞳孔放大、無局部神經學 → 先想到藥，再排除中風。
+新竹做法：術中 SBP 140–160；低血壓先水、再 norepinephrine；高血壓用 Perdipine。血壓過高 + heparin → ICH；太低 → stent thrombosis。</aside>
+</section>
+
+<!-- ============ Spasm ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">SPASM</div>
+    <h1>Spasm：等一下，不要追</h1>
+    <div class="sub">Filter wire motion and tortuous ICA</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:360px"><div class="frame" data-idx="1" style="height:360px"><video src="assets/media/media-12-1.mp4" poster="assets/media/image-12-3.png" muted loop playsinline preload="auto"></video></div><figcaption>ICA 痙攣：串珠狀、filter 遠端</figcaption></figure>
+    <figure class="vid r" style="width:360px"><div class="frame" data-idx="2" style="height:360px"><video src="assets/media/media-12-4.mp4" poster="assets/media/image-12-6.png" muted loop playsinline preload="auto"></video></div><figcaption>側面：filter wire 走過的路徑</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">處置</div>
+      <ul class="pts tight">
+        <li class="r">NTG 100–400 µg 經 GC 緩推</li>
+        <li class="r">等 3–5 分鐘再造影</li>
+        <li class="r">不再送器材去撐</li>
+        <li class="r"><b>Spasm 會動、會好</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="callout r">血壓低時，先升壓再給 NTG</div>
+  <aside class="notes">影像：2024-04 新竹教學投影片（s20–s26）同一案例。串珠狀的 ICA 是典型 spasm，位置在 filter 近端、wire 走過的路徑。
+原因：ICA 彎折、filter wire 在遠端來回、aggressive hardware。
+處置（2024 s16）：NTG（Millisrol）100–400 µg via guiding catheter or sheath；固定 filter wire，手不要動。重點是「等」：spasm 會動、會好；dissection 不會動、會惡化。NTG 會再降血壓，先確認 SBP。</aside>
+</section>
+
+<!-- ============ Dissection ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">DISSECTION</div>
+    <h1>Dissection：來源與處理</h1>
+    <div class="sub">Rare and operator-made</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card r" style="flex:1">
+      <div class="lbl">四個來源</div>
+      <ul class="pts tight">
+        <li>ICA 嚴重彎折、kink</li>
+        <li>Wire、球囊、支架太用力</li>
+        <li>後擴到支架遠端以外</li>
+        <li>Sheath tip 在 CCA 內猛操作</li>
+      </ul>
+    </div>
+    <div class="card hl r" style="flex:1">
+      <div class="lbl">怎麼辦</div>
+      <ul class="pts tight">
+        <li><b>Wire 不退，保住真腔</b></li>
+        <li>Flow-limiting、遠端 flap → 第二支支架</li>
+        <li>非 flow-limiting → DAPT 觀察</li>
+        <li>兩個角度看，別被 spasm 騙</li>
+      </ul>
+    </div></div>
+  </div>  <div class="ref r">講者 2024 教學投影片 s19（dissection 來源）.</div>
+  <aside class="notes">Dissection 的四個來源：(a) ICA 嚴重彎折、kink；(b) aggressive hardware：wire、球囊、支架在 ICA 內；(c) 後擴張到支架遠端邊緣以外的 ICA；(d) guiding sheath tip 在 CCA 內猛烈操作。
+非 flow-limiting、無症狀 → DAPT 觀察、不後擴。手上已有的支架通常就是答案。</aside>
+</section>
+
+<!-- ============ CCA ostium / Perforation ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">DISSECTION · PERFORATION</div>
+    <h1>CCA 開口夾層與 Perforation</h1>
+    <div class="sub">Iatrogenic CCA ostium dissection; perforation (very rare)</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card r" style="flex:1">
+      <div class="lbl">CCA ostium dissection</div>
+      <ul class="pts tight">
+        <li>診斷導管（Simmons、JR4）頂出來</li>
+        <li>無症狀：DAPT 觀察</li>
+        <li>Flow-limiting：支架覆蓋</li>
+      </ul>
+    </div>
+    <div class="card warn r" style="flex:1">
+      <div class="lbl">Perforation</div>
+      <ul class="pts tight">
+        <li>球囊低壓 tamponade</li>
+        <li>Protamine 中和 heparin</li>
+        <li>Covered stent；頸部可外科止血</li>
+      </ul>
+    </div></div>
+  </div>  <div class="ref r">Biondi-Soares LG, et al. Surg Neurol Int 2025;16:436（CCA ostium iatrogenic dissection 系統性回顧）.</div>
+  <aside class="notes">Biondi-Soares 2025：81 歲女性追蹤血管攝影時 Simmons 2 導管造成左 CCA 開口 80% 夾層狹窄，無症狀，DAPT 保守治療；系統性回顧 13 例醫源性 CCA 夾層，7 例有症狀中 4 例缺血事件。
+對外科醫師：perforation 在頸部是可以開的位置；covered stent 當橋。重點還是 sheath tip 不要在 CCA 裡用力。</aside>
+</section>
+
+<!-- ============ 弓上斑塊栓塞與救援 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">EMBOLIZATION · RESCUE</div>
+    <h1>弓上斑塊栓塞與救援</h1>
+    <div class="sub">Shaking aortic plaque → MCA M1 occlusion → aspiration · video courtesy of Dr. Sheng-Fu Liu</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col" style="gap:14px">
+    <div class="g4">
+      <figure class="vid r"><div class="frame" data-idx="1" style="height:250px"><video src="assets/media/media-14-1.mp4" poster="assets/media/image-14-3.png" muted loop playsinline preload="auto"></video></div><figcaption>GC 反覆操作，斑塊在晃</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="2" style="height:250px"><video src="assets/media/media-14-4.mp4" poster="assets/media/image-14-6.png" muted loop playsinline preload="auto"></video></div><figcaption>栓塞發生</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="3" style="height:250px"><video src="assets/media/media-14-7.mp4" poster="assets/media/image-14-9.png" muted loop playsinline preload="auto"></video></div><figcaption>Lt MCA M1 閉塞（TICI 2）</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="4" style="height:250px"><video src="assets/media/media-14-10.mp4" poster="assets/media/image-14-12.png" muted loop playsinline preload="auto"></video></div><figcaption>Penumbra 抽吸取栓</figcaption></figure>
+    </div>
+    <div class="g2">
+      <div class="card r"><div class="lbl">辨識</div><p class="txt">新神經學變化 → 立刻顱內 DSA</p></div>
+      <div class="card warn r"><div class="lbl">救援</div><p class="txt">抽吸導管或 stent retriever</p></div>
+    </div>
+  </div>
+  <aside class="notes">劉聖甫醫師提供影片（subclavian stent restenosis 案例），catheter 已多次進出 aortic arch；主動脈上的斑塊是可以碰下來的。後續 Neuro Max 088 + ACE catheter + Marksman 抽吸，M1 恢復 TICI 2。
+辨識：顱內分支突然少了；病人表情、握力變了；新神經學變化 → 立刻顱內 DSA 兩個角度。
+救援：Neuron Max 088 + ACE 抽吸導管；或 stent retriever。沒有取栓能力：heparin 到位、立刻通知腦中風團隊。
+手勢重點：每次只轉 5–10°、等 torque 傳到尖端、推拉配合、感受阻力，不用蠻力。
+對外科醫師：如果你的導管室沒有取栓能力，術前就要知道誰來救、多久能到。</aside>
+</section>
+
+<!-- ============ No-reflow ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">NO-REFLOW</div>
+    <h1>No-reflow：不收傘、先抽吸</h1>
+    <div class="sub">66 y/o man, vulnerable plaque; Lt arm power 0 during no-reflow, recovered to 4/5</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col" style="gap:14px">
+    <div class="row" style="gap:16px">
+      <figure class="vid r" style="width:290px"><div class="frame" data-idx="1" style="height:290px"><video src="assets/media/media-15-1.mp4" poster="assets/media/image-15-3.png" muted loop playsinline preload="auto"></video></div><figcaption>No-reflow：atropine 0.5 mg IV</figcaption></figure>
+      <figure class="vid r" style="width:290px"><div class="frame" data-idx="2" style="height:290px"><video src="assets/media/media-15-4.mp4" poster="assets/media/image-15-6.png" muted loop playsinline preload="auto"></video></div><figcaption>抽吸（no yield）→ 收傘</figcaption></figure>
+      <figure class="vid r" style="width:290px"><div class="frame" data-idx="3" style="height:290px"><video src="assets/media/media-15-7.mp4" poster="assets/media/image-15-9.png" muted loop playsinline preload="auto"></video></div><figcaption>血流恢復 TICI 3</figcaption></figure>
+      <figure class="vid r" style="width:250px"><div class="frame" data-idx="" style="height:290px"><img src="assets/media/image-15-10.png" alt="術後 D1 DWI"></div><figcaption>術後 D1 DWI</figcaption></figure>
+    </div>
+    <div class="callout warn r">Atropine、升壓 → 抽吸 → 顱內 DSA → 最後才收傘</div>
+  </div>
+  <aside class="notes">順序：atropine、升壓 → 抽吸導管先抽（coronary aspiration 或 stroke catheter）→ 顱內 DSA → 最後才收傘；傘滿了就先抽。
+Can I do better next time？Vulnerable plaque：下次用 proximal protection 或雙重保護，後擴張 submaximal。
+2024-04 教學案例（也在 2025 隱藏頁）：66 歲男性，63 歲首次中風，高血壓、吸菸；pre-med aspirin 100／clopidogrel 75／atorvastatin 20 ×14 天；6 Fr 90 cm shuttle sheath，FilterWire EZ，WallStent 10-8×40，Sterling 4.5 mm 20 atm 後擴張。No-reflow 時 atropine 0.5 mg IV，thrombosuction 無抽出物，收傘後 TICI 3；左手肌力 0 → 4；IV hydration + dopamine。術後 D1 MRI 少量 DWI 病灶，肌力逐漸恢復。
+教訓：20 atm 後擴張太兇；vulnerable plaque 應該 proximal protection。</aside>
+</section>
+
+<!-- ============ Cheese-cutting ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">POST-RADIATION</div>
+    <h1>放射後狹窄：Cheese-cutting</h1>
+    <div class="sub">Long WallStent and post-dilatation, then major embolization</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col">
+    <div class="g3">
+      <figure class="vid r"><div class="frame" data-idx="1" style="height:365px"><video src="assets/media/media-16-1.mp4" poster="assets/media/image-16-3.png" muted loop playsinline preload="auto"></video></div><figcaption>長段 WallStent 覆蓋放射後狹窄</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="2" style="height:365px"><video src="assets/media/media-16-4.mp4" poster="assets/media/image-16-6.png" muted loop playsinline preload="auto"></video></div><figcaption>後擴張後顱內造影：分支大量消失</figcaption></figure>
+      <figure class="vid r"><div class="frame" data-idx="3" style="height:365px"><video src="assets/media/media-16-7.mp4" poster="assets/media/image-16-9.png" muted loop playsinline preload="auto"></video></div><figcaption>側面：major embolization</figcaption></figure>
+    </div>
+    <div class="callout warn r">少後擴、小球囊、proximal protection、考慮 dual-layer</div>
+  </div>
+  <aside class="notes">2024-04 教學投影片 s38–s41：放射後頸動脈狹窄，長段 WallStent + 後擴張後嚴重栓塞（cheese-cutting effect）。
+放射後血管：纖維化、長段、脆；支架與球囊像切乳酪一樣把斑塊擠出網孔。CEA 在放射野內不是好選項。
+放射後狹窄是 CAS 的相對適應症（頸部開過、照過），卻也是栓塞與再狹窄的高風險群。策略：filter 以外加 proximal protection；後擴張 submaximal 或不做；dual-layer stent 蓋住斑塊；術後再狹窄追蹤要勤。</aside>
+</section>
+
+<!-- ============ Filter 本身 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">FILTER</div>
+    <h1>Filter 本身的問題</h1>
+    <div class="sub">Not a complication itself, but the start of aggressive manipulation</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body">
+    <figure class="vid r" style="width:360px"><div class="frame" data-idx="1" style="height:360px"><video src="assets/media/media-17-1.mp4" poster="assets/media/image-17-3.png" muted loop playsinline preload="auto"></video></div><figcaption>Retrieval catheter 卡在 stent 近端</figcaption></figure>
+    <figure class="vid r" style="width:360px"><div class="frame" data-idx="2" style="height:360px"><video src="assets/media/media-17-4.mp4" poster="assets/media/image-17-6.png" muted loop playsinline preload="auto"></video></div><figcaption>Filter 位置不好，支架已經就位</figcaption></figure>
+    <div class="col grow">
+      <div class="lbl r">四種狀況</div>
+      <ul class="pts tight">
+        <li class="r">傘滿 → 先抽吸</li>
+        <li class="r">收傘卡住 → 轉頭、壓迫，<b>不硬拉</b></li>
+        <li class="r">Jailed wire → 不後擴到 wire</li>
+        <li class="r">走不過 → Spider／V18</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ref r">講者 2024 教學投影片 s47「Filter retrieval difficulty」；2025 s16、s21。</div>
+  <aside class="notes">四種狀況：傘滿、血流變慢 → 收傘前先抽吸；收傘卡住 → neck flexion／rotation、體外壓迫，不要硬拉；jailed filter wire → 不後擴到 wire，小球囊側推；filter 走不過 → 換 Spider／V18，或先 proximal protection。
+Filter retrieval 卡在支架近端：讓病人轉頭、低頭、抬頭，或體外手壓，retrieval catheter 多半就過去了。千萬不要硬拉，那會把支架拉位、把傘裡的碎屑倒出來。
+傘滿的徵象：ICA 血流變慢、對比劑滯留。收傘前先用抽吸導管把傘近端抽乾淨。</aside>
+</section>
+
+<!-- ============ Air 1 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">AIR · THROMBUS</div>
+    <h1>Air 與管路血栓：看不見的栓子</h1>
+    <div class="sub">No stent or EPD prevents these; only the workflow does</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body col">
+    <div class="g3">
+      <div class="card r"><h3>Air</h3><ul class="pts tight"><li>支架倒吸空氣</li><li>5-way 持續 flush</li><li>接管先回抽</li></ul></div>
+      <div class="card r"><h3>管路血栓</h3><ul class="pts tight"><li>側孔加壓 flush</li><li>ACT 每 30 分</li><li>定時回抽棄血</li></ul></div>
+      <div class="card r"><h3>針筒尖端</h3><ul class="pts tight"><li>回抽的血不回打</li><li>對比劑與 N/S 分開</li><li>看到血就換</li></ul></div>
+    </div>
+  </div>
+  <aside class="notes">出自我 2016 年併發症清單：air embolism、thrombus formation in lines and tubings、thrombus at the tip of syringes。這三項沒有任何支架或 EPD 能防，只有流程能防。
+Air embolism：支架 profile 比 lumen 大 → 倒吸空氣；5-way 持續 N/S flush、聽聲音；接管先回抽、對光看氣泡。
+管路內血栓：側孔沒持續 flush → heparinized saline 加壓袋；ACT 每 30 分；長時間操作定時回抽棄血再 flush。
+針筒尖端血栓：回抽的血放久會凝 → 不回打；對比劑與 N/S 針筒分開；看到血就換針筒。
+2025 s17：不能造影時常是倒吸 air；進支架時從 5-way 持續 N/S flush，聽聲音。</aside>
+</section>
+
+<!-- ============ Air 2 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">AIR · THROMBUS</div>
+    <h1>發生了怎麼辦</h1>
+    <div class="sub">Air embolism and line thrombus</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body col">
+    <ul class="pts">
+      <li class="r">Air：100% O2、抬高血壓、能抽就抽；多半小量、可逆</li>
+      <li class="r">血栓：heparin 補到 ACT；抽吸；顱內 DSA 看分支</li>
+    </ul>
+    <div class="callout r">回頭檢查流程，當天就改</div>
+  </div>
+</section>
+
+<!-- ============ 神經學變化 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">NEW DEFICIT</div>
+    <h1>術中神經學變化：先看三樣</h1>
+    <div class="sub">A new deficit on the table: 90 seconds to decide</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col">
+    <div class="g3">
+      <div class="card r"><h3><span class="n">1</span>Monitor</h3><ul class="pts tight"><li>SBP、HR、SpO2</li><li>低血壓先升壓</li><li>慢就給 atropine</li></ul></div>
+      <div class="card r"><h3><span class="n">2</span>病人</h3><ul class="pts tight"><li>表情、瞳孔</li><li>握手、說話</li><li>本來就每 15 分看</li></ul></div>
+      <div class="card hl r"><h3><span class="n">3</span>造影</h3><ul class="pts tight"><li>頸部 + 顱內 DSA</li><li>兩個角度</li><li>比對 baseline</li></ul></div>
+    </div>
+  </div>
+  <aside class="notes">台上出現新神經學變化，三步：monitor、病人、造影。造影後分四條路（下一頁）。</aside>
+</section>
+
+<!-- ============ 神經學變化 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">NEW DEFICIT</div>
+    <h1>造影之後：四條路</h1>
+    <div class="sub">Occlusion, hyperperfusion/ICH, hemodynamic, stroke mimic</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col">
+    <div class="g2">
+      <div class="card warn r"><div class="lbl">血管閉塞</div><p class="txt">抽吸／stent retriever；filter 還在先抽</p></div>
+      <div class="card warn r"><div class="lbl">通暢 + 血壓高、頭痛／癲癇</div><p class="txt">Protamine、降壓、立刻 CT、通知 NS</p></div>
+      <div class="card r"><div class="lbl">通暢 + 血壓低</div><p class="txt">水、升壓藥；多隨血壓回來</p></div>
+      <div class="card r"><div class="lbl">通暢 + 意識／視覺異常</div><p class="txt">Contrast、atropine：排除中風後支持</p></div>
+    </div>
+    <div class="ref r">整理自講者 2024 併發症教學與新竹 CCU 流程；Karzoun A, et al. JACC Case Rep 2026;31:107054.</div>
+  </div>
+  <aside class="notes">閉塞就救援；通暢但血壓高、頭痛、癲癇就是 hyperperfusion／ICH，先停 heparin（protamine）、降壓、CT、通知 NS；通暢但血壓低就是 hemodynamic，症狀多半隨血壓回來；通暢但意識或視覺異常要想 contrast encephalopathy（可逆、24–48 小時）與 atropine delirium，排除中風後支持療法。
+Karzoun 2026：84 歲男性雙側 CAS 相隔 4 年各出現一次暫時性皮質盲，影像正常，20 小時內完全恢復：stroke mimic。</aside>
+</section>
+
+<!-- ============ 章節 4 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 4 · 術後併發症</div>
+  <h2 class="r">術後 24 小時：<br>血壓與神經學</h2>
+  <div class="sub2 r">Hyperperfusion／ICH、stent thrombosis、入路、其他</div>
+  <div class="time r">約 6 分鐘</div>
+  <div class="no">04</div>
+</section>
+
+<!-- ============ CHS 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">HYPERPERFUSION</div>
+    <h1>Hyperperfusion 與 ICH</h1>
+    <div class="sub">Most frequent cause of death after CAS, and the most preventable</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:420px">
+      <div class="card r stat"><div class="num" data-count="4.6" data-suf="%">4.6%</div><div class="what">CAS 後 CHS（pooled）</div></div>
+      <div class="card warn r stat"><div class="num" style="color:var(--alert)" data-count="47" data-suf="%">47%</div><div class="what">CHS 病人發生中風；54% 致死或失能</div></div>
+      <div class="card r stat"><div class="num" data-count="12" data-suf=" h">12 h</div><div class="what">中位發病時間（IQR 8–36 h）</div></div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">危險因子與表現</div>
+      <ul class="pts tight">
+        <li class="r">≥ 90%、側枝差、CVR 受損（RR 5.2）</li>
+        <li class="r">同側頭痛、血壓飆高、癲癇、意識改變</li>
+        <li class="r">TCAR 少一半：0.53% vs 1.1%</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ref r">Huibers AE, et al. EJVES 2018;56:322-333.  Chow CY, et al. Ann Vasc Surg 2025;113:112-119 (VQI, n = 69,480).</div>
+  <aside class="notes">Huibers 2018 meta-analysis：CAS 後 CHS pooled 4.6%（3.1–6.8），47% 發生中風、其中 54% 致死或失能；中位發病 12 小時；CVR 受損 RR 5.2；有症狀者反而 CHS 較低（RR 0.20，可能因血壓管理更積極）。
+有症狀病人 ICH 0.9%（無症狀 0.2%，Uchida 2024）；HICH 可達 3.1%（Xu 2021）。噁心、局部癲癇也是表現。
+Chow 2025（VQI 69,480 例）：CHS TCAR 0.53% vs CAS+DEP 1.1%；有症狀病人 TCAR aOR 0.52；CHS 病人中 TCAR 組院內死亡較低。flow control 有用。</aside>
+</section>
+
+<!-- ============ CHS 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">HYPERPERFUSION</div>
+    <h1>Hyperperfusion：預防與處理</h1>
+    <div class="sub">Hsinchu post-CAS CCU orders</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card hl r" style="flex:1">
+      <div class="lbl">預防</div>
+      <ul class="pts tight">
+        <li>術中 SBP 140–160</li>
+        <li>支架後立刻回開 Perdipine</li>
+        <li>術後 SBP 在基準 ±10%</li>
+        <li>高風險：MoMa 控流、分期</li>
+      </ul>
+    </div>
+    <div class="card warn r" style="flex:1">
+      <div class="lbl">發生了</div>
+      <ul class="pts tight">
+        <li>GCS 掉 &gt; 2 分 → 立刻 CT</li>
+        <li>ICH：protamine、積極降壓</li>
+        <li>抗血小板與 NS 一起決定</li>
+        <li>癲癇：benzodiazepine</li>
+      </ul>
+    </div></div>
+  </div>  <aside class="notes">新竹術後 CCU（2024 s213）：brain CT PRN if GCS change &gt;2 or focal weakness；IV N/S 維持 SBP 在 reference ±10%；I/O 正 &gt;3,500 mL 考慮 Levophed／dopamine。
+ICH 時 heparin 用 protamine 中和；抗血小板要不要停是與神外一起決定的事。支架剛放，停了會 thrombosis。
+癲癇：benzodiazepine；避免低血壓 → stent thrombosis。</aside>
+</section>
+
+<!-- ============ Stent thrombosis 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STENT THROMBOSIS</div>
+    <h1>Acute Stent Thrombosis</h1>
+    <div class="sub">Rare (0.4–0.8%), almost always explainable, a true emergency</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body">
+    <div class="col" style="width:420px">
+      <div class="card r stat"><div class="num" data-count="0.8" data-suf="%">0.8%</div><div class="what">有症狀病人 in-stent occlusion</div></div>
+      <div class="card r stat"><div class="num" data-count="0.4" data-suf="%">0.4%</div><div class="what">無症狀病人</div></div>
+      <div class="card warn r stat"><div class="num" style="color:var(--alert)">× 2.3</div><div class="what">沒有抗血小板的 stroke/death RR</div></div>
+    </div>
+    <div class="col grow">
+      <div class="lbl r">為什麼會 thrombosis</div>
+      <ul class="pts tight">
+        <li class="r">抗血小板沒吃到、無效</li>
+        <li class="r">Flap、貼壁不良、under-expansion</li>
+        <li class="r">術後持續低血壓</li>
+        <li class="r">急性中風：血栓多、未 load</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ref r">Uchida K, et al. JACC Cardiovasc Interv 2024;17:1148-1159.  Marcaccio CL, et al. J Vasc Surg 2023;77:1434-1446.</div>
+  <aside class="notes">Uchida 2024：acute in-stent occlusion 有症狀 0.8% vs 無症狀 0.4%（aOR 2.18）。
+Marcaccio 2023：無抗血小板 RR 2.3、aspirin 單用 RR 1.6。
+Stent thrombosis 幾乎都找得到原因：藥沒吃、flap、低血壓。這就是查核表第 2、8、14 項存在的理由。</aside>
+</section>
+
+<!-- ============ Stent thrombosis 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">STENT THROMBOSIS</div>
+    <h1>Stent Thrombosis：預防與處理</h1>
+    <div class="sub">Prevention and bail-out</div>
+    <div class="tags"><span class="tag adv">進階 Advanced</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card hl r" style="flex:1">
+      <div class="lbl">預防</div>
+      <ul class="pts tight">
+        <li>確認 DAPT 有吃；當天 reloading</li>
+        <li>支架頭尾落在正常段</li>
+        <li>Flap 就蓋掉</li>
+        <li>避免術後 SBP &lt; 100</li>
+      </ul>
+    </div>
+    <div class="card warn r" style="flex:1">
+      <div class="lbl">發生了</div>
+      <ul class="pts tight">
+        <li>立刻回導管室：抽吸、stent retriever</li>
+        <li>GP IIb/IIIa：無 ICH 且必要時</li>
+        <li>確認血小板反應，考慮換 P2Y12</li>
+      </ul>
+    </div></div>
+  </div>  <div class="ref r">Locham S, et al. Ann Vasc Surg 2024;103:151-158.</div>
+  <aside class="notes">預防：後擴張到貼壁即可。
+發生了：必要時再放支架。GP IIb/IIIa 在 tfCAS 出血風險高，無 ICH 且必要時才用。</aside>
+</section>
+
+<!-- ============ 入路 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">ACCESS SITE</div>
+    <h1>入路併發症：外科醫師最熟</h1>
+    <div class="sub">Femoral, radial and carotid access bleed differently</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <table class="t r">
+      <tr><th>入路</th><th>常見併發症</th><th>數字</th></tr>
+      <tr><td>股動脈</td><td>血腫、假性動脈瘤、腹膜後出血</td><td>入路介入 0.8%</td></tr>
+      <tr><td>橈／肱</td><td>橈動脈閉塞、前臂血腫</td><td>閉塞 2%、血腫 1%</td></tr>
+      <tr><td>TCAR</td><td>頸部血腫、顱神經傷害</td><td>需介入 1.3%</td></tr>
+    </table>
+    <div class="ref r">Schermerhorn ML, et al. JAMA 2019;322:2313-2322.  Batista S, et al. Neuroradiol J 2024;37:546-555.  Ma P, et al. BMC Neurol 2024;24:231.</div>
+  </div>
+  <aside class="notes">股動脈 TFA：血腫、假性動脈瘤、AV fistula、腹膜後出血；VQI tfCAS 入路介入 0.8%。
+橈／肱動脈：橈動脈閉塞、前臂血腫；肱動脈神經傷害；罕見縱膈腔血腫。TR-CAS 閉塞 2%、血腫 1%。
+TCAR 經頸：頸部血腫（需介入 1.3%）、顱神經傷害。
+VQI 2019：TCAR 入路併發症需介入 1.3% vs tfCAS 0.8%；TCAR 透視時間 5 vs 16 分鐘、對比劑 30 vs 80 mL。
+Batista 2024：TR-CAS 成功 95%、crossover 6%、橈動脈無症狀閉塞 2%、前臂血腫 1%。
+Ma 2024：81 歲男性經橈動脈腦血管攝影後縱膈腔血腫，保守治療。wire 在鎖骨下／弓上分支不要盲推。</aside>
+</section>
+
+<!-- ============ 入路 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">ACCESS SITE</div>
+    <h1>入路：怎麼預防</h1>
+    <div class="sub">Hemostasis is part of neuroprotection</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <ul class="pts">
+      <li class="r">股動脈：超音波導引穿刺、closure device、平躺 6 小時</li>
+      <li class="r">橈動脈：spasmolytic、親水長鞘；wire 不盲推</li>
+      <li class="r">TCAR：常規 protamine，出血 8.3% → 2.8%</li>
+    </ul>
+    <div class="callout warn r">出血 → 低血壓 → stent thrombosis；輸血又停掉 DAPT</div>
+    <div class="ref r">Liang P, et al. J Vasc Surg 2020;72:2079-2087.</div>
+  </div>
+  <aside class="notes">股動脈：超音波導引穿刺（Zone 2–3）、closure device、6 小時平躺。
+橈／肱：spasmolytic、親水長鞘、止血帶；wire 不盲推。
+TCAR：protamine 常規中和；血腫壓迫氣道要早開。
+Liang 2020（VQI TCAR 5,144 例）：protamine 使出血併發症 8.3% → 2.8%（RR 0.33），stroke/death 無差。
+入路出血對 CAS 特別危險：止血做乾淨是神經保護的一部分。</aside>
+</section>
+
+<!-- ============ 其他 1 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">OTHERS</div>
+    <h1>少見但要認得（1/2）</h1>
+    <div class="sub">Contrast-induced encephalopathy, myocardial infarction</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card r" style="flex:1">
+      <h3>Contrast encephalopathy</h3>
+      <ul class="pts tight"><li>皮質盲、失語、偏癱</li><li>24–48 小時可逆</li><li>曾發生者會再發</li></ul>
+    </div>
+    <div class="card r" style="flex:1">
+      <h3>圍術期 MI</h3>
+      <ul class="pts tight"><li>CREST：CAS 1.1% vs CEA 2.3%</li><li>與 10 年死亡率相關</li><li>術前心臟評估</li></ul>
+    </div></div>
+  </div>  <div class="ref r">Karzoun A, et al. JACC Case Rep 2026;31:107054.  Brott TG, et al. N Engl J Med 2010.  Jones MR, et al. Circ Cardiovasc Qual Outcomes 2018;11:e004663.</div>
+  <aside class="notes">Contrast-induced encephalopathy：皮質盲、失語、偏癱、意識改變；CT 可見皮質顯影／腦腫；可逆，24–48 小時恢復；曾發生者會再發。減少對比劑、等滲透壓；支持療法、類固醇。
+圍術期 MI：CREST CAS 1.1% vs CEA 2.3%，多為 biomarker-only；圍術期 MI 仍與 10 年死亡率相關；術前心臟評估；血壓不要過低、過高。
+Jones 2018（CREST 10 年）：圍術期中風者 10 年死亡 HR 1.74，主要來自 0–90 天的早期死亡；biomarker-only 心肌事件也與死亡率相關。</aside>
+</section>
+
+<!-- ============ 其他 2 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">OTHERS</div>
+    <h1>少見但要認得（2/2）</h1>
+    <div class="sub">Seizure, cranial nerve injury, restenosis</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag basic">基礎</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card warn r" style="flex:1">
+      <h3>癲癇</h3>
+      <ul class="pts tight"><li>多半是 hyperperfusion 或 ICH</li><li>立刻 CT；benzodiazepine</li><li>別當單純癲癇處理</li></ul>
+    </div>
+    <div class="card r" style="flex:1">
+      <h3>CNI／再狹窄</h3>
+      <ul class="pts tight"><li>CNI：CEA、TCAR 切口相關</li><li>超音波 6 個月、1 年、每年</li><li>&gt; 70% 再評估</li></ul>
+    </div></div>
+  </div>  <div class="ref r">講者 2024 s214（追蹤間隔）.</div>
+  <aside class="notes">癲癇：多半是 hyperperfusion 或 ICH 的表現；少數 contrast；立刻 CT；benzodiazepine；降壓。
+CNI：CEA、TCAR 的切口相關；tfCAS 幾乎沒有。
+再狹窄：CAS 再狹窄多半無症狀；&gt;70% 再評估。追蹤（2024 s214）：一年內每 6 個月超音波，之後每年一次。</aside>
+</section>
+
+<!-- ============ 術後 24 小時 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">CCU · 24 H</div>
+    <h1>術後 24 小時：CCU 的工作</h1>
+    <div class="sub">Blood pressure, hourly neurology, antiplatelet plan</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card r" style="flex:1"><div class="lbl">血壓</div><ul class="pts tight"><li>SBP 在基準 ±10%</li><li>低：N/S + Levophed</li><li>高：Perdipine</li></ul></div>
+    <div class="card hl r" style="flex:1"><div class="lbl">神經學</div><ul class="pts tight"><li>每小時 GCS、肌力</li><li>GCS 掉 &gt; 2 → CT</li><li>頭痛 + 血壓高 = CHS</li></ul></div>
+    <div class="card r" style="flex:1"><div class="lbl">藥物</div><ul class="pts tight"><li>DAPT ≥ 1 個月</li><li>Statin 終身</li><li>寫好誰追蹤</li></ul></div></div>
+  </div>  <div class="ref r">新竹術後 CCU 醫囑（2024 s213）.  Kishi M, et al. J Stroke Cerebrovasc Dis 2025;34:108452.  ESVS 2023 Guidelines.</div>
+  <aside class="notes">血壓：IV N/S 維持 SBP 在術前基準 ±10%；低血壓 N/S 500 + Levophed；高血壓 Perdipine；I/O 正 &gt; 3,500 mL 改升壓藥，不再灌水。SBP 過高 + heparin → ICH；太低 → thrombosis。
+神經學：每小時 GCS、瞳孔、肌力、語言；GCS 掉 &gt; 2 分或局部無力 → 立刻 CT；頭痛 + 血壓高 = hyperperfusion，直到證明不是；入路部位血腫、遠端脈搏。
+藥物：DAPT ≥ 1 個月；高風險病灶 3 個月；3 個月 vs 更長：出血 HR 6.2，缺血無差；statin 終身；血壓藥依基準調整；出院前寫好誰追蹤、何時超音波。
+Kishi 2025（4 中心 347 例、配對 80 對）：DAPT &gt;3 個月 出血併發症 HR 6.21（含顱內與顱外），缺血事件無顯著差異；常規延長超過 3 個月可能不必要。
+新竹做法：DAPT 至少 1 個月，部分 6 個月；放射後、dual-layer、急性中風病人偏向 3 個月。</aside>
+</section>
+
+<!-- ============ 章節 5 ============ -->
+<section class="slide chapter">
+  <div class="lbl r">PART 5 · 系統</div>
+  <h2 class="r">把流程<br>變成制度</h2>
+  <div class="sub2 r">查核表、救援準備、Take Home</div>
+  <div class="time r">約 3 分鐘</div>
+  <div class="no">05</div>
+</section>
+
+<!-- ============ 查核表 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">CHECKLIST</div>
+    <h1>新竹工作查核表</h1>
+    <div class="sub">每一項都來自某個病人的併發症</div>
+    <div class="tags"><span class="tag basic">基礎 Basic</span></div>
+  </div>
+  <div class="body col">
+    <style>#ck td{padding-top:6px;padding-bottom:6px}</style>
+    <table class="t r" id="ck">
+      <tr><th>項目</th><th>內容</th><th>誰確認</th></tr>
+      <tr><td>術前藥物</td><td>Aspirin + Clopidogrel + Statin</td><td class="who">病房 NP</td></tr>
+      <tr><td>器材</td><td>Sheath／EPD／stent；救援器材</td><td class="who">導管室書記</td></tr>
+      <tr><td>NS 與 Neuro</td><td>治療前 1 小時確認值班</td><td class="who">病房 NP</td></tr>
+      <tr><td>血壓</td><td>Perdipine 或 Levophed；SBP 140–160</td><td class="who">1st assistant</td></tr>
+      <tr><td>Heparin</td><td>3000 U → ACT 250–300</td><td class="who">Pruka 人員</td></tr>
+      <tr><td>保護裝置</td><td>單套或雙套？</td><td class="who">術者</td></tr>
+      <tr><td>支架前後</td><td>Flush；atropine；Perdipine</td><td class="who">1st assistant</td></tr>
+      <tr><td>神經學</td><td>每 15 分鐘表情與瞳孔</td><td class="who">Pruka 人員</td></tr>
+      <tr><td>術後</td><td>進 ICU；SBP 目標寫進醫囑</td><td class="who">CCU NP</td></tr>
+    </table>
+  </div>
+  <aside class="notes">查核表的用意：把「確認」交給制度，不交給記憶。
+完整查核表（2025 s32）：
+1 術前溝通：所有家屬一起聽說明，手術當天到場。
+2 術前藥物：Plavix、Bokey、Lipitor 缺一不可（急性中風不限）。
+3 器材：前一天確認 shuttle sheath、EPD、stent；救援器材在架上。
+4 通知 NS 與 Neuro：治療前一小時確認 NS 值班。
+5 文件：手術同意書、ICU 同意書。
+6 CCU／ICU 床位：做完一定去 ICU；是否洗腎？
+7 血壓：Perdipine 4 amp 或 Levophed，術中 SBP 140–160。
+8 抗凝：heparin 3000 U，5 分後 recheck，ACT 250–300 每 30 分。
+9 保護裝置：單套或雙套？雙側同時只能 filter；狹窄＋血塊或正在中風中考慮雙套。
+10 支架置放前：saline flush。
+11 支架進入中：atropine 0.5 mg，暫停 Perdipine。
+12 支架置放後：回開 Perdipine。
+13 神經學：每 15 分鐘表情與瞳孔。
+14 術後血壓：N/S 500 + Levophed 治低血壓；Perdipine 治高血壓。術後每小時神經學。血壓過高 + heparin → ICH；太低 → stent thrombosis。</aside>
+</section>
+
+<!-- ============ 救援準備 ◇ ============ -->
+<section class="slide" data-skip>
+  <div class="hd r">
+    <div class="kicker">PREPARATION</div>
+    <h1>救援準備：人、器材、路線</h1>
+    <div class="sub">Before the first case, not during it</div>
+    <div class="tags"><span class="tag skip">◇ 20 分鐘版可略</span><span class="tag adv">進階</span></div>
+  </div>
+  <div class="body col">
+    <div class="g3">
+      <div class="card r"><h3>自己</h3><ul class="pts tight"><li>回顧所有併發症</li><li>PCI、PAOD、CCU 經驗</li></ul></div>
+      <div class="card r"><h3>團隊</h3><ul class="pts tight"><li>導管室教學</li><li>各自的查核項</li></ul></div>
+      <div class="card r"><h3>器材</h3><ul class="pts tight"><li>抽吸、retriever</li><li>急救藥抽好</li></ul></div>
+    </div>
+    <div class="callout warn r">沒有取栓能力：術前就要知道誰來、多久到、怎麼送</div>
+    <div class="ref r">講者 2024 教學投影片 s215「How did I start my first high-risk procedure」。</div>
+  </div>
+  <aside class="notes">自己：回顧所有併發症（預防、處理、數字）；技術與經驗：PCI、PAOD、CCU 照護；同意、保險、家屬說明的流程。
+團隊：導管室教學（適應症、步驟、併發症）；Pruka、第一助手、NP 各自的查核項；神經內外科：中風了誰接、出血了誰開。
+器材：抽吸導管（coronary／stroke）、stent retriever；MoMa 或 proximal balloon；covered stent；atropine、norepinephrine、NTG、protamine 抽好放桌上。
+2024 s215 原文：Prepare yourself（回顧所有併發症：預防、處理、數字；technique and experience：PCI 100 例、PAOD 300 例、CCU care 兩年；paramedical issues）；Prepare your team（teaching at the cath room；prepare the devices including salvage procedures and devices；communication with neurology and neurosurgical team）。</aside>
+</section>
+
+<!-- ============ Take Home ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">TAKE HOME</div>
+    <h1>Take Home Message</h1>
+    <div class="sub">Prevention, recognition, response</div>
+    <div class="tags"><span class="tag">基礎 → 進階</span></div>
+  </div>
+  <div class="body col">
+    <div class="row" style="align-items:stretch">
+    <div class="card hl r" style="flex:1.25">
+      <div class="lbl">講者的四句話</div>
+      <ul class="pts tight">
+        <li>Prevention at all cost</li>
+        <li>台上每個錯誤都無法遮掩</li>
+        <li>三步看完、九十秒決定</li>
+        <li>Success depends not only on skills but also on character</li>
+      </ul>
+    </div>
+    <div class="card r" style="flex:1">
+      <div class="lbl mint">入門：先做到</div>
+      <ul class="pts tight"><li>會分 minor／major</li><li>會認紅旗</li><li>做完一定進 ICU</li></ul>
+    </div>
+    <div class="card r" style="flex:1">
+      <div class="lbl">進階：再長出</div>
+      <ul class="pts tight"><li>栓塞救援</li><li>Dissection 決策</li><li>雙重保護</li></ul>
+    </div></div>
+  </div>  <aside class="notes">結尾 1 分鐘。回到開頭的數字：好手的 CAS 30 天 stroke/death 1.5–3%。那 1.5–3% 不是運氣，是今天這些頁面加起來的結果。
+講者原句：Prevention at all cost：風險在術前就被拿掉一半；台上犯的每個錯誤都無法遮掩，病患的神經學後遺症會讓你永遠記得；rapid recognition and response：三步看完、九十秒決定。
+入門：會分 minor／major；會認紅旗：≥90% + 側枝差、tPA 後、Type III + 鈣化；atropine、NTG、升壓藥在手邊；照查核表走，做完一定進 ICU。
+進階：no-reflow 與弓上栓塞的救援；dissection 的覆蓋決策；proximal protection 與雙重保護；ICH 時抗血小板的取捨（與 NS 一起）。</aside>
+</section>
+
+<!-- ============ 參考文獻 1 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">REFERENCES</div>
+    <h1>參考文獻（1/2）</h1>
+  </div>
+  <div class="body top r">
+    <ol class="reflist">
+      <li>1. Halliday A, et al. Second asymptomatic carotid surgery trial (ACST-2). Lancet 2021;398(10305):1065-1073. doi:10.1016/S0140-6736(21)01910-3</li>
+      <li>2. Brott TG, et al. Stenting versus endarterectomy for carotid-artery stenosis (CREST). N Engl J Med 2010;363(1):11-23. doi:10.1056/NEJMoa0912321 ｜ Long-term results. N Engl J Med 2016;374(11):1021-1031. doi:10.1056/NEJMoa1505215</li>
+      <li>3. Uchida K, et al. Real-world outcomes of CAS in symptomatic and asymptomatic patients. JACC Cardiovasc Interv 2024;17(9):1148-1159. doi:10.1016/j.jcin.2024.03.014</li>
+      <li>4. Schermerhorn ML, et al. TCAR vs transfemoral CAS (VQI). JAMA 2019;322(23):2313-2322. doi:10.1001/jama.2019.18441</li>
+      <li>5. Altinbas A, et al. Hemodynamic complications in the International Carotid Stenting Study. Int J Stroke 2014;9(3):284-290. doi:10.1111/ijs.12089</li>
+      <li>6. Huibers AE, et al. Cerebral hyperperfusion syndrome after CAS: systematic review and meta-analysis. Eur J Vasc Endovasc Surg 2018;56(3):322-333. doi:10.1016/j.ejvs.2018.05.012</li>
+      <li>7. Xu S, et al. Intracranial hemorrhage following CAS for symptomatic severe carotid stenosis. World Neurosurg 2021;155:e353-e361. doi:10.1016/j.wneu.2021.08.063</li>
+      <li>8. Chow CY, et al. Cerebral hyperperfusion syndrome: TCAR vs CAS with distal embolic protection (VQI). Ann Vasc Surg 2025;113:112-119. doi:10.1016/j.avsg.2024.12.064</li>
+      <li>9. Marcaccio CL, et al. Single versus dual antiplatelet therapy in CAS (VQI). J Vasc Surg 2023;77(5):1434-1446. doi:10.1016/j.jvs.2022.12.034</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 參考文獻 2 ============ -->
+<section class="slide">
+  <div class="hd r">
+    <div class="kicker">REFERENCES</div>
+    <h1>參考文獻（2/2）</h1>
+  </div>
+  <div class="body top r">
+    <ol class="reflist">
+      <li>10. Locham S, et al. Glycoprotein IIb-IIIa inhibitors in CAS (VQI). Ann Vasc Surg 2024;103:151-158. doi:10.1016/j.avsg.2023.07.097</li>
+      <li>11. Kakkos SK, et al. Peri-procedural outcomes of carotid interventions following thrombolysis: meta-analysis. Eur J Vasc Endovasc Surg 2021;62(3):340-349. doi:10.1016/j.ejvs.2021.06.003</li>
+      <li>12. Li B, et al. Long-period hemodynamic instability after CAS. Vascular 2023;31(5):892-901. doi:10.1177/17085381221091369</li>
+      <li>13. Mota L, et al. Stroke or death and carotid lesion calcification in CAS (VQI). J Vasc Surg 2024;79(2):305-315. doi:10.1016/j.jvs.2023.10.046</li>
+      <li>14. Kishi M, et al. 3-month dual antiplatelet therapy after CAS. J Stroke Cerebrovasc Dis 2025;34(11):108452. doi:10.1016/j.jstrokecerebrovasdis.2025.108452</li>
+      <li>15. Liang P, et al. Protamine use in TCAR (VQI). J Vasc Surg 2020;72(6):2079-2087. doi:10.1016/j.jvs.2020.02.019</li>
+      <li>16. Baek JH. Atropine-associated central anticholinergic syndrome during CAS. Neurointervention 2026. doi:10.5469/neuroint.2026.01158 ｜ Karzoun A, et al. Recurrent transient cortical blindness after bilateral CAS. JACC Case Rep 2026;31(11):107054. doi:10.1016/j.jaccas.2026.107054</li>
+      <li>17. Biondi-Soares LG, et al. Left CCA ostium iatrogenic dissection. Surg Neurol Int 2025;16:436. doi:10.25259/SNI_464_2025 ｜ Ma P, et al. Mediastinal hematoma after trans-radial cerebral angiography. BMC Neurol 2024;24:231. doi:10.1186/s12883-024-03714-z</li>
+      <li>18. Naylor R, et al. ESVS 2023 Clinical Practice Guidelines on Atherosclerotic Carotid and Vertebral Artery Disease. Eur J Vasc Endovasc Surg 2023;65(1):7-111. doi:10.1016/j.ejvs.2022.04.011 ｜ Spiliopoulos S, et al. CIRSE Standards of Practice on CAS. Cardiovasc Intervent Radiol 2024;47:705-716. doi:10.1007/s00270-024-03707-y</li>
+      <li>素材：謝慕揚 2016–2025 新竹臺大分院教學投影片與病例影片（2016 Complications During Carotid Stenting、2024-04-13 Carotid stenosis teaching、2025-06 Basic procedures）；劉聖甫醫師（shaking aortic plaque 影片）；方修御醫師 2024 TSCI 課程講義。</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 結尾 ============ -->
+<section class="slide cover">
+  <svg class="vessel" viewBox="0 0 520 720" aria-hidden="true">
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#26313e" stroke-width="58"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#26313e" stroke-width="40"/>
+    <path d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="#121821" stroke-width="50"/>
+    <path d="M270 470 C300 410 350 370 372 300 C390 240 380 140 420 -20" stroke="#121821" stroke-width="32"/>
+    <path data-draw d="M300 760 C300 620 290 540 270 470 C250 400 210 360 214 290 C218 220 262 150 250 -20" stroke="var(--accent)" stroke-width="2.5"/>
+  </svg>
+  <div class="inner" style="justify-content:center;padding-top:0">
+    <div class="eyebrow r">Q &amp; A</div>
+    <div class="title r" style="font-size:80px">謝謝聆聽</div>
+    <div class="zh r">Prevention at all cost. Rapid recognition and response.</div>
+    <div class="who r" style="margin-top:60px;padding-bottom:0">
+      <div><div class="name">謝慕揚<span>Mu-Yang Hsieh, MD, PhD, FESC</span></div>
+      <div class="aff">新竹臺大分院 心臟血管科 ｜ drake1128@gmail.com</div></div>
+    </div>
+  </div>
+</section>
+
+<div id="chrome"><span>謝慕揚 ｜ TSVS 頸動脈支架臨床訓練課程 ｜ Managing Risks and Complications</span><span class="pg" id="pg"></span></div>
+<div id="bar"></div>
+<div id="mode">20 分鐘版：略過 ◇ 頁</div>
+<div id="notes"></div>
+<div id="zoom"></div>
+</div></div>
+<script src="assets/motion.js"></script>
+<script>
+/* ============================================================
+   TSVS 2026 — 第二版投影片共用腳本
+   轉場與進場動畫使用 Motion（assets/motion.js，離線可用）。
+   鍵盤：→ / PageDown / 空白鍵 下一頁；← / PageUp 上一頁
+         F 全螢幕　N 講者備忘　S 20 分鐘版（略過 ◇ 頁）　P 影片暫停／播放
+         Home / End 第一頁／最後一頁；點影片可放大
+   ============================================================ */
+(function () {
+  const M = window.Motion || null;
+  const stage = document.getElementById('stage');
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const bar = document.getElementById('bar');
+  const pg = document.getElementById('pg');
+  const notesBox = document.getElementById('notes');
+  const modeBox = document.getElementById('mode');
+  const zoom = document.getElementById('zoom');
+  let cur = -1, busy = false, shortMode = false;
+  if (M) document.documentElement.classList.add('js-motion');
+
+  /* === 等比縮放舞台 === */
+  function fit() {
+    const s = Math.min(window.innerWidth / 1280, window.innerHeight / 720);
+    stage.style.transform = 'scale(' + s + ')';
+  }
+  window.addEventListener('resize', fit); fit();
+
+  /* === 影片控制 === */
+  function playIn(sl) {
+    sl.querySelectorAll('video').forEach(v => { try { v.currentTime = 0; v.play().catch(() => {}); } catch (e) {} });
+  }
+  function pauseIn(sl) { sl.querySelectorAll('video').forEach(v => v.pause()); }
+
+  /* === 數字跳動 === */
+  function countUp(sl) {
+    if (!M) return;
+    sl.querySelectorAll('[data-count]').forEach(el => {
+      const target = parseFloat(el.dataset.count);
+      const dec = (el.dataset.count.split('.')[1] || '').length;
+      const pre = el.dataset.pre || '', suf = el.dataset.suf || '';
+      M.animate(0, target, {
+        duration: 1.1, delay: 0.35, ease: [0.22, 1, 0.36, 1],
+        onUpdate: v => { el.textContent = pre + v.toFixed(dec) + suf; }
+      });
+    });
+  }
+
+  /* === 線條繪製（封面血管） === */
+  function drawPaths(sl) {
+    const paths = sl.querySelectorAll('svg [data-draw]');
+    paths.forEach((p, i) => {
+      const L = p.getTotalLength();
+      p.style.strokeDasharray = L; p.style.strokeDashoffset = L;
+      if (M) M.animate(p, { strokeDashoffset: [L, 0] }, { duration: 1.6, delay: 0.25 + i * 0.18, ease: [0.65, 0, 0.35, 1] });
+      else p.style.strokeDashoffset = 0;
+    });
+  }
+
+  /* === 進場：逐層揭示 === */
+  function reveal(sl) {
+    const els = sl.querySelectorAll('.r');
+    if (!M || !els.length) { els.forEach(e => e.style.opacity = 1); return; }
+    els.forEach(e => { e.style.opacity = 0; });
+    M.animate(els, { opacity: [0, 1], y: [22, 0], filter: ['blur(6px)', 'blur(0px)'] },
+      { duration: 0.6, delay: M.stagger(0.07, { startDelay: 0.12 }), ease: [0.22, 1, 0.36, 1] });
+  }
+
+  /* === 換頁 === */
+  function go(n, dir) {
+    if (n < 0 || n >= slides.length || n === cur) return;
+    slides.forEach(s => { if (s.classList.contains('leaving')) { s.classList.remove('leaving'); s.style.opacity = ''; s.style.transform = ''; s.style.filter = ''; } });
+    const prev = slides[cur], next = slides[n];
+    dir = dir || (n > cur ? 1 : -1);
+    busy = true;
+    if (prev) { pauseIn(prev); prev.classList.remove('active'); prev.classList.add('leaving'); }
+    next.querySelectorAll('.r').forEach(e => { e.style.opacity = 0; });
+    next.classList.add('active');
+    cur = n;
+    const done = () => { if (prev && !prev.classList.contains('active')) { prev.classList.remove('leaving'); prev.style.opacity = ''; prev.style.transform = ''; prev.style.filter = ''; } busy = false; };
+    if (M && prev) {
+      M.animate(prev, { opacity: [1, 0], x: [0, -70 * dir], filter: ['blur(0px)', 'blur(8px)'] }, { duration: 0.42, ease: [0.4, 0, 0.2, 1] });
+      M.animate(next, { opacity: [0, 1], x: [70 * dir, 0], scale: [0.985, 1] }, { duration: 0.55, ease: [0.22, 1, 0.36, 1] }).then(done);
+      setTimeout(done, 700);
+    } else { next.style.opacity = 1; done(); }
+    reveal(next); countUp(next); drawPaths(next); playIn(next);
+    stage.classList.toggle('is-cover', next.classList.contains('cover'));
+    bar.style.width = ((n + 1) / slides.length * 100) + '%';
+    pg.innerHTML = '<b>' + String(n + 1).padStart(2, '0') + '</b> / ' + String(slides.length).padStart(2, '0');
+    const nt = next.querySelector('.notes');
+    notesBox.textContent = nt ? nt.textContent.trim() : '（本頁無備忘）';
+    history.replaceState(null, '', '#' + (n + 1));
+  }
+  function step(d) {
+    let n = cur + d;
+    if (shortMode) while (n >= 0 && n < slides.length && slides[n].dataset.skip !== undefined) n += d;
+    go(n, d);
+  }
+
+  /* === 鍵盤 === */
+  document.addEventListener('keydown', e => {
+    if (zoom.classList.contains('on') && (e.key === 'Escape' || e.key === ' ')) { closeZoom(); e.preventDefault(); return; }
+    switch (e.key) {
+      case 'ArrowRight': case 'PageDown': case ' ': case 'Enter': case 'ArrowDown': step(1); e.preventDefault(); break;
+      case 'ArrowLeft': case 'PageUp': case 'Backspace': case 'ArrowUp': step(-1); e.preventDefault(); break;
+      case 'Home': go(0, -1); break;
+      case 'End': go(slides.length - 1, 1); break;
+      case 'f': case 'F':
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(() => {});
+        else document.exitFullscreen(); break;
+      case 'n': case 'N': notesBox.classList.toggle('on'); break;
+      case 's': case 'S':
+        shortMode = !shortMode; modeBox.classList.toggle('on', shortMode); break;
+      case 'p': case 'P':
+        slides[cur].querySelectorAll('video').forEach(v => v.paused ? v.play() : v.pause()); break;
+    }
+  });
+
+  /* === 觸控滑動 === */
+  let tx = null;
+  document.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (tx === null) return; const dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1); tx = null;
+  });
+
+  /* === 影片／圖片放大 === */
+  function closeZoom() { zoom.classList.remove('on'); zoom.innerHTML = ''; }
+  stage.addEventListener('click', e => {
+    const f = e.target.closest('.frame, .plate');
+    if (!f) return;
+    const media = f.querySelector('video, img'); if (!media) return;
+    const c = media.cloneNode(true);
+    if (c.tagName === 'VIDEO') { c.muted = true; c.loop = true; c.controls = true; c.currentTime = media.currentTime; }
+    zoom.innerHTML = ''; zoom.appendChild(c); zoom.classList.add('on');
+    if (c.tagName === 'VIDEO') c.play().catch(() => {});
+    if (M) M.animate(c, { scale: [0.6, 1], opacity: [0, 1] }, { type: 'spring', stiffness: 260, damping: 26 });
+    e.stopPropagation();
+  });
+  zoom.addEventListener('click', e => { if (e.target === zoom) closeZoom(); });
+
+  /* === 起始頁 === */
+  const h = parseInt(location.hash.slice(1), 10);
+  go(isNaN(h) ? 0 : Math.min(Math.max(h - 1, 0), slides.length - 1), 1);
+})();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+---
+title: "特別教學 · Special Teaching"
+subtitle: "對外演講的完整投影片：可直接在瀏覽器全螢幕播放，作為現場投影的備援"
+listing:
+  id: special-decks
+  type: grid
+  grid-columns: 2
+  sort: false
+  categories: true
+  contents:
+    - title: "頸動脈支架 Step-by-Step：Stenting Troubleshooting and Medication"
+      description: "TSVS 頸動脈支架臨床訓練課程（2026-11-14，台中）。從一個順利的案例走一遍，再談四個高風險步驟、difficult arch、嚴重鈣化、filter 與支架選擇、用藥。38 張，含病例影片。"
+      path: carotid-tsvs-2026/step-by-step/Carotid_Stenting_Step_by_Step.html
+      categories: [頸動脈 Carotid, 演講投影片]
+    - title: "Managing Risks and Complications in Carotid Procedures"
+      description: "TSVS 頸動脈支架臨床訓練課程（2026-11-14，台中）。頸動脈介入的風險管理與併發症處理：先預防、早辨識、快處置。49 張，含病例影片。"
+      path: carotid-tsvs-2026/risks-complications/Carotid_Risks_and_Complications.html
+      categories: [頸動脈 Carotid, 演講投影片]
+---
+
+本頁收錄**對外演講**的完整投影片。每份都是自含式網頁（影片、字型、動畫都在同一個資料夾），開啟後即可全螢幕播放。
+
+::: {#special-decks}
+:::
+
+---
+
+### 操作方式
+
+| 按鍵 | 功能 |
+|---|---|
+| → ／ PageDown ／ 空白鍵 | 下一頁（簡報筆可直接用） |
+| ← ／ PageUp | 上一頁 |
+| F | 全螢幕 |
+| N | 講者備忘 |
+| S | 20 分鐘版：略過標示 ◇ 的頁面 |
+| P | 影片暫停／播放 |
+| 點影片 | 放大檢視 |
+
+> 影片均為講者病例，已遮蔽影像四角的病人識別資訊；本頁內容僅供醫療專業人員教學使用。

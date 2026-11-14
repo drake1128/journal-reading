@@ -158,3 +158,7 @@ handouts/**/*.pdf
 !handouts/90-ai-technology/CRM_AI_Automation_Paradox.pdf
 !handouts/90-ai-technology/LLM_for_Medical_Research_Tutorial.pdf
 !handouts/99-misc/AMEE_2026_Preconference_Workshops_Literature_Review.pdf
+
+# 特別教學 Special Teaching — 演講備援用的自含式投影片（含影片，特例放行）
+!handouts/special-teaching/**/*.html
+!handouts/special-teaching/**/*.mp4

@@ -6,6 +6,8 @@ project:
   resources:
     # 3D 血管解剖：viewer.html 以程式動態載入模型與資料，需整個資料夾原樣複製
     - "interactive/anatomy3d/**"
+    # 特別教學：自含式演講投影片（HTML 內以相對路徑載入影片、字型、motion.js），整個資料夾原樣複製
+    - "handouts/special-teaching/**"
 
 website:
   title: "Journal Reading — Dr. Drake Hsieh"
@@ -24,6 +26,8 @@ website:
         href: handouts/10-icu-general/critical-care-biweekly-review.qmd
       - text: "課堂教學"
         href: handouts/classroom-teaching/index.qmd
+      - text: "特別教學"
+        href: handouts/special-teaching/index.qmd
       - text: "Mainz 2024"
         href: handouts/04-valvular-disease/mainz-2024/quarto/zh/index.qmd
     right:
@@ -44,6 +48,13 @@ website:
               href: interactive/anatomy3d/viewer.html?r=lower-limb
             - text: "3D 頭頸部血管（全螢幕）"
               href: interactive/anatomy3d/viewer.html?r=head-neck
+        - section: "特別教學 Special Teaching"
+          contents:
+            - handouts/special-teaching/index.qmd
+            - text: "頸動脈支架 Step-by-Step（TSVS 2026 演講, 38 張）"
+              href: handouts/special-teaching/carotid-tsvs-2026/step-by-step/Carotid_Stenting_Step_by_Step.html
+            - text: "Managing Risks and Complications in Carotid Procedures（TSVS 2026 演講, 49 張）"
+              href: handouts/special-teaching/carotid-tsvs-2026/risks-complications/Carotid_Risks_and_Complications.html
         - section: "課堂教學 Classroom Teaching"
           contents:
             - handouts/classroom-teaching/index.qmd
