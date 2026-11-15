@@ -1,0 +1,577 @@
+---
+title: "Critical Care 雙週期刊回顧 — 2026-11-15"
+date: 2026-11-15
+author: "謝慕揚 MD, PhD, FESC（讀書會共筆整理人）"
+description: "這一期的核心是「別被 abstract 的標題帶著走」。有三個方向相反的 negative／中性試驗（ARDS 追 normocapnia 沒有好處、創傷病人抗生素預防防不了 VAP、心臟驟停降溫找不到該降溫的次族群），一個改變我們看「sepsis 幾點算起」的大型分析，還有一個鎮痛的新選項 oli…"
+categories: ["Critical Care 雙週期刊回顧"]
+lang: zh-TW
+toc: true
+toc-depth: 3
+toc-expand: 2
+number-sections: false
+format:
+  html:
+    page-layout: article
+---
+
+::: {.callout-note appearance="minimal" icon=false}
+**原始講義**：[`Critical_Care_Biweekly_Review_2026-11-15 教學講義.md`](../Critical_Care_Biweekly_Review_2026-11-15%20教學講義.md)　｜　整理：謝慕揚 MD, PhD, FESC　｜　本頁由 `publish_weekly_reviews.py` 自動產生
+:::
+
+## 📬 本週導讀信
+
+::: {.letter}
+各位同仁 大家好：
+
+這是 2026-11-15 的 Critical Care 雙週期刊共筆，涵蓋 11-01 至 11-15 這兩週，來源是 ICM、Critical Care、CCM、AJRCCM、Resuscitation、Shock。我把這一期讀起來最有臨床意義的幾篇挑出來，先給結論，再講經過。
+
+🎯 本期主題：這一期的核心是「別被 abstract 的標題帶著走」。有三個方向相反的 negative／中性試驗（ARDS 追 normocapnia 沒有好處、創傷病人抗生素預防防不了 VAP、心臟驟停降溫找不到該降溫的次族群），一個改變我們看「sepsis 幾點算起」的大型分析，還有一個鎮痛的新選項 oliceridine。
+
+### 本期 Top 5
+
+先講「為什麼」。這五篇是因為會直接影響我們明天的照護判斷才被挑出來。
+
+1. 鎮痛新選項 oliceridine 不劣於 remifentanil（CO-ROAM）。中國 19 家 ICU、非劣性 randomized controlled trial (RCT)，n=304。在目標鎮痛範圍內時間 96.0% vs 92.3%（達非劣性）。比較特別的是呼吸抑制 0% vs 4.6%，拔管後 0% vs 7.9%，成本也較低。總之，有呼吸抑制顧慮的病人，這是一個合理的替代；但通氣時間與死亡沒有差別，定位在安全性，不是改善預後。[Intensive Care Med, PMID 43007421](https://pubmed.ncbi.nlm.nih.gov/43007421/)
+
+2. ARDS 低潮氣量通氣，追 normocapnia 沒有比允許 mild hypercapnia 好。以七個 ARDS Network／PETAL 試驗做 target trial emulation，每組 292 人。90 天死亡率 28.8% vs 28.8%，一模一樣。簡單來說，不必為了把二氧化碳壓回正常而拉高呼吸速率，permissive hypercapnia 是安全的。[Crit Care Med, PMID 43012617](https://pubmed.ncbi.nlm.nih.gov/43012617/)
+
+3. Sepsis 的「time zero」不該一視同仁。美國 145 家醫院、184 萬人次。抗生素每延遲 1 到 3 小時，只有在以低血壓（adjusted relative risk 1.07）或 lactate ≥4.0（1.10）定義起點時才和死亡上升相關；其他器官指標單獨存在時並沒有。也就是說，抗生素的緊迫度要看生理嚴重度分層：休克和高 lactate 分秒必爭，單純輕度指標異常的不必為了卡 bundle 時限而犧牲診斷。[Am J Respir Crit Care Med, PMID 43016314](https://pubmed.ncbi.nlm.nih.gov/43016314/)
+
+4. 創傷病人常規抗生素預防，防不了早發性呼吸器相關肺炎 (ventilator-associated pneumonia, VAP)（antiVAP）。法國 15 家創傷中心、1,321 人、傾向分數加權。早發性 VAP 32% vs 34%，加權後 weighted odds ratio 0.87（p=0.48），次要終點也都沒改善。總之，重傷病人不該常規用抗生素預防 VAP；該做的還是非抗生素的 bundle。[Crit Care, PMID 43026563](https://pubmed.ncbi.nlm.nih.gov/43026563/)
+
+5. 重症併發新發心房顫動 (new-onset atrial fibrillation, NOAF)：出院後血栓栓塞風險加倍，抗凝卻用得很少。54 篇、367,896 人的統合分析。NOAF 發生率 10.6%，出院後系統性血栓栓塞風險是沒有 NOAF 者的 1.94 到 2.01 倍，但抗凝使用率院內只有 33%、出院後 36%。倒是提醒我們，ICU 的 NOAF 不是過眼雲煙，出院時要納入風險評估與後續心律追蹤。[Crit Care Med, PMID 43018413](https://pubmed.ncbi.nlm.nih.gov/43018413/)
+
+### 其他重點一覽
+
+| 主題 | 一句話結論 | 連結 |
+|------|-----------|------|
+| 2026 ILCOR CoSTR | 年度復甦共識發布，涵蓋 BLS／ALS／PLS／NLS／EIT／First Aid，逐項以 GRADE 評估 | [Resuscitation 42988037](https://pubmed.ncbi.nlm.nih.gov/42988037/) |
+| 降溫 vs 正常體溫（TTM／TTM2） | 用機器學習找「誰該降溫」仍無異質益處；重點在預防發燒、維持正常體溫 | [Crit Care 42972430](https://pubmed.ncbi.nlm.nih.gov/42972430/) |
+| NEWS-1 TRIPS | NEWS2 觸發 Hour-1 bundle 可行、遵從率升；死亡率方向不利但不顯著（試點） | [Crit Care Med 43018426](https://pubmed.ncbi.nlm.nih.gov/43018426/) |
+| 免疫低下病人 HFNO | 整體無益，但機器學習找出實體器官移植等特定表型可能受益 | [Intensive Care Med 42970133](https://pubmed.ncbi.nlm.nih.gov/42970133/) |
+| 社區型 sepsis 分流 | 整體 ICU／HDU 未必划算；SOFA ≥6 或 GCS ≤12 者進 HDU 兼具存活與成本效益 | [Crit Care Med 43024934](https://pubmed.ncbi.nlm.nih.gov/43024934/) |
+| 出院後 NLR | sepsis 存活者門診一張 CBC 算 neutrophil:lymphocyte ratio，可做長期風險分層 | [Crit Care Med 43002070](https://pubmed.ncbi.nlm.nih.gov/43002070/) |
+| ECMO 中心設計 | 量能越大死亡越低；但分散到 ≥4 個 ICU 執行反而較差，宜適度集中 | [Crit Care Med 43018409](https://pubmed.ncbi.nlm.nih.gov/43018409/) |
+| 肥胖病人蛋白質 | 以調整體重計算，<0.45 g/kg／天與 ICU 死亡上升相關，但也不必衝高 | [Crit Care 43021385](https://pubmed.ncbi.nlm.nih.gov/43021385/) |
+| CKRT 早期白蛋白 | 持續或新發低白蛋白與一年腎衰竭及死亡相關，追蹤第 7 天的變化軌跡 | [Crit Care Med 43023826](https://pubmed.ncbi.nlm.nih.gov/43023826/) |
+
+### Take Home Message
+
+總結一句：這一期的主軸是「結論要看主要終點，不要看標題」。ARDS 追 normocapnia、創傷抗生素預防、心臟驟停降溫，三個都是沒有好處的訊號，別過度詮釋。倒是有兩件事可以明天就開始留意：一是 sepsis 的抗生素緊迫度要依休克和 lactate 分層，二是 ICU 的新發心房顫動要在出院時安排後續追蹤。鎮痛方面，oliceridine 是一個呼吸安全性較好的新選項，可以放進口袋。完整講義與投影片 (PDF) 已上傳到 handouts/10-icu-general/，也同步發佈到共筆網站。只是提出來供各位參考。
+
+---
+
+讀書會共筆整理人：謝慕揚 MD, PhD, FESC
+
+本文件為讀書會內部共筆，僅供醫療專業人員教學討論參考。
+:::
+
+## 📖 完整教學講義
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-11-15**
+**期間：2026-11-01 ～ 2026-11-15**
+**涵蓋期刊：** Intensive Care Medicine (ICM)、Critical Care、Critical Care Medicine (CCM)、American Journal of Respiratory and Critical Care Medicine (AJRCCM)、Resuscitation、Shock、Annals of Intensive Care。Lancet Respiratory Medicine 與 AJRCCM 本期間多以肺部門診主題（cystic fibrosis、COPD、bronchiectasis、ILD、OSA）為主，僅擷取其中重症相關者；Shock 本期間以動物與基礎研究為主；Annals of Intensive Care 僅見一篇 corrigendum。本期已排除上一期（2026-11-01）已收錄之文章。文獻來源：PubMed。
+
+---
+
+## 重點摘要 (Key Pearls)
+
+> **Pearl 1 — Oliceridine 在機械通氣病人的鎮痛不劣於 remifentanil，且呼吸抑制更少（CO-ROAM 試驗）**：中國 19 家加護病房 (Intensive Care Unit, ICU) 的多中心、評估者盲性、非劣性 Randomized Controlled Trial (RCT, n=304)，比較偏向 G 蛋白的 μ-opioid 受體促效劑 oliceridine 與 remifentanil。主要終點「在目標鎮痛範圍內時間 (Time in Target analgesic Range, TTR)」為 96.0% vs 92.3%（絕對差 +3.7%，95% CI −0.3 ～ +5.7；非劣性界值 −10%，**達非劣性**）。Oliceridine 的輕-中度不良藥物反應較少（Incidence Rate Ratio, IRR 0.72；p=0.049）、研究期間呼吸抑制 **0% vs 4.6%（p=0.015）**、拔管後呼吸抑制 **0% vs 7.9%（p=0.005）**，且成本較低。IMV 時間、ICU 住院、28 天死亡率無差異。
+
+> **Pearl 2 — Normocapnia 與 mild hypercapnia 在 ARDS 低潮氣量通氣的死亡率一模一樣（目標試驗模擬）**：以 7 個 Acute Respiratory Distress Syndrome (ARDS) Network/PETAL Network RCT 做 target trial emulation（每組 292 人），把 Paco₂ 分到 normocapnia（35–45 mmHg，靠提高呼吸速率）vs mild hypercapnia（50–55 mmHg）。90 天院內死亡率 **28.8% vs 28.8%（log-rank p=0.842）**，在高齡與肥胖次族群亦然。提高呼吸速率「追 normocapnia」並未帶來益處——但這是觀察性模擬，須謹慎。
+
+> **Pearl 3 — NEWS2 觸發的 Sepsis Hour-1 Bundle 可行但效益未定（NEWS-1 TRIPS 試點）**：香港 4 家急診的 stepped-wedge cluster RCT 試點（n=200），以 National Early Warning Score 2 (NEWS-2) ≥5 客觀觸發 Surviving Sepsis Campaign (SSC) Hour-1 Bundle。Lactate、血液培養、抗生素的遵從率顯著提升，但整體 bundle 遵從率僅 56.1%；30 天死亡率 **9.2% vs 3.9%（絕對差 +5.3%，95% CI −1.6 ～ +12.1；無統計差異）**。全規模試驗可行但需大很多的樣本數。
+
+> **Pearl 4 — Sepsis「time zero」不該一視同仁：真正對抗生素延遲敏感的是低血壓與高 lactate**：美國 145 家醫院、184 萬人次的大型分析顯示，抗生素每延遲 1–3 小時（vs 0–1 小時）僅在以 **低血壓**（adjusted Relative Risk, aRR 1.07）或 **lactate ≥4.0 mmol/L**（aRR 1.10）定義 time zero 時與死亡上升相關；其他器官失能單獨存在時則否。急性呼吸衰竭則在延遲 3–6 小時後才顯現風險（aRR 1.11）。這有助於把「抗生素要多快」的壓力放對地方。
+
+> **Pearl 5 — 創傷病人常規抗生素預防無法減少早發性呼吸器相關肺炎（antiVAP）**：法國 15 家創傷中心、1,321 人的傾向分數加權回溯研究。早期短療程抗生素預防（多為 amoxicillin-clavulanic acid）後，早發性 Ventilator-Associated Pneumonia (VAP) 發生率 32% vs 34%，加權後 **weighted OR 0.87（95% CI 0.66–1.22；p=0.48，無差異）**，次要終點亦無改善。嚴重創傷病人不應常規用抗生素預防早發性 VAP。
+
+> **Pearl 6 — 2026 ILCOR CoSTR 年度共識發布**：國際復甦聯盟 (International Liaison Committee on Resuscitation, ILCOR) 發表年度 Consensus on Science With Treatment Recommendations (CoSTR)，涵蓋 Basic Life Support (BLS)、Advanced Life Support (ALS)、Pediatric Life Support (PLS)、Neonatal Life Support (NLS)、Education/Implementation/Teams (EIT) 與 First Aid 六個工作小組，均以 GRADE 評估證據等級並列出研究缺口。此為復甦實務的年度權威更新，建議各單位對照自家流程。
+
+> **Pearl 7 — 降溫 vs 正常體溫在心臟驟停：連「缺血負荷/神經狀態」次族群都找不到異質益處**：以 TTM 與 TTM2 試驗（n=2,789）做因果森林 (causal forest) 與 BART 機器學習次族群分析，依缺血時間、到院神經學檢查找尋異質治療效果。6 個月死亡率 33°C vs 正常體溫 49.4% vs 47.9%；各法估計的條件平均風險差僅 −1.2% ～ +2.1%（p=0.99），**無可偵測的異質益處**。支持「積極控制體溫、預防發燒」而非強制 33°C。
+
+> **Pearl 8 — 重症併發新發心房顫動 (New-Onset Atrial Fibrillation, NOAF)：出院後血栓栓塞風險加倍、抗凝卻用得很少**：54 篇、367,896 人的 Bayesian 統合分析。重症 NOAF 發生率 10.6%；出院後系統性血栓栓塞絕對風險 7.1%、相對風險為無 NOAF 者的 **1.94–2.01 倍**；但抗凝使用率院內僅 32.9%、出院後 35.9%，且 23.9% 之後被診斷為持續性 AF。提醒：ICU 的 NOAF 不是過眼雲煙，需出院後風險分層。
+
+> **Pearl 9 — ECMO 醫院量能越大死亡率越低，但把 ECMO「分散到很多 ICU」反而較差**：Extracorporeal Life Support Organization (ELSO) registry、495 家醫院、115,849 位成人 Extracorporeal Membrane Oxygenation (ECMO)。較高年案例量與 ECMO 時數與較低死亡率相關（每 10 例 OR 0.98）；但在 ≥4 個 ICU 執行 ECMO 的醫院，校正後死亡率高於單一 ICU 者（OR 1.18），推測與病人複雜度較高有關，由中心總量抵銷。ECMO 照護或應適度集中。
+
+> **Pearl 10 — 肥胖重症病人的蛋白質別給太低：<0.45 g/kg 調整體重/天與 ICU 死亡上升相關**：785 家 ICU、9,068 位 BMI ≥25 病人的國際盛行率調查分析。前 4 天平均蛋白攝取與「活著出 ICU 的時間」無關；但**極低蛋白攝取（< 約 0.45 g/kg 調整體重/天）與 ICU 死亡風險上升相關**（0 g/kg 時 adjusted hazard 1.41）。超過此門檻則無進一步關聯。支持對過重/肥胖者避免早期蛋白嚴重不足。
+
+---
+
+## 1. Sepsis 與感染
+
+### 1.1 NEWS-1 TRIPS：以 NEWS2 觸發 Sepsis Hour-1 Bundle — 可行性試點 RCT
+
+**Lee JS, et al.（NEWS-1 TRIPS）Crit Care Med 2026.**
+
+- **設計**：Type 1 hybrid effectiveness-implementation、stepped-wedge cluster RCT 試點，搭配混合法實作評估（焦點團體、匿名問卷，以 RE-AIM 框架）
+- **場域**：香港 4 家急診 (Emergency Department, ED)
+- **族群**：≥18 歲、臨床診斷感染需住院且 NEWS-2 ≥5 的成人，n=200（標準照護 102 / NEWS-1 組 98）
+- **介入**：當 NEWS-2 ≥5 時客觀觸發 Surviving Sepsis Campaign (SSC) Hour-1 Bundle
+- **結果**：
+  - 實作期 lactate、血液培養、抗生素遵從率均**顯著上升**；但整體 bundle 遵從率僅 **56.1%**（唯一未達標的進展指標）
+  - 探索性 intention-to-treat：30 天全因死亡率 **3.9%（標準）vs 9.2%（NEWS-1）**，絕對風險差 +5.3%（95% CI −1.6 ～ +12.1）——**無統計差異**
+  - 院內、90 天、sepsis 相關死亡；機械通氣、Renal Replacement Therapy (RRT)、ICU、手術需求；ventilator-free days 與不良事件皆無差異
+  - 14 項進展指標除 bundle 遵從率外全數達標；辨識 15 項障礙、13 項促進因子
+- **解讀**：NEWS2 可作為客觀觸發 Hour-1 Bundle 的工具、提升流程遵從，但臨床效益未定（樣本小、死亡率方向反而不利但不顯著）。全規模試驗可行但需大很多的樣本數。
+
+> **臨床啟示**：在 ED 以結構化早期預警分數觸發 sepsis bundle 有助流程落實，但勿將此試點的死亡率數字過度解讀；bundle 遵從率仍是實作關鍵瓶頸。
+
+---
+
+### 1.2 Sepsis「Time Zero」定義：哪種器官失能對抗生素延遲最敏感？
+
+**Rhee C, Pak TR, Klompas M, et al. Am J Respir Crit Care Med 2026.**
+
+- **設計**：145 家美國醫院電子病歷資料（2018–2023），疑似感染成人；以 inverse probability weighting 校正基線與時變混淆
+- **規模**：1,849,729 人次疑似感染，其中 624,416 有 ≥1 器官失能且 6 小時內給抗生素
+- **問題**：以 SEP-1 各項器官失能（低血壓、lactate、呼吸衰竭、腎功能異常、高膽紅素、血小板低下、凝血異常）分別/組合定義 time zero 時，抗生素延遲與死亡的關聯
+- **結果**：
+  - 抗生素 **1–3 小時 vs 0–1 小時**：僅在 **低血壓**（aRR 1.07；95% CI 1.03–1.10）或 **lactate ≥4.0 mmol/L**（aRR 1.10；1.05–1.15）定義 time zero 時死亡較高；其他器官失能單獨或組合則否
+  - 在無低血壓/高 lactate 者，抗生素 **3–6 小時 vs 0–3 小時**僅在 **急性呼吸衰竭**者與死亡上升相關（aRR 1.11；1.05–1.18）
+- **意義**：並非所有 SEP-1 器官失能都代表「每小時都要命」。低血壓與高 lactate（即 septic shock 生理）對早期抗生素最敏感，呼吸衰竭的時窗稍寬。
+
+> **臨床啟示**：抗生素的「緊迫度」應依 time zero 的生理嚴重度分層——休克/高 lactate 者分秒必爭，單純輕度器官指標異常者不必為「卡 bundle 時限」而犧牲診斷精準。可供未來 sepsis 品質指標修訂參考。
+
+---
+
+### 1.3 沒有初始器官支持的社區型 sepsis：ICU/HDU 不一定划算，但重症次族群有益
+
+**（日本多中心世代）Crit Care Med 2026.**
+
+- **設計**：140 家日本醫院資料庫（2016/04–2024/03）回溯世代；overlap 傾向分數加權
+- **族群**：經救護車入院、社區型 sepsis、在抗生素起始日前後**未使用** ECMO／機械通氣／catecholamine／RRT 者，n=28,211（一般病房 GW 18,349；high-dependency unit, HDU 8,706；ICU 1,156）
+- **結果**：
+  - 整體而言 ICU 與 HDU 入院**未**降低院內死亡（HDU vs GW Risk Ratio, RR 0.99；ICU vs GW RR 1.06）
+  - 但 **HDU** 在 Sequential Organ Failure Assessment (SOFA) ≥6（RR 0.86；95% CI 0.75–0.99）或 Glasgow Coma Scale (GCS) ≤12（RR 0.81；0.71–0.92）的次族群與較低死亡相關
+  - 成本效益（3 年每 Quality-Adjusted Life Year, QALY 成本）：整體 ICU/HDU 皆不符（Incremental Cost-Effectiveness Ratio, ICER >200,000 USD/QALY）；但 HDU 且 GCS ≤12（ICER 47,738 USD/QALY）與 SOFA ≥6（55,319）次族群具成本效益
+- **意義**：資源配置可更精準——對沒有初始器官支持但疾病較重（高 SOFA、意識較差）者，HDU 層級照護較可能帶來存活與經濟益處。
+
+> **臨床啟示**：並非所有社區型 sepsis 都需進 ICU/HDU；但對 SOFA ≥6 或 GCS ≤12 者，升級至 HDU 可能兼具存活與成本效益。可作為分流與資源規劃的參考（日本體系，外推須留意）。
+
+---
+
+### 1.4 出院後的 Neutrophil:Lymphocyte Ratio (NLR) 預測 sepsis 存活者的長期風險
+
+**（Ontario 人口世代）Crit Care Med 2026.**
+
+- **設計**：加拿大 Ontario 人口基礎世代（2010–2020），sepsis 住院後存活出院之成人
+- **暴露**：出院後 15–90 天首次門診 NLR（取自 complete blood count）
+- **族群**：37,250 位存活者；中位測量時間 34 天；中位 NLR 2.7
+- **結果**：
+  - 1 年內再住院或死亡 47.6%；頻率隨 NLR 四分位上升：34.2% → 41.5% → 50.3% → 64.4%（p_trend <0.001）
+  - vs 最低四分位，adjusted Hazard Ratio (HR) 分別 **1.24、1.54、2.25**
+  - 多數病人 NLR 回到各自 sepsis 前的基準值，而該基準本身亦具預後價值
+- **意義**：NLR 是便宜、普及的生物標記，可在 post-ICU/post-sepsis 門診用於長期風險分層，為次級預防研究鋪路。
+
+> **臨床啟示**：sepsis 存活者在出院後門診的一張 CBC 即可算出 NLR，協助辨識 1 年內再住院/死亡高風險者；目前為關聯性資料，尚非介入依據。
+
+---
+
+## 2. 鎮痛、Mechanical Ventilation 與呼吸支持
+
+### 2.1 CO-ROAM：Oliceridine vs Remifentanil 於機械通氣重症病人的鎮痛 — 非劣性 RCT
+
+**Lu S, Luo JC, Pan C, Huang XB, et al. Intensive Care Med 2026.**
+
+- **設計**：中國 19 家 ICU、多中心、評估者與病人盲性、非劣性 RCT
+- **族群**：接受侵襲性機械通氣 (Invasive Mechanical Ventilation, IMV) 的成人，1:1 隨機，滴定至 Critical-Care Pain Observation Tool <3；modified intention-to-treat n=304（oliceridine 151 / remifentanil 153）
+- **介入**：oliceridine（偏向 G 蛋白的 μ-opioid 受體促效劑）vs remifentanil
+- **主要終點**：在目標鎮痛範圍內時間 (TTR)，非劣性界值 −10%
+- **結果**：
+  - TTR **96.0% vs 92.3%**（絕對差 +3.7%，95% CI −0.3 ～ +5.7）→ **達非劣性**（下界 −0.3% 遠優於 −10%）
+  - 輕-中度不良藥物反應：15.9 vs 22.2 事件/100 病人日（IRR 0.72；95% CI 0.52–1.00；p=0.049）
+  - 研究期間呼吸抑制 **0% vs 4.6%（p=0.015）**；拔管後呼吸抑制 **0% vs 7.9%（p=0.005）**；鎮痛鎮靜成本較低
+  - IMV 時間、ICU 住院、28 天死亡率**無差異**
+  - 次族群：APACHE II >17 者的不良反應益處、無 ARDS 者的 TTR 差異較明顯（僅名目）
+- **意義**：oliceridine 提供與 remifentanil 相當的鎮痛、呼吸安全性更佳、成本更低，為機械通氣病人鎮痛的新選項（偏向性促效劑理論的臨床驗證之一）。
+
+> **臨床啟示**：對有呼吸抑制顧慮的機械通氣病人，oliceridine 是 remifentanil 的合理替代；但硬終點（通氣時間、死亡）無差異，定位在於安全性與成本，非改善預後。
+
+---
+
+### 2.2 ARDS 低潮氣量通氣：normocapnia 未優於 mild hypercapnia（目標試驗模擬）
+
+**（ARDS Network / PETAL Network target trial emulation）Crit Care Med 2026.**
+
+- **設計**：以 7 個 ARDS Network 與 PETAL Network RCT 的病人做 target trial emulation
+- **介入**：1:1 分配 normocapnia（目標 Paco₂ 35–45 mmHg）vs mild hypercapnia（50–55 mmHg），於啟動肺保護通氣後 4 天；每組 292 人（可用 5,367 人篩選）
+- **結果**：
+  - 4 天內兩組 Paco₂ 分離維持；兩組 pH 中位 ≥7.33
+  - driving pressure、tidal volume、dead-space 無臨床顯著差異；**呼吸速率 33 vs 28 次/分（p<0.001）**
+  - 90 天院內死亡 **28.8% vs 28.8%（log-rank p=0.842）**；高齡（≥65）與肥胖（BMI ≥30）次族群一致
+- **意義**：在肺保護通氣下，「靠提高呼吸速率追求 normocapnia」相較允許 mild hypercapnia 並未降低死亡。支持 permissive hypercapnia 的安全性，也提醒不必為正常化 CO₂ 而把呼吸速率拉高。
+
+> **臨床啟示**：ARDS 低潮氣量通氣下，允許 mild hypercapnia 是合理的；不須為了 normocapnia 而大幅提高呼吸速率（可能增加 mechanical power）。此為試驗模擬，存在殘餘偏差，解讀須保守。
+
+---
+
+### 2.3 免疫低下病人的 HFNO：整體無益，但機器學習找出「會受益」的次族群
+
+**Maillard A, Métais M, Azoulay E, et al. Intensive Care Med 2026.**
+
+- **設計**：以 HIGH trial（776 人隨機至 High-Flow Nasal Oxygen, HFNO vs 傳統氧療）衍生 causal forest 機器學習模型，預測 HFNO 對第 28 天 IMV 的效果；排除 do-not-intubate（n=72）；在獨立觀察世代（818 人）驗證可轉移性
+- **結果**：
+  - 704 位受試者整體而言 HFNO 對第 28 天 IMV **無顯著平均效果**
+  - 但治療反應存在顯著異質性（預測益處從 HFNO 絕對降低 IMV 風險 20.2% 到傳統氧療較優 7.4%）
+  - **預測最受益者**：較年長、較多為實體器官移植 (solid organ transplant, SOT) 受贈者、較少嗜中性球低下、低氧/心搏過速較重、但非呼吸器官 SOFA 較低；此次族群 HFNO 與較低 IMV 發生率相關
+  - 觀察世代中益處排序表現保留，但絕對效果校準較差
+- **意義**：免疫低下 ARF 不應「全有或全無」地看待 HFNO；特定表型可能受益，呼應近年精準呼吸支持方向。
+
+> **臨床啟示**：對免疫低下、特別是實體器官移植、嚴重低氧但非呼吸性器官衰竭較輕的 ARF 病人，HFNO 可能較有機會避免插管；但此為模型衍生假說，需前瞻驗證，臨床仍須密切監測失敗徵象（參見上期 NIV 潮氣量警訊）。
+
+---
+
+### 2.4 創傷病人抗生素預防與早發性 VAP（antiVAP）— 無益
+
+**（antiVAP，法國 15 家創傷中心）Crit Care 2026.**
+
+- **設計**：多中心回溯世代、傾向分數加權；重傷成人、入院 24 小時內啟動機械通氣且持續 ≥48 小時，n=1,321
+- **介入**：早期抗生素預防（入院 24 小時內起、最多 72 小時；>90% 為 amoxicillin-clavulanic acid），746 人（56%）接受
+- **結果**：
+  - 早發性 VAP：32%（預防組）vs 34%（未預防）；IPTW 後 **weighted OR 0.87（95% CI 0.66–1.22；p=0.48）**
+  - 競爭風險（第 7 天前死亡）cause-specific HR 0.87（0.71–1.07；p=0.19）
+  - 晚發性 VAP、肺外感染、通氣時間、ICU/住院天數、30 天死亡率皆**無改善**
+- **意義**：與腦損傷族群短療程預防可減少早發性 VAP 的既往證據不同，**在一般重傷族群常規抗生素預防無效**。
+
+> **臨床啟示**：重症創傷病人不應常規以抗生素預防早發性 VAP；此做法既無益又有抗藥性與菌叢風險。預防 VAP 的重點仍在非抗生素 bundle（床頭抬高、口腔照護落實、及早脫機）。
+
+---
+
+## 3. AKI / Renal / Nutrition
+
+### 3.1 CKRT 期間的早期白蛋白變化預測長期腎衰竭與死亡
+
+**（韓國 LINK-AKI consortium）Crit Care Med 2026.**
+
+- **設計**：韓國 8 家大學醫院多中心回溯世代；接受 Continuous Kidney Replacement Therapy (CKRT) 且存活 ≥90 天的 Acute Kidney Injury (AKI) 成人，n=1,087（2017/01–2022/06）
+- **方法**：依 CKRT 啟動時與第 7 天白蛋白，分為 persistent、resolved、new-onset、no hypoalbuminemia 四組
+- **主要終點**：1 年內進展至 end-stage kidney disease 或全因死亡之複合終點（發生率 33.4%）
+- **結果（vs no hypoalbuminemia）**：
+
+| 白蛋白軌跡 | adjusted OR (95% CI) | p |
+|------|------|---|
+| 持續低白蛋白 (persistent) | **2.64 (1.73–4.04)** | <0.001 |
+| 已改善 (resolved) | 2.27 (1.38–3.75) | <0.001 |
+| 新發 (new-onset) | 1.68 (1.06–2.68) | 0.028 |
+
+  - 即使基線無低白蛋白，**第 7 天白蛋白早期下降**仍與較差預後相關
+- **意義**：CKRT 早期白蛋白動態是便宜、可得的長期腎臟與存活預後指標；持續低白蛋白者預後最差。
+
+> **臨床啟示**：對 CKRT 病人，別只看單次白蛋白——追蹤第 7 天的變化軌跡；持續或新發低白蛋白者應視為高風險，加強營養與整體照護（此為關聯性，補白蛋白能否改善預後未證實）。
+
+---
+
+### 3.2 肥胖重症病人的蛋白質處方：以調整體重計算，太低有害
+
+**（國際營養盛行率調查分析）Crit Care 2026.**
+
+- **設計**：785 家 ICU 國際單日盛行率調查之次分析；在 ICU ≥96 小時且 BMI ≥25 者，n=9,068
+- **方法**：以競爭風險框架分析前 4 天平均蛋白攝取與「ICU 內死亡」及「活著出 ICU」之 cause-specific hazard；攝取以調整體重 (adjusted Body Weight, aBW) 標準化（aBW = 理想體重 + 0.25×(實際−理想)）
+- **結果**：
+  - 早期蛋白攝取與「活著出 ICU 的時間」**無關聯**
+  - **極低攝取（< 約 0.45 g/kg aBW/天）與 ICU 死亡 hazard 上升相關**；0 g/kg aBW/天時 adjusted hazard **1.41（95% CI 1.17–1.69，約 +38% 風險）**
+  - 超過該門檻後，蛋白攝取與死亡無進一步明顯關聯
+- **意義**：驗證 ESPEN 以 aBW 指引肥胖病人蛋白處方的概念——重點在**避免嚴重不足**，而非追高；與近年「早期高蛋白未必有益」的大型 RCT（如 EFFORT Protein）方向一致。
+
+> **臨床啟示**：對過重/肥胖重症病人，用調整體重計算蛋白需求，確保急性期不要掉到 ~0.45 g/kg aBW/天以下；但也不需要在急性期盲目衝高蛋白。
+
+---
+
+## 4. Resuscitation 與心臟驟停
+
+### 4.1 2026 ILCOR CoSTR 年度共識摘要
+
+**（2026 ILCOR CoSTR，六大工作小組）Resuscitation 2026.**
+
+- **內容**：國際復甦聯盟 (ILCOR) 年度 Consensus on Science With Treatment Recommendations (CoSTR) 的摘要，彙整 2025 年完成的全面回顧
+- **涵蓋六個工作小組**：Basic Life Support (BLS)、Advanced Life Support (ALS)、Pediatric Life Support (PLS)、Neonatal Life Support (NLS)、Education, Implementation and Teams (EIT)、First Aid
+- **方法**：各小組以 Grading of Recommendations Assessment, Development and Evaluation (GRADE) 評估證據確定性，提出共識治療建議，並在 Justification/Evidence-to-Decision Highlights 說明決策依據、列出優先研究缺口
+- **定位**：此為復甦科學的年度權威更新，多數建議屬 good practice statement、強建議與高確定性證據仍少
+
+> **臨床啟示**：建議各 ICU/急診與急救團隊對照 2026 CoSTR 檢視自家 BLS/ALS 流程、教育訓練與品質指標；詳細逐項建議請參閱原文全文。
+
+---
+
+### 4.2 降溫 vs 正常體溫：以 TTM/TTM2 尋找「誰該降溫」仍無異質益處
+
+**（TTM 與 TTM2 次分析）Crit Care 2026.**
+
+- **設計**：TTM 與 TTM2 試驗次分析（n=2,789 院外心臟驟停 OHCA），以 causal forest 與 Bayesian Additive Regression Trees (BART) 估計個體化治療效果，依缺血時間、到院前因子與神經學檢查找尋異質性
+- **主要終點**：6 個月全因死亡；次要：不良功能預後（modified Rankin Scale 4–6）
+- **結果**：
+  - 6 個月死亡 33°C vs 控制性正常體溫（36.0–37.7°C）：**49.4% vs 47.9%**
+  - 依缺血負荷/初始神經學估計的個體化治療效果變異極小，各法與各族群**均無顯著異質性**
+  - 合併分析條件平均死亡風險差 causal forest −1.2% ～ +2.1%（p=0.99）、BART −0.5% ～ +1.5%；hypothermia 有益的後驗機率僅 42–53%
+- **意義**：即使用機器學習依「缺血負荷與早期神經狀態」細分，也找不到特定族群能從 33°C 獲益。支持現行「積極控溫、預防發燒」而非普遍強制深度低溫。
+
+> **臨床啟示**：OHCA 後的目標體溫管理重點在**預防發燒、維持正常體溫**；目前無證據支持依缺血負荷挑特定病人做 33°C 低溫。
+
+---
+
+### 4.3 初始非可電擊節律 OHCA：節律轉變帶來預後資訊
+
+**（韓國全國性世代）Crit Care Med 2026.**
+
+- **設計**：韓國全國 OHCA 登錄（2016–2021）觀察研究；初始非可電擊節律成人；inverse probability of treatment weighting 校正
+- **分組**：CPR 期間節律變化分 asystole→asystole (A-A)、asystole→PEA (A-P)、PEA→asystole (P-A)、PEA→PEA (P-P)
+- **主要終點**：出院良好神經預後（Cerebral Performance Category, CPC 1–2）
+- **結果（加權良好預後率）**：A-A 0.101%、A-P 0.231%、P-A 0.384%、P-P 0.874%
+  - vs A-A：A-P OR 2.28、P-A OR 3.80、P-P OR **8.70**（皆顯著）
+  - P-A vs A-P：OR 1.66（P-A 較佳）
+- **意義**：asystole 轉為 Pulseless Electrical Activity (PEA) 比持續 asystole 預後好；單一節律快照不足，**節律的動態變化**提供額外預後脈絡（整體良好預後率在此族群仍極低）。
+
+> **臨床啟示**：復甦中觀察節律「往 PEA/有電氣活動方向轉變」是相對正向的訊號；持續 asystole 預後最差。此為預後脈絡資訊，非停止復甦的單一依據。
+
+---
+
+### 4.4 以 ETCO₂ 動態「逐週期」預測 ROSC
+
+**（NTUH-HYCARD 資料庫）Resuscitation 2026.**
+
+- **設計**：多中心回溯（2016–2023）成人 OHCA；將每 2 分鐘的 end-tidal CO₂ (EtCO₂) 序列輸入 two-layer Long Short-Term Memory (LSTM) 模型，預測「下一個 2 分鐘週期內」恢復自發循環 (Return of Spontaneous Circulation, ROSC) 的機率；10-fold 交叉驗證
+- **族群**：1,651 個事件序列、1,480 位病人；583 個事件以 ROSC 結束
+- **結果**：
+  - **事件層級**：Area Under the ROC Curve (AUROC) **0.876**（95% CI 0.863–0.890）、Brier 0.140
+  - **週期層級**（17,029 預測點、ROSC 盛行率 3.4%）：AUROC **0.685**，且系統性**高估** ROSC 機率（Brier 0.285）
+- **意義**：連續 ETCO₂ 動態在事件層級有良好區辨力；但逐週期應用時校準不佳，須 recalibration 後才能即時使用。
+
+> **臨床啟示**：ETCO₂ 的「趨勢」比單一數值更有資訊；AI 即時預測 ROSC 概念可行，但目前會高估機率、尚不能單獨用於床邊決策。
+
+---
+
+## 5. Hemodynamics、ECMO 與 ICU 組織
+
+### 5.1 ECMO 醫院量能與跨 ICU 分散對成人預後的影響（ELSO registry）
+
+**（ELSO registry 分析）Crit Care Med 2026.**
+
+- **設計**：ELSO registry 回溯分析（2012–2023），multivariable hierarchical logistic regression 校正醫院因子與 case mix；成人 ECMO，n=115,849，495 家醫院
+- **主要終點**：院內死亡
+- **結果**：
+  - 較高年案例量（每 10 例 OR 0.98；95% CI 0.97–0.99）與較多 ECMO 時數（每 1000 小時 OR 0.99）與較低死亡 odds 相關
+  - 單一 ICU 中心中位 10 例、≥4 ICU 中心中位 50 例
+  - **在 ≥4 個 ICU 執行 ECMO 的醫院，校正後死亡高於單一 ICU 者**（OR 1.18；95% CI 1.06–1.31），推測與病人複雜度較高有關，由中心總量抵銷
+- **意義**：量能-預後關係仍成立；但把 ECMO「分散」到多個 ICU 可能不利，支持適度集中、專責化的 ECMO 照護設計。
+
+> **臨床啟示**：ECMO 計畫宜追求足夠案例量並適度集中於專責單位，而非廣泛分散到多個 ICU；最佳的中心設計仍待進一步研究。
+
+---
+
+### 5.2 重症新發心房顫動 (NOAF)：出院後血栓栓塞風險與抗凝缺口
+
+**（系統性回顧與 Bayesian 統合分析）Crit Care Med 2026.**
+
+- **設計**：PubMed/Embase/Scopus/CINAHL 至 2026/04；一般 ICU/HDU 成人、無 AF 病史而住院期間新發 AF (New-Onset Atrial Fibrillation, NOAF)；Bayesian 隨機效應統合，54 篇、367,896 人
+- **結果**：
+  - NOAF 發生率 **10.6%**（95% credible interval, CrI 8.6–12.9%）
+  - 出院後系統性血栓栓塞絕對風險 **7.1%**（校正年齡性別後 6.9%）
+  - vs 無 NOAF：相對風險 **1.94（CrI 1.23–3.29）**，校正後 2.01
+  - 抗凝使用率低：院內 32.9%、出院後 35.9%；追蹤中 23.9% 之後被診斷為 AF
+- **意義**：ICU 的 NOAF 並非過渡現象，與出院後血栓栓塞與後續 AF 相關，但抗凝明顯用得不足。
+
+> **臨床啟示**：重症 NOAF 病人出院時應納入血栓栓塞風險評估與後續追蹤計畫，而非視為一過性；抗凝決策需個別化（權衡出血），並安排出院後心律追蹤。
+
+---
+
+## 6. 神經重症、復健與機轉
+
+### 6.1 急性腦損傷通氣試驗的核心結果集 (Core Outcome Set, COS)
+
+**Fong N, Pirracchio R, et al. Intensive Care Med 2026.**
+
+- **設計**：依 COS-STAD/COS-STAP 標準的 4 輪國際 Delphi（31 國多專業），9 分 GRADE 評分；納入需 >70% 評「critical」且 ≤15% 評「不重要」
+- **結果**：78 人參與第 1 輪、60 人完成；54 個結果達共識 → 整理為 16 類 → 最終 COS 含 **13 個結果**、橫跨 5 領域（呼吸功能、存活、併發症、功能狀態、生活品質）
+  - 批准三層階層式複合終點：(1) ICU 存活、(2) 72 小時內不再插管、(3) days alive without mechanical ventilation
+- **意義**：為急性腦損傷 (Acute Brain Injury, ABI) 脫離呼吸器試驗建立首個 COS，將標準化報告、促進證據統合。
+
+> **臨床啟示**：神經重症的通氣脫離研究未來宜採用此 13 項結果與階層式複合終點，使跨研究可比較；對臨床亦提示 ABI 脫機須兼顧呼吸、存活與功能三面向。
+
+---
+
+### 6.2 Guanfacine 治療外科/創傷 ICU 譫妄 — 試點 RCT
+
+**（University of Alabama at Birmingham）Crit Care Med 2026.**
+
+- **設計**：單中心、雙盲、安慰劑對照試點 RCT（2020/11–2023/02）；外科與創傷 ICU、CAM-ICU 確診譫妄成人，n=100，1:1
+- **介入**：每晚 guanfacine 2 mg 或安慰劑，最多 14 天或至 ICU 出院/譫妄緩解
+- **結果**：
+  - 可行性達標：protocol adherence 100%、retention 100%、資料完整度 100%；招募受 COVID-19 影響（0.9 人/週）
+  - 臨床：未校正下 delirium/coma-free days guanfacine 較高（中位 2 [IQR 0–6] vs 1 [0–4]；p=0.02），但**校正基線共變項後不顯著**
+  - ICU/住院天數、通氣時間無差異；無血行動力或安全疑慮
+- **意義**：支持進行決定性多中心試驗的可行性；guanfacine 對 ICU 譫妄有初步但未確立的訊號。
+
+> **臨床啟示**：guanfacine 用於 ICU 譫妄安全、初步訊號值得追，但目前**證據不足以常規使用**；等待多中心確認。
+
+---
+
+### 6.3 重症早期骨骼肌粒線體結構與功能的動態變化（機轉）
+
+**（連續肌肉切片次分析）Crit Care Med 2026.**
+
+- **設計**：前瞻觀察研究次分析；33 位機械通氣、連續 3 天 SOFA ≥9 的 ICU 病人，於 ICU 第 5 天（n=29）與第 15 天（n=22）取 vastus lateralis 切片，與健康對照比較
+- **結果**：
+  - 完整粒線體輪廓減少、受損輪廓增加（第 5、15 天皆顯著）
+  - Complex III 活性第 5、15 天下降（citrate synthase 正規化後仍降）；Complex IV 活性兩時點皆持續下降
+  - 第 15 天 citrate synthase 活性下降；qRT-PCR 與 Western blot 支持 ETC 成分減少與生合成訊號改變
+- **意義**：重症早在 ICU 第 5 天即出現骨骼肌粒線體超微結構重塑與電子傳遞鏈功能障礙，並持續至第 15 天——為 ICU-acquired weakness 的機轉提供時序證據。
+
+> **臨床啟示**：重症肌肉流失不只是「用進廢退」，而有早期、持續的粒線體功能障礙；呼應及早復健、營養與未來以粒線體為標的之介入方向（機轉研究，暫不改變臨床處置）。
+
+---
+
+## 7. 其他值得關注 (Honorable Mentions)
+
+### 7.1 ECPR 後長期存活：五年約三分之二存活、神經預後良好
+
+**（Minnesota + Prague 兩中心）Resuscitation 2026.** — 728 位接受 Extracorporeal Cardiopulmonary Resuscitation (ECPR) 治療 refractory VT/VF OHCA 者，211 人（29.0%）存活出院。出院存活者 1 年、5 年存活 76.9%、67.2%，多數死亡發生在出院 90 天內；存活者 CPC 1–2 比例 >90%。5 年存活隨年齡遞減（18–39 歲 91.6% → >70 歲 52.9%）。支持在成熟 ECPR 系統中選擇性病人的長期益處。
+
+### 7.2 Guytonian 靜脈回流圖譜：重構 septic shock 的循環表型
+
+**（探索性生理重構）Crit Care Med 2026.** — 整合文獻中 150 筆血行動力觀察，重構 mean circulatory filling pressure analogue (Pmca)、venous return driving pressure (VRdP)、resistance to venous return (RVR)。識別四種循環表型（低充盈壓/梯度、保留靜脈回流、高靜脈壓、高阻力靜脈回流）。VRdP 與 cardiac output 強相關（β 1.03）；Pmca 與 CO 正相關、central venous pressure (CVP) 與 CO 負相關。提供以靜脈回流幾何學詮釋 septic shock 循環異質性的框架。
+
+### 7.3 本期其他摘記
+
+- **VIMUD-ICU（ICM，letter）**：振動聲波音樂治療於術後 ICU 譫妄的單中心探索性 RCT（呼應上期音樂治療脫機，屬輔助性非藥物介入，證據仍初步）。
+- **ICU recovery 教育課程優先項目（ICM，Delphi）**：國際 Delphi 訂出 ICU 復原教育的核心課程（早期活動、post-intensive care syndrome、譫妄預防、ABCDEF bundle、認知支持），供跨專業教育使用。
+
+---
+
+## 常用縮寫整理
+
+### 一般 / 統計
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| RCT | Randomized Controlled Trial | 隨機對照試驗 |
+| OR / aOR | (Adjusted) Odds Ratio | （校正）勝算比 |
+| HR | Hazard Ratio | 風險比 |
+| RR / aRR | (Adjusted) Risk Ratio | （校正）風險比 |
+| IRR | Incidence Rate Ratio | 發生率比 |
+| CI | Confidence Interval | 信賴區間 |
+| CrI | Credible Interval | 後驗信賴區間（Bayesian） |
+| AUROC | Area Under the ROC Curve | ROC 曲線下面積 |
+| GRADE | Grading of Recommendations Assessment, Development and Evaluation | 證據等級評估系統 |
+| IQR | Interquartile Range | 四分位距 |
+| TTR | Time in Target analgesic Range | 在目標鎮痛範圍內時間 |
+| ICER / QALY | Incremental Cost-Effectiveness Ratio / Quality-Adjusted Life Year | 增量成本效益比 / 品質調整生命年 |
+| COS | Core Outcome Set | 核心結果集 |
+| ITE | Individualized Treatment Effect | 個體化治療效果 |
+| n / N | sample size | 樣本數 |
+
+### 加護單位 / 評分
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ICU | Intensive Care Unit | 加護病房 |
+| HDU | High-Dependency Unit | 高依賴病房 |
+| ED | Emergency Department | 急診 |
+| SOFA | Sequential Organ Failure Assessment | 連續器官衰竭評估 |
+| APACHE II | Acute Physiology And Chronic Health Evaluation II | 急性生理與慢性健康評估 II |
+| GCS | Glasgow Coma Scale | 格拉斯哥昏迷指數 |
+| NEWS-2 | National Early Warning Score 2 | 國家早期預警評分 2 |
+| CPC | Cerebral Performance Category | 大腦功能分級 |
+| CAM-ICU | Confusion Assessment Method for the ICU | ICU 譫妄評估法 |
+
+### Sepsis / 感染
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| SSC | Surviving Sepsis Campaign | 敗血症倖存運動指引 |
+| VAP | Ventilator-Associated Pneumonia | 呼吸器相關肺炎 |
+| NLR | Neutrophil:Lymphocyte Ratio | 嗜中性球:淋巴球比值 |
+| SEP-1 | Severe Sepsis and Septic Shock Early Management Bundle | 嚴重敗血症品質指標 bundle |
+
+### 呼吸 / 氧療 / 鎮痛
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ARDS | Acute Respiratory Distress Syndrome | 急性呼吸窘迫症候群 |
+| ARF | Acute Respiratory Failure | 急性呼吸衰竭 |
+| IMV | Invasive Mechanical Ventilation | 侵襲性機械通氣 |
+| HFNO | High-Flow Nasal Oxygen | 高流量鼻氧療 |
+| Paco₂ | Arterial CO₂ partial pressure | 動脈二氧化碳分壓 |
+| μ-opioid | Mu-opioid receptor | μ 類鴉片受體 |
+
+### 腎臟 / 營養
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| AKI | Acute Kidney Injury | 急性腎損傷 |
+| CKRT / RRT | Continuous Kidney / Renal Replacement Therapy | （連續性）腎臟替代療法 |
+| aBW | Adjusted Body Weight | 調整體重 |
+| ESPEN | European Society for Clinical Nutrition and Metabolism | 歐洲臨床營養與代謝學會 |
+
+### 心臟驟停 / 循環 / ECMO
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| OHCA | Out-of-Hospital Cardiac Arrest | 院外心臟驟停 |
+| ROSC | Return of Spontaneous Circulation | 自發性循環恢復 |
+| CPR | Cardiopulmonary Resuscitation | 心肺復甦術 |
+| PEA | Pulseless Electrical Activity | 無脈搏電氣活動 |
+| EtCO₂ | End-Tidal CO₂ | 吐氣末二氧化碳 |
+| ILCOR / CoSTR | International Liaison Committee on Resuscitation / Consensus on Science With Treatment Recommendations | 國際復甦聯盟 / 科學與治療建議共識 |
+| TTM | Targeted Temperature Management | 目標體溫管理 |
+| NOAF | New-Onset Atrial Fibrillation | 新發心房顫動 |
+| ECMO / ECPR | Extracorporeal Membrane Oxygenation / Extracorporeal CPR | 體外膜氧合 / 體外心肺復甦 |
+| ELSO | Extracorporeal Life Support Organization | 體外維生支持組織 |
+| Pmca / VRdP / RVR / CVP | Mean circulatory filling pressure analogue / Venous Return driving pressure / Resistance to Venous Return / Central Venous Pressure | 平均循環充盈壓類比 / 靜脈回流驅動壓 / 靜脈回流阻力 / 中央靜脈壓 |
+
+### 其他
+
+| 縮寫 | 全名 | 中文 |
+|------|------|------|
+| ABI | Acute Brain Injury | 急性腦損傷 |
+| SOT | Solid Organ Transplant | 實體器官移植 |
+| ETC | Electron Transport Chain | 電子傳遞鏈 |
+| BART | Bayesian Additive Regression Trees | 貝氏加法迴歸樹 |
+| LSTM | Long Short-Term Memory | 長短期記憶（神經網路） |
+
+---
+
+## 參考文獻
+
+### Sepsis & 感染
+
+1. Lee JS, et al. National Early Warning Score 2-Guided Sepsis Hour-1 Bundle Care for Adults With Suspected Sepsis in the Emergency Department: A Hybrid Type 1 Effectiveness-Implementation Stepped-Wedge Randomized Controlled Trial Pilot Study (NEWS-1 TRIPS). [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007447) PMID: 43018426.
+2. Rhee C, Pak TR, Young J, et al. Optimizing Sepsis Time Zero Definitions Through Associations between Antibiotic Timing and Mortality. [*Am J Respir Crit Care Med*. 2026.](https://doi.org/10.1093/ajrccm/aamag610) PMID: 43016314.
+3. Association of Care Intensity With Survival and Long-Term Cost-Effectiveness in Sepsis Without Initial Organ Support After Emergency Admission: A Multicenter Cohort Study in Japan. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007435) PMID: 43024934.
+4. Association Between the Neutrophil:Lymphocyte Ratio After Hospitalization for Sepsis and Long-Term Outcomes: A Population-Based Cohort Study. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007375) PMID: 43002070.
+
+### 鎮痛、Mechanical Ventilation & Respiratory Support
+
+5. Lu S, Luo JC, Li Q, et al. Efficacy and safety of oliceridine versus remifentanil for analgesia in mechanically ventilated critically ill adults (CO-ROAM): a multicenter, assessor-blinded, non-inferiority randomized controlled trial. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08643-8) PMID: 43007421.
+6. Normocapnia Versus Mild Hypercapnia During Lung Protective Ventilation in Acute Respiratory Distress Syndrome: A Target Trial Emulation. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007434) PMID: 43012617.
+7. Maillard A, Métais M, Lemiale V, et al. Individualized treatment effects of high flow nasal oxygen in immunocompromised patients. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08635-8) PMID: 42970133.
+8. Impact of antibiotic prophylaxis on the occurrence of early-onset ventilator-associated pneumonia in trauma patients (antiVAP): a propensity score-weighted, retrospective cohort study. [*Crit Care*. 2026;30(1).](https://doi.org/10.1186/s13054-026-06408-9) PMID: 43026563.
+
+### AKI / Renal / Nutrition
+
+9. The Impact of Early Changes in Albumin Levels on Long-Term Kidney and Mortality Outcomes in Patients With Acute Kidney Injury Undergoing Continuous Kidney Replacement Therapy. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007408) PMID: 43023826.
+10. Prognostic relevance of protein prescriptions based on adjusted body weight in critically ill overweight or obese patients - analysis of a large international database. [*Crit Care*. 2026;30(1).](https://doi.org/10.1186/s13054-026-06449-0) PMID: 43021385.
+
+### Resuscitation & Cardiac Arrest
+
+11. 2026 International Liaison Committee on Resuscitation Consensus on Science With Treatment Recommendations: Summary from the Basic Life Support; Advanced Life Support; Pediatric Life Support; Neonatal Life Support; Education, Implementation, and Teams; and First Aid Task Forces. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111328) PMID: 42988037.
+12. Differentiated effect of hypothermia versus normothermia after cardiac arrest by neurological status and clinical correlates of ischemic burden. [*Crit Care*. 2026;30(1).](https://doi.org/10.1186/s13054-026-06414-x) PMID: 42972430.
+13. Neurological Outcomes of Rhythm Transitions in Out-of-Hospital Cardiac Arrest With Initial Nonshockable Rhythms: A Nationwide Population-Based Study. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007449) PMID: 43018417.
+14. Cycle-to-Cycle Prediction of Return of Spontaneous Circulation Using End-Tidal Carbon Dioxide Dynamics in Out-of-Hospital Cardiac Arrest. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111387) PMID: 43020455.
+15. Long-Term Survival Following Extracorporeal Cardiopulmonary Resuscitation: A Two-Center Five-Year Analysis. [*Resuscitation*. 2026.](https://doi.org/10.1016/j.resuscitation.2026.111379) PMID: 42971311.
+
+### Hemodynamics、ECMO & ICU 組織
+
+16. The Impact of Hospital Extracorporeal Membrane Oxygenation Volume and Its Distribution Across ICUs on Adult Patients' Outcomes: An Analysis of the Extracorporeal Life Support Organization Registry. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007442) PMID: 43018409.
+17. New-Onset Atrial Fibrillation in Critically Ill Patients: A Systematic Review of In-Hospital and Post-Discharge Outcomes. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007412) PMID: 43018413.
+18. A Guytonian Atlas of Venous Return in Septic Shock: Reconstruction of Hemodynamic States. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007446) PMID: 43024946.
+
+### 神經重症、復健與機轉
+
+19. Fong N, Burns G, Pirracchio R, et al. Consensus on a core outcome set for ventilation trials in critically ill patients with acute brain injury: results of an international Delphi consensus study. [*Intensive Care Med*. 2026.](https://doi.org/10.1007/s00134-026-08659-0) PMID: 42986439.
+20. The Effect of Guanfacine on Delirium in Surgical and Trauma ICU Patients: A Pilot Randomized Clinical Trial. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007448) PMID: 43012620.
+21. Dynamics of Mitochondrial Structure, Biogenesis and Function in Skeletal Muscle of Critically Ill Patients. [*Crit Care Med*. 2026.](https://doi.org/10.1097/CCM.0000000000007433) PMID: 43023821.
+
+---
+
+**註**：本回顧涵蓋 2026-11-01 ～ 2026-11-15，延續每月 1 號與 15 號的雙週節奏，已排除上一期（2026-11-01）已收錄之文章。所有結論以各篇摘要所載之主要終點與統計數據為準。本期需特別留意「陰性/中性」訊號：NEWS-1 TRIPS（死亡率方向不利但不顯著，屬可行性試點）、ARDS normocapnia vs mild hypercapnia（死亡率完全相同）、antiVAP（抗生素預防無效）、TTM/TTM2 降溫異質性（無可偵測次族群益處），請勿過度詮釋。2026 ILCOR CoSTR 的逐項建議請以原文全文為準。
