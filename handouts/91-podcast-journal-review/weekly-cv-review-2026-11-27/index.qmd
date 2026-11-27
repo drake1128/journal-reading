@@ -1,0 +1,414 @@
+---
+title: "每週心血管期刊文獻回顧 — 2026-11-20 ~ 2026-11-27 — 2026-11-27"
+date: 2026-11-27
+author: "謝慕揚 MD, PhD, FESC（讀書會共筆整理人）"
+description: "：看終點、看對照、看脈絡"
+categories: ["每週心血管期刊文獻回顧"]
+lang: zh-TW
+toc: true
+toc-depth: 3
+toc-expand: 2
+number-sections: false
+format:
+  html:
+    page-layout: article
+---
+
+::: {.callout-note appearance="minimal" icon=false}
+**原始講義**：[`Weekly_CV_Journal_Review_2026-11-27 教學講義.md`](../Weekly_CV_Journal_Review_2026-11-27%20教學講義.md)　｜　整理：謝慕揚 MD, PhD, FESC　｜　本頁由 `publish_weekly_reviews.py` 自動產生
+:::
+
+## 📬 本週導讀信
+
+::: {.letter}
+**每週心血管期刊文獻回顧 ｜ 2026-11-20 ~ 2026-11-27**
+
+涵蓋：NEJM、Lancet、European Heart Journal、JACC 系列、Circulation 系列、EuroIntervention
+（6 大固定欄目格式；Marp 投影片每張 Top Pick 附 QR Code）
+
+### 🎯 本週主題：看終點、看對照、看脈絡
+
+先講結論。本週是「看終點、看對照、看脈絡」的一週。NEJM Issue 21 一次上了三篇 ESC late-breaker，剛好各自是不同的教材。
+
+PRAGUE-26 把中-高風險肺栓塞的導管溶栓做出漂亮數字，7 天複合事件從 6.8% 降到 0.7% (RR 0.10)。不過先問「為什麼」。事件幾乎都落在較軟的「心肺代償失調」這一項，又是開放標籤，低死亡率也和試驗環境的密集監測有關。討論者乾脆直說，等 PEITHO-3 再把它定位成第一線。
+
+比較特別的是 CARDIO-TTRansform。eplontersen 把 transthyretin (TTR) 壓得很漂亮，但主要複合終點 P=0.277 就是沒過，在已經用 tafamidis 的人身上更是毫無增益。說穿了，壓得動生物標記，不等於改變硬終點。這篇最容易只讀半篇摘要就誤判成 positive。
+
+BPLTTC 則用 35 萬人把「低風險到底要不要降壓」講清楚。每降 5 mmHg 收縮壓，事件 HR 0.90，各風險層一致。不過低風險者 NNT 高達 255。總結一句：用絕對風險決定，不要只看血壓數字。
+
+### ⭐ Top 5 Picks
+
+| 試驗 | 期刊 | 方向 | 關鍵數字 / 連結 |
+|------|------|------|------|
+| **PRAGUE-26**（PE 導管溶栓） | NEJM | ✅ Positive | 7 天複合 0.7% vs 6.8%，RR 0.10（NNT 17）｜[DOI](https://doi.org/10.1056/NEJMoa2608012) |
+| **CARDIO-TTRansform**（eplontersen） | NEJM | ❌ Negative | 主要終點 RR 0.89，P=0.277 未達標｜[DOI](https://doi.org/10.1056/NEJMoa2608510) |
+| **BPLTTC**（降壓全頻譜） | NEJM | 💡 Concept | 每 −5 mmHg，事件 HR 0.90；低風險 NNT 255｜[DOI](https://doi.org/10.1056/NEJMoa2607848) |
+| **TRI-FR**（三尖瓣 T-TEER 延追） | Circulation | ✅/❌ Mixed | 硬終點 HR 0.75（P=0.49），降心衰住院｜[DOI](https://doi.org/10.1161/CIRCULATIONAHA.126.080397) |
+| **Sotatercept 右心**（PAH） | Circulation | 💡 Concept | 收縮性↓但 RV-PA coupling 保留、游離壁應變↑｜[DOI](https://doi.org/10.1161/CIRCULATIONAHA.126.080698) |
+
+### 🫀 TAVI Section
+
+| 主題 | 重點 | 連結 |
+|------|------|------|
+| 自膨瓣：瓣內 vs 瓣上 | 新植 PPM 瓣內 11.9% vs 瓣上 3.4%（P<0.001）；2 年存活相當 | [DOI](https://doi.org/10.1161/JAHA.126.050799) |
+| TAVR 擴適應症與新興技術（綜述） | 低風險／二葉瓣／無症狀／中度 AS／ViV 的 lifetime management 全景 | [DOI](https://doi.org/10.1016/j.pcad.2026.11.009) |
+| 心臟復健與 TAVI/SAVR 後存活（統合） | CR 與較低死亡相關，建議納入術後路徑（觀察性，有選擇偏差） | [DOI](https://doi.org/10.1093/eurjpc/zwag591) |
+
+### 🔧 TEER Section
+
+| 主題 | 重點 | 連結 |
+|------|------|------|
+| TRIPLACE registry（TTVR vs 藥物） | 2 年死亡／心衰住院 HR 0.60（P=0.012）；PPM 14.8%、嚴重出血 6.5%，非隨機 | [DOI](https://doi.org/10.1016/j.jcin.2026.10.036) |
+| 右心房儲備應變 (RASr) 與 M-TEER | 較低 RASr 獨立預測死亡＋住院（切點 24%） | [DOI](https://doi.org/10.1093/ehjci/jeag331) |
+| 末梢器官＋術後灌流壓 (PP) 與 M-TEER | 低 PP＋高 MELD-XI 風險最高（HR 7.80）；MR 降得好仍可能高死亡 | [DOI](https://doi.org/10.1002/ccd.71070) |
+
+### 📚 Honorable Mentions
+
+| 主題 | 重點 | 連結 |
+|------|------|------|
+| E³-PFA Collaboration（Circ EP） | PFA 比熱消融更快、SAE 更少（RR 0.58）、復發更低（RR 0.86，主勝 cryoballoon） | [DOI](https://doi.org/10.1161/CIRCEP.126.015020) |
+| MAPLE-HCM 生物標記（JACC HF） | aficamten 使 NT-proBNP −73% vs metoprolol +42%（P<0.001） | [DOI](https://doi.org/10.1016/j.jchf.2026.103508) |
+| OCTIVUS 子分析（Circ Interv） | 支架內再狹窄 (ISR)：OCT 導引 vs IVUS 導引 PCI 的預後 | [DOI](https://doi.org/10.1161/CIRCINTERVENTIONS.126.017174) |
+| Beyond Calcium：AS 的 CT 表型（JACC Imaging） | 用 CTA 做纖維化-鈣化表型，精進嚴重度判讀與 TAVR 計畫 | [DOI](https://doi.org/10.1016/j.jcmg.2026.09.019) |
+| MINOCA 診斷路徑與分層治療（Lancet 綜述） | 以病生理為導向的 MINOCA 診斷與治療框架 | [DOI](https://doi.org/10.1016/S0140-6736(26)01640-5) |
+
+### 🔬 Case Reports（JACC Case Reports × 5）
+
+1. **d-TGA 心房轉流後分期 TTVR**：系統右心室功能不良＋入路受限（股靜脈閉鎖、baffle/髂靜脈狹窄），經上腔靜脈 baffle 穿刺完成 TTVR。[DOI](https://doi.org/10.1016/j.jaccas.2026.111240)
+2. **下壁 MI 後心室中隔假性動脈瘤**：分期經導管「出口優先、再入口」關閉，18 個月改善。[DOI](https://doi.org/10.1016/j.jaccas.2026.111407)
+3. **膜部中隔瘤病人的 TAVR**：landing zone 不均，影像＋CT 規劃調整釋放策略安全完成。[DOI](https://doi.org/10.1016/j.jaccas.2026.111389)
+4. **橈動脈 PCI 後腹膜後血腫**：自發性腰動脈出血，栓塞止血。提醒橈動脈入路≠沒有大出血風險。[DOI](https://doi.org/10.1016/j.jaccas.2026.111558)
+5. **破裂三尖瓣包蟲囊腫致非血栓性 PE**：RV 衰竭需 VA-ECMO；不是所有肺動脈充盈缺損都是血栓。[DOI](https://doi.org/10.1016/j.jaccas.2026.111514)
+
+### 💎 Take Home Message
+
+1. **PRAGUE-26 看似大勝要讀懂「怎麼勝」**：7 天事件 0.7% vs 6.8%（RR 0.10），但終點偏軟、開放標籤 → 等 PEITHO-3 定位。
+2. **CARDIO-TTRansform 是 negative**：eplontersen 主要終點 P=0.277，tafamidis 者無效。壓得動 TTR ≠ 改硬終點。
+3. **降壓效益橫跨全頻譜（BPLTTC）**：每 −5 mmHg，HR 0.90；低風險 NNT 255 → 看絕對風險決定。
+4. **三尖瓣介入「降住院較穩、救命待證」**：TRI-FR 硬終點 HR 0.75（NS）；TRIPLACE TTVR 2 年複合 HR 0.60（PPM~15%）。
+5. **sotatercept 收縮性↓是節能式調整**：RV-PA coupling 保留、游離壁應變↑ — 別只看 TAPSE。
+6. **TAVI 設計/照護**：自膨瓣瓣內 PPM 11.9% vs 瓣上 3.4%（存活同）；術後心臟復健與較低死亡相關。
+7. **M-TEER 要看右心與全身**：RASr <24%、低 PP＋高 MELD-XI（HR 7.80）皆獨立預測死亡。
+
+---
+
+讀書會共筆整理人：謝慕揚 MD, PhD, FESC
+
+本講義為讀書會共筆之教學整理，僅供醫療專業人員教學與學術討論參考，不構成個別臨床決策建議。所有數據以原始文獻為準。
+:::
+
+## 📖 完整教學講義
+
+**整理：謝慕揚 MD, PhD, FESC**
+**日期：2026-11-27**
+**涵蓋期刊**：NEJM、Lancet、European Heart Journal、JACC family、Circulation family、EuroIntervention
+
+---
+
+## 1. 本週重點摘要 (Top 5 Picks)
+
+| # | 試驗 / 主題 | 期刊 | 結果方向 | 一句話總結 |
+|---|------------|------|---------|-----------|
+| 1 | **PRAGUE-26**：中-高風險肺栓塞導管溶栓 | NEJM | ✅ Positive | 導管導向溶栓 (CDT) 把 7 天複合事件從 6.8% 降到 0.7%（RR 0.10，95% CI 0.02–0.44，NNT 17），大出血未增加，但**開放標籤、事件數極少、僅 7–30 天**，CDT 組有 2 例顱內出血 |
+| 2 | **CARDIO-TTRansform**：eplontersen 治 ATTR-CM | NEJM | ❌ Negative | 反義寡核苷酸把 TTR 壓下去了，但主要複合終點（CV 死亡＋CV 事件）**未達標**（RR 0.89，95% CI 0.73–1.09，P=0.277）；在已用 tafamidis 者無效——**別被「有壓 TTR」誤導成 positive** |
+| 3 | **BPLTTC**：降壓效益橫跨風險全頻譜 | NEJM | 💡 Concept-shift | 51 試驗、357,440 人統合：每降 5 mmHg 收縮壓，重大心血管事件 HR 0.90（0.88–0.92），**各風險十分位一致**；相對效益不變，絕對效益高風險者較大 |
+| 4 | **TRI-FR（延長追蹤）**：三尖瓣 T-TEER | Circulation | ✅/❌ Mixed | 中位 30.8 個月：T-TEER 減少首次複合事件與**反覆心衰住院**，但 CV 死亡或三尖瓣手術的硬複合終點**無差異**（HR 0.75，95% CI 0.33–1.71，P=0.49） |
+| 5 | **Sotatercept 右心三連發**：PAH 的 RV 生理 | Circulation | 💡 Concept-shift | 壓力-容積環＋運動血流動力學證實：sotatercept 使 RV 收縮性「隨後負荷下降而等比降低」卻保留 RV-PA coupling，RV 游離壁應變反而改善——**RV 收縮指標下降不等於右心惡化** |
+
+> **Pearl of the Week**：本週是「**看終點、看對照、看脈絡**」的一週。PRAGUE-26 數字漂亮到 RR 0.10，但先問「為什麼」——事件幾乎都是『心肺代償失調』這種較軟、且與密集監測高度相關的終點，加上開放標籤與 2 例顱內出血，討論者直接說「等 PEITHO-3 再定位」。CARDIO-TTRansform 則是反例教材：TTR 壓得漂亮、次要指標好看，但**主要複合終點 P=0.277 就是沒過**，在已用 tafamidis 的現代族群更是毫無增益——摘要讀一半會誤判成 positive。BPLTTC 用 35 萬人把「要不要治療低風險高血壓」的問題講清楚：相對效益到處都在，但低風險者 NNT 高達 255，決策仍要回到絕對風險。總結一句：**先講「為什麼這個數字會長這樣」，再講「要不要照做」。**
+
+---
+
+## 2. NEJM
+
+本週 NEJM（Vol 395, Issue 21）對心血管最有份量的三篇都來自 ESC 2026 late-breaker：肺栓塞介入的 PRAGUE-26、澱粉樣心肌病的 CARDIO-TTRansform、以及降壓統合分析 BPLTTC。
+
+### 2.1 ⭐ PRAGUE-26 — 中-高風險肺栓塞：導管導向溶栓勝過單純抗凝
+
+> 先講結論：**這是一個乾淨的 positive trial，但要讀懂它的「positive 是怎麼來的」。** 導管導向溶栓 (catheter-directed thrombolysis, CDT) 把 7 天複合事件壓到 0.7%，相對風險只有 0.10；不過複合終點主要由「心肺代償失調／衰竭」這個較軟的成分撐起，且全程開放標籤。
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | 捷克 11 中心、開放標籤、隨機；傳統 CDT（非超音波輔助）＋抗凝 vs 單純抗凝 |
+| 族群 | 中-高風險急性肺栓塞（血流動力學穩定、sPESI 高、RV 功能障礙＋心肌標記上升），n=558（CDT 280；標準治療 278） |
+| Primary endpoint（7 天：死亡／復發 PE／心肺代償失調或衰竭） | **CDT 0.7% vs 標準治療 6.8%，RR 0.10（95% CI 0.02–0.44），P<0.001，NNT 17** ✅ |
+| 主要驅動 | 心肺代償失調或衰竭 0.7% vs 5.4%（RR 0.13，0.03–0.57） |
+| 安全性（出血） | GUSTO 大出血 1.4% vs 2.2%（P=0.54，NS）；BARC 相關出血 4.6% vs 5.0%（NS）；**但 CDT 組 2 例顱內出血、標準組 0 例** |
+| Take home | 在選對的中-高風險 PE，CDT 能大幅降低早期惡化。但開放標籤、事件數少、低死亡率部分歸因於臨床試驗環境的密集監測與即時搶救，且僅 7–30 天——**討論者明言「先等 PEITHO-3 再把 CDT 當作此族群的第一線」**。隨附社論（Piazza）標題：「Slipping the Gordian Knot — Net Benefit in Pulmonary Embolism Fibrinolysis」，點出淨效益看似漂亮但仍需審慎 |
+
+原文：PRAGUE-26 Investigators. Catheter-Directed Thrombolysis in Intermediate-High-Risk Pulmonary Embolism. [*N Engl J Med*. 2026;395(21):2087-2097.](https://doi.org/10.1056/NEJMoa2608012)（PMID 42678032）
+社論：Piazza G. Slipping the Gordian Knot - Net Benefit in Pulmonary Embolism Fibrinolysis. [*N Engl J Med*. 2026;395(21):2161-2163.](https://doi.org/10.1056/NEJMe2612033)（PMID 43084791）
+
+### 2.2 ⭐ CARDIO-TTRansform — eplontersen 治 ATTR-CM：主要終點未達標（negative）
+
+> 這是本週**最需要小心讀的一篇**。Eplontersen（反義寡核苷酸，antisense oligonucleotide）確實把肝臟 TTR 生成壓下去，功能與生活品質也有名目上的改善——但**主要複合終點並未達統計顯著**，而且在已使用 tafamidis 穩定劑的現代族群完全看不到療效。摘要若只讀「TTR 下降、QoL 改善」很容易誤判為 positive。
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | 國際、雙盲、第三期 RCT，1:1 隨機；追蹤至第 140 週 |
+| 族群 | ATTR-CM 成人（eplontersen 210 例／placebo 231 例），允許背景 tafamidis |
+| Primary endpoint（CV 死亡＋復發 CV 臨床事件，加權複合） | eplontersen 381 事件 vs placebo 392 事件，**RR 0.89（95% CI 0.73–1.09），P=0.277 → 未達標** ❌ |
+| 全因死亡（次要／名目） | HR 0.78（95% CI 0.60–0.99，名目顯著） |
+| 關鍵次群 | **已用 tafamidis 者：無治療效果**；eplontersen 單藥次群名目 HR 0.71（探索性、非主要分析） |
+| 其他 | TTR 如預期下降；功能容量與 health-related QoL 有名目改善 |
+| Take home | 在 tafamidis 已是標準治療的時代，eplontersen **加在標準治療之上並未改善心血管結局**。單藥次群的訊號只能當作假說。這也呼應本週 Pearl：**壓得動生物標記 ≠ 改變臨床終點**；TTR silencer 要在 ATTR-CM 卡出一席之地，還需要更明確的硬終點證據 |
+
+原文：McGuinn K, Maurer MS, et al. (CARDIO-TTRansform). Eplontersen for Transthyretin Amyloid Cardiomyopathy. [*N Engl J Med*. 2026;395(21):2098-2109.](https://doi.org/10.1056/NEJMoa2608510)（PMID 42663301）
+
+### 2.3 ⭐ BPLTTC — 降壓效益橫跨整個心血管風險頻譜
+
+> Blood Pressure Lowering Treatment Trialists' Collaboration (BPLTTC) 用個別受試者資料統合，回答一個長年爭論：**低風險者值不值得降壓？** 答案是：相對效益到處一致，低風險者也受益，但絕對獲益與治療必要人數差很大。
+
+- 規模：51 個 RCT、357,440 人（個別受試者資料統合）。
+- 主要結果：**每降 5 mmHg 收縮壓，重大心血管事件 HR 0.90（95% CI 0.88–0.92）**，且各風險十分位間無異質性（相對效益不隨基線風險改變）。
+- 絕對效益：5 年絕對風險下降在最高十分位約 2.6 個百分點、最低十分位約 0.4；換算 **NNT 高風險約 38、低風險約 255**。
+- 安全/血流動力學事件：治療組較高（約 12.0 vs 6.5 /1,000 人年），但相對增幅同樣不隨風險變化——意味低風險者的效益-傷害天平較窄。
+- 臨床意涵：支持「以絕對風險而非單純血壓數字」決定是否啟動降壓；對低風險者仍有益，但要把 NNT、副作用與病人偏好一起放進共享決策。
+
+原文：Blood Pressure Lowering Treatment Trialists' Collaboration. Blood-Pressure-Lowering Treatment across the Cardiovascular Risk Spectrum. [*N Engl J Med*. 2026;395(21):2121-2132.](https://doi.org/10.1056/NEJMoa2607848)（PMID 43084787）
+
+---
+
+## 3. Circulation Family
+
+### 3.1 ⭐ TRI-FR（延長追蹤）— 三尖瓣 T-TEER：減少心衰住院，但硬終點未分出高下
+
+> TRI-FR 的 1 年結果已知能改善症狀與 health status，本次是**中位 30.8 個月的延長追蹤**，而且試驗設計不允許 cross-over，長期比較不會被對照組「偷跑」污染。結論是典型的 mixed：心衰住院減少，但 CV 死亡／三尖瓣手術的硬複合終點沒差。
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | 多中心（主要法國）、隨機、不允許 cross-over；T-TEER＋最佳藥物治療 (OMT) vs OMT，n=300（24 中心） |
+| 追蹤 | 中位 30.8 個月；101 次心衰住院（17 次致命）、5 例額外 CV 死亡、11 例三尖瓣手術 |
+| 硬複合終點（CV 死亡或三尖瓣手術） | **HR 0.75（95% CI 0.33–1.71），P=0.49 → 無顯著差異** |
+| 其他（事件導向） | T-TEER 降低首次複合事件與反覆心衰住院；2 年首次事件 HR 0.56（0.36–0.88）；12 個月 landmark 後仍存在 |
+| Take home | 孤立性嚴重 TR 做 T-TEER 的價值主要在**症狀與心衰住院**，而非目前能證明的存活或免手術。對 TriClip 病例選擇與知情同意：講效益要誠實，講「降住院」有據，講「救命」尚無定論 |
+
+原文：Donal E, et al. (TRI-FR). Transcatheter Edge-to-Edge Repair for Severe Isolated Tricuspid Regurgitation After Extended Follow-Up. [*Circulation*. 2026.](https://doi.org/10.1161/CIRCULATIONAHA.126.080397)（PMID 43074159）
+
+### 3.2 ⭐ Sotatercept 右心三連發 — 「收縮性下降」不是壞事
+
+> Circulation 本週同期刊出兩篇原著＋一篇社論，聚焦 sotatercept 對肺動脈高壓 (PAH) 右心室的「直接」作用。兩篇用不同方法（侵入性壓力-容積環、運動血流動力學）得到一致而反直覺的結論：**RV 收縮性指標下降是「配合後負荷下降的節能式調整」，不是右心衰退。**
+
+| 研究 | 方法與重點 |
+|------|-----------|
+| PV-loop 世代（n=28＋2 驗證世代） | Sotatercept 使 responder 的 mPAP、PVR、RV 容積與質量顯著下降，6MWD +64 m；VA coupling 改善但 load-independent 收縮性下降。**關鍵：即使在血流動力學 nonresponder，RV 質量仍下降**——結構性逆重塑可獨立於肺血管卸載，暗示對心肌本身有作用 |
+| 運動血流動力學世代（n=30，24 週） | RV 收縮性 (Ees) 隨後負荷 (Ea) 等比下降、**RV-PA coupling 維持不變**；三尖瓣環系指標（TAPSE、S′）下降，但 **RV 游離壁應變與 FAC 上升**，收縮由環系位移「重分配」到游離壁縮短——能量學上有利，運動時右心儲備改善 |
+
+- 臨床意涵：PAH 病人用 sotatercept 後，**別只看 TAPSE 掉了就說右心惡化**；要看 RV-PA coupling、游離壁應變與運動儲備。社論（「Sotatercept in Action: Rethinking Right Ventricular Physiology?」）正是此題。
+- 原文 1：Right Ventricular Reverse Remodeling Without Pulmonary Vascular Unloading During Sotatercept Therapy: An Invasive Pressure-Volume Loop Study. [*Circulation*. 2026;154(21):2124-2138.](https://doi.org/10.1161/CIRCULATIONAHA.126.080698)（PMID 43071796）
+- 原文 2：Sotatercept Improves Right Heart Mechanics Despite Reduced Myocardial Contractility in PAH: A Prospective Exercise Hemodynamic Study. [*Circulation*. 2026;154(21):2113-2123.](https://doi.org/10.1161/CIRCULATIONAHA.126.081334)（PMID 42770225）
+- 社論：Sotatercept in Action: Rethinking Right Ventricular Physiology? [*Circulation*. 2026;154(21):2139-2140.](https://doi.org/10.1161/CIRCULATIONAHA.126.083954)（PMID 43071798）
+
+---
+
+## 4. 🫀 TAVI Section
+
+本週 EuroIntervention 無新 issue，TAVI 相關實證來自其他期刊。對 Drake 的結構介入方向，最有用的三篇：自膨瓣的瓣內 vs 瓣上設計比較、TAVR 擴適應症的技術綜述、以及 TAVI/SAVR 後心臟復健與存活的統合分析。
+
+### 4.1 自膨瓣：瓣內 (intra-annular) vs 瓣上 (supra-annular) 設計 — PPM 差很多，存活一樣
+
+- 單中心 TVT registry 2014–2024、5,470 例 TAVR，自膨瓣 2,294 例（瓣內 356／瓣上 1,938），傾向分數配對後各 354。
+- **新植永久性心律調節器 (PPM)：瓣內 11.9% vs 瓣上 3.4%（P<0.001）**——瓣內組明顯較高（作者認為可能與瓣內瓣僅核准用於高風險有關）。
+- 中/重度瓣旁逆流僅 1.6%；瓣內組早期輕度 PVR 較多（22.0% vs 11.9%），但 1 年時差異消失（5.1% vs 8.5%，P=0.07）。
+- 2 年存活相當，瓣膜型別與全因死亡無關（HR 1.06，95% CI 0.72–1.57，P=0.77）。
+- 臨床意涵：自膨瓣的設計選擇對**傳導系統風險**影響顯著；在需嚴控 PPM 的病人，瓣上設計（或嚴控植入深度）仍是重點。
+- Midterm Outcomes of Intra-Annular Versus Supra-Annular Self-Expanding Transcatheter Aortic Valves. [*J Am Heart Assoc*. 2026.](https://doi.org/10.1161/JAHA.126.050799)（PMID 43101995）
+
+### 4.2 TAVR 擴適應症與新興技術綜述 — lifetime management 的全景圖
+
+- 從禁手術族群一路走到低風險、二葉瓣、無症狀重度 AS、中度 AS、瓣中瓣……綜述整理裝置演進、技術與未竟問題。
+- 臨床意涵：對「年輕病人第一步選 TAVI 還是 SAVR」與後續 redo 可行性，提供決策框架；與上週 ViV／二葉瓣主題延續。
+- Advancing the field of TAVR: expanding indications and emerging technologies (Review). [*Prog Cardiovasc Dis*. 2026.](https://doi.org/10.1016/j.pcad.2026.11.009)（PMID 43098470）
+
+### 4.3 心臟復健與 TAVI/SAVR 後存活 — 系統性回顧與統合分析
+
+- 統合 PubMed/Scopus/Web of Science 證據，評估主動脈瓣置換（TAVI 或 SAVR）後參加心臟復健 (cardiac rehabilitation, CR) 與死亡率的關聯。
+- 臨床意涵：CR 在瓣膜介入後的角色常被忽略；本文支持把 CR 納入 TAVI/SAVR 術後標準照護路徑（惟觀察性證據，存在選擇偏差，不能等同因果）。
+- Association of Cardiac Rehabilitation with Mortality after Aortic Valve Replacement (TAVI/SAVR): A Systematic Review and Meta-analysis. [*Eur J Prev Cardiol*. 2026.](https://doi.org/10.1093/eurjpc/zwag591)（PMID 43075921）
+
+---
+
+## 5. 🔧 TEER Section
+
+本週 TEER 焦點：三尖瓣 TTVR 的真實世界比較（TRIPLACE），以及兩篇把「M-TEER 做完還要看右心與末梢器官」講清楚的預後研究——都直接關係到 MitraClip／PASCAL／TriClip 的病例選擇。
+
+### 5.1 ⭐ TRIPLACE registry — TTVR vs 藥物治療：2 年死亡／心衰住院較低
+
+> 繼上週 TTVR 的機轉與補救研究後，本週給出**真實世界療效比較**。嚴重次發性 TR 的 TTVR vs 藥物治療，用 overlap weighting 平衡 30 個共變數。
+
+| 項目 | 內容 |
+|------|------|
+| 設計 | 觀察性；TTVR 世代（TRIPLACE registry，N=395，24 中心，2017–2025）vs 藥物世代（Bronx-Valve registry，N=784，單中心）；30 共變數傾向分數 overlap weighting (ATO) |
+| 手術成效 | ≤輕度 TR 93.7%、≤中度 98.7%；院內死亡 0.8% |
+| 30 天不良事件 | **新植 PPM 14.8%、嚴重出血 6.5%** |
+| Primary（2 年全因死亡或心衰住院） | **ATO-HR 0.60（95% CI 0.40–0.89），P=0.012** ✅ |
+| 全因死亡 | ATO-HR 0.61（0.38–0.99），P=0.044；心衰住院單獨 HR 0.69（0.39–1.24），P=0.215（不顯著） |
+| Take home | 真實世界中 TTVR 比藥物治療帶來較低的 2 年死亡／心衰住院複合風險，但**非隨機、要衡量手術風險（PPM 近 15%、嚴重出血 6.5%）**。與本週 TRI-FR（T-TEER 硬終點未分高下）並讀，可見三尖瓣介入「降住院較穩、救命待證」的一致圖像 |
+
+原文：TRIPLACE Investigators. Transcatheter Tricuspid Valve Replacement Versus Medical Therapy for Severe Secondary Tricuspid Regurgitation: The TRIPLACE Registry. [*JACC Cardiovasc Interv*. 2026.](https://doi.org/10.1016/j.jcin.2026.10.036)（PMID 43076840）
+
+### 5.2 右心房儲備應變 (RA reservoir strain) 與 M-TEER 預後
+
+- 298 例 M-TEER，自動化 2D strain 量測 RA reservoir strain (RASr)，中位 19.6%。
+- **較低 RASr 獨立預測全因死亡＋心衰住院**（校正 HR 0.96／每 1% 增加，95% CI 0.92–0.99，P=0.031）；最佳切點 24%。
+- 臨床意涵：M-TEER 的風險分層不能只看左心與 MR 降幅，**右心（RA 功能）也要納入**；RASr 可作為補充指標。
+- Right atrial reservoir strain and clinical outcomes after mitral transcatheter edge-to-edge repair. [*Eur Heart J Cardiovasc Imaging*. 2026.](https://doi.org/10.1093/ehjci/jeag331)（PMID 43077342）
+
+### 5.3 末梢器官功能＋術後灌流壓與 M-TEER 死亡率
+
+- 單中心 238 例 M-TEER，整合基線 MELD-XI 與術畢即刻灌流壓 (perfusion pressure, PP = MAP − CVP)。
+- 低 PP（校正 HR 0.684／每 10 mmHg 增加）與高 MELD-XI（HR 1.072／每 1 分）各自獨立預測死亡；**低 PP＋高 MELD-XI 風險最高（HR 7.80，95% CI 3.78–16.10）**。
+- 臨床意涵：M-TEER 即使 MR 降得好，若病人**基線末梢器官已受損＋術後灌流壓偏低**，長期死亡風險顯著升高——是術前選病人與術後照護的實用警訊。
+- End-Organ Dysfunction and Postprocedural Perfusion Pressure in Relation to Mortality After Mitral Transcatheter Edge-to-Edge Repair. [*Catheter Cardiovasc Interv*. 2026.](https://doi.org/10.1002/ccd.71070)（PMID 43102244）
+
+---
+
+## 6. 📚 Honorable Mentions
+
+| 主題 | 摘要 | 連結 |
+|------|------|------|
+| **E³-PFA Collaboration**（Circ EP，統合分析） | 6 個 RCT、2,015 例陣發性 AF：脈衝電場消融 (PFA) 比熱消融程序更快、嚴重不良事件更少（RR 0.58）、復發更低（RR 0.86）；效益主要來自對 cryoballoon（RR 0.80），與當代 RF 相當 | [DOI](https://doi.org/10.1161/CIRCEP.126.015020)｜[PMID 43070203](https://pubmed.ncbi.nlm.nih.gov/43070203/) |
+| **MAPLE-HCM 生物標記分析**（JACC HF） | 阻塞性 HCM：aficamten 使 NT-proBNP −73%、metoprolol +42%（treatment effect −81%，P<0.001）；hs-cTnI 亦顯著下降，洗脫後回復——為 aficamten 優於 metoprolol 提供機轉佐證 | [DOI](https://doi.org/10.1016/j.jchf.2026.103508)｜[PMID 43083514](https://pubmed.ncbi.nlm.nih.gov/43083514/) |
+| **OCTIVUS 子分析：ISR 的 OCT vs IVUS 導引**（Circ Interv） | 支架內再狹窄 (ISR) 病灶，OCT 導引 vs IVUS 導引 PCI 的預後比較——為影像導引策略選擇補上 ISR 專屬資料 | [DOI](https://doi.org/10.1161/CIRCINTERVENTIONS.126.017174)｜[PMID 43070184](https://pubmed.ncbi.nlm.nih.gov/43070184/) |
+| **EuroHeart STEMI 歐洲登錄 2022–24**（EHJ） | 13 國 EuroHeart ACS-PCI 登錄的 STEMI 當代照護品質快照，呈現跨國再灌流時效與結局差異 | [DOI](https://doi.org/10.1093/eurheartj/ehag790)｜[PMID 43096922](https://pubmed.ncbi.nlm.nih.gov/43096922/) |
+| **Beyond Calcium：纖維鈣化型 AS 的 CT 表型**（JACC Imaging，綜述） | 主動脈瓣狹窄不只看鈣化分數；CTA（已常規用於 TAVR 計畫）可做發炎-纖維化-鈣化的 CT 表型分析，精進嚴重度判讀與計畫 | [DOI](https://doi.org/10.1016/j.jcmg.2026.09.019)｜[PMID 43083529](https://pubmed.ncbi.nlm.nih.gov/43083529/) |
+| **MINOCA 診斷路徑與分層治療**（Lancet，綜述） | 非阻塞性冠狀動脈心肌損傷 (MINOCA) 反映「以攝影為中心」思維的侷限；綜述提出以病生理為導向的診斷路徑與分層治療 | [DOI](https://doi.org/10.1016/S0140-6736(26)01640-5)｜[PMID 43085372](https://pubmed.ncbi.nlm.nih.gov/43085372/) |
+| **3-導程智慧手錶 ECG 偵測缺血**（JACC Adv） | 簡化 3-導程 (I, III, V2) 智慧手錶 ECG 對缺血性 ECG 變化的診斷準確度，以標準 12 導程為參考——院外快速篩檢的雛形 | [DOI](https://doi.org/10.1016/j.jacadv.2026.103558)｜[PMID 43085049](https://pubmed.ncbi.nlm.nih.gov/43085049/) |
+
+---
+
+## 7. 🔬 Case Reports
+
+本週精選 5 例，皆偏向**結構／介入的困難解剖與併發症救援**，與 Drake 的結構心臟病介入路線直接相關（主要取自 JACC Case Reports 2026-11-25/26）。
+
+1. **d-TGA 心房轉流術後的分期 TTVR（極限入路規劃）** — 40 歲 dextro-transposition of the great arteries (d-TGA) 心房轉流術後，合併系統右心室功能不良、嚴重三尖瓣逆流/狹窄、心搏過速，加上左股靜脈閉鎖、上腔靜脈 baffle 與右髂靜脈嚴重狹窄。團隊以分期策略：右髂靜脈成形 → 電燒 → 經上腔靜脈 baffle 穿刺完成 transcatheter tricuspid valve replacement (TTVR)。**教學點**：先天複雜解剖＋入路受限＋高再手術風險下，審慎的分期規劃＋備好緊急機械循環支持，可讓經導管治療變可行。
+   Castellano C, Small A, et al. [*JACC Case Rep*. 2026:111240.](https://doi.org/10.1016/j.jaccas.2026.111240)（PMID 43096974）
+2. **下壁梗塞後心室中隔假性動脈瘤：多階段經導管關閉** — 75 歲男性初級 PCI 後 5 天出現「單入口、雙出口」型心室中隔假性動脈瘤（postinfarction ventricular septal pseudoaneurysm）。採分期經導管策略：先關較大出口、5 個月後再關入口，18 個月追蹤血流動力學持續改善。**教學點**：MI 後出現反覆心衰或新雜音要想到中隔夾層/假性動脈瘤；單次修補不可行時，依解剖「出口優先、再入口」的分期關閉是手術高風險者的替代路徑。
+   Jiang H, Li L, et al. [*JACC Case Rep*. 2026:111407.](https://doi.org/10.1016/j.jaccas.2026.111407)（PMID 43096982）
+3. **膜部中隔瘤 (membranous septal aneurysm) 病人的 TAVR 策略** — 81 歲嚴重 AS 合併膜部中隔瘤（landing zone 不均勻、部分無支撐），作者示範以多模態影像＋CT 規劃調整釋放策略，安全完成 TAVR。**教學點**：膜部中隔瘤會讓 TAVR 的著陸區變複雜、增加傳導障礙與瓣膜栓塞風險；術前影像辨識＋深度控制是關鍵。
+   TAVR in Membranous Septal Aneurysm: Procedural Strategy and Outcomes. [*JACC Case Rep*. 2026:111389.](https://doi.org/10.1016/j.jaccas.2026.111389)（PMID 43096983）
+4. **橈動脈 PCI 後致命性腹膜後血腫（自發性腰動脈出血）** — 71 歲男性下壁 MI 用鏈激酶後 3 天、DAPT＋enoxaparin 下行右冠橈動脈 PCI，12 小時後腹痛、低血壓、Hb 由 11.6 掉到 6 g/dL，CT 見左腹膜後血腫活動性外滲，血管攝影定位左第三腰動脈出血並成功栓塞；過程併發急性腎衰需透析。**教學點**：**橈動脈入路不等於沒有大出血風險**；多層次溶栓＋抗血小板＋抗凝疊加會造成非入路部位自發性出血。PCI 後不明原因低血壓要早做影像排除腹膜後出血。
+   Shivanne Gowda D, Mahorkar A, et al. [*JACC Case Rep*. 2026:111558.](https://doi.org/10.1016/j.jaccas.2026.111558)（PMID 43096985）
+5. **破裂的三尖瓣包蟲囊腫致非血栓性肺栓塞＋右心衰竭，需 VA-ECMO** — 20 歲葉門男性急性呼吸困難、發燒、休克，影像見雙側肺動脈充盈缺損＋RV strain＋三尖瓣大型活動性腫塊，難治性低氧與阻塞性休克下啟動 VA-ECMO；TEE 見囊性病灶＋卵圓孔未閉右到左分流，急診手術證實為破裂的三尖瓣包蟲囊腫 (hydatid cyst)。**教學點**：**不是所有肺動脈充盈缺損都是血栓**；破裂的心臟包蟲囊腫可造成非血栓性肺栓塞，VA-ECMO 可作為診斷與手術的 bridge。對本週 PRAGUE-26「肺栓塞」主題是極佳的鑑別診斷提醒。
+   Sharma M, Tawayha M, et al. [*JACC Case Rep*. 2026:111514.](https://doi.org/10.1016/j.jaccas.2026.111514)（PMID 43096979）
+
+---
+
+## 8. 💎 Take Home Message
+
+1. **中-高風險肺栓塞的導管溶栓（PRAGUE-26）看似大勝，要讀懂「怎麼勝」**：7 天複合事件 0.7% vs 6.8%（RR 0.10，NNT 17），大出血未增（但 2 例顱內出血）。然而開放標籤、終點偏軟、僅短期——討論者建議**等 PEITHO-3 再把 CDT 定位為第一線**。
+2. **eplontersen 治 ATTR-CM 是 negative（CARDIO-TTRansform）**：主要複合終點 RR 0.89、P=0.277 未達標，在已用 tafamidis 者無效。**壓得動 TTR ≠ 改變硬終點**；全因死亡的名目改善與單藥次群只能當假說。
+3. **降壓效益橫跨風險全頻譜（BPLTTC）**：每降 5 mmHg SBP，重大事件 HR 0.90，各風險十分位一致；但低風險者 NNT 達 255——**用絕對風險、不是血壓數字**來決定是否治療。
+4. **三尖瓣介入「降住院較穩、救命待證」**：TRI-FR 延長追蹤顯示 T-TEER 減少心衰住院但硬複合終點無差（HR 0.75，P=0.49）；TRIPLACE 真實世界 TTVR 2 年死亡／住院複合 HR 0.60（但 PPM 近 15%、嚴重出血 6.5%，且非隨機）。
+5. **sotatercept 讓 RV 收縮性「等比下降」是好事不是壞事**：PV-loop 與運動血流動力學一致顯示收縮性隨後負荷下降而降、RV-PA coupling 維持、游離壁應變反而改善——**別只看 TAPSE 掉了就判右心惡化**；且 RV 逆重塑可獨立於肺血管卸載。
+6. **TAVI 設計與術後照護的實用訊號**：自膨瓣瓣內設計 PPM 明顯高於瓣上（11.9% vs 3.4%）但存活相同；TAVI/SAVR 後心臟復健與較低死亡相關，應納入術後路徑。
+7. **M-TEER 不能只看 MR 降幅**：右心房儲備應變（RASr <24% 風險高）與末梢器官＋術後灌流壓（低 PP＋高 MELD-XI，HR 7.80）都獨立預測死亡——把右心與全身狀態一起放進病例選擇。
+
+---
+
+## 9. 縮寫對照
+
+| 縮寫 | 全稱（English） | 中文 |
+|------|----------------|------|
+| PE | Pulmonary Embolism | 肺栓塞 |
+| CDT | Catheter-Directed Thrombolysis | 導管導向溶栓 |
+| sPESI | simplified Pulmonary Embolism Severity Index | 簡化肺栓塞嚴重度指數 |
+| RV / LV | Right / Left Ventricle | 右／左心室 |
+| RR / HR / OR | Risk / Hazard / Odds Ratio | 相對風險／風險比／勝算比 |
+| CI | Confidence Interval | 信賴區間 |
+| NNT | Number Needed to Treat | 需治療人數 |
+| GUSTO / BARC | (bleeding classifications) | 出血分級系統 |
+| ATTR-CM | Transthyretin Amyloid Cardiomyopathy | 轉甲狀腺素澱粉樣心肌病 |
+| TTR | Transthyretin | 轉甲狀腺素蛋白 |
+| ASO | Antisense Oligonucleotide | 反義寡核苷酸 |
+| QoL | Quality of Life | 生活品質 |
+| BP / SBP | Blood Pressure / Systolic BP | 血壓／收縮壓 |
+| BPLTTC | Blood Pressure Lowering Treatment Trialists' Collaboration | 降壓試驗協作組 |
+| TR / MR | Tricuspid / Mitral Regurgitation | 三尖瓣／二尖瓣逆流 |
+| TEER / T-TEER / M-TEER | (Tricuspid/Mitral) Transcatheter Edge-to-Edge Repair | （三尖瓣／二尖瓣）經導管緣對緣修補 |
+| TTVR | Transcatheter Tricuspid Valve Replacement | 經導管三尖瓣置換 |
+| OMT | Optimized Medical Therapy | 最佳化藥物治療 |
+| PAH | Pulmonary Arterial Hypertension | 肺動脈高壓 |
+| mPAP | mean Pulmonary Arterial Pressure | 平均肺動脈壓 |
+| PVR | Pulmonary Vascular Resistance | 肺血管阻力 |
+| RV-PA coupling | RV-Pulmonary Artery coupling | 右室-肺動脈耦合 |
+| Ees / Ea | end-systolic / arterial Elastance | 收縮末期／動脈彈性 |
+| TAPSE | Tricuspid Annular Plane Systolic Excursion | 三尖瓣環收縮位移 |
+| FAC | Fractional Area Change | 面積變化分數 |
+| RASr | Right Atrial reservoir Strain | 右心房儲備應變 |
+| 6MWD | 6-Minute Walk Distance | 六分鐘步行距離 |
+| TAVI / TAVR | Transcatheter Aortic Valve Implantation / Replacement | 經導管主動脈瓣置換 |
+| SAVR | Surgical Aortic Valve Replacement | 外科主動脈瓣置換 |
+| ViV | Valve-in-Valve | 瓣中瓣 |
+| PPM | Permanent Pacemaker | 永久性心律調節器 |
+| PVR (valve) | Paravalvular Regurgitation | 瓣膜旁逆流 |
+| AS | Aortic Stenosis | 主動脈瓣狹窄 |
+| HCM / oHCM | (obstructive) Hypertrophic Cardiomyopathy | （阻塞性）肥厚性心肌病 |
+| NT-proBNP | N-terminal pro-B-type Natriuretic Peptide | N 端前腦鈉肽 |
+| hs-cTnI | high-sensitivity cardiac Troponin I | 高敏心肌旋轉蛋白 I |
+| CR | Cardiac Rehabilitation | 心臟復健 |
+| PFA / RF | Pulsed Field / Radiofrequency Ablation | 脈衝電場／射頻消融 |
+| AF | Atrial Fibrillation | 心房顫動 |
+| ISR | In-Stent Restenosis | 支架內再狹窄 |
+| OCT / IVUS | Optical Coherence Tomography / Intravascular Ultrasound | 光學同調斷層／血管內超音波 |
+| CTA / CCTA | (Coronary) Computed Tomography Angiography | （冠狀動脈）電腦斷層血管攝影 |
+| STEMI | ST-Elevation Myocardial Infarction | ST 段上升型心肌梗塞 |
+| MI | Myocardial Infarction | 心肌梗塞 |
+| MINOCA | Myocardial Injury/Infarction with Non-Obstructive Coronary Arteries | 非阻塞性冠狀動脈心肌損傷/梗塞 |
+| MELD-XI | Model for End-stage Liver Disease eXcluding INR | 末期肝病模型（排除 INR） |
+| PP / MAP / CVP | Perfusion Pressure / Mean Arterial / Central Venous Pressure | 灌流壓／平均動脈壓／中心靜脈壓 |
+| DAPT | Dual Antiplatelet Therapy | 雙重抗血小板治療 |
+| VA-ECMO | Venoarterial Extracorporeal Membrane Oxygenation | 靜脈-動脈葉克膜 |
+| d-TGA | dextro-Transposition of the Great Arteries | 右旋型大血管轉位 |
+
+---
+
+## 10. 參考文獻
+
+### NEJM
+1. PRAGUE-26 Investigators. Catheter-Directed Thrombolysis in Intermediate-High-Risk Pulmonary Embolism. [*N Engl J Med*. 2026;395(21):2087-2097.](https://doi.org/10.1056/NEJMoa2608012)（PMID 42678032）
+2. Piazza G. Slipping the Gordian Knot - Net Benefit in Pulmonary Embolism Fibrinolysis (Editorial). [*N Engl J Med*. 2026;395(21):2161-2163.](https://doi.org/10.1056/NEJMe2612033)（PMID 43084791）
+3. CARDIO-TTRansform Investigators. Eplontersen for Transthyretin Amyloid Cardiomyopathy. [*N Engl J Med*. 2026;395(21):2098-2109.](https://doi.org/10.1056/NEJMoa2608510)（PMID 42663301）
+4. Blood Pressure Lowering Treatment Trialists' Collaboration. Blood-Pressure-Lowering Treatment across the Cardiovascular Risk Spectrum. [*N Engl J Med*. 2026;395(21):2121-2132.](https://doi.org/10.1056/NEJMoa2607848)（PMID 43084787）
+
+### Circulation Family
+5. Donal E, et al. Transcatheter Edge-to-Edge Repair for Severe Isolated Tricuspid Regurgitation After Extended Follow-Up (TRI-FR). [*Circulation*. 2026.](https://doi.org/10.1161/CIRCULATIONAHA.126.080397)（PMID 43074159）
+6. Right Ventricular Reverse Remodeling Without Pulmonary Vascular Unloading During Sotatercept Therapy: An Invasive Pressure-Volume Loop Study. [*Circulation*. 2026;154(21):2124-2138.](https://doi.org/10.1161/CIRCULATIONAHA.126.080698)（PMID 43071796）
+7. Sotatercept Improves Right Heart Mechanics Despite Reduced Myocardial Contractility in PAH: A Prospective Exercise Hemodynamic Study. [*Circulation*. 2026;154(21):2113-2123.](https://doi.org/10.1161/CIRCULATIONAHA.126.081334)（PMID 42770225）
+8. Sotatercept in Action: Rethinking Right Ventricular Physiology? (Editorial). [*Circulation*. 2026;154(21):2139-2140.](https://doi.org/10.1161/CIRCULATIONAHA.126.083954)（PMID 43071798）
+9. Efficiency, Efficacy, and Energy-Specific Safety of Pulsed Field Versus Thermal Ablation in Paroxysmal AF (E³-PFA Collaboration). [*Circ Arrhythm Electrophysiol*. 2026.](https://doi.org/10.1161/CIRCEP.126.015020)（PMID 43070203）
+10. OCT-Guided or IVUS-Guided PCI for In-Stent Restenosis Lesions: Insights From the OCTIVUS Trial. [*Circ Cardiovasc Interv*. 2026.](https://doi.org/10.1161/CIRCINTERVENTIONS.126.017174)（PMID 43070184）
+
+### JACC Family
+11. TRIPLACE Investigators. Transcatheter Tricuspid Valve Replacement Versus Medical Therapy for Severe Secondary Tricuspid Regurgitation (TRIPLACE). [*JACC Cardiovasc Interv*. 2026.](https://doi.org/10.1016/j.jcin.2026.10.036)（PMID 43076840）
+12. Effect of Aficamten vs Metoprolol on Cardiac Biomarkers in Obstructive HCM (MAPLE-HCM). [*JACC Heart Fail*. 2026.](https://doi.org/10.1016/j.jchf.2026.103508)（PMID 43083514）
+13. Beyond Calcium: CT Phenotyping of Fibrocalcific Aortic Stenosis (Review). [*JACC Cardiovasc Imaging*. 2026.](https://doi.org/10.1016/j.jcmg.2026.09.019)（PMID 43083529）
+14. Accuracy of a 3-Lead Smartwatch Electrocardiogram for Detecting Ischemic ECG Changes. [*JACC Adv*. 2026.](https://doi.org/10.1016/j.jacadv.2026.103558)（PMID 43085049）
+
+### EHJ / EHJ Imaging
+15. ST-Elevation Myocardial Infarction in Europe (2022-24): the EuroHeart ACS-PCI Programme. [*Eur Heart J*. 2026.](https://doi.org/10.1093/eurheartj/ehag790)（PMID 43096922）
+16. Right atrial reservoir strain and clinical outcomes after mitral transcatheter edge-to-edge repair. [*Eur Heart J Cardiovasc Imaging*. 2026.](https://doi.org/10.1093/ehjci/jeag331)（PMID 43077342）
+
+### Lancet
+17. Myocardial Injury with Non-Obstructive Coronary Arteries: Diagnostic Pathways and Stratified Treatment (Review). [*Lancet*. 2026.](https://doi.org/10.1016/S0140-6736(26)01640-5)（PMID 43085372）
+
+### TAVI / 其他期刊
+18. Midterm Outcomes of Intra-Annular Versus Supra-Annular Self-Expanding Transcatheter Aortic Valves. [*J Am Heart Assoc*. 2026.](https://doi.org/10.1161/JAHA.126.050799)（PMID 43101995）
+19. Advancing the Field of TAVR: Expanding Indications and Emerging Technologies (Review). [*Prog Cardiovasc Dis*. 2026.](https://doi.org/10.1016/j.pcad.2026.11.009)（PMID 43098470）
+20. Association of Cardiac Rehabilitation with Mortality after Aortic Valve Replacement (TAVI/SAVR): A Systematic Review and Meta-analysis. [*Eur J Prev Cardiol*. 2026.](https://doi.org/10.1093/eurjpc/zwag591)（PMID 43075921）
+21. End-Organ Dysfunction and Postprocedural Perfusion Pressure in Relation to Mortality After Mitral TEER. [*Catheter Cardiovasc Interv*. 2026.](https://doi.org/10.1002/ccd.71070)（PMID 43102244）
+
+### Case Reports（JACC Case Reports）
+22. Castellano C, Small A, et al. Staged Tricuspid Valve-in-Valve Replacement in Atrial Switch With Ventricular Dysfunction, Limited Vascular Access, and Tachyarrhythmia. [*JACC Case Rep*. 2026:111240.](https://doi.org/10.1016/j.jaccas.2026.111240)（PMID 43096974）
+23. Jiang H, Li L, et al. Ventricular Septal Pseudoaneurysm After Inferior MI: Multistage Interventional Management. [*JACC Case Rep*. 2026:111407.](https://doi.org/10.1016/j.jaccas.2026.111407)（PMID 43096982）
+24. TAVR in Membranous Septal Aneurysm: Procedural Strategy and Outcomes. [*JACC Case Rep*. 2026:111389.](https://doi.org/10.1016/j.jaccas.2026.111389)（PMID 43096983）
+25. Shivanne Gowda D, Mahorkar A, et al. Life-Threatening Retroperitoneal Hematoma After Radial PCI. [*JACC Case Rep*. 2026:111558.](https://doi.org/10.1016/j.jaccas.2026.111558)（PMID 43096985）
+26. Sharma M, Tawayha M, et al. Ruptured Tricuspid Hydatid Cyst Causing Nonthrombotic Pulmonary Embolism and RV Failure Requiring VA-ECMO. [*JACC Case Rep*. 2026:111514.](https://doi.org/10.1016/j.jaccas.2026.111514)（PMID 43096979）
+
+### 補充（外部報導 — 試驗結果交叉驗證）
+27. TCTMD. PRAGUE-26: Catheter-Directed Thrombolysis Beneficial in Intermediate-High-Risk PE. 2026. https://www.tctmd.com/news/prague-26-catheter-directed-thrombolysis-beneficial-intermediate-high-risk-pe
+28. Medscape / AJMC. Eplontersen Misses Primary End Point in Phase 3 ATTR-CM Cardiovascular Outcomes Trial (CARDIO-TTRansform). 2026. https://www.ajmc.com/view/eplontersen-misses-primary-end-point-in-phase-3-attr-cm-cardiovascular-outcomes-trial
+
+---
+
+> **免責聲明**：本講義為讀書會共筆之教學整理，由 **謝慕揚 MD, PhD, FESC** 整理，僅供醫療專業人員教學與學術討論參考，不構成個別臨床決策建議。所有試驗數據以原始文獻為準；用藥與處置請依最新仿單與臨床指引，並結合個別病人情況判斷。
