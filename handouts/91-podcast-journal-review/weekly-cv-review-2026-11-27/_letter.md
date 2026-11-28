@@ -51,11 +51,11 @@ BPLTTC 則用 35 萬人把「低風險到底要不要降壓」講清楚。每降
 
 ### 🔬 Case Reports（JACC Case Reports × 5）
 
-1. **d-TGA 心房轉流後分期 TTVR**：系統右心室功能不良＋入路受限（股靜脈閉鎖、baffle/髂靜脈狹窄），經上腔靜脈 baffle 穿刺完成 TTVR。[DOI](https://doi.org/10.1016/j.jaccas.2026.111240)
-2. **下壁 MI 後心室中隔假性動脈瘤**：分期經導管「出口優先、再入口」關閉，18 個月改善。[DOI](https://doi.org/10.1016/j.jaccas.2026.111407)
-3. **膜部中隔瘤病人的 TAVR**：landing zone 不均，影像＋CT 規劃調整釋放策略安全完成。[DOI](https://doi.org/10.1016/j.jaccas.2026.111389)
-4. **橈動脈 PCI 後腹膜後血腫**：自發性腰動脈出血，栓塞止血。提醒橈動脈入路≠沒有大出血風險。[DOI](https://doi.org/10.1016/j.jaccas.2026.111558)
-5. **破裂三尖瓣包蟲囊腫致非血栓性 PE**：RV 衰竭需 VA-ECMO；不是所有肺動脈充盈缺損都是血栓。[DOI](https://doi.org/10.1016/j.jaccas.2026.111514)
+1. **d-TGA 心房轉流後分期 TTVR**：系統右心室功能不良＋入路受限（股靜脈閉鎖、baffle/髂靜脈狹窄），經上腔靜脈 baffle 穿刺完成 TTVR。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096974/)
+2. **下壁 MI 後心室中隔假性動脈瘤**：分期經導管「出口優先、再入口」關閉，18 個月改善。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096982/)
+3. **膜部中隔瘤病人的 TAVR**：landing zone 不均，影像＋CT 規劃調整釋放策略安全完成。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096983/)
+4. **橈動脈 PCI 後腹膜後血腫**：自發性腰動脈出血，栓塞止血。提醒橈動脈入路≠沒有大出血風險。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096985/)
+5. **破裂三尖瓣包蟲囊腫致非血栓性 PE**：RV 衰竭需 VA-ECMO；不是所有肺動脈充盈缺損都是血栓。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096979/)
 
 ### 💎 Take Home Message
 

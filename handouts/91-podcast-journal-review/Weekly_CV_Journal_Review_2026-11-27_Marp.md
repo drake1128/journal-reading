@@ -55,6 +55,7 @@ style: |
   }
   section.bignum h1 { color: #ffffff; font-size: 3.5em; border-bottom: none; }
   section.bignum h2 { color: #b0c4de; font-size: 1.3em; }
+  section.bignum h3 { color: #ffffff; font-weight: normal; }
   section.bignum p { color: #dfe6e9; font-size: 1.0em; }
   section.bignum strong { color: #ffe082; }
   h1 { color: #ba181b; border-bottom: 3px solid #ba181b; padding-bottom: 0.2em; }
@@ -115,8 +116,6 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-11-20 ~ 2026-
 
 ## 看終點、看對照、看脈絡
 
-**本週六大固定欄目**：
-
 1. ⭐ **Top 5 Picks** — 跨期刊精選（含 1 則 negative、2 則 concept-shift）
 2. 🫀 **TAVI Section** — 自膨瓣設計、擴適應症、心臟復健
 3. 🔧 **TEER Section** — TRIPLACE／右心與末梢器官預後
@@ -124,7 +123,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-11-20 ~ 2026-
 5. 🔬 **Case Reports** — 結構／介入救援 × 5
 6. 📖 **參考文獻 + 縮寫對照**
 
-> 本週 EuroIntervention 無新 issue；重心在 NEJM Issue 21（ESC late-breaker 落地）與 Circulation。
+> 本週 EuroIntervention 無新 issue；重心在 NEJM Issue 21 與 Circulation。
 
 ---
 
@@ -176,7 +175,7 @@ footer: '謝慕揚 MD, PhD, FESC | Weekly CV Journal Review | 2026-11-20 ~ 2026-
 
 > ✅ 數字漂亮，但要讀懂「positive 怎麼來的」
 
-- 複合終點主要由**較軟的「心肺代償失調」**撐起（0.7% vs 5.4%）
+- 複合終點主要由較軟的「**心肺代償失調**」撐起（0.7% vs 5.4%）
 - **開放標籤**；低死亡率部分歸因於試驗環境密集監測＋即時搶救
 - 僅 7–30 天，無長期耐久性資料
 
@@ -386,7 +385,7 @@ TTR 如期下降、QoL 名目改善
 
 # Case #1 — d-TGA 心房轉流後分期 TTVR
 
-## [Castellano C, et al. JACC Case Rep 2026:111240](https://doi.org/10.1016/j.jaccas.2026.111240)
+## [Castellano C, et al. JACC Case Rep 2026:111240](https://pubmed.ncbi.nlm.nih.gov/43096974/)
 
 - 40 歲 d-TGA 心房轉流術後：系統 RV 功能不良、嚴重 TR/狹窄、心搏過速
 - 入路受限：左股靜脈閉鎖、上腔 baffle＋右髂靜脈嚴重狹窄
@@ -395,14 +394,14 @@ TTR 如期下降、QoL 名目改善
 > 複雜先天解剖＋入路受限下，分期規劃＋備好緊急 MCS 讓經導管治療可行
 
 <div class="qr">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeAQAAAAB6HIMaAAABkklEQVR42u1YMW4EIRAbhQfwJL7Ok/YBSJOxDShNrrlIcXFoi124wmeMx0Pk72PFZ/G9xSdqtAe/apgYqyem6uUrXoz/WCy0gzgn3nPyH4yCXfOeaIvG4rae6LORYX46ox2LnyWDmnFHCz5HQLFjhTXa5NZjdIhWx81Vt/KE8fPx9QQNyGAW8jKHdu3NEe1cvexrYOupWBy3MgdXJazL6iOn3QL2PGUSaiPsBVYhWlvdktshmy0ZbD30NPXbsllsPSgtGbOiTdtTJmKTugXPfHFNNdh6cNuTlE55gqkSRGkEYxjTgoRhqtu4pRZoeeIoibStZRfk9TFbtDBbFgWVYEVcV7+FZSmGLeoWhdi2lh2DbfCxWOI5fdE2uNaIk2wZw6at36ZS4qm8Kg2maVwVoaPT2U0EdDudM5huEkhpKIM5++3pJem0xGzelwm5ml/0vJnOPS/FsHscdT3G9wmoCO10PZp3vquRBgjVONWcuxrWXCYEXC6539Ug3rBxYP/rep8gTzi6bVsJYe23n/v4v1/8BqxVjtHHX/6hAAAAAElFTkSuQmCC"><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkUlEQVRYhdWYMbKDMAxExaSg5Ag+CjfDPpqP4iNQUjAou5L5/EwmNUKFh/BSIHu1Eoj8jKwMeW3npQ62HgHIYg846DbhF7kMO28FJy/VlgVrFXD+a8efyhMI86li21+eQ0TGdVas1M4TiGtnH1cR3cf2paobiZcgyVyg61TzZ53GJFfMcI8twU++Ih5hPo0LFIKsGrNakVVsAl2vqZh7QDWjnYC27nxhCSuwZahm0uKKhws2P4e4JEPrqbhfI6id83xuJ3CMidtLV3aFGC/BCW9zl+EhzArXXSGRyQJtWAekrnWz/fd8IpOMewn5wPmQCfkhU5Mcm6A3Tv/6Np3vzDQwufKxvt6dj/x+suB5E7sea3KXxNlTrSZjE8ZhzkfSqzFHJz5pijufVmvks71NxSUeNtnZrEwP4YHEJtkkDr2suGSX6RO+hCY++3cPwRTNeXRq11vBreR80zNXpqL/PCQ+sbepng9mJO+N4Qm/YJTB5gy37ODEtMNJqYp9d7EvGDXHJr0a6XnifVs/6zQk+RlvmazLantA0TcAAAAASUVORK5CYII="><br>📱 Scan PubMed
 </div>
 
 ---
 
 # Case #2 — 下壁 MI 後中隔假性動脈瘤
 
-## [Jiang H, et al. JACC Case Rep 2026:111407](https://doi.org/10.1016/j.jaccas.2026.111407)
+## [Jiang H, et al. JACC Case Rep 2026:111407](https://pubmed.ncbi.nlm.nih.gov/43096982/)
 
 - 75 歲男性初級 PCI 後 5 天，「單入口、雙出口」型心室中隔假性動脈瘤
 - 分期經導管關閉：**先關較大出口 → 5 個月後關入口**，18 個月追蹤改善
@@ -410,14 +409,14 @@ TTR 如期下降、QoL 名目改善
 > MI 後反覆心衰／新雜音 → 想到中隔夾層；單次修補不可行時，「出口優先、再入口」分期關閉是手術高風險者的替代
 
 <div class="qr">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeAQAAAAB6HIMaAAABhElEQVR42u1YwW3EMAwT6gE8Ulb3SBnAgCqScq6f9tMC5eMC4y6wPwRDU5Qiv392vA9/d3hHPeO+Rq4d154rZmKr3j/ih+c/DgvtVagHoC9iTq3a90RbNA7QfKUYnjlusG2MtoiN0gBg+6O9IeAdrV5ntNBtwWtWpQdb3R5P+LJ8PeExs7nAZ0APveOIduFvwr42f/FCf/DULYoCP32pt6Rbq8FbcltQR180iOG5aLYOVnweZ1gUsLWDBb9+yrgm2LZ1sHzlGa6ITjiefkuQgwy3HsBwunpCKIARswLDsr1lijHSKlcY+20oFSTti1fsMvbb1ioDAzIYW4oC7Ou3SZuVd407jDudoAmEHIxWlso2ptye9MV4k2p8fFMNWVVgOBo29tvZ3Q0EzN/t7be6Vp3LBdi5d6DfdjlTYrTuy0Ll7PS8vvlWNwsVgdVB6vWeJ7B4tQywv41rmUBypLBkv+azGjmYGknnxPjMalq30EO4oqUnpBrznixRw+k8q3nP4//68BPJhYXIgWkW3wAAAABJRU5ErkJggg=="><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABgklEQVRYhdWYOxKDMAxExaSgzBE4im8W+2g+io9ASeFB0UpmyGdSZ3HhAZ4LZFYrGZGfIyuG3LbjUiefdwLy8BecdLvbHbhMHY/IyU21ZbG5inGs6raoXIEgniq+/eU6RGRek9oM7VyBhHb6vIpon9uXqv5IIgVBUjFdLzW/5yknOUcqqttifvI1+AjiaZhMIRZVQ1SrRcVN3PMQiUA1s38BbdAOM4n6YjO4K95csPlnYCY2lgKVV79EnYyvwEFkuHIoxHnhJg84MXbZPAR1EGoJhXATxBNhWVSx/yMeXhIxwJ3TyMld7s3XMhN/fTzzug3ne1EVK7Fuw2r5jjmfzpeiD/k7QZfs/qbaZUHvqZ6T7KRJ9MogIxszORGJSML5tHohT3GaoiXDPfrRK8NDsJSbZJd4nKNQt9Po8IWanH6doPsF/SjEtDOQOOl5BQxFv7gLO/EqMuKxHmm4MjuBU6O/s/0PyyYnrp3JPcT/u/gfjJq5yZGN0UWjbutHnjKSn+MJLAqLrtn7GJQAAAAASUVORK5CYII="><br>📱 Scan PubMed
 </div>
 
 ---
 
 # Case #3 — 膜部中隔瘤病人的 TAVR
 
-## [TAVR in Membranous Septal Aneurysm. JACC Case Rep 2026:111389](https://doi.org/10.1016/j.jaccas.2026.111389)
+## [TAVR in Membranous Septal Aneurysm. JACC Case Rep 2026:111389](https://pubmed.ncbi.nlm.nih.gov/43096983/)
 
 - 81 歲嚴重 AS 合併膜部中隔瘤（landing zone 不均、部分無支撐）
 - 多模態影像＋CT 規劃調整釋放策略，安全完成 TAVR
@@ -425,14 +424,14 @@ TTR 如期下降、QoL 名目改善
 > 膜部中隔瘤增加傳導障礙與瓣膜栓塞風險；術前影像辨識＋深度控制是關鍵
 
 <div class="qr">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeAQAAAAB6HIMaAAABkElEQVR42u1YS27FIBAblQPkSFydI+UASNSfyWs37aaq6kURil5g4zcxtoc6X49d/5s/27wLY9zznDW4MPd1uIQfb/XN+ItNoAXOM84CPADWP5iAjfVMtMA5bpS39sXycvI1Gi2g7sKTVU1Hy3rOImPnrmi0R5++rgW0rK3IkMrb1oTPM1cTPMRV8HZIx1reEtEunC/TVRwmZrAilbeEhyereltpiwQOZcIaTV2WlJLL15nqZWUOvKi7W35DeVvm7dXmS9LagjPR2iOuRY3FUwSOZYKxWRAoEWUCpyoY5UsHDV9fjmZTy6wtKFoKMx0aZWepaGfTVaGxw1gwE1DYxxraIDBjTxnVQBYmsS1Td8dqgpuFl6l1xxaawTrNKoqLBsttWqjzPhlsHOeElt9Y57V8obxPE7FSeTufoOiSljNYqoK5d/jwMkWyyu7Lqi891PxKIk5yz+s841PGwlbyfcJqHZAFez34rmb69kNQo1NNNWOVvjqPpd/V+KZRmB/zjdUEJ7FHbIO7yP8r91/afAeY+YQGWUDQCQAAAABJRU5ErkJggg=="><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkElEQVRYhdWYMbKDMAxExaSg5AgchZvFPhpH8REoKZjo767Mz2QyqREqPAmPAtmrlcDsZxRn2GM/f/qg9ZWAPPWAg+8T/pHbcPBScvJwb8WwrgbOuw7cVO9AmM9q2v56H2I2botjpXbuQEI7x7iZ+TG2L1VdSKIESZYKXc9r+azTnOQdS3XfZ/jJV+QjzKdxgUKQVWNWG7LKTViHDXVIz4N2dALeqJ3MhHU4s8tMXkPxcMEW55CXoCpxLfwaQe2cp3A5QUytoA7hyqEQ8ZqbwJU36oEewqyw410hmQkKEQoJXUPjsf/KJzPBzuPx2VnkfMZMUJ4lNynshJw2TH2bzndmmpnI+dAPN/X17nzk1xNMG5OHv7kfNnP2dNVkanL6MZyPpFdjyU5YjZw35Xy+qpEv/kpNIgZNG+JFx5KcFEk8FM++vfQJ31KTmP37ewmmaM6jU3u/FVxK4k1PE34o+t9DbkGQV+SDGalPG+kJ57tBc0ZYdnIi7ZCspu8u+oLBmsxMejXKr6Nv+2edpiQ/4w8wEMv1Y0yOUAAAAABJRU5ErkJggg=="><br>📱 Scan PubMed
 </div>
 
 ---
 
 # Case #4 — 橈動脈 PCI 後腹膜後血腫
 
-## [Shivanne Gowda D, et al. JACC Case Rep 2026:111558](https://doi.org/10.1016/j.jaccas.2026.111558)
+## [Shivanne Gowda D, et al. JACC Case Rep 2026:111558](https://pubmed.ncbi.nlm.nih.gov/43096985/)
 
 - 71 歲下壁 MI 用鏈激酶後 3 天、DAPT＋enoxaparin 下行右冠橈動脈 PCI
 - 12 小時後腹痛、低血壓，Hb 11.6→6；CT 見左腹膜後血腫，栓塞**左第三腰動脈**止血
@@ -441,14 +440,14 @@ TTR 如期下降、QoL 名目改善
 > **橈動脈入路≠沒有大出血風險**；PCI 後不明低血壓要早做影像排除腹膜後出血
 
 <div class="qr">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeAQAAAAB6HIMaAAABkElEQVR42u2YUW7DMAxDhfkAPpKv7iP5AAE0krKb/HQ/GzB+NAjatPkhBOqJcuT764rPy9+9XIGrrdH4a1x9Rk/+heev+OH6j5dQO6C65YTalOa68eypFmWEvHqG7KtnW6y2s1oohAfoB3+1K+7a6qet2sxTzJ4v97r69jDhcfsy4YZZwAMpJ+x/HNVOfgGzBVuadlCwq285FGLIDwHr4oZ40y7TCAMKYODkJ2tbjWbbZagnpJIMnA5U7kowSpV1s6oKtVc5xFJt5RnZoNotakZ4qj1YQHNpNJxJ4ckEyCujCgWhwDBdu2zIsVFe1R2+vCUKhvyQp8WGL2+ZauamQYFXTRfddfIKtqxqAWGF8aZDXil3cfhqNdsJx7XLlLvWrnOtEr57GXn1zAkaZLa81eaoEZaKDSSDOW/jhPAt2Hl32ByLIm3lRu+97N50mm++3TuvCEYPh/jgfZ5QsI2awpXPndXuBM5Tu2ns231WU7G2FknnxJiPQzD6tlKu8RbZhLHXahba053Paj7n8X/98humi4IgWJuCFAAAAABJRU5ErkJggg=="><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABiUlEQVRYhdWYsRGDMAxF5UtByQiM4s1ij8YoHoGSwhdF/8uQy+VSI1w4wKNA9teXHJG/oyiGPPbjUhPnVwDy5Acm3We7A5fU8Sg4eai2IjavYhxvdXup3oEgnlW4/PU+RGTastoM7dyBuHb6tIlon9qPqi4knoIguZqul7V852lM8hm5qu6L+cnPiEcQT8Nk8WAXENVmUcUm9A1xzzPCHdAG7UQmpcuMG/Pr6oo3F2zchcAkIQZbefi1DWjn2IXLid9a3TZXTlQIH9Tg5MFVpq5RB3lNhYQmlIntwsb88/U/I41KimmnWR4O5xNEMjcpsYkc3YawbsP5Tu3EJU9BPNyFkk7ny+w2Liem61bsS+FyXRb0nsqcDE5kqd4rg4xsLPEJfiel8+nKQp71FZr4YGfHXhkegg2JTQol7uco9kijw5fQxHt/nLczKiQqOpzvPBVcStzfhitD0R8PCU8UFXDEYz0S1/oGBD1HYp/hlh2cUDt0D+/z+Q8GcjIyGdlI4nVbv/M0JPk73l0rxumdnY4WAAAAAElFTkSuQmCC"><br>📱 Scan PubMed
 </div>
 
 ---
 
 # Case #5 — 破裂三尖瓣包蟲囊腫致非血栓性 PE
 
-## [Sharma M, et al. JACC Case Rep 2026:111514](https://doi.org/10.1016/j.jaccas.2026.111514)
+## [Sharma M, et al. JACC Case Rep 2026:111514](https://pubmed.ncbi.nlm.nih.gov/43096979/)
 
 - 20 歲男性休克、雙側肺動脈充盈缺損＋RV strain＋三尖瓣大型活動性腫塊
 - 難治性低氧 → **VA-ECMO**；手術證實破裂的三尖瓣包蟲囊腫 (hydatid cyst)
@@ -456,18 +455,23 @@ TTR 如期下降、QoL 名目改善
 > **不是所有肺動脈充盈缺損都是血栓**；VA-ECMO 可作為診斷與手術的 bridge（本週 PRAGUE-26 PE 主題的鑑別診斷提醒）
 
 <div class="qr">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeAQAAAAB6HIMaAAABjklEQVR42u1YwY0DIRAbHQVQEq1PSRSAxHlssptP7hNF50fQKgvLxyIe20Ps12PFd/O9zRkYbY5Wq7F6Rt/1CfOf+GP8xybQDqBuO4FWmPXguydaHCMPViecqwN2zY3RJhAWTsD2RzuLwESbi0tbtMXbybLqh7HGvH1owtPjqwnXmDxn8CHGkTdHtFmvnkVU/tYEgF15C7oCnmqt5nAHgbfk7aLelizs3DxbFZprlRUHNiWX7gDMrgpWdqBsMFhlhXyJIZ5M6OW2pWOouJ6aLNNUc2ShXYwVDfp2dd64gqICQ2nCdkXLGCOu3gbhytsmI1M2qBIbvnoLjZXY0sIalwRs67wIBnkrwwznVMPWJlloqdwIDtsqGP50ptxUIFfjY5tqZAoyX+ntNtZbBoPRziGf2OCst/KyK5YXYOfegXpbPQ6VVrnRuC+7W3X2vLb5Vj3vOO2D5Nf9PuGBljmBOWc7oxXCoEcY8/b0j7oAUSPpnBiVagAveLNEWQjjLjJ0WcegO6TAprz9Xrl/avMXb+2F7Cx7088AAAAASUVORK5CYII="><br>📱 Scan DOI
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkElEQVRYhdWYMbLDIAxExaRwmSNwFG5mOBpH8RFcumCi7Apw5v9MassUTMxzEcFqJSzyc2TlkMcxf2qw+eWArPYHgx5PPJFLaFxyTh6qWxbMVcD5VsNL5Q6E8VSx7S/3ISLLnhQztXMH0rXTll1E27J9qepC0lOQJBXoOtb8N099ks9IcI8jwk++hj/CeDZOUAhPgVHtiMo3ga73WJTuQe3YCeg2nM8todtFOvVTS1c8XJCza7JibTPPq3ykds5TuJrQMaJ2Vw6mEOPFO1mgEOwvPIR1EDs+FeKYUNdIyTbUYvvf4/FOYuFZpJGTL4GYsm8y+6JRt+l8UzuOSYbbIU95CuTD+civJyu6H9YS9srgkb2nWk76JhxYY9fZuMuWjdk5oV/b/pvzabVCnnibckz6CNZtsFemh/BAfJNsErcuOluPNDp8cU16788p8dbNik7nO28Fl5J+0xuuTEWfHuKfQCEIqceDHmlUQO+ETl2C9Rndsp0TmfWlin13sS8YNfsmZzZaF826rf/z1CH5Od7As9bLfNn3GwAAAABJRU5ErkJggg=="><br>📱 Scan PubMed
 </div>
 
 ---
 
 <!-- _class: lead -->
-# 💎 Take Home Message
+# 💎 Take Home Message (1/2)
 
 ### 1. **PRAGUE-26**：PE 導管溶栓 7 天事件 0.7% vs 6.8%（RR 0.10），但終點偏軟、開放標籤 → 等 PEITHO-3 定位
 ### 2. **CARDIO-TTRansform 是 negative**：eplontersen 主要終點 P=0.277，tafamidis 者無效 — 壓 TTR ≠ 改硬終點
 ### 3. **降壓全頻譜受益（BPLTTC）**：每 −5 mmHg，HR 0.90；但低風險 NNT 達 255 → 看絕對風險
 ### 4. **三尖瓣介入「降住院較穩、救命待證」**：TRI-FR 硬終點 HR 0.75（NS）；TRIPLACE TTVR 2 年複合 HR 0.60（PPM~15%）
+---
+
+<!-- _class: lead -->
+# 💎 Take Home Message (2/2)
+
 ### 5. **sotatercept 收縮性↓是節能式調整**：RV-PA coupling 保留、游離壁應變↑ — 別只看 TAPSE
 ### 6. **TAVI 設計/照護**：瓣內 PPM 11.9% vs 瓣上 3.4%（存活同）；術後 CR 與較低死亡相關
 ### 7. **M-TEER 看右心與全身**：RASr <24%、低 PP＋高 MELD-XI（HR 7.80）皆獨立預測死亡
@@ -508,7 +512,7 @@ TTR 如期下降、QoL 名目改善
 19. Cardiac Rehab & Mortality after TAVI/SAVR (Meta-analysis). [*Eur J Prev Cardiol* 2026.](https://doi.org/10.1093/eurjpc/zwag591)
 20. End-Organ Dysfunction & Perfusion Pressure after M-TEER. [*Catheter Cardiovasc Interv* 2026.](https://doi.org/10.1002/ccd.71070)
 
-**Case Reports（JACC Case Rep）**：111240｜111407｜111389｜111558｜111514（DOI 10.1016/j.jaccas.2026.xxxxxx）
+**Case Reports（JACC Case Rep，PubMed）**：[111240](https://pubmed.ncbi.nlm.nih.gov/43096974/)｜[111407](https://pubmed.ncbi.nlm.nih.gov/43096982/)｜[111389](https://pubmed.ncbi.nlm.nih.gov/43096983/)｜[111558](https://pubmed.ncbi.nlm.nih.gov/43096985/)｜[111514](https://pubmed.ncbi.nlm.nih.gov/43096979/)
 
 ---
 

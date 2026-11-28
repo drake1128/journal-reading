@@ -74,11 +74,11 @@ BPLTTC 則用 35 萬人把「低風險到底要不要降壓」講清楚。每降
 
 ### 🔬 Case Reports（JACC Case Reports × 5）
 
-1. **d-TGA 心房轉流後分期 TTVR**：系統右心室功能不良＋入路受限（股靜脈閉鎖、baffle/髂靜脈狹窄），經上腔靜脈 baffle 穿刺完成 TTVR。[DOI](https://doi.org/10.1016/j.jaccas.2026.111240)
-2. **下壁 MI 後心室中隔假性動脈瘤**：分期經導管「出口優先、再入口」關閉，18 個月改善。[DOI](https://doi.org/10.1016/j.jaccas.2026.111407)
-3. **膜部中隔瘤病人的 TAVR**：landing zone 不均，影像＋CT 規劃調整釋放策略安全完成。[DOI](https://doi.org/10.1016/j.jaccas.2026.111389)
-4. **橈動脈 PCI 後腹膜後血腫**：自發性腰動脈出血，栓塞止血。提醒橈動脈入路≠沒有大出血風險。[DOI](https://doi.org/10.1016/j.jaccas.2026.111558)
-5. **破裂三尖瓣包蟲囊腫致非血栓性 PE**：RV 衰竭需 VA-ECMO；不是所有肺動脈充盈缺損都是血栓。[DOI](https://doi.org/10.1016/j.jaccas.2026.111514)
+1. **d-TGA 心房轉流後分期 TTVR**：系統右心室功能不良＋入路受限（股靜脈閉鎖、baffle/髂靜脈狹窄），經上腔靜脈 baffle 穿刺完成 TTVR。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096974/)
+2. **下壁 MI 後心室中隔假性動脈瘤**：分期經導管「出口優先、再入口」關閉，18 個月改善。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096982/)
+3. **膜部中隔瘤病人的 TAVR**：landing zone 不均，影像＋CT 規劃調整釋放策略安全完成。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096983/)
+4. **橈動脈 PCI 後腹膜後血腫**：自發性腰動脈出血，栓塞止血。提醒橈動脈入路≠沒有大出血風險。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096985/)
+5. **破裂三尖瓣包蟲囊腫致非血栓性 PE**：RV 衰竭需 VA-ECMO；不是所有肺動脈充盈缺損都是血栓。[PubMed](https://pubmed.ncbi.nlm.nih.gov/43096979/)
 
 ### 💎 Take Home Message
 
@@ -282,15 +282,15 @@ BPLTTC 則用 35 萬人把「低風險到底要不要降壓」講清楚。每降
 本週精選 5 例，皆偏向**結構／介入的困難解剖與併發症救援**，與 Drake 的結構心臟病介入路線直接相關（主要取自 JACC Case Reports 2026-11-25/26）。
 
 1. **d-TGA 心房轉流術後的分期 TTVR（極限入路規劃）** — 40 歲 dextro-transposition of the great arteries (d-TGA) 心房轉流術後，合併系統右心室功能不良、嚴重三尖瓣逆流/狹窄、心搏過速，加上左股靜脈閉鎖、上腔靜脈 baffle 與右髂靜脈嚴重狹窄。團隊以分期策略：右髂靜脈成形 → 電燒 → 經上腔靜脈 baffle 穿刺完成 transcatheter tricuspid valve replacement (TTVR)。**教學點**：先天複雜解剖＋入路受限＋高再手術風險下，審慎的分期規劃＋備好緊急機械循環支持，可讓經導管治療變可行。
-   Castellano C, Small A, et al. [*JACC Case Rep*. 2026:111240.](https://doi.org/10.1016/j.jaccas.2026.111240)（PMID 43096974）
+   Castellano C, Small A, et al. [*JACC Case Rep*. 2026:111240.](https://pubmed.ncbi.nlm.nih.gov/43096974/)（PMID 43096974）
 2. **下壁梗塞後心室中隔假性動脈瘤：多階段經導管關閉** — 75 歲男性初級 PCI 後 5 天出現「單入口、雙出口」型心室中隔假性動脈瘤（postinfarction ventricular septal pseudoaneurysm）。採分期經導管策略：先關較大出口、5 個月後再關入口，18 個月追蹤血流動力學持續改善。**教學點**：MI 後出現反覆心衰或新雜音要想到中隔夾層/假性動脈瘤；單次修補不可行時，依解剖「出口優先、再入口」的分期關閉是手術高風險者的替代路徑。
-   Jiang H, Li L, et al. [*JACC Case Rep*. 2026:111407.](https://doi.org/10.1016/j.jaccas.2026.111407)（PMID 43096982）
+   Jiang H, Li L, et al. [*JACC Case Rep*. 2026:111407.](https://pubmed.ncbi.nlm.nih.gov/43096982/)（PMID 43096982）
 3. **膜部中隔瘤 (membranous septal aneurysm) 病人的 TAVR 策略** — 81 歲嚴重 AS 合併膜部中隔瘤（landing zone 不均勻、部分無支撐），作者示範以多模態影像＋CT 規劃調整釋放策略，安全完成 TAVR。**教學點**：膜部中隔瘤會讓 TAVR 的著陸區變複雜、增加傳導障礙與瓣膜栓塞風險；術前影像辨識＋深度控制是關鍵。
-   TAVR in Membranous Septal Aneurysm: Procedural Strategy and Outcomes. [*JACC Case Rep*. 2026:111389.](https://doi.org/10.1016/j.jaccas.2026.111389)（PMID 43096983）
+   TAVR in Membranous Septal Aneurysm: Procedural Strategy and Outcomes. [*JACC Case Rep*. 2026:111389.](https://pubmed.ncbi.nlm.nih.gov/43096983/)（PMID 43096983）
 4. **橈動脈 PCI 後致命性腹膜後血腫（自發性腰動脈出血）** — 71 歲男性下壁 MI 用鏈激酶後 3 天、DAPT＋enoxaparin 下行右冠橈動脈 PCI，12 小時後腹痛、低血壓、Hb 由 11.6 掉到 6 g/dL，CT 見左腹膜後血腫活動性外滲，血管攝影定位左第三腰動脈出血並成功栓塞；過程併發急性腎衰需透析。**教學點**：**橈動脈入路不等於沒有大出血風險**；多層次溶栓＋抗血小板＋抗凝疊加會造成非入路部位自發性出血。PCI 後不明原因低血壓要早做影像排除腹膜後出血。
-   Shivanne Gowda D, Mahorkar A, et al. [*JACC Case Rep*. 2026:111558.](https://doi.org/10.1016/j.jaccas.2026.111558)（PMID 43096985）
+   Shivanne Gowda D, Mahorkar A, et al. [*JACC Case Rep*. 2026:111558.](https://pubmed.ncbi.nlm.nih.gov/43096985/)（PMID 43096985）
 5. **破裂的三尖瓣包蟲囊腫致非血栓性肺栓塞＋右心衰竭，需 VA-ECMO** — 20 歲葉門男性急性呼吸困難、發燒、休克，影像見雙側肺動脈充盈缺損＋RV strain＋三尖瓣大型活動性腫塊，難治性低氧與阻塞性休克下啟動 VA-ECMO；TEE 見囊性病灶＋卵圓孔未閉右到左分流，急診手術證實為破裂的三尖瓣包蟲囊腫 (hydatid cyst)。**教學點**：**不是所有肺動脈充盈缺損都是血栓**；破裂的心臟包蟲囊腫可造成非血栓性肺栓塞，VA-ECMO 可作為診斷與手術的 bridge。對本週 PRAGUE-26「肺栓塞」主題是極佳的鑑別診斷提醒。
-   Sharma M, Tawayha M, et al. [*JACC Case Rep*. 2026:111514.](https://doi.org/10.1016/j.jaccas.2026.111514)（PMID 43096979）
+   Sharma M, Tawayha M, et al. [*JACC Case Rep*. 2026:111514.](https://pubmed.ncbi.nlm.nih.gov/43096979/)（PMID 43096979）
 
 ---
 
@@ -399,11 +399,11 @@ BPLTTC 則用 35 萬人把「低風險到底要不要降壓」講清楚。每降
 21. End-Organ Dysfunction and Postprocedural Perfusion Pressure in Relation to Mortality After Mitral TEER. [*Catheter Cardiovasc Interv*. 2026.](https://doi.org/10.1002/ccd.71070)（PMID 43102244）
 
 ### Case Reports（JACC Case Reports）
-22. Castellano C, Small A, et al. Staged Tricuspid Valve-in-Valve Replacement in Atrial Switch With Ventricular Dysfunction, Limited Vascular Access, and Tachyarrhythmia. [*JACC Case Rep*. 2026:111240.](https://doi.org/10.1016/j.jaccas.2026.111240)（PMID 43096974）
-23. Jiang H, Li L, et al. Ventricular Septal Pseudoaneurysm After Inferior MI: Multistage Interventional Management. [*JACC Case Rep*. 2026:111407.](https://doi.org/10.1016/j.jaccas.2026.111407)（PMID 43096982）
-24. TAVR in Membranous Septal Aneurysm: Procedural Strategy and Outcomes. [*JACC Case Rep*. 2026:111389.](https://doi.org/10.1016/j.jaccas.2026.111389)（PMID 43096983）
-25. Shivanne Gowda D, Mahorkar A, et al. Life-Threatening Retroperitoneal Hematoma After Radial PCI. [*JACC Case Rep*. 2026:111558.](https://doi.org/10.1016/j.jaccas.2026.111558)（PMID 43096985）
-26. Sharma M, Tawayha M, et al. Ruptured Tricuspid Hydatid Cyst Causing Nonthrombotic Pulmonary Embolism and RV Failure Requiring VA-ECMO. [*JACC Case Rep*. 2026:111514.](https://doi.org/10.1016/j.jaccas.2026.111514)（PMID 43096979）
+22. Castellano C, Small A, et al. Staged Tricuspid Valve-in-Valve Replacement in Atrial Switch With Ventricular Dysfunction, Limited Vascular Access, and Tachyarrhythmia. [*JACC Case Rep*. 2026:111240.](https://pubmed.ncbi.nlm.nih.gov/43096974/)（PMID 43096974）
+23. Jiang H, Li L, et al. Ventricular Septal Pseudoaneurysm After Inferior MI: Multistage Interventional Management. [*JACC Case Rep*. 2026:111407.](https://pubmed.ncbi.nlm.nih.gov/43096982/)（PMID 43096982）
+24. TAVR in Membranous Septal Aneurysm: Procedural Strategy and Outcomes. [*JACC Case Rep*. 2026:111389.](https://pubmed.ncbi.nlm.nih.gov/43096983/)（PMID 43096983）
+25. Shivanne Gowda D, Mahorkar A, et al. Life-Threatening Retroperitoneal Hematoma After Radial PCI. [*JACC Case Rep*. 2026:111558.](https://pubmed.ncbi.nlm.nih.gov/43096985/)（PMID 43096985）
+26. Sharma M, Tawayha M, et al. Ruptured Tricuspid Hydatid Cyst Causing Nonthrombotic Pulmonary Embolism and RV Failure Requiring VA-ECMO. [*JACC Case Rep*. 2026:111514.](https://pubmed.ncbi.nlm.nih.gov/43096979/)（PMID 43096979）
 
 ### 補充（外部報導 — 試驗結果交叉驗證）
 27. TCTMD. PRAGUE-26: Catheter-Directed Thrombolysis Beneficial in Intermediate-High-Risk PE. 2026. https://www.tctmd.com/news/prague-26-catheter-directed-thrombolysis-beneficial-intermediate-high-risk-pe
